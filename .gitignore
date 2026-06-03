@@ -80,6 +80,12 @@ raw/**/*.pdf
 raw/**/*.epub
 raw/**/*.mobi
 
+# Private/noncommercial UDL MVP source PDFs
+!raw/udl/source/
+!raw/udl/source/UnderstandingDeepLearning_02_09_26_C.pdf
+!raw/udl/source/UDL_Answer_Booklet_Students.pdf
+!raw/udl/source/SHA256SUMS
+
 # Wiki/editor local state
 .obsidian/
 
