@@ -1,0 +1,149 @@
+[
+  {
+    "number": 1,
+    "title": "Introduction",
+    "slug": "ch01-introduction",
+    "pdf_start": 15,
+    "pdf_end": 30
+  },
+  {
+    "number": 2,
+    "title": "Supervised learning",
+    "slug": "ch02-supervised-learning",
+    "pdf_start": 31,
+    "pdf_end": 38
+  },
+  {
+    "number": 3,
+    "title": "Shallow neural networks",
+    "slug": "ch03-shallow-neural-networks",
+    "pdf_start": 39,
+    "pdf_end": 54
+  },
+  {
+    "number": 4,
+    "title": "Deep neural networks",
+    "slug": "ch04-deep-neural-networks",
+    "pdf_start": 55,
+    "pdf_end": 69
+  },
+  {
+    "number": 5,
+    "title": "Loss functions",
+    "slug": "ch05-loss-functions",
+    "pdf_start": 70,
+    "pdf_end": 90
+  },
+  {
+    "number": 6,
+    "title": "Fitting models",
+    "slug": "ch06-fitting-models",
+    "pdf_start": 91,
+    "pdf_end": 109
+  },
+  {
+    "number": 7,
+    "title": "Gradients and initialization",
+    "slug": "ch07-gradients-and-initialization",
+    "pdf_start": 110,
+    "pdf_end": 131
+  },
+  {
+    "number": 8,
+    "title": "Measuring performance",
+    "slug": "ch08-measuring-performance",
+    "pdf_start": 132,
+    "pdf_end": 151
+  },
+  {
+    "number": 9,
+    "title": "Regularization",
+    "slug": "ch09-regularization",
+    "pdf_start": 152,
+    "pdf_end": 174
+  },
+  {
+    "number": 10,
+    "title": "Convolutional networks",
+    "slug": "ch10-convolutional-networks",
+    "pdf_start": 175,
+    "pdf_end": 199
+  },
+  {
+    "number": 11,
+    "title": "Residual networks",
+    "slug": "ch11-residual-networks",
+    "pdf_start": 200,
+    "pdf_end": 220
+  },
+  {
+    "number": 12,
+    "title": "Transformers",
+    "slug": "ch12-transformers",
+    "pdf_start": 221,
+    "pdf_end": 253
+  },
+  {
+    "number": 13,
+    "title": "Graph neural networks",
+    "slug": "ch13-graph-neural-networks",
+    "pdf_start": 254,
+    "pdf_end": 282
+  },
+  {
+    "number": 14,
+    "title": "Unsupervised learning",
+    "slug": "ch14-unsupervised-learning",
+    "pdf_start": 283,
+    "pdf_end": 289
+  },
+  {
+    "number": 15,
+    "title": "Generative adversarial networks",
+    "slug": "ch15-generative-adversarial-networks",
+    "pdf_start": 290,
+    "pdf_end": 317
+  },
+  {
+    "number": 16,
+    "title": "Normalizing flows",
+    "slug": "ch16-normalizing-flows",
+    "pdf_start": 318,
+    "pdf_end": 340
+  },
+  {
+    "number": 17,
+    "title": "Variational autoencoders",
+    "slug": "ch17-variational-autoencoders",
+    "pdf_start": 341,
+    "pdf_end": 362
+  },
+  {
+    "number": 18,
+    "title": "Diffusion models",
+    "slug": "ch18-diffusion-models",
+    "pdf_start": 363,
+    "pdf_end": 387
+  },
+  {
+    "number": 19,
+    "title": "Reinforcement learning",
+    "slug": "ch19-reinforcement-learning",
+    "pdf_start": 388,
+    "pdf_end": 415
+  },
+  {
+    "number": 20,
+    "title": "Why does deep learning work?",
+    "slug": "ch20-why-does-deep-learning-work",
+    "pdf_start": 416,
+    "pdf_end": 434
+  },
+  {
+    "number": 21,
+    "title": "Deep learning and ethics",
+    "slug": "ch21-deep-learning-and-ethics",
+    "pdf_start": 435,
+    "pdf_end": 450
+  }
+]

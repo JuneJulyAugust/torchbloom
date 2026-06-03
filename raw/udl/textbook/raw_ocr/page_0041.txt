@@ -1,0 +1,36 @@
+<|ref|>equation<|/ref|><|det|>[[381, 208, 778, 263]]<|/det|>
+ \[ \begin{aligned}h_{1}\quad&=\quad a[\theta_{10}+\theta_{11}x]\\h_{2}\quad&=\quad a[\theta_{20}+\theta_{21}x]\\h_{3}\quad&=\quad a[\theta_{30}+\theta_{31}x],\end{aligned} \quad (3.3) \] 
+
+<|ref|>text<|/ref|><|det|>[[150, 285, 780, 317]]<|/det|>
+where we refer to \(h_{1}\), \(h_{2}\), and \(h_{3}\) as hidden units. Second, we compute the output by combining these hidden units with a linear function:\(^{1}\)
+
+<|ref|>equation<|/ref|><|det|>[[355, 346, 778, 362]]<|/det|>
+ \[ y=\phi_{0}+\phi_{1}h_{1}+\phi_{2}h_{2}+\phi_{3}h_{3}. \quad (3.4) \] 
+
+<|ref|>text<|/ref|><|det|>[[150, 384, 781, 475]]<|/det|>
+Figure 3.3 shows the flow of computation that creates the function in figure 3.2a. Each hidden unit contains a linear function \(\theta_{\bullet0} + \theta_{\bullet1}x\) of the input, and that line is clipped by the ReLU function \(a[\bullet]\) below zero. The positions where the three lines cross zero become the three "joints" in the final output. The three clipped lines are then weighted by \(\phi_{\bullet}\) that were subsequently applied. For example, the slope in the shaded region (see problem 3.3) is \(\theta_{11}\phi_{1} + \theta_{31}\phi_{3}\), where the first term is the slope in panel (g) and the second term is the slope in panel (i).
+
+<|ref|>text<|/ref|><|det|>[[150, 478, 781, 600]]<|/det|>
+Each hidden unit contributes one “joint” to the function, so with three hidden units, there can be four linear regions. However, only three of the slopes of these regions are independent; the fourth is either zero (if all the hidden units are inactive in this region) or is a sum of slopes from the other regions.
+
+<|ref|>text<|/ref|><|det|>[[150, 602, 781, 664]]<|/det|>
+Each hidden unit contributes one “joint” to the function, so with three hidden units, there can be four linear regions. However, only three of the slopes of these regions are independent; the fourth is either zero (if all the hidden units are inactive in this region) or is a sum of slopes from the other regions.
+
+<|ref|>sub_title<|/ref|><|det|>[[94, 698, 370, 715]]<|/det|>
+## 3.1.2 Depicting neural networks
+
+<|ref|>text<|/ref|><|det|>[[150, 729, 781, 806]]<|/det|>
+We have been discussing a neural network with one input, one output, and three hidden units. We visualize this network in figure 3.4a. The input is on the left, the hidden units are in the middle, and the output is on the right. Each connection represents one of the ten parameters. To simplify this representation, we do not typically draw the intercept parameters, so this network is usually depicted as in figure 3.4b.
+
+<|ref|>text<|/ref|><|det|>[[808, 610, 930, 636]]<|/det|>
+Notebook 3.1
+Shallow networks I
+
+<|ref|>text<|/ref|><|det|>[[830, 649, 909, 662]]<|/det|>
+Problem 3.9
+
+<|ref|>text<|/ref|><|det|>[[150, 829, 781, 868]]<|/det|>
+ \( ^{1} \) For the purposes of this book, a linear function has the form  \( z' = \phi_0 + \sum_i \phi_i z_i \) . Any other type of function is nonlinear. For instance, the ReLU function (equation 3.2) and the example neural network that contains it (equation 3.1) are both nonlinear. See notes at end of chapter for further clarification.
+
+<|ref|>text<|/ref|><|det|>[[289, 899, 645, 913]]<|/det|>
+Draft: please send errata to udlbookmail@gmail.com.

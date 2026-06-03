@@ -1,0 +1,23 @@
+<|ref|>image<|/ref|><|det|>[[357, 170, 671, 316]]<|/det|>
+
+
+<|ref|>figure_title<|/ref|><|det|>[[259, 331, 796, 448]]<|/det|>
+Figure 3.12 Terminology. A shallow network consists of an input layer, a hidden layer, and an output layer. Each layer is connected to the next by forward connections (arrows). For this reason, these models are referred to as feed-forward networks. When every variable in one layer connects to every variable in the next, we call this a fully connected network. Each connection represents a slope parameter in the underlying equation, and these parameters are referred to as network weights. The values of these slopes represent the hidden units that have been activated by the input, and then (iii) take a linear combination of these activations to form the outputs. Shallow neural networks make predictions y based on inputs x by dividing the input space into a continuous surface of piecewise linear regions. With enough hidden units (neurons), shallow neural networks can approximate any continuous function to arbitrary precision.
+
+<|ref|>text<|/ref|><|det|>[[214, 503, 844, 534]]<|/det|>
+represent slope parameters in the underlying equations and are referred to as network weights. The offset parameters (not shown in figure 3.12) are called biases.
+
+<|ref|>sub_title<|/ref|><|det|>[[168, 563, 305, 582]]<|/det|>
+## 3.6 Summary
+
+<|ref|>text<|/ref|><|det|>[[213, 596, 844, 687]]<|/det|>
+Shallow neural networks have one hidden layer. They (i) compute several linear functions of the input, (ii) pass each result through an activation function, and then (iii) take a linear combination of these activations to form the outputs. Shallow neural networks make predictions y based on inputs x by dividing the input space into a continuous surface of piecewise linear regions. With enough hidden units (neurons), shallow neural networks can approximate any continuous function to arbitrary precision.
+
+<|ref|>text<|/ref|><|det|>[[214, 689, 843, 720]]<|/det|>
+Chapter 4 discusses deep neural networks, which extend the models from this chapter by adding more hidden layers. Chapters 5–7 describe how to train these models.
+
+<|ref|>sub_title<|/ref|><|det|>[[215, 757, 273, 773]]<|/det|>
+## Notes
+
+<|ref|>text<|/ref|><|det|>[[213, 789, 844, 868]]<|/det|>
+“Neural” networks: If the models in this chapter are just functions, why are they called “neural networks”? The connection is, unfortunately, tenuous. Visualizations like figure 3.12 consist of nodes (inputs, hidden units, and outputs) that are densely connected to one another. This bears a superficial similarity to neurons in the mammalian brain, which also have dense connections. However, there is scant evidence that brain computation works in the same way as neural networks, and it is unhelpful to think about biology going forward.
