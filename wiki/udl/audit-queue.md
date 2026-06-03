@@ -20,4 +20,4 @@ learning_objectives:
 | open | ch01-ch03 | Equation OCR needs spot-checking before equation pages are marked reviewed. | `raw/udl/textbook/pages/` | Compare against rendered page images. |
 | open | ch01 | Answer booklet has no selected-answer chapter section. | `raw/udl/answers/index.md` | Ch1 practice cards should use `review-needed` or independently worked answers. |
 | open | ch02-ch03 | Practice question extraction should be checked against end-of-chapter pages. | `raw/udl/textbook/pages/` | Build practice index from source pages, then human-review. |
-
+| open | ch03 | Answer booklet problem numbering diverges near current textbook problems 3.16-3.18. | `raw/udl/answers/pages/page_0010.md` | Treat ch03-q16 answer material as candidate until checked against the PDF. |

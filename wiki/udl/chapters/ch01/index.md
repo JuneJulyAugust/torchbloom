@@ -26,10 +26,11 @@ need functions, parameters, data, and optimization.
 
 - Raw OCR pages: `raw/udl/textbook/pages/ch01-introduction/page_0015.md` through `page_0030.md`.
 - Selected answers: no Chapter 1 section in the student answer booklet.
-- Next artifacts: reading guide, practice index, and prerequisite bridge inventory.
+- Reading guide: [reading-guide.md](reading-guide.md).
+- Practice index: [practice-index.md](practice-index.md).
+- Notebook guide: `wiki/udl/notebook-guides/notebook-1-1-background-mathematics.md`.
 
 ## Learning Focus
 
 By the end of this chapter pack, the learner should know what deep learning is
 trying to accomplish and why the rest of the book quickly becomes mathematical.
-

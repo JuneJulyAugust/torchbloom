@@ -26,10 +26,12 @@ combine into more flexible functions.
 
 - Raw OCR pages: `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0039.md` through `page_0054.md`.
 - Selected answers: booklet pages 7-12.
-- Next artifacts: reading guide, practice index, ReLU bridge, shallow-network concept pages, and equation pages for the activation and network definitions.
+- Reading guide: [reading-guide.md](reading-guide.md).
+- Practice index: [practice-index.md](practice-index.md).
+- Practice cards: `wiki/udl/practices/ch03-q01.md` through `ch03-q16.md`.
+- Notebook guides: `wiki/udl/notebook-guides/notebook-3-1-shallow-networks-i.md` through `notebook-3-4-activation-functions.md`.
 
 ## Learning Focus
 
 This chapter turns linear regression into a richer function family by adding
 hidden units, activations, and composition.
-

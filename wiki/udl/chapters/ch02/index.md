@@ -26,10 +26,12 @@ changing parameters changes the fit.
 
 - Raw OCR pages: `raw/udl/textbook/pages/ch02-supervised-learning/page_0031.md` through `page_0038.md`.
 - Selected answers: booklet pages 5-6.
-- Next artifacts: reading guide, practice index, linear regression concept page, and loss-function equation pages.
+- Reading guide: [reading-guide.md](reading-guide.md).
+- Practice index: [practice-index.md](practice-index.md).
+- Practice cards: `wiki/udl/practices/ch02-q01.md` through `ch02-q03.md`.
+- Notebook guide: `wiki/udl/notebook-guides/notebook-2-1-supervised-learning.md`.
 
 ## Learning Focus
 
 This chapter is the bridge from "AI can do tasks" to "we can fit a function by
 choosing parameters that reduce a loss."
-

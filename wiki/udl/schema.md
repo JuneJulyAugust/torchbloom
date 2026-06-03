@@ -41,7 +41,7 @@ learning_objectives:
 | Field | Required | Rule |
 | --- | --- | --- |
 | `id` | Yes | Stable kebab-case id. Prefer matching the filename except chapter indexes. |
-| `type` | Yes | `chapter-pack`, `concept`, `math-bridge`, `equation`, `practice-card`, `notebook-guide`, `index`, `methodology`, `schema`, or `audit`. |
+| `type` | Yes | `chapter-pack`, `reading-guide`, `practice-index`, `concept`, `math-bridge`, `equation`, `practice-card`, `notebook-guide`, `index`, `methodology`, `schema`, or `audit`. |
 | `title` | Yes | Human-readable page title. |
 | `chapter_scope` | Yes | List of chapter ids, or `[]` for cross-book infrastructure. |
 | `source_anchors` | Yes | At least one source and locator, unless the page is a pure schema page. |
@@ -53,6 +53,8 @@ learning_objectives:
 ## Page Types
 
 - `chapter-pack`: chapter landing page and chapter-specific navigation.
+- `reading-guide`: section-by-section reading plan for one chapter.
+- `practice-index`: chapter question inventory with answer policy and review state.
 - `concept`: shared conceptual explanation.
 - `math-bridge`: prerequisite ramp from high-school math to UDL notation.
 - `equation`: one equation as a first-class learning object.
