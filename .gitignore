@@ -1,0 +1,87 @@
+# macOS
+.DS_Store
+*.swp
+*~
+
+# Local env and secrets
+.env
+.env.*
+*.local
+.envrc
+.direnv/
+
+# IDEs
+.vscode/
+.idea/
+.fleet/
+.cursor/
+
+# Local agent state
+.claude/
+.codex/
+.antigravitycli/
+CLAUDE.md
+CODEX.md
+Gemini.md
+GEMINI.md
+
+# Node and web
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+.parcel-cache/
+.turbo/
+.next/
+.nuxt/
+.svelte-kit/
+dist/
+build/
+coverage/
+storybook-static/
+playwright-report/
+test-results/
+reports/
+.cache/
+.eslintcache
+.prettier-cache
+*.tsbuildinfo
+
+# Python
+.venv/
+.venv*/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Generated and local-only artifacts
+output/
+tmp/
+scratch/
+artifacts/local/
+
+# Raw source material that should stay private unless explicitly licensed for git
+raw/**/private/
+raw/**/*fulltext*
+raw/**/*.pdf
+raw/**/*.epub
+raw/**/*.mobi
+
+# Wiki/editor local state
+.obsidian/
+
+# Worktrees
+.worktrees/
