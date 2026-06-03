@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "torchbloom"
+version = "0.1.0"
+description = "TorchBloom project utilities"
+requires-python = ">=3.12"
+dependencies = [
+  "Pillow>=10,<12",
+  "pymupdf>=1.26,<2",
+  "PyYAML>=6,<7",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8,<9",
+]
+ocr = [
+  "mlx-vlm==0.5.0",
+]
+
+[project.scripts]
+torchbloom-udl-ocr = "torchbloom.udl_ocr_pipeline:main"
+torchbloom-udl-answers = "torchbloom.udl_answer_extract:main"
+torchbloom-validate-wiki = "torchbloom.wiki_validation:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
