@@ -74,7 +74,7 @@ Add versionable SVG assets under `assets/brand/`:
 
 - `torchbloom-icon.svg`: square icon for project identity.
 - `torchbloom-logo.svg`: compact logo lockup.
-- `torchbloom-title-banner.svg`: README banner.
+- `torchbloom-title-banner-v2.svg`: README banner, versioned so GitHub refreshes the rendered image instead of serving a cached draft.
 
 The visual direction is a warm torch flame joined with a sprout and small learning-path nodes. It should feel rigorous, kind, and curriculum-first rather than flashy.
 

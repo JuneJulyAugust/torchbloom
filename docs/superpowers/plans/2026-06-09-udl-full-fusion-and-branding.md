@@ -16,7 +16,7 @@
 - Create: `docs/superpowers/plans/2026-06-09-udl-full-fusion-and-branding.md`
 - Create: `assets/brand/torchbloom-icon.svg`
 - Create: `assets/brand/torchbloom-logo.svg`
-- Create: `assets/brand/torchbloom-title-banner.svg`
+- Create: `assets/brand/torchbloom-title-banner-v2.svg`
 - Modify: `README.md`
 - Modify: `raw/udl/README.md`
 - Modify: `src/torchbloom/udl_fusion_pilot.py`
@@ -43,7 +43,7 @@
 
 - [x] Add the square SVG icon.
 - [x] Add the compact SVG logo.
-- [x] Add the README title banner SVG.
+- [x] Add the versioned README title banner SVG.
 - [x] Insert the banner at the top of `README.md`.
 
 ## Task 4: Guarded Publish Command
