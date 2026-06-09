@@ -1,0 +1,74 @@
+[
+  {
+    "id": "page_0402-b001",
+    "page_key": 402,
+    "order": 1,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Chapter 20"
+  },
+  {
+    "id": "page_0402-b002",
+    "page_key": 402,
+    "order": 2,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Why does deep learning work?"
+  },
+  {
+    "id": "page_0402-b003",
+    "page_key": 402,
+    "order": 3,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "This chapter differs from those that precede it. Instead of presenting established results, it poses questions about how and why deep learning works so well. These questions are rarely discussed in textbooks. However, it\u2019s important to realize that (despite the title of this book) understanding of deep learning is still limited."
+  },
+  {
+    "id": "page_0402-b004",
+    "page_key": 402,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "We argue that it is surprising that deep networks are easy to train and also surprising that they generalize. Then we consider each of these topics in turn. We enumerate the factors that influence training success and discuss what is known about loss functions for deep networks. Then we consider the factors that influence generalization. We conclude with a discussion of whether networks need to be overparameterized and deep."
+  },
+  {
+    "id": "page_0402-b005",
+    "page_key": 402,
+    "order": 5,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "20.1 The case against deep learning"
+  },
+  {
+    "id": "page_0402-b006",
+    "page_key": 402,
+    "order": 6,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "The MNIST-1D dataset (figure 8.1) has just forty input dimensions and ten output dimensions. With enough hidden units per layer, a two-layer fully connected network classifies 10000 MNIST-1D training data points perfectly and generalizes reasonably to unseen examples (figure 8.10a). Indeed, we now take it for granted that with sufficient hidden units, deep networks will classify almost any training set near-perfectly. We also take for granted that the fitted model will generalize to new data. However, it\u2019s not at all obvious either that the training process should succeed or that the resulting model should generalize. This section argues that both these phenomena are surprising."
+  },
+  {
+    "id": "page_0402-b007",
+    "page_key": 402,
+    "order": 7,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "20.1.1 Training"
+  },
+  {
+    "id": "page_0402-b008",
+    "page_key": 402,
+    "order": 8,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Performance of a two-layer fully connected network on 10000 MNIST-1D training examples is perfect once there are 43 hidden units per layer or $\\sim$ 4000 parameters (figure 8.10). However, finding the global minimum of an arbitrary non-convex function is NP-hard (Murty & Kabadi, 1987), and this is also true for certain neural network loss functions (Blum & Rivest, 1992). It\u2019s remarkable that the fitting algorithm doesn\u2019t get trapped in local minima or stuck near saddle points and that it can efficiently recruit spare model"
+  }
+]

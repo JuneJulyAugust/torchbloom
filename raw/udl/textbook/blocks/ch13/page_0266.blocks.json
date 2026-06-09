@@ -1,0 +1,137 @@
+[
+  {
+    "id": "page_0266-b001",
+    "page_key": 266,
+    "order": 1,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "of reaching that node in a K-step random walk. This approaches the stationary distribution of walks over the graph with increasing K, causing the local neighborhood to be washed out."
+  },
+  {
+    "id": "page_0266-b002",
+    "page_key": 266,
+    "order": 2,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Alon & Yahav (2021) proposed another explanation for why performance doesn’t improve with network depth. They argue that adding depth allows information to be aggregated from longer paths. However, in practice, the exponential growth in the number of neighbors"
+  },
+  {
+    "id": "page_0266-b003",
+    "page_key": 266,
+    "order": 3,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Ying et al. (2018a) also note that when the depth of the network exceeds a certain limit, the gradients no longer propagate back, and learning fails for both the training and test data. They term this effect suspended animation. This is similar to when many la"
+  },
+  {
+    "id": "page_0266-b004",
+    "page_key": 266,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "It has recently become possible to train deeper graph neural networks using various forms of residual connection (Xu et al., 2018; Li et al., 2020a; Gong et al., 2020; Chen et al., 2020b; Xu et al., 2021a). Li et al. (2021a) train a state-of-the-art model with"
+  },
+  {
+    "id": "page_0266-b005",
+    "page_key": 266,
+    "order": 5,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problems"
+  },
+  {
+    "id": "page_0266-b006",
+    "page_key": 266,
+    "order": 6,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 13.1 Write out the adjacency matrices for the two graphs in figure 13.14."
+  },
+  {
+    "id": "page_0266-b007",
+    "page_key": 266,
+    "order": 7,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 13.2 $^{*}$ Draw graphs that correspond to the following adjacency matrices:"
+  },
+  {
+    "id": "page_0266-b008",
+    "page_key": 266,
+    "order": 8,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\mathbf{A}_{1}=\\begin{bmatrix}{{{0}}}&{{{1}}}&{{{1}}}&{{{0}}}&{{{0}}}&{{{0}}} \\\\{{{1}}}&{{{0}}}&{{{0}}}&{{{1}}}&{{{1}}}&{{{1}}} \\\\{{{1}}}&{{{0}}}&{{{0}}}&{{{0}}}&{{{0}}}&{{{1}}} \\\\{{{0}}}&{{{1}}}&{{{0}}}&{{{0}}}&{{{0}}}&{{{1}}} \\\\{{{0}}}&{{{1}}}&{{{1}}}&{{{1}}}&{{{0}}}&{{{0}}} \\\\{{{0}}}&{{{0}}}&{{{1}}}&{{{1}}}&{{{1}}}&{{{0}}}\\end{bmatrix}\\quad\\text{and}\\quad\\mathbf{A}_{2}=\\begin{bmatrix}{{{0}}}&{{{0}}}&{{{1}}}&{{{1}}}&{{{0}}}&{{{0}}} \\\\{{{0}}}&{{{0}}}&{{{1}}}&{{{1}}}&{{{0}}}&{{{0}}} \\\\{{{1}}}&{{{1}}}&{{{0}}}&{{{0}}}&{{{0}}}&{{{0}}} \\\\{{{1}}}&{{{1}}}&{{{0}}}&{{{0}}}&{{{1}}}&{{{1}}} \\\\{{{0}}}&{{{1}}}&{{{0}}}&{{{1}}}&{{{0}}}&{{{0}}} \\\\{{{0}}}&{{{0}}}&{{{0}}}&{{{1}}}&{{{0}}}&{{{0}}}\\end{bmatrix}."
+  },
+  {
+    "id": "page_0266-b009",
+    "page_key": 266,
+    "order": 9,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 13.3 $^{*}$ Consider the two graphs in figure 13.14. How many ways are there to walk from node one to node two in (i) three steps and (ii) seven steps?"
+  },
+  {
+    "id": "page_0266-b010",
+    "page_key": 266,
+    "order": 10,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 13.6 The diagonal of $A^{2}$ in figure 13.4c contains the number of edges that connect to each corresponding node. Explain this phenomenon."
+  },
+  {
+    "id": "page_0266-b011",
+    "page_key": 266,
+    "order": 11,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 13.5 What permutation matrix is responsible for the transformation between the graphs in figures 13.5a–c and figure 13.5d–f?"
+  },
+  {
+    "id": "page_0266-b012",
+    "page_key": 266,
+    "order": 12,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 13.6 Prove that:"
+  },
+  {
+    "id": "page_0266-b013",
+    "page_key": 266,
+    "order": 13,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\n\\mathrm{sig}\\left[\\beta_{K}+\\omega_{K}\\mathbf{H}_{K}1\\right]=\\mathrm{sig}\\left[\\beta_{K}+\\omega_{K}\\mathbf{H}_{K}\\mathbf{P}1\\right],\n\\tag{13.27}\n\\end{aligned}"
+  },
+  {
+    "id": "page_0266-b014",
+    "page_key": 266,
+    "order": 14,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "where P is an N × M permutation matrix (a matrix that is all zeros except for exactly one entry in each row and each column, which is one), and 1 is an N × 1 vector of ones."
+  },
+  {
+    "id": "page_0266-b015",
+    "page_key": 266,
+    "order": 15,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 13.7 $^{*}$ Consider the simple GNN layer:"
+  }
+]

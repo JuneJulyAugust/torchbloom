@@ -30,7 +30,7 @@ CENTERED_HTML_IMG_RE = re.compile(
     r"<p\s+align=[\"']center[\"']>\s*<img\b[^>]*\bsrc=[\"']([^\"']+)[\"'][^>]*>\s*</p>",
     re.IGNORECASE | re.DOTALL,
 )
-DISPLAY_MATH_BRACKET_RE = re.compile(r"(?m)^\\\[$|^\\\]$")
+DISPLAY_MATH_BRACKET_RE = re.compile(r"\\\[|\\\]")
 INLINE_MATH_PAREN_RE = re.compile(r"\\\(|\\\)")
 GITHUB_BLOCKED_MATH_MACRO_RE = re.compile(r"\\operatorname\b")
 INLINE_ESCAPED_BRACE_RE = re.compile(r"\$[^\n$]*\\[{}][^\n$]*\$")
@@ -1057,6 +1057,10 @@ def _write_publish_log(
     copied_figures: list[str],
     cleaned: list[str],
 ) -> None:
+    chapters: dict[int, Chapter] = {}
+    for spec in specs:
+        chapters[spec.chapter.number] = spec.chapter
+
     lines = [
         "# UDL Textbook Fusion Publish Log",
         "",
@@ -1072,17 +1076,24 @@ def _write_publish_log(
         f"- Referenced figures copied: {len(copied_figures)}",
         f"- Legacy files cleaned: {len(cleaned)}",
         "",
-        "## Copied Markdown",
+        "## Published Chapters",
         "",
     ]
-    lines.extend(f"- `{path}`" for path in copied_pages)
-    lines.extend(["", "## Copied Figures", ""])
-    lines.extend(f"- `{path}`" for path in copied_figures)
-    lines.extend(["", "## Cleaned Legacy Files", ""])
-    if cleaned:
-        lines.extend(f"- `{path}`" for path in cleaned)
-    else:
-        lines.append("- No legacy files were cleaned.")
+    for chapter in sorted(chapters.values(), key=lambda item: item.number):
+        chapter_specs = [spec for spec in specs if spec.chapter.number == chapter.number]
+        lines.append(
+            f"- Chapter {chapter.number}: {chapter.title} "
+            f"(`{chapter_specs[0].key}.md` through `{chapter_specs[-1].key}.md`)"
+        )
+    lines.extend(
+        [
+            "",
+            "## Cleanup Policy",
+            "",
+            "Legacy DeepSeek-only files are removed only for pages with validated fused replacements.",
+            "The cleaned-file count is retained as provenance; individual cleaned paths are intentionally omitted to keep this log readable.",
+        ]
+    )
     lines.append("")
     (dest_root / "log.md").write_text("\n".join(lines), encoding="utf-8")
 

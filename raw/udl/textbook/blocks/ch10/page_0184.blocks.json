@@ -1,0 +1,92 @@
+[
+  {
+    "id": "page_0184-b001",
+    "page_key": 184,
+    "order": 1,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "across multiple scales (Lin et al., 2017b). In contrast, proposal-free schemes perform all the processing in a single pass. YOLO (Redmon et al., 2016), which was described in section 10.5.2, is the most celebrated exa..."
+  },
+  {
+    "id": "page_0184-b002",
+    "page_key": 184,
+    "order": 2,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "The semantic segmentation network described in section 10.5.3 was developed by Noh et al. (2015). Many subsequent approaches have been variations of U-Net (Ronneberger et al., 2015), which is described in section 11.5..."
+  },
+  {
+    "id": "page_0184-b003",
+    "page_key": 184,
+    "order": 3,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "Visualizing Convolutional Networks: The dramatic success of convolutional networks led to a series of efforts to visualize the information they extract from the image (see Qin et al., 2018, for a review). Erhan et al...."
+  },
+  {
+    "id": "page_0184-b004",
+    "page_key": 184,
+    "order": 4,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "Finally, Bau et al. (2017) introduced network dissection. Here, a series of images with known pixel labels capturing color, texture, and object type are passed through the network, and the correlation of a hidden unit..."
+  },
+  {
+    "id": "page_0184-b005",
+    "page_key": 184,
+    "order": 5,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "heading",
+    "text": "## Problems"
+  },
+  {
+    "id": "page_0184-b006",
+    "page_key": 184,
+    "order": 6,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "exercise",
+    "text": "Problem 10.1 $^{*}$ Show that the operation in equation 10.3 is equivariant with respect to translation."
+  },
+  {
+    "id": "page_0184-b007",
+    "page_key": 184,
+    "order": 7,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "exercise",
+    "text": "Problem 10.2 Equation 10.3 defines 1D convolution with a kernel size of seven, a dilation rate of three, and a stride of two as pictured in figure 10.3a–b."
+  },
+  {
+    "id": "page_0184-b008",
+    "page_key": 184,
+    "order": 8,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "exercise",
+    "text": "Problem 10.3 Write out the equation for a 1D convolution with a kernel size of seven, a dilation rate of three, and a stride of two as pictured in figure 10.3a–b."
+  },
+  {
+    "id": "page_0184-b009",
+    "page_key": 184,
+    "order": 9,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "exercise",
+    "text": "Problem 10.4 Write out the equation for a 1D convolution with a kernel size of seven, a dilation rate of three and a stride of two as pictured in figure 10.3a–b."
+  },
+  {
+    "id": "page_0184-b010",
+    "page_key": 184,
+    "order": 10,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "exercise",
+    "text": "Problem 10.5 Draw weight matrices in the style of figure 10.4d for (i) the strided convolution in figure 10.3a–b, (ii) the convolution with kernel size 5 in figure 10.3c, and (iii) the dilated convolution in figure 10..."
+  }
+]

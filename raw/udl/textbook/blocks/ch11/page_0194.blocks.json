@@ -1,0 +1,83 @@
+[
+  {
+    "id": "page_0194-b001",
+    "page_key": 194,
+    "order": 1,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "After this operation, the activations have mean $\\delta$ and standard deviation $\\gamma$ across all members of the batch. Both of these quantities are learned during training."
+  },
+  {
+    "id": "page_0194-b002",
+    "page_key": 194,
+    "order": 2,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "Batch normalization is applied independently to each hidden unit. In a standard neural network with K layers, each containing D hidden units, there would be KD learned offsets $\\delta$ and KD learned scales $\\gamma$ ...."
+  },
+  {
+    "id": "page_0194-b003",
+    "page_key": 194,
+    "order": 3,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "heading",
+    "text": "## 11.4.1 Costs and benefits of batch normalization"
+  },
+  {
+    "id": "page_0194-b004",
+    "page_key": 194,
+    "order": 4,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "Batch normalization makes the network invariant to rescaling the weights and biases that contribute to each activation; if these are doubled, then the activations also double, the estimated standard deviation $s_{h}$..."
+  },
+  {
+    "id": "page_0194-b005",
+    "page_key": 194,
+    "order": 5,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "Stable forward propagation: If we initialize the offsets $\\delta$ to zero and the scales $\\gamma$ to one, then each output activation will have unit variance. In a regular network, this ensures the variance is stable..."
+  },
+  {
+    "id": "page_0194-b006",
+    "page_key": 194,
+    "order": 6,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "At initialization, this has the side-effect that later layers make a smaller change to the overall variation than earlier ones. The network is effectively less deep at the start of training since later layers are clos..."
+  },
+  {
+    "id": "page_0194-b007",
+    "page_key": 194,
+    "order": 7,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "Higher learning rates: Empirical studies and theory both show that batch normalization makes the loss surface and its gradient change more smoothly (i.e., reduces shattered gradients). This means we can use higher lea..."
+  },
+  {
+    "id": "page_0194-b008",
+    "page_key": 194,
+    "order": 8,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "Regularization: Empirical studies and theory both show that batch normalization makes the loss surface and its gradient change more smoothly (i.e., reduces shattered gradients). This means we can use higher learning r..."
+  },
+  {
+    "id": "page_0194-b009",
+    "page_key": 194,
+    "order": 9,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "[^2] Technically, this is only true if the BatchNorm operation is applied directly after the network layer. The situation is somewhat more complex if residual paths converge and re-divide between the network layer and..."
+  }
+]

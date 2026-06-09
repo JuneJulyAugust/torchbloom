@@ -1,0 +1,74 @@
+[
+  {
+    "id": "page_0212-b001",
+    "page_key": 212,
+    "order": 1,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "figure",
+    "image_path": "figures/page_0212_fig_1.jpg"
+  },
+  {
+    "id": "page_0212-b002",
+    "page_key": 212,
+    "order": 2,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Figure 12.4 Self-attention in matrix form. Self-attention can be implemented efficiently if we store the N input vectors $x_{n}$ in the columns of the D×N matrix X. The input X is operated on separately by the query m..."
+  },
+  {
+    "id": "page_0212-b003",
+    "page_key": 212,
+    "order": 3,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "number of inputs N, so the network can be applied to different sequence lengths. Second, there are connections between the inputs (words), and the strength of these connections depends on the inputs themselves via the..."
+  },
+  {
+    "id": "page_0212-b004",
+    "page_key": 212,
+    "order": 4,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "heading",
+    "text": "## 12.2.4 Matrix form"
+  },
+  {
+    "id": "page_0212-b005",
+    "page_key": 212,
+    "order": 5,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "The above computation can be written in a compact form if the N inputs $x_{n}$ form the columns of the $D \\times N$ matrix X. The values, queries, and keys can be computed as:"
+  },
+  {
+    "id": "page_0212-b006",
+    "page_key": 212,
+    "order": 6,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "equation",
+    "text": "\\begin{aligned}\\mathbf{V}[\\mathbf{X}]&=\\beta_{v}\\mathbf{1}^{\\mathrm{T}}+\\Omega_{v}\\mathbf{X}\\\\ \\mathbf{Q}[\\mathbf{X}]&=\\beta_{q}\\mathbf{1}^{\\mathrm{T}}+\\Omega_{q}\\mathbf{X}\\\\ \\mathbf{K}[\\mathbf{X}]&=\\beta_{k}\\mathbf{1}^{\\mathrm{T}}+\\Omega_{k}\\mathbf{X},\\end{aligned} \\quad (12.6)"
+  },
+  {
+    "id": "page_0212-b007",
+    "page_key": 212,
+    "order": 7,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "where 1 is an $N \\times 1$ vector containing ones. The self-attention computation is then:"
+  },
+  {
+    "id": "page_0212-b008",
+    "page_key": 212,
+    "order": 8,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "equation",
+    "text": "\\mathbf{S a}[\\mathbf{X}]=\\mathbf{V}[\\mathbf{X}]\\cdot\\mathbf{S o f t m a x}\\Big[\\mathbf{K}[\\mathbf{X}]^{T}\\mathbf{Q}[\\mathbf{X}]\\Big], \\quad (12.7)"
+  }
+]

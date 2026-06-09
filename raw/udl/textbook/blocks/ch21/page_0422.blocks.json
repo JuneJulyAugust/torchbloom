@@ -1,0 +1,74 @@
+[
+  {
+    "id": "page_0422-b001",
+    "page_key": 422,
+    "order": 1,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "2019; Christian, 2020; Gabriel, 2020). This is challenging for three reasons. First, it\u2019s difficult to define our values completely and correctly. Second, it is hard to encode these values as objectives of an AI model, and third, it is hard to ensure that the model learns to carry out these objectives."
+  },
+  {
+    "id": "page_0422-b002",
+    "page_key": 422,
+    "order": 2,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "In a machine learning model, the loss function is a proxy for our true objectives, and a misalignment between the two is termed the outer alignment problem (Hubinger et al., 2019). To the extent that this proxy is inadequate, there will be \u201cloopholes\u201d that the system can exploit to minimize its loss function while failing to satisfy the intended objective. For example, consider training an RL agent to play chess. If the agent is rewarded for capturing pieces, this may result in many drawn games rather than the desired behavior (to win the game). In contrast, the inner alignment problem is to ensure that the behavior of an AI system does not diverge from the intended objectives even when the loss function is well specified. If the learning algorithm fails to find the global minimum or the training data are unrepresentative, training can converge to a solution that is misaligned with the true objective resulting in undesirable behavior (Goldberg, 1987; Mitchell et al., 1992; Lehman & Stanley, 2008)."
+  },
+  {
+    "id": "page_0422-b003",
+    "page_key": 422,
+    "order": 3,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Gabriel (2020) divides the value alignment problem into technical and normative components. The technical component concerns how we encode values into the models so that they reliably do what they should. Some concrete problems, such as avoiding reward hacking and safe exploration, may have purely technical solutions (Amodei et al., 2016). In contrast, the normative component concerns what the correct values are in the first place. There may be no single answer to this question, given the range of things that different cultures and societies value. It\u2019s important that the encoded values are representative of everyone and not just culturally dominant subsets of society."
+  },
+  {
+    "id": "page_0422-b004",
+    "page_key": 422,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Another way to think about value alignment is as a structural problem that arises when a human principal delegates tasks to an artificial agent (LaCroix, 2022). This is similar to the principal-agent problem in economics (Laffont & Martimort, 2002), which allows that there are competing incentives inherent in any relationship where one party is expected to act in another\u2019s best interests. In the AI context, such conflicts of interest can arise when either (i) the objectives are misspecified or (ii) there is an informational asymmetry between the principal and the agent (figure 21.1)."
+  },
+  {
+    "id": "page_0422-b005",
+    "page_key": 422,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Many topics in AI ethics can be understood in terms of this structural view of value alignment. The following sections discuss problems of bias and fairness and artificial moral agency (both pertaining to specifying objectives) and transparency and explainability (both related to informational asymmetry)."
+  },
+  {
+    "id": "page_0422-b006",
+    "page_key": 422,
+    "order": 6,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "21.1.1 Bias and fairness"
+  },
+  {
+    "id": "page_0422-b007",
+    "page_key": 422,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "From a purely scientific perspective, bias refers to statistical deviation from some norm. In AI, it can be pernicious when this deviation depends on illegitimate factors that impact an output. For example, gender is irrelevant to job performance, so it is illegitimate to use gender as a basis for hiring a candidate. Similarly, race is irrelevant to criminality, so it is illegitimate to use race as a feature for recidivism prediction."
+  },
+  {
+    "id": "page_0422-b008",
+    "page_key": 422,
+    "order": 8,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Bias in AI models can be introduced in various ways (Fazelpour & Danks, 2021):"
+  }
+]

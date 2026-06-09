@@ -1,0 +1,130 @@
+[
+  {
+    "id": "page_0376-b001",
+    "page_key": 376,
+    "order": 1,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "**Figure 1**"
+  },
+  {
+    "id": "page_0376-b002",
+    "page_key": 376,
+    "order": 2,
+    "type": "figure",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0376_fig_1.jpg",
+    "alt_text": "page_0376_fig_1"
+  },
+  {
+    "id": "page_0376-b003",
+    "page_key": 376,
+    "order": 3,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "b) $G_{2}=0+\\gamma\\cdot0+\\gamma^{2}\\cdot0+\\gamma^{3}\\cdot1$ $+\\gamma^{4}\\cdot0+\\gamma^{5}\\cdot1+\\gamma^{6}\\cdot0=1.31$"
+  },
+  {
+    "id": "page_0376-b004",
+    "page_key": 376,
+    "order": 4,
+    "type": "equation",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "\\tau=[1,0,2,0,6,0,10,0,9,1,10,0,11,1,15,0]"
+  },
+  {
+    "id": "page_0376-b005",
+    "page_key": 376,
+    "order": 5,
+    "type": "figure",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0376_fig_2.jpg",
+    "alt_text": "page_0376_fig_2"
+  },
+  {
+    "id": "page_0376-b006",
+    "page_key": 376,
+    "order": 6,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "c) $G_{3}=0+\\gamma\\cdot0+\\gamma^{2}\\cdot1+\\gamma^{3}\\cdot0$ $+\\gamma^{4}\\cdot1+\\gamma^{5}\\cdot0=1.47$"
+  },
+  {
+    "id": "page_0376-b007",
+    "page_key": 376,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "**Figure 3**"
+  },
+  {
+    "id": "page_0376-b008",
+    "page_key": 376,
+    "order": 8,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "$s_{1}$ $r_{2}$ $s_{2}$ $r_{3}$ $s_{3}$ $r_{4}$ $s_{4}$ $r_{5}$ $s_{5}$ $r_{6}$ $s_{6}$ $r_{7}$ $s_{7}$ $r_{8}$ $s_{8}$ $r_{9}$"
+  },
+  {
+    "id": "page_0376-b009",
+    "page_key": 376,
+    "order": 9,
+    "type": "equation",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "\\tau=[1,0,2,0,6,0,10,0,9,1,10,0,11,1,15,0]"
+  },
+  {
+    "id": "page_0376-b010",
+    "page_key": 376,
+    "order": 10,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "a)"
+  },
+  {
+    "id": "page_0376-b011",
+    "page_key": 376,
+    "order": 11,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "c)"
+  },
+  {
+    "id": "page_0376-b012",
+    "page_key": 376,
+    "order": 12,
+    "type": "equation",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "\\tau=[1,3,0,2,3,0,6,2,0,10,2,0,11,1,0,7,2,3,8]"
+  },
+  {
+    "id": "page_0376-b013",
+    "page_key": 376,
+    "order": 13,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "0"
+  },
+  {
+    "id": "page_0376-b014",
+    "page_key": 376,
+    "order": 14,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "[[690, 512, 704, 526"
+  }
+]

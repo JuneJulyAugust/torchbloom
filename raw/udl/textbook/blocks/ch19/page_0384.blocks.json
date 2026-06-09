@@ -1,0 +1,129 @@
+[
+  {
+    "id": "page_0384-b001",
+    "page_key": 384,
+    "order": 1,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "a)"
+  },
+  {
+    "id": "page_0384-b002",
+    "page_key": 384,
+    "order": 2,
+    "type": "figure",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0384_fig_1.jpg",
+    "alt_text": "Figure 19.11 Monte Carlo methods. a) The policy (arrows) is initialized randomly. The MDP is repeatedly simulated, and the trajectories of these episodes are stored (orange and brown paths represent two trajectories). b) The action values are empirically estimated based on the observed returns averaged over these trajectories. In this case, the action values were all initially zero and have been updated where an action was observed. c) The policy can then be updated according to the action which received the best (or least bad) reward."
+  },
+  {
+    "id": "page_0384-b003",
+    "page_key": 384,
+    "order": 3,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Figure 19.11 Monte Carlo methods. a) The policy (arrows) is initialized randomly. The MDP is repeatedly simulated, and the trajectories of these episodes are stored (orange and brown paths represent two trajectories). b) The action values are empirically estimated based on the observed returns averaged over these trajectories. In this case, the action values were all initially zero and have been updated where an action was observed. c) The policy can then be updated according to the action which received the best (or least bad) reward."
+  },
+  {
+    "id": "page_0384-b004",
+    "page_key": 384,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "b)"
+  },
+  {
+    "id": "page_0384-b005",
+    "page_key": 384,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "c)"
+  },
+  {
+    "id": "page_0384-b006",
+    "page_key": 384,
+    "order": 6,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "**Figure 3**"
+  },
+  {
+    "id": "page_0384-b007",
+    "page_key": 384,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problems 19.2\u201319.3"
+  },
+  {
+    "id": "page_0384-b008",
+    "page_key": 384,
+    "order": 8,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Notebook 19.2 Dynamic programming"
+  },
+  {
+    "id": "page_0384-b009",
+    "page_key": 384,
+    "order": 9,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "These two steps are iterated until the policy converges (figure 19.10)."
+  },
+  {
+    "id": "page_0384-b010",
+    "page_key": 384,
+    "order": 10,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "There are many variations of this approach. In policy iteration, the policy evaluation step is iterated until convergence before policy improvement. The values can be updated either in place or synchronously in each sweep. In value iteration, the policy evaluation procedure sweeps through the values just once before policy improvement. Asynchronous dynamic programming algorithms don\u2019t have to systematically sweep through all the values at each step but can update a subset of the states in place in an arbitrary order."
+  },
+  {
+    "id": "page_0384-b011",
+    "page_key": 384,
+    "order": 11,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "19.3.2 Monte Carlo methods"
+  },
+  {
+    "id": "page_0384-b012",
+    "page_key": 384,
+    "order": 12,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Unlike dynamic programming algorithms, Monte Carlo methods don\u2019t assume knowledge of the MDP\u2019s transition probabilities and reward structure. Instead, they gain experience by repeatedly sampling trajectories from the MDP and observing the rewards. They alternate between computing the action values (based on this experience) and updating the policy (based on the action values)."
+  },
+  {
+    "id": "page_0384-b013",
+    "page_key": 384,
+    "order": 13,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "To estimate the action values $q[s,a]$ , a series of episodes are run. Each starts with a given state and action and thereafter follows the current policy, producing a series of actions, states, and rewards (figure 19.11a). The action value for a given state-action pair under the current policy is estimated as the average of the empirical returns (i.e., cumulative sums of time-discounted rewards) that follow each time this pair occurs (figure 19.11b). Then the policy is updated by choosing the action with the maximum value at every state (figure 19.11c):"
+  },
+  {
+    "id": "page_0384-b014",
+    "page_key": 384,
+    "order": 14,
+    "type": "equation",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "\\begin{aligned}\n\\pi[a|s]\\leftarrow\\underset{a}{\\mathrm{argmax}}\\Big[q[s,a]\\Big]. \\tag{19.13}\n\\end{aligned}"
+  }
+]

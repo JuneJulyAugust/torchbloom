@@ -1,0 +1,137 @@
+[
+  {
+    "id": "page_0258-b001",
+    "page_key": 258,
+    "order": 1,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "where as before, ne[n] denotes a set containing the indices of the neighbors of the $n^{th}$ node. Equation 13.17 can be computed neatly in matrix form by introducing the diagonal $N \\times N$ degree matrix D. Each non-zero element of this matrix contains the "
+  },
+  {
+    "id": "page_0258-b002",
+    "page_key": 258,
+    "order": 2,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\n\\mathbf{H}_{k+1}=\\mathbf{a}\\Big[\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\Omega_{k}\\mathbf{H}_{k}(\\mathbf{A}\\mathbf{D}^{-1}+\\mathbf{I})\\Big].\n\\tag{13.18}\n\\end{aligned}"
+  },
+  {
+    "id": "page_0258-b003",
+    "page_key": 258,
+    "order": 3,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "13.8.4 Kipf normalization"
+  },
+  {
+    "id": "page_0258-b004",
+    "page_key": 258,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "There are many variations of graph neural networks based on mean aggregation. Sometimes the current node is included with its neighbors in the mean computation rather than treated separately. In Kipf normalization, the sum of the node representations is normal"
+  },
+  {
+    "id": "page_0258-b005",
+    "page_key": 258,
+    "order": 5,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 13.9"
+  },
+  {
+    "id": "page_0258-b006",
+    "page_key": 258,
+    "order": 6,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\n\\mathbf{a}\\mathbf{g}\\mathbf{g}[n]=\\sum_{m\\in\\mathbf{n}e[n]}\\frac{\\mathbf{h}_{m}}{\\sqrt{|\\mathbf{n}e[n]||\\mathbf{n}e[m]|}},\n\\tag{13.19}\n\\end{aligned}"
+  },
+  {
+    "id": "page_0258-b007",
+    "page_key": 258,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "with the logic that information coming from nodes with a very large number of neighbors should be down-weighted since there are many connections and they provide less unique information. This can also be expressed in matrix form using the degree matrix:"
+  },
+  {
+    "id": "page_0258-b008",
+    "page_key": 258,
+    "order": 8,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\n\\mathbf{H}_{k+1}=\\mathbf{a}\\Big[\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\Omega_{k}\\mathbf{H}_{k}(\\mathbf{D}^{-1/2}\\mathbf{A}\\mathbf{D}^{-1/2}+\\mathbf{I})\\Big].\n\\tag{13.20}\n\\end{aligned}"
+  },
+  {
+    "id": "page_0258-b009",
+    "page_key": 258,
+    "order": 9,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "13.8.5 Max pooling aggregation"
+  },
+  {
+    "id": "page_0258-b010",
+    "page_key": 258,
+    "order": 10,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "An alternative operation that is also invariant to permutation is computing the maximum of a set of objects. The max pooling aggregation operator is:"
+  },
+  {
+    "id": "page_0258-b011",
+    "page_key": 258,
+    "order": 11,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\n\\mathbf{a}\\mathbf{g}\\mathbf{g}[n]=\\underset{m\\in\\mathbf{n}e[n]}{\\max}[\\mathbf{h}_{m}],\n\\tag{13.21}\n\\end{aligned}"
+  },
+  {
+    "id": "page_0258-b012",
+    "page_key": 258,
+    "order": 12,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "where the operator max[•] returns the element-wise maximum of the vectors $h_{m}$ that are neighbors to the current node n."
+  },
+  {
+    "id": "page_0258-b013",
+    "page_key": 258,
+    "order": 13,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "13.8.6 Aggregation by attention"
+  },
+  {
+    "id": "page_0258-b014",
+    "page_key": 258,
+    "order": 14,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "The aggregation methods discussed so far either weight the contribution of the neighbors equally or in a way that depends on the graph topology. Conversely, in graph attention layers, the weights depend on the data at the nodes. A linear transform is applied t"
+  },
+  {
+    "id": "page_0258-b015",
+    "page_key": 258,
+    "order": 15,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\n\\mathbf{H}_{k}^{\\prime}=\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\Omega_{k}\\mathbf{H}_{k}.\n\\tag{13.22}\n\\end{aligned}"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "page_0431-b001",
+    "page_key": 431,
+    "order": 1,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "However, forecasting is inherently difficult, and although automation by AI may lead to short-term job losses, the concept of technological unemployment has been described as a \u201ctemporary phase of maladjustment\u201d (Keynes, 1931). This is because gains in wealth can offset gains in productivity by creating increased demand for products and services. In addition, new technologies can create new types of jobs."
+  },
+  {
+    "id": "page_0431-b002",
+    "page_key": 431,
+    "order": 2,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Even if automation doesn\u2019t lead to a net loss of overall employment in the long term, new social programs may be required in the short term. Therefore, regardless of whether one is optimistic (Brynjolfsson & McAfee, 2016; Danaher, 2019), neutral (Metcalf et al., 2016; Calo, 2018; Frey, 2019), or pessimistic (Frey & Osborne, 2017) about the possibility of unemployment in light of AI, it is clear that society will be changed significantly."
+  },
+  {
+    "id": "page_0431-b003",
+    "page_key": 431,
+    "order": 3,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "21.3.5 Concentration of power"
+  },
+  {
+    "id": "page_0431-b004",
+    "page_key": 431,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "As deep networks increase in size, there is a corresponding increase in the amount of data and computing power required to train these models. In this regard, smaller companies and start-ups may not be able to compete with large, established tech companies. This may give rise to a feedback loop whereby the power and wealth become increasingly concentrated in the hands of a small number of corporations. A recent study finds an increasing discrepancy between publications at major AI venues by large tech firms and \u201celite\u201d universities versus mid- or lower-tier universities (Ahmed & Wahed, 2016). In many views, such a concentration of wealth and power is incompatible with just distributions in society (Rawls, 1971)."
+  },
+  {
+    "id": "page_0431-b005",
+    "page_key": 431,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "This has led to calls to democratize AI by making it possible for everyone to create such systems (Li, 2018; Knight, 2018; Kratsios, 2019; Riedl, 2020). Such a process requires making deep learning technologies more widely available and easier to use via open source and open science so that more people can benefit from them. This reduces barriers to entry and increases access to AI while cutting down costs, ensuring model accuracy, and increasing participation and inclusion (Ahmed et al., 2020)."
+  },
+  {
+    "id": "page_0431-b006",
+    "page_key": 431,
+    "order": 6,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "21.4 Case study"
+  },
+  {
+    "id": "page_0431-b007",
+    "page_key": 431,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "We now describe a case study that speaks to many of the issues that we have discussed in this chapter. In 2018, the popular media reported on a controversial facial analysis model\u2014dubbed \u201cgaydar AI\u201d (Wang & Kosinski, 2018)\u2014with sensationalist headlines like AI Can Tell If You\u2019re Gay: Artificial Intelligence Predicts Sexuality From One Photo with Startling Accuracy (Ahmed, 2017); A Frightening AI Can Determine Whether a Person Is Gay With 91 Percent Accuracy (Matsakis, 2017); and Artificial Intelligence System Can Tell If You\u2019re Gay (Fernandez, 2017)."
+  },
+  {
+    "id": "page_0431-b008",
+    "page_key": 431,
+    "order": 8,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "There are a number of problems with this work. First, the training dataset was highly biased and unrepresentative, being comprised mostly of Caucasian images. Second, modeling and validation are also questionable, given the fluidity of gender and sexuality. Third, the most obvious use case for such a model is the targeted discrimination and"
+  }
+]

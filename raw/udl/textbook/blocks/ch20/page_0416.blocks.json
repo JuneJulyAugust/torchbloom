@@ -1,0 +1,66 @@
+[
+  {
+    "id": "page_0416-b001",
+    "page_key": 416,
+    "order": 1,
+    "type": "figure",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0416_fig_1.jpg",
+    "alt_text": "Figure 20.15 Pruning neural networks. The goal is to remove as many weights as possible without decreasing performance. This is often done just based on the magnitude of the weights. Typically, the network is fine-tuned after pruning. a) Example fully connected network. b) After pruning."
+  },
+  {
+    "id": "page_0416-b002",
+    "page_key": 416,
+    "order": 2,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Figure 20.15 Pruning neural networks. The goal is to remove as many weights as possible without decreasing performance. This is often done just based on the magnitude of the weights. Typically, the network is fine-tuned after pruning. a) Example fully connected network. b) After pruning."
+  },
+  {
+    "id": "page_0416-b003",
+    "page_key": 416,
+    "order": 3,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "(more practically) based on the absolute value of the weight (Han et al., 2016, 2015). Other work prunes hidden units (Zhou et al., 2016a; Alvarez & Salzmann, 2016), channels in convolutional networks (Li et al., 2017a; Luo et al., 2017b; He et al., 2017; Liu et al., 2019a), or entire layers in residual nets (Huang & Wang, 2018). Often, the network is fine-tuned after pruning, and sometimes this process is repeated."
+  },
+  {
+    "id": "page_0416-b004",
+    "page_key": 416,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "For example, Han et al. (2016) maintained good performance for the VGG network on ImageNet classes when 8% of the weights were retained. This significantly decreases the model size but isn\u2019t enough to show that overparameterization is not required; the VGG network has $\\sim$ 100 times as many parameters as there are ImageNet training data (disregarding augmentation)."
+  },
+  {
+    "id": "page_0416-b005",
+    "page_key": 416,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Pruning is a form of architecture search. In their work on lottery tickets (see section 20.2.7), Frankle & Carbin (2019) (i) trained a network, (ii) pruned the weights with the smallest magnitudes, and (iii) retrained the remaining network from the same initial weights. By iterating this procedure, they reduced the size of the VGG-19 network (originally 138 million parameters) by 98.5% on the CIFAR-10 database (60,000 examples) while maintaining good performance. For ResNet-50 (25.6 million parameters), they reduced the parameters by 80% without reducing the performance on ImageNet (1.28 million examples). These demonstrations are impressive but (disregarding data augmentation) these networks are still over-parameterized after pruning."
+  },
+  {
+    "id": "page_0416-b006",
+    "page_key": 416,
+    "order": 6,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "20.5.2 Knowledge distillation"
+  },
+  {
+    "id": "page_0416-b007",
+    "page_key": 416,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "The parameters can also be reduced by training a smaller network (the student) to replicate the performance of a larger one (the teacher). This is known as knowledge distillation and dates back to at least Bucilua et al. (2006). Hinton et al. (2015) showed that the pattern of information across the output classes is important and trained a smaller network to approximate the pre-softmax logits of the larger one (figure 20.16)."
+  }
+]

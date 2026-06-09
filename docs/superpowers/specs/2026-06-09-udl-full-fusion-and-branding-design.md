@@ -10,7 +10,7 @@ Move the successful UDL chapters 1-3 fusion pilot toward a durable source layer 
 
 ## Key Constraint
 
-The repository currently has validated hybrid OCR fusion output only for UDL chapters 1-3. The rest of the textbook has not yet been run through the full PPStructureV3 plus Codex fusion workflow. Cleanup must therefore be staged:
+The repository currently has validated hybrid OCR fusion output only for UDL chapters 1-3. The rest of the textbook has not yet been run through the full Paddle layout plus Codex fusion workflow. Cleanup must therefore be staged:
 
 1. Publish and clean only the validated fused scope.
 2. Keep source PDFs and manifests.
@@ -94,7 +94,7 @@ Before publishing or cleanup:
 
 The whole textbook and answer booklet should be completed in a later pass with these gates:
 
-1. Generate PPStructureV3 page evidence for the full PDF at high resolution.
+1. Generate Paddle layout evidence for the full PDF. Use full PPStructureV3 when stable, or Paddle `LayoutDetection` directly when the full parser is too memory-heavy.
 2. Prepare Codex fusion prompts for each chapter.
 3. Fuse chapter batches.
 4. Recrop final figures from high-resolution PDF renders.

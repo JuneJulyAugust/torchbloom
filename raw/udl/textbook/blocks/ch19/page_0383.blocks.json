@@ -1,0 +1,120 @@
+[
+  {
+    "id": "page_0383-b001",
+    "page_key": 383,
+    "order": 1,
+    "type": "figure",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0383_fig_1.jpg",
+    "alt_text": "Figure 19.10 Dynamic programming. a) The state values are initialized to zero, and the policy (arrows) is chosen randomly. b) The state values are updated to be consistent with their neighbors (equation 19.11, shown after two iterations). The policy is updated to move the agent to states with the highest value (equation 19.12). c) After several iterations, the algorithm converges to the optimal policy, in which the penguin tries to avoid the holes and reach the fish."
+  },
+  {
+    "id": "page_0383-b002",
+    "page_key": 383,
+    "order": 2,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Figure 19.10 Dynamic programming. a) The state values are initialized to zero, and the policy (arrows) is chosen randomly. b) The state values are updated to be consistent with their neighbors (equation 19.11, shown after two iterations). The policy is updated to move the agent to states with the highest value (equation 19.12). c) After several iterations, the algorithm converges to the optimal policy, in which the penguin tries to avoid the holes and reach the fish."
+  },
+  {
+    "id": "page_0383-b003",
+    "page_key": 383,
+    "order": 3,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "b)"
+  },
+  {
+    "id": "page_0383-b004",
+    "page_key": 383,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "c)"
+  },
+  {
+    "id": "page_0383-b005",
+    "page_key": 383,
+    "order": 5,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "19.3.1 Dynamic programming"
+  },
+  {
+    "id": "page_0383-b006",
+    "page_key": 383,
+    "order": 6,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Dynamic programming algorithms assume we have perfect knowledge of the transition and reward structure. In this respect, they are distinguished from most RL algorithms which observe the agent interacting with the environment to gather information about these quantities indirectly."
+  },
+  {
+    "id": "page_0383-b007",
+    "page_key": 383,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "The state values $v[s]$ are initialized arbitrarily (usually to zero). The deterministic policy $\\pi[a|s]$ is also initialized (e.g., by choosing a random action for each state). The algorithm then alternates between iteratively computing the state values for the current policy (policy evaluation) and improving that policy (policy improvement)."
+  },
+  {
+    "id": "page_0383-b008",
+    "page_key": 383,
+    "order": 8,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Policy evaluation: We sweep through the states $s_{t}$, updating their values:"
+  },
+  {
+    "id": "page_0383-b009",
+    "page_key": 383,
+    "order": 9,
+    "type": "equation",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "\\begin{aligned}\nv[s_{t}]\\leftarrow\\sum_{a_{t}}\\pi[a_{t}|s_{t}]\\left(r[s_{t},a_{t}]+\\gamma\\cdot\\sum_{s_{t+1}}Pr(s_{t+1}|s_{t},a_{t})v[s_{t+1}]\\right), \\tag{19.11}\n\\end{aligned}"
+  },
+  {
+    "id": "page_0383-b010",
+    "page_key": 383,
+    "order": 10,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "where $s_{t+1}$ is the successor state and $Pr(s_{t+1}|s_t, a_t)$ is the state transition probability. Each update makes $v[s_t]$ consistent with the value at the successor state $s_{t+1}$ using the Bellman equation for state values (equation 19.9). This is termed bootstrapping."
+  },
+  {
+    "id": "page_0383-b011",
+    "page_key": 383,
+    "order": 11,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Policy improvement: To update the policy, we greedily choose the action that maximizes the value for each state:"
+  },
+  {
+    "id": "page_0383-b012",
+    "page_key": 383,
+    "order": 12,
+    "type": "equation",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "\\begin{aligned}\n\\pi[a_{t}|s_{t}]\\leftarrow\\underset{a_{t}}{\\mathrm{argmax}}\\Bigg[r[s_{t},a_{t}]+\\gamma\\cdot\\sum_{s_{t+1}}Pr(s_{t+1}|s_{t},a_{t})v[s_{t+1}]\\Bigg]. \\tag{19.12}\n\\end{aligned}"
+  },
+  {
+    "id": "page_0383-b013",
+    "page_key": 383,
+    "order": 13,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "This is guaranteed to improve the policy according to the policy improvement theorem."
+  }
+]

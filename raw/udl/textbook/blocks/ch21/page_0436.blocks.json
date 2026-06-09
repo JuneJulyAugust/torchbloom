@@ -1,0 +1,173 @@
+[
+  {
+    "id": "page_0436-b001",
+    "page_key": 436,
+    "order": 1,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problems"
+  },
+  {
+    "id": "page_0436-b002",
+    "page_key": 436,
+    "order": 2,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 21.1 It was suggested that the most common specification of the value alignment problem for AI is \u201cthe problem of ensuring that the values of AI systems are aligned with the values of humanity.\u201d Discuss the ways in which this statement of the problem is underspecified. Discussion Resource: LaCroix (2025)."
+  },
+  {
+    "id": "page_0436-b003",
+    "page_key": 436,
+    "order": 3,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 21.2 Goodhart\u2019s law states that \u201cwhen a measure becomes a target, it ceases to be a good measure.\u201d Consider how this law might be reformulated to apply to value alignment for artificial intelligence, given that the loss function is a mere proxy for our true objectives."
+  },
+  {
+    "id": "page_0436-b004",
+    "page_key": 436,
+    "order": 4,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 21.3 Suppose a university uses data from past students to build models for predicting \u201cstudent success,\u201d where those models can support informed changes in policies and practices. Consider how biases might affect each of the four stages of the development and deployment of this model."
+  },
+  {
+    "id": "page_0436-b005",
+    "page_key": 436,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Discussion Resource: Fazelpour & Danks (2021)."
+  },
+  {
+    "id": "page_0436-b006",
+    "page_key": 436,
+    "order": 6,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 21.4 We might think of functional transparency, structural transparency, and run transparency as orthogonal. Provide an example of how an increase in one form of transparency may not lead to a concomitant increase in another form of transparency."
+  },
+  {
+    "id": "page_0436-b007",
+    "page_key": 436,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Discussion Resource: Creel (2020)."
+  },
+  {
+    "id": "page_0436-b008",
+    "page_key": 436,
+    "order": 8,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 21.5 If a computer scientist writes a research paper on AI or pushes code to a public repository, do you consider them responsible for future misuse of their work?"
+  },
+  {
+    "id": "page_0436-b009",
+    "page_key": 436,
+    "order": 9,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 21.6 To what extent do you think the militarization of AI is inevitable?"
+  },
+  {
+    "id": "page_0436-b010",
+    "page_key": 436,
+    "order": 10,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 21.7 In light of the possible misuse of AI highlighted in section 2, make arguments about how to address this issue."
+  },
+  {
+    "id": "page_0436-b011",
+    "page_key": 436,
+    "order": 11,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 21.8 So the ways in which AI is used to improve people\u2019s lives are discussed, and how this can be done. Discuss the ways in which AI is used to improve people\u2019s lives."
+  },
+  {
+    "id": "page_0436-b012",
+    "page_key": 436,
+    "order": 12,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Discussion Resource: V\u00e9liz (2020)."
+  },
+  {
+    "id": "page_0436-b013",
+    "page_key": 436,
+    "order": 13,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 21.9 What are the implications of generative AI for the creative industries? How do you think IP laws should be modified to cope with this new development?"
+  },
+  {
+    "id": "page_0436-b014",
+    "page_key": 436,
+    "order": 14,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 21.10 A good forecast must (i) be specific enough to know when it is wrong, (ii) account for possible cognitive biases, and (iii) allow for rationally updating beliefs. Consider any claim in the recent media about future AI and discuss whether it satisfies these criteria."
+  },
+  {
+    "id": "page_0436-b015",
+    "page_key": 436,
+    "order": 15,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Discussion Resource: Tetlock & Gardner (2016)."
+  },
+  {
+    "id": "page_0436-b016",
+    "page_key": 436,
+    "order": 16,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 21.11 Some critics have argued that calls to democratize AI have focused too heavily on the participatory aspects of democracy, which can increase risks of errors in collective perception, reasoning, and agency, leading to morally-bad outcomes. Reflect on each of the following: What aspects of AI should be democratized? Why should AI be democratized? How should AI be democratized?"
+  },
+  {
+    "id": "page_0436-b017",
+    "page_key": 436,
+    "order": 17,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Discussion Resource: Gebru et al. (2022)."
+  },
+  {
+    "id": "page_0436-b018",
+    "page_key": 436,
+    "order": 18,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 21.12 In March 2023, the Future of Life Institute published a letter, \u201cPause Giant AI Experiments,\u201d in which they called on all AI labs to immediately pause for at least six months the training of AI systems more powerful than GPT-4. Discuss the motivations of the authors in writing this letter, the public reaction, and the implications of such a pause. Relate this episode to the view that AI ethics can be considered a collective action problem (section 21.6). Discussion Resource: Gebru et al. (2023)."
+  },
+  {
+    "id": "page_0436-b019",
+    "page_key": 436,
+    "order": 19,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 21.13 Discuss the merits of the four points in section 21.7. Do you agree with them?"
+  }
+]

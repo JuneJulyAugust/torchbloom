@@ -61,14 +61,5 @@
     "source": "deepseek+paddle",
     "confidence": "high",
     "text": "Unfortunately, the pace of research in AI makes it inevitable that this book will be a constant work in progress. If there are parts you find hard to understand, notable omissions, or sections that seem extraneous, please get in touch via the associated website. Together, we can make the next edition better."
-  },
-  {
-    "id": "page_0016-b008",
-    "page_key": 16,
-    "order": 8,
-    "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
-    "text": "This work is subject to a Creative Commons CC-BY-NC-ND license. (C) MIT Press."
   }
 ]

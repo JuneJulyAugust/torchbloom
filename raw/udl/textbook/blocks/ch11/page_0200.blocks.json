@@ -1,0 +1,20 @@
+[
+  {
+    "id": "page_0200-b001",
+    "page_key": 200,
+    "order": 1,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "figure",
+    "image_path": "figures/page_0200_fig_1.jpg"
+  },
+  {
+    "id": "page_0200-b002",
+    "page_key": 200,
+    "order": 2,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Figure 11.12 Stacked hourglass networks for pose estimation. a) The network input is an image containing a person, and the output is a set of heatmaps, with one heatmap for each joint. This is formulated as a regressi..."
+  }
+]

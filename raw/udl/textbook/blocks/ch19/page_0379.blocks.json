@@ -1,0 +1,111 @@
+[
+  {
+    "id": "page_0379-b001",
+    "page_key": 379,
+    "order": 1,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "a)"
+  },
+  {
+    "id": "page_0379-b002",
+    "page_key": 379,
+    "order": 2,
+    "type": "figure",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0379_fig_1.jpg",
+    "alt_text": "Figure 19.7 State and action values. a) The value v[s_{t}|\\pi] of a state s_{t} (number at each position) is the expected return for this state for a given policy \\pi (gray arrows). It is the average sum of discounted rewards received over many trajectories started from this state. Here, states closer to the fish are more valuable. b) The value q[s_{t}, a_{t}, \\pi] of an action a_{t} in state s_{t} (four numbers at each position/state corresponding to four actions) is the expected return given that this particular action is taken in this state. In this case, it gets larger as we get closer to the fish and is larger for actions that head in the direction of the fish. c) If we know the action values at a state, then the policy can be modified so that it chooses the maximum of these values (red numbers in panel b)."
+  },
+  {
+    "id": "page_0379-b003",
+    "page_key": 379,
+    "order": 3,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Figure 19.7 State and action values. a) The value $v[s_{t}|\\pi]$ of a state $s_{t}$ (number at each position) is the expected return for this state for a given policy $\\pi$ (gray arrows). It is the average sum of discounted rewards received over many trajectories started from this state. Here, states closer to the fish are more valuable. b) The value $q[s_{t}, a_{t}, \\pi]$ of an action $a_{t}$ in state $s_{t}$ (four numbers at each position/state corresponding to four actions) is the expected return given that this particular action is taken in this state. In this case, it gets larger as we get closer to the fish and is larger for actions that head in the direction of the fish. c) If we know the action values at a state, then the policy can be modified so that it chooses the maximum of these values (red numbers in panel b)."
+  },
+  {
+    "id": "page_0379-b004",
+    "page_key": 379,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "b)"
+  },
+  {
+    "id": "page_0379-b005",
+    "page_key": 379,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "c)"
+  },
+  {
+    "id": "page_0379-b006",
+    "page_key": 379,
+    "order": 6,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "sequence differs every time the agent starts in the same place since, in general, the policy $\\pi[a_{t}|s_{t}]$ , the state transitions $Pr(s_{t+1}|s_{t},a_{t})$ , and the rewards issued $Pr(r_{t+1}|s_{t},a_{t})$ are all stochastic."
+  },
+  {
+    "id": "page_0379-b007",
+    "page_key": 379,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "We can characterize how \u201cgood\u201d a state is under a given policy $\\pi$ by considering the expected return $v[s_{t}|\\pi]$ . This is the return that would be received on average from sequences that start from this state and is termed the state value or state-value function (figure 19.7a):"
+  },
+  {
+    "id": "page_0379-b008",
+    "page_key": 379,
+    "order": 8,
+    "type": "equation",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "\\begin{aligned}\nv[s_{t}|\\pi]=\\mathbb{E}\\Big[G_{t}|s_{t},\\pi\\Big]. \\tag{19.2}\n\\end{aligned}"
+  },
+  {
+    "id": "page_0379-b009",
+    "page_key": 379,
+    "order": 9,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Informally, the state value tells us the long-term reward we can expect on average if we start in this state and follow the specified policy thereafter. It is highest for states where it\u2019s probable that subsequent transitions will bring large rewards soon (assuming the discount factor $\\gamma$ is less than one)."
+  },
+  {
+    "id": "page_0379-b010",
+    "page_key": 379,
+    "order": 10,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Similarly, the action value or state-action value function $q[s_{t}, a_{t}|\\pi]$ is the expected return from executing action $a_{t}$ in state $s_{t}$ (figure 19.7b):"
+  },
+  {
+    "id": "page_0379-b011",
+    "page_key": 379,
+    "order": 11,
+    "type": "equation",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "\\begin{aligned}\nq[s_{t},a_{t}|\\pi]=\\mathbb{E}\\Big[G_{t}|s_{t},a_{t},\\pi\\Big]. \\tag{19.3}\n\\end{aligned}"
+  },
+  {
+    "id": "page_0379-b012",
+    "page_key": 379,
+    "order": 12,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "The action value tells us the long-term reward we can expect on average if we start in this state, take this action, and follow the specified policy thereafter. Through this quantity, reinforcement learning algorithms connect future rewards to current actions (i.e., resolve the temporal credit assignment problem)."
+  }
+]

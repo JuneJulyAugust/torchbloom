@@ -1,0 +1,111 @@
+[
+  {
+    "id": "page_0388-b001",
+    "page_key": 388,
+    "order": 1,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "**Figure 1**"
+  },
+  {
+    "id": "page_0388-b002",
+    "page_key": 388,
+    "order": 2,
+    "type": "figure",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0388_fig_1.jpg",
+    "alt_text": "Figure 19.14 Deep Q-network architecture. The input s_{t} consists of four adjacent frames of the ATARI game. Each is resized to 84 \\times 84 and converted to grayscale. These frames are represented as four channels and processed by an 8 \\times 8 convolution with stride four, followed by a 4 \\times 4 convolution with stride 2, followed by two fully connected layers. The final output predicts the action value q[s_{t}, a_{t}] for each of the 18 actions in this state."
+  },
+  {
+    "id": "page_0388-b003",
+    "page_key": 388,
+    "order": 3,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Figure 19.14 Deep Q-network architecture. The input $s_{t}$ consists of four adjacent frames of the ATARI game. Each is resized to $84 \\times 84$ and converted to grayscale. These frames are represented as four channels and processed by an $8 \\times 8$ convolution with stride four, followed by a $4 \\times 4$ convolution with stride 2, followed by two fully connected layers. The final output predicts the action value $q[s_{t}, a_{t}]$ for each of the 18 actions in this state."
+  },
+  {
+    "id": "page_0388-b004",
+    "page_key": 388,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "tuples were stored in a buffer. This buffer was sampled randomly to generate a batch at each step. This approach reuses data samples many times and reduces correlations between the samples in the batch that arise due to the similarity of adjacent frames."
+  },
+  {
+    "id": "page_0388-b005",
+    "page_key": 388,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Finally, the issue of convergence in fitted Q-Networks was tackled by fixing the target parameters to values $\\phi^{-}$ and only updating them periodically. This gives the update:"
+  },
+  {
+    "id": "page_0388-b006",
+    "page_key": 388,
+    "order": 6,
+    "type": "equation",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "\\begin{aligned}\n\\phi\\leftarrow\\phi+\\alpha r\\big[s t,a_{t}\\big]+\\gamma\\cdot\\max_{a}\\Big[q[s_{t+1},a,\\phi^{-}]\\big]-q[s t,a_{t},\\phi\\big]. \\tag{19.18}\n\\end{aligned}"
+  },
+  {
+    "id": "page_0388-b007",
+    "page_key": 388,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Now the network no longer chases a moving target and is less prone to oscillation."
+  },
+  {
+    "id": "page_0388-b008",
+    "page_key": 388,
+    "order": 8,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Using these and other heuristics and with an $\\epsilon$ -greedy policy, Deep Q-Networks performed at a level comparable to a professional game tester across a set of 49 games using the same network architecture (trained separately for each game). It should be noted that the training process was data-intensive. It took around 38 full days of experience to learn each game. In some games, the algorithm exceeded human performance. On other games like \u201cMontezuma\u2019s Revenge,\u201d it barely made any progress. This game features sparse rewards and multiple screens with quite different appearances."
+  },
+  {
+    "id": "page_0388-b009",
+    "page_key": 388,
+    "order": 9,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "19.4.2 Double Q-learning and double deep Q-networks"
+  },
+  {
+    "id": "page_0388-b010",
+    "page_key": 388,
+    "order": 10,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "One potential flaw of Q-Learning is that the maximization over the actions in the update:"
+  },
+  {
+    "id": "page_0388-b011",
+    "page_key": 388,
+    "order": 11,
+    "type": "equation",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "\\begin{aligned}\nq[s_{t},a_{t}]\\leftarrow q[s_{t},a_{t}]+\\alpha\\bigg(r[s_{t},a_{t}]+\\gamma\\cdot\\max_{a}\\big[q[s_{t+1},a]\\bigg]-q[s_{t},a_{t}]\\bigg) \\tag{19.19}\n\\end{aligned}"
+  },
+  {
+    "id": "page_0388-b012",
+    "page_key": 388,
+    "order": 12,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "leads to a systematic bias in the estimated action values $q[s_{t},a_{t}]$ . Consider two actions that provide the same average reward, but one is stochastic and the other deterministic. The stochastic reward will exceed the average roughly half of the time and be chosen by the maximum operation, causing the corresponding action value $q[s_{t},a_{t}]$ to be overestimated. A similar argument can be made about random inaccuracies in the output of the network $q[s_{t},a_{t},\\phi]$ or random initializations of the q-function."
+  }
+]

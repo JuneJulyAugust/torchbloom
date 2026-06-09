@@ -1,0 +1,65 @@
+[
+  {
+    "id": "page_0238-b001",
+    "page_key": 238,
+    "order": 1,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "There have been various attempts to stabilize training, including (i) a variation of FixUp called TFixup (Huang et al., 2020a) that allows the LayerNorm components to be removed, (ii) changing the position of the Laye..."
+  },
+  {
+    "id": "page_0238-b002",
+    "page_key": 238,
+    "order": 2,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "Applications in vision: ImageGPT (Chen et al., 2020a) and the Vision Transformer (Dosovitskiy et al., 2021) were both early transformer architectures applied to images. Transformers have been used for image classifica..."
+  },
+  {
+    "id": "page_0238-b003",
+    "page_key": 238,
+    "order": 3,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "Transformers and convolutional networks: Transformers have been combined with convolutional neural networks for many tasks, including image classification (Wu et al., 2020a), object detection (Hu et al., 2018a; Carion..."
+  },
+  {
+    "id": "page_0238-b004",
+    "page_key": 238,
+    "order": 4,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "From pixels to video: Non-local networks (Wang et al., 2018c) were an early application of self-attention to image data. Transformers were initially applied to pixels in local neighborhoods (Parmar et al., 2018; Hu et..."
+  },
+  {
+    "id": "page_0238-b005",
+    "page_key": 238,
+    "order": 5,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "Since then, many multi-scale systems have been developed, including the SWin transformer (Liu et al., 2021c), SWinvV2 (Liu et al., 2022), multi-scale transformers (MViT) (Fan et al., 2021), and pyramid vision transfor..."
+  },
+  {
+    "id": "page_0238-b006",
+    "page_key": 238,
+    "order": 6,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "Transformers were subsequently adapted to video processing (Arnab et al., 2021; Bertasius et al., 2021; Liu et al., 2021c; Neimark et al., 2022) and alternates between local spatial attention within sub-windows and sp..."
+  },
+  {
+    "id": "page_0238-b007",
+    "page_key": 238,
+    "order": 7,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "Combining images and text: CLIP (Radford et al., 2021) learns a joint encoder for images and their captions using a contrastive pre-training task. The system ingests N images and their captions and produces a matrix o..."
+  }
+]

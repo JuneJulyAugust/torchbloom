@@ -4,113 +4,39 @@ Latest publish was produced by `torchbloom-udl-fusion-pilot publish` after valid
 
 ## Summary
 
-- Chapters: 1,2,3
-- Pages validated: 40
-- Blocks validated: 306
-- Markdown pages copied: 40
-- Block sidecars copied: 40
-- Referenced figures copied: 31
-- Legacy files cleaned: 23
+- Chapters: 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21
+- Pages validated: 436
+- Blocks validated: 3815
+- Markdown pages copied: 436
+- Block sidecars copied: 436
+- Referenced figures copied: 275
+- Legacy files cleaned: 418
 
-## Copied Markdown
+## Published Chapters
 
-- `raw/udl/textbook/pages/ch01-introduction/page_0001.md`
-- `raw/udl/textbook/pages/ch01-introduction/page_0002.md`
-- `raw/udl/textbook/pages/ch01-introduction/page_0003.md`
-- `raw/udl/textbook/pages/ch01-introduction/page_0004.md`
-- `raw/udl/textbook/pages/ch01-introduction/page_0005.md`
-- `raw/udl/textbook/pages/ch01-introduction/page_0006.md`
-- `raw/udl/textbook/pages/ch01-introduction/page_0007.md`
-- `raw/udl/textbook/pages/ch01-introduction/page_0008.md`
-- `raw/udl/textbook/pages/ch01-introduction/page_0009.md`
-- `raw/udl/textbook/pages/ch01-introduction/page_0010.md`
-- `raw/udl/textbook/pages/ch01-introduction/page_0011.md`
-- `raw/udl/textbook/pages/ch01-introduction/page_0012.md`
-- `raw/udl/textbook/pages/ch01-introduction/page_0013.md`
-- `raw/udl/textbook/pages/ch01-introduction/page_0014.md`
-- `raw/udl/textbook/pages/ch01-introduction/page_0015.md`
-- `raw/udl/textbook/pages/ch01-introduction/page_0016.md`
-- `raw/udl/textbook/pages/ch02-supervised-learning/page_0017.md`
-- `raw/udl/textbook/pages/ch02-supervised-learning/page_0018.md`
-- `raw/udl/textbook/pages/ch02-supervised-learning/page_0019.md`
-- `raw/udl/textbook/pages/ch02-supervised-learning/page_0020.md`
-- `raw/udl/textbook/pages/ch02-supervised-learning/page_0021.md`
-- `raw/udl/textbook/pages/ch02-supervised-learning/page_0022.md`
-- `raw/udl/textbook/pages/ch02-supervised-learning/page_0023.md`
-- `raw/udl/textbook/pages/ch02-supervised-learning/page_0024.md`
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0025.md`
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0026.md`
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0027.md`
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0028.md`
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0029.md`
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0030.md`
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0031.md`
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0032.md`
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0033.md`
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0034.md`
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0035.md`
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0036.md`
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0037.md`
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0038.md`
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0039.md`
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0040.md`
+- Chapter 1: Introduction (`page_0001.md` through `page_0016.md`)
+- Chapter 2: Supervised learning (`page_0017.md` through `page_0024.md`)
+- Chapter 3: Shallow neural networks (`page_0025.md` through `page_0040.md`)
+- Chapter 4: Deep neural networks (`page_0041.md` through `page_0055.md`)
+- Chapter 5: Loss functions (`page_0056.md` through `page_0076.md`)
+- Chapter 6: Fitting models (`page_0077.md` through `page_0095.md`)
+- Chapter 7: Gradients and initialization (`page_0096.md` through `page_0117.md`)
+- Chapter 8: Measuring performance (`page_0118.md` through `page_0137.md`)
+- Chapter 9: Regularization (`page_0138.md` through `page_0160.md`)
+- Chapter 10: Convolutional networks (`page_0161.md` through `page_0185.md`)
+- Chapter 11: Residual networks (`page_0186.md` through `page_0206.md`)
+- Chapter 12: Transformers (`page_0207.md` through `page_0239.md`)
+- Chapter 13: Graph neural networks (`page_0240.md` through `page_0268.md`)
+- Chapter 14: Unsupervised learning (`page_0269.md` through `page_0275.md`)
+- Chapter 15: Generative adversarial networks (`page_0276.md` through `page_0303.md`)
+- Chapter 16: Normalizing flows (`page_0304.md` through `page_0326.md`)
+- Chapter 17: Variational autoencoders (`page_0327.md` through `page_0348.md`)
+- Chapter 18: Diffusion models (`page_0349.md` through `page_0373.md`)
+- Chapter 19: Reinforcement learning (`page_0374.md` through `page_0401.md`)
+- Chapter 20: Why does deep learning work? (`page_0402.md` through `page_0420.md`)
+- Chapter 21: Deep learning and ethics (`page_0421.md` through `page_0436.md`)
 
-## Copied Figures
+## Cleanup Policy
 
-- `raw/udl/textbook/figures/page_0002_fig_1.jpg`
-- `raw/udl/textbook/figures/page_0003_fig_1.jpg`
-- `raw/udl/textbook/figures/page_0004_fig_1.jpg`
-- `raw/udl/textbook/figures/page_0006_fig_1.jpg`
-- `raw/udl/textbook/figures/page_0008_fig_1.jpg`
-- `raw/udl/textbook/figures/page_0008_fig_2.jpg`
-- `raw/udl/textbook/figures/page_0009_fig_1.jpg`
-- `raw/udl/textbook/figures/page_0009_fig_2.jpg`
-- `raw/udl/textbook/figures/page_0010_fig_1.jpg`
-- `raw/udl/textbook/figures/page_0010_fig_2.jpg`
-- `raw/udl/textbook/figures/page_0011_fig_1.jpg`
-- `raw/udl/textbook/figures/page_0013_fig_1.jpg`
-- `raw/udl/textbook/figures/page_0019_fig_1.jpg`
-- `raw/udl/textbook/figures/page_0020_fig_1.jpg`
-- `raw/udl/textbook/figures/page_0021_fig_1.jpg`
-- `raw/udl/textbook/figures/page_0023_fig_1.jpg`
-- `raw/udl/textbook/figures/page_0026_fig_1.jpg`
-- `raw/udl/textbook/figures/page_0026_fig_2.jpg`
-- `raw/udl/textbook/figures/page_0028_fig_1.jpg`
-- `raw/udl/textbook/figures/page_0029_fig_3.jpg`
-- `raw/udl/textbook/figures/page_0030_fig_1.jpg`
-- `raw/udl/textbook/figures/page_0031_fig_1.jpg`
-- `raw/udl/textbook/figures/page_0031_fig_2.jpg`
-- `raw/udl/textbook/figures/page_0032_fig_1.jpg`
-- `raw/udl/textbook/figures/page_0034_fig_1.jpg`
-- `raw/udl/textbook/figures/page_0034_fig_2.jpg`
-- `raw/udl/textbook/figures/page_0034_fig_3.jpg`
-- `raw/udl/textbook/figures/page_0035_fig_3.jpg`
-- `raw/udl/textbook/figures/page_0036_fig_1.jpg`
-- `raw/udl/textbook/figures/page_0037_fig_1.jpg`
-- `raw/udl/textbook/figures/page_0039_fig_1.jpg`
-
-## Cleaned Legacy Files
-
-- `raw/udl/textbook/pages/ch01-introduction/page_0015.md`
-- `raw/udl/textbook/pages/ch01-introduction/page_0016.md`
-- `raw/udl/textbook/figures/page_0019_fig_1.jpg`
-- `raw/udl/textbook/figures/page_0020_fig_1.jpg`
-- `raw/udl/textbook/figures/page_0021_fig_1.jpg`
-- `raw/udl/textbook/figures/page_0023_fig_1.jpg`
-- `raw/udl/textbook/figures/page_0026_fig_1.jpg`
-- `raw/udl/textbook/figures/page_0026_fig_2.jpg`
-- `raw/udl/textbook/figures/page_0028_fig_1.jpg`
-- `raw/udl/textbook/figures/page_0029_fig_3.jpg`
-- `raw/udl/textbook/figures/page_0030_fig_1.jpg`
-- `raw/udl/textbook/figures/page_0031_fig_1.jpg`
-- `raw/udl/textbook/figures/page_0031_fig_2.jpg`
-- `raw/udl/textbook/figures/page_0032_fig_1.jpg`
-- `raw/udl/textbook/figures/page_0034_fig_1.jpg`
-- `raw/udl/textbook/figures/page_0034_fig_2.jpg`
-- `raw/udl/textbook/figures/page_0034_fig_3.jpg`
-- `raw/udl/textbook/figures/page_0035_fig_3.jpg`
-- `raw/udl/textbook/figures/page_0036_fig_1.jpg`
-- `raw/udl/textbook/figures/page_0037_fig_1.jpg`
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0039.md`
-- `raw/udl/textbook/figures/page_0039_fig_1.jpg`
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0040.md`
+Legacy DeepSeek-only files are removed only for pages with validated fused replacements.
+The cleaned-file count is retained as provenance; individual cleaned paths are intentionally omitted to keep this log readable.
