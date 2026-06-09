@@ -43,7 +43,7 @@ raw/udl/textbook/
 
 Final page filenames use printed book page numbers. PDF page numbers remain in Markdown frontmatter as provenance.
 
-Display equations use `$$` delimiters so they render in GitHub Markdown and local previews. Do not publish pages with `\[` and `\]` display delimiters.
+Display equations use `$$` delimiters so they render in GitHub Markdown and local previews. Do not publish pages with `\[` and `\]` display delimiters. Numbered display equations that use `\tag{...}` must be wrapped in `\begin{aligned} ... \end{aligned}`, even for one-line equations and cases blocks, because GitHub can render unwrapped tagged equations as vertical stacks. Inline math uses `$...$`; footnotes use Markdown footnote syntax such as `[^1]`, not `$^1$` markers.
 
 ## Cleanup Rules
 

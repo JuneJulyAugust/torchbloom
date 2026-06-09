@@ -34,6 +34,8 @@ DISPLAY_MATH_BRACKET_RE = re.compile(r"(?m)^\\\[$|^\\\]$")
 INLINE_MATH_PAREN_RE = re.compile(r"\\\(|\\\)")
 GITHUB_BLOCKED_MATH_MACRO_RE = re.compile(r"\\operatorname\b")
 INLINE_ESCAPED_BRACE_RE = re.compile(r"\$[^\n$]*\\[{}][^\n$]*\$")
+DISPLAY_MATH_BLOCK_RE = re.compile(r"(?ms)^\$\$\n(?P<body>.*?)\n\$\$")
+INLINE_SUPERSCRIPT_FOOTNOTE_RE = re.compile(r"\$\^\d+\$")
 FIGURE_CAPTION_START_RE = re.compile(r"(?m)^Figure\s+\d+\.\d+\b")
 FIGURE_CAPTION_BLOCK_RE = re.compile(r"^Figure\s+\d+\.\d+\b", re.DOTALL)
 CENTERED_FIGURE_CAPTION_RE = re.compile(
@@ -359,6 +361,8 @@ Use these to check transcription, especially equations, but do not include them 
 10. Use GitHub-compatible inline math delimiters: `$...$`. Do not use `\\(...\\)` inline math.
 11. Avoid GitHub-blocked math macros. Use `\\mathrm{{ReLU}}`, `\\mathrm{{argmin}}`, or `\\mathrm{{HardSwish}}` instead of `\\operatorname{{...}}`.
 12. In inline math, write literal set braces as `\\lbrace ...\\rbrace`, not `\\{{...\\}}`, so GitHub does not consume the escaping before MathJax sees it.
+13. Wrap every numbered display equation that uses `\\tag{{...}}` in a `\\begin{{aligned}} ... \\end{{aligned}}` environment, even if it has only one line. GitHub renders unwrapped tagged equations poorly.
+14. Use Markdown footnotes such as `[^1]` and `[^1]: ...`; do not use `$^1$` as a footnote marker.
 
 ## Required Markdown Frontmatter
 
@@ -754,6 +758,15 @@ def _validate_centered_figure_captions(md_path: Path, body: str, errors: list[st
             )
 
 
+def _validate_github_math_blocks(md_path: Path, body: str, errors: list[str]) -> None:
+    for match in DISPLAY_MATH_BLOCK_RE.finditer(body):
+        block = match.group("body")
+        if "\\tag{" in block and "\\begin{aligned}" not in block:
+            errors.append(
+                f"{md_path}: tagged display equations must use an aligned environment for GitHub rendering"
+            )
+
+
 def _validate_markdown(output_dir: Path, spec: PageSpec, errors: list[str]) -> dict[str, Any] | None:
     md_path = fused_markdown_path(output_dir, spec)
     if not md_path.exists():
@@ -782,6 +795,9 @@ def _validate_markdown(output_dir: Path, spec: PageSpec, errors: list[str]) -> d
         errors.append(f"{md_path}: replace GitHub-blocked math macro \\operatorname with \\mathrm or plain LaTeX")
     if INLINE_ESCAPED_BRACE_RE.search(body):
         errors.append(f"{md_path}: use \\lbrace and \\rbrace for literal braces in inline math")
+    if INLINE_SUPERSCRIPT_FOOTNOTE_RE.search(body):
+        errors.append(f"{md_path}: use Markdown footnotes like [^1], not $^1$ math markers")
+    _validate_github_math_blocks(md_path, body, errors)
     if frontmatter.get("page_key") != spec.book_page:
         errors.append(f"{md_path}: page_key should be book page {spec.book_page}")
     if frontmatter.get("book_page") != spec.book_page:
