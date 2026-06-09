@@ -1,1 +1,75 @@
-[{"id":"page_0141-b001","page_key":141,"order":1,"type":"figure","source":"deepseek+paddle","confidence":"high","image_path":"figures/page_0141_fig_1.jpg","alt_text":"Figure 9.2 L2 regularization in simplified network with 14 hidden units (see figure 8.4). a–f) Fitted functions as we increase the regularization coefficient $\\lambda$ . The black "},{"id":"page_0141-b002","page_key":141,"order":2,"type":"caption","source":"deepseek+paddle","confidence":"high","text":"Figure 9.2 L2 regularization in simplified network with 14 hidden units (see figure 8.4). a–f) Fitted functions as we increase the regularization coefficient $\\lambda$ . The black curve is the true function, the orange circles are the noisy training data, and the cyan curve is the fitted model. For small $\\lambda$ (panels a–b), the fitted function passes exactly through the data points. For intermediate $\\lambda$ (panels c–d), the function is smoother and more similar to the ground truth. For large $\\lambda$ (panels e–f), the regularization term overpowers the likelihood term, so the fitted function is too smooth and the overall fit is worse."},{"id":"page_0141-b003","page_key":141,"order":3,"type":"heading","source":"deepseek","confidence":"high","text":"9.2 Implicit regularization"},{"id":"page_0141-b004","page_key":141,"order":4,"type":"paragraph","source":"deepseek","confidence":"high","text":"An intriguing recent finding is that neither gradient descent nor stochastic gradient descent moves neutrally to the minimum of the loss function; each exhibits a preference for some solutions over others. This is known as implicit regularization."},{"id":"page_0141-b005","page_key":141,"order":5,"type":"heading","source":"deepseek","confidence":"high","text":"9.2.1 Implicit regularization in gradient descent"},{"id":"page_0141-b006","page_key":141,"order":6,"type":"paragraph","source":"deepseek","confidence":"high","text":"Consider a continuous version of gradient descent where the step size is infinitesimal. The change in parameters $\\phi$ will be governed by the differential equation:"},{"id":"page_0141-b007","page_key":141,"order":7,"type":"equation","source":"deepseek+paddle","confidence":"medium","text":"\\begin{aligned}\n\\frac{d\\phi}{dt}=-\\frac{\\partial L}{\\partial\\phi}. \\tag{9.6}\n\\end{aligned}"},{"id":"page_0141-b008","page_key":141,"order":8,"type":"paragraph","source":"deepseek","confidence":"high","text":"Draft: please send errata to udlbookmail@gmail.com."}]
+[
+  {
+    "id": "page_0141-b001",
+    "page_key": 141,
+    "order": 1,
+    "type": "figure",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0141_fig_1.jpg",
+    "alt_text": "Figure 9.2 L2 regularization in simplified network with 14 hidden units (see figure 8.4). a–f) Fitted functions as we increase the regularization coefficient $\\lambda$ . The black "
+  },
+  {
+    "id": "page_0141-b002",
+    "page_key": 141,
+    "order": 2,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Figure 9.2 L2 regularization in simplified network with 14 hidden units (see figure 8.4). a–f) Fitted functions as we increase the regularization coefficient $\\lambda$ . The black curve is the true function, the orange circles are the noisy training data, and the cyan curve is the fitted model. For small $\\lambda$ (panels a–b), the fitted function passes exactly through the data points. For intermediate $\\lambda$ (panels c–d), the function is smoother and more similar to the ground truth. For large $\\lambda$ (panels e–f), the regularization term overpowers the likelihood term, so the fitted function is too smooth and the overall fit is worse."
+  },
+  {
+    "id": "page_0141-b003",
+    "page_key": 141,
+    "order": 3,
+    "type": "heading",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "9.2 Implicit regularization"
+  },
+  {
+    "id": "page_0141-b004",
+    "page_key": 141,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "An intriguing recent finding is that neither gradient descent nor stochastic gradient descent moves neutrally to the minimum of the loss function; each exhibits a preference for some solutions over others. This is known as implicit regularization."
+  },
+  {
+    "id": "page_0141-b005",
+    "page_key": 141,
+    "order": 5,
+    "type": "heading",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "9.2.1 Implicit regularization in gradient descent"
+  },
+  {
+    "id": "page_0141-b006",
+    "page_key": 141,
+    "order": 6,
+    "type": "paragraph",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "Consider a continuous version of gradient descent where the step size is infinitesimal. The change in parameters $\\phi$ will be governed by the differential equation:"
+  },
+  {
+    "id": "page_0141-b007",
+    "page_key": 141,
+    "order": 7,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "\\begin{aligned}\n\\frac{d\\phi}{dt}=-\\frac{\\partial L}{\\partial\\phi}.\n\\end{aligned}\n\\tag{9.6}"
+  },
+  {
+    "id": "page_0141-b008",
+    "page_key": 141,
+    "order": 8,
+    "type": "paragraph",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "Draft: please send errata to udlbookmail@gmail.com."
+  }
+]

@@ -114,7 +114,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\mathrm{sig}\\left[\\beta_{K}+\\omega_{K}\\mathbf{H}_{K}1\\right]=\\mathrm{sig}\\left[\\beta_{K}+\\omega_{K}\\mathbf{H}_{K}\\mathbf{P}1\\right],\n\\tag{13.27}\n\\end{aligned}"
+    "text": "\\begin{aligned}\n\\mathrm{sig}\\left[\\beta_{K}+\\omega_{K}\\mathbf{H}_{K}1\\right]=\\mathrm{sig}\\left[\\beta_{K}+\\omega_{K}\\mathbf{H}_{K}\\mathbf{P}1\\right],\n\\end{aligned}\n\\tag{13.27}"
   },
   {
     "id": "page_0266-b014",

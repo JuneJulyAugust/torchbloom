@@ -1,1 +1,146 @@
-[{"id":"page_0303-b001","page_key":303,"order":1,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"image to be both realistic and to fit these new constraints. It does this by finding a latent vector that produces an image that is similar to the edited image and obeys the edge map of any added lines. It is typical also to add a mask so that only parts of th"},{"id":"page_0303-b002","page_key":303,"order":2,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"Problems"},{"id":"page_0303-b003","page_key":303,"order":3,"type":"exercise","source":"deepseek+paddle","confidence":"high","text":"Problem 15.1 What will the loss be in equation 15.9 when $Pr(\\mathbf{x}^{*}) = Pr(\\mathbf{x})$?"},{"id":"page_0303-b004","page_key":303,"order":4,"type":"exercise","source":"deepseek+paddle","confidence":"high","text":"Problem 15.2* Write an equation relating the loss L in equation 15.8 to the Jensen-Shannon distance $D_{JS}[Pr(\\mathbf{x})^{*} || Pr(\\mathbf{x})]$ in equation 15.9."},{"id":"page_0303-b005","page_key":303,"order":5,"type":"exercise","source":"deepseek+paddle","confidence":"high","text":"Problem 15.3 Consider computing the earth mover’s distance using linear programming in the primal form. The discrete distributions $Pr(x=i)$ and $q(x=j)$ are defined on x = 1, 2, 3, 4 and:"},{"id":"page_0303-b006","page_key":303,"order":6,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"\\begin{aligned}\n\\mathbf{b}=\\left[Pr(x=1),Pr(x=2),Pr(x=3),Pr(x=4),q(x=1),q(x=2),q(x=3),q(x=4)\\right]^{T}.\n\\tag{15.18}\n\\end{aligned}"},{"id":"page_0303-b007","page_key":303,"order":7,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Write out the contents of the $8 \\times 16$ matrix A. You may assume that the contents of P have been vectorized into p column-first."},{"id":"page_0303-b008","page_key":303,"order":8,"type":"exercise","source":"deepseek+paddle","confidence":"high","text":"Problem 15.4 $^{*}$ Calculate (i) the KL divergence, (ii) the reverse KL divergence,(iii) the Jensen-Shannon divergence, and (iv) the Wasserstein distance between the distributions:"},{"id":"page_0303-b009","page_key":303,"order":9,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"\\begin{aligned}\nPr(z)=\\begin{cases}0&z<0\\\\1&0\\leq z\\leq1,\\\\0&z>1\\end{cases}\\quad and\\quad Pr(z)=\\begin{cases}0&z<a\\\\1&a\\leq z\\leq a+1.\\\\0&z>a\\end{cases}.\n\\tag{15.19}\n\\end{aligned}"},{"id":"page_0303-b010","page_key":303,"order":10,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"for the range $a \\in [-3, 3]$. To get a formula for the Wasserstein distance for this special case, consider the total “earth” (i.e., probability mass) that must be moved and multiply this by the distance it must move."},{"id":"page_0303-b011","page_key":303,"order":11,"type":"exercise","source":"deepseek+paddle","confidence":"high","text":"Problem 15.5 The KL distance and Wasserstein distances between univariate Gaussian distributions are given by:"},{"id":"page_0303-b012","page_key":303,"order":12,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"\\begin{aligned}\nD_{kl}=\\log\\left[\\frac{\\sigma_{2}}{\\sigma_{1}}\\right]+\\frac{\\sigma_{1}^{2}+(\\mu_{1}-\\mu_{2})^{2}}{2\\sigma_{2}^{2}}-\\frac{1}{2},\n\\tag{15.20}\n\\end{aligned}"},{"id":"page_0303-b013","page_key":303,"order":13,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"and"},{"id":"page_0303-b014","page_key":303,"order":14,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"\\begin{aligned}\nD_{w}=(\\mu_{1}-\\mu_{2})^{2}+\\sigma_{1}+\\sigma_{2}-2\\sqrt{\\sigma_{1}\\sigma_{2}},\n\\tag{15.21}\n\\end{aligned}"},{"id":"page_0303-b015","page_key":303,"order":15,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"respectively. Plot these distances as a function of $\\mu_{1}-\\mu_{2}$ for the case when $o_{r1}=0$."},{"id":"page_0303-b016","page_key":303,"order":16,"type":"exercise","source":"deepseek+paddle","confidence":"high","text":"Problem 15.6 Consider a latent variable $\\mathbf{z} \\sim \\mathrm{Norm}[0, I]$ with dimension 100. Consider truncating the values of this variable to (i) $\\tau = 2 \\cdot 0$, (ii) $\\tau = 1 \\cdot 0$, (iii) $\\tau = 0.5$, (iv) $\\tau = 0.04$ standard deviations. Wh"}]
+[
+  {
+    "id": "page_0303-b001",
+    "page_key": 303,
+    "order": 1,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "image to be both realistic and to fit these new constraints. It does this by finding a latent vector that produces an image that is similar to the edited image and obeys the edge map of any added lines. It is typical also to add a mask so that only parts of th"
+  },
+  {
+    "id": "page_0303-b002",
+    "page_key": 303,
+    "order": 2,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problems"
+  },
+  {
+    "id": "page_0303-b003",
+    "page_key": 303,
+    "order": 3,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 15.1 What will the loss be in equation 15.9 when $Pr(\\mathbf{x}^{*}) = Pr(\\mathbf{x})$?"
+  },
+  {
+    "id": "page_0303-b004",
+    "page_key": 303,
+    "order": 4,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 15.2* Write an equation relating the loss L in equation 15.8 to the Jensen-Shannon distance $D_{JS}[Pr(\\mathbf{x})^{*} || Pr(\\mathbf{x})]$ in equation 15.9."
+  },
+  {
+    "id": "page_0303-b005",
+    "page_key": 303,
+    "order": 5,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 15.3 Consider computing the earth mover’s distance using linear programming in the primal form. The discrete distributions $Pr(x=i)$ and $q(x=j)$ are defined on x = 1, 2, 3, 4 and:"
+  },
+  {
+    "id": "page_0303-b006",
+    "page_key": 303,
+    "order": 6,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\n\\mathbf{b}=\\left[Pr(x=1),Pr(x=2),Pr(x=3),Pr(x=4),q(x=1),q(x=2),q(x=3),q(x=4)\\right]^{T}.\n\\end{aligned}\n\\tag{15.18}"
+  },
+  {
+    "id": "page_0303-b007",
+    "page_key": 303,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Write out the contents of the $8 \\times 16$ matrix A. You may assume that the contents of P have been vectorized into p column-first."
+  },
+  {
+    "id": "page_0303-b008",
+    "page_key": 303,
+    "order": 8,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 15.4 $^{*}$ Calculate (i) the KL divergence, (ii) the reverse KL divergence,(iii) the Jensen-Shannon divergence, and (iv) the Wasserstein distance between the distributions:"
+  },
+  {
+    "id": "page_0303-b009",
+    "page_key": 303,
+    "order": 9,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\nPr(z)=\\begin{cases}0&z<0\\\\1&0\\leq z\\leq1,\\\\0&z>1\\end{cases}\\quad and\\quad Pr(z)=\\begin{cases}0&z<a\\\\1&a\\leq z\\leq a+1.\\\\0&z>a\\end{cases}.\n\\end{aligned}\n\\tag{15.19}"
+  },
+  {
+    "id": "page_0303-b010",
+    "page_key": 303,
+    "order": 10,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "for the range $a \\in [-3, 3]$. To get a formula for the Wasserstein distance for this special case, consider the total “earth” (i.e., probability mass) that must be moved and multiply this by the distance it must move."
+  },
+  {
+    "id": "page_0303-b011",
+    "page_key": 303,
+    "order": 11,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 15.5 The KL distance and Wasserstein distances between univariate Gaussian distributions are given by:"
+  },
+  {
+    "id": "page_0303-b012",
+    "page_key": 303,
+    "order": 12,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\nD_{kl}=\\log\\left[\\frac{\\sigma_{2}}{\\sigma_{1}}\\right]+\\frac{\\sigma_{1}^{2}+(\\mu_{1}-\\mu_{2})^{2}}{2\\sigma_{2}^{2}}-\\frac{1}{2},\n\\end{aligned}\n\\tag{15.20}"
+  },
+  {
+    "id": "page_0303-b013",
+    "page_key": 303,
+    "order": 13,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "and"
+  },
+  {
+    "id": "page_0303-b014",
+    "page_key": 303,
+    "order": 14,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\nD_{w}=(\\mu_{1}-\\mu_{2})^{2}+\\sigma_{1}+\\sigma_{2}-2\\sqrt{\\sigma_{1}\\sigma_{2}},\n\\end{aligned}\n\\tag{15.21}"
+  },
+  {
+    "id": "page_0303-b015",
+    "page_key": 303,
+    "order": 15,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "respectively. Plot these distances as a function of $\\mu_{1}-\\mu_{2}$ for the case when $o_{r1}=0$."
+  },
+  {
+    "id": "page_0303-b016",
+    "page_key": 303,
+    "order": 16,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 15.6 Consider a latent variable $\\mathbf{z} \\sim \\mathrm{Norm}[0, I]$ with dimension 100. Consider truncating the values of this variable to (i) $\\tau = 2 \\cdot 0$, (ii) $\\tau = 1 \\cdot 0$, (iii) $\\tau = 0.5$, (iv) $\\tau = 0.04$ standard deviations. Wh"
+  }
+]

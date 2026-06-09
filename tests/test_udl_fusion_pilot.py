@@ -780,7 +780,7 @@ This set notation uses $\\{x_i,y_i\\}$ inline.
     assert any("lbrace" in error for error in validation["errors"])
 
 
-def test_validate_rejects_unwrapped_tagged_display_equations_for_github_rendering(tmp_path):
+def test_validate_allows_top_level_tagged_display_equations_for_github_rendering(tmp_path):
     raw_root, _, output_dir = _write_fake_inputs(tmp_path)
     fused_dir = output_dir / "fused" / "ch01"
     blocks_dir = output_dir / "blocks" / "ch01"
@@ -829,9 +829,274 @@ $$
 
     result = main(["validate", "--chapters", "1", "--raw-root", str(raw_root), "--output-dir", str(output_dir)])
 
+    assert result == 0
+
+
+def test_validate_rejects_tag_inside_aligned_environment_for_github_rendering(tmp_path):
+    raw_root, _, output_dir = _write_fake_inputs(tmp_path)
+    fused_dir = output_dir / "fused" / "ch01"
+    blocks_dir = output_dir / "blocks" / "ch01"
+    fused_dir.mkdir(parents=True)
+    blocks_dir.mkdir(parents=True)
+    (fused_dir / "page_0001.md").write_text(
+        """---
+source: UnderstandingDeepLearning_02_09_26_C.pdf
+page_key: 1
+book_page: 1
+pdf_page: 15
+chapter: "1 - Introduction"
+chapter_slug: ch01-introduction
+ocr_sources:
+  - deepseek-ocr-2
+  - ppstructurev3
+fusion_status: fused
+confidence: medium
+figure_count: 0
+---
+
+$$
+\\begin{aligned}
+y&=\\phi_0+\\phi_1h_1. \\\\
+\\tag{3.4}
+\\end{aligned}
+$$
+""",
+        encoding="utf-8",
+    )
+    (blocks_dir / "page_0001.blocks.json").write_text(
+        json.dumps(
+            [
+                {
+                    "id": "page_0001-b001",
+                    "page_key": 1,
+                    "order": 1,
+                    "type": "equation",
+                    "source": "deepseek+paddle",
+                    "confidence": "high",
+                    "latex": "\\begin{aligned}\ny&=\\phi_0+\\phi_1h_1. \\\\\n\\tag{3.4}\n\\end{aligned}",
+                }
+            ]
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+    result = main(["validate", "--chapters", "1", "--raw-root", str(raw_root), "--output-dir", str(output_dir)])
+
     assert result == 1
     validation = json.loads((output_dir / "reports" / "validation.json").read_text(encoding="utf-8"))
-    assert any("tagged display equations" in error for error in validation["errors"])
+    assert any("tag inside aligned" in error for error in validation["errors"])
+
+
+def test_validate_rejects_inline_math_in_markdown_headings_for_github_rendering(tmp_path):
+    raw_root, _, output_dir = _write_fake_inputs(tmp_path)
+    fused_dir = output_dir / "fused" / "ch01"
+    blocks_dir = output_dir / "blocks" / "ch01"
+    fused_dir.mkdir(parents=True)
+    blocks_dir.mkdir(parents=True)
+    (fused_dir / "page_0001.md").write_text(
+        """---
+source: UnderstandingDeepLearning_02_09_26_C.pdf
+page_key: 1
+book_page: 1
+pdf_page: 15
+chapter: "1 - Introduction"
+chapter_slug: ch01-introduction
+ocr_sources:
+  - deepseek-ocr-2
+  - ppstructurev3
+fusion_status: fused
+confidence: medium
+figure_count: 0
+---
+## Conditional distribution $q(z_t)$
+
+The heading math renders literally on GitHub.
+""",
+        encoding="utf-8",
+    )
+    (blocks_dir / "page_0001.blocks.json").write_text(
+        json.dumps(
+            [
+                {
+                    "id": "page_0001-b001",
+                    "page_key": 1,
+                    "order": 1,
+                    "type": "heading",
+                    "source": "deepseek+paddle",
+                    "confidence": "high",
+                    "text": "Conditional distribution q(z_t)",
+                }
+            ]
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+    result = main(["validate", "--chapters", "1", "--raw-root", str(raw_root), "--output-dir", str(output_dir)])
+
+    assert result == 1
+    validation = json.loads((output_dir / "reports" / "validation.json").read_text(encoding="utf-8"))
+    assert any("heading math" in error for error in validation["errors"])
+
+
+def test_validate_rejects_ocr_spaced_math_words_for_github_rendering(tmp_path):
+    raw_root, _, output_dir = _write_fake_inputs(tmp_path)
+    fused_dir = output_dir / "fused" / "ch01"
+    blocks_dir = output_dir / "blocks" / "ch01"
+    fused_dir.mkdir(parents=True)
+    blocks_dir.mkdir(parents=True)
+    (fused_dir / "page_0001.md").write_text(
+        """---
+source: UnderstandingDeepLearning_02_09_26_C.pdf
+page_key: 1
+book_page: 1
+pdf_page: 15
+chapter: "1 - Introduction"
+chapter_slug: ch01-introduction
+ocr_sources:
+  - deepseek-ocr-2
+  - ppstructurev3
+fusion_status: fused
+confidence: medium
+figure_count: 0
+---
+
+$$
+P r(x)=N o r m_x[0, 1].
+$$
+""",
+        encoding="utf-8",
+    )
+    (blocks_dir / "page_0001.blocks.json").write_text(
+        json.dumps(
+            [
+                {
+                    "id": "page_0001-b001",
+                    "page_key": 1,
+                    "order": 1,
+                    "type": "equation",
+                    "source": "deepseek+paddle",
+                    "confidence": "high",
+                    "text": "P r(x)=N o r m_x[0, 1].",
+                }
+            ]
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+    result = main(["validate", "--chapters", "1", "--raw-root", str(raw_root), "--output-dir", str(output_dir)])
+
+    assert result == 1
+    validation = json.loads((output_dir / "reports" / "validation.json").read_text(encoding="utf-8"))
+    assert any("OCR-spaced math token" in error for error in validation["errors"])
+
+
+def test_validate_rejects_double_escaped_math_macros_for_github_rendering(tmp_path):
+    raw_root, _, output_dir = _write_fake_inputs(tmp_path)
+    fused_dir = output_dir / "fused" / "ch01"
+    blocks_dir = output_dir / "blocks" / "ch01"
+    fused_dir.mkdir(parents=True)
+    blocks_dir.mkdir(parents=True)
+    (fused_dir / "page_0001.md").write_text(
+        """---
+source: UnderstandingDeepLearning_02_09_26_C.pdf
+page_key: 1
+book_page: 1
+pdf_page: 15
+chapter: "1 - Introduction"
+chapter_slug: ch01-introduction
+ocr_sources:
+  - deepseek-ocr-2
+  - ppstructurev3
+fusion_status: fused
+confidence: medium
+figure_count: 0
+---
+
+$$
+\\\\mathrm{softmax}[z]
+$$
+""",
+        encoding="utf-8",
+    )
+    (blocks_dir / "page_0001.blocks.json").write_text(
+        json.dumps(
+            [
+                {
+                    "id": "page_0001-b001",
+                    "page_key": 1,
+                    "order": 1,
+                    "type": "equation",
+                    "source": "deepseek+paddle",
+                    "confidence": "high",
+                    "text": "\\\\mathrm{softmax}[z]",
+                }
+            ]
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+    result = main(["validate", "--chapters", "1", "--raw-root", str(raw_root), "--output-dir", str(output_dir)])
+
+    assert result == 1
+    validation = json.loads((output_dir / "reports" / "validation.json").read_text(encoding="utf-8"))
+    assert any("double-escaped math macro" in error for error in validation["errors"])
+
+
+def test_validate_rejects_single_backslash_rowbreak_math_macro_for_github_rendering(tmp_path):
+    raw_root, _, output_dir = _write_fake_inputs(tmp_path)
+    fused_dir = output_dir / "fused" / "ch01"
+    blocks_dir = output_dir / "blocks" / "ch01"
+    fused_dir.mkdir(parents=True)
+    blocks_dir.mkdir(parents=True)
+    (fused_dir / "page_0001.md").write_text(
+        """---
+source: UnderstandingDeepLearning_02_09_26_C.pdf
+page_key: 1
+book_page: 1
+pdf_page: 15
+chapter: "1 - Introduction"
+chapter_slug: ch01-introduction
+ocr_sources:
+  - deepseek-ocr-2
+  - ppstructurev3
+fusion_status: fused
+confidence: medium
+figure_count: 0
+---
+
+$$
+x = y\\ \\frac{a}{b}
+$$
+""",
+        encoding="utf-8",
+    )
+    (blocks_dir / "page_0001.blocks.json").write_text(
+        json.dumps(
+            [
+                {
+                    "id": "page_0001-b001",
+                    "page_key": 1,
+                    "order": 1,
+                    "type": "equation",
+                    "source": "deepseek+paddle",
+                    "confidence": "high",
+                    "text": "x = y\\ \\frac{a}{b}",
+                }
+            ]
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+    result = main(["validate", "--chapters", "1", "--raw-root", str(raw_root), "--output-dir", str(output_dir)])
+
+    assert result == 1
+    validation = json.loads((output_dir / "reports" / "validation.json").read_text(encoding="utf-8"))
+    assert any("malformed row-break math macro" in error for error in validation["errors"])
 
 
 def test_validate_rejects_dollar_superscript_footnote_markers(tmp_path):

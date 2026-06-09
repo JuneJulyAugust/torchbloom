@@ -1,1 +1,102 @@
-[{"id":"page_0337-b001","page_key":337,"order":1,"type":"figure","source":"paddle","confidence":"high","image_path":"figures/page_0337_fig_1.jpg","alt_text":"Figure 17.8 Variational approximation."},{"id":"page_0337-b002","page_key":337,"order":2,"type":"caption","source":"deepseek+paddle","confidence":"high","text":"Figure 17.8 Variational approximation."},{"id":"page_0337-b003","page_key":337,"order":3,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"Figure 17.8 Variational approximation. The posterior $Pr(\\mathbf{z}|\\mathbf{x}^{*}, \\phi)$ can't be computed in closed form. The variational approximation chooses a family of distributions $q(\\mathbf{z}|\\mathbf{x}, \\theta)$ (here Gaussians) and tries to find the closest member of this family to the true posterior. a) Sometimes, the approximation (cyan curve) is good and lies close to the true posterior (orange curve). b) However, if the posterior is multi-modal (as in figure 17.7), then the Gaussian approximation will be poor."},{"id":"page_0337-b004","page_key":337,"order":4,"type":"equation","source":"deepseek","confidence":"high","text":"\\mathbb{E}_{\\mathbf{z}}\\big[\\mathrm{a}[\\mathbf{z}]]={\\int}\\mathrm{a}[\\mathbf{z}|q(\\mathbf{z}|\\mathbf{x},\\boldsymbol{\\theta})d\\mathbf{z}\\approx\\frac{1}{N}{\\sum_{n=1}^{N}}\\mathrm{a}[\\mathbf{z}_{n}^{*}], \\quad (17.22)"},{"id":"page_0337-b005","page_key":337,"order":5,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"where $\\mathbf{z}_{n}^{*}$ is the $n^{th}$ sample from $q(\\mathbf{z}|\\mathbf{x},\\boldsymbol{\\theta})$. This is known as a Monte Carlo estimate. For a very approximate estimate, we can just use a single sample $\\mathbf{z}^{*}$ from $q(\\mathbf{z}|\\mathbf{x},\\boldsymbol{\\theta})$:"},{"id":"page_0337-b006","page_key":337,"order":6,"type":"equation","source":"deepseek","confidence":"high","text":"\\mathrm{E L B O}[\\boldsymbol{\\theta},\\phi]\\quad\\approx\\quad\\log\\left[P r(\\mathbf{x}|\\mathbf{z}^{*},\\boldsymbol{\\phi})\\right]-\\mathrm{D}_{K L}\\Big[q(\\mathbf{z}|\\mathbf{x},\\boldsymbol{\\theta})\\Big|\\Big|P r(\\mathbf{z})\\Big]. \\quad (17.23)"},{"id":"page_0337-b007","page_key":337,"order":7,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"The second term is the KL divergence between the variational distribution $q(\\mathbf{z}|\\mathbf{x},\\boldsymbol{\\theta})=\\mathrm{Norm}_{\\mathbf{Z}}[\\boldsymbol{\\mu},\\boldsymbol{\\Sigma}]$ and the prior $Pr(\\mathbf{z})=\\mathrm{Norm}_{\\mathbf{Z}}[\\boldsymbol{0},\\mathbf{I}]$. The KL divergence between two normal distributions can be calculated in closed form. For the special case where one distribution has parameters $\\boldsymbol{\\mu},\\boldsymbol{\\Sigma}$ and the other is a standard normal, it is given by:"},{"id":"page_0337-b008","page_key":337,"order":8,"type":"equation","source":"deepseek","confidence":"high","text":"\\mathrm{D}_{K L}\\left[q(\\mathbf{z}|\\mathbf{x},\\boldsymbol{\\theta})\\Big|\\big|P r(\\mathbf{z})\\right]=\\frac{1}{2}\\bigg(\\mathrm{T r}[\\boldsymbol{\\Sigma}]+\\boldsymbol{\\mu}^{T}\\boldsymbol{\\mu}-D_{\\mathbf{z}}-\\log\\left[\\mathrm*{d e t}[\\boldsymbol{\\Sigma}]\\right]\\bigg). \\quad (17.24)"},{"id":"page_0337-b009","page_key":337,"order":9,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"where $D_{\\mathbf{z}}$ is the dimensionality of the latent space."},{"id":"page_0337-b010","page_key":337,"order":10,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"17.6.1 VAE algorithm"},{"id":"page_0337-b011","page_key":337,"order":11,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"To summarize, we aim to build a model that computes the evidence lower bound for a point x. Then we use an optimization algorithm to maximize this lower bound over the"}]
+[
+  {
+    "id": "page_0337-b001",
+    "page_key": 337,
+    "order": 1,
+    "type": "figure",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0337_fig_1.jpg",
+    "alt_text": "Figure 17.8 Variational approximation."
+  },
+  {
+    "id": "page_0337-b002",
+    "page_key": 337,
+    "order": 2,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Figure 17.8 Variational approximation."
+  },
+  {
+    "id": "page_0337-b003",
+    "page_key": 337,
+    "order": 3,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Figure 17.8 Variational approximation. The posterior $Pr(\\mathbf{z}|\\mathbf{x}^{*}, \\phi)$ can't be computed in closed form. The variational approximation chooses a family of distributions $q(\\mathbf{z}|\\mathbf{x}, \\theta)$ (here Gaussians) and tries to find the closest member of this family to the true posterior. a) Sometimes, the approximation (cyan curve) is good and lies close to the true posterior (orange curve). b) However, if the posterior is multi-modal (as in figure 17.7), then the Gaussian approximation will be poor."
+  },
+  {
+    "id": "page_0337-b004",
+    "page_key": 337,
+    "order": 4,
+    "type": "equation",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "\\mathbb{E}_{\\mathbf{z}}\\big[\\mathrm{a}[\\mathbf{z}]]={\\int}\\mathrm{a}[\\mathbf{z}|q(\\mathbf{z}|\\mathbf{x},\\boldsymbol{\\theta})d\\mathbf{z}\\approx\\frac{1}{N}{\\sum_{n=1}^{N}}\\mathrm{a}[\\mathbf{z}_{n}^{*}], \\quad (17.22)"
+  },
+  {
+    "id": "page_0337-b005",
+    "page_key": 337,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "where $\\mathbf{z}_{n}^{*}$ is the $n^{th}$ sample from $q(\\mathbf{z}|\\mathbf{x},\\boldsymbol{\\theta})$. This is known as a Monte Carlo estimate. For a very approximate estimate, we can just use a single sample $\\mathbf{z}^{*}$ from $q(\\mathbf{z}|\\mathbf{x},\\boldsymbol{\\theta})$:"
+  },
+  {
+    "id": "page_0337-b006",
+    "page_key": 337,
+    "order": 6,
+    "type": "equation",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "\\mathrm{ELBO}[\\boldsymbol{\\theta},\\phi]\\quad\\approx\\quad\\log\\left[Pr(\\mathbf{x}|\\mathbf{z}^{*},\\boldsymbol{\\phi})\\right]-\\mathrm{D}_{KL}\\Big[q(\\mathbf{z}|\\mathbf{x},\\boldsymbol{\\theta})\\Big|\\Big|Pr(\\mathbf{z})\\Big]. \\quad (17.23)"
+  },
+  {
+    "id": "page_0337-b007",
+    "page_key": 337,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "The second term is the KL divergence between the variational distribution $q(\\mathbf{z}|\\mathbf{x},\\boldsymbol{\\theta})=\\mathrm{Norm}_{\\mathbf{Z}}[\\boldsymbol{\\mu},\\boldsymbol{\\Sigma}]$ and the prior $Pr(\\mathbf{z})=\\mathrm{Norm}_{\\mathbf{Z}}[\\boldsymbol{0},\\mathbf{I}]$. The KL divergence between two normal distributions can be calculated in closed form. For the special case where one distribution has parameters $\\boldsymbol{\\mu},\\boldsymbol{\\Sigma}$ and the other is a standard normal, it is given by:"
+  },
+  {
+    "id": "page_0337-b008",
+    "page_key": 337,
+    "order": 8,
+    "type": "equation",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "\\mathrm{D}_{KL}\\left[q(\\mathbf{z}|\\mathbf{x},\\boldsymbol{\\theta})\\Big|\\big|Pr(\\mathbf{z})\\right]=\\frac{1}{2}\\bigg(\\mathrm{Tr}[\\boldsymbol{\\Sigma}]+\\boldsymbol{\\mu}^{T}\\boldsymbol{\\mu}-D_{\\mathbf{z}}-\\log\\left[\\det[\\boldsymbol{\\Sigma}]\\right]\\bigg). \\quad (17.24)"
+  },
+  {
+    "id": "page_0337-b009",
+    "page_key": 337,
+    "order": 9,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "where $D_{\\mathbf{z}}$ is the dimensionality of the latent space."
+  },
+  {
+    "id": "page_0337-b010",
+    "page_key": 337,
+    "order": 10,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "17.6.1 VAE algorithm"
+  },
+  {
+    "id": "page_0337-b011",
+    "page_key": 337,
+    "order": 11,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "To summarize, we aim to build a model that computes the evidence lower bound for a point x. Then we use an optimization algorithm to maximize this lower bound over the"
+  }
+]

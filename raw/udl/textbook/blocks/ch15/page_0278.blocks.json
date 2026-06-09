@@ -24,7 +24,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\hat{\\phi}=\\underset{\\boldsymbol{\\phi}}{\\mathrm{a r g m i n}}\\left[\\sum_{i}-(1-y_{i})\\log\\left[1-\\mathrm{sig}[f[\\mathbf{x}_{i},\\boldsymbol{\\phi}]]\\right]-y_{i}\\log\\left[\\mathrm{sig}[f[\\mathbf{x}_{i},\\boldsymbol{\\phi}]]\\right]\\right],\n\\tag{15.2}\n\\end{aligned}"
+    "text": "\\begin{aligned}\n\\hat{\\phi}\n&=\\underset{\\phi}{\\mathrm{argmin}}\\left[\n\\sum_{i}-(1-y_{i})\\log\\left[1-\\mathrm{sig}[f[\\mathbf{x}_{i},\\phi]]\\right]\n-y_{i}\\log\\left[\\mathrm{sig}[f[\\mathbf{x}_{i},\\phi]]\\right]\n\\right],\n\\end{aligned}\n\\tag{15.2}"
   },
   {
     "id": "page_0278-b004",
@@ -51,7 +51,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\hat{\\phi}=\\underset{\\boldsymbol{\\phi}}{\\mathrm{a r g m i n}}\\left[\\sum_{j}-\\log\\left[1-\\mathrm{sig}[f[\\mathbf{x}_{j}^{*},\\boldsymbol{\\phi}]]\\right]-\\sum_{i}\\log\\left[\\mathrm{sig}[f[\\mathbf{x}_{i},\\boldsymbol{\\phi}]]\\right]\\right],\n\\tag{15.3}\n\\end{aligned}"
+    "text": "\\begin{aligned}\n\\hat{\\phi}\n&=\\underset{\\phi}{\\mathrm{argmin}}\\left[\n\\sum_{j}-\\log\\left[1-\\mathrm{sig}[f[\\mathbf{x}_{j}^{*},\\phi]]\\right]\n-\\sum_{i}\\log\\left[\\mathrm{sig}[f[\\mathbf{x}_{i},\\phi]]\\right]\n\\right],\n\\end{aligned}\n\\tag{15.3}"
   },
   {
     "id": "page_0278-b007",
@@ -69,7 +69,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "Now we substitute the definition for the generator $x_{j}^{*} = g[z_{i}, \\theta]$ and note that we must maximize with respect to $\\theta$ since we want the generated samples to be misclassified (i.e., have low likelihood of being synthetic or high negative log"
+    "text": "Now we substitute the definition for the generator $x_{j}^{*} = \\mathrm{g}[z_{j}, \\theta]$ and note that we must maximize with respect to $\\theta$ since we want the generated samples to be misclassified (i.e., have low likelihood of being synthetic or high negative log-likelihood):"
   },
   {
     "id": "page_0278-b009",
@@ -78,7 +78,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\hat{\\theta}=\\underset{\\boldsymbol{\\theta}}{\\mathrm{a r g m a x}}\\left[\\min_{\\phi}\\sum_{j}-\\log\\left[1-\\mathrm{sig}[f[\\mathbf{g}[\\boldsymbol{z}_{j},\\boldsymbol{\\theta}]],\\phi]\\right]-\\sum_{i}\\log\\left[\\mathrm{sig}[f[\\mathbf{x}_{i},\\boldsymbol{\\phi}]]\\right]\\right].\n\\tag{15.4}\n\\end{aligned}"
+    "text": "\\begin{aligned}\n\\hat{\\theta}\n&=\\underset{\\theta}{\\mathrm{argmax}}\\left[\n\\min_{\\phi}\\left[\n\\sum_{j}-\\log\\left[1-\\mathrm{sig}[f[\\mathrm{g}[z_{j},\\theta],\\phi]]\\right]\n-\\sum_{i}\\log\\left[\\mathrm{sig}[f[\\mathbf{x}_{i},\\phi]]\\right]\n\\right]\\right].\n\\end{aligned}\n\\tag{15.4}"
   },
   {
     "id": "page_0278-b010",
@@ -114,6 +114,6 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}&L[\\phi]\\quad=\\quad\\sum_{j}-\\log\\left[1-\\mathrm{sig}[f[\\mathbf{g}[\\boldsymbol{z}_{j},\\theta],\\phi]]\\right]-\\sum_{i}\\log\\left[\\mathrm{sig}[f[\\mathbf{x}_{i},\\phi]]\\right]\\\\&L[\\boldsymbol{\\theta}]\\quad=\\quad\\sum_{j}\\log\\left[1-\\mathrm{sig}[f[\\mathbf{g}[\\boldsymbol{z}_{j},\\theta],\\phi]]\\right],\\\\ \\end{aligned}\n\\tag{15.5}"
+    "text": "\\begin{aligned}\nL[\\phi]&=\\sum_{j}-\\log\\left[1-\\mathrm{sig}[f[\\mathrm{g}[z_{j},\\theta],\\phi]]\\right]-\\sum_{i}\\log\\left[\\mathrm{sig}[f[\\mathbf{x}_{i},\\phi]]\\right]\\\\\nL[\\theta]&=\\sum_{j}\\log\\left[1-\\mathrm{sig}[f[\\mathrm{g}[z_{j},\\theta],\\phi]]\\right],\n\\end{aligned}\n\\tag{15.5}"
   }
 ]

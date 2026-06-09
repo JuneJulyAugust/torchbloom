@@ -61,7 +61,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "Problems 19.2\u201319.3"
+    "text": "Problems 19.2–19.3"
   },
   {
     "id": "page_0384-b008",
@@ -88,7 +88,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "There are many variations of this approach. In policy iteration, the policy evaluation step is iterated until convergence before policy improvement. The values can be updated either in place or synchronously in each sweep. In value iteration, the policy evaluation procedure sweeps through the values just once before policy improvement. Asynchronous dynamic programming algorithms don\u2019t have to systematically sweep through all the values at each step but can update a subset of the states in place in an arbitrary order."
+    "text": "There are many variations of this approach. In policy iteration, the policy evaluation step is iterated until convergence before policy improvement. The values can be updated either in place or synchronously in each sweep. In value iteration, the policy evaluation procedure sweeps through the values just once before policy improvement. Asynchronous dynamic programming algorithms don’t have to systematically sweep through all the values at each step but can update a subset of the states in place in an arbitrary order."
   },
   {
     "id": "page_0384-b011",
@@ -106,7 +106,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "Unlike dynamic programming algorithms, Monte Carlo methods don\u2019t assume knowledge of the MDP\u2019s transition probabilities and reward structure. Instead, they gain experience by repeatedly sampling trajectories from the MDP and observing the rewards. They alternate between computing the action values (based on this experience) and updating the policy (based on the action values)."
+    "text": "Unlike dynamic programming algorithms, Monte Carlo methods don’t assume knowledge of the MDP’s transition probabilities and reward structure. Instead, they gain experience by repeatedly sampling trajectories from the MDP and observing the rewards. They alternate between computing the action values (based on this experience) and updating the policy (based on the action values)."
   },
   {
     "id": "page_0384-b013",
@@ -124,6 +124,6 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\pi[a|s]\\leftarrow\\underset{a}{\\mathrm{argmax}}\\Big[q[s,a]\\Big]. \\tag{19.13}\n\\end{aligned}"
+    "text": "\\begin{aligned}\n\\pi[a|s]\\leftarrow\\underset{a}{\\mathrm{argmax}}\\Big[q[s,a]\\Big].\n\\end{aligned}\n\\tag{19.13}"
   }
 ]

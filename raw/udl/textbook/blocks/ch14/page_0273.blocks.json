@@ -1,1 +1,75 @@
-[{"id":"page_0273-b001","page_key":273,"order":1,"type":"figure","source":"paddle","confidence":"high","image_path":"figures/page_0273_fig_1.jpg","alt_text":"Inception score. a) A pretrained network classifies the generated images. If the images are realistic, the res"},{"id":"page_0273-b002","page_key":273,"order":2,"type":"caption","source":"deepseek+paddle","confidence":"high","text":"Figure 14.4 Inception score. a) A pretrained network classifies the generated images. If the images are realistic, the resulting class probabilities $Pr(y|x_{i}^{*})$ should be peaked at the correct class. b) If the model generates all classes equally frequent"},{"id":"page_0273-b003","page_key":273,"order":3,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"The inception score measures the average distance between these two distributions over the generated set. This distance will be large if one is peaked and the other flat (figure 14.4). More precisely, it returns the exponential of the expected KL-divergence be"},{"id":"page_0273-b004","page_key":273,"order":4,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"\\begin{aligned}\nIS\\ =\\ \\exp\\left[\\frac{1}{I}\\sum_{i=1}^{I}D_{KL}\\left[Pr(y|\\mathbf{x}_{i}^{*})||Pr(y)\\right]\\right],\n\\tag{14.2}\n\\end{aligned}"},{"id":"page_0273-b005","page_key":273,"order":5,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"where $I$ is the number of generated examples and:"},{"id":"page_0273-b006","page_key":273,"order":6,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"\\begin{aligned}\nPr(y)=\\frac{1}{I}\\sum_{i=1}^{I}Pr(y|\\mathbf{x}_{i}^{*}).\n\\tag{14.3}\n\\end{aligned}"},{"id":"page_0273-b007","page_key":273,"order":7,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"This metric is only sensible for generative models of the ImageNet database and is sensitive to the particular classification model; retraining this model can give quite different numerical results. Moreover, it does not reward diversity within an object class"},{"id":"page_0273-b008","page_key":273,"order":8,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Fréchet inception distance: This measure is also intended for images and computes a symmetric distance between the distributions of generated samples and real examples. This must be approximate since it is hard to characterize either distribution (indeed,"}]
+[
+  {
+    "id": "page_0273-b001",
+    "page_key": 273,
+    "order": 1,
+    "type": "figure",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0273_fig_1.jpg",
+    "alt_text": "Inception score. a) A pretrained network classifies the generated images. If the images are realistic, the res"
+  },
+  {
+    "id": "page_0273-b002",
+    "page_key": 273,
+    "order": 2,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Figure 14.4 Inception score. a) A pretrained network classifies the generated images. If the images are realistic, the resulting class probabilities $Pr(y|x_{i}^{*})$ should be peaked at the correct class. b) If the model generates all classes equally frequent"
+  },
+  {
+    "id": "page_0273-b003",
+    "page_key": 273,
+    "order": 3,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "The inception score measures the average distance between these two distributions over the generated set. This distance will be large if one is peaked and the other flat (figure 14.4). More precisely, it returns the exponential of the expected KL-divergence be"
+  },
+  {
+    "id": "page_0273-b004",
+    "page_key": 273,
+    "order": 4,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\nIS\\ =\\ \\exp\\left[\\frac{1}{I}\\sum_{i=1}^{I}D_{KL}\\left[Pr(y|\\mathbf{x}_{i}^{*})||Pr(y)\\right]\\right],\n\\end{aligned}\n\\tag{14.2}"
+  },
+  {
+    "id": "page_0273-b005",
+    "page_key": 273,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "where $I$ is the number of generated examples and:"
+  },
+  {
+    "id": "page_0273-b006",
+    "page_key": 273,
+    "order": 6,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\nPr(y)=\\frac{1}{I}\\sum_{i=1}^{I}Pr(y|\\mathbf{x}_{i}^{*}).\n\\end{aligned}\n\\tag{14.3}"
+  },
+  {
+    "id": "page_0273-b007",
+    "page_key": 273,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "This metric is only sensible for generative models of the ImageNet database and is sensitive to the particular classification model; retraining this model can give quite different numerical results. Moreover, it does not reward diversity within an object class"
+  },
+  {
+    "id": "page_0273-b008",
+    "page_key": 273,
+    "order": 8,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Fréchet inception distance: This measure is also intended for images and computes a symmetric distance between the distributions of generated samples and real examples. This must be approximate since it is hard to characterize either distribution (indeed,"
+  }
+]

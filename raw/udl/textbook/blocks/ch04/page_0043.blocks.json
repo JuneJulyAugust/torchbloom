@@ -1,1 +1,110 @@
-[{"id":"page_0043-b001","page_key":43,"order":1,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"\\begin{aligned}\n\\begin{array}{rcl}h_{1}^{\\prime}&=&a[\\theta_{10}^{\\prime}+\\theta_{11}^{\\prime}y]\\\\h_{2}^{\\prime}&=&a[\\theta_{20}^{\\prime}+\\theta_{21}^{\\prime}y]\\\\h_{3}^{\\prime}&=&a[\\theta_{30}^{\\prime}+\\theta_{31}^{\\prime}y],\\end{array} \\tag{4.3}\n\\end{aligned}"},{"id":"page_0043-b002","page_key":43,"order":2,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"and"},{"id":"page_0043-b003","page_key":43,"order":3,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"\\begin{aligned}\ny^{\\prime}=\\phi_{0}^{\\prime}+\\phi_{1}^{\\prime}h_{1}^{\\prime}+\\phi_{2}^{\\prime}h_{2}^{\\prime}+\\phi_{3}^{\\prime}h_{3}^{\\prime}. \\tag{4.4}\n\\end{aligned}"},{"id":"page_0043-b004","page_key":43,"order":4,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"With ReLU activations, this model also describes a family of piecewise linear functions. However, the number of linear regions is potentially greater than for a shallow network with six hidden units. To see this, consider choosing the first network to produce three alternating regions of positive and negative slope (figure 4.1b). This means that three different ranges of x are mapped to the same output range $y \\in [-1, 1]$ , and the subsequent mapping from this range of y to $y'$ is applied thr"},{"id":"page_0043-b005","page_key":43,"order":5,"type":"exercise","source":"deepseek+paddle","confidence":"high","text":"**Problem 4.1** A different way to think about composing networks is that the first network “folds” the input space x back onto itself so that multiple inputs generate the same output. Then the second network applies a function, which is replicated at all points that were folded on top of one another (figure 4.3)."},{"id":"page_0043-b006","page_key":43,"order":6,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Notebook 4.1 Composing networks"},{"id":"page_0043-b007","page_key":43,"order":7,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"4.2 From composing networks to deep networks"},{"id":"page_0043-b008","page_key":43,"order":8,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"The previous section showed that we could create complex functions by passing the output of one shallow neural network into a second network. We now show that this is a special case of a deep network with two hidden layers."},{"id":"page_0043-b009","page_key":43,"order":9,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"The output of the first network ( $y = \\phi_{0} + \\phi_{1}h_{1} + \\phi_{2}h_{2} + \\phi_{3}h_{3}$ ) is a linear combination of the activations at the hidden units. The first operations of the second network (equation 4.3 in which we calculate $\\theta_{10}^{\\prime} + \\theta_{11}^{\\prime}y$ , $\\theta_{20}^{\\prime} + \\theta_{21}^{\\prime}y$ , and $\\theta_{30}^{\\prime} + \\theta_{31}^{\\prime}y$ ) are linear in the output of the first network. Applying one linear function to another yields another linea"},{"id":"page_0043-b010","page_key":43,"order":10,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"\\begin{aligned}\n\\begin{array}{rcl}h_{1}^{\\prime}&=&a[\\theta_{10}^{\\prime}+\\theta_{11}^{\\prime}y]=&a[\\theta_{10}^{\\prime}+\\theta_{11}^{\\prime}\\phi_{0}+\\theta_{11}^{\\prime}\\phi_{1}h_{1}+\\theta_{11}^{\\prime}\\phi_{2}h_{2}+\\theta_{11}^{\\prime}\\phi_{3}h_{3}]\\\\h_{2}^{\\prime}&=&a[\\theta_{20}^{\\prime}+\\theta_{21}^{\\prime}y]=&a[\\theta_{20}^{\\prime}+\\theta_{21}^{\\prime}\\phi_{0}+\\theta_{21}^{\\prime}\\phi_{1}h_{1}+\\theta_{21}^{\\prime}\\phi_{2}h_{2}+\\theta_{21}^{\\prime}\\phi_{3}h_{3}]\\\\h_{3}^{\\prime}&=&a[\\theta_{30}^{\\prime}+\\theta_{31}^{\\prime}y]=&a[\\phi_{0}+h_{1}\\phi_{0}+\\theta_{11}^{\\prime}h_{1}+\\theta_{21}^{\\prime}\\phi_{2}h_{2}+\\theta_{31}^{\\prime}h_{3}]\\end{array} \\tag{4.5}\n\\end{aligned}"},{"id":"page_0043-b011","page_key":43,"order":11,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"which we can rewrite as:"},{"id":"page_0043-b012","page_key":43,"order":12,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"\\begin{aligned}\n\\begin{array}{rcl}h_{1}^{\\prime}&=&a[\\psi_{10}+\\psi_{11}h_{1}+\\psi_{12}h_{2}+\\psi_{13}h_{3}]\\\\h_{2}^{\\prime}&=&a[\\psi_{20}+\\psi_{21}h_{1}+\\psi_{22}h_{2}+\\psi_{23}h_{3}]\\\\h_{3}^{\\prime}&=&a[\\psi_{30}+\\psi_{31}h_{1}+\\psi_{32}h_{2}+\\psi_{33}h_{3}],\\end{array} \\tag{4.6}\n\\end{aligned}"}]
+[
+  {
+    "id": "page_0043-b001",
+    "page_key": 43,
+    "order": 1,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\n\\begin{array}{rcl}h_{1}^{\\prime}&=&a[\\theta_{10}^{\\prime}+\\theta_{11}^{\\prime}y]\\\\h_{2}^{\\prime}&=&a[\\theta_{20}^{\\prime}+\\theta_{21}^{\\prime}y]\\\\h_{3}^{\\prime}&=&a[\\theta_{30}^{\\prime}+\\theta_{31}^{\\prime}y],\\end{array}\n\\end{aligned}\n\\tag{4.3}"
+  },
+  {
+    "id": "page_0043-b002",
+    "page_key": 43,
+    "order": 2,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "and"
+  },
+  {
+    "id": "page_0043-b003",
+    "page_key": 43,
+    "order": 3,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\ny^{\\prime}=\\phi_{0}^{\\prime}+\\phi_{1}^{\\prime}h_{1}^{\\prime}+\\phi_{2}^{\\prime}h_{2}^{\\prime}+\\phi_{3}^{\\prime}h_{3}^{\\prime}.\n\\end{aligned}\n\\tag{4.4}"
+  },
+  {
+    "id": "page_0043-b004",
+    "page_key": 43,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "With ReLU activations, this model also describes a family of piecewise linear functions. However, the number of linear regions is potentially greater than for a shallow network with six hidden units. To see this, consider choosing the first network to produce three alternating regions of positive and negative slope (figure 4.1b). This means that three different ranges of x are mapped to the same output range $y \\in [-1, 1]$ , and the subsequent mapping from this range of y to $y'$ is applied thr"
+  },
+  {
+    "id": "page_0043-b005",
+    "page_key": 43,
+    "order": 5,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "**Problem 4.1** A different way to think about composing networks is that the first network “folds” the input space x back onto itself so that multiple inputs generate the same output. Then the second network applies a function, which is replicated at all points that were folded on top of one another (figure 4.3)."
+  },
+  {
+    "id": "page_0043-b006",
+    "page_key": 43,
+    "order": 6,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Notebook 4.1 Composing networks"
+  },
+  {
+    "id": "page_0043-b007",
+    "page_key": 43,
+    "order": 7,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "4.2 From composing networks to deep networks"
+  },
+  {
+    "id": "page_0043-b008",
+    "page_key": 43,
+    "order": 8,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "The previous section showed that we could create complex functions by passing the output of one shallow neural network into a second network. We now show that this is a special case of a deep network with two hidden layers."
+  },
+  {
+    "id": "page_0043-b009",
+    "page_key": 43,
+    "order": 9,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "The output of the first network ( $y = \\phi_{0} + \\phi_{1}h_{1} + \\phi_{2}h_{2} + \\phi_{3}h_{3}$ ) is a linear combination of the activations at the hidden units. The first operations of the second network (equation 4.3 in which we calculate $\\theta_{10}^{\\prime} + \\theta_{11}^{\\prime}y$ , $\\theta_{20}^{\\prime} + \\theta_{21}^{\\prime}y$ , and $\\theta_{30}^{\\prime} + \\theta_{31}^{\\prime}y$ ) are linear in the output of the first network. Applying one linear function to another yields another linea"
+  },
+  {
+    "id": "page_0043-b010",
+    "page_key": 43,
+    "order": 10,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\n\\begin{array}{rcl}h_{1}^{\\prime}&=&a[\\theta_{10}^{\\prime}+\\theta_{11}^{\\prime}y]=&a[\\theta_{10}^{\\prime}+\\theta_{11}^{\\prime}\\phi_{0}+\\theta_{11}^{\\prime}\\phi_{1}h_{1}+\\theta_{11}^{\\prime}\\phi_{2}h_{2}+\\theta_{11}^{\\prime}\\phi_{3}h_{3}]\\\\h_{2}^{\\prime}&=&a[\\theta_{20}^{\\prime}+\\theta_{21}^{\\prime}y]=&a[\\theta_{20}^{\\prime}+\\theta_{21}^{\\prime}\\phi_{0}+\\theta_{21}^{\\prime}\\phi_{1}h_{1}+\\theta_{21}^{\\prime}\\phi_{2}h_{2}+\\theta_{21}^{\\prime}\\phi_{3}h_{3}]\\\\h_{3}^{\\prime}&=&a[\\theta_{30}^{\\prime}+\\theta_{31}^{\\prime}y]=&a[\\phi_{0}+h_{1}\\phi_{0}+\\theta_{11}^{\\prime}h_{1}+\\theta_{21}^{\\prime}\\phi_{2}h_{2}+\\theta_{31}^{\\prime}h_{3}]\\end{array}\n\\end{aligned}\n\\tag{4.5}"
+  },
+  {
+    "id": "page_0043-b011",
+    "page_key": 43,
+    "order": 11,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "which we can rewrite as:"
+  },
+  {
+    "id": "page_0043-b012",
+    "page_key": 43,
+    "order": 12,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\n\\begin{array}{rcl}h_{1}^{\\prime}&=&a[\\psi_{10}+\\psi_{11}h_{1}+\\psi_{12}h_{2}+\\psi_{13}h_{3}]\\\\h_{2}^{\\prime}&=&a[\\psi_{20}+\\psi_{21}h_{1}+\\psi_{22}h_{2}+\\psi_{23}h_{3}]\\\\h_{3}^{\\prime}&=&a[\\psi_{30}+\\psi_{31}h_{1}+\\psi_{32}h_{2}+\\psi_{33}h_{3}],\\end{array}\n\\end{aligned}\n\\tag{4.6}"
+  }
+]

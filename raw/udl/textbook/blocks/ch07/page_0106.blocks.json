@@ -1,1 +1,110 @@
-[{"id":"page_0106-b001","page_key":106,"order":1,"type":"heading","source":"deepseek","confidence":"high","text":"7.4.1 Backpropagation algorithm summary"},{"id":"page_0106-b002","page_key":106,"order":2,"type":"paragraph","source":"deepseek","confidence":"high","text":"We now briefly summarize the final backpropagation algorithm. Consider a deep neural network $f[x_{i}, \\phi]$ that takes input $x_{i}$ , has K hidden layers with ReLU activations, and individual loss term $\\ell_{i} = l[f[x_{i}, \\phi], y_{i}]$ . The goal of backpropagation is to compute the derivatives $\\partial\\ell_{i}/\\partial\\beta_{k}$ and $\\partial\\ell_{i}/\\partial\\Omega_{k}$ with respect to the biases $\\beta_{k}$ , and weights $\\Omega_{k}$ ."},{"id":"page_0106-b003","page_key":106,"order":3,"type":"paragraph","source":"deepseek","confidence":"high","text":"Forward pass: We compute and store the following quantities:"},{"id":"page_0106-b004","page_key":106,"order":4,"type":"equation","source":"deepseek+paddle","confidence":"medium","text":"\\begin{aligned}\n\\begin{array}{rcl}\\mathbf{f}_{0}&=&\\beta_{0}+\\Omega_{0}\\mathbf{x}_{i}\\\\\\mathbf{h}_{k}&=&\\mathbf{a}[\\mathbf{f}_{k-1}]&k\\in\\{1,2,\\cdots,K\\}\\\\\\mathbf{f}_{k}&=&\\beta_{k}+\\Omega_{k}\\mathbf{h}_{k}.&k\\in\\{1,2,\\cdots,K\\}\\end{array} \\tag{7.24}\n\\end{aligned}"},{"id":"page_0106-b005","page_key":106,"order":5,"type":"paragraph","source":"deepseek","confidence":"high","text":"Backward pass: We start with the derivative $\\partial\\ell_{i}/\\partial\\mathbf{f}_{K}$ of the loss function $\\ell_{i}$ with respect to the network output $\\mathbf{f}_{K}$ and work backward through the network:"},{"id":"page_0106-b006","page_key":106,"order":6,"type":"equation","source":"deepseek+paddle","confidence":"medium","text":"\\begin{aligned}\n\\begin{array}{rcl}\\displaystyle\\frac{\\partial\\ell_{i}}{\\partial\\beta_{k}}&=&\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{k}}\\quad k\\in\\{K,K-1,\\cdots,1\\}\\\\ \\displaystyle\\frac{\\partial\\ell_{i}}{\\partial\\Omega_{k}}&=&\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{k}}\\mathbf{h}^{T}\\quad k\\in\\{K,K-1,\\cdots,1\\}\\\\ \\displaystyle\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{k-1}}&=&\\mathbb{I}[\\mathbf{f}_{k-1}>0]\\odot\\left(\\Omega_{k}^{T}\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{k}}\\right),\\quad k\\in\\{K,K-1,\\cdots,1\\}\\end{array} \\tag{7.25}\n\\end{aligned}"},{"id":"page_0106-b007","page_key":106,"order":7,"type":"paragraph","source":"deepseek","confidence":"high","text":"where $\\odot$ denotes pointwise multiplication, and $\\mathbb{I}[\\mathbf{f}_{k-1}>0]$ is a vector containing ones where $\\mathbf{f}_{k-1}$ is greater than zero and zeros elsewhere. Finally, we compute the derivatives with respect to the first set of biases and weights:"},{"id":"page_0106-b008","page_key":106,"order":8,"type":"equation","source":"deepseek+paddle","confidence":"medium","text":"\\begin{aligned}\n\\begin{array}{rcl}\\displaystyle\\frac{\\partial\\ell_{i}}{\\partial\\beta_{0}}&=&\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{0}}\\\\\\displaystyle\\frac{\\partial\\ell_{i}}{\\partial\\Omega_{0}}&=&\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{0}}\\mathbf{x}^{T}.\\end{array} \\tag{7.26}\n\\end{aligned}"},{"id":"page_0106-b009","page_key":106,"order":9,"type":"paragraph","source":"deepseek","confidence":"high","text":"We calculate these derivatives for every training example in the batch and sum them together to retrieve the gradient for the SGD update."},{"id":"page_0106-b010","page_key":106,"order":10,"type":"paragraph","source":"deepseek","confidence":"high","text":"Note that the backpropagation algorithm is extremely efficient; the most demanding computational step in both the forward and backward pass is matrix multiplication (by $\\Omega$ and $\\Omega^{T}$ , respectively) which only requires additions and multiplications. However, it is not memory efficient; the intermediate values in the forward pass must all be stored, and this can limit the size of the model we can train."},{"id":"page_0106-b011","page_key":106,"order":11,"type":"heading","source":"deepseek","confidence":"high","text":"7.4.2 Algorithmic differentiation"},{"id":"page_0106-b012","page_key":106,"order":12,"type":"paragraph","source":"deepseek","confidence":"high","text":"Although it’s important to understand the backpropagation algorithm, it’s unlikely that you will need to code it in practice. Modern deep learning frameworks such as PyTorch"}]
+[
+  {
+    "id": "page_0106-b001",
+    "page_key": 106,
+    "order": 1,
+    "type": "heading",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "7.4.1 Backpropagation algorithm summary"
+  },
+  {
+    "id": "page_0106-b002",
+    "page_key": 106,
+    "order": 2,
+    "type": "paragraph",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "We now briefly summarize the final backpropagation algorithm. Consider a deep neural network $f[x_{i}, \\phi]$ that takes input $x_{i}$ , has K hidden layers with ReLU activations, and individual loss term $\\ell_{i} = l[f[x_{i}, \\phi], y_{i}]$ . The goal of backpropagation is to compute the derivatives $\\partial\\ell_{i}/\\partial\\beta_{k}$ and $\\partial\\ell_{i}/\\partial\\Omega_{k}$ with respect to the biases $\\beta_{k}$ , and weights $\\Omega_{k}$ ."
+  },
+  {
+    "id": "page_0106-b003",
+    "page_key": 106,
+    "order": 3,
+    "type": "paragraph",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "Forward pass: We compute and store the following quantities:"
+  },
+  {
+    "id": "page_0106-b004",
+    "page_key": 106,
+    "order": 4,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "\\begin{aligned}\n\\begin{array}{rcl}\\mathbf{f}_{0}&=&\\beta_{0}+\\Omega_{0}\\mathbf{x}_{i}\\\\ \\mathbf{h}_{k}&=&\\mathbf{a}[\\mathbf{f}_{k-1}]&k\\in\\{1,2,\\cdots,K\\}\\\\ \\mathbf{f}_{k}&=&\\beta_{k}+\\Omega_{k}\\mathbf{h}_{k}.&k\\in\\{1,2,\\cdots,K\\}\\end{array}\n\\end{aligned}\n\\tag{7.24}"
+  },
+  {
+    "id": "page_0106-b005",
+    "page_key": 106,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "Backward pass: We start with the derivative $\\partial\\ell_{i}/\\partial\\mathbf{f}_{K}$ of the loss function $\\ell_{i}$ with respect to the network output $\\mathbf{f}_{K}$ and work backward through the network:"
+  },
+  {
+    "id": "page_0106-b006",
+    "page_key": 106,
+    "order": 6,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "\\begin{aligned}\n\\begin{array}{rcl}\\displaystyle\\frac{\\partial\\ell_{i}}{\\partial\\beta_{k}}&=&\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{k}}\\quad k\\in\\{K,K-1,\\cdots,1\\}\\\\ \\displaystyle\\frac{\\partial\\ell_{i}}{\\partial\\Omega_{k}}&=&\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{k}}\\mathbf{h}^{T}\\quad k\\in\\{K,K-1,\\cdots,1\\}\\\\ \\displaystyle\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{k-1}}&=&\\mathbb{I}[\\mathbf{f}_{k-1}>0]\\odot\\left(\\Omega_{k}^{T}\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{k}}\\right),\\quad k\\in\\{K,K-1,\\cdots,1\\}\\end{array}\n\\end{aligned}\n\\tag{7.25}"
+  },
+  {
+    "id": "page_0106-b007",
+    "page_key": 106,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "where $\\odot$ denotes pointwise multiplication, and $\\mathbb{I}[\\mathbf{f}_{k-1}>0]$ is a vector containing ones where $\\mathbf{f}_{k-1}$ is greater than zero and zeros elsewhere. Finally, we compute the derivatives with respect to the first set of biases and weights:"
+  },
+  {
+    "id": "page_0106-b008",
+    "page_key": 106,
+    "order": 8,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "\\begin{aligned}\n\\begin{array}{rcl}\\displaystyle\\frac{\\partial\\ell_{i}}{\\partial\\beta_{0}}&=&\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{0}}\\\\\\displaystyle\\frac{\\partial\\ell_{i}}{\\partial\\Omega_{0}}&=&\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{0}}\\mathbf{x}^{T}.\\end{array}\n\\end{aligned}\n\\tag{7.26}"
+  },
+  {
+    "id": "page_0106-b009",
+    "page_key": 106,
+    "order": 9,
+    "type": "paragraph",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "We calculate these derivatives for every training example in the batch and sum them together to retrieve the gradient for the SGD update."
+  },
+  {
+    "id": "page_0106-b010",
+    "page_key": 106,
+    "order": 10,
+    "type": "paragraph",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "Note that the backpropagation algorithm is extremely efficient; the most demanding computational step in both the forward and backward pass is matrix multiplication (by $\\Omega$ and $\\Omega^{T}$ , respectively) which only requires additions and multiplications. However, it is not memory efficient; the intermediate values in the forward pass must all be stored, and this can limit the size of the model we can train."
+  },
+  {
+    "id": "page_0106-b011",
+    "page_key": 106,
+    "order": 11,
+    "type": "heading",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "7.4.2 Algorithmic differentiation"
+  },
+  {
+    "id": "page_0106-b012",
+    "page_key": 106,
+    "order": 12,
+    "type": "paragraph",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "Although it’s important to understand the backpropagation algorithm, it’s unlikely that you will need to code it in practice. Modern deep learning frameworks such as PyTorch"
+  }
+]

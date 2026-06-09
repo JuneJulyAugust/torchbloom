@@ -1,1 +1,110 @@
-[{"id":"page_0249-b001","page_key":249,"order":1,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"13.4.1 Equivariance and invariance"},{"id":"page_0249-b002","page_key":249,"order":2,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"We noted before that the indexing of the nodes in the graph is arbitrary, and any permutation of the node indices does not change the graph. It is hence imperative that any model respects this property. It follows that each layer must be equivariant (see secti"},{"id":"page_0249-b003","page_key":249,"order":3,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"\\begin{aligned}\n\\mathbf{H}_{k+1}\\mathbf{P}=\\mathbf{F}[\\mathbf{H}_{k}\\mathbf{P},\\mathbf{P}^{T}\\mathbf{A}\\mathbf{P},\\boldsymbol{\\phi}_{k}].\n\\tag{13.6}\n\\end{aligned}"},{"id":"page_0249-b004","page_key":249,"order":4,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"For node classification and edge prediction tasks, the output should also be equivariant with respect to permutations of the node indices. However, for graph-level tasks, the final layer aggregates information from across the graph, so the output is invariant "},{"id":"page_0249-b005","page_key":249,"order":5,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"\\begin{aligned}\ny=\\mathrm{sig}\\left[\\beta_{K}+\\omega_{K}\\mathbf{H}_{K}\\mathbf{1}/N\\right]=\\mathrm{sig}\\left[\\beta_{K}+\\omega_{K}\\mathbf{H}_{K}\\mathbf{P}\\mathbf{1}/N\\right],\n\\tag{13.7}\n\\end{aligned}"},{"id":"page_0249-b006","page_key":249,"order":6,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"for any permutation matrix P (see problem 13.6)."},{"id":"page_0249-b007","page_key":249,"order":7,"type":"exercise","source":"deepseek+paddle","confidence":"high","text":"Problem 13.6"},{"id":"page_0249-b008","page_key":249,"order":8,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"This mirrors the case for images, where segmentation should be equivariant to geometric transformations, and image classification should be invariant (figure 10.1). Here, convolutional and pooling layers partially achieve this with respect to translations, but"},{"id":"page_0249-b009","page_key":249,"order":9,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"13.4.2 Parameter sharing"},{"id":"page_0249-b010","page_key":249,"order":10,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Chapter 10 argued applying fully connected networks to images isn’t sensible because this requires the network to learn how to recognize an object separately at every image position. Instead, we used convolutional layers that processed every position in the im"},{"id":"page_0249-b011","page_key":249,"order":11,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"The same argument can be made about nodes in a graph. We could learn a model with separate parameters associated with each node. However, now the network must send a message to the variable of interest, which aggregates these messages to form the update. When "},{"id":"page_0249-b012","page_key":249,"order":12,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Recall that a convolution (equation 10.3) updates a variable by taking a weighted sum of information from its neighbors. One way to think of this is that each neighbor sends a message to the variable of interest, which aggregates these messages to form the upd"}]
+[
+  {
+    "id": "page_0249-b001",
+    "page_key": 249,
+    "order": 1,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "13.4.1 Equivariance and invariance"
+  },
+  {
+    "id": "page_0249-b002",
+    "page_key": 249,
+    "order": 2,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "We noted before that the indexing of the nodes in the graph is arbitrary, and any permutation of the node indices does not change the graph. It is hence imperative that any model respects this property. It follows that each layer must be equivariant (see secti"
+  },
+  {
+    "id": "page_0249-b003",
+    "page_key": 249,
+    "order": 3,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\n\\mathbf{H}_{k+1}\\mathbf{P}=\\mathbf{F}[\\mathbf{H}_{k}\\mathbf{P},\\mathbf{P}^{T}\\mathbf{A}\\mathbf{P},\\boldsymbol{\\phi}_{k}].\n\\end{aligned}\n\\tag{13.6}"
+  },
+  {
+    "id": "page_0249-b004",
+    "page_key": 249,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "For node classification and edge prediction tasks, the output should also be equivariant with respect to permutations of the node indices. However, for graph-level tasks, the final layer aggregates information from across the graph, so the output is invariant "
+  },
+  {
+    "id": "page_0249-b005",
+    "page_key": 249,
+    "order": 5,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\ny=\\mathrm{sig}\\left[\\beta_{K}+\\omega_{K}\\mathbf{H}_{K}\\mathbf{1}/N\\right]=\\mathrm{sig}\\left[\\beta_{K}+\\omega_{K}\\mathbf{H}_{K}\\mathbf{P}\\mathbf{1}/N\\right],\n\\end{aligned}\n\\tag{13.7}"
+  },
+  {
+    "id": "page_0249-b006",
+    "page_key": 249,
+    "order": 6,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "for any permutation matrix P (see problem 13.6)."
+  },
+  {
+    "id": "page_0249-b007",
+    "page_key": 249,
+    "order": 7,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 13.6"
+  },
+  {
+    "id": "page_0249-b008",
+    "page_key": 249,
+    "order": 8,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "This mirrors the case for images, where segmentation should be equivariant to geometric transformations, and image classification should be invariant (figure 10.1). Here, convolutional and pooling layers partially achieve this with respect to translations, but"
+  },
+  {
+    "id": "page_0249-b009",
+    "page_key": 249,
+    "order": 9,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "13.4.2 Parameter sharing"
+  },
+  {
+    "id": "page_0249-b010",
+    "page_key": 249,
+    "order": 10,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Chapter 10 argued applying fully connected networks to images isn’t sensible because this requires the network to learn how to recognize an object separately at every image position. Instead, we used convolutional layers that processed every position in the im"
+  },
+  {
+    "id": "page_0249-b011",
+    "page_key": 249,
+    "order": 11,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "The same argument can be made about nodes in a graph. We could learn a model with separate parameters associated with each node. However, now the network must send a message to the variable of interest, which aggregates these messages to form the update. When "
+  },
+  {
+    "id": "page_0249-b012",
+    "page_key": 249,
+    "order": 12,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Recall that a convolution (equation 10.3) updates a variable by taking a weighted sum of information from its neighbors. One way to think of this is that each neighbor sends a message to the variable of interest, which aggregates these messages to form the upd"
+  }
+]

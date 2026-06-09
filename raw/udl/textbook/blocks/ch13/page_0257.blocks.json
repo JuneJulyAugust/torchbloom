@@ -1,1 +1,137 @@
-[{"id":"page_0257-b001","page_key":257,"order":1,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"13.8.1 Combining current node and aggregated neighbors"},{"id":"page_0257-b002","page_key":257,"order":2,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"In the example GCN layer above, we combined the aggregated neighbors HA with the current nodes H by just summing them:"},{"id":"page_0257-b003","page_key":257,"order":3,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"\\begin{aligned}\n\\mathbf{H}_{k+1}=\\mathbf{a}\\Big[\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\Omega_{k}\\mathbf{H}_{k}(\\mathbf{A}+\\mathbf{I})\\Big].\n\\tag{13.13}\n\\end{aligned}"},{"id":"page_0257-b004","page_key":257,"order":4,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"In another variation, the current node is multiplied by a factor of $(1 + \\epsilon_{k})$ before contributing to the sum, where $\\epsilon_{k}$ is a learned scalar that is different for each layer:"},{"id":"page_0257-b005","page_key":257,"order":5,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"\\begin{aligned}\n\\mathbf{H}_{k+1}=\\mathbf{a}\\Big[\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\Omega_{k}\\mathbf{H}_{k}(\\mathbf{A}+(1+\\epsilon_{k})\\mathbf{I})\\Big].\n\\tag{13.14}\n\\end{aligned}"},{"id":"page_0257-b006","page_key":257,"order":6,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"This is known as diagonal enhancement. A related variation applies a different linear transform $\\Psi_{k}$ to the current node:"},{"id":"page_0257-b007","page_key":257,"order":7,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"\\begin{array}{rcl}\\mathbf{H}_{k+1}&=&\\mathbf{a}\\left[\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\Omega_{k}\\mathbf{H}_{k}\\mathbf{A}+\\boldsymbol{\\Psi}_{k}\\mathbf{H}_{k}\\right]\\\\&=&\\mathbf{a}\\left[\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\left[\\Omega_{k}\\quad\\boldsymbol{\\Psi}_{k}\\right]\\begin{bmatrix}\\mathbf{H}_{k}\\mathbf{A}\\\\ \\mathbf{H}_{k}\\end{bmatrix}\\right]\\\\&=&\\mathbf{a}\\left[\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\Omega_{k}^{\\prime}\\begin{bmatrix}\\mathbf{H}_{k}\\mathbf{A}\\\\ \\mathbf{H}_{k}\\end{bmatrix}\\right],\\quad(13.15)\\end{array}"},{"id":"page_0257-b008","page_key":257,"order":8,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"where we have defined $\\Omega_{k}^{\\prime}=\\left[\\Omega_{k}\\quad\\Psi_{k}\\right]$ in the third line."},{"id":"page_0257-b009","page_key":257,"order":9,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"13.8.2 Residual connections"},{"id":"page_0257-b010","page_key":257,"order":10,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"With residual connections, the aggregated representation from the neighbors is transformed and passed through the activation function before summation or concatenation with the current node. For the latter case, the associated network equations are:"},{"id":"page_0257-b011","page_key":257,"order":11,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"\\begin{aligned}\n\\mathbf{H}_{k+1}=\\left[\\begin{array}{c}\\mathbf{a}\\left[\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\Omega_{k}\\mathbf{H}_{k}\\mathbf{A}\\right]\\\\ \\mathbf{H}_{k}\\end{array}\\right].\n\\tag{13.16}\n\\end{aligned}"},{"id":"page_0257-b012","page_key":257,"order":12,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"13.8.3 Mean aggregation"},{"id":"page_0257-b013","page_key":257,"order":13,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"The above methods aggregate the neighbors by summing the node embeddings. However, it’s possible to combine the embeddings in different ways. Sometimes it’s better to take the average of the neighbors rather than the sum; this can be superior if the embedding "},{"id":"page_0257-b014","page_key":257,"order":14,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"\\begin{aligned}\n\\mathbf{a}\\mathbf{g}[n]=\\frac{1}{|\\mathrm{n e}[n]]}\\sum_{m\\in\\mathrm{n e}[n]}\\mathbf{h}_{m},\n\\tag{13.17}\n\\end{aligned}"},{"id":"page_0257-b015","page_key":257,"order":15,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Draft: please send errata to udlbookmail@gmail.com."}]
+[
+  {
+    "id": "page_0257-b001",
+    "page_key": 257,
+    "order": 1,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "13.8.1 Combining current node and aggregated neighbors"
+  },
+  {
+    "id": "page_0257-b002",
+    "page_key": 257,
+    "order": 2,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "In the example GCN layer above, we combined the aggregated neighbors HA with the current nodes H by just summing them:"
+  },
+  {
+    "id": "page_0257-b003",
+    "page_key": 257,
+    "order": 3,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\n\\mathbf{H}_{k+1}=\\mathbf{a}\\Big[\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\Omega_{k}\\mathbf{H}_{k}(\\mathbf{A}+\\mathbf{I})\\Big].\n\\end{aligned}\n\\tag{13.13}"
+  },
+  {
+    "id": "page_0257-b004",
+    "page_key": 257,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "In another variation, the current node is multiplied by a factor of $(1 + \\epsilon_{k})$ before contributing to the sum, where $\\epsilon_{k}$ is a learned scalar that is different for each layer:"
+  },
+  {
+    "id": "page_0257-b005",
+    "page_key": 257,
+    "order": 5,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\n\\mathbf{H}_{k+1}=\\mathbf{a}\\Big[\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\Omega_{k}\\mathbf{H}_{k}(\\mathbf{A}+(1+\\epsilon_{k})\\mathbf{I})\\Big].\n\\end{aligned}\n\\tag{13.14}"
+  },
+  {
+    "id": "page_0257-b006",
+    "page_key": 257,
+    "order": 6,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "This is known as diagonal enhancement. A related variation applies a different linear transform $\\Psi_{k}$ to the current node:"
+  },
+  {
+    "id": "page_0257-b007",
+    "page_key": 257,
+    "order": 7,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{array}{rcl}\\mathbf{H}_{k+1}&=&\\mathbf{a}\\left[\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\Omega_{k}\\mathbf{H}_{k}\\mathbf{A}+\\boldsymbol{\\Psi}_{k}\\mathbf{H}_{k}\\right]\\\\&=&\\mathbf{a}\\left[\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\left[\\Omega_{k}\\quad\\boldsymbol{\\Psi}_{k}\\right]\\begin{bmatrix}\\mathbf{H}_{k}\\mathbf{A}\\\\ \\mathbf{H}_{k}\\end{bmatrix}\\right]\\\\&=&\\mathbf{a}\\left[\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\Omega_{k}^{\\prime}\\begin{bmatrix}\\mathbf{H}_{k}\\mathbf{A}\\\\ \\mathbf{H}_{k}\\end{bmatrix}\\right],\\quad(13.15)\\end{array}"
+  },
+  {
+    "id": "page_0257-b008",
+    "page_key": 257,
+    "order": 8,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "where we have defined $\\Omega_{k}^{\\prime}=\\left[\\Omega_{k}\\quad\\Psi_{k}\\right]$ in the third line."
+  },
+  {
+    "id": "page_0257-b009",
+    "page_key": 257,
+    "order": 9,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "13.8.2 Residual connections"
+  },
+  {
+    "id": "page_0257-b010",
+    "page_key": 257,
+    "order": 10,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "With residual connections, the aggregated representation from the neighbors is transformed and passed through the activation function before summation or concatenation with the current node. For the latter case, the associated network equations are:"
+  },
+  {
+    "id": "page_0257-b011",
+    "page_key": 257,
+    "order": 11,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\n\\mathbf{H}_{k+1}=\\left[\\begin{array}{c}\\mathbf{a}\\left[\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\Omega_{k}\\mathbf{H}_{k}\\mathbf{A}\\right]\\\\ \\mathbf{H}_{k}\\end{array}\\right].\n\\end{aligned}\n\\tag{13.16}"
+  },
+  {
+    "id": "page_0257-b012",
+    "page_key": 257,
+    "order": 12,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "13.8.3 Mean aggregation"
+  },
+  {
+    "id": "page_0257-b013",
+    "page_key": 257,
+    "order": 13,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "The above methods aggregate the neighbors by summing the node embeddings. However, it’s possible to combine the embeddings in different ways. Sometimes it’s better to take the average of the neighbors rather than the sum; this can be superior if the embedding "
+  },
+  {
+    "id": "page_0257-b014",
+    "page_key": 257,
+    "order": 14,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\n\\mathbf{a}\\mathbf{g}[n]=\\frac{1}{|\\mathsf{ne}[n]|}\\sum_{m\\in\\mathsf{ne}[n]}\\mathbf{h}_{m},\n\\end{aligned}\n\\tag{13.17}"
+  },
+  {
+    "id": "page_0257-b015",
+    "page_key": 257,
+    "order": 15,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Draft: please send errata to udlbookmail@gmail.com."
+  }
+]

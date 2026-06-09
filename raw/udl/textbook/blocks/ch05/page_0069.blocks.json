@@ -1,1 +1,119 @@
-[{"id":"page_0069-b001","page_key":69,"order":1,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"\\begin{aligned}\n\\begin{align*}L[\\phi]\\quad&=\\quad-\\sum_{i=1}^{I}\\log\\left[\\\\mathrm{softmax}_{y_{i}}\\left[\\mathbf{f}[\\mathbf{x}_{i},\\phi]\\right]\\right]\\\\&=\\quad-\\sum_{i=1}^{I}\\left(\\mathbf{f}_{y_{i}}\\left[\\mathbf{x}_{i},\\phi\\right]-\\log\\left[\\sum_{k^{\\prime}=1}^{K}\\exp\\left[\\mathbf{f}_{k^{\\prime}}\\left[\\mathbf{x}_{i},\\phi\\right]\\right]\\right],\\end{align*} \\tag{5.24}\n\\end{aligned}"},{"id":"page_0069-b002","page_key":69,"order":2,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"where $f_{y_i}[x,\\phi]$ and $f_{k'}[x,\\phi] - \\log\\left[\\sum_{k'=1}^{K} \\exp[f_k[x,\\phi]]\\right]$ , (5.24)"},{"id":"page_0069-b003","page_key":69,"order":3,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"The transformed model output represents a categorical distribution over possible classes $y \\in \\lbrace 1, 2, \\ldots, K\\rbrace$ . For a point estimate, we take the most probable category $\\hat{y} = \\arg\\max_{k} [Pr(y = k | f[x, \\phi])]$ . This corresponds to whichever curve is highest for that value of x in figure 5.10."},{"id":"page_0069-b004","page_key":69,"order":4,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"5.5.1 Predicting other data types"},{"id":"page_0069-b005","page_key":69,"order":5,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"In this chapter, we have focused on regression and classification because these problems are widespread. However, to make different types of predictions, we simply choose an appropriate distribution over that domain and apply the recipe in section 5.2. Figure 5.11 enumerates a series of probability distributions and their prediction domains. Some of these are explored in the problems at the end of the chapter."},{"id":"page_0069-b006","page_key":69,"order":6,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Notebook 5.3 Multiclass cross-entropy loss"},{"id":"page_0069-b007","page_key":69,"order":7,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"5.6 Multiple outputs"},{"id":"page_0069-b008","page_key":69,"order":8,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Often, we wish to make more than one prediction with the same model, so the target output y is a vector. For example, we might want to predict a molecule's melting and boiling point (a multivariate regression problem, figure 1.2b) or the object class at every point in an image (a multivariate classification problem, figure 1.4a). While it is possible to define multivariate probability distributions and use a neural network to model their parameters as a function of the input, it is more usual to"},{"id":"page_0069-b009","page_key":69,"order":9,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Independence implies that we treat the probability $Pr(\\mathbf{y}|\\mathbf{f}[\\mathbf{x},\\phi])$ as a product of univariate terms for each element $y_{d}\\iny$ :"},{"id":"page_0069-b010","page_key":69,"order":10,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"(5.25)"},{"id":"page_0069-b011","page_key":69,"order":11,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Appendix C.1.5 Independence"},{"id":"page_0069-b012","page_key":69,"order":12,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"Pr(\\mathbf{y}|\\mathbf{f}[\\mathbf{x},\\phi])=\\prod_{d}Pr(y_{d}|\\mathbf{f}_{d}[\\mathbf{x},\\phi]),"},{"id":"page_0069-b013","page_key":69,"order":13,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"where $f_{d}[x,\\phi]$ is the $d^{th}$ set of network outputs, which describe the parameters of the distribution over $y_{d}$ . For example, to predict multiple continuous variables $y_{d}\\inR$ , we use a normal distribution for each $y_{d}$ , and the network outputs $f_{d}[x,\\phi]$ predict the means of these distributions. To predict multiple discrete variables $y_{d}\\in\\lbrace 1,2,\\ldots,K\\rbrace$ , we use a"}]
+[
+  {
+    "id": "page_0069-b001",
+    "page_key": 69,
+    "order": 1,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\n\\begin{align*}L[\\phi]\\quad&=\\quad-\\sum_{i=1}^{I}\\log\\left[\\mathrm{softmax}_{y_{i}}\\left[\\mathbf{f}[\\mathbf{x}_{i},\\phi]\\right]\\right]\\\\&=\\quad-\\sum_{i=1}^{I}\\left(\\mathbf{f}_{y_{i}}\\left[\\mathbf{x}_{i},\\phi\\right]-\\log\\left[\\sum_{k^{\\prime}=1}^{K}\\exp\\left[\\mathbf{f}_{k^{\\prime}}\\left[\\mathbf{x}_{i},\\phi\\right]\\right]\\right],\\end{align*}\n\\end{aligned}\n\\tag{5.24}"
+  },
+  {
+    "id": "page_0069-b002",
+    "page_key": 69,
+    "order": 2,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "where $f_{y_i}[x,\\phi]$ and $f_{k'}[x,\\phi] - \\log\\left[\\sum_{k'=1}^{K} \\exp[f_k[x,\\phi]]\\right]$ , (5.24)"
+  },
+  {
+    "id": "page_0069-b003",
+    "page_key": 69,
+    "order": 3,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "The transformed model output represents a categorical distribution over possible classes $y \\in \\lbrace 1, 2, \\ldots, K\\rbrace$ . For a point estimate, we take the most probable category $\\hat{y} = \\arg\\max_{k} [Pr(y = k | f[x, \\phi])]$ . This corresponds to whichever curve is highest for that value of x in figure 5.10."
+  },
+  {
+    "id": "page_0069-b004",
+    "page_key": 69,
+    "order": 4,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "5.5.1 Predicting other data types"
+  },
+  {
+    "id": "page_0069-b005",
+    "page_key": 69,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "In this chapter, we have focused on regression and classification because these problems are widespread. However, to make different types of predictions, we simply choose an appropriate distribution over that domain and apply the recipe in section 5.2. Figure 5.11 enumerates a series of probability distributions and their prediction domains. Some of these are explored in the problems at the end of the chapter."
+  },
+  {
+    "id": "page_0069-b006",
+    "page_key": 69,
+    "order": 6,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Notebook 5.3 Multiclass cross-entropy loss"
+  },
+  {
+    "id": "page_0069-b007",
+    "page_key": 69,
+    "order": 7,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "5.6 Multiple outputs"
+  },
+  {
+    "id": "page_0069-b008",
+    "page_key": 69,
+    "order": 8,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Often, we wish to make more than one prediction with the same model, so the target output y is a vector. For example, we might want to predict a molecule's melting and boiling point (a multivariate regression problem, figure 1.2b) or the object class at every point in an image (a multivariate classification problem, figure 1.4a). While it is possible to define multivariate probability distributions and use a neural network to model their parameters as a function of the input, it is more usual to"
+  },
+  {
+    "id": "page_0069-b009",
+    "page_key": 69,
+    "order": 9,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Independence implies that we treat the probability $Pr(\\mathbf{y}|\\mathbf{f}[\\mathbf{x},\\phi])$ as a product of univariate terms for each element $y_{d}\\iny$ :"
+  },
+  {
+    "id": "page_0069-b010",
+    "page_key": 69,
+    "order": 10,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "(5.25)"
+  },
+  {
+    "id": "page_0069-b011",
+    "page_key": 69,
+    "order": 11,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Appendix C.1.5 Independence"
+  },
+  {
+    "id": "page_0069-b012",
+    "page_key": 69,
+    "order": 12,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Pr(\\mathbf{y}|\\mathbf{f}[\\mathbf{x},\\phi])=\\prod_{d}Pr(y_{d}|\\mathbf{f}_{d}[\\mathbf{x},\\phi]),"
+  },
+  {
+    "id": "page_0069-b013",
+    "page_key": 69,
+    "order": 13,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "where $f_{d}[x,\\phi]$ is the $d^{th}$ set of network outputs, which describe the parameters of the distribution over $y_{d}$ . For example, to predict multiple continuous variables $y_{d}\\inR$ , we use a normal distribution for each $y_{d}$ , and the network outputs $f_{d}[x,\\phi]$ predict the means of these distributions. To predict multiple discrete variables $y_{d}\\in\\lbrace 1,2,\\ldots,K\\rbrace$ , we use a"
+  }
+]

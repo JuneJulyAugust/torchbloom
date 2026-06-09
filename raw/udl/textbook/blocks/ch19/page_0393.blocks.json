@@ -25,7 +25,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\mathbb{E}_{\\tau}\\left[\\sum_{t=1}^{T-1}\\frac{\\partial\\log\\left[\\pi_{a_{i t}}[s_{i t},\\theta]\\right]}{\\partial\\theta}\\cdot b\\right]=0, \\tag{19.35}\n\\end{aligned}"
+    "text": "\\begin{aligned}\n\\mathbb{E}_{\\tau}\\left[\\sum_{t=1}^{T-1}\\frac{\\partial\\log\\left[\\pi_{a_{i t}}[s_{i t},\\theta]\\right]}{\\partial\\theta}\\cdot b\\right]=0,\n\\end{aligned}\n\\tag{19.35}"
   },
   {
     "id": "page_0393-b004",
@@ -52,7 +52,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\nb=\\frac{1}{I}\\sum_{i}r[\\boldsymbol{\\tau}_{i}]. \\tag{19.36}\n\\end{aligned}"
+    "text": "\\begin{aligned}\nb=\\frac{1}{I}\\sum_{i}r[\\boldsymbol{\\tau}_{i}].\n\\end{aligned}\n\\tag{19.36}"
   },
   {
     "id": "page_0393-b007",
@@ -70,7 +70,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\nb=\\frac{1}{I}\\sum_{i}r[\\boldsymbol{\\tau}_{i}]. \\tag{19.37}\n\\end{aligned}"
+    "text": "\\begin{aligned}\nb=\\frac{1}{I}\\sum_{i}r[\\boldsymbol{\\tau}_{i}].\n\\end{aligned}\n\\tag{19.37}"
   },
   {
     "id": "page_0393-b009",

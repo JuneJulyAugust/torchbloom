@@ -1,1 +1,120 @@
-[{"id":"page_0101-b001","page_key":101,"order":1,"type":"figure","source":"deepseek+paddle","confidence":"high","image_path":"figures/page_0101_fig_1.jpg","alt_text":"Figure 7.3 Backpropagation forward pass. We compute and store each of the intermediate variables in turn until we finally calculate the loss."},{"id":"page_0101-b002","page_key":101,"order":2,"type":"caption","source":"deepseek+paddle","confidence":"high","text":"Figure 7.3 Backpropagation forward pass. We compute and store each of the intermediate variables in turn until we finally calculate the loss."},{"id":"page_0101-b003","page_key":101,"order":3,"type":"paragraph","source":"deepseek","confidence":"high","text":"we calculate the derivatives of each parameter, starting at the end of the network, and reusing previous calculations as we move toward the start."},{"id":"page_0101-b004","page_key":101,"order":4,"type":"paragraph","source":"deepseek","confidence":"high","text":"Forward pass: We treat the computation of the loss as a series of calculations:"},{"id":"page_0101-b005","page_key":101,"order":5,"type":"equation","source":"deepseek+paddle","confidence":"medium","text":"\\begin{aligned}\n\\begin{array}{rcl}f_{0}&=&\\beta_{0}+\\omega_{0}\\cdot x_{i}\\\\h_{1}&=&sin[f_{0}]\\\\f_{1}&=&\\beta_{1}+\\omega_{1}\\cdot h_{1}\\\\h_{2}&=&exp[f_{1}]\\\\f_{2}&=&\\beta_{2}+\\omega_{2}\\cdot h_{2}\\\\h_{3}&=&cos[f_{2}]\\\\f_{3}&=&\\beta_{3}+\\omega_{3}\\cdot h_{3}\\\\l_{i}&=&(f_{3}-y_{i})^{2}.\\end{array} \\tag{7.9}\n\\end{aligned}"},{"id":"page_0101-b006","page_key":101,"order":6,"type":"paragraph","source":"deepseek","confidence":"high","text":"We compute and store the values of the intermediate variables $f_{k}$ and $h_{k}$ (figure 7.3)."},{"id":"page_0101-b007","page_key":101,"order":7,"type":"paragraph","source":"deepseek","confidence":"high","text":"Backward pass #1: We now compute the derivatives of $\\ell_{i}$ with respect to these intermediate variables, but in reverse order:"},{"id":"page_0101-b008","page_key":101,"order":8,"type":"equation","source":"deepseek+paddle","confidence":"medium","text":"\\begin{aligned}\n\\frac{\\partial\\ell_{i}}{\\partial f_{3}},\\quad\\frac{\\partial\\ell_{i}}{\\partial h_{3}},\\quad\\frac{\\partial\\ell_{i}}{\\partial f_{2}},\\quad\\frac{\\partial\\ell_{i}}{\\partial h_{2}},\\quad\\frac{\\partial\\ell_{i}}{\\partial f_{1}},\\quad\\frac{\\partial\\ell_{i}}{\\partial h_{1}},\\quad and\\quad\\frac{\\partial\\ell_{i}}{\\partial f_{0}}. \\tag{7.10}\n\\end{aligned}"},{"id":"page_0101-b009","page_key":101,"order":9,"type":"paragraph","source":"deepseek","confidence":"high","text":"The first of these derivatives is straightforward:"},{"id":"page_0101-b010","page_key":101,"order":10,"type":"equation","source":"deepseek+paddle","confidence":"medium","text":"\\begin{aligned}\n\\frac{\\partial\\ell_{i}}{\\partial h_{3}}=\\frac{\\partial f_{3}}{\\partial h_{3}}\\frac{\\partial\\ell_{i}}{\\partial f_{3}}. \\tag{7.11}\n\\end{aligned}"},{"id":"page_0101-b011","page_key":101,"order":11,"type":"paragraph","source":"deepseek","confidence":"high","text":"The next derivative can be calculated using the chain rule:"},{"id":"page_0101-b012","page_key":101,"order":12,"type":"equation","source":"deepseek+paddle","confidence":"medium","text":"\\begin{aligned}\n\\frac{\\partial\\ell_{i}}{\\partial h_{3}}=2(f_{3}-y_{i}). \\tag{7.12}\n\\end{aligned}"},{"id":"page_0101-b013","page_key":101,"order":13,"type":"paragraph","source":"deepseek","confidence":"high","text":"The left-hand side asks how $\\ell_{i}$ changes when $h_{3}$ changes. The right-hand side says we can decompose this into (i) how $f_{3}$ changes when $h_{3}$ changes and (ii) how $\\ell_{i}$ changes when $f_{3}$ changes. In the original equations, $h_{3}$ changes $f_{3}$, which changes $\\ell_{i}$, and the derivatives"}]
+[
+  {
+    "id": "page_0101-b001",
+    "page_key": 101,
+    "order": 1,
+    "type": "figure",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0101_fig_1.jpg",
+    "alt_text": "Figure 7.3 Backpropagation forward pass. We compute and store each of the intermediate variables in turn until we finally calculate the loss."
+  },
+  {
+    "id": "page_0101-b002",
+    "page_key": 101,
+    "order": 2,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Figure 7.3 Backpropagation forward pass. We compute and store each of the intermediate variables in turn until we finally calculate the loss."
+  },
+  {
+    "id": "page_0101-b003",
+    "page_key": 101,
+    "order": 3,
+    "type": "paragraph",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "we calculate the derivatives of each parameter, starting at the end of the network, and reusing previous calculations as we move toward the start."
+  },
+  {
+    "id": "page_0101-b004",
+    "page_key": 101,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "Forward pass: We treat the computation of the loss as a series of calculations:"
+  },
+  {
+    "id": "page_0101-b005",
+    "page_key": 101,
+    "order": 5,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "\\begin{aligned}\n\\begin{array}{rcl}f_{0}&=&\\beta_{0}+\\omega_{0}\\cdot x_{i}\\\\h_{1}&=&sin[f_{0}]\\\\f_{1}&=&\\beta_{1}+\\omega_{1}\\cdot h_{1}\\\\h_{2}&=&exp[f_{1}]\\\\f_{2}&=&\\beta_{2}+\\omega_{2}\\cdot h_{2}\\\\h_{3}&=&cos[f_{2}]\\\\f_{3}&=&\\beta_{3}+\\omega_{3}\\cdot h_{3}\\\\l_{i}&=&(f_{3}-y_{i})^{2}.\\end{array}\n\\end{aligned}\n\\tag{7.9}"
+  },
+  {
+    "id": "page_0101-b006",
+    "page_key": 101,
+    "order": 6,
+    "type": "paragraph",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "We compute and store the values of the intermediate variables $f_{k}$ and $h_{k}$ (figure 7.3)."
+  },
+  {
+    "id": "page_0101-b007",
+    "page_key": 101,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "Backward pass #1: We now compute the derivatives of $\\ell_{i}$ with respect to these intermediate variables, but in reverse order:"
+  },
+  {
+    "id": "page_0101-b008",
+    "page_key": 101,
+    "order": 8,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "\\begin{aligned}\n\\frac{\\partial\\ell_{i}}{\\partial f_{3}},\\quad\\frac{\\partial\\ell_{i}}{\\partial h_{3}},\\quad\\frac{\\partial\\ell_{i}}{\\partial f_{2}},\\quad\\frac{\\partial\\ell_{i}}{\\partial h_{2}},\\quad\\frac{\\partial\\ell_{i}}{\\partial f_{1}},\\quad\\frac{\\partial\\ell_{i}}{\\partial h_{1}},\\quad and\\quad\\frac{\\partial\\ell_{i}}{\\partial f_{0}}.\n\\end{aligned}\n\\tag{7.10}"
+  },
+  {
+    "id": "page_0101-b009",
+    "page_key": 101,
+    "order": 9,
+    "type": "paragraph",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "The first of these derivatives is straightforward:"
+  },
+  {
+    "id": "page_0101-b010",
+    "page_key": 101,
+    "order": 10,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "\\begin{aligned}\n\\frac{\\partial\\ell_{i}}{\\partial h_{3}}=\\frac{\\partial f_{3}}{\\partial h_{3}}\\frac{\\partial\\ell_{i}}{\\partial f_{3}}.\n\\end{aligned}\n\\tag{7.11}"
+  },
+  {
+    "id": "page_0101-b011",
+    "page_key": 101,
+    "order": 11,
+    "type": "paragraph",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "The next derivative can be calculated using the chain rule:"
+  },
+  {
+    "id": "page_0101-b012",
+    "page_key": 101,
+    "order": 12,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "\\begin{aligned}\n\\frac{\\partial\\ell_{i}}{\\partial h_{3}}=2(f_{3}-y_{i}).\n\\end{aligned}\n\\tag{7.12}"
+  },
+  {
+    "id": "page_0101-b013",
+    "page_key": 101,
+    "order": 13,
+    "type": "paragraph",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "The left-hand side asks how $\\ell_{i}$ changes when $h_{3}$ changes. The right-hand side says we can decompose this into (i) how $f_{3}$ changes when $h_{3}$ changes and (ii) how $\\ell_{i}$ changes when $f_{3}$ changes. In the original equations, $h_{3}$ changes $f_{3}$, which changes $\\ell_{i}$, and the derivatives"
+  }
+]

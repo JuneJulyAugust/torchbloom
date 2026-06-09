@@ -1,1 +1,93 @@
-[{"id":"page_0306-b001","page_key":306,"order":1,"type":"figure","source":"paddle","confidence":"high","image_path":"figures/page_0306_fig_1.jpg","alt_text":"Figure 16.3 Inverse mapping (normalizing direction). - Labels: b)"},{"id":"page_0306-b002","page_key":306,"order":2,"type":"caption","source":"deepseek+paddle","confidence":"high","text":"Figure 16.3 Inverse mapping (normalizing direction)."},{"id":"page_0306-b003","page_key":306,"order":3,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"Figure 16.3 Inverse mapping (normalizing direction). If the function is invertible, then it's possible to transform the model density back to the original base density. The probability of a point x under the model density depends partly on the probability of the equivalent point z under the base density (see equation 16.1)."},{"id":"page_0306-b004","page_key":306,"order":4,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"stretches the function. If a small change to the input causes a smaller change in the output, it compresses the function (figure 16.2)."},{"id":"page_0306-b005","page_key":306,"order":5,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"More precisely, the probability of data x under the transformed distribution is:"},{"id":"page_0306-b006","page_key":306,"order":6,"type":"equation","source":"deepseek","confidence":"high","text":"P r(x|\\phi)\\quad=\\quad\\left|\\frac{\\partial\\mathrm{f}[z,\\phi]}{\\partial z}\\right|^{-1}\\cdot P r(z), \\quad (16.1)"},{"id":"page_0306-b007","page_key":306,"order":7,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"where $z = f^{-1}[x, \\phi]$ is the latent variable that created x. The term $Pr(z)$ is the original probability of this latent variable under the base density. This is moderated according to the magnitude of the derivative of the function. If this is greater than one, then the probability decreases. If it is smaller, the probability increases."},{"id":"page_0306-b008","page_key":306,"order":8,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"16.1.2 Forward and inverse mappings"},{"id":"page_0306-b009","page_key":306,"order":9,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"To draw samples from the distribution, we need the forward mapping $x = f[z, \\phi]$, but to measure the likelihood, we need to compute the inverse $z = f^{-1}[x, \\phi]$. Hence, we need to choose $\\mathrm{f}[z, \\phi]$ judiciously so that it is invertible."},{"id":"page_0306-b010","page_key":306,"order":10,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"The forward mapping is sometimes termed the generative direction. The base density is usually chosen to be a standard normal distribution. Hence, the inverse mapping is termed the normalizing direction since this takes the complex distribution over x and turns it into a normal distribution over z (figure 16.3)."}]
+[
+  {
+    "id": "page_0306-b001",
+    "page_key": 306,
+    "order": 1,
+    "type": "figure",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0306_fig_1.jpg",
+    "alt_text": "Figure 16.3 Inverse mapping (normalizing direction). - Labels: b)"
+  },
+  {
+    "id": "page_0306-b002",
+    "page_key": 306,
+    "order": 2,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Figure 16.3 Inverse mapping (normalizing direction)."
+  },
+  {
+    "id": "page_0306-b003",
+    "page_key": 306,
+    "order": 3,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Figure 16.3 Inverse mapping (normalizing direction). If the function is invertible, then it's possible to transform the model density back to the original base density. The probability of a point x under the model density depends partly on the probability of the equivalent point z under the base density (see equation 16.1)."
+  },
+  {
+    "id": "page_0306-b004",
+    "page_key": 306,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "stretches the function. If a small change to the input causes a smaller change in the output, it compresses the function (figure 16.2)."
+  },
+  {
+    "id": "page_0306-b005",
+    "page_key": 306,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "More precisely, the probability of data x under the transformed distribution is:"
+  },
+  {
+    "id": "page_0306-b006",
+    "page_key": 306,
+    "order": 6,
+    "type": "equation",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "Pr(x|\\phi)\\quad=\\quad\\left|\\frac{\\partial\\mathrm{f}[z,\\phi]}{\\partial z}\\right|^{-1}\\cdot Pr(z), \\quad (16.1)"
+  },
+  {
+    "id": "page_0306-b007",
+    "page_key": 306,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "where $z = f^{-1}[x, \\phi]$ is the latent variable that created x. The term $Pr(z)$ is the original probability of this latent variable under the base density. This is moderated according to the magnitude of the derivative of the function. If this is greater than one, then the probability decreases. If it is smaller, the probability increases."
+  },
+  {
+    "id": "page_0306-b008",
+    "page_key": 306,
+    "order": 8,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "16.1.2 Forward and inverse mappings"
+  },
+  {
+    "id": "page_0306-b009",
+    "page_key": 306,
+    "order": 9,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "To draw samples from the distribution, we need the forward mapping $x = f[z, \\phi]$, but to measure the likelihood, we need to compute the inverse $z = f^{-1}[x, \\phi]$. Hence, we need to choose $\\mathrm{f}[z, \\phi]$ judiciously so that it is invertible."
+  },
+  {
+    "id": "page_0306-b010",
+    "page_key": 306,
+    "order": 10,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "The forward mapping is sometimes termed the generative direction. The base density is usually chosen to be a standard normal distribution. Hence, the inverse mapping is termed the normalizing direction since this takes the complex distribution over x and turns it into a normal distribution over z (figure 16.3)."
+  }
+]

@@ -35,6 +35,21 @@ INLINE_MATH_PAREN_RE = re.compile(r"\\\(|\\\)")
 GITHUB_BLOCKED_MATH_MACRO_RE = re.compile(r"\\operatorname\b")
 INLINE_ESCAPED_BRACE_RE = re.compile(r"\$[^\n$]*\\[{}][^\n$]*\$")
 DISPLAY_MATH_BLOCK_RE = re.compile(r"(?ms)^\$\$\n(?P<body>.*?)\n\$\$")
+MARKDOWN_HEADING_RE = re.compile(r"(?m)^#{1,6}\s+.*$")
+DOUBLE_ESCAPED_MATH_MACRO_RE = re.compile(
+    r"(?<!\\)\\\\(?:begin|end|mathrm|mathsf|mathbf|boldsymbol|tag|frac|sum|prod|left|right)"
+)
+SINGLE_BACKSLASH_ROWBREAK_MACRO_RE = re.compile(
+    r"(?<!\\)\\\s+\\(?:mathbf|boldsymbol|frac|sum|prod|vdots)"
+)
+OCR_SPACED_MATH_TOKEN_RES = [
+    re.compile(r"(?<![A-Za-z])P r(?=\s*\()"),
+    re.compile(r"(?<![A-Za-z])N o r m(?=(?:[_\[{(]|\b))"),
+    re.compile(r"D_\{K L\}"),
+    re.compile(r"\\(?:mathrm|mathsf)\*?\{[^{}]*[A-Za-z](?:[ ~]+[A-Za-z]){1,}[^{}]*\}"),
+    re.compile(r"\\mathrm\*"),
+    re.compile(r"(?<![A-Za-z])(?:a r g m i n|a r g m a x|s o f t m a x|s i g|d e t|m l p|n e w|L B O)(?![A-Za-z])"),
+]
 INLINE_SUPERSCRIPT_FOOTNOTE_RE = re.compile(r"\$\^\d+\$")
 FIGURE_CAPTION_START_RE = re.compile(r"(?m)^Figure\s+\d+\.\d+\b")
 FIGURE_CAPTION_BLOCK_RE = re.compile(r"^Figure\s+\d+\.\d+\b", re.DOTALL)
@@ -361,8 +376,9 @@ Use these to check transcription, especially equations, but do not include them 
 10. Use GitHub-compatible inline math delimiters: `$...$`. Do not use `\\(...\\)` inline math.
 11. Avoid GitHub-blocked math macros. Use `\\mathrm{{ReLU}}`, `\\mathrm{{argmin}}`, or `\\mathrm{{HardSwish}}` instead of `\\operatorname{{...}}`.
 12. In inline math, write literal set braces as `\\lbrace ...\\rbrace`, not `\\{{...\\}}`, so GitHub does not consume the escaping before MathJax sees it.
-13. Wrap every numbered display equation that uses `\\tag{{...}}` in a `\\begin{{aligned}} ... \\end{{aligned}}` environment, even if it has only one line. GitHub renders unwrapped tagged equations poorly.
-14. Use Markdown footnotes such as `[^1]` and `[^1]: ...`; do not use `$^1$` as a footnote marker.
+13. Keep `\\tag{{...}}` at the top level of the display math block. Do not put `\\tag{{...}}` inside `aligned`, `align*`, `array`, or `cases` environments; GitHub rejects that placement.
+14. Do not put math delimiters in Markdown headings. Keep headings short and move math-heavy definitions into the following paragraph.
+15. Use Markdown footnotes such as `[^1]` and `[^1]: ...`; do not use `$^1$` as a footnote marker.
 
 ## Required Markdown Frontmatter
 
@@ -761,10 +777,42 @@ def _validate_centered_figure_captions(md_path: Path, body: str, errors: list[st
 def _validate_github_math_blocks(md_path: Path, body: str, errors: list[str]) -> None:
     for match in DISPLAY_MATH_BLOCK_RE.finditer(body):
         block = match.group("body")
-        if "\\tag{" in block and "\\begin{aligned}" not in block:
-            errors.append(
-                f"{md_path}: tagged display equations must use an aligned environment for GitHub rendering"
+        if DOUBLE_ESCAPED_MATH_MACRO_RE.search(block):
+            errors.append(f"{md_path}: fix double-escaped math macro for GitHub rendering")
+        if SINGLE_BACKSLASH_ROWBREAK_MACRO_RE.search(block):
+            errors.append(f"{md_path}: fix malformed row-break math macro for GitHub rendering")
+        for pattern in OCR_SPACED_MATH_TOKEN_RES:
+            if pattern.search(block):
+                errors.append(f"{md_path}: fix OCR-spaced math token before publishing")
+                break
+        for env in ("aligned", "align*", "array", "cases"):
+            env_pattern = re.compile(
+                rf"\\begin\{{{re.escape(env)}\}}(?P<env_body>.*?)\\end\{{{re.escape(env)}\}}",
+                re.DOTALL,
             )
+            for env_match in env_pattern.finditer(block):
+                if "\\tag{" in env_match.group("env_body"):
+                    errors.append(
+                        f"{md_path}: move \\tag outside {env}; GitHub rejects tag inside aligned math environments"
+                    )
+
+
+def _validate_markdown_headings(md_path: Path, body: str, errors: list[str]) -> None:
+    for match in MARKDOWN_HEADING_RE.finditer(body):
+        heading = match.group(0)
+        if "$" in heading:
+            errors.append(f"{md_path}: remove heading math delimiters; GitHub renders heading math literally")
+
+
+def _validate_equation_text(path: Path, label: str, value: str, errors: list[str]) -> None:
+    if DOUBLE_ESCAPED_MATH_MACRO_RE.search(value):
+        errors.append(f"{path}: {label} has double-escaped math macro for GitHub rendering")
+    if SINGLE_BACKSLASH_ROWBREAK_MACRO_RE.search(value):
+        errors.append(f"{path}: {label} has malformed row-break math macro for GitHub rendering")
+    for pattern in OCR_SPACED_MATH_TOKEN_RES:
+        if pattern.search(value):
+            errors.append(f"{path}: {label} has OCR-spaced math token")
+            break
 
 
 def _validate_markdown(output_dir: Path, spec: PageSpec, errors: list[str]) -> dict[str, Any] | None:
@@ -798,6 +846,7 @@ def _validate_markdown(output_dir: Path, spec: PageSpec, errors: list[str]) -> d
     if INLINE_SUPERSCRIPT_FOOTNOTE_RE.search(body):
         errors.append(f"{md_path}: use Markdown footnotes like [^1], not $^1$ math markers")
     _validate_github_math_blocks(md_path, body, errors)
+    _validate_markdown_headings(md_path, body, errors)
     if frontmatter.get("page_key") != spec.book_page:
         errors.append(f"{md_path}: page_key should be book page {spec.book_page}")
     if frontmatter.get("book_page") != spec.book_page:
@@ -882,6 +931,8 @@ def _validate_blocks(output_dir: Path, spec: PageSpec, errors: list[str]) -> int
                 errors.append(
                     f"{block_path}: block {idx} field {key!r} uses GitHub-blocked math macro \\operatorname"
                 )
+            if block_type == "equation" and isinstance(value, str):
+                _validate_equation_text(block_path, f"block {idx} field {key!r}", value, errors)
         if block_type == "equation" and block.get("image_path"):
             errors.append(f"{block_path}: equation block {idx} must use LaTeX, not image_path")
         if block_type == "figure":

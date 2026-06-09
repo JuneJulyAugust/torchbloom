@@ -1,1 +1,92 @@
-[{"id":"page_0085-b001","page_key":85,"order":1,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"is the global minimum or even a good one."},{"id":"page_0085-b002","page_key":85,"order":2,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"One of the main problems is that the final destination of a gradient descent algorithm is entirely determined by the starting point. Stochastic gradient descent (SGD) attempts to remedy this problem by adding some noise to the gradient at each step. The solution still moves downhill on average, but at any given iteration, the direction chosen is not necessarily in the steepest downhill direction. Indeed, it might not be downhill at all. The SGD algorithm has the possibility of moving temporarily"},{"id":"page_0085-b003","page_key":85,"order":3,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"6.2.1 Batches and epochs"},{"id":"page_0085-b004","page_key":85,"order":4,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"The mechanism for introducing randomness is simple. At each iteration, the algorithm chooses a random subset of the training data and computes the gradient from these examples alone. This subset is known as a minibatch or batch for short. The update rule for the model parameters $\\phi_{t}$ at iteration t is hence:"},{"id":"page_0085-b005","page_key":85,"order":5,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"\\begin{aligned}\n\\phi_{t+1}\\longleftarrow\\phi_{t}-\\alpha\\cdot\\sum_{i\\in\\mathcal{B}_{t}}\\frac{\\partial\\ell_{i}[\\phi_{t}]}{\\partial\\phi}, \\tag{6.10}\n\\end{aligned}"},{"id":"page_0085-b006","page_key":85,"order":6,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"where $\\mathcal{B}_{t}$ is a set containing the indices of the input/output pairs in the current batch and, as before, $\\ell_{i}$ is the loss due to the $t^{th}$ pair. The term $\\alpha$ is the learning rate, and together with the gradient magnitude, determines the distance moved at each iteration. The learning rate is chosen at the start of the procedure and does not depend on the local properties of the function."},{"id":"page_0085-b007","page_key":85,"order":7,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"The batches are usually drawn from the dataset without replacement. The algorithm works through the training examples until it has used all the data, at which point it starts sampling from the full training dataset again. A single pass through the entire training dataset is referred to as an epoch. A batch may be as small as a single example or as large as the whole dataset. The latter case is called full-batch gradient descent and is identical to regular (non-stochastic) gradient descent."},{"id":"page_0085-b008","page_key":85,"order":8,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"An alternative interpretation of SGD is that it computes the gradient of a different loss function at each iteration; the loss function depends on both the model and the training data and hence will differ for each randomly selected batch. In this view, SGD performs deterministic gradient descent on a constantly changing loss function (figure 6.6). However, despite this variability, the expected loss and expected gradients at any point remain the same as for gradient descent."},{"id":"page_0085-b009","page_key":85,"order":9,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"6.2.2 Properties of stochastic gradient descent"},{"id":"page_0085-b010","page_key":85,"order":10,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"SGD has several attractive features. First, although it adds noise to the trajectory, it still improves the fit to a subset of the data at each iteration. Hence, the updates tend to be sensible even if they are not optimal. Second, because it draws training examples without replacement and iterates through the dataset, the training examples all still contribute equally. Third, it is less computationally expensive to compute the gradient"}]
+[
+  {
+    "id": "page_0085-b001",
+    "page_key": 85,
+    "order": 1,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "is the global minimum or even a good one."
+  },
+  {
+    "id": "page_0085-b002",
+    "page_key": 85,
+    "order": 2,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "One of the main problems is that the final destination of a gradient descent algorithm is entirely determined by the starting point. Stochastic gradient descent (SGD) attempts to remedy this problem by adding some noise to the gradient at each step. The solution still moves downhill on average, but at any given iteration, the direction chosen is not necessarily in the steepest downhill direction. Indeed, it might not be downhill at all. The SGD algorithm has the possibility of moving temporarily"
+  },
+  {
+    "id": "page_0085-b003",
+    "page_key": 85,
+    "order": 3,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "6.2.1 Batches and epochs"
+  },
+  {
+    "id": "page_0085-b004",
+    "page_key": 85,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "The mechanism for introducing randomness is simple. At each iteration, the algorithm chooses a random subset of the training data and computes the gradient from these examples alone. This subset is known as a minibatch or batch for short. The update rule for the model parameters $\\phi_{t}$ at iteration t is hence:"
+  },
+  {
+    "id": "page_0085-b005",
+    "page_key": 85,
+    "order": 5,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\n\\phi_{t+1}\\longleftarrow\\phi_{t}-\\alpha\\cdot\\sum_{i\\in\\mathcal{B}_{t}}\\frac{\\partial\\ell_{i}[\\phi_{t}]}{\\partial\\phi},\n\\end{aligned}\n\\tag{6.10}"
+  },
+  {
+    "id": "page_0085-b006",
+    "page_key": 85,
+    "order": 6,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "where $\\mathcal{B}_{t}$ is a set containing the indices of the input/output pairs in the current batch and, as before, $\\ell_{i}$ is the loss due to the $t^{th}$ pair. The term $\\alpha$ is the learning rate, and together with the gradient magnitude, determines the distance moved at each iteration. The learning rate is chosen at the start of the procedure and does not depend on the local properties of the function."
+  },
+  {
+    "id": "page_0085-b007",
+    "page_key": 85,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "The batches are usually drawn from the dataset without replacement. The algorithm works through the training examples until it has used all the data, at which point it starts sampling from the full training dataset again. A single pass through the entire training dataset is referred to as an epoch. A batch may be as small as a single example or as large as the whole dataset. The latter case is called full-batch gradient descent and is identical to regular (non-stochastic) gradient descent."
+  },
+  {
+    "id": "page_0085-b008",
+    "page_key": 85,
+    "order": 8,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "An alternative interpretation of SGD is that it computes the gradient of a different loss function at each iteration; the loss function depends on both the model and the training data and hence will differ for each randomly selected batch. In this view, SGD performs deterministic gradient descent on a constantly changing loss function (figure 6.6). However, despite this variability, the expected loss and expected gradients at any point remain the same as for gradient descent."
+  },
+  {
+    "id": "page_0085-b009",
+    "page_key": 85,
+    "order": 9,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "6.2.2 Properties of stochastic gradient descent"
+  },
+  {
+    "id": "page_0085-b010",
+    "page_key": 85,
+    "order": 10,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "SGD has several attractive features. First, although it adds noise to the trajectory, it still improves the fit to a subset of the data at each iteration. Hence, the updates tend to be sensible even if they are not optimal. Second, because it draws training examples without replacement and iterates through the dataset, the training examples all still contribute equally. Third, it is less computationally expensive to compute the gradient"
+  }
+]

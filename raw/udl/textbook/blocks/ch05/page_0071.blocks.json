@@ -1,1 +1,138 @@
-[{"id":"page_0071-b001","page_key":71,"order":1,"type":"figure","source":"paddle","confidence":"high","image_path":"figures/page_0071_fig_1.jpg","alt_text":"Figure 5.12 Cross-entropy method. a) Empirical distribution of training samples (arrows denote Dirac delta functions). b) Model distribution (a normal distribut"},{"id":"page_0071-b002","page_key":71,"order":2,"type":"caption","source":"deepseek+paddle","confidence":"high","text":"Figure 5.12 Cross-entropy method. a) Empirical distribution of training samples (arrows denote Dirac delta functions). b) Model distribution (a normal distribution with parameters $\\theta = \\lbrace \\mu, \\sigma^{2}\\rbrace$ ). In the cross-entropy approach, we minimize the distance (KL divergence) between these two distributions as a function of the model parameters $\\theta$ ."},{"id":"page_0071-b003","page_key":71,"order":3,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"5.7 Cross-entropy loss"},{"id":"page_0071-b004","page_key":71,"order":4,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"In this chapter, we developed loss functions that minimize negative log-likelihood. However, the term cross-entropy loss is also commonplace. In this section, we describe the cross-entropy loss and show that it is equivalent to using negative log-likelihood."},{"id":"page_0071-b005","page_key":71,"order":5,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"The cross-entropy loss is based on the idea of finding parameters $\\theta$ that minimize the distance between the empirical distribution $q(y)$ of the observed data $y$ and a model distribution $\\Pr(y|\\theta)$ (figure 5.12). The distance between two probability distributions $q(z)$ and $p(z)$ can be evaluated using the Kullback-Leibler (KL) divergence:"},{"id":"page_0071-b006","page_key":71,"order":6,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"\\begin{aligned}\nD_{K L}\\left[q||p\\right]=\\int_{-\\infty}^{\\infty}q(z)\\log\\left[q(z)\\right]d z-\\int_{-\\infty}^{\\infty}q(z)\\log\\left[p(z)\\right]d z. \\tag{5.27}\n\\end{aligned}"},{"id":"page_0071-b007","page_key":71,"order":7,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Now consider that we observe an empirical data distribution at points $\\lbrace y_{i}\\rbrace_{i=1}^{I}$. We can describe this as a weighted sum of point masses:"},{"id":"page_0071-b008","page_key":71,"order":8,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"\\begin{aligned}\nq(y)=\\frac{1}{I}\\sum_{i=1}^{I}\\delta[y-y_{i}], \\tag{5.28}\n\\end{aligned}"},{"id":"page_0071-b009","page_key":71,"order":9,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"where $\\delta[\\bullet]$ is the Dirac delta function. We want to minimize the KL divergence between the model distribution $\\Pr(y|\\theta)$ and this empirical distribution:"},{"id":"page_0071-b010","page_key":71,"order":10,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"\\begin{aligned}\n\\begin{align*}\\hat{\\boldsymbol{\\theta}}\\ =&\\ \\underset{\\boldsymbol{\\theta}}{\\mathrm{argmin}}\\left[\\int_{-\\infty}^{\\infty}q(y)\\log\\left[q(y)\\right]dy-\\int_{-\\infty}^{\\infty}q(y)\\log\\left[Pr(y|\\boldsymbol{\\theta})\\right]dy\\right]\\\\=&\\ \\underset{\\boldsymbol{\\theta}}{\\mathrm{argmin}}\\left[-\\int_{-\\infty}^{\\infty}q(y)\\log\\left[Pr(y|\\boldsymbol{\\theta})\\right]dy\\right],\\end{align*} \\tag{5.29}\n\\end{aligned}"},{"id":"page_0071-b011","page_key":71,"order":11,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Appendix C.5.1"},{"id":"page_0071-b012","page_key":71,"order":12,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"KL Divergence"},{"id":"page_0071-b013","page_key":71,"order":13,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Appendix B.1.3"},{"id":"page_0071-b014","page_key":71,"order":14,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Dirac delta"},{"id":"page_0071-b015","page_key":71,"order":15,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"function"}]
+[
+  {
+    "id": "page_0071-b001",
+    "page_key": 71,
+    "order": 1,
+    "type": "figure",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0071_fig_1.jpg",
+    "alt_text": "Figure 5.12 Cross-entropy method. a) Empirical distribution of training samples (arrows denote Dirac delta functions). b) Model distribution (a normal distribut"
+  },
+  {
+    "id": "page_0071-b002",
+    "page_key": 71,
+    "order": 2,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Figure 5.12 Cross-entropy method. a) Empirical distribution of training samples (arrows denote Dirac delta functions). b) Model distribution (a normal distribution with parameters $\\theta = \\lbrace \\mu, \\sigma^{2}\\rbrace$ ). In the cross-entropy approach, we minimize the distance (KL divergence) between these two distributions as a function of the model parameters $\\theta$ ."
+  },
+  {
+    "id": "page_0071-b003",
+    "page_key": 71,
+    "order": 3,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "5.7 Cross-entropy loss"
+  },
+  {
+    "id": "page_0071-b004",
+    "page_key": 71,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "In this chapter, we developed loss functions that minimize negative log-likelihood. However, the term cross-entropy loss is also commonplace. In this section, we describe the cross-entropy loss and show that it is equivalent to using negative log-likelihood."
+  },
+  {
+    "id": "page_0071-b005",
+    "page_key": 71,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "The cross-entropy loss is based on the idea of finding parameters $\\theta$ that minimize the distance between the empirical distribution $q(y)$ of the observed data $y$ and a model distribution $\\Pr(y|\\theta)$ (figure 5.12). The distance between two probability distributions $q(z)$ and $p(z)$ can be evaluated using the Kullback-Leibler (KL) divergence:"
+  },
+  {
+    "id": "page_0071-b006",
+    "page_key": 71,
+    "order": 6,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\nD_{KL}\\left[q||p\\right]=\\int_{-\\infty}^{\\infty}q(z)\\log\\left[q(z)\\right]d z-\\int_{-\\infty}^{\\infty}q(z)\\log\\left[p(z)\\right]d z.\n\\end{aligned}\n\\tag{5.27}"
+  },
+  {
+    "id": "page_0071-b007",
+    "page_key": 71,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Now consider that we observe an empirical data distribution at points $\\lbrace y_{i}\\rbrace_{i=1}^{I}$. We can describe this as a weighted sum of point masses:"
+  },
+  {
+    "id": "page_0071-b008",
+    "page_key": 71,
+    "order": 8,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\nq(y)=\\frac{1}{I}\\sum_{i=1}^{I}\\delta[y-y_{i}],\n\\end{aligned}\n\\tag{5.28}"
+  },
+  {
+    "id": "page_0071-b009",
+    "page_key": 71,
+    "order": 9,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "where $\\delta[\\bullet]$ is the Dirac delta function. We want to minimize the KL divergence between the model distribution $\\Pr(y|\\theta)$ and this empirical distribution:"
+  },
+  {
+    "id": "page_0071-b010",
+    "page_key": 71,
+    "order": 10,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\n\\begin{align*}\\hat{\\boldsymbol{\\theta}}\\ =&\\ \\underset{\\boldsymbol{\\theta}}{\\mathrm{argmin}}\\left[\\int_{-\\infty}^{\\infty}q(y)\\log\\left[q(y)\\right]dy-\\int_{-\\infty}^{\\infty}q(y)\\log\\left[Pr(y|\\boldsymbol{\\theta})\\right]dy\\right]\\\\=&\\ \\underset{\\boldsymbol{\\theta}}{\\mathrm{argmin}}\\left[-\\int_{-\\infty}^{\\infty}q(y)\\log\\left[Pr(y|\\boldsymbol{\\theta})\\right]dy\\right],\\end{align*}\n\\end{aligned}\n\\tag{5.29}"
+  },
+  {
+    "id": "page_0071-b011",
+    "page_key": 71,
+    "order": 11,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Appendix C.5.1"
+  },
+  {
+    "id": "page_0071-b012",
+    "page_key": 71,
+    "order": 12,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "KL Divergence"
+  },
+  {
+    "id": "page_0071-b013",
+    "page_key": 71,
+    "order": 13,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Appendix B.1.3"
+  },
+  {
+    "id": "page_0071-b014",
+    "page_key": 71,
+    "order": 14,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Dirac delta"
+  },
+  {
+    "id": "page_0071-b015",
+    "page_key": 71,
+    "order": 15,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "function"
+  }
+]

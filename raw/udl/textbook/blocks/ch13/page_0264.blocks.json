@@ -1,1 +1,74 @@
-[{"id":"page_0264-b001","page_key":264,"order":1,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Permutation invariance: In DeepSets, Zaheer et al. (2017) presented a general permutation invariant operator for processing sets. Janossy pooling (Murphy et al., 2018) accepts that many functions are not permutation equivariant and instead uses a permutation-s"},{"id":"page_0264-b002","page_key":264,"order":2,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Edge graphs: The notation of the edge graph, line graph, or adjoint graph dates to Whitney (1932). The idea of “weaving” layers that update node embeddings from node embeddings, node embeddings from edge embeddings, and edge embeddings from node embeddings was"},{"id":"page_0264-b003","page_key":264,"order":3,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Power of graph neural networks: Xu et al. (2019) argue that a neural network should be able to distinguish different graph structures; it is undesirable to map two graphs to the same output if they have the same initial node embeddings but different adjacency "},{"id":"page_0264-b004","page_key":264,"order":4,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"\\begin{aligned}\n\\mathbf{h}_{k+1}^{(n)}=\\mathrm*{m l p}\\left[(1+\\epsilon_{k})\\mathbf{h}_{k}^{(n)}+\\sum_{m\\in\\mathbf{n}[n]}\\mathbf{h}_{k}^{(m)}\\right].\n\\tag{13.26}\n\\end{aligned}"},{"id":"page_0264-b005","page_key":264,"order":5,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Batches: The original paper on graph convolutional networks (Kipf & Welling, 2017) used full-batch gradient descent. This has memory requirements proportional to the number of nodes, embedding size, and number of layers during training. Since then, three types"},{"id":"page_0264-b006","page_key":264,"order":6,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Node sampling methods start by randomly selecting a subset of target nodes and then work back through the network, adding a subset of the nodes in the receptive field at each stage. GraphSAGE (Hamilton et al., 2017a) proposed a fixed number of neighborhood sam"},{"id":"page_0264-b007","page_key":264,"order":7,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Node sampling still requires increasing numbers of nodes as we pass back through the graph. Layer sampling methods address this by directly sampling the receptive field in each layer independently. Examples of layer sampling include FastGCN (Chiang et al., 201"},{"id":"page_0264-b008","page_key":264,"order":8,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Subgraph sampling methods randomly draw subgraphs or divide the original graph into sub-graphs. These are then trained as independent data examples. Examples of these approaches include GraphSAINT (Zeng et al., 2020), which samples sub-graphs during training u"}]
+[
+  {
+    "id": "page_0264-b001",
+    "page_key": 264,
+    "order": 1,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Permutation invariance: In DeepSets, Zaheer et al. (2017) presented a general permutation invariant operator for processing sets. Janossy pooling (Murphy et al., 2018) accepts that many functions are not permutation equivariant and instead uses a permutation-s"
+  },
+  {
+    "id": "page_0264-b002",
+    "page_key": 264,
+    "order": 2,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Edge graphs: The notation of the edge graph, line graph, or adjoint graph dates to Whitney (1932). The idea of “weaving” layers that update node embeddings from node embeddings, node embeddings from edge embeddings, and edge embeddings from node embeddings was"
+  },
+  {
+    "id": "page_0264-b003",
+    "page_key": 264,
+    "order": 3,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Power of graph neural networks: Xu et al. (2019) argue that a neural network should be able to distinguish different graph structures; it is undesirable to map two graphs to the same output if they have the same initial node embeddings but different adjacency "
+  },
+  {
+    "id": "page_0264-b004",
+    "page_key": 264,
+    "order": 4,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\n\\mathbf{h}_{k+1}^{(n)}=\\mathrm{mlp}\\left[(1+\\epsilon_{k})\\mathbf{h}_{k}^{(n)}+\\sum_{m\\in\\mathbf{n}[n]}\\mathbf{h}_{k}^{(m)}\\right].\n\\end{aligned}\n\\tag{13.26}"
+  },
+  {
+    "id": "page_0264-b005",
+    "page_key": 264,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Batches: The original paper on graph convolutional networks (Kipf & Welling, 2017) used full-batch gradient descent. This has memory requirements proportional to the number of nodes, embedding size, and number of layers during training. Since then, three types"
+  },
+  {
+    "id": "page_0264-b006",
+    "page_key": 264,
+    "order": 6,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Node sampling methods start by randomly selecting a subset of target nodes and then work back through the network, adding a subset of the nodes in the receptive field at each stage. GraphSAGE (Hamilton et al., 2017a) proposed a fixed number of neighborhood sam"
+  },
+  {
+    "id": "page_0264-b007",
+    "page_key": 264,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Node sampling still requires increasing numbers of nodes as we pass back through the graph. Layer sampling methods address this by directly sampling the receptive field in each layer independently. Examples of layer sampling include FastGCN (Chiang et al., 201"
+  },
+  {
+    "id": "page_0264-b008",
+    "page_key": 264,
+    "order": 8,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Subgraph sampling methods randomly draw subgraphs or divide the original graph into sub-graphs. These are then trained as independent data examples. Examples of these approaches include GraphSAINT (Zeng et al., 2020), which samples sub-graphs during training u"
+  }
+]

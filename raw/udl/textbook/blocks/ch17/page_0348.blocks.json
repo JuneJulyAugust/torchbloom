@@ -1,1 +1,137 @@
-[{"id":"page_0348-b001","page_key":348,"order":1,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"components (equation 17.4)? State the possible range of values that each parameter could take."},{"id":"page_0348-b002","page_key":348,"order":2,"type":"exercise","source":"deepseek+paddle","confidence":"medium","text":"Problem 17.2 A function is concave if its second derivative is less than or equal to zero everywhere. Show that this is true for the function $g[x] = \\log[x]$ ."},{"id":"page_0348-b003","page_key":348,"order":3,"type":"exercise","source":"deepseek+paddle","confidence":"medium","text":"Problem 17.3 For convex functions, Jensen's inequality works the other way around."},{"id":"page_0348-b004","page_key":348,"order":4,"type":"equation","source":"deepseek","confidence":"high","text":"g\\left[\\mathbb{E}[y]\\right]\\leq\\mathbb{E}\\left[g[y]\\right]. \\quad (17.31)"},{"id":"page_0348-b005","page_key":348,"order":5,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"A function is convex if its second derivative is greater than or equal to zero everywhere. Show that the function $g[x] = x^{2n}$ is convex for arbitrary $n \\in [1, 2, 3, \\ldots]$ . Use this result with Jensen's inequality to show that the square of the mean $\\mathbb{E}[x]$ of a distribution $Pr(x)$ must be less than or equal to its second moment $\\mathbb{E}[x^{2}]$ ."},{"id":"page_0348-b006","page_key":348,"order":6,"type":"exercise","source":"deepseek+paddle","confidence":"medium","text":"Problem 17.4 $^{*}$ Show that the ELBO, as expressed in equation 17.18, can alternatively be derived from the KL divergence between the variational distribution $q(\\mathbf{z}|\\mathbf{x})$ and the true posterior distribution $Pr(\\mathbf{z}|\\mathbf{x},\\phi)$ :"},{"id":"page_0348-b007","page_key":348,"order":7,"type":"equation","source":"deepseek","confidence":"high","text":"\\mathrm{D}_{K L}\\left[q(\\mathbf{z}|\\mathbf{x})\\middle|\\Big|P r(\\mathbf{z}|\\mathbf{x},\\phi)\\right]=\\int q(\\mathbf{z}|\\mathbf{x})\\log\\left[\\frac{q(\\mathbf{z}|\\mathbf{x})}{P r(\\mathbf{z}|\\mathbf{x},\\phi)}\\right]d\\mathbf{z}. \\quad (17.32)"},{"id":"page_0348-b008","page_key":348,"order":8,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"Start by using Bayes' rule (equation 17.19)."},{"id":"page_0348-b009","page_key":348,"order":9,"type":"exercise","source":"deepseek+paddle","confidence":"medium","text":"Problem 17.5 The reparameterization trick computes the derivative of an expectation of a function f[x]:"},{"id":"page_0348-b010","page_key":348,"order":10,"type":"equation","source":"deepseek","confidence":"high","text":"\\frac{\\partial}{\\partial\\phi}\\mathbb{E}_{P r(x|\\phi)}\\left[\\mathbf{f}[x]\\right], \\quad (17.33)"},{"id":"page_0348-b011","page_key":348,"order":11,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"with respect to the parameters $\\phi$ of the distribution $Pr(x|\\phi)$ that the expectation is over. Show that this derivative can also be computed as:"},{"id":"page_0348-b012","page_key":348,"order":12,"type":"equation","source":"deepseek","confidence":"high","text":"\\begin{align*}\\frac{\\partial}{\\partial\\phi}\\mathbb{E}_{Pr(x|\\phi)}\\left[\\mathbf{f}[x]\\right]&=\\quad\\mathbb{E}_{Pr(x|\\phi)}\\left[\\mathbf{f}[x]\\frac{\\partial}{\\partial\\phi}\\log\\left[Pr(x|\\phi)\\right]\\right]\\\\&\\approx\\quad\\frac{1}{I}\\sum_{i=1}^{I}\\mathbf{f}[x_{i}]\\frac{\\partial}{\\partial\\phi}\\log\\left[Pr(x_{i}|\\phi)\\right].\\end{align*} \\quad (17.34)"},{"id":"page_0348-b013","page_key":348,"order":13,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"This method is known as the REINFORCE algorithm or score function estimator."},{"id":"page_0348-b014","page_key":348,"order":14,"type":"exercise","source":"deepseek+paddle","confidence":"medium","text":"Problem 17.6 Why is it better to use spherical linear interpolation rather than regular linear updates the evidence lower bound given the posterior distributions for all of the data points. You will need to use Lagrange multipliers to ensure that the weights $\\lambda_{1}, \\ldots, \\lambda_{N}$ of the Gaussians"},{"id":"page_0348-b015","page_key":348,"order":15,"type":"exercise","source":"deepseek+paddle","confidence":"medium","text":"Problem 17.7 $^{*}$ Derive the EM algorithm for fitting the 1D mixture of Gaussians model with N components. To do this, you need to (i) find an expression for the posterior distribution $Pr(z|x)$ over the latent variable $z \\in \\lbrace1,2,\\ldots,N\\rbrace$ for a data point x and (ii) find an expression that updates the evidence lower bound given the posterior distributions for all of the data points. You will need to use Lagrange multipliers to ensure that the weights $\\lambda_{1},\\ldots,\\lambda_{N}$ of the Gaussians sum to one."}]
+[
+  {
+    "id": "page_0348-b001",
+    "page_key": 348,
+    "order": 1,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "components (equation 17.4)? State the possible range of values that each parameter could take."
+  },
+  {
+    "id": "page_0348-b002",
+    "page_key": 348,
+    "order": 2,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Problem 17.2 A function is concave if its second derivative is less than or equal to zero everywhere. Show that this is true for the function $g[x] = \\log[x]$ ."
+  },
+  {
+    "id": "page_0348-b003",
+    "page_key": 348,
+    "order": 3,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Problem 17.3 For convex functions, Jensen's inequality works the other way around."
+  },
+  {
+    "id": "page_0348-b004",
+    "page_key": 348,
+    "order": 4,
+    "type": "equation",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "g\\left[\\mathbb{E}[y]\\right]\\leq\\mathbb{E}\\left[g[y]\\right]. \\quad (17.31)"
+  },
+  {
+    "id": "page_0348-b005",
+    "page_key": 348,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "A function is convex if its second derivative is greater than or equal to zero everywhere. Show that the function $g[x] = x^{2n}$ is convex for arbitrary $n \\in [1, 2, 3, \\ldots]$ . Use this result with Jensen's inequality to show that the square of the mean $\\mathbb{E}[x]$ of a distribution $Pr(x)$ must be less than or equal to its second moment $\\mathbb{E}[x^{2}]$ ."
+  },
+  {
+    "id": "page_0348-b006",
+    "page_key": 348,
+    "order": 6,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Problem 17.4 $^{*}$ Show that the ELBO, as expressed in equation 17.18, can alternatively be derived from the KL divergence between the variational distribution $q(\\mathbf{z}|\\mathbf{x})$ and the true posterior distribution $Pr(\\mathbf{z}|\\mathbf{x},\\phi)$ :"
+  },
+  {
+    "id": "page_0348-b007",
+    "page_key": 348,
+    "order": 7,
+    "type": "equation",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "\\mathrm{D}_{KL}\\left[q(\\mathbf{z}|\\mathbf{x})\\middle|\\Big|Pr(\\mathbf{z}|\\mathbf{x},\\phi)\\right]=\\int q(\\mathbf{z}|\\mathbf{x})\\log\\left[\\frac{q(\\mathbf{z}|\\mathbf{x})}{Pr(\\mathbf{z}|\\mathbf{x},\\phi)}\\right]d\\mathbf{z}. \\quad (17.32)"
+  },
+  {
+    "id": "page_0348-b008",
+    "page_key": 348,
+    "order": 8,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Start by using Bayes' rule (equation 17.19)."
+  },
+  {
+    "id": "page_0348-b009",
+    "page_key": 348,
+    "order": 9,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Problem 17.5 The reparameterization trick computes the derivative of an expectation of a function f[x]:"
+  },
+  {
+    "id": "page_0348-b010",
+    "page_key": 348,
+    "order": 10,
+    "type": "equation",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "\\frac{\\partial}{\\partial\\phi}\\mathbb{E}_{Pr(x|\\phi)}\\left[\\mathbf{f}[x]\\right], \\quad (17.33)"
+  },
+  {
+    "id": "page_0348-b011",
+    "page_key": 348,
+    "order": 11,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "with respect to the parameters $\\phi$ of the distribution $Pr(x|\\phi)$ that the expectation is over. Show that this derivative can also be computed as:"
+  },
+  {
+    "id": "page_0348-b012",
+    "page_key": 348,
+    "order": 12,
+    "type": "equation",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "\\begin{align*}\\frac{\\partial}{\\partial\\phi}\\mathbb{E}_{Pr(x|\\phi)}\\left[\\mathbf{f}[x]\\right]&=\\quad\\mathbb{E}_{Pr(x|\\phi)}\\left[\\mathbf{f}[x]\\frac{\\partial}{\\partial\\phi}\\log\\left[Pr(x|\\phi)\\right]\\right]\\\\&\\approx\\quad\\frac{1}{I}\\sum_{i=1}^{I}\\mathbf{f}[x_{i}]\\frac{\\partial}{\\partial\\phi}\\log\\left[Pr(x_{i}|\\phi)\\right].\\end{align*} \\quad (17.34)"
+  },
+  {
+    "id": "page_0348-b013",
+    "page_key": 348,
+    "order": 13,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "This method is known as the REINFORCE algorithm or score function estimator."
+  },
+  {
+    "id": "page_0348-b014",
+    "page_key": 348,
+    "order": 14,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Problem 17.6 Why is it better to use spherical linear interpolation rather than regular linear updates the evidence lower bound given the posterior distributions for all of the data points. You will need to use Lagrange multipliers to ensure that the weights $\\lambda_{1}, \\ldots, \\lambda_{N}$ of the Gaussians"
+  },
+  {
+    "id": "page_0348-b015",
+    "page_key": 348,
+    "order": 15,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Problem 17.7 $^{*}$ Derive the EM algorithm for fitting the 1D mixture of Gaussians model with N components. To do this, you need to (i) find an expression for the posterior distribution $Pr(z|x)$ over the latent variable $z \\in \\lbrace1,2,\\ldots,N\\rbrace$ for a data point x and (ii) find an expression that updates the evidence lower bound given the posterior distributions for all of the data points. You will need to use Lagrange multipliers to ensure that the weights $\\lambda_{1},\\ldots,\\lambda_{N}$ of the Gaussians sum to one."
+  }
+]

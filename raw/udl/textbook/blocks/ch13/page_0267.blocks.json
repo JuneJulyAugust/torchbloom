@@ -1,1 +1,139 @@
-[{"id":"page_0267-b001","page_key":267,"order":1,"type":"figure","source":"paddle","confidence":"high","image_path":"figures/page_0267_fig_1.jpg","alt_text":"Graphs for problems 13.1, 13.3, and 13.8."},{"id":"page_0267-b002","page_key":267,"order":2,"type":"caption","source":"deepseek+paddle","confidence":"high","text":"Figure 13.14 Graphs for problems 13.1, 13.3, and 13.8."},{"id":"page_0267-b003","page_key":267,"order":3,"type":"figure","source":"paddle","confidence":"high","image_path":"figures/page_0267_fig_2.jpg","alt_text":"Graphs for problems 13.11–13.13."},{"id":"page_0267-b004","page_key":267,"order":4,"type":"caption","source":"deepseek+paddle","confidence":"high","text":"Figure 13.15 Graphs for problems 13.11–13.13."},{"id":"page_0267-b005","page_key":267,"order":5,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"\\begin{aligned}\\mathbf{H}_{k+1}&=\\quad\\mathbf{GraphLayer}[\\mathbf{H}_{k},\\mathbf{A}]\\\\&=\\quad\\mathbf{a}\\left[\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\boldsymbol{\\Omega}_{k}\\begin{bmatrix}\\mathbf{H}_{k}\\\\ \\mathbf{H}_{k}\\mathbf{A}\\end{bmatrix}\\right],\\end{aligned}\n\\tag{13.28}"},{"id":"page_0267-b006","page_key":267,"order":6,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"where H is a $D \\times N$ matrix containing the $N$ node embeddings in its columns, $\\mathbf{A}$ is the $N \\times N$ adjacency matrix, $\\boldsymbol{\\beta}$ is the bias vector, and $\\Omega$ is the weight matrix. Show that this layer is equivariant to permutatio"},{"id":"page_0267-b007","page_key":267,"order":7,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"\\begin{aligned}\n\\mathrm{G r a p h L a y e r}[\\mathbf{H}_{k},\\mathbf{A}]{\\bf P}=\\mathrm{G r a p h L a y e r}[\\mathbf{H}_{k}{\\bf P},{\\bf P}^{T}\\mathbf{A}{\\bf P}],\n\\tag{13.29}\n\\end{aligned}"},{"id":"page_0267-b008","page_key":267,"order":8,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"where P is an $N \\times N$ permutation matrix."},{"id":"page_0267-b009","page_key":267,"order":9,"type":"exercise","source":"deepseek+paddle","confidence":"high","text":"Problem 13.8 What is the degree matrix D for each graph in figure 13.14?"},{"id":"page_0267-b010","page_key":267,"order":10,"type":"exercise","source":"deepseek+paddle","confidence":"high","text":"Problem 13.9 The authors of GraphSAGE (Hamilton et al., 2017a) propose a pooling method in which the node embedding is averaged together with its neighbors so that:"},{"id":"page_0267-b011","page_key":267,"order":11,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"\\begin{aligned}\n\\mathbf{a}\\mathrm{g g}[n]=\\frac{1}{1+|\\mathsf{n e}[n]|}\\left(\\mathbf{h}_{n}+\\sum_{m\\in\\mathsf{n e}[n]}\\mathbf{h}_{m}\\right).\n\\tag{13.30}\n\\end{aligned}"},{"id":"page_0267-b012","page_key":267,"order":12,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Show how this operation can be computed simultaneously for all node embeddings in the $D \\times N$ embedding matrix $\\mathbf{H}$ using linear algebra. You will need to use both the adjacency matrix $\\mathbf{A}$ and the degree matrix $\\mathbf{D}$."},{"id":"page_0267-b013","page_key":267,"order":13,"type":"exercise","source":"deepseek+paddle","confidence":"high","text":"Problem 13.10 $^{*}$ Devise a graph attention mechanism based on dot-product self-attention and draw its mechanism in the style of figure 13.12."},{"id":"page_0267-b014","page_key":267,"order":14,"type":"exercise","source":"deepseek+paddle","confidence":"high","text":"Problem 13.11 $^{*}$ Draw the edge graph associated with the graph in figure 13.15a."},{"id":"page_0267-b015","page_key":267,"order":15,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Draft: please send errata to udlbookmail@gmail.com."}]
+[
+  {
+    "id": "page_0267-b001",
+    "page_key": 267,
+    "order": 1,
+    "type": "figure",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0267_fig_1.jpg",
+    "alt_text": "Graphs for problems 13.1, 13.3, and 13.8."
+  },
+  {
+    "id": "page_0267-b002",
+    "page_key": 267,
+    "order": 2,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Figure 13.14 Graphs for problems 13.1, 13.3, and 13.8."
+  },
+  {
+    "id": "page_0267-b003",
+    "page_key": 267,
+    "order": 3,
+    "type": "figure",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0267_fig_2.jpg",
+    "alt_text": "Graphs for problems 13.11–13.13."
+  },
+  {
+    "id": "page_0267-b004",
+    "page_key": 267,
+    "order": 4,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Figure 13.15 Graphs for problems 13.11–13.13."
+  },
+  {
+    "id": "page_0267-b005",
+    "page_key": 267,
+    "order": 5,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\\mathbf{H}_{k+1}&=\\quad\\mathbf{GraphLayer}[\\mathbf{H}_{k},\\mathbf{A}]\\\\&=\\quad\\mathbf{a}\\left[\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\boldsymbol{\\Omega}_{k}\\begin{bmatrix}\\mathbf{H}_{k}\\\\ \\mathbf{H}_{k}\\mathbf{A}\\end{bmatrix}\\right],\\end{aligned}\n\\tag{13.28}"
+  },
+  {
+    "id": "page_0267-b006",
+    "page_key": 267,
+    "order": 6,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "where H is a $D \\times N$ matrix containing the $N$ node embeddings in its columns, $\\mathbf{A}$ is the $N \\times N$ adjacency matrix, $\\boldsymbol{\\beta}$ is the bias vector, and $\\Omega$ is the weight matrix. Show that this layer is equivariant to permutatio"
+  },
+  {
+    "id": "page_0267-b007",
+    "page_key": 267,
+    "order": 7,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\n\\mathrm{GraphLayer}[\\mathbf{H}_{k},\\mathbf{A}]{\\bf P}=\\mathrm{GraphLayer}[\\mathbf{H}_{k}{\\bf P},{\\bf P}^{T}\\mathbf{A}{\\bf P}],\n\\end{aligned}\n\\tag{13.29}"
+  },
+  {
+    "id": "page_0267-b008",
+    "page_key": 267,
+    "order": 8,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "where P is an $N \\times N$ permutation matrix."
+  },
+  {
+    "id": "page_0267-b009",
+    "page_key": 267,
+    "order": 9,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 13.8 What is the degree matrix D for each graph in figure 13.14?"
+  },
+  {
+    "id": "page_0267-b010",
+    "page_key": 267,
+    "order": 10,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 13.9 The authors of GraphSAGE (Hamilton et al., 2017a) propose a pooling method in which the node embedding is averaged together with its neighbors so that:"
+  },
+  {
+    "id": "page_0267-b011",
+    "page_key": 267,
+    "order": 11,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\n\\mathbf{agg}[n]=\\frac{1}{1+|\\mathsf{ne}[n]|}\\left(\\mathbf{h}_{n}+\\sum_{m\\in\\mathsf{ne}[n]}\\mathbf{h}_{m}\\right).\n\\end{aligned}\n\\tag{13.30}"
+  },
+  {
+    "id": "page_0267-b012",
+    "page_key": 267,
+    "order": 12,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Show how this operation can be computed simultaneously for all node embeddings in the $D \\times N$ embedding matrix $\\mathbf{H}$ using linear algebra. You will need to use both the adjacency matrix $\\mathbf{A}$ and the degree matrix $\\mathbf{D}$."
+  },
+  {
+    "id": "page_0267-b013",
+    "page_key": 267,
+    "order": 13,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 13.10 $^{*}$ Devise a graph attention mechanism based on dot-product self-attention and draw its mechanism in the style of figure 13.12."
+  },
+  {
+    "id": "page_0267-b014",
+    "page_key": 267,
+    "order": 14,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 13.11 $^{*}$ Draw the edge graph associated with the graph in figure 13.15a."
+  },
+  {
+    "id": "page_0267-b015",
+    "page_key": 267,
+    "order": 15,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Draft: please send errata to udlbookmail@gmail.com."
+  }
+]

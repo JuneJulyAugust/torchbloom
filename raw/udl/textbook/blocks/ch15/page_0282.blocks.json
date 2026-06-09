@@ -1,1 +1,137 @@
-[{"id":"page_0282-b001","page_key":282,"order":1,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"15.2.1 Analysis of GAN loss function"},{"id":"page_0282-b002","page_key":282,"order":2,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"If we divide the two sums in the first line of equation 15.5 by the numbers I, J of real and generated samples, then the loss function can be written in terms of expectations:"},{"id":"page_0282-b003","page_key":282,"order":3,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"\\begin{aligned}L[\\phi]\\quad&=\\;-\\frac{1}{J}\\sum_{j=1}^{I}\\left(\\log\\left[1-\\mathrm{sig}[\\mathbf{f}[\\mathbf{x}_{j}^{*},\\phi]]\\right]\\right)-\\frac{1}{I}\\sum_{i=1}^{I}\\left(\\log\\left[\\mathrm{sig}[\\mathbf{f}[\\mathbf{x}_{i},\\phi]]\\right]\\right)\\\\&\\approx\\;-\\mathbb{E}_{\\mathbf{x}^{*}}\\left[\\log\\left[1-\\mathrm{sig}[\\mathbf{f}[\\mathbf{x}^{*},\\phi]]\\right]\\right]-\\mathbb{E}_{\\mathbf{x}}\\left[\\log\\left[\\mathrm{sig}[\\mathbf{f}[\\mathbf{x},\\phi]]\\right]\\right]\\\\&=\\;-\\int Pr(\\mathbf{x}^{*})\\log\\left[1-\\mathrm{sig}[\\mathbf{f}[\\mathbf{x}^{*},\\phi]]\\right]d\\mathbf{x}^{*}-\\int Pr(\\mathbf{x})\\log\\left[\\mathrm{sig}[\\mathbf{f}[\\mathbf{x},\\phi]]\\right]d\\mathbf{x},\\end{aligned}\n\\tag{15.6}"},{"id":"page_0282-b004","page_key":282,"order":4,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"where $Pr(\\mathbf{x}^{*})$ is the probability distribution over the generated samples, and $Pr(\\mathbf{x})$ is the true probability distribution over the real examples."},{"id":"page_0282-b005","page_key":282,"order":5,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"When $I = J$, the optimal discriminator for an example $\\tilde{\\mathbf{x}}$ of unknown origin is:"},{"id":"page_0282-b006","page_key":282,"order":6,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"\\begin{aligned}\nPr(\\mathrm{real}|\\tilde{\\mathbf{x}})=\\underset{}{\\mathrm{sig}\\left[\\mathrm{f}[\\tilde{\\mathbf{x}},\\phi]\\right]}=\\frac{Pr(\\bar{\\mathbf{x}}|\\mathrm{real})}{Pr(\\tilde{\\mathbf{x}}|g e n e r a t e d)+Pr(\\bar{\\mathbf{x}}|\\mathrm{real})}=\\frac{Pr(\\mathbf{x})}{Pr(\\mathbf{x}^{*})+Pr(\\bar{\\mathbf{x}})},\n\\tag{15.7}\n\\end{aligned}"},{"id":"page_0282-b007","page_key":282,"order":7,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"where on the right hand side, we evaluate $\\tilde{x}$ against the generated distribution $Pr(\\mathbf{x}^{*})$ and the real distribution $Pr(x)$ . Substituting into equation 15.6, we get:"},{"id":"page_0282-b008","page_key":282,"order":8,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"\\begin{aligned}L[\\phi]\\;=\\;&-\\int Pr(\\mathbf{x}^{*})\\log\\Big[1-\\mathrm{sig}[\\mathbf{f}[\\mathbf{x}^{*},\\phi]]\\Big]d\\mathbf{x}^{*}-\\int Pr(\\mathbf{x})\\log\\Big[\\mathrm{sig}[\\mathbf{f}[\\mathbf{x},\\phi]]\\Big]d\\mathbf{x}\\\\=\\;&-\\int Pr(\\mathbf{x}^{*})\\log\\Bigg[1-\\frac{Pr(\\mathbf{x})}{Pr(\\mathbf{x}^{*})+Pr(\\mathbf{x})}\\Bigg]d\\mathbf{x}^{*}-\\int Pr(\\mathbf{x})\\log\\Bigg[\\frac{Pr(\\mathbf{x})}{Pr(\\mathbf{x}^{*})+Pr(\\mathbf{x})}\\Bigg]d\\mathbf{x}\\\\=\\;&-\\int Pr(\\mathbf{x}^{*})\\log\\Bigg[\\frac{Pr(\\mathbf{x}^{*})}{Pr(\\mathbf{x}^{*})+Pr(\\mathbf{x})}\\Bigg]d\\mathbf{x}^{*}-\\int Pr(\\mathbf{x})\\log\\Bigg[\\frac{Pr(\\mathbf{x})}{Pr(\\mathbf{x}^{*})+Pr(\\mathbf{x})}\\Bigg]d\\mathbf{x}.\\end{aligned}\n\\tag{15.7}"},{"id":"page_0282-b009","page_key":282,"order":9,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Problems 15.1–15.2"},{"id":"page_0282-b010","page_key":282,"order":10,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Disregarding additive and multiplicative constants, this is the Jensen-Shannon divergence between the synthesized distribution $Pr(x^{*})$ and the true distribution $Pr(x)$ :"},{"id":"page_0282-b011","page_key":282,"order":11,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Appendix C.5.2 Jensen-Shannon divergence"},{"id":"page_0282-b012","page_key":282,"order":12,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"divergence"},{"id":"page_0282-b013","page_key":282,"order":13,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"\\begin{aligned}D_{JS}\\Big[Pr(\\mathbf{x}^{*})\\mid\\mid Pr(\\mathbf{x})&\\Big]\\\\&=\\frac{1}{2}D_{KL}\\left[\\left|\\frac{Pr(\\mathbf{x}^{*})+Pr(\\mathbf{x})}{2}\\right|+\\frac{1}{2}D_{KL}\\left[Pr(\\mathbf{x})\\mid\\left|\\frac{Pr(\\mathbf{x}^{*})+Pr(\\mathbf{x})}{2}\\right.\\right]\\right.\\\\&=\\frac{1}{\\circ}\\int Pr(\\mathbf{x}^{*})\\log\\left[\\underbrace{\\frac{2Pr(\\mathbf{x}^{*})}{Pr(\\mathbf{x}^{*})+Pr(\\mathbf{x})}}\\right]d\\mathbf{x}^{*}+\\frac{1}{\\circ}\\int Pr(\\mathbf{x})\\log\\left[\\underbrace{\\frac{2Pr(\\mathbf{x})}{Pr(\\mathbf{x}^{*})+Pr(\\mathbf{x})}}\\right]d\\mathbf{x}.\\end{aligned}\n\\tag{15.9}"},{"id":"page_0282-b014","page_key":282,"order":14,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"where $D_{KL}[\\bullet||\\bullet]$ is the Kullback-Leibler divergence."},{"id":"page_0282-b015","page_key":282,"order":15,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"The first term indicates the distance will be small if, wherever the sample density $Pr(\\mathbf{x}^{*})$ is high, the mixture $(Pr(\\mathbf{x}^{*}) + Pr(\\mathbf{x}))/2$ has high probability. In other words, it penalizes regions with samples $x^{*}$ but no real "}]
+[
+  {
+    "id": "page_0282-b001",
+    "page_key": 282,
+    "order": 1,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "15.2.1 Analysis of GAN loss function"
+  },
+  {
+    "id": "page_0282-b002",
+    "page_key": 282,
+    "order": 2,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "If we divide the two sums in the first line of equation 15.5 by the numbers I, J of real and generated samples, then the loss function can be written in terms of expectations:"
+  },
+  {
+    "id": "page_0282-b003",
+    "page_key": 282,
+    "order": 3,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}L[\\phi]\\quad&=\\;-\\frac{1}{J}\\sum_{j=1}^{I}\\left(\\log\\left[1-\\mathrm{sig}[\\mathbf{f}[\\mathbf{x}_{j}^{*},\\phi]]\\right]\\right)-\\frac{1}{I}\\sum_{i=1}^{I}\\left(\\log\\left[\\mathrm{sig}[\\mathbf{f}[\\mathbf{x}_{i},\\phi]]\\right]\\right)\\\\&\\approx\\;-\\mathbb{E}_{\\mathbf{x}^{*}}\\left[\\log\\left[1-\\mathrm{sig}[\\mathbf{f}[\\mathbf{x}^{*},\\phi]]\\right]\\right]-\\mathbb{E}_{\\mathbf{x}}\\left[\\log\\left[\\mathrm{sig}[\\mathbf{f}[\\mathbf{x},\\phi]]\\right]\\right]\\\\&=\\;-\\int Pr(\\mathbf{x}^{*})\\log\\left[1-\\mathrm{sig}[\\mathbf{f}[\\mathbf{x}^{*},\\phi]]\\right]d\\mathbf{x}^{*}-\\int Pr(\\mathbf{x})\\log\\left[\\mathrm{sig}[\\mathbf{f}[\\mathbf{x},\\phi]]\\right]d\\mathbf{x},\\end{aligned}\n\\tag{15.6}"
+  },
+  {
+    "id": "page_0282-b004",
+    "page_key": 282,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "where $Pr(\\mathbf{x}^{*})$ is the probability distribution over the generated samples, and $Pr(\\mathbf{x})$ is the true probability distribution over the real examples."
+  },
+  {
+    "id": "page_0282-b005",
+    "page_key": 282,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "When $I = J$, the optimal discriminator for an example $\\tilde{\\mathbf{x}}$ of unknown origin is:"
+  },
+  {
+    "id": "page_0282-b006",
+    "page_key": 282,
+    "order": 6,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\nPr(\\mathrm{real}|\\tilde{\\mathbf{x}})=\\underset{}{\\mathrm{sig}\\left[\\mathrm{f}[\\tilde{\\mathbf{x}},\\phi]\\right]}=\\frac{Pr(\\bar{\\mathbf{x}}|\\mathrm{real})}{Pr(\\tilde{\\mathbf{x}}|g e n e r a t e d)+Pr(\\bar{\\mathbf{x}}|\\mathrm{real})}=\\frac{Pr(\\mathbf{x})}{Pr(\\mathbf{x}^{*})+Pr(\\bar{\\mathbf{x}})},\n\\end{aligned}\n\\tag{15.7}"
+  },
+  {
+    "id": "page_0282-b007",
+    "page_key": 282,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "where on the right hand side, we evaluate $\\tilde{x}$ against the generated distribution $Pr(\\mathbf{x}^{*})$ and the real distribution $Pr(x)$ . Substituting into equation 15.6, we get:"
+  },
+  {
+    "id": "page_0282-b008",
+    "page_key": 282,
+    "order": 8,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}L[\\phi]\\;=\\;&-\\int Pr(\\mathbf{x}^{*})\\log\\Big[1-\\mathrm{sig}[\\mathbf{f}[\\mathbf{x}^{*},\\phi]]\\Big]d\\mathbf{x}^{*}-\\int Pr(\\mathbf{x})\\log\\Big[\\mathrm{sig}[\\mathbf{f}[\\mathbf{x},\\phi]]\\Big]d\\mathbf{x}\\\\=\\;&-\\int Pr(\\mathbf{x}^{*})\\log\\Bigg[1-\\frac{Pr(\\mathbf{x})}{Pr(\\mathbf{x}^{*})+Pr(\\mathbf{x})}\\Bigg]d\\mathbf{x}^{*}-\\int Pr(\\mathbf{x})\\log\\Bigg[\\frac{Pr(\\mathbf{x})}{Pr(\\mathbf{x}^{*})+Pr(\\mathbf{x})}\\Bigg]d\\mathbf{x}\\\\=\\;&-\\int Pr(\\mathbf{x}^{*})\\log\\Bigg[\\frac{Pr(\\mathbf{x}^{*})}{Pr(\\mathbf{x}^{*})+Pr(\\mathbf{x})}\\Bigg]d\\mathbf{x}^{*}-\\int Pr(\\mathbf{x})\\log\\Bigg[\\frac{Pr(\\mathbf{x})}{Pr(\\mathbf{x}^{*})+Pr(\\mathbf{x})}\\Bigg]d\\mathbf{x}.\\end{aligned}\n\\tag{15.7}"
+  },
+  {
+    "id": "page_0282-b009",
+    "page_key": 282,
+    "order": 9,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problems 15.1–15.2"
+  },
+  {
+    "id": "page_0282-b010",
+    "page_key": 282,
+    "order": 10,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Disregarding additive and multiplicative constants, this is the Jensen-Shannon divergence between the synthesized distribution $Pr(x^{*})$ and the true distribution $Pr(x)$ :"
+  },
+  {
+    "id": "page_0282-b011",
+    "page_key": 282,
+    "order": 11,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Appendix C.5.2 Jensen-Shannon divergence"
+  },
+  {
+    "id": "page_0282-b012",
+    "page_key": 282,
+    "order": 12,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "divergence"
+  },
+  {
+    "id": "page_0282-b013",
+    "page_key": 282,
+    "order": 13,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}D_{JS}\\Big[Pr(\\mathbf{x}^{*})\\mid\\mid Pr(\\mathbf{x})&\\Big]\\\\&=\\frac{1}{2}D_{KL}\\left[\\left|\\frac{Pr(\\mathbf{x}^{*})+Pr(\\mathbf{x})}{2}\\right|+\\frac{1}{2}D_{KL}\\left[Pr(\\mathbf{x})\\mid\\left|\\frac{Pr(\\mathbf{x}^{*})+Pr(\\mathbf{x})}{2}\\right.\\right]\\right.\\\\&=\\frac{1}{\\circ}\\int Pr(\\mathbf{x}^{*})\\log\\left[\\underbrace{\\frac{2Pr(\\mathbf{x}^{*})}{Pr(\\mathbf{x}^{*})+Pr(\\mathbf{x})}}\\right]d\\mathbf{x}^{*}+\\frac{1}{\\circ}\\int Pr(\\mathbf{x})\\log\\left[\\underbrace{\\frac{2Pr(\\mathbf{x})}{Pr(\\mathbf{x}^{*})+Pr(\\mathbf{x})}}\\right]d\\mathbf{x}.\\end{aligned}\n\\tag{15.9}"
+  },
+  {
+    "id": "page_0282-b014",
+    "page_key": 282,
+    "order": 14,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "where $D_{KL}[\\bullet||\\bullet]$ is the Kullback-Leibler divergence."
+  },
+  {
+    "id": "page_0282-b015",
+    "page_key": 282,
+    "order": 15,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "The first term indicates the distance will be small if, wherever the sample density $Pr(\\mathbf{x}^{*})$ is high, the mixture $(Pr(\\mathbf{x}^{*}) + Pr(\\mathbf{x}))/2$ has high probability. In other words, it penalizes regions with samples $x^{*}$ but no real "
+  }
+]

@@ -1,1 +1,83 @@
-[{"id":"page_0327-b001","page_key":327,"order":1,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"Chapter 17"},{"id":"page_0327-b002","page_key":327,"order":2,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"Variational autoencoders"},{"id":"page_0327-b003","page_key":327,"order":3,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"Generative adversarial networks learn a mechanism for creating samples that cannot be distinguished from the training examples $\\lbracex_{i}\\rbrace$ . In contrast, like normalizing flows, variational autoencoders, or VAEs, are probabilistic generative models; they aim to learn a distribution $Pr(\\mathbf{x})$ over the data (see figure 14.2). After training, it is possible to draw (generate) samples from this distribution. However, the properties of the VAE mean that it is unfortunately not possible to evaluate the probability of new examples $x^{*}$ exactly."},{"id":"page_0327-b004","page_key":327,"order":4,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"It is common to talk about the VAE as if it is the model of $Pr(\\mathbf{x})$ , but this is misleading; the VAE is a neural architecture that is designed to help learn the model for $Pr(\\mathbf{x})$ . The final model for $Pr(\\mathbf{x})$ contains neither the \"variational\" nor the \"autoencoder\" parts and might be better described as a nonlinear latent variable model."},{"id":"page_0327-b005","page_key":327,"order":5,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"This chapter starts by introducing latent variable models in general and then considers the specific case of the nonlinear latent variable model. It will become clear that maximum likelihood learning of this model is not straightforward. Nevertheless, it is possible to define a lower bound on the likelihood, and the VAE architecture approximates this bound using a Monte Carlo (sampling) method. The chapter concludes by presenting several applications of the VAE."},{"id":"page_0327-b006","page_key":327,"order":6,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"17.1 Latent variable models"},{"id":"page_0327-b007","page_key":327,"order":7,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"Latent variable models take an indirect approach to describing a probability distribution $Pr(\\mathbf{x})$ over a multi-dimensional variable x. Instead of directly writing the expression for $Pr(\\mathbf{x})$ , they model a joint distribution $Pr(\\mathbf{x}, \\mathbf{z})$ of the data x and an unobserved hidden or latent variable z. They then describe the probability of $Pr(\\mathbf{x})$ as a marginalization of this joint probability so that:"},{"id":"page_0327-b008","page_key":327,"order":8,"type":"equation","source":"deepseek","confidence":"high","text":"P r(\\mathbf{x})=\\int P r(\\mathbf{x},\\mathbf{z})d\\mathbf{z}. \\quad (17.1)"},{"id":"page_0327-b009","page_key":327,"order":9,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"Typically, the joint probability $Pr(\\mathbf{x}, \\mathbf{z})$ is broken down using the rules of conditional probability into the likelihood of the data with respect to the latent variables term $Pr(\\mathbf{x}|\\mathbf{z})$ and the prior $Pr(\\mathbf{z})$ :"}]
+[
+  {
+    "id": "page_0327-b001",
+    "page_key": 327,
+    "order": 1,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Chapter 17"
+  },
+  {
+    "id": "page_0327-b002",
+    "page_key": 327,
+    "order": 2,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Variational autoencoders"
+  },
+  {
+    "id": "page_0327-b003",
+    "page_key": 327,
+    "order": 3,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Generative adversarial networks learn a mechanism for creating samples that cannot be distinguished from the training examples $\\lbracex_{i}\\rbrace$ . In contrast, like normalizing flows, variational autoencoders, or VAEs, are probabilistic generative models; they aim to learn a distribution $Pr(\\mathbf{x})$ over the data (see figure 14.2). After training, it is possible to draw (generate) samples from this distribution. However, the properties of the VAE mean that it is unfortunately not possible to evaluate the probability of new examples $x^{*}$ exactly."
+  },
+  {
+    "id": "page_0327-b004",
+    "page_key": 327,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "It is common to talk about the VAE as if it is the model of $Pr(\\mathbf{x})$ , but this is misleading; the VAE is a neural architecture that is designed to help learn the model for $Pr(\\mathbf{x})$ . The final model for $Pr(\\mathbf{x})$ contains neither the \"variational\" nor the \"autoencoder\" parts and might be better described as a nonlinear latent variable model."
+  },
+  {
+    "id": "page_0327-b005",
+    "page_key": 327,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "This chapter starts by introducing latent variable models in general and then considers the specific case of the nonlinear latent variable model. It will become clear that maximum likelihood learning of this model is not straightforward. Nevertheless, it is possible to define a lower bound on the likelihood, and the VAE architecture approximates this bound using a Monte Carlo (sampling) method. The chapter concludes by presenting several applications of the VAE."
+  },
+  {
+    "id": "page_0327-b006",
+    "page_key": 327,
+    "order": 6,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "17.1 Latent variable models"
+  },
+  {
+    "id": "page_0327-b007",
+    "page_key": 327,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Latent variable models take an indirect approach to describing a probability distribution $Pr(\\mathbf{x})$ over a multi-dimensional variable x. Instead of directly writing the expression for $Pr(\\mathbf{x})$ , they model a joint distribution $Pr(\\mathbf{x}, \\mathbf{z})$ of the data x and an unobserved hidden or latent variable z. They then describe the probability of $Pr(\\mathbf{x})$ as a marginalization of this joint probability so that:"
+  },
+  {
+    "id": "page_0327-b008",
+    "page_key": 327,
+    "order": 8,
+    "type": "equation",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "Pr(\\mathbf{x})=\\int Pr(\\mathbf{x},\\mathbf{z})d\\mathbf{z}. \\quad (17.1)"
+  },
+  {
+    "id": "page_0327-b009",
+    "page_key": 327,
+    "order": 9,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Typically, the joint probability $Pr(\\mathbf{x}, \\mathbf{z})$ is broken down using the rules of conditional probability into the likelihood of the data with respect to the latent variables term $Pr(\\mathbf{x}|\\mathbf{z})$ and the prior $Pr(\\mathbf{z})$ :"
+  }
+]

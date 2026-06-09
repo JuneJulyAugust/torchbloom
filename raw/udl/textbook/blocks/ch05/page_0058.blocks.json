@@ -1,1 +1,92 @@
-[{"id":"page_0058-b001","page_key":58,"order":1,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"5.1.1 Computing a distribution over outputs"},{"id":"page_0058-b002","page_key":58,"order":2,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"This shift in perspective raises the question of exactly how a model f[x, φ] can be adapted to compute a probability distribution. The solution is simple. First, we choose a parametric distribution $Pr(\\mathbf{y}|\\boldsymbol{\\theta})$ defined on the output domain y. Then we use the network to compute one or more of the parameters $\\theta$ of this distribution."},{"id":"page_0058-b003","page_key":58,"order":3,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"For example, suppose the prediction domain is the set of real numbers, so $y \\in R$ . Here, we might choose the univariate normal distribution, which is defined on R. This distribution is defined by the mean $\\mu$ and variance $\\sigma^{2}$ , so $\\theta = \\lbrace \\mu, \\sigma^{2}\\rbrace$ . The machine learning model might predict the mean $\\mu$ , and the variance $\\sigma^{2}$ could be treated as an unknown constant."},{"id":"page_0058-b004","page_key":58,"order":4,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"5.1.2 Maximum likelihood criterion"},{"id":"page_0058-b005","page_key":58,"order":5,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"The model now computes different distribution parameters $\\boldsymbol{\\theta}_{i} = \\mathbf{f}[x_{i}, \\phi]$ for each training input $x_{i}$. Each observed training output $\\mathbf{y}_{i}$ should have high probability under its corresponding distribution $Pr(\\mathbf{y}_{i}|\\boldsymbol{\\theta}_{i})$. Hence, we choose the model parameters $\\phi$ so that they maximize the combined probability across all $I$ training examples:"},{"id":"page_0058-b006","page_key":58,"order":6,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"\\begin{aligned}\\hat{\\boldsymbol{\\phi}}&=\\argmax_{\\boldsymbol{\\phi}}\\left[\\prod_{i=1}^{I}Pr(\\mathbf{y}_{i}|\\mathbf{x}_{i})\\right]\\\\&=\\argmax_{\\boldsymbol{\\phi}}\\left[\\prod_{i=1}^{I}Pr(\\mathbf{y}_{i}|\\boldsymbol{\\theta}_{i})\\right]\\\\&=\\argmax_{\\boldsymbol{\\phi}}\\left[\\prod_{i=1}^{I}Pr(\\mathbf{y}_{i}|\\mathbf{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}])\\right].\\end{aligned} \\tag{5.1}"},{"id":"page_0058-b007","page_key":58,"order":7,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"The combined probability term is the likelihood of the parameters, and hence equation 5.1 is known as the maximum likelihood criterion. $^{1}$"},{"id":"page_0058-b008","page_key":58,"order":8,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Here we are implicitly making two assumptions. First, we assume that the form of the probability distribution over the outputs $y_{i}$ is the same for each data point. Second, we assume that the conditional distributions $Pr(\\mathbf{y}_{i}|\\mathbf{x}_{i})$ of the output given the input are independent, so the total likelihood of the training data decomposes as:"},{"id":"page_0058-b009","page_key":58,"order":9,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Appendix C.1.5 Independence"},{"id":"page_0058-b010","page_key":58,"order":10,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"\\begin{aligned}\nPr(\\mathbf{y}_{1},\\mathbf{y}_{2},\\cdots,\\mathbf{y}_{I}|\\mathbf{x}_{1},\\mathbf{x}_{2},\\cdots,\\mathbf{x}_{I})=\\prod_{i=1}^{I}Pr(\\mathbf{y}_{i}|\\mathbf{x}_{i}). \\tag{5.2}\n\\end{aligned}"}]
+[
+  {
+    "id": "page_0058-b001",
+    "page_key": 58,
+    "order": 1,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "5.1.1 Computing a distribution over outputs"
+  },
+  {
+    "id": "page_0058-b002",
+    "page_key": 58,
+    "order": 2,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "This shift in perspective raises the question of exactly how a model f[x, φ] can be adapted to compute a probability distribution. The solution is simple. First, we choose a parametric distribution $Pr(\\mathbf{y}|\\boldsymbol{\\theta})$ defined on the output domain y. Then we use the network to compute one or more of the parameters $\\theta$ of this distribution."
+  },
+  {
+    "id": "page_0058-b003",
+    "page_key": 58,
+    "order": 3,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "For example, suppose the prediction domain is the set of real numbers, so $y \\in R$ . Here, we might choose the univariate normal distribution, which is defined on R. This distribution is defined by the mean $\\mu$ and variance $\\sigma^{2}$ , so $\\theta = \\lbrace \\mu, \\sigma^{2}\\rbrace$ . The machine learning model might predict the mean $\\mu$ , and the variance $\\sigma^{2}$ could be treated as an unknown constant."
+  },
+  {
+    "id": "page_0058-b004",
+    "page_key": 58,
+    "order": 4,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "5.1.2 Maximum likelihood criterion"
+  },
+  {
+    "id": "page_0058-b005",
+    "page_key": 58,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "The model now computes different distribution parameters $\\boldsymbol{\\theta}_{i} = \\mathbf{f}[x_{i}, \\phi]$ for each training input $x_{i}$. Each observed training output $\\mathbf{y}_{i}$ should have high probability under its corresponding distribution $Pr(\\mathbf{y}_{i}|\\boldsymbol{\\theta}_{i})$. Hence, we choose the model parameters $\\phi$ so that they maximize the combined probability across all $I$ training examples:"
+  },
+  {
+    "id": "page_0058-b006",
+    "page_key": 58,
+    "order": 6,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\\hat{\\boldsymbol{\\phi}}&=\\argmax_{\\boldsymbol{\\phi}}\\left[\\prod_{i=1}^{I}Pr(\\mathbf{y}_{i}|\\mathbf{x}_{i})\\right]\\\\&=\\argmax_{\\boldsymbol{\\phi}}\\left[\\prod_{i=1}^{I}Pr(\\mathbf{y}_{i}|\\boldsymbol{\\theta}_{i})\\right]\\\\&=\\argmax_{\\boldsymbol{\\phi}}\\left[\\prod_{i=1}^{I}Pr(\\mathbf{y}_{i}|\\mathbf{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}])\\right].\\end{aligned} \\tag{5.1}"
+  },
+  {
+    "id": "page_0058-b007",
+    "page_key": 58,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "The combined probability term is the likelihood of the parameters, and hence equation 5.1 is known as the maximum likelihood criterion. $^{1}$"
+  },
+  {
+    "id": "page_0058-b008",
+    "page_key": 58,
+    "order": 8,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Here we are implicitly making two assumptions. First, we assume that the form of the probability distribution over the outputs $y_{i}$ is the same for each data point. Second, we assume that the conditional distributions $Pr(\\mathbf{y}_{i}|\\mathbf{x}_{i})$ of the output given the input are independent, so the total likelihood of the training data decomposes as:"
+  },
+  {
+    "id": "page_0058-b009",
+    "page_key": 58,
+    "order": 9,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Appendix C.1.5 Independence"
+  },
+  {
+    "id": "page_0058-b010",
+    "page_key": 58,
+    "order": 10,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\nPr(\\mathbf{y}_{1},\\mathbf{y}_{2},\\cdots,\\mathbf{y}_{I}|\\mathbf{x}_{1},\\mathbf{x}_{2},\\cdots,\\mathbf{x}_{I})=\\prod_{i=1}^{I}Pr(\\mathbf{y}_{i}|\\mathbf{x}_{i}).\n\\end{aligned}\n\\tag{5.2}"
+  }
+]

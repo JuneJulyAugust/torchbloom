@@ -34,7 +34,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "A Markov process assumes that the world is always in one of a set of possible states. The word Markov implies that the probability of being in a state depends only on the previous state and not on the states before. The changes between states are captured by the transition probabilities $Pr(s_{t+1}|s_t)$ of moving to the next state $s_{t+1}$ given the current state $s_t$ , where t indexes the time step. Hence, a Markov process is an evolving system that produces a sequence $s_1$ , $s_2$ , $s_3$ , \u2026 of states (figure 19.1)."
+    "text": "A Markov process assumes that the world is always in one of a set of possible states. The word Markov implies that the probability of being in a state depends only on the previous state and not on the states before. The changes between states are captured by the transition probabilities $Pr(s_{t+1}|s_t)$ of moving to the next state $s_{t+1}$ given the current state $s_t$ , where t indexes the time step. Hence, a Markov process is an evolving system that produces a sequence $s_1$ , $s_2$ , $s_3$ , … of states (figure 19.1)."
   },
   {
     "id": "page_0375-b005",
@@ -61,7 +61,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\nG_{t}=\\sum_{k=0}^{\\infty}\\gamma^{k}r_{t+k+1}. \\tag{19.1}\n\\end{aligned}"
+    "text": "\\begin{aligned}\nG_{t}=\\sum_{k=0}^{\\infty}\\gamma^{k}r_{t+k+1}.\n\\end{aligned}\n\\tag{19.1}"
   },
   {
     "id": "page_0375-b008",

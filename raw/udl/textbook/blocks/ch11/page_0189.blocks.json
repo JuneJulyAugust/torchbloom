@@ -1,1 +1,92 @@
-[{"id":"page_0189-b001","page_key":189,"order":1,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"Shattered gradients presumably arise because changes in early network layers modify the output in an increasingly complex way as the network becomes deeper. The derivative of the output y with respect to the first lay..."},{"id":"page_0189-b002","page_key":189,"order":2,"source":"deepseek+paddle","confidence":"medium","type":"equation","text":"\\frac{\\partial\\mathbf{y}}{\\partial\\mathbf{f}_{1}}=\\frac{\\partial\\mathbf{f}_{2}}{\\partial\\mathbf{f}_{1}}\\frac{\\partial\\mathbf{f}_{3}}{\\partial\\mathbf{f}_{2}}\\frac{\\partial\\mathbf{f}_{4}}{\\partial\\mathbf{f}_{3}}. \\quad (11.3)"},{"id":"page_0189-b003","page_key":189,"order":3,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"When we change the parameters that determine $f_{1}$ , all of the derivatives in this sequence are evaluated at slightly different locations since layers $f_{2}$ , $f_{3}$ , and $f_{4}$ are themselves computed from $f..."},{"id":"page_0189-b004","page_key":189,"order":4,"source":"deepseek+paddle","confidence":"medium","type":"heading","text":"## 11.2 Residual connections and residual blocks"},{"id":"page_0189-b005","page_key":189,"order":5,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"Residual or skip connections are branches in the computational path, whereby the input to each network layer $f[\\bullet]$ is added back to the output (figure 11.4a). By analogy to equation 11.1, the residual network i..."},{"id":"page_0189-b006","page_key":189,"order":6,"source":"deepseek+paddle","confidence":"medium","type":"equation","text":"\\begin{array}{rcl}\\mathbf{h}_{1}&=&\\mathbf{x}+\\mathbf{f}_{1}[\\mathbf{x},\\boldsymbol{\\phi}_{1}]\\\\\\mathbf{h}_{2}&=&\\mathbf{h}_{1}+\\mathbf{f}_{2}[\\mathbf{h}_{1},\\boldsymbol{\\phi}_{2}]\\\\\\mathbf{h}_{3}&=&\\mathbf{h}_{2}+\\mathbf{f}_{3}[\\mathbf{h}_{2},\\boldsymbol{\\phi}_{3}]\\\\\\mathbf{y}&=&\\mathbf{h}_{3}+\\mathbf{f}_{4}[\\mathbf{h}_{3},\\boldsymbol{\\phi}_{4}],\\end{array} \\quad (11.4)"},{"id":"page_0189-b007","page_key":189,"order":7,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"where the first term on the right-hand side of each line is the residual connection. Each function $f_{k}$ learns an additive change to the current representation. It follows that their outputs must be the same size a..."},{"id":"page_0189-b008","page_key":189,"order":8,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"Once more, we can write this as a single function by substituting in the expressions for the intermediate quantities $h_{k}$ :"},{"id":"page_0189-b009","page_key":189,"order":9,"source":"deepseek+paddle","confidence":"medium","type":"equation","text":"\\begin{aligned}\\mathbf{y}=\\mathbf{x}&+\\mathbf{f}_{1}[\\mathbf{x}]\\\\&+\\mathbf{f}_{2}\\left[\\mathbf{x}+\\mathbf{f}_{1}[\\mathbf{x}]\\right]\\\\&+\\mathbf{f}_{3}\\left[\\mathbf{x}+\\mathbf{f}_{1}[\\mathbf{x}]+\\mathbf{f}_{2}\\left[\\mathbf{x}+\\mathbf{f}_{1}[\\mathbf{x}]\\right]+\\mathbf{f}_{3}\\left[\\mathbf{x}+\\mathbf{f}_{1}[\\mathbf{x}]+\\mathbf{f}_{2}\\left[\\mathbf{x}+\\mathbf{f}_{1}[\\mathbf{x}]\\right]\\right]\\right],\\end{aligned} \\quad (11.5)"},{"id":"page_0189-b010","page_key":189,"order":10,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"where we have omitted the parameters $\\phi_{\\bullet}$ for clarity. We can think of this equation as “unraveling” the network (figure 11.4b). We see that the final network output is a sum of the input and four smaller..."}]
+[
+  {
+    "id": "page_0189-b001",
+    "page_key": 189,
+    "order": 1,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "Shattered gradients presumably arise because changes in early network layers modify the output in an increasingly complex way as the network becomes deeper. The derivative of the output y with respect to the first lay..."
+  },
+  {
+    "id": "page_0189-b002",
+    "page_key": 189,
+    "order": 2,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "equation",
+    "text": "\\frac{\\partial\\mathbf{y}}{\\partial\\mathbf{f}_{1}}=\\frac{\\partial\\mathbf{f}_{2}}{\\partial\\mathbf{f}_{1}}\\frac{\\partial\\mathbf{f}_{3}}{\\partial\\mathbf{f}_{2}}\\frac{\\partial\\mathbf{f}_{4}}{\\partial\\mathbf{f}_{3}}. \\quad (11.3)"
+  },
+  {
+    "id": "page_0189-b003",
+    "page_key": 189,
+    "order": 3,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "When we change the parameters that determine $f_{1}$ , all of the derivatives in this sequence are evaluated at slightly different locations since layers $f_{2}$ , $f_{3}$ , and $f_{4}$ are themselves computed from $f..."
+  },
+  {
+    "id": "page_0189-b004",
+    "page_key": 189,
+    "order": 4,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "heading",
+    "text": "## 11.2 Residual connections and residual blocks"
+  },
+  {
+    "id": "page_0189-b005",
+    "page_key": 189,
+    "order": 5,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "Residual or skip connections are branches in the computational path, whereby the input to each network layer $f[\\bullet]$ is added back to the output (figure 11.4a). By analogy to equation 11.1, the residual network i..."
+  },
+  {
+    "id": "page_0189-b006",
+    "page_key": 189,
+    "order": 6,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "equation",
+    "text": "\\begin{array}{rcl}\\mathbf{h}_{1}&=&\\mathbf{x}+\\mathbf{f}_{1}[\\mathbf{x},\\boldsymbol{\\phi}_{1}]\\\\ \\mathbf{h}_{2}&=&\\mathbf{h}_{1}+\\mathbf{f}_{2}[\\mathbf{h}_{1},\\boldsymbol{\\phi}_{2}]\\\\ \\mathbf{h}_{3}&=&\\mathbf{h}_{2}+\\mathbf{f}_{3}[\\mathbf{h}_{2},\\boldsymbol{\\phi}_{3}]\\\\ \\mathbf{y}&=&\\mathbf{h}_{3}+\\mathbf{f}_{4}[\\mathbf{h}_{3},\\boldsymbol{\\phi}_{4}],\\end{array} \\quad (11.4)"
+  },
+  {
+    "id": "page_0189-b007",
+    "page_key": 189,
+    "order": 7,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "where the first term on the right-hand side of each line is the residual connection. Each function $f_{k}$ learns an additive change to the current representation. It follows that their outputs must be the same size a..."
+  },
+  {
+    "id": "page_0189-b008",
+    "page_key": 189,
+    "order": 8,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "Once more, we can write this as a single function by substituting in the expressions for the intermediate quantities $h_{k}$ :"
+  },
+  {
+    "id": "page_0189-b009",
+    "page_key": 189,
+    "order": 9,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "equation",
+    "text": "\\begin{aligned}\\mathbf{y}=\\mathbf{x}&+\\mathbf{f}_{1}[\\mathbf{x}]\\\\&+\\mathbf{f}_{2}\\left[\\mathbf{x}+\\mathbf{f}_{1}[\\mathbf{x}]\\right]\\\\&+\\mathbf{f}_{3}\\left[\\mathbf{x}+\\mathbf{f}_{1}[\\mathbf{x}]+\\mathbf{f}_{2}\\left[\\mathbf{x}+\\mathbf{f}_{1}[\\mathbf{x}]\\right]+\\mathbf{f}_{3}\\left[\\mathbf{x}+\\mathbf{f}_{1}[\\mathbf{x}]+\\mathbf{f}_{2}\\left[\\mathbf{x}+\\mathbf{f}_{1}[\\mathbf{x}]\\right]\\right]\\right],\\end{aligned} \\quad (11.5)"
+  },
+  {
+    "id": "page_0189-b010",
+    "page_key": 189,
+    "order": 10,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "where we have omitted the parameters $\\phi_{\\bullet}$ for clarity. We can think of this equation as “unraveling” the network (figure 11.4b). We see that the final network output is a sum of the input and four smaller..."
+  }
+]

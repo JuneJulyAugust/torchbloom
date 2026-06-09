@@ -1,1 +1,93 @@
-[{"id":"page_0284-b001","page_key":284,"order":1,"type":"figure","source":"paddle","confidence":"high","image_path":"figures/page_0284_fig_1.jpg","alt_text":"Vanishing gradients in the generator of a DCGAN. The generator is frozen after 1, 10, and 25 epochs, and the d"},{"id":"page_0284-b002","page_key":284,"order":2,"type":"caption","source":"deepseek+paddle","confidence":"high","text":"Figure 15.7 Vanishing gradients in the generator of a DCGAN. The generator is frozen after 1, 10, and 25 epochs, and the discriminator is trained further. The gradient of the generator decreases rapidly (note log scale); if the discriminator becomes too accura"},{"id":"page_0284-b003","page_key":284,"order":3,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"becomes zero when the generated samples are too easy to distinguish from the real examples. The obvious way forward is to choose a distance metric with better properties. The Wasserstein or (for discrete distributions) earth mover’s distance is the quantity of"},{"id":"page_0284-b004","page_key":284,"order":4,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"15.2.4 Wasserstein distance for discrete distributions"},{"id":"page_0284-b005","page_key":284,"order":5,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"The Wasserstein distance is easiest to understand for discrete distributions (figure 15.8). Consider distributions $Pr(x = i)$ and $q(x = j)$ defined over K bins. Assume there is a cost $C_{ij}$ associated with moving one unit of mass from bin i in the first d"},{"id":"page_0284-b006","page_key":284,"order":6,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"The Wasserstein distance is defined as:"},{"id":"page_0284-b007","page_key":284,"order":7,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"\\begin{aligned}\nD_{w}\\Big[Pr(x)||q(x)\\Big]=\\min_{\\mathbf{P}}\\left[\\sum_{i,j}P_{ij}\\cdot|i-j|\\right],\n\\tag{15.10}\n\\end{aligned}"},{"id":"page_0284-b008","page_key":284,"order":8,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"subject to the constraints that:"},{"id":"page_0284-b009","page_key":284,"order":9,"type":"equation","source":"deepseek+paddle","confidence":"high","text":"\\begin{aligned}\n\\begin{array}{ll}\\sum_{i}P_{ij}&=Pr(x=i)\\\\ \\sum_{i} P_{ij}&=\\begin{array}{ll}q(x=j)\\end{array}\\\\ \\sum_{i}P_{ij}&\\geq0\\end{array}\\begin{array}{ll}initial distribution of Pr(x)\\\\ initial distribution of q(x)\\\\ non-negative masses.\\end{array}\n\\tag{15.11}\n\\end{aligned}"},{"id":"page_0284-b010","page_key":284,"order":10,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"In other words, the Wasserstein distance is the solution to a constrained minimization problem that maps the mass of one distribution to the other. This is inconvenient as we must solve this minimization problem over the elements $P_{ij}$ every time we want to"}]
+[
+  {
+    "id": "page_0284-b001",
+    "page_key": 284,
+    "order": 1,
+    "type": "figure",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0284_fig_1.jpg",
+    "alt_text": "Vanishing gradients in the generator of a DCGAN. The generator is frozen after 1, 10, and 25 epochs, and the d"
+  },
+  {
+    "id": "page_0284-b002",
+    "page_key": 284,
+    "order": 2,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Figure 15.7 Vanishing gradients in the generator of a DCGAN. The generator is frozen after 1, 10, and 25 epochs, and the discriminator is trained further. The gradient of the generator decreases rapidly (note log scale); if the discriminator becomes too accura"
+  },
+  {
+    "id": "page_0284-b003",
+    "page_key": 284,
+    "order": 3,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "becomes zero when the generated samples are too easy to distinguish from the real examples. The obvious way forward is to choose a distance metric with better properties. The Wasserstein or (for discrete distributions) earth mover’s distance is the quantity of"
+  },
+  {
+    "id": "page_0284-b004",
+    "page_key": 284,
+    "order": 4,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "15.2.4 Wasserstein distance for discrete distributions"
+  },
+  {
+    "id": "page_0284-b005",
+    "page_key": 284,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "The Wasserstein distance is easiest to understand for discrete distributions (figure 15.8). Consider distributions $Pr(x = i)$ and $q(x = j)$ defined over K bins. Assume there is a cost $C_{ij}$ associated with moving one unit of mass from bin i in the first d"
+  },
+  {
+    "id": "page_0284-b006",
+    "page_key": 284,
+    "order": 6,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "The Wasserstein distance is defined as:"
+  },
+  {
+    "id": "page_0284-b007",
+    "page_key": 284,
+    "order": 7,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\nD_{w}\\Big[Pr(x)||q(x)\\Big]=\\min_{\\mathbf{P}}\\left[\\sum_{i,j}P_{ij}\\cdot|i-j|\\right],\n\\end{aligned}\n\\tag{15.10}"
+  },
+  {
+    "id": "page_0284-b008",
+    "page_key": 284,
+    "order": 8,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "subject to the constraints that:"
+  },
+  {
+    "id": "page_0284-b009",
+    "page_key": 284,
+    "order": 9,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\n\\begin{array}{ll}\\sum_{i}P_{ij}&=Pr(x=i)\\\\ \\sum_{i} P_{ij}&=\\begin{array}{ll}q(x=j)\\end{array}\\\\ \\sum_{i}P_{ij}&\\geq0\\end{array}\\begin{array}{ll}initial distribution of Pr(x)\\\\ initial distribution of q(x)\\\\ non-negative masses.\\end{array}\n\\end{aligned}\n\\tag{15.11}"
+  },
+  {
+    "id": "page_0284-b010",
+    "page_key": 284,
+    "order": 10,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "In other words, the Wasserstein distance is the solution to a constrained minimization problem that maps the mass of one distribution to the other. This is inconvenient as we must solve this minimization problem over the elements $P_{ij}$ every time we want to"
+  }
+]

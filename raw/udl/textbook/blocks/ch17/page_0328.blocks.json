@@ -1,1 +1,128 @@
-[{"id":"page_0328-b001","page_key":328,"order":1,"type":"equation","source":"deepseek","confidence":"high","text":"P r(\\mathbf{x})=\\int P r(\\mathbf{x}|\\mathbf{z})P r(\\mathbf{z})d\\mathbf{z}. \\quad (17.2)"},{"id":"page_0328-b002","page_key":328,"order":2,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"This is a rather indirect approach to describing $Pr(\\mathbf{x})$ , but it is useful because relatively simple expressions for $Pr(\\mathbf{x}|\\mathbf{z})$ and $Pr(\\mathbf{z})$ can define complex distributions $Pr(\\mathbf{x})$ ."},{"id":"page_0328-b003","page_key":328,"order":3,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"17.1.1 Example: mixture of Gaussians"},{"id":"page_0328-b004","page_key":328,"order":4,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"In a 1D mixture of Gaussians (figure 17.1a), the latent variable z is discrete, and the prior $Pr(z)$ is a categorical distribution (figure 5.9) with one probability $\\lambda_{n}$ for each possible value of z. The likelihood $Pr(x|z = n)$ of the data x given that the latent variable z takes value n is normally distributed with mean $\\mu_{n}$ and variance $\\sigma_{n}^{2}$ :"},{"id":"page_0328-b005","page_key":328,"order":5,"type":"exercise","source":"deepseek+paddle","confidence":"medium","text":"Problem 17.1"},{"id":"page_0328-b006","page_key":328,"order":6,"type":"equation","source":"deepseek","confidence":"high","text":"\\begin{aligned}Pr(z=n)\\quad&=\\quad\\lambda_{n}\\\\ Pr(x|z=n)\\quad&=\\quad Norm_{x}\\left[\\mu_{n},\\sigma_{n}^{2}\\right].\\end{aligned} \\quad (17.3)"},{"id":"page_0328-b007","page_key":328,"order":7,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"As in equation 17.2, the probability $Pr(x)$ is given by the marginalization over the latent variable z (figure 17.1b). Here, the latent variable is discrete, so we sum over its possible values to marginalize:"},{"id":"page_0328-b008","page_key":328,"order":8,"type":"equation","source":"deepseek","confidence":"high","text":"\\begin{aligned}Pr(x)\\quad&=\\quad\\sum_{n=1}^{N}Pr(x,z=n)\\\\&=\\quad\\sum_{n=1}^{N}Pr(x|z=n)\\cdot Pr(z=n)\\\\&=\\quad\\sum_{n=1}^{N}\\lambda_{n}\\cdot Norm_{x}[\\mu_{n},\\sigma_{n}^{2}]\\\\ \\end{aligned}. \\quad (17.4)"},{"id":"page_0328-b009","page_key":328,"order":9,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"From simple expressions for the likelihood and prior, we describe a complex multi-modal probability distribution."},{"id":"page_0328-b010","page_key":328,"order":10,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"17.2 Nonlinear latent variable model"},{"id":"page_0328-b011","page_key":328,"order":11,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"Appendix C.3.2 Multivariate normal"},{"id":"page_0328-b012","page_key":328,"order":12,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"In the nonlinear latent variable model, both the data x and the latent variable z are continuous and multivariate. The prior $Pr(\\mathbf{z})$ is a standard multivariate normal:"},{"id":"page_0328-b013","page_key":328,"order":13,"type":"equation","source":"deepseek","confidence":"high","text":"P r(\\mathbf{z})=N o r m_{\\mathbf{z}}[\\mathbf{0},\\mathbf{I}]. \\quad (17.5)"},{"id":"page_0328-b014","page_key":328,"order":14,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"The likelihood $Pr(\\mathbf{x}|\\mathbf{z},\\boldsymbol{\\phi})$ is also normally distributed; its mean is a nonlinear function $f[\\mathbf{z},\\boldsymbol{\\phi}]$ of the latent variable, and its covariance $\\sigma^{2}I$ is spherical:"}]
+[
+  {
+    "id": "page_0328-b001",
+    "page_key": 328,
+    "order": 1,
+    "type": "equation",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "Pr(\\mathbf{x})=\\int Pr(\\mathbf{x}|\\mathbf{z})Pr(\\mathbf{z})d\\mathbf{z}. \\quad (17.2)"
+  },
+  {
+    "id": "page_0328-b002",
+    "page_key": 328,
+    "order": 2,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "This is a rather indirect approach to describing $Pr(\\mathbf{x})$ , but it is useful because relatively simple expressions for $Pr(\\mathbf{x}|\\mathbf{z})$ and $Pr(\\mathbf{z})$ can define complex distributions $Pr(\\mathbf{x})$ ."
+  },
+  {
+    "id": "page_0328-b003",
+    "page_key": 328,
+    "order": 3,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "17.1.1 Example: mixture of Gaussians"
+  },
+  {
+    "id": "page_0328-b004",
+    "page_key": 328,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "In a 1D mixture of Gaussians (figure 17.1a), the latent variable z is discrete, and the prior $Pr(z)$ is a categorical distribution (figure 5.9) with one probability $\\lambda_{n}$ for each possible value of z. The likelihood $Pr(x|z = n)$ of the data x given that the latent variable z takes value n is normally distributed with mean $\\mu_{n}$ and variance $\\sigma_{n}^{2}$ :"
+  },
+  {
+    "id": "page_0328-b005",
+    "page_key": 328,
+    "order": 5,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Problem 17.1"
+  },
+  {
+    "id": "page_0328-b006",
+    "page_key": 328,
+    "order": 6,
+    "type": "equation",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "\\begin{aligned}Pr(z=n)\\quad&=\\quad\\lambda_{n}\\\\ Pr(x|z=n)\\quad&=\\quad Norm_{x}\\left[\\mu_{n},\\sigma_{n}^{2}\\right].\\end{aligned} \\quad (17.3)"
+  },
+  {
+    "id": "page_0328-b007",
+    "page_key": 328,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "As in equation 17.2, the probability $Pr(x)$ is given by the marginalization over the latent variable z (figure 17.1b). Here, the latent variable is discrete, so we sum over its possible values to marginalize:"
+  },
+  {
+    "id": "page_0328-b008",
+    "page_key": 328,
+    "order": 8,
+    "type": "equation",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "\\begin{aligned}Pr(x)\\quad&=\\quad\\sum_{n=1}^{N}Pr(x,z=n)\\\\&=\\quad\\sum_{n=1}^{N}Pr(x|z=n)\\cdot Pr(z=n)\\\\&=\\quad\\sum_{n=1}^{N}\\lambda_{n}\\cdot Norm_{x}[\\mu_{n},\\sigma_{n}^{2}]\\\\ \\end{aligned}. \\quad (17.4)"
+  },
+  {
+    "id": "page_0328-b009",
+    "page_key": 328,
+    "order": 9,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "From simple expressions for the likelihood and prior, we describe a complex multi-modal probability distribution."
+  },
+  {
+    "id": "page_0328-b010",
+    "page_key": 328,
+    "order": 10,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "17.2 Nonlinear latent variable model"
+  },
+  {
+    "id": "page_0328-b011",
+    "page_key": 328,
+    "order": 11,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Appendix C.3.2 Multivariate normal"
+  },
+  {
+    "id": "page_0328-b012",
+    "page_key": 328,
+    "order": 12,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "In the nonlinear latent variable model, both the data x and the latent variable z are continuous and multivariate. The prior $Pr(\\mathbf{z})$ is a standard multivariate normal:"
+  },
+  {
+    "id": "page_0328-b013",
+    "page_key": 328,
+    "order": 13,
+    "type": "equation",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "Pr(\\mathbf{z})=\\mathrm{Norm}_{\\mathbf{z}}[\\mathbf{0},\\mathbf{I}]. \\quad (17.5)"
+  },
+  {
+    "id": "page_0328-b014",
+    "page_key": 328,
+    "order": 14,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "The likelihood $Pr(\\mathbf{x}|\\mathbf{z},\\boldsymbol{\\phi})$ is also normally distributed; its mean is a nonlinear function $f[\\mathbf{z},\\boldsymbol{\\phi}]$ of the latent variable, and its covariance $\\sigma^{2}I$ is spherical:"
+  }
+]

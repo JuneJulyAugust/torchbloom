@@ -24,7 +24,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\theta\\leftarrow\\theta+\\alpha\\cdot\\frac{1}{I}\\sum_{i=1}^{T}\\sum_{t=1}^{T}\\frac{\\partial\\log\\left[\\pi_{a i t}[\\mathbf{s}_{i t},\\boldsymbol{\\theta}]\\right]}{\\partial\\boldsymbol{\\theta}}\\left(r[\\mathbf{\\tau}_{i t}]-\\boldsymbol{v}[\\mathbf{s}_{i,t}]\\right). \\tag{19.38}\n\\end{aligned}"
+    "text": "\\begin{aligned}\n\\theta\\leftarrow\\theta+\\alpha\\cdot\\frac{1}{I}\\sum_{i=1}^{T}\\sum_{t=1}^{T}\\frac{\\partial\\log\\left[\\pi_{a i t}[\\mathbf{s}_{i t},\\boldsymbol{\\theta}]\\right]}{\\partial\\boldsymbol{\\theta}}\\left(r[\\mathbf{\\tau}_{i t}]-\\boldsymbol{v}[\\mathbf{s}_{i,t}]\\right).\n\\end{aligned}\n\\tag{19.38}"
   },
   {
     "id": "page_0394-b004",
@@ -51,7 +51,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\nL[\\boldsymbol{\\phi}]=\\sum_{i=1}^{I}\\sum_{t=1}^{T}\\left(v[\\mathbf{s}_{it},\\boldsymbol{\\phi}]-\\sum_{j=t}^{T}r_{i,j+1}\\right)^{2}. \\tag{19.39}\n\\end{aligned}"
+    "text": "\\begin{aligned}\nL[\\boldsymbol{\\phi}]=\\sum_{i=1}^{I}\\sum_{t=1}^{T}\\left(v[\\mathbf{s}_{it},\\boldsymbol{\\phi}]-\\sum_{j=t}^{T}r_{i,j+1}\\right)^{2}.\n\\end{aligned}\n\\tag{19.39}"
   },
   {
     "id": "page_0394-b007",
@@ -87,7 +87,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\nr[\\pmb{\\tau}_{i t}]\\approx r_{i,t+1}+\\gamma\\cdot v[\\mathbf{s}_{i,t+1},\\boldsymbol{\\phi}]. \\tag{19.40}\n\\end{aligned}"
+    "text": "\\begin{aligned}\nr[\\pmb{\\tau}_{i t}]\\approx r_{i,t+1}+\\gamma\\cdot v[\\mathbf{s}_{i,t+1},\\boldsymbol{\\phi}].\n\\end{aligned}\n\\tag{19.40}"
   },
   {
     "id": "page_0394-b011",
@@ -105,7 +105,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\theta\\leftarrow\\theta+\\alpha\\cdot\\frac{1}{I}\\sum_{i=1}^{I}\\sum_{t=1}^{T}\\frac{\\partial\\log\\left[Pr(a_{it}|\\mathbf{s}_{it},\\boldsymbol{\\theta})\\right]}{\\partial\\boldsymbol{\\theta}}\\left(r_{i,t+1}+\\gamma\\cdot v[\\mathbf{s}_{i,t+1},\\boldsymbol{\\phi}]-v[\\mathbf{s}_{i,t},\\boldsymbol{\\phi}]\\right)^{2}. \\tag{19.41}\n\\end{aligned}"
+    "text": "\\begin{aligned}\n\\theta\\leftarrow\\theta+\\alpha\\cdot\\frac{1}{I}\\sum_{i=1}^{I}\\sum_{t=1}^{T}\\frac{\\partial\\log\\left[Pr(a_{it}|\\mathbf{s}_{it},\\boldsymbol{\\theta})\\right]}{\\partial\\boldsymbol{\\theta}}\\left(r_{i,t+1}+\\gamma\\cdot v[\\mathbf{s}_{i,t+1},\\boldsymbol{\\phi}]-v[\\mathbf{s}_{i,t},\\boldsymbol{\\phi}]\\right)^{2}.\n\\end{aligned}\n\\tag{19.41}"
   },
   {
     "id": "page_0394-b013",
@@ -123,7 +123,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\nL[\\boldsymbol{\\phi}]=\\sum_{i=1}^{I}\\sum_{t=1}^{T}\\left(r_{i,t+1}+\\gamma\\cdot v[\\mathbf{s}_{i,t+1},\\boldsymbol{\\phi}]-v[\\mathbf{s}_{i,t},\\boldsymbol{\\phi}]\\right)^{2}. \\tag{19.42}\n\\end{aligned}"
+    "text": "\\begin{aligned}\nL[\\boldsymbol{\\phi}]=\\sum_{i=1}^{I}\\sum_{t=1}^{T}\\left(r_{i,t+1}+\\gamma\\cdot v[\\mathbf{s}_{i,t+1},\\boldsymbol{\\phi}]-v[\\mathbf{s}_{i,t},\\boldsymbol{\\phi}]\\right)^{2}.\n\\end{aligned}\n\\tag{19.42}"
   },
   {
     "id": "page_0394-b015",

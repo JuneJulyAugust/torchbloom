@@ -1,1 +1,137 @@
-[{"id":"page_0356-b001","page_key":356,"order":1,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"data example x (which, of course, we do when training). To compute an expression for $q(\\mathbf{z}_{t-1}|\\mathbf{Z}_t,\\mathbf{x})$ we start with Bayes' rule:"},{"id":"page_0356-b002","page_key":356,"order":2,"type":"equation","source":"deepseek","confidence":"high","text":"\\begin{align*}q(\\mathbf{z}_{t-1}|\\mathbf{Z}_{t},\\mathbf{x})&=\\frac{q(\\mathbf{z}_{t}|\\mathbf{z}_{t-1},\\mathbf{x})q(\\mathbf{z}_{t-1}|\\mathbf{x})}{q(\\mathbf{z}_{t}|\\mathbf{x})}\\\\&\\propto\\frac{q(\\mathbf{z}_{t}|\\mathbf{z}_{t-1},q(\\mathbf{z}_{t-1}|\\mathbf{x})}{q(\\mathbf{z}_{t}|\\mathbf{x})}\\\\&=\\mathrm{Norm}_{\\mathbf{z}_{t}}\\left[\\sqrt{1-\\beta_{t}\\cdot\\mathbf{z}_{t-1}},\\beta_{t}\\mathbf{I}\\right]\\mathrm{Norm}_{\\mathbf{z}_{t-1}}\\left[\\sqrt{\\alpha_{t-1}\\cdot\\mathbf{x}},(1-\\alpha_{t-1})\\mathbf{I}\\right]\\\\&=\\mathrm{Norm}_{\\mathbf{z}_{t}}\\left[\\frac{1}{\\sqrt{1-\\beta_{t}}}\\mathbf{Z}_{t},\\frac{\\beta_{t}}{1-\\beta_{t}}\\mathbf{I}\\right]\\mathrm{Norm}_{\\mathbf{z}_{t-1}}\\left[\\sqrt{\\alpha_{t-1}\\cdot\\mathbf{x}},(1-\\alpha_{t-1})\\mathbf{I}\\right]\\end{align*} \\quad (18.12)"},{"id":"page_0356-b003","page_key":356,"order":3,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"where between the first two lines, we have used the fact that $q(\\mathbf{z}_{t}|\\mathbf{Z}_{t-1},\\mathbf{x})=q(\\mathbf{z}_{t}|\\mathbf{Z}_{t-1})$ because the diffusion process is Markov, and all information about $\\mathbf{z}_{t}$ is captured by $\\mathbf{Z}_{t-1}$. Between lines three and four, we use the Gaussian change of variables identity:"},{"id":"page_0356-b004","page_key":356,"order":4,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"Appendix C.3.4 Gaussian change of variables"},{"id":"page_0356-b005","page_key":356,"order":5,"type":"equation","source":"deepseek","confidence":"high","text":"\\mathrm{N o r m}_{\\mathbf{v}}\\left[\\mathbf{A}\\mathbf{w},\\mathbf{B}\\right]\\propto\\mathrm{N o r m}_{\\mathbf{w}}\\left[\\left(\\mathbf{A}^{T}\\mathbf{B}^{-1}\\mathbf{A}\\right)^{-1}\\mathbf{A}^{T}\\mathbf{B}^{-1}\\mathbf{v},\\left(\\mathbf{A}^{T}\\mathbf{B}^{-1}\\mathbf{A}\\right)^{-1}\\right], \\quad (18.13)"},{"id":"page_0356-b006","page_key":356,"order":6,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"to rewrite the first distribution in terms of $\\mathbf{z}_{t-1}$. We then use a second Gaussian identity:"},{"id":"page_0356-b007","page_key":356,"order":7,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"Problems 18.4-18.5"},{"id":"page_0356-b008","page_key":356,"order":8,"type":"equation","source":"deepseek","confidence":"high","text":"\\begin{align*}\\mathrm{Norm}_{\\mathbf{w}}[\\mathbf{a},\\mathbf{A}]\\cdot\\mathrm{Norm}_{\\mathbf{w}}\\left[(\\mathbf{A}^{T}\\mathbf{B}^{-1}\\mathbf{A})^{-1}\\mathbf{A}^{T}\\mathbf{B}^{-1}\\mathbf{v},(\\mathbf{A}^{T}\\mathbf{B}^{-1}\\mathbf{A})^{-1}\\right],\\quad(18.13)\\end{align*}"},{"id":"page_0356-b009","page_key":356,"order":9,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"to combine the two normal distributions in $\\mathbf{z}_{t-1}$, which gives:"},{"id":"page_0356-b010","page_key":356,"order":10,"type":"exercise","source":"deepseek+paddle","confidence":"medium","text":"Problem 18.6"},{"id":"page_0356-b011","page_key":356,"order":11,"type":"equation","source":"deepseek","confidence":"high","text":"q(\\mathbf{z}_{t-1}|\\mathbf{Z}_{t},\\mathbf{x})=\\mathrm{N o r m}_{\\mathbf{z}_{t-1}}\\left[\\frac{(1-\\alpha_{t-1})}{1-\\alpha_{t}}\\sqrt{1-\\beta_{t}}\\mathbf{z}_{t}+\\frac{\\sqrt{\\alpha_{t-1}\\beta_{t}}}{1-\\alpha_{t}}\\mathbf{x},\\frac{\\beta_{t}(1-\\alpha_{t-1})}{1-\\alpha_{t}}\\mathbf{I}\\right]. \\quad (18.14)"},{"id":"page_0356-b012","page_key":356,"order":12,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"Note that the constants of proportionality in equations 18.12, 18.13, and 18.14 must cancel out since the final result is already a correctly normalized probability distribution."},{"id":"page_0356-b013","page_key":356,"order":13,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"18.3 Decoder model (reverse process)"},{"id":"page_0356-b014","page_key":356,"order":14,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"When we learn a diffusion model, we learn the reverse process. In other words, we learn a series of probabilistic mappings back from latent variable $z_{T}$ to $z_{T-1}$ , from $z_{T-1}$ to $z_{T-2}$ , and so on, until we reach the data x. The true reverse distributions $q(\\mathbf{z}_{t-1}|\\mathbf{Z}_t)$ of the diffusion process are complex multi-modal distributions (figure 18.5) that depend on the data distribution $Pr(\\mathbf{x})$ . We approximate these as normal distributions:"},{"id":"page_0356-b015","page_key":356,"order":15,"type":"equation","source":"deepseek","confidence":"high","text":"\\begin{array}{rcl}Pr(\\mathbf{z}_{T})&=&Norm_{\\mathbf{z}_{T}}[\\mathbf{0},\\mathbf{I}]\\\\Pr(\\mathbf{z}_{t-1}|\\mathbf{z}_{t},\\boldsymbol{\\phi}_{t})&=&Norm_{\\mathbf{z}_{t-1}}\\left[\\mathbf{f}_{t}[\\mathbf{z}_{t},\\boldsymbol{\\phi}_{t}],\\sigma_{t}^{2}\\mathbf{I}\\right]\\\\Pr(\\mathbf{x}|\\mathbf{z}_{1},\\boldsymbol{\\phi}_{1})&=&Norm_{\\mathbf{x}}\\left[\\mathbf{f}_{1}[\\mathbf{z}_{1},\\boldsymbol{\\phi}_{1}],\\sigma_{1}^{2}\\mathbf{I}\\right],\\\\ \\end{array} \\quad (18.16)"}]
+[
+  {
+    "id": "page_0356-b001",
+    "page_key": 356,
+    "order": 1,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "data example x (which, of course, we do when training). To compute an expression for $q(\\mathbf{z}_{t-1}|\\mathbf{Z}_t,\\mathbf{x})$ we start with Bayes' rule:"
+  },
+  {
+    "id": "page_0356-b002",
+    "page_key": 356,
+    "order": 2,
+    "type": "equation",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "\\begin{align*}q(\\mathbf{z}_{t-1}|\\mathbf{Z}_{t},\\mathbf{x})&=\\frac{q(\\mathbf{z}_{t}|\\mathbf{z}_{t-1},\\mathbf{x})q(\\mathbf{z}_{t-1}|\\mathbf{x})}{q(\\mathbf{z}_{t}|\\mathbf{x})}\\\\&\\propto\\frac{q(\\mathbf{z}_{t}|\\mathbf{z}_{t-1},q(\\mathbf{z}_{t-1}|\\mathbf{x})}{q(\\mathbf{z}_{t}|\\mathbf{x})}\\\\&=\\mathrm{Norm}_{\\mathbf{z}_{t}}\\left[\\sqrt{1-\\beta_{t}\\cdot\\mathbf{z}_{t-1}},\\beta_{t}\\mathbf{I}\\right]\\mathrm{Norm}_{\\mathbf{z}_{t-1}}\\left[\\sqrt{\\alpha_{t-1}\\cdot\\mathbf{x}},(1-\\alpha_{t-1})\\mathbf{I}\\right]\\\\&=\\mathrm{Norm}_{\\mathbf{z}_{t}}\\left[\\frac{1}{\\sqrt{1-\\beta_{t}}}\\mathbf{Z}_{t},\\frac{\\beta_{t}}{1-\\beta_{t}}\\mathbf{I}\\right]\\mathrm{Norm}_{\\mathbf{z}_{t-1}}\\left[\\sqrt{\\alpha_{t-1}\\cdot\\mathbf{x}},(1-\\alpha_{t-1})\\mathbf{I}\\right]\\end{align*} \\quad (18.12)"
+  },
+  {
+    "id": "page_0356-b003",
+    "page_key": 356,
+    "order": 3,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "where between the first two lines, we have used the fact that $q(\\mathbf{z}_{t}|\\mathbf{Z}_{t-1},\\mathbf{x})=q(\\mathbf{z}_{t}|\\mathbf{Z}_{t-1})$ because the diffusion process is Markov, and all information about $\\mathbf{z}_{t}$ is captured by $\\mathbf{Z}_{t-1}$. Between lines three and four, we use the Gaussian change of variables identity:"
+  },
+  {
+    "id": "page_0356-b004",
+    "page_key": 356,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Appendix C.3.4 Gaussian change of variables"
+  },
+  {
+    "id": "page_0356-b005",
+    "page_key": 356,
+    "order": 5,
+    "type": "equation",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "\\mathrm{Norm}_{\\mathbf{v}}\\left[\\mathbf{A}\\mathbf{w},\\mathbf{B}\\right]\\propto\\mathrm{Norm}_{\\mathbf{w}}\\left[\\left(\\mathbf{A}^{T}\\mathbf{B}^{-1}\\mathbf{A}\\right)^{-1}\\mathbf{A}^{T}\\mathbf{B}^{-1}\\mathbf{v},\\left(\\mathbf{A}^{T}\\mathbf{B}^{-1}\\mathbf{A}\\right)^{-1}\\right], \\quad (18.13)"
+  },
+  {
+    "id": "page_0356-b006",
+    "page_key": 356,
+    "order": 6,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "to rewrite the first distribution in terms of $\\mathbf{z}_{t-1}$. We then use a second Gaussian identity:"
+  },
+  {
+    "id": "page_0356-b007",
+    "page_key": 356,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Problems 18.4-18.5"
+  },
+  {
+    "id": "page_0356-b008",
+    "page_key": 356,
+    "order": 8,
+    "type": "equation",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "\\begin{align*}\\mathrm{Norm}_{\\mathbf{w}}[\\mathbf{a},\\mathbf{A}]\\cdot\\mathrm{Norm}_{\\mathbf{w}}\\left[(\\mathbf{A}^{T}\\mathbf{B}^{-1}\\mathbf{A})^{-1}\\mathbf{A}^{T}\\mathbf{B}^{-1}\\mathbf{v},(\\mathbf{A}^{T}\\mathbf{B}^{-1}\\mathbf{A})^{-1}\\right],\\quad(18.13)\\end{align*}"
+  },
+  {
+    "id": "page_0356-b009",
+    "page_key": 356,
+    "order": 9,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "to combine the two normal distributions in $\\mathbf{z}_{t-1}$, which gives:"
+  },
+  {
+    "id": "page_0356-b010",
+    "page_key": 356,
+    "order": 10,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Problem 18.6"
+  },
+  {
+    "id": "page_0356-b011",
+    "page_key": 356,
+    "order": 11,
+    "type": "equation",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "q(\\mathbf{z}_{t-1}|\\mathbf{Z}_{t},\\mathbf{x})=\\mathrm{Norm}_{\\mathbf{z}_{t-1}}\\left[\\frac{(1-\\alpha_{t-1})}{1-\\alpha_{t}}\\sqrt{1-\\beta_{t}}\\mathbf{z}_{t}+\\frac{\\sqrt{\\alpha_{t-1}\\beta_{t}}}{1-\\alpha_{t}}\\mathbf{x},\\frac{\\beta_{t}(1-\\alpha_{t-1})}{1-\\alpha_{t}}\\mathbf{I}\\right]. \\quad (18.14)"
+  },
+  {
+    "id": "page_0356-b012",
+    "page_key": 356,
+    "order": 12,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Note that the constants of proportionality in equations 18.12, 18.13, and 18.14 must cancel out since the final result is already a correctly normalized probability distribution."
+  },
+  {
+    "id": "page_0356-b013",
+    "page_key": 356,
+    "order": 13,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "18.3 Decoder model (reverse process)"
+  },
+  {
+    "id": "page_0356-b014",
+    "page_key": 356,
+    "order": 14,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "When we learn a diffusion model, we learn the reverse process. In other words, we learn a series of probabilistic mappings back from latent variable $z_{T}$ to $z_{T-1}$ , from $z_{T-1}$ to $z_{T-2}$ , and so on, until we reach the data x. The true reverse distributions $q(\\mathbf{z}_{t-1}|\\mathbf{Z}_t)$ of the diffusion process are complex multi-modal distributions (figure 18.5) that depend on the data distribution $Pr(\\mathbf{x})$ . We approximate these as normal distributions:"
+  },
+  {
+    "id": "page_0356-b015",
+    "page_key": 356,
+    "order": 15,
+    "type": "equation",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "\\begin{array}{rcl}Pr(\\mathbf{z}_{T})&=&Norm_{\\mathbf{z}_{T}}[\\mathbf{0},\\mathbf{I}]\\\\Pr(\\mathbf{z}_{t-1}|\\mathbf{z}_{t},\\boldsymbol{\\phi}_{t})&=&Norm_{\\mathbf{z}_{t-1}}\\left[\\mathbf{f}_{t}[\\mathbf{z}_{t},\\boldsymbol{\\phi}_{t}],\\sigma_{t}^{2}\\mathbf{I}\\right]\\\\Pr(\\mathbf{x}|\\mathbf{z}_{1},\\boldsymbol{\\phi}_{1})&=&Norm_{\\mathbf{x}}\\left[\\mathbf{f}_{1}[\\mathbf{z}_{1},\\boldsymbol{\\phi}_{1}],\\sigma_{1}^{2}\\mathbf{I}\\right],\\\\ \\end{array} \\quad (18.16)"
+  }
+]

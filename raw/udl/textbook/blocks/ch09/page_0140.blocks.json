@@ -1,1 +1,92 @@
-[{"id":"page_0140-b001","page_key":140,"order":1,"type":"equation","source":"deepseek+paddle","confidence":"medium","text":"\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}}=\\underset{\\boldsymbol{\\phi}}{\\mathrm{a r g m a x}}\\left[Pr(\\boldsymbol{\\phi})\\prod_{i=1}^{I}Pr(\\mathbf{y}_{i}|\\mathbf{x}_{i},\\boldsymbol{\\phi})\\right]. \\tag{9.4}\n\\end{aligned}"},{"id":"page_0140-b002","page_key":140,"order":2,"type":"paragraph","source":"deepseek","confidence":"high","text":"Moving back to the negative log-likelihood loss function by taking the log and multiplying by minus one, we see that $\\lambda \\cdot g[\\phi] = -\\log[Pr(\\phi)]$ ."},{"id":"page_0140-b003","page_key":140,"order":3,"type":"heading","source":"deepseek","confidence":"high","text":"9.1.2 L2 regularization"},{"id":"page_0140-b004","page_key":140,"order":4,"type":"paragraph","source":"deepseek","confidence":"high","text":"This discussion has sidestepped the question of which solutions the regularization term should penalize (or equivalently that the prior should favor). Since neural networks are used in an extremely broad range of applications, these can only be very generic preferences. The most commonly used regularization term is the L2 norm, which penalizes the sum of the squares of the parameter values:"},{"id":"page_0140-b005","page_key":140,"order":5,"type":"equation","source":"deepseek+paddle","confidence":"medium","text":"\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}}=\\underset{\\boldsymbol{\\phi}}{\\mathrm{a r g m i n}}\\left[\\sum_{i=1}^{I}\\ell_{i}[\\mathbf{x}_{i},\\mathbf{y}_{i}]+\\lambda\\sum_{j}\\phi_{j}^{2}\\right], \\tag{9.5}\n\\end{aligned}"},{"id":"page_0140-b006","page_key":140,"order":6,"type":"paragraph","source":"deepseek","confidence":"high","text":"where j indexes the parameters. This is also referred to as Tikhonov regularization or ridge regression, or (when applied to matrices) Frobenius norm regularizer."},{"id":"page_0140-b007","page_key":140,"order":7,"type":"paragraph","source":"deepseek","confidence":"high","text":"For neural networks, L2 regularization is usually applied to the weights but not the biases and is hence referred to as a weight decay term. The effect is to encourage smaller weights, so the output function is smoother. To see this, consider that the output prediction is a weighted sum of the activations at the last hidden layer. If the weights have a smaller magnitude, the output will vary less. The same logic applies to the computation of the pre-activations at the last hidden layer and so on, progressing backward through the network. In the limit, if we forced all the weights to be zero, the network would produce a constant output determined by the final bias parameter."},{"id":"page_0140-b008","page_key":140,"order":8,"type":"paragraph","source":"deepseek","confidence":"high","text":"Figure 9.2 shows the effect of fitting the simplified network from figure 8.4 with weight decay and different values of the regularization coefficient $\\lambda$ . When $\\lambda$ is small, it has little effect. However, as $\\lambda$ increases, the fit to the data becomes less accurate, and the function becomes smoother. This might improve the test performance for two reasons:"},{"id":"page_0140-b009","page_key":140,"order":9,"type":"list","source":"deepseek","confidence":"medium","text":"- If the network is overparameterized, some of the extra model capacity de- scribes areas with no training data. Here, the regularization term will favor func- tions that smoothly interpolate between the nearby points. This is reasonable behavior in the absence of knowledge about the true function."},{"id":"page_0140-b010","page_key":140,"order":10,"type":"list","source":"deepseek","confidence":"medium","text":"- When the network is overparameterized, some of the extra model capacity describes areas with no training data. Here, the regularization term will favor functions that smoothly interpolate between the nearby points. This is reasonable behavior in the absence of knowledge about the true function."}]
+[
+  {
+    "id": "page_0140-b001",
+    "page_key": 140,
+    "order": 1,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}}=\\underset{\\boldsymbol{\\phi}}{\\mathrm{argmax}}\\left[Pr(\\boldsymbol{\\phi})\\prod_{i=1}^{I}Pr(\\mathbf{y}_{i}|\\mathbf{x}_{i},\\boldsymbol{\\phi})\\right].\n\\end{aligned}\n\\tag{9.4}"
+  },
+  {
+    "id": "page_0140-b002",
+    "page_key": 140,
+    "order": 2,
+    "type": "paragraph",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "Moving back to the negative log-likelihood loss function by taking the log and multiplying by minus one, we see that $\\lambda \\cdot g[\\phi] = -\\log[Pr(\\phi)]$ ."
+  },
+  {
+    "id": "page_0140-b003",
+    "page_key": 140,
+    "order": 3,
+    "type": "heading",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "9.1.2 L2 regularization"
+  },
+  {
+    "id": "page_0140-b004",
+    "page_key": 140,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "This discussion has sidestepped the question of which solutions the regularization term should penalize (or equivalently that the prior should favor). Since neural networks are used in an extremely broad range of applications, these can only be very generic preferences. The most commonly used regularization term is the L2 norm, which penalizes the sum of the squares of the parameter values:"
+  },
+  {
+    "id": "page_0140-b005",
+    "page_key": 140,
+    "order": 5,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}}=\\underset{\\boldsymbol{\\phi}}{\\mathrm{argmin}}\\left[\\sum_{i=1}^{I}\\ell_{i}[\\mathbf{x}_{i},\\mathbf{y}_{i}]+\\lambda\\sum_{j}\\phi_{j}^{2}\\right],\n\\end{aligned}\n\\tag{9.5}"
+  },
+  {
+    "id": "page_0140-b006",
+    "page_key": 140,
+    "order": 6,
+    "type": "paragraph",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "where j indexes the parameters. This is also referred to as Tikhonov regularization or ridge regression, or (when applied to matrices) Frobenius norm regularizer."
+  },
+  {
+    "id": "page_0140-b007",
+    "page_key": 140,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "For neural networks, L2 regularization is usually applied to the weights but not the biases and is hence referred to as a weight decay term. The effect is to encourage smaller weights, so the output function is smoother. To see this, consider that the output prediction is a weighted sum of the activations at the last hidden layer. If the weights have a smaller magnitude, the output will vary less. The same logic applies to the computation of the pre-activations at the last hidden layer and so on, progressing backward through the network. In the limit, if we forced all the weights to be zero, the network would produce a constant output determined by the final bias parameter."
+  },
+  {
+    "id": "page_0140-b008",
+    "page_key": 140,
+    "order": 8,
+    "type": "paragraph",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "Figure 9.2 shows the effect of fitting the simplified network from figure 8.4 with weight decay and different values of the regularization coefficient $\\lambda$ . When $\\lambda$ is small, it has little effect. However, as $\\lambda$ increases, the fit to the data becomes less accurate, and the function becomes smoother. This might improve the test performance for two reasons:"
+  },
+  {
+    "id": "page_0140-b009",
+    "page_key": 140,
+    "order": 9,
+    "type": "list",
+    "source": "deepseek",
+    "confidence": "medium",
+    "text": "- If the network is overparameterized, some of the extra model capacity de- scribes areas with no training data. Here, the regularization term will favor func- tions that smoothly interpolate between the nearby points. This is reasonable behavior in the absence of knowledge about the true function."
+  },
+  {
+    "id": "page_0140-b010",
+    "page_key": 140,
+    "order": 10,
+    "type": "list",
+    "source": "deepseek",
+    "confidence": "medium",
+    "text": "- When the network is overparameterized, some of the extra model capacity describes areas with no training data. Here, the regularization term will favor functions that smoothly interpolate between the nearby points. This is reasonable behavior in the absence of knowledge about the true function."
+  }
+]
