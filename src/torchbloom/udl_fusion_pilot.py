@@ -33,6 +33,7 @@ CENTERED_HTML_IMG_RE = re.compile(
 DISPLAY_MATH_BRACKET_RE = re.compile(r"(?m)^\\\[$|^\\\]$")
 INLINE_MATH_PAREN_RE = re.compile(r"\\\(|\\\)")
 GITHUB_BLOCKED_MATH_MACRO_RE = re.compile(r"\\operatorname\b")
+INLINE_ESCAPED_BRACE_RE = re.compile(r"\$[^\n$]*\\[{}][^\n$]*\$")
 FIGURE_CAPTION_START_RE = re.compile(r"(?m)^Figure\s+\d+\.\d+\b")
 FIGURE_CAPTION_BLOCK_RE = re.compile(r"^Figure\s+\d+\.\d+\b", re.DOTALL)
 CENTERED_FIGURE_CAPTION_RE = re.compile(
@@ -357,6 +358,7 @@ Use these to check transcription, especially equations, but do not include them 
 9. Use GitHub-compatible display math delimiters: `$$` on a line before and after display equations. Do not use `\\[` and `\\]` for display math.
 10. Use GitHub-compatible inline math delimiters: `$...$`. Do not use `\\(...\\)` inline math.
 11. Avoid GitHub-blocked math macros. Use `\\mathrm{{ReLU}}`, `\\mathrm{{argmin}}`, or `\\mathrm{{HardSwish}}` instead of `\\operatorname{{...}}`.
+12. In inline math, write literal set braces as `\\lbrace ...\\rbrace`, not `\\{{...\\}}`, so GitHub does not consume the escaping before MathJax sees it.
 
 ## Required Markdown Frontmatter
 
@@ -778,6 +780,8 @@ def _validate_markdown(output_dir: Path, spec: PageSpec, errors: list[str]) -> d
         errors.append(f"{md_path}: use $...$ inline math delimiters for GitHub rendering, not \\(...\\)")
     if GITHUB_BLOCKED_MATH_MACRO_RE.search(body):
         errors.append(f"{md_path}: replace GitHub-blocked math macro \\operatorname with \\mathrm or plain LaTeX")
+    if INLINE_ESCAPED_BRACE_RE.search(body):
+        errors.append(f"{md_path}: use \\lbrace and \\rbrace for literal braces in inline math")
     if frontmatter.get("page_key") != spec.book_page:
         errors.append(f"{md_path}: page_key should be book page {spec.book_page}")
     if frontmatter.get("book_page") != spec.book_page:

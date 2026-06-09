@@ -91,5 +91,6 @@
 - [x] Convert published display equations from `\[` and `\]` to `$$`.
 - [x] Convert published inline equations from `\(...\)` to `$...$`.
 - [x] Replace GitHub-blocked `\operatorname{...}` math macros with `\mathrm{...}`.
-- [x] Add validation that rejects bracket display math, parenthesis inline math, and blocked `\operatorname` macros in fused Markdown.
+- [x] Convert inline set braces from `\{...\}` to `\lbrace ...\rbrace`.
+- [x] Add validation that rejects bracket display math, parenthesis inline math, blocked `\operatorname` macros, and escaped inline set braces in fused Markdown.
 - [x] Run focused tests and full validation.

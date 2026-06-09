@@ -91,6 +91,7 @@ Markdown math must use GitHub-compatible syntax:
 - Display equations use `$$` delimiters rather than `\[` and `\]`.
 - Inline equations use `$...$` rather than `\(...\)`.
 - Named functions use GitHub-accepted forms such as `\mathrm{ReLU}` and `\mathrm{argmin}` rather than `\operatorname{...}`.
+- Inline literal set braces use `\lbrace ...\rbrace` rather than `\{...\}`, because Markdown may consume the backslash escapes before MathJax receives the expression.
 
 GitHub renders `$$` math blocks and `$...$` inline math in Markdown files, while the bracket and parenthesis delimiters may render in local previews but appear as plain text on GitHub. GitHub's math sanitizer may reject some LaTeX macros, including `\operatorname`.
 
@@ -150,7 +151,7 @@ When PPStructureV3 misses a figure or detects only part of a multi-panel figure,
 10. Keep uncertainty out of final Markdown; use reports or JSON sidecars for audit notes.
 11. Use printed book page numbers for fused Markdown, block JSON, prompt, and final figure filenames. Keep PDF page numbers in metadata and source/evidence paths.
 12. Do not create public-facing curriculum pages from this layer yet; this remains source-derived OCR working output.
-13. Use GitHub-compatible math: `$$` for display math, `$...$` for inline math, and `\mathrm{...}` for named functions instead of `\operatorname{...}`.
+13. Use GitHub-compatible math: `$$` for display math, `$...$` for inline math, `\mathrm{...}` for named functions instead of `\operatorname{...}`, and `\lbrace ...\rbrace` for inline set braces.
 
 ## Subagent Split
 
