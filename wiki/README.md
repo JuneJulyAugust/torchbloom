@@ -4,7 +4,7 @@
 
 Current wiki:
 
-- [llm-wiki/](llm-wiki/) - AI, ML, deep learning, and LLM foundations for TorchBloom.
+- UDL study pages will live here after source-derived OCR is normalized and reviewed.
 
 Rules:
 

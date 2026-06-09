@@ -12,4 +12,4 @@
 
 Current intake area:
 
-- [llm-wiki/](llm-wiki/) - sources and extracts for the TorchBloom LLM/AI concept wiki.
+- [udl/](udl/) - Understanding Deep Learning source intake and OCR-derived working material.
