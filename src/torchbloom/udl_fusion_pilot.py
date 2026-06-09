@@ -30,6 +30,7 @@ CENTERED_HTML_IMG_RE = re.compile(
     r"<p\s+align=[\"']center[\"']>\s*<img\b[^>]*\bsrc=[\"']([^\"']+)[\"'][^>]*>\s*</p>",
     re.IGNORECASE | re.DOTALL,
 )
+DISPLAY_MATH_BRACKET_RE = re.compile(r"(?m)^\\\[$|^\\\]$")
 FIGURE_CAPTION_START_RE = re.compile(r"(?m)^Figure\s+\d+\.\d+\b")
 FIGURE_CAPTION_BLOCK_RE = re.compile(r"^Figure\s+\d+\.\d+\b", re.DOTALL)
 CENTERED_FIGURE_CAPTION_RE = re.compile(
@@ -351,6 +352,7 @@ Use these to check transcription, especially equations, but do not include them 
 6. Do not invent content not supported by the two OCR sources.
 7. Do not include review-note text in final Markdown frontmatter or body.
 8. Center figure caption text and bold the `Figure X.Y` label.
+9. Use GitHub-compatible display math delimiters: `$$` on a line before and after display equations. Do not use `\\[` and `\\]` for display math.
 
 ## Required Markdown Frontmatter
 
@@ -721,7 +723,7 @@ def _leading_figure_caption_count(body: str) -> int:
         stripped = block.strip()
         if not stripped:
             continue
-        if stripped.startswith(("##", "\\[", ">", "<")):
+        if stripped.startswith(("##", "$$", "\\[", ">", "<")):
             break
         if FIGURE_CAPTION_START_RE.match(stripped):
             count += 1
@@ -766,6 +768,8 @@ def _validate_markdown(output_dir: Path, spec: PageSpec, errors: list[str]) -> d
         errors.append(f"{md_path}: remove review_notes from final Markdown frontmatter")
     if REVIEW_NOTE_TEXT_RE.search(body):
         errors.append(f"{md_path}: remove review-note text from final Markdown body")
+    if DISPLAY_MATH_BRACKET_RE.search(body):
+        errors.append(f"{md_path}: use $$ display math delimiters for GitHub rendering, not \\[ or \\]")
     if frontmatter.get("page_key") != spec.book_page:
         errors.append(f"{md_path}: page_key should be book page {spec.book_page}")
     if frontmatter.get("book_page") != spec.book_page:

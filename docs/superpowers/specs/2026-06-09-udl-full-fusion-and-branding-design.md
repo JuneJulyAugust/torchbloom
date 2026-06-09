@@ -43,6 +43,8 @@ raw/udl/textbook/
 
 Final page filenames use printed book page numbers. PDF page numbers remain in Markdown frontmatter as provenance.
 
+Display equations use `$$` delimiters so they render in GitHub Markdown and local previews. Do not publish pages with `\[` and `\]` display delimiters.
+
 ## Cleanup Rules
 
 Legacy DeepSeek-only artifacts are removable only when a validated replacement covers the same page:

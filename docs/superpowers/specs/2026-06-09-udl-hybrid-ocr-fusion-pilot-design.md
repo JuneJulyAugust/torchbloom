@@ -86,6 +86,8 @@ Each fused page has YAML frontmatter:
 
 The body should preserve normal reading order, section headings, equations in LaTeX when available, figure references, and captions. Review notes are useful during fusion, but they must not remain in final Markdown frontmatter or body text.
 
+Display equations must use GitHub-compatible `$$` delimiters rather than `\[` and `\]`. GitHub renders `$$` math blocks in Markdown files, while the bracket delimiters may render in local previews but appear as plain text on GitHub.
+
 ### Blocks JSON
 
 Each page also has a lightweight block sidecar for future LLM parsing:
@@ -142,6 +144,7 @@ When PPStructureV3 misses a figure or detects only part of a multi-panel figure,
 10. Keep uncertainty out of final Markdown; use reports or JSON sidecars for audit notes.
 11. Use printed book page numbers for fused Markdown, block JSON, prompt, and final figure filenames. Keep PDF page numbers in metadata and source/evidence paths.
 12. Do not create public-facing curriculum pages from this layer yet; this remains source-derived OCR working output.
+13. Use `$$` for display math so equations render in both GitHub Markdown and local previews.
 
 ## Subagent Split
 
