@@ -5,7 +5,7 @@ title: Functions As Machines
 chapter_scope: [ch01, ch02, ch03]
 source_anchors:
   - source: udlbook-v5.0.3
-    locator: raw/udl/textbook/pages/ch02-supervised-learning/page_0031.md
+    locator: raw/udl/textbook/pages/ch02-supervised-learning/page_0017.md
 confidence: directional
 prerequisites: []
 related: [supervised-learning, linear-regression, shallow-neural-networks]
@@ -38,5 +38,5 @@ and the numbers `2` and `3` control the slope and intercept.
 
 ## Source Anchors
 
-- `raw/udl/textbook/pages/ch02-supervised-learning/page_0031.md`
+- `raw/udl/textbook/pages/ch02-supervised-learning/page_0017.md`
 

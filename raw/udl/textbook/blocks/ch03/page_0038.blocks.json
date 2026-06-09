@@ -1,0 +1,74 @@
+[
+  {
+    "id": "page_0038-b001",
+    "page_key": 38,
+    "order": 1,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Sigmoid derivatives saturate for large positive and negative inputs."
+  },
+  {
+    "id": "page_0038-b002",
+    "page_key": 38,
+    "order": 2,
+    "type": "paragraph",
+    "source": "paddle",
+    "confidence": "high",
+    "text": "Explains dying ReLU and variants including leaky ReLU, parametric ReLU, and concatenated ReLU."
+  },
+  {
+    "id": "page_0038-b003",
+    "page_key": 38,
+    "order": 3,
+    "type": "paragraph",
+    "source": "paddle",
+    "confidence": "high",
+    "text": "Discusses smooth activations, SELU, Swish, and HardSwish."
+  },
+  {
+    "id": "page_0038-b004",
+    "page_key": 38,
+    "order": 4,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\operatorname{HardSwish}[z]=\\begin{cases}0 & z<-3\\\\ z(z+3)/6 & -3\\leq z\\leq 3\\\\ z & z>3\\end{cases}. \\tag{3.13}"
+  },
+  {
+    "id": "page_0038-b005",
+    "page_key": 38,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Notes that no activation is definitively superior and explains why the book focuses on ReLU."
+  },
+  {
+    "id": "page_0038-b006",
+    "page_key": 38,
+    "order": 6,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Universal approximation theorem note."
+  },
+  {
+    "id": "page_0038-b007",
+    "page_key": 38,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Number of linear regions note with Zaslavsky bound."
+  },
+  {
+    "id": "page_0038-b008",
+    "page_key": 38,
+    "order": 8,
+    "type": "review_note",
+    "source": "codex-fusion",
+    "confidence": "medium",
+    "text": "Formula crop used only as evidence; no image_path is present on the equation block."
+  }
+]

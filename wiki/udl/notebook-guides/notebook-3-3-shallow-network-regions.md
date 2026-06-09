@@ -7,7 +7,7 @@ source_anchors:
   - source: udl-official-site
     locator: https://udlbook.github.io/udlbook/
   - source: udlbook-v5.0.3
-    locator: raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0047.md
+    locator: raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0033.md
 confidence: directional
 prerequisites: [linear-regions, vectors-as-lists-of-numbers]
 related: [ch03-practice-index, eq-3-11-3-12-shallow-network-general]
@@ -40,5 +40,5 @@ Read pages 45-48 and make sure you can explain an activation pattern in words.
 ## Source Anchors
 
 - Official UDL site notebook list: `https://udlbook.github.io/udlbook/`
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0047.md`
+- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0033.md`
 

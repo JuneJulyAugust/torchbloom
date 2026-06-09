@@ -1,0 +1,128 @@
+[
+  {
+    "id": "page_0018-b001",
+    "page_key": 18,
+    "order": 1,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "When we compute the prediction y from the input x, we call this inference."
+  },
+  {
+    "id": "page_0018-b002",
+    "page_key": 18,
+    "order": 2,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "The model is just a mathematical equation with a fixed form. It represents a family of different relations between the input and the output. The model also contains parameters phi. The choice of parameters determines the particular relation between input and output, so we should really write:"
+  },
+  {
+    "id": "page_0018-b003",
+    "page_key": 18,
+    "order": 3,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "latex": "\\mathbf{y}=\\mathbf{f}[\\mathbf{x},\\boldsymbol{\\phi}]. \\quad (2.2)"
+  },
+  {
+    "id": "page_0018-b004",
+    "page_key": 18,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "When we talk about learning or training a model, we mean that we attempt to find parameters phi that make sensible output predictions from the input. We learn these parameters using a training dataset of I pairs of input and output examples {x_i,y_i}. We aim to select parameters that map each training input to its associated output as closely as possible. We quantify the degree of mismatch in this mapping with the loss L. This is a scalar value that summarizes how poorly the model predicts the training outputs from their corresponding inputs for parameters phi."
+  },
+  {
+    "id": "page_0018-b005",
+    "page_key": 18,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "We can treat the loss as a function L[phi] of these parameters. When we train the model, we are seeking parameters phi-hat that minimize this loss function."
+  },
+  {
+    "id": "page_0018-b006",
+    "page_key": 18,
+    "order": 6,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "latex": "\\hat{\\phi}=\\underset{\\phi}{\\operatorname{argmin}}\\left[L[\\phi]\\right]. \\quad (2.3)"
+  },
+  {
+    "id": "page_0018-b007",
+    "page_key": 18,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "If the loss is small after this minimization, we have found model parameters that accurately predict the training outputs y from the training inputs x."
+  },
+  {
+    "id": "page_0018-b008",
+    "page_key": 18,
+    "order": 8,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "After training a model, we must now assess its performance; we run the model on separate test data to see how well it generalizes to examples that it did not observe during training. If the performance is adequate, then we are ready to deploy the model."
+  },
+  {
+    "id": "page_0018-b009",
+    "page_key": 18,
+    "order": 9,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "2.2 Linear regression example"
+  },
+  {
+    "id": "page_0018-b010",
+    "page_key": 18,
+    "order": 10,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Let's now make these ideas concrete with a simple example. We consider a model y=f[x,phi] that predicts a single output y from a single input x. Then we develop a loss function, and finally, we discuss model training."
+  },
+  {
+    "id": "page_0018-b011",
+    "page_key": 18,
+    "order": 11,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "2.2.1 1D linear regression model"
+  },
+  {
+    "id": "page_0018-b012",
+    "page_key": 18,
+    "order": 12,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "A 1D linear regression model describes the relationship between input x and output y as a straight line:"
+  },
+  {
+    "id": "page_0018-b013",
+    "page_key": 18,
+    "order": 13,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "latex": "\\begin{aligned}y\\quad&=\\quad f[x,\\phi]\\\\&=\\quad \\phi_0+\\phi_1x.\\end{aligned} \\quad (2.4)"
+  },
+  {
+    "id": "page_0018-b014",
+    "page_key": 18,
+    "order": 14,
+    "type": "review_note",
+    "source": "codex-fusion",
+    "confidence": "high",
+    "text": "DeepSeek omitted the displayed Equation 2.3 in Markdown; the equation was checked against the local PPStructureV3 formula evidence and transcribed as LaTeX."
+  }
+]

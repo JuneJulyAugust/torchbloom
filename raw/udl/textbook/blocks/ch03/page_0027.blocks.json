@@ -1,0 +1,83 @@
+[
+  {
+    "id": "page_0027-b001",
+    "page_key": 27,
+    "order": 1,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}h_1 &= a[\\theta_{10}+\\theta_{11}x]\\\\ h_2 &= a[\\theta_{20}+\\theta_{21}x]\\\\ h_3 &= a[\\theta_{30}+\\theta_{31}x]\\end{aligned} \\tag{3.3}"
+  },
+  {
+    "id": "page_0027-b002",
+    "page_key": 27,
+    "order": 2,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "h1, h2, and h3 are hidden units; the output combines them with a linear function."
+  },
+  {
+    "id": "page_0027-b003",
+    "page_key": 27,
+    "order": 3,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "y=\\phi_0+\\phi_1h_1+\\phi_2h_2+\\phi_3h_3. \\tag{3.4}"
+  },
+  {
+    "id": "page_0027-b004",
+    "page_key": 27,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Explains how hidden-unit lines are clipped, weighted, summed, and shifted."
+  },
+  {
+    "id": "page_0027-b005",
+    "page_key": 27,
+    "order": 5,
+    "type": "paragraph",
+    "source": "paddle",
+    "confidence": "high",
+    "text": "Each linear region corresponds to an activation pattern; the shaded-region slope is theta11 phi1 plus theta31 phi3."
+  },
+  {
+    "id": "page_0027-b006",
+    "page_key": 27,
+    "order": 6,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Three hidden units can create four regions, with only three independent slopes."
+  },
+  {
+    "id": "page_0027-b007",
+    "page_key": 27,
+    "order": 7,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "3.1.2 Depicting neural networks"
+  },
+  {
+    "id": "page_0027-b008",
+    "page_key": 27,
+    "order": 8,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Describes the network diagram and why intercept parameters are often omitted."
+  },
+  {
+    "id": "page_0027-b009",
+    "page_key": 27,
+    "order": 9,
+    "type": "paragraph",
+    "source": "deepseek",
+    "confidence": "medium",
+    "text": "Footnote clarifying the book convention for linear and nonlinear functions."
+  }
+]

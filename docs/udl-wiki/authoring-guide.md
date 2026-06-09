@@ -2,7 +2,7 @@
 
 ## Authoring Loop
 
-1. Read the relevant raw OCR pages in `raw/udl/textbook/pages/`.
+1. Read the relevant fused OCR pages in `raw/udl/textbook/pages/`.
 2. Check answer availability in `raw/udl/answers/index.md`.
 3. Write original TorchBloom explanations in `wiki/udl/`.
 4. Add source anchors for every UDL-specific claim.
@@ -50,4 +50,3 @@ Use `answer_policy` carefully:
 Do not paste full selected answers into public-style wiki pages. Keep answer
 booklet text in `raw/udl/answers/` and use concise private notes only when
 needed.
-

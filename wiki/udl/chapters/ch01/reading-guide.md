@@ -5,7 +5,7 @@ title: "Chapter 1 Reading Guide"
 chapter_scope: [ch01]
 source_anchors:
   - source: udlbook-v5.0.3
-    locator: raw/udl/textbook/pages/ch01-introduction/page_0015.md
+    locator: raw/udl/textbook/pages/ch01-introduction/page_0001.md
 confidence: directional
 prerequisites: []
 related: [ch01, functions-as-machines, vectors-as-lists-of-numbers]

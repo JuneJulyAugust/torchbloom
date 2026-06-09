@@ -5,7 +5,7 @@ title: "Equation 2.4: 1D Linear Regression"
 chapter_scope: [ch02]
 source_anchors:
   - source: udlbook-v5.0.3
-    locator: raw/udl/textbook/pages/ch02-supervised-learning/page_0032.md
+    locator: raw/udl/textbook/pages/ch02-supervised-learning/page_0018.md
 confidence: directional
 prerequisites: [functions-as-machines, coordinates-and-graphs]
 related: [linear-regression, supervised-learning]
@@ -39,4 +39,4 @@ one line from that family.
 
 ## Source Anchors
 
-- `raw/udl/textbook/pages/ch02-supervised-learning/page_0032.md`
+- `raw/udl/textbook/pages/ch02-supervised-learning/page_0018.md`

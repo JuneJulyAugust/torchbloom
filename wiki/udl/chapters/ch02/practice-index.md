@@ -5,7 +5,7 @@ title: "Chapter 2 Practice Index"
 chapter_scope: [ch02]
 source_anchors:
   - source: udlbook-v5.0.3
-    locator: raw/udl/textbook/pages/ch02-supervised-learning/page_0038.md
+    locator: raw/udl/textbook/pages/ch02-supervised-learning/page_0024.md
   - source: udlbook-answer-booklet-students
     locator: raw/udl/answers/pages/page_0005.md
 confidence: directional
@@ -19,8 +19,8 @@ learning_objectives:
 
 | Card | Source Problem | Skill | Answer Policy | Source Anchor |
 | --- | --- | --- | --- | --- |
-| ch02-q01 | 2.1 | compute gradients of least-squares loss | review-needed | `raw/udl/textbook/pages/ch02-supervised-learning/page_0038.md` |
-| ch02-q02 | 2.2 | solve the closed-form linear-regression optimum | review-needed | `raw/udl/textbook/pages/ch02-supervised-learning/page_0038.md` |
+| ch02-q01 | 2.1 | compute gradients of least-squares loss | review-needed | `raw/udl/textbook/pages/ch02-supervised-learning/page_0024.md` |
+| ch02-q02 | 2.2 | solve the closed-form linear-regression optimum | review-needed | `raw/udl/textbook/pages/ch02-supervised-learning/page_0024.md` |
 | ch02-q03 | 2.3 | compare discriminative and generative regression | selected-answer | `raw/udl/answers/pages/page_0005.md` |
 
 ## Suggested Order

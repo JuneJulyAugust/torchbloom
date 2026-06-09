@@ -1,0 +1,75 @@
+[
+  {
+    "id": "page_0035-b001",
+    "page_key": 35,
+    "order": 1,
+    "type": "figure",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0035_fig_3.jpg",
+    "alt_text": "Neural network with three inputs, three hidden units, and two outputs."
+  },
+  {
+    "id": "page_0035-b002",
+    "page_key": 35,
+    "order": 2,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Figure 3.11 caption for a three-input, two-output network with twenty parameters."
+  },
+  {
+    "id": "page_0035-b003",
+    "page_key": 35,
+    "order": 3,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "y_j=\\phi_{j0}+\\sum_{d=1}^{D}\\phi_{jd}h_d. \\tag{3.12}"
+  },
+  {
+    "id": "page_0035-b004",
+    "page_key": 35,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Defines nonlinear activation function and parameter set."
+  },
+  {
+    "id": "page_0035-b005",
+    "page_key": 35,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Explains why activation must be nonlinear and how ReLU partitions input space into convex polytopes."
+  },
+  {
+    "id": "page_0035-b006",
+    "page_key": 35,
+    "order": 6,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "3.5 Terminology"
+  },
+  {
+    "id": "page_0035-b007",
+    "page_key": 35,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Introduces layers, hidden units/neurons, pre-activations, and activations."
+  },
+  {
+    "id": "page_0035-b008",
+    "page_key": 35,
+    "order": 8,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Defines MLP, shallow networks, deep networks, feed-forward networks, and fully connected networks."
+  }
+]

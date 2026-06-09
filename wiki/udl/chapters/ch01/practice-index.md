@@ -5,7 +5,7 @@ title: "Chapter 1 Practice Index"
 chapter_scope: [ch01]
 source_anchors:
   - source: udlbook-v5.0.3
-    locator: raw/udl/textbook/pages/ch01-introduction/page_0030.md
+    locator: raw/udl/textbook/pages/ch01-introduction/page_0016.md
   - source: udlbook-answer-booklet-students
     locator: raw/udl/answers/index.md
 confidence: directional

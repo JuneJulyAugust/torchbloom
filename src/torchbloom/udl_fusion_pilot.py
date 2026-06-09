@@ -158,6 +158,14 @@ def blocks_json_path(output_dir: Path, spec: PageSpec) -> Path:
     return output_dir / "blocks" / spec.chapter.short_slug / f"{spec.key}.blocks.json"
 
 
+def published_markdown_path(dest_root: Path, spec: PageSpec) -> Path:
+    return dest_root / "pages" / spec.chapter.slug / f"{spec.key}.md"
+
+
+def published_blocks_path(dest_root: Path, spec: PageSpec) -> Path:
+    return dest_root / "blocks" / spec.chapter.short_slug / f"{spec.key}.blocks.json"
+
+
 def _copy_file(src: Path, dest: Path) -> None:
     if not src.exists():
         raise FileNotFoundError(src)
@@ -672,6 +680,10 @@ def _resolve_markdown_link(base: Path, link: str) -> Path:
     return base / path
 
 
+def _relative_to(path: Path, root: Path) -> Path:
+    return path.resolve().relative_to(root.resolve())
+
+
 def _manifest_path(output_dir: Path, spec: PageSpec) -> Path:
     return output_dir / "inputs" / spec.source_key / "manifest.json"
 
@@ -861,18 +873,16 @@ def _validate_blocks(output_dir: Path, spec: PageSpec, errors: list[str]) -> int
     return len(data)
 
 
-def validate(args: argparse.Namespace) -> int:
-    output_dir = Path(args.output_dir)
-    raw_root = Path(args.raw_root)
-    chapters = load_chapters(raw_root / "chapter_map.json")
-    specs = select_pages(chapters, args.chapters, args.book_page_offset)
-
+def _validate_specs(output_dir: Path, specs: list[PageSpec]) -> tuple[list[str], int]:
     errors: list[str] = []
     block_count = 0
     for spec in specs:
         _validate_markdown(output_dir, spec, errors)
         block_count += _validate_blocks(output_dir, spec, errors)
+    return errors, block_count
 
+
+def _write_validation_report(output_dir: Path, specs: list[PageSpec], block_count: int, errors: list[str]) -> None:
     report = {
         "pages_expected": len(specs),
         "blocks_seen": block_count,
@@ -883,6 +893,16 @@ def validate(args: argparse.Namespace) -> int:
     reports_dir.mkdir(parents=True, exist_ok=True)
     (reports_dir / "validation.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
 
+
+def validate(args: argparse.Namespace) -> int:
+    output_dir = Path(args.output_dir)
+    raw_root = Path(args.raw_root)
+    chapters = load_chapters(raw_root / "chapter_map.json")
+    specs = select_pages(chapters, args.chapters, args.book_page_offset)
+
+    errors, block_count = _validate_specs(output_dir, specs)
+    _write_validation_report(output_dir, specs, block_count, errors)
+
     if errors:
         print(f"validation failed: {len(errors)} error(s)")
         for error in errors[:20]:
@@ -892,6 +912,214 @@ def validate(args: argparse.Namespace) -> int:
         return 1
 
     print(f"validation passed: {len(specs)} pages, {block_count} blocks")
+    return 0
+
+
+def _referenced_figure_sources(output_dir: Path, spec: PageSpec) -> list[Path]:
+    sources: set[Path] = set()
+    md_path = fused_markdown_path(output_dir, spec)
+    block_path = blocks_json_path(output_dir, spec)
+
+    text = md_path.read_text(encoding="utf-8")
+    for link in HTML_IMG_RE.findall(text):
+        resolved = _resolve_markdown_link(md_path.parent, link)
+        if resolved.exists():
+            sources.add(resolved.resolve())
+
+    blocks = json.loads(block_path.read_text(encoding="utf-8"))
+    for block in blocks:
+        if not isinstance(block, dict) or block.get("type") != "figure":
+            continue
+        image_path = block.get("image_path")
+        if not image_path:
+            continue
+        resolved = _resolve_output_path(output_dir, block_path.parent, str(image_path))
+        if resolved.exists():
+            sources.add(resolved.resolve())
+
+    return sorted(sources)
+
+
+def _remove_file(path: Path, cleaned: list[str]) -> None:
+    if path.exists() and path.is_file():
+        path.unlink()
+        cleaned.append(str(path))
+
+
+def _remove_empty_dir(path: Path) -> None:
+    try:
+        path.rmdir()
+    except OSError:
+        pass
+
+
+def _clean_legacy_for_spec(dest_root: Path, spec: PageSpec, cleaned: list[str]) -> None:
+    _remove_file(dest_root / "pages" / spec.chapter.slug / f"{spec.source_key}.md", cleaned)
+    _remove_empty_dir(dest_root / "pages" / spec.chapter.slug)
+
+    _remove_file(dest_root / "raw_ocr" / f"{spec.source_key}.txt", cleaned)
+    _remove_empty_dir(dest_root / "raw_ocr")
+
+    _remove_file(dest_root / "images" / f"{spec.source_key}.png", cleaned)
+    _remove_empty_dir(dest_root / "images")
+
+    figures_dir = dest_root / "figures"
+    for figure in sorted(figures_dir.glob(f"{spec.source_key}_fig_*")):
+        _remove_file(figure, cleaned)
+    _remove_empty_dir(figures_dir)
+
+
+def _write_publish_index(dest_root: Path, specs: list[PageSpec], copied_figures: list[str]) -> None:
+    chapters: dict[int, Chapter] = {}
+    for spec in specs:
+        chapters[spec.chapter.number] = spec.chapter
+
+    lines = [
+        "# UDL Textbook Fused Source Layer",
+        "",
+        "This directory stores validated private, source-derived UDL fused OCR pages.",
+        "Final Markdown filenames use printed book page numbers; each page keeps `pdf_page` provenance in frontmatter.",
+        "",
+        "## Published Scope",
+        "",
+    ]
+    for chapter in sorted(chapters.values(), key=lambda item: item.number):
+        chapter_specs = [spec for spec in specs if spec.chapter.number == chapter.number]
+        first = chapter_specs[0].key
+        last = chapter_specs[-1].key
+        lines.append(
+            f"- Chapter {chapter.number}: {chapter.title} "
+            f"(`pages/{chapter.slug}/{first}.md` through `{last}.md`)"
+        )
+
+    lines.extend(
+        [
+            "",
+            "## Assets",
+            "",
+            f"- Referenced figure files: {len(copied_figures)}",
+            "- Block sidecars: `blocks/chXX/page_XXXX.blocks.json`",
+            "",
+            "## Cleanup Policy",
+            "",
+            "Legacy DeepSeek-only raw text, old rendered page images, and old PDF-page-key Markdown are removed only for pages that have a validated fused replacement.",
+            "",
+        ]
+    )
+    (dest_root / "index.md").write_text("\n".join(lines), encoding="utf-8")
+
+
+def _write_publish_log(
+    dest_root: Path,
+    chapters_text: str,
+    specs: list[PageSpec],
+    block_count: int,
+    copied_pages: list[str],
+    copied_blocks: list[str],
+    copied_figures: list[str],
+    cleaned: list[str],
+) -> None:
+    lines = [
+        "# UDL Textbook Fusion Publish Log",
+        "",
+        "Latest publish was produced by `torchbloom-udl-fusion-pilot publish` after validation.",
+        "",
+        "## Summary",
+        "",
+        f"- Chapters: {chapters_text}",
+        f"- Pages validated: {len(specs)}",
+        f"- Blocks validated: {block_count}",
+        f"- Markdown pages copied: {len(copied_pages)}",
+        f"- Block sidecars copied: {len(copied_blocks)}",
+        f"- Referenced figures copied: {len(copied_figures)}",
+        f"- Legacy files cleaned: {len(cleaned)}",
+        "",
+        "## Copied Markdown",
+        "",
+    ]
+    lines.extend(f"- `{path}`" for path in copied_pages)
+    lines.extend(["", "## Copied Figures", ""])
+    lines.extend(f"- `{path}`" for path in copied_figures)
+    lines.extend(["", "## Cleaned Legacy Files", ""])
+    if cleaned:
+        lines.extend(f"- `{path}`" for path in cleaned)
+    else:
+        lines.append("- No legacy files were cleaned.")
+    lines.append("")
+    (dest_root / "log.md").write_text("\n".join(lines), encoding="utf-8")
+
+
+def publish(args: argparse.Namespace) -> int:
+    output_dir = Path(args.output_dir)
+    raw_root = Path(args.raw_root)
+    dest_root = Path(args.dest_root) if args.dest_root else raw_root
+    chapters = load_chapters(raw_root / "chapter_map.json")
+    specs = select_pages(chapters, args.chapters, args.book_page_offset)
+
+    errors, block_count = _validate_specs(output_dir, specs)
+    _write_validation_report(output_dir, specs, block_count, errors)
+    if errors:
+        print(f"publish stopped: validation failed with {len(errors)} error(s)")
+        for error in errors[:20]:
+            print(f"- {error}")
+        if len(errors) > 20:
+            print(f"- ... {len(errors) - 20} more")
+        return 1
+
+    staging_root = dest_root / ".publish-staging"
+    if staging_root.exists():
+        shutil.rmtree(staging_root)
+    staging_root.mkdir(parents=True)
+
+    copied_pages: list[str] = []
+    copied_blocks: list[str] = []
+    copied_figures: list[str] = []
+    cleaned: list[str] = []
+    figure_sources: set[Path] = set()
+
+    try:
+        for spec in specs:
+            page_dest = published_markdown_path(staging_root, spec)
+            block_dest = published_blocks_path(staging_root, spec)
+            _copy_file(fused_markdown_path(output_dir, spec), page_dest)
+            _copy_file(blocks_json_path(output_dir, spec), block_dest)
+            copied_pages.append(str(published_markdown_path(dest_root, spec)))
+            copied_blocks.append(str(published_blocks_path(dest_root, spec)))
+            figure_sources.update(_referenced_figure_sources(output_dir, spec))
+
+        for src in sorted(figure_sources):
+            rel = _relative_to(src, output_dir)
+            dest = staging_root / rel
+            _copy_file(src, dest)
+            copied_figures.append(str(dest_root / rel))
+
+        if args.clean_legacy:
+            for spec in specs:
+                _clean_legacy_for_spec(dest_root, spec, cleaned)
+
+        shutil.copytree(staging_root, dest_root, dirs_exist_ok=True)
+    finally:
+        if staging_root.exists():
+            shutil.rmtree(staging_root)
+
+    _write_publish_index(dest_root, specs, copied_figures)
+    _write_publish_log(
+        dest_root,
+        args.chapters,
+        specs,
+        block_count,
+        copied_pages,
+        copied_blocks,
+        copied_figures,
+        cleaned,
+    )
+    print(
+        "published "
+        f"{len(copied_pages)} pages, {len(copied_blocks)} block sidecars, "
+        f"{len(copied_figures)} figures to {dest_root}"
+    )
+    if args.clean_legacy:
+        print(f"cleaned {len(cleaned)} legacy file(s)")
     return 0
 
 
@@ -936,6 +1164,15 @@ def build_parser() -> argparse.ArgumentParser:
     validate_parser.add_argument("--output-dir", default=str(DEFAULT_OUTPUT_DIR))
     validate_parser.add_argument("--book-page-offset", type=int, default=DEFAULT_BOOK_PAGE_OFFSET)
     validate_parser.set_defaults(func=validate)
+
+    publish_parser = subparsers.add_parser("publish", help="publish validated fused outputs into raw/udl/textbook")
+    publish_parser.add_argument("--chapters", default="1,2,3")
+    publish_parser.add_argument("--raw-root", default=str(DEFAULT_RAW_ROOT))
+    publish_parser.add_argument("--output-dir", default=str(DEFAULT_OUTPUT_DIR))
+    publish_parser.add_argument("--dest-root", default=None)
+    publish_parser.add_argument("--book-page-offset", type=int, default=DEFAULT_BOOK_PAGE_OFFSET)
+    publish_parser.add_argument("--clean-legacy", action="store_true")
+    publish_parser.set_defaults(func=publish)
 
     return parser
 

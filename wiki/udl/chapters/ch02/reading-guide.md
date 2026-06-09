@@ -5,7 +5,7 @@ title: "Chapter 2 Reading Guide"
 chapter_scope: [ch02]
 source_anchors:
   - source: udlbook-v5.0.3
-    locator: raw/udl/textbook/pages/ch02-supervised-learning/page_0031.md
+    locator: raw/udl/textbook/pages/ch02-supervised-learning/page_0017.md
 confidence: directional
 prerequisites: [functions-as-machines, coordinates-and-graphs, slopes-and-gradients]
 related: [ch02-practice-index, supervised-learning, linear-regression, eq-2-5-least-squares-loss]

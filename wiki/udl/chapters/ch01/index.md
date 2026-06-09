@@ -5,7 +5,7 @@ title: "Chapter 1: Introduction"
 chapter_scope: [ch01]
 source_anchors:
   - source: udlbook-v5.0.3
-    locator: raw/udl/textbook/pages/ch01-introduction/page_0015.md
+    locator: raw/udl/textbook/pages/ch01-introduction/page_0001.md
   - source: udlbook-answer-booklet-students
     locator: raw/udl/answers/index.md
 confidence: directional
@@ -24,7 +24,7 @@ need functions, parameters, data, and optimization.
 
 ## Pack Status
 
-- Raw OCR pages: `raw/udl/textbook/pages/ch01-introduction/page_0015.md` through `page_0030.md`.
+- Fused OCR pages: `raw/udl/textbook/pages/ch01-introduction/page_0001.md` through `page_0016.md`.
 - Selected answers: no Chapter 1 section in the student answer booklet.
 - Reading guide: [reading-guide.md](reading-guide.md).
 - Practice index: [practice-index.md](practice-index.md).

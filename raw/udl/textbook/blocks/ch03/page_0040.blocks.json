@@ -1,0 +1,137 @@
+[
+  {
+    "id": "page_0040-b001",
+    "page_key": 40,
+    "order": 1,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 3.6 scaling theta10/theta11 and phi1 by alpha."
+  },
+  {
+    "id": "page_0040-b002",
+    "page_key": 40,
+    "order": 2,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 3.7 uniqueness of least-squares minimum."
+  },
+  {
+    "id": "page_0040-b003",
+    "page_key": 40,
+    "order": 3,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 3.8 ReLU replacements with Heaviside, tanh, and rect."
+  },
+  {
+    "id": "page_0040-b004",
+    "page_key": 40,
+    "order": 4,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\operatorname{heaviside}[z]=\\begin{cases}0 & z<0\\\\1 & z\\geq0\\end{cases}\\qquad\\operatorname{rect}[z]=\\begin{cases}0 & z<0\\\\1 & 0\\leq z\\leq1\\\\0 & z>1\\end{cases}. \\tag{3.15}"
+  },
+  {
+    "id": "page_0040-b005",
+    "page_key": 40,
+    "order": 5,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 3.9 slope relation among linear regions."
+  },
+  {
+    "id": "page_0040-b006",
+    "page_key": 40,
+    "order": 6,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 3.10 fewer than four linear regions."
+  },
+  {
+    "id": "page_0040-b007",
+    "page_key": 40,
+    "order": 7,
+    "type": "exercise",
+    "source": "codex-fusion",
+    "confidence": "high",
+    "text": "Problem 3.11 parameters in figure 3.6."
+  },
+  {
+    "id": "page_0040-b008",
+    "page_key": 40,
+    "order": 8,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 3.12 parameters in figure 3.7."
+  },
+  {
+    "id": "page_0040-b009",
+    "page_key": 40,
+    "order": 9,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 3.13 activation pattern for seven regions in figure 3.8j."
+  },
+  {
+    "id": "page_0040-b010",
+    "page_key": 40,
+    "order": 10,
+    "type": "exercise",
+    "source": "paddle",
+    "confidence": "high",
+    "text": "Problem 3.14 equations for figure 3.11 network."
+  },
+  {
+    "id": "page_0040-b011",
+    "page_key": 40,
+    "order": 11,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 3.15 maximum 3D linear regions for figure 3.11."
+  },
+  {
+    "id": "page_0040-b012",
+    "page_key": 40,
+    "order": 12,
+    "type": "exercise",
+    "source": "paddle",
+    "confidence": "high",
+    "text": "Problem 3.16 equations for two inputs, four hidden units, and three outputs."
+  },
+  {
+    "id": "page_0040-b013",
+    "page_key": 40,
+    "order": 13,
+    "type": "exercise",
+    "source": "paddle",
+    "confidence": "high",
+    "text": "Problem 3.17 parameter count in terms of D_i, D, and D_o."
+  },
+  {
+    "id": "page_0040-b014",
+    "page_key": 40,
+    "order": 14,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Problem 3.18 Zaslavsky region count for D=3 and D=5."
+  },
+  {
+    "id": "page_0040-b015",
+    "page_key": 40,
+    "order": 15,
+    "type": "review_note",
+    "source": "codex-fusion",
+    "confidence": "medium",
+    "text": "Late problem statements corrected from Paddle and local page image."
+  }
+]

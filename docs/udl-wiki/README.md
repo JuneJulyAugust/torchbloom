@@ -12,7 +12,7 @@ bridges, equation pages, practice cards, and notebook guidance.
 - Chapters: 1, 2, and 3.
 - Source PDF: `raw/udl/source/UnderstandingDeepLearning_02_09_26_C.pdf`.
 - Answer booklet: `raw/udl/source/UDL_Answer_Booklet_Students.pdf`.
-- OCR output: `raw/udl/textbook/`.
+- Fused textbook source layer: `raw/udl/textbook/`.
 - Answer extraction: `raw/udl/answers/`.
 - Authored wiki: `wiki/udl/`.
 
@@ -22,6 +22,6 @@ bridges, equation pages, practice cards, and notebook guidance.
 - `docs/udl-wiki/` stores workflow and policy.
 - `wiki/udl/` stores original TorchBloom learning pages.
 
-Do not hand-edit raw OCR or answer pages. Regenerate raw artifacts through the
-pipeline, then update authored wiki pages with reviewed source anchors.
-
+Do not hand-edit fused textbook pages or answer pages. Regenerate or publish
+source-derived artifacts through the pipeline, then update authored wiki pages
+with reviewed source anchors.

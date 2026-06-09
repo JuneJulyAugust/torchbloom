@@ -7,7 +7,7 @@ source_anchors:
   - source: udl-official-site
     locator: https://udlbook.github.io/udlbook/
   - source: udlbook-v5.0.3
-    locator: raw/udl/textbook/pages/ch02-supervised-learning/page_0036.md
+    locator: raw/udl/textbook/pages/ch02-supervised-learning/page_0022.md
 confidence: directional
 prerequisites: [linear-regression, eq-2-5-least-squares-loss]
 related: [ch02-reading-guide, ch02-practice-index]
@@ -42,4 +42,4 @@ more sense when the loss equation is already familiar.
 ## Source Anchors
 
 - Official UDL site notebook list: `https://udlbook.github.io/udlbook/`
-- Textbook summary: `raw/udl/textbook/pages/ch02-supervised-learning/page_0036.md`
+- Textbook summary: `raw/udl/textbook/pages/ch02-supervised-learning/page_0022.md`

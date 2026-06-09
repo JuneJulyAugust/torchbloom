@@ -5,7 +5,7 @@ title: "Chapter 3: Shallow Neural Networks"
 chapter_scope: [ch03]
 source_anchors:
   - source: udlbook-v5.0.3
-    locator: raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0039.md
+    locator: raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0025.md
   - source: udlbook-answer-booklet-students
     locator: raw/udl/answers/pages/page_0007.md
 confidence: directional
@@ -24,7 +24,7 @@ combine into more flexible functions.
 
 ## Pack Status
 
-- Raw OCR pages: `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0039.md` through `page_0054.md`.
+- Fused OCR pages: `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0025.md` through `page_0040.md`.
 - Selected answers: booklet pages 7-12.
 - Reading guide: [reading-guide.md](reading-guide.md).
 - Practice index: [practice-index.md](practice-index.md).

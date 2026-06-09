@@ -5,9 +5,9 @@ title: "Equations 3.11-3.12: General Shallow Network"
 chapter_scope: [ch03]
 source_anchors:
   - source: udlbook-v5.0.3
-    locator: raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0047.md
+    locator: raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0033.md
   - source: udlbook-v5.0.3
-    locator: raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0049.md
+    locator: raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0035.md
 confidence: directional
 prerequisites: [vectors-as-lists-of-numbers, hidden-units, relu-activation]
 related: [shallow-neural-networks, linear-regions]
@@ -49,5 +49,5 @@ layer combines all hidden-unit activations into each prediction.
 
 ## Source Anchors
 
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0047.md`
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0049.md`
+- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0033.md`
+- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0035.md`

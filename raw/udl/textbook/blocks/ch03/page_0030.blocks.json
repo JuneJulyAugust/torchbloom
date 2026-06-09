@@ -1,0 +1,75 @@
+[
+  {
+    "id": "page_0030-b001",
+    "page_key": 30,
+    "order": 1,
+    "type": "figure",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0030_fig_1.jpg",
+    "alt_text": "Piecewise linear approximations of a one-dimensional function."
+  },
+  {
+    "id": "page_0030-b002",
+    "page_key": 30,
+    "order": 2,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Figure 3.5 caption describing approximation by increasingly many linear regions."
+  },
+  {
+    "id": "page_0030-b003",
+    "page_key": 30,
+    "order": 3,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "3.3 Multivariate inputs and outputs"
+  },
+  {
+    "id": "page_0030-b004",
+    "page_key": 30,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Generalizes from scalar input and output to multivariate inputs and outputs."
+  },
+  {
+    "id": "page_0030-b005",
+    "page_key": 30,
+    "order": 5,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "3.3.1 Visualizing multivariate outputs"
+  },
+  {
+    "id": "page_0030-b006",
+    "page_key": 30,
+    "order": 6,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Use a different linear function of the hidden units for each output."
+  },
+  {
+    "id": "page_0030-b007",
+    "page_key": 30,
+    "order": 7,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}h_1 &= a[\\theta_{10}+\\theta_{11}x]\\\\ h_2 &= a[\\theta_{20}+\\theta_{21}x]\\\\ h_3 &= a[\\theta_{30}+\\theta_{31}x]\\\\ h_4 &= a[\\theta_{40}+\\theta_{41}x]\\end{aligned} \\tag{3.7}"
+  },
+  {
+    "id": "page_0030-b008",
+    "page_key": 30,
+    "order": 8,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "The page ends with the transition to equation 3.8."
+  }
+]

@@ -1,3 +1,5 @@
+![TorchBloom AI title banner](assets/brand/torchbloom-title-banner.svg)
+
 # TorchBloom AI 燃灯智芽
 
 **A mastery-based AI learning path from elementary math to real machine learning, deep learning, and AI Olympiad readiness.**

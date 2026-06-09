@@ -5,7 +5,7 @@ title: Linear Regression
 chapter_scope: [ch02]
 source_anchors:
   - source: udlbook-v5.0.3
-    locator: raw/udl/textbook/pages/ch02-supervised-learning/page_0032.md
+    locator: raw/udl/textbook/pages/ch02-supervised-learning/page_0018.md
 confidence: directional
 prerequisites: [coordinates-and-graphs, functions-as-machines]
 related: [eq-2-5-least-squares-loss, supervised-learning]
@@ -39,5 +39,5 @@ intercept as learnable parameters rather than numbers given in advance.
 
 ## Source Anchors
 
-- `raw/udl/textbook/pages/ch02-supervised-learning/page_0032.md`
-- `raw/udl/textbook/pages/ch02-supervised-learning/page_0033.md`
+- `raw/udl/textbook/pages/ch02-supervised-learning/page_0018.md`
+- `raw/udl/textbook/pages/ch02-supervised-learning/page_0019.md`

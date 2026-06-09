@@ -5,7 +5,7 @@ title: Vectors As Lists Of Numbers
 chapter_scope: [ch01, ch02, ch03]
 source_anchors:
   - source: udlbook-v5.0.3
-    locator: raw/udl/textbook/pages/ch02-supervised-learning/page_0031.md
+    locator: raw/udl/textbook/pages/ch02-supervised-learning/page_0017.md
 confidence: directional
 prerequisites: []
 related: [supervised-learning, shallow-neural-networks]
@@ -34,6 +34,6 @@ if the same two numbers appear.
 
 ## Source Anchors
 
-- `raw/udl/textbook/pages/ch02-supervised-learning/page_0031.md`
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0044.md`
+- `raw/udl/textbook/pages/ch02-supervised-learning/page_0017.md`
+- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0030.md`
 

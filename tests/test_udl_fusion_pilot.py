@@ -244,6 +244,125 @@ figure_count: 1
     assert result == 0
 
 
+def test_publish_stops_when_validation_fails(tmp_path):
+    raw_root, _, output_dir = _write_fake_inputs(tmp_path)
+    fused_dir = output_dir / "fused" / "ch01"
+    fused_dir.mkdir(parents=True)
+    (fused_dir / "page_0001.md").write_text("not valid frontmatter\n", encoding="utf-8")
+
+    result = main(["publish", "--chapters", "1", "--raw-root", str(raw_root), "--output-dir", str(output_dir)])
+
+    assert result == 1
+    assert not (raw_root / "pages" / "ch01-introduction" / "page_0001.md").exists()
+
+
+def test_publish_copies_validated_outputs_and_cleans_legacy_scope(tmp_path):
+    raw_root, paddle_dir, output_dir = _write_fake_inputs(tmp_path)
+    assert (
+        main(
+            [
+                "prepare",
+                "--chapters",
+                "1",
+                "--raw-root",
+                str(raw_root),
+                "--paddle-pages-dir",
+                str(paddle_dir),
+                "--output-dir",
+                str(output_dir),
+            ]
+        )
+        == 0
+    )
+
+    legacy_page = raw_root / "pages" / "ch01-introduction" / "page_0015.md"
+    assert legacy_page.exists()
+    assert (raw_root / "raw_ocr" / "page_0015.txt").exists()
+    assert (raw_root / "images" / "page_0015.png").exists()
+    legacy_figure = raw_root / "figures" / "page_0015_fig_1.png"
+    legacy_figure.parent.mkdir(parents=True)
+    legacy_figure.write_bytes(b"legacy figure")
+
+    fused_dir = output_dir / "fused" / "ch01"
+    blocks_dir = output_dir / "blocks" / "ch01"
+    fused_dir.mkdir(parents=True)
+    blocks_dir.mkdir(parents=True)
+    (fused_dir / "page_0001.md").write_text(
+        """---
+source: UnderstandingDeepLearning_02_09_26_C.pdf
+page_key: 1
+book_page: 1
+pdf_page: 15
+chapter: "1 - Introduction"
+chapter_slug: ch01-introduction
+ocr_sources:
+  - deepseek-ocr-2
+  - ppstructurev3
+fusion_status: fused
+confidence: medium
+figure_count: 1
+---
+
+## Introduction
+
+<p align="center">
+  <img src="../../figures/page_0001_fig_1.jpg" alt="Figure" />
+</p>
+""",
+        encoding="utf-8",
+    )
+    (blocks_dir / "page_0001.blocks.json").write_text(
+        json.dumps(
+            [
+                {
+                    "id": "page_0001-b001",
+                    "page_key": 1,
+                    "order": 1,
+                    "type": "heading",
+                    "text": "Introduction",
+                    "source": "deepseek+paddle",
+                    "confidence": "high",
+                },
+                {
+                    "id": "page_0001-b002",
+                    "page_key": 1,
+                    "order": 2,
+                    "type": "figure",
+                    "image_path": "figures/page_0001_fig_1.jpg",
+                    "source": "paddle",
+                    "confidence": "high",
+                },
+            ]
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+    result = main(
+        [
+            "publish",
+            "--chapters",
+            "1",
+            "--raw-root",
+            str(raw_root),
+            "--output-dir",
+            str(output_dir),
+            "--clean-legacy",
+        ]
+    )
+
+    assert result == 0
+    assert (raw_root / "pages" / "ch01-introduction" / "page_0001.md").exists()
+    assert not legacy_page.exists()
+    assert not (raw_root / "raw_ocr" / "page_0015.txt").exists()
+    assert not (raw_root / "images" / "page_0015.png").exists()
+    assert not legacy_figure.exists()
+    assert (raw_root / "blocks" / "ch01" / "page_0001.blocks.json").exists()
+    assert (raw_root / "figures" / "page_0001_fig_1.jpg").exists()
+    assert not (raw_root / "figures" / "page_0001_fig_2.jpg").exists()
+    assert "Markdown pages copied: 1" in (raw_root / "log.md").read_text(encoding="utf-8")
+
+
 def test_validate_reports_missing_figure_reference(tmp_path):
     raw_root, _, output_dir = _write_fake_inputs(tmp_path)
     fused_dir = output_dir / "fused" / "ch01"

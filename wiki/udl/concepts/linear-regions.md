@@ -5,7 +5,7 @@ title: Linear Regions
 chapter_scope: [ch03]
 source_anchors:
   - source: udlbook-v5.0.3
-    locator: raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0047.md
+    locator: raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0033.md
 confidence: directional
 prerequisites: [piecewise-linear-functions, hidden-units]
 related: [relu-activation, universal-approximation]
@@ -38,6 +38,6 @@ lines split the plane into polygonal regions.
 
 ## Source Anchors
 
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0047.md`
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0052.md`
+- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0033.md`
+- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0038.md`
 
