@@ -43,7 +43,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "latex": "\\begin{align*}\\hat{\\phi}&=\\quad\\underset{\\phi}{\\operatorname{argmin}}\\left[L[\\phi]\\right]\\\\&=\\quad\\underset{\\phi}{\\operatorname{argmin}}\\left[\\sum_{i=1}^{I}\\left(f[x_i,\\phi]-y_i\\right)^2\\right]\\\\&=\\quad\\underset{\\phi}{\\operatorname{argmin}}\\left[\\sum_{i=1}^{I}\\left(\\phi_0+\\phi_1x_i-y_i\\right)^2\\right].\\end{align*} \\quad (2.6)"
+    "latex": "\\begin{align*}\\hat{\\phi}&=\\quad\\underset{\\phi}{\\mathrm{argmin}}\\left[L[\\phi]\\right]\\\\&=\\quad\\underset{\\phi}{\\mathrm{argmin}}\\left[\\sum_{i=1}^{I}\\left(f[x_i,\\phi]-y_i\\right)^2\\right]\\\\&=\\quad\\underset{\\phi}{\\mathrm{argmin}}\\left[\\sum_{i=1}^{I}\\left(\\phi_0+\\phi_1x_i-y_i\\right)^2\\right].\\end{align*} \\quad (2.6)"
   },
   {
     "id": "page_0021-b006",

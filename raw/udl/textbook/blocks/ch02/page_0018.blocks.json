@@ -51,7 +51,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "latex": "\\hat{\\phi}=\\underset{\\phi}{\\operatorname{argmin}}\\left[L[\\phi]\\right]. \\quad (2.3)"
+    "latex": "\\hat{\\phi}=\\underset{\\phi}{\\mathrm{argmin}}\\left[L[\\phi]\\right]. \\quad (2.3)"
   },
   {
     "id": "page_0018-b007",

@@ -88,7 +88,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\operatorname{ReLU}[\\alpha\\cdot z]=\\alpha\\cdot\\operatorname{ReLU}[z]. \\tag{3.14}"
+    "text": "\\mathrm{ReLU}[\\alpha\\cdot z]=\\alpha\\cdot\\mathrm{ReLU}[z]. \\tag{3.14}"
   },
   {
     "id": "page_0039-b011",

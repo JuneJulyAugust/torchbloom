@@ -31,6 +31,8 @@ CENTERED_HTML_IMG_RE = re.compile(
     re.IGNORECASE | re.DOTALL,
 )
 DISPLAY_MATH_BRACKET_RE = re.compile(r"(?m)^\\\[$|^\\\]$")
+INLINE_MATH_PAREN_RE = re.compile(r"\\\(|\\\)")
+GITHUB_BLOCKED_MATH_MACRO_RE = re.compile(r"\\operatorname\b")
 FIGURE_CAPTION_START_RE = re.compile(r"(?m)^Figure\s+\d+\.\d+\b")
 FIGURE_CAPTION_BLOCK_RE = re.compile(r"^Figure\s+\d+\.\d+\b", re.DOTALL)
 CENTERED_FIGURE_CAPTION_RE = re.compile(
@@ -353,6 +355,8 @@ Use these to check transcription, especially equations, but do not include them 
 7. Do not include review-note text in final Markdown frontmatter or body.
 8. Center figure caption text and bold the `Figure X.Y` label.
 9. Use GitHub-compatible display math delimiters: `$$` on a line before and after display equations. Do not use `\\[` and `\\]` for display math.
+10. Use GitHub-compatible inline math delimiters: `$...$`. Do not use `\\(...\\)` inline math.
+11. Avoid GitHub-blocked math macros. Use `\\mathrm{{ReLU}}`, `\\mathrm{{argmin}}`, or `\\mathrm{{HardSwish}}` instead of `\\operatorname{{...}}`.
 
 ## Required Markdown Frontmatter
 
@@ -770,6 +774,10 @@ def _validate_markdown(output_dir: Path, spec: PageSpec, errors: list[str]) -> d
         errors.append(f"{md_path}: remove review-note text from final Markdown body")
     if DISPLAY_MATH_BRACKET_RE.search(body):
         errors.append(f"{md_path}: use $$ display math delimiters for GitHub rendering, not \\[ or \\]")
+    if INLINE_MATH_PAREN_RE.search(body):
+        errors.append(f"{md_path}: use $...$ inline math delimiters for GitHub rendering, not \\(...\\)")
+    if GITHUB_BLOCKED_MATH_MACRO_RE.search(body):
+        errors.append(f"{md_path}: replace GitHub-blocked math macro \\operatorname with \\mathrm or plain LaTeX")
     if frontmatter.get("page_key") != spec.book_page:
         errors.append(f"{md_path}: page_key should be book page {spec.book_page}")
     if frontmatter.get("book_page") != spec.book_page:
@@ -848,6 +856,12 @@ def _validate_blocks(output_dir: Path, spec: PageSpec, errors: list[str]) -> int
         block_type = block.get("type")
         if block_type not in SUPPORTED_BLOCK_TYPES:
             errors.append(f"{block_path}: block {idx} unsupported type {block_type!r}")
+        for key in ("text", "latex", "caption"):
+            value = block.get(key)
+            if isinstance(value, str) and GITHUB_BLOCKED_MATH_MACRO_RE.search(value):
+                errors.append(
+                    f"{block_path}: block {idx} field {key!r} uses GitHub-blocked math macro \\operatorname"
+                )
         if block_type == "equation" and block.get("image_path"):
             errors.append(f"{block_path}: equation block {idx} must use LaTeX, not image_path")
         if block_type == "figure":

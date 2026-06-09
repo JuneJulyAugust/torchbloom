@@ -86,7 +86,13 @@ Each fused page has YAML frontmatter:
 
 The body should preserve normal reading order, section headings, equations in LaTeX when available, figure references, and captions. Review notes are useful during fusion, but they must not remain in final Markdown frontmatter or body text.
 
-Display equations must use GitHub-compatible `$$` delimiters rather than `\[` and `\]`. GitHub renders `$$` math blocks in Markdown files, while the bracket delimiters may render in local previews but appear as plain text on GitHub.
+Markdown math must use GitHub-compatible syntax:
+
+- Display equations use `$$` delimiters rather than `\[` and `\]`.
+- Inline equations use `$...$` rather than `\(...\)`.
+- Named functions use GitHub-accepted forms such as `\mathrm{ReLU}` and `\mathrm{argmin}` rather than `\operatorname{...}`.
+
+GitHub renders `$$` math blocks and `$...$` inline math in Markdown files, while the bracket and parenthesis delimiters may render in local previews but appear as plain text on GitHub. GitHub's math sanitizer may reject some LaTeX macros, including `\operatorname`.
 
 ### Blocks JSON
 
@@ -144,7 +150,7 @@ When PPStructureV3 misses a figure or detects only part of a multi-panel figure,
 10. Keep uncertainty out of final Markdown; use reports or JSON sidecars for audit notes.
 11. Use printed book page numbers for fused Markdown, block JSON, prompt, and final figure filenames. Keep PDF page numbers in metadata and source/evidence paths.
 12. Do not create public-facing curriculum pages from this layer yet; this remains source-derived OCR working output.
-13. Use `$$` for display math so equations render in both GitHub Markdown and local previews.
+13. Use GitHub-compatible math: `$$` for display math, `$...$` for inline math, and `\mathrm{...}` for named functions instead of `\operatorname{...}`.
 
 ## Subagent Split
 

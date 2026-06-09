@@ -89,5 +89,7 @@
 
 - [x] Redesign brand SVGs to remove the dotted icon arc and avoid decorative overlap with banner text.
 - [x] Convert published display equations from `\[` and `\]` to `$$`.
-- [x] Add validation that rejects bracket display math in fused Markdown.
+- [x] Convert published inline equations from `\(...\)` to `$...$`.
+- [x] Replace GitHub-blocked `\operatorname{...}` math macros with `\mathrm{...}`.
+- [x] Add validation that rejects bracket display math, parenthesis inline math, and blocked `\operatorname` macros in fused Markdown.
 - [x] Run focused tests and full validation.

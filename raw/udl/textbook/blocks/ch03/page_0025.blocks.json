@@ -69,7 +69,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "a[z]=\\operatorname{ReLU}[z]=\\begin{cases}0 & z<0\\\\ z & z\\geq 0\\end{cases}. \\tag{3.2}"
+    "text": "a[z]=\\mathrm{ReLU}[z]=\\begin{cases}0 & z<0\\\\ z & z\\geq 0\\end{cases}. \\tag{3.2}"
   },
   {
     "id": "page_0025-b009",
