@@ -20,10 +20,11 @@ TorchBloom starts with useful patterns from BioBloom, but tightens artifact orga
 
 ## TorchBloom Adjustments
 
-- Create only the folders needed for the current planning and LLM-wiki work. Do not pre-create every future app, package, or curriculum directory.
+- Create only the folders needed for current planning and source intake. Do not pre-create every future app, package, or curriculum directory.
 - Add `AGENTS.md` now so future agents share the same artifact boundaries.
-- Treat `raw/llm-wiki/manifests/` as the first stop for every source.
-- Keep synthesized pages under `wiki/llm-wiki/` with frontmatter, source anchors, confidence, and audit queues from day one.
+- Treat the relevant `raw/` intake area as the first stop for every source.
+- Use reader-facing book page numbers for final Markdown, JSON, and stable figure filenames; keep PDF page numbers as provenance metadata.
+- Keep synthesized pages in `wiki/` only after their frontmatter, source anchors, confidence, and review queue are clear.
 - Keep generated outputs in ignored `output/` until a human promotes them.
 - Keep Superpowers specs and plans under `docs/superpowers/` with dated names.
 - Prefer one source-grounded concept page model over parallel entity trees unless a real second use case appears.

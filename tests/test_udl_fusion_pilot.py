@@ -1,0 +1,754 @@
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+from torchbloom.udl_fusion_pilot import main
+
+
+def _write_fake_chapter_map(raw_root: Path) -> None:
+    raw_root.mkdir(parents=True)
+    (raw_root / "chapter_map.json").write_text(
+        json.dumps(
+            [
+                {
+                    "number": 1,
+                    "title": "Introduction",
+                    "slug": "ch01-introduction",
+                    "pdf_start": 15,
+                    "pdf_end": 15,
+                }
+            ]
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+
+def _write_fake_inputs(tmp_path: Path) -> tuple[Path, Path, Path]:
+    from PIL import Image
+
+    raw_root = tmp_path / "raw" / "udl" / "textbook"
+    paddle_dir = tmp_path / "output" / "comparison" / "paddle-pages"
+    output_dir = tmp_path / "output" / "fusion"
+    _write_fake_chapter_map(raw_root)
+
+    (raw_root / "pages" / "ch01-introduction").mkdir(parents=True)
+    (raw_root / "pages" / "ch01-introduction" / "page_0015.md").write_text(
+        "---\npage_key: 15\n---\n\n## DeepSeek page\n",
+        encoding="utf-8",
+    )
+    (raw_root / "raw_ocr").mkdir()
+    (raw_root / "raw_ocr" / "page_0015.txt").write_text("raw grounding", encoding="utf-8")
+    (raw_root / "images").mkdir()
+    Image.new("RGB", (2000, 2600), (255, 255, 255)).save(raw_root / "images" / "page_0015.png")
+
+    page_dir = paddle_dir / "page_0015"
+    (page_dir / "imgs").mkdir(parents=True)
+    (page_dir / "page_0015.combined.md").write_text("## Paddle page\n", encoding="utf-8")
+    (page_dir / "imgs" / "img_in_image_box_10_20_30_40.jpg").write_bytes(b"fake crop")
+    (page_dir / "imgs" / "img_in_formula_box_50_60_70_80.jpg").write_bytes(b"fake formula crop")
+    return raw_root, paddle_dir, output_dir
+
+
+def test_prepare_writes_manifest_prompt_and_stable_figure(tmp_path):
+    raw_root, paddle_dir, output_dir = _write_fake_inputs(tmp_path)
+
+    result = main(
+        [
+            "prepare",
+            "--chapters",
+            "1",
+            "--raw-root",
+            str(raw_root),
+            "--paddle-pages-dir",
+            str(paddle_dir),
+            "--output-dir",
+            str(output_dir),
+        ]
+    )
+
+    assert result == 0
+    manifest_path = output_dir / "inputs" / "page_0015" / "manifest.json"
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    assert manifest["page_key"] == 1
+    assert manifest["book_page"] == 1
+    assert manifest["pdf_page"] == 15
+    assert manifest["source_pdf_page_name"] == "page_0015"
+    assert manifest["page_name"] == "page_0001"
+    assert manifest["figures"][0]["kind"] == "image"
+    assert manifest["figures"][0]["bbox"] == [10, 20, 30, 40]
+    assert manifest["figures"][1]["kind"] == "formula"
+    assert (output_dir / "prompts" / "page_0001.md").exists()
+    prompt = (output_dir / "prompts" / "page_0001.md").read_text(encoding="utf-8")
+    assert "book_page: 1" in prompt
+    assert "pdf_page: 15" in prompt
+    assert "review_notes" not in prompt
+    assert "figure_count: 1" in prompt
+    assert "Evidence-Only Crops" in prompt
+    assert (output_dir / "figures" / "page_0001_fig_1.jpg").exists()
+    assert (output_dir / "figures" / "page_0001_fig_2.jpg").exists()
+    assert (output_dir / "inputs" / "page_0015" / "paddle_figures" / "img_in_image_box_10_20_30_40.jpg").exists()
+
+
+def test_refresh_prompts_rewrites_from_existing_manifest(tmp_path):
+    raw_root, paddle_dir, output_dir = _write_fake_inputs(tmp_path)
+    assert (
+        main(
+            [
+                "prepare",
+                "--chapters",
+                "1",
+                "--raw-root",
+                str(raw_root),
+                "--paddle-pages-dir",
+                str(paddle_dir),
+                "--output-dir",
+                str(output_dir),
+            ]
+        )
+        == 0
+    )
+    prompt_path = output_dir / "prompts" / "page_0001.md"
+    prompt_path.write_text("stale", encoding="utf-8")
+
+    result = main(["refresh-prompts", "--chapters", "1", "--raw-root", str(raw_root), "--output-dir", str(output_dir)])
+
+    assert result == 0
+    assert "Evidence-Only Crops" in prompt_path.read_text(encoding="utf-8")
+
+
+def test_recrop_figures_uses_layout_boxes_on_high_resolution_page(tmp_path):
+    from PIL import Image
+
+    raw_root, paddle_dir, output_dir = _write_fake_inputs(tmp_path)
+    assert (
+        main(
+            [
+                "prepare",
+                "--chapters",
+                "1",
+                "--raw-root",
+                str(raw_root),
+                "--paddle-pages-dir",
+                str(paddle_dir),
+                "--output-dir",
+                str(output_dir),
+            ]
+        )
+        == 0
+    )
+
+    result = main(
+        [
+            "recrop-figures",
+            "--chapters",
+            "1",
+            "--raw-root",
+            str(raw_root),
+            "--output-dir",
+            str(output_dir),
+            "--page-image-root",
+            str(raw_root / "images"),
+            "--layout-width",
+            "1000",
+            "--pad-layout",
+            "0",
+        ]
+    )
+
+    assert result == 0
+    with Image.open(output_dir / "figures" / "page_0001_fig_1.jpg") as image:
+        assert image.size == (40, 40)
+    report = json.loads((output_dir / "reports" / "high-res-figures.json").read_text(encoding="utf-8"))
+    assert report["crop_count"] == 2
+    assert report["entries"][0]["after_size"] == [40, 40]
+
+
+def test_validate_accepts_minimal_fused_page_and_blocks(tmp_path):
+    raw_root, paddle_dir, output_dir = _write_fake_inputs(tmp_path)
+    assert (
+        main(
+            [
+                "prepare",
+                "--chapters",
+                "1",
+                "--raw-root",
+                str(raw_root),
+                "--paddle-pages-dir",
+                str(paddle_dir),
+                "--output-dir",
+                str(output_dir),
+            ]
+        )
+        == 0
+    )
+
+    fused_dir = output_dir / "fused" / "ch01"
+    blocks_dir = output_dir / "blocks" / "ch01"
+    fused_dir.mkdir(parents=True)
+    blocks_dir.mkdir(parents=True)
+    (fused_dir / "page_0001.md").write_text(
+        """---
+source: UnderstandingDeepLearning_02_09_26_C.pdf
+page_key: 1
+book_page: 1
+pdf_page: 15
+chapter: "1 - Introduction"
+chapter_slug: ch01-introduction
+ocr_sources:
+  - deepseek-ocr-2
+  - ppstructurev3
+fusion_status: fused
+confidence: medium
+figure_count: 1
+---
+
+## Introduction
+
+<p align="center">
+  <img src="../../figures/page_0001_fig_1.jpg" alt="Figure" />
+</p>
+""",
+        encoding="utf-8",
+    )
+    (blocks_dir / "page_0001.blocks.json").write_text(
+        json.dumps(
+            [
+                {
+                    "id": "page_0001-b001",
+                    "page_key": 1,
+                    "order": 1,
+                    "type": "heading",
+                    "text": "Introduction",
+                    "source": "deepseek+paddle",
+                    "confidence": "high",
+                },
+                {
+                    "id": "page_0001-b002",
+                    "page_key": 1,
+                    "order": 2,
+                    "type": "figure",
+                    "image_path": "figures/page_0001_fig_1.jpg",
+                    "source": "paddle",
+                    "confidence": "high",
+                },
+            ]
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+    result = main(["validate", "--chapters", "1", "--raw-root", str(raw_root), "--output-dir", str(output_dir)])
+
+    assert result == 0
+
+
+def test_validate_reports_missing_figure_reference(tmp_path):
+    raw_root, _, output_dir = _write_fake_inputs(tmp_path)
+    fused_dir = output_dir / "fused" / "ch01"
+    blocks_dir = output_dir / "blocks" / "ch01"
+    fused_dir.mkdir(parents=True)
+    blocks_dir.mkdir(parents=True)
+    (fused_dir / "page_0001.md").write_text(
+        """---
+source: UnderstandingDeepLearning_02_09_26_C.pdf
+page_key: 1
+book_page: 1
+pdf_page: 15
+chapter: "1 - Introduction"
+chapter_slug: ch01-introduction
+ocr_sources:
+  - deepseek-ocr-2
+  - ppstructurev3
+fusion_status: fused
+confidence: medium
+figure_count: 1
+---
+
+<p align="center">
+  <img src="../../figures/missing.jpg" alt="Missing" />
+</p>
+""",
+        encoding="utf-8",
+    )
+    (blocks_dir / "page_0001.blocks.json").write_text(
+        json.dumps(
+            [
+                {
+                    "id": "page_0001-b001",
+                    "page_key": 1,
+                    "order": 1,
+                    "type": "figure",
+                    "image_path": "figures/missing.jpg",
+                    "source": "paddle",
+                    "confidence": "low",
+                }
+            ]
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+    result = main(["validate", "--chapters", "1", "--raw-root", str(raw_root), "--output-dir", str(output_dir)])
+
+    assert result == 1
+    validation = json.loads((output_dir / "reports" / "validation.json").read_text(encoding="utf-8"))
+    assert validation["error_count"] >= 1
+    assert any("does not exist" in error for error in validation["errors"])
+
+
+def test_validate_rejects_figure_captions_without_visual_images(tmp_path):
+    raw_root, _, output_dir = _write_fake_inputs(tmp_path)
+    fused_dir = output_dir / "fused" / "ch01"
+    blocks_dir = output_dir / "blocks" / "ch01"
+    fused_dir.mkdir(parents=True)
+    blocks_dir.mkdir(parents=True)
+    (fused_dir / "page_0001.md").write_text(
+        """---
+source: UnderstandingDeepLearning_02_09_26_C.pdf
+page_key: 1
+book_page: 1
+pdf_page: 15
+chapter: "1 - Introduction"
+chapter_slug: ch01-introduction
+ocr_sources:
+  - deepseek-ocr-2
+  - ppstructurev3
+fusion_status: fused
+confidence: medium
+figure_count: 0
+---
+
+Figure 1.1 A caption with no final visual image.
+""",
+        encoding="utf-8",
+    )
+    (blocks_dir / "page_0001.blocks.json").write_text(
+        json.dumps(
+            [
+                {
+                    "id": "page_0001-b001",
+                    "page_key": 1,
+                    "order": 1,
+                    "type": "caption",
+                    "source": "deepseek+paddle",
+                    "confidence": "low",
+                    "text": "Figure 1.1 A caption with no final visual image.",
+                }
+            ]
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+    result = main(["validate", "--chapters", "1", "--raw-root", str(raw_root), "--output-dir", str(output_dir)])
+
+    assert result == 1
+    validation = json.loads((output_dir / "reports" / "validation.json").read_text(encoding="utf-8"))
+    assert any("figure caption(s)" in error for error in validation["errors"])
+
+
+def test_validate_rejects_review_notes_in_final_markdown(tmp_path):
+    raw_root, _, output_dir = _write_fake_inputs(tmp_path)
+    fused_dir = output_dir / "fused" / "ch01"
+    blocks_dir = output_dir / "blocks" / "ch01"
+    fused_dir.mkdir(parents=True)
+    blocks_dir.mkdir(parents=True)
+    (fused_dir / "page_0001.md").write_text(
+        """---
+source: UnderstandingDeepLearning_02_09_26_C.pdf
+page_key: 1
+book_page: 1
+pdf_page: 15
+chapter: "1 - Introduction"
+chapter_slug: ch01-introduction
+ocr_sources:
+  - deepseek-ocr-2
+  - ppstructurev3
+fusion_status: fused
+confidence: medium
+figure_count: 0
+review_notes: []
+---
+
+> Review note: This should stay out of final Markdown.
+""",
+        encoding="utf-8",
+    )
+    (blocks_dir / "page_0001.blocks.json").write_text(
+        json.dumps(
+            [
+                {
+                    "id": "page_0001-b001",
+                    "page_key": 1,
+                    "order": 1,
+                    "type": "paragraph",
+                    "source": "deepseek+paddle",
+                    "confidence": "low",
+                    "text": "Placeholder.",
+                }
+            ]
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+    result = main(["validate", "--chapters", "1", "--raw-root", str(raw_root), "--output-dir", str(output_dir)])
+
+    assert result == 1
+    validation = json.loads((output_dir / "reports" / "validation.json").read_text(encoding="utf-8"))
+    assert any("review_notes" in error for error in validation["errors"])
+    assert any("review-note text" in error for error in validation["errors"])
+
+
+def test_validate_rejects_markdown_links_that_are_not_relative_to_fused_page(tmp_path):
+    raw_root, paddle_dir, output_dir = _write_fake_inputs(tmp_path)
+    assert (
+        main(
+            [
+                "prepare",
+                "--chapters",
+                "1",
+                "--raw-root",
+                str(raw_root),
+                "--paddle-pages-dir",
+                str(paddle_dir),
+                "--output-dir",
+                str(output_dir),
+            ]
+        )
+        == 0
+    )
+
+    fused_dir = output_dir / "fused" / "ch01"
+    blocks_dir = output_dir / "blocks" / "ch01"
+    fused_dir.mkdir(parents=True)
+    blocks_dir.mkdir(parents=True)
+    (fused_dir / "page_0001.md").write_text(
+        """---
+source: UnderstandingDeepLearning_02_09_26_C.pdf
+page_key: 1
+book_page: 1
+pdf_page: 15
+chapter: "1 - Introduction"
+chapter_slug: ch01-introduction
+ocr_sources:
+  - deepseek-ocr-2
+  - ppstructurev3
+fusion_status: fused
+confidence: medium
+figure_count: 1
+---
+
+<p align="center">
+  <img src="figures/page_0001_fig_1.jpg" alt="Figure" />
+</p>
+""",
+        encoding="utf-8",
+    )
+    (blocks_dir / "page_0001.blocks.json").write_text(
+        json.dumps(
+            [
+                {
+                    "id": "page_0001-b001",
+                    "page_key": 1,
+                    "order": 1,
+                    "type": "figure",
+                    "image_path": "figures/page_0001_fig_1.jpg",
+                    "source": "paddle",
+                    "confidence": "high",
+                }
+            ]
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+    result = main(["validate", "--chapters", "1", "--raw-root", str(raw_root), "--output-dir", str(output_dir)])
+
+    assert result == 1
+    validation = json.loads((output_dir / "reports" / "validation.json").read_text(encoding="utf-8"))
+    assert any("usually ../../figures/page_0001_fig_1.jpg" in error for error in validation["errors"])
+
+
+def test_validate_rejects_plain_markdown_figure_syntax(tmp_path):
+    raw_root, paddle_dir, output_dir = _write_fake_inputs(tmp_path)
+    assert (
+        main(
+            [
+                "prepare",
+                "--chapters",
+                "1",
+                "--raw-root",
+                str(raw_root),
+                "--paddle-pages-dir",
+                str(paddle_dir),
+                "--output-dir",
+                str(output_dir),
+            ]
+        )
+        == 0
+    )
+
+    fused_dir = output_dir / "fused" / "ch01"
+    blocks_dir = output_dir / "blocks" / "ch01"
+    fused_dir.mkdir(parents=True)
+    blocks_dir.mkdir(parents=True)
+    (fused_dir / "page_0001.md").write_text(
+        """---
+source: UnderstandingDeepLearning_02_09_26_C.pdf
+page_key: 1
+book_page: 1
+pdf_page: 15
+chapter: "1 - Introduction"
+chapter_slug: ch01-introduction
+ocr_sources:
+  - deepseek-ocr-2
+  - ppstructurev3
+fusion_status: fused
+confidence: medium
+figure_count: 1
+---
+
+![Figure](../../figures/page_0001_fig_1.jpg)
+""",
+        encoding="utf-8",
+    )
+    (blocks_dir / "page_0001.blocks.json").write_text(
+        json.dumps(
+            [
+                {
+                    "id": "page_0001-b001",
+                    "page_key": 1,
+                    "order": 1,
+                    "type": "figure",
+                    "image_path": "figures/page_0001_fig_1.jpg",
+                    "source": "paddle",
+                    "confidence": "high",
+                }
+            ]
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+    result = main(["validate", "--chapters", "1", "--raw-root", str(raw_root), "--output-dir", str(output_dir)])
+
+    assert result == 1
+    validation = json.loads((output_dir / "reports" / "validation.json").read_text(encoding="utf-8"))
+    assert any("centered HTML image block" in error for error in validation["errors"])
+
+
+def test_validate_rejects_uncentered_figure_caption_after_image(tmp_path):
+    raw_root, paddle_dir, output_dir = _write_fake_inputs(tmp_path)
+    assert (
+        main(
+            [
+                "prepare",
+                "--chapters",
+                "1",
+                "--raw-root",
+                str(raw_root),
+                "--paddle-pages-dir",
+                str(paddle_dir),
+                "--output-dir",
+                str(output_dir),
+            ]
+        )
+        == 0
+    )
+
+    fused_dir = output_dir / "fused" / "ch01"
+    blocks_dir = output_dir / "blocks" / "ch01"
+    fused_dir.mkdir(parents=True)
+    blocks_dir.mkdir(parents=True)
+    (fused_dir / "page_0001.md").write_text(
+        """---
+source: UnderstandingDeepLearning_02_09_26_C.pdf
+page_key: 1
+book_page: 1
+pdf_page: 15
+chapter: "1 - Introduction"
+chapter_slug: ch01-introduction
+ocr_sources:
+  - deepseek-ocr-2
+  - ppstructurev3
+fusion_status: fused
+confidence: medium
+figure_count: 1
+---
+
+<p align="center">
+  <img src="../../figures/page_0001_fig_1.jpg" alt="Figure" />
+</p>
+
+Figure 1.1 Plain caption text.
+""",
+        encoding="utf-8",
+    )
+    (blocks_dir / "page_0001.blocks.json").write_text(
+        json.dumps(
+            [
+                {
+                    "id": "page_0001-b001",
+                    "page_key": 1,
+                    "order": 1,
+                    "type": "figure",
+                    "image_path": "figures/page_0001_fig_1.jpg",
+                    "source": "paddle",
+                    "confidence": "high",
+                }
+            ]
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+    result = main(["validate", "--chapters", "1", "--raw-root", str(raw_root), "--output-dir", str(output_dir)])
+
+    assert result == 1
+    validation = json.loads((output_dir / "reports" / "validation.json").read_text(encoding="utf-8"))
+    assert any("centered and bold" in error for error in validation["errors"])
+
+
+def test_validate_rejects_uncentered_html_image(tmp_path):
+    raw_root, paddle_dir, output_dir = _write_fake_inputs(tmp_path)
+    assert (
+        main(
+            [
+                "prepare",
+                "--chapters",
+                "1",
+                "--raw-root",
+                str(raw_root),
+                "--paddle-pages-dir",
+                str(paddle_dir),
+                "--output-dir",
+                str(output_dir),
+            ]
+        )
+        == 0
+    )
+
+    fused_dir = output_dir / "fused" / "ch01"
+    blocks_dir = output_dir / "blocks" / "ch01"
+    fused_dir.mkdir(parents=True)
+    blocks_dir.mkdir(parents=True)
+    (fused_dir / "page_0001.md").write_text(
+        """---
+source: UnderstandingDeepLearning_02_09_26_C.pdf
+page_key: 1
+book_page: 1
+pdf_page: 15
+chapter: "1 - Introduction"
+chapter_slug: ch01-introduction
+ocr_sources:
+  - deepseek-ocr-2
+  - ppstructurev3
+fusion_status: fused
+confidence: medium
+figure_count: 1
+---
+
+<img src="../../figures/page_0001_fig_1.jpg" alt="Figure" />
+""",
+        encoding="utf-8",
+    )
+    (blocks_dir / "page_0001.blocks.json").write_text(
+        json.dumps(
+            [
+                {
+                    "id": "page_0001-b001",
+                    "page_key": 1,
+                    "order": 1,
+                    "type": "figure",
+                    "image_path": "figures/page_0001_fig_1.jpg",
+                    "source": "paddle",
+                    "confidence": "high",
+                }
+            ]
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+    result = main(["validate", "--chapters", "1", "--raw-root", str(raw_root), "--output-dir", str(output_dir)])
+
+    assert result == 1
+    validation = json.loads((output_dir / "reports" / "validation.json").read_text(encoding="utf-8"))
+    assert any("image is not centered" in error for error in validation["errors"])
+
+
+def test_validate_rejects_formula_crops_in_final_markdown_and_blocks(tmp_path):
+    raw_root, paddle_dir, output_dir = _write_fake_inputs(tmp_path)
+    assert (
+        main(
+            [
+                "prepare",
+                "--chapters",
+                "1",
+                "--raw-root",
+                str(raw_root),
+                "--paddle-pages-dir",
+                str(paddle_dir),
+                "--output-dir",
+                str(output_dir),
+            ]
+        )
+        == 0
+    )
+
+    fused_dir = output_dir / "fused" / "ch01"
+    blocks_dir = output_dir / "blocks" / "ch01"
+    fused_dir.mkdir(parents=True)
+    blocks_dir.mkdir(parents=True)
+    (fused_dir / "page_0001.md").write_text(
+        """---
+source: UnderstandingDeepLearning_02_09_26_C.pdf
+page_key: 1
+book_page: 1
+pdf_page: 15
+chapter: "1 - Introduction"
+chapter_slug: ch01-introduction
+ocr_sources:
+  - deepseek-ocr-2
+  - ppstructurev3
+fusion_status: fused
+confidence: medium
+figure_count: 1
+---
+
+\\[
+x = y
+\\]
+
+<p align="center">
+  <img src="../../figures/page_0001_fig_2.jpg" alt="Equation crop" />
+</p>
+""",
+        encoding="utf-8",
+    )
+    (blocks_dir / "page_0001.blocks.json").write_text(
+        json.dumps(
+            [
+                {
+                    "id": "page_0001-b001",
+                    "page_key": 1,
+                    "order": 1,
+                    "type": "figure",
+                    "image_path": "figures/page_0001_fig_2.jpg",
+                    "source": "paddle",
+                    "confidence": "low",
+                }
+            ]
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+    result = main(["validate", "--chapters", "1", "--raw-root", str(raw_root), "--output-dir", str(output_dir)])
+
+    assert result == 1
+    validation = json.loads((output_dir / "reports" / "validation.json").read_text(encoding="utf-8"))
+    assert any("nonvisual PPStructure crop" in error for error in validation["errors"])
