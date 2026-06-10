@@ -51,7 +51,7 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "paragraph",
-    "text": "Second, we set the machine learning model f[x, $\\phi $] to compute one or more of the parameters of this distribution. Here, we just compute the mean so $\\mu = f[x,"
+    "text": "Second, we set the machine learning model f[x, $\\phi $] to compute one or more of the parameters of this distribution. Here, we just compute the mean so $\\mu = f[\\mathbf{x},\\phi]$:"
   },
   {
     "id": "page_0061-b007",
@@ -60,7 +60,7 @@
     "source": "deepseek",
     "confidence": "medium",
     "type": "equation",
-    "latex": "\\phi]$:"
+    "latex": "\\begin{aligned}\n\\Pr\\left(y\\,|\\,\\mathbf{x},\\phi,\\sigma^2\\right)\n&=\\frac{1}{\\sqrt{2\\pi\\sigma^2}}\\exp\\left[-\\frac{\\left(y-f[\\mathbf{x},\\phi]\\right)^2}{2\\sigma^2}\\right].\n\\end{aligned} \\qquad (5.8)"
   },
   {
     "id": "page_0061-b008",
@@ -69,7 +69,7 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "paragraph",
-    "text": "\\begin{aligned}\nP r(y|\\mathbf{x},\\phi),\\sigma^{2})&=\\frac{1}{\\sqrt{2\\pi\\sigma^{2}}}\\exp\\left[-\\frac{(y-f[\\mathbf{x},\\phi])^{2}}{2\\sigma^{2}}\\right].\n\\end{aligned} \\qquad (5.8)"
+    "text": "We aim to find the parameters $\\phi $ that make the training data $\\lbrace x_{i}, y_{i} \\rbrace $ most probable under this distribution (figure 5.4). To accomplish this, we choose a loss function $ L[\\phi]$ based on the negative log-likelihood:"
   },
   {
     "id": "page_0061-b009",
@@ -78,7 +78,7 @@
     "source": "deepseek",
     "confidence": "medium",
     "type": "equation",
-    "latex": "We aim to find the parameters $\\phi $ that make the training data $\\lbrace x_{i}, y_{i} \\rbrace $ most probable under this distribution (figure 5.4). To accomplish this, we choose a loss function $ L[\\phi]$ based on the negative log-likelihood:"
+    "latex": "\\begin{aligned}\nL[\\phi]\n&= -\\sum_{i=1}^{I}\\log\\left[\\Pr\\left(y_i\\,|\\,\\mathbf{x}_i,\\phi,\\sigma^2\\right)\\right] \\\\\n&= -\\sum_{i=1}^{I}\\log\\left[\\frac{1}{\\sqrt{2\\pi\\sigma^2}}\\exp\\left[-\\frac{\\left(y_i-f[\\mathbf{x}_i,\\phi]\\right)^2}{2\\sigma^2}\\right]\\right].\n\\end{aligned} \\qquad (5.9)"
   },
   {
     "id": "page_0061-b010",
@@ -87,6 +87,6 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "paragraph",
-    "text": "\\begin{aligned}\nL[\\phi]\\ &= \\ -\\sum_{i=1}^{I}\\log\\left[\\Pr\\left(y_{i}|f[\\mathbf{x}_{i},\\phi],\\sigma^{2})\\right] \\\\\n&= \\ -\\sum_{i=1}^{I}\\log\\left[\\frac{1}{\\sqrt{2\\pi\\sigma^{2}}}\\exp\\left[-\\frac{(y_{i}-f[\\mathbf{x}_{i},\\phi])^{2}}{2\\sigma^{2}}\\right]\\right].\n\\end{aligned} \\qquad (5.9)$$When we train the model, we seek parameters $\\hat{\\phi}$ that minimize this loss."
+    "text": "When we train the model, we seek parameters $\\hat{\\phi}$ that minimize this loss."
   }
 ]

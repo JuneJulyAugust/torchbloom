@@ -6,7 +6,7 @@
     "source": "deepseek",
     "confidence": "medium",
     "type": "equation",
-    "latex": "\\begin{aligned}\nL[\\phi]\\quad&= \\quad-\\sum_{i=1}^{I}\\log\\left[\\mathrm{softmax}_{y_{i}}\\left[\\mathbf{f}[\\mathbf{x}_{i},\\phi]\\right]\\right] \\\\\n&=\\quad-\\sum_{i=1}^{I}\\left(\\mathbf{f}_{y_{i}}\\left[\\mathbf{x}_{i},\\phi\\right]-\\log\\left[\\sum_{k^{\\prime}=1}^{K}\\exp\\left[\\mathbf{f}_{k^{\\prime}}\\left[\\mathbf{x}_{i},\\phi\\right]\\right]\\right]\n\\end{aligned} \\qquad (5.24)"
+    "latex": "\\begin{aligned}\nL[\\phi]\n&= -\\sum_{i=1}^{I}\\log\\left[\\mathrm{softmax}_{y_i}\\left[\\mathbf{f}[\\mathbf{x}_i,\\phi]\\right]\\right] \\\\\n&= -\\sum_{i=1}^{I}\\left(\\mathbf{f}_{y_i}[\\mathbf{x}_i,\\phi]\n-\\log\\left[\\sum_{k'=1}^{K}\\exp\\left[\\mathbf{f}_{k'}[\\mathbf{x}_i,\\phi]\\right]\\right]\\right).\n\\end{aligned} \\qquad (5.24)"
   },
   {
     "id": "page_0069-b002",
@@ -60,7 +60,7 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "paragraph",
-    "text": "Often, we wish to make more than one prediction with the same model, so the target output y is a vector. For example, we might want to predict a molecule's melting and boiling point (a multivariate regression problem, figure 1.2b) or the object class at every point in an image (a multivariate classification problem, figure 1.4a). While it is possible to define multivariate probability distributions and use a neural network to model their parameters as a function of the input, it is more usual to treat each prediction as independent. Independence implies that we treat the probability $ Pr(\\mathbf{y}|\\mathbf{f}[\\mathbf{x},\\phi]) $ as a product of univariate terms for each element $ y_{d}\\iny $: (5.25) Appendix C.1.5 Independence"
+    "text": "Often, we wish to make more than one prediction with the same model, so the target output y is a vector. For example, we might want to predict a molecule's melting and boiling point (a multivariate regression problem, figure 1.2b) or the object class at every point in an image (a multivariate classification problem, figure 1.4a). While it is possible to define multivariate probability distributions and use a neural network to model their parameters as a function of the input, it is more usual to treat each prediction as independent. Independence implies that we treat the probability $\\Pr(\\mathbf{y}\\,|\\,\\mathbf{f}[\\mathbf{x},\\phi])$ as a product of univariate terms for each element $y_d \\in \\mathbf{y}$:"
   },
   {
     "id": "page_0069-b008",
@@ -69,7 +69,7 @@
     "source": "deepseek",
     "confidence": "medium",
     "type": "equation",
-    "latex": "\\begin{aligned}\n\\Pr\\left(\\mathbf{y}|\\mathbf{f}[\\mathbf{x},\\phi])&=\\prod_{d}\\Pr\\left(y_{d}|\\mathbf{f}_{d}[\\mathbf{x},\\phi])\n\\end{aligned}"
+    "latex": "\\Pr\\left(\\mathbf{y}\\,|\\,\\mathbf{f}[\\mathbf{x},\\phi]\\right)\n=\\prod_{d}\\Pr\\left(y_d\\,|\\,\\mathbf{f}_d[\\mathbf{x},\\phi]\\right).\n\\qquad (5.25)"
   },
   {
     "id": "page_0069-b009",

@@ -51,7 +51,7 @@
     "source": "deepseek",
     "confidence": "medium",
     "type": "equation",
-    "latex": "\\begin{aligned}\nL[\\boldsymbol{\\phi}]&=-\\sum_{i=1}^{I}\\log\\left[\\Pr\\left(\\mathbf{y}_{i}|\\mathbf{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}])\\right]=-\\sum_{i=1}^{I}\\sum_{d}\\log\\left[\\Pr\\left(y_{id}|\\mathbf{f}_{d}[\\mathbf{x}_{i},\\boldsymbol{\\phi}])\\right].\n\\end{aligned} \\qquad (5.26)"
+    "latex": "\\begin{aligned}\nL[\\boldsymbol{\\phi}]\n&=-\\sum_{i=1}^{I}\\log\\left[\\Pr\\left(\\mathbf{y}_i\\,|\\,\\mathbf{f}[\\mathbf{x}_i,\\boldsymbol{\\phi}]\\right)\\right] \\\\\n&=-\\sum_{i=1}^{I}\\sum_d\\log\\left[\\Pr\\left(y_{id}\\,|\\,\\mathbf{f}_d[\\mathbf{x}_i,\\boldsymbol{\\phi}]\\right)\\right].\n\\end{aligned} \\qquad (5.26)"
   },
   {
     "id": "page_0070-b007",

@@ -404,6 +404,8 @@ Validator changes added during the redo:
 
 - Reject nested display math wrappers such as `\begin{align}` inside `$$`.
 - Reject blank lines inside display math, which GitHub can split into an unrenderable expression.
+- Reject stray dollar signs inside display math, which indicate broken OCR/fusion fences.
+- Reject mismatched probability delimiters such as `\Pr\left(...|...)\right]`.
 - Reject one-line multi-row `aligned` equations that render poorly on GitHub.
 - Reject bare OCR math tokens such as `argmin`, `argmax`, `Pr(`, `Norm(`, and `log(` in display equations.
 
@@ -417,7 +419,7 @@ Final verification:
 # 35 passed
 
 .venv/bin/python -m pytest -q
-# 76 passed
+# 78 passed
 
 .venv/bin/python -m torchbloom.wiki_validation
 # wiki/udl: ok
@@ -431,4 +433,5 @@ Published-output audits:
 - Staged and published Markdown/sidecar files matched byte-for-byte.
 - All final image references resolved.
 - Scans found no `\operatorname`, `\tag{`, `\[`, `\]`, `\(`, `\)`, `review_notes`, `Review note`, or Markdown image syntax in published pages.
-- A 50-page GitHub rendering sample found and fixed one additional blank-line display math failure on `page_0362`.
+- GitHub rendering checks found and fixed additional equation/fence failures on `page_0058`, `page_0059`, `page_0061`, `page_0069`, `page_0070`, and `page_0362`.
+- Follow-up scans found zero display-math dollar leaks, zero blank display-math bodies, and zero mismatched probability delimiters in published pages.

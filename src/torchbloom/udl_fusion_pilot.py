@@ -40,6 +40,7 @@ INLINE_GLUED_SET_BRACE_RE = re.compile(
 )
 DISPLAY_MATH_BLOCK_RE = re.compile(r"(?ms)^\$\$\n(?P<body>.*?)\n\$\$")
 DISPLAY_MATH_BLANK_LINE_RE = re.compile(r"(?:^|\n)[ \t]*\n")
+DISPLAY_MATH_DOLLAR_RE = re.compile(r"\$")
 MARKDOWN_HEADING_RE = re.compile(r"(?m)^#{1,6}\s+.*$")
 DOUBLE_ESCAPED_MATH_MACRO_RE = re.compile(
     r"(?<!\\)\\\\(?:begin|end|mathrm|mathsf|mathbf|boldsymbol|tag|frac|sum|prod|left|right)"
@@ -58,6 +59,9 @@ ALIGNED_ROWBREAK_BEFORE_OPERATOR_RE = re.compile(
 BARE_MATH_LOG_RE = re.compile(r"(?<!\\)\blog(?=\s*(?:\\|\[|\{|\())")
 BARE_OCR_MATH_TOKEN_RE = re.compile(
     r"(?<!\\)\b(?:argmin|argmax)\b|(?<!\\)\b(?:Pr|Norm)\s*\("
+)
+MISMATCHED_PROBABILITY_DELIMITER_RE = re.compile(
+    r"\\Pr\\left\((?:(?!\\right).)*?(?<!\\right)\)(?=\\right)"
 )
 NESTED_DISPLAY_MATH_ENV_RE = re.compile(r"\\begin\{(?:align\*?|equation\*?|displaymath)\}")
 ONE_LINE_MULTIROW_ALIGNED_RE = re.compile(
@@ -818,6 +822,10 @@ def _validate_github_math_blocks(md_path: Path, body: str, errors: list[str]) ->
             errors.append(f"{md_path}: replace bare OCR math token inside display math")
         if DISPLAY_MATH_BLANK_LINE_RE.search(block):
             errors.append(f"{md_path}: remove blank line inside display math for GitHub rendering")
+        if DISPLAY_MATH_DOLLAR_RE.search(block):
+            errors.append(f"{md_path}: remove stray dollar sign inside display math for GitHub rendering")
+        if MISMATCHED_PROBABILITY_DELIMITER_RE.search(block):
+            errors.append(f"{md_path}: fix mismatched probability delimiter before GitHub rendering")
         if NESTED_DISPLAY_MATH_ENV_RE.search(block):
             errors.append(f"{md_path}: remove nested display math environment inside $$ block")
         if ONE_LINE_MULTIROW_ALIGNED_RE.search(block):
@@ -849,31 +857,41 @@ def _validate_markdown_headings(md_path: Path, body: str, errors: list[str]) -> 
             errors.append(f"{md_path}: remove heading math delimiters; GitHub renders heading math literally")
 
 
+def _equation_validation_bodies(value: str) -> list[str]:
+    bodies = [match.group("body") for match in DISPLAY_MATH_BLOCK_RE.finditer(value)]
+    return bodies or [value]
+
+
 def _validate_equation_text(path: Path, label: str, value: str, errors: list[str]) -> None:
-    if MATH_TAG_RE.search(value):
+    math_value = "\n".join(_equation_validation_bodies(value))
+    if MATH_TAG_RE.search(math_value):
         errors.append(f"{path}: {label} uses \\tag; use plain equation numbering like \\quad (3.4)")
-    if DOUBLE_ESCAPED_MATH_MACRO_RE.search(value):
+    if DOUBLE_ESCAPED_MATH_MACRO_RE.search(math_value):
         errors.append(f"{path}: {label} has double-escaped math macro for GitHub rendering")
-    if SINGLE_BACKSLASH_ROWBREAK_MACRO_RE.search(value):
+    if SINGLE_BACKSLASH_ROWBREAK_MACRO_RE.search(math_value):
         errors.append(f"{path}: {label} has malformed row-break math macro for GitHub rendering")
-    if ALIGNED_ROWBREAK_BEFORE_OPERATOR_RE.search(value):
+    if ALIGNED_ROWBREAK_BEFORE_OPERATOR_RE.search(math_value):
         errors.append(f"{path}: {label} has row break before math operator")
-    if BARE_MATH_LOG_RE.search(value):
+    if BARE_MATH_LOG_RE.search(math_value):
         errors.append(f"{path}: {label} has bare log; use \\log")
-    if BARE_OCR_MATH_TOKEN_RE.search(value):
+    if BARE_OCR_MATH_TOKEN_RE.search(math_value):
         errors.append(f"{path}: {label} has bare OCR math token")
-    if DISPLAY_MATH_BLANK_LINE_RE.search(value):
+    if DISPLAY_MATH_BLANK_LINE_RE.search(math_value):
         errors.append(f"{path}: {label} has blank line inside display math")
-    if NESTED_DISPLAY_MATH_ENV_RE.search(value):
+    if DISPLAY_MATH_DOLLAR_RE.search(math_value):
+        errors.append(f"{path}: {label} has stray dollar sign inside display math")
+    if MISMATCHED_PROBABILITY_DELIMITER_RE.search(math_value):
+        errors.append(f"{path}: {label} has mismatched probability delimiter")
+    if NESTED_DISPLAY_MATH_ENV_RE.search(math_value):
         errors.append(f"{path}: {label} has nested display math environment")
-    if ONE_LINE_MULTIROW_ALIGNED_RE.search(value):
+    if ONE_LINE_MULTIROW_ALIGNED_RE.search(math_value):
         errors.append(f"{path}: {label} has one-line multi-row aligned equation")
-    if MISSING_MATH_SUBSCRIPT_RE.search(value):
+    if MISSING_MATH_SUBSCRIPT_RE.search(math_value):
         errors.append(f"{path}: {label} has missing math subscript marker from OCR")
-    if PROSE_DISPLAY_MATH_RE.search(value):
+    if PROSE_DISPLAY_MATH_RE.search(math_value):
         errors.append(f"{path}: {label} has prose inside display math")
     for pattern in OCR_SPACED_MATH_TOKEN_RES:
-        if pattern.search(value):
+        if pattern.search(math_value):
             errors.append(f"{path}: {label} has OCR-spaced math token")
             break
 
