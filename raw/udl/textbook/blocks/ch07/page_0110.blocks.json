@@ -34,7 +34,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\sigma_{\\Omega}^{2}=\\frac{2}{D_{h}},\n\\end{aligned}\n\\tag{7.32}"
+    "text": "\\begin{aligned}\n\\sigma_{\\Omega}^{2}=\\frac{2}{D_{h}},\n\\end{aligned} \\quad (7.32)"
   },
   {
     "id": "page_0110-b005",

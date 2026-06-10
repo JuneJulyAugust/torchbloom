@@ -51,7 +51,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\mathbf{f}[\\mathbf{X},\\mathbf{A},\\boldsymbol{\\Phi}]=\\mathrm{sig}\\left[\\beta_{K}\\mathbf{1}^{T}+\\boldsymbol{\\omega}_{K}\\mathbf{H}_{K}\\right],\n\\end{aligned}\n\\tag{13.12}"
+    "text": "\\begin{aligned}\n\\mathbf{f}[\\mathbf{X},\\mathbf{A},\\boldsymbol{\\Phi}]=\\mathrm{sig}\\left[\\beta_{K}\\mathbf{1}^{T}+\\boldsymbol{\\omega}_{K}\\mathbf{H}_{K}\\right],\n\\end{aligned} \\quad (13.12)"
   },
   {
     "id": "page_0253-b007",

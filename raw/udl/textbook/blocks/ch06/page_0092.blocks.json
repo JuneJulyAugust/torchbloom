@@ -15,7 +15,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\mathbf{H}[\\phi]=\\begin{bmatrix}\\frac{\\partial^{2}L}{\\partial\\phi_{0}^{2}}&\\frac{\\partial^{2}L}{\\partial\\phi_{1}\\partial\\phi_{0}}&\\cdots&\\frac{\\partial^{2}L}{\\partial\\phi_{N}\\partial\\phi_{0}}\\\\ \\vdots&\\ddots&\\cdots&\\frac{\\partial^{2}L}{\\partial\\phi_{1}\\partial\\phi_{N}}\\\\ \\vdots&\\ddots&\\cdots&\\frac{\\partial^{2}L}{\\partial\\phi_{N}\\partial\\phi_{0}}\\end{bmatrix}.\n\\end{aligned}\n\\tag{6.19}"
+    "text": "\\begin{aligned}\n\\mathbf{H}[\\phi]=\\begin{bmatrix}\\frac{\\partial^{2}L}{\\partial\\phi_{0}^{2}}&\\frac{\\partial^{2}L}{\\partial\\phi_{1}\\partial\\phi_{0}}&\\cdots&\\frac{\\partial^{2}L}{\\partial\\phi_{N}\\partial\\phi_{0}}\\\\ \\vdots&\\ddots&\\cdots&\\frac{\\partial^{2}L}{\\partial\\phi_{1}\\partial\\phi_{N}}\\\\ \\vdots&\\ddots&\\cdots&\\frac{\\partial^{2}L}{\\partial\\phi_{N}\\partial\\phi_{0}}\\end{bmatrix}.\n\\end{aligned} \\quad (6.19)"
   },
   {
     "id": "page_0092-b003",

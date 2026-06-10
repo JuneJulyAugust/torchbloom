@@ -6,7 +6,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\begin{array}{rcl}h_{1}^{\\prime}&=&a[\\theta_{10}^{\\prime}+\\theta_{11}^{\\prime}y]\\\\h_{2}^{\\prime}&=&a[\\theta_{20}^{\\prime}+\\theta_{21}^{\\prime}y]\\\\h_{3}^{\\prime}&=&a[\\theta_{30}^{\\prime}+\\theta_{31}^{\\prime}y],\\end{array}\n\\end{aligned}\n\\tag{4.3}"
+    "text": "\\begin{aligned}\n\\begin{array}{rcl}h_{1}^{\\prime}&=&a[\\theta_{10}^{\\prime}+\\theta_{11}^{\\prime}y]\\\\h_{2}^{\\prime}&=&a[\\theta_{20}^{\\prime}+\\theta_{21}^{\\prime}y]\\\\h_{3}^{\\prime}&=&a[\\theta_{30}^{\\prime}+\\theta_{31}^{\\prime}y],\\end{array}\n\\end{aligned} \\quad (4.3)"
   },
   {
     "id": "page_0043-b002",
@@ -24,7 +24,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\ny^{\\prime}=\\phi_{0}^{\\prime}+\\phi_{1}^{\\prime}h_{1}^{\\prime}+\\phi_{2}^{\\prime}h_{2}^{\\prime}+\\phi_{3}^{\\prime}h_{3}^{\\prime}.\n\\end{aligned}\n\\tag{4.4}"
+    "text": "\\begin{aligned}\ny^{\\prime}=\\phi_{0}^{\\prime}+\\phi_{1}^{\\prime}h_{1}^{\\prime}+\\phi_{2}^{\\prime}h_{2}^{\\prime}+\\phi_{3}^{\\prime}h_{3}^{\\prime}.\n\\end{aligned} \\quad (4.4)"
   },
   {
     "id": "page_0043-b004",
@@ -87,7 +87,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\begin{array}{rcl}h_{1}^{\\prime}&=&a[\\theta_{10}^{\\prime}+\\theta_{11}^{\\prime}y]=&a[\\theta_{10}^{\\prime}+\\theta_{11}^{\\prime}\\phi_{0}+\\theta_{11}^{\\prime}\\phi_{1}h_{1}+\\theta_{11}^{\\prime}\\phi_{2}h_{2}+\\theta_{11}^{\\prime}\\phi_{3}h_{3}]\\\\h_{2}^{\\prime}&=&a[\\theta_{20}^{\\prime}+\\theta_{21}^{\\prime}y]=&a[\\theta_{20}^{\\prime}+\\theta_{21}^{\\prime}\\phi_{0}+\\theta_{21}^{\\prime}\\phi_{1}h_{1}+\\theta_{21}^{\\prime}\\phi_{2}h_{2}+\\theta_{21}^{\\prime}\\phi_{3}h_{3}]\\\\h_{3}^{\\prime}&=&a[\\theta_{30}^{\\prime}+\\theta_{31}^{\\prime}y]=&a[\\phi_{0}+h_{1}\\phi_{0}+\\theta_{11}^{\\prime}h_{1}+\\theta_{21}^{\\prime}\\phi_{2}h_{2}+\\theta_{31}^{\\prime}h_{3}]\\end{array}\n\\end{aligned}\n\\tag{4.5}"
+    "text": "\\begin{aligned}\n\\begin{array}{rcl}h_{1}^{\\prime}&=&a[\\theta_{10}^{\\prime}+\\theta_{11}^{\\prime}y]=&a[\\theta_{10}^{\\prime}+\\theta_{11}^{\\prime}\\phi_{0}+\\theta_{11}^{\\prime}\\phi_{1}h_{1}+\\theta_{11}^{\\prime}\\phi_{2}h_{2}+\\theta_{11}^{\\prime}\\phi_{3}h_{3}]\\\\h_{2}^{\\prime}&=&a[\\theta_{20}^{\\prime}+\\theta_{21}^{\\prime}y]=&a[\\theta_{20}^{\\prime}+\\theta_{21}^{\\prime}\\phi_{0}+\\theta_{21}^{\\prime}\\phi_{1}h_{1}+\\theta_{21}^{\\prime}\\phi_{2}h_{2}+\\theta_{21}^{\\prime}\\phi_{3}h_{3}]\\\\h_{3}^{\\prime}&=&a[\\theta_{30}^{\\prime}+\\theta_{31}^{\\prime}y]=&a[\\phi_{0}+h_{1}\\phi_{0}+\\theta_{11}^{\\prime}h_{1}+\\theta_{21}^{\\prime}\\phi_{2}h_{2}+\\theta_{31}^{\\prime}h_{3}]\\end{array}\n\\end{aligned} \\quad (4.5)"
   },
   {
     "id": "page_0043-b011",
@@ -105,6 +105,6 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\begin{array}{rcl}h_{1}^{\\prime}&=&a[\\psi_{10}+\\psi_{11}h_{1}+\\psi_{12}h_{2}+\\psi_{13}h_{3}]\\\\h_{2}^{\\prime}&=&a[\\psi_{20}+\\psi_{21}h_{1}+\\psi_{22}h_{2}+\\psi_{23}h_{3}]\\\\h_{3}^{\\prime}&=&a[\\psi_{30}+\\psi_{31}h_{1}+\\psi_{32}h_{2}+\\psi_{33}h_{3}],\\end{array}\n\\end{aligned}\n\\tag{4.6}"
+    "text": "\\begin{aligned}\n\\begin{array}{rcl}h_{1}^{\\prime}&=&a[\\psi_{10}+\\psi_{11}h_{1}+\\psi_{12}h_{2}+\\psi_{13}h_{3}]\\\\h_{2}^{\\prime}&=&a[\\psi_{20}+\\psi_{21}h_{1}+\\psi_{22}h_{2}+\\psi_{23}h_{3}]\\\\h_{3}^{\\prime}&=&a[\\psi_{30}+\\psi_{31}h_{1}+\\psi_{32}h_{2}+\\psi_{33}h_{3}],\\end{array}\n\\end{aligned} \\quad (4.6)"
   }
 ]

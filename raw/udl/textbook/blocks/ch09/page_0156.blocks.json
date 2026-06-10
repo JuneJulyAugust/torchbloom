@@ -60,7 +60,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\phi_{1}=\\phi_{0}+\\alpha\\cdot\\mathbf{g}[\\phi_{0}],\n\\end{aligned}\n\\tag{9.14}"
+    "text": "\\begin{aligned}\n\\phi_{1}=\\phi_{0}+\\alpha\\cdot\\mathbf{g}[\\phi_{0}],\n\\end{aligned} \\quad (9.14)"
   },
   {
     "id": "page_0156-b008",
@@ -78,7 +78,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\frac{d\\phi}{d t}\\approx\\mathbf{g}[\\phi]+\\alpha\\mathbf{g}_{1}[\\phi]+\\cdots,\n\\end{aligned}\n\\tag{9.15}"
+    "text": "\\begin{aligned}\n\\frac{d\\phi}{d t}\\approx\\mathbf{g}[\\phi]+\\alpha\\mathbf{g}_{1}[\\phi]+\\cdots,\n\\end{aligned} \\quad (9.15)"
   },
   {
     "id": "page_0156-b010",
@@ -96,7 +96,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\frac{d\\phi}{d t}\\approx\\mathbf{g}[\\phi]+\\alpha\\mathbf{g}_{1}[\\phi]+\\cdots,\n\\end{aligned}\n\\tag{9.16}"
+    "text": "\\begin{aligned}\n\\frac{d\\phi}{d t}\\approx\\mathbf{g}[\\phi]+\\alpha\\mathbf{g}_{1}[\\phi]+\\cdots,\n\\end{aligned} \\quad (9.16)"
   },
   {
     "id": "page_0156-b012",

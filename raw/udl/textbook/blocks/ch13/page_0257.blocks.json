@@ -24,7 +24,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\mathbf{H}_{k+1}=\\mathbf{a}\\Big[\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\Omega_{k}\\mathbf{H}_{k}(\\mathbf{A}+\\mathbf{I})\\Big].\n\\end{aligned}\n\\tag{13.13}"
+    "text": "\\begin{aligned}\n\\mathbf{H}_{k+1}=\\mathbf{a}\\Big[\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\Omega_{k}\\mathbf{H}_{k}(\\mathbf{A}+\\mathbf{I})\\Big].\n\\end{aligned} \\quad (13.13)"
   },
   {
     "id": "page_0257-b004",
@@ -42,7 +42,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\mathbf{H}_{k+1}=\\mathbf{a}\\Big[\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\Omega_{k}\\mathbf{H}_{k}(\\mathbf{A}+(1+\\epsilon_{k})\\mathbf{I})\\Big].\n\\end{aligned}\n\\tag{13.14}"
+    "text": "\\begin{aligned}\n\\mathbf{H}_{k+1}=\\mathbf{a}\\Big[\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\Omega_{k}\\mathbf{H}_{k}(\\mathbf{A}+(1+\\epsilon_{k})\\mathbf{I})\\Big].\n\\end{aligned} \\quad (13.14)"
   },
   {
     "id": "page_0257-b006",
@@ -96,7 +96,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\mathbf{H}_{k+1}=\\left[\\begin{array}{c}\\mathbf{a}\\left[\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\Omega_{k}\\mathbf{H}_{k}\\mathbf{A}\\right]\\\\ \\mathbf{H}_{k}\\end{array}\\right].\n\\end{aligned}\n\\tag{13.16}"
+    "text": "\\begin{aligned}\n\\mathbf{H}_{k+1}=\\left[\\begin{array}{c}\\mathbf{a}\\left[\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\Omega_{k}\\mathbf{H}_{k}\\mathbf{A}\\right]\\\\ \\mathbf{H}_{k}\\end{array}\\right].\n\\end{aligned} \\quad (13.16)"
   },
   {
     "id": "page_0257-b012",
@@ -123,7 +123,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\mathbf{a}\\mathbf{g}[n]=\\frac{1}{|\\mathsf{ne}[n]|}\\sum_{m\\in\\mathsf{ne}[n]}\\mathbf{h}_{m},\n\\end{aligned}\n\\tag{13.17}"
+    "text": "\\begin{aligned}\n\\mathbf{a}\\mathbf{g}[n]=\\frac{1}{|\\mathsf{ne}[n]|}\\sum_{m\\in\\mathsf{ne}[n]}\\mathbf{h}_{m},\n\\end{aligned} \\quad (13.17)"
   },
   {
     "id": "page_0257-b015",

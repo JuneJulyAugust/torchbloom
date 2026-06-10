@@ -34,7 +34,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\nIS\\ =\\ \\exp\\left[\\frac{1}{I}\\sum_{i=1}^{I}D_{KL}\\left[Pr(y|\\mathbf{x}_{i}^{*})||Pr(y)\\right]\\right],\n\\end{aligned}\n\\tag{14.2}"
+    "text": "\\begin{aligned}\nIS\\ =\\ \\exp\\left[\\frac{1}{I}\\sum_{i=1}^{I}D_{KL}\\left[Pr(y|\\mathbf{x}_{i}^{*})||Pr(y)\\right]\\right],\n\\end{aligned} \\quad (14.2)"
   },
   {
     "id": "page_0273-b005",
@@ -52,7 +52,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\nPr(y)=\\frac{1}{I}\\sum_{i=1}^{I}Pr(y|\\mathbf{x}_{i}^{*}).\n\\end{aligned}\n\\tag{14.3}"
+    "text": "\\begin{aligned}\nPr(y)=\\frac{1}{I}\\sum_{i=1}^{I}Pr(y|\\mathbf{x}_{i}^{*}).\n\\end{aligned} \\quad (14.3)"
   },
   {
     "id": "page_0273-b007",

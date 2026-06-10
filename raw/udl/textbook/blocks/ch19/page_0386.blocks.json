@@ -70,7 +70,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\nL[\\phi]=\\left(r[s_{t},a_{t}]+\\gamma\\cdot\\max_{a}\\Big[q[s_{t+1},a,\\phi]\\Big]-q[s_{t},a_{t},\\phi]\\right)^{2},\n\\end{aligned}\n\\tag{19.16}"
+    "text": "\\begin{aligned}\nL[\\phi]=\\left(r[s_{t},a_{t}]+\\gamma\\cdot\\max_{a}\\Big[q[s_{t+1},a,\\phi]\\Big]-q[s_{t},a_{t},\\phi]\\right)^{2},\n\\end{aligned} \\quad (19.16)"
   },
   {
     "id": "page_0386-b009",
@@ -88,7 +88,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\phi\\leftarrow\\phi+\\alpha\\Bigg(r[s_{t},a_{t}]+\\gamma\\cdot\\max_{a}\\Big[q[s_{t+1},a,\\phi]\\Big]-q[s_{t},a_{t},\\phi]\\Bigg)^{2},\n\\end{aligned}\n\\tag{19.17}"
+    "text": "\\begin{aligned}\n\\phi\\leftarrow\\phi+\\alpha\\Bigg(r[s_{t},a_{t}]+\\gamma\\cdot\\max_{a}\\Big[q[s_{t+1},a,\\phi]\\Big]-q[s_{t},a_{t},\\phi]\\Bigg)^{2},\n\\end{aligned} \\quad (19.17)"
   },
   {
     "id": "page_0386-b011",

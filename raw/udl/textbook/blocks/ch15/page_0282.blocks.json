@@ -24,7 +24,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}L[\\phi]\\quad&=\\;-\\frac{1}{J}\\sum_{j=1}^{I}\\left(\\log\\left[1-\\mathrm{sig}[\\mathbf{f}[\\mathbf{x}_{j}^{*},\\phi]]\\right]\\right)-\\frac{1}{I}\\sum_{i=1}^{I}\\left(\\log\\left[\\mathrm{sig}[\\mathbf{f}[\\mathbf{x}_{i},\\phi]]\\right]\\right)\\\\&\\approx\\;-\\mathbb{E}_{\\mathbf{x}^{*}}\\left[\\log\\left[1-\\mathrm{sig}[\\mathbf{f}[\\mathbf{x}^{*},\\phi]]\\right]\\right]-\\mathbb{E}_{\\mathbf{x}}\\left[\\log\\left[\\mathrm{sig}[\\mathbf{f}[\\mathbf{x},\\phi]]\\right]\\right]\\\\&=\\;-\\int Pr(\\mathbf{x}^{*})\\log\\left[1-\\mathrm{sig}[\\mathbf{f}[\\mathbf{x}^{*},\\phi]]\\right]d\\mathbf{x}^{*}-\\int Pr(\\mathbf{x})\\log\\left[\\mathrm{sig}[\\mathbf{f}[\\mathbf{x},\\phi]]\\right]d\\mathbf{x},\\end{aligned}\n\\tag{15.6}"
+    "text": "\\begin{aligned}L[\\phi]\\quad&=\\;-\\frac{1}{J}\\sum_{j=1}^{I}\\left(\\log\\left[1-\\mathrm{sig}[\\mathbf{f}[\\mathbf{x}_{j}^{*},\\phi]]\\right]\\right)-\\frac{1}{I}\\sum_{i=1}^{I}\\left(\\log\\left[\\mathrm{sig}[\\mathbf{f}[\\mathbf{x}_{i},\\phi]]\\right]\\right)\\\\&\\approx\\;-\\mathbb{E}_{\\mathbf{x}^{*}}\\left[\\log\\left[1-\\mathrm{sig}[\\mathbf{f}[\\mathbf{x}^{*},\\phi]]\\right]\\right]-\\mathbb{E}_{\\mathbf{x}}\\left[\\log\\left[\\mathrm{sig}[\\mathbf{f}[\\mathbf{x},\\phi]]\\right]\\right]\\\\&=\\;-\\int Pr(\\mathbf{x}^{*})\\log\\left[1-\\mathrm{sig}[\\mathbf{f}[\\mathbf{x}^{*},\\phi]]\\right]d\\mathbf{x}^{*}-\\int Pr(\\mathbf{x})\\log\\left[\\mathrm{sig}[\\mathbf{f}[\\mathbf{x},\\phi]]\\right]d\\mathbf{x},\\end{aligned} \\quad (15.6)"
   },
   {
     "id": "page_0282-b004",
@@ -51,7 +51,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\nPr(\\mathrm{real}|\\tilde{\\mathbf{x}})=\\underset{}{\\mathrm{sig}\\left[\\mathrm{f}[\\tilde{\\mathbf{x}},\\phi]\\right]}=\\frac{Pr(\\bar{\\mathbf{x}}|\\mathrm{real})}{Pr(\\tilde{\\mathbf{x}}|g e n e r a t e d)+Pr(\\bar{\\mathbf{x}}|\\mathrm{real})}=\\frac{Pr(\\mathbf{x})}{Pr(\\mathbf{x}^{*})+Pr(\\bar{\\mathbf{x}})},\n\\end{aligned}\n\\tag{15.7}"
+    "text": "\\begin{aligned}\nPr(\\mathrm{real}|\\tilde{\\mathbf{x}})=\\underset{}{\\mathrm{sig}\\left[\\mathrm{f}[\\tilde{\\mathbf{x}},\\phi]\\right]}=\\frac{Pr(\\bar{\\mathbf{x}}|\\mathrm{real})}{Pr(\\tilde{\\mathbf{x}}|g e n e r a t e d)+Pr(\\bar{\\mathbf{x}}|\\mathrm{real})}=\\frac{Pr(\\mathbf{x})}{Pr(\\mathbf{x}^{*})+Pr(\\bar{\\mathbf{x}})},\n\\end{aligned} \\quad (15.7)"
   },
   {
     "id": "page_0282-b007",
@@ -69,7 +69,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}L[\\phi]\\;=\\;&-\\int Pr(\\mathbf{x}^{*})\\log\\Big[1-\\mathrm{sig}[\\mathbf{f}[\\mathbf{x}^{*},\\phi]]\\Big]d\\mathbf{x}^{*}-\\int Pr(\\mathbf{x})\\log\\Big[\\mathrm{sig}[\\mathbf{f}[\\mathbf{x},\\phi]]\\Big]d\\mathbf{x}\\\\=\\;&-\\int Pr(\\mathbf{x}^{*})\\log\\Bigg[1-\\frac{Pr(\\mathbf{x})}{Pr(\\mathbf{x}^{*})+Pr(\\mathbf{x})}\\Bigg]d\\mathbf{x}^{*}-\\int Pr(\\mathbf{x})\\log\\Bigg[\\frac{Pr(\\mathbf{x})}{Pr(\\mathbf{x}^{*})+Pr(\\mathbf{x})}\\Bigg]d\\mathbf{x}\\\\=\\;&-\\int Pr(\\mathbf{x}^{*})\\log\\Bigg[\\frac{Pr(\\mathbf{x}^{*})}{Pr(\\mathbf{x}^{*})+Pr(\\mathbf{x})}\\Bigg]d\\mathbf{x}^{*}-\\int Pr(\\mathbf{x})\\log\\Bigg[\\frac{Pr(\\mathbf{x})}{Pr(\\mathbf{x}^{*})+Pr(\\mathbf{x})}\\Bigg]d\\mathbf{x}.\\end{aligned}\n\\tag{15.7}"
+    "text": "\\begin{aligned}L[\\phi]\\;=\\;&-\\int Pr(\\mathbf{x}^{*})\\log\\Big[1-\\mathrm{sig}[\\mathbf{f}[\\mathbf{x}^{*},\\phi]]\\Big]d\\mathbf{x}^{*}-\\int Pr(\\mathbf{x})\\log\\Big[\\mathrm{sig}[\\mathbf{f}[\\mathbf{x},\\phi]]\\Big]d\\mathbf{x}\\\\=\\;&-\\int Pr(\\mathbf{x}^{*})\\log\\Bigg[1-\\frac{Pr(\\mathbf{x})}{Pr(\\mathbf{x}^{*})+Pr(\\mathbf{x})}\\Bigg]d\\mathbf{x}^{*}-\\int Pr(\\mathbf{x})\\log\\Bigg[\\frac{Pr(\\mathbf{x})}{Pr(\\mathbf{x}^{*})+Pr(\\mathbf{x})}\\Bigg]d\\mathbf{x}\\\\=\\;&-\\int Pr(\\mathbf{x}^{*})\\log\\Bigg[\\frac{Pr(\\mathbf{x}^{*})}{Pr(\\mathbf{x}^{*})+Pr(\\mathbf{x})}\\Bigg]d\\mathbf{x}^{*}-\\int Pr(\\mathbf{x})\\log\\Bigg[\\frac{Pr(\\mathbf{x})}{Pr(\\mathbf{x}^{*})+Pr(\\mathbf{x})}\\Bigg]d\\mathbf{x}.\\end{aligned} \\quad (15.7)"
   },
   {
     "id": "page_0282-b009",
@@ -114,7 +114,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}D_{JS}\\Big[Pr(\\mathbf{x}^{*})\\mid\\mid Pr(\\mathbf{x})&\\Big]\\\\&=\\frac{1}{2}D_{KL}\\left[\\left|\\frac{Pr(\\mathbf{x}^{*})+Pr(\\mathbf{x})}{2}\\right|+\\frac{1}{2}D_{KL}\\left[Pr(\\mathbf{x})\\mid\\left|\\frac{Pr(\\mathbf{x}^{*})+Pr(\\mathbf{x})}{2}\\right.\\right]\\right.\\\\&=\\frac{1}{\\circ}\\int Pr(\\mathbf{x}^{*})\\log\\left[\\underbrace{\\frac{2Pr(\\mathbf{x}^{*})}{Pr(\\mathbf{x}^{*})+Pr(\\mathbf{x})}}\\right]d\\mathbf{x}^{*}+\\frac{1}{\\circ}\\int Pr(\\mathbf{x})\\log\\left[\\underbrace{\\frac{2Pr(\\mathbf{x})}{Pr(\\mathbf{x}^{*})+Pr(\\mathbf{x})}}\\right]d\\mathbf{x}.\\end{aligned}\n\\tag{15.9}"
+    "text": "\\begin{aligned}D_{JS}\\Big[Pr(\\mathbf{x}^{*})\\mid\\mid Pr(\\mathbf{x})&\\Big]\\\\&=\\frac{1}{2}D_{KL}\\left[\\left|\\frac{Pr(\\mathbf{x}^{*})+Pr(\\mathbf{x})}{2}\\right|+\\frac{1}{2}D_{KL}\\left[Pr(\\mathbf{x})\\mid\\left|\\frac{Pr(\\mathbf{x}^{*})+Pr(\\mathbf{x})}{2}\\right.\\right]\\right.\\\\&=\\frac{1}{\\circ}\\int Pr(\\mathbf{x}^{*})\\log\\left[\\underbrace{\\frac{2Pr(\\mathbf{x}^{*})}{Pr(\\mathbf{x}^{*})+Pr(\\mathbf{x})}}\\right]d\\mathbf{x}^{*}+\\frac{1}{\\circ}\\int Pr(\\mathbf{x})\\log\\left[\\underbrace{\\frac{2Pr(\\mathbf{x})}{Pr(\\mathbf{x}^{*})+Pr(\\mathbf{x})}}\\right]d\\mathbf{x}.\\end{aligned} \\quad (15.9)"
   },
   {
     "id": "page_0282-b014",

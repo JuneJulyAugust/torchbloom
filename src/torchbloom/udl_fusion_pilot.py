@@ -34,6 +34,10 @@ DISPLAY_MATH_BRACKET_RE = re.compile(r"\\\[|\\\]")
 INLINE_MATH_PAREN_RE = re.compile(r"\\\(|\\\)")
 GITHUB_BLOCKED_MATH_MACRO_RE = re.compile(r"\\operatorname\b")
 INLINE_ESCAPED_BRACE_RE = re.compile(r"\$[^\n$]*\\[{}][^\n$]*\$")
+MATH_TAG_RE = re.compile(r"\\tag\{")
+INLINE_GLUED_SET_BRACE_RE = re.compile(
+    r"\$[^\n$]*(?:\\lbrace(?=[A-Za-z0-9])|\\rbrace(?=[A-Za-z0-9]))[^\n$]*\$"
+)
 DISPLAY_MATH_BLOCK_RE = re.compile(r"(?ms)^\$\$\n(?P<body>.*?)\n\$\$")
 MARKDOWN_HEADING_RE = re.compile(r"(?m)^#{1,6}\s+.*$")
 DOUBLE_ESCAPED_MATH_MACRO_RE = re.compile(
@@ -376,7 +380,7 @@ Use these to check transcription, especially equations, but do not include them 
 10. Use GitHub-compatible inline math delimiters: `$...$`. Do not use `\\(...\\)` inline math.
 11. Avoid GitHub-blocked math macros. Use `\\mathrm{{ReLU}}`, `\\mathrm{{argmin}}`, or `\\mathrm{{HardSwish}}` instead of `\\operatorname{{...}}`.
 12. In inline math, write literal set braces as `\\lbrace ...\\rbrace`, not `\\{{...\\}}`, so GitHub does not consume the escaping before MathJax sees it.
-13. Keep `\\tag{{...}}` at the top level of the display math block. Do not put `\\tag{{...}}` inside `aligned`, `align*`, `array`, or `cases` environments; GitHub rejects that placement.
+13. Do not use `\\tag{{...}}` in published Markdown. Put visible equation numbers at the end of the display equation as `\\quad (3.4)` so GitHub and local previews render the same way.
 14. Do not put math delimiters in Markdown headings. Keep headings short and move math-heavy definitions into the following paragraph.
 15. Use Markdown footnotes such as `[^1]` and `[^1]: ...`; do not use `$^1$` as a footnote marker.
 
@@ -777,6 +781,10 @@ def _validate_centered_figure_captions(md_path: Path, body: str, errors: list[st
 def _validate_github_math_blocks(md_path: Path, body: str, errors: list[str]) -> None:
     for match in DISPLAY_MATH_BLOCK_RE.finditer(body):
         block = match.group("body")
+        if MATH_TAG_RE.search(block):
+            errors.append(
+                f"{md_path}: use plain equation numbering like \\quad (3.4), not \\tag, for GitHub rendering"
+            )
         if DOUBLE_ESCAPED_MATH_MACRO_RE.search(block):
             errors.append(f"{md_path}: fix double-escaped math macro for GitHub rendering")
         if SINGLE_BACKSLASH_ROWBREAK_MACRO_RE.search(block):
@@ -805,6 +813,8 @@ def _validate_markdown_headings(md_path: Path, body: str, errors: list[str]) -> 
 
 
 def _validate_equation_text(path: Path, label: str, value: str, errors: list[str]) -> None:
+    if MATH_TAG_RE.search(value):
+        errors.append(f"{path}: {label} uses \\tag; use plain equation numbering like \\quad (3.4)")
     if DOUBLE_ESCAPED_MATH_MACRO_RE.search(value):
         errors.append(f"{path}: {label} has double-escaped math macro for GitHub rendering")
     if SINGLE_BACKSLASH_ROWBREAK_MACRO_RE.search(value):
@@ -843,6 +853,8 @@ def _validate_markdown(output_dir: Path, spec: PageSpec, errors: list[str]) -> d
         errors.append(f"{md_path}: replace GitHub-blocked math macro \\operatorname with \\mathrm or plain LaTeX")
     if INLINE_ESCAPED_BRACE_RE.search(body):
         errors.append(f"{md_path}: use \\lbrace and \\rbrace for literal braces in inline math")
+    if INLINE_GLUED_SET_BRACE_RE.search(body):
+        errors.append(f"{md_path}: put a space after inline \\lbrace/\\rbrace so GitHub does not read it as one macro")
     if INLINE_SUPERSCRIPT_FOOTNOTE_RE.search(body):
         errors.append(f"{md_path}: use Markdown footnotes like [^1], not $^1$ math markers")
     _validate_github_math_blocks(md_path, body, errors)
@@ -930,6 +942,14 @@ def _validate_blocks(output_dir: Path, spec: PageSpec, errors: list[str]) -> int
             if isinstance(value, str) and GITHUB_BLOCKED_MATH_MACRO_RE.search(value):
                 errors.append(
                     f"{block_path}: block {idx} field {key!r} uses GitHub-blocked math macro \\operatorname"
+                )
+            if isinstance(value, str) and MATH_TAG_RE.search(value):
+                errors.append(
+                    f"{block_path}: block {idx} field {key!r} uses \\tag; use plain equation numbering"
+                )
+            if isinstance(value, str) and INLINE_GLUED_SET_BRACE_RE.search(value):
+                errors.append(
+                    f"{block_path}: block {idx} field {key!r} has glued inline \\lbrace/\\rbrace math"
                 )
             if block_type == "equation" and isinstance(value, str):
                 _validate_equation_text(block_path, f"block {idx} field {key!r}", value, errors)

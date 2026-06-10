@@ -24,7 +24,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\begin{align*}\\hat{\\boldsymbol{\\phi}}&=\\quad\\underset{\\boldsymbol{\\phi}}{\\mathrm{argmin}}\\left[-\\sum_{i=1}^{I}\\log\\left[Pr(\\mathbf{y}_{i}|\\mathbf{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}])\\right]\\right]\\\\&=\\quad\\underset{\\boldsymbol{\\phi}}{\\mathrm{argmin}}\\left[L[\\boldsymbol{\\phi}]\\right],\\end{align*}\n\\end{aligned}\n\\tag{5.4}"
+    "text": "\\begin{aligned}\n\\begin{align*}\\hat{\\boldsymbol{\\phi}}&=\\quad\\underset{\\boldsymbol{\\phi}}{\\mathrm{argmin}}\\left[-\\sum_{i=1}^{I}\\log\\left[Pr(\\mathbf{y}_{i}|\\mathbf{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}])\\right]\\right]\\\\&=\\quad\\underset{\\boldsymbol{\\phi}}{\\mathrm{argmin}}\\left[L[\\boldsymbol{\\phi}]\\right],\\end{align*}\n\\end{aligned} \\quad (5.4)"
   },
   {
     "id": "page_0060-b004",
@@ -60,7 +60,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\hat{\\mathbf{y}}=\\underset{\\mathbf{y}}{\\mathrm{argmax}}\\left[Pr(\\mathbf{y}|\\mathbf{f}[\\mathbf{x},\\hat{\\boldsymbol{\\phi}}])\\right].\n\\end{aligned}\n\\tag{5.5}"
+    "text": "\\begin{aligned}\n\\hat{\\mathbf{y}}=\\underset{\\mathbf{y}}{\\mathrm{argmax}}\\left[Pr(\\mathbf{y}|\\mathbf{f}[\\mathbf{x},\\hat{\\boldsymbol{\\phi}}])\\right].\n\\end{aligned} \\quad (5.5)"
   },
   {
     "id": "page_0060-b008",
@@ -123,7 +123,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}}=\\underset{\\boldsymbol{\\phi}}{\\mathrm{argmin}}\\left[L[\\boldsymbol{\\phi}]\\right]=\\underset{\\boldsymbol{\\phi}}{\\mathrm{argmin}}\\left[-\\sum_{i=1}^{I}\\log\\left[Pr(\\mathbf{y}_{i}|\\mathbf{f}[\\mathbf{x}_{i},\\hat{\\boldsymbol{\\phi}}])\\right]\\right].\n\\end{aligned}\n\\tag{5.6}"
+    "text": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}}=\\underset{\\boldsymbol{\\phi}}{\\mathrm{argmin}}\\left[L[\\boldsymbol{\\phi}]\\right]=\\underset{\\boldsymbol{\\phi}}{\\mathrm{argmin}}\\left[-\\sum_{i=1}^{I}\\log\\left[Pr(\\mathbf{y}_{i}|\\mathbf{f}[\\mathbf{x}_{i},\\hat{\\boldsymbol{\\phi}}])\\right]\\right].\n\\end{aligned} \\quad (5.6)"
   },
   {
     "id": "page_0060-b015",

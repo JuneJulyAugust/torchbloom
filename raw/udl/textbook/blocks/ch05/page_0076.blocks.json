@@ -34,7 +34,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\nPr(y=k)=\\frac{\\lambda^{k}e^{-\\lambda}}{k!}.\n\\end{aligned}\n\\tag{5.36}"
+    "text": "\\begin{aligned}\nPr(y=k)=\\frac{\\lambda^{k}e^{-\\lambda}}{k!}.\n\\end{aligned} \\quad (5.36)"
   },
   {
     "id": "page_0076-b005",

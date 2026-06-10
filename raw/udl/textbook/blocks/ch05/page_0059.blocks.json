@@ -43,7 +43,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\begin{align*}\\hat{\\phi}&=\\argmax_{\\boldsymbol{\\phi}}\\left[\\prod_{i=1}^{I}Pr(\\mathbf{y}_{i}|\\mathbf{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}])\\right]\\\\&=\\argmax_{\\boldsymbol{\\phi}}\\left[\\log\\left[\\prod_{i=1}^{I}Pr(\\mathbf{y}_{i}|\\mathbf{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}])\\right]\\right]\\\\&=\\argmax_{\\boldsymbol{\\phi}}\\left[\\sum_{i=1}^{I}\\log\\left[Pr(\\mathbf{y}_{i}|\\mathbf{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}])\\right]\\right].\\end{align*}\n\\end{aligned}\n\\tag{5.3}"
+    "text": "\\begin{aligned}\n\\begin{align*}\\hat{\\phi}&=\\argmax_{\\boldsymbol{\\phi}}\\left[\\prod_{i=1}^{I}Pr(\\mathbf{y}_{i}|\\mathbf{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}])\\right]\\\\&=\\argmax_{\\boldsymbol{\\phi}}\\left[\\log\\left[\\prod_{i=1}^{I}Pr(\\mathbf{y}_{i}|\\mathbf{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}])\\right]\\right]\\\\&=\\argmax_{\\boldsymbol{\\phi}}\\left[\\sum_{i=1}^{I}\\log\\left[Pr(\\mathbf{y}_{i}|\\mathbf{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}])\\right]\\right].\\end{align*}\n\\end{aligned} \\quad (5.3)"
   },
   {
     "id": "page_0059-b006",

@@ -6,7 +6,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\\mathbf{f}_{k}&=\\beta_{k}+\\Omega_{k}\\mathbf{h}_{k}\\\\&=\\beta_{k}+\\boldsymbol{\\Omega}_{k}\\mathbf{a}[\\mathbf{f}_{k-1}],\\end{aligned} \\tag{7.27}"
+    "text": "\\begin{aligned}\\mathbf{f}_{k}&=\\beta_{k}+\\Omega_{k}\\mathbf{h}_{k}\\\\&=\\beta_{k}+\\boldsymbol{\\Omega}_{k}\\mathbf{a}[\\mathbf{f}_{k-1}],\\end{aligned} \\quad (7.27)"
   },
   {
     "id": "page_0108-b002",
@@ -78,7 +78,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\\mathbf{h}&=\\mathbf{a}[\\mathbf{f}],\\\\ \\mathbf{f}^{\\prime}&=\\beta+\\boldsymbol{\\Omega}\\mathbf{h}\\end{aligned} \\tag{7.28}"
+    "text": "\\begin{aligned}\\mathbf{h}&=\\mathbf{a}[\\mathbf{f}],\\\\ \\mathbf{f}^{\\prime}&=\\beta+\\boldsymbol{\\Omega}\\mathbf{h}\\end{aligned} \\quad (7.28)"
   },
   {
     "id": "page_0108-b010",

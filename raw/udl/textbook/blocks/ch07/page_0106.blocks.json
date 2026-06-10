@@ -33,7 +33,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\begin{array}{rcl}\\mathbf{f}_{0}&=&\\beta_{0}+\\Omega_{0}\\mathbf{x}_{i}\\\\ \\mathbf{h}_{k}&=&\\mathbf{a}[\\mathbf{f}_{k-1}]&k\\in\\{1,2,\\cdots,K\\}\\\\ \\mathbf{f}_{k}&=&\\beta_{k}+\\Omega_{k}\\mathbf{h}_{k}.&k\\in\\{1,2,\\cdots,K\\}\\end{array}\n\\end{aligned}\n\\tag{7.24}"
+    "text": "\\begin{aligned}\n\\begin{array}{rcl}\\mathbf{f}_{0}&=&\\beta_{0}+\\Omega_{0}\\mathbf{x}_{i}\\\\ \\mathbf{h}_{k}&=&\\mathbf{a}[\\mathbf{f}_{k-1}]&k\\in\\{1,2,\\cdots,K\\}\\\\ \\mathbf{f}_{k}&=&\\beta_{k}+\\Omega_{k}\\mathbf{h}_{k}.&k\\in\\{1,2,\\cdots,K\\}\\end{array}\n\\end{aligned} \\quad (7.24)"
   },
   {
     "id": "page_0106-b005",
@@ -51,7 +51,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\begin{array}{rcl}\\displaystyle\\frac{\\partial\\ell_{i}}{\\partial\\beta_{k}}&=&\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{k}}\\quad k\\in\\{K,K-1,\\cdots,1\\}\\\\ \\displaystyle\\frac{\\partial\\ell_{i}}{\\partial\\Omega_{k}}&=&\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{k}}\\mathbf{h}^{T}\\quad k\\in\\{K,K-1,\\cdots,1\\}\\\\ \\displaystyle\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{k-1}}&=&\\mathbb{I}[\\mathbf{f}_{k-1}>0]\\odot\\left(\\Omega_{k}^{T}\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{k}}\\right),\\quad k\\in\\{K,K-1,\\cdots,1\\}\\end{array}\n\\end{aligned}\n\\tag{7.25}"
+    "text": "\\begin{aligned}\n\\begin{array}{rcl}\\displaystyle\\frac{\\partial\\ell_{i}}{\\partial\\beta_{k}}&=&\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{k}}\\quad k\\in\\{K,K-1,\\cdots,1\\}\\\\ \\displaystyle\\frac{\\partial\\ell_{i}}{\\partial\\Omega_{k}}&=&\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{k}}\\mathbf{h}^{T}\\quad k\\in\\{K,K-1,\\cdots,1\\}\\\\ \\displaystyle\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{k-1}}&=&\\mathbb{I}[\\mathbf{f}_{k-1}>0]\\odot\\left(\\Omega_{k}^{T}\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{k}}\\right),\\quad k\\in\\{K,K-1,\\cdots,1\\}\\end{array}\n\\end{aligned} \\quad (7.25)"
   },
   {
     "id": "page_0106-b007",
@@ -69,7 +69,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\begin{array}{rcl}\\displaystyle\\frac{\\partial\\ell_{i}}{\\partial\\beta_{0}}&=&\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{0}}\\\\\\displaystyle\\frac{\\partial\\ell_{i}}{\\partial\\Omega_{0}}&=&\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{0}}\\mathbf{x}^{T}.\\end{array}\n\\end{aligned}\n\\tag{7.26}"
+    "text": "\\begin{aligned}\n\\begin{array}{rcl}\\displaystyle\\frac{\\partial\\ell_{i}}{\\partial\\beta_{0}}&=&\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{0}}\\\\\\displaystyle\\frac{\\partial\\ell_{i}}{\\partial\\Omega_{0}}&=&\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{0}}\\mathbf{x}^{T}.\\end{array}\n\\end{aligned} \\quad (7.26)"
   },
   {
     "id": "page_0106-b009",

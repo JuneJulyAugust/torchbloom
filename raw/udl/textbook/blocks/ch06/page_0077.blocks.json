@@ -69,7 +69,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\hat{\\phi}=\\underset{\\phi}{\\mathrm{argmin}}\\left[L[\\phi]\\right].\n\\end{aligned}\n\\tag{6.1}"
+    "text": "\\begin{aligned}\n\\hat{\\phi}=\\underset{\\phi}{\\mathrm{argmin}}\\left[L[\\phi]\\right].\n\\end{aligned} \\quad (6.1)"
   },
   {
     "id": "page_0077-b009",

@@ -6,7 +6,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}h_1 &= a[\\theta_{10}+\\theta_{11}x_1+\\theta_{12}x_2]\\\\ h_2 &= a[\\theta_{20}+\\theta_{21}x_1+\\theta_{22}x_2]\\\\ h_3 &= a[\\theta_{30}+\\theta_{31}x_1+\\theta_{32}x_2]\\end{aligned} \\tag{3.9}"
+    "text": "\\begin{aligned}h_1 &= a[\\theta_{10}+\\theta_{11}x_1+\\theta_{12}x_2]\\\\ h_2 &= a[\\theta_{20}+\\theta_{21}x_1+\\theta_{22}x_2]\\\\ h_3 &= a[\\theta_{30}+\\theta_{31}x_1+\\theta_{32}x_2]\\end{aligned} \\quad (3.9)"
   },
   {
     "id": "page_0033-b002",
@@ -24,7 +24,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "y=\\phi_0+\\phi_1h_1+\\phi_2h_2+\\phi_3h_3. \\tag{3.10}"
+    "text": "y=\\phi_0+\\phi_1h_1+\\phi_2h_2+\\phi_3h_3. \\quad (3.10)"
   },
   {
     "id": "page_0033-b004",
@@ -78,7 +78,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "h_d=a\\left[\\theta_{d0}+\\sum_{i=1}^{D_i}\\theta_{di}x_i\\right]. \\tag{3.11}"
+    "text": "h_d=a\\left[\\theta_{d0}+\\sum_{i=1}^{D_i}\\theta_{di}x_i\\right]. \\quad (3.11)"
   },
   {
     "id": "page_0033-b010",

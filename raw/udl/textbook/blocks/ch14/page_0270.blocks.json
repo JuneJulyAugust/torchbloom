@@ -97,7 +97,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\nL[\\phi]=-\\sum_{i=1}^{I}\\log\\left[Pr(\\mathbf{x}_{i}|\\phi)\\right].\n\\end{aligned}\n\\tag{14.1}"
+    "text": "\\begin{aligned}\nL[\\phi]=-\\sum_{i=1}^{I}\\log\\left[Pr(\\mathbf{x}_{i}|\\phi)\\right].\n\\end{aligned} \\quad (14.1)"
   },
   {
     "id": "page_0270-b012",

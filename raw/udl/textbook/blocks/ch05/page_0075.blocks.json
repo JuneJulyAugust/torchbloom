@@ -43,7 +43,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\nPr(y|\\lambda,\\mu_{1},\\mu_{2},\\sigma_{1}^{2},\\sigma_{2}^{2})=\\frac{\\lambda}{\\sqrt{2\\pi\\sigma_{1}^{2}}}\\exp\\left[\\frac{-{(y-\\mu_{1})}^{2}}{2\\sigma_{1}^{2}}\\right]+\\frac{1-\\lambda}{\\sqrt{2\\pi\\sigma_{2}^{2}}}\\exp\\left[\\frac{-{(y-\\mu_{2})}^{2}}{2\\sigma_{2}^{2}}\\right],\n\\end{aligned}\n\\tag{5.35}"
+    "text": "\\begin{aligned}\nPr(y|\\lambda,\\mu_{1},\\mu_{2},\\sigma_{1}^{2},\\sigma_{2}^{2})=\\frac{\\lambda}{\\sqrt{2\\pi\\sigma_{1}^{2}}}\\exp\\left[\\frac{-{(y-\\mu_{1})}^{2}}{2\\sigma_{1}^{2}}\\right]+\\frac{1-\\lambda}{\\sqrt{2\\pi\\sigma_{2}^{2}}}\\exp\\left[\\frac{-{(y-\\mu_{2})}^{2}}{2\\sigma_{2}^{2}}\\right],\n\\end{aligned} \\quad (5.35)"
   },
   {
     "id": "page_0075-b006",

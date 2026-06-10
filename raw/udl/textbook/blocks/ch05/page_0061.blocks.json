@@ -52,7 +52,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\nPr(y|\\mu,\\sigma^{2})=\\frac{1}{\\sqrt{2\\pi\\sigma^{2}}}\\exp\\left[-\\frac{(y-\\mu)^{2}}{2\\sigma^{2}}\\right].\n\\end{aligned}\n\\tag{5.7}"
+    "text": "\\begin{aligned}\nPr(y|\\mu,\\sigma^{2})=\\frac{1}{\\sqrt{2\\pi\\sigma^{2}}}\\exp\\left[-\\frac{(y-\\mu)^{2}}{2\\sigma^{2}}\\right].\n\\end{aligned} \\quad (5.7)"
   },
   {
     "id": "page_0061-b007",
@@ -70,7 +70,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\nPr(y|\\mathbf{x},\\phi),\\sigma^{2})=\\frac{1}{\\sqrt{2\\pi\\sigma^{2}}}\\exp\\left[-\\frac{(y-f[\\mathbf{x},\\phi])^{2}}{2\\sigma^{2}}\\right].\n\\end{aligned}\n\\tag{5.8}"
+    "text": "\\begin{aligned}\nPr(y|\\mathbf{x},\\phi),\\sigma^{2})=\\frac{1}{\\sqrt{2\\pi\\sigma^{2}}}\\exp\\left[-\\frac{(y-f[\\mathbf{x},\\phi])^{2}}{2\\sigma^{2}}\\right].\n\\end{aligned} \\quad (5.8)"
   },
   {
     "id": "page_0061-b009",
@@ -88,7 +88,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\begin{align*}L[\\phi]\\ =&\\ -\\sum_{i=1}^{I}\\log\\left[Pr(y_{i}|f[\\mathbf{x}_{i},\\phi],\\sigma^{2})\\right]\\\\=&\\ -\\sum_{i=1}^{I}\\log\\left[\\frac{1}{\\sqrt{2\\pi\\sigma^{2}}}\\exp\\left[-\\frac{(y_{i}-f[\\mathbf{x}_{i},\\phi])^{2}}{2\\sigma^{2}}\\right]\\right].\\end{align*}\n\\end{aligned}\n\\tag{5.9}"
+    "text": "\\begin{aligned}\n\\begin{align*}L[\\phi]\\ =&\\ -\\sum_{i=1}^{I}\\log\\left[Pr(y_{i}|f[\\mathbf{x}_{i},\\phi],\\sigma^{2})\\right]\\\\=&\\ -\\sum_{i=1}^{I}\\log\\left[\\frac{1}{\\sqrt{2\\pi\\sigma^{2}}}\\exp\\left[-\\frac{(y_{i}-f[\\mathbf{x}_{i},\\phi])^{2}}{2\\sigma^{2}}\\right]\\right].\\end{align*}\n\\end{aligned} \\quad (5.9)"
   },
   {
     "id": "page_0061-b011",

@@ -24,7 +24,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\begin{align*}\\tilde{L}_{SGD}[\\phi]\\quad&=\\quad\\tilde{L}_{GD}[\\phi]+\\frac{\\alpha}{4B}\\sum_{b=1}^{B}\\left\\|\\frac{\\partial L_{b}}{\\partial\\phi}-\\frac{\\partial L}{\\partial\\phi}\\right\\|^{2}\\\\&=\\quad L[\\phi]+\\frac{\\alpha}{4}\\left\\|\\frac{\\partial L}{\\partial\\phi}\\right\\|^{2}+\\frac{\\alpha}{4B}\\sum_{b=1}^{B}\\left\\|\\frac{\\partial L_{b}}{\\partial\\phi}-\\frac{\\partial L}{\\partial\\phi}\\right\\|^{2}.\\end{align*}\n\\end{aligned}\n\\tag{9.9}"
+    "text": "\\begin{aligned}\n\\begin{align*}\\tilde{L}_{SGD}[\\phi]\\quad&=\\quad\\tilde{L}_{GD}[\\phi]+\\frac{\\alpha}{4B}\\sum_{b=1}^{B}\\left\\|\\frac{\\partial L_{b}}{\\partial\\phi}-\\frac{\\partial L}{\\partial\\phi}\\right\\|^{2}\\\\&=\\quad L[\\phi]+\\frac{\\alpha}{4}\\left\\|\\frac{\\partial L}{\\partial\\phi}\\right\\|^{2}+\\frac{\\alpha}{4B}\\sum_{b=1}^{B}\\left\\|\\frac{\\partial L_{b}}{\\partial\\phi}-\\frac{\\partial L}{\\partial\\phi}\\right\\|^{2}.\\end{align*}\n\\end{aligned} \\quad (9.9)"
   },
   {
     "id": "page_0143-b004",
@@ -42,7 +42,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\nL=\\frac{1}{I}\\sum_{i=1}^{I}l_{i}[x_{i},y_{i}]\\qquad and\\qquad L_{b}=\\frac{1}{|B|}\\sum_{i\\in B_{b}}l_{i}[x_{i},y_{i}].\n\\end{aligned}\n\\tag{9.10}"
+    "text": "\\begin{aligned}\nL=\\frac{1}{I}\\sum_{i=1}^{I}l_{i}[x_{i},y_{i}]\\qquad and\\qquad L_{b}=\\frac{1}{|B|}\\sum_{i\\in B_{b}}l_{i}[x_{i},y_{i}].\n\\end{aligned} \\quad (9.10)"
   },
   {
     "id": "page_0143-b006",

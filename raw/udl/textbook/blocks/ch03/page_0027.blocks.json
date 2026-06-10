@@ -6,7 +6,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}h_1 &= a[\\theta_{10}+\\theta_{11}x]\\\\ h_2 &= a[\\theta_{20}+\\theta_{21}x]\\\\ h_3 &= a[\\theta_{30}+\\theta_{31}x]\\end{aligned} \\tag{3.3}"
+    "text": "\\begin{aligned}h_1 &= a[\\theta_{10}+\\theta_{11}x]\\\\ h_2 &= a[\\theta_{20}+\\theta_{21}x]\\\\ h_3 &= a[\\theta_{30}+\\theta_{31}x]\\end{aligned} \\quad (3.3)"
   },
   {
     "id": "page_0027-b002",
@@ -24,7 +24,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "y=\\phi_0+\\phi_1h_1+\\phi_2h_2+\\phi_3h_3. \\tag{3.4}"
+    "text": "y=\\phi_0+\\phi_1h_1+\\phi_2h_2+\\phi_3h_3. \\quad (3.4)"
   },
   {
     "id": "page_0027-b004",

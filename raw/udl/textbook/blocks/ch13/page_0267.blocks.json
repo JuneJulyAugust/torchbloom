@@ -44,7 +44,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\\mathbf{H}_{k+1}&=\\quad\\mathbf{GraphLayer}[\\mathbf{H}_{k},\\mathbf{A}]\\\\&=\\quad\\mathbf{a}\\left[\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\boldsymbol{\\Omega}_{k}\\begin{bmatrix}\\mathbf{H}_{k}\\\\ \\mathbf{H}_{k}\\mathbf{A}\\end{bmatrix}\\right],\\end{aligned}\n\\tag{13.28}"
+    "text": "\\begin{aligned}\\mathbf{H}_{k+1}&=\\quad\\mathbf{GraphLayer}[\\mathbf{H}_{k},\\mathbf{A}]\\\\&=\\quad\\mathbf{a}\\left[\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\boldsymbol{\\Omega}_{k}\\begin{bmatrix}\\mathbf{H}_{k}\\\\ \\mathbf{H}_{k}\\mathbf{A}\\end{bmatrix}\\right],\\end{aligned} \\quad (13.28)"
   },
   {
     "id": "page_0267-b006",
@@ -62,7 +62,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\mathrm{GraphLayer}[\\mathbf{H}_{k},\\mathbf{A}]{\\bf P}=\\mathrm{GraphLayer}[\\mathbf{H}_{k}{\\bf P},{\\bf P}^{T}\\mathbf{A}{\\bf P}],\n\\end{aligned}\n\\tag{13.29}"
+    "text": "\\begin{aligned}\n\\mathrm{GraphLayer}[\\mathbf{H}_{k},\\mathbf{A}]{\\bf P}=\\mathrm{GraphLayer}[\\mathbf{H}_{k}{\\bf P},{\\bf P}^{T}\\mathbf{A}{\\bf P}],\n\\end{aligned} \\quad (13.29)"
   },
   {
     "id": "page_0267-b008",
@@ -98,7 +98,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\mathbf{agg}[n]=\\frac{1}{1+|\\mathsf{ne}[n]|}\\left(\\mathbf{h}_{n}+\\sum_{m\\in\\mathsf{ne}[n]}\\mathbf{h}_{m}\\right).\n\\end{aligned}\n\\tag{13.30}"
+    "text": "\\begin{aligned}\n\\mathbf{agg}[n]=\\frac{1}{1+|\\mathsf{ne}[n]|}\\left(\\mathbf{h}_{n}+\\sum_{m\\in\\mathsf{ne}[n]}\\mathbf{h}_{m}\\right).\n\\end{aligned} \\quad (13.30)"
   },
   {
     "id": "page_0267-b012",

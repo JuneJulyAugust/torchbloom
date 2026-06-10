@@ -61,7 +61,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\frac{d\\phi}{dt}=-\\frac{\\partial L}{\\partial\\phi}.\n\\end{aligned}\n\\tag{9.6}"
+    "text": "\\begin{aligned}\n\\frac{d\\phi}{dt}=-\\frac{\\partial L}{\\partial\\phi}.\n\\end{aligned} \\quad (9.6)"
   },
   {
     "id": "page_0141-b008",

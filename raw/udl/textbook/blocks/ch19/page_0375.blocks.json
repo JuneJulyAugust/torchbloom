@@ -61,7 +61,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\nG_{t}=\\sum_{k=0}^{\\infty}\\gamma^{k}r_{t+k+1}.\n\\end{aligned}\n\\tag{19.1}"
+    "text": "\\begin{aligned}\nG_{t}=\\sum_{k=0}^{\\infty}\\gamma^{k}r_{t+k+1}.\n\\end{aligned} \\quad (19.1)"
   },
   {
     "id": "page_0375-b008",

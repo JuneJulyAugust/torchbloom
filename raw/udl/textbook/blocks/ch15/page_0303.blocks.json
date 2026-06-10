@@ -51,7 +51,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\mathbf{b}=\\left[Pr(x=1),Pr(x=2),Pr(x=3),Pr(x=4),q(x=1),q(x=2),q(x=3),q(x=4)\\right]^{T}.\n\\end{aligned}\n\\tag{15.18}"
+    "text": "\\begin{aligned}\n\\mathbf{b}=\\left[Pr(x=1),Pr(x=2),Pr(x=3),Pr(x=4),q(x=1),q(x=2),q(x=3),q(x=4)\\right]^{T}.\n\\end{aligned} \\quad (15.18)"
   },
   {
     "id": "page_0303-b007",
@@ -78,7 +78,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\nPr(z)=\\begin{cases}0&z<0\\\\1&0\\leq z\\leq1,\\\\0&z>1\\end{cases}\\quad and\\quad Pr(z)=\\begin{cases}0&z<a\\\\1&a\\leq z\\leq a+1.\\\\0&z>a\\end{cases}.\n\\end{aligned}\n\\tag{15.19}"
+    "text": "\\begin{aligned}\nPr(z)=\\begin{cases}0&z<0\\\\1&0\\leq z\\leq1,\\\\0&z>1\\end{cases}\\quad and\\quad Pr(z)=\\begin{cases}0&z<a\\\\1&a\\leq z\\leq a+1.\\\\0&z>a\\end{cases}.\n\\end{aligned} \\quad (15.19)"
   },
   {
     "id": "page_0303-b010",
@@ -105,7 +105,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\nD_{kl}=\\log\\left[\\frac{\\sigma_{2}}{\\sigma_{1}}\\right]+\\frac{\\sigma_{1}^{2}+(\\mu_{1}-\\mu_{2})^{2}}{2\\sigma_{2}^{2}}-\\frac{1}{2},\n\\end{aligned}\n\\tag{15.20}"
+    "text": "\\begin{aligned}\nD_{kl}=\\log\\left[\\frac{\\sigma_{2}}{\\sigma_{1}}\\right]+\\frac{\\sigma_{1}^{2}+(\\mu_{1}-\\mu_{2})^{2}}{2\\sigma_{2}^{2}}-\\frac{1}{2},\n\\end{aligned} \\quad (15.20)"
   },
   {
     "id": "page_0303-b013",
@@ -123,7 +123,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\nD_{w}=(\\mu_{1}-\\mu_{2})^{2}+\\sigma_{1}+\\sigma_{2}-2\\sqrt{\\sigma_{1}\\sigma_{2}},\n\\end{aligned}\n\\tag{15.21}"
+    "text": "\\begin{aligned}\nD_{w}=(\\mu_{1}-\\mu_{2})^{2}+\\sigma_{1}+\\sigma_{2}-2\\sqrt{\\sigma_{1}\\sigma_{2}},\n\\end{aligned} \\quad (15.21)"
   },
   {
     "id": "page_0303-b015",

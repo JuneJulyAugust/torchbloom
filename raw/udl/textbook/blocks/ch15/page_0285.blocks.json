@@ -89,7 +89,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\nD_{w}\\Big[Pr(x)||q(x)\\Big]=\\max_{\\mathbf{f}}\\left[\\sum_{i}Pr(x=i)f_{i}-\\sum_{j}q(x=j)f_{j}\\right],\n\\end{aligned}\n\\tag{15.12}"
+    "text": "\\begin{aligned}\nD_{w}\\Big[Pr(x)||q(x)\\Big]=\\max_{\\mathbf{f}}\\left[\\sum_{i}Pr(x=i)f_{i}-\\sum_{j}q(x=j)f_{j}\\right],\n\\end{aligned} \\quad (15.12)"
   },
   {
     "id": "page_0285-b011",

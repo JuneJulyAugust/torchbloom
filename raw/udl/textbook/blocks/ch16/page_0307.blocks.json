@@ -1,1 +1,110 @@
-[{"id":"page_0307-b001","page_key":307,"order":1,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"16.1.3 Learning"},{"id":"page_0307-b002","page_key":307,"order":2,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"To learn the distribution, we find parameters $\\phi$ that maximize the likelihood of the training data $\\lbracex_{i}\\rbrace_{i=1}^{I}$ or equivalently minimize the negative log-likelihood:"},{"id":"page_0307-b003","page_key":307,"order":3,"type":"equation","source":"deepseek","confidence":"high","text":"\\begin{align*}\\hat{\\phi}=&\\argmax_{\\phi}\\left[\\prod_{i=1}^{I}Pr(x_{i}|\\boldsymbol{\\phi})\\right]\\\\=&argmin_{\\phi}\\left[\\sum_{i=1}^{I}-\\log\\left[Pr(x_{i}|\\boldsymbol{\\phi})\\right]\\right]\\\\=&argmin_{\\phi}\\left[\\sum_{i=1}^{I}\\log\\left|\\frac{\\partial\\mathrm{f}[z_{i},\\boldsymbol{\\phi}]}{\\partial z_{i}}\\right|\\right]-\\log\\left[Pr(z_{i})\\right],\\end{align*} \\quad (16.2)"},{"id":"page_0307-b004","page_key":307,"order":4,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"where we have assumed that the data are independent and identically distributed in the first line and used the likelihood definition from equation 16.1 in the third line."},{"id":"page_0307-b005","page_key":307,"order":5,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"16.2 General case"},{"id":"page_0307-b006","page_key":307,"order":6,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"The previous section developed a simple 1D example that modeled a probability distribution $Pr(x)$ by transforming a simpler base density $Pr(z)$ . We now extend this to multivariate distributions $Pr(\\mathbf{x})$ and $Pr(\\mathbf{z})$ and add the complication that the transformation is defined by a deep neural network."},{"id":"page_0307-b007","page_key":307,"order":7,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"Consider applying a function $\\mathbf{x} = \\mathbf{f}[z, \\phi]$ to a random variable $z \\in \\mathbb{R}^{D}$ with base density $\\Pr(\\mathbf{z})$, where $\\mathbf{f}[z, \\phi]$ is a deep network. The resulting variable $\\mathbf{x} \\in \\mathbb{R}^{D}$ has a new distribution. A new sample $x^{*}$ can be drawn from this distribution by (i) drawing a sample $\\mathbf{z}^{*}$ from the base density and (ii) passing this through the neural network so that $\\mathbf{x}^{*} = \\mathbf{f}[z^{*}, \\phi]$."},{"id":"page_0307-b008","page_key":307,"order":8,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"By analogy with equation 16.1, the likelihood of a sample under this distribution is:"},{"id":"page_0307-b009","page_key":307,"order":9,"type":"equation","source":"deepseek","confidence":"high","text":"Pr(\\mathbf{x}|\\boldsymbol{\\phi})=\\left|\\frac{\\partial\\mathbf{f}[\\mathbf{z},\\boldsymbol{\\phi}]}{\\partial\\mathbf{z}}\\right|^{-1}\\cdot Pr(\\mathbf{z}), \\quad (16.3)"},{"id":"page_0307-b010","page_key":307,"order":10,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"where $\\mathbf{z} = \\mathbf{f}^{-1}[x, \\phi]$ is the latent variable $z$ that created $\\mathbf{x}$. The first term is the inverse of the determinant of the $D \\times D$ Jacobian matrix $\\partial\\mathbf{f}[z, \\phi]/\\partial z$, which contains elements $\\partial f_j[z, \\phi]/\\partial z_i$ at position $(i,j)$. Just as the absolute derivative measured the change of area at a point on a 1D function when the function was applied, the absolute determinant measures the change in volume at a point in the multivariate function. The second term is the probability of the latent variable under the base density."},{"id":"page_0307-b011","page_key":307,"order":11,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"Appendix B.3.8 Determinant"},{"id":"page_0307-b012","page_key":307,"order":12,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"Appendix B.5 Jacobian"}]
+[
+  {
+    "id": "page_0307-b001",
+    "page_key": 307,
+    "order": 1,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "16.1.3 Learning"
+  },
+  {
+    "id": "page_0307-b002",
+    "page_key": 307,
+    "order": 2,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "To learn the distribution, we find parameters $\\phi$ that maximize the likelihood of the training data $\\lbrace x_{i}\\rbrace_{i=1}^{I}$ or equivalently minimize the negative log-likelihood:"
+  },
+  {
+    "id": "page_0307-b003",
+    "page_key": 307,
+    "order": 3,
+    "type": "equation",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "\\begin{align*}\\hat{\\phi}=&\\argmax_{\\phi}\\left[\\prod_{i=1}^{I}Pr(x_{i}|\\boldsymbol{\\phi})\\right]\\\\=&argmin_{\\phi}\\left[\\sum_{i=1}^{I}-\\log\\left[Pr(x_{i}|\\boldsymbol{\\phi})\\right]\\right]\\\\=&argmin_{\\phi}\\left[\\sum_{i=1}^{I}\\log\\left|\\frac{\\partial\\mathrm{f}[z_{i},\\boldsymbol{\\phi}]}{\\partial z_{i}}\\right|\\right]-\\log\\left[Pr(z_{i})\\right],\\end{align*} \\quad (16.2)"
+  },
+  {
+    "id": "page_0307-b004",
+    "page_key": 307,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "where we have assumed that the data are independent and identically distributed in the first line and used the likelihood definition from equation 16.1 in the third line."
+  },
+  {
+    "id": "page_0307-b005",
+    "page_key": 307,
+    "order": 5,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "16.2 General case"
+  },
+  {
+    "id": "page_0307-b006",
+    "page_key": 307,
+    "order": 6,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "The previous section developed a simple 1D example that modeled a probability distribution $Pr(x)$ by transforming a simpler base density $Pr(z)$ . We now extend this to multivariate distributions $Pr(\\mathbf{x})$ and $Pr(\\mathbf{z})$ and add the complication that the transformation is defined by a deep neural network."
+  },
+  {
+    "id": "page_0307-b007",
+    "page_key": 307,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Consider applying a function $\\mathbf{x} = \\mathbf{f}[z, \\phi]$ to a random variable $z \\in \\mathbb{R}^{D}$ with base density $\\Pr(\\mathbf{z})$, where $\\mathbf{f}[z, \\phi]$ is a deep network. The resulting variable $\\mathbf{x} \\in \\mathbb{R}^{D}$ has a new distribution. A new sample $x^{*}$ can be drawn from this distribution by (i) drawing a sample $\\mathbf{z}^{*}$ from the base density and (ii) passing this through the neural network so that $\\mathbf{x}^{*} = \\mathbf{f}[z^{*}, \\phi]$."
+  },
+  {
+    "id": "page_0307-b008",
+    "page_key": 307,
+    "order": 8,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "By analogy with equation 16.1, the likelihood of a sample under this distribution is:"
+  },
+  {
+    "id": "page_0307-b009",
+    "page_key": 307,
+    "order": 9,
+    "type": "equation",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "Pr(\\mathbf{x}|\\boldsymbol{\\phi})=\\left|\\frac{\\partial\\mathbf{f}[\\mathbf{z},\\boldsymbol{\\phi}]}{\\partial\\mathbf{z}}\\right|^{-1}\\cdot Pr(\\mathbf{z}), \\quad (16.3)"
+  },
+  {
+    "id": "page_0307-b010",
+    "page_key": 307,
+    "order": 10,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "where $\\mathbf{z} = \\mathbf{f}^{-1}[x, \\phi]$ is the latent variable $z$ that created $\\mathbf{x}$. The first term is the inverse of the determinant of the $D \\times D$ Jacobian matrix $\\partial\\mathbf{f}[z, \\phi]/\\partial z$, which contains elements $\\partial f_j[z, \\phi]/\\partial z_i$ at position $(i,j)$. Just as the absolute derivative measured the change of area at a point on a 1D function when the function was applied, the absolute determinant measures the change in volume at a point in the multivariate function. The second term is the probability of the latent variable under the base density."
+  },
+  {
+    "id": "page_0307-b011",
+    "page_key": 307,
+    "order": 11,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Appendix B.3.8 Determinant"
+  },
+  {
+    "id": "page_0307-b012",
+    "page_key": 307,
+    "order": 12,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Appendix B.5 Jacobian"
+  }
+]

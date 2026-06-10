@@ -15,7 +15,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\ns_{mn}=\\mathbf{a}\\left[\\phi_{\\boldsymbol{k}}^{T}\\begin{bmatrix}\\mathbf{h}_{m}^{\\prime}\\\\ \\mathbf{h}_{n}^{\\prime}\\end{bmatrix}\\right].\n\\end{aligned}\n\\tag{13.23}"
+    "text": "\\begin{aligned}\ns_{mn}=\\mathbf{a}\\left[\\phi_{\\boldsymbol{k}}^{T}\\begin{bmatrix}\\mathbf{h}_{m}^{\\prime}\\\\ \\mathbf{h}_{n}^{\\prime}\\end{bmatrix}\\right].\n\\end{aligned} \\quad (13.23)"
   },
   {
     "id": "page_0260-b003",
@@ -33,7 +33,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\mathbf{H}_{k+1}=\\mathbf{a}\\big[\\mathbf{H}_{k}^{\\prime}.\\mathbf{S o f t m a s k}[\\mathbf{S},\\mathbf{A}+\\mathbf{I}\\big],\n\\end{aligned}\n\\tag{13.24}"
+    "text": "\\begin{aligned}\n\\mathbf{H}_{k+1}=\\mathbf{a}\\big[\\mathbf{H}_{k}^{\\prime}.\\mathbf{S o f t m a s k}[\\mathbf{S},\\mathbf{A}+\\mathbf{I}\\big],\n\\end{aligned} \\quad (13.24)"
   },
   {
     "id": "page_0260-b005",

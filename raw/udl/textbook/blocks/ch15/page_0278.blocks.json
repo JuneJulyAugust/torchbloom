@@ -24,7 +24,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\hat{\\phi}\n&=\\underset{\\phi}{\\mathrm{argmin}}\\left[\n\\sum_{i}-(1-y_{i})\\log\\left[1-\\mathrm{sig}[f[\\mathbf{x}_{i},\\phi]]\\right]\n-y_{i}\\log\\left[\\mathrm{sig}[f[\\mathbf{x}_{i},\\phi]]\\right]\n\\right],\n\\end{aligned}\n\\tag{15.2}"
+    "text": "\\begin{aligned}\n\\hat{\\phi}\n&=\\underset{\\phi}{\\mathrm{argmin}}\\left[\n\\sum_{i}-(1-y_{i})\\log\\left[1-\\mathrm{sig}[f[\\mathbf{x}_{i},\\phi]]\\right]\n-y_{i}\\log\\left[\\mathrm{sig}[f[\\mathbf{x}_{i},\\phi]]\\right]\n\\right],\n\\end{aligned} \\quad (15.2)"
   },
   {
     "id": "page_0278-b004",
@@ -51,7 +51,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\hat{\\phi}\n&=\\underset{\\phi}{\\mathrm{argmin}}\\left[\n\\sum_{j}-\\log\\left[1-\\mathrm{sig}[f[\\mathbf{x}_{j}^{*},\\phi]]\\right]\n-\\sum_{i}\\log\\left[\\mathrm{sig}[f[\\mathbf{x}_{i},\\phi]]\\right]\n\\right],\n\\end{aligned}\n\\tag{15.3}"
+    "text": "\\begin{aligned}\n\\hat{\\phi}\n&=\\underset{\\phi}{\\mathrm{argmin}}\\left[\n\\sum_{j}-\\log\\left[1-\\mathrm{sig}[f[\\mathbf{x}_{j}^{*},\\phi]]\\right]\n-\\sum_{i}\\log\\left[\\mathrm{sig}[f[\\mathbf{x}_{i},\\phi]]\\right]\n\\right],\n\\end{aligned} \\quad (15.3)"
   },
   {
     "id": "page_0278-b007",
@@ -78,7 +78,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\hat{\\theta}\n&=\\underset{\\theta}{\\mathrm{argmax}}\\left[\n\\min_{\\phi}\\left[\n\\sum_{j}-\\log\\left[1-\\mathrm{sig}[f[\\mathrm{g}[z_{j},\\theta],\\phi]]\\right]\n-\\sum_{i}\\log\\left[\\mathrm{sig}[f[\\mathbf{x}_{i},\\phi]]\\right]\n\\right]\\right].\n\\end{aligned}\n\\tag{15.4}"
+    "text": "\\begin{aligned}\n\\hat{\\theta}\n&=\\underset{\\theta}{\\mathrm{argmax}}\\left[\n\\min_{\\phi}\\left[\n\\sum_{j}-\\log\\left[1-\\mathrm{sig}[f[\\mathrm{g}[z_{j},\\theta],\\phi]]\\right]\n-\\sum_{i}\\log\\left[\\mathrm{sig}[f[\\mathbf{x}_{i},\\phi]]\\right]\n\\right]\\right].\n\\end{aligned} \\quad (15.4)"
   },
   {
     "id": "page_0278-b010",
@@ -114,6 +114,6 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\nL[\\phi]&=\\sum_{j}-\\log\\left[1-\\mathrm{sig}[f[\\mathrm{g}[z_{j},\\theta],\\phi]]\\right]-\\sum_{i}\\log\\left[\\mathrm{sig}[f[\\mathbf{x}_{i},\\phi]]\\right]\\\\\nL[\\theta]&=\\sum_{j}\\log\\left[1-\\mathrm{sig}[f[\\mathrm{g}[z_{j},\\theta],\\phi]]\\right],\n\\end{aligned}\n\\tag{15.5}"
+    "text": "\\begin{aligned}\nL[\\phi]&=\\sum_{j}-\\log\\left[1-\\mathrm{sig}[f[\\mathrm{g}[z_{j},\\theta],\\phi]]\\right]-\\sum_{i}\\log\\left[\\mathrm{sig}[f[\\mathbf{x}_{i},\\phi]]\\right]\\\\\nL[\\theta]&=\\sum_{j}\\log\\left[1-\\mathrm{sig}[f[\\mathrm{g}[z_{j},\\theta],\\phi]]\\right],\n\\end{aligned} \\quad (15.5)"
   }
 ]

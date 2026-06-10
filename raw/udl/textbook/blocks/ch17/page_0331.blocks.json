@@ -34,7 +34,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "To train the model, we maximize the log-likelihood over a training dataset $\\lbracex_{i}\\rbrace_{i=1}^{I}$ with respect to the model parameters. For simplicity, we assume that the variance term $\\sigma^{2}$ in the likelihood expression is known and concentrate on learning $\\phi$ :"
+    "text": "To train the model, we maximize the log-likelihood over a training dataset $\\lbrace x_{i}\\rbrace_{i=1}^{I}$ with respect to the model parameters. For simplicity, we assume that the variance term $\\sigma^{2}$ in the likelihood expression is known and concentrate on learning $\\phi$ :"
   },
   {
     "id": "page_0331-b005",

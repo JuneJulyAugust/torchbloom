@@ -61,7 +61,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}h_1 &= a[\\theta_{10}+\\theta_{11}x]\\\\ h_2 &= a[\\theta_{20}+\\theta_{21}x]\\\\ h_3 &= a[\\theta_{30}+\\theta_{31}x]\\\\ h_4 &= a[\\theta_{40}+\\theta_{41}x]\\end{aligned} \\tag{3.7}"
+    "text": "\\begin{aligned}h_1 &= a[\\theta_{10}+\\theta_{11}x]\\\\ h_2 &= a[\\theta_{20}+\\theta_{21}x]\\\\ h_3 &= a[\\theta_{30}+\\theta_{31}x]\\\\ h_4 &= a[\\theta_{40}+\\theta_{41}x]\\end{aligned} \\quad (3.7)"
   },
   {
     "id": "page_0030-b008",

@@ -124,6 +124,6 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\pi[a|s]\\leftarrow\\underset{a}{\\mathrm{argmax}}\\Big[q[s,a]\\Big].\n\\end{aligned}\n\\tag{19.13}"
+    "text": "\\begin{aligned}\n\\pi[a|s]\\leftarrow\\underset{a}{\\mathrm{argmax}}\\Big[q[s,a]\\Big].\n\\end{aligned} \\quad (19.13)"
   }
 ]

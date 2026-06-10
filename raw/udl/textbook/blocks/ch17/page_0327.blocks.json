@@ -24,7 +24,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "Generative adversarial networks learn a mechanism for creating samples that cannot be distinguished from the training examples $\\lbracex_{i}\\rbrace$ . In contrast, like normalizing flows, variational autoencoders, or VAEs, are probabilistic generative models; they aim to learn a distribution $Pr(\\mathbf{x})$ over the data (see figure 14.2). After training, it is possible to draw (generate) samples from this distribution. However, the properties of the VAE mean that it is unfortunately not possible to evaluate the probability of new examples $x^{*}$ exactly."
+    "text": "Generative adversarial networks learn a mechanism for creating samples that cannot be distinguished from the training examples $\\lbrace x_{i}\\rbrace$ . In contrast, like normalizing flows, variational autoencoders, or VAEs, are probabilistic generative models; they aim to learn a distribution $Pr(\\mathbf{x})$ over the data (see figure 14.2). After training, it is possible to draw (generate) samples from this distribution. However, the properties of the VAE mean that it is unfortunately not possible to evaluate the probability of new examples $x^{*}$ exactly."
   },
   {
     "id": "page_0327-b004",

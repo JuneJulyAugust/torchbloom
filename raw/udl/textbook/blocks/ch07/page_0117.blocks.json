@@ -24,7 +24,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\frac{\\partial y}{\\partial f_{5}},\\frac{\\partial y}{\\partial f_{4}},\\frac{\\partial y}{\\partial f_{3}},\\frac{\\partial y}{\\partial f_{2}},\\frac{\\partial y}{\\partial f_{1}}\\quad\\text{and}\\quad\\frac{\\partial y}{\\partial x},\n\\end{aligned}\n\\tag{7.45}"
+    "text": "\\begin{aligned}\n\\frac{\\partial y}{\\partial f_{5}},\\frac{\\partial y}{\\partial f_{4}},\\frac{\\partial y}{\\partial f_{3}},\\frac{\\partial y}{\\partial f_{2}},\\frac{\\partial y}{\\partial f_{1}}\\quad\\text{and}\\quad\\frac{\\partial y}{\\partial x},\n\\end{aligned} \\quad (7.45)"
   },
   {
     "id": "page_0117-b004",
@@ -51,7 +51,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\frac{\\partial f_{1}}{\\partial x},\\frac{\\partial f_{2}}{\\partial x},\\frac{\\partial f_{3}}{\\partial x},\\frac{\\partial f_{4}}{\\partial x},\\frac{\\partial f_{5}}{\\partial x},and\\frac{\\partial y}{\\partial x},\n\\end{aligned}\n\\tag{7.46}"
+    "text": "\\begin{aligned}\n\\frac{\\partial f_{1}}{\\partial x},\\frac{\\partial f_{2}}{\\partial x},\\frac{\\partial f_{3}}{\\partial x},\\frac{\\partial f_{4}}{\\partial x},\\frac{\\partial f_{5}}{\\partial x},and\\frac{\\partial y}{\\partial x},\n\\end{aligned} \\quad (7.46)"
   },
   {
     "id": "page_0117-b007",
@@ -78,7 +78,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\nb=\\mathrm{ReLU}[a]=\\begin{cases}0&a<0\\\\ a&a\\geq0\\end{cases},\n\\end{aligned}\n\\tag{7.47}"
+    "text": "\\begin{aligned}\nb=\\mathrm{ReLU}[a]=\\begin{cases}0&a<0\\\\ a&a\\geq0\\end{cases},\n\\end{aligned} \\quad (7.47)"
   },
   {
     "id": "page_0117-b010",

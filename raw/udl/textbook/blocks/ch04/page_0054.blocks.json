@@ -43,7 +43,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\mathrm{ReLU}\\Big[\\boldsymbol{\\beta}_{1}+\\lambda_{1}\\cdot\\boldsymbol{\\Omega}_{1}\\mathrm{ReLU}[\\boldsymbol{\\beta}_{0}+\\lambda_{0}\\cdot\\boldsymbol{\\Omega}_{0}\\mathbf{x}]\\Big]=\\lambda_{0}\\lambda_{1}\\cdot\\mathrm{ReLU}\\left[\\frac{1}{\\lambda_{0}}\\boldsymbol{\\beta}_{0}+\\mathbf{\\Omega}_{0}\\mathbf{x}\\right],\n\\end{aligned}\n\\tag{4.18}"
+    "text": "\\begin{aligned}\n\\mathrm{ReLU}\\Big[\\boldsymbol{\\beta}_{1}+\\lambda_{1}\\cdot\\boldsymbol{\\Omega}_{1}\\mathrm{ReLU}[\\boldsymbol{\\beta}_{0}+\\lambda_{0}\\cdot\\boldsymbol{\\Omega}_{0}\\mathbf{x}]\\Big]=\\lambda_{0}\\lambda_{1}\\cdot\\mathrm{ReLU}\\left[\\frac{1}{\\lambda_{0}}\\boldsymbol{\\beta}_{0}+\\mathbf{\\Omega}_{0}\\mathbf{x}\\right],\n\\end{aligned} \\quad (4.18)"
   },
   {
     "id": "page_0054-b006",

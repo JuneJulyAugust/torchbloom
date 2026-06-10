@@ -70,7 +70,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\nv[s_{t}|\\pi]=\\mathbb{E}\\Big[G_{t}|s_{t},\\pi\\Big].\n\\end{aligned}\n\\tag{19.2}"
+    "text": "\\begin{aligned}\nv[s_{t}|\\pi]=\\mathbb{E}\\Big[G_{t}|s_{t},\\pi\\Big].\n\\end{aligned} \\quad (19.2)"
   },
   {
     "id": "page_0379-b009",
@@ -97,7 +97,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\nq[s_{t},a_{t}|\\pi]=\\mathbb{E}\\Big[G_{t}|s_{t},a_{t},\\pi\\Big].\n\\end{aligned}\n\\tag{19.3}"
+    "text": "\\begin{aligned}\nq[s_{t},a_{t}|\\pi]=\\mathbb{E}\\Big[G_{t}|s_{t},a_{t},\\pi\\Big].\n\\end{aligned} \\quad (19.3)"
   },
   {
     "id": "page_0379-b012",

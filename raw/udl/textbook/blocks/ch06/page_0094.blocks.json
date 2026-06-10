@@ -60,7 +60,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\mathbf{H}[\\boldsymbol{\\phi}]=\\begin{bmatrix}\\frac{\\partial^{2}L}{\\partial\\phi_{0}^{2}}&\\frac{\\partial^{2}L}{\\partial\\phi_{0}\\partial\\phi_{1}}\\\\ \\frac{\\partial^{2}L}{\\partial\\phi_{1}\\partial\\phi_{0}}&\\frac{\\partial^{2}L}{\\partial\\phi_{1}^{2}}\\end{bmatrix},\n\\end{aligned}\n\\tag{6.20}"
+    "text": "\\begin{aligned}\n\\mathbf{H}[\\boldsymbol{\\phi}]=\\begin{bmatrix}\\frac{\\partial^{2}L}{\\partial\\phi_{0}^{2}}&\\frac{\\partial^{2}L}{\\partial\\phi_{0}\\partial\\phi_{1}}\\\\ \\frac{\\partial^{2}L}{\\partial\\phi_{1}\\partial\\phi_{0}}&\\frac{\\partial^{2}L}{\\partial\\phi_{1}^{2}}\\end{bmatrix},\n\\end{aligned} \\quad (6.20)"
   },
   {
     "id": "page_0094-b008",
@@ -96,7 +96,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\nPr(y=1|x)=\\mathrm{sig}[\\phi_{0}+\\phi_{1}x],\n\\end{aligned}\n\\tag{6.21}"
+    "text": "\\begin{aligned}\nPr(y=1|x)=\\mathrm{sig}[\\phi_{0}+\\phi_{1}x],\n\\end{aligned} \\quad (6.21)"
   },
   {
     "id": "page_0094-b012",
@@ -114,6 +114,6 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\mathrm{sig}[z]=\\frac{1}{1+\\exp[-z]}.\n\\end{aligned}\n\\tag{6.22}"
+    "text": "\\begin{aligned}\n\\mathrm{sig}[z]=\\frac{1}{1+\\exp[-z]}.\n\\end{aligned} \\quad (6.22)"
   }
 ]

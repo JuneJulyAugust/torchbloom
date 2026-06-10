@@ -24,7 +24,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\nv^{*}[s_{t}]=\\max_{\\pi}\\left[\\mathbb{E}\\Big[G_{t}|s_{t},\\pi\\Big]\\right].\n\\end{aligned}\n\\tag{19.4}"
+    "text": "\\begin{aligned}\nv^{*}[s_{t}]=\\max_{\\pi}\\left[\\mathbb{E}\\Big[G_{t}|s_{t},\\pi\\Big]\\right].\n\\end{aligned} \\quad (19.4)"
   },
   {
     "id": "page_0380-b004",
@@ -42,7 +42,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\nq^{*}[s_{t},a_{t}]=\\max_{\\pi}\\left[\\mathbb{E}\\Big[G_{t}|s_{t},a_{t},\\pi\\Big]\\right].\n\\end{aligned}\n\\tag{19.5}"
+    "text": "\\begin{aligned}\nq^{*}[s_{t},a_{t}]=\\max_{\\pi}\\left[\\mathbb{E}\\Big[G_{t}|s_{t},a_{t},\\pi\\Big]\\right].\n\\end{aligned} \\quad (19.5)"
   },
   {
     "id": "page_0380-b006",
@@ -60,7 +60,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\pi[a_{t}|s_{t}]\\leftarrow\\mathrm{argmax}_{a_{t}}\\Big[q^{*}[s_{t},a_{t}]\\Big].\n\\end{aligned}\n\\tag{19.6}"
+    "text": "\\begin{aligned}\n\\pi[a_{t}|s_{t}]\\leftarrow\\mathrm{argmax}_{a_{t}}\\Big[q^{*}[s_{t},a_{t}]\\Big].\n\\end{aligned} \\quad (19.6)"
   },
   {
     "id": "page_0380-b008",
@@ -96,7 +96,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\nv[s_{t}]=\\sum_{a_{t}}\\pi[a_{t}|s_{t}]q[s_{t},a_{t}].\n\\end{aligned}\n\\tag{19.7}"
+    "text": "\\begin{aligned}\nv[s_{t}]=\\sum_{a_{t}}\\pi[a_{t}|s_{t}]q[s_{t},a_{t}].\n\\end{aligned} \\quad (19.7)"
   },
   {
     "id": "page_0380-b012",
@@ -114,7 +114,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\nq[s_{t},a_{t}]=r[s_{t},a_{t}]+\\gamma\\cdot\\sum_{s_{t+1}}Pr(s_{t+1}|s_{t},a_{t})v[s_{t+1}].\n\\end{aligned}\n\\tag{19.8}"
+    "text": "\\begin{aligned}\nq[s_{t},a_{t}]=r[s_{t},a_{t}]+\\gamma\\cdot\\sum_{s_{t+1}}Pr(s_{t+1}|s_{t},a_{t})v[s_{t+1}].\n\\end{aligned} \\quad (19.8)"
   },
   {
     "id": "page_0380-b014",

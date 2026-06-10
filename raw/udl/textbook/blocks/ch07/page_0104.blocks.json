@@ -52,7 +52,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{2}}=\\frac{\\partial\\mathbf{h}_{3}}{\\partial\\mathbf{f}_{2}}\\overline{{\\frac{\\partial\\mathbf{f}_{3}}{\\partial\\mathbf{h}_{3}}}}\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{3}}.\n\\end{aligned}\n\\tag{7.18}"
+    "text": "\\begin{aligned}\n\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{2}}=\\frac{\\partial\\mathbf{h}_{3}}{\\partial\\mathbf{f}_{2}}\\overline{{\\frac{\\partial\\mathbf{f}_{3}}{\\partial\\mathbf{h}_{3}}}}\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{3}}.\n\\end{aligned} \\quad (7.18)"
   },
   {
     "id": "page_0104-b007",
@@ -79,7 +79,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{1}}=\\quad\\frac{\\partial\\mathbf{h}_{2}}{\\partial\\mathbf{f}_{1}}\\frac{\\partial\\mathbf{f}_{2}}{\\partial\\mathbf{h}_{2}}\\left(\\frac{\\partial\\mathbf{h}_{3}}{\\partial\\mathbf{f}_{2}}\\frac{\\partial\\mathbf{f}_{3}}{\\partial\\mathbf{h}_{3}}\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{3}}\\right)\n\\end{aligned}\n\\tag{7.19}"
+    "text": "\\begin{aligned}\n\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{1}}=\\quad\\frac{\\partial\\mathbf{h}_{2}}{\\partial\\mathbf{f}_{1}}\\frac{\\partial\\mathbf{f}_{2}}{\\partial\\mathbf{h}_{2}}\\left(\\frac{\\partial\\mathbf{h}_{3}}{\\partial\\mathbf{f}_{2}}\\frac{\\partial\\mathbf{f}_{3}}{\\partial\\mathbf{h}_{3}}\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{3}}\\right)\n\\end{aligned} \\quad (7.19)"
   },
   {
     "id": "page_0104-b010",
@@ -88,7 +88,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{0}}=\\quad\\frac{\\partial\\mathbf{h}_{1}}{\\partial\\mathbf{f}_{0}}\\frac{\\partial\\mathbf{f}_{1}}{\\partial\\mathbf{h}_{1}}\\left(\\frac{\\partial\\mathbf{h}_{2}}{\\partial\\mathbf{f}_{1}}\\frac{\\partial\\mathbf{f}_{2}}{\\partial\\ell_{3}}\\frac{\\partial\\mathbf{h}_{3}}{\\partial\\mathbf{f}_{3}}\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{3}}\\right).\n\\end{aligned}\n\\tag{7.20}"
+    "text": "\\begin{aligned}\n\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{0}}=\\quad\\frac{\\partial\\mathbf{h}_{1}}{\\partial\\mathbf{f}_{0}}\\frac{\\partial\\mathbf{f}_{1}}{\\partial\\mathbf{h}_{1}}\\left(\\frac{\\partial\\mathbf{h}_{2}}{\\partial\\mathbf{f}_{1}}\\frac{\\partial\\mathbf{f}_{2}}{\\partial\\ell_{3}}\\frac{\\partial\\mathbf{h}_{3}}{\\partial\\mathbf{f}_{3}}\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{3}}\\right).\n\\end{aligned} \\quad (7.20)"
   },
   {
     "id": "page_0104-b011",

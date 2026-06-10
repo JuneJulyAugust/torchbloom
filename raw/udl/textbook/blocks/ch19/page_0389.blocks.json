@@ -15,7 +15,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}&q_{1}[s_{t},a_{t}]\\quad\\leftarrow\\quad q_{1}[s_{t},a_{t}]+\\alpha\\Big(r[s_{t},a_{t}]+\\gamma\\cdot q_{2}\\Big[s_{t+1},\\underset{a}{\\mathrm{argmax}}\\Big[q_{1}[s_{t+1},a]\\Big]-\\ q_{1}[s_{t},a_{t}]\\Big)\\\\&q_{2}[s_{t},a_{t}]\\quad\\leftarrow\\quad q_{2}[s_{t},a_{t}]+\\alpha\\Big(r[s_{t},a_{t}]+\\gamma\\cdot q_{1}\\Big[s_{t+1},\\underset{a}{\\mathrm{argmax}}\\Big[q_{2}[s_{t+1},a]\\Big]-\\ q_{2}[s_{t},a_{t}]\\Big).\\\\ \\end{aligned} \\tag{19.20}"
+    "text": "\\begin{aligned}&q_{1}[s_{t},a_{t}]\\quad\\leftarrow\\quad q_{1}[s_{t},a_{t}]+\\alpha\\Big(r[s_{t},a_{t}]+\\gamma\\cdot q_{2}\\Big[s_{t+1},\\underset{a}{\\mathrm{argmax}}\\Big[q_{1}[s_{t+1},a]\\Big]-\\ q_{1}[s_{t},a_{t}]\\Big)\\\\&q_{2}[s_{t},a_{t}]\\quad\\leftarrow\\quad q_{2}[s_{t},a_{t}]+\\alpha\\Big(r[s_{t},a_{t}]+\\gamma\\cdot q_{1}\\Big[s_{t+1},\\underset{a}{\\mathrm{argmax}}\\Big[q_{2}[s_{t+1},a]\\Big]-\\ q_{2}[s_{t},a_{t}]\\Big).\\\\ \\end{aligned} \\quad (19.20)"
   },
   {
     "id": "page_0389-b003",
@@ -33,7 +33,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}&\\phi_{1}\\leftarrow\\phi_{1}+\\alpha\\Bigg(r[s_{t},a_{t}]+\\gamma\\cdot q\\bigg[s_{t+1},\\underset{a}{\\mathrm{argmax}}\\Big[q[s_{t+1},a,\\phi_{1}]\\big],\\phi_{2}\\Big]-q[s_{t},a_{t},\\phi_{1}]\\bigg)\\frac{\\partial q[s_{t},a_{t},\\phi_{1}]}{\\partial\\phi_{1}}\\\\&\\phi_{2}\\leftarrow\\phi_{2}+\\alpha\\Bigg(r[s_{t},a_{t}]+\\gamma\\cdot q\\bigg[s_{t+1},\\underset{a}{\\mathrm{argmax}}\\Big[q[s_{t+1},a,\\phi_{2}]\\big],\\phi_{1}\\Big]-q[s_{t},a_{t},\\phi_{2}]\\bigg)\\frac{\\partial q[s_{t},a_{t},\\phi_{2}]}{\\partial\\phi_{2}}.\\\\ \\end{aligned} \\tag{19.21}"
+    "text": "\\begin{aligned}&\\phi_{1}\\leftarrow\\phi_{1}+\\alpha\\Bigg(r[s_{t},a_{t}]+\\gamma\\cdot q\\bigg[s_{t+1},\\underset{a}{\\mathrm{argmax}}\\Big[q[s_{t+1},a,\\phi_{1}]\\big],\\phi_{2}\\Big]-q[s_{t},a_{t},\\phi_{1}]\\bigg)\\frac{\\partial q[s_{t},a_{t},\\phi_{1}]}{\\partial\\phi_{1}}\\\\&\\phi_{2}\\leftarrow\\phi_{2}+\\alpha\\Bigg(r[s_{t},a_{t}]+\\gamma\\cdot q\\bigg[s_{t+1},\\underset{a}{\\mathrm{argmax}}\\Big[q[s_{t+1},a,\\phi_{2}]\\big],\\phi_{1}\\Big]-q[s_{t},a_{t},\\phi_{2}]\\bigg)\\frac{\\partial q[s_{t},a_{t},\\phi_{2}]}{\\partial\\phi_{2}}.\\\\ \\end{aligned} \\quad (19.21)"
   },
   {
     "id": "page_0389-b005",
@@ -63,7 +63,7 @@
     "items": [
       "A stochastic policy naturally helps with exploration of the space; we are not obliged to take the best action at each time step.",
       "The loss changes smoothly as we modify a stochastic policy. This means we can use edge of the state. For example, consider an agent navigating in an environment where it can only observe nearby locations (e.g., figure 19.4). If two locations look identical, but the nearby reward structure is different, a stochastic policy allows the possibility of taking different actions until this ambiguity is resolved.",
-      "The MDP assumption is often incorrect; we usually don\u2019t have complete knowledge of the state. For example, consider an agent navigating in an environment where it can only observe nearby locations (e.g., figure 19.4). If two locations look identical, but the nearby reward structure is different, a stochastic policy allows the possibility of taking different actions until this ambiguity is resolved."
+      "The MDP assumption is often incorrect; we usually don’t have complete knowledge of the state. For example, consider an agent navigating in an environment where it can only observe nearby locations (e.g., figure 19.4). If two locations look identical, but the nearby reward structure is different, a stochastic policy allows the possibility of taking different actions until this ambiguity is resolved."
     ]
   }
 ]

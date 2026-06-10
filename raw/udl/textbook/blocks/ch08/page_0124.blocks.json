@@ -24,7 +24,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\nf_{\\mu}[x]=\\mathbb{E}_{\\mathcal{D}}\\Big[f[x,\\phi[\\mathcal{D}]]\\Big].\n\\end{aligned}\n\\tag{8.4}"
+    "text": "\\begin{aligned}\nf_{\\mu}[x]=\\mathbb{E}_{\\mathcal{D}}\\Big[f[x,\\phi[\\mathcal{D}]]\\Big].\n\\end{aligned} \\quad (8.4)"
   },
   {
     "id": "page_0124-b004",
@@ -42,7 +42,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\begin{align*}\\left(\\mathrm{f}[x,\\phi[\\mathcal{D}]]-\\mu[x]\\right)^{2}\\\\=\\left(\\left(f[x,\\phi[\\mathcal{D}]]-f_{\\mu}[x]\\right)+\\left(f_{\\mu}[x]-\\mu[x]\\right)\\right)^{2}\\\\=\\left(\\mathrm{f}[\\varepsilon,\\phi[\\mathcal{D}]]-\\mathrm{f}_{\\mu}[x]\\right)^{2}+2\\left(\\mathrm{f}[x,\\phi[\\mathcal{D}]]-\\mathrm{f}_{\\mu}[x]\\right)\\left(\\mathrm{f}_{\\mu}[x]-\\mu[x]\\right)+\\left(\\mathrm{f}_{\\mu}[x]-\\mu[x]\\right)^{2}.\\end{align*}\n\\end{aligned}\n\\tag{8.5}"
+    "text": "\\begin{aligned}\n\\begin{align*}\\left(\\mathrm{f}[x,\\phi[\\mathcal{D}]]-\\mu[x]\\right)^{2}\\\\=\\left(\\left(f[x,\\phi[\\mathcal{D}]]-f_{\\mu}[x]\\right)+\\left(f_{\\mu}[x]-\\mu[x]\\right)\\right)^{2}\\\\=\\left(\\mathrm{f}[\\varepsilon,\\phi[\\mathcal{D}]]-\\mathrm{f}_{\\mu}[x]\\right)^{2}+2\\left(\\mathrm{f}[x,\\phi[\\mathcal{D}]]-\\mathrm{f}_{\\mu}[x]\\right)\\left(\\mathrm{f}_{\\mu}[x]-\\mu[x]\\right)+\\left(\\mathrm{f}_{\\mu}[x]-\\mu[x]\\right)^{2}.\\end{align*}\n\\end{aligned} \\quad (8.5)"
   },
   {
     "id": "page_0124-b006",
@@ -60,7 +60,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\mathbb{E}_{\\mathcal{D}}\\Big[\\big(\\mathrm{f}[x,\\phi[\\mathcal{D}]]-\\mu[x]\\big)^{2}\\Big]=\\mathbb{E}_{\\mathcal{D}}\\bigg[\\underbrace{\\left(\\mathrm{f}[x,\\phi[\\mathcal{D}]]-\\mathrm{f}_{\\mu}[x]\\right)^{2}}_{\\text{variance}}+\\underbrace{\\left(\\mathrm{f}_{\\mu}[x]-\\mu[x]\\right)^{2}}_{\\text{bias}}+\\sigma^{2}.\n\\end{aligned}\n\\tag{8.6}"
+    "text": "\\begin{aligned}\n\\mathbb{E}_{\\mathcal{D}}\\Big[\\big(\\mathrm{f}[x,\\phi[\\mathcal{D}]]-\\mu[x]\\big)^{2}\\Big]=\\mathbb{E}_{\\mathcal{D}}\\bigg[\\underbrace{\\left(\\mathrm{f}[x,\\phi[\\mathcal{D}]]-\\mathrm{f}_{\\mu}[x]\\right)^{2}}_{\\text{variance}}+\\underbrace{\\left(\\mathrm{f}_{\\mu}[x]-\\mu[x]\\right)^{2}}_{\\text{bias}}+\\sigma^{2}.\n\\end{aligned} \\quad (8.6)"
   },
   {
     "id": "page_0124-b008",
@@ -78,7 +78,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\mathbb{E}_{\\mathcal{D}}\\Big[\\underbrace{\\left(\\mathrm{f}[x,\\phi[\\mathcal{D}]]-\\mathrm{f}_{\\mu}[x]\\right)^{2}}_{\\text{variance}}\\Big]+\\underbrace{\\left(\\mathrm{f}_{\\mu}[x]-\\mu[x]\\right)^{2}}_{\\text{bias}}+\\underbrace{\\sigma^{2}.}_{\\text{noise}}\n\\end{aligned}\n\\tag{8.7}"
+    "text": "\\begin{aligned}\n\\mathbb{E}_{\\mathcal{D}}\\Big[\\underbrace{\\left(\\mathrm{f}[x,\\phi[\\mathcal{D}]]-\\mathrm{f}_{\\mu}[x]\\right)^{2}}_{\\text{variance}}\\Big]+\\underbrace{\\left(\\mathrm{f}_{\\mu}[x]-\\mu[x]\\right)^{2}}_{\\text{bias}}+\\underbrace{\\sigma^{2}.}_{\\text{noise}}\n\\end{aligned} \\quad (8.7)"
   },
   {
     "id": "page_0124-b010",

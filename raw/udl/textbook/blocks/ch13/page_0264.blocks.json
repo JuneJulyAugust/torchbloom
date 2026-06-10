@@ -33,7 +33,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\mathbf{h}_{k+1}^{(n)}=\\mathrm{mlp}\\left[(1+\\epsilon_{k})\\mathbf{h}_{k}^{(n)}+\\sum_{m\\in\\mathbf{n}[n]}\\mathbf{h}_{k}^{(m)}\\right].\n\\end{aligned}\n\\tag{13.26}"
+    "text": "\\begin{aligned}\n\\mathbf{h}_{k+1}^{(n)}=\\mathrm{mlp}\\left[(1+\\epsilon_{k})\\mathbf{h}_{k}^{(n)}+\\sum_{m\\in\\mathbf{n}[n]}\\mathbf{h}_{k}^{(m)}\\right].\n\\end{aligned} \\quad (13.26)"
   },
   {
     "id": "page_0264-b005",

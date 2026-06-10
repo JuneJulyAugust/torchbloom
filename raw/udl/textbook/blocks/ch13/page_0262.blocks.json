@@ -42,7 +42,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\mathbf{h}_{n}\\leftarrow\\mathbf{f}[\\mathbf{x}_{n},\\mathbf{x}_{m\\in\\mathbb{N}[n]},\\mathbf{e}_{e\\in\\mathbf{nee}[n]},\\mathbf{h}_{m\\in\\mathbb{N}[n]},\\boldsymbol{\\phi}],\n\\end{aligned}\n\\tag{13.25}"
+    "text": "\\begin{aligned}\n\\mathbf{h}_{n}\\leftarrow\\mathbf{f}[\\mathbf{x}_{n},\\mathbf{x}_{m\\in\\mathbb{N}[n]},\\mathbf{e}_{e\\in\\mathbf{nee}[n]},\\mathbf{h}_{m\\in\\mathbb{N}[n]},\\boldsymbol{\\phi}],\n\\end{aligned} \\quad (13.25)"
   },
   {
     "id": "page_0262-b006",

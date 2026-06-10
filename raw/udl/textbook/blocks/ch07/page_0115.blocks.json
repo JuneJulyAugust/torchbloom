@@ -6,7 +6,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}y\\quad&=\\quad\\phi_{0}+\\phi_{1}a\\Big[\\psi_{01}+\\psi_{11}\\mathrm{a}[\\theta_{01}+\\theta_{11}x]+\\psi_{21}\\mathrm{a}[\\theta_{02}+\\theta_{12}x]\\Big]\\\\&\\quad+\\phi_{2}\\mathrm{a}\\Big[\\psi_{02}+\\psi_{12}\\mathrm{a}[\\theta_{01}+\\theta_{11}x]+\\psi_{22}\\mathrm{a}[\\theta_{02}+\\theta_{12}x]\\Big],\\end{aligned} \\tag{7.35}"
+    "text": "\\begin{aligned}y\\quad&=\\quad\\phi_{0}+\\phi_{1}a\\Big[\\psi_{01}+\\psi_{11}\\mathrm{a}[\\theta_{01}+\\theta_{11}x]+\\psi_{21}\\mathrm{a}[\\theta_{02}+\\theta_{12}x]\\Big]\\\\&\\quad+\\phi_{2}\\mathrm{a}\\Big[\\psi_{02}+\\psi_{12}\\mathrm{a}[\\theta_{01}+\\theta_{11}x]+\\psi_{22}\\mathrm{a}[\\theta_{02}+\\theta_{12}x]\\Big],\\end{aligned} \\quad (7.35)"
   },
   {
     "id": "page_0115-b002",
@@ -51,7 +51,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\ell_{i}=(y_{i}-\\mathrm{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}])^{2}.\n\\end{aligned}\n\\tag{7.36}"
+    "text": "\\begin{aligned}\n\\ell_{i}=(y_{i}-\\mathrm{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}])^{2}.\n\\end{aligned} \\quad (7.36)"
   },
   {
     "id": "page_0115-b007",
@@ -69,7 +69,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\ell_{i}=-(1-y_{i})\\log\\left[1-\\mathrm{sig}\\left[\\mathrm{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}]\\right]\\right]-y_{i}\\log\\left[\\mathrm{sig}\\left[\\mathrm{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}]\\right]\\right],\n\\end{aligned}\n\\tag{7.37}"
+    "text": "\\begin{aligned}\n\\ell_{i}=-(1-y_{i})\\log\\left[1-\\mathrm{sig}\\left[\\mathrm{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}]\\right]\\right]-y_{i}\\log\\left[\\mathrm{sig}\\left[\\mathrm{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}]\\right]\\right],\n\\end{aligned} \\quad (7.37)"
   },
   {
     "id": "page_0115-b009",
@@ -87,7 +87,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\mathrm{sig}[z]=\\frac{1}{1+\\exp[-z]}.\n\\end{aligned}\n\\tag{7.38}"
+    "text": "\\begin{aligned}\n\\mathrm{sig}[z]=\\frac{1}{1+\\exp[-z]}.\n\\end{aligned} \\quad (7.38)"
   },
   {
     "id": "page_0115-b011",
@@ -105,7 +105,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\frac{\\partial\\mathbf{z}}{\\partial\\mathbf{h}}=\\mathbf{\\Omega}^{T},\n\\end{aligned}\n\\tag{7.39}"
+    "text": "\\begin{aligned}\n\\frac{\\partial\\mathbf{z}}{\\partial\\mathbf{h}}=\\mathbf{\\Omega}^{T},\n\\end{aligned} \\quad (7.39)"
   },
   {
     "id": "page_0115-b013",
@@ -132,7 +132,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\mathrm{Heaviside}[z]=\\begin{cases}0&z<0\\\\ 1&z\\geq0\\end{cases},\n\\end{aligned}\n\\tag{7.40}"
+    "text": "\\begin{aligned}\n\\mathrm{Heaviside}[z]=\\begin{cases}0&z<0\\\\ 1&z\\geq0\\end{cases},\n\\end{aligned} \\quad (7.40)"
   },
   {
     "id": "page_0115-b016",

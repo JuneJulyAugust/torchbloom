@@ -43,7 +43,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\nL[\\boldsymbol{\\phi}]=-\\sum_{i=1}^{I}\\log\\left[Pr(\\mathbf{y}_{i}|\\mathbf{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}])\\right]=-\\sum_{i=1}^{I}\\sum_{d}\\log\\left[Pr(y_{id}|\\mathbf{f}_{d}[\\mathbf{x}_{i},\\boldsymbol{\\phi}])\\right].\n\\end{aligned}\n\\tag{5.26}"
+    "text": "\\begin{aligned}\nL[\\boldsymbol{\\phi}]=-\\sum_{i=1}^{I}\\log\\left[Pr(\\mathbf{y}_{i}|\\mathbf{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}])\\right]=-\\sum_{i=1}^{I}\\sum_{d}\\log\\left[Pr(y_{id}|\\mathbf{f}_{d}[\\mathbf{x}_{i},\\boldsymbol{\\phi}])\\right].\n\\end{aligned} \\quad (5.26)"
   },
   {
     "id": "page_0070-b006",

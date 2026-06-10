@@ -42,7 +42,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\phi_{t+1}\\longleftarrow\\phi_{t}-\\alpha\\cdot\\sum_{i\\in\\mathcal{B}_{t}}\\frac{\\partial\\ell_{i}[\\phi_{t}]}{\\partial\\phi},\n\\end{aligned}\n\\tag{6.10}"
+    "text": "\\begin{aligned}\n\\phi_{t+1}\\longleftarrow\\phi_{t}-\\alpha\\cdot\\sum_{i\\in\\mathcal{B}_{t}}\\frac{\\partial\\ell_{i}[\\phi_{t}]}{\\partial\\phi},\n\\end{aligned} \\quad (6.10)"
   },
   {
     "id": "page_0085-b006",

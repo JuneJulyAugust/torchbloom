@@ -43,7 +43,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\mathrm{f}[x,\\phi]=\\phi_{0}+\\phi_{1}\\mathrm{a}[\\theta_{10}+\\theta_{11}x]+\\phi_{2}\\mathrm{a}[\\theta_{20}+\\theta_{21}x]+\\phi_{3}\\mathrm{a}[\\theta_{30}+\\theta_{31}x].\n\\end{aligned}\n\\tag{6.23}"
+    "text": "\\begin{aligned}\n\\mathrm{f}[x,\\phi]=\\phi_{0}+\\phi_{1}\\mathrm{a}[\\theta_{10}+\\theta_{11}x]+\\phi_{2}\\mathrm{a}[\\theta_{20}+\\theta_{21}x]+\\phi_{3}\\mathrm{a}[\\theta_{30}+\\theta_{31}x].\n\\end{aligned} \\quad (6.23)"
   },
   {
     "id": "page_0095-b006",

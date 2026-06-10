@@ -43,7 +43,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "x_{j}^{*}=\\mathrm{g}[z_{j},\\theta]=z_{j}+\\theta, \\tag{15.1}"
+    "text": "x_{j}^{*}=\\mathrm{g}[z_{j},\\theta]=z_{j}+\\theta \\quad (15.1)"
   },
   {
     "id": "page_0277-b006",

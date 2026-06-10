@@ -52,7 +52,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\nPr(\\phi|\\{\\mathbf{x}_{i},\\mathbf{y}_{i}\\})=\\frac{\\prod_{i=1}^{I}Pr(\\mathbf{y}_{i}|\\mathbf{x}_{i},\\phi)Pr(\\phi)}{\\int\\prod_{i=1}^{I}Pr(\\mathbf{y}_{i}|\\mathbf{x}_{i},\\phi)Pr(\\phi)d\\phi},\n\\end{aligned}\n\\tag{9.11}"
+    "text": "\\begin{aligned}\nPr(\\phi|\\{\\mathbf{x}_{i},\\mathbf{y}_{i}\\})=\\frac{\\prod_{i=1}^{I}Pr(\\mathbf{y}_{i}|\\mathbf{x}_{i},\\phi)Pr(\\phi)}{\\int\\prod_{i=1}^{I}Pr(\\mathbf{y}_{i}|\\mathbf{x}_{i},\\phi)Pr(\\phi)d\\phi},\n\\end{aligned} \\quad (9.11)"
   },
   {
     "id": "page_0150-b007",
@@ -97,7 +97,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\nPr(\\mathbf{y}|\\mathbf{x},\\{\\mathbf{x}_{i},\\mathbf{y}_{i}\\})=\\int Pr(\\mathbf{y}|\\mathbf{x},\\phi)Pr(\\phi|\\{\\mathbf{x}_{i},\\mathbf{y}_{i}\\})d\\phi.\n\\end{aligned}\n\\tag{9.12}"
+    "text": "\\begin{aligned}\nPr(\\mathbf{y}|\\mathbf{x},\\{\\mathbf{x}_{i},\\mathbf{y}_{i}\\})=\\int Pr(\\mathbf{y}|\\mathbf{x},\\phi)Pr(\\phi|\\{\\mathbf{x}_{i},\\mathbf{y}_{i}\\})d\\phi.\n\\end{aligned} \\quad (9.12)"
   },
   {
     "id": "page_0150-b012",

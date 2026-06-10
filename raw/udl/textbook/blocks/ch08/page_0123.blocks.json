@@ -33,7 +33,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\mu[x]=\\mathbb{E}_{y}[y[x]]=\\int y[x]Pr(y|x)d y,\n\\end{aligned}\n\\tag{8.1}"
+    "text": "\\begin{aligned}\n\\mu[x]=\\mathbb{E}_{y}[y[x]]=\\int y[x]Pr(y|x)d y,\n\\end{aligned} \\quad (8.1)"
   },
   {
     "id": "page_0123-b005",
@@ -60,7 +60,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\begin{align*}L[x]\\quad&=\\quad\\left(\\mathrm{f}[x,\\phi]-y[x]\\right)^{2}\\\\&=\\quad\\Big((\\mathrm{f}[x,\\phi]-\\mu[x])+\\big(\\mu[x]-y[x]\\big)\\Big)^{2}\\\\&=\\quad\\big(\\mathrm{f}[x,\\phi]-\\mu[x]\\big)^{2}+2\\big(\\mathrm{f}[x,\\phi]-\\mu[x]\\big)\\big(\\mu[x]-y[x])+\\big(\\mu[x]-y[x]\\big)^{2},\\end{align*}\n\\end{aligned}\n\\tag{8.2}"
+    "text": "\\begin{aligned}\n\\begin{align*}L[x]\\quad&=\\quad\\left(\\mathrm{f}[x,\\phi]-y[x]\\right)^{2}\\\\&=\\quad\\Big((\\mathrm{f}[x,\\phi]-\\mu[x])+\\big(\\mu[x]-y[x]\\big)\\Big)^{2}\\\\&=\\quad\\big(\\mathrm{f}[x,\\phi]-\\mu[x]\\big)^{2}+2\\big(\\mathrm{f}[x,\\phi]-\\mu[x]\\big)\\big(\\mu[x]-y[x])+\\big(\\mu[x]-y[x]\\big)^{2},\\end{align*}\n\\end{aligned} \\quad (8.2)"
   },
   {
     "id": "page_0123-b008",
@@ -87,7 +87,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\begin{align*}\\mathbb{E}_{y}\\left[L[x]\\right]&\\quad=\\quad\\mathbb{E}_{y}\\Big[\\big(\\mathrm{f}[x,\\phi]-\\mu[x]\\big)^{2}+2\\big(\\mathrm{f}[x,\\phi]-\\mu[x]\\big)\\big(\\mu[x]-y[x]\\big)+\\big(\\mu[x]-y[x]\\big)^{2}\\Big]\\\\&=\\quad\\big(\\mathrm{f}[x,\\phi]-\\mu[x]\\big)^{2}+2\\big(\\mathrm{f}[x,\\phi]-\\mu[x]\\big)\\left(\\mu[x]-\\mathbb{E}_{y}\\left[y[x]\\right]\\right)+\\mathbb{E}_{y}\\big[\\big(\\mu[x]-y[x]\\big)^{2}\\big]\\\\&=\\quad\\big(\\mathrm{f}[x,\\phi]-\\mu[x]\\big)^{2}+\\sigma^{2},\\end{align*}\n\\end{aligned}\n\\tag{8.3}"
+    "text": "\\begin{aligned}\n\\begin{align*}\\mathbb{E}_{y}\\left[L[x]\\right]&\\quad=\\quad\\mathbb{E}_{y}\\Big[\\big(\\mathrm{f}[x,\\phi]-\\mu[x]\\big)^{2}+2\\big(\\mathrm{f}[x,\\phi]-\\mu[x]\\big)\\big(\\mu[x]-y[x]\\big)+\\big(\\mu[x]-y[x]\\big)^{2}\\Big]\\\\&=\\quad\\big(\\mathrm{f}[x,\\phi]-\\mu[x]\\big)^{2}+2\\big(\\mathrm{f}[x,\\phi]-\\mu[x]\\big)\\left(\\mu[x]-\\mathbb{E}_{y}\\left[y[x]\\right]\\right)+\\mathbb{E}_{y}\\big[\\big(\\mu[x]-y[x]\\big)^{2}\\big]\\\\&=\\quad\\big(\\mathrm{f}[x,\\phi]-\\mu[x]\\big)^{2}+\\sigma^{2},\\end{align*}\n\\end{aligned} \\quad (8.3)"
   },
   {
     "id": "page_0123-b011",

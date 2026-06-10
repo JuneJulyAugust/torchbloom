@@ -52,7 +52,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\phi\\leftarrow\\phi+\\alpha r\\big[s t,a_{t}\\big]+\\gamma\\cdot\\max_{a}\\Big[q[s_{t+1},a,\\phi^{-}]\\big]-q[s t,a_{t},\\phi\\big].\n\\end{aligned}\n\\tag{19.18}"
+    "text": "\\begin{aligned}\n\\phi\\leftarrow\\phi+\\alpha r\\big[s t,a_{t}\\big]+\\gamma\\cdot\\max_{a}\\Big[q[s_{t+1},a,\\phi^{-}]\\big]-q[s t,a_{t},\\phi\\big].\n\\end{aligned} \\quad (19.18)"
   },
   {
     "id": "page_0388-b007",
@@ -97,7 +97,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\nq[s_{t},a_{t}]\\leftarrow q[s_{t},a_{t}]+\\alpha\\bigg(r[s_{t},a_{t}]+\\gamma\\cdot\\max_{a}\\big[q[s_{t+1},a]\\bigg]-q[s_{t},a_{t}]\\bigg)\n\\end{aligned}\n\\tag{19.19}"
+    "text": "\\begin{aligned}\nq[s_{t},a_{t}]\\leftarrow q[s_{t},a_{t}]+\\alpha\\bigg(r[s_{t},a_{t}]+\\gamma\\cdot\\max_{a}\\big[q[s_{t+1},a]\\bigg]-q[s_{t},a_{t}]\\bigg)\n\\end{aligned} \\quad (19.19)"
   },
   {
     "id": "page_0388-b012",

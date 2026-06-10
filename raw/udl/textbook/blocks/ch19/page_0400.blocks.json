@@ -33,7 +33,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\pi^{\\prime}[a_{t}|s_{t}]\\leftarrow\\underset{a_{t}}{\\mathrm{argmax}}\\Bigg[r[s_{t},a_{t}]+\\gamma\\cdot\\sum_{s_{t+1}}Pr(s_{t+1}|s_{t},a_{t})v[s_{t+1}|\\pi]\\Bigg].\n\\end{aligned}\n\\tag{19.43}"
+    "text": "\\begin{aligned}\n\\pi^{\\prime}[a_{t}|s_{t}]\\leftarrow\\underset{a_{t}}{\\mathrm{argmax}}\\Bigg[r[s_{t},a_{t}]+\\gamma\\cdot\\sum_{s_{t+1}}Pr(s_{t+1}|s_{t},a_{t})v[s_{t+1}|\\pi]\\Bigg].\n\\end{aligned} \\quad (19.43)"
   },
   {
     "id": "page_0400-b005",
@@ -51,7 +51,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\nv[s_{t}|\\pi]\\quad&\\leq\\quad q\\Big[s_{t},\\pi^{\\prime}[a_{t}|s_{t}]\\Big|\\pi\\Big]\\\\\n&=\\quad\\mathbb{E}_{\\pi^{\\prime}}\\Big[r_{t+1}+\\gamma\\cdot v[s_{t+1}|\\pi]\\Big].\n\\end{aligned}\n\\tag{19.44}"
+    "text": "\\begin{aligned}\nv[s_{t}|\\pi]\\quad&\\leq\\quad q\\Big[s_{t},\\pi^{\\prime}[a_{t}|s_{t}]\\Big|\\pi\\Big]\\\\\n&=\\quad\\mathbb{E}_{\\pi^{\\prime}}\\Big[r_{t+1}+\\gamma\\cdot v[s_{t+1}|\\pi]\\Big].\n\\end{aligned} \\quad (19.44)"
   },
   {
     "id": "page_0400-b007",
@@ -87,7 +87,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\pi[a|s]=\\frac{\\exp\\left[q[s,a]/\\tau\\right]}{\\sum_{a^{\\prime}}\\exp\\left[q[s,a^{\\prime}]/\\tau\\right]}.\n\\end{aligned}\n\\tag{19.45}"
+    "text": "\\begin{aligned}\n\\pi[a|s]=\\frac{\\exp\\left[q[s,a]/\\tau\\right]}{\\sum_{a^{\\prime}}\\exp\\left[q[s,a^{\\prime}]/\\tau\\right]}.\n\\end{aligned} \\quad (19.45)"
   },
   {
     "id": "page_0400-b011",
@@ -114,7 +114,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\nf[q[s,a]]=r[s,a]+\\gamma\\cdot\\max_{a}\\left[q[s',a]\\right].\n\\end{aligned}\n\\tag{19.46}"
+    "text": "\\begin{aligned}\nf[q[s,a]]=r[s,a]+\\gamma\\cdot\\max_{a}\\left[q[s',a]\\right].\n\\end{aligned} \\quad (19.46)"
   },
   {
     "id": "page_0400-b014",
@@ -132,7 +132,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\left\\|f[q_{1}[s,a]]-f[q_{2}[s,a]]\\right\\|_{\\infty}<\\left\\|q_{1}[s,a]-q_{2}[s,a]\\right\\|_{\\infty}\\quad\\forall q_{1},q_{2}.\n\\end{aligned}\n\\tag{19.47}"
+    "text": "\\begin{aligned}\n\\left\\|f[q_{1}[s,a]]-f[q_{2}[s,a]]\\right\\|_{\\infty}<\\left\\|q_{1}[s,a]-q_{2}[s,a]\\right\\|_{\\infty}\\quad\\forall q_{1},q_{2}.\n\\end{aligned} \\quad (19.47)"
   },
   {
     "id": "page_0400-b016",

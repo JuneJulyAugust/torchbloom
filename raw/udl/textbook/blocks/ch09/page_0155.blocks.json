@@ -61,6 +61,6 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\phi\\leftarrow(1-\\lambda^{\\prime})\\phi-\\alpha\\frac{\\partial L}{\\partial\\phi},\n\\end{aligned}\n\\tag{9.13}"
+    "text": "\\begin{aligned}\n\\phi\\leftarrow(1-\\lambda^{\\prime})\\phi-\\alpha\\frac{\\partial L}{\\partial\\phi},\n\\end{aligned} \\quad (9.13)"
   }
 ]

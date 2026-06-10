@@ -15,7 +15,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\\mathbf{H}_{k+1}&=\\quad\\mathbf{a}\\left[\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\boldsymbol{\\Omega}_{k}\\mathbf{H}_{k}+\\boldsymbol{\\Omega}_{k}\\mathbf{H}_{k}\\mathbf{A}\\right]\\\\&=\\quad\\mathbf{a}\\left[\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\boldsymbol{\\Omega}_{k}\\mathbf{H}_{k}(\\mathbf{A}+\\mathbf{I})\\right],\\end{aligned}\n\\tag{13.10}"
+    "text": "\\begin{aligned}\\mathbf{H}_{k+1}&=\\quad\\mathbf{a}\\left[\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\boldsymbol{\\Omega}_{k}\\mathbf{H}_{k}+\\boldsymbol{\\Omega}_{k}\\mathbf{H}_{k}\\mathbf{A}\\right]\\\\&=\\quad\\mathbf{a}\\left[\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\boldsymbol{\\Omega}_{k}\\mathbf{H}_{k}(\\mathbf{A}+\\mathbf{I})\\right],\\end{aligned} \\quad (13.10)"
   },
   {
     "id": "page_0251-b003",
@@ -78,7 +78,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\\mathbf{H}_{1}&=\\quad\\mathbf{a}\\left[\\boldsymbol{\\beta}_{0}\\mathbf{1}^{T}+\\boldsymbol{\\Omega}_{0}\\mathbf{X}(\\mathbf{A}+\\mathbf{I})\\right]\\\\ \\mathbf{H}_{2}&=\\quad\\mathbf{a}\\left[\\boldsymbol{\\beta}_{1}\\mathbf{1}^{T}+\\boldsymbol{\\Omega}_{1}\\mathbf{H}_{1}(\\mathbf{A}+\\mathbf{I})\\right]\\\\\\vdots&=\\quad\\vdots\\\\ \\mathbf{H}_{K}&=\\quad\\mathbf{a}\\left[\\boldsymbol{\\beta}_{\\mathcal{K}-1}\\mathbf{1}^{T}+\\boldsymbol{\\Omega}_{K-1}\\mathbf{H}_{\\mathcal{K}-1}(\\mathbf{A}+\\mathbf{I})\\right]\\\\ \\mathbf{f}[\\mathbf{X},\\mathbf{A},\\boldsymbol{\\Phi}]&=\\quad\\mathrm{sig}\\left[\\beta_{K}+\\omega_{K}\\mathbf{H}_{K}\\mathbf{1}/N\\right],\\end{aligned}\n\\tag{13.11}"
+    "text": "\\begin{aligned}\\mathbf{H}_{1}&=\\quad\\mathbf{a}\\left[\\boldsymbol{\\beta}_{0}\\mathbf{1}^{T}+\\boldsymbol{\\Omega}_{0}\\mathbf{X}(\\mathbf{A}+\\mathbf{I})\\right]\\\\ \\mathbf{H}_{2}&=\\quad\\mathbf{a}\\left[\\boldsymbol{\\beta}_{1}\\mathbf{1}^{T}+\\boldsymbol{\\Omega}_{1}\\mathbf{H}_{1}(\\mathbf{A}+\\mathbf{I})\\right]\\\\\\vdots&=\\quad\\vdots\\\\ \\mathbf{H}_{K}&=\\quad\\mathbf{a}\\left[\\boldsymbol{\\beta}_{\\mathcal{K}-1}\\mathbf{1}^{T}+\\boldsymbol{\\Omega}_{K-1}\\mathbf{H}_{\\mathcal{K}-1}(\\mathbf{A}+\\mathbf{I})\\right]\\\\ \\mathbf{f}[\\mathbf{X},\\mathbf{A},\\boldsymbol{\\Phi}]&=\\quad\\mathrm{sig}\\left[\\beta_{K}+\\omega_{K}\\mathbf{H}_{K}\\mathbf{1}/N\\right],\\end{aligned} \\quad (13.11)"
   },
   {
     "id": "page_0251-b010",

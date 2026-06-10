@@ -25,7 +25,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "y_j=\\phi_{j0}+\\sum_{d=1}^{D}\\phi_{jd}h_d. \\tag{3.12}"
+    "text": "y_j=\\phi_{j0}+\\sum_{d=1}^{D}\\phi_{jd}h_d. \\quad (3.12)"
   },
   {
     "id": "page_0035-b004",

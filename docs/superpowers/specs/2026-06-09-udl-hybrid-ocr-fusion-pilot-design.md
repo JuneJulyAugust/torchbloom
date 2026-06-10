@@ -92,7 +92,7 @@ Markdown math must use GitHub-compatible syntax:
 - Inline equations use `$...$` rather than `\(...\)`.
 - Named functions use GitHub-accepted forms such as `\mathrm{ReLU}` and `\mathrm{argmin}` rather than `\operatorname{...}`.
 - Inline literal set braces use `\lbrace ...\rbrace` rather than `\{...\}`, because Markdown may consume the backslash escapes before MathJax receives the expression.
-- Numbered display equations that use `\tag{...}` are wrapped in `\begin{aligned} ... \end{aligned}`, even when they only contain one equation line. GitHub may otherwise render tagged single-line or cases equations as a vertical stack.
+- Numbered display equations do not use `\tag{...}`. GitHub may reject or vertically stack tagged equations, so visible numbers are written inside the display as plain math text, for example `\quad (3.4)`.
 - Footnotes use Markdown footnote syntax such as `[^1]` and `[^1]: ...`, not math superscript markers such as `$^1$`.
 
 GitHub renders `$$` math blocks and `$...$` inline math in Markdown files, while the bracket and parenthesis delimiters may render in local previews but appear as plain text on GitHub. GitHub's math sanitizer may reject some LaTeX macros, including `\operatorname`.
@@ -153,7 +153,7 @@ When PPStructureV3 misses a figure or detects only part of a multi-panel figure,
 10. Keep uncertainty out of final Markdown; use reports or JSON sidecars for audit notes.
 11. Use printed book page numbers for fused Markdown, block JSON, prompt, and final figure filenames. Keep PDF page numbers in metadata and source/evidence paths.
 12. Do not create public-facing curriculum pages from this layer yet; this remains source-derived OCR working output.
-13. Use GitHub-compatible math: `$$` for display math, `$...$` for inline math, `\mathrm{...}` for named functions instead of `\operatorname{...}`, `\lbrace ...\rbrace` for inline set braces, and `aligned` wrappers for every numbered display equation that uses `\tag{...}`.
+13. Use GitHub-compatible math: `$$` for display math, `$...$` for inline math, `\mathrm{...}` for named functions instead of `\operatorname{...}`, `\lbrace ...\rbrace` for inline set braces, and plain visible equation numbers like `\quad (3.4)` instead of `\tag{...}`.
 14. Use Markdown footnotes such as `[^1]`; do not encode footnote markers as `$^1$`.
 
 ## Subagent Split
@@ -180,7 +180,7 @@ The pilot is useful when:
 - stable figure files are regenerated from high-resolution PDF renders using the PPStructureV3 boxes,
 - manual figure overrides are recorded when PPStructureV3 misses or under-crops a required visual,
 - leading figure captions have enough final visual image blocks to match them,
-- tagged display equations are wrapped in `aligned` and footnotes use Markdown footnote syntax,
+- display equations avoid `\tag{...}` and footnotes use Markdown footnote syntax,
 - per-page frontmatter is parseable,
 - uncertainty is explicit in reports or sidecars rather than final Markdown,
 - the report explains where PPStructureV3 was better, where DeepSeek was better, and where human review is still needed.

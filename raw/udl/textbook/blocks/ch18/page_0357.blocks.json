@@ -78,7 +78,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "To train the model, we maximize the log-likelihood of the training data $\\lbracex_{i}\\rbrace$ with respect to the parameters $\\phi$ :"
+    "text": "To train the model, we maximize the log-likelihood of the training data $\\lbrace x_{i}\\rbrace$ with respect to the parameters $\\phi$ :"
   },
   {
     "id": "page_0357-b010",

@@ -52,7 +52,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\mathbf{a}\\mathbf{g g}[n,k]=\\sum_{m\\in\\mathbf{n e}[n]}\\mathbf{h}_{k}^{(m)},\n\\end{aligned}\n\\tag{13.8}"
+    "text": "\\begin{aligned}\n\\mathbf{a}\\mathbf{g g}[n,k]=\\sum_{m\\in\\mathbf{n e}[n]}\\mathbf{h}_{k}^{(m)},\n\\end{aligned} \\quad (13.8)"
   },
   {
     "id": "page_0250-b007",
@@ -70,7 +70,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\mathbf{h}_{k+1}^{(n)}=\\mathbf{a}\\left[\\boldsymbol{\\beta}_{k}+\\boldsymbol{\\Omega_{k}}\\cdot\\mathbf{h}_{k}^{(n)}+\\mathbf{\\Omega_{k}}\\cdot\\mathbf{a}\\mathbf{g g}[n,k]\\right].\n\\end{aligned}\n\\tag{13.9}"
+    "text": "\\begin{aligned}\n\\mathbf{h}_{k+1}^{(n)}=\\mathbf{a}\\left[\\boldsymbol{\\beta}_{k}+\\boldsymbol{\\Omega_{k}}\\cdot\\mathbf{h}_{k}^{(n)}+\\mathbf{\\Omega_{k}}\\cdot\\mathbf{a}\\mathbf{g g}[n,k]\\right].\n\\end{aligned} \\quad (13.9)"
   },
   {
     "id": "page_0250-b009",

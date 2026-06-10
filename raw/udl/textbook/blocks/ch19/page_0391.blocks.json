@@ -34,7 +34,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\frac{\\partial\\log[f[z]}{\\partial z}=\\frac{1}{f[z]}\\frac{\\partial f[z]}{\\partial z},\n\\end{aligned}\n\\tag{19.26}"
+    "text": "\\begin{aligned}\n\\frac{\\partial\\log[f[z]}{\\partial z}=\\frac{1}{f[z]}\\frac{\\partial f[z]}{\\partial z},\n\\end{aligned} \\quad (19.26)"
   },
   {
     "id": "page_0391-b005",
@@ -52,7 +52,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\boldsymbol{\\theta}\\leftarrow\\boldsymbol{\\theta}+\\alpha\\cdot\\frac{1}{I}\\sum_{i=1}^{I}\\frac{\\partial\\log\\left[Pr(\\boldsymbol{\\tau}_{i}|\\boldsymbol{\\theta})\\right]}{\\partial\\boldsymbol{\\theta}}r[\\boldsymbol{\\tau}_{i}].\n\\end{aligned}\n\\tag{19.27}"
+    "text": "\\begin{aligned}\n\\boldsymbol{\\theta}\\leftarrow\\boldsymbol{\\theta}+\\alpha\\cdot\\frac{1}{I}\\sum_{i=1}^{I}\\frac{\\partial\\log\\left[Pr(\\boldsymbol{\\tau}_{i}|\\boldsymbol{\\theta})\\right]}{\\partial\\boldsymbol{\\theta}}r[\\boldsymbol{\\tau}_{i}].\n\\end{aligned} \\quad (19.27)"
   },
   {
     "id": "page_0391-b007",
@@ -70,7 +70,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\begin{align*}\\log[Pr(\\boldsymbol{\\tau}|\\boldsymbol{\\theta})]\\quad&=\\quad\\log\\left[Pr(\\mathbf{s}_{1})\\prod_{t=1}^{T}\\pi[a_{t}|\\mathbf{s}_{t},\\boldsymbol{\\theta}]Pr(\\mathbf{s}_{t+1}|\\mathbf{s}_{t},a_{t})\\right]\\\\&=\\quad\\log\\left[Pr(\\mathbf{s}_{1})\\right]+\\sum_{t=1}^{T}\\log\\left[\\pi[a_{t}|\\mathbf{s}_{t},\\boldsymbol{\\theta}]\\right]+\\sum_{t=1}^{T}\\log\\left[Pr(\\mathbf{s}_{t+1}|\\mathbf{s}_{t},a_{t})\\right],\\end{align*}\n\\end{aligned}\n\\tag{19.28}"
+    "text": "\\begin{aligned}\n\\begin{align*}\\log[Pr(\\boldsymbol{\\tau}|\\boldsymbol{\\theta})]\\quad&=\\quad\\log\\left[Pr(\\mathbf{s}_{1})\\prod_{t=1}^{T}\\pi[a_{t}|\\mathbf{s}_{t},\\boldsymbol{\\theta}]Pr(\\mathbf{s}_{t+1}|\\mathbf{s}_{t},a_{t})\\right]\\\\&=\\quad\\log\\left[Pr(\\mathbf{s}_{1})\\right]+\\sum_{t=1}^{T}\\log\\left[\\pi[a_{t}|\\mathbf{s}_{t},\\boldsymbol{\\theta}]\\right]+\\sum_{t=1}^{T}\\log\\left[Pr(\\mathbf{s}_{t+1}|\\mathbf{s}_{t},a_{t})\\right],\\end{align*}\n\\end{aligned} \\quad (19.28)"
   },
   {
     "id": "page_0391-b009",
@@ -88,7 +88,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\boldsymbol{\\theta}\\leftarrow\\boldsymbol{\\theta}+\\alpha\\cdot\\frac{1}{I}\\sum_{i=1}^{I}\\sum_{t=1}^{T}\\frac{\\partial\\log\\left[\\pi[a_{i t}|\\mathbf{s}_{t},\\boldsymbol{\\theta}]\\right]}{\\partial\\boldsymbol{\\theta}}r[\\tau_{i}],\n\\end{aligned}\n\\tag{19.29}"
+    "text": "\\begin{aligned}\n\\boldsymbol{\\theta}\\leftarrow\\boldsymbol{\\theta}+\\alpha\\cdot\\frac{1}{I}\\sum_{i=1}^{I}\\sum_{t=1}^{T}\\frac{\\partial\\log\\left[\\pi[a_{i t}|\\mathbf{s}_{t},\\boldsymbol{\\theta}]\\right]}{\\partial\\boldsymbol{\\theta}}r[\\tau_{i}],\n\\end{aligned} \\quad (19.29)"
   },
   {
     "id": "page_0391-b011",
@@ -115,7 +115,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\tau[\\boldsymbol{\\tau}_{i}]=\\sum_{t=1}^{T}r_{i,t+1}=\\sum_{k=1}^{t}r_{i,k+1}+\\sum_{k=t}^{T}r_{i,k+1},\n\\end{aligned}\n\\tag{19.30}"
+    "text": "\\begin{aligned}\n\\tau[\\boldsymbol{\\tau}_{i}]=\\sum_{t=1}^{T}r_{i,t+1}=\\sum_{k=1}^{t}r_{i,k+1}+\\sum_{k=t}^{T}r_{i,k+1},\n\\end{aligned} \\quad (19.30)"
   },
   {
     "id": "page_0391-b014",

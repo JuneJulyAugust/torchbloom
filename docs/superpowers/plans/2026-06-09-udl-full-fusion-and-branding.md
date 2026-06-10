@@ -94,6 +94,6 @@
 - [x] Convert inline set braces from `\{...\}` to `\lbrace ...\rbrace`.
 - [x] Add validation that rejects bracket display math, parenthesis inline math, blocked `\operatorname` macros, and escaped inline set braces in fused Markdown.
 - [x] Run focused tests and full validation.
-- [x] Wrap tagged display equations in `aligned` blocks to avoid GitHub's vertical-stack rendering on single-line and cases equations.
+- [x] Replace published `\tag{...}` equation numbering with visible plain equation numbers such as `\quad (15.1)` to avoid GitHub sanitizer and vertical-stack failures.
 - [x] Convert `$^1$` footnote markers to Markdown footnotes.
-- [x] Add validation for unwrapped tagged display equations and `$^n$` footnote markers.
+- [x] Add validation for any published `\tag{...}` display numbering and `$^n$` footnote markers.

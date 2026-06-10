@@ -12,7 +12,7 @@ The finished corpus should keep the pilot contract:
 - Figures and figure captions are centered.
 - Figure labels such as `Figure 3.14` are bold.
 - Equation crops are removed when a LaTeX equation is present.
-- Markdown is GitHub-safe: display math uses `$$`, inline math uses `$...$`, and fragile tagged equations avoid unsupported macros.
+- Markdown is GitHub-safe: display math uses `$$`, inline math uses `$...$`, and numbered equations use visible plain numbers such as `\quad (15.1)` rather than `\tag{...}`.
 - Final pages contain no review notes.
 
 ## Scope

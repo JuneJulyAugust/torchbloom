@@ -24,7 +24,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\begin{align*}\\hat{\\phi}&=\\argmin_{\\phi}-\\sum_{i=1}^{I}\\log\\left[\\frac{1}{\\sqrt{2\\pi\\sigma^{2}}}\\exp\\Big[-\\frac{(y_{i}-\\mathrm{f}[\\mathbf{x}_{i},\\phi])^{2}}{2\\sigma^{2}}\\Big]\\right]\\\\&=\\argmin_{\\phi}-\\sum_{i=1}^{I}\\left(\\log\\left[\\frac{1}{\\sqrt{2\\pi\\sigma^{2}}}\\right]-\\frac{(y_{i}-\\mathrm{f}[\\mathbf{x}_{i},\\phi])^{2}}{2\\sigma^{2}}\\right)\\Big]\\\\&=\\argmin_{\\phi}-\\sum_{i=1}^{I}\\frac{-(y_{i}-\\mathrm{f}[\\mathbf{x}_{i},\\phi])^{2}}{2\\sigma^{2}}\\Big]\\\\&=\\argmin_{\\phi}\\left[\\sum_{i=1}^{I}(y_{i}-\\mathrm{f}[\\mathbf{x}_{i},\\phi])^{2}\\right],\\end{align*}\n\\end{aligned}\n\\tag{5.10}"
+    "text": "\\begin{aligned}\n\\begin{align*}\\hat{\\phi}&=\\argmin_{\\phi}-\\sum_{i=1}^{I}\\log\\left[\\frac{1}{\\sqrt{2\\pi\\sigma^{2}}}\\exp\\Big[-\\frac{(y_{i}-\\mathrm{f}[\\mathbf{x}_{i},\\phi])^{2}}{2\\sigma^{2}}\\Big]\\right]\\\\&=\\argmin_{\\phi}-\\sum_{i=1}^{I}\\left(\\log\\left[\\frac{1}{\\sqrt{2\\pi\\sigma^{2}}}\\right]-\\frac{(y_{i}-\\mathrm{f}[\\mathbf{x}_{i},\\phi])^{2}}{2\\sigma^{2}}\\right)\\Big]\\\\&=\\argmin_{\\phi}-\\sum_{i=1}^{I}\\frac{-(y_{i}-\\mathrm{f}[\\mathbf{x}_{i},\\phi])^{2}}{2\\sigma^{2}}\\Big]\\\\&=\\argmin_{\\phi}\\left[\\sum_{i=1}^{I}(y_{i}-\\mathrm{f}[\\mathbf{x}_{i},\\phi])^{2}\\right],\\end{align*}\n\\end{aligned} \\quad (5.10)"
   },
   {
     "id": "page_0062-b004",
@@ -51,7 +51,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\nL[\\phi]=\\sum_{i=1}^{I}\\left(y_{i}-\\mathrm{f}[\\mathbf{x}_{i},\\phi]\\right)^{2}.\n\\end{aligned}\n\\tag{5.11}"
+    "text": "\\begin{aligned}\nL[\\phi]=\\sum_{i=1}^{I}\\left(y_{i}-\\mathrm{f}[\\mathbf{x}_{i},\\phi]\\right)^{2}.\n\\end{aligned} \\quad (5.11)"
   },
   {
     "id": "page_0062-b007",
@@ -87,7 +87,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\hat{y}=\\underset{y}{\\mathrm{argmax}}\\left[Pr(y|\\mathrm{f}[\\mathbf{x},\\hat{\\phi}],\\sigma^{2})\\right].\n\\end{aligned}\n\\tag{5.12}"
+    "text": "\\begin{aligned}\n\\hat{y}=\\underset{y}{\\mathrm{argmax}}\\left[Pr(y|\\mathrm{f}[\\mathbf{x},\\hat{\\phi}],\\sigma^{2})\\right].\n\\end{aligned} \\quad (5.12)"
   },
   {
     "id": "page_0062-b011",

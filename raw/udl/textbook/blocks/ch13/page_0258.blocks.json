@@ -15,7 +15,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\mathbf{H}_{k+1}=\\mathbf{a}\\Big[\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\Omega_{k}\\mathbf{H}_{k}(\\mathbf{A}\\mathbf{D}^{-1}+\\mathbf{I})\\Big].\n\\end{aligned}\n\\tag{13.18}"
+    "text": "\\begin{aligned}\n\\mathbf{H}_{k+1}=\\mathbf{a}\\Big[\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\Omega_{k}\\mathbf{H}_{k}(\\mathbf{A}\\mathbf{D}^{-1}+\\mathbf{I})\\Big].\n\\end{aligned} \\quad (13.18)"
   },
   {
     "id": "page_0258-b003",
@@ -51,7 +51,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\mathbf{a}\\mathbf{g}\\mathbf{g}[n]=\\sum_{m\\in\\mathbf{n}e[n]}\\frac{\\mathbf{h}_{m}}{\\sqrt{|\\mathbf{n}e[n]||\\mathbf{n}e[m]|}},\n\\end{aligned}\n\\tag{13.19}"
+    "text": "\\begin{aligned}\n\\mathbf{a}\\mathbf{g}\\mathbf{g}[n]=\\sum_{m\\in\\mathbf{n}e[n]}\\frac{\\mathbf{h}_{m}}{\\sqrt{|\\mathbf{n}e[n]||\\mathbf{n}e[m]|}},\n\\end{aligned} \\quad (13.19)"
   },
   {
     "id": "page_0258-b007",
@@ -69,7 +69,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\mathbf{H}_{k+1}=\\mathbf{a}\\Big[\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\Omega_{k}\\mathbf{H}_{k}(\\mathbf{D}^{-1/2}\\mathbf{A}\\mathbf{D}^{-1/2}+\\mathbf{I})\\Big].\n\\end{aligned}\n\\tag{13.20}"
+    "text": "\\begin{aligned}\n\\mathbf{H}_{k+1}=\\mathbf{a}\\Big[\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\Omega_{k}\\mathbf{H}_{k}(\\mathbf{D}^{-1/2}\\mathbf{A}\\mathbf{D}^{-1/2}+\\mathbf{I})\\Big].\n\\end{aligned} \\quad (13.20)"
   },
   {
     "id": "page_0258-b009",
@@ -96,7 +96,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\mathbf{a}\\mathbf{g}\\mathbf{g}[n]=\\underset{m\\in\\mathbf{n}e[n]}{\\max}[\\mathbf{h}_{m}],\n\\end{aligned}\n\\tag{13.21}"
+    "text": "\\begin{aligned}\n\\mathbf{a}\\mathbf{g}\\mathbf{g}[n]=\\underset{m\\in\\mathbf{n}e[n]}{\\max}[\\mathbf{h}_{m}],\n\\end{aligned} \\quad (13.21)"
   },
   {
     "id": "page_0258-b012",
@@ -132,6 +132,6 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\mathbf{H}_{k}^{\\prime}=\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\Omega_{k}\\mathbf{H}_{k}.\n\\end{aligned}\n\\tag{13.22}"
+    "text": "\\begin{aligned}\n\\mathbf{H}_{k}^{\\prime}=\\boldsymbol{\\beta}_{k}\\mathbf{1}^{T}+\\Omega_{k}\\mathbf{H}_{k}.\n\\end{aligned} \\quad (13.22)"
   }
 ]

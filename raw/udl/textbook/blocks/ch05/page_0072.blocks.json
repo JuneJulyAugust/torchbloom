@@ -15,7 +15,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\begin{align*}\\hat{\\boldsymbol{\\theta}}&=\\underset{\\boldsymbol{\\theta}}{\\mathrm{argmin}}\\left[-\\int_{-\\infty}^{\\infty}\\left(\\frac{1}{I}\\sum_{i=1}^{I}\\delta[y-y_{i}]\\right)\\log\\left[Pr(y|\\boldsymbol{\\theta})\\right]dy\\right]\\\\&=\\underset{\\boldsymbol{\\theta}}{\\mathrm{argmin}}\\left[-\\frac{1}{I}\\sum_{i=1}^{I}\\log\\left[Pr(y_{i}|\\boldsymbol{\\theta})\\right]\\right]\\\\&=\\underset{\\boldsymbol{\\theta}}{\\mathrm{argmin}}\\left[-\\sum_{i=1}^{I}\\log\\left[Pr(y_{i}|\\boldsymbol{\\theta})\\right]\\right].\\end{align*}\n\\end{aligned}\n\\tag{5.30}"
+    "text": "\\begin{aligned}\n\\begin{align*}\\hat{\\boldsymbol{\\theta}}&=\\underset{\\boldsymbol{\\theta}}{\\mathrm{argmin}}\\left[-\\int_{-\\infty}^{\\infty}\\left(\\frac{1}{I}\\sum_{i=1}^{I}\\delta[y-y_{i}]\\right)\\log\\left[Pr(y|\\boldsymbol{\\theta})\\right]dy\\right]\\\\&=\\underset{\\boldsymbol{\\theta}}{\\mathrm{argmin}}\\left[-\\frac{1}{I}\\sum_{i=1}^{I}\\log\\left[Pr(y_{i}|\\boldsymbol{\\theta})\\right]\\right]\\\\&=\\underset{\\boldsymbol{\\theta}}{\\mathrm{argmin}}\\left[-\\sum_{i=1}^{I}\\log\\left[Pr(y_{i}|\\boldsymbol{\\theta})\\right]\\right].\\end{align*}\n\\end{aligned} \\quad (5.30)"
   },
   {
     "id": "page_0072-b003",
@@ -42,7 +42,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}}=\\underset{\\boldsymbol{\\phi}}{\\mathrm{argmin}}\\left[-\\sum_{i=1}^{I}\\log\\left[Pr(y_{i}|\\mathbf{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}])\\right]\\right].\n\\end{aligned}\n\\tag{5.31}"
+    "text": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}}=\\underset{\\boldsymbol{\\phi}}{\\mathrm{argmin}}\\left[-\\sum_{i=1}^{I}\\log\\left[Pr(y_{i}|\\mathbf{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}])\\right]\\right].\n\\end{aligned} \\quad (5.31)"
   },
   {
     "id": "page_0072-b006",

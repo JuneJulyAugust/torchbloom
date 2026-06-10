@@ -43,7 +43,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\nPr(y|\\lambda)=\\begin{cases}1-\\lambda&y=0\\\\ \\lambda&y=1\\end{cases},\n\\end{aligned}\n\\tag{5.16}"
+    "text": "\\begin{aligned}\nPr(y|\\lambda)=\\begin{cases}1-\\lambda&y=0\\\\ \\lambda&y=1\\end{cases},\n\\end{aligned} \\quad (5.16)"
   },
   {
     "id": "page_0066-b006",
@@ -70,7 +70,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\nPr(y|\\lambda)=(1-\\lambda)^{1-y}\\cdot\\lambda^{y}.\n\\end{aligned}\n\\tag{5.17}"
+    "text": "\\begin{aligned}\nPr(y|\\lambda)=(1-\\lambda)^{1-y}\\cdot\\lambda^{y}.\n\\end{aligned} \\quad (5.17)"
   },
   {
     "id": "page_0066-b009",
@@ -97,7 +97,7 @@
     "type": "exercise",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "**Problem 5.1** $$ \\begin{aligned} \\mathrm{sig}[z]=\\frac{1}{1+\\exp[-z]}.\n\\end{aligned}\n\\tag{5.18} $$"
+    "text": "**Problem 5.1** $$ \\begin{aligned} \\mathrm{sig}[z]=\\frac{1}{1+\\exp[-z]}.\n\\end{aligned} \\quad (5.18) $$"
   },
   {
     "id": "page_0066-b012",
@@ -115,7 +115,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\nPr(y|\\mathbf{x})=(1-\\mathrm{sig}[f[\\mathbf{x},\\boldsymbol{\\phi}]])^{1-y}\\cdot\\mathrm{sig}[f[\\mathbf{x}_{i},\\boldsymbol{\\phi}]]^{y}.\n\\end{aligned}\n\\tag{5.19}"
+    "text": "\\begin{aligned}\nPr(y|\\mathbf{x})=(1-\\mathrm{sig}[f[\\mathbf{x},\\boldsymbol{\\phi}]])^{1-y}\\cdot\\mathrm{sig}[f[\\mathbf{x}_{i},\\boldsymbol{\\phi}]]^{y}.\n\\end{aligned} \\quad (5.19)"
   },
   {
     "id": "page_0066-b014",
@@ -133,7 +133,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\nL[\\phi]=\\sum_{i=1}^{I}-(1-y_{i})\\log\\left[1-\\mathrm{sig}[f[\\mathbf{x}_{i},\\boldsymbol{\\phi}]]\\right]-y_{i}\\log\\left[\\mathrm{sig}[f[\\mathbf{x}_{i},\\boldsymbol{\\phi}]]\\right].\n\\end{aligned}\n\\tag{5.20}"
+    "text": "\\begin{aligned}\nL[\\phi]=\\sum_{i=1}^{I}-(1-y_{i})\\log\\left[1-\\mathrm{sig}[f[\\mathbf{x}_{i},\\boldsymbol{\\phi}]]\\right]-y_{i}\\log\\left[\\mathrm{sig}[f[\\mathbf{x}_{i},\\boldsymbol{\\phi}]]\\right].\n\\end{aligned} \\quad (5.20)"
   },
   {
     "id": "page_0066-b016",

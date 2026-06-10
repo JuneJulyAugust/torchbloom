@@ -25,7 +25,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\mathrm{Vol}[r]=\\frac{r^{D}\\pi^{D/2}}{\\Gamma[D/2+1]},\n\\end{aligned}\n\\tag{8.8}"
+    "text": "\\begin{aligned}\n\\mathrm{Vol}[r]=\\frac{r^{D}\\pi^{D/2}}{\\Gamma[D/2+1]},\n\\end{aligned} \\quad (8.8)"
   },
   {
     "id": "page_0137-b004",

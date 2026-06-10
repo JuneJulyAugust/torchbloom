@@ -24,7 +24,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\mathbf{H}_{k+1}\\mathbf{P}=\\mathbf{F}[\\mathbf{H}_{k}\\mathbf{P},\\mathbf{P}^{T}\\mathbf{A}\\mathbf{P},\\boldsymbol{\\phi}_{k}].\n\\end{aligned}\n\\tag{13.6}"
+    "text": "\\begin{aligned}\n\\mathbf{H}_{k+1}\\mathbf{P}=\\mathbf{F}[\\mathbf{H}_{k}\\mathbf{P},\\mathbf{P}^{T}\\mathbf{A}\\mathbf{P},\\boldsymbol{\\phi}_{k}].\n\\end{aligned} \\quad (13.6)"
   },
   {
     "id": "page_0249-b004",
@@ -42,7 +42,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\ny=\\mathrm{sig}\\left[\\beta_{K}+\\omega_{K}\\mathbf{H}_{K}\\mathbf{1}/N\\right]=\\mathrm{sig}\\left[\\beta_{K}+\\omega_{K}\\mathbf{H}_{K}\\mathbf{P}\\mathbf{1}/N\\right],\n\\end{aligned}\n\\tag{13.7}"
+    "text": "\\begin{aligned}\ny=\\mathrm{sig}\\left[\\beta_{K}+\\omega_{K}\\mathbf{H}_{K}\\mathbf{1}/N\\right]=\\mathrm{sig}\\left[\\beta_{K}+\\omega_{K}\\mathbf{H}_{K}\\mathbf{P}\\mathbf{1}/N\\right],\n\\end{aligned} \\quad (13.7)"
   },
   {
     "id": "page_0249-b006",

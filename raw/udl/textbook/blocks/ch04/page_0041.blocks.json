@@ -60,7 +60,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}&h_{1}\\quad=\\quad\\mathrm{a}[\\theta_{10}+\\theta_{11}x]\\\\&h_{2}\\quad=\\quad\\mathrm{a}[\\theta_{20}+\\theta_{21}x]\\\\&h_{3}\\quad=\\quad\\mathrm{a}[\\theta_{30}+\\theta_{31}x],\\\\ \\end{aligned} \\tag{4.1}"
+    "text": "\\begin{aligned}&h_{1}\\quad=\\quad\\mathrm{a}[\\theta_{10}+\\theta_{11}x]\\\\&h_{2}\\quad=\\quad\\mathrm{a}[\\theta_{20}+\\theta_{21}x]\\\\&h_{3}\\quad=\\quad\\mathrm{a}[\\theta_{30}+\\theta_{31}x],\\\\ \\end{aligned} \\quad (4.1)"
   },
   {
     "id": "page_0041-b008",
@@ -78,7 +78,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\ny=\\phi_{0}+\\phi_{1}h_{1}+\\phi_{2}h_{2}+\\phi_{3}h_{3}.\n\\end{aligned}\n\\tag{4.2}"
+    "text": "\\begin{aligned}\ny=\\phi_{0}+\\phi_{1}h_{1}+\\phi_{2}h_{2}+\\phi_{3}h_{3}.\n\\end{aligned} \\quad (4.2)"
   },
   {
     "id": "page_0041-b010",

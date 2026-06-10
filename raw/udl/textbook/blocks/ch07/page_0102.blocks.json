@@ -43,7 +43,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\\frac{\\partial\\ell_{i}}{\\partial f_{2}}&=\\quad\\frac{\\partial h_{3}}{\\partial f_{2}}\\left(\\frac{\\partial f_{3}}{\\partial h_{3}}\\frac{\\partial\\ell_{i}}{\\partial f_{3}}\\right)\\\\ \\frac{\\partial\\ell_{i}}{\\partial h_{2}}&=\\quad\\frac{\\partial f_{2}}{\\partial h_{2}}\\left(\\frac{\\partial h_{3}}{\\partial f_{2}}\\frac{\\partial f_{3}}{\\partial\\ell_{i}\\frac{\\partial\\ell_{i}}{\\partial f_{3}}}\\right)\\\\ \\frac{\\partial\\ell_{i}}{\\partial f_{1}}&=\\quad\\frac{\\partial h_{2}}{\\partial f_{1}}\\left(\\frac{\\partial f_{2}}{\\partial\\ell_{i}\\frac{\\partial h_{3}}{\\partial f_{3}}\\frac{\\partial\\ell_{i}}{\\partial f_{2}}}\\right)\\\\ \\frac{\\partial\\ell_{i}}{\\partial h_{1}}&=\\quad\\frac{\\partial f_{1}}{\\partial h_{1}}\\left(\\frac{\\partial h_{2}}{\\partial\\ell_{i}\\frac{\\partial f_{3}}{\\partial f_{1}}\\frac{\\partial\\ell_{i}}{\\partial h_{2}}}\\right)\\\\ \\frac{\\partial\\ell_{i}}{\\partial f_{0}}&=\\quad\\frac{\\partial h_{1}}{\\partial f_{0}}\\left(\\frac{\\partial f_{1}}{\\partial\\ell_{i}\\frac{\\partial h_{2}}{\\partial f_{1}}\\frac{\\partial f_{3}}{\\partial\\ell_{i}\\frac{\\partial\\ell_{i}}{\\partial h_{2}}}}\\right).\\\\ \\end{aligned} \\tag{7.13}"
+    "text": "\\begin{aligned}\\frac{\\partial\\ell_{i}}{\\partial f_{2}}&=\\quad\\frac{\\partial h_{3}}{\\partial f_{2}}\\left(\\frac{\\partial f_{3}}{\\partial h_{3}}\\frac{\\partial\\ell_{i}}{\\partial f_{3}}\\right)\\\\ \\frac{\\partial\\ell_{i}}{\\partial h_{2}}&=\\quad\\frac{\\partial f_{2}}{\\partial h_{2}}\\left(\\frac{\\partial h_{3}}{\\partial f_{2}}\\frac{\\partial f_{3}}{\\partial\\ell_{i}\\frac{\\partial\\ell_{i}}{\\partial f_{3}}}\\right)\\\\ \\frac{\\partial\\ell_{i}}{\\partial f_{1}}&=\\quad\\frac{\\partial h_{2}}{\\partial f_{1}}\\left(\\frac{\\partial f_{2}}{\\partial\\ell_{i}\\frac{\\partial h_{3}}{\\partial f_{3}}\\frac{\\partial\\ell_{i}}{\\partial f_{2}}}\\right)\\\\ \\frac{\\partial\\ell_{i}}{\\partial h_{1}}&=\\quad\\frac{\\partial f_{1}}{\\partial h_{1}}\\left(\\frac{\\partial h_{2}}{\\partial\\ell_{i}\\frac{\\partial f_{3}}{\\partial f_{1}}\\frac{\\partial\\ell_{i}}{\\partial h_{2}}}\\right)\\\\ \\frac{\\partial\\ell_{i}}{\\partial f_{0}}&=\\quad\\frac{\\partial h_{1}}{\\partial f_{0}}\\left(\\frac{\\partial f_{1}}{\\partial\\ell_{i}\\frac{\\partial h_{2}}{\\partial f_{1}}\\frac{\\partial f_{3}}{\\partial\\ell_{i}\\frac{\\partial\\ell_{i}}{\\partial h_{2}}}}\\right).\\\\ \\end{aligned} \\quad (7.13)"
   },
   {
     "id": "page_0102-b006",
@@ -70,7 +70,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\\frac{\\partial\\ell_{i}}{\\partial\\omega_{k}}&=\\quad\\frac{\\partial f_{k}}{\\partial\\beta_{k}}\\frac{\\partial\\ell_{i}}{\\partial f_{k}}.\\\\ \\frac{\\partial\\ell_{i}}{\\partial\\omega_{k}}&=\\quad\\frac{\\partial f_{k}}{\\partial\\beta_{k}}\\frac{\\partial\\ell_{i}}{\\partial\\omega_{k}}.\\end{aligned} \\tag{7.14}"
+    "text": "\\begin{aligned}\\frac{\\partial\\ell_{i}}{\\partial\\omega_{k}}&=\\quad\\frac{\\partial f_{k}}{\\partial\\beta_{k}}\\frac{\\partial\\ell_{i}}{\\partial f_{k}}.\\\\ \\frac{\\partial\\ell_{i}}{\\partial\\omega_{k}}&=\\quad\\frac{\\partial f_{k}}{\\partial\\beta_{k}}\\frac{\\partial\\ell_{i}}{\\partial\\omega_{k}}.\\end{aligned} \\quad (7.14)"
   },
   {
     "id": "page_0102-b009",
@@ -88,6 +88,6 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\frac{\\partial f_{k}}{\\partial\\beta_{k}}=1\\quad\\text{and}\\quad\\frac{\\partial f_{k}}{\\partial\\omega_{k}}\\;=\\;h_{k}.\n\\end{aligned}\n\\tag{7.15}"
+    "text": "\\begin{aligned}\n\\frac{\\partial f_{k}}{\\partial\\beta_{k}}=1\\quad\\text{and}\\quad\\frac{\\partial f_{k}}{\\partial\\omega_{k}}\\;=\\;h_{k}.\n\\end{aligned} \\quad (7.15)"
   }
 ]

@@ -15,7 +15,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\begin{align*}\\mathbb{E}[f_{i}^{\\prime}]&=&\\quad\\mathbb{E}\\left[\\beta_{i}+\\sum_{j=1}^{D_{h}}\\Omega_{ij}h_{j}\\right]\\\\&=&\\quad\\mathbb{E}\\left[\\beta_{i}\\right]+\\sum_{j=1}^{D_{h}}\\mathbb{E}\\left[\\Omega_{ij}h_{j}\\right]\\\\&=&\\quad\\mathbb{E}\\left[\\beta_{i}\\right]+\\sum_{j=1}^{D_{h}}\\mathbb{E}\\left[\\Omega_{ij}\\right]\\mathbb{E}\\left[h_{j}\\right]\\\\&=&\\quad0+\\sum_{j=1}^{D_{h}}0\\cdot\\mathbb{E}\\left[h_{j}\\right]=0,\\end{align*}\n\\end{aligned}\n\\tag{7.29}"
+    "text": "\\begin{aligned}\n\\begin{align*}\\mathbb{E}[f_{i}^{\\prime}]&=&\\quad\\mathbb{E}\\left[\\beta_{i}+\\sum_{j=1}^{D_{h}}\\Omega_{ij}h_{j}\\right]\\\\&=&\\quad\\mathbb{E}\\left[\\beta_{i}\\right]+\\sum_{j=1}^{D_{h}}\\mathbb{E}\\left[\\Omega_{ij}h_{j}\\right]\\\\&=&\\quad\\mathbb{E}\\left[\\beta_{i}\\right]+\\sum_{j=1}^{D_{h}}\\mathbb{E}\\left[\\Omega_{ij}\\right]\\mathbb{E}\\left[h_{j}\\right]\\\\&=&\\quad0+\\sum_{j=1}^{D_{h}}0\\cdot\\mathbb{E}\\left[h_{j}\\right]=0,\\end{align*}\n\\end{aligned} \\quad (7.29)"
   },
   {
     "id": "page_0109-b003",
@@ -51,7 +51,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\begin{align*}\\sigma_{f_{i}}^{2}&=\\mathbb{E}[f_{i}^{\\prime2}]-\\mathbb{E}[f_{i}^{^{\\prime}2}]\\\\&=\\mathbb{E}\\left[\\left(\\beta_{i}+\\sum_{j=1}^{D_{h}}\\Omega_{ij}h_{j}\\right)^{2}\\right]-0\\\\&=\\mathbb{E}\\left[\\left(\\sum_{j=1}^{D_{h}}\\Omega_{ij}h_{j}\\right)^{2}\\right]\\\\&=\\sum_{j=1}^{D_{h}}\\mathbb{E}\\left[\\Omega_{ij}^{2}\\right]\\mathbb{E}\\left[h_{j}^{2}\\right]\\\\&=\\sum_{j=1}^{D_{h}}\\sigma_{\\Omega}^{2}\\mathbb{E}\\left[h_{j}^{2}\\right]=\\sigma_{\\Omega}^{2}\\sum_{j=1}^{D_{h}}\\mathbb{E}\\left[h_{j}^{2}\\right],\\end{align*}\n\\end{aligned}\n\\tag{7.30}"
+    "text": "\\begin{aligned}\n\\begin{align*}\\sigma_{f_{i}}^{2}&=\\mathbb{E}[f_{i}^{\\prime2}]-\\mathbb{E}[f_{i}^{^{\\prime}2}]\\\\&=\\mathbb{E}\\left[\\left(\\beta_{i}+\\sum_{j=1}^{D_{h}}\\Omega_{ij}h_{j}\\right)^{2}\\right]-0\\\\&=\\mathbb{E}\\left[\\left(\\sum_{j=1}^{D_{h}}\\Omega_{ij}h_{j}\\right)^{2}\\right]\\\\&=\\sum_{j=1}^{D_{h}}\\mathbb{E}\\left[\\Omega_{ij}^{2}\\right]\\mathbb{E}\\left[h_{j}^{2}\\right]\\\\&=\\sum_{j=1}^{D_{h}}\\sigma_{\\Omega}^{2}\\mathbb{E}\\left[h_{j}^{2}\\right]=\\sigma_{\\Omega}^{2}\\sum_{j=1}^{D_{h}}\\mathbb{E}\\left[h_{j}^{2}\\right],\\end{align*}\n\\end{aligned} \\quad (7.30)"
   },
   {
     "id": "page_0109-b007",
@@ -87,7 +87,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\sigma_{f_{i}^{^{\\prime}}}^{2}=\\sigma_{\\Omega}^{^{2}}\\sum_{j=1}^{D_{h}}\\frac{\\sigma_{f}^{^{2}}}{2}=\\frac{1}{2}D_{h}\\sigma_{\\Omega}^{^{2}}\\sigma_{f}^{^{2}}.\n\\end{aligned}\n\\tag{7.31}"
+    "text": "\\begin{aligned}\n\\sigma_{f_{i}^{^{\\prime}}}^{2}=\\sigma_{\\Omega}^{^{2}}\\sum_{j=1}^{D_{h}}\\frac{\\sigma_{f}^{^{2}}}{2}=\\frac{1}{2}D_{h}\\sigma_{\\Omega}^{^{2}}\\sigma_{f}^{^{2}}.\n\\end{aligned} \\quad (7.31)"
   },
   {
     "id": "page_0109-b011",

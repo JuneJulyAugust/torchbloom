@@ -43,7 +43,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "h_d=a[\\theta_{d0}+\\theta_{d1}x]. \\tag{3.5}"
+    "text": "h_d=a[\\theta_{d0}+\\theta_{d1}x]. \\quad (3.5)"
   },
   {
     "id": "page_0029-b006",
@@ -52,7 +52,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "y=\\phi_0+\\sum_{d=1}^{D}\\phi_d h_d. \\tag{3.6}"
+    "text": "y=\\phi_0+\\sum_{d=1}^{D}\\phi_d h_d. \\quad (3.6)"
   },
   {
     "id": "page_0029-b007",

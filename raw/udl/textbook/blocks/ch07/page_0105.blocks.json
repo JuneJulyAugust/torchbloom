@@ -6,7 +6,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\frac{\\partial\\mathbf{f}_{3}}{\\partial\\mathbf{h}_{3}}=\\frac{\\partial}{\\partial\\mathbf{h}_{3}}\\left(\\boldsymbol{\\beta}_{3}+\\mathbf{\\Omega}_{3}\\mathbf{h}_{3}\\right)=\\mathbf{\\Omega}_{3}^{T}.\n\\end{aligned}\n\\tag{7.21}"
+    "text": "\\begin{aligned}\n\\frac{\\partial\\mathbf{f}_{3}}{\\partial\\mathbf{h}_{3}}=\\frac{\\partial}{\\partial\\mathbf{h}_{3}}\\left(\\boldsymbol{\\beta}_{3}+\\mathbf{\\Omega}_{3}\\mathbf{h}_{3}\\right)=\\mathbf{\\Omega}_{3}^{T}.\n\\end{aligned} \\quad (7.21)"
   },
   {
     "id": "page_0105-b002",
@@ -78,7 +78,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{\\Omega}_{k}}&=\\quad\\frac{\\partial\\mathbf{f}_{k}}{\\partial\\mathbf{\\Omega}_{k}}\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{k}}&=\\quad\\frac{\\partial}{\\partial\\mathbf{\\Omega}_{k}}\\left(\\boldsymbol{\\beta}_{k}+\\mathbf{\\Omega}_{k}\\mathbf{h}_{k}\\right)\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{k}}\\\\&=\\quad\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{k}}\\mathbf{h}_{k}^{T}.\\end{aligned} \\tag{7.22}"
+    "text": "\\begin{aligned}\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{\\Omega}_{k}}&=\\quad\\frac{\\partial\\mathbf{f}_{k}}{\\partial\\mathbf{\\Omega}_{k}}\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{k}}&=\\quad\\frac{\\partial}{\\partial\\mathbf{\\Omega}_{k}}\\left(\\boldsymbol{\\beta}_{k}+\\mathbf{\\Omega}_{k}\\mathbf{h}_{k}\\right)\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{k}}\\\\&=\\quad\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{k}}\\mathbf{h}_{k}^{T}.\\end{aligned} \\quad (7.22)"
   },
   {
     "id": "page_0105-b010",

@@ -34,7 +34,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\mathbb{E}_{\\tau}\\left[\\frac{\\partial}{\\partial\\theta}\\log[Pr(\\boldsymbol{\\tau}|\\theta)]b\\right]=0,\n\\end{aligned}\n\\tag{19.48}"
+    "text": "\\begin{aligned}\n\\mathbb{E}_{\\tau}\\left[\\frac{\\partial}{\\partial\\theta}\\log[Pr(\\boldsymbol{\\tau}|\\theta)]b\\right]=0,\n\\end{aligned} \\quad (19.48)"
   },
   {
     "id": "page_0401-b005",
@@ -61,7 +61,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\na^{\\prime}=a-c(b-\\mu_{b}).\n\\end{aligned}\n\\tag{19.49}"
+    "text": "\\begin{aligned}\na^{\\prime}=a-c(b-\\mu_{b}).\n\\end{aligned} \\quad (19.49)"
   },
   {
     "id": "page_0401-b008",
@@ -88,7 +88,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\mathbb{E}_{\\tau}\\left[\\mathbf{g}[\\boldsymbol{\\theta}](r[\\pmb{\\tau}_{t}]-\\boldsymbol{b})\\right],\n\\end{aligned}\n\\tag{19.50}"
+    "text": "\\begin{aligned}\n\\mathbb{E}_{\\tau}\\left[\\mathbf{g}[\\boldsymbol{\\theta}](r[\\pmb{\\tau}_{t}]-\\boldsymbol{b})\\right],\n\\end{aligned} \\quad (19.50)"
   },
   {
     "id": "page_0401-b011",
@@ -106,7 +106,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\mathbf{g}[\\boldsymbol{\\theta},\\tau]=\\sum_{k=t}^{T}\\frac{\\partial\\log\\left[Pr(a_{t}|\\mathbf{s}_{t},\\boldsymbol{\\theta})\\right]}{\\partial\\boldsymbol{\\theta}},\n\\end{aligned}\n\\tag{19.51}"
+    "text": "\\begin{aligned}\n\\mathbf{g}[\\boldsymbol{\\theta},\\tau]=\\sum_{k=t}^{T}\\frac{\\partial\\log\\left[Pr(a_{t}|\\mathbf{s}_{t},\\boldsymbol{\\theta})\\right]}{\\partial\\boldsymbol{\\theta}},\n\\end{aligned} \\quad (19.51)"
   },
   {
     "id": "page_0401-b013",
@@ -124,7 +124,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\nr[\\pmb{\\tau}]=\\sum_{k=t}^{T}r_{k}.\n\\end{aligned}\n\\tag{19.52}"
+    "text": "\\begin{aligned}\nr[\\pmb{\\tau}]=\\sum_{k=t}^{T}r_{k}.\n\\end{aligned} \\quad (19.52)"
   },
   {
     "id": "page_0401-b015",
@@ -142,7 +142,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\nb=\\frac{\\mathbb{E}\\left[\\mathbf{g}[\\boldsymbol{\\theta},\\tau]^{2}r[\\pmb{\\tau}]\\right]}{\\mathbb{E}\\left[\\mathbf{g}[\\boldsymbol{\\theta},\\tau]^{2}\\right]}.\n\\end{aligned}\n\\tag{19.53}"
+    "text": "\\begin{aligned}\nb=\\frac{\\mathbb{E}\\left[\\mathbf{g}[\\boldsymbol{\\theta},\\tau]^{2}r[\\pmb{\\tau}]\\right]}{\\mathbb{E}\\left[\\mathbf{g}[\\boldsymbol{\\theta},\\tau]^{2}\\right]}.\n\\end{aligned} \\quad (19.53)"
   },
   {
     "id": "page_0401-b017",

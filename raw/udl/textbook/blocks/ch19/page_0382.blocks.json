@@ -6,7 +6,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\nv[s_{t}]=\\sum_{a_{t}}\\pi[a_{t}|s_{t}]\\left(r[s_{t},a_{t}]+\\gamma\\cdot\\sum_{s_{t+1}}Pr(s_{t+1}|s_{t},a_{t})v[s_{t+1}]\\right).\n\\end{aligned}\n\\tag{19.9}"
+    "text": "\\begin{aligned}\nv[s_{t}]=\\sum_{a_{t}}\\pi[a_{t}|s_{t}]\\left(r[s_{t},a_{t}]+\\gamma\\cdot\\sum_{s_{t+1}}Pr(s_{t+1}|s_{t},a_{t})v[s_{t+1}]\\right).\n\\end{aligned} \\quad (19.9)"
   },
   {
     "id": "page_0382-b002",
@@ -24,7 +24,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\nq[s_{t},a_{t}]=r[s_{t},a_{t}]+\\gamma\\cdot\\sum_{s_{t+1}}Pr(s_{t+1}|s_{t},a_{t})\\left(\\sum_{a_{t+1}}\\pi[a_{t+1}|s_{t+1}]q[s_{t+1},a_{t+1}]\\right).\n\\end{aligned}\n\\tag{19.10}"
+    "text": "\\begin{aligned}\nq[s_{t},a_{t}]=r[s_{t},a_{t}]+\\gamma\\cdot\\sum_{s_{t+1}}Pr(s_{t+1}|s_{t},a_{t})\\left(\\sum_{a_{t+1}}\\pi[a_{t+1}|s_{t+1}]q[s_{t+1},a_{t+1}]\\right).\n\\end{aligned} \\quad (19.10)"
   },
   {
     "id": "page_0382-b004",

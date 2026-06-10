@@ -6,7 +6,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}}=\\underset{\\boldsymbol{\\phi}}{\\mathrm{argmax}}\\left[Pr(\\boldsymbol{\\phi})\\prod_{i=1}^{I}Pr(\\mathbf{y}_{i}|\\mathbf{x}_{i},\\boldsymbol{\\phi})\\right].\n\\end{aligned}\n\\tag{9.4}"
+    "text": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}}=\\underset{\\boldsymbol{\\phi}}{\\mathrm{argmax}}\\left[Pr(\\boldsymbol{\\phi})\\prod_{i=1}^{I}Pr(\\mathbf{y}_{i}|\\mathbf{x}_{i},\\boldsymbol{\\phi})\\right].\n\\end{aligned} \\quad (9.4)"
   },
   {
     "id": "page_0140-b002",
@@ -42,7 +42,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}}=\\underset{\\boldsymbol{\\phi}}{\\mathrm{argmin}}\\left[\\sum_{i=1}^{I}\\ell_{i}[\\mathbf{x}_{i},\\mathbf{y}_{i}]+\\lambda\\sum_{j}\\phi_{j}^{2}\\right],\n\\end{aligned}\n\\tag{9.5}"
+    "text": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}}=\\underset{\\boldsymbol{\\phi}}{\\mathrm{argmin}}\\left[\\sum_{i=1}^{I}\\ell_{i}[\\mathbf{x}_{i},\\mathbf{y}_{i}]+\\lambda\\sum_{j}\\phi_{j}^{2}\\right],\n\\end{aligned} \\quad (9.5)"
   },
   {
     "id": "page_0140-b006",

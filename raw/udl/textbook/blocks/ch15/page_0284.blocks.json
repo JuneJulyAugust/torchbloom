@@ -61,7 +61,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\nD_{w}\\Big[Pr(x)||q(x)\\Big]=\\min_{\\mathbf{P}}\\left[\\sum_{i,j}P_{ij}\\cdot|i-j|\\right],\n\\end{aligned}\n\\tag{15.10}"
+    "text": "\\begin{aligned}\nD_{w}\\Big[Pr(x)||q(x)\\Big]=\\min_{\\mathbf{P}}\\left[\\sum_{i,j}P_{ij}\\cdot|i-j|\\right],\n\\end{aligned} \\quad (15.10)"
   },
   {
     "id": "page_0284-b008",
@@ -79,7 +79,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\begin{array}{ll}\\sum_{i}P_{ij}&=Pr(x=i)\\\\ \\sum_{i} P_{ij}&=\\begin{array}{ll}q(x=j)\\end{array}\\\\ \\sum_{i}P_{ij}&\\geq0\\end{array}\\begin{array}{ll}initial distribution of Pr(x)\\\\ initial distribution of q(x)\\\\ non-negative masses.\\end{array}\n\\end{aligned}\n\\tag{15.11}"
+    "text": "\\begin{aligned}\n\\begin{array}{ll}\\sum_{i}P_{ij}&=Pr(x=i)\\\\ \\sum_{i} P_{ij}&=\\begin{array}{ll}q(x=j)\\end{array}\\\\ \\sum_{i}P_{ij}&\\geq0\\end{array}\\begin{array}{ll}initial distribution of Pr(x)\\\\ initial distribution of q(x)\\\\ non-negative masses.\\end{array}\n\\end{aligned} \\quad (15.11)"
   },
   {
     "id": "page_0284-b010",

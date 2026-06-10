@@ -97,7 +97,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\nPr(y=1|\\mathbf{X},\\mathbf{A})=\\mathrm{sig}\\left[\\beta_{K}+\\boldsymbol{\\omega}_{K}\\mathbf{H}_{K}\\mathbf{1}/N\\right],\n\\end{aligned}\n\\tag{13.2}"
+    "text": "\\begin{aligned}\nPr(y=1|\\mathbf{X},\\mathbf{A})=\\mathrm{sig}\\left[\\beta_{K}+\\boldsymbol{\\omega}_{K}\\mathbf{H}_{K}\\mathbf{1}/N\\right],\n\\end{aligned} \\quad (13.2)"
   },
   {
     "id": "page_0246-b012",

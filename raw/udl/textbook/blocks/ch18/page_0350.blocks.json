@@ -61,7 +61,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\\mathbf{z}_{1}&=\\sqrt{1-\\beta_{1}}\\cdot\\mathbf{x}+\\sqrt{\\beta_{1}\\cdot\\epsilon_{1}}\\\\ \\mathbf{z}_{t}&=\\sqrt{1-\\beta_{t}}\\cdot\\mathbf{z}_{t-1}+\\sqrt{\\beta_{t}\\cdot\\epsilon_{t}}\\quad\\forall t\\in\\lbrace2,\\cdots,T,\\end{aligned} \\quad (18.1)"
+    "text": "\\begin{aligned}\\mathbf{z}_{1}&=\\sqrt{1-\\beta_{1}}\\cdot\\mathbf{x}+\\sqrt{\\beta_{1}\\cdot\\epsilon_{1}}\\\\ \\mathbf{z}_{t}&=\\sqrt{1-\\beta_{t}}\\cdot\\mathbf{z}_{t-1}+\\sqrt{\\beta_{t}\\cdot\\epsilon_{t}}\\quad\\forall t\\in\\lbrace 2,\\cdots,T,\\end{aligned} \\quad (18.1)"
   },
   {
     "id": "page_0350-b008",

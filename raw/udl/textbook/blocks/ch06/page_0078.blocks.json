@@ -24,7 +24,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\frac{\\partial L}{\\partial\\phi}=\\begin{bmatrix}\\displaystyle\\frac{\\partial L}{\\partial\\phi_{0}}\\\\ \\displaystyle\\frac{\\partial L}{\\partial\\phi_{1}}\\\\ \\vdots\\\\ \\displaystyle\\frac{\\partial L}{\\partial\\phi_{N}}\\end{bmatrix}.\n\\end{aligned}\n\\tag{6.2}"
+    "text": "\\begin{aligned}\n\\frac{\\partial L}{\\partial\\phi}=\\begin{bmatrix}\\displaystyle\\frac{\\partial L}{\\partial\\phi_{0}}\\\\ \\displaystyle\\frac{\\partial L}{\\partial\\phi_{1}}\\\\ \\vdots\\\\ \\displaystyle\\frac{\\partial L}{\\partial\\phi_{N}}\\end{bmatrix}.\n\\end{aligned} \\quad (6.2)"
   },
   {
     "id": "page_0078-b004",
@@ -42,7 +42,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\phi\\leftarrow\\phi-\\alpha\\cdot\\frac{\\partial L}{\\partial\\phi},\n\\end{aligned}\n\\tag{6.3}"
+    "text": "\\begin{aligned}\n\\phi\\leftarrow\\phi-\\alpha\\cdot\\frac{\\partial L}{\\partial\\phi},\n\\end{aligned} \\quad (6.3)"
   },
   {
     "id": "page_0078-b006",
@@ -96,7 +96,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}y\\quad&=\\quad\\mathbf{f}[x,\\phi]\\\\&=\\quad\\phi_{0}+\\phi_{1}x.\\end{aligned} \\tag{6.4}"
+    "text": "\\begin{aligned}y\\quad&=\\quad\\mathbf{f}[x,\\phi]\\\\&=\\quad\\phi_{0}+\\phi_{1}x.\\end{aligned} \\quad (6.4)"
   },
   {
     "id": "page_0078-b012",
@@ -114,6 +114,6 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\begin{align*}L[\\phi]\\quad&=\\quad\\sum_{i=1}^{I}\\ell_{i}\\quad=\\quad\\sum_{i=1}^{I}(\\mathbf{f}[x_{i},\\phi]-y_{i})^{2}\\\\&=\\quad\\sum_{i=1}^{I}\\left(\\phi_{0}+\\phi_{1}x_{i}-y_{i}\\right)^{2},\\end{align*}\n\\end{aligned}\n\\tag{6.5}"
+    "text": "\\begin{aligned}\n\\begin{align*}L[\\phi]\\quad&=\\quad\\sum_{i=1}^{I}\\ell_{i}\\quad=\\quad\\sum_{i=1}^{I}(\\mathbf{f}[x_{i},\\phi]-y_{i})^{2}\\\\&=\\quad\\sum_{i=1}^{I}\\left(\\phi_{0}+\\phi_{1}x_{i}-y_{i}\\right)^{2},\\end{align*}\n\\end{aligned} \\quad (6.5)"
   }
 ]

@@ -6,7 +6,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\\mathbf{m}_{t+1}&\\leftarrow\\quad\\beta\\cdot\\mathbf{m}_{t}+(1-\\beta)\\frac{\\partial L[\\phi_{t}]}{\\partial\\phi}\\\\ \\mathbf{v}_{t+1}&\\leftarrow\\quad\\gamma\\cdot\\mathbf{v}_{t}+(1-\\gamma)\\left(\\frac{\\partial L[\\phi_{t}]}{\\partial\\phi}\\right)^{2},\\end{aligned} \\tag{6.15}"
+    "text": "\\begin{aligned}\\mathbf{m}_{t+1}&\\leftarrow\\quad\\beta\\cdot\\mathbf{m}_{t}+(1-\\beta)\\frac{\\partial L[\\phi_{t}]}{\\partial\\phi}\\\\ \\mathbf{v}_{t+1}&\\leftarrow\\quad\\gamma\\cdot\\mathbf{v}_{t}+(1-\\gamma)\\left(\\frac{\\partial L[\\phi_{t}]}{\\partial\\phi}\\right)^{2},\\end{aligned} \\quad (6.15)"
   },
   {
     "id": "page_0090-b002",
@@ -33,7 +33,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\\tilde{\\mathbf{m}}_{t+1}&\\leftarrow\\frac{\\mathbf{m}_{t+1}}{1-\\beta^{t+1}}\\\\\\tilde{\\mathbf{v}}_{t+1}&\\leftarrow\\frac{\\mathbf{v}_{t+1}}{1-\\gamma^{t+1}}.\\end{aligned} \\tag{6.16}"
+    "text": "\\begin{aligned}\\tilde{\\mathbf{m}}_{t+1}&\\leftarrow\\frac{\\mathbf{m}_{t+1}}{1-\\beta^{t+1}}\\\\\\tilde{\\mathbf{v}}_{t+1}&\\leftarrow\\frac{\\mathbf{v}_{t+1}}{1-\\gamma^{t+1}}.\\end{aligned} \\quad (6.16)"
   },
   {
     "id": "page_0090-b005",
@@ -60,7 +60,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\phi_{t+1}\\quad\\leftarrow\\quad\\phi_{t}-\\alpha\\cdot\\frac{\\tilde{\\mathbf{m}}_{t+1}}{\\sqrt{\\tilde{\\mathbf{v}}}_{t+1}+\\epsilon}.\n\\end{aligned}\n\\tag{6.17}"
+    "text": "\\begin{aligned}\n\\phi_{t+1}\\quad\\leftarrow\\quad\\phi_{t}-\\alpha\\cdot\\frac{\\tilde{\\mathbf{m}}_{t+1}}{\\sqrt{\\tilde{\\mathbf{v}}}_{t+1}+\\epsilon}.\n\\end{aligned} \\quad (6.17)"
   },
   {
     "id": "page_0090-b008",
@@ -78,7 +78,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\\mathbf{m}_{t+1}&\\leftarrow\\quad\\beta\\cdot\\mathbf{m}_{t}+(1-\\beta)\\sum_{i\\in\\mathcal{B}_{t}}\\frac{\\partial\\ell_{i}[\\phi_{t}]}{\\partial\\phi}\\\\ \\mathbf{v}_{t+1}&\\leftarrow\\quad\\gamma\\cdot\\mathbf{v}_{t}+(1-\\gamma)\\Bigg(\\sum_{i\\in\\mathcal{B}_{t}}\\frac{\\partial\\ell_{i}[\\phi_{t}]}{\\partial\\phi}\\Bigg)^{2},\\end{aligned} \\tag{6.18}"
+    "text": "\\begin{aligned}\\mathbf{m}_{t+1}&\\leftarrow\\quad\\beta\\cdot\\mathbf{m}_{t}+(1-\\beta)\\sum_{i\\in\\mathcal{B}_{t}}\\frac{\\partial\\ell_{i}[\\phi_{t}]}{\\partial\\phi}\\\\ \\mathbf{v}_{t+1}&\\leftarrow\\quad\\gamma\\cdot\\mathbf{v}_{t}+(1-\\gamma)\\Bigg(\\sum_{i\\in\\mathcal{B}_{t}}\\frac{\\partial\\ell_{i}[\\phi_{t}]}{\\partial\\phi}\\Bigg)^{2},\\end{aligned} \\quad (6.18)"
   },
   {
     "id": "page_0090-b010",

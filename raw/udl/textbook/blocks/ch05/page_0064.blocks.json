@@ -15,7 +15,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\hat{\\phi},\\hat{\\sigma}^{2}=\\underset{\\phi,\\sigma^{2}}{\\mathrm{argmin}}\\left[-\\sum_{i=1}^{I}\\log\\left[\\frac{1}{\\sqrt{2\\pi\\sigma^{2}}}\\exp\\Big[-\\frac{(y_{i}-\\mathrm{f}[\\mathbf{x}_{i},\\phi])^{2}}{2\\sigma^{2}}\\Big]\\right].\\right.\n\\end{aligned}\n\\tag{5.13}"
+    "text": "\\begin{aligned}\n\\hat{\\phi},\\hat{\\sigma}^{2}=\\underset{\\phi,\\sigma^{2}}{\\mathrm{argmin}}\\left[-\\sum_{i=1}^{I}\\log\\left[\\frac{1}{\\sqrt{2\\pi\\sigma^{2}}}\\exp\\Big[-\\frac{(y_{i}-\\mathrm{f}[\\mathbf{x}_{i},\\phi])^{2}}{2\\sigma^{2}}\\Big]\\right].\\right.\n\\end{aligned} \\quad (5.13)"
   },
   {
     "id": "page_0064-b003",
@@ -69,7 +69,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\begin{array}{r c l}{\\mu}&{=}&{\\mathrm{f}_{1}[\\mathbf{x},\\phi]}\\\\ {\\sigma^{2}}&{=}&{\\mathrm{f}_{2}[\\mathbf{x},\\phi]^{2},}\\\\ \\end{array}\n\\end{aligned}\n\\tag{5.14}"
+    "text": "\\begin{aligned}\n\\begin{array}{r c l}{\\mu}&{=}&{\\mathrm{f}_{1}[\\mathbf{x},\\phi]}\\\\ {\\sigma^{2}}&{=}&{\\mathrm{f}_{2}[\\mathbf{x},\\phi]^{2},}\\\\ \\end{array}\n\\end{aligned} \\quad (5.14)"
   },
   {
     "id": "page_0064-b009",
@@ -87,7 +87,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\hat{\\phi}=\\underset{\\phi}{\\mathrm{argmin}}\\left[-\\sum_{i=1}^{I}\\Bigg(\\log\\left[\\frac{1}{\\sqrt{2\\pi f_{2}[\\mathbf{x}_{i},\\phi]^{2}}}\\right]-\\frac{(y_{i}-\\mathrm{f}_{1}[\\mathbf{x}_{i},\\phi])^{2}}{2f_{2}[\\mathbf{x}_{i},\\phi]^{2}}\\Bigg)\\right].\n\\end{aligned}\n\\tag{5.15}"
+    "text": "\\begin{aligned}\n\\hat{\\phi}=\\underset{\\phi}{\\mathrm{argmin}}\\left[-\\sum_{i=1}^{I}\\Bigg(\\log\\left[\\frac{1}{\\sqrt{2\\pi f_{2}[\\mathbf{x}_{i},\\phi]^{2}}}\\right]-\\frac{(y_{i}-\\mathrm{f}_{1}[\\mathbf{x}_{i},\\phi])^{2}}{2f_{2}[\\mathbf{x}_{i},\\phi]^{2}}\\Bigg)\\right].\n\\end{aligned} \\quad (5.15)"
   },
   {
     "id": "page_0064-b011",

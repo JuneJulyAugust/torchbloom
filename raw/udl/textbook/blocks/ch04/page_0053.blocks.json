@@ -15,7 +15,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\nN_{r}=\\left(\\frac{D}{D_{i}}+1\\right)^{D_{i}(K-1)}\\cdot\\sum_{j=0}^{D_{i}}\\binom{D}{j}.\n\\end{aligned}\n\\tag{4.17}"
+    "text": "\\begin{aligned}\nN_{r}=\\left(\\frac{D}{D_{i}}+1\\right)^{D_{i}(K-1)}\\cdot\\sum_{j=0}^{D_{i}}\\binom{D}{j}.\n\\end{aligned} \\quad (4.17)"
   },
   {
     "id": "page_0053-b003",

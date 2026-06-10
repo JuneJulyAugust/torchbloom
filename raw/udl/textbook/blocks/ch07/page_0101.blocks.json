@@ -43,7 +43,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\begin{array}{rcl}f_{0}&=&\\beta_{0}+\\omega_{0}\\cdot x_{i}\\\\h_{1}&=&sin[f_{0}]\\\\f_{1}&=&\\beta_{1}+\\omega_{1}\\cdot h_{1}\\\\h_{2}&=&exp[f_{1}]\\\\f_{2}&=&\\beta_{2}+\\omega_{2}\\cdot h_{2}\\\\h_{3}&=&cos[f_{2}]\\\\f_{3}&=&\\beta_{3}+\\omega_{3}\\cdot h_{3}\\\\l_{i}&=&(f_{3}-y_{i})^{2}.\\end{array}\n\\end{aligned}\n\\tag{7.9}"
+    "text": "\\begin{aligned}\n\\begin{array}{rcl}f_{0}&=&\\beta_{0}+\\omega_{0}\\cdot x_{i}\\\\h_{1}&=&sin[f_{0}]\\\\f_{1}&=&\\beta_{1}+\\omega_{1}\\cdot h_{1}\\\\h_{2}&=&exp[f_{1}]\\\\f_{2}&=&\\beta_{2}+\\omega_{2}\\cdot h_{2}\\\\h_{3}&=&cos[f_{2}]\\\\f_{3}&=&\\beta_{3}+\\omega_{3}\\cdot h_{3}\\\\l_{i}&=&(f_{3}-y_{i})^{2}.\\end{array}\n\\end{aligned} \\quad (7.9)"
   },
   {
     "id": "page_0101-b006",
@@ -70,7 +70,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\frac{\\partial\\ell_{i}}{\\partial f_{3}},\\quad\\frac{\\partial\\ell_{i}}{\\partial h_{3}},\\quad\\frac{\\partial\\ell_{i}}{\\partial f_{2}},\\quad\\frac{\\partial\\ell_{i}}{\\partial h_{2}},\\quad\\frac{\\partial\\ell_{i}}{\\partial f_{1}},\\quad\\frac{\\partial\\ell_{i}}{\\partial h_{1}},\\quad and\\quad\\frac{\\partial\\ell_{i}}{\\partial f_{0}}.\n\\end{aligned}\n\\tag{7.10}"
+    "text": "\\begin{aligned}\n\\frac{\\partial\\ell_{i}}{\\partial f_{3}},\\quad\\frac{\\partial\\ell_{i}}{\\partial h_{3}},\\quad\\frac{\\partial\\ell_{i}}{\\partial f_{2}},\\quad\\frac{\\partial\\ell_{i}}{\\partial h_{2}},\\quad\\frac{\\partial\\ell_{i}}{\\partial f_{1}},\\quad\\frac{\\partial\\ell_{i}}{\\partial h_{1}},\\quad and\\quad\\frac{\\partial\\ell_{i}}{\\partial f_{0}}.\n\\end{aligned} \\quad (7.10)"
   },
   {
     "id": "page_0101-b009",
@@ -88,7 +88,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\frac{\\partial\\ell_{i}}{\\partial h_{3}}=\\frac{\\partial f_{3}}{\\partial h_{3}}\\frac{\\partial\\ell_{i}}{\\partial f_{3}}.\n\\end{aligned}\n\\tag{7.11}"
+    "text": "\\begin{aligned}\n\\frac{\\partial\\ell_{i}}{\\partial h_{3}}=\\frac{\\partial f_{3}}{\\partial h_{3}}\\frac{\\partial\\ell_{i}}{\\partial f_{3}}.\n\\end{aligned} \\quad (7.11)"
   },
   {
     "id": "page_0101-b011",
@@ -106,7 +106,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\frac{\\partial\\ell_{i}}{\\partial h_{3}}=2(f_{3}-y_{i}).\n\\end{aligned}\n\\tag{7.12}"
+    "text": "\\begin{aligned}\n\\frac{\\partial\\ell_{i}}{\\partial h_{3}}=2(f_{3}-y_{i}).\n\\end{aligned} \\quad (7.12)"
   },
   {
     "id": "page_0101-b013",

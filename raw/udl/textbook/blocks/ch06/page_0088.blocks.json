@@ -6,7 +6,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\\mathbf{m}_{t+1}&\\leftarrow\\quad\\beta\\cdot\\mathbf{m}_{t}+(1-\\beta)\\sum_{i\\in\\mathcal{B}_{t}}\\frac{\\partial\\ell_{i}[\\boldsymbol{\\phi}_{t}-\\alpha\\beta\\cdot\\mathbf{m}_{t}]}{\\partial\\boldsymbol{\\phi}}\\\\ \\boldsymbol{\\phi}_{t+1}&\\leftarrow\\quad\\boldsymbol{\\phi}_{t}-\\alpha\\cdot\\mathbf{m}_{t+1},\\end{aligned} \\tag{6.12}"
+    "text": "\\begin{aligned}\\mathbf{m}_{t+1}&\\leftarrow\\quad\\beta\\cdot\\mathbf{m}_{t}+(1-\\beta)\\sum_{i\\in\\mathcal{B}_{t}}\\frac{\\partial\\ell_{i}[\\boldsymbol{\\phi}_{t}-\\alpha\\beta\\cdot\\mathbf{m}_{t}]}{\\partial\\boldsymbol{\\phi}}\\\\ \\boldsymbol{\\phi}_{t+1}&\\leftarrow\\quad\\boldsymbol{\\phi}_{t}-\\alpha\\cdot\\mathbf{m}_{t+1},\\end{aligned} \\quad (6.12)"
   },
   {
     "id": "page_0088-b002",
@@ -51,7 +51,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\\mathbf{m}_{t+1}&\\leftarrow\\quad\\frac{\\partial L[\\boldsymbol{\\phi}_{t}]}{\\partial\\boldsymbol{\\phi}}\\\\ \\mathbf{v}_{t+1}&\\leftarrow\\quad\\left(\\frac{\\partial L[\\boldsymbol{\\phi}_{t}]}{\\partial\\boldsymbol{\\phi}}\\right)^{2}.\\end{aligned} \\tag{6.13}"
+    "text": "\\begin{aligned}\\mathbf{m}_{t+1}&\\leftarrow\\quad\\frac{\\partial L[\\boldsymbol{\\phi}_{t}]}{\\partial\\boldsymbol{\\phi}}\\\\ \\mathbf{v}_{t+1}&\\leftarrow\\quad\\left(\\frac{\\partial L[\\boldsymbol{\\phi}_{t}]}{\\partial\\boldsymbol{\\phi}}\\right)^{2}.\\end{aligned} \\quad (6.13)"
   },
   {
     "id": "page_0088-b007",
@@ -69,7 +69,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\boldsymbol{\\phi}_{t+1}\\leftarrow\\boldsymbol{\\phi}_{t}-\\alpha\\cdot\\frac{\\mathbf{m}_{t+1}}{\\sqrt{\\mathbf{v}_{t+1}}+\\epsilon},\n\\end{aligned}\n\\tag{6.14}"
+    "text": "\\begin{aligned}\n\\boldsymbol{\\phi}_{t+1}\\leftarrow\\boldsymbol{\\phi}_{t}-\\alpha\\cdot\\frac{\\mathbf{m}_{t+1}}{\\sqrt{\\mathbf{v}_{t+1}}+\\epsilon},\n\\end{aligned} \\quad (6.14)"
   },
   {
     "id": "page_0088-b009",

@@ -79,7 +79,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\nv[s_{t}]\\leftarrow\\sum_{a_{t}}\\pi[a_{t}|s_{t}]\\left(r[s_{t},a_{t}]+\\gamma\\cdot\\sum_{s_{t+1}}Pr(s_{t+1}|s_{t},a_{t})v[s_{t+1}]\\right),\n\\end{aligned}\n\\tag{19.11}"
+    "text": "\\begin{aligned}\nv[s_{t}]\\leftarrow\\sum_{a_{t}}\\pi[a_{t}|s_{t}]\\left(r[s_{t},a_{t}]+\\gamma\\cdot\\sum_{s_{t+1}}Pr(s_{t+1}|s_{t},a_{t})v[s_{t+1}]\\right),\n\\end{aligned} \\quad (19.11)"
   },
   {
     "id": "page_0383-b010",
@@ -106,7 +106,7 @@
     "type": "equation",
     "source": "deepseek",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\pi[a_{t}|s_{t}]\\leftarrow\\underset{a_{t}}{\\mathrm{argmax}}\\Bigg[r[s_{t},a_{t}]+\\gamma\\cdot\\sum_{s_{t+1}}Pr(s_{t+1}|s_{t},a_{t})v[s_{t+1}]\\Bigg].\n\\end{aligned}\n\\tag{19.12}"
+    "text": "\\begin{aligned}\n\\pi[a_{t}|s_{t}]\\leftarrow\\underset{a_{t}}{\\mathrm{argmax}}\\Bigg[r[s_{t},a_{t}]+\\gamma\\cdot\\sum_{s_{t+1}}Pr(s_{t+1}|s_{t},a_{t})v[s_{t+1}]\\Bigg].\n\\end{aligned} \\quad (19.12)"
   },
   {
     "id": "page_0383-b013",

@@ -52,7 +52,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\nD_{KL}\\left[q||p\\right]=\\int_{-\\infty}^{\\infty}q(z)\\log\\left[q(z)\\right]d z-\\int_{-\\infty}^{\\infty}q(z)\\log\\left[p(z)\\right]d z.\n\\end{aligned}\n\\tag{5.27}"
+    "text": "\\begin{aligned}\nD_{KL}\\left[q||p\\right]=\\int_{-\\infty}^{\\infty}q(z)\\log\\left[q(z)\\right]d z-\\int_{-\\infty}^{\\infty}q(z)\\log\\left[p(z)\\right]d z.\n\\end{aligned} \\quad (5.27)"
   },
   {
     "id": "page_0071-b007",
@@ -70,7 +70,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\nq(y)=\\frac{1}{I}\\sum_{i=1}^{I}\\delta[y-y_{i}],\n\\end{aligned}\n\\tag{5.28}"
+    "text": "\\begin{aligned}\nq(y)=\\frac{1}{I}\\sum_{i=1}^{I}\\delta[y-y_{i}],\n\\end{aligned} \\quad (5.28)"
   },
   {
     "id": "page_0071-b009",
@@ -88,7 +88,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\begin{align*}\\hat{\\boldsymbol{\\theta}}\\ =&\\ \\underset{\\boldsymbol{\\theta}}{\\mathrm{argmin}}\\left[\\int_{-\\infty}^{\\infty}q(y)\\log\\left[q(y)\\right]dy-\\int_{-\\infty}^{\\infty}q(y)\\log\\left[Pr(y|\\boldsymbol{\\theta})\\right]dy\\right]\\\\=&\\ \\underset{\\boldsymbol{\\theta}}{\\mathrm{argmin}}\\left[-\\int_{-\\infty}^{\\infty}q(y)\\log\\left[Pr(y|\\boldsymbol{\\theta})\\right]dy\\right],\\end{align*}\n\\end{aligned}\n\\tag{5.29}"
+    "text": "\\begin{aligned}\n\\begin{align*}\\hat{\\boldsymbol{\\theta}}\\ =&\\ \\underset{\\boldsymbol{\\theta}}{\\mathrm{argmin}}\\left[\\int_{-\\infty}^{\\infty}q(y)\\log\\left[q(y)\\right]dy-\\int_{-\\infty}^{\\infty}q(y)\\log\\left[Pr(y|\\boldsymbol{\\theta})\\right]dy\\right]\\\\=&\\ \\underset{\\boldsymbol{\\theta}}{\\mathrm{argmin}}\\left[-\\int_{-\\infty}^{\\infty}q(y)\\log\\left[Pr(y|\\boldsymbol{\\theta})\\right]dy\\right],\\end{align*}\n\\end{aligned} \\quad (5.29)"
   },
   {
     "id": "page_0071-b011",

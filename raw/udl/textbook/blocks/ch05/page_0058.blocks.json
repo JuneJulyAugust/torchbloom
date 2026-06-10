@@ -51,7 +51,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\\hat{\\boldsymbol{\\phi}}&=\\argmax_{\\boldsymbol{\\phi}}\\left[\\prod_{i=1}^{I}Pr(\\mathbf{y}_{i}|\\mathbf{x}_{i})\\right]\\\\&=\\argmax_{\\boldsymbol{\\phi}}\\left[\\prod_{i=1}^{I}Pr(\\mathbf{y}_{i}|\\boldsymbol{\\theta}_{i})\\right]\\\\&=\\argmax_{\\boldsymbol{\\phi}}\\left[\\prod_{i=1}^{I}Pr(\\mathbf{y}_{i}|\\mathbf{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}])\\right].\\end{aligned} \\tag{5.1}"
+    "text": "\\begin{aligned}\\hat{\\boldsymbol{\\phi}}&=\\argmax_{\\boldsymbol{\\phi}}\\left[\\prod_{i=1}^{I}Pr(\\mathbf{y}_{i}|\\mathbf{x}_{i})\\right]\\\\&=\\argmax_{\\boldsymbol{\\phi}}\\left[\\prod_{i=1}^{I}Pr(\\mathbf{y}_{i}|\\boldsymbol{\\theta}_{i})\\right]\\\\&=\\argmax_{\\boldsymbol{\\phi}}\\left[\\prod_{i=1}^{I}Pr(\\mathbf{y}_{i}|\\mathbf{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}])\\right].\\end{aligned} \\quad (5.1)"
   },
   {
     "id": "page_0058-b007",
@@ -87,6 +87,6 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\nPr(\\mathbf{y}_{1},\\mathbf{y}_{2},\\cdots,\\mathbf{y}_{I}|\\mathbf{x}_{1},\\mathbf{x}_{2},\\cdots,\\mathbf{x}_{I})=\\prod_{i=1}^{I}Pr(\\mathbf{y}_{i}|\\mathbf{x}_{i}).\n\\end{aligned}\n\\tag{5.2}"
+    "text": "\\begin{aligned}\nPr(\\mathbf{y}_{1},\\mathbf{y}_{2},\\cdots,\\mathbf{y}_{I}|\\mathbf{x}_{1},\\mathbf{x}_{2},\\cdots,\\mathbf{x}_{I})=\\prod_{i=1}^{I}Pr(\\mathbf{y}_{i}|\\mathbf{x}_{i}).\n\\end{aligned} \\quad (5.2)"
   }
 ]

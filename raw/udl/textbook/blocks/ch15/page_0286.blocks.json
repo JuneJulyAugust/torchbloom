@@ -15,7 +15,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\left|f_{i+1}-f_{i}\\right|<1.\n\\end{aligned}\n\\tag{15.13}"
+    "text": "\\begin{aligned}\n\\left|f_{i+1}-f_{i}\\right|<1.\n\\end{aligned} \\quad (15.13)"
   },
   {
     "id": "page_0286-b003",
@@ -60,7 +60,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\nD_{w}\\Big[Pr(\\mathbf{x}),q(\\mathbf{x})\\Big]=\\min_{\\pi[\\bullet,\\bullet]}\\left[\\iint\\pi(\\mathbf{x}_{1},\\mathbf{x}_{2})\\cdot||\\mathbf{x}_{1}-\\mathbf{x}_{2}||d\\mathbf{x}_{1}d\\mathbf{x}_{2}\\right],\n\\end{aligned}\n\\tag{15.14}"
+    "text": "\\begin{aligned}\nD_{w}\\Big[Pr(\\mathbf{x}),q(\\mathbf{x})\\Big]=\\min_{\\pi[\\bullet,\\bullet]}\\left[\\iint\\pi(\\mathbf{x}_{1},\\mathbf{x}_{2})\\cdot||\\mathbf{x}_{1}-\\mathbf{x}_{2}||d\\mathbf{x}_{1}d\\mathbf{x}_{2}\\right],\n\\end{aligned} \\quad (15.14)"
   },
   {
     "id": "page_0286-b008",
@@ -87,7 +87,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\nD_{w}\\Big[Pr(\\mathbf{x}),q(\\mathbf{x})\\Big]=\\max_{\\mathrm{f}[\\mathbf{x}]}\\left[\\int Pr(\\mathbf{x})\\mathrm{f}[\\mathbf{x}]d\\mathbf{x}-\\int q(\\mathbf{x})f[\\mathbf{x}]d\\mathbf{x}\\right],\n\\end{aligned}\n\\tag{15.15}"
+    "text": "\\begin{aligned}\nD_{w}\\Big[Pr(\\mathbf{x}),q(\\mathbf{x})\\Big]=\\max_{\\mathrm{f}[\\mathbf{x}]}\\left[\\int Pr(\\mathbf{x})\\mathrm{f}[\\mathbf{x}]d\\mathbf{x}-\\int q(\\mathbf{x})f[\\mathbf{x}]d\\mathbf{x}\\right],\n\\end{aligned} \\quad (15.15)"
   },
   {
     "id": "page_0286-b011",
@@ -123,7 +123,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}L[\\phi]\\quad&=\\quad\\sum_{j}\\mathrm{f}[\\mathbf{x}_{j}^{*},\\boldsymbol{\\phi}]-\\sum_{i}\\mathrm{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}]\\\\&=\\quad\\sum_{j}\\mathrm{f}[\\mathbf{g}[z_{j},\\boldsymbol{\\theta}],\\boldsymbol{\\phi}]-\\sum_{i}\\mathrm{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}],\\end{aligned}\n\\tag{15.16}"
+    "text": "\\begin{aligned}L[\\phi]\\quad&=\\quad\\sum_{j}\\mathrm{f}[\\mathbf{x}_{j}^{*},\\boldsymbol{\\phi}]-\\sum_{i}\\mathrm{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}]\\\\&=\\quad\\sum_{j}\\mathrm{f}[\\mathbf{g}[z_{j},\\boldsymbol{\\theta}],\\boldsymbol{\\phi}]-\\sum_{i}\\mathrm{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}],\\end{aligned} \\quad (15.16)"
   },
   {
     "id": "page_0286-b015",
@@ -141,7 +141,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}\n\\left|\\frac{\\partial\\mathrm{f}[\\mathbf{x},\\boldsymbol{\\phi}]}{\\partial\\mathbf{x}}\\right|<1.\n\\end{aligned}\n\\tag{15.17}"
+    "text": "\\begin{aligned}\n\\left|\\frac{\\partial\\mathrm{f}[\\mathbf{x},\\boldsymbol{\\phi}]}{\\partial\\mathbf{x}}\\right|<1.\n\\end{aligned} \\quad (15.17)"
   },
   {
     "id": "page_0286-b017",

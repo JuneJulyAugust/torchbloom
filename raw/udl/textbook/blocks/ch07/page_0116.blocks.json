@@ -34,7 +34,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\mathrm{rect}[z]=\\begin{cases}0&z<0\\\\1&0\\leq z\\leq1\\\\0&z>1\\end{cases}.\n\\end{aligned}\n\\tag{7.41}"
+    "text": "\\begin{aligned}\n\\mathrm{rect}[z]=\\begin{cases}0&z<0\\\\1&0\\leq z\\leq1\\\\0&z>1\\end{cases}.\n\\end{aligned} \\quad (7.41)"
   },
   {
     "id": "page_0116-b005",
@@ -61,7 +61,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\frac{\\partial\\ell}{\\partial\\Omega}=\\frac{\\partial\\ell}{\\partial\\mathbf{f}}\\mathbf{h}^{T}.\n\\end{aligned}\n\\tag{7.42}"
+    "text": "\\begin{aligned}\n\\frac{\\partial\\ell}{\\partial\\Omega}=\\frac{\\partial\\ell}{\\partial\\mathbf{f}}\\mathbf{h}^{T}.\n\\end{aligned} \\quad (7.42)"
   },
   {
     "id": "page_0116-b008",
@@ -79,7 +79,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\mathbf{a}[z]=\\mathrm{ReLU}[z]=\\begin{cases}\\alpha\\cdot z&z<0\\\\z&z\\geq0\\end{cases},\n\\end{aligned}\n\\tag{7.43}"
+    "text": "\\begin{aligned}\n\\mathbf{a}[z]=\\mathrm{ReLU}[z]=\\begin{cases}\\alpha\\cdot z&z<0\\\\z&z\\geq0\\end{cases},\n\\end{aligned} \\quad (7.43)"
   },
   {
     "id": "page_0116-b010",
@@ -115,7 +115,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\ny=\\exp\\left[\\exp[x]+\\exp[x]^{2}\\right]+\\sin[\\exp[x]+\\exp[x]^{2}].\n\\end{aligned}\n\\tag{7.44}"
+    "text": "\\begin{aligned}\ny=\\exp\\left[\\exp[x]+\\exp[x]^{2}\\right]+\\sin[\\exp[x]+\\exp[x]^{2}].\n\\end{aligned} \\quad (7.44)"
   },
   {
     "id": "page_0116-b014",
