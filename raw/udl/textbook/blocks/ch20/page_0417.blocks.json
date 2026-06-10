@@ -41,7 +41,7 @@
     "page_key": 417,
     "order": 5,
     "type": "paragraph",
-    "text": "Current evidence suggests that overparameterization is needed for generalization \u2014 at least for the size and complexity of datasets that are currently used. There are no demonstrations of state-of-the-art performance on complex datasets where there are significantly fewer parameters than training examples. Attempts to reduce model size by pruning or distilling trained networks have not changed this picture.",
+    "text": "Current evidence suggests that overparameterization is needed for generalization — at least for the size and complexity of datasets that are currently used. There are no demonstrations of state-of-the-art performance on complex datasets where there are significantly fewer parameters than training examples. Attempts to reduce model size by pruning or distilling trained networks have not changed this picture.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -50,7 +50,7 @@
     "page_key": 417,
     "order": 6,
     "type": "paragraph",
-    "text": "Moreover, recent theory shows that there is a trade-off between the model\u2019s Lipschitz constant and overparameterization; Bubeck & Sellke (2021) proved that in D dimensions,",
+    "text": "Moreover, recent theory shows that there is a trade-off between the model’s Lipschitz constant and overparameterization; Bubeck & Sellke (2021) proved that in D dimensions,",
     "source": "deepseek+paddle",
     "confidence": "medium"
   }

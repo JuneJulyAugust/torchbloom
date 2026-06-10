@@ -49,7 +49,7 @@
     "page_key": 349,
     "order": 6,
     "type": "paragraph",
-    "text": "A diffusion model consists of an encoder and a decoder. The encoder takes a data sample x and maps it through a series of intermediate latent variables $z_{1}\\ldots z_{T}$ . The decoder reverses this process; it starts with $z_{T}$ and maps back through $z_{T-1},\\ldots,z_{1}$ until it finally (re-)creates a data point x. In both encoder and decoder, the mappings are stochastic rather than deterministic.",
+    "text": "A diffusion model consists of an encoder and a decoder. The encoder takes a data sample x and maps it through a series of intermediate latent variables $z\\_{1}\\ldots z\\_{T}$ . The decoder reverses this process; it starts with $z\\_{T}$ and maps back through $z\\_{T-1},\\ldots,z\\_{1}$ until it finally (re-)creates a data point x. In both encoder and decoder, the mappings are stochastic rather than deterministic.",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -58,7 +58,7 @@
     "page_key": 349,
     "order": 7,
     "type": "paragraph",
-    "text": "The encoder is prespecified; it gradually blends the input with samples of white noise (figure 18.1). With enough steps, the conditional distribution $q(\\mathbf{z}_{T}|\\mathbf{x})$ and marginal distribution $q(\\mathbf{z}_{T})$ of the final latent variable both become the standard normal distribution. Since this process is prespecified, all the learned parameters are in the decoder.",
+    "text": "The encoder is prespecified; it gradually blends the input with samples of white noise (figure 18.1). With enough steps, the conditional distribution $q(\\mathbf{z}\\_{T}|\\mathbf{x})$ and marginal distribution $q(\\mathbf{z}\\_{T})$ of the final latent variable both become the standard normal distribution. Since this process is prespecified, all the learned parameters are in the decoder.",
     "source": "deepseek",
     "confidence": "medium"
   },

@@ -23,7 +23,7 @@
     "page_key": 343,
     "order": 3,
     "type": "paragraph",
-    "text": "Here the regularization term $r_{1}[\\bullet]$ is a function of the posterior and is weighted by $\\lambda_{1}$ . The term $r_{2}[{\\bullet}]$ is a function of the aggregated posterior and is weighted by $\\lambda_{2}$ .",
+    "text": "Here the regularization term $r\\_{1}[\\bullet]$ is a function of the posterior and is weighted by $\\lambda\\_{1}$ . The term $r\\_{2}[{\\bullet}]$ is a function of the aggregated posterior and is weighted by $\\lambda\\_{2}$ .",
     "source": "deepseek",
     "confidence": "medium"
   },

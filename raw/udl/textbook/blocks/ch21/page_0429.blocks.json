@@ -13,7 +13,7 @@
     "page_key": 429,
     "order": 2,
     "type": "paragraph",
-    "text": "The tendency to anthropomorphize computer behaviors and particularly the projection of meaning onto strings of symbols is termed the ELIZA effect (Hofstadter, 1995). This leads to a false sense of security when interacting with sophisticated chatbots, making people more susceptible to text-based fraud such as romance scams or business email compromise schemes (Abrahams, 2023). V\u00e9li\u00e7 (2023) highlights how emoji use in some chatbots is inherently manipulative, exploiting instinctual responses to emotive images.",
+    "text": "The tendency to anthropomorphize computer behaviors and particularly the projection of meaning onto strings of symbols is termed the ELIZA effect (Hofstadter, 1995). This leads to a false sense of security when interacting with sophisticated chatbots, making people more susceptible to text-based fraud such as romance scams or business email compromise schemes (Abrahams, 2023). Véliç (2023) highlights how emoji use in some chatbots is inherently manipulative, exploiting instinctual responses to emotive images.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -31,7 +31,7 @@
     "page_key": 429,
     "order": 4,
     "type": "paragraph",
-    "text": "Modern deep learning methods rely on huge crowd-sourced datasets, which may contain sensitive or private information. Even when sensitive information is removed, auxiliary knowledge and redundant encodings can be used to de-anonymize datasets (Narayanan & Shmatikov, 2008). Indeed, this famously happened to the Governor of Massachusetts, William Weld, in 1997. After an insurance group released health records that had been stripped of obvious personal information like patient name and address, an aspiring graduate student was able to \u201cde-anonymize\u201d which records belonged to Governor Weld during model training (see Mireshghallah et al., 2020; Boulemtafes et al., 2020).",
+    "text": "Modern deep learning methods rely on huge crowd-sourced datasets, which may contain sensitive or private information. Even when sensitive information is removed, auxiliary knowledge and redundant encodings can be used to de-anonymize datasets (Narayanan & Shmatikov, 2008). Indeed, this famously happened to the Governor of Massachusetts, William Weld, in 1997. After an insurance group released health records that had been stripped of obvious personal information like patient name and address, an aspiring graduate student was able to “de-anonymize” which records belonged to Governor Weld during model training (see Mireshghallah et al., 2020; Boulemtafes et al., 2020).",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -85,7 +85,7 @@
     "page_key": 429,
     "order": 10,
     "type": "paragraph",
-    "text": "Sometimes, these issues are explicit. When language models are prompted with excerpts of copyrighted material, their outputs may include copyrighted text verbatim, and similar issues apply in the context of image generation in diffusion models (Henderson et al., 2023; Carlini et al., 2022, 2023). Even if the training falls under \u201cfair use,\u201d this may violate the moral rights of content creators in some cases (Weidinger et al., 2022).",
+    "text": "Sometimes, these issues are explicit. When language models are prompted with excerpts of copyrighted material, their outputs may include copyrighted text verbatim, and similar issues apply in the context of image generation in diffusion models (Henderson et al., 2023; Carlini et al., 2022, 2023). Even if the training falls under “fair use,” this may violate the moral rights of content creators in some cases (Weidinger et al., 2022).",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -94,7 +94,7 @@
     "page_key": 429,
     "order": 11,
     "type": "paragraph",
-    "text": "More subtly, generative models (chapters 12,14\u201318) raise novel questions regarding AI",
+    "text": "More subtly, generative models (chapters 12,14–18) raise novel questions regarding AI",
     "source": "deepseek+paddle",
     "confidence": "medium"
   }

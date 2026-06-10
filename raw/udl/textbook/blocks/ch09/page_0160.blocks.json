@@ -33,7 +33,7 @@
     "type": "exercise",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "Problem 9.1 Consider a model where the prior distribution over the parameters is a normal distribution with mean zero and variance $\\sigma_{\\phi}^{2}$ so that"
+    "text": "Problem 9.1 Consider a model where the prior distribution over the parameters is a normal distribution with mean zero and variance $\\sigma\\_{\\phi}^{2}$ so that"
   },
   {
     "id": "page_0160-b005",
@@ -51,7 +51,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "where j indexes the model parameters. We now maximize $\\prod_{i=1}^{I} \\Pr(\\mathbf{y}_{i}|\\mathbf{x}_{i},\\phi)\\Pr(\\boldsymbol{\\Phi})$. Show that the associated loss function of this model is equivalent to L2 regularization."
+    "text": "where j indexes the model parameters. We now maximize $\\prod\\_{i=1}^{I} \\Pr(\\mathbf{y}\\_{i}|\\mathbf{x}\\_{i},\\phi)\\Pr(\\boldsymbol{\\Phi})$. Show that the associated loss function of this model is equivalent to L2 regularization."
   },
   {
     "id": "page_0160-b007",
@@ -69,7 +69,7 @@
     "type": "exercise",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "Problem 9.3 $^{*}$ Consider a linear regression model $y = \\phi_{0} + \\phi_{1}x$ with input x, output y, and parameters $\\phi_{0}$ and $\\phi_{1}$. Assume we have I training examples $\\lbrace x_{i}, y_{i} \\rbrace$ and use a least squares loss. Consider adding Gaussian noise with mean zero and variance $\\sigma_{x}^{2}$ to the inputs $x_{i}$ at each training iteration. Derive an expression for the expected loss."
+    "text": "Problem 9.3 $^{*}$ Consider a linear regression model $y = \\phi\\_{0} + \\phi\\_{1}x$ with input x, output y, and parameters $\\phi\\_{0}$ and $\\phi\\_{1}$. Assume we have I training examples $\\lbrace x\\_{i}, y\\_{i} \\rbrace$ and use a least squares loss. Consider adding Gaussian noise with mean zero and variance $\\sigma\\_{x}^{2}$ to the inputs $x\\_{i}$ at each training iteration. Derive an expression for the expected loss."
   },
   {
     "id": "page_0160-b009",
@@ -78,7 +78,7 @@
     "type": "exercise",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "Problem 9.4 $^{*}$ Derive the loss function for multiclass classification when we use label smoothing so that the target probability distribution has 0.9 at the correct class and the remaining probability mass of 0.1 is divided between the remaining $D_{o}-1$ classes."
+    "text": "Problem 9.4 $^{*}$ Derive the loss function for multiclass classification when we use label smoothing so that the target probability distribution has 0.9 at the correct class and the remaining probability mass of 0.1 is divided between the remaining $D\\_{o}-1$ classes."
   },
   {
     "id": "page_0160-b010",
@@ -132,6 +132,6 @@
     "type": "exercise",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "Problem 9.6 Consider a model with parameters $\\phi = [\\phi_{0}, \\phi_{1}]^{T}$. Draw the L0, $L^{\\frac{1}{2}}$, and L1 regularization terms in a similar form to figure 9.1b. The LP regularization term is $\\sum_{d=1}^{D} |\\phi_{d}|^{P}$."
+    "text": "Problem 9.6 Consider a model with parameters $\\phi = [\\phi\\_{0}, \\phi\\_{1}]^{T}$. Draw the L0, $L^{\\frac{1}{2}}$, and L1 regularization terms in a similar form to figure 9.1b. The LP regularization term is $\\sum\\_{d=1}^{D} |\\phi\\_{d}|^{P}$."
   }
 ]

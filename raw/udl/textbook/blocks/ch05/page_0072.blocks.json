@@ -15,7 +15,7 @@
     "source": "deepseek",
     "confidence": "medium",
     "type": "equation",
-    "latex": "\\begin{aligned}\n\\hat{\\boldsymbol{\\theta}}\n&= \\underset{\\boldsymbol{\\theta}}{\\mathop{\\mathrm{arg\\,min}}}\\left[-\\int_{-\\infty}^{\\infty}\\left(\\frac{1}{I}\\sum_{i=1}^{I}\\delta[y-y_i]\\right)\\log\\left[\\Pr\\left(y\\mid\\boldsymbol{\\theta}\\right)\\right]dy\\right] \\\\\n&= \\underset{\\boldsymbol{\\theta}}{\\mathop{\\mathrm{arg\\,min}}}\\left[-\\frac{1}{I}\\sum_{i=1}^{I}\\log\\left[\\Pr\\left(y_i\\mid\\boldsymbol{\\theta}\\right)\\right]\\right] \\\\\n&= \\underset{\\boldsymbol{\\theta}}{\\mathop{\\mathrm{arg\\,min}}}\\left[-\\sum_{i=1}^{I}\\log\\left[\\Pr\\left(y_i\\mid\\boldsymbol{\\theta}\\right)\\right]\\right]\n\\end{aligned} \\qquad (5.30)"
+    "latex": "\\begin{aligned}\n\\hat{\\boldsymbol{\\theta}}\n&= \\underset{\\boldsymbol{\\theta}}{\\mathop{\\mathrm{argmin}}}\\left[-\\int_{-\\infty}^{\\infty}\\left(\\frac{1}{I}\\sum_{i=1}^{I}\\delta[y-y_i]\\right)\\log\\left[\\Pr\\left(y\\mid\\boldsymbol{\\theta}\\right)\\right]dy\\right] \\\\\n&= \\underset{\\boldsymbol{\\theta}}{\\mathop{\\mathrm{argmin}}}\\left[-\\frac{1}{I}\\sum_{i=1}^{I}\\log\\left[\\Pr\\left(y_i\\mid\\boldsymbol{\\theta}\\right)\\right]\\right] \\\\\n&= \\underset{\\boldsymbol{\\theta}}{\\mathop{\\mathrm{argmin}}}\\left[-\\sum_{i=1}^{I}\\log\\left[\\Pr\\left(y_i\\mid\\boldsymbol{\\theta}\\right)\\right]\\right]\n\\end{aligned} \\qquad (5.30)"
   },
   {
     "id": "page_0072-b003",
@@ -24,7 +24,7 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "paragraph",
-    "text": "The product of the two terms in the first line corresponds to pointwise multiplying the point masses in figure 5.12a with the logarithm of the distribution in figure 5.12b. We are left with a finite set of weighted probability masses centered on the data points. In the last line, we have eliminated the constant scaling factor 1/I, as this does not affect the position of the minimum. In machine learning, the distribution parameters $\\theta $ are computed by the model $ f[x_{i}, \\phi]$, so we have:"
+    "text": "The product of the two terms in the first line corresponds to pointwise multiplying the point masses in figure 5.12a with the logarithm of the distribution in figure 5.12b. We are left with a finite set of weighted probability masses centered on the data points. In the last line, we have eliminated the constant scaling factor 1/I, as this does not affect the position of the minimum. In machine learning, the distribution parameters $\\theta $ are computed by the model $ f[x\\_{i}, \\phi]$, so we have:"
   },
   {
     "id": "page_0072-b004",
@@ -33,7 +33,7 @@
     "source": "deepseek",
     "confidence": "medium",
     "type": "equation",
-    "latex": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}} &= \\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{arg\\,min}}}\\left[-\\sum_{i=1}^{I}\\log\\left[\\Pr\\left(y_i\\mid\\mathbf{f}[\\mathbf{x}_i,\\boldsymbol{\\phi}]\\right)\\right]\\right]\n\\end{aligned} \\qquad (5.31)"
+    "latex": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}} &= \\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{argmin}}}\\left[-\\sum_{i=1}^{I}\\log\\left[\\Pr\\left(y_i\\mid\\mathbf{f}[\\mathbf{x}_i,\\boldsymbol{\\phi}]\\right)\\right]\\right]\n\\end{aligned} \\qquad (5.31)"
   },
   {
     "id": "page_0072-b005",
@@ -69,7 +69,7 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "paragraph",
-    "text": "We previously considered neural networks as directly predicting outputs y from data x. In this chapter, we shifted perspective to think about neural networks as computing the parameters $\\theta $ of probability distributions $\\Pr(\\mathbf{y}\\,|\\,\\boldsymbol{\\theta})$ over the output space. This led to a principled approach to building loss functions. We selected model parameters $\\phi $ that maximized the likelihood of the observed data under these distributions. We saw that this is equivalent to minimizing the negative log-likelihood."
+    "text": "We previously considered neural networks as directly predicting outputs y from data x. In this chapter, we shifted perspective to think about neural networks as computing the parameters $\\theta $ of probability distributions $\\Pr(\\mathbf{y}\\mid\\boldsymbol{\\theta})$ over the output space. This led to a principled approach to building loss functions. We selected model parameters $\\phi $ that maximized the likelihood of the observed data under these distributions. We saw that this is equivalent to minimizing the negative log-likelihood."
   },
   {
     "id": "page_0072-b009",

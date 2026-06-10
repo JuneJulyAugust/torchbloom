@@ -15,7 +15,7 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "caption",
-    "text": "Figure 6.2 Gabor model. This nonlinear model maps scalar input $x$ to scalar output $y$ and has parameters $\\phi = [\\phi_0, \\phi_1]^T$. It describes a sinusoidal function that decreases in amplitude with distance from its center. Parameter $\\phi_0 \\in \\mathbb{R}$ determines the position of the center. As $\\phi_0$ increases, the function moves left. Parameter $\\phi_1 \\in \\mathbb{R}^{+}$ squeezes the function along the x-axis relative to the center. As $\\phi_1$ increases, the function narrows. a-c) Model with different parameters."
+    "text": "Figure 6.2 Gabor model. This nonlinear model maps scalar input $x$ to scalar output $y$ and has parameters $\\phi = [\\phi\\_0, \\phi\\_1]^T$. It describes a sinusoidal function that decreases in amplitude with distance from its center. Parameter $\\phi\\_0 \\in \\mathbb{R}$ determines the position of the center. As $\\phi\\_0$ increases, the function moves left. Parameter $\\phi\\_1 \\in \\mathbb{R}^{+}$ squeezes the function along the x-axis relative to the center. As $\\phi\\_1$ increases, the function narrows. a-c) Model with different parameters."
   },
   {
     "id": "page_0081-b003",
@@ -33,7 +33,7 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "caption",
-    "text": "Figure 6.3 Training data for fitting the Gabor model. The training dataset contains 28 input/output examples $\\lbrace x_i, y_i \\rbrace$. These data were created by uniformly sampling $x_i \\in [-15, 15]$, passing the samples through a Gabor model with parameters $\\phi = [0.0, 16.6]^T$, and adding normally distributed noise."
+    "text": "Figure 6.3 Training data for fitting the Gabor model. The training dataset contains 28 input/output examples $\\lbrace x\\_i, y\\_i \\rbrace$. These data were created by uniformly sampling $x\\_i \\in [-15, 15]$, passing the samples through a Gabor model with parameters $\\phi = [0.0, 16.6]^T$, and adding normally distributed noise."
   },
   {
     "id": "page_0081-b005",

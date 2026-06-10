@@ -22,7 +22,7 @@
     "page_key": 363,
     "order": 3,
     "type": "paragraph",
-    "text": "The log normal can be written as a least squares loss plus a constant $C_{i}$ (section 5.3.1):",
+    "text": "The log normal can be written as a least squares loss plus a constant $C\\_{i}$ (section 5.3.1):",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -40,7 +40,7 @@
     "page_key": 363,
     "order": 5,
     "type": "paragraph",
-    "text": "Substituting in the definitions of x and $\\mathbf{f}_{1}[\\mathbf{z}_{1},\\phi_{1}]$ from equations 18.31 and 18.35, respectively, the first term simplifies to:",
+    "text": "Substituting in the definitions of x and $\\mathbf{f}\\_{1}[\\mathbf{z}\\_{1},\\phi\\_{1}]$ from equations 18.31 and 18.35, respectively, the first term simplifies to:",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -76,7 +76,7 @@
     "page_key": 363,
     "order": 9,
     "type": "paragraph",
-    "text": "where we have disregarded the additive constants $C_{i}$.",
+    "text": "where we have disregarded the additive constants $C\\_{i}$.",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -103,7 +103,7 @@
     "page_key": 363,
     "order": 12,
     "type": "paragraph",
-    "text": "where we have rewritten $\\mathbf{z}_{t}$ using the diffusion kernel (equation 18.30) in the second line.",
+    "text": "where we have rewritten $\\mathbf{z}\\_{t}$ using the diffusion kernel (equation 18.30) in the second line.",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -121,7 +121,7 @@
     "page_key": 363,
     "order": 14,
     "type": "paragraph",
-    "text": "This leads to straightforward algorithms for both training the model (algorithm 18.1) and sampling (algorithm 18.2). The training algorithm has the advantages that it is (i) simple to implement and (ii) naturally augments the dataset; we can reuse every original data point $x_{i}$ as many times as we want at each time step with different noise instantiations $\\epsilon$ . The sampling algorithm has the disadvantage that it requires serial processing of many neural networks $g_{t}[z_{t}, \\phi_{t}]$ and is hence time-consuming.",
+    "text": "This leads to straightforward algorithms for both training the model (algorithm 18.1) and sampling (algorithm 18.2). The training algorithm has the advantages that it is (i) simple to implement and (ii) naturally augments the dataset; we can reuse every original data point $x\\_{i}$ as many times as we want at each time step with different noise instantiations $\\epsilon$ . The sampling algorithm has the disadvantage that it requires serial processing of many neural networks $g\\_{t}[z\\_{t}, \\phi\\_{t}]$ and is hence time-consuming.",
     "source": "deepseek",
     "confidence": "medium"
   }

@@ -33,7 +33,7 @@
     "page_key": 206,
     "order": 4,
     "type": "exercise",
-    "text": "Problem 11.5* The forward pass for batch normalization given a batch of scalar values $\\lbrace z_{i}\\rbrace_{i=1}^{I}$ consists of the following operations (figure 11.15):",
+    "text": "Problem 11.5* The forward pass for batch normalization given a batch of scalar values $\\lbrace z\\_{i}\\rbrace\\_{i=1}^{I}$ consists of the following operations (figure 11.15):",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -52,7 +52,7 @@
     "page_key": 206,
     "order": 6,
     "type": "paragraph",
-    "text": "where E[ $z_{i}$ ] = $\\frac{1}{I}\\sum_{i}z_{i}$ . Write Python code to implement the forward pass. Now derive the algorithm for the backward pass. Work backward through the computational graph computing the derivatives to generate a set of operations that computes $\\partial z_{i}^{\\prime}/\\partial z_{i}$ for every element in the batch. Write Python code to implement the backward pass.",
+    "text": "where E[ $z\\_{i}$ ] = $\\frac{1}{I}\\sum\\_{i}z\\_{i}$ . Write Python code to implement the forward pass. Now derive the algorithm for the backward pass. Work backward through the computational graph computing the derivatives to generate a set of operations that computes $\\partial z\\_{i}^{\\prime}/\\partial z\\_{i}$ for every element in the batch. Write Python code to implement the backward pass.",
     "source": "deepseek+paddle",
     "confidence": "high"
   },

@@ -14,10 +14,10 @@
     "page_key": 210,
     "order": 2,
     "type": "caption",
-    "text": "Figure 12.2 Self-attention for N=3 inputs $\\mathbf{x}_{n}$, each with dimension $D=4$. a) Each input $\\mathbf{x}_{m}$ is operated on independently by the same weights $\\Omega_{v}$ (same color equals same weight) and biases $\\beta_{v}$ (not shown) to form the values $\\boldsymbol{\\beta}_{v} + \\Omega_{v}\\mathbf{x}_{m}$. Each output is a linear combination of the values, with the attention weight $\\mathrm{a}[\\mathbf{x}_{m}, \\mathbf{x}_{n}]$ defining the contribution of the $m^{th}$ value to the $n^{th}$ output. b) Matrix showing block sparsity of linear transformation $\\Omega_{v}$ between inputs and values. c) Matrix showing sparsity of attention weights relating values and outputs.",
+    "text": "Figure 12.2 Self-attention for N=3 inputs $\\mathbf{x}\\_{n}$, each with dimension $D=4$. a) Each input $\\mathbf{x}\\_{m}$ is operated on independently by the same weights $\\Omega\\_{v}$ (same color equals same weight) and biases $\\beta\\_{v}$ (not shown) to form the values $\\boldsymbol{\\beta}\\_{v} + \\Omega\\_{v}\\mathbf{x}\\_{m}$. Each output is a linear combination of the values, with the attention weight $\\mathrm{a}[\\mathbf{x}\\_{m}, \\mathbf{x}\\_{n}]$ defining the contribution of the $m^{th}$ value to the $n^{th}$ output. b) Matrix showing block sparsity of linear transformation $\\Omega\\_{v}$ between inputs and values. c) Matrix showing sparsity of attention weights relating values and outputs.",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "caption": "Figure 12.2 Self-attention for N=3 inputs $\\mathbf{x}_{n}$, each with dimension $D=4$. a) Each input $\\mathbf{x}_{m}$ is operated on independently by the same weights $\\Omega_{v}$ (same color equals same weight) and biases $\\beta_{v}$ (not shown) to form the values $\\boldsymbol{\\beta}_{v} + \\Omega_{v}\\mathbf{x}_{m}$. Each output is a linear combination of the values, with the attention weight $\\mathrm{a}[\\mathbf{x}_{m}, \\mathbf{x}_{n}]$ defining the contribution of the $m^{th}$ value to the $n^{th}$ output. b) Matrix showing block sparsity of linear transformation $\\Omega_{v}$ between inputs and values. c) Matrix showing sparsity of attention weights relating values and outputs."
+    "caption": "Figure 12.2 Self-attention for N=3 inputs $\\mathbf{x}\\_{n}$, each with dimension $D=4$. a) Each input $\\mathbf{x}\\_{m}$ is operated on independently by the same weights $\\Omega\\_{v}$ (same color equals same weight) and biases $\\beta\\_{v}$ (not shown) to form the values $\\boldsymbol{\\beta}\\_{v} + \\Omega\\_{v}\\mathbf{x}\\_{m}$. Each output is a linear combination of the values, with the attention weight $\\mathrm{a}[\\mathbf{x}\\_{m}, \\mathbf{x}\\_{n}]$ defining the contribution of the $m^{th}$ value to the $n^{th}$ output. b) Matrix showing block sparsity of linear transformation $\\Omega\\_{v}$ between inputs and values. c) Matrix showing sparsity of attention weights relating values and outputs."
   },
   {
     "id": "page_0210-b003",
@@ -43,7 +43,7 @@
     "page_key": 210,
     "order": 5,
     "type": "paragraph",
-    "text": "where $\\lbrace q_{n}\\rbrace$ and $\\lbrace \\mathbf{k}_{m}\\rbrace$ are termed queries and keys, respectively. Then we compute dot products between the queries and keys and pass the results through a softmax function:",
+    "text": "where $\\lbrace q\\_{n}\\rbrace$ and $\\lbrace \\mathbf{k}\\_{m}\\rbrace$ are termed queries and keys, respectively. Then we compute dot products between the queries and keys and pass the results through a softmax function:",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -62,7 +62,7 @@
     "page_key": 210,
     "order": 7,
     "type": "paragraph",
-    "text": "so for each $\\mathbf{x}_{n}$, they are positive and sum to one (figure 12.3). For obvious reasons, this is known as dot-product self-attention.",
+    "text": "so for each $\\mathbf{x}\\_{n}$, they are positive and sum to one (figure 12.3). For obvious reasons, this is known as dot-product self-attention.",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -71,7 +71,7 @@
     "page_key": 210,
     "order": 8,
     "type": "paragraph",
-    "text": "The names “queries” and “keys” were inherited from the field of information retrieval and have the following interpretation: the dot product operation returns a measure of similarity between its inputs, so the weights $a[x_{\\bullet}, x_{n}]$ depend on the relative similarities between the $n^{th}$ query and all of the keys. The softmax function means that the key vectors “compute” with one another to contribute to the final result. The queries and keys must have the same dimensions. However, these can differ from the dimension of",
+    "text": "The names “queries” and “keys” were inherited from the field of information retrieval and have the following interpretation: the dot product operation returns a measure of similarity between its inputs, so the weights $a[x\\_{\\bullet}, x\\_{n}]$ depend on the relative similarities between the $n^{th}$ query and all of the keys. The softmax function means that the key vectors “compute” with one another to contribute to the final result. The queries and keys must have the same dimensions. However, these can differ from the dimension of",
     "source": "deepseek+paddle",
     "confidence": "high"
   }

@@ -60,7 +60,7 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "paragraph",
-    "text": "for the linear regression model (equation 6.5). Prove that this function is convex when there are at least two different samples $ x_{i}$ by showing that the eigenvalues are always positive. This can be done by showing that both the trace and the determinant of the matrix are positive."
+    "text": "for the linear regression model (equation 6.5). Prove that this function is convex when there are at least two different samples $ x\\_{i}$ by showing that the eigenvalues are always positive. This can be done by showing that both the trace and the determinant of the matrix are positive."
   },
   {
     "id": "page_0094-b008",
@@ -69,7 +69,7 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "exercise",
-    "text": "Problem 6.3 Compute the derivatives of the least squares loss $ L[\\phi]$ with respect to the parameters $\\phi_{0}$ and $\\phi_{1}$ for the Gabor model (equation 6.8)."
+    "text": "Problem 6.3 Compute the derivatives of the least squares loss $ L[\\phi]$ with respect to the parameters $\\phi\\_{0}$ and $\\phi\\_{1}$ for the Gabor model (equation 6.8)."
   },
   {
     "id": "page_0094-b009",
@@ -78,7 +78,7 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "exercise",
-    "text": "Problem 6.4* The logistic regression model uses a linear function to assign an input x to one of two classes $ y \\in \\lbrace 0,1 \\rbrace $. For a 1D input and an 1D output, it has two parameters, $\\phi_{0}$ and $\\phi_{1}$, and is defined by:"
+    "text": "Problem 6.4* The logistic regression model uses a linear function to assign an input x to one of two classes $ y \\in \\lbrace 0,1 \\rbrace $. For a 1D input and an 1D output, it has two parameters, $\\phi\\_{0}$ and $\\phi\\_{1}$, and is defined by:"
   },
   {
     "id": "page_0094-b010",

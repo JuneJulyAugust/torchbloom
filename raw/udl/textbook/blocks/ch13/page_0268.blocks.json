@@ -22,7 +22,7 @@
     "page_key": 268,
     "order": 3,
     "type": "exercise",
-    "text": "Problem 13.14* Design a layer that updates a node embedding $\\mathbf{h}_{m}$ based on its neighboring node embeddings $\\lbrace \\mathbf{h}_{m}\\rbrace_{m\\in\\mathrm{ne}[n]}$ and neighboring edge embeddings $\\lbrace \\mathbf{e}_{m}\\rbrace_{m\\in\\mathrm{ne}[n]}$. You should consider the possibility that the edge embeddings are not the same size as the node embeddings.",
+    "text": "Problem 13.14* Design a layer that updates a node embedding $\\mathbf{h}\\_{m}$ based on its neighboring node embeddings $\\lbrace \\mathbf{h}\\_{m}\\rbrace\\_{m\\in\\mathrm{ne}[n]}$ and neighboring edge embeddings $\\lbrace \\mathbf{e}\\_{m}\\rbrace\\_{m\\in\\mathrm{ne}[n]}$. You should consider the possibility that the edge embeddings are not the same size as the node embeddings.",
     "source": "deepseek+paddle",
     "confidence": "high"
   }

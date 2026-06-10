@@ -22,7 +22,7 @@
     "page_key": 286,
     "order": 3,
     "type": "paragraph",
-    "text": "In other words, we optimize over a new set of variables $\\lbrace f_{i}\\rbrace$ where adjacent values cannot change by more than one.",
+    "text": "In other words, we optimize over a new set of variables $\\lbrace f\\_{i}\\rbrace$ where adjacent values cannot change by more than one.",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -49,7 +49,7 @@
     "page_key": 286,
     "order": 6,
     "type": "equation",
-    "text": "$$\nD_{w}\\left[\\Pr[\\mathbf{x}],q[\\mathbf{x}]\\right]\n= \\min_{\\pi[\\bullet,\\bullet]}\\left[\\iint \\pi(\\mathbf{x}_{1},\\mathbf{x}_{2})\\cdot\\lVert\\mathbf{x}_{1}-\\mathbf{x}_{2}\\rVert\\,d\\mathbf{x}_{1}d\\mathbf{x}_{2}\\right]\n\\qquad (15.14)\n$$",
+    "text": "$$\nD_{w}\\left[\\Pr[\\mathbf{x}],q[\\mathbf{x}]\\right]\n= \\min_{\\pi[\\bullet,\\bullet]}\\left[\\iint \\pi(\\mathbf{x}_{1},\\mathbf{x}_{2})\\cdot\\lVert\\mathbf{x}_{1}-\\mathbf{x}_{2}\\rVertd\\mathbf{x}_{1}d\\mathbf{x}_{2}\\right]\n\\qquad (15.14)\n$$",
     "source": "codex-fusion",
     "confidence": "medium"
   },
@@ -58,7 +58,7 @@
     "page_key": 286,
     "order": 7,
     "type": "paragraph",
-    "text": "subject to constraints similar to equation 15.11 on the transport plan $\\pi(\\mathbf{x}_{1}, \\mathbf{x}_{2})$ representing the mass moved from position $\\mathbf{x}_{1}$ to $\\mathbf{x}_{2}$. The equivalent of the dual form (equation 15.12) is:",
+    "text": "subject to constraints similar to equation 15.11 on the transport plan $\\pi(\\mathbf{x}\\_{1}, \\mathbf{x}\\_{2})$ representing the mass moved from position $\\mathbf{x}\\_{1}$ to $\\mathbf{x}\\_{2}$. The equivalent of the dual form (equation 15.12) is:",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -94,7 +94,7 @@
     "page_key": 286,
     "order": 11,
     "type": "paragraph",
-    "text": "In the context of neural networks, we maximize over the space of functions f[x] by optimizing the parameters  $\\phi$  in a neural network f[x,  $\\phi$ ], and we approximate these integrals using generated samples  $x_{i}^{*}$  and real examples  $x_{i}$ :",
+    "text": "In the context of neural networks, we maximize over the space of functions f[x] by optimizing the parameters  $\\phi$  in a neural network f[x,  $\\phi$ ], and we approximate these integrals using generated samples  $x\\_{i}^{*}$  and real examples  $x\\_{i}$ :",
     "source": "deepseek+paddle",
     "confidence": "high"
   },

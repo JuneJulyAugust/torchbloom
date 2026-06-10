@@ -16,7 +16,7 @@
     "type": "caption",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "caption": "Figure 7.4 Backpropagation backward pass #1. We work backward from the end of the function computing the derivatives $\\partial\\ell_{i}/\\partial f_{k}$ and $\\partial\\ell_{i}/\\partial h_{k}$ of the loss with respect to the intermediate quantities. Each derivative is computed from the previous one by multiplying by terms of the form $\\partial f_{k}/\\partial h_{k}$ or $\\partial h_{k}/\\partial f_{k-1}$."
+    "caption": "Figure 7.4 Backpropagation backward pass #1. We work backward from the end of the function computing the derivatives $\\partial\\ell\\_{i}/\\partial f\\_{k}$ and $\\partial\\ell\\_{i}/\\partial h\\_{k}$ of the loss with respect to the intermediate quantities. Each derivative is computed from the previous one by multiplying by terms of the form $\\partial f\\_{k}/\\partial h\\_{k}$ or $\\partial h\\_{k}/\\partial f\\_{k-1}$."
   },
   {
     "id": "page_0102-b003",
@@ -25,7 +25,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "represent the effects of this chain. Notice that we already computed the second of these derivatives, and the other is the derivative of $\\beta_{3} + \\omega_{3} \\cdot h_{3}$ with respect to $h_{3}$, which is $\\omega_{3}$."
+    "text": "represent the effects of this chain. Notice that we already computed the second of these derivatives, and the other is the derivative of $\\beta\\_{3} + \\omega\\_{3} \\cdot h\\_{3}$ with respect to $h\\_{3}$, which is $\\omega\\_{3}$."
   },
   {
     "id": "page_0102-b004",

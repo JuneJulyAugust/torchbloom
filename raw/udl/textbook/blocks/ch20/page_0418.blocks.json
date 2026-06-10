@@ -4,7 +4,7 @@
     "page_key": 418,
     "order": 1,
     "type": "paragraph",
-    "text": "smooth interpolation requires D times more parameters than mere interpolation. They argue that current models for large datasets (e.g., ImageNet) aren\u2019t overparameterized enough; increasing model capacity further may be key to improving performance.",
+    "text": "smooth interpolation requires D times more parameters than mere interpolation. They argue that current models for large datasets (e.g., ImageNet) aren’t overparameterized enough; increasing model capacity further may be key to improving performance.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -31,7 +31,7 @@
     "page_key": 418,
     "order": 4,
     "type": "paragraph",
-    "text": "First, let\u2019s consider the evidence that depth is required. Historically, there has been a definite correlation between performance and depth. For example, performance on the ImageNet benchmark initially improved as a function of network depth until training became difficult. Subsequently, residual connections and batch normalization (chapter 11) allowed training of deeper networks with commensurate gains in performance. At the time of writing, almost all state-of-the-art applications, including image classification (e.g., the vision transformer), text generation (e.g., GPT3), and text-guided image synthesis (e.g., DALL\u00b7E-2), are based on deep networks with tens or hundreds of layers.",
+    "text": "First, let’s consider the evidence that depth is required. Historically, there has been a definite correlation between performance and depth. For example, performance on the ImageNet benchmark initially improved as a function of network depth until training became difficult. Subsequently, residual connections and batch normalization (chapter 11) allowed training of deeper networks with commensurate gains in performance. At the time of writing, almost all state-of-the-art applications, including image classification (e.g., the vision transformer), text generation (e.g., GPT3), and text-guided image synthesis (e.g., DALL·E-2), are based on deep networks with tens or hundreds of layers.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -40,7 +40,7 @@
     "page_key": 418,
     "order": 5,
     "type": "paragraph",
-    "text": "Despite this trend, there have been efforts to use shallower networks. Zagoruyko & Komodakis (2016) constructed shallower but wider residual neural networks and achieved similar performance to ResNet. More recently, Goyal et al. (2021) constructed a network that used parallel convolutional channels and achieved performance similar to deeper networks with only 12 layers. Furthermore, Veit et al. (2016) showed that it is predominantly shorter paths of 5\u201317 layers that drive performance in residual networks.",
+    "text": "Despite this trend, there have been efforts to use shallower networks. Zagoruyko & Komodakis (2016) constructed shallower but wider residual neural networks and achieved similar performance to ResNet. More recently, Goyal et al. (2021) constructed a network that used parallel convolutional channels and achieved performance similar to deeper networks with only 12 layers. Furthermore, Veit et al. (2016) showed that it is predominantly shorter paths of 5–17 layers that drive performance in residual networks.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -67,7 +67,7 @@
     "page_key": 418,
     "order": 8,
     "type": "paragraph",
-    "text": "Chapter 4 showed that deep networks make functions with many more linear regions than shallow ones for the same parameter count. We also saw that \u201cpathological\u201d functions have been identified that require exponentially more hidden units to model with a shallow network than a deep one (e.g., Eldan & Shamir, 2016; Telgarsky, 2016). Indeed Liang & Srikant (2016) found quite general families of functions that are more efficiently modeled by deep networks. However, Nye & Saxe (2018) found that some of these functions cannot easily be fit by deep networks in practice. Moreover, there is little evidence that the real-world functions that we are approximating have these pathological properties.",
+    "text": "Chapter 4 showed that deep networks make functions with many more linear regions than shallow ones for the same parameter count. We also saw that “pathological” functions have been identified that require exponentially more hidden units to model with a shallow network than a deep one (e.g., Eldan & Shamir, 2016; Telgarsky, 2016). Indeed Liang & Srikant (2016) found quite general families of functions that are more efficiently modeled by deep networks. However, Nye & Saxe (2018) found that some of these functions cannot easily be fit by deep networks in practice. Moreover, there is little evidence that the real-world functions that we are approximating have these pathological properties.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   }

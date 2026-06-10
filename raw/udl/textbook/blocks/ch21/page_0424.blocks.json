@@ -23,7 +23,7 @@
     "page_key": 424,
     "order": 3,
     "type": "table",
-    "text": "Data collectionPre-processingTrainingPost-processing\u25cf Identify lack of examples or variates and collect\u25cf Modify labels \u25cf Modify input data \u25cf Modify input/ output pairs\u25cf Adversarial training \u25cf Regularize for fairness \u25cf Constrain to be fair\u25cf Change thresholds \u25cf Trade-off accuracy for fairness\u25cf Modify labels \u25cf Modify input data \u25cf Modify input/ output pairs\u25cf Adversarial training \u25cf Regularize for fairness \u25cf Constrain to be fair",
+    "text": "Data collectionPre-processingTrainingPost-processing● Identify lack of examples or variates and collect● Modify labels ● Modify input data ● Modify input/ output pairs● Adversarial training ● Regularize for fairness ● Constrain to be fair● Change thresholds ● Trade-off accuracy for fairness● Modify labels ● Modify input data ● Modify input/ output pairs● Adversarial training ● Regularize for fairness ● Constrain to be fair",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },

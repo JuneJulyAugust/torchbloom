@@ -14,10 +14,10 @@
     "page_key": 219,
     "order": 2,
     "type": "caption",
-    "text": "Figure 12.9 The input embedding matrix $\\mathbf{X} \\in \\mathbb{R}^{D \\times N}$ contains $N$ embeddings of length $D$ and is created by multiplying a matrix $\\mathbf{\\Omega}_{e}$ containing the embeddings for the entire vocabulary with a matrix containing one-hot vectors in its columns that correspond to the word or sub-word indices. The vocabulary matrix $\\mathbf{\\Omega}_{e}$ is considered a parameter of the model and is learned along with the other parameters. Note that the two embeddings for the word an in $\\mathbf{X}$ are the same.",
+    "text": "Figure 12.9 The input embedding matrix $\\mathbf{X} \\in \\mathbb{R}^{D \\times N}$ contains $N$ embeddings of length $D$ and is created by multiplying a matrix $\\mathbf{\\Omega}\\_{e}$ containing the embeddings for the entire vocabulary with a matrix containing one-hot vectors in its columns that correspond to the word or sub-word indices. The vocabulary matrix $\\mathbf{\\Omega}\\_{e}$ is considered a parameter of the model and is learned along with the other parameters. Note that the two embeddings for the word an in $\\mathbf{X}$ are the same.",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "caption": "Figure 12.9 The input embedding matrix $\\mathbf{X} \\in \\mathbb{R}^{D \\times N}$ contains $N$ embeddings of length $D$ and is created by multiplying a matrix $\\mathbf{\\Omega}_{e}$ containing the embeddings for the entire vocabulary with a matrix containing one-hot vectors in its columns that correspond to the word or sub-word indices. The vocabulary matrix $\\mathbf{\\Omega}_{e}$ is considered a parameter of the model and is learned along with the other parameters. Note that the two embeddings for the word an in $\\mathbf{X}$ are the same."
+    "caption": "Figure 12.9 The input embedding matrix $\\mathbf{X} \\in \\mathbb{R}^{D \\times N}$ contains $N$ embeddings of length $D$ and is created by multiplying a matrix $\\mathbf{\\Omega}\\_{e}$ containing the embeddings for the entire vocabulary with a matrix containing one-hot vectors in its columns that correspond to the word or sub-word indices. The vocabulary matrix $\\mathbf{\\Omega}\\_{e}$ is considered a parameter of the model and is learned along with the other parameters. Note that the two embeddings for the word an in $\\mathbf{X}$ are the same."
   },
   {
     "id": "page_0219-b003",
@@ -42,7 +42,7 @@
     "page_key": 219,
     "order": 5,
     "type": "paragraph",
-    "text": "BERT is an encoder model that uses a vocabulary of 30,000 tokens. Input tokens are converted to 1024-dimensional word embeddings and passed through 24 transformer layers. Each contains a self-attention mechanism with 16 heads. The queries, keys, and values for each head are of dimension 64 (i.e., the matrices $\\Omega_{vh}, \\Omega_{qh}, \\Omega_{kh}$ are $64 \\times 1024$ ). The dimension of the single hidden layer in the fully connected networks is 4096. The total number of parameters is $\\sim$ 340 million. When BERT was introduced, this was considered large, but it is now much smaller than state-of-the-art models.",
+    "text": "BERT is an encoder model that uses a vocabulary of 30,000 tokens. Input tokens are converted to 1024-dimensional word embeddings and passed through 24 transformer layers. Each contains a self-attention mechanism with 16 heads. The queries, keys, and values for each head are of dimension 64 (i.e., the matrices $\\Omega\\_{vh}, \\Omega\\_{qh}, \\Omega\\_{kh}$ are $64 \\times 1024$ ). The dimension of the single hidden layer in the fully connected networks is 4096. The total number of parameters is $\\sim$ 340 million. When BERT was introduced, this was considered large, but it is now much smaller than state-of-the-art models.",
     "source": "deepseek+paddle",
     "confidence": "high"
   },

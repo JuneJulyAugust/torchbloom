@@ -49,7 +49,7 @@
     "page_key": 340,
     "order": 6,
     "type": "paragraph",
-    "text": "In principle, we could approximate this probability using equation 17.22 by drawing samples from $\\Pr(\\mathbf{z}) = \\\\mathrm{Norm}_{\\mathbf{z}}[\\mathbf{0}, \\mathbf{I}]$ and computing:",
+    "text": "In principle, we could approximate this probability using equation 17.22 by drawing samples from $\\Pr(\\mathbf{z}) = \\\\mathrm{Norm}\\_{\\mathbf{z}}[\\mathbf{0}, \\mathbf{I}]$ and computing:",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -67,7 +67,7 @@
     "page_key": 340,
     "order": 8,
     "type": "paragraph",
-    "text": "However, the curse of dimensionality means that almost all values of $z_{n}$ that we draw would have a very low probability $\\Pr(\\mathbf{x}|\\mathbf{z}_{n})$ ; we would have to draw an enormous number of samples to get a reliable estimate. A better approach is to use importance sampling. Here, we sample z from an auxiliary distribution $q(\\mathbf{z})$ , evaluate $\\Pr(\\mathbf{x}|\\mathbf{z}_{n})$ , and rescale the resulting values by the probability $q(\\mathbf{z})$ under the new distribution:",
+    "text": "However, the curse of dimensionality means that almost all values of $z\\_{n}$ that we draw would have a very low probability $\\Pr(\\mathbf{x}|\\mathbf{z}\\_{n})$ ; we would have to draw an enormous number of samples to get a reliable estimate. A better approach is to use importance sampling. Here, we sample z from an auxiliary distribution $q(\\mathbf{z})$ , evaluate $\\Pr(\\mathbf{x}|\\mathbf{z}\\_{n})$ , and rescale the resulting values by the probability $q(\\mathbf{z})$ under the new distribution:",
     "source": "deepseek",
     "confidence": "medium"
   },

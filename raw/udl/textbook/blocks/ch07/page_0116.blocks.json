@@ -52,7 +52,7 @@
     "type": "exercise",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "Problem 7.9 $^{*}$ Consider a loss function $\\ell[f]$, where $f = \\beta + \\Omega h$. We want to find how the loss $\\ell$ changes when we change $\\Omega$, which we'll express with a matrix that contains the derivative $\\partial\\ell/\\partial\\Omega_{ij}$ at the $i^{th}$ row and $j^{th}$ column. Find an expression for $\\partial f_{i}/\\partial\\Omega_{ij}$ and, using the chain rule, show that:"
+    "text": "Problem 7.9 $^{*}$ Consider a loss function $\\ell[f]$, where $f = \\beta + \\Omega h$. We want to find how the loss $\\ell$ changes when we change $\\Omega$, which we'll express with a matrix that contains the derivative $\\partial\\ell/\\partial\\Omega\\_{ij}$ at the $i^{th}$ row and $j^{th}$ column. Find an expression for $\\partial f\\_{i}/\\partial\\Omega\\_{ij}$ and, using the chain rule, show that:"
   },
   {
     "id": "page_0116-b007",

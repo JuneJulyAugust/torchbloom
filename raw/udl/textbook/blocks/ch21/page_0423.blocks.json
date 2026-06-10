@@ -23,7 +23,7 @@
     "page_key": 423,
     "order": 3,
     "type": "list",
-    "text": "- Problem specification: Choosing a model\u2019s goals requires a value judgment about what is important to us, which allows for the creation of biases (Fazelpour & Danks, 2021). Further biases may emerge if we fail to operationalize these choices successfully and the problem specification fails to capture our intended goals (Mitchell et al., 2021).",
+    "text": "- Problem specification: Choosing a model’s goals requires a value judgment about what is important to us, which allows for the creation of biases (Fazelpour & Danks, 2021). Further biases may emerge if we fail to operationalize these choices successfully and the problem specification fails to capture our intended goals (Mitchell et al., 2021).",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -50,7 +50,7 @@
     "page_key": 423,
     "order": 6,
     "type": "list",
-    "text": "- Deploying: Deployed algorithms may interact with other algorithms, structures, or institutions in society to create complex feedback loops that entrench extant biases (O\u2019Neil, 2016). For example, large language models like GPT3 (Brown et al., 2020) are trained on web data. However, when GPT3 outputs are published",
+    "text": "- Deploying: Deployed algorithms may interact with other algorithms, structures, or institutions in society to create complex feedback loops that entrench extant biases (O’Neil, 2016). For example, large language models like GPT3 (Brown et al., 2020) are trained on web data. However, when GPT3 outputs are published",
     "source": "deepseek+paddle",
     "confidence": "medium"
   }

@@ -22,7 +22,7 @@
     "page_key": 269,
     "order": 3,
     "type": "paragraph",
-    "text": "Chapters 2–9 walked through the supervised learning pipeline. We defined models that mapped observed data x to output values y and introduced loss functions that measured the quality of that mapping for a training dataset  $\\lbrace x_{i}, y_{i}\\rbrace$ . Then we discussed how to fit and measure the performance of these models. Chapters 10–13 introduced more sophisticated model architectures incorporating parameter sharing and allowing parallel computational paths.",
+    "text": "Chapters 2–9 walked through the supervised learning pipeline. We defined models that mapped observed data x to output values y and introduced loss functions that measured the quality of that mapping for a training dataset  $\\lbrace x\\_{i}, y\\_{i}\\rbrace$ . Then we discussed how to fit and measure the performance of these models. Chapters 10–13 introduced more sophisticated model architectures incorporating parameter sharing and allowing parallel computational paths.",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -31,7 +31,7 @@
     "page_key": 269,
     "order": 4,
     "type": "paragraph",
-    "text": "The defining characteristic of unsupervised learning models is that they are learned from a set of observed data  $\\lbrace x_{i}\\rbrace$  in the absence of labels. All unsupervised models share this property, but they have diverse goals. They may be used to generate plausible new samples from the dataset or to manipulate, denoise, interpolate between, or compress examples. They can also be used to reveal the internal structure of a dataset (e.g., by dividing it into coherent clusters) or to distinguish whether new examples belong to the same dataset or are outliers.",
+    "text": "The defining characteristic of unsupervised learning models is that they are learned from a set of observed data  $\\lbrace x\\_{i}\\rbrace$  in the absence of labels. All unsupervised models share this property, but they have diverse goals. They may be used to generate plausible new samples from the dataset or to manipulate, denoise, interpolate between, or compress examples. They can also be used to reveal the internal structure of a dataset (e.g., by dividing it into coherent clusters) or to distinguish whether new examples belong to the same dataset or are outliers.",
     "source": "deepseek+paddle",
     "confidence": "high"
   },

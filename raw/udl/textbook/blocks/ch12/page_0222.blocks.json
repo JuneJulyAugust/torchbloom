@@ -4,7 +4,7 @@
     "page_key": 222,
     "order": 1,
     "type": "paragraph",
-    "text": "Word classification: The goal of named entity recognition is to classify each word as an entity type (e.g., person, place, organization, or no-entity). To this end, each input embedding $x_{n}$ is mapped to an $E \\times 1$ vector where the E entries correspond to the E entity types. This is passed through a softmax function to create probabilities for each class, which contribute to a multiclass cross-entropy loss (figure 12.11b).",
+    "text": "Word classification: The goal of named entity recognition is to classify each word as an entity type (e.g., person, place, organization, or no-entity). To this end, each input embedding $x\\_{n}$ is mapped to an $E \\times 1$ vector where the E entries correspond to the E entity types. This is passed through a softmax function to create probabilities for each class, which contribute to a multiclass cross-entropy loss (figure 12.11b).",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -68,7 +68,7 @@
     "page_key": 222,
     "order": 8,
     "type": "paragraph",
-    "text": "An autoregressive model predicts the conditional distributions $\\Pr[t_{n}\\mid t_{1},\\ldots,t_{n-1}]$ of each token given all the prior tokens, and hence indirectly computes the joint probability $\\Pr[t_{1},t_{2},\\ldots,t_{N}]$ of all N tokens:",
+    "text": "An autoregressive model predicts the conditional distributions $\\Pr[t\\_{n}\\mid t\\_{1},\\ldots,t\\_{n-1}]$ of each token given all the prior tokens, and hence indirectly computes the joint probability $\\Pr[t\\_{1},t\\_{2},\\ldots,t\\_{N}]$ of all N tokens:",
     "source": "deepseek+paddle",
     "confidence": "high"
   }

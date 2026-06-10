@@ -60,7 +60,7 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "paragraph",
-    "text": "Now consider that we observe an empirical data distribution at points $\\lbrace y_{i} \\rbrace_{i=1}^{I}$. We can describe this as a weighted sum of point masses:"
+    "text": "Now consider that we observe an empirical data distribution at points $\\lbrace y\\_{i} \\rbrace\\_{i=1}^{I}$. We can describe this as a weighted sum of point masses:"
   },
   {
     "id": "page_0071-b008",
@@ -87,7 +87,7 @@
     "source": "deepseek",
     "confidence": "medium",
     "type": "equation",
-    "latex": "\\begin{aligned}\n\\hat{\\boldsymbol{\\theta}}\n&= \\underset{\\boldsymbol{\\theta}}{\\mathop{\\mathrm{arg\\,min}}}\\left[\\int_{-\\infty}^{\\infty}q(y)\\log[q(y)]dy-\\int_{-\\infty}^{\\infty}q(y)\\log\\left[\\Pr\\left(y\\mid\\boldsymbol{\\theta}\\right)\\right]dy\\right] \\\\\n&= \\underset{\\boldsymbol{\\theta}}{\\mathop{\\mathrm{arg\\,min}}}\\left[-\\int_{-\\infty}^{\\infty}q(y)\\log\\left[\\Pr\\left(y\\mid\\boldsymbol{\\theta}\\right)\\right]dy\\right]\n\\end{aligned} \\qquad (5.29)"
+    "latex": "\\begin{aligned}\n\\hat{\\boldsymbol{\\theta}}\n&= \\underset{\\boldsymbol{\\theta}}{\\mathop{\\mathrm{argmin}}}\\left[\\int_{-\\infty}^{\\infty}q(y)\\log[q(y)]dy-\\int_{-\\infty}^{\\infty}q(y)\\log\\left[\\Pr\\left(y\\mid\\boldsymbol{\\theta}\\right)\\right]dy\\right] \\\\\n&= \\underset{\\boldsymbol{\\theta}}{\\mathop{\\mathrm{argmin}}}\\left[-\\int_{-\\infty}^{\\infty}q(y)\\log\\left[\\Pr\\left(y\\mid\\boldsymbol{\\theta}\\right)\\right]dy\\right]\n\\end{aligned} \\qquad (5.29)"
   },
   {
     "id": "page_0071-b011",

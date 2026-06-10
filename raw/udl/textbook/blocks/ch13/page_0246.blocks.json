@@ -104,7 +104,7 @@
     "page_key": 246,
     "order": 12,
     "type": "paragraph",
-    "text": "where the scalar  $\\beta_{K}$  and  $1 \\times D$  vector  $\\omega_{K}$  are learned parameters. Post-multiplying the output embedding matrix  $H_{K}$  by the column vector 1 that contains ones has the effect of summing together all the embeddings and subsequently dividing by the number of nodes N computes the average. This is known as mean pooling (see figure 10.11).",
+    "text": "where the scalar  $\\beta\\_{K}$  and  $1 \\times D$  vector  $\\omega\\_{K}$  are learned parameters. Post-multiplying the output embedding matrix  $H\\_{K}$  by the column vector 1 that contains ones has the effect of summing together all the embeddings and subsequently dividing by the number of nodes N computes the average. This is known as mean pooling (see figure 10.11).",
     "source": "deepseek+paddle",
     "confidence": "high"
   }

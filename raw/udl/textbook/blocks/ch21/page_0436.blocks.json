@@ -13,7 +13,7 @@
     "page_key": 436,
     "order": 2,
     "type": "exercise",
-    "text": "Problem 21.1 It was suggested that the most common specification of the value alignment problem for AI is \u201cthe problem of ensuring that the values of AI systems are aligned with the values of humanity.\u201d Discuss the ways in which this statement of the problem is underspecified. Discussion Resource: LaCroix (2025).",
+    "text": "Problem 21.1 It was suggested that the most common specification of the value alignment problem for AI is “the problem of ensuring that the values of AI systems are aligned with the values of humanity.” Discuss the ways in which this statement of the problem is underspecified. Discussion Resource: LaCroix (2025).",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -22,7 +22,7 @@
     "page_key": 436,
     "order": 3,
     "type": "exercise",
-    "text": "Problem 21.2 Goodhart\u2019s law states that \u201cwhen a measure becomes a target, it ceases to be a good measure.\u201d Consider how this law might be reformulated to apply to value alignment for artificial intelligence, given that the loss function is a mere proxy for our true objectives.",
+    "text": "Problem 21.2 Goodhart’s law states that “when a measure becomes a target, it ceases to be a good measure.” Consider how this law might be reformulated to apply to value alignment for artificial intelligence, given that the loss function is a mere proxy for our true objectives.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -31,7 +31,7 @@
     "page_key": 436,
     "order": 4,
     "type": "exercise",
-    "text": "Problem 21.3 Suppose a university uses data from past students to build models for predicting \u201cstudent success,\u201d where those models can support informed changes in policies and practices. Consider how biases might affect each of the four stages of the development and deployment of this model.",
+    "text": "Problem 21.3 Suppose a university uses data from past students to build models for predicting “student success,” where those models can support informed changes in policies and practices. Consider how biases might affect each of the four stages of the development and deployment of this model.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -94,7 +94,7 @@
     "page_key": 436,
     "order": 11,
     "type": "exercise",
-    "text": "Problem 21.8 So the ways in which AI is used to improve people\u2019s lives are discussed, and how this can be done. Discuss the ways in which AI is used to improve people\u2019s lives.",
+    "text": "Problem 21.8 So the ways in which AI is used to improve people’s lives are discussed, and how this can be done. Discuss the ways in which AI is used to improve people’s lives.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -103,7 +103,7 @@
     "page_key": 436,
     "order": 12,
     "type": "paragraph",
-    "text": "Discussion Resource: V\u00e9liz (2020).",
+    "text": "Discussion Resource: Véliz (2020).",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -157,7 +157,7 @@
     "page_key": 436,
     "order": 18,
     "type": "exercise",
-    "text": "Problem 21.12 In March 2023, the Future of Life Institute published a letter, \u201cPause Giant AI Experiments,\u201d in which they called on all AI labs to immediately pause for at least six months the training of AI systems more powerful than GPT-4. Discuss the motivations of the authors in writing this letter, the public reaction, and the implications of such a pause. Relate this episode to the view that AI ethics can be considered a collective action problem (section 21.6). Discussion Resource: Gebru et al. (2023).",
+    "text": "Problem 21.12 In March 2023, the Future of Life Institute published a letter, “Pause Giant AI Experiments,” in which they called on all AI labs to immediately pause for at least six months the training of AI systems more powerful than GPT-4. Discuss the motivations of the authors in writing this letter, the public reaction, and the implications of such a pause. Relate this episode to the view that AI ethics can be considered a collective action problem (section 21.6). Discussion Resource: Gebru et al. (2023).",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },

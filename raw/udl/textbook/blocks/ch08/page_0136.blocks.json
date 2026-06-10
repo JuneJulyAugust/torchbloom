@@ -6,7 +6,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "(exploit previous knowledge). Bayesian optimization is a framework based on Gaussian processes that does just this, and its application to hyperparameter search is described in Snoek et al. (2012). The Beta-Bernoulli bandit (see Lattimore & Szepesv\u00e1ri, 2020) is a roughly equivalent model for describing uncertainty in results due to discrete variables."
+    "text": "(exploit previous knowledge). Bayesian optimization is a framework based on Gaussian processes that does just this, and its application to hyperparameter search is described in Snoek et al. (2012). The Beta-Bernoulli bandit (see Lattimore & Szepesvári, 2020) is a roughly equivalent model for describing uncertainty in results due to discrete variables."
   },
   {
     "id": "page_0136-b002",
@@ -60,7 +60,7 @@
     "type": "exercise",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "Problem 8.3 $^{*}$ Given a training dataset consisting of I input/output pairs $\\lbrace x_{i}, y_{i} \\rbrace$, show how the model in figure 8.4a using the least squares loss function can be found in closed form."
+    "text": "Problem 8.3 $^{*}$ Given a training dataset consisting of I input/output pairs $\\lbrace x\\_{i}, y\\_{i} \\rbrace$, show how the model in figure 8.4a using the least squares loss function can be found in closed form."
   },
   {
     "id": "page_0136-b008",

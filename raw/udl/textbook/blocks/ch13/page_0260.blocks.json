@@ -4,7 +4,7 @@
     "page_key": 260,
     "order": 1,
     "type": "paragraph",
-    "text": "Then the similarity $s_{mn}$ of each transformed node embedding $\\mathbf{h}_{m}^{\\prime}$ to the transformed node embedding $\\mathbf{h}_{n}^{\\prime}$ is computed by concatenating the pairs, taking a dot product with a column vector $\\phi_{k}$ of learned parameters, and applying an activation function:",
+    "text": "Then the similarity $s\\_{mn}$ of each transformed node embedding $\\mathbf{h}\\_{m}^{\\prime}$ to the transformed node embedding $\\mathbf{h}\\_{n}^{\\prime}$ is computed by concatenating the pairs, taking a dot product with a column vector $\\phi\\_{k}$ of learned parameters, and applying an activation function:",
     "source": "deepseek+paddle",
     "confidence": "high"
   },

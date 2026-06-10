@@ -58,7 +58,7 @@ ALIGNED_ROWBREAK_BEFORE_OPERATOR_RE = re.compile(
 )
 BARE_MATH_LOG_RE = re.compile(r"(?<!\\)\blog(?=\s*(?:\\|\[|\{|\())")
 BARE_OCR_MATH_TOKEN_RE = re.compile(
-    r"(?<!\\)\b(?:argmin|argmax)\b|(?<!\\)\b(?:Pr|Norm)\s*\("
+    r"(?<![\\{])\b(?:argmin|argmax)\b|(?<!\\)\b(?:Pr|Norm)\s*\("
 )
 MISMATCHED_PROBABILITY_DELIMITER_RE = re.compile(
     r"\\Pr\\left\((?:(?!\\right).)*?(?<!\\right)\)(?=\\right)"
@@ -81,8 +81,10 @@ OCR_SPACED_MATH_TOKEN_RES = [
 ]
 INLINE_SUPERSCRIPT_FOOTNOTE_RE = re.compile(r"\$\^\d+\$")
 INLINE_BARE_OCR_MATH_TOKEN_RE = re.compile(
-    r"\$[^\n$]*(?:(?<!\\)\b(?:argmin|argmax)\b|(?<!\\)\b(?:Pr|Norm)\s*(?:\(|_|\[))[^\n$]*\$"
+    r"\$[^\n$]*(?:(?<![\\{])\b(?:argmin|argmax)\b|(?<!\\)\b(?:Pr|Norm)\s*(?:\(|_|\[))[^\n$]*\$"
 )
+INLINE_MATH_UNESCAPED_UNDERSCORE_RE = re.compile(r"(?<!\\)_")
+MATH_THIN_SPACE_RE = re.compile(r"\\,")
 STANDALONE_EQUATION_NUMBER_RE = re.compile(r"(?m)^\(\d+\.\d+\)$")
 RAW_LATENT_VARIABLE_BRACES_RE = re.compile(r"\blatent variables\s+\{z_\{t\}\}")
 BROKEN_SIZED_DELIMITER_BEFORE_BAR_RE = re.compile(
@@ -421,11 +423,13 @@ Use these to check transcription, especially equations, but do not include them 
 8. Center figure caption text and bold the `Figure X.Y` label.
 9. Use GitHub-compatible display math delimiters: `$$` on a line before and after display equations. Do not use `\\[` and `\\]` for display math.
 10. Use GitHub-compatible inline math delimiters: `$...$`. Do not use `\\(...\\)` inline math.
-11. Avoid GitHub-blocked math macros. Use `\\mathrm{{ReLU}}`, `\\mathrm{{argmin}}`, or `\\mathrm{{HardSwish}}` instead of `\\operatorname{{...}}`.
-12. In inline math, write literal set braces as `\\lbrace ...\\rbrace`, not `\\{{...\\}}`, so GitHub does not consume the escaping before MathJax sees it.
-13. Do not use `\\tag{{...}}` in published Markdown. Put visible equation numbers at the end of the display equation as `\\quad (3.4)` so GitHub and local previews render the same way.
-14. Do not put math delimiters in Markdown headings. Keep headings short and move math-heavy definitions into the following paragraph.
-15. Use Markdown footnotes such as `[^1]` and `[^1]: ...`; do not use `$^1$` as a footnote marker.
+11. Escape underscores inside inline math as `\\_` in Markdown source, for example `$\\mathbf{{z}}\\_{{t}}$`; GitHub can parse unescaped inline underscores as Markdown emphasis before math rendering.
+12. Do not use `\\,` spacing commands in final Markdown math. Use `\\mid` for conditional probability bars.
+13. Avoid GitHub-blocked math macros. Use `\\mathrm{{ReLU}}`, `\\mathrm{{argmin}}`, or `\\mathrm{{HardSwish}}` instead of `\\operatorname{{...}}`.
+14. In inline math, write literal set braces as `\\lbrace ...\\rbrace`, not `\\{{...\\}}`, so GitHub does not consume the escaping before MathJax sees it.
+15. Do not use `\\tag{{...}}` in published Markdown. Put visible equation numbers at the end of the display equation as `\\quad (3.4)` so GitHub and local previews render the same way.
+16. Do not put math delimiters in Markdown headings. Keep headings short and move math-heavy definitions into the following paragraph.
+17. Use Markdown footnotes such as `[^1]` and `[^1]: ...`; do not use `$^1$` as a footnote marker.
 
 ## Required Markdown Frontmatter
 
@@ -821,9 +825,72 @@ def _validate_centered_figure_captions(md_path: Path, body: str, errors: list[st
             )
 
 
+def _iter_inline_math_bodies(value: str) -> list[str]:
+    bodies: list[str] = []
+    in_display_math = False
+
+    for line in value.splitlines():
+        if line.strip() == "$$":
+            in_display_math = not in_display_math
+            continue
+        if in_display_math:
+            continue
+
+        index = 0
+        while index < len(line):
+            start = line.find("$", index)
+            if start == -1:
+                break
+            if start + 1 < len(line) and line[start + 1] == "$":
+                index = start + 2
+                continue
+            if start > 0 and line[start - 1] == "\\":
+                index = start + 1
+                continue
+
+            end = start + 1
+            while end < len(line):
+                candidate = line.find("$", end)
+                if candidate == -1:
+                    end = len(line)
+                    break
+                if candidate > 0 and line[candidate - 1] == "\\":
+                    end = candidate + 1
+                    continue
+                if candidate + 1 < len(line) and line[candidate + 1] == "$":
+                    end = candidate + 2
+                    continue
+                bodies.append(line[start + 1:candidate])
+                end = candidate + 1
+                break
+            index = end
+
+    return bodies
+
+
+def _validate_inline_math_source(path: Path, label: str, value: str, errors: list[str]) -> None:
+    reported_thin_space = False
+    reported_underscore = False
+    for body in _iter_inline_math_bodies(value):
+        if not reported_thin_space and MATH_THIN_SPACE_RE.search(body):
+            errors.append(
+                f"{path}: {label} uses \\, inside inline math; GitHub strips it before math rendering"
+            )
+            reported_thin_space = True
+        if not reported_underscore and INLINE_MATH_UNESCAPED_UNDERSCORE_RE.search(body):
+            errors.append(
+                f"{path}: {label} has unescaped inline math underscore; escape _ as \\_ for GitHub"
+            )
+            reported_underscore = True
+        if reported_thin_space and reported_underscore:
+            return
+
+
 def _validate_github_math_blocks(md_path: Path, body: str, errors: list[str]) -> None:
     for match in DISPLAY_MATH_BLOCK_RE.finditer(body):
         block = match.group("body")
+        if MATH_THIN_SPACE_RE.search(block):
+            errors.append(f"{md_path}: replace \\, inside display math; GitHub strips it before rendering")
         if BROKEN_SIZED_DELIMITER_BEFORE_BAR_RE.search(block):
             errors.append(f"{md_path}: fix broken sized delimiter before norm bar")
         if MISSING_DISPLAY_RBRACE_RE.search(block):
@@ -886,6 +953,8 @@ def _equation_validation_bodies(value: str) -> list[str]:
 
 def _validate_equation_text(path: Path, label: str, value: str, errors: list[str]) -> None:
     math_value = "\n".join(_equation_validation_bodies(value))
+    if MATH_THIN_SPACE_RE.search(math_value):
+        errors.append(f"{path}: {label} uses \\,; GitHub strips it before math rendering")
     if BROKEN_SIZED_DELIMITER_BEFORE_BAR_RE.search(math_value):
         errors.append(f"{path}: {label} has broken sized delimiter before norm bar")
     if MISSING_DISPLAY_RBRACE_RE.search(math_value):
@@ -954,6 +1023,7 @@ def _validate_markdown(output_dir: Path, spec: PageSpec, errors: list[str]) -> d
         errors.append(f"{md_path}: put a space after inline \\lbrace/\\rbrace so GitHub does not read it as one macro")
     if INLINE_SUPERSCRIPT_FOOTNOTE_RE.search(body):
         errors.append(f"{md_path}: use Markdown footnotes like [^1], not $^1$ math markers")
+    _validate_inline_math_source(md_path, "body", body, errors)
     if STANDALONE_EQUATION_NUMBER_RE.search(body):
         errors.append(f"{md_path}: remove standalone equation number line from prose")
     if RAW_LATENT_VARIABLE_BRACES_RE.search(body):
@@ -1046,6 +1116,8 @@ def _validate_blocks(output_dir: Path, spec: PageSpec, errors: list[str]) -> int
             errors.append(f"{block_path}: block {idx} unsupported type {block_type!r}")
         for key in ("text", "latex", "caption", "alt"):
             value = block.get(key)
+            if isinstance(value, str):
+                _validate_inline_math_source(block_path, f"block {idx} field {key!r}", value, errors)
             if isinstance(value, str) and GITHUB_BLOCKED_MATH_MACRO_RE.search(value):
                 errors.append(
                     f"{block_path}: block {idx} field {key!r} uses GitHub-blocked math macro \\operatorname"

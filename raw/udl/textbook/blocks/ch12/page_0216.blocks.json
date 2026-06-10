@@ -43,7 +43,7 @@
     "page_key": 216,
     "order": 5,
     "type": "paragraph",
-    "text": "where the column vectors $x_{n}$ are separately taken from the full data matrix X. In a real network, the data passes through a series of these transformer layers.",
+    "text": "where the column vectors $x\\_{n}$ are separately taken from the full data matrix X. In a real network, the data passes through a series of these transformer layers.",
     "source": "deepseek+paddle",
     "confidence": "high"
   },

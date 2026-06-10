@@ -14,7 +14,7 @@
     "page_key": 376,
     "order": 2,
     "type": "caption",
-    "text": "Figure 19.2 Markov reward process. This associates a distribution $\\Pr(r_{t+1}\\mid s_t)$ of rewards $r_{t+1}$ with each state $s_t$. a) Here, the rewards are deterministic; the penguin will receive a reward of +1 if it lands on a fish and 0 otherwise. The trajectory $\\tau$ now consists of a sequence $s_1, r_2, s_2, r_3, s_3, r_4, \\ldots$ of alternating states and rewards, terminating after eight steps. The return $G_t$ of the sequence is the sum of discounted future rewards, here with discount factor $\\gamma = 0.9$. b-c) As the penguin proceeds along the trajectory and gets closer to reaching the rewards, the return increases.",
+    "text": "Figure 19.2 Markov reward process. This associates a distribution $\\Pr(r\\_{t+1}\\mid s\\_t)$ of rewards $r\\_{t+1}$ with each state $s\\_t$. a) Here, the rewards are deterministic; the penguin will receive a reward of +1 if it lands on a fish and 0 otherwise. The trajectory $\\tau$ now consists of a sequence $s\\_1, r\\_2, s\\_2, r\\_3, s\\_3, r\\_4, \\ldots$ of alternating states and rewards, terminating after eight steps. The return $G\\_t$ of the sequence is the sum of discounted future rewards, here with discount factor $\\gamma = 0.9$. b-c) As the penguin proceeds along the trajectory and gets closer to reaching the rewards, the return increases.",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -33,7 +33,7 @@
     "page_key": 376,
     "order": 4,
     "type": "caption",
-    "text": "Figure 19.3 Markov decision process. a) The agent can perform one of a set of actions in each state. b) Here, the four actions correspond to moving up, right, down, and left. c) For any state (here, state 6), the action changes the probability of moving to the next state. The penguin moves in the intended direction with 50% probability, but the ice is slippery, so it may slide to one of the other adjacent positions with equal probability. Accordingly, in panel (a), the action taken (gray arrows) does not always line up with the trajectory (orange line). In general, the action can also influence the probability of receiving rewards, but in this example the reward is the same regardless of the action, so $\\Pr(r_{t+1}\\mid s_t,a_t)=\\Pr(r_{t+1}\\mid s_t)$. The trajectory $\\tau$ from an MDP consists of a sequence $s_1, a_1, r_2, s_2, a_2, r_3, a_3, r_4, \\ldots$ of alternating states $s_t$, actions $a_t$, and rewards $r_{t+1}$. Note that here the penguin receives the reward when it leaves a state with a fish (i.e., the reward is received for passing through the fish square, regardless of whether the penguin arrived there intentionally or not).",
+    "text": "Figure 19.3 Markov decision process. a) The agent can perform one of a set of actions in each state. b) Here, the four actions correspond to moving up, right, down, and left. c) For any state (here, state 6), the action changes the probability of moving to the next state. The penguin moves in the intended direction with 50% probability, but the ice is slippery, so it may slide to one of the other adjacent positions with equal probability. Accordingly, in panel (a), the action taken (gray arrows) does not always line up with the trajectory (orange line). In general, the action can also influence the probability of receiving rewards, but in this example the reward is the same regardless of the action, so $\\Pr(r\\_{t+1}\\mid s\\_t,a\\_t)=\\Pr(r\\_{t+1}\\mid s\\_t)$. The trajectory $\\tau$ from an MDP consists of a sequence $s\\_1, a\\_1, r\\_2, s\\_2, a\\_2, r\\_3, a\\_3, r\\_4, \\ldots$ of alternating states $s\\_t$, actions $a\\_t$, and rewards $r\\_{t+1}$. Note that here the penguin receives the reward when it leaves a state with a fish (i.e., the reward is received for passing through the fish square, regardless of whether the penguin arrived there intentionally or not).",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -42,7 +42,7 @@
     "page_key": 376,
     "order": 5,
     "type": "paragraph",
-    "text": "b) $G_{2}=0+\\gamma\\cdot0+\\gamma^{2}\\cdot0+\\gamma^{3}\\cdot1$ $+\\gamma^{4}\\cdot0+\\gamma^{5}\\cdot1+\\gamma^{6}\\cdot0=1.31$",
+    "text": "b) $G\\_{2}=0+\\gamma\\cdot0+\\gamma^{2}\\cdot0+\\gamma^{3}\\cdot1$ $+\\gamma^{4}\\cdot0+\\gamma^{5}\\cdot1+\\gamma^{6}\\cdot0=1.31$",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -60,7 +60,7 @@
     "page_key": 376,
     "order": 7,
     "type": "paragraph",
-    "text": "c) $G_{3}=0+\\gamma\\cdot0+\\gamma^{2}\\cdot1+\\gamma^{3}\\cdot0$ $+\\gamma^{4}\\cdot1+\\gamma^{5}\\cdot0=1.47$",
+    "text": "c) $G\\_{3}=0+\\gamma\\cdot0+\\gamma^{2}\\cdot1+\\gamma^{3}\\cdot0$ $+\\gamma^{4}\\cdot1+\\gamma^{5}\\cdot0=1.47$",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -69,7 +69,7 @@
     "page_key": 376,
     "order": 8,
     "type": "paragraph",
-    "text": "$s_{1}$ $r_{2}$ $s_{2}$ $r_{3}$ $s_{3}$ $r_{4}$ $s_{4}$ $r_{5}$ $s_{5}$ $r_{6}$ $s_{6}$ $r_{7}$ $s_{7}$ $r_{8}$ $s_{8}$ $r_{9}$",
+    "text": "$s\\_{1}$ $r\\_{2}$ $s\\_{2}$ $r\\_{3}$ $s\\_{3}$ $r\\_{4}$ $s\\_{4}$ $r\\_{5}$ $s\\_{5}$ $r\\_{6}$ $s\\_{6}$ $r\\_{7}$ $s\\_{7}$ $r\\_{8}$ $s\\_{8}$ $r\\_{9}$",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },

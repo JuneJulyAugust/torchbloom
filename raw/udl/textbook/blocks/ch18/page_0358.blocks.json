@@ -22,7 +22,7 @@
     "page_key": 358,
     "order": 3,
     "type": "paragraph",
-    "text": "In the VAE, the encoder $q(\\mathbf{z}|\\mathbf{x})$ approximates the posterior distribution over the latent variables to make the bound tight, and the decoder maximizes this bound (figure 17.10). In diffusion models, the decoder must do all the work since the encoder has no parameters. It makes the bound tighter by both (i) changing its parameters so that the static encoder does approximate the posterior $\\Pr(\\mathbf{z}_{1\\ldots T}|\\mathbf{x},\\phi_{1\\ldots T})$ and (ii) optimizing its own parameters with respect to that bound (see figure 17.6).",
+    "text": "In the VAE, the encoder $q(\\mathbf{z}|\\mathbf{x})$ approximates the posterior distribution over the latent variables to make the bound tight, and the decoder maximizes this bound (figure 17.10). In diffusion models, the decoder must do all the work since the encoder has no parameters. It makes the bound tighter by both (i) changing its parameters so that the static encoder does approximate the posterior $\\Pr(\\mathbf{z}\\_{1\\ldots T}|\\mathbf{x},\\phi\\_{1\\ldots T})$ and (ii) optimizing its own parameters with respect to that bound (see figure 17.6).",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -76,7 +76,7 @@
     "page_key": 358,
     "order": 9,
     "type": "paragraph",
-    "text": "where the first equality follows because all of the information about variable $\\mathbf{z}_{t}$ is encompassed in $\\mathbf{z}_{t-1}$, so the extra conditioning on the data $\\mathbf{x}$ is irrelevant. The second equality is a straightforward application of Bayes' rule. Substituting in this result gives:",
+    "text": "where the first equality follows because all of the information about variable $\\mathbf{z}\\_{t}$ is encompassed in $\\mathbf{z}\\_{t-1}$, so the extra conditioning on the data $\\mathbf{x}$ is irrelevant. The second equality is a straightforward application of Bayes' rule. Substituting in this result gives:",
     "source": "deepseek",
     "confidence": "medium"
   },

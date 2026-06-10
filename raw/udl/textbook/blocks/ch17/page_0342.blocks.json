@@ -4,7 +4,7 @@
     "page_key": 342,
     "order": 1,
     "type": "paragraph",
-    "text": "vanilla VAEs are generally low-quality (figure 17.12a-c). This is partly because of the naïve spherical Gaussian noise model and partly because of the Gaussian models used for the prior and variational posterior. One trick to improve generation quality is to sample from the aggregated posterior $q(\\mathbf{z}|\\boldsymbol{\\theta}) = (1/I) \\sum_{i} q(\\mathbf{z}|x_i, \\boldsymbol{\\theta})$ rather than the prior; this is the average posterior over all samples and is a mixture of Gaussians that is more representative of true distribution in latent space.",
+    "text": "vanilla VAEs are generally low-quality (figure 17.12a-c). This is partly because of the naïve spherical Gaussian noise model and partly because of the Gaussian models used for the prior and variational posterior. One trick to improve generation quality is to sample from the aggregated posterior $q(\\mathbf{z}|\\boldsymbol{\\theta}) = (1/I) \\sum\\_{i} q(\\mathbf{z}|x\\_i, \\boldsymbol{\\theta})$ rather than the prior; this is the average posterior over all samples and is a mixture of Gaussians that is more representative of true distribution in latent space.",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -85,7 +85,7 @@
     "page_key": 342,
     "order": 10,
     "type": "paragraph",
-    "text": "Methods to encourage disentanglement typically add regularization terms to the loss function based on either (i) the posterior $q(\\mathbf{z}|\\mathbf{x},\\boldsymbol{\\theta})$ over the latent variables z, or (ii) the aggregated posterior $q(\\mathbf{z}|\\boldsymbol{\\theta})=(1/I)\\sum_{i}q(\\mathbf{z}|\\mathbf{x}_{i},\\boldsymbol{\\theta})$ :",
+    "text": "Methods to encourage disentanglement typically add regularization terms to the loss function based on either (i) the posterior $q(\\mathbf{z}|\\mathbf{x},\\boldsymbol{\\theta})$ over the latent variables z, or (ii) the aggregated posterior $q(\\mathbf{z}|\\boldsymbol{\\theta})=(1/I)\\sum\\_{i}q(\\mathbf{z}|\\mathbf{x}\\_{i},\\boldsymbol{\\theta})$ :",
     "source": "deepseek",
     "confidence": "medium"
   },

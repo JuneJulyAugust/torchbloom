@@ -14,7 +14,7 @@
     "page_key": 375,
     "order": 2,
     "type": "caption",
-    "text": "Figure 19.1 Markov process. A Markov process consists of a set of states and transition probabilities $\\Pr(s_{t+1}|s_t)$ that define the probability of moving to state $s_{t+1}$ given the current state is $s_t$ . a) The penguin can visit 16 different positions (states) on the ice. b) The ice is slippery, so at each time, it has an equal probability of moving to any adjacent state. For example, in position 6, it has a 25% chance of moving to states 2, 5, 7, and 10. A trajectory $\\tau = [s_1, s_2, s_3, \\ldots]$ from this process consists of a sequence of states.",
+    "text": "Figure 19.1 Markov process. A Markov process consists of a set of states and transition probabilities $\\Pr(s\\_{t+1}|s\\_t)$ that define the probability of moving to state $s\\_{t+1}$ given the current state is $s\\_t$ . a) The penguin can visit 16 different positions (states) on the ice. b) The ice is slippery, so at each time, it has an equal probability of moving to any adjacent state. For example, in position 6, it has a 25% chance of moving to states 2, 5, 7, and 10. A trajectory $\\tau = [s\\_1, s\\_2, s\\_3, \\ldots]$ from this process consists of a sequence of states.",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -32,7 +32,7 @@
     "page_key": 375,
     "order": 4,
     "type": "paragraph",
-    "text": "A Markov process assumes that the world is always in one of a set of possible states. The word Markov implies that the probability of being in a state depends only on the previous state and not on the states before. The changes between states are captured by the transition probabilities $\\Pr(s_{t+1}|s_t)$ of moving to the next state $s_{t+1}$ given the current state $s_t$ , where t indexes the time step. Hence, a Markov process is an evolving system that produces a sequence $s_1$ , $s_2$ , $s_3$ , \u2026 of states (figure 19.1).",
+    "text": "A Markov process assumes that the world is always in one of a set of possible states. The word Markov implies that the probability of being in a state depends only on the previous state and not on the states before. The changes between states are captured by the transition probabilities $\\Pr(s\\_{t+1}|s\\_t)$ of moving to the next state $s\\_{t+1}$ given the current state $s\\_t$ , where t indexes the time step. Hence, a Markov process is an evolving system that produces a sequence $s\\_1$ , $s\\_2$ , $s\\_3$ , … of states (figure 19.1).",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -50,7 +50,7 @@
     "page_key": 375,
     "order": 6,
     "type": "paragraph",
-    "text": "A Markov reward process extends the Markov process to include a distribution $\\Pr(r_{t+1}|s_t)$ over the possible rewards $r_{t+1}$ received at the next time step, given that we are in state $s_t$ . This produces a sequence $s_1, r_2, s_2, r_3, s_3, r_4 \\ldots$ of states and the associated rewards (figure 19.2). The Markov reward process also includes a discount factor $\\gamma \\in (0,1]$ that is used to compute the return $G_t$ at time t:",
+    "text": "A Markov reward process extends the Markov process to include a distribution $\\Pr(r\\_{t+1}|s\\_t)$ over the possible rewards $r\\_{t+1}$ received at the next time step, given that we are in state $s\\_t$ . This produces a sequence $s\\_1, r\\_2, s\\_2, r\\_3, s\\_3, r\\_4 \\ldots$ of states and the associated rewards (figure 19.2). The Markov reward process also includes a discount factor $\\gamma \\in (0,1]$ that is used to compute the return $G\\_t$ at time t:",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },

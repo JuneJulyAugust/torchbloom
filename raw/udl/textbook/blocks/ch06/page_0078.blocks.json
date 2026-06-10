@@ -6,7 +6,7 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "paragraph",
-    "text": "The simplest method in this class is gradient descent. This starts with initial parameters $\\phi = [\\phi_{0}, \\phi_{1}, \\ldots, \\phi_{N}]^{T}$ and iterates two steps: Step 1. Compute the derivatives of the loss with respect to the parameters:"
+    "text": "The simplest method in this class is gradient descent. This starts with initial parameters $\\phi = [\\phi\\_{0}, \\phi\\_{1}, \\ldots, \\phi\\_{N}]^{T}$ and iterates two steps: Step 1. Compute the derivatives of the loss with respect to the parameters:"
   },
   {
     "id": "page_0078-b002",
@@ -60,7 +60,7 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "paragraph",
-    "text": "Consider applying gradient descent to the 1D linear regression model from chapter 2. The model f[x, $\\phi $] maps a scalar input x to a scalar output y and has parameters $\\phi = [\\phi_{0}, \\phi_{1}]^{T}$, which represent the y-intercept and the slope:"
+    "text": "Consider applying gradient descent to the 1D linear regression model from chapter 2. The model f[x, $\\phi $] maps a scalar input x to a scalar output y and has parameters $\\phi = [\\phi\\_{0}, \\phi\\_{1}]^{T}$, which represent the y-intercept and the slope:"
   },
   {
     "id": "page_0078-b008",
@@ -78,7 +78,7 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "paragraph",
-    "text": "Given a dataset $\\lbrace x_{i}, y_{i} \\rbrace $ containing $ I $ input/output pairs, we choose the least squares loss function:"
+    "text": "Given a dataset $\\lbrace x\\_{i}, y\\_{i} \\rbrace $ containing $ I $ input/output pairs, we choose the least squares loss function:"
   },
   {
     "id": "page_0078-b010",

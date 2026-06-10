@@ -14,7 +14,7 @@
     "page_key": 285,
     "order": 2,
     "type": "caption",
-    "text": "Figure 15.8 Wasserstein or earth mover’s distance. a) Consider the discrete distribution $\\Pr[x = i]$. b) We wish to move the probability mass to create the target distribution $q[x = j]$. c) The transport plan $\\mathbf{P}$ identifies how much mass will be moved from $i$ to $j$. For example, the cyan highlighted square $p_{54}$ indicates how much mass will be moved from $i = 5$ to $j = 4$. The elements of the transport plan must be non-negative, the sum over $j$ must be $\\Pr[x = i]$, and the sum over $i$ must be $q[x = j]$. Hence $\\mathbf{P}$ is a joint probability distribution. d) The distance matrix between elements $i$ and $j$. The optimal transport plan $\\mathbf{P}$ minimizes the sum of the pointwise product of $\\mathbf{P}$ and the distance matrix (termed the Wasserstein distance). Hence, the elements of $\\mathbf{P}$ tend to lie close to the diagonal where the distance cost is lowest. Adapted from Hermann (2017).",
+    "text": "Figure 15.8 Wasserstein or earth mover’s distance. a) Consider the discrete distribution $\\Pr[x = i]$. b) We wish to move the probability mass to create the target distribution $q[x = j]$. c) The transport plan $\\mathbf{P}$ identifies how much mass will be moved from $i$ to $j$. For example, the cyan highlighted square $p\\_{54}$ indicates how much mass will be moved from $i = 5$ to $j = 4$. The elements of the transport plan must be non-negative, the sum over $j$ must be $\\Pr[x = i]$, and the sum over $i$ must be $q[x = j]$. Hence $\\mathbf{P}$ is a joint probability distribution. d) The distance matrix between elements $i$ and $j$. The optimal transport plan $\\mathbf{P}$ minimizes the sum of the pointwise product of $\\mathbf{P}$ and the distance matrix (termed the Wasserstein distance). Hence, the elements of $\\mathbf{P}$ tend to lie close to the diagonal where the distance cost is lowest. Adapted from Hermann (2017).",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -42,7 +42,7 @@
     "page_key": 285,
     "order": 5,
     "type": "paragraph",
-    "text": "where p contains the vectorized elements $P_{ij}$ that determine the amount of mass moved, c contains the distances, $\\mathbf{A}\\mathbf{p} = \\mathbf{b}$ contains the initial distribution constraints, and $\\mathbf{p} \\geq 0$ ensures the masses moved are non-negative.[^1]",
+    "text": "where p contains the vectorized elements $P\\_{ij}$ that determine the amount of mass moved, c contains the distances, $\\mathbf{A}\\mathbf{p} = \\mathbf{b}$ contains the initial distribution constraints, and $\\mathbf{p} \\geq 0$ ensures the masses moved are non-negative.[^1]",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -60,7 +60,7 @@
     "page_key": 285,
     "order": 7,
     "type": "equation",
-    "text": "$$\nD_{w}\\left[\\Pr[x] \\,\\Vert\\, q[x]\\right]\n= \\max_{\\mathbf{f}}\\left[\\sum_{i}\\Pr[x=i]f_{i}-\\sum_{j}q[x=j]f_{j}\\right]\n\\qquad (15.12)\n$$",
+    "text": "$$\nD_{w}\\left[\\Pr[x] \\Vert q[x]\\right]\n= \\max_{\\mathbf{f}}\\left[\\sum_{i}\\Pr[x=i]f_{i}-\\sum_{j}q[x=j]f_{j}\\right]\n\\qquad (15.12)\n$$",
     "source": "codex-fusion",
     "confidence": "medium"
   },

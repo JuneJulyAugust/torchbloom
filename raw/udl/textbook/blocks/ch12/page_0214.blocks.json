@@ -4,7 +4,7 @@
     "page_key": 214,
     "order": 1,
     "type": "paragraph",
-    "text": "Relative positional encodings: The input to a self-attention mechanism may be an entire sentence, many sentences, or just a fragment of a sentence, and the absolute position of a word is much less important than the relative position between two words. Of course, this can be recovered if the system knows the absolute position of both, but relative positional encodings encode this information directly. Each element of the attention matrix corresponds to a particular offset between key position $a$ and query position $b$. Relative positional encodings learn a parameter $\\pi_{ab}$ for each offset and use this to modify the attention matrix by adding these values, multiplying them, or using them to alter the attention matrix in some other way.",
+    "text": "Relative positional encodings: The input to a self-attention mechanism may be an entire sentence, many sentences, or just a fragment of a sentence, and the absolute position of a word is much less important than the relative position between two words. Of course, this can be recovered if the system knows the absolute position of both, but relative positional encodings encode this information directly. Each element of the attention matrix corresponds to a particular offset between key position $a$ and query position $b$. Relative positional encodings learn a parameter $\\pi\\_{ab}$ for each offset and use this to modify the attention matrix by adding these values, multiplying them, or using them to alter the attention matrix in some other way.",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -22,7 +22,7 @@
     "page_key": 214,
     "order": 3,
     "type": "paragraph",
-    "text": "The dot products in the attention computation can have large magnitudes and move the arguments to the softmax function into a region where the largest value completely dominates. Small changes to the inputs to the softmax function now have little effect on the output (i.e., the gradients are very small), making the model difficult to train. To prevent this, the dot products are scaled by the square root of the dimension $D_{q}$ of the queries and keys (i.e., the number of rows in $\\Omega_{q}$ and $\\Omega_{k}$ , which must be the same):",
+    "text": "The dot products in the attention computation can have large magnitudes and move the arguments to the softmax function into a region where the largest value completely dominates. Small changes to the inputs to the softmax function now have little effect on the output (i.e., the gradients are very small), making the model difficult to train. To prevent this, the dot products are scaled by the square root of the dimension $D\\_{q}$ of the queries and keys (i.e., the number of rows in $\\Omega\\_{q}$ and $\\Omega\\_{k}$ , which must be the same):",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -97,7 +97,7 @@
     "page_key": 214,
     "order": 11,
     "type": "paragraph",
-    "text": "where we have different parameters $\\lbrace \\beta_{vh},\\Omega_{vh}\\rbrace$ , $\\lbrace \\beta_{qh},\\Omega_{qh}\\rbrace$ , and $\\lbrace \\beta_{kh},\\Omega_{kh}\\rbrace$ for each head. Typically, if the dimension of the inputs $x_{m}$ is D and there are H heads, the values, queries, and keys will all be of size $D/H$ , as this allows for an efficient implementation. The outputs of these self-attention mechanisms are vertically concatenated, and another linear transform $\\Omega_{c}$ is applied to combine them (figure 12.6):",
+    "text": "where we have different parameters $\\lbrace \\beta\\_{vh},\\Omega\\_{vh}\\rbrace$ , $\\lbrace \\beta\\_{qh},\\Omega\\_{qh}\\rbrace$ , and $\\lbrace \\beta\\_{kh},\\Omega\\_{kh}\\rbrace$ for each head. Typically, if the dimension of the inputs $x\\_{m}$ is D and there are H heads, the values, queries, and keys will all be of size $D/H$ , as this allows for an efficient implementation. The outputs of these self-attention mechanisms are vertically concatenated, and another linear transform $\\Omega\\_{c}$ is applied to combine them (figure 12.6):",
     "source": "deepseek+paddle",
     "confidence": "high"
   }

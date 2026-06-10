@@ -13,7 +13,7 @@
     "page_key": 362,
     "order": 2,
     "type": "paragraph",
-    "text": "where we have used the fact that $\\sqrt{\\alpha_t}/\\sqrt{\\alpha_{t-1}}=\\sqrt{1-\\beta_t}$ between the second and third lines. Simplifying further, we get:",
+    "text": "where we have used the fact that $\\sqrt{\\alpha\\_t}/\\sqrt{\\alpha\\_{t-1}}=\\sqrt{1-\\beta\\_t}$ between the second and third lines. Simplifying further, we get:",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -31,7 +31,7 @@
     "page_key": 362,
     "order": 4,
     "type": "paragraph",
-    "text": "where we have multiplied the numerator and denominator of the first term by $\\sqrt{1-\\beta_t}$ between lines two and three, multiplied out the terms, and simplified the numerator in the first term between lines three and four. Substituting this back into the loss function (equation 18.29), we have:",
+    "text": "where we have multiplied the numerator and denominator of the first term by $\\sqrt{1-\\beta\\_t}$ between lines two and three, multiplied out the terms, and simplified the numerator in the first term between lines three and four. Substituting this back into the loss function (equation 18.29), we have:",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -58,7 +58,7 @@
     "page_key": 362,
     "order": 7,
     "type": "paragraph",
-    "text": "Now we replace the model $\\hat{\\mathbf{z}}_{t-1}=\\mathbf{f}_t[\\mathbf{z}_t,\\phi_t]$ with a new model $\\hat{\\boldsymbol{\\epsilon}}=\\mathbf{g}_t[\\mathbf{z}_t,\\phi_t]$, which predicts the noise $\\boldsymbol{\\epsilon}$ that was mixed with x to create $\\mathbf{z}_t$:",
+    "text": "Now we replace the model $\\hat{\\mathbf{z}}\\_{t-1}=\\mathbf{f}\\_t[\\mathbf{z}\\_t,\\phi\\_t]$ with a new model $\\hat{\\boldsymbol{\\epsilon}}=\\mathbf{g}\\_t[\\mathbf{z}\\_t,\\phi\\_t]$, which predicts the noise $\\boldsymbol{\\epsilon}$ that was mixed with x to create $\\mathbf{z}\\_t$:",
     "source": "deepseek",
     "confidence": "medium"
   },

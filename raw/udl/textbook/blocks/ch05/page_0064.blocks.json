@@ -15,7 +15,7 @@
     "source": "deepseek",
     "confidence": "medium",
     "type": "equation",
-    "latex": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}},\\hat{\\sigma}^2\n&= \\underset{\\boldsymbol{\\phi},\\sigma^2}{\\mathop{\\mathrm{arg\\,min}}}\\left[\n-\\sum_{i=1}^{I}\\log\\left[\n\\frac{1}{\\sqrt{2\\pi\\sigma^2}}\\exp\\left[\n-\\frac{(y_i-f[\\mathbf{x}_i,\\boldsymbol{\\phi}])^2}{2\\sigma^2}\n\\right]\n\\right]\n\\right]\n\\end{aligned} \\qquad (5.13)"
+    "latex": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}},\\hat{\\sigma}^2\n&= \\underset{\\boldsymbol{\\phi},\\sigma^2}{\\mathop{\\mathrm{argmin}}}\\left[\n-\\sum_{i=1}^{I}\\log\\left[\n\\frac{1}{\\sqrt{2\\pi\\sigma^2}}\\exp\\left[\n-\\frac{(y_i-f[\\mathbf{x}_i,\\boldsymbol{\\phi}])^2}{2\\sigma^2}\n\\right]\n\\right]\n\\right]\n\\end{aligned} \\qquad (5.13)"
   },
   {
     "id": "page_0064-b003",
@@ -42,7 +42,7 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "paragraph",
-    "text": "The model above assumes that the variance of the data is constant everywhere. However, this might be unrealistic. When the uncertainty of the model varies as a function of the input data, we refer to this as heteroscedastic (as opposed to homoscedastic, where the uncertainty is constant). A simple way to model this is to train a neural network $ f[x, \\phi]$ that computes both the mean and the variance. For example, consider a shallow network with two outputs. We denote the first output as $ f_{1}[x, \\phi]$ and use this to predict the mean, and we denote the second output as $ f_{2}[x, \\phi]$ and use it to predict the variance. There is one complication; the variance must be positive, but we can't guarantee that the network will always produce a positive output. To ensure that the computed variance is positive, we pass the second network output through a function that maps an arbitrary value to a positive one. A suitable choice is the squaring function, giving:"
+    "text": "The model above assumes that the variance of the data is constant everywhere. However, this might be unrealistic. When the uncertainty of the model varies as a function of the input data, we refer to this as heteroscedastic (as opposed to homoscedastic, where the uncertainty is constant). A simple way to model this is to train a neural network $ f[x, \\phi]$ that computes both the mean and the variance. For example, consider a shallow network with two outputs. We denote the first output as $ f\\_{1}[x, \\phi]$ and use this to predict the mean, and we denote the second output as $ f\\_{2}[x, \\phi]$ and use it to predict the variance. There is one complication; the variance must be positive, but we can't guarantee that the network will always produce a positive output. To ensure that the computed variance is positive, we pass the second network output through a function that maps an arbitrary value to a positive one. A suitable choice is the squaring function, giving:"
   },
   {
     "id": "page_0064-b006",
@@ -69,7 +69,7 @@
     "source": "deepseek",
     "confidence": "medium",
     "type": "equation",
-    "latex": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}}\n&= \\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{arg\\,min}}}\\left[\n-\\sum_{i=1}^{I}\\left(\n\\log\\left[\\frac{1}{\\sqrt{2\\pi f_2[\\mathbf{x}_i,\\boldsymbol{\\phi}]^2}}\\right] -\n\\frac{(y_i-f_1[\\mathbf{x}_i,\\boldsymbol{\\phi}])^2}{2f_2[\\mathbf{x}_i,\\boldsymbol{\\phi}]^2}\n\\right)\n\\right]\n\\end{aligned} \\qquad (5.15)"
+    "latex": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}}\n&= \\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{argmin}}}\\left[\n-\\sum_{i=1}^{I}\\left(\n\\log\\left[\\frac{1}{\\sqrt{2\\pi f_2[\\mathbf{x}_i,\\boldsymbol{\\phi}]^2}}\\right] -\n\\frac{(y_i-f_1[\\mathbf{x}_i,\\boldsymbol{\\phi}])^2}{2f_2[\\mathbf{x}_i,\\boldsymbol{\\phi}]^2}\n\\right)\n\\right]\n\\end{aligned} \\qquad (5.15)"
   },
   {
     "id": "page_0064-b009",

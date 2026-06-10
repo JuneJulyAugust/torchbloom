@@ -86,7 +86,7 @@
     "page_key": 391,
     "order": 10,
     "type": "paragraph",
-    "text": "where $\\mathbf{s}_{it}$ is the state at time $t$ in episode $i$, and $a_{it}$ is the action taken at time $t$ in episode $i$. Note that the terms relating to the state evolution $\\Pr(\\mathbf{s}_{t+1}|\\mathbf{s}_t,a_t)$ disappear from this formulation. It follows that this parameter update does not assume a Markov time evolution process.",
+    "text": "where $\\mathbf{s}\\_{it}$ is the state at time $t$ in episode $i$, and $a\\_{it}$ is the action taken at time $t$ in episode $i$. Note that the terms relating to the state evolution $\\Pr(\\mathbf{s}\\_{t+1}|\\mathbf{s}\\_t,a\\_t)$ disappear from this formulation. It follows that this parameter update does not assume a Markov time evolution process.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },

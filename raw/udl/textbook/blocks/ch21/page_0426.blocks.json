@@ -49,7 +49,7 @@
     "page_key": 426,
     "order": 6,
     "type": "paragraph",
-    "text": "Even if a system is transparent, this does not imply that we can understand how a decision is made or what information this decision is based on. Deep networks may contain billions of parameters, so there is no way we can understand how they work based on examination alone. However, in some jurisdictions, the public may have a right to an explanation. Article 22 of the EU General Data Protection Regulation suggests all data subjects should have the right to \u201cobtain an explanation of the decision reached\u201d in cases where a decision is based solely on automated processes. [^1]",
+    "text": "Even if a system is transparent, this does not imply that we can understand how a decision is made or what information this decision is based on. Deep networks may contain billions of parameters, so there is no way we can understand how they work based on examination alone. However, in some jurisdictions, the public may have a right to an explanation. Article 22 of the EU General Data Protection Regulation suggests all data subjects should have the right to “obtain an explanation of the decision reached” in cases where a decision is based solely on automated processes. [^1]",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -58,7 +58,7 @@
     "page_key": 426,
     "order": 7,
     "type": "paragraph",
-    "text": "These difficulties have led to the sub-field of explainable AI. One moderately successful area is producing local explanations. Although we can\u2019t explain the entire system, that are fully understandable to their users or even their creators. There is also an ongoing debate about what it means for a system to be explainable, understandable, or interpretable (Erasmus et al., 2021); there is currently no concrete definition of these concepts. See Molnar (2022) for more information.",
+    "text": "These difficulties have led to the sub-field of explainable AI. One moderately successful area is producing local explanations. Although we can’t explain the entire system, that are fully understandable to their users or even their creators. There is also an ongoing debate about what it means for a system to be explainable, understandable, or interpretable (Erasmus et al., 2021); there is currently no concrete definition of these concepts. See Molnar (2022) for more information.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },

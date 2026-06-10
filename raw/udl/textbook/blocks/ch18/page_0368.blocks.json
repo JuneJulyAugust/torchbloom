@@ -4,7 +4,7 @@
     "page_key": 368,
     "order": 1,
     "type": "paragraph",
-    "text": "of the brown normal distributions in figure 18.7). This particularly improves the results when sampling with fewer steps. Second, it's possible to modify the noise schedule in the forward process so that $\\beta_{t}$ varies at each step, and this can also improve results.",
+    "text": "of the brown normal distributions in figure 18.7). This particularly improves the results when sampling with fewer steps. Second, it's possible to modify the noise schedule in the forward process so that $\\beta\\_{t}$ varies at each step, and this can also improve results.",
     "source": "deepseek",
     "confidence": "medium"
   },

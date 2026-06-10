@@ -32,7 +32,7 @@
     "page_key": 337,
     "order": 4,
     "type": "paragraph",
-    "text": "where $\\mathbf{z}_{n}^{*}$ is the $n^{th}$ sample from $q(\\mathbf{z}|\\mathbf{x},\\boldsymbol{\\theta})$. This is known as a Monte Carlo estimate. For a very approximate estimate, we can just use a single sample $\\mathbf{z}^{*}$ from $q(\\mathbf{z}|\\mathbf{x},\\boldsymbol{\\theta})$:",
+    "text": "where $\\mathbf{z}\\_{n}^{*}$ is the $n^{th}$ sample from $q(\\mathbf{z}|\\mathbf{x},\\boldsymbol{\\theta})$. This is known as a Monte Carlo estimate. For a very approximate estimate, we can just use a single sample $\\mathbf{z}^{*}$ from $q(\\mathbf{z}|\\mathbf{x},\\boldsymbol{\\theta})$:",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -50,7 +50,7 @@
     "page_key": 337,
     "order": 6,
     "type": "paragraph",
-    "text": "The second term is the KL divergence between the variational distribution $q(\\mathbf{z}|\\mathbf{x},\\boldsymbol{\\theta})=\\mathrm{Norm}_{\\mathbf{Z}}[\\boldsymbol{\\mu},\\boldsymbol{\\Sigma}]$ and the prior $\\Pr(\\mathbf{z})=\\mathrm{Norm}_{\\mathbf{Z}}[\\boldsymbol{0},\\mathbf{I}]$. The KL divergence between two normal distributions can be calculated in closed form. For the special case where one distribution has parameters $\\boldsymbol{\\mu},\\boldsymbol{\\Sigma}$ and the other is a standard normal, it is given by:",
+    "text": "The second term is the KL divergence between the variational distribution $q(\\mathbf{z}|\\mathbf{x},\\boldsymbol{\\theta})=\\mathrm{Norm}\\_{\\mathbf{Z}}[\\boldsymbol{\\mu},\\boldsymbol{\\Sigma}]$ and the prior $\\Pr(\\mathbf{z})=\\mathrm{Norm}\\_{\\mathbf{Z}}[\\boldsymbol{0},\\mathbf{I}]$. The KL divergence between two normal distributions can be calculated in closed form. For the special case where one distribution has parameters $\\boldsymbol{\\mu},\\boldsymbol{\\Sigma}$ and the other is a standard normal, it is given by:",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -68,7 +68,7 @@
     "page_key": 337,
     "order": 8,
     "type": "paragraph",
-    "text": "where $D_{\\mathbf{z}}$ is the dimensionality of the latent space.",
+    "text": "where $D\\_{\\mathbf{z}}$ is the dimensionality of the latent space.",
     "source": "deepseek",
     "confidence": "medium"
   },

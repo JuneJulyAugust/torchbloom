@@ -13,7 +13,7 @@
     "page_key": 307,
     "order": 2,
     "type": "paragraph",
-    "text": "To learn the distribution, we find parameters $\\phi$ that maximize the likelihood of the training data $\\lbrace x_{i}\\rbrace _{i=1}^{I}$ or equivalently minimize the negative log-likelihood:",
+    "text": "To learn the distribution, we find parameters $\\phi$ that maximize the likelihood of the training data $\\lbrace x\\_{i}\\rbrace \\_{i=1}^{I}$ or equivalently minimize the negative log-likelihood:",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -22,7 +22,7 @@
     "page_key": 307,
     "order": 3,
     "type": "equation",
-    "text": "$$\n\\begin{aligned}\n\\hat{\\phi}\n&=\\underset{\\phi}{\\mathop{\\mathrm{arg\\,max}}}\\left[\\prod_{i=1}^{I}\\Pr(x_{i}|\\boldsymbol{\\phi})\\right]\\\\\n&=\\underset{\\phi}{\\mathop{\\mathrm{arg\\,min}}}\\left[\\sum_{i=1}^{I}-\\log\\left[\\Pr(x_{i}|\\boldsymbol{\\phi})\\right]\\right]\\\\\n&=\\underset{\\phi}{\\mathop{\\mathrm{arg\\,min}}}\\left[\\sum_{i=1}^{I}\\log\\left|\\frac{\\partial\\mathrm{f}[z_{i},\\boldsymbol{\\phi}]}{\\partial z_{i}}\\right|-\\log\\left[\\Pr(z_{i})\\right]\\right]\n\\end{aligned}\n\\qquad (16.2)\n$$",
+    "text": "$$\n\\begin{aligned}\n\\hat{\\phi}\n&=\\underset{\\phi}{\\mathop{\\mathrm{argmax}}}\\left[\\prod_{i=1}^{I}\\Pr(x_{i}|\\boldsymbol{\\phi})\\right]\\\\\n&=\\underset{\\phi}{\\mathop{\\mathrm{argmin}}}\\left[\\sum_{i=1}^{I}-\\log\\left[\\Pr(x_{i}|\\boldsymbol{\\phi})\\right]\\right]\\\\\n&=\\underset{\\phi}{\\mathop{\\mathrm{argmin}}}\\left[\\sum_{i=1}^{I}\\log\\left|\\frac{\\partial\\mathrm{f}[z_{i},\\boldsymbol{\\phi}]}{\\partial z_{i}}\\right|-\\log\\left[\\Pr(z_{i})\\right]\\right]\n\\end{aligned}\n\\qquad (16.2)\n$$",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -85,7 +85,7 @@
     "page_key": 307,
     "order": 10,
     "type": "paragraph",
-    "text": "where $\\mathbf{z} = \\mathbf{f}^{-1}[x, \\phi]$ is the latent variable $z$ that created $\\mathbf{x}$. The first term is the inverse of the determinant of the $D \\times D$ Jacobian matrix $\\partial\\mathbf{f}[z, \\phi]/\\partial z$, which contains elements $\\partial f_j[z, \\phi]/\\partial z_i$ at position $(i,j)$. Just as the absolute derivative measured the change of area at a point on a 1D function when the function was applied, the absolute determinant measures the change in volume at a point in the multivariate function. The second term is the probability of the latent variable under the base density.",
+    "text": "where $\\mathbf{z} = \\mathbf{f}^{-1}[x, \\phi]$ is the latent variable $z$ that created $\\mathbf{x}$. The first term is the inverse of the determinant of the $D \\times D$ Jacobian matrix $\\partial\\mathbf{f}[z, \\phi]/\\partial z$, which contains elements $\\partial f\\_j[z, \\phi]/\\partial z\\_i$ at position $(i,j)$. Just as the absolute derivative measured the change of area at a point on a 1D function when the function was applied, the absolute determinant measures the change in volume at a point in the multivariate function. The second term is the probability of the latent variable under the base density.",
     "source": "deepseek",
     "confidence": "medium"
   }

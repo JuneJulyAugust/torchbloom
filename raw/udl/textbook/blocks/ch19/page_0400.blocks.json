@@ -22,7 +22,7 @@
     "page_key": 400,
     "order": 3,
     "type": "exercise",
-    "text": "Problem 19.2* Prove the policy improvement theorem. Consider changing from policy $\\pi$ to policy $\\pi^{\\prime}$, where for state $s_t$ the new policy $\\pi^{\\prime}$ chooses the action that maximizes the expected return:",
+    "text": "Problem 19.2* Prove the policy improvement theorem. Consider changing from policy $\\pi$ to policy $\\pi^{\\prime}$, where for state $s\\_t$ the new policy $\\pi^{\\prime}$ chooses the action that maximizes the expected return:",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -31,7 +31,7 @@
     "page_key": 400,
     "order": 4,
     "type": "equation",
-    "text": "$$\n\\pi^{\\prime}[a_{t}|s_{t}]\\leftarrow\\underset{a_{t}}{\\mathop{\\mathrm{arg\\,max}}}\\Bigg[r[s_{t},a_{t}]+\\gamma\\cdot\\sum_{s_{t+1}}\\Pr(s_{t+1}|s_{t},a_{t})v[s_{t+1}|\\pi]\\Bigg]. \\quad (19.43)\n$$",
+    "text": "$$\n\\pi^{\\prime}[a_{t}|s_{t}]\\leftarrow\\underset{a_{t}}{\\mathop{\\mathrm{argmax}}}\\Bigg[r[s_{t},a_{t}]+\\gamma\\cdot\\sum_{s_{t+1}}\\Pr(s_{t+1}|s_{t},a_{t})v[s_{t+1}|\\pi]\\Bigg]. \\quad (19.43)\n$$",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -40,7 +40,7 @@
     "page_key": 400,
     "order": 5,
     "type": "paragraph",
-    "text": "and for all other states, the policies are the same. Show that the value $v[s_{t}|\\pi]$ for the original policy must be less than or equal to $v[s_{t}|\\pi']$ for the new policy (notation indicates using $\\pi'$ for state $s_{t}$ and $\\pi$ thereafter):",
+    "text": "and for all other states, the policies are the same. Show that the value $v[s\\_{t}|\\pi]$ for the original policy must be less than or equal to $v[s\\_{t}|\\pi']$ for the new policy (notation indicates using $\\pi'$ for state $s\\_{t}$ and $\\pi$ thereafter):",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -58,7 +58,7 @@
     "page_key": 400,
     "order": 7,
     "type": "paragraph",
-    "text": "Hint: Start by writing the term $v[s_{t+1}|\\pi]$ in terms of the new policy.",
+    "text": "Hint: Start by writing the term $v[s\\_{t+1}|\\pi]$ in terms of the new policy.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -139,7 +139,7 @@
     "page_key": 400,
     "order": 16,
     "type": "paragraph",
-    "text": "where $\\left\\|\\bullet\\right\\|_{\\infty}$ represents the $\\ell_{\\infty}$ norm. It follows that a fixed point will exist by Banach's theorem and that the updates will eventually converge.",
+    "text": "where $\\left\\|\\bullet\\right\\|\\_{\\infty}$ represents the $\\ell\\_{\\infty}$ norm. It follows that a fixed point will exist by Banach's theorem and that the updates will eventually converge.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },

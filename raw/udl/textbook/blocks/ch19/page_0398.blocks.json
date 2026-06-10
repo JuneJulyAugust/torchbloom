@@ -4,7 +4,7 @@
     "page_key": 398,
     "order": 1,
     "type": "paragraph",
-    "text": "The original Q-Learning paper concatenated four frames so the network could observe the velocities of objects and make the underlying process closer to fully observable. Hausknecht & Stone (2015) introduced deep recurrent Q-learning, which used a recurrent network architecture that only ingested a single frame at a time because it could \u201cremember\u201d the previous states. Van Hasselt (2010) identified the systematic overestimation of the state values due to the max operation and proposed double Q-Learning in which two models are trained simultaneously to remedy this. This was subsequently applied in the context of deep Q-learning (Van Hasselt et al., 2016), although its efficacy has since been questioned (Hessel et al., 2018). Wang et al. (2016) introduced deep dueling networks in which two heads of the same network predict (i) the state value and (ii) the advantage (relative value) of each action. The intuition here is that sometimes it is time, and it doesn\u2019t matter much which action is taken, and decoupling these estimates improves stability.",
+    "text": "The original Q-Learning paper concatenated four frames so the network could observe the velocities of objects and make the underlying process closer to fully observable. Hausknecht & Stone (2015) introduced deep recurrent Q-learning, which used a recurrent network architecture that only ingested a single frame at a time because it could “remember” the previous states. Van Hasselt (2010) identified the systematic overestimation of the state values due to the max operation and proposed double Q-Learning in which two models are trained simultaneously to remedy this. This was subsequently applied in the context of deep Q-learning (Van Hasselt et al., 2016), although its efficacy has since been questioned (Hessel et al., 2018). Wang et al. (2016) introduced deep dueling networks in which two heads of the same network predict (i) the state value and (ii) the advantage (relative value) of each action. The intuition here is that sometimes it is time, and it doesn’t matter much which action is taken, and decoupling these estimates improves stability.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -22,7 +22,7 @@
     "page_key": 398,
     "order": 3,
     "type": "paragraph",
-    "text": "Policy gradients: Williams (1992) introduced the REINFORCE algorithm. The term \u201cpolicy gradient method\u201d dates to Sutton et al. (1999). Konda & Tsitsiklis (1999) introduced the actor-critic algorithm. Removing the variance by using different baselines is discussed in Greensmith et al. (2004) and Peters & Schaal (2008). It has since been argued that the value baseline primarily reduces the aggressiveness of the updates rather than their variance (Mei et al., 2022).",
+    "text": "Policy gradients: Williams (1992) introduced the REINFORCE algorithm. The term “policy gradient method” dates to Sutton et al. (1999). Konda & Tsitsiklis (1999) introduced the actor-critic algorithm. Removing the variance by using different baselines is discussed in Greensmith et al. (2004) and Peters & Schaal (2008). It has since been argued that the value baseline primarily reduces the aggressiveness of the updates rather than their variance (Mei et al., 2022).",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -58,7 +58,7 @@
     "page_key": 398,
     "order": 7,
     "type": "paragraph",
-    "text": "Actor-critic: In the actor-critic algorithm (Konda & Tsitsiklis, 1999) described in section 19.6, the critic used a 1-step estimator. It\u2019s also possible to use k-step estimators (in which we",
+    "text": "Actor-critic: In the actor-critic algorithm (Konda & Tsitsiklis, 1999) described in section 19.6, the critic used a 1-step estimator. It’s also possible to use k-step estimators (in which we",
     "source": "deepseek+paddle",
     "confidence": "medium"
   }

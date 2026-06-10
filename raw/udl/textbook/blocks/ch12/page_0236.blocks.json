@@ -69,7 +69,7 @@
     "page_key": 236,
     "order": 8,
     "type": "paragraph",
-    "text": "This has led to the idea of multiplying out the quadratic component in the numerator of equation 12.16 and retaining only some of the terms. For example, Ke et al. (2021) decouple or untie the content and position information by retaining only the content-content and position-position terms and using different projection matrices $\\Omega_{*}$ for each.",
+    "text": "This has led to the idea of multiplying out the quadratic component in the numerator of equation 12.16 and retaining only some of the terms. For example, Ke et al. (2021) decouple or untie the content and position information by retaining only the content-content and position-position terms and using different projection matrices $\\Omega\\_{*}$ for each.",
     "source": "deepseek+paddle",
     "confidence": "high"
   },

@@ -49,7 +49,7 @@
     "page_key": 413,
     "order": 6,
     "type": "paragraph",
-    "text": "Section 20.3.4 reviewed the finding of Fort & Scherlis (2019) that the curvature of the loss surface is unusually positive when the $\\ell_{2}$ norm of the weights lies within a certain range. The same authors provided evidence that generalization is also good when the $\\ell_{2}$ weight norm falls within this Goldilocks zone (figure 20.12). This is perhaps unsurprising. The norm of the weights is (indirectly) related to the Lipschitz constant of the model. If this norm is too small, then the model will not be able to change fast enough to capture the variation in the underlying function. If the norm is too large, then the model will be unnecessarily variable between training points and will not interpolate smoothly.",
+    "text": "Section 20.3.4 reviewed the finding of Fort & Scherlis (2019) that the curvature of the loss surface is unusually positive when the $\\ell\\_{2}$ norm of the weights lies within a certain range. The same authors provided evidence that generalization is also good when the $\\ell\\_{2}$ weight norm falls within this Goldilocks zone (figure 20.12). This is perhaps unsurprising. The norm of the weights is (indirectly) related to the Lipschitz constant of the model. If this norm is too small, then the model will not be able to change fast enough to capture the variation in the underlying function. If the norm is too large, then the model will be unnecessarily variable between training points and will not interpolate smoothly.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },

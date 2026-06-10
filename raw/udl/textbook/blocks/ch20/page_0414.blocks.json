@@ -14,7 +14,7 @@
     "page_key": 414,
     "order": 2,
     "type": "caption",
-    "text": "Figure 20.12 and Figure 20.13 Weight norm and generalization. Figure 20.12 shows that a network trained on MNIST generalizes well only near a small range around the radius defined by Xavier initialization. Figure 20.13 shows grokking behavior: when parameters are initialized with an $\\ell_2$ norm much larger than He initialization, training and especially generalization take longer. Adapted from Fort & Scherlis (2019) and Liu et al. (2023c).",
+    "text": "Figure 20.12 and Figure 20.13 Weight norm and generalization. Figure 20.12 shows that a network trained on MNIST generalizes well only near a small range around the radius defined by Xavier initialization. Figure 20.13 shows grokking behavior: when parameters are initialized with an $\\ell\\_2$ norm much larger than He initialization, training and especially generalization take longer. Adapted from Fort & Scherlis (2019) and Liu et al. (2023c).",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -50,7 +50,7 @@
     "page_key": 414,
     "order": 6,
     "type": "paragraph",
-    "text": "Goodfellow et al. (2015a) showed that deep learning models are susceptible to adversarial attacks. Consider perturbing an image that is correctly classified by the network as \u201cdog\u201d so that the probability of the correct class decreases as fast as possible un-",
+    "text": "Goodfellow et al. (2015a) showed that deep learning models are susceptible to adversarial attacks. Consider perturbing an image that is correctly classified by the network as “dog” so that the probability of the correct class decreases as fast as possible un-",
     "source": "deepseek+paddle",
     "confidence": "medium"
   }

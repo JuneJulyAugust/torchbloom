@@ -14,7 +14,7 @@
     "page_key": 322,
     "order": 2,
     "type": "caption",
-    "text": "Figure 16.14 Approximating density models. a) Training data. b) Usually, we modify the flow model parameters to minimize the KL divergence from the training data to the flow model. This is equivalent to maximum likelihood fitting (section 5.7). c) Alternatively, we can modify the flow parameters $\\phi$ to minimize the KL divergence from the flow samples $x_{i} = f[z_{i}, \\phi]$ to d) a target density.",
+    "text": "Figure 16.14 Approximating density models. a) Training data. b) Usually, we modify the flow model parameters to minimize the KL divergence from the training data to the flow model. This is equivalent to maximum likelihood fitting (section 5.7). c) Alternatively, we can modify the flow parameters $\\phi$ to minimize the KL divergence from the flow samples $x\\_{i} = f[z\\_{i}, \\phi]$ to d) a target density.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },

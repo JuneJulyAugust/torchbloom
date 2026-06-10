@@ -33,7 +33,7 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "paragraph",
-    "text": "The mechanism for introducing randomness is simple. At each iteration, the algorithm chooses a random subset of the training data and computes the gradient from these examples alone. This subset is known as a minibatch or batch for short. The update rule for the model parameters $\\phi_{t}$ at iteration t is hence:"
+    "text": "The mechanism for introducing randomness is simple. At each iteration, the algorithm chooses a random subset of the training data and computes the gradient from these examples alone. This subset is known as a minibatch or batch for short. The update rule for the model parameters $\\phi\\_{t}$ at iteration t is hence:"
   },
   {
     "id": "page_0085-b005",
@@ -51,7 +51,7 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "paragraph",
-    "text": "where $\\mathcal{B}_{t}$ is a set containing the indices of the input/output pairs in the current batch and, as before, $\\ell_{i}$ is the loss due to the $ t^{th}$ pair. The term $\\alpha $ is the learning rate, and together with the gradient magnitude, determines the distance moved at each iteration. The learning rate is chosen at the start of the procedure and does not depend on the local properties of the function."
+    "text": "where $\\mathcal{B}\\_{t}$ is a set containing the indices of the input/output pairs in the current batch and, as before, $\\ell\\_{i}$ is the loss due to the $ t^{th}$ pair. The term $\\alpha $ is the learning rate, and together with the gradient magnitude, determines the distance moved at each iteration. The learning rate is chosen at the start of the procedure and does not depend on the local properties of the function."
   },
   {
     "id": "page_0085-b007",

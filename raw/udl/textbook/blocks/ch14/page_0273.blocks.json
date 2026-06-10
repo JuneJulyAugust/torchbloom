@@ -14,7 +14,7 @@
     "page_key": 273,
     "order": 2,
     "type": "caption",
-    "text": "Figure 14.4 Inception score. a) A pretrained network classifies the generated images. If the images are realistic, the resulting class probabilities  $\\Pr[y \\mid x_{i}^{*}]$  should be peaked at the correct class. b) If the model generates all classes equally frequently, the marginal (average) class probabilities should be flat. The inception score measures the average distance between the distributions in (a) and the distribution in (b). Images from Deng et al. (2009).",
+    "text": "Figure 14.4 Inception score. a) A pretrained network classifies the generated images. If the images are realistic, the resulting class probabilities  $\\Pr[y \\mid x\\_{i}^{*}]$  should be peaked at the correct class. b) If the model generates all classes equally frequently, the marginal (average) class probabilities should be flat. The inception score measures the average distance between the distributions in (a) and the distribution in (b). Images from Deng et al. (2009).",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -23,7 +23,7 @@
     "page_key": 273,
     "order": 3,
     "type": "paragraph",
-    "text": "The inception score measures the average distance between these two distributions over the generated set. This distance will be large if one is peaked and the other flat (figure 14.4). More precisely, it returns the exponential of the expected KL-divergence between  $\\Pr[y \\mid \\mathbf{x}_{i}^{*}]$  and  $\\Pr[y]$ :",
+    "text": "The inception score measures the average distance between these two distributions over the generated set. This distance will be large if one is peaked and the other flat (figure 14.4). More precisely, it returns the exponential of the expected KL-divergence between  $\\Pr[y \\mid \\mathbf{x}\\_{i}^{*}]$  and  $\\Pr[y]$ :",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -32,7 +32,7 @@
     "page_key": 273,
     "order": 4,
     "type": "equation",
-    "text": "$$\n\\mathrm{IS}\n= \\exp\\left[\\frac{1}{I}\\sum_{i=1}^{I}D_{KL}\\left[\\Pr[y\\mid\\mathbf{x}_{i}^{*}]\\,\\Vert\\,\\Pr[y]\\right]\\right]\n\\qquad (14.2)\n$$",
+    "text": "$$\n\\mathrm{IS}\n= \\exp\\left[\\frac{1}{I}\\sum_{i=1}^{I}D_{KL}\\left[\\Pr[y\\mid\\mathbf{x}_{i}^{*}]\\Vert\\Pr[y]\\right]\\right]\n\\qquad (14.2)\n$$",
     "source": "codex-fusion",
     "confidence": "medium"
   },

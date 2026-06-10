@@ -13,7 +13,7 @@
     "page_key": 396,
     "order": 2,
     "type": "paragraph",
-    "text": "However, the goal is to predict actions based on future rewards, and these are not captured in a standard s,a,r sequence. Hence, the decision transformer replaces the reward $r_{t}$ with the return-to-go $R_{t:T}=\\sum_{t'=t}^{T}r_{t'}$ (i.e., the sum of the empirically observed future rewards). The remaining framework is very similar to a standard transformer decoder. The states, actions, and returns-to-go are converted to fixed-size embeddings via learned mappings. For Atari games, the state embedding might be converted via a convolutional network similar to that in figure 19.14. The embeddings for the actions and returns-to-go can be learned in the same way as word embeddings (figure 12.9). The transformer is trained with masked self-attention and position embeddings.",
+    "text": "However, the goal is to predict actions based on future rewards, and these are not captured in a standard s,a,r sequence. Hence, the decision transformer replaces the reward $r\\_{t}$ with the return-to-go $R\\_{t:T}=\\sum\\_{t'=t}^{T}r\\_{t'}$ (i.e., the sum of the empirically observed future rewards). The remaining framework is very similar to a standard transformer decoder. The states, actions, and returns-to-go are converted to fixed-size embeddings via learned mappings. For Atari games, the state embedding might be converted via a convolutional network similar to that in figure 19.14. The embeddings for the actions and returns-to-go can be learned in the same way as word embeddings (figure 12.9). The transformer is trained with masked self-attention and position embeddings.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -22,7 +22,7 @@
     "page_key": 396,
     "order": 3,
     "type": "paragraph",
-    "text": "This formulation is natural during training but poses a quandary during inference because we don\u2019t know the returns-to-go. This can be resolved by using the desired total return at the first step and decrementing this as rewards are received. For example, in an Atari game, the desired total return would be the total score required to win.",
+    "text": "This formulation is natural during training but poses a quandary during inference because we don’t know the returns-to-go. This can be resolved by using the desired total return at the first step and decrementing this as rewards are received. For example, in an Atari game, the desired total return would be the total score required to win.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },

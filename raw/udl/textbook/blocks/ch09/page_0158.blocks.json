@@ -51,7 +51,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "Label smoothing: Label smoothing was introduced by Szegedy et al. (2016) for image classification but has since been shown to be helpful in speech recognition (Chorowski & Jaitly, 2017), machine translation (Vaswani et al., 2017), and language modeling (Pereyra et al., 2017). The precise mechanism by which label smoothing improves test performance isn't well understood, although M\u00fcller et al. (2019a) show that it improves the calibration of the predicted output to the hidden units. The randomized ReLU (Xu et al., 2015) applies noise in a different way by making the activation functions stochastic."
+    "text": "Label smoothing: Label smoothing was introduced by Szegedy et al. (2016) for image classification but has since been shown to be helpful in speech recognition (Chorowski & Jaitly, 2017), machine translation (Vaswani et al., 2017), and language modeling (Pereyra et al., 2017). The precise mechanism by which label smoothing improves test performance isn't well understood, although Müller et al. (2019a) show that it improves the calibration of the predicted output to the hidden units. The randomized ReLU (Xu et al., 2015) applies noise in a different way by making the activation functions stochastic."
   },
   {
     "id": "page_0158-b007",

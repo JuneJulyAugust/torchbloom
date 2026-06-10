@@ -4,7 +4,7 @@
     "page_key": 432,
     "order": 1,
     "type": "paragraph",
-    "text": "persecution of LGBTQ+ individuals in countries where queerness is criminalized. Fourth, with regard to transparency, explainability, and value alignment more generally, the \u201cgaydar\u201d model appears to pick up on spurious correlations due to patterns in grooming, presentation, and lifestyle rather than facial structure, as the authors claimed (Aguera y Arcas et al., 2018). Fifth, with regard to data privacy, questions arise regarding the ethics of scraping \u201cpublic\u201d photos and sexual orientation labels from a dating website. Finally, with regard to scientific communication, the researchers communicated their results in a way that was sure to generate headlines: even the title of the paper is an overstatement of the model\u2019s abilities: Deep Neural Networks Can Detect Sexual Orientation from Faces. (They cannot.)",
+    "text": "persecution of LGBTQ+ individuals in countries where queerness is criminalized. Fourth, with regard to transparency, explainability, and value alignment more generally, the “gaydar” model appears to pick up on spurious correlations due to patterns in grooming, presentation, and lifestyle rather than facial structure, as the authors claimed (Aguera y Arcas et al., 2018). Fifth, with regard to data privacy, questions arise regarding the ethics of scraping “public” photos and sexual orientation labels from a dating website. Finally, with regard to scientific communication, the researchers communicated their results in a way that was sure to generate headlines: even the title of the paper is an overstatement of the model’s abilities: Deep Neural Networks Can Detect Sexual Orientation from Faces. (They cannot.)",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -40,7 +40,7 @@
     "page_key": 432,
     "order": 5,
     "type": "paragraph",
-    "text": "Perhaps this is surprising. There is a broad belief that science is\u2014or ought to be\u2014objective. This is codified by the value-free ideal of science. Many would argue that machine learning is objective because algorithms are just mathematics. However, analogous to algorithmic bias (section 21.1.1), there are four stages at which the values of AI practitioners can affect their work (Reiss & Sprenger, 2017):",
+    "text": "Perhaps this is surprising. There is a broad belief that science is—or ought to be—objective. This is codified by the value-free ideal of science. Many would argue that machine learning is objective because algorithms are just mathematics. However, analogous to algorithmic bias (section 21.1.1), there are four stages at which the values of AI practitioners can affect their work (Reiss & Sprenger, 2017):",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },

@@ -15,7 +15,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "The first term can be further partitioned into bias and variance. The parameters $\\phi$ of the model $f[x, \\phi[D]]$. The training dataset is a random sample from the data generation process; with a different sample of training data, we would learn different parameter values. The expected model output $f_{\\mu}[x]$ with respect to all possible datasets $\\mathcal{D}$ is hence:"
+    "text": "The first term can be further partitioned into bias and variance. The parameters $\\phi$ of the model $f[x, \\phi[D]]$. The training dataset is a random sample from the data generation process; with a different sample of training data, we would learn different parameter values. The expected model output $f\\_{\\mu}[x]$ with respect to all possible datasets $\\mathcal{D}$ is hence:"
   },
   {
     "id": "page_0124-b003",
@@ -33,7 +33,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "Returning to the first term of equation 8.3, we add and subtract $f_{\\mu}[x]$ and expand:"
+    "text": "Returning to the first term of equation 8.3, we add and subtract $f\\_{\\mu}[x]$ and expand:"
   },
   {
     "id": "page_0124-b005",

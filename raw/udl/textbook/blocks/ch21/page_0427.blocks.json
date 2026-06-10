@@ -14,7 +14,7 @@
     "page_key": 427,
     "order": 2,
     "type": "caption",
-    "text": "Figure 21.3 LIME. Output functions of deep networks are complex; in high dimensions, it\u2019s hard to know why a decision was made or how to modify the inputs to change it without access to the model. a) Consider trying to understand why $\\Pr(y = 1|x)$ is low at the white cross. LIME probes the network at nearby points to see if it identifies these as $\\Pr(y = 1|x)",
+    "text": "Figure 21.3 LIME. Output functions of deep networks are complex; in high dimensions, it’s hard to know why a decision was made or how to modify the inputs to change it without access to the model. a) Consider trying to understand why $\\Pr(y = 1|x)$ is low at the white cross. LIME probes the network at nearby points to see if it identifies these as $\\Pr(y = 1|x)",
     "source": "deepseek+paddle",
     "confidence": "high"
   },

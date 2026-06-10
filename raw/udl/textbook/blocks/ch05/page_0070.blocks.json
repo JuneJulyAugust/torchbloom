@@ -33,7 +33,7 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "paragraph",
-    "text": "categorical distribution for each $ y_{d}$. Here, each set of network outputs $\\mathbf{f}_{d}[\\mathbf{x}, \\boldsymbol{\\phi}]$ predicts the $ K $ values that contribute to the categorical distribution for $ y_{d}$."
+    "text": "categorical distribution for each $ y\\_{d}$. Here, each set of network outputs $\\mathbf{f}\\_{d}[\\mathbf{x}, \\boldsymbol{\\phi}]$ predicts the $ K $ values that contribute to the categorical distribution for $ y\\_{d}$."
   },
   {
     "id": "page_0070-b005",
@@ -51,7 +51,7 @@
     "source": "deepseek",
     "confidence": "medium",
     "type": "equation",
-    "latex": "\\begin{aligned}\nL[\\boldsymbol{\\phi}]\n&=-\\sum_{i=1}^{I}\\log\\left[\\Pr\\left(\\mathbf{y}_i\\,|\\,\\mathbf{f}[\\mathbf{x}_i,\\boldsymbol{\\phi}]\\right)\\right] \\\\\n&=-\\sum_{i=1}^{I}\\sum_d\\log\\left[\\Pr\\left(y_{id}\\,|\\,\\mathbf{f}_d[\\mathbf{x}_i,\\boldsymbol{\\phi}]\\right)\\right].\n\\end{aligned} \\qquad (5.26)"
+    "latex": "\\begin{aligned}\nL[\\boldsymbol{\\phi}]\n&=-\\sum_{i=1}^{I}\\log\\left[\\Pr\\left(\\mathbf{y}_i\\mid\\mathbf{f}[\\mathbf{x}_i,\\boldsymbol{\\phi}]\\right)\\right] \\\\\n&=-\\sum_{i=1}^{I}\\sum_d\\log\\left[\\Pr\\left(y_{id}\\mid\\mathbf{f}_d[\\mathbf{x}_i,\\boldsymbol{\\phi}]\\right)\\right].\n\\end{aligned} \\qquad (5.26)"
   },
   {
     "id": "page_0070-b007",
@@ -60,7 +60,7 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "paragraph",
-    "text": "where $ y_{id}$ is the $ d^{th}$ output from the $ i^{th}$ training example."
+    "text": "where $ y\\_{id}$ is the $ d^{th}$ output from the $ i^{th}$ training example."
   },
   {
     "id": "page_0070-b008",

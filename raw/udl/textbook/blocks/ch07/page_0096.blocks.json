@@ -51,7 +51,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "Consider a network $\\mathbf{f}[\\mathbf{x}, \\boldsymbol{\\phi}]$ with multivariate input x, parameters $\\boldsymbol{\\phi}$, and three hidden layers $\\mathbf{h}_{1}, \\mathbf{h}_{2}$, and $\\mathbf{h}_{3}$:"
+    "text": "Consider a network $\\mathbf{f}[\\mathbf{x}, \\boldsymbol{\\phi}]$ with multivariate input x, parameters $\\boldsymbol{\\phi}$, and three hidden layers $\\mathbf{h}\\_{1}, \\mathbf{h}\\_{2}$, and $\\mathbf{h}\\_{3}$:"
   },
   {
     "id": "page_0096-b007",
@@ -69,6 +69,6 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "where the function $\\mathbf{a}[\\bullet]$ applies the activation function separately to every element of the input. The model parameters $\\boldsymbol{\\phi}=\\lbrace \\boldsymbol{\\beta}_{0},\\boldsymbol{\\Omega}_{0},\\boldsymbol{\\beta}_{1},\\boldsymbol{\\Omega}_{1},\\boldsymbol{\\beta}_{2},\\boldsymbol{\\Omega}_{2},\\boldsymbol{\\beta}_{3},\\boldsymbol{\\Omega}_{3}\\rbrace$ consist of the bias vectors $\\beta_{k}$ and weight matrices $\\Omega_{k}$ between every layer (figure 7.1)."
+    "text": "where the function $\\mathbf{a}[\\bullet]$ applies the activation function separately to every element of the input. The model parameters $\\boldsymbol{\\phi}=\\lbrace \\boldsymbol{\\beta}\\_{0},\\boldsymbol{\\Omega}\\_{0},\\boldsymbol{\\beta}\\_{1},\\boldsymbol{\\Omega}\\_{1},\\boldsymbol{\\beta}\\_{2},\\boldsymbol{\\Omega}\\_{2},\\boldsymbol{\\beta}\\_{3},\\boldsymbol{\\Omega}\\_{3}\\rbrace$ consist of the bias vectors $\\beta\\_{k}$ and weight matrices $\\Omega\\_{k}$ between every layer (figure 7.1)."
   }
 ]

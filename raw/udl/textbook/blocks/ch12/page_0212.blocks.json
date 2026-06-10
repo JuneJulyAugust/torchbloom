@@ -14,10 +14,10 @@
     "page_key": 212,
     "order": 2,
     "type": "caption",
-    "text": "Figure 12.4 Self-attention in matrix form. Self-attention can be implemented efficiently if we store the N input vectors $x_{n}$ in the columns of the D×N matrix X. The input X is operated on separately by the query matrix Q, key matrix K, and value matrix V. The dot products are then computed using matrix multiplication, and a softmax operation is applied independently to each column of the resulting matrix to calculate the attentions. Finally, the values are post-multiplied by the attentions to create an output of the same size as the input.",
+    "text": "Figure 12.4 Self-attention in matrix form. Self-attention can be implemented efficiently if we store the N input vectors $x\\_{n}$ in the columns of the D×N matrix X. The input X is operated on separately by the query matrix Q, key matrix K, and value matrix V. The dot products are then computed using matrix multiplication, and a softmax operation is applied independently to each column of the resulting matrix to calculate the attentions. Finally, the values are post-multiplied by the attentions to create an output of the same size as the input.",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "caption": "Figure 12.4 Self-attention in matrix form. Self-attention can be implemented efficiently if we store the N input vectors $x_{n}$ in the columns of the D×N matrix X. The input X is operated on separately by the query matrix Q, key matrix K, and value matrix V. The dot products are then computed using matrix multiplication, and a softmax operation is applied independently to each column of the resulting matrix to calculate the attentions. Finally, the values are post-multiplied by the attentions to create an output of the same size as the input."
+    "caption": "Figure 12.4 Self-attention in matrix form. Self-attention can be implemented efficiently if we store the N input vectors $x\\_{n}$ in the columns of the D×N matrix X. The input X is operated on separately by the query matrix Q, key matrix K, and value matrix V. The dot products are then computed using matrix multiplication, and a softmax operation is applied independently to each column of the resulting matrix to calculate the attentions. Finally, the values are post-multiplied by the attentions to create an output of the same size as the input."
   },
   {
     "id": "page_0212-b003",
@@ -42,7 +42,7 @@
     "page_key": 212,
     "order": 5,
     "type": "paragraph",
-    "text": "The above computation can be written in a compact form if the N inputs $x_{n}$ form the columns of the $D \\times N$ matrix X. The values, queries, and keys can be computed as:",
+    "text": "The above computation can be written in a compact form if the N inputs $x\\_{n}$ form the columns of the $D \\times N$ matrix X. The values, queries, and keys can be computed as:",
     "source": "deepseek+paddle",
     "confidence": "high"
   },

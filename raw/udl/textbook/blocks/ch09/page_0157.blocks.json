@@ -24,7 +24,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "Note that the first two terms on the right-hand side $\\phi_{0} + \\alpha g[\\phi_{0}]$ are the same as the discrete update (equation 9.14). Hence, to make the continuous and discrete versions arrive at the same place, the third term on the right-hand side must equal zero, allowing us to solve for $g_{1}[\\phi]$:"
+    "text": "Note that the first two terms on the right-hand side $\\phi\\_{0} + \\alpha g[\\phi\\_{0}]$ are the same as the discrete update (equation 9.14). Hence, to make the continuous and discrete versions arrive at the same place, the third term on the right-hand side must equal zero, allowing us to solve for $g\\_{1}[\\phi]$:"
   },
   {
     "id": "page_0157-b004",
@@ -96,7 +96,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "Relatedly, Jastrz\u0119bski et al. (2021) and Cohen et al. (2021) both show that using a large learning rate reduces the tendency of typical optimization trajectories to move to \"sharper\" parts of the loss function (i.e., where at least one direction has high curvature). This implicit regularization effect of large learning rates can be approximated by penalizing the gradient norm in equation 9.20 (Jastrz\u0119bski et al., 2021)."
+    "text": "Relatedly, Jastrzębski et al. (2021) and Cohen et al. (2021) both show that using a large learning rate reduces the tendency of typical optimization trajectories to move to \"sharper\" parts of the loss function (i.e., where at least one direction has high curvature). This implicit regularization effect of large learning rates can be approximated by penalizing the gradient norm in equation 9.20 (Jastrzębski et al., 2021)."
   },
   {
     "id": "page_0157-b012",
@@ -105,6 +105,6 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "Early stopping: Bishop (1995) and Sj\u00f6berg & Ljung (1995) argued that early stopping limits the effective solution space that the training procedure can explore; given that the weights are initialized to small values, this leads to the idea that early stopping helps prevent the weights from getting too large. Goodfellow et al. (2016) show that under a quadratic approximation of the loss function with parameters initialized to zero, early stopping is equivalent to L2 regularization in gradient descent. The effective regularization weight $\\lambda$ is approximately $1/(\\tau\\alpha)$ where $\\alpha$ is the learning rate, and $\\tau$ is the early stopping time."
+    "text": "Early stopping: Bishop (1995) and Sjöberg & Ljung (1995) argued that early stopping limits the effective solution space that the training procedure can explore; given that the weights are initialized to small values, this leads to the idea that early stopping helps prevent the weights from getting too large. Goodfellow et al. (2016) show that under a quadratic approximation of the loss function with parameters initialized to zero, early stopping is equivalent to L2 regularization in gradient descent. The effective regularization weight $\\lambda$ is approximately $1/(\\tau\\alpha)$ where $\\alpha$ is the learning rate, and $\\tau$ is the early stopping time."
   }
 ]

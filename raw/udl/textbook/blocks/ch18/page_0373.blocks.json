@@ -67,7 +67,7 @@
     "page_key": 373,
     "order": 8,
     "type": "exercise",
-    "text": "Problem 18.9 $^{*}$ If $\\alpha_{t}=\\prod_{s=1}^{t}1-\\beta_{s}$, then show that:",
+    "text": "Problem 18.9 $^{*}$ If $\\alpha\\_{t}=\\prod\\_{s=1}^{t}1-\\beta\\_{s}$, then show that:",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -85,7 +85,7 @@
     "page_key": 373,
     "order": 10,
     "type": "exercise",
-    "text": "Problem 18.10 $^{*}$ If $\\alpha_{t}=\\prod_{s=1}^{t}\\mathbf{1}-\\beta_{s}$, then show that:",
+    "text": "Problem 18.10 $^{*}$ If $\\alpha\\_{t}=\\prod\\_{s=1}^{t}\\mathbf{1}-\\beta\\_{s}$, then show that:",
     "source": "deepseek",
     "confidence": "medium"
   },

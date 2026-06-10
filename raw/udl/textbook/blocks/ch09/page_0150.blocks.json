@@ -25,7 +25,7 @@
     "source": "paddle",
     "confidence": "high",
     "image_path": "figures/page_0150_fig_1.jpg",
-    "alt": "Figure 9.10 Adding noise to inputs. At each step of SGD, random noise with variance $\\sigma_{x}^{2}$ is added to the batch data. a-c) Fitted model with differen"
+    "alt": "Figure 9.10 Adding noise to inputs. At each step of SGD, random noise with variance $\\sigma\\_{x}^{2}$ is added to the batch data. a-c) Fitted model with differen"
   },
   {
     "id": "page_0150-b004",
@@ -34,7 +34,7 @@
     "type": "caption",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "caption": "Figure 9.10 Adding noise to inputs. At each step of SGD, random noise with variance $\\sigma_{x}^{2}$ is added to the batch data. a-c) Fitted model with different noise levels (small dots represent ten samples). Adding more noise smooths out the fitted function (cyan line)."
+    "caption": "Figure 9.10 Adding noise to inputs. At each step of SGD, random noise with variance $\\sigma\\_{x}^{2}$ is added to the batch data. a-c) Fitted model with different noise levels (small dots represent ten samples). Adding more noise smooths out the fitted function (cyan line)."
   },
   {
     "id": "page_0150-b005",
@@ -61,7 +61,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "The maximum likelihood approach is generally overconfident; it selects the most likely parameters during training and uses these to make predictions. However, many parameter values may be broadly compatible with the data and only slightly less likely. The Bayesian approach treats the parameters as unknown variables and computes a distribution $\\Pr(\\phi|\\lbrace \\mathbf{x}_{i},\\mathbf{y}_{i} \\rbrace)$ over these parameters $\\phi$ conditioned on the training data $\\lbrace x_{i},y_{i} \\rbrace$ using Bayes' rule:"
+    "text": "The maximum likelihood approach is generally overconfident; it selects the most likely parameters during training and uses these to make predictions. However, many parameter values may be broadly compatible with the data and only slightly less likely. The Bayesian approach treats the parameters as unknown variables and computes a distribution $\\Pr(\\phi|\\lbrace \\mathbf{x}\\_{i},\\mathbf{y}\\_{i} \\rbrace)$ over these parameters $\\phi$ conditioned on the training data $\\lbrace x\\_{i},y\\_{i} \\rbrace$ using Bayes' rule:"
   },
   {
     "id": "page_0150-b008",
@@ -79,7 +79,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "where $\\Pr(\\phi|\\lbrace \\mathbf{x}_{i},\\mathbf{y}_{i} \\rbrace)$ over these parameters $\\phi$ conditioned on the training data $\\lbrace x_{i},y_{i} \\rbrace$ using Bayes' rule:"
+    "text": "where $\\Pr(\\phi|\\lbrace \\mathbf{x}\\_{i},\\mathbf{y}\\_{i} \\rbrace)$ over these parameters $\\phi$ conditioned on the training data $\\lbrace x\\_{i},y\\_{i} \\rbrace$ using Bayes' rule:"
   },
   {
     "id": "page_0150-b010",
@@ -97,7 +97,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "where $\\Pr(\\phi|\\lbrace \\mathbf{x}_{i},\\mathbf{y}_{i} \\rbrace)$ over these parameters $\\phi$ conditioned on the training data $\\lbrace x_{i},y_{i} \\rbrace$"
+    "text": "where $\\Pr(\\phi|\\lbrace \\mathbf{x}\\_{i},\\mathbf{y}\\_{i} \\rbrace)$ over these parameters $\\phi$ conditioned on the training data $\\lbrace x\\_{i},y\\_{i} \\rbrace$"
   },
   {
     "id": "page_0150-b012",

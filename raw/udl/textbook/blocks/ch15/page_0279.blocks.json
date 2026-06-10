@@ -14,7 +14,7 @@
     "page_key": 279,
     "order": 2,
     "type": "caption",
-    "text": "Figure 15.2 GAN loss functions. A latent variable $\\mathbf{z}_{j}$ is drawn from the base distribution and passed through the generator to create a sample $\\mathbf{x}^{*}$. A batch $\\lbrace x_{j}^{*}\\rbrace$ of samples and a batch of real examples $\\lbrace \\mathbf{x}_{i}\\rbrace$ are passed to the discriminator, which assigns a probability that each is real. The discriminator parameters $\\phi$ are modified to assign high probability to the real examples and low probability to the generated samples. The generator parameters $\\theta$ are modified to “fool” the discriminator into assigning the generated samples a high probability.",
+    "text": "Figure 15.2 GAN loss functions. A latent variable $\\mathbf{z}\\_{j}$ is drawn from the base distribution and passed through the generator to create a sample $\\mathbf{x}^{*}$. A batch $\\lbrace x\\_{j}^{*}\\rbrace$ of samples and a batch of real examples $\\lbrace \\mathbf{x}\\_{i}\\rbrace$ are passed to the discriminator, which assigns a probability that each is real. The discriminator parameters $\\phi$ are modified to assign high probability to the real examples and low probability to the generated samples. The generator parameters $\\theta$ are modified to “fool” the discriminator into assigning the generated samples a high probability.",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -32,7 +32,7 @@
     "page_key": 279,
     "order": 4,
     "type": "paragraph",
-    "text": "At each step, we draw a batch of latent variables  $z_{j}$  from the base distribution and pass these through the generator to create samples  $x_{j}^{*} = g[z_{j}, \\theta]$ . Then we choose a batch of real training examples  $x_{i}$ . Given the two batches, we can now perform one or more gradient descent steps on each loss function (figure 15.2).",
+    "text": "At each step, we draw a batch of latent variables  $z\\_{j}$  from the base distribution and pass these through the generator to create samples  $x\\_{j}^{*} = g[z\\_{j}, \\theta]$ . Then we choose a batch of real training examples  $x\\_{i}$ . Given the two batches, we can now perform one or more gradient descent steps on each loss function (figure 15.2).",
     "source": "deepseek+paddle",
     "confidence": "high"
   },

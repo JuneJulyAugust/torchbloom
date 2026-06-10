@@ -67,7 +67,7 @@
     "page_key": 334,
     "order": 8,
     "type": "paragraph",
-    "text": "This equation shows that the ELBO is the original log-likelihood minus the KL divergence $D_{KL}\\left[q(\\mathbf{z}|\\boldsymbol{\\theta})\\mid\\mid\\Pr(\\mathbf{z}|\\mathbf{x},\\phi)\\right]$ . The KL divergence measures the \"distance\" between bound on $\\log[\\Pr(\\mathbf{x}|\\phi)]$ . The KL distance will be zero, and the bound will be tight when $q(\\mathbf{z}|\\boldsymbol{\\theta}) = \\Pr(\\mathbf{z}|\\mathbf{x},\\phi)$ . This is the posterior distribution over the latent variables z given observed data x; it indicates which values of the latent variable could have been responsible for the data point (figure 17.7).",
+    "text": "This equation shows that the ELBO is the original log-likelihood minus the KL divergence $D\\_{KL}\\left[q(\\mathbf{z}|\\boldsymbol{\\theta})\\mid\\mid\\Pr(\\mathbf{z}|\\mathbf{x},\\phi)\\right]$ . The KL divergence measures the \"distance\" between bound on $\\log[\\Pr(\\mathbf{x}|\\phi)]$ . The KL distance will be zero, and the bound will be tight when $q(\\mathbf{z}|\\boldsymbol{\\theta}) = \\Pr(\\mathbf{z}|\\mathbf{x},\\phi)$ . This is the posterior distribution over the latent variables z given observed data x; it indicates which values of the latent variable could have been responsible for the data point (figure 17.7).",
     "source": "deepseek",
     "confidence": "medium"
   }

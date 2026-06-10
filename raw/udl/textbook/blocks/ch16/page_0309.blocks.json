@@ -22,7 +22,7 @@
     "page_key": 309,
     "order": 3,
     "type": "paragraph",
-    "text": "We train normalizing flows with a dataset $\\lbrace x_{i}\\rbrace$ of I training examples using the negative log-likelihood criterion:",
+    "text": "We train normalizing flows with a dataset $\\lbrace x\\_{i}\\rbrace$ of I training examples using the negative log-likelihood criterion:",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -31,7 +31,7 @@
     "page_key": 309,
     "order": 4,
     "type": "equation",
-    "text": "$$\n\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}}\n&=\\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{arg\\,max}}}\\left[\\prod_{i=1}^{I}\\Pr(\\mathbf{z}_{i})\\cdot\\left|\\frac{\\partial\\mathbf{f}[\\mathbf{z}_{i},\\boldsymbol{\\phi}]}{\\partial\\mathbf{z}_{i}}\\right|^{-1}\\right]\\\\\n&=\\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{arg\\,min}}}\\left[\\sum_{i=1}^{I}\\log\\left|\\left.\\frac{\\partial\\mathbf{f}[\\mathbf{z}_{i},\\boldsymbol{\\phi}]}{\\partial\\mathbf{z}_{i}}\\right|\\right|-\\log\\left[\\Pr(\\mathbf{z}_{i})\\right]\\right]\n\\end{aligned}\n\\qquad (16.8)\n$$",
+    "text": "$$\n\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}}\n&=\\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{argmax}}}\\left[\\prod_{i=1}^{I}\\Pr(\\mathbf{z}_{i})\\cdot\\left|\\frac{\\partial\\mathbf{f}[\\mathbf{z}_{i},\\boldsymbol{\\phi}]}{\\partial\\mathbf{z}_{i}}\\right|^{-1}\\right]\\\\\n&=\\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{argmin}}}\\left[\\sum_{i=1}^{I}\\log\\left|\\left.\\frac{\\partial\\mathbf{f}[\\mathbf{z}_{i},\\boldsymbol{\\phi}]}{\\partial\\mathbf{z}_{i}}\\right|\\right|-\\log\\left[\\Pr(\\mathbf{z}_{i})\\right]\\right]\n\\end{aligned}\n\\qquad (16.8)\n$$",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -40,7 +40,7 @@
     "page_key": 309,
     "order": 5,
     "type": "paragraph",
-    "text": "where $\\mathbf{z}_{i}=\\mathbf{f}^{-1}[\\mathbf{x}_{i},\\boldsymbol{\\phi}]$, $\\Pr(\\mathbf{z}_{i})$ is measured under the base distribution, and the absolute determinant $\\left|\\partial\\mathbf{f}[\\mathbf{z}_{i},\\boldsymbol{\\phi}]/\\partial\\mathbf{z}_{i}\\right|$ is given by equation 16.7.",
+    "text": "where $\\mathbf{z}\\_{i}=\\mathbf{f}^{-1}[\\mathbf{x}\\_{i},\\boldsymbol{\\phi}]$, $\\Pr(\\mathbf{z}\\_{i})$ is measured under the base distribution, and the absolute determinant $\\left|\\partial\\mathbf{f}[\\mathbf{z}\\_{i},\\boldsymbol{\\phi}]/\\partial\\mathbf{z}\\_{i}\\right|$ is given by equation 16.7.",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -58,7 +58,7 @@
     "page_key": 309,
     "order": 7,
     "type": "paragraph",
-    "text": "The theory of normalizing flows is straightforward. However, for this to be practical, we need neural network layers $f_{k}$ that have four properties.",
+    "text": "The theory of normalizing flows is straightforward. However, for this to be practical, we need neural network layers $f\\_{k}$ that have four properties.",
     "source": "deepseek",
     "confidence": "medium"
   },

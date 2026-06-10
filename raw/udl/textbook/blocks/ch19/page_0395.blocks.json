@@ -50,7 +50,7 @@
     "page_key": 395,
     "order": 6,
     "type": "paragraph",
-    "text": "However, it is possible to gather historical data from human agents in both cases. Offline RL or batch RL aims to learn how to take actions that maximize rewards on future episodes by observing past sequences $s_{1}, a_{1}, r_{2}, s_{2}, a_{2}, r_{3}, \\ldots$ , without ever interacting with the environment. It is distinct from imitation learning, a related technique that (i) does not have access to the rewards and (ii) attempts to replicate the performance of a historical agent rather than improve it.",
+    "text": "However, it is possible to gather historical data from human agents in both cases. Offline RL or batch RL aims to learn how to take actions that maximize rewards on future episodes by observing past sequences $s\\_{1}, a\\_{1}, r\\_{2}, s\\_{2}, a\\_{2}, r\\_{3}, \\ldots$ , without ever interacting with the environment. It is distinct from imitation learning, a related technique that (i) does not have access to the rewards and (ii) attempts to replicate the performance of a historical agent rather than improve it.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },

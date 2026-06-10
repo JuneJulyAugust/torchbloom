@@ -34,7 +34,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "latex": "\\hat{\\boldsymbol{\\phi}}=\\underset{\\boldsymbol{\\phi}}{\\mathrm{arg\\,max}}\\left[\\prod_{i=1}^{I}\\Pr(\\mathbf{y}_{i}\\mid\\mathbf{x}_{i},\\boldsymbol{\\phi})\\right].\n\\qquad (9.3)"
+    "latex": "\\hat{\\boldsymbol{\\phi}}=\\underset{\\boldsymbol{\\phi}}{\\mathrm{argmax}}\\left[\\prod_{i=1}^{I}\\Pr(\\mathbf{y}_{i}\\mid\\mathbf{x}_{i},\\boldsymbol{\\phi})\\right].\n\\qquad (9.3)"
   },
   {
     "id": "page_0139-b005",

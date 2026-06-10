@@ -42,7 +42,7 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "paragraph",
-    "text": "This notation becomes cumbersome for networks with many layers. Hence, from now on, we will describe the vector of hidden units at layer k as $ h_{k}$, the vector of biases (intercepts) that contribute to hidden layer $ k+1 $ as $\\beta_{k}$, and the weights (slopes) that are applied to the $ k^{th}$ layer and contribute to the $ (k+1)^{th}$ layer as $\\Omega_{k}$. A general deep network $ y = f[x, \\phi]$ with K layers can now be written as:"
+    "text": "This notation becomes cumbersome for networks with many layers. Hence, from now on, we will describe the vector of hidden units at layer k as $ h\\_{k}$, the vector of biases (intercepts) that contribute to hidden layer $ k+1 $ as $\\beta\\_{k}$, and the weights (slopes) that are applied to the $ k^{th}$ layer and contribute to the $ (k+1)^{th}$ layer as $\\Omega\\_{k}$. A general deep network $ y = f[x, \\phi]$ with K layers can now be written as:"
   },
   {
     "id": "page_0049-b006",
@@ -60,7 +60,7 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "paragraph",
-    "text": "The parameters $\\phi $ of this model comprise all of these weight matrices and bias vectors $\\boldsymbol{\\phi} = \\left\\lbrace \\beta_{k}, \\Omega_{k}\\right\\rbrace_{k=0}^{K}$."
+    "text": "The parameters $\\phi $ of this model comprise all of these weight matrices and bias vectors $\\boldsymbol{\\phi} = \\left\\lbrace \\beta\\_{k}, \\Omega\\_{k}\\right\\rbrace\\_{k=0}^{K}$."
   },
   {
     "id": "page_0049-b008",
@@ -69,7 +69,7 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "paragraph",
-    "text": "If the $ k^{th}$ layer has $ D_{k}$ hidden units, then the bias vector $\\beta_{k-1}$ will be of size $ D_{k}$. The last bias vector $\\boldsymbol{\\beta}_{K}$ has the size $ D_{o}$ of the output. The first weight matrix $\\Omega_{0}$ has size $ D_{1} \\times D_{i}$ where $ D_{i}$ is the size of the input. The last weight matrix $\\Omega_{K}$ is $ D_{o} \\times D_{K}$, and the remaining matrices $\\Omega_{k}$ are $ D_{k+1} \\times D_{k}$ (figure 4.6)."
+    "text": "If the $ k^{th}$ layer has $ D\\_{k}$ hidden units, then the bias vector $\\beta\\_{k-1}$ will be of size $ D\\_{k}$. The last bias vector $\\boldsymbol{\\beta}\\_{K}$ has the size $ D\\_{o}$ of the output. The first weight matrix $\\Omega\\_{0}$ has size $ D\\_{1} \\times D\\_{i}$ where $ D\\_{i}$ is the size of the input. The last weight matrix $\\Omega\\_{K}$ is $ D\\_{o} \\times D\\_{K}$, and the remaining matrices $\\Omega\\_{k}$ are $ D\\_{k+1} \\times D\\_{k}$ (figure 4.6)."
   },
   {
     "id": "page_0049-b009",

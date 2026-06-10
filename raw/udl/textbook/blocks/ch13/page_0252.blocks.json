@@ -23,7 +23,7 @@
     "page_key": 252,
     "order": 3,
     "type": "paragraph",
-    "text": "However, each graph may have a different number of nodes. Hence, the matrices  $X_{i}$  and  $A_{i}$  have different sizes, and there is no way to concatenate them into 3D tensors.",
+    "text": "However, each graph may have a different number of nodes. Hence, the matrices  $X\\_{i}$  and  $A\\_{i}$  have different sizes, and there is no way to concatenate them into 3D tensors.",
     "source": "deepseek+paddle",
     "confidence": "high"
   },

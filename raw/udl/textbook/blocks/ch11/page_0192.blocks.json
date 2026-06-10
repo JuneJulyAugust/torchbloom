@@ -85,7 +85,7 @@
     "page_key": 192,
     "order": 10,
     "type": "paragraph",
-    "text": "Batch normalization or BatchNorm shifts and rescales each activation h so that its mean and variance across the batch B become values that are learned during training. First, the empirical mean $m_{h}$ and standard deviation $s_{h}$ are computed:",
+    "text": "Batch normalization or BatchNorm shifts and rescales each activation h so that its mean and variance across the batch B become values that are learned during training. First, the empirical mean $m\\_{h}$ and standard deviation $s\\_{h}$ are computed:",
     "source": "deepseek+paddle",
     "confidence": "high"
   }

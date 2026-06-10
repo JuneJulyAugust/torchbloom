@@ -31,7 +31,7 @@
     "page_key": 371,
     "order": 4,
     "type": "paragraph",
-    "text": "Sampling is slow because many small diffusion steps are required to ensure that the posterior distribution $q(\\mathbf{z}_{t-1}|\\mathbf{z}_t)$ is close to Gaussian (figure 18.5), so the Gaussian distribution in the decoder is appropriate. If we use a model that describes a more complex distribution at each denoising step, then we can use fewer diffusion steps in the first place. To this end, Xiao et al. (2022b) have investigated using conditional GAN models, and Gao et al. (2021) investigated using conditional energy-based models. Although these models cannot describe the original data distribution, they suffice to predict the (much simpler) reverse diffusion step.",
+    "text": "Sampling is slow because many small diffusion steps are required to ensure that the posterior distribution $q(\\mathbf{z}\\_{t-1}|\\mathbf{z}\\_t)$ is close to Gaussian (figure 18.5), so the Gaussian distribution in the decoder is appropriate. If we use a model that describes a more complex distribution at each denoising step, then we can use fewer diffusion steps in the first place. To this end, Xiao et al. (2022b) have investigated using conditional GAN models, and Gao et al. (2021) investigated using conditional energy-based models. Although these models cannot describe the original data distribution, they suffice to predict the (much simpler) reverse diffusion step.",
     "source": "deepseek",
     "confidence": "medium"
   },

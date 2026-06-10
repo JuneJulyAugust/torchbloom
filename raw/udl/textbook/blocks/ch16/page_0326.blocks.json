@@ -31,7 +31,7 @@
     "page_key": 326,
     "order": 4,
     "type": "exercise",
-    "text": "Problem 16.6* Prove that if $\\mathbf{x} = \\mathbf{f}[z] = \\mathbf{A}\\mathbf{z} + \\mathbf{b}$ and $\\Pr(\\mathbf{z}) = \\mathrm{Norm}_{\\mathbf{x}}[\\mu, \\Sigma]$, then $\\Pr(\\mathbf{x}) = \\mathrm{Norm}_{\\mathbf{x}}[\\mathbf{A}\\mu + \\mathbf{b}, \\mathbf{A}\\Sigma\\mathbf{A}^{T}]$ using the relation:",
+    "text": "Problem 16.6* Prove that if $\\mathbf{x} = \\mathbf{f}[z] = \\mathbf{A}\\mathbf{z} + \\mathbf{b}$ and $\\Pr(\\mathbf{z}) = \\mathrm{Norm}\\_{\\mathbf{x}}[\\mu, \\Sigma]$, then $\\Pr(\\mathbf{x}) = \\mathrm{Norm}\\_{\\mathbf{x}}[\\mathbf{A}\\mu + \\mathbf{b}, \\mathbf{A}\\Sigma\\mathbf{A}^{T}]$ using the relation:",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -85,7 +85,7 @@
     "page_key": 326,
     "order": 10,
     "type": "exercise",
-    "text": "Problem 16.8 Consider applying the piecewise linear function $f[h,\\phi]$ defined in equation 16.12 for the domain $h'\\in[0,1]$ elementwise to an input $\\mathbf{h}=[h_{1},h_{2},\\ldots,h_{D}]^{T}$ so that $f[h]=[f[h_{1},\\phi],f[h_{2},\\phi],\\ldots,f[h_{D},\\phi]]$ . What is the Jacobian $\\partial f[\\mathbf{h}]/\\partial\\mathbf{h}$ ? What is the determinant of the Jacobian?",
+    "text": "Problem 16.8 Consider applying the piecewise linear function $f[h,\\phi]$ defined in equation 16.12 for the domain $h'\\in[0,1]$ elementwise to an input $\\mathbf{h}=[h\\_{1},h\\_{2},\\ldots,h\\_{D}]^{T}$ so that $f[h]=[f[h\\_{1},\\phi],f[h\\_{2},\\phi],\\ldots,f[h\\_{D},\\phi]]$ . What is the Jacobian $\\partial f[\\mathbf{h}]/\\partial\\mathbf{h}$ ? What is the determinant of the Jacobian?",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -112,7 +112,7 @@
     "page_key": 326,
     "order": 13,
     "type": "paragraph",
-    "text": "where $b = \\lfloor Kh \\rfloor + 1$ is the bin that h falls into, and the parameters $\\phi_k$ are positive, and sum to one. Consider the case where $K = 5$ and $\\phi_1 = 0.1$, $\\phi_2 = 0.2$, $\\phi_3 = 0.5$, $\\phi_4 = 0.1$, $\\phi_5 = 0.1$. Draw the function $f[\\mathbf{h}, \\boldsymbol{\\phi}]$.",
+    "text": "where $b = \\lfloor Kh \\rfloor + 1$ is the bin that h falls into, and the parameters $\\phi\\_k$ are positive, and sum to one. Consider the case where $K = 5$ and $\\phi\\_1 = 0.1$, $\\phi\\_2 = 0.2$, $\\phi\\_3 = 0.5$, $\\phi\\_4 = 0.1$, $\\phi\\_5 = 0.1$. Draw the function $f[\\mathbf{h}, \\boldsymbol{\\phi}]$.",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -121,7 +121,7 @@
     "page_key": 326,
     "order": 14,
     "type": "exercise",
-    "text": "Problem 16.10 Draw the structure of the Jacobian (indicating which elements are zero) for the forward mapping of the residual flow in figure 16.8 for the cases where $\\mathbf{f}_{1}[\\bullet,\\phi_{1}]$ and $\\mathbf{f}_{2}[\\bullet,\\phi_{2}]$ are (i) a fully connected neural network, (ii) an elementwise flow.",
+    "text": "Problem 16.10 Draw the structure of the Jacobian (indicating which elements are zero) for the forward mapping of the residual flow in figure 16.8 for the cases where $\\mathbf{f}\\_{1}[\\bullet,\\phi\\_{1}]$ and $\\mathbf{f}\\_{2}[\\bullet,\\phi\\_{2}]$ are (i) a fully connected neural network, (ii) an elementwise flow.",
     "source": "deepseek",
     "confidence": "medium"
   },

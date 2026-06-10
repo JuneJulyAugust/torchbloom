@@ -14,7 +14,7 @@
     "page_key": 308,
     "order": 2,
     "type": "caption",
-    "text": "Figure 16.4 Forward and inverse mappings for a deep neural network. The base density (left) is gradually transformed by the network layers $f_{1}[\\bullet,\\phi_{1}]$ , $f_{2}[\\bullet,\\phi_{2}]$ , ... to create the model density. Each layer is invertible, and we can equivalently think of the inverse of the layers as gradually transforming (or \"flowing\") the model density back to the base density.",
+    "text": "Figure 16.4 Forward and inverse mappings for a deep neural network. The base density (left) is gradually transformed by the network layers $f\\_{1}[\\bullet,\\phi\\_{1}]$ , $f\\_{2}[\\bullet,\\phi\\_{2}]$ , ... to create the model density. Each layer is invertible, and we can equivalently think of the inverse of the layers as gradually transforming (or \"flowing\") the model density back to the base density.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -32,7 +32,7 @@
     "page_key": 308,
     "order": 4,
     "type": "paragraph",
-    "text": "In practice, the forward mapping $\\mathbf{f}[\\mathbf{z}, \\boldsymbol{\\phi}]$ is usually defined by a neural network, consisting of a series of layers $\\mathbf{f}_{k}[\\bullet, \\boldsymbol{\\phi}_{k}]$ with parameters $\\boldsymbol{\\phi}_{k}$, which are composed together as:",
+    "text": "In practice, the forward mapping $\\mathbf{f}[\\mathbf{z}, \\boldsymbol{\\phi}]$ is usually defined by a neural network, consisting of a series of layers $\\mathbf{f}\\_{k}[\\bullet, \\boldsymbol{\\phi}\\_{k}]$ with parameters $\\boldsymbol{\\phi}\\_{k}$, which are composed together as:",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -50,7 +50,7 @@
     "page_key": 308,
     "order": 6,
     "type": "paragraph",
-    "text": "The inverse mapping (normalizing direction) is defined by the composition of the inverse of each layer $f_{k}^{-1}[\\bullet,\\phi_{k}]$ applied in the opposite order:",
+    "text": "The inverse mapping (normalizing direction) is defined by the composition of the inverse of each layer $f\\_{k}^{-1}[\\bullet,\\phi\\_{k}]$ applied in the opposite order:",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -95,7 +95,7 @@
     "page_key": 308,
     "order": 11,
     "type": "paragraph",
-    "text": "where we have overloaded the notation to make $\\mathbf{f}_{k}$ the output of the function $\\mathbf{f}_{k}[\\bullet,\\phi_{k}]$. The absolute determinant of this Jacobian can be computed by taking the product of the individual absolute determinants:",
+    "text": "where we have overloaded the notation to make $\\mathbf{f}\\_{k}$ the output of the function $\\mathbf{f}\\_{k}[\\bullet,\\phi\\_{k}]$. The absolute determinant of this Jacobian can be computed by taking the product of the individual absolute determinants:",
     "source": "deepseek",
     "confidence": "medium"
   }

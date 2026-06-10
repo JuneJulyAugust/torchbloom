@@ -14,7 +14,7 @@
     "page_key": 316,
     "order": 2,
     "type": "caption",
-    "text": "Figure 16.9 Contraction mappings. If a function has an absolute slope of less than one everywhere, iterating the function converges to a fixed point $f[z] = z$ . a) Starting at $z_{0}$ , we evaluate $z_{1} = f[z_{0}]$ . We then pass $z_{1}$ back into the function and iterate. Eventually, the process converges to the point where $f[z] = z$ (i.e., where the function crosses the dashed diagonal identity line). b) This can be used to invert equations of the form $y = z + f[z]$ for a value $y^{*}$ by noticing that the fixed point of $y^{*} - f[z]$ (where the orange line crosses the dashed identity line) is at the same position as where $y^{*} = z + f[z]$ .",
+    "text": "Figure 16.9 Contraction mappings. If a function has an absolute slope of less than one everywhere, iterating the function converges to a fixed point $f[z] = z$ . a) Starting at $z\\_{0}$ , we evaluate $z\\_{1} = f[z\\_{0}]$ . We then pass $z\\_{1}$ back into the function and iterate. Eventually, the process converges to the point where $f[z] = z$ (i.e., where the function crosses the dashed diagonal identity line). b) This can be used to invert equations of the form $y = z + f[z]$ for a value $y^{*}$ by noticing that the fixed point of $y^{*} - f[z]$ (where the orange line crosses the dashed identity line) is at the same position as where $y^{*} = z + f[z]$ .",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -59,7 +59,7 @@
     "page_key": 316,
     "order": 7,
     "type": "paragraph",
-    "text": "if f[z] is a contraction mapping. In other words, it can be used to find the $z^{*}$ that maps to a given value, $y^{*}$ . This can be done by starting with any point $z_{0}$ and iterating $z_{k+1}=y^{*}-\\mathbf{f}[z_{k}]$ . This has a fixed point at $z+\\mathbf{f}[z]=y^{*}$ (figure 16.9b).",
+    "text": "if f[z] is a contraction mapping. In other words, it can be used to find the $z^{*}$ that maps to a given value, $y^{*}$ . This can be done by starting with any point $z\\_{0}$ and iterating $z\\_{k+1}=y^{*}-\\mathbf{f}[z\\_{k}]$ . This has a fixed point at $z+\\mathbf{f}[z]=y^{*}$ (figure 16.9b).",
     "source": "deepseek",
     "confidence": "medium"
   },

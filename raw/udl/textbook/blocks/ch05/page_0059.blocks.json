@@ -33,7 +33,7 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "paragraph",
-    "text": "The maximum likelihood criterion (equation 5.1) is not very practical. Each term $\\Pr(\\mathbf{y}_{i}\\,|\\,\\mathbf{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}])$ can be small, so the product of many of these terms can be tiny. It may be difficult to represent this quantity with finite precision arithmetic. Fortunately, we can equivalently maximize the logarithm of the likelihood:"
+    "text": "The maximum likelihood criterion (equation 5.1) is not very practical. Each term $\\Pr(\\mathbf{y}\\_{i}\\mid\\mathbf{f}[\\mathbf{x}\\_{i},\\boldsymbol{\\phi}])$ can be small, so the product of many of these terms can be tiny. It may be difficult to represent this quantity with finite precision arithmetic. Fortunately, we can equivalently maximize the logarithm of the likelihood:"
   },
   {
     "id": "page_0059-b005",
@@ -42,7 +42,7 @@
     "source": "deepseek",
     "confidence": "medium",
     "type": "equation",
-    "latex": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}}\n&= \\mathop{\\mathrm{arg\\,max}}_{\\boldsymbol{\\phi}}\\left[\\prod_{i=1}^{I}\\Pr\\left(\\mathbf{y}_{i}\\,|\\,\\mathbf{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}]\\right)\\right] \\\\\n&= \\mathop{\\mathrm{arg\\,max}}_{\\boldsymbol{\\phi}}\\left[\\log\\left[\\prod_{i=1}^{I}\\Pr\\left(\\mathbf{y}_{i}\\,|\\,\\mathbf{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}]\\right)\\right]\\right] \\\\\n&= \\mathop{\\mathrm{arg\\,max}}_{\\boldsymbol{\\phi}}\\left[\\sum_{i=1}^{I}\\log\\left[\\Pr\\left(\\mathbf{y}_{i}\\,|\\,\\mathbf{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}]\\right)\\right]\\right].\n\\end{aligned} \\qquad (5.3)"
+    "latex": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}}\n&= \\mathop{\\mathrm{argmax}}_{\\boldsymbol{\\phi}}\\left[\\prod_{i=1}^{I}\\Pr\\left(\\mathbf{y}_{i}\\mid\\mathbf{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}]\\right)\\right] \\\\\n&= \\mathop{\\mathrm{argmax}}_{\\boldsymbol{\\phi}}\\left[\\log\\left[\\prod_{i=1}^{I}\\Pr\\left(\\mathbf{y}_{i}\\mid\\mathbf{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}]\\right)\\right]\\right] \\\\\n&= \\mathop{\\mathrm{argmax}}_{\\boldsymbol{\\phi}}\\left[\\sum_{i=1}^{I}\\log\\left[\\Pr\\left(\\mathbf{y}_{i}\\mid\\mathbf{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}]\\right)\\right]\\right].\n\\end{aligned} \\qquad (5.3)"
   },
   {
     "id": "page_0059-b006",

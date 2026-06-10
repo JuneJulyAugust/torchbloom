@@ -33,7 +33,7 @@
     "page_key": 410,
     "order": 4,
     "type": "caption",
-    "text": "Figure 20.9 Goldilocks zone. The proportion of Hessian eigenvalues that are greater than zero in a random subspace of dimension $D_s$ is plotted against squared parameter radius relative to Xavier initialization; a pronounced region of positive curvature is known as the Goldilocks zone. Adapted from Fort & Scherlis (2019).",
+    "text": "Figure 20.9 Goldilocks zone. The proportion of Hessian eigenvalues that are greater than zero in a random subspace of dimension $D\\_s$ is plotted against squared parameter radius relative to Xavier initialization; a pronounced region of positive curvature is known as the Goldilocks zone. Adapted from Fort & Scherlis (2019).",
     "source": "deepseek+paddle",
     "confidence": "high"
   }

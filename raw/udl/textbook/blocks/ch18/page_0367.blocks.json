@@ -41,7 +41,7 @@
     "page_key": 367,
     "order": 5,
     "type": "paragraph",
-    "text": "As for other generative models, the highest quality results result from applying a combination of tricks and extensions to the basic model. First, it's been noted that it also helps to estimate the variances $\\sigma_{t}^{2}$ of the reverse process as well as the mean (i.e., the widths",
+    "text": "As for other generative models, the highest quality results result from applying a combination of tricks and extensions to the basic model. First, it's been noted that it also helps to estimate the variances $\\sigma\\_{t}^{2}$ of the reverse process as well as the mean (i.e., the widths",
     "source": "deepseek",
     "confidence": "medium"
   }

@@ -4,7 +4,7 @@
     "page_key": 392,
     "order": 1,
     "type": "paragraph",
-    "text": "where $r_{it}$ is the reward at time t in the $i^{th}$ episode. It can (non-obviously) be proved that the first term (the rewards before time t) does not affect the update from time t, so we can write:",
+    "text": "where $r\\_{it}$ is the reward at time t in the $i^{th}$ episode. It can (non-obviously) be proved that the first term (the rewards before time t) does not affect the update from time t, so we can write:",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -31,7 +31,7 @@
     "page_key": 392,
     "order": 4,
     "type": "paragraph",
-    "text": "REINFORCE is an early policy gradient algorithm that exploits this result and incorporates discounting. It is a Monte Carlo method that generates episodes $\\tau_{i} = [s_{i1}, a_{i1}, r_{i2}, s_{i2}, a_{i2}, r_{i3}, \\ldots, r_{iT}]$ based on the current policy $\\pi[a|s,\\theta]$ . For discrete actions, this policy could be determined by a neural network $\\pi[s,\\theta]$ , which takes the current state s and returns one output for each possible action. These outputs are passed through a softmax function to create a distribution over actions, which is sampled at each time step.",
+    "text": "REINFORCE is an early policy gradient algorithm that exploits this result and incorporates discounting. It is a Monte Carlo method that generates episodes $\\tau\\_{i} = [s\\_{i1}, a\\_{i1}, r\\_{i2}, s\\_{i2}, a\\_{i2}, r\\_{i3}, \\ldots, r\\_{iT}]$ based on the current policy $\\pi[a|s,\\theta]$ . For discrete actions, this policy could be determined by a neural network $\\pi[s,\\theta]$ , which takes the current state s and returns one output for each possible action. These outputs are passed through a softmax function to create a distribution over actions, which is sampled at each time step.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -40,7 +40,7 @@
     "page_key": 392,
     "order": 5,
     "type": "paragraph",
-    "text": "For each episode i, we loop through each step t and calculate the empirical discounted return for the partial trajectory $\\tau_{it}$ that starts at time t:",
+    "text": "For each episode i, we loop through each step t and calculate the empirical discounted return for the partial trajectory $\\tau\\_{it}$ that starts at time t:",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -76,7 +76,7 @@
     "page_key": 392,
     "order": 9,
     "type": "paragraph",
-    "text": "where $\\pi_{a_t}[s_t,\\theta]$ is the probability of $a_t$ produced by the neural network given the current state $\\mathbf{s}_t$ and parameters $\\theta$, and $\\alpha$ is the learning rate.",
+    "text": "where $\\pi\\_{a\\_t}[s\\_t,\\theta]$ is the probability of $a\\_t$ produced by the neural network given the current state $\\mathbf{s}\\_t$ and parameters $\\theta$, and $\\alpha$ is the learning rate.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -112,7 +112,7 @@
     "page_key": 392,
     "order": 13,
     "type": "paragraph",
-    "text": "As long as the baseline b doesn\u2019t depend on the actions:",
+    "text": "As long as the baseline b doesn’t depend on the actions:",
     "source": "deepseek+paddle",
     "confidence": "medium"
   }

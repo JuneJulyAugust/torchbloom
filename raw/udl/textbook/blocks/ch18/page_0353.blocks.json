@@ -13,7 +13,7 @@
     "page_key": 353,
     "order": 2,
     "type": "paragraph",
-    "text": "To train the decoder to invert this process, we use multiple samples $\\mathbf{z}_{t}$ at time $t$ for the same example $\\mathbf{x}$. However, generating these sequentially using equation 18.1 is time-consuming when $t$ is large. Fortunately, there is a closed-form expression for $q(\\mathbf{z}_{t}|\\mathbf{x})$, which allows us to directly draw samples $\\mathbf{z}_{1} \\ldots \\mathbf{z}_{t-1}$. This is known as the diffusion kernel (figure 18.3).",
+    "text": "To train the decoder to invert this process, we use multiple samples $\\mathbf{z}\\_{t}$ at time $t$ for the same example $\\mathbf{x}$. However, generating these sequentially using equation 18.1 is time-consuming when $t$ is large. Fortunately, there is a closed-form expression for $q(\\mathbf{z}\\_{t}|\\mathbf{x})$, which allows us to directly draw samples $\\mathbf{z}\\_{1} \\ldots \\mathbf{z}\\_{t-1}$. This is known as the diffusion kernel (figure 18.3).",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -22,7 +22,7 @@
     "page_key": 353,
     "order": 3,
     "type": "paragraph",
-    "text": "To derive an expression for $q(\\mathbf{z}_{t}|\\mathbf{x})$, consider the first two steps of the forward process:",
+    "text": "To derive an expression for $q(\\mathbf{z}\\_{t}|\\mathbf{x})$, consider the first two steps of the forward process:",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -58,7 +58,7 @@
     "page_key": 353,
     "order": 7,
     "type": "paragraph",
-    "text": "The last two terms are independent samples from mean-zero normal distributions with variances $1 - \\beta_{2} - (1 - \\beta_{2})(1 - \\beta_{1})$ and $\\beta_{2}$, respectively. The mean of this sum is zero, and its variance is the sum of the component variances (see problem 18.2), so:",
+    "text": "The last two terms are independent samples from mean-zero normal distributions with variances $1 - \\beta\\_{2} - (1 - \\beta\\_{2})(1 - \\beta\\_{1})$ and $\\beta\\_{2}$, respectively. The mean of this sum is zero, and its variance is the sum of the component variances (see problem 18.2), so:",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -85,7 +85,7 @@
     "page_key": 353,
     "order": 10,
     "type": "paragraph",
-    "text": "If we continue this process by substituting this equation into the expression for $\\mathbf{z}_{3}$ and so on, we can show that:",
+    "text": "If we continue this process by substituting this equation into the expression for $\\mathbf{z}\\_{3}$ and so on, we can show that:",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -103,7 +103,7 @@
     "page_key": 353,
     "order": 12,
     "type": "paragraph",
-    "text": "where $\\alpha_{t}=\\prod_{s=1}^{t}1-\\beta_{s}$. We can equivalently write this in probabilistic form:",
+    "text": "where $\\alpha\\_{t}=\\prod\\_{s=1}^{t}1-\\beta\\_{s}$. We can equivalently write this in probabilistic form:",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -121,7 +121,7 @@
     "page_key": 353,
     "order": 14,
     "type": "paragraph",
-    "text": "For any starting data point x, variable $z_{t}$ is normally distributed with a known mean and variance. Consequently, if we don't care about the history of the evolution through the intermediate variables $z_{1} \\ldots z_{t-1}$ , it is easy to generate samples from $q(\\mathbf{z}_{t}|\\mathbf{x})$ .",
+    "text": "For any starting data point x, variable $z\\_{t}$ is normally distributed with a known mean and variance. Consequently, if we don't care about the history of the evolution through the intermediate variables $z\\_{1} \\ldots z\\_{t-1}$ , it is easy to generate samples from $q(\\mathbf{z}\\_{t}|\\mathbf{x})$ .",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -139,7 +139,7 @@
     "page_key": 353,
     "order": 16,
     "type": "paragraph",
-    "text": "The marginal distribution $q(\\mathbf{z}_{t})$ is the probability of observing a value of $\\mathbf{z}_{t}$ given the distribution of possible starting points $x$ and the possible diffusion paths for each starting",
+    "text": "The marginal distribution $q(\\mathbf{z}\\_{t})$ is the probability of observing a value of $\\mathbf{z}\\_{t}$ given the distribution of possible starting points $x$ and the possible diffusion paths for each starting",
     "source": "deepseek",
     "confidence": "medium"
   }

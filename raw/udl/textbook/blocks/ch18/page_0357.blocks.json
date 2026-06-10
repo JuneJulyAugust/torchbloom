@@ -4,7 +4,7 @@
     "page_key": 357,
     "order": 1,
     "type": "paragraph",
-    "text": "where $\\mathbf{f}_{t}[\\mathbf{z}_{t},\\boldsymbol{\\phi}_{t}]$ is a neural network that computes the mean of the normal distribution in the estimated mapping from $\\mathbf{z}_{t}$ to the preceding latent variable $\\mathbf{z}_{t-1}$. The terms $\\lbrace \\sigma_{t}^{2} \\rbrace$ are predetermined. If the hyperparameters $\\beta_{t}$ in the diffusion process are close to zero (and the number of time steps $T$ is large), then this normal approximation will be reasonable.",
+    "text": "where $\\mathbf{f}\\_{t}[\\mathbf{z}\\_{t},\\boldsymbol{\\phi}\\_{t}]$ is a neural network that computes the mean of the normal distribution in the estimated mapping from $\\mathbf{z}\\_{t}$ to the preceding latent variable $\\mathbf{z}\\_{t-1}$. The terms $\\lbrace \\sigma\\_{t}^{2} \\rbrace$ are predetermined. If the hyperparameters $\\beta\\_{t}$ in the diffusion process are close to zero (and the number of time steps $T$ is large), then this normal approximation will be reasonable.",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -13,7 +13,7 @@
     "page_key": 357,
     "order": 2,
     "type": "paragraph",
-    "text": "We generate new examples from $\\Pr(\\mathbf{x})$ using ancestral sampling. We start by drawing $z_{T}$ from $\\Pr(\\mathbf{z}_{T})$ . Then we sample $z_{T-1}$ from $\\Pr(\\mathbf{z}_{T-1}|\\mathbf{z}_{T}, \\boldsymbol{\\phi}_{T})$ , sample $z_{T-2}$ from $\\Pr(\\mathbf{z}_{T-2}|\\mathbf{z}_{T-1}, \\boldsymbol{\\phi}_{T-1})$ and so on until we finally generate x from $\\Pr(\\mathbf{x}|\\mathbf{z}_{1}, \\boldsymbol{\\phi}_{1})$ .",
+    "text": "We generate new examples from $\\Pr(\\mathbf{x})$ using ancestral sampling. We start by drawing $z\\_{T}$ from $\\Pr(\\mathbf{z}\\_{T})$ . Then we sample $z\\_{T-1}$ from $\\Pr(\\mathbf{z}\\_{T-1}|\\mathbf{z}\\_{T}, \\boldsymbol{\\phi}\\_{T})$ , sample $z\\_{T-2}$ from $\\Pr(\\mathbf{z}\\_{T-2}|\\mathbf{z}\\_{T-1}, \\boldsymbol{\\phi}\\_{T-1})$ and so on until we finally generate x from $\\Pr(\\mathbf{x}|\\mathbf{z}\\_{1}, \\boldsymbol{\\phi}\\_{1})$ .",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -31,7 +31,7 @@
     "page_key": 357,
     "order": 4,
     "type": "paragraph",
-    "text": "The joint distribution of the observed variable $\\mathbf{x}$ and the latent variables $\\lbrace \\mathbf{z}_{t}\\rbrace$ is:",
+    "text": "The joint distribution of the observed variable $\\mathbf{x}$ and the latent variables $\\lbrace \\mathbf{z}\\_{t}\\rbrace$ is:",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -40,7 +40,7 @@
     "page_key": 357,
     "order": 5,
     "type": "equation",
-    "text": "$$\n\\Pr(\\mathbf{x},\\mathbf{z}_{1\\ldots T}\\,|\\,\\boldsymbol{\\phi}_{1\\ldots T})=\\Pr(\\mathbf{x}\\,|\\,\\mathbf{z}_{1},\\boldsymbol{\\phi}_{1})\\prod_{t=2}^{T}\\Pr(\\mathbf{z}_{t-1}\\,|\\,\\mathbf{z}_{t},\\boldsymbol{\\phi}_{t})\\cdot \\Pr(\\mathbf{z}_{T})\n\\qquad (18.17)\n$$",
+    "text": "$$\n\\Pr(\\mathbf{x},\\mathbf{z}_{1\\ldots T}\\mid\\boldsymbol{\\phi}_{1\\ldots T})=\\Pr(\\mathbf{x}\\mid\\mathbf{z}_{1},\\boldsymbol{\\phi}_{1})\\prod_{t=2}^{T}\\Pr(\\mathbf{z}_{t-1}\\mid\\mathbf{z}_{t},\\boldsymbol{\\phi}_{t})\\cdot \\Pr(\\mathbf{z}_{T})\n\\qquad (18.17)\n$$",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -49,7 +49,7 @@
     "page_key": 357,
     "order": 6,
     "type": "paragraph",
-    "text": "The likelihood of the observed data $\\Pr(\\mathbf{x}|\\boldsymbol{\\phi}_{1\\ldots T})$ is found by marginalizing over the latent variables:",
+    "text": "The likelihood of the observed data $\\Pr(\\mathbf{x}|\\boldsymbol{\\phi}\\_{1\\ldots T})$ is found by marginalizing over the latent variables:",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -58,7 +58,7 @@
     "page_key": 357,
     "order": 7,
     "type": "equation",
-    "text": "$$\n\\Pr(\\mathbf{x}\\,|\\,\\boldsymbol{\\phi}_{1\\ldots T})=\\int \\Pr(\\mathbf{x},\\mathbf{z}_{1\\ldots T}\\,|\\,\\boldsymbol{\\phi}_{1\\ldots T})d\\mathbf{z}_{1\\ldots T}\n\\qquad (18.18)\n$$",
+    "text": "$$\n\\Pr(\\mathbf{x}\\mid\\boldsymbol{\\phi}_{1\\ldots T})=\\int \\Pr(\\mathbf{x},\\mathbf{z}_{1\\ldots T}\\mid\\boldsymbol{\\phi}_{1\\ldots T})d\\mathbf{z}_{1\\ldots T}\n\\qquad (18.18)\n$$",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -67,7 +67,7 @@
     "page_key": 357,
     "order": 8,
     "type": "paragraph",
-    "text": "To train the model, we maximize the log-likelihood of the training data $\\lbrace x_{i}\\rbrace$ with respect to the parameters $\\phi$ :",
+    "text": "To train the model, we maximize the log-likelihood of the training data $\\lbrace x\\_{i}\\rbrace$ with respect to the parameters $\\phi$ :",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -76,7 +76,7 @@
     "page_key": 357,
     "order": 9,
     "type": "equation",
-    "text": "$$\n\\hat{\\boldsymbol{\\phi}}_{1\\ldots T}=\\underset{\\boldsymbol{\\phi}_{1\\ldots T}}{\\mathop{\\mathrm{arg\\,max}}}\\left[\\sum_{i=1}^{I}\\log\\left[\\Pr(\\mathbf{x}_{i}|\\boldsymbol{\\phi}_{1\\ldots T})\\right]\\right]\n\\qquad (18.19)\n$$",
+    "text": "$$\n\\hat{\\boldsymbol{\\phi}}_{1\\ldots T}=\\underset{\\boldsymbol{\\phi}_{1\\ldots T}}{\\mathop{\\mathrm{argmax}}}\\left[\\sum_{i=1}^{I}\\log\\left[\\Pr(\\mathbf{x}_{i}|\\boldsymbol{\\phi}_{1\\ldots T})\\right]\\right]\n\\qquad (18.19)\n$$",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -85,7 +85,7 @@
     "page_key": 357,
     "order": 10,
     "type": "paragraph",
-    "text": "We can't maximize this directly because the marginalization in equation 18.18 is intractable. Hence, we use Jensen's inequality to define a lower bound on the likelihood and optimize the parameters $\\phi_{1\\ldots T}$ with respect to this bound exactly as we did for the VAE (see section 17.3.1).",
+    "text": "We can't maximize this directly because the marginalization in equation 18.18 is intractable. Hence, we use Jensen's inequality to define a lower bound on the likelihood and optimize the parameters $\\phi\\_{1\\ldots T}$ with respect to this bound exactly as we did for the VAE (see section 17.3.1).",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -103,7 +103,7 @@
     "page_key": 357,
     "order": 12,
     "type": "paragraph",
-    "text": "To derive the lower bound, we multiply and divide the log-likelihood by the encoder distribution $q(\\mathbf{z}_{1\\ldots T}\\,|\\,\\mathbf{x})$ and apply Jensen's inequality (see section 17.3.2):",
+    "text": "To derive the lower bound, we multiply and divide the log-likelihood by the encoder distribution $q(\\mathbf{z}\\_{1\\ldots T}\\mid\\mathbf{x})$ and apply Jensen's inequality (see section 17.3.2):",
     "source": "deepseek",
     "confidence": "medium"
   },

@@ -68,7 +68,7 @@
     "page_key": 208,
     "order": 8,
     "type": "paragraph",
-    "text": "A self-attention block $sa[\\bullet]$ takes N inputs $x_{1},\\ldots,x_{N}$ , each of dimension $D\\times1$ , and returns N outputs, each of which is also of size $D\\times1$ . In the context of NLP, each input represents a word or word fragment. First, a set of values are computed for each input:",
+    "text": "A self-attention block $sa[\\bullet]$ takes N inputs $x\\_{1},\\ldots,x\\_{N}$ , each of dimension $D\\times1$ , and returns N outputs, each of which is also of size $D\\times1$ . In the context of NLP, each input represents a word or word fragment. First, a set of values are computed for each input:",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -87,7 +87,7 @@
     "page_key": 208,
     "order": 10,
     "type": "paragraph",
-    "text": "where $\\beta_{v}\\in\\mathbb{R}^{D\\times1}$ and $\\Omega_{v}\\in\\mathbb{R}^{D\\times D}$ represent biases and weights, respectively.",
+    "text": "where $\\beta\\_{v}\\in\\mathbb{R}^{D\\times1}$ and $\\Omega\\_{v}\\in\\mathbb{R}^{D\\times D}$ represent biases and weights, respectively.",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -96,7 +96,7 @@
     "page_key": 208,
     "order": 11,
     "type": "paragraph",
-    "text": "Then the $n^{th}$ output $\\mathbf{s}\\mathbf{a}_{n}[\\mathbf{x}_{1},\\ldots,\\mathbf{x}_{N}]$ is a weighted sum of all the values $\\mathbf{v}_{1},\\ldots,\\mathbf{v}_{N}$:",
+    "text": "Then the $n^{th}$ output $\\mathbf{s}\\mathbf{a}\\_{n}[\\mathbf{x}\\_{1},\\ldots,\\mathbf{x}\\_{N}]$ is a weighted sum of all the values $\\mathbf{v}\\_{1},\\ldots,\\mathbf{v}\\_{N}$:",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -115,7 +115,7 @@
     "page_key": 208,
     "order": 13,
     "type": "paragraph",
-    "text": "The scalar weight $a[\\mathbf{x}_{m},\\mathbf{x}_{n}]$ is the attention that the $n^{th}$ output pays to input $\\mathbf{x}_{m}$. The N weights $a[\\bullet,\\mathbf{x}_{n}]$ are non-negative and sum to one. Hence, self-attention can be thought of as routing the values in different proportions to create each output (figure 12.1).",
+    "text": "The scalar weight $a[\\mathbf{x}\\_{m},\\mathbf{x}\\_{n}]$ is the attention that the $n^{th}$ output pays to input $\\mathbf{x}\\_{m}$. The N weights $a[\\bullet,\\mathbf{x}\\_{n}]$ are non-negative and sum to one. Hence, self-attention can be thought of as routing the values in different proportions to create each output (figure 12.1).",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -124,7 +124,7 @@
     "page_key": 208,
     "order": 14,
     "type": "paragraph",
-    "text": "The following sections examine dot-product self-attention in more detail. First, we consider the computation of the values and their subsequent weighting (equation 12.3). Then we describe how to compute the attention weights $a[x_{m}, x_{n}]$ themselves.",
+    "text": "The following sections examine dot-product self-attention in more detail. First, we consider the computation of the values and their subsequent weighting (equation 12.3). Then we describe how to compute the attention weights $a[x\\_{m}, x\\_{n}]$ themselves.",
     "source": "deepseek+paddle",
     "confidence": "high"
   }

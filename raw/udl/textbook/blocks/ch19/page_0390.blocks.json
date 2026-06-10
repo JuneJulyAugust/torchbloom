@@ -13,7 +13,7 @@
     "page_key": 390,
     "order": 2,
     "type": "paragraph",
-    "text": "Consider a trajectory $\\tau = [\\mathbf{s}_{1}, a_{1}, \\mathbf{s}_{2}, a_{2}, \\ldots, \\mathbf{s}_{T}, a_{T}, \\mathbf{s}_{T+1}]$ through an MDP. The probability of this trajectory $\\Pr(\\tau | \\theta)$ depends on both the state evolution function $\\Pr(\\mathbf{s}_{t+1} | \\mathbf{s}_t, a_t)$ and the current stochastic policy $\\pi[a_{t} | \\mathbf{s}_t, \\theta]$:",
+    "text": "Consider a trajectory $\\tau = [\\mathbf{s}\\_{1}, a\\_{1}, \\mathbf{s}\\_{2}, a\\_{2}, \\ldots, \\mathbf{s}\\_{T}, a\\_{T}, \\mathbf{s}\\_{T+1}]$ through an MDP. The probability of this trajectory $\\Pr(\\tau | \\theta)$ depends on both the state evolution function $\\Pr(\\mathbf{s}\\_{t+1} | \\mathbf{s}\\_t, a\\_t)$ and the current stochastic policy $\\pi[a\\_{t} | \\mathbf{s}\\_t, \\theta]$:",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -40,7 +40,7 @@
     "page_key": 390,
     "order": 5,
     "type": "equation",
-    "text": "$$\n\\theta=\\underset{\\theta}{\\mathop{\\mathrm{arg\\,max}}}\\left[\\mathbb{E}_{\\tau}\\Big[r[\\boldsymbol{\\tau}]\\Big]\\right]=\\underset{\\theta}{\\mathop{\\mathrm{arg\\,max}}}\\left[\\int \\Pr(\\boldsymbol{\\tau}|\\boldsymbol{\\theta})r\\big[\\boldsymbol{\\tau}\\big]d\\boldsymbol{\\tau}\\right], \\quad (19.23)\n$$",
+    "text": "$$\n\\theta=\\underset{\\theta}{\\mathop{\\mathrm{argmax}}}\\left[\\mathbb{E}_{\\tau}\\Big[r[\\boldsymbol{\\tau}]\\Big]\\right]=\\underset{\\theta}{\\mathop{\\mathrm{argmax}}}\\left[\\int \\Pr(\\boldsymbol{\\tau}|\\boldsymbol{\\theta})r\\big[\\boldsymbol{\\tau}\\big]d\\boldsymbol{\\tau}\\right], \\quad (19.23)\n$$",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -103,7 +103,7 @@
     "page_key": 390,
     "order": 12,
     "type": "paragraph",
-    "text": "This equation has a simple interpretation (figure 19.15); the update changes the parameters $\\theta$ to increase the likelihood $\\Pr(\\tau_{i}|\\boldsymbol{\\theta})$ of an observed trajectory $\\tau_{i}$ in proportion to the return $r[\\boldsymbol{\\tau}_{i}]$ from that trajectory. However, it also normalizes by the probability of observing that trajectory in the first place to compensate for the fact that some trajectories are observed more often than others. If a trajectory is already common and yields a high return, then we don\u2019t need to change much. The biggest updates will come from trajectories that are uncommon but create large returns.",
+    "text": "This equation has a simple interpretation (figure 19.15); the update changes the parameters $\\theta$ to increase the likelihood $\\Pr(\\tau\\_{i}|\\boldsymbol{\\theta})$ of an observed trajectory $\\tau\\_{i}$ in proportion to the return $r[\\boldsymbol{\\tau}\\_{i}]$ from that trajectory. However, it also normalizes by the probability of observing that trajectory in the first place to compensate for the fact that some trajectories are observed more often than others. If a trajectory is already common and yields a high return, then we don’t need to change much. The biggest updates will come from trajectories that are uncommon but create large returns.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },

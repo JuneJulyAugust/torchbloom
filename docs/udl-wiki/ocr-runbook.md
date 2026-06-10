@@ -44,4 +44,4 @@ python -m torchbloom.udl_fusion_pilot validate --chapters 1,2,3,4,5,6,7,8,9,10,1
 python -m torchbloom.udl_fusion_pilot publish --chapters 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 --raw-root raw/udl/textbook --output-dir output/udl-fusion-redo --clean-legacy
 ```
 
-Always validate both final Markdown and block JSON sidecars. The validator rejects GitHub-hostile math syntax and semantic OCR residue in `text`, `latex`, `caption`, and `alt` fields so a clean Markdown preview cannot hide a future sidecar regression.
+Always validate both final Markdown and block JSON sidecars. The validator rejects GitHub-hostile math syntax and semantic OCR residue in `text`, `latex`, `caption`, and `alt` fields so a clean Markdown preview cannot hide a future sidecar regression. Inline math with subscripts must escape underscores in Markdown source, and final math must not use `\,` spacing commands because GitHub strips them before math rendering.

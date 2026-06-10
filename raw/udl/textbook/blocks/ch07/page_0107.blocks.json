@@ -15,7 +15,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "Each functional component (linear transform, ReLU activation, loss function) in the framework knows how to compute its own derivative. For example, the PyTorch ReLU function $z_{out} = relu[z_{in}]$ knows how to compute the derivative of its output $z_{out}$ with respect to its input $z_{in}$. Similarly, a linear function $z_{out} = \\beta + \\Omega z_{in}$ knows how to compute the derivatives of the output $z_{out}$ with respect to the input $z_{in}$ and with respect to the parameters $\\beta$ and $\\Omega$. The algorithmic differentiation framework also knows the sequence of operations in the network and thus has all the information required to perform the forward and backward passes."
+    "text": "Each functional component (linear transform, ReLU activation, loss function) in the framework knows how to compute its own derivative. For example, the PyTorch ReLU function $z\\_{out} = relu[z\\_{in}]$ knows how to compute the derivative of its output $z\\_{out}$ with respect to its input $z\\_{in}$. Similarly, a linear function $z\\_{out} = \\beta + \\Omega z\\_{in}$ knows how to compute the derivatives of the output $z\\_{out}$ with respect to the input $z\\_{in}$ and with respect to the parameters $\\beta$ and $\\Omega$. The algorithmic differentiation framework also knows the sequence of operations in the network and thus has all the information required to perform the forward and backward passes."
   },
   {
     "id": "page_0107-b003",
@@ -33,7 +33,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "Since the training algorithm now processes the entire batch in parallel, the input becomes a multi-dimensional tensor. In this context, a tensor can be considered the generalization of a matrix to arbitrary dimensions. Hence, a vector is a 1D tensor, a matrix is a 2D tensor, and a 3D tensor is a 3D grid of numbers. Until now, the training data have been 1D, so the input for backpropagation would be a 2D tensor where the first dimension indexes the batch element and the second indexes the data dimension. In subsequent chapters, we will encounter more complex structured input data. For example, in models where the input is an RGB image, the original data examples are 3D (height \u00d7 width \u00d7 channel). Here, the input to the learning framework would be a 4D tensor, where the extra dimension indexes the batch element."
+    "text": "Since the training algorithm now processes the entire batch in parallel, the input becomes a multi-dimensional tensor. In this context, a tensor can be considered the generalization of a matrix to arbitrary dimensions. Hence, a vector is a 1D tensor, a matrix is a 2D tensor, and a 3D tensor is a 3D grid of numbers. Until now, the training data have been 1D, so the input for backpropagation would be a 2D tensor where the first dimension indexes the batch element and the second indexes the data dimension. In subsequent chapters, we will encounter more complex structured input data. For example, in models where the input is an RGB image, the original data examples are 3D (height × width × channel). Here, the input to the learning framework would be a 4D tensor, where the extra dimension indexes the batch element."
   },
   {
     "id": "page_0107-b005",
@@ -51,7 +51,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "We have described backpropagation in a deep neural network that is naturally sequential; we calculate the intermediate quantities $f_{0}, h_{1}, f_{1}, h_{2} \\ldots, f_{k}$ in turn. However, models need not be restricted to sequential computation. Later in this book, we will meet models with branching structures. For example, we might take the values in a hidden layer and process them through two different sub-networks before recombining."
+    "text": "We have described backpropagation in a deep neural network that is naturally sequential; we calculate the intermediate quantities $f\\_{0}, h\\_{1}, f\\_{1}, h\\_{2} \\ldots, f\\_{k}$ in turn. However, models need not be restricted to sequential computation. Later in this book, we will meet models with branching structures. For example, we might take the values in a hidden layer and process them through two different sub-networks before recombining."
   },
   {
     "id": "page_0107-b007",
@@ -78,6 +78,6 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "The backpropagation algorithm computes the derivatives that are used by stochastic gradient descent and Adam to train the model. We now address how to initialize the parameters before we start training. To see why this is crucial, consider that during the forward pass, each set of pre-activations $f_{k}$ is computed as:"
+    "text": "The backpropagation algorithm computes the derivatives that are used by stochastic gradient descent and Adam to train the model. We now address how to initialize the parameters before we start training. To see why this is crucial, consider that during the forward pass, each set of pre-activations $f\\_{k}$ is computed as:"
   }
 ]

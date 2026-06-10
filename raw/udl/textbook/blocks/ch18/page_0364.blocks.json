@@ -13,7 +13,7 @@
     "page_key": 364,
     "order": 2,
     "type": "paragraph",
-    "text": "Input: Training data x Output: Model parameters $\\phi_t$",
+    "text": "Input: Training data x Output: Model parameters $\\phi\\_t$",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -31,7 +31,7 @@
     "page_key": 364,
     "order": 4,
     "type": "paragraph",
-    "text": "$\\ell_i = \\|\\mathbf{g}_t\\left[\\sqrt{\\alpha_t}\\mathbf{x}_i + \\sqrt{1 - \\alpha_t} \\epsilon, \\phi_t\\right] - \\mathbf{\\varepsilon}\\|^2$ // Compute individual loss",
+    "text": "$\\ell\\_i = \\|\\mathbf{g}\\_t\\left[\\sqrt{\\alpha\\_t}\\mathbf{x}\\_i + \\sqrt{1 - \\alpha\\_t} \\epsilon, \\phi\\_t\\right] - \\mathbf{\\varepsilon}\\|^2$ // Compute individual loss",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -58,7 +58,7 @@
     "page_key": 364,
     "order": 7,
     "type": "paragraph",
-    "text": "Input: Model, $\\mathbf{g}_t[\\bullet,\\phi_t]$",
+    "text": "Input: Model, $\\mathbf{g}\\_t[\\bullet,\\phi\\_t]$",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -76,7 +76,7 @@
     "page_key": 364,
     "order": 9,
     "type": "paragraph",
-    "text": "$z_T \\sim \\mathrm{Norm}_\\mathbf{z}[0,I]$ // Sample last latent variable",
+    "text": "$z\\_T \\sim \\mathrm{Norm}\\_\\mathbf{z}[0,I]$ // Sample last latent variable",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -85,7 +85,7 @@
     "page_key": 364,
     "order": 10,
     "type": "paragraph",
-    "text": "for $t = T \\ldots 2$ do $\\hat{\\mathbf{z}}_{t-1} = \\frac{1}{\\sqrt{1-\\beta_t}}\\mathbf{z}_t - \\frac{\\beta_t}{\\sqrt{1-\\alpha_t}\\sqrt{1-\\beta_t}}\\mathbf{g}_t[\\mathbf{z}_{t},\\phi_{t}]$ // Predict previous latent variable $\\epsilon \\sim \\mathrm{Norm}_\\mathbf{\\varepsilon}[0,I]$ // Draw new noise vector $\\mathbf{z}_{t-1} = \\hat{\\mathbf{z}}_{t-1} + \\sigma_t\\epsilon$ // Add noise to previous latent variable $\\mathbf{x} = \\frac{1}{\\sqrt{1-\\beta_1}}\\mathbf{z}_1 - \\frac{\\beta_1}{\\sqrt{1-\\alpha_1}\\sqrt{1-\\beta_1}}\\mathbf{g}_1[\\mathbf{z}_{1},\\phi_{1}]$ // Generate sample from $\\mathbf{z}_1$ without noise",
+    "text": "for $t = T \\ldots 2$ do $\\hat{\\mathbf{z}}\\_{t-1} = \\frac{1}{\\sqrt{1-\\beta\\_t}}\\mathbf{z}\\_t - \\frac{\\beta\\_t}{\\sqrt{1-\\alpha\\_t}\\sqrt{1-\\beta\\_t}}\\mathbf{g}\\_t[\\mathbf{z}\\_{t},\\phi\\_{t}]$ // Predict previous latent variable $\\epsilon \\sim \\mathrm{Norm}\\_\\mathbf{\\varepsilon}[0,I]$ // Draw new noise vector $\\mathbf{z}\\_{t-1} = \\hat{\\mathbf{z}}\\_{t-1} + \\sigma\\_t\\epsilon$ // Add noise to previous latent variable $\\mathbf{x} = \\frac{1}{\\sqrt{1-\\beta\\_1}}\\mathbf{z}\\_1 - \\frac{\\beta\\_1}{\\sqrt{1-\\alpha\\_1}\\sqrt{1-\\beta\\_1}}\\mathbf{g}\\_1[\\mathbf{z}\\_{1},\\phi\\_{1}]$ // Generate sample from $\\mathbf{z}\\_1$ without noise",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -112,7 +112,7 @@
     "page_key": 364,
     "order": 13,
     "type": "paragraph",
-    "text": "A large number of time steps are needed as the conditional probabilities $q(\\mathbf{z}_{t-1}|\\mathbf{z}_t)$ become closer to normal when the hyperparameters $\\beta_t$ are close to zero, matching the form of the decoder determined vector representing the time step as input (figure 18.9). In practice, this is resized to match the number of channels at each stage of the U-Net and used to offset and/or scale the representation at each spatial position.",
+    "text": "A large number of time steps are needed as the conditional probabilities $q(\\mathbf{z}\\_{t-1}|\\mathbf{z}\\_t)$ become closer to normal when the hyperparameters $\\beta\\_t$ are close to zero, matching the form of the decoder determined vector representing the time step as input (figure 18.9). In practice, this is resized to match the number of channels at each stage of the U-Net and used to offset and/or scale the representation at each spatial position.",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -130,7 +130,7 @@
     "page_key": 364,
     "order": 15,
     "type": "paragraph",
-    "text": "The loss function (equation 18.40) requires the diffusion kernel to have the form $q(\\mathbf{z}_{t}|\\mathbf{x}) = \\mathrm{Norm}[\\sqrt{\\alpha_{t}}\\mathbf{x}, \\sqrt{1 - \\alpha_{t}} \\cdot \\mathbf{I}]$. The same loss function will be valid for any forward process",
+    "text": "The loss function (equation 18.40) requires the diffusion kernel to have the form $q(\\mathbf{z}\\_{t}|\\mathbf{x}) = \\mathrm{Norm}[\\sqrt{\\alpha\\_{t}}\\mathbf{x}, \\sqrt{1 - \\alpha\\_{t}} \\cdot \\mathbf{I}]$. The same loss function will be valid for any forward process",
     "source": "deepseek",
     "confidence": "medium"
   }

@@ -15,7 +15,7 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "list",
-    "text": "1. The three hidden units $h_1$, $h_2$, and $h_3$ in the first layer are computed as usual by forming linear functions of the input and passing these through ReLU activation functions (equation 4.7)."
+    "text": "1. The three hidden units $h\\_1$, $h\\_2$, and $h\\_3$ in the first layer are computed as usual by forming linear functions of the input and passing these through ReLU activation functions (equation 4.7)."
   },
   {
     "id": "page_0046-b003",
@@ -96,6 +96,6 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "paragraph",
-    "text": "We denote the number of layers as $K$ and the number of hidden units in each layer as $D_1$, $D_2$, ..., $D_K$. These are examples of hyperparameters. They are quantities chosen before we learn the model parameters (i.e., the slope and intercept terms). For fixed hyperparameters (e.g., $K=2$ layers with $D_k=3$ hidden units in each), the model describes a family of functions, and the parameters determine the particular function. Hence, when we also consider the hyperparameters, we can think of neural networks as representing a family of families of functions relating input to output."
+    "text": "We denote the number of layers as $K$ and the number of hidden units in each layer as $D\\_1$, $D\\_2$, ..., $D\\_K$. These are examples of hyperparameters. They are quantities chosen before we learn the model parameters (i.e., the slope and intercept terms). For fixed hyperparameters (e.g., $K=2$ layers with $D\\_k=3$ hidden units in each), the model describes a family of functions, and the parameters determine the particular function. Hence, when we also consider the hyperparameters, we can think of neural networks as representing a family of families of functions relating input to output."
   }
 ]

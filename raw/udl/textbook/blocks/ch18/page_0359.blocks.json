@@ -4,7 +4,7 @@
     "page_key": 359,
     "order": 1,
     "type": "paragraph",
-    "text": "where all but two of the terms in the product of the ratios $q(\\mathbf{z}_{t-1}|\\mathbf{x})/q(\\mathbf{z}_t|\\mathbf{x})$ cancel out between lines two and three leaving only $q(\\mathbf{z}_{1}|\\mathbf{x})$ and $q(\\mathbf{z}_T|\\mathbf{x})$. The last term in the third line is approximately $\\log[1]=0$ since the result of the forward process $q(\\mathbf{z}_T|\\mathbf{x})$ is a standard normal distribution, and so is equal to the prior $\\Pr(\\mathbf{z}_T)$.",
+    "text": "where all but two of the terms in the product of the ratios $q(\\mathbf{z}\\_{t-1}|\\mathbf{x})/q(\\mathbf{z}\\_t|\\mathbf{x})$ cancel out between lines two and three leaving only $q(\\mathbf{z}\\_{1}|\\mathbf{x})$ and $q(\\mathbf{z}\\_T|\\mathbf{x})$. The last term in the third line is approximately $\\log[1]=0$ since the result of the forward process $q(\\mathbf{z}\\_T|\\mathbf{x})$ is a standard normal distribution, and so is equal to the prior $\\Pr(\\mathbf{z}\\_T)$.",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -22,7 +22,7 @@
     "page_key": 359,
     "order": 3,
     "type": "equation",
-    "text": "$$\n\\begin{aligned}\n\\mathrm{ELBO}\\big[\\phi_{1\\ldots T}\\big]\n&=\\int q(\\mathbf{z}_{1\\ldots T}|\\mathbf{x})\\log\\left[\\frac{\\Pr(\\mathbf{x},\\mathbf{z}_{1\\ldots T}|\\phi_{1\\ldots T})}{q(\\mathbf{z}_{1\\ldots T}|\\mathbf{x})}\\right]d\\mathbf{z}_{1\\ldots T} \\\\\n&\\approx\\int q(\\mathbf{z}_{1\\ldots T}|\\mathbf{x})\\left(\\log\\left[\\Pr(\\mathbf{x}|\\mathbf{z}_{1},\\phi_{1})\\right]+\\sum_{t=2}^{T}\\log\\left[\\frac{\\Pr(\\mathbf{z}_{t-1}|\\mathbf{z}_{t},\\phi_{t})}{q(\\mathbf{z}_{t-1}|\\mathbf{z}_{t},\\mathbf{x})}\\right]\\right)d\\mathbf{z}_{1\\ldots T} \\\\\n&=\\mathbb{E}_{q(\\mathbf{z}_{1}|\\mathbf{x})}\\left[\\log\\left[\\Pr(\\mathbf{x}|\\mathbf{z}_{1},\\phi_{1})\\right]\\right]\n-\\sum_{t=2}^{T}\\mathbb{E}_{q(\\mathbf{z}_{t,t-1}|\\mathbf{x})}\\left[\\mathrm{D}_{KL}\\left[q(\\mathbf{z}_{t-1}|\\mathbf{z}_{t},\\mathbf{x})\\,\\|\\,\\Pr(\\mathbf{z}_{t-1}|\\mathbf{z}_{t},\\phi_{t})\\right]\\right]\n\\end{aligned}\n\\qquad (18.25)\n$$",
+    "text": "$$\n\\begin{aligned}\n\\mathrm{ELBO}\\big[\\phi_{1\\ldots T}\\big]\n&=\\int q(\\mathbf{z}_{1\\ldots T}|\\mathbf{x})\\log\\left[\\frac{\\Pr(\\mathbf{x},\\mathbf{z}_{1\\ldots T}|\\phi_{1\\ldots T})}{q(\\mathbf{z}_{1\\ldots T}|\\mathbf{x})}\\right]d\\mathbf{z}_{1\\ldots T} \\\\\n&\\approx\\int q(\\mathbf{z}_{1\\ldots T}|\\mathbf{x})\\left(\\log\\left[\\Pr(\\mathbf{x}|\\mathbf{z}_{1},\\phi_{1})\\right]+\\sum_{t=2}^{T}\\log\\left[\\frac{\\Pr(\\mathbf{z}_{t-1}|\\mathbf{z}_{t},\\phi_{t})}{q(\\mathbf{z}_{t-1}|\\mathbf{z}_{t},\\mathbf{x})}\\right]\\right)d\\mathbf{z}_{1\\ldots T} \\\\\n&=\\mathbb{E}_{q(\\mathbf{z}_{1}|\\mathbf{x})}\\left[\\log\\left[\\Pr(\\mathbf{x}|\\mathbf{z}_{1},\\phi_{1})\\right]\\right]\n-\\sum_{t=2}^{T}\\mathbb{E}_{q(\\mathbf{z}_{t,t-1}|\\mathbf{x})}\\left[\\mathrm{D}_{KL}\\left[q(\\mathbf{z}_{t-1}|\\mathbf{z}_{t},\\mathbf{x})\\|\\Pr(\\mathbf{z}_{t-1}|\\mathbf{z}_{t},\\phi_{t})\\right]\\right]\n\\end{aligned}\n\\qquad (18.25)\n$$",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -31,7 +31,7 @@
     "page_key": 359,
     "order": 4,
     "type": "paragraph",
-    "text": "where we have marginalized over the irrelevant variables in $q(\\mathbf{z}_{1\\ldots T}\\,|\\,\\mathbf{x})$ between lines two and three and used the definition of KL divergence (see problem 18.7).",
+    "text": "where we have marginalized over the irrelevant variables in $q(\\mathbf{z}\\_{1\\ldots T}\\mid\\mathbf{x})$ between lines two and three and used the definition of KL divergence (see problem 18.7).",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -67,7 +67,7 @@
     "page_key": 359,
     "order": 8,
     "type": "paragraph",
-    "text": "and is equivalent to the reconstruction term in the VAE. The ELBO will be larger if the model prediction matches the observed data. As for the VAE, we will approximate the expectation over the log of this quantity using a Monte Carlo estimate (see equations 17.22-17.23), in which we estimate the expectation with a sample from $q(\\mathbf{z}_{1}|\\mathbf{x})$.",
+    "text": "and is equivalent to the reconstruction term in the VAE. The ELBO will be larger if the model prediction matches the observed data. As for the VAE, we will approximate the expectation over the log of this quantity using a Monte Carlo estimate (see equations 17.22-17.23), in which we estimate the expectation with a sample from $q(\\mathbf{z}\\_{1}|\\mathbf{x})$.",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -76,7 +76,7 @@
     "page_key": 359,
     "order": 9,
     "type": "paragraph",
-    "text": "The KL divergence terms in the ELBO measure the distance between $\\Pr(\\mathbf{z}_{t-1}|\\mathbf{z}_t,\\phi_t)$ and $q(\\mathbf{z}_{t-1}|\\mathbf{z}_t,\\mathbf{x})$, which were defined in equations 18.16 and 18.15, respectively:",
+    "text": "The KL divergence terms in the ELBO measure the distance between $\\Pr(\\mathbf{z}\\_{t-1}|\\mathbf{z}\\_t,\\phi\\_t)$ and $q(\\mathbf{z}\\_{t-1}|\\mathbf{z}\\_t,\\mathbf{x})$, which were defined in equations 18.16 and 18.15, respectively:",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -103,7 +103,7 @@
     "page_key": 359,
     "order": 12,
     "type": "equation",
-    "text": "$$\n\\begin{aligned}\n\\mathrm{D}_{KL}\\left[q(\\mathbf{z}_{t-1}|\\mathbf{z}_t,\\mathbf{x})\\,\\|\\,\\Pr(\\mathbf{z}_{t-1}|\\mathbf{z}_t,\\phi_t)\\right]\n&=\\frac{1}{2\\sigma_{t}^{2}}\\left\\|\\frac{1-\\alpha_{t-1}}{1-\\alpha_{t}}\\sqrt{1-\\beta_{t}}\\mathbf{z}_{t}+\\frac{\\sqrt{\\alpha_{t-1}}\\beta_{t}}{1-\\alpha_{t}}\\mathbf{x}-\\mathbf{f}_{t}[\\mathbf{z}_{t},\\phi_{t}]\\right\\|^{2}+C.\n\\end{aligned}\n\\qquad (18.28)\n$$",
+    "text": "$$\n\\begin{aligned}\n\\mathrm{D}_{KL}\\left[q(\\mathbf{z}_{t-1}|\\mathbf{z}_t,\\mathbf{x})\\|\\Pr(\\mathbf{z}_{t-1}|\\mathbf{z}_t,\\phi_t)\\right]\n&=\\frac{1}{2\\sigma_{t}^{2}}\\left\\|\\frac{1-\\alpha_{t-1}}{1-\\alpha_{t}}\\sqrt{1-\\beta_{t}}\\mathbf{z}_{t}+\\frac{\\sqrt{\\alpha_{t-1}}\\beta_{t}}{1-\\alpha_{t}}\\mathbf{x}-\\mathbf{f}_{t}[\\mathbf{z}_{t},\\phi_{t}]\\right\\|^{2}+C.\n\\end{aligned}\n\\qquad (18.28)\n$$",
     "source": "deepseek",
     "confidence": "medium"
   }

@@ -24,7 +24,7 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "paragraph",
-    "text": "where $\\psi_{10} = \\theta'_{10} + \\theta'_{11}\\phi_0 $, $\\psi_{12} = \\theta'_{11}\\phi_2 $ and so on. The result is a network with two hidden layers (figure 4.4). It follows that a network with two layers can represent the family of functions created by passing the output of one single-layer network into another. In fact, it represents a broader family because in equation 4.6, the nine slope parameters $\\psi_{11}, \\psi_{21}, \\ldots, \\psi_{33}$ can take arbitrary values, whereas in equation 4.5, these parameters are constrained to be the outer product $\\left[\\theta'_{11}, \\theta'_{21}, \\theta'_{31}\\right]^{T}[\\phi_1, \\phi_2, \\phi_3]$."
+    "text": "where $\\psi\\_{10} = \\theta'\\_{10} + \\theta'\\_{11}\\phi\\_0 $, $\\psi\\_{12} = \\theta'\\_{11}\\phi\\_2 $ and so on. The result is a network with two hidden layers (figure 4.4). It follows that a network with two layers can represent the family of functions created by passing the output of one single-layer network into another. In fact, it represents a broader family because in equation 4.6, the nine slope parameters $\\psi\\_{11}, \\psi\\_{21}, \\ldots, \\psi\\_{33}$ can take arbitrary values, whereas in equation 4.5, these parameters are constrained to be the outer product $\\left[\\theta'\\_{11}, \\theta'\\_{21}, \\theta'\\_{31}\\right]^{T}[\\phi\\_1, \\phi\\_2, \\phi\\_3]$."
   },
   {
     "id": "page_0045-b004",

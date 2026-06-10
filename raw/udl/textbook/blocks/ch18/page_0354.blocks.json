@@ -4,7 +4,7 @@
     "page_key": 354,
     "order": 1,
     "type": "paragraph",
-    "text": "point (figure 18.4). It can be computed by considering the joint distribution $q(x, z_{1\\ldots t})$ and marginalizing over all the variables except $z_{t}$:",
+    "text": "point (figure 18.4). It can be computed by considering the joint distribution $q(x, z\\_{1\\ldots t})$ and marginalizing over all the variables except $z\\_{t}$:",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -22,7 +22,7 @@
     "page_key": 354,
     "order": 3,
     "type": "paragraph",
-    "text": "where $q(z_{1\\ldots t}|x)$ was defined in equation 18.3.",
+    "text": "where $q(z\\_{1\\ldots t}|x)$ was defined in equation 18.3.",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -31,7 +31,7 @@
     "page_key": 354,
     "order": 4,
     "type": "paragraph",
-    "text": "However, since we now have an expression for the diffusion kernel $q(z_{t}|x)$ that \"skips\" the intervening variables, we can equivalently write:",
+    "text": "However, since we now have an expression for the diffusion kernel $q(z\\_{t}|x)$ that \"skips\" the intervening variables, we can equivalently write:",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -49,7 +49,7 @@
     "page_key": 354,
     "order": 6,
     "type": "paragraph",
-    "text": "Hence, if we repeatedly sample from the data distribution $\\Pr(x)$ and superimpose the diffusion kernel $q(z_{t}|x)$ on each sample, the result is the marginal distribution $q(z_{t})$ (figure 18.4). However, the marginal distribution cannot be written in closed form because we don't know the original data distribution $\\Pr(x)$.",
+    "text": "Hence, if we repeatedly sample from the data distribution $\\Pr(x)$ and superimpose the diffusion kernel $q(z\\_{t}|x)$ on each sample, the result is the marginal distribution $q(z\\_{t})$ (figure 18.4). However, the marginal distribution cannot be written in closed form because we don't know the original data distribution $\\Pr(x)$.",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -67,7 +67,7 @@
     "page_key": 354,
     "order": 8,
     "type": "paragraph",
-    "text": "We defined the conditional probability $q(z_{t}|z_{t-1})$ as the mixing process (equation 18.2). To reverse this process, we apply Bayes' rule:",
+    "text": "We defined the conditional probability $q(z\\_{t}|z\\_{t-1})$ as the mixing process (equation 18.2). To reverse this process, we apply Bayes' rule:",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -85,7 +85,7 @@
     "page_key": 354,
     "order": 10,
     "type": "paragraph",
-    "text": "This is intractable since we cannot compute the marginal distribution $q(z_{t-1})$.",
+    "text": "This is intractable since we cannot compute the marginal distribution $q(z\\_{t-1})$.",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -94,7 +94,7 @@
     "page_key": 354,
     "order": 11,
     "type": "paragraph",
-    "text": "For this simple 1D example, it's possible to evaluate $q(z_{t-1}|z_t)$ numerically (figure 18.5). In general, their form is complex, but in many cases, they are well-approximated by a normal distribution. This is important because when we build the decoder, we will approximate the reverse process using a normal distribution.",
+    "text": "For this simple 1D example, it's possible to evaluate $q(z\\_{t-1}|z\\_t)$ numerically (figure 18.5). In general, their form is complex, but in many cases, they are well-approximated by a normal distribution. This is important because when we build the decoder, we will approximate the reverse process using a normal distribution.",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -112,7 +112,7 @@
     "page_key": 354,
     "order": 13,
     "type": "paragraph",
-    "text": "There is one final distribution related to the encoder to consider. We noted above that we could not find the conditional distribution $q(z_{t-1}|z_t)$ because we do not know the marginal distribution $q(z_{t-1})$. However, if we know the starting variable x, then we do know the distribution $q(z_{t-1}|x)$ at the time before. This is just the diffusion kernel (figure 18.3), and it is normally distributed.",
+    "text": "There is one final distribution related to the encoder to consider. We noted above that we could not find the conditional distribution $q(z\\_{t-1}|z\\_t)$ because we do not know the marginal distribution $q(z\\_{t-1})$. However, if we know the starting variable x, then we do know the distribution $q(z\\_{t-1}|x)$ at the time before. This is just the diffusion kernel (figure 18.3), and it is normally distributed.",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -121,7 +121,7 @@
     "page_key": 354,
     "order": 14,
     "type": "paragraph",
-    "text": "Hence, it is possible to compute the conditional diffusion distribution $q(z_{t-1}|z_t,x)$ in closed form (figure 18.6). This distribution is used to train the decoder. It is the distribution over $z_{t-1}$ when we know the current latent variable $z_t$ and the training",
+    "text": "Hence, it is possible to compute the conditional diffusion distribution $q(z\\_{t-1}|z\\_t,x)$ in closed form (figure 18.6). This distribution is used to train the decoder. It is the distribution over $z\\_{t-1}$ when we know the current latent variable $z\\_t$ and the training",
     "source": "deepseek",
     "confidence": "medium"
   }

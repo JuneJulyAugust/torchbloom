@@ -14,7 +14,7 @@
     "page_key": 415,
     "order": 2,
     "type": "caption",
-    "text": "Figure 20.14 Adversarial examples. In each case, the left image is correctly classified by AlexNet. By considering the gradients of the network output with respect to the input, it\u2019s possible to find a small perturbation (center) magnified by 10 for visibility) that, when added to the original image (right), causes the network to misclassify it as an ostrich. This is despite the fact that the original and perturbed images are almost indistinguishable to humans. Adapted from Szegedy et al. (2014).",
+    "text": "Figure 20.14 Adversarial examples. In each case, the left image is correctly classified by AlexNet. By considering the gradients of the network output with respect to the input, it’s possible to find a small perturbation (center) magnified by 10 for visibility) that, when added to the original image (right), causes the network to misclassify it as an ostrich. This is despite the fact that the original and perturbed images are almost indistinguishable to humans. Adapted from Szegedy et al. (2014).",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -32,7 +32,7 @@
     "page_key": 415,
     "order": 4,
     "type": "paragraph",
-    "text": "The conclusion is that there are positions that are close to but not on the data manifold that are misclassified. These are known as adversarial examples. Their existence is surprising; how can such a small change to the network input make such a drastic change to the output? The best current explanation is that adversarial examples aren\u2019t due to a lack of robustness to data from outside the training data manifold. Instead, they are exploiting a source of information that is in the training distribution but which has a small norm and is imperceptible to humans (Ilyas et al., 2019).",
+    "text": "The conclusion is that there are positions that are close to but not on the data manifold that are misclassified. These are known as adversarial examples. Their existence is surprising; how can such a small change to the network input make such a drastic change to the output? The best current explanation is that adversarial examples aren’t due to a lack of robustness to data from outside the training data manifold. Instead, they are exploiting a source of information that is in the training distribution but which has a small norm and is imperceptible to humans (Ilyas et al., 2019).",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -59,7 +59,7 @@
     "page_key": 415,
     "order": 7,
     "type": "paragraph",
-    "text": "However, section 20.2 reviewed evidence that training becomes easier as the number of parameters increases. Hence, it\u2019s not clear if some fundamental property of smaller models prevents them from performing as well or whether the training algorithms can\u2019t find good solutions for small models. Pruning and distilling are two methods for reducing the size of trained models. This section examines whether these methods can produce underparameterized models which retain the performance of overparameterized ones.",
+    "text": "However, section 20.2 reviewed evidence that training becomes easier as the number of parameters increases. Hence, it’s not clear if some fundamental property of smaller models prevents them from performing as well or whether the training algorithms can’t find good solutions for small models. Pruning and distilling are two methods for reducing the size of trained models. This section examines whether these methods can produce underparameterized models which retain the performance of overparameterized ones.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },

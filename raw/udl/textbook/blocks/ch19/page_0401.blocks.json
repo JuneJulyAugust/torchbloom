@@ -41,7 +41,7 @@
     "page_key": 401,
     "order": 5,
     "type": "paragraph",
-    "text": "Problem 19.7 $^{*}$ Suppose that we want to estimate a quantity $\\mathbb{E}[a]$ from samples $a_{1}, a_{2} \\ldots a_{I}$ . Consider that we also have paired samples $b_{1}, b_{2} \\ldots b_{I}$ that are samples that co-vary with $a$ where $\\mathbb{E}[b] = \\mu_{b}$ . We define a new variable:",
+    "text": "Problem 19.7 $^{*}$ Suppose that we want to estimate a quantity $\\mathbb{E}[a]$ from samples $a\\_{1}, a\\_{2} \\ldots a\\_{I}$ . Consider that we also have paired samples $b\\_{1}, b\\_{2} \\ldots b\\_{I}$ that are samples that co-vary with $a$ where $\\mathbb{E}[b] = \\mu\\_{b}$ . We define a new variable:",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -50,7 +50,7 @@
     "page_key": 401,
     "order": 6,
     "type": "exercise",
-    "text": "Problem 19.7 $^{*}$ Suppose that we want to estimate a quantity E[a] from samples $a_{1}, a_{2} \\ldots a_{I}$ . Consider that we also have paired samples $b_{1}, b_{2} \\ldots b_{I}$ that are samples that co-vary with a where E[b] = $\\mu_{b}$ . We define a new variable:",
+    "text": "Problem 19.7 $^{*}$ Suppose that we want to estimate a quantity E[a] from samples $a\\_{1}, a\\_{2} \\ldots a\\_{I}$ . Consider that we also have paired samples $b\\_{1}, b\\_{2} \\ldots b\\_{I}$ that are samples that co-vary with a where E[b] = $\\mu\\_{b}$ . We define a new variable:",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },

@@ -13,7 +13,7 @@
     "page_key": 394,
     "order": 2,
     "type": "paragraph",
-    "text": "A better option is to use a baseline $b[\\mathbf{s}_{it}]$ that depends on the current state $\\mathbf{S}_{it}$.",
+    "text": "A better option is to use a baseline $b[\\mathbf{s}\\_{it}]$ that depends on the current state $\\mathbf{S}\\_{it}$.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -76,7 +76,7 @@
     "page_key": 394,
     "order": 9,
     "type": "paragraph",
-    "text": "In the TD approach, we do not have access to the future rewards $r[\\boldsymbol{\\tau}_{t}] = \\sum_{k=t}^{T} r_{k}$ along this trajectory. Actor-critic algorithms approximate the sum over all the future rewards with the observed current reward plus the discounted value of the next state:",
+    "text": "In the TD approach, we do not have access to the future rewards $r[\\boldsymbol{\\tau}\\_{t}] = \\sum\\_{k=t}^{T} r\\_{k}$ along this trajectory. Actor-critic algorithms approximate the sum over all the future rewards with the observed current reward plus the discounted value of the next state:",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -94,7 +94,7 @@
     "page_key": 394,
     "order": 11,
     "type": "paragraph",
-    "text": "Here the value $v[s_{i,t+1},\\phi]$ is estimated by a second neural network with parameters $\\phi$. Substituting this into equation 19.38 gives the update:",
+    "text": "Here the value $v[s\\_{i,t+1},\\phi]$ is estimated by a second neural network with parameters $\\phi$. Substituting this into equation 19.38 gives the update:",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -130,7 +130,7 @@
     "page_key": 394,
     "order": 15,
     "type": "paragraph",
-    "text": "The policy network $\\pi[\\mathbf{s}_{t},\\boldsymbol{\\theta}]$ that predicts $\\Pr(a|\\mathbf{s}_{t})$ is termed the actor. The value network $\\upsilon[\\mathbf{s}_{t},\\boldsymbol{\\phi}]$ is termed the critic. Often the same network represents both actor and",
+    "text": "The policy network $\\pi[\\mathbf{s}\\_{t},\\boldsymbol{\\theta}]$ that predicts $\\Pr(a|\\mathbf{s}\\_{t})$ is termed the actor. The value network $\\upsilon[\\mathbf{s}\\_{t},\\boldsymbol{\\phi}]$ is termed the critic. Often the same network represents both actor and",
     "source": "deepseek+paddle",
     "confidence": "medium"
   }

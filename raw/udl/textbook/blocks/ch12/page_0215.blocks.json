@@ -14,10 +14,10 @@
     "page_key": 215,
     "order": 2,
     "type": "caption",
-    "text": "Figure 12.6 Multi-head self-attention. Self-attention occurs in parallel across multiple “heads.” Each has its own queries, keys, and values. Here two heads are depicted, in the cyan and orange boxes, respectively. The outputs are vertically concatenated, and another linear transformation $\\Omega_{c}$ is used to recombine them.",
+    "text": "Figure 12.6 Multi-head self-attention. Self-attention occurs in parallel across multiple “heads.” Each has its own queries, keys, and values. Here two heads are depicted, in the cyan and orange boxes, respectively. The outputs are vertically concatenated, and another linear transformation $\\Omega\\_{c}$ is used to recombine them.",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "caption": "Figure 12.6 Multi-head self-attention. Self-attention occurs in parallel across multiple “heads.” Each has its own queries, keys, and values. Here two heads are depicted, in the cyan and orange boxes, respectively. The outputs are vertically concatenated, and another linear transformation $\\Omega_{c}$ is used to recombine them."
+    "caption": "Figure 12.6 Multi-head self-attention. Self-attention occurs in parallel across multiple “heads.” Each has its own queries, keys, and values. Here two heads are depicted, in the cyan and orange boxes, respectively. The outputs are vertically concatenated, and another linear transformation $\\Omega\\_{c}$ is used to recombine them."
   },
   {
     "id": "page_0215-b003",

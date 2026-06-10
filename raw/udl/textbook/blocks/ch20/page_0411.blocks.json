@@ -41,7 +41,7 @@
     "page_key": 411,
     "order": 5,
     "type": "paragraph",
-    "text": "Fort & Scherlis (2019) measured the curvature at random points on a neural network loss surface; they showed that the curvature of the surface is unusually positive when the $\\ell_{2}$ norm of the weights lies within a certain range (figure 20.9), which they term the Goldilocks zone. He and Xavier initialization fall within this range.",
+    "text": "Fort & Scherlis (2019) measured the curvature at random points on a neural network loss surface; they showed that the curvature of the surface is unusually positive when the $\\ell\\_{2}$ norm of the weights lies within a certain range (figure 20.9), which they term the Goldilocks zone. He and Xavier initialization fall within this range.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },

@@ -60,11 +60,13 @@ Every equation must satisfy these rules before a worker can mark a page complete
 2. No `\[` / `\]`, no `\(` / `\)`, no `\tag{...}`, no `\operatorname`, and no `$^1$` footnote markers.
 3. Use `\mathrm{argmin}`, `\mathrm{ReLU}`, `\mathrm{HardSwish}`, or plain text instead of `\operatorname{...}`.
 4. Use `\Pr`, `\log`, `\exp`, `\sum`, `\prod`, `\int`, `\frac`, `\sqrt`, `\mathbf`, `\boldsymbol`, `\mathbb`, and `\mathcal` only in normal LaTeX form, not double escaped.
-5. Use `\mid` or `\,|\,` for conditional bars in probability expressions. Do not write literal OCR `||`.
-6. Do not leave bare OCR math tokens such as `argmin`, `argmax`, `Pr(...)`, `Norm(...)`, or `log(...)` in display math. Use `\mathrm{argmin}`, `\mathrm{argmax}`, `\Pr[...]`, `\mathcal{N}(...)`, and `\log[...]` or equivalent GitHub-renderable LaTeX.
-7. Do not nest display math environments. A `$$` block must not contain `\begin{align}`, `\begin{align*}`, `\[` or another display wrapper. Use only the inner `aligned` environment when alignment is needed.
-8. Multi-row equations must not be compressed onto one line. Put each aligned row on its own Markdown line.
-9. Display equations that need alignment must use this shape:
+5. Escape underscores inside inline math as `\_` in Markdown source, for example `$\mathbf{z}\_{t}$`; GitHub can parse unescaped inline underscores as Markdown emphasis before math rendering.
+6. Use `\mid` for conditional bars in probability expressions. Do not use `\,|\,`, because GitHub strips `\,` before math rendering, and do not write literal OCR `||`.
+7. Do not use `\,` spacing commands in final Markdown math. Prefer no spacing command or semantic commands such as `\mid`.
+8. Do not leave bare OCR math tokens such as `argmin`, `argmax`, `Pr(...)`, `Norm(...)`, or `log(...)` in display math. Use `\mathrm{argmin}`, `\mathrm{argmax}`, `\Pr[...]`, `\mathcal{N}(...)`, and `\log[...]` or equivalent GitHub-renderable LaTeX.
+9. Do not nest display math environments. A `$$` block must not contain `\begin{align}`, `\begin{align*}`, `\[` or another display wrapper. Use only the inner `aligned` environment when alignment is needed.
+10. Multi-row equations must not be compressed onto one line. Put each aligned row on its own Markdown line.
+11. Display equations that need alignment must use this shape:
 
 ```markdown
 $$
@@ -77,10 +79,10 @@ left_hand_side
 $$
 ```
 
-10. No equation line may consist only of `=`, `&=`, `+`, `-`, or other operators. If GitHub fails to render, the fallback text must still not become a Markdown heading or horizontal rule.
-11. Equation numbers are plain visible math at the end, such as `\qquad (18.21)`.
-12. Inline set literals use `$\lbrace x_i, y_i\rbrace$`, not escaped Markdown braces.
-13. Any page with an equation reconstructed from visual evidence must list the equation number in the chapter report.
+12. No equation line may consist only of `=`, `&=`, `+`, `-`, or other operators. If GitHub fails to render, the fallback text must still not become a Markdown heading or horizontal rule.
+13. Equation numbers are plain visible math at the end, such as `\qquad (18.21)`.
+14. Inline set literals use `$\lbrace x\_i, y\_i\rbrace$`, not escaped Markdown braces.
+15. Any page with an equation reconstructed from visual evidence must list the equation number in the chapter report.
 
 ## Subagent Work Split
 

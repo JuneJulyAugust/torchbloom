@@ -32,7 +32,7 @@
     "page_key": 277,
     "order": 4,
     "type": "paragraph",
-    "text": "Figure 15.1 illustrates this scheme. We start with a training set $\\lbrace x_{i}\\rbrace$ of real 1D examples. A different batch of ten of these examples $\\lbrace x_{i}\\rbrace_{i=1}^{10}$ is shown in each panel (cyan arrows). To create a batch of samples $\\lbrace x_{j}^{*}\\rbrace$, we use the simple generator:",
+    "text": "Figure 15.1 illustrates this scheme. We start with a training set $\\lbrace x\\_{i}\\rbrace$ of real 1D examples. A different batch of ten of these examples $\\lbrace x\\_{i}\\rbrace\\_{i=1}^{10}$ is shown in each panel (cyan arrows). To create a batch of samples $\\lbrace x\\_{j}^{*}\\rbrace$, we use the simple generator:",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -50,7 +50,7 @@
     "page_key": 277,
     "order": 6,
     "type": "paragraph",
-    "text": "where latent variables $\\lbrace z_{j}\\rbrace$ are drawn from a standard normal distribution, and the parameter $\\theta$ translates the generated samples along the x-axis (figure 15.1).",
+    "text": "where latent variables $\\lbrace z\\_{j}\\rbrace$ are drawn from a standard normal distribution, and the parameter $\\theta$ translates the generated samples along the x-axis (figure 15.1).",
     "source": "deepseek+paddle",
     "confidence": "high"
   },

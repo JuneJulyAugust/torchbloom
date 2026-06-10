@@ -14,7 +14,7 @@
     "page_key": 318,
     "order": 2,
     "type": "caption",
-    "text": "Figure 16.10 Multiscale flows. The latent space z must be the same size as the model density in normalizing flows. However, it can be partitioned into several components, which can be gradually introduced at different layers. This makes both density estimation and sampling faster. For the inverse process, the black arrows are reversed, and the last part of each block skips the remaining processing. For example, $f_{3}^{-1}[\\bullet,\\phi_{3}]$ only operates on the first three blocks, and the fourth block becomes $z_{4}$ and is assessed against the base density.",
+    "text": "Figure 16.10 Multiscale flows. The latent space z must be the same size as the model density in normalizing flows. However, it can be partitioned into several components, which can be gradually introduced at different layers. This makes both density estimation and sampling faster. For the inverse process, the black arrows are reversed, and the last part of each block skips the remaining processing. For example, $f\\_{3}^{-1}[\\bullet,\\phi\\_{3}]$ only operates on the first three blocks, and the fourth block becomes $z\\_{4}$ and is assessed against the base density.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -32,7 +32,7 @@
     "page_key": 318,
     "order": 4,
     "type": "paragraph",
-    "text": "In the generative direction, multi-scale flows partition the latent vector into z = [z_{1}, z_{2}, ..., z_{N}]. The first partition $z_{1}$ is processed by a series of reversible layers with the same dimension as $z_{1}$ until, at some point, $z_{2}$ is appended and combined with the first partition. This continues until the network is the same size as the data x. In the normalizing direction, the network starts at the full dimension of x, but when it reaches the point where $z_{n}$ was added, this is assessed against the base distribution.",
+    "text": "In the generative direction, multi-scale flows partition the latent vector into z = [z_{1}, z_{2}, ..., z_{N}]. The first partition $z\\_{1}$ is processed by a series of reversible layers with the same dimension as $z\\_{1}$ until, at some point, $z\\_{2}$ is appended and combined with the first partition. This continues until the network is the same size as the data x. In the normalizing direction, the network starts at the full dimension of x, but when it reaches the point where $z\\_{n}$ was added, this is assessed against the base distribution.",
     "source": "deepseek",
     "confidence": "medium"
   },

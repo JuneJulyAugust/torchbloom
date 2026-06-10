@@ -33,7 +33,7 @@
     "page_key": 191,
     "order": 4,
     "type": "paragraph",
-    "text": "A complementary way of thinking about this residual network is that it creates sixteen paths with differing numbers of transformations between input and output. For example, the first function $f_{1}[x]$ occurs in eight of these sixteen paths, including as a direct additive term (i.e., a path length of one), and the analogous derivative to equation 11.3 is:",
+    "text": "A complementary way of thinking about this residual network is that it creates sixteen paths with differing numbers of transformations between input and output. For example, the first function $f\\_{1}[x]$ occurs in eight of these sixteen paths, including as a direct additive term (i.e., a path length of one), and the analogous derivative to equation 11.3 is:",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -52,7 +52,7 @@
     "page_key": 191,
     "order": 6,
     "type": "paragraph",
-    "text": "where there is one term for each of the eight paths. The identity term on the right-hand side shows that changes in the parameters $\\phi_{1}$ in the first layer $f_{1}[x,\\phi_{1}]$ contribute directly to changes in the network output y. They also contribute indirectly through the other chains of derivatives of varying lengths. In general, gradients through shorter paths will be better behaved. Since both the identity term and various short chains of derivatives will contribute to the derivative for each layer, networks with residual links suffer less from shattered gradients.",
+    "text": "where there is one term for each of the eight paths. The identity term on the right-hand side shows that changes in the parameters $\\phi\\_{1}$ in the first layer $f\\_{1}[x,\\phi\\_{1}]$ contribute directly to changes in the network output y. They also contribute indirectly through the other chains of derivatives of varying lengths. In general, gradients through shorter paths will be better behaved. Since both the identity term and various short chains of derivatives will contribute to the derivative for each layer, networks with residual links suffer less from shattered gradients.",
     "source": "deepseek+paddle",
     "confidence": "high"
   },

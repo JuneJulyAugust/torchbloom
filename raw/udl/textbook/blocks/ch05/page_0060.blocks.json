@@ -24,7 +24,7 @@
     "source": "deepseek",
     "confidence": "medium",
     "type": "equation",
-    "latex": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}}\n&= \\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{arg\\,min}}}\\left[-\\sum_{i=1}^{I}\\log\\left[\\Pr\\left(\\mathbf{y}_i\\mid\\mathbf{f}[\\mathbf{x}_i,\\boldsymbol{\\phi}]\\right)\\right]\\right] \\\\\n&= \\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{arg\\,min}}}\\left[L[\\boldsymbol{\\phi}]\\right]\n\\end{aligned} \\qquad (5.4)"
+    "latex": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}}\n&= \\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{argmin}}}\\left[-\\sum_{i=1}^{I}\\log\\left[\\Pr\\left(\\mathbf{y}_i\\mid\\mathbf{f}[\\mathbf{x}_i,\\boldsymbol{\\phi}]\\right)\\right]\\right] \\\\\n&= \\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{argmin}}}\\left[L[\\boldsymbol{\\phi}]\\right]\n\\end{aligned} \\qquad (5.4)"
   },
   {
     "id": "page_0060-b004",
@@ -60,7 +60,7 @@
     "source": "deepseek",
     "confidence": "medium",
     "type": "equation",
-    "latex": "\\begin{aligned}\n\\hat{\\mathbf{y}} &= \\underset{\\mathbf{y}}{\\mathop{\\mathrm{arg\\,max}}}\\left[\\Pr\\left(\\mathbf{y}\\mid\\mathbf{f}[\\mathbf{x},\\hat{\\boldsymbol{\\phi}}]\\right)\\right]\n\\end{aligned} \\qquad (5.5)"
+    "latex": "\\begin{aligned}\n\\hat{\\mathbf{y}} &= \\underset{\\mathbf{y}}{\\mathop{\\mathrm{argmax}}}\\left[\\Pr\\left(\\mathbf{y}\\mid\\mathbf{f}[\\mathbf{x},\\hat{\\boldsymbol{\\phi}}]\\right)\\right]\n\\end{aligned} \\qquad (5.5)"
   },
   {
     "id": "page_0060-b008",
@@ -87,7 +87,7 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "paragraph",
-    "text": "The recipe for constructing loss functions for training data $\\lbrace x_{i}, y_{i} \\rbrace $ using the maximum likelihood approach is hence: 1. Choose a suitable probability distribution $\\Pr(\\mathbf{y}\\,|\\,\\boldsymbol{\\theta})$ defined over the domain of the predictions y with distribution parameters $\\theta $. 2. Set the machine learning model $\\mathbf{f}[\\mathbf{x}, \\phi]$ to predict one or more of these parameters, so $\\boldsymbol{\\theta} = \\mathbf{f}[\\mathbf{x}, \\phi]$ and $\\Pr(\\mathbf{y}\\,|\\,\\boldsymbol{\\theta}) = \\Pr(\\mathbf{y}\\,|\\,\\mathbf{f}[\\mathbf{x},\\boldsymbol{\\phi}])$."
+    "text": "The recipe for constructing loss functions for training data $\\lbrace x\\_{i}, y\\_{i} \\rbrace $ using the maximum likelihood approach is hence: 1. Choose a suitable probability distribution $\\Pr(\\mathbf{y}\\mid\\boldsymbol{\\theta})$ defined over the domain of the predictions y with distribution parameters $\\theta $. 2. Set the machine learning model $\\mathbf{f}[\\mathbf{x}, \\phi]$ to predict one or more of these parameters, so $\\boldsymbol{\\theta} = \\mathbf{f}[\\mathbf{x}, \\phi]$ and $\\Pr(\\mathbf{y}\\mid\\boldsymbol{\\theta}) = \\Pr(\\mathbf{y}\\mid\\mathbf{f}[\\mathbf{x},\\boldsymbol{\\phi}])$."
   },
   {
     "id": "page_0060-b011",
@@ -96,7 +96,7 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "list",
-    "text": "3. To train the model, find the network parameters $\\hat{\\phi}$ that minimize the negative log-likelihood loss function over the training dataset pairs $\\lbrace x_{i}, y_{i} \\rbrace $:"
+    "text": "3. To train the model, find the network parameters $\\hat{\\phi}$ that minimize the negative log-likelihood loss function over the training dataset pairs $\\lbrace x\\_{i}, y\\_{i} \\rbrace $:"
   },
   {
     "id": "page_0060-b012",
@@ -105,7 +105,7 @@
     "source": "deepseek",
     "confidence": "medium",
     "type": "equation",
-    "latex": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}}\n&= \\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{arg\\,min}}}\\left[L[\\boldsymbol{\\phi}]\\right] \\\\\n&= \\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{arg\\,min}}}\\left[-\\sum_{i=1}^{I}\\log\\left[\\Pr\\left(\\mathbf{y}_i\\mid\\mathbf{f}[\\mathbf{x}_i,\\boldsymbol{\\phi}]\\right)\\right]\\right]\n\\end{aligned} \\qquad (5.6)"
+    "latex": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}}\n&= \\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{argmin}}}\\left[L[\\boldsymbol{\\phi}]\\right] \\\\\n&= \\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{argmin}}}\\left[-\\sum_{i=1}^{I}\\log\\left[\\Pr\\left(\\mathbf{y}_i\\mid\\mathbf{f}[\\mathbf{x}_i,\\boldsymbol{\\phi}]\\right)\\right]\\right]\n\\end{aligned} \\qquad (5.6)"
   },
   {
     "id": "page_0060-b013",
@@ -114,7 +114,7 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "list",
-    "text": "4. To perform inference for a new test example x, return either the full distribution $\\Pr(\\mathbf{y}\\,|\\,\\mathbf{f}[\\mathbf{x},\\hat{\\boldsymbol{\\phi}}])$ or the value where this distribution is maximized."
+    "text": "4. To perform inference for a new test example x, return either the full distribution $\\Pr(\\mathbf{y}\\mid\\mathbf{f}[\\mathbf{x},\\hat{\\boldsymbol{\\phi}}])$ or the value where this distribution is maximized."
   },
   {
     "id": "page_0060-b014",

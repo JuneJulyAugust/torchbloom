@@ -70,7 +70,7 @@
     "page_key": 213,
     "order": 8,
     "type": "paragraph",
-    "text": "Observant readers will have noticed that the self-attention mechanism overlooks important information: the computation does not take into account the order of the inputs $x_{n}$ . More precisely, it is equivariant with respect to input permutations. However, order is important when the inputs correspond to the words in a sentence. The sentence $\\theta$ is a woman at the raccoon has a different meaning than $\\theta$ . There are two main approaches to incorporating position information.",
+    "text": "Observant readers will have noticed that the self-attention mechanism overlooks important information: the computation does not take into account the order of the inputs $x\\_{n}$ . More precisely, it is equivariant with respect to input permutations. However, order is important when the inputs correspond to the words in a sentence. The sentence $\\theta$ is a woman at the raccoon has a different meaning than $\\theta$ . There are two main approaches to incorporating position information.",
     "source": "deepseek+paddle",
     "confidence": "high"
   },

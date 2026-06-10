@@ -76,7 +76,7 @@
     "page_key": 425,
     "order": 9,
     "type": "paragraph",
-    "text": "The field of machine ethics seeks approaches to creating artificial moral agents. These approaches can be categorized as top-down, bottom-up, or hybrid (Allen et al., 2005). Top-down (theory-driven) methods directly implement and hierarchically arrange concrete rules based on some moral theory to guide ethical behavior. Asimov\u2019s \u201cThree Laws of Robotics\u201d are a trivial example of this approach.",
+    "text": "The field of machine ethics seeks approaches to creating artificial moral agents. These approaches can be categorized as top-down, bottom-up, or hybrid (Allen et al., 2005). Top-down (theory-driven) methods directly implement and hierarchically arrange concrete rules based on some moral theory to guide ethical behavior. Asimov’s “Three Laws of Robotics” are a trivial example of this approach.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -85,7 +85,7 @@
     "page_key": 425,
     "order": 10,
     "type": "paragraph",
-    "text": "In bottom-up (learning-driven) approaches, a model learns moral regularities from data without explicit programming (Wallach et al., 2008). For example, Noothigattu et al. (2018) designed a voting-based system for ethical decision-making that uses data collected from human preferences in moral dilemmas to learn social preferences; the system then summarizes and aggregates the results to render an \u201cethical\u201d decision. Hybrid approaches combine top-down and bottom-up approaches.",
+    "text": "In bottom-up (learning-driven) approaches, a model learns moral regularities from data without explicit programming (Wallach et al., 2008). For example, Noothigattu et al. (2018) designed a voting-based system for ethical decision-making that uses data collected from human preferences in moral dilemmas to learn social preferences; the system then summarizes and aggregates the results to render an “ethical” decision. Hybrid approaches combine top-down and bottom-up approaches.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },

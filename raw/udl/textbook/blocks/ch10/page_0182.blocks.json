@@ -24,7 +24,7 @@
     "page_key": 182,
     "order": 3,
     "type": "paragraph",
-    "text": "an $L_{\\infty}$ norm to the hidden units that are to be pooled. This led to applying other $L_{k}$ norms (Springenberg et al., 2015; Sainath et al., 2013), although these require more computation and are not widely used. Zhang (2019) introduced max-blur-pooling, in which a low-pass filter is applied before downsampling to prevent aliasing, and showed that this improves generalization over translation of inputs and protects against adversarial attacks (see section 20.4.6).",
+    "text": "an $L\\_{\\infty}$ norm to the hidden units that are to be pooled. This led to applying other $L\\_{k}$ norms (Springenberg et al., 2015; Sainath et al., 2013), although these require more computation and are not widely used. Zhang (2019) introduced max-blur-pooling, in which a low-pass filter is applied before downsampling to prevent aliasing, and showed that this improves generalization over translation of inputs and protects against adversarial attacks (see section 20.4.6).",
     "source": "deepseek+paddle",
     "confidence": "high"
   },

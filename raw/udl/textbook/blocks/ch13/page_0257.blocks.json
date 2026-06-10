@@ -31,7 +31,7 @@
     "page_key": 257,
     "order": 4,
     "type": "paragraph",
-    "text": "In another variation, the current node is multiplied by a factor of  $(1 + \\epsilon_{k})$  before contributing to the sum, where  $\\epsilon_{k}$  is a learned scalar that is different for each layer:",
+    "text": "In another variation, the current node is multiplied by a factor of  $(1 + \\epsilon\\_{k})$  before contributing to the sum, where  $\\epsilon\\_{k}$  is a learned scalar that is different for each layer:",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -49,7 +49,7 @@
     "page_key": 257,
     "order": 6,
     "type": "paragraph",
-    "text": "This is known as diagonal enhancement. A related variation applies a different linear transform  $\\Psi_{k}$  to the current node:",
+    "text": "This is known as diagonal enhancement. A related variation applies a different linear transform  $\\Psi\\_{k}$  to the current node:",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -67,7 +67,7 @@
     "page_key": 257,
     "order": 8,
     "type": "paragraph",
-    "text": "where we have defined $\\Omega_{k}^{\\prime}=\\left[\\Omega_{k}\\quad\\Psi_{k}\\right]$ in the third line.",
+    "text": "where we have defined $\\Omega\\_{k}^{\\prime}=\\left[\\Omega\\_{k}\\quad\\Psi\\_{k}\\right]$ in the third line.",
     "source": "deepseek+paddle",
     "confidence": "high"
   },

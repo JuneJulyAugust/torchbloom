@@ -4,7 +4,7 @@
     "page_key": 356,
     "order": 1,
     "type": "paragraph",
-    "text": "data example x (which, of course, we do when training). To compute an expression for $q(\\mathbf{z}_{t-1}|\\mathbf{Z}_t,\\mathbf{x})$ we start with Bayes' rule:",
+    "text": "data example x (which, of course, we do when training). To compute an expression for $q(\\mathbf{z}\\_{t-1}|\\mathbf{Z}\\_t,\\mathbf{x})$ we start with Bayes' rule:",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -22,7 +22,7 @@
     "page_key": 356,
     "order": 3,
     "type": "paragraph",
-    "text": "where between the first two lines, we have used the fact that $q(\\mathbf{z}_{t}|\\mathbf{Z}_{t-1},\\mathbf{x})=q(\\mathbf{z}_{t}|\\mathbf{Z}_{t-1})$ because the diffusion process is Markov, and all information about $\\mathbf{z}_{t}$ is captured by $\\mathbf{Z}_{t-1}$. Between lines three and four, we use the Gaussian change of variables identity:",
+    "text": "where between the first two lines, we have used the fact that $q(\\mathbf{z}\\_{t}|\\mathbf{Z}\\_{t-1},\\mathbf{x})=q(\\mathbf{z}\\_{t}|\\mathbf{Z}\\_{t-1})$ because the diffusion process is Markov, and all information about $\\mathbf{z}\\_{t}$ is captured by $\\mathbf{Z}\\_{t-1}$. Between lines three and four, we use the Gaussian change of variables identity:",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -40,7 +40,7 @@
     "page_key": 356,
     "order": 5,
     "type": "paragraph",
-    "text": "to rewrite the first distribution in terms of $\\mathbf{z}_{t-1}$. We then use a second Gaussian identity:",
+    "text": "to rewrite the first distribution in terms of $\\mathbf{z}\\_{t-1}$. We then use a second Gaussian identity:",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -67,7 +67,7 @@
     "page_key": 356,
     "order": 8,
     "type": "paragraph",
-    "text": "to combine the two normal distributions in $\\mathbf{z}_{t-1}$, which gives:",
+    "text": "to combine the two normal distributions in $\\mathbf{z}\\_{t-1}$, which gives:",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -103,7 +103,7 @@
     "page_key": 356,
     "order": 12,
     "type": "paragraph",
-    "text": "When we learn a diffusion model, we learn the reverse process. In other words, we learn a series of probabilistic mappings back from latent variable $z_{T}$ to $z_{T-1}$ , from $z_{T-1}$ to $z_{T-2}$ , and so on, until we reach the data x. The true reverse distributions $q(\\mathbf{z}_{t-1}|\\mathbf{Z}_t)$ of the diffusion process are complex multi-modal distributions (figure 18.5) that depend on the data distribution $\\Pr(\\mathbf{x})$ . We approximate these as normal distributions:",
+    "text": "When we learn a diffusion model, we learn the reverse process. In other words, we learn a series of probabilistic mappings back from latent variable $z\\_{T}$ to $z\\_{T-1}$ , from $z\\_{T-1}$ to $z\\_{T-2}$ , and so on, until we reach the data x. The true reverse distributions $q(\\mathbf{z}\\_{t-1}|\\mathbf{Z}\\_t)$ of the diffusion process are complex multi-modal distributions (figure 18.5) that depend on the data distribution $\\Pr(\\mathbf{x})$ . We approximate these as normal distributions:",
     "source": "deepseek",
     "confidence": "medium"
   },

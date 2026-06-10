@@ -14,7 +14,7 @@
     "page_key": 381,
     "order": 2,
     "type": "caption",
-    "text": "Figure 19.8 Relationship between state values and action values. The value of state six v[s_{t}=6] is a weighted sum of the action values q[s_{t}=6, a_{t}] at state six, where the weights are the policy probabilities $\\pi[a_{t}|s_{t}=6]$ of taking that action.",
+    "text": "Figure 19.8 Relationship between state values and action values. The value of state six v[s_{t}=6] is a weighted sum of the action values q[s_{t}=6, a_{t}] at state six, where the weights are the policy probabilities $\\pi[a\\_{t}|s\\_{t}=6]$ of taking that action.",
     "source": "deepseek+paddle",
     "confidence": "high"
   },

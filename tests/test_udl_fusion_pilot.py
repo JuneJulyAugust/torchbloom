@@ -2124,6 +2124,10 @@ This inline probability still uses an OCR token: $Pr(y|x)$.
 
 This caption-like text has glued commands $\lambdaK$ and $y_d\inR$.
 
+This inline subscript is unsafe on GitHub: $\mathbf{z}_{T}$.
+
+This inline conditional uses a stripped spacing command: $\Pr(\mathbf{y}\,|\,\mathbf{x})$.
+
 $$
 \mathbf{z}_{t}=\sqrt{1-\beta_{t}}\cdot\mathbf{z}_{t-1}
 \quad\forall t\in\lbrace 2,\cdots,T
@@ -2192,5 +2196,7 @@ $$
     assert "standalone equation number" in errors
     assert "bare OCR math token inside inline math" in errors
     assert "glued math command" in errors
+    assert "unescaped inline math underscore" in errors
+    assert "GitHub strips it before math rendering" in errors
     assert "missing closing \\rbrace" in errors
     assert "broken sized delimiter before norm bar" in errors

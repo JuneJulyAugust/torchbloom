@@ -58,7 +58,7 @@
     "page_key": 370,
     "order": 7,
     "type": "paragraph",
-    "text": "Kingma et al. (2021) improved the test log-likelihood of the model by learning the denoising weights $\\beta_{t}$ . Conversely, Nichol & Dhariwal (2021) improved performance by learning separate variances $\\sigma^{2}$ of the denoising estimate at each time step in addition to the mean. Bao et al. (2022) show how to learn the variances after training the model.",
+    "text": "Kingma et al. (2021) improved the test log-likelihood of the model by learning the denoising weights $\\beta\\_{t}$ . Conversely, Nichol & Dhariwal (2021) improved performance by learning separate variances $\\sigma^{2}$ of the denoising estimate at each time step in addition to the mean. Bao et al. (2022) show how to learn the variances after training the model.",
     "source": "deepseek",
     "confidence": "medium"
   },

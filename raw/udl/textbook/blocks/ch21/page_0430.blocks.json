@@ -4,7 +4,7 @@
     "page_key": 430,
     "order": 1,
     "type": "paragraph",
-    "text": "and intellectual property. Can the output of a machine learning model (e.g., art, music, code, text) be copyrighted or patented? Is it morally acceptable or legal to fine-tune a model on a particular artist\u2019s work to reproduce that artist\u2019s style? IP law is one area that highlights how existing legislation was not created with machine learning models in mind. Although governments and courts may set precedents in the near future, these questions are still open at the time of writing.",
+    "text": "and intellectual property. Can the output of a machine learning model (e.g., art, music, code, text) be copyrighted or patented? Is it morally acceptable or legal to fine-tune a model on a particular artist’s work to reproduce that artist’s style? IP law is one area that highlights how existing legislation was not created with machine learning models in mind. Although governments and courts may set precedents in the near future, these questions are still open at the time of writing.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -22,7 +22,7 @@
     "page_key": 430,
     "order": 3,
     "type": "paragraph",
-    "text": "As society relies more on AI systems, there is an increased risk of automation bias (i.e., expectations that the model outputs are correct because they are \u201cobjective\u201d). This leads to the view that quantitative methods are better than qualitative ones. However, as we shall see in section 21.5, purportedly objective endeavors are rarely value-free.",
+    "text": "As society relies more on AI systems, there is an increased risk of automation bias (i.e., expectations that the model outputs are correct because they are “objective”). This leads to the view that quantitative methods are better than qualitative ones. However, as we shall see in section 21.5, purportedly objective endeavors are rarely value-free.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -49,7 +49,7 @@
     "page_key": 430,
     "order": 6,
     "type": "paragraph",
-    "text": "Training deep networks requires significant computational power and hence consumes a large amount of energy. Strubell et al. (2019, 2020) estimate that training a transformer model with 213 million parameters emitted around 284 tonnes of $CO_{2}$ .\u00b2 Lucioni et al. (2022) have provided similar estimates for the emissions produced from training the BLOOM language model. Unfortunately, the increasing prevalence of closed, proprietary models means that we know nothing about their environmental impacts (Luccioni, 2023).",
+    "text": "Training deep networks requires significant computational power and hence consumes a large amount of energy. Strubell et al. (2019, 2020) estimate that training a transformer model with 213 million parameters emitted around 284 tonnes of $CO\\_{2}$ .² Lucioni et al. (2022) have provided similar estimates for the emissions produced from training the BLOOM language model. Unfortunately, the increasing prevalence of closed, proprietary models means that we know nothing about their environmental impacts (Luccioni, 2023).",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },

@@ -4,7 +4,7 @@
     "page_key": 185,
     "order": 1,
     "type": "exercise",
-    "text": "Problem 10.6 * Draw a 12×6 weight matrix in the style of figure 10.4d relating inputs $x_{1}, \\ldots, x_{6}$ to outputs $h_{1}, \\ldots, h_{12}$ in the multi-channel convolution as depicted in figures 10.5a–b.",
+    "text": "Problem 10.6 * Draw a 12×6 weight matrix in the style of figure 10.4d relating inputs $x\\_{1}, \\ldots, x\\_{6}$ to outputs $h\\_{1}, \\ldots, h\\_{12}$ in the multi-channel convolution as depicted in figures 10.5a–b.",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -13,7 +13,7 @@
     "page_key": 185,
     "order": 2,
     "type": "exercise",
-    "text": "Problem 10.7 * Draw a 6×12 weight matrix in the style of figure 10.4d relating inputs $h_{1}, \\ldots, h_{12}$ to outputs $h'_{1}, \\ldots, h'_{6}$ in the multi-channel convolution in figure 10.5c.",
+    "text": "Problem 10.7 * Draw a 6×12 weight matrix in the style of figure 10.4d relating inputs $h\\_{1}, \\ldots, h\\_{12}$ to outputs $h'\\_{1}, \\ldots, h'\\_{6}$ in the multi-channel convolution in figure 10.5c.",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -49,7 +49,7 @@
     "page_key": 185,
     "order": 6,
     "type": "exercise",
-    "text": "Problem 10.11 Consider a convolutional network with 1D input x. The first hidden layer $H_{1}$ is computed using a convolution with kernel size five, stride two, and a dilation rate of one. The second hidden layer $H_{2}$ is computed using a convolution with kernel size three, stride one, and a dilation rate of one. The third hidden layer $H_{3}$ is computed using a convolution with kernel size five, stride one, and a dilation rate of two. What are the receptive field sizes at each hidden layer?",
+    "text": "Problem 10.11 Consider a convolutional network with 1D input x. The first hidden layer $H\\_{1}$ is computed using a convolution with kernel size five, stride two, and a dilation rate of one. The second hidden layer $H\\_{2}$ is computed using a convolution with kernel size three, stride one, and a dilation rate of one. The third hidden layer $H\\_{3}$ is computed using a convolution with kernel size five, stride one, and a dilation rate of two. What are the receptive field sizes at each hidden layer?",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -103,7 +103,7 @@
     "page_key": 185,
     "order": 12,
     "type": "exercise",
-    "text": "Problem 10.19 * Consider two hidden layers of size 224×224 with $C_{1}$ and $C_{2}$ channels, respectively, connected by a 3×3 convolutional layer. Describe how to initialize the weights using He initialization.",
+    "text": "Problem 10.19 * Consider two hidden layers of size 224×224 with $C\\_{1}$ and $C\\_{2}$ channels, respectively, connected by a 3×3 convolutional layer. Describe how to initialize the weights using He initialization.",
     "source": "deepseek+paddle",
     "confidence": "high"
   }

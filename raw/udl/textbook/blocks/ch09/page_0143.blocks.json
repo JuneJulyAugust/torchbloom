@@ -33,7 +33,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "Here, $L_{b}$ is the loss for the $b^{th}$ of the B batches in an epoch, and both L and $L_{b}$ now represent the means of the I individual losses in the full dataset and the $|B|$ individual losses in the batch, respectively:"
+    "text": "Here, $L\\_{b}$ is the loss for the $b^{th}$ of the B batches in an epoch, and both L and $L\\_{b}$ now represent the means of the I individual losses in the full dataset and the $|B|$ individual losses in the batch, respectively:"
   },
   {
     "id": "page_0143-b005",
@@ -51,7 +51,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "Equation 9.9 reveals an extra regularization term, which corresponds to the variance of the gradients of the batch losses $L_{b}$. In other words, SGD implicitly favors places where the gradients are stable (where all the batches agree on the slope). Once more, this modifies the trajectory of the optimization process (figure 9.4) but does not necessarily change the position of the global minimum; if the model is over-parameterized, then it may fit all the training data exactly, so each of these gradient terms will be zero at the global minimum."
+    "text": "Equation 9.9 reveals an extra regularization term, which corresponds to the variance of the gradients of the batch losses $L\\_{b}$. In other words, SGD implicitly favors places where the gradients are stable (where all the batches agree on the slope). Once more, this modifies the trajectory of the optimization process (figure 9.4) but does not necessarily change the position of the global minimum; if the model is over-parameterized, then it may fit all the training data exactly, so each of these gradient terms will be zero at the global minimum."
   },
   {
     "id": "page_0143-b007",

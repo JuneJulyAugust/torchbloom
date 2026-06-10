@@ -22,7 +22,7 @@
     "page_key": 278,
     "order": 3,
     "type": "equation",
-    "text": "$$\n\\hat{\\phi}\n= \\underset{\\phi}{\\mathrm{arg\\,min}}\\left[\\sum_{i}-(1-y_{i})\\log\\left[1-\\mathrm{sig}[f[\\mathbf{x}_{i},\\phi]]\\right]-y_{i}\\log\\left[\\mathrm{sig}[f[\\mathbf{x}_{i},\\phi]]\\right]\\right]\n\\qquad (15.2)\n$$",
+    "text": "$$\n\\hat{\\phi}\n= \\underset{\\phi}{\\mathrm{argmin}}\\left[\\sum_{i}-(1-y_{i})\\log\\left[1-\\mathrm{sig}[f[\\mathbf{x}_{i},\\phi]]\\right]-y_{i}\\log\\left[\\mathrm{sig}[f[\\mathbf{x}_{i},\\phi]]\\right]\\right]\n\\qquad (15.2)\n$$",
     "source": "codex-fusion",
     "confidence": "medium"
   },
@@ -31,7 +31,7 @@
     "page_key": 278,
     "order": 4,
     "type": "paragraph",
-    "text": "where $y_{i} \\in \\lbrace 0,1\\rbrace$ is the label, and $\\mathrm{sig}[\\bullet]$ is the logistic sigmoid function (figure 5.7).",
+    "text": "where $y\\_{i} \\in \\lbrace 0,1\\rbrace$ is the label, and $\\mathrm{sig}[\\bullet]$ is the logistic sigmoid function (figure 5.7).",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -49,7 +49,7 @@
     "page_key": 278,
     "order": 6,
     "type": "equation",
-    "text": "$$\n\\hat{\\phi}\n= \\underset{\\phi}{\\mathrm{arg\\,min}}\\left[\\sum_{j}-\\log\\left[1-\\mathrm{sig}[f[\\mathbf{x}_{j}^{*},\\phi]]\\right]-\\sum_{i}\\log\\left[\\mathrm{sig}[f[\\mathbf{x}_{i},\\phi]]\\right]\\right]\n\\qquad (15.3)\n$$",
+    "text": "$$\n\\hat{\\phi}\n= \\underset{\\phi}{\\mathrm{argmin}}\\left[\\sum_{j}-\\log\\left[1-\\mathrm{sig}[f[\\mathbf{x}_{j}^{*},\\phi]]\\right]-\\sum_{i}\\log\\left[\\mathrm{sig}[f[\\mathbf{x}_{i},\\phi]]\\right]\\right]\n\\qquad (15.3)\n$$",
     "source": "codex-fusion",
     "confidence": "medium"
   },
@@ -67,7 +67,7 @@
     "page_key": 278,
     "order": 8,
     "type": "paragraph",
-    "text": "Now we substitute the definition for the generator  $x_{j}^{*} = g[z_{i}, \\theta]$  and note that we must maximize with respect to  $\\theta$  since we want the generated samples to be misclassified (i.e., have low likelihood of being synthetic or high negative log-likelihood):",
+    "text": "Now we substitute the definition for the generator  $x\\_{j}^{*} = g[z\\_{i}, \\theta]$  and note that we must maximize with respect to  $\\theta$  since we want the generated samples to be misclassified (i.e., have low likelihood of being synthetic or high negative log-likelihood):",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -76,7 +76,7 @@
     "page_key": 278,
     "order": 9,
     "type": "equation",
-    "text": "$$\n\\hat{\\theta}\n= \\underset{\\theta}{\\mathrm{arg\\,max}}\\left[\\min_{\\phi}\\left[\\sum_{j}-\\log\\left[1-\\mathrm{sig}[f[g[\\mathbf{z}_{j},\\theta],\\phi]]\\right]-\\sum_{i}\\log\\left[\\mathrm{sig}[f[\\mathbf{x}_{i},\\phi]]\\right]\\right]\\right]\n\\qquad (15.4)\n$$",
+    "text": "$$\n\\hat{\\theta}\n= \\underset{\\theta}{\\mathrm{argmax}}\\left[\\min_{\\phi}\\left[\\sum_{j}-\\log\\left[1-\\mathrm{sig}[f[g[\\mathbf{z}_{j},\\theta],\\phi]]\\right]-\\sum_{i}\\log\\left[\\mathrm{sig}[f[\\mathbf{x}_{i},\\phi]]\\right]\\right]\\right]\n\\qquad (15.4)\n$$",
     "source": "codex-fusion",
     "confidence": "medium"
   },

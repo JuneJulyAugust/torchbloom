@@ -32,7 +32,7 @@
     "page_key": 404,
     "order": 4,
     "type": "paragraph",
-    "text": "It\u2019s important to realize that we can\u2019t learn any function. Consider a completely random mapping from every possible $28 \\times 28$ binary image to one of ten categories. Since there is no structure to this function, the only recourse is to memorize the $2^{784}$ assignments. However, it\u2019s easy to train a model on the MNIST dataset (figures 8.10 and 15.15), which contains 60,000 examples of $28 \\times 28$ images labeled with one of ten categories. One explanation for this contradiction could be that it is easy to find global minima because the real-world functions that we approximate are relatively simple. [^1]",
+    "text": "It’s important to realize that we can’t learn any function. Consider a completely random mapping from every possible $28 \\times 28$ binary image to one of ten categories. Since there is no structure to this function, the only recourse is to memorize the $2^{784}$ assignments. However, it’s easy to train a model on the MNIST dataset (figures 8.10 and 15.15), which contains 60,000 examples of $28 \\times 28$ images labeled with one of ten categories. One explanation for this contradiction could be that it is easy to find global minima because the real-world functions that we approximate are relatively simple. [^1]",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -41,7 +41,7 @@
     "page_key": 404,
     "order": 5,
     "type": "paragraph",
-    "text": "This hypothesis was investigated by Zhang et al. (2017a), who trained AlexNet on the CIFAR-10 image classification dataset (which has 50,000 examples of $32 \\times 32 \\times 3$ images labeled with one of 10 classes) when (i) each image was replaced with Gaussian noise and (ii) the labels of the ten classes were randomly permuted (figure 20.1). These changes slowed down learning, but the network could still fit this finite dataset well. This suggests that the properties of the dataset aren\u2019t critical.",
+    "text": "This hypothesis was investigated by Zhang et al. (2017a), who trained AlexNet on the CIFAR-10 image classification dataset (which has 50,000 examples of $32 \\times 32 \\times 3$ images labeled with one of 10 classes) when (i) each image was replaced with Gaussian noise and (ii) the labels of the ten classes were randomly permuted (figure 20.1). These changes slowed down learning, but the network could still fit this finite dataset well. This suggests that the properties of the dataset aren’t critical.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -77,7 +77,7 @@
     "page_key": 404,
     "order": 9,
     "type": "paragraph",
-    "text": "Chapter 6 argued that the SGD algorithm potentially allows the optimization trajectory to move between \u201cvalleys\u201d during training. However, Keskar et al. (2017) show that",
+    "text": "Chapter 6 argued that the SGD algorithm potentially allows the optimization trajectory to move between “valleys” during training. However, Keskar et al. (2017) show that",
     "source": "deepseek+paddle",
     "confidence": "medium"
   }

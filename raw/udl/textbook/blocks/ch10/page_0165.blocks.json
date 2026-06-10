@@ -31,7 +31,7 @@
     "page_key": 165,
     "order": 4,
     "type": "paragraph",
-    "text": "A convolutional layer computes its output by convolving the input, adding a bias $\\beta$, and passing each result through an activation function $a[\\bullet]$. With kernel size three, stride one, and dilation rate one, the $i^{th}$ hidden unit $h_{i}$ would be computed as:",
+    "text": "A convolutional layer computes its output by convolving the input, adding a bias $\\beta$, and passing each result through an activation function $a[\\bullet]$. With kernel size three, stride one, and dilation rate one, the $i^{th}$ hidden unit $h\\_{i}$ would be computed as:",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -50,7 +50,7 @@
     "page_key": 165,
     "order": 6,
     "type": "paragraph",
-    "text": "where the bias $\\beta$ and kernel weights $\\omega_{1}, \\omega_{2}, \\omega_{3}$ are trainable parameters, and (with zero-padding) we treat the input $x$ as zero when it is out of the valid range. This is a special case of a fully connected layer that computes the $i^{th}$ hidden unit as:",
+    "text": "where the bias $\\beta$ and kernel weights $\\omega\\_{1}, \\omega\\_{2}, \\omega\\_{3}$ are trainable parameters, and (with zero-padding) we treat the input $x$ as zero when it is out of the valid range. This is a special case of a fully connected layer that computes the $i^{th}$ hidden unit as:",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -69,7 +69,7 @@
     "page_key": 165,
     "order": 8,
     "type": "paragraph",
-    "text": "If there are D inputs $x_{\\bullet}$ and $D$ hidden units $h_{\\bullet}$, this fully connected layer would have $D^{2}$ weights $\\omega_{\\bullet\\bullet}$ and $D$ biases $\\beta_{\\bullet}$. The convolutional layer only uses three weights and one bias. A fully connected layer can reproduce this exactly if most weights are set to zero and others are constrained to be identical (figure 10.4).",
+    "text": "If there are D inputs $x\\_{\\bullet}$ and $D$ hidden units $h\\_{\\bullet}$, this fully connected layer would have $D^{2}$ weights $\\omega\\_{\\bullet\\bullet}$ and $D$ biases $\\beta\\_{\\bullet}$. The convolutional layer only uses three weights and one bias. A fully connected layer can reproduce this exactly if most weights are set to zero and others are constrained to be identical (figure 10.4).",
     "source": "deepseek+paddle",
     "confidence": "high"
   },

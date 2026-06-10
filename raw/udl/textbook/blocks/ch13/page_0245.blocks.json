@@ -76,7 +76,7 @@
     "page_key": 245,
     "order": 9,
     "type": "paragraph",
-    "text": "A graph neural network is a model that takes the node embeddings X and the adjacency matrix A as inputs and passes them through a series of K layers. The node embeddings  $H_{k}$  before finally computing output embeddings  $H_{K}$ .",
+    "text": "A graph neural network is a model that takes the node embeddings X and the adjacency matrix A as inputs and passes them through a series of K layers. The node embeddings  $H\\_{k}$  before finally computing output embeddings  $H\\_{K}$ .",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -85,7 +85,7 @@
     "page_key": 245,
     "order": 10,
     "type": "paragraph",
-    "text": "At the start of this network, each column of the input node embeddings X just contains information about the node itself. At the end, each column of the model output  $H_{K}$  includes information about the node and its context within the graph. This is similar to word embeddings passing through a transformer network. These represent words at the start, but represent the word meanings in the context of the sentence at the end.",
+    "text": "At the start of this network, each column of the input node embeddings X just contains information about the node itself. At the end, each column of the model output  $H\\_{K}$  includes information about the node and its context within the graph. This is similar to word embeddings passing through a transformer network. These represent words at the start, but represent the word meanings in the context of the sentence at the end.",
     "source": "deepseek+paddle",
     "confidence": "high"
   }

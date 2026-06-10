@@ -14,7 +14,7 @@
     "page_key": 407,
     "order": 2,
     "type": "caption",
-    "text": "Figure 20.4 Initialization and fitting. A three-layer fully connected network with 200 hidden units per layer was trained on 1000 MNIST examples with AdamW using one-hot targets and mean-squared error loss. It takes longer to fit networks when larger multiples of He initialization are used, but this doesn\u2019t change the outcome. This may simply reflect the extra distance that the weights must move. Adapted from Liu et al. (2023c).",
+    "text": "Figure 20.4 Initialization and fitting. A three-layer fully connected network with 200 hidden units per layer was trained on 1000 MNIST examples with AdamW using one-hot targets and mean-squared error loss. It takes longer to fit networks when larger multiples of He initialization are used, but this doesn’t change the outcome. This may simply reflect the extra distance that the weights must move. Adapted from Liu et al. (2023c).",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -23,7 +23,7 @@
     "page_key": 407,
     "order": 3,
     "type": "paragraph",
-    "text": "weights is less important. Liu et al. (2023c) trained a 3-layer fully connected network with 200 hidden units per layer on 1000 MNIST data points. They found that more iterations were required to fit the training data as the variance increased from that proposed by He (figure 20.4), but this did not ultimately impede fitting. Hence, initialization doesn\u2019t shed much light on why fitting neural networks is easy, although exploding/vanishing gradients do reveal initializations that make training difficult with finite precision arithmetic.",
+    "text": "weights is less important. Liu et al. (2023c) trained a 3-layer fully connected network with 200 hidden units per layer on 1000 MNIST data points. They found that more iterations were required to fit the training data as the variance increased from that proposed by He (figure 20.4), but this did not ultimately impede fitting. Hence, initialization doesn’t shed much light on why fitting neural networks is easy, although exploding/vanishing gradients do reveal initializations that make training difficult with finite precision arithmetic.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },

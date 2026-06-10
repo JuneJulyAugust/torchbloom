@@ -14,10 +14,10 @@
     "page_key": 171,
     "order": 2,
     "type": "caption",
-    "text": "Figure 10.9 2D convolutional layer. Each output $h_{ij}$ computes a weighted sum of the 3×3 nearest inputs, adds a bias, and passes the result through an activation function. a) Here, the output $h_{23}$ (shaded output) is a weighted sum of the nine positions from $x_{12}$ to $x_{34}$ (shaded inputs). b) Different outputs are computed by translating the kernel across the image grid in two dimensions. c–d) With zero-padding, positions beyond the image’s edge are considered to be zero.",
+    "text": "Figure 10.9 2D convolutional layer. Each output $h\\_{ij}$ computes a weighted sum of the 3×3 nearest inputs, adds a bias, and passes the result through an activation function. a) Here, the output $h\\_{23}$ (shaded output) is a weighted sum of the nine positions from $x\\_{12}$ to $x\\_{34}$ (shaded inputs). b) Different outputs are computed by translating the kernel across the image grid in two dimensions. c–d) With zero-padding, positions beyond the image’s edge are considered to be zero.",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "caption": "Figure 10.9 2D convolutional layer. Each output $h_{ij}$ computes a weighted sum of the 3×3 nearest inputs, adds a bias, and passes the result through an activation function. a) Here, the output $h_{23}$ (shaded output) is a weighted sum of the nine positions from $x_{12}$ to $x_{34}$ (shaded inputs). b) Different outputs are computed by translating the kernel across the image grid in two dimensions. c–d) With zero-padding, positions beyond the image’s edge are considered to be zero."
+    "caption": "Figure 10.9 2D convolutional layer. Each output $h\\_{ij}$ computes a weighted sum of the 3×3 nearest inputs, adds a bias, and passes the result through an activation function. a) Here, the output $h\\_{23}$ (shaded output) is a weighted sum of the nine positions from $x\\_{12}$ to $x\\_{34}$ (shaded inputs). b) Different outputs are computed by translating the kernel across the image grid in two dimensions. c–d) With zero-padding, positions beyond the image’s edge are considered to be zero."
   },
   {
     "id": "page_0171-b003",

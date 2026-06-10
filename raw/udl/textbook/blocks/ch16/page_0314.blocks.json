@@ -49,7 +49,7 @@
     "page_key": 314,
     "order": 6,
     "type": "paragraph",
-    "text": "This can't be done in parallel as the computation for $h_{d}$ depends on $h_{1:d-1}$ (i.e., the partial results so far). Hence, inversion is time-consuming when the input is large.",
+    "text": "This can't be done in parallel as the computation for $h\\_{d}$ depends on $h\\_{1:d-1}$ (i.e., the partial results so far). Hence, inversion is time-consuming when the input is large.",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -94,7 +94,7 @@
     "page_key": 314,
     "order": 11,
     "type": "paragraph",
-    "text": "Residual flows take their inspiration from residual networks. They divide the input into two parts $h = [h_{1}^{T}, h_{2}^{T}]^{T}$ (as for coupling flows) and define the outputs as:",
+    "text": "Residual flows take their inspiration from residual networks. They divide the input into two parts $h = [h\\_{1}^{T}, h\\_{2}^{T}]^{T}$ (as for coupling flows) and define the outputs as:",
     "source": "deepseek",
     "confidence": "medium"
   }

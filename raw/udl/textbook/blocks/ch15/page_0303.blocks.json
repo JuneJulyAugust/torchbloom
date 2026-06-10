@@ -31,7 +31,7 @@
     "page_key": 303,
     "order": 4,
     "type": "exercise",
-    "text": "Problem 15.2* Write an equation relating the loss $L$ in equation 15.8 to the Jensen-Shannon distance $D_{JS}[\\Pr[\\mathbf{x}^{*}] \\Vert \\Pr[\\mathbf{x}]]$ in equation 15.9.",
+    "text": "Problem 15.2* Write an equation relating the loss $L$ in equation 15.8 to the Jensen-Shannon distance $D\\_{JS}[\\Pr[\\mathbf{x}^{*}] \\Vert \\Pr[\\mathbf{x}]]$ in equation 15.9.",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -130,7 +130,7 @@
     "page_key": 303,
     "order": 15,
     "type": "paragraph",
-    "text": "respectively. Plot these distances as a function of $\\mu_{1}-\\mu_{2}$ for the case when $\\sigma_{1}=\\sigma_{2}=1$.",
+    "text": "respectively. Plot these distances as a function of $\\mu\\_{1}-\\mu\\_{2}$ for the case when $\\sigma\\_{1}=\\sigma\\_{2}=1$.",
     "source": "deepseek+paddle",
     "confidence": "high"
   },

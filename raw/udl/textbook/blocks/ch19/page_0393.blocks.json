@@ -77,7 +77,7 @@
     "page_key": 393,
     "order": 9,
     "type": "paragraph",
-    "text": "Subtracting this baseline factors out variance that might occur when the returns $r[\\tau_{i}]$ from all trajectories are greater than is typical but only because they happen to pass through states with higher than average returns whatever actions are taken.",
+    "text": "Subtracting this baseline factors out variance that might occur when the returns $r[\\tau\\_{i}]$ from all trajectories are greater than is typical but only because they happen to pass through states with higher than average returns whatever actions are taken.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   }

@@ -31,7 +31,7 @@
     "page_key": 328,
     "order": 4,
     "type": "paragraph",
-    "text": "In a 1D mixture of Gaussians (figure 17.1a), the latent variable z is discrete, and the prior $\\Pr(z)$ is a categorical distribution (figure 5.9) with one probability $\\lambda_{n}$ for each possible value of z. The likelihood $\\Pr(x|z = n)$ of the data x given that the latent variable z takes value n is normally distributed with mean $\\mu_{n}$ and variance $\\sigma_{n}^{2}$ :",
+    "text": "In a 1D mixture of Gaussians (figure 17.1a), the latent variable z is discrete, and the prior $\\Pr(z)$ is a categorical distribution (figure 5.9) with one probability $\\lambda\\_{n}$ for each possible value of z. The likelihood $\\Pr(x|z = n)$ of the data x given that the latent variable z takes value n is normally distributed with mean $\\mu\\_{n}$ and variance $\\sigma\\_{n}^{2}$ :",
     "source": "deepseek",
     "confidence": "medium"
   },

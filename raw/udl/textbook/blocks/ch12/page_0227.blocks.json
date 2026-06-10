@@ -14,10 +14,10 @@
     "page_key": 227,
     "order": 2,
     "type": "caption",
-    "text": "Figure 12.14 Cross-attention. The flow of computation is the same as in standard self-attention, but the queries are calculated from the decoder embeddings $X_{dec}$ , and the keys and values from the encoder embeddings $X_{enc}$ . For translation tasks, the encoder contains information about the source language statistics, and the decoder contains information about the target language statistics.",
+    "text": "Figure 12.14 Cross-attention. The flow of computation is the same as in standard self-attention, but the queries are calculated from the decoder embeddings $X\\_{dec}$ , and the keys and values from the encoder embeddings $X\\_{enc}$ . For translation tasks, the encoder contains information about the source language statistics, and the decoder contains information about the target language statistics.",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "caption": "Figure 12.14 Cross-attention. The flow of computation is the same as in standard self-attention, but the queries are calculated from the decoder embeddings $X_{dec}$ , and the keys and values from the encoder embeddings $X_{enc}$ . For translation tasks, the encoder contains information about the source language statistics, and the decoder contains information about the target language statistics."
+    "caption": "Figure 12.14 Cross-attention. The flow of computation is the same as in standard self-attention, but the queries are calculated from the decoder embeddings $X\\_{dec}$ , and the keys and values from the encoder embeddings $X\\_{enc}$ . For translation tasks, the encoder contains information about the source language statistics, and the decoder contains information about the target language statistics."
   },
   {
     "id": "page_0227-b003",

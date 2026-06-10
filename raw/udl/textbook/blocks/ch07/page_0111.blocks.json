@@ -15,7 +15,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "where $D_{h'}$ is the dimension of the layer that the weights feed into."
+    "text": "where $D\\_{h'}$ is the dimension of the layer that the weights feed into."
   },
   {
     "id": "page_0111-b003",
@@ -33,7 +33,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "If the weight matrix $\\Omega$ is not square (i.e., there are different numbers of hidden units in the two adjacent layers, so $D_{h}$ and $D_{h'}$ differ), then it is not possible to choose the variance to satisfy both equations 7.32 and 7.33 simultaneously. One possible compromise is to use the mean $(D_{h} + D_{h'})/2$ as a proxy for the number of terms, which gives:"
+    "text": "If the weight matrix $\\Omega$ is not square (i.e., there are different numbers of hidden units in the two adjacent layers, so $D\\_{h}$ and $D\\_{h'}$ differ), then it is not possible to choose the variance to satisfy both equations 7.32 and 7.33 simultaneously. One possible compromise is to use the mean $(D\\_{h} + D\\_{h'})/2$ as a proxy for the number of terms, which gives:"
   },
   {
     "id": "page_0111-b005",

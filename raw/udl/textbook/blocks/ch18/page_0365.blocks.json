@@ -23,7 +23,7 @@
     "page_key": 365,
     "order": 3,
     "type": "paragraph",
-    "text": "with this relation, and there is a family of such compatible processes. These are all optimized by the same loss function but have different rules for the forward process and different corresponding rules for how to use the estimated noise $g[z_{t}, \\phi_{t}]$ to predict $z_{t-1}$ from $z_{t}$ in the reverse process (figure 18.10).",
+    "text": "with this relation, and there is a family of such compatible processes. These are all optimized by the same loss function but have different rules for the forward process and different corresponding rules for how to use the estimated noise $g[z\\_{t}, \\phi\\_{t}]$ to predict $z\\_{t-1}$ from $z\\_{t}$ in the reverse process (figure 18.10).",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -32,7 +32,7 @@
     "page_key": 365,
     "order": 4,
     "type": "paragraph",
-    "text": "Among this family are denoising diffusion implicit models, which are no longer stochastic after the first step from x to $z_{1}$ , and accelerated sampling models, where the forward process is defined only on a sub-sequence of time steps. This allows a reverse process that skips time steps and hence makes sampling much more efficient; good samples can be created with 50 time steps when the forward process is no longer stochastic. This is much faster than before but still slower than most other generative models.",
+    "text": "Among this family are denoising diffusion implicit models, which are no longer stochastic after the first step from x to $z\\_{1}$ , and accelerated sampling models, where the forward process is defined only on a sub-sequence of time steps. This allows a reverse process that skips time steps and hence makes sampling much more efficient; good samples can be created with 50 time steps when the forward process is no longer stochastic. This is much faster than before but still slower than most other generative models.",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -50,7 +50,7 @@
     "page_key": 365,
     "order": 6,
     "type": "paragraph",
-    "text": "If the data has associated labels c, these can be exploited to control the generation. Sometimes this can improve generation results in GANs, and we might expect this to be the case in diffusion models as well; it's easier to denoise an image if you have some information about what that image contains. One approach to conditional synthesis in diffusion models is classifier guidance. This modifies the denoising update from $z_{t}$ to $z_{t-1}$ to take into account class information c. In practice, this means adding an extra",
+    "text": "If the data has associated labels c, these can be exploited to control the generation. Sometimes this can improve generation results in GANs, and we might expect this to be the case in diffusion models as well; it's easier to denoise an image if you have some information about what that image contains. One approach to conditional synthesis in diffusion models is classifier guidance. This modifies the denoising update from $z\\_{t}$ to $z\\_{t-1}$ to take into account class information c. In practice, this means adding an extra",
     "source": "deepseek",
     "confidence": "medium"
   }

@@ -68,7 +68,7 @@
     "page_key": 270,
     "order": 8,
     "type": "paragraph",
-    "text": "and in training, we maximize the probability of the observed data  $\\lbrace x_{i}\\rbrace$ , so the loss is",
+    "text": "and in training, we maximize the probability of the observed data  $\\lbrace x\\_{i}\\rbrace$ , so the loss is",
     "source": "deepseek+paddle",
     "confidence": "high"
   },

@@ -22,7 +22,7 @@
     "page_key": 205,
     "order": 3,
     "type": "paragraph",
-    "text": "Other work has investigated rescaling the function’s output in the residual block before adding it back to the input. For example, De & Smith (2020) introduce SkipInit, in which a learnable scalar multiplier is placed at the end of each residual branch. This helps if this multiplier is initialized to less than $\\sqrt{1/K}$ , where K is the number of residual blocks. In practice, they suggest initializing this to zero. Similarly, Hayou et al. (2021) introduce Stable ResNet, which rescales the output of the function in the $k^{th}$ residual block (before addition to the main branch) by a constant $\\lambda_{k}$ . They prove that in the limit of infinite width, the expected gradient norm of the weights in the first layer is lower bounded by the sum of squares of the scalings $\\lambda_{k}$ . They investigate setting these to a constant $\\sqrt{1/K}$ , where K is the number of residual blocks and show that it is possible to train networks with up to 1000 blocks.",
+    "text": "Other work has investigated rescaling the function’s output in the residual block before adding it back to the input. For example, De & Smith (2020) introduce SkipInit, in which a learnable scalar multiplier is placed at the end of each residual branch. This helps if this multiplier is initialized to less than $\\sqrt{1/K}$ , where K is the number of residual blocks. In practice, they suggest initializing this to zero. Similarly, Hayou et al. (2021) introduce Stable ResNet, which rescales the output of the function in the $k^{th}$ residual block (before addition to the main branch) by a constant $\\lambda\\_{k}$ . They prove that in the limit of infinite width, the expected gradient norm of the weights in the first layer is lower bounded by the sum of squares of the scalings $\\lambda\\_{k}$ . They investigate setting these to a constant $\\sqrt{1/K}$ , where K is the number of residual blocks and show that it is possible to train networks with up to 1000 blocks.",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -76,7 +76,7 @@
     "page_key": 205,
     "order": 9,
     "type": "exercise",
-    "text": "Problem 11.3 Show that the derivative of the network in equation 11.5 with respect to the first layer $f_{1}[x]$ is given by equation 11.6.",
+    "text": "Problem 11.3 Show that the derivative of the network in equation 11.5 with respect to the first layer $f\\_{1}[x]$ is given by equation 11.6.",
     "source": "deepseek+paddle",
     "confidence": "high"
   }

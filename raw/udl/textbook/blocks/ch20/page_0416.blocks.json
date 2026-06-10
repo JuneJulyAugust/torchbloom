@@ -32,7 +32,7 @@
     "page_key": 416,
     "order": 4,
     "type": "paragraph",
-    "text": "For example, Han et al. (2016) maintained good performance for the VGG network on ImageNet classes when 8% of the weights were retained. This significantly decreases the model size but isn\u2019t enough to show that overparameterization is not required; the VGG network has $\\sim$ 100 times as many parameters as there are ImageNet training data (disregarding augmentation).",
+    "text": "For example, Han et al. (2016) maintained good performance for the VGG network on ImageNet classes when 8% of the weights were retained. This significantly decreases the model size but isn’t enough to show that overparameterization is not required; the VGG network has $\\sim$ 100 times as many parameters as there are ImageNet training data (disregarding augmentation).",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },

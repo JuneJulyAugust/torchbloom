@@ -7,7 +7,7 @@
     "source": "paddle",
     "confidence": "high",
     "image_path": "figures/page_0103_fig_1.jpg",
-    "alt": "Figure 7.5 Backpropagation backward pass #2. Finally, we compute the derivatives $\\partial l_{i}/\\partial\\beta_{k}$ and $\\partial l_{i}/\\partial\\omega_{k}$. Eac"
+    "alt": "Figure 7.5 Backpropagation backward pass #2. Finally, we compute the derivatives $\\partial l\\_{i}/\\partial\\beta\\_{k}$ and $\\partial l\\_{i}/\\partial\\omega\\_{k}$. Eac"
   },
   {
     "id": "page_0103-b002",
@@ -16,7 +16,7 @@
     "type": "caption",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "caption": "Figure 7.5 Backpropagation backward pass #2. Finally, we compute the derivatives $\\partial l_{i}/\\partial\\beta_{k}$ and $\\partial l_{i}/\\partial\\omega_{k}$. Each derivative is computed by multiplying the term $\\partial l_{i}/\\partial f_{k}$ by $\\partial f_{k}/\\partial\\beta_{k}$ or $\\partial f_{k}/\\partial\\omega_{k}$ as appropriate."
+    "caption": "Figure 7.5 Backpropagation backward pass #2. Finally, we compute the derivatives $\\partial l\\_{i}/\\partial\\beta\\_{k}$ and $\\partial l\\_{i}/\\partial\\omega\\_{k}$. Each derivative is computed by multiplying the term $\\partial l\\_{i}/\\partial f\\_{k}$ by $\\partial f\\_{k}/\\partial\\beta\\_{k}$ or $\\partial f\\_{k}/\\partial\\omega\\_{k}$ as appropriate."
   },
   {
     "id": "page_0103-b003",
@@ -25,7 +25,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "This is consistent with Observation 1 from the previous section; the effect of a change in the weight $\\omega_{k}$ is proportional to the value of the source variable $h_{k}$ (which was stored in the forward pass). The final derivatives from the term $f_{0} = \\beta_{0} + \\omega_{0} \\cdot x_{i}$ are:"
+    "text": "This is consistent with Observation 1 from the previous section; the effect of a change in the weight $\\omega\\_{k}$ is proportional to the value of the source variable $h\\_{k}$ (which was stored in the forward pass). The final derivatives from the term $f\\_{0} = \\beta\\_{0} + \\omega\\_{0} \\cdot x\\_{i}$ are:"
   },
   {
     "id": "page_0103-b004",
@@ -61,7 +61,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "Now we repeat this process for a three-layer network (figure 7.1). The intuition and much of the algebra are identical. The main differences are that intermediate variables $f_{k}$, $h_{k}$ are vectors, the biases $\\beta_{k}$ are vectors, the weights $\\Omega_{k}$ are matrices, and we are using ReLU functions rather than simple algebraic functions like $\\cos[\\bullet]$."
+    "text": "Now we repeat this process for a three-layer network (figure 7.1). The intuition and much of the algebra are identical. The main differences are that intermediate variables $f\\_{k}$, $h\\_{k}$ are vectors, the biases $\\beta\\_{k}$ are vectors, the weights $\\Omega\\_{k}$ are matrices, and we are using ReLU functions rather than simple algebraic functions like $\\cos[\\bullet]$."
   },
   {
     "id": "page_0103-b008",
@@ -88,6 +88,6 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "$^{1}$ Note that we did not actually need the derivatives $\\partial l_{i}/\\partial h_{k}$ of the loss with respect to the activations. In the final backpropagation algorithm, we will not compute these explicitly."
+    "text": "$^{1}$ Note that we did not actually need the derivatives $\\partial l\\_{i}/\\partial h\\_{k}$ of the loss with respect to the activations. In the final backpropagation algorithm, we will not compute these explicitly."
   }
 ]

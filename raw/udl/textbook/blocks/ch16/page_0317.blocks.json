@@ -58,7 +58,7 @@
     "page_key": 317,
     "order": 7,
     "type": "paragraph",
-    "text": "where the first line is true because $E[\\epsilon\\epsilon^{T}] = I$ . The second line derives from the properties of the expectation operator. The third line comes from the linearity of the trace operator. The fourth line is due to the invariance of the trace to cyclic permutation. The final line is true because the argument in the fourth line is now a scalar. We estimate the trace by drawing samples $\\epsilon_{i}$ from $\\Pr(\\boldsymbol{\\varepsilon})$ :",
+    "text": "where the first line is true because $E[\\epsilon\\epsilon^{T}] = I$ . The second line derives from the properties of the expectation operator. The third line comes from the linearity of the trace operator. The fourth line is due to the invariance of the trace to cyclic permutation. The final line is true because the argument in the fourth line is now a scalar. We estimate the trace by drawing samples $\\epsilon\\_{i}$ from $\\Pr(\\boldsymbol{\\varepsilon})$ :",
     "source": "deepseek",
     "confidence": "medium"
   },

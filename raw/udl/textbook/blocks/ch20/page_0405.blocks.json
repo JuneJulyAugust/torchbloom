@@ -50,7 +50,7 @@
     "page_key": 405,
     "order": 6,
     "type": "paragraph",
-    "text": "Overparameterization almost certainly is an important factor that contributes to ease of training. It implies that there is a large family of degenerate solutions, so there may always be a direction in which the parameters can be modified to decrease the loss. Sejnowski (2020) suggests that \u201c\u2026 the degeneracy of solutions changes the nature of the problem from finding a needle in a haystack to a haystack of needles.\u201d",
+    "text": "Overparameterization almost certainly is an important factor that contributes to ease of training. It implies that there is a large family of degenerate solutions, so there may always be a direction in which the parameters can be modified to decrease the loss. Sejnowski (2020) suggests that “… the degeneracy of solutions changes the nature of the problem from finding a needle in a haystack to a haystack of needles.”",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },

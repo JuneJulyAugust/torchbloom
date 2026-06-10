@@ -13,7 +13,7 @@
     "page_key": 194,
     "order": 2,
     "type": "paragraph",
-    "text": "Batch normalization is applied independently to each hidden unit. In a standard neural network with K layers, each containing D hidden units, there would be KD learned offsets $\\delta$ and KD learned scales $\\gamma$ . In a convolutional network, the normalizing statistics are computed over both the batch and the spatial position. If there were K layers, each containing C channels, there would be KC offsets and KC scales. At test time, we do not have a batch from which we can gather statistics. To resolve this, the statistics $m_{h}$ and $s_{h}$ are calculated across the whole training dataset (rather than just a batch) and frozen in the final network.",
+    "text": "Batch normalization is applied independently to each hidden unit. In a standard neural network with K layers, each containing D hidden units, there would be KD learned offsets $\\delta$ and KD learned scales $\\gamma$ . In a convolutional network, the normalizing statistics are computed over both the batch and the spatial position. If there were K layers, each containing C channels, there would be KC offsets and KC scales. At test time, we do not have a batch from which we can gather statistics. To resolve this, the statistics $m\\_{h}$ and $s\\_{h}$ are calculated across the whole training dataset (rather than just a batch) and frozen in the final network.",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -31,7 +31,7 @@
     "page_key": 194,
     "order": 4,
     "type": "paragraph",
-    "text": "Batch normalization makes the network invariant to rescaling the weights and biases that contribute to each activation; if these are doubled, then the activations also double, the estimated standard deviation $s_{h}$ doubles, and the normalization in equation 11.8 compensates for these changes. [^2] This happens separately for each hidden unit. Consequently, there will be a large family of weights and biases that all produce the same effect. Batch normalization also adds two parameters, $\\gamma$ and $\\delta$ , at every hidden unit, which makes the model somewhat larger. Hence, it both creates redundancy in the weights and biases and adds extra parameters to compensate for that redundancy. This is obviously inefficient, but batch normalization also provides several benefits.",
+    "text": "Batch normalization makes the network invariant to rescaling the weights and biases that contribute to each activation; if these are doubled, then the activations also double, the estimated standard deviation $s\\_{h}$ doubles, and the normalization in equation 11.8 compensates for these changes. [^2] This happens separately for each hidden unit. Consequently, there will be a large family of weights and biases that all produce the same effect. Batch normalization also adds two parameters, $\\gamma$ and $\\delta$ , at every hidden unit, which makes the model somewhat larger. Hence, it both creates redundancy in the weights and biases and adds extra parameters to compensate for that redundancy. This is obviously inefficient, but batch normalization also provides several benefits.",
     "source": "deepseek+paddle",
     "confidence": "high"
   },

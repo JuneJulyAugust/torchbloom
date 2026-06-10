@@ -42,7 +42,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "and fixed noise $\\sigma^{2}=\\mathbb{E}_{y}\\left[(\\mu[x]-y[x])^{2}\\right]$. Here we have used the notation $y[x]$ to specify that we are considering the output y at a given input position x."
+    "text": "and fixed noise $\\sigma^{2}=\\mathbb{E}\\_{y}\\left[(\\mu[x]-y[x])^{2}\\right]$. Here we have used the notation $y[x]$ to specify that we are considering the output y at a given input position x."
   },
   {
     "id": "page_0123-b006",
@@ -51,7 +51,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "Now consider a least squares loss between the model prediction f[x, \u03c6] at position x and the observed value y[x] at that position:"
+    "text": "Now consider a least squares loss between the model prediction f[x, φ] at position x and the observed value y[x] at that position:"
   },
   {
     "id": "page_0123-b007",
@@ -96,6 +96,6 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "where we have made use of the rules for manipulating expectations. In the second line, we have distributed the expectation operator and removed it from terms with no dependence on $y[x]$, and in the third line, we note that the second term is zero since $E_{y}[y[x]] = \\mu[x]$ by definition. Finally, in the fourth line, we have substituted in the definition of the"
+    "text": "where we have made use of the rules for manipulating expectations. In the second line, we have distributed the expectation operator and removed it from terms with no dependence on $y[x]$, and in the third line, we note that the second term is zero since $E\\_{y}[y[x]] = \\mu[x]$ by definition. Finally, in the fourth line, we have substituted in the definition of the"
   }
 ]

@@ -85,7 +85,7 @@
     "page_key": 282,
     "order": 10,
     "type": "equation",
-    "text": "$$\n\\begin{aligned}\nD_{JS}\\left[\\Pr[\\mathbf{x}^{*}]\\,\\Vert\\,\\Pr[\\mathbf{x}]\\right]\n&= \\frac{1}{2}D_{KL}\\left[\\Pr[\\mathbf{x}^{*}]\\,\\Vert\\,\\frac{\\Pr[\\mathbf{x}^{*}]+\\Pr[\\mathbf{x}]}{2}\\right]+\\frac{1}{2}D_{KL}\\left[\\Pr[\\mathbf{x}]\\,\\Vert\\,\\frac{\\Pr[\\mathbf{x}^{*}]+\\Pr[\\mathbf{x}]}{2}\\right] \\\\\n&= \\frac{1}{2}\\int \\Pr[\\mathbf{x}^{*}]\\log\\left[\\frac{2\\Pr[\\mathbf{x}^{*}]}{\\Pr[\\mathbf{x}^{*}]+\\Pr[\\mathbf{x}]}\\right]d\\mathbf{x}^{*}+\\frac{1}{2}\\int \\Pr[\\mathbf{x}]\\log\\left[\\frac{2\\Pr[\\mathbf{x}]}{\\Pr[\\mathbf{x}^{*}]+\\Pr[\\mathbf{x}]}\\right]d\\mathbf{x}\n\\end{aligned}\n\\qquad (15.9)\n$$",
+    "text": "$$\n\\begin{aligned}\nD_{JS}\\left[\\Pr[\\mathbf{x}^{*}]\\Vert\\Pr[\\mathbf{x}]\\right]\n&= \\frac{1}{2}D_{KL}\\left[\\Pr[\\mathbf{x}^{*}]\\Vert\\frac{\\Pr[\\mathbf{x}^{*}]+\\Pr[\\mathbf{x}]}{2}\\right]+\\frac{1}{2}D_{KL}\\left[\\Pr[\\mathbf{x}]\\Vert\\frac{\\Pr[\\mathbf{x}^{*}]+\\Pr[\\mathbf{x}]}{2}\\right] \\\\\n&= \\frac{1}{2}\\int \\Pr[\\mathbf{x}^{*}]\\log\\left[\\frac{2\\Pr[\\mathbf{x}^{*}]}{\\Pr[\\mathbf{x}^{*}]+\\Pr[\\mathbf{x}]}\\right]d\\mathbf{x}^{*}+\\frac{1}{2}\\int \\Pr[\\mathbf{x}]\\log\\left[\\frac{2\\Pr[\\mathbf{x}]}{\\Pr[\\mathbf{x}^{*}]+\\Pr[\\mathbf{x}]}\\right]d\\mathbf{x}\n\\end{aligned}\n\\qquad (15.9)\n$$",
     "source": "codex-fusion",
     "confidence": "medium"
   },
@@ -94,7 +94,7 @@
     "page_key": 282,
     "order": 11,
     "type": "paragraph",
-    "text": "where $D_{KL}[\\bullet\\Vert\\bullet]$ is the Kullback-Leibler divergence.",
+    "text": "where $D\\_{KL}[\\bullet\\Vert\\bullet]$ is the Kullback-Leibler divergence.",
     "source": "deepseek+paddle",
     "confidence": "high"
   },

@@ -13,7 +13,7 @@
     "page_key": 435,
     "order": 2,
     "type": "list",
-    "text": "2. Even purely technical decisions can be value-laden. There is still a widely-held view that AI in fundamentally just mathematics and, therefore, it is \u201cobjective,\u201d and ethics are irrelevant. This assumption is not true when we consider the creation of AI systems or their deployment.",
+    "text": "2. Even purely technical decisions can be value-laden. There is still a widely-held view that AI in fundamentally just mathematics and, therefore, it is “objective,” and ethics are irrelevant. This assumption is not true when we consider the creation of AI systems or their deployment.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -31,7 +31,7 @@
     "page_key": 435,
     "order": 4,
     "type": "list",
-    "text": "4. Social and ethical problems don\u2019t necessarily require technical solutions. Many potential ethical problems surrounding AI technologies are primarily social and structural, so technical innovation alone cannot solve these problems; if scientists are to effect positive change with new technology, they must take a political and moral position.",
+    "text": "4. Social and ethical problems don’t necessarily require technical solutions. Many potential ethical problems surrounding AI technologies are primarily social and structural, so technical innovation alone cannot solve these problems; if scientists are to effect positive change with new technology, they must take a political and moral position.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -40,7 +40,7 @@
     "page_key": 435,
     "order": 5,
     "type": "paragraph",
-    "text": "Where does this leave the average scientist? Perhaps with the following imperative: it is necessary to reflect upon the moral and social dimensions of one\u2019s work. This might require actively engaging those communities that are likely to be most affected by new technologies, thus cultivating relationships between researchers and communities and empowering those communities. Likewise, it might involve engagement with the literature beyond one\u2019s own discipline. For philosophical questions, the Stanford Encyclopedia of Philosophy is an invaluable resource. Interdisciplinary conferences are also useful in this regard. Leading work is published at both the Conference on Fairness, Accountability, and Transparency (FAccT) and the Conference on AI, Ethics, and Society (AIES).",
+    "text": "Where does this leave the average scientist? Perhaps with the following imperative: it is necessary to reflect upon the moral and social dimensions of one’s work. This might require actively engaging those communities that are likely to be most affected by new technologies, thus cultivating relationships between researchers and communities and empowering those communities. Likewise, it might involve engagement with the literature beyond one’s own discipline. For philosophical questions, the Stanford Encyclopedia of Philosophy is an invaluable resource. Interdisciplinary conferences are also useful in this regard. Leading work is published at both the Conference on Fairness, Accountability, and Transparency (FAccT) and the Conference on AI, Ethics, and Society (AIES).",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },
@@ -67,7 +67,7 @@
     "page_key": 435,
     "order": 8,
     "type": "paragraph",
-    "text": "Ethical AI is a collective action problem, and the chapter concludes with an appeal to scientists to consider the moral and ethical implications of their work. Every ethical issue is not within the control of every individual computer scientist. However, this does not imply that researchers have no responsibility whatsoever to consider\u2014and mitigate where they can\u2014the potential for misuse of the systems they create.",
+    "text": "Ethical AI is a collective action problem, and the chapter concludes with an appeal to scientists to consider the moral and ethical implications of their work. Every ethical issue is not within the control of every individual computer scientist. However, this does not imply that researchers have no responsibility whatsoever to consider—and mitigate where they can—the potential for misuse of the systems they create.",
     "source": "deepseek+paddle",
     "confidence": "medium"
   }

@@ -42,7 +42,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "The evidence on the effectiveness of explicit regularization is mixed. Zhang et al. (2017a) showed that L2 regularization contributes little to generalization. It has been proven that the Lipschitz constant of the network (how fast the function can change as we modify the input) bounds the generalization error (Bartlett et al., 2017; Neyshabur et al., 2018). However, the Lipschitz constant depends on the product of the spectral norms of the weight matrices $\\Omega_{k}$, which are only indirectly dependent on the magnitudes of the individual weights. Bartlett et al. (2017), Neyshabur et al. (2018), and Yoshida & Miyato (2017) all add terms that indirectly encourage the spectral norms to be smaller. Gouk et al. (2021) take a different approach and develop an algorithm that constrains the Lipschitz constant of the network to be below a particular value."
+    "text": "The evidence on the effectiveness of explicit regularization is mixed. Zhang et al. (2017a) showed that L2 regularization contributes little to generalization. It has been proven that the Lipschitz constant of the network (how fast the function can change as we modify the input) bounds the generalization error (Bartlett et al., 2017; Neyshabur et al., 2018). However, the Lipschitz constant depends on the product of the spectral norms of the weight matrices $\\Omega\\_{k}$, which are only indirectly dependent on the magnitudes of the individual weights. Bartlett et al. (2017), Neyshabur et al. (2018), and Yoshida & Miyato (2017) all add terms that indirectly encourage the spectral norms to be smaller. Gouk et al. (2021) take a different approach and develop an algorithm that constrains the Lipschitz constant of the network to be below a particular value."
   },
   {
     "id": "page_0156-b006",
@@ -69,7 +69,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "where $\\mathbf{g}[\\phi_{0}]$ is the negative of the gradient of the loss function, and $\\alpha$ is the step size. As $\\alpha \\to 0$, the gradient descent process can be described by a differential equation:"
+    "text": "where $\\mathbf{g}[\\phi\\_{0}]$ is the negative of the gradient of the loss function, and $\\alpha$ is the step size. As $\\alpha \\to 0$, the gradient descent process can be described by a differential equation:"
   },
   {
     "id": "page_0156-b009",
@@ -87,7 +87,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "For typical step sizes $\\alpha$, the discrete and continuous versions converge to different solutions. We can use backward error analysis to find a correction $\\mathbf{g}_{1}[\\phi]$ to the continuous version:"
+    "text": "For typical step sizes $\\alpha$, the discrete and continuous versions converge to different solutions. We can use backward error analysis to find a correction $\\mathbf{g}\\_{1}[\\phi]$ to the continuous version:"
   },
   {
     "id": "page_0156-b011",
@@ -114,6 +114,6 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "Consider the first two terms of a Taylor expansion of the modified continuous solution $\\phi$ around initial position $\\Phi_{0}$:"
+    "text": "Consider the first two terms of a Taylor expansion of the modified continuous solution $\\phi$ around initial position $\\Phi\\_{0}$:"
   }
 ]

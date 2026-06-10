@@ -33,7 +33,7 @@
     "page_key": 377,
     "order": 4,
     "type": "caption",
-    "text": "Figure 19.6 Reinforcement learning loop. The agent takes an action $a_t$ at time $t$ based on the state $s_t$, according to the policy $\\pi[a_t\\mid s_t]$. This triggers the generation of a new state $s_{t+1}$ via the state transition function and a reward $r_{t+1}$ via the reward function. Both are passed back to the agent, which then chooses a new action.",
+    "text": "Figure 19.6 Reinforcement learning loop. The agent takes an action $a\\_t$ at time $t$ based on the state $s\\_t$, according to the policy $\\pi[a\\_t\\mid s\\_t]$. This triggers the generation of a new state $s\\_{t+1}$ via the state transition function and a reward $r\\_{t+1}$ via the reward function. Both are passed back to the agent, which then chooses a new action.",
     "source": "deepseek+paddle",
     "confidence": "high"
   }

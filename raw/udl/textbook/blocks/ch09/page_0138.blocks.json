@@ -60,7 +60,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "Consider fitting a model $\\mathbf{f}[\\mathbf{x}, \\phi]$ with parameters $\\boldsymbol{\\phi}$ using a training set $\\lbrace x_{i}, y_{i} \\rbrace$ of input/output pairs. We seek the parameters $\\hat{\\phi}$ that minimize the loss function $L[\\boldsymbol{\\phi}]$:"
+    "text": "Consider fitting a model $\\mathbf{f}[\\mathbf{x}, \\phi]$ with parameters $\\boldsymbol{\\phi}$ using a training set $\\lbrace x\\_{i}, y\\_{i} \\rbrace$ of input/output pairs. We seek the parameters $\\hat{\\phi}$ that minimize the loss function $L[\\boldsymbol{\\phi}]$:"
   },
   {
     "id": "page_0138-b008",
@@ -69,7 +69,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "latex": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}} &= \\underset{\\boldsymbol{\\phi}}{\\mathrm{arg\\,min}}\\left[L[\\boldsymbol{\\phi}]\\right] \\\\\n&= \\underset{\\boldsymbol{\\phi}}{\\mathrm{arg\\,min}}\\left[\\sum_{i=1}^{I}\\ell_{i}[\\mathbf{x}_{i},\\mathbf{y}_{i}]\\right],\n\\end{aligned}\n\\qquad (9.1)"
+    "latex": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}} &= \\underset{\\boldsymbol{\\phi}}{\\mathrm{argmin}}\\left[L[\\boldsymbol{\\phi}]\\right] \\\\\n&= \\underset{\\boldsymbol{\\phi}}{\\mathrm{argmin}}\\left[\\sum_{i=1}^{I}\\ell_{i}[\\mathbf{x}_{i},\\mathbf{y}_{i}]\\right],\n\\end{aligned}\n\\qquad (9.1)"
   },
   {
     "id": "page_0138-b009",
@@ -78,6 +78,6 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "where the individual terms $\\ell_{i}[\\mathbf{x}_{i},\\mathbf{y}_{i}]$ measure the mismatch between the network predictions $\\mathbf{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}]$ and output targets $\\mathbf{y}_{i}$ for each training pair. To bias this minimization"
+    "text": "where the individual terms $\\ell\\_{i}[\\mathbf{x}\\_{i},\\mathbf{y}\\_{i}]$ measure the mismatch between the network predictions $\\mathbf{f}[\\mathbf{x}\\_{i},\\boldsymbol{\\phi}]$ and output targets $\\mathbf{y}\\_{i}$ for each training pair. To bias this minimization"
   }
 ]

@@ -24,7 +24,7 @@
     "source": "deepseek",
     "confidence": "medium",
     "type": "equation",
-    "latex": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}}\n&= \\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{arg\\,min}}}\\left[-\\sum_{i=1}^{I}\\log\\left[\\frac{1}{\\sqrt{2\\pi\\sigma^2}}\\exp\\left[-\\frac{(y_i-f[\\mathbf{x}_i,\\boldsymbol{\\phi}])^2}{2\\sigma^2}\\right]\\right]\\right] \\\\\n&= \\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{arg\\,min}}}\\left[-\\sum_{i=1}^{I}\\left(\\log\\left[\\frac{1}{\\sqrt{2\\pi\\sigma^2}}\\right]-\\frac{(y_i-f[\\mathbf{x}_i,\\boldsymbol{\\phi}])^2}{2\\sigma^2}\\right)\\right] \\\\\n&= \\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{arg\\,min}}}\\left[-\\sum_{i=1}^{I}\\frac{-(y_i-f[\\mathbf{x}_i,\\boldsymbol{\\phi}])^2}{2\\sigma^2}\\right] \\\\\n&= \\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{arg\\,min}}}\\left[\\sum_{i=1}^{I}(y_i-f[\\mathbf{x}_i,\\boldsymbol{\\phi}])^2\\right]\n\\end{aligned} \\qquad (5.10)"
+    "latex": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}}\n&= \\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{argmin}}}\\left[-\\sum_{i=1}^{I}\\log\\left[\\frac{1}{\\sqrt{2\\pi\\sigma^2}}\\exp\\left[-\\frac{(y_i-f[\\mathbf{x}_i,\\boldsymbol{\\phi}])^2}{2\\sigma^2}\\right]\\right]\\right] \\\\\n&= \\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{argmin}}}\\left[-\\sum_{i=1}^{I}\\left(\\log\\left[\\frac{1}{\\sqrt{2\\pi\\sigma^2}}\\right]-\\frac{(y_i-f[\\mathbf{x}_i,\\boldsymbol{\\phi}])^2}{2\\sigma^2}\\right)\\right] \\\\\n&= \\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{argmin}}}\\left[-\\sum_{i=1}^{I}\\frac{-(y_i-f[\\mathbf{x}_i,\\boldsymbol{\\phi}])^2}{2\\sigma^2}\\right] \\\\\n&= \\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{argmin}}}\\left[\\sum_{i=1}^{I}(y_i-f[\\mathbf{x}_i,\\boldsymbol{\\phi}])^2\\right]\n\\end{aligned} \\qquad (5.10)"
   },
   {
     "id": "page_0062-b004",
@@ -51,7 +51,7 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "paragraph",
-    "text": "We see that the least squares loss function follows naturally from the assumptions that the predictions are (i) independent and (ii) drawn from a normal distribution with mean $\\mu = f[x_{i}, \\phi]$ (figure 5.4)."
+    "text": "We see that the least squares loss function follows naturally from the assumptions that the predictions are (i) independent and (ii) drawn from a normal distribution with mean $\\mu = f[x\\_{i}, \\phi]$ (figure 5.4)."
   },
   {
     "id": "page_0062-b007",
@@ -78,7 +78,7 @@
     "source": "deepseek",
     "confidence": "medium",
     "type": "equation",
-    "latex": "\\begin{aligned}\n\\hat{y} &= \\underset{y}{\\mathop{\\mathrm{arg\\,max}}}\\left[\\Pr\\left(y\\mid f[\\mathbf{x},\\hat{\\boldsymbol{\\phi}}],\\sigma^2\\right)\\right]\n\\end{aligned} \\qquad (5.12)"
+    "latex": "\\begin{aligned}\n\\hat{y} &= \\underset{y}{\\mathop{\\mathrm{argmax}}}\\left[\\Pr\\left(y\\mid f[\\mathbf{x},\\hat{\\boldsymbol{\\phi}}],\\sigma^2\\right)\\right]\n\\end{aligned} \\qquad (5.12)"
   },
   {
     "id": "page_0062-b010",

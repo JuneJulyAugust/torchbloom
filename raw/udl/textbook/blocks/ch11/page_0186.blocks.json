@@ -77,7 +77,7 @@
     "page_key": 186,
     "order": 9,
     "type": "paragraph",
-    "text": "where $h_{1}$ , $h_{2}$ , and $h_{3}$ denote the intermediate hidden layers, x is the network input, y is the output, and the functions $f_{k}[\\bullet,\\phi_{k}]$ perform the processing.",
+    "text": "where $h\\_{1}$ , $h\\_{2}$ , and $h\\_{3}$ denote the intermediate hidden layers, x is the network input, y is the output, and the functions $f\\_{k}[\\bullet,\\phi\\_{k}]$ perform the processing.",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -86,7 +86,7 @@
     "page_key": 186,
     "order": 10,
     "type": "paragraph",
-    "text": "In a standard neural network, each layer consists of a linear transformation followed by an activation function, and the parameters $\\phi_{k}$ comprise the weights and biases of the",
+    "text": "In a standard neural network, each layer consists of a linear transformation followed by an activation function, and the parameters $\\phi\\_{k}$ comprise the weights and biases of the",
     "source": "deepseek+paddle",
     "confidence": "high"
   }

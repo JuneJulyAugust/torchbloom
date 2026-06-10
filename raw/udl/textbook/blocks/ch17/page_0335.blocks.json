@@ -23,7 +23,7 @@
     "page_key": 335,
     "order": 3,
     "type": "caption",
-    "text": "Figure 17.7 Posterior distribution over latent variable. a) The posterior distribution $\\Pr(z|x^{*},\\phi)$ is the distribution over the values of the latent variable z that could be responsible for a data point $x^{*}$ . We calculate this via Bayes' rule $\\Pr(z|x^{*},\\phi) \\propto \\Pr(x^{*}|z,\\phi)\\Pr(z)$ . b) We compute the first term on the right-hand side (the likelihood) by assessing the probability of $x^{*}$ against the symmetric Gaussian associated with each value of z. Here, it was more likely to have been created from $z_{1}$ than $z_{2}$ . The second term is the prior probability $\\Pr(z)$ over the latent variable. Combining these two factors and normalizing so the distribution sums to one gives us the posterior $\\Pr(z|x^{*},\\phi)$ .",
+    "text": "Figure 17.7 Posterior distribution over latent variable. a) The posterior distribution $\\Pr(z|x^{*},\\phi)$ is the distribution over the values of the latent variable z that could be responsible for a data point $x^{*}$ . We calculate this via Bayes' rule $\\Pr(z|x^{*},\\phi) \\propto \\Pr(x^{*}|z,\\phi)\\Pr(z)$ . b) We compute the first term on the right-hand side (the likelihood) by assessing the probability of $x^{*}$ against the symmetric Gaussian associated with each value of z. Here, it was more likely to have been created from $z\\_{1}$ than $z\\_{2}$ . The second term is the prior probability $\\Pr(z)$ over the latent variable. Combining these two factors and normalizing so the distribution sums to one gives us the posterior $\\Pr(z|x^{*},\\phi)$ .",
     "source": "deepseek+paddle",
     "confidence": "medium"
   },

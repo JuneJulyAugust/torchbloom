@@ -49,7 +49,7 @@
     "page_key": 262,
     "order": 6,
     "type": "paragraph",
-    "text": "in which each node embedding  $h_{n}$  is updated from the initial embedding  $x_{n}$ , initial embeddings  $x_{m\\in\\mathbb{N}[n]}$  at the adjacent nodes, initial embeddings  $e_{e\\in\\mathrm{ne}[n]}$  at the adjacent edges, and adjacent node embeddings  $h_{m\\in\\mathbb{N}[n]}$ . For convergence, the function  $f[\\bullet,\\bullet,\\bullet,\\bullet,\\phi]$  must be a contraction mapping (see figure 16.9). If we unroll this equation in time for K steps and allow different parameters  $\\phi_{k}$  at each time K, then equation 13.25 becomes similar to the graph convolutional network. Subsequent work extended graph neural networks to use gated recurrent units (Li et al., 2016b) and long short-term memory networks (Selsam et al., 2019).",
+    "text": "in which each node embedding  $h\\_{n}$  is updated from the initial embedding  $x\\_{n}$ , initial embeddings  $x\\_{m\\in\\mathbb{N}[n]}$  at the adjacent nodes, initial embeddings  $e\\_{e\\in\\mathrm{ne}[n]}$  at the adjacent edges, and adjacent node embeddings  $h\\_{m\\in\\mathbb{N}[n]}$ . For convergence, the function  $f[\\bullet,\\bullet,\\bullet,\\bullet,\\phi]$  must be a contraction mapping (see figure 16.9). If we unroll this equation in time for K steps and allow different parameters  $\\phi\\_{k}$  at each time K, then equation 13.25 becomes similar to the graph convolutional network. Subsequent work extended graph neural networks to use gated recurrent units (Li et al., 2016b) and long short-term memory networks (Selsam et al., 2019).",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
