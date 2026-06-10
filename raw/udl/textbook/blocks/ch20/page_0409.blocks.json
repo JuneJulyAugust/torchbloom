@@ -4,64 +4,55 @@
     "page_key": 409,
     "order": 1,
     "type": "figure",
+    "text": "Figure 20.5 Linear slices through loss function (../../figures/page_0409_fig_2.jpg)",
     "source": "paddle",
     "confidence": "high",
-    "image_path": "figures/page_0409_fig_1.jpg",
-    "alt_text": "Figure 20.5 Linear slices through loss function. a) A two-layer fully connected ReLU network is trained on MNIST. The loss along a straight line starting at the initial parameters ( \\delta=0 ) and finishing at the trained parameters ( \\delta=1 ) descends monotonically. b) However, in this two-layer fully connected MaxOut network on MNIST, there is an increase in the loss along a straight line between one solution ( \\delta=0 ) and another ( \\delta=1 ). Adapted from Goodfellow et al. (2015b)."
+    "image_path": "figures/page_0409_fig_2.jpg"
   },
   {
     "id": "page_0409-b002",
     "page_key": 409,
     "order": 2,
     "type": "caption",
+    "text": "Figure 20.5 Linear slices through loss function. a) A two-layer fully connected ReLU network is trained on MNIST. The loss along a straight line starting at the initial parameters ( $\\delta=0$ ) and finishing at the trained parameters ( $\\delta=1$ ) descends monotonically. b) However, in this two-layer fully connected MaxOut network on MNIST, there is an increase in the loss along a straight line between one solution ( $\\delta=0$ ) and another ( $\\delta=1$ ). Adapted from Goodfellow et al. (2015b).",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Figure 20.5 Linear slices through loss function. a) A two-layer fully connected ReLU network is trained on MNIST. The loss along a straight line starting at the initial parameters ( $\\delta=0$ ) and finishing at the trained parameters ( $\\delta=1$ ) descends monotonically. b) However, in this two-layer fully connected MaxOut network on MNIST, there is an increase in the loss along a straight line between one solution ( $\\delta=0$ ) and another ( $\\delta=1$ ). Adapted from Goodfellow et al. (2015b)."
+    "confidence": "high"
   },
   {
     "id": "page_0409-b003",
     "page_key": 409,
     "order": 3,
-    "type": "paragraph",
-    "source": "deepseek+paddle",
+    "type": "figure",
+    "text": "Figure 20.6 Subspace training (../../figures/page_0409_fig_1.jpg)",
+    "source": "paddle",
     "confidence": "high",
-    "text": "b)"
+    "image_path": "figures/page_0409_fig_1.jpg"
   },
   {
     "id": "page_0409-b004",
     "page_key": 409,
     "order": 4,
-    "type": "figure",
-    "source": "paddle",
-    "confidence": "high",
-    "image_path": "figures/page_0409_fig_2.jpg",
-    "alt_text": "Figure 20.6 Subspace training. A fully connected network with two hidden layers, each with 200 units was trained on MNIST. Parameters were initialized using a standard method but then constrained to lie within a random subspace. Performance reaches 90% of the unconstrained level when this subspace is 750D (termed the intrinsic dimension), which is 0.4% of the original parameters. Adapted from Li et al. (2018a)."
+    "type": "caption",
+    "text": "Figure 20.6 Subspace training. A fully connected network with two hidden layers, each with 200 units was trained on MNIST. Parameters were initialized using a standard method but then constrained to lie within a random subspace. Performance reaches 90% of the unconstrained level when this subspace is 750D (termed the intrinsic dimension), which is 0.4% of the original parameters. Adapted from Li et al. (2018a).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
   },
   {
     "id": "page_0409-b005",
     "page_key": 409,
     "order": 5,
-    "type": "caption",
+    "type": "paragraph",
+    "text": "between them (figure 20.5b); good minima are not generally linearly connected. However, Frankle et al. (2020) showed that this increase vanishes if the networks are identically trained initially and later allowed to diverge by using different SGD noise and augmentation. This suggests that the solution is constrained early in training and that some families of minima are linearly connected.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Figure 20.6 Subspace training. A fully connected network with two hidden layers, each with 200 units was trained on MNIST. Parameters were initialized using a standard method but then constrained to lie within a random subspace. Performance reaches 90% of the unconstrained level when this subspace is 750D (termed the intrinsic dimension), which is 0.4% of the original parameters. Adapted from Li et al. (2018a)."
+    "confidence": "medium"
   },
   {
     "id": "page_0409-b006",
     "page_key": 409,
     "order": 6,
     "type": "paragraph",
+    "text": "Draxler et al. (2018) found minima with good (but different) performance on the CIFAR-10 dataset. They then showed that it is possible to construct paths from one to the other, where the loss function remains low along this path. They conclude that there is a single connected manifold of low loss (figure 20.7). This seems to be increasingly true as the width and depth of the network increase. Garipov et al. (2018) and Fort & Jastrz\u0119bski (2019) present other schemes for connecting minima.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "between them (figure 20.5b); good minima are not generally linearly connected. However, Frankle et al. (2020) showed that this increase vanishes if the networks are identically trained initially and later allowed to diverge by using different SGD noise and augmentation. This suggests that the solution is constrained early in training and that some families of minima are linearly connected."
-  },
-  {
-    "id": "page_0409-b007",
-    "page_key": 409,
-    "order": 7,
-    "type": "paragraph",
-    "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Draxler et al. (2018) found minima with good (but different) performance on the CIFAR-10 dataset. They then showed that it is possible to construct paths from one to the other, where the loss function remains low along this path. They conclude that there is a single connected manifold of low loss (figure 20.7). This seems to be increasingly true as the width and depth of the network increase. Garipov et al. (2018) and Fort & Jastrz\u0119bski (2019) present other schemes for connecting minima."
+    "confidence": "medium"
   }
 ]

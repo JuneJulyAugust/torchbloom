@@ -1,1 +1,58 @@
-[{"id":"page_0177-b001","page_key":177,"order":1,"source":"deepseek+paddle","confidence":"medium","type":"figure","image_path":"figures/page_0177_fig_1.jpg"},{"id":"page_0177-b002","page_key":177,"order":2,"type":"caption","source":"deepseek+paddle","confidence":"medium","text":"Figure 10.17 VGG network (Simonyan & Zisserman, 2014) depicted at the same scale as AlexNet (see figure 10.16). This network consists of a series of convolutional layers and max pooling operations, in which the spatia..."},{"id":"page_0177-b003","page_key":177,"order":3,"source":"deepseek+paddle","confidence":"medium","type":"heading","text":"## 10.5.2 Object detection"},{"id":"page_0177-b004","page_key":177,"order":4,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"In object detection, the goal is to identify and localize multiple objects within the image. An early method based on convolutional networks was You Only Look Once, or YOLO for short. The input to the YOLO network is..."},{"id":"page_0177-b005","page_key":177,"order":5,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"The output values encode which class is present at each of a $7 \\times 7$ grid of locations (figure 10.18a–b). For each location, the output values also encode a fixed number of bounding boxes. Five parameters define..."},{"id":"page_0177-b006","page_key":177,"order":6,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"After the network is run, a heuristic process is used to remove rectangles with low confidence and to suppress predicted bounding boxes that correspond to the same object so only the most confident one is retained."}]
+[
+  {
+    "id": "page_0177-b001",
+    "page_key": 177,
+    "order": 1,
+    "type": "figure",
+    "text": "",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0177_fig_1.jpg"
+  },
+  {
+    "id": "page_0177-b002",
+    "page_key": 177,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 10.17 VGG network (Simonyan & Zisserman, 2014) depicted at the same scale as AlexNet (see figure 10.16). This network consists of a series of convolutional layers and max pooling operations, in which the spatial scale of the representation gradually decreases, but the number of channels gradually increases. The hidden layer after the last convolutional operation is resized to a 1D vector and three fully connected layers follow. The network outputs 1000 activations corresponding to the class labels that are passed through a softmax function to create class probabilities.",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "caption": "Figure 10.17 VGG network (Simonyan & Zisserman, 2014) depicted at the same scale as AlexNet (see figure 10.16). This network consists of a series of convolutional layers and max pooling operations, in which the spatial scale of the representation gradually decreases, but the number of channels gradually increases. The hidden layer after the last convolutional operation is resized to a 1D vector and three fully connected layers follow. The network outputs 1000 activations corresponding to the class labels that are passed through a softmax function to create class probabilities."
+  },
+  {
+    "id": "page_0177-b003",
+    "page_key": 177,
+    "order": 3,
+    "type": "heading",
+    "text": "## 10.5.2 Object detection",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0177-b004",
+    "page_key": 177,
+    "order": 4,
+    "type": "paragraph",
+    "text": "In object detection, the goal is to identify and localize multiple objects within the image. An early method based on convolutional networks was You Only Look Once, or YOLO for short. The input to the YOLO network is a $448 \\times 448$ RGB image. This is passed through 24 convolutional layers that gradually decrease the representation size using max pooling operations while concurrently increasing the number of channels, similarly to the VGG network. The final convolutional layer is of size $7 \\times 7$ and has 1024 channels. This is reshaped to a vector, and a fully connected layer maps it to 4096 values. One further fully connected layer maps this representation to the output.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0177-b005",
+    "page_key": 177,
+    "order": 5,
+    "type": "paragraph",
+    "text": "The output values encode which class is present at each of a $7 \\times 7$ grid of locations (figure 10.18a–b). For each location, the output values also encode a fixed number of bounding boxes. Five parameters define each box: the x- and y-position of the center, the height and width of the box, and the confidence of the prediction (figure 10.18c). The confidence estimates the overlap between the predicted and ground truth bounding boxes. The system is trained using momentum, weight decay, dropout, and data augmentation. Transfer learning is employed; the network is initially trained on the ImageNet classification task and is then fine-tuned for object detection.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0177-b006",
+    "page_key": 177,
+    "order": 6,
+    "type": "paragraph",
+    "text": "After the network is run, a heuristic process is used to remove rectangles with low confidence and to suppress predicted bounding boxes that correspond to the same object so only the most confident one is retained.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

@@ -1,1 +1,49 @@
-[{"id":"page_0226-b001","page_key":226,"order":1,"source":"deepseek+paddle","confidence":"medium","type":"figure","image_path":"figures/page_0226_fig_1.jpg"},{"id":"page_0226-b002","page_key":226,"order":2,"type":"caption","source":"deepseek+paddle","confidence":"medium","text":"Figure 12.13 Encoder-decoder architecture. Two sentences are passed to the system with the goal of translating the first into the second. a) The first sentence is passed through a standard encoder. b) The second sente..."},{"id":"page_0226-b003","page_key":226,"order":3,"source":"deepseek+paddle","confidence":"medium","type":"heading","text":"## 12.8 Encoder-decoder model example: machine translation"},{"id":"page_0226-b004","page_key":226,"order":4,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"Translation between languages is an example of a sequence-to-sequence task. One common approach uses both an encoder (to compute a good representation of the source sentence) and a decoder (to generate the sentence in..."},{"id":"page_0226-b005","page_key":226,"order":5,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"Consider translating from English to French. The encoder receives the sentence in English and processes it through a series of transformer layers to create an output representation for each token. During training, the..."}]
+[
+  {
+    "id": "page_0226-b001",
+    "page_key": 226,
+    "order": 1,
+    "type": "figure",
+    "text": "",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0226_fig_1.jpg"
+  },
+  {
+    "id": "page_0226-b002",
+    "page_key": 226,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 12.13 Encoder-decoder architecture. Two sentences are passed to the system with the goal of translating the first into the second. a) The first sentence is passed through a standard encoder. b) The second sentence is passed through a decoder that uses masked self-attention but also attends to the output embeddings of the encoder using cross-attention (orange rectangle). The loss function is the same as for the decoder model; we want to maximize the probability of the next word in the output sequence.",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "caption": "Figure 12.13 Encoder-decoder architecture. Two sentences are passed to the system with the goal of translating the first into the second. a) The first sentence is passed through a standard encoder. b) The second sentence is passed through a decoder that uses masked self-attention but also attends to the output embeddings of the encoder using cross-attention (orange rectangle). The loss function is the same as for the decoder model; we want to maximize the probability of the next word in the output sequence."
+  },
+  {
+    "id": "page_0226-b003",
+    "page_key": 226,
+    "order": 3,
+    "type": "heading",
+    "text": "## 12.8 Encoder-decoder model example: machine translation",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0226-b004",
+    "page_key": 226,
+    "order": 4,
+    "type": "paragraph",
+    "text": "Translation between languages is an example of a sequence-to-sequence task. One common approach uses both an encoder (to compute a good representation of the source sentence) and a decoder (to generate the sentence in the target language). This is aptly called an encoder-decoder model.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0226-b005",
+    "page_key": 226,
+    "order": 5,
+    "type": "paragraph",
+    "text": "Consider translating from English to French. The encoder receives the sentence in English and processes it through a series of transformer layers to create an output representation for each token. During training, the decoder receives the ground truth translation in French and passes it through a series of transformer layers that use masked self-attention and predict the following word at each position. However, the decoder layers also attend to the output of the encoder. Consequently, each French output word is",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

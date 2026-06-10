@@ -1,1 +1,101 @@
-[{"id":"page_0340-b001","page_key":340,"order":1,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"17.8 Applications"},{"id":"page_0340-b002","page_key":340,"order":2,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"Variational autoencoders have many uses, including denoising, anomaly detection, and compression. This section reviews several applications for image data."},{"id":"page_0340-b003","page_key":340,"order":3,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"17.8.1 Approximating sample probability"},{"id":"page_0340-b004","page_key":340,"order":4,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"In section 17.3, we argued that it is not possible to evaluate the probability of a sample with the VAE, which describes this probability as:"},{"id":"page_0340-b005","page_key":340,"order":5,"type":"equation","source":"deepseek","confidence":"high","text":"\\begin{align*}Pr(\\mathbf{x})\\quad&=\\quad\\int Pr(\\mathbf{x}|\\mathbf{z})Pr(\\mathbf{z})d\\mathbf{z}\\\\&=\\quad\\mathbb{E}_{\\mathbf{z}}\\Big[Pr(\\mathbf{x}|\\mathbf{z})\\Big]\\\\&=\\quad\\mathbb{E}_{\\mathbf{z}}\\Big[\\mathrm{Norm}_{\\mathbf{x}}[f[\\mathbf{z},\\phi],\\sigma^{2}\\mathbf{I}]\\Big].\\end{align*} \\quad (17.26)"},{"id":"page_0340-b006","page_key":340,"order":6,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"In principle, we could approximate this probability using equation 17.22 by drawing samples from $Pr(\\mathbf{z}) = \\mathrm{Norm}_{\\mathbf{z}}[\\mathbf{0}, \\mathbf{I}]$ and computing:"},{"id":"page_0340-b007","page_key":340,"order":7,"type":"equation","source":"deepseek","confidence":"high","text":"Pr(\\mathbf{x})\\approx\\frac{1}{N}\\sum_{n=1}^{N}Pr(\\mathbf{x}|\\mathbf{z}_{n}). \\quad (17.27)"},{"id":"page_0340-b008","page_key":340,"order":8,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"However, the curse of dimensionality means that almost all values of $z_{n}$ that we draw would have a very low probability $Pr(\\mathbf{x}|\\mathbf{z}_{n})$ ; we would have to draw an enormous number of samples to get a reliable estimate. A better approach is to use importance sampling. Here, we sample z from an auxiliary distribution $q(\\mathbf{z})$ , evaluate $Pr(\\mathbf{x}|\\mathbf{z}_{n})$ , and rescale the resulting values by the probability $q(\\mathbf{z})$ under the new distribution:"},{"id":"page_0340-b009","page_key":340,"order":9,"type":"equation","source":"deepseek","confidence":"high","text":"\\begin{align*}Pr(\\mathbf{x})\\quad&=\\quad\\int Pr(\\mathbf{x}|\\mathbf{z})Pr(\\mathbf{z})d\\mathbf{z}\\\\&=\\quad\\int\\frac{Pr(\\mathbf{x}|\\mathbf{z})Pr(\\mathbf{z})}{q(\\mathbf{z})}q(\\mathbf{z})d\\mathbf{z}\\\\&=\\quad\\mathbb{E}_{q(\\mathbf{z})}\\left[\\frac{Pr(\\mathbf{x}|\\mathbf{z})Pr(\\mathbf{z})}{q(\\mathbf{z})}\\right]\\\\&\\approx\\quad\\frac{1}{N}\\sum_{n=1}^{N}Pr(\\mathbf{x}|\\mathbf{z}_{n})Pr(\\mathbf{z}_{n})\\end{align*} \\quad (17.28)"},{"id":"page_0340-b010","page_key":340,"order":10,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"where now we draw the samples from $q(\\mathbf{z})$. If $q(\\mathbf{z})$ is close to the region of $\\mathbf{z}$ where the $Pr(\\mathbf{x}|\\mathbf{z})$ has high likelihood, then we will focus the sampling on the relevant area of space and estimate $Pr(\\mathbf{x})$ much more efficiently."},{"id":"page_0340-b011","page_key":340,"order":11,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"The product $Pr(\\mathbf{x}|\\mathbf{z})Pr(\\mathbf{z})$ that we are trying to integrate is proportional to the posterior distribution $Pr(\\mathbf{z}|\\mathbf{x})$ (by Bayes' rule). Hence, a sensible choice of auxiliary distribution $q(\\mathbf{z})$ is the variational posterior $q(\\mathbf{z}|\\mathbf{x})$ computed by the encoder."}]
+[
+  {
+    "id": "page_0340-b001",
+    "page_key": 340,
+    "order": 1,
+    "type": "heading",
+    "text": "17.8 Applications",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0340-b002",
+    "page_key": 340,
+    "order": 2,
+    "type": "paragraph",
+    "text": "Variational autoencoders have many uses, including denoising, anomaly detection, and compression. This section reviews several applications for image data.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0340-b003",
+    "page_key": 340,
+    "order": 3,
+    "type": "heading",
+    "text": "17.8.1 Approximating sample probability",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0340-b004",
+    "page_key": 340,
+    "order": 4,
+    "type": "paragraph",
+    "text": "In section 17.3, we argued that it is not possible to evaluate the probability of a sample with the VAE, which describes this probability as:",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0340-b005",
+    "page_key": 340,
+    "order": 5,
+    "type": "equation",
+    "text": "$$\n\\begin{aligned}\n\\Pr(\\mathbf{x})\\quad&=\\quad\\int \\Pr(\\mathbf{x}|\\mathbf{z})\\Pr(\\mathbf{z})d\\mathbf{z}\\\\\n&=\\quad\\mathbb{E}_{\\mathbf{z}}\\Big[\\Pr(\\mathbf{x}|\\mathbf{z})\\Big]\\\\\n&=\\quad\\mathbb{E}_{\\mathbf{z}}\\Big[\\mathrm{Norm}_{\\mathbf{x}}[f[\\mathbf{z},\\phi],\\sigma^{2}\\mathbf{I}]\\Big].\n\\end{aligned}\n\\qquad (17.26)\n$$",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0340-b006",
+    "page_key": 340,
+    "order": 6,
+    "type": "paragraph",
+    "text": "In principle, we could approximate this probability using equation 17.22 by drawing samples from $\\Pr(\\mathbf{z}) = \\\\mathrm{Norm}_{\\mathbf{z}}[\\mathbf{0}, \\mathbf{I}]$ and computing:",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0340-b007",
+    "page_key": 340,
+    "order": 7,
+    "type": "equation",
+    "text": "$$\n\\Pr(\\mathbf{x})\\approx\\frac{1}{N}\\sum_{n=1}^{N}\\Pr(\\mathbf{x}|\\mathbf{z}_{n})\n\\qquad (17.27)\n$$",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0340-b008",
+    "page_key": 340,
+    "order": 8,
+    "type": "paragraph",
+    "text": "However, the curse of dimensionality means that almost all values of $z_{n}$ that we draw would have a very low probability $\\Pr(\\mathbf{x}|\\mathbf{z}_{n})$ ; we would have to draw an enormous number of samples to get a reliable estimate. A better approach is to use importance sampling. Here, we sample z from an auxiliary distribution $q(\\mathbf{z})$ , evaluate $\\Pr(\\mathbf{x}|\\mathbf{z}_{n})$ , and rescale the resulting values by the probability $q(\\mathbf{z})$ under the new distribution:",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0340-b009",
+    "page_key": 340,
+    "order": 9,
+    "type": "equation",
+    "text": "$$\n\\begin{aligned}\n\\Pr(\\mathbf{x})\\quad&=\\quad\\int \\Pr(\\mathbf{x}|\\mathbf{z})\\Pr(\\mathbf{z})d\\mathbf{z}\\\\\n&=\\quad\\int\\frac{\\Pr(\\mathbf{x}|\\mathbf{z})\\Pr(\\mathbf{z})}{q(\\mathbf{z})}q(\\mathbf{z})d\\mathbf{z}\\\\\n&=\\quad\\mathbb{E}_{q(\\mathbf{z})}\\left[\\frac{\\Pr(\\mathbf{x}|\\mathbf{z})\\Pr(\\mathbf{z})}{q(\\mathbf{z})}\\right]\\\\\n&\\approx\\quad\\frac{1}{N}\\sum_{n=1}^{N}\\Pr(\\mathbf{x}|\\mathbf{z}_{n})\\Pr(\\mathbf{z}_{n})\n\\end{aligned}\n\\qquad (17.28)\n$$",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0340-b010",
+    "page_key": 340,
+    "order": 10,
+    "type": "paragraph",
+    "text": "where now we draw the samples from $q(\\mathbf{z})$. If $q(\\mathbf{z})$ is close to the region of $\\mathbf{z}$ where the $\\Pr(\\mathbf{x}|\\mathbf{z})$ has high likelihood, then we will focus the sampling on the relevant area of space and estimate $\\Pr(\\mathbf{x})$ much more efficiently.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0340-b011",
+    "page_key": 340,
+    "order": 11,
+    "type": "paragraph",
+    "text": "The product $\\Pr(\\mathbf{x}|\\mathbf{z})\\Pr(\\mathbf{z})$ that we are trying to integrate is proportional to the posterior distribution $\\Pr(\\mathbf{z}|\\mathbf{x})$ (by Bayes' rule). Hence, a sensible choice of auxiliary distribution $q(\\mathbf{z})$ is the variational posterior $q(\\mathbf{z}|\\mathbf{x})$ computed by the encoder.",
+    "source": "deepseek",
+    "confidence": "medium"
+  }
+]

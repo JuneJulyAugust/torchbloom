@@ -6,7 +6,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}h_1 &= a[\\theta_{10}+\\theta_{11}x]\\\\ h_2 &= a[\\theta_{20}+\\theta_{21}x]\\\\ h_3 &= a[\\theta_{30}+\\theta_{31}x]\\end{aligned} \\quad (3.3)"
+    "text": "\\begin{aligned}\nh_1 &= a[\\theta_{10}+\\theta_{11}x]\\\\\nh_2 &= a[\\theta_{20}+\\theta_{21}x]\\\\\nh_3 &= a[\\theta_{30}+\\theta_{31}x],\n\\end{aligned} \\quad (3.3)"
   },
   {
     "id": "page_0027-b002",

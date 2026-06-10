@@ -42,7 +42,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "We can treat the loss as a function L[phi] of these parameters. When we train the model, we are seeking parameters phi-hat that minimize this loss function."
+    "text": "We can treat the loss as a function L[phi] of these parameters. When we train the model, we are seeking parameters phi-hat that minimize this loss function, with a footnote clarifying the training-data dependency."
   },
   {
     "id": "page_0018-b006",
@@ -51,7 +51,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "latex": "\\hat{\\phi}=\\underset{\\phi}{\\mathrm{argmin}}\\left[L[\\phi]\\right]. \\quad (2.3)"
+    "latex": "\\hat{\\phi}=\\underset{\\phi}{\\mathrm{arg\\,min}}\\left[L[\\phi]\\right]. \\quad (2.3)"
   },
   {
     "id": "page_0018-b007",
@@ -114,15 +114,15 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "latex": "\\begin{aligned}y\\quad&=\\quad f[x,\\phi]\\\\&=\\quad \\phi_0+\\phi_1x.\\end{aligned} \\quad (2.4)"
+    "latex": "\\begin{aligned}\ny\\quad&=\\quad f[x,\\phi]\\\\\n&=\\quad \\phi_0+\\phi_1x.\n\\end{aligned} \\quad (2.4)"
   },
   {
     "id": "page_0018-b014",
     "page_key": 18,
     "order": 14,
-    "type": "review_note",
+    "type": "paragraph",
     "source": "codex-fusion",
     "confidence": "high",
-    "text": "DeepSeek omitted the displayed Equation 2.3 in Markdown; the equation was checked against the local PPStructureV3 formula evidence and transcribed as LaTeX."
+    "text": "Footnote: More properly, the loss function also depends on the training data {x_i,y_i}, so we should write L[{x_i,y_i},phi], but this is rather cumbersome."
   }
 ]

@@ -1,1 +1,74 @@
-[{"id":"page_0118-b001","page_key":118,"order":1,"type":"heading","source":"deepseek","confidence":"high","text":"Chapter 8"},{"id":"page_0118-b002","page_key":118,"order":2,"type":"heading","source":"deepseek","confidence":"high","text":"Measuring performance"},{"id":"page_0118-b003","page_key":118,"order":3,"type":"paragraph","source":"deepseek","confidence":"high","text":"Previous chapters described neural network models, loss functions, and training algorithms. This chapter considers how to measure the performance of the trained models. With sufficient capacity (i.e., number of hidden units), a neural network model will often perform perfectly on the training data. However, this does not necessarily mean it will generalize well to new test data."},{"id":"page_0118-b004","page_key":118,"order":4,"type":"paragraph","source":"deepseek","confidence":"high","text":"We will see that the test errors have three distinct causes and that their relative contributions depend on (i) the inherent uncertainty in the task, (ii) the amount of training data, and (iii) the choice of model. The latter dependency raises the issue of hyperparameter search. We discuss how to select both the model hyperparameters (e.g., the number of hidden layers and the number of hidden units in each) and the learning algorithm hyperparameters (e.g., the learning rate and batch size)."},{"id":"page_0118-b005","page_key":118,"order":5,"type":"heading","source":"deepseek","confidence":"high","text":"8.1 Training a simple model"},{"id":"page_0118-b006","page_key":118,"order":6,"type":"paragraph","source":"deepseek","confidence":"high","text":"We explore model performance using the MNIST-1D dataset (figure 8.1). This consists of ten classes $y \\in \\lbrace 0, 1, \\ldots, 9\\rbrace$ , representing the digits 0–9. The data are derived from 1D templates for each of the digits. Each data example x is created by randomly transforming one of these templates and adding noise. The full training dataset $\\lbrace x_i, y_i\\rbrace$ consists of I = 4000 training examples, each consisting of $D_i = 40$ dimensions representing the horizontal offset at 40 positions. The ten classes are drawn uniformly during data generation, so there are $\\sim 400$ examples of each class."},{"id":"page_0118-b007","page_key":118,"order":7,"type":"paragraph","source":"deepseek","confidence":"high","text":"We use a network with $D_{i}=40$ inputs and $D_{o}=10$ outputs which are passed through a softmax function to produce class probabilities (see section 5.5). The network has two hidden layers with $D=100$ hidden units each. It is trained using stochastic gradient descent with batch size 100 and learning rate $0.1$ for 6000 steps (150 epochs) with a multiclass cross-entropy loss (equation 5.24). Figure 8.2 shows that the training error decreases as training proceeds. The training data are classified perfectly after about 4000 steps. The training loss also decreases, eventually approaching zero."},{"id":"page_0118-b008","page_key":118,"order":8,"type":"paragraph","source":"deepseek","confidence":"high","text":"However, this doesn’t imply that the classifier is perfect; the model might have mem-"}]
+[
+  {
+    "id": "page_0118-b001",
+    "page_key": 118,
+    "order": 1,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Chapter 8"
+  },
+  {
+    "id": "page_0118-b002",
+    "page_key": 118,
+    "order": 2,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Measuring performance"
+  },
+  {
+    "id": "page_0118-b003",
+    "page_key": 118,
+    "order": 3,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Previous chapters described neural network models, loss functions, and training algorithms. This chapter considers how to measure the performance of the trained models. With sufficient capacity (i.e., number of hidden units), a neural network model will often perform perfectly on the training data. However, this does not necessarily mean it will generalize well to new test data."
+  },
+  {
+    "id": "page_0118-b004",
+    "page_key": 118,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "We will see that the test errors have three distinct causes and that their relative contributions depend on (i) the inherent uncertainty in the task, (ii) the amount of training data, and (iii) the choice of model. The latter dependency raises the issue of hyperparameter search. We discuss how to select both the model hyperparameters (e.g., the number of hidden layers and the number of hidden units in each) and the learning algorithm hyperparameters (e.g., the learning rate and batch size)."
+  },
+  {
+    "id": "page_0118-b005",
+    "page_key": 118,
+    "order": 5,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "8.1 Training a simple model"
+  },
+  {
+    "id": "page_0118-b006",
+    "page_key": 118,
+    "order": 6,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "We explore model performance using the MNIST-1D dataset (figure 8.1). This consists of ten classes $y \\in \\lbrace 0, 1, \\ldots, 9 \\rbrace$, representing the digits 0-9. The data are derived from 1D templates for each of the digits. Each data example x is created by randomly transforming one of these templates and adding noise. The full training dataset $\\lbrace x_i, y_i \\rbrace$ consists of I = 4000 training examples, each consisting of $D_i = 40$ dimensions representing the horizontal offset at 40 positions. The ten classes are drawn uniformly during data generation, so there are $\\sim 400$ examples of each class."
+  },
+  {
+    "id": "page_0118-b007",
+    "page_key": 118,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "We use a network with $D_{i}=40$ inputs and $D_{o}=10$ outputs which are passed through a softmax function to produce class probabilities (see section 5.5). The network has two hidden layers with $D=100$ hidden units each. It is trained using stochastic gradient descent with batch size 100 and learning rate $0.1$ for 6000 steps (150 epochs) with a multiclass cross-entropy loss (equation 5.24). Figure 8.2 shows that the training error decreases as training proceeds. The training data are classified perfectly after about 4000 steps. The training loss also decreases, eventually approaching zero."
+  },
+  {
+    "id": "page_0118-b008",
+    "page_key": 118,
+    "order": 8,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "However, this doesn't imply that the classifier is perfect; the model might have mem-"
+  }
+]

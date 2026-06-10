@@ -4,98 +4,98 @@
     "page_key": 429,
     "order": 1,
     "type": "paragraph",
+    "text": "ransomware, and other malware (Goodin, 2023).",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "ransomware, and other malware (Goodin, 2023)."
+    "confidence": "medium"
   },
   {
     "id": "page_0429-b002",
     "page_key": 429,
     "order": 2,
     "type": "paragraph",
+    "text": "The tendency to anthropomorphize computer behaviors and particularly the projection of meaning onto strings of symbols is termed the ELIZA effect (Hofstadter, 1995). This leads to a false sense of security when interacting with sophisticated chatbots, making people more susceptible to text-based fraud such as romance scams or business email compromise schemes (Abrahams, 2023). V\u00e9li\u00e7 (2023) highlights how emoji use in some chatbots is inherently manipulative, exploiting instinctual responses to emotive images.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "The tendency to anthropomorphize computer behaviors and particularly the projection of meaning onto strings of symbols is termed the ELIZA effect (Hofstadter, 1995). This leads to a false sense of security when interacting with sophisticated chatbots, making people more susceptible to text-based fraud such as romance scams or business email compromise schemes (Abrahams, 2023). V\u00e9li\u00e7 (2023) highlights how emoji use in some chatbots is inherently manipulative, exploiting instinctual responses to emotive images."
+    "confidence": "medium"
   },
   {
     "id": "page_0429-b003",
     "page_key": 429,
     "order": 3,
     "type": "heading",
+    "text": "## 21.2.4 Data privacy",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "21.2.4 Data privacy"
+    "confidence": "medium"
   },
   {
     "id": "page_0429-b004",
     "page_key": 429,
     "order": 4,
     "type": "paragraph",
+    "text": "Modern deep learning methods rely on huge crowd-sourced datasets, which may contain sensitive or private information. Even when sensitive information is removed, auxiliary knowledge and redundant encodings can be used to de-anonymize datasets (Narayanan & Shmatikov, 2008). Indeed, this famously happened to the Governor of Massachusetts, William Weld, in 1997. After an insurance group released health records that had been stripped of obvious personal information like patient name and address, an aspiring graduate student was able to \u201cde-anonymize\u201d which records belonged to Governor Weld during model training (see Mireshghallah et al., 2020; Boulemtafes et al., 2020).",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Modern deep learning methods rely on huge crowd-sourced datasets, which may contain sensitive or private information. Even when sensitive information is removed, auxiliary knowledge and redundant encodings can be used to de-anonymize datasets (Narayanan & Shmatikov, 2008). Indeed, this famously happened to the Governor of Massachusetts, William Weld, in 1997. After an insurance group released health records that had been stripped of obvious personal information like patient name and address, an aspiring graduate student was able to \u201cde-anonymize\u201d which records belonged to Governor Weld during model training (see Mireshghallah et al., 2020; Boulemtafes et al., 2020)."
+    "confidence": "medium"
   },
   {
     "id": "page_0429-b005",
     "page_key": 429,
     "order": 5,
     "type": "paragraph",
+    "text": "Hence, privacy-first design is important for ensuring the security of individuals' information, especially when applying deep learning techniques to high-risk areas such as healthcare and finance. Differential privacy and semantic security (homomorphic encryption or secure multi-party computation) methods can be used to ensure data security during model training (see Mireshghallah et al., 2020; Boulemtafes et al., 2020).",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Hence, privacy-first design is important for ensuring the security of individuals' information, especially when applying deep learning techniques to high-risk areas such as healthcare and finance. Differential privacy and semantic security (homomorphic encryption or secure multi-party computation) methods can be used to ensure data security during model training (see Mireshghallah et al., 2020; Boulemtafes et al., 2020)."
+    "confidence": "medium"
   },
   {
     "id": "page_0429-b006",
     "page_key": 429,
     "order": 6,
     "type": "heading",
+    "text": "## 21.3 Other social, ethical, and professional issues",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "21.3 Other social, ethical, and professional issues"
+    "confidence": "medium"
   },
   {
     "id": "page_0429-b007",
     "page_key": 429,
     "order": 7,
     "type": "paragraph",
+    "text": "The previous section identified areas where AI can be deliberately misused. This section describes other potential side effects of the widespread adoption of AI.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "The previous section identified areas where AI can be deliberately misused. This section describes other potential side effects of the widespread adoption of AI."
+    "confidence": "medium"
   },
   {
     "id": "page_0429-b008",
     "page_key": 429,
     "order": 8,
     "type": "heading",
+    "text": "## 21.3.1 Intellectual property",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "21.3.1 Intellectual property"
+    "confidence": "medium"
   },
   {
     "id": "page_0429-b009",
     "page_key": 429,
     "order": 9,
     "type": "paragraph",
+    "text": "Intellectual property (IP) can be characterized as non-physical property that is the product of original thought (Moore & Himma, 2022). In practice, many AI models are trained on copyrighted material. Consequently, these models' deployment can pose legal and ethical risks and run afoul of intellectual property rights (Henderson et al., 2023).",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Intellectual property (IP) can be characterized as non-physical property that is the product of original thought (Moore & Himma, 2022). In practice, many AI models are trained on copyrighted material. Consequently, these models' deployment can pose legal and ethical risks and run afoul of intellectual property rights (Henderson et al., 2023)."
+    "confidence": "medium"
   },
   {
     "id": "page_0429-b010",
     "page_key": 429,
     "order": 10,
     "type": "paragraph",
+    "text": "Sometimes, these issues are explicit. When language models are prompted with excerpts of copyrighted material, their outputs may include copyrighted text verbatim, and similar issues apply in the context of image generation in diffusion models (Henderson et al., 2023; Carlini et al., 2022, 2023). Even if the training falls under \u201cfair use,\u201d this may violate the moral rights of content creators in some cases (Weidinger et al., 2022).",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Sometimes, these issues are explicit. When language models are prompted with excerpts of copyrighted material, their outputs may include copyrighted text verbatim, and similar issues apply in the context of image generation in diffusion models (Henderson et al., 2023; Carlini et al., 2022, 2023). Even if the training falls under \u201cfair use,\u201d this may violate the moral rights of content creators in some cases (Weidinger et al., 2022)."
+    "confidence": "medium"
   },
   {
     "id": "page_0429-b011",
     "page_key": 429,
     "order": 11,
     "type": "paragraph",
+    "text": "More subtly, generative models (chapters 12,14\u201318) raise novel questions regarding AI",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "More subtly, generative models (chapters 12,14\u201318) raise novel questions regarding AI"
+    "confidence": "medium"
   }
 ]

@@ -1,1 +1,84 @@
-[{"id":"page_0283-b001","page_key":283,"order":1,"type":"figure","source":"paddle","confidence":"high","image_path":"figures/page_0283_fig_1.jpg","alt_text":"Problem with GAN loss function. If the generated samples (orange arrows) are easy to distinguish from the real"},{"id":"page_0283-b002","page_key":283,"order":2,"type":"caption","source":"deepseek+paddle","confidence":"high","text":"Figure 15.6 Problem with GAN loss function. If the generated samples (orange arrows) are easy to distinguish from the real examples (cyan arrows), then the discriminator (sigmoid) may have a very shallow slope at the positions of the samples; hence, the gradie"},{"id":"page_0283-b003","page_key":283,"order":3,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"is high, the mixture $(Pr(\\mathbf{x}^{*}) + Pr(\\mathbf{x}))/2$ has high probability. In other words, it penalizes regions with real examples but no samples. It enforces coverage. Referring to equation 15.6, we see that the second term does not depend on the ge"},{"id":"page_0283-b004","page_key":283,"order":4,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"15.2.2 Vanishing gradients"},{"id":"page_0283-b005","page_key":283,"order":5,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"In the previous section, we saw that when the discriminator is optimal, the loss function maximizes a measure of the distance between the generated and real samples. However, there is a potential problem with using this distance between probability distributio"},{"id":"page_0283-b006","page_key":283,"order":6,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Unfortunately, the distributions of generated samples and real examples may really be disjoint; the generated samples lie in a subspace that is the size of the latent variable z, and the real examples also lie in a low-dimensional subspace due to the physical "},{"id":"page_0283-b007","page_key":283,"order":7,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Figure 15.7 provides empirical evidence to support this hypothesis. If the DCGAN generator is frozen and the discriminator is updated repeatedly so that its classification performance improves, the generator gradients decrease. In short, there is a very fine b"},{"id":"page_0283-b008","page_key":283,"order":8,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"15.2.3 Wasserstein distance"},{"id":"page_0283-b009","page_key":283,"order":9,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"The previous sections showed that (i) the GAN loss can be interpreted in terms of distances between probability distributions and that (ii) the gradient of this distance"}]
+[
+  {
+    "id": "page_0283-b001",
+    "page_key": 283,
+    "order": 1,
+    "type": "figure",
+    "text": "",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0283_fig_1.jpg"
+  },
+  {
+    "id": "page_0283-b002",
+    "page_key": 283,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 15.6 Problem with GAN loss function. If the generated samples (orange arrows) are easy to distinguish from the real examples (cyan arrows), then the discriminator (sigmoid) may have a very shallow slope at the positions of the samples; hence, the gradient to update the parameter of the generator may be tiny.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0283-b003",
+    "page_key": 283,
+    "order": 3,
+    "type": "paragraph",
+    "text": "is high, the mixture  $(\\Pr[\\mathbf{x}^{*}] + \\Pr[\\mathbf{x}])/2$  has high probability. In other words, it penalizes regions with real examples but no samples. It enforces coverage. Referring to equation 15.6, we see that the second term does not depend on the generator, which consequently doesn’t care about coverage; it is happy to generate a subset of possible examples accurately. This is the putative reason for mode dropping.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0283-b004",
+    "page_key": 283,
+    "order": 4,
+    "type": "heading",
+    "text": "15.2.2 Vanishing gradients",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0283-b005",
+    "page_key": 283,
+    "order": 5,
+    "type": "paragraph",
+    "text": "In the previous section, we saw that when the discriminator is optimal, the loss function maximizes a measure of the distance between the generated and real samples. However, there is a potential problem with using this distance between probability distributions as the criterion for optimizing GANs. If the probability distributions are completely disjoint, this distance is maximal, and any small change to the generator will not decrease the loss. The same phenomenon can be seen when we consider the original formulation; if the discriminator can perfectly separate the generated and real samples, no small change to the generated data will change the classification score (figure 15.6).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0283-b006",
+    "page_key": 283,
+    "order": 6,
+    "type": "paragraph",
+    "text": "Unfortunately, the distributions of generated samples and real examples may really be disjoint; the generated samples lie in a subspace that is the size of the latent variable z, and the real examples also lie in a low-dimensional subspace due to the physical processes that created the data (figure 1.9). There may be little or no overlap between these subspaces, and the result is very small or no gradients.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0283-b007",
+    "page_key": 283,
+    "order": 7,
+    "type": "paragraph",
+    "text": "Figure 15.7 provides empirical evidence to support this hypothesis. If the DCGAN generator is frozen and the discriminator is updated repeatedly so that its classification performance improves, the generator gradients decrease. In short, there is a very fine balance between the quality of the discriminator and the generator; if the discriminator becomes too good, the training updates of the generator are attenuated.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0283-b008",
+    "page_key": 283,
+    "order": 8,
+    "type": "heading",
+    "text": "15.2.3 Wasserstein distance",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0283-b009",
+    "page_key": 283,
+    "order": 9,
+    "type": "paragraph",
+    "text": "The previous sections showed that (i) the GAN loss can be interpreted in terms of distances between probability distributions and that (ii) the gradient of this distance",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

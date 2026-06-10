@@ -35,14 +35,5 @@
     "source": "deepseek+paddle",
     "confidence": "high",
     "text": "Activation functions note: ReLU history, re-popularization, and training benefit of derivative one for positive inputs."
-  },
-  {
-    "id": "page_0037-b005",
-    "page_key": 37,
-    "order": 5,
-    "type": "review_note",
-    "source": "codex-fusion",
-    "confidence": "medium",
-    "text": "Paddle/page image restored words dropped by DeepSeek in the history note."
   }
 ]

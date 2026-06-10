@@ -80,14 +80,5 @@
     "source": "deepseek+paddle",
     "confidence": "high",
     "text": "Conversely, the input in the restaurant review example is a body of text. This may be of variable length depending on the number of words in the review, and here input"
-  },
-  {
-    "id": "page_0002-b010",
-    "page_key": 2,
-    "order": 10,
-    "type": "review_note",
-    "source": "codex-fusion",
-    "confidence": "medium",
-    "text": "DeepSeek skipped the paragraph describing figure 1.2a-b; the fused page uses the matching Paddle paragraph for that source gap."
   }
 ]

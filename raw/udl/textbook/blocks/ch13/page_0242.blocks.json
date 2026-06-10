@@ -1,1 +1,21 @@
-[{"id":"page_0242-b001","page_key":242,"order":1,"type":"figure","source":"paddle","confidence":"high","image_path":"figures/page_0242_fig_1.jpg","alt_text":"Types of graphs. a) A social network is an undirected graph; the connections between people are symmetric. b) "},{"id":"page_0242-b002","page_key":242,"order":2,"type":"caption","source":"deepseek+paddle","confidence":"high","text":"Figure 13.2 Types of graphs. a) A social network is an undirected graph; the connections between people are symmetric. b) A citation network is a directed graph; one publication cites another, so the relationship is asymmetric. c) A knowledge graph is a direct"}]
+[
+  {
+    "id": "page_0242-b001",
+    "page_key": 242,
+    "order": 1,
+    "type": "figure",
+    "text": "",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0242_fig_1.jpg"
+  },
+  {
+    "id": "page_0242-b002",
+    "page_key": 242,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 13.2 Types of graphs. a) A social network is an undirected graph; the connections between people are symmetric. b) A citation network is a directed graph; one publication cites another, so the relationship is asymmetric. c) A knowledge graph is a directed heterogeneous multigraph. The nodes are heterogeneous in that they represent different object types (people, places, companies) and multiple edges may represent different relations between each node. d) A point set can be converted to a graph by forming edges between nearby points. Each node has an associated position in 3D space, and this is termed a geometric graph (adapted from Hu et al., 2022). e) The scene on the left can be represented by a hierarchical graph. The topology of the room, table, and light are all represented by graphs. These graphs form nodes in a larger graph representing object adjacency (adapted from Fernández-Madrigal & González, 2002).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

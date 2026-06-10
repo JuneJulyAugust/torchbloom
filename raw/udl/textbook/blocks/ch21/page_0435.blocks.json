@@ -4,57 +4,71 @@
     "page_key": 435,
     "order": 1,
     "type": "paragraph",
+    "text": "ting. However, this luxury is dwindling due to the vast economic incentives to commercialize AI and the degree to which academic work is funded by industry (see Abdalla & Abdalla, 2021); even theoretical studies may have social impacts, so researchers must engage with the social and ethical dimensions of their work.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "ting. However, this luxury is dwindling due to the vast economic incentives to commercialize AI and the degree to which academic work is funded by industry (see Abdalla & Abdalla, 2021); even theoretical studies may have social impacts, so researchers must engage with the social and ethical dimensions of their work."
+    "confidence": "medium"
   },
   {
     "id": "page_0435-b002",
     "page_key": 435,
     "order": 2,
     "type": "list",
+    "text": "2. Even purely technical decisions can be value-laden. There is still a widely-held view that AI in fundamentally just mathematics and, therefore, it is \u201cobjective,\u201d and ethics are irrelevant. This assumption is not true when we consider the creation of AI systems or their deployment.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "items": [
-      "Even purely technical decisions can be value-laden. There is still a widely-held view that AI in fundamentally just mathematics and, therefore, it is \u201cobjective,\u201d and ethics are irrelevant. This assumption is not true when we consider the creation of AI systems or their deployment.",
-      "We should question the structures within which AI work takes place. Much research on AI ethics focuses on specific situations rather than questioning the larger social structures within which AI will be deployed. For example, there is considerable interest in ensuring algorithmic fairness, but it may not always be possible to instantiate conceptions of fairness, justice, or equity within extant social and political structures. Therefore, technology is inherently political.",
-      "Social and ethical problems don\u2019t necessarily require technical solutions. Many potential ethical problems surrounding AI technologies are primarily social and structural, so technical innovation alone cannot solve these problems; if scientists are to effect positive change with new technology, they must take a political and moral position."
-    ]
+    "confidence": "medium"
   },
   {
     "id": "page_0435-b003",
     "page_key": 435,
     "order": 3,
-    "type": "paragraph",
+    "type": "list",
+    "text": "3. We should question the structures within which AI work takes place. Much research on AI ethics focuses on specific situations rather than questioning the larger social structures within which AI will be deployed. For example, there is considerable interest in ensuring algorithmic fairness, but it may not always be possible to instantiate conceptions of fairness, justice, or equity within extant social and political structures. Therefore, technology is inherently political.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Where does this leave the average scientist? Perhaps with the following imperative: it is necessary to reflect upon the moral and social dimensions of one\u2019s work. This might require actively engaging those communities that are likely to be most affected by new technologies, thus cultivating relationships between researchers and communities and empowering those communities. Likewise, it might involve engagement with the literature beyond one\u2019s own discipline. For philosophical questions, the Stanford Encyclopedia of Philosophy is an invaluable resource. Interdisciplinary conferences are also useful in this regard. Leading work is published at both the Conference on Fairness, Accountability, and Transparency (FAccT) and the Conference on AI, Ethics, and Society (AIES)."
+    "confidence": "medium"
   },
   {
     "id": "page_0435-b004",
     "page_key": 435,
     "order": 4,
-    "type": "heading",
+    "type": "list",
+    "text": "4. Social and ethical problems don\u2019t necessarily require technical solutions. Many potential ethical problems surrounding AI technologies are primarily social and structural, so technical innovation alone cannot solve these problems; if scientists are to effect positive change with new technology, they must take a political and moral position.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "21.8 Summary"
+    "confidence": "medium"
   },
   {
     "id": "page_0435-b005",
     "page_key": 435,
     "order": 5,
     "type": "paragraph",
+    "text": "Where does this leave the average scientist? Perhaps with the following imperative: it is necessary to reflect upon the moral and social dimensions of one\u2019s work. This might require actively engaging those communities that are likely to be most affected by new technologies, thus cultivating relationships between researchers and communities and empowering those communities. Likewise, it might involve engagement with the literature beyond one\u2019s own discipline. For philosophical questions, the Stanford Encyclopedia of Philosophy is an invaluable resource. Interdisciplinary conferences are also useful in this regard. Leading work is published at both the Conference on Fairness, Accountability, and Transparency (FAccT) and the Conference on AI, Ethics, and Society (AIES).",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "This chapter considered the ethical implications of deep learning and AI. The value alignment problem is the task of ensuring that the objectives of AI systems are aligned with human objectives. Bias, explainability, artificial moral agency, and other topics can be viewed through this lens. AI can be intentionally misused, and this chapter detailed some ways this can happen. Progress in AI has further implications as diverse as IP law and climate change."
+    "confidence": "medium"
   },
   {
     "id": "page_0435-b006",
     "page_key": 435,
     "order": 6,
-    "type": "paragraph",
+    "type": "heading",
+    "text": "## 21.8 Summary",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Ethical AI is a collective action problem, and the chapter concludes with an appeal to scientists to consider the moral and ethical implications of their work. Every ethical issue is not within the control of every individual computer scientist. However, this does not imply that researchers have no responsibility whatsoever to consider\u2014and mitigate where they can\u2014the potential for misuse of the systems they create."
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0435-b007",
+    "page_key": 435,
+    "order": 7,
+    "type": "paragraph",
+    "text": "This chapter considered the ethical implications of deep learning and AI. The value alignment problem is the task of ensuring that the objectives of AI systems are aligned with human objectives. Bias, explainability, artificial moral agency, and other topics can be viewed through this lens. AI can be intentionally misused, and this chapter detailed some ways this can happen. Progress in AI has further implications as diverse as IP law and climate change.",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0435-b008",
+    "page_key": 435,
+    "order": 8,
+    "type": "paragraph",
+    "text": "Ethical AI is a collective action problem, and the chapter concludes with an appeal to scientists to consider the moral and ethical implications of their work. Every ethical issue is not within the control of every individual computer scientist. However, this does not imply that researchers have no responsibility whatsoever to consider\u2014and mitigate where they can\u2014the potential for misuse of the systems they create.",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
   }
 ]

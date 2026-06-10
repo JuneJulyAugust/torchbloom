@@ -1,1 +1,49 @@
-[{"id":"page_0288-b001","page_key":288,"order":1,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Figure 15.10 Truncation. The quality of GAN samples can be traded off against diversity by rejecting samples from the latent variable z that fall further than $\\tau$ standard deviations from the mean. a) If this threshold is large ( $\\tau = 2.0$ ), the samples"},{"id":"page_0288-b002","page_key":288,"order":2,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"a)"},{"id":"page_0288-b003","page_key":288,"order":3,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"b)"},{"id":"page_0288-b004","page_key":288,"order":4,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"c)"},{"id":"page_0288-b005","page_key":288,"order":5,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"d)"},{"id":"page_0288-b006","page_key":288,"order":6,"type":"figure","source":"paddle","confidence":"high","image_path":"figures/page_0288_fig_1.jpg","alt_text":"Figure"},{"id":"page_0288-b007","page_key":288,"order":7,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"T=20 T=10 T=0.5 T=0.04"},{"id":"page_0288-b008","page_key":288,"order":8,"type":"figure","source":"paddle","confidence":"high","image_path":"figures/page_0288_fig_2.jpg","alt_text":"Combining methods. GANs can generate realistic images of faces when trained on CELEBA-HQ dataset and more comp"},{"id":"page_0288-b009","page_key":288,"order":9,"type":"caption","source":"deepseek+paddle","confidence":"high","text":"Figure 15.11 Combining methods. GANs can generate realistic images of faces when trained on CELEBA-HQ dataset and more complex, variable objects when trained on LSUN categories. Adapted from Karras et al. (2018)."}]
+[
+  {
+    "id": "page_0288-b001",
+    "page_key": 288,
+    "order": 1,
+    "type": "figure",
+    "text": "",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0288_fig_1.jpg"
+  },
+  {
+    "id": "page_0288-b002",
+    "page_key": 288,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 15.10 Truncation. The quality of GAN samples can be traded off against diversity by rejecting samples from the latent variable $z$ that fall further than $\\tau$ standard deviations from the mean. a) If this threshold is large ($\\tau = 2.0$), the samples are visually varied but may have defects. b-c) As this threshold is decreased, the average visual quality improves, but the diversity decreases. d) With a very small threshold, the samples look almost identical. By judiciously choosing this threshold, it is possible to increase the average quality of GAN results. Adapted from Brock et al. (2019).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0288-b003",
+    "page_key": 288,
+    "order": 3,
+    "type": "caption",
+    "text": "Figure 15.11 Combining methods. GANs can generate realistic images of faces when trained on CELEBA-HQ dataset and more complex, variable objects when trained on LSUN categories. Adapted from Karras et al. (2018).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0288-b004",
+    "page_key": 288,
+    "order": 4,
+    "type": "figure",
+    "text": "",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0288_fig_2.jpg"
+  },
+  {
+    "id": "page_0288-b005",
+    "page_key": 288,
+    "order": 5,
+    "type": "caption",
+    "text": "Figure 15.12 Traversing latent space of progressive GAN trained on LSUN cars. Moving in the latent space produces car images that change smoothly. This usually only works for short trajectories; eventually, the latent variable moves to somewhere that produces unrealistic images. Adapted from Karras et al. (2018).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

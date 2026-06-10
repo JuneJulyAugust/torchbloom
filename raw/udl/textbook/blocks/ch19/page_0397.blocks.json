@@ -4,71 +4,62 @@
     "page_key": 397,
     "order": 1,
     "type": "heading",
+    "text": "## Notes",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Notes"
+    "confidence": "medium"
   },
   {
     "id": "page_0397-b002",
     "page_key": 397,
     "order": 2,
     "type": "paragraph",
+    "text": "Sutton & Barto (2018) cover tabular reinforcement learning methods in depth. Li (2017), Arulkumaran et al. (2017), Fran\u00e7ois-Lavet et al. (2018), and Wang et al. (2022c) all provide overviews of deep reinforcement learning. Graesser & Keng (2019) is an excellent introductory resource that includes Python code.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Sutton & Barto (2018) cover tabular reinforcement learning methods in depth. Li (2017), Arulkumaran et al. (2017), Fran\u00e7ois-Lavet et al. (2018), and Wang et al. (2022c) all provide overviews of deep reinforcement learning. Graesser & Keng (2019) is an excellent introductory resource that includes Python code."
+    "confidence": "medium"
   },
   {
     "id": "page_0397-b003",
     "page_key": 397,
     "order": 3,
     "type": "paragraph",
+    "text": "Landmarks in deep reinforcement learning: Most landmark achievements of reinforcement learning have been in either video games or real-world games since these provide constrained environments with limited actions and fixed rules. Deep Q-Learning (Mnih et al., 2015) achieved human-level performance across a benchmark of ATARI games. AlphaGo (Silver et al., 2016) beat the world champion at Go. This game was previously considered very difficult for computers to play. Berner et al. (2019) built a system that beat the world champion team in the five vs. five-player game Defense of the Ancients 2, which requires cooperation across players. Ye et al. (2021) built a system that could beat humans on Atari games with limited data (in contrast to previous systems, which need much more experience than humans). More recently, the Cicero system demonstrated human-level performance in the game Diplomacy which requires natural language negotiations and coordination between players (FAIR, 2022).",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Landmarks in deep reinforcement learning: Most landmark achievements of reinforcement learning have been in either video games or real-world games since these provide constrained environments with limited actions and fixed rules. Deep Q-Learning (Mnih et al., 2015) achieved human-level performance across a benchmark of ATARI games. AlphaGo (Silver et al., 2016) beat the world champion at Go. This game was previously considered very difficult for computers to play. Berner et al. (2019) built a system that beat the world champion team in the five vs. five-player game Defense of the Ancients 2, which requires cooperation across players. Ye et al. (2021) built a system that could beat humans on Atari games with limited data (in contrast to previous systems, which need much more experience than humans). More recently, the Cicero system demonstrated human-level performance in the game Diplomacy which requires natural language negotiations and coordination between players (FAIR, 2022)."
+    "confidence": "medium"
   },
   {
     "id": "page_0397-b004",
     "page_key": 397,
     "order": 4,
     "type": "paragraph",
+    "text": "RL has also been applied successfully to combinatorial optimization problems (see Mazyavkina et al., 2021). For example, Kool et al. (2019) learned a model that performed similarly to the best heuristics for the traveling salesman problem. Recently, AlphaTensor (Fawzi et al., 2022) used the work of Andreae (1969) as being the first to describe RL using the MDP formalism.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "RL has also been applied successfully to combinatorial optimization problems (see Mazyavkina et al., 2021). For example, Kool et al. (2019) learned a model that performed similarly to the best heuristics for the traveling salesman problem. Recently, AlphaTensor (Fawzi et al., 2022) used the work of Andreae (1969) as being the first to describe RL using the MDP formalism."
+    "confidence": "medium"
   },
   {
     "id": "page_0397-b005",
     "page_key": 397,
     "order": 5,
     "type": "paragraph",
+    "text": "Classical reinforcement learning methods: Very early contributions to the theory of MDPs were made by Thompson (1933) and Thompson (1935). The Bellman recursions were introduced by Bellman (1966). Howard (1960) introduced policy iteration. Sutton & Barto (2018) identify the work of Andreae (1969) as being the first to describe RL using the MDP formalism.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Classical reinforcement learning methods: Very early contributions to the theory of MDPs were made by Thompson (1933) and Thompson (1935). The Bellman recursions were introduced by Bellman (1966). Howard (1960) introduced policy iteration. Sutton & Barto (2018) identify the work of Andreae (1969) as being the first to describe RL using the MDP formalism."
+    "confidence": "medium"
   },
   {
     "id": "page_0397-b006",
     "page_key": 397,
     "order": 6,
     "type": "paragraph",
+    "text": "The modern era of reinforcement learning arguably originated in the Ph.D. theses of Sutton (1984) and Watkins (1989). Sutton (1988) introduced the term temporal difference learning. Watkins (1989) and Watkins & Dayan (1992) introduced Q-Learning and showed that it converges to a fixed point by Banach's theorem because the Bellman operator is a contraction mapping. Watkins (1989) made the first explicit connection between dynamic programming and reinforcement learning. SARSA was developed by Rummery & Niranjan (1994). Gordon (1995) introduced fitted Q-learning in which a machine learning model is used to predict the action value for each state-action pair. Riedmiller (2005) introduced neural-fitted Q-learning, which used a neural network to predict all the action values at once from a state. Early work on Monte Carlo methods was carried out by Singh & Sutton (1996), and the exploring starts algorithm was introduced by Sutton & Barto (1999). Note that this is an extremely cursory summary of more than fifty years of work. A much more thorough treatment can be found in Sutton & Barto (2018).",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "The modern era of reinforcement learning arguably originated in the Ph.D. theses of Sutton (1984) and Watkins (1989). Sutton (1988) introduced the term temporal difference learning. Watkins (1989) and Watkins & Dayan (1992) introduced Q-Learning and showed that it converges to a fixed point by Banach's theorem because the Bellman operator is a contraction mapping. Watkins (1989) made the first explicit connection between dynamic programming and reinforcement learning. SARSA was developed by Rummery & Niranjan (1994). Gordon (1995) introduced fitted Q-learning in which a machine learning model is used to predict the action value for each state-action pair. Riedmiller (2005) introduced neural-fitted Q-learning, which used a neural network to predict all the action values at once from a state. Early work on Monte Carlo methods was carried out by Singh & Sutton (1996), and the exploring starts algorithm was introduced by Sutton & Barto (1999). Note that this is an extremely cursory summary of more than fifty years of work. A much more thorough treatment can be found in Sutton & Barto (2018)."
+    "confidence": "medium"
   },
   {
     "id": "page_0397-b007",
     "page_key": 397,
     "order": 7,
     "type": "paragraph",
+    "text": "Deep Q-Networks: Deep Q-Learning was devised by Mnih et al. (2015) and is an intellectual descendant of neural-fitted Q-learning. It exploited the then-recent successes of convolutional networks to develop a fitted Q-Learning method that could achieve human-level performance on a benchmark of ATARI games. Deep Q-Learning suffers from the deadly triad issue (Sutton & Barto, 2018): training can be unstable in any scheme that incorporates (i) bootstrapping, (ii) off-policy learning, and (iii) function approximation. Much subsequent work has aimed to make training more stable. Mnih et al. (2015) introduced the experience replay buffer (Lin, 1992), which was subsequently improved by Schaul et al. (2016) to favor more important tuples and hence increase learning speed. This is termed prioritized experience replay.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Deep Q-Networks: Deep Q-Learning was devised by Mnih et al. (2015) and is an intellectual descendant of neural-fitted Q-learning. It exploited the then-recent successes of convolutional networks to develop a fitted Q-Learning method that could achieve human-level performance on a benchmark of ATARI games. Deep Q-Learning suffers from the deadly triad issue (Sutton & Barto, 2018): training can be unstable in any scheme that incorporates (i) bootstrapping, (ii) off-policy learning, and (iii) function approximation. Much subsequent work has aimed to make training more stable. Mnih et al. (2015) introduced the experience replay buffer (Lin, 1992), which was subsequently improved by Schaul et al. (2016) to favor more important tuples and hence increase learning speed. This is termed prioritized experience replay."
-  },
-  {
-    "id": "page_0397-b008",
-    "page_key": 397,
-    "order": 8,
-    "type": "paragraph",
-    "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Draft: please send errata to udlbookmail@gmail.com."
+    "confidence": "medium"
   }
 ]

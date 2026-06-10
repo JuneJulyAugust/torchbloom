@@ -1,1 +1,20 @@
-[{"id":"page_0082-b001","page_key":82,"order":1,"type":"figure","source":"paddle","confidence":"high","image_path":"figures/page_0082_fig_1.jpg","alt_text":"Figure 6.4 Loss function for the Gabor model. a) The loss function is non-convex, with multiple local minima (cyan circles) in addition to the global minimum (g"},{"id":"page_0082-b002","page_key":82,"order":2,"type":"caption","source":"deepseek+paddle","confidence":"high","text":"Figure 6.4 Loss function for the Gabor model. a) The loss function is non-convex, with multiple local minima (cyan circles) in addition to the global minimum (gray circle). It also contains saddle points where the gradient is locally zero, but the function increases in one direction and decreases in the other. The blue cross is an example of a saddle point; the function decreases as we move vertically. b–f) Models associated with the different minima. In each case, there is no small change that "}]
+[
+  {
+    "id": "page_0082-b001",
+    "page_key": 82,
+    "order": 1,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "figure",
+    "image_path": "figures/page_0082_fig_1.jpg"
+  },
+  {
+    "id": "page_0082-b002",
+    "page_key": 82,
+    "order": 2,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "caption",
+    "text": "Figure 6.4 Loss function for the Gabor model. a) The loss function is non-convex, with multiple local minima (cyan circles) in addition to the global minimum (gray circle). It also contains saddle points where the gradient is locally zero, but the function increases in one direction and decreases in the other. The blue cross is an example of a saddle point; the function decreases as we move horizontally in either direction but increases as we move vertically. b-f) Models associated with the different minima. In each case, there is no small change that decreases the loss. Panel (c) shows the global minimum, which has a loss of 0.64"
+  }
+]

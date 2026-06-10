@@ -3,72 +3,72 @@
     "id": "page_0092-b001",
     "page_key": 92,
     "order": 1,
-    "type": "paragraph",
     "source": "deepseek+paddle",
-    "confidence": "high",
+    "confidence": "medium",
+    "type": "paragraph",
     "text": "Convexity, minima, and saddle points: A function is convex if every chord (line segment between two points on the surface) lies above the function and does not intersect it. This can be tested algebraically by considering the Hessian matrix (the matrix of second derivatives):"
   },
   {
     "id": "page_0092-b002",
     "page_key": 92,
     "order": 2,
+    "source": "deepseek",
+    "confidence": "medium",
     "type": "equation",
-    "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "\\begin{aligned}\n\\mathbf{H}[\\phi]=\\begin{bmatrix}\\frac{\\partial^{2}L}{\\partial\\phi_{0}^{2}}&\\frac{\\partial^{2}L}{\\partial\\phi_{1}\\partial\\phi_{0}}&\\cdots&\\frac{\\partial^{2}L}{\\partial\\phi_{N}\\partial\\phi_{0}}\\\\ \\vdots&\\ddots&\\cdots&\\frac{\\partial^{2}L}{\\partial\\phi_{1}\\partial\\phi_{N}}\\\\ \\vdots&\\ddots&\\cdots&\\frac{\\partial^{2}L}{\\partial\\phi_{N}\\partial\\phi_{0}}\\end{bmatrix}.\n\\end{aligned} \\quad (6.19)"
+    "latex": "\\begin{aligned}\n\\mathbf{H}[\\phi]&=\\begin{bmatrix}\\frac{\\partial^{2}L}{\\partial\\phi_{0}^{2}}&\\frac{\\partial^{2}L}{\\partial\\phi_{1}\\partial\\phi_{0}}&\\cdots&\\frac{\\partial^{2}L}{\\partial\\phi_{N}\\partial\\phi_{0}}\\\\ \\vdots&\\ddots&\\cdots&\\frac{\\partial^{2}L}{\\partial\\phi_{1}\\partial\\phi_{N}}\\\\ \\vdots&\\ddots&\\cdots&\\frac{\\partial^{2}L}{\\partial\\phi_{N}\\partial\\phi_{0}}\\end{bmatrix}.\n\\end{aligned} \\qquad (6.19)"
   },
   {
     "id": "page_0092-b003",
     "page_key": 92,
     "order": 3,
-    "type": "paragraph",
     "source": "deepseek+paddle",
-    "confidence": "high",
+    "confidence": "medium",
+    "type": "paragraph",
     "text": "If the Hessian matrix is positive definite (has positive eigenvalues) for all possible parameter values, then the function is convex; the loss function will look like a smooth bowl (as in figure 6.1c), so training will be relatively easy. There will be a single global minimum and no local minima or saddle points."
   },
   {
     "id": "page_0092-b004",
     "page_key": 92,
     "order": 4,
-    "type": "paragraph",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "For any loss function, the eigenvalues of the Hessian matrix at places where the gradient is zero allow us to classify this position as (i) a minimum (the eigenvalues are all positive), (ii) a maximum (the eigenvalues are all negative), or (iii) a saddle point (positive eigenvalues are changing fast (where perhaps it should be more cautious) but a short distance when the function is changing slowly (where perhaps it should explore further). For this reason, gradient descent methods are usually c"
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "For any loss function, the eigenvalues of the Hessian matrix at places where the gradient is zero allow us to classify this position as (i) a minimum (the eigenvalues are all positive), (ii) a maximum (the eigenvalues are all negative), or (iii) a saddle point (positive eigenvalues are changing fast (where perhaps it should be more cautious) but a short distance when the function is changing slowly (where perhaps it should explore further). For this reason, gradient descent methods are usually combined with a line search procedure in which we sample the function along the desired direction to try to find the optimal step size. One such approach is bracketing (figure 6.10). Another problem with gradient descent is that it tends to lead to inefficient oscillatory behavior when descending valleys (e.g., path 1 in figure 6.5a)."
   },
   {
     "id": "page_0092-b005",
     "page_key": 92,
     "order": 5,
-    "type": "paragraph",
     "source": "deepseek+paddle",
-    "confidence": "high",
+    "confidence": "medium",
+    "type": "paragraph",
     "text": "Line search: Gradient descent with a fixed step size is inefficient because the distance moved depends entirely on the magnitude of the gradient. It moves a long distance when the function is bracketing (figure 6.10). Another problem with gradient descent is that it tends to lead to inefficient oscillatory behavior when descending valleys (e.g., path 1 in figure 6.5a)."
   },
   {
     "id": "page_0092-b006",
     "page_key": 92,
     "order": 6,
-    "type": "paragraph",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Beyond gradient descent: Numerous algorithms have been developed that remedy the problems of gradient descent. Most notable is the Newton method, which takes the curvature of the surface into account using the inverse of the Hessian matrix; if the gradient of the function is changing quickly, then it applies a more cautious update. This method eliminates the need for line search and does not suffer from oscillatory behavior. However, it has its own problems; in its simplest form, it moves toward"
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "Beyond gradient descent: Numerous algorithms have been developed that remedy the problems of gradient descent. Most notable is the Newton method, which takes the curvature of the surface into account using the inverse of the Hessian matrix; if the gradient of the function is changing quickly, then it applies a more cautious update. This method eliminates the need for line search and does not suffer from oscillatory behavior. However, it has its own problems; in its simplest form, it moves toward the nearest extremum, but this may be a maximum if we are closer to the top of a hill than we are to the bottom of a valley. Moreover, computing the inverse Hessian is intractable when the number of parameters is large, as in neural networks."
   },
   {
     "id": "page_0092-b007",
     "page_key": 92,
     "order": 7,
-    "type": "paragraph",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Properties of SGD: The limit of SGD as the learning rate tends to zero is a stochastic differential equation. Jastrzębski et al. (2018) showed that this equation relies on the learning-rate to batch size ratio and that there is a relation between the learning rate to batch size ratio and the width of the minimum found. Wider minima are considered more desirable; if the loss function for test data is similar, then small errors in the parameter estimates will have little effect on test performance"
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "Properties of SGD: The limit of SGD as the learning rate tends to zero is a stochastic differential equation. Jastrzębski et al. (2018) showed that this equation relies on the learning-rate to batch size ratio and that there is a relation between the learning rate to batch size ratio and the width of the minimum found. Wider minima are considered more desirable; if the loss function for test data is similar, then small errors in the parameter estimates will have little effect on test performance. He et al. (2019) prove a generalization bound for SGD that has a positive correlation with the ratio of batch size to learning rate. They train a large number of models on different architectures and datasets and find empirical evidence that test accuracy improves when the ratio of batch size to learning rate is low. Smith et al. (2018) and Goyal et al. (2018) also identified the ratio of batch size to learning rate as being important for generalization (see figure 20.10)."
   },
   {
     "id": "page_0092-b008",
     "page_key": 92,
     "order": 8,
-    "type": "paragraph",
     "source": "deepseek+paddle",
-    "confidence": "high",
+    "confidence": "medium",
+    "type": "paragraph",
     "text": "Momentum: The idea of using momentum to speed up optimization dates to Polyak (1964). Goh (2017) presents an in-depth discussion of the properties of momentum. The Nesterov"
   }
 ]

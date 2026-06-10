@@ -3,90 +3,102 @@
     "id": "page_0189-b001",
     "page_key": 189,
     "order": 1,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
     "type": "paragraph",
-    "text": "Shattered gradients presumably arise because changes in early network layers modify the output in an increasingly complex way as the network becomes deeper. The derivative of the output y with respect to the first lay..."
+    "text": "Shattered gradients presumably arise because changes in early network layers modify the output in an increasingly complex way as the network becomes deeper. The derivative of the output y with respect to the first layer $f_{1}$ of the network in equation 11.1 is:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
   },
   {
     "id": "page_0189-b002",
     "page_key": 189,
     "order": 2,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
     "type": "equation",
-    "text": "\\frac{\\partial\\mathbf{y}}{\\partial\\mathbf{f}_{1}}=\\frac{\\partial\\mathbf{f}_{2}}{\\partial\\mathbf{f}_{1}}\\frac{\\partial\\mathbf{f}_{3}}{\\partial\\mathbf{f}_{2}}\\frac{\\partial\\mathbf{f}_{4}}{\\partial\\mathbf{f}_{3}}. \\quad (11.3)"
+    "text": "$$\n\\frac{\\partial \\mathbf{y}}{\\partial \\mathbf{f}_1}=\\frac{\\partial \\mathbf{f}_2}{\\partial \\mathbf{f}_1}\\frac{\\partial \\mathbf{f}_3}{\\partial \\mathbf{f}_2}\\frac{\\partial \\mathbf{f}_4}{\\partial \\mathbf{f}_3}\\qquad (11.3)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium",
+    "latex": "\\frac{\\partial \\mathbf{y}}{\\partial \\mathbf{f}_1}=\\frac{\\partial \\mathbf{f}_2}{\\partial \\mathbf{f}_1}\\frac{\\partial \\mathbf{f}_3}{\\partial \\mathbf{f}_2}\\frac{\\partial \\mathbf{f}_4}{\\partial \\mathbf{f}_3}\\qquad (11.3)"
   },
   {
     "id": "page_0189-b003",
     "page_key": 189,
     "order": 3,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
     "type": "paragraph",
-    "text": "When we change the parameters that determine $f_{1}$ , all of the derivatives in this sequence are evaluated at slightly different locations since layers $f_{2}$ , $f_{3}$ , and $f_{4}$ are themselves computed from $f..."
+    "text": "When we change the parameters that determine $f_{1}$ , all of the derivatives in this sequence are evaluated at slightly different locations since layers $f_{2}$ , $f_{3}$ , and $f_{4}$ are themselves computed from $f_{1}$ . Consequently, the updated gradient at each training example may be completely different, and the loss function becomes badly behaved. [^1]",
+    "source": "deepseek+paddle",
+    "confidence": "high"
   },
   {
     "id": "page_0189-b004",
     "page_key": 189,
     "order": 4,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
     "type": "heading",
-    "text": "## 11.2 Residual connections and residual blocks"
+    "text": "## 11.2 Residual connections and residual blocks",
+    "source": "deepseek+paddle",
+    "confidence": "high"
   },
   {
     "id": "page_0189-b005",
     "page_key": 189,
     "order": 5,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
     "type": "paragraph",
-    "text": "Residual or skip connections are branches in the computational path, whereby the input to each network layer $f[\\bullet]$ is added back to the output (figure 11.4a). By analogy to equation 11.1, the residual network i..."
+    "text": "Residual or skip connections are branches in the computational path, whereby the input to each network layer $f[\\bullet]$ is added back to the output (figure 11.4a). By analogy to equation 11.1, the residual network is defined as:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
   },
   {
     "id": "page_0189-b006",
     "page_key": 189,
     "order": 6,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
     "type": "equation",
-    "text": "\\begin{array}{rcl}\\mathbf{h}_{1}&=&\\mathbf{x}+\\mathbf{f}_{1}[\\mathbf{x},\\boldsymbol{\\phi}_{1}]\\\\ \\mathbf{h}_{2}&=&\\mathbf{h}_{1}+\\mathbf{f}_{2}[\\mathbf{h}_{1},\\boldsymbol{\\phi}_{2}]\\\\ \\mathbf{h}_{3}&=&\\mathbf{h}_{2}+\\mathbf{f}_{3}[\\mathbf{h}_{2},\\boldsymbol{\\phi}_{3}]\\\\ \\mathbf{y}&=&\\mathbf{h}_{3}+\\mathbf{f}_{4}[\\mathbf{h}_{3},\\boldsymbol{\\phi}_{4}],\\end{array} \\quad (11.4)"
+    "text": "$$\n\\begin{aligned}\n\\mathbf{h}_1 &= \\mathbf{x}+\\mathbf{f}_1[\\mathbf{x},\\boldsymbol{\\phi}_1] \\\\\n\\mathbf{h}_2 &= \\mathbf{h}_1+\\mathbf{f}_2[\\mathbf{h}_1,\\boldsymbol{\\phi}_2] \\\\\n\\mathbf{h}_3 &= \\mathbf{h}_2+\\mathbf{f}_3[\\mathbf{h}_2,\\boldsymbol{\\phi}_3] \\\\\n\\mathbf{y} &= \\mathbf{h}_3+\\mathbf{f}_4[\\mathbf{h}_3,\\boldsymbol{\\phi}_4]\n\\end{aligned}\\qquad (11.4)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium",
+    "latex": "\\begin{aligned}\n\\mathbf{h}_1 &= \\mathbf{x}+\\mathbf{f}_1[\\mathbf{x},\\boldsymbol{\\phi}_1] \\\\\n\\mathbf{h}_2 &= \\mathbf{h}_1+\\mathbf{f}_2[\\mathbf{h}_1,\\boldsymbol{\\phi}_2] \\\\\n\\mathbf{h}_3 &= \\mathbf{h}_2+\\mathbf{f}_3[\\mathbf{h}_2,\\boldsymbol{\\phi}_3] \\\\\n\\mathbf{y} &= \\mathbf{h}_3+\\mathbf{f}_4[\\mathbf{h}_3,\\boldsymbol{\\phi}_4]\n\\end{aligned}\\qquad (11.4)"
   },
   {
     "id": "page_0189-b007",
     "page_key": 189,
     "order": 7,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
     "type": "paragraph",
-    "text": "where the first term on the right-hand side of each line is the residual connection. Each function $f_{k}$ learns an additive change to the current representation. It follows that their outputs must be the same size a..."
+    "text": "where the first term on the right-hand side of each line is the residual connection. Each function $f_{k}$ learns an additive change to the current representation. It follows that their outputs must be the same size as their inputs. Each additive combination of the input and the processed output is known as a residual block or residual layer.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
   },
   {
     "id": "page_0189-b008",
     "page_key": 189,
     "order": 8,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
     "type": "paragraph",
-    "text": "Once more, we can write this as a single function by substituting in the expressions for the intermediate quantities $h_{k}$ :"
+    "text": "Once more, we can write this as a single function by substituting in the expressions for the intermediate quantities $h_{k}$ :",
+    "source": "deepseek+paddle",
+    "confidence": "high"
   },
   {
     "id": "page_0189-b009",
     "page_key": 189,
     "order": 9,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
     "type": "equation",
-    "text": "\\begin{aligned}\\mathbf{y}=\\mathbf{x}&+\\mathbf{f}_{1}[\\mathbf{x}]\\\\&+\\mathbf{f}_{2}\\left[\\mathbf{x}+\\mathbf{f}_{1}[\\mathbf{x}]\\right]\\\\&+\\mathbf{f}_{3}\\left[\\mathbf{x}+\\mathbf{f}_{1}[\\mathbf{x}]+\\mathbf{f}_{2}\\left[\\mathbf{x}+\\mathbf{f}_{1}[\\mathbf{x}]\\right]+\\mathbf{f}_{3}\\left[\\mathbf{x}+\\mathbf{f}_{1}[\\mathbf{x}]+\\mathbf{f}_{2}\\left[\\mathbf{x}+\\mathbf{f}_{1}[\\mathbf{x}]\\right]\\right]\\right],\\end{aligned} \\quad (11.5)"
+    "text": "$$\n\\begin{aligned}\n\\mathbf{y} &= \\mathbf{x}+\\mathbf{f}_1[\\mathbf{x}] \\\\\n&\\quad +\\mathbf{f}_2\\left[\\mathbf{x}+\\mathbf{f}_1[\\mathbf{x}]\\right] \\\\\n&\\quad +\\mathbf{f}_3\\left[\\mathbf{x}+\\mathbf{f}_1[\\mathbf{x}]+\\mathbf{f}_2\\left[\\mathbf{x}+\\mathbf{f}_1[\\mathbf{x}]\\right]\\right] \\\\\n&\\quad +\\mathbf{f}_4\\left[\\mathbf{x}+\\mathbf{f}_1[\\mathbf{x}]+\\mathbf{f}_2\\left[\\mathbf{x}+\\mathbf{f}_1[\\mathbf{x}]\\right]+\\mathbf{f}_3\\left[\\mathbf{x}+\\mathbf{f}_1[\\mathbf{x}]+\\mathbf{f}_2\\left[\\mathbf{x}+\\mathbf{f}_1[\\mathbf{x}]\\right]\\right]\\right]\n\\end{aligned}\\qquad (11.5)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium",
+    "latex": "\\begin{aligned}\n\\mathbf{y} &= \\mathbf{x}+\\mathbf{f}_1[\\mathbf{x}] \\\\\n&\\quad +\\mathbf{f}_2\\left[\\mathbf{x}+\\mathbf{f}_1[\\mathbf{x}]\\right] \\\\\n&\\quad +\\mathbf{f}_3\\left[\\mathbf{x}+\\mathbf{f}_1[\\mathbf{x}]+\\mathbf{f}_2\\left[\\mathbf{x}+\\mathbf{f}_1[\\mathbf{x}]\\right]\\right] \\\\\n&\\quad +\\mathbf{f}_4\\left[\\mathbf{x}+\\mathbf{f}_1[\\mathbf{x}]+\\mathbf{f}_2\\left[\\mathbf{x}+\\mathbf{f}_1[\\mathbf{x}]\\right]+\\mathbf{f}_3\\left[\\mathbf{x}+\\mathbf{f}_1[\\mathbf{x}]+\\mathbf{f}_2\\left[\\mathbf{x}+\\mathbf{f}_1[\\mathbf{x}]\\right]\\right]\\right]\n\\end{aligned}\\qquad (11.5)"
   },
   {
     "id": "page_0189-b010",
     "page_key": 189,
     "order": 10,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
     "type": "paragraph",
-    "text": "where we have omitted the parameters $\\phi_{\\bullet}$ for clarity. We can think of this equation as “unraveling” the network (figure 11.4b). We see that the final network output is a sum of the input and four smaller..."
+    "text": "where we have omitted the parameters $\\phi_{\\bullet}$ for clarity. We can think of this equation as “unraveling” the network (figure 11.4b). We see that the final network output is a sum of the input and four smaller networks, corresponding to each line of the equation; one",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0189-b011",
+    "page_key": 189,
+    "order": 11,
+    "type": "paragraph",
+    "text": "[^1]: In equations 11.3 and 11.6, we overload notation to define $f_k$ as the output of the function $f_k[\\bullet]$.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
   }
 ]

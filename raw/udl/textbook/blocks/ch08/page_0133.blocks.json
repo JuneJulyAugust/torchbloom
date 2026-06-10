@@ -1,1 +1,65 @@
-[{"id":"page_0133-b001","page_key":133,"order":1,"type":"paragraph","source":"deepseek","confidence":"high","text":"Hyperparameters are typically chosen empirically; we train many models with different hyperparameters on the same training set, measure their performance, and retain the best model. However, we do not measure their performance on the test set; this would admit the possibility that these hyperparameters just happen to work well for the test set but don’t generalize to further data. Instead, we introduce a third dataset known as a validation set. For every choice of hyperparameters, we train the associated model using the training set and evaluate performance on the validation set. Finally, we select the model that worked best on the validation set and measure its performance on the test set. In principle, this should give a reasonable estimate of the true performance."},{"id":"page_0133-b002","page_key":133,"order":2,"type":"paragraph","source":"deepseek","confidence":"high","text":"The hyperparameter space is generally smaller than the parameter space but still too large to try every combination exhaustively. Unfortunately, many hyperparameters are discrete (e.g., the number of hidden layers), and others may be conditional on one another (e.g., we only need to specify the number of hidden units in the tenth hidden layer if there are ten or more layers). Hence, we cannot rely on gradient descent methods as we did for learning the model parameters. Hyperparameter optimization algorithms intelligently sample the space of hyperparameters, contingent on previous results. This procedure is computationally expensive since we must train an entire model and measure the validation performance for each combination of hyperparameters."},{"id":"page_0133-b003","page_key":133,"order":3,"type":"heading","source":"deepseek","confidence":"high","text":"8.6 Summary"},{"id":"page_0133-b004","page_key":133,"order":4,"type":"paragraph","source":"deepseek","confidence":"high","text":"To measure performance, we use a separate test set. The degree to which performance is maintained on this test set is known as generalization. Test errors can be explained by three factors: noise, bias, and variance. These combine additively in regression problems with least squares losses. Adding training data decreases the variance. When the model capacity is less than the number of training examples, increasing the capacity decreases bias but increases variance. This is known as the bias-variance trade-off, and there is a capacity where the trade-off is optimal."},{"id":"page_0133-b005","page_key":133,"order":5,"type":"paragraph","source":"deepseek","confidence":"high","text":"However, this is balanced against a tendency for performance to improve with capacity, even when the parameters exceed the training examples. Together, these two phenomena create the double descent curve. It is thought that the model interpolates more smoothly between the training data points in the over-parameterized “modern regime,” although it is unclear what drives this. To choose the capacity and other model and training algorithm hyperparameters, we fit multiple models and evaluate their performance using a separate validation set."},{"id":"page_0133-b006","page_key":133,"order":6,"type":"heading","source":"deepseek","confidence":"high","text":"Notes"},{"id":"page_0133-b007","page_key":133,"order":7,"type":"paragraph","source":"deepseek","confidence":"high","text":"Bias-variance trade-off: We showed that the test error for regression problems with least squares loss decomposes into the sum of noise, bias, and variance terms. These factors are all present for models with other losses, but their interaction is typically more complicated (Friedman, 1997; Domingos, 2000). For classification problems, there are some counter-intuitive"}]
+[
+  {
+    "id": "page_0133-b001",
+    "page_key": 133,
+    "order": 1,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Hyperparameters are typically chosen empirically; we train many models with different hyperparameters on the same training set, measure their performance, and retain the best model. However, we do not measure their performance on the test set; this would admit the possibility that these hyperparameters just happen to work well for the test set but don't generalize to further data. Instead, we introduce a third dataset known as a validation set. For every choice of hyperparameters, we train the associated model using the training set and evaluate performance on the validation set. Finally, we select the model that worked best on the validation set and measure its performance on the test set. In principle, this should give a reasonable estimate of the true performance."
+  },
+  {
+    "id": "page_0133-b002",
+    "page_key": 133,
+    "order": 2,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "The hyperparameter space is generally smaller than the parameter space but still too large to try every combination exhaustively. Unfortunately, many hyperparameters are discrete (e.g., the number of hidden layers), and others may be conditional on one another (e.g., we only need to specify the number of hidden units in the tenth hidden layer if there are ten or more layers). Hence, we cannot rely on gradient descent methods as we did for learning the model parameters. Hyperparameter optimization algorithms intelligently sample the space of hyperparameters, contingent on previous results. This procedure is computationally expensive since we must train an entire model and measure the validation performance for each combination of hyperparameters."
+  },
+  {
+    "id": "page_0133-b003",
+    "page_key": 133,
+    "order": 3,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "8.6 Summary"
+  },
+  {
+    "id": "page_0133-b004",
+    "page_key": 133,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "To measure performance, we use a separate test set. The degree to which performance is maintained on this test set is known as generalization. Test errors can be explained by three factors: noise, bias, and variance. These combine additively in regression problems with least squares losses. Adding training data decreases the variance. When the model capacity is less than the number of training examples, increasing the capacity decreases bias but increases variance. This is known as the bias-variance trade-off, and there is a capacity where the trade-off is optimal."
+  },
+  {
+    "id": "page_0133-b005",
+    "page_key": 133,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "However, this is balanced against a tendency for performance to improve with capacity, even when the parameters exceed the training examples. Together, these two phenomena create the double descent curve. It is thought that the model interpolates more smoothly between the training data points in the over-parameterized \"modern regime,\" although it is unclear what drives this. To choose the capacity and other model and training algorithm hyperparameters, we fit multiple models and evaluate their performance using a separate validation set."
+  },
+  {
+    "id": "page_0133-b006",
+    "page_key": 133,
+    "order": 6,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Notes"
+  },
+  {
+    "id": "page_0133-b007",
+    "page_key": 133,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Bias-variance trade-off: We showed that the test error for regression problems with least squares loss decomposes into the sum of noise, bias, and variance terms. These factors are all present for models with other losses, but their interaction is typically more complicated (Friedman, 1997; Domingos, 2000). For classification problems, there are some counter-intuitive"
+  }
+]

@@ -83,7 +83,11 @@ The original pilot used full PPStructureV3 outputs. During the full-book rollout
 
 ## Outcome
 
-Published the full textbook source layer on 2026-06-09.
+**Superseded on 2026-06-10.** This 2026-06-09 rollout passed the validator that existed at the time, but it was later rejected after GitHub rendering checks exposed malformed embedded and display equations in later chapters. The failure was procedural: chapters 4-21 were promoted through a validator/copy workflow without the same page-level Codex fusion and review discipline used for chapters 1-3.
+
+The accepted replacement is documented in `docs/superpowers/plans/2026-06-10-udl-full-book-fusion-redo.md`.
+
+Superseded publish stats from this rollout:
 
 - Fused Markdown pages: 436
 - Block sidecars: 436

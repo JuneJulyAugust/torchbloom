@@ -63,14 +63,5 @@
     "source": "deepseek+paddle",
     "confidence": "high",
     "text": "Figure 1.7 Inpainting. In the original image (left), the boy is obscured by metal cables. These undesirable regions (center) are removed and the generative model synthesizes a new image (right) under the constraint that the remaining pixels must stay the same. Adapted from Saharia et al. (2022a)."
-  },
-  {
-    "id": "page_0008-b008",
-    "page_key": 8,
-    "order": 8,
-    "type": "review_note",
-    "source": "codex-fusion",
-    "confidence": "medium",
-    "text": "Final figure paths follow PPStructure's stable crop manifest rather than DeepSeek's swapped Markdown labels."
   }
 ]

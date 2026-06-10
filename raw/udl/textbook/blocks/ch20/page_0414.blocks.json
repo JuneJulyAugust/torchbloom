@@ -4,101 +4,54 @@
     "page_key": 414,
     "order": 1,
     "type": "figure",
+    "text": "Figures 20.12 and 20.13 weight norm generalization charts (../../figures/page_0414_fig_1.jpg)",
     "source": "paddle",
     "confidence": "high",
-    "image_path": "figures/page_0414_fig_3.jpg",
-    "alt_text": "page_0414_fig_3"
+    "image_path": "figures/page_0414_fig_1.jpg"
   },
   {
     "id": "page_0414-b002",
     "page_key": 414,
     "order": 2,
-    "type": "paragraph",
+    "type": "caption",
+    "text": "Figure 20.12 and Figure 20.13 Weight norm and generalization. Figure 20.12 shows that a network trained on MNIST generalizes well only near a small range around the radius defined by Xavier initialization. Figure 20.13 shows grokking behavior: when parameters are initialized with an $\\ell_2$ norm much larger than He initialization, training and especially generalization take longer. Adapted from Fort & Scherlis (2019) and Liu et al. (2023c).",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "**Figure 1**"
+    "confidence": "high"
   },
   {
     "id": "page_0414-b003",
     "page_key": 414,
     "order": 3,
-    "type": "figure",
-    "source": "paddle",
-    "confidence": "high",
-    "image_path": "figures/page_0414_fig_1.jpg",
-    "alt_text": "Figure 20.12 Generalization on hyperspheres. A fully connected network with two hidden layers, each with 200 units (199,210 parameters) was trained on the MNIST database. The parameters are initialized to a given \\ell_{2} norm and then constrained to maintain this norm and to lie in a subspace (vertical direction). The network generalizes well in a small range around the radius r defined by Xavier initialization (cyan dotted line). Adapted from Fort & Scherlis (2019)."
+    "type": "paragraph",
+    "text": "the model is overparameterized. It follows that the norm of the weights can also be used to explain double descent. The norm of the weights increases when the number of parameters is similar to the number of data points (as the model contorts itself to fit these points exactly), causing generalization to reduce. As the network becomes wider and the number of weights increases, the overall norm of these weights decreases; the weights are initialized with a variance that is inversely proportional to the width (i.e., with He or Glorot initialization), and the weights need not change as drastically to fit the data well.",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
   },
   {
     "id": "page_0414-b004",
     "page_key": 414,
     "order": 4,
-    "type": "caption",
+    "type": "heading",
+    "text": "## 20.4.6 Leaving the data manifold",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Figure 20.12 Generalization on hyperspheres. A fully connected network with two hidden layers, each with 200 units (199,210 parameters) was trained on the MNIST database. The parameters are initialized to a given $\\ell_{2}$ norm and then constrained to maintain this norm and to lie in a subspace (vertical direction). The network generalizes well in a small range around the radius r defined by Xavier initialization (cyan dotted line). Adapted from Fort & Scherlis (2019)."
+    "confidence": "medium"
   },
   {
     "id": "page_0414-b005",
     "page_key": 414,
     "order": 5,
     "type": "paragraph",
+    "text": "Until this point, we have discussed how models generalize to new data that is drawn from the same distribution as the training data. This is a reasonable assumption for experimentation. However, systems deployed in the real world may encounter unexpected data due to noise, changes in the data statistics over time, or deliberate attacks. Of course, it is harder to make definite statements about this scenario, but D'Amour et al. (2020) show that the variability of identical models trained with different seeds on corrupted data can be enormous and unpredictable.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "**Figure 2**"
+    "confidence": "medium"
   },
   {
     "id": "page_0414-b006",
     "page_key": 414,
     "order": 6,
-    "type": "figure",
-    "source": "paddle",
-    "confidence": "high",
-    "image_path": "figures/page_0414_fig_2.jpg",
-    "alt_text": "Figure 20.13 Grokking. When the parameters are initialized so that their \\ell_{2} norm (radius) is considerably larger than is specified by He initialization, training takes longer (dashed lines), and generalization takes much longer (solid lines). The lag in generalization is attributed to the time taken for the norm of the weights to decrease back to the Goldilocks zone. Adapted from Liu et al. (2023c)."
-  },
-  {
-    "id": "page_0414-b007",
-    "page_key": 414,
-    "order": 7,
-    "type": "caption",
-    "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Figure 20.13 Grokking. When the parameters are initialized so that their $\\ell_{2}$ norm (radius) is considerably larger than is specified by He initialization, training takes longer (dashed lines), and generalization takes much longer (solid lines). The lag in generalization is attributed to the time taken for the norm of the weights to decrease back to the Goldilocks zone. Adapted from Liu et al. (2023c)."
-  },
-  {
-    "id": "page_0414-b008",
-    "page_key": 414,
-    "order": 8,
     "type": "paragraph",
+    "text": "Goodfellow et al. (2015a) showed that deep learning models are susceptible to adversarial attacks. Consider perturbing an image that is correctly classified by the network as \u201cdog\u201d so that the probability of the correct class decreases as fast as possible un-",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "the model is overparameterized. It follows that the norm of the weights can also be used to explain double descent. The norm of the weights increases when the number of parameters is similar to the number of data points (as the model contorts itself to fit these points exactly), causing generalization to reduce. As the network becomes wider and the number of weights increases, the overall norm of these weights decreases; the weights are initialized with a variance that is inversely proportional to the width (i.e., with He or Glorot initialization), and the weights need not change as drastically to fit the data well."
-  },
-  {
-    "id": "page_0414-b009",
-    "page_key": 414,
-    "order": 9,
-    "type": "heading",
-    "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "20.4.6 Leaving the data manifold"
-  },
-  {
-    "id": "page_0414-b010",
-    "page_key": 414,
-    "order": 10,
-    "type": "paragraph",
-    "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Until this point, we have discussed how models generalize to new data that is drawn from the same distribution as the training data. This is a reasonable assumption for experimentation. However, systems deployed in the real world may encounter unexpected data due to noise, changes in the data statistics over time, or deliberate attacks. Of course, it is harder to make definite statements about this scenario, but D'Amour et al. (2020) show that the variability of identical models trained with different seeds on corrupted data can be enormous and unpredictable."
-  },
-  {
-    "id": "page_0414-b011",
-    "page_key": 414,
-    "order": 11,
-    "type": "paragraph",
-    "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Goodfellow et al. (2015a) showed that deep learning models are susceptible to adversarial attacks. Consider perturbing an image that is correctly classified by the network as \u201cdog\u201d so that the probability of the correct class decreases as fast as possible un-"
+    "confidence": "medium"
   }
 ]

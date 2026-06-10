@@ -1,1 +1,58 @@
-[{"id":"page_0211-b001","page_key":211,"order":1,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"a)"},{"id":"page_0211-b002","page_key":211,"order":2,"source":"deepseek+paddle","confidence":"medium","type":"figure","image_path":"figures/page_0211_fig_1.jpg"},{"id":"page_0211-b003","page_key":211,"order":3,"type":"caption","source":"deepseek+paddle","confidence":"medium","text":"Figure 12.3 Computing attention weights. a) Query vectors $\\mathbf{q}_{n} = \\boldsymbol{\\beta}_{q} + \\boldsymbol{\\Omega}_{q}\\mathbf{x}_{n}$ and key vectors $\\mathbf{k}_{n} = \\boldsymbol{\\beta}_{k} + \\boldsymbol{\\Omega..."},{"id":"page_0211-b004","page_key":211,"order":4,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"the values, which is usually the same size as the input, so the representation doesn’t change size."},{"id":"page_0211-b005","page_key":211,"order":5,"source":"deepseek+paddle","confidence":"medium","type":"heading","text":"## 12.2.3 Self-attention summary"},{"id":"page_0211-b006","page_key":211,"order":6,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"The $n^{th}$ output is a weighted sum of the same linear transformation $v_{*} = \\beta_{v} + \\Omega_{v}x_{*}$ . applied to all of the inputs, where these attention weights are positive and sum to one. The weights depe..."},{"id":"page_0211-b007","page_key":211,"order":7,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"Note that this mechanism fulfills the initial requirements. First, there is a single shared set of parameters $\\phi = \\lbrace B_{v}, \\Omega_{v}, B_{q}, \\Omega_{q}, B_{k}, \\Omega_{k}\\rbrace $ . This is independent of the"}]
+[
+  {
+    "id": "page_0211-b001",
+    "page_key": 211,
+    "order": 1,
+    "type": "figure",
+    "text": "",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0211_fig_1.jpg"
+  },
+  {
+    "id": "page_0211-b002",
+    "page_key": 211,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 12.3 Computing attention weights. a) Query vectors $\\mathbf{q}_{n} = \\boldsymbol{\\beta}_{q} + \\boldsymbol{\\Omega}_{q}\\mathbf{x}_{n}$ and key vectors $\\mathbf{k}_{n} = \\boldsymbol{\\beta}_{k} + \\boldsymbol{\\Omega}_{k}\\mathbf{x}_{n}$ are computed for each input $\\mathbf{x}_{n}$. b) The dot products between each query and the three keys are passed through a softmax function to form non-negative attentions that sum to one. c) These route the value vectors (figure 12.1) via the sparse matrix from figure 12.2c.",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "caption": "Figure 12.3 Computing attention weights. a) Query vectors $\\mathbf{q}_{n} = \\boldsymbol{\\beta}_{q} + \\boldsymbol{\\Omega}_{q}\\mathbf{x}_{n}$ and key vectors $\\mathbf{k}_{n} = \\boldsymbol{\\beta}_{k} + \\boldsymbol{\\Omega}_{k}\\mathbf{x}_{n}$ are computed for each input $\\mathbf{x}_{n}$. b) The dot products between each query and the three keys are passed through a softmax function to form non-negative attentions that sum to one. c) These route the value vectors (figure 12.1) via the sparse matrix from figure 12.2c."
+  },
+  {
+    "id": "page_0211-b003",
+    "page_key": 211,
+    "order": 3,
+    "type": "paragraph",
+    "text": "the values, which is usually the same size as the input, so the representation doesn’t change size.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0211-b004",
+    "page_key": 211,
+    "order": 4,
+    "type": "heading",
+    "text": "## 12.2.3 Self-attention summary",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0211-b005",
+    "page_key": 211,
+    "order": 5,
+    "type": "paragraph",
+    "text": "The $n^{th}$ output is a weighted sum of the same linear transformation $v_{*} = \\beta_{v} + \\Omega_{v}x_{*}$ . applied to all of the inputs, where these attention weights are positive and sum to one. The weights depend on a measure of similarity between input $x_{n}$ and the other inputs. There is no activation function, but the mechanism is nonlinear due to the dot-product and a softmax operation used to compute the attention weights.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0211-b006",
+    "page_key": 211,
+    "order": 6,
+    "type": "paragraph",
+    "text": "Note that this mechanism fulfills the initial requirements. First, there is a single shared set of parameters $\\phi = \\lbrace B_{v}, \\Omega_{v}, B_{q}, \\Omega_{q}, B_{k}, \\Omega_{k}\\rbrace$ . This is independent of the",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

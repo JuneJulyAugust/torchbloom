@@ -6,15 +6,15 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\sigma_{\\Omega}^{2}=\\frac{2}{D_{h^{\\prime}}},\n\\end{aligned} \\quad (7.33)"
+    "latex": "\\sigma_{\\Omega}^{2}=\\frac{2}{D_{h^{\\prime}}}, \\qquad (7.33)"
   },
   {
     "id": "page_0111-b002",
     "page_key": 111,
     "order": 2,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "where $D_{h'}$ is the dimension of the layer that the weights feed into."
   },
   {
@@ -22,8 +22,8 @@
     "page_key": 111,
     "order": 3,
     "type": "heading",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "7.5.3 Initialization for both forward and backward pass"
   },
   {
@@ -31,8 +31,8 @@
     "page_key": 111,
     "order": 4,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "If the weight matrix $\\Omega$ is not square (i.e., there are different numbers of hidden units in the two adjacent layers, so $D_{h}$ and $D_{h'}$ differ), then it is not possible to choose the variance to satisfy both equations 7.32 and 7.33 simultaneously. One possible compromise is to use the mean $(D_{h} + D_{h'})/2$ as a proxy for the number of terms, which gives:"
   },
   {
@@ -42,15 +42,15 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\sigma_{\\Omega}^{2}=\\frac{4}{D_{h}+D_{h^{\\prime}}}.\n\\end{aligned} \\quad (7.34)"
+    "latex": "\\sigma_{\\Omega}^{2}=\\frac{4}{D_{h}+D_{h^{\\prime}}}. \\qquad (7.34)"
   },
   {
     "id": "page_0111-b006",
     "page_key": 111,
     "order": 6,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "Figure 7.7 shows empirically that both the variance of the hidden units in the forward pass and the variance of the gradients in the backward pass remain stable when the parameters are initialized appropriately."
   },
   {
@@ -58,7 +58,7 @@
     "page_key": 111,
     "order": 7,
     "type": "exercise",
-    "source": "deepseek",
+    "source": "deepseek+paddle",
     "confidence": "medium",
     "text": "Problem 7.15"
   },
@@ -67,8 +67,8 @@
     "page_key": 111,
     "order": 8,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "Notebook 7.3"
   },
   {
@@ -76,8 +76,8 @@
     "page_key": 111,
     "order": 9,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "Initialization"
   },
   {
@@ -85,8 +85,8 @@
     "page_key": 111,
     "order": 10,
     "type": "heading",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "7.6 Example training code"
   },
   {
@@ -94,8 +94,8 @@
     "page_key": 111,
     "order": 11,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "The primary focus of this book is scientific; this is not a guide for implementing deep learning models. Nonetheless, in figure 7.8, we present PyTorch code that implements the ideas explored in this book so far. The code defines a neural network and initializes the weights. It creates random input and output datasets and defines a least squares loss function. The model is trained from the data using SGD with momentum in batches of size 10 over 100 epochs. The learning rate starts at 0.01 and halves every 10 epochs."
   },
   {
@@ -103,8 +103,8 @@
     "page_key": 111,
     "order": 12,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "The takeaway is that although the underlying ideas in deep learning are quite complex, implementation is relatively simple. For example, all of the details of the backpropagation are hidden in the single line of code: loss.backward()."
   },
   {
@@ -112,8 +112,8 @@
     "page_key": 111,
     "order": 13,
     "type": "heading",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "7.7 Summary"
   },
   {
@@ -121,8 +121,8 @@
     "page_key": 111,
     "order": 14,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "The previous chapter introduced stochastic gradient descent (SGD), an iterative optimization algorithm that aims to find the minimum of a function. In the context of neural networks, this algorithm finds the parameters that minimize the loss function. SGD relies on the gradient of the loss function with respect to the parameters, which must be initialized before optimization. This chapter has addressed these two problems for deep neural networks."
   },
   {
@@ -130,8 +130,8 @@
     "page_key": 111,
     "order": 15,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "The gradients must be evaluated for a very large number of parameters, for each member of the batch, and at each SGD iteration. It is hence imperative that the gradient"
   }
 ]

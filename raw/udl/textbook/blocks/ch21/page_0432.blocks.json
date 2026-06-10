@@ -4,76 +4,98 @@
     "page_key": 432,
     "order": 1,
     "type": "paragraph",
+    "text": "persecution of LGBTQ+ individuals in countries where queerness is criminalized. Fourth, with regard to transparency, explainability, and value alignment more generally, the \u201cgaydar\u201d model appears to pick up on spurious correlations due to patterns in grooming, presentation, and lifestyle rather than facial structure, as the authors claimed (Aguera y Arcas et al., 2018). Fifth, with regard to data privacy, questions arise regarding the ethics of scraping \u201cpublic\u201d photos and sexual orientation labels from a dating website. Finally, with regard to scientific communication, the researchers communicated their results in a way that was sure to generate headlines: even the title of the paper is an overstatement of the model\u2019s abilities: Deep Neural Networks Can Detect Sexual Orientation from Faces. (They cannot.)",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "persecution of LGBTQ+ individuals in countries where queerness is criminalized. Fourth, with regard to transparency, explainability, and value alignment more generally, the \u201cgaydar\u201d model appears to pick up on spurious correlations due to patterns in grooming, presentation, and lifestyle rather than facial structure, as the authors claimed (Aguera y Arcas et al., 2018). Fifth, with regard to data privacy, questions arise regarding the ethics of scraping \u201cpublic\u201d photos and sexual orientation labels from a dating website. Finally, with regard to scientific communication, the researchers communicated their results in a way that was sure to generate headlines: even the title of the paper is an overstatement of the model\u2019s abilities: Deep Neural Networks Can Detect Sexual Orientation from Faces. (They cannot.)"
+    "confidence": "medium"
   },
   {
     "id": "page_0432-b002",
     "page_key": 432,
     "order": 2,
     "type": "paragraph",
+    "text": "It should also be apparent that a facial-analysis model for determining sexual orientation does nothing whatsoever to benefit the LGBTQ+ community. If it is to benefit society, the most important question is whether a particular study, experiment, model, application, or technology serves the interests of the community to which it pertains.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "It should also be apparent that a facial-analysis model for determining sexual orientation does nothing whatsoever to benefit the LGBTQ+ community. If it is to benefit society, the most important question is whether a particular study, experiment, model, application, or technology serves the interests of the community to which it pertains."
+    "confidence": "medium"
   },
   {
     "id": "page_0432-b003",
     "page_key": 432,
     "order": 3,
     "type": "heading",
+    "text": "## 21.5 The value-free ideal of science",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "21.5 The value-free ideal of science"
+    "confidence": "medium"
   },
   {
     "id": "page_0432-b004",
     "page_key": 432,
     "order": 4,
     "type": "paragraph",
+    "text": "This chapter has enumerated a number of ways that the objectives of AI systems can unintentionally, or through misuse, diverge from the values of humanity. We now argue that scientists are not neutral actors: their values inevitably impinge on their work.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "This chapter has enumerated a number of ways that the objectives of AI systems can unintentionally, or through misuse, diverge from the values of humanity. We now argue that scientists are not neutral actors: their values inevitably impinge on their work."
+    "confidence": "medium"
   },
   {
     "id": "page_0432-b005",
     "page_key": 432,
     "order": 5,
     "type": "paragraph",
+    "text": "Perhaps this is surprising. There is a broad belief that science is\u2014or ought to be\u2014objective. This is codified by the value-free ideal of science. Many would argue that machine learning is objective because algorithms are just mathematics. However, analogous to algorithmic bias (section 21.1.1), there are four stages at which the values of AI practitioners can affect their work (Reiss & Sprenger, 2017):",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Perhaps this is surprising. There is a broad belief that science is\u2014or ought to be\u2014objective. This is codified by the value-free ideal of science. Many would argue that machine learning is objective because algorithms are just mathematics. However, analogous to algorithmic bias (section 21.1.1), there are four stages at which the values of AI practitioners can affect their work (Reiss & Sprenger, 2017):"
+    "confidence": "medium"
   },
   {
     "id": "page_0432-b006",
     "page_key": 432,
     "order": 6,
     "type": "list",
+    "text": "1. The choice of research problem.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "items": [
-      "The choice of research problem.",
-      "Gathering evidence related to a research problem.",
-      "Accepting a scientific hypothesis as an answer to a problem.",
-      "Applying the results of scientific research."
-    ]
+    "confidence": "medium"
   },
   {
     "id": "page_0432-b007",
     "page_key": 432,
     "order": 7,
-    "type": "paragraph",
+    "type": "list",
+    "text": "2. Gathering evidence related to a research problem.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "It is perhaps uncontroversial that values play a significant role in the first and last of these stages. The initial selection of research problems and the choice of subsequent applications are influenced by the interests of scientists, institutions, and funding agencies. However, the value-free ideal of science prescribes minimizing the influence of moral, personal, social, political, and cultural values on the intervening scientific process. This idea presupposes the value-neutrality thesis, which suggests that scientists can (at least in principle) attend to stages (2) and (3) without making these value judgments."
+    "confidence": "medium"
   },
   {
     "id": "page_0432-b008",
     "page_key": 432,
     "order": 8,
-    "type": "paragraph",
+    "type": "list",
+    "text": "3. Accepting a scientific hypothesis as an answer to a problem.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "However, whether intentional or not, values are embedded in machine learning research. Most of these values would be classed as epistemic (e.g., performance, generalization, building on past work, efficiency, novelty). But deciding the set of values is itself a value-laden decision; few papers explicitly discuss societal need, and fewer still discuss potential negative impacts (Birhane et al., 2022b). Philosophers of science have"
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0432-b009",
+    "page_key": 432,
+    "order": 9,
+    "type": "list",
+    "text": "4. Applying the results of scientific research.",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0432-b010",
+    "page_key": 432,
+    "order": 10,
+    "type": "paragraph",
+    "text": "It is perhaps uncontroversial that values play a significant role in the first and last of these stages. The initial selection of research problems and the choice of subsequent applications are influenced by the interests of scientists, institutions, and funding agencies. However, the value-free ideal of science prescribes minimizing the influence of moral, personal, social, political, and cultural values on the intervening scientific process. This idea presupposes the value-neutrality thesis, which suggests that scientists can (at least in principle) attend to stages (2) and (3) without making these value judgments.",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0432-b011",
+    "page_key": 432,
+    "order": 11,
+    "type": "paragraph",
+    "text": "However, whether intentional or not, values are embedded in machine learning research. Most of these values would be classed as epistemic (e.g., performance, generalization, building on past work, efficiency, novelty). But deciding the set of values is itself a value-laden decision; few papers explicitly discuss societal need, and fewer still discuss potential negative impacts (Birhane et al., 2022b). Philosophers of science have",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
   }
 ]

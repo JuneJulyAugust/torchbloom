@@ -4,143 +4,143 @@
     "page_key": 303,
     "order": 1,
     "type": "paragraph",
+    "text": "image to be both realistic and to fit these new constraints. It does this by finding a latent vector that produces an image that is similar to the edited image and obeys the edge map of any added lines. It is typical also to add a mask so that only parts of the image close to the edits are changed. EditGAN (Ling et al., 2021) jointly models images and their semantic segmentation masks and allows edits to that mask.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "image to be both realistic and to fit these new constraints. It does this by finding a latent vector that produces an image that is similar to the edited image and obeys the edge map of any added lines. It is typical also to add a mask so that only parts of th"
+    "confidence": "high"
   },
   {
     "id": "page_0303-b002",
     "page_key": 303,
     "order": 2,
     "type": "heading",
+    "text": "Problems",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Problems"
+    "confidence": "high"
   },
   {
     "id": "page_0303-b003",
     "page_key": 303,
     "order": 3,
     "type": "exercise",
+    "text": "Problem 15.1 What will the loss be in equation 15.9 when $\\Pr[\\mathbf{x}^{*}] = \\Pr[\\mathbf{x}]$?",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Problem 15.1 What will the loss be in equation 15.9 when $Pr(\\mathbf{x}^{*}) = Pr(\\mathbf{x})$?"
+    "confidence": "high"
   },
   {
     "id": "page_0303-b004",
     "page_key": 303,
     "order": 4,
     "type": "exercise",
+    "text": "Problem 15.2* Write an equation relating the loss $L$ in equation 15.8 to the Jensen-Shannon distance $D_{JS}[\\Pr[\\mathbf{x}^{*}] \\Vert \\Pr[\\mathbf{x}]]$ in equation 15.9.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Problem 15.2* Write an equation relating the loss L in equation 15.8 to the Jensen-Shannon distance $D_{JS}[Pr(\\mathbf{x})^{*} || Pr(\\mathbf{x})]$ in equation 15.9."
+    "confidence": "high"
   },
   {
     "id": "page_0303-b005",
     "page_key": 303,
     "order": 5,
     "type": "exercise",
+    "text": "Problem 15.3 Consider computing the earth mover’s distance using linear programming in the primal form. The discrete distributions $\\Pr[x=i]$ and $q[x=j]$ are defined on $x = 1, 2, 3, 4$ and:",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Problem 15.3 Consider computing the earth mover’s distance using linear programming in the primal form. The discrete distributions $Pr(x=i)$ and $q(x=j)$ are defined on x = 1, 2, 3, 4 and:"
+    "confidence": "high"
   },
   {
     "id": "page_0303-b006",
     "page_key": 303,
     "order": 6,
     "type": "equation",
-    "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "\\begin{aligned}\n\\mathbf{b}=\\left[Pr(x=1),Pr(x=2),Pr(x=3),Pr(x=4),q(x=1),q(x=2),q(x=3),q(x=4)\\right]^{T}.\n\\end{aligned} \\quad (15.18)"
+    "text": "$$\n\\mathbf{b}\n= \\left[\\Pr[x=1],\\Pr[x=2],\\Pr[x=3],\\Pr[x=4],q[x=1],q[x=2],q[x=3],q[x=4]\\right]^{T}\n\\qquad (15.18)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium"
   },
   {
     "id": "page_0303-b007",
     "page_key": 303,
     "order": 7,
     "type": "paragraph",
+    "text": "Write out the contents of the $8 \\times 16$ matrix $\\mathbf{A}$. You may assume that the contents of $\\mathbf{P}$ have been vectorized into $\\mathbf{p}$ column-first.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Write out the contents of the $8 \\times 16$ matrix A. You may assume that the contents of P have been vectorized into p column-first."
+    "confidence": "high"
   },
   {
     "id": "page_0303-b008",
     "page_key": 303,
     "order": 8,
     "type": "exercise",
+    "text": "Problem 15.4* Calculate (i) the KL divergence, (ii) the reverse KL divergence, (iii) the Jensen-Shannon divergence, and (iv) the Wasserstein distance between the distributions:",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Problem 15.4 $^{*}$ Calculate (i) the KL divergence, (ii) the reverse KL divergence,(iii) the Jensen-Shannon divergence, and (iv) the Wasserstein distance between the distributions:"
+    "confidence": "high"
   },
   {
     "id": "page_0303-b009",
     "page_key": 303,
     "order": 9,
     "type": "equation",
-    "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "\\begin{aligned}\nPr(z)=\\begin{cases}0&z<0\\\\1&0\\leq z\\leq1,\\\\0&z>1\\end{cases}\\quad and\\quad Pr(z)=\\begin{cases}0&z<a\\\\1&a\\leq z\\leq a+1.\\\\0&z>a\\end{cases}.\n\\end{aligned} \\quad (15.19)"
+    "text": "$$\n\\Pr[z]\n= \\begin{cases}\n0 & z1\n\\end{cases}\n\\quad \\text{and} \\quad\n\\Pr[z]\n= \\begin{cases}\n0 & za\n\\end{cases}\n\\qquad (15.19)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium"
   },
   {
     "id": "page_0303-b010",
     "page_key": 303,
     "order": 10,
     "type": "paragraph",
+    "text": "for the range $a \\in [-3, 3]$. To get a formula for the Wasserstein distance for this special case, consider the total “earth” (i.e., probability mass) that must be moved and multiply this by the distance it must move.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "for the range $a \\in [-3, 3]$. To get a formula for the Wasserstein distance for this special case, consider the total “earth” (i.e., probability mass) that must be moved and multiply this by the distance it must move."
+    "confidence": "high"
   },
   {
     "id": "page_0303-b011",
     "page_key": 303,
     "order": 11,
     "type": "exercise",
+    "text": "Problem 15.5 The KL distance and Wasserstein distances between univariate Gaussian distributions are given by:",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Problem 15.5 The KL distance and Wasserstein distances between univariate Gaussian distributions are given by:"
+    "confidence": "high"
   },
   {
     "id": "page_0303-b012",
     "page_key": 303,
     "order": 12,
     "type": "equation",
-    "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "\\begin{aligned}\nD_{kl}=\\log\\left[\\frac{\\sigma_{2}}{\\sigma_{1}}\\right]+\\frac{\\sigma_{1}^{2}+(\\mu_{1}-\\mu_{2})^{2}}{2\\sigma_{2}^{2}}-\\frac{1}{2},\n\\end{aligned} \\quad (15.20)"
+    "text": "$$\nD_{KL}\n= \\log\\left[\\frac{\\sigma_{2}}{\\sigma_{1}}\\right]+\\frac{\\sigma_{1}^{2}+(\\mu_{1}-\\mu_{2})^{2}}{2\\sigma_{2}^{2}}-\\frac{1}{2}\n\\qquad (15.20)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium"
   },
   {
     "id": "page_0303-b013",
     "page_key": 303,
     "order": 13,
     "type": "paragraph",
+    "text": "and",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "and"
+    "confidence": "high"
   },
   {
     "id": "page_0303-b014",
     "page_key": 303,
     "order": 14,
     "type": "equation",
-    "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "\\begin{aligned}\nD_{w}=(\\mu_{1}-\\mu_{2})^{2}+\\sigma_{1}+\\sigma_{2}-2\\sqrt{\\sigma_{1}\\sigma_{2}},\n\\end{aligned} \\quad (15.21)"
+    "text": "$$\nD_{w}\n= (\\mu_{1}-\\mu_{2})^{2}+\\sigma_{1}+\\sigma_{2}-2\\sqrt{\\sigma_{1}\\sigma_{2}}\n\\qquad (15.21)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium"
   },
   {
     "id": "page_0303-b015",
     "page_key": 303,
     "order": 15,
     "type": "paragraph",
+    "text": "respectively. Plot these distances as a function of $\\mu_{1}-\\mu_{2}$ for the case when $\\sigma_{1}=\\sigma_{2}=1$.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "respectively. Plot these distances as a function of $\\mu_{1}-\\mu_{2}$ for the case when $o_{r1}=0$."
+    "confidence": "high"
   },
   {
     "id": "page_0303-b016",
     "page_key": 303,
     "order": 16,
     "type": "exercise",
+    "text": "Problem 15.6 Consider a latent variable $\\mathbf{z} \\sim \\mathcal{N}[0, \\mathbf{I}]$ with dimension 100. Consider truncating the values of this variable to (i) $\\tau = 2.0$, (ii) $\\tau = 1.0$, (iii) $\\tau = 0.5$, (iv) $\\tau = 0.04$ standard deviations. What proportion of the original probability distribution is disregarded in each case?",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Problem 15.6 Consider a latent variable $\\mathbf{z} \\sim \\mathrm{Norm}[0, I]$ with dimension 100. Consider truncating the values of this variable to (i) $\\tau = 2 \\cdot 0$, (ii) $\\tau = 1 \\cdot 0$, (iii) $\\tau = 0.5$, (iv) $\\tau = 0.04$ standard deviations. Wh"
+    "confidence": "high"
   }
 ]

@@ -1,1 +1,74 @@
-[{"id":"page_0293-b001","page_key":293,"order":1,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"can be distinguished successfully, a feedback signal is provided to modify the U-Net to make its output more realistic. Since the content loss ensures that the large-scale image structure is correct, the discriminator is mainly needed to ensure that the local "},{"id":"page_0293-b002","page_key":293,"order":2,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"One way to think of this model is that it is a conditional GAN where the U-Net is the generator and is conditioned on an image rather than a label. Notice, though, that the U-Net input does not include noise and so is not really a “generator” in the convention"},{"id":"page_0293-b003","page_key":293,"order":3,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"15.5.2 Adversarial loss"},{"id":"page_0293-b004","page_key":293,"order":4,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"The discriminator of the Pix2Pix model attempted to distinguish whether before/after pairs in an image translation task were plausible. This has the disadvantage that we need ground truth before/after pairs to exploit the discriminator loss. Fortunately, there"},{"id":"page_0293-b005","page_key":293,"order":5,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"An adversarial loss adds a penalty if a discriminator can distinguish the output of a supervised network from a real example from its output domain. Accordingly, the supervised model changes its predictions to decrease this penalty. This may be done at the sca"},{"id":"page_0293-b006","page_key":293,"order":6,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"The super-resolution GAN or SRGAN uses this approach (figure 15.17). The main model consists of a convolutional network with residual connections that ingests a low-resolution image and converts this via upsampling layers to a high-resolution image. The networ"},{"id":"page_0293-b007","page_key":293,"order":7,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"15.5.3 CycleGAN"},{"id":"page_0293-b008","page_key":293,"order":8,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"The adversarial loss assumes that we have labeled before/after images for the main supervised network. The CycleGAN addresses the situation where we have two sets of data with distinct styles but no matching pairs. An example is converting a photo to the artis"}]
+[
+  {
+    "id": "page_0293-b001",
+    "page_key": 293,
+    "order": 1,
+    "type": "paragraph",
+    "text": "can be distinguished successfully, a feedback signal is provided to modify the U-Net to make its output more realistic. Since the content loss ensures that the large-scale image structure is correct, the discriminator is mainly needed to ensure that the local texture is plausible. To this end, the PatchGAN loss is based on a purely convolutional classifier. At the last layer, each hidden unit indicates whether the region within its receptive field is real or synthesized. These responses are averaged to provide the final output.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0293-b002",
+    "page_key": 293,
+    "order": 2,
+    "type": "paragraph",
+    "text": "One way to think of this model is that it is a conditional GAN where the U-Net is the generator and is conditioned on an image rather than a label. Notice, though, that the U-Net input does not include noise and so is not really a “generator” in the conventional sense. Interestingly, the original authors experimented with adding noise z to the U-Net in addition to the input image c. However, the network just learned to ignore it.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0293-b003",
+    "page_key": 293,
+    "order": 3,
+    "type": "heading",
+    "text": "15.5.2 Adversarial loss",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0293-b004",
+    "page_key": 293,
+    "order": 4,
+    "type": "paragraph",
+    "text": "The discriminator of the Pix2Pix model attempted to distinguish whether before/after pairs in an image translation task were plausible. This has the disadvantage that we need ground truth before/after pairs to exploit the discriminator loss. Fortunately, there is a simpler way to exploit the power of adversarial discriminators in the context of supervised learning without the need for additional labeled training data.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0293-b005",
+    "page_key": 293,
+    "order": 5,
+    "type": "paragraph",
+    "text": "An adversarial loss adds a penalty if a discriminator can distinguish the output of a supervised network from a real example from its output domain. Accordingly, the supervised model changes its predictions to decrease this penalty. This may be done at the scale of the entire output or at the level of patches, as in the Pix2Pix algorithm. This helps improve the realism of complex structured outputs. However, it doesn’t necessarily lead to a better solution in terms of the original loss function.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0293-b006",
+    "page_key": 293,
+    "order": 6,
+    "type": "paragraph",
+    "text": "The super-resolution GAN or SRGAN uses this approach (figure 15.17). The main model consists of a convolutional network with residual connections that ingests a low-resolution image and converts this via upsampling layers to a high-resolution image. The network is trained with three losses. The content loss measures the squared difference between the output and the true high-resolution image. The VGG loss or perceptual loss passes the synthesized and ground truth outputs through the VGG network and measures the squared difference between their activations. This encourages the image to be semantically similar to the target. Finally, the adversarial loss uses a discriminator that attempts to distinguish whether this is a real high-resolution image or an upsampled one. This encourages the output to be indistinguishable from real examples.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0293-b007",
+    "page_key": 293,
+    "order": 7,
+    "type": "heading",
+    "text": "15.5.3 CycleGAN",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0293-b008",
+    "page_key": 293,
+    "order": 8,
+    "type": "paragraph",
+    "text": "The adversarial loss assumes that we have labeled before/after images for the main supervised network. The CycleGAN addresses the situation where we have two sets of data with distinct styles but no matching pairs. An example is converting a photo to the artistic style of Monet. There exist many photos and many Monet paintings, but no correspondence between them. CycleGAN exploits the idea that converting an image in",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

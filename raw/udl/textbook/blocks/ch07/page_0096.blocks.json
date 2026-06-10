@@ -4,8 +4,8 @@
     "page_key": 96,
     "order": 1,
     "type": "heading",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "Chapter 7"
   },
   {
@@ -13,8 +13,8 @@
     "page_key": 96,
     "order": 2,
     "type": "heading",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "Gradients and initialization"
   },
   {
@@ -22,8 +22,8 @@
     "page_key": 96,
     "order": 3,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "Chapter 6 introduced iterative optimization algorithms. These are general-purpose methods for finding the minimum of a function. In the context of neural networks, they find parameters that minimize the loss so that the model accurately predicts the training outputs from the inputs. The basic approach is to choose initial parameters randomly and then make a series of small changes that decrease the loss on average. Each change is based on the gradient of the loss with respect to the parameters at the current position."
   },
   {
@@ -31,8 +31,8 @@
     "page_key": 96,
     "order": 4,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "This chapter discusses two issues that are specific to neural networks. First, we consider how to calculate the gradients efficiently. This is a serious challenge since the largest models at the time of writing have $\\sim10^{12}$ parameters, and the gradient needs to be computed for every parameter at every iteration of the training algorithm. Second, we consider how to initialize the parameters. If this is not done carefully, the initial losses and their gradients can be extremely large or small. In either case, this impedes the training process."
   },
   {
@@ -40,8 +40,8 @@
     "page_key": 96,
     "order": 5,
     "type": "heading",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "7.1 Problem definitions"
   },
   {
@@ -49,8 +49,8 @@
     "page_key": 96,
     "order": 6,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "Consider a network $\\mathbf{f}[\\mathbf{x}, \\boldsymbol{\\phi}]$ with multivariate input x, parameters $\\boldsymbol{\\phi}$, and three hidden layers $\\mathbf{h}_{1}, \\mathbf{h}_{2}$, and $\\mathbf{h}_{3}$:"
   },
   {
@@ -60,15 +60,15 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\begin{array}{rcl}\\mathbf{h}_{1}&=&\\mathbf{a}[\\boldsymbol{\\beta}_{0}+\\Omega_{0}\\mathbf{x}]\\\\ \\mathbf{h}_{2}&=&\\mathbf{a}[\\boldsymbol{\\beta}_{1}+\\Omega_{1}\\mathbf{h}_{1}]\\\\ \\mathbf{h}_{3}&=&\\boldsymbol{\\beta}_{2}+\\Omega_{2}\\mathbf{h}_{2}]\\\\ \\mathbf{f}[\\mathbf{x},\\boldsymbol{\\phi}]&=&\\boldsymbol{\\beta}_{3}+\\Omega_{3}\\mathbf{h}_{3},\\end{array}\n\\end{aligned} \\quad (7.1)"
+    "latex": "\\begin{aligned}\n\\mathbf{h}_{1} &= \\mathbf{a}[\\boldsymbol{\\beta}_{0}+\\boldsymbol{\\Omega}_{0}\\mathbf{x}] \\\\\n\\mathbf{h}_{2} &= \\mathbf{a}[\\boldsymbol{\\beta}_{1}+\\boldsymbol{\\Omega}_{1}\\mathbf{h}_{1}] \\\\\n\\mathbf{h}_{3} &= \\mathbf{a}[\\boldsymbol{\\beta}_{2}+\\boldsymbol{\\Omega}_{2}\\mathbf{h}_{2}] \\\\\n\\mathbf{f}[\\mathbf{x},\\boldsymbol{\\phi}] &= \\boldsymbol{\\beta}_{3}+\\boldsymbol{\\Omega}_{3}\\mathbf{h}_{3}\n\\end{aligned}\n\\qquad (7.1)"
   },
   {
     "id": "page_0096-b008",
     "page_key": 96,
     "order": 8,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
-    "text": "where the function $\\mathbf{a}[\\bullet]$ applies the activation function separately to every element of the input. The model parameters $\\phi = \\lbrace \\beta_{0}, \\Omega_{0}, \\beta_{1}, \\Omega_{1}, \\beta_{2}, \\Omega_{2}, \\beta_{3}, \\Omega_{3} \\rbrace$ consist of the bias vectors $\\beta_{k}$ and weight matrices $\\Omega_{k}$ between every layer (figure 7.1)."
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "where the function $\\mathbf{a}[\\bullet]$ applies the activation function separately to every element of the input. The model parameters $\\boldsymbol{\\phi}=\\lbrace \\boldsymbol{\\beta}_{0},\\boldsymbol{\\Omega}_{0},\\boldsymbol{\\beta}_{1},\\boldsymbol{\\Omega}_{1},\\boldsymbol{\\beta}_{2},\\boldsymbol{\\Omega}_{2},\\boldsymbol{\\beta}_{3},\\boldsymbol{\\Omega}_{3}\\rbrace$ consist of the bias vectors $\\beta_{k}$ and weight matrices $\\Omega_{k}$ between every layer (figure 7.1)."
   }
 ]

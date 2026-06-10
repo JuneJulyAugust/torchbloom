@@ -39,6 +39,7 @@ INLINE_GLUED_SET_BRACE_RE = re.compile(
     r"\$[^\n$]*(?:\\lbrace(?=[A-Za-z0-9])|\\rbrace(?=[A-Za-z0-9]))[^\n$]*\$"
 )
 DISPLAY_MATH_BLOCK_RE = re.compile(r"(?ms)^\$\$\n(?P<body>.*?)\n\$\$")
+DISPLAY_MATH_BLANK_LINE_RE = re.compile(r"(?:^|\n)[ \t]*\n")
 MARKDOWN_HEADING_RE = re.compile(r"(?m)^#{1,6}\s+.*$")
 DOUBLE_ESCAPED_MATH_MACRO_RE = re.compile(
     r"(?<!\\)\\\\(?:begin|end|mathrm|mathsf|mathbf|boldsymbol|tag|frac|sum|prod|left|right)"
@@ -55,6 +56,13 @@ ALIGNED_ROWBREAK_BEFORE_OPERATOR_RE = re.compile(
     r"&\\\\(?:=|approx|leq|geq|leftarrow|rightarrow|to)"
 )
 BARE_MATH_LOG_RE = re.compile(r"(?<!\\)\blog(?=\s*(?:\\|\[|\{|\())")
+BARE_OCR_MATH_TOKEN_RE = re.compile(
+    r"(?<!\\)\b(?:argmin|argmax)\b|(?<!\\)\b(?:Pr|Norm)\s*\("
+)
+NESTED_DISPLAY_MATH_ENV_RE = re.compile(r"\\begin\{(?:align\*?|equation\*?|displaymath)\}")
+ONE_LINE_MULTIROW_ALIGNED_RE = re.compile(
+    r"\\begin\{aligned\}[^\n]*\\\\[^\n]*\\end\{aligned\}"
+)
 PROSE_DISPLAY_MATH_RE = re.compile(
     r"\\begin\{(?:aligned|align\*)\}\s*(?:&\s*)?(?:where|between|and|which|then)\b",
     re.IGNORECASE,
@@ -806,6 +814,14 @@ def _validate_github_math_blocks(md_path: Path, body: str, errors: list[str]) ->
             errors.append(f"{md_path}: remove row break before math operator in aligned equation")
         if BARE_MATH_LOG_RE.search(block):
             errors.append(f"{md_path}: replace bare log with \\log inside display math")
+        if BARE_OCR_MATH_TOKEN_RE.search(block):
+            errors.append(f"{md_path}: replace bare OCR math token inside display math")
+        if DISPLAY_MATH_BLANK_LINE_RE.search(block):
+            errors.append(f"{md_path}: remove blank line inside display math for GitHub rendering")
+        if NESTED_DISPLAY_MATH_ENV_RE.search(block):
+            errors.append(f"{md_path}: remove nested display math environment inside $$ block")
+        if ONE_LINE_MULTIROW_ALIGNED_RE.search(block):
+            errors.append(f"{md_path}: split one-line multi-row aligned equation across lines")
         if MISSING_MATH_SUBSCRIPT_RE.search(block):
             errors.append(f"{md_path}: fix missing math subscript marker from OCR")
         if PROSE_DISPLAY_MATH_RE.search(block):
@@ -844,6 +860,14 @@ def _validate_equation_text(path: Path, label: str, value: str, errors: list[str
         errors.append(f"{path}: {label} has row break before math operator")
     if BARE_MATH_LOG_RE.search(value):
         errors.append(f"{path}: {label} has bare log; use \\log")
+    if BARE_OCR_MATH_TOKEN_RE.search(value):
+        errors.append(f"{path}: {label} has bare OCR math token")
+    if DISPLAY_MATH_BLANK_LINE_RE.search(value):
+        errors.append(f"{path}: {label} has blank line inside display math")
+    if NESTED_DISPLAY_MATH_ENV_RE.search(value):
+        errors.append(f"{path}: {label} has nested display math environment")
+    if ONE_LINE_MULTIROW_ALIGNED_RE.search(value):
+        errors.append(f"{path}: {label} has one-line multi-row aligned equation")
     if MISSING_MATH_SUBSCRIPT_RE.search(value):
         errors.append(f"{path}: {label} has missing math subscript marker from OCR")
     if PROSE_DISPLAY_MATH_RE.search(value):

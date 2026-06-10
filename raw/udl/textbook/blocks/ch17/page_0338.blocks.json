@@ -1,1 +1,75 @@
-[{"id":"page_0338-b001","page_key":338,"order":1,"type":"figure","source":"paddle","confidence":"high","image_path":"figures/page_0338_fig_1.jpg","alt_text":"Figure 17.9 Variational autoencoder."},{"id":"page_0338-b002","page_key":338,"order":2,"type":"caption","source":"deepseek+paddle","confidence":"high","text":"Figure 17.9 Variational autoencoder. The encoder $g[\\mathbf{x}, \\theta]$ takes a training example $\\mathbf{x}$ and predicts the parameters $\\mu, \\Sigma$ of the variational distribution $q(\\mathbf{z}|\\mathbf{x}, \\theta)$. We sample from this distribution and then use the decoder $f[\\mathbf{z}, \\phi]$ to predict the data $\\mathbf{x}$. The loss function is the negative ELBO, which depends on how accurate this prediction is and how similar the variational distribution $q(\\mathbf{z}|\\mathbf{x}, \\theta)$ is to the prior $Pr(\\mathbf{z})$ (equation 17.21)."},{"id":"page_0338-b003","page_key":338,"order":3,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"dataset and hence improve the log-likelihood. To compute the ELBO we:"},{"id":"page_0338-b004","page_key":338,"order":4,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"\u2022 compute the mean $\\mu$ and variance $\\Sigma$ of the variational posterior distribution $q(\\mathbf{z}|\\theta, \\mathbf{x})$ for this data point $\\mathbf{x}$ using the network $g[\\mathbf{x}, \\theta]$,"},{"id":"page_0338-b005","page_key":338,"order":5,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"\u2022 draw a sample $\\mathbf{z}^{*}$ from this distribution, and"},{"id":"page_0338-b006","page_key":338,"order":6,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"\u2022 compute the ELBO using equation 17.23."},{"id":"page_0338-b007","page_key":338,"order":7,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"The associated architecture is shown in figure 17.9. It should now be clear why this is called a variational autoencoder. It is variational because it computes a Gaussian approximation to the posterior distribution. It is an autoencoder because it starts with a data point $\\mathbf{x}$, computes a lower-dimensional latent vector $\\mathbf{z}$ from this, and then uses this vector to recreate the data point $\\mathbf{x}$ as closely as possible. In this context, the mapping from the data to the latent variable by the network $g[\\mathbf{x},\\theta]$ is called the encoder, and the mapping from the latent variable to the data by the network $f[\\mathbf{z},\\phi]$ is called the decoder."},{"id":"page_0338-b008","page_key":338,"order":8,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"The VAE computes the ELBO as a function of both $\\phi$ and $\\theta$. To maximize this bound, we run mini-batches of samples through the network and update these parameters with an optimization algorithm such as SGD or Adam. The gradients of the ELBO with respect to the parameters are computed as usual using automatic differentiation. During this process, we are both moving between the colored curves (changing $\\theta$) and along them (changing $\\phi$) in figure 17.10. During this process, the parameters $\\phi$ change to assign the data a higher likelihood in the nonlinear latent variable model."}]
+[
+  {
+    "id": "page_0338-b001",
+    "page_key": 338,
+    "order": 1,
+    "type": "figure",
+    "text": "../../figures/page_0338_fig_1.jpg",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "image_path": "figures/page_0338_fig_1.jpg"
+  },
+  {
+    "id": "page_0338-b002",
+    "page_key": 338,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 17.9 Variational autoencoder. The encoder $g[x, \\theta]$ takes a training example x and predicts the parameters $\\mu$ , $\\Sigma$ of the variational distribution $q(\\mathbf{z}|\\mathbf{x}, \\theta)$ . We sample from this distribution and then use the decoder $f[\\mathbf{z}, \\phi]$ to predict the data x. The loss function is the negative ELBO, which depends on how accurate this prediction is and how similar the variational distribution $q(\\mathbf{z}|\\mathbf{x}, \\theta)$ is to the prior $\\Pr(z)$ (equation 17.21).",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0338-b003",
+    "page_key": 338,
+    "order": 3,
+    "type": "paragraph",
+    "text": "dataset and hence improve the log-likelihood. To compute the ELBO we:",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0338-b004",
+    "page_key": 338,
+    "order": 4,
+    "type": "paragraph",
+    "text": "• compute the mean $\\mu$ and variance $\\Sigma$ of the variational posterior distribution $q(\\mathbf{z}|\\boldsymbol{\\theta}, \\mathbf{x})$ for this data point $\\mathbf{x}$ using the network $g[\\mathbf{x}, \\boldsymbol{\\theta}]$,",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0338-b005",
+    "page_key": 338,
+    "order": 5,
+    "type": "paragraph",
+    "text": "• draw a sample $\\mathbf{z}^{*}$ from this distribution, and",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0338-b006",
+    "page_key": 338,
+    "order": 6,
+    "type": "paragraph",
+    "text": "• compute the ELBO using equation 17.23.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0338-b007",
+    "page_key": 338,
+    "order": 7,
+    "type": "paragraph",
+    "text": "The associated architecture is shown in figure 17.9. It should now be clear why this is called a variational autoencoder. It is variational because it computes a Gaussian approximation to the posterior distribution. It is an autoencoder because it starts with a data point x, computes a lower-dimensional latent vector z from this, and then uses this vector to recreate the data point x as closely as possible. In this context, the mapping from the data to the latent variable by the network $g[x,\\theta]$ is called the encoder, and the mapping from the latent variable to the data by the network $f[z,\\phi]$ is called the decoder.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0338-b008",
+    "page_key": 338,
+    "order": 8,
+    "type": "paragraph",
+    "text": "The VAE computes the ELBO as a function of both $\\phi$ and $\\theta$ . To maximize this bound, we run mini-batches of samples through the network and update these parameters with an optimization algorithm such as SGD or Adam. The gradients of the ELBO with respect to the parameters are computed as usual using automatic differentiation. During this process, we are both moving between the colored curves (changing $\\theta$ ) and along them (changing $\\phi$ ) in figure 17.10. During this process, the parameters $\\phi$ change to assign the data a higher likelihood in the nonlinear latent variable model.",
+    "source": "deepseek",
+    "confidence": "medium"
+  }
+]

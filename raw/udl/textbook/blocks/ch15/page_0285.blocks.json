@@ -4,109 +4,73 @@
     "page_key": 285,
     "order": 1,
     "type": "figure",
+    "text": "",
     "source": "paddle",
     "confidence": "high",
-    "image_path": "figures/page_0285_fig_1.jpg",
-    "alt_text": "Wasserstein or earth mover’s distance."
+    "image_path": "figures/page_0285_fig_1.jpg"
   },
   {
     "id": "page_0285-b002",
     "page_key": 285,
     "order": 2,
     "type": "caption",
+    "text": "Figure 15.8 Wasserstein or earth mover’s distance. a) Consider the discrete distribution $\\Pr[x = i]$. b) We wish to move the probability mass to create the target distribution $q[x = j]$. c) The transport plan $\\mathbf{P}$ identifies how much mass will be moved from $i$ to $j$. For example, the cyan highlighted square $p_{54}$ indicates how much mass will be moved from $i = 5$ to $j = 4$. The elements of the transport plan must be non-negative, the sum over $j$ must be $\\Pr[x = i]$, and the sum over $i$ must be $q[x = j]$. Hence $\\mathbf{P}$ is a joint probability distribution. d) The distance matrix between elements $i$ and $j$. The optimal transport plan $\\mathbf{P}$ minimizes the sum of the pointwise product of $\\mathbf{P}$ and the distance matrix (termed the Wasserstein distance). Hence, the elements of $\\mathbf{P}$ tend to lie close to the diagonal where the distance cost is lowest. Adapted from Hermann (2017).",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Figure 15.8 Wasserstein or earth mover’s distance."
+    "confidence": "high"
   },
   {
     "id": "page_0285-b003",
     "page_key": 285,
     "order": 3,
-    "type": "paragraph",
-    "source": "deepseek+paddle",
+    "type": "figure",
+    "text": "",
+    "source": "paddle",
     "confidence": "high",
-    "text": "c)"
+    "image_path": "figures/page_0285_fig_2.jpg"
   },
   {
     "id": "page_0285-b004",
     "page_key": 285,
     "order": 4,
-    "type": "figure",
-    "source": "paddle",
-    "confidence": "high",
-    "image_path": "figures/page_0285_fig_2.jpg",
-    "alt_text": "Wasserstein or earth mover’s distance. — Labels: c), d)"
+    "type": "caption",
+    "text": "Linear programming forms Primal and dual forms used to compute the Wasserstein distance.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
   },
   {
     "id": "page_0285-b005",
     "page_key": 285,
     "order": 5,
-    "type": "caption",
+    "type": "paragraph",
+    "text": "where p contains the vectorized elements $P_{ij}$ that determine the amount of mass moved, c contains the distances, $\\mathbf{A}\\mathbf{p} = \\mathbf{b}$ contains the initial distribution constraints, and $\\mathbf{p} \\geq 0$ ensures the masses moved are non-negative.[^1]",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Figure 15.8 Wasserstein or earth mover’s distance. — Labels: c), d)"
+    "confidence": "high"
   },
   {
     "id": "page_0285-b006",
     "page_key": 285,
     "order": 6,
     "type": "paragraph",
+    "text": "As for all linear programming problems, there is an equivalent dual problem with the same solution. Here, we maximize with respect to a variable f that is applied to the initial distributions, subject to constraints that depend on the distances c. The solution to this dual problem is:",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "d)"
+    "confidence": "high"
   },
   {
     "id": "page_0285-b007",
     "page_key": 285,
     "order": 7,
-    "type": "paragraph",
-    "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Figure 15.8 Wasserstein or earth mover’s distance. a) Consider the discrete distribution $Pr(x = i)$ . b) We wish to move the probability mass to create the target distribution $q(x = j)$ . c) The transport plan P identifies how much mass will be moved from i "
+    "type": "equation",
+    "text": "$$\nD_{w}\\left[\\Pr[x] \\,\\Vert\\, q[x]\\right]\n= \\max_{\\mathbf{f}}\\left[\\sum_{i}\\Pr[x=i]f_{i}-\\sum_{j}q[x=j]f_{j}\\right]\n\\qquad (15.12)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium"
   },
   {
     "id": "page_0285-b008",
     "page_key": 285,
     "order": 8,
-    "type": "paragraph",
+    "type": "review_note",
+    "text": "[^1]: The mathematical background is omitted due to space constraints. Linear programming is a standard problem with well-known algorithms for finding the minimum.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "primal formdual formminimize such that andcTp, Ap = b p ≥ 0maximize such that and"
-  },
-  {
-    "id": "page_0285-b009",
-    "page_key": 285,
-    "order": 9,
-    "type": "paragraph",
-    "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "where p contains the vectorized elements $P_{ij}$ that determine the amount of mass moved, c contains the distances, $\\mathbf{A}\\mathbf{p} = \\mathbf{b}$ contains the initial distribution constraints, and $\\mathbf{p} \\geq 0$ ensures the masses moved are non-neg"
-  },
-  {
-    "id": "page_0285-b010",
-    "page_key": 285,
-    "order": 10,
-    "type": "equation",
-    "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "\\begin{aligned}\nD_{w}\\Big[Pr(x)||q(x)\\Big]=\\max_{\\mathbf{f}}\\left[\\sum_{i}Pr(x=i)f_{i}-\\sum_{j}q(x=j)f_{j}\\right],\n\\end{aligned} \\quad (15.12)"
-  },
-  {
-    "id": "page_0285-b011",
-    "page_key": 285,
-    "order": 11,
-    "type": "paragraph",
-    "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "[^1]: The mathematical background is omitted due to space constraints. Linear programming is a standard problem with well-known algorithms for finding the minimum."
-  },
-  {
-    "id": "page_0285-b012",
-    "page_key": 285,
-    "order": 12,
-    "type": "paragraph",
-    "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Draft: please send errata to udlbookmail@gmail.com."
+    "confidence": "high"
   }
 ]

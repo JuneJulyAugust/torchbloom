@@ -1,1 +1,92 @@
-[{"id":"page_0289-b001","page_key":289,"order":1,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"an $8 \\times 8$ image. The discriminator also has extra layers added to it so that it can receive the higher-resolution images and classify them as either being generated samples or real examples. In practice, the higher-resolution layers gradually “fade in” o"},{"id":"page_0289-b002","page_key":289,"order":2,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Mini-batch discrimination ensures that the samples have sufficient variety and hence helps prevent mode collapse. This can be done by computing feature statistics across the mini-batches of synthesized and real data. These can be summarized and added as a feat"},{"id":"page_0289-b003","page_key":289,"order":3,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Another trick to improve generation results is truncation (figure 15.10), in which only latent variables z with high probability (i.e., close to the mean) are chosen during sampling. This reduces the variation in the samples but improves their quality. Careful"},{"id":"page_0289-b004","page_key":289,"order":4,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"15.4 Conditional generation"},{"id":"page_0289-b005","page_key":289,"order":5,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"GANs produce realistic images but don’t specify their attributes: we can’t choose the hair color, ethnicity, or age of faces, without training separate GANs for each combination of characteristics. Conditional generation models provide us with this control."},{"id":"page_0289-b006","page_key":289,"order":6,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"15.4.1 Conditional GAN"},{"id":"page_0289-b007","page_key":289,"order":7,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"The conditional GAN passes a vector c of attributes to both the generator and discriminator, which are now written as $g[z,c,\\theta]$ and $f[x,c,\\phi]$ , respectively. The generator aims to transform the latent variable z into a data sample x with the correct "},{"id":"page_0289-b008","page_key":289,"order":8,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"For the generator, the attribute c can be appended to the latent vector z. For the discriminator, it may be appended to the input if the data are 1D. If the data comprise images, the attribute can be linearly transformed to a 2D representation and appended as "},{"id":"page_0289-b009","page_key":289,"order":9,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"15.4.2 Auxiliary classifier GAN"},{"id":"page_0289-b010","page_key":289,"order":10,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"The auxiliary classifier GAN or ACGAN simplifies conditional generation by requiring that the discriminator correctly predicts the attribute (figure 15.13b). For a discrete"}]
+[
+  {
+    "id": "page_0289-b001",
+    "page_key": 289,
+    "order": 1,
+    "type": "paragraph",
+    "text": "an  $8 \\times 8$  image. The discriminator also has extra layers added to it so that it can receive the higher-resolution images and classify them as either being generated samples or real examples. In practice, the higher-resolution layers gradually “fade in” over time; initially, the higher-resolution image is an upsampled version of the previous result, passed via a residual connection, and the new layers gradually take over.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0289-b002",
+    "page_key": 289,
+    "order": 2,
+    "type": "paragraph",
+    "text": "Mini-batch discrimination ensures that the samples have sufficient variety and hence helps prevent mode collapse. This can be done by computing feature statistics across the mini-batches of synthesized and real data. These can be summarized and added as a feature map (usually toward the end of the discriminator). This allows the discriminator to send a signal back to the generator, encouraging it to include a similar amount of variation in the synthesized data as in the original dataset.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0289-b003",
+    "page_key": 289,
+    "order": 3,
+    "type": "paragraph",
+    "text": "Another trick to improve generation results is truncation (figure 15.10), in which only latent variables z with high probability (i.e., close to the mean) are chosen during sampling. This reduces the variation in the samples but improves their quality. Careful normalization and regularization schemes also improve sample quality. Using combinations of these methods, GANs can synthesize varied and realistic images (figure 15.11). Moving smoothly through the latent space can also sometimes produce realistic interpolations from one synthesized image to another (figure 15.12).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0289-b004",
+    "page_key": 289,
+    "order": 4,
+    "type": "heading",
+    "text": "15.4 Conditional generation",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0289-b005",
+    "page_key": 289,
+    "order": 5,
+    "type": "paragraph",
+    "text": "GANs produce realistic images but don’t specify their attributes: we can’t choose the hair color, ethnicity, or age of faces, without training separate GANs for each combination of characteristics. Conditional generation models provide us with this control.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0289-b006",
+    "page_key": 289,
+    "order": 6,
+    "type": "heading",
+    "text": "15.4.1 Conditional GAN",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0289-b007",
+    "page_key": 289,
+    "order": 7,
+    "type": "paragraph",
+    "text": "The conditional GAN passes a vector c of attributes to both the generator and discriminator, which are now written as  $g[z,c,\\theta]$  and  $f[x,c,\\phi]$ , respectively. The generator aims to transform the latent variable z into a data sample x with the correct attribute c. The discriminator's goal is to distinguish between (i) the generated sample with the target attribute or (ii) a real example with the real attribute (figure 15.13a).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0289-b008",
+    "page_key": 289,
+    "order": 8,
+    "type": "paragraph",
+    "text": "For the generator, the attribute c can be appended to the latent vector z. For the discriminator, it may be appended to the input if the data are 1D. If the data comprise images, the attribute can be linearly transformed to a 2D representation and appended as an extra channel to the discriminator input or to one of its intermediate hidden layers.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0289-b009",
+    "page_key": 289,
+    "order": 9,
+    "type": "heading",
+    "text": "15.4.2 Auxiliary classifier GAN",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0289-b010",
+    "page_key": 289,
+    "order": 10,
+    "type": "paragraph",
+    "text": "The auxiliary classifier GAN or ACGAN simplifies conditional generation by requiring that the discriminator correctly predicts the attribute (figure 15.13b). For a discrete",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

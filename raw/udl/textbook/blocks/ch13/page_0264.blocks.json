@@ -4,71 +4,71 @@
     "page_key": 264,
     "order": 1,
     "type": "paragraph",
+    "text": "Permutation invariance: In DeepSets, Zaheer et al. (2017) presented a general permutation invariant operator for processing sets. Janossy pooling (Murphy et al., 2018) accepts that many functions are not permutation equivariant and instead uses a permutation-sensitive function and averages the results across many permutations.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Permutation invariance: In DeepSets, Zaheer et al. (2017) presented a general permutation invariant operator for processing sets. Janossy pooling (Murphy et al., 2018) accepts that many functions are not permutation equivariant and instead uses a permutation-s"
+    "confidence": "high"
   },
   {
     "id": "page_0264-b002",
     "page_key": 264,
     "order": 2,
     "type": "paragraph",
+    "text": "Edge graphs: The notation of the edge graph, line graph, or adjoint graph dates to Whitney (1932). The idea of “weaving” layers that update node embeddings from node embeddings, node embeddings from edge embeddings, and edge embeddings from node embeddings was proposed by Kearnes et al. (2016). However, here the node-node and edge-edge updates do not involve the neighbors. Monti et al. (2018) introduced the dual-primal graph CNN, a modern formulation in a CNN framework that alternates between updates in the original and edge graphs.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Edge graphs: The notation of the edge graph, line graph, or adjoint graph dates to Whitney (1932). The idea of “weaving” layers that update node embeddings from node embeddings, node embeddings from edge embeddings, and edge embeddings from node embeddings was"
+    "confidence": "high"
   },
   {
     "id": "page_0264-b003",
     "page_key": 264,
     "order": 3,
     "type": "paragraph",
+    "text": "Power of graph neural networks: Xu et al. (2019) argue that a neural network should be able to distinguish different graph structures; it is undesirable to map two graphs to the same output if they have the same initial node embeddings but different adjacency matrices. They identified graph structures that could not be distinguished by previous approaches such as GCNs (Kipf & Welling, 2017) and GraphSAGE (Hamilton et al., 2017a). They developed a more powerful architecture with the same discriminative power as the Weisfeiler-Lehman graph isomorphism test (Weisfeiler & Leman, 1968), which is known to discriminate a broad class of graphs. This resulting graph isomorphism network was based on the aggregation operation:",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Power of graph neural networks: Xu et al. (2019) argue that a neural network should be able to distinguish different graph structures; it is undesirable to map two graphs to the same output if they have the same initial node embeddings but different adjacency "
+    "confidence": "high"
   },
   {
     "id": "page_0264-b004",
     "page_key": 264,
     "order": 4,
     "type": "equation",
-    "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "\\begin{aligned}\n\\mathbf{h}_{k+1}^{(n)}=\\mathrm{mlp}\\left[(1+\\epsilon_{k})\\mathbf{h}_{k}^{(n)}+\\sum_{m\\in\\mathbf{n}[n]}\\mathbf{h}_{k}^{(m)}\\right].\n\\end{aligned} \\quad (13.26)"
+    "text": "$$\n\\mathbf{h}_{k+1}^{(n)}\n= \\mathrm{mlp}\\left[(1+\\epsilon_{k})\\mathbf{h}_{k}^{(n)}+\\sum_{m\\in\\mathrm{ne}[n]}\\mathbf{h}_{k}^{(m)}\\right]\n\\qquad (13.26)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium"
   },
   {
     "id": "page_0264-b005",
     "page_key": 264,
     "order": 5,
     "type": "paragraph",
+    "text": "Batches: The original paper on graph convolutional networks (Kipf & Welling, 2017) used full-batch gradient descent. This has memory requirements proportional to the number of nodes, embedding size, and number of layers during training. Since then, three types of methods have been proposed to reduce the memory requirements and create batches for SGD in the transductive setting: node sampling, layer sampling, and sub-graph sampling.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Batches: The original paper on graph convolutional networks (Kipf & Welling, 2017) used full-batch gradient descent. This has memory requirements proportional to the number of nodes, embedding size, and number of layers during training. Since then, three types"
+    "confidence": "high"
   },
   {
     "id": "page_0264-b006",
     "page_key": 264,
     "order": 6,
     "type": "paragraph",
+    "text": "Node sampling methods start by randomly selecting a subset of target nodes and then work back through the network, adding a subset of the nodes in the receptive field at each stage. GraphSAGE (Hamilton et al., 2017a) proposed a fixed number of neighborhood samples as in figure 13.10b. Chen et al. (2018b) introduce a variance reduction technique, but this uses historical activations of nodes and so still has a high memory requirement. PinSAGE (Ying et al., 2018a) uses random walks from the target nodes and chooses the K nodes with the highest visit count. This prioritizes ancestors that are more closely connected.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Node sampling methods start by randomly selecting a subset of target nodes and then work back through the network, adding a subset of the nodes in the receptive field at each stage. GraphSAGE (Hamilton et al., 2017a) proposed a fixed number of neighborhood sam"
+    "confidence": "high"
   },
   {
     "id": "page_0264-b007",
     "page_key": 264,
     "order": 7,
     "type": "paragraph",
+    "text": "Node sampling still requires increasing numbers of nodes as we pass back through the graph. Layer sampling methods address this by directly sampling the receptive field in each layer independently. Examples of layer sampling include FastGCN (Chiang et al., 2018a), adaptive subgraph (Huang et al., 2018b), and layer-dependent importance sampling (Zou et al., 2019).",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Node sampling still requires increasing numbers of nodes as we pass back through the graph. Layer sampling methods address this by directly sampling the receptive field in each layer independently. Examples of layer sampling include FastGCN (Chiang et al., 201"
+    "confidence": "high"
   },
   {
     "id": "page_0264-b008",
     "page_key": 264,
     "order": 8,
     "type": "paragraph",
+    "text": "Subgraph sampling methods randomly draw subgraphs or divide the original graph into sub-graphs. These are then trained as independent data examples. Examples of these approaches include GraphSAINT (Zeng et al., 2020), which samples sub-graphs during training using random walks and then runs a full GCN on the subgraph while also correcting for the bias and variance of the minibatch. Cluster GCN (Chiang et al., 2019) partitions the graph into clusters (by maximizing the embedding utilization or number of within-batch edges) in a pre-processing stage and randomly selects clusters to form minibatches. To create more randomness, they train random subsets of these clusters plus the edges between them (see figure 13.11).",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Subgraph sampling methods randomly draw subgraphs or divide the original graph into sub-graphs. These are then trained as independent data examples. Examples of these approaches include GraphSAINT (Zeng et al., 2020), which samples sub-graphs during training u"
+    "confidence": "high"
   }
 ]

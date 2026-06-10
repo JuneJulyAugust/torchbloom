@@ -124,14 +124,5 @@
     "source": "deepseek+paddle",
     "confidence": "high",
     "text": "Problem 3.18 Zaslavsky region count for D=3 and D=5."
-  },
-  {
-    "id": "page_0040-b015",
-    "page_key": 40,
-    "order": 15,
-    "type": "review_note",
-    "source": "codex-fusion",
-    "confidence": "medium",
-    "text": "Late problem statements corrected from Paddle and local page image."
   }
 ]

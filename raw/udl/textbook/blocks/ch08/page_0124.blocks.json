@@ -4,8 +4,8 @@
     "page_key": 124,
     "order": 1,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "noise $\\sigma^{2}$. We can see that the expected loss has been broken down into two terms; the first term is the squared deviation between the model and the true function mean, and the second term is the noise."
   },
   {
@@ -13,8 +13,8 @@
     "page_key": 124,
     "order": 2,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "The first term can be further partitioned into bias and variance. The parameters $\\phi$ of the model $f[x, \\phi[D]]$. The training dataset is a random sample from the data generation process; with a different sample of training data, we would learn different parameter values. The expected model output $f_{\\mu}[x]$ with respect to all possible datasets $\\mathcal{D}$ is hence:"
   },
   {
@@ -24,15 +24,15 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\nf_{\\mu}[x]=\\mathbb{E}_{\\mathcal{D}}\\Big[f[x,\\phi[\\mathcal{D}]]\\Big].\n\\end{aligned} \\quad (8.4)"
+    "latex": "f_{\\mu}[x]=\\mathbb{E}_{\\mathcal{D}}\\Big[f[x,\\phi[\\mathcal{D}]]\\Big]. \\qquad (8.4)"
   },
   {
     "id": "page_0124-b004",
     "page_key": 124,
     "order": 4,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "Returning to the first term of equation 8.3, we add and subtract $f_{\\mu}[x]$ and expand:"
   },
   {
@@ -42,15 +42,15 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\begin{align*}\\left(\\mathrm{f}[x,\\phi[\\mathcal{D}]]-\\mu[x]\\right)^{2}\\\\=\\left(\\left(f[x,\\phi[\\mathcal{D}]]-f_{\\mu}[x]\\right)+\\left(f_{\\mu}[x]-\\mu[x]\\right)\\right)^{2}\\\\=\\left(\\mathrm{f}[\\varepsilon,\\phi[\\mathcal{D}]]-\\mathrm{f}_{\\mu}[x]\\right)^{2}+2\\left(\\mathrm{f}[x,\\phi[\\mathcal{D}]]-\\mathrm{f}_{\\mu}[x]\\right)\\left(\\mathrm{f}_{\\mu}[x]-\\mu[x]\\right)+\\left(\\mathrm{f}_{\\mu}[x]-\\mu[x]\\right)^{2}.\\end{align*}\n\\end{aligned} \\quad (8.5)"
+    "latex": "\\begin{aligned}\n\\left(\\mathrm{f}[x,\\phi[\\mathcal{D}]]-\\mu[x]\\right)^{2} \\\\\n=\\left(\\left(f[x,\\phi[\\mathcal{D}]]-f_{\\mu}[x]\\right)+\\left(f_{\\mu}[x]-\\mu[x]\\right)\\right)^{2} \\\\\n=\\left(\\mathrm{f}[\\varepsilon,\\phi[\\mathcal{D}]]-\\mathrm{f}_{\\mu}[x]\\right)^{2}+2\\left(\\mathrm{f}[x,\\phi[\\mathcal{D}]]-\\mathrm{f}_{\\mu}[x]\\right)\\left(\\mathrm{f}_{\\mu}[x]-\\mu[x]\\right)+\\left(\\mathrm{f}_{\\mu}[x]-\\mu[x]\\right)^{2}.\n\\end{aligned} \\qquad (8.5)"
   },
   {
     "id": "page_0124-b006",
     "page_key": 124,
     "order": 6,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "We then take the expectation with respect to the training dataset D:"
   },
   {
@@ -60,15 +60,15 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\mathbb{E}_{\\mathcal{D}}\\Big[\\big(\\mathrm{f}[x,\\phi[\\mathcal{D}]]-\\mu[x]\\big)^{2}\\Big]=\\mathbb{E}_{\\mathcal{D}}\\bigg[\\underbrace{\\left(\\mathrm{f}[x,\\phi[\\mathcal{D}]]-\\mathrm{f}_{\\mu}[x]\\right)^{2}}_{\\text{variance}}+\\underbrace{\\left(\\mathrm{f}_{\\mu}[x]-\\mu[x]\\right)^{2}}_{\\text{bias}}+\\sigma^{2}.\n\\end{aligned} \\quad (8.6)"
+    "latex": "\\mathbb{E}_{\\mathcal{D}}\\Big[\\big(\\mathrm{f}[x,\\phi[\\mathcal{D}]]-\\mu[x]\\big)^{2}\\Big]=\\mathbb{E}_{\\mathcal{D}}\\bigg[\\underbrace{\\left(\\mathrm{f}[x,\\phi[\\mathcal{D}]]-\\mathrm{f}_{\\mu}[x]\\right)^{2}}_{\\text{variance}}+\\underbrace{\\left(\\mathrm{f}_{\\mu}[x]-\\mu[x]\\right)^{2}}_{\\text{bias}}+\\sigma^{2}. \\qquad (8.6)"
   },
   {
     "id": "page_0124-b008",
     "page_key": 124,
     "order": 8,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "where we have simplified using similar steps as for equation 8.3. Finally, we substitute this result into equation 8.3:"
   },
   {
@@ -78,15 +78,15 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\mathbb{E}_{\\mathcal{D}}\\Big[\\underbrace{\\left(\\mathrm{f}[x,\\phi[\\mathcal{D}]]-\\mathrm{f}_{\\mu}[x]\\right)^{2}}_{\\text{variance}}\\Big]+\\underbrace{\\left(\\mathrm{f}_{\\mu}[x]-\\mu[x]\\right)^{2}}_{\\text{bias}}+\\underbrace{\\sigma^{2}.}_{\\text{noise}}\n\\end{aligned} \\quad (8.7)"
+    "latex": "\\mathbb{E}_{\\mathcal{D}}\\Big[\\underbrace{\\left(\\mathrm{f}[x,\\phi[\\mathcal{D}]]-\\mathrm{f}_{\\mu}[x]\\right)^{2}}_{\\text{variance}}\\Big]+\\underbrace{\\left(\\mathrm{f}_{\\mu}[x]-\\mu[x]\\right)^{2}}_{\\text{bias}}+\\underbrace{\\sigma^{2}.}_{\\text{noise}} \\qquad (8.7)"
   },
   {
     "id": "page_0124-b010",
     "page_key": 124,
     "order": 10,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "This equation says that the expected loss after considering the uncertainty in the training data D and the test data y consists of three additive components. The variance is uncertainly in the fitted model due to the particular training dataset we sample. The bias is the systematic deviation of the model from the mean of the function we are modeling. The noise is the inherent uncertainty in the true mapping from input to output. These three sources of error will be present for any task. They combine additively for regression tasks with a least squares loss. However, their interaction can be more complex for other types of problems."
   },
   {
@@ -94,8 +94,8 @@
     "page_key": 124,
     "order": 11,
     "type": "heading",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "8.3 Reducing error"
   },
   {
@@ -103,8 +103,8 @@
     "page_key": 124,
     "order": 12,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "In the previous section, we saw that test error results from three sources: noise, bias, and variance. The noise component is insurmountable; there is nothing we can do to circumvent this, and it represents a fundamental limit on expected model performance. However, it is possible to reduce the other two terms."
   }
 ]

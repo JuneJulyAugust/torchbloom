@@ -1,1 +1,65 @@
-[{"id":"page_0323-b001","page_key":323,"order":1,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"many normalizing flow approaches. They concluded that the Flow++ model (a coupling flow with a novel elementwise transformation and other innovations) performed best at the time."},{"id":"page_0323-b002","page_key":323,"order":2,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"Invertible network layers: Invertible layers decrease the memory requirements of the backpropagation algorithm; the activations in the forward pass no longer need to be stored since they can be recomputed in the backward pass. In addition to the regular network layers and residual layers (Gomez et al., 2017; Jacobsen et al., 2018) discussed in this chapter, invertible layers have been developed for graph neural networks (Li et al., 2021a), recurrent neural networks (MacKay et al., 2018), masked convolutions (Song et al., 2019), U-Nets (Br\u00fcgger et al., 2019; Etmann et al., 2020), and transformers (Mangalam et al., 2022)."},{"id":"page_0323-b003","page_key":323,"order":3,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"Radial and planar flows: The original normalizing flows paper (Rezende & Mohamed, 2015) used planar flows (which contract or expand the distribution along certain dimensions) and radial flows (which expand or contract around a certain point). Inverses for these flows can't be computed easily, but they are useful for approximating distributions where sampling is slow or where the likelihood can only be evaluated up to an unknown scaling factor (figure 16.14)."},{"id":"page_0323-b004","page_key":323,"order":4,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"Applications: Applications include image generation (Ho et al., 2019; Kingma & Dhariwal, 2018), noise modeling (Abdelhamed et al., 2019), video generation (Kumar et al., 2019b), audio generation (Esling et al., 2019; Kim et al., 2018; Prenger et al., 2019), graph generation (Madhawa et al., 2019), image classification (Kim et al., 2021; Mackowiak et al., 2021), image steganography (Lu et al., 2021), super-resolution (Yu et al., 2020; Wolf et al., 2021; Liang et al., 2021), style transfer (An et al., 2021), motion style transfer (Wen et al., 2021), 3D shape model generation (Zhang et al., 2021b), compression (Zhong et al., 2019; Zhang et al., 2020)."},{"id":"page_0323-b005","page_key":323,"order":5,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"Rezende & Mohamed (2015) used normalizing flows to model the posterior in VAEs. Abdal et al. (2021) used normalizing flows to model the distribution of attributes in the latent space of StyleGAN and then used these distributions to change specified attributes in real images. Wolf et al. (2021) use normalizing flows to learn the conditional image of a noisy input image given a clean one and hence simulate noisy data that can be used to train denoising or super-resolution models."},{"id":"page_0323-b006","page_key":323,"order":6,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"Normalizing flows have also found diverse uses in physics (Kanwar et al., 2020; K\u00f6hler et al., 2020; No\u00e9 et al., 2019; Wirnsberger et al., 2020; Wong et al., 2020), natural language processing (Tran et al., 2019; Ziegler & Rush, 2019; Zhou et al., 2018; Jin et al., 2020), and reinforcement learning (Schroecker et al., 2019; Haarnoja et al., 2018a; Mazoure et al., 2020; Ward et al., 2019; Toutai et al., 2020)."},{"id":"page_0323-b007","page_key":323,"order":7,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"Linear flows: Diagonal linear flows can represent normalization transformations like BatchNorm (Dinh et al., 2016) and ActNorm (Kingma & Dhariwal, 2018). Tomczak & Welling (2016) investigated combining triangular matrices and using orthogonal transformations parameterized by the Householder transform. Kingma & Dhariwal (2018) proposed the LU parameterization described in section 16.5.2. Hoogeboom et al. (2019b) proposed using the QR decomposition instead, which does not require predetermined permutation matrices. Convolutions are linear transformations (figure 10.4) that are widely used in deep learning, but their inverse and determinant are not straightforward to compute. Kingma & Dhariwal (2018) used $1 \\times 1$ convolutions, which is effectively a full linear transformation applied separately at each position. Zheng et al. (2017) introduced ConvFlow, which was restricted to 1D convolutions. Hoogeboom et al. (2019b) provided more general solutions for modeling 2D convolutions either by stacking together masked autoregressive convolutions or by operating in the Fourier domain."}]
+[
+  {
+    "id": "page_0323-b001",
+    "page_key": 323,
+    "order": 1,
+    "type": "paragraph",
+    "text": "many normalizing flow approaches. They concluded that the Flow++ model (a coupling flow with a novel elementwise transformation and other innovations) performed best at the time.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0323-b002",
+    "page_key": 323,
+    "order": 2,
+    "type": "paragraph",
+    "text": "Invertible network layers: Invertible layers decrease the memory requirements of the backpropagation algorithm; the activations in the forward pass no longer need to be stored since they can be recomputed in the backward pass. In addition to the regular network layers and residual layers (Gomez et al., 2017; Jacobsen et al., 2018) discussed in this chapter, invertible layers have been developed for graph neural networks (Li et al., 2021a), recurrent neural networks (MacKay et al., 2018), masked convolutions (Song et al., 2019), U-Nets (Brügger et al., 2019; Etmann et al., 2020), and transformers (Mangalam et al., 2022).",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0323-b003",
+    "page_key": 323,
+    "order": 3,
+    "type": "paragraph",
+    "text": "Radial and planar flows: The original normalizing flows paper (Rezende & Mohamed, 2015) used planar flows (which contract or expand the distribution along certain dimensions) and radial flows (which expand or contract around a certain point). Inverses for these flows can't be computed easily, but they are useful for approximating distributions where sampling is slow or where the likelihood can only be evaluated up to an unknown scaling factor (figure 16.14).",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0323-b004",
+    "page_key": 323,
+    "order": 4,
+    "type": "paragraph",
+    "text": "Applications: Applications include image generation (Ho et al., 2019; Kingma & Dhariwal, 2018), noise modeling (Abdelhamed et al., 2019), video generation (Kumar et al., 2019b), audio generation (Esling et al., 2019; Kim et al., 2018; Prenger et al., 2019), graph generation (Madhawa et al., 2019), image classification (Kim et al., 2021; Mackowiak et al., 2021), image steganography (Lu et al., 2021), super-resolution (Yu et al., 2020; Wolf et al., 2021; Liang et al., 2021), style transfer (An et al., 2021), motion style transfer (Wen et al., 2021), 3D shape model generation (Zhang et al., 2021b), compression (Zhong et al., 2019; Zhang et al., 2020).",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0323-b005",
+    "page_key": 323,
+    "order": 5,
+    "type": "paragraph",
+    "text": "Rezende & Mohamed (2015) used normalizing flows to model the posterior in VAEs. Abdal et al. (2021) used normalizing flows to model the distribution of attributes in the latent space of StyleGAN and then used these distributions to change specified attributes in real images. Wolf et al. (2021) use normalizing flows to learn the conditional image of a noisy input image given a clean one and hence simulate noisy data that can be used to train denoising or super-resolution models.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0323-b006",
+    "page_key": 323,
+    "order": 6,
+    "type": "paragraph",
+    "text": "Normalizing flows have also found diverse uses in physics (Kanwar et al., 2020; Köhler et al., 2020; Noé et al., 2019; Wirnsberger et al., 2020; Wong et al., 2020), natural language processing (Tran et al., 2019; Ziegler & Rush, 2019; Zhou et al., 2018; Jin et al., 2020), and reinforcement learning (Schroecker et al., 2019; Haarnoja et al., 2018a; Mazoure et al., 2020; Ward et al., 2019; Toutai et al., 2020).",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0323-b007",
+    "page_key": 323,
+    "order": 7,
+    "type": "paragraph",
+    "text": "Linear flows: Diagonal linear flows can represent normalization transformations like BatchNorm (Dinh et al., 2016) and ActNorm (Kingma & Dhariwal, 2018). Tomczak & Welling (2016) investigated combining triangular matrices and using orthogonal transformations parameterized by the Householder transform. Kingma & Dhariwal (2018) proposed the LU parameterization described in section 16.5.2. Hoogeboom et al. (2019b) proposed using the QR decomposition instead, which does not require predetermined permutation matrices. Convolutions are linear transformations (figure 10.4) that are widely used in deep learning, but their inverse and determinant are not straightforward to compute. Kingma & Dhariwal (2018) used $1 \\times 1$ convolutions, which is effectively a full linear transformation applied separately at each position. Zheng et al. (2017) introduced ConvFlow, which was restricted to 1D convolutions. Hoogeboom et al. (2019b) provided more general solutions for modeling 2D convolutions either by stacking together masked autoregressive convolutions or by operating in the Fourier domain.",
+    "source": "deepseek",
+    "confidence": "medium"
+  }
+]

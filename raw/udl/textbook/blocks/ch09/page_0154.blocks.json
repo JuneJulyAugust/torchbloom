@@ -1,1 +1,57 @@
-[{"id":"page_0154-b001","page_key":154,"order":1,"type":"figure","source":"deepseek+paddle","confidence":"high","image_path":"figures/page_0154_fig_1.jpg","alt_text":"Figure 9.13 Data augmentation. For some problems, each data example can be transformed to augment the dataset. a) Original image. b–h) Various geometric and photometric transformat"},{"id":"page_0154-b002","page_key":154,"order":2,"type":"caption","source":"deepseek+paddle","confidence":"high","text":"Figure 9.13 Data augmentation. For some problems, each data example can be transformed to augment the dataset. a) Original image. b–h) Various geometric and photometric transformations of this image. For image classification, all these images still have the same label, “bird.” Adapted from Wu et al. (2015a)."},{"id":"page_0154-b003","page_key":154,"order":3,"type":"paragraph","source":"deepseek","confidence":"high","text":"Generating extra training data in this way is known as data augmentation. The aim is to teach the model to be indifferent to these irrelevant data transformations."},{"id":"page_0154-b004","page_key":154,"order":4,"type":"heading","source":"deepseek","confidence":"high","text":"9.4 Summary"},{"id":"page_0154-b005","page_key":154,"order":5,"type":"paragraph","source":"deepseek","confidence":"high","text":"Explicit regularization involves adding an extra term to the loss function that changes the position of the minimum. The term can be interpreted as a prior probability over the parameters. Stochastic gradient descent with a finite step size does not neutrally descend to the minimum of the loss function. This bias can be interpreted as adding additional terms to the loss function, and this is known as implicit regularization."},{"id":"page_0154-b006","page_key":154,"order":6,"type":"paragraph","source":"deepseek","confidence":"high","text":"There are also many heuristics for improving generalization, including early stopping, dropout, ensembling, the Bayesian approach, adding noise, transfer learning, multi-task learning, and data augmentation. There are four main principles behind these methods (figure 9.14). We can (i) encourage the function to be smoother (e.g., L2 regularization), (ii) increase the amount of data (e.g., data augmentation), (iii) combine models (e.g., ensembling), or (iv) search for wider minima (e.g., applying noise to network weights)."}]
+[
+  {
+    "id": "page_0154-b001",
+    "page_key": 154,
+    "order": 1,
+    "type": "figure",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0154_fig_1.jpg",
+    "alt": "Figure 9.13 Data augmentation. For some problems, each data example can be transformed to augment the dataset. a) Original image. b-h) Various geometric and pho"
+  },
+  {
+    "id": "page_0154-b002",
+    "page_key": 154,
+    "order": 2,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "caption": "Figure 9.13 Data augmentation. For some problems, each data example can be transformed to augment the dataset. a) Original image. b-h) Various geometric and photometric transformations of this image. For image classification, all these images still have the same label, \"bird.\" Adapted from Wu et al. (2015a)."
+  },
+  {
+    "id": "page_0154-b003",
+    "page_key": 154,
+    "order": 3,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Generating extra training data in this way is known as data augmentation. The aim is to teach the model to be indifferent to these irrelevant data transformations."
+  },
+  {
+    "id": "page_0154-b004",
+    "page_key": 154,
+    "order": 4,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "9.4 Summary"
+  },
+  {
+    "id": "page_0154-b005",
+    "page_key": 154,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Explicit regularization involves adding an extra term to the loss function that changes the position of the minimum. The term can be interpreted as a prior probability over the parameters. Stochastic gradient descent with a finite step size does not neutrally descend to the minimum of the loss function. This bias can be interpreted as adding additional terms to the loss function, and this is known as implicit regularization."
+  },
+  {
+    "id": "page_0154-b006",
+    "page_key": 154,
+    "order": 6,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "There are also many heuristics for improving generalization, including early stopping, dropout, ensembling, the Bayesian approach, adding noise, transfer learning, multi-task learning, and data augmentation. There are four main principles behind these methods (figure 9.14). We can (i) encourage the function to be smoother (e.g., L2 regularization), (ii) increase the amount of data (e.g., data augmentation), (iii) combine models (e.g., ensembling), or (iv) search for wider minima (e.g., applying noise to network weights)."
+  }
+]

@@ -4,89 +4,89 @@
     "page_key": 408,
     "order": 1,
     "type": "paragraph",
+    "text": "the choice of activation function are both important. Surprisingly, the choice of dataset, the randomness of the fitting algorithm, and the use of regularization don\u2019t seem important. There is no definitive evidence that (for a fixed parameter count) the depth of the network matters (other than numerical problems due to exploding/vanishing/shattered gradients). This section tackles the same topic from a different angle by considering the empirical properties of loss functions. Most of this evidence comes from fully connected networks and CNNs; loss functions of transformer networks are less well understood.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "the choice of activation function are both important. Surprisingly, the choice of dataset, the randomness of the fitting algorithm, and the use of regularization don\u2019t seem important. There is no definitive evidence that (for a fixed parameter count) the depth of the network matters (other than numerical problems due to exploding/vanishing/shattered gradients). This section tackles the same topic from a different angle by considering the empirical properties of loss functions. Most of this evidence comes from fully connected networks and CNNs; loss functions of transformer networks are less well understood."
+    "confidence": "medium"
   },
   {
     "id": "page_0408-b002",
     "page_key": 408,
     "order": 2,
     "type": "heading",
+    "text": "## 20.3.1 Multiple global minima",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "20.3.1 Multiple global minima"
+    "confidence": "medium"
   },
   {
     "id": "page_0408-b003",
     "page_key": 408,
     "order": 3,
     "type": "paragraph",
+    "text": "We expect loss functions for deep networks to have a large family of equivalent global minima. In fully connected networks, the hidden units at each layer and their associated weights can be permuted without changing the output. In convolutional networks, permuting the channels and convolution kernels appropriately doesn\u2019t change the output. We can multiply the weight before any ReLU function and divide the weight after by a positive number without changing the output. Using BatchNorm induces another set of redundancies because the mean and variance of each hidden unit or channel are reset.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "We expect loss functions for deep networks to have a large family of equivalent global minima. In fully connected networks, the hidden units at each layer and their associated weights can be permuted without changing the output. In convolutional networks, permuting the channels and convolution kernels appropriately doesn\u2019t change the output. We can multiply the weight before any ReLU function and divide the weight after by a positive number without changing the output. Using BatchNorm induces another set of redundancies because the mean and variance of each hidden unit or channel are reset."
+    "confidence": "medium"
   },
   {
     "id": "page_0408-b004",
     "page_key": 408,
     "order": 4,
     "type": "paragraph",
+    "text": "The above modifications all produce the same output for every input. However, the global minimum only depends on the output at the training data points. In overparameterized networks, there will also be families of solutions that behave identically at the data points but differently between them. All of these are also global minima.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "The above modifications all produce the same output for every input. However, the global minimum only depends on the output at the training data points. In overparameterized networks, there will also be families of solutions that behave identically at the data points but differently between them. All of these are also global minima."
+    "confidence": "medium"
   },
   {
     "id": "page_0408-b005",
     "page_key": 408,
     "order": 5,
     "type": "heading",
+    "text": "## 20.3.2 Route to the minimum",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "20.3.2 Route to the minimum"
+    "confidence": "medium"
   },
   {
     "id": "page_0408-b006",
     "page_key": 408,
     "order": 6,
     "type": "paragraph",
+    "text": "Goodfellow et al. (2015b) considered a straight line between the initial parameters and the final values. They show that the loss function along this line usually decreases monotonically (except for a small bump near the start sometimes). This phenomenon is observed for several different types of networks and activation functions (figure 20.5a).",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Goodfellow et al. (2015b) considered a straight line between the initial parameters and the final values. They show that the loss function along this line usually decreases monotonically (except for a small bump near the start sometimes). This phenomenon is observed for several different types of networks and activation functions (figure 20.5a)."
+    "confidence": "medium"
   },
   {
     "id": "page_0408-b007",
     "page_key": 408,
     "order": 7,
     "type": "paragraph",
+    "text": "Of course, real optimization trajectories do not proceed in a straight line. However, Li et al. (2018b) find that they do lie in low-dimensional subspaces. They attribute this to the existence of large, nearly convex regions in the loss landscape that capture the trajectory early on and funnel it in a few important directions. Surprisingly, Li et al. (2018a) showed that networks still train well if optimization is constrained to lie in a random low-dimensional subspace (figure 20.6).",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Of course, real optimization trajectories do not proceed in a straight line. However, Li et al. (2018b) find that they do lie in low-dimensional subspaces. They attribute this to the existence of large, nearly convex regions in the loss landscape that capture the trajectory early on and funnel it in a few important directions. Surprisingly, Li et al. (2018a) showed that networks still train well if optimization is constrained to lie in a random low-dimensional subspace (figure 20.6)."
+    "confidence": "medium"
   },
   {
     "id": "page_0408-b008",
     "page_key": 408,
     "order": 8,
     "type": "paragraph",
+    "text": "Li & Liang (2018) show that the relative change in the parameters during training decreases as network width increases; for larger widths, the parameters start at smaller values, change by a smaller proportion of those values, and converge in fewer steps.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Li & Liang (2018) show that the relative change in the parameters during training decreases as network width increases; for larger widths, the parameters start at smaller values, change by a smaller proportion of those values, and converge in fewer steps."
+    "confidence": "medium"
   },
   {
     "id": "page_0408-b009",
     "page_key": 408,
     "order": 9,
     "type": "heading",
+    "text": "## 20.3.3 Connections between minima",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "20.3.3 Connections between minima"
+    "confidence": "medium"
   },
   {
     "id": "page_0408-b010",
     "page_key": 408,
     "order": 10,
     "type": "paragraph",
+    "text": "Goodfellow et al. (2015b) examined the loss function along a straight line between two minima that were found independently. They saw a pronounced increase in the loss be-",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Goodfellow et al. (2015b) examined the loss function along a straight line between two minima that were found independently. They saw a pronounced increase in the loss be-"
+    "confidence": "medium"
   }
 ]

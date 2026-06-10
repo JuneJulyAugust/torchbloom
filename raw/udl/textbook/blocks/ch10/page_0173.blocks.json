@@ -1,1 +1,62 @@
-[{"id":"page_0173-b001","page_key":173,"order":1,"source":"deepseek+paddle","confidence":"medium","type":"figure","image_path":"figures/page_0173_fig_1.jpg"},{"id":"page_0173-b002","page_key":173,"order":2,"type":"caption","source":"deepseek+paddle","confidence":"medium","text":"Figure 10.11 Methods for scaling down representation size (downsampling). a) Sub-sampling. The original $4 \\times 4$ representation (left) is reduced to size $2 \\times 2$ (right) by retaining every other input. Colors..."},{"id":"page_0173-b003","page_key":173,"order":3,"source":"deepseek+paddle","confidence":"medium","type":"figure","image_path":"figures/page_0173_fig_2.jpg"},{"id":"page_0173-b004","page_key":173,"order":4,"type":"caption","source":"deepseek+paddle","confidence":"medium","text":"Figure 10.12 Methods for scaling up representation size (upsampling). a) The simplest way to double the size of a 2D layer is to duplicate each input four times. b) In networks where we have previously used a max pool..."},{"id":"page_0173-b005","page_key":173,"order":5,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"**Figure 3**"},{"id":"page_0173-b006","page_key":173,"order":6,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"b)"},{"id":"page_0173-b007","page_key":173,"order":7,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"c)"},{"id":"page_0173-b008","page_key":173,"order":8,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"d)"},{"id":"page_0173-b009","page_key":173,"order":9,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"**Figure 6**"},{"id":"page_0173-b010","page_key":173,"order":10,"source":"deepseek+paddle","confidence":"medium","type":"figure","image_path":"figures/page_0173_fig_3.jpg"},{"id":"page_0173-b011","page_key":173,"order":11,"type":"caption","source":"deepseek+paddle","confidence":"medium","text":"Figure 10.13 Transposed convolution in 1D. a) Downsampling with kernel size three, stride two, and zero-padding. Each output is a weighted sum of three inputs (arrows indicate weights). b) This can be expressed by a w..."}]
+[
+  {
+    "id": "page_0173-b001",
+    "page_key": 173,
+    "order": 1,
+    "type": "figure",
+    "text": "",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0173_fig_1.jpg"
+  },
+  {
+    "id": "page_0173-b002",
+    "page_key": 173,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 10.11 Methods for scaling down representation size (downsampling). a) Sub-sampling. The original $4 \\times 4$ representation (left) is reduced to size $2 \\times 2$ (right) by retaining every other input. Colors on the left indicate which inputs contribute to the outputs on the right. This is effectively what happens with a kernel of stride two, except that the intermediate values are never computed. b) Max pooling. Each output comprises the maximum value of the corresponding $2 \\times 2$ block. c) Mean pooling. Each output is the mean of the values in the $2 \\times 2$ block.",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "caption": "Figure 10.11 Methods for scaling down representation size (downsampling). a) Sub-sampling. The original $4 \\times 4$ representation (left) is reduced to size $2 \\times 2$ (right) by retaining every other input. Colors on the left indicate which inputs contribute to the outputs on the right. This is effectively what happens with a kernel of stride two, except that the intermediate values are never computed. b) Max pooling. Each output comprises the maximum value of the corresponding $2 \\times 2$ block. c) Mean pooling. Each output is the mean of the values in the $2 \\times 2$ block."
+  },
+  {
+    "id": "page_0173-b003",
+    "page_key": 173,
+    "order": 3,
+    "type": "figure",
+    "text": "",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0173_fig_2.jpg"
+  },
+  {
+    "id": "page_0173-b004",
+    "page_key": 173,
+    "order": 4,
+    "type": "caption",
+    "text": "Figure 10.12 Methods for scaling up representation size (upsampling). a) The simplest way to double the size of a 2D layer is to duplicate each input four times. b) In networks where we have previously used a max pooling operation (figure 10.11b), we can redistribute the values to the same positions they originally came from (i.e., where the maxima were). This is known as max unpooling. c) A third option is bilinear interpolation between the input values.",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "caption": "Figure 10.12 Methods for scaling up representation size (upsampling). a) The simplest way to double the size of a 2D layer is to duplicate each input four times. b) In networks where we have previously used a max pooling operation (figure 10.11b), we can redistribute the values to the same positions they originally came from (i.e., where the maxima were). This is known as max unpooling. c) A third option is bilinear interpolation between the input values."
+  },
+  {
+    "id": "page_0173-b005",
+    "page_key": 173,
+    "order": 5,
+    "type": "figure",
+    "text": "",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0173_fig_3.jpg"
+  },
+  {
+    "id": "page_0173-b006",
+    "page_key": 173,
+    "order": 6,
+    "type": "caption",
+    "text": "Figure 10.13 Transposed convolution in 1D. a) Downsampling with kernel size three, stride two, and zero-padding. Each output is a weighted sum of three inputs (arrows indicate weights). b) This can be expressed by a weight matrix (same color indicates shared weight). c) In transposed convolution, each input contributes three values to the output layer, which has twice as many outputs as inputs. d) The associated weight matrix is the transpose of that in panel (b).",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "caption": "Figure 10.13 Transposed convolution in 1D. a) Downsampling with kernel size three, stride two, and zero-padding. Each output is a weighted sum of three inputs (arrows indicate weights). b) This can be expressed by a weight matrix (same color indicates shared weight). c) In transposed convolution, each input contributes three values to the output layer, which has twice as many outputs as inputs. d) The associated weight matrix is the transpose of that in panel (b)."
+  }
+]

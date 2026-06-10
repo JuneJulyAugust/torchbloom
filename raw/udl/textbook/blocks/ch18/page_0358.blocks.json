@@ -4,89 +4,89 @@
     "page_key": 358,
     "order": 1,
     "type": "paragraph",
-    "source": "deepseek+paddle",
-    "confidence": "medium",
-    "text": "This gives us the evidence lower bound (ELBO):"
+    "text": "This gives us the evidence lower bound (ELBO):",
+    "source": "deepseek",
+    "confidence": "medium"
   },
   {
     "id": "page_0358-b002",
     "page_key": 358,
     "order": 2,
     "type": "equation",
-    "source": "codex-fusion",
-    "confidence": "high",
-    "text": "\\mathrm{ELBO}\\big[\\phi_{1\\ldots T}\\big]\n=\n\\int q(\\mathbf{z}_{1\\ldots T}|\\mathbf{x})\n\\log\\left[\n\\frac{Pr(\\mathbf{x},\\mathbf{z}_{1\\ldots T}|\\phi_{1\\ldots T})}\n{q(\\mathbf{z}_{1\\ldots T}|\\mathbf{x})}\n\\right]d\\mathbf{z}_{1\\ldots T}. \\quad (18.21)"
+    "text": "$$\n\\mathrm{ELBO}\\big[\\phi_{1\\ldots T}\\big]=\\int q(\\mathbf{z}_{1\\ldots T}|\\mathbf{x})\\log\\left[\\frac{\\Pr(\\mathbf{x},\\mathbf{z}_{1\\ldots T}|\\phi_{1\\ldots T})}{q(\\mathbf{z}_{1\\ldots T}|\\mathbf{x})}\\right]d\\mathbf{z}_{1\\ldots T}\n\\qquad (18.21)\n$$",
+    "source": "deepseek",
+    "confidence": "medium"
   },
   {
     "id": "page_0358-b003",
     "page_key": 358,
     "order": 3,
     "type": "paragraph",
-    "source": "codex-fusion",
-    "confidence": "high",
-    "text": "In the VAE, the encoder $q(\\mathbf{z}|\\mathbf{x})$ approximates the posterior distribution over the latent variables to make the bound tight, and the decoder maximizes this bound (figure 17.10). In diffusion models, the decoder must do all the work since the encoder has no parameters. It makes the bound tighter by both (i) changing its parameters so that the static encoder does approximate the posterior $Pr(\\mathbf{z}_{1\\ldots T}|\\mathbf{x},\\phi_{1\\ldots T})$ and (ii) optimizing its own parameters with respect to that bound (see figure 17.6)."
+    "text": "In the VAE, the encoder $q(\\mathbf{z}|\\mathbf{x})$ approximates the posterior distribution over the latent variables to make the bound tight, and the decoder maximizes this bound (figure 17.10). In diffusion models, the decoder must do all the work since the encoder has no parameters. It makes the bound tighter by both (i) changing its parameters so that the static encoder does approximate the posterior $\\Pr(\\mathbf{z}_{1\\ldots T}|\\mathbf{x},\\phi_{1\\ldots T})$ and (ii) optimizing its own parameters with respect to that bound (see figure 17.6).",
+    "source": "deepseek",
+    "confidence": "medium"
   },
   {
     "id": "page_0358-b004",
     "page_key": 358,
     "order": 4,
     "type": "heading",
+    "text": "18.4.2 Simplifying the ELBO",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "18.4.2 Simplifying the ELBO"
+    "confidence": "medium"
   },
   {
     "id": "page_0358-b005",
     "page_key": 358,
     "order": 5,
     "type": "paragraph",
-    "source": "deepseek+paddle",
-    "confidence": "medium",
-    "text": "We now manipulate the log term from the ELBO into the final form that we will optimize. We first substitute in the definitions for the numerator and denominator from equations 18.17 and 18.3, respectively:"
+    "text": "We now manipulate the log term from the ELBO into the final form that we will optimize. We first substitute in the definitions for the numerator and denominator from equations 18.17 and 18.3, respectively:",
+    "source": "deepseek",
+    "confidence": "medium"
   },
   {
     "id": "page_0358-b006",
     "page_key": 358,
     "order": 6,
     "type": "equation",
-    "source": "codex-fusion",
-    "confidence": "high",
-    "text": "\\begin{aligned}\n\\log\\left[\n\\frac{Pr(\\mathbf{x},\\mathbf{z}_{1\\ldots T}|\\phi_{1\\ldots T})}\n{q(\\mathbf{z}_{1\\ldots T}|\\mathbf{x})}\n\\right]\n&=\n\\log\\left[\n\\frac{\nPr(\\mathbf{x}|\\mathbf{z}_{1},\\phi_{1})\n\\prod_{t=2}^{T}Pr(\\mathbf{z}_{t-1}|\\mathbf{z}_{t},\\phi_{t})\n\\cdot Pr(\\mathbf{z}_{T})\n}{\nq(\\mathbf{z}_{1}|\\mathbf{x})\n\\prod_{t=2}^{T}q(\\mathbf{z}_{t}|\\mathbf{z}_{t-1})\n}\n\\right] \\\\\n&=\n\\log\\left[\n\\frac{Pr(\\mathbf{x}|\\mathbf{z}_{1},\\phi_{1})}\n{q(\\mathbf{z}_{1}|\\mathbf{x})}\n\\right]\n+\\log\\left[\n\\frac{\n\\prod_{t=2}^{T}Pr(\\mathbf{z}_{t-1}|\\mathbf{z}_{t},\\phi_{t})\n}{\n\\prod_{t=2}^{T}q(\\mathbf{z}_{t}|\\mathbf{z}_{t-1})\n}\n\\right]\n+\\log\\left[Pr(\\mathbf{z}_{T})\\right].\n\\end{aligned} \\quad (18.22)"
+    "text": "$$\n\\begin{aligned}\n\\log\\left[\\frac{\\Pr(\\mathbf{x},\\mathbf{z}_{1\\ldots T}|\\phi_{1\\ldots T})}{q(\\mathbf{z}_{1\\ldots T}|\\mathbf{x})}\\right]\n&=\\log\\left[\\frac{\\Pr(\\mathbf{x}|\\mathbf{z}_{1},\\phi_{1})\\prod_{t=2}^{T}\\Pr(\\mathbf{z}_{t-1}|\\mathbf{z}_{t},\\phi_{t})\\cdot\\Pr(\\mathbf{z}_{T})}{q(\\mathbf{z}_{1}|\\mathbf{x})\\prod_{t=2}^{T}q(\\mathbf{z}_{t}|\\mathbf{z}_{t-1})}\\right] \\\\\n&=\\log\\left[\\frac{\\Pr(\\mathbf{x}|\\mathbf{z}_{1},\\phi_{1})}{q(\\mathbf{z}_{1}|\\mathbf{x})}\\right]\n+\\log\\left[\\frac{\\prod_{t=2}^{T}\\Pr(\\mathbf{z}_{t-1}|\\mathbf{z}_{t},\\phi_{t})}{\\prod_{t=2}^{T}q(\\mathbf{z}_{t}|\\mathbf{z}_{t-1})}\\right]\n+\\log\\left[\\Pr(\\mathbf{z}_{T})\\right]\n\\end{aligned}\n\\qquad (18.22)\n$$",
+    "source": "deepseek",
+    "confidence": "medium"
   },
   {
     "id": "page_0358-b007",
     "page_key": 358,
     "order": 7,
     "type": "paragraph",
-    "source": "deepseek+paddle",
-    "confidence": "medium",
-    "text": "Then we expand the denominator of the second term:"
+    "text": "Then we expand the denominator of the second term:",
+    "source": "deepseek",
+    "confidence": "medium"
   },
   {
     "id": "page_0358-b008",
     "page_key": 358,
     "order": 8,
     "type": "equation",
-    "source": "codex-fusion",
-    "confidence": "high",
-    "text": "q(\\mathbf{z}_{t}|\\mathbf{z}_{t-1})\n=\nq(\\mathbf{z}_{t}|\\mathbf{z}_{t-1},\\mathbf{x})\n=\n\\frac{q(\\mathbf{z}_{t-1}|\\mathbf{z}_{t},\\mathbf{x})q(\\mathbf{z}_{t}|\\mathbf{x})}\n{q(\\mathbf{z}_{t-1}|\\mathbf{x})}, \\quad (18.23)"
+    "text": "$$\nq(\\mathbf{z}_{t}|\\mathbf{z}_{t-1})=q(\\mathbf{z}_{t}|\\mathbf{z}_{t-1},\\mathbf{x})=\\frac{q(\\mathbf{z}_{t-1}|\\mathbf{z}_{t},\\mathbf{x})q(\\mathbf{z}_{t}|\\mathbf{x})}{q(\\mathbf{z}_{t-1}|\\mathbf{x})}\n\\qquad (18.23)\n$$",
+    "source": "deepseek",
+    "confidence": "medium"
   },
   {
     "id": "page_0358-b009",
     "page_key": 358,
     "order": 9,
     "type": "paragraph",
-    "source": "codex-fusion",
-    "confidence": "high",
-    "text": "where the first equality follows because all of the information about variable $\\mathbf{z}_{t}$ is encompassed in $\\mathbf{z}_{t-1}$, so the extra conditioning on the data $\\mathbf{x}$ is irrelevant. The second equality is a straightforward application of Bayes' rule. Substituting in this result gives:"
+    "text": "where the first equality follows because all of the information about variable $\\mathbf{z}_{t}$ is encompassed in $\\mathbf{z}_{t-1}$, so the extra conditioning on the data $\\mathbf{x}$ is irrelevant. The second equality is a straightforward application of Bayes' rule. Substituting in this result gives:",
+    "source": "deepseek",
+    "confidence": "medium"
   },
   {
     "id": "page_0358-b010",
     "page_key": 358,
     "order": 10,
     "type": "equation",
-    "source": "codex-fusion",
-    "confidence": "high",
-    "text": "\\begin{aligned}\n\\log\\left[\n\\frac{Pr(\\mathbf{x},\\mathbf{z}_{1\\ldots T}|\\phi_{1\\ldots T})}\n{q(\\mathbf{z}_{1\\ldots T}|\\mathbf{x})}\n\\right]\n&=\n\\log\\left[\n\\frac{Pr(\\mathbf{x}|\\mathbf{z}_{1},\\phi_{1})}\n{q(\\mathbf{z}_{1}|\\mathbf{x})}\n\\right]\n+\\log\\left[\n\\frac{\n\\prod_{t=2}^{T}Pr(\\mathbf{z}_{t-1}|\\mathbf{z}_{t},\\phi_{t})\n\\cdot q(\\mathbf{z}_{t-1}|\\mathbf{x})\n}{\n\\prod_{t=2}^{T}q(\\mathbf{z}_{t-1}|\\mathbf{z}_{t},\\mathbf{x})\n\\cdot q(\\mathbf{z}_{t}|\\mathbf{x})\n}\n\\right]\n+\\log\\left[Pr(\\mathbf{z}_{T})\\right] \\\\\n&=\n\\log\\left[Pr(\\mathbf{x}|\\mathbf{z}_{1},\\phi_{1})\\right]\n+\\log\\left[\n\\frac{\n\\prod_{t=2}^{T}Pr(\\mathbf{z}_{t-1}|\\mathbf{z}_{t},\\phi_{t})\n}{\n\\prod_{t=2}^{T}q(\\mathbf{z}_{t-1}|\\mathbf{z}_{t},\\mathbf{x})\n}\n\\right]\n+\\log\\left[\n\\frac{Pr(\\mathbf{z}_{T})}{q(\\mathbf{z}_{T}|\\mathbf{x})}\n\\right] \\\\\n&\\approx\n\\log\\left[Pr(\\mathbf{x}|\\mathbf{z}_{1},\\phi_{1})\\right]\n+\\sum_{t=2}^{T}\\log\\left[\n\\frac{Pr(\\mathbf{z}_{t-1}|\\mathbf{z}_{t},\\phi_{t})}\n{q(\\mathbf{z}_{t-1}|\\mathbf{z}_{t},\\mathbf{x})}\n\\right].\n\\end{aligned} \\quad (18.24)"
+    "text": "$$\n\\begin{aligned}\n\\log\\left[\\frac{\\Pr(\\mathbf{x},\\mathbf{z}_{1\\ldots T}|\\phi_{1\\ldots T})}{q(\\mathbf{z}_{1\\ldots T}|\\mathbf{x})}\\right]\n&=\\log\\left[\\frac{\\Pr(\\mathbf{x}|\\mathbf{z}_{1},\\phi_{1})}{q(\\mathbf{z}_{1}|\\mathbf{x})}\\right]\n+\\log\\left[\\frac{\\prod_{t=2}^{T}\\Pr(\\mathbf{z}_{t-1}|\\mathbf{z}_{t},\\phi_{t})\\cdot q(\\mathbf{z}_{t-1}|\\mathbf{x})}{\\prod_{t=2}^{T}q(\\mathbf{z}_{t-1}|\\mathbf{z}_{t},\\mathbf{x})\\cdot q(\\mathbf{z}_{t}|\\mathbf{x})}\\right]\n+\\log\\left[\\Pr(\\mathbf{z}_{T})\\right] \\\\\n&=\\log\\left[\\Pr(\\mathbf{x}|\\mathbf{z}_{1},\\phi_{1})\\right]\n+\\log\\left[\\frac{\\prod_{t=2}^{T}\\Pr(\\mathbf{z}_{t-1}|\\mathbf{z}_{t},\\phi_{t})}{\\prod_{t=2}^{T}q(\\mathbf{z}_{t-1}|\\mathbf{z}_{t},\\mathbf{x})}\\right]\n+\\log\\left[\\frac{\\Pr(\\mathbf{z}_{T})}{q(\\mathbf{z}_{T}|\\mathbf{x})}\\right] \\\\\n&\\approx\\log\\left[\\Pr(\\mathbf{x}|\\mathbf{z}_{1},\\phi_{1})\\right]\n+\\sum_{t=2}^{T}\\log\\left[\\frac{\\Pr(\\mathbf{z}_{t-1}|\\mathbf{z}_{t},\\phi_{t})}{q(\\mathbf{z}_{t-1}|\\mathbf{z}_{t},\\mathbf{x})}\\right]\n\\end{aligned}\n\\qquad (18.24)\n$$",
+    "source": "deepseek",
+    "confidence": "medium"
   }
 ]

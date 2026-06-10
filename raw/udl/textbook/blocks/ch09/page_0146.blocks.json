@@ -1,1 +1,57 @@
-[{"id":"page_0146-b001","page_key":146,"order":1,"type":"figure","source":"deepseek+paddle","confidence":"high","image_path":"figures/page_0146_fig_1.jpg","alt_text":"Figure 9.6 Early stopping. a) Simplified shallow network model with 14 linear regions (figure 8.4) is initialized randomly (cyan curve) and trained with SGD using a batch size of f"},{"id":"page_0146-b002","page_key":146,"order":2,"type":"caption","source":"deepseek+paddle","confidence":"high","text":"Figure 9.6 Early stopping. a) Simplified shallow network model with 14 linear regions (figure 8.4) is initialized randomly (cyan curve) and trained with SGD using a batch size of five and a learning rate of 0.05. b–d) As training proceeds, the function first captures the coarse structure of the true function (black curve) before e–f) overfitting to the noisy training data (orange points). Although the training loss continues to decrease throughout this process, the learned models in panels (c) and (d) are closest to the true underlying function. They will generalize better on average to test data than those in panels (e) or (f)."},{"id":"page_0146-b003","page_key":146,"order":3,"type":"paragraph","source":"deepseek","confidence":"high","text":"as an ensemble. This technique reliably improves test performance at the cost of training and storing multiple models and performing inference multiple times."},{"id":"page_0146-b004","page_key":146,"order":4,"type":"paragraph","source":"deepseek","confidence":"high","text":"The models can be combined by taking the mean of the outputs (for regression problems) or the mean of the pre-softmax activations (for classification problems). The assumption is that model errors are independent and will cancel out. Alternatively, we can take the median of the outputs (for regression problems) or the most frequent predicted class (for classification problems) to make the predictions more robust."},{"id":"page_0146-b005","page_key":146,"order":5,"type":"paragraph","source":"deepseek","confidence":"high","text":"One way to train different models is just to use different random initializations. This may help in regions of input space far from the training data. Here, the fitted function is relatively unconstrained, and different models may produce different predictions, so the average of several models may generalize better than any single model."},{"id":"page_0146-b006","page_key":146,"order":6,"type":"paragraph","source":"deepseek","confidence":"high","text":"A second approach is to generate several different datasets by re-sampling the training data with replacement and training a different model from each. This is known as bootstrap aggregating or bagging for short (figure 9.7). It has the effect of smoothing out the data; if a data point is not present in one training set, the model will interpo-"}]
+[
+  {
+    "id": "page_0146-b001",
+    "page_key": 146,
+    "order": 1,
+    "type": "figure",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0146_fig_1.jpg",
+    "alt": "Figure 9.6 Early stopping. a) Simplified shallow network model with 14 linear regions (figure 8.4) is initialized randomly (cyan curve) and trained with SGD usi"
+  },
+  {
+    "id": "page_0146-b002",
+    "page_key": 146,
+    "order": 2,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "caption": "Figure 9.6 Early stopping. a) Simplified shallow network model with 14 linear regions (figure 8.4) is initialized randomly (cyan curve) and trained with SGD using a batch size of five and a learning rate of 0.05. b-d) As training proceeds, the function first captures the coarse structure of the true function (black curve) before e-f) overfitting to the noisy training data (orange points). Although the training loss continues to decrease throughout this process, the learned models in panels (c) and (d) are closest to the true underlying function. They will generalize better on average to test data than those in panels (e) or (f)."
+  },
+  {
+    "id": "page_0146-b003",
+    "page_key": 146,
+    "order": 3,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "as an ensemble. This technique reliably improves test performance at the cost of training and storing multiple models and performing inference multiple times."
+  },
+  {
+    "id": "page_0146-b004",
+    "page_key": 146,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "The models can be combined by taking the mean of the outputs (for regression problems) or the mean of the pre-softmax activations (for classification problems). The assumption is that model errors are independent and will cancel out. Alternatively, we can take the median of the outputs (for regression problems) or the most frequent predicted class (for classification problems) to make the predictions more robust."
+  },
+  {
+    "id": "page_0146-b005",
+    "page_key": 146,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "One way to train different models is just to use different random initializations. This may help in regions of input space far from the training data. Here, the fitted function is relatively unconstrained, and different models may produce different predictions, so the average of several models may generalize better than any single model."
+  },
+  {
+    "id": "page_0146-b006",
+    "page_key": 146,
+    "order": 6,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "A second approach is to generate several different datasets by re-sampling the training data with replacement and training a different model from each. This is known as bootstrap aggregating or bagging for short (figure 9.7). It has the effect of smoothing out the data; if a data point is not present in one training set, the model will interpo-"
+  }
+]

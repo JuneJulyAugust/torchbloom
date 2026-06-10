@@ -1,1 +1,83 @@
-[{"id":"page_0174-b001","page_key":174,"order":1,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"as inputs, and each input contributes to three of the outputs. When we consider the associated weight matrix of this upsampling mechanism (figure 10.13d), we see that it is the transpose of the matrix for the downsamp..."},{"id":"page_0174-b002","page_key":174,"order":2,"source":"deepseek+paddle","confidence":"medium","type":"heading","text":"## 10.4.3 Changing the number of channels"},{"id":"page_0174-b003","page_key":174,"order":3,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"Sometimes we want to change the number of channels between one hidden layer and the next without further spatial pooling. This is usually so we can combine the representation with another parallel computation (see cha..."},{"id":"page_0174-b004","page_key":174,"order":4,"source":"deepseek+paddle","confidence":"medium","type":"heading","text":"## 10.5 Applications"},{"id":"page_0174-b005","page_key":174,"order":5,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"We conclude by describing three computer vision applications. We describe convolutional networks for image classification where the goal is to assign the image to one of a predetermined set of categories. Then we cons..."},{"id":"page_0174-b006","page_key":174,"order":6,"source":"deepseek+paddle","confidence":"medium","type":"heading","text":"## 10.5.1 Image classification"},{"id":"page_0174-b007","page_key":174,"order":7,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"Much of the pioneering work on deep learning in computer vision focused on image classification using the ImageNet dataset (figure 10.15). This contains 1,281,167 training images, 50,000 validation images, and 100,000..."},{"id":"page_0174-b008","page_key":174,"order":8,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"Most methods reshape the input images to a standard size; in a typical system, the input x to the network is a $224 \\times 224$ RGB image, and the output is a probability distribution over the 1000 classes. The task i..."},{"id":"page_0174-b009","page_key":174,"order":9,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"In 2012, AlexNet was the first convolutional network to perform well on this task. It consists of eight hidden layers with ReLU activation functions, of which the first five are convolutional and the rest fully connec..."}]
+[
+  {
+    "id": "page_0174-b001",
+    "page_key": 174,
+    "order": 1,
+    "type": "paragraph",
+    "text": "as inputs, and each input contributes to three of the outputs. When we consider the associated weight matrix of this upsampling mechanism (figure 10.13d), we see that it is the transpose of the matrix for the downsampling mechanism (figure 10.13b).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0174-b002",
+    "page_key": 174,
+    "order": 2,
+    "type": "heading",
+    "text": "## 10.4.3 Changing the number of channels",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0174-b003",
+    "page_key": 174,
+    "order": 3,
+    "type": "paragraph",
+    "text": "Sometimes we want to change the number of channels between one hidden layer and the next without further spatial pooling. This is usually so we can combine the representation with another parallel computation (see chapter 11). To accomplish this, we apply a convolution with kernel size one. Each element of the output layer is computed by taking a weighted sum of all the channels at the same position (figure 10.14). We can repeat this multiple times with different weights to generate as many output channels as we need. The associated convolution weights have size $1 \\times 1 \\times C_{i} \\times C_{o}$ . Hence, this is known as $I \\times l$ convolution. Combined with a bias and activation function, it is equivalent to running the same fully connected network on the input channels at every position.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0174-b004",
+    "page_key": 174,
+    "order": 4,
+    "type": "heading",
+    "text": "## 10.5 Applications",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0174-b005",
+    "page_key": 174,
+    "order": 5,
+    "type": "paragraph",
+    "text": "We conclude by describing three computer vision applications. We describe convolutional networks for image classification where the goal is to assign the image to one of a predetermined set of categories. Then we consider object detection, where the goal is to identify multiple objects in an image and find the bounding box around each. Finally, we describe an early system for semantic segmentation where the goal is to assign a label to each pixel according to which object is present.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0174-b006",
+    "page_key": 174,
+    "order": 6,
+    "type": "heading",
+    "text": "## 10.5.1 Image classification",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0174-b007",
+    "page_key": 174,
+    "order": 7,
+    "type": "paragraph",
+    "text": "Much of the pioneering work on deep learning in computer vision focused on image classification using the ImageNet dataset (figure 10.15). This contains 1,281,167 training images, 50,000 validation images, and 100,000 test images, and every image is labeled as belonging to one of 1000 possible categories.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0174-b008",
+    "page_key": 174,
+    "order": 8,
+    "type": "paragraph",
+    "text": "Most methods reshape the input images to a standard size; in a typical system, the input x to the network is a $224 \\times 224$ RGB image, and the output is a probability distribution over the 1000 classes. The task is challenging; there are a large number of classes, and they exhibit considerable variation (figure 10.15). In 2011, before deep networks were applied, the state-of-the-art method classified the test images with $\\sim$ 25% errors for the correct class being in the top five suggestions. Five years later, the best deep learning models eclipsed human performance.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0174-b009",
+    "page_key": 174,
+    "order": 9,
+    "type": "paragraph",
+    "text": "In 2012, AlexNet was the first convolutional network to perform well on this task. It consists of eight hidden layers with ReLU activation functions, of which the first five are convolutional and the rest fully connected (figure 10.16). The network starts by",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

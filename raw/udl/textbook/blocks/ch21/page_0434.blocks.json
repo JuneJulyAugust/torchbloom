@@ -4,73 +4,71 @@
     "page_key": 434,
     "order": 1,
     "type": "heading",
+    "text": "## 21.6.2 Diversity and heterogeneity",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "21.6.2 Diversity and heterogeneity"
+    "confidence": "medium"
   },
   {
     "id": "page_0434-b002",
     "page_key": 434,
     "order": 2,
     "type": "paragraph",
+    "text": "A second positive step is to encourage diversity. When social groups are homogeneous (composed mainly of similar members) or homophilous (comprising members that tend to associate with similar others), the dominant group tends to have its conventions recapitulated and stabilized (O'Connor & Bruner, 2019). One way to mitigate systems of oppression is to ensure that diverse views are considered. This might be achieved through equity, diversity, inclusion, and accessibility initiatives (at an institutional level), participatory and community-based approaches to research (at the research level), and increased awareness of social, political, and moral issues (at an individual level).",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "A second positive step is to encourage diversity. When social groups are homogeneous (composed mainly of similar members) or homophilous (comprising members that tend to associate with similar others), the dominant group tends to have its conventions recapitulated and stabilized (O'Connor & Bruner, 2019). One way to mitigate systems of oppression is to ensure that diverse views are considered. This might be achieved through equity, diversity, inclusion, and accessibility initiatives (at an institutional level), participatory and community-based approaches to research (at the research level), and increased awareness of social, political, and moral issues (at an individual level)."
+    "confidence": "medium"
   },
   {
     "id": "page_0434-b003",
     "page_key": 434,
     "order": 3,
     "type": "paragraph",
+    "text": "The theory of standpoint epistemology (Harding, 1986) suggests that knowledge is socially situated (i.e., depends on one\u2019s social position in society). Homogeneity in tech circles can give rise to biased tech (Noble, 2018; Eubanks, 2018; Benjamin, 2019; Broussard, 2023). Lack of diversity implies that the perspectives of the individuals who create these technologies will seep into the datasets, algorithms, and code as the default perspective. Broussard (2023) argues that because much technology is developed by able-bodied, white, cisgender, American men, that technology is optimized for able-bodied, white, cisgender, American men, the perspective of whom is taken as the status quo. Ensuring technologies benefit historically marginalized communities requires researchers to understand the needs, wants, and perspectives of those communities (Birhane et al., 2022a). Design justice and participatory- and community-based approaches to AI research contend that the communities affected by technologies should be actively involved in their design (Constanza-Chock, 2020).",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "The theory of standpoint epistemology (Harding, 1986) suggests that knowledge is socially situated (i.e., depends on one\u2019s social position in society). Homogeneity in tech circles can give rise to biased tech (Noble, 2018; Eubanks, 2018; Benjamin, 2019; Broussard, 2023). Lack of diversity implies that the perspectives of the individuals who create these technologies will seep into the datasets, algorithms, and code as the default perspective. Broussard (2023) argues that because much technology is developed by able-bodied, white, cisgender, American men, that technology is optimized for able-bodied, white, cisgender, American men, the perspective of whom is taken as the status quo. Ensuring technologies benefit historically marginalized communities requires researchers to understand the needs, wants, and perspectives of those communities (Birhane et al., 2022a). Design justice and participatory- and community-based approaches to AI research contend that the communities affected by technologies should be actively involved in their design (Constanza-Chock, 2020)."
+    "confidence": "medium"
   },
   {
     "id": "page_0434-b004",
     "page_key": 434,
     "order": 4,
     "type": "heading",
+    "text": "## 21.7 Ways forward",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "21.7 Ways forward"
+    "confidence": "medium"
   },
   {
     "id": "page_0434-b005",
     "page_key": 434,
     "order": 5,
     "type": "paragraph",
+    "text": "It is undeniable that AI will radically change society for better or worse. However, optimistic visions of a future Utopian society driven by AI should be met with caution and a healthy dose of critical reflection. Many of the touted benefits of AI are beneficial only in certain contexts and only to a subset of society. For example, Green (2019) highlights that one project developed using AI to enhance police accountability and alternatives to incarceration and another developed to increase security through predictive policing are both advertised as \u201cAI for Social Good.\u201d Assigning this label is a value judgment that lacks any grounding principles; one community\u2019s good is another\u2019s harm.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "It is undeniable that AI will radically change society for better or worse. However, optimistic visions of a future Utopian society driven by AI should be met with caution and a healthy dose of critical reflection. Many of the touted benefits of AI are beneficial only in certain contexts and only to a subset of society. For example, Green (2019) highlights that one project developed using AI to enhance police accountability and alternatives to incarceration and another developed to increase security through predictive policing are both advertised as \u201cAI for Social Good.\u201d Assigning this label is a value judgment that lacks any grounding principles; one community\u2019s good is another\u2019s harm."
+    "confidence": "medium"
   },
   {
     "id": "page_0434-b006",
     "page_key": 434,
     "order": 6,
     "type": "paragraph",
+    "text": "When considering the potential for emerging technologies to benefit society, it is necessary to reflect on whether those benefits will be equally or equitably distributed. It is often assumed that the most technologically advanced solution is the best one\u2014so-called technochauvinism (Broussard, 2018). However, many social issues arise from underlying social problems and do not warrant technological solutions.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "When considering the potential for emerging technologies to benefit society, it is necessary to reflect on whether those benefits will be equally or equitably distributed. It is often assumed that the most technologically advanced solution is the best one\u2014so-called technochauvinism (Broussard, 2018). However, many social issues arise from underlying social problems and do not warrant technological solutions."
+    "confidence": "medium"
   },
   {
     "id": "page_0434-b007",
     "page_key": 434,
     "order": 7,
     "type": "paragraph",
+    "text": "Some common themes emerged throughout this chapter, and we would like to impress four key points upon the reader:",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Some common themes emerged throughout this chapter, and we would like to impress four key points upon the reader:"
+    "confidence": "medium"
   },
   {
     "id": "page_0434-b008",
     "page_key": 434,
     "order": 8,
     "type": "list",
+    "text": "1. Research in machine learning cannot avoid ethics. Historically, researchers could focus on fundamental aspects of their work in a controlled laboratory set-",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "items": [
-      "Research in machine learning cannot avoid ethics. Historically, researchers could focus on fundamental aspects of their work in a controlled laboratory set-"
-    ]
+    "confidence": "medium"
   }
 ]

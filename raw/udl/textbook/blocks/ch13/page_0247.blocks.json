@@ -1,1 +1,21 @@
-[{"id":"page_0247-b001","page_key":247,"order":1,"type":"figure","source":"paddle","confidence":"high","image_path":"figures/page_0247_fig_1.jpg","alt_text":"Common tasks for graphs. In each case, the input is a graph represented by its adjacency matrix and node embed"},{"id":"page_0247-b002","page_key":247,"order":2,"type":"caption","source":"deepseek+paddle","confidence":"high","text":"Figure 13.6 Common tasks for graphs. In each case, the input is a graph represented by its adjacency matrix and node embeddings. The graph neural network processes the node embeddings by passing them through a series of layers. The node embeddings at the last "}]
+[
+  {
+    "id": "page_0247-b001",
+    "page_key": 247,
+    "order": 1,
+    "type": "figure",
+    "text": "",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0247_fig_1.jpg"
+  },
+  {
+    "id": "page_0247-b002",
+    "page_key": 247,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 13.6 Common tasks for graphs. In each case, the input is a graph represented by its adjacency matrix and node embeddings. The graph neural network processes the node embeddings by passing them through a series of layers. The node embeddings at the last layer contain information about both the node and its context in the graph. a) Graph classification. The node embeddings are combined (e.g., by taking the dot product) to compute a single number that is mapped via a sigmoid function to produce a probability that a missing edge should be present.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

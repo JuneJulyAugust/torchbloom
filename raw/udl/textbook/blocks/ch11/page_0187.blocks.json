@@ -1,1 +1,95 @@
-[{"id":"page_0187-b001","page_key":187,"order":1,"source":"deepseek+paddle","confidence":"medium","type":"figure","image_path":"figures/page_0187_fig_1.jpg"},{"id":"page_0187-b002","page_key":187,"order":2,"type":"caption","source":"deepseek+paddle","confidence":"medium","text":"Figure 11.1 Sequential processing. Standard neural networks pass the output of each layer directly into the next layer."},{"id":"page_0187-b003","page_key":187,"order":3,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"linear transformation. In a convolutional network, each layer consists of a set of convolutions followed by an activation function, and the parameters comprise the convolutional kernels and biases."},{"id":"page_0187-b004","page_key":187,"order":4,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"Since the processing is sequential, we can equivalently think of this network as a series of nested functions:"},{"id":"page_0187-b005","page_key":187,"order":5,"source":"deepseek+paddle","confidence":"medium","type":"equation","text":"\\mathbf{y}=\\mathbf{f}_{4}\\left[\\mathbf{f}_{3}\\Big[\\mathbf{f}_{2}\\big[\\mathbf{f}_{1}[\\mathbf{x},\\boldsymbol{\\phi}_{1}],\\boldsymbol{\\phi}_{2}\\big],\\boldsymbol{\\phi}_{3}\\Big],\\boldsymbol{\\phi}_{4}\\right]. \\quad (11.2)"},{"id":"page_0187-b006","page_key":187,"order":6,"source":"deepseek+paddle","confidence":"medium","type":"heading","text":"## 11.1.1 Limitations of sequential processing"},{"id":"page_0187-b007","page_key":187,"order":7,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"In principle, we can add as many layers as we want, and in the previous chapter, we saw that adding more layers to a convolutional network does improve performance; the VGG network (figure 10.17), which has nineteen l..."},{"id":"page_0187-b008","page_key":187,"order":8,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"This phenomenon is not completely understood. One conjecture is that right after initialization, the loss gradients change unpredictably when we modify parameters in early network layers. With appropriate initializati..."},{"id":"page_0187-b009","page_key":187,"order":9,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"This conjecture is supported by empirical observations of gradients in networks with a single input and output. For a shallow network, the gradient of the output with respect to the input changes slowly as we change t..."},{"id":"page_0187-b010","page_key":187,"order":10,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"Notebook B.2.1 Shattered gradients"}]
+[
+  {
+    "id": "page_0187-b001",
+    "page_key": 187,
+    "order": 1,
+    "type": "figure",
+    "text": "",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0187_fig_1.jpg"
+  },
+  {
+    "id": "page_0187-b002",
+    "page_key": 187,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 11.1 Sequential processing. Standard neural networks pass the output of each layer directly into the next layer.",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "caption": "Figure 11.1 Sequential processing. Standard neural networks pass the output of each layer directly into the next layer."
+  },
+  {
+    "id": "page_0187-b003",
+    "page_key": 187,
+    "order": 3,
+    "type": "paragraph",
+    "text": "linear transformation. In a convolutional network, each layer consists of a set of convolutions followed by an activation function, and the parameters comprise the convolutional kernels and biases.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0187-b004",
+    "page_key": 187,
+    "order": 4,
+    "type": "paragraph",
+    "text": "Since the processing is sequential, we can equivalently think of this network as a series of nested functions:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0187-b005",
+    "page_key": 187,
+    "order": 5,
+    "type": "equation",
+    "text": "$$\n\\mathbf{y}=\\mathbf{f}_4\\left[\\mathbf{f}_3\\left[\\mathbf{f}_2\\left[\\mathbf{f}_1[\\mathbf{x},\\boldsymbol{\\phi}_1],\\boldsymbol{\\phi}_2\\right],\\boldsymbol{\\phi}_3\\right],\\boldsymbol{\\phi}_4\\right]\\qquad (11.2)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium",
+    "latex": "\\mathbf{y}=\\mathbf{f}_4\\left[\\mathbf{f}_3\\left[\\mathbf{f}_2\\left[\\mathbf{f}_1[\\mathbf{x},\\boldsymbol{\\phi}_1],\\boldsymbol{\\phi}_2\\right],\\boldsymbol{\\phi}_3\\right],\\boldsymbol{\\phi}_4\\right]\\qquad (11.2)"
+  },
+  {
+    "id": "page_0187-b006",
+    "page_key": 187,
+    "order": 6,
+    "type": "heading",
+    "text": "## 11.1.1 Limitations of sequential processing",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0187-b007",
+    "page_key": 187,
+    "order": 7,
+    "type": "paragraph",
+    "text": "In principle, we can add as many layers as we want, and in the previous chapter, we saw that adding more layers to a convolutional network does improve performance; the VGG network (figure 10.17), which has nineteen layers, outperforms AlexNet (figure 10.16), which has eight layers. However, image classification performance decreases again as further layers are added (figure 11.2). This is surprising since models generally perform better as more capacity is added (figure 8.10). Indeed, the decrease is present for both the training set and the test set, which implies that the problem is training deeper networks rather than the inability of deeper networks to generalize.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0187-b008",
+    "page_key": 187,
+    "order": 8,
+    "type": "paragraph",
+    "text": "This phenomenon is not completely understood. One conjecture is that right after initialization, the loss gradients change unpredictably when we modify parameters in early network layers. With appropriate initialization of the weights (see section 7.5), the gradient of the loss with respect to these parameters will be reasonable (i.e., no exploding or vanishing gradients). However, the derivative assumes an infinitesimal change in the parameter, whereas optimization algorithms use a finite step size. Any reasonable choice of step size may move to a place with a completely different and unrelated gradient; the loss surface looks like an enormous range of tiny mountains rather than a single smooth structure that is easy to descend. Consequently, the algorithm doesn’t make progress in",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0187-b009",
+    "page_key": 187,
+    "order": 9,
+    "type": "paragraph",
+    "text": "This conjecture is supported by empirical observations of gradients in networks with a single input and output. For a shallow network, the gradient of the output with respect to the input changes slowly as we change the input (figure 11.3a). However, for a deep network, a tiny change in the input results in a completely different gradient (figure 11.3b). This is captured by the autocorrelation function of the gradient (fig-ure 11.3c). Nearby gradients are correlated for shallow networks, but this correlation quickly drops to zero for deep networks. This is termed the shattered gradients phenomenon.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0187-b010",
+    "page_key": 187,
+    "order": 10,
+    "type": "paragraph",
+    "text": "Notebook B.2.1\nShattered gradients",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

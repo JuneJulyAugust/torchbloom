@@ -4,54 +4,54 @@
     "page_key": 417,
     "order": 1,
     "type": "figure",
+    "text": "Figure 20.16 Knowledge distillation (../../figures/page_0417_fig_1.jpg)",
     "source": "paddle",
     "confidence": "high",
-    "image_path": "figures/page_0417_fig_1.jpg",
-    "alt_text": "Figure 20.16 Knowledge distillation. a) A teacher network for image classification is trained as usual, using a multiclass cross-entropy classification loss. b) A smaller student network is trained with the same loss, plus also a distillation loss that encourages the pre-softmax activations to be the same as for the teacher."
+    "image_path": "figures/page_0417_fig_1.jpg"
   },
   {
     "id": "page_0417-b002",
     "page_key": 417,
     "order": 2,
     "type": "caption",
+    "text": "Figure 20.16 Knowledge distillation. a) A teacher network for image classification is trained as usual, using a multiclass cross-entropy classification loss. b) A smaller student network is trained with the same loss, plus also a distillation loss that encourages the pre-softmax activations to be the same as for the teacher.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Figure 20.16 Knowledge distillation. a) A teacher network for image classification is trained as usual, using a multiclass cross-entropy classification loss. b) A smaller student network is trained with the same loss, plus also a distillation loss that encourages the pre-softmax activations to be the same as for the teacher."
+    "confidence": "high"
   },
   {
     "id": "page_0417-b003",
     "page_key": 417,
     "order": 3,
     "type": "paragraph",
+    "text": "Zagoruyko & Komodakis (2017) further encouraged the spatial maps of the activations of the student network to be similar to the teacher network at various points. They use this attention transfer method to approximate the performance of a 34-layer residual network ( $\\sim$ 63 million parameters) with an 18-layer residual network ( $\\sim$ 11 million parameters) on the ImageNet classification task. However, this is still larger than the number of training examples ( $\\sim$ 1 million images). Modern methods (e.g. Chen et al., 2021a) can improve on this result, but distillation has not yet provided convincing evidence that under-parameterized models can perform well.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Zagoruyko & Komodakis (2017) further encouraged the spatial maps of the activations of the student network to be similar to the teacher network at various points. They use this attention transfer method to approximate the performance of a 34-layer residual network ( $\\sim$ 63 million parameters) with an 18-layer residual network ( $\\sim$ 11 million parameters) on the ImageNet classification task. However, this is still larger than the number of training examples ( $\\sim$ 1 million images). Modern methods (e.g. Chen et al., 2021a) can improve on this result, but distillation has not yet provided convincing evidence that under-parameterized models can perform well."
+    "confidence": "medium"
   },
   {
     "id": "page_0417-b004",
     "page_key": 417,
     "order": 4,
     "type": "heading",
+    "text": "## 20.5.3 Discussion",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "20.5.3 Discussion"
+    "confidence": "medium"
   },
   {
     "id": "page_0417-b005",
     "page_key": 417,
     "order": 5,
     "type": "paragraph",
+    "text": "Current evidence suggests that overparameterization is needed for generalization \u2014 at least for the size and complexity of datasets that are currently used. There are no demonstrations of state-of-the-art performance on complex datasets where there are significantly fewer parameters than training examples. Attempts to reduce model size by pruning or distilling trained networks have not changed this picture.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Current evidence suggests that overparameterization is needed for generalization \u2014 at least for the size and complexity of datasets that are currently used. There are no demonstrations of state-of-the-art performance on complex datasets where there are significantly fewer parameters than training examples. Attempts to reduce model size by pruning or distilling trained networks have not changed this picture."
+    "confidence": "medium"
   },
   {
     "id": "page_0417-b006",
     "page_key": 417,
     "order": 6,
     "type": "paragraph",
+    "text": "Moreover, recent theory shows that there is a trade-off between the model\u2019s Lipschitz constant and overparameterization; Bubeck & Sellke (2021) proved that in D dimensions,",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Moreover, recent theory shows that there is a trade-off between the model\u2019s Lipschitz constant and overparameterization; Bubeck & Sellke (2021) proved that in D dimensions,"
+    "confidence": "medium"
   }
 ]

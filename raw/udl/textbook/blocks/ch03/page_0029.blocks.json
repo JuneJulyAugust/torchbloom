@@ -71,14 +71,5 @@
     "source": "paddle",
     "confidence": "high",
     "text": "With enough hidden units, a shallow network can approximate any continuous 1D function on a compact subset of the real line."
-  },
-  {
-    "id": "page_0029-b009",
-    "page_key": 29,
-    "order": 9,
-    "type": "review_note",
-    "source": "codex-fusion",
-    "confidence": "medium",
-    "text": "Continuation follows Paddle/page image where DeepSeek duplicated text."
   }
 ]

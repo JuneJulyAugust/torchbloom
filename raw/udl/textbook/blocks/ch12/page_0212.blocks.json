@@ -3,9 +3,10 @@
     "id": "page_0212-b001",
     "page_key": 212,
     "order": 1,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
     "type": "figure",
+    "text": "",
+    "source": "deepseek+paddle",
+    "confidence": "high",
     "image_path": "figures/page_0212_fig_1.jpg"
   },
   {
@@ -13,62 +14,65 @@
     "page_key": 212,
     "order": 2,
     "type": "caption",
+    "text": "Figure 12.4 Self-attention in matrix form. Self-attention can be implemented efficiently if we store the N input vectors $x_{n}$ in the columns of the D×N matrix X. The input X is operated on separately by the query matrix Q, key matrix K, and value matrix V. The dot products are then computed using matrix multiplication, and a softmax operation is applied independently to each column of the resulting matrix to calculate the attentions. Finally, the values are post-multiplied by the attentions to create an output of the same size as the input.",
     "source": "deepseek+paddle",
-    "confidence": "medium",
-    "text": "Figure 12.4 Self-attention in matrix form. Self-attention can be implemented efficiently if we store the N input vectors $x_{n}$ in the columns of the D×N matrix X. The input X is operated on separately by the query m..."
+    "confidence": "high",
+    "caption": "Figure 12.4 Self-attention in matrix form. Self-attention can be implemented efficiently if we store the N input vectors $x_{n}$ in the columns of the D×N matrix X. The input X is operated on separately by the query matrix Q, key matrix K, and value matrix V. The dot products are then computed using matrix multiplication, and a softmax operation is applied independently to each column of the resulting matrix to calculate the attentions. Finally, the values are post-multiplied by the attentions to create an output of the same size as the input."
   },
   {
     "id": "page_0212-b003",
     "page_key": 212,
     "order": 3,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
     "type": "paragraph",
-    "text": "number of inputs N, so the network can be applied to different sequence lengths. Second, there are connections between the inputs (words), and the strength of these connections depends on the inputs themselves via the..."
+    "text": "number of inputs N, so the network can be applied to different sequence lengths. Second, there are connections between the inputs (words), and the strength of these connections depends on the inputs themselves via the attention weights.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
   },
   {
     "id": "page_0212-b004",
     "page_key": 212,
     "order": 4,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
     "type": "heading",
-    "text": "## 12.2.4 Matrix form"
+    "text": "## 12.2.4 Matrix form",
+    "source": "deepseek+paddle",
+    "confidence": "high"
   },
   {
     "id": "page_0212-b005",
     "page_key": 212,
     "order": 5,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
     "type": "paragraph",
-    "text": "The above computation can be written in a compact form if the N inputs $x_{n}$ form the columns of the $D \\times N$ matrix X. The values, queries, and keys can be computed as:"
+    "text": "The above computation can be written in a compact form if the N inputs $x_{n}$ form the columns of the $D \\times N$ matrix X. The values, queries, and keys can be computed as:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
   },
   {
     "id": "page_0212-b006",
     "page_key": 212,
     "order": 6,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
     "type": "equation",
-    "text": "\\begin{aligned}\\mathbf{V}[\\mathbf{X}]&=\\beta_{v}\\mathbf{1}^{\\mathrm{T}}+\\Omega_{v}\\mathbf{X}\\\\ \\mathbf{Q}[\\mathbf{X}]&=\\beta_{q}\\mathbf{1}^{\\mathrm{T}}+\\Omega_{q}\\mathbf{X}\\\\ \\mathbf{K}[\\mathbf{X}]&=\\beta_{k}\\mathbf{1}^{\\mathrm{T}}+\\Omega_{k}\\mathbf{X},\\end{aligned} \\quad (12.6)"
+    "text": "$$\n\\begin{aligned}\n\\mathbf{V}[\\mathbf{X}] &= \\boldsymbol{\\beta}_v\\mathbf{1}^{T}+\\boldsymbol{\\Omega}_v\\mathbf{X} \\\\\n\\mathbf{Q}[\\mathbf{X}] &= \\boldsymbol{\\beta}_q\\mathbf{1}^{T}+\\boldsymbol{\\Omega}_q\\mathbf{X} \\\\\n\\mathbf{K}[\\mathbf{X}] &= \\boldsymbol{\\beta}_k\\mathbf{1}^{T}+\\boldsymbol{\\Omega}_k\\mathbf{X}\n\\end{aligned}\\qquad (12.6)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium",
+    "latex": "\\begin{aligned}\n\\mathbf{V}[\\mathbf{X}] &= \\boldsymbol{\\beta}_v\\mathbf{1}^{T}+\\boldsymbol{\\Omega}_v\\mathbf{X} \\\\\n\\mathbf{Q}[\\mathbf{X}] &= \\boldsymbol{\\beta}_q\\mathbf{1}^{T}+\\boldsymbol{\\Omega}_q\\mathbf{X} \\\\\n\\mathbf{K}[\\mathbf{X}] &= \\boldsymbol{\\beta}_k\\mathbf{1}^{T}+\\boldsymbol{\\Omega}_k\\mathbf{X}\n\\end{aligned}\\qquad (12.6)"
   },
   {
     "id": "page_0212-b007",
     "page_key": 212,
     "order": 7,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
     "type": "paragraph",
-    "text": "where 1 is an $N \\times 1$ vector containing ones. The self-attention computation is then:"
+    "text": "where 1 is an $N \\times 1$ vector containing ones. The self-attention computation is then:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
   },
   {
     "id": "page_0212-b008",
     "page_key": 212,
     "order": 8,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
     "type": "equation",
-    "text": "\\mathbf{S a}[\\mathbf{X}]=\\mathbf{V}[\\mathbf{X}]\\cdot\\mathbf{S o f t m a x}\\Big[\\mathbf{K}[\\mathbf{X}]^{T}\\mathbf{Q}[\\mathbf{X}]\\Big], \\quad (12.7)"
+    "text": "$$\n\\mathbf{Sa}[\\mathbf{X}]=\\mathbf{V}[\\mathbf{X}]\\cdot\\mathrm{softmax}\\left[\\mathbf{K}[\\mathbf{X}]^{T}\\mathbf{Q}[\\mathbf{X}]\\right]\\qquad (12.7)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium",
+    "latex": "\\mathbf{Sa}[\\mathbf{X}]=\\mathbf{V}[\\mathbf{X}]\\cdot\\mathrm{softmax}\\left[\\mathbf{K}[\\mathbf{X}]^{T}\\mathbf{Q}[\\mathbf{X}]\\right]\\qquad (12.7)"
   }
 ]

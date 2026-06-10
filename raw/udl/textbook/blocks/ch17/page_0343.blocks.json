@@ -1,1 +1,75 @@
-[{"id":"page_0343-b001","page_key":343,"order":1,"type":"figure","source":"paddle","confidence":"high","image_path":"figures/page_0343_fig_1.jpg","alt_text":"Figure 17.13 Resynthesis."},{"id":"page_0343-b002","page_key":343,"order":2,"type":"caption","source":"deepseek+paddle","confidence":"high","text":"Figure 17.13 Resynthesis. The original image on the left is projected into the latent space using the encoder, and the mean of the predicted Gaussian is chosen to represent the image. The center-left image in the grid is the reconstruction of the input. The other images are reconstructions after manipulating the latent space in directions representing smiling/neutral (horizontal) and mouth open/closed (vertical). Adapted from White (2016)."},{"id":"page_0343-b003","page_key":343,"order":3,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"Here the regularization term $r_{1}[\\bullet]$ is a function of the posterior and is weighted by $\\lambda_{1}$ . The term $r_{2}[{\\bullet}]$ is a function of the aggregated posterior and is weighted by $\\lambda_{2}$ ."},{"id":"page_0343-b004","page_key":343,"order":4,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"For example, the beta VAE upweights the second term in the ELBO (equation 17.18):"},{"id":"page_0343-b005","page_key":343,"order":5,"type":"equation","source":"deepseek","confidence":"high","text":"\\mathrm{ELBO}[\\boldsymbol{\\theta},\\phi]\\quad\\approx\\quad\\log\\left[Pr(\\mathbf{x}|\\mathbf{z}^{*},\\boldsymbol{\\phi})\\right]-\\beta\\cdot\\mathrm{D}_{KL}\\left[q(\\mathbf{z}|\\mathbf{x},\\boldsymbol{\\theta})\\middle|Pr(\\mathbf{z})\\right], \\quad (17.30)"},{"id":"page_0343-b006","page_key":343,"order":6,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"where $\\beta > 1$ determines how much more the deviation from the prior $Pr(\\mathbf{z})$ is weighted relative to the reconstruction error. Since the prior is usually a multivariate normal with a spherical covariance matrix, its dimensions are independent. Hence, up-weighting this term encourages the posterior distributions to be less correlated. Another variant is the total correlation VAE, which adds a term to decrease the total correlation between variables in the latent space (figure 17.14) and maximizes the mutual information between a small subset of the latent variables and the observations."},{"id":"page_0343-b007","page_key":343,"order":7,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"17.9 Summary"},{"id":"page_0343-b008","page_key":343,"order":8,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"The VAE is an architecture that helps to learn a nonlinear latent variable model over x. This model can generate new examples by sampling from the latent variable, passing the result through a deep network, and then adding independent Gaussian noise."}]
+[
+  {
+    "id": "page_0343-b001",
+    "page_key": 343,
+    "order": 1,
+    "type": "figure",
+    "text": "../../figures/page_0343_fig_1.jpg",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "image_path": "figures/page_0343_fig_1.jpg"
+  },
+  {
+    "id": "page_0343-b002",
+    "page_key": 343,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 17.13 Resynthesis. The original image on the left is projected into the latent space using the encoder, and the mean of the predicted Gaussian is chosen to represent the image. The center-left image in the grid is the reconstruction of the input. The other images are reconstructions after manipulating the latent space in directions representing smiling/neutral (horizontal) and mouth open/closed (vertical). Adapted from White (2016).",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0343-b003",
+    "page_key": 343,
+    "order": 3,
+    "type": "paragraph",
+    "text": "Here the regularization term $r_{1}[\\bullet]$ is a function of the posterior and is weighted by $\\lambda_{1}$ . The term $r_{2}[{\\bullet}]$ is a function of the aggregated posterior and is weighted by $\\lambda_{2}$ .",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0343-b004",
+    "page_key": 343,
+    "order": 4,
+    "type": "paragraph",
+    "text": "For example, the beta VAE upweights the second term in the ELBO (equation 17.18):",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0343-b005",
+    "page_key": 343,
+    "order": 5,
+    "type": "equation",
+    "text": "$$\n\\mathrm{ELBO}[\\boldsymbol{\\theta},\\phi]\\quad\\approx\\quad\\log\\left[\\Pr(\\mathbf{x}|\\mathbf{z}^{*},\\boldsymbol{\\phi})\\right]-\\beta\\cdot\\mathrm{D}_{KL}\\left[q(\\mathbf{z}|\\mathbf{x},\\boldsymbol{\\theta})\\middle|\\Pr(\\mathbf{z})\\right]\n\\qquad (17.30)\n$$",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0343-b006",
+    "page_key": 343,
+    "order": 6,
+    "type": "paragraph",
+    "text": "where $\\beta > 1$ determines how much more the deviation from the prior $\\Pr(\\mathbf{z})$ is weighted relative to the reconstruction error. Since the prior is usually a multivariate normal with a spherical covariance matrix, its dimensions are independent. Hence, up-weighting this term encourages the posterior distributions to be less correlated. Another variant is the total correlation VAE, which adds a term to decrease the total correlation between variables in the latent space (figure 17.14) and maximizes the mutual information between a small subset of the latent variables and the observations.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0343-b007",
+    "page_key": 343,
+    "order": 7,
+    "type": "heading",
+    "text": "17.9 Summary",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0343-b008",
+    "page_key": 343,
+    "order": 8,
+    "type": "paragraph",
+    "text": "The VAE is an architecture that helps to learn a nonlinear latent variable model over x. This model can generate new examples by sampling from the latent variable, passing the result through a deep network, and then adding independent Gaussian noise.",
+    "source": "deepseek",
+    "confidence": "medium"
+  }
+]

@@ -6,15 +6,15 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\begin{align*}\\phi[\\alpha]\\quad&\\approx\\quad\\phi+\\alpha\\frac{d\\phi}{dt}+\\frac{\\alpha^{2}}{2}\\frac{d^{2}\\phi}{dt^{2}}\\bigg|_{\\phi=\\phi_{0}}\\\\&\\approx\\quad\\phi+\\alpha(g[\\phi]+\\alpha g_{1}[\\phi])+\\frac{\\alpha^{2}}{2}\\left(\\frac{\\partial g[\\phi]}{\\partial\\phi}g[\\phi]+\\alpha\\frac{\\partial g_{1}[\\phi]}{\\partial\\phi}\\frac{d\\phi}{dt}\\right)\\bigg|_{\\phi=\\phi_{0}}\\\\&=\\quad\\phi+\\alpha(g[\\phi]+\\alpha g_{1}[\\phi])+\\frac{\\alpha^{2}}{2}\\left(g_{1}[\\phi]+\\frac{1}{2}\\frac{\\partial g[\\phi]}{\\partial\\phi}g[\\phi]\\right)\\bigg|_{\\phi=\\phi_{0}},\\end{align*}\n\\end{aligned} \\quad (9.17)"
+    "latex": "\\begin{aligned}\n\\phi[\\alpha]\\quad&\\approx\\quad\\phi+\\alpha\\frac{d\\phi}{dt}+\\frac{\\alpha^{2}}{2}\\frac{d^{2}\\phi}{dt^{2}}\\bigg|_{\\phi=\\phi_{0}} \\\\\n&\\approx\\quad\\phi+\\alpha(g[\\phi]+\\alpha g_{1}[\\phi])+\\frac{\\alpha^{2}}{2}\\left(\\frac{\\partial g[\\phi]}{\\partial\\phi}g[\\phi]+\\alpha\\frac{\\partial g_{1}[\\phi]}{\\partial\\phi}\\frac{d\\phi}{dt}\\right)\\bigg|_{\\phi=\\phi_{0}} \\\\\n&=\\quad\\phi+\\alpha(g[\\phi]+\\alpha g_{1}[\\phi])+\\frac{\\alpha^{2}}{2}\\left(g_{1}[\\phi]+\\frac{1}{2}\\frac{\\partial g[\\phi]}{\\partial\\phi}g[\\phi]\\right)\\bigg|_{\\phi=\\phi_{0}},\n\\end{aligned} \\qquad (9.17)"
   },
   {
     "id": "page_0157-b002",
     "page_key": 157,
     "order": 2,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "where in the second line, we have introduced the correction term (equation 9.16), and in the final line, we have removed terms of greater order than $\\alpha^{2}$."
   },
   {
@@ -22,8 +22,8 @@
     "page_key": 157,
     "order": 3,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "Note that the first two terms on the right-hand side $\\phi_{0} + \\alpha g[\\phi_{0}]$ are the same as the discrete update (equation 9.14). Hence, to make the continuous and discrete versions arrive at the same place, the third term on the right-hand side must equal zero, allowing us to solve for $g_{1}[\\phi]$:"
   },
   {
@@ -33,15 +33,15 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\mathbf{g}_{1}[\\phi]=-\\frac{1}{2}\\frac{\\partial\\mathbf{g}[\\phi]}{\\partial\\phi}\\mathbf{g}[\\phi].\n\\end{aligned} \\quad (9.18)"
+    "latex": "\\mathbf{g}_{1}[\\phi]=-\\frac{1}{2}\\frac{\\partial\\mathbf{g}[\\phi]}{\\partial\\phi}\\mathbf{g}[\\phi]. \\qquad (9.18)"
   },
   {
     "id": "page_0157-b005",
     "page_key": 157,
     "order": 5,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "During training, the evolution function $\\mathbf{g}[\\phi]$ is the negative of the gradient of the loss:"
   },
   {
@@ -51,15 +51,15 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\\frac{d\\phi}{dt}&\\approx\\mathbf{g}[\\phi]+\\alpha\\mathbf{g}_{1}[\\phi]\\\\&=-\\frac{\\partial L}{\\partial\\phi}-\\frac{\\alpha}{2}\\left(\\frac{\\partial^{2}L}{\\partial\\phi^{2}}\\right)\\frac{\\partial L}{\\partial\\phi}.\\\\ \\end{aligned} \\quad (9.19)"
+    "latex": "\\begin{aligned}\n\\frac{d\\phi}{dt}&\\approx\\mathbf{g}[\\phi]+\\alpha\\mathbf{g}_{1}[\\phi] \\\\\n&=-\\frac{\\partial L}{\\partial\\phi}-\\frac{\\alpha}{2}\\left(\\frac{\\partial^{2}L}{\\partial\\phi^{2}}\\right)\\frac{\\partial L}{\\partial\\phi}. \\\\\n\\end{aligned} \\qquad (9.19)"
   },
   {
     "id": "page_0157-b007",
     "page_key": 157,
     "order": 7,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "This is equivalent to performing continuous gradient descent on the loss function:"
   },
   {
@@ -69,15 +69,15 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\nL_{G D}[\\phi]=L[\\phi]+\\frac{\\alpha}{4}\\left\\|\\frac{\\partial L}{\\partial\\phi}\\right\\|^{2},\n\\end{aligned} \\quad (9.20)"
+    "latex": "L_{G D}[\\phi]=L[\\phi]+\\frac{\\alpha}{4}\\left\\|\\frac{\\partial L}{\\partial\\phi}\\right\\|^{2}, \\qquad (9.20)"
   },
   {
     "id": "page_0157-b009",
     "page_key": 157,
     "order": 9,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "because the right-hand side of equation 9.19 is the derivative of that in equation 9.20."
   },
   {
@@ -85,8 +85,8 @@
     "page_key": 157,
     "order": 10,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "This formulation of implicit regularization was developed by Barrett & Dherin (2021) and extended to stochastic gradient descent by Smith et al. (2021). Smith et al. (2020) and others have shown that stochastic gradient descent with small or moderate batch sizes outperforms full batch gradient descent on the test set, and this may in part be due to implicit regularization."
   },
   {
@@ -94,17 +94,17 @@
     "page_key": 157,
     "order": 11,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
-    "text": "Relatedly, Jastrzębski et al. (2021) and Cohen et al. (2021) both show that using a large learning rate reduces the tendency of typical optimization trajectories to move to “sharper” parts of the loss function (i.e., where at least one direction has high curvature). This implicit regularization effect of large learning rates can be approximated by penalizing the gradient norm in equation 9.20 (Jastrzębski et al., 2021)."
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Relatedly, Jastrz\u0119bski et al. (2021) and Cohen et al. (2021) both show that using a large learning rate reduces the tendency of typical optimization trajectories to move to \"sharper\" parts of the loss function (i.e., where at least one direction has high curvature). This implicit regularization effect of large learning rates can be approximated by penalizing the gradient norm in equation 9.20 (Jastrz\u0119bski et al., 2021)."
   },
   {
     "id": "page_0157-b012",
     "page_key": 157,
     "order": 12,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
-    "text": "Early stopping: Bishop (1995) and Sjöberg & Ljung (1995) argued that early stopping limits the effective solution space that the training procedure can explore; given that the weights are initialized to small values, this leads to the idea that early stopping helps prevent the weights from getting too large. Goodfellow et al. (2016) show that under a quadratic approximation of the loss function with parameters initialized to zero, early stopping is equivalent to L2 regularization in gradient descent. The effective regularization weight $\\lambda$ is approximately $1/(\\tau\\alpha)$ where $\\alpha$ is the learning rate, and $\\tau$ is the early stopping time."
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Early stopping: Bishop (1995) and Sj\u00f6berg & Ljung (1995) argued that early stopping limits the effective solution space that the training procedure can explore; given that the weights are initialized to small values, this leads to the idea that early stopping helps prevent the weights from getting too large. Goodfellow et al. (2016) show that under a quadratic approximation of the loss function with parameters initialized to zero, early stopping is equivalent to L2 regularization in gradient descent. The effective regularization weight $\\lambda$ is approximately $1/(\\tau\\alpha)$ where $\\alpha$ is the learning rate, and $\\tau$ is the early stopping time."
   }
 ]

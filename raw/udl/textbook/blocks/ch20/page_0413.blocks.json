@@ -4,80 +4,80 @@
     "page_key": 413,
     "order": 1,
     "type": "paragraph",
+    "text": "that large gradient variance during training helps avoid sharp regions. This may explain why reducing the batch size and adding noise helps generalization.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "that large gradient variance during training helps avoid sharp regions. This may explain why reducing the batch size and adding noise helps generalization."
+    "confidence": "medium"
   },
   {
     "id": "page_0413-b002",
     "page_key": 413,
     "order": 2,
     "type": "paragraph",
+    "text": "The above studies consider flatness for a single model and training set. However, sharpness alone is not a good criterion to predict generalization between datasets; when the labels in the CIFAR dataset are randomized (making generalization impossible), there is no commensurate sharpening of the minimum (Neyshabur et al., 2017).",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "The above studies consider flatness for a single model and training set. However, sharpness alone is not a good criterion to predict generalization between datasets; when the labels in the CIFAR dataset are randomized (making generalization impossible), there is no commensurate sharpening of the minimum (Neyshabur et al., 2017)."
+    "confidence": "medium"
   },
   {
     "id": "page_0413-b003",
     "page_key": 413,
     "order": 3,
     "type": "heading",
+    "text": "## 20.4.3 Architecture",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "20.4.3 Architecture"
+    "confidence": "medium"
   },
   {
     "id": "page_0413-b004",
     "page_key": 413,
     "order": 4,
     "type": "paragraph",
+    "text": "The inductive bias of a network is determined by its architecture, and judicious choices of model can drastically improve generalization. Chapter 10 introduced convolutional networks, which are designed to process data on regular grids; they implicitly assume that the input statistics are the same across the input, so they share parameters across position. Similarly, transformers are suited for modeling data that is invariant to permutations, and graph neural networks are suited to data represented on irregular graphs. Matching the architecture to the properties of the data improves generalization over generic, fully connected architectures (see figure 10.8).",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "The inductive bias of a network is determined by its architecture, and judicious choices of model can drastically improve generalization. Chapter 10 introduced convolutional networks, which are designed to process data on regular grids; they implicitly assume that the input statistics are the same across the input, so they share parameters across position. Similarly, transformers are suited for modeling data that is invariant to permutations, and graph neural networks are suited to data represented on irregular graphs. Matching the architecture to the properties of the data improves generalization over generic, fully connected architectures (see figure 10.8)."
+    "confidence": "medium"
   },
   {
     "id": "page_0413-b005",
     "page_key": 413,
     "order": 5,
     "type": "heading",
+    "text": "## 20.4.4 Norm of weights",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "20.4.4 Norm of weights"
+    "confidence": "medium"
   },
   {
     "id": "page_0413-b006",
     "page_key": 413,
     "order": 6,
     "type": "paragraph",
+    "text": "Section 20.3.4 reviewed the finding of Fort & Scherlis (2019) that the curvature of the loss surface is unusually positive when the $\\ell_{2}$ norm of the weights lies within a certain range. The same authors provided evidence that generalization is also good when the $\\ell_{2}$ weight norm falls within this Goldilocks zone (figure 20.12). This is perhaps unsurprising. The norm of the weights is (indirectly) related to the Lipschitz constant of the model. If this norm is too small, then the model will not be able to change fast enough to capture the variation in the underlying function. If the norm is too large, then the model will be unnecessarily variable between training points and will not interpolate smoothly.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Section 20.3.4 reviewed the finding of Fort & Scherlis (2019) that the curvature of the loss surface is unusually positive when the $\\ell_{2}$ norm of the weights lies within a certain range. The same authors provided evidence that generalization is also good when the $\\ell_{2}$ weight norm falls within this Goldilocks zone (figure 20.12). This is perhaps unsurprising. The norm of the weights is (indirectly) related to the Lipschitz constant of the model. If this norm is too small, then the model will not be able to change fast enough to capture the variation in the underlying function. If the norm is too large, then the model will be unnecessarily variable between training points and will not interpolate smoothly."
+    "confidence": "medium"
   },
   {
     "id": "page_0413-b007",
     "page_key": 413,
     "order": 7,
     "type": "paragraph",
+    "text": "This finding was used by Liu et al. (2023c) to explain the phenomenon of grokking (Power et al., 2022), in which a sudden improvement in generalization can occur many epochs after the training error is already zero (figure 20.13). It is proposed that grokking occurs when the norm of the weights is initially too large; the training data fits well, but the variation of the model between the data points is large. Over time, implicit or explicit regularization decreases the norm of the weights until they reach the Goldilocks zone, and generalization suddenly improves.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "This finding was used by Liu et al. (2023c) to explain the phenomenon of grokking (Power et al., 2022), in which a sudden improvement in generalization can occur many epochs after the training error is already zero (figure 20.13). It is proposed that grokking occurs when the norm of the weights is initially too large; the training data fits well, but the variation of the model between the data points is large. Over time, implicit or explicit regularization decreases the norm of the weights until they reach the Goldilocks zone, and generalization suddenly improves."
+    "confidence": "medium"
   },
   {
     "id": "page_0413-b008",
     "page_key": 413,
     "order": 8,
     "type": "heading",
+    "text": "## 20.4.5 Overparameterization",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "20.4.5 Overparameterization"
+    "confidence": "medium"
   },
   {
     "id": "page_0413-b009",
     "page_key": 413,
     "order": 9,
     "type": "paragraph",
+    "text": "Figure 8.10 showed that generalization performance tends to improve with the degree of overparameterization. When combined with the bias/variance trade-off curve, this results in double descent. The putative explanation for this improvement is that the network has more latitude to become smoother between the training data points when",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Figure 8.10 showed that generalization performance tends to improve with the degree of overparameterization. When combined with the bias/variance trade-off curve, this results in double descent. The putative explanation for this improvement is that the network has more latitude to become smoother between the training data points when"
+    "confidence": "medium"
   }
 ]

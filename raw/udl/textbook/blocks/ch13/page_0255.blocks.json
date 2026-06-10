@@ -1,1 +1,21 @@
-[{"id":"page_0255-b001","page_key":255,"order":1,"type":"figure","source":"paddle","confidence":"high","image_path":"figures/page_0255_fig_1.jpg","alt_text":"Neighborhood sampling. a) One way of forming batches on large graphs is to choose a subset of labeled nodes in"},{"id":"page_0255-b002","page_key":255,"order":2,"type":"caption","source":"deepseek+paddle","confidence":"high","text":"Figure 13.10 Neighborhood sampling. a) One way of forming batches on large graphs is to choose a subset of labeled nodes in the output layer (here, just one node in layer two, right) and then working back to find all of the nodes in the K-hop neighborhood (rec"},{"id":"page_0255-b003","page_key":255,"order":3,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Draft: please send errata to udlbookmail@gmail.com."}]
+[
+  {
+    "id": "page_0255-b001",
+    "page_key": 255,
+    "order": 1,
+    "type": "figure",
+    "text": "",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0255_fig_1.jpg"
+  },
+  {
+    "id": "page_0255-b002",
+    "page_key": 255,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 13.10 Neighborhood sampling. a) One way of forming batches on large graphs is to choose a subset of labeled nodes in the output layer (here, just one node in layer two, right) and then working back to find all of the nodes in the K-hop neighborhood (receptive field). Only this sub-graph is needed to train this batch. Unfortunately, if the graph is densely connected, this may retain a large proportion of the graph. b) One solution is neighborhood sampling. As we work back from the final layer, we select a subset of neighbors (here, three) in the layer before and a subset of the neighbors of these in the layer before that. This restricts the size of the graph for training the batch. In all panels, the brightness represents the distance from the original node.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

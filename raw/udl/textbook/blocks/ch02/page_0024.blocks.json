@@ -52,14 +52,5 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "text": "Problem 2.3* Consider reformulating linear regression as a generative model, so we have x=g[y,phi']=phi'_0+phi'_1 y. What is the new loss function? Find an expression for the inverse function y=g^{-1}[x,phi'] that we would use to perform inference. Will this model make the same predictions as the discriminative version for a given training dataset {x_i,y_i}? One way to establish this is to write code that fits a line to three data points using both methods and see if the result is the same."
-  },
-  {
-    "id": "page_0024-b007",
-    "page_key": 24,
-    "order": 7,
-    "type": "review_note",
-    "source": "codex-fusion",
-    "confidence": "high",
-    "text": "Problem 2.3 parameter primes were normalized to phi-prime notation because DeepSeek and PPStructureV3 disagree on prime placement."
   }
 ]

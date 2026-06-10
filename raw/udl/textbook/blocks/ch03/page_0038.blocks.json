@@ -61,14 +61,5 @@
     "source": "deepseek+paddle",
     "confidence": "high",
     "text": "Number of linear regions note with Zaslavsky bound."
-  },
-  {
-    "id": "page_0038-b008",
-    "page_key": 38,
-    "order": 8,
-    "type": "review_note",
-    "source": "codex-fusion",
-    "confidence": "medium",
-    "text": "Formula crop used only as evidence; no image_path is present on the equation block."
   }
 ]

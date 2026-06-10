@@ -1,1 +1,48 @@
-[{"id":"page_0367-b001","page_key":367,"order":1,"type":"figure","source":"paddle","confidence":"high","image_path":"figures/page_0367_fig_1.jpg","alt_text":"Figure 18.11 Cascaded conditional generation based on a text prompt."},{"id":"page_0367-b002","page_key":367,"order":2,"type":"caption","source":"deepseek+paddle","confidence":"high","text":"Figure 18.11 Cascaded conditional generation based on a text prompt. a) A diffusion model consisting of a series of U-Nets is used to generate a $64 \\times 64$ image. b) This generation is conditioned on a sentence embedding computed by a language model. c) A higher resolution $256 \\times 256$ image is generated and conditioned on the smaller image and the text encoding. d) This is repeated to create a $1024 \\times 1024$ image. e) Final image sequence. Adapted from Saharia et al. (2022b)."},{"id":"page_0367-b003","page_key":367,"order":3,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"during training. Hence, it can both generate unconditional or conditional data examples at test time or any weighted combination of the two. This brings a surprising advantage; if the conditioning information is over-weighted, the model tends to produce very high quality but slightly stereotypical examples. This is somewhat analogous to the use of truncation in GANs (figure 15.10)."},{"id":"page_0367-b004","page_key":367,"order":4,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"18.6.4 Improving generation quality"},{"id":"page_0367-b005","page_key":367,"order":5,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"As for other generative models, the highest quality results result from applying a combination of tricks and extensions to the basic model. First, it's been noted that it also helps to estimate the variances $\\sigma_{t}^{2}$ of the reverse process as well as the mean (i.e., the widths"}]
+[
+  {
+    "id": "page_0367-b001",
+    "page_key": 367,
+    "order": 1,
+    "type": "figure",
+    "text": "../../figures/page_0367_fig_1.jpg",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "image_path": "figures/page_0367_fig_1.jpg"
+  },
+  {
+    "id": "page_0367-b002",
+    "page_key": 367,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 18.11 Cascaded conditional generation based on a text prompt. a) A diffusion model consisting of a series of U-Nets is used to generate a $64 \\times 64$ image. b) This generation is conditioned on a sentence embedding computed by a language model. c) A higher resolution $256 \\times 256$ image is generated and conditioned on the smaller image and the text encoding. d) This is repeated to create a $1024 \\times 1024$ image. e) Final image sequence. Adapted from Saharia et al. (2022b).",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0367-b003",
+    "page_key": 367,
+    "order": 3,
+    "type": "paragraph",
+    "text": "during training. Hence, it can both generate unconditional or conditional data examples at test time or any weighted combination of the two. This brings a surprising advantage; if the conditioning information is over-weighted, the model tends to produce very high quality but slightly stereotypical examples. This is somewhat analogous to the use of truncation in GANs (figure 15.10).",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0367-b004",
+    "page_key": 367,
+    "order": 4,
+    "type": "heading",
+    "text": "18.6.4 Improving generation quality",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0367-b005",
+    "page_key": 367,
+    "order": 5,
+    "type": "paragraph",
+    "text": "As for other generative models, the highest quality results result from applying a combination of tricks and extensions to the basic model. First, it's been noted that it also helps to estimate the variances $\\sigma_{t}^{2}$ of the reverse process as well as the mean (i.e., the widths",
+    "source": "deepseek",
+    "confidence": "medium"
+  }
+]

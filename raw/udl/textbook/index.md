@@ -29,7 +29,7 @@ Final Markdown filenames use printed book page numbers; each page keeps `pdf_pag
 
 ## Assets
 
-- Referenced figure files: 275
+- Referenced figure files: 271
 - Block sidecars: `blocks/chXX/page_XXXX.blocks.json`
 
 ## Cleanup Policy

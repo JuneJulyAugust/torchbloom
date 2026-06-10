@@ -1,1 +1,67 @@
-[{"id":"page_0281-b001","page_key":281,"order":1,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"a)"},{"id":"page_0281-b002","page_key":281,"order":2,"type":"figure","source":"paddle","confidence":"high","image_path":"figures/page_0281_fig_1.jpg","alt_text":"Synthesized images from the DCGAN model."},{"id":"page_0281-b003","page_key":281,"order":3,"type":"caption","source":"deepseek+paddle","confidence":"high","text":"Figure 15.4 Synthesized images from the DCGAN model."},{"id":"page_0281-b004","page_key":281,"order":4,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"b)"},{"id":"page_0281-b005","page_key":281,"order":5,"type":"figure","source":"paddle","confidence":"high","image_path":"figures/page_0281_fig_2.jpg","alt_text":"Synthesized images from the DCGAN model."},{"id":"page_0281-b006","page_key":281,"order":6,"type":"caption","source":"deepseek+paddle","confidence":"high","text":"Figure 15.4 Synthesized images from the DCGAN model."},{"id":"page_0281-b007","page_key":281,"order":7,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"c)"},{"id":"page_0281-b008","page_key":281,"order":8,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"A common failure mode is that the generator makes plausible samples, but these only represent a subset of the data (e.g., for faces, it might never generate faces with beards). This is known as mode dropping. An extreme version of this phenomenon can occur whe"},{"id":"page_0281-b009","page_key":281,"order":9,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"15.2 Improving stability"},{"id":"page_0281-b010","page_key":281,"order":10,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"To understand why GANs are difficult to train, it’s necessary to understand exactly what the loss function represents."}]
+[
+  {
+    "id": "page_0281-b001",
+    "page_key": 281,
+    "order": 1,
+    "type": "figure",
+    "text": "",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0281_fig_1.jpg"
+  },
+  {
+    "id": "page_0281-b002",
+    "page_key": 281,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 15.4 Synthesized images from the DCGAN model. a) Random samples drawn from DCGAN trained on a faces dataset. b) Random samples using the ImageNet database (see figure 10.15). c) Random samples drawn from the LSUN scene understanding dataset. Adapted from Radford et al. (2015).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0281-b003",
+    "page_key": 281,
+    "order": 3,
+    "type": "figure",
+    "text": "",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0281_fig_2.jpg"
+  },
+  {
+    "id": "page_0281-b004",
+    "page_key": 281,
+    "order": 4,
+    "type": "caption",
+    "text": "Figure 15.5 Mode collapse. Synthesized images from a GAN trained on the LSUN scene understanding dataset using an MLP generator with a similar number of parameters and layers to the DCGAN. The samples are low quality, and many are similar. Adapted from Arjovsky et al. (2017).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0281-b005",
+    "page_key": 281,
+    "order": 5,
+    "type": "paragraph",
+    "text": "A common failure mode is that the generator makes plausible samples, but these only represent a subset of the data (e.g., for faces, it might never generate faces with beards). This is known as mode dropping. An extreme version of this phenomenon can occur where the generator entirely or mostly ignores the latent variables z and collapses all samples to one or a few points; this is known as mode collapse (figure 15.5).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0281-b006",
+    "page_key": 281,
+    "order": 6,
+    "type": "heading",
+    "text": "15.2 Improving stability",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0281-b007",
+    "page_key": 281,
+    "order": 7,
+    "type": "paragraph",
+    "text": "To understand why GANs are difficult to train, it’s necessary to understand exactly what the loss function represents.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

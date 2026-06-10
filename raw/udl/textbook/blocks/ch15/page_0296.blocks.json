@@ -1,1 +1,65 @@
-[{"id":"page_0296-b001","page_key":296,"order":1,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"one direction (e.g., photo→Monet) and then back again should recover the original."},{"id":"page_0296-b002","page_key":296,"order":2,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"The CycleGAN loss function is a weighted sum of three losses (figure 15.18). The content loss encourages the before and after images to be similar and is based on the $\\ell_{1}$ norm. The adversarial loss uses a discriminator to encourage the output to be indi"},{"id":"page_0296-b003","page_key":296,"order":3,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"15.6 StyleGAN"},{"id":"page_0296-b004","page_key":296,"order":4,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"StyleGAN is a more contemporary GAN that partitions the variation in a dataset into meaningful components, each of which is controlled by a subset of the latent variables. In particular, StyleGAN controls the output image at different scales and separates styl"},{"id":"page_0296-b005","page_key":296,"order":5,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"The GANs that we have seen until now started from a latent variable z which is drawn from a standard base distribution. This was passed through a series of convolutional layers to produce the output image. However, the latent variable inputs to the generator c"},{"id":"page_0296-b006","page_key":296,"order":6,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"The main generative branch of StyleGAN starts with a learned constant $4 \\times 4$ representation with 512 channels. This passes through a series of convolutional layers that gradually upsample the representation to generate the image at its final resolution. "},{"id":"page_0296-b007","page_key":296,"order":7,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"The latent variables that represent style begin as a $1 \\times 1 \\times 512$ noise tensor, which is passed through a seven-layer fully connected network to create an intermediate variable w. This allows the network to decorrelate aspects of style so that each "}]
+[
+  {
+    "id": "page_0296-b001",
+    "page_key": 296,
+    "order": 1,
+    "type": "paragraph",
+    "text": "one direction (e.g., photo→Monet) and then back again should recover the original.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0296-b002",
+    "page_key": 296,
+    "order": 2,
+    "type": "paragraph",
+    "text": "The CycleGAN loss function is a weighted sum of three losses (figure 15.18). The content loss encourages the before and after images to be similar and is based on the  $\\ell_{1}$  norm. The adversarial loss uses a discriminator to encourage the output to be indistinguishable from real examples of the target domain. Finally, the cycle-consistency loss encourages the mapping to be reversible. Here, two models are trained together. One maps from the first domain to the second, and the other in the opposite direction. The cycle-consistency loss will be low if the translated image can be itself translated successfully back to the image in the original domain. The model combines these three losses to train networks to translate images from one style to another and back again.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0296-b003",
+    "page_key": 296,
+    "order": 3,
+    "type": "heading",
+    "text": "15.6 StyleGAN",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0296-b004",
+    "page_key": 296,
+    "order": 4,
+    "type": "paragraph",
+    "text": "StyleGAN is a more contemporary GAN that partitions the variation in a dataset into meaningful components, each of which is controlled by a subset of the latent variables. In particular, StyleGAN controls the output image at different scales and separates style from noise. For face images, large-scale changes include face shape and head pose, medium-scale changes include the shape and details of facial features, and fine-scale changes include hair and skin color. The style components represent aspects of the image that are salient to human beings, and the noise aspects represent unimportant variation such as exact placement of hairs, stubble, freckles, or skin pores.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0296-b005",
+    "page_key": 296,
+    "order": 5,
+    "type": "paragraph",
+    "text": "The GANs that we have seen until now started from a latent variable z which is drawn from a standard base distribution. This was passed through a series of convolutional layers to produce the output image. However, the latent variable inputs to the generator can (i) be introduced at various points in the architecture and (ii) modify the current representation at these points in different ways. StyleGAN makes these choices judiciously to control scale and to separate style from noise (figure 15.19).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0296-b006",
+    "page_key": 296,
+    "order": 6,
+    "type": "paragraph",
+    "text": "The main generative branch of StyleGAN starts with a learned constant  $4 \\times 4$  representation with 512 channels. This passes through a series of convolutional layers that gradually upsample the representation to generate the image at its final resolution. Two sets of random latent variables representing style and noise are introduced at each scale; the closer that they are to the output, the finer scale details they represent.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0296-b007",
+    "page_key": 296,
+    "order": 7,
+    "type": "paragraph",
+    "text": "The latent variables that represent style begin as a  $1 \\times 1 \\times 512$  noise tensor, which is passed through a seven-layer fully connected network to create an intermediate variable w. This allows the network to decorrelate aspects of style so that each dimension of w can represent an independent real-world factor such as head pose or hair color. This variable w is linearly transformed to a  $2 \\times 1 \\times 512$  tensor y, which is used to set the per-channel mean and variance of the representation across spatial positions in the",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

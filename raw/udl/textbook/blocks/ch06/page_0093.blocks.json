@@ -1,1 +1,56 @@
-[{"id":"page_0093-b001","page_key":93,"order":1,"type":"figure","source":"paddle","confidence":"high","image_path":"figures/page_0093_fig_1.jpg","alt_text":"Figure 6.10 Line search using the bracketing approach. a) The current solution is at position $a$ (orange point), and we wish to search the region $[a,d]$ (gray"},{"id":"page_0093-b002","page_key":93,"order":2,"type":"caption","source":"deepseek+paddle","confidence":"high","text":"Figure 6.10 Line search using the bracketing approach. a) The current solution is at position $a$ (orange point), and we wish to search the region $[a,d]$ (gray shaded area). We define two points $b,c$ in order to the search region and evaluate the loss function at these points. Here $L[b]>L[c]$, so we eliminate the range $[a,b]$. b) We now repeat this procedure in the refined search region and find that $L[b]"},{"id":"page_0093-b003","page_key":93,"order":3,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"accelerated gradient method was introduced by Nesterov (1983). Nesterov momentum was first applied in the context of stochastic gradient descent by Sutskever et al. (2013)."},{"id":"page_0093-b004","page_key":93,"order":4,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Adaptive training algorithms: AdaGrad (Duchi et al., 2011) is an optimization algorithm that addresses the possibility that some parameters may have to move further than others by assigning a different learning rate to each parameter. AdaGrad uses the cumulative squared gradient for each parameter to attenuate its learning rate. This has the disadvantage that the learning rates decrease over time, and learning can halt before the minimum is found. RMSProp (Hinton et al., 2012a) and AdaDelta (Zei"},{"id":"page_0093-b005","page_key":93,"order":5,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"By far the most widely used adaptive training algorithm is adaptive momentum optimization or Adam (Kingma & Ba, 2015). This combines the ideas of momentum (in which the gradient vector is averaged over time) and AdaGrad, AdaDelta, and RMSProp (in which a smoothed squared gradient term is used to modify the learning rate for each parameter). The original paper on the Adam algorithm provided a convergence proof for convex loss functions, but a counterexample was identified by Reddi et al. (2018), "},{"id":"page_0093-b006","page_key":93,"order":6,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"One potential problem with adaptive training algorithms is that the learning rates are based on accumulated statistics of the observed gradients. At the start of training, when there are few samples, these statistics may be very noisy. This can be remedied by learning rate warm-up (Goyal et al., 2018), in which the learning rates are gradually increased over the first few thousand iterations. An alternative solution is rectified Adam (Liu et al., 2021a), which gradually"}]
+[
+  {
+    "id": "page_0093-b001",
+    "page_key": 93,
+    "order": 1,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "figure",
+    "image_path": "figures/page_0093_fig_1.jpg"
+  },
+  {
+    "id": "page_0093-b002",
+    "page_key": 93,
+    "order": 2,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "caption",
+    "text": "Figure 6.10 Line search using the bracketing approach. a) The current solution is at position $a$ (orange point), and we wish to search the region $[a, d]$ (gray shaded area). We define two points $b, c$ interior to the search region and evaluate the loss function at these points. Here $L[b] > L[c]$, so we eliminate the range $[a, b]$. b) We now repeat this procedure in the refined search region and find that $L[b] < L[c]$, so we eliminate the range $[c, d]$. c) We repeat this process until this minimum is closely bracketed."
+  },
+  {
+    "id": "page_0093-b003",
+    "page_key": 93,
+    "order": 3,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "accelerated gradient method was introduced by Nesterov (1983). Nesterov momentum was first applied in the context of stochastic gradient descent by Sutskever et al. (2013)."
+  },
+  {
+    "id": "page_0093-b004",
+    "page_key": 93,
+    "order": 4,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "Adaptive training algorithms: AdaGrad (Duchi et al., 2011) is an optimization algorithm that addresses the possibility that some parameters may have to move further than others by assigning a different learning rate to each parameter. AdaGrad uses the cumulative squared gradient for each parameter to attenuate its learning rate. This has the disadvantage that the learning rates decrease over time, and learning can halt before the minimum is found. RMSProp (Hinton et al., 2012a) and AdaDelta (Zeiler, 2012) modified this algorithm to help prevent these problems by recursively updating the squared gradient term."
+  },
+  {
+    "id": "page_0093-b005",
+    "page_key": 93,
+    "order": 5,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "By far the most widely used adaptive training algorithm is adaptive momentum optimization or Adam (Kingma & Ba, 2015). This combines the ideas of momentum (in which the gradient vector is averaged over time) and AdaGrad, AdaDelta, and RMSProp (in which a smoothed squared gradient term is used to modify the learning rate for each parameter). The original paper on the Adam algorithm provided a convergence proof for convex loss functions, but a counterexample was identified by Reddi et al. (2018), who developed a modification of Adam called AMSGrad, which does converge. Of course, in deep learning, the loss functions are non-convex, and Zaheer et al. (2018) subsequently developed an adaptive algorithm called YOGI and proved that it converges in this scenario. Regardless of these theoretical objections, the original Adam algorithm works well in practice and is widely used, not least because it works well over a broad range of hyperparameters and makes rapid initial progress."
+  },
+  {
+    "id": "page_0093-b006",
+    "page_key": 93,
+    "order": 6,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "One potential problem with adaptive training algorithms is that the learning rates are based on accumulated statistics of the observed gradients. At the start of training, when there are few samples, these statistics may be very noisy. This can be remedied by learning rate warm-up (Goyal et al., 2018), in which the learning rates are gradually increased over the first few thousand iterations. An alternative solution is rectified Adam (Liu et al., 2021a), which gradually"
+  }
+]

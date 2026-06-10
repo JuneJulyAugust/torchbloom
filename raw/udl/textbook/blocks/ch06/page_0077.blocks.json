@@ -3,81 +3,81 @@
     "id": "page_0077-b001",
     "page_key": 77,
     "order": 1,
-    "type": "heading",
     "source": "deepseek+paddle",
-    "confidence": "high",
+    "confidence": "medium",
+    "type": "heading",
     "text": "Chapter 6"
   },
   {
     "id": "page_0077-b002",
     "page_key": 77,
     "order": 2,
-    "type": "heading",
     "source": "deepseek+paddle",
-    "confidence": "high",
+    "confidence": "medium",
+    "type": "heading",
     "text": "Fitting models"
   },
   {
     "id": "page_0077-b003",
     "page_key": 77,
     "order": 3,
-    "type": "paragraph",
     "source": "deepseek+paddle",
-    "confidence": "high",
+    "confidence": "medium",
+    "type": "paragraph",
     "text": "Chapters 3 and 4 described shallow and deep neural networks. These represent families of piecewise linear functions, where the parameters determine the particular function. Chapter 5 introduced the loss - a single number representing the mismatch between the network predictions and the ground truth for a training set."
   },
   {
     "id": "page_0077-b004",
     "page_key": 77,
     "order": 4,
-    "type": "paragraph",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "The loss depends on the network parameters, and this chapter considers how to find the parameter values that minimize this loss. This is known as learning the network's parameters or simply as training or fitting the model. The process is to choose initial parameter values and then iterate the following two steps: (i) compute the derivatives (gradients) of the loss with respect to the parameters, and (ii) adjust the parameters based on the gradients to decrease the loss. After many iterations, w"
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "The loss depends on the network parameters, and this chapter considers how to find the parameter values that minimize this loss. This is known as learning the network's parameters or simply as training or fitting the model. The process is to choose initial parameter values and then iterate the following two steps: (i) compute the derivatives (gradients) of the loss with respect to the parameters, and (ii) adjust the parameters based on the gradients to decrease the loss. After many iterations, we hope to reach the overall minimum of the loss function."
   },
   {
     "id": "page_0077-b005",
     "page_key": 77,
     "order": 5,
-    "type": "paragraph",
     "source": "deepseek+paddle",
-    "confidence": "high",
+    "confidence": "medium",
+    "type": "paragraph",
     "text": "This chapter tackles the second of these steps; we consider algorithms that adjust the parameters to decrease the loss. Chapter 7 discusses how to initialize the parameters and compute the gradients for neural networks."
   },
   {
     "id": "page_0077-b006",
     "page_key": 77,
     "order": 6,
-    "type": "heading",
     "source": "deepseek+paddle",
-    "confidence": "high",
+    "confidence": "medium",
+    "type": "heading",
     "text": "6.1 Gradient descent"
   },
   {
     "id": "page_0077-b007",
     "page_key": 77,
     "order": 7,
-    "type": "paragraph",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "To fit a model, we need a training set $\\lbrace x_{i}, y_{i}\\rbrace$ of input/output pairs. We seek parameters $\\phi$ for the model f[x_{i}, $\\phi$ ] that map the inputs $x_{i}$ to the outputs $y_{i}$ as closely as possible. To this end, we define a loss function L[ $\\phi$ ] that returns a single number that quantifies the mismatch in this mapping. The goal of an optimization algorithm is to find parameters $\\hat{\\phi}$ that minimize the loss:"
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "To fit a model, we need a training set $\\lbrace x_{i}, y_{i} \\rbrace $ of input/output pairs. We seek parameters $\\phi $ for the model f[x_{i}, $\\phi $] that map the inputs $ x_{i}$ to the outputs $ y_{i}$ as closely as possible. To this end, we define a loss function L[$\\phi $] that returns a single number that quantifies the mismatch in this mapping. The goal of an optimization algorithm is to find parameters $\\hat{\\phi}$ that minimize the loss:"
   },
   {
     "id": "page_0077-b008",
     "page_key": 77,
     "order": 8,
+    "source": "deepseek",
+    "confidence": "medium",
     "type": "equation",
-    "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "\\begin{aligned}\n\\hat{\\phi}=\\underset{\\phi}{\\mathrm{argmin}}\\left[L[\\phi]\\right].\n\\end{aligned} \\quad (6.1)"
+    "latex": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}} &= \\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{arg\\,min}}}\\left[L[\\boldsymbol{\\phi}]\\right]\n\\end{aligned} \\qquad (6.1)"
   },
   {
     "id": "page_0077-b009",
     "page_key": 77,
     "order": 9,
-    "type": "paragraph",
     "source": "deepseek+paddle",
-    "confidence": "high",
+    "confidence": "medium",
+    "type": "paragraph",
     "text": "There are many families of optimization algorithms, but the standard methods for training neural networks are iterative. These algorithms initialize the parameters heuristically and then adjust them repeatedly in such a way that the loss decreases."
   }
 ]

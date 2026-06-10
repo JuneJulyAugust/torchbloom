@@ -43,14 +43,5 @@
     "source": "paddle",
     "confidence": "medium",
     "text": "All readers are encouraged to investigate these issues further. The online course at https://ethics-of-ai.mooc.fi/ is a useful introductory resource. If you are a professor teaching from this book, you are encouraged to raise these issues with your students. If you are a student taking a course where this is not done, then lobby your professor to make this happen. If you are deploying or researching AI in a corporate environment, you are encouraged to scrutinize your employer's values and to help change them (or leave) if they are wanting."
-  },
-  {
-    "id": "page_0014-b006",
-    "page_key": 14,
-    "order": 6,
-    "type": "review_note",
-    "source": "codex-fusion",
-    "confidence": "medium",
-    "text": "The final paragraph follows Paddle for the professor/student course sentence because DeepSeek's version was syntactically corrupted."
   }
 ]

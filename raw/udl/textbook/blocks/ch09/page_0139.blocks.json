@@ -4,10 +4,10 @@
     "page_key": 139,
     "order": 1,
     "type": "figure",
-    "source": "deepseek+paddle",
+    "source": "paddle",
     "confidence": "high",
     "image_path": "figures/page_0139_fig_1.jpg",
-    "alt_text": "Figure 9.1 Explicit regularization. a) Loss function for Gabor model (see section 6.1.2). Cyan circles represent local minima. Gray circle represents the global minimum. b) The reg"
+    "alt": "Figure 9.1 Explicit regularization. a) Loss function for Gabor model (see section 6.1.2). Cyan circles represent local minima. Gray circle represents the global"
   },
   {
     "id": "page_0139-b002",
@@ -15,16 +15,16 @@
     "order": 2,
     "type": "caption",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Figure 9.1 Explicit regularization. a) Loss function for Gabor model (see section 6.1.2). Cyan circles represent local minima. Gray circle represents the global minimum. b) The regularization term favors parameters close to the center of the plot by adding an increasing penalty as we move away from this point. c) The final loss function is the sum of the original loss function plus the regularization term. This surface has fewer local minima, and the global minimum has moved to a different position (arrow shows change)."
+    "confidence": "medium",
+    "caption": "Figure 9.1 Explicit regularization. a) Loss function for Gabor model (see section 6.1.2). Cyan circles represent local minima. Gray circle represents the global minimum. b) The regularization term favors parameters close to the center of the plot by adding an increasing penalty as we move away from this point. c) The final loss function is the sum of the original loss function plus the regularization term. This surface has fewer local minima, and the global minimum has moved to a different position (arrow shows change)."
   },
   {
     "id": "page_0139-b003",
     "page_key": 139,
     "order": 3,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "toward certain solutions, we include an additional term:"
   },
   {
@@ -34,51 +34,15 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}}=\\underset{\\boldsymbol{\\phi}}{\\mathrm{argmin}}\\left[\\sum_{i=1}^{I}\\ell_{i}[\\mathbf{x}_{i},\\mathbf{y}_{i}]+\\lambda\\cdot\\mathbf{g}[\\boldsymbol{\\phi}]\\right],\n\\end{aligned} \\quad (9.2)"
+    "latex": "\\hat{\\boldsymbol{\\phi}}=\\underset{\\boldsymbol{\\phi}}{\\mathrm{arg\\,max}}\\left[\\prod_{i=1}^{I}\\Pr(\\mathbf{y}_{i}\\mid\\mathbf{x}_{i},\\boldsymbol{\\phi})\\right].\n\\qquad (9.3)"
   },
   {
     "id": "page_0139-b005",
     "page_key": 139,
     "order": 5,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
-    "text": "where g[ $\\phi$ ] is a function that returns a scalar which takes larger values when the parameters are less preferred. The term $\\lambda$ is a positive scalar that controls the relative contribution of the original loss function and the regularization term. The minima of the regularized loss function usually differ from those in the original, so the training procedure converges to different parameter values (figure 9.1)."
-  },
-  {
-    "id": "page_0139-b006",
-    "page_key": 139,
-    "order": 6,
-    "type": "heading",
-    "source": "deepseek",
-    "confidence": "high",
-    "text": "9.1.1 Probabilistic interpretation"
-  },
-  {
-    "id": "page_0139-b007",
-    "page_key": 139,
-    "order": 7,
-    "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
-    "text": "Regularization can be viewed from a probabilistic perspective. Section 5.1 shows how about the parameters before we observe the data and we now have the maximum a posteriori or MAP criterion:"
-  },
-  {
-    "id": "page_0139-b008",
-    "page_key": 139,
-    "order": 8,
-    "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}}=\\underset{\\boldsymbol{\\phi}}{\\mathrm{argmax}}\\left[\\prod_{i=1}^{I}Pr(\\mathbf{y}_{i}|\\mathbf{x}_{i},\\boldsymbol{\\phi})\\right].\n\\end{aligned} \\quad (9.3)"
-  },
-  {
-    "id": "page_0139-b009",
-    "page_key": 139,
-    "order": 9,
-    "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
-    "text": "The regularization term can be considered as a prior $Pr(\\phi)$ that represents knowledge about the parameters before we observe the data and we now have the maximum a posteriori or MAP criterion:"
+    "text": "The regularization term can be considered as a prior $\\Pr(\\phi)$ that represents knowledge about the parameters before we observe the data and we now have the maximum a posteriori or MAP criterion:"
   }
 ]

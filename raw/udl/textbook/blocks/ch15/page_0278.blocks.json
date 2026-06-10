@@ -4,116 +4,116 @@
     "page_key": 278,
     "order": 1,
     "type": "heading",
+    "text": "15.1.1 GAN loss function",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "15.1.1 GAN loss function"
+    "confidence": "high"
   },
   {
     "id": "page_0278-b002",
     "page_key": 278,
     "order": 2,
     "type": "paragraph",
+    "text": "We now define the loss function for training GANs more precisely. The discriminator  $f[x, \\phi]$  takes input x, has parameters  $\\phi$ , and returns a scalar that is higher when it believes the input is a real example. This is a binary classification task, so we adapt the binary cross-entropy loss function (section 5.4), which originally had the form:",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "We now define the loss function for training GANs more precisely. The discriminator $f[x, \\phi]$ takes input x, has parameters $\\phi$ , and returns a scalar that is higher when it believes the input is a real example. This is a binary classification task, so w"
+    "confidence": "high"
   },
   {
     "id": "page_0278-b003",
     "page_key": 278,
     "order": 3,
     "type": "equation",
-    "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "\\begin{aligned}\n\\hat{\\phi}\n&=\\underset{\\phi}{\\mathrm{argmin}}\\left[\n\\sum_{i}-(1-y_{i})\\log\\left[1-\\mathrm{sig}[f[\\mathbf{x}_{i},\\phi]]\\right]\n-y_{i}\\log\\left[\\mathrm{sig}[f[\\mathbf{x}_{i},\\phi]]\\right]\n\\right],\n\\end{aligned} \\quad (15.2)"
+    "text": "$$\n\\hat{\\phi}\n= \\underset{\\phi}{\\mathrm{arg\\,min}}\\left[\\sum_{i}-(1-y_{i})\\log\\left[1-\\mathrm{sig}[f[\\mathbf{x}_{i},\\phi]]\\right]-y_{i}\\log\\left[\\mathrm{sig}[f[\\mathbf{x}_{i},\\phi]]\\right]\\right]\n\\qquad (15.2)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium"
   },
   {
     "id": "page_0278-b004",
     "page_key": 278,
     "order": 4,
     "type": "paragraph",
+    "text": "where $y_{i} \\in \\lbrace 0,1\\rbrace$ is the label, and $\\mathrm{sig}[\\bullet]$ is the logistic sigmoid function (figure 5.7).",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "where $y_{i} \\in \\lbrace 0,1 \\rbrace$ is the label, and $\\mathrm{sig}[\\bullet]$ is the logistic sigmoid function (figure 5.7)."
+    "confidence": "high"
   },
   {
     "id": "page_0278-b005",
     "page_key": 278,
     "order": 5,
     "type": "paragraph",
+    "text": "In this case, we assume that the real examples x have label y = 1 and the generated samples  $x^{*}$  have label y = 0 so that:",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "In this case, we assume that the real examples x have label y = 1 and the generated samples $x^{*}$ have label y = 0 so that:"
+    "confidence": "high"
   },
   {
     "id": "page_0278-b006",
     "page_key": 278,
     "order": 6,
     "type": "equation",
-    "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "\\begin{aligned}\n\\hat{\\phi}\n&=\\underset{\\phi}{\\mathrm{argmin}}\\left[\n\\sum_{j}-\\log\\left[1-\\mathrm{sig}[f[\\mathbf{x}_{j}^{*},\\phi]]\\right]\n-\\sum_{i}\\log\\left[\\mathrm{sig}[f[\\mathbf{x}_{i},\\phi]]\\right]\n\\right],\n\\end{aligned} \\quad (15.3)"
+    "text": "$$\n\\hat{\\phi}\n= \\underset{\\phi}{\\mathrm{arg\\,min}}\\left[\\sum_{j}-\\log\\left[1-\\mathrm{sig}[f[\\mathbf{x}_{j}^{*},\\phi]]\\right]-\\sum_{i}\\log\\left[\\mathrm{sig}[f[\\mathbf{x}_{i},\\phi]]\\right]\\right]\n\\qquad (15.3)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium"
   },
   {
     "id": "page_0278-b007",
     "page_key": 278,
     "order": 7,
     "type": "paragraph",
+    "text": "where i and j index the real examples and generated samples, respectively.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "where i and j index the real examples and generated samples, respectively."
+    "confidence": "high"
   },
   {
     "id": "page_0278-b008",
     "page_key": 278,
     "order": 8,
     "type": "paragraph",
+    "text": "Now we substitute the definition for the generator  $x_{j}^{*} = g[z_{i}, \\theta]$  and note that we must maximize with respect to  $\\theta$  since we want the generated samples to be misclassified (i.e., have low likelihood of being synthetic or high negative log-likelihood):",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Now we substitute the definition for the generator $x_{j}^{*} = \\mathrm{g}[z_{j}, \\theta]$ and note that we must maximize with respect to $\\theta$ since we want the generated samples to be misclassified (i.e., have low likelihood of being synthetic or high negative log-likelihood):"
+    "confidence": "high"
   },
   {
     "id": "page_0278-b009",
     "page_key": 278,
     "order": 9,
     "type": "equation",
-    "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "\\begin{aligned}\n\\hat{\\theta}\n&=\\underset{\\theta}{\\mathrm{argmax}}\\left[\n\\min_{\\phi}\\left[\n\\sum_{j}-\\log\\left[1-\\mathrm{sig}[f[\\mathrm{g}[z_{j},\\theta],\\phi]]\\right]\n-\\sum_{i}\\log\\left[\\mathrm{sig}[f[\\mathbf{x}_{i},\\phi]]\\right]\n\\right]\\right].\n\\end{aligned} \\quad (15.4)"
+    "text": "$$\n\\hat{\\theta}\n= \\underset{\\theta}{\\mathrm{arg\\,max}}\\left[\\min_{\\phi}\\left[\\sum_{j}-\\log\\left[1-\\mathrm{sig}[f[g[\\mathbf{z}_{j},\\theta],\\phi]]\\right]-\\sum_{i}\\log\\left[\\mathrm{sig}[f[\\mathbf{x}_{i},\\phi]]\\right]\\right]\\right]\n\\qquad (15.4)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium"
   },
   {
     "id": "page_0278-b010",
     "page_key": 278,
     "order": 10,
     "type": "heading",
+    "text": "15.1.2 Training GANs",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "15.1.2 Training GANs"
+    "confidence": "high"
   },
   {
     "id": "page_0278-b011",
     "page_key": 278,
     "order": 11,
     "type": "paragraph",
+    "text": "Equation 15.4 is a more complex loss function than we have seen before; the discriminator parameters $\\phi$ are manipulated to minimize the loss function, and the generative parameters $\\theta$ are manipulated to maximize the loss function. GAN training is characterized as a minimax game; the generator tries to find new ways to fool the discriminator, which in turn searches for new ways to distinguish generated samples from real examples. Technically, the solution is a Nash equilibrium — the optimization algorithm searches for a position that is simultaneously a minimum of one function and a maximum of the other. If training proceeds as planned, then upon convergence, $\\hat{\\mathbf{g}}[\\mathbf{z}, \\boldsymbol{\\theta}]$ will be drawn from the same distribution as the data, and $\\mathrm{sig}[\\mathbf{f}[\\bullet, \\boldsymbol{\\phi}]]$ will be at chance (i.e., 0.5).",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Equation 15.4 is a more complex loss function than we have seen before; the discriminator parameters $\\phi$ are manipulated to minimize the loss function, and the generative parameters $\\theta$ are manipulated to maximize the loss function. GAN training is cha"
+    "confidence": "high"
   },
   {
     "id": "page_0278-b012",
     "page_key": 278,
     "order": 12,
     "type": "paragraph",
+    "text": "To train the GAN, we can divide equation 15.4 into two loss functions:",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "To train the GAN, we can divide equation 15.4 into two loss functions:"
+    "confidence": "high"
   },
   {
     "id": "page_0278-b013",
     "page_key": 278,
     "order": 13,
     "type": "equation",
-    "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "\\begin{aligned}\nL[\\phi]&=\\sum_{j}-\\log\\left[1-\\mathrm{sig}[f[\\mathrm{g}[z_{j},\\theta],\\phi]]\\right]-\\sum_{i}\\log\\left[\\mathrm{sig}[f[\\mathbf{x}_{i},\\phi]]\\right]\\\\\nL[\\theta]&=\\sum_{j}\\log\\left[1-\\mathrm{sig}[f[\\mathrm{g}[z_{j},\\theta],\\phi]]\\right],\n\\end{aligned} \\quad (15.5)"
+    "text": "$$\n\\begin{aligned}\nL[\\phi]\n&= \\sum_{j}-\\log\\left[1-\\mathrm{sig}[f[g[\\mathbf{z}_{j},\\theta],\\phi]]\\right]-\\sum_{i}\\log\\left[\\mathrm{sig}[f[\\mathbf{x}_{i},\\phi]]\\right] \\\\\nL[\\theta]\n&= \\sum_{j}\\log\\left[1-\\mathrm{sig}[f[g[\\mathbf{z}_{j},\\theta],\\phi]]\\right]\n\\end{aligned}\n\\qquad (15.5)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium"
   }
 ]

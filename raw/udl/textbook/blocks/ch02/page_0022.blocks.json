@@ -15,7 +15,7 @@
     "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "The process of finding parameters that minimize the loss is termed model fitting, training, or learning. The basic method is to choose the initial parameters randomly and then improve them by \"walking down\" the loss function until we reach the bottom (figure 2.4). One way to do this is to measure the gradient of the surface at the current position and take a step in the direction that is most steeply downhill. Then we repeat this process until the gradient is flat and we can improve no further."
+    "text": "The process of finding parameters that minimize the loss is termed model fitting, training, or learning. The basic method is to choose the initial parameters randomly and then improve them by \"walking down\" the loss function until we reach the bottom (figure 2.4). One way to do this is to measure the gradient of the surface at the current position and take a step in the direction that is most steeply downhill. Then we repeat this process until the gradient is flat and we can improve no further, with a footnote about closed-form solutions and gradient descent."
   },
   {
     "id": "page_0022-b003",
@@ -75,9 +75,9 @@
     "id": "page_0022-b009",
     "page_key": 22,
     "order": 9,
-    "type": "review_note",
+    "type": "paragraph",
     "source": "codex-fusion",
     "confidence": "high",
-    "text": "DeepSeek duplicated or garbled the final summary continuation; the final paragraph follows the coherent PPStructureV3 wording."
+    "text": "Footnote: This iterative approach is not actually necessary for the linear regression model; closed-form expressions are possible here, but gradient descent works for more complex models without closed-form solutions or with too many parameter combinations."
   }
 ]

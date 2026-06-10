@@ -3,162 +3,147 @@
     "id": "page_0239-b001",
     "page_key": 239,
     "order": 1,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
     "type": "heading",
-    "text": "## Problems"
+    "text": "## Problems",
+    "source": "deepseek+paddle",
+    "confidence": "high"
   },
   {
     "id": "page_0239-b002",
     "page_key": 239,
     "order": 2,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
     "type": "exercise",
-    "text": "Problem 12.1 Consider a self-attention mechanism that processes N inputs of length D to produce N outputs of the same size. How many weights and biases are used to compute the queries, keys, and values? Assume that al..."
+    "text": "Problem 12.1 Consider a self-attention mechanism that processes N inputs of length D to produce N outputs of the same size. How many weights and biases are used to compute the queries, keys, and values? Assume that all three quantities are also of length D. How many attention weights $a[\\bullet, \\bullet]$ will there be? How many weights and biases would there be in a fully connected shallow network relating all DN inputs to all DN outputs?",
+    "source": "deepseek+paddle",
+    "confidence": "high"
   },
   {
     "id": "page_0239-b003",
     "page_key": 239,
     "order": 3,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
     "type": "exercise",
-    "text": "Problem 12.2 Why might we want to ensure that the input to the self-attention mechanism is the same size as the output?"
+    "text": "Problem 12.2 Why might we want to ensure that the input to the self-attention mechanism is the same size as the output?",
+    "source": "deepseek+paddle",
+    "confidence": "high"
   },
   {
     "id": "page_0239-b004",
     "page_key": 239,
     "order": 4,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
     "type": "exercise",
-    "text": "Problem 12.3 $^{*}$ Show that the self-attention mechanism (equation 12.8) is equivariant to a permutation XP of the data X, where P is a permutation matrix. In other words, show that:"
+    "text": "Problem 12.3* Show that the self-attention mechanism (equation 12.8) is equivariant to a permutation XP of the data X, where P is a permutation matrix. In other words, show that:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
   },
   {
     "id": "page_0239-b005",
     "page_key": 239,
     "order": 5,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
     "type": "equation",
-    "text": "\\mathbf{S a}[\\mathbf{X}\\mathbf{P}]=\\mathbf{S a}[\\mathbf{X}]\\mathbf{P}. \\quad (12.18)"
+    "text": "$$\n\\mathbf{Sa}[\\mathbf{X}\\mathbf{P}]=\\mathbf{Sa}[\\mathbf{X}]\\mathbf{P}\\qquad (12.18)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium",
+    "latex": "\\mathbf{Sa}[\\mathbf{X}\\mathbf{P}]=\\mathbf{Sa}[\\mathbf{X}]\\mathbf{P}\\qquad (12.18)"
   },
   {
     "id": "page_0239-b006",
     "page_key": 239,
     "order": 6,
+    "type": "exercise",
+    "text": "Problem 12.4 Consider the softmax operation:",
     "source": "deepseek+paddle",
-    "confidence": "medium",
-    "type": "paragraph",
-    "text": "Appendix B.4.4 Permutation matrix"
+    "confidence": "high"
   },
   {
     "id": "page_0239-b007",
     "page_key": 239,
     "order": 7,
-    "source": "deepseek+paddle",
+    "type": "equation",
+    "text": "$$\ny_i=\\mathrm{softmax}_i[\\mathbf{z}]=\\frac{\\exp[z_i]}{\\sum_{j=1}^{5}\\exp[z_j]}\\qquad (12.19)\n$$",
+    "source": "codex-fusion",
     "confidence": "medium",
-    "type": "exercise",
-    "text": "Problem 12.3 $^{*}$ Show that the self-attention mechanism (equation 12.8) is equivariant to a permutation XP of the data X, where P is a permutation matrix. In other words, show that:"
+    "latex": "y_i=\\mathrm{softmax}_i[\\mathbf{z}]=\\frac{\\exp[z_i]}{\\sum_{j=1}^{5}\\exp[z_j]}\\qquad (12.19)"
   },
   {
     "id": "page_0239-b008",
     "page_key": 239,
     "order": 8,
+    "type": "paragraph",
+    "text": "in the case where there are five inputs with values: $z_{1} = -3$, $z_{2} = 1$, $z_{3} = 100$, $z_{4} = 5$, $z_{5} = -1$. Compute the 25 derivatives, $\\partial y_{i}/\\partial z_{j}$ for all $i,j \\in \\lbrace 1,2,3,4,5\\rbrace$. What do you conclude?",
     "source": "deepseek+paddle",
-    "confidence": "medium",
-    "type": "equation",
-    "text": "\\mathbf{y}_{i}=\\mathrm{softmax}_{i}[\\mathbf{z}]=\\frac{\\exp[z_{i}]}{\\sum_{j=1}^{5}\\exp[z_{j}]}, \\quad (12.19)"
+    "confidence": "high"
   },
   {
     "id": "page_0239-b009",
     "page_key": 239,
     "order": 9,
+    "type": "exercise",
+    "text": "Problem 12.5 Why is implementation more efficient if the values, queries, and keys in each of the H heads each have dimension D/H where D is the original dimension of the data?",
     "source": "deepseek+paddle",
-    "confidence": "medium",
-    "type": "paragraph",
-    "text": "in the case where there are five inputs with values: $z_{1} = -3$, $z_{2} = 1$, $z_{3} = 100$, $z_{4} = 5$, $z_{5} = -1$. Compute the 25 derivatives, $\\partial y_{i}/\\partial z_{j}$ for all $i,j \\in \\lbrace 1,2,3,4,5\\..."
+    "confidence": "high"
   },
   {
     "id": "page_0239-b010",
     "page_key": 239,
     "order": 10,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
     "type": "exercise",
-    "text": "Problem 12.5 Why is implementation more efficient if the values, queries, and keys in each of the H heads each have dimension D/H where D is the original dimension of the data?"
+    "text": "Problem 12.6 BERT was pre-trained using two tasks. The first task requires the system to predict missing (masked) words. The second task requires the system to classify pairs of sentences as being adjacent or not in the original text. Identify whether each of these tasks is generative or contrastive (see section 9.3.7). Why do you think they used two tasks? Propose two novel contrastive tasks that could be used to pre-train a language model.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
   },
   {
     "id": "page_0239-b011",
     "page_key": 239,
     "order": 11,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
     "type": "exercise",
-    "text": "Problem 12.6 BERT was pre-trained using two tasks. The first task requires the system to predict missing (masked) words. The second task requires the system to classify pairs of sentences as being adjacent or not in t..."
+    "text": "Problem 12.7 Consider adding a new token to a precomputed masked self-attention mechanism with N tokens. Describe the extra computation that must be done to incorporate this new token.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
   },
   {
     "id": "page_0239-b012",
     "page_key": 239,
     "order": 12,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
     "type": "exercise",
-    "text": "Problem 12.7 Consider adding a new token to a precomputed masked self-attention mechanism with N tokens. Describe the extra computation that must be done to incorporate this new token."
+    "text": "Problem 12.8 Computation in vision transformers expands quadratically with the number of patches. Devise two methods to reduce the computation using the principles from figure 12.15.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
   },
   {
     "id": "page_0239-b013",
     "page_key": 239,
     "order": 13,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
     "type": "exercise",
-    "text": "Problem 12.8 Computation in vision transformers expands quadratically with the number of patches. Devise two methods to reduce the computation using the principles from figure 12.15."
+    "text": "Problem 12.9 Consider representing an image with a grid of $16 \\times 16$ patches, each represented by a patch embedding of length 512. Compare the amount of computation required in the DaViT transformer to perform attention (i) between the patches, using all of the channels, and (ii) between the channels, using all of the patches.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
   },
   {
     "id": "page_0239-b014",
     "page_key": 239,
     "order": 14,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
     "type": "exercise",
-    "text": "Problem 12.9 Consider representing an image with a grid of $16 \\times 16$ patches, each represented by a patch embedding of length 512. Compare the amount of computation required in the DaViT transformer to perform at..."
+    "text": "Problem 12.10* Attention weights are usually computed as:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
   },
   {
     "id": "page_0239-b015",
     "page_key": 239,
     "order": 15,
-    "source": "deepseek+paddle",
+    "type": "equation",
+    "text": "$$\na[\\mathbf{x}_m,\\mathbf{x}_n]=\\mathrm{softmax}_m\\left[\\mathbf{k}_{\\bullet}^{T}\\mathbf{q}_n\\right]=\\frac{\\exp\\left[\\mathbf{k}_m^{T}\\mathbf{q}_n\\right]}{\\sum_{m'=1}^{N}\\exp\\left[\\mathbf{k}_{m'}^{T}\\mathbf{q}_n\\right]}\\qquad (12.20)\n$$",
+    "source": "codex-fusion",
     "confidence": "medium",
-    "type": "exercise",
-    "text": "Problem 12.10 $^{*}$ Attention weights are usually computed as:"
+    "latex": "a[\\mathbf{x}_m,\\mathbf{x}_n]=\\mathrm{softmax}_m\\left[\\mathbf{k}_{\\bullet}^{T}\\mathbf{q}_n\\right]=\\frac{\\exp\\left[\\mathbf{k}_m^{T}\\mathbf{q}_n\\right]}{\\sum_{m'=1}^{N}\\exp\\left[\\mathbf{k}_{m'}^{T}\\mathbf{q}_n\\right]}\\qquad (12.20)"
   },
   {
     "id": "page_0239-b016",
     "page_key": 239,
     "order": 16,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
-    "type": "equation",
-    "text": "a[\\mathbf{x}_{m},\\mathbf{x}_{n}]=\\mathrm{softmax}_{m}\\left[\\mathbf{k}_{\\bullet}^{\\boldsymbol{T}}\\mathbf{q}_{n}\\right]=\\frac{\\exp\\left[\\mathbf{k}_{m}^{\\boldsymbol{T}}\\mathbf{q}_{n}\\right]}{\\sum_{m^{\\prime}=1}^{N}\\exp\\left[\\mathbf{k}_{m^{\\prime}}^{\\boldsymbol{T}}\\mathbf{q}_{n}\\right]}. \\quad (12.20)"
-  },
-  {
-    "id": "page_0239-b017",
-    "page_key": 239,
-    "order": 17,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
     "type": "paragraph",
-    "text": "Consider replacing $\\exp\\left[k_{m}^{T}q_{n}\\right]$ with the dot product $g[k_{m}]^{T}g[q_{n}]$ where $g[\\bullet]$ is a nonlinear transformation. Show how this makes the computation of the attention weights more effi..."
-  },
-  {
-    "id": "page_0239-b018",
-    "page_key": 239,
-    "order": 18,
+    "text": "Consider replacing $\\exp\\left[k_{m}^{T}q_{n}\\right]$ with the dot product $g[k_{m}]^{T}g[q_{n}]$ where $g[\\bullet]$ is a nonlinear transformation. Show how this makes the computation of the attention weights more efficient.",
     "source": "deepseek+paddle",
-    "confidence": "medium",
-    "type": "paragraph",
-    "text": "Draft: please send errata to udlbookmail@gmail.com."
+    "confidence": "high"
   }
 ]

@@ -1,1 +1,49 @@
-[{"id":"page_0221-b001","page_key":221,"order":1,"source":"deepseek+paddle","confidence":"medium","type":"figure","image_path":"figures/page_0221_fig_1.jpg"},{"id":"page_0221-b002","page_key":221,"order":2,"type":"caption","source":"deepseek+paddle","confidence":"medium","text":"Figure 12.11 After pre-training, the encoder is fine-tuned using manually labeled data to solve a particular task. Usually, a linear transformation or a multi-layer perceptron (MLP) is appended to the encoder to produ..."},{"id":"page_0221-b003","page_key":221,"order":3,"source":"deepseek+paddle","confidence":"medium","type":"heading","text":"## 12.6.2 Fine-tuning"},{"id":"page_0221-b004","page_key":221,"order":4,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"In the fine-tuning stage, the model parameters are adjusted to specialize the network to a particular task. An extra layer is appended onto the transformer network to convert the output vectors to the desired output f..."},{"id":"page_0221-b005","page_key":221,"order":5,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"Text classification: In BERT, a special token known as the classification or token is placed at the start of each string during pre-training. For text classification tasks like sentiment analysis (in which the passage..."},{"id":"page_0221-b006","page_key":221,"order":6,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"Draft: please send errata to udlbookmail@gmail.com."}]
+[
+  {
+    "id": "page_0221-b001",
+    "page_key": 221,
+    "order": 1,
+    "type": "figure",
+    "text": "",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0221_fig_1.jpg"
+  },
+  {
+    "id": "page_0221-b002",
+    "page_key": 221,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 12.11 After pre-training, the encoder is fine-tuned using manually labeled data to solve a particular task. Usually, a linear transformation or a multi-layer perceptron (MLP) is appended to the encoder to produce whatever output is required. a) Example text classification task. In this sentiment classification task, the  token embedding is used to predict the probability that the review is positive. b) Example word classification task. In this named entity recognition problem, the embedding for each word is used to predict whether the word corresponds to a person, place, or organization, or is not an entity.",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "caption": "Figure 12.11 After pre-training, the encoder is fine-tuned using manually labeled data to solve a particular task. Usually, a linear transformation or a multi-layer perceptron (MLP) is appended to the encoder to produce whatever output is required. a) Example text classification task. In this sentiment classification task, the  token embedding is used to predict the probability that the review is positive. b) Example word classification task. In this named entity recognition problem, the embedding for each word is used to predict whether the word corresponds to a person, place, or organization, or is not an entity."
+  },
+  {
+    "id": "page_0221-b003",
+    "page_key": 221,
+    "order": 3,
+    "type": "heading",
+    "text": "## 12.6.2 Fine-tuning",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0221-b004",
+    "page_key": 221,
+    "order": 4,
+    "type": "paragraph",
+    "text": "In the fine-tuning stage, the model parameters are adjusted to specialize the network to a particular task. An extra layer is appended onto the transformer network to convert the output vectors to the desired output format. Examples include:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0221-b005",
+    "page_key": 221,
+    "order": 5,
+    "type": "paragraph",
+    "text": "Text classification: In BERT, a special token known as the classification or  token is placed at the start of each string during pre-training. For text classification tasks like sentiment analysis (in which the passage is labeled as having a positive or negative emotional tone), the vector associated with the  token is mapped to a single number and passed through a logistic sigmoid (figure 12.11a). This contributes to a standard binary cross-entropy loss (section 5.4).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

@@ -3,9 +3,10 @@
     "id": "page_0216-b001",
     "page_key": 216,
     "order": 1,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
     "type": "figure",
+    "text": "",
+    "source": "deepseek+paddle",
+    "confidence": "high",
     "image_path": "figures/page_0216_fig_1.jpg"
   },
   {
@@ -13,53 +14,55 @@
     "page_key": 216,
     "order": 2,
     "type": "caption",
+    "text": "Figure 12.7 Transformer layer. The input consists of a $D \\times N$ matrix containing the D-dimensional word embeddings for each of the N input tokens. The output is a matrix of the same size. The transformer layer consists of a series of operations. First, there is a multi-head attention block, allowing the word embeddings to interact with one another. This forms the processing of a residual block, so the inputs are added back to the output. Second, a LayerNorm operation is applied separately to each embedding. Third, there is a second residual layer where the same fully connected neural network is applied separately to each of the N word representations (columns). Finally, LayerNorm is applied again.",
     "source": "deepseek+paddle",
-    "confidence": "medium",
-    "text": "Figure 12.7 Transformer layer. The input consists of a $D \\times N$ matrix containing the D-dimensional word embeddings for each of the N input tokens. The output is a matrix of the same size. The transformer layer co..."
+    "confidence": "high",
+    "caption": "Figure 12.7 Transformer layer. The input consists of a $D \\times N$ matrix containing the D-dimensional word embeddings for each of the N input tokens. The output is a matrix of the same size. The transformer layer consists of a series of operations. First, there is a multi-head attention block, allowing the word embeddings to interact with one another. This forms the processing of a residual block, so the inputs are added back to the output. Second, a LayerNorm operation is applied separately to each embedding. Third, there is a second residual layer where the same fully connected neural network is applied separately to each of the N word representations (columns). Finally, LayerNorm is applied again."
   },
   {
     "id": "page_0216-b003",
     "page_key": 216,
     "order": 3,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
     "type": "paragraph",
-    "text": "other) followed by a fully connected network mlp[x₀] (that operates separately on each word). Both units are residual networks (i.e., their output is added back to the original input). In addition, it is typical to ad..."
+    "text": "other) followed by a fully connected network mlp[x₀] (that operates separately on each word). Both units are residual networks (i.e., their output is added back to the original input). In addition, it is typical to add a LayerNorm operation after both the self-attention and fully connected networks. This is similar to BatchNorm but normalizes each embedding in each batch element separately using statistics calculated across its D embedding dimensions (section 11.4 and figure 11.14). The complete layer can be described by the following series of operations (figure 12.7):",
+    "source": "deepseek+paddle",
+    "confidence": "high"
   },
   {
     "id": "page_0216-b004",
     "page_key": 216,
     "order": 4,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
     "type": "equation",
-    "text": "\\begin{aligned}\\mathbf{X}&\\leftarrow\\mathbf{X}+\\mathrm{MhSa}[\\mathbf{X}]\\\\ \\mathbf{X}&\\leftarrow\\mathrm{LayerNorm}[\\mathbf{X}]\\\\ \\mathbf{x}_{n}&\\leftarrow\\mathbf{x}_{n}+\\mathrm{mlp}[\\mathbf{x}_{n}]\\\\\\nabla n&\\in\\lbrace 1,\\cdots,N\\rbrace \\end{aligned} \\quad (12.13)"
+    "text": "$$\n\\begin{aligned}\n\\mathbf{X} &\\leftarrow \\mathbf{X}+\\mathrm{MhSa}[\\mathbf{X}] \\\\\n\\mathbf{X} &\\leftarrow \\mathrm{LayerNorm}[\\mathbf{X}] \\\\\n\\mathbf{x}_n &\\leftarrow \\mathbf{x}_n+\\mathrm{mlp}[\\mathbf{x}_n] && \\forall n\\in\\lbrace 1,\\ldots,N\\rbrace \\\\\n\\mathbf{X} &\\leftarrow \\mathrm{LayerNorm}[\\mathbf{X}]\n\\end{aligned}\\qquad (12.13)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium",
+    "latex": "\\begin{aligned}\n\\mathbf{X} &\\leftarrow \\mathbf{X}+\\mathrm{MhSa}[\\mathbf{X}] \\\\\n\\mathbf{X} &\\leftarrow \\mathrm{LayerNorm}[\\mathbf{X}] \\\\\n\\mathbf{x}_n &\\leftarrow \\mathbf{x}_n+\\mathrm{mlp}[\\mathbf{x}_n] && \\forall n\\in\\lbrace 1,\\ldots,N\\rbrace \\\\\n\\mathbf{X} &\\leftarrow \\mathrm{LayerNorm}[\\mathbf{X}]\n\\end{aligned}\\qquad (12.13)"
   },
   {
     "id": "page_0216-b005",
     "page_key": 216,
     "order": 5,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
     "type": "paragraph",
-    "text": "where the column vectors $x_{n}$ are separately taken from the full data matrix X. In a real network, the data passes through a series of these transformer layers."
+    "text": "where the column vectors $x_{n}$ are separately taken from the full data matrix X. In a real network, the data passes through a series of these transformer layers.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
   },
   {
     "id": "page_0216-b006",
     "page_key": 216,
     "order": 6,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
     "type": "heading",
-    "text": "## 12.5 Transformers for natural language processing"
+    "text": "## 12.5 Transformers for natural language processing",
+    "source": "deepseek+paddle",
+    "confidence": "high"
   },
   {
     "id": "page_0216-b007",
     "page_key": 216,
     "order": 7,
-    "source": "deepseek+paddle",
-    "confidence": "medium",
     "type": "paragraph",
-    "text": "The previous section described the transformer layer. This section describes how it is used in natural language processing (NLP) tasks. A typical NLP pipeline starts with a tokenizer that splits the text into words or..."
+    "text": "The previous section described the transformer layer. This section describes how it is used in natural language processing (NLP) tasks. A typical NLP pipeline starts with a tokenizer that splits the text into words or word fragments. Then each of these tokens",
+    "source": "deepseek+paddle",
+    "confidence": "high"
   }
 ]

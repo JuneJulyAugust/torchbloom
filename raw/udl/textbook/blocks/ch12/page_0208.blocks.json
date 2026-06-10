@@ -1,1 +1,131 @@
-[{"id":"page_0208-b001","page_key":208,"order":1,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"Second, one of the defining characteristics of NLP problems is that each input (one or more sentences) is of a different length; hence, it’s not even obvious how to apply a fully connected network. These observations..."},{"id":"page_0208-b002","page_key":208,"order":2,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"Third, language is ambiguous; it is unclear from the syntax alone that the pronoun it refers to the restaurant and not to the ham sandwich. To understand the text, the word it should somehow be connected to the word r..."},{"id":"page_0208-b003","page_key":208,"order":3,"source":"deepseek+paddle","confidence":"medium","type":"heading","text":"## 12.2 Dot-product self-attention"},{"id":"page_0208-b004","page_key":208,"order":4,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"The previous section argued that a model for processing text will (i) use parameter sharing to cope with long input passages of differing lengths and (ii) contain connections between word representations that depend o..."},{"id":"page_0208-b005","page_key":208,"order":5,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"A standard neural network layer f[x], takes a $D \\times 1$ input x and applies a linear transformation followed by an activation function like a ReLU, so:"},{"id":"page_0208-b006","page_key":208,"order":6,"source":"deepseek+paddle","confidence":"medium","type":"equation","text":"\\mathbf{f}[\\mathbf{x}]=\\mathbf{R e L U}[\\boldsymbol{\\beta}+\\Omega\\mathbf{x}], \\quad (12.1)"},{"id":"page_0208-b007","page_key":208,"order":7,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"where $\\beta$ contains the biases, and $\\Omega$ contains the weights."},{"id":"page_0208-b008","page_key":208,"order":8,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"A self-attention block $sa[\\bullet]$ takes N inputs $x_{1},\\ldots,x_{N}$ , each of dimension $D\\times1$ , and returns N outputs, each of which is also of size $D\\times1$ . In the context of NLP, each input represents..."},{"id":"page_0208-b009","page_key":208,"order":9,"source":"deepseek+paddle","confidence":"medium","type":"equation","text":"\\mathbf{v}_{m}=\\boldsymbol{\\beta}_{v}+\\Omega_{v}\\mathbf{x}_{m}, \\quad (12.2)"},{"id":"page_0208-b010","page_key":208,"order":10,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"where $\\beta_{v}\\in\\mathbb{R}^{D\\times1}$ and $\\Omega_{v}\\in\\mathbb{R}^{D\\times D}$ represent biases and weights, respectively."},{"id":"page_0208-b011","page_key":208,"order":11,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"Then the $n^{th}$ output $\\mathbf{s}\\mathbf{a}_{n}[\\mathbf{x}_{1},\\ldots,\\mathbf{x}_{N}]$ is a weighted sum of all the values $\\mathbf{v}_{1},\\ldots,\\mathbf{v}_{N}$:"},{"id":"page_0208-b012","page_key":208,"order":12,"source":"deepseek+paddle","confidence":"medium","type":"equation","text":"\\mathbf{s a}_{n}[\\mathbf{x}_{1},\\ldots,\\mathbf{x}_{N}]=\\sum_{m=1}^{N}a[\\mathbf{x}_{m},\\mathbf{x}_{n}]\\mathbf{v}_{m}. \\quad (12.3)"},{"id":"page_0208-b013","page_key":208,"order":13,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"The scalar weight $a[\\mathbf{x}_{m},\\mathbf{x}_{n}]$ is the attention that the $n^{th}$ output pays to input $\\mathbf{x}_{m}$. The N weights $a[\\bullet,\\mathbf{x}_{n}]$ are non-negative and sum to one. Hence, self-att..."},{"id":"page_0208-b014","page_key":208,"order":14,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"The following sections examine dot-product self-attention in more detail. First, we consider the computation of the values and their subsequent weighting (equation 12.3). Then we describe how to compute the attention..."}]
+[
+  {
+    "id": "page_0208-b001",
+    "page_key": 208,
+    "order": 1,
+    "type": "paragraph",
+    "text": "Second, one of the defining characteristics of NLP problems is that each input (one or more sentences) is of a different length; hence, it’s not even obvious how to apply a fully connected network. These observations suggest that the network should share parameters across words at different input positions, similarly to how convolutional networks share parameters across different image positions.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0208-b002",
+    "page_key": 208,
+    "order": 2,
+    "type": "paragraph",
+    "text": "Third, language is ambiguous; it is unclear from the syntax alone that the pronoun it refers to the restaurant and not to the ham sandwich. To understand the text, the word it should somehow be connected to the word restaurant. In the parlance of transformers, the former word should pay attention to the latter. This implies that there must be connections between the words and that the strength of these connections will depend on the words themselves. Moreover, these connections need to extend across large text spans. For example, the word their in the last sentence also refers to the restaurant.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0208-b003",
+    "page_key": 208,
+    "order": 3,
+    "type": "heading",
+    "text": "## 12.2 Dot-product self-attention",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0208-b004",
+    "page_key": 208,
+    "order": 4,
+    "type": "paragraph",
+    "text": "The previous section argued that a model for processing text will (i) use parameter sharing to cope with long input passages of differing lengths and (ii) contain connections between word representations that depend on the words themselves. The transformer acquires both properties by using dot-product self-attention.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0208-b005",
+    "page_key": 208,
+    "order": 5,
+    "type": "paragraph",
+    "text": "A standard neural network layer f[x], takes a $D \\times 1$ input x and applies a linear transformation followed by an activation function like a ReLU, so:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0208-b006",
+    "page_key": 208,
+    "order": 6,
+    "type": "equation",
+    "text": "$$\n\\mathbf{f}[\\mathbf{x}]=\\mathrm{ReLU}\\left[\\boldsymbol{\\beta}+\\boldsymbol{\\Omega}\\mathbf{x}\\right]\\qquad (12.1)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium",
+    "latex": "\\mathbf{f}[\\mathbf{x}]=\\mathrm{ReLU}\\left[\\boldsymbol{\\beta}+\\boldsymbol{\\Omega}\\mathbf{x}\\right]\\qquad (12.1)"
+  },
+  {
+    "id": "page_0208-b007",
+    "page_key": 208,
+    "order": 7,
+    "type": "paragraph",
+    "text": "where $\\beta$ contains the biases, and $\\Omega$ contains the weights.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0208-b008",
+    "page_key": 208,
+    "order": 8,
+    "type": "paragraph",
+    "text": "A self-attention block $sa[\\bullet]$ takes N inputs $x_{1},\\ldots,x_{N}$ , each of dimension $D\\times1$ , and returns N outputs, each of which is also of size $D\\times1$ . In the context of NLP, each input represents a word or word fragment. First, a set of values are computed for each input:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0208-b009",
+    "page_key": 208,
+    "order": 9,
+    "type": "equation",
+    "text": "$$\n\\mathbf{v}_m=\\boldsymbol{\\beta}_v+\\boldsymbol{\\Omega}_v\\mathbf{x}_m\\qquad (12.2)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium",
+    "latex": "\\mathbf{v}_m=\\boldsymbol{\\beta}_v+\\boldsymbol{\\Omega}_v\\mathbf{x}_m\\qquad (12.2)"
+  },
+  {
+    "id": "page_0208-b010",
+    "page_key": 208,
+    "order": 10,
+    "type": "paragraph",
+    "text": "where $\\beta_{v}\\in\\mathbb{R}^{D\\times1}$ and $\\Omega_{v}\\in\\mathbb{R}^{D\\times D}$ represent biases and weights, respectively.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0208-b011",
+    "page_key": 208,
+    "order": 11,
+    "type": "paragraph",
+    "text": "Then the $n^{th}$ output $\\mathbf{s}\\mathbf{a}_{n}[\\mathbf{x}_{1},\\ldots,\\mathbf{x}_{N}]$ is a weighted sum of all the values $\\mathbf{v}_{1},\\ldots,\\mathbf{v}_{N}$:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0208-b012",
+    "page_key": 208,
+    "order": 12,
+    "type": "equation",
+    "text": "$$\n\\mathbf{sa}_n[\\mathbf{x}_1,\\ldots,\\mathbf{x}_N]=\\sum_{m=1}^{N}a[\\mathbf{x}_m,\\mathbf{x}_n]\\mathbf{v}_m\\qquad (12.3)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium",
+    "latex": "\\mathbf{sa}_n[\\mathbf{x}_1,\\ldots,\\mathbf{x}_N]=\\sum_{m=1}^{N}a[\\mathbf{x}_m,\\mathbf{x}_n]\\mathbf{v}_m\\qquad (12.3)"
+  },
+  {
+    "id": "page_0208-b013",
+    "page_key": 208,
+    "order": 13,
+    "type": "paragraph",
+    "text": "The scalar weight $a[\\mathbf{x}_{m},\\mathbf{x}_{n}]$ is the attention that the $n^{th}$ output pays to input $\\mathbf{x}_{m}$. The N weights $a[\\bullet,\\mathbf{x}_{n}]$ are non-negative and sum to one. Hence, self-attention can be thought of as routing the values in different proportions to create each output (figure 12.1).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0208-b014",
+    "page_key": 208,
+    "order": 14,
+    "type": "paragraph",
+    "text": "The following sections examine dot-product self-attention in more detail. First, we consider the computation of the values and their subsequent weighting (equation 12.3). Then we describe how to compute the attention weights $a[x_{m}, x_{n}]$ themselves.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

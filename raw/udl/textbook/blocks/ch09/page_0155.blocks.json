@@ -4,10 +4,10 @@
     "page_key": 155,
     "order": 1,
     "type": "figure",
-    "source": "deepseek+paddle",
+    "source": "paddle",
     "confidence": "high",
     "image_path": "figures/page_0155_fig_1.jpg",
-    "alt_text": "Figure 9.14 Regularization methods. The regularization methods discussed in this chapter aim to improve generalization by one of four mechanisms. Some methods aim to make the model"
+    "alt": "Figure 9.14 Regularization methods. The regularization methods discussed in this chapter aim to improve generalization by one of four mechanisms. Some methods a"
   },
   {
     "id": "page_0155-b002",
@@ -15,25 +15,25 @@
     "order": 2,
     "type": "caption",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Figure 9.14 Regularization methods. The regularization methods discussed in this chapter aim to improve generalization by one of four mechanisms. Some methods aim to make the modeled function smoother. Other methods increase the effective amount of data. The third group of methods combine multiple models and hence mitigate against uncertainty in the fitting process. Finally, the fourth group of methods encourages the training process to converge to a wide minimum where small errors in the estimated parameters are less important (see also figure 20.11)."
+    "confidence": "medium",
+    "caption": "Figure 9.14 Regularization methods. The regularization methods discussed in this chapter aim to improve generalization by one of four mechanisms. Some methods aim to make the modeled function smoother. Other methods increase the effective amount of data. The third group of methods combine multiple models and hence mitigate against uncertainty in the fitting process. Finally, the fourth group of methods encourages the training process to converge to a wide minimum where small errors in the estimated parameters are less important (see also figure 20.11)."
   },
   {
     "id": "page_0155-b003",
     "page_key": 155,
     "order": 3,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
-    "text": "Another way to improve generalization is to choose the model architecture to suit the task. For example, in image segmentation, we can share parameters within the model, so we don’t need to independently learn what a tree looks like at every image location. Chapters 10–13 consider architectural variations designed for different tasks."
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Another way to improve generalization is to choose the model architecture to suit the task. For example, in image segmentation, we can share parameters within the model, so we don't need to independently learn what a tree looks like at every image location. Chapters 10-13 consider architectural variations designed for different tasks."
   },
   {
     "id": "page_0155-b004",
     "page_key": 155,
     "order": 4,
     "type": "heading",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "Notes"
   },
   {
@@ -41,18 +41,18 @@
     "page_key": 155,
     "order": 5,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
-    "text": "An overview and taxonomy of regularization techniques in deep learning can be found in Kukačka et al. (2017). Notably missing from the discussion in this chapter is BatchNorm (Szegedy et al., 2016) and its variants, which are described in chapter 11."
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "An overview and taxonomy of regularization techniques in deep learning can be found in Kuka\u010dka et al. (2017). Notably missing from the discussion in this chapter is BatchNorm (Szegedy et al., 2016) and its variants, which are described in chapter 11."
   },
   {
     "id": "page_0155-b006",
     "page_key": 155,
     "order": 6,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
-    "text": "Regularization: L2 regularization penalizes the sum of squares of the network weights. This encourages the output function to change slowly (i.e., become smoother) and is the most used regularization term. It is sometimes referred to as Frobenius norm regularization as it penalizes the Frobenius norms of the weight matrices. It is often also mistakenly referred to as “weight decay,” although this is a separate technique devised by Hanson & Pratt (1988) in which the parameters $\\phi$ are updated as:"
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Regularization: L2 regularization penalizes the sum of squares of the network weights. This encourages the output function to change slowly (i.e., become smoother) and is the most used regularization term. It is sometimes referred to as Frobenius norm regularization as it penalizes the Frobenius norms of the weight matrices. It is often also mistakenly referred to as \"weight decay,\" although this is a separate technique devised by Hanson & Pratt (1988) in which the parameters $\\phi$ are updated as:"
   },
   {
     "id": "page_0155-b007",
@@ -61,6 +61,6 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\phi\\leftarrow(1-\\lambda^{\\prime})\\phi-\\alpha\\frac{\\partial L}{\\partial\\phi},\n\\end{aligned} \\quad (9.13)"
+    "latex": "\\phi\\leftarrow(1-\\lambda^{\\prime})\\phi-\\alpha\\frac{\\partial L}{\\partial\\phi}, \\qquad (9.13)"
   }
 ]

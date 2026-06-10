@@ -3,82 +3,73 @@
     "id": "page_0406-b001",
     "page_key": 406,
     "order": 1,
-    "type": "paragraph",
-    "source": "deepseek+paddle",
+    "type": "figure",
+    "text": "Figure 20.3 Overparameterization (../../figures/page_0406_fig_1.jpg)",
+    "source": "paddle",
     "confidence": "high",
-    "text": "**Figure 1**"
+    "image_path": "figures/page_0406_fig_1.jpg"
   },
   {
     "id": "page_0406-b002",
     "page_key": 406,
     "order": 2,
-    "type": "figure",
-    "source": "paddle",
-    "confidence": "high",
-    "image_path": "figures/page_0406_fig_1.jpg",
-    "alt_text": "Figure 20.3 Overparameterization. ImageNet performance for convolutional nets as a function of overparameterization (in multiples of dataset size). Most models have 100\u2013100 times more parameters than the one where training examples. Models compared are ResNet (He et al., 2016a,b), DenseNet (Huang et al., 2017b), Xception (Chollet, 2017), EfficientNet (Tan & Le, 2019), Inception (Szegedy et al., 2017), ResNeXt (Xie et al., 2017), and AmoebaNet (Cubuk et al., 2019)."
+    "type": "caption",
+    "text": "Figure 20.3 Overparameterization. ImageNet performance for convolutional nets as a function of overparameterization (in multiples of dataset size). Most models have 100\u2013100 times more parameters than the one where training examples. Models compared are ResNet (He et al., 2016a,b), DenseNet (Huang et al., 2017b), Xception (Chollet, 2017), EfficientNet (Tan & Le, 2019), Inception (Szegedy et al., 2017), ResNeXt (Xie et al., 2017), and AmoebaNet (Cubuk et al., 2019).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
   },
   {
     "id": "page_0406-b003",
     "page_key": 406,
     "order": 3,
-    "type": "caption",
+    "type": "paragraph",
+    "text": "If a neural network is sufficiently overparameterized so that it can memorize any dataset of a fixed size, then all stationary points become global minima (Livni et al., 2014; Nguyen & Hein, 2017, 2018). Other results show that if the network is wide enough, local minima where the loss is higher than the global minimum are rare (see Choromanska et al., 2015; Pascanu et al., 2014; Pennington & Bahri, 2017). Kawaguchi et al. (2019) prove that as a network becomes deeper, wider, or both, the loss at local minima becomes closer to that at the global minimum for squared loss functions.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Figure 20.3 Overparameterization. ImageNet performance for convolutional nets as a function of overparameterization (in multiples of dataset size). Most models have 100\u2013100 times more parameters than the one where training examples. Models compared are ResNet (He et al., 2016a,b), DenseNet (Huang et al., 2017b), Xception (Chollet, 2017), EfficientNet (Tan & Le, 2019), Inception (Szegedy et al., 2017), ResNeXt (Xie et al., 2017), and AmoebaNet (Cubuk et al., 2019)."
+    "confidence": "medium"
   },
   {
     "id": "page_0406-b004",
     "page_key": 406,
     "order": 4,
     "type": "paragraph",
+    "text": "These theoretical results are intriguing but usually make unrealistic assumptions about the network structure. For example, Du et al. (2019a) show that residual networks converge to zero training loss when the width of the network D (i.e., the number of hidden units) is $\\Omega[I^{4}K^{2}]$ where I is the amount of training data, and K is the depth of the network. Similarly, Nguyen & Hein (2017) assume that the network\u2019s width is larger than the dataset size, which is unrealistic in most practical scenarios. Overparameterization seems to be important, but theory cannot yet explain empirical fitting performance.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "If a neural network is sufficiently overparameterized so that it can memorize any dataset of a fixed size, then all stationary points become global minima (Livni et al., 2014; Nguyen & Hein, 2017, 2018). Other results show that if the network is wide enough, local minima where the loss is higher than the global minimum are rare (see Choromanska et al., 2015; Pascanu et al., 2014; Pennington & Bahri, 2017). Kawaguchi et al. (2019) prove that as a network becomes deeper, wider, or both, the loss at local minima becomes closer to that at the global minimum for squared loss functions."
+    "confidence": "medium"
   },
   {
     "id": "page_0406-b005",
     "page_key": 406,
     "order": 5,
-    "type": "paragraph",
+    "type": "heading",
+    "text": "## 20.2.5 Activation functions",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "These theoretical results are intriguing but usually make unrealistic assumptions about the network structure. For example, Du et al. (2019a) show that residual networks converge to zero training loss when the width of the network D (i.e., the number of hidden units) is $\\Omega[I^{4}K^{2}]$ where I is the amount of training data, and K is the depth of the network. Similarly, Nguyen & Hein (2017) assume that the network\u2019s width is larger than the dataset size, which is unrealistic in most practical scenarios. Overparameterization seems to be important, but theory cannot yet explain empirical fitting performance."
+    "confidence": "medium"
   },
   {
     "id": "page_0406-b006",
     "page_key": 406,
     "order": 6,
-    "type": "heading",
+    "type": "paragraph",
+    "text": "The activation function is also known to affect training difficulty. Networks where the activation only changes over a small part of the input range are harder to fit than ReLUs (which vary over half the input range) or Leaky ReLUs (which vary over the full range); For example, sigmoid and tanh nonlinearities (figure 3.13a) have shallow gradients in their tails; where the activation function is near-constant, the training gradient is near-zero, so the mechanism to improve the model is extremely weak.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "20.2.5 Activation functions"
+    "confidence": "medium"
   },
   {
     "id": "page_0406-b007",
     "page_key": 406,
     "order": 7,
-    "type": "paragraph",
+    "type": "heading",
+    "text": "## 20.2.6 Initialization",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "The activation function is also known to affect training difficulty. Networks where the activation only changes over a small part of the input range are harder to fit than ReLUs (which vary over half the input range) or Leaky ReLUs (which vary over the full range); For example, sigmoid and tanh nonlinearities (figure 3.13a) have shallow gradients in their tails; where the activation function is near-constant, the training gradient is near-zero, so the mechanism to improve the model is extremely weak."
+    "confidence": "medium"
   },
   {
     "id": "page_0406-b008",
     "page_key": 406,
     "order": 8,
-    "type": "heading",
-    "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "20.2.6 Initialization"
-  },
-  {
-    "id": "page_0406-b009",
-    "page_key": 406,
-    "order": 9,
     "type": "paragraph",
+    "text": "Another potential explanation is that Xavier/He initialization sets the parameters to values that are easy to optimize. Of course, for deeper networks, such initialization is necessary to avoid exploding and vanishing gradients, so in a trivial sense, initialisation is critical to training success. However, for shallower networks, the initial variance of the",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Another potential explanation is that Xavier/He initialization sets the parameters to values that are easy to optimize. Of course, for deeper networks, such initialization is necessary to avoid exploding and vanishing gradients, so in a trivial sense, initialisation is critical to training success. However, for shallower networks, the initial variance of the"
+    "confidence": "medium"
   }
 ]

@@ -4,62 +4,62 @@
     "page_key": 398,
     "order": 1,
     "type": "paragraph",
+    "text": "The original Q-Learning paper concatenated four frames so the network could observe the velocities of objects and make the underlying process closer to fully observable. Hausknecht & Stone (2015) introduced deep recurrent Q-learning, which used a recurrent network architecture that only ingested a single frame at a time because it could \u201cremember\u201d the previous states. Van Hasselt (2010) identified the systematic overestimation of the state values due to the max operation and proposed double Q-Learning in which two models are trained simultaneously to remedy this. This was subsequently applied in the context of deep Q-learning (Van Hasselt et al., 2016), although its efficacy has since been questioned (Hessel et al., 2018). Wang et al. (2016) introduced deep dueling networks in which two heads of the same network predict (i) the state value and (ii) the advantage (relative value) of each action. The intuition here is that sometimes it is time, and it doesn\u2019t matter much which action is taken, and decoupling these estimates improves stability.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "The original Q-Learning paper concatenated four frames so the network could observe the velocities of objects and make the underlying process closer to fully observable. Hausknecht & Stone (2015) introduced deep recurrent Q-learning, which used a recurrent network architecture that only ingested a single frame at a time because it could \u201cremember\u201d the previous states. Van Hasselt (2010) identified the systematic overestimation of the state values due to the max operation and proposed double Q-Learning in which two models are trained simultaneously to remedy this. This was subsequently applied in the context of deep Q-learning (Van Hasselt et al., 2016), although its efficacy has since been questioned (Hessel et al., 2018). Wang et al. (2016) introduced deep dueling networks in which two heads of the same network predict (i) the state value and (ii) the advantage (relative value) of each action. The intuition here is that sometimes it is time, and it doesn\u2019t matter much which action is taken, and decoupling these estimates improves stability."
+    "confidence": "medium"
   },
   {
     "id": "page_0398-b002",
     "page_key": 398,
     "order": 2,
     "type": "paragraph",
+    "text": "Fortunato et al. (2018) introduced noisy deep Q-Networks, in which some weights in the Q-Network are multiplied by noise to add stochasticity to the predictions and encourage exploration. The network can learn to decrease the magnitudes of the noise over time as it converges to a sensible policy. Distributional DQN (Bellemare et al., 2017a; Dabney et al., 2018 followed by Morimura et al., 2010) aims to estimate more complete information about the distribution of returns than just the expectation. This potentially allows the network to mitigate against worst-case outcomes and can also improve performance, as predicting higher moments provides a richer training signal. Rainbow (Hessel et al., 2018) combined six improvements to the original deep Q-learning algorithm, including dueling networks, distributional DQN, and noisy DQN, to improve both the training speed and the final performance on the ATARI benchmark.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Fortunato et al. (2018) introduced noisy deep Q-Networks, in which some weights in the Q-Network are multiplied by noise to add stochasticity to the predictions and encourage exploration. The network can learn to decrease the magnitudes of the noise over time as it converges to a sensible policy. Distributional DQN (Bellemare et al., 2017a; Dabney et al., 2018 followed by Morimura et al., 2010) aims to estimate more complete information about the distribution of returns than just the expectation. This potentially allows the network to mitigate against worst-case outcomes and can also improve performance, as predicting higher moments provides a richer training signal. Rainbow (Hessel et al., 2018) combined six improvements to the original deep Q-learning algorithm, including dueling networks, distributional DQN, and noisy DQN, to improve both the training speed and the final performance on the ATARI benchmark."
+    "confidence": "medium"
   },
   {
     "id": "page_0398-b003",
     "page_key": 398,
     "order": 3,
     "type": "paragraph",
+    "text": "Policy gradients: Williams (1992) introduced the REINFORCE algorithm. The term \u201cpolicy gradient method\u201d dates to Sutton et al. (1999). Konda & Tsitsiklis (1999) introduced the actor-critic algorithm. Removing the variance by using different baselines is discussed in Greensmith et al. (2004) and Peters & Schaal (2008). It has since been argued that the value baseline primarily reduces the aggressiveness of the updates rather than their variance (Mei et al., 2022).",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Policy gradients: Williams (1992) introduced the REINFORCE algorithm. The term \u201cpolicy gradient method\u201d dates to Sutton et al. (1999). Konda & Tsitsiklis (1999) introduced the actor-critic algorithm. Removing the variance by using different baselines is discussed in Greensmith et al. (2004) and Peters & Schaal (2008). It has since been argued that the value baseline primarily reduces the aggressiveness of the updates rather than their variance (Mei et al., 2022)."
+    "confidence": "medium"
   },
   {
     "id": "page_0398-b004",
     "page_key": 398,
     "order": 4,
     "type": "paragraph",
+    "text": "Policy gradients have been adapted to produce deterministic policies (Silver et al., 2014; Lillicrap et al., 2016; Fujimoto et al., 2018). The most direct approach is to maximize over the possible action, but if the action space is continuous, this requires an optimization procedure at each step. The deep deterministic policy gradient algorithm (Lillicrap et al., 2016) moves the policy in the direction of the gradient of the action value (implying the use of an actor-critic method).",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Policy gradients have been adapted to produce deterministic policies (Silver et al., 2014; Lillicrap et al., 2016; Fujimoto et al., 2018). The most direct approach is to maximize over the possible action, but if the action space is continuous, this requires an optimization procedure at each step. The deep deterministic policy gradient algorithm (Lillicrap et al., 2016) moves the policy in the direction of the gradient of the action value (implying the use of an actor-critic method)."
+    "confidence": "medium"
   },
   {
     "id": "page_0398-b005",
     "page_key": 398,
     "order": 5,
     "type": "paragraph",
+    "text": "Modern policy gradients: We introduced policy gradients in terms of the parameter update. However, they can also be viewed as optimizing a surrogate loss based on importance sampling of the expected rewards, using trajectories from the current policy parameters. This view allows us to take multiple optimization steps validly. However, this can cause very large policy updates. The distance between the KL divergence and a target indicating how much we want the policy to change. Proximal policy optimization or PPO (Schulman et al., 2017) is an even simpler approach in which the loss is clipped to ensure smaller updates.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Modern policy gradients: We introduced policy gradients in terms of the parameter update. However, they can also be viewed as optimizing a surrogate loss based on importance sampling of the expected rewards, using trajectories from the current policy parameters. This view allows us to take multiple optimization steps validly. However, this can cause very large policy updates. The distance between the KL divergence and a target indicating how much we want the policy to change. Proximal policy optimization or PPO (Schulman et al., 2017) is an even simpler approach in which the loss is clipped to ensure smaller updates."
+    "confidence": "medium"
   },
   {
     "id": "page_0398-b006",
     "page_key": 398,
     "order": 6,
     "type": "paragraph",
+    "text": "Several methods have been proposed to moderate these updates. Natural policy gradients (Kakade, 2001) are based on natural gradients (Amari, 1998), which modify the descent direction by the Fisher information matrix. This provides a better update which is less likely to get stuck in local plateaus. However, the Fisher matrix is impractical to compute in models with many parameters. In trust-region policy optimization or TPO (Schulman et al., 2015), the surrogate objective is maximized subject to a constraint on the KL divergence between the old and new policies. Schulman et al. (2017) propose a simpler formulation in which this KL divergence appears as a regularization term. The regularization weight is adapted based on the distance between the KL divergence and a target indicating how much we want the policy to change. Proximal policy optimization or PPO (Schulman et al., 2017) is an even simpler approach in which the loss is clipped to ensure smaller updates.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Several methods have been proposed to moderate these updates. Natural policy gradients (Kakade, 2001) are based on natural gradients (Amari, 1998), which modify the descent direction by the Fisher information matrix. This provides a better update which is less likely to get stuck in local plateaus. However, the Fisher matrix is impractical to compute in models with many parameters. In trust-region policy optimization or TPO (Schulman et al., 2015), the surrogate objective is maximized subject to a constraint on the KL divergence between the old and new policies. Schulman et al. (2017) propose a simpler formulation in which this KL divergence appears as a regularization term. The regularization weight is adapted based on the distance between the KL divergence and a target indicating how much we want the policy to change. Proximal policy optimization or PPO (Schulman et al., 2017) is an even simpler approach in which the loss is clipped to ensure smaller updates."
+    "confidence": "medium"
   },
   {
     "id": "page_0398-b007",
     "page_key": 398,
     "order": 7,
     "type": "paragraph",
+    "text": "Actor-critic: In the actor-critic algorithm (Konda & Tsitsiklis, 1999) described in section 19.6, the critic used a 1-step estimator. It\u2019s also possible to use k-step estimators (in which we",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Actor-critic: In the actor-critic algorithm (Konda & Tsitsiklis, 1999) described in section 19.6, the critic used a 1-step estimator. It\u2019s also possible to use k-step estimators (in which we"
+    "confidence": "medium"
   }
 ]

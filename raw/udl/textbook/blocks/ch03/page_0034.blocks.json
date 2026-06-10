@@ -46,14 +46,5 @@
     "source": "deepseek+paddle",
     "confidence": "high",
     "text": "Figure 3.10 caption: D_i hidden units can create 2^{D_i} linear regions."
-  },
-  {
-    "id": "page_0034-b006",
-    "page_key": 34,
-    "order": 6,
-    "type": "review_note",
-    "source": "codex-fusion",
-    "confidence": "medium",
-    "text": "Only the three refreshed final visual crops are linked."
   }
 ]

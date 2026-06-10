@@ -4,76 +4,98 @@
     "page_key": 425,
     "order": 1,
     "type": "paragraph",
+    "text": "that might be present in training data (e.g., gender). However, features of marginalized communities may be unobservable, making bias mitigation even more difficult. Examples include queerness (Tomasev et al., 2021), disability status, neurotype, class, and religion. A similar problem occurs when observable features have been excised from the training data to prevent models from exploiting them.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "that might be present in training data (e.g., gender). However, features of marginalized communities may be unobservable, making bias mitigation even more difficult. Examples include queerness (Tomasev et al., 2021), disability status, neurotype, class, and religion. A similar problem occurs when observable features have been excised from the training data to prevent models from exploiting them."
+    "confidence": "medium"
   },
   {
     "id": "page_0425-b002",
     "page_key": 425,
     "order": 2,
     "type": "heading",
+    "text": "## 21.1.2 Artificial moral agency",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "21.1.2 Artificial moral agency"
+    "confidence": "medium"
   },
   {
     "id": "page_0425-b003",
     "page_key": 425,
     "order": 3,
     "type": "paragraph",
+    "text": "Many decision spaces do not include actions that carry moral weight. For example, choosing the next chess move has no obvious moral consequence. However, elsewhere actions can carry moral weight. Examples include decision-making in autonomous vehicles (Awad et al., 2018; Evans et al., 2020), lethal autonomous weapons systems (Arkin, 2008a,b), and professional service robots for childcare, elderly care, and health care (Anderson & Anderson, 2008; Sharkey & Sharkey, 2012). As these systems become more autonomous, they may need to make moral decisions independent of human input.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Many decision spaces do not include actions that carry moral weight. For example, choosing the next chess move has no obvious moral consequence. However, elsewhere actions can carry moral weight. Examples include decision-making in autonomous vehicles (Awad et al., 2018; Evans et al., 2020), lethal autonomous weapons systems (Arkin, 2008a,b), and professional service robots for childcare, elderly care, and health care (Anderson & Anderson, 2008; Sharkey & Sharkey, 2012). As these systems become more autonomous, they may need to make moral decisions independent of human input."
+    "confidence": "medium"
   },
   {
     "id": "page_0425-b004",
     "page_key": 425,
     "order": 4,
     "type": "paragraph",
+    "text": "This leads to the notion of artificial moral agency. An artificial moral agent is an autonomous AI system capable of making moral judgments. Moral agency can be categorized in terms of increasing complexity (Moor, 2006):",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "This leads to the notion of artificial moral agency. An artificial moral agent is an autonomous AI system capable of making moral judgments. Moral agency can be categorized in terms of increasing complexity (Moor, 2006):"
+    "confidence": "medium"
   },
   {
     "id": "page_0425-b005",
     "page_key": 425,
     "order": 5,
     "type": "list",
+    "text": "1. Ethical impact agents are agents that affect a situation for the better or worse, but are not designed with ethics in mind. Hence, almost any technology deployed in society might count as an ethical impact agent.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "items": [
-      "Ethical impact agents are agents that affect a situation for the better or worse, but are not designed with ethics in mind. Hence, almost any technology deployed in society might count as an ethical impact agent.",
-      "Implicit ethical agents are ethical impact agents that include some in-built safety features.",
-      "Explicit ethical agents can contextually follow general moral principles or rules of ethical conduct.",
-      "Full ethical agents are agents with beliefs, desires, intentions, free will, and consciousness of their actions."
-    ]
+    "confidence": "medium"
   },
   {
     "id": "page_0425-b006",
     "page_key": 425,
     "order": 6,
-    "type": "paragraph",
+    "type": "list",
+    "text": "2. Implicit ethical agents are ethical impact agents that include some in-built safety features.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "The field of machine ethics seeks approaches to creating artificial moral agents. These approaches can be categorized as top-down, bottom-up, or hybrid (Allen et al., 2005). Top-down (theory-driven) methods directly implement and hierarchically arrange concrete rules based on some moral theory to guide ethical behavior. Asimov\u2019s \u201cThree Laws of Robotics\u201d are a trivial example of this approach."
+    "confidence": "medium"
   },
   {
     "id": "page_0425-b007",
     "page_key": 425,
     "order": 7,
-    "type": "paragraph",
+    "type": "list",
+    "text": "3. Explicit ethical agents can contextually follow general moral principles or rules of ethical conduct.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "In bottom-up (learning-driven) approaches, a model learns moral regularities from data without explicit programming (Wallach et al., 2008). For example, Noothigattu et al. (2018) designed a voting-based system for ethical decision-making that uses data collected from human preferences in moral dilemmas to learn social preferences; the system then summarizes and aggregates the results to render an \u201cethical\u201d decision. Hybrid approaches combine top-down and bottom-up approaches."
+    "confidence": "medium"
   },
   {
     "id": "page_0425-b008",
     "page_key": 425,
     "order": 8,
-    "type": "paragraph",
+    "type": "list",
+    "text": "4. Full ethical agents are agents with beliefs, desires, intentions, free will, and consciousness of their actions.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Some researchers have questioned the very idea of artificial moral agency and argued that moral agency is unnecessary for ensuring safety (van Wynsberghe & Robbins, 2019). See Cervantes et al. (2019) for a recent survey of artificial moral agency and Tolmeijer et al. (2020) for a recent survey on technical approaches to artificial moral agency."
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0425-b009",
+    "page_key": 425,
+    "order": 9,
+    "type": "paragraph",
+    "text": "The field of machine ethics seeks approaches to creating artificial moral agents. These approaches can be categorized as top-down, bottom-up, or hybrid (Allen et al., 2005). Top-down (theory-driven) methods directly implement and hierarchically arrange concrete rules based on some moral theory to guide ethical behavior. Asimov\u2019s \u201cThree Laws of Robotics\u201d are a trivial example of this approach.",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0425-b010",
+    "page_key": 425,
+    "order": 10,
+    "type": "paragraph",
+    "text": "In bottom-up (learning-driven) approaches, a model learns moral regularities from data without explicit programming (Wallach et al., 2008). For example, Noothigattu et al. (2018) designed a voting-based system for ethical decision-making that uses data collected from human preferences in moral dilemmas to learn social preferences; the system then summarizes and aggregates the results to render an \u201cethical\u201d decision. Hybrid approaches combine top-down and bottom-up approaches.",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0425-b011",
+    "page_key": 425,
+    "order": 11,
+    "type": "paragraph",
+    "text": "Some researchers have questioned the very idea of artificial moral agency and argued that moral agency is unnecessary for ensuring safety (van Wynsberghe & Robbins, 2019). See Cervantes et al. (2019) for a recent survey of artificial moral agency and Tolmeijer et al. (2020) for a recent survey on technical approaches to artificial moral agency.",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
   }
 ]

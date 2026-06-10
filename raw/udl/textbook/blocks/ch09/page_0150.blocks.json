@@ -3,109 +3,127 @@
     "id": "page_0150-b001",
     "page_key": 150,
     "order": 1,
-    "type": "figure",
+    "type": "paragraph",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "image_path": "figures/page_0150_fig_1.jpg",
-    "alt_text": "Figure 9.10 Adding noise to inputs. At each step of SGD, random noise with variance $\\sigma_{x}^{2}$ is added to the batch data. a–c) Fitted model with different noise levels (smal"
+    "confidence": "medium",
+    "text": "b)"
   },
   {
     "id": "page_0150-b002",
     "page_key": 150,
     "order": 2,
-    "type": "caption",
+    "type": "paragraph",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Figure 9.10 Adding noise to inputs. At each step of SGD, random noise with variance $\\sigma_{x}^{2}$ is added to the batch data. a–c) Fitted model with different noise levels (small dots represent ten samples). Adding more noise smooths out the fitted function (cyan line)."
+    "confidence": "medium",
+    "text": "c)"
   },
   {
     "id": "page_0150-b003",
     "page_key": 150,
     "order": 3,
-    "type": "paragraph",
-    "source": "deepseek",
+    "type": "figure",
+    "source": "paddle",
     "confidence": "high",
-    "text": "the training labels are incorrect and belong with equal probability to the other classes. This could be done by randomly changing the labels at each training iteration. However, the same end can be achieved by changing the loss function to minimize the cross-entropy between the predicted distribution and a distribution where the true label has probability $1 - \\rho$ , and the other classes have equal probability. This is known as label smoothing and improves generalization in diverse scenarios."
+    "image_path": "figures/page_0150_fig_1.jpg",
+    "alt": "Figure 9.10 Adding noise to inputs. At each step of SGD, random noise with variance $\\sigma_{x}^{2}$ is added to the batch data. a-c) Fitted model with differen"
   },
   {
     "id": "page_0150-b004",
     "page_key": 150,
     "order": 4,
-    "type": "heading",
-    "source": "deepseek",
-    "confidence": "high",
-    "text": "9.3.5 Bayesian inference"
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "caption": "Figure 9.10 Adding noise to inputs. At each step of SGD, random noise with variance $\\sigma_{x}^{2}$ is added to the batch data. a-c) Fitted model with different noise levels (small dots represent ten samples). Adding more noise smooths out the fitted function (cyan line)."
   },
   {
     "id": "page_0150-b005",
     "page_key": 150,
     "order": 5,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
-    "text": "The maximum likelihood approach is generally overconfident; it selects the most likely parameters during training and uses these to make predictions. However, many parameter values may be broadly compatible with the data and only slightly less likely. The Bayesian approach treats the parameters as unknown variables and computes a distribution $Pr(\\phi|\\lbrace \\mathbf{x}_{i},\\mathbf{y}_{i}\\rbrace)$ over these parameters $\\phi$ conditioned on the training data $\\lbrace x_{i},y_{i}\\rbrace$ using Bayes' rule:"
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "the training labels are incorrect and belong with equal probability to the other classes. This could be done by randomly changing the labels at each training iteration. However, the same end can be achieved by changing the loss function to minimize the cross-entropy between the predicted distribution and a distribution where the true label has probability $1 - \\rho$, and the other classes have equal probability. This is known as label smoothing and improves generalization in diverse scenarios."
   },
   {
     "id": "page_0150-b006",
     "page_key": 150,
     "order": 6,
-    "type": "equation",
+    "type": "heading",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\nPr(\\phi|\\{\\mathbf{x}_{i},\\mathbf{y}_{i}\\})=\\frac{\\prod_{i=1}^{I}Pr(\\mathbf{y}_{i}|\\mathbf{x}_{i},\\phi)Pr(\\phi)}{\\int\\prod_{i=1}^{I}Pr(\\mathbf{y}_{i}|\\mathbf{x}_{i},\\phi)Pr(\\phi)d\\phi},\n\\end{aligned} \\quad (9.11)"
+    "text": "9.3.5 Bayesian inference"
   },
   {
     "id": "page_0150-b007",
     "page_key": 150,
     "order": 7,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
-    "text": "where $Pr(\\phi|\\lbrace \\mathbf{x}_{i},\\mathbf{y}_{i}\\rbrace)$ over these parameters $\\phi$ conditioned on the training data $\\lbrace x_{i},y_{i}\\rbrace$ using Bayes' rule:"
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "The maximum likelihood approach is generally overconfident; it selects the most likely parameters during training and uses these to make predictions. However, many parameter values may be broadly compatible with the data and only slightly less likely. The Bayesian approach treats the parameters as unknown variables and computes a distribution $\\Pr(\\phi|\\lbrace \\mathbf{x}_{i},\\mathbf{y}_{i} \\rbrace)$ over these parameters $\\phi$ conditioned on the training data $\\lbrace x_{i},y_{i} \\rbrace$ using Bayes' rule:"
   },
   {
     "id": "page_0150-b008",
     "page_key": 150,
     "order": 8,
-    "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
-    "text": "using Bayes' rule:"
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "latex": "\\Pr(\\phi|\\{\\mathbf{x}_{i},\\mathbf{y}_{i}\\})=\\frac{\\prod_{i=1}^{I}\\Pr(\\mathbf{y}_{i}|\\mathbf{x}_{i},\\phi)\\Pr(\\phi)}{\\int\\prod_{i=1}^{I}\\Pr(\\mathbf{y}_{i}|\\mathbf{x}_{i},\\phi)\\Pr(\\phi)d\\phi}, \\qquad (9.11)"
   },
   {
     "id": "page_0150-b009",
     "page_key": 150,
     "order": 9,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
-    "text": "where $Pr(\\phi|\\lbrace \\mathbf{x}_{i},\\mathbf{y}_{i}\\rbrace)$ over these parameters $\\phi$ conditioned on the training data $\\lbrace x_{i},y_{i}\\rbrace$"
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "where $\\Pr(\\phi|\\lbrace \\mathbf{x}_{i},\\mathbf{y}_{i} \\rbrace)$ over these parameters $\\phi$ conditioned on the training data $\\lbrace x_{i},y_{i} \\rbrace$ using Bayes' rule:"
   },
   {
     "id": "page_0150-b010",
     "page_key": 150,
     "order": 10,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
-    "text": "The prediction y for new input x is an infinite weighted sum (i.e., an integral) of the"
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "using Bayes' rule:"
   },
   {
     "id": "page_0150-b011",
     "page_key": 150,
     "order": 11,
-    "type": "equation",
+    "type": "paragraph",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\nPr(\\mathbf{y}|\\mathbf{x},\\{\\mathbf{x}_{i},\\mathbf{y}_{i}\\})=\\int Pr(\\mathbf{y}|\\mathbf{x},\\phi)Pr(\\phi|\\{\\mathbf{x}_{i},\\mathbf{y}_{i}\\})d\\phi.\n\\end{aligned} \\quad (9.12)"
+    "text": "where $\\Pr(\\phi|\\lbrace \\mathbf{x}_{i},\\mathbf{y}_{i} \\rbrace)$ over these parameters $\\phi$ conditioned on the training data $\\lbrace x_{i},y_{i} \\rbrace$"
   },
   {
     "id": "page_0150-b012",
     "page_key": 150,
     "order": 12,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "The prediction y for new input x is an infinite weighted sum (i.e., an integral) of the"
+  },
+  {
+    "id": "page_0150-b013",
+    "page_key": 150,
+    "order": 13,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "latex": "\\Pr(\\mathbf{y}|\\mathbf{x},\\{\\mathbf{x}_{i},\\mathbf{y}_{i}\\})=\\int \\Pr(\\mathbf{y}|\\mathbf{x},\\phi)\\Pr(\\phi|\\{\\mathbf{x}_{i},\\mathbf{y}_{i}\\})d\\phi. \\qquad (9.12)"
+  },
+  {
+    "id": "page_0150-b014",
+    "page_key": 150,
+    "order": 14,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "This is effectively an infinite weighted ensemble, where the weight depends on (i) the prior probability of the parameters and (ii) their agreement with the data."
   }
 ]

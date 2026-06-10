@@ -1,1 +1,102 @@
-[{"id":"page_0332-b001","page_key":332,"order":1,"type":"figure","source":"paddle","confidence":"high","image_path":"figures/page_0332_fig_1.jpg","alt_text":"Figure 17.5 Jensen's inequality (continuous case)."},{"id":"page_0332-b002","page_key":332,"order":2,"type":"caption","source":"deepseek+paddle","confidence":"high","text":"Figure 17.5 Jensen's inequality (continuous case)."},{"id":"page_0332-b003","page_key":332,"order":3,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"Figure 17.5 Jensen's inequality (continuous case). For a concave function, computing the expectation of a distribution $Pr(y)$ and passing it through the function gives a result greater than or equal to transforming the variable y by the function and then computing the expectation of the new variable. In the case of the logarithm, we have $\\log[\\mathbb{E}[y]] \\geq \\mathbb{E}[\\log[y]]$ . The left-hand side of the figure corresponds to the left-hand side of this inequality and the right-hand side of the figure to the right-hand side. One way of thinking about this is to consider that we are taking a convex combination of the points in the orange distribution defined over $y \\in [0,1]$ . By the logic of figure 17.4, this must lie under the curve. Alternatively, we can think about the concave function as compressing the high values of y relative to the low values, so the expected value is lower when we pass y through the function first."},{"id":"page_0332-b004","page_key":332,"order":4,"type":"equation","source":"deepseek","confidence":"high","text":"g[\\mathbb{E}[y]]\\geq\\mathbb{E}\\big[g[y]\\big]. \\quad (17.10)"},{"id":"page_0332-b005","page_key":332,"order":5,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"In this case, the concave function is the logarithm, so we have:"},{"id":"page_0332-b006","page_key":332,"order":6,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"Problems 17.2-17.3"},{"id":"page_0332-b007","page_key":332,"order":7,"type":"equation","source":"deepseek","confidence":"high","text":"\\log\\left[\\mathbb{E}[y]\\right]\\geq\\mathbb{E}\\bigl[\\log[y]\\bigr]. \\quad (17.11)"},{"id":"page_0332-b008","page_key":332,"order":8,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"or writing out the expression for the expectation in full, we have:"},{"id":"page_0332-b009","page_key":332,"order":9,"type":"equation","source":"deepseek","confidence":"high","text":"\\log\\left[\\int Pr(y)h[y]dy\\right]\\geq\\int Pr(y)\\log[h[y]]dy. \\quad (17.12)"},{"id":"page_0332-b010","page_key":332,"order":10,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"This is explored in figures 17.4-17.5. In fact, the slightly more general statement is true:"},{"id":"page_0332-b011","page_key":332,"order":11,"type":"equation","source":"deepseek","confidence":"high","text":"\\log\\left[\\int Pr(y)h[y]dy\\right]\\geq\\int Pr(y)\\log[h[y]]dy. \\quad (17.13)"},{"id":"page_0332-b012","page_key":332,"order":12,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"where $h[y]$ is a function of $y$. This follows because $h[y]$ is another random variable with a new distribution. Since we never specified $Pr(y)$, the relation remains true."}]
+[
+  {
+    "id": "page_0332-b001",
+    "page_key": 332,
+    "order": 1,
+    "type": "figure",
+    "text": "../../figures/page_0332_fig_1.jpg",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "image_path": "figures/page_0332_fig_1.jpg"
+  },
+  {
+    "id": "page_0332-b002",
+    "page_key": 332,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 17.5 Jensen's inequality (continuous case). For a concave function, computing the expectation of a distribution $\\Pr(y)$ and passing it through the function gives a result greater than or equal to transforming the variable y by the function and then computing the expectation of the new variable. In the case of the logarithm, we have $\\log[\\mathbb{E}[y]] \\geq \\mathbb{E}[\\log[y]]$ . The left-hand side of the figure corresponds to the left-hand side of this inequality and the right-hand side of the figure to the right-hand side. One way of thinking about this is to consider that we are taking a convex combination of the points in the orange distribution defined over $y \\in [0,1]$ . By the logic of figure 17.4, this must lie under the curve. Alternatively, we can think about the concave function as compressing the high values of y relative to the low values, so the expected value is lower when we pass y through the function first.",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0332-b003",
+    "page_key": 332,
+    "order": 3,
+    "type": "equation",
+    "text": "$$\ng[\\mathbb{E}[y]]\\geq\\mathbb{E}\\big[g[y]\\big]\n\\qquad (17.10)\n$$",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0332-b004",
+    "page_key": 332,
+    "order": 4,
+    "type": "paragraph",
+    "text": "In this case, the concave function is the logarithm, so we have:",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0332-b005",
+    "page_key": 332,
+    "order": 5,
+    "type": "paragraph",
+    "text": "Problems 17.2-17.3",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0332-b006",
+    "page_key": 332,
+    "order": 6,
+    "type": "equation",
+    "text": "$$\n\\log\\left[\\mathbb{E}[y]\\right]\\geq\\mathbb{E}\\bigl[\\log[y]\\bigr]\n\\qquad (17.11)\n$$",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0332-b007",
+    "page_key": 332,
+    "order": 7,
+    "type": "paragraph",
+    "text": "or writing out the expression for the expectation in full, we have:",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0332-b008",
+    "page_key": 332,
+    "order": 8,
+    "type": "equation",
+    "text": "$$\n\\log\\left[\\int \\Pr(y)h[y]dy\\right]\\geq\\int \\Pr(y)\\log[h[y]]dy\n\\qquad (17.12)\n$$",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0332-b009",
+    "page_key": 332,
+    "order": 9,
+    "type": "paragraph",
+    "text": "This is explored in figures 17.4-17.5. In fact, the slightly more general statement is true:",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0332-b010",
+    "page_key": 332,
+    "order": 10,
+    "type": "equation",
+    "text": "$$\n\\log\\left[\\int \\Pr(y)h[y]dy\\right]\\geq\\int \\Pr(y)\\log[h[y]]dy\n\\qquad (17.13)\n$$",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0332-b011",
+    "page_key": 332,
+    "order": 11,
+    "type": "paragraph",
+    "text": "where $h[y]$ is a function of $y$. This follows because $h[y]$ is another random variable with a new distribution. Since we never specified $\\Pr(y)$, the relation remains true.",
+    "source": "deepseek",
+    "confidence": "medium"
+  }
+]

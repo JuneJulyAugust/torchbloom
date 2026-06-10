@@ -90,14 +90,5 @@
     "source": "deepseek+paddle",
     "confidence": "high",
     "text": "This leads to the idea that we can describe each data example using a smaller number of underlying latent variables. Here, the role of deep learning is to describe the mapping between these latent variables and the data. The latent variables typically have a simple"
-  },
-  {
-    "id": "page_0009-b011",
-    "page_key": 9,
-    "order": 11,
-    "type": "review_note",
-    "source": "codex-fusion",
-    "confidence": "medium",
-    "text": "The second visual crop is retained from PPStructure even though DeepSeek's frontmatter undercounted it."
   }
 ]

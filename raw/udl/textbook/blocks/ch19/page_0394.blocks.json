@@ -4,134 +4,134 @@
     "page_key": 394,
     "order": 1,
     "type": "heading",
+    "text": "## 19.5.4 State-dependent baselines",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "19.5.4 State-dependent baselines"
+    "confidence": "medium"
   },
   {
     "id": "page_0394-b002",
     "page_key": 394,
     "order": 2,
     "type": "paragraph",
+    "text": "A better option is to use a baseline $b[\\mathbf{s}_{it}]$ that depends on the current state $\\mathbf{S}_{it}$.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "A better option is to use a baseline $b[\\mathbf{s}_{it}]$ that depends on the current state $\\mathbf{S}_{it}$."
+    "confidence": "medium"
   },
   {
     "id": "page_0394-b003",
     "page_key": 394,
     "order": 3,
     "type": "equation",
-    "source": "deepseek",
-    "confidence": "high",
-    "text": "\\begin{aligned}\n\\theta\\leftarrow\\theta+\\alpha\\cdot\\frac{1}{I}\\sum_{i=1}^{T}\\sum_{t=1}^{T}\\frac{\\partial\\log\\left[\\pi_{a i t}[\\mathbf{s}_{i t},\\boldsymbol{\\theta}]\\right]}{\\partial\\boldsymbol{\\theta}}\\left(r[\\mathbf{\\tau}_{i t}]-\\boldsymbol{v}[\\mathbf{s}_{i,t}]\\right).\n\\end{aligned} \\quad (19.38)"
+    "text": "$$\n\\theta\\leftarrow\\theta+\\alpha\\cdot\\frac{1}{I}\\sum_{i=1}^{T}\\sum_{t=1}^{T}\\frac{\\partial\\log\\left[\\pi_{a i t}[\\mathbf{s}_{i t},\\boldsymbol{\\theta}]\\right]}{\\partial\\boldsymbol{\\theta}}\\left(r[\\mathbf{\\tau}_{i t}]-\\boldsymbol{v}[\\mathbf{s}_{i,t}]\\right). \\quad (19.38)\n$$",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
   },
   {
     "id": "page_0394-b004",
     "page_key": 394,
     "order": 4,
     "type": "paragraph",
+    "text": "Here, we are compensating for variance introduced by some states having greater overall returns than others, whichever actions we take.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Here, we are compensating for variance introduced by some states having greater overall returns than others, whichever actions we take."
+    "confidence": "medium"
   },
   {
     "id": "page_0394-b005",
     "page_key": 394,
     "order": 5,
     "type": "paragraph",
+    "text": "A sensible choice is the expected future reward based on the current state, which is just the state value $v[s]$ . In this case, the difference between the empirically observed rewards and the baseline is known as the advantage estimate. Since we are in a Monte Carlo context, this can be parameterized by a neural network $b[s] = v[s, \\phi]$ with parameters $\\phi$ , which we can fit to the observed returns using least squares loss:",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "A sensible choice is the expected future reward based on the current state, which is just the state value $v[s]$ . In this case, the difference between the empirically observed rewards and the baseline is known as the advantage estimate. Since we are in a Monte Carlo context, this can be parameterized by a neural network $b[s] = v[s, \\phi]$ with parameters $\\phi$ , which we can fit to the observed returns using least squares loss:"
+    "confidence": "medium"
   },
   {
     "id": "page_0394-b006",
     "page_key": 394,
     "order": 6,
     "type": "equation",
-    "source": "deepseek",
-    "confidence": "high",
-    "text": "\\begin{aligned}\nL[\\boldsymbol{\\phi}]=\\sum_{i=1}^{I}\\sum_{t=1}^{T}\\left(v[\\mathbf{s}_{it},\\boldsymbol{\\phi}]-\\sum_{j=t}^{T}r_{i,j+1}\\right)^{2}.\n\\end{aligned} \\quad (19.39)"
+    "text": "$$\nL[\\boldsymbol{\\phi}]=\\sum_{i=1}^{I}\\sum_{t=1}^{T}\\left(v[\\mathbf{s}_{it},\\boldsymbol{\\phi}]-\\sum_{j=t}^{T}r_{i,j+1}\\right)^{2}. \\quad (19.39)\n$$",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
   },
   {
     "id": "page_0394-b007",
     "page_key": 394,
     "order": 7,
     "type": "heading",
+    "text": "## 19.6 Actor-critic methods",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "19.6 Actor-critic methods"
+    "confidence": "medium"
   },
   {
     "id": "page_0394-b008",
     "page_key": 394,
     "order": 8,
     "type": "paragraph",
+    "text": "Actor-critic algorithms are temporal difference (TD) policy gradient algorithms. They can update the parameters of the policy network at each step. This contrasts with the Monte Carlo REINFORCE algorithm, which must wait for one or more episodes to complete before updating the parameters.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Actor-critic algorithms are temporal difference (TD) policy gradient algorithms. They can update the parameters of the policy network at each step. This contrasts with the Monte Carlo REINFORCE algorithm, which must wait for one or more episodes to complete before updating the parameters."
+    "confidence": "medium"
   },
   {
     "id": "page_0394-b009",
     "page_key": 394,
     "order": 9,
     "type": "paragraph",
+    "text": "In the TD approach, we do not have access to the future rewards $r[\\boldsymbol{\\tau}_{t}] = \\sum_{k=t}^{T} r_{k}$ along this trajectory. Actor-critic algorithms approximate the sum over all the future rewards with the observed current reward plus the discounted value of the next state:",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "In the TD approach, we do not have access to the future rewards $r[\\pmb{\\tau}_{t}] = \\sum_{k=t}^{T} r_{k}$ along this trajectory. Actor-critic algorithms approximate the sum over all the future rewards with the observed current reward plus the discounted value of the next state:"
+    "confidence": "medium"
   },
   {
     "id": "page_0394-b010",
     "page_key": 394,
     "order": 10,
     "type": "equation",
-    "source": "deepseek",
-    "confidence": "high",
-    "text": "\\begin{aligned}\nr[\\pmb{\\tau}_{i t}]\\approx r_{i,t+1}+\\gamma\\cdot v[\\mathbf{s}_{i,t+1},\\boldsymbol{\\phi}].\n\\end{aligned} \\quad (19.40)"
+    "text": "$$\nr[\\boldsymbol{\\tau}_{i t}]\\approx r_{i,t+1}+\\gamma\\cdot v[\\mathbf{s}_{i,t+1},\\boldsymbol{\\phi}]. \\quad (19.40)\n$$",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
   },
   {
     "id": "page_0394-b011",
     "page_key": 394,
     "order": 11,
     "type": "paragraph",
+    "text": "Here the value $v[s_{i,t+1},\\phi]$ is estimated by a second neural network with parameters $\\phi$. Substituting this into equation 19.38 gives the update:",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Here the value $v[s_{i,t+1},\\phi]$ is estimated by a second neural network with parameters $\\phi$. Substituting this into equation 19.38 gives the update:"
+    "confidence": "medium"
   },
   {
     "id": "page_0394-b012",
     "page_key": 394,
     "order": 12,
     "type": "equation",
-    "source": "deepseek",
-    "confidence": "high",
-    "text": "\\begin{aligned}\n\\theta\\leftarrow\\theta+\\alpha\\cdot\\frac{1}{I}\\sum_{i=1}^{I}\\sum_{t=1}^{T}\\frac{\\partial\\log\\left[Pr(a_{it}|\\mathbf{s}_{it},\\boldsymbol{\\theta})\\right]}{\\partial\\boldsymbol{\\theta}}\\left(r_{i,t+1}+\\gamma\\cdot v[\\mathbf{s}_{i,t+1},\\boldsymbol{\\phi}]-v[\\mathbf{s}_{i,t},\\boldsymbol{\\phi}]\\right)^{2}.\n\\end{aligned} \\quad (19.41)"
+    "text": "$$\n\\theta\\leftarrow\\theta+\\alpha\\cdot\\frac{1}{I}\\sum_{i=1}^{I}\\sum_{t=1}^{T}\\frac{\\partial\\log\\left[\\Pr(a_{it}|\\mathbf{s}_{it},\\boldsymbol{\\theta})\\right]}{\\partial\\boldsymbol{\\theta}}\\left(r_{i,t+1}+\\gamma\\cdot v[\\mathbf{s}_{i,t+1},\\boldsymbol{\\phi}]-v[\\mathbf{s}_{i,t},\\boldsymbol{\\phi}]\\right)^{2}. \\quad (19.41)\n$$",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
   },
   {
     "id": "page_0394-b013",
     "page_key": 394,
     "order": 13,
     "type": "paragraph",
+    "text": "Concurrently, we update the parameters $\\phi$ by bootstrapping using the loss function:",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Concurrently, we update the parameters $\\phi$ by bootstrapping using the loss function:"
+    "confidence": "medium"
   },
   {
     "id": "page_0394-b014",
     "page_key": 394,
     "order": 14,
     "type": "equation",
-    "source": "deepseek",
-    "confidence": "high",
-    "text": "\\begin{aligned}\nL[\\boldsymbol{\\phi}]=\\sum_{i=1}^{I}\\sum_{t=1}^{T}\\left(r_{i,t+1}+\\gamma\\cdot v[\\mathbf{s}_{i,t+1},\\boldsymbol{\\phi}]-v[\\mathbf{s}_{i,t},\\boldsymbol{\\phi}]\\right)^{2}.\n\\end{aligned} \\quad (19.42)"
+    "text": "$$\nL[\\boldsymbol{\\phi}]=\\sum_{i=1}^{I}\\sum_{t=1}^{T}\\left(r_{i,t+1}+\\gamma\\cdot v[\\mathbf{s}_{i,t+1},\\boldsymbol{\\phi}]-v[\\mathbf{s}_{i,t},\\boldsymbol{\\phi}]\\right)^{2}. \\quad (19.42)\n$$",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
   },
   {
     "id": "page_0394-b015",
     "page_key": 394,
     "order": 15,
     "type": "paragraph",
+    "text": "The policy network $\\pi[\\mathbf{s}_{t},\\boldsymbol{\\theta}]$ that predicts $\\Pr(a|\\mathbf{s}_{t})$ is termed the actor. The value network $\\upsilon[\\mathbf{s}_{t},\\boldsymbol{\\phi}]$ is termed the critic. Often the same network represents both actor and",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "The policy network $\\pi[\\mathbf{s}_{t},\\boldsymbol{\\theta}]$ that predicts $Pr(a|\\mathbf{s}_{t})$ is termed the actor. The value network $\\upsilon[\\mathbf{s}_{t},\\boldsymbol{\\phi}]$ is termed the critic. Often the same network represents both actor and"
+    "confidence": "medium"
   }
 ]

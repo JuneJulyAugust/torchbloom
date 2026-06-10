@@ -1,1 +1,111 @@
-[{"id":"page_0241-b001","page_key":241,"order":1,"type":"figure","source":"paddle","confidence":"high","image_path":"figures/page_0241_fig_1.jpg","alt_text":"Real-world graphs. Some objects, such as a) road networks, b) molecules, and c) electrical circuits, are natur"},{"id":"page_0241-b002","page_key":241,"order":2,"type":"caption","source":"deepseek+paddle","confidence":"high","text":"Figure 13.1 Real-world graphs. Some objects, such as a) road networks, b) molecules, and c) electrical circuits, are naturally structured as graphs."},{"id":"page_0241-b003","page_key":241,"order":3,"type":"list","source":"deepseek+paddle","confidence":"high","text":"- Social networks are graphs where nodes are people, and the edges represent friends between them."},{"id":"page_0241-b004","page_key":241,"order":4,"type":"list","source":"deepseek+paddle","confidence":"high","text":"- The scientific literature can be viewed as a graph where the nodes are papers, and the edges represent citations."},{"id":"page_0241-b005","page_key":241,"order":5,"type":"list","source":"deepseek+paddle","confidence":"high","text":"- Wikipedia can be considered a graph where the nodes are articles, and the edges represent hyperlinks between articles."},{"id":"page_0241-b006","page_key":241,"order":6,"type":"list","source":"deepseek+paddle","confidence":"high","text":"- Computer programs can be represented as graphs where the nodes are syntax tokens (variables at different points in the program flow), and the edges represent computations involving these variables."},{"id":"page_0241-b007","page_key":241,"order":7,"type":"list","source":"deepseek+paddle","confidence":"high","text":"- Geometric point clouds can be represented as graphs. Here, each point is a node with edges connecting to other nearby points."},{"id":"page_0241-b008","page_key":241,"order":8,"type":"list","source":"deepseek+paddle","confidence":"high","text":"- Protein interactions in a cell can be expressed as graphs, where the nodes are the proteins, and there is an edge between two proteins if they interact."},{"id":"page_0241-b009","page_key":241,"order":9,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"In addition, a set (an unordered list) can be treated as a graph in which every member is a node and connects to every other. An image can be treated as a graph with regular topology, in which each pixel is a node with edges to the adjacent pixels."},{"id":"page_0241-b010","page_key":241,"order":10,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"13.1.1 Types of graphs"},{"id":"page_0241-b011","page_key":241,"order":11,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Graphs can be categorized in various ways. The social network in figure 13.2a contains undirected edges; each pair of individuals with a connection between them have mutually agreed to be friends, so there is no sense that the relationship is directional. In c"},{"id":"page_0241-b012","page_key":241,"order":12,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Figure 13.2c depicts a knowledge graph that encodes a set of facts about objects by defining relations between them. Technically, this is a directed heterogeneous multigraph. It is heterogeneous because the nodes can represent different types of entities (e.g."}]
+[
+  {
+    "id": "page_0241-b001",
+    "page_key": 241,
+    "order": 1,
+    "type": "figure",
+    "text": "",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0241_fig_1.jpg"
+  },
+  {
+    "id": "page_0241-b002",
+    "page_key": 241,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 13.1 Real-world graphs. Some objects, such as a) road networks, b) molecules, and c) electrical circuits, are naturally structured as graphs.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0241-b003",
+    "page_key": 241,
+    "order": 3,
+    "type": "paragraph",
+    "text": "- Social networks are graphs where nodes are people, and the edges represent friends between them.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0241-b004",
+    "page_key": 241,
+    "order": 4,
+    "type": "paragraph",
+    "text": "- The scientific literature can be viewed as a graph where the nodes are papers, and the edges represent citations.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0241-b005",
+    "page_key": 241,
+    "order": 5,
+    "type": "paragraph",
+    "text": "- Wikipedia can be considered a graph where the nodes are articles, and the edges represent hyperlinks between articles.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0241-b006",
+    "page_key": 241,
+    "order": 6,
+    "type": "paragraph",
+    "text": "- Computer programs can be represented as graphs where the nodes are syntax tokens (variables at different points in the program flow), and the edges represent computations involving these variables.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0241-b007",
+    "page_key": 241,
+    "order": 7,
+    "type": "paragraph",
+    "text": "- Geometric point clouds can be represented as graphs. Here, each point is a node with edges connecting to other nearby points.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0241-b008",
+    "page_key": 241,
+    "order": 8,
+    "type": "paragraph",
+    "text": "- Protein interactions in a cell can be expressed as graphs, where the nodes are the proteins, and there is an edge between two proteins if they interact.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0241-b009",
+    "page_key": 241,
+    "order": 9,
+    "type": "paragraph",
+    "text": "In addition, a set (an unordered list) can be treated as a graph in which every member is a node and connects to every other. An image can be treated as a graph with regular topology, in which each pixel is a node with edges to the adjacent pixels.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0241-b010",
+    "page_key": 241,
+    "order": 10,
+    "type": "heading",
+    "text": "13.1.1 Types of graphs",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0241-b011",
+    "page_key": 241,
+    "order": 11,
+    "type": "paragraph",
+    "text": "Graphs can be categorized in various ways. The social network in figure 13.2a contains undirected edges; each pair of individuals with a connection between them have mutually agreed to be friends, so there is no sense that the relationship is directional. In contrast, the citation network in figure 13.2b contains directed edges. Each paper cites other papers, and this relationship is inherently one-way.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0241-b012",
+    "page_key": 241,
+    "order": 12,
+    "type": "paragraph",
+    "text": "Figure 13.2c depicts a knowledge graph that encodes a set of facts about objects by defining relations between them. Technically, this is a directed heterogeneous multigraph. It is heterogeneous because the nodes can represent different types of entities (e.g., people, countries, companies). It is a multigraph because there can be multiple edges of different types between any two nodes.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

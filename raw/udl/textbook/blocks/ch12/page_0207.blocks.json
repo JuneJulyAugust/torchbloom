@@ -1,1 +1,83 @@
-[{"id":"page_0207-b001","page_key":207,"order":1,"source":"deepseek+paddle","confidence":"medium","type":"heading","text":"## Chapter 12"},{"id":"page_0207-b002","page_key":207,"order":2,"source":"deepseek+paddle","confidence":"medium","type":"heading","text":"## Transformers"},{"id":"page_0207-b003","page_key":207,"order":3,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"Chapter 10 introduced convolutional networks, which are specialized for processing data that lie on a regular grid. They are particularly suited to processing images, which have a very large number of input variables,..."},{"id":"page_0207-b004","page_key":207,"order":4,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"This chapter introduces transformers. These were initially targeted at natural language processing (NLP) problems, where the network input is a series of high-dimensional embeddings representing words or word fragment..."},{"id":"page_0207-b005","page_key":207,"order":5,"source":"deepseek+paddle","confidence":"medium","type":"heading","text":"## 12.1 Processing text data"},{"id":"page_0207-b006","page_key":207,"order":6,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"To motivate the transformer, consider the following passage:"},{"id":"page_0207-b007","page_key":207,"order":7,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"The restaurant refused to serve me a ham sandwich because it only cooks vegetarian food. In the end, they just gave me two slices of bread. Their ambiance was just as good as the food and service."},{"id":"page_0207-b008","page_key":207,"order":8,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"The goal is to design a network to process this text into a representation suitable for downstream tasks. For example, it might be used to classify the review as positive or negative or to answer questions such as “Do..."},{"id":"page_0207-b009","page_key":207,"order":9,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"We can make three immediate observations. First, the encoded input can be surprisingly large. In this case, each of the 37 words might be represented by an embedding vector of length 1024, so the encoded input would b..."}]
+[
+  {
+    "id": "page_0207-b001",
+    "page_key": 207,
+    "order": 1,
+    "type": "heading",
+    "text": "## Chapter 12",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0207-b002",
+    "page_key": 207,
+    "order": 2,
+    "type": "heading",
+    "text": "## Transformers",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0207-b003",
+    "page_key": 207,
+    "order": 3,
+    "type": "paragraph",
+    "text": "Chapter 10 introduced convolutional networks, which are specialized for processing data that lie on a regular grid. They are particularly suited to processing images, which have a very large number of input variables, precluding the use of fully connected networks. Each layer of a convolutional network employs parameter sharing so that local image patches are processed similarly at every position in the image.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0207-b004",
+    "page_key": 207,
+    "order": 4,
+    "type": "paragraph",
+    "text": "This chapter introduces transformers. These were initially targeted at natural language processing (NLP) problems, where the network input is a series of high-dimensional embeddings representing words or word fragments. Language datasets share some of the characteristics of image data. The number of input variables can be very large, and the statistics are similar at every position; it's not sensible to re-learn the meaning of the word dog at every possible position in a body of text. However, language datasets have the complication that text sequences vary in length, and unlike images, there is no easy way to resize them.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0207-b005",
+    "page_key": 207,
+    "order": 5,
+    "type": "heading",
+    "text": "## 12.1 Processing text data",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0207-b006",
+    "page_key": 207,
+    "order": 6,
+    "type": "paragraph",
+    "text": "To motivate the transformer, consider the following passage:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0207-b007",
+    "page_key": 207,
+    "order": 7,
+    "type": "paragraph",
+    "text": "The restaurant refused to serve me a ham sandwich because it only cooks vegetarian food. In the end, they just gave me two slices of bread. Their ambiance was just as good as the food and service.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0207-b008",
+    "page_key": 207,
+    "order": 8,
+    "type": "paragraph",
+    "text": "The goal is to design a network to process this text into a representation suitable for downstream tasks. For example, it might be used to classify the review as positive or negative or to answer questions such as “Does the restaurant serve steak?”",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0207-b009",
+    "page_key": 207,
+    "order": 9,
+    "type": "paragraph",
+    "text": "We can make three immediate observations. First, the encoded input can be surprisingly large. In this case, each of the 37 words might be represented by an embedding vector of length 1024, so the encoded input would be of length $37 \\times 1024 = 37888$ even for this small passage. A more realistically sized body of text might have hundreds or even thousands of words, so fully connected neural networks are impractical.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

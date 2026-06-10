@@ -6,23 +6,23 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\\mathbf{f}_{k}&=\\beta_{k}+\\Omega_{k}\\mathbf{h}_{k}\\\\&=\\beta_{k}+\\boldsymbol{\\Omega}_{k}\\mathbf{a}[\\mathbf{f}_{k-1}],\\end{aligned} \\quad (7.27)"
+    "latex": "\\begin{aligned}\n\\mathbf{f}_{k} &=\\beta_{k}+\\Omega_{k}\\mathbf{h}_{k} \\\\\n&=\\beta_{k}+\\boldsymbol{\\Omega}_{k}\\mathbf{a}[\\mathbf{f}_{k-1}],\n\\end{aligned} \\qquad (7.27)"
   },
   {
     "id": "page_0108-b002",
     "page_key": 108,
     "order": 2,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
-    "text": "where $\\mathbf{a}[\\bullet]$ applies the ReLU functions and $\\Omega_{k}$ and $\\beta_{k}$ are the weights and biases, respectively. Imagine that we initialize all the biases to zero and the elements of $\\Omega_{k}$ according to a normal distribution with mean zero and variance $\\sigma^{2}$ . Consider two scenarios:"
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "where a[\u2022] applies the ReLU functions and $\\Omega_{k}$ and $\\beta_{k}$ are the weights and biases, respectively. Imagine that we initialize all the biases to zero and the elements of $\\Omega_{k}$ according to a normal distribution with mean zero and variance $\\sigma^{2}$. Consider two scenarios:"
   },
   {
     "id": "page_0108-b003",
     "page_key": 108,
     "order": 3,
     "type": "list",
-    "source": "deepseek",
+    "source": "deepseek+paddle",
     "confidence": "medium",
     "text": "- If the variance $\\sigma^{2}$ is very small (e.g., $10^{-5}$), then each element of $\\beta_{k}+\\Omega_{k}\\mathbf{h}_{k}$ will be a weighted sum of $\\mathbf{h}_{k}$ where the weights are very small; the result will likely have a smaller magnitude than the input. In addition, the ReLU function clips values less than zero, so the range of $\\mathbf{h}_{k}$ will be half that of $f_{k-1}$. Consequently, the magnitudes of the pre-activations at the hidden layers will get smaller and smaller as we progress through the network."
   },
@@ -31,7 +31,7 @@
     "page_key": 108,
     "order": 4,
     "type": "list",
-    "source": "deepseek",
+    "source": "deepseek+paddle",
     "confidence": "medium",
     "text": "- If the variance $\\sigma^{2}$ is very large (e.g., $10^{5}$), then each element of $\\beta_{k}+\\Omega_{k}\\mathbf{h}_{k}$ will be a weighted sum of $\\mathbf{h}_{k}$ where the weights are very large; the result is likely to have a much larger magnitude than the input. The ReLU function halves the range of the inputs, but if $\\sigma^{2}$ is large enough, the magnitudes of the pre-activations will still get larger as we progress through the network."
   },
@@ -40,8 +40,8 @@
     "page_key": 108,
     "order": 5,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "In these two situations, the values at the pre-activations can become so small or so large that they cannot be represented with finite precision floating point arithmetic."
   },
   {
@@ -49,17 +49,17 @@
     "page_key": 108,
     "order": 6,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
-    "text": "Even if the forward pass is tractable, the same logic applies to the backward pass. Each gradient update (equation 7.25) consists of multiplying by $\\Omega^{T}$ . If the values of $\\Omega$ are not initialized sensibly, then the gradient magnitudes may decrease or increase uncontrollably during the backward pass. These cases are known as the vanishing gradient problem and the exploding gradient problem, respectively. In the former case, updates to the model become vanishingly small. In the latter case, they become unstable."
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Even if the forward pass is tractable, the same logic applies to the backward pass. Each gradient update (equation 7.25) consists of multiplying by $\\Omega^{T}$. If the values of $\\Omega$ are not initialized sensibly, then the gradient magnitudes may decrease or increase uncontrollably during the backward pass. These cases are known as the vanishing gradient problem and the exploding gradient problem, respectively. In the former case, updates to the model become vanishingly small. In the latter case, they become unstable."
   },
   {
     "id": "page_0108-b007",
     "page_key": 108,
     "order": 7,
     "type": "heading",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "7.5.1 Initialization for forward pass"
   },
   {
@@ -67,9 +67,9 @@
     "page_key": 108,
     "order": 8,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
-    "text": "We now present a mathematical version of the same argument. Consider the computation between adjacent pre-activations f and $f'$ with dimensions $D_{h}$ and $D_{h'}$ , respectively:"
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "We now present a mathematical version of the same argument. Consider the computation between adjacent pre-activations f and $f'$ with dimensions $D_{h}$ and $D_{h'}$, respectively:"
   },
   {
     "id": "page_0108-b009",
@@ -78,24 +78,24 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\\mathbf{h}&=\\mathbf{a}[\\mathbf{f}],\\\\ \\mathbf{f}^{\\prime}&=\\beta+\\boldsymbol{\\Omega}\\mathbf{h}\\end{aligned} \\quad (7.28)"
+    "latex": "\\begin{aligned}\n\\mathbf{h} &=\\mathbf{a}[\\mathbf{f}], \\\\\n\\mathbf{f}^{\\prime} &=\\beta+\\boldsymbol{\\Omega}\\mathbf{h}\n\\end{aligned} \\qquad (7.28)"
   },
   {
     "id": "page_0108-b010",
     "page_key": 108,
     "order": 10,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
-    "text": "where h represents the activations, Ω and β represent the weights and biases, and $\\mathbf{a}[\\bullet]$ is the activation function."
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "where h represents the activations, \u03a9 and \u03b2 represent the weights and biases, and a[\u2022] is the activation function."
   },
   {
     "id": "page_0108-b011",
     "page_key": 108,
     "order": 11,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "Assume the pre-activations $f_{j}$ in the input layer $\\mathbf{f}$ have variance $\\sigma^{2}_{f}$. Consider initializing the biases $\\beta_{i}$ to zero and the weights $\\Omega_{ij}$ as normally distributed with mean zero and variance $\\sigma^{2}_{\\Omega}$. Now we derive expressions for the mean and variance of the pre-activations $\\mathbf{f}'$ in the subsequent layer."
   }
 ]

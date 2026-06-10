@@ -1,1 +1,86 @@
-[{"id":"page_0213-b001","page_key":213,"order":1,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"**Figure 1**"},{"id":"page_0213-b002","page_key":213,"order":2,"source":"deepseek+paddle","confidence":"medium","type":"figure","image_path":"figures/page_0213_fig_1.jpg"},{"id":"page_0213-b003","page_key":213,"order":3,"type":"caption","source":"deepseek+paddle","confidence":"medium","text":"Figure 12.5 Positional encodings. The self-attention architecture is equivariant to permutations of the inputs. To ensure that inputs at different positions are treated differently, a positional encoding matrix $\\Pi$..."},{"id":"page_0213-b004","page_key":213,"order":4,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"where the function Softmax[●] takes a matrix and performs the softmax operation independently on each of its columns (figure 12.4). In this formulation, we have explicitly included the dependence of the values, querie..."},{"id":"page_0213-b005","page_key":213,"order":5,"source":"deepseek+paddle","confidence":"medium","type":"equation","text":"\\mathbf{S a}[\\mathbf{X}]=\\mathbf{V}\\cdot\\mathbf{S o f t m a x}\\Big[\\mathbf{K}^{T}\\mathbf{Q}\\Big]. \\quad (12.8)"},{"id":"page_0213-b006","page_key":213,"order":6,"source":"deepseek+paddle","confidence":"medium","type":"heading","text":"## 12.3 Extensions to dot-product self-attention"},{"id":"page_0213-b007","page_key":213,"order":7,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"In the previous section, we described self-attention. Here, we introduce three extensions that are almost always used in practice."},{"id":"page_0213-b008","page_key":213,"order":8,"source":"deepseek+paddle","confidence":"medium","type":"heading","text":"## 12.3.1 Positional encoding"},{"id":"page_0213-b009","page_key":213,"order":9,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"Observant readers will have noticed that the self-attention mechanism overlooks important information: the computation does not take into account the order of the inputs $x_{n}$ . More precisely, it is equivariant wit..."},{"id":"page_0213-b010","page_key":213,"order":10,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"Absolute positional encodings: A matrix $\\Pi$ is added to the input X that encodes positional information (figure 12.5). Each column of $\\Pi$ is unique and hence contains information about the absolute position in the..."},{"id":"page_0213-b011","page_key":213,"order":11,"source":"deepseek+paddle","confidence":"medium","type":"exercise","text":"Problem 12.3"}]
+[
+  {
+    "id": "page_0213-b001",
+    "page_key": 213,
+    "order": 1,
+    "type": "figure",
+    "text": "",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0213_fig_1.jpg"
+  },
+  {
+    "id": "page_0213-b002",
+    "page_key": 213,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 12.5 Positional encodings. The self-attention architecture is equivariant to permutations of the inputs. To ensure that inputs at different positions are treated differently, a positional encoding matrix $\\Pi$ can be added to the data matrix. Each column is different, so the positions can be distinguished. Here, the position encodings use a predefined procedural sinusoidal pattern (which can be extended to larger values of N if necessary). However, in other cases, they are learned.",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "caption": "Figure 12.5 Positional encodings. The self-attention architecture is equivariant to permutations of the inputs. To ensure that inputs at different positions are treated differently, a positional encoding matrix $\\Pi$ can be added to the data matrix. Each column is different, so the positions can be distinguished. Here, the position encodings use a predefined procedural sinusoidal pattern (which can be extended to larger values of N if necessary). However, in other cases, they are learned."
+  },
+  {
+    "id": "page_0213-b003",
+    "page_key": 213,
+    "order": 3,
+    "type": "paragraph",
+    "text": "where the function Softmax[●] takes a matrix and performs the softmax operation independently on each of its columns (figure 12.4). In this formulation, we have explicitly included the dependence of the values, queries, and keys on the input X to emphasize that self-attention computes a kind of triple product based on the inputs. However, from now on, we will drop this dependence and just write:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0213-b004",
+    "page_key": 213,
+    "order": 4,
+    "type": "equation",
+    "text": "$$\n\\mathbf{Sa}[\\mathbf{X}]=\\mathbf{V}\\cdot\\mathrm{softmax}\\left[\\mathbf{K}^{T}\\mathbf{Q}\\right]\\qquad (12.8)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium",
+    "latex": "\\mathbf{Sa}[\\mathbf{X}]=\\mathbf{V}\\cdot\\mathrm{softmax}\\left[\\mathbf{K}^{T}\\mathbf{Q}\\right]\\qquad (12.8)"
+  },
+  {
+    "id": "page_0213-b005",
+    "page_key": 213,
+    "order": 5,
+    "type": "heading",
+    "text": "## 12.3 Extensions to dot-product self-attention",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0213-b006",
+    "page_key": 213,
+    "order": 6,
+    "type": "paragraph",
+    "text": "In the previous section, we described self-attention. Here, we introduce three extensions that are almost always used in practice.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0213-b007",
+    "page_key": 213,
+    "order": 7,
+    "type": "heading",
+    "text": "## 12.3.1 Positional encoding",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0213-b008",
+    "page_key": 213,
+    "order": 8,
+    "type": "paragraph",
+    "text": "Observant readers will have noticed that the self-attention mechanism overlooks important information: the computation does not take into account the order of the inputs $x_{n}$ . More precisely, it is equivariant with respect to input permutations. However, order is important when the inputs correspond to the words in a sentence. The sentence $\\theta$ is a woman at the raccoon has a different meaning than $\\theta$ . There are two main approaches to incorporating position information.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0213-b009",
+    "page_key": 213,
+    "order": 9,
+    "type": "paragraph",
+    "text": "Absolute positional encodings: A matrix $\\Pi$ is added to the input X that encodes positional information (figure 12.5). Each column of $\\Pi$ is unique and hence contains information about the absolute position in the input sequence. This matrix can be chosen by hand or learned. It may be added to the network inputs or at every network layer. Sometimes it is added to X in the computation of the queries and keys but not to the values.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

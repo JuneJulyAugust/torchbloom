@@ -1,1 +1,67 @@
-[{"id":"page_0164-b001","page_key":164,"order":1,"source":"deepseek+paddle","confidence":"medium","type":"figure","image_path":"figures/page_0164_fig_1.jpg"},{"id":"page_0164-b002","page_key":164,"order":2,"type":"caption","source":"deepseek+paddle","confidence":"medium","text":"Figure 10.3 Stride, kernel size, and dilation. a) With a stride of two, we evaluate the kernel at every other position, so the first output $z_{1}$ is computed from a weighted sum centered at $x_{1}$ , and b) the seco..."},{"id":"page_0164-b003","page_key":164,"order":3,"source":"deepseek+paddle","confidence":"medium","type":"heading","text":"## 10.2.2 Padding"},{"id":"page_0164-b004","page_key":164,"order":4,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"Equation 10.3 shows that each output is computed by taking a weighted sum of the previous, current, and subsequent positions in the input. This begs the question of how to deal with the first output (where there is no..."},{"id":"page_0164-b005","page_key":164,"order":5,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"There are two common approaches. The first is to pad the edges of the inputs with new values and proceed as usual. Zero-padding assumes the input is zero outside its valid range (figure 10.2c). Other possibilities inc..."},{"id":"page_0164-b006","page_key":164,"order":6,"source":"deepseek+paddle","confidence":"medium","type":"heading","text":"## 10.2.3 Stride, kernel size, and dilation"},{"id":"page_0164-b007","page_key":164,"order":7,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"In the example above, each output was a sum of the nearest three inputs. However, this is just one of a larger family of convolution operations, the members of which are"}]
+[
+  {
+    "id": "page_0164-b001",
+    "page_key": 164,
+    "order": 1,
+    "type": "figure",
+    "text": "",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0164_fig_1.jpg"
+  },
+  {
+    "id": "page_0164-b002",
+    "page_key": 164,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 10.3 Stride, kernel size, and dilation. a) With a stride of two, we evaluate the kernel at every other position, so the first output $z_{1}$ is computed from a weighted sum centered at $x_{1}$ , and b) the second output $z_{2}$ is computed from a weighted sum centered at $x_{3}$ and so on. c) The kernel size can also be changed. With a kernel size of five, we take a weighted sum of the nearest five inputs. d) In dilated or atrous convolution (from the French “à trous” – with holes), we intersperse zeros in the weight vector to allow us to combine information over a large area using fewer weights.",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "caption": "Figure 10.3 Stride, kernel size, and dilation. a) With a stride of two, we evaluate the kernel at every other position, so the first output $z_{1}$ is computed from a weighted sum centered at $x_{1}$ , and b) the second output $z_{2}$ is computed from a weighted sum centered at $x_{3}$ and so on. c) The kernel size can also be changed. With a kernel size of five, we take a weighted sum of the nearest five inputs. d) In dilated or atrous convolution (from the French “à trous” – with holes), we intersperse zeros in the weight vector to allow us to combine information over a large area using fewer weights."
+  },
+  {
+    "id": "page_0164-b003",
+    "page_key": 164,
+    "order": 3,
+    "type": "heading",
+    "text": "## 10.2.2 Padding",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0164-b004",
+    "page_key": 164,
+    "order": 4,
+    "type": "paragraph",
+    "text": "Equation 10.3 shows that each output is computed by taking a weighted sum of the previous, current, and subsequent positions in the input. This begs the question of how to deal with the first output (where there is no previous input) and the final output (where there is no subsequent input).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0164-b005",
+    "page_key": 164,
+    "order": 5,
+    "type": "paragraph",
+    "text": "There are two common approaches. The first is to pad the edges of the inputs with new values and proceed as usual. Zero-padding assumes the input is zero outside its valid range (figure 10.2c). Other possibilities include treating the input as circular or reflecting it at the boundaries. The second approach is to discard the output positions where the kernel exceeds the range of input positions. These valid convolutions have the advantage of introducing no extra information at the edges of the input. However, they have the disadvantage that the representation decreases in size.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0164-b006",
+    "page_key": 164,
+    "order": 6,
+    "type": "heading",
+    "text": "## 10.2.3 Stride, kernel size, and dilation",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0164-b007",
+    "page_key": 164,
+    "order": 7,
+    "type": "paragraph",
+    "text": "In the example above, each output was a sum of the nearest three inputs. However, this is just one of a larger family of convolution operations, the members of which are",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

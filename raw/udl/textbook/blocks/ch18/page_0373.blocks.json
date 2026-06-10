@@ -4,116 +4,116 @@
     "page_key": 373,
     "order": 1,
     "type": "exercise",
-    "source": "deepseek+paddle",
-    "confidence": "medium",
-    "text": "Problem 18.5 $^{*}$ Prove the relation:"
+    "text": "Problem 18.5 $^{*}$ Prove the relation:",
+    "source": "deepseek",
+    "confidence": "medium"
   },
   {
     "id": "page_0373-b002",
     "page_key": 373,
     "order": 2,
     "type": "equation",
+    "text": "$$\n\\begin{aligned}\n\\mathrm{Norm}_{x}[a,A]& \\mathrm{Norm}_{x}[b,B]\\propto \\mathrm{Norm}_{x}\\Big[(A^{-1}+B^{-1})^{-1}(A^{-1}a+B^{-1}b),(A^{-1}+B^{-1})^{-1}\\Big].\n\\end{aligned}\n\\qquad (18.47)\n$$",
     "source": "deepseek",
-    "confidence": "high",
-    "text": "\\begin{aligned}Norm_{x}[a,A]& Norm_{x}[b,B]\\propto Norm_{x}\\Big[(A^{-1}+B^{-1})^{-1}(A^{-1}a+B^{-1}b),(A^{-1}+B^{-1})^{-1}\\Big].\\end{aligned} \\quad (18.47)"
+    "confidence": "medium"
   },
   {
     "id": "page_0373-b003",
     "page_key": 373,
     "order": 3,
     "type": "exercise",
-    "source": "deepseek+paddle",
-    "confidence": "medium",
-    "text": "Problem 18.6 $^{*}$ Derive equation 18.15."
+    "text": "Problem 18.6 $^{*}$ Derive equation 18.15.",
+    "source": "deepseek",
+    "confidence": "medium"
   },
   {
     "id": "page_0373-b004",
     "page_key": 373,
     "order": 4,
     "type": "exercise",
-    "source": "deepseek+paddle",
-    "confidence": "medium",
-    "text": "Problem 18.7 $^{*}$ Derive the third line of equation 18.25 from the second line."
+    "text": "Problem 18.7 $^{*}$ Derive the third line of equation 18.25 from the second line.",
+    "source": "deepseek",
+    "confidence": "medium"
   },
   {
     "id": "page_0373-b005",
     "page_key": 373,
     "order": 5,
     "type": "exercise",
-    "source": "deepseek+paddle",
-    "confidence": "medium",
-    "text": "Problem 18.8 $^{*}$ The KL-divergence between two normal distributions in D dimensions with means a and b and covariance matrices A and B is given by:"
+    "text": "Problem 18.8 $^{*}$ The KL-divergence between two normal distributions in D dimensions with means a and b and covariance matrices A and B is given by:",
+    "source": "deepseek",
+    "confidence": "medium"
   },
   {
     "id": "page_0373-b006",
     "page_key": 373,
     "order": 6,
     "type": "equation",
+    "text": "$$\nD_{KL}\\left[\\mathrm{Norm}_{\\mathbf{w}}[\\mathbf{a},\\mathbf{A}]\\mid\\mid\\mathrm{Norm}_{\\mathbf{w}}[\\mathbf{b},\\mathbf{B}]\\right]=\\frac{1}{2}\\left(\\mathrm{tr}\\left[\\mathbf{B}^{-1}\\mathbf{A}\\right]-d+(\\mathbf{a}-\\mathbf{b})^{T}\\mathbf{B}^{-1}(\\mathbf{a}-\\mathbf{b})+\\log\\left[\\frac{|\\mathbf{B}|}{|\\mathbf{A}|}\\right]\\right)\n\\qquad (18.48)\n$$",
     "source": "deepseek",
-    "confidence": "high",
-    "text": "D_{KL}\\left[Norm_{\\mathbf{w}}[\\mathbf{a},\\mathbf{A}]||Norm_{\\mathbf{w}}[\\mathbf{b},\\mathbf{B}]\\right]=\\frac{1}{2}\\left(\\mathrm{tr}\\left[\\mathbf{B}^{-1}\\mathbf{A}\\right]-d+(\\mathbf{a}-\\mathbf{b})^{T}\\mathbf{B}^{-1}(\\mathbf{a}-\\mathbf{b})+\\log\\left[\\frac{|\\mathbf{B}|}{|\\mathbf{A}|}\\right]\\right). \\quad (18.48)"
+    "confidence": "medium"
   },
   {
     "id": "page_0373-b007",
     "page_key": 373,
     "order": 7,
     "type": "paragraph",
-    "source": "deepseek+paddle",
-    "confidence": "medium",
-    "text": "Substitute the definitions from equation 18.27 into this expression and show that the only term that depends on the parameters $\\phi$ is the first term from equation 18.28."
+    "text": "Substitute the definitions from equation 18.27 into this expression and show that the only term that depends on the parameters $\\phi$ is the first term from equation 18.28.",
+    "source": "deepseek",
+    "confidence": "medium"
   },
   {
     "id": "page_0373-b008",
     "page_key": 373,
     "order": 8,
     "type": "exercise",
-    "source": "deepseek+paddle",
-    "confidence": "medium",
-    "text": "Problem 18.9 $^{*}$ If $\\alpha_{t}=\\prod_{s=1}^{t}1-\\beta_{s}$, then show that:"
+    "text": "Problem 18.9 $^{*}$ If $\\alpha_{t}=\\prod_{s=1}^{t}1-\\beta_{s}$, then show that:",
+    "source": "deepseek",
+    "confidence": "medium"
   },
   {
     "id": "page_0373-b009",
     "page_key": 373,
     "order": 9,
     "type": "equation",
+    "text": "$$\n\\sqrt{\\frac{\\alpha_{t}}{\\alpha_{t-1}}}=\\sqrt{1-\\beta_{t}}\n\\qquad (18.49)\n$$",
     "source": "deepseek",
-    "confidence": "high",
-    "text": "\\sqrt{\\frac{\\alpha_{t}}{\\alpha_{t-1}}}=\\sqrt{1-\\beta_{t}}. \\quad (18.49)"
+    "confidence": "medium"
   },
   {
     "id": "page_0373-b010",
     "page_key": 373,
     "order": 10,
     "type": "exercise",
-    "source": "deepseek+paddle",
-    "confidence": "medium",
-    "text": "Problem 18.10 $^{*}$ If $\\alpha_{t}=\\prod_{s=1}^{t}\\mathbf{1}-\\beta_{s}$, then show that:"
+    "text": "Problem 18.10 $^{*}$ If $\\alpha_{t}=\\prod_{s=1}^{t}\\mathbf{1}-\\beta_{s}$, then show that:",
+    "source": "deepseek",
+    "confidence": "medium"
   },
   {
     "id": "page_0373-b011",
     "page_key": 373,
     "order": 11,
     "type": "equation",
+    "text": "$$\n\\frac{(1-\\alpha_{t-1})(1-\\beta_{t})+\\beta_{t}}{(1-\\alpha_{t})\\sqrt{1-\\beta_{t}}}=\\frac{1}{\\sqrt{1-\\beta_{t}}}\n\\qquad (18.50)\n$$",
     "source": "deepseek",
-    "confidence": "high",
-    "text": "\\frac{(1-\\alpha_{t-1})(1-\\beta_{t})+\\beta_{t}}{(1-\\alpha_{t})\\sqrt{1-\\beta_{t}}}=\\frac{1}{\\sqrt{1-\\beta_{t}}}. \\quad (18.50)"
+    "confidence": "medium"
   },
   {
     "id": "page_0373-b012",
     "page_key": 373,
     "order": 12,
     "type": "exercise",
-    "source": "deepseek+paddle",
-    "confidence": "medium",
-    "text": "Problem 18.11 $^{*}$ Prove equation 18.38."
+    "text": "Problem 18.11 $^{*}$ Prove equation 18.38.",
+    "source": "deepseek",
+    "confidence": "medium"
   },
   {
     "id": "page_0373-b013",
     "page_key": 373,
     "order": 13,
     "type": "exercise",
-    "source": "deepseek+paddle",
-    "confidence": "medium",
-    "text": "Problem 18.12 Classifier-free guidance allows us to create more stereotyped \"canonical\" images of a given class. When we described transformer decoders, generative adversarial networks, and the GLOW algorithm, we also discussed methods to reduce the amount of variation and produce more stereotyped outputs. What were these? Do you think it's inevitable that we should limit the output of generative models in this way?"
+    "text": "Problem 18.12 Classifier-free guidance allows us to create more stereotyped \"canonical\" images of a given class. When we described transformer decoders, generative adversarial networks, and the GLOW algorithm, we also discussed methods to reduce the amount of variation and produce more stereotyped outputs. What were these? Do you think it's inevitable that we should limit the output of generative models in this way?",
+    "source": "deepseek",
+    "confidence": "medium"
   }
 ]

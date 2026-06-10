@@ -1,1 +1,78 @@
-[{"id":"page_0210-b001","page_key":210,"order":1,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"b)"},{"id":"page_0210-b002","page_key":210,"order":2,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"c)"},{"id":"page_0210-b003","page_key":210,"order":3,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"**Figure 3**"},{"id":"page_0210-b004","page_key":210,"order":4,"source":"deepseek+paddle","confidence":"medium","type":"figure","image_path":"figures/page_0210_fig_1.jpg"},{"id":"page_0210-b005","page_key":210,"order":5,"type":"caption","source":"deepseek+paddle","confidence":"medium","text":"Figure 12.2 Self-attention for N=3 inputs $\\mathbf{x}_{n}$, each with dimension $D=4$. a) Each input $\\mathbf{x}_{m}$ is operated on independently by the same weights $\\Omega_{v}$ (same color equals same weight) and b..."},{"id":"page_0210-b006","page_key":210,"order":6,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"attention, we apply two more linear transformations to the inputs:"},{"id":"page_0210-b007","page_key":210,"order":7,"source":"deepseek+paddle","confidence":"medium","type":"equation","text":"\\begin{array}{rcl}\\mathbf{q}_{n}&=&\\beta_{q}+\\Omega_{q}\\mathbf{x}_{n}\\\\ \\mathbf{k}_{m}&=&\\beta_{k}+\\Omega_{k}\\mathbf{x}_{m},\\end{array} \\quad (12.4)"},{"id":"page_0210-b008","page_key":210,"order":8,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"where $\\lbrace q_{n}\\rbrace $ and $\\lbrace \\mathbf{k}_{m}\\rbrace $ are termed queries and keys, respectively. Then we compute dot products between the queries and keys and pass the results through a softmax function:"},{"id":"page_0210-b009","page_key":210,"order":9,"source":"deepseek+paddle","confidence":"medium","type":"equation","text":"\\begin{array}{rcl}a[\\mathbf{x}_{m},\\mathbf{x}_{n}]&=&\\mathrm{softmax}_{m}\\left[\\mathbf{k}_{\\bullet}^{T}\\mathbf{q}_{n}\\right]\\\\&=&\\frac{\\exp\\left[\\mathbf{k}_{m}^{T}\\mathbf{q}_{n}\\right]}{\\sum_{m^{\\prime}=1}^{N}\\exp\\left[\\mathbf{k}_{m^{\\prime}}^{T}\\mathbf{q}_{n}\\right]},\\end{array} \\quad (12.5)"},{"id":"page_0210-b010","page_key":210,"order":10,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"so for each $\\mathbf{x}_{n}$, they are positive and sum to one (figure 12.3). For obvious reasons, this is known as dot-product self-attention."},{"id":"page_0210-b011","page_key":210,"order":11,"source":"deepseek+paddle","confidence":"medium","type":"paragraph","text":"The names “queries” and “keys” were inherited from the field of information retrieval and have the following interpretation: the dot product operation returns a measure of similarity between its inputs, so the weights..."}]
+[
+  {
+    "id": "page_0210-b001",
+    "page_key": 210,
+    "order": 1,
+    "type": "figure",
+    "text": "",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0210_fig_1.jpg"
+  },
+  {
+    "id": "page_0210-b002",
+    "page_key": 210,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 12.2 Self-attention for N=3 inputs $\\mathbf{x}_{n}$, each with dimension $D=4$. a) Each input $\\mathbf{x}_{m}$ is operated on independently by the same weights $\\Omega_{v}$ (same color equals same weight) and biases $\\beta_{v}$ (not shown) to form the values $\\boldsymbol{\\beta}_{v} + \\Omega_{v}\\mathbf{x}_{m}$. Each output is a linear combination of the values, with the attention weight $\\mathrm{a}[\\mathbf{x}_{m}, \\mathbf{x}_{n}]$ defining the contribution of the $m^{th}$ value to the $n^{th}$ output. b) Matrix showing block sparsity of linear transformation $\\Omega_{v}$ between inputs and values. c) Matrix showing sparsity of attention weights relating values and outputs.",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "caption": "Figure 12.2 Self-attention for N=3 inputs $\\mathbf{x}_{n}$, each with dimension $D=4$. a) Each input $\\mathbf{x}_{m}$ is operated on independently by the same weights $\\Omega_{v}$ (same color equals same weight) and biases $\\beta_{v}$ (not shown) to form the values $\\boldsymbol{\\beta}_{v} + \\Omega_{v}\\mathbf{x}_{m}$. Each output is a linear combination of the values, with the attention weight $\\mathrm{a}[\\mathbf{x}_{m}, \\mathbf{x}_{n}]$ defining the contribution of the $m^{th}$ value to the $n^{th}$ output. b) Matrix showing block sparsity of linear transformation $\\Omega_{v}$ between inputs and values. c) Matrix showing sparsity of attention weights relating values and outputs."
+  },
+  {
+    "id": "page_0210-b003",
+    "page_key": 210,
+    "order": 3,
+    "type": "paragraph",
+    "text": "attention, we apply two more linear transformations to the inputs:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0210-b004",
+    "page_key": 210,
+    "order": 4,
+    "type": "equation",
+    "text": "$$\n\\begin{aligned}\n\\mathbf{q}_n &= \\boldsymbol{\\beta}_q+\\boldsymbol{\\Omega}_q\\mathbf{x}_n \\\\\n\\mathbf{k}_m &= \\boldsymbol{\\beta}_k+\\boldsymbol{\\Omega}_k\\mathbf{x}_m\n\\end{aligned}\\qquad (12.4)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium",
+    "latex": "\\begin{aligned}\n\\mathbf{q}_n &= \\boldsymbol{\\beta}_q+\\boldsymbol{\\Omega}_q\\mathbf{x}_n \\\\\n\\mathbf{k}_m &= \\boldsymbol{\\beta}_k+\\boldsymbol{\\Omega}_k\\mathbf{x}_m\n\\end{aligned}\\qquad (12.4)"
+  },
+  {
+    "id": "page_0210-b005",
+    "page_key": 210,
+    "order": 5,
+    "type": "paragraph",
+    "text": "where $\\lbrace q_{n}\\rbrace$ and $\\lbrace \\mathbf{k}_{m}\\rbrace$ are termed queries and keys, respectively. Then we compute dot products between the queries and keys and pass the results through a softmax function:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0210-b006",
+    "page_key": 210,
+    "order": 6,
+    "type": "equation",
+    "text": "$$\n\\begin{aligned}\na[\\mathbf{x}_m,\\mathbf{x}_n]\n&= \\mathrm{softmax}_m\\left[\\mathbf{k}_{\\bullet}^{T}\\mathbf{q}_n\\right] \\\\\n&= \\frac{\\exp\\left[\\mathbf{k}_m^{T}\\mathbf{q}_n\\right]}{\\sum_{m'=1}^{N}\\exp\\left[\\mathbf{k}_{m'}^{T}\\mathbf{q}_n\\right]}\n\\end{aligned}\\qquad (12.5)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium",
+    "latex": "\\begin{aligned}\na[\\mathbf{x}_m,\\mathbf{x}_n]\n&= \\mathrm{softmax}_m\\left[\\mathbf{k}_{\\bullet}^{T}\\mathbf{q}_n\\right] \\\\\n&= \\frac{\\exp\\left[\\mathbf{k}_m^{T}\\mathbf{q}_n\\right]}{\\sum_{m'=1}^{N}\\exp\\left[\\mathbf{k}_{m'}^{T}\\mathbf{q}_n\\right]}\n\\end{aligned}\\qquad (12.5)"
+  },
+  {
+    "id": "page_0210-b007",
+    "page_key": 210,
+    "order": 7,
+    "type": "paragraph",
+    "text": "so for each $\\mathbf{x}_{n}$, they are positive and sum to one (figure 12.3). For obvious reasons, this is known as dot-product self-attention.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0210-b008",
+    "page_key": 210,
+    "order": 8,
+    "type": "paragraph",
+    "text": "The names “queries” and “keys” were inherited from the field of information retrieval and have the following interpretation: the dot product operation returns a measure of similarity between its inputs, so the weights $a[x_{\\bullet}, x_{n}]$ depend on the relative similarities between the $n^{th}$ query and all of the keys. The softmax function means that the key vectors “compute” with one another to contribute to the final result. The queries and keys must have the same dimensions. However, these can differ from the dimension of",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

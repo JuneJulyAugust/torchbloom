@@ -1,1 +1,40 @@
-[{"id":"page_0369-b001","page_key":369,"order":1,"type":"figure","source":"paddle","confidence":"high","image_path":"figures/page_0369_fig_1.jpg","alt_text":"Figure 18.12 conditional generation using classifier guidance"},{"id":"page_0369-b002","page_key":369,"order":2,"type":"caption","source":"deepseek+paddle","confidence":"high","text":"Figure 18.12 Conditional generation using classifier guidance. Image samples conditioned on different ImageNet classes. The same model produces high quality samples of highly varied image classes. Adapted from Dhariwal & Nichol (2021)."},{"id":"page_0369-b003","page_key":369,"order":3,"type":"figure","source":"paddle","confidence":"high","image_path":"figures/page_0369_fig_2.jpg","alt_text":"Figure 18.13 conditional generation using text prompts, upper examples"},{"id":"page_0369-b004","page_key":369,"order":4,"type":"caption","source":"deepseek+paddle","confidence":"high","text":"Figure 18.13 Conditional generation using text prompts. Upper examples from a cascaded generation framework conditioned on text prompts."},{"id":"page_0369-b005","page_key":369,"order":5,"type":"figure","source":"paddle","confidence":"high","image_path":"figures/page_0369_fig_3.jpg","alt_text":"Figure 18.13 conditional generation using text prompts, lower examples"},{"id":"page_0369-b006","page_key":369,"order":6,"type":"caption","source":"deepseek+paddle","confidence":"high","text":"Figure 18.13 Conditional generation using text prompts. Synthesized images from a cascaded generation framework, conditioned on a text prompt encoded by a large language model. The stochastic model can produce many different images compatible with the prompt. The model can count objects and incorporate text into images. Adapted from Saharia et al. (2022b)."}]
+[
+  {
+    "id": "page_0369-b001",
+    "page_key": 369,
+    "order": 1,
+    "type": "figure",
+    "text": "../../figures/page_0369_fig_2.jpg",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "image_path": "figures/page_0369_fig_2.jpg"
+  },
+  {
+    "id": "page_0369-b002",
+    "page_key": 369,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 18.12 Conditional generation using classifier guidance. Image samples conditioned on different ImageNet classes. The same model produces high quality samples of highly varied image classes. Adapted from Dhariwal & Nichol (2021).",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0369-b003",
+    "page_key": 369,
+    "order": 3,
+    "type": "figure",
+    "text": "../../figures/page_0369_fig_1.jpg",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "image_path": "figures/page_0369_fig_1.jpg"
+  },
+  {
+    "id": "page_0369-b004",
+    "page_key": 369,
+    "order": 4,
+    "type": "caption",
+    "text": "Figure 18.13 Conditional generation using text prompts. Synthesized images from a cascaded generation framework, conditioned on a text prompt encoded by a large language model. The stochastic model can produce many different images compatible with the prompt. The model can count objects and incorporate text into images. Adapted from Saharia et al. (2022b).",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  }
+]

@@ -1,1 +1,65 @@
-[{"id":"page_0265-b001","page_key":265,"order":1,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Wolfe et al. (2021) proposed a distributed training method that both partitions the graph and trains narrower GCNs in parallel by partitioning the feature space at different layers. More information about sampling graphs can be found in Rozemberczki et al. (20"},{"id":"page_0265-b002","page_key":265,"order":2,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Regularization and normalization: Rong et al. (2020) proposed DropEdge, which randomly drops edges from the graph during each training iteration by masking the adjacency matrix. This can be done for the whole neural network or differently in each layer (layer-"},{"id":"page_0265-b003","page_key":265,"order":3,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"There are also many proposed normalization schemes for graph neural networks, including PairNorm (Zhao & Akoglu, 2020), weight normalization (Oono & Suzuki, 2019), differentiable group normalization (Zhou et al., 2020b), and GraphNorm (Cai et al., 2021)."},{"id":"page_0265-b004","page_key":265,"order":4,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Multi-relational graphs: Schlichtkrull et al. (2018) proposed a variation of graph convolu\\-tional networks for multi-relational graphs (i.e., graphs with more than one edge type). Their scheme separately aggregates information from each edge type using differ"},{"id":"page_0265-b005","page_key":265,"order":5,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Hierarchical representations and pooling: GNNs for image classification decrease the representation size but increase the number of channels as the network progresses. However, the GCNs for graph classification in this chapter maintain the entire graph until t"},{"id":"page_0265-b006","page_key":265,"order":6,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Geometric graphs: The MoNet model (Monti et al., 2017) can exploit geometric information because neighboring nodes have well-defined spatial positions. They learn a mixture of Gaussians function and sample from this based on the relative coordinates of the nei"},{"id":"page_0265-b007","page_key":265,"order":7,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Oversmoothing and suspension: Unlike other deep learning models, graph neural networks did not, until recently, benefit significantly from increasing depth. Indeed, the original GCN paper (Kipf & Welling, 2017) and GraphSAGE (Hamilton et al., 2017a) both only "}]
+[
+  {
+    "id": "page_0265-b001",
+    "page_key": 265,
+    "order": 1,
+    "type": "paragraph",
+    "text": "Wolfe et al. (2021) proposed a distributed training method that both partitions the graph and trains narrower GCNs in parallel by partitioning the feature space at different layers. More information about sampling graphs can be found in Rozemberczki et al. (2020).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0265-b002",
+    "page_key": 265,
+    "order": 2,
+    "type": "paragraph",
+    "text": "Regularization and normalization: Rong et al. (2020) proposed DropEdge, which randomly drops edges from the graph during each training iteration by masking the adjacency matrix. This can be done for the whole neural network or differently in each layer (layer-wise DropEdge). In a sense, this is similar to dropout in that it breaks connections in the flow of data, but it can also be considered an augmentation method since changing the graph is similar to perturbing the data. Schlichtkrull et al. (2018), Teru et al. (2020), and Veličković et al. (2019) also proposed randomly dropping edges from the graph as a form of regularization similar to dropout. Node sampling methods (Hamilton et al., 2017a; Huang et al., 2018b; Chen et al., 2018a) can also be considered regularizers. Hasanzadeh et al. (2020) present a general framework called DropConnect that unifies many of the above approaches.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0265-b003",
+    "page_key": 265,
+    "order": 3,
+    "type": "paragraph",
+    "text": "There are also many proposed normalization schemes for graph neural networks, including PairNorm (Zhao & Akoglu, 2020), weight normalization (Oono & Suzuki, 2019), differentiable group normalization (Zhou et al., 2020b), and GraphNorm (Cai et al., 2021).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0265-b004",
+    "page_key": 265,
+    "order": 4,
+    "type": "paragraph",
+    "text": "Multi-relational graphs: Schlichtkrull et al. (2018) proposed a variation of graph convolu\\-tional networks for multi-relational graphs (i.e., graphs with more than one edge type). Their scheme separately aggregates information from each edge type using different parameters. If there are many edge types, the number of parameters may become large, and to combat this, they propose that each edge type uses a different weighting of a basis set of parameters.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0265-b005",
+    "page_key": 265,
+    "order": 5,
+    "type": "paragraph",
+    "text": "Hierarchical representations and pooling: GNNs for image classification decrease the representation size but increase the number of channels as the network progresses. However, the GCNs for graph classification in this chapter maintain the entire graph until the last layer and then combine all the nodes to compute the final prediction. Ying et al. (2018b) proposed DiffPool, which clusters graph nodes to make a graph that gets progressively smaller as the depth increases in a way that is differentiable, and so can be learned. This can be done based on the graph structure alone or adaptively based on the graph structure and the embeddings. Other pooling methods include SortPool (Zhang et al., 2018b) and self-attention graph pooling (Lee et al., 2019). A comparison of pooling layers for graph neural networks can be found in Grattarola et al. (2022). Gao & Ji (2019) propose an encoder-decoder structure for graphs based on the U-Net (see figure 11.10).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0265-b006",
+    "page_key": 265,
+    "order": 6,
+    "type": "paragraph",
+    "text": "Geometric graphs: The MoNet model (Monti et al., 2017) can exploit geometric information because neighboring nodes have well-defined spatial positions. They learn a mixture of Gaussians function and sample from this based on the relative coordinates of the neighbor. In this way, they can weight neighboring nodes based on their relative positions as in standard convolutional neural networks, even though these positions are not constant. The geodesic GCN (Masci et al., 2015) and anisotropic CNN (Boscaini et al., 2016) both adapt convolution to manifolds (i.e., surfaces) as represented by triangular meshes. They locally approximate the surface as a plane and define a coordinate system on this plane around the current node.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0265-b007",
+    "page_key": 265,
+    "order": 7,
+    "type": "paragraph",
+    "text": "Oversmoothing and suspension: Unlike other deep learning models, graph neural networks did not, until recently, benefit significantly from increasing depth. Indeed, the original GCN paper (Kipf & Welling, 2017) and GraphSAGE (Hamilton et al., 2017a) both only use two layers, and Chiang et al. (2019) trained a five-layer Cluster-GCN to get state-of-the-art performance on the PPI dataset. One possible explanation is over-smoothing (Li et al., 2018c); at each layer, the network incorporates information from a larger neighborhood, and it may be that this ultimately results in the dissolution of (important) local information. Indeed (Xu et al., 2018) prove that the influence of one node on another is proportional to the probability",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

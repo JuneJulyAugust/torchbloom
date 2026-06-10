@@ -4,62 +4,62 @@
     "page_key": 374,
     "order": 1,
     "type": "heading",
+    "text": "## Chapter 19",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Chapter 19"
+    "confidence": "medium"
   },
   {
     "id": "page_0374-b002",
     "page_key": 374,
     "order": 2,
     "type": "heading",
+    "text": "## Reinforcement learning",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Reinforcement learning"
+    "confidence": "medium"
   },
   {
     "id": "page_0374-b003",
     "page_key": 374,
     "order": 3,
     "type": "paragraph",
+    "text": "Reinforcement learning (RL) is a sequential decision-making framework in which agents learn to perform actions in an environment with the goal of maximizing received rewards. For example, an RL algorithm might control the moves (actions) of a character (the agent) in a video game (the environment), aiming to maximize the score (the reward). In robotics, an RL algorithm might control the movements (actions) of a robot (the agent) in the world (the environment) to perform a task (earning a reward). In finance, an RL algorithm might control a virtual trader (the agent) who buys or sells assets (the actions) on a financial exchange (the environment) to maximize profit (the reward).",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Reinforcement learning (RL) is a sequential decision-making framework in which agents learn to perform actions in an environment with the goal of maximizing received rewards. For example, an RL algorithm might control the moves (actions) of a character (the agent) in a video game (the environment), aiming to maximize the score (the reward). In robotics, an RL algorithm might control the movements (actions) of a robot (the agent) in the world (the environment) to perform a task (earning a reward). In finance, an RL algorithm might control a virtual trader (the agent) who buys or sells assets (the actions) on a financial exchange (the environment) to maximize profit (the reward)."
+    "confidence": "medium"
   },
   {
     "id": "page_0374-b004",
     "page_key": 374,
     "order": 4,
     "type": "paragraph",
+    "text": "Consider learning to play chess. Here, there is a reward of +1, -1, or 0 at the end of the game if the agent wins, loses, or draws and 0 at every other time step. This illustrates the challenges of RL. First, the reward is sparse; here, we must play an entire game to receive feedback. Second, the reward is temporally offset from the action that caused it; a decisive advantage might be gained thirty moves before victory. We must associate the reward with this critical action. This is termed the temporal credit assignment problem. Third, the environment is stochastic; the opponent doesn\u2019t always make the same move in the same situation, so it\u2019s hard to know if an action was truly good or just lucky. Finally, the agent must balance exploring the environment (e.g., trying new opening moves) with exploiting what it already knows (e.g., sticking to a previously successful opening). This is termed the exploration-exploitation trade-off.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Consider learning to play chess. Here, there is a reward of +1, -1, or 0 at the end of the game if the agent wins, loses, or draws and 0 at every other time step. This illustrates the challenges of RL. First, the reward is sparse; here, we must play an entire game to receive feedback. Second, the reward is temporally offset from the action that caused it; a decisive advantage might be gained thirty moves before victory. We must associate the reward with this critical action. This is termed the temporal credit assignment problem. Third, the environment is stochastic; the opponent doesn\u2019t always make the same move in the same situation, so it\u2019s hard to know if an action was truly good or just lucky. Finally, the agent must balance exploring the environment (e.g., trying new opening moves) with exploiting what it already knows (e.g., sticking to a previously successful opening). This is termed the exploration-exploitation trade-off."
+    "confidence": "medium"
   },
   {
     "id": "page_0374-b005",
     "page_key": 374,
     "order": 5,
     "type": "paragraph",
+    "text": "Reinforcement learning is an overarching framework that does not necessarily require deep learning. However, in practice, state-of-the-art systems often use deep networks. They encode the environment (the video game display, robot sensors, financial time series, or chessboard) and map this directly or indirectly to the next action (figure 1.13).",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Reinforcement learning is an overarching framework that does not necessarily require deep learning. However, in practice, state-of-the-art systems often use deep networks. They encode the environment (the video game display, robot sensors, financial time series, or chessboard) and map this directly or indirectly to the next action (figure 1.13)."
+    "confidence": "medium"
   },
   {
     "id": "page_0374-b006",
     "page_key": 374,
     "order": 6,
     "type": "heading",
+    "text": "## 19.1 Markov decision processes, returns, and policies",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "19.1 Markov decision processes, returns, and policies"
+    "confidence": "medium"
   },
   {
     "id": "page_0374-b007",
     "page_key": 374,
     "order": 7,
     "type": "paragraph",
+    "text": "Reinforcement learning maps observations of an environment to actions, aiming to maximize a numerical quantity that is connected to the rewards received. In the most common case, we learn a policy that maximizes the expected return in a Markov decision process. This section explains these terms.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Reinforcement learning maps observations of an environment to actions, aiming to maximize a numerical quantity that is connected to the rewards received. In the most common case, we learn a policy that maximizes the expected return in a Markov decision process. This section explains these terms."
+    "confidence": "medium"
   }
 ]

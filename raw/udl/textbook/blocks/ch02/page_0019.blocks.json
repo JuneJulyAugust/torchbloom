@@ -61,7 +61,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "latex": "\\begin{align*}L[\\phi]\\quad&=\\quad\\sum_{i=1}^{I}\\left(f[x_i,\\phi]-y_i\\right)^2\\\\&=\\quad\\sum_{i=1}^{I}\\left(\\phi_0+\\phi_1x_i-y_i\\right)^2.\\end{align*} \\quad (2.5)"
+    "latex": "\\begin{aligned}\nL[\\phi] &= \\sum_{i=1}^{I}\\left(f[x_i,\\phi]-y_i\\right)^2\\\\\n&= \\sum_{i=1}^{I}\\left(\\phi_0+\\phi_1x_i-y_i\\right)^2.\n\\end{aligned} \\quad (2.5)"
   },
   {
     "id": "page_0019-b008",

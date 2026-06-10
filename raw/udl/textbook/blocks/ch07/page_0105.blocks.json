@@ -6,15 +6,15 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\frac{\\partial\\mathbf{f}_{3}}{\\partial\\mathbf{h}_{3}}=\\frac{\\partial}{\\partial\\mathbf{h}_{3}}\\left(\\boldsymbol{\\beta}_{3}+\\mathbf{\\Omega}_{3}\\mathbf{h}_{3}\\right)=\\mathbf{\\Omega}_{3}^{T}.\n\\end{aligned} \\quad (7.21)"
+    "latex": "\\frac{\\partial\\mathbf{f}_{3}}{\\partial\\mathbf{h}_{3}}=\\frac{\\partial}{\\partial\\mathbf{h}_{3}}\\left(\\boldsymbol{\\beta}_{3}+\\mathbf{\\Omega}_{3}\\mathbf{h}_{3}\\right)=\\mathbf{\\Omega}_{3}^{T}. \\qquad (7.21)"
   },
   {
     "id": "page_0105-b002",
     "page_key": 105,
     "order": 2,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "If you are unfamiliar with matrix calculus, this result is not obvious. It is explored in problem 7.6."
   },
   {
@@ -22,7 +22,7 @@
     "page_key": 105,
     "order": 3,
     "type": "list",
-    "source": "deepseek",
+    "source": "deepseek+paddle",
     "confidence": "medium",
     "text": "- The derivative $\\partial\\mathbf{h}_{3}/\\partial\\mathbf{f}_{2}$ of the output $\\mathbf{h}_{3}$ of the activation function with respect to its input $\\mathbf{f}_{2}$ will depend on the activation function. It will be a diagonal matrix since each activation only depends on the corresponding pre-activation. For ReLU functions, the diagonal terms are zero everywhere $\\mathbf{f}_{2}$ is less than zero and one otherwise (figure 7.6). Rather than multiply by this matrix, we extract the diagonal terms as a vector $\\left\\|\\mathbf{f}_{2}>0\\right\\|$ and pointwise multiply, which is more efficient."
   },
@@ -31,8 +31,8 @@
     "page_key": 105,
     "order": 4,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "The terms on the right-hand side of equations 7.19 and 7.20 have similar forms. As we progress back through the network, we alternately (i) multiply by the transpose of the weight matrices $\\Omega_{k}^{T}$ and (ii) threshold based on the inputs $f_{k-1}$ to the hidden layer. These inputs were stored during the forward pass."
   },
   {
@@ -40,8 +40,8 @@
     "page_key": 105,
     "order": 5,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "Backward pass #2: Now that we know how to compute $\\partial\\ell_{i}/\\partial\\mathbf{f}_{k}$, we can focus on calculating the derivatives of the loss with respect to the weights and biases. To calculate the derivatives of the loss with respect to the biases $\\boldsymbol{\\beta}_{k}$, we again use the chain rule:"
   },
   {
@@ -51,15 +51,15 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\\frac{\\partial\\ell_{i}}{\\partial\\boldsymbol{\\beta}_{k}}&=\\quad\\frac{\\partial\\mathbf{f}_{k}}{\\partial\\boldsymbol{\\beta}_{k}}\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{k}}&=\\quad\\frac{\\partial}{\\partial\\boldsymbol{\\beta}_{k}}\\left(\\boldsymbol{\\beta}_{k}+\\mathbf{\\Omega}_{k}\\mathbf{h}_{k}\\right)\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{k}}\\\\&=\\quad\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{k}},\\end{aligned}"
+    "latex": "\\begin{aligned}\n\\frac{\\partial\\ell_{i}}{\\partial\\boldsymbol{\\beta}_{k}} &=\\quad\\frac{\\partial\\mathbf{f}_{k}}{\\partial\\boldsymbol{\\beta}_{k}}\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{k}} &=\\quad\\frac{\\partial}{\\partial\\boldsymbol{\\beta}_{k}}\\left(\\boldsymbol{\\beta}_{k}+\\mathbf{\\Omega}_{k}\\mathbf{h}_{k}\\right)\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{k}} \\\\\n&=\\quad\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{k}},\n\\end{aligned}"
   },
   {
     "id": "page_0105-b007",
     "page_key": 105,
     "order": 7,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "which we already calculated in equations 7.18 and 7.19."
   },
   {
@@ -67,8 +67,8 @@
     "page_key": 105,
     "order": 8,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "Similarly, the derivative for the weights matrix $\\Omega_{k}$, is given by:"
   },
   {
@@ -78,23 +78,23 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{\\Omega}_{k}}&=\\quad\\frac{\\partial\\mathbf{f}_{k}}{\\partial\\mathbf{\\Omega}_{k}}\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{k}}&=\\quad\\frac{\\partial}{\\partial\\mathbf{\\Omega}_{k}}\\left(\\boldsymbol{\\beta}_{k}+\\mathbf{\\Omega}_{k}\\mathbf{h}_{k}\\right)\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{k}}\\\\&=\\quad\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{k}}\\mathbf{h}_{k}^{T}.\\end{aligned} \\quad (7.22)"
+    "latex": "\\begin{aligned}\n\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{\\Omega}_{k}} &=\\quad\\frac{\\partial\\mathbf{f}_{k}}{\\partial\\mathbf{\\Omega}_{k}}\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{k}} &=\\quad\\frac{\\partial}{\\partial\\mathbf{\\Omega}_{k}}\\left(\\boldsymbol{\\beta}_{k}+\\mathbf{\\Omega}_{k}\\mathbf{h}_{k}\\right)\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{k}} \\\\\n&=\\quad\\frac{\\partial\\ell_{i}}{\\partial\\mathbf{f}_{k}}\\mathbf{h}_{k}^{T}.\n\\end{aligned} \\qquad (7.22)"
   },
   {
     "id": "page_0105-b010",
     "page_key": 105,
     "order": 10,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
-    "text": "Again, the progression from line two to line three is not obvious and is explored in problem 7.9. However, the result makes sense. The final line is a matrix of the same size as $\\Omega_{k}$ . It depends linearly on $h_{k}$ , which was multiplied by $\\Omega_{k}$ in the original expression. This is also consistent with the initial intuition that the derivative of the weights in $\\Omega_{k}$ will be proportional to the values of the hidden units $h_{k}$ that they multiply. Recall that we already computed these during the forward pass."
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Again, the progression from line two to line three is not obvious and is explored in problem 7.9. However, the result makes sense. The final line is a matrix of the same size as $\\Omega_{k}$. It depends linearly on $h_{k}$, which was multiplied by $\\Omega_{k}$ in the original expression. This is also consistent with the initial intuition that the derivative of the weights in $\\Omega_{k}$ will be proportional to the values of the hidden units $h_{k}$ that they multiply. Recall that we already computed these during the forward pass."
   },
   {
     "id": "page_0105-b011",
     "page_key": 105,
     "order": 11,
     "type": "exercise",
-    "source": "deepseek",
+    "source": "deepseek+paddle",
     "confidence": "medium",
     "text": "Problem 7.9"
   }

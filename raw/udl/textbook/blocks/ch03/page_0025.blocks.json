@@ -51,7 +51,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "\\begin{aligned}y &= \\mathbf{f}[x,\\boldsymbol{\\phi}]\\\\ &= \\phi_0 + \\phi_1 a[\\theta_{10}+\\theta_{11}x] + \\phi_2 a[\\theta_{20}+\\theta_{21}x] + \\phi_3 a[\\theta_{30}+\\theta_{31}x].\\end{aligned} \\quad (3.1)"
+    "text": "\\begin{aligned}\ny &= \\mathbf{f}[x,\\boldsymbol{\\phi}]\\\\\n&= \\phi_0 + \\phi_1 a[\\theta_{10}+\\theta_{11}x] + \\phi_2 a[\\theta_{20}+\\theta_{21}x] + \\phi_3 a[\\theta_{30}+\\theta_{31}x].\n\\end{aligned} \\quad (3.1)"
   },
   {
     "id": "page_0025-b007",
@@ -69,7 +69,7 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "high",
-    "text": "a[z]=\\mathrm{ReLU}[z]=\\begin{cases}0 & z<0\\\\ z & z\\geq 0\\end{cases}. \\quad (3.2)"
+    "text": "\\begin{aligned}\na[z] &= \\mathrm{ReLU}[z] \\\\\n&= \\begin{cases}\n0 & z<0\\\\\nz & z\\geq 0\n\\end{cases}.\n\\end{aligned} \\quad (3.2)"
   },
   {
     "id": "page_0025-b009",

@@ -4,116 +4,116 @@
     "page_key": 390,
     "order": 1,
     "type": "heading",
+    "text": "## 19.5.1 Derivation of gradient update",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "19.5.1 Derivation of gradient update"
+    "confidence": "medium"
   },
   {
     "id": "page_0390-b002",
     "page_key": 390,
     "order": 2,
     "type": "paragraph",
+    "text": "Consider a trajectory $\\tau = [\\mathbf{s}_{1}, a_{1}, \\mathbf{s}_{2}, a_{2}, \\ldots, \\mathbf{s}_{T}, a_{T}, \\mathbf{s}_{T+1}]$ through an MDP. The probability of this trajectory $\\Pr(\\tau | \\theta)$ depends on both the state evolution function $\\Pr(\\mathbf{s}_{t+1} | \\mathbf{s}_t, a_t)$ and the current stochastic policy $\\pi[a_{t} | \\mathbf{s}_t, \\theta]$:",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Consider a trajectory $\\tau = [\\mathbf{s}_{1}, \\alpha_{1}, \\mathbf{s}_{2}, \\alpha_{2}, \\ldots, \\mathbf{s}_{T}, \\alpha_{T}, \\mathbf{s}_{T+1}]$ through an MDP. The probability of this trajectory $Pr(\\tau | \\theta)$ depends on both the state evolution function $Pr(\\mathbf{s}_{t+1} | \\mathbf{s}_t, a_t)$ and the current stochastic policy $\\pi[a_{t} | \\mathbf{s}_t, \\theta]$:"
+    "confidence": "medium"
   },
   {
     "id": "page_0390-b003",
     "page_key": 390,
     "order": 3,
     "type": "equation",
-    "source": "deepseek",
-    "confidence": "high",
-    "text": "\\begin{aligned}\nPr(\\tau|\\theta)\\quad=\\quad Pr(\\mathbf{s}_{1})\\prod_{t=1}^{T}\\pi[a_{t}|\\mathbf{s}_{t},\\theta]Pr(\\mathbf{s}_{t+1}|\\mathbf{s}_{t},a_{t}).\n\\end{aligned} \\quad (19.22)"
+    "text": "$$\n\\Pr(\\tau|\\theta)\\quad=\\quad \\Pr(\\mathbf{s}_{1})\\prod_{t=1}^{T}\\pi[a_{t}|\\mathbf{s}_{t},\\theta]\\Pr(\\mathbf{s}_{t+1}|\\mathbf{s}_{t},a_{t}). \\quad (19.22)\n$$",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
   },
   {
     "id": "page_0390-b004",
     "page_key": 390,
     "order": 4,
     "type": "paragraph",
+    "text": "Policy gradient algorithms aim to maximize the expected return over many such trajectories:",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Policy gradient algorithms aim to maximize the expected return over many such trajectories:"
+    "confidence": "medium"
   },
   {
     "id": "page_0390-b005",
     "page_key": 390,
     "order": 5,
     "type": "equation",
-    "source": "deepseek",
-    "confidence": "high",
-    "text": "\\begin{aligned}\n\\theta=\\underset{r}{\\mathrm{argmax}}\\left[\\mathbb{E}_{\\tau}\\Big[r[\\boldsymbol{\\tau}]\\Big]\\right]=\\underset{\\theta}{\\mathrm{argmax}}\\left[\\int Pr(\\boldsymbol{\\tau}|\\boldsymbol{\\theta})r\\big[\\boldsymbol{\\tau}\\big]d\\boldsymbol{\\tau}\\right],\n\\end{aligned} \\quad (19.23)"
+    "text": "$$\n\\theta=\\underset{\\theta}{\\mathop{\\mathrm{arg\\,max}}}\\left[\\mathbb{E}_{\\tau}\\Big[r[\\boldsymbol{\\tau}]\\Big]\\right]=\\underset{\\theta}{\\mathop{\\mathrm{arg\\,max}}}\\left[\\int \\Pr(\\boldsymbol{\\tau}|\\boldsymbol{\\theta})r\\big[\\boldsymbol{\\tau}\\big]d\\boldsymbol{\\tau}\\right], \\quad (19.23)\n$$",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
   },
   {
     "id": "page_0390-b006",
     "page_key": 390,
     "order": 6,
     "type": "paragraph",
+    "text": "where here the return $r[\\tau]$ is the sum of all the rewards received along the trajectory.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "where here the return $r[\\tau]$ is the sum of all the rewards received along the trajectory."
+    "confidence": "medium"
   },
   {
     "id": "page_0390-b007",
     "page_key": 390,
     "order": 7,
     "type": "paragraph",
+    "text": "To maximize this quantity, we use the gradient ascent update:",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "To maximize this quantity, we use the gradient ascent update:"
+    "confidence": "medium"
   },
   {
     "id": "page_0390-b008",
     "page_key": 390,
     "order": 8,
     "type": "equation",
-    "source": "deepseek",
-    "confidence": "high",
-    "text": "\\begin{aligned}\n\\begin{align*}\\theta\\quad&\\leftarrow\\quad\\theta+\\alpha\\cdot\\frac{\\partial}{\\partial\\theta}\\int Pr(\\tau|\\theta)r[\\boldsymbol{\\tau}]d\\boldsymbol{\\tau},\\\\&=\\quad\\theta+\\alpha\\cdot\\int\\frac{\\partial Pr(\\boldsymbol{\\tau}|\\theta)}{\\partial\\theta}r[\\boldsymbol{\\tau}]d\\boldsymbol{\\tau},\\end{align*}\n\\end{aligned} \\quad (19.24)"
+    "text": "$$\n\\begin{aligned}\n\\theta\\quad&\\leftarrow\\quad\\theta+\\alpha\\cdot\\frac{\\partial}{\\partial\\theta}\\int \\Pr(\\tau|\\theta)r[\\boldsymbol{\\tau}]d\\boldsymbol{\\tau},\\\\\n&=\\quad\\theta+\\alpha\\cdot\\int\\frac{\\partial \\Pr(\\boldsymbol{\\tau}|\\theta)}{\\partial\\theta}r[\\boldsymbol{\\tau}]d\\boldsymbol{\\tau}\n\\end{aligned} \\quad (19.24)\n$$",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
   },
   {
     "id": "page_0390-b009",
     "page_key": 390,
     "order": 9,
     "type": "paragraph",
+    "text": "where $\\alpha$ is the learning rate.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "where $\\alpha$ is the learning rate."
+    "confidence": "medium"
   },
   {
     "id": "page_0390-b010",
     "page_key": 390,
     "order": 10,
     "type": "paragraph",
+    "text": "We want to approximate this integral with a sum over empirically observed trajectories. These are drawn from the distribution $\\Pr(\\tau|\\theta)$ , so to make progress, we multiply and divide the integrand by this distribution:",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "We want to approximate this integral with a sum over empirically observed trajectories. These are drawn from the distribution $Pr(\\tau|\\theta)$ , so to make progress, we multiply and divide the integrand by this distribution:"
+    "confidence": "medium"
   },
   {
     "id": "page_0390-b011",
     "page_key": 390,
     "order": 11,
     "type": "equation",
-    "source": "deepseek",
-    "confidence": "high",
-    "text": "\\begin{aligned}\n\\begin{align*}\\theta\\quad&\\leftarrow\\quad\\theta+\\alpha\\cdot\\int\\frac{\\partial Pr(\\tau|\\boldsymbol{\\theta})}{\\partial\\boldsymbol{\\theta}}r[\\boldsymbol{\\tau}]d\\boldsymbol{\\tau}\\\\&=\\quad\\theta+\\alpha\\cdot\\int Pr(\\tau|\\boldsymbol{\\theta})\\frac{1}{Pr(\\tau|\\boldsymbol{\\theta})}\\frac{\\partial Pr(\\tau|\\boldsymbol{\\theta})}{\\partial\\boldsymbol{\\theta}}r[\\boldsymbol{\\tau}]d\\boldsymbol{\\tau}\\\\&\\approx\\quad\\theta+\\alpha\\cdot\\frac{1}{I}\\sum_{i=1}^{I}\\frac{1}{Pr(\\tau_{i}|\\boldsymbol{\\theta})}\\frac{\\partial Pr(\\tau_{i}|\\boldsymbol{\\theta})}{\\partial\\boldsymbol{\\theta}}r[\\boldsymbol{\\tau}].\\end{align*}\n\\end{aligned} \\quad (19.25)"
+    "text": "$$\n\\begin{aligned}\n\\theta\\quad&\\leftarrow\\quad\\theta+\\alpha\\cdot\\int\\frac{\\partial \\Pr(\\tau|\\boldsymbol{\\theta})}{\\partial\\boldsymbol{\\theta}}r[\\boldsymbol{\\tau}]d\\boldsymbol{\\tau}\\\\\n&=\\quad\\theta+\\alpha\\cdot\\int \\Pr(\\tau|\\boldsymbol{\\theta})\\frac{1}{\\Pr(\\tau|\\boldsymbol{\\theta})}\\frac{\\partial \\Pr(\\tau|\\boldsymbol{\\theta})}{\\partial\\boldsymbol{\\theta}}r[\\boldsymbol{\\tau}]d\\boldsymbol{\\tau}\\\\\n&\\approx\\quad\\theta+\\alpha\\cdot\\frac{1}{I}\\sum_{i=1}^{I}\\frac{1}{\\Pr(\\tau_{i}|\\boldsymbol{\\theta})}\\frac{\\partial \\Pr(\\tau_{i}|\\boldsymbol{\\theta})}{\\partial\\boldsymbol{\\theta}}r[\\boldsymbol{\\tau}].\n\\end{aligned} \\quad (19.25)\n$$",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
   },
   {
     "id": "page_0390-b012",
     "page_key": 390,
     "order": 12,
     "type": "paragraph",
+    "text": "This equation has a simple interpretation (figure 19.15); the update changes the parameters $\\theta$ to increase the likelihood $\\Pr(\\tau_{i}|\\boldsymbol{\\theta})$ of an observed trajectory $\\tau_{i}$ in proportion to the return $r[\\boldsymbol{\\tau}_{i}]$ from that trajectory. However, it also normalizes by the probability of observing that trajectory in the first place to compensate for the fact that some trajectories are observed more often than others. If a trajectory is already common and yields a high return, then we don\u2019t need to change much. The biggest updates will come from trajectories that are uncommon but create large returns.",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "This equation has a simple interpretation (figure 19.15); the update changes the parameters $\\theta$ to increase the likelihood $Pr(\\tau_{i}|\\boldsymbol{\\theta})$ of an observed trajectory $\\tau_{i}$ in proportion to the return $r[\\boldsymbol{\\tau}_{i}]$ from that trajectory. However, it also normalizes by the probability of observing that trajectory in the first place to compensate for the fact that some trajectories are observed more often than others. If a trajectory is already common and yields a high return, then we don’t need to change much. The biggest updates will come from trajectories that are uncommon but create large returns."
+    "confidence": "medium"
   },
   {
     "id": "page_0390-b013",
     "page_key": 390,
     "order": 13,
     "type": "paragraph",
+    "text": "We can simplify this expression using the likelihood ratio identity:",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "We can simplify this expression using the likelihood ratio identity:"
+    "confidence": "medium"
   }
 ]

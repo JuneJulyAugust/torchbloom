@@ -1,1 +1,83 @@
-[{"id":"page_0371-b001","page_key":371,"order":1,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"Improving speed: One of the major drawbacks of diffusion models is that they take a long time to train and sample from. Stable diffusion (Rombach et al., 2022) projects the original data to a smaller latent space using a conventional autoencoder and then runs the diffusion process in this smaller space. This has the advantages of reducing the dimensionality of the training data for the diffusion process and allowing other data types (text, graphs, etc.) to be described by diffusion models. Vahdat et al. (2021) applied a similar approach."},{"id":"page_0371-b002","page_key":371,"order":2,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"Song et al. (2021a) showed that an entire family of diffusion processes is compatible with the training objective. Most of these processes are non-Markovian (i.e., the diffusion step does not only depend on the results of the previous step). One of these models is the denoising diffusion implicit model (DDIM), in which the updates are not stochastic (figure 18.10c). This model is amenable to taking larger steps (figure 18.10e) without inducing large errors. It effectively converts the model into an ordinary differential equation (ODE) in which the trajectories have low curvature and allows efficient numerical methods for solving ODEs to be applied."},{"id":"page_0371-b003","page_key":371,"order":3,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"Song et al. (2021c) propose converting the underlying stochastic differential equations into a probability flow ODE which has the same marginal distributions as the original process. Vahdat et al. (2021), Xiao et al. (2022b), and Karras et al. (2022) all exploit techniques for solving ODEs to speed up synthesis. Karras et al. (2022) identified the best-performing time discretization for sampling and evaluated different sampler schedules. The result of these and other improvements has been a significant drop in steps required during synthesis."},{"id":"page_0371-b004","page_key":371,"order":4,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"Sampling is slow because many small diffusion steps are required to ensure that the posterior distribution $q(\\mathbf{z}_{t-1}|\\mathbf{z}_t)$ is close to Gaussian (figure 18.5), so the Gaussian distribution in the decoder is appropriate. If we use a model that describes a more complex distribution at each denoising step, then we can use fewer diffusion steps in the first place. To this end, Xiao et al. (2022b) have investigated using conditional GAN models, and Gao et al. (2021) investigated using conditional energy-based models. Although these models cannot describe the original data distribution, they suffice to predict the (much simpler) reverse diffusion step."},{"id":"page_0371-b005","page_key":371,"order":5,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"Salimans & Ho (2022) distilled adjacent steps of the denoising process into a single step to speed up synthesis. Dockhorn et al. (2022) introduced momentum into the diffusion process. This makes the trajectories smoother and so more amenable to coarse sampling."},{"id":"page_0371-b006","page_key":371,"order":6,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"Conditional generation: Dhariwal & Nichol (2021) introduced classifier guidance, in which a classifier learns to identify the category of object being synthesized at each step, and this is used to bias the denoising update toward that class. This works well, but training a separate classifier is expensive. Classifier-free guidance (Ho & Salimans, 2022) concurrently trains conditional and unconditional denoising models by dropping the class information some proportion of the time in a process akin to dropout. This technique allows control of the relative contributions of the conditional and unconditional components. Over-weighting the conditional component causes the model to produce more typical and realistic samples."},{"id":"page_0371-b007","page_key":371,"order":7,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"Existing diffusion models can also be fine-tuned to be conditioned on edge maps, joint positions, segmentation, depth maps, etc., using a neural network structure called a control network (Zhang & Agrawala, 2023)."},{"id":"page_0371-b008","page_key":371,"order":8,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"Text-to-image: Before diffusion models, state-of-the-art text-to-image systems were based on transformers (e.g., Ramesh et al., 2021). GLIDE (Nichol et al., 2022) and Dall-E 2 (Ramesh et al., 2022) are both conditioned on embeddings from the CLIP model (Radford et al., 2021)."},{"id":"page_0371-b009","page_key":371,"order":9,"type":"paragraph","source":"deepseek+paddle","confidence":"medium","text":"Text-to-image: Before diffusion models, state-of-the-art text-to-image systems were based on transformers (e.g., Ramesh et al., 2021). GLIDE (Nichol et al., 2022) and Dall-E 2 (Ramesh et al., 2022) are both conditioned on embeddings from the CLIP model (Radford et al., 2021),"}]
+[
+  {
+    "id": "page_0371-b001",
+    "page_key": 371,
+    "order": 1,
+    "type": "paragraph",
+    "text": "Improving speed: One of the major drawbacks of diffusion models is that they take a long time to train and sample from. Stable diffusion (Rombach et al., 2022) projects the original data to a smaller latent space using a conventional autoencoder and then runs the diffusion process in this smaller space. This has the advantages of reducing the dimensionality of the training data for the diffusion process and allowing other data types (text, graphs, etc.) to be described by diffusion models. Vahdat et al. (2021) applied a similar approach.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0371-b002",
+    "page_key": 371,
+    "order": 2,
+    "type": "paragraph",
+    "text": "Song et al. (2021a) showed that an entire family of diffusion processes is compatible with the training objective. Most of these processes are non-Markovian (i.e., the diffusion step does not only depend on the results of the previous step). One of these models is the denoising diffusion implicit model (DDIM), in which the updates are not stochastic (figure 18.10c). This model is amenable to taking larger steps (figure 18.10e) without inducing large errors. It effectively converts the model into an ordinary differential equation (ODE) in which the trajectories have low curvature and allows efficient numerical methods for solving ODEs to be applied.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0371-b003",
+    "page_key": 371,
+    "order": 3,
+    "type": "paragraph",
+    "text": "Song et al. (2021c) propose converting the underlying stochastic differential equations into a probability flow ODE which has the same marginal distributions as the original process. Vahdat et al. (2021), Xiao et al. (2022b), and Karras et al. (2022) all exploit techniques for solving ODEs to speed up synthesis. Karras et al. (2022) identified the best-performing time discretization for sampling and evaluated different sampler schedules. The result of these and other improvements has been a significant drop in steps required during synthesis.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0371-b004",
+    "page_key": 371,
+    "order": 4,
+    "type": "paragraph",
+    "text": "Sampling is slow because many small diffusion steps are required to ensure that the posterior distribution $q(\\mathbf{z}_{t-1}|\\mathbf{z}_t)$ is close to Gaussian (figure 18.5), so the Gaussian distribution in the decoder is appropriate. If we use a model that describes a more complex distribution at each denoising step, then we can use fewer diffusion steps in the first place. To this end, Xiao et al. (2022b) have investigated using conditional GAN models, and Gao et al. (2021) investigated using conditional energy-based models. Although these models cannot describe the original data distribution, they suffice to predict the (much simpler) reverse diffusion step.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0371-b005",
+    "page_key": 371,
+    "order": 5,
+    "type": "paragraph",
+    "text": "Salimans & Ho (2022) distilled adjacent steps of the denoising process into a single step to speed up synthesis. Dockhorn et al. (2022) introduced momentum into the diffusion process. This makes the trajectories smoother and so more amenable to coarse sampling.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0371-b006",
+    "page_key": 371,
+    "order": 6,
+    "type": "paragraph",
+    "text": "Conditional generation: Dhariwal & Nichol (2021) introduced classifier guidance, in which a classifier learns to identify the category of object being synthesized at each step, and this is used to bias the denoising update toward that class. This works well, but training a separate classifier is expensive. Classifier-free guidance (Ho & Salimans, 2022) concurrently trains conditional and unconditional denoising models by dropping the class information some proportion of the time in a process akin to dropout. This technique allows control of the relative contributions of the conditional and unconditional components. Over-weighting the conditional component causes the model to produce more typical and realistic samples.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0371-b007",
+    "page_key": 371,
+    "order": 7,
+    "type": "paragraph",
+    "text": "Existing diffusion models can also be fine-tuned to be conditioned on edge maps, joint positions, segmentation, depth maps, etc., using a neural network structure called a control network (Zhang & Agrawala, 2023).",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0371-b008",
+    "page_key": 371,
+    "order": 8,
+    "type": "paragraph",
+    "text": "Text-to-image: Before diffusion models, state-of-the-art text-to-image systems were based on transformers (e.g., Ramesh et al., 2021). GLIDE (Nichol et al., 2022) and Dall-E 2 (Ramesh et al., 2022) are both conditioned on embeddings from the CLIP model (Radford et al., 2021).",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0371-b009",
+    "page_key": 371,
+    "order": 9,
+    "type": "paragraph",
+    "text": "Text-to-image: Before diffusion models, state-of-the-art text-to-image systems were based on transformers (e.g., Ramesh et al., 2021). GLIDE (Nichol et al., 2022) and Dall-E 2 (Ramesh et al., 2022) are both conditioned on embeddings from the CLIP model (Radford et al., 2021),",
+    "source": "deepseek",
+    "confidence": "medium"
+  }
+]

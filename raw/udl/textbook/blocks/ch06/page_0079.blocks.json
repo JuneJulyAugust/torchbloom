@@ -1,1 +1,20 @@
-[{"id":"page_0079-b001","page_key":79,"order":1,"type":"figure","source":"paddle","confidence":"high","image_path":"figures/page_0079_fig_1.jpg","alt_text":"Figure 6.1 Gradient descent for the linear regression model. a) Training set of I = 12 input/output pairs $\\lbrace x_{i}, y_{i}\\rbrace$ . b) Loss function showi"},{"id":"page_0079-b002","page_key":79,"order":2,"type":"caption","source":"deepseek+paddle","confidence":"high","text":"Figure 6.1 Gradient descent for the linear regression model. a) Training set of I = 12 input/output pairs $\\lbrace x_{i}, y_{i}\\rbrace$ . b) Loss function showing iterations of gradient descent. We start at point 0 and move in the steepest downhill direction until we can improve no further to arrive at point 1. We then repeat this procedure. This can be visualized better as a heatmap, where the brightness represents the loss. After only four iterations, we are already close to the minimum. d) Th"}]
+[
+  {
+    "id": "page_0079-b001",
+    "page_key": 79,
+    "order": 1,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "figure",
+    "image_path": "figures/page_0079_fig_1.jpg"
+  },
+  {
+    "id": "page_0079-b002",
+    "page_key": 79,
+    "order": 2,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "caption",
+    "text": "Figure 6.1 Gradient descent for the linear regression model. a) Training set of I = 12 input/output pairs {xi, yi}. b) Loss function showing iterations of gradient descent. We start at point 0 and move in the steepest downhill direction until we can improve no further to arrive at point 1. We then repeat this procedure. We measure the gradient at point 1 and move downhill to point 2 and so on. c) This can be visualized better as a heatmap, where the brightness represents the loss. After only four iterations, we are already close to the minimum. d) The model with the parameters at point 0 (lightest line) describes the data very badly, but each successive iteration improves the fit. The model with the parameters at point 4 (darkest line) is already a reasonable description of the training data"
+  }
+]

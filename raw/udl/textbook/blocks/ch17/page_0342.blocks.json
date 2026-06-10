@@ -4,98 +4,98 @@
     "page_key": 342,
     "order": 1,
     "type": "paragraph",
-    "source": "deepseek+paddle",
-    "confidence": "medium",
-    "text": "vanilla VAEs are generally low-quality (figure 17.12a-c). This is partly because of the naïve spherical Gaussian noise model and partly because of the Gaussian models used for the prior and variational posterior. One trick to improve generation quality is to sample from the aggregated posterior $q(\\mathbf{z}|\\boldsymbol{\\theta}) = (1/I) \\sum_{i} q(\\mathbf{z}|x_i, \\boldsymbol{\\theta})$ rather than the prior; this is the average posterior over all samples and is a mixture of Gaussians that is more representative of true distribution in latent space."
+    "text": "vanilla VAEs are generally low-quality (figure 17.12a-c). This is partly because of the naïve spherical Gaussian noise model and partly because of the Gaussian models used for the prior and variational posterior. One trick to improve generation quality is to sample from the aggregated posterior $q(\\mathbf{z}|\\boldsymbol{\\theta}) = (1/I) \\sum_{i} q(\\mathbf{z}|x_i, \\boldsymbol{\\theta})$ rather than the prior; this is the average posterior over all samples and is a mixture of Gaussians that is more representative of true distribution in latent space.",
+    "source": "deepseek",
+    "confidence": "medium"
   },
   {
     "id": "page_0342-b002",
     "page_key": 342,
     "order": 2,
     "type": "paragraph",
-    "source": "deepseek+paddle",
-    "confidence": "medium",
-    "text": "Modern VAEs can produce high-quality samples (figure 17.12d), but only by using hierarchical priors and specialized network architecture and regularization techniques. Diffusion models (chapter 18) can be viewed as VAEs with hierarchical priors. These also create very high-quality samples."
+    "text": "Modern VAEs can produce high-quality samples (figure 17.12d), but only by using hierarchical priors and specialized network architecture and regularization techniques. Diffusion models (chapter 18) can be viewed as VAEs with hierarchical priors. These also create very high-quality samples.",
+    "source": "deepseek",
+    "confidence": "medium"
   },
   {
     "id": "page_0342-b003",
     "page_key": 342,
     "order": 3,
     "type": "heading",
+    "text": "17.8.3 Resynthesis",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "17.8.3 Resynthesis"
+    "confidence": "medium"
   },
   {
     "id": "page_0342-b004",
     "page_key": 342,
     "order": 4,
     "type": "paragraph",
-    "source": "deepseek+paddle",
-    "confidence": "medium",
-    "text": "VAEs can also be used to modify real data. A data point x can be projected into the latent space by either (i) taking the mean of the distribution predicted by the encoder or (ii) by using an optimization procedure to find the latent variable z that maximizes the posterior probability, which Bayes' rule tells us is proportional to $Pr(\\mathbf{x}|\\mathbf{z})Pr(\\mathbf{z})$ ."
+    "text": "VAEs can also be used to modify real data. A data point x can be projected into the latent space by either (i) taking the mean of the distribution predicted by the encoder or (ii) by using an optimization procedure to find the latent variable z that maximizes the posterior probability, which Bayes' rule tells us is proportional to $\\Pr(\\mathbf{x}|\\mathbf{z})\\Pr(\\mathbf{z})$ .",
+    "source": "deepseek",
+    "confidence": "medium"
   },
   {
     "id": "page_0342-b005",
     "page_key": 342,
     "order": 5,
     "type": "paragraph",
-    "source": "deepseek+paddle",
-    "confidence": "medium",
-    "text": "In figure 17.13, multiple images labeled as \"neutral\" or \"smiling\" are projected into latent space. The vector representing this change is estimated by taking the difference in latent space between the means of these two groups. A second vector is estimated to represent \"mouth closed\" versus \"mouth open.\""
+    "text": "In figure 17.13, multiple images labeled as \"neutral\" or \"smiling\" are projected into latent space. The vector representing this change is estimated by taking the difference in latent space between the means of these two groups. A second vector is estimated to represent \"mouth closed\" versus \"mouth open.\"",
+    "source": "deepseek",
+    "confidence": "medium"
   },
   {
     "id": "page_0342-b006",
     "page_key": 342,
     "order": 6,
     "type": "paragraph",
-    "source": "deepseek+paddle",
-    "confidence": "medium",
-    "text": "Now the image of encoding (and possibly modifying) input data before decoding again is presented in a way that makes it clear what the process of disentangling flows is. This can also be done with GANs and normalizing flows. However, in GANs, there is no encoder, so a separate procedure must be used to find the latent variable that corresponds to the observed data."
+    "text": "Now the image of encoding (and possibly modifying) input data before decoding again is presented in a way that makes it clear what the process of disentangling flows is. This can also be done with GANs and normalizing flows. However, in GANs, there is no encoder, so a separate procedure must be used to find the latent variable that corresponds to the observed data.",
+    "source": "deepseek",
+    "confidence": "medium"
   },
   {
     "id": "page_0342-b007",
     "page_key": 342,
     "order": 7,
     "type": "paragraph",
-    "source": "deepseek+paddle",
-    "confidence": "medium",
-    "text": "The process of encoding (and possibly modifying) input data before decoding again is known as resynthesis. This can also be done with GANs and normalizing flows. However, in GANs, there is no encoder, so a separate procedure must be used to find the latent variable that corresponds to the observed data."
+    "text": "The process of encoding (and possibly modifying) input data before decoding again is known as resynthesis. This can also be done with GANs and normalizing flows. However, in GANs, there is no encoder, so a separate procedure must be used to find the latent variable that corresponds to the observed data.",
+    "source": "deepseek",
+    "confidence": "medium"
   },
   {
     "id": "page_0342-b008",
     "page_key": 342,
     "order": 8,
     "type": "heading",
+    "text": "17.8.4 Disentanglement",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "17.8.4 Disentanglement"
+    "confidence": "medium"
   },
   {
     "id": "page_0342-b009",
     "page_key": 342,
     "order": 9,
     "type": "paragraph",
-    "source": "deepseek+paddle",
-    "confidence": "medium",
-    "text": "In the resynthesis example above, the directions in space representing interpretable properties had to be estimated using labeled training data. Other work attempts to improve the characteristics of the latent space so that its coordinate directions correspond to real-world properties. When each dimension represents an independent real-world factor, the latent space is described as disentangled. For example, when modeling face images, we might hope to uncover head pose or hair color as independent factors."
+    "text": "In the resynthesis example above, the directions in space representing interpretable properties had to be estimated using labeled training data. Other work attempts to improve the characteristics of the latent space so that its coordinate directions correspond to real-world properties. When each dimension represents an independent real-world factor, the latent space is described as disentangled. For example, when modeling face images, we might hope to uncover head pose or hair color as independent factors.",
+    "source": "deepseek",
+    "confidence": "medium"
   },
   {
     "id": "page_0342-b010",
     "page_key": 342,
     "order": 10,
     "type": "paragraph",
-    "source": "deepseek+paddle",
-    "confidence": "medium",
-    "text": "Methods to encourage disentanglement typically add regularization terms to the loss function based on either (i) the posterior $q(\\mathbf{z}|\\mathbf{x},\\boldsymbol{\\theta})$ over the latent variables z, or (ii) the aggregated posterior $q(\\mathbf{z}|\\boldsymbol{\\theta})=(1/I)\\sum_{i}q(\\mathbf{z}|\\mathbf{x}_{i},\\boldsymbol{\\theta})$ :"
+    "text": "Methods to encourage disentanglement typically add regularization terms to the loss function based on either (i) the posterior $q(\\mathbf{z}|\\mathbf{x},\\boldsymbol{\\theta})$ over the latent variables z, or (ii) the aggregated posterior $q(\\mathbf{z}|\\boldsymbol{\\theta})=(1/I)\\sum_{i}q(\\mathbf{z}|\\mathbf{x}_{i},\\boldsymbol{\\theta})$ :",
+    "source": "deepseek",
+    "confidence": "medium"
   },
   {
     "id": "page_0342-b011",
     "page_key": 342,
     "order": 11,
     "type": "equation",
+    "text": "$$\nL_{\\mathrm{new}}=-\\mathrm{ELBO}[\\boldsymbol{\\theta},\\phi]+\\lambda_{1}\\mathbb{E}_{\\Pr(\\mathbf{x})}\\left[\\mathrm{r}_{1}\\big[q(\\mathbf{z}|\\mathbf{x},\\boldsymbol{\\theta})\\big]\\right]+\\lambda_{2}\\mathrm{r}_{2}\\left[q(\\mathbf{z}|\\boldsymbol{\\theta})\\right]\n\\qquad (17.29)\n$$",
     "source": "deepseek",
-    "confidence": "high",
-    "text": "L_{\\mathrm{new}}=-\\mathrm{ELBO}[\\boldsymbol{\\theta},\\phi]+\\lambda_{1}\\mathbb{E}_{Pr(\\mathbf{x})}\\left[\\mathrm{r}_{1}\\big[q(\\mathbf{z}|\\mathbf{x},\\boldsymbol{\\theta})\\big]\\right]+\\lambda_{2}\\mathrm{r}_{2}\\left[q(\\mathbf{z}|\\boldsymbol{\\theta})\\right]. \\quad (17.29)"
+    "confidence": "medium"
   }
 ]

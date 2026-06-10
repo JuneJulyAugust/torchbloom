@@ -1,1 +1,74 @@
-[{"id":"page_0269-b001","page_key":269,"order":1,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"Chapter 14"},{"id":"page_0269-b002","page_key":269,"order":2,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"Unsupervised learning"},{"id":"page_0269-b003","page_key":269,"order":3,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"Chapters 2–9 walked through the supervised learning pipeline. We defined models that mapped observed data x to output values y and introduced loss functions that measured the quality of that mapping for a training dataset $\\lbrace x_{i}, y_{i} \\rbrace$ . Then "},{"id":"page_0269-b004","page_key":269,"order":4,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"The defining characteristic of unsupervised learning models is that they are learned from a set of observed data $\\lbrace x_{i} \\rbrace$ in the absence of labels. All unsupervised models share this property, but they have diverse goals. They may be used to gen"},{"id":"page_0269-b005","page_key":269,"order":5,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"This chapter introduces a taxonomy of unsupervised learning models and then discusses the desirable properties of models and how to measure their performance. The four subsequent chapters discuss four particular models: generative adversarial networks (GANs), "},{"id":"page_0269-b006","page_key":269,"order":6,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"14.1 Taxonomy of unsupervised learning models"},{"id":"page_0269-b007","page_key":269,"order":7,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"A common strategy in unsupervised learning is to define a mapping between the data examples x and a set of unseen latent variables z. These latent variables capture underlying structure in the dataset and usually have a lower dimension than the original data; "},{"id":"page_0269-b008","page_key":269,"order":8,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"In principle, the mapping between the observed and latent variables can be in either direction. Some models map from the data x to latent variables z. For example, the"}]
+[
+  {
+    "id": "page_0269-b001",
+    "page_key": 269,
+    "order": 1,
+    "type": "heading",
+    "text": "Chapter 14",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0269-b002",
+    "page_key": 269,
+    "order": 2,
+    "type": "heading",
+    "text": "Unsupervised learning",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0269-b003",
+    "page_key": 269,
+    "order": 3,
+    "type": "paragraph",
+    "text": "Chapters 2–9 walked through the supervised learning pipeline. We defined models that mapped observed data x to output values y and introduced loss functions that measured the quality of that mapping for a training dataset  $\\lbrace x_{i}, y_{i}\\rbrace$ . Then we discussed how to fit and measure the performance of these models. Chapters 10–13 introduced more sophisticated model architectures incorporating parameter sharing and allowing parallel computational paths.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0269-b004",
+    "page_key": 269,
+    "order": 4,
+    "type": "paragraph",
+    "text": "The defining characteristic of unsupervised learning models is that they are learned from a set of observed data  $\\lbrace x_{i}\\rbrace$  in the absence of labels. All unsupervised models share this property, but they have diverse goals. They may be used to generate plausible new samples from the dataset or to manipulate, denoise, interpolate between, or compress examples. They can also be used to reveal the internal structure of a dataset (e.g., by dividing it into coherent clusters) or to distinguish whether new examples belong to the same dataset or are outliers.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0269-b005",
+    "page_key": 269,
+    "order": 5,
+    "type": "paragraph",
+    "text": "This chapter introduces a taxonomy of unsupervised learning models and then discusses the desirable properties of models and how to measure their performance. The four subsequent chapters discuss four particular models: generative adversarial networks (GANs), normalizing flows, variational autoencoders (VAEs), and diffusion models. [^1]",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0269-b006",
+    "page_key": 269,
+    "order": 6,
+    "type": "heading",
+    "text": "14.1 Taxonomy of unsupervised learning models",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0269-b007",
+    "page_key": 269,
+    "order": 7,
+    "type": "paragraph",
+    "text": "A common strategy in unsupervised learning is to define a mapping between the data examples x and a set of unseen latent variables z. These latent variables capture underlying structure in the dataset and usually have a lower dimension than the original data; in this sense, a latent variable z can be considered a compressed version of a data example x that captures its essential qualities (figures 1.9–1.10).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0269-b008",
+    "page_key": 269,
+    "order": 8,
+    "type": "paragraph",
+    "text": "In principle, the mapping between the observed and latent variables can be in either direction. Some models map from the data x to latent variables z. For example, the",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

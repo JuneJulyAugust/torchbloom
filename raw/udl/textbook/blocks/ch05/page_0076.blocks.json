@@ -3,82 +3,81 @@
     "id": "page_0076-b001",
     "page_key": 76,
     "order": 1,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "type": "figure",
-    "source": "paddle",
-    "confidence": "high",
-    "image_path": "figures/page_0076_fig_1.jpg",
-    "alt_text": "Figure 5.15 Poisson distribution. This discrete distribution is defined over non-negative integers $z \\in \\lbrace 0,1,2,\\ldots\\rbrace$ . It has a single paramet"
+    "image_path": "figures/page_0076_fig_1.jpg"
   },
   {
     "id": "page_0076-b002",
     "page_key": 76,
     "order": 2,
-    "type": "caption",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Figure 5.15 Poisson distribution. This discrete distribution is defined over non-negative integers $z \\in \\lbrace 0,1,2,\\ldots\\rbrace$ . It has a single parameter $\\lambda \\in R^{+}$ , which is known as the rate and is the mean of the distribution. a–c) Poisson distributions with rates of 1.4, 2.8, and 6.0, respectively."
+    "confidence": "medium",
+    "type": "caption",
+    "text": "Figure 5.15 Poisson distribution. This discrete distribution is defined over nonnegative integers $z \\in \\lbrace 0, 1, 2,\\ldots \\rbrace$. It has a single parameter $\\lambda \\in \\mathbb{R}^{+}$, which is known as the rate and is the mean of the distribution. a-c) Poisson distributions with rates of 1.4, 2.8, and 6.0, respectively."
   },
   {
     "id": "page_0076-b003",
     "page_key": 76,
     "order": 3,
-    "type": "exercise",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "**Problem 5.6** Consider building a model to predict the number of pedestrians $y \\in \\lbrace 0,1,2,\\ldots\\rbrace$ that will pass a given point in the city in the next minute, based on data x that contains information about the time of day, the longitude and latitude, and the type of neighborhood. A suitable distribution for modeling counts is the Poisson distribution (figure 5.15). This has a single parameter $\\lambda > 0$ called the rate that represents the mean of the distribution. The distri"
+    "confidence": "medium",
+    "type": "exercise",
+    "text": "Problem 5.6 Consider building a model to predict the number of pedestrians $ y \\in \\lbrace 0,1,2,\\ldots \\rbrace $ that will pass a given point in the city in the next minute, based on data x that contains information about the time of day, the longitude and latitude, and the type of neighborhood. A suitable distribution for modeling counts is the Poisson distribution (figure 5.15). This has a single parameter $\\lambda > 0 $ called the rate that represents the mean of the distribution. The distribution has probability density function:"
   },
   {
     "id": "page_0076-b004",
     "page_key": 76,
     "order": 4,
+    "source": "deepseek",
+    "confidence": "medium",
     "type": "equation",
-    "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "\\begin{aligned}\nPr(y=k)=\\frac{\\lambda^{k}e^{-\\lambda}}{k!}.\n\\end{aligned} \\quad (5.36)"
+    "latex": "\\begin{aligned}\n\\Pr\\left(y=k\\right) &= \\frac{\\lambda^k e^{-\\lambda}}{k!}\n\\end{aligned} \\qquad (5.36)"
   },
   {
     "id": "page_0076-b005",
     "page_key": 76,
     "order": 5,
-    "type": "paragraph",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Design a loss function for this model assuming we have access to $I$ training pairs $\\lbrace x_{i}, y_{i}\\rbrace$."
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "Design a loss function for this model assuming we have access to $ I $ training pairs $\\lbrace x_{i}, y_{i} \\rbrace $."
   },
   {
     "id": "page_0076-b006",
     "page_key": 76,
     "order": 6,
-    "type": "exercise",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "**Problem 5.7** Consider a multivariate regression problem where we predict ten outputs, so $y \\in R^{10}$ , and model each with an independent normal distribution where the means $\\mu_{d}$ are predicted by the network, and variances $\\sigma^{2}$ are constant. Write an expression for the likelihood $Pr(\\mathbf{y}|\\mathbf{f}[\\mathbf{x}, \\phi])$ . Show that minimizing the negative log-likelihood of this model is still equivalent to minimizing a sum of squared terms if we don’t estimate the varianc"
+    "confidence": "medium",
+    "type": "exercise",
+    "text": "Problem 5.7 Consider a multivariate regression problem where we predict ten outputs, so $ y \\in R^{10}$, and model each with an independent normal distribution where the means $\\mu_{d}$ are predicted by the network, and variances $\\sigma^{2}$ are constant. Write an expression for the likelihood $ Pr(\\mathbf{y}|\\mathbf{f}[\\mathbf{x}, \\phi]) $. Show that minimizing the negative log-likelihood of this model is still equivalent to minimizing a sum of squared terms if we don't estimate the variance $\\sigma^{2}$."
   },
   {
     "id": "page_0076-b007",
     "page_key": 76,
     "order": 7,
-    "type": "exercise",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "**Problem 5.8** $^{*}$ Construct a loss function for making multivariate predictions $y \\in R^{D_{o}}$ based on independent normal distributions with different variances $\\sigma_{d}^{2}$ for each dimension. Assume a heteroscedastic model so that both the means $\\mu_{d}$ and variances $\\sigma_{d}^{2}$ vary as a function of the data."
+    "confidence": "medium",
+    "type": "exercise",
+    "text": "Problem 5.8 $^{*}$ Construct a loss function for making multivariate predictions $ y \\in R^{D_{o}}$ based on independent normal distributions with different variances $\\sigma_{d}^{2}$ for each dimension. Assume a heteroscedastic model so that both the means $\\mu_{d}$ and variances $\\sigma_{d}^{2}$ vary as a function of the data."
   },
   {
     "id": "page_0076-b008",
     "page_key": 76,
     "order": 8,
-    "type": "exercise",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "**Problem 5.9*** Construct a loss function for making multivariate predictions $y \\in R^{D_{o}}$ based on independent normal distributions with different variances $\\sigma_{d}^{2}$ for each dimension. Assume a heteroscedastic model so that both the means $\\mu_{d}$ and variances $\\sigma_{d}^{2}$ vary as a function of the data."
+    "confidence": "medium",
+    "type": "exercise",
+    "text": "Problem 5.9* Construct a loss function for making multivariate predictions $ y \\in R^{D_{o}}$ based on independent normal distributions with different variances $\\sigma_{d}^{2}$ for each dimension. Assume a heteroscedastic model so that both the means $\\mu_{d}$ and variances $\\sigma_{d}^{2}$ vary as a function of the data."
   },
   {
     "id": "page_0076-b009",
     "page_key": 76,
     "order": 9,
-    "type": "exercise",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "**Problem 5.10** Extend the model from problem 5.3 to predict both the wind direction and the wind speed and define the associated loss function."
+    "confidence": "medium",
+    "type": "exercise",
+    "text": "Problem 5.10 Extend the model from problem 5.3 to predict both the wind direction and the wind speed and define the associated loss function."
   }
 ]

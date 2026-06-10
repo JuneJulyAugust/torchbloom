@@ -1,1 +1,102 @@
-[{"id":"page_0243-b001","page_key":243,"order":1,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"13.2 Graph representation"},{"id":"page_0243-b002","page_key":243,"order":2,"type":"figure","source":"paddle","confidence":"high","image_path":"figures/page_0243_fig_1.jpg","alt_text":"Graph representation."},{"id":"page_0243-b003","page_key":243,"order":3,"type":"caption","source":"deepseek+paddle","confidence":"high","text":"Figure 13.3 Graph representation."},{"id":"page_0243-b004","page_key":243,"order":4,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"b)"},{"id":"page_0243-b005","page_key":243,"order":5,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"c)"},{"id":"page_0243-b006","page_key":243,"order":6,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"d)"},{"id":"page_0243-b007","page_key":243,"order":7,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"The point set representing the airplane in figure 13.2d can be converted into a graph by connecting each point to its K nearest neighbors. The result is a geometric graph where each point is associated with a position in 3D space. Figure 13.2e represents a hie"},{"id":"page_0243-b008","page_key":243,"order":8,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"All types of graphs can be processed using deep learning. However, this chapter focuses on undirected graphs like the social network in figure 13.2a."},{"id":"page_0243-b009","page_key":243,"order":9,"type":"heading","source":"deepseek+paddle","confidence":"high","text":"13.2 Graph representation"},{"id":"page_0243-b010","page_key":243,"order":10,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"In addition to the graph structure itself, information is typically associated with each node. For example, in a social network, each individual might be characterized by a fixed-length vector representing their interests. Sometimes, the edges also have inform"},{"id":"page_0243-b011","page_key":243,"order":11,"type":"paragraph","source":"deepseek+paddle","confidence":"high","text":"More formally, a graph consists of a set of N nodes connected by a set of E edges. The graph can be encoded by three matrices A, X, and E, representing the graph structure, node embeddings, and edge embeddings, respectively (figure 13.3)."}]
+[
+  {
+    "id": "page_0243-b001",
+    "page_key": 243,
+    "order": 1,
+    "type": "paragraph",
+    "text": "13.2 Graph representation",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0243-b002",
+    "page_key": 243,
+    "order": 2,
+    "type": "paragraph",
+    "text": "b)",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0243-b003",
+    "page_key": 243,
+    "order": 3,
+    "type": "paragraph",
+    "text": "c)",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0243-b004",
+    "page_key": 243,
+    "order": 4,
+    "type": "paragraph",
+    "text": "d)",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0243-b005",
+    "page_key": 243,
+    "order": 5,
+    "type": "figure",
+    "text": "",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0243_fig_1.jpg"
+  },
+  {
+    "id": "page_0243-b006",
+    "page_key": 243,
+    "order": 6,
+    "type": "caption",
+    "text": "Figure 13.3 Graph representation. a) Example graph with six nodes and seven edges. Each node has an associated embedding of length five (brown vectors). Each edge has an associated embedding of length four (blue vectors). This graph can be represented by three matrices. b) The adjacency matrix is a binary matrix where element  $(m, n)$  is set to one if node m connects to node n. c) The node data matrix X contains the concatenated node embeddings. d) The edge data matrix E contains the edge embeddings.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0243-b007",
+    "page_key": 243,
+    "order": 7,
+    "type": "paragraph",
+    "text": "The point set representing the airplane in figure 13.2d can be converted into a graph by connecting each point to its K nearest neighbors. The result is a geometric graph where each point is associated with a position in 3D space. Figure 13.2e represents a hierarchical graph. The table, light, and room are each described by graphs representing the adjacency of their respective components. These three graphs are themselves nodes in another graph that represents the topology of the objects in a larger model.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0243-b008",
+    "page_key": 243,
+    "order": 8,
+    "type": "paragraph",
+    "text": "All types of graphs can be processed using deep learning. However, this chapter focuses on undirected graphs like the social network in figure 13.2a.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0243-b009",
+    "page_key": 243,
+    "order": 9,
+    "type": "heading",
+    "text": "13.2 Graph representation",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0243-b010",
+    "page_key": 243,
+    "order": 10,
+    "type": "paragraph",
+    "text": "In addition to the graph structure itself, information is typically associated with each node. For example, in a social network, each individual might be characterized by a fixed-length vector representing their interests. Sometimes, the edges also have information attached. For example, in a road network example, each edge might be characterized by its length, number of lanes, frequency of accidents, and speed limit. The information at a node is stored in a node embedding, and the information at an edge is stored in an edge embedding.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0243-b011",
+    "page_key": 243,
+    "order": 11,
+    "type": "paragraph",
+    "text": "More formally, a graph consists of a set of N nodes connected by a set of E edges. The graph can be encoded by three matrices A, X, and E, representing the graph structure, node embeddings, and edge embeddings, respectively (figure 13.3).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

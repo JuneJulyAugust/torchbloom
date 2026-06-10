@@ -4,10 +4,10 @@
     "page_key": 116,
     "order": 1,
     "type": "figure",
-    "source": "deepseek+paddle",
+    "source": "paddle",
     "confidence": "high",
     "image_path": "figures/page_0116_fig_1.jpg",
-    "alt_text": "Figure 7.9 Computational graph for problem 7.12 and problem 7.13. Adapted from Domke (2010)."
+    "alt": "Figure 7.9 Computational graph for problem 7.12 and problem 7.13. Adapted from Domke (2010)."
   },
   {
     "id": "page_0116-b002",
@@ -15,16 +15,16 @@
     "order": 2,
     "type": "caption",
     "source": "deepseek+paddle",
-    "confidence": "high",
-    "text": "Figure 7.9 Computational graph for problem 7.12 and problem 7.13. Adapted from Domke (2010)."
+    "confidence": "medium",
+    "caption": "Figure 7.9 Computational graph for problem 7.12 and problem 7.13. Adapted from Domke (2010)."
   },
   {
     "id": "page_0116-b003",
     "page_key": 116,
     "order": 3,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "and"
   },
   {
@@ -34,15 +34,15 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\mathrm{rect}[z]=\\begin{cases}0&z<0\\\\1&0\\leq z\\leq1\\\\0&z>1\\end{cases}.\n\\end{aligned} \\quad (7.41)"
+    "latex": "\\mathrm{rect}[z]=\\begin{cases}0&z<0\\\\1&0\\leq z\\leq1\\\\0&z>1\\end{cases}. \\qquad (7.41)"
   },
   {
     "id": "page_0116-b005",
     "page_key": 116,
     "order": 5,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "Discuss why these functions are problematic for neural network training with gradient-based optimization methods."
   },
   {
@@ -50,9 +50,9 @@
     "page_key": 116,
     "order": 6,
     "type": "exercise",
-    "source": "deepseek",
+    "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "Problem 7.9 $^{*}$ Consider a loss function $\\ell[f]$ , where $f = \\beta + \\Omega h$ . We want to find how the loss $\\ell$ changes when we change $\\Omega$ , which we'll express with a matrix that contains the derivative $\\partial\\ell/\\partial\\Omega_{ij}$ at the $i^{th}$ row and $j^{th}$ column. Find an expression for $\\partial f_{i}/\\partial\\Omega_{ij}$ and, using the chain rule, show that:"
+    "text": "Problem 7.9 $^{*}$ Consider a loss function $\\ell[f]$, where $f = \\beta + \\Omega h$. We want to find how the loss $\\ell$ changes when we change $\\Omega$, which we'll express with a matrix that contains the derivative $\\partial\\ell/\\partial\\Omega_{ij}$ at the $i^{th}$ row and $j^{th}$ column. Find an expression for $\\partial f_{i}/\\partial\\Omega_{ij}$ and, using the chain rule, show that:"
   },
   {
     "id": "page_0116-b007",
@@ -61,14 +61,14 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\frac{\\partial\\ell}{\\partial\\Omega}=\\frac{\\partial\\ell}{\\partial\\mathbf{f}}\\mathbf{h}^{T}.\n\\end{aligned} \\quad (7.42)"
+    "latex": "\\frac{\\partial\\ell}{\\partial\\Omega}=\\frac{\\partial\\ell}{\\partial\\mathbf{f}}\\mathbf{h}^{T}. \\qquad (7.42)"
   },
   {
     "id": "page_0116-b008",
     "page_key": 116,
     "order": 8,
     "type": "exercise",
-    "source": "deepseek",
+    "source": "deepseek+paddle",
     "confidence": "medium",
     "text": "Problem 7.10 $^{*}$ Derive the equations for the backward pass of the backpropagation algorithm for a network that uses leaky ReLU activations, which are defined as:"
   },
@@ -79,15 +79,15 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\n\\mathbf{a}[z]=\\mathrm{ReLU}[z]=\\begin{cases}\\alpha\\cdot z&z<0\\\\z&z\\geq0\\end{cases},\n\\end{aligned} \\quad (7.43)"
+    "latex": "\\mathbf{a}[z]=\\mathrm{ReLU}[z]=\\begin{cases}\\alpha\\cdot z&z<0\\\\z&z\\geq0\\end{cases}, \\qquad (7.43)"
   },
   {
     "id": "page_0116-b010",
     "page_key": 116,
     "order": 10,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "where $\\alpha$ is a small positive constant (typically $0.1$)."
   },
   {
@@ -95,7 +95,7 @@
     "page_key": 116,
     "order": 11,
     "type": "exercise",
-    "source": "deepseek",
+    "source": "deepseek+paddle",
     "confidence": "medium",
     "text": "Problem 7.11 $^{*}$ Consider training a network with fifty layers using gradient checkpointing. Assume that we store the pre-activations at every tenth hidden layer during the forward pass. Explain how to compute the derivatives in this situation."
   },
@@ -104,7 +104,7 @@
     "page_key": 116,
     "order": 12,
     "type": "exercise",
-    "source": "deepseek",
+    "source": "deepseek+paddle",
     "confidence": "medium",
     "text": "Problem 7.12 $^{*}$ This problem explores computing derivatives on general acyclic computational graphs. Consider the function:"
   },
@@ -115,15 +115,15 @@
     "type": "equation",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "text": "\\begin{aligned}\ny=\\exp\\left[\\exp[x]+\\exp[x]^{2}\\right]+\\sin[\\exp[x]+\\exp[x]^{2}].\n\\end{aligned} \\quad (7.44)"
+    "latex": "y=\\exp\\left[\\exp[x]+\\exp[x]^{2}\\right]+\\sin[\\exp[x]+\\exp[x]^{2}]. \\qquad (7.44)"
   },
   {
     "id": "page_0116-b014",
     "page_key": 116,
     "order": 14,
     "type": "paragraph",
-    "source": "deepseek",
-    "confidence": "high",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
     "text": "We can break this down into a series of intermediate computations so that:"
   }
 ]
