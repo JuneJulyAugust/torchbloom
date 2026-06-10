@@ -6,11 +6,11 @@ Latest publish was produced by `torchbloom-udl-fusion-pilot publish` after valid
 
 - Chapters: 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21
 - Pages validated: 436
-- Blocks validated: 3608
+- Blocks validated: 3601
 - Markdown pages copied: 436
 - Block sidecars copied: 436
 - Referenced figures copied: 271
-- Legacy files cleaned: 418
+- Legacy files cleaned: 414
 
 ## Published Chapters
 

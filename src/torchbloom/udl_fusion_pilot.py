@@ -80,6 +80,24 @@ OCR_SPACED_MATH_TOKEN_RES = [
     re.compile(r"(?<![A-Za-z])(?:a r g m i n|a r g m a x|s o f t m a x|s i g|d e t|m l p|n e w|L B O)(?![A-Za-z])"),
 ]
 INLINE_SUPERSCRIPT_FOOTNOTE_RE = re.compile(r"\$\^\d+\$")
+INLINE_BARE_OCR_MATH_TOKEN_RE = re.compile(
+    r"\$[^\n$]*(?:(?<!\\)\b(?:argmin|argmax)\b|(?<!\\)\b(?:Pr|Norm)\s*(?:\(|_|\[))[^\n$]*\$"
+)
+STANDALONE_EQUATION_NUMBER_RE = re.compile(r"(?m)^\(\d+\.\d+\)$")
+RAW_LATENT_VARIABLE_BRACES_RE = re.compile(r"\blatent variables\s+\{z_\{t\}\}")
+BROKEN_SIZED_DELIMITER_BEFORE_BAR_RE = re.compile(
+    r"\\(?:left|right|Big|big|Bigg|bigg)?\\\s*\n\|"
+)
+MISSING_DISPLAY_RBRACE_RE = re.compile(
+    r"\\lbrace(?:(?!\\rbrace|\$\$).){0,180}(?=\n\\end\{|\n\\qquad|\n\$\$|\n?$)",
+    re.DOTALL,
+)
+GLUED_MATH_COMMAND_RE = re.compile(
+    r"\\(?:inne|innee)\b"
+    r"|\\(?:Omega|beta|lambda)[A-Za-z0-9]+\b"
+    r"|\\in[A-Z]\b"
+    r"|\\(?:par|lbrac)\b"
+)
 FIGURE_CAPTION_START_RE = re.compile(r"(?m)^Figure\s+\d+\.\d+\b")
 FIGURE_CAPTION_BLOCK_RE = re.compile(r"^Figure\s+\d+\.\d+\b", re.DOTALL)
 CENTERED_FIGURE_CAPTION_RE = re.compile(
@@ -806,6 +824,10 @@ def _validate_centered_figure_captions(md_path: Path, body: str, errors: list[st
 def _validate_github_math_blocks(md_path: Path, body: str, errors: list[str]) -> None:
     for match in DISPLAY_MATH_BLOCK_RE.finditer(body):
         block = match.group("body")
+        if BROKEN_SIZED_DELIMITER_BEFORE_BAR_RE.search(block):
+            errors.append(f"{md_path}: fix broken sized delimiter before norm bar")
+        if MISSING_DISPLAY_RBRACE_RE.search(block):
+            errors.append(f"{md_path}: add missing closing \\rbrace in display math set")
         if MATH_TAG_RE.search(block):
             errors.append(
                 f"{md_path}: use plain equation numbering like \\quad (3.4), not \\tag, for GitHub rendering"
@@ -864,6 +886,10 @@ def _equation_validation_bodies(value: str) -> list[str]:
 
 def _validate_equation_text(path: Path, label: str, value: str, errors: list[str]) -> None:
     math_value = "\n".join(_equation_validation_bodies(value))
+    if BROKEN_SIZED_DELIMITER_BEFORE_BAR_RE.search(math_value):
+        errors.append(f"{path}: {label} has broken sized delimiter before norm bar")
+    if MISSING_DISPLAY_RBRACE_RE.search(math_value):
+        errors.append(f"{path}: {label} has missing closing \\rbrace in display math set")
     if MATH_TAG_RE.search(math_value):
         errors.append(f"{path}: {label} uses \\tag; use plain equation numbering like \\quad (3.4)")
     if DOUBLE_ESCAPED_MATH_MACRO_RE.search(math_value):
@@ -928,6 +954,14 @@ def _validate_markdown(output_dir: Path, spec: PageSpec, errors: list[str]) -> d
         errors.append(f"{md_path}: put a space after inline \\lbrace/\\rbrace so GitHub does not read it as one macro")
     if INLINE_SUPERSCRIPT_FOOTNOTE_RE.search(body):
         errors.append(f"{md_path}: use Markdown footnotes like [^1], not $^1$ math markers")
+    if STANDALONE_EQUATION_NUMBER_RE.search(body):
+        errors.append(f"{md_path}: remove standalone equation number line from prose")
+    if RAW_LATENT_VARIABLE_BRACES_RE.search(body):
+        errors.append(f"{md_path}: convert raw OCR math braces in prose to inline math")
+    if INLINE_BARE_OCR_MATH_TOKEN_RE.search(body):
+        errors.append(f"{md_path}: replace bare OCR math token inside inline math")
+    if GLUED_MATH_COMMAND_RE.search(body):
+        errors.append(f"{md_path}: fix glued math command from OCR residue")
     if MISSING_MATH_SUBSCRIPT_RE.search(body):
         errors.append(f"{md_path}: fix missing math subscript marker from OCR")
     _validate_github_math_blocks(md_path, body, errors)
@@ -1010,7 +1044,7 @@ def _validate_blocks(output_dir: Path, spec: PageSpec, errors: list[str]) -> int
         block_type = block.get("type")
         if block_type not in SUPPORTED_BLOCK_TYPES:
             errors.append(f"{block_path}: block {idx} unsupported type {block_type!r}")
-        for key in ("text", "latex", "caption"):
+        for key in ("text", "latex", "caption", "alt"):
             value = block.get(key)
             if isinstance(value, str) and GITHUB_BLOCKED_MATH_MACRO_RE.search(value):
                 errors.append(
@@ -1023,6 +1057,22 @@ def _validate_blocks(output_dir: Path, spec: PageSpec, errors: list[str]) -> int
             if isinstance(value, str) and INLINE_GLUED_SET_BRACE_RE.search(value):
                 errors.append(
                     f"{block_path}: block {idx} field {key!r} has glued inline \\lbrace/\\rbrace math"
+                )
+            if isinstance(value, str) and STANDALONE_EQUATION_NUMBER_RE.fullmatch(value.strip()):
+                errors.append(
+                    f"{block_path}: block {idx} field {key!r} is a standalone equation number line"
+                )
+            if isinstance(value, str) and RAW_LATENT_VARIABLE_BRACES_RE.search(value):
+                errors.append(
+                    f"{block_path}: block {idx} field {key!r} has raw OCR math braces in prose"
+                )
+            if isinstance(value, str) and INLINE_BARE_OCR_MATH_TOKEN_RE.search(value):
+                errors.append(
+                    f"{block_path}: block {idx} field {key!r} has bare OCR math token inside inline math"
+                )
+            if isinstance(value, str) and GLUED_MATH_COMMAND_RE.search(value):
+                errors.append(
+                    f"{block_path}: block {idx} field {key!r} has glued math command from OCR residue"
                 )
             if block_type == "equation" and isinstance(value, str):
                 _validate_equation_text(block_path, f"block {idx} field {key!r}", value, errors)

@@ -31,8 +31,17 @@ Reparse uses saved legacy raw OCR and does not run the model. It is only availab
 ## Fused Publish
 
 ```bash
-python -m torchbloom.udl_fusion_pilot validate --chapters 1,2,3
-python -m torchbloom.udl_fusion_pilot publish --chapters 1,2,3 --clean-legacy
+python -m torchbloom.udl_fusion_pilot validate --chapters 1,2,3 --output-dir output/udl-fusion-redo
+python -m torchbloom.udl_fusion_pilot publish --chapters 1,2,3 --output-dir output/udl-fusion-redo --clean-legacy
 ```
 
 The publish step validates the fused output before touching `raw/udl/textbook/`, copies book-page-key Markdown, block JSON sidecars, and final referenced figures, then removes legacy DeepSeek-only files for the validated scope.
+
+For the full textbook, run the same commands with chapters `1` through `21` and keep `raw/udl/textbook` as the publish target:
+
+```bash
+python -m torchbloom.udl_fusion_pilot validate --chapters 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 --raw-root raw/udl/textbook --output-dir output/udl-fusion-redo
+python -m torchbloom.udl_fusion_pilot publish --chapters 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 --raw-root raw/udl/textbook --output-dir output/udl-fusion-redo --clean-legacy
+```
+
+Always validate both final Markdown and block JSON sidecars. The validator rejects GitHub-hostile math syntax and semantic OCR residue in `text`, `latex`, `caption`, and `alt` fields so a clean Markdown preview cannot hide a future sidecar regression.

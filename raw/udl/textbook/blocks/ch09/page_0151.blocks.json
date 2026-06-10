@@ -52,7 +52,7 @@
     "source": "paddle",
     "confidence": "high",
     "image_path": "figures/page_0151_fig_1.jpg",
-    "alt": "Figure 9.11 Bayesian approach for simplified network model (see figure 8.4). The parameters are treated as uncertain. The posterior probability $\\Pr(\\phi|\\lbrac"
+    "alt": "Figure 9.11 Bayesian approach for simplified network model (see figure 8.4). The parameters are treated as uncertain. The posterior probability"
   },
   {
     "id": "page_0151-b007",
@@ -61,7 +61,7 @@
     "type": "caption",
     "source": "deepseek+paddle",
     "confidence": "medium",
-    "caption": "Figure 9.11 Bayesian approach for simplified network model (see figure 8.4). The parameters are treated as uncertain. The posterior probability $\\Pr(\\phi|\\lbrace \\mathbf{x}_{i},\\mathbf{y}_{i} \\rbrace)$ for a set of parameters is determined by their compatibility with the data $\\lbrace \\mathbf{x}_{i},\\mathbf{y}_{i} \\rbrace$ and a prior distribution $\\Pr(\\phi)$. a-c) Two sets of parameters (cyan and gray curves) sampled from the posterior using normally distributed priors with mean zero and three variances. When the prior variance $\\sigma_{\\phi}^{2}$ is small, the parameters also tend to be small, and the functions smoother. d-f) Inference proceeds by taking a weighted sum over all possible parameter values where the weights are the posterior probabilities. This produces both a prediction of the mean (cyan curves) and the associated uncertainty (gray region is two standard deviations)."
+    "caption": "Figure 9.11 Bayesian approach for simplified network model (see figure 8.4). The parameters are treated as uncertain. The posterior probabilitye \\mathbf{x}_{i},\\mathbf{y}_{i} \\rbrace)$ for a set of parameters is determined by their compatibility with the data $\\lbrace \\mathbf{x}_{i},\\mathbf{y}_{i} \\rbrace$ and a prior distribution $\\Pr(\\phi)$. a-c) Two sets of parameters (cyan and gray curves) sampled from the posterior using normally distributed priors with mean zero and three variances. When the prior variance $\\sigma_{\\phi}^{2}$ is small, the parameters also tend to be small, and the functions smoother. d-f) Inference proceeds by taking a weighted sum over all possible parameter values where the weights are the posterior probabilities. This produces both a prediction of the mean (cyan curves) and the associated uncertainty (gray region is two standard deviations)."
   },
   {
     "id": "page_0151-b008",

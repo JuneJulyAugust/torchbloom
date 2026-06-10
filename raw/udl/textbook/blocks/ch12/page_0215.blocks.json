@@ -42,8 +42,8 @@
     "id": "page_0215-b005",
     "page_key": 215,
     "order": 5,
-    "type": "paragraph",
-    "text": "(12.12)",
+    "type": "heading",
+    "text": "## 12.4 Transformer layers",
     "source": "deepseek+paddle",
     "confidence": "high"
   },
@@ -51,15 +51,6 @@
     "id": "page_0215-b006",
     "page_key": 215,
     "order": 6,
-    "type": "heading",
-    "text": "## 12.4 Transformer layers",
-    "source": "deepseek+paddle",
-    "confidence": "high"
-  },
-  {
-    "id": "page_0215-b007",
-    "page_key": 215,
-    "order": 7,
     "type": "paragraph",
     "text": "Self-attention is just one part of a larger transformer layer. This consists of a multi-head self-attention unit (which allows the word representations to interact with each",
     "source": "deepseek+paddle",

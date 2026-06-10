@@ -51,7 +51,7 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "exercise",
-    "text": "Problem 5.7 Consider a multivariate regression problem where we predict ten outputs, so $ y \\in R^{10}$, and model each with an independent normal distribution where the means $\\mu_{d}$ are predicted by the network, and variances $\\sigma^{2}$ are constant. Write an expression for the likelihood $ Pr(\\mathbf{y}|\\mathbf{f}[\\mathbf{x}, \\phi]) $. Show that minimizing the negative log-likelihood of this model is still equivalent to minimizing a sum of squared terms if we don't estimate the variance $\\sigma^{2}$."
+    "text": "Problem 5.7 Consider a multivariate regression problem where we predict ten outputs, so $ y \\in R^{10}$, and model each with an independent normal distribution where the means $\\mu_{d}$ are predicted by the network, and variances $\\sigma^{2}$ are constant. Write an expression for the likelihood $\\Pr(\\mathbf{y}\\,|\\,\\mathbf{f}[\\mathbf{x},\\boldsymbol{\\phi}])$. Show that minimizing the negative log-likelihood of this model is still equivalent to minimizing a sum of squared terms if we don't estimate the variance $\\sigma^{2}$."
   },
   {
     "id": "page_0076-b007",

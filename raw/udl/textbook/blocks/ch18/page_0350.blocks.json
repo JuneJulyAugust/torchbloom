@@ -59,7 +59,7 @@
     "page_key": 350,
     "order": 7,
     "type": "equation",
-    "text": "$$\n\\begin{aligned}\n\\mathbf{z}_{1}&=\\sqrt{1-\\beta_{1}}\\cdot\\mathbf{x}+\\sqrt{\\beta_{1}\\cdot\\epsilon_{1}}\\\\\n\\mathbf{z}_{t}&=\\sqrt{1-\\beta_{t}}\\cdot\\mathbf{z}_{t-1}+\\sqrt{\\beta_{t}\\cdot\\epsilon_{t}}\\quad\\forall t\\in\\lbrace 2,\\cdots,T\n\\end{aligned}\n\\qquad (18.1)\n$$",
+    "text": "$$\n\\begin{aligned}\n\\mathbf{z}_{1}&=\\sqrt{1-\\beta_{1}}\\cdot\\mathbf{x}+\\sqrt{\\beta_{1}}\\cdot\\boldsymbol{\\epsilon}_{1}\\\\\n\\mathbf{z}_{t}&=\\sqrt{1-\\beta_{t}}\\cdot\\mathbf{z}_{t-1}+\\sqrt{\\beta_{t}}\\cdot\\boldsymbol{\\epsilon}_{t}\\quad\\forall t\\in\\lbrace 2,\\ldots,T\\rbrace\n\\end{aligned}\n\\qquad (18.1)\n$$",
     "source": "deepseek",
     "confidence": "medium"
   },

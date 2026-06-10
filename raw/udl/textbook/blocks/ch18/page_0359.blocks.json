@@ -31,7 +31,7 @@
     "page_key": 359,
     "order": 4,
     "type": "paragraph",
-    "text": "where we have marginalized over the irrelevant variables in $q(\\mathbf{z}_{1\\ldots T}|\\mathbf{x})$ between lines two and three and used the definition of KL divergence (see problem 18.7).",
+    "text": "where we have marginalized over the irrelevant variables in $q(\\mathbf{z}_{1\\ldots T}\\,|\\,\\mathbf{x})$ between lines two and three and used the definition of KL divergence (see problem 18.7).",
     "source": "deepseek",
     "confidence": "medium"
   },

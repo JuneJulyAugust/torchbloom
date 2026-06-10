@@ -15,7 +15,7 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "paragraph",
-    "text": "where $ f_{y_i}[x,\\phi]$ and $ f_{k'}[x,\\phi] - \\log\\left[\\sum_{k'=1}^{K} \\exp[f_k[x,\\phi]]\\right]$, (5.24) The transformed model output represents a categorical distribution over possible classes $ y \\in \\lbrace 1, 2, \\ldots, K \\rbrace $. For a point estimate, we take the most probable category $\\hat{y} = \\arg\\max_{k} [Pr(y = k | f[x, \\phi])]$. This corresponds to whichever curve is highest for that value of x in figure 5.10."
+    "text": "where $ f_{y_i}[x,\\phi]$ and $ f_{k'}[x,\\phi] - \\log\\left[\\sum_{k'=1}^{K} \\exp[f_k[x,\\phi]]\\right]$, (5.24) The transformed model output represents a categorical distribution over possible classes $ y \\in \\lbrace 1, 2, \\ldots, K \\rbrace $. For a point estimate, we take the most probable category $\\hat{y} = \\arg\\max_{k} [\\Pr(y = k\\,|\\,f[x,\\phi])]$. This corresponds to whichever curve is highest for that value of x in figure 5.10."
   },
   {
     "id": "page_0069-b003",
@@ -78,6 +78,6 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "paragraph",
-    "text": "where $ f_{d}[x,\\phi]$ is the $ d^{th}$ set of network outputs, which describe the parameters of the distribution over $ y_{d}$. For example, to predict multiple continuous variables $ y_{d}\\inR $, we use a normal distribution for each $ y_{d}$, and the network outputs $ f_{d}[x,\\phi]$ predict the means of these distributions. To predict multiple discrete variables $ y_{d}\\in\\lbrace 1,2,\\ldots,K \\rbrace $, we use a"
+    "text": "where $ f_{d}[x,\\phi]$ is the $ d^{th}$ set of network outputs, which describe the parameters of the distribution over $ y_{d}$. For example, to predict multiple continuous variables $y_{d}\\in\\mathbb{R}$, we use a normal distribution for each $ y_{d}$, and the network outputs $ f_{d}[x,\\phi]$ predict the means of these distributions. To predict multiple discrete variables $ y_{d}\\in\\lbrace 1,2,\\ldots,K \\rbrace $, we use a"
   }
 ]

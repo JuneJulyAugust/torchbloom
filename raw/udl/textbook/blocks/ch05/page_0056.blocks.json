@@ -42,6 +42,6 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "paragraph",
-    "text": "In this section, we develop a recipe for constructing loss functions. Consider a model $ f[x,\\phi]$ with parameters $\\phi $ that computes an output from input x. Until now, we have implied that the model directly computes a prediction y. We now shift perspective and consider the model as computing a conditional probability distribution $ Pr(\\mathbf{y}|\\mathbf{x}) $ over possible outputs y given input x. The loss encourages each training output $\\mathbf{y}_{i}$ to have a high probability under the distribution $ Pr(\\mathbf{y}_{i}|\\mathbf{x}_{i}) $ computed from the corresponding input $ x_{i}$ (figure 5.1)."
+    "text": "In this section, we develop a recipe for constructing loss functions. Consider a model $ f[x,\\phi]$ with parameters $\\phi $ that computes an output from input x. Until now, we have implied that the model directly computes a prediction y. We now shift perspective and consider the model as computing a conditional probability distribution $\\Pr(\\mathbf{y}\\,|\\,\\mathbf{x})$ over possible outputs y given input x. The loss encourages each training output $\\mathbf{y}_{i}$ to have a high probability under the distribution $\\Pr(\\mathbf{y}_{i}\\,|\\,\\mathbf{x}_{i})$ computed from the corresponding input $ x_{i}$ (figure 5.1)."
   }
 ]

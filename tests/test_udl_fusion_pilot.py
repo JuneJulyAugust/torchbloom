@@ -189,7 +189,7 @@ def test_validate_accepts_minimal_fused_page_and_blocks(tmp_path):
     fused_dir.mkdir(parents=True)
     blocks_dir.mkdir(parents=True)
     (fused_dir / "page_0001.md").write_text(
-        """---
+        r"""---
 source: UnderstandingDeepLearning_02_09_26_C.pdf
 page_key: 1
 book_page: 1
@@ -288,7 +288,7 @@ def test_publish_copies_validated_outputs_and_cleans_legacy_scope(tmp_path):
     fused_dir.mkdir(parents=True)
     blocks_dir.mkdir(parents=True)
     (fused_dir / "page_0001.md").write_text(
-        """---
+        r"""---
 source: UnderstandingDeepLearning_02_09_26_C.pdf
 page_key: 1
 book_page: 1
@@ -370,7 +370,7 @@ def test_validate_reports_missing_figure_reference(tmp_path):
     fused_dir.mkdir(parents=True)
     blocks_dir.mkdir(parents=True)
     (fused_dir / "page_0001.md").write_text(
-        """---
+        r"""---
 source: UnderstandingDeepLearning_02_09_26_C.pdf
 page_key: 1
 book_page: 1
@@ -2092,3 +2092,105 @@ $$
     assert result == 1
     validation = json.loads((output_dir / "reports" / "validation.json").read_text(encoding="utf-8"))
     assert any("nonvisual PPStructure crop" in error for error in validation["errors"])
+
+
+def test_validate_rejects_semantic_ocr_math_residue(tmp_path):
+    raw_root, _, output_dir = _write_fake_inputs(tmp_path)
+    fused_dir = output_dir / "fused" / "ch01"
+    blocks_dir = output_dir / "blocks" / "ch01"
+    fused_dir.mkdir(parents=True)
+    blocks_dir.mkdir(parents=True)
+    (fused_dir / "page_0001.md").write_text(
+        r"""---
+source: UnderstandingDeepLearning_02_09_26_C.pdf
+page_key: 1
+book_page: 1
+pdf_page: 15
+chapter: "1 - Introduction"
+chapter_slug: ch01-introduction
+ocr_sources:
+  - deepseek-ocr-2
+  - ppstructurev3
+fusion_status: fused
+confidence: medium
+figure_count: 0
+---
+
+The joint distribution of the latent variables {z_{t}} is:
+
+(18.17)
+
+This inline probability still uses an OCR token: $Pr(y|x)$.
+
+This caption-like text has glued commands $\lambdaK$ and $y_d\inR$.
+
+$$
+\mathbf{z}_{t}=\sqrt{1-\beta_{t}}\cdot\mathbf{z}_{t-1}
+\quad\forall t\in\lbrace 2,\cdots,T
+$$
+
+$$
+\left\
+|\mathbf{x}-\mathbf{y}\right\
+|^2
+$$
+""",
+        encoding="utf-8",
+    )
+    (blocks_dir / "page_0001.blocks.json").write_text(
+        json.dumps(
+            [
+                {
+                    "id": "page_0001-b001",
+                    "page_key": 1,
+                    "order": 1,
+                    "type": "paragraph",
+                    "source": "deepseek",
+                    "confidence": "medium",
+                    "text": "The joint distribution of the latent variables {z_{t}} is:",
+                },
+                {
+                    "id": "page_0001-b002",
+                    "page_key": 1,
+                    "order": 2,
+                    "type": "paragraph",
+                    "source": "deepseek",
+                    "confidence": "medium",
+                    "text": "(18.17)",
+                },
+                {
+                    "id": "page_0001-b003",
+                    "page_key": 1,
+                    "order": 3,
+                    "type": "equation",
+                    "source": "deepseek",
+                    "confidence": "medium",
+                    "text": "$$\n\\left\\\n|\\mathbf{x}-\\mathbf{y}\\right\\\n|^2\n$$",
+                },
+                {
+                    "id": "page_0001-b004",
+                    "page_key": 1,
+                    "order": 4,
+                    "type": "figure",
+                    "source": "paddle",
+                    "confidence": "medium",
+                    "image_path": "figures/page_0001_fig_1.jpg",
+                    "alt": "Figure alt has a truncated OCR macro \\par",
+                },
+            ]
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+    result = main(["validate", "--chapters", "1", "--raw-root", str(raw_root), "--output-dir", str(output_dir)])
+
+    assert result == 1
+    validation = json.loads((output_dir / "reports" / "validation.json").read_text(encoding="utf-8"))
+    errors = "\n".join(validation["errors"])
+    assert "raw OCR math braces" in errors
+    assert "standalone equation number" in errors
+    assert "bare OCR math token inside inline math" in errors
+    assert "glued math command" in errors
+    assert "missing closing \\rbrace" in errors
+    assert "broken sized delimiter before norm bar" in errors

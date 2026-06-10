@@ -378,6 +378,55 @@ git push origin codex/udl-full-fusion-branding
 
 Expected: branch updates on GitHub.
 
+## Follow-Up Correction After GitHub Spot Checks
+
+Updated on 2026-06-10 after GitHub page review found that the earlier redo still allowed OCR math residue in later chapters, especially embedded diffusion equations around pages 357-359.
+
+Root cause:
+
+- The corrected staged output was not enough by itself; the published `raw/udl/textbook` layer had to be regenerated from the validated redo output.
+- The validator caught many Markdown body failures, but block sidecar validation did not inspect `alt` fields.
+- Semantic OCR residue needed explicit checks, not only syntax checks.
+
+Additional validator coverage now rejects:
+
+- Standalone equation-number residue in prose or blocks, such as `(18.17)`.
+- Raw OCR math braces in prose, such as `{z_{t}}`.
+- Bare OCR math tokens inside inline math, such as `$Pr(y|x)$`.
+- Broken sized delimiters before norm bars.
+- Missing closing `\rbrace` in display-math set notation.
+- Glued OCR commands such as `\lambdaK`, `\inR`, `\inne`, `\par`, and `\lbrac`.
+- The same string checks now cover block `alt` fields as well as `text`, `latex`, and `caption`.
+
+Current follow-up publish stats:
+
+- Published Markdown pages: 436
+- Published block sidecars: 436
+- Validated blocks: 3,601
+- Referenced high-resolution figure crops: 271
+- Legacy files cleaned during publish: 414
+
+Current verification:
+
+```bash
+.venv/bin/python -m torchbloom.udl_fusion_pilot validate --chapters 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 --raw-root raw/udl/textbook --output-dir output/udl-fusion-redo
+# validation passed: 436 pages, 3601 blocks
+
+.venv/bin/python -m pytest tests/test_udl_fusion_pilot.py -q
+# 38 passed
+
+.venv/bin/python -m pytest -q
+# 79 passed
+
+.venv/bin/python -m torchbloom.wiki_validation
+# wiki/udl: ok
+```
+
+Published-output residue scan:
+
+- Scanned 436 Markdown pages and 436 JSON sidecars under `raw/udl/textbook`.
+- Found zero matches for the OCR residue patterns above.
+
 ## Execution Outcome
 
 Completed on 2026-06-10.

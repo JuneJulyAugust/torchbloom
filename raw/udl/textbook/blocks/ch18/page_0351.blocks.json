@@ -22,8 +22,8 @@
     "id": "page_0351-b003",
     "page_key": 351,
     "order": 3,
-    "type": "paragraph",
-    "text": "(18.2)",
+    "type": "equation",
+    "text": "$$\n\\begin{aligned}\nq(\\mathbf{z}_{1}|\\mathbf{x})&={\\mathrm{Norm}_{\\mathbf{z}_{1}}\\left[\\sqrt{1-\\beta_{1}\\mathbf{x}},\\beta_{1}\\mathbf{I}\\right]}\\\\\nq(\\mathbf{z}_{t}|\\mathbf{z}_{t-1})&={\\mathrm{Norm}_{\\mathbf{z}_{t}}\\left[\\sqrt{1-\\beta_{t}\\mathbf{z}_{t-1}},\\beta_{t}\\mathbf{I}\\right]}&{\\quad\\forall t\\in\\lbrace 2,\\ldots,T\\rbrace .\n\\end{aligned}\n$$",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -31,8 +31,8 @@
     "id": "page_0351-b004",
     "page_key": 351,
     "order": 4,
-    "type": "equation",
-    "text": "$$\n\\begin{aligned}\nq(\\mathbf{z}_{1}|\\mathbf{x})&={\\mathrm{Norm}_{\\mathbf{z}_{1}}\\left[\\sqrt{1-\\beta_{1}\\mathbf{x}},\\beta_{1}\\mathbf{I}\\right]}\\\\\nq(\\mathbf{z}_{t}|\\mathbf{z}_{t-1})&={\\mathrm{Norm}_{\\mathbf{z}_{t}}\\left[\\sqrt{1-\\beta_{t}\\mathbf{z}_{t-1}},\\beta_{t}\\mathbf{I}\\right]}&{\\quad\\forall t\\in\\lbrace 2,\\ldots,T\\rbrace .\n\\end{aligned}\n$$",
+    "type": "paragraph",
+    "text": "This is a Markov chain because the probability of $\\mathbf{z}_{t}$ is determined entirely by the value of the immediately preceding variable $\\mathbf{z}_{t-1}$. With sufficient steps $T$, all traces of the original data are removed, and $q(\\mathbf{z}_{T}|\\mathbf{x}) = q(\\mathbf{z}_{T})$ becomes a standard normal distribution.[^2]",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -41,7 +41,7 @@
     "page_key": 351,
     "order": 5,
     "type": "paragraph",
-    "text": "This is a Markov chain because the probability of $\\mathbf{z}_{t}$ is determined entirely by the value of the immediately preceding variable $\\mathbf{z}_{t-1}$. With sufficient steps $T$, all traces of the original data are removed, and $q(\\mathbf{z}_{T}|\\mathbf{x}) = q(\\mathbf{z}_{T})$ becomes a standard normal distribution.[^2]",
+    "text": "The joint distribution of all the latent variables $\\mathbf{z}_{1}, \\mathbf{z}_{2}, \\ldots, \\mathbf{z}_{T}$ given input $\\mathbf{x}$ is:",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -49,8 +49,8 @@
     "id": "page_0351-b006",
     "page_key": 351,
     "order": 6,
-    "type": "paragraph",
-    "text": "The joint distribution of all the latent variables $\\mathbf{z}_{1}, \\mathbf{z}_{2}, \\ldots, \\mathbf{z}_{T}$ given input $\\mathbf{x}$ is:",
+    "type": "equation",
+    "text": "$$\nq(\\mathbf{z}_{1}..T|\\mathbf{x})=q(\\mathbf{z}_{1}|\\mathbf{x})\\prod_{t=2}^{T}q(\\mathbf{z}_{t}|\\mathbf{z}_{t-1}).\n$$",
     "source": "deepseek",
     "confidence": "medium"
   },
@@ -58,24 +58,6 @@
     "id": "page_0351-b007",
     "page_key": 351,
     "order": 7,
-    "type": "paragraph",
-    "text": "(18.3)",
-    "source": "deepseek",
-    "confidence": "medium"
-  },
-  {
-    "id": "page_0351-b008",
-    "page_key": 351,
-    "order": 8,
-    "type": "equation",
-    "text": "$$\nq(\\mathbf{z}_{1}..T|\\mathbf{x})=q(\\mathbf{z}_{1}|\\mathbf{x})\\prod_{t=2}^{T}q(\\mathbf{z}_{t}|\\mathbf{z}_{t-1}).\n$$",
-    "source": "deepseek",
-    "confidence": "medium"
-  },
-  {
-    "id": "page_0351-b009",
-    "page_key": 351,
-    "order": 9,
     "type": "paragraph",
     "text": "[^2]: We use $q(\\mathbf{z}_{t}|\\mathbf{z}_{t-1})$ rather than $\\Pr(\\mathbf{z}_{t}|\\mathbf{z}_{t-1})$ to match the notation in the description of the VAE encoder in the previous chapter.",
     "source": "deepseek",

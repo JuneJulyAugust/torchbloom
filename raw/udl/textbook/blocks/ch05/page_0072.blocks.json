@@ -69,7 +69,7 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "paragraph",
-    "text": "We previously considered neural networks as directly predicting outputs y from data x. In this chapter, we shifted perspective to think about neural networks as computing the parameters $\\theta $ of probability distributions $ Pr(\\mathbf{y}|\\boldsymbol{\\theta}) $ over the output space. This led to a principled approach to building loss functions. We selected model parameters $\\phi $ that maximized the likelihood of the observed data under these distributions. We saw that this is equivalent to minimizing the negative log-likelihood."
+    "text": "We previously considered neural networks as directly predicting outputs y from data x. In this chapter, we shifted perspective to think about neural networks as computing the parameters $\\theta $ of probability distributions $\\Pr(\\mathbf{y}\\,|\\,\\boldsymbol{\\theta})$ over the output space. This led to a principled approach to building loss functions. We selected model parameters $\\phi $ that maximized the likelihood of the observed data under these distributions. We saw that this is equivalent to minimizing the negative log-likelihood."
   },
   {
     "id": "page_0072-b009",

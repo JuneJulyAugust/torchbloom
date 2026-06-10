@@ -15,7 +15,7 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "caption",
-    "text": "Figure 5.11 Distributions for loss functions for different prediction types. categorical distribution for each yd. Here, each set of network outputs fd[x, $\\phi $] predicts the K values that contribute to the categorical distribution for yd. When we minimize the negative log probability, this product becomes a sum of terms: L[$\\phi $] = - I X i=1 log h Pr(yi|f[xi, $\\phi $]) i = - I X i=1 X d log h Pr(yid|fd[xi, $\\phi $]) i. (5.26) where yid is the dth output from the ith training example. To make two or more prediction types simultaneously, we similarly assume the errors in each are independent. For example, to predict wind direction and strength, we might"
+    "text": "Figure 5.11 Distributions for loss functions for different prediction types."
   },
   {
     "id": "page_0070-b003",

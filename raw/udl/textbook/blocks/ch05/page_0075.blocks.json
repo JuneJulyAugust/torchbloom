@@ -60,6 +60,6 @@
     "source": "deepseek+paddle",
     "confidence": "medium",
     "type": "exercise",
-    "text": "Problem 5.5 Consider extending the model from problem 5.3 to predict the wind direction using a mixture of two von Mises distributions. Write an expression for the likelihood $ Pr(y|\\theta) $ for this model. How many outputs will the network need to produce?"
+    "text": "Problem 5.5 Consider extending the model from problem 5.3 to predict the wind direction using a mixture of two von Mises distributions. Write an expression for the likelihood $\\Pr(y\\,|\\,\\theta)$ for this model. How many outputs will the network need to produce?"
   }
 ]
