@@ -435,3 +435,4 @@ Published-output audits:
 - Scans found no `\operatorname`, `\tag{`, `\[`, `\]`, `\(`, `\)`, `review_notes`, `Review note`, or Markdown image syntax in published pages.
 - GitHub rendering checks found and fixed additional equation/fence failures on `page_0058`, `page_0059`, `page_0061`, `page_0069`, `page_0070`, and `page_0362`.
 - Follow-up scans found zero display-math dollar leaks, zero blank display-math bodies, and zero mismatched probability delimiters in published pages.
+- A pushed-branch GitHub HTML sample of 50 pages, including all high-risk pages above, found zero rendered math error messages.
