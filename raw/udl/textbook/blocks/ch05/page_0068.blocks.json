@@ -1,0 +1,92 @@
+[
+  {
+    "id": "page_0068-b001",
+    "page_key": 68,
+    "order": 1,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "figure",
+    "image_path": "figures/page_0068_fig_1.jpg"
+  },
+  {
+    "id": "page_0068-b002",
+    "page_key": 68,
+    "order": 2,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "caption",
+    "text": "Figure 5.10 Multiclass classification for $K = 3$ classes. a) The network has three piecewise linear outputs, which can take arbitrary values. b) After the softmax function, these outputs are constrained to be non-negative and sum to one. Hence, for a given input $x$, we compute valid parameters for the categorical distribution: any vertical slice of this plot produces three values that sum to one and would form the heights of the bars in a categorical distribution similar to figure 5.9."
+  },
+  {
+    "id": "page_0068-b003",
+    "page_key": 68,
+    "order": 3,
+    "source": "deepseek",
+    "confidence": "medium",
+    "type": "equation",
+    "latex": "\\begin{aligned}\n\\Pr\\left(y=k\\right) &= \\lambda_k\n\\end{aligned} \\qquad (5.21)"
+  },
+  {
+    "id": "page_0068-b004",
+    "page_key": 68,
+    "order": 4,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "The parameters are constrained to take values between zero and one, and they must collectively sum to one to ensure a valid probability distribution."
+  },
+  {
+    "id": "page_0068-b005",
+    "page_key": 68,
+    "order": 5,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "Then we use a network $ f[x,\\phi]$ with K outputs to compute these K parameters from the input x. Unfortunately, the network outputs will not necessarily obey the aforementioned constraints. Consequently, we pass the K outputs of the network through a function that ensures these constraints are respected. A suitable choice is the softmax function (figure 5.10). This takes an arbitrary vector of length K and returns a vector of the same length but where the elements are now in the range [0,1] and sum to one. The $ k^{th}$ output of the softmax function is:"
+  },
+  {
+    "id": "page_0068-b006",
+    "page_key": 68,
+    "order": 6,
+    "source": "deepseek",
+    "confidence": "medium",
+    "type": "equation",
+    "latex": "\\begin{aligned}\n\\mathrm{softmax}_k[\\mathbf{z}] &= \\frac{\\exp[z_k]}{\\sum_{k'=1}^{K}\\exp[z_{k'}]}\n\\end{aligned} \\qquad (5.22)"
+  },
+  {
+    "id": "page_0068-b007",
+    "page_key": 68,
+    "order": 7,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "where the exponential functions ensure positivity, and the sum in the denominator ensures that the K numbers sum to one."
+  },
+  {
+    "id": "page_0068-b008",
+    "page_key": 68,
+    "order": 8,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "The likelihood that input x has label y = k (figure 5.10) is hence:"
+  },
+  {
+    "id": "page_0068-b009",
+    "page_key": 68,
+    "order": 9,
+    "source": "deepseek",
+    "confidence": "medium",
+    "type": "equation",
+    "latex": "\\begin{aligned}\n\\Pr\\left(y=k\\mid\\mathbf{x}\\right) &= \\mathrm{softmax}_k\\left[\\mathbf{f}[\\mathbf{x},\\boldsymbol{\\phi}]\\right]\n\\end{aligned} \\qquad (5.23)"
+  },
+  {
+    "id": "page_0068-b010",
+    "page_key": 68,
+    "order": 10,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "The loss function is the negative log-likelihood of the training data:"
+  }
+]

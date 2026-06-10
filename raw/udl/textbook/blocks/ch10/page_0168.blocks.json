@@ -1,0 +1,22 @@
+[
+  {
+    "id": "page_0168-b001",
+    "page_key": 168,
+    "order": 1,
+    "type": "figure",
+    "text": "",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0168_fig_1.jpg"
+  },
+  {
+    "id": "page_0168-b002",
+    "page_key": 168,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 10.6 Receptive fields for network with kernel width of three. a) An input with eleven dimensions feeds into a hidden layer with three channels and convolution kernel of size three. The pre-activations of the three highlighted hidden units in the first hidden layer $H\\_{1}$ are different weighted sums of the nearest three inputs, so the receptive field size to seven. d) By the time we add a fourth layer, the receptive field of the hidden units at position three have a receptive field that covers the entire input.",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "caption": "Figure 10.6 Receptive fields for network with kernel width of three. a) An input with eleven dimensions feeds into a hidden layer with three channels and convolution kernel of size three. The pre-activations of the three highlighted hidden units in the first hidden layer $H\\_{1}$ are different weighted sums of the nearest three inputs, so the receptive field size to seven. d) By the time we add a fourth layer, the receptive field of the hidden units at position three have a receptive field that covers the entire input."
+  }
+]

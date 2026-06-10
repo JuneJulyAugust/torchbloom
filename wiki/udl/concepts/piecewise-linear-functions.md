@@ -5,7 +5,7 @@ title: Piecewise-Linear Functions
 chapter_scope: [ch03]
 source_anchors:
   - source: udlbook-v5.0.3
-    locator: raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0040.md
+    locator: raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0026.md
 confidence: directional
 prerequisites: [coordinates-and-graphs]
 related: [relu-activation, linear-regions]
@@ -38,6 +38,6 @@ slope; the places where segments meet are joints.
 
 ## Source Anchors
 
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0040.md`
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0044.md`
+- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0026.md`
+- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0030.md`
 

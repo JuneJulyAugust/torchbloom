@@ -1,0 +1,119 @@
+[
+  {
+    "id": "page_0392-b001",
+    "page_key": 392,
+    "order": 1,
+    "type": "paragraph",
+    "text": "where $r\\_{it}$ is the reward at time t in the $i^{th}$ episode. It can (non-obviously) be proved that the first term (the rewards before time t) does not affect the update from time t, so we can write:",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0392-b002",
+    "page_key": 392,
+    "order": 2,
+    "type": "equation",
+    "text": "$$\n\\boldsymbol{\\theta}\\leftarrow\\boldsymbol{\\theta}+\\alpha\\cdot\\frac{1}{I}\\sum_{i=1}^{T}\\sum_{t=1}^{T}\\frac{\\partial\\log\\left[\\pi[a_{i t}|\\mathbf{s}_{i t},\\boldsymbol{\\theta}]\\right]}{\\partial\\boldsymbol{\\theta}}\\sum_{k=t}^{T}r_{i,k+1}. \\quad (19.31)\n$$",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0392-b003",
+    "page_key": 392,
+    "order": 3,
+    "type": "heading",
+    "text": "## 19.5.2 REINFORCE algorithm",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0392-b004",
+    "page_key": 392,
+    "order": 4,
+    "type": "paragraph",
+    "text": "REINFORCE is an early policy gradient algorithm that exploits this result and incorporates discounting. It is a Monte Carlo method that generates episodes $\\tau\\_{i} = [s\\_{i1}, a\\_{i1}, r\\_{i2}, s\\_{i2}, a\\_{i2}, r\\_{i3}, \\ldots, r\\_{iT}]$ based on the current policy $\\pi[a|s,\\theta]$ . For discrete actions, this policy could be determined by a neural network $\\pi[s,\\theta]$ , which takes the current state s and returns one output for each possible action. These outputs are passed through a softmax function to create a distribution over actions, which is sampled at each time step.",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0392-b005",
+    "page_key": 392,
+    "order": 5,
+    "type": "paragraph",
+    "text": "For each episode i, we loop through each step t and calculate the empirical discounted return for the partial trajectory $\\tau\\_{it}$ that starts at time t:",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0392-b006",
+    "page_key": 392,
+    "order": 6,
+    "type": "equation",
+    "text": "$$\nr[\\boldsymbol{\\tau}_{i t}]=\\sum_{k=t+1}^{T}\\gamma^{k-t-1}r_{i,k}, \\quad (19.32)\n$$",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0392-b007",
+    "page_key": 392,
+    "order": 7,
+    "type": "paragraph",
+    "text": "and then we update the parameters for each time step t in each trajectory:",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0392-b008",
+    "page_key": 392,
+    "order": 8,
+    "type": "equation",
+    "text": "$$\n\\boldsymbol{\\theta}\\leftarrow\\boldsymbol{\\theta}+\\alpha\\cdot\\frac{\\partial\\log\\left[\\pi_{a_{i t}}[s_{i t},\\boldsymbol{\\theta}]\\right]}{\\partial\\boldsymbol{\\theta}}r[\\tau_{i t}] \\quad (19.33)\n$$",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0392-b009",
+    "page_key": 392,
+    "order": 9,
+    "type": "paragraph",
+    "text": "where $\\pi\\_{a\\_t}[s\\_t,\\theta]$ is the probability of $a\\_t$ produced by the neural network given the current state $\\mathbf{s}\\_t$ and parameters $\\theta$, and $\\alpha$ is the learning rate.",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0392-b010",
+    "page_key": 392,
+    "order": 10,
+    "type": "heading",
+    "text": "## 19.5.3 Baselines",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0392-b011",
+    "page_key": 392,
+    "order": 11,
+    "type": "paragraph",
+    "text": "Policy gradient methods exhibit high variance; many episodes may be needed to get stable estimates of the derivatives. One way to reduce this variance is to subtract a baseline b from the trajectory returns $r[\\tau]$ :",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0392-b012",
+    "page_key": 392,
+    "order": 12,
+    "type": "equation",
+    "text": "$$\n\\boldsymbol{\\theta}\\leftarrow\\boldsymbol{\\theta}+\\alpha\\cdot\\frac{1}{I}\\sum_{i=1}^{I}\\sum_{t=1}^{T}\\frac{\\partial\\log\\left[\\pi_{a_{i t}}[s_{i t},\\boldsymbol{\\theta}]\\right]}{\\partial\\boldsymbol{\\theta}}\\left(r[\\tau_{i t}]-b\\right). \\quad (19.34)\n$$",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0392-b013",
+    "page_key": 392,
+    "order": 13,
+    "type": "paragraph",
+    "text": "As long as the baseline b doesn’t depend on the actions:",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  }
+]

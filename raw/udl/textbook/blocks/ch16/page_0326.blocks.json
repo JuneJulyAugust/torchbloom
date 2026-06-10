@@ -1,0 +1,137 @@
+[
+  {
+    "id": "page_0326-b001",
+    "page_key": 326,
+    "order": 1,
+    "type": "exercise",
+    "text": "Problem 16.4 Compute the inverse and the determinant of the following matrices by hand:",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0326-b002",
+    "page_key": 326,
+    "order": 2,
+    "type": "equation",
+    "text": "$$\n\\Omega_{1}=\\begin{bmatrix}2&0&0 \\\\\n0&-5&0 \\\\\n0&0&1 \\\\\n\\hline 0&0&2\\end{bmatrix}\\quad\\Omega_{2}=\\begin{bmatrix}1&0&0 \\\\\n2&4&0 \\\\\n1&-1&2&0 \\\\\n\\end{bmatrix}\n\\qquad (16.29)\n$$",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0326-b003",
+    "page_key": 326,
+    "order": 3,
+    "type": "exercise",
+    "text": "Problem 16.5 Consider a random variable z with mean $\\mu$ and covariance $\\Sigma$ that is transformed as $x = Az + b$. Show that the expected value of x is $\\mathbf{A}\\mu + \\mathbf{b}$ and that the covariance of $x$ is $\\mathbf{A}\\Sigma\\mathbf{A}^{T}$.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0326-b004",
+    "page_key": 326,
+    "order": 4,
+    "type": "exercise",
+    "text": "Problem 16.6* Prove that if $\\mathbf{x} = \\mathbf{f}[z] = \\mathbf{A}\\mathbf{z} + \\mathbf{b}$ and $\\Pr(\\mathbf{z}) = \\mathrm{Norm}\\_{\\mathbf{x}}[\\mu, \\Sigma]$, then $\\Pr(\\mathbf{x}) = \\mathrm{Norm}\\_{\\mathbf{x}}[\\mathbf{A}\\mu + \\mathbf{b}, \\mathbf{A}\\Sigma\\mathbf{A}^{T}]$ using the relation:",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0326-b005",
+    "page_key": 326,
+    "order": 5,
+    "type": "equation",
+    "text": "$$\n\\Pr(\\mathbf{x})=\\Pr(\\mathbf{z})\\cdot\\left|\\frac{\\partial\\mathbf{f}[\\mathbf{z}]}{\\partial\\mathbf{z}}\\right|^{-1}\n\\qquad (16.30)\n$$",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0326-b006",
+    "page_key": 326,
+    "order": 6,
+    "type": "exercise",
+    "text": "Problem 16.7 The Leaky ReLU is defined as:",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0326-b007",
+    "page_key": 326,
+    "order": 7,
+    "type": "equation",
+    "text": "$$\n\\Pr(\\mathbf{x})=\\Pr(\\mathbf{z})\\cdot\\left|\\frac{\\partial\\mathbf{f}[\\mathbf{z}]}{\\partial\\mathbf{z}}\\right|^{-1}\n\\qquad (16.30)\n$$",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0326-b008",
+    "page_key": 326,
+    "order": 8,
+    "type": "paragraph",
+    "text": "Write an expression for the inverse of the leaky ReLU. Write an expression for the inverse absolute determinant of the Jacobian $\\partial[f\\mathbf{z}]/\\partial z^{-1}$ for an elementwise transformation $x = f[z]$ of the multivariate variable z where:",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0326-b009",
+    "page_key": 326,
+    "order": 9,
+    "type": "equation",
+    "text": "$$\n\\mathbf{f}[\\mathbf{z}]=\\left[{\\mathrm{LeakyReLU}}[z_{1}],\\mathbf{LeakyReLU}[z_{2}],\\ldots,\\mathbf{LeakyReLU}[z_{D}]^{\\mathrm{T}}\\right.\n\\qquad (16.31)\n$$",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0326-b010",
+    "page_key": 326,
+    "order": 10,
+    "type": "exercise",
+    "text": "Problem 16.8 Consider applying the piecewise linear function $f[h,\\phi]$ defined in equation 16.12 for the domain $h'\\in[0,1]$ elementwise to an input $\\mathbf{h}=[h\\_{1},h\\_{2},\\ldots,h\\_{D}]^{T}$ so that $f[h]=[f[h\\_{1},\\phi],f[h\\_{2},\\phi],\\ldots,f[h\\_{D},\\phi]]$ . What is the Jacobian $\\partial f[\\mathbf{h}]/\\partial\\mathbf{h}$ ? What is the determinant of the Jacobian?",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0326-b011",
+    "page_key": 326,
+    "order": 11,
+    "type": "exercise",
+    "text": "Problem 16.9* Consider constructing an element-wise flow based on a conical combination of square root functions in equally spaced bins:",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0326-b012",
+    "page_key": 326,
+    "order": 12,
+    "type": "equation",
+    "text": "$$\n\\mathbf{h}^{\\prime}=\\mathrm{f}[h,\\phi]=\\sqrt{[K h-b+1]\\\n;\\phi_{b}}+\\sum_{k=1}^{b-1}\\sqrt{\\phi_{k}}\n\\qquad (16.33)\n$$",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0326-b013",
+    "page_key": 326,
+    "order": 13,
+    "type": "paragraph",
+    "text": "where $b = \\lfloor Kh \\rfloor + 1$ is the bin that h falls into, and the parameters $\\phi\\_k$ are positive, and sum to one. Consider the case where $K = 5$ and $\\phi\\_1 = 0.1$, $\\phi\\_2 = 0.2$, $\\phi\\_3 = 0.5$, $\\phi\\_4 = 0.1$, $\\phi\\_5 = 0.1$. Draw the function $f[\\mathbf{h}, \\boldsymbol{\\phi}]$.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0326-b014",
+    "page_key": 326,
+    "order": 14,
+    "type": "exercise",
+    "text": "Problem 16.10 Draw the structure of the Jacobian (indicating which elements are zero) for the forward mapping of the residual flow in figure 16.8 for the cases where $\\mathbf{f}\\_{1}[\\bullet,\\phi\\_{1}]$ and $\\mathbf{f}\\_{2}[\\bullet,\\phi\\_{2}]$ are (i) a fully connected neural network, (ii) an elementwise flow.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0326-b015",
+    "page_key": 326,
+    "order": 15,
+    "type": "exercise",
+    "text": "Problem 16.11* Write out the expression for the KL divergence in equation 16.25. Why does it not matter if we can only evaluate the probability $q(\\mathbf{x})$ up to a scaling factor $\\kappa?$ Does the network have to be invertible to minimize this loss function? Explain your reasoning.",
+    "source": "deepseek",
+    "confidence": "medium"
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "page_0218-b001",
+    "page_key": 218,
+    "order": 1,
+    "type": "paragraph",
+    "text": "is mapped to a learned embedding. These embeddings are passed through a series of transformer layers. We now consider each of these stages in turn.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0218-b002",
+    "page_key": 218,
+    "order": 2,
+    "type": "heading",
+    "text": "## 12.5.1 Tokenization",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0218-b003",
+    "page_key": 218,
+    "order": 3,
+    "type": "paragraph",
+    "text": "A text processing pipeline begins with a tokenizer. This splits the text into smaller constituent units (tokens) from a vocabulary of possible tokens. In the discussion above, we have implied that these tokens represent words, but there are several difficulties.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0218-b004",
+    "page_key": 218,
+    "order": 4,
+    "type": "paragraph",
+    "text": "• Inevitably, some words (e.g., names) will not be in the vocabulary.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0218-b005",
+    "page_key": 218,
+    "order": 5,
+    "type": "list",
+    "text": "- It’s unclear how to handle punctuation, but this is important. If a sentence ends in a question mark, we must encode this information.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0218-b006",
+    "page_key": 218,
+    "order": 6,
+    "type": "list",
+    "text": "- The vocabulary would need different tokens for versions of the same word with different suffixes (e.g., walk, walks, walked, walking), and there is no way to clarify that these variations are related.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0218-b007",
+    "page_key": 218,
+    "order": 7,
+    "type": "paragraph",
+    "text": "One approach would be to use letters and punctuation marks as the vocabulary, but this would mean splitting text into very small parts and requiring the subsequent network to re-learn the relations between them.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0218-b008",
+    "page_key": 218,
+    "order": 8,
+    "type": "paragraph",
+    "text": "In practice, a compromise between letters and full words is used, and the final vocabulary includes both common words and word fragments from which larger and less frequent words can be composed. The vocabulary is computed using a sub-word tokenizer such as byte pair encoding (figure 12.8) that greedily merges commonly occurring sub-strings based on their frequency.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0218-b009",
+    "page_key": 218,
+    "order": 9,
+    "type": "heading",
+    "text": "## 12.5.2 Embeddings",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0218-b010",
+    "page_key": 218,
+    "order": 10,
+    "type": "paragraph",
+    "text": "Each token in the vocabulary V is mapped to a unique word embedding, and the embeddings for the whole vocabulary are stored in a matrix $\\Omega\\_{e} \\in R^{D \\times |V|}$ . To accomplish this, the N input tokens are first encoded in the matrix $T \\in R^{|V| \\times N}$ , where the $n^{th}$ column corresponds to the $n^{th}$ token and is a $|V| \\times 1$ one-hot vector (i.e., a vector where every entry is zero except for the entry corresponding to the token, which is set to one). The input embeddings are computed as $X = \\Omega\\_{e} T$ , and $\\Omega\\_{e}$ is learned like any other network parameter (figure 12.9). A typical embedding size D is 1024, and a typical total vocabulary size $|V|$ is 30,000, so even before the main network, there are many parameters in $\\Omega\\_{e}$ to learn.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0218-b011",
+    "page_key": 218,
+    "order": 11,
+    "type": "heading",
+    "text": "## 12.5.3 Transformer model",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0218-b012",
+    "page_key": 218,
+    "order": 12,
+    "type": "paragraph",
+    "text": "Finally, the embedding matrix X representing the text is passed through a series of K transformer layers, called a transformer model. There are three types of transformer models. An encoder transforms the text embeddings into a representation that can support a variety of tasks. A decoder predicts the next token to continue the input",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

@@ -5,7 +5,7 @@ title: "Equation 3.1: One-Input Shallow Network"
 chapter_scope: [ch03]
 source_anchors:
   - source: udlbook-v5.0.3
-    locator: raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0039.md
+    locator: raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0025.md
 confidence: directional
 prerequisites: [linear-regression, relu-activation, hidden-units]
 related: [shallow-neural-networks, piecewise-linear-functions]
@@ -40,4 +40,4 @@ result up or down.
 
 ## Source Anchors
 
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0039.md`
+- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0025.md`

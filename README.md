@@ -1,3 +1,5 @@
+![TorchBloom AI title banner](assets/brand/torchbloom-title-banner-v2.svg)
+
 # TorchBloom AI 燃灯智芽
 
 **A mastery-based AI learning path from elementary math to real machine learning, deep learning, and AI Olympiad readiness.**
@@ -51,6 +53,21 @@ TorchBloom AI combines a Math Academy-style learning system with a long-range AI
 
 The system should help learners revisit ideas at increasing depth. A concept first experienced as a picture or game can later become a formula, a program, an optimization problem, and eventually part of a model architecture.
 
+## Current Work
+
+TorchBloom is still curriculum-first, but the repository now contains more than the original vision document. The active durable work is the source-grounded UDL companion pipeline:
+
+| Area | Current Contents |
+| --- | --- |
+| `assets/brand/` | TorchBloom icon, logo, and README title banner. |
+| `docs/` | Durable design notes, runbooks, repository conventions, and Superpowers specs/plans. |
+| `raw/udl/` | Private source intake, PDF source material, fused textbook Markdown for the validated chapters, figure crops, structured block sidecars, and answer extracts. |
+| `wiki/udl/` | Source-grounded companion pages, chapter guides, math bridges, concept pages, practice indexes, and schema notes. |
+| `src/torchbloom/` | Python tooling for UDL source metadata, chapter mapping, OCR parsing, fusion validation/publishing, answer extraction, and wiki validation. |
+| `tests/` | Regression tests for the source, OCR, fusion, answer, chapter-map, and wiki-validation contracts. |
+
+There is still no production learner app, backend, curriculum engine, account system, or commercial platform in this repository. The code that exists today supports source intake, artifact validation, and curriculum/wiki preparation.
+
 ## Target Learner Journey
 
 The first target learner is an 8-year-old child starting from roughly 2nd-grade math. The system should also support parents, educators, mentors, and older motivated students who want a clear path toward AI foundations.
@@ -81,7 +98,7 @@ TorchBloom AI is built around eight pillars:
 
 ## Conceptual System Architecture
 
-This repository is currently in the vision and planning stage. No production system has been implemented yet. The future system may include the following modules:
+This repository is currently in the vision, source-intake, and curriculum-artifact stage. No production learning system has been implemented yet. A future system may include the following modules:
 
 | Module | Purpose |
 | --- | --- |
@@ -176,9 +193,9 @@ The same pattern could also be used for dot products, gradients, loss functions,
 
 ## Repository Status
 
-This repository is currently in the **vision and planning stage**.
+This repository is currently in the **vision, source-intake, and curriculum-artifact stage**.
 
-At this point, the repository contains only project framing and planning material. No application code, backend, frontend, curriculum engine, or production learning system has been created yet.
+The project framing is in place, and the first source-grounded UDL companion artifacts are being built and validated. The repository now includes Python tooling, tests, UDL raw-source derivatives, wiki pages, documentation, and brand assets. No production application, backend, frontend, curriculum engine, or learner-facing system has been created yet.
 
 ## Proposed Future Repository Structure
 
@@ -227,7 +244,7 @@ assessments/
   project-rubrics/
 ```
 
-These folders should not be created until the project has a clearer implementation plan. The first step is to clarify the vision, MVP, curriculum shape, and learning architecture.
+These future application and curriculum folders should not be created until a concrete implementation plan needs them. The current source-intake and wiki tooling should stay in the existing `raw/`, `wiki/`, `docs/`, `src/`, and `tests/` boundaries.
 
 ## First 90-Day Build Plan
 

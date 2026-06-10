@@ -1,0 +1,85 @@
+[
+  {
+    "id": "page_0128-b001",
+    "page_key": 128,
+    "order": 1,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "b)"
+  },
+  {
+    "id": "page_0128-b002",
+    "page_key": 128,
+    "order": 2,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "c)"
+  },
+  {
+    "id": "page_0128-b003",
+    "page_key": 128,
+    "order": 3,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "d)"
+  },
+  {
+    "id": "page_0128-b004",
+    "page_key": 128,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "e)"
+  },
+  {
+    "id": "page_0128-b005",
+    "page_key": 128,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "f)"
+  },
+  {
+    "id": "page_0128-b006",
+    "page_key": 128,
+    "order": 6,
+    "type": "figure",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0128_fig_2.jpg",
+    "alt": "Figure 8.8 Overfitting. a-c) A model with three regions is fit to three different datasets of fifteen points each. The result is similar in all three cases (i.e"
+  },
+  {
+    "id": "page_0128-b007",
+    "page_key": 128,
+    "order": 7,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "caption": "Figure 8.8 Overfitting. a-c) A model with three regions is fit to three different datasets of fifteen points each. The result is similar in all three cases (i.e., the variance is low). d-f) A model with ten regions is fit to the same datasets. The additional flexibility does not necessarily produce better predictions. While these three models each describe the training data better, they are not necessarily closer to the true underlying function (black curve). Instead, they overfit the data and describe the noise, and the variance (difference between fitted curves) is larger."
+  },
+  {
+    "id": "page_0128-b008",
+    "page_key": 128,
+    "order": 8,
+    "type": "figure",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0128_fig_1.jpg",
+    "alt": "Figure 8.9 Bias-variance trade-off. The bias and variance terms from equation 8.7 are plotted as a function of the model capacity (number of hidden units / line"
+  },
+  {
+    "id": "page_0128-b009",
+    "page_key": 128,
+    "order": 9,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "caption": "Figure 8.9 Bias-variance trade-off. The bias and variance terms from equation 8.7 are plotted as a function of the model capacity (number of hidden units / linear regions in range of data) in the simplified model using training data from figure 8.8. As the capacity increases, the bias (solid orange line) decreases, but the variance (solid cyan line) increases. The sum of these two terms (dashed gray line) is minimized when the capacity is four."
+  }
+]

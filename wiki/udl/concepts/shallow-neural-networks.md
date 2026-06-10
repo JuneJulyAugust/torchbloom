@@ -5,7 +5,7 @@ title: Shallow Neural Networks
 chapter_scope: [ch03]
 source_anchors:
   - source: udlbook-v5.0.3
-    locator: raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0039.md
+    locator: raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0025.md
 confidence: directional
 prerequisites: [linear-regression, relu-activation, hidden-units]
 related: [piecewise-linear-functions, universal-approximation]
@@ -39,6 +39,6 @@ The final curve can bend because different pieces turn on in different regions.
 
 ## Source Anchors
 
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0039.md`
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0050.md`
+- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0025.md`
+- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0036.md`
 

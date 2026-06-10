@@ -1,0 +1,119 @@
+[
+  {
+    "id": "page_0156-b001",
+    "page_key": 156,
+    "order": 1,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "where, as usual, $\\alpha$ is the learning rate, and $L$ is the loss. This is identical to gradient descent, except that the weights are reduced by a factor of $1-\\lambda'$ before the gradient update. For standard SGD, weight decay is equivalent to L2 regularization (equation 9.5) with coefficient $\\lambda=\\lambda'/2\\alpha$. However, for Adam, the learning rate $\\alpha$ is different for each parameter, so L2 regularization and weight decay differ. Loshchilov & Hutter (2019) present AdamV, which modifies Adam to implement weight decay correctly and show that this improves performance."
+  },
+  {
+    "id": "page_0156-b002",
+    "page_key": 156,
+    "order": 2,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Other choices of vector norm encourage sparsity in the weights. The L0 regularization term applies a fixed penalty for every non-zero weight. The effect is to \"prune\" the network. L0 regularization can also be used to encourage group sparsity; this might apply a fixed penalty if any of the weights contributing to a given hidden unit are non-zero. If they are all zero, we can remove the unit, decreasing the model size and making inference faster."
+  },
+  {
+    "id": "page_0156-b003",
+    "page_key": 156,
+    "order": 3,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Unfortunately, L0 regularization is challenging to implement since the derivative of the regularization term is not smooth, and more sophisticated fitting methods are required (see Louizos et al., 2018). Somewhere between L2 and L0 regularization is L1 regularization or LASSO (least absolute shrinkage and selection operator), which imposes a penalty on the absolute values of the weights. L2 regularization somewhat discourages sparsity in that the derivative of the squared penalty decreases as the weight becomes smaller, lowering the pressure to make it smaller still. L1 regularization does not have this disadvantage, as the derivative of the penalty is constant. This can produce sparser solutions than L2 regularization but is much easier to optimize than L0 regularization. Sometimes both L1 and L2 regularization terms are used, which is termed an elastic net penalty (Zou & Hastie, 2005)."
+  },
+  {
+    "id": "page_0156-b004",
+    "page_key": 156,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "A different approach to regularization is to modify the gradients of the learning algorithm without ever explicitly formulating a new loss function (e.g., equation 9.13). This approach has been used to promote sparsity during backpropagation (Schwarz et al., 2021)."
+  },
+  {
+    "id": "page_0156-b005",
+    "page_key": 156,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "The evidence on the effectiveness of explicit regularization is mixed. Zhang et al. (2017a) showed that L2 regularization contributes little to generalization. It has been proven that the Lipschitz constant of the network (how fast the function can change as we modify the input) bounds the generalization error (Bartlett et al., 2017; Neyshabur et al., 2018). However, the Lipschitz constant depends on the product of the spectral norms of the weight matrices $\\Omega\\_{k}$, which are only indirectly dependent on the magnitudes of the individual weights. Bartlett et al. (2017), Neyshabur et al. (2018), and Yoshida & Miyato (2017) all add terms that indirectly encourage the spectral norms to be smaller. Gouk et al. (2021) take a different approach and develop an algorithm that constrains the Lipschitz constant of the network to be below a particular value."
+  },
+  {
+    "id": "page_0156-b006",
+    "page_key": 156,
+    "order": 6,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Implicit regularization in gradient descent: The gradient descent step is:"
+  },
+  {
+    "id": "page_0156-b007",
+    "page_key": 156,
+    "order": 7,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "latex": "\\phi_{1}=\\phi_{0}+\\alpha\\cdot\\mathbf{g}[\\phi_{0}], \\qquad (9.14)"
+  },
+  {
+    "id": "page_0156-b008",
+    "page_key": 156,
+    "order": 8,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "where $\\mathbf{g}[\\phi\\_{0}]$ is the negative of the gradient of the loss function, and $\\alpha$ is the step size. As $\\alpha \\to 0$, the gradient descent process can be described by a differential equation:"
+  },
+  {
+    "id": "page_0156-b009",
+    "page_key": 156,
+    "order": 9,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "latex": "\\frac{d\\phi}{d t}\\approx\\mathbf{g}[\\phi]+\\alpha\\mathbf{g}_{1}[\\phi]+\\cdots, \\qquad (9.15)"
+  },
+  {
+    "id": "page_0156-b010",
+    "page_key": 156,
+    "order": 10,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "For typical step sizes $\\alpha$, the discrete and continuous versions converge to different solutions. We can use backward error analysis to find a correction $\\mathbf{g}\\_{1}[\\phi]$ to the continuous version:"
+  },
+  {
+    "id": "page_0156-b011",
+    "page_key": 156,
+    "order": 11,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "latex": "\\frac{d\\phi}{d t}\\approx\\mathbf{g}[\\phi]+\\alpha\\mathbf{g}_{1}[\\phi]+\\cdots, \\qquad (9.16)"
+  },
+  {
+    "id": "page_0156-b012",
+    "page_key": 156,
+    "order": 12,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "so that it gives the same result as the discrete version."
+  },
+  {
+    "id": "page_0156-b013",
+    "page_key": 156,
+    "order": 13,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Consider the first two terms of a Taylor expansion of the modified continuous solution $\\phi$ around initial position $\\Phi\\_{0}$:"
+  }
+]

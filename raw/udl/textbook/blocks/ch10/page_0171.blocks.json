@@ -1,0 +1,58 @@
+[
+  {
+    "id": "page_0171-b001",
+    "page_key": 171,
+    "order": 1,
+    "type": "figure",
+    "text": "",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0171_fig_1.jpg"
+  },
+  {
+    "id": "page_0171-b002",
+    "page_key": 171,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 10.9 2D convolutional layer. Each output $h\\_{ij}$ computes a weighted sum of the 3×3 nearest inputs, adds a bias, and passes the result through an activation function. a) Here, the output $h\\_{23}$ (shaded output) is a weighted sum of the nine positions from $x\\_{12}$ to $x\\_{34}$ (shaded inputs). b) Different outputs are computed by translating the kernel across the image grid in two dimensions. c–d) With zero-padding, positions beyond the image’s edge are considered to be zero.",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "caption": "Figure 10.9 2D convolutional layer. Each output $h\\_{ij}$ computes a weighted sum of the 3×3 nearest inputs, adds a bias, and passes the result through an activation function. a) Here, the output $h\\_{23}$ (shaded output) is a weighted sum of the nine positions from $x\\_{12}$ to $x\\_{34}$ (shaded inputs). b) Different outputs are computed by translating the kernel across the image grid in two dimensions. c–d) With zero-padding, positions beyond the image’s edge are considered to be zero."
+  },
+  {
+    "id": "page_0171-b003",
+    "page_key": 171,
+    "order": 3,
+    "type": "heading",
+    "text": "## 10.4 Downsampling and upsampling",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0171-b004",
+    "page_key": 171,
+    "order": 4,
+    "type": "paragraph",
+    "text": "The network in figure 10.7 increased receptive field size by scaling down the representation at each layer using stride two convolutions. We now consider methods for scaling down or downsampling 2D input representations. We also describe methods for scaling them back up (upsampling), which is useful when the output is also an image. Finally, we consider methods to change the number of channels between layers. This is helpful when recombining representations from two branches of a network (chapter 11).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0171-b005",
+    "page_key": 171,
+    "order": 5,
+    "type": "heading",
+    "text": "## 10.4.1 Downsampling",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0171-b006",
+    "page_key": 171,
+    "order": 6,
+    "type": "paragraph",
+    "text": "There are three main approaches to scaling down a 2D representation. Here, we consider the most common case of scaling down both dimensions by a factor of two. First, we",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

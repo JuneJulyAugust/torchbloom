@@ -1,0 +1,56 @@
+[
+  {
+    "id": "page_0059-b001",
+    "page_key": 59,
+    "order": 1,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "heading",
+    "text": "5.1.3 Maximizing log-likelihood"
+  },
+  {
+    "id": "page_0059-b002",
+    "page_key": 59,
+    "order": 2,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "figure",
+    "image_path": "figures/page_0059_fig_1.jpg"
+  },
+  {
+    "id": "page_0059-b003",
+    "page_key": 59,
+    "order": 3,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "caption",
+    "text": "Figure 5.2 The log transform. a) The log function is monotonically increasing. If z > z′, then log[z] > log[z′]. It follows that the maximum of any function g[z] will be at the same position as the maximum of log[g[z]]. b) A function g[z]. c) The logarithm of this function log[g[z]]. All positions on g[z] with a positive slope retain a positive slope after the log transform, and those with a negative slope retain a negative slope. The position of the maximum remains the same"
+  },
+  {
+    "id": "page_0059-b004",
+    "page_key": 59,
+    "order": 4,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "The maximum likelihood criterion (equation 5.1) is not very practical. Each term $\\Pr(\\mathbf{y}\\_{i}\\mid\\mathbf{f}[\\mathbf{x}\\_{i},\\boldsymbol{\\phi}])$ can be small, so the product of many of these terms can be tiny. It may be difficult to represent this quantity with finite precision arithmetic. Fortunately, we can equivalently maximize the logarithm of the likelihood:"
+  },
+  {
+    "id": "page_0059-b005",
+    "page_key": 59,
+    "order": 5,
+    "source": "deepseek",
+    "confidence": "medium",
+    "type": "equation",
+    "latex": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}}\n&= \\mathop{\\mathrm{argmax}}_{\\boldsymbol{\\phi}}\\left[\\prod_{i=1}^{I}\\Pr\\left(\\mathbf{y}_{i}\\mid\\mathbf{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}]\\right)\\right] \\\\\n&= \\mathop{\\mathrm{argmax}}_{\\boldsymbol{\\phi}}\\left[\\log\\left[\\prod_{i=1}^{I}\\Pr\\left(\\mathbf{y}_{i}\\mid\\mathbf{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}]\\right)\\right]\\right] \\\\\n&= \\mathop{\\mathrm{argmax}}_{\\boldsymbol{\\phi}}\\left[\\sum_{i=1}^{I}\\log\\left[\\Pr\\left(\\mathbf{y}_{i}\\mid\\mathbf{f}[\\mathbf{x}_{i},\\boldsymbol{\\phi}]\\right)\\right]\\right].\n\\end{aligned} \\qquad (5.3)"
+  },
+  {
+    "id": "page_0059-b006",
+    "page_key": 59,
+    "order": 6,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "This log-likelihood criterion is equivalent because the logarithm is a monotonically increasing function: if $ z > z'$, then $\\log[z] > \\log[z']$ and vice versa (figure 5.2). It follows that when we change the model parameters $\\phi $ to improve the log-likelihood criterion, we also improve the original maximum likelihood criterion. It also follows that the overall maxima of the two criteria must be in the same place, so the best model parameters $\\hat{\\phi}$ are the same in both cases. However, the log-likelihood criterion has the practical advantage of using a sum of terms, not a product, so representing it with finite precision isn't problematic."
+  }
+]

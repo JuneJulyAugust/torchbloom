@@ -1,0 +1,93 @@
+[
+  {
+    "id": "page_0384-b001",
+    "page_key": 384,
+    "order": 1,
+    "type": "figure",
+    "text": "Figure 19.11 Monte Carlo methods (../../figures/page_0384_fig_1.jpg)",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0384_fig_1.jpg"
+  },
+  {
+    "id": "page_0384-b002",
+    "page_key": 384,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 19.11 Monte Carlo methods. a) The policy (arrows) is initialized randomly. The MDP is repeatedly simulated, and the trajectories of these episodes are stored (orange and brown paths represent two trajectories). b) The action values are empirically estimated based on the observed returns averaged over these trajectories. In this case, the action values were all initially zero and have been updated where an action was observed. c) The policy can then be updated according to the action which received the best (or least bad) reward.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0384-b003",
+    "page_key": 384,
+    "order": 3,
+    "type": "paragraph",
+    "text": "Problems 19.2–19.3",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0384-b004",
+    "page_key": 384,
+    "order": 4,
+    "type": "paragraph",
+    "text": "Notebook 19.2 Dynamic programming",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0384-b005",
+    "page_key": 384,
+    "order": 5,
+    "type": "paragraph",
+    "text": "These two steps are iterated until the policy converges (figure 19.10).",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0384-b006",
+    "page_key": 384,
+    "order": 6,
+    "type": "paragraph",
+    "text": "There are many variations of this approach. In policy iteration, the policy evaluation step is iterated until convergence before policy improvement. The values can be updated either in place or synchronously in each sweep. In value iteration, the policy evaluation procedure sweeps through the values just once before policy improvement. Asynchronous dynamic programming algorithms don’t have to systematically sweep through all the values at each step but can update a subset of the states in place in an arbitrary order.",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0384-b007",
+    "page_key": 384,
+    "order": 7,
+    "type": "heading",
+    "text": "## 19.3.2 Monte Carlo methods",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0384-b008",
+    "page_key": 384,
+    "order": 8,
+    "type": "paragraph",
+    "text": "Unlike dynamic programming algorithms, Monte Carlo methods don’t assume knowledge of the MDP’s transition probabilities and reward structure. Instead, they gain experience by repeatedly sampling trajectories from the MDP and observing the rewards. They alternate between computing the action values (based on this experience) and updating the policy (based on the action values).",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0384-b009",
+    "page_key": 384,
+    "order": 9,
+    "type": "paragraph",
+    "text": "To estimate the action values $q[s,a]$ , a series of episodes are run. Each starts with a given state and action and thereafter follows the current policy, producing a series of actions, states, and rewards (figure 19.11a). The action value for a given state-action pair under the current policy is estimated as the average of the empirical returns (i.e., cumulative sums of time-discounted rewards) that follow each time this pair occurs (figure 19.11b). Then the policy is updated by choosing the action with the maximum value at every state (figure 19.11c):",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0384-b010",
+    "page_key": 384,
+    "order": 10,
+    "type": "equation",
+    "text": "$$\n\\pi[a|s]\\leftarrow\\underset{a}{\\mathop{\\mathrm{argmax}}}\\Big[q[s,a]\\Big]. \\quad (19.13)\n$$",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  }
+]

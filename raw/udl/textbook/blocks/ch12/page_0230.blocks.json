@@ -1,0 +1,58 @@
+[
+  {
+    "id": "page_0230-b001",
+    "page_key": 230,
+    "order": 1,
+    "type": "figure",
+    "text": "",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0230_fig_1.jpg"
+  },
+  {
+    "id": "page_0230-b002",
+    "page_key": 230,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 12.16 ImageGPT. a) Images generated from the autoregressive ImageGPT model. The top-left pixel is drawn from the estimated empirical distribution at this position. Subsequent pixels are generated in turn, conditioned on the previous ones, working along the rows until the bottom-right of the image is reached. For each pixel, the transformer decoder generates a conditional distribution as in equation 12.15, and a sample is drawn. The extended sequence is then fed back into the network to generate the next pixel, and so on. b) Image completion. In each case, the lower half of the image is removed (top row), and ImageGPT completes the remaining part pixel by pixel (three different completions shown). Adapted from https://openai.com/blog/image-gpt/.",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "caption": "Figure 12.16 ImageGPT. a) Images generated from the autoregressive ImageGPT model. The top-left pixel is drawn from the estimated empirical distribution at this position. Subsequent pixels are generated in turn, conditioned on the previous ones, working along the rows until the bottom-right of the image is reached. For each pixel, the transformer decoder generates a conditional distribution as in equation 12.15, and a sample is drawn. The extended sequence is then fed back into the network to generate the next pixel, and so on. b) Image completion. In each case, the lower half of the image is removed (top row), and ImageGPT completes the remaining part pixel by pixel (three different completions shown). Adapted from https://openai.com/blog/image-gpt/."
+  },
+  {
+    "id": "page_0230-b003",
+    "page_key": 230,
+    "order": 3,
+    "type": "paragraph",
+    "text": "final layer with one that maps to the desired number of classes and is fine-tuned.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0230-b004",
+    "page_key": 230,
+    "order": 4,
+    "type": "paragraph",
+    "text": "For the ImageNet benchmark, this system achieved an 11.45% top-1 error rate. However, it did not perform as well as the best contemporary convolutional networks without supervised pre-training. The strong inductive bias of convolutional networks can only be superseded by employing extremely large amounts of training data.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0230-b005",
+    "page_key": 230,
+    "order": 5,
+    "type": "heading",
+    "text": "## 12.10.3 Multi-scale vision transformers",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0230-b006",
+    "page_key": 230,
+    "order": 6,
+    "type": "paragraph",
+    "text": "The Vision Transformer differs from convolutional architectures in that it operates on a single scale and has a receptive field that covers the whole image. Several transformer models that process the image at multiple scales have been proposed. Similarly to convolutional networks, these generally start with small high resolution patches and few channels and gradually enlarge the receptive field, decrease the spatial resolution and",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "page_0386-b001",
+    "page_key": 386,
+    "order": 1,
+    "type": "figure",
+    "text": "Figure 19.12 Q-learning (../../figures/page_0386_fig_1.jpg)",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0386_fig_1.jpg"
+  },
+  {
+    "id": "page_0386-b002",
+    "page_key": 386,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 19.12 Q-learning. a) The agent starts in state $s\\_{t}$ and takes action $a\\_{t}=2$ according to the policy. It does not slip on the ice, so it moves downward, receiving reward $r[s\\_{t},a\\_{t}]=0$ for leaving the original state. b) The maximum action value at the new state is found (here 0.43). c) The action value for action 2 in the original state is updated to 1.12 based on the current estimate of the maximum action value at the subsequent state, the reward, discount factor $\\gamma=0.9$ , and learning rate $\\alpha=0.1$ . This changes the highest action value at the original state, so the policy changes.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0386-b003",
+    "page_key": 386,
+    "order": 3,
+    "type": "equation",
+    "text": "$$\nq[s_{t},a_{t}]\\leftarrow q[s_{t},a_{t}]+\\alpha\\left(r[s_{t},a_{t}]+\\gamma\\cdot\\max_{a}\\left[q[s_{t+1},a]\\right]-q[s_{t},a_{t}]\\right)\n$$",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0386-b004",
+    "page_key": 386,
+    "order": 4,
+    "type": "equation",
+    "text": "$$\nq[s_{t},a_{t}]+\\alpha\\left(r[s_{t},a_{t}]+\\gamma\\cdot\\max_{a}\\left[q[s_{t+1},a]\\right]-q[s_{t},a_{t}]\\right)\n$$",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0386-b005",
+    "page_key": 386,
+    "order": 5,
+    "type": "heading",
+    "text": "## 19.4 Fitted Q-learning",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0386-b006",
+    "page_key": 386,
+    "order": 6,
+    "type": "paragraph",
+    "text": "The tabular Monte Carlo and TD algorithms described above repeatedly traverse the entire MDP and update the action values. However, this is only practical if the state-action space is small. Unfortunately, this is rarely the case; even for the constrained environment of a chessboard, there are more than $10^{40}$ possible legal states.",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0386-b007",
+    "page_key": 386,
+    "order": 7,
+    "type": "paragraph",
+    "text": "In fitted Q-learning, the discrete representation $q[s\\_{t}, a\\_{t}]$ of the action values is replaced by a machine learning model $q[s\\_{t}, a\\_{t}, \\phi]$ , where now the state is represented by a vector $s\\_{t}$ rather than just an index. We then define a least squares loss based on the consistency of adjacent action values (similar to the loss in Q-learning, see equation 19.15):",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0386-b008",
+    "page_key": 386,
+    "order": 8,
+    "type": "equation",
+    "text": "$$\nL[\\phi]=\\left(r[s_{t},a_{t}]+\\gamma\\cdot\\max_{a}\\Big[q[s_{t+1},a,\\phi]\\Big]-q[s_{t},a_{t},\\phi]\\right)^{2}, \\quad (19.16)\n$$",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0386-b009",
+    "page_key": 386,
+    "order": 9,
+    "type": "paragraph",
+    "text": "which in turn leads to the update:",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0386-b010",
+    "page_key": 386,
+    "order": 10,
+    "type": "equation",
+    "text": "$$\n\\phi\\leftarrow\\phi+\\alpha\\Bigg(r[s_{t},a_{t}]+\\gamma\\cdot\\max_{a}\\Big[q[s_{t+1},a,\\phi]\\Big]-q[s_{t},a_{t},\\phi]\\Bigg)^{2}, \\quad (19.17)\n$$",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0386-b011",
+    "page_key": 386,
+    "order": 11,
+    "type": "paragraph",
+    "text": "Fitted Q-learning differs from Q-Learning in that convergence is no longer guaranteed. A change to the parameters potentially modifies both the target $r[s\\_{t}, a\\_{t}] + \\gamma \\cdot \\max\\_{a\\_{t+1}} [q[s\\_{t+1}, a, \\phi]]$ (the maximum value may change) and the prediction $q[s\\_{t}, a\\_{t}, \\phi]$ . This can be shown both theoretically and empirically to damage convergence.",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  }
+]

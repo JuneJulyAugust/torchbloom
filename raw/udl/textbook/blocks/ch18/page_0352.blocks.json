@@ -1,0 +1,40 @@
+[
+  {
+    "id": "page_0352-b001",
+    "page_key": 352,
+    "order": 1,
+    "type": "figure",
+    "text": "../../figures/page_0352_fig_2.jpg",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "image_path": "figures/page_0352_fig_2.jpg"
+  },
+  {
+    "id": "page_0352-b002",
+    "page_key": 352,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 18.3 Diffusion kernel. a) The point $x^{*}=2.0$ is propagated through the latent variables using equation 18.1 (five paths shown in gray). The diffusion kernel $q(z\\_{t}|x^{*})$ is the probability distribution over variable $z\\_{t}$ given that we started from $x^{*}$. It can be computed in closed-form and is a normal distribution whose mean moves toward zero and whose variance increases as $t$ increases. Heatmap shows $q(z\\_{t}|x^{*})$ for each variable. Cyan lines show $\\pm 2$ standard deviations from the mean. b) The diffusion kernel $q(z\\_{t}|x^{*})$ is shown explicitly for $t=20,40,80$. In practice, the diffusion kernel allows us to sample a latent variable $z\\_{t}$ corresponding to a given $x^{*}$ without computing the intermediate variables $z\\_{1},\\ldots,z\\_{t-1}$. When $t$ becomes very large, the diffusion kernel becomes a standard normal.",
+    "source": "codex-fusion",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0352-b003",
+    "page_key": 352,
+    "order": 3,
+    "type": "figure",
+    "text": "../../figures/page_0352_fig_1.jpg",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "image_path": "figures/page_0352_fig_1.jpg"
+  },
+  {
+    "id": "page_0352-b004",
+    "page_key": 352,
+    "order": 4,
+    "type": "caption",
+    "text": "Figure 18.4 Marginal distributions. a) Given an initial density $\\Pr(x)$ (top row), the diffusion process gradually blurs the distribution as it passes through latent variables $z\\_{t}$ and moves it toward a standard normal distribution. Each subsequent horizontal line of heatmap represents a marginal distribution $q(z\\_{t})$. b) The top graph shows the initial distribution $\\Pr(x)$. The other two graphs show the marginal distributions $q(z\\_{20})$ and $q(z\\_{60})$, respectively.",
+    "source": "codex-fusion",
+    "confidence": "medium"
+  }
+]

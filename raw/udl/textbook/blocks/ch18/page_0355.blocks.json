@@ -1,0 +1,40 @@
+[
+  {
+    "id": "page_0355-b001",
+    "page_key": 355,
+    "order": 1,
+    "type": "figure",
+    "text": "../../figures/page_0355_fig_1.jpg",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "image_path": "figures/page_0355_fig_1.jpg"
+  },
+  {
+    "id": "page_0355-b002",
+    "page_key": 355,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 18.5 Conditional distribution $q(z\\_{t-1}|z\\_t)$ . a) The marginal densities $q(z\\_t)$ with three points $z^*\\_t$ highlighted. b) The probability $q(z\\_{t-1}|z^*\\_t)$ (cyan curves) is computed via Bayes' rule and is proportional to $q(z^*\\_t|z\\_{t-1})q(z\\_{t-1})$ . In general, it is not normally distributed (top graph), although often the normal is a good approximation (bottom two graphs). The first likelihood term $q(z^*\\_t|z\\_{t-1})$ is normal in $z\\_{t-1}$ (equation 18.2) with a mean that is slightly further from zero than $z^*\\_t$ (brown curves). The second term is the marginal density $q(z\\_{t-1})$ (gray curves).",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0355-b003",
+    "page_key": 355,
+    "order": 3,
+    "type": "figure",
+    "text": "../../figures/page_0355_fig_2.jpg",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "image_path": "figures/page_0355_fig_2.jpg"
+  },
+  {
+    "id": "page_0355-b004",
+    "page_key": 355,
+    "order": 4,
+    "type": "caption",
+    "text": "Figure 18.6 Conditional distribution $q(z\\_{t-1}|z\\_t,x)$ . a) Diffusion kernel for $x^* = -2.1$ with three points $z\\_t^*$ highlighted. b) The probability $q(z\\_{t-1}|z\\_t^*,x^*)$ is computed via Bayes' rule and is proportional to $q(z\\_t^*|z\\_{t-1})q(z\\_{t-1}|x^*)$ . This is normally distributed and can be computed in closed form. The first likelihood term $q(z\\_t^*|z\\_{t-1})$ is normal in $z\\_t$ (equation 18.2) with a mean that is slightly further from zero than $z\\_t^*$ (brown curves). The second term is the diffusion kernel $q(z\\_{t-1}|x^*)$ (gray curves).",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  }
+]

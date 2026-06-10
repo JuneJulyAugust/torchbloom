@@ -1,0 +1,74 @@
+[
+  {
+    "id": "page_0274-b001",
+    "page_key": 274,
+    "order": 1,
+    "type": "paragraph",
+    "text": "characterizing the distribution of real examples is the job of generative models in the first place). Hence, the Fréchet inception distance approximates both distributions by multivariate Gaussians and (as the name suggests) estimates the distance between them using the Fréchet distance.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0274-b002",
+    "page_key": 274,
+    "order": 2,
+    "type": "paragraph",
+    "text": "However, it does not model the distance with respect to the original data but rather the activations in the deepest layer of the inception classification network. These hidden units are the ones most associated with object classes, so the comparison occurs at a semantic level, ignoring the more fine-grained details of the images. This metric does take account of diversity within classes but relies heavily on the information retained by the features in the inception network; any information discarded by the network does not contribute to the result. Some of this discarded information may still be important to generate realistic samples.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0274-b003",
+    "page_key": 274,
+    "order": 3,
+    "type": "paragraph",
+    "text": "Manifold precision/recall: Fréchet inception distance is sensitive both to the realism of the samples and their diversity but does not distinguish between these factors. To disentangle these qualities, we consider the overlap between the data manifold (i.e., the subset of the data space where the real examples lie) and its easy to determine if a new point lies within it. The recall is the fraction of data examples that fall within the model manifold. This measures the proportion of generated samples that are realistic. The recall is the fraction of data examples that fall within the model manifold. This measures the proportion of generated samples that are realistic.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0274-b004",
+    "page_key": 274,
+    "order": 4,
+    "type": "paragraph",
+    "text": "To estimate the manifold, we place a hypersphere around each data example, whose radius is the distance to the  $k^{th}$  nearest neighbor. The union of these spheres is an approximation of the manifold, and it’s easy to determine if a new point lies within it. This manifold is also typically computed in the feature space of a classifier with the advantages and disadvantages that entails.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0274-b005",
+    "page_key": 274,
+    "order": 5,
+    "type": "heading",
+    "text": "14.4 Summary",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0274-b006",
+    "page_key": 274,
+    "order": 6,
+    "type": "paragraph",
+    "text": "Unsupervised models learn about the structure of a dataset in the absence of labels. A subset of these models is generative and can synthesize new data examples. A further subset is probabilistic in that they can both generate new examples and assign a probability to observed data. The models considered in the following four chapters start with a latent variable z which has a known distribution. A deep neural network then maps from the latent variable to the observed data space. We considered desirable properties of generative models and introduced metrics that attempt to quantify their performance.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0274-b007",
+    "page_key": 274,
+    "order": 7,
+    "type": "heading",
+    "text": "Notes",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0274-b008",
+    "page_key": 274,
+    "order": 8,
+    "type": "paragraph",
+    "text": "Popular generative models include generative adversarial networks (Goodfellow et al., 2014), variational autoencoders (Kingma & Welling, 2014), normalizing flows (Rezende & Mohamed,",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

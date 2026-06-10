@@ -30,6 +30,76 @@ CENTERED_HTML_IMG_RE = re.compile(
     r"<p\s+align=[\"']center[\"']>\s*<img\b[^>]*\bsrc=[\"']([^\"']+)[\"'][^>]*>\s*</p>",
     re.IGNORECASE | re.DOTALL,
 )
+DISPLAY_MATH_BRACKET_RE = re.compile(r"\\\[|\\\]")
+INLINE_MATH_PAREN_RE = re.compile(r"\\\(|\\\)")
+GITHUB_BLOCKED_MATH_MACRO_RE = re.compile(r"\\operatorname\b")
+INLINE_ESCAPED_BRACE_RE = re.compile(r"\$[^\n$]*\\[{}][^\n$]*\$")
+MATH_TAG_RE = re.compile(r"\\tag\{")
+INLINE_GLUED_SET_BRACE_RE = re.compile(
+    r"\$[^\n$]*(?:\\lbrace(?=[A-Za-z0-9])|\\rbrace(?=[A-Za-z0-9]))[^\n$]*\$"
+)
+DISPLAY_MATH_BLOCK_RE = re.compile(r"(?ms)^\$\$\n(?P<body>.*?)\n\$\$")
+DISPLAY_MATH_BLANK_LINE_RE = re.compile(r"(?:^|\n)[ \t]*\n")
+DISPLAY_MATH_DOLLAR_RE = re.compile(r"\$")
+MARKDOWN_HEADING_RE = re.compile(r"(?m)^#{1,6}\s+.*$")
+DOUBLE_ESCAPED_MATH_MACRO_RE = re.compile(
+    r"(?<!\\)\\\\(?:begin|end|mathrm|mathsf|mathbf|boldsymbol|tag|frac|sum|prod|left|right)"
+)
+SINGLE_BACKSLASH_ROWBREAK_MACRO_RE = re.compile(
+    r"(?<!\\)\\\s+\\(?:mathbf|boldsymbol|frac|sum|prod|vdots)"
+)
+MISSING_MATH_SUBSCRIPT_RE = re.compile(
+    r"(?:\\mathbf\{[fxyz]\}|\\boldsymbol\{\\phi\})\{[^{}\n]+\}"
+    r"|(?:\\mathbf\{[fxyz]\}|\\boldsymbol\{\\phi\})[A-Za-z0-9]"
+    r"|\\(?:phi|theta|alpha|beta|sigma)\{[^{}\n]+\}"
+)
+ALIGNED_ROWBREAK_BEFORE_OPERATOR_RE = re.compile(
+    r"&\\\\(?:=|approx|leq|geq|leftarrow|rightarrow|to)"
+)
+BARE_MATH_LOG_RE = re.compile(r"(?<!\\)\blog(?=\s*(?:\\|\[|\{|\())")
+BARE_OCR_MATH_TOKEN_RE = re.compile(
+    r"(?<![\\{])\b(?:argmin|argmax)\b|(?<!\\)\b(?:Pr|Norm)\s*\("
+)
+MISMATCHED_PROBABILITY_DELIMITER_RE = re.compile(
+    r"\\Pr\\left\((?:(?!\\right).)*?(?<!\\right)\)(?=\\right)"
+)
+NESTED_DISPLAY_MATH_ENV_RE = re.compile(r"\\begin\{(?:align\*?|equation\*?|displaymath)\}")
+ONE_LINE_MULTIROW_ALIGNED_RE = re.compile(
+    r"\\begin\{aligned\}[^\n]*\\\\[^\n]*\\end\{aligned\}"
+)
+PROSE_DISPLAY_MATH_RE = re.compile(
+    r"\\begin\{(?:aligned|align\*)\}\s*(?:&\s*)?(?:where|between|and|which|then)\b",
+    re.IGNORECASE,
+)
+OCR_SPACED_MATH_TOKEN_RES = [
+    re.compile(r"(?<![A-Za-z])P r(?=\s*\()"),
+    re.compile(r"(?<![A-Za-z])N o r m(?=(?:[_\[{(]|\b))"),
+    re.compile(r"D_\{K L\}"),
+    re.compile(r"\\(?:mathrm|mathsf)\*?\{[^{}]*[A-Za-z](?:[ ~]+[A-Za-z]){1,}[^{}]*\}"),
+    re.compile(r"\\mathrm\*"),
+    re.compile(r"(?<![A-Za-z])(?:a r g m i n|a r g m a x|s o f t m a x|s i g|d e t|m l p|n e w|L B O)(?![A-Za-z])"),
+]
+INLINE_SUPERSCRIPT_FOOTNOTE_RE = re.compile(r"\$\^\d+\$")
+INLINE_BARE_OCR_MATH_TOKEN_RE = re.compile(
+    r"\$[^\n$]*(?:(?<![\\{])\b(?:argmin|argmax)\b|(?<!\\)\b(?:Pr|Norm)\s*(?:\(|_|\[))[^\n$]*\$"
+)
+INLINE_MATH_UNESCAPED_UNDERSCORE_RE = re.compile(r"(?<!\\)_")
+MATH_THIN_SPACE_RE = re.compile(r"\\,")
+STANDALONE_EQUATION_NUMBER_RE = re.compile(r"(?m)^\(\d+\.\d+\)$")
+RAW_LATENT_VARIABLE_BRACES_RE = re.compile(r"\blatent variables\s+\{z_\{t\}\}")
+BROKEN_SIZED_DELIMITER_BEFORE_BAR_RE = re.compile(
+    r"\\(?:left|right|Big|big|Bigg|bigg)?\\\s*\n\|"
+)
+MISSING_DISPLAY_RBRACE_RE = re.compile(
+    r"\\lbrace(?:(?!\\rbrace|\$\$).){0,180}(?=\n\\end\{|\n\\qquad|\n\$\$|\n?$)",
+    re.DOTALL,
+)
+GLUED_MATH_COMMAND_RE = re.compile(
+    r"\\(?:inne|innee)\b"
+    r"|\\(?:Omega|beta|lambda)[A-Za-z0-9]+\b"
+    r"|\\in[A-Z]\b"
+    r"|\\(?:par|lbrac)\b"
+)
 FIGURE_CAPTION_START_RE = re.compile(r"(?m)^Figure\s+\d+\.\d+\b")
 FIGURE_CAPTION_BLOCK_RE = re.compile(r"^Figure\s+\d+\.\d+\b", re.DOTALL)
 CENTERED_FIGURE_CAPTION_RE = re.compile(
@@ -156,6 +226,14 @@ def fused_markdown_path(output_dir: Path, spec: PageSpec) -> Path:
 
 def blocks_json_path(output_dir: Path, spec: PageSpec) -> Path:
     return output_dir / "blocks" / spec.chapter.short_slug / f"{spec.key}.blocks.json"
+
+
+def published_markdown_path(dest_root: Path, spec: PageSpec) -> Path:
+    return dest_root / "pages" / spec.chapter.slug / f"{spec.key}.md"
+
+
+def published_blocks_path(dest_root: Path, spec: PageSpec) -> Path:
+    return dest_root / "blocks" / spec.chapter.short_slug / f"{spec.key}.blocks.json"
 
 
 def _copy_file(src: Path, dest: Path) -> None:
@@ -343,6 +421,15 @@ Use these to check transcription, especially equations, but do not include them 
 6. Do not invent content not supported by the two OCR sources.
 7. Do not include review-note text in final Markdown frontmatter or body.
 8. Center figure caption text and bold the `Figure X.Y` label.
+9. Use GitHub-compatible display math delimiters: `$$` on a line before and after display equations. Do not use `\\[` and `\\]` for display math.
+10. Use GitHub-compatible inline math delimiters: `$...$`. Do not use `\\(...\\)` inline math.
+11. Escape underscores inside inline math as `\\_` in Markdown source, for example `$\\mathbf{{z}}\\_{{t}}$`; GitHub can parse unescaped inline underscores as Markdown emphasis before math rendering.
+12. Do not use `\\,` spacing commands in final Markdown math. Use `\\mid` for conditional probability bars.
+13. Avoid GitHub-blocked math macros. Use `\\mathrm{{ReLU}}`, `\\mathrm{{argmin}}`, or `\\mathrm{{HardSwish}}` instead of `\\operatorname{{...}}`.
+14. In inline math, write literal set braces as `\\lbrace ...\\rbrace`, not `\\{{...\\}}`, so GitHub does not consume the escaping before MathJax sees it.
+15. Do not use `\\tag{{...}}` in published Markdown. Put visible equation numbers at the end of the display equation as `\\quad (3.4)` so GitHub and local previews render the same way.
+16. Do not put math delimiters in Markdown headings. Keep headings short and move math-heavy definitions into the following paragraph.
+17. Use Markdown footnotes such as `[^1]` and `[^1]: ...`; do not use `$^1$` as a footnote marker.
 
 ## Required Markdown Frontmatter
 
@@ -672,6 +759,10 @@ def _resolve_markdown_link(base: Path, link: str) -> Path:
     return base / path
 
 
+def _relative_to(path: Path, root: Path) -> Path:
+    return path.resolve().relative_to(root.resolve())
+
+
 def _manifest_path(output_dir: Path, spec: PageSpec) -> Path:
     return output_dir / "inputs" / spec.source_key / "manifest.json"
 
@@ -709,7 +800,7 @@ def _leading_figure_caption_count(body: str) -> int:
         stripped = block.strip()
         if not stripped:
             continue
-        if stripped.startswith(("##", "\\[", ">", "<")):
+        if stripped.startswith(("##", "$$", "\\[", ">", "<")):
             break
         if FIGURE_CAPTION_START_RE.match(stripped):
             count += 1
@@ -734,6 +825,172 @@ def _validate_centered_figure_captions(md_path: Path, body: str, errors: list[st
             )
 
 
+def _iter_inline_math_bodies(value: str) -> list[str]:
+    bodies: list[str] = []
+    in_display_math = False
+
+    for line in value.splitlines():
+        if line.strip() == "$$":
+            in_display_math = not in_display_math
+            continue
+        if in_display_math:
+            continue
+
+        index = 0
+        while index < len(line):
+            start = line.find("$", index)
+            if start == -1:
+                break
+            if start + 1 < len(line) and line[start + 1] == "$":
+                index = start + 2
+                continue
+            if start > 0 and line[start - 1] == "\\":
+                index = start + 1
+                continue
+
+            end = start + 1
+            while end < len(line):
+                candidate = line.find("$", end)
+                if candidate == -1:
+                    end = len(line)
+                    break
+                if candidate > 0 and line[candidate - 1] == "\\":
+                    end = candidate + 1
+                    continue
+                if candidate + 1 < len(line) and line[candidate + 1] == "$":
+                    end = candidate + 2
+                    continue
+                bodies.append(line[start + 1:candidate])
+                end = candidate + 1
+                break
+            index = end
+
+    return bodies
+
+
+def _validate_inline_math_source(path: Path, label: str, value: str, errors: list[str]) -> None:
+    reported_thin_space = False
+    reported_underscore = False
+    for body in _iter_inline_math_bodies(value):
+        if not reported_thin_space and MATH_THIN_SPACE_RE.search(body):
+            errors.append(
+                f"{path}: {label} uses \\, inside inline math; GitHub strips it before math rendering"
+            )
+            reported_thin_space = True
+        if not reported_underscore and INLINE_MATH_UNESCAPED_UNDERSCORE_RE.search(body):
+            errors.append(
+                f"{path}: {label} has unescaped inline math underscore; escape _ as \\_ for GitHub"
+            )
+            reported_underscore = True
+        if reported_thin_space and reported_underscore:
+            return
+
+
+def _validate_github_math_blocks(md_path: Path, body: str, errors: list[str]) -> None:
+    for match in DISPLAY_MATH_BLOCK_RE.finditer(body):
+        block = match.group("body")
+        if MATH_THIN_SPACE_RE.search(block):
+            errors.append(f"{md_path}: replace \\, inside display math; GitHub strips it before rendering")
+        if BROKEN_SIZED_DELIMITER_BEFORE_BAR_RE.search(block):
+            errors.append(f"{md_path}: fix broken sized delimiter before norm bar")
+        if MISSING_DISPLAY_RBRACE_RE.search(block):
+            errors.append(f"{md_path}: add missing closing \\rbrace in display math set")
+        if MATH_TAG_RE.search(block):
+            errors.append(
+                f"{md_path}: use plain equation numbering like \\quad (3.4), not \\tag, for GitHub rendering"
+            )
+        if DOUBLE_ESCAPED_MATH_MACRO_RE.search(block):
+            errors.append(f"{md_path}: fix double-escaped math macro for GitHub rendering")
+        if SINGLE_BACKSLASH_ROWBREAK_MACRO_RE.search(block):
+            errors.append(f"{md_path}: fix malformed row-break math macro for GitHub rendering")
+        if ALIGNED_ROWBREAK_BEFORE_OPERATOR_RE.search(block):
+            errors.append(f"{md_path}: remove row break before math operator in aligned equation")
+        if BARE_MATH_LOG_RE.search(block):
+            errors.append(f"{md_path}: replace bare log with \\log inside display math")
+        if BARE_OCR_MATH_TOKEN_RE.search(block):
+            errors.append(f"{md_path}: replace bare OCR math token inside display math")
+        if DISPLAY_MATH_BLANK_LINE_RE.search(block):
+            errors.append(f"{md_path}: remove blank line inside display math for GitHub rendering")
+        if DISPLAY_MATH_DOLLAR_RE.search(block):
+            errors.append(f"{md_path}: remove stray dollar sign inside display math for GitHub rendering")
+        if MISMATCHED_PROBABILITY_DELIMITER_RE.search(block):
+            errors.append(f"{md_path}: fix mismatched probability delimiter before GitHub rendering")
+        if NESTED_DISPLAY_MATH_ENV_RE.search(block):
+            errors.append(f"{md_path}: remove nested display math environment inside $$ block")
+        if ONE_LINE_MULTIROW_ALIGNED_RE.search(block):
+            errors.append(f"{md_path}: split one-line multi-row aligned equation across lines")
+        if MISSING_MATH_SUBSCRIPT_RE.search(block):
+            errors.append(f"{md_path}: fix missing math subscript marker from OCR")
+        if PROSE_DISPLAY_MATH_RE.search(block):
+            errors.append(f"{md_path}: move prose inside display math back to paragraph text")
+        for pattern in OCR_SPACED_MATH_TOKEN_RES:
+            if pattern.search(block):
+                errors.append(f"{md_path}: fix OCR-spaced math token before publishing")
+                break
+        for env in ("aligned", "align*", "array", "cases"):
+            env_pattern = re.compile(
+                rf"\\begin\{{{re.escape(env)}\}}(?P<env_body>.*?)\\end\{{{re.escape(env)}\}}",
+                re.DOTALL,
+            )
+            for env_match in env_pattern.finditer(block):
+                if "\\tag{" in env_match.group("env_body"):
+                    errors.append(
+                        f"{md_path}: move \\tag outside {env}; GitHub rejects tag inside aligned math environments"
+                    )
+
+
+def _validate_markdown_headings(md_path: Path, body: str, errors: list[str]) -> None:
+    for match in MARKDOWN_HEADING_RE.finditer(body):
+        heading = match.group(0)
+        if "$" in heading:
+            errors.append(f"{md_path}: remove heading math delimiters; GitHub renders heading math literally")
+
+
+def _equation_validation_bodies(value: str) -> list[str]:
+    bodies = [match.group("body") for match in DISPLAY_MATH_BLOCK_RE.finditer(value)]
+    return bodies or [value]
+
+
+def _validate_equation_text(path: Path, label: str, value: str, errors: list[str]) -> None:
+    math_value = "\n".join(_equation_validation_bodies(value))
+    if MATH_THIN_SPACE_RE.search(math_value):
+        errors.append(f"{path}: {label} uses \\,; GitHub strips it before math rendering")
+    if BROKEN_SIZED_DELIMITER_BEFORE_BAR_RE.search(math_value):
+        errors.append(f"{path}: {label} has broken sized delimiter before norm bar")
+    if MISSING_DISPLAY_RBRACE_RE.search(math_value):
+        errors.append(f"{path}: {label} has missing closing \\rbrace in display math set")
+    if MATH_TAG_RE.search(math_value):
+        errors.append(f"{path}: {label} uses \\tag; use plain equation numbering like \\quad (3.4)")
+    if DOUBLE_ESCAPED_MATH_MACRO_RE.search(math_value):
+        errors.append(f"{path}: {label} has double-escaped math macro for GitHub rendering")
+    if SINGLE_BACKSLASH_ROWBREAK_MACRO_RE.search(math_value):
+        errors.append(f"{path}: {label} has malformed row-break math macro for GitHub rendering")
+    if ALIGNED_ROWBREAK_BEFORE_OPERATOR_RE.search(math_value):
+        errors.append(f"{path}: {label} has row break before math operator")
+    if BARE_MATH_LOG_RE.search(math_value):
+        errors.append(f"{path}: {label} has bare log; use \\log")
+    if BARE_OCR_MATH_TOKEN_RE.search(math_value):
+        errors.append(f"{path}: {label} has bare OCR math token")
+    if DISPLAY_MATH_BLANK_LINE_RE.search(math_value):
+        errors.append(f"{path}: {label} has blank line inside display math")
+    if DISPLAY_MATH_DOLLAR_RE.search(math_value):
+        errors.append(f"{path}: {label} has stray dollar sign inside display math")
+    if MISMATCHED_PROBABILITY_DELIMITER_RE.search(math_value):
+        errors.append(f"{path}: {label} has mismatched probability delimiter")
+    if NESTED_DISPLAY_MATH_ENV_RE.search(math_value):
+        errors.append(f"{path}: {label} has nested display math environment")
+    if ONE_LINE_MULTIROW_ALIGNED_RE.search(math_value):
+        errors.append(f"{path}: {label} has one-line multi-row aligned equation")
+    if MISSING_MATH_SUBSCRIPT_RE.search(math_value):
+        errors.append(f"{path}: {label} has missing math subscript marker from OCR")
+    if PROSE_DISPLAY_MATH_RE.search(math_value):
+        errors.append(f"{path}: {label} has prose inside display math")
+    for pattern in OCR_SPACED_MATH_TOKEN_RES:
+        if pattern.search(math_value):
+            errors.append(f"{path}: {label} has OCR-spaced math token")
+            break
+
+
 def _validate_markdown(output_dir: Path, spec: PageSpec, errors: list[str]) -> dict[str, Any] | None:
     md_path = fused_markdown_path(output_dir, spec)
     if not md_path.exists():
@@ -754,6 +1011,31 @@ def _validate_markdown(output_dir: Path, spec: PageSpec, errors: list[str]) -> d
         errors.append(f"{md_path}: remove review_notes from final Markdown frontmatter")
     if REVIEW_NOTE_TEXT_RE.search(body):
         errors.append(f"{md_path}: remove review-note text from final Markdown body")
+    if DISPLAY_MATH_BRACKET_RE.search(body):
+        errors.append(f"{md_path}: use $$ display math delimiters for GitHub rendering, not \\[ or \\]")
+    if INLINE_MATH_PAREN_RE.search(body):
+        errors.append(f"{md_path}: use $...$ inline math delimiters for GitHub rendering, not \\(...\\)")
+    if GITHUB_BLOCKED_MATH_MACRO_RE.search(body):
+        errors.append(f"{md_path}: replace GitHub-blocked math macro \\operatorname with \\mathrm or plain LaTeX")
+    if INLINE_ESCAPED_BRACE_RE.search(body):
+        errors.append(f"{md_path}: use \\lbrace and \\rbrace for literal braces in inline math")
+    if INLINE_GLUED_SET_BRACE_RE.search(body):
+        errors.append(f"{md_path}: put a space after inline \\lbrace/\\rbrace so GitHub does not read it as one macro")
+    if INLINE_SUPERSCRIPT_FOOTNOTE_RE.search(body):
+        errors.append(f"{md_path}: use Markdown footnotes like [^1], not $^1$ math markers")
+    _validate_inline_math_source(md_path, "body", body, errors)
+    if STANDALONE_EQUATION_NUMBER_RE.search(body):
+        errors.append(f"{md_path}: remove standalone equation number line from prose")
+    if RAW_LATENT_VARIABLE_BRACES_RE.search(body):
+        errors.append(f"{md_path}: convert raw OCR math braces in prose to inline math")
+    if INLINE_BARE_OCR_MATH_TOKEN_RE.search(body):
+        errors.append(f"{md_path}: replace bare OCR math token inside inline math")
+    if GLUED_MATH_COMMAND_RE.search(body):
+        errors.append(f"{md_path}: fix glued math command from OCR residue")
+    if MISSING_MATH_SUBSCRIPT_RE.search(body):
+        errors.append(f"{md_path}: fix missing math subscript marker from OCR")
+    _validate_github_math_blocks(md_path, body, errors)
+    _validate_markdown_headings(md_path, body, errors)
     if frontmatter.get("page_key") != spec.book_page:
         errors.append(f"{md_path}: page_key should be book page {spec.book_page}")
     if frontmatter.get("book_page") != spec.book_page:
@@ -832,6 +1114,40 @@ def _validate_blocks(output_dir: Path, spec: PageSpec, errors: list[str]) -> int
         block_type = block.get("type")
         if block_type not in SUPPORTED_BLOCK_TYPES:
             errors.append(f"{block_path}: block {idx} unsupported type {block_type!r}")
+        for key in ("text", "latex", "caption", "alt"):
+            value = block.get(key)
+            if isinstance(value, str):
+                _validate_inline_math_source(block_path, f"block {idx} field {key!r}", value, errors)
+            if isinstance(value, str) and GITHUB_BLOCKED_MATH_MACRO_RE.search(value):
+                errors.append(
+                    f"{block_path}: block {idx} field {key!r} uses GitHub-blocked math macro \\operatorname"
+                )
+            if isinstance(value, str) and MATH_TAG_RE.search(value):
+                errors.append(
+                    f"{block_path}: block {idx} field {key!r} uses \\tag; use plain equation numbering"
+                )
+            if isinstance(value, str) and INLINE_GLUED_SET_BRACE_RE.search(value):
+                errors.append(
+                    f"{block_path}: block {idx} field {key!r} has glued inline \\lbrace/\\rbrace math"
+                )
+            if isinstance(value, str) and STANDALONE_EQUATION_NUMBER_RE.fullmatch(value.strip()):
+                errors.append(
+                    f"{block_path}: block {idx} field {key!r} is a standalone equation number line"
+                )
+            if isinstance(value, str) and RAW_LATENT_VARIABLE_BRACES_RE.search(value):
+                errors.append(
+                    f"{block_path}: block {idx} field {key!r} has raw OCR math braces in prose"
+                )
+            if isinstance(value, str) and INLINE_BARE_OCR_MATH_TOKEN_RE.search(value):
+                errors.append(
+                    f"{block_path}: block {idx} field {key!r} has bare OCR math token inside inline math"
+                )
+            if isinstance(value, str) and GLUED_MATH_COMMAND_RE.search(value):
+                errors.append(
+                    f"{block_path}: block {idx} field {key!r} has glued math command from OCR residue"
+                )
+            if block_type == "equation" and isinstance(value, str):
+                _validate_equation_text(block_path, f"block {idx} field {key!r}", value, errors)
         if block_type == "equation" and block.get("image_path"):
             errors.append(f"{block_path}: equation block {idx} must use LaTeX, not image_path")
         if block_type == "figure":
@@ -861,18 +1177,16 @@ def _validate_blocks(output_dir: Path, spec: PageSpec, errors: list[str]) -> int
     return len(data)
 
 
-def validate(args: argparse.Namespace) -> int:
-    output_dir = Path(args.output_dir)
-    raw_root = Path(args.raw_root)
-    chapters = load_chapters(raw_root / "chapter_map.json")
-    specs = select_pages(chapters, args.chapters, args.book_page_offset)
-
+def _validate_specs(output_dir: Path, specs: list[PageSpec]) -> tuple[list[str], int]:
     errors: list[str] = []
     block_count = 0
     for spec in specs:
         _validate_markdown(output_dir, spec, errors)
         block_count += _validate_blocks(output_dir, spec, errors)
+    return errors, block_count
 
+
+def _write_validation_report(output_dir: Path, specs: list[PageSpec], block_count: int, errors: list[str]) -> None:
     report = {
         "pages_expected": len(specs),
         "blocks_seen": block_count,
@@ -883,6 +1197,16 @@ def validate(args: argparse.Namespace) -> int:
     reports_dir.mkdir(parents=True, exist_ok=True)
     (reports_dir / "validation.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
 
+
+def validate(args: argparse.Namespace) -> int:
+    output_dir = Path(args.output_dir)
+    raw_root = Path(args.raw_root)
+    chapters = load_chapters(raw_root / "chapter_map.json")
+    specs = select_pages(chapters, args.chapters, args.book_page_offset)
+
+    errors, block_count = _validate_specs(output_dir, specs)
+    _write_validation_report(output_dir, specs, block_count, errors)
+
     if errors:
         print(f"validation failed: {len(errors)} error(s)")
         for error in errors[:20]:
@@ -892,6 +1216,225 @@ def validate(args: argparse.Namespace) -> int:
         return 1
 
     print(f"validation passed: {len(specs)} pages, {block_count} blocks")
+    return 0
+
+
+def _referenced_figure_sources(output_dir: Path, spec: PageSpec) -> list[Path]:
+    sources: set[Path] = set()
+    md_path = fused_markdown_path(output_dir, spec)
+    block_path = blocks_json_path(output_dir, spec)
+
+    text = md_path.read_text(encoding="utf-8")
+    for link in HTML_IMG_RE.findall(text):
+        resolved = _resolve_markdown_link(md_path.parent, link)
+        if resolved.exists():
+            sources.add(resolved.resolve())
+
+    blocks = json.loads(block_path.read_text(encoding="utf-8"))
+    for block in blocks:
+        if not isinstance(block, dict) or block.get("type") != "figure":
+            continue
+        image_path = block.get("image_path")
+        if not image_path:
+            continue
+        resolved = _resolve_output_path(output_dir, block_path.parent, str(image_path))
+        if resolved.exists():
+            sources.add(resolved.resolve())
+
+    return sorted(sources)
+
+
+def _remove_file(path: Path, cleaned: list[str]) -> None:
+    if path.exists() and path.is_file():
+        path.unlink()
+        cleaned.append(str(path))
+
+
+def _remove_empty_dir(path: Path) -> None:
+    try:
+        path.rmdir()
+    except OSError:
+        pass
+
+
+def _clean_legacy_for_spec(dest_root: Path, spec: PageSpec, cleaned: list[str]) -> None:
+    _remove_file(dest_root / "pages" / spec.chapter.slug / f"{spec.source_key}.md", cleaned)
+    _remove_empty_dir(dest_root / "pages" / spec.chapter.slug)
+
+    _remove_file(dest_root / "raw_ocr" / f"{spec.source_key}.txt", cleaned)
+    _remove_empty_dir(dest_root / "raw_ocr")
+
+    _remove_file(dest_root / "images" / f"{spec.source_key}.png", cleaned)
+    _remove_empty_dir(dest_root / "images")
+
+    figures_dir = dest_root / "figures"
+    for figure in sorted(figures_dir.glob(f"{spec.source_key}_fig_*")):
+        _remove_file(figure, cleaned)
+    _remove_empty_dir(figures_dir)
+
+
+def _write_publish_index(dest_root: Path, specs: list[PageSpec], copied_figures: list[str]) -> None:
+    chapters: dict[int, Chapter] = {}
+    for spec in specs:
+        chapters[spec.chapter.number] = spec.chapter
+
+    lines = [
+        "# UDL Textbook Fused Source Layer",
+        "",
+        "This directory stores validated private, source-derived UDL fused OCR pages.",
+        "Final Markdown filenames use printed book page numbers; each page keeps `pdf_page` provenance in frontmatter.",
+        "",
+        "## Published Scope",
+        "",
+    ]
+    for chapter in sorted(chapters.values(), key=lambda item: item.number):
+        chapter_specs = [spec for spec in specs if spec.chapter.number == chapter.number]
+        first = chapter_specs[0].key
+        last = chapter_specs[-1].key
+        lines.append(
+            f"- Chapter {chapter.number}: {chapter.title} "
+            f"(`pages/{chapter.slug}/{first}.md` through `{last}.md`)"
+        )
+
+    lines.extend(
+        [
+            "",
+            "## Assets",
+            "",
+            f"- Referenced figure files: {len(copied_figures)}",
+            "- Block sidecars: `blocks/chXX/page_XXXX.blocks.json`",
+            "",
+            "## Cleanup Policy",
+            "",
+            "Legacy DeepSeek-only raw text, old rendered page images, and old PDF-page-key Markdown are removed only for pages that have a validated fused replacement.",
+            "",
+        ]
+    )
+    (dest_root / "index.md").write_text("\n".join(lines), encoding="utf-8")
+
+
+def _write_publish_log(
+    dest_root: Path,
+    chapters_text: str,
+    specs: list[PageSpec],
+    block_count: int,
+    copied_pages: list[str],
+    copied_blocks: list[str],
+    copied_figures: list[str],
+    cleaned: list[str],
+) -> None:
+    chapters: dict[int, Chapter] = {}
+    for spec in specs:
+        chapters[spec.chapter.number] = spec.chapter
+
+    lines = [
+        "# UDL Textbook Fusion Publish Log",
+        "",
+        "Latest publish was produced by `torchbloom-udl-fusion-pilot publish` after validation.",
+        "",
+        "## Summary",
+        "",
+        f"- Chapters: {chapters_text}",
+        f"- Pages validated: {len(specs)}",
+        f"- Blocks validated: {block_count}",
+        f"- Markdown pages copied: {len(copied_pages)}",
+        f"- Block sidecars copied: {len(copied_blocks)}",
+        f"- Referenced figures copied: {len(copied_figures)}",
+        f"- Legacy files cleaned: {len(cleaned)}",
+        "",
+        "## Published Chapters",
+        "",
+    ]
+    for chapter in sorted(chapters.values(), key=lambda item: item.number):
+        chapter_specs = [spec for spec in specs if spec.chapter.number == chapter.number]
+        lines.append(
+            f"- Chapter {chapter.number}: {chapter.title} "
+            f"(`{chapter_specs[0].key}.md` through `{chapter_specs[-1].key}.md`)"
+        )
+    lines.extend(
+        [
+            "",
+            "## Cleanup Policy",
+            "",
+            "Legacy DeepSeek-only files are removed only for pages with validated fused replacements.",
+            "The cleaned-file count is retained as provenance; individual cleaned paths are intentionally omitted to keep this log readable.",
+        ]
+    )
+    lines.append("")
+    (dest_root / "log.md").write_text("\n".join(lines), encoding="utf-8")
+
+
+def publish(args: argparse.Namespace) -> int:
+    output_dir = Path(args.output_dir)
+    raw_root = Path(args.raw_root)
+    dest_root = Path(args.dest_root) if args.dest_root else raw_root
+    chapters = load_chapters(raw_root / "chapter_map.json")
+    specs = select_pages(chapters, args.chapters, args.book_page_offset)
+
+    errors, block_count = _validate_specs(output_dir, specs)
+    _write_validation_report(output_dir, specs, block_count, errors)
+    if errors:
+        print(f"publish stopped: validation failed with {len(errors)} error(s)")
+        for error in errors[:20]:
+            print(f"- {error}")
+        if len(errors) > 20:
+            print(f"- ... {len(errors) - 20} more")
+        return 1
+
+    staging_root = dest_root / ".publish-staging"
+    if staging_root.exists():
+        shutil.rmtree(staging_root)
+    staging_root.mkdir(parents=True)
+
+    copied_pages: list[str] = []
+    copied_blocks: list[str] = []
+    copied_figures: list[str] = []
+    cleaned: list[str] = []
+    figure_sources: set[Path] = set()
+
+    try:
+        for spec in specs:
+            page_dest = published_markdown_path(staging_root, spec)
+            block_dest = published_blocks_path(staging_root, spec)
+            _copy_file(fused_markdown_path(output_dir, spec), page_dest)
+            _copy_file(blocks_json_path(output_dir, spec), block_dest)
+            copied_pages.append(str(published_markdown_path(dest_root, spec)))
+            copied_blocks.append(str(published_blocks_path(dest_root, spec)))
+            figure_sources.update(_referenced_figure_sources(output_dir, spec))
+
+        for src in sorted(figure_sources):
+            rel = _relative_to(src, output_dir)
+            dest = staging_root / rel
+            _copy_file(src, dest)
+            copied_figures.append(str(dest_root / rel))
+
+        if args.clean_legacy:
+            for spec in specs:
+                _clean_legacy_for_spec(dest_root, spec, cleaned)
+
+        shutil.copytree(staging_root, dest_root, dirs_exist_ok=True)
+    finally:
+        if staging_root.exists():
+            shutil.rmtree(staging_root)
+
+    _write_publish_index(dest_root, specs, copied_figures)
+    _write_publish_log(
+        dest_root,
+        args.chapters,
+        specs,
+        block_count,
+        copied_pages,
+        copied_blocks,
+        copied_figures,
+        cleaned,
+    )
+    print(
+        "published "
+        f"{len(copied_pages)} pages, {len(copied_blocks)} block sidecars, "
+        f"{len(copied_figures)} figures to {dest_root}"
+    )
+    if args.clean_legacy:
+        print(f"cleaned {len(cleaned)} legacy file(s)")
     return 0
 
 
@@ -936,6 +1479,15 @@ def build_parser() -> argparse.ArgumentParser:
     validate_parser.add_argument("--output-dir", default=str(DEFAULT_OUTPUT_DIR))
     validate_parser.add_argument("--book-page-offset", type=int, default=DEFAULT_BOOK_PAGE_OFFSET)
     validate_parser.set_defaults(func=validate)
+
+    publish_parser = subparsers.add_parser("publish", help="publish validated fused outputs into raw/udl/textbook")
+    publish_parser.add_argument("--chapters", default="1,2,3")
+    publish_parser.add_argument("--raw-root", default=str(DEFAULT_RAW_ROOT))
+    publish_parser.add_argument("--output-dir", default=str(DEFAULT_OUTPUT_DIR))
+    publish_parser.add_argument("--dest-root", default=None)
+    publish_parser.add_argument("--book-page-offset", type=int, default=DEFAULT_BOOK_PAGE_OFFSET)
+    publish_parser.add_argument("--clean-legacy", action="store_true")
+    publish_parser.set_defaults(func=publish)
 
     return parser
 

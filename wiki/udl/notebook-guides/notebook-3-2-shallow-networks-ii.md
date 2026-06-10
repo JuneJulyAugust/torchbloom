@@ -7,7 +7,7 @@ source_anchors:
   - source: udl-official-site
     locator: https://udlbook.github.io/udlbook/
   - source: udlbook-v5.0.3
-    locator: raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0043.md
+    locator: raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0029.md
 confidence: directional
 prerequisites: [hidden-units, piecewise-linear-functions]
 related: [notebook-3-1-shallow-networks-i, universal-approximation]
@@ -41,5 +41,5 @@ Read pages 43-44 and review the universal approximation concept page.
 ## Source Anchors
 
 - Official UDL site notebook list: `https://udlbook.github.io/udlbook/`
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0043.md`
+- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0029.md`
 

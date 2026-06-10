@@ -5,7 +5,7 @@ title: Supervised Learning
 chapter_scope: [ch02]
 source_anchors:
   - source: udlbook-v5.0.3
-    locator: raw/udl/textbook/pages/ch02-supervised-learning/page_0031.md
+    locator: raw/udl/textbook/pages/ch02-supervised-learning/page_0017.md
 confidence: directional
 prerequisites: [functions-as-machines, vectors-as-lists-of-numbers]
 related: [linear-regression, loss-functions, model-training]
@@ -45,6 +45,6 @@ closely as possible.
 
 ## Source Anchors
 
-- `raw/udl/textbook/pages/ch02-supervised-learning/page_0031.md`
-- `raw/udl/textbook/pages/ch02-supervised-learning/page_0036.md`
+- `raw/udl/textbook/pages/ch02-supervised-learning/page_0017.md`
+- `raw/udl/textbook/pages/ch02-supervised-learning/page_0022.md`
 

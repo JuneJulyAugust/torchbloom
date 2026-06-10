@@ -5,7 +5,7 @@ title: Model Training
 chapter_scope: [ch02, ch03]
 source_anchors:
   - source: udlbook-v5.0.3
-    locator: raw/udl/textbook/pages/ch02-supervised-learning/page_0036.md
+    locator: raw/udl/textbook/pages/ch02-supervised-learning/page_0022.md
 confidence: directional
 prerequisites: [loss-functions, slopes-and-gradients]
 related: [supervised-learning, shallow-neural-networks]
@@ -38,6 +38,6 @@ ground slopes upward, you can step the other way to go downhill.
 
 ## Source Anchors
 
-- `raw/udl/textbook/pages/ch02-supervised-learning/page_0036.md`
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0040.md`
+- `raw/udl/textbook/pages/ch02-supervised-learning/page_0022.md`
+- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0026.md`
 

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "page_0410-b001",
+    "page_key": 410,
+    "order": 1,
+    "type": "figure",
+    "text": "Figures 20.7 and 20.8 connected minima and critical points (../../figures/page_0410_fig_2.jpg)",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0410_fig_2.jpg"
+  },
+  {
+    "id": "page_0410-b002",
+    "page_key": 410,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 20.7 and Figure 20.8 Loss-surface structure. Figure 20.7 shows that for sufficiently deep and wide networks, a curved low-energy path can connect two independently discovered minima. Figure 20.8 shows that, in random Gaussian functions and neural network loss surfaces, lower-loss critical points tend to have fewer downward-curving directions.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0410-b003",
+    "page_key": 410,
+    "order": 3,
+    "type": "figure",
+    "text": "Figure 20.9 Goldilocks zone chart (../../figures/page_0410_fig_1.jpg)",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0410_fig_1.jpg"
+  },
+  {
+    "id": "page_0410-b004",
+    "page_key": 410,
+    "order": 4,
+    "type": "caption",
+    "text": "Figure 20.9 Goldilocks zone. The proportion of Hessian eigenvalues that are greater than zero in a random subspace of dimension $D\\_s$ is plotted against squared parameter radius relative to Xavier initialization; a pronounced region of positive curvature is known as the Goldilocks zone. Adapted from Fort & Scherlis (2019).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

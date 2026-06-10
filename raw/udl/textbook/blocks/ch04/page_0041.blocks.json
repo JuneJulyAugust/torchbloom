@@ -1,0 +1,92 @@
+[
+  {
+    "id": "page_0041-b001",
+    "page_key": 41,
+    "order": 1,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "heading",
+    "text": "Chapter 4"
+  },
+  {
+    "id": "page_0041-b002",
+    "page_key": 41,
+    "order": 2,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "heading",
+    "text": "Deep neural networks"
+  },
+  {
+    "id": "page_0041-b003",
+    "page_key": 41,
+    "order": 3,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "The last chapter described shallow neural networks, which have a single hidden layer. This chapter introduces deep neural networks, which have more than one hidden layer. With ReLU activation functions, both shallow and deep networks describe piecewise linear mappings from input to output."
+  },
+  {
+    "id": "page_0041-b004",
+    "page_key": 41,
+    "order": 4,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "As the number of hidden units increases, shallow neural networks improve their descriptive power. Indeed, with enough hidden units, shallow networks can describe arbitrarily complex functions in high dimensions. However, it turns out that for some functions, the required number of hidden units is impractically large. Deep networks can produce many more linear regions than shallow networks for a given number of parameters. Hence, from a practical standpoint, they can be used to describe a broader family of functions."
+  },
+  {
+    "id": "page_0041-b005",
+    "page_key": 41,
+    "order": 5,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "heading",
+    "text": "4.1 Composing neural networks"
+  },
+  {
+    "id": "page_0041-b006",
+    "page_key": 41,
+    "order": 6,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "To gain insight into the behavior of deep neural networks, we first consider composing two shallow networks so that the output of the first becomes the input of the second. Consider two shallow networks with three hidden units each (figure 4.1a). The first network takes an input x and returns output y and is defined by:"
+  },
+  {
+    "id": "page_0041-b007",
+    "page_key": 41,
+    "order": 7,
+    "source": "deepseek",
+    "confidence": "medium",
+    "type": "equation",
+    "latex": "\\begin{aligned}\nh_{1}&=\\mathrm{a}[\\theta_{10}+\\theta_{11}x] \\\\\nh_{2}&=\\mathrm{a}[\\theta_{20}+\\theta_{21}x] \\\\\nh_{3}&=\\mathrm{a}[\\theta_{30}+\\theta_{31}x]\n\\end{aligned} \\qquad (4.1)"
+  },
+  {
+    "id": "page_0041-b008",
+    "page_key": 41,
+    "order": 8,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "and"
+  },
+  {
+    "id": "page_0041-b009",
+    "page_key": 41,
+    "order": 9,
+    "source": "deepseek",
+    "confidence": "medium",
+    "type": "equation",
+    "latex": "\\begin{aligned}\ny&=\\phi_{0}+\\phi_{1}h_{1}+\\phi_{2}h_{2}+\\phi_{3}h_{3}.\n\\end{aligned} \\qquad (4.2)"
+  },
+  {
+    "id": "page_0041-b010",
+    "page_key": 41,
+    "order": 10,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "The second network takes y as input and returns $ y'$ and is defined by:"
+  }
+]

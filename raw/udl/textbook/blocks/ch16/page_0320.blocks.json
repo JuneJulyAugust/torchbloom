@@ -1,0 +1,40 @@
+[
+  {
+    "id": "page_0320-b001",
+    "page_key": 320,
+    "order": 1,
+    "type": "figure",
+    "text": "../../figures/page_0320_fig_1.jpg",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "image_path": "figures/page_0320_fig_1.jpg"
+  },
+  {
+    "id": "page_0320-b002",
+    "page_key": 320,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 16.12 Samples from GLOW trained on the CelebA HQ dataset (Karras et al., 2018). The samples are of reasonable quality, although GANs and diffusion models produce superior results. Adapted from Kingma & Dhariwal (2018).",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0320-b003",
+    "page_key": 320,
+    "order": 3,
+    "type": "figure",
+    "text": "../../figures/page_0320_fig_2.jpg",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "image_path": "figures/page_0320_fig_2.jpg"
+  },
+  {
+    "id": "page_0320-b004",
+    "page_key": 320,
+    "order": 4,
+    "type": "caption",
+    "text": "Figure 16.13 Interpolation using GLOW model. The left and right images are real people. The intermediate images were computed by projecting the real images to the latent space, interpolating, and then projecting the interpolated points back to image space. Adapted from Kingma & Dhariwal (2018).",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  }
+]

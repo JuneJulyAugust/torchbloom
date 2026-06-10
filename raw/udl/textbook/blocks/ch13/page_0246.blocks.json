@@ -1,0 +1,111 @@
+[
+  {
+    "id": "page_0246-b001",
+    "page_key": 246,
+    "order": 1,
+    "type": "paragraph",
+    "text": "b)",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0246-b002",
+    "page_key": 246,
+    "order": 2,
+    "type": "paragraph",
+    "text": "c)",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0246-b003",
+    "page_key": 246,
+    "order": 3,
+    "type": "paragraph",
+    "text": "e)",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0246-b004",
+    "page_key": 246,
+    "order": 4,
+    "type": "paragraph",
+    "text": "f)",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0246-b005",
+    "page_key": 246,
+    "order": 5,
+    "type": "figure",
+    "text": "",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0246_fig_1.jpg"
+  },
+  {
+    "id": "page_0246-b006",
+    "page_key": 246,
+    "order": 6,
+    "type": "caption",
+    "text": "Figure 13.5 Permutation of node indices. a) Example graph, b) associated adjacency matrix and c) node embeddings. d) The same graph where the (arbitrary) order of the indices has been changed. e) The adjacency matrix and f) node matrix are now different. Consequently, any network layer that operates on the graph should be indifferent to the ordering of the nodes.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0246-b007",
+    "page_key": 246,
+    "order": 7,
+    "type": "heading",
+    "text": "13.3.1 Tasks and loss functions",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0246-b008",
+    "page_key": 246,
+    "order": 8,
+    "type": "paragraph",
+    "text": "We defer discussion of graph neural network models until section 13.4 and first describe the types of problems these networks tackle and their associated loss functions. Supervised graph problems usually fall into one of three categories (figure 13.6).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0246-b009",
+    "page_key": 246,
+    "order": 9,
+    "type": "paragraph",
+    "text": "Graph-level tasks: The network assigns a label or estimates one or more values from the entire graph, exploiting both the structure and node embeddings. For example, we might want to predict the temperature at which a molecule becomes liquid (a regression task) or whether a molecule is poisonous to human beings or not (a classification task).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0246-b010",
+    "page_key": 246,
+    "order": 10,
+    "type": "paragraph",
+    "text": "For graph-level tasks, the output node embeddings are combined (e.g., by averaging), and the resulting vector is mapped via a linear transformation or neural network to a fixed-size vector. For regression, the mismatch between the result and the ground truth values is computed using the least squares loss. For binary classification, the output is passed through a sigmoid function, and the mismatch is calculated using the binary cross-entropy loss. Here, the probability that the graph belongs to class one might be given by:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0246-b011",
+    "page_key": 246,
+    "order": 11,
+    "type": "equation",
+    "text": "$$\n\\Pr[y=1 \\mid \\mathbf{X},\\mathbf{A}]\n= \\mathrm{sig}\\left[\\beta_{K}+\\boldsymbol{\\omega}_{K}\\mathbf{H}_{K}\\mathbf{1}/N\\right]\n\\qquad (13.2)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0246-b012",
+    "page_key": 246,
+    "order": 12,
+    "type": "paragraph",
+    "text": "where the scalar  $\\beta\\_{K}$  and  $1 \\times D$  vector  $\\omega\\_{K}$  are learned parameters. Post-multiplying the output embedding matrix  $H\\_{K}$  by the column vector 1 that contains ones has the effect of summing together all the embeddings and subsequently dividing by the number of nodes N computes the average. This is known as mean pooling (see figure 10.11).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

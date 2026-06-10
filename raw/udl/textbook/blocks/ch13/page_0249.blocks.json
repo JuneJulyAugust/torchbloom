@@ -1,0 +1,101 @@
+[
+  {
+    "id": "page_0249-b001",
+    "page_key": 249,
+    "order": 1,
+    "type": "heading",
+    "text": "13.4.1 Equivariance and invariance",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0249-b002",
+    "page_key": 249,
+    "order": 2,
+    "type": "paragraph",
+    "text": "We noted before that the indexing of the nodes in the graph is arbitrary, and any permutation of the node indices does not change the graph. It is hence imperative that any model respects this property. It follows that each layer must be equivariant (see section 10.1) with respect to permutations of the node indices. In other words, if we permute the node indices, the node embeddings at each stage will be permuted in the same way. In mathematical terms, if P is a permutation matrix, then we must have:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0249-b003",
+    "page_key": 249,
+    "order": 3,
+    "type": "equation",
+    "text": "$$\n\\mathbf{H}_{k+1}\\mathbf{P}\n= \\mathbf{F}[\\mathbf{H}_{k}\\mathbf{P},\\mathbf{P}^{T}\\mathbf{A}\\mathbf{P},\\boldsymbol{\\phi}_{k}]\n\\qquad (13.6)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0249-b004",
+    "page_key": 249,
+    "order": 4,
+    "type": "paragraph",
+    "text": "For node classification and edge prediction tasks, the output should also be equivariant with respect to permutations of the node indices. However, for graph-level tasks, the final layer aggregates information from across the graph, so the output is invariant to the node order. In fact, the output layer from equation 13.2 achieves this because:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0249-b005",
+    "page_key": 249,
+    "order": 5,
+    "type": "equation",
+    "text": "$$\ny\n= \\mathrm{sig}\\left[\\beta_{K}+\\boldsymbol{\\omega}_{K}\\mathbf{H}_{K}\\mathbf{1}/N\\right]\n= \\mathrm{sig}\\left[\\beta_{K}+\\boldsymbol{\\omega}_{K}\\mathbf{H}_{K}\\mathbf{P}\\mathbf{1}/N\\right]\n\\qquad (13.7)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0249-b006",
+    "page_key": 249,
+    "order": 6,
+    "type": "paragraph",
+    "text": "for any permutation matrix P (see problem 13.6).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0249-b007",
+    "page_key": 249,
+    "order": 7,
+    "type": "paragraph",
+    "text": "This mirrors the case for images, where segmentation should be equivariant to geometric transformations, and image classification should be invariant (figure 10.1). Here, convolutional and pooling layers partially achieve this with respect to translations, but there is no known way to guarantee these properties for more general transformations. However, for graphs, it is possible to define networks that ensure equivariance or invariance to permutations.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0249-b008",
+    "page_key": 249,
+    "order": 8,
+    "type": "heading",
+    "text": "13.4.2 Parameter sharing",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0249-b009",
+    "page_key": 249,
+    "order": 9,
+    "type": "paragraph",
+    "text": "Chapter 10 argued applying fully connected networks to images isn’t sensible because this requires the network to learn how to recognize an object separately at every image position. Instead, we used convolutional layers that processed every position in the image identically. This reduced the number of parameters and introduced an inductive bias that forced the model to treat every part of the image in the same way.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0249-b010",
+    "page_key": 249,
+    "order": 10,
+    "type": "paragraph",
+    "text": "The same argument can be made about nodes in a graph. We could learn a model with separate parameters associated with each node. However, now the network must send a message to the variable of interest, which aggregates these messages to form the update. When we considered images, the neighbors were pixels from a fixed-size square region around the current position, so the spatial relationships at each position are the same. However, in a graph, each node may have a different number of neighbors, and there are no consistent relationships; there is no sense that we can weight information",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0249-b011",
+    "page_key": 249,
+    "order": 11,
+    "type": "paragraph",
+    "text": "Recall that a convolution (equation 10.3) updates a variable by taking a weighted sum of information from its neighbors. One way to think of this is that each neighbor sends a message to the variable of interest, which aggregates these messages to form the update. When we considered images, the neighbors were pixels from a fixed-size square region around the current position, so the spatial relationships at each position are the same. However, in a graph, each node may have a different number of neighbors, and there are no consistent relationships; there is no sense that we can weight information",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

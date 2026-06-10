@@ -1,0 +1,76 @@
+[
+  {
+    "id": "page_0199-b001",
+    "page_key": 199,
+    "order": 1,
+    "type": "figure",
+    "text": "",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0199_fig_1.jpg"
+  },
+  {
+    "id": "page_0199-b002",
+    "page_key": 199,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 11.11 Segmentation using U-Net in 3D. a) Three slices through a 3D volume of mouse cortex taken by scanning electron microscope. b) A single U-Net is used to classify voxels as being inside or outside neurites. Connected regions are identified with different colors. c) For a better result, an ensemble of five U-Nets is trained, and a voxel is only classified as belonging to the cell if all five networks agree. Adapted from Falk et al. (2019).",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "caption": "Figure 11.11 Segmentation using U-Net in 3D. a) Three slices through a 3D volume of mouse cortex taken by scanning electron microscope. b) A single U-Net is used to classify voxels as being inside or outside neurites. Connected regions are identified with different colors. c) For a better result, an ensemble of five U-Nets is trained, and a voxel is only classified as belonging to the cell if all five networks agree. Adapted from Falk et al. (2019)."
+  },
+  {
+    "id": "page_0199-b003",
+    "page_key": 199,
+    "order": 3,
+    "type": "heading",
+    "text": "## 11.6 Why do nets with residual connections perform so well?",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0199-b004",
+    "page_key": 199,
+    "order": 4,
+    "type": "paragraph",
+    "text": "Residual networks allow much deeper networks to be trained; it’s possible to extend the ResNet architecture to 1000 layers and still train effectively. The improvement in image classification performance was initially attributed to the additional network depth, but two pieces of evidence contradict this viewpoint.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0199-b005",
+    "page_key": 199,
+    "order": 5,
+    "type": "paragraph",
+    "text": "First, shallower, wider residual networks sometimes outperform deeper, narrower ones with a comparable parameter count. In other words, better performance can sometimes be achieved with a network with fewer layers but more channels per layer. Second, there is evidence that the gradients during training do not propagate effectively through very long paths in the unraveled network (figure 11.4b). In effect, a very deep network may act more like a combination of shallower networks.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0199-b006",
+    "page_key": 199,
+    "order": 6,
+    "type": "paragraph",
+    "text": "The current view is that residual connections add some value of their own, as well as allowing deeper networks to be trained. This perspective is supported by the fact that the loss surfaces of residual networks around a minimum tend to be smoother and more predictable than those for the same network when the skip connections are removed (figure 11.13). This may make it easier to learn a good solution that generalizes well.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0199-b007",
+    "page_key": 199,
+    "order": 7,
+    "type": "heading",
+    "text": "## 11.7 Summary",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0199-b008",
+    "page_key": 199,
+    "order": 8,
+    "type": "paragraph",
+    "text": "Increasing network depth indefinitely causes both training and test performance for image classification to decrease. This may be because the gradient of the loss with respect to",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

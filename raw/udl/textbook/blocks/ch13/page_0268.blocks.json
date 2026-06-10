@@ -1,0 +1,29 @@
+[
+  {
+    "id": "page_0268-b001",
+    "page_key": 268,
+    "order": 1,
+    "type": "exercise",
+    "text": "Problem 13.12* Draw the node graph corresponding to the edge graph in figure 13.15b.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0268-b002",
+    "page_key": 268,
+    "order": 2,
+    "type": "exercise",
+    "text": "Problem 13.13 For a general undirected graph, describe how the adjacency matrix of the node graph relates to the adjacency matrix of the corresponding edge graph.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0268-b003",
+    "page_key": 268,
+    "order": 3,
+    "type": "exercise",
+    "text": "Problem 13.14* Design a layer that updates a node embedding $\\mathbf{h}\\_{m}$ based on its neighboring node embeddings $\\lbrace \\mathbf{h}\\_{m}\\rbrace\\_{m\\in\\mathrm{ne}[n]}$ and neighboring edge embeddings $\\lbrace \\mathbf{e}\\_{m}\\rbrace\\_{m\\in\\mathrm{ne}[n]}$. You should consider the possibility that the edge embeddings are not the same size as the node embeddings.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

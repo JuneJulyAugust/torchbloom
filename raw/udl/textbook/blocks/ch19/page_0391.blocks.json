@@ -1,0 +1,111 @@
+[
+  {
+    "id": "page_0391-b001",
+    "page_key": 391,
+    "order": 1,
+    "type": "figure",
+    "text": "Figure 19.15 Policy gradients (../../figures/page_0391_fig_1.jpg)",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0391_fig_1.jpg"
+  },
+  {
+    "id": "page_0391-b002",
+    "page_key": 391,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 19.15 Policy gradients. Five episodes for the same policy (brighter indicates higher reward). Trajectories 1, 2, and 3 generate consistently high rewards, but similar trajectories already frequently occur with this policy, so there is no need to change. Conversely, trajectory 4 receives low rewards, so the policy should be modified to avoid producing similar trajectories. Trajectory 5 receives high rewards and is unusual. This will cause the largest change to the policy under equation 19.25.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0391-b003",
+    "page_key": 391,
+    "order": 3,
+    "type": "equation",
+    "text": "$$\n\\frac{\\partial\\log[f[z]]}{\\partial z}=\\frac{1}{f[z]}\\frac{\\partial f[z]}{\\partial z}, \\quad (19.26)\n$$",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0391-b004",
+    "page_key": 391,
+    "order": 4,
+    "type": "paragraph",
+    "text": "which yields the update:",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0391-b005",
+    "page_key": 391,
+    "order": 5,
+    "type": "equation",
+    "text": "$$\n\\boldsymbol{\\theta}\\leftarrow\\boldsymbol{\\theta}+\\alpha\\cdot\\frac{1}{I}\\sum_{i=1}^{I}\\frac{\\partial\\log\\left[\\Pr(\\boldsymbol{\\tau}_{i}|\\boldsymbol{\\theta})\\right]}{\\partial\\boldsymbol{\\theta}}r[\\boldsymbol{\\tau}_{i}]. \\quad (19.27)\n$$",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0391-b006",
+    "page_key": 391,
+    "order": 6,
+    "type": "paragraph",
+    "text": "The log probability $\\log[\\Pr(\\tau|\\theta)]$ of a trajectory is given by:",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0391-b007",
+    "page_key": 391,
+    "order": 7,
+    "type": "equation",
+    "text": "$$\n\\begin{aligned}\n\\log[\\Pr(\\boldsymbol{\\tau}|\\boldsymbol{\\theta})]\\quad&=\\quad\\log\\left[\\Pr(\\mathbf{s}_{1})\\prod_{t=1}^{T}\\pi[a_{t}|\\mathbf{s}_{t},\\boldsymbol{\\theta}]\\Pr(\\mathbf{s}_{t+1}|\\mathbf{s}_{t},a_{t})\\right]\\\\\n&=\\quad\\log\\left[\\Pr(\\mathbf{s}_{1})\\right]+\\sum_{t=1}^{T}\\log\\left[\\pi[a_{t}|\\mathbf{s}_{t},\\boldsymbol{\\theta}]\\right]+\\sum_{t=1}^{T}\\log\\left[\\Pr(\\mathbf{s}_{t+1}|\\mathbf{s}_{t},a_{t})\\right]\n\\end{aligned} \\quad (19.28)\n$$",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0391-b008",
+    "page_key": 391,
+    "order": 8,
+    "type": "paragraph",
+    "text": "and noting that only the center term depends on $\\theta$, we can rewrite the update from equation 19.27 as:",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0391-b009",
+    "page_key": 391,
+    "order": 9,
+    "type": "equation",
+    "text": "$$\n\\boldsymbol{\\theta}\\leftarrow\\boldsymbol{\\theta}+\\alpha\\cdot\\frac{1}{I}\\sum_{i=1}^{I}\\sum_{t=1}^{T}\\frac{\\partial\\log\\left[\\pi[a_{i t}|\\mathbf{s}_{t},\\boldsymbol{\\theta}]\\right]}{\\partial\\boldsymbol{\\theta}}r[\\tau_{i}], \\quad (19.29)\n$$",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0391-b010",
+    "page_key": 391,
+    "order": 10,
+    "type": "paragraph",
+    "text": "where $\\mathbf{s}\\_{it}$ is the state at time $t$ in episode $i$, and $a\\_{it}$ is the action taken at time $t$ in episode $i$. Note that the terms relating to the state evolution $\\Pr(\\mathbf{s}\\_{t+1}|\\mathbf{s}\\_t,a\\_t)$ disappear from this formulation. It follows that this parameter update does not assume a Markov time evolution process.",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0391-b011",
+    "page_key": 391,
+    "order": 11,
+    "type": "paragraph",
+    "text": "We can further simplify this by noting that:",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0391-b012",
+    "page_key": 391,
+    "order": 12,
+    "type": "equation",
+    "text": "$$\nr[\\boldsymbol{\\tau}_{i}]=\\sum_{t=1}^{T}r_{i,t+1}=\\sum_{k=1}^{t}r_{i,k+1}+\\sum_{k=t}^{T}r_{i,k+1}, \\quad (19.30)\n$$",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  }
+]

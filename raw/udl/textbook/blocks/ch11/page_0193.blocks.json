@@ -1,0 +1,79 @@
+[
+  {
+    "id": "page_0193-b001",
+    "page_key": 193,
+    "order": 1,
+    "type": "figure",
+    "text": "",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0193_fig_1.jpg"
+  },
+  {
+    "id": "page_0193-b002",
+    "page_key": 193,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 11.6 Variance in residual networks. a) He initialization ensures that the expected variance remains unchanged after a linear plus ReLU layer $f\\_{k}$ . Unfortunately, in residual networks, the input of each block is added back to the output, so the variance doubles at each layer (gray numbers indicate variance) and grows exponentially. b) One approach would be to rescale the signal by $1/\\sqrt{2}$ between each residual block. c) A second method uses batch normalization (BN) as the first step in the residual block and initializes the associated offset $\\delta$ to zero and scale $\\gamma$ to one. This transforms the input to each layer to have unit variance, and with He initialization, the output variance will also be one. Now the variance increases linearly with the number of residual blocks. A side-effect is that, at initialization, later network layers are dominated by the residual connection and are hence close to computing the identity.",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "caption": "Figure 11.6 Variance in residual networks. a) He initialization ensures that the expected variance remains unchanged after a linear plus ReLU layer $f\\_{k}$ . Unfortunately, in residual networks, the input of each block is added back to the output, so the variance doubles at each layer (gray numbers indicate variance) and grows exponentially. b) One approach would be to rescale the signal by $1/\\sqrt{2}$ between each residual block. c) A second method uses batch normalization (BN) as the first step in the residual block and initializes the associated offset $\\delta$ to zero and scale $\\gamma$ to one. This transforms the input to each layer to have unit variance, and with He initialization, the output variance will also be one. Now the variance increases linearly with the number of residual blocks. A side-effect is that, at initialization, later network layers are dominated by the residual connection and are hence close to computing the identity."
+  },
+  {
+    "id": "page_0193-b003",
+    "page_key": 193,
+    "order": 3,
+    "type": "equation",
+    "text": "$$\n\\begin{aligned}\nm_h &= \\frac{1}{|\\mathcal{B}|}\\sum_{i\\in\\mathcal{B}}h_i \\\\\ns_h &= \\sqrt{\\frac{1}{|\\mathcal{B}|}\\sum_{i\\in\\mathcal{B}}(h_i-m_h)^2}\n\\end{aligned}\\qquad (11.7)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium",
+    "latex": "\\begin{aligned}\nm_h &= \\frac{1}{|\\mathcal{B}|}\\sum_{i\\in\\mathcal{B}}h_i \\\\\ns_h &= \\sqrt{\\frac{1}{|\\mathcal{B}|}\\sum_{i\\in\\mathcal{B}}(h_i-m_h)^2}\n\\end{aligned}\\qquad (11.7)"
+  },
+  {
+    "id": "page_0193-b004",
+    "page_key": 193,
+    "order": 4,
+    "type": "paragraph",
+    "text": "where all quantities are scalars. Then we use these statistics to standardize the batch activations to have mean zero and unit variance:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0193-b005",
+    "page_key": 193,
+    "order": 5,
+    "type": "equation",
+    "text": "$$\nh_i \\leftarrow \\frac{h_i-m_h}{s_h+\\epsilon}\\qquad \\forall i\\in\\mathcal{B}\\qquad (11.8)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium",
+    "latex": "h_i \\leftarrow \\frac{h_i-m_h}{s_h+\\epsilon}\\qquad \\forall i\\in\\mathcal{B}\\qquad (11.8)"
+  },
+  {
+    "id": "page_0193-b006",
+    "page_key": 193,
+    "order": 6,
+    "type": "paragraph",
+    "text": "where $\\epsilon$ is a small number that prevents division by zero if $h\\_{i}$ is the same for every member of the batch and $s\\_{h}=0$.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0193-b007",
+    "page_key": 193,
+    "order": 7,
+    "type": "paragraph",
+    "text": "Finally, the normalized variable is scaled by $\\gamma$ and shifted by $\\delta$:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0193-b008",
+    "page_key": 193,
+    "order": 8,
+    "type": "equation",
+    "text": "$$\nh_i \\leftarrow \\gamma h_i+\\delta\\qquad \\forall i\\in\\mathcal{B}\\qquad (11.9)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium",
+    "latex": "h_i \\leftarrow \\gamma h_i+\\delta\\qquad \\forall i\\in\\mathcal{B}\\qquad (11.9)"
+  }
+]

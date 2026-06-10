@@ -7,7 +7,7 @@ source_anchors:
   - source: udl-official-site
     locator: https://udlbook.github.io/udlbook/
   - source: udlbook-v5.0.3
-    locator: raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0039.md
+    locator: raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0025.md
 confidence: directional
 prerequisites: [shallow-neural-networks, relu-activation]
 related: [ch03-reading-guide, eq-3-1-shallow-network-example]
@@ -42,5 +42,5 @@ looking at the notebook code.
 ## Source Anchors
 
 - Official UDL site notebook list: `https://udlbook.github.io/udlbook/`
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0039.md`
+- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0025.md`
 

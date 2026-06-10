@@ -1,0 +1,48 @@
+[
+  {
+    "id": "page_0139-b001",
+    "page_key": 139,
+    "order": 1,
+    "type": "figure",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0139_fig_1.jpg",
+    "alt": "Figure 9.1 Explicit regularization. a) Loss function for Gabor model (see section 6.1.2). Cyan circles represent local minima. Gray circle represents the global"
+  },
+  {
+    "id": "page_0139-b002",
+    "page_key": 139,
+    "order": 2,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "caption": "Figure 9.1 Explicit regularization. a) Loss function for Gabor model (see section 6.1.2). Cyan circles represent local minima. Gray circle represents the global minimum. b) The regularization term favors parameters close to the center of the plot by adding an increasing penalty as we move away from this point. c) The final loss function is the sum of the original loss function plus the regularization term. This surface has fewer local minima, and the global minimum has moved to a different position (arrow shows change)."
+  },
+  {
+    "id": "page_0139-b003",
+    "page_key": 139,
+    "order": 3,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "toward certain solutions, we include an additional term:"
+  },
+  {
+    "id": "page_0139-b004",
+    "page_key": 139,
+    "order": 4,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "latex": "\\hat{\\boldsymbol{\\phi}}=\\underset{\\boldsymbol{\\phi}}{\\mathrm{argmax}}\\left[\\prod_{i=1}^{I}\\Pr(\\mathbf{y}_{i}\\mid\\mathbf{x}_{i},\\boldsymbol{\\phi})\\right].\n\\qquad (9.3)"
+  },
+  {
+    "id": "page_0139-b005",
+    "page_key": 139,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "The regularization term can be considered as a prior $\\Pr(\\phi)$ that represents knowledge about the parameters before we observe the data and we now have the maximum a posteriori or MAP criterion:"
+  }
+]

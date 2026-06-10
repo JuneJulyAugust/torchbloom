@@ -1,0 +1,83 @@
+[
+  {
+    "id": "page_0143-b001",
+    "page_key": 143,
+    "order": 1,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "9.2.2 Implicit regularization in stochastic gradient descent"
+  },
+  {
+    "id": "page_0143-b002",
+    "page_key": 143,
+    "order": 2,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "A similar analysis can be applied to stochastic gradient descent. Now we seek a modified loss function such that the continuous version reaches the same place as the average of the possible random SGD updates. This can be shown to be:"
+  },
+  {
+    "id": "page_0143-b003",
+    "page_key": 143,
+    "order": 3,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "latex": "\\begin{aligned}\n\\tilde{L}_{SGD}[\\phi]\\quad &=\\quad\\tilde{L}_{GD}[\\phi]+\\frac{\\alpha}{4B}\\sum_{b=1}^{B}\\left\\|\\frac{\\partial L_{b}}{\\partial\\phi}-\\frac{\\partial L}{\\partial\\phi}\\right\\|^{2} \\\\\n&=\\quad L[\\phi]+\\frac{\\alpha}{4}\\left\\|\\frac{\\partial L}{\\partial\\phi}\\right\\|^{2}+\\frac{\\alpha}{4B}\\sum_{b=1}^{B}\\left\\|\\frac{\\partial L_{b}}{\\partial\\phi}-\\frac{\\partial L}{\\partial\\phi}\\right\\|^{2}.\n\\end{aligned} \\qquad (9.9)"
+  },
+  {
+    "id": "page_0143-b004",
+    "page_key": 143,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Here, $L\\_{b}$ is the loss for the $b^{th}$ of the B batches in an epoch, and both L and $L\\_{b}$ now represent the means of the I individual losses in the full dataset and the $|B|$ individual losses in the batch, respectively:"
+  },
+  {
+    "id": "page_0143-b005",
+    "page_key": 143,
+    "order": 5,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "latex": "L=\\frac{1}{I}\\sum_{i=1}^{I}\\ell_{i}[x_{i},y_{i}]\\qquad and\\qquad L_{b}=\\frac{1}{|B|}\\sum_{i\\in B_{b}}\\ell_{i}[x_{i},y_{i}]. \\qquad (9.10)"
+  },
+  {
+    "id": "page_0143-b006",
+    "page_key": 143,
+    "order": 6,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Equation 9.9 reveals an extra regularization term, which corresponds to the variance of the gradients of the batch losses $L\\_{b}$. In other words, SGD implicitly favors places where the gradients are stable (where all the batches agree on the slope). Once more, this modifies the trajectory of the optimization process (figure 9.4) but does not necessarily change the position of the global minimum; if the model is over-parameterized, then it may fit all the training data exactly, so each of these gradient terms will be zero at the global minimum."
+  },
+  {
+    "id": "page_0143-b007",
+    "page_key": 143,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "SGD generalizes better than gradient descent, and smaller batch sizes generally perform better than larger ones (figure 9.5b). One possible explanation is that the inherent randomness allows the algorithm to reach different parts of the loss function. However, it's also possible that some or all of this performance increase is due to implicit regularization; this encourages solutions where all the data fits well (so the batch variance is small) rather than solutions where some of the data fit extremely well and other data less well (perhaps with the same overall loss, but with larger batch variance). The former solutions are likely to generalize better."
+  },
+  {
+    "id": "page_0143-b008",
+    "page_key": 143,
+    "order": 8,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "9.3 Heuristics to improve performance"
+  },
+  {
+    "id": "page_0143-b009",
+    "page_key": 143,
+    "order": 9,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "We've seen that explicit regularization encourages the training algorithm to find a good solution by adding extra terms to the loss function. This also occurs implicitly as an unintended (but seemingly helpful) byproduct of stochastic gradient descent. This section describes other heuristic methods used to improve generalization."
+  }
+]

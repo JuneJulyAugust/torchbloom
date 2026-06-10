@@ -1,0 +1,76 @@
+[
+  {
+    "id": "page_0031-b001",
+    "page_key": 31,
+    "order": 1,
+    "type": "figure",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0031_fig_2.jpg",
+    "alt_text": "Network with one input, four hidden units, and two outputs."
+  },
+  {
+    "id": "page_0031-b002",
+    "page_key": 31,
+    "order": 2,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Figure 3.6 caption: shared hidden units force joint locations to match across outputs."
+  },
+  {
+    "id": "page_0031-b003",
+    "page_key": 31,
+    "order": 3,
+    "type": "figure",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0031_fig_1.jpg",
+    "alt_text": "Network with two inputs, three hidden units, and one output."
+  },
+  {
+    "id": "page_0031-b004",
+    "page_key": 31,
+    "order": 4,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Figure 3.7 caption for 2D input and scalar output network."
+  },
+  {
+    "id": "page_0031-b005",
+    "page_key": 31,
+    "order": 5,
+    "type": "equation",
+    "source": "deepseek",
+    "confidence": "high",
+    "text": "\\begin{aligned}\ny_1 &= \\phi_{10}+\\phi_{11}h_1+\\phi_{12}h_2+\\phi_{13}h_3+\\phi_{14}h_4\\\\\ny_2 &= \\phi_{20}+\\phi_{21}h_1+\\phi_{22}h_2+\\phi_{23}h_3+\\phi_{24}h_4.\n\\end{aligned} \\quad (3.8)"
+  },
+  {
+    "id": "page_0031-b006",
+    "page_key": 31,
+    "order": 6,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Outputs are different linear functions of the same hidden units, so joints match but slopes and offsets can differ."
+  },
+  {
+    "id": "page_0031-b007",
+    "page_key": 31,
+    "order": 7,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "3.3.2 Visualizing multivariate inputs"
+  },
+  {
+    "id": "page_0031-b008",
+    "page_key": 31,
+    "order": 8,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Introduces extending linear relations for multivariate inputs."
+  }
+]

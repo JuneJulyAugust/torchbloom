@@ -1,0 +1,75 @@
+[
+  {
+    "id": "page_0223-b001",
+    "page_key": 223,
+    "order": 1,
+    "type": "equation",
+    "text": "$$\n\\Pr[t_1,t_2,\\ldots,t_N]=\\Pr[t_1]\\prod_{n=2}^{N}\\Pr[t_n\\mid t_1,\\ldots,t_{n-1}]\\qquad (12.15)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium",
+    "latex": "\\Pr[t_1,t_2,\\ldots,t_N]=\\Pr[t_1]\\prod_{n=2}^{N}\\Pr[t_n\\mid t_1,\\ldots,t_{n-1}]\\qquad (12.15)"
+  },
+  {
+    "id": "page_0223-b002",
+    "page_key": 223,
+    "order": 2,
+    "type": "paragraph",
+    "text": "The autoregressive formulation demonstrates the connection between joint probability of the tokens and the next token prediction task.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0223-b003",
+    "page_key": 223,
+    "order": 3,
+    "type": "heading",
+    "text": "## 12.7.2 Masked self-attention",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0223-b004",
+    "page_key": 223,
+    "order": 4,
+    "type": "paragraph",
+    "text": "To train a decoder, we seek parameters that maximize the log probability of the input text under the autoregressive model (i.e., that maximize the sum of the log conditional probability terms). Ideally, we would pass in the whole sentence and compute all the log probabilities and gradients in the same forward pass rather than doing a forward pass for each token in the sentence. However, if we pass in the full sentence, the term computing $\\log[\\Pr[\\text{great}\\mid\\text{takes}]]$ would have access to both the answer great and the right context courage to let yourself appear weak. Hence, the system can cheat rather than learn to predict the following words and won’t train properly.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0223-b005",
+    "page_key": 223,
+    "order": 5,
+    "type": "paragraph",
+    "text": "Fortunately, the tokens only interact in the self-attention layers in a transformer network. Hence, the problem can be resolved by ensuring that the attention to the answer and the right context is zero. This can be achieved by setting the corresponding dot products in the self-attention computation (equation 12.5) to negative infinity before they are passed through the $\\mathrm{softmax}[\\bullet]$ function. This is known as masked self-attention.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0223-b006",
+    "page_key": 223,
+    "order": 6,
+    "type": "paragraph",
+    "text": "The entire decoder network operates as follows. The input text is tokenized, and the tokens are converted to embeddings. The embeddings are passed into the transformer network, but now the transformer layers use masked self-attention so that they can only attend to the current and previous tokens. Each of the output embeddings can be thought of as representing a partial sentence, and for each, the goal is to predict the next token in the sequence. Consequently, after the transformer layers, a single linear layer maps each output embedding to the size of the vocabulary, followed by a $\\mathrm{softmax}[\\bullet]$ function that converts these values to probabilities. During training, we aim to maximize the sum of the log probabilities of the next token in the ground truth sequence at every position using a standard multiclass cross-entropy loss (figure 12.12).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0223-b007",
+    "page_key": 223,
+    "order": 7,
+    "type": "heading",
+    "text": "## 12.7.3 Generating text from a decoder",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0223-b008",
+    "page_key": 223,
+    "order": 8,
+    "type": "paragraph",
+    "text": "The autoregressive language model is the first example of a generative model discussed in this book. Since it defines a probability model over text sequences, it can be used to sample new examples of plausible text. To generate from the model, we start with an input sequence of text (which might be just the special  token indicating the beginning of the sequence) and feed this into the network, which then outputs the probabilities over possible subsequent tokens. We can then either pick the most likely token or sample from this probability distribution. The new extended sequence can be fed back into the decoder network to yield the probability distribution over the next",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

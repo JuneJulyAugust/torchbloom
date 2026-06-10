@@ -1,0 +1,21 @@
+[
+  {
+    "id": "page_0003-b001",
+    "page_key": 3,
+    "order": 1,
+    "type": "figure",
+    "source": "paddle",
+    "confidence": "high",
+    "alt_text": "Figure 1.2",
+    "image_path": "figures/page_0003_fig_1.jpg"
+  },
+  {
+    "id": "page_0003-b002",
+    "page_key": 3,
+    "order": 2,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Figure 1.2 Regression and classification problems. a) This regression model takes a vector of numbers that characterize a property and predicts its price. b) This multivariate regression model takes the structure of a chemical molecule and predicts its freezing and boiling points. c) This binary classification model takes a restaurant review and classifies it as either positive or negative. d) This multiclass classification problem assigns a snippet of audio to one of N genres. e) A second multiclass classification problem in which the model classifies an image according to which of N possible objects it might contain."
+  }
+]

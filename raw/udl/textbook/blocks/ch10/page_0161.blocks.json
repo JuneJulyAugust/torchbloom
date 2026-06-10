@@ -1,0 +1,74 @@
+[
+  {
+    "id": "page_0161-b001",
+    "page_key": 161,
+    "order": 1,
+    "type": "heading",
+    "text": "## Chapter 10",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0161-b002",
+    "page_key": 161,
+    "order": 2,
+    "type": "heading",
+    "text": "## Convolutional networks",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0161-b003",
+    "page_key": 161,
+    "order": 3,
+    "type": "paragraph",
+    "text": "Chapters 2–9 introduced the supervised learning pipeline for deep neural networks. However, these chapters only considered fully connected networks with a single path from input to output. Chapters 10–13 introduce more specialized network components with sparser connections, shared weights, and parallel processing paths. This chapter describes convolutional layers, which are mainly used for processing image data.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0161-b004",
+    "page_key": 161,
+    "order": 4,
+    "type": "paragraph",
+    "text": "Images have three properties that suggest the need for specialized model architectures. First, they are high-dimensional. A typical image for a classification task contains $224 \\times 224$ RGB values (i.e., 150,528 input dimensions). Hidden layers in fully connected networks are generally larger than the input size, so even for a shallow network, the number of weights would exceed $150,528^{2}$ , or 22 billion. This poses obvious practical problems in terms of the required training data, memory, and computation.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0161-b005",
+    "page_key": 161,
+    "order": 5,
+    "type": "paragraph",
+    "text": "Second, nearby image pixels are statistically related. However, fully connected networks have no notion of “nearby” and treat the relationship between every input equally. If the pixels of the training and test images were randomly permuted in the same way, the network could still be trained with no practical difference. Third, the interpretation of an image is stable under geometric transformations. An image of a tree is still an image of a tree if we shift it leftwards by a few pixels. However, this shift changes every input to the network. Hence, a fully connected model must learn the patterns of pixels that signify a tree separately at every position, which is clearly inefficient.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0161-b006",
+    "page_key": 161,
+    "order": 6,
+    "type": "paragraph",
+    "text": "Convolutional layers process each local image region independently, using parameters shared across the whole image. They use fewer parameters than fully connected layers, exploit the spatial relationships between nearby pixels, and don’t have to re-learn the interpretation of the pixels at every position. A network predominantly consisting of convolutional layers is known as a convolutional neural network or CNN.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0161-b007",
+    "page_key": 161,
+    "order": 7,
+    "type": "heading",
+    "text": "## 10.1 Invariance and equivariance",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0161-b008",
+    "page_key": 161,
+    "order": 8,
+    "type": "paragraph",
+    "text": "We argued above that some properties of images (e.g., tree texture) are stable under transformations. In this section, we make this idea more mathematically precise. A",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "page_0016-b001",
+    "page_key": 16,
+    "order": 1,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "is Reinforcement Learning: An Introduction (Sutton & Barto, 2018). A good initial resource is Foundations of Deep Reinforcement Learning (Graesser & Keng, 2019)."
+  },
+  {
+    "id": "page_0016-b002",
+    "page_key": 16,
+    "order": 2,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "1.7 How to read this book"
+  },
+  {
+    "id": "page_0016-b003",
+    "page_key": 16,
+    "order": 3,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Most remaining chapters in this book contain a main body of text, a notes section, and a set of problems. The main body of the text is intended to be self-contained and can be read without recourse to the other parts of the chapter. As much as possible, background mathematics is incorporated into the main body of the text. However, for larger topics that would be a distraction to the main thread of the argument, the background material is appendicized, and a reference is provided in the margin. Most notation in this book is standard. However, some conventions are less widely used, and the reader is encouraged to consult appendix A before proceeding."
+  },
+  {
+    "id": "page_0016-b004",
+    "page_key": 16,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "The main body of text includes many novel illustrations and visualizations of deep learning models and results. I've worked hard to provide new explanations of existing ideas rather than merely curate the work of others. Deep learning is a new field, and sometimes phenomena are poorly understood. I try to make it clear where this is the case and when my explanations should be treated with caution."
+  },
+  {
+    "id": "page_0016-b005",
+    "page_key": 16,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "References are included in the main body of the chapter only where results are depicted. Instead, they can be found in the notes section at the end of the chapter. I do not generally respect historical precedent in the main text; if an ancestor of a current technique is no longer useful, then I will not mention it. However, the historical development of the field is described in the notes section, and hopefully credit is fairly assigned. The notes are organized into paragraphs and provide pointers for further reading. They should help the reader orient themselves within the sub-area and understand how it relates to other parts of machine learning. The notes are less self-contained than the main text. Depending on your level of background knowledge and interest, you may find these sections more or less useful."
+  },
+  {
+    "id": "page_0016-b006",
+    "page_key": 16,
+    "order": 6,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Each chapter has a number of associated problems. They are referenced in the margin of the main text at the point that they should be attempted. As George Polya noted, \"Mathematics, you see, is not a spectator sport.\" He was correct, and I highly recommend that you attempt the problems as you go. In some cases, they provide insights that will help you understand the main text. Problems for which the answers are provided on the associated website (http://udlbook.com) are indicated with an asterisk. Additionally, Python notebooks that will help you understand the ideas in this book are also available via the website, and these are also referenced in the margins of the text. Indeed, if you are feeling rusty, it might be worth working through the notebook on background mathematics right now."
+  },
+  {
+    "id": "page_0016-b007",
+    "page_key": 16,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Unfortunately, the pace of research in AI makes it inevitable that this book will be a constant work in progress. If there are parts you find hard to understand, notable omissions, or sections that seem extraneous, please get in touch via the associated website. Together, we can make the next edition better."
+  }
+]

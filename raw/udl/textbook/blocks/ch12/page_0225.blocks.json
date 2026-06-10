@@ -1,0 +1,182 @@
+[
+  {
+    "id": "page_0225-b001",
+    "page_key": 225,
+    "order": 1,
+    "type": "paragraph",
+    "text": "layers, and the value, query, and key dimension is 128. It is trained with 300 billion tokens and contains 175 billion parameters.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0225-b002",
+    "page_key": 225,
+    "order": 2,
+    "type": "paragraph",
+    "text": "Here’s an example of completing text from the GPT3 model where the text provided to the model is in orange, and the generated text is in cyan:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0225-b003",
+    "page_key": 225,
+    "order": 3,
+    "type": "paragraph",
+    "text": "Understanding Deep Learning is a new textbook from MIT Press by Simon Prince that’s designed to offer an accessible, broad introduction to the field. Deep learning is a branch of machine learning that is concerned with algorithms that learn from data that is unstructured or unlabeled. The book is divided into four sections:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0225-b004",
+    "page_key": 225,
+    "order": 4,
+    "type": "paragraph",
+    "text": "1. Introduction to deep learning",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0225-b005",
+    "page_key": 225,
+    "order": 5,
+    "type": "paragraph",
+    "text": "2. Deep learning architecture",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0225-b006",
+    "page_key": 225,
+    "order": 6,
+    "type": "paragraph",
+    "text": "3. Deep learning algorithms",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0225-b007",
+    "page_key": 225,
+    "order": 7,
+    "type": "paragraph",
+    "text": "4. Applications of deep learning",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0225-b008",
+    "page_key": 225,
+    "order": 8,
+    "type": "paragraph",
+    "text": "The first section offers an introduction to deep learning, including its history and origins. The second section covers deep learning architecture, discussing various types of neural networks and their applications. The third section dives into deep learning algorithms, including supervised and unsupervised learning, reinforcement learning, and more. The fourth section applies deep learning to various domains, such as computer vision, natural language processing, and robotics.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0225-b009",
+    "page_key": 225,
+    "order": 9,
+    "type": "paragraph",
+    "text": "This continuation is plausible, albeit only partially accurate.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0225-b010",
+    "page_key": 225,
+    "order": 10,
+    "type": "paragraph",
+    "text": "One surprising property of learning models on this scale is that they can perform many tasks without fine-tuning. If we provide several examples of correct question/answer pairs and then another question, they often answer the final question correctly by completing the sequence. One example is correcting English grammar:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0225-b011",
+    "page_key": 225,
+    "order": 11,
+    "type": "paragraph",
+    "text": "Poor English input: I eated the purple berries.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0225-b012",
+    "page_key": 225,
+    "order": 12,
+    "type": "paragraph",
+    "text": "Good English output: I ate the purple berries.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0225-b013",
+    "page_key": 225,
+    "order": 13,
+    "type": "paragraph",
+    "text": "Poor English input: Thank you for picking me as your designer. I’d appreciate it.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0225-b014",
+    "page_key": 225,
+    "order": 14,
+    "type": "paragraph",
+    "text": "Good English output: Thank you for choosing me as your designer. I appreciate it.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0225-b015",
+    "page_key": 225,
+    "order": 15,
+    "type": "paragraph",
+    "text": "Poor English input: The mentioned changes have done. or I did the alteration that you requested, or I changed things you wanted and did the modifications.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0225-b016",
+    "page_key": 225,
+    "order": 16,
+    "type": "paragraph",
+    "text": "Good English output: The requested changes have been made. or I made the alteration that you requested, or I changed things you wanted and made the modifications.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0225-b017",
+    "page_key": 225,
+    "order": 17,
+    "type": "paragraph",
+    "text": "Poor English input: I’d be more than happy to work with you in another project.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0225-b018",
+    "page_key": 225,
+    "order": 18,
+    "type": "paragraph",
+    "text": "Good English output: I’d be more than happy to work with you on another project.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0225-b019",
+    "page_key": 225,
+    "order": 19,
+    "type": "paragraph",
+    "text": "(result from Brown et al., 2020)",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0225-b020",
+    "page_key": 225,
+    "order": 20,
+    "type": "paragraph",
+    "text": "Here, the text containing the paired examples in orange was provided as context for GPT3, and the system then generated the correct answer in cyan. This phenomenon extends to many situations, including generating code snippets based on natural language descriptions, arithmetic, translating between languages, and answering questions about text passages. Consequently, it is argued that enormous language models are few-shot learners; they can learn to do novel tasks based on just a few examples. However, performance is erratic in practice, and the extent to which it is extrapolating from learned examples rather than merely interpolating or copying verbatim is unclear.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

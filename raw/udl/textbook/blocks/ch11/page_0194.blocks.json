@@ -1,0 +1,83 @@
+[
+  {
+    "id": "page_0194-b001",
+    "page_key": 194,
+    "order": 1,
+    "type": "paragraph",
+    "text": "After this operation, the activations have mean $\\delta$ and standard deviation $\\gamma$ across all members of the batch. Both of these quantities are learned during training.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0194-b002",
+    "page_key": 194,
+    "order": 2,
+    "type": "paragraph",
+    "text": "Batch normalization is applied independently to each hidden unit. In a standard neural network with K layers, each containing D hidden units, there would be KD learned offsets $\\delta$ and KD learned scales $\\gamma$ . In a convolutional network, the normalizing statistics are computed over both the batch and the spatial position. If there were K layers, each containing C channels, there would be KC offsets and KC scales. At test time, we do not have a batch from which we can gather statistics. To resolve this, the statistics $m\\_{h}$ and $s\\_{h}$ are calculated across the whole training dataset (rather than just a batch) and frozen in the final network.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0194-b003",
+    "page_key": 194,
+    "order": 3,
+    "type": "heading",
+    "text": "## 11.4.1 Costs and benefits of batch normalization",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0194-b004",
+    "page_key": 194,
+    "order": 4,
+    "type": "paragraph",
+    "text": "Batch normalization makes the network invariant to rescaling the weights and biases that contribute to each activation; if these are doubled, then the activations also double, the estimated standard deviation $s\\_{h}$ doubles, and the normalization in equation 11.8 compensates for these changes. [^2] This happens separately for each hidden unit. Consequently, there will be a large family of weights and biases that all produce the same effect. Batch normalization also adds two parameters, $\\gamma$ and $\\delta$ , at every hidden unit, which makes the model somewhat larger. Hence, it both creates redundancy in the weights and biases and adds extra parameters to compensate for that redundancy. This is obviously inefficient, but batch normalization also provides several benefits.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0194-b005",
+    "page_key": 194,
+    "order": 5,
+    "type": "paragraph",
+    "text": "Stable forward propagation: If we initialize the offsets $\\delta$ to zero and the scales $\\gamma$ to one, then each output activation will have unit variance. In a regular network, this ensures the variance is stable during forward propagation at initialization. In a residual network, the variance must still increase as we add a new source of variation to the input at each layer. However, it will increase linearly with each residual block; the $k^{th}$ layer adds one unit of variance to the existing variance of k (figure 11.6c).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0194-b006",
+    "page_key": 194,
+    "order": 6,
+    "type": "paragraph",
+    "text": "At initialization, this has the side-effect that later layers make a smaller change to the overall variation than earlier ones. The network is effectively less deep at the start of training since later layers are close to computing the identity. As training proceeds, the network can increase the scales $\\gamma$ in later layers and can control its own effective depth.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0194-b007",
+    "page_key": 194,
+    "order": 7,
+    "type": "paragraph",
+    "text": "Higher learning rates: Empirical studies and theory both show that batch normalization makes the loss surface and its gradient change more smoothly (i.e., reduces shattered gradients). This means we can use higher learning rates as the surface is more predictable. We saw in section 9.2 that higher learning rates improve test performance.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0194-b008",
+    "page_key": 194,
+    "order": 8,
+    "type": "paragraph",
+    "text": "Regularization: Empirical studies and theory both show that batch normalization makes the loss surface and its gradient change more smoothly (i.e., reduces shattered gradients). This means we can use higher learning rates as the surface is more predictable. We saw in section 9.2 that higher learning rates improve test performance.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0194-b009",
+    "page_key": 194,
+    "order": 9,
+    "type": "paragraph",
+    "text": "[^2] Technically, this is only true if the BatchNorm operation is applied directly after the network layer. The situation is somewhat more complex if residual paths converge and re-divide between the network layer and the normalization as in figure 11.6c. However, the spirit of the argument remains unchanged.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

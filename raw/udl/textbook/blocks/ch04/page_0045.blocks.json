@@ -1,0 +1,92 @@
+[
+  {
+    "id": "page_0045-b001",
+    "page_key": 45,
+    "order": 1,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "figure",
+    "image_path": "figures/page_0045_fig_1.jpg"
+  },
+  {
+    "id": "page_0045-b002",
+    "page_key": 45,
+    "order": 2,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "caption",
+    "text": "Figure 4.4 Neural network with one input, one output, and two hidden layers, each containing three hidden units"
+  },
+  {
+    "id": "page_0045-b003",
+    "page_key": 45,
+    "order": 3,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "where $\\psi\\_{10} = \\theta'\\_{10} + \\theta'\\_{11}\\phi\\_0 $, $\\psi\\_{12} = \\theta'\\_{11}\\phi\\_2 $ and so on. The result is a network with two hidden layers (figure 4.4). It follows that a network with two layers can represent the family of functions created by passing the output of one single-layer network into another. In fact, it represents a broader family because in equation 4.6, the nine slope parameters $\\psi\\_{11}, \\psi\\_{21}, \\ldots, \\psi\\_{33}$ can take arbitrary values, whereas in equation 4.5, these parameters are constrained to be the outer product $\\left[\\theta'\\_{11}, \\theta'\\_{21}, \\theta'\\_{31}\\right]^{T}[\\phi\\_1, \\phi\\_2, \\phi\\_3]$."
+  },
+  {
+    "id": "page_0045-b004",
+    "page_key": 45,
+    "order": 4,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "heading",
+    "text": "4.3 Deep neural networks"
+  },
+  {
+    "id": "page_0045-b005",
+    "page_key": 45,
+    "order": 5,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "In the previous section, we showed that composing two shallow networks yields a special case of a deep network with two hidden layers. Now we consider the general case of a deep network with two hidden layers, each containing three hidden units (figure 4.4). The first layer is defined by:"
+  },
+  {
+    "id": "page_0045-b006",
+    "page_key": 45,
+    "order": 6,
+    "source": "deepseek",
+    "confidence": "medium",
+    "type": "equation",
+    "latex": "\\begin{aligned}\nh_1 &= a[\\theta_{10}+\\theta_{11}x] \\\\\nh_2 &= a[\\theta_{20}+\\theta_{21}x] \\\\\nh_3 &= a[\\theta_{30}+\\theta_{31}x]\n\\end{aligned} \\qquad (4.7)"
+  },
+  {
+    "id": "page_0045-b007",
+    "page_key": 45,
+    "order": 7,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "the second layer by:"
+  },
+  {
+    "id": "page_0045-b008",
+    "page_key": 45,
+    "order": 8,
+    "source": "deepseek",
+    "confidence": "medium",
+    "type": "equation",
+    "latex": "\\begin{aligned}\nh'_1 &= a[\\psi_{10}+\\psi_{11}h_1+\\psi_{12}h_2+\\psi_{13}h_3] \\\\\nh'_2 &= a[\\psi_{20}+\\psi_{21}h_1+\\psi_{22}h_2+\\psi_{23}h_3] \\\\\nh'_3 &= a[\\psi_{30}+\\psi_{31}h_1+\\psi_{32}h_2+\\psi_{33}h_3]\n\\end{aligned} \\qquad (4.8)"
+  },
+  {
+    "id": "page_0045-b009",
+    "page_key": 45,
+    "order": 9,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "and the output by:"
+  },
+  {
+    "id": "page_0045-b010",
+    "page_key": 45,
+    "order": 10,
+    "source": "deepseek",
+    "confidence": "medium",
+    "type": "equation",
+    "latex": "\\begin{aligned}\ny' &= \\phi'_0+\\phi'_1h'_1+\\phi'_2h'_2+\\phi'_3h'_3\n\\end{aligned} \\qquad (4.9)"
+  }
+]

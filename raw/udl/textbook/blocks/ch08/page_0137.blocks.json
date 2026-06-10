@@ -1,0 +1,57 @@
+[
+  {
+    "id": "page_0137-b001",
+    "page_key": 137,
+    "order": 1,
+    "type": "figure",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0137_fig_1.jpg",
+    "alt": "Figure 8.13 Typical sets. a) Standard normal distribution in two dimensions. Circles are four samples from this distribution. As the distance from the center in"
+  },
+  {
+    "id": "page_0137-b002",
+    "page_key": 137,
+    "order": 2,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "caption": "Figure 8.13 Typical sets. a) Standard normal distribution in two dimensions. Circles are four samples from this distribution. As the distance from the center increases, the probability decreases, but the volume of space at that radius (i.e., the area between adjacent evenly spaced circles) increases. b) These factors trade off so that the histogram of distances of samples from the center has a pronounced peak. c) In higher dimensions, this effect becomes more extreme, and the probability of observing a sample close to the mean becomes vanishingly small. Although the most likely point is at the mean of the distribution, the typical samples are found in a relatively narrow shell."
+  },
+  {
+    "id": "page_0137-b003",
+    "page_key": 137,
+    "order": 3,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "latex": "\\mathrm{Vol}[r]=\\frac{r^{D}\\pi^{D/2}}{\\Gamma[D/2+1]}, \\qquad (8.8)"
+  },
+  {
+    "id": "page_0137-b004",
+    "page_key": 137,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "where $\\Gamma[\\bullet]$ is the Gamma function. Show using Stirling's formula that the volume of a hypersphere of diameter one (radius $r=0.5$) becomes zero as the dimension increases."
+  },
+  {
+    "id": "page_0137-b005",
+    "page_key": 137,
+    "order": 5,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Problem 8.8 $^{*}$ Consider a hypersphere of radius r = 1. Find an expression for the proportion of the total volume that lies in the outermost 1% of the distance from the center (i.e., in the outermost shell of thickness 0.01). Show that this becomes one as the dimension increases."
+  },
+  {
+    "id": "page_0137-b006",
+    "page_key": 137,
+    "order": 6,
+    "type": "exercise",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Problem 8.9 Figure 8.13c shows the distribution of distances of samples of a standard normal distribution as the dimension increases. Empirically verify this finding by sampling from the standard normal distributions in 25, 100, and 500 dimensions and plotting a histogram of the distances from the center. What closed-form probability distribution describes these distances?"
+  }
+]

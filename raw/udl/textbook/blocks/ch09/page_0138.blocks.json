@@ -1,0 +1,83 @@
+[
+  {
+    "id": "page_0138-b001",
+    "page_key": 138,
+    "order": 1,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Chapter 9"
+  },
+  {
+    "id": "page_0138-b002",
+    "page_key": 138,
+    "order": 2,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Regularization"
+  },
+  {
+    "id": "page_0138-b003",
+    "page_key": 138,
+    "order": 3,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Chapter 8 described how to measure model performance and identified that there could be a significant performance gap between the training and test data. Possible reasons for this discrepancy include: (i) the model describes statistical peculiarities of the training data that are not representative of the true mapping from input to output (overfitting), and (ii) the model is unconstrained in areas with no training examples, leading to suboptimal predictions."
+  },
+  {
+    "id": "page_0138-b004",
+    "page_key": 138,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "This chapter discusses regularization techniques. These are a family of methods that reduce the generalization gap between training and test performance. Strictly speaking, regularization involves adding explicit terms to the loss function that favor certain parameter choices. However, in machine learning, this term is commonly used to refer to any strategy that improves generalization."
+  },
+  {
+    "id": "page_0138-b005",
+    "page_key": 138,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "We start by considering regularization in its strictest sense. Then we show how the stochastic gradient descent algorithm itself favors certain solutions. This is known as implicit regularization. Following this, we consider a set of heuristic methods that improve test performance. These include early stopping, ensembling, dropout, label smoothing, and transfer learning."
+  },
+  {
+    "id": "page_0138-b006",
+    "page_key": 138,
+    "order": 6,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "9.1 Explicit regularization"
+  },
+  {
+    "id": "page_0138-b007",
+    "page_key": 138,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Consider fitting a model $\\mathbf{f}[\\mathbf{x}, \\phi]$ with parameters $\\boldsymbol{\\phi}$ using a training set $\\lbrace x\\_{i}, y\\_{i} \\rbrace$ of input/output pairs. We seek the parameters $\\hat{\\phi}$ that minimize the loss function $L[\\boldsymbol{\\phi}]$:"
+  },
+  {
+    "id": "page_0138-b008",
+    "page_key": 138,
+    "order": 8,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "latex": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}} &= \\underset{\\boldsymbol{\\phi}}{\\mathrm{argmin}}\\left[L[\\boldsymbol{\\phi}]\\right] \\\\\n&= \\underset{\\boldsymbol{\\phi}}{\\mathrm{argmin}}\\left[\\sum_{i=1}^{I}\\ell_{i}[\\mathbf{x}_{i},\\mathbf{y}_{i}]\\right],\n\\end{aligned}\n\\qquad (9.1)"
+  },
+  {
+    "id": "page_0138-b009",
+    "page_key": 138,
+    "order": 9,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "where the individual terms $\\ell\\_{i}[\\mathbf{x}\\_{i},\\mathbf{y}\\_{i}]$ measure the mismatch between the network predictions $\\mathbf{f}[\\mathbf{x}\\_{i},\\boldsymbol{\\phi}]$ and output targets $\\mathbf{y}\\_{i}$ for each training pair. To bias this minimization"
+  }
+]

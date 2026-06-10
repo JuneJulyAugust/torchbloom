@@ -1,0 +1,40 @@
+[
+  {
+    "id": "page_0377-b001",
+    "page_key": 377,
+    "order": 1,
+    "type": "figure",
+    "text": "Figures 19.4 and 19.5 POMDP and policy examples (../../figures/page_0377_fig_2.jpg)",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0377_fig_2.jpg"
+  },
+  {
+    "id": "page_0377-b002",
+    "page_key": 377,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 19.4 and Figure 19.5 Partially observable states and policies. Figure 19.4 shows a POMDP where the agent can only see nearby tiles, making state 3 indistinguishable from state 9. Figure 19.5 compares deterministic and stochastic policies; stochastic policies can explore states more thoroughly and can be necessary for optimal performance in partially observable Markov decision processes.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0377-b003",
+    "page_key": 377,
+    "order": 3,
+    "type": "figure",
+    "text": "Figure 19.6 reinforcement learning loop (../../figures/page_0377_fig_1.jpg)",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0377_fig_1.jpg"
+  },
+  {
+    "id": "page_0377-b004",
+    "page_key": 377,
+    "order": 4,
+    "type": "caption",
+    "text": "Figure 19.6 Reinforcement learning loop. The agent takes an action $a\\_t$ at time $t$ based on the state $s\\_t$, according to the policy $\\pi[a\\_t\\mid s\\_t]$. This triggers the generation of a new state $s\\_{t+1}$ via the state transition function and a reward $r\\_{t+1}$ via the reward function. Both are passed back to the agent, which then chooses a new action.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

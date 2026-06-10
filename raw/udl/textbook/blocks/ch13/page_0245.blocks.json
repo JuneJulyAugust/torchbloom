@@ -1,0 +1,92 @@
+[
+  {
+    "id": "page_0245-b001",
+    "page_key": 245,
+    "order": 1,
+    "type": "paragraph",
+    "text": "a walk of length one from the nth node). If we repeat this procedure (i.e., pre-multiply by A again), the resulting vector contains the number of walks of length two from node n to every node (figures 13.4d–f).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0245-b002",
+    "page_key": 245,
+    "order": 2,
+    "type": "paragraph",
+    "text": "In general, if we raise the adjacency matrix to the power of L, then entry at position  $(m,n)$  of  $A^{L}$  contains the number of unique walks of length L from node m to node n (figures 13.4a–c). This is not the same as the number of unique paths since the walks include routes that visit the same node more than once. Nonetheless,  $A^{L}$  still contains valuable information about the graph connectivity; a non-zero entry at position  $(m,n)$  indicates that the distance from m to n must be less than or equal to L.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0245-b003",
+    "page_key": 245,
+    "order": 3,
+    "type": "heading",
+    "text": "13.2.2 Permutation of node indices",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0245-b004",
+    "page_key": 245,
+    "order": 4,
+    "type": "paragraph",
+    "text": "Node indexing in graphs is arbitrary; permuting the node indices results in a permutation of the columns of the node data matrix X and a permutation of both the rows and columns of the adjacency matrix A. However, the underlying graph is unchanged (figure 13.5). This is in contrast to images, where permuting the pixels creates a different image, and to text, where permuting the words creates a different sentence.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0245-b005",
+    "page_key": 245,
+    "order": 5,
+    "type": "paragraph",
+    "text": "The operation of exchanging node indices can be expressed mathematically by a permutation matrix, P. This is a matrix where exactly one entry in each row and column take the value one, and the remaining values are zero. When position  $(m,n)$  of the permutation matrix is set to one, it indicates that node m will become node n after the permutation. To map from one indexing to another, we use the operations:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0245-b006",
+    "page_key": 245,
+    "order": 6,
+    "type": "equation",
+    "text": "$$\n\\begin{aligned}\n\\mathbf{X}' &= \\mathbf{X}\\mathbf{P} \\\\\n\\mathbf{A}' &= \\mathbf{P}^{T}\\mathbf{A}\\mathbf{P}\n\\end{aligned}\n\\qquad (13.1)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0245-b007",
+    "page_key": 245,
+    "order": 7,
+    "type": "paragraph",
+    "text": "where post-multiplying by P permutes the columns and pre-multiplying by  $P^{T}$  permutes the rows. It follows that any processing applied to the graph should also be indifferent to these permutations. Otherwise, the result will depend on the choice of node indices.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0245-b008",
+    "page_key": 245,
+    "order": 8,
+    "type": "heading",
+    "text": "13.3 Graph neural networks, tasks, and loss functions",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0245-b009",
+    "page_key": 245,
+    "order": 9,
+    "type": "paragraph",
+    "text": "A graph neural network is a model that takes the node embeddings X and the adjacency matrix A as inputs and passes them through a series of K layers. The node embeddings  $H\\_{k}$  before finally computing output embeddings  $H\\_{K}$ .",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0245-b010",
+    "page_key": 245,
+    "order": 10,
+    "type": "paragraph",
+    "text": "At the start of this network, each column of the input node embeddings X just contains information about the node itself. At the end, each column of the model output  $H\\_{K}$  includes information about the node and its context within the graph. This is similar to word embeddings passing through a transformer network. These represent words at the start, but represent the word meanings in the context of the sentence at the end.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

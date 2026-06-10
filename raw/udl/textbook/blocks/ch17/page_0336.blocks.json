@@ -1,0 +1,128 @@
+[
+  {
+    "id": "page_0336-b001",
+    "page_key": 336,
+    "order": 1,
+    "type": "paragraph",
+    "text": "In this formulation, the first term measures the average agreement $\\Pr(\\mathbf{x}|\\mathbf{z},\\phi)$ of the latent variable and the data. This measures the reconstruction accuracy. The second term measures the degree to which the auxiliary distribution $q(\\mathbf{z}|\\boldsymbol{\\theta})$ matches the prior. This formulation is the one that is used in the variational autoencoder.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0336-b002",
+    "page_key": 336,
+    "order": 2,
+    "type": "heading",
+    "text": "17.5 Variational approximation",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0336-b003",
+    "page_key": 336,
+    "order": 3,
+    "type": "paragraph",
+    "text": "We saw in equation 17.17 that the ELBO is tight when $q(\\mathbf{z}|\\boldsymbol{\\theta})$ is the posterior $\\Pr(\\mathbf{z}|\\mathbf{x},\\phi)$. In principle, we can compute the posterior using Bayes' rule:",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0336-b004",
+    "page_key": 336,
+    "order": 4,
+    "type": "equation",
+    "text": "$$\n\\Pr(\\mathbf{z}|\\mathbf{x},\\phi)=\\frac{\\Pr(\\mathbf{x}|\\mathbf{z},\\phi)\\Pr(\\mathbf{z})}{\\Pr(\\mathbf{x}|\\phi)}\n\\qquad (17.19)\n$$",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0336-b005",
+    "page_key": 336,
+    "order": 5,
+    "type": "paragraph",
+    "text": "but in practice, this is intractable because we can't evaluate the evidence term $\\Pr(\\mathbf{x}|\\phi)$ in the denominator (see section 17.3).",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0336-b006",
+    "page_key": 336,
+    "order": 6,
+    "type": "paragraph",
+    "text": "One solution is to make a variational approximation: we choose a simple parametric form for $q(\\mathbf{z}|\\boldsymbol{\\theta})$ and use this to approximate the true posterior. Here, we choose a multivariate normal distribution with mean $\\mu$ and diagonal covariance $\\Sigma$ . This will not always match the posterior well but will be better for some values of $\\mu$ and $\\Sigma$ than others. During training, we will find the normal distribution that is \"closest\" to the true posterior $\\Pr(\\mathbf{z}|\\mathbf{x})$ (figure 17.8). This corresponds to minimizing the KL divergence in equation 17.17 and moving the colored curves in figure 17.6 upwards.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0336-b007",
+    "page_key": 336,
+    "order": 7,
+    "type": "paragraph",
+    "text": "Since the optimal choice for $q(\\mathbf{z}|\\boldsymbol{\\theta})$ was the posterior $\\Pr(\\mathbf{z}|\\mathbf{x})$ , and this depends on the data example x, the variational approximation should do the same, so we choose:",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0336-b008",
+    "page_key": 336,
+    "order": 8,
+    "type": "equation",
+    "text": "$$\nq(\\mathbf{z}|\\mathbf{x},\\boldsymbol{\\theta})=\\mathrm{Norm}_{\\mathbf{z}}\\Big[\\mathbf{g}_{\\mu}[\\mathbf{x},\\boldsymbol{\\theta}],\\mathbf{g}_{\\Sigma}[\\mathbf{x},\\boldsymbol{\\theta}]\\Big]\n\\qquad (17.20)\n$$",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0336-b009",
+    "page_key": 336,
+    "order": 9,
+    "type": "paragraph",
+    "text": "where $g[x,\\theta]$ is a second neural network with parameters $\\theta$ that predicts the mean $\\mu$ and variance $\\Sigma$ of the normal variational approximation.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0336-b010",
+    "page_key": 336,
+    "order": 10,
+    "type": "heading",
+    "text": "17.6 The variational autoencoder",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0336-b011",
+    "page_key": 336,
+    "order": 11,
+    "type": "paragraph",
+    "text": "Finally, we can describe the VAE. We build a network that computes the ELBO:",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0336-b012",
+    "page_key": 336,
+    "order": 12,
+    "type": "equation",
+    "text": "$$\n\\mathrm{ELBO}[\\boldsymbol{\\theta},\\phi]=\\int q(\\mathbf{z}|\\mathbf{x},\\boldsymbol{\\theta})\\log\\left[\\Pr(\\mathbf{x}|\\mathbf{z},\\phi)\\right]d\\mathbf{z}-\\mathrm{D}_{KL}\\left[q(\\mathbf{z}|\\mathbf{x},\\boldsymbol{\\theta})\\middle\\\n|\\Pr(\\mathbf{z})\\right]\n\\qquad (17.21)\n$$",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0336-b013",
+    "page_key": 336,
+    "order": 13,
+    "type": "paragraph",
+    "text": "where the distribution $q(\\mathbf{z}|\\mathbf{x},\\boldsymbol{\\theta})$ is the approximation from equation 17.20.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0336-b014",
+    "page_key": 336,
+    "order": 14,
+    "type": "paragraph",
+    "text": "The first term still involves an intractable integral, but since it is an expectation with respect to $q(\\mathbf{z}|\\mathbf{x},\\boldsymbol{\\theta})$ , we can approximate it by sampling. For any function $a[\\bullet]$ we have:",
+    "source": "deepseek",
+    "confidence": "medium"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "page_0370-b001",
+    "page_key": 370,
+    "order": 1,
+    "type": "paragraph",
+    "text": "of writing, the state-of-the-art results for conditional image synthesis have been achieved by Karras et al. (2022). Surveys of denoising diffusion models can be found in Croitoru et al. (2022), Cao et al. (2022), Luo (2022), and Yang et al. (2022).",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0370-b002",
+    "page_key": 370,
+    "order": 2,
+    "type": "paragraph",
+    "text": "Applications for images: Applications of diffusion models include text-to-image generation (Nichol et al., 2022; Ramesh et al., 2022; Saharia et al., 2022b), image-to-image tasks such as colorization, inpainting, uncropping and restoration (Saharia et al., 2022a), super-resolution (Saharia et al., 2022c), image editing (Hertz et al., 2022; Meng et al., 2021), removing adversarial perturbations (Nie et al., 2022), semantic segmentation (Baranchuk et al., 2022), and medical imaging (Song et al., 2021b; Chung & Ye, 2022; Chung et al., 2022; Peng et al., 2022; Xie & Li, 2022; Luo et al., 2022) where the diffusion model is sometimes used as a prior.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0370-b003",
+    "page_key": 370,
+    "order": 3,
+    "type": "paragraph",
+    "text": "Different data types: Diffusion models have also been applied to video data (Ho et al., 2022b; Harvey et al., 2022; Yang et al., 2022; Höppe et al., 2022; Voleti et al., 2022) for generation, past and future frame prediction, and interpolation. They have been used for 3D shape generation (Zhou et al., 2021; Luo & Hu, 2021), and recently a technique has been introduced to generate 3D models using only a 2D text-to-image diffusion model (Poole et al., 2023). Austin et al. (2021) and Hoogeboom et al. (2021) investigated diffusion models for discrete data. Kong et al. (2021) and Chen et al. (2021d) applied diffusion models to audio data.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0370-b004",
+    "page_key": 370,
+    "order": 4,
+    "type": "paragraph",
+    "text": "Alternatives to denoising: The diffusion models in this chapter mix noise with the data and build a model gradually denoise the result. However, degrading the image using noise is not necessary. Rissanen et al. (2022) devised a method that progressively blurred the image and Bansal et al. (2022) showed that the same ideas work with a large family of degradations that do not have to be stochastic. These include masking, morphing, blurring, and pixelating.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0370-b005",
+    "page_key": 370,
+    "order": 5,
+    "type": "paragraph",
+    "text": "Comparison to other generative models: Diffusion models synthesize higher quality images than other generative models and are simple to train. They can be thought of as a special case of a hierarchical VAE (Vahdat & Kautz, 2020; Sønderby et al., 2016b) where the encoder is fixed, and the latent space is the same size as the data. They are probabilistic, but in their basic form, they can only compute a lower bound on the likelihood of a data point. However, Kingma et al. (2021) show that this lower bound improves on the exact log-likelihoods for test data from normalizing flows and autoregressive models. The likelihood for diffusion models can be computed by converting to an ordinary differential equation (Song et al., 2021c) or by training a continuous normalizing flow model with a diffusion-based criterion (Lipman et al., 2022). The main disadvantages of diffusion models are that they are slow and that the latent space has no semantic interpretation.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0370-b006",
+    "page_key": 370,
+    "order": 6,
+    "type": "paragraph",
+    "text": "Improving quality: Many techniques have been proposed to improve image quality. These variances $\\sigma^{2}$ of the denoising estimate at each time step in addition to the mean. Bao et al. (2022) show how to learn the variances after training the model.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0370-b007",
+    "page_key": 370,
+    "order": 7,
+    "type": "paragraph",
+    "text": "Kingma et al. (2021) improved the test log-likelihood of the model by learning the denoising weights $\\beta\\_{t}$ . Conversely, Nichol & Dhariwal (2021) improved performance by learning separate variances $\\sigma^{2}$ of the denoising estimate at each time step in addition to the mean. Bao et al. (2022) show how to learn the variances after training the model.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0370-b008",
+    "page_key": 370,
+    "order": 8,
+    "type": "paragraph",
+    "text": "Ho et al. (2022a) developed the cascaded method for producing very high-resolution images (figure 18.11). To prevent artifacts in lower-resolution images from being propagated to higher resolutions, they introduced noise conditioning augmentation; here, the lower-resolution conditioning image is degraded by adding noise at each training step. This reduces the reliance on the exact details of the lower-resolution image during training. It is also done during inference, where the best noise level is chosen by sweeping over different values.",
+    "source": "deepseek",
+    "confidence": "medium"
+  }
+]

@@ -5,7 +5,7 @@ title: "Equation 3.2: ReLU"
 chapter_scope: [ch03]
 source_anchors:
   - source: udlbook-v5.0.3
-    locator: raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0039.md
+    locator: raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0025.md
 confidence: directional
 prerequisites: [piecewise-linear-functions]
 related: [relu-activation, hidden-units]
@@ -37,4 +37,4 @@ Negative values are clipped to zero. Nonnegative values pass through unchanged.
 
 ## Source Anchors
 
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0039.md`
+- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0025.md`

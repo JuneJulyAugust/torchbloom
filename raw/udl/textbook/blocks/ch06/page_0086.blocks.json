@@ -1,0 +1,83 @@
+[
+  {
+    "id": "page_0086-b001",
+    "page_key": 86,
+    "order": 1,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "from just a subset of the training data. Fourth, it can (in principle) escape local minima. Fifth, it reduces the chances of getting stuck near saddle points; it is likely that at least some of the possible batches will have a significant gradient at any point on the loss function. Finally, there is some evidence that SGD finds parameters for neural networks that cause them to generalize well to new data in practice (see section 9.2)."
+  },
+  {
+    "id": "page_0086-b002",
+    "page_key": 86,
+    "order": 2,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "SGD does not necessarily \"converge\" in the traditional sense. However, the hope is that when we are close to the global minimum, all the data points will be well described by the model. Consequently, the gradient will be small, whichever batch is chosen, and the parameters will cease to change much. In practice, SGD is often applied with a learning rate schedule. The learning rate $\\alpha $ starts at a high value and is decreased by a constant factor every N epochs. The logic is that in the early stages of training, we want the algorithm to explore the parameter space, jumping from valley to valley to find a sensible region. In later stages, we are roughly in the right place and are more concerned with fine-tuning the parameters, so we decrease $\\alpha $ to make smaller changes."
+  },
+  {
+    "id": "page_0086-b003",
+    "page_key": 86,
+    "order": 3,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "heading",
+    "text": "6.3 Momentum"
+  },
+  {
+    "id": "page_0086-b004",
+    "page_key": 86,
+    "order": 4,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "A common modification to stochastic gradient descent is to add a momentum term. We update the parameters with a weighted combination of the gradient computed from the current batch and the direction moved in the previous step:"
+  },
+  {
+    "id": "page_0086-b005",
+    "page_key": 86,
+    "order": 5,
+    "source": "deepseek",
+    "confidence": "medium",
+    "type": "equation",
+    "latex": "\\begin{aligned}\n\\mathbf{m}_{t+1}&\\leftarrow\\quad\\beta\\cdot\\mathbf{m}_{t}+(1-\\beta)\\sum_{i\\in\\mathcal{B}_{t}}\\frac{\\partial\\ell_{i}[\\boldsymbol{\\phi}_{t}]}{\\partial\\boldsymbol{\\phi}} \\\\\n\\boldsymbol{\\phi}_{t+1}&\\leftarrow\\quad\\boldsymbol{\\phi}_{t}-\\alpha\\cdot\\mathbf{m}_{t+1}\n\\end{aligned} \\qquad (6.11)"
+  },
+  {
+    "id": "page_0086-b006",
+    "page_key": 86,
+    "order": 6,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "where $ m\\_{t}$ is the momentum (which drives the update at iteration t), $\\beta \\in [0,1) $ controls the degree to which the gradient is smoothed over time, and $\\alpha $ is the learning rate."
+  },
+  {
+    "id": "page_0086-b007",
+    "page_key": 86,
+    "order": 7,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "The recursive formulation of the momentum calculation means that the gradient step is an infinite weighted sum of all the previous gradients, where the weights get smaller as we move back in time. The effective learning rate increases if all these gradients are aligned over multiple iterations but decreases if the gradient direction repeatedly changes as the terms in the sum cancel out. The overall effect is a smoother trajectory and reduced oscillatory behavior in valleys (figure 6.7)."
+  },
+  {
+    "id": "page_0086-b008",
+    "page_key": 86,
+    "order": 8,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "heading",
+    "text": "6.3.1 Nesterov accelerated momentum"
+  },
+  {
+    "id": "page_0086-b009",
+    "page_key": 86,
+    "order": 9,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "The momentum term can be considered a coarse prediction of where the SGD algorithm will move next. Nesterov accelerated momentum (figure 6.8) computes the gradients at this predicted point rather than at the current point:"
+  }
+]

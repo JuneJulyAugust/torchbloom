@@ -1,0 +1,84 @@
+[
+  {
+    "id": "page_0393-b001",
+    "page_key": 393,
+    "order": 1,
+    "type": "figure",
+    "text": "Figure 19.16 Decreasing variance of estimates using control variates (../../figures/page_0393_fig_1.jpg)",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0393_fig_1.jpg"
+  },
+  {
+    "id": "page_0393-b002",
+    "page_key": 393,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 19.16 Decreasing variance of estimates using control variates. a) Consider trying to estimate E[a] from a small number of samples. The estimate (the mean of the samples) will vary based on the number of samples and the variance of those samples. b) Now consider observing another variable b that co-varies with a and has E[b] = 0 and the same variance as a. c) The variance of the samples of $a - b$ is much less than that of a, but the expected value E[a - b] = E[a], so we get an estimator with lower variance.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0393-b003",
+    "page_key": 393,
+    "order": 3,
+    "type": "equation",
+    "text": "$$\n\\mathbb{E}_{\\tau}\\left[\\sum_{t=1}^{T-1}\\frac{\\partial\\log\\left[\\pi_{a_{i t}}[s_{i t},\\theta]\\right]}{\\partial\\theta}\\cdot b\\right]=0, \\quad (19.35)\n$$",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0393-b004",
+    "page_key": 393,
+    "order": 4,
+    "type": "paragraph",
+    "text": "and the expected value will not change. However, if the baseline co-varies with irrelevant factors that add uncertainty, then subtracting it reduces the variance (figure 19.16). This is a special case of the method of control variates (see problem 19.7).",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0393-b005",
+    "page_key": 393,
+    "order": 5,
+    "type": "paragraph",
+    "text": "This raises the question of how we should choose b. We can find the value of b that minimizes the variance by writing an expression for the variance, taking the derivative with respect to b, setting the result to zero, and solving to yield:",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0393-b006",
+    "page_key": 393,
+    "order": 6,
+    "type": "equation",
+    "text": "$$\nb=\\frac{1}{I}\\sum_{i}r[\\boldsymbol{\\tau}_{i}]. \\quad (19.36)\n$$",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0393-b007",
+    "page_key": 393,
+    "order": 7,
+    "type": "paragraph",
+    "text": "In practice, this is often approximated as:",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0393-b008",
+    "page_key": 393,
+    "order": 8,
+    "type": "equation",
+    "text": "$$\nb=\\frac{1}{I}\\sum_{i}r[\\boldsymbol{\\tau}_{i}]. \\quad (19.37)\n$$",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0393-b009",
+    "page_key": 393,
+    "order": 9,
+    "type": "paragraph",
+    "text": "Subtracting this baseline factors out variance that might occur when the returns $r[\\tau\\_{i}]$ from all trajectories are greater than is typical but only because they happen to pass through states with higher than average returns whatever actions are taken.",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  }
+]

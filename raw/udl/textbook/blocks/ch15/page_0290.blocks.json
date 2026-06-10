@@ -1,0 +1,21 @@
+[
+  {
+    "id": "page_0290-b001",
+    "page_key": 290,
+    "order": 1,
+    "type": "figure",
+    "text": "",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0290_fig_1.jpg"
+  },
+  {
+    "id": "page_0290-b002",
+    "page_key": 290,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 15.13 Conditional generation. a) The generator of the conditional GAN also receives an attribute vector c describing some aspect of the image. As usual, the discriminator receives either a real example or a generated sample, but now it also receives the attribute vector; this encourages the samples both to be realistic and compatible with the attribute. b) The generator of the auxiliary classifier GAN (ACGAN) takes a discrete attribute variable, and the discriminator must both (i) determine if its input is real or synthetic and (ii) identify the class correctly. c) The InfoGAN splits the latent variable into noise z and unspecified random attributes c. The discriminator must distinguish if its input is real and also reconstruct these attributes. In practice, this means that the variables c correspond to salient aspects of the data with real-world interpretations (i.e., the latent space is disentangled).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "page_0253-b001",
+    "page_key": 253,
+    "order": 1,
+    "type": "paragraph",
+    "text": "at the same time. It does not produce a rule but merely a labeling for the unknown outputs. This is sometimes termed semi-supervised learning. It has the advantage that it can use patterns in the unlabeled data to help make its decisions. However, it has the disadvantage that the model needs to be retrained when extra unlabeled data are added.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0253-b002",
+    "page_key": 253,
+    "order": 2,
+    "type": "paragraph",
+    "text": "Both problem types are commonly encountered for graphs (figure 13.8). Sometimes, we have many labeled graphs and learn a mapping between the graph and the labels. For example, we might have many molecules, each labeled according to whether it is toxic to humans. We learn the rule that maps the graph to the toxic/non-toxic label and then apply this rule to new molecules. However, sometimes there is a single monolithic graph. In the graph of scientific paper citations, we might have labels indicating the field (physics, biology, etc.) for some nodes and wish to label the remaining nodes. Here, the training and test data are irrevocably connected.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0253-b003",
+    "page_key": 253,
+    "order": 3,
+    "type": "paragraph",
+    "text": "Graph-level tasks only occur in the inductive setting where there are training and test graphs. However, node-level tasks and edge prediction tasks can occur in either setting. In the transductive case, the loss function minimizes the mismatch between the model output and the ground truth where this is known. New predictions are computed by running the forward pass and retrieving the results where the ground truth is unknown.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0253-b004",
+    "page_key": 253,
+    "order": 4,
+    "type": "heading",
+    "text": "13.7 Example: node classification",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0253-b005",
+    "page_key": 253,
+    "order": 5,
+    "type": "paragraph",
+    "text": "As a second example, consider a binary node classification task in a transductive setting. We start with a commercial-sized graph with millions of nodes. Some nodes have ground truth binary labels, and the goal is to label the remaining unlabeled nodes. The body of the network will be the same as in the previous example (equation 13.11) but with a different final layer that produces an output vector of size  $1 \\times N$ :",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0253-b006",
+    "page_key": 253,
+    "order": 6,
+    "type": "equation",
+    "text": "$$\n\\mathbf{f}[\\mathbf{X},\\mathbf{A},\\boldsymbol{\\Phi}]\n= \\mathrm{sig}\\left[\\beta_{K}\\mathbf{1}^{T}+\\boldsymbol{\\omega}_{K}\\mathbf{H}_{K}\\right]\n\\qquad (13.12)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0253-b007",
+    "page_key": 253,
+    "order": 7,
+    "type": "paragraph",
+    "text": "where the function sig[•] applies the sigmoid function independently to every element of the row vector input. As usual, we use the binary cross-entropy loss, but now only at nodes where we know the ground truth label y. Note that equation 13.12 is just a vectorized version of the node classification loss from equation 13.3.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0253-b008",
+    "page_key": 253,
+    "order": 8,
+    "type": "paragraph",
+    "text": "Training this network raises two problems. First, it is logistically difficult to train a graph neural network of this size. Consider that we must store the node embeddings at every network layer in the forward pass. This will involve both storing and processing a structure several times the size of the entire graph, and this may not be practical. Second, we have only a single graph, so it’s not obvious how to perform stochastic gradient descent. How can we form a batch if there is only a single object?",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0253-b009",
+    "page_key": 253,
+    "order": 9,
+    "type": "heading",
+    "text": "13.7.1 Choosing batches",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0253-b010",
+    "page_key": 253,
+    "order": 10,
+    "type": "paragraph",
+    "text": "One way to form a batch is to choose a random subset of labeled nodes at each training step. Each node depends on its neighbors in the previous layer. These, in turn, depend",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

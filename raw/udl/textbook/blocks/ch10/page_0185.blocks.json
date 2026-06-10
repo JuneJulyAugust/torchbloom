@@ -1,0 +1,110 @@
+[
+  {
+    "id": "page_0185-b001",
+    "page_key": 185,
+    "order": 1,
+    "type": "exercise",
+    "text": "Problem 10.6 * Draw a 12×6 weight matrix in the style of figure 10.4d relating inputs $x\\_{1}, \\ldots, x\\_{6}$ to outputs $h\\_{1}, \\ldots, h\\_{12}$ in the multi-channel convolution as depicted in figures 10.5a–b.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0185-b002",
+    "page_key": 185,
+    "order": 2,
+    "type": "exercise",
+    "text": "Problem 10.7 * Draw a 6×12 weight matrix in the style of figure 10.4d relating inputs $h\\_{1}, \\ldots, h\\_{12}$ to outputs $h'\\_{1}, \\ldots, h'\\_{6}$ in the multi-channel convolution in figure 10.5c.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0185-b003",
+    "page_key": 185,
+    "order": 3,
+    "type": "exercise",
+    "text": "Problem 10.8 Consider a 1D convolutional network where the input has three channels. The first hidden layer is computed using a kernel size of three and has four channels. The second hidden layer is computed using a kernel size of five and has ten channels. How many biases and how many weights are needed for each of these two convolutional layers?",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0185-b004",
+    "page_key": 185,
+    "order": 4,
+    "type": "exercise",
+    "text": "Problem 10.9 A network consists of three 1D convolutional layers. At each layer, a zero-padded convolution with kernel size three, stride one, and dilation one is applied. What size is the receptive field of the hidden units in the third layer?",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0185-b005",
+    "page_key": 185,
+    "order": 5,
+    "type": "exercise",
+    "text": "Problem 10.10 A network consists of three 1D convolutional layers. At each layer, a zero-padded convolution with kernel size seven, stride one, and dilation one is applied. What size is the receptive field of hidden units in the third layer?",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0185-b006",
+    "page_key": 185,
+    "order": 6,
+    "type": "exercise",
+    "text": "Problem 10.11 Consider a convolutional network with 1D input x. The first hidden layer $H\\_{1}$ is computed using a convolution with kernel size five, stride two, and a dilation rate of one. The second hidden layer $H\\_{2}$ is computed using a convolution with kernel size three, stride one, and a dilation rate of one. The third hidden layer $H\\_{3}$ is computed using a convolution with kernel size five, stride one, and a dilation rate of two. What are the receptive field sizes at each hidden layer?",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0185-b007",
+    "page_key": 185,
+    "order": 7,
+    "type": "exercise",
+    "text": "Problem 10.12 The 1D convolutional network in figure 10.7 was trained using stochastic gradient descent with a learning rate of 0.01 and a batch size of 100 on a training dataset of 4,000 examples for 100,000 steps. How many epochs was the network trained for?",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0185-b008",
+    "page_key": 185,
+    "order": 8,
+    "type": "exercise",
+    "text": "Problem 10.13 Draw a weight matrix in the style of figure 10.4d that shows the relationship between the 24 inputs and the 24 outputs in figure 10.9.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0185-b009",
+    "page_key": 185,
+    "order": 9,
+    "type": "exercise",
+    "text": "Problem 10.14 Consider a 2D convolutional layer with kernel size $5 \\times 5$ that takes 3 input channels and returns 10 output channels. How many convolutional weights are there? How many biases?",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0185-b010",
+    "page_key": 185,
+    "order": 10,
+    "type": "exercise",
+    "text": "Problem 10.15 Draw a weight matrix in the style of figure 10.4d that samples every other variable in a 1D input (i.e., the 1D analog of figure 10.11a). Show that the weight matrix for 1D convolution with kernel size three and stride two is equivalent to composing the matrices for 1D convolution with kernel size three and stride one and this sampling matrix.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0185-b011",
+    "page_key": 185,
+    "order": 11,
+    "type": "exercise",
+    "text": "Problem 10.18 How many weights and biases are there at each convolutional layer and fully connected layer in the VGG architecture (figure 10.17)?",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0185-b012",
+    "page_key": 185,
+    "order": 12,
+    "type": "exercise",
+    "text": "Problem 10.19 * Consider two hidden layers of size 224×224 with $C\\_{1}$ and $C\\_{2}$ channels, respectively, connected by a 3×3 convolutional layer. Describe how to initialize the weights using He initialization.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

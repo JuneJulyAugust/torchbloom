@@ -1,0 +1,83 @@
+[
+  {
+    "id": "page_0428-b001",
+    "page_key": 428,
+    "order": 1,
+    "type": "paragraph",
+    "text": "of personal data). Thus, some researchers, activists, and policymakers have questioned whether this technology should exist (Barrett, 2020).",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0428-b002",
+    "page_key": 428,
+    "order": 2,
+    "type": "paragraph",
+    "text": "Moreover, these technologies often do not do what they purport to (Raji et al., 2022). For example, the New York Metropolitan Transportation Authority moved forward with and expanded its use of facial recognition despite a proof-of-concept trial reporting a 100% failure rate to detect faces within acceptable parameters (Berger, 2019). Similarly, facial analysis tools often oversell their abilities (Raji & Fried, 2020), dubiously claiming to be able to infer individuals' sexual orientation (Leuner, 2019), emotions (Stark & Hoey, 2021), hirability (Fetscherin et al., 2020), or criminality (Wu & Zhang, 2016). Stark & Hutson (2022) highlight that computer vision systems have created a resurgence in the “scientifically baseless, racist, and discredited pseudoscientific fields” of physiognomy and phrenology.",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0428-b003",
+    "page_key": 428,
+    "order": 3,
+    "type": "heading",
+    "text": "## 21.2.2 Militarization and political interference",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0428-b004",
+    "page_key": 428,
+    "order": 4,
+    "type": "paragraph",
+    "text": "Governments have a vested interest in funding AI research in the name of national security and state building. This risks an arms race between nation-states, which carries with it “high rates of investment, a lack of transparency, mutual suspicion and fear, and a perceived intent to deploy first” (Sisson et al., 2020).",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0428-b005",
+    "page_key": 428,
+    "order": 5,
+    "type": "paragraph",
+    "text": "Lethal autonomous weapons systems receive significant attention because they are easy to imagine, and indeed many such systems are under development (Heikkilä, 2022). However, AI also facilitates cyber-attacks and disinformation campaigns (i.e., inaccurate or misleading information that is shared with the intent to deceive). AI systems allow the creation of highly realistic fake content and facilitate the dissemination of information, often to targeted audiences (Akers et al., 2018) and at scale (Bontridder & Poullet, 2021).",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0428-b006",
+    "page_key": 428,
+    "order": 6,
+    "type": "paragraph",
+    "text": "Kosinski et al. (2013) suggest that sensitive variables, including sexual orientation, ethnicity, religious and political views, personality traits, intelligence, happiness, use of addictive substances, parental separation, age, and gender, can be predicted by “likes” on social media alone. From this information, personality traits like “openness” can be used for manipulative purposes (e.g., to change voting behavior).",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0428-b007",
+    "page_key": 428,
+    "order": 7,
+    "type": "heading",
+    "text": "## 21.2.3 Fraud",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0428-b008",
+    "page_key": 428,
+    "order": 8,
+    "type": "paragraph",
+    "text": "Unfortunately, AI is a useful tool for automating fraudulent activities (e.g., sending mass emails or text messages that trick people into revealing sensitive information or sending money). Generative AI can be used to deceive people into thinking they are interacting with a legitimate entity or generate fake documents that mislead or deceive people. Additionally, AI could increase the sophistication of cyber-attacks, such as by generating more convincing phishing emails or adapting to the defenses of targeted organizations.",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0428-b009",
+    "page_key": 428,
+    "order": 9,
+    "type": "paragraph",
+    "text": "This highlights the downside of calls for transparency in machine learning systems: the more open and transparent these systems are, the more vulnerable they may be to security risks or use by bad-faith actors. For example, generative language models, like ChatGPT, have been used to write software and emails that could be used for espionage,",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  }
+]

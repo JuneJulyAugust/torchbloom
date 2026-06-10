@@ -1,0 +1,137 @@
+[
+  {
+    "id": "page_0286-b001",
+    "page_key": 286,
+    "order": 1,
+    "type": "paragraph",
+    "text": "subject to the constraint that:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0286-b002",
+    "page_key": 286,
+    "order": 2,
+    "type": "equation",
+    "text": "$$\n\\left|f_{i+1}-f_{i}\\right| < 1\n\\qquad (15.13)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0286-b003",
+    "page_key": 286,
+    "order": 3,
+    "type": "paragraph",
+    "text": "In other words, we optimize over a new set of variables $\\lbrace f\\_{i}\\rbrace$ where adjacent values cannot change by more than one.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0286-b004",
+    "page_key": 286,
+    "order": 4,
+    "type": "heading",
+    "text": "15.2.5 Wasserstein distance for continuous distributions",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0286-b005",
+    "page_key": 286,
+    "order": 5,
+    "type": "paragraph",
+    "text": "Translating these results back to the continuous multi-dimensional domain, the equivalent of the primal form (equation 15.10) is:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0286-b006",
+    "page_key": 286,
+    "order": 6,
+    "type": "equation",
+    "text": "$$\nD_{w}\\left[\\Pr[\\mathbf{x}],q[\\mathbf{x}]\\right]\n= \\min_{\\pi[\\bullet,\\bullet]}\\left[\\iint \\pi(\\mathbf{x}_{1},\\mathbf{x}_{2})\\cdot\\lVert\\mathbf{x}_{1}-\\mathbf{x}_{2}\\rVertd\\mathbf{x}_{1}d\\mathbf{x}_{2}\\right]\n\\qquad (15.14)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0286-b007",
+    "page_key": 286,
+    "order": 7,
+    "type": "paragraph",
+    "text": "subject to constraints similar to equation 15.11 on the transport plan $\\pi(\\mathbf{x}\\_{1}, \\mathbf{x}\\_{2})$ representing the mass moved from position $\\mathbf{x}\\_{1}$ to $\\mathbf{x}\\_{2}$. The equivalent of the dual form (equation 15.12) is:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0286-b008",
+    "page_key": 286,
+    "order": 8,
+    "type": "equation",
+    "text": "$$\nD_{w}\\left[\\Pr[\\mathbf{x}],q[\\mathbf{x}]\\right]\n= \\max_{f[\\mathbf{x}]}\\left[\\int \\Pr[\\mathbf{x}]f[\\mathbf{x}]d\\mathbf{x}-\\int q[\\mathbf{x}]f[\\mathbf{x}]d\\mathbf{x}\\right]\n\\qquad (15.15)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0286-b009",
+    "page_key": 286,
+    "order": 9,
+    "type": "paragraph",
+    "text": "subject to the constraint that the Lipschitz constant of the function f[x] is less than one (i.e., the absolute gradient of the function is less than one).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0286-b010",
+    "page_key": 286,
+    "order": 10,
+    "type": "heading",
+    "text": "15.2.6 Wasserstein GAN loss function",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0286-b011",
+    "page_key": 286,
+    "order": 11,
+    "type": "paragraph",
+    "text": "In the context of neural networks, we maximize over the space of functions f[x] by optimizing the parameters  $\\phi$  in a neural network f[x,  $\\phi$ ], and we approximate these integrals using generated samples  $x\\_{i}^{*}$  and real examples  $x\\_{i}$ :",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0286-b012",
+    "page_key": 286,
+    "order": 12,
+    "type": "equation",
+    "text": "$$\n\\begin{aligned}\nL[\\phi]\n&= \\sum_{j}f[\\mathbf{x}_{j}^{*},\\phi]-\\sum_{i}f[\\mathbf{x}_{i},\\phi] \\\\\n&= \\sum_{j}f[g[\\mathbf{z}_{j},\\theta],\\phi]-\\sum_{i}f[\\mathbf{x}_{i},\\phi]\n\\end{aligned}\n\\qquad (15.16)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0286-b013",
+    "page_key": 286,
+    "order": 13,
+    "type": "paragraph",
+    "text": "where we must constrain the neural network discriminator  $f[x,\\phi]$  to have an absolute gradient norm of less than one at every position x:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0286-b014",
+    "page_key": 286,
+    "order": 14,
+    "type": "equation",
+    "text": "$$\n\\left|\\frac{\\partial f[\\mathbf{x},\\phi]}{\\partial\\mathbf{x}}\\right| < 1\n\\qquad (15.17)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0286-b015",
+    "page_key": 286,
+    "order": 15,
+    "type": "paragraph",
+    "text": "One way to achieve this is to clip the discriminator weights to a small range (e.g.,  $\\pm0.01$ ). An alternative is the gradient penalty Wasserstein GAN or WGAN-GP, which adds a regularization term that increases as the gradient norm deviates from unity.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "page_0021-b001",
+    "page_key": 21,
+    "order": 1,
+    "type": "figure",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0021_fig_1.jpg",
+    "alt": "Figure 2.3 loss function surface and heatmap"
+  },
+  {
+    "id": "page_0021-b002",
+    "page_key": 21,
+    "order": 2,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Figure 2.3 Loss function for linear regression model with the dataset in figure 2.2a. a) Each combination of parameters phi=[phi_0,phi_1] has an associated loss. The resulting loss function L[phi] can be visualized as a surface. The three circles represent the lines from figure 2.2b-d. b) The loss can also be visualized as a heatmap, where brighter regions represent larger losses; here we are looking straight down at the surface in (a) from above and gray ellipses represent isocontours. The best fitting line (figure 2.2d) has the parameters with the smallest loss (green circle)."
+  },
+  {
+    "id": "page_0021-b003",
+    "page_key": 21,
+    "order": 3,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "above or below the data) is unimportant. There are also theoretical reasons for this choice which we return to in chapter 5."
+  },
+  {
+    "id": "page_0021-b004",
+    "page_key": 21,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "The loss L is a function of the parameters phi; it will be larger when the model fit is poor (figure 2.2b,c) and smaller when it is good (figure 2.2d). Considered in this light, we term L[phi] the loss function or cost function. The goal is to find the parameters phi-hat that minimize this quantity:"
+  },
+  {
+    "id": "page_0021-b005",
+    "page_key": 21,
+    "order": 5,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "latex": "\\begin{aligned}\n\\hat{\\phi} &= \\underset{\\phi}{\\mathrm{argmin}}\\left[L[\\phi]\\right]\\\\\n&= \\underset{\\phi}{\\mathrm{argmin}}\\left[\\sum_{i=1}^{I}\\left(f[x_i,\\phi]-y_i\\right)^2\\right]\\\\\n&= \\underset{\\phi}{\\mathrm{argmin}}\\left[\\sum_{i=1}^{I}\\left(\\phi_0+\\phi_1x_i-y_i\\right)^2\\right].\n\\end{aligned} \\quad (2.6)"
+  },
+  {
+    "id": "page_0021-b006",
+    "page_key": 21,
+    "order": 6,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "There are only two parameters (the y-intercept phi_0 and slope phi_1), so we can calculate the loss for every combination of values and visualize the loss function as a surface (figure 2.3). The \"best\" parameters are at the minimum of this surface."
+  },
+  {
+    "id": "page_0021-b007",
+    "page_key": 21,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek",
+    "confidence": "medium",
+    "text": "Notebook 2.1: Supervised learning."
+  }
+]

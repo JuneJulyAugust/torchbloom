@@ -1,0 +1,83 @@
+[
+  {
+    "id": "page_0205-b001",
+    "page_key": 205,
+    "order": 1,
+    "type": "paragraph",
+    "text": "tuations from the random composition of the batch. They proposed using a ghost batch size, in which the mean and standard deviation statistics are computed from a subset of the batch. Large batches can now be used without losing the regularizing effect of the extra noise in smaller batch sizes. Luo et al. (2018) investigate the regularization effects of batch normalization.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0205-b002",
+    "page_key": 205,
+    "order": 2,
+    "type": "paragraph",
+    "text": "Alternatives to batch normalization: Although BatchNorm is widely used, it is not strictly necessary to train deep residual nets; there are other ways of making the loss surface tractable. Balduzzi et al. (2017) proposed the rescaling by $\\sqrt{1/2}$ in figure 11.6b; they argued that it prevents gradient explosion but does not resolve the problem of shattered gradients.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0205-b003",
+    "page_key": 205,
+    "order": 3,
+    "type": "paragraph",
+    "text": "Other work has investigated rescaling the function’s output in the residual block before adding it back to the input. For example, De & Smith (2020) introduce SkipInit, in which a learnable scalar multiplier is placed at the end of each residual branch. This helps if this multiplier is initialized to less than $\\sqrt{1/K}$ , where K is the number of residual blocks. In practice, they suggest initializing this to zero. Similarly, Hayou et al. (2021) introduce Stable ResNet, which rescales the output of the function in the $k^{th}$ residual block (before addition to the main branch) by a constant $\\lambda\\_{k}$ . They prove that in the limit of infinite width, the expected gradient norm of the weights in the first layer is lower bounded by the sum of squares of the scalings $\\lambda\\_{k}$ . They investigate setting these to a constant $\\sqrt{1/K}$ , where K is the number of residual blocks and show that it is possible to train networks with up to 1000 blocks.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0205-b004",
+    "page_key": 205,
+    "order": 4,
+    "type": "paragraph",
+    "text": "Zhang et al. (2019a) introduce FixUp, in which every layer is initialized using He normalization, but the last linear/convolutional layer of every residual block is set to zero. Now the initial forward pass is stable (since each residual block contributes nothing), and the gradients do not explode in the backward pass (for the same reason). They also rescale the branches so that the magnitude of the total expected change in the parameters is constant regardless of the number of residual blocks. These methods allow training of deep residual networks but don’t usually achieve the same test performance as when using BatchNorm. This is probably because they do not benefit from the regularization induced by the noisy batch statistics. De & Smith (2020) modify their method to induce regularization via dropout, which helps close this gap.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0205-b005",
+    "page_key": 205,
+    "order": 5,
+    "type": "paragraph",
+    "text": "DenseNet and U-Net: DenseNet was first introduced by Huang et al. (2017b), U-Net was developed by Ronneberger et al. (2015), and stacked hourglass networks by Newell et al. (2016). Of these architectures, U-Net has been the most extensively adapted. Çiçek et al. (2016) introduced 3D U-Net, and Milletari et al. (2016) introduced V-Net, both of which extend U-Net to process 3D data. Zhou et al. (2018) combine the ideas of DenseNet and U-Net in an architecture that downsamples and re-upsamples the image but also repeatedly uses intermediate representations. U-Nets are commonly used in medical image segmentation (see Siddique et al., 2021, for a review). However, they have been applied to other areas, including depth estimation (Garg et al., 2016), semantic segmentation (Iglovikov & Shvets, 2018), inpainting (Zeng et al., 2019), pansharpening (Yao et al., 2018), and image-to-image translation (Isola et al., 2017). U-Nets are also a key component in diffusion models (chapter 18).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0205-b006",
+    "page_key": 205,
+    "order": 6,
+    "type": "heading",
+    "text": "## Problems",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0205-b007",
+    "page_key": 205,
+    "order": 7,
+    "type": "exercise",
+    "text": "Problem 11.1 Derive equation 11.5 from the network definition in equation 11.4.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0205-b008",
+    "page_key": 205,
+    "order": 8,
+    "type": "exercise",
+    "text": "Problem 11.2 Unraveling the four-block network in figure 11.4a produces one path of length zero, four paths of length one, six paths of length two, four paths of length three, and one path of length four. How many paths of each length would there be with (i) three residual blocks and (ii) five residual blocks?",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0205-b009",
+    "page_key": 205,
+    "order": 9,
+    "type": "exercise",
+    "text": "Problem 11.3 Show that the derivative of the network in equation 11.5 with respect to the first layer $f\\_{1}[x]$ is given by equation 11.6.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

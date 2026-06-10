@@ -1,0 +1,74 @@
+[
+  {
+    "id": "page_0346-b001",
+    "page_key": 346,
+    "order": 1,
+    "type": "paragraph",
+    "text": "Jiang et al. (2016) use a mixture of Gaussians for the posterior, allowing clustering. This is a hierarchical latent variable model that adds a discrete latent variable to improve the flexibility of the posterior. Other authors (Salimans et al., 2015; Ranganath et al., 2016; Maaloe et al., 2016; Vahdat & Kautz, 2020) have experimented with hierarchical models that use continuous variables. These have a close connection with diffusion models (chapter 18).",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0346-b002",
+    "page_key": 346,
+    "order": 2,
+    "type": "paragraph",
+    "text": "Combination with other models: Gulrajani et al. (2016) combined VAEs with an autoregressive model to produce more realistic images. Chung et al. (2015) combine the VAE with recurrent neural networks to model time-varying measurements.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0346-b003",
+    "page_key": 346,
+    "order": 3,
+    "type": "paragraph",
+    "text": "As discussed above, adversarial losses have been used to inform the likelihood term directly. However, other models have combined ideas from generative adversarial networks (GANs) with VAEs in different ways. Makhzani et al. (2015) use an adversarial loss in the latent space; the idea is that the discriminator will ensure that the aggregated posterior distribution $q(\\mathbf{z})$ is indistinguishable from the prior distribution $\\Pr(\\mathbf{z})$ . Tolstikhin et al. (2018) generalize this to a broader family of distances between the prior and aggregated posterior. Dumoulin et al. (2017) introduced adversarially learned inference which uses an adversarial loss to distinguish two pairs of latent/observed data points. In one case, the latent variable is drawn from the latent posterior collapse (Razavi et al., 2019a; Lucas et al., 2019b,a), and this is also part of the motivation for using a discrete latent space (Van Den Oord et al., 2017).",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0346-b004",
+    "page_key": 346,
+    "order": 4,
+    "type": "paragraph",
+    "text": "Posterior collapse: One potential problem in training is posterior collapse, in which the encoder always predicts the prior distribution. This was identified by Bowman et al. (2015) and can be mitigated by gradually increasing the term that encourages the KL distance between the posterior and the prior to be small during training. Several other methods have been proposed to prevent posterior collapse (Razavi et al., 2019a; Lucas et al., 2019b,a), and this is also part of the motivation for using a discrete latent space (Van Den Oord et al., 2017).",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0346-b005",
+    "page_key": 346,
+    "order": 5,
+    "type": "paragraph",
+    "text": "Blurry reconstructions: Zhao et al. (2017c) provide evidence that the blurry reconstructions are partly due to Gaussian noise and also because of the sub-optimal posterior distributions induced by the variational approximation. It is perhaps not coincidental that some of the best synthesis results have come from using a discrete latent space modeled by a sophisticated autoregressive model (Razavi et al., 2019b) or from using hierarchical latent spaces (Vahdat & Kautz, 2020; see figure 17.12d). Figure 17.12a-c used a VAE that was trained on the CELEBA database (Liu et al., 2015). Figure 17.12d uses a hierarchical VAE that was trained on the CELEBA HQ dataset (Karras et al., 2018).",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0346-b006",
+    "page_key": 346,
+    "order": 6,
+    "type": "paragraph",
+    "text": "Other problems: Chen et al. (2017) noted that when more complex likelihood terms are used, such as the PixelCNN (Van den Oord et al., 2016c), the output can cease to depend on the latent variables at all. They term this the information preference problem. This was addressed by Zhao et al. (2017b) in the InfoVAE, which added an extra term that maximized the mutual information between the latent and observed distributions.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0346-b007",
+    "page_key": 346,
+    "order": 7,
+    "type": "paragraph",
+    "text": "Another problem: Chen et al. (2017) noted that when more complex likelihood terms are used, such as the PixelCNN (Van den Oord et al., 2016c), the output can cease to depend on the latent variables at all. They term this the information preference problem. This was addressed by Zhao et al. (2017b) in the InfoVAE, which added an extra term that maximized the mutual information between the latent and observed distributions.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0346-b008",
+    "page_key": 346,
+    "order": 8,
+    "type": "paragraph",
+    "text": "Disentangling latent representation: Methods to \"disentangle\" the latent representation include the beta VAE (Higgins et al., 2017) and others (e.g., Kim & Mnih, 2018; Kumar et al.,",
+    "source": "deepseek",
+    "confidence": "medium"
+  }
+]

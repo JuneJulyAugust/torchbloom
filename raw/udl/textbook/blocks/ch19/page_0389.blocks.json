@@ -1,0 +1,83 @@
+[
+  {
+    "id": "page_0389-b001",
+    "page_key": 389,
+    "order": 1,
+    "type": "paragraph",
+    "text": "The underlying problem is that the same network both selects the target (by the maximization operation) and updates the value. Double Q-Learning tackles this problem by training two models $q\\_{1}[s\\_{t}, a\\_{t}, \\pi\\_{2}]$ and $q\\_{2}[s\\_{t}, a\\_{t}, \\pi\\_{2}]$ simultaneously:",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0389-b002",
+    "page_key": 389,
+    "order": 2,
+    "type": "equation",
+    "text": "$$\n\\begin{aligned}\nq_{1}[s_{t},a_{t}]\n&\\leftarrow q_{1}[s_{t},a_{t}]+\\alpha\\Big(r[s_{t},a_{t}]+\\gamma\\cdot q_{2}\\Big[s_{t+1},\\underset{a}{\\mathop{\\mathrm{argmax}}}\\Big[q_{1}[s_{t+1},a]\\Big]\\Big]-q_{1}[s_{t},a_{t}]\\Big)\\\\\nq_{2}[s_{t},a_{t}]\n&\\leftarrow q_{2}[s_{t},a_{t}]+\\alpha\\Big(r[s_{t},a_{t}]+\\gamma\\cdot q_{1}\\Big[s_{t+1},\\underset{a}{\\mathop{\\mathrm{argmax}}}\\Big[q_{2}[s_{t+1},a]\\Big]\\Big]-q_{2}[s_{t},a_{t}]\\Big).\n\\end{aligned}\n\\qquad (19.20)\n$$",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0389-b003",
+    "page_key": 389,
+    "order": 3,
+    "type": "paragraph",
+    "text": "Now the choice of the target and the target itself are decoupled, which helps prevent these biases. In practice, new tuples $\\langle s,a,r,s'\\rangle$ are randomly assigned to update one model or another. This is known as double Q-learning. Double deep Q-networks or double DQNs use deep networks $q[s\\_{t},a\\_{t},\\phi\\_{1}]$ and $q[s\\_{t},a\\_{t},\\phi\\_{2}]$ to estimate the action values, and the update becomes:",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0389-b004",
+    "page_key": 389,
+    "order": 4,
+    "type": "equation",
+    "text": "$$\n\\begin{aligned}\n\\phi_{1}\n&\\leftarrow \\phi_{1}+\\alpha\\Bigg(r[s_{t},a_{t}]+\\gamma\\cdot q\\Big[s_{t+1},\\underset{a}{\\mathop{\\mathrm{argmax}}}\\Big[q[s_{t+1},a,\\phi_{1}]\\Big],\\phi_{2}\\Big]-q[s_{t},a_{t},\\phi_{1}]\\Bigg)\\frac{\\partial q[s_{t},a_{t},\\phi_{1}]}{\\partial\\phi_{1}}\\\\\n\\phi_{2}\n&\\leftarrow \\phi_{2}+\\alpha\\Bigg(r[s_{t},a_{t}]+\\gamma\\cdot q\\Big[s_{t+1},\\underset{a}{\\mathop{\\mathrm{argmax}}}\\Big[q[s_{t+1},a,\\phi_{2}]\\Big],\\phi_{1}\\Big]-q[s_{t},a_{t},\\phi_{2}]\\Bigg)\\frac{\\partial q[s_{t},a_{t},\\phi_{2}]}{\\partial\\phi_{2}}.\n\\end{aligned}\n\\qquad (19.21)\n$$",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0389-b005",
+    "page_key": 389,
+    "order": 5,
+    "type": "heading",
+    "text": "## 19.5 Policy gradient methods",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0389-b006",
+    "page_key": 389,
+    "order": 6,
+    "type": "paragraph",
+    "text": "Q-learning estimates the action values first and then uses these to update the policy. Conversely, policy-based methods directly learn a stochastic policy $\\pi[a\\_{t}|s\\_{t},\\theta]$ . This is a function with trainable parameters $\\theta$ that maps a state $s\\_{t}$ to a distribution $\\Pr(a\\_{t}|s\\_{t})$ over actions $a\\_{t}$ from which we can sample. In MDPs, there is always an optimal deterministic policy. However, there are three reasons to use a stochastic policy:",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0389-b007",
+    "page_key": 389,
+    "order": 7,
+    "type": "list",
+    "text": "1. A stochastic policy naturally helps with exploration of the space; we are not obliged to take the best action at each time step.",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0389-b008",
+    "page_key": 389,
+    "order": 8,
+    "type": "list",
+    "text": "2. The loss changes smoothly as we modify a stochastic policy. This means we can use gradient descent methods even though the rewards are discrete. This is similar to using maximum likelihood in (discrete) classification problems. The loss changes smoothly as the model parameters change to make the true class more likely.",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0389-b009",
+    "page_key": 389,
+    "order": 9,
+    "type": "list",
+    "text": "3. The MDP assumption is often incorrect; we usually don’t have complete knowledge of the state. For example, consider an agent navigating in an environment where it can only observe nearby locations (e.g., figure 19.4). If two locations look identical, but the nearby reward structure is different, a stochastic policy allows the possibility of taking different actions until this ambiguity is resolved.",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  }
+]

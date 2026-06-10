@@ -1,0 +1,48 @@
+[
+  {
+    "id": "page_0256-b001",
+    "page_key": 256,
+    "order": 1,
+    "type": "figure",
+    "text": "",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0256_fig_1.jpg"
+  },
+  {
+    "id": "page_0256-b002",
+    "page_key": 256,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 13.11 Graph partitioning. a) Input graph. b) The input graph is partitioned into smaller subgraphs using a principled method that removes the fewest edges. c-d) We can now use these subgraphs as batches to train in a transductive setting, so here, there are four possible batches. e) Alternatively, we can use combinations of the subgraphs as batches, reinstating the edges between them. If we use pairs of subgraphs, there would be six possible batches here.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0256-b003",
+    "page_key": 256,
+    "order": 3,
+    "type": "paragraph",
+    "text": "Given one of the above methods to form batches, we can now train the network parameters in the same way as for the inductive setting, dividing the labeled nodes into train, test, and validation sets as desired; we have effectively converted a transductive problem to an inductive one. To perform inference, we compute predictions for the unknown nodes based on their k-hop neighborhood. Unlike training, this does not require storing the intermediate representations, so it is much more memory efficient.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0256-b004",
+    "page_key": 256,
+    "order": 4,
+    "type": "heading",
+    "text": "13.8 Layers for graph convolutional networks",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0256-b005",
+    "page_key": 256,
+    "order": 5,
+    "type": "paragraph",
+    "text": "In the previous examples, we combined messages from adjacent nodes by summing them together with the transformed current node. This was accomplished by post-multiplying the node embedding matrix H by the adjacency matrix plus the identity  $A + I$ . We now consider different approaches to both (i) the combination of the current embedding with the aggregated neighbors and (ii) the aggregation process itself.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

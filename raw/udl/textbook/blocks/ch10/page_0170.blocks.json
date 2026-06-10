@@ -1,0 +1,75 @@
+[
+  {
+    "id": "page_0170-b001",
+    "page_key": 170,
+    "order": 1,
+    "type": "paragraph",
+    "text": "one. The latter has enough flexibility to replicate the former exactly. Figure 10.8 shows both models fit the training data perfectly. However, the test error for the convolutional network is much less than for the fully connected network.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0170-b002",
+    "page_key": 170,
+    "order": 2,
+    "type": "paragraph",
+    "text": "This discrepancy is probably not due to the difference in the number of parameters; we know overparameterization usually improves performance (section 8.4.1). The likely explanation is that the convolutional architecture has a superior inductive bias (i.e., interpolates between the training data better) because we have embodied some prior knowledge in the architecture; we have forced the network to process each position in the input in the same way. We know that the data were created by starting with a template that is (among other operations) randomly translated, so this is sensible.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0170-b003",
+    "page_key": 170,
+    "order": 3,
+    "type": "paragraph",
+    "text": "The fully connected network has to learn what each digit template looks like at every position. In contrast, the convolutional network shares information across positions and hence learns to identify each category more accurately. Another way of thinking about this is that when we train the convolutional network, we search through a smaller family of input/output mappings, all of which are plausible. Alternatively, the convolutional structure can be considered a regularizer that applies an infinite penalty to most of the solutions that a fully connected network can describe.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0170-b004",
+    "page_key": 170,
+    "order": 4,
+    "type": "heading",
+    "text": "## 10.3 Convolutional networks for 2D inputs",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0170-b005",
+    "page_key": 170,
+    "order": 5,
+    "type": "paragraph",
+    "text": "The previous section described convolutional networks for processing 1D data. Such networks can be applied to financial time series, audio, and text. However, convolutional networks are more usually applied to 2D image data. The convolutional kernel is now a 2D object. A $3 \\times 3$ kernel $\\Omega \\in R^{3 \\times 3}$ applied to a 2D input comprising of elements $x\\_{ij}$ computes a single layer of hidden units $h\\_{ij}$ as:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0170-b006",
+    "page_key": 170,
+    "order": 6,
+    "type": "equation",
+    "text": "$$\nh_{ij} = \\mathrm{a}\\left[\\beta + \\sum_{m=1}^{3}\\sum_{n=1}^{3}\\omega_{mn}x_{i+m-2,j+n-2}\\right]\\qquad (10.6)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium",
+    "latex": "h_{ij} = \\mathrm{a}\\left[\\beta + \\sum_{m=1}^{3}\\sum_{n=1}^{3}\\omega_{mn}x_{i+m-2,j+n-2}\\right]\\qquad (10.6)"
+  },
+  {
+    "id": "page_0170-b007",
+    "page_key": 170,
+    "order": 7,
+    "type": "paragraph",
+    "text": "where $\\omega\\_{mn}$ are the entries of the convolutional kernel. This is simply a weighted sum over a square $3\\times3$ input region. The kernel is translated both horizontally and vertically across the 2D input (figure 10.9) to create an output at each position.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0170-b008",
+    "page_key": 170,
+    "order": 8,
+    "type": "paragraph",
+    "text": "Often the input is an RGB image, which is treated as a 2D signal with three channels (figure 10.10). Here, a $3 \\times 3$ kernel would have $3 \\times 3 \\times 3$ weights and be applied to the three input channels at each of the $3 \\times 3$ positions to create a 2D output that is the same height and width as the input image (assuming zero-padding). To generate multiple output channels, we repeat this process with different kernel weights and append the results to form a 3D tensor. If the kernel is size $K \\times K$ , and there are $C\\_i$ input channels, each output channel is a weighted sum of $C\\_i \\times K \\times K$ quantities plus one bias. It follows that to compute $C\\_o$ output channels, we need $C\\_i \\times C\\_o \\times K \\times K$ weights and $C\\_o$ biases.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

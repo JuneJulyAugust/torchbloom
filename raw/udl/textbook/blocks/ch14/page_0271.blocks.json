@@ -1,0 +1,84 @@
+[
+  {
+    "id": "page_0271-b001",
+    "page_key": 271,
+    "order": 1,
+    "type": "figure",
+    "text": "",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0271_fig_1.jpg"
+  },
+  {
+    "id": "page_0271-b002",
+    "page_key": 271,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 14.2 Fitting generative models a) Generative adversarial models provide a mechanism for generating samples (orange points). As training proceeds (left to right), the loss function encourages these samples to become progressively less distinguishable from real examples (cyan points). b) Probabilistic models (including variational autoencoders, normalizing flows, and diffusion models) learn a probability distribution over the training data. As training proceeds (left to right), the likelihood of the real examples increases under this distribution, which can be used to draw new samples and assess the probability of new data points.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0271-b003",
+    "page_key": 271,
+    "order": 3,
+    "type": "paragraph",
+    "text": "- Efficient sampling: Generating samples from the model should be computationally inexpensive and take advantage of the parallelism of modern hardware.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0271-b004",
+    "page_key": 271,
+    "order": 4,
+    "type": "paragraph",
+    "text": "- High-quality sampling: The samples should be indistinguishable from the real data with which the model was trained.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0271-b005",
+    "page_key": 271,
+    "order": 5,
+    "type": "paragraph",
+    "text": "- Coverage: Samples should represent the entire training distribution. It is insufficient to generate samples that all look like a subset of the training examples.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0271-b006",
+    "page_key": 271,
+    "order": 6,
+    "type": "paragraph",
+    "text": "- Efficient likelihood computation: If the model is probabilistic, we would like to be able to calculate the probability of new examples efficiently and accurately.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0271-b007",
+    "page_key": 271,
+    "order": 7,
+    "type": "paragraph",
+    "text": "- Disentangled latent space: Manipulating each dimension of z should correspond to changing an interpretable property of the data. For example, in a model of language, it might change the topic, tense, or verbosity.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0271-b008",
+    "page_key": 271,
+    "order": 8,
+    "type": "paragraph",
+    "text": "- Efficient likelihood computation: If the model is probabilistic, we would like to be able to calculate the probability of new examples efficiently and accurately.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0271-b009",
+    "page_key": 271,
+    "order": 9,
+    "type": "paragraph",
+    "text": "This naturally leads to the question of whether the generative models that we consider satisfy these properties. The answer is subjective, but figure 14.3 provides guidance. The precise assignments are disputable, but most practitioners would agree that there is no single model that satisfies all of these characteristics.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

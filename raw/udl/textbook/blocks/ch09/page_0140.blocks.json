@@ -1,0 +1,56 @@
+[
+  {
+    "id": "page_0140-b001",
+    "page_key": 140,
+    "order": 1,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "latex": "\\hat{\\boldsymbol{\\phi}}=\\underset{\\boldsymbol{\\phi}}{\\mathrm{argmin}}\\left[\\sum_{i=1}^{I}\\ell_{i}[\\mathbf{x}_{i},\\mathbf{y}_{i}]+\\lambda\\sum_{j}\\phi_{j}^{2}\\right],\n\\qquad (9.5)"
+  },
+  {
+    "id": "page_0140-b002",
+    "page_key": 140,
+    "order": 2,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "where j indexes the parameters. This is also referred to as Tikhonov regularization or ridge regression, or (when applied to matrices) Frobenius norm regularization."
+  },
+  {
+    "id": "page_0140-b003",
+    "page_key": 140,
+    "order": 3,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "For neural networks, L2 regularization is usually applied to the weights but not the biases and is hence referred to as a weight decay term. The effect is to encourage smaller weights, so the output function is smoother. To see this, consider that the output prediction is a weighted sum of the activations at the last hidden layer. If the weights have a smaller magnitude, the output will vary less. The same logic applies to the computation of the pre-activations at the last hidden layer and so on, progressing backward through the network. In the limit, if we forced all the weights to be zero, the network would produce a constant output determined by the final bias parameter."
+  },
+  {
+    "id": "page_0140-b004",
+    "page_key": 140,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Figure 9.2 shows the effect of fitting the simplified network from figure 8.4 with weight decay and different values of the regularization coefficient $\\lambda$. When $\\lambda$ is small, it has little effect. However, as $\\lambda$ increases, the fit to the data becomes less accurate, and the function becomes smoother. This might improve the test performance for two reasons:"
+  },
+  {
+    "id": "page_0140-b005",
+    "page_key": 140,
+    "order": 5,
+    "type": "list",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "- If the network is overfitting, then adding the regularization term means that the network must trade off slavish adherence to the data against the desire to be smooth. One way to think about this is that the error due to variance reduces (the model no longer needs to pass through every data point) at the cost of increased bias (the model can only describe smooth functions)."
+  },
+  {
+    "id": "page_0140-b006",
+    "page_key": 140,
+    "order": 6,
+    "type": "list",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "- When the network is over-parameterized, some of the extra model capacity describes areas with no training data. Here, the regularization term will favor functions that smoothly interpolate between the nearby points. This is reasonable behavior in the absence of knowledge about the true function."
+  }
+]

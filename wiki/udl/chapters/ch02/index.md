@@ -5,7 +5,7 @@ title: "Chapter 2: Supervised Learning"
 chapter_scope: [ch02]
 source_anchors:
   - source: udlbook-v5.0.3
-    locator: raw/udl/textbook/pages/ch02-supervised-learning/page_0031.md
+    locator: raw/udl/textbook/pages/ch02-supervised-learning/page_0017.md
   - source: udlbook-answer-booklet-students
     locator: raw/udl/answers/pages/page_0005.md
 confidence: directional
@@ -24,7 +24,7 @@ changing parameters changes the fit.
 
 ## Pack Status
 
-- Raw OCR pages: `raw/udl/textbook/pages/ch02-supervised-learning/page_0031.md` through `page_0038.md`.
+- Fused OCR pages: `raw/udl/textbook/pages/ch02-supervised-learning/page_0017.md` through `page_0024.md`.
 - Selected answers: booklet pages 5-6.
 - Reading guide: [reading-guide.md](reading-guide.md).
 - Practice index: [practice-index.md](practice-index.md).

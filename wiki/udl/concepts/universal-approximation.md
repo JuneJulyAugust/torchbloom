@@ -5,7 +5,7 @@ title: Universal Approximation
 chapter_scope: [ch03]
 source_anchors:
   - source: udlbook-v5.0.3
-    locator: raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0043.md
+    locator: raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0029.md
 confidence: directional
 prerequisites: [shallow-neural-networks, piecewise-linear-functions]
 related: [linear-regions]
@@ -38,6 +38,6 @@ segments can trace a more complicated shape.
 
 ## Source Anchors
 
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0043.md`
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0052.md`
+- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0029.md`
+- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0038.md`
 

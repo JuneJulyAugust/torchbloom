@@ -1,0 +1,58 @@
+[
+  {
+    "id": "page_0179-b001",
+    "page_key": 179,
+    "order": 1,
+    "type": "figure",
+    "text": "",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0179_fig_1.jpg"
+  },
+  {
+    "id": "page_0179-b002",
+    "page_key": 179,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 10.19 Semantic segmentation network of Noh et al. (2015). The input is a $224 \\times 224$ image, which is passed through a version of the VGG network and eventually transformed into a representation of size 4096 using a fully connected layer. This contains information about the entire image. This is then reformed into a representation of size $7 \\times 7$ using another fully connected layer, and the image is upsampled and deconvolved (transposed convolutions without upsampling) in a mirror image of the VGG network. The output is a $224 \\times 224 \\times 21$ representation that gives the output probabilities for the 21 classes at each position.",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "caption": "Figure 10.19 Semantic segmentation network of Noh et al. (2015). The input is a $224 \\times 224$ image, which is passed through a version of the VGG network and eventually transformed into a representation of size 4096 using a fully connected layer. This contains information about the entire image. This is then reformed into a representation of size $7 \\times 7$ using another fully connected layer, and the image is upsampled and deconvolved (transposed convolutions without upsampling) in a mirror image of the VGG network. The output is a $224 \\times 224 \\times 21$ representation that gives the output probabilities for the 21 classes at each position."
+  },
+  {
+    "id": "page_0179-b003",
+    "page_key": 179,
+    "order": 3,
+    "type": "paragraph",
+    "text": "by a series of max unpooling layers (see figure 10.12b) and deconvolution layers. These are transposed convolutions (see figure 10.13) but in 2D and without the upsampling. Finally, there is a $1 \\times 1$ convolution to create 21 channels representing the possible classes and a softmax operation at each spatial position to map the activations to class probabilities. The downsampling side of the network is sometimes referred to as an encoder, and the upsampling side as a decoder, so networks of this type are sometimes called encoder-decoder networks or hourglass networks due to their shape.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0179-b004",
+    "page_key": 179,
+    "order": 4,
+    "type": "paragraph",
+    "text": "The final segmentation is generated using a heuristic method that greedily searches for the class that is most represented and infers its region, taking into account the probabilities but also encouraging connectedness. Then the next most-represented class is added where it dominates at the remaining unlabeled pixels. This continues until there is insufficient evidence to add more (figure 10.20).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0179-b005",
+    "page_key": 179,
+    "order": 5,
+    "type": "heading",
+    "text": "## 10.6 Summary",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0179-b006",
+    "page_key": 179,
+    "order": 6,
+    "type": "paragraph",
+    "text": "In convolutional layers, each hidden unit is computed by taking a weighted sum of the nearby inputs, adding a bias, and applying an activation function. The weights and the bias are the same at every spatial position, so there are far fewer parameters than in a fully connected network, and the number of parameters doesn’t increase with the input image size. To ensure that information is not lost, this operation is repeated with",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

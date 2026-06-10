@@ -1,0 +1,67 @@
+[
+  {
+    "id": "page_0227-b001",
+    "page_key": 227,
+    "order": 1,
+    "type": "figure",
+    "text": "",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0227_fig_1.jpg"
+  },
+  {
+    "id": "page_0227-b002",
+    "page_key": 227,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 12.14 Cross-attention. The flow of computation is the same as in standard self-attention, but the queries are calculated from the decoder embeddings $X\\_{dec}$ , and the keys and values from the encoder embeddings $X\\_{enc}$ . For translation tasks, the encoder contains information about the source language statistics, and the decoder contains information about the target language statistics.",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "caption": "Figure 12.14 Cross-attention. The flow of computation is the same as in standard self-attention, but the queries are calculated from the decoder embeddings $X\\_{dec}$ , and the keys and values from the encoder embeddings $X\\_{enc}$ . For translation tasks, the encoder contains information about the source language statistics, and the decoder contains information about the target language statistics."
+  },
+  {
+    "id": "page_0227-b003",
+    "page_key": 227,
+    "order": 3,
+    "type": "paragraph",
+    "text": "conditioned on the previous output words and the source English sentence (figure 12.13).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0227-b004",
+    "page_key": 227,
+    "order": 4,
+    "type": "paragraph",
+    "text": "This is achieved by modifying the transformer layers in the decoder. Originally, these consisted of a masked self-attention layer followed by a neural network applied individually to each embedding (figure 12.12). A new self-attention layer is added between these two components, in which the decoder embeddings attend to the encoder embeddings. This uses a version of self-attention known as encoder-decoder attention or cross-attention, where the queries are computed from the decoder embeddings and the keys and values from the encoder embeddings (figure 12.14).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0227-b005",
+    "page_key": 227,
+    "order": 5,
+    "type": "heading",
+    "text": "## 12.9 Transformers for long sequences",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0227-b006",
+    "page_key": 227,
+    "order": 6,
+    "type": "paragraph",
+    "text": "Since each token in a transformer encoder model interacts with every other token, the computational complexity scales quadratically with the length of the sequence. For a decoder model, each token only interacts with previous tokens, so there are roughly half the number of interactions, but the complexity still scales quadratically. These relationships can be visualized as interaction matrices (figure 12.15a–b).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0227-b007",
+    "page_key": 227,
+    "order": 7,
+    "type": "paragraph",
+    "text": "This quadratic increase in the amount of computation ultimately limits the length of sequences that can be used. Many methods have been developed to extend the trans-",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

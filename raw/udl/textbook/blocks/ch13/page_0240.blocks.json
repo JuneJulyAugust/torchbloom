@@ -1,0 +1,83 @@
+[
+  {
+    "id": "page_0240-b001",
+    "page_key": 240,
+    "order": 1,
+    "type": "heading",
+    "text": "Chapter 13",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0240-b002",
+    "page_key": 240,
+    "order": 2,
+    "type": "heading",
+    "text": "Graph neural networks",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0240-b003",
+    "page_key": 240,
+    "order": 3,
+    "type": "paragraph",
+    "text": "Chapter 10 described convolutional networks, which specialize in processing regular arrays of data (e.g., images). Chapter 12 described transformers, which specialize in processing sequences of variable length (e.g., text). This chapter describes graph neural networks. As the name suggests, these are neural architectures that process graphs (i.e., sets of nodes connected by edges).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0240-b004",
+    "page_key": 240,
+    "order": 4,
+    "type": "paragraph",
+    "text": "There are three novel challenges associated with processing graphs. First, their topology is variable, and it is hard to design networks that are both sufficiently expressive and can cope with this variation. Second, graphs may be enormous; a graph representing connections between users of a social network might have a billion nodes. Third, there may only be a single monolithic graph available, so the usual protocol of training with many data examples and testing with new data is not always appropriate.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0240-b005",
+    "page_key": 240,
+    "order": 5,
+    "type": "paragraph",
+    "text": "This chapter starts by presenting real-world examples of graphs. It then describes how to encode these graphs and how to formulate supervised learning problems for graphs. The algorithmic requirements for processing graphs are discussed, and these lead naturally to graph convolutional networks, a particular type of graph neural network.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0240-b006",
+    "page_key": 240,
+    "order": 6,
+    "type": "heading",
+    "text": "13.1 What is a graph?",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0240-b007",
+    "page_key": 240,
+    "order": 7,
+    "type": "paragraph",
+    "text": "A graph is a very general structure and consists of a set of nodes or vertices, where pairs of nodes are connected by edges or links. Graphs are typically sparse; only a small subset of the possible edges are present.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0240-b008",
+    "page_key": 240,
+    "order": 8,
+    "type": "paragraph",
+    "text": "Some objects in the real world naturally take the form of graphs. For example, road networks can be considered graphs where the nodes are physical locations, and the edges represent roads between them (figure 13.1a). Chemical molecules are small graphs where the nodes represent atoms, and the edges represent chemical bonds (figure 13.1b). Electrical circuits are graphs where the nodes represent components and junctions, and the edges are electrical connections (figure 13.1c).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0240-b009",
+    "page_key": 240,
+    "order": 9,
+    "type": "paragraph",
+    "text": "Furthermore, many datasets can also be represented by graphs, even if this is not their obvious surface form. For example:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

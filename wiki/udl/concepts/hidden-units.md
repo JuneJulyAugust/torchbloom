@@ -5,7 +5,7 @@ title: Hidden Units
 chapter_scope: [ch03]
 source_anchors:
   - source: udlbook-v5.0.3
-    locator: raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0041.md
+    locator: raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0027.md
 confidence: directional
 prerequisites: [relu-activation, linear-regression]
 related: [shallow-neural-networks, linear-regions]
@@ -38,6 +38,6 @@ network becomes interesting when several clipped lines are added together.
 
 ## Source Anchors
 
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0041.md`
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0042.md`
+- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0027.md`
+- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0028.md`
 

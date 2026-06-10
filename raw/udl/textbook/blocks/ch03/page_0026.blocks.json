@@ -1,0 +1,67 @@
+[
+  {
+    "id": "page_0026-b001",
+    "page_key": 26,
+    "order": 1,
+    "type": "figure",
+    "source": "codex-fusion",
+    "confidence": "high",
+    "image_path": "figures/page_0026_fig_1.jpg",
+    "alt": "Figure 3.1 ReLU activation function"
+  },
+  {
+    "id": "page_0026-b002",
+    "page_key": 26,
+    "order": 2,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Figure 3.1 Rectified linear unit (ReLU). This activation function returns zero if the input is less than zero and returns the input unchanged otherwise. In other words, it clips negative values to zero. Note that there are many other possible choices for the activation function (see figure 3.13), but the ReLU is the most commonly used and the easiest to understand."
+  },
+  {
+    "id": "page_0026-b003",
+    "page_key": 26,
+    "order": 3,
+    "type": "figure",
+    "source": "codex-fusion",
+    "confidence": "high",
+    "image_path": "figures/page_0026_fig_2.jpg",
+    "alt": "Figure 3.2 family of piecewise linear functions"
+  },
+  {
+    "id": "page_0026-b004",
+    "page_key": 26,
+    "order": 4,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Figure 3.2 Family of functions defined by equation 3.1. a-c) Functions for three different choices of the ten parameters phi. In each case, the input/output relation is piecewise linear. However, the positions of the joints, the slopes of the linear regions between them, and the overall height vary."
+  },
+  {
+    "id": "page_0026-b005",
+    "page_key": 26,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "The selected member of the function family depends on phi; inference evaluates the equation and training minimizes least squares loss."
+  },
+  {
+    "id": "page_0026-b006",
+    "page_key": 26,
+    "order": 6,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "3.1.1 Neural network intuition"
+  },
+  {
+    "id": "page_0026-b007",
+    "page_key": 26,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Equation 3.1 represents continuous piecewise linear functions with up to four regions."
+  }
+]

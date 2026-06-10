@@ -1,0 +1,110 @@
+[
+  {
+    "id": "page_0080-b001",
+    "page_key": 80,
+    "order": 1,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "where the term $\\ell\\_{i} = (\\phi\\_{0} + \\phi\\_{1}x\\_{i} - y\\_{i})^{2}$ is the individual contribution to the loss from the $ i^{th}$ training example. The derivative of the loss function with respect to the parameters can be decomposed into the sum of the derivatives of the individual contributions:"
+  },
+  {
+    "id": "page_0080-b002",
+    "page_key": 80,
+    "order": 2,
+    "source": "deepseek",
+    "confidence": "medium",
+    "type": "equation",
+    "latex": "\\begin{aligned}\n\\frac{\\partial L}{\\partial\\phi}&=\\frac{\\partial}{\\partial\\boldsymbol{\\phi}}\\sum_{i=1}^{I}\\ell_{i}=\\sum_{i=1}^{I}\\frac{\\partial\\ell_{i}}{\\partial\\boldsymbol{\\phi}}\n\\end{aligned} \\qquad (6.6)"
+  },
+  {
+    "id": "page_0080-b003",
+    "page_key": 80,
+    "order": 3,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "where these are given by:"
+  },
+  {
+    "id": "page_0080-b004",
+    "page_key": 80,
+    "order": 4,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "exercise",
+    "text": "Problem 6.1"
+  },
+  {
+    "id": "page_0080-b005",
+    "page_key": 80,
+    "order": 5,
+    "source": "deepseek",
+    "confidence": "medium",
+    "type": "equation",
+    "latex": "\\begin{aligned}\n\\frac{\\partial \\ell_i}{\\partial \\boldsymbol{\\phi}}\n&= \\begin{bmatrix}\n\\frac{\\partial \\ell_i}{\\partial \\phi_0}\\\\\n\\frac{\\partial \\ell_i}{\\partial \\phi_1}\n\\end{bmatrix}\n= \\begin{bmatrix}\n2(\\phi_0+\\phi_1x_i-y_i)\\\\\n2x_i(\\phi_0+\\phi_1x_i-y_i)\n\\end{bmatrix}\n\\end{aligned} \\qquad (6.7)"
+  },
+  {
+    "id": "page_0080-b006",
+    "page_key": 80,
+    "order": 6,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "Notebook 6.2 Gradient descent Figure 6.1 shows the progression of this algorithm as we iteratively compute the derivatives according to equations 6.6 and 6.7 and then update the parameters using the rule in equation 6.3. In this case, we have used a line search procedure to find the value of $\\alpha $ that decreases the loss the most at each iteration."
+  },
+  {
+    "id": "page_0080-b007",
+    "page_key": 80,
+    "order": 7,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "heading",
+    "text": "6.1.2 Gabor model example"
+  },
+  {
+    "id": "page_0080-b008",
+    "page_key": 80,
+    "order": 8,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "Loss functions for linear regression problems (figure 6.1c) always have a single well-defined global minimum. More formally, they are convex, which means that every chord (line segment between two points on the surface) lies above the function and does not intersect it. Convexity implies that wherever we initialize the parameters, we are bound to reach the minimum if we keep walking downhill; the training procedure can't fail. Unfortunately, loss functions for most nonlinear models, including both shallow and deep networks, are non-convex. Visualizing neural network loss functions is challenging due to the number of parameters. Hence, we first explore a simpler nonlinear model with two parameters to gain insight into the properties of non-convex loss functions:"
+  },
+  {
+    "id": "page_0080-b009",
+    "page_key": 80,
+    "order": 9,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "Problems 6.3-6.5"
+  },
+  {
+    "id": "page_0080-b010",
+    "page_key": 80,
+    "order": 10,
+    "source": "deepseek",
+    "confidence": "medium",
+    "type": "equation",
+    "latex": "\\begin{aligned}\n\\mathrm{f}[x,\\boldsymbol{\\phi}]&=\\sin[\\phi_{0}+0.06\\cdot\\phi_{1}x]\\cdot\\exp\\left(-\\frac{(\\phi_{0}+0.06\\cdot\\phi_{1}x)^{2}}{32.0}\\right).\n\\end{aligned} \\qquad (6.8)"
+  },
+  {
+    "id": "page_0080-b011",
+    "page_key": 80,
+    "order": 11,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "This Gabor model maps scalar input x to scalar output y and consists of a sinusoidal component (creating an oscillatory function) multiplied by a negative exponential component (causing the amplitude to decrease as we move from the center). It has two parameters $\\phi = [\\phi\\_{0}, \\phi\\_{1}]^{T}$, where $\\phi\\_{0} \\in R $ determines the mean position of the function and $\\phi\\_{1} \\in R^{+}$ stretches or squeezes it along the x-axis (figure 6.2). Once more, the goal is to find the parameters $\\hat{\\phi}$ that minimize this loss."
+  },
+  {
+    "id": "page_0080-b012",
+    "page_key": 80,
+    "order": 12,
+    "source": "deepseek",
+    "confidence": "medium",
+    "type": "equation",
+    "latex": "\\begin{aligned}\nL[\\boldsymbol{\\phi}]&=\\sum_{i=1}^{I}\\left(\\mathrm{f}[x_{i},\\boldsymbol{\\phi}]-y_{i}\\right)^{2}.\n\\end{aligned} \\qquad (6.9)"
+  }
+]

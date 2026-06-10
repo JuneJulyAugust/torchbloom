@@ -7,7 +7,7 @@ source_anchors:
   - source: udl-official-site
     locator: https://udlbook.github.io/udlbook/
   - source: udlbook-v5.0.3
-    locator: raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0052.md
+    locator: raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0038.md
 confidence: directional
 prerequisites: [relu-activation, piecewise-linear-functions]
 related: [ch03-practice-index, eq-3-2-relu]
@@ -41,5 +41,5 @@ ch03-q08.
 ## Source Anchors
 
 - Official UDL site notebook list: `https://udlbook.github.io/udlbook/`
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0052.md`
+- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0038.md`
 

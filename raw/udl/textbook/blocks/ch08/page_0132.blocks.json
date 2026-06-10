@@ -1,0 +1,75 @@
+[
+  {
+    "id": "page_0132-b001",
+    "page_key": 132,
+    "order": 1,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "b)"
+  },
+  {
+    "id": "page_0132-b002",
+    "page_key": 132,
+    "order": 2,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "c)"
+  },
+  {
+    "id": "page_0132-b003",
+    "page_key": 132,
+    "order": 3,
+    "type": "figure",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0132_fig_1.jpg",
+    "alt": "Figure 8.12 Regularization. a-c) Each of the three fitted curves passes through the data points exactly, so the training loss for each is zero. However, we migh"
+  },
+  {
+    "id": "page_0132-b004",
+    "page_key": 132,
+    "order": 4,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "caption": "Figure 8.12 Regularization. a-c) Each of the three fitted curves passes through the data points exactly, so the training loss for each is zero. However, we might expect the smooth curve in panel (a) to generalize much better to new data than the erratic curves in panels (b) and (c). Any factor that biases a model toward a subset of the solutions with a similar training loss is known as a regularizer. It is thought that the initialization and/or fitting of neural networks have an implicit regularizing effect. Consequently, in the over-parameterized regime, more reasonable solutions, such as that in panel (a), are encouraged."
+  },
+  {
+    "id": "page_0132-b005",
+    "page_key": 132,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "The answer to this question is uncertain, but there are two likely possibilities. First, the network initialization may encourage smoothness, and the model never departs from the sub-domain of smooth function during the training process. Second, the training algorithm may somehow \"prefer\" to converge to smooth functions. Any factor that biases a solution toward a subset of equivalent solutions is known as a regularizer, so one possibility is that the training algorithm acts as an implicit regularizer (see section 9.2)."
+  },
+  {
+    "id": "page_0132-b006",
+    "page_key": 132,
+    "order": 6,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "8.5 Choosing hyperparameters"
+  },
+  {
+    "id": "page_0132-b007",
+    "page_key": 132,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "In the previous section, we discussed how test performance changes with model capacity. Unfortunately, in the classical regime, we don't have access to either the bias (which requires knowledge of the true underlying function) or the variance (which requires multiple independently sampled datasets to estimate). In the modern regime, there is no way to tell how much capacity should be added before the test error stops improving. This raises the question of exactly how we should choose model capacity in practice."
+  },
+  {
+    "id": "page_0132-b008",
+    "page_key": 132,
+    "order": 8,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "For a deep network, the model capacity depends on the number of hidden layers and hidden units per layer as well as other aspects of architecture that we have yet to introduce. Furthermore, the choice of learning algorithm and any associated parameters (learning rate, etc.) also affects the test performance. These elements are collectively termed hyperparameters. The process of finding the best hyperparameters is termed hyperparameter search or (when focused on network structure) neural architecture search."
+  }
+]

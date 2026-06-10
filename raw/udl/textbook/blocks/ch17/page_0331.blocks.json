@@ -1,0 +1,120 @@
+[
+  {
+    "id": "page_0331-b001",
+    "page_key": 331,
+    "order": 1,
+    "type": "figure",
+    "text": "../../figures/page_0331_fig_1.jpg",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "image_path": "figures/page_0331_fig_1.jpg"
+  },
+  {
+    "id": "page_0331-b002",
+    "page_key": 331,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 17.4 Jensen's inequality (discrete case). The logarithm (black curve) is a concave function; you can draw a straight line between any two points on the curve, and this line will always lie underneath it. It follows that any convex combination (weighted sum with positive weights that sum to one) of the six points on the log function must lie in the gray region under the curve. Here, we have weighted the points equally (i.e., taken the mean) to yield the cyan point. Since this point lies below the curve, $\\log[\\mathbb{E}[y]] > \\mathbb{E}[\\log[y]]$ .",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0331-b003",
+    "page_key": 331,
+    "order": 3,
+    "type": "heading",
+    "text": "17.3 Training",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0331-b004",
+    "page_key": 331,
+    "order": 4,
+    "type": "paragraph",
+    "text": "To train the model, we maximize the log-likelihood over a training dataset $\\lbrace x\\_{i}\\rbrace \\_{i=1}^{I}$ with respect to the model parameters. For simplicity, we assume that the variance term $\\sigma^{2}$ in the likelihood expression is known and concentrate on learning $\\phi$ :",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0331-b005",
+    "page_key": 331,
+    "order": 5,
+    "type": "equation",
+    "text": "$$\n\\hat{\\boldsymbol{\\phi}}\\quad=\\quad\\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{argmax}}}\\left[\\sum_{i=1}^{I}\\log\\left[\\Pr(\\mathbf{x}_{i}|\\boldsymbol{\\phi})\\right]\\right]\n\\qquad (17.8)\n$$",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0331-b006",
+    "page_key": 331,
+    "order": 6,
+    "type": "paragraph",
+    "text": "where:",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0331-b007",
+    "page_key": 331,
+    "order": 7,
+    "type": "equation",
+    "text": "$$\n\\Pr(\\mathbf{x}_{i}|\\boldsymbol{\\phi})\\quad=\\quad\\int\\mathrm{Norm}_{\\mathbf{x}_{i}}[\\mathbf{f}[\\mathbf{z},\\boldsymbol{\\phi}],\\sigma^{2}\\mathbf{I}]\\cdot\\mathrm{Norm}_{\\mathbf{z}}[\\mathbf{0},\\mathbf{I}]d\\mathbf{z}\n\\qquad (17.9)\n$$",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0331-b008",
+    "page_key": 331,
+    "order": 8,
+    "type": "paragraph",
+    "text": "Unfortunately, this is intractable. There is no closed-form expression for the integral and no easy way to evaluate it for a particular value of x.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0331-b009",
+    "page_key": 331,
+    "order": 9,
+    "type": "heading",
+    "text": "17.3.1 Evidence lower bound (ELBO)",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0331-b010",
+    "page_key": 331,
+    "order": 10,
+    "type": "paragraph",
+    "text": "To make progress, we define a lower bound on the log-likelihood. This is a function that is always less than or equal to the log-likelihood for a given value of $\\phi$ and will also depend on some other parameters $\\theta$ . Eventually, we will build a network to compute this lower bound and optimize it. To define this lower bound, we need Jensen's inequality.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0331-b011",
+    "page_key": 331,
+    "order": 11,
+    "type": "heading",
+    "text": "17.3.2 Jensen's inequality",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0331-b012",
+    "page_key": 331,
+    "order": 12,
+    "type": "paragraph",
+    "text": "Jensen's inequality says that a concave function $g[\\bullet]$ of the expectation of data $y$ is greater than or equal to the expectation of the function of the data:",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0331-b013",
+    "page_key": 331,
+    "order": 13,
+    "type": "paragraph",
+    "text": "Concave functions",
+    "source": "deepseek",
+    "confidence": "medium"
+  }
+]

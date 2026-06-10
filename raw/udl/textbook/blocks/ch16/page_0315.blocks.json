@@ -1,0 +1,84 @@
+[
+  {
+    "id": "page_0315-b001",
+    "page_key": 315,
+    "order": 1,
+    "type": "figure",
+    "text": "../../figures/page_0315_fig_1.jpg",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "image_path": "figures/page_0315_fig_1.jpg"
+  },
+  {
+    "id": "page_0315-b002",
+    "page_key": 315,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 16.8 Residual flows. a) An invertible function is computed by splitting the input into $h\\_{1}$ and $h\\_{2}$ and creating two residual layers. In the first, $h\\_{2}$ is processed and $h\\_{1}$ is added. In the second, the result is processed, and $h\\_{2}$ is added. b) In the reverse mechanism the functions are computed in the opposite order, and the addition operation becomes subtraction.",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0315-b003",
+    "page_key": 315,
+    "order": 3,
+    "type": "equation",
+    "text": "$$\n\\begin{aligned}\n\\mathbf{h}_{1}^{\\prime}&=\\mathbf{h}_{1}+\\mathbf{f}_{1}[\\mathbf{h}_{2},\\boldsymbol{\\phi}_{1}]\\\\\n\\mathbf{h}_{2}^{\\prime}&=\\mathbf{h}_{2}+\\mathbf{f}_{2}[\\mathbf{h}_{1}^{\\prime},\\boldsymbol{\\phi}_{2}]\n\\end{aligned}\n\\qquad (16.18)\n$$",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0315-b004",
+    "page_key": 315,
+    "order": 4,
+    "type": "paragraph",
+    "text": "where $\\mathbf{f}\\_{1}[\\bullet,\\phi\\_{1}]$ and $\\mathbf{f}\\_{2}[\\bullet,\\phi\\_{2}]$ are two functions that do not necessarily have to be invertible (figure 16.8). The inverse can be computed by reversing the order of computation:",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0315-b005",
+    "page_key": 315,
+    "order": 5,
+    "type": "equation",
+    "text": "$$\n\\begin{aligned}\n\\mathbf{h}_{2}&=\\mathbf{h}_{2}^{\\prime}-\\mathbf{f}_{2}[\\mathbf{h}_{1}^{\\prime},\\boldsymbol{\\phi}_{2}]\\\\\n\\mathbf{h}_{1}&=\\mathbf{h}_{1}^{\\prime}-\\mathbf{f}_{1}[\\mathbf{h}_{2},\\boldsymbol{\\phi}_{1}].\n\\end{aligned}\n\\qquad (16.19)\n$$",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0315-b006",
+    "page_key": 315,
+    "order": 6,
+    "type": "paragraph",
+    "text": "As for coupling flows, the division into blocks restricts the family of transformations that can be represented. Hence, the inputs are permuted between layers so that the variables can mix in arbitrary ways.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0315-b007",
+    "page_key": 315,
+    "order": 7,
+    "type": "paragraph",
+    "text": "This formulation can be inverted easily, but for general functions $f\\_{1}[\\bullet,\\phi\\_{1}]$ and $f\\_{2}[\\bullet,\\phi\\_{2}]$ , there is no efficient way to compute the Jacobian. This formulation is sometimes used to save memory when training residual networks; because the network is invertible, storing the activations at each layer in the forward pass is unnecessary.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0315-b008",
+    "page_key": 315,
+    "order": 8,
+    "type": "heading",
+    "text": "16.3.7 Residual flows and contraction mappings: iResNet",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0315-b009",
+    "page_key": 315,
+    "order": 9,
+    "type": "paragraph",
+    "text": "A different approach to exploiting residual networks is to utilize the Banach fixed point theorem or contraction mapping theorem, which states that every contraction mapping has a fixed point. A contraction mapping $f[\\bullet]$ has the property that:",
+    "source": "deepseek",
+    "confidence": "medium"
+  }
+]

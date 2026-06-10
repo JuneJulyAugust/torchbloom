@@ -86,6 +86,19 @@ Each fused page has YAML frontmatter:
 
 The body should preserve normal reading order, section headings, equations in LaTeX when available, figure references, and captions. Review notes are useful during fusion, but they must not remain in final Markdown frontmatter or body text.
 
+Markdown math must use GitHub-compatible syntax:
+
+- Display equations use `$$` delimiters rather than `\[` and `\]`.
+- Inline equations use `$...$` rather than `\(...\)`.
+- Named functions use GitHub-accepted forms such as `\mathrm{ReLU}` and `\mathrm{argmin}` rather than `\operatorname{...}`.
+- Inline literal set braces use `\lbrace ...\rbrace` rather than `\{...\}`, because Markdown may consume the backslash escapes before MathJax receives the expression.
+- Numbered display equations do not use `\tag{...}`. GitHub may reject or vertically stack tagged equations, so visible numbers are written inside the display as plain math text, for example `\quad (3.4)`.
+- Footnotes use Markdown footnote syntax such as `[^1]` and `[^1]: ...`, not math superscript markers such as `$^1$`.
+
+GitHub renders `$$` math blocks and `$...$` inline math in Markdown files, while the bracket and parenthesis delimiters may render in local previews but appear as plain text on GitHub. GitHub's math sanitizer may reject some LaTeX macros, including `\operatorname`.
+
+The full-book rollout must preserve the same page-level Codex fusion discipline used for the first-three-chapter pilot. A mechanical publish of DeepSeek or PPStructureV3 OCR, even with validators, is not sufficient for equation-heavy pages. Validators catch known failure signatures, but a fused page still needs source-grounded review against the OCR evidence and the page image when equations or layout are ambiguous.
+
 ### Blocks JSON
 
 Each page also has a lightweight block sidecar for future LLM parsing:
@@ -105,6 +118,8 @@ Each page also has a lightweight block sidecar for future LLM parsing:
 ```
 
 Supported block types are `heading`, `paragraph`, `equation`, `figure`, `caption`, `table`, `list`, `exercise`, and `review_note`.
+
+The `source` field records provenance, not the last process that touched the block. Use `deepseek+paddle` when the two OCR sources agree or jointly support the block, `deepseek` or `paddle` when only one source supports it, and `codex-fusion` only when the fused output materially corrects or reconstructs content from page evidence. Keep `confidence` honest: `high` means the block was visually or source checked, not merely that it passes syntax validation.
 
 For figure blocks, the sidecar records the stable crop path under `output/udl-fusion-pilot/figures/`. PPStructureV3 visual crops are the visual source of truth unless a crop is visibly wrong. PPStructureV3 formula crops are evidence only and must not appear as final Markdown images or JSON figure blocks.
 
@@ -142,6 +157,8 @@ When PPStructureV3 misses a figure or detects only part of a multi-panel figure,
 10. Keep uncertainty out of final Markdown; use reports or JSON sidecars for audit notes.
 11. Use printed book page numbers for fused Markdown, block JSON, prompt, and final figure filenames. Keep PDF page numbers in metadata and source/evidence paths.
 12. Do not create public-facing curriculum pages from this layer yet; this remains source-derived OCR working output.
+13. Use GitHub-compatible math: `$$` for display math, `$...$` for inline math, `\mathrm{...}` for named functions instead of `\operatorname{...}`, `\lbrace ...\rbrace` for inline set braces, and plain visible equation numbers like `\quad (3.4)` instead of `\tag{...}`.
+14. Use Markdown footnotes such as `[^1]`; do not encode footnote markers as `$^1$`.
 
 ## Subagent Split
 
@@ -167,6 +184,7 @@ The pilot is useful when:
 - stable figure files are regenerated from high-resolution PDF renders using the PPStructureV3 boxes,
 - manual figure overrides are recorded when PPStructureV3 misses or under-crops a required visual,
 - leading figure captions have enough final visual image blocks to match them,
+- display equations avoid `\tag{...}` and footnotes use Markdown footnote syntax,
 - per-page frontmatter is parseable,
 - uncertainty is explicit in reports or sidecars rather than final Markdown,
 - the report explains where PPStructureV3 was better, where DeepSeek was better, and where human review is still needed.

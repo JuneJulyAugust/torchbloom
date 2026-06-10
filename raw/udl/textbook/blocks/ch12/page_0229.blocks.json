@@ -1,0 +1,83 @@
+[
+  {
+    "id": "page_0229-b001",
+    "page_key": 229,
+    "order": 1,
+    "type": "paragraph",
+    "text": "reasons. First, there are many more pixels in an image than words in a sentence, so the quadratic complexity of self-attention poses a practical bottleneck. Second, convolutional nets have a good inductive bias because each layer is equivariant to spatial translation, and takes into account the 2D structure of the image. However, this must be learned in a transformer network.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0229-b002",
+    "page_key": 229,
+    "order": 2,
+    "type": "paragraph",
+    "text": "Regardless of these apparent disadvantages, transformer networks for images have now eclipsed the performance of convolutional networks for image classification and other tasks. This is partly because of the enormous scale at which they can be constructed and the large amounts of data that can be used to pre-train the networks. This section describes transformer models for images.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0229-b003",
+    "page_key": 229,
+    "order": 3,
+    "type": "heading",
+    "text": "## 12.10.1 ImageGPT",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0229-b004",
+    "page_key": 229,
+    "order": 4,
+    "type": "paragraph",
+    "text": "ImageGPT is a transformer decoder; it builds an autoregressive model of image pixels that ingests a partial image and predicts the subsequent pixel value. The quadratic complexity of the transformer network means that the largest model (which contained 6.8 billion parameters) could still only operate on $64 \\times 64$ images. Moreover, to make this tractable, the original 24-bit RGB color space had to be quantized into a nine-bit color space, so the system ingests (and predicts) one of 512 possible tokens at each position.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0229-b005",
+    "page_key": 229,
+    "order": 5,
+    "type": "paragraph",
+    "text": "Images are naturally 2D objects, but ImageGPT simply learns a different positional encoding at each pixel. Hence it must learn that each pixel has a close relationship with its preceding neighbors and also with nearby pixels in the row above. Figure 12.16 shows example generation results.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0229-b006",
+    "page_key": 229,
+    "order": 6,
+    "type": "paragraph",
+    "text": "The internal representation of this decoder was used as a basis for image classification. Each pixel’s final embedding is averaged, and a linear layer maps these values to activations which are passed through a softmax layer to predict class probabilities. The system is pre-trained on a large corpus of web images and then fine-tuned on the ImageNet database resized to $48 \\times 48$ pixels using a loss function that contains both a cross-entropy term for image classification and a generative loss term for predicting the pixels. Despite using a large amount of external training data, the system achieved only a 27.4% top-1 error rate on ImageNet (figure 10.15). This was worse than convolutional architectures of the time (see figure 10.21) but is still impressive given the small input image size; unsurprisingly, it fails where the target object is small or thin.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0229-b007",
+    "page_key": 229,
+    "order": 7,
+    "type": "heading",
+    "text": "## 12.10.2 Vision Transformer (ViT)",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0229-b008",
+    "page_key": 229,
+    "order": 8,
+    "type": "paragraph",
+    "text": "The Vision Transformer tackled the problem of image resolution by dividing the image into $16 \\times 16$ patches (figure 12.17). Each patch is mapped to an input embedding via a learned linear transformation, and these representations are fed into the transformer network. Once again, standard 1D positional encodings are learned.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0229-b009",
+    "page_key": 229,
+    "order": 9,
+    "type": "paragraph",
+    "text": "This is an encoder model with a  token (see figures 12.10–12.11). However, unlike BERT, it uses supervised pre-training on a large database of 303 million labeled images from 18,000 classes. The  token is mapped via a final network layer to create activations that are fed into a softmax function to generate class probabilities. After pre-training, the system is applied to the final classification task by replacing this",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

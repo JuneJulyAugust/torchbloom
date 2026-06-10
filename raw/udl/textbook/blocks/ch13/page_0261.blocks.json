@@ -1,0 +1,66 @@
+[
+  {
+    "id": "page_0261-b001",
+    "page_key": 261,
+    "order": 1,
+    "type": "figure",
+    "text": "",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0261_fig_1.jpg"
+  },
+  {
+    "id": "page_0261-b002",
+    "page_key": 261,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 13.13 Edge graph. a) Graph with six nodes. b) To create the edge graph, we assign one node for each original edge (cyan circles), and c) connect the new nodes if the edges they represent connect to the same node in the original graph.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0261-b003",
+    "page_key": 261,
+    "order": 3,
+    "type": "paragraph",
+    "text": "minor modifications, nodes can be updated simultaneously from both nodes and edges.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0261-b004",
+    "page_key": 261,
+    "order": 4,
+    "type": "heading",
+    "text": "13.10 Summary",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0261-b005",
+    "page_key": 261,
+    "order": 5,
+    "type": "paragraph",
+    "text": "Graphs consist of a set of nodes, where pairs of these nodes are connected by edges. Both nodes and edges can have data attached, and these are referred to as node embeddings and edge embeddings, respectively. Many real-world problems can be framed in terms of graphs, where the goal is to establish a property of the entire graph, properties of each node or edge, or the presence of additional edges in the graph.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0261-b006",
+    "page_key": 261,
+    "order": 6,
+    "type": "paragraph",
+    "text": "Graph neural networks are deep learning models that are applied to graphs. Since the node order in graphs is arbitrary, the layers of graph neural networks must be equivariant to permutations of the node indices. Spatial-based convolutional networks are a family of graph neural networks that aggregate information from the neighbors of a node and then use this to update the node embeddings.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0261-b007",
+    "page_key": 261,
+    "order": 7,
+    "type": "paragraph",
+    "text": "One challenge of processing graphs is that they often occur in the transductive setting, where there is only one partially labeled graph rather than sets of training and test graphs. This graph can be extremely large, which adds further challenges in terms of training and has led to sampling and partitioning algorithms. The edge graph has a node for every edge in the original graph. By converting to this representation, graph neural networks can be used to update the edge embeddings.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

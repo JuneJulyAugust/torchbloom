@@ -1,0 +1,128 @@
+[
+  {
+    "id": "page_0060-b001",
+    "page_key": 60,
+    "order": 1,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "heading",
+    "text": "5.1.4 Minimizing negative log-likelihood"
+  },
+  {
+    "id": "page_0060-b002",
+    "page_key": 60,
+    "order": 2,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "Finally, we note that, by convention, model fitting problems are framed in terms of minimizing a loss. To convert the maximum log-likelihood criterion to a minimization problem, we multiply by minus one, which gives us the negative log-likelihood criterion:"
+  },
+  {
+    "id": "page_0060-b003",
+    "page_key": 60,
+    "order": 3,
+    "source": "deepseek",
+    "confidence": "medium",
+    "type": "equation",
+    "latex": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}}\n&= \\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{argmin}}}\\left[-\\sum_{i=1}^{I}\\log\\left[\\Pr\\left(\\mathbf{y}_i\\mid\\mathbf{f}[\\mathbf{x}_i,\\boldsymbol{\\phi}]\\right)\\right]\\right] \\\\\n&= \\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{argmin}}}\\left[L[\\boldsymbol{\\phi}]\\right]\n\\end{aligned} \\qquad (5.4)"
+  },
+  {
+    "id": "page_0060-b004",
+    "page_key": 60,
+    "order": 4,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "which is what forms the final loss function $ L[\\phi]$."
+  },
+  {
+    "id": "page_0060-b005",
+    "page_key": 60,
+    "order": 5,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "heading",
+    "text": "5.1.5 Inference"
+  },
+  {
+    "id": "page_0060-b006",
+    "page_key": 60,
+    "order": 6,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "The network no longer directly predicts the outputs y but instead determines a probability distribution over y. When we perform inference, we often want a point estimate rather than a distribution, so we return the maximum of the distribution:"
+  },
+  {
+    "id": "page_0060-b007",
+    "page_key": 60,
+    "order": 7,
+    "source": "deepseek",
+    "confidence": "medium",
+    "type": "equation",
+    "latex": "\\begin{aligned}\n\\hat{\\mathbf{y}} &= \\underset{\\mathbf{y}}{\\mathop{\\mathrm{argmax}}}\\left[\\Pr\\left(\\mathbf{y}\\mid\\mathbf{f}[\\mathbf{x},\\hat{\\boldsymbol{\\phi}}]\\right)\\right]\n\\end{aligned} \\qquad (5.5)"
+  },
+  {
+    "id": "page_0060-b008",
+    "page_key": 60,
+    "order": 8,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "It is usually possible to find an expression for this in terms of the distribution parameters $\\theta $ predicted by the model. For example, in the univariate normal distribution, the maximum occurs at the mean $\\mu $."
+  },
+  {
+    "id": "page_0060-b009",
+    "page_key": 60,
+    "order": 9,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "heading",
+    "text": "5.2 Recipe for constructing loss functions"
+  },
+  {
+    "id": "page_0060-b010",
+    "page_key": 60,
+    "order": 10,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "The recipe for constructing loss functions for training data $\\lbrace x\\_{i}, y\\_{i} \\rbrace $ using the maximum likelihood approach is hence: 1. Choose a suitable probability distribution $\\Pr(\\mathbf{y}\\mid\\boldsymbol{\\theta})$ defined over the domain of the predictions y with distribution parameters $\\theta $. 2. Set the machine learning model $\\mathbf{f}[\\mathbf{x}, \\phi]$ to predict one or more of these parameters, so $\\boldsymbol{\\theta} = \\mathbf{f}[\\mathbf{x}, \\phi]$ and $\\Pr(\\mathbf{y}\\mid\\boldsymbol{\\theta}) = \\Pr(\\mathbf{y}\\mid\\mathbf{f}[\\mathbf{x},\\boldsymbol{\\phi}])$."
+  },
+  {
+    "id": "page_0060-b011",
+    "page_key": 60,
+    "order": 11,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "list",
+    "text": "3. To train the model, find the network parameters $\\hat{\\phi}$ that minimize the negative log-likelihood loss function over the training dataset pairs $\\lbrace x\\_{i}, y\\_{i} \\rbrace $:"
+  },
+  {
+    "id": "page_0060-b012",
+    "page_key": 60,
+    "order": 12,
+    "source": "deepseek",
+    "confidence": "medium",
+    "type": "equation",
+    "latex": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}}\n&= \\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{argmin}}}\\left[L[\\boldsymbol{\\phi}]\\right] \\\\\n&= \\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{argmin}}}\\left[-\\sum_{i=1}^{I}\\log\\left[\\Pr\\left(\\mathbf{y}_i\\mid\\mathbf{f}[\\mathbf{x}_i,\\boldsymbol{\\phi}]\\right)\\right]\\right]\n\\end{aligned} \\qquad (5.6)"
+  },
+  {
+    "id": "page_0060-b013",
+    "page_key": 60,
+    "order": 13,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "list",
+    "text": "4. To perform inference for a new test example x, return either the full distribution $\\Pr(\\mathbf{y}\\mid\\mathbf{f}[\\mathbf{x},\\hat{\\boldsymbol{\\phi}}])$ or the value where this distribution is maximized."
+  },
+  {
+    "id": "page_0060-b014",
+    "page_key": 60,
+    "order": 14,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "We devote most of the rest of this chapter to constructing loss functions for common prediction types using this recipe."
+  }
+]

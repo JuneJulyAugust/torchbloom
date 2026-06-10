@@ -1,0 +1,75 @@
+[
+  {
+    "id": "page_0272-b001",
+    "page_key": 272,
+    "order": 1,
+    "type": "paragraph",
+    "text": "ModelEfficientSample qualityCoverageWell-behaved latent spaceDisentangled latent spaceEfficient likelihoodGANsVAEs✓✗?✓?n/aDiffusion✗✓?✗?✗",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0272-b002",
+    "page_key": 272,
+    "order": 2,
+    "type": "figure",
+    "text": "",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0272_fig_1.jpg"
+  },
+  {
+    "id": "page_0272-b003",
+    "page_key": 272,
+    "order": 3,
+    "type": "caption",
+    "text": "Figure 14.3 Properties of four generative models. Neither generative adversarial networks (GANs), variational autoencoders (VAEs), normalizing flows (Flows), nor diffusion models (diffusion) have the full complement of desirable properties.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0272-b004",
+    "page_key": 272,
+    "order": 4,
+    "type": "heading",
+    "text": "14.3 Quantifying performance",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0272-b005",
+    "page_key": 272,
+    "order": 5,
+    "type": "paragraph",
+    "text": "The previous section discussed the desirable properties of generative models. We now consider quantitative measures of success for generative models. Much experimentation with generative models has used images due to the widespread availability of that data and the ease of qualitatively judging the samples. Consequently, some of these metrics only apply to images.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0272-b006",
+    "page_key": 272,
+    "order": 6,
+    "type": "paragraph",
+    "text": "Test likelihood: One way to compare probabilistic models is to measure their likelihood for a test dataset. It is ineffective to measure the training data likelihood because a model could assign a very high probability to each training point and very low probabilities in between. This model would have a very high training likelihood but could only reproduce the training data. The test likelihood captures how well the model generalizes from the training data and also the coverage; if the model assigns a high probability to just a subset of the training data, it must assign lower probabilities elsewhere, so a portion of the test examples will have low probability.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0272-b007",
+    "page_key": 272,
+    "order": 7,
+    "type": "paragraph",
+    "text": "Test likelihood is a sensible way to quantify probabilistic models, but unfortunately, it is not relevant for generative adversarial models (which do not assign a probability) and is expensive to estimate for variational autoencoders and diffusion models (although it is possible to compute a lower bound on the log-likelihood). Normalizing flows are the only type of model for which the likelihood can be computed exactly and efficiently.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0272-b008",
+    "page_key": 272,
+    "order": 8,
+    "type": "paragraph",
+    "text": "Inception score: The inception score (IS) is specialized for images and ideally for generative models trained on the ImageNet database. The score is calculated using a pre-trained classification model – usually the “Inception” model, from which the name is derived. It is based on two criteria. First, each generated image  $x^{*}$  should look like one and only one of the 1000 possible classes y in the ImageNet database. Hence, the probability distribution  $\\Pr[y \\mid x\\_{i}^{*}]$  should be highly peaked at the correct class. Second, the entire set of generated images should be assigned to the classes with equal probability, so  $\\Pr[y]$  should be flat when averaged over all generated examples.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

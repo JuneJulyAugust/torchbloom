@@ -1,0 +1,11 @@
+[
+  {
+    "id": "page_0115-b001",
+    "page_key": 115,
+    "order": 1,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "latex": "\\mathrm{Heaviside}[z]=\\begin{cases}\n0 & z < 0 \\\\\n1 & z \\geq 0\n\\end{cases}\n\\qquad (7.40)"
+  }
+]

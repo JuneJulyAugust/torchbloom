@@ -1,0 +1,76 @@
+[
+  {
+    "id": "page_0197-b001",
+    "page_key": 197,
+    "order": 1,
+    "type": "figure",
+    "text": "",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0197_fig_1.jpg"
+  },
+  {
+    "id": "page_0197-b002",
+    "page_key": 197,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 11.9 DenseNet. This architecture uses residual connections to concatenate the outputs of earlier layers to later ones. Here, the three-channel input image is processed to form a 32-channel representation. The input image is concatenated to this to give a total of 35 channels. This combined representation is processed to create another 32-channel representation, and both earlier representations are concatenated to this to create a total of 67 channels and so on.",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "caption": "Figure 11.9 DenseNet. This architecture uses residual connections to concatenate the outputs of earlier layers to later ones. Here, the three-channel input image is processed to form a 32-channel representation. The input image is concatenated to this to give a total of 35 channels. This combined representation is processed to create another 32-channel representation, and both earlier representations are concatenated to this to create a total of 67 channels and so on."
+  },
+  {
+    "id": "page_0197-b003",
+    "page_key": 197,
+    "order": 3,
+    "type": "paragraph",
+    "text": "(in terms of channels for a convolutional network), but an optional subsequent linear transformation can map back to the original size (a $1 \\times 1$ convolution for a convolutional network). This allows the model to add the representations together, take a weighted sum, or combine them in a more complex way.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0197-b004",
+    "page_key": 197,
+    "order": 4,
+    "type": "paragraph",
+    "text": "The DenseNet architecture uses concatenation so that the input to a layer comprises the concatenated outputs from all previous layers (figure 11.9). These are processed to create a new representation that is itself concatenated with the previous representation and passed to the next layer. This concatenation means there is a direct contribution from earlier layers to the output, so the loss surface behaves reasonably.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0197-b005",
+    "page_key": 197,
+    "order": 5,
+    "type": "paragraph",
+    "text": "In practice, this can only be sustained for a few layers because the number of channels (and hence the number of parameters required to process them) becomes increasingly large. This problem can be alleviated by applying a $1 \\times 1$ convolution to reduce the number of channels before the next $3 \\times 3$ convolution is applied. In a convolutional network, the input is periodically downsampled. Concatenation across the downsampling makes no sense since the representations have different spatial sizes. Consequently, the chain of concatenation is broken at this point, and a smaller representation starts a new chain. In addition, another bottleneck $1 \\times 1$ convolution can be applied when the downsampling occurs to control the representation size further.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0197-b006",
+    "page_key": 197,
+    "order": 6,
+    "type": "paragraph",
+    "text": "This network performs competitively with ResNet models on image classification (see figure 10.21); indeed, it can perform better for a comparable parameter count. This is presumably because it can reuse processing from earlier layers more flexibly.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0197-b007",
+    "page_key": 197,
+    "order": 7,
+    "type": "heading",
+    "text": "## 11.5.3 U-Nets and hourglass networks",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0197-b008",
+    "page_key": 197,
+    "order": 8,
+    "type": "paragraph",
+    "text": "Section 10.5.3 described a semantic segmentation network that had an encoder-decoder or hourglass structure. The encoder repeatedly downsamples the image until the receptive fields are large and information is integrated from across the image. Then the decoder",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

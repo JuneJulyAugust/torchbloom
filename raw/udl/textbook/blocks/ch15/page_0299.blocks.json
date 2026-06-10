@@ -1,0 +1,57 @@
+[
+  {
+    "id": "page_0299-b001",
+    "page_key": 299,
+    "order": 1,
+    "type": "figure",
+    "text": "",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0299_fig_1.jpg"
+  },
+  {
+    "id": "page_0299-b002",
+    "page_key": 299,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 15.20 StyleGAN results. First four columns show systematic changes in style at various scales. Fifth column shows the effect of increasing noise magnitude. Last two columns show different noise vectors at two different scales.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0299-b003",
+    "page_key": 299,
+    "order": 3,
+    "type": "paragraph",
+    "text": "Wasserstein GAN, which provides a more consistent training signal.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0299-b004",
+    "page_key": 299,
+    "order": 4,
+    "type": "paragraph",
+    "text": "We reviewed convolutional GANs for generating images and a series of tricks that improve the quality of the generated images, including progressive growing, mini-batch discrimination, and truncation. Conditional GAN architectures introduce an auxiliary vector that allows control over the output (e.g., the choice of object class). Image translation tasks retain this conditional information in the form of an image but dispense with the random noise. The GAN discriminator now works as an additional loss term that favors “realistic” looking images. Finally, we described StyleGAN, which injects noise into the generator strategically to control the style and noise at different scales.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0299-b005",
+    "page_key": 299,
+    "order": 5,
+    "type": "heading",
+    "text": "Notes",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0299-b006",
+    "page_key": 299,
+    "order": 6,
+    "type": "paragraph",
+    "text": "Goodfellow et al. (2014) introduced generative adversarial networks. An early review of progress can be found in Goodfellow (2016). More recent overviews include Creswell et al. (2018) and",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

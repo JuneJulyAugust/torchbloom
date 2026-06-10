@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 300" role="img" aria-labelledby="title desc">
+  <title id="title">TorchBloom AI logo</title>
+  <desc id="desc">TorchBloom AI wordmark with a refined torch and sprout mark.</desc>
+  <defs>
+    <linearGradient id="flameWarm" x1="178" y1="82" x2="337" y2="281" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff0a6"/>
+      <stop offset=".42" stop-color="#ffb23f"/>
+      <stop offset="1" stop-color="#f9733d"/>
+    </linearGradient>
+    <linearGradient id="leafLeft" x1="140" y1="312" x2="258" y2="382" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#48bb78"/>
+      <stop offset="1" stop-color="#2f855a"/>
+    </linearGradient>
+    <linearGradient id="leafRight" x1="258" y1="382" x2="378" y2="310" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2fb7a4"/>
+      <stop offset="1" stop-color="#2c9a8b"/>
+    </linearGradient>
+  </defs>
+  <rect width="980" height="300" rx="42" fill="#f7faf6"/>
+  <g transform="translate(68 44) scale(.41)">
+    <rect width="512" height="512" rx="112" fill="#ffffff"/>
+    <path d="M118 393c61 42 215 42 276 0" fill="none" stroke="#1d2433" stroke-width="18" stroke-linecap="round"/>
+    <path d="M256 403V249" fill="none" stroke="#1d2433" stroke-width="20" stroke-linecap="round"/>
+    <path d="M257 270c-49-39-72-83-62-132 5-26 22-53 51-82 3 44 30 63 58 93 43 45 43 98-47 121z" fill="url(#flameWarm)"/>
+    <path d="M248 270c-25-30-29-63-10-99 8 30 30 45 45 70 12 21 0 42-35 58z" fill="#ffe08a" opacity=".82"/>
+    <path d="M258 322c-43-48-92-62-149-41 40 14 77 39 112 75 18-6 30-18 37-34z" fill="url(#leafLeft)"/>
+    <path d="M258 322c43-48 93-62 150-41-40 14-77 39-112 75-18-6-30-18-38-34z" fill="url(#leafRight)"/>
+    <path d="M202 363c33 17 75 17 108 0" fill="none" stroke="#1d2433" stroke-width="11" stroke-linecap="round" opacity=".18"/>
+  </g>
+  <text x="318" y="128" fill="#1d2433" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="66" font-weight="800">TorchBloom AI</text>
+  <text x="322" y="181" fill="#2f6657" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="30" font-weight="650">Mastery learning from math to real AI</text>
+  <path d="M324 220h384" fill="none" stroke="#ffb23f" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="744" cy="220" r="9" fill="#2fb7a4"/>
+  <circle cx="784" cy="220" r="9" fill="#48bb78"/>
+  <circle cx="824" cy="220" r="9" fill="#f9733d"/>
+</svg>

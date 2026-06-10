@@ -1,0 +1,74 @@
+[
+  {
+    "id": "page_0048-b001",
+    "page_key": 48,
+    "order": 1,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "heading",
+    "text": "4.4 Matrix notation"
+  },
+  {
+    "id": "page_0048-b002",
+    "page_key": 48,
+    "order": 2,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "figure",
+    "image_path": "figures/page_0048_fig_1.jpg"
+  },
+  {
+    "id": "page_0048-b003",
+    "page_key": 48,
+    "order": 3,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "caption",
+    "text": "Figure 4.6 Matrix notation for network with $D\\_i = 3$-dimensional input $\\mathbf{x}$, $D\\_o = 2$-dimensional output $\\mathbf{y}$, and $K = 3$ hidden layers $\\mathbf{h}\\_1$, $\\mathbf{h}\\_2$, and $\\mathbf{h}\\_3$ of dimensions $D\\_1 = 4$, $D\\_2 = 2$, and $D\\_3 = 3$, respectively. The weights are stored in matrices $\\boldsymbol{\\Omega}\\_k$ that multiply the activations from the preceding layer to create the pre-activations at the subsequent layer. For example, the weight matrix $\\boldsymbol{\\Omega}\\_1$ that computes the pre-activations at $\\mathbf{h}\\_2$ from the activations at $\\mathbf{h}\\_1$ has dimension $2\\times4$. It is applied to the four hidden units in layer one and creates the inputs to the two hidden units at layer two. The biases are stored in vectors $\\boldsymbol{\\beta}\\_k$ and have the dimension of the layer into which they feed. For example, the bias vector $\\boldsymbol{\\beta}\\_2$ is length three because layer $\\mathbf{h}\\_3$ contains three hidden units."
+  },
+  {
+    "id": "page_0048-b004",
+    "page_key": 48,
+    "order": 4,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "We have seen that a deep neural network consists of linear transformations alternating with activation functions. We could equivalently describe equations 4.7-4.9 in matrix notation as:"
+  },
+  {
+    "id": "page_0048-b005",
+    "page_key": 48,
+    "order": 5,
+    "source": "deepseek",
+    "confidence": "medium",
+    "type": "equation",
+    "latex": "\\begin{aligned}\n\\begin{bmatrix}h_1\\\\h_2\\\\h_3\\end{bmatrix}\n&= \\mathbf{a}\\left[\n\\begin{bmatrix}\\theta_{10}\\\\\\theta_{20}\\\\\\theta_{30}\\end{bmatrix} +\n\\begin{bmatrix}\\theta_{11}\\\\\\theta_{21}\\\\\\theta_{31}\\end{bmatrix}x\n\\right]\n\\end{aligned} \\qquad (4.11)"
+  },
+  {
+    "id": "page_0048-b006",
+    "page_key": 48,
+    "order": 6,
+    "source": "deepseek",
+    "confidence": "medium",
+    "type": "equation",
+    "latex": "\\begin{aligned}\n\\begin{bmatrix}h'_1\\\\h'_2\\\\h'_3\\end{bmatrix}\n&= \\mathbf{a}\\left[\n\\begin{bmatrix}\\psi_{10}\\\\\\psi_{20}\\\\\\psi_{30}\\end{bmatrix} +\n\\begin{bmatrix}\n\\psi_{11} & \\psi_{12} & \\psi_{13}\\\\\n\\psi_{21} & \\psi_{22} & \\psi_{23}\\\\\n\\psi_{31} & \\psi_{32} & \\psi_{33}\n\\end{bmatrix}\n\\begin{bmatrix}h_1\\\\h_2\\\\h_3\\end{bmatrix}\n\\right]\n\\end{aligned} \\qquad (4.12)"
+  },
+  {
+    "id": "page_0048-b007",
+    "page_key": 48,
+    "order": 7,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "and"
+  },
+  {
+    "id": "page_0048-b008",
+    "page_key": 48,
+    "order": 8,
+    "source": "deepseek",
+    "confidence": "medium",
+    "type": "equation",
+    "latex": "\\begin{aligned}\ny' &= \\phi'_0 + \\begin{bmatrix}\\phi'_1 & \\phi'_2 & \\phi'_3\\end{bmatrix}\n\\begin{bmatrix}h'_1\\\\h'_2\\\\h'_3\\end{bmatrix}\n\\end{aligned} \\qquad (4.13)"
+  }
+]

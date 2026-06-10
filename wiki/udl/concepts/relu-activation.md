@@ -5,7 +5,7 @@ title: ReLU Activation
 chapter_scope: [ch03]
 source_anchors:
   - source: udlbook-v5.0.3
-    locator: raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0039.md
+    locator: raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0025.md
 confidence: directional
 prerequisites: [piecewise-linear-functions]
 related: [hidden-units, shallow-neural-networks, eq-3-2-relu]
@@ -38,5 +38,5 @@ clipped line is the shape a ReLU hidden unit contributes.
 
 ## Source Anchors
 
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0039.md`
-- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0040.md`
+- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0025.md`
+- `raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0026.md`

@@ -51,7 +51,11 @@ def test_answer_page_markdown_includes_source_metadata():
     )
 
     assert "source: UDL_Answer_Booklet_Students.pdf" in text
+    assert "page_key: 5" in text
+    assert "answer_page: 5" in text
     assert "pdf_page: 5" in text
     assert "chapter: 2 - Supervised learning" in text
     assert "chapter_slug: ch02-supervised-learning" in text
+    assert "extraction_method: pymupdf-text" in text
+    assert "fusion_status: text-extract" in text
     assert "Problem 2.1" in text

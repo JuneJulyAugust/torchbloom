@@ -1,0 +1,93 @@
+[
+  {
+    "id": "page_0103-b001",
+    "page_key": 103,
+    "order": 1,
+    "type": "figure",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0103_fig_1.jpg",
+    "alt": "Figure 7.5 Backpropagation backward pass #2. Finally, we compute the derivatives $\\partial l\\_{i}/\\partial\\beta\\_{k}$ and $\\partial l\\_{i}/\\partial\\omega\\_{k}$. Eac"
+  },
+  {
+    "id": "page_0103-b002",
+    "page_key": 103,
+    "order": 2,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "caption": "Figure 7.5 Backpropagation backward pass #2. Finally, we compute the derivatives $\\partial l\\_{i}/\\partial\\beta\\_{k}$ and $\\partial l\\_{i}/\\partial\\omega\\_{k}$. Each derivative is computed by multiplying the term $\\partial l\\_{i}/\\partial f\\_{k}$ by $\\partial f\\_{k}/\\partial\\beta\\_{k}$ or $\\partial f\\_{k}/\\partial\\omega\\_{k}$ as appropriate."
+  },
+  {
+    "id": "page_0103-b003",
+    "page_key": 103,
+    "order": 3,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "This is consistent with Observation 1 from the previous section; the effect of a change in the weight $\\omega\\_{k}$ is proportional to the value of the source variable $h\\_{k}$ (which was stored in the forward pass). The final derivatives from the term $f\\_{0} = \\beta\\_{0} + \\omega\\_{0} \\cdot x\\_{i}$ are:"
+  },
+  {
+    "id": "page_0103-b004",
+    "page_key": 103,
+    "order": 4,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "latex": "\\frac{\\partial f_{0}}{\\partial\\beta_{0}}=1\\qquad and\\quad\\frac{\\partial f_{0}}{\\partial\\omega_{0}}\\quad=\\quad x_{i}. \\qquad (7.16)"
+  },
+  {
+    "id": "page_0103-b005",
+    "page_key": 103,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Backpropagation is both simpler and more efficient than computing the derivatives individually, as in equation 7.8. $^{1}$"
+  },
+  {
+    "id": "page_0103-b006",
+    "page_key": 103,
+    "order": 6,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "7.4 Backpropagation algorithm"
+  },
+  {
+    "id": "page_0103-b007",
+    "page_key": 103,
+    "order": 7,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Now we repeat this process for a three-layer network (figure 7.1). The intuition and much of the algebra are identical. The main differences are that intermediate variables $f\\_{k}$, $h\\_{k}$ are vectors, the biases $\\beta\\_{k}$ are vectors, the weights $\\Omega\\_{k}$ are matrices, and we are using ReLU functions rather than simple algebraic functions like $\\cos[\\bullet]$."
+  },
+  {
+    "id": "page_0103-b008",
+    "page_key": 103,
+    "order": 8,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "Forward pass: We write the network as a series of sequential calculations:"
+  },
+  {
+    "id": "page_0103-b009",
+    "page_key": 103,
+    "order": 9,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "latex": "\\begin{aligned}\n\\mathbf{f}_{0} &=\\beta_{0}+\\Omega_{0}x_{i} \\\\\n\\mathbf{h}_{1} &=a[\\mathbf{f}_{0}] \\\\\n\\mathbf{f}_{1} &=\\beta_{1}+\\Omega_{1}\\mathbf{h}_{1} \\\\\n\\mathbf{f}_{2} &=a[\\mathbf{f}_{0}] \\\\\n\\beta_{3} &=\\beta_{1}+\\Omega_{2}\\mathbf{h}_{2} \\\\\n\\mathbf{f}_{3} &=a[\\mathbf{f}_{0}] \\\\\n\\beta_{4} &=\\beta_{2}+\\Omega_{3}\\mathbf{h}_{3} \\\\\n\\ell_{i} &=l[\\mathbf{f}_{0},y_{i}],\n\\end{aligned} \\qquad (7.17)"
+  },
+  {
+    "id": "page_0103-b010",
+    "page_key": 103,
+    "order": 10,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "text": "$^{1}$ Note that we did not actually need the derivatives $\\partial l\\_{i}/\\partial h\\_{k}$ of the loss with respect to the activations. In the final backpropagation algorithm, we will not compute these explicitly."
+  }
+]

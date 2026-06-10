@@ -5,7 +5,7 @@ title: "Chapter 3 Reading Guide"
 chapter_scope: [ch03]
 source_anchors:
   - source: udlbook-v5.0.3
-    locator: raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0039.md
+    locator: raw/udl/textbook/pages/ch03-shallow-neural-networks/page_0025.md
 confidence: directional
 prerequisites: [supervised-learning, linear-regression, piecewise-linear-functions, vectors-as-lists-of-numbers]
 related: [ch03-practice-index, shallow-neural-networks, relu-activation, hidden-units]

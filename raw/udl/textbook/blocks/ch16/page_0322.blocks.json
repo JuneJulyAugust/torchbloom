@@ -1,0 +1,57 @@
+[
+  {
+    "id": "page_0322-b001",
+    "page_key": 322,
+    "order": 1,
+    "type": "figure",
+    "text": "../../figures/page_0322_fig_1.jpg",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "image_path": "figures/page_0322_fig_1.jpg"
+  },
+  {
+    "id": "page_0322-b002",
+    "page_key": 322,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 16.14 Approximating density models. a) Training data. b) Usually, we modify the flow model parameters to minimize the KL divergence from the training data to the flow model. This is equivalent to maximum likelihood fitting (section 5.7). c) Alternatively, we can modify the flow parameters $\\phi$ to minimize the KL divergence from the flow samples $x\\_{i} = f[z\\_{i}, \\phi]$ to d) a target density.",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0322-b003",
+    "page_key": 322,
+    "order": 3,
+    "type": "paragraph",
+    "text": "are still useful in their own right even when the Jacobian cannot be estimated efficiently; they reduce the memory requirements of training a K-layer network from $O[K]$ to $O[1]$ .",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0322-b004",
+    "page_key": 322,
+    "order": 4,
+    "type": "paragraph",
+    "text": "This chapter reviewed invertible network layers or flows. We considered linear flows and elementwise flows, which are simple but insufficiently expressive. Then we described more complex flows, such as coupling, autoregressive, and residual flows. Finally, we showed how normalizing flows can be used to estimate likelihoods, generate and interpolate between images, and approximate other distributions.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0322-b005",
+    "page_key": 322,
+    "order": 5,
+    "type": "heading",
+    "text": "Notes",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0322-b006",
+    "page_key": 322,
+    "order": 6,
+    "type": "paragraph",
+    "text": "Normalizing flows were first introduced by Rezende & Mohamed (2015) but had intellectual antecedents in the work of Tabak & Vanden-Eijnden (2010), Tabak & Turner (2013), and Rippel & Adams (2013). Reviews of normalizing flows can be found in Kobyzev et al. (2020) and Papamakarios et al. (2021). Kobyzev et al. (2020) presented a quantitative comparison of",
+    "source": "deepseek",
+    "confidence": "medium"
+  }
+]

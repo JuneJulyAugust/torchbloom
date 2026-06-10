@@ -5,7 +5,7 @@ title: Coordinates And Graphs
 chapter_scope: [ch02, ch03]
 source_anchors:
   - source: udlbook-v5.0.3
-    locator: raw/udl/textbook/pages/ch02-supervised-learning/page_0033.md
+    locator: raw/udl/textbook/pages/ch02-supervised-learning/page_0019.md
 confidence: directional
 prerequisites: [functions-as-machines]
 related: [linear-regression, piecewise-linear-functions]
@@ -35,6 +35,6 @@ the model prediction to the observed `y`.
 
 ## Source Anchors
 
-- `raw/udl/textbook/pages/ch02-supervised-learning/page_0033.md`
-- `raw/udl/textbook/pages/ch02-supervised-learning/page_0034.md`
+- `raw/udl/textbook/pages/ch02-supervised-learning/page_0019.md`
+- `raw/udl/textbook/pages/ch02-supervised-learning/page_0020.md`
 

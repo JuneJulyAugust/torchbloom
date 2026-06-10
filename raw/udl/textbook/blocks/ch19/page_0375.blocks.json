@@ -1,0 +1,75 @@
+[
+  {
+    "id": "page_0375-b001",
+    "page_key": 375,
+    "order": 1,
+    "type": "figure",
+    "text": "Figure 19.1 Markov process (../../figures/page_0375_fig_1.jpg)",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0375_fig_1.jpg"
+  },
+  {
+    "id": "page_0375-b002",
+    "page_key": 375,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 19.1 Markov process. A Markov process consists of a set of states and transition probabilities $\\Pr(s\\_{t+1}|s\\_t)$ that define the probability of moving to state $s\\_{t+1}$ given the current state is $s\\_t$ . a) The penguin can visit 16 different positions (states) on the ice. b) The ice is slippery, so at each time, it has an equal probability of moving to any adjacent state. For example, in position 6, it has a 25% chance of moving to states 2, 5, 7, and 10. A trajectory $\\tau = [s\\_1, s\\_2, s\\_3, \\ldots]$ from this process consists of a sequence of states.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0375-b003",
+    "page_key": 375,
+    "order": 3,
+    "type": "heading",
+    "text": "## 19.1.1 Markov process",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0375-b004",
+    "page_key": 375,
+    "order": 4,
+    "type": "paragraph",
+    "text": "A Markov process assumes that the world is always in one of a set of possible states. The word Markov implies that the probability of being in a state depends only on the previous state and not on the states before. The changes between states are captured by the transition probabilities $\\Pr(s\\_{t+1}|s\\_t)$ of moving to the next state $s\\_{t+1}$ given the current state $s\\_t$ , where t indexes the time step. Hence, a Markov process is an evolving system that produces a sequence $s\\_1$ , $s\\_2$ , $s\\_3$ , … of states (figure 19.1).",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0375-b005",
+    "page_key": 375,
+    "order": 5,
+    "type": "heading",
+    "text": "## 19.1.2 Markov reward process",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0375-b006",
+    "page_key": 375,
+    "order": 6,
+    "type": "paragraph",
+    "text": "A Markov reward process extends the Markov process to include a distribution $\\Pr(r\\_{t+1}|s\\_t)$ over the possible rewards $r\\_{t+1}$ received at the next time step, given that we are in state $s\\_t$ . This produces a sequence $s\\_1, r\\_2, s\\_2, r\\_3, s\\_3, r\\_4 \\ldots$ of states and the associated rewards (figure 19.2). The Markov reward process also includes a discount factor $\\gamma \\in (0,1]$ that is used to compute the return $G\\_t$ at time t:",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0375-b007",
+    "page_key": 375,
+    "order": 7,
+    "type": "equation",
+    "text": "$$\nG_{t}=\\sum_{k=0}^{\\infty}\\gamma^{k}r_{t+k+1}. \\quad (19.1)\n$$",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0375-b008",
+    "page_key": 375,
+    "order": 8,
+    "type": "paragraph",
+    "text": "The return is the sum of the cumulative discounted future rewards; it measures the future benefit of being on this trajectory. A discount factor of less than one makes rewards that are closer in time more valuable than rewards that are further away.",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  }
+]

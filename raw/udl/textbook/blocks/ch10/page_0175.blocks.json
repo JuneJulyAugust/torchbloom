@@ -1,0 +1,42 @@
+[
+  {
+    "id": "page_0175-b001",
+    "page_key": 175,
+    "order": 1,
+    "type": "figure",
+    "text": "",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0175_fig_1.jpg"
+  },
+  {
+    "id": "page_0175-b002",
+    "page_key": 175,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 10.14 $1 \\times 1$ convolution. To change the number of channels without spatial pooling, we apply a $1 \\times 1$ kernel. Each output channel is computed by taking a weighted sum of all of the channels at the same position, adding a bias, and passing through an activation function. Multiple output channels are created by repeating this operation with different weights and biases.",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "caption": "Figure 10.14 $1 \\times 1$ convolution. To change the number of channels without spatial pooling, we apply a $1 \\times 1$ kernel. Each output channel is computed by taking a weighted sum of all of the channels at the same position, adding a bias, and passing through an activation function. Multiple output channels are created by repeating this operation with different weights and biases."
+  },
+  {
+    "id": "page_0175-b003",
+    "page_key": 175,
+    "order": 3,
+    "type": "figure",
+    "text": "",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0175_fig_2.jpg"
+  },
+  {
+    "id": "page_0175-b004",
+    "page_key": 175,
+    "order": 4,
+    "type": "caption",
+    "text": "Figure 10.15 Example ImageNet classification images. The model aims to assign an input image to one of 1000 classes. This task is challenging because the images vary widely along different attributes (columns). These include rigidity (monkey",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "caption": "Figure 10.15 Example ImageNet classification images. The model aims to assign an input image to one of 1000 classes. This task is challenging because the images vary widely along different attributes (columns). These include rigidity (monkey"
+  }
+]

@@ -25,6 +25,7 @@ ocr = [
 torchbloom-udl-ocr = "torchbloom.udl_ocr_pipeline:main"
 torchbloom-udl-answers = "torchbloom.udl_answer_extract:main"
 torchbloom-udl-fusion-pilot = "torchbloom.udl_fusion_pilot:main"
+torchbloom-udl-paddle-structure = "torchbloom.udl_paddle_structure:main"
 torchbloom-validate-wiki = "torchbloom.wiki_validation:main"
 
 [tool.pytest.ini_options]

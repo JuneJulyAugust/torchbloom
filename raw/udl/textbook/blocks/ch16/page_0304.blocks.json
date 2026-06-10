@@ -1,0 +1,74 @@
+[
+  {
+    "id": "page_0304-b001",
+    "page_key": 304,
+    "order": 1,
+    "type": "heading",
+    "text": "Chapter 16",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0304-b002",
+    "page_key": 304,
+    "order": 2,
+    "type": "heading",
+    "text": "Normalizing flows",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0304-b003",
+    "page_key": 304,
+    "order": 3,
+    "type": "paragraph",
+    "text": "Chapter 15 introduced generative adversarial networks (GANs). These are generative models that pass a latent variable through a deep network to create a new sample. GANs are trained using the principle that the samples should be indistinguishable from real data. However, they don't define a distribution over data examples. Hence, assessing the probability that a new example belongs to the same dataset isn't straightforward.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0304-b004",
+    "page_key": 304,
+    "order": 4,
+    "type": "paragraph",
+    "text": "In this chapter, we describe normalizing flows. These learn a probability model by transforming a simple distribution into a more complicated one using a deep network. Normalizing flows can both sample from this distribution and evaluate the probability of new examples. However, they require specialized architecture: each layer must be invertible. In other words, it must be able to transform data in both directions.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0304-b005",
+    "page_key": 304,
+    "order": 5,
+    "type": "heading",
+    "text": "16.1 1D example",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0304-b006",
+    "page_key": 304,
+    "order": 6,
+    "type": "paragraph",
+    "text": "Normalizing flows are probabilistic generative models: they fit a probability distribution to training data (figure 14.2b). Consider modeling a 1D distribution $\\Pr(x)$ . Normalizing flows start with a simple tractable base distribution $\\Pr(z)$ over a latent variable z and apply a function $x = f[z, \\phi]$ , where the parameters $\\phi$ are chosen so that $\\Pr(x)$ has the desired distribution (figure 16.1). Generating a new example $x^{*}$ is easy; we draw $z^{*}$ from the base density and pass this through the function so that $x^{*} = f[z^{*}, \\phi]$ .",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0304-b007",
+    "page_key": 304,
+    "order": 7,
+    "type": "heading",
+    "text": "16.1.1 Measuring probability",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0304-b008",
+    "page_key": 304,
+    "order": 8,
+    "type": "paragraph",
+    "text": "Measuring the probability of a data point x is more challenging. Consider applying a function $f[z, \\phi]$ to random variable z with known density $\\Pr(z)$ . The probability density will decrease in areas that are stretched by the function and increase in areas that are compressed so that the area under the new distribution remains one. The degree to which a function $f[z, \\phi]$ stretches or compresses its input depends on the magnitude of its gradient. If a small change to the input causes a larger change in the output, it",
+    "source": "deepseek",
+    "confidence": "medium"
+  }
+]

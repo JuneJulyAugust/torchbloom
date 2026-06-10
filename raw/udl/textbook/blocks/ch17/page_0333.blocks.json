@@ -1,0 +1,102 @@
+[
+  {
+    "id": "page_0333-b001",
+    "page_key": 333,
+    "order": 1,
+    "type": "paragraph",
+    "text": "a)",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0333-b002",
+    "page_key": 333,
+    "order": 2,
+    "type": "figure",
+    "text": "../../figures/page_0333_fig_1.jpg",
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "image_path": "figures/page_0333_fig_1.jpg"
+  },
+  {
+    "id": "page_0333-b003",
+    "page_key": 333,
+    "order": 3,
+    "type": "caption",
+    "text": "Figure 17.6 Evidence lower bound (ELBO). The goal is to maximize the log-likelihood $\\log[\\Pr(\\mathbf{x}|\\phi)]$ (black curve) with respect to the parameters $\\phi$ . The ELBO is a function that lies everywhere below the log-likelihood. It is a function of both $\\phi$ and a second set of parameters $\\theta$ . For fixed $\\theta$ , we get a function of $\\phi$ (two colored curves for different values of $\\theta$ ). Consequently, we can increase the log-likelihood by either improving the ELBO with respect to a) the new parameters $\\theta$ (moving from colored curve to colored curve) or b) the original parameters $\\phi$ (moving along the current colored curve).",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0333-b004",
+    "page_key": 333,
+    "order": 4,
+    "type": "heading",
+    "text": "17.3.3 Deriving the bound",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0333-b005",
+    "page_key": 333,
+    "order": 5,
+    "type": "paragraph",
+    "text": "We now use Jensen's inequality to derive the lower bound for the log-likelihood. We start by multiplying and dividing the log-likelihood by an arbitrary probability distribution $q(\\mathbf{z})$ over the latent variables:",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0333-b006",
+    "page_key": 333,
+    "order": 6,
+    "type": "equation",
+    "text": "$$\n\\begin{aligned}\n\\log[\\Pr(\\mathbf{x}|\\boldsymbol{\\phi})]&\\quad=\\quad\\log\\left[\\int \\Pr(\\mathbf{x},\\mathbf{z}|\\boldsymbol{\\phi})d\\mathbf{z}\\right]\\\\\n&=\\quad\\log\\left[\\int q(\\mathbf{z})\\frac{\\Pr(\\mathbf{x},\\mathbf{z}|\\boldsymbol{\\phi})}{q(\\mathbf{z})}d\\mathbf{z}\\right]\n\\end{aligned}\n\\qquad (17.14)\n$$",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0333-b007",
+    "page_key": 333,
+    "order": 7,
+    "type": "paragraph",
+    "text": "We then use Jensen's inequality for the logarithm (equation 17.12) to find a lower bound:",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0333-b008",
+    "page_key": 333,
+    "order": 8,
+    "type": "equation",
+    "text": "$$\n\\log\\left[\\int q(\\mathbf{z})\\frac{\\Pr(\\mathbf{x},\\mathbf{z}|\\boldsymbol{\\phi})}{q(\\mathbf{z})}d\\mathbf{z}\\right]\\quad\\geq\\quad\\int q(\\mathbf{z})\\log\\left[\\frac{\\Pr(\\mathbf{x},\\mathbf{z}|\\boldsymbol{\\phi})}{q(\\mathbf{z}|}\\right]d\\mathbf{z}\n\\qquad (17.15)\n$$",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0333-b009",
+    "page_key": 333,
+    "order": 9,
+    "type": "paragraph",
+    "text": "where the right-hand side is termed the evidence lower bound or ELBO. It gets this name because $\\Pr(\\mathbf{x}|\\boldsymbol{\\phi})$ is called the evidence in the context of Bayes' rule (equation 17.19).",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0333-b010",
+    "page_key": 333,
+    "order": 10,
+    "type": "paragraph",
+    "text": "In practice, the distribution $q(\\mathbf{z})$ has parameters $\\theta$, so the ELBO can be written as:",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0333-b011",
+    "page_key": 333,
+    "order": 11,
+    "type": "equation",
+    "text": "$$\n\\mathrm{ELBO}[\\boldsymbol{\\theta},\\phi]=\\int q(\\mathbf{z}|\\boldsymbol{\\theta})\\log\\left[\\frac{\\Pr(\\mathbf{x},\\mathbf{z}|\\phi)}{q(\\mathbf{z}|\\boldsymbol{\\theta})}\\right]d\\mathbf{z}\n\\qquad (17.16)\n$$",
+    "source": "deepseek",
+    "confidence": "medium"
+  }
+]

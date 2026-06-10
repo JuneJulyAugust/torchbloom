@@ -1,0 +1,42 @@
+[
+  {
+    "id": "page_0196-b001",
+    "page_key": 196,
+    "order": 1,
+    "type": "figure",
+    "text": "",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0196_fig_1.jpg"
+  },
+  {
+    "id": "page_0196-b002",
+    "page_key": 196,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 11.7 ResNet blocks. a) A standard block in the ResNet architecture contains a batch normalization operation, followed by an activation function, and a $3 \\times 3$ convolutional layer. Then, this sequence is repeated. b). A bottleneck ResNet block still integrates information over a $3 \\times 3$ region but uses fewer parameters. It contains three convolutions. The first $1 \\times 1$ convolution reduces the number of channels. The second $3 \\times 3$ convolution is applied to the smaller representation. A final $1 \\times 1$ convolution increases the number of channels again so that it can be added back to the input.",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "caption": "Figure 11.7 ResNet blocks. a) A standard block in the ResNet architecture contains a batch normalization operation, followed by an activation function, and a $3 \\times 3$ convolutional layer. Then, this sequence is repeated. b). A bottleneck ResNet block still integrates information over a $3 \\times 3$ region but uses fewer parameters. It contains three convolutions. The first $1 \\times 1$ convolution reduces the number of channels. The second $3 \\times 3$ convolution is applied to the smaller representation. A final $1 \\times 1$ convolution increases the number of channels again so that it can be added back to the input."
+  },
+  {
+    "id": "page_0196-b003",
+    "page_key": 196,
+    "order": 3,
+    "type": "figure",
+    "text": "",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0196_fig_2.jpg"
+  },
+  {
+    "id": "page_0196-b004",
+    "page_key": 196,
+    "order": 4,
+    "type": "caption",
+    "text": "Figure 11.8 ResNet-200 model. A standard $7 \\times 7$ convolutional layer with stride two is applied, followed by a MaxPool operation. A series of bottleneck residual blocks follow (number in brackets is channels after first $1 \\times 1$ convolution), with periodic downsampling and accompanying increases in the number of channels. The network concludes with average pooling across all spatial positions and a fully connected layer that maps to pre-softmax activations.",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "caption": "Figure 11.8 ResNet-200 model. A standard $7 \\times 7$ convolutional layer with stride two is applied, followed by a MaxPool operation. A series of bottleneck residual blocks follow (number in brackets is channels after first $1 \\times 1$ convolution), with periodic downsampling and accompanying increases in the number of channels. The network concludes with average pooling across all spatial positions and a fully connected layer that maps to pre-softmax activations."
+  }
+]

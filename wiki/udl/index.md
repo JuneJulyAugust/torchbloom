@@ -26,7 +26,7 @@ The first MVP covers chapters 1, 2, and 3:
 ## Artifact Map
 
 - `raw/udl/source/` stores official source PDFs.
-- `raw/udl/textbook/` stores DeepSeek-OCR-2 textbook evidence.
+- `raw/udl/textbook/` stores validated fused textbook evidence for published scopes.
 - `raw/udl/answers/` stores embedded-text answer booklet evidence.
 - `wiki/udl/chapters/` stores chapter packs.
 - `wiki/udl/concepts/` stores shared conceptual pages.
@@ -37,6 +37,5 @@ The first MVP covers chapters 1, 2, and 3:
 
 ## Current Status
 
-The raw layers for chapters 1-3 exist. Authored learning pages start as
+The fused textbook layer for chapters 1-3 exists. Authored learning pages start as
 directional and must be reviewed against the PDF before being treated as stable.
-

@@ -5,7 +5,7 @@ title: Slopes And Gradients
 chapter_scope: [ch02, ch03]
 source_anchors:
   - source: udlbook-v5.0.3
-    locator: raw/udl/textbook/pages/ch02-supervised-learning/page_0036.md
+    locator: raw/udl/textbook/pages/ch02-supervised-learning/page_0022.md
 confidence: directional
 prerequisites: [coordinates-and-graphs]
 related: [eq-2-5-least-squares-loss, model-training]
@@ -34,5 +34,5 @@ these slopes to find a direction that lowers loss.
 
 ## Source Anchors
 
-- `raw/udl/textbook/pages/ch02-supervised-learning/page_0036.md`
-- `raw/udl/textbook/pages/ch02-supervised-learning/page_0038.md`
+- `raw/udl/textbook/pages/ch02-supervised-learning/page_0022.md`
+- `raw/udl/textbook/pages/ch02-supervised-learning/page_0024.md`

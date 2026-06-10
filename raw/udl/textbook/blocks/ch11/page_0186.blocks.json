@@ -1,0 +1,93 @@
+[
+  {
+    "id": "page_0186-b001",
+    "page_key": 186,
+    "order": 1,
+    "type": "heading",
+    "text": "## Chapter 11",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0186-b002",
+    "page_key": 186,
+    "order": 2,
+    "type": "heading",
+    "text": "## Residual networks",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0186-b003",
+    "page_key": 186,
+    "order": 3,
+    "type": "paragraph",
+    "text": "The previous chapter described how image classification performance improved as the depth of convolutional networks was extended from eight layers (AlexNet) to nineteen layers (VGG). This led to experimentation with even deeper networks. However, performance decreased again when many more layers were added.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0186-b004",
+    "page_key": 186,
+    "order": 4,
+    "type": "paragraph",
+    "text": "This chapter introduces residual blocks. Here, each network layer computes an additive change to the current representation instead of transforming it directly. This allows deeper networks to be trained but causes an exponential increase in the activation magnitudes at initialization. Residual blocks employ batch normalization to compensate for this, which re-centers and rescales the activations at each layer.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0186-b005",
+    "page_key": 186,
+    "order": 5,
+    "type": "paragraph",
+    "text": "Residual blocks with batch normalization allow much deeper networks to be trained, and these networks improve performance across a variety of tasks. Architectures that combine residual blocks to tackle image classification, medical image segmentation, and human pose estimation are described.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0186-b006",
+    "page_key": 186,
+    "order": 6,
+    "type": "heading",
+    "text": "## 11.1 Sequential processing",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0186-b007",
+    "page_key": 186,
+    "order": 7,
+    "type": "paragraph",
+    "text": "Every network we have seen so far processes the data sequentially; each layer receives the previous layer’s output and passes the result to the next (figure 11.1). For example, a three-layer network is defined by:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0186-b008",
+    "page_key": 186,
+    "order": 8,
+    "type": "equation",
+    "text": "$$\n\\begin{aligned}\n\\mathbf{h}_1 &= \\mathbf{f}_1[\\mathbf{x},\\boldsymbol{\\phi}_1] \\\\\n\\mathbf{h}_2 &= \\mathbf{f}_2[\\mathbf{h}_1,\\boldsymbol{\\phi}_2] \\\\\n\\mathbf{h}_3 &= \\mathbf{f}_3[\\mathbf{h}_2,\\boldsymbol{\\phi}_3] \\\\\n\\mathbf{y} &= \\mathbf{f}_4[\\mathbf{h}_3,\\boldsymbol{\\phi}_4]\n\\end{aligned}\\qquad (11.1)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium",
+    "latex": "\\begin{aligned}\n\\mathbf{h}_1 &= \\mathbf{f}_1[\\mathbf{x},\\boldsymbol{\\phi}_1] \\\\\n\\mathbf{h}_2 &= \\mathbf{f}_2[\\mathbf{h}_1,\\boldsymbol{\\phi}_2] \\\\\n\\mathbf{h}_3 &= \\mathbf{f}_3[\\mathbf{h}_2,\\boldsymbol{\\phi}_3] \\\\\n\\mathbf{y} &= \\mathbf{f}_4[\\mathbf{h}_3,\\boldsymbol{\\phi}_4]\n\\end{aligned}\\qquad (11.1)"
+  },
+  {
+    "id": "page_0186-b009",
+    "page_key": 186,
+    "order": 9,
+    "type": "paragraph",
+    "text": "where $h\\_{1}$ , $h\\_{2}$ , and $h\\_{3}$ denote the intermediate hidden layers, x is the network input, y is the output, and the functions $f\\_{k}[\\bullet,\\phi\\_{k}]$ perform the processing.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0186-b010",
+    "page_key": 186,
+    "order": 10,
+    "type": "paragraph",
+    "text": "In a standard neural network, each layer consists of a linear transformation followed by an activation function, and the parameters $\\phi\\_{k}$ comprise the weights and biases of the",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

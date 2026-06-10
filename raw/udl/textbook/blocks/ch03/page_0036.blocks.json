@@ -1,0 +1,75 @@
+[
+  {
+    "id": "page_0036-b001",
+    "page_key": 36,
+    "order": 1,
+    "type": "figure",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0036_fig_1.jpg",
+    "alt_text": "Terminology diagram for input, hidden, and output layers."
+  },
+  {
+    "id": "page_0036-b002",
+    "page_key": 36,
+    "order": 2,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Figure 3.12 caption defining input layer, hidden layer, output layer, feed-forward, fully connected, weights, neurons, pre-activations, and activations."
+  },
+  {
+    "id": "page_0036-b003",
+    "page_key": 36,
+    "order": 3,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Connections are network weights and offsets are biases."
+  },
+  {
+    "id": "page_0036-b004",
+    "page_key": 36,
+    "order": 4,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "3.6 Summary"
+  },
+  {
+    "id": "page_0036-b005",
+    "page_key": 36,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Summarizes shallow neural network computation and approximation capacity."
+  },
+  {
+    "id": "page_0036-b006",
+    "page_key": 36,
+    "order": 6,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Chapter 4 covers deep networks; chapters 5-7 cover training."
+  },
+  {
+    "id": "page_0036-b007",
+    "page_key": 36,
+    "order": 7,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Notes"
+  },
+  {
+    "id": "page_0036-b008",
+    "page_key": 36,
+    "order": 8,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Explains the tenuous biological connection behind the name neural networks."
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "page_0372-b001",
+    "page_key": 372,
+    "order": 1,
+    "type": "paragraph",
+    "text": "which generates joint embeddings for text and image data. Imagen (Saharia et al., 2022b) showed that text embeddings from a large language model could produce even better results (see figure 18.13). The same authors introduced a benchmark (DrawBench) which is designed to evaluate the ability of a model to render colors, numbers of objects, spatial relations, and other characteristics. Feng et al. (2022) developed a Chinese text-to-image model.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0372-b002",
+    "page_key": 372,
+    "order": 2,
+    "type": "paragraph",
+    "text": "Connections to other models: This chapter described diffusion models as hierarchical variational autoencoders because this approach connects most closely with the other parts of this book. However, diffusion models also have close connections with stochastic differential equations (consider the paths in figure 18.5) and with score matching (Song & Ermon, 2019, 2020). Song et al. (2021c) presented a framework based on stochastic differential equations that encompasses both the denoising and score matching interpretations. Diffusion models also have close connections to normalizing flows (Zhang & Chen, 2021). Yang et al. (2022) present an overview of the relationship between diffusion models and other generative approaches.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0372-b003",
+    "page_key": 372,
+    "order": 3,
+    "type": "heading",
+    "text": "Problems",
+    "source": "deepseek+paddle",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0372-b004",
+    "page_key": 372,
+    "order": 4,
+    "type": "exercise",
+    "text": "Problem 18.1 Show that if Cov[x_{t-1}] = I and we use the update:",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0372-b005",
+    "page_key": 372,
+    "order": 5,
+    "type": "equation",
+    "text": "$$\n\\mathbf{x}_{t}=\\sqrt{1-\\beta_{t}}\\cdot\\mathbf{x}_{t-1}+\\sqrt{\\beta_{t}}\\cdot\\boldsymbol{\\epsilon}_{t}\n\\qquad (18.42)\n$$",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0372-b006",
+    "page_key": 372,
+    "order": 6,
+    "type": "paragraph",
+    "text": "then Cov[x_{t}] = I, so the variance stays the same.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0372-b007",
+    "page_key": 372,
+    "order": 7,
+    "type": "exercise",
+    "text": "Problem 18.2 Consider the variable:",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0372-b008",
+    "page_key": 372,
+    "order": 8,
+    "type": "equation",
+    "text": "$$\nz=a\\cdot\\epsilon_{1}+b\\cdot\\epsilon_{2}\n\\qquad (18.43)\n$$",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0372-b009",
+    "page_key": 372,
+    "order": 9,
+    "type": "paragraph",
+    "text": "where both $\\epsilon\\_{1}$ and $\\epsilon\\_{2}$ are drawn from independent standard normal distributions with mean zero and unit variance. Show that:",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0372-b010",
+    "page_key": 372,
+    "order": 10,
+    "type": "equation",
+    "text": "$$\n\\begin{aligned}\n\\mathbb{E}[z]&=0\\\\\n\\mathrm{Var}[z]&=\\displaystyle a^{2}+b^{2}\n\\end{aligned}\n\\qquad (18.44)\n$$",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0372-b011",
+    "page_key": 372,
+    "order": 11,
+    "type": "paragraph",
+    "text": "so we could equivalently compute $z = \\sqrt{a^{2} + b^{2}} \\cdot \\epsilon$ where $\\epsilon$ is also drawn from a standard normal distribution.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0372-b012",
+    "page_key": 372,
+    "order": 12,
+    "type": "exercise",
+    "text": "Problem 18.3 Continue the process in equation 18.5 to show that:",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0372-b013",
+    "page_key": 372,
+    "order": 13,
+    "type": "equation",
+    "text": "$$\n\\mathbf{z}_{3}\\quad=\\quad\\sqrt{(1-\\beta_{3})(1-\\beta_{2})}(1-\\beta_{1})\\cdot\\mathbf{x}+\\sqrt{1-(1-\\beta_{3})(1-\\beta_{2})}(1-\\beta_{1})\\cdot\\boldsymbol{\\epsilon}^{\\prime}\n\\qquad (18.45)\n$$",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0372-b014",
+    "page_key": 372,
+    "order": 14,
+    "type": "paragraph",
+    "text": "where $\\epsilon^{\\prime}$ is a draw from a standard normal distribution.",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0372-b015",
+    "page_key": 372,
+    "order": 15,
+    "type": "exercise",
+    "text": "Problem 18.4 $^{*}$ Prove the relation:",
+    "source": "deepseek",
+    "confidence": "medium"
+  },
+  {
+    "id": "page_0372-b016",
+    "page_key": 372,
+    "order": 16,
+    "type": "equation",
+    "text": "$$\n\\mathrm{Norm}_{\\mathbf{v}}\\left[\\mathbf{A}\\mathbf{w},\\mathbf{B}\\right]\\propto\\mathrm{Norm}_{\\mathbf{w}}\\left[\\left(\\mathbf{A}^{T}\\mathbf{B}^{-1}\\mathbf{A}\\right)^{-1}\\mathbf{A}^{T}\\mathbf{B}^{-1}\\mathbf{v},\\left(\\mathbf{A}^{T}\\mathbf{E}^{\\frac{3}{2}}\\mathbf{B}^{-1}\\right)^{-1}\\right]\n\\qquad (18.46)\n$$",
+    "source": "deepseek",
+    "confidence": "medium"
+  }
+]

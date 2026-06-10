@@ -5,7 +5,7 @@ title: "Equation 2.5: Least-Squares Loss"
 chapter_scope: [ch02, ch03]
 source_anchors:
   - source: udlbook-v5.0.3
-    locator: raw/udl/textbook/pages/ch02-supervised-learning/page_0033.md
+    locator: raw/udl/textbook/pages/ch02-supervised-learning/page_0019.md
 confidence: directional
 prerequisites: [linear-regression, coordinates-and-graphs]
 related: [loss-functions, model-training]
@@ -41,5 +41,5 @@ smaller total squared error fits the training data better.
 
 ## Source Anchors
 
-- `raw/udl/textbook/pages/ch02-supervised-learning/page_0033.md`
-- `raw/udl/textbook/pages/ch02-supervised-learning/page_0035.md`
+- `raw/udl/textbook/pages/ch02-supervised-learning/page_0019.md`
+- `raw/udl/textbook/pages/ch02-supervised-learning/page_0021.md`

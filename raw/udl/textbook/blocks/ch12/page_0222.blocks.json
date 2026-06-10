@@ -1,0 +1,75 @@
+[
+  {
+    "id": "page_0222-b001",
+    "page_key": 222,
+    "order": 1,
+    "type": "paragraph",
+    "text": "Word classification: The goal of named entity recognition is to classify each word as an entity type (e.g., person, place, organization, or no-entity). To this end, each input embedding $x\\_{n}$ is mapped to an $E \\times 1$ vector where the E entries correspond to the E entity types. This is passed through a softmax function to create probabilities for each class, which contribute to a multiclass cross-entropy loss (figure 12.11b).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0222-b002",
+    "page_key": 222,
+    "order": 2,
+    "type": "paragraph",
+    "text": "Text span prediction: In the SQuAD 1.1 question answering task, the question and a passage from Wikipedia containing the answer are concatenated and tokenized. BERT is then used to predict the text span in the passage that contains the answer. Each token maps to two numbers indicating how likely it is that the text span begins and ends at this location. The resulting two sets of numbers are put through two softmax functions. The likelihood of any text span being the answer can be derived by combining the probability of starting and ending at the appropriate places.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0222-b003",
+    "page_key": 222,
+    "order": 3,
+    "type": "heading",
+    "text": "## 12.7 Decoder model example: GPT3",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0222-b004",
+    "page_key": 222,
+    "order": 4,
+    "type": "paragraph",
+    "text": "This section presents a high-level description of GPT3, an example of a decoder model. The basic architecture is extremely similar to the encoder model and comprises a series of transformer layers that operate on learned word embeddings. However, the goal is to find one solution for a specific NLP task. Conversely, the decoder has one purpose: to generate the next token in a sequence. It can generate a coherent text passage by feeding the extended sequence back into the model.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0222-b005",
+    "page_key": 222,
+    "order": 5,
+    "type": "heading",
+    "text": "## 12.7.1 Language modeling",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0222-b006",
+    "page_key": 222,
+    "order": 6,
+    "type": "paragraph",
+    "text": "GPT3 is an autoregressive language model. This is easiest to understand with a concrete example. Consider the sentence It takes great courage to let yourself appear weak. For simplicity, let's assume that the tokens are the full words. The probability of the full sentence can be factored as:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0222-b007",
+    "page_key": 222,
+    "order": 7,
+    "type": "equation",
+    "text": "$$\n\\begin{aligned}\n\\Pr[\\text{It takes great courage to let yourself appear weak}]\n&= \\Pr[\\text{It}]\\times\\Pr[\\text{takes}\\mid\\text{It}]\\times\\Pr[\\text{great}\\mid\\text{It takes}]\\times\\Pr[\\text{courage}\\mid\\text{It takes great}]\\times \\\\\n&\\quad \\Pr[\\text{to}\\mid\\text{It takes great courage}]\\times\\Pr[\\text{let}\\mid\\text{It takes great courage to}]\\times \\\\\n&\\quad \\Pr[\\text{yourself}\\mid\\text{It takes great courage to let}]\\times \\\\\n&\\quad \\Pr[\\text{appear}\\mid\\text{It takes great courage to let yourself}]\\times \\\\\n&\\quad \\Pr[\\text{weak}\\mid\\text{It takes great courage to let yourself appear}]\n\\end{aligned}\\qquad (12.14)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium",
+    "latex": "\\begin{aligned}\n\\Pr[\\text{It takes great courage to let yourself appear weak}]\n&= \\Pr[\\text{It}]\\times\\Pr[\\text{takes}\\mid\\text{It}]\\times\\Pr[\\text{great}\\mid\\text{It takes}]\\times\\Pr[\\text{courage}\\mid\\text{It takes great}]\\times \\\\\n&\\quad \\Pr[\\text{to}\\mid\\text{It takes great courage}]\\times\\Pr[\\text{let}\\mid\\text{It takes great courage to}]\\times \\\\\n&\\quad \\Pr[\\text{yourself}\\mid\\text{It takes great courage to let}]\\times \\\\\n&\\quad \\Pr[\\text{appear}\\mid\\text{It takes great courage to let yourself}]\\times \\\\\n&\\quad \\Pr[\\text{weak}\\mid\\text{It takes great courage to let yourself appear}]\n\\end{aligned}\\qquad (12.14)"
+  },
+  {
+    "id": "page_0222-b008",
+    "page_key": 222,
+    "order": 8,
+    "type": "paragraph",
+    "text": "An autoregressive model predicts the conditional distributions $\\Pr[t\\_{n}\\mid t\\_{1},\\ldots,t\\_{n-1}]$ of each token given all the prior tokens, and hence indirectly computes the joint probability $\\Pr[t\\_{1},t\\_{2},\\ldots,t\\_{N}]$ of all N tokens:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

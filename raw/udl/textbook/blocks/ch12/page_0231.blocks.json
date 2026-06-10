@@ -1,0 +1,42 @@
+[
+  {
+    "id": "page_0231-b001",
+    "page_key": 231,
+    "order": 1,
+    "type": "figure",
+    "text": "",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0231_fig_1.jpg"
+  },
+  {
+    "id": "page_0231-b002",
+    "page_key": 231,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 12.17 Vision transformer. The Vision Transformer (ViT) breaks the image into a grid of patches $(16 \\times 16$ in the original implementation). Each of these is projected via a learned linear transformation to become a patch embedding. These patch embeddings are fed into a transformer encoder network, and the $\\langle cls\\rangle$ token is used to predict the class probabilities.",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "caption": "Figure 12.17 Vision transformer. The Vision Transformer (ViT) breaks the image into a grid of patches $(16 \\times 16$ in the original implementation). Each of these is projected via a learned linear transformation to become a patch embedding. These patch embeddings are fed into a transformer encoder network, and the $\\langle cls\\rangle$ token is used to predict the class probabilities."
+  },
+  {
+    "id": "page_0231-b003",
+    "page_key": 231,
+    "order": 3,
+    "type": "figure",
+    "text": "",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0231_fig_2.jpg"
+  },
+  {
+    "id": "page_0231-b004",
+    "page_key": 231,
+    "order": 4,
+    "type": "caption",
+    "text": "Figure 12.18 Shifted window (SWin) transformer (Liu et al., 2021c). a) Original image. b) The SWin transformer breaks the image into a grid of windows and each of these windows into a sub-grid of patches. The transformer network applies self-attention to the patches within each window independently (i.e., patches only attend to other patches in the same window). c) Each alternate layer shifts the windows so that the subsets of patches that interact with one another change, and information can propagate across the whole image. d) After several layers, the $2 \\times 2$ blocks of patch representations are concatenated to increase the effective resolution. e) Alternate layers use shifted windows at this new lower resolution. f) Eventually, the resolution is such that there is just a single window, and the patches span the entire image.",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "caption": "Figure 12.18 Shifted window (SWin) transformer (Liu et al., 2021c). a) Original image. b) The SWin transformer breaks the image into a grid of windows and each of these windows into a sub-grid of patches. The transformer network applies self-attention to the patches within each window independently (i.e., patches only attend to other patches in the same window). c) Each alternate layer shifts the windows so that the subsets of patches that interact with one another change, and information can propagate across the whole image. d) After several layers, the $2 \\times 2$ blocks of patch representations are concatenated to increase the effective resolution. e) Alternate layers use shifted windows at this new lower resolution. f) Eventually, the resolution is such that there is just a single window, and the patches span the entire image."
+  }
+]

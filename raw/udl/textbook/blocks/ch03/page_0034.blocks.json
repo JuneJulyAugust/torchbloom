@@ -1,0 +1,50 @@
+[
+  {
+    "id": "page_0034-b001",
+    "page_key": 34,
+    "order": 1,
+    "type": "figure",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0034_fig_1.jpg",
+    "alt_text": "Maximum possible linear regions as a function of hidden units."
+  },
+  {
+    "id": "page_0034-b002",
+    "page_key": 34,
+    "order": 2,
+    "type": "figure",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0034_fig_2.jpg",
+    "alt_text": "Maximum possible linear regions as a function of parameters."
+  },
+  {
+    "id": "page_0034-b003",
+    "page_key": 34,
+    "order": 3,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Figure 3.9 caption for linear regions versus hidden units and parameters."
+  },
+  {
+    "id": "page_0034-b004",
+    "page_key": 34,
+    "order": 4,
+    "type": "figure",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0034_fig_3.jpg",
+    "alt_text": "Input spaces divided by aligned hyperplanes."
+  },
+  {
+    "id": "page_0034-b005",
+    "page_key": 34,
+    "order": 5,
+    "type": "caption",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Figure 3.10 caption: D_i hidden units can create 2^{D_i} linear regions."
+  }
+]

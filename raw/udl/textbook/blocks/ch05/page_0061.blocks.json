@@ -1,0 +1,92 @@
+[
+  {
+    "id": "page_0061-b001",
+    "page_key": 61,
+    "order": 1,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "heading",
+    "text": "5.3 Example 1: univariate regression"
+  },
+  {
+    "id": "page_0061-b002",
+    "page_key": 61,
+    "order": 2,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "figure",
+    "image_path": "figures/page_0061_fig_1.jpg"
+  },
+  {
+    "id": "page_0061-b003",
+    "page_key": 61,
+    "order": 3,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "caption",
+    "text": "Figure 5.3 The univariate normal distribution (also known as the Gaussian distribution) is defined on the real line $ z \\in \\mathbb{R}$ and has parameters $\\mu $ and \\sigma2. The mean $\\mu $ determines the position of the peak. The positive root of the variance \\sigma2 (the standard deviation) determines the width of the distribution. Since the total probability density sums to one, the peak becomes higher as the variance decreases and the distribution becomes narrower"
+  },
+  {
+    "id": "page_0061-b004",
+    "page_key": 61,
+    "order": 4,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "We start by considering univariate regression models. Here the goal is to predict a single scalar output $ y \\in R $ from input x using a model f[x, $\\phi $] with parameters $\\phi $. Following the recipe, we choose a probability distribution over the output domain y. We select the univariate normal distribution (figure 5.3), which is defined over $ y \\in R $. This has two parameters (mean $\\mu $ and variance $\\sigma^{2}$) and has a probability density function:"
+  },
+  {
+    "id": "page_0061-b005",
+    "page_key": 61,
+    "order": 5,
+    "source": "deepseek",
+    "confidence": "medium",
+    "type": "equation",
+    "latex": "\\begin{aligned}\n\\Pr\\left(y\\mid\\mu,\\sigma^2\\right) &= \\frac{1}{\\sqrt{2\\pi\\sigma^2}}\\exp\\left[-\\frac{(y-\\mu)^2}{2\\sigma^2}\\right]\n\\end{aligned} \\qquad (5.7)"
+  },
+  {
+    "id": "page_0061-b006",
+    "page_key": 61,
+    "order": 6,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "Second, we set the machine learning model f[x, $\\phi $] to compute one or more of the parameters of this distribution. Here, we just compute the mean so $\\mu = f[\\mathbf{x},\\phi]$:"
+  },
+  {
+    "id": "page_0061-b007",
+    "page_key": 61,
+    "order": 7,
+    "source": "deepseek",
+    "confidence": "medium",
+    "type": "equation",
+    "latex": "\\begin{aligned}\n\\Pr\\left(y\\mid\\mathbf{x},\\phi,\\sigma^2\\right)\n&=\\frac{1}{\\sqrt{2\\pi\\sigma^2}}\\exp\\left[-\\frac{\\left(y-f[\\mathbf{x},\\phi]\\right)^2}{2\\sigma^2}\\right].\n\\end{aligned} \\qquad (5.8)"
+  },
+  {
+    "id": "page_0061-b008",
+    "page_key": 61,
+    "order": 8,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "We aim to find the parameters $\\phi $ that make the training data $\\lbrace x\\_{i}, y\\_{i} \\rbrace $ most probable under this distribution (figure 5.4). To accomplish this, we choose a loss function $ L[\\phi]$ based on the negative log-likelihood:"
+  },
+  {
+    "id": "page_0061-b009",
+    "page_key": 61,
+    "order": 9,
+    "source": "deepseek",
+    "confidence": "medium",
+    "type": "equation",
+    "latex": "\\begin{aligned}\nL[\\phi]\n&= -\\sum_{i=1}^{I}\\log\\left[\\Pr\\left(y_i\\mid\\mathbf{x}_i,\\phi,\\sigma^2\\right)\\right] \\\\\n&= -\\sum_{i=1}^{I}\\log\\left[\\frac{1}{\\sqrt{2\\pi\\sigma^2}}\\exp\\left[-\\frac{\\left(y_i-f[\\mathbf{x}_i,\\phi]\\right)^2}{2\\sigma^2}\\right]\\right].\n\\end{aligned} \\qquad (5.9)"
+  },
+  {
+    "id": "page_0061-b010",
+    "page_key": 61,
+    "order": 10,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "When we train the model, we seek parameters $\\hat{\\phi}$ that minimize this loss."
+  }
+]

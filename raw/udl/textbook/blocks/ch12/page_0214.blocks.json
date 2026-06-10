@@ -1,0 +1,104 @@
+[
+  {
+    "id": "page_0214-b001",
+    "page_key": 214,
+    "order": 1,
+    "type": "paragraph",
+    "text": "Relative positional encodings: The input to a self-attention mechanism may be an entire sentence, many sentences, or just a fragment of a sentence, and the absolute position of a word is much less important than the relative position between two words. Of course, this can be recovered if the system knows the absolute position of both, but relative positional encodings encode this information directly. Each element of the attention matrix corresponds to a particular offset between key position $a$ and query position $b$. Relative positional encodings learn a parameter $\\pi\\_{ab}$ for each offset and use this to modify the attention matrix by adding these values, multiplying them, or using them to alter the attention matrix in some other way.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0214-b002",
+    "page_key": 214,
+    "order": 2,
+    "type": "heading",
+    "text": "## 12.3.2 Scaled dot-product self-attention",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0214-b003",
+    "page_key": 214,
+    "order": 3,
+    "type": "paragraph",
+    "text": "The dot products in the attention computation can have large magnitudes and move the arguments to the softmax function into a region where the largest value completely dominates. Small changes to the inputs to the softmax function now have little effect on the output (i.e., the gradients are very small), making the model difficult to train. To prevent this, the dot products are scaled by the square root of the dimension $D\\_{q}$ of the queries and keys (i.e., the number of rows in $\\Omega\\_{q}$ and $\\Omega\\_{k}$ , which must be the same):",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0214-b004",
+    "page_key": 214,
+    "order": 4,
+    "type": "equation",
+    "text": "$$\n\\mathbf{Sa}[\\mathbf{X}]=\\mathbf{V}\\cdot\\mathrm{softmax}\\left[\\frac{\\mathbf{K}^{T}\\mathbf{Q}}{\\sqrt{D_q}}\\right]\\qquad (12.9)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium",
+    "latex": "\\mathbf{Sa}[\\mathbf{X}]=\\mathbf{V}\\cdot\\mathrm{softmax}\\left[\\frac{\\mathbf{K}^{T}\\mathbf{Q}}{\\sqrt{D_q}}\\right]\\qquad (12.9)"
+  },
+  {
+    "id": "page_0214-b005",
+    "page_key": 214,
+    "order": 5,
+    "type": "paragraph",
+    "text": "This is known as scaled dot-product self-attention.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0214-b006",
+    "page_key": 214,
+    "order": 6,
+    "type": "heading",
+    "text": "## 12.3.3 Multiple heads",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0214-b007",
+    "page_key": 214,
+    "order": 7,
+    "type": "paragraph",
+    "text": "Multiple self-attention mechanisms are usually applied in parallel, and this is known as multi-head self-attention. Now H different sets of values, keys, and queries are computed:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0214-b008",
+    "page_key": 214,
+    "order": 8,
+    "type": "equation",
+    "text": "$$\n\\begin{aligned}\n\\mathbf{V}_h &= \\boldsymbol{\\beta}_{vh}\\mathbf{1}^{T}+\\boldsymbol{\\Omega}_{vh}\\mathbf{X} \\\\\n\\mathbf{Q}_h &= \\boldsymbol{\\beta}_{qh}\\mathbf{1}^{T}+\\boldsymbol{\\Omega}_{qh}\\mathbf{X} \\\\\n\\mathbf{K}_h &= \\boldsymbol{\\beta}_{kh}\\mathbf{1}^{T}+\\boldsymbol{\\Omega}_{kh}\\mathbf{X}\n\\end{aligned}\\qquad (12.10)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium",
+    "latex": "\\begin{aligned}\n\\mathbf{V}_h &= \\boldsymbol{\\beta}_{vh}\\mathbf{1}^{T}+\\boldsymbol{\\Omega}_{vh}\\mathbf{X} \\\\\n\\mathbf{Q}_h &= \\boldsymbol{\\beta}_{qh}\\mathbf{1}^{T}+\\boldsymbol{\\Omega}_{qh}\\mathbf{X} \\\\\n\\mathbf{K}_h &= \\boldsymbol{\\beta}_{kh}\\mathbf{1}^{T}+\\boldsymbol{\\Omega}_{kh}\\mathbf{X}\n\\end{aligned}\\qquad (12.10)"
+  },
+  {
+    "id": "page_0214-b009",
+    "page_key": 214,
+    "order": 9,
+    "type": "paragraph",
+    "text": "The $h^{th}$ self-attention mechanism or head can be written as:",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0214-b010",
+    "page_key": 214,
+    "order": 10,
+    "type": "equation",
+    "text": "$$\n\\mathbf{Sa}_h[\\mathbf{X}]=\\mathbf{V}_h\\cdot\\mathrm{softmax}\\left[\\frac{\\mathbf{K}_h^{T}\\mathbf{Q}_h}{\\sqrt{D_q}}\\right]\\qquad (12.11)\n$$",
+    "source": "codex-fusion",
+    "confidence": "medium",
+    "latex": "\\mathbf{Sa}_h[\\mathbf{X}]=\\mathbf{V}_h\\cdot\\mathrm{softmax}\\left[\\frac{\\mathbf{K}_h^{T}\\mathbf{Q}_h}{\\sqrt{D_q}}\\right]\\qquad (12.11)"
+  },
+  {
+    "id": "page_0214-b011",
+    "page_key": 214,
+    "order": 11,
+    "type": "paragraph",
+    "text": "where we have different parameters $\\lbrace \\beta\\_{vh},\\Omega\\_{vh}\\rbrace$ , $\\lbrace \\beta\\_{qh},\\Omega\\_{qh}\\rbrace$ , and $\\lbrace \\beta\\_{kh},\\Omega\\_{kh}\\rbrace$ for each head. Typically, if the dimension of the inputs $x\\_{m}$ is D and there are H heads, the values, queries, and keys will all be of size $D/H$ , as this allows for an efficient implementation. The outputs of these self-attention mechanisms are vertically concatenated, and another linear transform $\\Omega\\_{c}$ is applied to combine them (figure 12.6):",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

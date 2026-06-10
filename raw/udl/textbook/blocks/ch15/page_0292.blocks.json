@@ -1,0 +1,66 @@
+[
+  {
+    "id": "page_0292-b001",
+    "page_key": 292,
+    "order": 1,
+    "type": "figure",
+    "text": "",
+    "source": "paddle",
+    "confidence": "high",
+    "image_path": "figures/page_0292_fig_1.jpg"
+  },
+  {
+    "id": "page_0292-b002",
+    "page_key": 292,
+    "order": 2,
+    "type": "caption",
+    "text": "Figure 15.15 InfoGAN for MNIST. a) Training examples from the MNIST database, which consists of  $28 \\times 28$  pixel images of handwritten digits. b) The first attribute  $c\\_{1}$  is categorical with 10 categories; each column shows samples generated with one of these categories. The InfoGAN recovers the ten digits. The attribute vectors  $c\\_{2}$  and  $c\\_{3}$  are continuous. c) Moving from left to right, each column represents a different value of  $c\\_{2}$  while keeping the other latent variables constant. This attribute seems to correspond to the orientation of the character. d) The third attribute seems to correspond to the thickness of the stroke. Adapted from Chen et al. (2016b).",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0292-b003",
+    "page_key": 292,
+    "order": 3,
+    "type": "paragraph",
+    "text": "where we might want to translate a grayscale image to color, a noisy image to a clean one, a blurry image to a sharp one, or a sketch to a photo-realistic image.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0292-b004",
+    "page_key": 292,
+    "order": 4,
+    "type": "paragraph",
+    "text": "This section discusses three image translation models that use different amounts of manual labeling. The Pix2Pix model uses before/after pairs for training. Models with adversarial losses use before/after pairs for the main model but also exploit unpaired “after” images in the discriminator. The CycleGAN model uses unpaired images.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0292-b005",
+    "page_key": 292,
+    "order": 5,
+    "type": "heading",
+    "text": "15.5.1 Pix2Pix",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0292-b006",
+    "page_key": 292,
+    "order": 6,
+    "type": "paragraph",
+    "text": "The Pix2Pix model (figure 15.16) is a network $\\hat{\\mathbf{x}} = \\mathbf{g}[\\mathbf{c}, \\boldsymbol{\\theta}]$ that maps one image $\\mathbf{c}$ to a different style image $\\mathbf{x}$ using an adversarial discriminator $f[\\mathbf{c}, \\mathbf{x}, \\phi]$, which ingests the case would be colorization, where the input $\\mathbf{c}$ is grayscale, and the output $g[\\mathbf{c}, \\boldsymbol{\\theta}]$ is color. The output should be similar to the input, and this is encouraged using a content loss that penalizes the $\\ell\\_{1}$ norm $\\Vert\\mathbf{x} - \\mathbf{g}[\\mathbf{c}, \\boldsymbol{\\theta}]\\Vert\\_{1}$ between the input $\\mathbf{c}$ and ground truth output $\\mathbf{x}$.",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  },
+  {
+    "id": "page_0292-b007",
+    "page_key": 292,
+    "order": 7,
+    "type": "paragraph",
+    "text": "However, the output image should also look like a realistic conversion of the input. This is encouraged by using an adversarial discriminator  $f[c, x, \\phi]$ , which ingests the before and after images c and x. At each step, the discriminator tries to distinguish between a real before/after pair and a before/synthesized pair. To the extent that these",
+    "source": "deepseek+paddle",
+    "confidence": "high"
+  }
+]

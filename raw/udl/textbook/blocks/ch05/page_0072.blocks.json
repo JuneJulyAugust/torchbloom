@@ -1,0 +1,83 @@
+[
+  {
+    "id": "page_0072-b001",
+    "page_key": 72,
+    "order": 1,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "where the first term disappears, as it has no dependence on $\\theta $. The remaining second term is known as the cross-entropy. It can be interpreted as the amount of uncertainty that remains in one distribution after taking into account what we already know from the other. Now, we substitute in the definition of $ q(y) $ from equation 5.28:"
+  },
+  {
+    "id": "page_0072-b002",
+    "page_key": 72,
+    "order": 2,
+    "source": "deepseek",
+    "confidence": "medium",
+    "type": "equation",
+    "latex": "\\begin{aligned}\n\\hat{\\boldsymbol{\\theta}}\n&= \\underset{\\boldsymbol{\\theta}}{\\mathop{\\mathrm{argmin}}}\\left[-\\int_{-\\infty}^{\\infty}\\left(\\frac{1}{I}\\sum_{i=1}^{I}\\delta[y-y_i]\\right)\\log\\left[\\Pr\\left(y\\mid\\boldsymbol{\\theta}\\right)\\right]dy\\right] \\\\\n&= \\underset{\\boldsymbol{\\theta}}{\\mathop{\\mathrm{argmin}}}\\left[-\\frac{1}{I}\\sum_{i=1}^{I}\\log\\left[\\Pr\\left(y_i\\mid\\boldsymbol{\\theta}\\right)\\right]\\right] \\\\\n&= \\underset{\\boldsymbol{\\theta}}{\\mathop{\\mathrm{argmin}}}\\left[-\\sum_{i=1}^{I}\\log\\left[\\Pr\\left(y_i\\mid\\boldsymbol{\\theta}\\right)\\right]\\right]\n\\end{aligned} \\qquad (5.30)"
+  },
+  {
+    "id": "page_0072-b003",
+    "page_key": 72,
+    "order": 3,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "The product of the two terms in the first line corresponds to pointwise multiplying the point masses in figure 5.12a with the logarithm of the distribution in figure 5.12b. We are left with a finite set of weighted probability masses centered on the data points. In the last line, we have eliminated the constant scaling factor 1/I, as this does not affect the position of the minimum. In machine learning, the distribution parameters $\\theta $ are computed by the model $ f[x\\_{i}, \\phi]$, so we have:"
+  },
+  {
+    "id": "page_0072-b004",
+    "page_key": 72,
+    "order": 4,
+    "source": "deepseek",
+    "confidence": "medium",
+    "type": "equation",
+    "latex": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}} &= \\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{argmin}}}\\left[-\\sum_{i=1}^{I}\\log\\left[\\Pr\\left(y_i\\mid\\mathbf{f}[\\mathbf{x}_i,\\boldsymbol{\\phi}]\\right)\\right]\\right]\n\\end{aligned} \\qquad (5.31)"
+  },
+  {
+    "id": "page_0072-b005",
+    "page_key": 72,
+    "order": 5,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "This is precisely the negative log-likelihood criterion from the recipe in section 5.2."
+  },
+  {
+    "id": "page_0072-b006",
+    "page_key": 72,
+    "order": 6,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "It follows that the negative log-likelihood criterion (from maximizing the data likelihood) and the cross-entropy criterion (from minimizing the distance between the model and empirical data distributions) are equivalent."
+  },
+  {
+    "id": "page_0072-b007",
+    "page_key": 72,
+    "order": 7,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "heading",
+    "text": "5.8 Summary"
+  },
+  {
+    "id": "page_0072-b008",
+    "page_key": 72,
+    "order": 8,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "We previously considered neural networks as directly predicting outputs y from data x. In this chapter, we shifted perspective to think about neural networks as computing the parameters $\\theta $ of probability distributions $\\Pr(\\mathbf{y}\\mid\\boldsymbol{\\theta})$ over the output space. This led to a principled approach to building loss functions. We selected model parameters $\\phi $ that maximized the likelihood of the observed data under these distributions. We saw that this is equivalent to minimizing the negative log-likelihood."
+  },
+  {
+    "id": "page_0072-b009",
+    "page_key": 72,
+    "order": 9,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "The least squares criterion for regression is a natural consequence of this approach; it follows from the assumption that y is normally distributed and that we are predicting the mean. We also saw how the regression model could be (i) extended to estimate the uncertainty over the prediction and (ii) extended to make that uncertainty dependent on the input (the heteroscedastic model). We applied the same approach to both binary and multiclass classification and derived loss functions for each. We discussed how to"
+  }
+]

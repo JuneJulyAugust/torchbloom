@@ -1,0 +1,110 @@
+[
+  {
+    "id": "page_0062-b001",
+    "page_key": 62,
+    "order": 1,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "heading",
+    "text": "5.3.1 Least squares loss function"
+  },
+  {
+    "id": "page_0062-b002",
+    "page_key": 62,
+    "order": 2,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "Now let's perform some algebraic manipulations on the loss function. We seek:"
+  },
+  {
+    "id": "page_0062-b003",
+    "page_key": 62,
+    "order": 3,
+    "source": "deepseek",
+    "confidence": "medium",
+    "type": "equation",
+    "latex": "\\begin{aligned}\n\\hat{\\boldsymbol{\\phi}}\n&= \\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{argmin}}}\\left[-\\sum_{i=1}^{I}\\log\\left[\\frac{1}{\\sqrt{2\\pi\\sigma^2}}\\exp\\left[-\\frac{(y_i-f[\\mathbf{x}_i,\\boldsymbol{\\phi}])^2}{2\\sigma^2}\\right]\\right]\\right] \\\\\n&= \\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{argmin}}}\\left[-\\sum_{i=1}^{I}\\left(\\log\\left[\\frac{1}{\\sqrt{2\\pi\\sigma^2}}\\right]-\\frac{(y_i-f[\\mathbf{x}_i,\\boldsymbol{\\phi}])^2}{2\\sigma^2}\\right)\\right] \\\\\n&= \\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{argmin}}}\\left[-\\sum_{i=1}^{I}\\frac{-(y_i-f[\\mathbf{x}_i,\\boldsymbol{\\phi}])^2}{2\\sigma^2}\\right] \\\\\n&= \\underset{\\boldsymbol{\\phi}}{\\mathop{\\mathrm{argmin}}}\\left[\\sum_{i=1}^{I}(y_i-f[\\mathbf{x}_i,\\boldsymbol{\\phi}])^2\\right]\n\\end{aligned} \\qquad (5.10)"
+  },
+  {
+    "id": "page_0062-b004",
+    "page_key": 62,
+    "order": 4,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "where we removed the first term between the second and third lines because it doesn't depend on $\\phi $. We removed the denominator between the third and fourth lines, as this is just a constant positive scaling factor that does not affect the position of the minimum. The result of these manipulations is the least squares loss function that we originally introduced when we discussed linear regression in chapter 2:"
+  },
+  {
+    "id": "page_0062-b005",
+    "page_key": 62,
+    "order": 5,
+    "source": "deepseek",
+    "confidence": "medium",
+    "type": "equation",
+    "latex": "\\begin{aligned}\nL[\\phi]&=\\sum_{i=1}^{I}\\left(y_{i}-\\mathrm{f}[\\mathbf{x}_{i},\\phi]\\right)^{2}.\n\\end{aligned} \\qquad (5.11)"
+  },
+  {
+    "id": "page_0062-b006",
+    "page_key": 62,
+    "order": 6,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "We see that the least squares loss function follows naturally from the assumptions that the predictions are (i) independent and (ii) drawn from a normal distribution with mean $\\mu = f[x\\_{i}, \\phi]$ (figure 5.4)."
+  },
+  {
+    "id": "page_0062-b007",
+    "page_key": 62,
+    "order": 7,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "heading",
+    "text": "5.3.2 Inference"
+  },
+  {
+    "id": "page_0062-b008",
+    "page_key": 62,
+    "order": 8,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "The network no longer directly predicts y but instead predicts the mean $\\mu = \\mathrm{f}[\\mathbf{x}, \\phi]$ of the normal distribution over y. When we perform inference, we usually want a single \"best\" point estimate $\\hat{y}$, so we take the maximum of the predicted distribution:"
+  },
+  {
+    "id": "page_0062-b009",
+    "page_key": 62,
+    "order": 9,
+    "source": "deepseek",
+    "confidence": "medium",
+    "type": "equation",
+    "latex": "\\begin{aligned}\n\\hat{y} &= \\underset{y}{\\mathop{\\mathrm{argmax}}}\\left[\\Pr\\left(y\\mid f[\\mathbf{x},\\hat{\\boldsymbol{\\phi}}],\\sigma^2\\right)\\right]\n\\end{aligned} \\qquad (5.12)"
+  },
+  {
+    "id": "page_0062-b010",
+    "page_key": 62,
+    "order": 10,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "For the univariate normal distribution, the maximum position is determined by the mean parameter $\\mu $ (figure 5.3). This is precisely what the model computed, so $\\hat{y} = f[x, \\phi]$."
+  },
+  {
+    "id": "page_0062-b011",
+    "page_key": 62,
+    "order": 11,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "heading",
+    "text": "5.3.3 Estimating variance"
+  },
+  {
+    "id": "page_0062-b012",
+    "page_key": 62,
+    "order": 12,
+    "source": "deepseek+paddle",
+    "confidence": "medium",
+    "type": "paragraph",
+    "text": "To formulate the least squares loss function, we assumed that the network predicted the mean of a normal distribution. The final expression in equation 5.11 (perhaps surprisingly)"
+  }
+]

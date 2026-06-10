@@ -1,0 +1,83 @@
+[
+  {
+    "id": "page_0033-b001",
+    "page_key": 33,
+    "order": 1,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "\\begin{aligned}\nh_1 &= a[\\theta_{10}+\\theta_{11}x_1+\\theta_{12}x_2]\\\\\nh_2 &= a[\\theta_{20}+\\theta_{21}x_1+\\theta_{22}x_2]\\\\\nh_3 &= a[\\theta_{30}+\\theta_{31}x_1+\\theta_{32}x_2],\n\\end{aligned} \\quad (3.9)"
+  },
+  {
+    "id": "page_0033-b002",
+    "page_key": 33,
+    "order": 2,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "There is one slope parameter for each input; hidden units are combined to form the output."
+  },
+  {
+    "id": "page_0033-b003",
+    "page_key": 33,
+    "order": 3,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "y=\\phi_0+\\phi_1h_1+\\phi_2h_2+\\phi_3h_3. \\quad (3.10)"
+  },
+  {
+    "id": "page_0033-b004",
+    "page_key": 33,
+    "order": 4,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Figure 3.8 processing creates a continuous piecewise linear surface from clipped planes."
+  },
+  {
+    "id": "page_0033-b005",
+    "page_key": 33,
+    "order": 5,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "With more than two inputs, linear regions become convex polytopes in multi-dimensional input space."
+  },
+  {
+    "id": "page_0033-b006",
+    "page_key": 33,
+    "order": 6,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Linear regions increase rapidly with input dimension; D_i aligned hyperplanes create 2^{D_i} orthants."
+  },
+  {
+    "id": "page_0033-b007",
+    "page_key": 33,
+    "order": 7,
+    "type": "heading",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "3.4 Shallow neural networks: general case"
+  },
+  {
+    "id": "page_0033-b008",
+    "page_key": 33,
+    "order": 8,
+    "type": "paragraph",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "Defines a general shallow neural network mapping x in R^{D_i} to y in R^{D_o} using D hidden units."
+  },
+  {
+    "id": "page_0033-b009",
+    "page_key": 33,
+    "order": 9,
+    "type": "equation",
+    "source": "deepseek+paddle",
+    "confidence": "high",
+    "text": "h_d=a\\left[\\theta_{d0}+\\sum_{i=1}^{D_i}\\theta_{di}x_i\\right]. \\quad (3.11)"
+  }
+]
