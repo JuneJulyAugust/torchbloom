@@ -1152,6 +1152,220 @@ $$
     assert any("malformed row-break math macro" in error for error in validation["errors"])
 
 
+def test_validate_rejects_missing_math_command_subscripts_for_github_rendering(tmp_path):
+    raw_root, _, output_dir = _write_fake_inputs(tmp_path)
+    fused_dir = output_dir / "fused" / "ch01"
+    blocks_dir = output_dir / "blocks" / "ch01"
+    fused_dir.mkdir(parents=True)
+    blocks_dir.mkdir(parents=True)
+    (fused_dir / "page_0001.md").write_text(
+        """---
+source: UnderstandingDeepLearning_02_09_26_C.pdf
+page_key: 1
+book_page: 1
+pdf_page: 15
+chapter: "1 - Introduction"
+chapter_slug: ch01-introduction
+ocr_sources:
+  - deepseek-ocr-2
+  - ppstructurev3
+fusion_status: fused
+confidence: medium
+figure_count: 0
+---
+
+This OCR dropped the subscript marker: $q(\\mathbf{z}{t}|\\mathbf{x})$.
+""",
+        encoding="utf-8",
+    )
+    (blocks_dir / "page_0001.blocks.json").write_text(
+        json.dumps(
+            [
+                {
+                    "id": "page_0001-b001",
+                    "page_key": 1,
+                    "order": 1,
+                    "type": "paragraph",
+                    "source": "deepseek+paddle",
+                    "confidence": "high",
+                    "text": "This OCR dropped $q(\\mathbf{z}{t}|\\mathbf{x})$.",
+                }
+            ]
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+    result = main(["validate", "--chapters", "1", "--raw-root", str(raw_root), "--output-dir", str(output_dir)])
+
+    assert result == 1
+    validation = json.loads((output_dir / "reports" / "validation.json").read_text(encoding="utf-8"))
+    assert any("missing math subscript" in error for error in validation["errors"])
+
+
+def test_validate_rejects_aligned_rowbreak_before_operator_for_github_rendering(tmp_path):
+    raw_root, _, output_dir = _write_fake_inputs(tmp_path)
+    fused_dir = output_dir / "fused" / "ch01"
+    blocks_dir = output_dir / "blocks" / "ch01"
+    fused_dir.mkdir(parents=True)
+    blocks_dir.mkdir(parents=True)
+    (fused_dir / "page_0001.md").write_text(
+        """---
+source: UnderstandingDeepLearning_02_09_26_C.pdf
+page_key: 1
+book_page: 1
+pdf_page: 15
+chapter: "1 - Introduction"
+chapter_slug: ch01-introduction
+ocr_sources:
+  - deepseek-ocr-2
+  - ppstructurev3
+fusion_status: fused
+confidence: medium
+figure_count: 0
+---
+
+$$
+\\begin{aligned}
+x&\\\\=y
+\\end{aligned}
+$$
+""",
+        encoding="utf-8",
+    )
+    (blocks_dir / "page_0001.blocks.json").write_text(
+        json.dumps(
+            [
+                {
+                    "id": "page_0001-b001",
+                    "page_key": 1,
+                    "order": 1,
+                    "type": "equation",
+                    "source": "deepseek+paddle",
+                    "confidence": "high",
+                    "text": "\\begin{aligned}\nx&\\\\=y\n\\end{aligned}",
+                }
+            ]
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+    result = main(["validate", "--chapters", "1", "--raw-root", str(raw_root), "--output-dir", str(output_dir)])
+
+    assert result == 1
+    validation = json.loads((output_dir / "reports" / "validation.json").read_text(encoding="utf-8"))
+    assert any("row break before math operator" in error for error in validation["errors"])
+
+
+def test_validate_rejects_bare_log_in_display_math_for_github_rendering(tmp_path):
+    raw_root, _, output_dir = _write_fake_inputs(tmp_path)
+    fused_dir = output_dir / "fused" / "ch01"
+    blocks_dir = output_dir / "blocks" / "ch01"
+    fused_dir.mkdir(parents=True)
+    blocks_dir.mkdir(parents=True)
+    (fused_dir / "page_0001.md").write_text(
+        """---
+source: UnderstandingDeepLearning_02_09_26_C.pdf
+page_key: 1
+book_page: 1
+pdf_page: 15
+chapter: "1 - Introduction"
+chapter_slug: ch01-introduction
+ocr_sources:
+  - deepseek-ocr-2
+  - ppstructurev3
+fusion_status: fused
+confidence: medium
+figure_count: 0
+---
+
+$$
+x = log\\left[y\\right]
+$$
+""",
+        encoding="utf-8",
+    )
+    (blocks_dir / "page_0001.blocks.json").write_text(
+        json.dumps(
+            [
+                {
+                    "id": "page_0001-b001",
+                    "page_key": 1,
+                    "order": 1,
+                    "type": "equation",
+                    "source": "deepseek+paddle",
+                    "confidence": "high",
+                    "text": "x = log\\left[y\\right]",
+                }
+            ]
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+    result = main(["validate", "--chapters", "1", "--raw-root", str(raw_root), "--output-dir", str(output_dir)])
+
+    assert result == 1
+    validation = json.loads((output_dir / "reports" / "validation.json").read_text(encoding="utf-8"))
+    assert any("bare log" in error for error in validation["errors"])
+
+
+def test_validate_rejects_prose_wrapped_as_display_equation(tmp_path):
+    raw_root, _, output_dir = _write_fake_inputs(tmp_path)
+    fused_dir = output_dir / "fused" / "ch01"
+    blocks_dir = output_dir / "blocks" / "ch01"
+    fused_dir.mkdir(parents=True)
+    blocks_dir.mkdir(parents=True)
+    (fused_dir / "page_0001.md").write_text(
+        """---
+source: UnderstandingDeepLearning_02_09_26_C.pdf
+page_key: 1
+book_page: 1
+pdf_page: 15
+chapter: "1 - Introduction"
+chapter_slug: ch01-introduction
+ocr_sources:
+  - deepseek-ocr-2
+  - ppstructurev3
+fusion_status: fused
+confidence: medium
+figure_count: 0
+---
+
+$$
+\\begin{aligned}
+&where we have multiplied both sides by \\sqrt{x}
+\\end{aligned}
+$$
+""",
+        encoding="utf-8",
+    )
+    (blocks_dir / "page_0001.blocks.json").write_text(
+        json.dumps(
+            [
+                {
+                    "id": "page_0001-b001",
+                    "page_key": 1,
+                    "order": 1,
+                    "type": "equation",
+                    "source": "deepseek+paddle",
+                    "confidence": "high",
+                    "text": "\\begin{aligned}\n&where we have multiplied both sides by \\sqrt{x}\n\\end{aligned}",
+                }
+            ]
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+    result = main(["validate", "--chapters", "1", "--raw-root", str(raw_root), "--output-dir", str(output_dir)])
+
+    assert result == 1
+    validation = json.loads((output_dir / "reports" / "validation.json").read_text(encoding="utf-8"))
+    assert any("prose inside display math" in error for error in validation["errors"])
+
+
 def test_validate_rejects_dollar_superscript_footnote_markers(tmp_path):
     raw_root, _, output_dir = _write_fake_inputs(tmp_path)
     fused_dir = output_dir / "fused" / "ch01"

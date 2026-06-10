@@ -46,6 +46,19 @@ DOUBLE_ESCAPED_MATH_MACRO_RE = re.compile(
 SINGLE_BACKSLASH_ROWBREAK_MACRO_RE = re.compile(
     r"(?<!\\)\\\s+\\(?:mathbf|boldsymbol|frac|sum|prod|vdots)"
 )
+MISSING_MATH_SUBSCRIPT_RE = re.compile(
+    r"(?:\\mathbf\{[fxyz]\}|\\boldsymbol\{\\phi\})\{[^{}\n]+\}"
+    r"|(?:\\mathbf\{[fxyz]\}|\\boldsymbol\{\\phi\})[A-Za-z0-9]"
+    r"|\\(?:phi|theta|alpha|beta|sigma)\{[^{}\n]+\}"
+)
+ALIGNED_ROWBREAK_BEFORE_OPERATOR_RE = re.compile(
+    r"&\\\\(?:=|approx|leq|geq|leftarrow|rightarrow|to)"
+)
+BARE_MATH_LOG_RE = re.compile(r"(?<!\\)\blog(?=\s*(?:\\|\[|\{|\())")
+PROSE_DISPLAY_MATH_RE = re.compile(
+    r"\\begin\{(?:aligned|align\*)\}\s*(?:&\s*)?(?:where|between|and|which|then)\b",
+    re.IGNORECASE,
+)
 OCR_SPACED_MATH_TOKEN_RES = [
     re.compile(r"(?<![A-Za-z])P r(?=\s*\()"),
     re.compile(r"(?<![A-Za-z])N o r m(?=(?:[_\[{(]|\b))"),
@@ -789,6 +802,14 @@ def _validate_github_math_blocks(md_path: Path, body: str, errors: list[str]) ->
             errors.append(f"{md_path}: fix double-escaped math macro for GitHub rendering")
         if SINGLE_BACKSLASH_ROWBREAK_MACRO_RE.search(block):
             errors.append(f"{md_path}: fix malformed row-break math macro for GitHub rendering")
+        if ALIGNED_ROWBREAK_BEFORE_OPERATOR_RE.search(block):
+            errors.append(f"{md_path}: remove row break before math operator in aligned equation")
+        if BARE_MATH_LOG_RE.search(block):
+            errors.append(f"{md_path}: replace bare log with \\log inside display math")
+        if MISSING_MATH_SUBSCRIPT_RE.search(block):
+            errors.append(f"{md_path}: fix missing math subscript marker from OCR")
+        if PROSE_DISPLAY_MATH_RE.search(block):
+            errors.append(f"{md_path}: move prose inside display math back to paragraph text")
         for pattern in OCR_SPACED_MATH_TOKEN_RES:
             if pattern.search(block):
                 errors.append(f"{md_path}: fix OCR-spaced math token before publishing")
@@ -819,6 +840,14 @@ def _validate_equation_text(path: Path, label: str, value: str, errors: list[str
         errors.append(f"{path}: {label} has double-escaped math macro for GitHub rendering")
     if SINGLE_BACKSLASH_ROWBREAK_MACRO_RE.search(value):
         errors.append(f"{path}: {label} has malformed row-break math macro for GitHub rendering")
+    if ALIGNED_ROWBREAK_BEFORE_OPERATOR_RE.search(value):
+        errors.append(f"{path}: {label} has row break before math operator")
+    if BARE_MATH_LOG_RE.search(value):
+        errors.append(f"{path}: {label} has bare log; use \\log")
+    if MISSING_MATH_SUBSCRIPT_RE.search(value):
+        errors.append(f"{path}: {label} has missing math subscript marker from OCR")
+    if PROSE_DISPLAY_MATH_RE.search(value):
+        errors.append(f"{path}: {label} has prose inside display math")
     for pattern in OCR_SPACED_MATH_TOKEN_RES:
         if pattern.search(value):
             errors.append(f"{path}: {label} has OCR-spaced math token")
@@ -857,6 +886,8 @@ def _validate_markdown(output_dir: Path, spec: PageSpec, errors: list[str]) -> d
         errors.append(f"{md_path}: put a space after inline \\lbrace/\\rbrace so GitHub does not read it as one macro")
     if INLINE_SUPERSCRIPT_FOOTNOTE_RE.search(body):
         errors.append(f"{md_path}: use Markdown footnotes like [^1], not $^1$ math markers")
+    if MISSING_MATH_SUBSCRIPT_RE.search(body):
+        errors.append(f"{md_path}: fix missing math subscript marker from OCR")
     _validate_github_math_blocks(md_path, body, errors)
     _validate_markdown_headings(md_path, body, errors)
     if frontmatter.get("page_key") != spec.book_page:

@@ -97,6 +97,8 @@ Markdown math must use GitHub-compatible syntax:
 
 GitHub renders `$$` math blocks and `$...$` inline math in Markdown files, while the bracket and parenthesis delimiters may render in local previews but appear as plain text on GitHub. GitHub's math sanitizer may reject some LaTeX macros, including `\operatorname`.
 
+The full-book rollout must preserve the same page-level Codex fusion discipline used for the first-three-chapter pilot. A mechanical publish of DeepSeek or PPStructureV3 OCR, even with validators, is not sufficient for equation-heavy pages. Validators catch known failure signatures, but a fused page still needs source-grounded review against the OCR evidence and the page image when equations or layout are ambiguous.
+
 ### Blocks JSON
 
 Each page also has a lightweight block sidecar for future LLM parsing:
@@ -116,6 +118,8 @@ Each page also has a lightweight block sidecar for future LLM parsing:
 ```
 
 Supported block types are `heading`, `paragraph`, `equation`, `figure`, `caption`, `table`, `list`, `exercise`, and `review_note`.
+
+The `source` field records provenance, not the last process that touched the block. Use `deepseek+paddle` when the two OCR sources agree or jointly support the block, `deepseek` or `paddle` when only one source supports it, and `codex-fusion` only when the fused output materially corrects or reconstructs content from page evidence. Keep `confidence` honest: `high` means the block was visually or source checked, not merely that it passes syntax validation.
 
 For figure blocks, the sidecar records the stable crop path under `output/udl-fusion-pilot/figures/`. PPStructureV3 visual crops are the visual source of truth unless a crop is visibly wrong. PPStructureV3 formula crops are evidence only and must not appear as final Markdown images or JSON figure blocks.
 
