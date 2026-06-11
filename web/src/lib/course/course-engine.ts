@@ -13,11 +13,13 @@ import type {
 export { course }
 
 const stageOrder: CourseStage[] = [
-  'foundations',
-  'attention-core',
-  'transformer-block',
-  'decoder-project',
-  'extensions',
+  'problem-framing',
+  'text-pipeline',
+  'attention-mechanics',
+  'transformer-layer',
+  'model-architectures',
+  'scale-and-variants',
+  'capstone',
 ]
 
 export function gradeDiagnostic(answers: DiagnosticAnswers): DiagnosticResult {
@@ -39,7 +41,14 @@ export function gradeDiagnostic(answers: DiagnosticAnswers): DiagnosticResult {
 export function buildLearnerState(result: DiagnosticResult): LearnerState {
   if (result.readiness === 'ready_for_attention_core') {
     return {
-      masteredNodeIds: ['math.weighted-average', 'math.dot-product', 'prob.softmax-normalization', 'code.list-indexing'],
+      masteredNodeIds: [
+        'problem.variable-length-text',
+        'math.vector-embedding-shape',
+        'math.dot-product',
+        'math.weighted-average',
+        'prob.softmax-normalization',
+        'code.token-indexing',
+      ],
       repairNodeIds: [],
     }
   }
@@ -60,8 +69,12 @@ export function nextRecommendedNode(activeCourse: Course, state: LearnerState): 
 
   return activeCourse.nodes
     .slice()
-    .sort((left, right) => stageOrder.indexOf(left.stage) - stageOrder.indexOf(right.stage))
-    .find((node) => !mastered.has(node.id))
+    .sort((left, right) => {
+      const stageDifference = stageOrder.indexOf(left.stage) - stageOrder.indexOf(right.stage)
+      if (stageDifference !== 0) return stageDifference
+      return left.graph.x - right.graph.x || left.graph.y - right.graph.y
+    })
+    .find((node) => !mastered.has(node.id) && node.prerequisites.every((nodeId) => mastered.has(nodeId)))
 }
 
 export function visibleGraphNodes(activeCourse: Course, stage: CourseStage): CourseNode[] {
@@ -95,15 +108,19 @@ export function nodeById(activeCourse: Course, nodeId: string): CourseNode {
 
 export function stageLabel(stage: CourseStage): string {
   switch (stage) {
-    case 'foundations':
-      return 'Foundations'
-    case 'attention-core':
-      return 'Attention Core'
-    case 'transformer-block':
-      return 'Transformer Block'
-    case 'decoder-project':
-      return 'Decoder Project'
-    case 'extensions':
-      return 'Extensions'
+    case 'problem-framing':
+      return 'Problem Framing'
+    case 'text-pipeline':
+      return 'Text Pipeline'
+    case 'attention-mechanics':
+      return 'Attention Mechanics'
+    case 'transformer-layer':
+      return 'Transformer Layer'
+    case 'model-architectures':
+      return 'Model Architectures'
+    case 'scale-and-variants':
+      return 'Scale And Variants'
+    case 'capstone':
+      return 'Capstone'
   }
 }

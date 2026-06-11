@@ -1,11 +1,28 @@
 export type CourseStage =
-  | 'foundations'
-  | 'attention-core'
-  | 'transformer-block'
-  | 'decoder-project'
-  | 'extensions'
+  | 'problem-framing'
+  | 'text-pipeline'
+  | 'attention-mechanics'
+  | 'transformer-layer'
+  | 'model-architectures'
+  | 'scale-and-variants'
+  | 'capstone'
 
-export type CourseTrack = 'math' | 'probability' | 'coding' | 'transformers' | 'project'
+export type CourseTrack =
+  | 'math'
+  | 'probability'
+  | 'coding'
+  | 'nlp'
+  | 'attention'
+  | 'architecture'
+  | 'training'
+  | 'systems'
+  | 'vision'
+  | 'project'
+
+export type LessonSection = {
+  title: string
+  body: string
+}
 
 export type CourseNode = {
   id: string
@@ -16,8 +33,14 @@ export type CourseNode = {
   sourceAnchors: string[]
   prerequisites: string[]
   equation?: string
+  graph: {
+    x: number
+    y: number
+  }
+  lesson: LessonSection[]
   littlePath: string[]
   masteryEvidence: string[]
+  commonMisconceptions: string[]
   practiceIds: string[]
 }
 
