@@ -6,7 +6,15 @@ This folder holds durable project knowledge: design decisions, artifact conventi
 
 - [repo-structure.md](repo-structure.md) - how tracked and generated artifacts are organized.
 - [lessons-from-biobloom.md](lessons-from-biobloom.md) - what TorchBloom is borrowing and improving from BioBloom.
+- [math-academy-research.md](math-academy-research.md) - research notes on Math Academy's graph, practice loop, diagnostics, and implications for TorchBloom.
+- [little-series-research.md](little-series-research.md) - research notes on The Little Learner, Daniel P. Friedman's Little-series pedagogy, and how to combine it with graph-based mastery learning.
+- [Transformer web MVP design](superpowers/specs/2026-06-11-transformer-web-mvp-design.md) - implemented design note for the learner-facing Transformer web course MVP.
 - [superpowers/](superpowers/) - dated specs and implementation plans.
+
+## Current Planning
+
+- [Transformer chapter knowledge graph pilot design](superpowers/specs/2026-06-11-transformer-chapter-kg-pilot-design.md) - proposed chapter-level pilot for UDL Chapter 12, combining source grounding, graph mastery, and Little-style authored paths.
+- [Transformer chapter knowledge graph pilot implementation plan](superpowers/plans/2026-06-11-transformer-chapter-kg-pilot.md) - proposed step-by-step plan for source inventory, graph contract, validation, authored paths, diagnostics, practice, and the Tiny Attention Router project.
 
 ## Recent Successful Pilots
 

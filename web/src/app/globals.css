@@ -1,0 +1,547 @@
+@import "katex/dist/katex.min.css";
+
+:root {
+  --bg: #f7f3ea;
+  --text: #20231d;
+  --muted: #67706a;
+  --surface: #fffdf8;
+  --surface-strong: #ffffff;
+  --border: #ddd7c9;
+  --border-strong: #b9afa0;
+  --teal: #226f68;
+  --teal-soft: #e5f3ef;
+  --gold: #996f18;
+  --gold-soft: #fff3d8;
+  --rose: #a34855;
+  --rose-soft: #fbe8ea;
+  --ink: #293241;
+  --ink-soft: #e8edf3;
+  --green: #44734a;
+  --green-soft: #e8f2e6;
+  --shadow: 0 18px 48px rgb(37 39 34 / 8%);
+  background: var(--bg);
+  color: var(--text);
+  font-family:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background:
+    linear-gradient(180deg, rgb(255 253 248 / 98%), rgb(246 241 229 / 96%)),
+    var(--bg);
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.courseShell {
+  display: grid;
+  gap: 16px;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.courseHeader {
+  align-items: end;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 420px);
+}
+
+.courseHeader h1 {
+  font-size: clamp(34px, 5vw, 64px);
+  font-weight: 720;
+  letter-spacing: 0;
+  line-height: 1;
+  max-width: 980px;
+}
+
+.courseHeader p:not(.eyebrow) {
+  color: var(--muted);
+  font-size: 17px;
+  line-height: 1.5;
+  margin-top: 10px;
+  max-width: 820px;
+}
+
+.eyebrow {
+  color: var(--teal);
+  font-size: 12px;
+  font-weight: 760;
+  letter-spacing: 0;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.targetPanel,
+.routeBar,
+.taskPanel,
+.resultPanel,
+.nodeDetail,
+.lessonSurface,
+.practiceItem,
+.projectSurface,
+.matrixPanel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.targetPanel {
+  display: grid;
+  gap: 8px;
+  padding: 18px;
+}
+
+.targetPanel span,
+.routeBar span,
+.equationBox span,
+.stageHeader,
+.practiceKind {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 760;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.targetPanel strong {
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+.routeBar {
+  align-items: center;
+  display: grid;
+  gap: 14px;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto;
+  padding: 14px;
+}
+
+.routeBar div {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+
+.routeBar strong {
+  overflow-wrap: anywhere;
+}
+
+.tabBar {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tabBar button,
+.secondaryAction,
+.primaryAction,
+.choice,
+.graphNode {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.tabBar button {
+  background: var(--surface);
+  color: var(--muted);
+  font-weight: 700;
+  padding: 10px 14px;
+}
+
+.tabBar button.active,
+.tabBar button[aria-selected="true"] {
+  background: var(--text);
+  border-color: var(--text);
+  color: white;
+}
+
+.primaryAction,
+.secondaryAction {
+  font-weight: 760;
+  min-height: 40px;
+  padding: 9px 13px;
+}
+
+.primaryAction {
+  background: var(--teal);
+  border-color: var(--teal);
+  color: white;
+}
+
+.secondaryAction {
+  background: var(--surface-strong);
+}
+
+.workspaceGrid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 420px);
+}
+
+.graphSurface {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(5, minmax(170px, 1fr));
+  min-height: 560px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+}
+
+.graphColumn {
+  background: rgb(255 255 255 / 58%);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  min-width: 170px;
+  padding: 10px;
+}
+
+.nodeStack {
+  align-content: start;
+  display: grid;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.graphNode {
+  align-items: start;
+  background: var(--surface);
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 22px minmax(0, 1fr);
+  min-height: 76px;
+  padding: 10px;
+  text-align: left;
+}
+
+.graphNode svg {
+  height: 17px;
+  width: 17px;
+}
+
+.graphNode strong,
+.graphNode small {
+  grid-column: 2;
+}
+
+.graphNode strong {
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.graphNode small {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.graphNode.selected {
+  border-color: var(--text);
+  box-shadow: inset 0 0 0 1px var(--text);
+}
+
+.trackMath {
+  background: var(--gold-soft);
+}
+
+.trackProbability {
+  background: var(--rose-soft);
+}
+
+.trackCoding {
+  background: var(--ink-soft);
+}
+
+.trackTransformer {
+  background: var(--teal-soft);
+}
+
+.trackProject {
+  background: var(--green-soft);
+}
+
+.nodeDetail,
+.taskPanel,
+.resultPanel,
+.lessonSurface,
+.projectSurface,
+.matrixPanel {
+  display: grid;
+  gap: 16px;
+  padding: 18px;
+}
+
+.panelTitleRow {
+  align-items: center;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 34px minmax(0, 1fr);
+}
+
+.panelTitleRow svg {
+  color: var(--teal);
+  height: 28px;
+  width: 28px;
+}
+
+.panelTitleRow h2 {
+  font-size: 22px;
+}
+
+.panelTitleRow p,
+.nodeDetail > p,
+.resultPanel p,
+.taskPanel p,
+.projectSurface p {
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.equationBox {
+  background: var(--ink-soft);
+  border: 1px solid #cad3df;
+  border-radius: 8px;
+  display: grid;
+  gap: 8px;
+  padding: 12px;
+}
+
+.equationBox code {
+  color: var(--ink);
+  font-size: 15px;
+  overflow-wrap: anywhere;
+}
+
+.pathList,
+.compactList {
+  color: var(--muted);
+  line-height: 1.55;
+  margin: 8px 0 0;
+  padding-left: 22px;
+}
+
+.twoColumn {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 420px);
+}
+
+.diagnosticList {
+  display: grid;
+  gap: 12px;
+}
+
+.diagnosticItem {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 12px;
+}
+
+.diagnosticItem legend {
+  font-weight: 720;
+  padding: 0 6px;
+}
+
+.diagnosticItem label,
+.toggleRow,
+.controlLabel {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+}
+
+.controlLabel {
+  align-items: start;
+  color: var(--muted);
+  flex-direction: column;
+  font-size: 13px;
+  font-weight: 760;
+}
+
+.controlLabel select {
+  background: var(--surface-strong);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  min-height: 40px;
+  padding: 8px 10px;
+  width: 100%;
+}
+
+.actionRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.statusReady,
+.feedbackCorrect {
+  color: var(--green);
+  font-weight: 800;
+}
+
+.statusRepair,
+.feedbackWrong {
+  color: var(--rose);
+  font-weight: 800;
+}
+
+.lessonSurface {
+  max-width: 980px;
+}
+
+.lessonSurface h3 {
+  margin-top: 10px;
+}
+
+.lessonSurface pre {
+  background: var(--ink-soft);
+  border-radius: 8px;
+  overflow-x: auto;
+  padding: 12px;
+}
+
+.practiceGrid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.practiceItem h2 {
+  font-size: 20px;
+}
+
+.choiceStack {
+  display: grid;
+  gap: 10px;
+}
+
+.choice {
+  background: var(--surface-strong);
+  padding: 12px;
+  text-align: left;
+}
+
+.choice.selected {
+  border-color: var(--teal);
+  box-shadow: inset 0 0 0 1px var(--teal);
+}
+
+.attentionTable {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tableRow {
+  align-items: center;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 0.8fr 1.4fr;
+  min-height: 46px;
+  padding: 8px 10px;
+}
+
+.tableRow + .tableRow {
+  border-top: 1px solid var(--border);
+}
+
+.tableRow.header {
+  background: var(--ink-soft);
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 760;
+  text-transform: uppercase;
+}
+
+.shareBar {
+  background: var(--teal);
+  border-radius: 999px;
+  display: inline-block;
+  height: 8px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.projectSteps {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.projectStep {
+  align-items: center;
+  background: var(--surface-strong);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 34px minmax(0, 1fr);
+  padding: 12px;
+}
+
+.projectStep span {
+  align-items: center;
+  background: var(--teal-soft);
+  border-radius: 50%;
+  color: var(--teal);
+  display: inline-flex;
+  font-weight: 800;
+  height: 30px;
+  justify-content: center;
+  width: 30px;
+}
+
+@media (max-width: 980px) {
+  .courseHeader,
+  .routeBar,
+  .workspaceGrid,
+  .twoColumn {
+    grid-template-columns: 1fr;
+  }
+
+  .graphSurface {
+    grid-template-columns: repeat(5, minmax(170px, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .courseShell {
+    padding: 12px;
+  }
+
+  .courseHeader h1 {
+    font-size: 36px;
+  }
+
+  .tabBar button {
+    flex: 1 1 140px;
+  }
+}
