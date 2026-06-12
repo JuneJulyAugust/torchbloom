@@ -8,11 +8,12 @@ import {
   GitBranch,
   Layers,
   LockKeyhole,
+  MapIcon,
   Network,
-  PanelRight,
   Route,
   ShieldCheck,
   Sigma,
+  X,
 } from 'lucide-react'
 import { useMemo, useState } from 'react'
 
@@ -231,7 +232,9 @@ function LessonPanel({ node }: { node: CourseNode }) {
           <h3>Misconceptions</h3>
           <ul className="compactList">
             {node.commonMisconceptions.map((item) => (
-              <li key={item}>{item}</li>
+              <li key={item}>
+                <MathMarkdown>{item}</MathMarkdown>
+              </li>
             ))}
           </ul>
         </div>
@@ -271,7 +274,9 @@ function PracticePanel({
         return (
           <article className="practiceItem" key={item.id}>
             <span className="practiceKind">{passed ? 'passed' : item.kind}</span>
-            <h2>{item.prompt}</h2>
+            <div className="practicePrompt">
+              <MathMarkdown>{item.prompt}</MathMarkdown>
+            </div>
             <div className="choiceStack">
               {item.choices.map((choice) => (
                 <button
@@ -283,12 +288,14 @@ function PracticePanel({
                   }}
                   type="button"
                 >
-                  {choice.text}
+                  <MathMarkdown>{choice.text}</MathMarkdown>
                 </button>
               ))}
             </div>
             {selected ? (
-              <p className={selected.correct ? 'feedbackCorrect' : 'feedbackWrong'}>{selected.feedback}</p>
+              <div className={selected.correct ? 'feedbackCorrect' : 'feedbackWrong'}>
+                <MathMarkdown>{selected.feedback}</MathMarkdown>
+              </div>
             ) : null}
           </article>
         )
@@ -545,7 +552,7 @@ Y = A @ V`}</pre>
   )
 }
 
-function Inspector({
+function LearningWorkspace({
   activeMode,
   answers,
   completedNodeIds,
@@ -574,12 +581,13 @@ function Inspector({
   const selectedPracticePassed =
     selectedPractice.length > 0 && selectedPractice.every((item) => passedPracticeIds.includes(item.id))
   const mastered = completedNodeIds.includes(selectedNode.id)
+  const ActiveIcon = panelModes.find((mode) => mode.id === activeMode)?.icon ?? BookOpen
 
   return (
-    <aside className="inspectorPanel">
-      <div className="inspectorTop">
+    <section className="learningSurface">
+      <div className="learningHeader">
         <div className="panelTitleRow">
-          <PanelRight aria-hidden />
+          <ActiveIcon aria-hidden />
           <div>
             <h2>{selectedNode.title}</h2>
             <p>{stageLabel(selectedNode.stage)} - {selectedNode.track}</p>
@@ -595,7 +603,7 @@ function Inspector({
         </button>
       </div>
 
-      <nav className="modeTabs" aria-label="Learning inspector modes">
+      <nav className="modeTabs" aria-label="Learning modes">
         {panelModes.map((mode) => {
           const Icon = mode.icon
           return (
@@ -622,13 +630,14 @@ function Inspector({
       ) : null}
       {activeMode === 'lab' ? <AttentionLab /> : null}
       {activeMode === 'project' ? <ProjectPanel node={nodeById(course, 'project.tiny-masked-decoder')} /> : null}
-    </aside>
+    </section>
   )
 }
 
 export function TransformerCourseApp() {
   const [activeMode, setActiveMode] = useState<PanelMode>('lesson')
   const [selectedNodeId, setSelectedNodeId] = useState('attention.weighted-sum-output')
+  const [mapOpen, setMapOpen] = useState(false)
   const [answers, setAnswers] = useState<DiagnosticAnswers>({})
   const [diagnosticResult, setDiagnosticResult] = useState<DiagnosticResult | null>(null)
   const [completedNodeIds, setCompletedNodeIds] = useState<string[]>(() => readStoredList(completedNodesStorageKey))
@@ -706,18 +715,14 @@ export function TransformerCourseApp() {
           <Route aria-hidden />
           {recommendation ? `Go to ${recommendation.title}` : 'Take diagnostic for route'}
         </button>
+        <button className="secondaryAction" onClick={() => setMapOpen(true)} type="button">
+          <MapIcon aria-hidden />
+          Open Map
+        </button>
       </section>
 
       <section className="learningStudio">
-        <GraphCanvas
-          completedNodeIds={completedNodeIds}
-          onSelectNode={(nodeId) => {
-            setSelectedNodeId(nodeId)
-            setActiveMode('lesson')
-          }}
-          selectedNodeId={selectedNodeId}
-        />
-        <Inspector
+        <LearningWorkspace
           activeMode={activeMode}
           answers={answers}
           completedNodeIds={completedNodeIds}
@@ -731,6 +736,30 @@ export function TransformerCourseApp() {
           selectedNode={selectedNode}
         />
       </section>
+
+      {mapOpen ? (
+        <div className="mapOverlay" role="dialog" aria-modal="true" aria-label="Course dependency map">
+          <div className="mapHeader">
+            <div>
+              <span>Dependency Map</span>
+              <h2>{selectedNode.title}</h2>
+            </div>
+            <button className="secondaryAction" onClick={() => setMapOpen(false)} type="button">
+              <X aria-hidden />
+              Close Map
+            </button>
+          </div>
+          <GraphCanvas
+            completedNodeIds={completedNodeIds}
+            onSelectNode={(nodeId) => {
+              setSelectedNodeId(nodeId)
+              setActiveMode('lesson')
+              setMapOpen(false)
+            }}
+            selectedNodeId={selectedNodeId}
+          />
+        </div>
+      ) : null}
     </main>
   )
 }

@@ -1,12 +1,17 @@
 import { expect, test } from '@playwright/test'
 
-test('learner can use graph-first diagnostic, practice, and attention lab', async ({ page }) => {
+test('learner can use lesson-centered course, map, diagnostic, practice, and attention lab', async ({ page }) => {
   await page.goto('/')
 
   await expect(page.getByRole('heading', { name: /Transformer Mastery Course/i })).toBeVisible()
+  await expect(page.getByLabel(/Transformer course knowledge graph/i)).toHaveCount(0)
+  await expect(page.getByText(/Ask Before Naming/i)).toBeVisible()
+
+  await page.getByRole('button', { name: /Open Map/i }).click()
   await expect(page.getByLabel(/Transformer course knowledge graph/i)).toBeVisible()
   await expect(page.locator('.graphNode')).toHaveCount(42)
-  await expect(page.getByText(/Ask Before Naming/i)).toBeVisible()
+  await page.getByRole('button', { name: /Close Map/i }).click()
+  await expect(page.getByLabel(/Transformer course knowledge graph/i)).toHaveCount(0)
 
   await page.getByRole('button', { name: /^Diagnostic$/i }).click()
   await page.getByRole('button', { name: /Fill Experienced Path/i }).click()
