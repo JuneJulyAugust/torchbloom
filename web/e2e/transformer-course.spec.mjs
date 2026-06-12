@@ -5,7 +5,7 @@ test('learner can use lesson-centered course, map, diagnostic, practice, and att
 
   await expect(page.getByRole('heading', { name: /Transformer Mastery Course/i })).toBeVisible()
   await expect(page.getByLabel(/Transformer course knowledge graph/i)).toHaveCount(0)
-  await expect(page.getByText(/Ask Before Naming/i)).toBeVisible()
+  await expect(page.getByText(/What This Output Is For/i)).toBeVisible()
 
   await page.getByRole('button', { name: /Open Map/i }).click()
   await expect(page.getByLabel(/Transformer course knowledge graph/i)).toBeVisible()
@@ -29,6 +29,7 @@ test('learner can use lesson-centered course, map, diagnostic, practice, and att
   await page.getByRole('button', { name: /Reveal Row/i }).click()
 
   await expect(page.getByText(/Query token/i)).toBeVisible()
-  await expect(page.getByText(/Mixed output/i)).toBeVisible()
+  await expect(page.locator('.outputVector').getByText(/Mixed output/i)).toBeVisible()
+  await expect(page.getByText(/Weighted-sum ledger/i)).toBeVisible()
   await expect(page.getByRole('cell', { name: 'masked' }).first()).toBeVisible()
 })

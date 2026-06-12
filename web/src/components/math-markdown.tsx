@@ -11,8 +11,10 @@ type MathMarkdownProps = {
 
 export function MathMarkdown({ children }: MathMarkdownProps) {
   return (
-    <ReactMarkdown rehypePlugins={[rehypeKatex]} remarkPlugins={[remarkGfm, remarkMath]}>
-      {children}
-    </ReactMarkdown>
+    <div className="mathMarkdown">
+      <ReactMarkdown rehypePlugins={[rehypeKatex]} remarkPlugins={[remarkGfm, remarkMath]}>
+        {children}
+      </ReactMarkdown>
+    </div>
   )
 }

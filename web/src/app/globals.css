@@ -1,33 +1,34 @@
 @import "katex/dist/katex.min.css";
 
 :root {
-  --bg: #f4f0e7;
-  --text: #1f241f;
-  --muted: #667068;
-  --surface: #fffdf8;
+  --bg: #ffffff;
+  --text: #0d0d0d;
+  --muted: #5f6368;
+  --surface: #ffffff;
   --surface-strong: #ffffff;
-  --border: #d9d0bf;
-  --border-strong: #a99f8e;
-  --graph-line: #b9b09d;
-  --graph-active: #1e6f66;
-  --teal: #1e6f66;
-  --teal-soft: #e0f0ec;
-  --gold: #8b6619;
-  --gold-soft: #fff1cc;
-  --rose: #9f4352;
-  --rose-soft: #f9e5e7;
-  --blue: #2e5b82;
-  --blue-soft: #e3edf6;
-  --green: #3f7449;
-  --green-soft: #e5f1e3;
-  --violet: #5c527d;
-  --violet-soft: #eee9f7;
-  --gray-soft: #e9edf0;
-  --shadow: 0 18px 42px rgb(43 42 35 / 10%);
+  --surface-subtle: #f7f7f8;
+  --border: #e5e7eb;
+  --border-strong: #c8ccd2;
+  --graph-line: #d1d5db;
+  --graph-active: #10a37f;
+  --teal: #10a37f;
+  --teal-soft: #e9f7f3;
+  --gold: #b45f06;
+  --gold-soft: #fff7e6;
+  --rose: #c2415d;
+  --rose-soft: #fff1f3;
+  --blue: #2563eb;
+  --blue-soft: #eff6ff;
+  --green: #16833a;
+  --green-soft: #eefaf0;
+  --violet: #6d5bd0;
+  --violet-soft: #f5f3ff;
+  --gray-soft: #f3f4f6;
+  --shadow: 0 1px 2px rgb(0 0 0 / 6%);
   --mono: "SF Mono", "Cascadia Code", "Liberation Mono", monospace;
   background: var(--bg);
   color: var(--text);
-  font-family: "Avenir Next", "IBM Plex Sans", "Helvetica Neue", sans-serif;
+  font-family: Inter, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
 }
 
 * {
@@ -36,11 +37,9 @@
 
 body {
   margin: 0;
-  background:
-    linear-gradient(rgb(255 255 255 / 70%) 1px, transparent 1px),
-    linear-gradient(90deg, rgb(255 255 255 / 52%) 1px, transparent 1px),
-    linear-gradient(180deg, #fbf8f0, #eee8da);
-  background-size: 32px 32px, 32px 32px, 100% 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 17px;
 }
 
 button,
@@ -67,9 +66,9 @@ button:disabled {
 
 .courseShell {
   display: grid;
-  gap: 12px;
+  gap: 18px;
   min-height: 100vh;
-  padding: 14px;
+  padding: 24px;
 }
 
 .appBar {
@@ -80,7 +79,7 @@ button:disabled {
 }
 
 .appBar h1 {
-  font-size: clamp(26px, 3vw, 42px);
+  font-size: clamp(34px, 4.2vw, 64px);
   font-weight: 820;
   letter-spacing: 0;
   line-height: 1.02;
@@ -88,32 +87,33 @@ button:disabled {
 
 .appBar p:not(.eyebrow) {
   color: var(--muted);
-  font-size: 14px;
-  line-height: 1.45;
-  margin-top: 5px;
+  font-size: 16px;
+  line-height: 1.55;
+  margin-top: 10px;
   max-width: 920px;
 }
 
 .eyebrow {
   color: var(--teal);
-  font-size: 11px;
-  font-weight: 820;
+  font-size: 12px;
+  font-weight: 760;
   letter-spacing: 0;
   text-transform: uppercase;
 }
 
 .targetStrip {
   align-items: center;
-  background: rgb(255 253 248 / 86%);
+  background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 8px;
   box-shadow: var(--shadow);
   color: var(--muted);
   display: grid;
-  gap: 8px;
+  font-size: 14px;
+  gap: 10px;
   grid-template-columns: repeat(3, auto auto);
-  min-height: 48px;
-  padding: 10px 12px;
+  min-height: 52px;
+  padding: 12px 14px;
   white-space: nowrap;
 }
 
@@ -125,14 +125,14 @@ button:disabled {
 
 .missionBar {
   align-items: center;
-  background: rgb(255 253 248 / 88%);
+  background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 8px;
   box-shadow: var(--shadow);
   display: grid;
-  gap: 14px;
+  gap: 16px;
   grid-template-columns: minmax(0, 1fr) auto auto;
-  padding: 12px;
+  padding: 16px;
 }
 
 .missionBar div {
@@ -146,16 +146,18 @@ button:disabled {
 .practiceKind,
 .equationBox span,
 .lessonFrame > span,
-.outputVector span {
+.outputVector span,
+.conceptPanel span,
+.calculationLedger span {
   color: var(--muted);
-  font-size: 11px;
-  font-weight: 820;
+  font-size: 12px;
+  font-weight: 760;
   letter-spacing: 0;
   text-transform: uppercase;
 }
 
 .missionBar strong {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.35;
 }
 
@@ -177,10 +179,12 @@ button:disabled {
 .masteredAction {
   align-items: center;
   display: inline-flex;
-  font-weight: 780;
+  font-size: 14px;
+  font-weight: 700;
   gap: 8px;
-  min-height: 40px;
-  padding: 9px 12px;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 16px;
 }
 
 .recommendationButton,
@@ -210,10 +214,7 @@ button:disabled {
 }
 
 .graphCanvas {
-  background:
-    radial-gradient(circle at 20px 20px, rgb(30 111 102 / 10%) 1px, transparent 1px),
-    linear-gradient(180deg, rgb(255 253 248 / 92%), rgb(246 241 230 / 92%));
-  background-size: 22px 22px, 100% 100%;
+  background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 8px;
   box-shadow: var(--shadow);
@@ -227,8 +228,8 @@ button:disabled {
 .stageRail {
   color: var(--muted);
   display: grid;
-  font-size: 11px;
-  font-weight: 820;
+  font-size: 12px;
+  font-weight: 700;
   grid-template-columns: repeat(7, 1fr);
   left: 0;
   letter-spacing: 0;
@@ -242,7 +243,7 @@ button:disabled {
 }
 
 .stageRail span {
-  border-left: 1px solid rgb(169 159 142 / 45%);
+  border-left: 1px solid var(--border);
   min-height: 690px;
   padding-left: 8px;
 }
@@ -277,8 +278,8 @@ button:disabled {
   display: grid;
   gap: 3px 8px;
   grid-template-columns: 18px minmax(0, 1fr);
-  min-height: 66px;
-  padding: 9px;
+  min-height: 74px;
+  padding: 10px;
   position: absolute;
   text-align: left;
   transform: translate(-50%, -50%);
@@ -286,7 +287,7 @@ button:disabled {
     border-color 160ms ease,
     box-shadow 160ms ease,
     transform 160ms ease;
-  width: 164px;
+  width: 188px;
   z-index: 3;
 }
 
@@ -301,14 +302,14 @@ button:disabled {
 }
 
 .graphNode strong {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.16;
   overflow-wrap: anywhere;
 }
 
 .graphNode small {
   color: var(--muted);
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 700;
   grid-column: 2;
   text-transform: uppercase;
@@ -330,56 +331,56 @@ button:disabled {
 }
 
 .trackArchitecture {
-  background: var(--blue-soft);
+  border-left: 4px solid var(--blue);
 }
 
 .trackAttention {
-  background: var(--teal-soft);
+  border-left: 4px solid var(--teal);
 }
 
 .trackCoding {
-  background: var(--gray-soft);
+  border-left: 4px solid #6b7280;
 }
 
 .trackMath {
-  background: var(--gold-soft);
+  border-left: 4px solid var(--gold);
 }
 
 .trackNlp {
-  background: #eef0dc;
+  border-left: 4px solid #637b32;
 }
 
 .trackProbability {
-  background: var(--rose-soft);
+  border-left: 4px solid var(--rose);
 }
 
 .trackProject {
-  background: var(--green-soft);
+  border-left: 4px solid var(--green);
 }
 
 .trackSystems {
-  background: #ece7db;
+  border-left: 4px solid #4b5563;
 }
 
 .trackTraining {
-  background: var(--violet-soft);
+  border-left: 4px solid var(--violet);
 }
 
 .trackVision {
-  background: #e4f1f4;
+  border-left: 4px solid #0891b2;
 }
 
 .learningSurface {
-  background: rgb(255 253 248 / 94%);
+  background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 8px;
   box-shadow: var(--shadow);
   display: grid;
-  gap: 18px;
+  gap: 22px;
   margin: 0 auto;
-  max-width: 1120px;
+  max-width: 1240px;
   min-height: calc(100vh - 176px);
-  padding: 20px;
+  padding: 28px;
 }
 
 .learningHeader {
@@ -398,12 +399,12 @@ button:disabled {
 
 .panelTitleRow svg {
   color: var(--teal);
-  height: 26px;
-  width: 26px;
+  height: 30px;
+  width: 30px;
 }
 
 .panelTitleRow h2 {
-  font-size: clamp(24px, 3vw, 40px);
+  font-size: clamp(32px, 4vw, 56px);
   line-height: 1.12;
 }
 
@@ -414,12 +415,13 @@ button:disabled {
 .labPanel p,
 .emptyState p {
   color: var(--muted);
-  line-height: 1.45;
+  font-size: 18px;
+  line-height: 1.55;
 }
 
 .modeTabs {
   display: grid;
-  gap: 10px;
+  gap: 8px;
   grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
@@ -427,13 +429,15 @@ button:disabled {
   align-items: center;
   background: var(--surface-strong);
   color: var(--muted);
-  display: grid;
-  font-size: 11px;
-  font-weight: 780;
-  gap: 4px;
-  justify-items: center;
-  min-height: 64px;
-  padding: 10px 6px;
+  display: inline-flex;
+  font-size: 15px;
+  font-weight: 700;
+  gap: 8px;
+  height: 56px;
+  justify-content: center;
+  min-height: 56px;
+  padding: 0 14px;
+  white-space: nowrap;
 }
 
 .modeTabs button.active {
@@ -443,8 +447,8 @@ button:disabled {
 }
 
 .modeTabs svg {
-  height: 16px;
-  width: 16px;
+  height: 18px;
+  width: 18px;
 }
 
 .lessonStack,
@@ -457,17 +461,23 @@ button:disabled {
 }
 
 .equationBox {
-  background: #eef2f4;
-  border: 1px solid #cdd8dd;
+  background: var(--surface-subtle);
+  border: 1px solid var(--border);
   border-radius: 8px;
   display: grid;
-  gap: 8px;
+  gap: 12px;
   overflow-x: auto;
-  padding: 11px;
+  padding: 18px 20px;
 }
 
 .equationBox .katex-display {
+  font-size: clamp(1.8rem, 2.2vw, 2.4rem);
+  line-height: 1.4;
   margin: 0;
+}
+
+.mathMarkdown .katex {
+  font-size: 1.08em;
 }
 
 .lessonFrame,
@@ -475,24 +485,33 @@ button:disabled {
 .resultPanel,
 .sourceList,
 .outputVector,
-.emptyState {
+.emptyState,
+.conceptPanel,
+.calculationLedger {
   background: var(--surface-strong);
   border: 1px solid var(--border);
   border-radius: 8px;
   display: grid;
-  gap: 9px;
-  padding: 18px;
+  gap: 12px;
+  padding: 20px;
 }
 
 .lessonFrame h3,
-.evidenceGrid h3 {
-  font-size: 18px;
+.evidenceGrid h3,
+.conceptPanel h3,
+.calculationLedger h3 {
+  font-size: 22px;
+  line-height: 1.2;
 }
 
 .lessonFrame p,
-.lessonFrame li {
-  color: #3f473f;
-  line-height: 1.55;
+.lessonFrame li,
+.conceptPanel p,
+.calculationLedger p,
+.calculationLedger strong {
+  color: #202123;
+  font-size: 18px;
+  line-height: 1.62;
 }
 
 .lessonFrame strong {
@@ -517,15 +536,15 @@ button:disabled {
 }
 
 .sourceList code {
-  background: #f4efe3;
+  background: var(--surface-subtle);
   border: 1px solid var(--border);
   border-radius: 6px;
-  color: #4c4639;
+  color: #343541;
   display: block;
   font-family: var(--mono);
-  font-size: 11px;
+  font-size: 13px;
   overflow-wrap: anywhere;
-  padding: 7px;
+  padding: 8px;
 }
 
 .choiceStack,
@@ -536,9 +555,9 @@ button:disabled {
 }
 
 .practicePrompt {
-  font-size: 24px;
-  font-weight: 820;
-  line-height: 1.25;
+  font-size: 26px;
+  font-weight: 760;
+  line-height: 1.35;
 }
 
 .practicePrompt p,
@@ -550,9 +569,10 @@ button:disabled {
 
 .choice {
   background: var(--surface);
-  font-size: 18px;
-  line-height: 1.35;
-  padding: 14px;
+  font-size: 20px;
+  line-height: 1.45;
+  min-height: 76px;
+  padding: 18px;
   text-align: left;
 }
 
@@ -577,13 +597,14 @@ button:disabled {
   border: 1px solid var(--border);
   border-radius: 8px;
   display: grid;
-  gap: 8px;
+  gap: 10px;
   margin: 0;
-  padding: 11px;
+  padding: 14px;
 }
 
 .diagnosticItem legend {
-  font-weight: 760;
+  font-size: 17px;
+  font-weight: 720;
   line-height: 1.3;
   padding: 0 4px;
 }
@@ -606,16 +627,18 @@ button:disabled {
   align-items: start;
   color: var(--muted);
   flex-direction: column;
-  font-size: 12px;
-  font-weight: 780;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .controlLabel select {
   background: var(--surface-strong);
   border: 1px solid var(--border);
   border-radius: 8px;
-  min-height: 38px;
-  padding: 8px 10px;
+  color: var(--text);
+  font-size: 17px;
+  min-height: 44px;
+  padding: 8px 12px;
   width: 100%;
 }
 
@@ -636,8 +659,9 @@ button:disabled {
   display: grid;
   gap: 8px;
   grid-template-columns: 0.8fr 0.7fr 1.2fr 1fr;
-  min-height: 44px;
-  padding: 8px 10px;
+  font-size: 16px;
+  min-height: 50px;
+  padding: 10px 12px;
 }
 
 .tableRow + .tableRow {
@@ -645,10 +669,10 @@ button:disabled {
 }
 
 .tableRow.header {
-  background: #eef2f4;
+  background: var(--surface-subtle);
   color: var(--muted);
-  font-size: 11px;
-  font-weight: 820;
+  font-size: 12px;
+  font-weight: 760;
   text-transform: uppercase;
 }
 
@@ -667,13 +691,13 @@ button:disabled {
 
 .projectStep {
   align-items: center;
-  background: #f9f5ea;
+  background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 8px;
   display: grid;
   gap: 10px;
   grid-template-columns: 30px minmax(0, 1fr);
-  padding: 10px;
+  padding: 14px;
 }
 
 .projectStep span {
@@ -689,21 +713,19 @@ button:disabled {
 }
 
 .codeBlock {
-  background: #20251f;
+  background: #101214;
   border-radius: 8px;
-  color: #f8f3e7;
+  color: #f6f7f8;
   font-family: var(--mono);
-  font-size: 12px;
-  line-height: 1.5;
+  font-size: 15px;
+  line-height: 1.65;
   margin: 0;
   overflow-x: auto;
-  padding: 12px;
+  padding: 18px;
 }
 
 .mapOverlay {
-  background:
-    linear-gradient(180deg, rgb(250 247 239 / 98%), rgb(241 236 225 / 98%)),
-    var(--bg);
+  background: var(--bg);
   display: grid;
   gap: 12px;
   inset: 0;
@@ -714,7 +736,7 @@ button:disabled {
 
 .mapHeader {
   align-items: center;
-  background: rgb(255 253 248 / 94%);
+  background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 8px;
   box-shadow: var(--shadow);
@@ -726,13 +748,13 @@ button:disabled {
 
 .mapHeader span {
   color: var(--teal);
-  font-size: 11px;
-  font-weight: 820;
+  font-size: 12px;
+  font-weight: 760;
   text-transform: uppercase;
 }
 
 .mapHeader h2 {
-  font-size: 22px;
+  font-size: 24px;
   line-height: 1.2;
   margin-top: 3px;
 }
@@ -752,11 +774,11 @@ button:disabled {
 
 @media (max-width: 680px) {
   .courseShell {
-    padding: 10px;
+    padding: 12px;
   }
 
   .appBar h1 {
-    font-size: 30px;
+    font-size: 36px;
   }
 
   .targetStrip {
@@ -766,11 +788,20 @@ button:disabled {
 
   .missionBar,
   .learningSurface {
-    padding: 10px;
+    padding: 14px;
   }
 
   .modeTabs {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .modeTabs button {
+    height: 52px;
+    min-height: 52px;
+  }
+
+  .panelTitleRow h2 {
+    font-size: 32px;
   }
 
   .evidenceGrid,

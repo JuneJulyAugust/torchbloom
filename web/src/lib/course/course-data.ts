@@ -12,15 +12,15 @@ function lesson(
 ): LessonSection[] {
   return [
     {
-      title: 'Ask Before Naming',
-      body: `**Question.** ${question}\n\n**Answer.** ${answer}\n\nThis is the Little-style move: make one prediction, check it, then let the name arrive after the idea has already done a job.`,
+      title: 'Start With A Concrete Case',
+      body: `**Question.** ${question}\n\n**Answer.** ${answer}`,
     },
     {
-      title: 'Compress The Operation',
+      title: 'Name The Operation',
       body: math,
     },
     {
-      title: 'Do And Repair',
+      title: 'Try And Repair',
       body: `**Do.** ${practiceMove}\n\n**Common trap.** ${misconception}`,
     },
   ]
@@ -32,6 +32,153 @@ function node(input: Omit<CourseNode, 'practiceIds'>): CourseNode {
     practiceIds: [practiceId(input.id)],
   }
 }
+
+const attentionOutputLesson: LessonSection[] = [
+  {
+    title: 'What This Output Is For',
+    body: `A token is one item in a sequence. In a sentence, a token might be a word piece such as **animal**, **slept**, or **tired**. A transformer stores each token as a vector so it can keep many numerical clues at once.
+
+We are computing a new vector for the first token. The first token will not simply copy one other token. It will mix several **value vectors** using attention shares that are already non-negative and already sum to one.`,
+  },
+  {
+    title: 'The Objects And Their Shapes',
+    body: `Use three source tokens and two features per value vector.
+
+| source index | source token | attention share for token 1 | value vector |
+| --- | --- | ---: | --- |
+| $m=1$ | animal | $a_{11}=0.1$ | $\\mathbf{v}_1=[2,0]$ |
+| $m=2$ | slept | $a_{21}=0.3$ | $\\mathbf{v}_2=[0,4]$ |
+| $m=3$ | tired | $a_{31}=0.6$ | $\\mathbf{v}_3=[10,10]$ |
+
+The source index $m$ tells which value vector contributes. The target index $n=1$ tells which output token we are building. Because every value vector has shape $2\\times1$, the output $\\mathbf{y}_1$ must also have two coordinates.`,
+  },
+  {
+    title: 'Compute The Weighted Sum',
+    body: `The abstract rule is:
+
+$$
+\\mathbf{y}_n=\\sum_{m=1}^{N}a_{mn}\\mathbf{v}_m
+$$
+
+For token 1, substitute the actual weights and vectors:
+
+$$
+\\mathbf{y}_1=0.1[2,0]+0.3[0,4]+0.6[10,10]
+$$
+
+Now multiply before adding:
+
+| source token | weighted contribution |
+| --- | --- |
+| animal | $0.1[2,0]=[0.2,0]$ |
+| slept | $0.3[0,4]=[0,1.2]$ |
+| tired | $0.6[10,10]=[6,6]$ |
+
+Add coordinate by coordinate:
+
+$$
+[0.2,0]+[0,1.2]+[6,6]=[6.2,7.2]
+$$
+
+The output is [6.2, 7.2].`,
+  },
+  {
+    title: 'What The Number Means',
+    body: `The first token now carries a new representation that borrowed mostly from **tired**, a little from **slept**, and a very small amount from **animal**. Attention did not choose one source token. It made a mixture.
+
+The attention row is not the output. The attention row is the set of mixing shares. The value vectors are the content being mixed. The output vector is what you get after multiplying and adding.`,
+  },
+  {
+    title: 'Repair The Common Error',
+    body: `If a learner stops at $[0.1,0.3,0.6]$, they have only found the attention row. That row has length 3 because there are three source tokens.
+
+The output vector has length 2 because each value vector has length 2. Because each value vector has length 2, $\\mathbf{y}_1$ also has length 2. This shape check catches the error immediately.`,
+  },
+]
+
+const attentionValuesLesson: LessonSection[] = [
+  {
+    title: 'Content Before Routing',
+    body: `Before attention can mix anything, each token needs a piece of content to offer. That content vector is called a **value**.
+
+For a tiny sentence, imagine the token **animal** has input vector $\\mathbf{x}_1$. A shared linear map turns it into $\\mathbf{v}_1$. The token **slept** uses the same map to produce $\\mathbf{v}_2$. The map is shared; the input token vector changes.`,
+  },
+  {
+    title: 'One Concrete Value Table',
+    body: `Use two-feature value vectors:
+
+| token | value vector |
+| --- | --- |
+| animal | $\\mathbf{v}_1=[4,1]$ |
+| slept | $\\mathbf{v}_2=[2,5]$ |
+| tired | $\\mathbf{v}_3=[1,6]$ |
+
+These vectors are not probabilities. They are content vectors that can be added coordinate by coordinate after attention chooses the mixing shares.`,
+  },
+  {
+    title: 'Repair The Name Mix-Up',
+    body: `Queries and keys decide **how much** each token matches the current question. Values provide **what content** gets carried into the new representation.
+
+If a learner says "average the queries," ask what vector should remain after attention. The answer should be a content vector with the same width as the values.`,
+  },
+]
+
+const attentionSoftmaxLesson: LessonSection[] = [
+  {
+    title: 'Scores Are Not Shares Yet',
+    body: `A query can give raw match scores to several source tokens, but raw scores are not safe mixture weights. They may be negative, they may not sum to one, and their scale can change from example to example.
+
+For one query token, start with scores: animal = 2, slept = 1, tired = 0.`,
+  },
+  {
+    title: 'Normalize One Query Row',
+    body: `Softmax exponentiates and normalizes the scores:
+
+$$
+\\mathrm{softmax}([2,1,0])\\approx[0.665,0.245,0.090]
+$$
+
+Now the numbers are non-negative and sum to 1. This one row is a distribution over source tokens for one target token.`,
+  },
+  {
+    title: 'Axis Check',
+    body: `Hold the target token $n$ fixed. Normalize across the source index $m$. In words: one token asks a question, and the answer is one budget spread across possible source tokens.
+
+Do not softmax the whole $N\\times N$ matrix at once. Every query token needs its own distribution over sources.`,
+  },
+]
+
+const maskedSelfAttentionLesson: LessonSection[] = [
+  {
+    title: 'Prevent Answer Leakage',
+    body: `A decoder learns by predicting the next token. If the current position can read future tokens, the task becomes unfair: the answer leaks into the representation.
+
+For the sequence **animal slept because tired**, the token **slept** may look at **animal** and **slept**. It must not look at **because** or **tired** when making a next-token prediction from that position.`,
+  },
+  {
+    title: 'Mask Before Softmax',
+    body: `Suppose the raw scores for **slept** are:
+
+| source token | raw score | allowed? |
+| --- | ---: | --- |
+| animal | 3 | yes |
+| slept | 1 | yes |
+| because | 5 | no |
+| tired | 4 | no |
+
+Set the future-token scores to $-\\infty$ before softmax. The allowed scores become $[3,1,-\\infty,-\\infty]$, so the future shares become zero.`,
+  },
+  {
+    title: 'Concrete Masked Shares',
+    body: `If we use simple positive amounts for the allowed tokens, animal = 3 and slept = 1, the normalized shares are:
+
+$$
+[0.75,0.25,0,0]
+$$
+
+The zeros are not a styling choice. They mean no future value vector can enter this output.`,
+  },
+]
 
 const nodes: CourseNode[] = [
   node({
@@ -365,13 +512,7 @@ const nodes: CourseNode[] = [
     prerequisites: ['math.matrix-linear-map', 'math.weighted-average'],
     equation: '\\mathbf{v}_m=\\boldsymbol{\\beta}_v+\\Omega_v\\mathbf{x}_m',
     graph: { x: 44, y: 8 },
-    lesson: lesson(
-      'In an attention mixture, what object is actually being mixed?',
-      'The value vectors. Scores choose shares; values supply the content.',
-      'Each input token produces a value vector with the same shared map. Later, attention weights combine these values for each output token.',
-      'Given two values and weights 0.7 and 0.3, compute the output vector coordinate by coordinate.',
-      'Do not say queries are mixed into the output. Queries ask; values answer with content.',
-    ),
+    lesson: attentionValuesLesson,
     littlePath: ['Compute one value vector.', 'Assign mixture weights.', 'Produce one output vector.'],
     masteryEvidence: ['Identify values as mixed content.', 'Compute a tiny value mixture.'],
     commonMisconceptions: ['Queries and keys are the vectors being averaged into the output.'],
@@ -431,13 +572,7 @@ const nodes: CourseNode[] = [
     prerequisites: ['attention.score-matrix', 'prob.softmax-normalization'],
     equation: 'a_{mn}=\\mathrm{softmax}_m(s_{mn})',
     graph: { x: 44, y: 44 },
-    lesson: lesson(
-      'When token n asks a question, should its attention shares sum over source tokens or feature dimensions?',
-      'Over source tokens. One query distributes its attention budget across possible sources.',
-      'The notation $\\mathrm{softmax}_m$ means normalize over source index $m$ while holding target/query index $n$ fixed.',
-      'Take one row or column convention and explicitly mark which axis sums to 1.',
-      'Different texts use row-major or column-major attention matrices. The invariant is: one query gets one distribution over sources.',
-    ),
+    lesson: attentionSoftmaxLesson,
     littlePath: ['Pick one query token.', 'List its raw source scores.', 'Normalize those scores into one distribution.'],
     masteryEvidence: ['Identify the normalized axis.', 'Read one attention distribution in plain language.'],
     commonMisconceptions: ['Softmax is applied once over the entire $N\\times N$ score matrix.'],
@@ -453,15 +588,12 @@ const nodes: CourseNode[] = [
     prerequisites: ['attention.values', 'attention.softmax-row'],
     equation: '\\mathbf{y}_n=\\sum_{m=1}^{N}a_{mn}\\mathbf{v}_m',
     graph: { x: 44, y: 56 },
-    lesson: lesson(
-      'After token n has attention shares, what is the next concrete operation?',
-      'Use those shares to mix the value vectors into output $y_n$.',
-      'The scores are not the output. The distribution $a_{mn}$ is a routing table, and the values are the routed content.',
-      'Compute one two-dimensional output from three two-dimensional values and three weights.',
-      'A common trap is stopping at the attention matrix. Attention is only useful because it creates new token representations.',
-    ),
+    lesson: attentionOutputLesson,
     littlePath: ['Choose one query row.', 'Attach it to value vectors.', 'Add the weighted vectors.'],
-    masteryEvidence: ['Compute one output vector.', 'Explain scores versus weights versus values.'],
+    masteryEvidence: [
+      'Compute $\\mathbf{y}_1=0.1[2,0]+0.3[0,4]+0.6[10,10]=[6.2,7.2]$.',
+      'Explain scores versus weights versus values.',
+    ],
     commonMisconceptions: ['The attention matrix itself is the final token embedding.'],
   }),
   node({
@@ -761,13 +893,7 @@ const nodes: CourseNode[] = [
     prerequisites: ['model.decoder-autoregressive', 'attention.softmax-row'],
     equation: 's_{mn}=-\\infty\\quad \\text{when }m>n',
     graph: { x: 72, y: 54 },
-    lesson: lesson(
-      'Why is it cheating if position n can attend to token n+1 while learning to predict token n+1?',
-      'Because the answer leaks into the representation. The model would learn to copy future information instead of predict it.',
-      'The causal mask edits the score matrix before softmax. Forbidden future positions receive zero attention after normalization.',
-      'Draw the allowed lower-triangular attention pattern for four tokens.',
-      'The mask must be applied before softmax. Masking weights after softmax can leave normalization broken.',
-    ),
+    lesson: maskedSelfAttentionLesson,
     littlePath: ['Play a next-token game.', 'Notice the future-token leak.', 'Block future scores before normalization.'],
     masteryEvidence: ['Apply a causal mask.', 'Explain why masking prevents training leakage.'],
     commonMisconceptions: ['A decoder can see future tokens during training because the whole sentence is available.'],
@@ -1071,29 +1197,149 @@ export const course: Course = {
       ],
     },
   ],
-  practiceItems: nodes.map((courseNode): PracticeItem => ({
-    id: practiceId(courseNode.id),
-    nodeId: courseNode.id,
-    kind:
-      courseNode.track === 'coding' || courseNode.track === 'project'
-        ? 'debug'
-        : courseNode.track === 'math' || courseNode.track === 'probability'
-          ? 'compute'
-          : 'explain',
-    prompt: `Which statement best shows mastery of ${courseNode.title}?`,
-    choices: [
-      {
-        id: 'mastery',
-        text: courseNode.masteryEvidence[0],
-        correct: true,
-        feedback: `Yes. That is the first mastery signal for ${courseNode.title}; now connect it to the selected equation and source anchor.`,
-      },
-      {
-        id: 'misconception',
-        text: courseNode.commonMisconceptions[0],
-        correct: false,
-        feedback: `Not quite. This is the misconception to repair: ${courseNode.commonMisconceptions[0]}`,
-      },
-    ],
-  })),
+  practiceItems: nodes.map((courseNode): PracticeItem => {
+    if (courseNode.id === 'attention.values') {
+      return {
+        id: practiceId(courseNode.id),
+        nodeId: courseNode.id,
+        kind: 'compute',
+        prompt:
+          'Two value vectors are $\\mathbf{v}_1=[4,1]$ and $\\mathbf{v}_2=[2,5]$. The attention shares are 0.7 and 0.3. What content vector is mixed?',
+        choices: [
+          {
+            id: 'weighted-values',
+            text: '$0.7[4,1]+0.3[2,5]=[3.4,2.2]$',
+            correct: true,
+            feedback:
+              'Yes. Values are the content vectors being mixed, and the output keeps the value-vector width.',
+          },
+          {
+            id: 'unweighted-values',
+            text: '$[4,1]+[2,5]=[6,6]$',
+            correct: false,
+            feedback:
+              'Not quite. That ignores the attention shares. Multiply each value vector before adding.',
+          },
+        ],
+      }
+    }
+
+    if (courseNode.id === 'attention.softmax-row') {
+      return {
+        id: practiceId(courseNode.id),
+        nodeId: courseNode.id,
+        kind: 'compute',
+        prompt:
+          'One query has raw scores $[2,1,0]$ for three source tokens. Which softmax row is closest?',
+        choices: [
+          {
+            id: 'softmax-row',
+            text: '$[0.665,0.245,0.090]$',
+            correct: true,
+            feedback:
+              'Yes. The row is non-negative and sums to 1, so it can be used as mixture shares.',
+          },
+          {
+            id: 'raw-scores',
+            text: '$[2,1,0]$',
+            correct: false,
+            feedback:
+              'Not yet. Raw scores are not normalized shares. Softmax turns them into a distribution.',
+          },
+          {
+            id: 'whole-matrix',
+            text: 'Normalize all entries in the full score matrix together.',
+            correct: false,
+            feedback:
+              'Not for standard attention. Hold one query fixed and normalize across source tokens.',
+          },
+        ],
+      }
+    }
+
+    if (courseNode.id === 'attention.weighted-sum-output') {
+      return {
+        id: practiceId(courseNode.id),
+        nodeId: courseNode.id,
+        kind: 'compute',
+        prompt:
+          'Compute the new vector for token 1. Use $a_{11}=0.1$, $a_{21}=0.3$, $a_{31}=0.6$, with $\\mathbf{v}_1=[2,0]$, $\\mathbf{v}_2=[0,4]$, and $\\mathbf{v}_3=[10,10]$.',
+        choices: [
+          {
+            id: 'weighted-sum',
+            text: '$\\mathbf{y}_1=[6.2,7.2]$',
+            correct: true,
+            feedback:
+              'Yes. The attention row is not the output; it tells you how much of each value vector to mix. The weighted contributions are $[0.2,0]$, $[0,1.2]$, and $[6,6]$, so the output is $[6.2,7.2]$.',
+          },
+          {
+            id: 'attention-row',
+            text: '$\\mathbf{y}_1=[0.1,0.3,0.6]$',
+            correct: false,
+            feedback:
+              'Not quite. $[0.1,0.3,0.6]$ is the attention row over three source tokens. The output must have length 2 because each value vector has length 2.',
+          },
+          {
+            id: 'unweighted-values',
+            text: '$\\mathbf{y}_1=[12,14]$',
+            correct: false,
+            feedback:
+              'Not quite. That adds the value vectors without attention shares. Multiply each value by its share before adding.',
+          },
+        ],
+      }
+    }
+
+    if (courseNode.id === 'model.masked-self-attention') {
+      return {
+        id: practiceId(courseNode.id),
+        nodeId: courseNode.id,
+        kind: 'debug',
+        prompt:
+          'The current token is `slept` in `animal slept because tired`. Scores for future tokens are high. What must happen before softmax?',
+        choices: [
+          {
+            id: 'mask-before-softmax',
+            text: 'Set future-token scores to $-\\infty$ before softmax so their shares become 0.',
+            correct: true,
+            feedback:
+              'Yes. The mask prevents answer leakage by removing future values before attention shares are computed.',
+          },
+          {
+            id: 'mask-after-softmax',
+            text: 'Run softmax first, then delete future shares afterward.',
+            correct: false,
+            feedback:
+              'Not quite. Masking after softmax breaks the normalization story. The blocked positions should receive zero probability during softmax.',
+          },
+        ],
+      }
+    }
+
+    return {
+      id: practiceId(courseNode.id),
+      nodeId: courseNode.id,
+      kind:
+        courseNode.track === 'coding' || courseNode.track === 'project'
+          ? 'debug'
+          : courseNode.track === 'math' || courseNode.track === 'probability'
+            ? 'compute'
+            : 'explain',
+      prompt: `Which statement best shows mastery of ${courseNode.title}?`,
+      choices: [
+        {
+          id: 'mastery',
+          text: courseNode.masteryEvidence[0],
+          correct: true,
+          feedback: `Yes. That is the first mastery signal for ${courseNode.title}; now connect it to the selected equation and source anchor.`,
+        },
+        {
+          id: 'misconception',
+          text: courseNode.commonMisconceptions[0],
+          correct: false,
+          feedback: `Not quite. This is the misconception to repair: ${courseNode.commonMisconceptions[0]}`,
+        },
+      ],
+    }
+  }),
 }

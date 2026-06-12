@@ -179,7 +179,7 @@ function EquationBlock({ equation }: { equation?: string }) {
   return (
     <div className="equationBox">
       <span>Equation</span>
-      <MathMarkdown>{`$$${equation}$$`}</MathMarkdown>
+      <MathMarkdown>{`$$\n${equation}\n$$`}</MathMarkdown>
     </div>
   )
 }
@@ -198,14 +198,6 @@ function SourceAnchors({ node }: { node: CourseNode }) {
 function LessonPanel({ node }: { node: CourseNode }) {
   return (
     <div className="lessonStack">
-      <div className="panelTitleRow">
-        <BookOpen aria-hidden />
-        <div>
-          <h2>{node.title}</h2>
-          <p>{stageLabel(node.stage)} - {node.track}</p>
-        </div>
-      </div>
-
       <p className="nodeSummary">{node.summary}</p>
       <EquationBlock equation={node.equation} />
 
@@ -280,6 +272,7 @@ function PracticePanel({
             <div className="choiceStack">
               {item.choices.map((choice) => (
                 <button
+                  aria-label={choice.text.replaceAll('$', '')}
                   className={selectedAnswers[item.id] === choice.id ? 'choice selected' : 'choice'}
                   key={choice.id}
                   onClick={() => {
@@ -420,6 +413,9 @@ function AttentionLab() {
   const output = values[0].map((_, featureIndex) =>
     shares.reduce((sum, share, tokenIndex) => sum + share * values[tokenIndex][featureIndex], 0),
   )
+  const weightedContributions = values.map((valueVector, tokenIndex) =>
+    valueVector.map((value) => shares[tokenIndex] * value),
+  )
   const maxShareIndex = shares.reduce((bestIndex, share, index) => (share > shares[bestIndex] ? index : bestIndex), 0)
 
   return (
@@ -433,6 +429,16 @@ function AttentionLab() {
       </div>
 
       <EquationBlock equation={'\\mathbf{y}_n=\\sum_m \\mathrm{softmax}_m(\\mathbf{k}_m^T\\mathbf{q}_n/\\sqrt{D_q})\\mathbf{v}_m'} />
+
+      <div className="conceptPanel">
+        <span>Lab Goal</span>
+        <h3>Follow one token from input vector to mixed output.</h3>
+        <p>
+          A token starts as an input vector <strong>x</strong>. The lab builds an asking vector <strong>q</strong>,
+          matching vectors <strong>k</strong>, and value vectors <strong>v</strong>. Scores become shares, and shares
+          mix the values into the output vector.
+        </p>
+      </div>
 
       <div className="controlGrid">
         <label className="controlLabel">
@@ -509,6 +515,17 @@ function AttentionLab() {
               </div>
             ))}
           </div>
+          <div className="calculationLedger">
+            <span>Weighted-sum ledger</span>
+            <h3>Every row contributes to the output vector.</h3>
+            {tokens.map((token, index) => (
+              <p key={token}>
+                {token}: {shares[index].toFixed(3)} x [{values[index].map((value) => value.toFixed(2)).join(', ')}] =
+                [{weightedContributions[index].map((value) => value.toFixed(3)).join(', ')}]
+              </p>
+            ))}
+            <strong>sum = [{output.map((value) => value.toFixed(3)).join(', ')}]</strong>
+          </div>
           <div className="outputVector">
             <span>Mixed output</span>
             <strong>[{output.map((value) => value.toFixed(3)).join(', ')}]</strong>
@@ -522,6 +539,15 @@ function AttentionLab() {
 }
 
 function ProjectPanel({ node }: { node: CourseNode }) {
+  const projectSteps = [
+    'Build `dot(a, b)` and check it on two short lists.',
+    'Build `matvec(W, x)` so each token can create query, key, and value vectors.',
+    'Build `softmax(scores)` and confirm the returned shares sum to 1.',
+    'Build `apply_causal_mask(scores, position)` so future scores are blocked before softmax.',
+    'Build `mix(shares, values)` and print the weighted-sum ledger for one output token.',
+    'Run the four-token example, then explain one attention row in plain language.',
+  ]
+
   return (
     <div className="projectPanel">
       <div className="panelTitleRow">
@@ -532,21 +558,53 @@ function ProjectPanel({ node }: { node: CourseNode }) {
         </div>
       </div>
       <EquationBlock equation={node.equation} />
+
+      <div className="conceptPanel">
+        <span>Project Contract</span>
+        <h3>Build a tiny attention router with plain Python lists.</h3>
+        <p>
+          The project artifact is a script that prints scores, masked scores, shares, value vectors, and mixed outputs.
+          It should prove that masking happens before softmax and that attention shares mix values rather than replacing
+          them.
+        </p>
+      </div>
+
       <div className="projectSteps">
-        {node.littlePath.map((step, index) => (
+        {projectSteps.map((step, index) => (
           <div className="projectStep" key={step}>
             <span>{index + 1}</span>
             <p>{step}</p>
           </div>
         ))}
       </div>
+
+      <div className="resultPanel">
+        <strong>Checks</strong>
+        <ul className="compactList">
+          <li>Masking happens before softmax, so future tokens get share 0.</li>
+          <li>Every attention row sums to 1 after softmax.</li>
+          <li>The mixed output has the same length as each value vector.</li>
+          <li>The learner can explain scores versus shares versus values for one row.</li>
+        </ul>
+      </div>
+
       <pre className="codeBlock">{`tokens = ["animal", "slept", "because", "tired"]
-X = embed(tokens)
-Q, K, V = X @ Wq, X @ Wk, X @ Wv
-scores = K @ Q.T / sqrt(d_k)
-scores[future_positions] = -inf
-A = softmax(scores)
-Y = A @ V`}</pre>
+
+def dot(a, b):
+    return sum(left * right for left, right in zip(a, b))
+
+def matvec(W, x):
+    return [dot(row, x) for row in W]
+
+def mix(shares, values):
+    width = len(values[0])
+    return [
+        sum(shares[token_index] * values[token_index][feature] for token_index in range(len(values)))
+        for feature in range(width)
+    ]
+
+# Next: add softmax(scores), apply_causal_mask(scores, position),
+# then print the ledger for one query token before computing every row.`}</pre>
       <SourceAnchors node={node} />
     </div>
   )
@@ -703,11 +761,12 @@ export function TransformerCourseApp() {
         </div>
         <button
           className="recommendationButton"
-          disabled={!recommendation}
           onClick={() => {
             if (recommendation) {
               setSelectedNodeId(recommendation.id)
               setActiveMode('lesson')
+            } else {
+              setActiveMode('diagnostic')
             }
           }}
           type="button"
