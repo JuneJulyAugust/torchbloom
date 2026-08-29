@@ -1,0 +1,821 @@
+@import "katex/dist/katex.min.css";
+
+:root {
+  --bg: #ffffff;
+  --text: #0d0d0d;
+  --muted: #5f6368;
+  --surface: #ffffff;
+  --surface-strong: #ffffff;
+  --surface-subtle: #f7f7f8;
+  --border: #e5e7eb;
+  --border-strong: #c8ccd2;
+  --graph-line: #d1d5db;
+  --graph-active: #10a37f;
+  --teal: #10a37f;
+  --teal-soft: #e9f7f3;
+  --gold: #b45f06;
+  --gold-soft: #fff7e6;
+  --rose: #c2415d;
+  --rose-soft: #fff1f3;
+  --blue: #2563eb;
+  --blue-soft: #eff6ff;
+  --green: #16833a;
+  --green-soft: #eefaf0;
+  --violet: #6d5bd0;
+  --violet-soft: #f5f3ff;
+  --gray-soft: #f3f4f6;
+  --shadow: 0 1px 2px rgb(0 0 0 / 6%);
+  --mono: "SF Mono", "Cascadia Code", "Liberation Mono", monospace;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Inter, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 17px;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.56;
+}
+
+.courseShell {
+  display: grid;
+  gap: 18px;
+  min-height: 100vh;
+  padding: 24px;
+}
+
+.appBar {
+  align-items: center;
+  display: grid;
+  gap: 16px;
+  grid-template-columns: minmax(0, 1fr) auto;
+}
+
+.appBar h1 {
+  font-size: clamp(34px, 4.2vw, 64px);
+  font-weight: 820;
+  letter-spacing: 0;
+  line-height: 1.02;
+}
+
+.appBar p:not(.eyebrow) {
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.55;
+  margin-top: 10px;
+  max-width: 920px;
+}
+
+.eyebrow {
+  color: var(--teal);
+  font-size: 12px;
+  font-weight: 760;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.targetStrip {
+  align-items: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  color: var(--muted);
+  display: grid;
+  font-size: 14px;
+  gap: 10px;
+  grid-template-columns: repeat(3, auto auto);
+  min-height: 52px;
+  padding: 12px 14px;
+  white-space: nowrap;
+}
+
+.targetStrip svg {
+  color: var(--teal);
+  height: 18px;
+  width: 18px;
+}
+
+.missionBar {
+  align-items: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  display: grid;
+  gap: 16px;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  padding: 16px;
+}
+
+.missionBar div {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+
+.missionBar span,
+.sourceList span,
+.practiceKind,
+.equationBox span,
+.lessonFrame > span,
+.outputVector span,
+.conceptPanel span,
+.calculationLedger span {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 760;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.missionBar strong {
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+.recommendationButton,
+.primaryAction,
+.secondaryAction,
+.masteredAction,
+.choice,
+.modeTabs button,
+.graphNode {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.recommendationButton,
+.primaryAction,
+.secondaryAction,
+.masteredAction {
+  align-items: center;
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: 700;
+  gap: 8px;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 16px;
+}
+
+.recommendationButton,
+.primaryAction {
+  background: var(--teal);
+  border-color: var(--teal);
+  color: white;
+}
+
+.secondaryAction {
+  background: var(--surface-strong);
+}
+
+.masteredAction {
+  background: var(--green);
+  border-color: var(--green);
+  color: white;
+}
+
+.recommendationButton svg {
+  height: 17px;
+  width: 17px;
+}
+
+.learningStudio {
+  display: block;
+}
+
+.graphCanvas {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  height: calc(100vh - 156px);
+  min-height: 740px;
+  min-width: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.stageRail {
+  color: var(--muted);
+  display: grid;
+  font-size: 12px;
+  font-weight: 700;
+  grid-template-columns: repeat(7, 1fr);
+  left: 0;
+  letter-spacing: 0;
+  padding: 12px 18px;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  text-transform: uppercase;
+  top: 0;
+  z-index: 2;
+}
+
+.stageRail span {
+  border-left: 1px solid var(--border);
+  min-height: 690px;
+  padding-left: 8px;
+}
+
+.edgeLayer {
+  height: 100%;
+  inset: 0;
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.graphEdge {
+  fill: none;
+  opacity: 0.5;
+  stroke: var(--graph-line);
+  stroke-linecap: round;
+  stroke-width: 0.18;
+}
+
+.graphEdge.active {
+  opacity: 0.95;
+  stroke: var(--graph-active);
+  stroke-width: 0.32;
+}
+
+.graphNode {
+  align-items: start;
+  background: var(--surface);
+  box-shadow: 0 8px 18px rgb(40 42 36 / 10%);
+  display: grid;
+  gap: 3px 8px;
+  grid-template-columns: 18px minmax(0, 1fr);
+  min-height: 74px;
+  padding: 10px;
+  position: absolute;
+  text-align: left;
+  transform: translate(-50%, -50%);
+  transition:
+    border-color 160ms ease,
+    box-shadow 160ms ease,
+    transform 160ms ease;
+  width: 188px;
+  z-index: 3;
+}
+
+.graphNode:hover {
+  transform: translate(-50%, -52%);
+}
+
+.graphNode svg {
+  height: 16px;
+  margin-top: 1px;
+  width: 16px;
+}
+
+.graphNode strong {
+  font-size: 14px;
+  line-height: 1.16;
+  overflow-wrap: anywhere;
+}
+
+.graphNode small {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  grid-column: 2;
+  text-transform: uppercase;
+}
+
+.graphNode.selected {
+  border-color: var(--text);
+  box-shadow:
+    0 0 0 2px var(--text),
+    0 12px 24px rgb(31 36 31 / 16%);
+}
+
+.graphNode.blocked {
+  filter: saturate(0.7);
+}
+
+.graphNode.mastered {
+  border-color: var(--green);
+}
+
+.trackArchitecture {
+  border-left: 4px solid var(--blue);
+}
+
+.trackAttention {
+  border-left: 4px solid var(--teal);
+}
+
+.trackCoding {
+  border-left: 4px solid #6b7280;
+}
+
+.trackMath {
+  border-left: 4px solid var(--gold);
+}
+
+.trackNlp {
+  border-left: 4px solid #637b32;
+}
+
+.trackProbability {
+  border-left: 4px solid var(--rose);
+}
+
+.trackProject {
+  border-left: 4px solid var(--green);
+}
+
+.trackSystems {
+  border-left: 4px solid #4b5563;
+}
+
+.trackTraining {
+  border-left: 4px solid var(--violet);
+}
+
+.trackVision {
+  border-left: 4px solid #0891b2;
+}
+
+.learningSurface {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  display: grid;
+  gap: 22px;
+  margin: 0 auto;
+  max-width: 1240px;
+  min-height: calc(100vh - 176px);
+  padding: 28px;
+}
+
+.learningHeader {
+  align-items: center;
+  display: grid;
+  gap: 18px;
+  grid-template-columns: minmax(0, 1fr) auto;
+}
+
+.panelTitleRow {
+  align-items: center;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 32px minmax(0, 1fr);
+}
+
+.panelTitleRow svg {
+  color: var(--teal);
+  height: 30px;
+  width: 30px;
+}
+
+.panelTitleRow h2 {
+  font-size: clamp(32px, 4vw, 56px);
+  line-height: 1.12;
+}
+
+.panelTitleRow p,
+.nodeSummary,
+.diagnosticPanel p,
+.projectPanel p,
+.labPanel p,
+.emptyState p {
+  color: var(--muted);
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+.modeTabs {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.modeTabs button {
+  align-items: center;
+  background: var(--surface-strong);
+  color: var(--muted);
+  display: inline-flex;
+  font-size: 15px;
+  font-weight: 700;
+  gap: 8px;
+  height: 56px;
+  justify-content: center;
+  min-height: 56px;
+  padding: 0 14px;
+  white-space: nowrap;
+}
+
+.modeTabs button.active {
+  background: var(--text);
+  border-color: var(--text);
+  color: white;
+}
+
+.modeTabs svg {
+  height: 18px;
+  width: 18px;
+}
+
+.lessonStack,
+.practiceStack,
+.diagnosticPanel,
+.labPanel,
+.projectPanel {
+  display: grid;
+  gap: 18px;
+}
+
+.equationBox {
+  background: var(--surface-subtle);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  display: grid;
+  gap: 12px;
+  overflow-x: auto;
+  padding: 18px 20px;
+}
+
+.equationBox .katex-display {
+  font-size: clamp(1.8rem, 2.2vw, 2.4rem);
+  line-height: 1.4;
+  margin: 0;
+}
+
+.mathMarkdown .katex {
+  font-size: 1.08em;
+}
+
+.lessonFrame,
+.practiceItem,
+.resultPanel,
+.sourceList,
+.outputVector,
+.emptyState,
+.conceptPanel,
+.calculationLedger {
+  background: var(--surface-strong);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  display: grid;
+  gap: 12px;
+  padding: 20px;
+}
+
+.lessonFrame h3,
+.evidenceGrid h3,
+.conceptPanel h3,
+.calculationLedger h3 {
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+.lessonFrame p,
+.lessonFrame li,
+.conceptPanel p,
+.calculationLedger p,
+.calculationLedger strong {
+  color: #202123;
+  font-size: 18px;
+  line-height: 1.62;
+}
+
+.lessonFrame strong {
+  color: var(--text);
+}
+
+.evidenceGrid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.compactList {
+  color: var(--muted);
+  line-height: 1.5;
+  margin: 7px 0 0;
+  padding-left: 18px;
+}
+
+.compactList p {
+  display: inline;
+}
+
+.sourceList code {
+  background: var(--surface-subtle);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: #343541;
+  display: block;
+  font-family: var(--mono);
+  font-size: 13px;
+  overflow-wrap: anywhere;
+  padding: 8px;
+}
+
+.choiceStack,
+.diagnosticList,
+.projectSteps {
+  display: grid;
+  gap: 9px;
+}
+
+.practicePrompt {
+  font-size: 26px;
+  font-weight: 760;
+  line-height: 1.35;
+}
+
+.practicePrompt p,
+.choice p,
+.feedbackCorrect p,
+.feedbackWrong p {
+  margin: 0;
+}
+
+.choice {
+  background: var(--surface);
+  font-size: 20px;
+  line-height: 1.45;
+  min-height: 76px;
+  padding: 18px;
+  text-align: left;
+}
+
+.choice.selected {
+  border-color: var(--teal);
+  box-shadow: inset 0 0 0 1px var(--teal);
+}
+
+.feedbackCorrect,
+.statusReady {
+  color: var(--green);
+  font-weight: 820;
+}
+
+.feedbackWrong,
+.statusRepair {
+  color: var(--rose);
+  font-weight: 820;
+}
+
+.diagnosticItem {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding: 14px;
+}
+
+.diagnosticItem legend {
+  font-size: 17px;
+  font-weight: 720;
+  line-height: 1.3;
+  padding: 0 4px;
+}
+
+.diagnosticItem label,
+.toggleRow,
+.controlLabel {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+}
+
+.controlGrid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.controlLabel {
+  align-items: start;
+  color: var(--muted);
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.controlLabel select {
+  background: var(--surface-strong);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  font-size: 17px;
+  min-height: 44px;
+  padding: 8px 12px;
+  width: 100%;
+}
+
+.actionRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.attentionTable {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tableRow {
+  align-items: center;
+  display: grid;
+  gap: 8px;
+  grid-template-columns: 0.8fr 0.7fr 1.2fr 1fr;
+  font-size: 16px;
+  min-height: 50px;
+  padding: 10px 12px;
+}
+
+.tableRow + .tableRow {
+  border-top: 1px solid var(--border);
+}
+
+.tableRow.header {
+  background: var(--surface-subtle);
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 760;
+  text-transform: uppercase;
+}
+
+.shareBar {
+  background: var(--teal);
+  border-radius: 999px;
+  display: inline-block;
+  height: 8px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+.outputVector strong {
+  font-family: var(--mono);
+}
+
+.projectStep {
+  align-items: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 30px minmax(0, 1fr);
+  padding: 14px;
+}
+
+.projectStep span {
+  align-items: center;
+  background: var(--teal-soft);
+  border-radius: 50%;
+  color: var(--teal);
+  display: inline-flex;
+  font-weight: 820;
+  height: 28px;
+  justify-content: center;
+  width: 28px;
+}
+
+.codeBlock {
+  background: #101214;
+  border-radius: 8px;
+  color: #f6f7f8;
+  font-family: var(--mono);
+  font-size: 15px;
+  line-height: 1.65;
+  margin: 0;
+  overflow-x: auto;
+  padding: 18px;
+}
+
+.mapOverlay {
+  background: var(--bg);
+  display: grid;
+  gap: 12px;
+  inset: 0;
+  padding: 16px;
+  position: fixed;
+  z-index: 20;
+}
+
+.mapHeader {
+  align-items: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  display: grid;
+  gap: 14px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  padding: 12px 14px;
+}
+
+.mapHeader span {
+  color: var(--teal);
+  font-size: 12px;
+  font-weight: 760;
+  text-transform: uppercase;
+}
+
+.mapHeader h2 {
+  font-size: 24px;
+  line-height: 1.2;
+  margin-top: 3px;
+}
+
+.mapOverlay .graphCanvas {
+  height: calc(100vh - 100px);
+  min-height: 0;
+}
+
+@media (max-width: 1180px) {
+  .appBar,
+  .missionBar,
+  .learningHeader {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 680px) {
+  .courseShell {
+    padding: 12px;
+  }
+
+  .appBar h1 {
+    font-size: 36px;
+  }
+
+  .targetStrip {
+    grid-template-columns: auto 1fr;
+    white-space: normal;
+  }
+
+  .missionBar,
+  .learningSurface {
+    padding: 14px;
+  }
+
+  .modeTabs {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .modeTabs button {
+    height: 52px;
+    min-height: 52px;
+  }
+
+  .panelTitleRow h2 {
+    font-size: 32px;
+  }
+
+  .evidenceGrid,
+  .controlGrid,
+  .mapHeader {
+    grid-template-columns: 1fr;
+  }
+
+  .mapOverlay {
+    padding: 10px;
+  }
+
+  .mapOverlay .graphCanvas {
+    height: calc(100vh - 146px);
+    overflow-x: auto;
+  }
+}

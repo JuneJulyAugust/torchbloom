@@ -55,7 +55,7 @@ The system should help learners revisit ideas at increasing depth. A concept fir
 
 ## Current Work
 
-TorchBloom is still curriculum-first, but the repository now contains more than the original vision document. The active durable work is the source-grounded UDL companion pipeline:
+TorchBloom is still curriculum-first, but the repository now contains more than the original vision document. The active durable work includes the source-grounded UDL companion pipeline and the first learner-facing Transformer web course MVP:
 
 | Area | Current Contents |
 | --- | --- |
@@ -65,8 +65,9 @@ TorchBloom is still curriculum-first, but the repository now contains more than 
 | `wiki/udl/` | Source-grounded companion pages, chapter guides, math bridges, concept pages, practice indexes, and schema notes. |
 | `src/torchbloom/` | Python tooling for UDL source metadata, chapter mapping, OCR parsing, fusion validation/publishing, answer extraction, and wiki validation. |
 | `tests/` | Regression tests for the source, OCR, fusion, answer, chapter-map, and wiki-validation contracts. |
+| `web/` | Next.js Transformer Mastery Course MVP with graph navigation, diagnostic placement, lessons, practice, equations, and an attention lab. |
 
-There is still no production learner app, backend, curriculum engine, account system, or commercial platform in this repository. The code that exists today supports source intake, artifact validation, and curriculum/wiki preparation.
+There is still no backend, account system, payment system, or commercial platform in this repository. The web app is local/static for now, but it is the first learner-facing MVP rather than only a demo.
 
 ## Target Learner Journey
 
@@ -98,7 +99,7 @@ TorchBloom AI is built around eight pillars:
 
 ## Conceptual System Architecture
 
-This repository is currently in the vision, source-intake, and curriculum-artifact stage. No production learning system has been implemented yet. A future system may include the following modules:
+This repository is currently in the vision, source-intake, curriculum-artifact, and first web-MVP stage. The first learner-facing system is the local Transformer Mastery Course in `web/`. A fuller future system may include the following modules:
 
 | Module | Purpose |
 | --- | --- |
@@ -195,7 +196,7 @@ The same pattern could also be used for dot products, gradients, loss functions,
 
 This repository is currently in the **vision, source-intake, and curriculum-artifact stage**.
 
-The project framing is in place, and the first source-grounded UDL companion artifacts are being built and validated. The repository now includes Python tooling, tests, UDL raw-source derivatives, wiki pages, documentation, and brand assets. No production application, backend, frontend, curriculum engine, or learner-facing system has been created yet.
+The project framing is in place, the first source-grounded UDL companion artifacts are being built and validated, and the first Transformer web course MVP now exists under `web/`. The repository now includes Python tooling, tests, UDL raw-source derivatives, wiki pages, documentation, brand assets, and a local learner-facing frontend.
 
 ## Proposed Future Repository Structure
 
