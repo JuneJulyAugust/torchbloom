@@ -9,6 +9,7 @@ This is a raw source archive of lesson pages reached through the student's visib
 - [Grade 7 lessons](./grade-7/index.md) — 170 lesson pages from the active 7th Grade Math course, with prerequisites, text, mathematical expressions, and instructional graphics.
 - [Grade 8 lessons](./grade-8/index.md) — 132 lesson pages from the active 8th Grade Math course, with prerequisites, text, mathematical expressions, and instructional graphics.
 - [Algebra I lessons](./algebra-i/index.md) — 225 lesson pages from the active Algebra I course, with prerequisites, text, mathematical expressions, and instructional graphics.
+- [Geometry lessons](./geometry/index.md) — 179 lesson pages from the active Geometry course, with prerequisites, text, mathematical expressions, and instructional graphics.
 - [Completed Grade 4 task samples](../lesson-samples/grade-4/index.md) — 34 completed activity task pages and their visible question data.
 
 Local images are kept separately in `raw/math_academy/lesson-assets/`, while each Markdown page references the correct asset paths.
