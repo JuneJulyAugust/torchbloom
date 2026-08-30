@@ -2,7 +2,7 @@
 
 Source: [Math Academy activity](https://www.mathacademy.com/students/43609/activity)
 
-These are raw captures of the 34 completed lesson tasks visible in the activity history when captured. They preserve each visible question, its result and timing, mathematical expressions, and available graphics. The completed-task UI did not expose typed/multiple-choice response values for these attempts.
+These are raw captures of the 35 completed task attempts visible in the activity history and pilot. They preserve each visible question, its result and timing, mathematical expressions, and available graphics. The completed-task UI does not expose typed/multiple-choice response values for most attempts.
 
 ## Task attempts
 
@@ -40,4 +40,4 @@ These are raw captures of the 34 completed lesson tasks visible in the activity 
 32. [Generating Patterns](./tasks/10848606-generating-patterns.md) — task `10848606`; 12 questions; related lesson: Generating Patterns
 33. [Adding Fractions With Like Denominators Using Models](./tasks/10848604-adding-fractions-with-like-denominators-using-models.md) — task `10848604`; 6 questions; related lesson: Adding Fractions With Like Denominators Using Models
 34. [Comparing Fractions](./tasks/10848602-comparing-fractions.md) — task `10848602`; 9 questions; related lesson: Comparing Fractions
-
+35. [Least Common Multiples (review)](./tasks/12285528-least-common-multiples-review.md) — task `12285528`; 4 questions; captured from the completed activity detail page during the Grade 4–5 question pilot
