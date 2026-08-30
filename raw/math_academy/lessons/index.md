@@ -32,6 +32,7 @@ This is a raw source archive of lesson pages reached through the student's visib
 - [Differential Equations lessons](./differential-equations/index.md) — 159 lesson pages from the active Differential Equations course, with prerequisites, text, mathematical expressions, and instructional graphics.
 - [Discrete Mathematics lessons](./discrete-mathematics/index.md) — 143 course-ordered lesson pages plus a supplemental prerequisite page, with prerequisites, text, mathematical expressions, and instructional graphics.
 - [Probability & Statistics lessons](./probability-and-statistics/index.md) — 181 lesson pages from the active Probability & Statistics course, with prerequisites, text, mathematical expressions, and instructional graphics.
+- [Mathematics for Machine Learning lessons](./mathematics-for-machine-learning/index.md) — 301 lesson pages from the active Mathematics for Machine Learning course, with prerequisites, text, mathematical expressions, and instructional graphics.
 - [Completed Grade 4 task samples](../lesson-samples/grade-4/index.md) — 34 completed activity task pages and their visible question data.
 
 Local images are kept separately in `raw/math_academy/lesson-assets/`, while each Markdown page references the correct asset paths.
