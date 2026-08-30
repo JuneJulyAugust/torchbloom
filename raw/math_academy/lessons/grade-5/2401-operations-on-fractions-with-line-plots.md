@@ -26,7 +26,9 @@ First, we collect the data points of interest. We want the two least productive 
 Then, we write down the total amount of milk produced by these two cows:
 
 $$
+
 6 \,\dfrac{1}{8} + 6 \, \dfrac{1}{4}
+
 $$
 
 To add two mixed numbers, we add whole numbers with whole numbers and fractions with fractions.
@@ -34,7 +36,9 @@ To add two mixed numbers, we add whole numbers with whole numbers and fractions 
 Adding the whole numbers, we get
 
 $$
+
 6 + 6 = 12.
+
 $$
 
 To add two fractions with unlike denominators, we need to express each fraction as an equivalent fraction with a common denominator. Here, we can make a common denominator of $8.$
@@ -42,19 +46,25 @@ To add two fractions with unlike denominators, we need to express each fraction 
 To put $\dfrac{1}{4}$ over a denominator of $8$, we multiply the numerator and denominator by $2$:
 
 $$
+
 \dfrac{1}{4} = \dfrac{1 \times 2}{4 \times 2} = \dfrac{2}{8}
+
 $$
 
 We can now add the fractions. We keep the denominator the same, and we add the numerators:
 
 $$
+
 \dfrac{1}{8} + \dfrac{1}{4} = \dfrac{1}{8} + \dfrac{2}{8} = \dfrac{3}{8}
+
 $$
 
 Therefore, the sum of the two mixed numbers is
 
 $$
+
 6 \,\dfrac{1}{8} + 6 \, \dfrac{1}{4} = 12 \, \dfrac{3}{8} .
+
 $$
 
 In conclusion, the two least productive cows produce $12 \, \dfrac{3}{8}$ liters of milk per day.
@@ -76,7 +86,9 @@ The plot tells us that the lightest vehicle weighs $\color{blue}\dfrac{1}{8}$ to
 The difference between the weights is
 
 $$
+
 \dfrac{1}{2} - \dfrac{1}{8} \, .
+
 $$
 
 To subtract two fractions with unlike denominators, we need to express each fraction as an equivalent fraction with a common denominator.
@@ -86,13 +98,17 @@ Here, we can make a common denominator of $8.$
 To put $\dfrac{1}{2}$ over a denominator of $8,$ we multiply the numerator and denominator by $4\mathbin{:}$
 
 $$
+
 \dfrac{1}{2} = \dfrac{1 \times 4}{2 \times 4} = \dfrac{4}{8}
+
 $$
 
 We can now subtract the fractions. We keep the denominator the same, and we subtract the numerators.
 
 $$
+
 \begin{aligned}\frac{1}{2}−\frac{1}{8}=\frac{4}{8}−\frac{1}{8}=\frac{3}{8}\end{aligned}
+
 $$
 
 Therefore, the difference between the weights of the heaviest and lightest vehicles is $\dfrac{3}{8}$ tons.
@@ -116,19 +132,25 @@ From the graph, we note the following:
 So the total amount of rain that fell is given by
 
 $$
+
 2 \times \dfrac{2}{3} + 2 \times \dfrac{3}{4} = \dfrac{4}{3} + \dfrac{6}{4} \, .
+
 $$
 
 We can simplify the fraction $\dfrac{6}{4}$ by dividing the numerator and denominator by $2\mathbin{:}$
 
 $$
+
 \dfrac{6 \div 2}{4 \div 2} = \dfrac{3}{2}
+
 $$
 
 Now, we need to add the two fractions:
 
 $$
+
 \dfrac{4}{3} + \dfrac{3}{2}
+
 $$
 
 To add two fractions with unlike denominators, we need to express each fraction as an equivalent fraction with a common denominator.
@@ -142,13 +164,17 @@ Here, we can make a common denominator of $6.$
 We can now add the fractions. We keep the denominator the same, and we add the numerators.
 
 $$
+
 \begin{aligned}\frac{4}{3}+\frac{3}{2}=\frac{8}{6}+\frac{9}{6}=\frac{17}{6}\end{aligned}
+
 $$
 
 Finally, we convert $\dfrac{17}{6}$ to a mixed number.
 
 $$
+
 17 \div 6 = 2 \,\textrm{R} \,5 = 2 \, \dfrac{5}{6}
+
 $$
 
 Therefore, $2 \, \dfrac{5}{6}$ centimeters of rain fell during this period.
@@ -166,7 +192,9 @@ The line plot shows the weight, in ounces, of some bags of fries in a restaurant
 The total weight of the bags (in ounces) is
 
 $$
+
 2 + 2 + 2 \, \dfrac{1}{4} + 2 \, \dfrac{1}{4} + 2 \, \dfrac{2}{4} \, .
+
 $$
 
 To add mixed numbers, we add whole numbers to whole numbers and fractions to fractions.
@@ -178,13 +206,17 @@ To add mixed numbers, we add whole numbers to whole numbers and fractions to fra
 Therefore, the total weight of the bags (in ounces) is
 
 $$
+
 2 + 2 + 2 \, \dfrac{1}{4} + 2 \, \dfrac{1}{4} + 2 \, \dfrac{2}{4} = 10 + 1 = 11 \, .
+
 $$
 
 To redistribute this total weight equally among each bag of fries, we divide the total weight by the number of bags:
 
 $$
+
 11 \div 5 = 2 \,\textrm{R} \, 1 = 2 \, \dfrac{1}{5}
+
 $$
 
 Therefore, each bag would weigh $2 \, \dfrac{1}{5}$ ounces.

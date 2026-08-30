@@ -17,7 +17,9 @@ The advantage of box models over area models is that box models can be used to s
 To demonstrate, let's find the quotient and remainder of the following division problem:
 
 $$
+
 83 \div 6
+
 $$
 
 First, we write our division in the usual way.
@@ -35,13 +37,17 @@ Now, note the following:
 The quotient is the sum of the numbers on top of the boxes:
 
 $$
+
 10+3=13
+
 $$
 
 Therefore, the solution to our division problem is
 
 $$
+
 83 \div 6 = 13 \,\text{R}\, \fbox{5}.
+
 $$
 
 Let's see another example.
@@ -65,7 +71,9 @@ We can't subtract any further since $\fbox{2}$ is less than $5.$ Hence, $2$ is t
 The quotient is the sum of the numbers on top of the boxes:
 
 $$
+
 10 + 4 = 14
+
 $$
 
 ### Example: Finding a Remainder
@@ -105,13 +113,17 @@ We can't subtract any further since $\fbox{1}$ is less than $8.$ Hence, $1$ is t
 The quotient is the sum of the numbers on top of the boxes:
 
 $$
+
 10+2=12
+
 $$
 
 Therefore,
 
 $$
+
 97 \div 8 = 12 \,\text{R}\, 1.
+
 $$
 
 So, Suzy prepared $12$ packages of cookies, and $1$ cookie was left unpackaged.

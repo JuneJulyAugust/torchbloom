@@ -14,7 +14,9 @@ Topic ID: 2389
 **Decimal benchmarks** are the numbers containing decimal parts of $0.0$ or $0.5.$ The first few decimal benchmarks are the following:
 
 $$
+
 0.0, \qquad 0.5, \qquad 1.0, \qquad 1.5, \qquad 2.0, \qquad 2.5,\qquad \ldots
+
 $$
 
 **Rounding a number to the nearest benchmark** means finding the closest decimal benchmark to our number.
@@ -78,7 +80,9 @@ Rounding to the nearest benchmark means finding the closest number with a decima
 Let's list the benchmarks with decimal parts $0.0$ and $0.5$ that are near $9.3{:}$
 
 $$
+
 9.0, \qquad 9.5, \qquad 10.0
+
 $$
 
 The number $\color{blue}9.3$ falls between the benchmarks $9.0$ and $9.5,$ and the point that lies halfway between our two benchmarks is ${\color{red}9.25}.$
@@ -96,7 +100,9 @@ We can estimate the sum of two decimals by rounding each decimal to the nearest 
 For instance, let's use benchmarks to estimate the following sum:
 
 $$
+
 4.62 + 1.97
+
 $$
 
 First, we round each number to the nearest benchmark:
@@ -108,19 +114,25 @@ First, we round each number to the nearest benchmark:
 So, rounding both numbers to the nearest benchmark, we obtain the following:
 
 $$
+
 \begin{aligned}4.62 & + & 1.97 \\ & & \\ 4.5 & + & 2.0\end{aligned}
+
 $$
 
 Next, we calculate the sum:
 
 $$
+
 \begin{aligned} & & \,\,\,\,4\,\,\,\, & \,\,\,\,.\,\,\,\, & \,\,\,\,5\,\,\,\, \\ \,\,\,\,+\,\,\,\, & & \,\,\,\,2\,\,\,\, & \,\,\,\,.\,\,\,\, & \,\,\,\,0\,\,\,\, \\ & \,\,\,\,\,\,\,\, & \,\,\,\,6\,\,\,\, & \,\,\,\,.\,\,\,\, & \,\,\,\,5\,\,\,\,\end{aligned}
+
 $$
 
 Therefore, $4.62 + 1.97$ is approximately $6.5.$ We can express this fact using an "is approximately equal to" symbol $(\approx)$ as follows:
 
 $$
+
 4.62 + 1.97\approx 6.5
+
 $$
 
 ### Example: Estimating Decimal Addition With Benchmarks
@@ -134,13 +146,17 @@ Estimate the sum $3.68 + 5.42$ using benchmarks with decimal parts of $0.0$ or $
 First, we round both numbers to the nearest benchmark:
 
 $$
+
 \begin{aligned}3.68 & + & 5.42 \\ & & \\ 3.5 & + & 5.5\end{aligned}
+
 $$
 
 Next, we calculate the sum:
 
 $$
+
 \begin{aligned} & & \,\,\,\,\begin{aligned} \\ 1\end{aligned}\,\,\,\, & & \,\,\,\,\begin{aligned}\end{aligned}\,\,\,\, & \\ & & \,\,\,\,3\,\,\,\, & \,\,\,\,.\,\,\,\, & \,\,\,\,5\,\,\,\, & \,\,\,\,\,\,\,\, \\ \,\,\,\,+\,\,\,\, & & \,\,\,\,5\,\,\,\, & \,\,\,\,.\,\,\,\, & \,\,\,\,5\,\,\,\, & \,\,\,\,\,\,\,\, \\ & \,\,\,\,\,\,\,\, & \,\,\,\,9\,\,\,\, & \,\,\,\,.\,\,\,\, & \,\,\,\,0\,\,\,\, & \,\,\,\,\,\,\,\,\end{aligned}
+
 $$
 
 Therefore, $3.68 + 5.42 \approx 9.$
@@ -158,13 +174,17 @@ To estimate the amount of fruit juice that Maria prepared, we have to find an ap
 First, we round both numbers to the nearest benchmark:
 
 $$
+
 \begin{aligned}0.73 & + & 4.18 \\ & & \\ 0.5 & + & 4.0\end{aligned}
+
 $$
 
 Next, we calculate the sum:
 
 $$
+
 \begin{aligned} & & \,\,\,\,0\,\,\,\, & \,\,\,\,.\,\,\,\, & \,\,\,\,5\,\,\,\, & \\ \,\,\,\,+\,\,\,\, & & \,\,\,\,4\,\,\,\, & \,\,\,\,.\,\,\,\, & \,\,\,\,0\,\,\,\, & \\ & & \,\,\,\,4\,\,\,\, & \,\,\,\,.\,\,\,\, & \,\,\,\,5\,\,\,\, & \end{aligned}
+
 $$
 
 Therefore, Maria prepared approximately $4.5$ liters of fruit juice.

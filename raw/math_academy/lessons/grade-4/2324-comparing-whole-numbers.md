@@ -18,7 +18,9 @@ One important symbol is the **greater than** symbol "$>$." We use this symbol to
 For example, we can write the fact that $2$ is larger than $1$ as follows:
 
 $$
+
 2 > 1
+
 $$
 
 In words, we'd say "$2$ is greater than $1$" or "$2$ is larger than $1.$"
@@ -34,7 +36,9 @@ Another important symbol is the **less than** symbol "$<$." We use this symbol t
 For example, we can write the fact that $3$ is smaller than $5$ as follows:
 
 $$
+
 3 < 5
+
 $$
 
 In words, we'd say "$3$ is less than $5$" or "$3$ is smaller than $5.$"
@@ -52,13 +56,17 @@ When comparing multi-digit whole numbers, we have the following handy rule:
 For example, $107$ has *more* digits than $25$. Therefore, we can write
 
 $$
+
 107 > 25.
+
 $$
 
 Similarly, $52,546.$ has *fewer* digits than $345,752.$ Therefore, we can write
 
 $$
+
 52,546 < 345,752.
+
 $$
 
 ### Example: Comparing Multi-Digit Whole Numbers Using the "Greater Than" Symbol
@@ -144,7 +152,9 @@ The diagram above shows a number line. Which of the following numbers could be p
 Since the missing number lies to the ** of $3,500,$ it must be ** this number. Therefore,
 
 $$
+
 0000
+
 $$
 
 With that in mind, let's examine our numbers in turn.

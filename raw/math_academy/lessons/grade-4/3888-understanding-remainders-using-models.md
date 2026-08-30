@@ -14,7 +14,9 @@ Topic ID: 3888
 Let's consider the following division problem:
 
 $$
+
 23 \div 5
+
 $$
 
 We can visualize this division problem by arranging $23$ objects into rows with $5$ objects in each row.
@@ -30,7 +32,9 @@ The bottom row does not contain $5$ objects. This tells us that $23$ *cannot* be
 We write the solution to our division problem as follows:
 
 $$
+
 23 \div 5 = {\color{blue}4} \, \textrm{R} \, {\color{red}3}
+
 $$
 
 Note the following:
@@ -70,7 +74,9 @@ We have the following:
 Therefore,
 
 $$
+
 25 \div 6 = {\color{blue}4} \, \textrm{R} \, {\color{red}1}.
+
 $$
 
 ### Cases When the Remainder is Zero
@@ -80,7 +86,9 @@ You might wonder what happens to the remainder when a division can be carried ou
 Let's consider the following example:
 
 $$
+
 12 \div 3
+
 $$
 
 As before, we visualize the division by arranging $12$ objects in rows, placing $3$ objects in each row:
@@ -96,13 +104,17 @@ In our model above, we have the following:
 Therefore, we can write the solution to this division problem as
 
 $$
+
 12 \div 3 = {\color{blue}4} \, \textrm{R} \, {\color{red}0}.
+
 $$
 
 Since the remainder equals zero, we can drop this part. This gives
 
 $$
+
 12 \div 3 = {\color{blue}4}.
+
 $$
 
 ### Example: Solving a Division Problem When There is No Remainder
@@ -134,7 +146,9 @@ We have the following:
 Therefore, $35 \div 7 = 5,$ which can be written as
 
 $$
+
 35 \div 7 = {\color{blue}5} \, \textrm{R} \, {\color{red}0}.
+
 $$
 
 ### Example: Solving a Division Problem by Completing a Model
@@ -166,5 +180,7 @@ We have the following:
 Therefore,
 
 $$
+
 17 \div 5 = {\color{blue}3} \, \textrm{R} \, {\color{red}2}.
+
 $$

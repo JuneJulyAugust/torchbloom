@@ -38,19 +38,25 @@ Let's get some practice at converting between customary units of mass.
 For example, suppose we want to convert $320$ ounces to pounds. We start with the unit conversion between pounds and ounces:
 
 $$
+
 1\, \textrm{pound} =16\, \textrm{ounces}
+
 $$
 
 Since we are converting *from* ounces *to* pounds, we divide both sides of the above equation by $16$ and obtain the following:
 
 $$
+
 \dfrac{1}{16} \, \textrm{pounds} = 1 \, \textrm{ounce}
+
 $$
 
 The right-hand side reads $1\,\textrm{ounce},$ and we want to know how many pounds are in $\color{blue}320$ ounces. So, we multiply *both* sides of this equation by ${\color{blue}{320}}.$
 
 $$
+
 \begin{aligned}320×\frac{1}{16}\,pounds & =320×1\,ounce \\ \frac{320}{16}\,pounds & =320\,ounces \\ \frac{320÷4}{16÷4}\,pounds & =320\,ounces \\ \frac{80}{4}\,pounds & =320\,ounces \\ 20\,pounds & =320\,ounces\end{aligned}
+
 $$
 
 Therefore, $320$ ounces equals $20$ pounds.
@@ -68,19 +74,25 @@ We need to convert $132$ ounces to pounds.
 We start with the unit conversion between pounds and ounces:
 
 $$
+
 1\, \textrm{lb} =16\, \textrm{oz}
+
 $$
 
 Now, we divide both sides by $16$ and obtain the following:
 
 $$
+
 \dfrac{1}{16} \, \textrm{lb} = 1 \, \textrm{oz}
+
 $$
 
 We want to figure out how many pounds are in $132$ ounces. So, we multiply both sides of the above equation by $132{:}$
 
 $$
+
 \begin{aligned}132×\frac{1}{16}\,lb & =132×1\,oz \\ \frac{132}{16}\,lb & =132\,oz \\ \frac{132÷2}{16÷2}\,lb & =132\,oz \\ \frac{66}{8}\,lb & =132\,oz \\ 8\,\frac{2}{8}\,lb & =132\,oz \\ 8\,\frac{1}{4}\,lb & =132\,oz\end{aligned}
+
 $$
 
 Therefore, $132\,\textrm{oz}$ equals $8\,\dfrac{1}{4}\,\textrm{lb}.$
@@ -98,19 +110,25 @@ We need to convert $1,600$ pounds to tons.
 We start with the unit conversion between tons and pounds:
 
 $$
+
 1\, \textrm{ton} =2,000\, \textrm{pounds}
+
 $$
 
 Now, we divide both sides by $2,000$ and obtain the following:
 
 $$
+
 \dfrac{1}{2,000} \, \textrm{tons} =1\, \textrm{pound}
+
 $$
 
 We want to figure out how many tons are in $1,600$ pounds. So, we multiply both sides of the above equation by $1,600{:}$
 
 $$
+
 \begin{aligned}1,600×\frac{1}{2,000}\,tons & =1,600×1\,pound \\ \frac{1,600}{2,000}\,tons & =1,600\,pounds \\ \frac{1,600÷100}{2,000÷100}\,tons & =1,600\,pounds \\ \frac{16}{20}\,tons & =1,600\,pounds \\ \frac{16÷4}{20÷4}\,tons & =1,600\,pounds \\ \frac{4}{5}\,tons & =1,600\,pounds\end{aligned}
+
 $$
 
 Therefore, $1,600$ pounds is equal to $\dfrac{4}{5}$ tons.
@@ -138,19 +156,25 @@ We need to convert $15,100$ grams to kilograms.
 We start with the unit conversion between kilograms and grams:
 
 $$
+
 1 \,\textrm{kg} = 1,000 \,\textrm{g}
+
 $$
 
 Now, we divide both sides by $1,000$ and obtain the following:
 
 $$
+
 \dfrac{1}{1,000} \,\textrm{kg} = 1 \,\textrm{g}
+
 $$
 
 We want to figure out how many kilograms are in $15,100$ grams. So, we multiply both sides of the above equation by $15,100{:}$
 
 $$
+
 \begin{aligned}15,100×\frac{1}{1,000}\,kg & =15,100×1\,g \\ (15,100÷1,000)\,kg & =15,100\,g \\ 15.1\,kg & =15,100\,g\end{aligned}
+
 $$
 
 Therefore, $15,100 \, \textrm{g}$ equals $15.1 \, \textrm{kg}.$
@@ -168,19 +192,25 @@ We need to convert $47$ milligrams to grams.
 We start with the unit conversion between grams and milligrams:
 
 $$
+
 1 \,\textrm{g} = 1,000 \,\textrm{mg}
+
 $$
 
 Now, we divide both sides by $1,000$ and obtain the following:
 
 $$
+
 \dfrac{1}{1,000} \,\textrm{g} = 1 \,\textrm{mg}
+
 $$
 
 We want to figure out how many grams are in $47$ milligrams. So, we multiply both sides of the above equation by $47{:}$
 
 $$
+
 \begin{aligned}47×\frac{1}{1,000}\,g & =47×1\,mg \\ (47÷1,000)\,g & =47\,mg \\ 0.047\,g & =47\,mg\end{aligned}
+
 $$
 
 Therefore, $47\, \textrm{mg}$ equals $0.047 \, \textrm{g}.$

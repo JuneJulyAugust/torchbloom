@@ -38,7 +38,9 @@ So, we have that
 What is the dividend in the division problem below?
 
 $$
+
 20 \div 5 = 4
+
 $$
 
 #### Explanation
@@ -62,7 +64,9 @@ In our example above, the dividend is ${\color{blue}{20}}.$
 What is the divisor in the division problem below?
 
 $$
+
 12 \div 4 = 3
+
 $$
 
 #### Explanation
@@ -86,7 +90,9 @@ In our example above, the divisor is ${\color{magenta}{4}}.$
 What is the quotient in the division problem below?
 
 $$
+
 18 \div 2 = 9
+
 $$
 
 #### Explanation
@@ -108,7 +114,9 @@ In our example above, the quotient is ${\color{red}{9}}.$
 Let's consider the following division problem:
 
 $$
+
 39 \div 7 = 5 \: \textrm{R} \: 4
+
 $$
 
 We also have the amount left over, which is called the **remainder**.
@@ -132,7 +140,9 @@ Therefore, in our example above:
 What is the remainder in the division problem below?
 
 $$
+
 32 \div 5 = 6 \: \textrm{R} \: 2
+
 $$
 
 #### Explanation

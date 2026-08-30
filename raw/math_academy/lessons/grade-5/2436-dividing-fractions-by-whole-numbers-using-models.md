@@ -20,7 +20,9 @@ When we divide a fraction by a whole number, say ${\color{red}{2}},$ the idea is
 For example, suppose we wish to find the value of
 
 $$
+
 \dfrac{4}{5} \div 2.
+
 $$
 
 Let's start by drawing the fraction model for $\dfrac45\mathbin{:}$
@@ -40,7 +42,9 @@ Now, we remove all the shaded parts not in the bottom row.
 From the picture on the right, we obtain that the shaded part represents $\dfrac{4}{10}$ of the whole. Therefore, we conclude that
 
 $$
+
 \dfrac{4}{5} \div 2 = \dfrac{4}{10} \, .
+
 $$
 
 ### Example: Interpreting a Division Model
@@ -60,7 +64,9 @@ We have $\dfrac{5}{7}$ on the left and $\dfrac{5}{21}$ on the right.
 Therefore, the division problem shown is
 
 $$
+
 \dfrac{5}{7} \div 3 = \dfrac{5}{21}.
+
 $$
 
 ### Example: Finding a Missing Quotient From a Division Model
@@ -104,7 +110,9 @@ The division operation splits each vertical line into $\color{blue}5$ equal part
 Therefore, the division problem shown is
 
 $$
+
 \dfrac 3 4 \div {\color{blue}{5}} = \dfrac{3}{20}.
+
 $$
 
 So, the missing number is $\color{blue}5.$
@@ -128,5 +136,7 @@ From the picture on the right, we obtain that the shaded part represents $\dfrac
 Therefore,
 
 $$
+
 \dfrac{5}{6} \div 4 = \dfrac{5}{24} \, .
+
 $$

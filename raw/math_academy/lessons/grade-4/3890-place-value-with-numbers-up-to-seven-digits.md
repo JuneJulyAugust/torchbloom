@@ -16,7 +16,9 @@ This lesson will extend our understanding of place value to larger numbers.
 As an example, let's consider the following six-digit number:
 
 $$
+
 346,209
+
 $$
 
 The place value chart for this number is as follows:
@@ -74,7 +76,9 @@ $\qquad$ **
 Let's now consider the following seven-digit number:
 
 $$
+
 2,402,536
+
 $$
 
 The place value chart for this number is as follows:

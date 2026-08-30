@@ -15,7 +15,9 @@ Topic ID: 2412
 In some division problems, we do not obtain an exact result because there is a remainder. For example,
 
 $$
+
 7 \div 4 = {\color{blue}{1}} \, \text{R} \, {\color{red}{3}}.
+
 $$
 
 This means that $7 \div 4$ is *more* than $1,$ but *less* than $2.$ It is somewhere in between.
@@ -27,7 +29,9 @@ We can write the exact result of this division problem as a mixed number, where 
 To write the remainder as a fraction, we just need to divide it by the original divisor ($4$). Therefore, expressed as a mixed number, our result is
 
 $$
+
 7 \div 4 = {\color{blue}{1}} \, \dfrac{\color{red}3}{4}.
+
 $$
 
 ### Example: Expressing a Two-Digit By One-Digit Division as a Mixed Number
@@ -47,13 +51,17 @@ The whole number part of $62\div 9$ must be ${\color{blue}6},$ because
 The remainder is $62 - 54 = {\color{red}8},$ so
 
 $$
+
 62\div 9 = {\color{blue}{6}} \,\textrm{R}\, {\color{red}{8}}.
+
 $$
 
 To write the remainder as a fraction, we divide it by the original divisor ($9$). Therefore,
 
 $$
+
 62\div 9 = {\color{blue}6}\,\dfrac{\color{red}8}{9}\,.
+
 $$
 
 ### Expressing a Two-Digit by One-Digit Division as a Mixed Number Using Long Division
@@ -65,13 +73,17 @@ We start by going through the long division procedure as usual:
 From the long division, we conclude that
 
 $$
+
 85\div 7 = {\color{blue}{12}} \,\textrm{R}\, {\color{red}{1}}.
+
 $$
 
 To write the remainder as a fraction, we divide it by the original divisor ($7$). Therefore, expressed as a mixed number, our result is
 
 $$
+
 85 \div 7 = {\color{blue}12} \, \dfrac{\color{red}1}{7}\,.
+
 $$
 
 ### Example: Expressing a Two-Digit by One-Digit Division as a Mixed Number Using Long Division
@@ -87,13 +99,17 @@ We need to work out $61\div 4.$ We start by going through the long division proc
 From the long division, we conclude that
 
 $$
+
 61\div 4 = {\color{blue}{15}} \,\textrm{R}\, {\color{red}{1}}.
+
 $$
 
 To write the remainder as a fraction, we divide it by the original divisor ($4$). So, the mixed number is
 
 $$
+
 61 \div 4 = {\color{blue}15} \, \dfrac{\color{red}1}{4}.
+
 $$
 
 Therefore, the fisherman put $15 \, \dfrac{1}{4}$ pounds of fish in each box.
@@ -111,25 +127,33 @@ We start by going through the long division procedure as usual:
 From the long division, we conclude that
 
 $$
+
 74\div 6 = {\color{blue}{12}} \,\textrm{R}\, {\color{red}{2}}.
+
 $$
 
 To write the remainder as a fraction, we divide it by the original divisor ($6$). So, the mixed number is
 
 $$
+
 74\div 6 = {\color{blue}{12}} \, \dfrac{\color{red}2}{6}.
+
 $$
 
 We can simplify the fractional part by dividing the numerator and denominator by $2\mathbin{:}$
 
 $$
+
 \dfrac{2}{6} = \dfrac{2 \div 2}{6 \div 2} = \dfrac{1}{3}
+
 $$
 
 Therefore, the simplified mixed number is
 
 $$
+
 74\div 6 = 12 \, \dfrac{1}{3}\,.
+
 $$
 
 ### Example: Expressing a Three-Digit by One-Digit Division as a Mixed Number
@@ -145,23 +169,31 @@ We start by going through the long division procedure as usual:
 From the long division, we conclude that
 
 $$
+
 942 \div 9 = {\color{blue}{104}} \,\textrm{R}\, {\color{red}{6}}.
+
 $$
 
 To write the remainder as a fraction, we divide it by the original divisor ($9$). So, the mixed number is
 
 $$
+
 942 \div 9 = {\color{blue}{104}} \, \dfrac{\color{red}6}{9} .
+
 $$
 
 We can simplify the fractional part by dividing the numerator and denominator by $3\mathbin{:}$
 
 $$
+
 \dfrac{6}{9} = \dfrac{6 \div 3}{9 \div 3} = \dfrac{2}{3}
+
 $$
 
 Therefore, the simplified mixed number is
 
 $$
+
 942 \div 9 = 104 \, \dfrac{2}{3}\,.
+
 $$

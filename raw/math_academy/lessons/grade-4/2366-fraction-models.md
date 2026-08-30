@@ -30,7 +30,9 @@ Note that
 We can use the following fraction to represent the amount of circle that is shaded:
 
 $$
+
 \dfrac{\color{red}1}{\color{blue}4}
+
 $$
 
 The two numbers that make up the fraction have special names:

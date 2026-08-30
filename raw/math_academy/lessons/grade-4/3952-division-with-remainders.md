@@ -18,7 +18,9 @@ In this lesson, we'll learn how to solve division problems with remainders witho
 For example, let's consider the following division problem:
 
 $$
+
 30 \div 7
+
 $$
 
 We solve this division problem by finding the quotient and remainder separately:
@@ -30,7 +32,9 @@ We solve this division problem by finding the quotient and remainder separately:
 Finally, we have
 
 $$
+
 30 \div 7 = {\color{red}4} \, \textrm{R} \, {\color{blue}2}.
+
 $$
 
 ### Example: Finding a Quotient
@@ -40,7 +44,9 @@ $$
 Find the quotient in the division problem below.
 
 $$
-25 \div 6 =\,\, \bbox[3pt, white, border: 1px solid black]{\color{red}?} \,\, \textrm{R} \: 1
+
+25 \div 6 =\,\, \boxed{\color{red}?} \,\, \textrm{R} \: 1
+
 $$
 
 #### Explanation
@@ -50,7 +56,9 @@ To find the quotient, we need to determine how many times $6$ goes into $25.$
 We list the multiples of $6$ until we get to one that's larger than $25\mathbin{:}$
 
 $$
+
 \begin{aligned}1×6 & =6 \\ 2×6 & =12 \\ 3×6 & =18 \\ 4×6 & =24\,✓ \\ 5×6 & =30\,×\end{aligned}
+
 $$
 
 So, $6$ goes into $25$ a total of ${\color{red}{4}}$ times. Therefore, the quotient is ${\color{red}{4}}.$
@@ -58,7 +66,9 @@ So, $6$ goes into $25$ a total of ${\color{red}{4}}$ times. Therefore, the quoti
 Finally, we can write
 
 $$
-25 \div 6 =\,\, \bbox[3pt, white, border: 1px solid black]{\color{red}4} \,\, \textrm{R} \: 1.
+
+25 \div 6 =\,\, \boxed{\color{red}4} \,\, \textrm{R} \: 1.
+
 $$
 
 ### Example: Finding a Quotient and Remainder Using a Hint
@@ -80,7 +90,9 @@ Let's compute the quotient and remainder:
 Therefore, the remainder must be ${\color{blue}{6}}.$ Finally, we have
 
 $$
+
 62 \div 8 = {\color{red}7} \, \textrm{R} \, {\color{blue}6}.
+
 $$
 
 ### Example: Finding a Quotient and Remainder
@@ -100,5 +112,7 @@ Let's compute the quotient and remainder:
 Therefore, the remainder must be ${\color{blue}{3}}.$ Finally, we have
 
 $$
+
 51 \div 6 = {\color{red}8} \, \textrm{R} \, {\color{blue}3}.
+
 $$

@@ -15,13 +15,17 @@ Topic ID: 3955
 Let's consider the following decomposition of the fraction $\dfrac67{:}$
 
 $$
-{\color{blue}{\dfrac{1}{7}}} + \bbox[2pt, white, border: 1px solid black]{\phantom{\dfrac{a}{a}}} + {\color{red}\dfrac{2}{7}} = \dfrac{6}{7}
+
+{\color{blue}{\dfrac{1}{7}}} + \boxed{\phantom{\dfrac{a}{a}}} + {\color{red}\dfrac{2}{7}} = \dfrac{6}{7}
+
 $$
 
 To determine the missing fraction, we first decompose $\dfrac67$ into the sum of $6$ instances of $\dfrac17{:}$
 
 $$
+
 6
+
 $$
 
 Examining the known fractions on the left-hand side of the given equation, from left to right, we have the following:
@@ -33,19 +37,25 @@ Examining the known fractions on the left-hand side of the given equation, from 
 Let's add these to our diagram:
 
 $$
+
 6
+
 $$
 
 We have $3$ instances of $\dfrac17$ remaining, and these give the fraction ${\color{violet}{\dfrac37}}.$
 
 $$
+
 6
+
 $$
 
 Therefore, we obtain the decomposition
 
 $$
-{\color{blue}\dfrac{1}{7}} + \bbox[2pt, white, border: 1px solid black]{\color{violet}\dfrac{3}{7}} + {\color{red}\dfrac{2}{7}} = \dfrac{6}{7}.
+
+{\color{blue}\dfrac{1}{7}} + \boxed{\color{violet}\dfrac{3}{7}} + {\color{red}\dfrac{2}{7}} = \dfrac{6}{7}.
+
 $$
 
 ### Example: Finding a Missing Fraction in a Decomposition
@@ -55,7 +65,9 @@ $$
 What fraction gives a true statement when inserted into the blank space?
 
 $$
-\dfrac{2}{10} + \dfrac{4}{10} + \bbox[2pt, white, border: 1px solid black]{\phantom{\dfrac{a}{a}}}= \dfrac{9}{10}
+
+\dfrac{2}{10} + \dfrac{4}{10} + \boxed{\phantom{\dfrac{a}{a}}}= \dfrac{9}{10}
+
 $$
 
 #### Explanation
@@ -63,7 +75,9 @@ $$
 First, recall that $\dfrac{9}{10}$ can be viewed as the sum of $9$ instances of the fraction $\dfrac{1}{10}{:}$
 
 $$
+
 9
+
 $$
 
 Examining the known fractions on the left-hand side of the given equation, from left to right, we have the following:
@@ -75,19 +89,25 @@ Examining the known fractions on the left-hand side of the given equation, from 
 Let's add these to our diagram:
 
 $$
+
 9
+
 $$
 
 We have $3$ instances of $\dfrac1{10}$ remaining, and these give the fraction ${\color{violet}{\dfrac3{10}}}.$
 
 $$
+
 9
+
 $$
 
 This gives the decomposition
 
 $$
-{\color{blue}\dfrac{2}{10}} + {\color{red}\dfrac{4}{10}}+ \bbox[2pt, white, border: 1px solid black]{\color{violet}\dfrac{3}{10}} = \dfrac{9}{10}.
+
+{\color{blue}\dfrac{2}{10}} + {\color{red}\dfrac{4}{10}}+ \boxed{\color{violet}\dfrac{3}{10}} = \dfrac{9}{10}.
+
 $$
 
 Therefore, the missing fraction is ${\color{violet}{\dfrac3{10}}}.$
@@ -147,7 +167,9 @@ Therefore, we can make more decompositions of by adding together fractions whose
 #### Question
 
 $$
-\bbox[2pt, white, border: 1px solid black]{\phantom{\dfrac{a}{a}}} + \dfrac{2}{4} + \dfrac{6}{4} = 3 \, \dfrac{1}{4}
+
+\boxed{\phantom{\dfrac{a}{a}}} + \dfrac{2}{4} + \dfrac{6}{4} = 3 \, \dfrac{1}{4}
+
 $$
 
 Which of the following fractions gives a true statement when inserted into the blank space?
@@ -163,19 +185,25 @@ Which of the following fractions gives a true statement when inserted into the b
 First, recall that $3 \, \dfrac{1}{4}$ can be viewed as the sum of the whole and fractional parts:
 
 $$
+
 3 \, \dfrac{1}{4} = 3 + \dfrac{1}{4}
+
 $$
 
 In turn, the whole number $3$ can be written as
 
 $$
+
 3 = 1 + 1 + 1= \dfrac{4}{4} + \dfrac{4}{4} + \dfrac{4}{4}.
+
 $$
 
 So, we have
 
 $$
+
 3 \, \dfrac{1}{4} = \underbrace{\dfrac{4}{4} + \dfrac{4}{4} + \dfrac{4}{4}}_{\large 3} + \dfrac{1}{4} = \dfrac{4+4+4+1}{4} = \dfrac{\color{blue}13}{4}.
+
 $$
 
 As a result, any decomposition of $3 \, \dfrac{1}{4}$ must contain fractions
@@ -187,5 +215,7 @@ As a result, any decomposition of $3 \, \dfrac{1}{4}$ must contain fractions
 Among the given options, the only fraction with these properties is $\dfrac{5}{4}.$ Indeed, its denominator is $4$ and
 
 $$
-\bbox[2pt, white, border: 1px solid black]{\dfrac{5}{4}} + \dfrac{2}{4} + \dfrac{6}{4} = \dfrac{5+2+6}{4} = \dfrac{\color{blue}13}{4}.
+
+\boxed{\dfrac{5}{4}} + \dfrac{2}{4} + \dfrac{6}{4} = \dfrac{5+2+6}{4} = \dfrac{\color{blue}13}{4}.
+
 $$

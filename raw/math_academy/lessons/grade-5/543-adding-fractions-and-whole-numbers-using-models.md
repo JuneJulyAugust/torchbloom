@@ -27,7 +27,9 @@ The first shape is split into $\color{red}2$ equal parts. So, we can split the w
 Now, both shapes are split into $\color{red}2$ equal parts, and we have $1+2 = {\color{blue}{3}}$ shaded parts in total. Therefore,
 
 $$
+
 \dfrac 1 2 + 1 = \dfrac{{\color{blue}3}}{{\color{red}2}}.
+
 $$
 
 And that's our answer!
@@ -49,7 +51,9 @@ All three shapes are split into $\color{red}3$ equal parts, and we have $3+3+1 =
 Therefore,
 
 $$
+
 2 + \dfrac 1 3 = \dfrac{{\color{blue}7}}{{\color{red}3}}.
+
 $$
 
 ### Example: Splitting Whole Numbers Into Parts
@@ -61,7 +65,9 @@ $$
 Use the model above to determine the missing number in the following statement:
 
 $$
+
 \,0\,
+
 $$
 
 #### Explanation

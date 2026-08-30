@@ -19,7 +19,9 @@ So, to *divide* a decimal by $10,$ we shift the decimal point one place to the *
 To demonstrate, let's use this method to find the value of
 
 $$
+
 38.7 \div 10.
+
 $$
 
 First, we write down our number. We can attach as many leading zeros as we want to the whole number part:
@@ -37,13 +39,17 @@ This gives the following diagram:
 We ignore the leading zeros in the whole number part and trailing zeros in the decimal part. This gives the following number:
 
 $$
+
 3.87
+
 $$
 
 Therefore:
 
 $$
+
 38.7 \div 10 = 3.87
+
 $$
 
 ### Example: Dividing a Number by Ten
@@ -69,13 +75,17 @@ This gives the following diagram:
 We ignore the leading zeros in the whole number part and trailing zeros in the decimal part. This gives the following number:
 
 $$
+
 25.60 = 25.6
+
 $$
 
 Therefore:
 
 $$
+
 256 \div 10 = 25.6
+
 $$
 
 ### Example: Dividing a Number Smaller Than Ten by Ten
@@ -101,13 +111,17 @@ This gives the following diagram:
 We ignore the leading zeros in the whole number part and trailing zeros in the decimal part. This gives the following number:
 
 $$
+
 0.80 = 0.8
+
 $$
 
 Therefore:
 
 $$
+
 8 \div 10 = 0.8
+
 $$
 
 ### Dividing Decimals by Larger Powers of Ten
@@ -117,7 +131,9 @@ To divide a decimal by a larger power of $10,$ we shift the decimal point to the
 To illustrate, let's use this method to find the value of
 
 $$
+
 9 \div 100.
+
 $$
 
 First, we write down our number. We can attach as many trailing zeros as we want to the whole number part.
@@ -135,13 +151,17 @@ This gives the following diagram:
 We ignore the leading zeros in the whole number part and trailing zeros in the decimal part. This gives the following number:
 
 $$
+
 0.090 = 0.09
+
 $$
 
 Therefore:
 
 $$
+
 9 \div 100 = 0.09
+
 $$
 
 ### Example: Dividing a Number by One Hundred
@@ -167,13 +187,17 @@ This gives the following diagram:
 We ignore the leading zeros in the whole number part and trailing zeros in the decimal part. This gives the following number:
 
 $$
+
 0.663
+
 $$
 
 Therefore:
 
 $$
+
 66.3 \div 100 = 0.663
+
 $$
 
 ### Example: Dividing a Number by One Thousand
@@ -197,11 +221,15 @@ This gives the following diagram:
 We ignore the leading zeros in the whole number part and trailing zeros in the decimal part. This gives the following number:
 
 $$
+
 0.7690 = 0.769
+
 $$
 
 Therefore:
 
 $$
+
 769 \div 1,000 = 0.769
+
 $$

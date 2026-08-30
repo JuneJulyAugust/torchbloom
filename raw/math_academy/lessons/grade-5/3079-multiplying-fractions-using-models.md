@@ -16,7 +16,9 @@ We can use fraction models to multiply any two fractions.
 Let's figure out how to use models to compute the following product:
 
 $$
+
 \dfrac{3}{5} \times \dfrac{2}{3}
+
 $$
 
 We start with the model of $\dfrac{3}{5}.$
@@ -32,7 +34,9 @@ From the picture on the right, we see that the shaded part represents $\dfrac{6}
 Therefore,
 
 $$
+
 \dfrac{3}{5} \times \dfrac{2}{3} = \dfrac{6}{15}.
+
 $$
 
 ### Example: Identifying a Multiplication Problem Corresponding to a Model
@@ -52,7 +56,9 @@ We have $\dfrac{2}{5}$ on the left and $\dfrac{6}{20}$ on the right.
 Therefore, the multiplication problem shown is:
 
 $$
+
 \dfrac{2}{5} \times \dfrac{3}{4} = \dfrac{6}{20}
+
 $$
 
 ### Example: Identifying a Missing Number
@@ -74,7 +80,9 @@ The shape on the right-hand side is split into $5$ equal parts by horizontal lin
 Therefore, the multiplication problem shown is
 
 $$
+
 \dfrac{3}{4} \times \dfrac{\color{blue}3}{5} = \dfrac{9}{20}.
+
 $$
 
 So, the missing number is $\color{blue}3.$
@@ -120,5 +128,7 @@ From the picture on the right, we see that the shaded part represents $\dfrac{6}
 Therefore,
 
 $$
+
 \dfrac{2}{6} \times \dfrac{3}{4} = \dfrac{6}{24}.
+
 $$

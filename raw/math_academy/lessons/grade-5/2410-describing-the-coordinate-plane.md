@@ -24,7 +24,9 @@ The point of intersection of the two lines is called the **origin** and is label
 An **ordered pair** is a collection of two numbers shown with parentheses. Some examples of ordered pairs are:
 
 $$
+
 (2,0)\qquad(0,3)\qquad (4,3)
+
 $$
 
 Every point in the coordinate plane can be represented using an ordered pair, and we use an ordered pair to plot a point.

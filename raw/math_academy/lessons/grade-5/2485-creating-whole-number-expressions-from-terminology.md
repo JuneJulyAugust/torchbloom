@@ -96,19 +96,25 @@ Let's break it down:
 **Step 1.** "*The sum of $3$ and $4$*" means:
 
 $$
+
 3 + 4
+
 $$
 
 **Step 2.** Since this operation comes first, we use parentheses:
 
 $$
+
 (3+4)
+
 $$
 
 **Step 3.** The "*... multiplied by $5$*" means that we should multiply the above expression by $5.$ So we get:
 
 $$
+
 (3+4) \times 5
+
 $$
 
 ### Example: Using Special Words with Two Operations
@@ -122,17 +128,23 @@ What expression represents "**"?
 "**" means:
 
 $$
+
 12 \div 6
+
 $$
 
 Since this operation comes first, we use parentheses:
 
 $$
+
 (12 \div 6)
+
 $$
 
 "**" means that we should add $3$ to the above expression. So we get:
 
 $$
+
 (12 \div 6) + 3
+
 $$

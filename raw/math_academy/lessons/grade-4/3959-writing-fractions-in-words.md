@@ -16,7 +16,9 @@ In this lesson, we'll learn how to write non-unit fractions in words.
 For example, let's consider the following fraction:
 
 $$
+
 \dfrac{\color{red}3}{\color{blue}8}
+
 $$
 
 We can use our usual procedure to write this fraction in words:
@@ -34,7 +36,9 @@ Therefore, the fraction $\dfrac38$ written in words is *three-eighths.*
 Let's now consider the fraction
 
 $$
+
 \dfrac{\color{red}5}{\color{blue}27}.
+
 $$
 
 We write the fraction in words as follows:

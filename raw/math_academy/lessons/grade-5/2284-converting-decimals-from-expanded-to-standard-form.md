@@ -15,7 +15,9 @@ Topic ID: 2284
 A decimal number is in expanded form when it is written as the sum of place values. For instance, the following number is in expanded form:
 
 $$
+
 3 + 0.5
+
 $$
 
 Suppose that we need to convert the given number from expanded form to standard form. To do this, notice that:
@@ -35,7 +37,9 @@ Therefore, the standard form representation of our decimal is $3.5.$
 Which number is equivalent to the expanded form below?
 
 $$
+
 2\times 10 + 4\times 1 + 1\times 0.1 + 8\times 0.01
+
 $$
 
 #### Explanation
@@ -61,7 +65,9 @@ Therefore, the given expanded form is equivalent to $24.18.$
 Which number is equivalent to the expanded form below?
 
 $$
+
 (5\times 10) + (3\times 1) + \left(8\times\dfrac{1}{10}\right)+\left(7\times\dfrac{1}{100}\right)
+
 $$
 
 #### Explanation
@@ -85,7 +91,9 @@ Therefore, the given expanded form is equivalent to $53.87.$
 In the expanded form
 
 $$
+
 (2\times 1) + \left(5\times\dfrac{1}{10}\right)+\left(7\times\dfrac{1}{1,000}\right),
+
 $$
 
 there is no place value for the hundredths place. We have:
@@ -109,7 +117,9 @@ Therefore, the given expanded form is equivalent to $2.5{\color{blue}0}7.$
 What are the missing digits in the following equality?
 
 $$
+
 0
+
 $$
 
 #### Explanation
@@ -137,7 +147,9 @@ Therefore, the resulting number is $78.042$ and the missing digits are $0$ and $
 Which number is equivalent to the expanded form below?
 
 $$
+
 (5\times 1,000) + \dfrac{1}{1,000}
+
 $$
 
 #### Explanation

@@ -28,7 +28,9 @@ Let's answer the following questions:
 Since the class was divided into groups of $5,$ let's start by dividing $38$ by $5\mathbin{:}$
 
 $$
+
 38 \div 5 = {\color{blue}7} \,\text{R}\, {\color{red}3}
+
 $$
 
 Let's now answer our questions by interpreting this result:
@@ -52,7 +54,9 @@ Olivia has $93$ beads and would like to make $10$ bracelets. If each bracelet sh
 To find the number of beads that will be left over, we need to divide $93$ by $10\mathbin{:}$
 
 $$
+
 93 \div 10 = 9 \,\text{R}\, {\color{blue}3}
+
 $$
 
 This means that $\color{blue}3$ beads will be left over after Olivia has finished making bracelets.
@@ -68,7 +72,9 @@ Dorothy has $19\,\textrm{kg}$ of potatoes she would like to pack into bags. One 
 To find the number of bags needed, we first need to divide $19$ by $5\mathbin{:}$
 
 $$
+
 19 \div 5= {\color{blue}3} \,\text{R}\, {\color{red}4}
+
 $$
 
 This means that Dorothy will fill $\color{blue}3$ bags, and she will need one more bag for the extra ${\color{red}4}\,\textrm{kg}$ of potatoes.
@@ -86,7 +92,9 @@ Monica has made $98$ ounces of jam that she plans to scoop into jars. If one jar
 To find out the number of jars Monica requires, we first need to divide $98$ by $10\mathbin{:}$
 
 $$
+
 98 \div 10 = {\color{blue}9} \,\text{R}\, {\color{red}8}
+
 $$
 
 This means that Monica will fill $\color{blue}9$ full jars, and she will need one more jar for the remaining $\color{red}8$ ounces.

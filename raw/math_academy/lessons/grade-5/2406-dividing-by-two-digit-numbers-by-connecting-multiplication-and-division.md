@@ -15,25 +15,33 @@ Topic ID: 2406
 Multiplication and division are "opposite" operations. For example, since
 
 $$
+
 {\color{blue}2} \times {\color{red}3} = 6,
+
 $$
 
 we also know that
 
 $$
+
 6 \div {\color{red}3} = {\color{blue}2}\,.
+
 $$
 
 We can use this idea to figure out the solution to some division problems. For example, suppose we are told that the result of calculating $75 \div 15$ is either
 
 $$
+
 4,\quad 5,\quad \text{or} \quad 6.
+
 $$
 
 To find which choice is correct, we start by writing the corresponding multiplication equation. If $75 \div 15 = \square,$ then
 
 $$
+
 \square \times 15 = 75.
+
 $$
 
 We can represent this multiplication problem using an area model:
@@ -69,7 +77,9 @@ Given the following options, what is the result of calculating $96 \div 16$ usin
 To find which choice is correct, we start by writing the corresponding multiplication equation. If $96 \div 16 = \square,$ then
 
 $$
+
 \square \times 16 = 96.
+
 $$
 
 We can represent this multiplication problem using an area model:
@@ -107,7 +117,9 @@ To find out how many trees are in each row, we divide the number of trees ($280$
 If $280 \div 14 = \square,$ then the corresponding multiplication equation is:
 
 $$
+
 \square\times 14 = 280
+
 $$
 
 We can represent this multiplication problem using an area model:
@@ -117,7 +129,9 @@ We can represent this multiplication problem using an area model:
 First, let's list the possible answers, from smallest to largest:
 
 $$
+
 18,\quad 19,\quad 20
+
 $$
 
 We'll try each of the given numbers until we find one that satisfies the multiplication equation.
@@ -151,7 +165,9 @@ Given the following options, what is the result of calculating $1,335 \div 15$ u
 If $1,335 \div 15 = \square,$ then the corresponding multiplication equation is:
 
 $$
+
 \square \times 15 = 1,335
+
 $$
 
 We can represent this multiplication problem using an area model:
@@ -161,7 +177,9 @@ We can represent this multiplication problem using an area model:
 First, let's list the possible answers, from smallest to largest:
 
 $$
+
 88,\quad 89,\quad 90
+
 $$
 
 We'll try each of the given numbers until we find one that satisfies the multiplication equation.

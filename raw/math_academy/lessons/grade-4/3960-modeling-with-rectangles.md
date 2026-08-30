@@ -31,19 +31,25 @@ First, let's denote the unknown length using the letter $x.$
 Now, remember that the area of a rectangle is given by the formula
 
 $$
+
 {\color{red}{\textrm{Area}}} = \textrm{Length} \times {\color{blue}{\textrm{Width}}}.
+
 $$
 
 In our example, the area is ${\color{red}{48}} \, \textrm{m}^2,$ the length is $x\,\textrm{m},$ and the width is ${\color{blue}{8}} \, \textrm{m}.$ Substituting these values into the equation above, we obtain
 
 $$
+
 {\color{red}{48}} = x \times {\color{blue}{8}}.
+
 $$
 
 Now, the number $x$ whose product with $8$ equals $48$ is given by
 
 $$
+
 48 \div 8 = 6.
+
 $$
 
 Therefore, the rectangle's length is $6 \, \textrm{m}.$
@@ -63,7 +69,9 @@ The area of a rectangle is $28 \, \textrm{cm}^2$ and its length is $7 \, \textrm
 Remember that the area of a rectangle is given by
 
 $$
+
 \textrm{Area} = \textrm{Length} \times \textrm{Width}.
+
 $$
 
 In our example, the area is $28 \, \textrm{cm}^2,$ the length is $7 \, \textrm{cm},$ and the width is $x\, \textrm{cm}.$
@@ -73,13 +81,17 @@ In our example, the area is $28 \, \textrm{cm}^2,$ the length is $7 \, \textrm{c
 Substituting these into the equation above, we obtain
 
 $$
+
 28 = 7 \times x.
+
 $$
 
 Notice that we can swap the factors on the right-hand side. Therefore, there are two possible equations:
 
 $$
+
 28 = 7 \times x \qquad\textrm{or}\qquad 28 = x \times 7
+
 $$
 
 ### Example: Finding the Length or Width of a Rectangle Given Its Area
@@ -97,7 +109,9 @@ The area of a rectangle is $30 \, \textrm{m}^2$ and its width is $6 \, \textrm{m
 Remember that the area of a rectangle is given by
 
 $$
+
 \textrm{Area} = \textrm{Length} \times \textrm{Width}.
+
 $$
 
 In our example, the area is $30 \, \textrm{m}^2$ and the width is $6 \, \textrm{m}.$ Let's denote the unknown length as $x.$
@@ -107,13 +121,17 @@ In our example, the area is $30 \, \textrm{m}^2$ and the width is $6 \, \textrm{
 Substituting the known values into the equation above, we obtain
 
 $$
+
 30 = x \times 6.
+
 $$
 
 Now, the number $x$ whose product with $6$ equals $30$ is
 
 $$
+
 30 \div 6 = 5.
+
 $$
 
 Therefore, the rectangle's length is $5 \, \textrm{m}.$
@@ -135,7 +153,9 @@ Note the following:
 Now, notice that the rectangle has $2$ sides of length ${\color{red}{6}}\,\textrm{m},$ and $2$ sides of length ${\color{blue}{8}}\,\textrm{m}.$ Therefore, the perimeter of the rectangle, in meters, is given by
 
 $$
+
 \begin{aligned}Perimeter & =2×Length+2×Width \\ & =2×6+2×8 \\ & =12+16 \\ & =28.\end{aligned}
+
 $$
 
 Therefore, the perimeter of the rectangle is $28\,\textrm{m}.$
@@ -159,7 +179,9 @@ The perimeter of a rectangle is $18 \, \textrm{cm}$ and its width is $3 \, \text
 Remember that the perimeter of a rectangle is given by
 
 $$
+
 \textrm{Perimeter} = 2 \times \textrm{Length} + 2 \times \textrm{Width}.
+
 $$
 
 In our example, the perimeter is $18 \, \textrm{cm}$ and the width is $3 \, \textrm{cm}.$ Let's denote the unknown length as $x.$
@@ -169,19 +191,25 @@ In our example, the perimeter is $18 \, \textrm{cm}$ and the width is $3 \, \tex
 Substituting the known values into the equation above, we obtain
 
 $$
+
 18 = 2 \times x+2 \times 3.
+
 $$
 
 Since ${\color{red}2 \times 3} = {\color{red}6},$ we have
 
 $$
+
 \begin{aligned}18=2×𝑥+6.\end{aligned}
+
 $$
 
 Now, to find $x,$ we try each of the given values, starting from the smallest:
 
 $$
+
 \begin{aligned}2×4+6 & =14≠18\, & × \\ 2×5+6 & =16≠18\, & × \\ 2×6+6 & =18\, & ✓\end{aligned}
+
 $$
 
 Therefore, the rectangle's length is $6 \, \textrm{cm}.$
@@ -205,7 +233,9 @@ The perimeter of a rectangular laptop screen is $42 \, \textrm{in},$ and its len
 Remember that the perimeter of a rectangle is given by
 
 $$
+
 \textrm{Perimeter} = 2 \times \textrm{Length} + 2 \times \textrm{Width}.
+
 $$
 
 In our example, the perimeter is $42 \, \textrm{in}$ and the length is $12 \, \textrm{in}.$ Let's denote the unknown width as $x.$
@@ -213,19 +243,25 @@ In our example, the perimeter is $42 \, \textrm{in}$ and the length is $12 \, \t
 Substituting the known values into the equation above, we obtain
 
 $$
+
 42 = 2 \times 12 + 2 \times x.
+
 $$
 
 Since ${\color{red}2 \times 12} = {\color{red}24},$ we have
 
 $$
+
 \begin{aligned}42=24+2×𝑥.\end{aligned}
+
 $$
 
 Now, to find $x,$ we try each of the given values, starting from the smallest:
 
 $$
+
 \begin{aligned}24+2×7 & =38≠42\, & × \\ 24+2×8 & =40≠42\, & × \\ 24+2×9 & =42\, & ✓\end{aligned}
+
 $$
 
 Therefore, the laptop screen's width is $9 \, \textrm{in}.$

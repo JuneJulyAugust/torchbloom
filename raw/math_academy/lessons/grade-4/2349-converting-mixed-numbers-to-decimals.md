@@ -21,7 +21,9 @@ Whenever we write a mixed number as a decimal, our decimal will have
 For example, let's write the following mixed number as a decimal:
 
 $$
+
 7 \,\dfrac{9}{10}
+
 $$
 
 To express this mixed number as a decimal, we look at the whole number and fractional parts:
@@ -33,7 +35,9 @@ To express this mixed number as a decimal, we look at the whole number and fract
 Therefore, we can express our mixed number as a decimal as follows:
 
 $$
+
 {\color{blue}{7.}}{\color{red}{9}}
+
 $$
 
 ### Example: Converting Mixed Numbers With Tenths to Decimals
@@ -59,7 +63,9 @@ With that in mind, let's write ${\color{blue}3} \,{\color{red}\dfrac{5}{10}}$ as
 Therefore, we can write the given mixed number as a decimal number with $1$ decimal place:
 
 $$
+
 {\color{blue}{3}} \,{\color{red}{\dfrac{5}{10}}} = {\color{blue}{3.}}{\color{red}{5}}
+
 $$
 
 ### Example: Converting Mixed Numbers With Hundredths to Decimals
@@ -85,7 +91,9 @@ With that in mind, let's write ${\color{blue}11} \,{\color{red}\dfrac{3}{100}}$ 
 Therefore, we can write the given mixed number as a decimal number with $2$ decimal places:
 
 $$
+
 {\color{blue}11} \,{\color{red}\dfrac{3}{100}} = {\color{blue}11.}{\color{red}03}
+
 $$
 
 ### Example: Converting Mixed Numbers With Thousandths to Decimals
@@ -111,7 +119,9 @@ With that in mind, let's write ${\color{blue}2} \,{\color{red}\dfrac{31}{1,000}}
 Therefore, we can write the given mixed number as a decimal number with $3$ decimal places:
 
 $$
+
 {\color{blue}2} \,{\color{red}\dfrac{31}{1,000}} = {\color{blue}2.}{\color{red}{031}}
+
 $$
 
 ### Converting Fractions to Decimals Using Equivalent Fractions
@@ -121,7 +131,9 @@ We sometimes need to find an equivalent fraction for the fractional part when ex
 For example, let's consider the following mixed number:
 
 $$
+
 {\color{blue}2}\,{\color{red}\dfrac{1}{5}}
+
 $$
 
 Notice the denominator of the fractional part $({\color{red}{5}})$ is not $10,100,$ or $1,000.$ However, we can still express this fraction as a decimal, as follows:
@@ -133,7 +145,9 @@ Notice the denominator of the fractional part $({\color{red}{5}})$ is not $10,10
 Therefore, we can express our mixed number as a decimal as follows:
 
 $$
+
 {\color{blue}{2}}\,{\color{red}{\dfrac{1}{5}}} = {\color{blue}{2.}}{\color{red}{2}}
+
 $$
 
 ### Example: Converting Mixed Numbers to Decimals
@@ -159,5 +173,7 @@ With that in mind, let's write ${\color{blue}53} \,{\color{red}\dfrac{3}{50}}$ a
 Therefore, we can express our mixed number as a decimal as follows:
 
 $$
+
 {\color{blue}53} \,{\color{red}\dfrac{3}{50}} = {\color{blue}{53.}}{\color{red}{06}}
+
 $$

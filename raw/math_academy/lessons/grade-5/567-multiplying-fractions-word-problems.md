@@ -20,7 +20,9 @@ To find out how much flour Nancy used, we need to multiply $\dfrac{3}{5}$ by $\d
 To multiply these two fractions, we multiply the numerators, and we multiply the denominators:
 
 $$
+
 \dfrac{3}{5} \times \dfrac{2}{5} = \dfrac{3\times 2}{5\times 5} = \dfrac{6}{25}
+
 $$
 
 Therefore, Nancy used $\dfrac{6}{25}$ kilograms of flour.
@@ -38,13 +40,17 @@ To find the fraction of the original bag Jim received, we need to multiply $\dfr
 To do that, we multiply the numerators, and we multiply the denominators:
 
 $$
+
 \dfrac{1}{3} \times \dfrac{6}{7} = \dfrac {1 \times 6} {3 \times 7} = \dfrac{6}{21}
+
 $$
 
 We can simplify this fraction by dividing the numerator and denominator by $3\mathbin{:}$
 
 $$
+
 \dfrac{6}{21} = \dfrac{6 \div 3}{21 \div 3} = \dfrac{2}{7}
+
 $$
 
 So, Jim received $\dfrac{2}{7}$ of the initial bag of marbles.
@@ -62,13 +68,17 @@ To find out the amount of coffee Jacob drank, we need to calculate $\dfrac{1}{4}
 To do that, we multiply the numerators, and we multiply the denominators:
 
 $$
+
 \dfrac{1}{4} \times \dfrac{8}{3} = \dfrac{1 \times 8}{4 \times 3} = \dfrac{8}{12}
+
 $$
 
 Next, we simplify:
 
 $$
+
 \dfrac{8}{12} = \dfrac{8 \div 4}{12\div 4} =\dfrac{2}{3}
+
 $$
 
 So, Jacob drank $\dfrac{2}{3}$ cups of coffee.

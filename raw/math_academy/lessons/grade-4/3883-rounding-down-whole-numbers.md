@@ -18,7 +18,9 @@ When we **round a number to the nearest ten,** we find the closest multiple of t
 For example, let's round the following number to the nearest ten:
 
 $$
+
 123
+
 $$
 
 We begin by drawing a number line:
@@ -78,7 +80,9 @@ We can round whole numbers using a place value chart.
 To demonstrate, let's again round the following number to the nearest ten:
 
 $$
+
 123
+
 $$
 
 We start by writing our number's digits in a place value chart. Since we're rounding to the nearest *ten*, we highlight the tens place:

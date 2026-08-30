@@ -22,7 +22,9 @@ To determine the missing length, we consider the area of the blue rectangle (the
 The area of the blue rectangle is $12,$ and its width is $3.$ Therefore, the length of this rectangle must be
 
 $$
+
 12 \div 3 = 4.
+
 $$
 
 Let's add this length to our area model.
@@ -68,13 +70,17 @@ Now, let's look at the big rectangle:
 Since the area of the big rectangle equals its length multiplied by its width, this model represents the following multiplication problem:
 
 $$
+
 16 \times 4= 64
+
 $$
 
 Writing this as a division problem, we get
 
 $$
+
 16 = 64\div 4.
+
 $$
 
 **Note:** When using area models to represent division problems, the divisor ($4$ in this case) is the number on the *left-hand side* of our model.
@@ -88,7 +94,9 @@ $$
 The area model above can be used to represent the following division problem:
 
 $$
+
 00
+
 $$
 
 What is the missing number?
@@ -106,13 +114,17 @@ Let's look at the big rectangle:
 Therefore, this area model can be used to represent the following multiplication problem:
 
 $$
+
 51 = 17\times 3
+
 $$
 
 Writing this as a division problem, we get
 
 $$
+
 51 \div 3 = 17.
+
 $$
 
 Therefore, the missing number is $17.$
@@ -142,11 +154,15 @@ Now, notice the following regarding the big rectangle:
 Therefore, this area model can be used to represent the following multiplication problem:
 
 $$
+
 76 = 19\times 4
+
 $$
 
 Writing this as a division problem, we get
 
 $$
+
 76\div 4 = 19.
+
 $$

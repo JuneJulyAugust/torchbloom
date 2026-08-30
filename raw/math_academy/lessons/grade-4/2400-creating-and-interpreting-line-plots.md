@@ -132,7 +132,9 @@ Therefore, we get the line plot shown below:
 During the last weekend, the number of hours spent doing homework by the students of a math class was
 
 $$
+
 1,\,0,\,1,\,2,\,3,\,3,\,1,\,3,\,1,\,4,\,4,\,1,\,0.
+
 $$
 
 Make a line plot to represent the given data.
@@ -142,7 +144,9 @@ Make a line plot to represent the given data.
 Let's look at the given scores:
 
 $$
+
 {\color{blue}1}\quad {0} \quad{\color{blue}1} \quad { 2} \quad{\color{red}3} \quad{\color{red}3}\quad{\color{blue}1} \quad{\color{red}3}\quad{\color{blue}1}\quad {\bf 4} \quad {\bf 4} \quad{\color{blue}1} \quad { 0}
+
 $$
 
 We see that:

@@ -7,7 +7,7 @@ This index mirrors the catalog hierarchy. Each available course links to its raw
 
 ## Lesson archive
 
-- [Grade 4 and Grade 5 lesson archive](./lessons/index.md) — page-visible lesson text, prerequisites, mathematical expressions, and instructional graphics.
+- [Grade 4, Grade 5, and Prealgebra lesson archive](./lessons/index.md) — page-visible lesson text, prerequisites, mathematical expressions, and instructional graphics.
 - [Completed Grade 4 lesson task samples](./lesson-samples/grade-4/index.md) — completed activity pages with visible questions, results, timing, and graphics.
 
 ## Course hierarchy
@@ -83,3 +83,4 @@ This index mirrors the catalog hierarchy. Each available course links to its raw
 - Available course files: 34
 - Excluded under-development courses: ACT Math and Abstract Algebra
 - Total unique catalog URLs: 36
+- Lesson pages captured: Grade 4 (140), Grade 5 (133), Prealgebra (210)

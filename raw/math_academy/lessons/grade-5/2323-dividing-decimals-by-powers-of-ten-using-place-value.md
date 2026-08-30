@@ -15,7 +15,9 @@ Topic ID: 2323
 We can use place value charts to divide decimals by $10.$ For instance, to find the value of
 
 $$
+
 28 \div 10,
+
 $$
 
 we perform the following steps.

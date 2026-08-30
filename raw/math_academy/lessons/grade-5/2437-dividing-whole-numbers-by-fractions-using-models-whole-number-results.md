@@ -17,13 +17,17 @@ Remember that a *unit fraction* contains $\color{blue}1$ in the numerator.
 For example, the following fractions are unit fractions since they each contain ${\color{blue}{1}}$ in the numerator:
 
 $$
+
 \dfrac{\color{blue}{1}}{2}, \qquad \dfrac{\color{blue}{1}}{5}, \qquad \dfrac{\color{blue}{1}}{8}
+
 $$
 
 However, the following fractions are *not-unit* fractions since they do *not* contain ${\color{blue}{1}}$ in the numerator:
 
 $$
+
 \dfrac{\color{red}{2}}{3}, \qquad \dfrac{\color{red}{5}}{8}, \qquad \dfrac{\color{red}{7}}{12}
+
 $$
 
 In this lesson, we will use models to divide whole numbers by *non-unit* fractions.
@@ -35,7 +39,9 @@ In this lesson, we will use models to divide whole numbers by *non-unit* fractio
 Let's use a model to find the result of the following division problem:
 
 $$
+
 {\color{blue}{1}} \div \dfrac26
+
 $$
 
 We start with a model that represents ${\color{blue}{1}}$ whole:
@@ -61,7 +67,9 @@ So, if we divide $\color{blue}1$ whole into groups of ${\color{black}{\dfrac26}}
 Therefore, we conclude that
 
 $$
+
 {\color{blue}{1}} \div {\color{black}\dfrac26} = {\color{purple}3}.
+
 $$
 
 ### Example: Finding a Missing Number
@@ -73,7 +81,9 @@ $$
 Use the model above to determine the missing number in the following division problem.
 
 $$
+
 \,\frac{0}{0}\,
+
 $$
 
 #### Explanation
@@ -97,10 +107,12 @@ So, if we divide $\color{blue}4$ wholes into groups of ${\color{red}{\dfrac{2}{5
 Therefore, the model represents the following division problem:
 
 $$
+
 \frac{2}{5}
+
 $$
 
-So, the missing number is $\bbox[3pt, Gainsboro]{\color{red}\dfrac{2}{5}}.$
+So, the missing number is $\boxed{\color{red}\dfrac{2}{5}}.$
 
 ### Example: Finding Two Missing Numbers
 
@@ -111,7 +123,9 @@ So, the missing number is $\bbox[3pt, Gainsboro]{\color{red}\dfrac{2}{5}}.$
 Use the model above to determine the missing numbers in the following division problem.
 
 $$
+
 \,0^{2}
+
 $$
 
 #### Explanation
@@ -135,10 +149,12 @@ So, if we divide $\color{blue}2$ wholes into groups of ${\color{red}{\dfrac23}},
 Therefore, the model represents the following division problem:
 
 $$
+
 \,2\,
+
 $$
 
-Therefore, the missing numbers are $\bbox[3pt, Gainsboro]{\color{blue}2}$ and $\bbox[3pt, Gainsboro]{\color{purple}3}.$
+Therefore, the missing numbers are $\boxed{\color{blue}2}$ and $\boxed{\color{purple}3}.$
 
 ### Example: Dividing a Whole Number by a Non-Unit Fraction
 
@@ -149,7 +165,9 @@ Therefore, the missing numbers are $\bbox[3pt, Gainsboro]{\color{blue}2}$ and $\
 The model above represents $3$ wholes. Use the model to determine the missing number in the following division problem.
 
 $$
+
 \,0\,
+
 $$
 
 #### Explanation
@@ -173,7 +191,9 @@ So, if we divide $\color{blue}3$ wholes into groups of ${\color{red}{\dfrac3{5}}
 Therefore, we conclude that
 
 $$
+
 3 \div \dfrac{3}{{5}} = \fbox{5}.
+
 $$
 
-So, the missing number is $\bbox[3pt, Gainsboro]{\color{purple}5}.$
+So, the missing number is $\boxed{\color{purple}5}.$

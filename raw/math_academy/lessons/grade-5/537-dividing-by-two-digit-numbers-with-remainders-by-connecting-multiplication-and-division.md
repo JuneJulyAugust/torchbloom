@@ -19,7 +19,9 @@ To begin with, let's figure out how to compute $47\div 13.$
 We will start by computing products of $13$ and other whole numbers, starting from $1,$ until we get to a number that is greater than $47\mathbin{:}$
 
 $$
-\begin{aligned}13×1 & =13 \\ 13×2 & =13+13=26 \\ 13×3 & =26+13=39\,✓ \\ 13×4 & =39+13=52\,×\,([math]> {47}[/math], so too big)\end{aligned}
+
+\begin{aligned}13×1 & =13 \\ 13×2 & =13+13=26 \\ 13×3 & =26+13=39\,✓ \\ 13×4 & =39+13=52\,×\,(> {47}, so too big)\end{aligned}
+
 $$
 
 So, $13 \times {\color{blue}3}$ is *smaller than* $47,$ but $13 \times 4$ is *greater than* $47.$ This means that ${47}\div {13}$ has a whole number part (or quotient) of ${\color{blue}3}.$
@@ -27,7 +29,9 @@ So, $13 \times {\color{blue}3}$ is *smaller than* $47,$ but $13 \times 4$ is *gr
 To find the remainder, we subtract the product from the dividend:
 
 $$
+
 {47} - {39} = {\color{red}8}
+
 $$
 
 Therefore, ${47}\div {13} = {\color{blue}3}\,\textrm{R}\,{\color{red}8}.$
@@ -43,7 +47,9 @@ Calculate $99 \div 14$ using the relationship between multiplication and divisio
 Using our knowledge of multiplication:
 
 $$
+
 \begin{aligned}14×5 & =70 \\ 14×6 & =70+14=84\, \\ 14×7 & =84+14=98\,✓ \\ 14×8 & =98+14=112\,×\,(too big)\end{aligned}
+
 $$
 
 Therefore, $99 \div 14$ has a whole number part of ${\color{blue}{7}}.$
@@ -51,7 +57,9 @@ Therefore, $99 \div 14$ has a whole number part of ${\color{blue}{7}}.$
 We now find the remainder:
 
 $$
+
 99 - 98 = {\color{red}{1}}
+
 $$
 
 Therefore, $99 \div 14 = {\color{blue}{7}}\,\textrm{R}\,{\color{red}{1}}.$
@@ -67,7 +75,9 @@ Calculate the quotient of $681\div 32$ using the relationship between multiplica
 Using our knowledge of multiplication:
 
 $$
+
 \begin{aligned}32×20 & =640 \\ 32×21 & =640+32=672\,✓ \\ 32×22 & =672+32=704\,×\,(too big)\end{aligned}
+
 $$
 
 Therefore, $681\div 32$ has a quotient of ${\color{blue}{21}}.$
@@ -85,7 +95,9 @@ To find how many boxes of $15$ the factory can fill, we need to find the quotien
 Using our knowledge of multiplication:
 
 $$
+
 \begin{aligned}15×30 & =450\,✓ \\ 15×31 & =450+15=465\,×\,(too big)\end{aligned}
+
 $$
 
 Since $465$ is greater than $460,$ the factory can't fill $31$ boxes.
@@ -103,7 +115,9 @@ Sean and Martin brought cupcakes for a party. Sean brought $35$ cupcakes, and Ma
 The total number of cupcakes to be distributed is
 
 $$
+
 35+46=81.
+
 $$
 
 To calculate the number of plates that can be filled, we need to figure out $81\div 11.$
@@ -111,7 +125,9 @@ To calculate the number of plates that can be filled, we need to figure out $81\
 Using our knowledge of multiplication:
 
 $$
+
 \begin{aligned}11×7 & =77\,✓ \\ 11×8 & =77+11=88\,×\,(too big)\end{aligned}
+
 $$
 
 Since $88$ is greater than $81,$ Sean and Martin can't fill $8$ plates. Therefore, $7$ plates can be completely filled with cupcakes.
@@ -119,7 +135,9 @@ Since $88$ is greater than $81,$ Sean and Martin can't fill $8$ plates. Therefor
 Since $\color{blue}7$ plates will carry $77$ cupcakes in total, the number of cupcakes that will remain is
 
 $$
+
 81 - 77 ={\color{red}4}.
+
 $$
 
 So we conclude that $7$ plates can be filled completely, and $4$ cupcakes will remain.

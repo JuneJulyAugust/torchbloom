@@ -42,7 +42,9 @@ Let's use this to write down an equation with numbers.
 Since the two fractions are equivalent, they represent the same number, and we can write down the following equation:
 
 $$
+
 {\color{SteelBlue}\dfrac{2}{10}} = {\color{Purple}\dfrac{1}{5}}
+
 $$
 
 ### Example: Determining the Missing Value Given Two Equivalent Fraction Models
@@ -54,7 +56,9 @@ $$
 What number is missing from the statement below?
 
 $$
+
 \,0\,
+
 $$
 
 #### Explanation
@@ -68,7 +72,9 @@ Let's compare the two shapes.
 Both shaded regions have the same area. Therefore, the two fractions are equivalent, and we obtain the following:
 
 $$
+
 \,4\,
+
 $$
 
 Therefore, the missing value is $\color{blue}4.$
@@ -92,7 +98,9 @@ Let's compare the two shapes.
 Both shaded regions have the same area. Therefore, the two fractions are equivalent, and we obtain the following:
 
 $$
+
 \dfrac{8}{10} = {\color{blue}\dfrac{4}{5}}
+
 $$
 
 ### Creating Equivalent Fractions by Adding More Parts
@@ -116,7 +124,9 @@ For example, if we draw two more horizontal lines, we get a model representing $
 Therefore, the following fractions are all equivalent:
 
 $$
+
 \dfrac12, \qquad \dfrac24, \qquad \dfrac48
+
 $$
 
 **Watch Out!** Whenever we split a fraction model into more equal parts to generate equivalent fractions, *all* parts must have the same area!
@@ -130,7 +140,9 @@ $$
 The fraction given below is equivalent to the fraction shown in the picture. What number is missing?
 
 $$
+
 \,0\,
+
 $$
 
 #### Explanation
@@ -146,7 +158,9 @@ The shape on the right is divided into $8$ equal parts. Of them, $6$ parts are s
 Hence, we obtain
 
 $$
+
 \,6\,
+
 $$
 
 Therefore, the missing number is $\color{blue}6.$

@@ -19,7 +19,9 @@ Suppose Bethany promised to work for $9\,\dfrac23\,\rm{hr}$ this week in her mot
 To find the number of hours she has remaining, we need to calculate the following difference:
 
 $$
+
 9\,{\color{black}\dfrac23} - 2\,{\color{black}\dfrac13}
+
 $$
 
 To subtract mixed numbers with like denominators, we subtract
@@ -31,19 +33,25 @@ To subtract mixed numbers with like denominators, we subtract
 Subtracting the whole numbers, we get
 
 $$
+
 9-2={\color{blue}7}.
+
 $$
 
 Subtracting the fractions, we get
 
 $$
+
 \dfrac23 - \dfrac13 = \dfrac{2-1}3 = {\color{red}\dfrac13}.
+
 $$
 
 Finally, we combine the resulting whole number and the fraction:
 
 $$
+
 9\,\dfrac23 - 2\,\dfrac13 = {\color{blue}7}\,{\color{red}\dfrac13}
+
 $$
 
 Therefore, this week, Bethany has to work a further $7\,\dfrac13\,\rm{hr}$.
@@ -73,7 +81,9 @@ With that in mind, let's subtract our mixed numbers.
 Finally, we combine the resulting whole number and the fraction:
 
 $$
+
 8\,\dfrac{7}{8} - 2\,\dfrac{5}{8} = {\color{red}6}\,{\color{blue}\dfrac{1}{4}}.
+
 $$
 
 Therefore, Ricky picked $6\,\dfrac{1}{4}\,\textrm{kg}$ of raspberries.
@@ -89,13 +99,17 @@ Suppose Bethany promised to work for $8\,\dfrac25\,\rm{hr}$ next week in her mot
 To determine the number of hours Bethany must work over the remaining days, we need to calculate the following difference:
 
 $$
+
 8\,{\color{blue}\dfrac25} - 3\,{\color{red}\dfrac45}
+
 $$
 
 Now, notice that
 
 $$
+
 {\color{blue}\dfrac25} < {\color{red}\dfrac45}.
+
 $$
 
 Therefore, we *cannot* subtract the fractional parts!
@@ -109,13 +123,17 @@ So instead, we'll write each mixed number as an improper fraction and then subtr
 We can now carry out the subtraction in the usual way:
 
 $$
+
 \dfrac{42}5 - \dfrac{19}5 = \dfrac{23}5
+
 $$
 
 Finally, we convert it back to a mixed number:
 
 $$
+
 23 \div 5 = 4\,\textrm{R}3
+
 $$
 
 Therefore, Bethany has to work a further $4\,\dfrac35\,\rm{hr}.$
@@ -139,19 +157,25 @@ We cannot subtract the fractional parts because $\dfrac{5}{6}$ is larger than $\
 We can now carry out the subtraction:
 
 $$
+
 \dfrac{151}{6} - \dfrac{89}{6} = \dfrac{151 - 89}{6} = \dfrac{62}{6}
+
 $$
 
 We can simplify $\dfrac{62}{6}$ by dividing the numerator and denominator by $2{:}$
 
 $$
+
 \dfrac{62}{6} = \dfrac{62 \div 2}{6 \div 2} = \dfrac{31}{3}
+
 $$
 
 Finally, we convert it back to a mixed number:
 
 $$
+
 31 \div 3 = 10\,\textrm{R}1
+
 $$
 
 Therefore, there is $10\,\dfrac{1}{3}\,\textrm{kg}$ of sugar left.

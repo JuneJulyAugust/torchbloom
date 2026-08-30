@@ -15,13 +15,17 @@ Topic ID: 2409
 Every fraction represents a division - the division of the numerator by the denominator. For example:
 
 $$
+
 \dfrac{\color{blue}1}{\color{red}3} = {\color{blue}1} \div {\color{red}3}
+
 $$
 
 Likewise, we can represent every division problem as a fraction, where the dividend is the numerator, and the divisor is the denominator. For example:
 
 $$
+
 {\color{blue}3} \div {\color{red}2} = \dfrac{\color{blue}3}{\color{red}2}
+
 $$
 
 ### Example: Interpreting a Division Problem as a Fraction
@@ -37,7 +41,9 @@ A division problem may be interpreted as a fraction, where the dividend is the n
 Therefore, we can represent the given division problem as
 
 $$
+
 59\div 4=\dfrac{59}{4}.
+
 $$
 
 ### Example: Interpreting a Division Problem as a Fraction When Simplification is Needed
@@ -65,5 +71,7 @@ A fraction may be interpreted as the division of the numerator by the denominato
 Therefore, we can represent the given fraction as
 
 $$
+
 \dfrac{8}{19}=8\div 19.
+
 $$

@@ -17,13 +17,17 @@ Suppose we want to round $374.6$ to the nearest whole number.
 First, we locate the digit in the ones place:
 
 $$
+
 37{\color{blue}{4}}.6
+
 $$
 
 We then look one digit to the right and compare it to the number $5\mathbin{:}$
 
 $$
+
 37{\color{blue}{4}}.\!{\color{red}{6}}
+
 $$
 
 Since $\color{red}6$ is *greater than (or equal to)* $5$, we must **round up**. To do this, we follow two steps:
@@ -33,7 +37,9 @@ Since $\color{red}6$ is *greater than (or equal to)* $5$, we must **round up**. 
 - Then, we increase the value of the last digit by one:
 
 $$
+
 374 \rightarrow 375
+
 $$
 
 Therefore, $374.6$ rounded to the nearest whole number is $375.$
@@ -51,13 +57,17 @@ Rounding a decimal to the nearest whole number means finding the closest whole n
 We start by locating the digit in the ones place:
 
 $$
+
 43{\color{blue}{7}}.67
+
 $$
 
 We then look one digit to the right and compare it to the number $5\mathbin{:}$
 
 $$
+
 43{\color{blue}{7}}.\!{\color{red}{6}}7
+
 $$
 
 Since $\color{red}6$ is ** $5$, we must round up. To do this, we follow two steps:
@@ -79,13 +89,17 @@ What is $14.65$ rounded to the nearest tenth?
 We start by locating the digit in the tenths place:
 
 $$
+
 14.{\color{blue}{6}}5
+
 $$
 
 We then look one digit to the right and compare it to the number $5\mathbin{:}$
 
 $$
+
 14.{\color{blue}{6}}{\color{red}{5}}
+
 $$
 
 Since $\color{red}5$ is ** $5,$ we round up. To do this, we follow two steps:
@@ -105,13 +119,17 @@ The answer is to replace $9$ with the $0$ and increase the *next* digit by one.
 To illustrate, let's round $62.96$ to the nearest tenth. We start by locating the digit in the tenths place:
 
 $$
+
 62.{\color{blue}{9}}6
+
 $$
 
 We then look one digit to the right and compare it to the number $5\mathbin{:}$
 
 $$
+
 62.{\color{blue}{9}}{\color{red}{6}}
+
 $$
 
 Since $\color{red}6$ is *greater than (or equal to)* $5$, we round up. To do this, we follow two steps:
@@ -133,13 +151,17 @@ What is $51.298$ rounded to the nearest hundredth?
 We start by locating the digit in the hundredths place:
 
 $$
+
 51.2{\color{blue}{9}}8
+
 $$
 
 We then look one digit to the right and compare it to the number $5\mathbin{:}$
 
 $$
+
 51.2{\color{blue}{9}}{\color{red}{8}}
+
 $$
 
 Since $\color{red}8$ is **, we round up. To do this, we follow two steps:
@@ -149,7 +171,9 @@ Since $\color{red}8$ is **, we round up. To do this, we follow two steps:
 - Then, because the last digit is a $9,$ we turn it into a $0$ and increase the ** digit by one:
 
 $$
+
 51.29 \rightarrow 51.30
+
 $$
 
 Therefore, $51.298$ rounded to the nearest hundredth is $51.30.$
@@ -161,7 +185,9 @@ Some decimals have digits that continue forever.
 For example, the number $e,$ known as **Euler's number,** is a very important number in mathematics. Its digits continue forever, which we denote using $\ldots$ as follows:
 
 $$
+
 e = 2.718\,\ldots\,.
+
 $$
 
 Let's round this number to the nearest hundredth.
@@ -169,13 +195,17 @@ Let's round this number to the nearest hundredth.
 First, we locate the digit in the hundredths place:
 
 $$
+
 2.7{\color{blue}{1}}8 \ldots
+
 $$
 
 We then look one digit to the right and compare it to the number $5\mathbin{:}$
 
 $$
+
 2.7{\color{blue}{1}}{\color{red}{8}} \ldots
+
 $$
 
 Since $\color{red}8$ is *greater than (or equal to)* $5$, we round up. To do this, we follow two steps:
@@ -197,13 +227,17 @@ What is $36.87 \ldots$ rounded to the nearest tenth?
 First, we locate the digit in the tenths place:
 
 $$
+
 36.{\color{blue}{8}}7 \ldots
+
 $$
 
 We then look one digit to the right and compare it to the number $5\mathbin{:}$
 
 $$
+
 36.{\color{blue}{8}}{\color{red}{7}} \ldots
+
 $$
 
 Since $\color{red}7$ is ** $5$, we round up. To do this, we follow two steps:

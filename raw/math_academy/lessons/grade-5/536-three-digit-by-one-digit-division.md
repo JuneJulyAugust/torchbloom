@@ -53,7 +53,9 @@ We've gone through all the digits in the number $463,$ so the division is done. 
 Therefore,
 
 $$
+
 463 \div 4 = 115\,\text{R}\,3.
+
 $$
 
 The missing digits are $1,6$ and $3.$
@@ -79,7 +81,9 @@ We've gone through all the digits in the number $847,$ so the division is done. 
 Therefore,
 
 $$
+
 847 \div 6 = 141\,\text{R}\,1.
+
 $$
 
 ### Dividing When the Hundreds Digit Is Less Than the Divisor
@@ -97,7 +101,9 @@ We've gone through all the digits in the number $305,$ so the division is done. 
 Therefore,
 
 $$
+
 305 \div 5 = 61.
+
 $$
 
 ### Example: Dividing When the Hundreds Digit Is Less Than the Divisor
@@ -107,7 +113,9 @@ $$
 Find the **** in the following long division problem:
 
 $$
+
 379 \div 6 = \boxed{\phantom{0}}
+
 $$
 
 #### Explanation
@@ -121,7 +129,9 @@ We've gone through all the digits in the number $379,$ so the division is done. 
 Therefore,
 
 $$
+
 379 \div 6 = 63\,\text{R}\,1.
+
 $$
 
 So, the quotient is $63.$
@@ -145,7 +155,9 @@ We've gone through all the digits in the number $408,$ so the division is done. 
 Therefore,
 
 $$
+
 408 \div 4 = 102.
+
 $$
 
 ### Example: Cases Where We Bring Down More Than One Digit at a Time
@@ -171,5 +183,7 @@ We've gone through all the digits in the number $608,$ so the division is done. 
 Therefore,
 
 $$
+
 608 \div 3 = 202\,\text{R}\,2.
+
 $$

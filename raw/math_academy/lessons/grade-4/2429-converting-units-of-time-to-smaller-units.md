@@ -43,13 +43,17 @@ We need to convert $9$ weeks into days.
 We start with the unit conversion between weeks and days:
 
 $$
+
 1 \,\textrm{week} = 7 \,\textrm{days}
+
 $$
 
 We want to figure out how many days are in $9$ weeks. So, we multiply both sides of the above equation by $9{:}$
 
 $$
+
 \begin{aligned}9×1\,week & =9×7\,days \\ 9\,weeks & =63\,days\end{aligned}
+
 $$
 
 Therefore, $9$ weeks equals $63$ days.
@@ -67,13 +71,17 @@ $9$ days is equal to how many hours?
 We start with the unit conversion between days and hours:
 
 $$
+
 1 \, \textrm{day} = 24 \, \textrm{hours}
+
 $$
 
 We want to figure out how many hours are in $9$ days. So, we multiply both sides of the above equation by $9{:}$
 
 $$
+
 \begin{aligned}9×1\,day & =9×24\,hours \\ 9\,days & =9×24\,hours\end{aligned}
+
 $$
 
 We can find the value of $9\times 24$ using an area model:
@@ -83,7 +91,9 @@ We can find the value of $9\times 24$ using an area model:
 According to our model,
 
 $$
+
 9\times 24 = 180+36 = 216.
+
 $$
 
 Therefore, $9$ days equals $216$ hours.
@@ -101,13 +111,17 @@ We need to convert $7$ hours into minutes.
 We start with the unit conversion between hours and minutes:
 
 $$
+
 1 \, \textrm{hour} = 60 \, \textrm{minutes}
+
 $$
 
 We want to figure out how many minutes are in $7$ hours. So, we multiply both sides of the above equation by $7{:}$
 
 $$
+
 \begin{aligned}7×1\,hour & =7×60\,minutes \\ 7\,hours & =420\,minutes\end{aligned}
+
 $$
 
 Therefore, $7$ hours equals $420$ minutes.
@@ -125,13 +139,17 @@ Express $9 \, \textrm{min}$ in seconds.
 We start with the unit conversion between minutes and seconds:
 
 $$
+
 1 \, \textrm{min} = 60 \, \textrm{s}
+
 $$
 
 We want to figure out how many seconds are in $9$ minutes. So, we multiply both sides of the above equation by $9{:}$
 
 $$
+
 \begin{aligned}9×1\,min & =9×60\,s \\ 9\,min & =540\,s\end{aligned}
+
 $$
 
 Therefore, $9 \, \textrm{min}$ is equal to $540 \, \textrm{s}.$

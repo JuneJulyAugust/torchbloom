@@ -19,7 +19,9 @@ We *cannot* compare decimals by looking at the number of digits! However, we *ca
 For example, let's use number lines to determine which of the following numbers is larger:
 
 $$
+
 1.4 \qquad\textrm{or}\qquad 1.35
+
 $$
 
 We start by drawing these decimals on a number line.
@@ -31,7 +33,9 @@ Given two numbers on a number line, the number furthest to the *right* is the la
 From the diagram, we see that $1.4$ is further to the right than $1.35.$ So, $1.4$ is *larger than* $1.35.$ We can write this as a comparison statement as follows:
 
 $$
+
 1.4 > 1.35
+
 $$
 
 ### Example: Comparing Decimals Given a Number Line
@@ -43,7 +47,9 @@ $$
 Given the number line above, which symbols could replace the empty box below to make a true statement?
 
 $$
+
 00
+
 $$
 
 1. $=$
@@ -59,7 +65,9 @@ Given two numbers on a number line, the number furthest to the right is the larg
 From the diagram, we see that $5.43$ is ** $5.5,$ which means that the correct statement is the following:
 
 $$
+
 5.43 < 5.5
+
 $$
 
 So, the correct answer is "II only."
@@ -69,7 +77,9 @@ So, the correct answer is "II only."
 #### Question
 
 $$
+
 00
+
 $$
 
 Which symbols could replace the empty box above to make a true statement?
@@ -91,7 +101,9 @@ First, let's plot $8.2$ and $8.9$ on the number line.
 From the diagram, we see that $8.2$ is ** $8.9,$ which means that the correct statement is the following:
 
 $$
+
 8.2 < 8.9
+
 $$
 
 So, the correct answer is "I only."
@@ -103,7 +115,9 @@ So, the correct answer is "I only."
 Which symbols could replace the empty box below to make a true statement?
 
 $$
+
 00
+
 $$
 
 1. $=$
@@ -123,7 +137,9 @@ First, let's plot $1.7$ and $1.68$ on a number line.
 From the diagram, we see that $1.7$ is ** $1.68,$ which means that the correct statement is the following:
 
 $$
+
 1.7 > 1.68
+
 $$
 
 So, the correct answer is "II only."

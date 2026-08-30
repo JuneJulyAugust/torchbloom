@@ -20,7 +20,9 @@ This strategy is called **partial quotients,** and the box model helps us visual
 Let's consider the following division problem:
 
 $$
+
 36 \div 2
+
 $$
 
 The box model for this division problem looks as follows:
@@ -42,13 +44,17 @@ We get $\fbox{0}$, so the division is done.
 **Step 4**: To find the quotient of $36 \div 2,$ we add the numbers at the very top:
 
 $$
+
 10+8=18
+
 $$
 
 Therefore,
 
 $$
+
 36 \div 2 = 18.
+
 $$
 
 ### Example: Divide Two-Digit Numbers by One-Digit Numbers With Scaffolding
@@ -72,13 +78,17 @@ We're left with $\fbox{0},$ so the division is done.
 ****: The quotient is the sum of the numbers on top of the boxes:
 
 $$
+
 10+7=17
+
 $$
 
 Therefore,
 
 $$
+
 51 \div 3 = 17.
+
 $$
 
 ### Example: Divide Two-Digit Numbers by One-Digit Numbers
@@ -102,11 +112,15 @@ We get $\fbox{0}$, so the division is done.
 ****: The quotient is the sum of the numbers on top of the boxes:
 
 $$
+
 10+3=13
+
 $$
 
 Therefore,
 
 $$
+
 91 \div 7 = 13.
+
 $$

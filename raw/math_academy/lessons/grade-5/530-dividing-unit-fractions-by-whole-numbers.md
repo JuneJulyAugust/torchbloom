@@ -17,7 +17,9 @@ To divide a unit fraction by a whole number, we multiply the fraction's denomina
 For example, to calculate $\dfrac{1}{5} \div {\color{blue}2},$ we multiply the fraction's denominator by ${\color{blue}2}\!:$
 
 $$
+
 \dfrac{1}{5} \div {\color{blue}2} = \dfrac{1}{5 \times {\color{blue}2}} = \dfrac{1}{10}
+
 $$
 
 Notice that we get the same answer using a fraction model, and the process is similar.
@@ -35,7 +37,9 @@ What is the value of $\dfrac{1}{4} \div 3?$
 To divide a unit fraction by a whole number, we multiply the fraction's denominator by that whole number:
 
 $$
+
 \dfrac{1}{4} \div 3 = \dfrac{1}{4 \times 3} = \dfrac{1}{12}
+
 $$
 
 ### Example: Dividing a Unit Fraction With a Two-Digit Denominator
@@ -49,7 +53,9 @@ What is the value of $\dfrac{1}{16} \div 5?$
 To divide a unit fraction by a whole number, we multiply the fraction's denominator by that whole number:
 
 $$
+
 \dfrac{1}{16} \div 5 = \dfrac{1}{16 \times 5} = \dfrac{1}{80}
+
 $$
 
 ### Example: Word Problems
@@ -63,13 +69,17 @@ Joshua uses $\dfrac{1}{2} \, \textrm{kg}$ of ham to make $4$ pizzas. If the ham 
 To determine the amount of ham on each pizza, we must divide the amount of ham by the number of pizzas:
 
 $$
+
 \dfrac{1}{2} \div 4
+
 $$
 
 To divide a unit fraction by a whole number, we multiply the fraction's denominator by that whole number:
 
 $$
+
 \dfrac{1}{2} \div 4 = \dfrac{1}{2 \times 4} = \dfrac{1}{8}
+
 $$
 
 Therefore, Joshua puts $\dfrac{1}{8} \, \textrm{kg}$ of ham on each pizza.

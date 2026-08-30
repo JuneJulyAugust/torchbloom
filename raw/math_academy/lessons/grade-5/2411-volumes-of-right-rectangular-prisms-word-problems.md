@@ -31,13 +31,17 @@ We can describe each block as a rectangular prism:
 So, the volume of each block is
 
 $$
+
 \begin{aligned}𝑉 & =length×width×height \\ & =3×4×2 \\ & =24\,cm^{3}.\end{aligned}
+
 $$
 
 Since Timmy has $12$ blocks, the total volume of all blocks combined is
 
 $$
+
 12 \times 24 = 288 \, \text{cm}^3.
+
 $$
 
 ### Example: Solving Problems Using Volumes of Rectangular Prisms
@@ -51,7 +55,9 @@ A statue is mounted on a pedestal consisting of a concrete block. It is $3.5$ fe
 The volume of our pedestal is
 
 $$
+
 \begin{aligned}𝑉 & =length×width×height=3.5×3×2=21\,ft^{3}.\end{aligned}
+
 $$
 
 ![Instructional graphic](../../lesson-assets/grade-5/topic-2411/0a9f569ac3941f8b.png)
@@ -59,7 +65,9 @@ $$
 Since each cubic foot of concrete requires $40$ pounds of gravel, we get
 
 $$
+
 40 \times 21 = 840.
+
 $$
 
 Therefore, $840$ pounds of gravel were used to make the pedestal.
@@ -75,7 +83,9 @@ Denise sends a package to her father. The total volume of the package is $75$ cu
 First, recall that the volume of a rectangular package can be calculated as
 
 $$
+
 V = \text{length} \times \text{width} \times \text{height},
+
 $$
 
 and we are told that this volume is equal to $75 \, \text{in}^3.$
@@ -85,17 +95,23 @@ and we are told that this volume is equal to $75 \, \text{in}^3.$
 Therefore, we have:
 
 $$
+
 \,0\,
+
 $$
 
 So, since $6 \times 2.5 = 15$, we obtain:
 
 $$
-\begin{aligned}75 & =[math]\,\phantom{0}\,[/math]×\underset{15}{\underset{}{6×2.5}} \\ 75 & =[math]\,\phantom{0}\,[/math]×15\end{aligned}
+
+\begin{aligned}75 & =\,\phantom{0}\,×\underset{15}{\underset{}{6×2.5}} \\ 75 & =\,\phantom{0}\,×15\end{aligned}
+
 $$
 
 Therefore, using the relationship between multiplication and division, we obtain that the length of the package must be
 
 $$
+
 \,0\,
+
 $$

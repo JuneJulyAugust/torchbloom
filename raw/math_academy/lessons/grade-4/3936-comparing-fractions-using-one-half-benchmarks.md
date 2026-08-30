@@ -17,7 +17,9 @@ A fraction is equivalent to $\dfrac12$ if its numerator is one-half of its denom
 For example, the following fractions are all equivalent to $\dfrac12\mathbin{:}$
 
 $$
+
 \dfrac{\color{red}2}{\color{blue}4}, \qquad \dfrac{\color{red}3}{\color{blue}6}, \qquad \dfrac{\color{red}9}{\color{blue}18}
+
 $$
 
 These fractions are equivalent to $\dfrac12$ because when we divide the denominator by $2,$ we get the numerator:
@@ -49,7 +51,9 @@ A fraction is equivalent to $\dfrac12$ if its numerator is one-half of its denom
 From the given options, the only fraction where the numerator is **** one-half of its denominator is $\dfrac{\color{red}6}{\color{blue}8}.$ Notice that
 
 $$
+
 {\color{blue}8} \div 2 = 4 \neq {\color{red}6}.
+
 $$
 
 The symbol $\neq$ means "is not equal to."
@@ -65,7 +69,9 @@ Notice that the shaded areas are ** the same. Therefore, the fractions are ** eq
 Let's consider the following fraction:
 
 $$
+
 \dfrac{\color{red}{2}}{\color{blue}{8}}
+
 $$
 
 Is this fraction *greater than* or *less than* $\dfrac12?$
@@ -81,13 +87,17 @@ To answer this question, we notice the following:
 So, the numerator is *less than* one-half of the denominator:
 
 $$
+
 {\color{red}{2}} < {\color{purple}{4}}
+
 $$
 
 Therefore, we conclude that
 
 $$
+
 \dfrac{\color{red}{2}}{\color{blue}{8}} < \dfrac12.
+
 $$
 
 We can also represent this comparison using a fraction model:
@@ -111,7 +121,9 @@ After some practice, you'll be able to spot whether a fraction is greater than o
 #### Question
 
 $$
+
 \dfrac{3}{4}\,\square \,\dfrac 1 2
+
 $$
 
 Determine which of the following symbols could replace the empty box above to make the statement true.
@@ -141,13 +153,17 @@ We wish to compare $\dfrac{\color{red}{3}}{\color{blue}{4}}$ to $\dfrac12.$ In t
 So, the numerator is ** one-half of the denominator:
 
 $$
+
 {\color{red}{3}} > {\color{purple}{2}}
+
 $$
 
 Therefore, we conclude that
 
 $$
+
 \dfrac{\color{red}{3}}{\color{blue}{4}} > \dfrac12.
+
 $$
 
 We can also represent this comparison using a fraction model:
@@ -163,7 +179,9 @@ One way to compare fractions with no common numerators or denominators is to com
 As an example, let's fill in the empty box in the comparison statement below:
 
 $$
+
 00
+
 $$
 
 Now, we note the following:
@@ -177,7 +195,9 @@ Now, we note the following:
 Therefore, the correct statement is the following:
 
 $$
+
 \dfrac{3}{8} < \dfrac{5}{6}
+
 $$
 
 We can verify this result using a fraction model:
@@ -191,7 +211,9 @@ Determining whether a fraction is greater than or less than $\dfrac{1}{2},$ or w
 #### Question
 
 $$
+
 \dfrac{2}{3} \,\square \,\dfrac{4}{9}
+
 $$
 
 Using a benchmark of $\dfrac12,$ determine which of the following symbols could replace the empty box above to make the statement true.
@@ -217,7 +239,9 @@ Let's compare each fraction to $\dfrac12\mathbin{:}$
 Since $\dfrac{2}{3}$ is ** $\dfrac12,$ but $\dfrac{4}{9}$ is ** $\dfrac12,$ this means that $\dfrac{2}{3}$ is ** $\dfrac{4}{9}\mathbin{:}$
 
 $$
+
 \dfrac{2}{3} > \dfrac{4}{9}
+
 $$
 
 So, the correct answer is "I only."

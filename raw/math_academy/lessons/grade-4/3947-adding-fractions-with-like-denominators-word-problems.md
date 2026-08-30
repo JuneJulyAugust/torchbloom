@@ -18,13 +18,17 @@ For example, suppose a cable is cut into two pieces. One piece is of length $\df
 To find the original length of the cable, we need to calculate the sum
 
 $$
+
 \dfrac{2}{7} + \dfrac{4}{7}.
+
 $$
 
 To add two fractions with like denominators, we add the numerators and keep the denominators the same. So,
 
 $$
+
 \dfrac{2}{7} + \dfrac{4}{7}= \dfrac{2+4}{7} = \dfrac{6}{7}.
+
 $$
 
 Therefore, the original length of the cable was $\dfrac{6}{7}\,\textrm{m}.$
@@ -42,7 +46,9 @@ To find the combined size of the files, we need to calculate the sum $\dfrac{7}{
 To add two fractions with like denominators, we add the numerators and keep the denominators the same. So,
 
 $$
+
 \dfrac{7}{5} + \dfrac{2}{5} = \dfrac{7+2}{5} = \dfrac{9}{5}.
+
 $$
 
 Therefore, the combined size of the files is $\dfrac{9}{5}\,\textrm{MB}.$
@@ -60,13 +66,17 @@ To find how many yards of fabric Claire used in total, we need to calculate the 
 To add two fractions with like denominators, we add the numerators and keep the denominators the same. So,
 
 $$
+
 \dfrac{1}{10} + \dfrac{3}{10}= \dfrac{1+3}{10} = \dfrac{4}{10}.
+
 $$
 
 We can simplify this fraction by dividing the numerator and the denominator by $2{:}$
 
 $$
+
 \dfrac{4}{10} = \dfrac{4 \div 2}{10 \div 2} = \dfrac{2}{5}
+
 $$
 
 Therefore, Claire used $\dfrac{2}{5}\, \mathrm{yd}$ of fabric.
@@ -84,13 +94,17 @@ To find the weight of the contents of Emily's backpack, we need to calculate the
 To add two fractions with like denominators, we add the numerators and keep the denominators the same. So,
 
 $$
+
 \dfrac{74}{8} + \dfrac{25}{8} = \dfrac{74+25}{8} = \dfrac{99}{8}.
+
 $$
 
 We then convert $\dfrac{99}{8}$ to a mixed number:
 
 $$
+
 99 \div 8 = 12\,\textrm{R}3 = 12\,\dfrac38
+
 $$
 
 Therefore, the contents Emily's backpack weigh $12\,\dfrac{3}{8}\,\textrm{lb}.$

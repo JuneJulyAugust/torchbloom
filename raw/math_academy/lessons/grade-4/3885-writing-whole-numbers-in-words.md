@@ -98,14 +98,16 @@ Therefore, the number written in words is **.
 Suppose we want to write $8,236$ in words. Let's start by splitting the number into its so-called **periods** (parts of the number separated by commas):
 
 $$
-\bbox[2pt,Gainsboro]{8},\bbox[2pt,Gainsboro]{236}
+
+\boxed{8},\boxed{236}
+
 $$
 
 To express a four-digit number in words, we consider each period from left to right:
 
-- $\bbox[2pt,Gainsboro]{8}$ has $8$ ones only, and this digit is in the thousands place. So, we write "eight" followed by "thousand,": $\qquad$ "*eight thousand,*"
+- $\boxed{8}$ has $8$ ones only, and this digit is in the thousands place. So, we write "eight" followed by "thousand,": $\qquad$ "*eight thousand,*"
 
-- $\bbox[2pt,Gainsboro]{236}$ has $2$ hundreds, $3$ tens, and $6$ ones. So, we add "two hundred thirty-six": $\qquad$ "*eight thousand, two hundred thirty-six*"
+- $\boxed{236}$ has $2$ hundreds, $3$ tens, and $6$ ones. So, we add "two hundred thirty-six": $\qquad$ "*eight thousand, two hundred thirty-six*"
 
 Therefore, the number $8,236$ written in words is *eight thousand, two hundred thirty-six*.
 
@@ -124,14 +126,16 @@ Notice that the highest-value digit is in the ten-thousands place.
 Let's start by splitting the number into its periods:
 
 $$
-\bbox[2pt,Gainsboro]{32},\bbox[2pt,Gainsboro]{042}
+
+\boxed{32},\boxed{042}
+
 $$
 
 Let's now look at each period:
 
-- $\bbox[2pt,Gainsboro]{32}$ has $3$ tens and $2$ ones. So, we write "thirty-two" followed by "thousand,": $\qquad$ "**"
+- $\boxed{32}$ has $3$ tens and $2$ ones. So, we write "thirty-two" followed by "thousand,": $\qquad$ "**"
 
-- $\bbox[2pt,Gainsboro]{042}$ has $0$ hundreds, $4$ tens, and $2$ ones. So, we add "forty-two": $\qquad$ "**"
+- $\boxed{042}$ has $0$ hundreds, $4$ tens, and $2$ ones. So, we add "forty-two": $\qquad$ "**"
 
 Therefore, the number $32,042$ written in words is **.
 
@@ -140,16 +144,18 @@ Therefore, the number $32,042$ written in words is **.
 Let's write the following number in words:
 
 $$
-\bbox[2pt,Gainsboro]{2},\bbox[2pt,Gainsboro]{632},\bbox[2pt,Gainsboro]{125}
+
+\boxed{2},\boxed{632},\boxed{125}
+
 $$
 
 To express a seven-digit number in words, we consider each period from left to right:
 
-- $\bbox[2pt,Gainsboro]{2}$ has $2$ ones only, and this digit is in the millions place. So, we write "two" followed by "million,": $\qquad$ "*two million,*"
+- $\boxed{2}$ has $2$ ones only, and this digit is in the millions place. So, we write "two" followed by "million,": $\qquad$ "*two million,*"
 
-- $\bbox[2pt,Gainsboro]{632}$ has $6$ hundreds, $3$ tens and $2$ ones. So, we add "six hundred thirty-two," followed by "thousand,": $\qquad$ "*two million, six hundred thirty-two thousand,*"
+- $\boxed{632}$ has $6$ hundreds, $3$ tens and $2$ ones. So, we add "six hundred thirty-two," followed by "thousand,": $\qquad$ "*two million, six hundred thirty-two thousand,*"
 
-- $\bbox[2pt,Gainsboro]{125}$ has $1$ hundred, $2$ tens and $5$ ones. So, we add "one hundred twenty-five": $\qquad$ "*two million, six hundred thirty-two thousand, one hundred twenty-five*"
+- $\boxed{125}$ has $1$ hundred, $2$ tens and $5$ ones. So, we add "one hundred twenty-five": $\qquad$ "*two million, six hundred thirty-two thousand, one hundred twenty-five*"
 
 Therefore, the number $2,632,125$ written in words is *two million, six hundred thirty-two thousand, one hundred twenty-five*.
 
@@ -168,15 +174,17 @@ Notice that the highest-value digit is in the ten-millions place.
 Let's start by splitting the number into its periods:
 
 $$
-\bbox[2pt,Gainsboro]{15},\bbox[2pt,Gainsboro]{081},\bbox[2pt,Gainsboro]{012}
+
+\boxed{15},\boxed{081},\boxed{012}
+
 $$
 
 Let's now look at each period:
 
-- $\bbox[2pt,Gainsboro]{15}$ has $1$ ten and $5$ ones. So, we write "fifteen," followed by "million,": $\qquad$ "**"
+- $\boxed{15}$ has $1$ ten and $5$ ones. So, we write "fifteen," followed by "million,": $\qquad$ "**"
 
-- $\bbox[2pt,Gainsboro]{081}$ has $8$ tens and $1$ one. So, we add "eighty-one," followed by "thousand,": $\qquad$ "**"
+- $\boxed{081}$ has $8$ tens and $1$ one. So, we add "eighty-one," followed by "thousand,": $\qquad$ "**"
 
-- $\bbox[2pt,Gainsboro]{012}$ has $1$ ten and $2$ ones. So, we add "twelve": $\qquad$ "**"
+- $\boxed{012}$ has $1$ ten and $2$ ones. So, we add "twelve": $\qquad$ "**"
 
 Therefore, the number $15,081,012$ written in words is **.

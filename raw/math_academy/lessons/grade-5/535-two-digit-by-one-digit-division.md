@@ -28,7 +28,9 @@ We've gone through all the digits in the number $92,$ so the division is done. T
 Therefore,
 
 $$
+
 92 \div 4 = 23.
+
 $$
 
 ### Example: Dividing With No Remainder when Both Digits Divide Evenly
@@ -50,7 +52,9 @@ We've gone through all the digits in the number $86,$ so the division is done.
 Therefore,
 
 $$
+
 86 \div 2 = 43.
+
 $$
 
 ### Example: Dividing With No Remainder
@@ -74,7 +78,9 @@ We've gone through all the digits in the number $85,$ so the division is done.
 Therefore,
 
 $$
+
 85 \div 5 = 17.
+
 $$
 
 This means that each piece of rope is $17$ inches long.
@@ -94,7 +100,9 @@ We've gone through all the digits in the number $95,$ so the division is done. H
 Therefore,
 
 $$
+
 95 \div 8 = {\color{red}11}\,\text{R}\,{\color{blue}7}.
+
 $$
 
 Here, $\color{red}11$ is called the **quotient**.
@@ -118,7 +126,9 @@ We've gone through all the digits in the number $85,$ so the division is done. H
 Therefore,
 
 $$
+
 85 \div 7 = 12\,\text{R}\,1.
+
 $$
 
 The missing digits are $1$, $7$ and $1$:
@@ -142,5 +152,7 @@ We've gone through all the digits in the number $89,$ so the division is done. H
 Therefore,
 
 $$
+
 89 \div 6 = 14\,\text{R}\,5.
+
 $$

@@ -31,7 +31,9 @@ Therefore, to multiply a fraction by a whole number, we follow the following ste
 Using these steps, we can figure out the answer without using models:
 
 $$
+
 \dfrac{\color{blue}2}{9}{\color{red}\,\times 3\,} = \dfrac{{\color{blue}{2}}{\color{red}\,\times 3\,}}{9} = \dfrac{6}{9}
+
 $$
 
 ### Example: Multiplying a Fraction by a Whole Number
@@ -45,7 +47,9 @@ Find the value of $5\times \dfrac{1}{12}.$
 To multiply a fraction by a whole number, we multiply the fraction's numerator by the whole number and keep the denominator the same:
 
 $$
+
 5\times \dfrac{1}{12}= \dfrac{5\times 1}{12} = \dfrac{5}{12}
+
 $$
 
 ### Example: Multiplying a Fraction by a Whole Number Resulting in a Whole Number
@@ -59,13 +63,17 @@ Multiply $\dfrac{2}{3}\times 3.$
 To multiply a fraction by a whole number, we multiply the fraction's numerator by the whole number and keep the denominator the same:
 
 $$
+
 \dfrac{2\times 3}{3} = \dfrac{6}{3}
+
 $$
 
 Finally, we simplify this fraction by interpreting $\dfrac 6 3$ as a division:
 
 $$
+
 6\div 3 =2
+
 $$
 
 ### Example: Multiplying a Fraction by a Whole Number With Simplification
@@ -79,13 +87,17 @@ Multiply $\dfrac{1}{6}\times 4.$
 To multiply a fraction by a whole number, we multiply the fraction's numerator by the whole number and keep the denominator the same:
 
 $$
+
 \dfrac{1\times 4}{6} = \dfrac{4}{6}
+
 $$
 
 To simplify this fraction, we can divide the numerator and denominator by $2\mathbin{:}$
 
 $$
+
 \dfrac{4\div 2}{6\div 2} = \dfrac{2}{3}
+
 $$
 
 ### Example: Multiplying a Fraction by a Whole Number Resulting in a Mixed Number
@@ -99,11 +111,15 @@ Find the value $9\times\dfrac 3 {4}$ as a mixed number.
 To multiply a fraction by a whole number, we multiply the fraction's numerator by the whole number and keep the denominator the same:
 
 $$
+
 9\times \dfrac{3}{4} = \dfrac{9\times 3}{4} = \dfrac{27}{4}
+
 $$
 
 We now convert this to a mixed number:
 
 $$
+
 27\div 4 = 6\,\textrm{R} 3 = 6\,\dfrac{3}{4}
+
 $$

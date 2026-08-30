@@ -15,7 +15,9 @@ Topic ID: 2373
 We can *estimate* fraction addition and subtraction by rounding each fraction to a **benchmark**. Usually, we use the following benchmarks:
 
 $$
+
 0,\qquad \dfrac{1}{2}, \qquad 1.
+
 $$
 
 When comparing fractions with benchmarks, there are typically three cases:
@@ -45,13 +47,17 @@ We round each fraction to its closest benchmark. Then, we add the benchmarks.
 Next, we add the benchmarks:
 
 $$
+
 {\color{blue}{\dfrac{1}{2}}} + {\color{blue}{0}} = \dfrac{1}{2}
+
 $$
 
 Therefore, we conclude that
 
 $$
+
 \dfrac{7}{13} + \dfrac{1}{9}\approx \dfrac12.
+
 $$
 
 Remember that the symbol $\approx$ means "is approximately equal to."
@@ -73,13 +79,17 @@ We round each fraction to its closest benchmark. Then, we add the benchmarks.
 Next, we add the benchmarks:
 
 $$
+
 {\color{blue}{1}} + {\color{blue}{0}} = 1
+
 $$
 
 Therefore, we conclude that
 
 $$
-\dfrac{7}{8} + \dfrac{1}{15} \approx \bbox[3pt,Gainsboro]{\color{blue}1}.
+
+\dfrac{7}{8} + \dfrac{1}{15} \approx \boxed{\color{blue}1}.
+
 $$
 
 Remember that the symbol $\approx$ means "is approximately equal to."
@@ -101,13 +111,17 @@ We round each fraction to its closest benchmark. Then, we subtract the benchmark
 Next, we subtract the benchmarks:
 
 $$
+
 {\color{blue}{\dfrac12}} - {\color{blue}{\dfrac12}} = 0
+
 $$
 
 Therefore, we conclude that
 
 $$
+
 \dfrac{7}{12} - \dfrac{9}{16} \approx 0.
+
 $$
 
 Remember that the symbol $\approx$ means "is approximately equal to."

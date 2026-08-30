@@ -46,7 +46,9 @@ Therefore, "**"
 What factor is represented by the circle in the following equation?
 
 $$
+
 \bigcirc \times 7=28
+
 $$
 
 #### Explanation
@@ -54,7 +56,9 @@ $$
 We know that
 
 $$
+
 {\color{blue}{4}}\times 7 =28.
+
 $$
 
 Therefore, the missing factor is ${\color{blue}{4}}.$
@@ -66,7 +70,9 @@ Therefore, the missing factor is ${\color{blue}{4}}.$
 What factor is represented by the empty box in the following equation?
 
 $$
+
 𝐴
+
 $$
 
 #### Explanation
@@ -74,13 +80,17 @@ $$
 We know that $2 \times 3 = 6.$ Therefore, our equation can be simplified as
 
 $$
+
 𝐴
+
 $$
 
 Furthermore, we know that
 
 $$
+
 24 = 6 \times {\color{blue}{4}}.
+
 $$
 
 Therefore, the missing factor is ${\color{blue}{4}}.$

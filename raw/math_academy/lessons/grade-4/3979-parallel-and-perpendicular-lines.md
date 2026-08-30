@@ -18,7 +18,9 @@ Two lines are **parallel** if they never meet. So, for example, the lines $r$ an
 If two lines are parallel, we can express this using the $\parallel$ symbol as follows:
 
 $$
+
 r \parallel s
+
 $$
 
 In words, we say, "the line $r$ is parallel to the line $s.$"
@@ -60,7 +62,9 @@ For example, the lines $r$ and $s$ below are perpendicular.
 When two lines are perpendicular, we can express this with the symbol $\perp,$ as follows:
 
 $$
+
 r \perp s
+
 $$
 
 In words, we say, "the line $r$ is perpendicular to the line $s$."
@@ -100,5 +104,7 @@ First, notice that the lines $\overset{\longleftrightarrow}{PQ}$ and $\overset{\
 Therefore, we conclude that the sides $\overline{PQ}$ and $\overline{TS}$ are parallel. We can write this as follows:
 
 $$
+
 \overline{PQ} \parallel \overline{TS}
+
 $$

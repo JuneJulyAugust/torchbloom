@@ -42,7 +42,9 @@ Now, we can deduce the following:
 Calculating the final sum, we get
 
 $$
+
 L = {\color{blue}{40}} + {\color{red}{20}} = 60.
+
 $$
 
 Therefore, the rope was $60\,\textrm{in}$ long before it was cut.
@@ -72,7 +74,9 @@ Let $W$ represent the total weight of the box with the blocks inside. This is th
 Calculating the final sum, we get
 
 $$
+
 W = 336 + 214 = 550.
+
 $$
 
 Therefore, the total weight of the box with the blocks inside is $550\,\textrm{g}.$
@@ -124,7 +128,9 @@ Let $A$ represent the total amount of acid solution left after the experiment. T
 To find the total amount of acid solution left after the experiment, we subtract our two values:
 
 $$
+
 A = {\color{red}{189}} - {\color{blue}{80}} = 109
+
 $$
 
 Therefore, there are $109\,\text{ml}$ of acid solution left after the experiment.

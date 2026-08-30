@@ -43,7 +43,7 @@ Place the following words into the sentence below.
 
 $\qquad\qquad$ (**, **)
 
-$\qquad$ A $\text{___________}$ is a $\text{___________}$ that has exactly $4$ sides.
+$\qquad$ A $\boxed{\phantom{0}}$ is a $\boxed{\phantom{0}}$ that has exactly $4$ sides.
 
 #### Explanation
 

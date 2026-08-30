@@ -43,7 +43,9 @@ How many pounds are in $24$ tons?
 We start with the unit conversion between tons and pounds:
 
 $$
+
 1\, \textrm{ton} =2,000\, \textrm{lb}
+
 $$
 
 Remember that $\textrm{lb}$ is the unit symbol for pounds.
@@ -51,7 +53,9 @@ Remember that $\textrm{lb}$ is the unit symbol for pounds.
 We want to figure out how many pounds are in ${\color{blue}{24}}$ tons. So, we multiply ** sides of the above equation by ${\color{blue}{24}}{:}$
 
 $$
+
 \begin{aligned}24×1\,ton & =24×2,000\,lb \\ 24\,tons & =48,000\,lb\end{aligned}
+
 $$
 
 Therefore, $24$ tons is equal to $48,000\,\textrm{lb}.$
@@ -67,13 +71,17 @@ Luis wants to lose $26\,\textrm{lb}$ in weight over the next twelve months. How 
 We start with the unit conversion between pounds and ounces:
 
 $$
+
 1 \,\textrm{lb}=16 \,\textrm{oz}
+
 $$
 
 We want to figure out how many ounces are in $26$ pounds. So, we multiply both sides of the above equation by $26{:}$
 
 $$
+
 \begin{aligned}26×1\,lb & =26×16\,oz \\ 26\,lb & =26×16\,oz\end{aligned}
+
 $$
 
 We can find the value of $26\times 16$ using an area model:
@@ -83,7 +91,9 @@ We can find the value of $26\times 16$ using an area model:
 According to our model,
 
 $$
+
 26\times 16 = 200+60+120+36 = 416.
+
 $$
 
 Therefore, $26\,\textrm{lb}$ is equivalent to $416\,\textrm{oz}.$
@@ -101,13 +111,17 @@ For example, suppose we want to determine how many grams are in $17$ kilograms.
 We start with the unit conversion between kilograms and grams:
 
 $$
+
 1\, \textrm{kilogram} =1,000\, \textrm{grams}
+
 $$
 
 We want to figure out how many grams are in $17$ kilograms. So, we multiply both sides of the above equation by $17{:}$
 
 $$
+
 \begin{aligned}17×1\,kilogram & =17×1,000\,grams \\ 17\,kilograms & =17,000\,grams\end{aligned}
+
 $$
 
 Therefore, $17$ kilograms equals $17,000$ grams.
@@ -123,13 +137,17 @@ The weight of a watermelon is $8\,\textrm{kg}.$ How much is this in grams?
 We start with the unit conversion between kilograms and grams:
 
 $$
+
 1 \,\textrm{kg}=1,000 \,\textrm{g}
+
 $$
 
 We want to figure out how many grams are in $8$ kilograms. So, we multiply both sides of the above equation by $8{:}$
 
 $$
+
 \begin{aligned}8×1\,kg & =8×1,000\,g \\ 8\,kg & =8,000\,g\end{aligned}
+
 $$
 
 Therefore, the weight of the watermelon is $8,000\,\textrm{g}.$
@@ -147,13 +165,17 @@ We need to convert $40$ grams into milligrams.
 We start with the unit conversion between grams and milligrams:
 
 $$
+
 1\, \textrm{g} =1,000\, \textrm{mg}
+
 $$
 
 We want to figure out how many milligrams are in $40$ grams. So, we multiply both sides of the above equation by $40{:}$
 
 $$
+
 \begin{aligned}40×1\,g & =40×1,000\,mg \\ 40\,g & =40,000\,mg\end{aligned}
+
 $$
 
 Therefore, $40\,\textrm{g}$ equals $40,000\, \textrm{mg}.$

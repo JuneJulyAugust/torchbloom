@@ -30,13 +30,17 @@ For the given rectangle:
 Therefore, this area model shows the following multiplication problem:
 
 $$
+
 3\times \dfrac{1}{12} = \dfrac{1}{4}
+
 $$
 
 Using the relationship between multiplication and division, we can turn this multiplication problem into the following division problem:
 
 $$
+
 \dfrac{1}{12} = \dfrac14\div 3
+
 $$
 
 We can also use area models to interpret the division of a whole number by a fraction. Let's see an example.
@@ -64,13 +68,17 @@ For the given rectangle:
 Therefore, this area model shows the following multiplication problem:
 
 $$
+
 27\times\dfrac 1 {3} = 9
+
 $$
 
 Using the relationship between multiplication and division, we can turn this multiplication problem into the following division problem:
 
 $$
+
 27 = 9\div \dfrac 13
+
 $$
 
 So, the answer is $27.$
@@ -84,7 +92,9 @@ So, the answer is $27.$
 Using the area model above, determine an expression that could be missing from the left-hand side of the equation below.
 
 $$
-\bbox[2pt, border: 1pt solid black]{\phantom{\dfrac{A}{A}\times\dfrac{A}{A}}} = \dfrac{1}{24}
+
+\boxed{\phantom{\dfrac{A}{A}\times\dfrac{A}{A}}} = \dfrac{1}{24}
+
 $$
 
 #### Explanation
@@ -102,13 +112,17 @@ For the given rectangle:
 Therefore, the area model represents the following multiplication problems:
 
 $$
+
 3 \times {\color{blue}\dfrac{1}{24}} = \dfrac{1}{8} \qquad\textrm{or}\qquad {\color{blue}\dfrac{1}{24}} \times 3 = \dfrac{1}{8}
+
 $$
 
 Using the relationship between multiplication and division, we can turn this multiplication problem into a division problem where the quotient equals ${\color{blue}\dfrac{1}{24}}{:}$
 
 $$
-\bbox[5pt, border: 1pt solid black]{\dfrac{1}{8} \div 3} = {\color{blue}\dfrac{1}{24}}
+
+\boxed{\dfrac{1}{8} \div 3} = {\color{blue}\dfrac{1}{24}}
+
 $$
 
 So, the answer is $\dfrac{1}{8} \div 3.$
@@ -124,13 +138,17 @@ Draw an area model that could be used to represent the division problem $\dfrac 
 Our division problem is
 
 $$
+
 \dfrac 1 {8} \div 5 = \dfrac 1{40}.
+
 $$
 
 Using the relationship between multiplication and division, we can turn this division problem into the following multiplication problems:
 
 $$
+
 \dfrac 1{8} = \dfrac 1 {40} \times 5 \qquad\textrm{or}\qquad \dfrac 1{8} = 5 \times \dfrac 1 {40}
+
 $$
 
 To describe these multiplication problems using an area model, we need a rectangle with the following properties:

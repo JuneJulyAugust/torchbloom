@@ -24,7 +24,9 @@ We use **milliseconds** to measure smaller time intervals. The symbol for millis
 Notice that if we add $1\,\textrm{ms}$ to itself $1\,000$ times, we get exactly $1\,\textrm{s}{:}$
 
 $$
+
 \begin{aligned}\overset{\overset{1\,ms+1\,ms+⋯+1\,ms}{}}{1\,000 times} & = \\ \frac{1}{1\,000}\,s+\frac{1}{1\,000}\,s+⋯+\frac{1}{1\,000}\,s & = \\ 1\,000×\frac{1}{1\,000}\,s & = \\ \frac{1\,000×1}{1\,000}\,s & = \\ \frac{1\,000}{1\,000}\,s & = \\ 1\,s & \end{aligned}
+
 $$
 
 Therefore, $1\,000\,\textrm{ms}$ equals $1\,\textrm{s},$ as stated in the diagram.

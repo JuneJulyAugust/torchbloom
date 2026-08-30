@@ -20,7 +20,9 @@ For example, consider patterns A and B, shown in the table below.
 Note that we can multiply each term in pattern A by $2$ to get the corresponding term in pattern B:
 
 $$
+
 \begin{aligned}0×2 & =0 \\ 2×2 & =4 \\ 4×2 & =8 \\ 6×2 & =12 \\ 8×2 & =16\end{aligned}
+
 $$
 
 Therefore, we can state the following:
@@ -42,7 +44,9 @@ What is missing in the following sentence?
 Note that we can divide each term in pattern B by $3$ to get the corresponding term in pattern A:
 
 $$
+
 \begin{aligned}36÷3 & =12 \\ 30÷3 & =10 \\ 24÷3 & =8 \\ 18÷3 & =6 \\ 12÷3 & =4\end{aligned}
+
 $$
 
 Therefore, the correct statement is:
@@ -72,7 +76,9 @@ So we can fill in the table:
 Notice that we can divide each term in pattern B by $6$ to get the corresponding term in pattern A:
 
 $$
+
 \begin{aligned}0÷6 & =0 \\ 18÷6 & =3 \\ 36÷6 & =6 \\ 54÷6 & =9\end{aligned}
+
 $$
 
 Therefore, the correct statement is:
@@ -102,7 +108,9 @@ So we can fill in the table:
 Note that we can multiply each term in pattern A by $3$ to get the corresponding term in pattern B:
 
 $$
+
 \begin{aligned}21×3 & =63 \\ 16×3 & =48 \\ 11×3 & =33 \\ 6×3 & =18\end{aligned}
+
 $$
 
 Therefore, the correct statement is:
@@ -126,7 +134,9 @@ We can make comparison statements without computing any terms in either pattern.
 Pattern A is "add $\color{red}10$" and pattern B is "add ${\color{blue}5}.$" Therefore, pattern A is growing faster, by a factor of
 
 $$
+
 {\color{red}{10}}\div {\color{blue}{5}} = 2 \, .
+
 $$
 
 Consequently, we have two equivalent statements:
@@ -158,7 +168,9 @@ What should be inserted into the blank space to make Stephanie's answer correct?
 Pattern A is "add $\color{red}7$" and pattern B is "add ${\color{blue}21}.$" Therefore, pattern B is growing faster, by a factor of
 
 $$
+
 {\color{blue}{21}}\div {\color{red}{7}} =3 \, .
+
 $$
 
 So the final point should be:

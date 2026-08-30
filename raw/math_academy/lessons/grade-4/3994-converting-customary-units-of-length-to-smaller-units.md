@@ -37,13 +37,17 @@ How many feet are in $14$ yards?
 We start with the unit conversion between yards and feet:
 
 $$
+
 1\, \textrm{yard} =3 \, \textrm{feet}
+
 $$
 
 We want to figure out how many feet are in ${\color{blue}{14}}$ yards. So, we multiply ** sides of the above equation by ${\color{blue}{14}}\mathbin{:}$
 
 $$
+
 \begin{aligned}14×1\,yard=14×3\,feet \\ 14\,yards=14×3\,feet\end{aligned}
+
 $$
 
 We can calculate $14\times 3$ using an area model:
@@ -53,7 +57,9 @@ We can calculate $14\times 3$ using an area model:
 According to our model,
 
 $$
+
 14\times 3 = 30+12 = 42.
+
 $$
 
 Therefore, $14$ yards equals $42$ feet.
@@ -69,13 +75,17 @@ What is $45 \, \textrm{ft}$ expressed in inches?
 We start with the unit conversion between feet and inches:
 
 $$
+
 1 \,\textrm{ft} = 12 \,\textrm{in}
+
 $$
 
 We want to figure out how many inches are in $45$ feet. So, we multiply both sides of the above equation by $45\mathbin{:}$
 
 $$
+
 \begin{aligned}45×1\,ft & =45×12\,in \\ 45\,ft & =45×12\,in\end{aligned}
+
 $$
 
 We can calculate $45 \times 12$ using an area model:
@@ -85,7 +95,9 @@ We can calculate $45 \times 12$ using an area model:
 According to our model,
 
 $$
+
 45 \times 12 = 400+50+80+10=540.
+
 $$
 
 Therefore, $45 \, \textrm{ft}$ equals $540 \, \textrm{in}.$

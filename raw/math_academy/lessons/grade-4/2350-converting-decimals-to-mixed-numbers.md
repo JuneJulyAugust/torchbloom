@@ -21,7 +21,9 @@ Whenever we write a decimal as a mixed number, our mixed number will have
 For example, let's write the following decimal as a mixed number:
 
 $$
+
 {\color{blue}{5.}}{\color{red}{7}}
+
 $$
 
 To express this decimal as a mixed number, we look at its whole number and decimal parts:
@@ -33,7 +35,9 @@ To express this decimal as a mixed number, we look at its whole number and decim
 Therefore, we express our decimal as a mixed number in the following way:
 
 $$
+
 {\color{blue}5}\,\dfrac{\color{red}7}{10}
+
 $$
 
 ### Example: Converting Decimals With One Decimal Place
@@ -59,7 +63,9 @@ With that in mind, let's write ${\color{blue}1}.\!{\color{red}9}$ as a mixed num
 Therefore, we can write the given decimal as the following mixed number:
 
 $$
+
 1.9 = 1\,\dfrac{9}{10}
+
 $$
 
 ### Example: Converting Decimals With Two Decimal Places
@@ -85,7 +91,9 @@ With that in mind, let's write ${\color{blue}2}.\!{\color{red}43}$ as a mixed nu
 Therefore, we can write the given decimal as the following mixed number:
 
 $$
+
 2.43 = 2\,\dfrac{43}{100}
+
 $$
 
 ### Example: Converting Decimals With Three Decimal Places
@@ -111,7 +119,9 @@ With that in mind, let's write ${\color{blue}6}.\!{\color{red}213}$ as a mixed n
 Therefore, we can write the given decimal as the following mixed number:
 
 $$
+
 6.213 = 6 \,\dfrac{213}{1,000}
+
 $$
 
 ### Simplifying Mixed Numbers
@@ -127,7 +137,9 @@ To demonstrate, let's convert ${\color{blue}4}.\!{\color{red}6}$ to a mixed numb
 Therefore, we conclude that
 
 $$
+
 4.6 = 4\,\dfrac{3}{5}.
+
 $$
 
 ### Example: Converting Decimals to Mixed Numbers With Simplification
@@ -153,5 +165,7 @@ With that in mind, let's write ${\color{blue}51}.\!{\color{red}4}$ as a mixed nu
 Therefore, we can write the given decimal as the following mixed number:
 
 $$
+
 51.4 = 51 \, \dfrac{2}{5}
+
 $$

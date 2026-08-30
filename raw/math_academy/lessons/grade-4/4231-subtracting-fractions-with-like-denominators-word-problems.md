@@ -19,13 +19,17 @@ For example, suppose Molly has a can containing $\dfrac{4}{5}$ liters of paint. 
 To determine how much paint remains, we need to calculate the difference
 
 $$
+
 \dfrac{4}{5} - \dfrac{3}{5}.
+
 $$
 
 To subtract two fractions with like denominators, we subtract the numerators and keep the denominators the same. So,
 
 $$
+
 \dfrac{4}{5} - \dfrac{3}{5} = \dfrac{4-3}{5} = \dfrac{1}{5}.
+
 $$
 
 Therefore, $\dfrac{1}{5}$ liters of paint remains.
@@ -43,7 +47,9 @@ To determine the length of the second piece, we need to calculate the difference
 To subtract two fractions with like denominators, we subtract the numerators and keep the denominators the same. So,
 
 $$
+
 \dfrac{9}{6} - \dfrac{4}{6} = \dfrac{9-4}{6} = \dfrac{5}{6}.
+
 $$
 
 Therefore, the second piece is $\dfrac{5}{6} \,\textrm{yd}$ long.
@@ -61,13 +67,17 @@ To determine how much time Kevin has left to walk, we need to calculate the diff
 To subtract two fractions with like denominators, we subtract the numerators and keep the denominators the same. So,
 
 $$
+
 \dfrac{7}{3} - \dfrac{4}{3} = \dfrac{7-4}{3} = \dfrac{3}{3}.
+
 $$
 
 We can simplify this fraction by dividing the numerator and denominator by $3{:}$
 
 $$
+
 \dfrac{3}{3} = \dfrac{3 \div 3}{3 \div 3} = 1
+
 $$
 
 Therefore, Kevin has to walk for $1$ hour to achieve his daily goal.
@@ -85,19 +95,25 @@ To find how much further Ashley jogged, we need to calculate the difference $\df
 To subtract two fractions with like denominators, we subtract the numerators and keep the denominators the same. So,
 
 $$
+
 \dfrac{57}{25} - \dfrac{12}{25} = \dfrac{57-12}{25} = \dfrac{45}{25}.
+
 $$
 
 We can simplify this fraction by dividing the numerator and denominator by $5{:}$
 
 $$
+
 \dfrac{45}{25} = \dfrac{45 \div 5}{25 \div 5} = \dfrac{9}{5}
+
 $$
 
 We then convert $\dfrac{9}{5}$ to a mixed number:
 
 $$
+
 9 \div 5 = 1\,\textrm{R}4 = 1\,\dfrac{4}{5}
+
 $$
 
 Therefore, Ashley jogged $1\,\dfrac{4}{5}$ miles more than Robert.

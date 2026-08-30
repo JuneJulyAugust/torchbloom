@@ -21,7 +21,9 @@ Rounding a number to the nearest whole number is often useful when dividing two 
 To demonstrate, let's round the result of the following division problem to the nearest whole number:
 
 $$
+
 79 \div 6
+
 $$
 
 We start by going through the long division procedure as usual:
@@ -29,7 +31,9 @@ We start by going through the long division procedure as usual:
 So, $79 \div 6 = 13 \, \textrm{R} \, 1.$ Writing this result as a mixed number, we obtain
 
 $$
+
 79 \div 6 = 13 \, {\color{blue}\dfrac{1}{6}}.
+
 $$
 
 We need to round this result *to the nearest whole number*. So, we need to decide whether to round down or round up.
@@ -45,7 +49,9 @@ To decide whether to round down or up, we need to decide which of these two opti
 Now, since
 
 $$
+
 {\color{blue}\dfrac{1}{6}} < {\color{red}\dfrac{1}{2}},
+
 $$
 
 this tells us that $13 \, {\color{blue}\dfrac{1}{6}}$ is *closer* to $13$ than to $14.$
@@ -55,7 +61,9 @@ this tells us that $13 \, {\color{blue}\dfrac{1}{6}}$ is *closer* to $13$ than t
 Therefore, we need to round *down*:
 
 $$
+
 13 \, {\color{blue}\dfrac{1}{6}} \to 13
+
 $$
 
 Therefore, $79 \div 6$ rounded to the nearest whole number is $13.$
@@ -83,13 +91,17 @@ We start by going through the long division procedure as usual:
 So, $83 \div 5 = 16 \, \textrm{R} \, 3.$ Writing this as a mixed number, we obtain
 
 $$
+
 83 \div 5 = 16 \, {\color{blue}\dfrac{3}{5}}.
+
 $$
 
 Finally, since ${\color{blue}\dfrac{3}{5}} > \dfrac{1}{2},$ we need to round up, as follows:
 
 $$
+
 16 \, {\color{blue}\dfrac{3}{5}} \to 17
+
 $$
 
 Therefore, $83 \div 5$ rounded to the nearest whole number is $17.$
@@ -107,13 +119,17 @@ We start by going through the long division procedure as usual:
 So, $679 \div 6 = 113 \, \textrm{R} \, 1.$ Writing this as a mixed number, we obtain
 
 $$
+
 679 \div 6 = 113 \, {\color{blue}\dfrac{1}{6}}.
+
 $$
 
 Finally, since ${\color{blue}\dfrac{1}{6}} < \dfrac{1}{2},$ we need to round down, as follows:
 
 $$
+
 113 \, {\color{blue}\dfrac{1}{6}} \to 113
+
 $$
 
 Therefore, $679 \div 6$ rounded to the nearest whole number is $113.$
@@ -131,13 +147,17 @@ We start by going through the long division procedure as usual:
 So, $4,444 \div 7 = 634 \, \textrm{R} \, 6.$ Writing this as a mixed number, we obtain
 
 $$
+
 4,444 \div 7 = 634\, {\color{blue}\dfrac{6}{7}}.
+
 $$
 
 Finally, since ${\color{blue}\dfrac{6}{7}} > \dfrac{1}{2},$ we need to round up, as follows:
 
 $$
+
 634 \, {\color{blue}\dfrac{6}{7}} \to 635
+
 $$
 
 Therefore, $4,444 \div 7$ rounded to the nearest whole number is $635.$

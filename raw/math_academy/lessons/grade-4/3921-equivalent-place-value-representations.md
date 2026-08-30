@@ -16,7 +16,9 @@ It's sometimes helpful to switch between different place value representations o
 For example, let's consider the following three-digit whole number:
 
 $$
+
 {\color{purple}4}{\color{blue}7}{\color{magenta}2}
+
 $$
 
 The place value chart for this number is shown below:
@@ -26,7 +28,9 @@ So, $472$ represents "$4$ hundreds, $7$ tens and $2$ ones."
 However, $472$ also represents $472$ ones, because
 
 $$
+
 472 = \underbrace{1 + 1 + 1 + \cdots + 1}_{472\,\textrm{times}}.
+
 $$
 
 Therefore, "$4$ hundreds, $7$ tens and $2$ ones" is the same as $472$ ones.
@@ -76,7 +80,9 @@ The equivalence of the two place value charts simply means that a list of $10$ i
 Let's now think about the different place value representations of
 
 $$
+
 {\color{blue}{1}}{\color{magenta}{0}} \, \textrm{tens.}
+
 $$
 
 As it's written, its place-value chart is as follows:
@@ -122,13 +128,17 @@ Let's see an example.
 Since $16 = 10+6,$ we can write $16$ thousands as
 
 $$
+
 10\,\textrm{thousands} + 6\,\textrm{thousands}.
+
 $$
 
 Now, since $10$ thousands is the same as $1$ ten-thousand, the statement above is equal to
 
 $$
+
 1\,\textrm{ten-thousands} + 6\,\textrm{thousands}.
+
 $$
 
 Therefore, "$16$ thousands" is equivalent to "$1$ ten-thousand and $6$ thousands".

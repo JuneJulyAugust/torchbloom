@@ -64,7 +64,9 @@ Now, let's look at the big rectangle:
 Since the area of the big rectangle equals its length multiplied by its width, this model represents the following multiplication problem:
 
 $$
+
 16 \times 4= 64
+
 $$
 
 ### Example: Interpreting an Area Model
@@ -76,7 +78,9 @@ $$
 The area model above can be used to represent the following multiplication problem:
 
 $$
+
 00
+
 $$
 
 What is the missing number?
@@ -94,7 +98,9 @@ Let's look at the big rectangle:
 Hence, this area model can be used to represent the following multiplication problem:
 
 $$
+
 32 \times \fbox{6}= 192
+
 $$
 
 Therefore, the missing number is $6.$
@@ -124,7 +130,9 @@ Now, notice the following regarding the big rectangle:
 Therefore, this area model can be used to represent the following multiplication problem:
 
 $$
+
 29 \times 6 = 174
+
 $$
 
 ### Multiplying One-Digit Numbers by Two-Digit Numbers Using Area Models
@@ -132,7 +140,9 @@ $$
 Let's solve the following multiplication problem using an area model:
 
 $$
+
 {\color{blue}{16}} \times {\color{red}{8}}
+
 $$
 
 The number $16$ in expanded form is ${\color{blue}{16}} = {\color{blue}10}+{\color{blue}6}.$ So, we place ${\color{blue}10}$ and ${\color{blue}6}$ above the left and right rectangles, and ${\color{red}8}$ to the left of the big rectangle.
@@ -154,7 +164,9 @@ Now, notice the following regarding the big rectangle:
 Therefore, this area model can be used to represent the following multiplication problem:
 
 $$
+
 16 \times 8 = 128
+
 $$
 
 ### Example: Multiplying Two-Digit Numbers by One-Digit Numbers
@@ -186,5 +198,7 @@ Now, notice the following regarding the big rectangle:
 Therefore, this area model can be used to represent the following multiplication problem:
 
 $$
+
 53 \times 8 = 424
+
 $$

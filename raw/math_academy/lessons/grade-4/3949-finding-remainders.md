@@ -20,19 +20,25 @@ Let's consider the following division problem model:
 This model represents the division problem
 
 $$
+
 22 \div 5 = {\color{red}{4}} \, \textrm{R} \: {\color{blue}{2}}\,.
+
 $$
 
 We can express this division as a multiplication problem. However, as well as multiplying, we must *add the remainder*:
 
 $$
+
 22 = 5 \times {\color{red}{4}} + {\color{blue}{2}}
+
 $$
 
 We can also swap the order of the multiplication as follows:
 
 $$
+
 22 = {\color{red}{4}} \times 5 + {\color{blue}{2}}
+
 $$
 
 ### Example: Writing Division Problems With Remainders as a Multiplication Problem
@@ -42,7 +48,9 @@ $$
 Consider the following division problem:
 
 $$
+
 14 \div 4 = 3 \, \textrm{R} \: 2
+
 $$
 
 Which of the following problems are equivalent to our division problem?
@@ -58,13 +66,17 @@ Which of the following problems are equivalent to our division problem?
 First, we express our division as a multiplication problem. However, as well as multiplying, we **
 
 $$
+
 14 = 4\times 3 + {\color{blue}{2}}
+
 $$
 
 We can swap the order of the multiplication, as follows:
 
 $$
+
 14 = 3\times 4 + {\color{blue}{2}}
+
 $$
 
 Therefore, the correct answer is "I and III only."
@@ -74,31 +86,41 @@ Therefore, the correct answer is "I and III only."
 How would we find the remainder in the division problem below?
 
 $$
+
 𝐴
+
 $$
 
 First, we express our division as a multiplication problem. However, as well as multiplying, we *add the remainder.*
 
 $$
-27 = 6 \times 4 \,\,+\,\, \bbox[3pt, white, border: 1px solid black]{\color{blue}?}
+
+27 = 6 \times 4 \,\,+\,\, \boxed{\color{blue}?}
+
 $$
 
 Now, since $6 \times 4 = 24,$ the above equation becomes
 
 $$
-27 = 24 \,\, +\,\, \bbox[3pt, white, border: 1px solid black]{\color{blue}?}.
+
+27 = 24 \,\, +\,\, \boxed{\color{blue}?}.
+
 $$
 
 So, the remainder must be ${\color{blue}{3}}.$
 
 $$
-27 = 24 \,+\, \bbox[3pt, white, border: 1px solid black]{\color{blue}3}
+
+27 = 24 \,+\, \boxed{\color{blue}3}
+
 $$
 
 Finally, we can write
 
 $$
-27 \div 6 = 4 \, \textrm{R} \, \bbox[3pt, white, border: 1px solid black]{\color{blue}3}.
+
+27 \div 6 = 4 \, \textrm{R} \, \boxed{\color{blue}3}.
+
 $$
 
 ### Example: Finding a Remainder Given an Equivalent Multiplication Problem
@@ -108,13 +130,17 @@ $$
 Consider the following division problem with an unknown remainder.
 
 $$
-23 \div 5 = 4 \, \textrm{R} \: \bbox[3pt, white, border: 1px solid black]{\color{blue}?}
+
+23 \div 5 = 4 \, \textrm{R} \: \boxed{\color{blue}?}
+
 $$
 
 We can rewrite this division problem as follows:
 
 $$
-23 = 5\times 4 \,\,+\,\, \bbox[3pt, white, border: 1px solid black]{\color{blue}?}
+
+23 = 5\times 4 \,\,+\,\, \boxed{\color{blue}?}
+
 $$
 
 What is the unknown remainder?
@@ -124,19 +150,25 @@ What is the unknown remainder?
 Since $5\times 4 = 20,$ our equation becomes
 
 $$
-23 = 20 \,\,+\,\, \bbox[3pt, white, border: 1px solid black]{\color{blue}?}.
+
+23 = 20 \,\,+\,\, \boxed{\color{blue}?}.
+
 $$
 
 So, the remainder must be ${\color{blue}{3}}.$
 
 $$
-23 = 20 \,\,+\,\, \bbox[3pt, white, border: 1px solid black]{\color{blue}3}
+
+23 = 20 \,\,+\,\, \boxed{\color{blue}3}
+
 $$
 
 Finally, we can write
 
 $$
-23 \div 5 = 4 \, \textrm{R} \, \bbox[3pt, white, border: 1px solid black]{\color{blue}3}.
+
+23 \div 5 = 4 \, \textrm{R} \, \boxed{\color{blue}3}.
+
 $$
 
 ### Example: Finding the Remainder of a Division Problem Given the Quotient
@@ -146,7 +178,9 @@ $$
 Find the remainder in the division problem below.
 
 $$
+
 𝐴
+
 $$
 
 #### Explanation
@@ -154,23 +188,31 @@ $$
 First, we express our division as a multiplication problem. However, as well as multiplying, we **
 
 $$
-35 = 6\times 5 \,\,+\,\, \bbox[3pt, white, border: 1px solid black]{\color{blue}?}
+
+35 = 6\times 5 \,\,+\,\, \boxed{\color{blue}?}
+
 $$
 
 Now, since $6\times 5 = 30,$ the above equation becomes
 
 $$
-35 = 30 \,\,+\,\, \bbox[3pt, white, border: 1px solid black]{\color{blue}?}.
+
+35 = 30 \,\,+\,\, \boxed{\color{blue}?}.
+
 $$
 
 So, the remainder must be ${\color{blue}{5}}.$
 
 $$
-35 = 30 \,\,+\,\, \bbox[3pt, white, border: 1px solid black]{\color{blue}5}
+
+35 = 30 \,\,+\,\, \boxed{\color{blue}5}
+
 $$
 
 Finally, we can write
 
 $$
-35 \div 6 = 5 \, \textrm{R} \, \bbox[3pt, white, border: 1px solid black]{\color{blue}5}.
+
+35 \div 6 = 5 \, \textrm{R} \, \boxed{\color{blue}5}.
+
 $$

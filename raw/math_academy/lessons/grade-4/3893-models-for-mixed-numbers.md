@@ -24,7 +24,9 @@ We can separate this improper fraction into "wholes" and "fractions" like so:
 We see that we have $\color{red}1$ whole and a fraction of $\color{blue}\dfrac 2 5.$ Therefore, this picture represents the mixed number
 
 $$
+
 {\color{red}{1}}\,{\color{blue}{\dfrac 2 5}}\,.
+
 $$
 
 It's important to realize that $\dfrac 7 5$ and $1\,\dfrac 2 5$ represent the *same* number!

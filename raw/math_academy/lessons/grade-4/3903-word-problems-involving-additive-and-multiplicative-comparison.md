@@ -32,13 +32,17 @@ Now, let's write down the important parts of the given information:
 So, Clara's father's age, ${\color{blue}{A}}$, is $4$ times larger than Clara's age, $9.$ This can be represented by the following multiplication problem:
 
 $$
+
 4 \times 9 = {\color{blue}{A}}
+
 $$
 
 Calculating the product, we get
 
 $$
+
 4 \times 9 = {\color{blue}{36}}.
+
 $$
 
 Therefore, ${\color{blue}{A}} = {\color{blue}{36}}.$
@@ -62,7 +66,9 @@ Let's start by writing down the important parts of the given information:
 So, the number of girls, $36$, is $9$ **** than the number of boys, $B.$ This can be represented by the following addition problems:
 
 $$
+
 B+9 = 36 \qquad \text{or} \qquad 9 + B = 36
+
 $$
 
 ### Example: Representing a Multiplicative Comparison as an Equation: Unknown Product
@@ -82,27 +88,31 @@ Let's start by writing down the important parts of the given information:
 So, the total number of flyers, $F$, is $4$ **** than the number of flyers given to each employee, $40.$ This can be represented by the following multiplication problems:
 
 $$
+
 40 \times 4 = F \qquad \text{or} \qquad 4 \times 40 = F
+
 $$
 
 ### Example: Representing a Multiplicative Comparison as an Equation: Unknown Factor
 
 #### Question
 
-Eve and Rosie went shopping. If Eve spent $5$ times as much as Rosie and, in total, she spent $\[math]105,$ what equation could we use to determine how much Rosie spent? Use $R$ to represent the amount of money Rosie spent.
+Eve and Rosie went shopping. If Eve spent $5$ times as much as Rosie and, in total, she spent $105,$ what equation could we use to determine how much Rosie spent? Use $R$ to represent the amount of money Rosie spent.
 
 #### Explanation
 
 Let's start by writing down the important parts of the given information:
 
-- Eve spent $\[math]105.$
+- Eve spent $105.$
 
 - Eve spent $5$ times as much as Rosie.
 
-So, the amount spent by Eve, $\[/math]105,$ is $5$ **** than the amount spent by Rosie, $R.$ This can be represented by the following multiplication problems:
+So, the amount spent by Eve, $105,$ is $5$ **** than the amount spent by Rosie, $R.$ This can be represented by the following multiplication problems:
 
 $$
+
 R \times 5 = 105 \qquad \text{or} \qquad 5 \times R = 105
+
 $$
 
 ### Example: Solving a Word Problem
@@ -122,13 +132,17 @@ Let ${\color{blue}{N}}$ be the number of marbles Ned has. Now, let's list the gi
 So, the number of marbles Hank has, $36$, is $4$ times larger than the number of marbles Ned has, ${\color{blue}{N}}.$ This can be represented by the following multiplication problem:
 
 $$
+
 4 \times {\color{blue}{N}} = 36
+
 $$
 
 Therefore, ${\color{blue}{N}} = 9,$ and we have
 
 $$
+
 4 \times {\color{blue}{9}} = 36.
+
 $$
 
 So, Ned has $9$ marbles.

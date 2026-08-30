@@ -24,7 +24,9 @@ One way to compare the fractions is to put them over a **common denominator.** I
 Notice that $\color{red}6$ is a multiple of ${\color{blue}{3}}.$ In fact,
 
 $$
+
 {\color{red}{6}} = {\color{purple}{2}} \times {\color{blue}{3}}.
+
 $$
 
 So, to make the denominators the same, we split each part of the *left* fraction into ${\color{purple}{2}}$ *equal pieces.*
@@ -36,13 +38,17 @@ The fractions now have the same denominators, so we can compare them by comparin
 Since $2 < 4,$ the correct comparison statement is
 
 $$
+
 \dfrac{2}{\color{red}6} < \dfrac{4}{\color{red}6}.
+
 $$
 
 Therefore, we conclude that
 
 $$
+
 \dfrac13 < \dfrac46.
+
 $$
 
 ### Example: Case When One Denominator Is a Multiple of the Other: Missing Numerator
@@ -54,7 +60,9 @@ $$
 Consider the comparison statement above. By putting both fractions over a denominator of $10,$ this comparison statement becomes
 
 $$
+
 0
+
 $$
 
 What is the missing number?
@@ -64,7 +72,9 @@ What is the missing number?
 The denominators are $2$ and $10,$ and $10$ is a multiple of $2.$ In fact
 
 $$
+
 10 = {\color{purple}{5}}\times 2.
+
 $$
 
 We can put both fractions over a common denominator of $10$ by splitting each of the parts on the left into $\color{purple}5$ equal pieces.
@@ -72,7 +82,9 @@ We can put both fractions over a common denominator of $10$ by splitting each of
 ![Instructional graphic](../../lesson-assets/grade-4/topic-2376/8f3270fe967d9ac9.png)
 
 $$
-\dfrac{\bbox[2pt,Gainsboro]{5}}{10} < \dfrac6{10}.
+
+\dfrac{\boxed{5}}{10} < \dfrac6{10}.
+
 $$
 
 Therefore, the missing number is $5.$
@@ -86,7 +98,9 @@ Therefore, the missing number is $5.$
 Consider the comparison statement above. By putting the fractions over a common denominator, we can rewrite this comparison statement as follows:
 
 $$
+
 0
+
 $$
 
 What is the missing fraction?
@@ -96,7 +110,9 @@ What is the missing fraction?
 The denominators are $2$ and $8,$ and $8$ is a multiple of $2.$ In fact
 
 $$
+
 8 = {\color{purple}{4}}\times 2.
+
 $$
 
 We can put both fractions over a common denominator of $8$ by splitting each of the parts on the left into $\color{purple}4$ equal pieces.
@@ -106,7 +122,9 @@ We can put both fractions over a common denominator of $8$ by splitting each of 
 The fractions now have the same denominator, $8$, and the comparison statement is
 
 $$
-\dfrac{\bbox[2pt,Gainsboro]{4}}{\bbox[2pt,Gainsboro]{8}} > \dfrac{1}{8}.
+
+\dfrac{\boxed{4}}{\boxed{8}} > \dfrac{1}{8}.
+
 $$
 
 Therefore, the missing fraction is $\dfrac48.$
@@ -138,13 +156,17 @@ The fractions now have the same denominator, $6$, so we can compare them by comp
 Since $3 > 2,$ the correct statement is
 
 $$
+
 \dfrac{3}{6} > \dfrac{2}{6}.
+
 $$
 
 Therefore, we conclude that
 
 $$
+
 \dfrac{1}{2} > \dfrac{1}{3}.
+
 $$
 
 ### Example: Case When the LCD Is the Product of the Denominators: Missing Numerator
@@ -156,7 +178,9 @@ $$
 Consider the comparison statement above. By putting both fractions over a denominator of $10,$ this comparison statement becomes
 
 $$
+
 0
+
 $$
 
 What is the missing number?
@@ -176,7 +200,9 @@ We put the right side over a denominator of $10$ by splitting each of its parts 
 The fractions now have the same denominator, $10$, and the comparison statement is
 
 $$
-\dfrac{5}{10} > \dfrac{\bbox[2pt,Gainsboro]{2}}{10}.
+
+\dfrac{5}{10} > \dfrac{\boxed{2}}{10}.
+
 $$
 
 Therefore, the missing number is $2.$
@@ -190,7 +216,9 @@ Therefore, the missing number is $2.$
 Consider the fraction comparison above. By putting the fractions over a common denominator, we can rewrite this comparison statement as follows:
 
 $$
+
 0
+
 $$
 
 What number is missing from ** boxes?
@@ -210,7 +238,9 @@ We put the right side over a denominator of $12$ by splitting each of its parts 
 The fractions now have the same denominator, $12$, and the comparison statement is
 
 $$
-\dfrac{3}{\bbox[2pt,Gainsboro]{12}} \lt \dfrac{4}{\bbox[2pt,Gainsboro]{12}}.
+
+\dfrac{3}{\boxed{12}} \lt \dfrac{4}{\boxed{12}}.
+
 $$
 
 Therefore, the number missing from both boxes is $12.$

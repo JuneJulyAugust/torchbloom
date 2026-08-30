@@ -16,7 +16,9 @@ To multiply a decimal by $10,$ we shift the decimal point one space to the right
 To demonstrate, let's find the value of
 
 $$
+
 0.31 \times 10.
+
 $$
 
 First, we write down our number. We can attach as many trailing zeros as we want to the decimal part.
@@ -34,13 +36,17 @@ This gives the following diagram:
 We ignore the leading zeros in the whole number part and trailing zeros in the decimal part. This gives the following number:
 
 $$
+
 3.1
+
 $$
 
 Therefore:
 
 $$
+
 0.31 \times 10 = 3.1
+
 $$
 
 ### Example: Multiplying a Number by Ten
@@ -64,13 +70,17 @@ This gives the following diagram:
 We ignore the leading zeros in the whole number part and trailing zeros in the decimal part. This gives the following number:
 
 $$
+
 407.0 = 407
+
 $$
 
 Therefore:
 
 $$
+
 40.7 \times 10 =407
+
 $$
 
 ### Multiplying Numbers by Larger Powers of Ten
@@ -80,7 +90,9 @@ To multiply decimals by larger powers of ten, we shift the decimal point $n$ spa
 To illustrate, let's compute the value of
 
 $$
+
 5.723 \times 100.
+
 $$
 
 First, we write down our number. We can attach as many trailing zeros as we want to the decimal part.
@@ -98,13 +110,17 @@ This gives the following diagram:
 We ignore the leading zeros in the whole number part and trailing zeros in the decimal part. This gives the following number:
 
 $$
+
 572.3
+
 $$
 
 Therefore:
 
 $$
+
 5.723 \times 100 = 572.3
+
 $$
 
 ### Example: Multiplying a Number by a Larger Power of Ten
@@ -130,13 +146,17 @@ This gives the following diagram:
 We ignore the leading zeros in the whole number part and trailing zeros in the decimal part. This gives the following number:
 
 $$
+
 69,184.0 =69,184
+
 $$
 
 Therefore:
 
 $$
+
 69.184 \times 1,000 = 69,184
+
 $$
 
 ### Example: Multiplying a Number by a Power of Ten Using Equivalent Decimals
@@ -162,13 +182,17 @@ This gives the following diagram:
 We ignore the leading zeros in the whole number part and trailing zeros in the decimal part. This gives the following number:
 
 $$
+
 65,610.0 = 65,610
+
 $$
 
 Therefore:
 
 $$
+
 65.61 \times 1,000 = 65,610
+
 $$
 
 ### Example: Multiplying a Number by a Larger Power of Ten Using Equivalent Decimals
@@ -194,11 +218,15 @@ This gives the following diagram:
 We ignore the leading zeros in the whole number part and trailing zeros in the decimal part. This gives the following number:
 
 $$
+
 7,004,000.0 = 7,004,000
+
 $$
 
 Therefore:
 
 $$
+
 70.04 \times 100,000 = 7,004,000
+
 $$

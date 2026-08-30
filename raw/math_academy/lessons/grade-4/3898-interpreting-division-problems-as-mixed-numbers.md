@@ -18,7 +18,9 @@ In this lesson, we'll learn how to write the result of a division problem as a m
 For example, let's look at the following division problem:
 
 $$
+
 16 \div 5
+
 $$
 
 To express the answer to this problem as a mixed number, we find the *whole number part* and the *remainder* of the division, following the steps below.
@@ -40,25 +42,33 @@ Therefore, $16 \div 5$ lies between ${\color{blue}3}$ and $4,$ so it has a whole
 $\qquad$ The remainder is
 
 $$
+
 16 - {\color{purple}{15}} ={\color{red}1}.
+
 $$
 
 $\qquad$ Therefore, we can write
 
 $$
+
 16\div 5 = {\color{blue}{3}}\,\textrm{R}\,{\color{red}{1}}.
+
 $$
 
 **Step 3.** Write the remainder as a fraction by dividing it by the original divisor of $5{:}$
 
 $$
+
 \dfrac{\color{red}{1}}{5}
+
 $$
 
 Therefore, we conclude that
 
 $$
+
 16\div 5 = {\color{blue}3}\,\dfrac{\color{red}1}{5}.
+
 $$
 
 ### Example: Placing Whole Number Bounds on a Division Result
@@ -110,23 +120,31 @@ Therefore $16\div 3$ has a whole number part of ${\color{blue}{5}}.$
 We now find the remainder:
 
 $$
+
 16 - {\color{purple}{15}} = \color{red}{1}
+
 $$
 
 Therefore,
 
 $$
+
 16\div 3 = {\color{blue}{5}}\,\textrm{R}{\color{red}{1}}.
+
 $$
 
 Next, we write the remainder as a fraction by dividing it by the original divisor of $3{:}$
 
 $$
+
 \dfrac{\color{red}{1}}{3}
+
 $$
 
 Therefore,
 
 $$
+
 16\div 3 = {\color{blue}{5}}\,\dfrac{\color{red}{1}}{3}.
+
 $$

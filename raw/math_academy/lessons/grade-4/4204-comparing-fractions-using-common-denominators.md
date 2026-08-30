@@ -17,7 +17,9 @@ We saw how to compare fraction models using common denominators in a previous le
 For example, suppose we have the following two fractions:
 
 $$
+
 \dfrac{1}{\color{blue}3} \qquad \dfrac{4}{\color{red}6}
+
 $$
 
 Which of them is larger?
@@ -27,31 +29,41 @@ At the moment, it's difficult to compare them as they don't have a common denomi
 Notice that our denominators are ${\color{blue}3}$ and ${\color{red}{6}},$ and ${\color{red}{6}}$ is a multiple of ${\color{blue}3}.$ In fact,
 
 $$
+
 {\color{red}{6}} = {\color{purple}{2}} \times {\color{blue}3}.
+
 $$
 
 Therefore, we can create a common denominator by multiplying the numerator and denominator of the *first* fraction by ${\color{purple}{2}},$ as follows:
 
 $$
+
 \begin{aligned}\frac{1}{3} & =\frac{1×2}{3×2}=\frac{2}{6}\end{aligned}
+
 $$
 
 So, we now have the following two fractions:
 
 $$
+
 \dfrac{2}{\color{red}6} \qquad \dfrac{4}{\color{red}6}
+
 $$
 
 From here, it's easy to see that the second fraction is larger. So, we have
 
 $$
+
 \dfrac{2}{\color{red}6} < \dfrac{4}{\color{red}6}\,.
+
 $$
 
 Therefore, we conclude that
 
 $$
+
 \dfrac{1}{\color{blue}3} < \dfrac{4}{\color{red}6}.
+
 $$
 
 Let's see another example.
@@ -61,7 +73,9 @@ Let's see another example.
 #### Question
 
 $$
+
 \dfrac{10}{12} \,\square\, \dfrac{3}{4}
+
 $$
 
 Which symbols could replace the empty box above to make the statement true?
@@ -79,25 +93,33 @@ We cannot compare the fractions directly as they don't have a common denominator
 Notice that our denominators are $12$ and $4,$ and $12$ is a multiple of $4.$ In fact,
 
 $$
+
 12 = {\color{purple}{3}}\times 4
+
 $$
 
 Therefore, we can make a common denominator of $12$ by multiplying the numerator and denominator of the second fraction by ${\color{purple}{3}}{:}$
 
 $$
+
 \dfrac{3}{4} = \dfrac{3 \times {\color{purple}{3}}}{4 \times {\color{purple}{3}}} = \dfrac{9}{12}
+
 $$
 
 So, we now have the following:
 
 $$
+
 \dfrac{10}{12} \,\square\, \dfrac{9}{12}
+
 $$
 
 Since $10 > 9,$ the correct statement must be:
 
 $$
+
 \dfrac{10}{12} > \dfrac{9}{12}
+
 $$
 
 So, the correct answer is "III only."
@@ -107,7 +129,9 @@ So, the correct answer is "III only."
 Consider the following fractions:
 
 $$
+
 \dfrac{1}{\color{blue}2} \qquad \dfrac{1}{\color{red}3}
+
 $$
 
 Let's compare these fractions using common denominators.
@@ -117,7 +141,9 @@ Notice that ${\color{red}3}$ is *not* a multiple of ${\color{blue}2}.$ However, 
 In this case, our common denominator will be
 
 $$
+
 {\color{blue}2} \times {\color{red}3} = 6.
+
 $$
 
 - To put $\dfrac12$ over a denominator of $6,$ we multiply the numerator and denominator by ${\color{red}3}{:}$
@@ -127,19 +153,25 @@ $$
 So, we now have the following two fractions:
 
 $$
+
 \dfrac36 \qquad\dfrac26
+
 $$
 
 From here, it's easy to see that the first fraction is larger. So, we have
 
 $$
+
 \dfrac36 > \dfrac26
+
 $$
 
 Therefore, we conclude that
 
 $$
+
 \dfrac12 > \dfrac13.
+
 $$
 
 Let's see another example.
@@ -149,7 +181,9 @@ Let's see another example.
 #### Question
 
 $$
+
 \dfrac{1}{3} \,\square\, \dfrac{2}{4}
+
 $$
 
 Which symbols could replace the empty box above to make the statement true?
@@ -175,7 +209,9 @@ In this case, we can make a common denominator of $3 \times 4 = 12.$
 This gives the following:
 
 $$
+
 \dfrac{4}{12} \,\square\, \dfrac{6}{12}
+
 $$
 
 We can now compare the fractions $\dfrac{4}{12}$ and $\dfrac{6}{12}$ by looking at the numerators only.
@@ -183,7 +219,9 @@ We can now compare the fractions $\dfrac{4}{12}$ and $\dfrac{6}{12}$ by looking 
 Since $4 < 6,$ the correct statement must be
 
 $$
+
 \dfrac{4}{12} < \dfrac{6}{12}.
+
 $$
 
 So, the correct answer is "I only."
@@ -195,7 +233,9 @@ Whenever two denominators have a common factor greater than $1,$ the most effici
 For example, consider the following fractions:
 
 $$
+
 \dfrac{2}{\color{blue}6} \qquad \dfrac{5}{\color{red}9}
+
 $$
 
 Notice that ${\color{blue}6}$ and ${\color{red}9}$ have $3$ as a common factor. This suggests that we can create a common denominator by looking at their least common multiples:
@@ -213,19 +253,25 @@ Therefore, our least common denominator will be ${\color{purple}{18}}.$
 So, we now have the following two fractions:
 
 $$
+
 \dfrac{6}{18} \qquad\dfrac{10}{18}
+
 $$
 
 From here, it's easy to see that the second fraction is larger. So, we have
 
 $$
+
 \dfrac{6}{18}< \dfrac{10}{18}.
+
 $$
 
 Therefore, we conclude that
 
 $$
+
 \dfrac26 < \dfrac59.
+
 $$
 
 Let's see another example.
@@ -235,7 +281,9 @@ Let's see another example.
 #### Question
 
 $$
+
 \dfrac{5}{6} \,\square\, \dfrac{6}{8}
+
 $$
 
 Which symbols could replace the empty box above to make the statement true?
@@ -265,7 +313,9 @@ Therefore, our least common denominator will be ${\color{purple}{24}}.$
 We now have the following:
 
 $$
+
 \dfrac{20}{24} \,\square\, \dfrac{18}{24}
+
 $$
 
 We can now compare the fractions $\dfrac{20}{24}$ and $\dfrac{18}{24}$ by looking at the numerators only.
@@ -273,7 +323,9 @@ We can now compare the fractions $\dfrac{20}{24}$ and $\dfrac{18}{24}$ by lookin
 Since $20 > 18,$ the correct statement must be
 
 $$
+
 \dfrac{20}{24} > \dfrac{18}{24}.
+
 $$
 
 So, the correct answer is "I only."

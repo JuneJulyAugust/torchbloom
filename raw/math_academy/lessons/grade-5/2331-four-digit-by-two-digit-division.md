@@ -28,7 +28,9 @@ We've gone through all the digits, and the remainder is $0,$ so the division is 
 Therefore,
 
 $$
+
 4,564 \div 14 = 326.
+
 $$
 
 ### Example: Computing a Division With No Remainder
@@ -54,7 +56,9 @@ We've gone through all the digits in the number $1,560$, so the division is done
 Therefore,
 
 $$
+
 1,560 \div 15 = 104.
+
 $$
 
 This means that each piece of cable is $104$ inches long.
@@ -80,7 +84,9 @@ We've gone through all the digits in the number $7,368$, so the division is done
 Therefore,
 
 $$
+
 7,368 \div 73 = 100\,\text{R}\,68.
+
 $$
 
 So, the quotient is $100.$
@@ -106,7 +112,9 @@ We've gone through all the digits in the number $3,528$, so the division is done
 Therefore,
 
 $$
+
 3,528 \div 34 = 103\,\text{R}\,26 \, .
+
 $$
 
 So, the remainder is ${\color{black}26}.$
@@ -128,7 +136,9 @@ We've gone through all the digits, so the division is done.
 Therefore,
 
 $$
+
 1,967 \div 28 = 70\,\text{R}\,7 \, .
+
 $$
 
 ### Example: Considering Thousands, Hundreds, and Tens at the First Step
@@ -150,7 +160,9 @@ We've gone through all the digits in the number $3,755$, so the division is done
 So,
 
 $$
+
 3,755 \div 65 = 57\,\text{R}\,50 \, .
+
 $$
 
 Therefore, the quotient is $57.$

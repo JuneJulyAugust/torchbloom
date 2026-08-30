@@ -14,13 +14,17 @@ Topic ID: 528
 Remember that a *unit* fraction is a fraction containing ${\color{blue}{1}}$ in the numerator. So, for example, the fractions
 
 $$
+
 \dfrac{\color{blue}{1}}2, \qquad\dfrac{\color{blue}{1}}{12}
+
 $$
 
 are both unit fractions, whereas
 
 $$
+
 \dfrac{\color{red}{2}}9, \qquad \dfrac{\color{red}{3}}{5}
+
 $$
 
 are *not* unit fractions
@@ -30,7 +34,9 @@ In this lesson, we will use models to divide unit fractions by whole numbers.
 Let's use a fraction model to find the value of
 
 $$
+
 \dfrac{1}{2} \div 2.
+
 $$
 
 We start with a square model of $\dfrac12,$ split *vertically*.
@@ -46,7 +52,9 @@ From the picture on the right, we obtain that the shaded part represents $\dfrac
 Therefore,
 
 $$
+
 \dfrac{1}{2} \div 2 = \dfrac{1}{4}.
+
 $$
 
 ### Example: Identifying the Division Problem Represented by a Model
@@ -68,7 +76,9 @@ The division operation splits the shaded region on the left into $2$ equal parts
 Therefore, the division problem shown is:
 
 $$
+
 \dfrac{1}{4} \div 2 = \dfrac{1}{8}
+
 $$
 
 ### Example: Identifying the Missing Divisor in a Division Model
@@ -90,7 +100,9 @@ The division operation splits the shaded region on the left into $5$ equal parts
 Therefore, the division problem shown is:
 
 $$
+
 \dfrac{1}{3} \div {\color{blue}{5}} = \dfrac{1}{15}
+
 $$
 
 So, the missing number is $\color{blue}5.$
@@ -136,5 +148,7 @@ From the picture on the right, we obtain that the shaded part represents $\dfrac
 Therefore,
 
 $$
+
 \dfrac{1}{4} \div 4 = \dfrac{1}{16}\,.
+
 $$

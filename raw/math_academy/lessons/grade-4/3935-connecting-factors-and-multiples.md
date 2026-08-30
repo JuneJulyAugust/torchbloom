@@ -22,7 +22,9 @@ $\qquad$ $2\times 5 = {\color{blue}{10}}$
 Therefore, the factors of ${\color{blue}{10}}$ are as follows:
 
 $$
+
 1,\quad 2,\quad 5, \quad 10
+
 $$
 
 Each of these factors has $10$ as a multiple:
@@ -66,7 +68,9 @@ Every whole number is a multiple of its factors. For example, the following two 
 Notice that $11$ is prime. Therefore, it has only two factors, namely $1$ and itself:
 
 $$
+
 1,\quad 11
+
 $$
 
 From the given options, the only number that is in our list above is $11.$
@@ -102,7 +106,9 @@ $\qquad$ $12 = 3 \times 4$
 Therefore, the factors of $12$ are as follows:
 
 $$
+
 1, \quad 2, \quad 3, \quad 4, \quad 6, \quad 12
+
 $$
 
 Each of these numbers has $12$ as a multiple.

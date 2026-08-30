@@ -19,13 +19,17 @@ For instance, let's find the value of $58 \div 7,$ rounded to the nearest tenth.
 We could divide further, but since we want to round to $1$ decimal place (the nearest tenth), we stop after finding the quotient to $2$ decimal places:
 
 $$
+
 58 \div 7 = 8.28 \ldots
+
 $$
 
 Finally, we round the quotient to the nearest tenth. The hundredths place is $8,$ which is greater than $5,$ so we round up:
 
 $$
+
 8.28 \ldots \rightarrow 8.3
+
 $$
 
 ### Example: Rounding to One Decimal Place
@@ -41,13 +45,17 @@ We start by going through the long division procedure as usual:
 We could divide further, but since we want to round to $1$ decimal place, we stop after finding the quotient to $2$ decimal places:
 
 $$
+
 137 \div 8 = 17.12\ldots
+
 $$
 
 Finally, we round the quotient to the nearest tenth ($1$ decimal place). The hundredths place is $2,$ which is less than $5,$ so we round down:
 
 $$
+
 17.12\ldots \rightarrow 17.1\,.
+
 $$
 
 ### Example: Rounding to One Decimal Place: Word Problems
@@ -67,13 +75,17 @@ We went through all the digits and reached a remainder of $0$, so the division i
 Therefore,
 
 $$
+
 63 \div 4= 15.75.
+
 $$
 
 Finally, we round the quotient to the nearest tenth ($1$ decimal place). The hundredths place is $5,$ which is greater than or equal to $5,$ so we round up:
 
 $$
+
 15.75 \rightarrow 15.8
+
 $$
 
 We conclude that each piece would be about $15.8$ inches long.
@@ -91,11 +103,15 @@ We start by going through the long division procedure as usual:
 We could divide further, but since we want to round to $2$ decimal places (the nearest hundredth), we stop after finding the quotient to $3$ decimal places:
 
 $$
+
 66 \div 9 = 7.333\ldots
+
 $$
 
 Finally, we round the quotient to the nearest hundredth. The thousandths place is $3,$ which is less than $5,$ so we round down:
 
 $$
+
 7.333\ldots \rightarrow 7.33\,.
+
 $$

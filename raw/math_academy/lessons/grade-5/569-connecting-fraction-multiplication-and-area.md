@@ -24,7 +24,9 @@ Each side of the unit square is divided into $\color{blue}4$ equal pieces. So, e
 The area of each tile is the product of the two side lengths. Therefore, the area of each tile is
 
 $$
+
 \dfrac{1}{4} \times \dfrac{1}{4}\;\textrm{square units}.
+
 $$
 
 ### Example: Representing the Area of a Single Tile as a Product of Fractions
@@ -44,7 +46,9 @@ First, notice the unit square is divided into $\color{blue}2$ equal slices verti
 The area of each tile is
 
 $$
+
 \dfrac{1}{2} \times \dfrac{1}{3}\;\textrm{square units}.
+
 $$
 
 ### Another Method for Finding the Area of a Tile
@@ -52,7 +56,9 @@ $$
 Another way of computing the area of a part of a unit square is to realize that we can find the area of a single tile using the following formula:
 
 $$
+
 \textrm{area of a single tile} = \dfrac{1}{\textrm{number of tiles}}.
+
 $$
 
 Knowing this, what is the area of the shaded region below, in square units?
@@ -68,7 +74,9 @@ So there are a total of $7 \times 7 = 49$ small square tiles. Therefore, the are
 Since $10$ tiles are shaded, the total shaded area is:
 
 $$
+
 10\times\dfrac{1}{49} = \dfrac{10}{49} \,\textrm{square units}.
+
 $$
 
 ### Example: Finding the Area of Multiple Shaded Tiles by Counting the Number of Tiles
@@ -88,7 +96,9 @@ The shaded region is $5$ tiles long and $5$ tiles high. Therefore, the shaded pa
 Since each tile has an area of $\dfrac{1}{36}$ square units, the area of the shaded part is
 
 $$
+
 25\times\dfrac{1}{36} = \dfrac{25}{36}\;\textrm{square units}.
+
 $$
 
 ### Finding the Area of Rectangles With the Length of the Sides
@@ -106,7 +116,9 @@ The shaded region is $4$ tiles long and $6$ tiles high, which means that it has 
 Finally, we find the area of the shaded rectangle by multiplying the lengths of the sides. So, the area is:
 
 $$
+
 \dfrac{4}{7} \times \dfrac{6}{7}\,\,\textrm{square units}.
+
 $$
 
 ### Example: Finding the Area of Multiple Shaded Tiles by Multiplying the Side Lengths
@@ -128,7 +140,9 @@ The shaded region is $3$ tiles long and $2$ tiles high, which means that it has 
 Finally, we find the area of the shaded rectangle by multiplying the lengths of the sides. So, the area is
 
 $$
+
 \dfrac{3}{4} \times \dfrac{2}{5}\,\,\textrm{square units}.
+
 $$
 
 ### Example: Finding Numbers Missing From a Product by Multiplying Side Lengths
@@ -140,7 +154,9 @@ $$
 The equation below gives the area of the shaded region. From **, what numbers are missing?
 
 $$
+
 \,0\,
+
 $$
 
 #### Explanation
@@ -154,7 +170,9 @@ The shaded region is $2$ tiles long and $3$ tiles high, which means that it has 
 We find the area of the shaded rectangle by multiplying the lengths of the sides:
 
 $$
+
 \,2\,
+
 $$
 
 So, from left to right, the missing numbers are ${\color{blue}2},{\color{red}4}$ and $\color{magenta}6.$

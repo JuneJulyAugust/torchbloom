@@ -16,7 +16,9 @@ When we write down a whole number, the position of each digit has a name.
 For example, let's look at the following three-digit whole number:
 
 $$
+
 {\color{purple}2}{\color{Salmon}4}{\color{SteelBlue}7}
+
 $$
 
 For this number:
@@ -36,7 +38,9 @@ It's more compact to write the place values of a number in a **place value chart
 This tells us that ${\color{purple}2}{\color{Salmon}4}{\color{SteelBlue}7}$ is the same as
 
 $$
+
 2
+
 $$
 
 Hundreds, tens, and ones are known as **place values**.

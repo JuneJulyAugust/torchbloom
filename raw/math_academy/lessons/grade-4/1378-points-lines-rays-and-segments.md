@@ -26,7 +26,9 @@ Let's take a look at the following line.
 A line that passes through the points $P$ and $Q$ is expressed as
 
 $$
+
 \overset{\longleftrightarrow}{PQ}.
+
 $$
 
 We use the "$\longleftrightarrow$" symbol to denote that the line extends forever in **both** directions.
@@ -48,7 +50,9 @@ What is the correct way to represent the line shown below?
 Since the line passes through the points $S$ and $T,$ we can represent this line as follows:
 
 $$
+
 \overset{\longleftrightarrow}{ST}
+
 $$
 
 We use the "$\longleftrightarrow$" symbol to denote that the line extends forever in **** directions.
@@ -62,7 +66,9 @@ A **ray** is similar to a line but has a starting point and extends infinitely i
 A ray that starts at the point $P$ and passes through a point $Q$ is expressed as
 
 $$
+
 \overset{\longrightarrow}{PQ}.
+
 $$
 
 We use the "$\longrightarrow$" symbol to denote that the line extends forever in **one** direction. Notice that the arrow's tail is above the starting point $P.$
@@ -110,7 +116,9 @@ What is the correct way to represent the line segment shown above?
 Since the segment has endpoints $R$ and $Q,$ we can represent this line segment as follows:
 
 $$
+
 \overline{RQ}
+
 $$
 
 We draw a horizontal line $(\overline{\phantom{\_\_}})$ with no arrows above our letters to denote that the line does not extend forever.

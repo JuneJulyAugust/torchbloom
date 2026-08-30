@@ -71,7 +71,9 @@ Complete the place value chart below for $7.2\times 1000.$
 Notice that $1,000$ has a block of $3$ zeros:
 
 $$
+
 3
+
 $$
 
 So, we move all values to the left by $3$ places. Then, we place zeros in the empty cells on the right.

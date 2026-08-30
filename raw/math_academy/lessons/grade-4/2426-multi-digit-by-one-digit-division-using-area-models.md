@@ -22,13 +22,17 @@ To determine the missing length, we consider the area of the yellow rectangle (t
 The area of the yellow rectangle is $320,$ and its width is $4.$ Hence, the length of this rectangle must be
 
 $$
+
 320\div 4.
+
 $$
 
 To carry out this division, we write $320$ as a product with $10$ as one of the factors and then swap the order of multiplication and division:
 
 $$
+
 \begin{aligned}320÷4 & = \\ 32×10÷4 & = \\ 32÷4×10 & = \\ (32÷4)×10 & = \\ 8×10 & = \\ 80 & \end{aligned}
+
 $$
 
 We can now add this length to the area model.
@@ -62,7 +66,9 @@ Therefore, from left to right, the missing numbers are $70$ and $6.$
 The area model above can be used to represent the following division problem
 
 $$
+
 00
+
 $$
 
 What is the missing number?
@@ -80,13 +86,17 @@ Let's look at the big rectangle:
 Therefore, this area model can be used to represent the following multiplication problem:
 
 $$
+
 423 = 47 \times 9
+
 $$
 
 Writing this as a division problem, we get
 
 $$
+
 423 \div 9 = 47.
+
 $$
 
 Therefore, the missing number is $423.$
@@ -118,13 +128,17 @@ Now, notice the following regarding the big rectangle:
 Therefore, this area model can be used to represent the following multiplication problem:
 
 $$
+
 812 = 203 \times 4
+
 $$
 
 Writing this as a division problem, we get
 
 $$
+
 812 \div 4 = 203.
+
 $$
 
 Therefore, Leonard packed $203$ bags of apples.

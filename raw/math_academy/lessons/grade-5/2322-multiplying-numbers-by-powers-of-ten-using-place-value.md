@@ -14,7 +14,9 @@ Topic ID: 2322
 We already know how to find ${\color{red}{39}}\times1{\color{blue}{0}}.$ We join together ${\color{red}{39}}$ and ${\color{blue}{0}}$:
 
 $$
+
 {\color{red}{39}}\times1{\color{blue}{0}} = {\color{red}{39}}{\color{blue}{0}}
+
 $$
 
 To see why this works, we can use a place value chart.
@@ -74,7 +76,9 @@ A **power of $\mathbf{10}$** is a whole number where the leading digit is one, a
 For example, the following numbers are all powers of $10{:}$
 
 $$
+
 10, \qquad 100, \qquad 1,000, \qquad 10,000, \qquad 100,000.
+
 $$
 
 Using a place value chart, we can multiply a number by any power of ten.

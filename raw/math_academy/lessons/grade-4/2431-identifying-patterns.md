@@ -16,7 +16,9 @@ Topic ID: 2431
 Given a pattern like the one below, how can we find its rule?
 
 $$
+
 3,\, 5,\,7,\,9,\,11
+
 $$
 
 To find the rule, we inspect what is happening at each step.
@@ -32,7 +34,9 @@ We can see that the rule for this pattern is "add $2$".
 What rule describes the pattern below?
 
 $$
+
 56,\,52,\,48,\,44,\,40
+
 $$
 
 #### Explanation
@@ -66,7 +70,9 @@ The next shape comes after a circle, and the previous triangle points to the lef
 Find the missing number in the pattern below.
 
 $$
+
 0
+
 $$
 
 #### Explanation
@@ -78,7 +84,9 @@ We see that the rule for the pattern is "multiply by $3$".
 The missing number comes after $54,$ so we can calculate it as follows:
 
 $$
+
 54\times 3 = 162
+
 $$
 
 So, the missing number is $162.$
@@ -86,7 +94,9 @@ So, the missing number is $162.$
 Let's check our answer. Since $486$ comes after the missing number, if we multiply the missing number by $3,$ then we must get $486.$
 
 $$
+
 162\times 3 =486\, \quad \color{green}\checkmark
+
 $$
 
 ### Example: Identifying True Statements
@@ -96,7 +106,9 @@ $$
 Consider the following pattern:
 
 $$
+
 14,\,11,\,8,\,5
+
 $$
 
 Which of the following statements are true?

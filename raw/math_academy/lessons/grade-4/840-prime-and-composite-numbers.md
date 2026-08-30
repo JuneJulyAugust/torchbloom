@@ -18,13 +18,17 @@ A whole number is a **prime number** if it has *exactly two* factors: itself and
 For instance, $3$ is a prime number because it has only two factors, namely $3$ and $1{:}$
 
 $$
+
 3 = 3\times 1
+
 $$
 
 There are infinitely many prime numbers. The first few prime numbers are
 
 $$
+
 2,\quad 3,\quad 5,\quad 7,\quad 11,\quad 13,\quad 17,\quad 19,\quad 23,\quad 29,\quad \ldots
+
 $$
 
 Prime numbers are very important. For example, computers use them to send and receive information across the internet securely.
@@ -110,7 +114,9 @@ The only exception is the number $1.$ The number $1$ is neither prime nor compos
 Which of the following numbers are prime?
 
 $$
+
 13, \quad 15, \quad 17, \quad 1, \quad 6
+
 $$
 
 #### Explanation

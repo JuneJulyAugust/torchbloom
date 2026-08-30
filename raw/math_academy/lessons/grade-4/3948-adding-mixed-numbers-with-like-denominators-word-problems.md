@@ -17,7 +17,9 @@ Suppose Linda prepares some fruit juice for a hot summer day. The recipe tells h
 To find the volume of the fruit juice she will get, we need to calculate the following sum:
 
 $$
+
 2\, \dfrac{1}{5} +1\, \dfrac{2}{5}
+
 $$
 
 To add two mixed numbers, we add
@@ -35,7 +37,9 @@ With that in mind, let's add our mixed numbers.
 Finally, we combine our results:
 
 $$
+
 2\, \dfrac{1}{5} +1\, \dfrac{2}{5} = {\color{red}3} + {\color{blue}\dfrac{3}{5}} = 3\,\dfrac{3}{5}.
+
 $$
 
 Therefore, Linda will get $3\,\dfrac{3}{5}\,\textrm{L}$ of fruit juice.
@@ -65,7 +69,9 @@ With that in mind, let's add our mixed numbers.
 Finally, we combine our results:
 
 $$
+
 3\,\dfrac{1}{8} + 2\,\dfrac{3}{8} = {\color{red}5} + {\color{blue}\dfrac{1}{2}} = 5\,\dfrac{1}{2}.
+
 $$
 
 Therefore, Tom spent $5\,\dfrac{1}{2}$ hours studying.
@@ -95,7 +101,9 @@ With that in mind, let's add our mixed numbers.
 Finally, we combine our results:
 
 $$
+
 10\,\dfrac{7}{8} + 3\,\dfrac{5}{8} = {\color{red}13} + {\color{blue}1\,\dfrac{1}{2}} =14\,\dfrac{1}{2}
+
 $$
 
 Therefore, on August $18,$ Natalie collected $14\,\dfrac{1}{2}\,\textrm{kg}$ of tomatoes from her garden.

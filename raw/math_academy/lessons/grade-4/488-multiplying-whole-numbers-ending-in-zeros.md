@@ -16,7 +16,9 @@ We can use the method of counting zeros to multiply a number that ends in zero b
 For example, to find $80 \times 4,$ we first figure out the non-zero parts:
 
 $$
+
 \begin{aligned}80 & \,⟶\,80 \\ 4 & \,⟶\,4\end{aligned}
+
 $$
 
 We can see that the first number has a block of zeros containing $1$ zero only.
@@ -24,13 +26,17 @@ We can see that the first number has a block of zeros containing $1$ zero only.
 Next, we multiply the non-zero parts:
 
 $$
-\bbox[2px, lightgray]{8} \times \bbox[2px, lightgray]{4} = \color{red}{32}
+
+\boxed{8} \times \boxed{4} = \color{red}{32}
+
 $$
 
 Finally, we join this product with the single $\color{blue}0.$
 
 $$
+
 {\color{red}32}{\color{blue}0}
+
 $$
 
 Therefore, $80\times 4 = 320.$
@@ -46,7 +52,9 @@ What is $2\times 70?$
 First, we figure out the non-zero parts:
 
 $$
+
 \begin{aligned}2 & \,⟶\,2 \\ 70 & \,⟶\,70\end{aligned}
+
 $$
 
 We can see that the second number has a block of zeros containing $1$ zero only.
@@ -54,13 +62,17 @@ We can see that the second number has a block of zeros containing $1$ zero only.
 Next, we multiply the non-zero parts:
 
 $$
-\bbox[2px, lightgray]{2} \times \bbox[2px, lightgray]{7} = \color{red}{14}
+
+\boxed{2} \times \boxed{7} = \color{red}{14}
+
 $$
 
 Finally, we join the above with the single $\color{blue}0$:
 
 $$
+
 {\color{red}14}{\color{blue}0}
+
 $$
 
 Therefore, $2\times 70 = 140.$
@@ -72,7 +84,9 @@ We can use the method of counting zeros to multiply a number that ends in multip
 To illustrate, let's multiply $9\times400.$ First, we figure out the non-zero part and the block of zeros for both numbers:
 
 $$
+
 \begin{aligned}9 & \,⟶\,9 \\ 400 & \,⟶\,400\end{aligned}
+
 $$
 
 We can see that the second number has a block containing $\color{blue}2$ zeros in total.
@@ -80,13 +94,17 @@ We can see that the second number has a block containing $\color{blue}2$ zeros i
 Next, we multiply the non-zero parts:
 
 $$
-\bbox[2px, lightgray]{9} \times \bbox[2px, lightgray]{4} = \color{red}{36}
+
+\boxed{9} \times \boxed{4} = \color{red}{36}
+
 $$
 
 Finally, we join the above with the block of $\color{blue}2$ zeros:
 
 $$
+
 {\color{red}36}{\color{blue}00}
+
 $$
 
 Therefore, $9 \times 400 = 3,600.$
@@ -102,7 +120,9 @@ What is $8$ multiplied by $3,000?$
 First, we figure out the non-zero part and the block of zeros for both numbers:
 
 $$
+
 \begin{aligned}3000 & \,⟶\,3000 \\ 8 & \,⟶\,8\end{aligned}
+
 $$
 
 We can see that there are $\color{blue}3$ zeros in total.
@@ -110,13 +130,17 @@ We can see that there are $\color{blue}3$ zeros in total.
 Next, we multiply the non-zero parts:
 
 $$
-\bbox[2px, lightgray]{3} \times \bbox[2px, lightgray]{8} = \color{red}{24}
+
+\boxed{3} \times \boxed{8} = \color{red}{24}
+
 $$
 
 Finally, we join the above with the block of $\color{blue}3$ zeros:
 
 $$
+
 {\color{red}24}{\color{blue}000}
+
 $$
 
 Therefore, $8 \times 3,000 = 24,000.$
@@ -128,7 +152,9 @@ We can use the method of counting zeros to multiply two numbers that both end wi
 For example, to multiply $60$ by $70$, first, we figure out the non-zero part and the block of zeros for both numbers:
 
 $$
+
 \begin{aligned}60 & \,⟶\,60 \\ 70 & \,⟶\,70\end{aligned}
+
 $$
 
 We can see that there are $\color{blue}2$ zeros in total.
@@ -136,13 +162,17 @@ We can see that there are $\color{blue}2$ zeros in total.
 Next, we multiply the non-zero parts:
 
 $$
-\bbox[2px, lightgray]{6} \times \bbox[2px, lightgray]{7} = \color{red}{42}
+
+\boxed{6} \times \boxed{7} = \color{red}{42}
+
 $$
 
 Finally, we join the above with the block of zeros:
 
 $$
+
 {\color{red}42}{\color{blue}00}= 4,200
+
 $$
 
 Therefore, $70\times 60 = 4,200.$
@@ -160,7 +190,9 @@ To calculate the total number of blueberries that the baker used, we need to mul
 First, we figure out the non-zero part and the block of zeros for both numbers:
 
 $$
+
 \begin{aligned}50 & \,⟶\,50 \\ 20 & \,⟶\,20\end{aligned}
+
 $$
 
 We can see that there are $\color{blue}2$ zeros in total.
@@ -168,13 +200,17 @@ We can see that there are $\color{blue}2$ zeros in total.
 Next, we multiply the non-zero parts:
 
 $$
-\bbox[2px, lightgray]{5} \times \bbox[2px, lightgray]{2} = \color{red}{10}
+
+\boxed{5} \times \boxed{2} = \color{red}{10}
+
 $$
 
 Finally, we join the above with the block of zeros:
 
 $$
+
 {\color{red}10}{\color{blue}00}= 1,000
+
 $$
 
 Therefore, the baker used a total of $1,000$ blueberries to bake the muffins.
@@ -186,7 +222,9 @@ We can use the method of counting zeros to multiply numbers that both end in mul
 For instance, let's calculate $600 \times 70.$ First, we figure out the non-zero part and the block of zeros for both numbers:
 
 $$
+
 \begin{aligned}600 & \,⟶\,600 \\ 70 & \,⟶\,70\end{aligned}
+
 $$
 
 We can see that there are $\color{blue}3$ zeros in total.
@@ -194,13 +232,17 @@ We can see that there are $\color{blue}3$ zeros in total.
 Next, we multiply the non-zero parts:
 
 $$
-\bbox[2px, lightgray]{6} \times \bbox[2px, lightgray]{7} = {\color{red}42}
+
+\boxed{6} \times \boxed{7} = {\color{red}42}
+
 $$
 
 Finally, we join the above with the block of zeros:
 
 $$
+
 {\color{red}42}{\color{blue}000}
+
 $$
 
 Therefore, $600 \times 70 = 42,000.$
@@ -216,7 +258,9 @@ Find the value of $500 \times 3,000.$
 First, we figure out the non-zero part and the block of zeros for both numbers:
 
 $$
+
 \begin{aligned}500 & \,⟶\,500 \\ 3,000 & \,⟶\,3000\end{aligned}
+
 $$
 
 We can see that there are $\color{blue}5$ zeros in total.
@@ -224,13 +268,17 @@ We can see that there are $\color{blue}5$ zeros in total.
 Next, we multiply the non-zero parts:
 
 $$
-\bbox[2px, lightgray]{5} \times \bbox[2px, lightgray]{3} = {\color{red}15}
+
+\boxed{5} \times \boxed{3} = {\color{red}15}
+
 $$
 
 Finally, we join the above with the block of zeros:
 
 $$
+
 {\color{red}15}{\color{blue}00000}
+
 $$
 
 Therefore, $500 \times 3,000 = 1,500,000.$

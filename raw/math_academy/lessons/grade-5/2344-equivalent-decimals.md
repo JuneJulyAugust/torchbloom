@@ -16,7 +16,9 @@ If a decimal has an extra zero at the end, we can remove this extra zero without
 For example, to find a decimal that's the same as $5.90,$ we simply remove the zero at the end:
 
 $$
-5.9\cancel{0} = 5.9
+
+5.90 = 5.9
+
 $$
 
 Because $5.90$ and $5.9$ represent the same decimal number, we say that they are **equivalent decimals**.
@@ -36,7 +38,9 @@ Simplify $4.90$ to its simplest form. What is the equivalent decimal number?
 To find an equivalent decimal, we remove the zero at the end.
 
 $$
-4.9\!\cancel{0} = 4.9
+
+4.9\!0 = 4.9
+
 $$
 
 Therefore, $4.90$ and $4.9$ are equivalent decimals.
@@ -48,13 +52,17 @@ We're not restricted to removing just one zero to make an equivalent decimal.
 For example, to make a decimal that's equivalent to $32.600,$ we can remove the block of two zeros at the end:
 
 $$
-32.6\cancel{00} = 32.6
+
+32.600 = 32.6
+
 $$
 
 Similarly, we can make a decimal that's equivalent to $8.000$ by removing the block of three zeros:
 
 $$
-8.\cancel{000} = 8
+
+8.000 = 8
+
 $$
 
 Note that after we remove the block of three zeros, there are no more numbers after the decimal place, so we can remove the decimal place as well.
@@ -70,7 +78,9 @@ Find a decimal that's equivalent to $89.00.$
 To find an equivalent decimal, we remove the zeros at the end.
 
 $$
-89.\!\cancel{00} = 89
+
+89.\!00 = 89
+
 $$
 
 Therefore, $89.00$ and $89$ are equivalent decimals.
@@ -82,7 +92,9 @@ When we attach an extra zero on the right of a decimal, its value stays the same
 For example, $3.2$ and $3.20$ represent the same number:
 
 $$
+
 3.2 = 3.2{\color{blue}0}
+
 $$
 
 Once again, we say that $3.2$ is **equivalent** to $3.20.$
@@ -90,7 +102,9 @@ Once again, we say that $3.2$ is **equivalent** to $3.20.$
 We're not restricted to just one zero. We can attach as many as we'd like! For example, the numbers
 
 $$
+
 3.2{\color{blue}00},\qquad 3.2{\color{blue}000}
+
 $$
 
 are both equivalent to $3.2.$ They're also equivalent to each other!
@@ -108,7 +122,9 @@ Find a decimal that's equivalent to $12.$
 To find an equivalent decimal, we can attach a zero to the end, but only ** the decimal point!
 
 $$
+
 12 = 12.{\color{blue}{0}}
+
 $$
 
 Therefore, $12$ and $12.0$ are equivalent.
@@ -120,7 +136,9 @@ Therefore, $12$ and $12.0$ are equivalent.
 What is the missing digit in the following equality?
 
 $$
+
 0
+
 $$
 
 #### Explanation
@@ -128,7 +146,9 @@ $$
 To find an equivalent decimal, we can add extra zeros to the end.
 
 $$
-361 = 361 . \bbox[2px,lightgray]{\color{blue}0} 0 0
+
+361 = 361 . \boxed{\color{blue}0} 0 0
+
 $$
 
 Therefore, the missing digit is $0.$

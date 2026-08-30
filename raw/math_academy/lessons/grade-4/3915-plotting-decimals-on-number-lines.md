@@ -17,7 +17,9 @@ We can plot decimals on number lines, just as we do with fractions and mixed num
 To demonstrate how this works, let's plot the following decimal on a number line:
 
 $$
+
 0.8
+
 $$
 
 First, since $0.8$ lies between the whole numbers $0$ and $1,$ we start by creating a number line between these two whole numbers.
@@ -79,7 +81,9 @@ We can plot decimals up to hundredths on a number line in a similar way.
 For example, let's plot the following decimal on a number line:
 
 $$
+
 1.26
+
 $$
 
 First, notice that $1.26$ lies between two *tenths*, namely $1.2$ and $1.3.$ So, we start by creating a number line between these tenths.
@@ -114,7 +118,7 @@ Notice that our point is $\color{blue}4$ steps to the right of ${\color{red}0.0}
 
 ![Instructional graphic](../../lesson-assets/grade-4/topic-3915/e99e9d675373e82e.png)
 
-Hence, the decimal has ${\color{red}0}$ ones, ${\color{red}0}$ tenths, and ${\color{blue}4}$ hundredths. Therefore, the point represents the decimal $\bbox[3pt, Gainsboro]{\color{blue}{\color{red}0.0}{\color{blue}4}}.$
+Hence, the decimal has ${\color{red}0}$ ones, ${\color{red}0}$ tenths, and ${\color{blue}4}$ hundredths. Therefore, the point represents the decimal $\boxed{\color{blue}{\color{red}0.0}{\color{blue}4}}.$
 
 ### Example: Identifying Number Lines Containing Decimals Up to Hundredths
 

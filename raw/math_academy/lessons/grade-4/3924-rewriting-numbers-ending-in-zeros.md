@@ -16,13 +16,17 @@ When a number ends in a zero, it's easy to express that number in terms of tens.
 For example, let's consider the following number:
 
 $$
+
 15{\color{blue}{0}}
+
 $$
 
 Notice that this number ends in a zero. Therefore, we can write it as a multiple of $10$ as follows:
 
 $$
+
 15{\color{blue}{0}} = 15 \times 1{\color{blue}{0}}
+
 $$
 
 ![Instructional graphic](../../lesson-assets/grade-4/topic-3924/eabbdfd2782f496f.png)
@@ -42,7 +46,9 @@ Write $5,860$ in terms of tens.
 We know that
 
 $$
+
 5,860 = 586 \times 10.
+
 $$
 
 Therefore, $5,860$ is the same as $586$ tens.
@@ -54,13 +60,17 @@ When a number ends in two zeros, we can easily express it in terms of hundreds.
 For example, let's consider the following number:
 
 $$
+
 6,2{\color{blue}{00}}
+
 $$
 
 Notice that this number ends in two zeros. Therefore, we can write it as a multiple of $100$ as follows:
 
 $$
+
 6,2{\color{blue}{00}} = 62 \times 1{\color{blue}{00}}.
+
 $$
 
 Therefore, $6,200$ is the same as "$62$ hundreds."
@@ -78,7 +88,9 @@ What is $99,000$ in terms of thousands?
 We know that
 
 $$
+
 99,000 = 99 \times 1,000.
+
 $$
 
 Therefore, $99,000$ is the same as $99$ thousands.

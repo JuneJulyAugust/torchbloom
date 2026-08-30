@@ -25,7 +25,9 @@ The angles $\angle PSR$ and $\angle RST$ are adjacent because they both have the
 Since the angles $\angle PSR$ and $\angle RST$ are adjacent, we can find the measure of the combined angle $\angle PST$ by adding the two angles:
 
 $$
+
 \begin{aligned}𝑚∠𝑃𝑆𝑇 & =\underset{orange angle}{\underset{}{𝑚∠𝑃𝑆𝑅}}+\underset{blue angle}{\underset{}{𝑚∠𝑅𝑆𝑇}} \\ & =95^{∘}+45^{∘} \\ & =140^{∘}\end{aligned}
+
 $$
 
 ### Example: Finding the Measure of a Combined Angle
@@ -47,7 +49,9 @@ We can add the measures of two adjacent angles to find the measure of the combin
 Therefore:
 
 $$
+
 \begin{aligned}𝑚∠𝑃𝑂𝑅 & =𝑚∠𝑃𝑂𝑄+𝑚∠𝑄𝑂𝑅 \\ & =68^{∘}+37^{∘} \\ & =105^{∘}\end{aligned}
+
 $$
 
 ### Example: Finding the Measure of a Smaller Angle
@@ -73,7 +77,9 @@ Note the following:
 Therefore,
 
 $$
+
 x = 90^\circ - 35^\circ = 55^\circ.
+
 $$
 
 ### Extending the Sums of Angles Rule
@@ -87,7 +93,9 @@ For example, let's consider the angles shown in the diagram below.
 According to our rule, the measure of the reflex angle $\angle QST$ is
 
 $$
+
 \begin{aligned}𝑚∠𝑄𝑆𝑇 & =\underset{green angle}{\underset{}{𝑚∠𝑄𝑆𝑃}}+\underset{orange angle}{\underset{}{𝑚∠𝑃𝑆𝑅}}+\underset{blue angle}{\underset{}{𝑚∠𝑅𝑆𝑇}} \\ & =100^{∘}+95^{∘}+45^{∘} \\ & =240^{∘}.\end{aligned}
+
 $$
 
 We can also use this rule to determine the size of a smaller angle when we know a larger one. Let's see an example.
@@ -109,5 +117,7 @@ The measure of $\angle CAD$ must be the ** between the large angle $(\angle BAE)
 Therefore,
 
 $$
+
 x = 110^\circ - 40^\circ - 20^\circ = 50^\circ.
+
 $$

@@ -18,13 +18,17 @@ For example, let's use the order of operations with parentheses to evaluate $30 
 First, we perform the operation inside the parentheses:
 
 $$
+
 \begin{aligned}30÷(5×2) & = \\ 30÷10 & \end{aligned}
+
 $$
 
 Then, we divide:
 
 $$
+
 \begin{aligned}30÷10 & = \\ 3 & \end{aligned}
+
 $$
 
 ### Example: Evaluating an Expression With Parentheses
@@ -40,19 +44,25 @@ To evaluate the given expression, we follow the order of operations with parenth
 First, we perform the operation inside the parentheses:
 
 $$
+
 \begin{aligned}12+30÷(6+9) & = \\ 12+30÷15 & .\end{aligned}
+
 $$
 
 Then, we multiply and divide, from left to right:
 
 $$
+
 \begin{aligned}12+30÷15 & = \\ 12+2 & .\end{aligned}
+
 $$
 
 Finally, we add and subtract, from left to right:
 
 $$
+
 12 + 2 =14.
+
 $$
 
 ### Numerical Expressions With Square Brackets
@@ -70,25 +80,33 @@ To solve an expression that contains both parentheses and brackets, the order of
 To illustrate, let's evaluate the following expression:
 
 $$
+
 1+ [2 \times (3 + 4)]
+
 $$
 
 First, we perform the operation inside the parentheses:
 
 $$
+
 \begin{aligned}1+[2×(3+4)] & = \\ 1+[2×7] & \end{aligned}
+
 $$
 
 Next, we perform the operation inside the square brackets:
 
 $$
+
 \begin{aligned}1+[2×7] & = \\ 1+14 & \end{aligned}
+
 $$
 
 Finally, we add:
 
 $$
+
 \begin{aligned}1+14 & = \\ 15 & \end{aligned}
+
 $$
 
 ### Example: Evaluating an Expression Containing Square Brackets
@@ -104,19 +122,25 @@ To evaluate the given expression, we follow the order of operations with parenth
 First, we perform the operation inside the inner parentheses:
 
 $$
+
 \begin{aligned}[10−(1+3)]÷2 & = \\ [10−4]÷2 & \end{aligned}
+
 $$
 
 Next, we perform the operation inside the square brackets:
 
 $$
+
 \begin{aligned}[10−4]÷2 & = \\ 6÷2 & \end{aligned}
+
 $$
 
 Finally, we divide:
 
 $$
+
 \begin{aligned}6÷2 & = \\ 3 & \end{aligned}
+
 $$
 
 ### Numerical Expressions With Braces
@@ -126,7 +150,9 @@ Yet another pair of grouping symbols that are similar to parentheses and square 
 For example, one expression that uses all three grouping symbols is:
 
 $$
+
 \{ 6 \div [(3 + 5) \div 4] \} + 5
+
 $$
 
 For expressions containing parentheses, square brackets, and braces, the order of operations with parentheses tells us to:
@@ -142,25 +168,33 @@ For expressions containing parentheses, square brackets, and braces, the order o
 So, to evaluate the expression above, first, we perform the operation inside the parentheses:
 
 $$
+
 \begin{aligned}{6÷[(3+5)÷4]}+5 & = \\ {6÷[8÷4]}+5 & \end{aligned}
+
 $$
 
 Next, we perform the operation inside the square brackets:
 
 $$
+
 \begin{aligned}{6÷[8÷4]}+5 & = \\ {6÷2}+5 & \end{aligned}
+
 $$
 
 Then, we perform the operation inside the braces:
 
 $$
+
 \begin{aligned}{6÷2}+5 & = \\ 3+5 & \end{aligned}
+
 $$
 
 Finally, we add:
 
 $$
+
 \begin{aligned}3+5 & = \\ 8 & \end{aligned}
+
 $$
 
 ### Example: Determining the First Operation in an Expression With Braces
@@ -170,7 +204,9 @@ $$
 In the expression below, which part of the expression should be calculated first?
 
 $$
+
 \{ [6 + (3 \times 4)] \div 9 \} \times 7
+
 $$
 
 #### Explanation
@@ -178,7 +214,9 @@ $$
 To evaluate the given expression, we must follow the order of operations with parentheses. Therefore, we should start with the operation that's inside the most inner parentheses:
 
 $$
+
 \{ [6 + ({\color{blue}{3 \times 4}})] \div 9 \} \times 7
+
 $$
 
 So we should calculate ${\color{blue}{3 \times 4}}$ first.
@@ -196,23 +234,31 @@ To evaluate the given expression, we follow the order of operations with parenth
 First, we perform the operation inside the inner parentheses:
 
 $$
+
 \begin{aligned}{[(4×2)−5]+3}÷3 & ={[(4×2)−5]+3}÷3 & \\ & ={[8−5]+3}÷3 & \end{aligned}
+
 $$
 
 Next, we perform the operation inside the square brackets:
 
 $$
+
 \begin{aligned}{[8−5]+3}÷3 & ={[8−5]+3}÷3 \\ & ={3+3}÷3\end{aligned}
+
 $$
 
 Next, we perform the operation inside the braces:
 
 $$
+
 \begin{aligned}{3+3}÷3 & ={3+3}÷3 & \\ & =6÷3 & \end{aligned}
+
 $$
 
 Finally, we divide:
 
 $$
+
 \begin{aligned}6÷3 & =2\end{aligned}
+
 $$

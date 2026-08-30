@@ -21,7 +21,9 @@ Look at the rectangle below. What is its area?
 We find the area of the rectangle by multiplying the lengths of the sides:
 
 $$
+
 \dfrac{6}{5} \times \dfrac{3}{5} = \dfrac{6 \times 3}{5 \times 5} = \dfrac{18}{25}
+
 $$
 
 So, the area of the rectangle is $\dfrac{18}{25}$ square units.
@@ -39,13 +41,17 @@ What number is missing from the area model below?
 The area of the rectangle can be found by multiplying the lengths of the sides:
 
 $$
+
 \dfrac{2}{5} \times \dfrac{1}{4}
+
 $$
 
 We can simplify this product by swapping the denominators:
 
 $$
-\begin{aligned}\frac{2}{5}×\frac{1}{4} & =\frac{2}{4}×\frac{1}{5} \\ & =\frac{1}{2}×\frac{1}{5} \\ & =\frac{1×1}{2×5} \\ & =\frac{1}{[math]\color{blue}10[/math]}\end{aligned}
+
+\begin{aligned}\frac{2}{5}×\frac{1}{4} & =\frac{2}{4}×\frac{1}{5} \\ & =\frac{1}{2}×\frac{1}{5} \\ & =\frac{1×1}{2×5} \\ & =\frac{1}{\color{blue}10}\end{aligned}
+
 $$
 
 So, the missing number is $10.$
@@ -63,13 +69,17 @@ What number is missing from the area model below?
 The area of the rectangle can be found by multiplying the lengths of the sides:
 
 $$
+
 \dfrac{5}{7} \times \dfrac{9}{5}
+
 $$
 
 We can simplify this product by swapping the denominators:
 
 $$
-\begin{aligned}\frac{5}{7}×\frac{9}{5} & =\frac{5}{5}×\frac{9}{7} \\ & =1×\frac{9}{7} \\ & =\frac{1×9}{7} \\ & =\frac{[math]\color{blue}9[/math]}{7}\end{aligned}
+
+\begin{aligned}\frac{5}{7}×\frac{9}{5} & =\frac{5}{5}×\frac{9}{7} \\ & =1×\frac{9}{7} \\ & =\frac{1×9}{7} \\ & =\frac{\color{blue}9}{7}\end{aligned}
+
 $$
 
 So, the missing number is $9.$
@@ -87,19 +97,25 @@ What number is missing from the area model below?
 First, we write $2\,\dfrac{1}{2}$ as an improper fraction:
 
 $$
+
 2\,\dfrac{1}{2} = \dfrac{(2\times 2)+1}{2} = \dfrac{5}{2}
+
 $$
 
 The area of the rectangle can be found by multiplying the lengths of the sides:
 
 $$
+
 \dfrac{4}{7} \times \dfrac{5}{2}
+
 $$
 
 We can simplify this product by swapping the denominators:
 
 $$
-\begin{aligned}\frac{4}{7}×\frac{5}{2} & =\frac{4}{2}×\frac{5}{7} \\ & =2×\frac{5}{7} \\ & =\frac{2×5}{7} \\ & =\frac{10}{[math]\color{blue}\,7\,[/math]}\end{aligned}
+
+\begin{aligned}\frac{4}{7}×\frac{5}{2} & =\frac{4}{2}×\frac{5}{7} \\ & =2×\frac{5}{7} \\ & =\frac{2×5}{7} \\ & =\frac{10}{\color{blue}\,7\,}\end{aligned}
+
 $$
 
 So, the missing number is $7.$

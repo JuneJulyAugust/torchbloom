@@ -16,7 +16,9 @@ In this lesson, we'll expand our understanding of equivalent place values.
 In a previous lesson, we saw that
 
 $$
+
 10\,\textrm{tens} = 1\,\textrm{hundreds}.
+
 $$
 
 We can picture this fact using a diagram:
@@ -28,19 +30,25 @@ How can we use this to express "$20$ tens" in terms of hundreds?
 The first thing to realize is that
 
 $$
+
 20\,\textrm{tens} = 10\,\textrm{tens} + 10\,\textrm{tens}.
+
 $$
 
 Now, since "$10$ tens" is the same as "$1$ hundred", we have
 
 $$
+
 \begin{aligned}20\,tens & =10\,tens+10\,tens \\ & =1\,hundreds+1\,hundreds \\ & =2\,hundreds.\end{aligned}
+
 $$
 
 So, we conclude that
 
 $$
+
 {\color{blue}{2}}0\,\textrm{tens} = {\color{blue}{2}}\,\textrm{hundreds}.
+
 $$
 
 This equivalence can also be expressed using a diagram:
@@ -80,13 +88,17 @@ What is "$76$ tens" expressed in terms of hundreds and tens?
 Since $76 = 70 + 6,$ we can write $76$ tens as
 
 $$
+
 70\,\textrm{tens} + 6\,\textrm{tens}.
+
 $$
 
 Now, since $70$ tens is the same as $7$ hundreds, the statement above is equal to
 
 $$
+
 7\,\textrm{hundreds} + 6\,\textrm{tens}.
+
 $$
 
 Therefore, "$76$ tens" is equivalent to "$7$ hundreds and $6$ tens".
@@ -122,13 +134,17 @@ Express "$68$ hundreds" in terms of thousands and hundreds.
 Since $68 = 60 + 8,$ we can write $68$ hundreds as
 
 $$
+
 60\,\textrm{hundreds} + 8\,\textrm{hundreds}.
+
 $$
 
 Now, since $60$ hundreds is the same as $6$ thousands, the statement above is equal to
 
 $$
+
 6\,\textrm{thousands} + 8\,\textrm{hundreds}.
+
 $$
 
 Therefore, "$68$ hundreds" is equivalent to "$6$ thousands and $8$ hundreds".

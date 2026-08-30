@@ -29,7 +29,7 @@ Therefore, "$3$ tens" is equivalent to "$2$ tens and $10$ ones."
 
 What number should be inserted into the blank space to make the following statement true?
 
-$\qquad$ "$15$ tens" is equivalent to "$14$ tens and $\bbox[2pt, white, border: 1pt solid black]{\phantom{AA}}$ ones"
+$\qquad$ "$15$ tens" is equivalent to "$14$ tens and $\boxed{\phantom{AA}}$ ones"
 
 #### Explanation
 
@@ -39,7 +39,7 @@ Now, since $15 \, \textrm{tens} = {\color{red}{14}} \, \textrm{tens} + {\color{b
 
 This gives the following place value chart:
 
-Therefore, "$15$ tens" is equivalent to "$14$ tens and $\bbox[2pt, white, border: 1pt solid black]{10}$ ones."
+Therefore, "$15$ tens" is equivalent to "$14$ tens and $\boxed{10}$ ones."
 
 ### Example: Borrowing From Tens With Addition
 
@@ -47,7 +47,7 @@ Therefore, "$15$ tens" is equivalent to "$14$ tens and $\bbox[2pt, white, border
 
 What number should be inserted into the blank space to make the following statement true?
 
-$\qquad$ "$5$ tens and $5$ ones" is equivalent to "$4$ tens and $\bbox[2pt, white, border: 1pt solid black]{\phantom{AA}}$ ones"
+$\qquad$ "$5$ tens and $5$ ones" is equivalent to "$4$ tens and $\boxed{\phantom{AA}}$ ones"
 
 #### Explanation
 
@@ -57,7 +57,7 @@ Now, since $5 \, \textrm{tens} = {\color{red}{4}} \, \textrm{tens} + {\color{blu
 
 This gives the following place value chart:
 
-Therefore, "$5$ tens and $5$ ones" is equivalent to "$4$ tens and $\bbox[2pt, white, border: 1pt solid black]{15}$ ones"
+Therefore, "$5$ tens and $5$ ones" is equivalent to "$4$ tens and $\boxed{15}$ ones"
 
 ### Borrowing From Hundreds
 
@@ -66,7 +66,9 @@ We can also borrow from other place values.
 For example, let's consider the equation below.
 
 $$
+
 2
+
 $$
 
 In this case, we want to borrow $1$ from the *hundreds* place and convert it to *tens*.
@@ -74,19 +76,25 @@ In this case, we want to borrow $1$ from the *hundreds* place and convert it to 
 First, notice that we can write "$2$ hundreds" as follows:
 
 $$
-\begin{aligned}[math]2[/math] hundreds=[math]\color{red}1[/math] hundred+[math]\color{blue}1[/math] hundred\end{aligned}
+
+\begin{aligned}2 hundreds=\color{red}1 hundred+\color{blue}1 hundred\end{aligned}
+
 $$
 
 Now, we convert $1$ hundred into $10$ tens:
 
 $$
-\begin{aligned}[math]\color{red}1[/math] hundred+[math]\color{blue}1[/math] hundred & = \\ [math]\color{red}1[/math] hundred+[math]\color{blue}10[/math] tens & \end{aligned}
+
+\begin{aligned}\color{red}1 hundred+\color{blue}1 hundred & = \\ \color{red}1 hundred+\color{blue}10 tens & \end{aligned}
+
 $$
 
 Therefore,
 
 $$
+
 2
+
 $$
 
 ### Example: Borrowing From Hundreds With and Without Addition
@@ -96,7 +104,9 @@ $$
 What is the missing number in the equation below?
 
 $$
+
 2
+
 $$
 
 #### Explanation
@@ -106,17 +116,23 @@ We can ** $1$ from the hundreds place and convert it to tens.
 First, notice that
 
 $$
-\begin{aligned}[math]2[/math] hundreds+[math]1[/math] ten+[math]1[/math] one=([math]\color{red}1[/math] hundred+[math]\color{blue}1[/math] hundred)+[math]1[/math] ten+[math]1[/math] one.\end{aligned}
+
+\begin{aligned}2 hundreds+1 ten+1 one=(\color{red}1 hundred+\color{blue}1 hundred)+1 ten+1 one.\end{aligned}
+
 $$
 
 Now, we convert $1$ hundred into $10$ tens:
 
 $$
-\begin{aligned}([math]\color{red}1[/math] hundred+[math]\color{blue}1[/math] hundred)+[math]1[/math] ten+[math]1[/math] one & = \\ ([math]\color{red}1[/math] hundred+[math]\color{blue}10[/math] tens)+[math]1[/math] ten+[math]1[/math] one & = \\ [math]\color{red}1[/math] hundred+([math]\color{blue}10[/math] tens+[math]1[/math] ten)+[math]1[/math] one & = \\ [math]\color{red}1[/math] hundred+[math]\color{blue}11[/math] tens+[math]1[/math] one & \end{aligned}
+
+\begin{aligned}(\color{red}1 hundred+\color{blue}1 hundred)+1 ten+1 one & = \\ (\color{red}1 hundred+\color{blue}10 tens)+1 ten+1 one & = \\ \color{red}1 hundred+(\color{blue}10 tens+1 ten)+1 one & = \\ \color{red}1 hundred+\color{blue}11 tens+1 one & \end{aligned}
+
 $$
 
 Therefore,
 
 $$
+
 2
+
 $$

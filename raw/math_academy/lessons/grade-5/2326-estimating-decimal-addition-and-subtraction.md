@@ -20,13 +20,17 @@ To illustrate, let's find an estimate for the value of $16.6+1.3.$
 First, we round both numbers to the nearest whole number:
 
 $$
+
 \begin{aligned}16.6 & + & 1.3 \\ & & \\ 17 & + & 1\end{aligned}
+
 $$
 
 Then, we calculate the sum:
 
 $$
+
 {\color{blue}17} + {\color{blue}1} = 18
+
 $$
 
 Therefore, $16.6+1.3$ is about $18.$
@@ -44,13 +48,17 @@ Estimate $15.123 + 8.8$ by rounding each number to the nearest whole number.
 First, we round both numbers to the nearest whole number:
 
 $$
+
 \begin{aligned}15.123 & + & 8.8 \\ & & \\ 15 & + & 9\end{aligned}
+
 $$
 
 Next, we calculate the sum:
 
 $$
+
 {\color{blue}15} + {\color{blue}9} = 24
+
 $$
 
 Therefore, $15.123 + 8.8$ is about $24.$
@@ -68,13 +76,17 @@ To estimate the initial length of the wire, we need to estimate the sum $8.15+ 7
 First, we round both numbers to the nearest whole number:
 
 $$
+
 \begin{aligned}8.15 & + & 7.75 \\ & & \\ 8 & + & 8\end{aligned}
+
 $$
 
 Next, we calculate the sum:
 
 $$
+
 {\color{blue}8} + {\color{blue}8} = 16
+
 $$
 
 Therefore, the length of the wire was approximately $16$ meters before Joe cut it.
@@ -86,13 +98,17 @@ We also use rounding to estimate the difference of two decimals. To illustrate, 
 First, we round both numbers to the nearest whole number:
 
 $$
+
 \begin{aligned}25.85 & − & 12.32 \\ & & \\ 26 & − & 12\end{aligned}
+
 $$
 
 Then, we calculate the difference:
 
 $$
+
 {\color{blue}26} - {\color{blue}12} = 14
+
 $$
 
 Therefore, $25.85-12.32$ is about $14.$
@@ -108,13 +124,17 @@ By rounding each number to the nearest whole number, estimate the value of $55.1
 First, we round both numbers to the nearest whole number:
 
 $$
+
 \begin{aligned}55.1 & − & 24.76 \\ & & \\ 55 & − & 25\end{aligned}
+
 $$
 
 Next, we calculate the difference:
 
 $$
+
 {\color{blue}55} - {\color{blue}25} = 30
+
 $$
 
 Therefore, $55.1 - 24.76$ is approximately $30.$
@@ -132,13 +152,17 @@ To estimate the total amount of rain that city $B$ received, we need to estimate
 First, we round both numbers to the nearest whole number:
 
 $$
+
 \begin{aligned}14.7 & − & 5.745 \\ & & \\ 15 & − & 6\end{aligned}
+
 $$
 
 Next, we calculate the difference:
 
 $$
+
 {\color{blue}15} - {\color{blue}6} = 9
+
 $$
 
 Therefore, city $B$ received approximately $9$ inches of rainfall during the week.

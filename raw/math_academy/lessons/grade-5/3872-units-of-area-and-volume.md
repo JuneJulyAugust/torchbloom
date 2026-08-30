@@ -21,7 +21,9 @@ Consider a square with sides of length $1\,\textrm{m},$ shown below.
 To find the area of a square, we multiply its side lengths. Therefore, the area of this square is equal to
 
 $$
+
 1\,\textrm{m}\times 1\,\textrm{m} = 1\,\textrm{m}^2.
+
 $$
 
 The unit of area $(\textrm m^2)$ we used is called a **square meter.** In this case, we say that the area of our square is **one square meter.**
@@ -51,7 +53,9 @@ Consider a cube with sides of length $1\,\textrm{m},$ shown below.
 To find the volume of a cube, we multiply its side lengths. Therefore, the volume of this cube is equal to
 
 $$
+
 1\,\textrm{m}\times 1\,\textrm{m}\times 1\,\textrm{m} = 1\,\textrm{m}^3.
+
 $$
 
 The unit of volume $(\textrm m^3)$ we used is called a **cubic meter.** In this case, we say that the volume of our cube is **one cubic meter.**
@@ -93,7 +97,9 @@ Since a square is a special type of rectangle, we find its area by multiplying i
 Therefore, the area of the square is
 
 $$
+
 \begin{aligned}𝐴 & =(3\,m)^{2} \\ & =3\,m×3\,m \\ & =(3×3)×(m×m) \\ & =9\,m^{2}.\end{aligned}
+
 $$
 
 ### Example: Computing an Area With the Correct Units
@@ -109,7 +115,9 @@ What is the area of the square above?
 To calculate the area $A$ of a square, we square its side length. Therefore, the area of the square is
 
 $$
+
 \begin{aligned}𝐴 & =(5\,ft)^{2} \\ & =5\,ft×5\,ft \\ & =(5×5)×(ft×ft) \\ & =25\,ft^{2}.\end{aligned}
+
 $$
 
 ### Calculating Volume
@@ -123,7 +131,9 @@ We say that the **side length** of this cube equals $2\,\textrm{cm}.$
 Since a cube is a special type of rectangular solid, we find its volume by multiplying its length, width, and height. However, since its length, width, and height are all equal, we can find its volume by *cubing* its side length:
 
 $$
+
 \begin{aligned}𝑉 & =(2\,cm)^{3} \\ & =(2\,cm)×(2\,cm)×(2\,cm) \\ & =(2×2×2)×(cm×cm×cm) \\ & =8\,cm^{3}\end{aligned}
+
 $$
 
 ### Example: Computing a Volume With the Correct Units
@@ -139,5 +149,7 @@ What is the volume of the cube shown in the diagram above?
 To find the volume $V$ of a cube, we cube its side length. Therefore,
 
 $$
+
 \begin{aligned}𝑉 & =(5\,m)^{3} \\ & =5\,m×5\,m×5\,m \\ & =(5×5×5)×(m×m×m) \\ & =125\,m^{3}.\end{aligned}
+
 $$

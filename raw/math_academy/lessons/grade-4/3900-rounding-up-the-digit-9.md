@@ -16,7 +16,9 @@ When rounding whole numbers to the nearest ten, we sometimes need to adjust the 
 To demonstrate, let's round the following number to the nearest ten:
 
 $$
+
 298
+
 $$
 
 As usual, we start by writing our number into a place value chart, highlighting the *tens* place:

@@ -14,7 +14,9 @@ Topic ID: 2316
 When a power of ten is written in exponent form, we can express it as a $1$ followed by a block of zeros. The number of zeros in the block should equal the exponent. For example,
 
 $$
+
 2
+
 $$
 
 We can use this idea to calculate products involving powers of ten in exponent form.
@@ -24,13 +26,17 @@ To illustrate, let's work out how to compute $6 \times 10^2.$
 First, we can expand $10^2$ by writing it as $1$ followed by a block of $2$ zeros:
 
 $$
+
 2
+
 $$
 
 Now, to find $6 \times 100,$ we join $6$ with the block of zeros:
 
 $$
+
 6 \times 1{\color{blue}00} =6 {\color{blue}{00}}
+
 $$
 
 Therefore, $6 \times 10^2 = 600.$
@@ -46,13 +52,17 @@ What is the value of $29 \times 10^1?$
 First, we can expand $10^1$ by writing a $1$ followed by a block of $1$ zero:
 
 $$
-1
-$$
 
-Now, to find $29 \times 10,$ we join $\bbox[2pt, lightgray]{29}$ with the block of zeros:
+1
 
 $$
+
+Now, to find $29 \times 10,$ we join $\boxed{29}$ with the block of zeros:
+
+$$
+
 1
+
 $$
 
 Therefore, $29 \times 10^1 = 290.$
@@ -70,19 +80,25 @@ To calculate the total number of sheets of paper, we need to multiply $7$ by $10
 First, we notice that
 
 $$
+
 2
+
 $$
 
 So, we have
 
 $$
-2
-$$
 
-Now, to find $7 \times 100,$ we join $\bbox[2pt, lightgray]{7}$ with the block of zeros:
+2
 
 $$
+
+Now, to find $7 \times 100,$ we join $\boxed{7}$ with the block of zeros:
+
+$$
+
 2
+
 $$
 
 Therefore, $7 \times 10^2 = 700.$
@@ -100,19 +116,25 @@ Find the value of $173 \times 10^3.$
 First, we can expand out $10^3$ by writing a $1$ followed by a block of $3$ zeros:
 
 $$
+
 3
+
 $$
 
 So, we have:
 
 $$
-3
-$$
 
-Now, to find $173 \times 1,000,$ we join $\bbox[2pt, lightgray]{173}$ with the block of zeros:
+3
 
 $$
+
+Now, to find $173 \times 1,000,$ we join $\boxed{173}$ with the block of zeros:
+
+$$
+
 3
+
 $$
 
 Therefore, $173 \times 10^3 = 173,000.$
@@ -128,19 +150,25 @@ $582 \times 10^4=$
 First, we can expand out $10^4$ by writing a $1$ followed by a block of $4$ zeros:
 
 $$
+
 4
+
 $$
 
 So, we have:
 
 $$
-4
-$$
 
-Now, to find $582 \times 10,000,$ we join $\bbox[2pt, lightgray]{582}$ with the block of zeros:
+4
 
 $$
+
+Now, to find $582 \times 10,000,$ we join $\boxed{582}$ with the block of zeros:
+
+$$
+
 4
+
 $$
 
 Therefore, $582 \times 10^4 = 5,820,000.$

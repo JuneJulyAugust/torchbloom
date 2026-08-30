@@ -38,19 +38,25 @@ Let's determine how many cups are in $96$ fluid ounces.
 We start with the unit conversion between fluid ounces and cups:
 
 $$
+
 1\, \textrm{cup} =8\, \textrm{fluid ounces}
+
 $$
 
 Since we are converting *from* fluid ounces *to* cups, we divide both sides of the above equation by $8$ and obtain the following:
 
 $$
+
 \dfrac{1}{8} \, \textrm{cups} = 1 \, \textrm{fluid ounce}
+
 $$
 
 The right-hand side reads $1$ fluid ounce, and we want to know how many cups are in ${\color{blue}{96}}$ fluid ounces. So, we multiply both sides of the above equation by ${\color{blue}{96}}{:}$
 
 $$
+
 \begin{aligned}96×\frac{1}{8}\,cups & =96×1\,fluid ounce \\ \frac{96}{8}\,cups & =96\,fluid ounces \\ 12\,cups & =96\,fluid ounces\end{aligned}
+
 $$
 
 Therefore, $96$ fluid ounces equals $12$ cups.
@@ -66,19 +72,25 @@ How many cups are there in $68$ fluid ounces?
 We start with the unit conversion between fluid ounces and cups:
 
 $$
+
 1 \, \textrm{cup} = 8 \, \textrm{fluid ounces}
+
 $$
 
 Now, we divide both sides by $8$ and obtain the following:
 
 $$
+
 \dfrac{1}{8} \, \textrm{cups} = 1 \, \textrm{fluid ounce}
+
 $$
 
 We want to figure out how many cups are in $68$ fluid ounces. So, we multiply both sides of the above equation by $68{:}$
 
 $$
+
 \begin{aligned}68×\frac{1}{8}\,cups & =68×1\,fluid ounce \\ \frac{68}{8}\,cups & =68\,fluid ounces \\ \frac{68÷4}{8÷4}\,cups & =68\,fluid ounces \\ \frac{17}{2}\,cups & =68\,fluid ounces \\ 8\,\frac{1}{2}\,cups & =68\,fluid ounces\end{aligned}
+
 $$
 
 Therefore, $68$ fluid ounces equals $8 \, \dfrac{1}{2}$ cups.
@@ -94,19 +106,25 @@ How many pints are there in $36$ cups?
 We start with the unit conversion between pints and cups:
 
 $$
+
 1 \, \textrm{pint} = 2 \, \textrm{cups}
+
 $$
 
 Now, we divide both sides by $2$ and obtain the following:
 
 $$
+
 \dfrac{1}{2} \, \textrm{pints} = 1 \, \textrm{cup}
+
 $$
 
 We want to figure out how many pints are in $36$ cups. So, we multiply both sides of the above equation by $36{:}$
 
 $$
+
 \begin{aligned}36×\frac{1}{2}\,pints & =36×1\,cup \\ \frac{36}{2}\,pints & =36\,cups \\ 18\,pints & =36\,cups\end{aligned}
+
 $$
 
 Therefore, $36$ cups equals $18$ pints.
@@ -122,19 +140,25 @@ How many gallons are there in $22$ pints?
 We start with the unit conversion between pints and gallons:
 
 $$
+
 1\, \textrm{gallon} = 8\, \textrm{pints}
+
 $$
 
 Now, we divide both sides by $8$ and obtain the following:
 
 $$
+
 \dfrac{1}{8}\, \textrm{gallons} = 1\, \textrm{pint}
+
 $$
 
 We want to figure out how many gallons are in $22$ pints. So, we multiply both sides of the above equation by $22{:}$
 
 $$
+
 \begin{aligned}22×\frac{1}{8}\,gallons=22×1\,pint \\ \frac{22}{8}\,gallons=22\,pints \\ \frac{22÷2}{8÷2}\,gallons=22\,pints \\ \frac{11}{4}\,gallons=22\,pints \\ 2\,\frac{3}{4}\,gallons=22\,pints\end{aligned}
+
 $$
 
 Therefore, $22$ pints equals $2\,\dfrac{3}{4}$ gallons.
@@ -144,7 +168,9 @@ Therefore, $22$ pints equals $2\,\dfrac{3}{4}$ gallons.
 For metric units of volume, there is one conversion we need to be aware of. That is
 
 $$
+
 1 \,\textrm{L} = 1,000 \,\textrm{mL}.
+
 $$
 
 Let's use this to determine how many liters are in $3,000$ milliliters.
@@ -152,13 +178,17 @@ Let's use this to determine how many liters are in $3,000$ milliliters.
 Since we are converting *from* milliliters *to* liters, we divide both sides of the above equation by $1\,000$ and obtain the following:
 
 $$
+
 \dfrac{1}{1,000} \,\textrm{L} = 1 \,\textrm{mL}
+
 $$
 
 The right-hand side reads $1\,\textrm{mL},$ and we want to know how many liters are in $\color{blue}3\,000$ milliliters. So, we multiply *both* sides of this equation by ${\color{blue}{3000}}.$
 
 $$
+
 \begin{aligned}3000×\frac{1}{1,000}\,L & =3000×1\,mL \\ (3,000÷1,000)\,L & =3,000\,mL \\ 3\,L & =3,000\,mL\end{aligned}
+
 $$
 
 Therefore, $3,000\,\textrm{mL}$ equals $3\,\textrm{L}.$
@@ -174,19 +204,25 @@ How many liters are there in $750$ milliliters?
 We start with the unit conversion between liters and milliliters:
 
 $$
+
 1 \,\textrm{L} = 1,000 \,\textrm{mL}
+
 $$
 
 Now, we divide both sides by $1,000$ and obtain the following:
 
 $$
+
 \dfrac{1}{1,000} \,\textrm{L} = 1 \,\textrm{mL}
+
 $$
 
 We want to figure out how many liters are in $750$ milliliters. So, we multiply both sides of the above equation by $750{:}$
 
 $$
+
 \begin{aligned}750×\frac{1}{1,000}\,L & =750×1\,mL \\ (750÷1,000)\,L & =750\,mL \\ 0.75\,L & =750\,mL\end{aligned}
+
 $$
 
 Therefore, $750\,\textrm{mL}$ equals $0.75\,\textrm{L}.$

@@ -23,7 +23,9 @@ Now we complete the division, as usual, stopping once we obtain a remainder of $
 Therefore,
 
 $$
+
 4 \div 5 = 0.8\,.
+
 $$
 
 ### Example: Dividing Two Numbers When the Quotient Has One Decimal Place
@@ -43,7 +45,9 @@ Now we complete the division, as usual, stopping once we obtain a remainder of $
 Therefore,
 
 $$
+
 46 \div 5 = 9.2\,.
+
 $$
 
 ### Example: Dividing Two Numbers When the Quotient Has Two Decimal Places
@@ -63,7 +67,9 @@ Now we complete the division, as usual, adding more zeros as needed but stopping
 Therefore,
 
 $$
+
 51 \div 4 = 12.75\,.
+
 $$
 
 ### Example: Dividing Two Numbers When the Quotient Has Three Decimal Places
@@ -83,14 +89,16 @@ Now we complete the division, as usual, adding more zeros as needed but stopping
 Therefore,
 
 $$
+
 79 \div 8 = 9.875\,.
+
 $$
 
 ### Example: Dividing Two Numbers When the Quotient is a Decimal: Word Problems
 
 #### Question
 
-Cameron spent $\[math]607$ in five days. If she spent an equal amount each day, how much did Cameron spend per day?
+Cameron spent $607$ in five days. If she spent an equal amount each day, how much did Cameron spend per day?
 
 #### Explanation
 
@@ -105,7 +113,9 @@ Now we complete the division, as usual, stopping once we obtain a remainder of $
 Therefore,
 
 $$
+
 607 \div 5 = 121.4 \, .
+
 $$
 
-We conclude that Cameron spent $\[math]121.40$ each day.
+We conclude that Cameron spent $121.40$ each day.

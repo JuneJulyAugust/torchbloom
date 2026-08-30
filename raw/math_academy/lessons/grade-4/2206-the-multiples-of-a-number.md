@@ -15,7 +15,9 @@ Topic ID: 2206
 A **multiple** of $\color{blue}2$ is any number that can be written as
 
 $$
+
 𝐴
+
 $$
 
 where $𝐴$ is a whole number.
@@ -23,13 +25,17 @@ where $𝐴$ is a whole number.
 For example, let's take a look at the first few entries of the ${\color{blue}{2}}\times$ multiplication table:
 
 $$
+
 \begin{aligned}2×1 & = & 2 \\ 2×2 & = & 4 \\ 2×3 & = & 6 \\ 2×4 & = & 8 \\ 2×5 & = & 10\end{aligned}
+
 $$
 
 The multiples of $\color{blue}2$ are given by the following products:
 
 $$
+
 {\color{red}2}, \quad {\color{red}4}, \quad {\color{red}6}, \quad {\color{red}8}, \quad {\color{red}10}, \quad \ldots
+
 $$
 
 We can picture all of the multiples of $\color{blue}2$ using a number line:
@@ -47,7 +53,9 @@ What is the sum of the first three positive multiples of $110?$
 To find the first three positive multiples of $110,$ we multiply $110$ by $1$, $2$ and $3$, respectively:
 
 $$
+
 \begin{aligned} & 110×1=110 \\ & 110×2=110+110=220 \\ & 110×3=220+110=330\end{aligned}
+
 $$
 
 So, the sum is $110+220+330 = 660.$
@@ -63,13 +71,17 @@ List the first three positive multiples of $31$ in ascending order.
 To find the first three positive multiples of $31,$ we multiply $31$ by $1$, $2$ and $3$, respectively:
 
 $$
+
 \begin{aligned} & 31×1=31 \\ & 31×2=31+31=62 \\ & 31×3=62+31=93\end{aligned}
+
 $$
 
 So, the first three positive multiples of $31$ are
 
 $$
-\bbox[3pt,Gainsboro]{\color{blue}31}, \quad \bbox[3pt,Gainsboro]{\color{blue}62}, \quad \bbox[3pt,Gainsboro]{\color{blue}93}.
+
+\boxed{\color{blue}31}, \quad \boxed{\color{blue}62}, \quad \boxed{\color{blue}93}.
+
 $$
 
 ### Example: Recognizing Multiples of One-Digit Numbers
@@ -79,7 +91,9 @@ $$
 Which of the following numbers are multiples of $3?$
 
 $$
+
 6, \quad 12, \quad 16
+
 $$
 
 #### Explanation
@@ -87,7 +101,9 @@ $$
 Let's start by listing the first few multiples of $3\mathbin{:}$
 
 $$
+
 3, \quad 6, \quad 9, \quad 12, \quad 15, \quad 18, \quad \ldots
+
 $$
 
 Now, let's examine our numbers in turn.
@@ -107,7 +123,9 @@ Therefore, the correct answer is "$6$ and $12$ only."
 Which of the following numbers are multiples of $35?$
 
 $$
+
 70, \quad 90, \quad 105
+
 $$
 
 #### Explanation
@@ -119,7 +137,9 @@ We start by drawing a number line. Then, we move along our number line in jumps 
 So, the first few multiples of $35$ are as follows:
 
 $$
+
 35, \quad 70, \quad 105, \quad 140, \quad \ldots
+
 $$
 
 Now, let's examine our numbers in turn.

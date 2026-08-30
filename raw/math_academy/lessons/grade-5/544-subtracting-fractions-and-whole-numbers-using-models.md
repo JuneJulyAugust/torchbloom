@@ -26,7 +26,9 @@ In order to subtract, we split the whole number ($1$ in this case) into $\color{
 Now, both shapes are split into $\color{red}6$ equal parts, and we have $6-1={\color{blue}{5}}$ parts in total. Therefore:
 
 $$
+
 1 - \dfrac{1}{6} = \dfrac{\color{blue}5}{\color{red}6}
+
 $$
 
 ### Example: Subtracting Fractions From Whole Numbers
@@ -44,7 +46,9 @@ All three shapes are already split into $\color{red}3$ equal parts, and we have 
 Therefore,
 
 $$
+
 2 - \dfrac{1}{3} = \dfrac{{\color{blue}5}}{{\color{red}3}}.
+
 $$
 
 ### Example: Splitting Whole Numbers Into Parts
@@ -56,7 +60,9 @@ $$
 Use the model above to determine the missing number in the statement below.
 
 $$
+
 \,0\,
+
 $$
 
 #### Explanation
@@ -70,7 +76,9 @@ We have $5 + 5 - 3=\color{blue}7$ shaded parts in total.
 Therefore,
 
 $$
+
 2 - \dfrac{3}{5} = \dfrac{\color{blue}7}{5}.
+
 $$
 
 So, the missing number is $\color{blue}7.$
@@ -96,5 +104,7 @@ We have $6 + 6 - 1 = \color{blue}11$ shaded parts in total.
 Therefore,
 
 $$
+
 2 - \dfrac{1}{6} = \dfrac{\color{blue}11}{\color{red}6}.
+
 $$

@@ -16,25 +16,33 @@ To add two mixed numbers, we add whole numbers to whole numbers and fractions to
 For example, let's consider the following addition problem:
 
 $$
+
 {\color{red}1}\,{\color{blue}\dfrac 1 5} + {\color{red}1}\,{\color{blue}\dfrac 3 5}
+
 $$
 
 Adding the whole numbers, we get
 
 $$
+
 {\color{red}1}+{\color{red}1} = {\color{red}{2}}.
+
 $$
 
 Adding the fractions, we get
 
 $$
+
 {\color{blue}\dfrac 1 5} + {\color{blue}\dfrac 3 5} = {\color{blue}{\dfrac{1+3}{5}}} = {\color{blue}{\dfrac 4 5}}.
+
 $$
 
 Finally, we add the resulting whole number and the fraction:
 
 $$
+
 1\,\frac 1 5 + 1\,\dfrac 3 5 = {\color{red}{2}} + {\color{blue}{\dfrac 4 5}} = 2\,\dfrac 4 5
+
 $$
 
 We can check this result using a fraction model.
@@ -66,7 +74,9 @@ With that in mind, let's add our numbers.
 Finally, we combine our results:
 
 $$
+
 \dfrac 1 3 + 5\,\dfrac 1 3 = {\color{red}5} + {\color{blue}{\dfrac 2 3}} =5\,\dfrac 2 3
+
 $$
 
 ### Example: Adding Mixed Numbers When Simplification Is Needed
@@ -92,7 +102,9 @@ With that in mind let's add our mixed numbers.
 Therefore,
 
 $$
+
 2\,\dfrac 5 {10} + 4\,\dfrac 3 {10} = {\color{red}{6}} + {\color{blue}{\dfrac 4 5}} = 6\,\dfrac 4 5.
+
 $$
 
 ### Fractional Parts Whose Sum Gives a Whole
@@ -102,7 +114,9 @@ When adding mixed numbers, we sometimes get a result greater than (or equal to) 
 To demonstrate, let's compute the value of the following sum:
 
 $$
+
 4\,\dfrac 2 5 + 3\,\dfrac 4 5
+
 $$
 
 As before, we add whole numbers to whole numbers and fractions to fractions:
@@ -114,7 +128,9 @@ As before, we add whole numbers to whole numbers and fractions to fractions:
 Combining our results, we get
 
 $$
+
 4\,\dfrac 2 5 + 3\,\dfrac 4 5 = {\color{red}{7}} + {\color{blue}{1\,\dfrac 1 5}} = 8\,\dfrac 1 5.
+
 $$
 
 ### Example: Adding Mixed Numbers When the Fractional Parts Sum to a Whole
@@ -140,5 +156,7 @@ With that in mind let's add our mixed numbers.
 Therefore,
 
 $$
+
 2\,\dfrac 1 4 + 2\,\dfrac 3 4 = {\color{red}{4}} + {\color{blue}{1}} = 5.
+
 $$

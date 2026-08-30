@@ -24,7 +24,9 @@ We use **milliliters** to measure smaller volumes. The symbol for milliliters is
 Notice that if we add $1\,\textrm{mL}$ to itself $1\,000$ times, we get exactly $1\,\textrm{L}{:}$
 
 $$
+
 \begin{aligned}\overset{\overset{1\,mL+1\,mL+⋯+1\,mL}{}}{1\,000 times} & = \\ \frac{1}{1\,000}\,L+\frac{1}{1\,000}\,L+⋯+\frac{1}{1\,000}\,L & = \\ 1\,000×\frac{1}{1\,000}\,L & = \\ \frac{1\,000×1}{1\,000}\,L & = \\ \frac{1\,000}{1\,000}\,L & = \\ 1\,L & \end{aligned}
+
 $$
 
 Therefore, $1\,000\,\textrm{mL}$ equals $1\,\textrm{L},$ as stated in the diagram.

@@ -15,7 +15,9 @@ Topic ID: 3916
 Consider the following decimal fraction:
 
 $$
+
 \dfrac{6}{10}
+
 $$
 
 Let's use an area model to convert this fraction into a decimal fraction with a denominator of $100.$
@@ -27,7 +29,9 @@ First, we draw the area model corresponding to six-tenths:
 We are looking for a fraction of the form
 
 $$
+
 \,0\,
+
 $$
 
 So, we need to find another shape with the same shaded area divided into $100$ equal parts. To do that, we subdivide each part into $10$ equal pieces:
@@ -39,7 +43,9 @@ The shape on the right is divided into $10 \times 10 = 100$ equal parts. Of them
 Therefore, we obtain
 
 $$
+
 \dfrac{6}{10} = \dfrac{\color{blue}60}{100}.
+
 $$
 
 ### Example: Finding Equivalent Decimal Fractions Using Area Models
@@ -51,7 +57,9 @@ $$
 The fraction given below is equivalent to the fraction shown in the picture. What number is missing?
 
 $$
+
 \,0\,
+
 $$
 
 #### Explanation
@@ -61,7 +69,9 @@ There are $10$ equal parts in the given shape in total. Of them, $7$ parts are s
 Since we are looking for a fraction of the form
 
 $$
+
 \,0\,
+
 $$
 
 we now draw another shape that has the same shaded area but is divided into $100$ equal parts. To do that, we subdivide each part into $10$ equal pieces:
@@ -73,7 +83,9 @@ The shape on the right is divided into $10 \times 10 = 100$ equal parts. Of them
 Hence, we obtain
 
 $$
+
 \,70\,
+
 $$
 
 Therefore, the missing number is $\color{blue}70.$
@@ -85,13 +97,17 @@ We can convert between equivalent decimal fractions without drawing area models.
 For example, we can make a denominator of $100$ in $\dfrac{2}{10}$ if we multiply the numerator and denominator of the fraction by $10{:}$
 
 $$
+
 \dfrac{2}{10} = \dfrac{2 \times 10}{10 \times 10} = \dfrac{{\color{black}{20}}}{100}
+
 $$
 
 Therefore,
 
 $$
+
 \dfrac{2}{10} = \dfrac{20}{100}.
+
 $$
 
 Similarly, to make an equivalent decimal fraction, we can divide the numerator and denominator by $10.$ Let's see an example.
@@ -107,7 +123,9 @@ Find a decimal fraction with a denominator of $10$ that's equivalent to $\dfrac{
 To make a denominator of $10,$ we divide the numerator and the denominator of $\dfrac{40}{100}$ by $10.$
 
 $$
+
 \dfrac{40}{100} = \dfrac{40 \div 10}{100 \div 10} = \dfrac{4}{10}
+
 $$
 
 Therefore, $\dfrac{40}{100}$ is equivalent to $\dfrac{4}{10}.$
@@ -119,7 +137,9 @@ Using what we've learned, we can now add fractions with denominators $10$ and $1
 For example, let's find the value of
 
 $$
+
 \dfrac{5}{10} + \dfrac{3}{100}.
+
 $$
 
 Note the following:
@@ -131,19 +151,25 @@ Note the following:
 To put $\dfrac{5}{10}$ over a denominator of $100,$ we multiply the numerator and denominator by $10{:}$
 
 $$
+
 \dfrac{5}{10} = \dfrac{5 \times 10}{10 \times 10} = \dfrac{50}{100}
+
 $$
 
 We can now add the fractions. We keep the denominator the same, and we add the numerators:
 
 $$
+
 \begin{aligned}\frac{5}{10}+\frac{3}{100} & = \\ \frac{50}{100}+\frac{3}{100} & = \\ \frac{50+3}{100} & = \\ \frac{53}{100} & \end{aligned}
+
 $$
 
 Therefore, we conclude that
 
 $$
+
 \dfrac{5}{10} + \dfrac{3}{100} = \dfrac{53}{100}.
+
 $$
 
 ### Example: Finding a Sum of Decimal Fractions
@@ -159,11 +185,15 @@ To add the fractions, we need to express each fraction as an equivalent fraction
 To put $\dfrac{3}{10}$ over a denominator of $100,$ we multiply the numerator and denominator by $10{:}$
 
 $$
+
 \dfrac{3}{10} = \dfrac{3 \times 10}{10 \times 10} = \dfrac{30}{100}
+
 $$
 
 We can now add the fractions. We keep the denominator the same, and we add the numerators:
 
 $$
+
 \begin{aligned}\frac{30}{100}+\frac{27}{100}=\frac{30+27}{100}=\frac{57}{100}\end{aligned}
+
 $$

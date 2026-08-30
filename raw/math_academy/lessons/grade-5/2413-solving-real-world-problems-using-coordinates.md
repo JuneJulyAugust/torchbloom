@@ -64,7 +64,9 @@ The point that represents Diane has coordinates $({\color{red}4},{\color{blue}2}
 Jack, a locomotive driver, recorded the distance traveled by a train every hour. The following ordered pairs are recorded:
 
 $$
+
 (0,0), \quad (1,150),\quad (2,300),\quad (3,450)
+
 $$
 
 Given that the first number in each ordered pair is the time, and the second is the distance, which plot corresponds to the given data?

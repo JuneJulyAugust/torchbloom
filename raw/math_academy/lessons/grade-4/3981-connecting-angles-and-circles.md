@@ -54,19 +54,25 @@ The angle $\angle AOB$ represents one-tenth of a full turn. Since a full turn ha
 Therefore, we can express the degree measure of $\angle{AOB}$ as follows:
 
 $$
+
 \begin{aligned}\frac{1}{10}×360^{∘} & = \\ \frac{1×360^{∘}}{10} & = \\ \frac{360^{∘}}{10} & \end{aligned}
+
 $$
 
 It's common to write the fraction in parentheses and place the degree symbol outside, as follows:
 
 $$
+
 \begin{aligned}(\frac{360}{10})^{∘}\end{aligned}
+
 $$
 
 Finally, we simplify this fraction by expressing it as a division.
 
 $$
+
 \begin{aligned}\frac{360}{10} & = \\ 360÷10 & \\ 36\,0 & \\ 36 & \end{aligned}
+
 $$
 
 Therefore, we conclude that the measure of $\angle AOB$ is $36^\circ.$
@@ -86,13 +92,17 @@ Remember that a full turn has a measure of $360^\circ.$
 Therefore, the measure of $\angle{AOB}$ is
 
 $$
+
 \begin{aligned}\frac{1}{12}×360^{∘} & = \\ \frac{1×360^{∘}}{12} & = \\ \frac{360^{∘}}{12} & .\end{aligned}
+
 $$
 
 It's common to write the fraction in parentheses and place the degree symbol outside, as follows:
 
 $$
+
 \begin{aligned}(\frac{360}{12})^{∘}\end{aligned}
+
 $$
 
 ### Example: Measuring Angles Using Circles
@@ -110,19 +120,25 @@ Remember that a full turn has a measure of $360^\circ.$
 Therefore, the measure of $\angle{AOB}$ is
 
 $$
+
 \begin{aligned}\frac{1}{60}×360^{∘} & = \\ \frac{1×360^{∘}}{60} & = \\ \frac{360^{∘}}{60} & = \\ (\frac{360}{60})^{∘}. & \end{aligned}
+
 $$
 
 To solve this division problem, we first divide the numerator and denominator by $10{:}$
 
 $$
+
 \begin{aligned}\frac{360}{60} & = \\ \frac{360÷10}{60÷10} & = \\ \frac{36\,0}{6\,0} & = \\ \frac{36}{6} & \end{aligned}
+
 $$
 
 Now, we evaluate the fraction by expressing it as a division:
 
 $$
+
 \begin{aligned}\frac{36}{6} & = \\ 36÷6 & = \\ 6 & \end{aligned}
+
 $$
 
 Therefore, the measure of $\angle{AOB}$ is $6^\circ.$
@@ -144,7 +160,9 @@ We can find the value of $360 \div 8$ using a box model:
 According to the box model,
 
 $$
+
 360 \div 8 = 40 + 5 = 45.
+
 $$
 
 Therefore, $45$ angles of $8^\circ$ are required to make a complete turn.

@@ -66,7 +66,9 @@ Note the following:
 We use the letter $m$ to represent the measure of the angle. For example,
 
 $$
+
 m \angle C = 90^\circ.
+
 $$
 
 We'd read this as "the measure of the angle $C$ is $90$ degrees."

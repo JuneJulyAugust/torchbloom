@@ -26,7 +26,9 @@ The **distance** between $-5$ and zero equals $5$ because $-5$ is five steps awa
 Therefore, *the absolute value of* $-5$ *equals* $5.$ We write this as follows:
 
 $$
+
 | \, {-5} \, | = 5
+
 $$
 
 ### A Fast Way of Finding the Absolute Value
@@ -48,7 +50,9 @@ What is the value of $\mid 4\!\mid \,?$
 The absolute value of a positive number equals the number:
 
 $$
+
 \left|4\right| = 4
+
 $$
 
 The absolute value of a number gives the distance between the number and zero on a number line.
@@ -66,7 +70,9 @@ Find $| {-2} |.$
 To find the absolute value of $-2,$ we simply drop the negative sign:
 
 $$
+
 \mid-2\!\mid=2
+
 $$
 
 The absolute value of a number gives the distance between the number and zero on a number line.

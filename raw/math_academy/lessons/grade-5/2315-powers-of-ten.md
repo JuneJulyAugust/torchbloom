@@ -16,7 +16,9 @@ A **power of ten** is a number where the leading digit is $1,$ and the remaining
 For example, the following numbers are all powers of ten:
 
 $$
+
 10, \qquad 100, \qquad 1,000, \qquad 10,000, \qquad 100,000, \qquad \dots
+
 $$
 
 Any power of ten can be written as $0$ where the missing number is equal to the number of zeros in the power of $10.$
@@ -24,13 +26,17 @@ Any power of ten can be written as $0$ where the missing number is equal to the 
 For example, notice that the number $10,000,$ which is a power of ten, has a block of $\color{blue}4$ zeros:
 
 $$
+
 4
+
 $$
 
 Therefore, we can write the number $10,000$ as follows:
 
 $$
+
 10^{\color{blue}4}
+
 $$
 
 We say that the number $10,000$ is expressed in **exponent form.** The number ${\color{blue}4}$ is called the **exponent**, and we say that the **base** is $10.$
@@ -42,7 +48,9 @@ We say that the number $10,000$ is expressed in **exponent form.** The number ${
 What is the missing exponent?
 
 $$
+
 0
+
 $$
 
 #### Explanation
@@ -50,13 +58,17 @@ $$
 First, notice that $10$ on the right-hand side has a block of $1$ zero:
 
 $$
-1 \!\!\!\!\!\!\!\underset{\substack{\uparrow \[2pt] \large \text{one zero}}}{\color{blue}0}\!\!\!\!\!\!\!\!\!
+
+1 \!\!\!\!\!\!\!\underset{\substack{\uparrow \\[2pt] \large \text{one zero}}}{\color{blue}0}\!\!\!\!\!\!\!\!\!
+
 $$
 
 The exponent corresponds to the number of zeros. Therefore, the missing exponent is ${\color{red}1},$ and
 
 $$
+
 10^{\color{red}1}=10.
+
 $$
 
 ### Example: Expanding a Power of Ten Written in Exponent Form
@@ -72,7 +84,9 @@ The number $10^3$ is in exponent form where the base is $10$ and the exponent is
 So, we write $1$ followed by a block of $3$ zeros:
 
 $$
+
 3
+
 $$
 
 ### Example: Writing a Larger Power of Ten in Exponent Form
@@ -86,11 +100,15 @@ Which of the following is equivalent to $1,000,000,000?$
 First, notice that $1,000,000,000$ has a block of $9$ zeros:
 
 $$
+
 9
+
 $$
 
 We can write the number in exponent form where the exponent corresponds to the number of zeros:
 
 $$
+
 10^{\color{red}9}=1,000,000,000
+
 $$

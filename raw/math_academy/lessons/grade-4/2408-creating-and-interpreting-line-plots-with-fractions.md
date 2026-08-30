@@ -16,13 +16,17 @@ Topic ID: 2408
 Let's create a line plot for the following dataset:
 
 $$
+
 \dfrac{1}{4} \quad \dfrac{1}{2} \quad \dfrac{1}{4} \quad \dfrac{3}{4}
+
 $$
 
 **Step 1.** First, we identify any values that are the same:
 
 $$
+
 {\color{blue}{\dfrac{1}{4}}} \quad {\color{red}{\dfrac{1}{2}}} \quad {\color{blue}{\dfrac{1}{4}}} \quad \dfrac{3}{4}
+
 $$
 
 **Step 2.** Second, we order the data from smallest to largest. To compare fractions with unlike denominators, we need to express each fraction as an equivalent fraction with a common denominator.
@@ -32,19 +36,25 @@ Here, we can make a common denominator of $4.$
 To put ${\color{red}\dfrac{1}{2}}$ over a denominator of $4,$ we multiply the numerator and denominator by $2\mathbin{:}$
 
 $$
+
 \dfrac{1}{2}= \dfrac{1 \times 2}{2 \times 2} = {\color{red}\dfrac{2}{4}}
+
 $$
 
 So, our data set is equivalent to the following:
 
 $$
+
 {\color{blue}{\dfrac{1}{4}}} \quad {\color{red}{\dfrac{2}{4}}} \quad {\color{blue}{\dfrac{1}{4}}} \quad \dfrac{3}{4}
+
 $$
 
 **Step 3.** Thirdly, we order the dataset:
 
 $$
+
 \underbrace{{\color{blue}\dfrac{1}{4}} \quad {\color{blue}\dfrac{1}{4}} }_{2} \quad \underbrace{{\color{red}\dfrac{2}{4}} }_{1} \quad \underbrace{{\color{black}\dfrac{3}{4}} }_{1}
+
 $$
 
 **Step 4.** Finally, we can create a line plot. We write each fraction on a number line, and then place a cross above the fraction for each occurance in the dataset. This gives us the following line plot:
@@ -58,7 +68,9 @@ $$
 What line plot represents the data set below?
 
 $$
+
 \dfrac{1}{3} \quad \dfrac{5}{6} \quad \dfrac{1}{6} \quad \dfrac{1}{3} \quad \dfrac{1}{6}
+
 $$
 
 #### Explanation
@@ -66,7 +78,9 @@ $$
 First, we identify any values that are the same:
 
 $$
+
 {\color{blue}{\dfrac{1}{3}}} \quad {\color{red}{\dfrac{5}{6}}} \quad \dfrac{1}{6} \quad {\color{blue}{\dfrac{1}{3}}} \quad \dfrac{1}{6}
+
 $$
 
 Then, we order the data from the least to the greatest. To compare fractions with unlike denominators, we need to express each fraction as an equivalent fraction with a common denominator.
@@ -76,19 +90,25 @@ Here, we can make a common denominator of $6.$
 To put ${\color{blue}\dfrac{1}{3}}$ over a denominator of $6,$ we multiply the numerator and denominator by $2\mathbin{:}$
 
 $$
+
 \dfrac{1}{3}= \dfrac{1 \times 2}{3 \times 2} = {\color{blue}\dfrac{2}{6}}
+
 $$
 
 So our data set is equivalent to:
 
 $$
+
 {\color{blue}{\dfrac{2}{6}}} \quad {\color{red}{\dfrac{5}{6}}} \quad \dfrac{1}{6} \quad {\color{blue}{\dfrac{2}{6}}} \quad \dfrac{1}{6}
+
 $$
 
 Now, we order the dataset:
 
 $$
+
 \underbrace{{\color{black}\dfrac{1}{6}} \quad {\color{black}\dfrac{1}{6}} }_{2} \quad \underbrace{{\color{blue}\dfrac{2}{6}} \quad {\color{blue}\dfrac{2}{6}} }_{2} \quad \underbrace{{\color{red}\dfrac{5}{6}} }_{1}
+
 $$
 
 Finally, we can create a line plot. We write each fraction on the number line, and then place a cross above the fraction for each time it occurs in the dataset:
@@ -118,7 +138,9 @@ We organize these results in the table:
 So, we have the following dataset for the number of apples given to each child:
 
 $$
+
 \dfrac{1}{2} \qquad 1\, \dfrac{1}{2} \qquad 2
+
 $$
 
 This dataset has the following line plot:

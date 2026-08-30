@@ -30,7 +30,9 @@ Since the $64$ candy bars are distributed into boxes containing $5$ bars each, w
 The result of the long division is
 
 $$
+
 64 \div 5 = {\color{blue}{12}}\,\text{R}\,{\color{red}{4}}.
+
 $$
 
 Let's now answer our questions by interpreting this result:
@@ -58,7 +60,9 @@ To divide $9,252$ by $5,$ we use long division:
 Therefore,
 
 $$
+
 9,252 \div 5 = 1,850 \,\text{R}\, {\color{blue}{2}}.
+
 $$
 
 So, $1,850$ rolls of tape will be packaged into rolls, and $\color{blue}2$ yards will be left over.
@@ -78,7 +82,9 @@ To divide $563$ by $4,$ we use long division:
 Therefore,
 
 $$
+
 563 \div 4 = {\color{blue}{140}}\,\text{R}\,3.
+
 $$
 
 So, the architect will receive ${\color{blue}{140}}$ fully-filled packs.
@@ -98,7 +104,9 @@ To divide $112$ by $6,$ we use long division:
 Therefore,
 
 $$
+
 112 \div 6 = 18 \,\text{R}\, {\color{blue}{4}}.
+
 $$
 
 This means that Deborah will fill $18$ boxes and have ${\color{blue}{4}}$ shirts left over.

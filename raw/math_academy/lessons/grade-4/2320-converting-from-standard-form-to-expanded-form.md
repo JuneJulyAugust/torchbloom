@@ -16,7 +16,9 @@ When working with large numbers, writing them as a sum of place values is someti
 Let's write the following number as a sum of hundreds, tens, and ones:
 
 $$
+
 {\color{purple}{6}}{\color{blue}{2}}{\color{red}{4}}
+
 $$
 
 We start by writing down the place values.
@@ -32,7 +34,9 @@ Next, we interpret each place value as a number:
 Therefore, we can write $624$ as a sum of hundreds, tens, and ones as follows:
 
 $$
+
 {\color{purple}{6}}{\color{blue}{2}}{\color{red}{4}} = {\color{purple}{6}}00 + {\color{blue}{2}}0 + {\color{red}{4}}
+
 $$
 
 Note the following:
@@ -66,7 +70,9 @@ From the table:
 Therefore,
 
 $$
+
 4,385 = 4,000 + 300 + 80 + 5.
+
 $$
 
 ### Converting a Number Containing Zeros to Expanded Form
@@ -74,7 +80,9 @@ $$
 Let's write the following number in expanded form:
 
 $$
+
 8,{\color{blue}0}94
+
 $$
 
 Notice that this number has a ${\color{blue}0}$ in the hundreds place.
@@ -94,13 +102,17 @@ Next, we interpret each place value as a number:
 Therefore, we get
 
 $$
+
 8,094 = 8,000 + {\color{blue}0} + 90 + 4.
+
 $$
 
 Since adding $\color{blue}0$ to a number doesn't change it, we can remove this zero. So, our final answer is
 
 $$
+
 8,094 = 8,000 + 90 + 4.
+
 $$
 
 ### Example: Writing Numbers Containing Zeros in Expanded Form
@@ -132,7 +144,9 @@ From the table:
 Therefore,
 
 $$
+
 \begin{aligned}900,010 & = \\ 900,000+0+0+0+10+0 & = \\ 900,000+10 & .\end{aligned}
+
 $$
 
 ### Example: Determining Missing Parts of an Expanded Form
@@ -142,7 +156,9 @@ $$
 What is the missing number in the following equality?
 
 $$
+
 150,210 = 100,000 + 50,000 + \underline{\phantom{{}^{55555555555}}} + 10.
+
 $$
 
 #### Explanation
@@ -166,7 +182,9 @@ From the table:
 As a result,
 
 $$
-150,210 = 100,000 + 50,000 + \bbox[2pt,Gainsboro]{\color{blue}200} + 10
+
+150,210 = 100,000 + 50,000 + \boxed{\color{blue}200} + 10
+
 $$
 
 Therefore, the missing number is $200.$

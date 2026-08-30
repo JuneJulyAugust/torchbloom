@@ -17,7 +17,9 @@ Whenever you move a digit one space to the *left* in a place value chart, the va
 Let's use this idea to compare the size of the digit $3$ in the following two numbers:
 
 $$
+
 {\color{blue}3}8, \qquad 97{\color{red}3}
+
 $$
 
 We can compare the relative sizes of the digit $3$ for each number using a place value chart:
@@ -48,14 +50,16 @@ We need to find a number in which the digit $\color{blue}5$ has a value that is 
 
 ![Instructional graphic](../../lesson-assets/grade-4/topic-2313/a3c59e990b2c42ca.png)
 
-Therefore, the required number is **** number that has the digit $5$ in the hundreds place. For example, $\bbox[2px,lightgray]{\color{blue}5}12.$
+Therefore, the required number is **** number that has the digit $5$ in the hundreds place. For example, $\boxed{\color{blue}5}12.$
 
 ### Comparing Place Values by Moving Multiple Steps to the Left
 
 Let's compare the value of the digit $2$ in the following two numbers:
 
 $$
+
 4,{\color{blue}2}11, \qquad 1{\color{red}2}
+
 $$
 
 - First, we write down the place value chart for $4,{\color{blue}2}11{:}$ **thousands** **hundreds** **tens** **ones** $\color{lightgray}4$ $\color{blue}2$ $\color{lightgray}1$ $\color{lightgray}1$
@@ -93,14 +97,16 @@ We need to find a number in which the digit $\color{blue}6$ has a value that is 
 Notice that,
 
 $$
+
 1,000 = \underbrace{10 \times 10 \times 10}_{\color{black}3\,\text{steps}}.
+
 $$
 
 Therefore, we move $3$ steps left in the place value chart:
 
 ![Instructional graphic](../../lesson-assets/grade-4/topic-2313/e69dfe3ab3e96801.png)
 
-Therefore, the required number is ** number with the digit $6$ in the ten-thousands place. For example, $\bbox[2px,lightgray]{\color{blue}6}5,291.$
+Therefore, the required number is ** number with the digit $6$ in the ten-thousands place. For example, $\boxed{\color{blue}6}5,291.$
 
 ### Example: Moving Multiple Steps to the Left With Larger Numbers
 
@@ -119,11 +125,13 @@ We need to find a number in which the digit $\color{blue}1$ has a value that is 
 Notice that
 
 $$
+
 1,000 = \underbrace{10 \times 10\times 10}_{\color{black}3\,\text{steps}}.
+
 $$
 
 Therefore, we move $3$ steps left in the place value chart:
 
 ![Instructional graphic](../../lesson-assets/grade-4/topic-2313/6db532606079b87c.png)
 
-Therefore, the required number is **** number that has the digit $1$ in the hundred-thousands place. For example, $\bbox[2px,lightgray]{\color{blue}1}05,978.$
+Therefore, the required number is **** number that has the digit $1$ in the hundred-thousands place. For example, $\boxed{\color{blue}1}05,978.$

@@ -51,7 +51,9 @@ Now, the shape to the left shows $\dfrac{6}{\color{blue}8}$ and the shape to the
 Next, we subtract the number of shaded parts on the right from the number on the left.
 
 $$
+
 6 - 4 = {\color{red}{2}}
+
 $$
 
 This gives the picture shown below.
@@ -61,7 +63,9 @@ This gives the picture shown below.
 Therefore, we have:
 
 $$
+
 \dfrac{3}{4} - \dfrac{4}{8} = \dfrac{6}{\color{blue}8} - \dfrac{4}{\color{blue}8} = \dfrac{\color{red}2}{\color{blue}8}
+
 $$
 
 ### Example: Subtracting Two Fractions When Multiple Splits are Required
@@ -85,7 +89,9 @@ Now, the shape to the left shows $\dfrac{9}{\color{blue}12}$ and the shape to th
 Next, we subtract the number of shaded parts on the right from the number on the left.
 
 $$
+
 9 - 1 = {\color{red}{8}}
+
 $$
 
 This gives the picture shown below.
@@ -95,7 +101,9 @@ This gives the picture shown below.
 Therefore, we have
 
 $$
+
 \dfrac{3}{4} - \dfrac{1}{12} = \dfrac{9}{\color{blue}12} - \dfrac{1}{\color{blue}12} = \dfrac{\color{red}8}{\color{blue}12}.
+
 $$
 
 ### Example: Making a Common Denominator by Altering Both Fractions
@@ -107,7 +115,9 @@ $$
 Use the model above to determine the number that is missing in the statement below.
 
 $$
+
 \,0\,
+
 $$
 
 #### Explanation
@@ -123,7 +133,9 @@ Now, the shape to the left shows $\dfrac{3}{\color{blue}6}$ and the shape to the
 Next, we subtract the number of shaded parts on the right from the number on the left.
 
 $$
+
 3-2 = {\color{red}{1}}
+
 $$
 
 This gives the picture shown below.
@@ -133,7 +145,9 @@ This gives the picture shown below.
 Therefore, we have
 
 $$
+
 \,1\,
+
 $$
 
 So, the missing number is $\color{red}1.$

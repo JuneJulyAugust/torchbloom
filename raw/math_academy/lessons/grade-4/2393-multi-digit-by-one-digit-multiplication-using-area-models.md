@@ -55,7 +55,9 @@ Therefore, from left to right, the missing numbers are $400$ and $6.$
 The area model above can be used to represent the following multiplication problem:
 
 $$
+
 00
+
 $$
 
 What is the missing number?
@@ -73,7 +75,9 @@ Let's look at the big rectangle:
 Hence, this area model can be used to represent the following multiplication problem:
 
 $$
+
 1,422
+
 $$
 
 Therefore, the missing number is $1,422.$
@@ -103,7 +107,9 @@ Now, notice the following regarding the big rectangle:
 Therefore, this area model can be used to represent the following multiplication problem:
 
 $$
+
 223 \times 5 = 1,115
+
 $$
 
 ### Example: Multiplying Three-Digit Numbers by One-Digit Numbers
@@ -135,5 +141,7 @@ Now, notice the following regarding the big rectangle:
 Therefore, this area model can be used to represent the following multiplication problem:
 
 $$
+
 754 \times 3 = 2,262
+
 $$

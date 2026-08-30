@@ -32,7 +32,9 @@ In words, we'd say that "$54,678$ is *larger than* $54,378.$"
 Which digits will make the following statement true when inserted into the empty box?
 
 $$
+
 0
+
 $$
 
 #### Explanation
@@ -58,7 +60,9 @@ Therefore, the statement is true when $0$ or $1.$
 Which digits will make the following statement true when inserted into the empty box?
 
 $$
+
 0
+
 $$
 
 #### Explanation

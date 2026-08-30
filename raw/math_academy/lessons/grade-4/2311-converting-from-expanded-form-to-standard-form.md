@@ -16,31 +16,41 @@ A number is in **expanded form** when it's written as a sum of place values.
 For example, the number
 
 $$
+
 {\color{blue}{2}}00+{\color{red}{7}}0+{\color{magenta}{5}}
+
 $$
 
 is in expanded form because it is the same as
 
 $$
+
 {\color{blue}{2}}\:\textrm{hundreds} + {\color{red}{7}}\:\textrm{tens} + {\color{magenta}{5}}\:\textrm{ones}.
+
 $$
 
 Similarly, the number
 
 $$
+
 {\color{purple}{6}},000+{\color{red}{7}}0 + {\color{magenta}{6}}
+
 $$
 
 is also in expanded form because it is the same as
 
 $$
+
 {\color{purple}{6}}\:\textrm{thousands} + {\color{blue}{0}}\:\textrm{hundreds} + {\color{red}{7}}\:\textrm{tens} + {\color{magenta}{6}}\:\textrm{ones}.
+
 $$
 
 However, the number
 
 $$
+
 600 + 21 + 2
+
 $$
 
 is *not* in expanded form because the second number $(21)$ contains *both* tens *and* ones.
@@ -62,7 +72,9 @@ Which of the following is the expanded form of a four-digit number?
 A four-digit whole number is in expanded form when it is written as follows:
 
 $$
+
 \textrm{thousands} +\textrm{hundreds} + \textrm{tens} + \textrm{ones}
+
 $$
 
 With that in mind, let's examine our numbers in turn.
@@ -92,7 +104,9 @@ Which of the following is the expanded form of a three-digit number?
 A three-digit whole number is in expanded form when it is written as a sum of exactly three terms:
 
 $$
+
 \textrm{hundreds} + \textrm{tens} + \textrm{ones}
+
 $$
 
 With that in mind, let's examine our numbers in turn.
@@ -112,7 +126,9 @@ We've seen how to convert numbers from standard form to expanded form. We'll now
 Let's convert the following expanded form to standard form:
 
 $$
+
 500 +40 +3
+
 $$
 
 First, we write each number as a place value:
@@ -134,7 +150,9 @@ Therefore, the given number (in standard form) is $543.$
 Which number is equivalent to the expanded form below?
 
 $$
+
 50,000 + 400 + 6
+
 $$
 
 #### Explanation
@@ -164,7 +182,9 @@ Therefore, the resulting number is $50,406.$
 From left to right, what are the missing digits in the following equality?
 
 $$
+
 0
+
 $$
 
 #### Explanation
@@ -188,7 +208,9 @@ Putting this into a place value chart, we get the following:
 Therefore, the resulting number is
 
 $$
+
 6
+
 $$
 
 and the missing digits are $6$ and $2.$

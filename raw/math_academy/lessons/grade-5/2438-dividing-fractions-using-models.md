@@ -19,7 +19,9 @@ We can use fraction models to divide fractions that have a common denominator.
 For example, suppose we wish to compute the fraction division
 
 $$
+
 \dfrac{4}{5} \div \dfrac{2}{5}.
+
 $$
 
 Let's start by writing down a fraction model to represent this division.
@@ -37,13 +39,17 @@ We can break down our division problem as follows:
 So, we have
 
 $$
+
 {\color{red}4} \div {\color{blue}2} = 2.
+
 $$
 
 Therefore, we conclude that
 
 $$
+
 \dfrac{4}{5} \div \dfrac{2}{5} = 2 \, .
+
 $$
 
 Finally, looking at our fraction model again, we can see that the shaded parts on the right of the division sign fit exactly twice into the shaded parts on the left. So, our result makes sense.
@@ -71,13 +77,17 @@ We can break down our division problem as follows:
 So, we have
 
 $$
+
 {\color{red}5} \div {\color{blue}3} = \dfrac{5}{3}.
+
 $$
 
 Therefore, we conclude that
 
 $$
+
 \dfrac{5}{8} \div \dfrac{3}{8} = \dfrac{5}{3}.
+
 $$
 
 ### Dividing Fractions With Different Denominators
@@ -87,7 +97,9 @@ We can use similar reasoning to divide fractions with different denominators. Th
 To illustrate, let's consider the following division problem:
 
 $$
+
 \dfrac{1}{3} \div \dfrac{3}{5}
+
 $$
 
 A fraction model for this problem is shown below.
@@ -103,19 +115,25 @@ To create our common denominator, we split the shape on the left of the division
 So, our division problem now is
 
 $$
+
 \dfrac{\color{red}5}{15} \div \dfrac{\color{blue}9}{15}.
+
 $$
 
 Since the denominators are equal, this is equivalent to
 
 $$
+
 {\color{red}5} \div {\color{blue}9} = \dfrac{5}{9}.
+
 $$
 
 Therefore, we conclude that
 
 $$
+
 \dfrac{1}{3} \div \dfrac{3}{5} = \dfrac{5}{9} \, .
+
 $$
 
 ### Example: Determining a Missing Number
@@ -127,7 +145,9 @@ $$
 Use the model above to determine the missing number in the equation below.
 
 $$
+
 \,6\,
+
 $$
 
 #### Explanation
@@ -139,19 +159,25 @@ The denominators are $5$ and $10.$ We can make a common denominator of $10$ by s
 So, our division problem now is
 
 $$
+
 \dfrac{\color{red}6}{10} \div \dfrac{\color{blue}7}{10}.
+
 $$
 
 Since the denominators are equal, this is equivalent to
 
 $$
+
 {\color{red}6} \div {\color{blue}7} = \dfrac{6}{7}.
+
 $$
 
 Therefore, we conclude that
 
 $$
+
 \,6\,
+
 $$
 
 Hence, the missing number is $6.$
@@ -175,19 +201,25 @@ We split the shape on the left of the division sign into $4$ parts vertically, a
 So, our division problem now is
 
 $$
+
 \dfrac{\color{red}8}{12} \div \dfrac{\color{blue}9}{12}.
+
 $$
 
 Since the denominators are equal, this is equivalent to
 
 $$
+
 {\color{red}8} \div {\color{blue}9} = \dfrac{8}{9}.
+
 $$
 
 Therefore, we conclude that
 
 $$
+
 \dfrac{2}{3} \div \dfrac{3}{4} = \dfrac{8}{9} \, .
+
 $$
 
 ### Example: Dividing Fractions When the Result Is a Mixed Number
@@ -207,17 +239,23 @@ We split the shape on the right of the division sign into $2$ parts horizontally
 So, our division problem now is
 
 $$
+
 \dfrac{\color{red}11}{14} \div \dfrac{\color{blue}6}{14}.
+
 $$
 
 Since the denominators are equal, this is equivalent to
 
 $$
+
 {\color{red}11} \div {\color{blue}6} = 1\,\dfrac56.
+
 $$
 
 Therefore, we conclude that
 
 $$
+
 \dfrac{11}{14} \div \dfrac{3}{7} = 1\,\dfrac56 \, .
+
 $$

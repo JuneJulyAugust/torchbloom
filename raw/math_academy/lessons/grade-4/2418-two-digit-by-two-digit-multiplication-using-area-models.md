@@ -63,7 +63,9 @@ Now, let's look at the big rectangle:
 Therefore, this area model can be used to represent the following multiplication problem:
 
 $$
+
 12 \times 15 = 180
+
 $$
 
 ### Example: Interpreting an Area Model
@@ -75,7 +77,9 @@ $$
 The area model above can be used to represent the following multiplication problem:
 
 $$
+
 00
+
 $$
 
 What is the missing number?
@@ -93,7 +97,9 @@ Let's look at the big rectangle:
 Hence, this area model can be used to represent the following multiplication problem:
 
 $$
+
 39 \times 23= \fbox{897}
+
 $$
 
 Therefore, the missing number is $897.$
@@ -123,7 +129,9 @@ Now, notice the following regarding the big rectangle:
 Therefore, this area model can be used to represent the following multiplication problem:
 
 $$
+
 32 \times 45 = 1,440
+
 $$
 
 ### Example: Using an Area Model To Multiply Two-Digit Numbers
@@ -155,5 +163,7 @@ Now, notice the following regarding the big rectangle:
 Therefore, this area model can be used to represent the following multiplication problem:
 
 $$
+
 97 \times 51 = 4,947
+
 $$

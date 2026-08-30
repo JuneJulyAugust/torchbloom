@@ -17,7 +17,9 @@ Box models are powerful because they provide a general method for dividing large
 Let's consider the following three-digit by one-digit division problem.
 
 $$
+
 630 \div 3
+
 $$
 
 We set up our box model in the usual way.
@@ -39,13 +41,17 @@ We get $\fbox{0},$ so the division is done.
 **Step 4**: To find the quotient of $630 \div 3,$ we add the numbers on top of the boxes:
 
 $$
+
 200+10=210
+
 $$
 
 Therefore,
 
 $$
+
 630 \div 3 = 210.
+
 $$
 
 Let's now look at an example with a remainder.
@@ -71,20 +77,24 @@ We can't subtract any further since $\fbox{1}$ is less than $4.$ Hence, $1$ is t
 The quotient is the sum of the numbers on top of the boxes:
 
 $$
+
 100+5=105
+
 $$
 
 Therefore,
 
 $$
+
 421 \div 4 = 105 \,\text{R}\, 1.
+
 $$
 
 ### Example: Dividing Three-Digit Numbers Using Box Models
 
 #### Question
 
-Laura paid $\[math]144$ dollars for $6$ concert tickets. Using the box model above, find out how much Laura paid for each ticket.
+Laura paid $144$ dollars for $6$ concert tickets. Using the box model above, find out how much Laura paid for each ticket.
 
 #### Explanation
 
@@ -103,16 +113,20 @@ We get $\fbox{0},$ so the division is done.
 The quotient is the sum of the numbers on top of the boxes:
 
 $$
+
 20+4=24
+
 $$
 
 So,
 
 $$
+
 144\div 6 =24
+
 $$
 
-Therefore, Laura paid $\[math]24$ for each ticket.
+Therefore, Laura paid $24$ for each ticket.
 
 ### Box Models With Three Boxes
 
@@ -145,11 +159,15 @@ We can't subtract any further since $\fbox{4}$ is less than $6.$ Hence, $4$ is t
 The quotient is the sum of the numbers on top of the boxes:
 
 $$
+
 100+20+9=129
+
 $$
 
 Therefore,
 
 $$
+
 778\div 6 = 129 \,\text{R}\, 4.
+
 $$

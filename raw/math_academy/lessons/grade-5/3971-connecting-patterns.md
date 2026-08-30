@@ -15,7 +15,9 @@ Topic ID: 3971
 Let's find the next number in the pattern below.
 
 $$
+
 2,\quad 3,\quad 6,\quad 11,\quad 18,\quad 27
+
 $$
 
 First, we need to find the rule. We begin by inspecting what is happening at each step:
@@ -35,7 +37,9 @@ So, to find the number after $27$, we find the size of the next step by adding $
 Therefore, the next number is
 
 $$
+
 27+11=38 \, .
+
 $$
 
 ### Example: Identifying Patterns Within Patterns
@@ -45,7 +49,9 @@ $$
 What is the next number in the sequence below?
 
 $$
+
 40,\, 35,\,35,\,30,\,30,\,25
+
 $$
 
 #### Explanation
@@ -63,7 +69,9 @@ So, to find the number after $25,$ we should subtract $0.$
 Therefore, the next number is
 
 $$
+
 25-0=25.
+
 $$
 
 ### Example: Identifying Patterns Within Patterns: Word Problems
@@ -77,7 +85,9 @@ Daphne started a bake sale at her school. She sold $5$ cakes on the first day, $
 We have the following pattern:
 
 $$
+
 5,\,9,\,15,\,23
+
 $$
 
 Let's find out how much we should add to each element to get the next one.
@@ -93,7 +103,9 @@ So, to find the number after $23$, we should add $8+2=10.$
 Therefore, the next number is
 
 $$
+
 23+10=33 \, .
+
 $$
 
 We conclude that Daphne will sell $33$ cakes on the fifth day.
@@ -105,7 +117,9 @@ We conclude that Daphne will sell $33$ cakes on the fifth day.
 Each term in pattern B is $2$ larger than the corresponding term in pattern A. Pattern A is given below.
 
 $$
+
 3,\, 5,\,9,\,17
+
 $$
 
 What is pattern B?
@@ -115,11 +129,15 @@ What is pattern B?
 To find pattern B, we add $2$ to each term of pattern A:
 
 $$
+
 \begin{aligned}3+2 & =5 \\ 5+2 & =7 \\ 9+2 & =11 \\ 17+2 & =19\end{aligned}
+
 $$
 
 So, pattern B is given by
 
 $$
+
 5,\, 7,\,11,\,19.
+
 $$

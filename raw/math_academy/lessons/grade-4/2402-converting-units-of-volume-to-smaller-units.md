@@ -45,13 +45,17 @@ How many pints are in $15$ gallons?
 We start with the unit conversion between gallons and pints:
 
 $$
+
 1\, \textrm{gallon} =8\, \textrm{pints}
+
 $$
 
 We want to figure out how many pints are in $15$ gallons. So, we multiply both sides of the above equation by $15{:}$
 
 $$
+
 \begin{aligned}15×1\,gallon & =15×8\,pints \\ 15\,gallons & =15×8\,pints\end{aligned}
+
 $$
 
 We can compute $15\times 8$ using an area model:
@@ -61,7 +65,9 @@ We can compute $15\times 8$ using an area model:
 According to our model,
 
 $$
+
 15\times 8 = 80+40 = 120.
+
 $$
 
 Therefore, $15$ gallons equals $120$ pints.
@@ -77,13 +83,17 @@ A container can hold $64$ pints of water. How many cups of water is this?
 We start with the unit conversion between pints and cups:
 
 $$
+
 1\, \textrm{pint} =2\, \textrm{cups}
+
 $$
 
 We want to figure out how many cups are in $64$ pints. So, we multiply both sides of the above equation by $64{:}$
 
 $$
+
 \begin{aligned}64×1\,pint & =64×2\,cups \\ 64\,pints & =64×2\,cups\end{aligned}
+
 $$
 
 We can compute $64\times 2$ using an area model:
@@ -93,7 +103,9 @@ We can compute $64\times 2$ using an area model:
 According to our model,
 
 $$
+
 64\times 2 = 120+8 = 128.
+
 $$
 
 Therefore, the container can hold $128$ cups of water.
@@ -109,13 +121,17 @@ How many fluid ounces are in $21$ cups?
 We start with the unit conversion between fluid ounces and cups:
 
 $$
+
 1 \,\textrm{cup}=8 \,\textrm{fluid ounces}
+
 $$
 
 We want to figure out how many fluid ounces are in $21$ cups. So, we multiply both sides of the above equation by $21{:}$
 
 $$
+
 \begin{aligned}21×1\,cup & =21×8\,fluid ounces \\ 21\,cups & =21×8\,fluid ounces\end{aligned}
+
 $$
 
 We can compute $21\times 8$ using an area model:
@@ -125,7 +141,9 @@ We can compute $21\times 8$ using an area model:
 According to our model,
 
 $$
+
 21\times 8 = 160+8 = 168.
+
 $$
 
 Therefore, $21$ cups equals $168$ fluid ounces.
@@ -135,19 +153,25 @@ Therefore, $21$ cups equals $168$ fluid ounces.
 For metric units of volume, there is one primary conversion that we need to be aware of:
 
 $$
+
 1 \,\textrm{liter} =1,000 \,\textrm{milliliters}
+
 $$
 
 The unit symbol for liters is $\textrm{L},$ and the symbol for milliliters is $\textrm{mL}.$ So, we can express our unit conversion using unit symbols as follows:
 
 $$
+
 1 \,\textrm{L} =1,000 \,\textrm{mL}
+
 $$
 
 Suppose we wish to determine how many milliliters are in $2$ liters. To do this, we multiply both sides of the above equation by $2{:}$
 
 $$
+
 \begin{aligned}2×1\,L & =2×1,000\,mL \\ 2\,L & =2,000\,mL\end{aligned}
+
 $$
 
 Therefore, $2\,\textrm{L}$ liters equals $2,000\,\textrm{mL}.$
@@ -163,13 +187,17 @@ Dylan's car consumed $14.5$ liters of gasoline while traveling between two citie
 We start with the unit conversion between liters and milliliters:
 
 $$
+
 1\, \textrm{liter} =1,000\, \textrm{milliliters}
+
 $$
 
 We want to figure out how many milliliters are in $14.5$ liters. So, we multiply both sides of the above equation by $14.5{:}$
 
 $$
+
 \begin{aligned}14.5×1\,liter & =14.5×1,000\,milliliters \\ 14.5\,liters & =14,500\,milliliters\end{aligned}
+
 $$
 
 Therefore, $14.5$ liters equals $14,500$ milliliters.

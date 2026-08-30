@@ -16,7 +16,9 @@ Topic ID: 2286
 How can we tell if one decimal is smaller than another? For example, is the following statement true?
 
 $$
+
 2.1 < 2.3
+
 $$
 
 Remember that the symbol "$<$" means "less than." So, we want to know if $2.1$ is less than $2.3.$
@@ -38,7 +40,9 @@ Therefore, the statement $2.{\color{red}1} < 2.{\color{blue}3}$ is true.
 Is the following statement true?
 
 $$
+
 7.2< 7.02
+
 $$
 
 #### Explanation
@@ -54,7 +58,9 @@ We now compare the place values of both numbers, going **.
 Therefore:
 
 $$
+
 7.{\color{red}{0}}2< 7.{\color{blue}{2}}0
+
 $$
 
 So, the original statement is **.
@@ -66,7 +72,9 @@ So, the original statement is **.
 From the digits $3,7$ and $8,$ which of them will make the following statement true?
 
 $$
+
 0
+
 $$
 
 #### Explanation
@@ -88,7 +96,9 @@ From the given answer choices, only $\color{red}3$ is less than $\color{blue}6.$
 Is the following statement true?
 
 $$
+
 3.12 > 3.09
+
 $$
 
 Remember that the symbol "$>$" means "greater than." In words, we want to know if $3.12$ is greater than $3.09.$
@@ -110,7 +120,9 @@ Therefore, the statement $3.{\color{blue}1}2 > 3.{\color{red}0}9$ is true.
 From the digits $1,6$ and $7,$ which of them will make the following statement true?
 
 $$
+
 0
+
 $$
 
 #### Explanation
@@ -141,4 +153,4 @@ We then compare place values, going from left to right.
 
 We note that for the digits in the ones place, the largest digit in this position is ${\color{blue}3}.$
 
-Therefore, $\[math] {\color{blue}3}.20$ is the price of the most expensive item. So, we should discard the cheese.
+Therefore, $\ {\color{blue}3}.20$ is the price of the most expensive item. So, we should discard the cheese.

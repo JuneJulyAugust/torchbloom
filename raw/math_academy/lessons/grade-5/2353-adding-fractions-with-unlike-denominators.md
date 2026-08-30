@@ -19,7 +19,9 @@ The denominators are $\color{red}3$ and $\color{blue}6,$ which are not the same.
 Notice that ${\color{blue}{6}}$ is a multiple of ${\color{red}{3}}$. The multiples of ${\color{red}{3}}$ are:
 
 $$
+
 \quad 3, {\color{blue}{6}}, 9, 12, \ldots
+
 $$
 
 Therefore, the least common denominator is ${\color{blue}{6}}.$
@@ -27,7 +29,9 @@ Therefore, the least common denominator is ${\color{blue}{6}}.$
 We can put $\dfrac{2}{\color{red}3}$ over a denominator of $\color{blue}6$ by multiplying the numerator and denominator by $2\mathbin{:}$
 
 $$
+
 \dfrac{2}{\color{red}{3}} = \dfrac{2\times2}{{\color{red}{3}}\times 2} = \dfrac{4}{\color{blue}{6}}
+
 $$
 
 We don't need to do anything to $\dfrac{1}{\color{blue}6}$ since it already has a denominator of ${\color{blue}6}.$
@@ -35,7 +39,9 @@ We don't need to do anything to $\dfrac{1}{\color{blue}6}$ since it already has 
 Now, we can add the fractions:
 
 $$
+
 \begin{aligned}\frac{4}{6}+\frac{1}{6}=\frac{5}{6}\end{aligned}
+
 $$
 
 And that's our answer!
@@ -57,7 +63,9 @@ To add two fractions with unlike denominators, we need to express each fraction 
 Notice that $\color{blue}{15}$ is a multiple of ${\color{red}{5}}.$ The multiples of $5$ are:
 
 $$
+
 5, 10, {\color{blue}{15}}, 20, \ldots
+
 $$
 
 Therefore, we can make a common denominator of ${\color{blue}{15}}.$
@@ -65,13 +73,17 @@ Therefore, we can make a common denominator of ${\color{blue}{15}}.$
 To put $\dfrac 1 {\color{red}{5}}$ over a denominator of ${\color{blue}{15}},$ we multiply the numerator and denominator by $3\mathbin{:}$
 
 $$
+
 \dfrac{1}{\color{red}5} = \dfrac{1\times 3}{{\color{red}5}\times 3} = \dfrac{3}{\color{blue}{15}}
+
 $$
 
 We can now add the fractions. We keep the denominator the same, and we add the numerators.
 
 $$
+
 \begin{aligned}\frac{4}{15}+\frac{3}{15}=\frac{7}{15}\end{aligned}
+
 $$
 
 ### Finding a Common Denominator by Multiplying the Denominators
@@ -85,19 +97,25 @@ Notice that $\color{red}2$ is not a multiple of ${\color{blue}{3}}$ and vice-ver
 To put $\dfrac 1 {\color{red}{2}}$ over a denominator of $6,$ we multiply the numerator and denominator by ${\color{blue}3} \mathbin{:}$
 
 $$
+
 \dfrac{1}{{\color{red}{2}} } = \dfrac{1\times {\color{blue}{3}} }{{\color{red}{2}} \times {\color{blue}{3}} } = \dfrac{3}{6}
+
 $$
 
 To put $\dfrac 1 {\color{blue}{3}}$ over a denominator of $6,$ we multiply the numerator and denominator by ${\color{red}{2}} \mathbin{:}$
 
 $$
+
 \dfrac{1}{{\color{blue}{3}} } = \dfrac{1\times {\color{red}{2}} }{{\color{blue}{3}} \times {\color{red}{2}} } = \dfrac{2}{6}
+
 $$
 
 We can now add the fractions. We keep the denominator the same, and we add the numerators.
 
 $$
+
 \begin{aligned}\frac{3}{6}+\frac{2}{6}=\frac{5}{6}\end{aligned}
+
 $$
 
 And we're done!
@@ -119,19 +137,25 @@ Notice that ${\color{red}{3}}$ is not a multiple of ${\color{blue}{5}}$ and vice
 To put $\dfrac 1 {\color{red}{3}}$ over a denominator of $15,$ we multiply the numerator and denominator by ${\color{blue}{5}} \mathbin{:}$
 
 $$
+
 \dfrac{1}{\color{red}{3} } = \dfrac{1\times {\color{blue}{5}} }{{\color{red}{3}} \times {\color{blue}{5}} } = \dfrac{5}{15}
+
 $$
 
 To put $\dfrac 1 {\color{blue}{5}}$ over a denominator of $15,$ we multiply the numerator and denominator by ${\color{red}3}\mathbin{:}$
 
 $$
+
 \dfrac{1}{{\color{blue}{5}} } = \dfrac{1\times \color{red}{3} }{{\color{blue}{5}} \times \color{red}{3} } = \dfrac{3}{15}
+
 $$
 
 We can now add the fractions. We keep the denominator the same, and we add the numerators:
 
 $$
+
 \begin{aligned}\frac{5}{15}+\frac{3}{15}=\frac{8}{15}\end{aligned}
+
 $$
 
 ### Adding Fractions Using the Least Common Multiple
@@ -153,19 +177,25 @@ The lowest common multiple is ${\color{blue}{24}}.$ This is the lowest common de
 To put $\dfrac 5 6$ over a denominator of $24,$ we multiply the numerator and denominator by $4\mathbin{:}$
 
 $$
+
 \dfrac{5}{6} = \dfrac{5\times 4}{6 \times 4 } = \dfrac{20}{24}
+
 $$
 
 To put $\dfrac 3 8$ over a denominator of $24,$ we multiply the numerator and denominator by $3\mathbin{:}$
 
 $$
+
 \dfrac{3}{8} = \dfrac{3\times 3 }{8 \times 3 } = \dfrac{9}{24}
+
 $$
 
 We can now add the fractions. We keep the denominator the same, and we add the numerators:
 
 $$
+
 \begin{aligned}\frac{20}{24}+\frac{9}{24}=\frac{29}{24}\end{aligned}
+
 $$
 
 ### Example: Adding Fractions Using the Least Common Multiple
@@ -187,17 +217,23 @@ The least common denominator is ${\color{blue}{45}}.$
 To put $\dfrac{2}{9}$ over a denominator of $45,$ we multiply the numerator and denominator by $5\mathbin{:}$
 
 $$
+
 \dfrac{2}{9} = \dfrac{2\times 5}{9 \times 5} = \dfrac{10}{45}
+
 $$
 
 To put $\dfrac{4}{15}$ over a denominator of $45,$ we multiply the numerator and denominator by $3\mathbin{:}$
 
 $$
+
 \dfrac{4}{15} = \dfrac{4\times 3}{15 \times 3} = \dfrac{12}{45}
+
 $$
 
 We can now add the fractions. We keep the denominator the same, and we add the numerators:
 
 $$
+
 \begin{aligned}\frac{10}{45}+\frac{12}{45}=\frac{22}{45}\end{aligned}
+
 $$

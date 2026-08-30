@@ -41,13 +41,17 @@ We need to convert $12$ kilometers into meters.
 We start with the unit conversion between kilometers and meters:
 
 $$
+
 1\, \textrm{kilometer} = 1,000 \, \textrm{meters}
+
 $$
 
 The left-hand side reads $1$ kilometer, and we want to determine how many meters there are in ${\color{blue}{12}}$ kilometers. So, we multiply ** sides of the above equation by ${\color{blue}{12}}.$
 
 $$
+
 \begin{aligned}12×1\,kilometers & =12×1,000\,meters \\ 12\,kilometers & =12,000\,meters\end{aligned}
+
 $$
 
 Therefore, $12$ kilometers equals $12,000$ meters.
@@ -63,13 +67,17 @@ How many centimeters are in $46$ meters?
 We start with the unit conversion between meters and centimeters:
 
 $$
+
 1\, \textrm{meter} =100\, \textrm{centimeters}
+
 $$
 
 The left-hand side reads $1$ meter, and we want to determine how many centimeters there are in $46$ meters. So, we multiply both sides of the above equation by $46.$
 
 $$
+
 \begin{aligned}46×1\,meter & =46×100\,centimeters \\ 46\,meters & =4,600\,centimeters\end{aligned}
+
 $$
 
 Therefore, $46$ meters equals $4,600$ centimeters.
@@ -87,13 +95,17 @@ We need to convert $78$ centimeters into millimeters.
 We start with the unit conversion between centimeters and millimeters:
 
 $$
+
 1 \,\textrm{cm} = 10 \,\textrm{mm}
+
 $$
 
 The left-hand side reads $1$ centimeter, and we want to determine how many millimeters there are in $78$ centimeters. So, we multiply both sides of the above equation by $78.$
 
 $$
+
 \begin{aligned}78×1\,cm & =78×10\,mm \\ 78\,cm & =780\,mm\end{aligned}
+
 $$
 
 Therefore, $78\,\textrm{cm}$ equals $780\,\textrm{mm}.$

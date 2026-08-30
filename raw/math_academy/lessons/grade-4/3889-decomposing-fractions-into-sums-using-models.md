@@ -35,7 +35,9 @@ Let's add these to our diagram.
 These two fractions must add up to $\dfrac{3}{4}.$ Therefore,
 
 $$
+
 \dfrac{3}{4} = \dfrac{1}{4} + \dfrac{2}{4}.
+
 $$
 
 Writing a larger fraction as the sum of two (or more) smaller fractions is called **fraction decomposition**.
@@ -65,7 +67,9 @@ As a result:
 These three fractions add up to $\dfrac{4}{6}.$ Therefore, we have the following decomposition:
 
 $$
+
 \dfrac{4}{6} = \dfrac{1}{6} + \dfrac{2}{6} + \dfrac{1}{6}
+
 $$
 
 ### Example: Identifying Valid Fraction Decompositions
@@ -95,7 +99,9 @@ Therefore, the correct answer is "I only."
 Let's again consider the decomposition of $\dfrac 34$ we've seen before:
 
 $$
+
 \dfrac 34 = \dfrac 14 + \dfrac 24
+
 $$
 
 We can represent the same decomposition using a number line diagram:
@@ -135,5 +141,7 @@ In total, there are $2+1+2={\color{red}5}$ jumps. So, the resulting fraction is 
 Therefore, we obtain the following decomposition:
 
 $$
+
 \dfrac{2}{3} + \dfrac{1}{3} + \dfrac{2}{3} = \dfrac{5}{3}
+
 $$

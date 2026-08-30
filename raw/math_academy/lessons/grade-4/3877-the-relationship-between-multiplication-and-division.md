@@ -14,7 +14,9 @@ Topic ID: 3877
 Let's consider the following division problem:
 
 $$
+
 {\color{red}{10}} \div {\color{blue}{5}} = 2
+
 $$
 
 This tells us that ${\color{red}{10}}$ can be gathered into $2$ groups of ${\color{blue}{5}}{:}$
@@ -24,13 +26,17 @@ This tells us that ${\color{red}{10}}$ can be gathered into $2$ groups of ${\col
 We can use the same model to represent the following multiplication problem:
 
 $$
+
 {\color{red}{10}} = {\color{blue}{5}} \times 2
+
 $$
 
 The order in which we multiply numbers does not matter. So, we can swap the two numbers on the right-hand side to create another multiplication problem:
 
 $$
+
 {\color{red}{10}} = 2\times {\color{blue}{5}}
+
 $$
 
 Multiplication and division can be considered "opposite" operations. And since we can swap the order of multiplication, every division problem can be expressed as *two* equivalent multiplication problems.
@@ -48,7 +54,9 @@ What is $45\div 5 = 9$ expressed as an equivalent multiplication problem?
 Our division problem is as follows:
 
 $$
+
 {\color{red}{45}}\div {\color{blue}{5}} = 9
+
 $$
 
 There are two multiplication problems equivalent to the given division problem:
@@ -80,7 +88,9 @@ Which of the following multiplication problems are equivalent to the division pr
 Our division problem is as follows:
 
 $$
+
 {\color{red}{120}}\div {\color{blue}{12}} = 10
+
 $$
 
 There are two multiplication problems equivalent to the given division problem:
@@ -104,7 +114,9 @@ Similarly, every multiplication problem can be expressed as *two* **equivalent**
 Let's consider the following multiplication problem:
 
 $$
+
 {\color{red}{4}}\times {\color{blue}{3}} = 12
+
 $$
 
 There are two division problems equivalent to this multiplication problem:
@@ -134,7 +146,9 @@ What is $9\times 8 = 72$ expressed as an equivalent division problem?
 Our multiplication problem is as follows:
 
 $$
+
 {\color{red}{9}}\times {\color{blue}{8}} = 72
+
 $$
 
 There are two division problems equivalent to this multiplication problem:
@@ -166,7 +180,9 @@ Which of the following division problems are equivalent to the multiplication pr
 Our multiplication problem is as follows:
 
 $$
+
 {\color{red}{9}}\times {\color{blue}{6}} = 54
+
 $$
 
 There are two division problems equivalent to this multiplication problem:

@@ -142,18 +142,22 @@ Therefore, the correct answer is "I and III only."
 
 The factors of $18,$ from smallest to largest, are shown in the list below. Find the missing factors.
 
-$\qquad$ $1, \qquad \bbox[3pt,border:solid black 1pt]{\phantom{A}} {\phantom{}}\,, \qquad \bbox[3pt,border:solid black 1pt]{\phantom{A}} {\phantom{}}\,, \qquad 6, \qquad 9, \qquad \bbox[3pt,border:solid black 1pt]{\phantom{A}} {\phantom{}}$
+$\qquad$ $1, \qquad \boxed{\phantom{A}} {\phantom{}}\,, \qquad \boxed{\phantom{A}} {\phantom{}}\,, \qquad 6, \qquad 9, \qquad \boxed{\phantom{A}} {\phantom{}}$
 
 #### Explanation
 
 We can express $18$ as a product of factor pairs as follows:
 
 $$
+
 \begin{aligned}1×18 & =18 \\ 2×9 & =18 \\ 3×6 & =18\end{aligned}
+
 $$
 
 Therefore, the factors of $18$ are
 
 $$
-1, \qquad \bbox[3pt,Gainsboro]{\color{blue}2}, \qquad \bbox[3pt,Gainsboro]{\color{blue}3}, \qquad 6, \qquad 9, \qquad \bbox[3pt,Gainsboro]{\color{blue}18}.
+
+1, \qquad \boxed{\color{blue}2}, \qquad \boxed{\color{blue}3}, \qquad 6, \qquad 9, \qquad \boxed{\color{blue}18}.
+
 $$

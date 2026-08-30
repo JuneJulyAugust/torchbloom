@@ -29,7 +29,9 @@ Now that both fractions have the same number of parts, we can add them:
 So now, we have:
 
 $$
+
 \dfrac{1}{6} + \dfrac{2}{3} = \dfrac{1}{\color{blue}6} + \dfrac{4}{\color{blue}6} = \dfrac{5}{\color{blue}6}
+
 $$
 
 To add fractions, they need a **common denominator**. Splitting up the second shape meant that the fractions had a common denominator of $\color{blue}6$, which allowed us to add them.
@@ -55,7 +57,9 @@ Now that they have the same number of parts, we can add them:
 Therefore,
 
 $$
+
 \dfrac{1}{2} + \dfrac{1}{\color{blue}4} = \dfrac{2}{\color{blue}4} + \dfrac{1}{\color{blue}4} = \dfrac{3}{\color{blue}4}
+
 $$
 
 In this case, we made a common denominator of ${\color{blue}{4}}.$
@@ -83,7 +87,9 @@ Now that both shapes have a common denominator of $\color{blue}9$, we can add th
 Therefore, we have:
 
 $$
+
 \dfrac{2}{9} + \dfrac{2}{3} = \dfrac{2}{\color{blue}9} + \dfrac{6}{\color{blue}9} = \dfrac{8}{\color{blue}9}
+
 $$
 
 ### Making a Common Denominator
@@ -109,7 +115,9 @@ We can now add the two numbers:
 Therefore, we have:
 
 $$
+
 \dfrac{1}{2} + \dfrac{2}{5} = \dfrac{5}{10} + \dfrac{4}{10} = \dfrac{9}{10}
+
 $$
 
 ### Example: Making a Common Denominator by Altering Both Fractions
@@ -121,7 +129,9 @@ $$
 Use the model above to determine the number that is missing in the statement below.
 
 $$
+
 \,0\,
+
 $$
 
 #### Explanation
@@ -137,7 +147,9 @@ Now, the shape to the left shows $\dfrac{6}{\color{blue}30}$ and the shape to th
 We add the number of shaded parts and get:
 
 $$
+
 6 + 5 = {\color{red}11}.
+
 $$
 
 ![Instructional graphic](../../lesson-assets/grade-5/topic-2374/2f230c38f182c6d3.png)
@@ -145,7 +157,9 @@ $$
 Therefore, we have
 
 $$
+
 \,11\,
+
 $$
 
 So, the missing number is $\color{red}11.$

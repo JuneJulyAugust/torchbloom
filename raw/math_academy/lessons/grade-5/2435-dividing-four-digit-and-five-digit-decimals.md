@@ -23,7 +23,9 @@ Now, сarrying out the long division process as usual, we get:
 Therefore,
 
 $$
+
 50.04 \div 12 = 4.17\,.
+
 $$
 
 ### Example: Dividing Decimals by Whole Numbers
@@ -43,7 +45,9 @@ Now, сarrying out the long division process as usual, we get:
 Therefore,
 
 $$
+
 9.888 \div 24 = 0.412\,.
+
 $$
 
 ### Dividing Decimals By Decimals Using the Standard Algorithm
@@ -55,13 +59,17 @@ So, to divide decimals by other decimals such as $0.832 \div 0.13,$ we must find
 First, we write the division problem $0.832 \div 0.13$ as a fraction:
 
 $$
+
 \dfrac{0.832}{0.13}
+
 $$
 
 Multiplying the numerator and denominator by $100,$ we get a whole number in the denominator:
 
 $$
+
 \dfrac{0.832 \times 100}{0.13 \times 100} = \dfrac{83.2}{13}
+
 $$
 
 So the problem is equivalent to $83.2 \div 13.$
@@ -75,7 +83,9 @@ Now, сarrying out the long division process as usual, we get:
 Therefore,
 
 $$
+
 0.832 \div 0.13 = 6.4\,.
+
 $$
 
 ### Example: Dividing Decimals by Decimals
@@ -89,13 +99,17 @@ What is the value of $73.71 \div 5.4?$
 We can write this division problem as a fraction:
 
 $$
+
 \dfrac{73.71}{5.4}
+
 $$
 
 Multiplying the numerator and denominator by $10,$ we get a whole number in the denominator:
 
 $$
+
 \dfrac{73.71 \times 10}{5.4 \times 10} = \dfrac{737.1}{54}
+
 $$
 
 So the problem is equivalent to $737.1 \div 54.$
@@ -109,7 +123,9 @@ Now, сarrying out the long division process as usual, we get:
 Therefore,
 
 $$
+
 73.71 \div 5.4 = 13.65\,.
+
 $$
 
 ### Example: Dividing Decimals by Decimals: Word Problems
@@ -125,13 +141,17 @@ To determine the number of liters of water the pump would deliver in $1$ hour, w
 We can write this division problem as a fraction:
 
 $$
+
 \dfrac{367.5}{3.5}
+
 $$
 
 Multiplying the numerator and denominator by $10,$ we get a whole number in the denominator:
 
 $$
+
 \dfrac{367.5 \times 10}{3.5 \times 10} = \dfrac{3,675}{35}
+
 $$
 
 So the problem is equivalent to $3,675 \div 35.$
@@ -141,7 +161,9 @@ Next, we proceed to use long division:
 So,
 
 $$
+
 367.5\div 3.5 = 105.
+
 $$
 
 We conclude that the pump would deliver $105$ liters of water every hour.

@@ -22,31 +22,41 @@ We can use rounding to *estimate* the result of a division problem.
 For example, let's estimate the quotient of
 
 $$
+
 478 \div 10.
+
 $$
 
 By rounding the dividend to the nearest ten, we obtain the following:
 
 $$
+
 \begin{aligned}478 & ÷ & 10 \\ & & \\ 480 & ÷ & 10\end{aligned}
+
 $$
 
 So, to estimate the quotient of our original division problem, we need to find the value of
 
 $$
+
 480 \div 10.
+
 $$
 
 We can solve this simplified problem as follows:
 
 $$
+
 \begin{aligned}480÷10 & = \\ 480 & = \\ 48 & \end{aligned}
+
 $$
 
 So, we conclude that
 
 $$
+
 478 \div 10 \approx 48.
+
 $$
 
 Remember that the symbol "$\approx$" means "is approximately equal to."
@@ -62,7 +72,9 @@ By rounding the dividend to the nearest ten, estimate the quotient of $448\div 5
 We round the dividend to the nearest ten:
 
 $$
+
 \begin{aligned}448 & ÷ & 5 \\ & & \\ 450 & ÷ & 5\end{aligned}
+
 $$
 
 Hence, we need to find the value of $450 \div 5.$
@@ -70,13 +82,17 @@ Hence, we need to find the value of $450 \div 5.$
 Remember that $450$ is the same as
 
 $$
+
 450 = 45 \times 10.
+
 $$
 
 So, we can solve this division problem using place value strategies as follows:
 
 $$
+
 \begin{aligned}450÷5 & = \\ 45×10÷5 & = \\ 45÷5×10 & = \\ (45÷5)×10 & = \\ 9×10 & = \\ 90 & \end{aligned}
+
 $$
 
 Therefore, $448 \div 5 \approx 90.$
@@ -92,7 +108,9 @@ By rounding the dividend to the nearest hundred, estimate the quotient of $7,971
 We round the dividend to the nearest hundred:
 
 $$
+
 \begin{aligned}7,971 & ÷ & 10 \\ & & \\ 8,000 & ÷ & 10\end{aligned}
+
 $$
 
 Hence, we need to find the value of $8,000 \div 10.$
@@ -100,7 +118,9 @@ Hence, we need to find the value of $8,000 \div 10.$
 Since the divisor equals $10,$ we solve this simplified division problem as follows:
 
 $$
+
 \begin{aligned}8,000÷10 & = \\ 8,000 & \\ 800 & \end{aligned}
+
 $$
 
 Therefore, $7,971 \div 10 \approx 800.$
@@ -118,7 +138,9 @@ To find the number of bags needed to pack the potatoes, we need to divide $27,82
 First, we round the dividend to the nearest thousand:
 
 $$
+
 \begin{aligned}27,825 & ÷ & 7 \\ & & \\ 28,000 & ÷ & 7\end{aligned}
+
 $$
 
 Hence, we need to find the value of $28,000 \div 7.$
@@ -126,13 +148,17 @@ Hence, we need to find the value of $28,000 \div 7.$
 Remember that $28,000$ is the same as
 
 $$
+
 28,000 = 28 \times 1,000.
+
 $$
 
 So, we can solve this division problem using place value strategies as follows:
 
 $$
+
 \begin{aligned}28,000÷7 & = \\ 28×1,000÷7 & = \\ 28÷7×1,000 & = \\ (28÷7)×1,000 & = \\ 4×1,000 & = \\ 4,000 & \end{aligned}
+
 $$
 
 So, $27,825 \div 7 \approx 4,000.$

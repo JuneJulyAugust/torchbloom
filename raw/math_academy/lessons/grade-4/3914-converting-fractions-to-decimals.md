@@ -18,7 +18,9 @@ We've seen how to express fractions with denominators of $10,100,$ and $1,000$ a
 To demonstrate, let's express the following fraction as a decimal:
 
 $$
+
 \dfrac{1}{20}
+
 $$
 
 To express this fraction as a decimal, we first need to write it as an equivalent fraction with either $10,100$ or $1,000$ in the denominator.
@@ -26,13 +28,17 @@ To express this fraction as a decimal, we first need to write it as an equivalen
 Notice that if we multiply the numerator and denominator by $\color{red}5$, we get a denominator of $100{:}$
 
 $$
+
 \begin{aligned}\frac{1}{20} & =\frac{1×5}{20×5}=\frac{5}{100}\end{aligned}
+
 $$
 
 Now that we have a fraction of $100,$ we can express it as a decimal with $2$ decimal places:
 
 $$
+
 \dfrac{\color{blue}{5}}{100} =0.0{\color{blue}{5}}
+
 $$
 
 ### Example: Converting Fractions to Decimals up to Two Decimal Places
@@ -46,13 +52,17 @@ Express $\dfrac{4}{25}$ as a decimal.
 First, we write this fraction as an equivalent fraction with $100$ as the denominator. To do that, we multiply both the numerator and denominator by $4{:}$
 
 $$
+
 \begin{aligned}\frac{4}{25} & =\frac{4×4}{25×4}=\frac{16}{100}\end{aligned}
+
 $$
 
 We can now write this fraction as a decimal with $2$ decimal places:
 
 $$
+
 \dfrac{\color{blue}16}{100} =0.{\color{blue}16}
+
 $$
 
 ### Example: Converting Fractions to Decimals With Three Decimal Places
@@ -66,11 +76,15 @@ Which decimal number is equivalent to $\dfrac{17}{200}?$
 First, we write an equivalent fraction with $1,000$ as the denominator. To do that, we multiply both the numerator and denominator by $5{:}$
 
 $$
+
 \begin{aligned}\frac{17}{200} & =\frac{17×5}{200×5}=\frac{85}{1,000}\end{aligned}
+
 $$
 
 We can now write this fraction as a decimal with $3$ decimal places:
 
 $$
+
 \begin{aligned}\frac{85}{1,000} & =0.085\end{aligned}
+
 $$

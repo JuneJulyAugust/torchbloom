@@ -72,7 +72,9 @@ We can also round whole numbers using place value charts.
 To demonstrate, let's again round the following number to the nearest ten:
 
 $$
+
 127
+
 $$
 
 We start by writing our number's digits in a place value chart. Since we're rounding to the nearest *ten*, we highlight the tens place:

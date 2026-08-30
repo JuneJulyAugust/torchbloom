@@ -21,7 +21,9 @@ Instead, many standard shapes have **formulas** that we can use to quickly calcu
 The formula for the volume $V$ of a rectangular prism is
 
 $$
+
 V = \text{length} \times \text{width} \times \text{height} .
+
 $$
 
 Let's use this formula to find the volume of the rectangular prism below.
@@ -33,7 +35,9 @@ This rectangular prism has a length of $7$, a width of $4$, and a height of $3.$
 So, the volume of the rectangular prism can be found as
 
 $$
+
 \begin{aligned}𝑉 & =length×width×height=7×4×3=84.\end{aligned}
+
 $$
 
 Therefore, the volume is $84$ cubic units.
@@ -49,7 +53,9 @@ A rectangular prism has a length of $7 \, \text{ft}$, a width of $12 \, \text{ft
 The volume of the rectangular prism can be found as
 
 $$
+
 \begin{aligned}𝑉 & =length×width×height \\ & =7×12×2 \\ & =168.\end{aligned}
+
 $$
 
 Finally, note the following:
@@ -75,7 +81,9 @@ In the picture, we have a rectangular prism with a length of $7 \, \text{m}$, a 
 The volume of the rectangular prism can be found as
 
 $$
+
 \begin{aligned}𝑉 & =length×width×height \\ & =7×3×6 \\ & =126.\end{aligned}
+
 $$
 
 Finally, note the following:
@@ -91,7 +99,9 @@ So, the volume is $126 \, \text{m}^3.$
 Another formula for the volume of a rectangular prism is
 
 $$
+
 V = \text{area of base} \times \text{height} .
+
 $$
 
 Let's use this formula to find the volume of the figure shown below.
@@ -103,7 +113,9 @@ The picture shows a rectangular prism, where the area of the base is $8 \, \text
 The volume of the rectangular prism can be found as
 
 $$
+
 \begin{aligned}𝑉 & =area of base×height \\ & =8×7 \\ & =56.\end{aligned}
+
 $$
 
 So, the volume is $56 \, \text{cm}^3.$
@@ -127,7 +139,9 @@ The rectangular prism above has a base of area $15 \, \text{cm}^2$ and a height 
 The volume of the rectangular prism can be found as
 
 $$
+
 \begin{aligned}𝑉 & =area of base×height \\ & =15×6 \\ & =90.\end{aligned}
+
 $$
 
 Finally, note the following:
@@ -149,7 +163,9 @@ A rectangular prism has a base of area $15$ square units and a height of $5$ uni
 The volume of the rectangular prism can be found as
 
 $$
+
 \begin{aligned}𝑉 & =area of base×height \\ & =15×5 \\ & =75.\end{aligned}
+
 $$
 
 So, the volume is $75$ cubic units.

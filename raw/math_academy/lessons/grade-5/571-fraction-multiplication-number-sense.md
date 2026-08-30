@@ -17,7 +17,9 @@ When multiplying a whole number by a fraction, we can determine whether the resu
 For example, consider the following product:
 
 $$
+
 {\color{blue}{2}}\times {\color{red}{\dfrac38}}
+
 $$
 
 Is this product (a) smaller than ${\color{blue}{2}},$ (b) larger than ${\color{blue}{2}},$ or (c) equal to ${\color{blue}{2}}?$
@@ -25,7 +27,9 @@ Is this product (a) smaller than ${\color{blue}{2}},$ (b) larger than ${\color{b
 To answer this question *without* carrying out the multiplication, we need to look at the fractional factor:
 
 $$
+
 {\color{red}{\dfrac38}}
+
 $$
 
 Note the following:
@@ -43,7 +47,9 @@ So, the correct answer is (a).
 Now, let's consider the following product:
 
 $$
+
 {\color{blue}{3}}\times {\color{red}{\dfrac65}}
+
 $$
 
 Is this product (a) smaller than ${\color{blue}{3}},$ (b) larger than ${\color{blue}{3}},$ or (c) equal to ${\color{blue}{3}}?$
@@ -51,7 +57,9 @@ Is this product (a) smaller than ${\color{blue}{3}},$ (b) larger than ${\color{b
 To answer this question, we need to look at the fractional factor:
 
 $$
+
 {\color{red}{\dfrac65}}
+
 $$
 
 Note the following:
@@ -69,19 +77,25 @@ So, the correct answer is (b).
 Now, let's consider the following product:
 
 $$
+
 {\color{blue}{7}}\times {\color{red}{\dfrac44}}
+
 $$
 
 In this case, notice that the fraction
 
 $$
+
 {\color{red}{\dfrac44}}
+
 $$
 
 is *equivalent to* $1$ because the numerator and the denominator are *equal.* Therefore, we conclude that
 
 $$
+
 {\color{blue}{7}}\times {\color{red}{\dfrac44}} = {\color{blue}{7}}
+
 $$
 
 ### Example: Comparing a Product to a Whole Number
@@ -90,7 +104,7 @@ $$
 
 Which of the options below makes the following statement true?
 
-$7 \times \dfrac{4}{5}$ is $\text{___________}$
+$7 \times \dfrac{4}{5}$ is $\boxed{\phantom{0}}$
 
 1. less than $7$
 
@@ -103,7 +117,9 @@ $7 \times \dfrac{4}{5}$ is $\text{___________}$
 We must compare the size of the following product to the number $7{:}$
 
 $$
+
 7 \times {\color{red}\dfrac{4}{5}}
+
 $$
 
 Since $\color{red}\dfrac{4}{5}$ is ** $1$, the number $7$ is ** (i.e., becomes **) when it's multiplied by ${\color{red}\dfrac{4}{5}}.$
@@ -143,7 +159,9 @@ We can apply the same reasoning to compare products to fractions.
 For example, consider the following product:
 
 $$
+
 {\color{blue}{\dfrac35}}\times {\color{red}{\dfrac18}}
+
 $$
 
 Is this product (a) smaller than ${\color{blue}{\dfrac35}},$ (b) larger than ${\color{blue}{\dfrac35}},$ or (c) equal to ${\color{blue}{\dfrac35}}?$
@@ -151,7 +169,9 @@ Is this product (a) smaller than ${\color{blue}{\dfrac35}},$ (b) larger than ${\
 To answer this, we need to consider the size of the second factor:
 
 $$
+
 \color{red}\dfrac{1}{8}
+
 $$
 
 Since $\color{red}\dfrac{1}{8}$ is *less than* $1$, the number $\color{blue}{\dfrac35}$ is *scaled down* (i.e., becomes *smaller*) when it's multiplied by ${\color{red}\dfrac18}.$ Therefore, this product is *less than* ${\color{blue}{\dfrac35}}.$
@@ -159,7 +179,9 @@ Since $\color{red}\dfrac{1}{8}$ is *less than* $1$, the number $\color{blue}{\df
 We can write this result using a "less than" symbol as follows:
 
 $$
+
 {\color{blue}{\dfrac35}}\times {\color{red}{\dfrac18}} < {\color{blue}{\dfrac35}}
+
 $$
 
 So, the correct answer is (a).
@@ -172,7 +194,7 @@ Let's see another example.
 
 Which of the options below makes the following statement true?
 
-$\dfrac{4}{9} \times \dfrac{7}{2}$ is $\text{____________}$
+$\dfrac{4}{9} \times \dfrac{7}{2}$ is $\boxed{\phantom{0}}$
 
 1. equal to $\dfrac{4}{9}$
 
@@ -185,7 +207,9 @@ $\dfrac{4}{9} \times \dfrac{7}{2}$ is $\text{____________}$
 We must compare the size of the following product to the number $\dfrac49{:}$
 
 $$
+
 \dfrac49 \times {\color{red}\dfrac{7}{2}}
+
 $$
 
 Since $\color{red}\dfrac{7}{2}$ is ** $1$, the number $\dfrac{4}{9}$ is ** (i.e., becomes **) when it's multiplied by ${\color{red}\dfrac{7}{2}}.$

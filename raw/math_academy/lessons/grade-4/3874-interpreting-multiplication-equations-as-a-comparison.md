@@ -16,7 +16,9 @@ Every multiplication problem can be considered a statement that compares the siz
 For example, let's consider the following multiplication problem:
 
 $$
+
 {\color{red}{2}} \times {\color{blue}{4}} = 8
+
 $$
 
 We can interpret this equation as a comparison statement in two possible ways:
@@ -50,7 +52,9 @@ Therefore, the answer is $7.$
 Consider the following multiplication problem:
 
 $$
+
 5 \times 4 = 20
+
 $$
 
 From left to right, what numbers could be inserted into the following to make it a true statement?
@@ -74,7 +78,9 @@ It's important to recognize the difference between additive and multiplicative c
 Let's consider the following addition problem:
 
 $$
+
 {\color{red}{7}} + {\color{blue}{2}} = 9
+
 $$
 
 We can represent this addition problem as a comparison in the following two ways:

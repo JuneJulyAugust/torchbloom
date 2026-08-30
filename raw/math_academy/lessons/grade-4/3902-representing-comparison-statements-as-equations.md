@@ -48,7 +48,9 @@ $\qquad$ **
 So, the statement compares the size of the number $12$ to the ** of $20$ and $8.$ It can be interpreted as a comparison in the following way:
 
 $$
+
 20 - 8= 12
+
 $$
 
 ### Multiplicative Comparison
@@ -88,7 +90,9 @@ $\qquad$ **
 So, the statement compares the size of a ** $(56)$ to its ** $(8$ and $7).$ It can be interpreted as a comparison in the following two ways:
 
 $$
+
 8 \times 7 =56, \qquad \text{or} \qquad 7 \times 8 = 56
+
 $$
 
 From the given options, the correct answer is $8\times 7 = 56.$
@@ -104,7 +108,9 @@ $\qquad$ *Which number is $3$ **** than $4?$*
 This is a multiplicative comparison statement. We can express this statement using an equation as follows:
 
 $$
+
 3\times 4 = {\color{blue}{n}}
+
 $$
 
 Here, we use the letter ${\color{blue}{n}}$ to represent the unknown product.
@@ -112,13 +118,17 @@ Here, we use the letter ${\color{blue}{n}}$ to represent the unknown product.
 To find the value of ${\color{blue}{n}},$ we simply compute $3\times 4.$ This gives
 
 $$
+
 12 = {\color{blue}{n}}.
+
 $$
 
 We usually put the letter on the left-hand side:
 
 $$
+
 {\color{blue}{n}} = 12
+
 $$
 
 Therefore, we conclude that the number $12$ is $3$ times larger than $4.$
@@ -140,13 +150,17 @@ So, the statement compares the size of a ** $({\color{blue}{n}})$ to its ** $(8$
 Therefore, our statement can be interpreted in the following two ways:
 
 $$
+
 9\times 8 = {\color{blue}{n}}, \qquad \textrm{or}\qquad 8 \times 9 = {\color{blue}{n}}
+
 $$
 
 Calculating the products, we have
 
 $$
+
 9 \times 8 = {\color{blue}{72}}, \qquad 8 \times 9 = {\color{blue}{72}}.
+
 $$
 
 This means that ${\color{blue}{n}}={\color{blue}{72}}.$
@@ -168,13 +182,17 @@ So, the statement compares the size of a ** $(72)$ to its ** $9,$ and ${\color{b
 Therefore, our statement can be interpreted in the following two ways:
 
 $$
+
 9\times {\color{blue}{n}} = 72, \qquad \textrm{or}\qquad {\color{blue}{n}}\times 9= 72
+
 $$
 
 Therefore, ${\color{blue}{n}} = {\color{blue}{8}},$ and we have
 
 $$
+
 9\times {\color{blue}{8}} = 72, \qquad {\color{blue}{8}}\times 9=72 .
+
 $$
 
 So, the correct answer is ${\color{blue}{n}} = {\color{blue}{8}}.$

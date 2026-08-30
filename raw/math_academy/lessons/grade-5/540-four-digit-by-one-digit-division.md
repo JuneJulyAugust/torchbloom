@@ -28,7 +28,9 @@ We've gone through all the digits in the number $4,236,$ so the division is done
 Therefore,
 
 $$
+
 4,236 \div 3 = 1,412.
+
 $$
 
 ### Example: Dividing with No Remainder
@@ -54,7 +56,9 @@ We've gone through all the digits in the number $2,088,$ so the division is done
 Therefore,
 
 $$
+
 2,088 \div 6 = 348.
+
 $$
 
 So, the rocket covered $348$ miles every minute.
@@ -110,7 +114,9 @@ We've gone through all the digits in the number $6,096$ so the division is done.
 Therefore,
 
 $$
+
 6,096 \div 6 = 1,016.
+
 $$
 
 ### Example: Bringing Down More Than Two Digits at a Time
@@ -140,5 +146,7 @@ We've gone through all the digits in the number $8,077,$ so the division is done
 Therefore,
 
 $$
+
 8,077 \div 8 = 1,009\,\text{R}\,5.
+
 $$

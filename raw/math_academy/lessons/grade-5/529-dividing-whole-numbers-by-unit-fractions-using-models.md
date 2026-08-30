@@ -16,13 +16,17 @@ Remember that a **unit fraction** is a fraction containing $1$ in the numerator.
 For example, the following fractions are unit fractions since they each contain ${\color{blue}{1}}$ in the numerator:
 
 $$
+
 \dfrac{\color{blue}{1}}{2}, \qquad \dfrac{\color{blue}{1}}{5}, \qquad \dfrac{\color{blue}{1}}{8}
+
 $$
 
 However, the following fractions are *not* unit fractions since they do *not* contain ${\color{blue}{1}}$ in the numerator:
 
 $$
+
 \dfrac{\color{red}{2}}{3}, \qquad \dfrac{\color{red}{5}}{8}, \qquad \dfrac{\color{red}{7}}{12}
+
 $$
 
 In this lesson, we will use models to divide whole numbers by unit fractions.
@@ -68,7 +72,9 @@ We get ${\color{red}2} \times {\color{blue}5} = 10$ pieces in total.
 Therefore,
 
 $$
+
 2 \div \dfrac{1}{5} = 10\,.
+
 $$
 
 ### Example: Identifying a Model Representing a Division Problem
@@ -78,7 +84,9 @@ $$
 What model could represent the division problem below?
 
 $$
+
 3 \div \dfrac{1}{6} = 18
+
 $$
 
 #### Explanation
@@ -104,7 +112,9 @@ Each of the three shapes in the model below represents one whole.
 From left to right, what numbers are missing from the division problem below?
 
 $$
+
 \,0\,
+
 $$
 
 #### Explanation
@@ -116,7 +126,9 @@ The model tells us that when we divide $\color{red}3$ wholes into quarters, we w
 Therefore, the division problem is:
 
 $$
+
 \,3\,
+
 $$
 
 So, the missing numbers are $\color{red}3$ and $\color{blue}12.$
@@ -140,5 +152,7 @@ We get ${\color{red}3} \times {\color{blue}5} = 15$ pieces in total.
 Therefore:
 
 $$
+
 3 \div \dfrac{1}{5} = 15
+
 $$

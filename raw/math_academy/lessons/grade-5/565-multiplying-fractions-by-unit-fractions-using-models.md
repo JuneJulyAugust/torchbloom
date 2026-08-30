@@ -16,7 +16,9 @@ We can use fraction models to understand how to multiply fractions.
 For example, let's suppose that we wish to compute the following product of fractions:
 
 $$
+
 \dfrac{2}{3} \times \dfrac{1}{2}
+
 $$
 
 Let's start by representing $\dfrac23$ using a square fraction model, like the one below. Notice that we have split the fraction *vertically*.
@@ -32,7 +34,9 @@ From the picture on the right, we see that the shaded part represents $\dfrac{2}
 Therefore,
 
 $$
+
 \dfrac{2}{3} \times \dfrac{1}{2} = \dfrac{2}{6}.
+
 $$
 
 Notice that we can simplify this answer further by dividing the numerator and denominator by $2.$ However, in this lesson, we'll focus just on multiplication and not worry about simplifying the final answers.
@@ -54,7 +58,9 @@ We have $\dfrac{1}{3}$ on the left and $\dfrac{1}{6}$ on the right.
 Therefore, the multiplication problem shown is:
 
 $$
+
 \dfrac{1}{3} \times \dfrac{1}{2} = \dfrac{1}{6}
+
 $$
 
 ### Example: Identifying a Missing Number in a Model
@@ -76,7 +82,9 @@ The shape on the right-hand side is split into $\color{blue}3$ equal parts by ho
 Therefore, the multiplication problem shown is:
 
 $$
+
 \dfrac{1}{2} \times \dfrac{1}{\color{blue}{3}} = \dfrac{1}{6}
+
 $$
 
 So, the missing number is $\color{blue}3.$
@@ -120,5 +128,7 @@ From the picture on the right, we obtain that the shaded part represents $\dfrac
 Therefore,
 
 $$
+
 \dfrac{4}{5} \times \dfrac{1}{3} = \dfrac{4}{15}.
+
 $$

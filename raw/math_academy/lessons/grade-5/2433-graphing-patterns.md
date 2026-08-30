@@ -59,7 +59,9 @@ Create a table that gives the pattern shown in the graph above.
 The horizontal axis ($x$-axis) corresponds to pattern A, and the vertical axis ($y$-axis) corresponds to pattern B. We have the following coordinates of points:
 
 $$
+
 (1,10),\, (3,8),\, (5,6),\, (7,4),\, (9,2)
+
 $$
 
 So, we can fill the table:
@@ -79,7 +81,9 @@ What is the rule for pattern B, shown in the graph below?
 The horizontal axis ($x$-axis) corresponds to pattern A, and the vertical axis ($y$-axis) corresponds to pattern B. We have the following coordinates of points:
 
 $$
+
 (1,10),\, (2,20),\, (3,40),\, (4,80).
+
 $$
 
 So, we can fill the table:
@@ -103,7 +107,9 @@ $\qquad$ Each term in pattern B is $\underline{\phantom{{}^{00000000000000000000
 The horizontal axis ($x$-axis) corresponds to pattern A, and the vertical axis ($y$-axis) corresponds to pattern B. We have the following coordinates of points:
 
 $$
+
 (2,0),\, (3,1),\, (4,2),\, (5,3).
+
 $$
 
 So, we can fill the table:
@@ -111,7 +117,9 @@ So, we can fill the table:
 Comparing the terms in both patterns, we note that we can add $2$ to each term of pattern B to get the corresponding term in pattern A:
 
 $$
+
 \begin{aligned}0+2 & =2 \\ 1+2 & =3 \\ 2+2 & =4 \\ 3+2 & =5\end{aligned}
+
 $$
 
 Therefore, the correct statement is:

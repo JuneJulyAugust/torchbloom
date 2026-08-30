@@ -27,25 +27,33 @@ The order of the operations we perform follows the acronym PEMDAS:
 For example, let's look at the following expression:
 
 $$
+
 3 \times 2^2
+
 $$
 
 To evaluate this expression, we use PEMDAS. Here, we do not have **P**arentheses, so we move on to **E**xponents:
 
 $$
+
 3\,\times\overbrace{2^2}^{\large\color{blue} 4} = 3\times \color{blue} 4
+
 $$
 
 Then, we perform the **M**ultiplication:
 
 $$
+
 3\times 4 = 12
+
 $$
 
 Therefore,
 
 $$
+
 3 \times 2^2=12.
+
 $$
 
 ### Example: Evaluating Expressions With Stand-Alone Exponents
@@ -59,25 +67,33 @@ Evaluate $4^2 +(5-3).$
 To evaluate this expression, we use PEMDAS. We start with the ****arentheses:
 
 $$
+
 4^2\,+\underbrace{(5-3)}_{\large\color{blue} 2} =4^2\,+ {\color{blue} 2}
+
 $$
 
 Then, we compute the ****xponents:
 
 $$
+
 \overbrace{4^2}^{\large\color{red} 16}+2 = {\color{red} 16}+2
+
 $$
 
 Finally, we perform the ****ddition:
 
 $$
+
 16+2 = 18
+
 $$
 
 Therefore,
 
 $$
+
 4^2 +(5-3)=18.
+
 $$
 
 ### Example: Evaluating Expressions With Exponents Outside Parentheses
@@ -91,25 +107,33 @@ Calculate $28\div(7-5)^2.$
 To evaluate this expression, we use PEMDAS. We start with the ****arentheses:
 
 $$
+
 28\div \underbrace{(7-5)}_{\large\color{blue} 2}{}^2 =28\div {\color{blue} 2}^2
+
 $$
 
 Then, we compute the ****xponents:
 
 $$
+
 28\div\overbrace{2^2}^{\large\color{red} 4} =28\div {\color{red} 4}
+
 $$
 
 Finally, we perform the ****ivision:
 
 $$
+
 28\div 4 =7
+
 $$
 
 Therefore,
 
 $$
+
 28\div(7-5)^2=7.
+
 $$
 
 ### Example: Evaluating Expressions With Exponents Inside Parentheses
@@ -125,29 +149,39 @@ According to PEMDAS, we should first calculate the expression inside the ****are
 To evaluate $\left(3+2^2\right),$ we should again apply PEMDAS. We start with the ****xponents:
 
 $$
+
 3\,+\overbrace{2^2}^{\large\color{blue} 4} =3+ {\color{blue} 4}
+
 $$
 
 Then, we perform the ****ddition:
 
 $$
+
 3 + 4 = {\color{red} 7}
+
 $$
 
 So we have:
 
 $$
+
 5\times \underbrace{\left(3+2^2\right)}_{\large\color{red} 7} =5\times {\color{red} 7}
+
 $$
 
 Now that we have calculated the expression inside the ****arentheses, we can finally move on to the ****ultiplication:
 
 $$
+
 5 \times 7 = 35
+
 $$
 
 Therefore,
 
 $$
+
 5\times\left(3+2^2\right)=35.
+
 $$

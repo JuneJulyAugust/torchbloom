@@ -42,7 +42,9 @@ To identify a number's first ** significant figures, we must highlight the first
 The first four significant figures of our number are highlighted below:
 
 $$
+
 \fbox{2500}15
+
 $$
 
 ### Example: Identifying Significant Figures With Leading Zeros
@@ -58,7 +60,9 @@ To identify a number's first ** significant figures, we must highlight the first
 The first four significant figures of our number are highlighted below:
 
 $$
+
 000\fbox{2690}80
+
 $$
 
 ### Rounding Down With Significant Figures
@@ -68,7 +72,9 @@ We've already seen how to round numbers to the nearest ten, hundred, thousand, e
 For example, let's round the following number to *two* significant figures.
 
 $$
+
 42\,137
+
 $$
 
 We proceed as follows:
@@ -92,19 +98,25 @@ Round the number $45\,843$ to three significant figures.
 Since we are rounding to ** significant figures, we separate the first ** digits from the left from the other digits:
 
 $$
+
 45\,{\color{black}8} \,|\, {\color{blue}4}3
+
 $$
 
 The digit to the bar's right is ${\color{blue}4},$ which is smaller than $5.$ So, we do not change the digit to the bar's left.
 
 $$
+
 45\,{\color{black}8} \,|\, {\color{blue}4}3
+
 $$
 
 Finally, we change all of the digits on the bar's right to zeros:
 
 $$
+
 45\,8\,|\,00
+
 $$
 
 Therefore, $45\,843$ rounded to three significant figures is $45\,800.$
@@ -116,7 +128,9 @@ In cases where the digit to the bar's right is greater than or equal to $5,$ we 
 For example, let's round the following number to *two* significant figures:
 
 $$
+
 86\,613
+
 $$
 
 We proceed as follows:
@@ -140,19 +154,25 @@ Round the number $1\,047\,850$ to four significant figures.
 Since we are rounding to ** significant figures, we separate the first ** digits from the left from the other digits:
 
 $$
+
 1\,04{\color{red}7} \,|\, {\color{blue}8}50
+
 $$
 
 The digit to the bar's right is ${\color{blue}8},$ which is larger than (or equal to) $5.$ So, we increase the digit to the bar's left by one. Since the digit to bar's left is ${\color{red}7},$ it changes to ${\color{red}8}{:}$
 
 $$
+
 1\,04{\color{red}8} \,|\, {\color{blue}8}50
+
 $$
 
 Finally, we change all of the digits on the bar's right to zeros:
 
 $$
+
 1\,048\,|\, 000
+
 $$
 
 Therefore, $1\,047\,850$ rounded to four significant figures is $1\,048\,000.$

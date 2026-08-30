@@ -16,7 +16,9 @@ We can use fraction models to multiply unit fractions by whole numbers.
 For example, let's consider the following product:
 
 $$
+
 \dfrac 13 \times 2
+
 $$
 
 First, we represent $\dfrac{1}{3}$ using a model:
@@ -30,7 +32,9 @@ Multiplication by a whole number is simply a repeated addition. And, since we ne
 There are ${\color{blue}2} \times {\color{red}1} = 2$ shaded pieces in total. Therefore, we conclude that
 
 $$
+
 2 \times \dfrac{1}{3} = \dfrac{2}{3}.
+
 $$
 
 ### Example: Representing a Product as a Repeated Addition
@@ -68,7 +72,9 @@ Since we need to multiply $\dfrac{\color{red}1}{5}$ by $\color{blue}3$, we repea
 There are ${\color{blue}3} \times {\color{red}1} = 3$ shaded pieces in total. Therefore,
 
 $$
+
 3 \times \dfrac{1}{5} = \dfrac{3}{5}.
+
 $$
 
 ### A Faster Way of Computing a Product Using Models
@@ -78,7 +84,9 @@ There's another way we can use fraction models to multiply unit fractions by who
 To demonstrate, let's consider the multiplication problem below:
 
 $$
+
 \dfrac{1}{10} \times 7
+
 $$
 
 We start by drawing a fraction model to represent $\dfrac{1}{10}.$
@@ -92,7 +100,9 @@ Our model has $1$ shaded piece. So, the resulting model must have $1 \times 7 = 
 Therefore, we conclude that
 
 $$
+
 \dfrac{1}{10}\times 7 = \dfrac{7}{10}.
+
 $$
 
 ### Example: Identifying a Multiplication Problem Given a Model
@@ -112,13 +122,17 @@ We have $\dfrac{1}{9}$ on the left and $\dfrac{4}{9}$ on the right.
 Therefore, we have
 
 $$
+
 \dfrac{1}{9} \times 4 = \dfrac{4}{9}.
+
 $$
 
 **** We can swap the factors on the left-hand side. So, the following would be a correct answer too:
 
 $$
+
 4 \times \dfrac{1}{9} = \dfrac{4}{9}
+
 $$
 
 ### Example: Identifying a Missing Factor Given a Model
@@ -140,7 +154,9 @@ The shape on the left has $1$ shaded piece, and the shape on the right has $3$ s
 Therefore, we have
 
 $$
+
 \dfrac{1}{5} \times {\color{blue}3} = \dfrac{3}{5}.
+
 $$
 
 So, the missing number is ${\color{blue}3}.$

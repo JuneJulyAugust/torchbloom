@@ -18,7 +18,9 @@ Let's look at the following fraction model, where each circle represents one who
 Each whole has been split into $\color{blue}5$ parts. Of these parts, $\color{red}9$ are shaded. Therefore, this picture represents the following fraction:
 
 $$
+
 \dfrac{\color{red}9}{\color{blue}5}
+
 $$
 
 This type of fraction is called an **improper fraction** because the numerator (${\color{red}9}$) is larger than the denominator (${\color{blue}5}$). Improper fractions are used to represent numbers greater than or equal to one whole.

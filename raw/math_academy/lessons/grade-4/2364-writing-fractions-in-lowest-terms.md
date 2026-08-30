@@ -17,7 +17,9 @@ A fraction is written in **lowest terms** when the greatest common factor of the
 For example, let's take a look at the following fraction:
 
 $$
+
 \dfrac{\color{blue}{1}}{\color{red}{4}}
+
 $$
 
 The greatest common factor of ${\color{blue}{1}}$ and ${\color{red}{4}}$ is $1.$ Therefore, the fraction is written in lowest terms.
@@ -25,7 +27,9 @@ The greatest common factor of ${\color{blue}{1}}$ and ${\color{red}{4}}$ is $1.$
 As another example, consider the fraction
 
 $$
+
 \dfrac{\color{blue}{3}}{\color{red}{7}}.
+
 $$
 
 The greatest common factor of ${\color{blue}{3}}$ and ${\color{red}{7}}$ is $1.$ Therefore, the fraction is written in lowest terms.
@@ -33,7 +37,9 @@ The greatest common factor of ${\color{blue}{3}}$ and ${\color{red}{7}}$ is $1.$
 Finally, let's consider the fraction
 
 $$
+
 \dfrac{\color{blue}{2}}{\color{red}{4}}.
+
 $$
 
 The greatest common factor of ${\color{blue}{2}}$ and ${\color{red}{4}}$ is $2.$ Therefore, this fraction is *not* written in lowest terms.
@@ -45,7 +51,9 @@ To write a fraction in its lowest terms, we divide the numerator and denominator
 For example, let's write the following fraction in lowest terms:
 
 $$
+
 \dfrac{8}{20}
+
 $$
 
 We start by finding the greatest common factor of $8$ and $20\mathbin{:}$
@@ -59,7 +67,9 @@ So, the greatest common factor of $8$ and $20$ is ${\color{blue}{4}}$.
 Now, dividing both the numerator and denominator by our greatest common factor $({\color{blue}{4}})$ gives
 
 $$
+
 \dfrac{8}{20} = \dfrac{8 \div {\color{blue}{4}}}{20 \div {\color{blue}{4}}}=\dfrac{2}{5}.
+
 $$
 
 So, $\dfrac{8}{20}$ expressed in lowest terms is $\dfrac25.$
@@ -83,7 +93,9 @@ So, the greatest common factor of $8$ and $32$ is ${\color{blue}{8}}.$
 Dividing both the numerator and denominator by ${\color{blue}{8}}$ gives the following:
 
 $$
+
 \dfrac{8}{32} = \dfrac{8 \div {\color{blue}{8}}}{32 \div {\color{blue}{8}}}=\dfrac{1}{4}
+
 $$
 
 Therefore, $\dfrac{8}{32}$ expressed in lowest terms is $\dfrac{1}{4}.$
@@ -107,7 +119,9 @@ So, the greatest common factor of $35$ and $63$ is ${\color{blue}{7}}.$
 Dividing both the numerator and denominator by ${\color{blue}{7}}$ gives the following:
 
 $$
+
 \dfrac{35}{63} = \dfrac{35 \div {\color{blue}{7}}}{63 \div {\color{blue}{7}}} = \dfrac{5}{9}
+
 $$
 
 Therefore, $\dfrac{35}{63}$ expressed in lowest terms is $\dfrac59.$

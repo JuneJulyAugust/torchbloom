@@ -27,13 +27,17 @@ Let's write down the multiplication and division problems this area model repres
 Therefore, this area model can be used to represent the following multiplication problem:
 
 $$
+
 804 = 134 \times 6
+
 $$
 
 Writing this as a division problem, we get
 
 $$
+
 804 \div 6 = 134.
+
 $$
 
 ### Example: Interpreting an Area Model
@@ -45,7 +49,9 @@ $$
 The area model above can be used to represent the following division problem:
 
 $$
+
 00
+
 $$
 
 What is the missing number?
@@ -63,13 +69,17 @@ Let's look at the big rectangle:
 Therefore, this area model can be used to represent the following multiplication problem:
 
 $$
+
 1,062 = 354 \times 3
+
 $$
 
 Writing this as a division problem, we get
 
 $$
+
 1,062 \div 3 = 354.
+
 $$
 
 Therefore, the missing number is $354.$
@@ -121,13 +131,17 @@ Now, notice the following regarding the big rectangle:
 Therefore, this area model can be used to represent the following multiplication problem:
 
 $$
+
 1,971 = 657 \times 3
+
 $$
 
 Writing this as a division problem, we get
 
 $$
+
 1,971 \div 3 = 657.
+
 $$
 
 Therefore, each wagon is loaded with $657\,\textrm{ft}^3$ of coal.

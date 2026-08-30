@@ -68,7 +68,9 @@ Now, we can deduce the following:
 Calculating the final difference, we get
 
 $$
+
 B = 45 - 25 = 20.
+
 $$
 
 Therefore, Thelma kept only $20\, \textrm{g}$ of jelly beans for herself.
@@ -105,28 +107,28 @@ Therefore, the clerk will put $18$ cans of soda on each shelf.
 
 #### Question
 
-Britney is raising $\[math]742$ to buy a new laptop. She currently has $\[/math]154,$ so to raise the rest of the money, she sells beaded bracelets for $\[math]5$ each. How many bracelets does Britney need to sell to raise the money she needs to buy the laptop?
+Britney is raising $742$ to buy a new laptop. She currently has $154,$ so to raise the rest of the money, she sells beaded bracelets for $5$ each. How many bracelets does Britney need to sell to raise the money she needs to buy the laptop?
 
 #### Explanation
 
 Let's start by writing down the important information:
 
-- Britney wants to raise $\[math]742.$
+- Britney wants to raise $742.$
 
-- She currently has $\[/math]154.$
+- She currently has $154.$
 
-- She sells bracelets for $\[math]5$ each.
+- She sells bracelets for $5$ each.
 
 Let $B$ represent the number of bracelets Britney needs to sell. This is the number we want to find.
 
 Now, we can deduce the following:
 
-- Britney wants to raise $\[/math]742$, and she currently has $\[math]154.$ Therefore, the number of dollars she has left to raise is
+- Britney wants to raise $742$, and she currently has $154.$ Therefore, the number of dollars she has left to raise is
 
-- The number of bracelets Britney needs to sell, $B$, equals the number of dollars she has left to raise $(\[/math]588)$ divided by the cost per bracelet $(\[math]5).$ Therefore, the number of bracelets Britney needs to sell is
+- The number of bracelets Britney needs to sell, $B$, equals the number of dollars she has left to raise $(588)$ divided by the cost per bracelet $(5).$ Therefore, the number of bracelets Britney needs to sell is
 
 Calculating the final quotient, we get $B = 588 \div 5 = {\color{blue}117}\,\textrm{R}\,{\color{red}3}{:}$
 
-This means that, after selling $\color{blue}117$ bracelets, Britney still needs $\[/math]{\color{red}3}.$
+This means that, after selling $\color{blue}117$ bracelets, Britney still needs ${\color{red}3}.$
 
 Therefore, Britney should sell ${\color{blue}117}+1=118$ bracelets.

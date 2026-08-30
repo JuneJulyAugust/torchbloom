@@ -27,7 +27,9 @@ We've gone through all the digits, so the division is done.
 Therefore,
 
 $$
+
 528 \div 24 = 22 \, .
+
 $$
 
 ### Example: Dividing When the Quotient Has Two Digits
@@ -49,7 +51,9 @@ We've gone through all the digits in the number $504$, so the division is done.
 Therefore,
 
 $$
+
 504 \div 25 = 20\,\text{R}\,4 \, .
+
 $$
 
 So the quotient is $20$ and the remainder is $4.$
@@ -93,7 +97,9 @@ We've gone through all the digits in the number $864$, so the division is done.
 Therefore,
 
 $$
+
 864 \div 24 = 36.
+
 $$
 
 So the store owner will need a total of $36$ bottles to bottle all the olive oil.
@@ -115,5 +121,7 @@ We've gone through all the digits in the number $518$, so the division is done.
 Therefore,
 
 $$
+
 518 \div 74 = 7.
+
 $$

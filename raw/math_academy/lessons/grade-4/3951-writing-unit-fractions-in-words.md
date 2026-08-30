@@ -32,7 +32,9 @@ There is a systematic way to write fractions in words. We'll cover some key idea
 Let's consider the following fraction:
 
 $$
+
 \dfrac{\color{red}1}{\color{blue}9}
+
 $$
 
 We write the fraction in words as follows:

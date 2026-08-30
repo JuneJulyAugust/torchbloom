@@ -25,7 +25,9 @@ We can also use these symbols to compare fractions.
 For example, let's compare the following fractions:
 
 $$
+
 \dfrac{1}{3}, \qquad \dfrac{2}{3}
+
 $$
 
 The area models for these fractions are shown below:
@@ -45,7 +47,9 @@ To express the fact that $\dfrac13$ is smaller than $\dfrac23,$ we use a "less t
 Finally, expressing this comparison using numbers only, we get the following:
 
 $$
+
 \dfrac{1}{3} \,< \,\dfrac{2}{3}
+
 $$
 
 ### Example: Comparing Fractions With Common Denominators
@@ -53,7 +57,9 @@ $$
 #### Question
 
 $$
+
 \dfrac{4}{5} \,\square \,\dfrac{2}{5}
+
 $$
 
 Which symbols could replace the empty box above to make the statement true?
@@ -83,7 +89,9 @@ Therefore, the fraction on the left must be ** than the fraction on the right.
 Therefore, the correct statement is the following:
 
 $$
+
 \dfrac{4}{5} \,> \,\dfrac{2}{5}
+
 $$
 
 So, the correct answer is "III only."
@@ -95,7 +103,9 @@ When two fraction models have the same number of shaded parts, we compare the si
 For example, let's compare the following fractions:
 
 $$
+
 \dfrac{1}{2}, \qquad \dfrac{1}{3}
+
 $$
 
 We start by drawing the fraction models.
@@ -115,7 +125,9 @@ This means that the fraction on the left is *larger* than the fraction on the ri
 Writing this inequality using numbers only, we have
 
 $$
+
 \dfrac{1}{2} > \dfrac{1}{3}.
+
 $$
 
 ### Example: Comparing Unit Fractions
@@ -123,7 +135,9 @@ $$
 #### Question
 
 $$
+
 \dfrac{1}{5} \,\square \,\dfrac{1}{4}
+
 $$
 
 Which symbols could replace the empty box above to make the statement true?
@@ -149,7 +163,9 @@ The fraction on the left has a smaller shaded part (one-fifth) than the fraction
 Therefore, the correct statement is the following:
 
 $$
+
 \dfrac{1}{5} < \dfrac{1}{4}
+
 $$
 
 So, the correct answer is "III only."
@@ -159,7 +175,9 @@ So, the correct answer is "III only."
 #### Question
 
 $$
+
 \dfrac{3}{4} \,\square \,\dfrac{3}{8}
+
 $$
 
 Which symbols could replace the empty box above to make the statement true?
@@ -185,7 +203,9 @@ The fraction on the left has larger parts (quarters) than the fraction on the ri
 Therefore, the correct statement is the following:
 
 $$
+
 \dfrac{3}{4} > \dfrac{3}{8}
+
 $$
 
 So, the correct answer is "III only."

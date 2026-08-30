@@ -62,7 +62,9 @@ Therefore, the missing shape is a square.
 Another type of pattern is a list (or sequence) of numbers, such as the following:
 
 $$
+
 3,\qquad 5,\qquad 7,\qquad 9
+
 $$
 
 The rule for the pattern above is *"add ${\color{blue}{2}}.$"*
@@ -76,7 +78,9 @@ Knowing this rule, what is the next term in this pattern?
 The rule is "add ${\color{blue}{2}}$," and the last given number is $9,$ so the next number is
 
 $$
+
 9+{\color{blue}{2}}=11 \, .
+
 $$
 
 ### Example: Finding a Missing Number in a Pattern
@@ -86,7 +90,9 @@ $$
 The rule for the pattern below is "multiply by $2.$"
 
 $$
+
 0
+
 $$
 
 What is the missing number?
@@ -96,7 +102,9 @@ What is the missing number?
 The rule is "multiply by $2$" and the missing number comes after $6.$ Therefore, the missing number is
 
 $$
+
 6 \times 2 = 12.
+
 $$
 
 ### Example: Finding Multiple Missing Numbers
@@ -106,7 +114,9 @@ $$
 The rule for the pattern below is "divide by $2.$" What are the missing numbers?
 
 $$
+
 0
+
 $$
 
 #### Explanation
@@ -114,19 +124,25 @@ $$
 The rule is "divide by $2$" and the first missing number comes after $8.$ Therefore, the first missing number is
 
 $$
+
 8 \div 2=4.
+
 $$
 
 The second missing number comes after $2.$ Therefore, the second missing number is
 
 $$
+
 2 \div 2=1.
+
 $$
 
 So, we have the following pattern:
 
 $$
-16,\qquad 8,\qquad \bbox[3pt, lightgray]{4},\qquad 2,\qquad \bbox[3pt, lightgray]{1}
+
+16,\qquad 8,\qquad \boxed{4},\qquad 2,\qquad \boxed{1}
+
 $$
 
 The missing numbers are $4$ and $1.$
@@ -138,7 +154,9 @@ The missing numbers are $4$ and $1.$
 The rule for the pattern below is "subtract $3.$"
 
 $$
+
 53,\qquad 50,\qquad 47,\qquad 44,\qquad 41
+
 $$
 
 If the pattern is continued, what will be the $7$th number?
@@ -150,13 +168,17 @@ The rule is "subtract $3$", and the last given number is $41,$ which is the $5$t
 To find the $6$th number, we subtract $3$ from $41\mathbin{:}$
 
 $$
+
 41 - 3 = 38
+
 $$
 
 To find the $7$th number, we subtract $3$ from $38\mathbin{:}$
 
 $$
+
 38 - 3 = 35
+
 $$
 
 So, the $7$th number is $35.$

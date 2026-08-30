@@ -16,7 +16,9 @@ We can use our knowledge of fraction models to multiply fractions by whole numbe
 For example, let's consider the following product:
 
 $$
+
 \dfrac{3}{10} \times 2.
+
 $$
 
 We start by drawing a fraction model for $\dfrac{3}{10}{:}$
@@ -32,7 +34,9 @@ Now, we count the number of shaded pieces.
 There are ${\color{red}3} \times {\color{blue}2} = 6$ shaded pieces in total. Therefore,
 
 $$
+
 \dfrac{3}{10} \times 2 = \dfrac{6}{10}.
+
 $$
 
 ### Example: Representing a Product as a Repeated Addition
@@ -70,7 +74,9 @@ Since we need to multiply $\dfrac{\color{red}5}{6}$ by $\color{blue}3$, we repea
 There are ${\color{red}5} \times {\color{blue}3} = 15$ shaded pieces in total. Therefore:
 
 $$
+
 \dfrac{5}{6} \times 3 = \dfrac{15}{6}
+
 $$
 
 ### A Faster Method for Multiplying Fractions by Whole Numbers
@@ -80,7 +86,9 @@ There's another way we can use fraction models to multiply fractions by whole nu
 To demonstrate, let's consider the following multiplication problem:
 
 $$
+
 \dfrac{2}{9} \times 4
+
 $$
 
 We start by drawing a fraction model to represent $\dfrac{2}{9}.$
@@ -96,7 +104,9 @@ Our model has $2$ shaded pieces. So, the resulting model must have $2 \times 4 =
 Therefore, we conclude that
 
 $$
+
 \dfrac{2}{9}\times 4 = \dfrac{8}{9}.
+
 $$
 
 ### Example: Multiplying a Fraction by a Whole Number by Repeating the Shaded Parts
@@ -118,7 +128,9 @@ The shape on the left has $3$ shaded pieces, and the shape on the right has $6$ 
 Therefore, the multiplication problem shown is
 
 $$
+
 \dfrac{3}{7} \times {\color{blue}2} = \dfrac{6}{7}.
+
 $$
 
 So, the missing number is ${\color{blue}2}.$

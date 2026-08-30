@@ -57,7 +57,9 @@ Now, let's jump from the tenths place to the tens place. Remember that the decim
 We have that
 
 $$
+
 \underbrace{10\times10}_{\color{black}2\,\text{steps}}=100.
+
 $$
 
 Therefore, the value of the digit $\color{blue}2$ in the tens place is $100$ times larger than the value of the digit $\color{red}2$ in the tenths place.
@@ -77,7 +79,9 @@ We need to find a digit that is $1,000$ times greater than this ${\color{red}{9}
 Notice that
 
 $$
+
 1,000 = \underbrace{10\times 10\times 10}_{3\,\text{steps}}.
+
 $$
 
 Therefore, we move this digit $\color{red}9$ three steps to the left in the place value chart. This gives:
@@ -85,7 +89,9 @@ Therefore, we move this digit $\color{red}9$ three steps to the left in the plac
 Thus, the required number is ** number that has the digit $\color{blue}9$ in the hundreds place. Some examples include:
 
 $$
+
 {\color{blue}9}15.74, \qquad 2,{\color{blue}9}80.2, \qquad 32,{\color{blue}9}01.56.
+
 $$
 
 ### Comparing Place Values With Decimals by Moving Right
@@ -135,7 +141,9 @@ Let's move from the tens place to the tenths place in the place value chart:
 We see that the value of the digit $5$ in the tenths place is $100$ times *smaller* than the value of the digit $5$ in the tens place, because
 
 $$
+
 \underbrace{10\times10}_{\color{black}2\,\text{steps}}=100.
+
 $$
 
 This is the same as saying that the size of the digit $\color{red}5$ in the tenths place is $\dfrac{1}{100}$ the size digit $\color{blue}5$ in the tens place.
@@ -161,7 +169,9 @@ Now let's jump from the tenths place to the thousandths place.
 We see that the value of the digit $4$ in the thousandths place is
 
 $$
+
 \underbrace{10\times 10}_{\color{black}2\,\text{steps}}=100
+
 $$
 
 times **** than the value of the digit $4$ in the tenths place.

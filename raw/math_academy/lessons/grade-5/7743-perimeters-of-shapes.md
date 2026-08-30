@@ -21,7 +21,9 @@ For example, let's find the perimeter of the triangle shown below.
 Therefore, the perimeter of the triangle is
 
 $$
+
 P = 12 + 9 + 11 = 32 \: \text{yd}.
+
 $$
 
 ### Example: Finding the Perimeter of a Polygon
@@ -39,7 +41,9 @@ The perimeter of a polygon is the total distance around its boundary, so we add 
 Therefore, the perimeter of the quadrilateral is
 
 $$
-P = 8 + 13 + 14 + 15 = \bbox[4pt,border: 1px solid lightgray]{50} \: \text{m}.
+
+P = 8 + 13 + 14 + 15 = \boxed{50} \: \text{m}.
+
 $$
 
 ### Perimeters of Rhombuses and Squares
@@ -55,7 +59,9 @@ The special properties of these shapes allow us to find their perimeters even mo
 For example, the perimeter of a square with a side of length $7\:\text{m}$ is given by
 
 $$
+
 \begin{aligned}Perimeter & =4×(Side Length) \\ & =4×7 \\ & =28\,m.\end{aligned}
+
 $$
 
 Let's see another example.
@@ -77,7 +83,9 @@ Recall that a rhombus is a quadrilateral with two pairs of parallel sides, where
 Therefore, the perimeter of the rhombus is
 
 $$
+
 \begin{aligned}Perimeter & =4×(Side Length) \\ & =4×9 \\ & =36\,cm.\end{aligned}
+
 $$
 
 ### Perimeters of Rectangles

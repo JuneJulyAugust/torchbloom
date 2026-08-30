@@ -14,7 +14,9 @@ Topic ID: 3750
 Suppose that we want to find an expression that is $6$ larger than the following expression:
 
 $$
+
 (9-5) \div 2
+
 $$
 
 Let's be careful of the language here. We want an expression that is "$6$ larger" than the one above, **not** "$6$ *times* larger." Therefore, we should *add* $6,$ not multiply.
@@ -22,13 +24,17 @@ Let's be careful of the language here. We want an expression that is "$6$ larger
 First, let's add some brackets:
 
 $$
+
 [(9-5) \div 2]
+
 $$
 
 Then, we add $6$:
 
 $$
+
 6+[(9-5) \div 2]
+
 $$
 
 And we're done!
@@ -46,13 +52,17 @@ First, note that "${\color{blue}3}$ ** than" means that we should ** $3$ to the 
 First, we add brackets:
 
 $$
+
 [7 + (12\div 2)]
+
 $$
 
 Next, we add $\color{blue}3$:
 
 $$
+
 {\color{blue}{3}}+[7 + (12\div 2)]
+
 $$
 
 ### Modifying an Expression With Subtraction
@@ -60,7 +70,9 @@ $$
 Suppose that we want to find an expression that is $8$ smaller than the following expression:
 
 $$
+
 (12+4) \times 3
+
 $$
 
 Let's double-check the language that's used. We want an expression that is "$8$ *smaller*" than the one above. Therefore, we should *subtract* $8.$
@@ -68,13 +80,17 @@ Let's double-check the language that's used. We want an expression that is "$8$ 
 First, let's add some brackets:
 
 $$
+
 [(12+4) \times 3]
+
 $$
 
 Then, we subtract $8$:
 
 $$
+
 [(12+4) \times 3] - 8
+
 $$
 
 And we're done!
@@ -92,11 +108,15 @@ First, note that "${\color{blue}4}$ ** than the expression" means that we should
 First, we add brackets:
 
 $$
+
 [6 + (2\times 9)]
+
 $$
 
 Next, we subtract $\color{blue}4$:
 
 $$
+
 [6 + (2\times 9)]-4
+
 $$
