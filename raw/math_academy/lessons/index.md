@@ -11,6 +11,7 @@ This is a raw source archive of lesson pages reached through the student's visib
 - [Algebra I lessons](./algebra-i/index.md) — 225 lesson pages from the active Algebra I course, with prerequisites, text, mathematical expressions, and instructional graphics.
 - [Geometry lessons](./geometry/index.md) — 179 lesson pages from the active Geometry course, with prerequisites, text, mathematical expressions, and instructional graphics.
 - [Algebra II lessons](./algebra-ii/index.md) — 179 lesson pages from the active Algebra II course, with prerequisites, text, mathematical expressions, and instructional graphics.
+- [Precalculus lessons](./precalculus/index.md) — 296 lesson pages from the active Precalculus course, with prerequisites, text, mathematical expressions, and instructional graphics.
 - [Completed Grade 4 task samples](../lesson-samples/grade-4/index.md) — 34 completed activity task pages and their visible question data.
 
 Local images are kept separately in `raw/math_academy/lesson-assets/`, while each Markdown page references the correct asset paths.
