@@ -83,4 +83,4 @@ This index mirrors the catalog hierarchy. Each available course links to its raw
 - Available course files: 34
 - Excluded under-development courses: ACT Math and Abstract Algebra
 - Total unique catalog URLs: 36
-- Lesson pages captured: Grade 4 (140), Grade 5 (133), Prealgebra (210), Grade 6 (157)
+- Lesson pages captured: Grade 4 (140), Grade 5 (133), Prealgebra (210), Grade 6 (157), Grade 7 (170)
