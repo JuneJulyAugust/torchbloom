@@ -1,0 +1,371 @@
+# Confidence Intervals for One Means: Finite Population Correction
+
+Source: https://www.mathacademy.com/topics/5275?courseId=73
+Topic ID: 5275
+
+## Prerequisites
+
+- [Confidence Intervals for One Mean: Unknown Population Variance](./3855-confidence-intervals-for-one-mean-unknown-population-variance.md)
+- [Finite Population Corrections for Sample Means](./3930-finite-population-corrections-for-sample-means.md)
+
+## Lesson
+
+### Introduction
+
+In this lesson, we'll learn how to construct confidence intervals for population means when the population we're sampling is finite. First, let's quickly recap some important results.
+
+Recall that, for an I.I.D. random sample of size $n$ drawn from a *normal* population with unknown mean $\mu$ and unknown variance $\sigma^2,$ the $100(1-\alpha)\%$ confidence interval for $\mu$ is given by
+
+$$
+
+
+\left(\overline{x} - t_{n-1,\alpha/2} \cdot \frac{s}{\sqrt{n}}, \: \overline{x} + t_{n-1,\alpha/2} \cdot \frac{s}{\sqrt{n}}\right)
+
+
+$$
+
+where
+
+- $\overline{x}$ is a point estimate of $\mu,$
+
+- $t_{n-1, \alpha/2}$ is the $t$-score satisfying $P(T > t_{n-1, \alpha/2}) = \dfrac{\alpha}{2}$, and $T$ follows a $t$-distribution with $n-1$ degrees of freedom,
+
+- $s^2$ is a point estimate of the variance, and
+
+- $n$ is the sample size.
+
+In short, we can write
+
+$$
+
+
+\underbrace{\overline{x}}_{\text{point estimate}} \pm \quad\underbrace{t_{n-1,\alpha/2} \cdot \frac{s}{\sqrt{n}}}_{\text{margin of error}}.
+
+
+$$
+
+We rely on the central limit theorem to construct confidence intervals when the underlying population is not normally distributed. According to the theorem, the sampling distribution of the sample mean $\overline{X}$ approaches normality as the sample size $n$ becomes large. Specifically, we have
+
+$$
+
+
+\dfrac{\overline{X} - \mu}{\sigma/\sqrt{n}} \approx N(0,1).
+
+
+$$
+
+When $\sigma^2$ is unknown, it is replaced by the sample variance $S^2$, which is a good approximation for $\sigma^2$ provided that $n$ is sufficiently large. Thus, we have
+
+$$
+
+
+\dfrac{\overline{X} - \mu}{S/\sqrt{n}} \approx T_{n-1}.
+
+
+$$
+
+In such cases, we can construct confidence limits for the population mean $\mu$ using the same formula as with the normal case:
+
+$$
+
+
+\overline{x} \pm t_{n-1,\alpha/2} \cdot \dfrac{s}{\sqrt{n}}.
+
+
+$$
+
+This method is valid provided $n$ is large enough to mitigate the effects of non-normality. For non-normal populations, $n \geq 30$ is usually sufficient.
+
+### Applying a Correction Factor
+
+If the population size $N$ is not large compared to the sample size $n$, individual sample elements are no longer independent. Consequently, the central limit theorem (CLT) approximation for the $\overline{X}$ sampling distribution does not hold. However, we can adjust the variance of the sample mean to account for the dependency among sample elements, as follows
+
+$$
+
+
+\overline{X} \sim N\!\left(\mu, \frac{\sigma^2}{n} \cdot \frac{N-n}{N-1}\right).
+
+
+$$
+
+Recall that the term
+
+$$
+
+
+\frac{N-n}{N-1}
+
+
+$$
+
+is called the *finite population correction factor*. This correction factor reduces the variance of $\overline{X}$ for small populations to take the dependency of the sample elements into account. The correction factor should be applied when $n > 5\%\cdot N$, meaning the sample contains more than $5\%$ of the population.
+
+When the correction factor is applied, the $100(1-\alpha)\%$ confidence interval is given by
+
+$$
+
+
+\overline{x} \pm t_{n-1,\alpha/2} \cdot \dfrac{s}{\sqrt{n}} \cdot \sqrt{\dfrac{N-n}{N-1}}.
+
+
+$$
+
+By applying these adjustments, the distribution of $\overline{X}$ can be accurately modeled even when the population size $N$ is not large relative to the sample size $n$.
+
+### Example: Finding Confidence Intervals for Sample Means
+
+#### Question
+
+Consider a sample of size $n=66$ from a population of size $N=580.$ Given that the unbiased estimates of the population mean $\mu$ and population variance $\sigma^2$ from this sample are $\overline x = 110$ and $s^2 = 16.5^2,$ respectively, find a $99\%$ confidence interval for the population mean.
+
+**
+
+![Instructional graphic](../../lesson-assets/probability-and-statistics/topic-5275/33f3e97b38117fc1.png)
+
+#### Explanation
+
+We do not know the distribution of the population, nor do we know the population variance $\sigma^2.$ However, the sample size $n = 66\geq 30$ is **.
+
+In cases like this, the random variable
+
+$$
+
+
+\dfrac{\overline{X} - \mu}{\sqrt{\dfrac{S^2}{n}\cdot\dfrac{N-n}{N-1} } }
+
+
+$$
+
+can be approximated by the student's $t$-distribution $T_{n-1}$ with $n-1$ degrees of freedom, where
+
+where
+
+- $\overline{X}$ is the sample mean,
+
+- $\mu$ is the population mean,
+
+- $S^2$ is the sample variance,
+
+- $n$ is the sample size, and
+
+- $N$ is the population size.
+
+The finite population correction factor
+
+$$
+
+
+\dfrac{N-n}{N-1}
+
+
+$$
+
+is necessary when the sample size is a significant proportion of the population, typically exceeding $5\%\cdot N.$ In our case, we have
+
+$$
+
+
+66 > 5\%\cdot N = 5\%\cdot 580= 29.
+
+
+$$
+
+Then, given a value $\alpha$ between $0$ and $1,$ the corresponding $[100(1-\alpha)]\%$ confidence interval for the population mean $\mu$ is given by
+
+$$
+
+
+\overline{x} \pm t_{n-1,\alpha/2} \cdot \dfrac{s}{\sqrt{n}} \cdot \sqrt{\dfrac{N-n}{N-1}},
+
+
+$$
+
+where $P(T > t_{n-1,\alpha/2}) = \dfrac{\alpha}{2},$ and $T$ has a student's $t$-distribution with $n-1$ degrees of freedom.
+
+In our case,
+
+$$
+
+
+\overline{x}=110, \qquad n = 66, \qquad s = 16.5.
+
+
+$$
+
+We are interested in finding a $99\%$ confidence interval. So, we have
+
+$$
+
+
+\alpha=1-0.99=0.01 \qquad\Longrightarrow\qquad \dfrac{\alpha}{2}=0.005.
+
+
+$$
+
+We are given that $P(T > 2.654) = 0.005.$ As a result,
+
+$$
+
+
+t_{n-1,\alpha/2} = t_{65,0.005} = 2.654.
+
+
+$$
+
+Therefore, the $99\%$ confidence interval for the population mean $\mu$ is the following:
+
+$$
+
+
+\begin{aligned}110 & ±2.654⋅\frac{16.5}{\sqrt{√66}}\sqrt{√\frac{580−66}{580−1}}\end{aligned}
+
+
+$$
+
+which simplifies as
+
+$$
+
+
+\begin{aligned}110 & ±5.08\,.\end{aligned}
+
+
+$$
+
+Finally,
+
+$$
+
+
+(110 - 5.08 , \, 110 + 5.08) = \left( \boxed{\color{blue} 104.92}, \boxed{\color{blue}115.08}\right).
+
+
+$$
+
+### Example: Finding Confidence Intervals for Sample Means in Context
+
+#### Question
+
+A jewelry store has $N = 240$ diamond rings for sale. The weight of the diamonds in the rings is normally distributed. A sample of $n = 19$ rings is taken, and the sample mean weight of diamonds per ring is found to be $\overline{x} = 1.3 \, \textrm{carats}$ with the sample variance of $s^2 = (0.25 \, \textrm{carats})^2$. Find a $95\%$ confidence interval for the population mean weight (in carats) given that $\overline{x}$ and $s^2$ are the unbiased estimates of the population mean $\mu$ and population variance $\sigma^2,$ respectively.
+
+**
+
+#### Explanation
+
+We are told that the population is normally distributed, but we do not know the population variance $\sigma^2.$
+
+In cases like this, the random variable
+
+$$
+
+
+\dfrac{\overline{X} - \mu}{\sqrt{\dfrac{S^2}{n}\cdot\dfrac{N-n}{N-1} } }
+
+
+$$
+
+can be approximated by the student's $t$-distribution $T_{n-1}$ with $n-1$ degrees of freedom, where
+
+where
+
+- $\overline{X}$ is the sample mean,
+
+- $\mu$ is the population mean,
+
+- $S^2$ is the sample variance,
+
+- $n$ is the sample size, and
+
+- $N$ is the population size.
+
+The finite population correction factor
+
+$$
+
+
+\dfrac{N-n}{N-1}
+
+
+$$
+
+is necessary when the sample size is a significant proportion of the population, typically exceeding $5\%\cdot N.$ In our case, we have
+
+$$
+
+
+19 > 5\%\cdot N = 5\%\cdot 240= 12.
+
+
+$$
+
+Then, given a value $\alpha$ between $0$ and $1,$ the corresponding $[100(1-\alpha)]\%$ confidence interval for the population mean $\mu$ is given by
+
+$$
+
+
+\overline{x} \pm t_{n-1,\alpha/2} \cdot \dfrac{s}{\sqrt{n}} \cdot \sqrt{\dfrac{N-n}{N-1}},
+
+
+$$
+
+where $P(T > t_{n-1,\alpha/2}) = \dfrac{\alpha}{2},$ and $T$ has a student's $t$-distribution with $n-1$ degrees of freedom.
+
+In our case,
+
+$$
+
+
+\overline{x}=1.3, \qquad n = 19, \qquad s = 0.25.
+
+
+$$
+
+We are interested in finding a $95\%$ confidence interval. So, we have
+
+$$
+
+
+\alpha=1-0.95=0.05 \qquad\Longrightarrow\qquad \dfrac{\alpha}{2}=0.025.
+
+
+$$
+
+We are given that $P(T > 2.101) = 0.025.$ As a result,
+
+$$
+
+
+t_{n-1,\alpha/2} = t_{18, 0.025} = 2.101.
+
+
+$$
+
+Therefore, the $95\%$ confidence interval for the population mean $\mu$ is the following:
+
+$$
+
+
+\begin{aligned}1.3 & ±2.101⋅\frac{0.25}{\sqrt{√19}}\sqrt{√\frac{240−19}{240−1}}\end{aligned}
+
+
+$$
+
+which simplifies as
+
+$$
+
+
+1.3 \pm 0.12.
+
+
+$$
+
+Finally,
+
+$$
+
+
+(1.3 - 0.12, \, 1.3 + 0.12) = \left( \boxed{\color{blue} 1.18}, \boxed{\color{blue}1.42}\right).
+
+
+$$
