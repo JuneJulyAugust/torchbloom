@@ -5,6 +5,11 @@ Captured from the Math Academy course catalog on 2026-08-29.
 
 This index mirrors the catalog hierarchy. Each available course links to its raw Markdown capture. The catalog marks ACT Math and Abstract Algebra as “Currently under development”; they were intentionally excluded.
 
+## Lesson archive
+
+- [Grade 4 and Grade 5 lesson archive](./lessons/index.md) — page-visible lesson text, prerequisites, mathematical expressions, and instructional graphics.
+- [Completed Grade 4 lesson task samples](./lesson-samples/grade-4/index.md) — completed activity pages with visible questions, results, timing, and graphics.
+
 ## Course hierarchy
 
 ### Elementary School
@@ -78,4 +83,3 @@ This index mirrors the catalog hierarchy. Each available course links to its raw
 - Available course files: 34
 - Excluded under-development courses: ACT Math and Abstract Algebra
 - Total unique catalog URLs: 36
-

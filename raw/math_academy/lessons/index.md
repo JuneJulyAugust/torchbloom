@@ -1,0 +1,10 @@
+# Math Academy lesson archive
+
+This is a raw source archive of lesson pages reached through the student's visible Math Academy course-progress links.
+
+- [Grade 4 lessons](./grade-4/index.md) — 140 lesson pages with prerequisites, text, mathematical expressions, and instructional graphics.
+- [Grade 5 lessons](./grade-5/index.md) — 133 lesson pages with prerequisites, text, mathematical expressions, and instructional graphics.
+- [Completed Grade 4 task samples](../lesson-samples/grade-4/index.md) — 34 completed activity task pages and their visible question data.
+
+Local images are kept separately in `raw/math_academy/lesson-assets/`, while each Markdown page references the correct asset paths.
+
