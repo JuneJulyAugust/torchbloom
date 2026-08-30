@@ -4,9 +4,9 @@ Source: [Math Academy Grade 5 activity](https://www.mathacademy.com/students/436
 
 ## Capture status
 
-The account was switched to **5th Grade Math** for a pilot. The course page currently reports `0%` progress and the activity history exposes only an in-progress **5th Grade Math: Placement Exam**. The diagnostic row has no open/continue action, and no completed Grade 5 lesson or review task is available to open. Math Academy therefore does not currently expose Grade 5 task questions or submitted answers from this canceled account.
+The account was switched to **5th Grade Math** for a pilot. After the account owner reactivated the subscription, the course page still reports `0%` progress and the activity history exposes only an in-progress **5th Grade Math: Placement Exam**. The diagnostic row has no open/continue action, and no completed Grade 5 lesson or review task is available to open.
 
-I tested the placement-exam path after authorization to submit intentionally wrong answers, but there was no accessible exam screen. I did not submit answers and did not click the account's **Reactivate** control. This directory is reserved for Grade 5 task captures when completed task details become available.
+I clicked **Retake Diagnostic** and confirmed its warning after authorization to submit intentionally wrong answers. Math Academy accepted the request and reports the diagnostic as in progress, but no question screen or answer control appeared after refresh, a fresh tab, or course re-selection. No answers were submitted by this capture. The account owner completed reactivation; I did not click that control. This directory is reserved for Grade 5 task captures when completed task details become available.
 
 ## What is already available
 
