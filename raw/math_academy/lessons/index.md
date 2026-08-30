@@ -26,6 +26,7 @@ This is a raw source archive of lesson pages reached through the student's visib
 - [Integrated Math III (Honors) lessons](./integrated-math-iii-honors/index.md) — 278 lesson pages from the active Integrated Math III (Honors) course, with prerequisites, text, mathematical expressions, and instructional graphics.
 - [Calculus I lessons](./calculus-i/index.md) — 175 lesson pages from the active Calculus I course, with prerequisites, text, mathematical expressions, and instructional graphics.
 - [Calculus II lessons](./calculus-ii/index.md) — 160 lesson pages from the active Calculus II course, with prerequisites, text, mathematical expressions, and instructional graphics.
+- [Linear Algebra lessons](./linear-algebra/index.md) — 181 lesson pages from the active Linear Algebra course, with prerequisites, text, mathematical expressions, and instructional graphics.
 - [Completed Grade 4 task samples](../lesson-samples/grade-4/index.md) — 34 completed activity task pages and their visible question data.
 
 Local images are kept separately in `raw/math_academy/lesson-assets/`, while each Markdown page references the correct asset paths.
