@@ -17,6 +17,7 @@ This is a raw source archive of lesson pages reached through the student's visib
 - [Integrated Math III lessons](./integrated-math-iii/index.md) — 176 lesson pages from the active Integrated Math III course, with prerequisites, text, mathematical expressions, and instructional graphics.
 - [Integrated Math I (Honors) lessons](./integrated-math-i-honors/index.md) — 226 lesson pages from the active Integrated Math I (Honors) course, with prerequisites, text, mathematical expressions, and instructional graphics.
 - [Integrated Math II (Honors) lessons](./integrated-math-ii-honors/index.md) — 335 lesson pages from the active Integrated Math II (Honors) course, with prerequisites, text, mathematical expressions, and instructional graphics.
+- [SAT Math Fundamentals lessons](./sat-math-fundamentals/index.md) — 651 lesson pages from the active SAT Math Fundamentals course, with prerequisites, text, mathematical expressions, and instructional graphics.
 - [Completed Grade 4 task samples](../lesson-samples/grade-4/index.md) — 34 completed activity task pages and their visible question data.
 
 Local images are kept separately in `raw/math_academy/lesson-assets/`, while each Markdown page references the correct asset paths.

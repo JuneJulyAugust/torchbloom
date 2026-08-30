@@ -1,0 +1,176 @@
+# The Median of a Data Set
+
+Source: https://www.mathacademy.com/topics/3749?courseId=120
+Topic ID: 3749
+
+## Prerequisites
+
+- [The Mean of a Data Set](../grade-6/2479-the-mean-of-a-data-set.md)
+
+## Lesson
+
+### Introduction
+
+When summarizing a data set, we often want to produce a *single* number that best represents *all* numbers in the data set. One way to do this is to calculate the mean of the data set. Remember that the mean represents the "center" of the data set.
+
+However, another way to find a single number that represents the center of a data set is to calculate the **median.**
+
+To compute the median, we order the data points from smallest to greatest and find the number in the middle.
+
+To demonstrate, let's compute the median of the data set below:
+
+$$
+
+
+3, \quad 2, \quad 7, \quad 9, \quad 6
+
+
+$$
+
+First, we order the data points from smallest to greatest:
+
+$$
+
+
+2, \quad 3, \quad 6, \quad 7, \quad 9
+
+
+$$
+
+Now, we find the middle data point:
+
+$$
+
+
+2, \quad 3, \quad {\color{blue}\underline{6}}, \quad 7, \quad 9
+
+
+$$
+
+Therefore, the median is $6.$
+
+### Example: Computing the Median With an Odd Number of Data Points
+
+#### Question
+
+A school library has science books stored on five shelves. The number of books kept on each shelf is given below.
+
+$$
+
+
+10, \: 12, \: 12, \: 11, \: 9
+
+
+$$
+
+What is the median number of books on each shelf?
+
+#### Explanation
+
+First, we order the data points from smallest to greatest:
+
+$$
+
+
+9, \: 10, \: 11, \: 12, \: 12
+
+
+$$
+
+Now, we find the middle data point:
+
+$$
+
+
+9, \: 10, \: {\color{blue}\underline{11}}, \: 12, \: 12
+
+
+$$
+
+So, the median of the data set is $11.$
+
+### The Median of a Data Set With an Even Number of Data Points
+
+When a data set has an even number of data points, the data set does not have a single middle number. So, the median is computed as the mean of the two middle numbers.
+
+For example, consider the following data set, which is already ordered from smallest to greatest:
+
+$$
+
+
+2, \: 3, \: 7, \: 9
+
+
+$$
+
+Since our data set has an even number of data points ($4$), the median is the mean of the two middle numbers:
+
+$$
+
+
+2, \: {\color{blue}\underline{3}}, \: {\color{blue}\underline{7}}, \: 9
+
+
+$$
+
+Computing the mean of these two middle numbers gives
+
+$$
+
+
+\dfrac{{\color{blue}3} + {\color{blue}7}}{2} = \dfrac{10}{2} = 5.
+
+
+$$
+
+Therefore, the median of the data set is $5.$
+
+### Example: Computing the Median With an Even Number of Data Points
+
+#### Question
+
+Six children were playing a game with marbles. The children each had the following numbers of marbles in their pockets:
+
+$$
+
+
+5, \: 5, \: 2, \: 5, \, \: 3, \: 4
+
+
+$$
+
+What is the median number of marbles each child had when the game started?
+
+#### Explanation
+
+First, we order the data points from smallest to greatest:
+
+$$
+
+
+2, \:3, \: 4, \: 5, \: 5, \: 5
+
+
+$$
+
+Since our data set has an even number of data points ($6$), the median is the mean of the two middle numbers:
+
+$$
+
+
+2, \: 3, \: {\color{blue}\underline{4}}, \: {\color{blue}\underline{5}}, \: 5, \: 5
+
+
+$$
+
+So, the median of the data set is
+
+$$
+
+
+\dfrac{{\color{blue}4} + {\color{blue}5}}{2} = \dfrac{9}{2} = 4.5.
+
+
+$$
+
+Therefore, the median number of marbles is $4.5.$
