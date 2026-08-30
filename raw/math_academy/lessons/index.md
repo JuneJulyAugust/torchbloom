@@ -29,6 +29,7 @@ This is a raw source archive of lesson pages reached through the student's visib
 - [Linear Algebra lessons](./linear-algebra/index.md) — 181 lesson pages from the active Linear Algebra course, with prerequisites, text, mathematical expressions, and instructional graphics.
 - [Multivariable Calculus lessons](./multivariable-calculus/index.md) — 187 lesson pages from the active Multivariable Calculus course, with prerequisites, text, mathematical expressions, and instructional graphics.
 - [Methods of Proof lessons](./methods-of-proof/index.md) — 135 lesson pages from the active Methods of Proof course, with prerequisites, text, mathematical expressions, and instructional graphics.
+- [Differential Equations lessons](./differential-equations/index.md) — 159 lesson pages from the active Differential Equations course, with prerequisites, text, mathematical expressions, and instructional graphics.
 - [Completed Grade 4 task samples](../lesson-samples/grade-4/index.md) — 34 completed activity task pages and their visible question data.
 
 Local images are kept separately in `raw/math_academy/lesson-assets/`, while each Markdown page references the correct asset paths.
