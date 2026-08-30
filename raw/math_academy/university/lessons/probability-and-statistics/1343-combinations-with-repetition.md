@@ -1,0 +1,206 @@
+# Combinations With Repetition
+
+Source: https://www.mathacademy.com/topics/1343?courseId=73
+Topic ID: 1343
+
+## Prerequisites
+
+- [Combinations](../../../high-school/traditional/lessons/geometry/705-combinations.md)
+
+## Lesson
+
+### Introduction
+
+Suppose we want to place $r$ identical objects into $n$ categories. If each category can contain any number of objects, then the number of possible combinations is given by the formula
+
+$$
+
+
+\begin{aligned}(\frac{𝑟+𝑛−1}{𝑟})=\frac{(𝑟+𝑛−1)!}{𝑟!(𝑛−1)!}.\end{aligned}
+
+
+$$
+
+For example, suppose we have $3$ cupcakes and $2$ boxes in which to place cupcakes. If each box can contain as many cupcakes as we want, then the number of ways to place the cupcakes into the boxes is
+
+$$
+
+
+\begin{aligned}(\frac{3+2−1}{3}) & =(\frac{4}{3}) \\ & =\frac{4!}{3!(4−3)!} \\ & =\frac{4!}{3!⋅1!} \\ & =4.\end{aligned}
+
+
+$$
+
+To check our answer, we can list out the $4$ possible combinations:
+
+- $3$ cupcakes in the first box and $0$ cupcakes in the second box
+
+- $2$ cupcakes in the first box and $1$ cupcake in the second box
+
+- $1$ cupcake in the first box and $2$ cupcakes in the second box
+
+- $0$ cupcakes in the first box and $3$ cupcakes in the second box
+
+**Note:** We will derive the formula at the end of the lesson. But for now, let's focus on using it.
+
+### Example: Counting the Number of Ways to Distribute Items into Bins
+
+#### Question
+
+Suppose we have six identical balls and two boxes. Each box can contain as many balls as we want. How many ways can we distribute the balls into the boxes?
+
+#### Explanation
+
+The number of ways to place $r$ identical objects into $n$ categories is given by the formula
+
+$$
+
+
+\begin{aligned}(\frac{𝑟+𝑛−1}{𝑟})=\frac{(𝑟+𝑛−1)!}{𝑟!(𝑛−1)!}.\end{aligned}
+
+
+$$
+
+Here, we have $r=6$ balls that we want to distribute into $n=2$ boxes. So, the number of ways to do this is
+
+$$
+
+
+\begin{aligned}{{6+2-1}\choose{6}} &={{7}\choose{6}}\\\[5pt] &= \dfrac{7!}{6!(7-6)!} \\\[5pt] &= \dfrac{7!}{6! \cdot 1!} \\\[5pt] &=7. \end{aligned}
+
+
+$$
+
+### Example: Counting the Number of Ways to Choose Items from Different Categories
+
+#### Question
+
+In a cafe, there are three flavors of ice cream: strawberry, chocolate, and vanilla. We want to buy five scoops of ice cream. How many different combinations of flavors can we get if we are allowed to have as many scoops of the same flavor as we want?
+
+#### Explanation
+
+This problem is analogous to the problem of placing $r$ identical objects into $n$ categories. We are choosing $r=5$ scoops from $n=3$ categories.
+
+The number of ways to place $r$ identical objects into $n$ categories is given by the formula
+
+$$
+
+
+\begin{aligned}(\frac{𝑟+𝑛−1}{𝑟})=\frac{(𝑟+𝑛−1)!}{𝑟!(𝑛−1)!}.\end{aligned}
+
+
+$$
+
+So here, the number of ways to choose $r=5$ scoops from $n=3$ categories is
+
+$$
+
+
+\begin{aligned}{{5+3-1}\choose{5}} &={{7}\choose{5}}\\\[5pt] &= \dfrac{7!}{5!(7-5)!} \\\[5pt] &= \dfrac{7!}{5! \cdot 2!} \\\[5pt] &=21. \end{aligned}
+
+
+$$
+
+### Example: Solving Two-Step Problems Involving Combinations With Repetitions
+
+#### Question
+
+A child has $1$ and intends to spend it on chocolate. There are $8$ kinds of chocolates at the store, and each chocolate costs $25$ cents. How many different combinations of different kinds of chocolates can the child buy if he can buy as many chocolates of the same kind as he wants?
+
+#### Explanation
+
+Since the child has $1$ and each chocolate costs $25$ cents, they can buy $4$ chocolates in total.
+
+Note that this problem is analogous to the problem of placing $r$ identical objects into $n$ categories. The child is choosing $r=4$ chocolates from $n=8$ categories.
+
+The number of ways to place $r$ identical objects into $n$ categories is given by the formula
+
+$$
+
+
+\begin{aligned}(\frac{𝑟+𝑛−1}{𝑟})=\frac{(𝑟+𝑛−1)!}{𝑟!(𝑛−1)!}.\end{aligned}
+
+
+$$
+
+So here, the number of ways to choose $r=4$ chocolates from $n=8$ categories is
+
+$$
+
+
+\begin{aligned}{{4+8-1}\choose{4}} &={{11}\choose{4}}\\\[5pt] &= \dfrac{11!}{4!(11-4)!} \\\[5pt] &= \dfrac{11!}{4! \cdot 7!} \\\[5pt] &=330. \end{aligned}
+
+
+$$
+
+### Example: Combining Combinations With and Without Repetition
+
+#### Question
+
+A gift box must be filled with $8$ chocolates and $4$ nougats selected from $4$ types of chocolates and $5$ types of nougats. Each box can be filled with the same type of chocolate as many times as we want, but nougats cannot be repeated. How many different combinations can be obtained?
+
+#### Explanation
+
+We will first compute the number of ways of selecting $8$ chocolates. Then, we will compute the number of ways of selecting $4$ nougats. Finally, we will apply the multiplication principle to compute the total number of combinations that can be obtained.
+
+- The problem of selecting $8$ chocolates is analogous to placing $r$ identical objects into $n$ categories. We are choosing $r=8$ chocolates from $n=4$ categories. The number of ways to place $r$ identical objects into $n$ categories is given by the formula So, the number of ways to choose $r=8$ chocolates from $n=4$ categories is
+
+- The number of ways of choosing $4$ nougats from $5$ possible options without repetition is given by
+
+Finally, using the multiplication principle, we conclude that we can obtain $165\cdot 5 =825$ combinations in total.
+
+### Derivation of the Formula
+
+We've been using the fact that the number of ways to place $r$ identical objects into $n$ categories is given by the formula
+
+$$
+
+
+\begin{aligned}(\frac{𝑟+𝑛−1}{𝑟})=\frac{(𝑟+𝑛−1)!}{𝑟!(𝑛−1)!}.\end{aligned}
+
+
+$$
+
+But where does this formula come from?
+
+To understand where this formula comes from, it's important to understand one key insight:
+
+Placing $r$ identical objects into $n$ categories is the same as placing $r$ identical objects around $n-1$ dividers.
+
+For example, suppose we want to place $r=4$ stars stickers into $n=3$ boxes. Then this is the same as placing the stars around $3-1=2$ dividers. Several arrangements are as follows. Each divider is denoted with a $"\mid".$
+
+- The first box has $2$ stars, the second box has $1$ star, and the third box has $1$ star:
+
+- The first box has $1$ star, the second box has $3$ stars, and the third box has no stars:
+
+- The first box has no stars, the second box has no stars, and the third box has all $4$ stars:
+
+To count the number of ways to place $4$ stars around $2$ dividers, notice that there are $4+2=6$ spots that can be filled with either a star or a divider. To illustrate, let's label those $6$ spots in each of the above arrangements.
+
+- The first box has $2$ stars, the second box has $1$ star, and the third box has $1$ star:
+
+- The first box has $1$ star, the second box has $3$ stars, and the third box has no stars:
+
+- The first box has no stars, the second box has no stars, and the third box has all $4$ stars:
+
+The number of ways to place $4$ stars around $2$ dividers is equal to the number of ways to choose $4$ of the $6$ spots (in which to place stars):
+
+$$
+
+
+\binom{6}{4} = \dfrac{6!}{4! \, 2!} = 15
+
+
+$$
+
+More generally, the number of ways to place $r$ stars around $n-1$ dividers is equal to the number of ways to choose $r$ of the $r+n-1$ spots (in which to place stars):
+
+$$
+
+
+\begin{aligned}(\frac{𝑟+𝑛−1}{𝑟})=\frac{(𝑟+𝑛−1)!}{𝑟!(𝑛−1)!}\end{aligned}
+
+
+$$
+
+**Note:** The dividers are also known as "bars," so this method of deriving the formula is often referred to as the "stars and bars" method.
