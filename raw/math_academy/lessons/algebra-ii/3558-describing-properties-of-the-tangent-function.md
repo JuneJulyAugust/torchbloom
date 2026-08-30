@@ -27,7 +27,9 @@ We write down a general expression for the zeros as follows:
 $$
 
 
+
 x = n\pi.
+
 
 
 $$
@@ -39,7 +41,9 @@ The function has an asymptote when $x=\dfrac\pi 2$ and the function is periodic 
 $$
 
 
+
 x = \dfrac{\pi}{2} + n\pi.
+
 
 
 $$
@@ -97,7 +101,9 @@ The period of $y=\tan x$ is $\pi.$ Therefore, for any integer $n,$ we have
 $$
 
 
+
 \tan x = \tan (x+n\pi).
+
 
 
 $$
@@ -107,7 +113,9 @@ Substituting $n=-2$ into the above gives
 $$
 
 
+
 \begin{aligned}tan⁡𝑥 & =tan⁡(𝑥+(−2)⋅𝜋)=tan⁡(𝑥−2𝜋).\end{aligned}
+
 
 
 $$
@@ -121,7 +129,9 @@ Recall that a function $f(x)$ is *odd* if it satisfies the property
 $$
 
 
+
 f(-x) = -f(x).
+
 
 
 $$
@@ -131,7 +141,9 @@ As it turns out, tangent is an odd function! So, for any value of $x,$ we have
 $$
 
 
+
 \tan(-x) = -\tan(x).
+
 
 
 $$

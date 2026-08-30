@@ -20,7 +20,9 @@ The **determinant** of a general $2 \times 2$ matrix $[\begin{aligned}𝑎 & �
 $$
 
 
+
 \begin{aligned}𝑎 & 𝑏 \\ 𝑐 & 𝑑\end{aligned}
+
 
 
 $$
@@ -30,7 +32,9 @@ For example, given the matrix $[\begin{aligned}2 & 1 \\ 5 & 3\end{aligned}]$ the
 $$
 
 
+
 \det(A) = {\color{blue}{2}} \cdot {\color{blue}{3}} - {\color{red}{1}} \cdot {\color{red}{5}} = 1.
+
 
 
 $$
@@ -56,7 +60,9 @@ For a $2 \times 2$ matrix, the determinant is given by the formula
 $$
 
 
+
 \begin{aligned}𝑎 & 𝑏 \\ 𝑐 & 𝑑\end{aligned}
+
 
 
 $$
@@ -66,7 +72,9 @@ Using the formula, we have:
 $$
 
 
+
 \begin{aligned}det(𝐴) & =\begin{aligned}3 & 2 \\ 5 & 6\end{aligned} \\ & =3⋅6−2⋅5 \\ & =18−10 \\ & =8\end{aligned}
+
 
 
 $$
@@ -84,7 +92,9 @@ For a $2 \times 2$ matrix, the determinant is given by the formula
 $$
 
 
+
 \begin{aligned}𝑎 & 𝑏 \\ 𝑐 & 𝑑\end{aligned}
+
 
 
 $$
@@ -94,7 +104,9 @@ Using the formula, we have:
 $$
 
 
+
 \begin{aligned}det(𝐴) & =\begin{aligned}\sqrt{√2} & −2 \\ 0 & \sqrt{√3}\end{aligned} \\ & =\sqrt{√2}⋅\sqrt{√3}−(−2)⋅0 \\ & =\sqrt{√6}\end{aligned}
+
 
 
 $$
@@ -112,7 +124,9 @@ For a $2 \times 2$ matrix, the determinant is given by the formula
 $$
 
 
+
 \begin{aligned}𝑎 & 𝑏 \\ 𝑐 & 𝑑\end{aligned}
+
 
 
 $$
@@ -122,7 +136,9 @@ Using the formula, we have:
 $$
 
 
+
 \begin{aligned}det(𝐴) & =\begin{aligned}2 & −1 \\ −3 & 𝑘\end{aligned} \\ & =2⋅𝑘−(−1)⋅(−3) \\ & =2𝑘−3\end{aligned}
+
 
 
 $$
@@ -132,7 +148,9 @@ Since $\det(A)=5,$ we obtain:
 $$
 
 
+
 \begin{aligned}det(𝐴) & =5 \\ 2𝑘−3 & =5 \\ 2𝑘 & =8 \\ 𝑘 & =4\end{aligned}
+
 
 
 $$

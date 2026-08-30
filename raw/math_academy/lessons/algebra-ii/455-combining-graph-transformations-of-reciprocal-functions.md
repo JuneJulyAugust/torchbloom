@@ -115,7 +115,9 @@ First, notice that the horizontal asymptote of the graph is $y=-1,$ while the ve
 $$
 
 
+
 y = \dfrac{a}{x-2}+(-1) = \dfrac{a}{x-2}-1.
+
 
 
 $$
@@ -125,7 +127,9 @@ Also, we are given that the point $(3,2)$ lies on the graph. Substituting its co
 $$
 
 
+
 \begin{aligned}𝑦 & =\frac{𝑎}{𝑥−2}−1 \\ 2 & =\frac{𝑎}{3−2}−1 \\ 3 & =\frac{𝑎}{1} \\ 𝑎 & =3.\end{aligned}
+
 
 
 $$

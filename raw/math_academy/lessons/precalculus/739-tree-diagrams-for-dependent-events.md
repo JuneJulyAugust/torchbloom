@@ -37,7 +37,9 @@ The probabilities on the first level of the tree correspond to the first event. 
 $$
 
 
+
 P(B_1)=\dfrac46,\qquad P(R_1)=\dfrac26.
+
 
 
 $$
@@ -55,7 +57,9 @@ The highlighted branch corresponds to the probability that the second marble is 
 $$
 
 
+
 P(B_2|B_1)=\dfrac35.
+
 
 
 $$
@@ -69,7 +73,9 @@ Using the same method to calculate the remaining probabilities, we get
 $$
 
 
+
 P(R_2|B_1)=\dfrac25, \qquad P(B_2|R_1)=\dfrac45, \qquad P(R_2|R_1)=\dfrac15.
+
 
 
 $$
@@ -109,7 +115,9 @@ By the multiplication law, we *multiply across the branches* to calculate this p
 $$
 
 
+
 \begin{aligned}𝑃(𝑅_{1}∩𝐵_{2}) & =𝑃(𝑅_{1})⋅𝑃(𝐵_{2}|𝑅_{1}) \\ & =\frac{2}{6}⋅\frac{4}{5} \\ & =\frac{8}{30} \\ & =\frac{4}{15}.\end{aligned}
+
 
 
 $$
@@ -129,7 +137,9 @@ The multiplication law states that
 $$
 
 
+
 P(C'\cap D') = P(C')\cdot P(D'|C').
+
 
 
 $$
@@ -143,7 +153,9 @@ Therefore, the required probability is
 $$
 
 
+
 P(C' \cap D') = 0.25 \cdot 0.1 = 0.025.
+
 
 
 $$
@@ -163,7 +175,9 @@ By the multiplication law *and* the law of total probability, we *multiply acros
 $$
 
 
+
 \begin{aligned}𝑃(𝑅_{2}) & =𝑃(𝑅_{2}∩𝐵_{1})+𝑃(𝑅_{2}∩𝑅_{1}) \\ & =𝑃(𝐵_{1})𝑃(𝑅_{2}|𝐵_{1})+𝑃(𝑅_{1})𝑃(𝑅_{2}|𝑅_{1}) \\ & =\frac{4}{6}⋅\frac{2}{5}+\frac{2}{6}⋅\frac{1}{5} \\ & =\frac{8}{30}+\frac{2}{30} \\ & =\frac{10}{30} \\ & =\frac{1}{3}.\end{aligned}
+
 
 
 $$
@@ -185,7 +199,9 @@ The law of total probability states that
 $$
 
 
+
 P(E') = P(A \cap E') + P(A' \cap E').
+
 
 
 $$
@@ -195,7 +211,9 @@ From the tree diagram, we have
 $$
 
 
+
 P(A\cap E') = 0.4 \cdot 0.5 = 0.2
+
 
 
 $$
@@ -205,7 +223,9 @@ and also
 $$
 
 
+
 P(A'\cap E') = 0.6\cdot 0.75 = 0.45.
+
 
 
 $$
@@ -215,7 +235,9 @@ Therefore,
 $$
 
 
+
 \begin{aligned}𝑃(𝐸^{′}) & =𝑃(𝐴∩𝐸^{′})+𝑃(𝐴^{′}∩𝐸^{′}) \\ & =0.2+0.45 \\ & =0.65.\end{aligned}
+
 
 
 $$

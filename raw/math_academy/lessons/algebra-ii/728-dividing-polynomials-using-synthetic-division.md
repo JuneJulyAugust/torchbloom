@@ -17,7 +17,9 @@ Suppose that we want to divide two polynomials, such as
 $$
 
 
+
 \dfrac{2x^3-5x^2-7x+11}{x-3}.
+
 
 
 $$
@@ -41,7 +43,9 @@ Our goal is to find the quotient and remainder of the following division problem
 $$
 
 
+
 \dfrac{2x^3-5x^2-7x+11}{x-3}
+
 
 
 $$
@@ -53,7 +57,9 @@ The numbers $2,$ $1$ and $-4$ in the bottom row are the coefficients of the **qu
 $$
 
 
+
 2x^2+1x-4.
+
 
 
 $$
@@ -65,7 +71,9 @@ Finally, we can write the full result of the division as
 $$
 
 
+
 \dfrac{2x^3-5x^2-7x+11}{x-3}=2x^2+x-4+\dfrac{\color{blue}-1}{x-3} ,
+
 
 
 $$
@@ -75,7 +83,9 @@ which simplifies to
 $$
 
 
+
 \dfrac{2x^3-5x^2-7x+11}{x-3}=2x^2+x-4-\dfrac{1}{x-3}.
+
 
 
 $$
@@ -87,7 +97,9 @@ Dividing $2x^3-5x^2-7x+11$ by $x-3,$ we obtained that
 $$
 
 
+
 \dfrac{2x^3-5x^2-7x+11}{x-3}=2x^2+x-4-\dfrac{1}{x-3}.
+
 
 
 $$
@@ -97,7 +109,9 @@ Now, multiplying both sides by $x-3,$ we get
 $$
 
 
+
 {\color{blue}2x^3-5x^2-7x+11}=(x-3)(2x^2+x-4)-1.
+
 
 
 $$
@@ -107,7 +121,9 @@ Therefore, to check if we have done the division correctly, we can simply multip
 $$
 
 
+
 \begin{aligned}(𝑥−3)(2𝑥^{2}+𝑥−4)−1 & =𝑥(2𝑥^{2}+𝑥−4)−3(2𝑥^{2}+𝑥−4)−1 \\ & =2𝑥^{3}+𝑥^{2}−4𝑥−6𝑥^{2}−3𝑥+12−1 \\ & =2𝑥^{3}−5𝑥^{2}−7𝑥+11\,✓\end{aligned}
+
 
 
 $$
@@ -125,7 +141,9 @@ Notice that the dividend is missing an $x^2$ term, so we insert a $0x^2$ in its 
 $$
 
 
+
 \begin{aligned}−1 & 5 & 1 & 0 & 6 & 2 \\ & & −5 & 4 & −4 & −2 \\ & 5 & −4 & 4 & 2 & 0\end{aligned}
+
 
 
 $$
@@ -137,7 +155,9 @@ So, we have
 $$
 
 
+
 \dfrac{5x^4+x^3+6x+2}{x+1} = 5x^3-4x^2+4x+2 .
+
 
 
 $$
@@ -163,7 +183,9 @@ First, we write the divisor in standard form as $-3x+2.$ Then, we factor out the
 $$
 
 
+
 \begin{aligned}\frac{3𝑥^{4}+7𝑥^{3}−10𝑥+8}{−3𝑥+2} & =\frac{3𝑥^{4}+7𝑥^{3}−10𝑥+8}{−3(𝑥−\frac{2}{3})} \\ & =−\frac{1}{3}(\frac{3𝑥^{4}+7𝑥^{3}−10𝑥+8}{(𝑥−\frac{2}{3})}).\end{aligned}
+
 
 
 $$
@@ -173,7 +195,9 @@ Carrying out the synthetic division process on $\dfrac{3x^4+7x^3-10x+8}{\left(x-
 $$
 
 
+
 \begin{aligned}\frac{2}{3} & 3 & 7 & 0 & −10 & 8 \\ & & 2 & 6 & 4 & −4 \\ & 3 & 9 & 6 & −6 & 4\end{aligned}
+
 
 
 $$
@@ -183,7 +207,9 @@ Reading off the bottom row, we get
 $$
 
 
+
 \frac{3x^4+7x^3-10x+8}{\left(x-\frac23\right)} = 3x^3+9x^2+6x-6+\frac{4}{\left(x-\frac23\right)}.
+
 
 
 $$
@@ -193,7 +219,9 @@ Finally, we multiply by the original $-\dfrac 1 3$ factor to get
 $$
 
 
+
 \begin{aligned}\frac{3𝑥^{4}+7𝑥^{3}−10𝑥+8}{2−3𝑥} & =−\frac{1}{3}(3𝑥^{3}+9𝑥^{2}+6𝑥−6+\frac{4}{(𝑥−\frac{2}{3})}) \\ & =−𝑥^{3}−3𝑥^{2}−2𝑥+2+\frac{4}{2−3𝑥}.\end{aligned}
+
 
 
 $$

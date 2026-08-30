@@ -18,7 +18,9 @@ The idea is that the log of a power of the base equals the power itself:
 $$
 
 
+
 \log_b(b^x) = x
+
 
 
 $$
@@ -28,7 +30,9 @@ For example, in the case of $\log_2 \left(2^{-1/2}\right),$ we have $b=2$ and $x
 $$
 
 
+
 \log_2\left(2^{-1/2}\right) = -\dfrac{1}{2}.
+
 
 
 $$
@@ -46,7 +50,9 @@ The logarithm reverses the action of the exponent. The idea is that the log of a
 $$
 
 
+
 \log_b(b^x) = x
+
 
 
 $$
@@ -56,7 +62,9 @@ In our case, we have $b=2$ and $x=5.$ Therefore,
 $$
 
 
+
 \log_{2}\left( 2^{5}\right) = 5.
+
 
 
 $$
@@ -70,7 +78,9 @@ For instance, to evaluate $\log_2\left(8\right),$ we rewrite $8$ as a power of $
 $$
 
 
+
 8 = 2^{3}
+
 
 
 $$
@@ -80,7 +90,9 @@ Therefore, we have
 $$
 
 
+
 \log_{2}{8} = \log_{2}\left(2^{3}\right) .
+
 
 
 $$
@@ -90,7 +102,9 @@ Now we can proceed as before. The log of a power of the base equals the power it
 $$
 
 
+
 \log_b(b^x) = x
+
 
 
 $$
@@ -100,7 +114,9 @@ In our case, we have $b = 2$ and $x = 3.$ Therefore,
 $$
 
 
+
 \log_{2}\left(2^{3}\right) = 3.
+
 
 
 $$
@@ -118,7 +134,9 @@ First, we rewrite $9$ as a power of $3$ (the base of the logarithm) as follows:
 $$
 
 
+
 9 = 3^2
+
 
 
 $$
@@ -128,7 +146,9 @@ Therefore, we have
 $$
 
 
+
 \log_{3}{9} = \log_{3}(3^2).
+
 
 
 $$
@@ -138,7 +158,9 @@ Now we can proceed as usual. The log of a power of the base equals the power its
 $$
 
 
+
 \log_b(b^x) = x
+
 
 
 $$
@@ -148,7 +170,9 @@ In our case, we have $b = 3$ and $x = 2.$ Therefore,
 $$
 
 
+
 \log_{3}(3^2) = 2.
+
 
 
 $$
@@ -166,7 +190,9 @@ First, we rewrite $\dfrac{1}{8}$ as a power of $2$ (the base of the logarithm) a
 $$
 
 
+
 \dfrac{1}{8} = \dfrac{1}{2^3} = 2^{-3}
+
 
 
 $$
@@ -176,7 +202,9 @@ Therefore, we have
 $$
 
 
+
 \log_{2} \left(\dfrac 1 {8} \right)= \log_{2} (2^{-3}).
+
 
 
 $$
@@ -186,7 +214,9 @@ Now we can proceed as usual. The log of a power of the base equals the power its
 $$
 
 
+
 \log_b(b^x) = x
+
 
 
 $$
@@ -196,7 +226,9 @@ In our case, we have $b=2$ and $x=-3.$ Therefore,
 $$
 
 
+
 \log_{2}( 2^{-3} )= -3.
+
 
 
 $$
@@ -208,7 +240,9 @@ Recall that two special cases of exponentials are
 $$
 
 
+
 n^0 =1 \qquad \text{and} \qquad n^1 =n.
+
 
 
 $$
@@ -222,7 +256,9 @@ Using the above, we have that $n^0 =1$ is equivalent to
 $$
 
 
+
 \log_n 1 = 0.
+
 
 
 $$
@@ -232,7 +268,9 @@ Also, we have that $n^1 =n$ is equivalent to
 $$
 
 
+
 \log_n n = 1.
+
 
 
 $$
@@ -244,7 +282,9 @@ These are two special values for logarithms that are true for any base $n>0, n \
 $$
 
 
+
 a = 1^x.
+
 
 
 $$
@@ -270,7 +310,9 @@ We have the general rule that
 $$
 
 
+
 \log_n n = 1.
+
 
 
 $$
@@ -280,7 +322,9 @@ In our case, $n=8.$ Therefore,
 $$
 
 
+
 \log_{8}{8} =1.
+
 
 
 $$

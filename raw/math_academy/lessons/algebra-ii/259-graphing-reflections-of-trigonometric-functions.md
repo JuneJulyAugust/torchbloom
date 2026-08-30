@@ -105,7 +105,9 @@ Notice that, because the sine function is odd, the $y$-axis reflection has the s
 $$
 
 
+
 2\sin(-x) = -2\sin x .
+
 
 
 $$

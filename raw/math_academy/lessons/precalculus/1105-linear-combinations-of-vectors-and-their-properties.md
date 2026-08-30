@@ -23,7 +23,9 @@ One particular linear combination of these vectors is
 $$
 
 
+
 2 \mathbf{a} + 3 \mathbf{b} = 2 \cdot \mathbf{a} + 3 \cdot \mathbf{b}.
+
 
 
 $$
@@ -53,7 +55,9 @@ Now, we can draw $3\mathbf{b}$ starting from the head of $2\mathbf{a}.$ The resu
 $$
 
 
+
 2\mathbf{a}+3\mathbf{b}
+
 
 
 $$
@@ -71,7 +75,9 @@ For example, if we have two vectors $\mathbf{a},\mathbf{b}$ with $\mathbf{a} \np
 $$
 
 
+
 2 \mathbf{a} + 3 \mathbf{b} = \alpha \mathbf{a} + \beta \mathbf{b}
+
 
 
 $$
@@ -83,7 +89,9 @@ In other words, the pair of numbers $\alpha,\beta$ defines a unique vector $\alp
 $$
 
 
+
 \alpha_1 \mathbf{a} + \beta_1 \mathbf{b} = \alpha_2 \mathbf{a} + \beta_2 \mathbf{b},
+
 
 
 $$
@@ -101,7 +109,9 @@ Suppose we are given two vectors $\mathbf{a}$ and $\mathbf{b}$ where $\mathbf{a}
 $$
 
 
+
 \mathbf{a}+7\mathbf{b}=(2\alpha+\beta)\mathbf{a}-\beta\mathbf{b}.
+
 
 
 $$
@@ -115,7 +125,9 @@ Equating the coefficients, we get:
 $$
 
 
+
 \begin{aligned}1=2𝛼+𝛽 \\ 7=−𝛽\end{aligned}
+
 
 
 $$
@@ -125,7 +137,9 @@ From the second equation, we obtain
 $$
 
 
+
 \begin{aligned}𝛽 & =−7.\end{aligned}
+
 
 
 $$
@@ -135,7 +149,9 @@ Substituting back into the first equation, we get:
 $$
 
 
+
 \begin{aligned}1 & =2𝛼+𝛽 \\ 1 & =2𝛼+(−7) \\ 8 & =2𝛼 \\ 𝛼 & =4\end{aligned}
+
 
 
 $$

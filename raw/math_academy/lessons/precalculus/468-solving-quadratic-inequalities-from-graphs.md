@@ -18,7 +18,9 @@ For example, suppose we want to find the solution to the quadratic inequality
 $$
 
 
+
 x^2+2x-3 \geq 0.
+
 
 
 $$
@@ -38,7 +40,9 @@ Therefore $y = x^2+2x-3 \geq 0$ when
 $$
 
 
+
 x \leq -3 \quad \text{or} \quad x \geq 1,
+
 
 
 $$
@@ -62,7 +66,9 @@ Notice that our inequality
 $$
 
 
+
 (x+2)(1-x) \geq 0
+
 
 
 $$
@@ -72,7 +78,9 @@ is a "**" inequality. Therefore, we need to find the values of $x$ for which the
 $$
 
 
+
 y = (x+2)(1-x)
+
 
 
 $$
@@ -98,7 +106,9 @@ Notice that our inequality
 $$
 
 
+
 -x^2+2x+3 \leq 0,
+
 
 
 $$
@@ -108,7 +118,9 @@ is a "**" inequality. Therefore, we need to find the values of $x$ for which the
 $$
 
 
+
 y =-x^2+2x+3
+
 
 
 $$
@@ -126,7 +138,9 @@ Suppose we want to find the solution to the quadratic inequality
 $$
 
 
+
 x^2+x-6 < 0.
+
 
 
 $$
@@ -146,7 +160,9 @@ Therefore, $x^2+x-6 <0$ when
 $$
 
 
+
 -3 < x < 2,
+
 
 
 $$
@@ -170,7 +186,9 @@ Notice that our inequality
 $$
 
 
+
 -(x+2)(x-1) < 0,
+
 
 
 $$
@@ -180,7 +198,9 @@ is a "**" inequality. Therefore, we need to find the values of $x$ for which the
 $$
 
 
+
 y = -(x+2)(x-1)
+
 
 
 $$
@@ -206,7 +226,9 @@ Notice that our inequality
 $$
 
 
+
 x^2 -3x -10> 0,
+
 
 
 $$
@@ -216,7 +238,9 @@ is a "**" inequality. Therefore, we need to find the values of $x$ for which the
 $$
 
 
+
 y =x^2 -3x -10
+
 
 
 $$

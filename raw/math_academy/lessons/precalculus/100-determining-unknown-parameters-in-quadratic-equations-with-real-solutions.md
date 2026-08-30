@@ -17,7 +17,9 @@ Recall that for a quadratic equation
 $$
 
 
+
 ax^2 + bx + c = 0,
+
 
 
 $$
@@ -27,7 +29,9 @@ with $a\neq 0,$ the discriminant is defined as
 $$
 
 
+
 \mathcal{D} = b^2 - 4ac.
+
 
 
 $$
@@ -45,7 +49,9 @@ Combining the first two conditions, we can say that a quadratic equation *has re
 $$
 
 
+
 \mathcal{D} \geq 0
+
 
 
 $$
@@ -57,7 +63,9 @@ To demonstrate, let's consider the equation
 $$
 
 
+
 x^2 - 2x + k = 0,
+
 
 
 $$
@@ -69,7 +77,9 @@ To compute the discriminant, we first note that the coefficients are
 $$
 
 
+
 a = 1, \qquad b = -2, \qquad c = k.
+
 
 
 $$
@@ -79,7 +89,9 @@ So, computing the discriminant, we get
 $$
 
 
+
 \begin{aligned}D & =𝑏^{2}−4𝑎𝑐 \\ & =(−2)^{2}−4(1)(𝑘) \\ & =4−4𝑘.\end{aligned}
+
 
 
 $$
@@ -89,7 +101,9 @@ To have real solutions, we need $\mathcal{D} \geq 0.$ This gives the inequality
 $$
 
 
+
 4 - 4k \geq 0.
+
 
 
 $$
@@ -99,7 +113,9 @@ Solving this inequality for the variable $k,$ we get the following:
 $$
 
 
+
 \begin{aligned}4−4𝑘 & ≥0 \\ 4 & ≥4𝑘 \\ 4𝑘 & ≤4 \\ 𝑘 & ≤\frac{4}{4}=1\end{aligned}
+
 
 
 $$
@@ -109,7 +125,9 @@ Therefore, our solution is
 $$
 
 
+
 k\leq 1
+
 
 
 $$
@@ -119,7 +137,9 @@ We can also express this solution using interval notation:
 $$
 
 
+
 k \in (-\infty, 1 ]
+
 
 
 $$
@@ -143,7 +163,9 @@ To compute the discriminant, first note the following coefficients: $a=3,$ $b=-6
 $$
 
 
+
 \begin{aligned}D & ≥0 \\ 𝑏^{2}−4𝑎𝑐 & ≥0 \\ (−6𝑘)^{2}−4(3)(12) & ≥0 \\ 36𝑘^{2}−144 & ≥0 \\ 36𝑘^{2} & ≥144 \\ 𝑘^{2} & ≥4 \\ \sqrt{√𝑘^{2}} & ≥\sqrt{√4} \\ |𝑘| & ≥2.\end{aligned}
+
 
 
 $$
@@ -153,7 +175,9 @@ If $|k| \geq 2,$ then $k \leq -2$ or $k \geq 2.$ Using interval notation, then, 
 $$
 
 
+
 k \in (-\infty,-2] \cup [2, \infty).
+
 
 
 $$
@@ -173,7 +197,9 @@ First, rewrite the equation in standard quadratic form:
 $$
 
 
+
 \begin{aligned}𝑥(5𝑥−𝑘) & =−10 \\ 5𝑥^{2}−𝑘𝑥 & =−10 \\ 5𝑥^{2}−𝑘𝑥+10 & =0\end{aligned}
+
 
 
 $$
@@ -183,7 +209,9 @@ The coefficients of our quadratic equation are the following:
 $$
 
 
+
 a = 5, \qquad b = -k, \qquad c = 10
+
 
 
 $$
@@ -193,7 +221,9 @@ So, computing the discriminant, we get
 $$
 
 
+
 \begin{aligned}D & =𝑏^{2}−4𝑎𝑐 \\ & =(−𝑘)^{2}−4(5)(10) \\ & =𝑘^{2}−200.\end{aligned}
+
 
 
 $$
@@ -203,7 +233,9 @@ To have real solutions, we need $\mathcal{D} \geq 0{:}$
 $$
 
 
+
 \begin{aligned}𝑘^{2}−200 & ≥0 \\ 𝑘^{2} & ≥200 \\ 𝑘 & ≥\sqrt{√200}\end{aligned}
+
 
 
 $$
@@ -227,7 +259,9 @@ For example, suppose we have the quadratic equation
 $$
 
 
+
 x^2+kx+9=0.
+
 
 
 $$
@@ -239,7 +273,9 @@ A quadratic equation has two distinct real solutions if its discriminant is posi
 $$
 
 
+
 a=1,\quad b=k,\quad c=9.
+
 
 
 $$
@@ -249,7 +285,9 @@ So, we require
 $$
 
 
+
 \begin{aligned}D & >0 \\ 𝑏^{2}−4𝑎𝑐 & >0 \\ (𝑘)^{2}−4(1)(9) & >0 \\ 𝑘^{2}−36 & >0.\end{aligned}
+
 
 
 $$
@@ -259,7 +297,9 @@ Solving this inequality for the variable $k,$ we get the following:
 $$
 
 
+
 \begin{aligned}𝑘^{2} & >36 \\ \sqrt{√𝑘^{2}} & >\sqrt{√36} \\ |𝑘| & >6\end{aligned}
+
 
 
 $$
@@ -269,7 +309,9 @@ Therefore, the solutions are
 $$
 
 
+
 k > 6\quad\textrm{or}\quad k < -6.
+
 
 
 $$
@@ -279,7 +321,9 @@ Using interval notation, we can write our solution as
 $$
 
 
+
 k \in (-\infty,-6) \cup (6,\infty).
+
 
 
 $$
@@ -293,7 +337,9 @@ Let's consider our quadratic equation once more:
 $$
 
 
+
 x^2+kx+9=0
+
 
 
 $$
@@ -303,7 +349,9 @@ Earlier, we saw that this equation has *distinct* real solutions for all values 
 $$
 
 
+
 k \in (-\infty,-6) \cup (6,\infty).
+
 
 
 $$
@@ -335,7 +383,9 @@ So, we require
 $$
 
 
+
 \begin{aligned}D & >0 \\ 𝑏^{2}−4𝑎𝑐 & >0 \\ (12)^{2}−4(3𝑘)(𝑘) & >0 \\ 144−12𝑘^{2} & >0 \\ 144 & >12𝑘^{2} \\ 12𝑘^{2} & <144 \\ 𝑘^{2} & <12 \\ \sqrt{√𝑘^{2}} & <\sqrt{√12} \\ |𝑘| & <2\sqrt{√3}.\end{aligned}
+
 
 
 $$
@@ -359,7 +409,9 @@ First, we rewrite the equation in standard quadratic form:
 $$
 
 
+
 \begin{aligned}𝑥(𝑘𝑥+10) & =−5 \\ 𝑘𝑥^{2}+10𝑥 & =−5 \\ 𝑘𝑥^{2}+10𝑥+5 & =0\end{aligned}
+
 
 
 $$
@@ -369,7 +421,9 @@ The coefficients of our quadratic equation are the following:
 $$
 
 
+
 a = k, \qquad b = 10, \qquad c = 5
+
 
 
 $$
@@ -379,7 +433,9 @@ So, computing the discriminant, we get
 $$
 
 
+
 \begin{aligned}D & =𝑏^{2}−4𝑎𝑐 \\ & =(10)^{2}−4(𝑘)(5) \\ & =100−20𝑘.\end{aligned}
+
 
 
 $$
@@ -389,7 +445,9 @@ To have distinct real solutions, we need $\mathcal{D} > 0{:}$
 $$
 
 
+
 \begin{aligned}100−20𝑘 & >0 \\ 100 & >20𝑘 \\ 20𝑘 & <100 \\ 𝑘 & <\frac{100}{20} \\ 𝑘 & <5\end{aligned}
+
 
 
 $$

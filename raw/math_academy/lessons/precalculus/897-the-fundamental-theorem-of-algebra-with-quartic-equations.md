@@ -19,7 +19,9 @@ Furthermore, any such polynomial can be factored as
 $$
 
 
+
 ax^4+bx^3+cx^2 + dx + e = a(x-x_1)(x-x_2)(x-x_3)(x-x_4),
+
 
 
 $$
@@ -49,7 +51,9 @@ Since our quartic polynomial has roots ${x_1=0, x_2=-1},$ ${x_3=2},$ and ${x_4=-
 $$
 
 
+
 \begin{aligned}𝑎(𝑥−𝑥_{1})(𝑥−𝑥_{2})(𝑥−𝑥_{3})(𝑥−𝑥_{4}) & =4(𝑥−0)(𝑥−(−1))(𝑥−2)(𝑥−(−3)) \\ & =4(𝑥−0)(𝑥+1)(𝑥−2)(𝑥+3)\end{aligned}
+
 
 
 $$
@@ -59,7 +63,9 @@ Expanding the parentheses, we obtain
 $$
 
 
+
 \begin{aligned}4(𝑥−0)(𝑥+1)(𝑥−2)(𝑥+3) & =4(𝑥^{2}+𝑥)(𝑥^{2}+𝑥−6) \\ & =4(𝑥^{4}+𝑥^{3}−6𝑥^{2}+𝑥^{3}+𝑥^{2}−6𝑥) \\ & =4(𝑥^{4}+2𝑥^{3}−5𝑥^{2}−6𝑥) \\ & =4𝑥^{4}+8𝑥^{3}−20𝑥^{2}−24𝑥.\end{aligned}
+
 
 
 $$
@@ -81,7 +87,9 @@ From the diagram, we see that $f(x)$ has roots ${x_1=-2},$ ${x_2=3},$ and ${x_{3
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =𝑎(𝑥−𝑥_{1})(𝑥−𝑥_{2})(𝑥−𝑥_{3})(𝑥−𝑥_{4}) \\ & =1⋅(𝑥−(−2))(𝑥−(3))(𝑥−(1+3i))(𝑥−(1−3i)) \\ & =(𝑥+2)(𝑥−3)(𝑥−(1+3i))(𝑥−(1−3i))\end{aligned}
+
 
 
 $$
@@ -91,7 +99,9 @@ Expanding the parentheses, we obtain
 $$
 
 
+
 \begin{aligned}(𝑥+2)(𝑥−3)(𝑥−(1+3i))(𝑥−(1−3i)) & = \\ (𝑥^{2}−3𝑥+2𝑥−6)(𝑥^{2}−𝑥(1−3i)−𝑥(1+3i)+(1+3i)(1−3i)) & = \\ (𝑥^{2}−𝑥−6)(𝑥^{2}−2𝑥+10) & = \\ 𝑥^{4}−2𝑥^{3}+10𝑥^{2}−𝑥^{3}+2𝑥^{2}−10𝑥−6𝑥^{2}+12𝑥−60 & = \\ 𝑥^{4}−3𝑥^{3}+6𝑥^{2}+2𝑥−60 & .\end{aligned}
+
 
 
 $$
@@ -107,7 +117,9 @@ Suppose that $p(x)$ is a polynomial of degree $n$ with real coefficients, given 
 $$
 
 
+
 p(x) = a_nx^n+\ldots+a_1x+a_0, \qquad a_n\neq 0.
+
 
 
 $$
@@ -119,7 +131,9 @@ Furthermore, $p(x)$ can be factored as follows:
 $$
 
 
+
 p(x) = a_n(x-x_1)(x-x_2)(x-x_3)\cdots (x-x_{n})
+
 
 
 $$

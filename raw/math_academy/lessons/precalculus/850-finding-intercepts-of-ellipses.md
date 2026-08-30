@@ -21,7 +21,9 @@ For example, let's find the $x$-intercepts of the ellipse given by the equation
 $$
 
 
+
 \dfrac{(x-3)^2}{4} + y^2 = 1.
+
 
 
 $$
@@ -31,7 +33,9 @@ Substituting $y=0$ into the equation and solving the resulting equation for $x,$
 $$
 
 
+
 \begin{aligned}\frac{(𝑥−3)^{2}}{4}+0^{2} & =1 \\ \frac{(𝑥−3)^{2}}{4} & =1 \\ (𝑥−3)^{2} & =4 \\ 𝑥−3 & =±2 \\ 𝑥 & =3±2 \\ 𝑥 & =1,5.\end{aligned}
+
 
 
 $$
@@ -47,7 +51,9 @@ Some ellipses have no $x$-intercepts. For example, consider the ellipse given by
 $$
 
 
+
 \dfrac{(x-3)^2}{4} + (y-2)^2 = 1.
+
 
 
 $$
@@ -63,7 +69,9 @@ For example, substituting $y=0$ into the equation of the ellipse given above, we
 $$
 
 
+
 \begin{aligned}\frac{(𝑥−3)^{2}}{4}+(𝑦−2)^{2} & =1 \\ \frac{(𝑥−3)^{2}}{4}+(0−2)^{2} & =1 \\ \frac{(𝑥−3)^{2}}{4}+4 & =1 \\ \frac{(𝑥−3)^{2}}{4} & =−3 \\ (𝑥−3)^{2} & =−12\end{aligned}
+
 
 
 $$
@@ -83,7 +91,9 @@ To calculate the $x$-intercept, we need to substitute $y = 0$ into the equation 
 $$
 
 
+
 \begin{aligned}(𝑥−2)^{2}+\frac{(𝑦−2)^{2}}{4} & =1 \\ (𝑥−2)^{2}+\frac{(0−2)^{2}}{4} & =1 \\ (𝑥−2)^{2}+1 & =1 \\ (𝑥−2)^{2} & =0 \\ 𝑥−2 & =0 \\ 𝑥 & =2.\end{aligned}
+
 
 
 $$
@@ -107,7 +117,9 @@ To calculate the $x$-intercepts, we need to substitute $y = 0$ into the equation
 $$
 
 
+
 \begin{aligned}𝑥^{2}+3𝑦^{2}−4𝑥−6𝑦 & =2 \\ 𝑥^{2}+3⋅0^{2}−4𝑥−6⋅0 & =2 \\ 𝑥^{2}−4𝑥 & =2 \\ (𝑥^{2}−4𝑥+4)−4 & =2 \\ (𝑥−2)^{2}−4 & =2 \\ (𝑥−2)^{2} & =6 \\ 𝑥−2 & =±\sqrt{√6} \\ 𝑥 & =2±\sqrt{√6}\end{aligned}
+
 
 
 $$
@@ -133,7 +145,9 @@ Again, some ellipses have no $y$-intercepts. For example, consider the ellipse g
 $$
 
 
+
 (x-2)^2 + \dfrac{(y-3)^2}{4} = 1.
+
 
 
 $$
@@ -149,7 +163,9 @@ For example, substituting $x=0$ into the equation of the ellipse given above, we
 $$
 
 
+
 \begin{aligned}(𝑥−2)^{2}+\frac{(𝑦−3)^{2}}{4} & =1 \\ (0−2)^{2}+\frac{(𝑦−3)^{2}}{4} & =1 \\ 4+\frac{(𝑦−3)^{2}}{4} & =1 \\ \frac{(𝑦−3)^{2}}{4} & =−3 \\ (𝑦−3)^{2} & =−12.\end{aligned}
+
 
 
 $$
@@ -169,7 +185,9 @@ To calculate the $y$-intercept, we need to substitute $x = 0$ in the equation of
 $$
 
 
+
 \begin{aligned}\frac{(𝑥−1)^{2}}{4}+\frac{(𝑦−3)^{2}}{16} & =1 \\ \frac{(0−1)^{2}}{4}+\frac{(𝑦−3)^{2}}{16} & =1 \\ \frac{1}{4}+\frac{(𝑦−3)^{2}}{16} & =1 \\ \frac{(𝑦−3)^{2}}{16} & =\frac{3}{4} \\ (𝑦−3)^{2} & =12 \\ 𝑦−3 & =±\sqrt{√12} \\ 𝑦−3 & =2\sqrt{√3} \\ 𝑦 & =3±2\sqrt{√3}.\end{aligned}
+
 
 
 $$
@@ -191,7 +209,9 @@ To calculate the $y$-intercepts, we need to substitute $x = 0$ in the equation o
 $$
 
 
+
 \begin{aligned}5𝑥^{2}+2𝑦^{2}−20𝑥−8𝑦+13 & =0 \\ 5⋅0^{2}+2𝑦^{2}−20⋅0−8𝑦+13 & =0 \\ 2𝑦^{2}−8𝑦+13 & =0 \\ 2(𝑦^{2}−4𝑦)+13 & =0 \\ 2[𝑦^{2}−4𝑦+4−4]+13 & =0 \\ 2[(𝑦−2)^{2}−4]+13 & =0 \\ 2(𝑦−2)^{2}+5 & =0 \\ (𝑦−2)^{2} & =−\frac{5}{2}\end{aligned}
+
 
 
 $$

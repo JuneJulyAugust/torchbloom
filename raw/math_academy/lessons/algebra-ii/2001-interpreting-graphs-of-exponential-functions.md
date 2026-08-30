@@ -58,7 +58,9 @@ Notice that the following points lie on the graph:
 $$
 
 
+
 (0,100), \quad (1, 90), \quad (2,81)
+
 
 
 $$
@@ -68,7 +70,9 @@ Using these points, we note that there is a common ratio of $0.9$ between succes
 $$
 
 
+
 \dfrac{90}{100} = \dfrac{81}{90} = 0.9
+
 
 
 $$
@@ -78,7 +82,9 @@ Therefore, we must have $b = 0.9.$ Hence,
 $$
 
 
+
 P(h) = a\cdot 0.9^h.
+
 
 
 $$
@@ -88,7 +94,9 @@ In addition, $P(0) = 100.$ Therefore, $a=100,$ and we have
 $$
 
 
+
 P(h) = 100 \cdot 0.9^h.
+
 
 
 $$
@@ -98,7 +106,9 @@ Finally, to determine the atmospheric pressure at $4$ kilometers above sea level
 $$
 
 
+
 P(4) = 100 \cdot 0.9^4 \approx 66\,\textrm{kPa}
+
 
 
 $$
@@ -128,7 +138,9 @@ First, notice that $T(t)$ must include an exponential decay term. This allows us
 $$
 
 
+
 18\left(\dfrac{4}{3}\right)^t + 2
+
 
 
 $$
@@ -140,7 +152,9 @@ So, we have the remaining three options:
 $$
 
 
+
 18\left(\dfrac{3}{4}\right)^t + 2, \qquad 20\left(\dfrac{3}{4}\right)^t + 2, \qquad 2\left(\dfrac{3}{4}\right)^t + 20
+
 
 
 $$
@@ -156,7 +170,9 @@ Therefore, we conclude that the required function is the following:
 $$
 
 
+
 T(t) = 18\left(\dfrac{3}{4}\right)^t + 2
+
 
 
 $$

@@ -16,7 +16,9 @@ When writing out a sum, we often have to write a lot of terms. For example, the 
 $$
 
 
+
 S = 2+4+6+8+10
+
 
 
 $$
@@ -30,7 +32,9 @@ To express the given sum $S$ using sigma notation, we first need to come up with
 $$
 
 
+
 \begin{aligned}𝑎_{1} & =2(1)=2 \\ 𝑎_{2} & =2(2)=4 \\ 𝑎_{3} & =2(3)=6 \\ 𝑎_{4} & =2(4)=8 \\ 𝑎_{5} & =2(5)=10\end{aligned}
+
 
 
 $$
@@ -40,7 +44,9 @@ So, our sum can be written as
 $$
 
 
+
 S = a_{\color{red}1} + a_2 + a_3 + a_4 + a_{\color{blue}5}.
+
 
 
 $$
@@ -50,7 +56,9 @@ Finally, we use the Greek letter $\displaystyle\sum$ (called "sigma") to denote 
 $$
 
 
+
 \begin{aligned}𝑆=\underset{\underset{𝑛\,=\,1}{∑}}{\overset{}{5}}(𝑎_{𝑛})=\underset{\underset{𝑛\,=\,1}{∑}}{\overset{}{5}}(2𝑛)\end{aligned}
+
 
 
 $$
@@ -62,7 +70,9 @@ We can retrieve the expanded sum by substituting all values between $\color{red}
 $$
 
 
+
 \begin{aligned}\underset{\underset{𝑛=1}{∑}}{\overset{}{5}}(2𝑛) & =2(1)+2(2)+2(3)+2(4)+2(5) \\ & =2+4+6+8+10\end{aligned}
+
 
 
 $$
@@ -72,7 +82,9 @@ $$
 $$
 
 
+
 \displaystyle\sum_{n=1}^{5} 2n = 2+4+6+8+10
+
 
 
 $$
@@ -92,7 +104,9 @@ The sum takes integer values of $n$ from $2$ to $4.$ So, we compute the terms fo
 $$
 
 
+
 \begin{aligned}\displaystyle\sum_{n=2}^{4}(2n-3)&= \overbrace{\big(2(2)-3\big)}^{\large n\,=\,2}+\overbrace{\big(2(3)-3\big)}^{\large n\,=\,3}+\overbrace{\big(2(4)-3\big)}^{\large n\,=\,4} \[-5pt] &=(4-3)+(6-3)+(8-3)\\\[5pt] &=1+3+5 \end{aligned}
+
 
 
 $$
@@ -110,7 +124,9 @@ The sum takes integer values of $n$ from $1$ to $3.$ So, computing the terms for
 $$
 
 
+
 \begin{aligned}\underset{\underset{𝑛=1}{∑}}{\overset{}{3}}5^{𝑛} & =5^{1}+5^{2}+5^{3} \\ & =5+25+125 \\ & =155.\end{aligned}
+
 
 
 $$
@@ -122,7 +138,9 @@ Suppose we want to express the following series in sigma notation.
 $$
 
 
+
 S = \dfrac{\color{red}1}{\color{blue}2} + \dfrac{\color{red}2}{\color{blue}3} + \dfrac{\color{red}3}{\color{blue}4} + \cdots + \dfrac{\color{red}19}{\color{blue}20} + \dfrac{\color{red}20}{\color{blue}21}
+
 
 
 $$
@@ -132,7 +150,9 @@ To do this, we first examine the numerators and denominators of the correspondin
 $$
 
 
+
 \dfrac{\color{red}1}{\color{blue}2}, \quad \dfrac{\color{red}2}{\color{blue}3}, \quad \dfrac{\color{red}3}{\color{blue}4}, \quad \ldots, \qquad \dfrac{\color{red}19}{\color{blue}20}, \quad \dfrac{\color{red}20}{\color{blue}21}
+
 
 
 $$
@@ -148,7 +168,9 @@ Therefore, the $n$th term of the sequence
 $$
 
 
+
 \dfrac{\color{red}1}{\color{blue}2}, \quad \dfrac{\color{red}2}{\color{blue}3}, \quad \dfrac{\color{red}3}{\color{blue}4}, \quad \ldots, \qquad \dfrac{\color{red}19}{\color{blue}20}, \quad \dfrac{\color{red}20}{\color{blue}21}
+
 
 
 $$
@@ -158,7 +180,9 @@ is
 $$
 
 
+
 \dfrac{\color{red}a_n}{\color{blue}b_n} =\dfrac{\color{red}n}{\color{blue}n+1},
+
 
 
 $$
@@ -170,7 +194,9 @@ Therefore, we can express our series using sigma notation as follows:
 $$
 
 
+
 \begin{aligned}𝑆=\underset{\underset{𝑛=1}{∑}}{\overset{}{20}}\frac{𝑛}{𝑛+1}.\end{aligned}
+
 
 
 $$
@@ -180,7 +206,9 @@ We can check that this answer is correct by writing out the summation in full an
 $$
 
 
+
 \begin{aligned}\underset{\underset{𝑛=1}{∑}}{\overset{}{20}}\frac{𝑛}{𝑛+1} & =\frac{1}{1+1}+\frac{2}{2+1}+⋯+\frac{19}{19+1}+\frac{20}{20+1} \\ & =\frac{1}{2}+\frac{2}{3}+⋯+\frac{19}{20}+\frac{20}{21}\,✓\end{aligned}
+
 
 
 $$
@@ -198,7 +226,9 @@ Notice that the terms of the corresponding sequence
 $$
 
 
+
 4, \quad 8, \quad 12, \quad , \ldots, \quad 56, \quad 60.
+
 
 
 $$
@@ -210,7 +240,9 @@ Therefore, the $n$th term of the sequence has the form
 $$
 
 
+
 a_n =4n,
+
 
 
 $$
@@ -220,7 +252,9 @@ where $n$ ranges from $n=1$ to $n=15\mathbin{.}$ Indeed:
 $$
 
 
+
 \begin{aligned}𝑎_{1} & =4(1)=4 \\ 𝑎_{2} & =4(2)=8 \\ 𝑎_{3} & =4(3)=12 \\ & \,\,⋮ \\ 𝑎_{14} & =4(14)=56 \\ 𝑎_{15} & =4(15)=60\end{aligned}
+
 
 
 $$
@@ -230,7 +264,9 @@ Therefore,
 $$
 
 
+
 \begin{aligned} S=4+8+12+\cdots+56+60=\sum_{n=1}^{15} 4n. \end{aligned}
+
 
 
 $$

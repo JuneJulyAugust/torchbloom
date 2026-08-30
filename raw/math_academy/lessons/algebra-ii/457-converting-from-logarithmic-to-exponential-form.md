@@ -18,7 +18,9 @@ Remember, the base of the logarithm is always the base of the exponential expres
 $$
 
 
+
 {\color{blue}{2}}^{\color{red}{3}} = 8.
+
 
 
 $$

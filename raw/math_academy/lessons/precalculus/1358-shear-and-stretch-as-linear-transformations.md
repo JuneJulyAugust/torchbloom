@@ -19,7 +19,9 @@ Let $[\begin{aligned}2 & 0 \\ 0 & 1\end{aligned}]$ be a matrix of a linear trans
 $$
 
 
+
 \begin{aligned}𝐢^{′} & =𝐓(𝐢)=[\begin{aligned}2 & 0 \\ 0 & 1\end{aligned}][\begin{aligned}1 \\ 0\end{aligned}]=[\begin{aligned}2 \\ 0\end{aligned}]=2𝐢 \\ 𝐣^{′} & =𝐓(𝐣)=[\begin{aligned}2 & 0 \\ 0 & 1\end{aligned}][\begin{aligned}0 \\ 1\end{aligned}]=[\begin{aligned}0 \\ 1\end{aligned}]=𝐣\end{aligned}
+
 
 
 $$
@@ -35,7 +37,9 @@ In general, a stretch in the $x$-direction of scale factor $k$ with its center a
 $$
 
 
+
 [\begin{aligned}𝑘 & 0 \\ 0 & 1\end{aligned}]
+
 
 
 $$
@@ -47,7 +51,9 @@ Now, let $[\begin{aligned}1 & 0 \\ 0 & 2\end{aligned}]$ be a matrix of a linear 
 $$
 
 
+
 \begin{aligned}𝐢^{′} & =𝐓(𝐢)=[\begin{aligned}1 & 0 \\ 0 & 2\end{aligned}][\begin{aligned}1 \\ 0\end{aligned}]=[\begin{aligned}1 \\ 0\end{aligned}]=𝐢 \\ 𝐣^{′} & =𝐓(𝐣)=[\begin{aligned}1 & 0 \\ 0 & 2\end{aligned}][\begin{aligned}0 \\ 1\end{aligned}]=[\begin{aligned}0 \\ 2\end{aligned}]=2𝐣\end{aligned}
+
 
 
 $$
@@ -63,7 +69,9 @@ In general, a stretch in the $y$-direction of scale factor $k$ with its center a
 $$
 
 
+
 [\begin{aligned}1 & 0 \\ 0 & 𝑘\end{aligned}]
+
 
 
 $$
@@ -91,7 +99,9 @@ Therefore, the standard matrix of $\mathbf{T}$ is
 $$
 
 
+
 [\begin{aligned}4 & 0 \\ 0 & 1\end{aligned}]
+
 
 
 $$
@@ -105,7 +115,9 @@ Let $[\begin{aligned}1 & 0.5 \\ 0 & 1\end{aligned}]$ be a matrix of a linear tra
 $$
 
 
+
 \begin{aligned}𝐢^{′} & =𝐓(𝐢)=[\begin{aligned}1 & 0.5 \\ 0 & 1\end{aligned}][\begin{aligned}1 \\ 0\end{aligned}]=[\begin{aligned}1 \\ 0\end{aligned}]=𝐢 \\ 𝐣^{′} & =𝐓(𝐣)=[\begin{aligned}1 & 0.5 \\ 0 & 1\end{aligned}][\begin{aligned}0 \\ 1\end{aligned}]=[\begin{aligned}0.5 \\ 1\end{aligned}]=0.5𝐢+𝐣\end{aligned}
+
 
 
 $$
@@ -121,7 +133,9 @@ In general, a horizontal shear of scale factor $k$ with its center at the origin
 $$
 
 
+
 [\begin{aligned}1 & 𝑘 \\ 0 & 1\end{aligned}]
+
 
 
 $$
@@ -133,7 +147,9 @@ Now, let $[\begin{aligned}1 & 0 \\ 0.5 & 1\end{aligned}]$ be a matrix of a linea
 $$
 
 
+
 \begin{aligned}𝐢^{′} & =𝐓(𝐢)=[\begin{aligned}1 & 0 \\ 0.5 & 1\end{aligned}][\begin{aligned}1 \\ 0\end{aligned}]=[\begin{aligned}1 \\ 0.5\end{aligned}]=𝐢+0.5𝐣 \\ 𝐣^{′} & =𝐓(𝐣)=[\begin{aligned}1 & 0 \\ 0.5 & 1\end{aligned}][\begin{aligned}0 \\ 1\end{aligned}]=[\begin{aligned}0 \\ 1\end{aligned}]=𝐣\end{aligned}
+
 
 
 $$
@@ -149,7 +165,9 @@ In general, a vertical shear of scale factor $k$ with its center at the origin i
 $$
 
 
+
 [\begin{aligned}1 & 0 \\ 𝑘 & 1\end{aligned}]
+
 
 
 $$
@@ -185,7 +203,9 @@ We can find the images of the standard basis vectors $\mathbf i$ and $\mathbf j$
 $$
 
 
+
 \begin{aligned}𝐓(𝐢) & =[\begin{aligned}1 & 2 \\ 0 & 1\end{aligned}][\begin{aligned}1 \\ 0\end{aligned}]=[\begin{aligned}1 \\ 0\end{aligned}]=𝐢 \\ 𝐓(𝐣) & =[\begin{aligned}1 & 2 \\ 0 & 1\end{aligned}][\begin{aligned}0 \\ 1\end{aligned}]=[\begin{aligned}2 \\ 1\end{aligned}]=2𝐢+𝐣\end{aligned}
+
 
 
 $$
@@ -213,7 +233,9 @@ We can check that the vertices of $R$ are mapped to the vertices of the parallel
 $$
 
 
+
 \begin{aligned}𝐓([\begin{aligned}0 \\ 0\end{aligned}]) & =[\begin{aligned}1 & 0 \\ −1 & 1\end{aligned}][\begin{aligned}0 \\ 0\end{aligned}]=[\begin{aligned}0 \\ 0\end{aligned}] \\ 𝐓([\begin{aligned}2 \\ 0\end{aligned}]) & =[\begin{aligned}1 & 0 \\ −1 & 1\end{aligned}][\begin{aligned}2 \\ 0\end{aligned}]=[\begin{aligned}2 \\ −2\end{aligned}] \\ 𝐓([\begin{aligned}2 \\ 2\end{aligned}]) & =[\begin{aligned}1 & 0 \\ −1 & 1\end{aligned}][\begin{aligned}2 \\ 2\end{aligned}]=[\begin{aligned}2 \\ 0\end{aligned}] \\ 𝐓([\begin{aligned}0 \\ 2\end{aligned}]) & =[\begin{aligned}1 & 0 \\ −1 & 1\end{aligned}][\begin{aligned}0 \\ 2\end{aligned}]=[\begin{aligned}0 \\ 2\end{aligned}]\end{aligned}
+
 
 
 $$

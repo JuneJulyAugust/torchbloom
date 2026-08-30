@@ -22,7 +22,9 @@ The first step is to write the parabola equation in its general form. For a hori
 $$
 
 
+
 (y-k)^2 = 4p(x-h).
+
 
 
 $$
@@ -44,7 +46,9 @@ Let's use the procedure described earlier to find the focus of the parabola
 $$
 
 
+
 y^2 = 2x.
+
 
 
 $$
@@ -56,7 +60,9 @@ To determine $p,$ we rewrite the equation of the parabola in the general form $(
 $$
 
 
+
 \begin{aligned}𝑦^{2} & =4⋅\frac{1}{2}⋅𝑥\end{aligned}
+
 
 
 $$
@@ -68,7 +74,9 @@ Finally, because the parabola opens to the right, the focus lies at a distance o
 $$
 
 
+
 \left(0 + \dfrac 1 2 , 0\right) = \left(\dfrac12,0\right).
+
 
 
 $$
@@ -92,7 +100,9 @@ The general equation of a ** parabola with vertex at $(h,k)$ is given by
 $$
 
 
+
 (y - k)^2 = 4p(x-h),
+
 
 
 $$
@@ -104,7 +114,9 @@ From the diagram, we see that the vertex $(h,k) = (2,5).$ Substituting this into
 $$
 
 
+
 (y-5)^2=4p(x-2).
+
 
 
 $$
@@ -114,7 +126,9 @@ The diagram shows that the parabola passes through the point $\left(11, 2\right)
 $$
 
 
+
 \begin{aligned}(2−5)^{2} & =4𝑝(11−2) \\ 9 & =4𝑝(9) \\ 𝑝 & =\frac{1}{4}.\end{aligned}
+
 
 
 $$
@@ -136,7 +150,9 @@ The general equation of a ** parabola with vertex at $(h,k)$ is given by
 $$
 
 
+
 (x - h)^2 = 4p(y-k),
+
 
 
 $$
@@ -148,7 +164,9 @@ From the diagram, we see that the vertex $(h,k) = (3,1).$ Substituting this into
 $$
 
 
+
 (x - 3)^2 = 4p(y-1).
+
 
 
 $$
@@ -158,7 +176,9 @@ The diagram shows that the parabola passes through the point $\left(0, \dfrac{11
 $$
 
 
+
 \begin{aligned}(0−3)^{2} & =4𝑝(\frac{11}{2}−1) \\ (−3)^{2} & =4𝑝(\frac{9}{2}) \\ 9 & =18𝑝 \\ 𝑝 & =\frac{9}{18} \\ 𝑝 & =\frac{1}{2}.\end{aligned}
+
 
 
 $$
@@ -178,7 +198,9 @@ The general equation of a ** parabola with vertex at $(h,k)$ is given by
 $$
 
 
+
 (y - k)^2 = 4p(x - h)
+
 
 
 $$
@@ -190,7 +212,9 @@ To rewrite the equation of the parabola in standard form, we need to group $y$-t
 $$
 
 
+
 \begin{aligned}𝑦^{2}−12𝑥−14𝑦+49 & =0 \\ 𝑦^{2}−14𝑦 & =12𝑥−49 \\ (𝑦−7)^{2}−49 & =12𝑥−49 \\ (𝑦−7)^{2} & =12𝑥 \\ (𝑦−7)^{2} & =4(3)(𝑥−0)\end{aligned}
+
 
 
 $$
@@ -202,7 +226,9 @@ Finally, the coordinates of the focus are
 $$
 
 
+
 \begin{aligned}(ℎ+𝑝,𝑘) & =(0+3,7)=(3,7).\end{aligned}
+
 
 
 $$
@@ -220,7 +246,9 @@ The general equation of a vertical parabola with vertex at $(h,k)$ is given by
 $$
 
 
+
 (x-h)^2=4p(y-k)
+
 
 
 $$
@@ -232,7 +260,9 @@ To rewrite the equation of the parabola in standard form, we need to group $x$-t
 $$
 
 
+
 \begin{aligned}𝑥^{2}−10𝑥+𝑦+26 & =0 \\ 𝑥^{2}−10𝑥 & =−𝑦−26 \\ (𝑥−5)^{2}−25 & =−𝑦−26 \\ (𝑥−5)^{2} & =−𝑦−1 \\ (𝑥−5)^{2} & =−(𝑦+1) \\ (𝑥−5)^{2} & =4(−\frac{1}{4})(𝑦+1)\end{aligned}
+
 
 
 $$
@@ -244,7 +274,9 @@ Finally, the coordinates of the focus are
 $$
 
 
+
 \begin{aligned}(ℎ,𝑘+𝑝) & =(5,−1−\frac{1}{4})=(5,−\frac{5}{4}).\end{aligned}
+
 
 
 $$

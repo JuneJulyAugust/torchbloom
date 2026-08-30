@@ -18,7 +18,9 @@ For example, suppose we know that $(x+2)$ is a factor of $f(x) = x^4+4x^3+x^2-6x
 $$
 
 
+
 \begin{aligned}−2 & 1 & 4 & 1 & −6 & 0 \\ & & −2 & −4 & 6 & 0 \\ & 1 & 2 & −3 & 0 & 0\end{aligned}
+
 
 
 $$
@@ -28,7 +30,9 @@ Therefore,
 $$
 
 
+
 \dfrac{x^4+4x^3+x^2-6x}{x+2} = x^3+2x^2-3x,
+
 
 
 $$
@@ -38,7 +42,9 @@ which means that
 $$
 
 
+
 x^4+4x^3+x^2-6x = (x+2) (x^3+2x^2-3x).
+
 
 
 $$
@@ -48,7 +54,9 @@ We can factor the cubic factor even further, and get
 $$
 
 
+
 \begin{aligned}(𝑥+2)(𝑥^{3}+2𝑥^{2}−3𝑥) & =(𝑥+2)(𝑥)(𝑥^{2}+2𝑥−3) \\ & =(𝑥+2)(𝑥)(𝑥+3)(𝑥−1) \\ & =𝑥(𝑥+2)(𝑥+3)(𝑥−1).\end{aligned}
+
 
 
 $$
@@ -70,7 +78,9 @@ Therefore,
 $$
 
 
+
 \dfrac{x^3-7x-6}{x-3} = x^2+3x +2,
+
 
 
 $$
@@ -80,7 +90,9 @@ which means that
 $$
 
 
+
 x^4 - x^3 - 7 x^2 + x + 6 = (x-1) (x-3) (x^2+3x +2).
+
 
 
 $$
@@ -90,7 +102,9 @@ We can factor the quadratic factor even further, and get
 $$
 
 
+
 x^4 - x^3 - 7 x^2 + x + 6 = (x-1) (x-3) (x+2)(x+1).
+
 
 
 $$
@@ -112,7 +126,9 @@ Therefore,
 $$
 
 
+
 \dfrac{x^4 - x^3 - 9 x^2 - 11 x - 4}{x-4} = x^3+3x^2+3x+1,
+
 
 
 $$
@@ -122,7 +138,9 @@ which means that
 $$
 
 
+
 x^4 - x^3 - 9 x^2 - 11 x - 4 = (x-4) ( x^3+3x^2+3x+1).
+
 
 
 $$
@@ -134,7 +152,9 @@ Therefore,
 $$
 
 
+
 \dfrac{ x^3+3x^2+3x-1}{x+1} = x^2+2x+1,
+
 
 
 $$
@@ -144,7 +164,9 @@ which means that
 $$
 
 
+
 x^4 - x^3 - 9 x^2 - 11 x - 4 = (x-4)(x+1)(x^2+2x+1).
+
 
 
 $$
@@ -154,7 +176,9 @@ We can factor the quadratic factor even further, and get
 $$
 
 
+
 \begin{aligned}𝑥^{4}−𝑥^{3}−9𝑥^{2}−11𝑥−4 & =(𝑥−4)(𝑥+1)(𝑥+1)^{2} \\ & =(𝑥−4)(𝑥+1)^{3}.\end{aligned}
+
 
 
 $$
@@ -176,7 +200,9 @@ Therefore,
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =3𝑥^{4}−5𝑥^{3}−3𝑥^{2}+6𝑥−8 \\ & =(𝑥−2)(3𝑥^{3}+𝑥^{2}−𝑥+4).\end{aligned}
+
 
 
 $$
@@ -186,7 +212,9 @@ Now, because $\left(x+\dfrac{4}{3} \right)$ is also a factor of $f(x),$ it must 
 $$
 
 
+
 \begin{aligned}3𝑥^{3}+𝑥^{2}−𝑥+4 & =(𝑥+\frac{4}{3})(3𝑥^{2}−3𝑥+3) \\ & =(𝑥+\frac{4}{3})(3)(𝑥^{2}−𝑥+1) \\ & =(3𝑥+4)(𝑥^{2}−𝑥+1),\end{aligned}
+
 
 
 $$
@@ -196,7 +224,9 @@ which means that
 $$
 
 
+
 \begin{aligned}3𝑥^{4}−5𝑥^{3}−3𝑥^{2}+6𝑥−8 & =(𝑥−2)(3𝑥+4)(𝑥^{2}−𝑥+1).\end{aligned}
+
 
 
 $$
@@ -206,7 +236,9 @@ The quadratic polynomial $x^2-x+1$ does not appear to factor over the real numbe
 $$
 
 
+
 \begin{aligned}D=𝑏^{2}−4𝑎𝑐=(−1)^{2}−4(1)(1)=−3<0\end{aligned}
+
 
 
 $$
@@ -216,7 +248,9 @@ Therefore, the full factorization of $f(x)$ over the real numbers is given by
 $$
 
 
+
 f(x) = (x-2)(3x+4)(x^2-x+1).
+
 
 
 $$

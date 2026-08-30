@@ -51,7 +51,9 @@ First, let's write the function in a form that is convenient for transformations
 $$
 
 
+
 y = f(2-x) = f(-(x-2))
+
 
 
 $$
@@ -91,7 +93,9 @@ First, let's write the function in a form that is convenient for transformations
 $$
 
 
+
 y = -2 - f(x) = - f(x) - 2.
+
 
 
 $$

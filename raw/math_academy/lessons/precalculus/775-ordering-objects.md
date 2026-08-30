@@ -33,7 +33,9 @@ There are $n=5$ books, so the number of possible arrangements is
 $$
 
 
+
 \begin{aligned}5! & =5×4×3×2×1 \\ & =120.\end{aligned}
+
 
 
 $$
@@ -47,7 +49,9 @@ The mathematical name for an arrangement is a **permutation**. With a permutatio
 $$
 
 
+
 A,B,C,D,E
+
 
 
 $$
@@ -57,7 +61,9 @@ is different from
 $$
 
 
+
 E,D,C,B,A.
+
 
 
 $$
@@ -75,7 +81,9 @@ In the word "MUSICAL" there are a total of $7$ letters with no repeat letters, a
 $$
 
 
+
 \begin{aligned}7! & =7×6×5×4×3×2×1 \\ & =5\,040.\end{aligned}
+
 
 
 $$

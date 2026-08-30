@@ -19,7 +19,9 @@ Suppose we need to solve the inequality
 $$
 
 
+
 x^2\geq 4.
+
 
 
 $$
@@ -29,7 +31,9 @@ Let's start by bringing all the terms to the left-hand side, so
 $$
 
 
+
 \begin{aligned}𝑥^{2}−4 & ≥0.\end{aligned}
+
 
 
 $$
@@ -39,7 +43,9 @@ Now, we consider the corresponding parabola given by $y = x^2-4$ and find its ro
 $$
 
 
+
 \begin{aligned}𝑥^{2}−4 & =0 \\ 𝑥^{2}−2^{2} & =0 \\ (𝑥−2)(𝑥+2) & =0\end{aligned}
+
 
 
 $$
@@ -67,7 +73,9 @@ Bringing all the terms to the left-hand side, we have
 $$
 
 
+
 \begin{aligned}𝑥^{2} & <1 \\ 𝑥^{2}−1 & <0.\end{aligned}
+
 
 
 $$
@@ -77,7 +85,9 @@ Now, we consider the corresponding parabola given by $y = x^2-1$ and find its ro
 $$
 
 
+
 \begin{aligned}𝑥^{2}−1 & =0 \\ 𝑥^{2}−1^{2} & =0 \\ (𝑥−1)(𝑥+1) & =0\end{aligned}
+
 
 
 $$
@@ -101,7 +111,9 @@ For example, to solve the inequality $x^2 > 1,$ we can start by taking the squar
 $$
 
 
+
 \begin{aligned}𝑥^{2} & >1 \\ \sqrt{√𝑥^{2}} & >\sqrt{√1} \\ |𝑥| & >1\end{aligned}
+
 
 
 $$
@@ -133,7 +145,9 @@ Taking the square root of both sides of the inequality, we get
 $$
 
 
+
 \begin{aligned}𝑥^{2} & ≤2 \\ \sqrt{√𝑥^{2}} & ≤\sqrt{√2} \\ |𝑥| & ≤\sqrt{√2}.\end{aligned}
+
 
 
 $$
@@ -143,7 +157,9 @@ Now, using the definition of absolute value, we must have
 $$
 
 
+
 -\sqrt 2\leq x \leq \sqrt 2.
+
 
 
 $$
@@ -163,7 +179,9 @@ First, let's simplify the inequality:
 $$
 
 
+
 \begin{aligned}3𝑥^{2}−6 & >3+2𝑥^{2} \\ 3𝑥^{2}−2𝑥^{2} & >6+3 \\ 𝑥^{2} & >9\end{aligned}
+
 
 
 $$
@@ -177,7 +195,9 @@ Taking the square root of both sides of the inequality, we get
 $$
 
 
+
 \begin{aligned}\sqrt{√𝑥^{2}} & >\sqrt{√9} \\ |𝑥| & >3.\end{aligned}
+
 
 
 $$
@@ -193,7 +213,9 @@ Starting from $x^2>9$ and moving all terms to the left-hand side, we reach
 $$
 
 
+
 x^2-9 > 0 .
+
 
 
 $$
@@ -203,7 +225,9 @@ Now, we consider the corresponding parabola given by $y=x^2-9$ and find its root
 $$
 
 
+
 \begin{aligned}𝑥^{2}−9 & =0 \\ (𝑥+3)(𝑥−3) & =0\end{aligned}
+
 
 
 $$
@@ -249,7 +273,9 @@ Let's bring all the terms to the left-hand side,
 $$
 
 
+
 x^2+9 < 0,
+
 
 
 $$

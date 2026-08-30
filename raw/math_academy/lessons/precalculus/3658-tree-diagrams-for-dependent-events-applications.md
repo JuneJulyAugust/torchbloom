@@ -22,7 +22,9 @@ Before we draw our tree diagram, let's summarize what we know:
 $$
 
 
+
 P(\textrm{Rain}) = 0.1, \qquad P(\textrm{Late|Rain}) = 0.2, \qquad P(\textrm{Late|No Rain}) = 0.05.
+
 
 
 $$
@@ -50,7 +52,9 @@ Remember that we multiply *across* the branches and add *between* them. Therefor
 $$
 
 
+
 \begin{aligned}𝑃(Late) & =𝑃(Rain)⋅𝑃(Late|Rain)+𝑃(No Rain)⋅𝑃(Late|No Rain) \\ & =(0.1)(0.2)+(0.9)(0.05) \\ & =0.065 \\ & =6.5\%.\end{aligned}
+
 
 
 $$
@@ -78,7 +82,9 @@ Therefore, the probability that both cards are labeled with an odd number is
 $$
 
 
+
 P(\textrm{Odd} \cap \textrm{Odd}) = \dfrac{16}{52} \cdot \dfrac{15}{51} = \dfrac{20}{221}.
+
 
 
 $$
@@ -106,7 +112,9 @@ The probability of picking a white ball first and a red ball second is
 $$
 
 
+
 P(W_1 \cap W_2') = \dfrac{6}{10} \cdot \dfrac{4}{9} = \dfrac{4}{15}.
+
 
 
 $$
@@ -116,7 +124,9 @@ Similarly, the probability of picking a red ball first and a white ball second i
 $$
 
 
+
 P(W_1' \cap W_2) = \dfrac{4}{10} \cdot \dfrac{6}{9} = \dfrac{4}{15}.
+
 
 
 $$
@@ -126,7 +136,9 @@ Therefore, the probability that the balls have different colors is
 $$
 
 
+
 \begin{aligned}𝑃(𝑊_{1}∩𝑊_{′2}^{})+𝑃(𝑊_{′1}^{}∩𝑊_{2}) & =\frac{4}{15}+\frac{4}{15} \\ & =\frac{8}{15}.\end{aligned}
+
 
 
 $$

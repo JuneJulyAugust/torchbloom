@@ -18,7 +18,9 @@ The **product rule** states that two logarithms which share a common base $\colo
 $$
 
 
+
 \log_{\color{blue}n}(a) + \log_{\color{blue}n}(b) = \log_{\color{blue}n}\left( ab\right).
+
 
 
 $$
@@ -28,7 +30,9 @@ So, we can use the product rule to rewrite $\log_{\color{blue}5}(4) + \log_{\col
 $$
 
 
+
 \begin{aligned}log_{5}⁡4+log_{5}⁡(3) & =log_{5}⁡(4⋅3) \\ & =log_{5}⁡(12).\end{aligned}
+
 
 
 $$
@@ -48,7 +52,9 @@ First, let's recall the product rule for logarithms:
 $$
 
 
+
 \log_n a + \log_n b = \log_n(ab)
+
 
 
 $$
@@ -58,7 +64,9 @@ Using the product rule for logarithms, the given expression can be rewritten as
 $$
 
 
+
 \begin{aligned}log_{3}⁡2+log_{3}⁡5 & =log_{3}⁡(2⋅5) \\ & =log_{3}⁡10.\end{aligned}
+
 
 
 $$
@@ -76,7 +84,9 @@ First, let's recall the product rule for logarithms:
 $$
 
 
+
 \log_n a + \log_n b = \log_n(ab)
+
 
 
 $$
@@ -86,7 +96,9 @@ If we factor the given expression and use the product rule for logarithms, we ge
 $$
 
 
+
 \begin{aligned}3log_{5}⁡7+3log_{5}⁡3 & =3(log_{5}⁡7+log_{5}⁡3) \\ & =3log_{5}⁡(7⋅3) \\ & =3log_{5}⁡21.\end{aligned}
+
 
 
 $$
@@ -96,7 +108,9 @@ Therefore,
 $$
 
 
+
 3\log_{5}{7}+3\log_{5}{3} = 3\log_{5} 21 .
+
 
 
 $$
@@ -114,7 +128,9 @@ First, let's recall the product rule for natural logarithms:
 $$
 
 
+
 \ln{a} + \ln{b} = \ln(ab)
+
 
 
 $$
@@ -124,7 +140,9 @@ Using the product rule, the given expression can be rewritten as
 $$
 
 
+
 \begin{aligned}ln⁡(𝑥^{2}𝑦) & =ln⁡(𝑥^{2}⋅𝑦) \\ & =ln⁡(𝑥^{2})+ln⁡𝑦.\end{aligned}
+
 
 
 $$
@@ -142,7 +160,9 @@ First, let's recall the product rule for logarithms:
 $$
 
 
+
 \log_n a + \log_n b = \log_n(ab)
+
 
 
 $$
@@ -152,7 +172,9 @@ Using the product rule, we have
 $$
 
 
+
 \begin{aligned}log_{2}⁡(3𝑥) & =log_{2}⁡3+log_{2}⁡𝑥 \\ & =𝑘+𝑝.\end{aligned}
+
 
 
 $$

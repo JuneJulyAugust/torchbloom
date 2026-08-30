@@ -16,7 +16,9 @@ Suppose we want to find all of the solutions to the equation
 $$
 
 
+
 0^{∘}≤𝑥<360^{∘}.
+
 
 
 $$
@@ -26,7 +28,9 @@ We can immediately calculate a solution, called the **principal value**, as foll
 $$
 
 
+
 x = \arcsin\left(\frac{1}{2}\right) =30^\circ
+
 
 
 $$
@@ -42,7 +46,9 @@ Since the second solution $x_2$ lies in the $2$nd quadrant, we can find it using
 $$
 
 
+
 x_2 = 180^\circ - 30^\circ = 150^\circ
+
 
 
 $$

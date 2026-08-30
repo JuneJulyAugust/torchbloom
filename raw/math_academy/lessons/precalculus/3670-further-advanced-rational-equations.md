@@ -44,7 +44,9 @@ Now, multiplying both sides of the equation by the least common denominator, we 
 $$
 
 
+
 \begin{aligned}\frac{1}{𝑥−9}+2 & =\frac{5}{𝑥−3} \\ (𝑥−9)(𝑥−3)⋅(\frac{1}{𝑥−9}+2) & =(𝑥−9)(𝑥−3)⋅\frac{5}{𝑥−3} \\ \frac{(𝑥−9)(𝑥−3)}{𝑥−9}+2(𝑥−9)(𝑥−3) & =\frac{5(𝑥−9)(𝑥−3)}{𝑥−3} \\ \frac{(𝑥−9)(𝑥−3)}{𝑥−9}+2(𝑥−9)(𝑥−3) & =\frac{5(𝑥−9)(𝑥−3)}{𝑥−3}\end{aligned}
+
 
 
 $$
@@ -54,7 +56,9 @@ After canceling, we're left with the equation
 $$
 
 
+
 x - 3 + 2(x - 9)(x - 3) = 5(x - 9).
+
 
 
 $$
@@ -64,7 +68,9 @@ This is a quadratic equation. Solving this equation for $x,$ we get the followin
 $$
 
 
+
 \begin{aligned}𝑥−3+2(𝑥−9)(𝑥−3) & =5(𝑥−9) \\ 𝑥−3+2(𝑥−12𝑥+27) & =5𝑥−45 \\ 𝑥−3+2𝑥^{2}−24𝑥+54 & =5𝑥−45 \\ 2𝑥^{2}−28𝑥+96 & =0 \\ 𝑥^{2}−14𝑥+48 & =0 \\ (𝑥−6)(𝑥−8) & =0\end{aligned}
+
 
 
 $$
@@ -96,7 +102,9 @@ Now, multiplying both sides of the equation by the least common denominator, we 
 $$
 
 
+
 \begin{aligned}\frac{3}{𝑡+1}+\frac{5}{𝑡−3} & =\frac{12}{𝑡−1} \\ (𝑡+1)(𝑡−1)(𝑡−3)⋅(\frac{3}{𝑡+1}+\frac{5}{𝑡−3}) & =(𝑡+1)(𝑡−1)(𝑡−3)⋅(\frac{12}{𝑡−1}) \\ \frac{3(𝑡+1)(𝑡−1)(𝑡−3)}{𝑡+1}+\frac{5(𝑡+1)(𝑡−1)(𝑡−3)}{𝑡−3} & =\frac{12(𝑡+1)(𝑡−1)(𝑡−3)}{𝑡−1} \\ \frac{3(𝑡+1)(𝑡−1)(𝑡−3)}{𝑡+1}+\frac{5(𝑡+1)(𝑡−1)(𝑡−3)}{𝑡−3} & =\frac{12(𝑡+1)(𝑡−1)(𝑡−3)}{𝑡−1} \\ 3(𝑡−1)(𝑡−3)+5(𝑡+1)(𝑡−1) & =12(𝑡+1)(𝑡−3)\end{aligned}
+
 
 
 $$
@@ -106,7 +114,9 @@ Solving this equation for $t,$ we get the following:
 $$
 
 
+
 \begin{aligned}3(𝑡−1)(𝑡−3)+5(𝑡+1)(𝑡−1) & =12(𝑡+1)(𝑡−3) \\ 3(𝑡^{2}−4𝑡+3)+5(𝑡^{2}−1) & =12(𝑡^{2}−2𝑡−3) \\ 3𝑡^{2}−12𝑡+9+5𝑡^{2}−5 & =12𝑡^{2}−24𝑡−36 \\ 8𝑡^{2}−12𝑡+4 & =12𝑡^{2}−24𝑡−36 \\ 8𝑡^{2}−12𝑡+4−12𝑡^{2}+24𝑡+36 & =0 \\ −4𝑡^{2}+12𝑡+40 & =0 \\ 𝑡^{2}−3𝑡−10 & =0 \\ (𝑡+2)(𝑡−5) & =0\end{aligned}
+
 
 
 $$

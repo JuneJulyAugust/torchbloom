@@ -59,7 +59,9 @@ We want to find $P(3\,100 < X < 3\,600).$ First, we convert $X$ to a standard no
 $$
 
 
+
 \begin{aligned}𝑃(3\,100<𝑋<3\,600) & =𝑃(\frac{3\,100−3\,543}{609}<𝑍<\frac{3\,600−3\,543}{609}) \\ & =𝑃(−0.73<𝑍<0.09)\end{aligned}
+
 
 
 $$
@@ -69,7 +71,9 @@ Now, we express the required probability in terms of $\Phi(z)\mathbin{:}$
 $$
 
 
+
 \begin{aligned}𝑃(−0.73<𝑍<0.09) & =𝑃(𝑍<0.09)−𝑃(𝑍<−0.73) \\ & =𝑃(𝑍≤0.09)−𝑃(𝑍≤−0.73) \\ & =Φ(0.09)−Φ(−0.73)\end{aligned}
+
 
 
 $$
@@ -79,7 +83,9 @@ From the table, we have the following:
 $$
 
 
+
 \begin{aligned}Φ(−0.73) & =0.2327 \\ Φ(0.09) & =0.5359\end{aligned}
+
 
 
 $$
@@ -89,7 +95,9 @@ Therefore, we have
 $$
 
 
+
 \begin{aligned}𝑃(−0.73<𝑍<0.09) & =Φ(0.09)−Φ(−0.73) \\ & =0.5359−0.2327 \\ & =0.3032.\end{aligned}
+
 
 
 $$
@@ -113,7 +121,9 @@ We know that $P(X \leq 38) = 0.20.$ Converting $X$ to a standard normal random v
 $$
 
 
+
 \begin{aligned}𝑃(𝑋≤38) & =0.20 \\ 𝑃(𝑍≤\frac{38−43}{𝜎}) & =0.20 \\ Φ(−\frac{5}{𝜎}) & =0.20 \\ −\frac{5}{𝜎} & =Φ^{−1}(0.20).\end{aligned}
+
 
 
 $$
@@ -123,7 +133,9 @@ From the table,
 $$
 
 
+
 \Phi^{-1}(0.20) =-0.8416.
+
 
 
 $$
@@ -133,7 +145,9 @@ Finally then,
 $$
 
 
+
 \begin{aligned}−\frac{5}{𝜎} & =−0.8416 \\ \frac{1}{𝜎} & =0.1683 \\ 𝜎 & =\frac{1}{0.1683} \\ 𝜎 & ≈6\,minutes.\end{aligned}
+
 
 
 $$
@@ -157,7 +171,9 @@ We know that $P(0.93\mu < X < 1.07\mu) = 0.5.$ First, we convert this to a cumul
 $$
 
 
+
 \begin{aligned}𝑃(0.93𝜇<𝑋<1.07𝜇) & =0.5 \\ 2𝑃(𝜇<𝑋<1.07𝜇) & =0.5 \\ 𝑃(𝜇<𝑋<1.07𝜇) & =0.25 \\ 𝑃(𝑋<𝜇)+𝑃(𝜇<𝑋<1.07𝜇) & =0.5+0.25 \\ 𝑃(𝑋<1.07𝜇) & =0.75\end{aligned}
+
 
 
 $$
@@ -167,7 +183,9 @@ Next, we convert $X$ to a standard normal random variable by $z$-scoring. We get
 $$
 
 
+
 \begin{aligned}𝑃(𝑋<1.07𝜇) & =0.75 \\ 𝑃(𝑍<\frac{0.07𝜇}{12}) & =0.75 \\ Φ(\frac{0.07𝜇}{12}) & =0.75 \\ \frac{0.07𝜇}{12} & =Φ^{−1}(0.75).\end{aligned}
+
 
 
 $$
@@ -177,7 +195,9 @@ From the table,
 $$
 
 
+
 \Phi^{-1}(0.75) \approx 0.6745.
+
 
 
 $$
@@ -187,7 +207,9 @@ Therefore, we have
 $$
 
 
+
 \begin{aligned}\frac{0.07𝜇}{12} & =0.6745 \\ 0.07𝜇 & =8.094 \\ 𝜇 & =\frac{8.094}{0.07} \\ & ≈115.629.\end{aligned}
+
 
 
 $$
@@ -197,7 +219,9 @@ Finally, we can find $P(X < 120)$ as follows:
 $$
 
 
+
 \begin{aligned}𝑃(𝑋<120) & =𝑃(𝑍<\frac{120−115.629}{12}) \\ & ≈𝑃(𝑍<0.36) \\ & =Φ(0.36) \\ & =0.6406 \\ & ≈64.1\%\end{aligned}
+
 
 
 $$

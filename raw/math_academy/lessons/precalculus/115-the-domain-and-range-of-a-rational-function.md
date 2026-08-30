@@ -20,7 +20,9 @@ For instance, suppose we want to define the domain of the rational function $f(x
 $$
 
 
+
 f(x)=\dfrac{1}{x^2-5x+6}.
+
 
 
 $$
@@ -30,7 +32,9 @@ Setting the denominator equal to zero and solving, we get
 $$
 
 
+
 \begin{aligned}𝑥^{2}−5𝑥+6 & =0 \\ (𝑥−2)(𝑥−3) & =0 \\ 𝑥 & =2,3.\end{aligned}
+
 
 
 $$
@@ -54,7 +58,9 @@ Setting the denominator equal to zero and solving, we get
 $$
 
 
+
 \begin{aligned}𝑥^{2}−3𝑥−10 & =0 \\ (𝑥+2)(𝑥−5) & =0 \\ 𝑥 & =−2,5.\end{aligned}
+
 
 
 $$
@@ -72,7 +78,9 @@ To illustrate, let's find the range of the function $f(x),$ given by
 $$
 
 
+
 f(x) = \dfrac{x}{x-2}.
+
 
 
 $$
@@ -82,7 +90,9 @@ First, we set $y = f(x)$ and make $x$ the subject of the equation, as follows:
 $$
 
 
+
 \begin{aligned}𝑦 & =\frac{𝑥}{𝑥−2} \\ 𝑦(𝑥−2) & =𝑥 \\ 𝑥𝑦−2𝑦 & =𝑥 \\ 𝑥𝑦−𝑥 & =2𝑦 \\ 𝑥(𝑦−1) & =2𝑦 \\ 𝑥 & =\frac{2𝑦}{𝑦−1}\end{aligned}
+
 
 
 $$
@@ -94,7 +104,9 @@ Setting the denominator equal to zero and solving, we get
 $$
 
 
+
 \begin{aligned}𝑦−1 & =0 \\ 𝑦 & =1.\end{aligned}
+
 
 
 $$
@@ -118,7 +130,9 @@ First, let's set $y = f(x)$ and make $x$ the subject of the equation, as follows
 $$
 
 
+
 \begin{aligned}𝑦 & =\frac{𝑥−5}{2𝑥−5} \\ 𝑦(2𝑥−5) & =𝑥−5 \\ 2𝑥𝑦−5𝑦 & =𝑥−5 \\ 2𝑥𝑦−𝑥 & =5𝑦−5 \\ 𝑥(2𝑦−1) & =5𝑦−5 \\ 𝑥 & =\frac{5𝑦−5}{2𝑦−1}\end{aligned}
+
 
 
 $$
@@ -130,7 +144,9 @@ Setting the denominator equal to zero and solving, we get
 $$
 
 
+
 \begin{aligned}2𝑦−1 & =0 \\ 2𝑦 & =1 \\ 𝑦 & =\frac{1}{2}.\end{aligned}
+
 
 
 $$
@@ -150,7 +166,9 @@ First, let's factor the numerator and denominator:
 $$
 
 
+
 f(x) = \dfrac{x-1}{3x^2-2x-1} = \dfrac{x-1}{(3x+1)(x-1)}
+
 
 
 $$
@@ -160,7 +178,9 @@ Notice that the numerator and denominator both have $(x-1)$ as a common factor. 
 $$
 
 
+
 x - 1 = 0\quad\Longrightarrow\quad x= 1.
+
 
 
 $$
@@ -174,7 +194,9 @@ Finding the reduced rational function $F(x),$ we get
 $$
 
 
+
 \begin{aligned}𝐹(𝑥) & =\frac{𝑥−1}{(3𝑥+1)(𝑥−1)} \\ & =\frac{𝑥−1}{(3𝑥+1)(𝑥−1)} \\ & =\frac{1}{3𝑥+1}.\end{aligned}
+
 
 
 $$
@@ -184,7 +206,9 @@ The $y$-coordinate of the hole is given by
 $$
 
 
+
 \begin{aligned}𝐹(1) & =\frac{1}{3(1)+1} \\ & =\frac{1}{4}.\end{aligned}
+
 
 
 $$
@@ -196,7 +220,9 @@ Now, let's make $x$ the subject of the simplified equation, as follows:
 $$
 
 
+
 \begin{aligned}𝑦 & =\frac{1}{3𝑥+1} \\ 𝑦(3𝑥+1) & =1 \\ 3𝑥𝑦+𝑦 & =1 \\ 3𝑥𝑦 & =1−𝑦 \\ 𝑥 & =\frac{1−𝑦}{3𝑦}\end{aligned}
+
 
 
 $$
@@ -208,7 +234,9 @@ Setting the denominator equal to zero and solving, we get
 $$
 
 
+
 \begin{aligned}3𝑦=0\,⟹\,𝑦=0.\end{aligned}
+
 
 
 $$

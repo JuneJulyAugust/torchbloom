@@ -19,7 +19,9 @@ For example, to solve the inequality
 $$
 
 
+
 \sqrt[3]{x-2} \leq 4,
+
 
 
 $$
@@ -29,7 +31,9 @@ we can cube both sides and get
 $$
 
 
+
 \begin{aligned}(\sqrt[√𝑥−2]{3})^{3} & ≤4^{3} \\ 𝑥−2 & ≤64 \\ 𝑥 & ≤66.\end{aligned}
+
 
 
 $$
@@ -41,7 +45,9 @@ To see this concretely, consider the following order of numbers:
 $$
 
 
+
 -2 < -1 < 0 < 0.5 < 1 < 2 < 3
+
 
 
 $$
@@ -51,7 +57,9 @@ If we take the cubes of all the numbers above, they stay in the same order:
 $$
 
 
+
 \underbrace{-8}_{ (-2)^3 } < \underbrace{-1}_{ (-1)^3 } < \underbrace{0}_{ 0^3 } < \underbrace{0.125}_{ (0.5)^3 } < \underbrace{1}_{ 1^3 } < \underbrace{8}_{ 2^3 } < \underbrace{27}_{ 3^3 }
+
 
 
 $$
@@ -69,7 +77,9 @@ Isolating the cubic term, we find
 $$
 
 
+
 \begin{aligned}\sqrt[√𝑥+3]{3}+1 & ≥0 \\ \sqrt[√𝑥+3]{3} & ≥−1.\end{aligned}
+
 
 
 $$
@@ -79,7 +89,9 @@ Then, we cube both sides and get
 $$
 
 
+
 \begin{aligned}(\sqrt[√𝑥+3]{3})^{3} & ≥(−1)^{3} \\ 𝑥+3 & ≥−1 \\ 𝑥 & ≥−4.\end{aligned}
+
 
 
 $$
@@ -91,7 +103,9 @@ When we have a square root in an inequality, we *can't* always square both sides
 $$
 
 
+
 -4 \lt 3
+
 
 
 $$
@@ -101,7 +115,9 @@ If we square both sides, then we get a false statement:
 $$
 
 
+
 \begin{aligned}(−4)^{2} & ≮3^{2} \\ 16 & ≮9\end{aligned}
+
 
 
 $$
@@ -125,7 +141,9 @@ First, we isolate the square root:
 $$
 
 
+
 \begin{aligned}3\sqrt{√𝑥−2}+7 & ≥4 \\ 3\sqrt{√𝑥−2} & ≥−3 \\ \sqrt{√𝑥−2} & ≥−1\end{aligned}
+
 
 
 $$
@@ -137,7 +155,9 @@ To find the domain, we recall that the expression under the square root must be 
 $$
 
 
+
 x-2 \geq 0 \quad \Rightarrow \quad x \geq 2
+
 
 
 $$
@@ -155,7 +175,9 @@ For example, consider the following inequality:
 $$
 
 
+
 \sqrt{x+1} < 3
+
 
 
 $$
@@ -165,7 +187,9 @@ In this inequality, the square root is being compared to a non-negative number $
 $$
 
 
+
 \begin{aligned}(\sqrt{√𝑥+1})^{2} & <3^{2} \\ 𝑥+1 & <9 \\ 𝑥 & <8\end{aligned}
+
 
 
 $$
@@ -175,7 +199,9 @@ Now, we must only keep the solutions that are in the domain of the square root. 
 $$
 
 
+
 x+1 \geq 0 \quad \Rightarrow \quad x \geq -1
+
 
 
 $$
@@ -185,7 +211,9 @@ Our solution is $x < 8,$ which can be expressed as $(-\infty, 8).$ But the domai
 $$
 
 
+
 (-\infty, 8) \cap [-1, \infty) = [-1, 8)
+
 
 
 $$
@@ -205,7 +233,9 @@ First, we isolate the square root:
 $$
 
 
+
 \begin{aligned}7−\sqrt{√𝑥+3} & <5 \\ −\sqrt{√𝑥+3} & <−2 \\ \sqrt{√𝑥+3} & >2\end{aligned}
+
 
 
 $$
@@ -215,7 +245,9 @@ In this inequality, the square root is being compared to a non-negative number $
 $$
 
 
+
 \begin{aligned}(\sqrt{√𝑥+3})^{2} & >2^{2} \\ 𝑥+3 & >4 \\ 𝑥 & >1\end{aligned}
+
 
 
 $$
@@ -225,7 +257,9 @@ Now, we must only keep the solutions that are in the domain of the square root. 
 $$
 
 
+
 \begin{aligned}𝑥+3 & ≥0 \\ 𝑥 & ≥−3\end{aligned}
+
 
 
 $$
@@ -235,7 +269,9 @@ Our solution is $x > 1,$ which can be expressed as $\left(1,\infty \right).$ The
 $$
 
 
+
 \left( 1,\infty \right) \cap \left[ -3,\infty \right) =\left( 1,\infty\right)
+
 
 
 $$

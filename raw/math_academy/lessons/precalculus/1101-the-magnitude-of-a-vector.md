@@ -29,7 +29,9 @@ Notice that we obtain a right triangle. So, we can use the Pythagorean theorem a
 $$
 
 
+
 \begin{aligned}|𝐚+𝐛|^{2} & =|𝐚|^{2}+|𝐛|^{2} \\ & =6^{2}+8^{2} \\ & =100\end{aligned}
+
 
 
 $$
@@ -39,7 +41,9 @@ Therefore,
 $$
 
 
+
 |\textbf{a}+\textbf{b}|=\sqrt{100}=10.
+
 
 
 $$
@@ -63,7 +67,9 @@ Notice that we obtain a right triangle. So, we can use Pythagorean theorem as fo
 $$
 
 
+
 \begin{aligned}|𝐚+𝐛|^{2} & =|𝐚|^{2}+|𝐛|^{2} \\ & =11^{2}+8^{2} \\ & =185\end{aligned}
+
 
 
 $$
@@ -87,7 +93,9 @@ In $\bigtriangleup AHB$ we have $\angle AHB = 90^\circ$, $AH=35\:\textrm{mm}$ an
 $$
 
 
+
 \begin{aligned}𝐴𝐵 & =\sqrt{√𝐴𝐻^{2}+𝐵𝐻^{2}} \\ & =\sqrt{√35^{2}+25^{2}} \\ & =\sqrt{√1\,850} \\ & =5\sqrt{√74}\,mm.\end{aligned}
+
 
 
 $$
@@ -105,7 +113,9 @@ We do not obtain a right triangle here, so we cannot use the Pythagorean theorem
 $$
 
 
+
 \begin{aligned}|𝐚+𝐛|^{2} & =|𝐚|^{2}+|𝐛|^{2}−2|𝐚||𝐛|cos⁡𝜃\end{aligned}
+
 
 
 $$
@@ -127,7 +137,9 @@ We do not obtain a right triangle here, so we cannot use the Pythagorean theorem
 $$
 
 
+
 \begin{aligned}|𝐚+𝐛|^{2} & =|𝐚|^{2}+|𝐛|^{2}−2|𝐚||𝐛|cos⁡(120^{∘}) \\ & =4^{2}+5^{2}−2⋅4⋅5⋅(−\frac{1}{2}) \\ & =16+25+20 \\ & =61\end{aligned}
+
 
 
 $$

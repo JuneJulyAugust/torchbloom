@@ -17,7 +17,9 @@ How do we find the determinant of a $3\times3$ matrix such as
 $$
 
 
+
 \begin{aligned}7 & 1 & −3 \\ 3 & 2 & 4 \\ 5 & 0 & −1\end{aligned}
+
 
 
 $$
@@ -27,7 +29,9 @@ One way to do this is to take the alternating sum of the entries in the top row 
 $$
 
 
+
 \begin{aligned}\begin{aligned}7 & 1 & −3 \\ 3 & 2 & 4 \\ 5 & 0 & −1\end{aligned} & =\underset{𝑎_{11}}{\underset{}{(\,7\,)}}⋅\overset{\overset\begin{aligned}2 & 4 \\ 0 & −1\end{aligned}}{}}{𝑀_{11}}−\underset{𝑎_{12}}{\underset{}{(\,1\,)}}⋅\overset{\overset\begin{aligned}3 & 4 \\ 5 & −1\end{aligned}}{}}{𝑀_{12}}+\underset{𝑎_{13}}{\underset{}{(−3)}}⋅\overset{\overset\begin{aligned}3 & 2 \\ 5 & 0\end{aligned}}{}}{𝑀_{13}} \\ & =7(−2−0)−1(−3−20)−3(0−10) \\ & =−14+23+30 \\ & =39\end{aligned}
+
 
 
 $$
@@ -39,7 +43,9 @@ In general, the determinant of a $3\times 3$ matrix $A$ is given by
 $$
 
 
+
 \det(A) = {\color{red}a_{11}}{\color{blue}M_{11}} - {\color{red}a_{12}}{\color{blue}M_{12}} + {\color{red}a_{13}}{\color{blue}M_{13}}.
+
 
 
 $$
@@ -49,7 +55,9 @@ That is, if $\begin{aligned}𝑎 & 𝑏 & 𝑐 \\ 𝑑 & 𝑒 & 𝑓 \\ 𝑔 & �
 $$
 
 
+
 \begin{aligned}\begin{aligned}𝑎 & 𝑏 & 𝑐 \\ 𝑑 & 𝑒 & 𝑓 \\ 𝑔 & ℎ & 𝑖\end{aligned} & =𝑎\begin{aligned}𝑒 & 𝑓 \\ ℎ & 𝑖\end{aligned}−𝑏\begin{aligned}𝑑 & 𝑓 \\ 𝑔 & 𝑖\end{aligned}+𝑐\begin{aligned}𝑑 & 𝑒 \\ 𝑔 & ℎ\end{aligned} \\ & =𝑎(𝑒𝑖−𝑓ℎ)−𝑏(𝑑𝑖−𝑓𝑔)+𝑐(𝑑ℎ−𝑒𝑔).\end{aligned}
+
 
 
 $$
@@ -69,7 +77,9 @@ Using the formula, we take the alternating sum of the entries in the top row of 
 $$
 
 
+
 \begin{aligned}\begin{aligned}0 & −3 & 6 \\ 8 & 8 & 8 \\ −6 & −12 & 1\end{aligned} & =0\begin{aligned}8 & 8 \\ −12 & 1\end{aligned}−(−3)\begin{aligned}8 & 8 \\ −6 & 1\end{aligned}+6\begin{aligned}8 & 8 \\ −6 & −12\end{aligned} \\ & =0(8+96)+3(8+48)+6(−96+48) \\ & =0+3⋅56+6⋅(−48) \\ & =168−288 \\ & =−120\end{aligned}
+
 
 
 $$
@@ -95,7 +105,9 @@ Which of the following statements are true regarding the matrix $A$ given below?
 $$
 
 
+
 \begin{aligned}1 & 2 & 3 \\ 1 & 0 & 1 \\ 3 & 4 & 7\end{aligned}
+
 
 
 $$
@@ -109,7 +121,9 @@ Using the formula, we take the alternating sum of the entries in the top row of 
 $$
 
 
+
 \begin{aligned}det(𝐴) & =\begin{aligned}1 & 2 & 3 \\ 1 & 0 & 1 \\ 3 & 4 & 7\end{aligned} \\ & =1\begin{aligned}0 & 1 \\ 4 & 7\end{aligned}−2\begin{aligned}1 & 1 \\ 3 & 7\end{aligned}+3\begin{aligned}1 & 0 \\ 3 & 4\end{aligned} \\ & =1(0−4)−2(7−3)+3(4−0) \\ & =−4−2⋅4+3⋅4 \\ & =−4−8+12 \\ & =0\end{aligned}
+
 
 
 $$
@@ -125,7 +139,9 @@ Suppose we are given the $3\times 3$ matrix
 $$
 
 
+
 \begin{aligned}1 & 2 & 3 \\ 𝑘 & −1 & 1 \\ 0 & 2 & 1\end{aligned}
+
 
 
 $$
@@ -139,7 +155,9 @@ So first, let's use the formula for the determinant on our matrix to get an expr
 $$
 
 
+
 \begin{aligned}\begin{aligned}1 & 2 & 3 \\ 𝑘 & −1 & 1 \\ 0 & 2 & 1\end{aligned} & =1\begin{aligned}−1 & 1 \\ 2 & 1\end{aligned}−2\begin{aligned}𝑘 & 1 \\ 0 & 1\end{aligned}+3\begin{aligned}𝑘 & −1 \\ 0 & 2\end{aligned} \\ & =(−1−2)−2(𝑘−0)+3(2𝑘−0) \\ & =−3−2𝑘+6𝑘 \\ & =4𝑘−3\end{aligned}
+
 
 
 $$
@@ -149,7 +167,9 @@ Now, since we are told that $\det(A) =0,$ let's equate the above expression to $
 $$
 
 
+
 \begin{aligned}\begin{aligned}1 & 2 & 3 \\ 𝑘 & −1 & 1 \\ 0 & 2 & 1\end{aligned} & =0 \\ 4𝑘−3 & =0 \\ 4𝑘 & =3 \\ 𝑘 & =\frac{3}{4}\end{aligned}
+
 
 
 $$
@@ -169,7 +189,9 @@ Let's use our formula to find an expression for the determinant in terms of $k\m
 $$
 
 
+
 \begin{aligned}\begin{aligned}3 & 1 & 2 \\ 𝑘 & 4 & 5 \\ 0 & 2 & 3\end{aligned} & =3\begin{aligned}4 & 5 \\ 2 & 3\end{aligned}−1\begin{aligned}𝑘 & 5 \\ 0 & 3\end{aligned}+2\begin{aligned}𝑘 & 4 \\ 0 & 2\end{aligned} \\ & =3(12−10)−1(3𝑘−0)+2(2𝑘−0) \\ & =3⋅2−1⋅3𝑘+2⋅2𝑘 \\ & =6−3𝑘+4𝑘 \\ & =𝑘+6\end{aligned}
+
 
 
 $$
@@ -179,7 +201,9 @@ Since the determinant of the matrix is $2,$ we have:
 $$
 
 
+
 \begin{aligned}𝑘+6 & =2 \\ 𝑘 & =−4\end{aligned}
+
 
 
 $$

@@ -29,7 +29,9 @@ To find the total amount of money in the account at the end of July, we have to 
 $$
 
 
+
 S_N = \dfrac N 2 (2a_1 + (N-1)d).
+
 
 
 $$
@@ -39,7 +41,9 @@ Substituting our values into the above, we get
 $$
 
 
+
 \begin{aligned}𝑆_{7} & =\frac{7}{2}(2(200)+(7−1)⋅10) \\ & =\frac{7}{2}(400+6⋅10) \\ & =\frac{7}{2}(460) \\ & =1\,610.\end{aligned}
+
 
 
 $$
@@ -67,7 +71,9 @@ To find the total number of students in the school, we have to calculate the sum
 $$
 
 
+
 S_N = \dfrac N 2 \big(2a_1 + (N-1) d \big).
+
 
 
 $$
@@ -77,7 +83,9 @@ Substituting our values into the above, we get
 $$
 
 
+
 \begin{aligned}𝑆_{6} & =\frac{6}{2}(2⋅240+(6−1)⋅(−30)) \\ & =3⋅(480+5⋅(−30)) \\ & =3⋅(480−150) \\ & =3⋅330 \\ & =990.\end{aligned}
+
 
 
 $$
@@ -105,7 +113,9 @@ The sum of an arithmetic series is given by the formula
 $$
 
 
+
 S_N = \dfrac N 2 \big(2a_1 + (N-1) d \big).
+
 
 
 $$
@@ -115,7 +125,9 @@ Substituting our values into the above and solving for $N,$ we get
 $$
 
 
+
 \begin{aligned}243 & =\frac{𝑁}{2}(2(3)+(𝑁−1)(6)) \\ 243 & =\frac{𝑁}{2}(6+6𝑁−6) \\ 243 & =\frac{𝑁}{2}⋅6𝑁 \\ 243 & =3𝑁^{2} \\ 81 & =𝑁^{2} \\ 𝑁 & =9.\end{aligned}
+
 
 
 $$
@@ -145,7 +157,9 @@ The sum of an arithmetic series is given by the formula
 $$
 
 
+
 S_N = \dfrac N 2 \big(2a_1 + (N-1) d \big).
+
 
 
 $$
@@ -155,7 +169,9 @@ Substituting our values into the above and solving for $N,$ we get
 $$
 
 
+
 \begin{aligned}144 & =\frac{𝑁}{2}(2⋅1+(𝑁−1)⋅2) \\ 144 & =\frac{𝑁}{2}(2+2𝑁−2) \\ 144 & =𝑁^{2} \\ 𝑁 & =12.\end{aligned}
+
 
 
 $$
@@ -169,7 +185,9 @@ Substituting our values into the formula for the $N$th term of an arithmetic seq
 $$
 
 
+
 \begin{aligned}𝑎_{𝑁} & =𝑎_{1}+(𝑁−1)𝑑 \\ 𝑎_{12} & =1+(12−1)⋅2 \\ & =1+11⋅2 \\ & =1+22 \\ & =23.\end{aligned}
+
 
 
 $$

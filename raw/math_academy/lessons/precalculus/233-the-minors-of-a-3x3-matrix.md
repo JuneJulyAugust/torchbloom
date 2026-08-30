@@ -23,7 +23,9 @@ For instance, suppose we want to find the minor of $a_{{\color{red}1}{\color{blu
 $$
 
 
+
 \begin{aligned}3 & −1 & 6 \\ 5 & 2 & 7 \\ 8 & 9 & 4\end{aligned}
+
 
 
 $$
@@ -33,7 +35,9 @@ To find the minor, we exclude all entries in row $1$ and all entries in column $
 $$
 
 
+
 \begin{aligned}3 & −1 & 6 \\ 5 & 2 & 7 \\ 8 & 9 & 4\end{aligned}
+
 
 
 $$
@@ -43,7 +47,9 @@ This leaves us with the $2\times 2$ determinant given by
 $$
 
 
+
 \begin{aligned}5 & 7 \\ 8 & 4\end{aligned}
+
 
 
 $$
@@ -55,7 +61,9 @@ Finally, we compute the above determinant:
 $$
 
 
+
 \begin{aligned}\begin{aligned}5 & 7 \\ 8 & 4\end{aligned} & =5⋅4−7⋅8 \\ & =20−56 \\ & =−36\end{aligned}
+
 
 
 $$
@@ -69,7 +77,9 @@ Calculate the minor of the entry $b_{21}$ in the matrix
 $$
 
 
+
 \begin{aligned}10 & 1 & 5 \\ 3 & 6 & 8 \\ 4 & 7 & 2\end{aligned}
+
 
 
 $$
@@ -81,7 +91,9 @@ The minor of $b_{21} = 3$ (second row, first column) is the determinant of the r
 $$
 
 
+
 \begin{aligned}∗ & 1 & 5 \\ 3 & ∗ & ∗ \\ ∗ & 7 & 2\end{aligned}
+
 
 
 $$
@@ -91,7 +103,9 @@ So, the minor of $b_{21}=3$ is
 $$
 
 
+
 \begin{aligned}det[\begin{aligned}1 & 5 \\ 7 & 2\end{aligned}] & =\begin{aligned}1 & 5 \\ 7 & 2\end{aligned} \\ & =1⋅2−5⋅7 \\ & =2−35 \\ & =−33.\end{aligned}
+
 
 
 $$
@@ -105,7 +119,9 @@ What is the minor of $c_{22}$ in the matrix
 $$
 
 
+
 \begin{aligned}7𝑥 & 0 & −3𝑦 \\ 1 & 𝑥+2𝑦 & 4 \\ −𝑦 & 0 & 5\end{aligned}
+
 
 
 $$
@@ -117,7 +133,9 @@ First, we remove the second row and second column:
 $$
 
 
+
 \begin{aligned}7𝑥 & ∗ & −3𝑦 \\ ∗ & 𝑥+2𝑦 & ∗ \\ −𝑦 & ∗ & 5\end{aligned}
+
 
 
 $$
@@ -127,7 +145,9 @@ Next, we calculate the determinant:
 $$
 
 
+
 \begin{aligned}det[\begin{aligned}7𝑥 & −3𝑦 \\ −𝑦 & 5\end{aligned}] & =\begin{aligned}7𝑥 & −3𝑦 \\ −𝑦 & 5\end{aligned} \\ & =7𝑥⋅5−(−3𝑦)⋅(−𝑦) \\ & =35𝑥−3𝑦^{2}\end{aligned}
+
 
 
 $$
@@ -141,7 +161,9 @@ Given that the minor of $a_{23}$ is $5,$ find all the possible values of $k$ in 
 $$
 
 
+
 \begin{aligned}𝑘 & 3 & −1 \\ −5 & 2 & 7 \\ −1 & 2𝑘 & −6\end{aligned}
+
 
 
 $$
@@ -153,7 +175,9 @@ First, we remove the second row and third column:
 $$
 
 
+
 \begin{aligned}𝑘 & 3 & ∗ \\ ∗ & ∗ & 7 \\ −1 & 2𝑘 & ∗\end{aligned}
+
 
 
 $$
@@ -163,7 +187,9 @@ The minor of $a_{23}$ is
 $$
 
 
+
 \begin{aligned}det[\begin{aligned}𝑘 & 3 \\ −1 & 2𝑘\end{aligned}] & =\begin{aligned}𝑘 & 3 \\ −1 & 2𝑘\end{aligned} \\ & =𝑘⋅2𝑘−3⋅(−1) \\ & =2𝑘^{2}+3.\end{aligned}
+
 
 
 $$
@@ -173,7 +199,9 @@ We're told that the minor of $a_{23}$ is $5,$ so we must have:
 $$
 
 
+
 \begin{aligned}2𝑘^{2}+3 & =5 \\ 2𝑘^{2} & =2 \\ 𝑘^{2} & =1 \\ 𝑘 & =±1\end{aligned}
+
 
 
 $$

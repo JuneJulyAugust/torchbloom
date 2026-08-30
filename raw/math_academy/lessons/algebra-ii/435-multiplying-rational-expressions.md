@@ -19,7 +19,9 @@ For example, to multiply the rational expressions $\dfrac{3}{x}$ and $\dfrac{y}{
 $$
 
 
+
 \dfrac{3}{x} \cdot \dfrac{y}{2} = \dfrac{3 \cdot y}{x \cdot 2} = \dfrac{3y}{2x}
+
 
 
 $$
@@ -37,7 +39,9 @@ We multiply the numerators and the denominators as follows:
 $$
 
 
+
 \begin{aligned} \dfrac 2 x \cdot \dfrac 3 {y^2} &=\dfrac {2 \cdot 3} {x \cdot y^2} &=\dfrac {6} {xy^2} \end{aligned}
+
 
 
 $$
@@ -55,7 +59,9 @@ We multiply the numerators and the denominators as follows:
 $$
 
 
+
 \begin{aligned}𝑥⋅𝑦 & =\frac{6𝑎}{𝑏^{2}}⋅\frac{3𝑏}{2𝑎} \\ & =\frac{6𝑎⋅3𝑏}{𝑏^{2}⋅2𝑎} \\ & =\frac{18𝑎𝑏}{2𝑎𝑏^{2}} \\ & =\frac{9}{𝑏}.\end{aligned}
+
 
 
 $$
@@ -75,7 +81,9 @@ First, we cancel any terms that appear in both a numerator and a denominator. Th
 $$
 
 
+
 \begin{aligned}\frac{(𝑛+1)(𝑛+3)}{4𝑛^{2}}⋅\frac{8𝑛}{(𝑛+3)(𝑛−2)} & =\frac{(𝑛+1)(𝑛+3)}{4𝑛⋅𝑛}⋅\frac{2⋅4𝑛}{(𝑛+3)(𝑛−2)} \\ & =\frac{𝑛+1}{𝑛}⋅\frac{2}{𝑛−2} \\ & =\frac{2𝑛+2}{𝑛^{2}−2𝑛}\end{aligned}
+
 
 
 $$
@@ -93,7 +101,9 @@ First, we factor all of the expressions and cancel any terms that appear in both
 $$
 
 
+
 \begin{aligned} \dfrac {3p - 12}{p^2 - 9} \cdot \dfrac {p + 3} {p - 4} &=\dfrac {3(p - 4)} {(p + 3)(p - 3)} \cdot \dfrac {p + 3} {p - 4} \\\[5pt] &=\dfrac {3(p - 4)} {(p + 3)(p - 3)} \cdot \dfrac {p + 3} {p - 4} \\\[5pt] &=\dfrac {3}{p - 3} \end{aligned}
+
 
 
 $$

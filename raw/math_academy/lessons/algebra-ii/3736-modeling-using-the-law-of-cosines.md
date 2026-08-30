@@ -37,7 +37,9 @@ By applying the law of cosines, we obtain
 $$
 
 
+
 \begin{aligned}𝑑^{2} & =𝑏^{2}+𝑐^{2}−2𝑏𝑐cos⁡𝑃 \\ & =2^{2}+5^{2}−2(2)(5)cos⁡31^{∘} \\ & =29−20cos⁡31^{∘} \\ & ≈11.857.\end{aligned}
+
 
 
 $$
@@ -49,7 +51,9 @@ So, the distance between the ships after ten minutes is
 $$
 
 
+
 d = \sqrt{11.857} \approx 3.4 \,\textrm{km},
+
 
 
 $$
@@ -73,7 +77,9 @@ According to the law of cosines, we get
 $$
 
 
+
 \begin{aligned}𝑑^{2} & =𝑚^{2}+𝑛^{2}−2𝑚𝑛cos⁡𝐵 \\ & =7^{2}+8^{2}−2(7)(8)cos⁡75^{∘} \\ & =113−112cos⁡75^{∘} \\ & ≈84.012.\end{aligned}
+
 
 
 $$
@@ -83,7 +89,9 @@ So, the distance between the girls is
 $$
 
 
+
 d = \sqrt{84.012}\approx 9.17\,\textrm{ft}.
+
 
 
 $$
@@ -103,7 +111,9 @@ If we denote the center of the field by $C,$ Mark's position by $M,$ and Tom's p
 $$
 
 
+
 \begin{aligned}𝑐=4\sqrt{√21},\,𝑚=20,\,𝑡=16,\end{aligned}
+
 
 
 $$
@@ -113,7 +123,9 @@ and we need to find $m\angle C.$ We can do it by applying the law of cosines as 
 $$
 
 
+
 \begin{aligned}𝑐^{2} & =𝑚^{2}+𝑡^{2}−2𝑚𝑡cos⁡𝐶 \\ (4\sqrt{√21})^{2} & =20^{2}+16^{2}−2(20)(16)cos⁡𝐶 \\ 336 & =400+256−640cos⁡𝐶 \\ 640cos⁡𝐶 & =320 \\ cos⁡𝐶 & =\frac{1}{2}.\end{aligned}
+
 
 
 $$
@@ -123,7 +135,9 @@ Therefore,
 $$
 
 
+
 m\angle C = \arccos \left( \dfrac{1}{2} \right) = 60^\circ,
+
 
 
 $$

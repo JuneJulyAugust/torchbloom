@@ -22,7 +22,9 @@ Notice that since $A$ and $B$ are two mutually exclusive events, their intersect
 $$
 
 
+
 P(A\cap B)=0
+
 
 
 $$
@@ -34,7 +36,9 @@ Therefore, by the addition law, the probability that either one of the events wi
 $$
 
 
+
 \begin{aligned} P(A\cup B) & = P(A)+P(B) - P(A \cap B)\\&= \dfrac{1}{6} + \dfrac{1}{6} - 0\\&= \dfrac{1}{3}.\end{aligned}
+
 
 
 $$
@@ -44,7 +48,9 @@ $$
 $$
 
 
+
 P(A \cup B) = P(A) + P(B).
+
 
 
 $$
@@ -64,7 +70,9 @@ We can calculate $P(A\cap B)$ using the addition law:
 $$
 
 
+
 \begin{aligned}𝑃(𝐴∪𝐵) & =𝑃(𝐴)+𝑃(𝐵)−𝑃(𝐴∩𝐵) \\ \frac{7}{12} & =\frac{1}{3}+\frac{1}{4}−𝑃(𝐴∩𝐵) \\ 𝑃(𝐴∩𝐵) & =\frac{1}{3}+\frac{1}{4}−\frac{7}{12} \\ & =\frac{4+3−7}{12} \\ & =0\,✓\end{aligned}
+
 
 
 $$
@@ -86,7 +94,9 @@ Therefore, by the addition law, we have that
 $$
 
 
+
 \begin{aligned}𝑃(𝐴∪𝐵) & =𝑃(𝐴)+𝑃(𝐵) \\ 𝑃(𝐵) & =𝑃(𝐴∪𝐵)−𝑃(𝐴) \\ & =\frac{4}{9}−\frac{1}{3} \\ & =\frac{4−3}{9} \\ & =\frac{1}{9}.\end{aligned}
+
 
 
 $$

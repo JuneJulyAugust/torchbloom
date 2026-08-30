@@ -23,7 +23,9 @@ Therefore, the coordinates of *any* point on the unit circle must satisfy the Py
 $$
 
 
+
 x^2+y^2=1.
+
 
 
 $$
@@ -35,7 +37,9 @@ For example, suppose that the $x$-coordinate of the point $A$ in the fourth quad
 $$
 
 
+
 \begin{aligned} x^2+y^2&=1\\\[5pt] \left(\dfrac{3}{7}\right)^2+y^2&=1\\\[5pt] \dfrac{9}{49}+y^2&=1\\\[5pt] y^2&= 1-\dfrac{9}{49}\\\[5pt] y^2&= \dfrac{40}{49}\\\[5pt] y&= \sqrt{\dfrac{40}{49}}\\\[5pt] y &= \pm \dfrac{2\sqrt{10}}{7} \end{aligned}
+
 
 
 $$
@@ -55,7 +59,9 @@ Since the point $P$ lies on the unit circle, it must satisfy the Pythagorean the
 $$
 
 
+
 x^2+y^2=1 .
+
 
 
 $$
@@ -65,7 +71,9 @@ Substituting $y=\dfrac{\sqrt 2}{2}$ into the above and solving for $x,$ we get
 $$
 
 
+
 \begin{aligned}𝑥^{2}+𝑦^{2} & =1 \\ 𝑥^{2}+(\frac{\sqrt{√2}}{2})^{2} & =1 \\ 𝑥^{2}+\frac{1}{2} & =1 \\ 𝑥^{2} & =1−\frac{1}{2} \\ 𝑥^{2} & =\frac{1}{2} \\ 𝑥 & =±\sqrt{√\frac{1}{2}} \\ 𝑥 & =±\frac{\sqrt{√2}}{2}.\end{aligned}
+
 
 
 $$
@@ -79,7 +87,9 @@ By the Pythagorean theorem, we know that the equation
 $$
 
 
+
 x^2+y^2 = 1
+
 
 
 $$
@@ -91,7 +101,9 @@ Now, we also know that for any point on the unit circle, the coordinates $(x,y)$
 $$
 
 
+
 x = \cos\theta, \qquad y = \sin\theta.
+
 
 
 $$
@@ -101,7 +113,9 @@ Substituting the above into the Pythagorean Identity, we get
 $$
 
 
+
 \begin{aligned}𝑥^{2}+𝑦^{2} & =1 \\ (cos⁡𝜃)^{2}+(sin⁡𝜃)^{2} & =1 \\ cos^{2}⁡𝜃+sin^{2}⁡𝜃 & =1.\end{aligned}
+
 
 
 $$
@@ -123,7 +137,9 @@ We can use the Pythagorean identity to find $\cos\theta\mathbin{:}$
 $$
 
 
+
 \begin{aligned}sin^{2}⁡𝜃+cos^{2}⁡𝜃 & =1 \\ cos^{2}⁡𝜃 & =1−sin^{2}⁡𝜃 \\ cos⁡𝜃 & =±\sqrt{√1−sin^{2}⁡𝜃}\end{aligned}
+
 
 
 $$
@@ -133,7 +149,9 @@ Substituting $\sin\theta = -\dfrac{3}{4}$ gives
 $$
 
 
+
 \begin{aligned}cos⁡𝜃 & =±\sqrt{√1−(−\frac{3}{4})^{2}} \\ & =±\sqrt{√1−\frac{9}{16}} \\ & =±\sqrt{√\frac{7}{16}} \\ & =±\frac{\sqrt{√7}}{4}.\end{aligned}
+
 
 
 $$
@@ -155,7 +173,9 @@ We can use the Pythagorean identity to find $\cos\theta\mathbin{:}$
 $$
 
 
+
 \begin{aligned}sin^{2}⁡𝜃+cos^{2}⁡𝜃 & =1 \\ cos^{2}⁡𝜃 & =1−sin^{2}⁡𝜃 \\ cos⁡𝜃 & =±\sqrt{√1−sin^{2}⁡𝜃}\end{aligned}
+
 
 
 $$
@@ -165,7 +185,9 @@ Substituting $\sin\theta = -\dfrac{\sqrt 3}{2}$ gives
 $$
 
 
+
 \begin{aligned}cos⁡𝜃 & =±\sqrt{1−(−\frac{\sqrt{√3}}{2})^{2}} \\ & =±\sqrt{√1−\frac{3}{4}} \\ & =±\sqrt{√\frac{1}{4}} \\ & =±\frac{1}{2}.\end{aligned}
+
 
 
 $$
@@ -177,7 +199,9 @@ Finally, knowing that $\tan\theta = \dfrac{\sin\theta}{\cos\theta},$ we have
 $$
 
 
+
 \tan\theta = \dfrac{\left(-\dfrac{\sqrt 3}{2}\right)}{\left(\dfrac{1}{2}\right)} =-\sqrt 3.
+
 
 
 $$
@@ -197,7 +221,9 @@ We're given that $x=-\dfrac{\sqrt 3}{2}$ at the point $P.$ Therefore, we have
 $$
 
 
+
 \cos\theta = -\dfrac{\sqrt 3}{2}.
+
 
 
 $$
@@ -207,7 +233,9 @@ We can use the Pythagorean identity to find $\sin\theta\mathbin{:}$
 $$
 
 
+
 \begin{aligned}sin^{2}⁡𝜃+cos^{2}⁡𝜃 & =1 \\ sin^{2}⁡𝜃 & =1−cos^{2}⁡𝜃 \\ sin⁡𝜃 & =±\sqrt{√1−cos^{2}⁡𝜃}\end{aligned}
+
 
 
 $$
@@ -217,7 +245,9 @@ Substituting $\cos\theta = -\dfrac{\sqrt 3}{2}$ gives
 $$
 
 
+
 \begin{aligned}sin⁡𝜃 & =±\sqrt{1−(−\frac{\sqrt{√3}}{2})^{2}} \\ & =±\sqrt{√1−\frac{3}{4}} \\ & =±\sqrt{√\frac{1}{4}} \\ & =±\frac{1}{2}.\end{aligned}
+
 
 
 $$
@@ -229,7 +259,9 @@ Finally, knowing that $\csc\theta = \dfrac{1}{\sin\theta},$ we have
 $$
 
 
+
 \csc\theta = \dfrac{1}{\left(-\dfrac{1}{2}\right)} =-2.
+
 
 
 $$

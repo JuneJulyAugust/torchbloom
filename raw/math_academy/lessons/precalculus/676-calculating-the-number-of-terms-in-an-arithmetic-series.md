@@ -19,7 +19,9 @@ Suppose that we have an arithmetic sequence
 $$
 
 
+
 3, \: 9, \:15, \: 21, \: \ldots
+
 
 
 $$
@@ -29,7 +31,9 @@ with the common difference $d=6,$ and we're told that the sum to $N$ its terms i
 $$
 
 
+
 𝑁
+
 
 
 $$
@@ -39,7 +43,9 @@ To find the value of $N,$ the number of terms in the sequence we are summing, we
 $$
 
 
+
 S_N = \dfrac{N}{2} \big(2a_1 + (N-1) d\big).
+
 
 
 $$
@@ -49,7 +55,9 @@ So, we substitute $a_1=3,$ $d=6,$ and $S_N=192$ into the above and solve for $N,
 $$
 
 
+
 \begin{aligned}𝑆_{𝑁} & =\frac{𝑁}{2}(2𝑎_{1}+(𝑁−1)𝑑) \\ 192 & =\frac{𝑁}{2}(2⋅3+(𝑁−1)⋅6) \\ 192 & =\frac{𝑁}{2}(6+6𝑁−6) \\ 192 & =\frac{𝑁}{2}(6𝑁) \\ 192 & =3𝑁^{2} \\ 64 & =𝑁^{2} \\ 𝑁 & =±8\end{aligned}
+
 
 
 $$
@@ -69,7 +77,9 @@ To find the number of terms, we can use the following formula:
 $$
 
 
+
 S_N = \dfrac N 2 \big(2a_1 + (N-1) d \big)
+
 
 
 $$
@@ -79,7 +89,9 @@ We substitute $a_1=2,$ $d=4,$ and $S_N=200$ into the above and solve for $N,$ as
 $$
 
 
+
 \begin{aligned}𝑆_{𝑁} & =\frac{𝑁}{2}(2𝑎_{1}+(𝑁−1)𝑑) \\ 200 & =\frac{𝑁}{2}(2⋅2+(𝑁−1)⋅4) \\ 200 & =\frac{𝑁}{2}(4+4𝑁−4) \\ 200 & =\frac{𝑁}{2}(4𝑁) \\ 200 & =2𝑁^{2} \\ 100 & =𝑁^{2} \\ 𝑁 & =10\end{aligned}
+
 
 
 $$
@@ -95,7 +107,9 @@ Calculate the number of terms in the following arithmetic series:
 $$
 
 
+
 5+7+9+\cdots = 140
+
 
 
 $$
@@ -107,7 +121,9 @@ To solve this problem, we use the formula for the sum of an arithmetic series:
 $$
 
 
+
 S_{N} = \dfrac{N}{2} \big( 2a_1+(N-1)d \big)
+
 
 
 $$
@@ -119,7 +135,9 @@ The common difference $d$ can be found as follows:
 $$
 
 
+
 \begin{aligned}𝑑 & =𝑎_{2}−𝑎_{1} \\ & =7−5 \\ & =2\end{aligned}
+
 
 
 $$
@@ -129,7 +147,9 @@ Substituting these values into the formula for the sum of an arithmetic series, 
 $$
 
 
+
 \begin{aligned}𝑆_{𝑁} & =\frac{𝑁}{2}(2𝑎_{1}+(𝑁−1)𝑑) \\ 140 & =\frac{𝑁}{2}(2(5)+(𝑁−1)(2)) \\ 140 & =\frac{𝑁}{2}(10+2𝑁−2) \\ 140 & =\frac{𝑁}{2}(2𝑁+8) \\ 140 & =𝑁^{2}+4𝑁 \\ 0 & =𝑁^{2}+4𝑁−140.\end{aligned}
+
 
 
 $$
@@ -139,7 +159,9 @@ For the equation above, the quadratic formula gives
 $$
 
 
+
 \begin{aligned}𝑁 & =\frac{−4±\sqrt{√4^{2}−4⋅1⋅(−140)}}{2⋅1} \\ & =\frac{−4±\sqrt{√576}}{2} \\ & =\frac{−4±24}{2}.\end{aligned}
+
 
 
 $$
@@ -161,7 +183,9 @@ To solve this problem, we use the formula for the sum of an arithmetic series:
 $$
 
 
+
 S_N = \dfrac N 2 \big( 2a_1 + (N-1) d \big)
+
 
 
 $$
@@ -171,7 +195,9 @@ Since we know two terms of the arithmetic series, we can find its common differe
 $$
 
 
+
 \begin{aligned}𝑑 & =\frac{𝑎_{7}−𝑎_{5}}{7−5} \\ & =\frac{19−14}{7−5} \\ & =\frac{5}{2} \\ & =2.5\end{aligned}
+
 
 
 $$
@@ -181,7 +207,9 @@ We know that $a_{5}=14.$ We can compute $a_1$ using the formula for the $n$th te
 $$
 
 
+
 \begin{aligned}𝑎_{𝑛} & =𝑎_{1}+(𝑛−1)𝑑 \\ 𝑎_{5} & =𝑎_{1}+(5−1)⋅2.5 \\ 14 & =𝑎_{1}+4⋅2.5 \\ 14 & =𝑎_{1}+10 \\ 𝑎_{1} & =4\end{aligned}
+
 
 
 $$
@@ -191,7 +219,9 @@ Now, substituting $a_1=4,$ $d=2.5,$ and $S_N=850$ into the formula for the sum o
 $$
 
 
+
 \begin{aligned}𝑆_{𝑁} & =\frac{𝑁}{2}(2𝑎_{1}+(𝑁−1)𝑑) \\ 850 & =\frac{𝑁}{2}(2(4)+(𝑁−1)(2.5)) \\ 850 & =\frac{𝑁}{2}(8+2.5𝑁−2.5) \\ 850⋅2 & =𝑁(5.5+2.5𝑁) \\ 1700 & =2.5𝑁^{2}+5.5𝑁 \\ 2.5𝑁^{2}+5.5𝑁−1\,700 & =0 \\ 5𝑁^{2}+11𝑁−3\,400 & =0.\end{aligned}
+
 
 
 $$
@@ -201,7 +231,9 @@ For the equation above, the quadratic formula gives
 $$
 
 
+
 \begin{aligned}𝑁 & =\frac{−(11)±\sqrt{√(−11)^{2}−4⋅5⋅(−3400)}}{2⋅5} \\ & =\frac{−11±\sqrt{√68\,121}}{10} \\ & =\frac{−11±261}{10}.\end{aligned}
+
 
 
 $$

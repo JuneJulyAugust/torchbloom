@@ -20,7 +20,9 @@ We start by considering a general transformation of the form
 $$
 
 
+
 y = af\left(b(x+c)\right)+d
+
 
 
 $$
@@ -92,7 +94,9 @@ First, let's factor out the coefficient next to the $x$ inside the parentheses:
 $$
 
 
+
 \begin{aligned}𝑦 & =𝑓(2𝑥+2)=𝑓(2(𝑥+1))\end{aligned}
+
 
 
 $$

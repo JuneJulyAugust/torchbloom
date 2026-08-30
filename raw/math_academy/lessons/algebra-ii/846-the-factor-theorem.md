@@ -20,7 +20,9 @@ The factor theorem states that if $p(x)$ is a polynomial and $x={\color{blue}{r}
 $$
 
 
+
 p({\color{blue}{r}})=0
+
 
 
 $$
@@ -34,7 +36,9 @@ For example, consider the polynomial $p(x),$ defined as
 $$
 
 
+
 p(x)=x^3-2x^2-x+2.
+
 
 
 $$
@@ -44,7 +48,9 @@ Note that $x = {\color{blue}2}$ is a root of this polynomial:
 $$
 
 
+
 \begin{aligned}𝑝(2) & =2^{3}−2(2)^{2}−2+2 \\ & =8−8−2+2 \\ & =0\end{aligned}
+
 
 
 $$
@@ -54,7 +60,9 @@ Therefore, according to the factor theorem, $(x-{\color{blue}2})$ is a *factor* 
 $$
 
 
+
 \begin{aligned}𝑥^{3}−2𝑥^{2}−𝑥+2 & =(𝑥−2)(𝑥^{2}−1)\end{aligned}
+
 
 
 $$
@@ -68,7 +76,9 @@ So, we know that the polynomial $p(x) = x^3-2x^2-x+2$ can be factored as follows
 $$
 
 
+
 \begin{aligned}𝑥^{3}−2𝑥^{2}−𝑥+2 & =(𝑥−2)(𝑥^{2}−1)\end{aligned}
+
 
 
 $$
@@ -78,7 +88,9 @@ By dividing both sides by $(x-2),$ we can rewrite this equation as
 $$
 
 
+
 \dfrac{x^3-2x^2-x+2}{x-2} = x^2-1.
+
 
 
 $$
@@ -102,7 +114,9 @@ Here, we are considering $(x+3).$ The root of this expression can be found by se
 $$
 
 
+
 \begin{aligned}𝑥+3 & =0 \\ 𝑥 & =−3\end{aligned}
+
 
 
 $$
@@ -114,7 +128,9 @@ So, we just need to check if $x=-3$ is a root of $p(x).$ In other words, we need
 $$
 
 
+
 \begin{aligned}𝑝(−3) & =(−3)^{3}+3(−3)^{2}−3(−3)−9 \\ & =−27+27+9−9 \\ & =0\end{aligned}
+
 
 
 $$
@@ -130,7 +146,9 @@ For example, suppose that $(2x-3)$ is a factor of a polynomial $p(x).$ Then, we 
 $$
 
 
+
 \begin{aligned}2𝑥−3 & =0 \\ 2𝑥 & =3 \\ 𝑥 & =\frac{3}{2}\end{aligned}
+
 
 
 $$
@@ -140,7 +158,9 @@ Therefore, by the factor theorem, it follows that
 $$
 
 
+
 p\left(\dfrac32\right) = 0.
+
 
 
 $$
@@ -166,7 +186,9 @@ Here, we are considering $(4-3x).$ The root of this expression can be found by s
 $$
 
 
+
 \begin{aligned}4−3𝑥 & =0 \\ 4 & =3𝑥 \\ 𝑥 & =\frac{4}{3}\end{aligned}
+
 
 
 $$
@@ -178,7 +200,9 @@ So, we just need to check if $x=\dfrac{4}{3}$ is a root of $p(x).$ In other word
 $$
 
 
+
 \begin{aligned}𝑝(\frac{4}{3}) & =−6(\frac{4}{3})^{2}+11(\frac{4}{3})−4 \\ & =−6⋅\frac{16}{9}+\frac{44}{3}−4 \\ & =\frac{−32+44−12}{3} \\ & =0\end{aligned}
+
 
 
 $$

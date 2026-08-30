@@ -18,7 +18,9 @@ For example, let's consider the function
 $$
 
 
+
 y = \tan(Bx) + D,
+
 
 
 $$
@@ -34,7 +36,9 @@ Firstly, recall that we can calculate the period $T$ of a tangent or cotangent f
 $$
 
 
+
 T = \dfrac{\pi}{6} - \left(-\dfrac{\pi}{6}\right) = \dfrac{\pi}{3}.
+
 
 
 $$
@@ -44,7 +48,9 @@ The formula for the period $T$ of the function $y = A\tan(Bx + C) + D$ is given 
 $$
 
 
+
 T = \dfrac{\pi}{B}.
+
 
 
 $$
@@ -54,7 +60,9 @@ By applying this formula, we can calculate the value of $B\mathbin{:}$
 $$
 
 
+
 \dfrac{\pi}{3} = \dfrac{\pi}{B} \quad\Longrightarrow \quad B = \dfrac{\pi}{\left(\dfrac{\pi}{3}\right)} = 3
+
 
 
 $$
@@ -66,7 +74,9 @@ Therefore, the equation of our curve is
 $$
 
 
+
 y = \tan(3x) - 1.
+
 
 
 $$
@@ -86,7 +96,9 @@ The period $T$ of the function is
 $$
 
 
+
 T = \dfrac{\pi}{5} - \left(-\dfrac{\pi}{5}\right) = \dfrac{2\pi}{5}.
+
 
 
 $$
@@ -96,7 +108,9 @@ The formula for the period $T$ of the function $y = A\tan(Bx + C) + D$ is given 
 $$
 
 
+
 T = \dfrac{\pi}{B}.
+
 
 
 $$
@@ -106,7 +120,9 @@ Applying the formula of the period, we get
 $$
 
 
+
 \dfrac{2\pi}{5} = \dfrac{\pi}{B} \quad\Longrightarrow \quad B = \dfrac{\pi}{\left(\dfrac{2\pi}{5}\right)} = \dfrac{5}{2}.
+
 
 
 $$
@@ -118,7 +134,9 @@ Therefore,
 $$
 
 
+
 B + D =\dfrac{5}{2} +1 = \dfrac{7}{2}.
+
 
 
 $$
@@ -128,7 +146,9 @@ Finally, the equation of the curve is
 $$
 
 
+
 y = \tan\left(\frac{5x}{2} \right) +1.
+
 
 
 $$
@@ -150,7 +170,9 @@ The formula for the period $T$ of the function $y=A\cot(Bx + C) + D$ is given by
 $$
 
 
+
 T = \dfrac{\pi}{B}.
+
 
 
 $$
@@ -160,7 +182,9 @@ Applying the formula of the period, we get
 $$
 
 
+
 \dfrac \pi 2 = \dfrac{\pi}{B}\quad\Longrightarrow\quad B = \dfrac{\pi}{\left(\dfrac \pi 2\right)} = 2.
+
 
 
 $$
@@ -172,7 +196,9 @@ So, the final equation of the curve is
 $$
 
 
+
 y=\cot\left(2x\right)-1.
+
 
 
 $$

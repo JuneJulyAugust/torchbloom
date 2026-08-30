@@ -18,7 +18,9 @@ For example,
 $$
 
 
+
 \begin{aligned} \dfrac {x + 2} {3} &= \\\dfrac x 3 + \dfrac 2 3 \end{aligned}
+
 
 
 $$
@@ -28,7 +30,9 @@ and
 $$
 
 
+
 \begin{aligned} \dfrac {3a - 4b + 1} {5} &= \\\dfrac {3a} 5 - \dfrac {4b} 5 + \dfrac 1 5. \end{aligned}
+
 
 
 $$
@@ -38,7 +42,9 @@ Often, we're able to simplify the fractions in the individual terms, as follows:
 $$
 
 
+
 \begin{aligned} \dfrac {10x + 9} {2} &= \\\dfrac {10x} {2} + \dfrac 9 2 &= \\\dfrac {10} {2} \cdot x + \dfrac 9 2 &= \\5 \cdot x + \dfrac 9 2 &= \\5x + \dfrac 9 2 \end{aligned}
+
 
 
 $$
@@ -56,7 +62,9 @@ Splitting the fraction into separate terms and then simplifying the fractions in
 $$
 
 
+
 \begin{aligned} \dfrac{6y − 1}{3} &= \\\dfrac{6y}{3} - \dfrac 1 3 &= \\\dfrac{6}{3} \cdot y - \dfrac 1 3 &= \\2 \cdot y - \dfrac 1 3 &= \\2y - \dfrac 1 3 &. \end{aligned}
+
 
 
 $$
@@ -66,7 +74,9 @@ Writing the above in the form $ay+b,$ we get
 $$
 
 
+
 \begin{aligned}\underset{𝑎}{\underset{}{(2)}}𝑦+\underset{𝑏}{\underset{}{(−\frac{1}{3})}}.\end{aligned}
+
 
 
 $$
@@ -86,7 +96,9 @@ Splitting the fraction into separate terms and then simplifying the fractions in
 $$
 
 
+
 \begin{aligned} \dfrac{1 − 2a + 16b}{4} &= \\\dfrac 1 4 − \dfrac {2a} {4} + \dfrac {16b}{4} &= \\\dfrac 1 4 − \dfrac {2} {4} \cdot a + \dfrac {16}{4} \cdot b &= \\\dfrac 1 4 − \dfrac {1} {2} \cdot a + 4 \cdot b &= \\\dfrac 1 4 − \dfrac {a} {2} + 4b &= \\\dfrac{1}{4} - \dfrac{1}{2}a + 4b &. \end{aligned}
+
 
 
 $$
@@ -96,7 +108,9 @@ Writing the above in the form $p+qa+rb,$ we get
 $$
 
 
+
 \begin{aligned}\underset{𝑝}{\underset{}{(\frac{1}{4})}}+\underset{𝑞}{\underset{}{(−\frac{1}{2})}}𝑎+\underset{𝑟}{\underset{}{(4)}}𝑏.\end{aligned}
+
 
 
 $$

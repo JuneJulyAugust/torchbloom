@@ -16,7 +16,9 @@ We can combine vertical reflections, stretches, and shifts to get new transforme
 $$
 
 
+
 y = -2 \cos x - 1.
+
 
 
 $$
@@ -56,7 +58,9 @@ From the graph, we see that the maximum value is $y_{\textrm{max}} = 4$ and the 
 $$
 
 
+
 A = \dfrac{y_{\textrm{max}} - y_{\textrm{min}}}{2} = \dfrac{4-(-2)}{2} = 3.
+
 
 
 $$
@@ -90,7 +94,9 @@ From the graph, we see that the maximum value is $y_{\textrm{max}} = 4$ and the 
 $$
 
 
+
 A = \dfrac{y_{\textrm{max}} - y_{\textrm{min}}}{2} = \dfrac{4-0}{2} = 2 .
+
 
 
 $$

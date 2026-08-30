@@ -18,7 +18,9 @@ As an example, consider the matrix $A$ below:
 $$
 
 
+
 \begin{aligned}2 & 1 & 3 \\ 4 & −1 & 2 \\ 1 & −4 & 6\end{aligned}
+
 
 
 $$
@@ -30,7 +32,9 @@ The number of rows and columns in a matrix does not need to be the same. For exa
 $$
 
 
+
 \begin{aligned}−1 & 13 & 4 & 2 \\ 0 & −1 & 3 & 0 \\ 3 & 1 & 2 & −5\end{aligned}
+
 
 
 $$
@@ -46,7 +50,9 @@ For example, the matrix
 $$
 
 
+
 [\begin{aligned}3 & −1 \\ 2 & 5\end{aligned}]
+
 
 
 $$
@@ -64,7 +70,9 @@ What are the dimensions of the matrix ${A},$ where
 $$
 
 
+
 \begin{aligned}4 & 5 & 1 \\ −2 & 0 & 6 \\ 3 & 2 & −5 \\ 5 & 1 & 7\end{aligned}
+
 
 
 $$
@@ -80,7 +88,9 @@ Some matrices have only one column, for instance
 $$
 
 
+
 [\begin{aligned}−1 \\ 13\end{aligned}]
+
 
 
 $$
@@ -92,7 +102,9 @@ Other matrices have only one row, for instance
 $$
 
 
+
 [\begin{aligned}−1 & 0\end{aligned}]
+
 
 
 $$
@@ -104,7 +116,9 @@ Here, $D$ is a $1\times 2$ matrix, $E$ is a $1\times 3$ matrix, and $F$ is a $1\
 $$
 
 
+
 [\begin{aligned}\,5\,\end{aligned}]
+
 
 
 $$
@@ -118,7 +132,9 @@ What are the dimensions of the matrix ${D},$ where
 $$
 
 
+
 [\begin{aligned}5 & 1 & 0 & 5\end{aligned}]
+
 
 
 $$
@@ -136,7 +152,9 @@ Which of the following is a $3 \times 2$ matrix?
 $$
 
 
+
 [\begin{aligned}1 & 0 & −5 \\ 0 & 1.1 & \sqrt{√2}\end{aligned}]
+
 
 
 $$
@@ -182,7 +200,9 @@ Finally, keeping only the essential information, we obtain the following matrix:
 $$
 
 
+
 \begin{aligned}0 & 1 & 1 \\ 0 & 1 & 2 \\ 1 & 0 & 0\end{aligned}
+
 
 
 $$
@@ -212,7 +232,9 @@ Therefore,
 $$
 
 
+
 a+b+c = 1+0+1 = 2.
+
 
 
 $$

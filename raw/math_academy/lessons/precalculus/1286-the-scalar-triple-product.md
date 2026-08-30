@@ -20,7 +20,9 @@ First, we find the cross product:
 $$
 
 
+
 \begin{aligned}𝐛×𝐜 & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 𝑏_{1} & 𝑏_{2} & 𝑏_{3} \\ 𝑐_{1} & 𝑐_{2} & 𝑐_{3}\end{aligned} \\ & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 1 & 1 & −2 \\ 0 & 3 & 1\end{aligned} \\ & =\begin{aligned}1 & −2 \\ 3 & 1\end{aligned}𝐢−\begin{aligned}1 & −2 \\ 0 & 1\end{aligned}𝐣+\begin{aligned}1 & 1 \\ 0 & 3\end{aligned}𝐤 \\ & =(1⋅1−(−2)⋅3)𝐢−(1⋅1−(−2)⋅0)𝐣+(1⋅3−1⋅0)𝐤 \\ & =7𝐢−𝐣+3𝐤 \\ & =⟨7,−1,3⟩\end{aligned}
+
 
 
 $$
@@ -30,7 +32,9 @@ Now, we can compute the scalar triple product:
 $$
 
 
+
 \begin{aligned}𝐚⋅(𝐛×𝐜) & =⟨−1,2,1⟩⋅⟨7,−1,3⟩ \\ & =(−1)⋅7+2⋅(−1)+1⋅3 \\ & =−6\end{aligned}
+
 
 
 $$
@@ -52,7 +56,9 @@ First, we find the cross product:
 $$
 
 
+
 \begin{aligned}𝐛×𝐜 & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ −1 & 0 & 5 \\ 1 & 2 & 3\end{aligned} \\ & =\begin{aligned}0 & 5 \\ 2 & 3\end{aligned}𝐢−\begin{aligned}−1 & 5 \\ 1 & 3\end{aligned}𝐣+\begin{aligned}−1 & 0 \\ 1 & 2\end{aligned}𝐤 \\ & =(0⋅3−5⋅2)𝐢−(−1⋅3−5⋅1)𝐣+(−1⋅2−0⋅2)𝐤 \\ & =−10𝐢+8𝐣−2𝐤 \\ & =⟨−10,8,−2⟩\end{aligned}
+
 
 
 $$
@@ -62,7 +68,9 @@ Now, we can compute the scalar triple product:
 $$
 
 
+
 \begin{aligned}𝐚⋅(𝐛×𝐜) & =⟨2,−3,2⟩⋅⟨−10,8,−2⟩ \\ & =2⋅(−10)+(−3)⋅8+2⋅(−2) \\ & =−48\end{aligned}
+
 
 
 $$
@@ -76,7 +84,9 @@ That is to say, if $\mathbf{a} = \langle a_1,a_2,a_3 \rangle,$ $\mathbf{b} = \la
 $$
 
 
+
 \begin{aligned}𝐚⋅(𝐛×𝐜)=\begin{aligned}𝑎_{1} & 𝑎_{2} & 𝑎_{3} \\ 𝑏_{1} & 𝑏_{2} & 𝑏_{3} \\ 𝑐_{1} & 𝑐_{2} & 𝑐_{3}\end{aligned}.\end{aligned}
+
 
 
 $$
@@ -98,7 +108,9 @@ So, we have
 $$
 
 
+
 \begin{aligned}𝐚⋅(𝐛×𝐜) & =\begin{aligned}4 & 2 & −1 \\ 0 & 2 & 1 \\ −1 & −1 & 2\end{aligned} \\ & =4⋅\begin{aligned}2 & 1 \\ −1 & 2\end{aligned}−2⋅\begin{aligned}0 & 1 \\ −1 & 2\end{aligned}+(−1)⋅\begin{aligned}0 & 2 \\ −1 & −1\end{aligned} \\ & =4⋅(2⋅2−1⋅(−1))−2⋅(0⋅2−1⋅(−1))+(−1)⋅(0⋅(−1)−2⋅(−1)) \\ & =20−2−2 \\ & =16.\end{aligned}
+
 
 
 $$
@@ -112,7 +124,9 @@ First, scalars can be factored out of the product. For example,
 $$
 
 
+
 ({\color{red}2}\mathbf{a}) \cdot (\mathbf{b} \times \mathbf{c}) = \mathbf{a} \cdot ({\color{red}2}\mathbf{b} \times \mathbf{c}) = \mathbf{a} \cdot (\mathbf{b} \times {\color{red}2}\mathbf{c}) = {\color{red}2}\left[ \mathbf{a} \cdot (\mathbf{b} \times \mathbf{c})\right].
+
 
 
 $$
@@ -122,7 +136,9 @@ Second, if we swap exactly two vectors in the scalar triple product, the result 
 $$
 
 
+
 {\color{red}\mathbf{a}} \cdot ( {\color{blue}\mathbf{b}} \times \mathbf{c}) = - {\color{blue}\mathbf{b}} \cdot ( {\color{red}\mathbf{a}} \times \mathbf{c}).
+
 
 
 $$
@@ -132,7 +148,9 @@ Note that if we swap twice, then the result remains the same, because the negati
 $$
 
 
+
 \begin{aligned}𝐚⋅(𝐛×𝐜) & =−𝐛⋅(𝐚×𝐜) \\ & =−(−𝐛⋅(𝐜×𝐚)) \\ & =𝐛⋅(𝐜×𝐚).\end{aligned}
+
 
 
 $$
@@ -156,7 +174,9 @@ First, we factor out the constants and get
 $$
 
 
+
 \begin{aligned}2𝐚⋅(𝐛×3𝐜) & =5 \\ 2⋅[𝐚⋅(𝐛×3𝐜)] & =5 \\ 2⋅3⋅[𝐚⋅(𝐛×𝐜)] & =5 \\ 𝐚⋅(𝐛×𝐜) & =\frac{5}{6}.\end{aligned}
+
 
 
 $$
@@ -166,7 +186,9 @@ Then, we swap $\mathbf{a}$ and $\mathbf{c}$ to get
 $$
 
 
+
 \begin{aligned}𝐜⋅(𝐛×𝐚) & =−\frac{5}{6},\end{aligned}
+
 
 
 $$
@@ -176,7 +198,9 @@ and again we swap $\mathbf{a}$ and $\mathbf{b}$ to get
 $$
 
 
+
 \begin{aligned}𝐜⋅(𝐚×𝐛) & =\frac{5}{6}.\end{aligned}
+
 
 
 $$
@@ -188,7 +212,9 @@ We have been using the fact for three vectors $\mathbf{a} = \langle a_1,a_2,a_3 
 $$
 
 
+
 \begin{aligned}𝐚⋅(𝐛×𝐜)=\begin{aligned}𝑎_{1} & 𝑎_{2} & 𝑎_{3} \\ 𝑏_{1} & 𝑏_{2} & 𝑏_{3} \\ 𝑐_{1} & 𝑐_{2} & 𝑐_{3}\end{aligned}.\end{aligned}
+
 
 
 $$
@@ -198,7 +224,9 @@ But why is this true? To understand where this result comes from, first notice t
 $$
 
 
+
 \begin{aligned}𝐛×𝐜 & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 𝑏_{1} & 𝑏_{2} & 𝑏_{3} \\ 𝑐_{1} & 𝑐_{2} & 𝑐_{3}\end{aligned} \\ & =\begin{aligned}𝑏_{2} & 𝑏_{3} \\ 𝑐_{2} & 𝑐_{3}\end{aligned}𝐢−\begin{aligned}𝑏_{1} & 𝑏_{3} \\ 𝑐_{1} & 𝑐_{3}\end{aligned}𝐣+\begin{aligned}𝑏_{1} & 𝑏_{2} \\ 𝑐_{1} & 𝑐_{2}\end{aligned}𝐤\end{aligned}
+
 
 
 $$
@@ -208,7 +236,9 @@ Now, when we take the dot product with $\mathbf{a},$ we get an expression that i
 $$
 
 
+
 \begin{aligned}𝐚⋅(𝐛×𝐜) & =(𝑎_{1}𝐢+𝑎_{2}𝐣+𝑎_{3}𝐤)⋅(\begin{aligned}𝑏_{2} & 𝑏_{3} \\ 𝑐_{2} & 𝑐_{3}\end{aligned}𝐢−\begin{aligned}𝑏_{1} & 𝑏_{3} \\ 𝑐_{1} & 𝑐_{3}\end{aligned}𝐣+\begin{aligned}𝑏_{1} & 𝑏_{2} \\ 𝑐_{1} & 𝑐_{2}\end{aligned}𝐤) \\ & =𝑎_{1}\begin{aligned}𝑏_{2} & 𝑏_{3} \\ 𝑐_{2} & 𝑐_{3}\end{aligned}−𝑎_{2}\begin{aligned}𝑏_{1} & 𝑏_{3} \\ 𝑐_{1} & 𝑐_{3}\end{aligned}+𝑎_{3}\begin{aligned}𝑏_{1} & 𝑏_{2} \\ 𝑐_{1} & 𝑐_{2}\end{aligned} \\ & =\begin{aligned}𝑎_{1} & 𝑎_{2} & 𝑎_{3} \\ 𝑏_{1} & 𝑏_{2} & 𝑏_{3} \\ 𝑐_{1} & 𝑐_{2} & 𝑐_{3}\end{aligned}\end{aligned}
+
 
 
 $$

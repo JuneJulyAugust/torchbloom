@@ -16,7 +16,9 @@ Given a dataset of paired numerical observations $(x,y)$ and the corresponding l
 $$
 
 
+
 \begin{aligned}Residual & =Actual−Estimated \\ & =𝑦−𝑓(𝑥) \\ & =𝑦−\overset{𝑦}{ˆ}.\end{aligned}
+
 
 
 $$
@@ -34,7 +36,9 @@ Suppose the equation of the regression line is
 $$
 
 
+
 y= 2.5 x +165.
+
 
 
 $$
@@ -48,7 +52,9 @@ Next, we compute the predicted value using our linear regression model:
 $$
 
 
+
 \begin{aligned}\overset{𝑦}{ˆ} & =2.5𝑥+165 \\ & =2.5(82)+165 \\ & =370\end{aligned}
+
 
 
 $$
@@ -60,7 +66,9 @@ Finally, we compute the residual:
 $$
 
 
+
 \begin{aligned}Residual & =Actual−Estimated \\ & =𝑦−\overset{𝑦}{ˆ} \\ & =360−370 \\ & =−10.\end{aligned}
+
 
 
 $$
@@ -76,7 +84,9 @@ Consider the data sets $x$ and $y$ of paired observations. The equation of the c
 $$
 
 
+
 y=0.5x+7.
+
 
 
 $$
@@ -90,7 +100,9 @@ The residual equals the difference between the actual value of the dependent var
 $$
 
 
+
 \textrm{Residual} = \text{Actual} - \textrm{Estimated}
+
 
 
 $$
@@ -100,7 +112,9 @@ First, we compute the predicted value using our linear regression model:
 $$
 
 
+
 \begin{aligned}\overset{𝑦}{ˆ} & =0.5𝑥+7 \\ & =0.5(6)+7 \\ & =10\end{aligned}
+
 
 
 $$
@@ -110,7 +124,9 @@ Therefore, the residual is
 $$
 
 
+
 \begin{aligned}Residual & =Actual−Estimated \\ & =𝑦−\overset{𝑦}{ˆ} \\ & =12−10 \\ & =2.\end{aligned}
+
 
 
 $$
@@ -130,7 +146,9 @@ The residual equals the difference between the actual value of the dependent var
 $$
 
 
+
 \textrm{Residual} = \text{Actual} - \textrm{Estimated}
+
 
 
 $$
@@ -146,7 +164,9 @@ As a result,
 $$
 
 
+
 \begin{aligned}Residual & =Actual−Estimated \\ & =𝑦−\overset{𝑦}{ˆ} \\ & =70−65 \\ & =5.\end{aligned}
+
 
 
 $$
@@ -170,7 +190,9 @@ If we calculate the numerical values for the residuals at each data point (from 
 $$
 
 
+
 -4, \quad 8, \quad -8, \quad 4
+
 
 
 $$

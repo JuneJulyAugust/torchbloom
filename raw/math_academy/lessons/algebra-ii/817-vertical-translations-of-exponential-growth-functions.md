@@ -106,7 +106,9 @@ Therefore, our function takes the form
 $$
 
 
+
 y=k(6^{x})+4.
+
 
 
 $$
@@ -116,7 +118,9 @@ We can solve for $k$ by finding a point on the graph and substituting for $x$ an
 $$
 
 
+
 \begin{aligned}𝑦 & =𝑘(6^{𝑥})+4 \\ 6 & =𝑘(6^{0})+4 \\ 6 & =𝑘(1)+4 \\ 6 & =𝑘+4 \\ 2 & =𝑘\end{aligned}
+
 
 
 $$

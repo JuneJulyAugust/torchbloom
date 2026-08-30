@@ -19,7 +19,9 @@ For example, suppose we want to approximate the numerical value of $(1.01)^{15}.
 $$
 
 
+
 (1+x)^n = 1 + nx + \dfrac{1}{2!} n(n-1)x^2 + \cdots + x^n
+
 
 
 $$
@@ -29,7 +31,9 @@ Notice that substituting $x={\color{blue}{0.01}}$ and $n={\color{red}{15}}$ give
 $$
 
 
+
 (1 + {\color{blue}{0.01}})^{\color{red}{15}} = 1 + {\color{red}{15}}({\color{blue}{0.01}}) + \dfrac{1}{2!} {\color{red}{15}}({\color{red}{15}}-1)({\color{blue}{0.01}})^2 + \cdots + ({\color{blue}{0.01}})^{\color{red}{15}}
+
 
 
 $$
@@ -39,7 +43,9 @@ which simplifies as
 $$
 
 
+
 (1.01)^{15} = 1 + 15(0.01) + \dfrac{1}{2!} 15(14)(0.01)^2 + \cdots + (0.01)^{15}. \qquad\left(\ast\right)
+
 
 
 $$
@@ -51,7 +57,9 @@ Increasing powers of $x$ become progressively smaller when $x$ is small. In our 
 $$
 
 
+
 (0.01) \quad\gg\quad (0.01)^2 \quad\gg\quad (0.01)^3 \quad\gg\quad\cdots \quad\gg \quad(0.01)^{15}
+
 
 
 $$
@@ -63,7 +71,9 @@ If we drop everything but the first three terms of $\left(\ast\right),$ we arriv
 $$
 
 
+
 (1.01)^{15} \approx 1 + 15(0.01) + \dfrac{1}{2!} 15(14)(0.01)^2 .
+
 
 
 $$
@@ -73,7 +83,9 @@ Evaluating the right-hand side of the above, we get
 $$
 
 
+
 (1.01)^{15} \approx 1+0.15+0.0105 = 1.1605.
+
 
 
 $$
@@ -83,7 +95,9 @@ Note that the exact value is
 $$
 
 
+
 (1.01)^{15} = 1.160\,968\ldots
+
 
 
 $$
@@ -103,7 +117,9 @@ Recall that when $n$ is a positive integer,
 $$
 
 
+
 (1+x)^n = 1 + nx + \dfrac{1}{2!} n(n-1)x^2 + \dfrac{1}{3!} n(n-1)(n-2)x^3 + \cdots + x^n.
+
 
 
 $$
@@ -113,7 +129,9 @@ Therefore,
 $$
 
 
+
 \begin{aligned}(1+𝑥)^{6} & =1+6𝑥+\frac{1}{2}⋅6⋅5⋅𝑥^{2}+\frac{1}{6}⋅6⋅5⋅4⋅𝑥^{3}+⋯+𝑥^{𝑛} \\ & =1+6𝑥+15𝑥^{2}+20𝑥^{3}+⋯\,+𝑥^{𝑛}.\end{aligned}
+
 
 
 $$
@@ -123,7 +141,9 @@ So, for small $x,$ we have
 $$
 
 
+
 \left( {1 + x} \right)^6 \approx 1 + 6x + 15x^2 + 20x^3.
+
 
 
 $$
@@ -133,7 +153,9 @@ Finally, we substitute $x=0.15$ into the above approximation of $(1 + x)^6{:}$
 $$
 
 
+
 \begin{aligned}(1.15)^{6} & =(1+0.15)^{6} \\ & ≈1+6(0.15)^{1}+15(0.15)^{2}+20(0.15)^{3} \\ & =1+6(0.15)+15(0.022\,5)+20(0.003\,375) \\ & =1+0.9+0.337\,5+0.067\,5 \\ & =2.305,\end{aligned}
+
 
 
 $$
@@ -153,7 +175,9 @@ Recall that when $n$ is a positive integer,
 $$
 
 
+
 (1+x)^n = 1 + nx + \dfrac{1}{2!} n(n-1)x^2 + \dfrac{1}{3!} n(n-1)(n-2)x^3 + \cdots + x^n.
+
 
 
 $$
@@ -163,7 +187,9 @@ Therefore,
 $$
 
 
+
 \begin{aligned}(1+𝑥)^{8} & =1+8𝑥+\frac{1}{2}⋅8⋅7⋅𝑥^{2}+\frac{1}{6}⋅8⋅7⋅6⋅𝑥^{3}+⋯+𝑥^{𝑛} \\ & =1+8𝑥+28𝑥^{2}+56𝑥^{3}+⋯\,+𝑥^{𝑛}.\end{aligned}
+
 
 
 $$
@@ -173,7 +199,9 @@ So, for small $x,$ we have
 $$
 
 
+
 \left( {1 + x} \right)^8 \approx 1 + 8x + 28x^2 + 56x^3.
+
 
 
 $$
@@ -183,7 +211,9 @@ Finally, we substitute $x=-0.11$ into the above approximation of $(1 + x)^8{:}$
 $$
 
 
+
 \begin{aligned}(0.89)^{8} & =(1+(−0.11))^{8} \\ & ≈1+8(−0.11)^{1}+28(−0.11)^{2}+56(−0.11)^{3} \\ & =1−8(0.11)+28(0.012\,1)−56(0.001\,331) \\ & =1−0.88+0.338\,8−0.074\,536 \\ & =0.384\,264,\end{aligned}
+
 
 
 $$
@@ -199,7 +229,9 @@ To approximate numbers of the form $(a+b)^n$ where $a$ is any number, and $b$ is
 $$
 
 
+
 {(a + b)^n} = {n \choose 0}{a^n}{b^0} + {n \choose 1}{a^{n - 1}}{b^1} + {n \choose 2}{a^{n - 2}}{b^2} + \cdots + {n \choose n}{a^0}{b^n}
+
 
 
 $$
@@ -219,7 +251,9 @@ The binomial theorem for positive integer $n$ states that
 $$
 
 
+
 {(a + b)^n} = {n \choose 0}{a^n}{b^0} + {n \choose 1}{a^{n - 1}}{b^1} + {n \choose 2}{a^{n - 2}}{b^2} + \cdots + {n \choose n}{a^0}{b^n}.
+
 
 
 $$
@@ -229,7 +263,9 @@ By substituting $a=2,$ $b=x,$ and $n=4,$ we obtain
 $$
 
 
+
 \begin{aligned}(2+𝑥)^{4}= & (\frac{4}{0})(2)^{4}(𝑥)^{0}+(\frac{4}{1})(2)^{4−1}(𝑥)^{1}+(\frac{4}{2})(2)^{4−2}(𝑥)^{2}+⋯ \\ & =1⋅(2)^{4}(𝑥)^{0}+4(2)^{3}(𝑥)^{1}+6(2)^{2}(𝑥)^{2}+⋯ \\ & =16+4(8)(𝑥)+6(4)(𝑥^{2})+⋯ \\ & =16+32𝑥+24𝑥^{2}+⋯.\end{aligned}
+
 
 
 $$
@@ -239,7 +275,9 @@ So, for small $x,$ we have
 $$
 
 
+
 \left( {2 + x} \right)^{4} \approx 16 + 32x + 24{x^2}.
+
 
 
 $$
@@ -249,7 +287,9 @@ Finally, we substitute $x=-0.03$ into the expansion of $(2+x)^4{:}$
 $$
 
 
+
 \begin{aligned}(1.97)^{4} & =(2−0.03)^{4} \\ & ≈16+32(−0.03)+24(−0.03)^{2} \\ & =16−0.96+0.021\,6 \\ & =15.0616\end{aligned}
+
 
 
 $$
@@ -267,7 +307,9 @@ The binomial theorem for positive integer $n$ states that
 $$
 
 
+
 {(a + b)^n} = {n \choose 0}{a^n}{b^0} + {n \choose 1}{a^{n - 1}}{b^1} + {n \choose 2}{a^{n - 2}}{b^2} + \ldots + {n \choose n}{a^0}{b^n}.
+
 
 
 $$
@@ -277,7 +319,9 @@ By substituting $a = 1,$ $b = x,$ and $n = 5,$ we obtain
 $$
 
 
+
 \begin{aligned}(1+𝑥)^{5} & =(\frac{5}{0})(1)^{5}(𝑥)^{0}+(\frac{5}{1})(1)^{5−1}(𝑥)^{1}+(\frac{5}{2})(1)^{5−2}(𝑥)^{2}+⋯ \\ & =1(1)^{5}+5(1)^{4}(𝑥)^{1}+10(1)^{3}(𝑥)^{2}+⋯ \\ & =1+5(1)(𝑥)+10(1)(𝑥^{2})+⋯ \\ & =1+5𝑥+10𝑥^{2}+⋯\,.\end{aligned}
+
 
 
 $$
@@ -287,7 +331,9 @@ So, for small $x,$ we have
 $$
 
 
+
 {\left( {1 + x} \right)^{5}} \approx 1 + 5x + 10x^2.
+
 
 
 $$
@@ -297,7 +343,9 @@ Now, we substitute $x = 0.08$ into the above approximation of $(1 + x)^5{:}$
 $$
 
 
+
 \begin{aligned}(1.08)^{5} & =(1+0.08)^{5} \\ & ≈1+5(0.08)+10(0.08)^{2} \\ & =1+5(0.08)+10(0.006\,4) \\ & =1+0.4+0.064 \\ & =1.464\end{aligned}
+
 
 
 $$
@@ -307,7 +355,9 @@ Finally, using a calculator, we can compute the percentage error, as follows:
 $$
 
 
+
 \begin{aligned}\%\,error & =\frac{amount of error}{exact value}×100 \\ & =\frac{|(1.08)^{5}−1.464|}{(1.08)^{5}}×100 \\ & ≈0.36\%\end{aligned}
+
 
 
 $$

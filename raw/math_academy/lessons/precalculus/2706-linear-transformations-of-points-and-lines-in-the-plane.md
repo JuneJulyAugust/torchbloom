@@ -18,7 +18,9 @@ Consider the linear transformation $\mathbf T$ with matrix representation $T,$ g
 $$
 
 
+
 [\begin{aligned}−2 & 1 \\ 0 & −2\end{aligned}]
+
 
 
 $$
@@ -30,7 +32,9 @@ First, we create a column vector $\mathbf{x}$ containing the coordinates of $A{:
 $$
 
 
+
 [\begin{aligned}1 \\ 1\end{aligned}]
+
 
 
 $$
@@ -40,7 +44,9 @@ Now, we compute the image of $\mathbf{x}$ under the action of $\mathbf T$ by cal
 $$
 
 
+
 \begin{aligned}𝑇𝐱 & =[\begin{aligned}−2 & 1 \\ 0 & −2\end{aligned}][\begin{aligned}1 \\ 1\end{aligned}] \\ & =[\begin{aligned}−1 \\ −2\end{aligned}]\end{aligned}
+
 
 
 $$
@@ -56,7 +62,9 @@ Consider the linear transformation $\mathbf T$ with matrix representation $T,$ g
 $$
 
 
+
 [\begin{aligned}3 & 1 \\ −4 & −1\end{aligned}]
+
 
 
 $$
@@ -70,7 +78,9 @@ To find the image of $B$ under the action of $\mathbf T,$ we first create a colu
 $$
 
 
+
 [\begin{aligned}2 \\ −3\end{aligned}]
+
 
 
 $$
@@ -80,7 +90,9 @@ Now, we compute the image of $\mathbf{x}$ under the action of $\mathbf T$ by cal
 $$
 
 
+
 \begin{aligned}𝑇𝐱 & =[\begin{aligned}3 & 1 \\ −4 & −1\end{aligned}][\begin{aligned}2 \\ −3\end{aligned}] \\ & =[\begin{aligned}3 \\ −5\end{aligned}].\end{aligned}
+
 
 
 $$
@@ -110,7 +122,9 @@ Consider the line $y=3x-2$ and linear transformation $\mathbf T$ with matrix rep
 $$
 
 
+
 [\begin{aligned}−1 & 0 \\ 3 & 1\end{aligned}]
+
 
 
 $$
@@ -124,7 +138,9 @@ First, let's find two points on the given line. Substituting $x=0$ and $x=1,$ we
 $$
 
 
+
 \begin{aligned}𝑥=0\, & →\,𝑦=3(0)−2=−2, \\ 𝑥=1\, & →\,𝑦=3(1)−2=1.\end{aligned}
+
 
 
 $$
@@ -136,7 +152,9 @@ To find the images of $P$ and $Q$ under the action of $\mathbf T,$ we first crea
 $$
 
 
+
 [\begin{aligned}0 & 1 \\ −2 & 1\end{aligned}]
+
 
 
 $$
@@ -146,7 +164,9 @@ Now, we compute the image of $X$ under the action of $\mathbf T$ by calculating 
 $$
 
 
+
 \begin{aligned}𝑇𝑋 & =[\begin{aligned}−1 & 0 \\ 3 & 1\end{aligned}][\begin{aligned}0 & 1 \\ −2 & 1\end{aligned}] \\ & =[\begin{aligned}0 & −1 \\ −2 & 4\end{aligned}]\end{aligned}
+
 
 
 $$
@@ -158,7 +178,9 @@ Finally, we write the equation of the line that passes through $P'$ and $Q'\math
 $$
 
 
+
 \begin{aligned}𝑦−𝑦_{1} & =\frac{𝑦_{2}−𝑦_{1}}{𝑥_{2}−𝑥_{1}}(𝑥−𝑥_{1}) \\ 𝑦−(−2) & =\frac{4−(−2)}{−1−0}(𝑥−0) \\ 𝑦+2 & =−6𝑥 \\ 6𝑥+𝑦+2 & =0\end{aligned}
+
 
 
 $$
@@ -172,7 +194,9 @@ Consider the line $5x-y-3=0$ and linear transformation $\mathbf T$ with matrix r
 $$
 
 
+
 [\begin{aligned}−3 & 1 \\ −1 & 2\end{aligned}]
+
 
 
 $$
@@ -186,7 +210,9 @@ First, let's find two points on the given line. Solving for $y,$ we get $y=5x-3,
 $$
 
 
+
 \begin{aligned}𝑥=0\, & →\,𝑦=5(0)−3=−3, \\ 𝑥=1\, & →\,𝑦=5(1)−3=2.\end{aligned}
+
 
 
 $$
@@ -198,7 +224,9 @@ To find the images of $P$ and $Q$ under the action of $\mathbf T,$ we first crea
 $$
 
 
+
 [\begin{aligned}0 & 1 \\ −3 & 2\end{aligned}]
+
 
 
 $$
@@ -208,7 +236,9 @@ Now, we compute the image of $X$ under the action of $\mathbf T$ by calculating 
 $$
 
 
+
 \begin{aligned}𝑇𝑋 & =[\begin{aligned}−3 & 1 \\ −1 & 2\end{aligned}][\begin{aligned}0 & 1 \\ −3 & 2\end{aligned}] \\ & =[\begin{aligned}−3 & −1 \\ −6 & 3\end{aligned}]\end{aligned}
+
 
 
 $$
@@ -220,7 +250,9 @@ Finally, we write the equation of the line that passes through $P'$ and $Q'\math
 $$
 
 
+
 \begin{aligned}𝑦−𝑦_{1} & =\frac{𝑦_{2}−𝑦_{1}}{𝑥_{2}−𝑥_{1}}(𝑥−𝑥_{1}) \\ 𝑦−(−6) & =\frac{3−(−6)}{−1−(−3)}(𝑥−(−3)) \\ 𝑦+6 & =\frac{9}{2}(𝑥+3) \\ 2𝑦+12 & =9𝑥+27 \\ 9𝑥−2𝑦+15 & =0\end{aligned}
+
 
 
 $$
@@ -232,7 +264,9 @@ Consider a non-singular linear transformation $\mathbf{T}$ and a line that is gi
 $$
 
 
+
 \mathbf{r} = \mathbf{p}+\mathbf{d}t, \qquad t \in (-\infty,\infty).
+
 
 
 $$
@@ -244,7 +278,9 @@ Now, using the linearity of the transformation, we obtain
 $$
 
 
+
 \begin{aligned}𝐓(𝐫) & =𝐓(𝐩+𝐝𝑡) \\ & =𝐓(𝐩)+𝐓(𝑡𝐝) \\ & =𝐓(𝐩)+𝑡𝐓(𝐝) \\ & =𝐩^{′}+𝑡𝐝^{′},\end{aligned}
+
 
 
 $$

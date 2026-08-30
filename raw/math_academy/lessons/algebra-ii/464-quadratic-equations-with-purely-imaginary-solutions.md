@@ -19,7 +19,9 @@ To demonstrate, let's solve the equation $2x^2 +8 = 0$ for $x.$ First, we rearra
 $$
 
 
+
 \begin{aligned} 2x^2 + 8 &= 0 \\[3pt] 2x^2 &= -8 \\[3pt] x^2 &= -4 \end{aligned}
+
 
 
 $$
@@ -29,7 +31,9 @@ By taking the square root, we obtain
 $$
 
 
+
 x = \pm \sqrt{-4}.
+
 
 
 $$
@@ -39,7 +43,9 @@ We now rewrite $x$ using the imaginary unit $\textrm{i}=\sqrt{-1}\, \mathbin{:}$
 $$
 
 
+
 \begin{aligned}𝑥 & =±\sqrt{√−4} \\ & =±\sqrt{√4⋅(−1)} \\ & =±\sqrt{√4}⋅\sqrt{√−1} \\ & =±2i\end{aligned}
+
 
 
 $$
@@ -59,7 +65,9 @@ First, we rearrange the equation, as follows:
 $$
 
 
+
 \begin{aligned} x^2 + 16 &= 0 \\[3pt] x^2 &= -16 \end{aligned}
+
 
 
 $$
@@ -69,7 +77,9 @@ By taking the square root, we obtain
 $$
 
 
+
 x = \pm \sqrt{-16}.
+
 
 
 $$
@@ -79,7 +89,9 @@ We now rewrite $x$ using the imaginary unit $\textrm{i}=\sqrt{-1}\, \mathbin{:}$
 $$
 
 
+
 \begin{aligned}𝑥 & =±\sqrt{√−16} \\ & =±\sqrt{√16⋅(−1)} \\ & =±\sqrt{√16}⋅\sqrt{√−1} \\ & =±4i\end{aligned}
+
 
 
 $$
@@ -99,7 +111,9 @@ First, we rearrange the equation, as follows:
 $$
 
 
+
 \begin{aligned} p^2 + 27 & = 0\\[3pt] p^2 & = -27 \end{aligned}
+
 
 
 $$
@@ -109,7 +123,9 @@ By taking the square root, we obtain
 $$
 
 
+
 p = \pm \sqrt{-27}.
+
 
 
 $$
@@ -119,7 +135,9 @@ We now rewrite $p$ using the imaginary unit $\textrm{i}=\sqrt{-1}\, \mathbin{:}$
 $$
 
 
+
 \begin{aligned}𝑝 & =±\sqrt{√−27} \\ & =±\sqrt{√27⋅(−1)} \\ & =±\sqrt{√27}⋅\sqrt{√−1} \\ & =±\sqrt{√3^{2}⋅3}⋅\sqrt{√−1} \\ & =±3\sqrt{√3}⋅\sqrt{√−1} \\ & =±3\sqrt{√3}\,i\end{aligned}
+
 
 
 $$
@@ -139,7 +157,9 @@ First, we rearrange the equation, as follows:
 $$
 
 
+
 \begin{aligned} 16z^2 + 49 & = 0\\\[5pt] 16z^2 & = -49 \\\[5pt] z^2 & = -\dfrac{49}{16} \end{aligned}
+
 
 
 $$
@@ -149,7 +169,9 @@ By taking the square root, we obtain
 $$
 
 
+
 z = \pm \sqrt{-\dfrac{49}{16}}.
+
 
 
 $$
@@ -159,7 +181,9 @@ We now rewrite $z$ using the imaginary unit $\textrm{i}=\sqrt{-1}\, \mathbin{:}$
 $$
 
 
+
 \begin{aligned}𝑧 & =±\sqrt{√−\frac{49}{16}} \\ & =±\sqrt{√\frac{49}{16}⋅(−1)} \\ & =±\sqrt{√\frac{49}{16}}⋅\sqrt{√−1} \\ & =±\frac{\sqrt{√49}}{\sqrt{√16}}⋅\sqrt{√−1} \\ & =±\frac{7}{4}i\end{aligned}
+
 
 
 $$
@@ -179,7 +203,9 @@ First, we rearrange the equation, as follows:
 $$
 
 
+
 \begin{aligned} 2y^2 + 9 &= 0 \\\[5pt] 2y^2 &= -9\\\[5pt] y^2 & = -\dfrac{9}{2} \end{aligned}
+
 
 
 $$
@@ -189,7 +215,9 @@ By taking square root, we obtain
 $$
 
 
+
 y = \pm \sqrt{-\dfrac{9}{2}}.
+
 
 
 $$
@@ -199,7 +227,9 @@ We now rewrite $y$ using the imaginary unit $\textrm{i}=\sqrt{-1}\, \mathbin{:}$
 $$
 
 
+
 \begin{aligned}𝑦 & =±\sqrt{√−\frac{9}{2}} \\ & =±\sqrt{√\frac{9}{2}⋅(−1)} \\ & =±\sqrt{√\frac{9}{2}}⋅\sqrt{√−1} \\ & =±\frac{\sqrt{√9}}{\sqrt{√2}}⋅\sqrt{√−1} \\ & =±\frac{3}{\sqrt{√2}}i\end{aligned}
+
 
 
 $$
@@ -209,7 +239,9 @@ Finally, we rationalize the denominator:
 $$
 
 
+
 \begin{aligned}𝑦 & =±\frac{3}{\sqrt{√2}}i \\ & =±\frac{3}{\sqrt{√2}}⋅\frac{\sqrt{√2}}{\sqrt{√2}}⋅\sqrt{√−1} \\ & =±\frac{3\sqrt{√2}}{2}i\end{aligned}
+
 
 
 $$

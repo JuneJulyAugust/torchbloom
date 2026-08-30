@@ -17,7 +17,9 @@ The parametric equations of a vertical hyperbola centered at the origin with Car
 $$
 
 
+
 \dfrac{y^2}{a^2} - \dfrac{x^2}{b^2} = 1
+
 
 
 $$
@@ -27,7 +29,9 @@ are given by
 $$
 
 
+
 x=b\tan{t},\quad y=a\sec{t},
+
 
 
 $$
@@ -37,7 +41,9 @@ where $a$ and $b$ are constants. The domain of the parameter $t$ is
 $$
 
 
+
 t\in[-\pi,\pi],\qquad t\neq \pm \frac{\pi}{2}.
+
 
 
 $$
@@ -55,7 +61,9 @@ For the most part, we won't worry too much about the domain of $t.$ However, it 
 $$
 
 
+
 1 + \tan^2 t = \sec^2 t.
+
 
 
 $$
@@ -65,7 +73,9 @@ Rearranging, we get
 $$
 
 
+
 \sec^2 t - \tan^2 t =1,
+
 
 
 $$
@@ -75,7 +85,9 @@ which means
 $$
 
 
+
 \begin{aligned}sec^{2}⁡𝑡 & =\frac{𝑦^{2}}{𝑎^{2}}\,⇒\,𝑦=𝑎sec⁡𝑡 \\ tan^{2}⁡𝑡 & =\frac{𝑥^{2}}{𝑏^{2}}\,⇒\,𝑥=𝑏tan⁡𝑡.\end{aligned}
+
 
 
 $$
@@ -93,7 +105,9 @@ The parametric equations of a vertical hyperbola centered at the origin with Car
 $$
 
 
+
 \frac{y^2}{a^2} - \frac{x^2}{b^2} = 1
+
 
 
 $$
@@ -103,7 +117,9 @@ are given by
 $$
 
 
+
 x = b\tan{t}, \quad y = a\sec{t}.
+
 
 
 $$
@@ -113,7 +129,9 @@ In our case, $a = \sqrt{9} = 3$ and $b = \sqrt{25} = 5.$ Therefore, the parametr
 $$
 
 
+
 x = 5\tan{t}, \quad y = 3\sec{t}.
+
 
 
 $$
@@ -133,7 +151,9 @@ The parametric equations of a vertical hyperbola centered at the origin with Car
 $$
 
 
+
 \dfrac{y^2}{a^2} - \dfrac{x^2}{b^2} = 1
+
 
 
 $$
@@ -143,7 +163,9 @@ are given by
 $$
 
 
+
 x=b\tan{t},\quad y=a\sec{t},
+
 
 
 $$
@@ -157,7 +179,9 @@ The asymptotes of a vertical hyperbola are $y = \pm \dfrac{a}{b}x.$ In our case,
 $$
 
 
+
 \begin{aligned}\frac{𝑎}{𝑏} & =3 \\ \frac{9}{𝑏} & =3 \\ 𝑏 & =3.\end{aligned}
+
 
 
 $$
@@ -167,7 +191,9 @@ Therefore, the parametric equations of the hyperbola are
 $$
 
 
+
 x=3\tan{t},\quad y=9\sec{t}.
+
 
 
 $$
@@ -179,7 +205,9 @@ We've used the fact that the parametric equations of a vertical hyperbola center
 $$
 
 
+
 x=b\tan{t},\quad y=a\sec{t}.
+
 
 
 $$
@@ -191,7 +219,9 @@ First, let's make the trigonometric functions the subject of each equation:
 $$
 
 
+
 \begin{aligned}𝑥 & =𝑏tan⁡𝑡 & ⟹ & & tan⁡𝑡 & =\frac{𝑥}{𝑏}, \\ 𝑦 & =𝑎sec⁡𝑡 & ⟹ & & sec⁡𝑡 & =\frac{𝑦}{𝑎}.\end{aligned}
+
 
 
 $$
@@ -201,7 +231,9 @@ Now, we recall the secant-tangent identity:
 $$
 
 
+
 \tan^2{t} + 1 = \sec^2{t}.
+
 
 
 $$
@@ -211,7 +243,9 @@ Substituting the above into the secant-tangent identity, we get
 $$
 
 
+
 \begin{aligned}tan^{2}⁡𝑡+1 & =sec^{2}⁡𝑡 \\ (\frac{𝑥}{𝑏})^{2}+1 & =(\frac{𝑦}{𝑎})^{2} \\ \frac{𝑥^{2}}{𝑏^{2}}+1 & =\frac{𝑦^{2}}{𝑎^{2}} \\ \frac{𝑦^{2}}{𝑎^{2}}−\frac{𝑥^{2}}{𝑏^{2}} & =1.\end{aligned}
+
 
 
 $$
@@ -237,7 +271,9 @@ Substituting the two equations into the identity $\tan^2{t} + 1 = \sec^2{t}$ and
 $$
 
 
+
 \begin{aligned}tan^{2}⁡𝑡+1 & =sec^{2}⁡𝑡 \\ \frac{𝑥^{2}}{4}+1 & =\frac{𝑦^{2}}{9} \\ \frac{𝑦^{2}}{9}−\frac{𝑥^{2}}{4} & =1.\end{aligned}
+
 
 
 $$
@@ -253,7 +289,9 @@ The quarter-hyperbola above is defined by the parametric equations
 $$
 
 
+
 x = \sqrt3\tan{t}, \qquad y = \sqrt2\sec{t}.
+
 
 
 $$
@@ -267,7 +305,9 @@ The parametric equations of the full hyperbola are
 $$
 
 
+
 x= \sqrt3 \tan{t}, \quad y = \sqrt2 \sec{t}, \quad t \in [-\pi,\pi], \quad t \neq \pm\dfrac{\pi}2.
+
 
 
 $$
@@ -283,7 +323,9 @@ Therefore, the parametric equations that describe the required quarter-hyperbola
 $$
 
 
+
 x= \sqrt3\tan{t}, \quad y = \sqrt2\sec{t}, \quad t \in \left(-\dfrac{\pi}2,0\right].
+
 
 
 $$

@@ -19,7 +19,9 @@ Suppose that we have the function $f(x) = 3x-9,$ and we wish to find the inverse
 $$
 
 
+
 y = 3x-9
+
 
 
 $$
@@ -29,7 +31,9 @@ $$
 $$
 
 
+
 x = 3y-9
+
 
 
 $$
@@ -39,7 +43,9 @@ $$
 $$
 
 
+
 \begin{aligned}𝑥 & =3𝑦−9 \\ 𝑥+9 & =3𝑦 \\ \frac{𝑥+9}{3} & =𝑦\end{aligned}
+
 
 
 $$
@@ -49,7 +55,9 @@ $$
 $$
 
 
+
 f^{-1}(x) = \frac{x+9}{3}
+
 
 
 $$
@@ -59,7 +67,9 @@ To verify that this is really the inverse of $f,$ we can check that
 $$
 
 
+
 (f\circ f^{-1})(x) = (f^{-1}\circ f)(x) = x.
+
 
 
 $$
@@ -69,7 +79,9 @@ First, we check that $(f^{-1}\circ f)(x)=x\mathbin{:}$
 $$
 
 
+
 \begin{aligned}(𝑓^{−1}∘𝑓)(𝑥) & =𝑓^{−1}(𝑓(𝑥)) \\ & =\frac{𝑓(𝑥)+9}{3} \\ & =\frac{(3𝑥−9)+9}{3} \\ & =\frac{3𝑥}{3} \\ & =𝑥\end{aligned}
+
 
 
 $$
@@ -79,7 +91,9 @@ So we've shown that $(f^{-1}\circ f)(x) = x.$ Using the same technique, we can v
 $$
 
 
+
 \begin{aligned}(𝑓∘𝑓^{−1})(𝑥) & =𝑓(𝑓^{−1}(𝑥)) \\ & =3𝑓^{−1}(𝑥)−9 \\ & =3(\frac{𝑥+9}{3})−9 \\ & =𝑥+9−9 \\ & =𝑥\end{aligned}
+
 
 
 $$
@@ -101,7 +115,9 @@ To find the inverse of a function, we follow the four steps below.
 $$
 
 
+
 y = 3x-4
+
 
 
 $$
@@ -111,7 +127,9 @@ $$
 $$
 
 
+
 x = 3y-4
+
 
 
 $$
@@ -121,7 +139,9 @@ $$
 $$
 
 
+
 \begin{aligned}𝑥 & =3𝑦−4 \\ 𝑥+4 & =3𝑦 \\ \frac{𝑥+4}{3} & =𝑦\end{aligned}
+
 
 
 $$
@@ -131,7 +151,9 @@ $$
 $$
 
 
+
 f^{-1}(x) = \dfrac {x + 4} {3}
+
 
 
 $$
@@ -151,7 +173,9 @@ To find the inverse of a function, we follow the four steps below.
 $$
 
 
+
 y = bx- 5
+
 
 
 $$
@@ -161,7 +185,9 @@ $$
 $$
 
 
+
 x = by- 5
+
 
 
 $$
@@ -171,7 +197,9 @@ $$
 $$
 
 
+
 \begin{aligned}𝑥 & =𝑏𝑦−5 \\ 𝑥+5 & =𝑏𝑦 \\ \frac{𝑥+5}{𝑏} & =𝑦\end{aligned}
+
 
 
 $$
@@ -181,7 +209,9 @@ $$
 $$
 
 
+
 f^{-1}(x) = \dfrac{x + 5}{b}
+
 
 
 $$

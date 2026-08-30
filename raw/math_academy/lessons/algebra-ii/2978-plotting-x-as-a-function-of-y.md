@@ -19,7 +19,9 @@ For example, consider the curve $x = y^2.$ To graph this curve, we can start by 
 $$
 
 
+
 \begin{aligned}𝑦=−3 & \,⟶\,𝑥=(−3)^{2}=9 \\ 𝑦=−2 & \,⟶\,𝑥=(−2)^{2}=4 \\ 𝑦=−1 & \,⟶\,𝑥=(−1)^{2}=1 \\ 𝑦=0 & \,⟶\,𝑥=0^{2}=0 \\ 𝑦=1 & \,⟶\,𝑥=1^{2}=1 \\ 𝑦=2 & \,⟶\,𝑥=2^{2}=4 \\ 𝑦=3 & \,⟶\,𝑥=3^{2}=9\end{aligned}
+
 
 
 $$
@@ -31,7 +33,9 @@ So, we have the following points:
 $$
 
 
+
 (9,-3), \quad (4,-2), \quad (1,-1), \quad (0,0), \quad (1,1), \quad (4,2), \quad (9,3).
+
 
 
 $$
@@ -57,7 +61,9 @@ To graph this curve, we can start by calculating the value of $x$ for various va
 $$
 
 
+
 \begin{aligned}𝑦=0 & \,⟶\,𝑥=\frac{1}{2}⋅0−\sqrt{√0}=0 \\ 𝑦=1 & \,⟶\,𝑥=\frac{1}{2}⋅1−\sqrt{√1}=−\frac{1}{2} \\ 𝑦=4 & \,⟶\,𝑥=\frac{1}{2}⋅4−\sqrt{√4}=0 \\ 𝑦=16 & \,⟶\,𝑥=\frac{1}{2}⋅16−\sqrt{√16}=4\end{aligned}
+
 
 
 $$
@@ -69,7 +75,9 @@ So, we have the following points:
 $$
 
 
+
 (0,0), \quad \left(-\dfrac 12,1\right), \quad (0,4), \quad (4,16).
+
 
 
 $$
@@ -121,7 +129,9 @@ The curve $y=-2x^2-3x$ is a parabola. It has the following factored form:
 $$
 
 
+
 y = -x(2x+3)
+
 
 
 $$

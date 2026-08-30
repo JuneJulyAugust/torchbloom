@@ -21,7 +21,9 @@ As an example, let's write the following trigonometric ratio in terms of a refer
 $$
 
 
+
 \sin( -300^\circ )
+
 
 
 $$
@@ -31,7 +33,9 @@ To express this trigonometric ratio in terms of a reference angle, we first find
 $$
 
 
+
 -300^\circ + 360^\circ = 60^\circ \quad{\color{green}{\checkmark}}
+
 
 
 $$
@@ -41,7 +45,9 @@ Now, notice that our coterminal angle is acute and lies in the first quadrant. T
 $$
 
 
+
 \sin (-300^\circ) = \sin 60^\circ.
+
 
 
 $$
@@ -63,7 +69,9 @@ First, we find the corresponding coterminal angle that lies in the range $[0^\ci
 $$
 
 
+
 -305^\circ + 360^\circ = 55^\circ \quad{\color{green}{\checkmark}}
+
 
 
 $$
@@ -73,7 +81,9 @@ Notice that our coterminal angle is acute and lies in the first quadrant. Theref
 $$
 
 
+
 \cos (-305^\circ) = \cos 55^\circ.
+
 
 
 $$
@@ -89,7 +99,9 @@ As an example, let's express the following trigonometric ratio in terms of a ref
 $$
 
 
+
 \sin{(-140^\circ)}
+
 
 
 $$
@@ -109,7 +121,9 @@ So, we conclude that
 $$
 
 
+
 \sin (-140^\circ) = -\sin{40^\circ}.
+
 
 
 $$
@@ -139,7 +153,9 @@ Therefore, we conclude that
 $$
 
 
+
 \sin (-240^\circ) = \sin{60^\circ}.
+
 
 
 $$
@@ -169,7 +185,9 @@ Therefore, we conclude that
 $$
 
 
+
 \cos{\left(-130^\circ\right)} = -\cos{\left(50^\circ\right)}.
+
 
 
 $$
@@ -197,7 +215,9 @@ Therefore, we conclude that
 $$
 
 
+
 \tan (-215^\circ) = -\tan{35^\circ}.
+
 
 
 $$

@@ -20,7 +20,9 @@ This complex number has **real part** equal to $\color{blue}2$ and **imaginary p
 $$
 
 
+
 \begin{aligned}Re(2+3i) & =2, \\ Im(2+3i) & =3.\end{aligned}
+
 
 
 $$
@@ -62,7 +64,9 @@ Rewriting the given complex number in the form $a + b \textrm{i},$ we get
 $$
 
 
+
 \sqrt 3+6\textrm{i}-2=\left(\sqrt 3-2\right)+6\textrm{i}.
+
 
 
 $$
@@ -76,7 +80,9 @@ Any real number is a complex number ${\color{blue}a} + {\color{red}b\textrm{i}}$
 $$
 
 
+
 3 = 3+ {\color{red}0\textrm{i}}.
+
 
 
 $$
@@ -88,7 +94,9 @@ Similarly, an imaginary number is a complex number ${\color{blue}a} + {\color{re
 $$
 
 
+
 2\textrm{i} = {\color{blue}0} + 2\textrm{i}.
+
 
 
 $$
@@ -116,7 +124,9 @@ We can think of the number $-\sqrt 7 \,\textrm{i}$ as having a real part of zero
 $$
 
 
+
 -\sqrt 7\,\textrm{i} = 0 - \sqrt 7\,\textrm{i}
+
 
 
 $$
@@ -142,7 +152,9 @@ We can think of the number $-6$ as having an imaginary part of zero:
 $$
 
 
+
 -6 = -6+ 0\textrm{i}
+
 
 
 $$

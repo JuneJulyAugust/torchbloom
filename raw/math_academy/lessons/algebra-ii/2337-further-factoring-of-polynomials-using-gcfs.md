@@ -21,7 +21,9 @@ First, notice that all of the terms have a common factor of $2x.$ To simplify th
 $$
 
 
+
 2x^3-2x = 2x(x^2-1)
+
 
 
 $$
@@ -31,7 +33,9 @@ Now, we factor the expression $x^2-1$ using the difference of squares formula:
 $$
 
 
+
 2x(x^2-1) = 2x(x+1)(x-1)
+
 
 
 $$
@@ -51,7 +55,9 @@ First, notice that all of the terms have a common factor of $x.$ To simplify the
 $$
 
 
+
 x^3 - 4x = x(x^2 - 4)
+
 
 
 $$
@@ -61,7 +67,9 @@ Now, we factor the expression $x^2 - 4$ using the difference of squares formula:
 $$
 
 
+
 x(x^2 - 4) = x(x+2)(x-2)
+
 
 
 $$
@@ -79,7 +87,9 @@ First, notice that all of the terms have a common factor of $x.$ To simplify the
 $$
 
 
+
 x^3 - 6x^2 + 9x = x(x^2 - 6x + 9)
+
 
 
 $$
@@ -89,7 +99,9 @@ The expression $x^2 - 6x + 9$ is a perfect square trinomial that can be factored
 $$
 
 
+
 \begin{aligned}𝑥(𝑥^{2}−6𝑥+9) & = \\ 𝑥(𝑥^{2}−6𝑥+3^{2}) & = \\ 𝑥(𝑥^{2}−2⋅3𝑥+3^{2}) & = \\ 𝑥(𝑥−3)^{2} & \end{aligned}
+
 
 
 $$
@@ -107,7 +119,9 @@ Note that all of the terms have a common factor of $x.$ To simplify the computat
 $$
 
 
+
 \begin{aligned}𝑥^{3}+𝑥^{2}−2𝑥 & =𝑥(𝑥^{2}+𝑥−2)\end{aligned}
+
 
 
 $$
@@ -117,7 +131,9 @@ Now, we factor the polynomial $x^2 + x - 2$ as follows:
 $$
 
 
+
 \begin{aligned}𝑥(𝑥^{2}+𝑥−2) & = \\ 𝑥((𝑥^{2}−𝑥)+(2𝑥−2)) & = \\ 𝑥(𝑥(𝑥−1)+2(𝑥−1)) & = \\ 𝑥(𝑥+2)(𝑥−1) & \end{aligned}
+
 
 
 $$

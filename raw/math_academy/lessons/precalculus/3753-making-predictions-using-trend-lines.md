@@ -78,7 +78,9 @@ Now, suppose the hospital wants to estimate the weight of a $3$-year-old child. 
 $$
 
 
+
 \begin{aligned}𝑦 & =2𝑥+8 \\ & =2(3)+8 \\ & =6+8 \\ & =14.\end{aligned}
+
 
 
 $$
@@ -100,7 +102,9 @@ Now suppose that the hospital wants to estimate the weight of a $7$-year-old chi
 $$
 
 
+
 \begin{aligned}𝑦 & =2𝑥+8 \\ & =2(7)+8 \\ & =14+8 \\ & =22.\end{aligned}
+
 
 
 $$
@@ -130,7 +134,9 @@ To predict the thickness in a book with $200$ pages, we need to substitute $y = 
 $$
 
 
+
 \begin{aligned}𝑦 & =10𝑥 \\ 200 & =10𝑥 \\ \frac{200}{10} & =𝑥 \\ 20 & =𝑥 \\ 𝑥 & =20\end{aligned}
+
 
 
 $$
@@ -162,7 +168,9 @@ We will write the equation of the line in the slope-intercept form
 $$
 
 
+
 y = mx + b.
+
 
 
 $$
@@ -172,7 +180,9 @@ First, we find the slope $m$ of the line as follows:
 $$
 
 
+
 \begin{aligned}𝑚 & =\frac{𝑦_{2}−𝑦_{1}}{𝑥_{2}−𝑥_{1}} \\ & =\frac{3−1.5}{4−1} \\ & =\frac{1.5}{3} \\ & =0.5\end{aligned}
+
 
 
 $$
@@ -182,7 +192,9 @@ Substituting $m = 0.5$ into the slope-intercept form above, we get
 $$
 
 
+
 y = 0.5x + b.
+
 
 
 $$
@@ -192,7 +204,9 @@ We now need to calculate the $y$-intercept $b.$ We can do this by substituting t
 $$
 
 
+
 \begin{aligned}𝑦 & =0.5𝑥+𝑏 \\ 3 & =0.5(4)+𝑏 \\ 3 & =2+𝑏 \\ 𝑏 & =1\end{aligned}
+
 
 
 $$
@@ -202,7 +216,9 @@ Therefore, the equation of the line is
 $$
 
 
+
 y = 0.5x + 1.
+
 
 
 $$
@@ -212,7 +228,9 @@ Finally, we substitute $y = 5$ into the equation above and solve for $x{:}$
 $$
 
 
+
 \begin{aligned}𝑦 & =0.5𝑥+1 \\ 5 & =0.5𝑥+1 \\ 0.5𝑥 & =4 \\ 𝑥 & =8\end{aligned}
+
 
 
 $$

@@ -68,7 +68,9 @@ A geometric random variable $X$ with probability of success $p$ has the followin
 $$
 
 
+
 f(x) = (1-p)^{x-1}p
+
 
 
 $$
@@ -78,7 +80,9 @@ Let $X$ be the number of shots until the archer misses. Since the chance of miss
 $$
 
 
+
 p = 7\% = \dfrac{7}{100} = 0.07.
+
 
 
 $$
@@ -88,7 +92,9 @@ So, $X\sim\textrm{Geom}(0.07).$ In this case, $X$ has the following probability 
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =(1−0.07)^{𝑥−1}(0.07) \\ & =(0.93)^{𝑥−1}(0.07)\end{aligned}
+
 
 
 $$
@@ -98,7 +104,9 @@ Therefore, the probability that the archer will miss for the first time on the $
 $$
 
 
+
 \begin{aligned}𝑃(𝑋=8) & =𝑓(8) \\ & =(0.93)^{8−1}(0.07) \\ & =(0.93)^{7}(0.07) \\ & ≈0.042\end{aligned}
+
 
 
 $$
@@ -118,7 +126,9 @@ A geometric random variable $X$ with probability of success $p$ has the followin
 $$
 
 
+
 f(x) = (1-p)^{x-1}p
+
 
 
 $$
@@ -128,7 +138,9 @@ Let $X$ be the number of matches until a tie is obtained. Since the chance of ob
 $$
 
 
+
 p = 10\% = \dfrac{10}{100} = 0.1.
+
 
 
 $$
@@ -138,7 +150,9 @@ So, $X\sim\textrm{Geom}(0.1).$ In this case, $X$ has the following probability m
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =(1−0.1)^{𝑥−1}(0.1) \\ & =(0.9)^{𝑥−1}(0.1)\end{aligned}
+
 
 
 $$
@@ -148,7 +162,9 @@ Therefore, the probability that the team gets the first tie within the first $3$
 $$
 
 
+
 \begin{aligned}𝑃(𝑋≤3) & =𝑃(𝑋∈{1,2,3}) \\ & =𝑓(1)+𝑓(2)+𝑓(3) \\ & =(0.9)^{1−1}(0.1)+(0.9)^{2−1}(0.1)+(0.9)^{3−1}(0.1) \\ & =(0.1)+(0.9)(0.1)+(0.9)^{2}(0.1) \\ & =[1+0.9+(0.9)^{2}](0.1) \\ & ≈0.271\end{aligned}
+
 
 
 $$
@@ -168,7 +184,9 @@ A geometric random variable $X$ with probability of success $p$ has the followin
 $$
 
 
+
 f(x) = (1-p)^{x-1}p
+
 
 
 $$
@@ -178,7 +196,9 @@ Let $X$ be the number of applicants interviewed until an applicant who meets all
 $$
 
 
+
 p = 35\% = \dfrac{35}{100} = 0.35.
+
 
 
 $$
@@ -188,7 +208,9 @@ So, $X\sim\textrm{Geom}(0.35).$ In this case, $X$ has the following probability 
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =(1−0.35)^{𝑥−1}(0.35) \\ & =(0.65)^{𝑥−1}(0.35)\end{aligned}
+
 
 
 $$
@@ -198,7 +220,9 @@ To compute $P(X \gt 3),$ we will use the complement:
 $$
 
 
+
 P(X \gt 3) = 1 - P(X \leq 3)
+
 
 
 $$
@@ -208,7 +232,9 @@ Computing the probability of the complement, we get
 $$
 
 
+
 \begin{aligned}𝑃(𝑋≤3) & =𝑃(𝑋∈{1,2,3}) \\ & =𝑓(1)+𝑓(2)+𝑓(3) \\ & =(0.65)^{1−1}(0.35)+(0.65)^{2−1}(0.35)+(0.65)^{3−1}(0.35) \\ & =(0.35)+(0.65)(0.35)+(0.65)^{2}(0.35) \\ & =[1+0.65+(0.65)^{2}](0.35) \\ & ≈0.725\end{aligned}
+
 
 
 $$
@@ -220,7 +246,9 @@ Therefore, the probability that an applicant who meets all the requirements will
 $$
 
 
+
 \begin{aligned}𝑃(𝑋>3) & =1−𝑃(𝑋≤3) \\ & ≈1−0.725 \\ & ≈0.275\end{aligned}
+
 
 
 $$

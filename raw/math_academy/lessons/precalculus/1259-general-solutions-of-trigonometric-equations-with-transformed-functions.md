@@ -16,7 +16,9 @@ How can we find the general solution to the following trigonometric equation?
 $$
 
 
+
 \sin(2x-30^\circ) = \dfrac{1}{2}
+
 
 
 $$
@@ -32,7 +34,9 @@ So for this example, we let $X = 2x-30^\circ.$ Then, we have the equation
 $$
 
 
+
 \sin X = \dfrac{1}{2}.
+
 
 
 $$
@@ -42,7 +46,9 @@ This equation has the general solution
 $$
 
 
+
 \begin{aligned}𝑋 & =30^{∘}+𝑛⋅360^{∘}, & \, & \, & 𝑋 & =150^{∘}+𝑛⋅360^{∘},\end{aligned}
+
 
 
 $$
@@ -54,7 +60,9 @@ Writing this general solution in terms of the original variable $x,$ we have
 $$
 
 
+
 \begin{aligned}2𝑥−30^{∘} & =30^{∘}+𝑛⋅360^{∘}, & \, & \, & 2𝑥−30^{∘} & =150^{∘}+𝑛⋅360^{∘}.\end{aligned}
+
 
 
 $$
@@ -64,7 +72,9 @@ Solving the two equations above for $x,$ we get the following:
 $$
 
 
+
 \begin{aligned}2𝑥 & =60^{∘}+𝑛⋅360^{∘}, & \, & \, & 2𝑥 & =180^{∘}+𝑛⋅360^{∘} \\ 𝑥 & =30^{∘}+𝑛⋅180^{∘}, & \, & \, & 𝑥 & =90^{∘}+𝑛⋅180^{∘}\end{aligned}
+
 
 
 $$
@@ -74,7 +84,9 @@ Therefore, the general solution to our original equation is
 $$
 
 
+
 \begin{aligned}𝑥 & =30^{∘}+𝑛⋅180^{∘}, & \, & \, & 𝑥 & =90^{∘}+𝑛⋅180^{∘}.\end{aligned}
+
 
 
 $$
@@ -90,7 +102,9 @@ Find the general solution of the following trigonometric equation:
 $$
 
 
+
 \sin{\left(4x-90^\circ\right)} = -\dfrac{1}{2}
+
 
 
 $$
@@ -102,7 +116,9 @@ The general solution to our equation is
 $$
 
 
+
 \begin{aligned}4𝑥−90^{∘} & =−30^{∘}+360^{∘}𝑛, & \, & \, & 4𝑥−90^{∘} & =−150^{∘}+360^{∘}𝑛.\end{aligned}
+
 
 
 $$
@@ -112,7 +128,9 @@ Solving the two equations above for $x,$ we get the following:
 $$
 
 
+
 \begin{aligned}4𝑥 & =90^{∘}−30^{∘}+360^{∘}𝑛 & \, & \, & 4𝑥 & =90^{∘}−150^{∘}+360^{∘}𝑛 \\ 4𝑥 & =60^{∘}+360^{∘}𝑛 & \, & \, & 4𝑥 & =−60^{∘}+360^{∘}𝑛 \\ 𝑥 & =15^{∘}+90^{∘}𝑛 & \, & \, & 𝑥 & =−15^{∘}+90^{∘}𝑛\end{aligned}
+
 
 
 $$
@@ -126,7 +144,9 @@ Find the general solution of the following trigonometric equation:
 $$
 
 
+
 \cos \left(6x + 75^\circ \right) = -\dfrac{\sqrt{2}}{2}
+
 
 
 $$
@@ -138,7 +158,9 @@ The general solution to our equation is
 $$
 
 
+
 \begin{aligned}6𝑥+75^{∘} & =135^{∘}+𝑛⋅360^{∘}, & \, & \, & 6𝑥+75^{∘} & =225^{∘}+𝑛⋅360^{∘}.\end{aligned}
+
 
 
 $$
@@ -148,7 +170,9 @@ Solving the two equations above for $x,$ we get the following:
 $$
 
 
+
 \begin{aligned}6𝑥 & =60^{∘}+𝑛⋅360^{∘} & \, & \, & 6𝑥 & =150^{∘}+𝑛⋅360^{∘} \\ 𝑥 & =10^{∘}+𝑛⋅60^{∘} & \, & \, & 𝑥 & =25^{∘}+𝑛⋅60^{∘}\end{aligned}
+
 
 
 $$
@@ -162,7 +186,9 @@ Find the general solution of the following trigonometric equation:
 $$
 
 
+
 \tan\left(2x - \dfrac{\pi}{4} \right) = -1
+
 
 
 $$
@@ -174,7 +200,9 @@ The general solution to our equation is
 $$
 
 
+
 \begin{aligned}2𝑥−\frac{𝜋}{4} & =−\frac{𝜋}{4}+𝑛𝜋.\end{aligned}
+
 
 
 $$
@@ -184,7 +212,9 @@ Solving the above equation for $x,$ we get
 $$
 
 
+
 \begin{aligned}2𝑥 & =𝑛𝜋 \\ 𝑥 & =\frac{𝑛𝜋}{2}.\end{aligned}
+
 
 
 $$
@@ -198,7 +228,9 @@ Find the general solution of the following trigonometric equation:
 $$
 
 
+
 \sec\left(2x + \dfrac{\pi}{2}\right) = \sqrt{2}
+
 
 
 $$
@@ -210,7 +242,9 @@ First, note that the given equation is equivalent to
 $$
 
 
+
 \cos\left(2x + \dfrac{\pi}{2}\right) = \dfrac{\sqrt{2}}{2}.
+
 
 
 $$
@@ -220,7 +254,9 @@ Therefore, the general solution to our equation is
 $$
 
 
+
 2x + \dfrac{\pi}{2} = \dfrac{\pi}{4} + 2\pi n, \qquad\qquad 2x + \dfrac{\pi}{2} = \dfrac{7\pi}{4} + 2\pi n.
+
 
 
 $$
@@ -230,7 +266,9 @@ Solving the two equations above for $x,$ we get the following:
 $$
 
 
+
 \begin{aligned}2𝑥=−\frac{𝜋}{2}+\frac{𝜋}{4}+2𝜋𝑛, & \, & \, & 2𝑥=−\frac{𝜋}{2}+\frac{7𝜋}{4}+2𝜋𝑛 \\ 2𝑥=−\frac{𝜋}{4}+2𝜋𝑛, & \, & \, & 2𝑥=\frac{5𝜋}{4}+2𝜋𝑛 \\ 𝑥=−\frac{𝜋}{8}+𝜋𝑛, & \, & \, & 𝑥=\frac{5𝜋}{8}+𝜋𝑛\end{aligned}
+
 
 
 $$

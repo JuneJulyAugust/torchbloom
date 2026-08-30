@@ -24,7 +24,9 @@ From the graph, the function has a zero when $x=\dfrac\pi 2,$ and the function i
 $$
 
 
+
 x = \dfrac{\pi}{2}+ n\pi.
+
 
 
 $$
@@ -38,7 +40,9 @@ Therefore, a general equation for the asymptotes is
 $$
 
 
+
 x = n\pi.
+
 
 
 $$
@@ -96,7 +100,9 @@ The period of $y = \cot x$ is $\pi.$ Therefore, for any integer $n,$ we have
 $$
 
 
+
 \cot{x} = \cot{(x+n\pi)} .
+
 
 
 $$
@@ -106,7 +112,9 @@ Substituting $n=5$ into the above gives
 $$
 
 
+
 \begin{aligned}cot⁡𝑥 & =cot⁡(𝑥+5⋅𝜋) \\ & =cot⁡(𝑥+5𝜋).\end{aligned}
+
 
 
 $$
@@ -120,7 +128,9 @@ Recall that a function $f(x)$ is *odd* if it satisfies the property
 $$
 
 
+
 f(-x) = -f(x).
+
 
 
 $$
@@ -130,7 +140,9 @@ As it turns out, cotangent is an odd function! So, for any value of $x,$ we have
 $$
 
 
+
 \cot(-x) = -\cot(x).
+
 
 
 $$

@@ -19,7 +19,9 @@ For instance, suppose that we want to plot the graph of $y = x^3-4x^2 +4x.$ Firs
 $$
 
 
+
 \begin{aligned}𝑥^{3}−4𝑥^{2}+4𝑥 & =0 \\ 𝑥(𝑥^{2}−4𝑥+4) & =0 \\ 𝑥(𝑥−2)^{2} & =0\end{aligned}
+
 
 
 $$
@@ -55,7 +57,9 @@ We also find the $y$-intercept of the curve by substituting the value $x=0$ into
 $$
 
 
+
 \begin{aligned}𝑦 & =(0−2)(0+1)^{2} \\ & =(−2)(1)^{2} \\ & =−2\end{aligned}
+
 
 
 $$
@@ -85,7 +89,9 @@ First, we need to factor the polynomial. We are told that $(x-3)$ is a factor of
 $$
 
 
+
 \begin{aligned} & 𝑥^{3} & 𝑥^{2} & 𝑥^{1} & 𝑥^{0} \\ 3 & 1 & 1 & −8 & −12 \\ & & 3 & 12 & 12 \\ & 1 & 4 & 4 & 0\end{aligned}
+
 
 
 $$
@@ -95,7 +101,9 @@ Therefore,
 $$
 
 
+
 \begin{aligned}\frac{𝑓(𝑥)}{𝑥−3} & =𝑥^{2}+4𝑥+4 \\ 𝑓(𝑥) & =(𝑥−3)(𝑥^{2}+4𝑥+4).\end{aligned}
+
 
 
 $$
@@ -105,7 +113,9 @@ We can factor the quadratic factor even further, and get
 $$
 
 
+
 f(x) = (x-3)(x+2)^2.
+
 
 
 $$
@@ -117,7 +127,9 @@ We also find the $y$-intercept of the curve by substituting the value $x=0$ into
 $$
 
 
+
 \begin{aligned}𝑦 & =(0−3)(0+2)^{2} \\ & =(−3)(2)^{2} \\ & =−12.\end{aligned}
+
 
 
 $$
@@ -143,7 +155,9 @@ For instance, suppose that we want to plot the graph of $y = -x^3+8x^2-16x.$ The
 $$
 
 
+
 \begin{aligned}−𝑥^{3}+8𝑥^{2}−16𝑥 & =0 \\ −𝑥(𝑥^{2}−8𝑥+16) & =0 \\ −𝑥(𝑥−4)^{2} & =0\end{aligned}
+
 
 
 $$
@@ -175,7 +189,9 @@ We also find the $y$-intercept of the curve by substituting the value $x=0$ into
 $$
 
 
+
 \begin{aligned}𝑦 & =(3−0)(0+1)^{2} \\ & =(3)(1)^{2} \\ & =3\end{aligned}
+
 
 
 $$
@@ -193,7 +209,9 @@ Notice that the leading coefficient is **. If we were to expand the parentheses,
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =(3−𝑥)(𝑥+1)^{2} \\ & =−𝑥^{3}+𝑥^{2}+⋯\end{aligned}
+
 
 
 $$
@@ -215,7 +233,9 @@ First, we need to factor the polynomial. We are told that $(x-4)$ is a factor of
 $$
 
 
+
 \begin{aligned} & 𝑥^{3} & 𝑥^{2} & 𝑥^{1} & 𝑥^{0} \\ 4 & −1 & 2 & 7 & 4 \\ & & −4 & −8 & −4 \\ & −1 & −2 & −1 & 0\end{aligned}
+
 
 
 $$
@@ -225,7 +245,9 @@ Therefore,
 $$
 
 
+
 \begin{aligned}\frac{𝑓(𝑥)}{𝑥−4} & =−𝑥^{2}−2𝑥−1 \\ \frac{𝑓(𝑥)}{𝑥−4} & =−(𝑥^{2}+2𝑥+1) \\ 𝑓(𝑥) & =−(𝑥−4)(𝑥^{2}+2𝑥+1).\end{aligned}
+
 
 
 $$
@@ -235,7 +257,9 @@ We can factor the quadratic factor even further, and get
 $$
 
 
+
 f(x) = - (x-4)(x+1)^2.
+
 
 
 $$
@@ -247,7 +271,9 @@ We also find the $y$-intercept of the curve by substituting the value $x=0$ into
 $$
 
 
+
 \begin{aligned}𝑦 & =−(0−4)(0+1)^{2} \\ & =−(−4)(1)^{2} \\ & =4.\end{aligned}
+
 
 
 $$

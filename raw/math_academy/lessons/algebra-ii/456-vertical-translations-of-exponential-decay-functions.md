@@ -113,7 +113,9 @@ We can solve for $k$ by finding a point on the graph and substituting for $x$ an
 $$
 
 
+
 \begin{aligned}𝑘(\frac{1}{2})^{𝑥}+𝑐 & =𝑦 \\ 𝑘(\frac{1}{2})^{𝑥}−5 & =𝑦 \\ 𝑘(\frac{1}{2})^{0}−5 & =−1 \\ 𝑘−5 & =−1 \\ 𝑘 & =4\end{aligned}
+
 
 
 $$

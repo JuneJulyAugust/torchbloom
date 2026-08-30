@@ -24,7 +24,9 @@ In this case, the velocity vector is given by
 $$
 
 
+
 \mathbf{u} = (3\,\mathbf{i} + 2\,\mathbf{j}) \: \textrm{m/s}.
+
 
 
 $$
@@ -42,7 +44,9 @@ The magnitude of the velocity vector gives the **speed** of the particle. Theref
 $$
 
 
+
 \begin{aligned}|𝐮| & =|3𝐢+2𝐣| \\ & =\sqrt{√3^{2}+2^{2}} \\ & =\sqrt{√9+4} \\ & =\sqrt{√13}\,m/s.\end{aligned}
+
 
 
 $$
@@ -62,7 +66,9 @@ Therefore, the speed of the particle is
 $$
 
 
+
 \begin{aligned}|𝐮| & =|5𝐢+2𝐣| \\ & =\sqrt{√5^{2}+2^{2}} \\ & =\sqrt{√25+4} \\ & =\sqrt{√29}\end{aligned}
+
 
 
 $$
@@ -78,7 +84,9 @@ For example, consider a particle $P$ whose acceleration vector $\mathbf a$ is gi
 $$
 
 
+
 \mathbf a = (3\mathbf{i}+4\mathbf{j})\,\textrm{m/s}^2.
+
 
 
 $$
@@ -102,7 +110,9 @@ If a particle is moving with constant acceleration, the velocity vector $\mathbf
 $$
 
 
+
 \mathbf{v} = \mathbf{u} + \mathbf{a}t,
+
 
 
 $$
@@ -116,7 +126,9 @@ Substituting our data into the formula above, we obtain that the velocity of the
 $$
 
 
+
 \begin{aligned}𝐯 & =𝐮+𝐚𝑡 \\ & =(2𝐢+3𝐣)+(3𝐢+4𝐣)(2) \\ & =(2𝐢+3𝐣)+(6𝐢+8𝐣) \\ & =(8𝐢+11𝐣)\,m/s.\end{aligned}
+
 
 
 $$
@@ -134,7 +146,9 @@ Recall that when a particle moves with constant acceleration, the velocity vecto
 $$
 
 
+
 \mathbf{v} = \mathbf{u} + \mathbf{a}t,
+
 
 
 $$
@@ -146,7 +160,9 @@ Here, we have
 $$
 
 
+
 \mathbf u = \mathbf{i} -4\mathbf{j}, \qquad \mathbf a = 2\mathbf{i}+\mathbf{j} .
+
 
 
 $$
@@ -156,7 +172,9 @@ Therefore, after $t = 5 \, \textrm{s},$ the velocity of the particle will be
 $$
 
 
+
 \begin{aligned}𝐯 & =𝐮+𝐚𝑡 \\ & =(𝐢−4𝐣)+(2𝐢+𝐣)(5) \\ & =(𝐢−4𝐣)+(10𝐢+5𝐣) \\ & =(11𝐢+𝐣)\,m/s.\end{aligned}
+
 
 
 $$
@@ -174,7 +192,9 @@ Recall that when a particle moves with constant acceleration, the velocity vecto
 $$
 
 
+
 \mathbf{v} = \mathbf{u} + \mathbf{a}t,
+
 
 
 $$
@@ -186,7 +206,9 @@ Substituting
 $$
 
 
+
 \mathbf{u} = 4\mathbf{i}, \qquad \mathbf{v} = 7\mathbf{i}+15\mathbf{j}, \qquad t =3
+
 
 
 $$
@@ -196,7 +218,9 @@ into the equation above, we can solve for $\mathbf{a}$ as follows:
 $$
 
 
+
 \begin{aligned}𝐯 & =𝐮+𝐚𝑡 \\ 7𝐢+15𝐣 & =4𝐢+𝐚(3) \\ 3𝐢+15𝐣 & =3𝐚 \\ 𝐚 & =\frac{1}{3}(3𝐢+15𝐣) \\ 𝐚 & =(𝐢+5𝐣)\,km/h^{2}.\end{aligned}
+
 
 
 $$
@@ -214,7 +238,9 @@ Recall that when a particle moves with constant acceleration, the velocity vecto
 $$
 
 
+
 \mathbf{v} = \mathbf{u} + \mathbf{a}t,
+
 
 
 $$
@@ -226,7 +252,9 @@ Substituting
 $$
 
 
+
 \mathbf{a} = \mathbf{i} + 2\mathbf{j}, \qquad \mathbf{u} = -\mathbf{i} -\mathbf{j}, \qquad \mathbf{v} = 3\mathbf{i}+7\mathbf{j}
+
 
 
 $$
@@ -236,7 +264,9 @@ into the equation above, we can solve for $t$ as follows:
 $$
 
 
+
 \begin{aligned}𝐯 & =𝐮+𝐚𝑡 \\ 3𝐢+7𝐣 & =(−𝐢−𝐣)+(𝐢+2𝐣)𝑡 \\ 4𝐢+8𝐣 & =(𝐢+2𝐣)𝑡 \\ 4𝐢+8𝐣 & =𝑡𝐢+2𝑡𝐣\end{aligned}
+
 
 
 $$
@@ -246,7 +276,9 @@ Equating the $\mathbf i$ and $\mathbf j$ components in the last equation, we obt
 $$
 
 
+
 \begin{aligned}4=𝑡 \\ 8=2𝑡\end{aligned}
+
 
 
 $$

@@ -20,7 +20,9 @@ Note that in the above scenario, we have $P(A) = \dfrac{1}{6}$ and $P(A') = \dfr
 $$
 
 
+
 P(A) + P(A') = \dfrac{1}{6} + \dfrac{5}{6} = 1.
+
 
 
 $$
@@ -30,7 +32,9 @@ This is not a coincidence. The above result holds in general: for any event $A,$
 $$
 
 
+
 P(A) + P(A') = 1.
+
 
 
 $$
@@ -52,7 +56,9 @@ Now, let's calculate the probability $P(A').$ The sample space is
 $$
 
 
+
 \mathcal S=\{ HH, HT, TH, TT \},
+
 
 
 $$
@@ -64,7 +70,9 @@ There are $4$ outcomes in the sample space, and $2$ of these outcomes ($HH, TT$)
 $$
 
 
+
 P(A')=\dfrac{2}{4} = \dfrac{1}{2} = 0.5.
+
 
 
 $$
@@ -86,7 +94,9 @@ Since we know that $P(A)=0.66$ to $2$ decimal places, we can calculate $P\left(A
 $$
 
 
+
 \begin{aligned}𝑃(𝐴)+𝑃(𝐴^{′}) & =1 \\ 𝑃(𝐴^{′}) & =1−𝑃(𝐴) \\ & =1−0.66 \\ & =0.34.\end{aligned}
+
 
 
 $$

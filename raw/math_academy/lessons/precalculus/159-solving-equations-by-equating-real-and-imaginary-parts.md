@@ -18,7 +18,9 @@ For example, suppose we're given the equation
 $$
 
 
+
 2 + 9 \textrm{i} = 2x + 3y \textrm{i}.
+
 
 
 $$
@@ -28,7 +30,9 @@ The real part of $2 + 9 \textrm{i}$ is $2,$ and the real part of $2x + 3y \textr
 $$
 
 
+
 \begin{aligned}2 & =2𝑥 \\ 𝑥 & =1.\end{aligned}
+
 
 
 $$
@@ -38,7 +42,9 @@ The imaginary part of $2 + 9 \textrm{i}$ is $9,$ and the imaginary part of $2x +
 $$
 
 
+
 \begin{aligned}9 & =3𝑦 \\ 𝑦 & =3.\end{aligned}
+
 
 
 $$
@@ -58,7 +64,9 @@ First, we equate the real parts:
 $$
 
 
+
 3 = a
+
 
 
 $$
@@ -68,7 +76,9 @@ Then, we equate the imaginary parts:
 $$
 
 
+
 2 = b
+
 
 
 $$
@@ -88,7 +98,9 @@ First, we multiply both sides of the equation by $1+2\textrm{i}$ to get rid of t
 $$
 
 
+
 \begin{aligned}2−3i & =\frac{𝑝−2𝑞i}{1+2i} \\ (2−3i)(1+2i) & =𝑝−2𝑞i \\ 2+4i−3i−6i^{2} & =𝑝−2𝑞i \\ 2+i−6(−1) & =𝑝−2𝑞i \\ 8+i & =𝑝−2𝑞i\end{aligned}
+
 
 
 $$
@@ -114,7 +126,9 @@ First, we divide both sides of the equation by $1+\textrm{i}$ to isolate the var
 $$
 
 
+
 \begin{aligned}3+5i & =(𝑝+i𝑞)(1+i) \\ \frac{3+5i}{1+i} & =𝑝+i𝑞\end{aligned}
+
 
 
 $$
@@ -124,7 +138,9 @@ Now, to simplify the fraction on the left-hand side, we multiply the numerator a
 $$
 
 
+
 \begin{aligned}\frac{(3+5i)(1−i)}{(1+i)(1−i)} & =𝑝+i𝑞 \\ \frac{3−3i+5i−5i^{2}}{1^{2}−i^{2}} & =𝑝+i𝑞 \\ \frac{3+2i−5(−1)}{1−(−1)} & =𝑝+i𝑞 \\ \frac{8+2i}{2} & =𝑝+i𝑞 \\ 4+i & =𝑝+i𝑞\end{aligned}
+
 
 
 $$

@@ -16,7 +16,9 @@ Suppose we roll a fair die. Then, the sample space $\mathcal S$ of this experime
 $$
 
 
+
 \mathcal{S} = \{1,2,3,4,5,6\}.
+
 
 
 $$
@@ -26,7 +28,9 @@ Now, let's consider the event
 $$
 
 
+
 X = \{6\}.
+
 
 
 $$
@@ -52,7 +56,9 @@ For any event $X,$ we have
 $$
 
 
+
 P(X) +P\left(X'\right) = 1.
+
 
 
 $$
@@ -62,7 +68,9 @@ Note that the above formula can be rearranged into either of the following equiv
 $$
 
 
+
 \begin{aligned}𝑃(𝑋) & =1−𝑃(𝑋^{′}) \\ 𝑃(𝑋^{′}) & =1−𝑃(𝑋)\end{aligned}
+
 
 
 $$
@@ -72,7 +80,9 @@ In our case, we can calculate $P\left(X'\right)$ as
 $$
 
 
+
 \begin{aligned}𝑃(𝑋^{′}) & =1−𝑃(𝑋) \\ & =1−\frac{1}{6} \\ & =\frac{5}{6}.\end{aligned}
+
 
 
 $$
@@ -94,7 +104,9 @@ For any event $X,$ we have
 $$
 
 
+
 P(X) +P(X') = 1.
+
 
 
 $$
@@ -106,7 +118,9 @@ However, these probabilities don't satisfy the rule:
 $$
 
 
+
 \begin{aligned}𝑃(𝑋)+𝑃(𝑋^{′}) & =\frac{3}{4}+\frac{1}{2} \\ & =\frac{3}{4}+\frac{2}{4} \\ & =\frac{5}{4}≠1\,×\end{aligned}
+
 
 
 $$
@@ -128,7 +142,9 @@ The Venn diagram tells us that $P(Y) = \dfrac{1}{4}.$ So, we have
 $$
 
 
+
 \begin{aligned}𝑃(𝑌^{′}) & =1−𝑃(𝑌) \\ & =1−\frac{1}{4} \\ & =\frac{3}{4}.\end{aligned}
+
 
 
 $$
@@ -152,7 +168,9 @@ The Venn diagram tells us that $P(A')= \dfrac{2}{5}.$ So, we have
 $$
 
 
+
 \begin{aligned}𝑃(𝐴) & =1−𝑃(𝐴^{′}) \\ & =1−\frac{2}{5} \\ & =\frac{3}{5}.\end{aligned}
+
 
 
 $$
@@ -170,7 +188,9 @@ Suppose we have two fair coins and we toss both of them. The sample space $\math
 $$
 
 
+
 \mathcal S=\{HH,HT,TH,TT\}.
+
 
 
 $$
@@ -186,7 +206,9 @@ So, we can calculate $P(A')$ as
 $$
 
 
+
 \begin{aligned}𝑃(𝐴^{′}) & =1−𝑃(𝐴) \\ & =1−\frac{1}{4} \\ & =\frac{4}{4}−\frac{1}{4} \\ & =\frac{3}{4}.\end{aligned}
+
 
 
 $$

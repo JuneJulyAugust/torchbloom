@@ -16,7 +16,9 @@ Suppose that we want to solve the following trigonometric equation:
 $$
 
 
+
 3\tan^2 x - 1 =0, \qquad 0 \leq x < 2\pi
+
 
 
 $$
@@ -30,7 +32,9 @@ First, we rearrange the equation and isolate $\tan^2{x}{:}$
 $$
 
 
+
 \begin{aligned}3tan^{2}⁡𝑥−1 & =0 \\ 3tan^{2}⁡𝑥 & =1 \\ tan^{2}⁡𝑥 & =\frac{1}{3}\end{aligned}
+
 
 
 $$
@@ -40,7 +44,9 @@ Taking the square root on both sides of the equation, we have
 $$
 
 
+
 \begin{aligned}tan^{2}⁡𝑥 & =\frac{1}{3} \\ tan⁡𝑥 & =±\sqrt{√\frac{1}{3}} \\ tan⁡𝑥 & =±\frac{\sqrt{√3}}{3}.\end{aligned}
+
 
 
 $$
@@ -52,7 +58,9 @@ Our equations are
 $$
 
 
+
 \tan{x} = -\dfrac{\sqrt3}3 \qquad \text{and}\qquad \tan{x} = \dfrac{\sqrt3}3.
+
 
 
 $$
@@ -70,7 +78,9 @@ Combining the solutions from both equations, the solutions to the original equat
 $$
 
 
+
 x_1 = \dfrac{\pi}{6},\qquad x_2 = \dfrac{5\pi}{6},\qquad x_3 = \dfrac{7\pi}{6},\qquad x_4 = \dfrac{11\pi}{6}.
+
 
 
 $$
@@ -88,7 +98,9 @@ Taking the square root of both sides of the equation, we have
 $$
 
 
+
 \begin{aligned}tan^{2}⁡𝑥 & =3 \\ tan⁡𝑥 & =±\sqrt{√3}\end{aligned}
+
 
 
 $$
@@ -98,7 +110,9 @@ So, we have to solve the following two equations:
 $$
 
 
+
 \tan{x} = -\sqrt 3, \qquad \tan{x} = \sqrt3
+
 
 
 $$
@@ -114,7 +128,9 @@ Combining all solutions from both equations, we get
 $$
 
 
+
 x_1 = -\dfrac{2\pi}{3}, \qquad x_2 = -\dfrac{\pi}{3}, \qquad x_3 = \dfrac{\pi}{3}, \qquad x_4 = \dfrac{2\pi}{3}.
+
 
 
 $$
@@ -132,7 +148,9 @@ First, we rearrange the equation and isolate $\cot^2{x}{:}$
 $$
 
 
+
 \begin{aligned}25cot^{2}⁡𝑥−1 & =0 \\ cot^{2}⁡𝑥 & =\frac{1}{25}\end{aligned}
+
 
 
 $$
@@ -142,7 +160,9 @@ Taking the square root of both sides of the equation, we have
 $$
 
 
+
 \begin{aligned}cot^{2}⁡𝑥 & =\frac{1}{25} \\ cot⁡𝑥 & =±\sqrt{√\frac{1}{25}} \\ cot⁡𝑥 & =±\frac{1}{5}.\end{aligned}
+
 
 
 $$
@@ -152,7 +172,9 @@ So, we have to solve the following two equations:
 $$
 
 
+
 \cot x = -\dfrac{1}{5}, \qquad \cot x = \dfrac{1}{5}
+
 
 
 $$
@@ -168,7 +190,9 @@ Combining all solutions from both equations, we get
 $$
 
 
+
 x_1 \approx 78.690^\circ, \quad x_2 \approx 101.310^\circ.
+
 
 
 $$
@@ -178,7 +202,9 @@ Finally,
 $$
 
 
+
 x_1\cdot x_2 \approx 78.690 \cdot 101.310 \approx 7\,972,
+
 
 
 $$

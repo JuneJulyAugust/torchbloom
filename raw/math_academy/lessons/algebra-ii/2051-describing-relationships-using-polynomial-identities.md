@@ -21,7 +21,9 @@ Some of the most important polynomial identities are as follows:
 $$
 
 
+
 \begin{aligned}(𝑥+𝑎)^{2}=𝑥^{2}+2𝑎𝑥+𝑎^{2} \\ (𝑥−𝑎)^{2}=𝑥^{2}−2𝑎𝑥+𝑎^{2} \\ (𝑥−𝑎)(𝑥+𝑎)=𝑥^{2}−𝑎^{2} \\ 𝑥^{2}+(𝑎+𝑏)𝑥+𝑎𝑏=(𝑥+𝑎)(𝑥+𝑏)\end{aligned}
+
 
 
 $$
@@ -33,7 +35,9 @@ For example, we can show that
 $$
 
 
+
 (x-5)^2+10x = x^2 + 25
+
 
 
 $$
@@ -43,7 +47,9 @@ is a polynomial identity by performing the following steps:
 $$
 
 
+
 \begin{aligned} & & (𝑥−5)^{2}+10𝑥 & = \\ Step 1: & & (𝑥^{2}−2⋅𝑥⋅5+5^{2})+10𝑥 & = \\ Step 2: & & (𝑥^{2}−10𝑥+25)+10𝑥 & = \\ Step 3: & & 𝑥^{2}+(−10𝑥+10𝑥)+25 & = \\ Step 4: & & 𝑥^{2}+25 & \end{aligned}
+
 
 
 $$
@@ -57,7 +63,9 @@ Consider the following derivation:
 $$
 
 
+
 \begin{aligned} & & 9−(𝑥−3)^{2} & = \\ Step 1: & & 9−(𝑥^{2}−2⋅𝑥⋅3+3^{2}) & = \\ Step 2: & & 9−(𝑥^{2}−6𝑥+9) & = \\ Step 3: & & −𝑥^{2}+6𝑥+(9+9) & = \\ Step 4: & & −𝑥^{2}+6𝑥+18 & \end{aligned}
+
 
 
 $$
@@ -81,7 +89,9 @@ There is a mistake in Step 3. Indeed, the correct simplification looks as follow
 $$
 
 
+
 \begin{aligned} & & 9−(𝑥−3)^{2} & = \\ Step 1: & & 9−(𝑥^{2}−2⋅𝑥⋅3+3^{2}) & = \\ Step 2: & & 9−(𝑥^{2}−6𝑥+9) & = \\ Step 3: & & −𝑥^{2}+6𝑥+(9−9) & = \\ & & ⋮ & \end{aligned}
+
 
 
 $$
@@ -97,7 +107,9 @@ Consider the following polynomial identity:
 $$
 
 
+
 (n+15)^2 - n^2 = 30n+225
+
 
 
 $$
@@ -113,7 +125,9 @@ Factoring the right-hand side of our identity, we get
 $$
 
 
+
 (n+15)^2 - n^2 = 15(2n+15).
+
 
 
 $$
@@ -137,7 +151,9 @@ Consider the following polynomial identity:
 $$
 
 
+
 (x^2 – y^2)^2 + (2xy)^2 = (x^2 + y^2)^2
+
 
 
 $$
@@ -147,7 +163,9 @@ Notice that if we set
 $$
 
 
+
 a= x^2 – y^2, \qquad b=2xy, \qquad c= x^2+y^2,
+
 
 
 $$
@@ -157,7 +175,9 @@ then we obtain a triple $(a, b, c)$ satisfying the equation
 $$
 
 
+
 a^2+b^2=c^2.
+
 
 
 $$
@@ -173,7 +193,9 @@ For example, substituting $x=2$ and $y=1$ into the identity, we get
 $$
 
 
+
 \begin{aligned}(𝑥^{2}–𝑦^{2})^{2}+(2𝑥𝑦)^{2} & =(𝑥^{2}+𝑦^{2})^{2} \\ (2^{2}–1^{2})^{2}+(2⋅2⋅1)^{2} & =(2^{2}+1^{2})^{2} \\ (4–1)^{2}+4^{2} & =(4+1)^{2} \\ 3^{2}+4^{2} & =5^{2}.\end{aligned}
+
 
 
 $$
@@ -191,7 +213,9 @@ Consider the following polynomial identity for natural $x$ and $y\mathbin{:}$
 $$
 
 
+
 (x^2 – y^2)^2 + (2xy)^2 = (x^2 + y^2)^2
+
 
 
 $$
@@ -219,7 +243,9 @@ Therefore, we conclude that $x=p=4$ and $y=q=1$ generate the required triple. Le
 $$
 
 
+
 \begin{aligned}(𝑥^{2}–𝑦^{2})^{2}+(2𝑥𝑦)^{2} & =(𝑥^{2}+𝑦^{2})^{2} \\ (4^{2}–1^{2})^{2}+(2⋅4⋅1)^{2} & =(4^{2}+1^{2})^{2} \\ (16–1)^{2}+8^{2} & =(16+1)^{2} \\ 15^{2}+8^{2} & =17^{2} \\ 8^{2}+15^{2} & =17^{2}\,✓\end{aligned}
+
 
 
 $$

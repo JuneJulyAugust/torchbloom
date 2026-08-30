@@ -19,7 +19,9 @@ The value $S_n$ of this investment after $n$ years is given by the exponential g
 $$
 
 
+
 S_n = 5\,000\cdot (1.08)^n.
+
 
 
 $$
@@ -29,7 +31,9 @@ Therefore, the value of this investment in $30$ years is
 $$
 
 
+
 S_{30} = 5\,000\cdot (1.08)^{30} \approx 50\,313.
+
 
 
 $$
@@ -57,7 +61,9 @@ You can probably spot the pattern now. We can deduce that the expression for $S_
 $$
 
 
+
 5\,000⋅(1.08)^{2}+
+
 
 
 $$
@@ -67,7 +73,9 @@ To evaluate this sum, we first factor it as follows:
 $$
 
 
+
 S_{30} = 5\,000\cdot (1.08) \cdot \left[ (1.08)^{29} +(1.08)^{28} + \cdots + (1.08) + 1 \right]
+
 
 
 $$
@@ -77,7 +85,9 @@ Notice that the expression inside the square brackets is a geometric series with
 $$
 
 
+
 \begin{aligned}𝑆_{30} & =5\,000⋅(1.08)⋅(\frac{𝑎_{1}(1−𝑟^{𝑁})}{1−𝑟}) \\ & =5\,400⋅(\frac{1⋅(1−1.08^{30})}{1−1.08}) \\ & =5\,400⋅(\frac{1−1.08^{30}}{1−1.08}) \\ & ≈611\,729\end{aligned}
+
 
 
 $$
@@ -129,7 +139,9 @@ Notice that the expression inside the curly braces is a geometric series with $a
 $$
 
 
+
 \begin{aligned}𝑆_{6} & =1\,000⋅(1.004)^{12}⋅(\frac{𝑎_{1}(1−𝑟^{𝑁})}{1−𝑟}) \\ & =1\,000⋅(1.004)^{12}⋅\frac{1⋅(1−[(1.004)^{12}]^{6})}{1−(1.004)^{12}} \\ & =1\,000⋅(1.004)^{12}⋅(\frac{1−[(1.004)^{12}]^{6}}{1−(1.004)^{12}}) \\ & ≈7\,119\end{aligned}
+
 
 
 $$
@@ -159,7 +171,9 @@ Notice that the expression inside the curly braces is a geometric series with $a
 $$
 
 
+
 \begin{aligned}𝑆_{10} & =2\,500⋅𝑒^{0.04}⋅(\frac{𝑎_{1}(1−𝑟^{𝑁})}{1−𝑟}) \\ & =2\,500⋅𝑒^{0.04}⋅\frac{1⋅(1−[𝑒^{0.04}]^{10})}{1−𝑒^{0.04}} \\ & =2\,500⋅𝑒^{0.04}⋅(\frac{1−[𝑒^{0.04}]^{10}}{1−𝑒^{0.04}}) \\ & ≈31\,358\end{aligned}
+
 
 
 $$

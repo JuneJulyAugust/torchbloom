@@ -58,7 +58,9 @@ To calculate the probability of the intersection of two independent events, $P(A
 $$
 
 
+
 P(A\cap B) = P(A)\cdot P(B).
+
 
 
 $$
@@ -68,7 +70,9 @@ To derive the multiplication law for independent events, we first recall the mul
 $$
 
 
+
 P(A\cap B) = P(A) \cdot P(B|A)
+
 
 
 $$
@@ -78,7 +82,9 @@ If $A$ and $B$ are independent, then the probability of $B$ occurring is not inf
 $$
 
 
+
 P(B|A) = P(B).
+
 
 
 $$
@@ -88,7 +94,9 @@ Replacing $P(B|A)$ with $P(B)$ in the multiplication law for conditional probabi
 $$
 
 
+
 P(A\cap B) = P(A) \cdot P(B).
+
 
 
 $$
@@ -108,7 +116,9 @@ Since the coin tosses are independent events, we can use the multiplication law 
 $$
 
 
+
 P(H \cap T) = P(H) \cdot P(T).
+
 
 
 $$
@@ -118,7 +128,9 @@ Let's find $P(H)$ and $P(T).$ A fair coin has two sides, a head and a tail, so w
 $$
 
 
+
 \begin{aligned}𝑃(𝐻) & =𝑃(𝑇)=\frac{1}{2}.\end{aligned}
+
 
 
 $$
@@ -128,7 +140,9 @@ Therefore, substituting the above into the multiplication law for independent ev
 $$
 
 
+
 \begin{aligned}𝑃(𝐻∩𝑇) & =\frac{1}{2}⋅\frac{1}{2} \\ & =\frac{1}{4}.\end{aligned}
+
 
 
 $$
@@ -140,7 +154,9 @@ The multiplication law for independent events generalizes to any number of event
 $$
 
 
+
 P(E_1\cap E_2\cap \ldots \cap E_n) = P(E_1)P(E_2)\ldots P(E_n).
+
 
 
 $$
@@ -160,7 +176,9 @@ Since coin flips are independent events, we can use the multiplication law for i
 $$
 
 
+
 P(A\cap B\cap C) = P(A)P(B)P(C).
+
 
 
 $$
@@ -170,7 +188,9 @@ Let's find $P(A),$ $P(B),$ and $P(C).$ A coin has $2$ sides, $1$ of which is a h
 $$
 
 
+
 P(A) = P(B) = P(C) = \dfrac12.
+
 
 
 $$
@@ -180,7 +200,9 @@ Therefore, substituting the above into the multiplication law for independent ev
 $$
 
 
+
 \begin{aligned}𝑃(𝐴∩𝐵∩𝐶) & =𝑃(𝐴)𝑃(𝐵)𝑃(𝐶) \\ & =\frac{1}{2}⋅\frac{1}{2}⋅\frac{1}{2} \\ & =\frac{1}{8}.\end{aligned}
+
 
 
 $$

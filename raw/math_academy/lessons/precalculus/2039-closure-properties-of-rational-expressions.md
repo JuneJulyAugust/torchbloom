@@ -21,7 +21,9 @@ A **rational expression** is an expression of the form
 $$
 
 
+
 \dfrac{P(x)}{Q(x)},
+
 
 
 $$
@@ -33,7 +35,9 @@ For example, the expressions
 $$
 
 
+
 \dfrac{x^3-5x+1}{1-x}, \qquad \dfrac{1}{x^2}
+
 
 
 $$
@@ -45,7 +49,9 @@ Moreover, any polynomial $P(x)$ is a rational expression since it can be written
 $$
 
 
+
 \dfrac{P(x)}{1},
+
 
 
 $$
@@ -57,7 +63,9 @@ However, the expression
 $$
 
 
+
 \dfrac{x\boxed{\color{blue}\ln(x)}}{x+x^3}
+
 
 
 $$
@@ -123,7 +131,9 @@ For example,
 $$
 
 
+
 S^{1/2} = \sqrt{S}
+
 
 
 $$
@@ -133,7 +143,9 @@ is *not* rational for all rational $S$ because it contains a square root. For ex
 $$
 
 
+
 S = \dfrac1x
+
 
 
 $$
@@ -143,7 +155,9 @@ then
 $$
 
 
+
 S^{1/2} = \dfrac{1}{\sqrt x}
+
 
 
 $$
@@ -155,7 +169,9 @@ It's worth noting that $S^{1/2}$ *is* rational for *some* choices of $S.$ For ex
 $$
 
 
+
 S = \dfrac{1}{x^2}
+
 
 
 $$
@@ -165,7 +181,9 @@ then
 $$
 
 
+
 S^{3/2} = \left(\dfrac{1}{x^2}\right)^{1/2} = \dfrac{1}{x}
+
 
 
 $$

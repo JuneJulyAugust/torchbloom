@@ -23,7 +23,9 @@ Suppose that $\overline{A'B'}$ is the image of $\overline{AB}$ under the action 
 $$
 
 
+
 [\begin{aligned}2 & 1 \\ 1 & −2\end{aligned}]
+
 
 
 $$
@@ -35,7 +37,9 @@ To find the coordinates of $A'$ and $B'$ simultaneously, we first create a matri
 $$
 
 
+
 [\begin{aligned}1 & 2 \\ 1 & −1\end{aligned}]
+
 
 
 $$
@@ -45,7 +49,9 @@ Next, we compute the product $TX\mathbin{:}$
 $$
 
 
+
 [\begin{aligned}2 & 1 \\ 1 & −2\end{aligned}]
+
 
 
 $$
@@ -63,7 +69,9 @@ Consider the linear transformation $\mathbf T$ with matrix representation $T,$ g
 $$
 
 
+
 [\begin{aligned}2 & 3 \\ 1 & −1\end{aligned}]
+
 
 
 $$
@@ -79,7 +87,9 @@ To find the image of $\overline{AB}$ under the action of $\mathbf T$, we first c
 $$
 
 
+
 [\begin{aligned}2 & −1 \\ −1 & 1\end{aligned}]
+
 
 
 $$
@@ -89,7 +99,9 @@ Now, we compute the image of $X$ under the action of $\mathbf T$ by calculating 
 $$
 
 
+
 \begin{aligned}𝑇𝑋 & =[\begin{aligned}2 & 3 \\ 1 & −1\end{aligned}][\begin{aligned}2 & −1 \\ −1 & 1\end{aligned}] \\ & =[\begin{aligned}1 & 1 \\ 3 & −2\end{aligned}]\end{aligned}
+
 
 
 $$
@@ -107,7 +119,9 @@ Consider the linear transformation $\mathbf T$ with matrix representation $T,$ g
 $$
 
 
+
 [\begin{aligned}1 & −1 \\ 0 & −2\end{aligned}]
+
 
 
 $$
@@ -123,7 +137,9 @@ To find the image of $T$ under the action of $\mathbf T,$ we first create a matr
 $$
 
 
+
 [\begin{aligned}−1 & 0 & 2 \\ 2 & 0 & 1\end{aligned}]
+
 
 
 $$
@@ -133,7 +149,9 @@ Now, we compute the image of $X$ under the action of $\mathbf T$ by calculating 
 $$
 
 
+
 \begin{aligned}𝑇𝑋 & =[\begin{aligned}1 & −1 \\ 0 & −2\end{aligned}][\begin{aligned}−1 & 0 & 2 \\ 2 & 0 & 1\end{aligned}] \\ & =[\begin{aligned}−3 & 0 & 1 \\ −4 & 0 & −2\end{aligned}].\end{aligned}
+
 
 
 $$

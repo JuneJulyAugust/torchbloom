@@ -19,7 +19,9 @@ The trigonometric expression
 $$
 
 
+
 {\color{blue}R} \sin( x + {\color{red}\phi})
+
 
 
 $$
@@ -31,7 +33,9 @@ The sum or difference of a sine function and a cosine function with the same arg
 $$
 
 
+
 a \sin x \pm b \cos x
+
 
 
 $$
@@ -41,7 +45,9 @@ can be written in the form
 $$
 
 
+
 R \sin(x \pm \phi).
+
 
 
 $$
@@ -55,7 +61,9 @@ Let's write the expression
 $$
 
 
+
 3\sin{x}+\sqrt{3}\cos{x}
+
 
 
 $$
@@ -65,7 +73,9 @@ in amplitude-phase form. We start by expanding out the amplitude-phase form usin
 $$
 
 
+
 \begin{aligned}𝑅sin⁡(𝑥+𝜙) & =𝑅(sin⁡𝑥cos⁡𝜙+cos⁡𝑥sin⁡𝜙) \\ & =𝑅cos⁡𝜙sin⁡𝑥+𝑅sin⁡𝜙cos⁡𝑥\end{aligned}
+
 
 
 $$
@@ -75,7 +85,9 @@ So, we obtain the following equation:
 $$
 
 
+
 \begin{aligned}3sin⁡𝑥+\sqrt{√3}cos⁡𝑥 & =𝑅sin⁡(𝑥+𝜙) \\ 3sin⁡𝑥+\sqrt{√3}cos⁡𝑥 & =(𝑅cos⁡𝜙)sin⁡𝑥+(𝑅sin⁡𝜙)cos⁡𝑥\end{aligned}
+
 
 
 $$
@@ -85,7 +97,9 @@ First, we find the phase $\phi$. Equating the coefficients of $\sin x$ and $\cos
 $$
 
 
+
 \begin{aligned}𝑅cos⁡𝜙=3 \\ 𝑅sin⁡𝜙=\sqrt{√3}\end{aligned}
+
 
 
 $$
@@ -95,7 +109,9 @@ Dividing the second equation by the first one, we get
 $$
 
 
+
 \begin{aligned}\frac{𝑅sin⁡𝜙}{𝑅cos⁡𝜙} & =\frac{\sqrt{√3}}{3} \\ tan⁡𝜙 & =\frac{\sqrt{√3}}{3} \\ 𝜙 & =arctan⁡(\frac{\sqrt{√3}}{3}) \\ & =\frac{𝜋}{6}.\end{aligned}
+
 
 
 $$
@@ -105,7 +121,9 @@ Now, we find the amplitude $R.$ Squaring the first and the second equations of t
 $$
 
 
+
 \begin{aligned}(𝑅cos⁡𝜙)^{2}+(𝑅sin⁡𝜙)^{2} & =(3)^{2}+(\sqrt{√3})^{2} \\ 𝑅^{2}(cos^{2}⁡𝜙+sin^{2}⁡𝜙) & =9+3 \\ 𝑅^{2} & =12 \\ 𝑅 & =\sqrt{√12} \\ 𝑅 & =2\sqrt{√3}.\end{aligned}
+
 
 
 $$
@@ -117,7 +135,9 @@ Finally, we can write the initial expression in amplitude-phase form as follows:
 $$
 
 
+
 3\sin{x}+\sqrt{3}\cos{x} = {\color{blue}2\sqrt{3}} \sin \left(x + {\color{red}\dfrac{\pi}{6}} \right)
+
 
 
 $$
@@ -135,7 +155,9 @@ The sum formula for sine gives
 $$
 
 
+
 \begin{aligned}𝑅sin⁡(𝑥+𝜙) & =𝑅(sin⁡𝑥cos⁡𝜙+cos⁡𝑥sin⁡𝜙) \\ & =𝑅cos⁡𝜙sin⁡𝑥+𝑅sin⁡𝜙cos⁡𝑥.\end{aligned}
+
 
 
 $$
@@ -145,7 +167,9 @@ Therefore, by writing the given expression in the amplitude-phase form
 $$
 
 
+
 \sqrt{2}\sin x + \sqrt{7}\cos x = R\sin(x+\phi),
+
 
 
 $$
@@ -155,7 +179,9 @@ we get the following identity:
 $$
 
 
+
 \sqrt{2}\sin x + \sqrt{7}\cos x = (R \cos \phi ) \sin x + (R \sin \phi ) \cos x
+
 
 
 $$
@@ -165,7 +191,9 @@ Equating the coefficients of $\sin x$ and $\cos x,$ we have the following system
 $$
 
 
+
 \begin{aligned}𝑅cos⁡𝜙=\sqrt{√2} \\ 𝑅sin⁡𝜙=\sqrt{√7}\end{aligned}
+
 
 
 $$
@@ -175,7 +203,9 @@ Squaring the first and the second equations of the system and adding the results
 $$
 
 
+
 \begin{aligned}(𝑅cos⁡𝜙)^{2}+(𝑅sin⁡𝜙)^{2} & =\sqrt{√2}^{2}+\sqrt{√7}^{2} \\ 𝑅^{2}(cos^{2}⁡𝜙+sin^{2}⁡𝜙) & =2+7 \\ 𝑅^{2} & =9 \\ 𝑅 & =3.\end{aligned}
+
 
 
 $$
@@ -195,7 +225,9 @@ The difference formula for sine gives
 $$
 
 
+
 \begin{aligned}𝑅sin⁡(𝑥−𝜙) & =𝑅(sin⁡𝑥cos⁡𝜙−cos⁡𝑥sin⁡𝜙) \\ & =𝑅cos⁡𝜙sin⁡𝑥−𝑅sin⁡𝜙cos⁡𝑥.\end{aligned}
+
 
 
 $$
@@ -205,7 +237,9 @@ Therefore, by writing the given expression in the amplitude-phase form
 $$
 
 
+
 2 \sin x - 2 \cos x = R\sin(x-\phi),
+
 
 
 $$
@@ -215,7 +249,9 @@ we get the following identity:
 $$
 
 
+
 2 \sin x - 2 \cos x = (R \cos \phi ) \sin x - (R \sin \phi ) \cos x
+
 
 
 $$
@@ -225,7 +261,9 @@ Equating the coefficients of $\sin x$ and $\cos x,$ we get the following system 
 $$
 
 
+
 \begin{aligned}𝑅cos⁡𝜙=2 \\ 𝑅sin⁡𝜙=2\end{aligned}
+
 
 
 $$
@@ -235,7 +273,9 @@ Dividing the second equation by the first, we get
 $$
 
 
+
 \begin{aligned}\frac{𝑅sin⁡𝜙}{𝑅cos⁡𝜙} & =\frac{2}{2} \\ tan⁡𝜙 & =1 \\ 𝜙 & =arctan⁡(1) \\ & =45^{∘}.\end{aligned}
+
 
 
 $$
@@ -253,7 +293,9 @@ The difference formula for sine gives
 $$
 
 
+
 \begin{aligned}𝑅sin⁡(𝑥−𝜙) & =𝑅(sin⁡𝑥cos⁡𝜙−cos⁡𝑥sin⁡𝜙) \\ & =𝑅cos⁡𝜙sin⁡𝑥−𝑅sin⁡𝜙cos⁡𝑥.\end{aligned}
+
 
 
 $$
@@ -263,7 +305,9 @@ Therefore, by writing the given expression in the amplitude-phase form
 $$
 
 
+
 3 \sin x - 2 \cos x = R\sin(x-\phi) ,
+
 
 
 $$
@@ -273,7 +317,9 @@ we get the following identity:
 $$
 
 
+
 3 \sin x - 2 \cos x = (R \cos \phi ) \sin x - (R \sin \phi )\cos x
+
 
 
 $$
@@ -283,7 +329,9 @@ Equating the coefficients of $\sin x$ and $\cos x,$ we get the following system 
 $$
 
 
+
 \begin{aligned}𝑅cos⁡𝜙=3 \\ 𝑅sin⁡𝜙=2\end{aligned}
+
 
 
 $$
@@ -293,7 +341,9 @@ Dividing the second equation by the first, we get
 $$
 
 
+
 \begin{aligned}\frac{𝑅sin⁡𝜙}{𝑅cos⁡𝜙} & =\frac{2}{3} \\ tan⁡𝜙 & =\frac{2}{3} \\ 𝜙 & =arctan⁡(\frac{2}{3}) \\ & ≈0.588\,rad\end{aligned}
+
 
 
 $$
@@ -305,7 +355,9 @@ Now, we find the amplitude $R.$ Squaring the first and the second equations of t
 $$
 
 
+
 \begin{aligned}(𝑅cos⁡𝜙)^{2}+(𝑅sin⁡𝜙)^{2} & =(3)^{2}+(2)^{2} \\ 𝑅^{2}(cos^{2}⁡𝜙+sin^{2}⁡𝜙) & =9+4 \\ 𝑅^{2} & =13 \\ 𝑅 & =\sqrt{√13}.\end{aligned}
+
 
 
 $$
@@ -317,7 +369,9 @@ Finally, we can write the initial expression in amplitude-phase form as follows:
 $$
 
 
+
 3\sin(x)-2\cos(x) \approx \sqrt{13} \sin \left(x - 0.588 \right)
+
 
 
 $$
@@ -329,7 +383,9 @@ We've been using the amplitude-phase form for sine, but there is also an amplitu
 $$
 
 
+
 a \cos x \pm b \sin x
+
 
 
 $$
@@ -339,7 +395,9 @@ can be written in the form
 $$
 
 
+
 {\color{blue}R} \cos(x \mp {\color{red}\phi} )
+
 
 
 $$
@@ -353,7 +411,9 @@ Writing this more explicitly, we have
 $$
 
 
+
 \begin{aligned}𝑎cos⁡𝑥+𝑏sin⁡𝑥 & =𝑅cos⁡(𝑥−𝜙) \\ 𝑎cos⁡𝑥−𝑏sin⁡𝑥 & =𝑅cos⁡(𝑥+𝜙).\end{aligned}
+
 
 
 $$
@@ -363,7 +423,9 @@ For example, let's write the expression
 $$
 
 
+
 4\sin{x}+\cos{x}
+
 
 
 $$
@@ -373,7 +435,9 @@ in amplitude-phase form with cosine. We start by expanding out the amplitude-pha
 $$
 
 
+
 \begin{aligned}𝑅cos⁡(𝑥−𝜙) & =𝑅(cos⁡𝑥cos⁡𝜙+sin⁡𝑥sin⁡𝜙) \\ & =𝑅cos⁡𝜙cos⁡𝑥+𝑅sin⁡𝜙sin⁡𝑥\end{aligned}
+
 
 
 $$
@@ -383,7 +447,9 @@ So, we obtain the following equation:
 $$
 
 
+
 \begin{aligned}4sin⁡𝑥+cos⁡𝑥 & =𝑅cos⁡(𝑥−𝜙) \\ 4sin⁡𝑥+cos⁡𝑥 & =(𝑅sin⁡𝜙)sin⁡𝑥+(𝑅cos⁡𝜙)cos⁡𝑥\end{aligned}
+
 
 
 $$
@@ -393,7 +459,9 @@ First, we find the phase $\phi.$ Equating the coefficients of $\sin x$ and $\cos
 $$
 
 
+
 \begin{aligned}𝑅sin⁡𝜙=4 \\ 𝑅cos⁡𝜙=1\end{aligned}
+
 
 
 $$
@@ -403,7 +471,9 @@ Dividing the first equation by the second one, we get
 $$
 
 
+
 \begin{aligned}\frac{𝑅sin⁡𝜙}{𝑅cos⁡𝜙} & =\frac{4}{1} \\ tan⁡𝜙 & =4 \\ 𝜙 & =arctan⁡(4) \\ & ≈1.326\,rad\end{aligned}
+
 
 
 $$
@@ -415,7 +485,9 @@ Now, we find the amplitude $R.$ Squaring the first and the second equations of t
 $$
 
 
+
 \begin{aligned}(𝑅sin⁡𝜙)^{2}+(𝑅cos⁡𝜙)^{2} & =4^{2}+1^{2} \\ 𝑅^{2}(sin^{2}⁡𝜙+cos^{2}⁡𝜙) & =16+1 \\ 𝑅^{2} & =17 \\ 𝑅 & =\sqrt{√17}\end{aligned}
+
 
 
 $$
@@ -427,7 +499,9 @@ Finally, we can write the initial expression in amplitude-phase form as follows:
 $$
 
 
+
 \begin{aligned}4sin⁡𝑥+cos⁡𝑥 & =\sqrt{√17}cos⁡(𝑥−arctan⁡(4)) \\ & ≈\sqrt{√17}cos⁡(𝑥−1.326)\end{aligned}
+
 
 
 $$
@@ -445,7 +519,9 @@ The difference formula for cosine gives
 $$
 
 
+
 \begin{aligned}𝑅cos⁡(𝑥+𝜙) & =𝑅(cos⁡𝑥cos⁡𝜙−sin⁡𝑥sin⁡𝜙) \\ & =𝑅cos⁡𝜙cos⁡𝑥−𝑅sin⁡𝜙sin⁡𝑥.\end{aligned}
+
 
 
 $$
@@ -455,7 +531,9 @@ Therefore, by writing the given expression in the amplitude-phase form
 $$
 
 
+
 3\cos x - \sqrt{3}\sin x = R\cos(x+\phi)
+
 
 
 $$
@@ -465,7 +543,9 @@ we get the following identity:
 $$
 
 
+
 3\cos x - \sqrt{3}\sin x = (R \cos \phi) \cos x -( R \sin \phi )\sin x
+
 
 
 $$
@@ -475,7 +555,9 @@ Equating the coefficients of $\sin x$ and $\cos x,$ we get the following system 
 $$
 
 
+
 \begin{aligned}𝑅cos⁡𝜙=3 \\ 𝑅sin⁡𝜙=\sqrt{√3}\end{aligned}
+
 
 
 $$
@@ -485,7 +567,9 @@ Dividing the second equation by the first, we get
 $$
 
 
+
 \begin{aligned}\frac{𝑅sin⁡𝜙}{𝑅cos⁡𝜙} & =\frac{\sqrt{√3}}{3} \\ tan⁡𝜙 & =\frac{\sqrt{√3}}{3} \\ 𝜙 & =arctan⁡(\frac{\sqrt{√3}}{3}) \\ & =\frac{𝜋}{6}.\end{aligned}
+
 
 
 $$
@@ -495,7 +579,9 @@ Now, we find the amplitude $R.$ Squaring the first and the second equations of t
 $$
 
 
+
 \begin{aligned}(𝑅sin⁡𝜙)^{2}+(𝑅cos⁡𝜙)^{2} & =3^{2}+(\sqrt{√3})^{2} \\ 𝑅^{2}(sin^{2}⁡𝜙+cos^{2}⁡𝜙) & =9+3 \\ 𝑅^{2} & =12 \\ 𝑅 & =\sqrt{√12} \\ & =2\sqrt{√3}.\end{aligned}
+
 
 
 $$
@@ -507,7 +593,9 @@ Finally, we can write the initial expression in amplitude-phase form as follows:
 $$
 
 
+
 3\cos x - \sqrt{3}\sin x = 2\sqrt{3}\cos\left(x + \dfrac{\pi}{6}\right)
+
 
 
 $$

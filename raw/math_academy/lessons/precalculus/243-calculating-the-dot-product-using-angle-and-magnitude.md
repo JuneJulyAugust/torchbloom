@@ -17,7 +17,9 @@ The **dot product** (or **scalar product**) of two vectors $\mathbf{a}$ and $\ma
 $$
 
 
+
 \mathbf{a} \cdot \mathbf{b} = |\,\mathbf{a}\,| \cdot |\,\mathbf{b}\,| \cdot \cos\theta,
+
 
 
 $$
@@ -31,7 +33,9 @@ For example, suppose we know that $|\mathbf{a}|=2,$ $|\mathbf{b}|=4,$ and $\thet
 $$
 
 
+
 \begin{aligned}𝐚⋅𝐛 & =|\,𝐚\,|⋅|\,𝐛\,|⋅cos⁡𝜃 \\ & =2⋅4⋅cos⁡(\frac{2𝜋}{3}) \\ & =2⋅4⋅(−\frac{1}{2}) \\ & =−4\end{aligned}
+
 
 
 $$
@@ -49,7 +53,9 @@ Using the formula for the dot product, we obtain:
 $$
 
 
+
 \begin{aligned}𝐚⋅𝐛 & =|\,𝐚\,|⋅|\,𝐛\,|⋅cos⁡𝜃 \\ & =45⋅12⋅cos⁡77^{∘} \\ & ≈45⋅12⋅0.224\,951 \\ & ≈121.474\end{aligned}
+
 
 
 $$
@@ -67,7 +73,9 @@ If $\mathbf{a}$ makes an angle of $127^\circ$ with the positive $x$-axis and $\m
 $$
 
 
+
 \begin{aligned}𝜃 & =|127^{∘}−(−23^{∘})|=150^{∘}.\end{aligned}
+
 
 
 $$
@@ -79,7 +87,9 @@ Now, using the formula for the dot product, we obtain:
 $$
 
 
+
 \begin{aligned}𝐚⋅𝐛 & =|\,𝐚\,|⋅|\,𝐛\,|⋅cos⁡𝜃 \\ & =4⋅3⋅cos⁡150^{∘} \\ & =4⋅3⋅(−\frac{\sqrt{√3}}{2}) \\ & =−6\sqrt{√3}\end{aligned}
+
 
 
 $$
@@ -107,7 +117,9 @@ Using the properties of the dot product, we have:
 $$
 
 
+
 \begin{aligned}(2𝐚−𝐛)⋅𝐜 & =(2𝐚)⋅𝐜−𝐛⋅𝐜 \\ & =2(𝐚⋅𝐜)−𝐛⋅𝐜 \\ & =2⋅2−(−5) \\ & =9\end{aligned}
+
 
 
 $$
@@ -119,7 +131,9 @@ Two nonzero vectors $\mathbf{a}$ and $\mathbf{b}$ are **perpendicular** if the a
 $$
 
 
+
 \mathbf{a} \perp \mathbf{b}
+
 
 
 $$
@@ -129,7 +143,9 @@ In general, the dot product of two perpendicular vectors is $0.$ If $\mathbf{a} 
 $$
 
 
+
 \begin{aligned}𝐚⋅𝐛 & =|\,𝐚\,|⋅|\,𝐛\,|⋅cos⁡90^{∘} \\ & =|\,𝐚\,|⋅|\,𝐛\,|⋅0 \\ & =0.\end{aligned}
+
 
 
 $$
@@ -139,7 +155,9 @@ The converse is also true. If $\mathbf a$ and $\mathbf b$ are nonzero vectors, t
 $$
 
 
+
 \mathbf{a} \perp \mathbf{b} \quad\Leftrightarrow\quad \mathbf{a} \cdot \mathbf{b} = 0.
+
 
 
 $$
@@ -159,7 +177,9 @@ We can confirm this. Using the formula for the dot product, we obtain:
 $$
 
 
+
 \begin{aligned}𝐚⋅𝐛 & =|\,𝐚\,|⋅|\,𝐛\,|⋅cos⁡𝜃 \\ & =13\sqrt{√17}⋅146⋅cos⁡(\frac{𝜋}{2}) \\ & =13\sqrt{√17}⋅146⋅0 \\ & =0\end{aligned}
+
 
 
 $$

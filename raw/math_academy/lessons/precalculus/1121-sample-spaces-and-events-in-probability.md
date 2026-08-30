@@ -63,7 +63,9 @@ For example, if we roll a die and record the number that appears, the sample spa
 $$
 
 
+
 \{1, 2, 3, 4, 5, 6\}.
+
 
 
 $$
@@ -73,7 +75,9 @@ If we toss a coin and record whether it lands on heads or tails, the sample spac
 $$
 
 
+
 \{\text{H}, \text{T}\}.
+
 
 
 $$
@@ -85,7 +89,9 @@ For example, if we toss a coin twice and record the number of heads, the sample 
 $$
 
 
+
 \{0, 1, 2\}.
+
 
 
 $$
@@ -97,7 +103,9 @@ Notice that the sample space depends on what we *choose* to record, not just on 
 $$
 
 
+
 \{(\text{H},\text{H}), (\text{H},\text{T}), (\text{T},\text{H}), (\text{T},\text{T})\}.
+
 
 
 $$
@@ -125,7 +133,9 @@ We list all possible outcomes using curly braces. Therefore, the sample space is
 $$
 
 
+
 \{0, 1, 2\}.
+
 
 
 $$
@@ -141,7 +151,9 @@ The sample space is
 $$
 
 
+
 \{1, 2, 3, 4, 5, 6\}.
+
 
 
 $$
@@ -151,7 +163,9 @@ If we are interested in rolling a $3,$ then the event is simply
 $$
 
 
+
 \{3\}.
+
 
 
 $$
@@ -161,7 +175,9 @@ Or, if we are interested in getting a number greater than $4,$ then the event co
 $$
 
 
+
 \{5, 6\}.
+
 
 
 $$
@@ -189,7 +205,9 @@ It is possible to obtain any integer value from $2$ to $12.$ So, the sample spac
 $$
 
 
+
 \{2,3,4,5,6,7,8,9,10,11,12\}.
+
 
 
 $$
@@ -199,7 +217,9 @@ The event that the sum is even is the collection of outcomes in the sample space
 $$
 
 
+
 \{2, 4, 6, 8, 10, 12\}.
+
 
 
 $$

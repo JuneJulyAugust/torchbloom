@@ -16,7 +16,9 @@ Suppose we want to find all of the solutions to the equation
 $$
 
 
+
 \cos x = \dfrac{\sqrt{3}}{2}, \qquad 0^\circ \leq x < 360^\circ.
+
 
 
 $$
@@ -26,7 +28,9 @@ We can immediately calculate a solution, called the **principal value**, as foll
 $$
 
 
+
 x = \arccos\left(\frac{\sqrt{3}}{2}\right) = 30^\circ
+
 
 
 $$
@@ -42,7 +46,9 @@ Since the second solution $x_2$ lies in the $4$th quadrant, we can find it using
 $$
 
 
+
 \begin{aligned}𝑥_{2} & =360^{∘}−𝜃_{𝑅} \\ & =360^{∘}−30^{∘} \\ & =330^{∘}\end{aligned}
+
 
 
 $$
@@ -62,7 +68,9 @@ First, we rearrange the equation, isolating $\cos x\mathbin{:}$
 $$
 
 
+
 \begin{aligned}2cos⁡𝑥+\sqrt{√2} & =0 \\ 2cos⁡𝑥 & =−\sqrt{√2} \\ cos⁡𝑥 & =−\frac{\sqrt{√2}}{2}\end{aligned}
+
 
 
 $$
@@ -72,7 +80,9 @@ Now, we find the principal value:
 $$
 
 
+
 \begin{aligned}𝑥=arccos⁡(−\frac{\sqrt{√2}}{2})=\frac{3𝜋}{4}\end{aligned}
+
 
 
 $$
@@ -88,7 +98,9 @@ Since the second solution $x_2$ lies in the $3$rd quadrant, we can find it using
 $$
 
 
+
 \begin{aligned}𝑥_{2} & =𝜋+𝜃_{𝑅} \\ & =𝜋+\frac{𝜋}{4} \\ & =\frac{5𝜋}{4}\end{aligned}
+
 
 
 $$
@@ -108,7 +120,9 @@ First, we find the principal value:
 $$
 
 
+
 \begin{aligned}𝑥=arccos⁡(\frac{4}{5})=0.643\,501…≈0.644\end{aligned}
+
 
 
 $$
@@ -124,7 +138,9 @@ Since the second solution $x_2$ lies in the $4$th quadrant, we can find it using
 $$
 
 
+
 \begin{aligned}𝑥_{2} & =2𝜋−𝜃_{𝑅} \\ & =2𝜋−0.644 \\ & =5.639\end{aligned}
+
 
 
 $$
@@ -138,7 +154,9 @@ Suppose we want to find all of the solutions to
 $$
 
 
+
 −180^{∘}<𝑥≤180^{∘}.
+
 
 
 $$
@@ -150,7 +168,9 @@ First, we find the principal value:
 $$
 
 
+
 x = \arccos\left(\frac{\sqrt{3}}{2}\right) = 30^\circ
+
 
 
 $$
@@ -166,7 +186,9 @@ A second solution $X$ lies in the $4$th quadrant, and we can find it using the r
 $$
 
 
+
 \begin{aligned}𝑋 & =360^{∘}−𝜃_{𝑅} \\ & =360^{∘}−30^{∘} \\ & =330^{∘}\end{aligned}
+
 
 
 $$
@@ -176,7 +198,9 @@ However, this value is not in the domain $-180^\circ < x \leq 180^\circ.$ To get
 $$
 
 
+
 \begin{aligned}𝑥_{2} & =𝑋−360^{∘} \\ & =330^{∘}−360^{∘} \\ & =−30^{∘}\end{aligned}
+
 
 
 $$
@@ -196,7 +220,9 @@ First, we rearrange the equation, isolating $\cos{x} \mathbin{:}$
 $$
 
 
+
 \begin{aligned}2cos⁡𝑥+\sqrt{√2} & =0 \\ 2cos⁡𝑥 & =−\sqrt{√2} \\ cos⁡𝑥 & =−\frac{\sqrt{√2}}{2}\end{aligned}
+
 
 
 $$
@@ -206,7 +232,9 @@ Now, we find the principal value:
 $$
 
 
+
 \begin{aligned}𝑥=arccos⁡(−\frac{\sqrt{√2}}{2})=135^{∘}\end{aligned}
+
 
 
 $$
@@ -222,7 +250,9 @@ A second solution $X$ lies in the $3$rd quadrant, and we can find it using the r
 $$
 
 
+
 \begin{aligned}𝑋 & =180^{∘}+𝜃_{𝑅} \\ & =180^{∘}+45^{∘} \\ & =225^{∘}\end{aligned}
+
 
 
 $$
@@ -232,7 +262,9 @@ However, this value is not in the required domain. To get a second solution that
 $$
 
 
+
 \begin{aligned}𝑥_{2} & =𝑋−360^{∘} \\ & =225^{∘}−360^{∘} \\ & =−135^{∘}\end{aligned}
+
 
 
 $$
@@ -254,7 +286,9 @@ First, we find the principal value:
 $$
 
 
+
 \begin{aligned}𝑥=arccos⁡(1)=0^{∘}\end{aligned}
+
 
 
 $$
@@ -266,7 +300,9 @@ This solution is a quadrantal angle. To find the remaining solutions, we use our
 $$
 
 
+
 x = n (360^\circ),
+
 
 
 $$
@@ -282,7 +318,9 @@ Can we solve the following equation?
 $$
 
 
+
 0^{∘}≤𝑥<360^{∘}
+
 
 
 $$
@@ -292,7 +330,9 @@ Remember that the range of the cosine function is given by
 $$
 
 
+
 -1 \leq \cos{x} \leq 1.
+
 
 
 $$
@@ -304,7 +344,9 @@ In general, the equation
 $$
 
 
+
 \cos x = a
+
 
 
 $$

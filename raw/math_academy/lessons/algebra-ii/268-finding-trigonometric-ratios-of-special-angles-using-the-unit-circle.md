@@ -111,7 +111,9 @@ Therefore, using the fact that $\csc{\theta} = \dfrac{1}{\sin\theta},$ we have
 $$
 
 
+
 \csc 120^\circ = \dfrac{1}{\sin 120^\circ } = \dfrac{2}{\sqrt 3} = \dfrac{2\sqrt 3}{3}.
+
 
 
 $$
@@ -139,7 +141,9 @@ Therefore, using the fact that $\tan{\theta} = \dfrac{\sin\theta}{\cos\theta},$ 
 $$
 
 
+
 \tan\left(\dfrac{4\pi}{3}\right) = \dfrac{\sin{\left(\dfrac{4\pi}{3}\right) }}{\cos{\left(\dfrac{4\pi}{3}\right) }} = \dfrac{\left(-\dfrac {\sqrt 3} 2\right)}{\left(-\dfrac 1 2\right)} = \sqrt{3}.
+
 
 
 $$

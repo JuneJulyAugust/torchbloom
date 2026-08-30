@@ -26,7 +26,9 @@ If the data is exponential, then the points should be scattered along a curve of
 $$
 
 
+
 y=a b^x,
+
 
 
 $$
@@ -38,7 +40,9 @@ If we take the logarithm to base $10$ on both sides of this equation, we get
 $$
 
 
+
 \log(y) = \log(ab^x).
+
 
 
 $$
@@ -48,7 +52,9 @@ Applying the product rule for logarithms, we get
 $$
 
 
+
 \log(y) = \log(a) + \log(b^x).
+
 
 
 $$
@@ -58,7 +64,9 @@ We then apply the power rule, which yields
 $$
 
 
+
 \log(y) =\log(a) + x\cdot \log(b) \qquad\qquad(\ast)
+
 
 
 $$
@@ -68,7 +76,9 @@ Now, we define
 $$
 
 
+
 Y = \log(y), \qquad A = \log{a}, \qquad B = \log{b}.
+
 
 
 $$
@@ -78,7 +88,9 @@ With these definitions, equation $(\ast)$ becomes
 $$
 
 
+
 Y = A + Bx,
+
 
 
 $$
@@ -116,7 +128,9 @@ To get the corresponding semi-log plot, we apply $\log$ to both sides of $y = a 
 $$
 
 
+
 \begin{aligned}𝑦 & =𝑎⋅𝑏^{𝑥} \\ log⁡𝑦 & =log⁡(𝑎⋅𝑏^{𝑥}) \\ log⁡𝑦 & =log⁡𝑎+log⁡𝑏^{𝑥} \\ log⁡𝑦 & =log⁡𝑎+𝑥⋅log⁡𝑏 \\ 𝑌 & =𝐴+𝐵𝑥,\end{aligned}
+
 
 
 $$
@@ -126,7 +140,9 @@ where
 $$
 
 
+
 Y=\log y,\qquad A=\log a,\qquad B=\log b.
+
 
 
 $$
@@ -148,7 +164,9 @@ The trend line equation for our semi-log scatter plot is
 $$
 
 
+
 Y = A + Bx,
+
 
 
 $$
@@ -158,7 +176,9 @@ where
 $$
 
 
+
 Y=\log y,\qquad A=\log a,\qquad B=\log b.
+
 
 
 $$
@@ -196,7 +216,9 @@ To get the corresponding semi-log plot for $y = a \cdot b^x$, we apply $\log$ to
 $$
 
 
+
 \begin{aligned}𝑦 & =𝑎⋅𝑏^{𝑥} \\ log⁡𝑦 & =log⁡(𝑎⋅𝑏^{𝑥}) \\ log⁡𝑦 & =log⁡𝑎+log⁡𝑏^{𝑥} \\ log⁡𝑦 & =log⁡𝑎+𝑥⋅log⁡𝑏 \\ 𝑌 & =𝐴+𝐵𝑥,\end{aligned}
+
 
 
 $$
@@ -206,7 +228,9 @@ where
 $$
 
 
+
 Y=\log y,\qquad A=\log a,\qquad B=\log b.
+
 
 
 $$
@@ -216,7 +240,9 @@ As a result, we have
 $$
 
 
+
 \begin{aligned}𝐵 & <0 \\ log⁡𝑏 & <0 \\ 0<𝑏 & <1\end{aligned}
+
 
 
 $$
@@ -226,7 +252,9 @@ and
 $$
 
 
+
 \begin{aligned}𝐴 & >0 \\ log⁡𝑎 & >0 \\ 𝑎 & >1.\end{aligned}
+
 
 
 $$
@@ -236,7 +264,9 @@ Among the given options, the only exponential model that fits the description is
 $$
 
 
+
 y \approx 3 \cdot (0.4)^x.
+
 
 
 $$

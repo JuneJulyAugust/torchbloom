@@ -16,7 +16,9 @@ Suppose we want to find all of the solutions to the equation
 $$
 
 
+
 \tan\left(x-\dfrac{\pi}{6}\right) = \sqrt 3, \qquad 0 \leq x < 2\pi.
+
 
 
 $$
@@ -28,7 +30,9 @@ We know that the general solution to the elementary equation $\tan{X} = \sqrt 3$
 $$
 
 
+
 X = \dfrac{\pi}3 + n\pi,
+
 
 
 $$
@@ -40,7 +44,9 @@ To find the general solution of the transformed tangent equation, we replace $X$
 $$
 
 
+
 x-\dfrac{\pi}6 = \dfrac{\pi}3 + n\pi .
+
 
 
 $$
@@ -50,7 +56,9 @@ We now solve this equation for $x,$ as follows:
 $$
 
 
+
 \begin{aligned}𝑥 & =\frac{𝜋}{6}+\frac{𝜋}{3}+𝑛𝜋 \\ 𝑥 & =\frac{𝜋}{6}+\frac{2𝜋}{6}+𝑛𝜋 \\ 𝑥 & =\frac{3𝜋}{6}+𝑛𝜋 \\ 𝑥 & =\frac{𝜋}{2}+𝑛𝜋 \\ 𝑥 & =\frac{𝜋}{2}+\frac{2𝑛𝜋}{2} \\ 𝑥 & =\frac{(1+2𝑛)𝜋}{2}\end{aligned}
+
 
 
 $$
@@ -66,7 +74,9 @@ All other values of $n$ generate solutions outside the domain $0\leq x < 2\pi.$ 
 $$
 
 
+
 x_1 = \dfrac{\pi}2, \qquad x_2= \dfrac{3\pi}2.
+
 
 
 $$
@@ -116,7 +126,9 @@ First, we rearrange the equation as follows:
 $$
 
 
+
 \begin{aligned}2\sqrt{√3}tan⁡(2𝑥+\frac{𝜋}{3})−2 & =0 \\ 2\sqrt{√3}tan⁡(2𝑥+\frac{𝜋}{3}) & =2 \\ tan⁡(2𝑥+\frac{𝜋}{3}) & =\frac{1}{\sqrt{√3}} \\ tan⁡(2𝑥+\frac{𝜋}{3}) & =\frac{\sqrt{√3}}{3}\end{aligned}
+
 
 
 $$
@@ -128,7 +140,9 @@ The general solution to our equation is
 $$
 
 
+
 \begin{aligned}2𝑥+\frac{𝜋}{3} & =\frac{𝜋}{6}+𝑛𝜋.\end{aligned}
+
 
 
 $$
@@ -138,7 +152,9 @@ Solving the equation above for $x,$ we get
 $$
 
 
+
 \begin{aligned}2𝑥 & =−\frac{𝜋}{3}+\frac{𝜋}{6}+𝑛𝜋 \\ 2𝑥 & =−\frac{𝜋}{6}+𝑛𝜋 \\ 𝑥 & =−\frac{𝜋}{12}+\frac{𝑛𝜋}{2} \\ 𝑥 & =\frac{(6𝑛−1)𝜋}{12}.\end{aligned}
+
 
 
 $$
@@ -158,7 +174,9 @@ All other values of $n$ generate solutions outside the domain $0 \leq x \lt 2\pi
 $$
 
 
+
 x = \dfrac{5\pi}{12}, \dfrac{11\pi}{12}, \dfrac{17\pi}{12}, \dfrac{23\pi}{12} .
+
 
 
 $$
@@ -178,7 +196,9 @@ The general solution to our equation is
 $$
 
 
+
 \begin{aligned}3𝑥+\frac{𝜋}{4} & =\frac{𝜋}{4}+𝑛𝜋.\end{aligned}
+
 
 
 $$
@@ -188,7 +208,9 @@ Solving the equation above for $x,$ we get
 $$
 
 
+
 \begin{aligned}3𝑥 & =−\frac{𝜋}{4}+\frac{𝜋}{4}+𝑛𝜋 \\ 3𝑥 & =𝑛𝜋 \\ 𝑥 & =\frac{𝑛𝜋}{3}.\end{aligned}
+
 
 
 $$
@@ -208,7 +230,9 @@ All other values of $n$ generate solutions outside the domain $-\pi < x \leq \pi
 $$
 
 
+
 x = 0,\, \pm \dfrac{\pi}{3},\, \pm\dfrac{2\pi}{3}, \, \pi.
+
 
 
 $$

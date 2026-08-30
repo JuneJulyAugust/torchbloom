@@ -22,7 +22,9 @@ So, for example, the set of the primary colors would be written as
 $$
 
 
+
 S =\{ \text{yellow}, \: \text{red}, \: \text{blue} \}.
+
 
 
 $$
@@ -34,7 +36,9 @@ A set that does not contain any elements is known as the **null set** or **empty
 $$
 
 
+
 \emptyset \quad \text{or} \quad \{\}.
+
 
 
 $$
@@ -56,7 +60,9 @@ List the elements of the following set:
 $$
 
 
+
 A = \big\{a, c,3, \{c,3 \}, \emptyset, \{\emptyset\}\big\}
+
 
 
 $$
@@ -68,7 +74,9 @@ The elements of the set $A$ are as follows:
 $$
 
 
+
 a, \quad c, \quad 3, \quad \{c,3\}, \quad \emptyset, \quad \{\emptyset\}
+
 
 
 $$
@@ -116,7 +124,9 @@ There is a special notation, $\in,$ for expressing elements of sets. For example
 $$
 
 
+
 a \in A.
+
 
 
 $$
@@ -126,7 +136,9 @@ For example, for the set $S,$ given by
 $$
 
 
+
 S = \{ \text{yellow}, \text{red}, \text{blue} \},
+
 
 
 $$
@@ -136,7 +148,9 @@ we can write
 $$
 
 
+
 \text{yellow}\in S.
+
 
 
 $$
@@ -146,7 +160,9 @@ Similarly, if $a$ is *not* an element of $A,$ then we write
 $$
 
 
+
 a \notin A.
+
 
 
 $$
@@ -156,7 +172,9 @@ For example,
 $$
 
 
+
 \text{green} \notin S.
+
 
 
 $$
@@ -182,7 +200,9 @@ All together, we have the following statement:
 $$
 
 
+
 1,2 \in S\quad \textrm{and}\quad 3,4,5 \notin S
+
 
 
 $$
@@ -196,7 +216,9 @@ For example, the set $A$ containing all positive even integers less than $20$ co
 $$
 
 
+
 A = \{2, \: 4, \: 6, \: 8, \: 10, \: 12, \: 14, \: 16, \: 18\}
+
 
 
 $$

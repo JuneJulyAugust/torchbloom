@@ -19,7 +19,9 @@ Furthermore, any such polynomial can be factored as
 $$
 
 
+
 ax^3+bx^2+cx + d = a(x-x_1)(x-x_2)(x-x_3),
+
 
 
 $$
@@ -43,7 +45,9 @@ Let's consider some examples.
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =(𝑥−(−2))(𝑥−1)(𝑥−3) \\ & =(𝑥+2)(𝑥−1)(𝑥−3)\end{aligned}
+
 
 
 $$
@@ -53,7 +57,9 @@ $$
 $$
 
 
+
 \begin{aligned}𝑔(𝑥) & =4(𝑥−\frac{1}{2})(𝑥−\frac{1}{2})(𝑥−3) \\ & =4(𝑥−\frac{1}{2})^{2}(𝑥−3)\end{aligned}
+
 
 
 $$
@@ -63,7 +69,9 @@ $$
 $$
 
 
+
 \begin{aligned}ℎ(𝑥) & =(𝑥−1)(𝑥−1)(𝑥−1) \\ & =(𝑥−1)^{3}\end{aligned}
+
 
 
 $$
@@ -73,7 +81,9 @@ $$
 $$
 
 
+
 \begin{aligned}𝑘(𝑥) & =(𝑥−2i)(𝑥−(−2i))(𝑥−1) \\ & =(𝑥−2i)(𝑥+2i)(𝑥−1)\end{aligned}
+
 
 
 $$
@@ -91,7 +101,9 @@ Since our cubic polynomial has roots ${\color{black}x_1=x_2=2}$ and ${\color{bla
 $$
 
 
+
 \begin{aligned}𝑎(𝑥−𝑥_{1})(𝑥−𝑥_{2})(𝑥−𝑥_{3}) & =3(𝑥−2)(𝑥−2)(𝑥−1)\end{aligned}
+
 
 
 $$
@@ -101,7 +113,9 @@ Expanding the parentheses, we obtain
 $$
 
 
+
 \begin{aligned}3(𝑥−2)(𝑥−2)(𝑥−1) & =3(𝑥^{2}−4𝑥+4)(𝑥−1) \\ & =3(𝑥^{3}−𝑥^{2}−4𝑥^{2}+4𝑥+4𝑥−4) \\ & =3(𝑥^{3}−5𝑥^{2}+8𝑥−4) \\ & =3𝑥^{3}−15𝑥^{2}+24𝑥−12.\end{aligned}
+
 
 
 $$
@@ -125,7 +139,9 @@ Therefore, we can write the polynomial as follows:
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =𝑎(𝑥−𝑥_{1})(𝑥−𝑥_{2})(𝑥−𝑥_{3}) \\ & =(𝑥−2)(𝑥−(−2+i))(𝑥−(−2−i))\end{aligned}
+
 
 
 $$
@@ -135,7 +151,9 @@ Expanding the parentheses, we obtain
 $$
 
 
+
 \begin{aligned}(𝑥−2)(𝑥−(−2+i))(𝑥−(−2−i)) & = \\ (𝑥−2)(𝑥^{2}−𝑥(−2−i)−𝑥(−2+i)+(−2+i)(−2−i)) & = \\ (𝑥−2)(𝑥^{2}+4𝑥+5) & = \\ 𝑥^{3}+4𝑥^{2}+5𝑥−2𝑥^{2}−8𝑥−10 & = \\ 𝑥^{3}+2𝑥^{2}−3𝑥−10 & .\end{aligned}
+
 
 
 $$
@@ -151,7 +169,9 @@ Suppose that $p(x)$ is a polynomial of degree $n$ with real coefficients, given 
 $$
 
 
+
 p(x) = a_nx^n+\ldots+a_1x+a_0, \qquad a_n\neq 0.
+
 
 
 $$
@@ -163,7 +183,9 @@ Furthermore, $p(x)$ can be factored as follows:
 $$
 
 
+
 p(x) = a_n(x-x_1)(x-x_2)(x-x_3)\cdots (x-x_{n})
+
 
 
 $$

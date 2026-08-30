@@ -17,7 +17,9 @@ Suppose we want to solve the equation
 $$
 
 
+
 \csc x = \sqrt{2}, \qquad 0^\circ \leq x < 360^\circ.
+
 
 
 $$
@@ -27,7 +29,9 @@ Most calculators don't have an $\textrm{arccsc}$ button, so we can't get a princ
 $$
 
 
+
 \begin{aligned}csc⁡𝑥 & =\sqrt{√2} \\ \frac{1}{sin⁡𝑥} & =\sqrt{√2} \\ sin⁡𝑥 & =\frac{1}{\sqrt{√2}}\end{aligned}
+
 
 
 $$
@@ -37,7 +41,9 @@ Now, we can proceed as usual. Our principal value is
 $$
 
 
+
 x = \arcsin \left(\dfrac{1}{\sqrt{2}} \right)= 45^\circ.
+
 
 
 $$
@@ -53,7 +59,9 @@ Since the second solution $x_2$ lies in the $2$nd quadrant, we can find it using
 $$
 
 
+
 x_2 = 180^\circ - 45^\circ = 135^\circ .
+
 
 
 $$
@@ -73,7 +81,9 @@ First, we rearrange the equation, isolating $\csc {x} \mathbin{:}$
 $$
 
 
+
 \begin{aligned}2csc⁡𝑥+4 & =0 \\ 2csc⁡𝑥 & =−4 \\ csc⁡𝑥 & =−2.\end{aligned}
+
 
 
 $$
@@ -83,7 +93,9 @@ Recall that $\csc{x} = \dfrac{1}{\sin{x}}.$ Therefore the given equation is equi
 $$
 
 
+
 \sin{x} = \dfrac{1}{(-2)} = -\frac{1}{2}.
+
 
 
 $$
@@ -93,7 +105,9 @@ Now, we find the principal value:
 $$
 
 
+
 x = \arcsin\left(-\dfrac{1}{2}\right) = -\dfrac{\pi}{6}
+
 
 
 $$
@@ -103,7 +117,9 @@ This value is outside the required domain $0 < x < 2\pi.$ To get a value inside 
 $$
 
 
+
 x_1 = x + 2\pi = -\dfrac \pi 6 + 2\pi = \dfrac{11\pi}6
+
 
 
 $$
@@ -119,7 +135,9 @@ Since the second solution $x_2$ lies in the $3$rd quadrant, we can find it using
 $$
 
 
+
 \begin{aligned}𝑥_{2} & =𝜋+𝜃_{𝑅} \\ & =𝜋+\frac{𝜋}{6} \\ & =\frac{7𝜋}{6}\end{aligned}
+
 
 
 $$
@@ -139,7 +157,9 @@ First, we rearrange the equation, isolating $\csc {x} \mathbin{:}$
 $$
 
 
+
 \begin{aligned}\frac{csc⁡𝑥}{5}−1 & =0 \\ \frac{csc⁡𝑥}{5} & =1 \\ csc⁡𝑥 & =5\end{aligned}
+
 
 
 $$
@@ -149,7 +169,9 @@ Recall that $\csc{x} = \dfrac{1}{\sin{x}},$ therefore the given equation is equi
 $$
 
 
+
 \sin{x} = \frac{1}{5}.
+
 
 
 $$
@@ -159,7 +181,9 @@ Now, we find the principal value:
 $$
 
 
+
 \begin{aligned}𝑥=arcsin⁡(\frac{1}{5})=0.201\,357…≈0.201\end{aligned}
+
 
 
 $$
@@ -175,7 +199,9 @@ Since the second solution $x_2$ lies in the $2$nd quadrant, we can find it using
 $$
 
 
+
 \begin{aligned}𝑥_{2} & =𝜋−𝜃_{𝑅} \\ & =𝜋−0.201 \\ & ≈2.941\end{aligned}
+
 
 
 $$
@@ -189,7 +215,9 @@ The same method also works for solving an equation involving the cosecant functi
 $$
 
 
+
 \csc x = \sqrt{2}, \qquad -360^\circ < x < 360^\circ.
+
 
 
 $$
@@ -199,7 +227,9 @@ Recall that $\csc{x} = \dfrac{1}{\sin{x}}.$ Therefore, the given equation is equ
 $$
 
 
+
 \sin{x} = \frac{1}{\sqrt 2}.
+
 
 
 $$
@@ -209,7 +239,9 @@ Now, we find a principal value:
 $$
 
 
+
 x = \arcsin \left(\dfrac{1}{\sqrt{2}} \right)= 45^\circ.
+
 
 
 $$
@@ -225,7 +257,9 @@ Since the second solution $\color{blue}x_2$ lies in the $2$nd quadrant, we can f
 $$
 
 
+
 {\color{blue}x_2} = 180^\circ - 45^\circ = 135^\circ
+
 
 
 $$
@@ -237,7 +271,9 @@ To get the remaining solutions in the desired domain, we need to find angles tha
 $$
 
 
+
 \begin{aligned}𝑥_{3} & =𝑥_{1}−360^{∘}=45^{∘}−360^{∘}=−315^{∘} \\ 𝑥_{4} & =𝑥_{2}−360^{∘}=135^{∘}−360^{∘}=−225^{∘}\end{aligned}
+
 
 
 $$
@@ -259,7 +295,9 @@ First, we rearrange the equation, isolating $\csc {x} \mathbin{:}$
 $$
 
 
+
 \begin{aligned}2csc⁡𝑥+4 & =0 \\ 2csc⁡𝑥 & =−4 \\ csc⁡𝑥 & =−2.\end{aligned}
+
 
 
 $$
@@ -269,7 +307,9 @@ Recall that $\csc{x} = \dfrac{1}{\sin{x}}.$ Therefore, the given equation is equ
 $$
 
 
+
 \sin{x} = \dfrac{1}{(-2)} = -\frac{1}{2}.
+
 
 
 $$
@@ -279,7 +319,9 @@ Now, we find the principal value:
 $$
 
 
+
 x = \arcsin\left(-\dfrac{1}{2}\right) = -\dfrac{\pi}{6}
+
 
 
 $$
@@ -289,7 +331,9 @@ This value is outside the required domain. To get a value inside the required do
 $$
 
 
+
 x_1 = x+2\pi = -\dfrac{\pi}{6} + 2\pi = \dfrac{11\pi}6.
+
 
 
 $$
@@ -305,7 +349,9 @@ Since the second solution $x_2$ lies in the $2$nd quadrant, we can find it using
 $$
 
 
+
 \begin{aligned}𝑥_{2} & =𝜋+𝜃_{𝑅} \\ & =𝜋+\frac{𝜋}{6} \\ & =\frac{7𝜋}{6}\end{aligned}
+
 
 
 $$
@@ -315,7 +361,9 @@ To get the remaining solutions in the given interval, we need to find angles tha
 $$
 
 
+
 \begin{aligned}𝑥_{3} & =𝑥_{1}+2𝜋=\frac{11𝜋}{6}+2𝜋=\frac{23𝜋}{6} \\ 𝑥_{4} & =𝑥_{2}+2𝜋=\frac{7𝜋}{6}+2𝜋=\frac{19𝜋}{6}\end{aligned}
+
 
 
 $$
@@ -331,7 +379,9 @@ Can we find any solutions to the equation
 $$
 
 
+
 \csc{x} = \dfrac{1}{2}, \qquad 0 \leq x < 2\pi?
+
 
 
 $$
@@ -341,7 +391,9 @@ Recall that $\csc{x}= \dfrac{1}{\sin{x}}.$ Therefore, the given equation is equi
 $$
 
 
+
 \sin{x} = 2.
+
 
 
 $$
@@ -363,7 +415,9 @@ Recall that $\csc{x} = \dfrac{1}{\sin{x}}.$ Therefore, the given equation is equ
 $$
 
 
+
 \sin{x} =\dfrac{5}{2}.
+
 
 
 $$

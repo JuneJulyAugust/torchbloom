@@ -24,7 +24,9 @@ For example, let's consider the following radical function:
 $$
 
 
+
 f(x) = 3\sqrt{x} + 2
+
 
 
 $$
@@ -36,7 +38,9 @@ To compute the inverse of $f(x),$ we follow the usual four steps:
 $$
 
 
+
 y = 3\sqrt{x} + 2
+
 
 
 $$
@@ -46,7 +50,9 @@ $$
 $$
 
 
+
 x = 3\sqrt{y} + 2
+
 
 
 $$
@@ -56,7 +62,9 @@ $$
 $$
 
 
+
 \begin{aligned}𝑥 & =3\sqrt{√𝑦}+2 \\ 3\sqrt{√𝑦} & =𝑥−2 \\ \sqrt{√𝑦} & =\frac{1}{3}(𝑥−2) \\ (\sqrt{√𝑦})^{2} & =(\frac{1}{3}(𝑥−2))^{2} \\ 𝑦 & =\frac{1}{9}(𝑥−2)^{2}\end{aligned}
+
 
 
 $$
@@ -66,7 +74,9 @@ $$
 $$
 
 
+
 f^{-1}(x) = \dfrac{1}{9}(x - 2)^2
+
 
 
 $$
@@ -76,7 +86,9 @@ $$
 $$
 
 
+
 x \geq 0, \qquad f(x) \geq 2.
+
 
 
 $$
@@ -86,7 +98,9 @@ Therefore, the domain and range of $f^{-1}(x)$ are
 $$
 
 
+
 x \geq 2, \qquad f^{-1}(x) \geq 0.
+
 
 
 $$
@@ -104,7 +118,9 @@ To find $f^{-1}(x),$ we start by replacing $f(x)$ with $y{:}$
 $$
 
 
+
 y = 1 - \dfrac{1}{3}\sqrt{x}
+
 
 
 $$
@@ -114,7 +130,9 @@ Now, interchanging $x$ and $y$ gives
 $$
 
 
+
 x = 1 - \dfrac{1}{3}\sqrt{y}.
+
 
 
 $$
@@ -124,7 +142,9 @@ Then, we make $y$ the subject of the equation as follows:
 $$
 
 
+
 \begin{aligned}𝑥 & =1−\frac{1}{3}\sqrt{√𝑦} \\ \frac{1}{3}\sqrt{√𝑦} & =1−𝑥 \\ \sqrt{√𝑦} & =3(1−𝑥) \\ (\sqrt{√𝑦})^{2} & =(3(1−𝑥))^{2} \\ 𝑦 & =9(1−𝑥)^{2} \\ 𝑦 & =9(𝑥−1)^{2}\end{aligned}
+
 
 
 $$
@@ -134,7 +154,9 @@ Therefore, the inverse function is
 $$
 
 
+
 f^{-1}(x) = 9(x - 1)^2.
+
 
 
 $$
@@ -144,7 +166,9 @@ $$
 $$
 
 
+
 x \geq 0, \qquad f(x) \leq 1.
+
 
 
 $$
@@ -154,7 +178,9 @@ Therefore, the domain and range of $f^{-1}(x)$ are
 $$
 
 
+
 x \leq 1, \qquad f^{-1}(x) \geq 0.
+
 
 
 $$
@@ -192,7 +218,9 @@ To find $f^{-1}(x),$ we start by replacing $f(x)$ with $y{:}$
 $$
 
 
+
 y = \dfrac{1}{5}\sqrt{4x + 1}
+
 
 
 $$
@@ -202,7 +230,9 @@ Now, interchanging $x$ and $y$ gives
 $$
 
 
+
 x = \dfrac{1}{5}\sqrt{4y + 1}.
+
 
 
 $$
@@ -212,7 +242,9 @@ Then, we make $y$ the subject of the equation as follows:
 $$
 
 
+
 \begin{aligned}𝑥 & =\frac{1}{5}\sqrt{√4𝑦+1} \\ \sqrt{√4𝑦+1} & =5𝑥 \\ (\sqrt{√4𝑦+1})^{2} & =(5𝑥)^{2} \\ 4𝑦+1 & =25𝑥^{2} \\ 4𝑦 & =25𝑥^{2}−1 \\ 𝑦 & =\frac{1}{4}(25𝑥^{2}−1)\end{aligned}
+
 
 
 $$
@@ -222,7 +254,9 @@ Therefore, the inverse function is
 $$
 
 
+
 f^{-1}(x) = \dfrac{1}{4}\left(25x^2 - 1\right).
+
 
 
 $$
@@ -232,7 +266,9 @@ $$
 $$
 
 
+
 x \geq -\dfrac14, \qquad f(x) \geq 0.
+
 
 
 $$
@@ -242,7 +278,9 @@ Therefore, the domain and range of $f^{-1}(x)$ are
 $$
 
 
+
 x \geq 0, \qquad f^{-1}(x) \geq -\dfrac14.
+
 
 
 $$
@@ -260,7 +298,9 @@ To find $f^{-1}(x),$ we start by replacing $f(x)$ with $y{:}$
 $$
 
 
+
 y = 3\sqrt{x+k} - 2
+
 
 
 $$
@@ -270,7 +310,9 @@ Now, interchanging $x$ and $y$ gives
 $$
 
 
+
 x = 3\sqrt{y + k} - 2.
+
 
 
 $$
@@ -280,7 +322,9 @@ Then, we make $y$ the subject of the equation as follows:
 $$
 
 
+
 \begin{aligned}𝑥 & =3\sqrt{√𝑦+𝑘}−2 \\ 3\sqrt{√𝑦+𝑘} & =𝑥+2 \\ \sqrt{√𝑦+𝑘} & =\frac{1}{3}(𝑥+2) \\ (\sqrt{√𝑦+𝑘})^{2} & =(\frac{1}{3}(𝑥+2))^{2} \\ 𝑦+𝑘 & =\frac{1}{9}(𝑥+2)^{2} \\ 𝑦 & =\frac{1}{9}(𝑥+2)^{2}−𝑘\end{aligned}
+
 
 
 $$
@@ -290,7 +334,9 @@ Therefore, the inverse function is
 $$
 
 
+
 f^{-1}(x) = \dfrac{1}{9}(x + 2)^2 - k.
+
 
 
 $$
@@ -300,7 +346,9 @@ Comparing our answer with the given expression, we conclude that
 $$
 
 
+
 -k = 3 \qquad \Longrightarrow \qquad k = -3.
+
 
 
 $$
@@ -310,7 +358,9 @@ $$
 $$
 
 
+
 x \geq 3, \qquad f(x) \geq -2.
+
 
 
 $$
@@ -320,7 +370,9 @@ Therefore, the domain and range of $f^{-1}(x)$ are
 $$
 
 
+
 x \geq -2, \qquad f^{-1}(x) \geq3.
+
 
 
 $$

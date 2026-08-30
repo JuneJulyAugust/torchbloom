@@ -20,7 +20,9 @@ For example, consider the following inequality:
 $$
 
 
+
 (x-2)e^x < 0
+
 
 
 $$
@@ -30,7 +32,9 @@ Dividing both sides by $e^x$ and solving for $x,$ we get the following solution:
 $$
 
 
+
 \begin{aligned}\frac{(𝑥−2)𝑒^{𝑥}}{𝑒^{𝑥}} & <\frac{0}{𝑒^{𝑥}} \\ 𝑥−2 & <0 \\ 𝑥 & <2\end{aligned}
+
 
 
 $$
@@ -52,7 +56,9 @@ Multiplying both sides of the given inequality by $11^x,$ we get
 $$
 
 
+
 \begin{aligned}\frac{(𝑥^{2}−8)^{3}}{11^{𝑥}} & ≥0 \\ 11^{𝑥}⋅\frac{(𝑥^{2}−8)^{3}}{11^{𝑥}} & ≥11^{𝑥}⋅0 \\ (𝑥^{2}−8)^{3} & ≥0.\end{aligned}
+
 
 
 $$
@@ -62,7 +68,9 @@ Now, we can solve the inequality using familiar methods:
 $$
 
 
+
 \begin{aligned}\sqrt[√(𝑥^{2}−8)^{3}]{3} & ≥\sqrt[√0]{3} \\ 𝑥^{2}−8 & ≥0 \\ 𝑥^{2} & ≥8 \\ \sqrt{√𝑥^{2}} & ≥\sqrt{√8} \\ |𝑥| & ≥2\sqrt{√2}\end{aligned}
+
 
 
 $$
@@ -82,7 +90,9 @@ First, we move all the terms to the left side of the inequality and factor:
 $$
 
 
+
 \begin{aligned}𝑥^{2}𝑒^{𝑥+1}−2𝑒^{𝑥+1} & <−𝑥𝑒^{𝑥+1} \\ 𝑥^{2}𝑒^{𝑥+1}+𝑥𝑒^{𝑥+1}−2𝑒^{𝑥+1} & <0 \\ (𝑥^{2}+𝑥−2)𝑒^{𝑥+1} & <0 \\ (𝑥+2)(𝑥−1)𝑒^{𝑥+1} & <0\end{aligned}
+
 
 
 $$
@@ -92,7 +102,9 @@ Now, we divide both sides by $e^{x+1}$ and get
 $$
 
 
+
 (x+2)(x-1) < 0.
+
 
 
 $$
@@ -116,7 +128,9 @@ First, we move all the terms to the left side of the inequality and factor:
 $$
 
 
+
 \begin{aligned}𝑥^{5}⋅4^{𝑥} & >4^{𝑥−15} \\ 𝑥^{5}⋅4^{𝑥}−4^{𝑥−15} & >0 \\ (𝑥^{5}−4^{−15})⋅4^{𝑥} & >0\end{aligned}
+
 
 
 $$
@@ -126,7 +140,9 @@ Now, we divide both sides by $4^{x}$ and get
 $$
 
 
+
 x^5 - 4^{-15} > 0.
+
 
 
 $$
@@ -136,7 +152,9 @@ Finally, we can solve this inequality using familiar methods:
 $$
 
 
+
 \begin{aligned}𝑥^{5} & >4^{−15} \\ \sqrt[√𝑥^{5}]{5} & >\sqrt[√4^{−15}]{5} \\ 𝑥 & >(4^{−15})^{1/5} \\ 𝑥 & >4^{−3} \\ 𝑥 & >\frac{1}{64}\end{aligned}
+
 
 
 $$

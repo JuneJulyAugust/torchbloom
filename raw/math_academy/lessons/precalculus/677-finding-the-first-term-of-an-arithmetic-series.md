@@ -23,7 +23,9 @@ If we want to find the value of the first term of the series, $a_1,$ we can use 
 $$
 
 
+
 S_N = \dfrac{N}{2}(a_1 +a_N).
+
 
 
 $$
@@ -33,7 +35,9 @@ To demonstrate, suppose we have an arithmetic series where the sum of the first 
 $$
 
 
+
 \begin{aligned}−320 & =\frac{20}{2}(𝑎_{1}+(−35)) \\ −320 & =10(𝑎_{1}−35) \\ \frac{−320}{10} & =𝑎_{1}−35 \\ −32 & =𝑎_{1}−35 \\ 𝑎_{1} & =3\end{aligned}
+
 
 
 $$
@@ -51,7 +55,9 @@ We are given the last term of our series. So, to find the first term, we use the
 $$
 
 
+
 S_N = \dfrac{N}{2}(a_1+a_N),
+
 
 
 $$
@@ -63,7 +69,9 @@ Substituting $a_{20}=66,$ $N=20,$ and $S_N=560$ into the formula above and solvi
 $$
 
 
+
 \begin{aligned}560 & =\frac{20}{2}(𝑎_{1}+66) \\ 560 & =10(𝑎_{1}+66) \\ \frac{560}{10} & =𝑎_{1}+66 \\ 56 & =𝑎_{1}+66 \\ 𝑎_{1} & =−10.\end{aligned}
+
 
 
 $$
@@ -81,7 +89,9 @@ If we want to find the value of the first term of the series, $a_1,$ we can use 
 $$
 
 
+
 S_N = \dfrac{N}{2}\big( 2a_1+(N-1)d \big)
+
 
 
 $$
@@ -91,7 +101,9 @@ For instance, suppose we have an arithmetic series where the sum of the first $N
 $$
 
 
+
 \begin{aligned}55 & =\frac{10}{2}(2𝑎_{1}+(10−1)3) \\ 55 & =5(2𝑎_{1}+27) \\ 11 & =2𝑎_{1}+27 \\ −16 & =2𝑎_{1} \\ 𝑎_{1} & =−8\end{aligned}
+
 
 
 $$
@@ -109,7 +121,9 @@ We are given the common difference of the series. So, to find the first term, we
 $$
 
 
+
 S_N = \dfrac{N}{2}\big( 2a_1+(N-1)d \big),
+
 
 
 $$
@@ -121,7 +135,9 @@ Substituting $N=50,$ $d=2,$ and $S_N=2\,150$ into the formula above and solving 
 $$
 
 
+
 \begin{aligned}2\,150 & =\frac{50}{2}(2𝑎_{1}+(50−1)(2)) \\ 4\,300 & =50(2𝑎_{1}+98) \\ \frac{4\,300}{50} & =2𝑎_{1}+98 \\ 86 & =2𝑎_{1}+98 \\ −12 & =2𝑎_{1} \\ 𝑎_{1} & =−6.\end{aligned}
+
 
 
 $$
@@ -139,7 +155,9 @@ We are given one term of the series. So, to find the first term, we use the form
 $$
 
 
+
 S_N = \dfrac{N}{2}\left( 2a_1+(N-1)d \right),
+
 
 
 $$
@@ -151,7 +169,9 @@ Substituting $N = 16$ and $S_N = 384$ into the formula for the sum of an arithme
 $$
 
 
+
 \begin{aligned}𝑆_{𝑁} & =\frac{𝑁}{2}(2𝑎_{1}+(𝑁−1)𝑑) \\ 384 & =\frac{16}{2}(2𝑎_{1}+(16−1)𝑑) \\ 384 & =8(2𝑎_{1}+15𝑑) \\ \frac{384}{8} & =2𝑎_{1}+15𝑑 \\ 48 & =2𝑎_{1}+15𝑑.\end{aligned}
+
 
 
 $$
@@ -161,7 +181,9 @@ Also, we can write an equation for the $11$th term of the arithmetic series and 
 $$
 
 
+
 \begin{aligned}𝑎_{𝑛} & =𝑎_{1}+(𝑛−1)𝑑 \\ 𝑎_{11} & =𝑎_{1}+(11−1)𝑑 \\ 29 & =𝑎_{1}+10𝑑\end{aligned}
+
 
 
 $$
@@ -171,7 +193,9 @@ As a result, we obtain the following system of equations:
 $$
 
 
+
 \begin{aligned}29=𝑎_{1}+10𝑑 \\ 48=2𝑎_{1}+15𝑑\end{aligned}
+
 
 
 $$
@@ -181,7 +205,9 @@ To solve this system, we multiply the first equation by $-2$ and add the result 
 $$
 
 
+
 \begin{aligned}−58 & =−2𝑎_{1}−20𝑑 \\ 48 & =2𝑎_{1}+15𝑑 \\ −10 & =−5𝑑 \\ 𝑑 & =2\end{aligned}
+
 
 
 $$
@@ -191,7 +217,9 @@ Finally, substituting $d = 2$ into the first equation, we obtain
 $$
 
 
+
 \begin{aligned}29 & =𝑎_{1}+10(2) \\ 29 & =𝑎_{1}+20 \\ 𝑎_{1} & =9.\end{aligned}
+
 
 
 $$

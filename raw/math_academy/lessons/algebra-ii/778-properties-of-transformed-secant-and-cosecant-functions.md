@@ -20,7 +20,9 @@ Given the equation of a general transformed secant function
 $$
 
 
+
 y={\color{red}A}\sec\left( {\color{blue}B} x + C\right) +{\color{green}D},
+
 
 
 $$
@@ -36,7 +38,9 @@ We obtain the horizontal shift by factoring the argument of the function.
 $$
 
 
+
 y={\color{red}A}\sec \left( {\color{blue}B}\left[ x + \dfrac{C}{{\color{blue}B}} \right]\right) +{\color{green}D}
+
 
 
 $$
@@ -48,7 +52,9 @@ We can apply the same ideas to work out the properties of a transformed cosecant
 $$
 
 
+
 y={\color{red}A}\csc\left( {\color{blue}B} x + C\right) +{\color{green}D}.
+
 
 
 $$
@@ -76,7 +82,9 @@ For example, to find the range of
 $$
 
 
+
 f(x)={\color{red}2}\sec\left( {\color{blue}3}x + \dfrac{\pi}{2}\right)+{\color{green}1},
+
 
 
 $$
@@ -86,7 +94,9 @@ we start with the range of the secant function:
 $$
 
 
+
 \sec x \in (-\infty, -1] \cup [1, \infty)
+
 
 
 $$
@@ -96,7 +106,9 @@ Note that horizontal shifts and stretches have no effect on the range. Therefore
 $$
 
 
+
 \sec\left({\color{blue}3}x + \dfrac{\pi}{2} \right) \in (-\infty, -1] \cup [1, \infty)
+
 
 
 $$
@@ -106,7 +118,9 @@ We can split this into two inequalities:
 $$
 
 
+
 \sec\left({\color{blue}3}x + \dfrac{\pi}{2} \right)\leq -1, \qquad \sec\left({\color{blue}3}x + \dfrac{\pi}{2} \right)\geq 1
+
 
 
 $$
@@ -122,7 +136,9 @@ Combining both inequalities, we get
 $$
 
 
+
 f(x) \leq -1, \qquad f(x) \geq 3.
+
 
 
 $$
@@ -142,7 +158,9 @@ The range of $\csc x$ consists of two intervals:
 $$
 
 
+
 \csc x \in (-\infty, -1] \cup [1, \infty)
+
 
 
 $$
@@ -152,7 +170,9 @@ Horizontal shifts and stretches have no effect on the range. Therefore,
 $$
 
 
+
 \csc\left(3x+5 \right) \in (-\infty, -1] \cup [1, \infty).
+
 
 
 $$
@@ -162,7 +182,9 @@ We can split this into two inequalities:
 $$
 
 
+
 \csc\left(3x+5 \right)\leq -1, \qquad \csc\left(3x+5 \right)\geq 1
+
 
 
 $$
@@ -178,7 +200,9 @@ Combining both inequalities, we get
 $$
 
 
+
 f(x) \geq 1, \qquad f(x) \leq -3.
+
 
 
 $$
@@ -204,7 +228,9 @@ On a positive branch of the graph of $y=\sec x,$ we have
 $$
 
 
+
 \sec x \geq 1.
+
 
 
 $$
@@ -216,7 +242,9 @@ Horizontal shifts and stretches have no effect on the range. Therefore,
 $$
 
 
+
 \sec\left({\color{blue}3}x + \dfrac{\pi}{2} \right) \geq 1.
+
 
 
 $$
@@ -226,7 +254,9 @@ Multiplying the above inequality by ${\color{red}2}$ and adding ${\color{green}1
 $$
 
 
+
 \begin{aligned} & sec⁡(3𝑥+\frac{𝜋}{2})≥1 \\ & 2sec⁡(3𝑥+\frac{𝜋}{2})≥2 \\ & 2sec⁡(3𝑥+\frac{𝜋}{2})+1≥2+1 \\ & 𝑓(𝑥)≥3.\end{aligned}
+
 
 
 $$
@@ -246,7 +276,9 @@ On a negative branch of the graph of $y=\csc x,$ we have
 $$
 
 
+
 \csc x \leq -1.
+
 
 
 $$
@@ -258,7 +290,9 @@ Horizontal shifts and stretches have no effect on the range. Therefore,
 $$
 
 
+
 \csc\left(x+\dfrac{3\pi}{4} \right) \leq -1.
+
 
 
 $$
@@ -268,7 +302,9 @@ Multiplying the above inequality by $2,$ we get
 $$
 
 
+
 \begin{aligned}2csc⁡(𝑥+\frac{3𝜋}{4}) & ≤−2 \\ 𝑓(𝑥) & ≤−2.\end{aligned}
+
 
 
 $$
@@ -282,7 +318,9 @@ If we are given the equation of a transformed secant or cosecant function,
 $$
 
 
+
 y={\color{red}A}\sec\left( {\color{blue}B} x + C\right) +{\color{green}D} \quad \textrm{or} \quad y={\color{red}A}\csc\left( {\color{blue}B} x + C\right) +{\color{green}D},
+
 
 
 $$
@@ -306,7 +344,9 @@ The asymptotes of $y=\csc x$ coincide with the zeros of $y=\sin x,$ and are give
 $$
 
 
+
 x = n\pi,
+
 
 
 $$
@@ -318,7 +358,9 @@ To find the asymptotes of $2\csc\left(x - \dfrac{\pi}{4}\right)-1,$ we replace t
 $$
 
 
+
 x - \dfrac{\pi}{4} =n\pi .
+
 
 
 $$
@@ -328,7 +370,9 @@ Solving for $x,$ we get
 $$
 
 
+
 \begin{aligned}𝑥−\frac{𝜋}{4} & =𝑛𝜋 \\ 𝑥 & =\frac{𝜋}{4}+𝑛𝜋.\end{aligned}
+
 
 
 $$

@@ -18,7 +18,9 @@ Topic ID: 818
 $$
 
 
+
 e\approx2.718\,281\,828.
+
 
 
 $$
@@ -28,7 +30,9 @@ The **natural logarithm**, denoted $\ln,$ is a special logarithm whose base is e
 $$
 
 
+
 \ln a = \log_e a
+
 
 
 $$
@@ -44,7 +48,9 @@ For instance, we can express $e^3 \approx 20.086$ in logarithmic form. If we com
 $$
 
 
+
 e^3\approx 20.086\quad \textrm{is equivalent to}\quad \ln(20.086) \approx 3.
+
 
 
 $$
@@ -74,7 +80,9 @@ Therefore, the approximation $\ln{3} \approx 1.1$ is equivalent to
 $$
 
 
+
 e^{1.1} \approx 3 .
+
 
 
 $$
@@ -92,7 +100,9 @@ The natural logarithm of a power of $e$ is the power itself:
 $$
 
 
+
 \ln(e^x) = x
+
 
 
 $$
@@ -102,7 +112,9 @@ In our case, we have $x = 6.$ Therefore,
 $$
 
 
+
 \ln\left( e^{6}\right) = 6.
+
 
 
 $$
@@ -120,7 +132,9 @@ First, we rewrite $\dfrac{1}{e^3}$ as a power of $e$ (the base of the natural lo
 $$
 
 
+
 \dfrac{1}{e^3} = e^{-3}
+
 
 
 $$
@@ -130,7 +144,9 @@ Therefore, we have
 $$
 
 
+
 \ln\left( \dfrac{1}{e^3} \right) = \ln \left( e^{-3} \right).
+
 
 
 $$
@@ -140,7 +156,9 @@ The natural logarithm of a power of $e$ is the power itself:
 $$
 
 
+
 \ln(e^x) = x
+
 
 
 $$
@@ -150,7 +168,9 @@ In our case, we have $x = -3.$ Therefore,
 $$
 
 
+
 \ln\left( e^{-3}\right) = - 3.
+
 
 
 $$
@@ -168,7 +188,9 @@ We compute the required expression to $2$ decimal places using a calculator, rou
 $$
 
 
+
 \begin{aligned}\frac{4}{ln⁡(2)} & ≈\frac{4}{0.693\,15} \\ & ≈5.770\,76 \\ & ≈5.77.\end{aligned}
+
 
 
 $$

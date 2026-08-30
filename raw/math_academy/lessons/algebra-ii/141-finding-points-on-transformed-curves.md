@@ -33,7 +33,9 @@ Now, consider the graph of $y=-f(x)+3.$ Substituting $x = {\color{blue}-1}$, we 
 $$
 
 
+
 \begin{aligned}𝑦 & =−𝑓(−1)+3 \\ & =−(2)+3 \\ & =−2+3 \\ & =1.\end{aligned}
+
 
 
 $$
@@ -75,7 +77,9 @@ We are told that the point $(a, b)$ lies on the graph of $y = x^4$, which means:
 $$
 
 
+
 b=a^4
+
 
 
 $$
@@ -85,7 +89,9 @@ Now, we want to find which point must lie on the graph of:
 $$
 
 
+
 y = (x-2)^4-6
+
 
 
 $$
@@ -95,7 +101,9 @@ Let’s test what happens when we substitute $x = a + 2$ into this new equation:
 $$
 
 
+
 \begin{aligned}𝑦 & =(𝑎+2−2)^{4}−6 \\ & =𝑎^{4}−6 \\ & =𝑏−6.\end{aligned}
+
 
 
 $$
@@ -131,7 +139,9 @@ Since the point $(3, 0)$ lies on the graph of $y = f(x)-1$, we have that
 $$
 
 
+
 f(3)-1 = 0 \qquad\Longrightarrow\qquad f(3)=1.
+
 
 
 $$
@@ -141,7 +151,9 @@ Now consider the graph of $y = -f(x) + 3.$ Substituting $x = 3$, we get
 $$
 
 
+
 \begin{aligned}𝑦 & =−𝑓(3)+3 \\ & =−1+3 \\ & =2.\end{aligned}
+
 
 
 $$

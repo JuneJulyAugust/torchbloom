@@ -17,7 +17,9 @@ Every linear transformation $\mathbf{T}$ that acts on 2D-vectors has a $2 \times
 $$
 
 
+
 \mathbf{T}(\mathbf{v}) = T \cdot \mathbf{v}
+
 
 
 $$
@@ -29,7 +31,9 @@ To illustrate, consider the following linear transformation:
 $$
 
 
+
 [\begin{aligned}𝑥 \\ 𝑦\end{aligned}]
+
 
 
 $$
@@ -39,7 +43,9 @@ The standard matrix for the linear transformation $\mathbf{S}$ is $[\begin{align
 $$
 
 
+
 \begin{aligned}\overset{\overset{[\begin{aligned}−3 & 7 \\ 1 & −5\end{aligned}]}{}}{𝑆}⋅[\begin{aligned}𝑥 \\ 𝑦\end{aligned}] & =[\begin{aligned}−3⋅𝑥+7⋅𝑦 \\ 1⋅𝑥+(−5)⋅𝑦\end{aligned}] \\ & =[\begin{aligned}−3𝑥+7𝑦 \\ 𝑥−5𝑦\end{aligned}] \\ & =𝐒[\begin{aligned}𝑥 \\ 𝑦\end{aligned}].\end{aligned}
+
 
 
 $$
@@ -51,7 +57,9 @@ In general, the standard matrix of the linear transformation $[\begin{aligned}�
 $$
 
 
+
 [\begin{aligned}𝑎 & 𝑏 \\ 𝑐 & 𝑑\end{aligned}]
+
 
 
 $$
@@ -67,7 +75,9 @@ Find the standard matrix that represents the linear transformation $\mathbf{T},$
 $$
 
 
+
 [\begin{aligned}𝑥 \\ 𝑦\end{aligned}]
+
 
 
 $$
@@ -79,7 +89,9 @@ We require a $2\times 2$ matrix ${T}$ such that
 $$
 
 
+
 [\begin{aligned}𝑥 \\ 𝑦\end{aligned}]
+
 
 
 $$
@@ -89,7 +101,9 @@ Notice that
 $$
 
 
+
 [\begin{aligned}1 & 3 \\ 2 & −1\end{aligned}]
+
 
 
 $$
@@ -99,7 +113,9 @@ Therefore, the matrix which represents the linear transformation $\mathbf{T}$ is
 $$
 
 
+
 [\begin{aligned}1 & 3 \\ 2 & −1\end{aligned}]
+
 
 
 $$
@@ -117,7 +133,9 @@ Consider a general vector $[\begin{aligned}𝑥 \\ 𝑦\end{aligned}]$ Multiplyi
 $$
 
 
+
 \begin{aligned}𝑇⋅[\begin{aligned}𝑥 \\ 𝑦\end{aligned}] & =[\begin{aligned}8 & −1 \\ −5 & −2\end{aligned}]⋅[\begin{aligned}𝑥 \\ 𝑦\end{aligned}] \\ & =[\begin{aligned}8𝑥−𝑦 \\ −5𝑥−2𝑦\end{aligned}].\end{aligned}
+
 
 
 $$
@@ -127,7 +145,9 @@ Therefore, the linear transformation $\,\mathbf{T}\,$ is given by
 $$
 
 
+
 [\begin{aligned}𝑥 \\ 𝑦\end{aligned}]
+
 
 
 $$
@@ -141,7 +161,9 @@ Consider the matrix $T$ and the vector $\mathbf{v}$ given below. If $T$ is the s
 $$
 
 
+
 [\begin{aligned}4 & 7 \\ −6 & −2\end{aligned}]
+
 
 
 $$
@@ -153,7 +175,9 @@ Using the fact that $\,\mathbf{T}(\mathbf{v})=T\cdot \mathbf{v},$ we get
 $$
 
 
+
 \begin{aligned}𝐓(𝐯) & =𝑇⋅𝐯 \\ & =[\begin{aligned}4 & 7 \\ −6 & −2\end{aligned}]⋅[\begin{aligned}−2 \\ 5\end{aligned}] \\ & =[\begin{aligned}27 \\ 2\end{aligned}].\end{aligned}
+
 
 
 $$
@@ -167,7 +191,9 @@ Find the standard matrix that represents the linear transformation $\mathbf{T},$
 $$
 
 
+
 [\begin{aligned}𝑥 \\ 𝑦\end{aligned}]
+
 
 
 $$
@@ -179,7 +205,9 @@ First, rewrite the order of the variables in the usual way:
 $$
 
 
+
 [\begin{aligned}𝑥 \\ 𝑦\end{aligned}]
+
 
 
 $$
@@ -189,7 +217,9 @@ We require a $2\times 2$ matrix ${T}$ such that
 $$
 
 
+
 [\begin{aligned}𝑥 \\ 𝑦\end{aligned}]
+
 
 
 $$
@@ -199,7 +229,9 @@ Notice that
 $$
 
 
+
 [\begin{aligned}−5 & 4 \\ 3 & 1\end{aligned}]
+
 
 
 $$
@@ -209,7 +241,9 @@ Therefore, the matrix which represents the linear transformation $\mathbf{T}$ is
 $$
 
 
+
 [\begin{aligned}−5 & 4 \\ 3 & 1\end{aligned}]
+
 
 
 $$

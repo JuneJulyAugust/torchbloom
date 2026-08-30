@@ -20,7 +20,9 @@ To calculate the $y$-intercept of the parabola (shown as the point $A$ in the di
 $$
 
 
+
 \begin{aligned}(𝑥−1)^{2} & =\frac{1}{2}(𝑦+3) \\ (0−1)^{2} & =\frac{1}{2}(𝑦+3) \\ (−1)^{2} & =\frac{1}{2}(𝑦+3) \\ 1 & =\frac{1}{2}(𝑦+3) \\ 2 & =𝑦+3 \\ 𝑦 & =2−3 \\ 𝑦 & =−1.\end{aligned}
+
 
 
 $$
@@ -32,7 +34,9 @@ On the other hand, to find the $x$-intercepts (shown as the points $B$ and $C$ i
 $$
 
 
+
 \begin{aligned}(𝑥−1)^{2} & =\frac{1}{2}(𝑦+3) \\ (𝑥−1)^{2} & =\frac{1}{2}(0+3) \\ (𝑥−1)^{2} & =\frac{3}{2} \\ 𝑥−1 & =±\sqrt{√\frac{3}{2}} \\ 𝑥 & =1±\sqrt{√\frac{3}{2}}.\end{aligned}
+
 
 
 $$
@@ -52,7 +56,9 @@ To find the points of intersection of the parabola with the $y$-axis, we set $x=
 $$
 
 
+
 \begin{aligned}(𝑦−2)^{2} & =4(𝑥+1) \\ (𝑦−2)^{2} & =4(0+1) \\ (𝑦−2)^{2} & =4 \\ 𝑦−2 & =±2 \\ 𝑦 & =2±2 \\ 𝑦 & =0,4\end{aligned}
+
 
 
 $$
@@ -74,7 +80,9 @@ The general standard equation of an up- or down-opening parabola with vertex $(h
 $$
 
 
+
 (x-h)^2 = 4p(y-k).
+
 
 
 $$
@@ -84,7 +92,9 @@ Substituting $(h,k) = \left(\dfrac 32, -1\right)$ into the above gives
 $$
 
 
+
 \begin{aligned}(𝑥−\frac{3}{2})^{2} & =4𝑝(𝑦+1).\end{aligned}
+
 
 
 $$
@@ -94,7 +104,9 @@ Now, we need to find $p.$ Since the parabola passes through the point $\displays
 $$
 
 
+
 \begin{aligned}(1−\frac{3}{2})^{2} & =4𝑝(−\frac{3}{4}+1) \\ \frac{1}{4} & =4𝑝(\frac{1}{4}) \\ 𝑝 & =\frac{1}{4}.\end{aligned}
+
 
 
 $$
@@ -104,7 +116,9 @@ Therefore, the equation of the parabola is
 $$
 
 
+
 \begin{aligned}(𝑥−\frac{3}{2})^{2} & =(𝑦+1).\end{aligned}
+
 
 
 $$
@@ -114,7 +128,9 @@ When the parabola intersects the $x$-axis, we must have $y= 0.$ So, we substitut
 $$
 
 
+
 \begin{aligned}(𝑥−\frac{3}{2})^{2} & =(0+1) \\ (𝑥−\frac{3}{2})^{2} & =1 \\ 𝑥−\frac{3}{2} & =±1 \\ 𝑥 & =\frac{3}{2}±1\end{aligned}
+
 
 
 $$
@@ -138,7 +154,9 @@ The equation of a left- or right-opening parabola with vertex $(h,k)$ is given b
 $$
 
 
+
 (y-k)^2 = 4p(x-h).
+
 
 
 $$
@@ -148,7 +166,9 @@ Substituting $(h,k) = (14,2)$ into the above gives
 $$
 
 
+
 (y-2)^2 = 4p(x-14).
+
 
 
 $$
@@ -158,7 +178,9 @@ Now, we need to find $p.$ Since the parabola passes through the point $(12,6),$ 
 $$
 
 
+
 \begin{aligned}(6−2)^{2} & =4𝑝(12−14) \\ 16 & =4𝑝(−2) \\ 𝑝 & =−2.\end{aligned}
+
 
 
 $$
@@ -168,7 +190,9 @@ Therefore, the equation of the parabola is
 $$
 
 
+
 \begin{aligned}(𝑦−2)^{2} & =−8(𝑥−14).\end{aligned}
+
 
 
 $$
@@ -178,7 +202,9 @@ When the parabola intersects the $x$-axis, we must have $y= 0.$ So, we substitut
 $$
 
 
+
 \begin{aligned}(𝑦−2)^{2} & =−8(𝑥−14) \\ (0−2)^{2} & =−8(𝑥−14) \\ 4 & =−8(𝑥−14) \\ 𝑥−14 & =−\frac{1}{2} \\ 𝑥 & =−\frac{1}{2}+14 \\ 𝑥 & =\frac{27}{2}\end{aligned}
+
 
 
 $$
@@ -202,7 +228,9 @@ The equation of a left- or right-opening parabola with vertex at $(h,k)$ is give
 $$
 
 
+
 (y-k)^2=4p(x-h),
+
 
 
 $$
@@ -212,7 +240,9 @@ and substituting $(h,k) = (7,-4)$ into the above gives
 $$
 
 
+
 (y+4)^2=4p(x-7).
+
 
 
 $$
@@ -222,7 +252,9 @@ Now, we need to find $p.$ Since the parabola passes through the point $(5,-6),$ 
 $$
 
 
+
 \begin{aligned}(−6+4)^{2} & =4𝑝(5−7) \\ 4 & =4𝑝(−2) \\ 𝑝 & =−\frac{1}{2}.\end{aligned}
+
 
 
 $$
@@ -232,7 +264,9 @@ Therefore, the equation of the parabola is
 $$
 
 
+
 \begin{aligned}(𝑦+4)^{2}=−2(𝑥−7).\end{aligned}
+
 
 
 $$
@@ -242,7 +276,9 @@ When the parabola intersects the $y$-axis, we must have $x= 0.$ So, we substitut
 $$
 
 
+
 \begin{aligned}(𝑦+4)^{2} & =−2(0−7) \\ (𝑦+4)^{2} & =14 \\ 𝑦+4 & =±\sqrt{√14} \\ 𝑦 & =−4±\sqrt{√14}\end{aligned}
+
 
 
 $$

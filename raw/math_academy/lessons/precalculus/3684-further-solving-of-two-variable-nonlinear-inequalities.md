@@ -16,7 +16,9 @@ Consider the function $f(x,y),$ defined as
 $$
 
 
+
 f(x,y) = 2(x-1)^2(y-2).
+
 
 
 $$
@@ -28,7 +30,9 @@ As always, we first solve $f(x,y) = 0.$ This gives
 $$
 
 
+
 \begin{aligned}2(𝑥−1)^{2}⋅(𝑦−2)=0\, & ⟹\,2(𝑥−1)^{2}=0\,or\,(𝑦−2)=0.\end{aligned}
+
 
 
 $$

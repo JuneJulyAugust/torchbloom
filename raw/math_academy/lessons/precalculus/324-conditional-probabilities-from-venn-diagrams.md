@@ -20,7 +20,9 @@ Now, suppose that we wish to calculate the probability that a randomly selected 
 $$
 
 
+
 P(\textrm{ student likes baseball } | \textrm{ student likes volleyball }).
+
 
 
 $$
@@ -36,7 +38,9 @@ In total, the number of students who like volleyball is
 $$
 
 
+
 30+20=50.
+
 
 
 $$
@@ -50,7 +54,9 @@ Therefore, the probability that a randomly selected student likes baseball *give
 $$
 
 
+
 P(\textrm{ student likes baseball } | \textrm{ student likes volleyball }) = \dfrac{30}{50} = \dfrac35.
+
 
 
 $$
@@ -76,7 +82,9 @@ The probability of event $A$ occurring is
 $$
 
 
+
 P(A)=0.3+0.1=0.4.
+
 
 
 $$
@@ -86,7 +94,9 @@ Now, $P(B|A)$ can be interpreted as the proportion of $B$ that lies inside $A,$ 
 $$
 
 
+
 P(B|A) = \dfrac{0.1}{0.4} = 0.25.
+
 
 
 $$
@@ -114,7 +124,9 @@ In total, the number of customers that lie in the set $C$ is
 $$
 
 
+
 21+42=63.
+
 
 
 $$
@@ -128,7 +140,9 @@ Since each outcome is equally likely, $P(T|C)$ can be interpreted as the proport
 $$
 
 
+
 P(T|C) = \dfrac{21}{63} = \dfrac13.
+
 
 
 $$
@@ -156,7 +170,9 @@ In total, the number of students in the set $G'$ is
 $$
 
 
+
 80+20=100.
+
 
 
 $$
@@ -170,7 +186,9 @@ Since each outcome is equally likely, $P(A|G')$ can be interpreted as the propor
 $$
 
 
+
 P(A|G') = \dfrac{80}{100} = \dfrac45.
+
 
 
 $$

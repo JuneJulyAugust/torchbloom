@@ -17,7 +17,9 @@ Recall the sum formula for cosine:
 $$
 
 
+
 \cos(x+y) = \cos x \cos y - \sin x \sin y
+
 
 
 $$
@@ -27,7 +29,9 @@ Substituting $y={\color{blue}x}$ into the above gives
 $$
 
 
+
 \begin{aligned}cos⁡(𝑥+𝑥) & =cos⁡𝑥cos⁡𝑥−sin⁡𝑥sin⁡𝑥,\end{aligned}
+
 
 
 $$
@@ -37,7 +41,9 @@ which simplifies to
 $$
 
 
+
 \cos 2x = \cos^2 {x} - \sin^2 {x}.
+
 
 
 $$
@@ -57,7 +63,9 @@ First, let's recall the double-angle formula for cosine:
 $$
 
 
+
 \cos^2 x - \sin^2 x = \cos 2x
+
 
 
 $$
@@ -67,7 +75,9 @@ Substituting $x={\dfrac{\pi}{24}}$ into the above, we get
 $$
 
 
+
 \begin{aligned}cos^{2}⁡(\frac{𝜋}{24})−sin^{2}⁡(\frac{𝜋}{24}) & =cos⁡(2⋅\frac{𝜋}{24}) \\ & =cos⁡(\frac{𝜋}{12}).\end{aligned}
+
 
 
 $$
@@ -81,7 +91,9 @@ From the Pythagorean identity $\sin^2{x}+\cos^2{x}=1,$ we obtain $\cos^2{x}=1-\s
 $$
 
 
+
 \begin{aligned}cos⁡2𝑥 & =cos^{2}⁡𝑥−sin^{2}⁡𝑥 \\ & =(1−sin^{2}⁡𝑥)−sin^{2}⁡𝑥 \\ & =1−2sin^{2}⁡𝑥.\end{aligned}
+
 
 
 $$
@@ -91,7 +103,9 @@ This gives an alternative form of the double-angle formula for cosine. We'll res
 $$
 
 
+
 \cos{2x} =1 - 2\sin^2{x}
+
 
 
 $$
@@ -101,7 +115,9 @@ Similarly, from the same Pythagorean identity, we obtain that $\sin^2{x}=1-\cos^
 $$
 
 
+
 \begin{aligned}cos⁡2𝑥 & =cos^{2}⁡𝑥−sin^{2}⁡𝑥 \\ & =cos^{2}⁡𝑥−(1−cos^{2}⁡𝑥) \\ & =2cos^{2}⁡𝑥−1.\end{aligned}
+
 
 
 $$
@@ -111,7 +127,9 @@ This is another alternative form of the double-angle formula for cosine:
 $$
 
 
+
 \cos{2x} =2\cos^2{x}-1
+
 
 
 $$
@@ -129,7 +147,9 @@ First, let's recall the double-angle formula for cosine:
 $$
 
 
+
 2 \cos^2 x - 1 = \cos 2x
+
 
 
 $$
@@ -139,7 +159,9 @@ Substituting $x={\dfrac{\pi}{3}}$ into the above, we get
 $$
 
 
+
 \begin{aligned}2cos^{2}⁡(\frac{𝜋}{3})−1 & =cos⁡(2⋅\frac{𝜋}{3}) \\ & =cos⁡(\frac{2𝜋}{3}).\end{aligned}
+
 
 
 $$
@@ -157,7 +179,9 @@ First, let's recall the double-angle formula for cosine:
 $$
 
 
+
 \cos^2 x - \sin^2 x = \cos 2x
+
 
 
 $$
@@ -167,7 +191,9 @@ Substituting $x={22.5^\circ}$ into the above, we get
 $$
 
 
+
 \begin{aligned}cos^{2}⁡(22.5^{∘})−sin^{2}⁡(22.5^{∘}) & =cos⁡(2⋅22.5^{∘}) \\ & =cos⁡45^{∘} \\ & =\frac{\sqrt{√2}}{2}.\end{aligned}
+
 
 
 $$

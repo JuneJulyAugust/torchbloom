@@ -18,7 +18,9 @@ Recall that **Euler's number,** denoted $e,$ is an irrational number whose decim
 $$
 
 
+
 e\approx2.718\,281\,828.
+
 
 
 $$

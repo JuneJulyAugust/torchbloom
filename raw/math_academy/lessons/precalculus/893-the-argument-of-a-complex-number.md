@@ -21,7 +21,9 @@ There is a natural angle $\theta$ that $z$ makes with the positive real axis. Th
 $$
 
 
+
 0\leq \arg(z) \lt 2\pi.
+
 
 
 $$
@@ -31,7 +33,9 @@ In the triangle above, we have
 $$
 
 
+
 \begin{aligned}tan⁡𝜃 & =\frac{4}{3} \\ 𝜃 & =arctan⁡(\frac{4}{3}) \\ & ≈0.93,\end{aligned}
+
 
 
 $$
@@ -57,7 +61,9 @@ The complex number $z$ lies in the first quadrant of the complex plane. Therefor
 $$
 
 
+
 \begin{aligned}arg⁡(𝑧) & =arctan⁡(\frac{7}{2})≈1.29\end{aligned}
+
 
 
 $$
@@ -81,7 +87,9 @@ The complex number $z$ lies in the second quadrant of the complex plane. Therefo
 $$
 
 
+
 \begin{aligned}tan⁡𝛼 & =\frac{\sqrt{√3}}{1} \\ 𝛼 & =arctan⁡(\sqrt{√3}) \\ & =\frac{𝜋}{3}\end{aligned}
+
 
 
 $$
@@ -91,7 +99,9 @@ Therefore,
 $$
 
 
+
 \theta=\arg(z) = \pi - \dfrac\pi 3 = \dfrac{2\pi}{3}.
+
 
 
 $$
@@ -113,7 +123,9 @@ The complex number $z$ lies in the third quadrant of the complex plane. Therefor
 $$
 
 
+
 \begin{aligned}𝛼 & =arctan⁡(\frac{1}{\sqrt{√3}})=\frac{𝜋}{6}.\end{aligned}
+
 
 
 $$
@@ -123,7 +135,9 @@ Therefore,
 $$
 
 
+
 \theta=\arg(z) = \pi +\dfrac\pi 6 = \dfrac{7\pi}{6}.
+
 
 
 $$
@@ -147,7 +161,9 @@ If $\alpha$ is the angle that $z$ makes with the positive real axis, then
 $$
 
 
+
 \alpha = \arctan\left(1\right) = \dfrac\pi 4.
+
 
 
 $$
@@ -157,7 +173,9 @@ Therefore,
 $$
 
 
+
 \theta=\arg(z) = 2\pi - \dfrac\pi 4 =\dfrac{7\pi}{4}.
+
 
 
 $$

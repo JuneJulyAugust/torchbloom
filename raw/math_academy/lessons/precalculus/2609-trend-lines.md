@@ -61,7 +61,9 @@ We will write the equation of the line in the slope-intercept form
 $$
 
 
+
 y=mx+b.
+
 
 
 $$
@@ -71,7 +73,9 @@ First, we compute the slope $m$ of the line, as follows:
 $$
 
 
+
 \begin{aligned}𝑚 & =\frac{𝑦_{2}−𝑦_{1}}{𝑥_{2}−𝑥_{1}} \\ & =\frac{−4−5}{5−(−4)} \\ & =\frac{−9}{9} \\ & =−1\end{aligned}
+
 
 
 $$
@@ -81,7 +85,9 @@ Substituting $m=-1$ into the slope-intercept form above, we get
 $$
 
 
+
 y = - x + b.
+
 
 
 $$
@@ -91,7 +97,9 @@ We now need to find the $y$-intercept $b.$ We can find this by substituting the 
 $$
 
 
+
 \begin{aligned}𝑦 & =−𝑥+𝑏 \\ −4 & =−5+𝑏 \\ 1 & =𝑏 \\ 𝑏 & =1\end{aligned}
+
 
 
 $$
@@ -101,7 +109,9 @@ Therefore, the equation of the line is
 $$
 
 
+
 y = - x + 1.
+
 
 
 $$
@@ -127,7 +137,9 @@ We will write the equation of the line in the slope-intercept form
 $$
 
 
+
 y=mx+b.
+
 
 
 $$
@@ -137,7 +149,9 @@ First, we estimate the slope $m$ of the line as follows:
 $$
 
 
+
 \begin{aligned}𝑚 & ≈\frac{𝑦_{2}−𝑦_{1}}{𝑥_{2}−𝑥_{1}} \\ & =\frac{7−4}{6−4} \\ & =\frac{3}{2} \\ & =1.5\end{aligned}
+
 
 
 $$
@@ -147,7 +161,9 @@ Substituting $m=1.5$ into the slope-intercept form above, we get
 $$
 
 
+
 y = 1.5 x + b.
+
 
 
 $$
@@ -157,7 +173,9 @@ We now need to estimate the $y$-intercept $b.$ We can do this by substituting th
 $$
 
 
+
 \begin{aligned}𝑦 & =1.5𝑥+𝑏 \\ 4 & =1.5(4)+𝑏 \\ 4 & =6+𝑏 \\ −2 & =𝑏 \\ 𝑏 & =−2\end{aligned}
+
 
 
 $$
@@ -167,7 +185,9 @@ Therefore, the equation of the line is
 $$
 
 
+
 y = 1.5x - 2.
+
 
 
 $$

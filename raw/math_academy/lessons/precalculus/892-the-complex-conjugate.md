@@ -68,7 +68,9 @@ To understand why, first notice that any real number $a$ can be expressed as a c
 $$
 
 
+
 a = a + 0 \textrm{i}
+
 
 
 $$
@@ -78,7 +80,9 @@ To find the complex conjugate, we need to flip the sign of the imaginary part. S
 $$
 
 
+
 \overline{a} = a - 0 \textrm{i} = a.
+
 
 
 $$

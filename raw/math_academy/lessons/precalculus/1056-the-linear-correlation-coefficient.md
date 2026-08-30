@@ -19,7 +19,9 @@ The linear correlation coefficient satisfies the following constraint:
 $$
 
 
+
 -1 \leq \rho \leq 1
+
 
 
 $$
@@ -47,7 +49,9 @@ To calculate $\rho,$ we use the following formula:
 $$
 
 
+
 \begin{aligned}𝜌(𝑥,𝑦) & =\frac{Cov(𝑥,𝑦)}{𝜎_{𝑥}⋅𝜎_{𝑦}},\end{aligned}
+
 
 
 $$
@@ -63,7 +67,9 @@ For example, consider data sets $x$ and $y$ such that
 $$
 
 
+
 \textrm{Cov}(x,y)=-9, \qquad \sigma_x=6, \qquad \sigma_y=2.
+
 
 
 $$
@@ -73,7 +79,9 @@ Substituting our numbers into the formula above, we get
 $$
 
 
+
 \begin{aligned}𝜌(𝑥,𝑦) & =\frac{(−9)}{(6)⋅(2)} \\ & =\frac{(−9)}{12} \\ & =−0.75.\end{aligned}
+
 
 
 $$
@@ -91,7 +99,9 @@ Consider the following data sets:
 $$
 
 
+
 x = \big\{ 6, \: 3, \: -1, \: 0 \big\},\qquad y = \big\{ 5, \: 7, \: -2, \: 6 \big\}
+
 
 
 $$
@@ -105,7 +115,9 @@ The (population) linear correlation coefficient of the data sets $x=\big\{x_1,x_
 $$
 
 
+
 \rho(x,y) = \dfrac{\textrm{Cov}(x,y)}{\sigma_x \cdot \sigma_y}
+
 
 
 $$
@@ -117,7 +129,9 @@ First, we need to compute the covariance:
 $$
 
 
+
 \begin{aligned}Cov(𝑥,𝑦) & =\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}(𝑥_{𝑖}−\overset{𝑥}{})(𝑦_{𝑖}−\overset{𝑦}{–}) \\ & =\frac{1}{4}[(6−2)(5−4)+(3−2)(7−4)+(−1−2)(−2−4)+(0−2)(6−4)] \\ & =\frac{1}{4}[(4)(1)+(1)(3)+(−3)(−6)+(−2)(2)] \\ & =\frac{1}{4}[4+3+18−4] \\ & =\frac{1}{4}⋅21 \\ & =5.25\end{aligned}
+
 
 
 $$
@@ -127,7 +141,9 @@ Finally, we use the formula. This gives
 $$
 
 
+
 \begin{aligned}𝜌(𝑥,𝑦) & =\frac{Cov(𝑥,𝑦)}{𝜎_{𝑥}⋅𝜎_{𝑦}} \\ & ≈\frac{5.25}{2.739⋅3.536} \\ & ≈0.54\end{aligned}
+
 
 
 $$
@@ -143,7 +159,9 @@ Let's now introduce the following notation:
 $$
 
 
+
 S_{xx} = \sum\limits_{i=1}^n (x_i-\overline{x})^2, \qquad S_{yy} = \sum\limits_{i=1}^n (y_i-\overline{y})^2, \qquad S_{xy} = \sum\limits_{i=1}^n (x_i-\overline{x})(y_i-\overline{y})
+
 
 
 $$
@@ -155,7 +173,9 @@ Using the previous definition, we can show that the correlation coefficient can 
 $$
 
 
+
 \rho = \dfrac{S_{xy}}{\sqrt{S_{xx} \cdot S_{yy}}}\,.
+
 
 
 $$
@@ -169,7 +189,9 @@ Consider the following data sets:
 $$
 
 
+
 x = \big\{ 13, \: 10, \: 9, \: 12 \big\},\qquad y = \big\{ -1, \: 3, \: 2, \: 4 \big\}
+
 
 
 $$
@@ -183,7 +205,9 @@ The linear correlation coefficient $\rho$ of the data sets $x=\big\{x_1,x_2, \ld
 $$
 
 
+
 \rho(x,y) = \dfrac{\textrm{Cov}(x,y)}{\sigma_x \cdot \sigma_y} = \dfrac{S_{xy}}{\sqrt{S_{xx} \cdot S_{yy}}}.
+
 
 
 $$
@@ -193,7 +217,9 @@ First, we compute the sum in the numerator:
 $$
 
 
+
 \begin{aligned}𝑆_{𝑥𝑦} & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}(𝑥_{𝑖}−\overset{𝑥}{})(𝑦_{𝑖}−\overset{𝑦}{–}) \\ & =(13−11)(−1−2)+(10−11)(3−2) \\ & =+(9−11)(2−2)+(12−11)(4−2) \\ & =(2)(−3)+(−1)(1)+(−2)(0)+(1)(2) \\ & =−6−1+0+2 \\ & =−5\end{aligned}
+
 
 
 $$
@@ -203,7 +229,9 @@ Second, we compute the sums in the denominator:
 $$
 
 
+
 \begin{aligned}𝑆_{𝑥𝑥} & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}(𝑥_{𝑖}−\overset{𝑥}{})^{2} \\ & =(13−11)^{2}+(10−11)^{2}+(9−11)^{2}+(12−11)^{2} \\ & =4+1+4+1 \\ & =10 \\ 𝑆_{𝑦𝑦} & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}(𝑦_{𝑖}−\overset{𝑦}{–})^{2} \\ & =(−1−2)^{2}+(3−2)^{2}+(2−2)^{2}+(4−2)^{2} \\ & =9+1+0+4 \\ & =14\end{aligned}
+
 
 
 $$
@@ -213,7 +241,9 @@ Finally, we use the formula:
 $$
 
 
+
 \begin{aligned}𝜌(𝑥,𝑦) & =\frac{(−5)}{\sqrt{√10}⋅\sqrt{√14}} \\ & ≈−\frac{5}{3.162\,278⋅3.741\,657} \\ & ≈−0.42\end{aligned}
+
 
 
 $$
@@ -243,7 +273,9 @@ The linear correlation coefficient $\rho$ of the data sets $x=\big\{x_1,x_2, \ld
 $$
 
 
+
 \rho(x,y) = \dfrac{\textrm{Cov}(x,y)}{\sigma_x \cdot \sigma_y} = \dfrac{S_{xy}}{\sqrt{S_{xx} \cdot S_{yy}}}.
+
 
 
 $$
@@ -271,7 +303,9 @@ Let's derive the following result:
 $$
 
 
+
 \rho = \dfrac{S_{xy}}{\sqrt{S_{xx} \cdot S_{yy}}}
+
 
 
 $$
@@ -281,7 +315,9 @@ We start with the definition of the correlation coefficient $\rho\mathbin{:}$
 $$
 
 
+
 \begin{aligned}𝜌 & =\frac{Cov(𝑥,𝑦)}{𝜎_{𝑥}⋅𝜎_{𝑦}}\end{aligned}
+
 
 
 $$
@@ -291,7 +327,9 @@ We have
 $$
 
 
+
 \textrm{Cov}(x,y) = \dfrac1n \sum\limits_{i=1}^n (x_i-\overline{x})(y_i-\overline{y}) = \dfrac{S_{xy}}{n}.
+
 
 
 $$
@@ -301,7 +339,9 @@ Similarly,
 $$
 
 
+
 \begin{aligned}𝜎_{𝑥} & =\sqrt{\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}(𝑥_{𝑖}−\overset{𝑥}{})^{2}}=\sqrt{√\frac{𝑆_{𝑥𝑥}}{𝑛}} \\ 𝜎_{𝑦} & =\sqrt{\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}(𝑦_{𝑖}−\overset{𝑦}{–})^{2}}=\sqrt{√\frac{𝑆_{𝑦𝑦}}{𝑛}}.\end{aligned}
+
 
 
 $$
@@ -311,7 +351,9 @@ Substituting this into our definition for $\rho,$ we get
 $$
 
 
+
 \begin{aligned}𝜌 & =\frac{Cov(𝑥,𝑦)}{𝜎_{𝑥}⋅𝜎_{𝑦}} \\ & =\frac{(\frac{𝑆_{𝑥𝑦}}{𝑛})}{𝑛} \\ & =\frac{(\frac{𝑆_{𝑥𝑦}}{𝑛})}{𝑛} \\ & =\frac{(\frac{𝑆_{𝑥𝑦}}{𝑛})}{𝑛} \\ & =\frac{(\frac{𝑆_{𝑥𝑦}}{𝑛})}{𝑛} \\ & =\frac{𝑆_{𝑥𝑦}}{\sqrt{√𝑆_{𝑥𝑥}⋅𝑆_{𝑦𝑦}}}.\end{aligned}
+
 
 
 $$

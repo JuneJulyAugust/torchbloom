@@ -70,7 +70,9 @@ From the diagram, the required percentage is
 $$
 
 
+
 50\% + 2.35\%+0.15\%= 52.5\%.
+
 
 
 $$
@@ -102,7 +104,9 @@ Now, notice that $x=130$ is $2$ standard deviations ** the mean:
 $$
 
 
+
 130 = 100 + 2 \cdot 15 = \mu +2 \sigma
+
 
 
 $$
@@ -116,7 +120,9 @@ From the diagram, the required percentage is
 $$
 
 
+
 100\%-(2.35\% + 0.15\%) = 97.5 \%
+
 
 
 $$
@@ -144,7 +150,9 @@ So, according to this rule, $68\%$ of the observations of a random normal variab
 $$
 
 
+
 \begin{aligned}𝜇−\overset{𝜎}{ˆ} & =7 \\ 𝜇+\overset{𝜎}{ˆ} & =17\end{aligned}
+
 
 
 $$
@@ -156,7 +164,9 @@ We wish to solve for $\widehat{\sigma}.$ First, we subtract the first equation f
 $$
 
 
+
 2\widehat{\sigma} = 17-7 = 10.
+
 
 
 $$
@@ -166,7 +176,9 @@ Therefore,
 $$
 
 
+
 \widehat{\sigma} = \dfrac{10}{2} = 5.
+
 
 
 $$
@@ -176,7 +188,9 @@ Finally, the estimate of the population variance is given by
 $$
 
 
+
 \widehat{\sigma}^2 = 5^2 = 25.
+
 
 
 $$
@@ -206,7 +220,9 @@ So, according to this rule, $95\%$ of the observations of a random normal variab
 $$
 
 
+
 \begin{aligned}𝜇−2\overset{𝜎}{ˆ} & =4 \\ 𝜇+2\overset{𝜎}{ˆ} & =16\end{aligned}
+
 
 
 $$
@@ -218,7 +234,9 @@ Solving for $\widehat{\sigma}$ we have:
 $$
 
 
+
 \widehat{\sigma} = \dfrac{16-4}{4} = 3
+
 
 
 $$
@@ -228,7 +246,9 @@ Finally, the estimate of the population variance is given by
 $$
 
 
+
 \widehat{\sigma}^2 = 3^2 = 9.
+
 
 
 $$

@@ -22,7 +22,9 @@ On the other hand, the domain of $\sqrt{-x}$ is given by
 $$
 
 
+
 -x \geq 0
+
 
 
 $$
@@ -32,7 +34,9 @@ which simplifies to
 $$
 
 
+
 x \leq 0.
+
 
 
 $$
@@ -44,7 +48,9 @@ As another example, the domain of $\sqrt{x-1}$ is given by
 $$
 
 
+
 x -1 \geq 0
+
 
 
 $$
@@ -54,7 +60,9 @@ which simplifies to
 $$
 
 
+
 x \geq 1,
+
 
 
 $$
@@ -80,7 +88,9 @@ The domain of $y = \sqrt{x}$ is
 $$
 
 
+
 x \ge 0.
+
 
 
 $$
@@ -90,7 +100,9 @@ To find the domain of $g(x) = \sqrt{3x+5} -2,$ we replace $x$ with $3x+5$ in the
 $$
 
 
+
 {3x+5} \ge 0.
+
 
 
 $$
@@ -100,7 +112,9 @@ Solving this inequality, we get
 $$
 
 
+
 \begin{aligned}3𝑥+5 & ≥0 \\ 3𝑥 & ≥−5 \\ 𝑥 & ≥−\frac{5}{3}.\end{aligned}
+
 
 
 $$
@@ -118,7 +132,9 @@ Now, let's examine the range of a transformed radical function. For example, wha
 $$
 
 
+
 f(x) = -3\sqrt{5x-2}+7?
+
 
 
 $$
@@ -128,7 +144,9 @@ The range of $\sqrt x$ is
 $$
 
 
+
 \sqrt x \ge 0.
+
 
 
 $$
@@ -138,7 +156,9 @@ Horizontal shifts and stretches do not affect the range. So, we have
 $$
 
 
+
 \sqrt{5x-2} \ge 0.
+
 
 
 $$
@@ -148,7 +168,9 @@ Multiplying the above inequality by $-3$ and then adding $7,$ we get
 $$
 
 
+
 \begin{aligned}\sqrt{√5𝑥−2} & ≥0 \\ −3\sqrt{√5𝑥−2} & ≤0 \\ −3\sqrt{√5𝑥−2}+7 & ≤7.\end{aligned}
+
 
 
 $$
@@ -178,7 +200,9 @@ The range of $\sqrt x$ is
 $$
 
 
+
 \sqrt x \ge 0.
+
 
 
 $$
@@ -188,7 +212,9 @@ Horizontal shifts do not affect the range. So, we have
 $$
 
 
+
 \sqrt{x-2} \ge 0.
+
 
 
 $$
@@ -198,7 +224,9 @@ Multiplying the above inequality by $2$ and then adding $2,$ we get
 $$
 
 
+
 \begin{aligned}\sqrt{√𝑥−2} & ≥0 \\ 2\sqrt{√𝑥−2} & ≥0 \\ 2\sqrt{√𝑥−2}+2 & ≥2.\end{aligned}
+
 
 
 $$
@@ -222,7 +250,9 @@ In this case, we set
 $$
 
 
+
 \sqrt{2x+1} + 5 = 0.
+
 
 
 $$
@@ -232,7 +262,9 @@ We solve this equation by making $x$ the subject, as follows:
 $$
 
 
+
 \begin{aligned}\sqrt{√2𝑥+1}+5 & =0 \\ \sqrt{√2𝑥+1} & =−5\end{aligned}
+
 
 
 $$
@@ -254,7 +286,9 @@ To find the root of $f(x),$ we must solve $f(x)=0\mathbin{:}$
 $$
 
 
+
 \sqrt{6x+7} - 5 = 0
+
 
 
 $$
@@ -264,7 +298,9 @@ We solve this equation by making $x$ the subject, as follows:
 $$
 
 
+
 \begin{aligned}\sqrt{√6𝑥+7}−5 & =0 \\ \sqrt{√6𝑥+7} & =5 \\ (\sqrt{√6𝑥+7})^{2} & =5^{2} \\ 6𝑥+7 & =25 \\ 6𝑥 & =18 \\ 𝑥 & =3\end{aligned}
+
 
 
 $$
@@ -274,7 +310,9 @@ Finally, we must check the answer by substituting it back into the initial equat
 $$
 
 
+
 \begin{aligned}\sqrt{√6⋅3+7}−5 & =0 \\ \sqrt{√25} & =5 \\ 5 & =5\,✓\end{aligned}
+
 
 
 $$
@@ -310,7 +348,9 @@ Therefore, our function is $f(x)=2\sqrt{2-x}+2,$ and
 $$
 
 
+
 a+b+c = 2 + 2 + 2 = 6.
+
 
 
 $$

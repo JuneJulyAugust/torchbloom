@@ -25,7 +25,9 @@ The function has asymptotes when $x=\pm \dfrac{\pi}{2}, \pm \dfrac{3\pi}{2},\ldo
 $$
 
 
+
 x = \dfrac{\pi}{2} + n\pi.
+
 
 
 $$
@@ -37,7 +39,9 @@ From the graph, we see that the function takes a value of $1$ when $x=0.$ Since 
 $$
 
 
+
 x = 2n\pi.
+
 
 
 $$
@@ -49,7 +53,9 @@ Similarly, from the graph, we see that the function takes a value of $-1$ when $
 $$
 
 
+
 x = \pi +2n\pi.
+
 
 
 $$
@@ -97,7 +103,9 @@ The periodicity of $y=\sec x$ means that
 $$
 
 
+
 \sec (x+2n\pi ) = \sec x
+
 
 
 $$
@@ -117,7 +125,9 @@ The period of $y = \sec x$ is $2\pi.$ Therefore, for integer $n$ we have
 $$
 
 
+
 \sec{x} = \sec{(x+2n\pi)} .
+
 
 
 $$
@@ -127,7 +137,9 @@ Substituting $n=4$ into the above gives
 $$
 
 
+
 \begin{aligned}sec⁡𝑥 & =sec⁡(𝑥+2⋅4⋅𝜋) \\ & =sec⁡(𝑥+8𝜋).\end{aligned}
+
 
 
 $$
@@ -141,7 +153,9 @@ Recall that a function $f(x)$ is *even* if it satisfies the property
 $$
 
 
+
 f(-x) = f(x).
+
 
 
 $$
@@ -151,7 +165,9 @@ As it turns out, secant is an even function! So, for any value of $x,$ we have
 $$
 
 
+
 \sec(-x) = \sec(x).
+
 
 
 $$

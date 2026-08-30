@@ -19,7 +19,9 @@ For example, suppose we throw a die and define a "success" as the event of getti
 $$
 
 
+
 P(\textrm{six}) = \dfrac16, \qquad P(\textrm{not six}) = \dfrac56
+
 
 
 $$
@@ -35,7 +37,9 @@ To get our first six on the *third* throw, we need to throw "not a six" on the *
 $$
 
 
+
 \begin{aligned}𝑃(𝑋=3) & =𝑃(not six)⋅𝑃(not six)⋅𝑃(six) \\ & =\frac{5}{6}⋅\frac{5}{6}⋅\frac{1}{6} \\ & =\frac{25}{216}.\end{aligned}
+
 
 
 $$
@@ -51,7 +55,9 @@ It can be shown that $X$ follows a **geometric distribution** and has the follow
 $$
 
 
+
 \begin{aligned}(1−𝑝)^{𝑥−1}𝑝,\, & 𝑥=1,2,3,… \\ 0, & otherwise\end{aligned}
+
 
 
 $$
@@ -69,7 +75,9 @@ If a random variable $X$ follows a geometric distribution, we say it is a geomet
 $$
 
 
+
 X\sim \textrm{Geom}(p).
+
 
 
 $$
@@ -81,7 +89,9 @@ Let $X$ be the number of times a fair die is thrown until we get a six. Since we
 $$
 
 
+
 X\sim \textrm{Geom}\left(\dfrac16\right).
+
 
 
 $$
@@ -91,7 +101,9 @@ Therefore, the probability of getting our first six on the $\color{blue}3$rd rol
 $$
 
 
+
 \begin{aligned}𝑃(𝑋=3) & =𝑓(3) \\ & =(1−\frac{1}{6})^{3−1}⋅\frac{1}{6} \\ & =(\frac{5}{6})^{2}⋅\frac{1}{6} \\ & =\frac{25}{36}⋅\frac{1}{6} \\ & =\frac{25}{216}\end{aligned}
+
 
 
 $$
@@ -111,7 +123,9 @@ If $X \sim \textrm{Geom}(p),$ then $X$ has the following probability mass functi
 $$
 
 
+
 \begin{aligned}(1−𝑝)^{𝑥−1}𝑝, & 𝑥=1,2,3,… \\ 0, & otherwise\end{aligned}
+
 
 
 $$
@@ -121,7 +135,9 @@ Here, $X \sim \textrm{Geom}\left(\dfrac{2}{3}\right),$ so the distribution of $X
 $$
 
 
+
 \begin{aligned}(\frac{1}{3})^{𝑥−1}(\frac{2}{3}), & 𝑥=1,2,3,… \\ 0, & otherwise.\end{aligned}
+
 
 
 $$
@@ -131,7 +147,9 @@ Therefore,
 $$
 
 
+
 \begin{aligned}𝑃(𝑋=3) & =𝑓(3) \\ & =(\frac{1}{3})^{2}(\frac{2}{3}) \\ & =\frac{2}{27}.\end{aligned}
+
 
 
 $$
@@ -149,7 +167,9 @@ If $X \sim \textrm{Geom}(p),$ then $X$ has the following probability mass functi
 $$
 
 
+
 \begin{aligned}(1−𝑝)^{𝑥−1}𝑝, & 𝑥=1,2,3,… \\ 0, & otherwise\end{aligned}
+
 
 
 $$
@@ -159,7 +179,9 @@ Here, $X \sim \textrm{Geom}\left(\dfrac 37\right),$ so the distribution of $X$ i
 $$
 
 
+
 \begin{aligned}(\frac{4}{7})^{𝑥−1}(\frac{3}{7}), & 𝑥=1,2,3,… \\ 0, & otherwise.\end{aligned}
+
 
 
 $$
@@ -169,7 +191,9 @@ Therefore,
 $$
 
 
+
 \begin{aligned}𝑃(𝑋<5) & =𝑃(𝑋∈{1,2,3,4}) \\ & =𝑃(𝑋=1)+𝑃(𝑋=2)+𝑃(𝑋=3)+𝑃(𝑋=4) \\ & =𝑓(1)+𝑓(2)+𝑓(3)+𝑓(4) \\ & =(\frac{4}{7})^{0}(\frac{3}{7})+(\frac{4}{7})^{1}(\frac{3}{7})+(\frac{4}{7})^{2}(\frac{3}{7})+(\frac{4}{7})^{3}(\frac{3}{7}) \\ & ≈0.893\end{aligned}
+
 
 
 $$
@@ -189,7 +213,9 @@ If $X \sim \textrm{Geom}(p),$ then $X$ has the following probability mass functi
 $$
 
 
+
 \begin{aligned}(1−𝑝)^{𝑥−1}𝑝, & 𝑥=1,2,3,… \\ 0, & otherwise\end{aligned}
+
 
 
 $$
@@ -199,7 +225,9 @@ Here, $X \sim \textrm{Geom}\left(\dfrac 15\right),$ so the distribution of $X$ i
 $$
 
 
+
 \begin{aligned}(\frac{4}{5})^{𝑥−1}(\frac{1}{5}), & 𝑥=1,2,3,… \\ 0, & otherwise.\end{aligned}
+
 
 
 $$
@@ -209,7 +237,9 @@ Therefore,
 $$
 
 
+
 \begin{aligned}𝑃(2≤𝑋≤3) & =𝑃(𝑋∈{2,3}) \\ & =𝑃(𝑋=2)+𝑃(𝑋=3) \\ & =𝑓(2)+𝑓(3) \\ & =(\frac{4}{5})^{1}(\frac{1}{5})+(\frac{4}{5})^{2}(\frac{1}{5}) \\ & =\frac{36}{125}.\end{aligned}
+
 
 
 $$
@@ -227,7 +257,9 @@ If $X \sim \textrm{Geom}(p),$ then $X$ has the following probability mass functi
 $$
 
 
+
 \begin{aligned}(1−𝑝)^{𝑥−1}𝑝, & 𝑥=1,2,3,… \\ 0, & otherwise\end{aligned}
+
 
 
 $$
@@ -237,7 +269,9 @@ Here, $X \sim \textrm{Geom}\left(\dfrac 56\right),$ so the distribution of $X$ i
 $$
 
 
+
 \begin{aligned}(\frac{1}{6})^{𝑥−1}(\frac{5}{6}), & 𝑥=1,2,3… \\ 0, & otherwise.\end{aligned}
+
 
 
 $$
@@ -247,7 +281,9 @@ There are infinitely many values of $X$ such that $X > 2.$ However, we can simpl
 $$
 
 
+
 \begin{aligned}𝑃(𝑋>2) & =1−𝑃(𝑋≤2)\end{aligned}
+
 
 
 $$
@@ -257,7 +293,9 @@ Computing the complement, we get
 $$
 
 
+
 \begin{aligned}𝑃(𝑋≤2) & =𝑃(𝑋∈{1,2}) \\ & =𝑃(𝑋=1)+𝑃(𝑋=2) \\ & =𝑓(1)+𝑓(2) \\ & =(\frac{1}{6})^{0}(\frac{5}{6})+(\frac{1}{6})^{1}(\frac{5}{6}) \\ & =\frac{35}{36}.\end{aligned}
+
 
 
 $$
@@ -267,7 +305,9 @@ Therefore,
 $$
 
 
+
 \begin{aligned}𝑃(𝑋>2) & =1−𝑃(𝑋≤2) \\ & =1−\frac{35}{36} \\ & =\frac{1}{36}.\end{aligned}
+
 
 
 $$
@@ -281,7 +321,9 @@ Suppose that $X\sim \textrm{Geom}(p).$ Then, the probability mass function for t
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =(1−𝑝)^{𝑥−1}𝑝 \\ 𝑓(𝑥) & =𝑝(1−𝑝)^{𝑥−1} \\ \underset{𝑎_{𝑥}}{\underset{}{𝑓(𝑥)}} & =\underset{𝑎_{1}}{\underset{}{𝑝}}⋅(\underset{𝑟}{\underset{}{1−𝑝}})^{𝑥−1} \\ 𝑎_{𝑥} & =𝑎_{1}⋅𝑟^{𝑥−1}\end{aligned}
+
 
 
 $$
@@ -301,7 +343,9 @@ To show that criterion 2 is true, we simply need to calculate the sum of this in
 $$
 
 
+
 \begin{aligned}\underset{𝑥∈𝑆}{∑}𝑓(𝑥) & =\underset{\underset{𝑥=1}{∑}}{\overset{}{∞}}𝑝(1−𝑝)^{𝑥−1} \\ & =\frac{𝑝}{1−(1−𝑝)} \\ & =\frac{𝑝}{𝑝} \\ & =1\end{aligned}
+
 
 
 $$

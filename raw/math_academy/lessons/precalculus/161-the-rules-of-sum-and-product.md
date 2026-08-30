@@ -38,7 +38,9 @@ In order to find the total number of choices Noah has, we can use the ****:
 $$
 
 
+
 2+4+3 = 9
+
 
 
 $$
@@ -82,7 +84,9 @@ Using the rule of product, we have
 $$
 
 
+
 \begin{aligned}Total Possible Outcomes & =Number of outcomes for the die \\ & ×Number of outcomes for the first coin \\ & ×Number of outcomes for the second coin \\ & =6×2×2 \\ & =6×2^{2} \\ & =24.\end{aligned}
+
 
 
 $$
@@ -110,7 +114,9 @@ Using the rule of product, we have
 $$
 
 
+
 \begin{aligned}Number of combinations & =Number of options in the first slot \\ & ×Number of options in the second slot \\ & ×Number of options in the third slot \\ & ×Number of options in the fourth slot \\ & =5×5×10×10 \\ & =5^{2}×10^{2} \\ & =25×100 \\ & =2\,500.\end{aligned}
+
 
 
 $$
@@ -144,7 +150,9 @@ Now, using the ****, we have
 $$
 
 
+
 \begin{aligned}Number of combinations & =Number of options in the first slot \\ & ×Number of options in the second slot \\ & ×Number of options in the third slot \\ & ×Number of options in the fourth slot \\ & =15×15×15×15 \\ & =15^{4} \\ & =50\,625.\end{aligned}
+
 
 
 $$

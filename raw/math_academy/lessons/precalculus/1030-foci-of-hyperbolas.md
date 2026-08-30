@@ -24,7 +24,9 @@ The distance between the hyperbola's center and each focus is called the **focal
 $$
 
 
+
 c = \sqrt{a^2+b^2},
+
 
 
 $$
@@ -36,7 +38,9 @@ For our hyperbola, we already know that the focal length is $5.$ But let's check
 $$
 
 
+
 \begin{aligned}𝑐 & =\sqrt{√𝑎^{2}+𝑏^{2}} \\ & =\sqrt{√4^{2}+3^{2}} \\ & =\sqrt{√16+9} \\ & =\sqrt{√25} \\ & =5\,✓\end{aligned}
+
 
 
 $$
@@ -50,7 +54,9 @@ The focal length $c$ of a hyperbola is given by
 $$
 
 
+
 c = \sqrt{a^2 + b^2},
+
 
 
 $$
@@ -78,7 +84,9 @@ For the vertical hyperbola
 $$
 
 
+
 \dfrac{(y-k)^2}{a^2} - \dfrac{(x-h)^2}{b^2} = 1
+
 
 
 $$
@@ -90,7 +98,9 @@ From the diagram, we see that the center of the hyperbola is at
 $$
 
 
+
 (h,k) = (-1,6),
+
 
 
 $$
@@ -100,7 +110,9 @@ and the semi-transverse and semi-conjugate axes are given by
 $$
 
 
+
 a=\dfrac{8}{2}=4,\qquad b=\dfrac{6}{2}=3.
+
 
 
 $$
@@ -110,7 +122,9 @@ Now, computing the focal length, we get
 $$
 
 
+
 \begin{aligned}𝑐 & =\sqrt{√𝑎^{2}+𝑏^{2}} \\ & =\sqrt{√4^{2}+3^{2}} \\ & =5.\end{aligned}
+
 
 
 $$
@@ -120,7 +134,9 @@ Therefore, the coordinates of the foci are
 $$
 
 
+
 (h , k-c) = (-1,6-5) = (-1,1)
+
 
 
 $$
@@ -130,7 +146,9 @@ and
 $$
 
 
+
 (h, k+c) = (-1,6+5) = (-1,11).
+
 
 
 $$
@@ -148,7 +166,9 @@ For the horizontal hyperbola
 $$
 
 
+
 \dfrac{(x-h)^2}{a^2} - \dfrac{(y-k)^2}{b^2} = 1
+
 
 
 $$
@@ -160,7 +180,9 @@ In our case, we have
 $$
 
 
+
 h=-3, \qquad k=1, \qquad a^2 = 20, \qquad b^2 = 16.
+
 
 
 $$
@@ -170,7 +192,9 @@ Now, computing the focal length, we get
 $$
 
 
+
 \begin{aligned}𝑐 & =\sqrt{√𝑎^{2}+𝑏^{2}} \\ & =\sqrt{√20+16} \\ & =6.\end{aligned}
+
 
 
 $$
@@ -180,7 +204,9 @@ Therefore, the coordinates of the foci are
 $$
 
 
+
 (h - c, k) = (-3 - 6, 1) = (-9,1)
+
 
 
 $$
@@ -190,7 +216,9 @@ and
 $$
 
 
+
 (h + c, k) = (-3 +6, 1) = (3,1).
+
 
 
 $$
@@ -208,7 +236,9 @@ To rewrite the equation of the hyperbola in standard form, we need to group $x$ 
 $$
 
 
+
 \begin{aligned}−𝑥^{2}+6𝑥+20𝑦^{2}+160𝑦+291 & =0 \\ 20𝑦^{2}+160𝑦−𝑥^{2}+6𝑥 & =−291 \\ 20[𝑦^{2}+8𝑦]−[𝑥^{2}−6𝑥] & =−291 \\ 20[(𝑦+4)^{2}−16]−[(𝑥−3)^{2}−9] & =−291 \\ 20(𝑦+4)^{2}−320−(𝑥−3)^{2}+9 & =−291 \\ 20(𝑦+4)^{2}−(𝑥−3)^{2} & =−291+320−9 \\ 20(𝑦+4)^{2}−(𝑥−3)^{2} & =20\end{aligned}
+
 
 
 $$
@@ -218,7 +248,9 @@ Then, we divide both sides of the equation by $20$ and simplify:
 $$
 
 
+
 \begin{aligned}\frac{20(𝑦+4)^{2}}{20}−\frac{(𝑥−3)^{2}}{20} & =\frac{20}{20} \\ (𝑦+4)^{2}−\frac{(𝑥−3)^{2}}{20} & =1\end{aligned}
+
 
 
 $$
@@ -228,7 +260,9 @@ For the vertical hyperbola
 $$
 
 
+
 \dfrac{(y-k)^2}{a^2} - \dfrac{(x-h)^2}{b^2} = 1
+
 
 
 $$
@@ -240,7 +274,9 @@ In our case, we have
 $$
 
 
+
 h=3, \qquad k=-4, \qquad a^2 = 1, \qquad b^2 = 20.
+
 
 
 $$
@@ -250,7 +286,9 @@ Now, computing the focal length, we get
 $$
 
 
+
 \begin{aligned}𝑐 & =\sqrt{√𝑎^{2}+𝑏^{2}} \\ & =\sqrt{√1+20} \\ & =\sqrt{√21}.\end{aligned}
+
 
 
 $$
@@ -260,7 +298,9 @@ Therefore, the coordinates of the foci are
 $$
 
 
+
 (h, k \pm c) = (3,-4 \pm \sqrt{21})
+
 
 
 $$
@@ -280,7 +320,9 @@ For a horizontal hyperbola, the point-foci property states that for *any* point 
 $$
 
 
+
 |PF_1 - PF_2| = 2a,
+
 
 
 $$
@@ -306,7 +348,9 @@ Let $2a$ denote the length of the transverse axis of our horizontal hyperbola. T
 $$
 
 
+
 | P F_1 - P F_2 | = 2a.
+
 
 
 $$
@@ -316,7 +360,9 @@ Now, let's compute the distance from the point $P$ to each focus:
 $$
 
 
+
 \begin{aligned}𝑃𝐹_{1} & =\sqrt{√(−1−(−2))^{2}+(0−\sqrt{√5})^{2}} \\ & =\sqrt{√1^{2}+(−\sqrt{√5})^{2}} \\ & =\sqrt{√1+5} \\ & =\sqrt{√6} \\ 𝑃𝐹_{2} & =\sqrt{√(5−(−2))^{2}+(0−\sqrt{√5})^{2}} \\ & =\sqrt{√(7)^{2}+(−\sqrt{√5})^{2}} \\ & =\sqrt{√49+5} \\ & =\sqrt{√54} \\ & =3\sqrt{√6}\end{aligned}
+
 
 
 $$
@@ -326,7 +372,9 @@ Finally, we have
 $$
 
 
+
 \begin{aligned}|𝑃𝐹_{1}−𝑃𝐹_{2}|=2𝑎 \\ |\sqrt{√6}−3\sqrt{√6}|=2𝑎 \\ 2\sqrt{√6}=2𝑎 \\ \sqrt{√6}=𝑎.\end{aligned}
+
 
 
 $$

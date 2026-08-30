@@ -16,7 +16,9 @@ Remember that to find the volume of the parallelepiped spanned by the vectors $\
 $$
 
 
+
 V = | \mathbf{a}\cdot (\mathbf{b} \times \mathbf{c}) |
+
 
 
 $$
@@ -30,7 +32,9 @@ To compute the volume of the tetrahedron, we can just take $\dfrac{1}{6}$ of the
 $$
 
 
+
 V_T = \dfrac{1}{6} V = \dfrac{1}{6} | \mathbf{a}\cdot (\mathbf{b} \times \mathbf{c}) |.
+
 
 
 $$
@@ -48,7 +52,9 @@ Remember that the volume of a tetrahedron is $\dfrac{1}{6}$ the volume of the co
 $$
 
 
+
 V_{T}=\dfrac{1}{6}V = \dfrac{1}{6}\left|\mathbf{a}\cdot (\mathbf{b}\times\mathbf{c})\right|
+
 
 
 $$
@@ -58,7 +64,9 @@ First, let's compute the triple product:
 $$
 
 
+
 \begin{aligned}𝐚⋅(𝐛×𝐜) & =\begin{aligned}−1 & −7 & 0 \\ −8 & 2 & 4 \\ 2 & −3 & 1\end{aligned} \\ & =(−1)⋅\begin{aligned}2 & 4 \\ −3 & 1\end{aligned}−(−7)⋅\begin{aligned}−8 & 4 \\ 2 & 1\end{aligned}+0⋅\begin{aligned}−8 & 2 \\ 2 & −3\end{aligned} \\ & =−(2+12)+7(−8−8)+0 \\ & =−14−112 \\ & =−126\end{aligned}
+
 
 
 $$
@@ -68,7 +76,9 @@ So the volume of the corresponding parallelepiped is
 $$
 
 
+
 V = |-126| = 126.
+
 
 
 $$
@@ -78,7 +88,9 @@ Therefore, the volume of the tetrahedron is
 $$
 
 
+
 V_{T} = \dfrac{1}{6}V = \dfrac{1}{6} \cdot 126 = 21.
+
 
 
 $$
@@ -94,7 +106,9 @@ To compute the volume of the pyramid, we can just take $\dfrac{1}{3}$ of the vol
 $$
 
 
+
 V_P = \dfrac{1}{3} V = \dfrac{1}{3} | \mathbf{a}\cdot (\mathbf{b} \times \mathbf{c}) |.
+
 
 
 $$
@@ -104,7 +118,9 @@ For example, consider the pyramid $SABCD$ that has the parallelogram $ABCD$ as i
 $$
 
 
+
 \overrightarrow{AS} = \langle 6, 1, 1 \rangle, \qquad \overrightarrow{AB} = \langle 0, 2, 0 \rangle, \qquad \overrightarrow{AD} = \langle 0, 0, 2 \rangle.
+
 
 
 $$
@@ -114,7 +130,9 @@ I this case, the formula for the volume of the pyramid gives
 $$
 
 
+
 V_{P}=\dfrac{1}{3}V = \dfrac{1}{3}\left| \overrightarrow{AS} \cdot ( \overrightarrow{AB} \times \overrightarrow{AD} )\right|
+
 
 
 $$
@@ -124,7 +142,9 @@ First, let's compute the triple product:
 $$
 
 
+
 \begin{aligned}\overset{𝐴𝑆}{}⋅(\overset{𝐴𝐵}{}×\overset{𝐴𝐷}{}) & =\begin{aligned}6 & 1 & 1 \\ 0 & 2 & 0 \\ 0 & 0 & 2\end{aligned} \\ & =6⋅\begin{aligned}2 & 0 \\ 0 & 2\end{aligned}−1⋅\begin{aligned}0 & 0 \\ 0 & 2\end{aligned}+1⋅\begin{aligned}0 & 2 \\ 0 & 0\end{aligned} \\ & =6(4−0)−(0−0)+(0−0) \\ & =24−0+0 \\ & =24\end{aligned}
+
 
 
 $$
@@ -134,7 +154,9 @@ So the volume of the corresponding parallelepiped is
 $$
 
 
+
 V=|24|=24,
+
 
 
 $$
@@ -144,7 +166,9 @@ and therefore, the volume of the pyramid is
 $$
 
 
+
 V_{P}=\dfrac{1}{3}V=\dfrac{1}{3}\cdot 24=8.
+
 
 
 $$
@@ -158,7 +182,9 @@ The parallelogram $ABCD$ is the base of the pyramid $SABCD.$ Calculate the volum
 $$
 
 
+
 \overrightarrow{AB} = \langle 3, -1, 2 \rangle, \qquad \overrightarrow{AD} = \langle -2, 4, 1 \rangle, \qquad \overrightarrow{OA} =\langle 1, 2, -1 \rangle, \qquad \overrightarrow{OS} =\langle -1, 3, 2 \rangle.
+
 
 
 $$
@@ -170,7 +196,9 @@ Remember that the volume of a pyramid is $\dfrac{1}{3}$ the volume of the corres
 $$
 
 
+
 V_{P}=\dfrac{1}{3}V = \dfrac{1}{3}\left| \overrightarrow{AS} \cdot ( \overrightarrow{AB} \times \overrightarrow{AD} )\right|
+
 
 
 $$
@@ -180,7 +208,9 @@ Note that the vector $\overrightarrow{AS}$ is not given directly. But we can eva
 $$
 
 
+
 \begin{aligned}\overset{𝐴𝑆}{} & =\overset{𝑂𝑆}{}−\overset{𝑂𝐴}{} \\ & =⟨−1,3,2⟩−⟨1,2,−1⟩ \\ & =⟨−2,1,3⟩\end{aligned}
+
 
 
 $$
@@ -190,7 +220,9 @@ Now, let's compute the triple product:
 $$
 
 
+
 \begin{aligned}\overset{𝐴𝑆}{}⋅(\overset{𝐴𝐵}{}×\overset{𝐴𝐷}{}) & =\begin{aligned}−2 & 1 & 3 \\ 3 & −1 & 2 \\ −2 & 4 & 1\end{aligned} \\ & =(−2)⋅\begin{aligned}−1 & 2 \\ 4 & 1\end{aligned}−1⋅\begin{aligned}3 & 2 \\ −2 & 1\end{aligned}+3⋅\begin{aligned}3 & −1 \\ −2 & 4\end{aligned} \\ & =(−2)(−1−8)−1(3−(−4))+3(12−2) \\ & =18−7+30 \\ & =41\end{aligned}
+
 
 
 $$
@@ -200,7 +232,9 @@ So, the volume of the corresponding parallelepiped is
 $$
 
 
+
 V=|{41}|=41,
+
 
 
 $$
@@ -210,7 +244,9 @@ and therefore, the volume of the pyramid is
 $$
 
 
+
 V_{P}=\dfrac{1}{3}V=\dfrac{1}{3}\cdot 41=\boxed{\dfrac{41}{3}}.
+
 
 
 $$
@@ -228,7 +264,9 @@ First, we find the vectors $\overrightarrow{AB},$ $\overrightarrow{AC},$ and $\o
 $$
 
 
+
 \begin{aligned}\overset{𝐴𝐵}{} & =𝐛−𝐚 \\ & =⟨2,1,1⟩−⟨−1,1,−2⟩ \\ & =⟨3,0,3⟩ \\ \overset{𝐴𝐶}{} & =𝐜−𝐚 \\ & =⟨2,2,1⟩−⟨−1,1,−2⟩ \\ & =⟨3,1,3⟩ \\ \overset{𝐴𝐷}{} & =𝐝−𝐚 \\ & =⟨1,0,−1⟩−⟨−1,1,−2⟩ \\ & =⟨2,−1,1⟩\end{aligned}
+
 
 
 $$
@@ -238,7 +276,9 @@ Now, remember that the volume of a tetrahedron is $\dfrac{1}{6}$ the volume of t
 $$
 
 
+
 V_T = \dfrac{1}{6}V = \dfrac{1}{6} |\overrightarrow{AB} \cdot (\overrightarrow{AC} \times \overrightarrow{AD})|
+
 
 
 $$
@@ -248,7 +288,9 @@ Let's compute the triple product:
 $$
 
 
+
 \begin{aligned}\overset{𝐴𝐵}{}⋅(\overset{𝐴𝐶}{}×\overset{𝐴𝐷}{}) & =\begin{aligned}3 & 0 & 3 \\ 3 & 1 & 3 \\ 2 & −1 & 1\end{aligned} \\ & =3⋅\begin{aligned}1 & 3 \\ −1 & 1\end{aligned}−0⋅\begin{aligned}3 & 3 \\ 2 & 1\end{aligned}+3⋅\begin{aligned}3 & 1 \\ 2 & −1\end{aligned} \\ & =3(1+3)−0+3(−3−2) \\ & =12−0−15 \\ & =−3\end{aligned}
+
 
 
 $$
@@ -258,7 +300,9 @@ So, the volume of the tetrahedron is
 $$
 
 
+
 V_T = \dfrac{1}{6} \cdot |{-3}| = \dfrac{1}{6} \cdot 3 = \dfrac{1}{2}.
+
 
 
 $$

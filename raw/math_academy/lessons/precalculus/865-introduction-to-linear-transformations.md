@@ -17,7 +17,9 @@ Consider the function $f(x),$ defined as
 $$
 
 
+
 f(x) = 2x+1.
+
 
 
 $$
@@ -27,7 +29,9 @@ This function $f$ takes a real number $x$ as input, and it outputs a real number
 $$
 
 
+
 f: x \longrightarrow 2x+1
+
 
 
 $$
@@ -39,7 +43,9 @@ For example, let's consider the following transformation:
 $$
 
 
+
 [\begin{aligned}𝑥 \\ 𝑦\end{aligned}]
+
 
 
 $$
@@ -49,7 +55,9 @@ This means that for any 2D-vector $[\begin{aligned}𝑥 \\ 𝑦\end{aligned}]$ t
 $$
 
 
+
 [\begin{aligned}𝑥 \\ 𝑦\end{aligned}]
+
 
 
 $$
@@ -59,7 +67,9 @@ We can evaluate this transformation just like we would with any other function. 
 $$
 
 
+
 \begin{aligned}𝐓[\begin{aligned}−1 \\ 3\end{aligned}]=[\begin{aligned}−1+3 \\ 2⋅3\end{aligned}]=[\begin{aligned}2 \\ 6\end{aligned}].\end{aligned}
+
 
 
 $$
@@ -101,7 +111,9 @@ Since $\mathbf{T}$ is a linear transformation, it must satisfy $\mathbf{T}(k\mat
 $$
 
 
+
 \begin{aligned}𝐓([\begin{aligned}12 \\ 24\end{aligned}]) & =𝐓(6[\begin{aligned}2 \\ 4\end{aligned}])=6𝐓([\begin{aligned}2 \\ 4\end{aligned}]).\end{aligned}
+
 
 
 $$
@@ -111,7 +123,9 @@ Now, since we're told that
 $$
 
 
+
 [\begin{aligned}12 \\ 24\end{aligned}]
+
 
 
 $$
@@ -121,7 +135,9 @@ we must have
 $$
 
 
+
 \begin{aligned}6𝐓([\begin{aligned}2 \\ 4\end{aligned}]) & =[\begin{aligned}18 \\ −30\end{aligned}] \\ 𝐓([\begin{aligned}2 \\ 4\end{aligned}]) & =\frac{1}{6}[\begin{aligned}18 \\ −30\end{aligned}] \\ 𝐓([\begin{aligned}2 \\ 4\end{aligned}]) & =[\begin{aligned}3 \\ −5\end{aligned}].\end{aligned}
+
 
 
 $$
@@ -139,7 +155,9 @@ Since $\mathbf{T}$ is a linear transformation, we have that
 $$
 
 
+
 \begin{aligned}𝐓(𝑘𝐯+𝐰)=𝐓(𝑘𝐯)+𝐓(𝐰)=𝑘𝐓(𝐯)+𝐓(𝐰)\end{aligned}
+
 
 
 $$
@@ -149,7 +167,9 @@ for any vectors $\mathbf{v}$ and $\mathbf{w}.$ Therefore,
 $$
 
 
+
 \begin{aligned}𝐓(4𝐯_{1}+𝐯_{2}) & =4𝐓(𝐯_{1})+𝐓(𝐯_{2}) \\ [\begin{aligned}−18 \\ 24\end{aligned}] & =4𝐓(𝐯_{1})+[\begin{aligned}14 \\ −12\end{aligned}] \\ 4𝐓(𝐯_{1}) & =[\begin{aligned}−18 \\ 24\end{aligned}]−[\begin{aligned}14 \\ −12\end{aligned}] \\ 4𝐓(𝐯_{1}) & =[\begin{aligned}−32 \\ 36\end{aligned}] \\ 𝐓(𝐯_{1}) & =\frac{1}{4}[\begin{aligned}−32 \\ 36\end{aligned}] \\ 𝐓(𝐯_{1}) & =[\begin{aligned}−8 \\ 9\end{aligned}].\end{aligned}
+
 
 
 $$
@@ -167,7 +187,9 @@ First, since $\mathbf{v}_1 + \mathbf{v}_2=\mathbf{0},$ we have that
 $$
 
 
+
 \begin{aligned}17𝐯_{1}+12𝐯_{2} & =5𝐯_{1}+12𝐯_{1}+12𝐯_{2} \\ & =5𝐯_{1}+12(𝐯_{1}+𝐯_{2}) \\ & =5𝐯_{1}+12(𝟎) \\ & =5𝐯_{1}.\end{aligned}
+
 
 
 $$
@@ -177,7 +199,9 @@ Therefore, we have
 $$
 
 
+
 \mathbf{T}(17\mathbf{v}_1+12\mathbf{v}_2)=\mathbf{T}(5\mathbf{v}_1).
+
 
 
 $$
@@ -187,7 +211,9 @@ Now, since $\mathbf{T}$ is a linear transformation, we have that $\mathbf{T}(k\m
 $$
 
 
+
 \begin{aligned}𝐓(5𝐯_{1}) & =5𝐓(𝐯_{1}) \\ & =5\begin{aligned}9 \\ −12 \\ 8\end{aligned} \\ & =\begin{aligned}45 \\ −60 \\ 40\end{aligned}.\end{aligned}
+
 
 
 $$
@@ -203,7 +229,9 @@ Are the following transformations linear?
 $$
 
 
+
 [\begin{aligned}𝑥 \\ 𝑦\end{aligned}]
+
 
 
 $$
@@ -215,7 +243,9 @@ A linear transformation $\mathbf{T}$ satisfies two properties:
 $$
 
 
+
 \begin{aligned} & 𝐓[\begin{aligned}𝑘𝑥 \\ 𝑘𝑦\end{aligned}]=𝑘𝐓[\begin{aligned}𝑥 \\ 𝑦\end{aligned}], \\ & 𝐓[\begin{aligned}𝑥_{1}+𝑥_{2} \\ 𝑦_{1}+𝑦_{2}\end{aligned}]=𝐓[\begin{aligned}𝑥_{1} \\ 𝑦_{1}\end{aligned}]+𝐓[\begin{aligned}𝑥_{2} \\ 𝑦_{2}\end{aligned}].\end{aligned}
+
 
 
 $$
@@ -225,7 +255,9 @@ First, let's consider $\mathbf{T}_1.$ Checking the first condition, we have
 $$
 
 
+
 \begin{aligned}𝐓_{1}[\begin{aligned}𝑘𝑥 \\ 𝑘𝑦\end{aligned}] & =[\begin{aligned}(𝑘𝑥)^{2} \\ (𝑘𝑥)(𝑘𝑦)\end{aligned}] \\ & =[\begin{aligned}𝑘^{2}𝑥^{2} \\ 𝑘^{2}𝑥𝑦\end{aligned}] \\ & =𝑘[\begin{aligned}𝑘𝑥^{2} \\ 𝑘𝑥𝑦\end{aligned}] \\ & ≠𝑘𝐓_{1}[\begin{aligned}𝑥 \\ 𝑦\end{aligned}].\,×\end{aligned}
+
 
 
 $$

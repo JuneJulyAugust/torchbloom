@@ -16,7 +16,9 @@ Recall that a horizontal hyperbola centered at $(h,k)$ is given by the equation
 $$
 
 
+
 \dfrac{(x-h)^2}{a^2} - \dfrac{(y-k)^2}{b^2} = 1,
+
 
 
 $$
@@ -26,7 +28,9 @@ and a vertical hyperbola centered at $(h,k)$ is given by the equation
 $$
 
 
+
 \dfrac{(y-k)^2}{a^2} - \dfrac{(x-h)^2}{b^2} = 1.
+
 
 
 $$
@@ -36,7 +40,9 @@ In either case, the **eccentricity** is a measure of how "curved" the hyperbola 
 $$
 
 
+
 e = \dfrac {\sqrt {a^2 + b^2}} a = \dfrac{c}{a},
+
 
 
 $$
@@ -68,7 +74,9 @@ The equation of a ** hyperbola centered at $(h,k)$ is given by
 $$
 
 
+
 \dfrac{(x-h)^2}{a^2} - \dfrac{(y-k)^2}{b^2} = 1.
+
 
 
 $$
@@ -82,7 +90,9 @@ Therefore, the eccentricity is
 $$
 
 
+
 \begin{aligned}𝑒 & =\frac{\sqrt{√𝑎^{2}+𝑏^{2}}}{𝑎} \\ & =\frac{\sqrt{√20+16}}{2\sqrt{√5}} \\ & =\frac{\sqrt{√36}}{2\sqrt{√5}} \\ & =\frac{6}{2\sqrt{√5}} \\ & =\frac{3\sqrt{√5}}{5}.\end{aligned}
+
 
 
 $$
@@ -100,7 +110,9 @@ The equation of a ** hyperbola centered at $(h,k)$ is given by
 $$
 
 
+
 \dfrac{(y-k)^2}{a^2} - \dfrac{(x-h)^2}{b^2} = 1.
+
 
 
 $$
@@ -112,7 +124,9 @@ To rewrite the equation of the hyperbola in standard form, we need to group $x$ 
 $$
 
 
+
 \begin{aligned}𝑦^{2}−8𝑥^{2}−48𝑥 & =88 \\ 𝑦^{2}−8[𝑥^{2}+6𝑥] & =88 \\ 𝑦^{2}−8[(𝑥+3)^{2}−9] & =88 \\ 𝑦^{2}−8(𝑥+3)^{2}+72 & =88 \\ 𝑦^{2}−8(𝑥+3)^{2} & =16 \\ \frac{𝑦^{2}}{16}−\frac{(𝑥+3)^{2}}{2} & =1.\end{aligned}
+
 
 
 $$
@@ -124,7 +138,9 @@ Therefore, the eccentricity is
 $$
 
 
+
 \begin{aligned}𝑒 & =\frac{\sqrt{√𝑎^{2}+𝑏^{2}}}{𝑎} \\ & =\frac{\sqrt{√16+2}}{4} \\ & =\frac{\sqrt{√18}}{4} \\ & =\frac{3\sqrt{√2}}{4}.\end{aligned}
+
 
 
 $$
@@ -152,7 +168,9 @@ The equation of a horizontal hyperbola centered at $(h,k)$ is given by
 $$
 
 
+
 \dfrac{(x-h)^2}{a^2} - \dfrac{(y-k)^2}{b^2} = 1.
+
 
 
 $$
@@ -164,7 +182,9 @@ Therefore, the coordinates of the vertices are
 $$
 
 
+
 (h\pm a,k) =(-3\pm3,1)
+
 
 
 $$
@@ -184,7 +204,9 @@ The equation of a ** hyperbola centered at $(h,k)$ is given by
 $$
 
 
+
 \dfrac{(y-k)^2}{a^2} - \dfrac{(x-h)^2}{b^2} = 1.
+
 
 
 $$
@@ -196,7 +218,9 @@ To rewrite the equation of the hyperbola in standard form, we need to group $y$ 
 $$
 
 
+
 \begin{aligned}8𝑦^{2}−𝑥^{2}+32𝑦=−16 & \\ 8[𝑦^{2}+4𝑦]−𝑥^{2}=−16 & \\ 8[(𝑦+2)^{2}−4]−𝑥^{2}=−16 & \\ 8(𝑦+2)^{2}−32−𝑥^{2}=−16 & \\ 8(𝑦+2)^{2}−𝑥^{2}=16 & \\ \frac{(𝑦+2)^{2}}{2}−\frac{𝑥^{2}}{16} & =1\end{aligned}
+
 
 
 $$
@@ -208,7 +232,9 @@ Therefore, the coordinates of the vertices are
 $$
 
 
+
 (h, k \pm a) = (0 , -2 \pm \sqrt{2}).
+
 
 
 $$

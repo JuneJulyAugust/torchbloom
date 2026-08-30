@@ -21,7 +21,9 @@ For example, suppose we want to solve the inequality
 $$
 
 
+
 \dfrac{x}{1+x^2} < 0.
+
 
 
 $$
@@ -31,7 +33,9 @@ We know that the denominator $1+x^2$ is positive for all values of $x.$ So, we c
 $$
 
 
+
 \begin{aligned}\frac{𝑥}{1+𝑥^{2}} & <0 \\ (1+𝑥^{2})⋅\frac{𝑥}{1+𝑥^{2}} & <(1+𝑥^{2})⋅0 \\ (1+𝑥^{2})⋅\frac{𝑥}{1+𝑥^{2}} & <0 \\ 𝑥 & <0\end{aligned}
+
 
 
 $$
@@ -47,7 +51,9 @@ Solve the inequality
 $$
 
 
+
 \dfrac{2}{5x^4 +2} \lt \dfrac{5-2x}{5x^4+2}.
+
 
 
 $$
@@ -59,7 +65,9 @@ We know that the denominator $5x^4+ 2$ is positive for all values of $x.$ So, we
 $$
 
 
+
 \begin{aligned}\frac{2}{5𝑥^{4}+2} & <\frac{5−2𝑥}{5𝑥^{4}+2} \\ (5𝑥^{4}+2)⋅\frac{2}{5𝑥^{4}+2} & <(5𝑥^{4}+2)⋅\frac{5−2𝑥}{5𝑥^{4}+2} \\ 2 & <5−2𝑥 \\ 2𝑥 & <3 \\ 𝑥 & <\frac{3}{2}\end{aligned}
+
 
 
 $$
@@ -73,7 +81,9 @@ Solve the inequality
 $$
 
 
+
 6x^3 + 3x \lt 0.
+
 
 
 $$
@@ -85,7 +95,9 @@ First, we factor:
 $$
 
 
+
 \begin{aligned}6𝑥^{3}+3𝑥 & <0. \\ 3𝑥(2𝑥^{2}+1) & <0\end{aligned}
+
 
 
 $$
@@ -95,7 +107,9 @@ Since $2x^2 + 1$ is always positive, we can divide both sides of the inequality 
 $$
 
 
+
 \begin{aligned}\frac{3𝑥(2𝑥^{2}+1)}{2𝑥^{2}+1} & <\frac{0}{2𝑥^{2}+1} \\ 3𝑥 & <0 \\ 𝑥 & <0.\end{aligned}
+
 
 
 $$
@@ -111,7 +125,9 @@ For example, suppose that we have the inequality
 $$
 
 
+
 \dfrac{x}{-2-x^2} > 0.
+
 
 
 $$
@@ -121,7 +137,9 @@ We know that the denominator $-2-x^2$ is negative for all values of $x.$ So, we 
 $$
 
 
+
 \begin{aligned}\frac{𝑥}{−2−𝑥^{2}} & >0 \\ (−2−𝑥^{2})⋅\frac{𝑥}{−2−𝑥^{2}} & <(−2−𝑥^{2})⋅0 \\ (−2−𝑥^{2})⋅\frac{𝑥}{−2−𝑥^{2}} & <(−2−𝑥^{2})⋅0 \\ 𝑥 & <0\end{aligned}
+
 
 
 $$
@@ -135,7 +153,9 @@ Solve the inequality
 $$
 
 
+
 (2\sin{x}-9)(2x) \leq 0.
+
 
 
 $$
@@ -147,7 +167,9 @@ Note that the factor $2\sin{x}-9$ is always negative. We know this because
 $$
 
 
+
 -1 \leq \sin x \leq 1 \quad \Rightarrow \quad -11 \leq 2\sin x - 9 \leq -7.
+
 
 
 $$
@@ -157,7 +179,9 @@ Because $2\sin{x}-9$ is always negative, we can divide both sides of the inequal
 $$
 
 
+
 \begin{aligned}(2sin⁡𝑥−9)(2𝑥) & ≤0 \\ \frac{(2sin⁡𝑥−9)(2𝑥)}{2sin⁡𝑥−9} & ≥\frac{0}{2sin⁡𝑥−9} \\ 2𝑥 & ≥0 \\ 𝑥 & ≥0.\end{aligned}
+
 
 
 $$
@@ -171,7 +195,9 @@ Solve the inequality
 $$
 
 
+
 \dfrac{x+5}{1-3x} \lt 2, \quad x \lt 0.
+
 
 
 $$
@@ -183,7 +209,9 @@ Since $x\lt 0,$ we have that
 $$
 
 
+
 \begin{aligned}𝑥 & <0 \\ −𝑥 & >0 \\ −3𝑥 & >0 \\ 1−3𝑥 & >1.\end{aligned}
+
 
 
 $$
@@ -193,7 +221,9 @@ This means that $1-3x$ is positive for all the values of $x$ that we are conside
 $$
 
 
+
 \begin{aligned}\frac{𝑥+5}{1−3𝑥} & <2 \\ (1−3𝑥)⋅\frac{𝑥+5}{1−3𝑥} & <(1−3𝑥)⋅2 \\ 𝑥+5 & <2−6𝑥 \\ 7𝑥 & <−3 \\ 𝑥 & <−\frac{3}{7}\end{aligned}
+
 
 
 $$

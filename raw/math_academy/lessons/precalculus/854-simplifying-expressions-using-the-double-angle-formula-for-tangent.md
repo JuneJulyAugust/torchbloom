@@ -17,7 +17,9 @@ Let's recall the sum formula for tangent:
 $$
 
 
+
 \tan{\left(x+y\right)}= \dfrac{\tan{x}+\tan{y}}{1-\tan{x}\tan{y}}
+
 
 
 $$
@@ -27,7 +29,9 @@ Substituting $y = x$ into the above gives
 $$
 
 
+
 \tan{\left(x+x\right)} = \dfrac{\tan{x}+\tan x}{1-\tan{x}\tan x}
+
 
 
 $$
@@ -37,7 +41,9 @@ which simplifies to
 $$
 
 
+
 \tan 2x = \dfrac{2\tan{x}}{1-\tan^2{x}}.
+
 
 
 $$
@@ -59,7 +65,9 @@ First, we multiply the numerator and denominator of the given expression by $(-1
 $$
 
 
+
 \begin{aligned}\frac{2tan⁡(\frac{𝜋}{5})}{5} & =\frac{−2tan⁡(\frac{𝜋}{5})}{5} \\ & =−\frac{2tan⁡(\frac{𝜋}{5})}{5}\end{aligned}
+
 
 
 $$
@@ -69,7 +77,9 @@ Now, let's recall the double-angle formula for tangent:
 $$
 
 
+
 \tan 2x = \dfrac{2\tan x}{1-\tan^2 x }
+
 
 
 $$
@@ -79,7 +89,9 @@ Substituting $x=\dfrac{\pi}{5}$ into the above, we get
 $$
 
 
+
 \tan\left(\dfrac{2\pi}{5}\right) = \dfrac{2\tan \left(\dfrac{\pi}{5}\right)}{1 - \tan^2 \left(\dfrac{\pi}{5}\right) } .
+
 
 
 $$
@@ -89,7 +101,9 @@ Therefore,
 $$
 
 
+
 -\dfrac{2\tan \left(\dfrac{\pi}{5}\right)}{1-\tan^2 \left(\dfrac{\pi}{5}\right)} = -\tan \left( \dfrac{2\pi}{5} \right).
+
 
 
 $$
@@ -107,7 +121,9 @@ First, let's recall the double-angle formula for tangent:
 $$
 
 
+
 \tan{2x} = \dfrac{ 2\tan x } {1 - \tan^2 x }
+
 
 
 $$
@@ -117,7 +133,9 @@ Substituting $\tan x = -\sqrt{2}$ into the above, we get
 $$
 
 
+
 \begin{aligned}tan⁡2𝑥 & =\frac{2\,tan⁡𝑥}{1−(tan⁡𝑥)^{2}} \\ & =\frac{2⋅(−\sqrt{√2})}{1−(−\sqrt{√2})^{2}} \\ & =\frac{−2\sqrt{√2}}{−1} \\ & =2\sqrt{√2}.\end{aligned}
+
 
 
 $$
@@ -135,7 +153,9 @@ First, let's recall the double-angle formula for tangent:
 $$
 
 
+
 \dfrac{2\tan x}{1-\tan^2 x } = \tan 2x
+
 
 
 $$
@@ -145,7 +165,9 @@ Substituting $x=15^\circ$ into the above, we get
 $$
 
 
+
 \begin{aligned}\frac{2tan⁡15^{∘}}{1−tan^{2}⁡15^{∘}} & =tan⁡(2⋅15^{∘}) \\ & =tan⁡30^{∘} \\ & =\frac{\sqrt{√3}}{3}.\end{aligned}
+
 
 
 $$
@@ -155,7 +177,9 @@ So, we have
 $$
 
 
+
 \dfrac{2\tan{15^\circ}}{1-\tan^2{15^\circ}} = \dfrac{\sqrt 3}{3}.
+
 
 
 $$
@@ -165,7 +189,9 @@ Finally, multiplying both sides of the above equation by $\dfrac{5}{2}$ gives
 $$
 
 
+
 \dfrac{5\tan{15^\circ}}{1-\tan^2{15^\circ}} =\dfrac{5\sqrt 3}{6}.
+
 
 
 $$
@@ -183,7 +209,9 @@ First, we simplify the given expression using the identity $\sec^2 x = 1 + \tan^
 $$
 
 
+
 \begin{aligned}\frac{3tan⁡35^{∘}}{2−sec^{2}⁡35^{∘}} & =\frac{3tan⁡35^{∘}}{2−(1+tan^{2}⁡35^{∘})} \\ & =\frac{3tan⁡35^{∘}}{1−tan^{2}⁡35^{∘}}\end{aligned}
+
 
 
 $$
@@ -193,7 +221,9 @@ Now, let's recall the double-angle formula for tangent:
 $$
 
 
+
 \dfrac {2\tan x}{1 - \tan^2 x} = \tan 2x
+
 
 
 $$
@@ -203,7 +233,9 @@ Substituting $x=35^\circ$ in the above, we get
 $$
 
 
+
 \begin{aligned}\frac{2tan⁡35^{∘}}{1−tan^{2}⁡35^{∘}} & =tan⁡(2⋅35^{∘})=tan⁡70^{∘}.\end{aligned}
+
 
 
 $$
@@ -213,7 +245,9 @@ Finally, we have
 $$
 
 
+
 \begin{aligned}\frac{3tan⁡35^{∘}}{1−tan^{2}⁡35^{∘}} & =\frac{3}{2}⋅\underset{tan⁡70^{∘}}{\underset{}{[\frac{2tan⁡35^{∘}}{1−tan^{2}⁡35^{∘}}]}}=\frac{3}{2}tan⁡70^{∘}.\end{aligned}
+
 
 
 $$

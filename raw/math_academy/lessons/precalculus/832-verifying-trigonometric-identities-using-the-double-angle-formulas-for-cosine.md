@@ -16,7 +16,9 @@ Let's try to simplify the following expression:
 $$
 
 
+
 \dfrac{\cos{2x}+\sin^2{x}}{\cos{x}}
+
 
 
 $$
@@ -28,7 +30,9 @@ The formula
 $$
 
 
+
 \cos{2x}=\cos^2{x}-\sin^2{x}
+
 
 
 $$
@@ -38,7 +42,9 @@ seems like the natural choice because we can see that one of the terms will canc
 $$
 
 
+
 \begin{aligned}\frac{cos⁡2𝑥+sin^{2}⁡𝑥}{cos⁡𝑥} & =\frac{(cos^{2}⁡𝑥−sin^{2}⁡𝑥)+sin^{2}⁡𝑥}{cos⁡𝑥} \\ & =\frac{(cos^{2}⁡𝑥−sin^{2}⁡𝑥)+sin^{2}⁡𝑥}{cos⁡𝑥} \\ & =\frac{cos^{2}⁡𝑥}{cos⁡𝑥} \\ & =\frac{cos⁡𝑥⋅cos⁡𝑥}{cos⁡𝑥} \\ & =\frac{cos⁡𝑥⋅cos⁡𝑥}{cos⁡𝑥} \\ & =cos⁡𝑥\end{aligned}
+
 
 
 $$
@@ -48,7 +54,9 @@ So, the expression $\dfrac{\cos{2x}+\sin^2{x}}{\cos{x}}$ is equivalent to $\cos{
 $$
 
 
+
 \dfrac{\cos{2x}+\sin^2{x}}{\cos{x}} = \cos x.
+
 
 
 $$
@@ -58,7 +66,9 @@ $$
 $$
 
 
+
 \begin{aligned}cos⁡2𝑥 & =cos^{2}⁡𝑥−sin^{2}⁡𝑥 \\ cos⁡2𝑥 & =2cos^{2}⁡𝑥−1 \\ cos⁡2𝑥 & =1−2sin^{2}⁡𝑥\end{aligned}
+
 
 
 $$
@@ -76,7 +86,9 @@ First, we recall the double-angle formula for cosine:
 $$
 
 
+
 \cos{2x}= \cos^2{x}-\sin^2{x}
+
 
 
 $$
@@ -86,7 +98,9 @@ Using the double angle formula for cosine, we simplify the given expression, as 
 $$
 
 
+
 \begin{aligned}\frac{cos⁡2𝑥}{cos⁡𝑥+sin⁡𝑥} & =\frac{cos^{2}⁡𝑥−sin^{2}⁡𝑥}{cos⁡𝑥+sin⁡𝑥} \\ & =\frac{(cos⁡𝑥−sin⁡𝑥)(cos⁡𝑥+sin⁡𝑥)}{cos⁡𝑥+sin⁡𝑥} \\ & =\frac{(cos⁡𝑥−sin⁡𝑥)(cos⁡𝑥+sin⁡𝑥)}{cos⁡𝑥+sin⁡𝑥} \\ & =cos⁡𝑥−sin⁡𝑥\end{aligned}
+
 
 
 $$
@@ -104,7 +118,9 @@ First, we expand the parentheses in the numerator and then simplify, as follows:
 $$
 
 
+
 \begin{aligned}\frac{(2cos⁡𝑥−1)(2cos⁡𝑥+1)−1}{sin⁡2𝑥} & =\frac{(4cos^{2}⁡𝑥−1)−1}{sin⁡2𝑥} \\ & =\frac{4cos^{2}⁡𝑥−2}{sin⁡2𝑥} \\ & =\frac{2(2cos^{2}⁡𝑥−1)}{sin⁡2𝑥}\end{aligned}
+
 
 
 $$
@@ -114,7 +130,9 @@ Then, we recall the double-angle formula for cosine:
 $$
 
 
+
 \cos{2x} = 2\cos^2{x}-1
+
 
 
 $$
@@ -124,7 +142,9 @@ Substituting this into our expression above, we get
 $$
 
 
+
 \begin{aligned}\frac{2(2cos^{2}⁡𝑥−1)}{sin⁡2𝑥} & =\frac{2\,cos⁡2𝑥}{sin⁡2𝑥} \\ & =2cot⁡2𝑥.\end{aligned}
+
 
 
 $$
@@ -142,7 +162,9 @@ First, we recall the double-angle formula for cosine:
 $$
 
 
+
 \cos{2\theta}=1-2\sin^2{\theta}
+
 
 
 $$
@@ -152,7 +174,9 @@ Substituting the double-angle formula into the numerator of our expression, we g
 $$
 
 
+
 \begin{aligned}\frac{cos⁡2𝜃}{sin^{2}⁡𝜃} & =\frac{1−2sin^{2}⁡𝜃}{sin^{2}⁡𝜃} \\ & =\frac{1}{sin^{2}⁡𝜃}−\frac{2sin^{2}⁡𝜃}{sin^{2}⁡𝜃} \\ & =\frac{1}{sin^{2}⁡𝜃}−\frac{2sin^{2}⁡𝜃}{sin^{2}⁡𝜃} \\ & =csc^{2}⁡𝜃−2.\end{aligned}
+
 
 
 $$

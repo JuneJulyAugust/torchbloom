@@ -31,7 +31,9 @@ The equation of a horizontal hyperbola centered at $(h,k)$ is given by
 $$
 
 
+
 \dfrac{(x-h)^2}{a^2} - \dfrac{(y-k)^2}{b^2}=1.
+
 
 
 $$
@@ -53,7 +55,9 @@ The equation of a vertical hyperbola centered at $(h,k)$ is given by
 $$
 
 
+
 \dfrac{(y-k)^2}{a^2} - \dfrac{(x-h)^2}{b^2}=1.
+
 
 
 $$
@@ -63,7 +67,9 @@ Note that the given equation can be rewritten as follows:
 $$
 
 
+
 \dfrac{(y-(-3))^2}{16} - \dfrac{(x-1)^2}{9}=1
+
 
 
 $$
@@ -99,7 +105,9 @@ The equation of a vertical hyperbola centered at $(h,k)$ is given by
 $$
 
 
+
 \dfrac{(y-k)^2}{a^2} - \dfrac{(x-h)^2}{b^2}=1.
+
 
 
 $$
@@ -109,7 +117,9 @@ To rewrite the equation of the hyperbola in the above form, we need to group $x$
 $$
 
 
+
 \begin{aligned}4𝑦^{2}−10𝑥^{2}−8𝑦−40𝑥 & =76 \\ 4𝑦^{2}−8𝑦−10𝑥^{2}−40𝑥 & =76 \\ 4[𝑦^{2}−2𝑦]−10[𝑥^{2}+4𝑥] & =76 \\ 4[(𝑦−1)^{2}−1]−10[(𝑥+2)^{2}−4] & =76 \\ 4(𝑦−1)^{2}−4−10(𝑥+2)^{2}+40 & =76 \\ 4(𝑦−1)^{2}−10(𝑥+2)^{2} & =76−40+4 \\ 4(𝑦−1)^{2}−10(𝑥+2)^{2} & =40 \\ \frac{(𝑦−1)^{2}}{10}−\frac{(𝑥+2)^{2}}{4} & =1.\end{aligned}
+
 
 
 $$

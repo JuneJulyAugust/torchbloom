@@ -25,7 +25,9 @@ Now, suppose that we want to find the domain of a transformed radical function, 
 $$
 
 
+
 g(x)= -\sqrt[3]{-x+2}.
+
 
 
 $$
@@ -61,7 +63,9 @@ Now let's consider the function
 $$
 
 
+
 g(x)= 3\sqrt[4]{x+2} -2.
+
 
 
 $$
@@ -71,7 +75,9 @@ To find the domain of $g(x) = 3\sqrt[4]{x+2} -2,$ we proceed in exactly the same
 $$
 
 
+
 x+2 \ge 0.
+
 
 
 $$
@@ -81,7 +87,9 @@ Solving this inequality, we get
 $$
 
 
+
 \begin{aligned}𝑥 & ≥−2.\end{aligned}
+
 
 
 $$
@@ -107,7 +115,9 @@ The domain of $y = \sqrt[6]{x}$ is
 $$
 
 
+
 x \ge 0.
+
 
 
 $$
@@ -117,7 +127,9 @@ To find the domain of $g(x) = -2\sqrt[6]{x+1}-2,$ we replace $x$ with $x+1$ in t
 $$
 
 
+
 {x+1} \ge 0.
+
 
 
 $$
@@ -127,7 +139,9 @@ Solving this inequality, we get
 $$
 
 
+
 \begin{aligned}𝑥+1 & ≥0 \\ 𝑥 & ≥−1\end{aligned}
+
 
 
 $$

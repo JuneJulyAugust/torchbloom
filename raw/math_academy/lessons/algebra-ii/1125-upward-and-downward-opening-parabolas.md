@@ -26,7 +26,9 @@ For any upward or downward-opening parabola whose vertex is $(0,0),$ the general
 $$
 
 
+
 x^2 = 4py
+
 
 
 $$
@@ -38,7 +40,9 @@ Since our parabola passes through the point $(4,8),$ we can find the value of $p
 $$
 
 
+
 \begin{aligned}𝑥^{2} & =4𝑝𝑦 \\ (4)^{2} & =4𝑝(8) \\ 16 & =32𝑝 \\ 𝑝 & =\frac{1}{2}\end{aligned}
+
 
 
 $$
@@ -48,7 +52,9 @@ So, the equation of our parabola is
 $$
 
 
+
 \begin{aligned}𝑥^{2} & =4𝑝𝑦 \\ 𝑥^{2} & =4(\frac{1}{2})𝑦 \\ 𝑥^{2} & =2𝑦.\end{aligned}
+
 
 
 $$
@@ -60,7 +66,9 @@ Remember that for any upward or downward-opening parabola whose vertex is $(0,0)
 $$
 
 
+
 x^2 = 4py
+
 
 
 $$
@@ -92,7 +100,9 @@ For any upward or downward-opening parabola whose vertex is $(0,0),$ the general
 $$
 
 
+
 x^2 = 4py
+
 
 
 $$
@@ -104,7 +114,9 @@ We know that the given parabola passes through the point $(6,-4),$ so we can sub
 $$
 
 
+
 \begin{aligned}𝑥^{2} & =4𝑝𝑦 \\ 6^{2} & =4𝑝(−4) \\ 36 & =−16𝑝 \\ 𝑝 & =−\frac{9}{4}.\end{aligned}
+
 
 
 $$
@@ -114,7 +126,9 @@ Therefore, the equation of the parabola is
 $$
 
 
+
 \begin{aligned}𝑥^{2} & =4𝑝𝑦 \\ 𝑥^{2} & =4(−\frac{9}{4})𝑦 \\ 𝑥^{2} & =−9𝑦.\end{aligned}
+
 
 
 $$
@@ -132,7 +146,9 @@ We know that for any upward or downward-opening parabola whose vertex is $(0,0),
 $$
 
 
+
 x^2 = 4py
+
 
 
 $$
@@ -144,7 +160,9 @@ We're told that the given parabola passes through the point $(2,-4),$ so we can 
 $$
 
 
+
 \begin{aligned}𝑥^{2} & =4𝑝𝑦 \\ 2^{2} & =4𝑝(−4) \\ 4 & =−16𝑝 \\ 𝑝 & =−\frac{1}{4}\end{aligned}
+
 
 
 $$
@@ -154,7 +172,9 @@ Therefore, the equation of the parabola is
 $$
 
 
+
 \begin{aligned}𝑥^{2} & =4𝑝𝑦 \\ 𝑥^{2} & =4(−\frac{1}{4})𝑦 \\ 𝑥^{2} & =−𝑦.\end{aligned}
+
 
 
 $$
@@ -170,7 +190,9 @@ For any upward or downward-opening parabola with its vertex at $(h,k),$ the gene
 $$
 
 
+
 (x-h)^2 = 4p(y-k).
+
 
 
 $$
@@ -182,7 +204,9 @@ Here, the vertex has coordinates $(h,k) = (4,4).$ Substituting these into the ge
 $$
 
 
+
 (x-4)^2 = 4p(y-4).
+
 
 
 $$
@@ -192,7 +216,9 @@ We are left to find the value of $p.$ We know that the given parabola also passe
 $$
 
 
+
 \begin{aligned}(𝑥−4)^{2} & =4𝑝(𝑦−4) \\ (10−4)^{2} & =4𝑝(10−4) \\ 6^{2} & =4𝑝(6) \\ 36 & =24𝑝 \\ 𝑝 & =\frac{3}{2}\end{aligned}
+
 
 
 $$
@@ -202,7 +228,9 @@ Therefore, the equation of our parabola is
 $$
 
 
+
 \begin{aligned}(𝑥−4)^{2} & =4𝑝(𝑦−4) \\ (𝑥−4)^{2} & =4(\frac{3}{2})(𝑦−4) \\ (𝑥−4)^{2} & =6(𝑦−4).\end{aligned}
+
 
 
 $$
@@ -224,7 +252,9 @@ We know that for any upward or downward-opening parabola with its vertex at $(h,
 $$
 
 
+
 (x-h)^2 = 4p(y-k).
+
 
 
 $$
@@ -234,7 +264,9 @@ Here, the vertex has coordinates $(h,k) = (0,4).$ Substituting these into the ge
 $$
 
 
+
 x^2 = 4p(y-4).
+
 
 
 $$
@@ -244,7 +276,9 @@ We are left to find the value of $p.$ We know that the given parabola also passe
 $$
 
 
+
 \begin{aligned}𝑥^{2} & =4𝑝(𝑦−4) \\ 4^{2} & =4𝑝(2−4) \\ 16 & =−8𝑝 \\ 𝑝 & =−2\end{aligned}
+
 
 
 $$
@@ -254,7 +288,9 @@ Therefore, the equation of the parabola is
 $$
 
 
+
 \begin{aligned}𝑥^{2} & =4𝑝(𝑦−4) \\ 𝑥^{2} & =4(−2)(𝑦−4) \\ 𝑥^{2} & =−8(𝑦−4).\end{aligned}
+
 
 
 $$
@@ -272,7 +308,9 @@ For any upward or downward-opening parabola with its vertex at $(h,k),$ the gene
 $$
 
 
+
 (x-h)^2 = 4p(y-k).
+
 
 
 $$
@@ -282,7 +320,9 @@ Here, the vertex has coordinates $(h,k) = (0,-2).$ Substituting these into the g
 $$
 
 
+
 \begin{aligned}(𝑥−0)^{2} & =4𝑝(𝑦−(−2)) \\ 𝑥^{2} & =4𝑝(𝑦+2).\end{aligned}
+
 
 
 $$
@@ -292,7 +332,9 @@ We are left to find the value of $p.$ We know that the given parabola also passe
 $$
 
 
+
 \begin{aligned}𝑥^{2} & =4𝑝(𝑦+2) \\ (4)^{2} & =4𝑝(6+2) \\ 16 & =32𝑝 \\ 𝑝 & =\frac{1}{2}\end{aligned}
+
 
 
 $$
@@ -302,7 +344,9 @@ Therefore, the equation of the parabola is
 $$
 
 
+
 \begin{aligned}𝑥^{2} & =4𝑝(𝑦+2) \\ 𝑥^{2} & =4(\frac{1}{2})(𝑦+2) \\ 𝑥^{2} & =2(𝑦+2).\end{aligned}
+
 
 
 $$

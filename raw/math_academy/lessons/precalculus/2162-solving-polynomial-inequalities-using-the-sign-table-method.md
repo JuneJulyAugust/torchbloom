@@ -18,7 +18,9 @@ Let's use the sign table method to solve the inequality
 $$
 
 
+
 (x+2)(x-2)(x-3) \leq 0.
+
 
 
 $$
@@ -28,7 +30,9 @@ First, we define the function $f(x)$ as
 $$
 
 
+
 f(x) =(x+2)(x-2)(x-3).
+
 
 
 $$
@@ -40,7 +44,9 @@ Next, we find the solutions to the equation $f(x) = 0,$ which are $x=-2, x=2,$ a
 $$
 
 
+
 \left( -\infty,-2 \right), \qquad (-2,2), \qquad (2,3), \qquad (3,\infty)
+
 
 
 $$
@@ -54,7 +60,9 @@ In the interval $(-\infty, -2),$ we can choose the test point $x_1=-3.$ Then, we
 $$
 
 
+
 \begin{aligned}𝑥+2 & =−3+2=−1<0, \\ 𝑥−2 & =−3−2=−5<0, \\ 𝑥−3 & =−3−3=−6<0,\end{aligned}
+
 
 
 $$
@@ -84,7 +92,9 @@ First, we define the function $f(x)$ as
 $$
 
 
+
 f(x) = (2x+1)(x-2)(x-7).
+
 
 
 $$
@@ -96,7 +106,9 @@ The solutions to the equation $f(x) = 0$ are $x=-\dfrac{1}{2},$ $x=2,$ and $x=7.
 $$
 
 
+
 \left( -\infty,-\dfrac{1}{2} \right), \quad \left( -\dfrac{1}{2},2 \right), \quad (2,7), \quad (7, \infty)
+
 
 
 $$
@@ -122,7 +134,9 @@ First, we define the function $f(x)$ as
 $$
 
 
+
 f(x) = x(x+2)^2(x-1).
+
 
 
 $$
@@ -134,7 +148,9 @@ The solutions to the equation $f(x) = 0$ are $x=-2,$ $x=0,$ and $x=1.$ These roo
 $$
 
 
+
 (-\infty,-2), \quad (-2,0), \quad (0,1), \quad (1,\infty)
+
 
 
 $$
@@ -160,7 +176,9 @@ First, we factor the polynomial on the left-hand side of the inequality:
 $$
 
 
+
 \begin{aligned}𝑥^{4}+2𝑥^{3}−3𝑥^{2} & =𝑥^{2}(𝑥^{2}+2𝑥−3) \\ & =𝑥^{2}(𝑥^{2}+3𝑥−𝑥−3) \\ & =𝑥^{2}(𝑥(𝑥+3)−(𝑥+3)) \\ & =𝑥^{2}(𝑥+3)(𝑥−1)\end{aligned}
+
 
 
 $$
@@ -170,7 +188,9 @@ Then, we define the function $f(x)$ as
 $$
 
 
+
 f(x) = x^2(x+3)(x-1).
+
 
 
 $$
@@ -182,7 +202,9 @@ The roots of the polynomial are $x=-3,$ $x=0$ and $x=1.$ These roots divide the 
 $$
 
 
+
 ( -\infty,-3 ), \quad ( -3,0 ), \quad (0,1), \quad (1,\infty)
+
 
 
 $$
@@ -198,7 +220,9 @@ Therefore, remembering that the roots are also solutions, we conclude that the s
 $$
 
 
+
 x \in [-3,0]\cup [0,1] = [-3,1].
+
 
 
 $$
@@ -216,7 +240,9 @@ Moving all the terms to the left-hand side and factoring the resulting polynomia
 $$
 
 
+
 \begin{aligned}𝑥(2𝑥^{2}−3) & <5𝑥 \\ 𝑥(2𝑥^{2}−3)−5𝑥 & <0 \\ 𝑥(2𝑥^{2}−3−5) & <0 \\ 𝑥(2𝑥^{2}−8) & <0 \\ 2𝑥(𝑥^{2}−4) & <0 \\ 2𝑥(𝑥+2)(𝑥−2) & <0 \\ 𝑥(𝑥+2)(𝑥−2) & <0.\end{aligned}
+
 
 
 $$
@@ -226,7 +252,9 @@ Then, we define the function $f(x)$ as
 $$
 
 
+
 f(x) = x(x+2)(x-2).
+
 
 
 $$
@@ -238,7 +266,9 @@ The solutions to the equation $f(x) = 0$ are $x=-2,$ $x = 0,$ and $x = 2.$ These
 $$
 
 
+
 (-\infty,-2), \quad (-2,0),\quad (0,2),\quad (2,\infty)
+
 
 
 $$

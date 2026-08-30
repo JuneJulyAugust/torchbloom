@@ -18,7 +18,9 @@ Recall that the equation of a horizontal hyperbola centered at $(h,k)$ is given 
 $$
 
 
+
 \dfrac{(x-h)^2}{a^2} - \dfrac{(y-k)^2}{b^2} = 1.
+
 
 
 $$
@@ -28,7 +30,9 @@ The equations of the asymptotes of this horizontal hyperbola, as depicted in the
 $$
 
 
+
 y - k = \pm \dfrac b a (x - h).
+
 
 
 $$
@@ -40,7 +44,9 @@ On the other hand, the equation of a vertical hyperbola centered at $(h,k)$ is g
 $$
 
 
+
 \dfrac{(y-k)^2}{a^2} - \dfrac{(x-h)^2}{b^2} = 1.
+
 
 
 $$
@@ -50,7 +56,9 @@ The equations of the asymptotes of this vertical hyperbola are
 $$
 
 
+
 y - k = \pm \dfrac a b (x - h).
+
 
 
 $$
@@ -62,7 +70,9 @@ $$
 $$
 
 
+
 y - k = \pm \dfrac{\textrm{constant associated with }y}{\textrm{constant associated with }x} (x - h)
+
 
 
 $$
@@ -80,7 +90,9 @@ The standard equation of a horizontal hyperbola centered at $(h,k)$ is
 $$
 
 
+
 \frac{(x-h)^2}{a^2} - \frac{(y-k)^2}{b^2}=1.
+
 
 
 $$
@@ -90,7 +102,9 @@ For a horizontal hyperbola, the equations of the asymptotes are
 $$
 
 
+
 y-k=\pm \dfrac{b}{a}(x-h).
+
 
 
 $$
@@ -100,7 +114,9 @@ In our case, we have
 $$
 
 
+
 (h,k) = (-2,-7),\qquad a=\sqrt{18} = 3\sqrt{2}, \qquad b=\sqrt{32} = 4\sqrt{2}.
+
 
 
 $$
@@ -110,7 +126,9 @@ Therefore, the asymptotes are given by
 $$
 
 
+
 \begin{aligned}𝑦+7 & =±(\frac{4\sqrt{√2}}{3\sqrt{√2}})(𝑥+2) \\ 𝑦+7 & =±\frac{4}{3}(𝑥+2).\end{aligned}
+
 
 
 $$
@@ -128,7 +146,9 @@ The standard equation of a vertical hyperbola centered at $(h,k)$ is
 $$
 
 
+
 \dfrac{(y-k)^2}{a^2} - \dfrac{(x-h)^2}{b^2} = 1.
+
 
 
 $$
@@ -138,7 +158,9 @@ For a vertical hyperbola, the equations of the asymptotes are
 $$
 
 
+
 y-k = \pm\dfrac{a}{b}(x-h).
+
 
 
 $$
@@ -148,7 +170,9 @@ In our case, we have
 $$
 
 
+
 a = \sqrt{16} = 4, \qquad b = \sqrt{9} = 3, \qquad h = -3, \qquad k = 1.
+
 
 
 $$
@@ -158,7 +182,9 @@ Therefore, the asymptotes are given by
 $$
 
 
+
 \begin{aligned}𝑦−1 & =±\frac{4}{3}(𝑥−(−3)) \\ 𝑦−1 & =±\frac{4}{3}(𝑥+3).\end{aligned}
+
 
 
 $$
@@ -176,7 +202,9 @@ To rewrite the equation of the hyperbola in standard form, we need to group the 
 $$
 
 
+
 \begin{aligned}9𝑥^{2}−𝑦^{2}−36𝑥−2𝑦+26 & =0 \\ 9𝑥^{2}−36𝑥−𝑦^{2}−2𝑦+26 & =0 \\ 9[𝑥^{2}−4𝑥]−[𝑦^{2}+2𝑦]+26 & =0 \\ 9[(𝑥−2)^{2}−4]−[(𝑦+1)^{2}−1]+26 & =0 \\ 9(𝑥−2)^{2}−36−(𝑦+1)^{2}+1+26 & =0 \\ 9(𝑥−2)^{2}−(𝑦+1)^{2} & =−26−1+36 \\ 9(𝑥−2)^{2}−(𝑦+1)^{2} & =9 \\ (𝑥−2)^{2}−\frac{(𝑦+1)^{2}}{9}=1 & \end{aligned}
+
 
 
 $$
@@ -186,7 +214,9 @@ The asymptotes of the horizontal hyperbola
 $$
 
 
+
 \dfrac{(x-h)^2}{a^2} - \dfrac{(y-k)^2}{b^2} = 1
+
 
 
 $$
@@ -196,7 +226,9 @@ are given by
 $$
 
 
+
 y-k = \pm\dfrac{b}{a}(x-h).
+
 
 
 $$
@@ -206,7 +238,9 @@ In our case, we have
 $$
 
 
+
 h = 2, \qquad k = -1, \qquad a = \sqrt{1} = 1,\qquad b = \sqrt{9} = 3.
+
 
 
 $$
@@ -216,7 +250,9 @@ Therefore, the asymptotes of the hyperbola are
 $$
 
 
+
 \begin{aligned}𝑦+1 & =±3(𝑥−2).\end{aligned}
+
 
 
 $$
@@ -234,7 +270,9 @@ To rewrite the equation of the hyperbola in standard form, we need to group the 
 $$
 
 
+
 \begin{aligned}𝑦^{2}−𝑥^{2}−2𝑦 & =0 \\ (𝑦^{2}−2𝑦)−𝑥^{2} & =0 \\ (𝑦−1)^{2}−1−𝑥^{2} & =0 \\ (𝑦−1)^{2}−𝑥^{2} & =1\end{aligned}
+
 
 
 $$
@@ -244,7 +282,9 @@ The asymptotes of the vertical hyperbola
 $$
 
 
+
 \dfrac{(y-k)^2}{a^2} - \dfrac{(x-h)^2}{b^2} = 1
+
 
 
 $$
@@ -254,7 +294,9 @@ are given by
 $$
 
 
+
 y-k=\pm \dfrac{a}{b}(x-h) .
+
 
 
 $$
@@ -264,7 +306,9 @@ In our case, we have
 $$
 
 
+
 (h,k) = (0,1), \qquad a = \sqrt{1} = 1, \qquad b= \sqrt{1} = 1.
+
 
 
 $$
@@ -274,7 +318,9 @@ Therefore, the asymptotes of the hyperbola are
 $$
 
 
+
 \begin{aligned}𝑦−1 & =±𝑥.\end{aligned}
+
 
 
 $$

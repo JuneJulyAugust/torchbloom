@@ -19,7 +19,9 @@ In such cases, we can use the **change of base formula**, which states that
 $$
 
 
+
 \log_a X = \dfrac {\log_b X} {\log_b a}.
+
 
 
 $$
@@ -33,7 +35,9 @@ For example, to evaluate $\log_{4}9$ using this formula, we can rewrite the loga
 $$
 
 
+
 \begin{aligned}log_{4}⁡9 & =\frac{log⁡9}{log⁡4} \\ & ≈\frac{0.954\,242}{0.602\,059} \\ & =1.585\end{aligned}
+
 
 
 $$
@@ -59,7 +63,9 @@ The change of base formula for logarithms is
 $$
 
 
+
 \log_a X = \dfrac {\log_b X} {\log_b a}.
+
 
 
 $$
@@ -69,7 +75,9 @@ The change of base formula works with any new base. In this example, the choices
 $$
 
 
+
 \begin{aligned}log⁡𝑥 & =log_{10}⁡𝑥 \\ & =\frac{log_{2}⁡𝑥}{log_{2}⁡10}.\end{aligned}
+
 
 
 $$
@@ -91,7 +99,9 @@ We use the change of base formula:
 $$
 
 
+
 \log_a X = \dfrac {\log_b X} {\log_b a}
+
 
 
 $$
@@ -101,7 +111,9 @@ In our case, we have $a=3,$ $X =7,$ and $b=10.$ So, we have
 $$
 
 
+
 \begin{aligned}log_{3}⁡(7) & =\frac{log_{10}⁡(7)}{log_{10}⁡(3)} \\ & =\frac{log⁡(7)}{log⁡(3)} \\ & ≈\frac{0.845\,10}{0.477\,12} \\ & ≈1.77.\end{aligned}
+
 
 
 $$
@@ -119,7 +131,9 @@ We use the change of base formula:
 $$
 
 
+
 \log_a X = \dfrac {\log_b X} {\log_b a}
+
 
 
 $$
@@ -129,7 +143,9 @@ In our case, we have $a=16$ and $X =32.$ Since both $a$ and $X$ are powers of $2
 $$
 
 
+
 \begin{aligned}log_{16}⁡(32) & =\frac{log_{2}⁡(32)}{log_{2}⁡(16)} \\ & =\frac{log_{2}⁡(2^{5})}{log_{2}⁡(2^{4})} \\ & =\frac{5}{4}.\end{aligned}
+
 
 
 $$

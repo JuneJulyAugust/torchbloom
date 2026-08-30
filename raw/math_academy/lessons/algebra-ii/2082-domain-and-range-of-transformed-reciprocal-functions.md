@@ -24,7 +24,9 @@ Setting the denominator of the reciprocal function above equal to zero and solvi
 $$
 
 
+
 \begin{aligned}𝑥+2 & =0 \\ 𝑥 & =−2.\end{aligned}
+
 
 
 $$
@@ -46,7 +48,9 @@ Setting the denominator equal to zero and solving, we get
 $$
 
 
+
 \begin{aligned}2−𝑥 & =0 \\ 𝑥 & =2.\end{aligned}
+
 
 
 $$
@@ -68,7 +72,9 @@ Setting the denominator equal to zero and solving, we get
 $$
 
 
+
 \begin{aligned}2𝑥−𝑎 & =0 \\ 2𝑥 & =𝑎 \\ 𝑥 & =\frac{𝑎}{2}.\end{aligned}
+
 
 
 $$
@@ -80,7 +86,9 @@ On the other hand, we can see that $x=3$ is excluded from the domain. Equating t
 $$
 
 
+
 \begin{aligned}\frac{𝑎}{2} & =3 \\ 𝑎 & =6.\end{aligned}
+
 
 
 $$
@@ -102,7 +110,9 @@ Therefore, the range of $y = f(x)$ is
 $$
 
 
+
 f(x)\in (-\infty, -2) \cup (-2,\infty).
+
 
 
 $$
@@ -112,7 +122,9 @@ In general, a transformed reciprocal function of the form
 $$
 
 
+
 f(x) = \dfrac{a}{bx+c} + d
+
 
 
 $$
@@ -122,7 +134,9 @@ has the horizontal asymptote $y=d,$ and therefore its range is
 $$
 
 
+
 f(x) \in (-\infty, d)\cup (d,\infty).
+
 
 
 $$
@@ -140,7 +154,9 @@ A transformed reciprocal function of the form
 $$
 
 
+
 f(x) = \dfrac{a}{bx+c} + d
+
 
 
 $$
@@ -150,7 +166,9 @@ has the horizontal asymptote $y=d,$ and therefore, its range is
 $$
 
 
+
 f(x) \in (-\infty, d)\cup (d,\infty).
+
 
 
 $$
@@ -160,7 +178,9 @@ In our case, $d = 2.$ Therefore, the horizontal asymptote is $y = 2,$ and the ra
 $$
 
 
+
 f(x) \in (-\infty, 2) \cup (2, \infty).
+
 
 
 $$

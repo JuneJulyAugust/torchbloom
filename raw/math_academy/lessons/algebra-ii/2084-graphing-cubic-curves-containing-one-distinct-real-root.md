@@ -18,7 +18,9 @@ For instance, suppose that we want to plot the graph of $y = x^3-3x^2 +3x-1.$ Fi
 $$
 
 
+
 \begin{aligned}𝑥^{3}−3𝑥^{2}+3𝑥−1 & =0 \\ (𝑥−1)^{3} & =0.\end{aligned}
+
 
 
 $$
@@ -44,7 +46,9 @@ The equation is already fully factored. Note that the discriminant of $x^2 + 5 =
 $$
 
 
+
 \mathcal{D}= 0^2 - 4(1)(5) = -20 < 0,
+
 
 
 $$
@@ -56,7 +60,9 @@ We also find the $y$-intercept of the curve by plugging the value $x=0$ into the
 $$
 
 
+
 \begin{aligned}𝑦 & =\frac{1}{5}(0−4)(0^{2}+5) \\ & =\frac{1}{5}(−4)(5) \\ & =−4\end{aligned}
+
 
 
 $$
@@ -86,7 +92,9 @@ First, we need to factor the polynomial. We are told that $(x-3)$ is a factor of
 $$
 
 
+
 \begin{aligned} & 𝑥^{3} & 𝑥^{2} & 𝑥^{1} & 𝑥^{0} \\ 3 & 1 & 1 & −4 & −24 \\ & & 3 & 12 & 24 \\ & 1 & 4 & 8 & 0\end{aligned}
+
 
 
 $$
@@ -96,7 +104,9 @@ Therefore,
 $$
 
 
+
 \dfrac{f(x)}{x-3} = x^2 + 4x + 8,
+
 
 
 $$
@@ -106,7 +116,9 @@ which means that
 $$
 
 
+
 f(x) = (x-3)(x^2 + 4x + 8).
+
 
 
 $$
@@ -116,7 +128,9 @@ The equation is now fully factored. Note that the discriminant of $x^2 + 4x + 8 
 $$
 
 
+
 \mathcal{D}= 4^2 - 4(1)(8) = -16 < 0,
+
 
 
 $$
@@ -128,7 +142,9 @@ We also find the $y$-intercept of the curve by substituting the value $x=0$ into
 $$
 
 
+
 \begin{aligned}𝑦 & =0^{3}+0^{2}−4(0)−24=−24.\end{aligned}
+
 
 
 $$
@@ -154,7 +170,9 @@ For instance, suppose that we want to plot the graph of $y = -x^3+3x^2 -3x+1.$ F
 $$
 
 
+
 \begin{aligned}−𝑥^{3}+3𝑥^{2}−3𝑥+1 & =0 \\ (−𝑥+1)^{3} & =0 \\ −(𝑥−1)^{3} & =0.\end{aligned}
+
 
 
 $$
@@ -178,7 +196,9 @@ The equation is already fully factored. Note that the discriminant of $x^2 + 2x 
 $$
 
 
+
 \mathcal{D}= 2^2 - 4(1)(2) = -4 < 0,
+
 
 
 $$
@@ -190,7 +210,9 @@ We also find the $y$-intercept of the curve by plugging the value $x=0$ into the
 $$
 
 
+
 \begin{aligned}𝑦 & =−(0−2)(0^{2}+2(0)+2) \\ & =−(−2)(2) \\ & =4\end{aligned}
+
 
 
 $$
@@ -220,7 +242,9 @@ First, we need to factor the polynomial. We are told that $(x-4)$ is a factor of
 $$
 
 
+
 \begin{aligned} & 𝑥^{3} & 𝑥^{2} & 𝑥^{1} & 𝑥^{0} \\ 4 & −1 & 4 & −4 & 16 \\ & & −4 & 0 & −16 \\ & −1 & 0 & −4 & 0\end{aligned}
+
 
 
 $$
@@ -230,7 +254,9 @@ Therefore,
 $$
 
 
+
 \begin{aligned}\frac{𝑓(𝑥)}{𝑥−4} & =−𝑥^{2}−4 \\ & =−(𝑥^{2}+4),\end{aligned}
+
 
 
 $$
@@ -240,7 +266,9 @@ which means that
 $$
 
 
+
 f(x) = -(x-4)(x^2 + 4).
+
 
 
 $$
@@ -250,7 +278,9 @@ The equation is now fully factored. Note that the discriminant of $x^2 + 4 = 0$ 
 $$
 
 
+
 \mathcal{D} = 0^2 - 4(1)(4) = - 16 < 0,
+
 
 
 $$
@@ -262,7 +292,9 @@ We also find the $y$-intercept of the curve by substituting the value $x=0$ into
 $$
 
 
+
 y = -(0)^3 + 4(0)^2 - 4(0) + 16 = 16
+
 
 
 $$

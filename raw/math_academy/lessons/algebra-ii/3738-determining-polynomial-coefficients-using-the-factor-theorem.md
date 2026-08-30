@@ -22,7 +22,9 @@ Here, we are considering the factor $(x+5).$ The root of this factor can be foun
 $$
 
 
+
 \begin{aligned}𝑥+5 & =0 \\ 𝑥 & =−5\end{aligned}
+
 
 
 $$
@@ -32,7 +34,9 @@ According to the factor theorem, since $(x+5)$ is a factor of $p(x),$ then the r
 $$
 
 
+
 \begin{aligned} p(-5) &= 0 \\3(-5)^2 + 19(-5) + c &= 0 \\75 - 95+ c &= 0 \\-20 + c &= 0 \\c &= 20. \end{aligned}
+
 
 
 $$
@@ -52,7 +56,9 @@ Here, we are considering the factor $(3x+2).$ The root of this factor can be fou
 $$
 
 
+
 \begin{aligned}3𝑥+2 & =0 \\ 3𝑥 & =−2 \\ 𝑥 & =−\frac{2}{3}\end{aligned}
+
 
 
 $$
@@ -62,7 +68,9 @@ According to the factor theorem, then, since $(3x+2)$ is a factor of $p(x),$ the
 $$
 
 
+
 \begin{aligned} p\left(-\frac23\right) &= 0 \\\[5pt] 3\left(-\frac23\right)^3-k\left(-\frac23\right)^2+4 &= 0 \\\[5pt] -\frac89-\frac{4k}{9}+\frac{36}{9} &= 0 \\\[5pt] -8 - 4k + 36 &= 0 \\\[5pt] 28 &= 4k \\\[5pt] k &= 7. \end{aligned}
+
 
 
 $$
@@ -82,7 +90,9 @@ Here, we are considering the factors $(x+1)$ and $(x-3).$ The roots of these fac
 $$
 
 
+
 \begin{aligned}𝑥+1=0 & \,⇒\,𝑥=−1 \\ 𝑥−3=0 & \,⇒\,𝑥=3\end{aligned}
+
 
 
 $$
@@ -92,7 +102,9 @@ According to the factor theorem, then, since $(x+1)$ and $(x-3)$ are factors of 
 $$
 
 
+
 \begin{aligned}𝑓(−1) & =0 \\ 𝑎(−1)^{3}+𝑏(−1)^{2}−16(−1)−15 & =0 \\ −𝑎+𝑏+1 & =0 \\ 𝑎−𝑏 & =1, \\ & \\ 𝑓(3) & =0 \\ 𝑎(3)^{3}+𝑏(3)^{2}−16(3)−15 & =0 \\ 27𝑎+9𝑏−63 & =0 \\ 3𝑎+𝑏 & =7.\end{aligned}
+
 
 
 $$
@@ -102,7 +114,9 @@ This gives a system of equations
 $$
 
 
+
 \begin{aligned}𝑎−𝑏=1 \\ 3𝑎+𝑏=7.\end{aligned}
+
 
 
 $$
@@ -112,7 +126,9 @@ Adding the equations, we eliminate $b$ and get
 $$
 
 
+
 4a = 8\quad\Rightarrow\quad a=2.
+
 
 
 $$

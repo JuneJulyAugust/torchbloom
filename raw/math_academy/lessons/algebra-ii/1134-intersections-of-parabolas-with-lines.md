@@ -23,7 +23,9 @@ To find $x$-coordinates of the intersection points, we substitute $y = 2x - 1$ i
 $$
 
 
+
 \begin{aligned}(𝑥−1)^{2} & =𝑦−1 \\ (𝑥−1)^{2} & =(2𝑥−1)−1 \\ 𝑥^{2}−2𝑥+1 & =2𝑥−2 \\ 𝑥^{2}−4𝑥+3 & =0 \\ (𝑥−1)(𝑥−3) & =0 \\ 𝑥 & =1,3\end{aligned}
+
 
 
 $$
@@ -49,7 +51,9 @@ To find the $x$-coordinates of the intersection points, we need to substitute $y
 $$
 
 
+
 \begin{aligned}(𝑥+4)^{2} & =4(𝑦+\frac{3}{4}) \\ (𝑥+4)^{2} & =4((\frac{1}{2}𝑥+5)+\frac{3}{4}) \\ (𝑥+4)^{2} & =4(\frac{1}{2}𝑥+\frac{23}{4}) \\ 𝑥^{2}+8𝑥+16 & =2𝑥+23 \\ 𝑥^{2}+6𝑥−7 & =0 \\ (𝑥+7)(𝑥−1) & =0 \\ 𝑥 & =−7,1\end{aligned}
+
 
 
 $$
@@ -69,7 +73,9 @@ To find the $x$-coordinates of the intersection points, we need to substitute $y
 $$
 
 
+
 \begin{aligned}(𝑥−2)^{2} & =8(𝑦−4) \\ (𝑥−2)^{2} & =8(𝑥−1−4) \\ (𝑥−2)^{2} & =8(𝑥−5) \\ 𝑥^{2}−4𝑥+4 & =8𝑥−40 \\ 𝑥^{2}−4𝑥+4−8𝑥+40 & =0 \\ 𝑥^{2}−12𝑥+44 & =0 \\ (𝑥^{2}−2⋅6𝑥+6^{2})−6^{2}+44 & =0 \\ (𝑥−6)^{2}+8 & =0 \\ (𝑥−6)^{2} & =−8\end{aligned}
+
 
 
 $$
@@ -91,7 +97,9 @@ To find the $x$-coordinates of the intersection points, we substitute $y=-x-16$ 
 $$
 
 
+
 \begin{aligned}𝑦^{2} & =−4(𝑥+1) \\ (−𝑥−16)^{2} & =−4(𝑥+1) \\ 𝑥^{2}+32𝑥+256 & =−4𝑥−4 \\ 𝑥^{2}+36𝑥+260 & =0 \\ (𝑥^{2}+2⋅18𝑥+18^{2})−18^{2}+260 & =0 \\ (𝑥+18)^{2}−18^{2}+260 & =0 \\ (𝑥+18)^{2}−64 & =0 \\ (𝑥+18)^{2} & =64 \\ \sqrt{√(𝑥+18)^{2}} & =\sqrt{√64} \\ |𝑥+18| & =8 \\ 𝑥+18 & =±8 \\ 𝑥 & =−10,−26\end{aligned}
+
 
 
 $$
@@ -111,7 +119,9 @@ To find the $x$-coordinates of the intersection points, we need to substitute $y
 $$
 
 
+
 \begin{aligned}(𝑦−1)^{2} & =−12(𝑥+3) \\ ((𝑥+1)−1)^{2} & =−12(𝑥+3) \\ 𝑥^{2} & =−12𝑥−36 \\ 𝑥^{2}+12𝑥+36 & =0 \\ (𝑥+6)^{2} & =0 \\ 𝑥 & =−6\end{aligned}
+
 
 
 $$

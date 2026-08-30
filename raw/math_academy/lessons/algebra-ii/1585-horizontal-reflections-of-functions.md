@@ -22,7 +22,9 @@ For example, let's take the point $(3,4)$. The fact that it's on the graph of $y
 $$
 
 
+
 f(-x) = f\left(-({\color{red}-3})\right) = f(3) = 4.
+
 
 
 $$
@@ -34,7 +36,9 @@ So, for each point on the graph of $y=f(x),$ there will be a point on the graph 
 $$
 
 
+
 \begin{aligned}Points on y=f(x) & Points on y=f(-x) \\ (−1,2) & (1,2) \\ (0,−1) & (0,−1) \\ (2,0) & (−2,0) \\ (3,4) & (−3,4)\end{aligned}
+
 
 
 $$

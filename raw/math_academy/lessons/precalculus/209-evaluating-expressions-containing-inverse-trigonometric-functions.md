@@ -42,7 +42,9 @@ From the values in the first quadrant, we see that
 $$
 
 
+
 \sin\left(\dfrac{\pi}{3}\right) = \dfrac{\sqrt3}{2}.
+
 
 
 $$
@@ -52,7 +54,9 @@ Therefore,
 $$
 
 
+
 \arcsin\left(\dfrac{\sqrt3}{2}\right) = \dfrac{\pi}{3}.
+
 
 
 $$
@@ -70,7 +74,9 @@ The range of $\theta = \arccos x$ is given by
 $$
 
 
+
 0 \le \theta \le \pi.
+
 
 
 $$
@@ -86,7 +92,9 @@ From the values in the second quadrant, we see that
 $$
 
 
+
 \cos\left( \dfrac{2\pi}{3}\right) = -\dfrac{1}{2}.
+
 
 
 $$
@@ -96,7 +104,9 @@ Therefore,
 $$
 
 
+
 \arccos\left( -\dfrac{1}{2} \right) =\dfrac{2\pi}{3}.
+
 
 
 $$
@@ -114,7 +124,9 @@ First, note that the range of $\theta = \arcsin x$ is given by
 $$
 
 
+
 -\dfrac\pi 2 \le \theta \le \dfrac\pi 2.
+
 
 
 $$
@@ -128,7 +140,9 @@ From the values in the unit circle, we see that
 $$
 
 
+
 \sin\left( \dfrac{5\pi}{3}\right) = -\dfrac {\sqrt{3}} 2.
+
 
 
 $$
@@ -138,7 +152,9 @@ However, $\dfrac{5\pi}{3}$ does not lie within the range of $\theta.$ To get an 
 $$
 
 
+
 \dfrac{5\pi}{3} - 2\pi = -\dfrac{\pi}{3}
+
 
 
 $$
@@ -148,7 +164,9 @@ Therefore,
 $$
 
 
+
 \arcsin \left(-\dfrac {\sqrt{3}} 2\right) = -\dfrac{\pi}{3}.
+
 
 
 $$
@@ -166,7 +184,9 @@ First, note that the range of $\theta = \arctan x$ is given by
 $$
 
 
+
 -\dfrac\pi 2 \lt \theta \lt \dfrac\pi 2.
+
 
 
 $$
@@ -180,7 +200,9 @@ From the special values of the trigonometric functions and the oddness of the ta
 $$
 
 
+
 \tan \left(-\dfrac{\pi}{3}\right) = -\tan\left(\dfrac{\pi}{3}\right) = -\sqrt 3.
+
 
 
 $$
@@ -190,7 +212,9 @@ Since $-\dfrac{\pi}{3}$ is an angle in the fourth quadrant that lies within the 
 $$
 
 
+
 \arctan \left(-\sqrt 3\right) = -\dfrac{\pi}{3}.
+
 
 
 $$

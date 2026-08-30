@@ -35,7 +35,9 @@ To state that a random variable $Z$ follows a standard normal distribution, we w
 $$
 
 
+
 Z \sim N(0,1).
+
 
 
 $$
@@ -51,7 +53,9 @@ For example, suppose that the (continuous) random variable $Z$ follows a standar
 $$
 
 
+
 Z\sim N(0,1)
+
 
 
 $$
@@ -67,7 +71,9 @@ It can be shown that this area equals $0.8413$ to four decimal places. Therefore
 $$
 
 
+
 P(Z \leq 1) = 0.8413.
+
 
 
 $$
@@ -87,7 +93,9 @@ The **cumulative distribution function for the standard normal distribution** is
 $$
 
 
+
 \Phi(z) = P(Z \leq z),
+
 
 
 $$
@@ -101,7 +109,9 @@ For example, using the result we saw earlier,
 $$
 
 
+
 P(Z \leq 1) = \Phi(1) = 0.8413
+
 
 
 $$
@@ -125,7 +135,9 @@ Therefore,
 $$
 
 
+
 P(Z \leq 0.12) = \Phi(0.12)=0.5478.
+
 
 
 $$
@@ -145,7 +157,9 @@ If $Z\sim N(0,1),$ then by the definition of the cumulative distribution functio
 $$
 
 
+
 P(Z \leq z) = \Phi(z).
+
 
 
 $$
@@ -155,7 +169,9 @@ Also, since $Z$ is continuous,
 $$
 
 
+
 P(Z < -1.54) = P(Z \leq -1.54) = \Phi(-1.54).
+
 
 
 $$
@@ -175,7 +191,9 @@ Therefore, according to the table, we have
 $$
 
 
+
 P(Z \leq -1.54) = \Phi(-1.54) = 0.0618
+
 
 
 $$
@@ -197,7 +215,9 @@ By the definition of the cumulative distribution function $\Phi(z),$
 $$
 
 
+
 P(Z \leq z) = \Phi(z).
+
 
 
 $$
@@ -207,7 +227,9 @@ Since the total area under the graph equals $1,$ we can express the required pro
 $$
 
 
+
 \begin{aligned}𝑃(𝑍≥−1.16) & =1−𝑃(𝑍<−1.16) \\ & =1−Φ(−1.16)\end{aligned}
+
 
 
 $$
@@ -219,7 +241,9 @@ From the table, we know that
 $$
 
 
+
 \Phi(-1.16) = 0.1230.
+
 
 
 $$
@@ -229,7 +253,9 @@ Therefore, we have
 $$
 
 
+
 \begin{aligned}𝑃(𝑍≥−1.16) & =1−Φ(−1.16) \\ & =1−0.1230 \\ & =0.8770.\end{aligned}
+
 
 
 $$
@@ -251,7 +277,9 @@ By the definition of the cumulative distribution function $\Phi(z),$
 $$
 
 
+
 P(Z \leq z) = \Phi(z).
+
 
 
 $$
@@ -261,7 +289,9 @@ So, we express the required probability in terms of $\Phi(z)$:
 $$
 
 
+
 \begin{aligned}𝑃(−0.48<𝑍<1.18) & =𝑃(𝑍<1.18)−𝑃(𝑍≤−0.48) \\ & =𝑃(𝑍≤1.18)−𝑃(𝑍≤−0.48) \\ & =Φ(1.18)−Φ(−0.48)\end{aligned}
+
 
 
 $$
@@ -271,7 +301,9 @@ From the tables, we have the following:
 $$
 
 
+
 \begin{aligned}Φ(−0.48) & =0.3156 \\ Φ(1.18) & =0.8810\end{aligned}
+
 
 
 $$
@@ -281,7 +313,9 @@ Therefore, we have
 $$
 
 
+
 \begin{aligned}𝑃(−0.48<𝑍<1.18) & =Φ(1.18)−Φ(−0.48) \\ & =0.8810−0.3156 \\ & =0.5654.\end{aligned}
+
 
 
 $$

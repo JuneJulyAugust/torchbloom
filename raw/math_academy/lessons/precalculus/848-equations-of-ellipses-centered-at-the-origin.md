@@ -17,7 +17,9 @@ The equation of an ellipse centered at the origin with a horizontal radius of le
 $$
 
 
+
 \dfrac{x^2}{{\color{red}a}^2}+\dfrac{y^2}{{\color{blue}b}^2}=1.
+
 
 
 $$
@@ -33,7 +35,9 @@ Therefore, the equation of the ellipse is
 $$
 
 
+
 \begin{aligned}\frac{𝑥^{2}}{3^{2}}+\frac{𝑦^{2}}{2^{2}} & =1 \\ \frac{𝑥^{2}}{9}+\frac{𝑦^{2}}{4} & =1.\end{aligned}
+
 
 
 $$
@@ -53,7 +57,9 @@ Remember that the equation of an ellipse centered at the origin with a horizonta
 $$
 
 
+
 \dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1.
+
 
 
 $$
@@ -63,7 +69,9 @@ Here, the horizontal radius has length $a=5$ and the vertical radius has length 
 $$
 
 
+
 \begin{aligned}\frac{𝑥^{2}}{𝑎^{2}}+\frac{𝑦^{2}}{𝑏^{2}} & =1 \\ \frac{𝑥^{2}}{5^{2}}+\frac{𝑦^{2}}{3^{2}} & =1 \\ \frac{𝑥^{2}}{25}+\frac{𝑦^{2}}{9} & =1.\end{aligned}
+
 
 
 $$
@@ -83,7 +91,9 @@ Remember that the equation of an ellipse centered at the origin with a horizonta
 $$
 
 
+
 \dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1.
+
 
 
 $$
@@ -93,7 +103,9 @@ Here, the horizontal radius has length $a=2$ and the vertical radius has length 
 $$
 
 
+
 \begin{aligned}\frac{𝑥^{2}}{𝑎^{2}}+\frac{𝑦^{2}}{𝑏^{2}} & =1 \\ \frac{𝑥^{2}}{2^{2}}+\frac{𝑦^{2}}{4^{2}} & =1 \\ \frac{𝑥^{2}}{4}+\frac{𝑦^{2}}{16} & =1.\end{aligned}
+
 
 
 $$
@@ -133,7 +145,9 @@ Remember that the equation of an ellipse centered at the origin with a horizonta
 $$
 
 
+
 \dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1.
+
 
 
 $$

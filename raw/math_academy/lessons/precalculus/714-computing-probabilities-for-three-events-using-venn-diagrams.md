@@ -21,7 +21,9 @@ Suppose we wish to compute the following probability:
 $$
 
 
+
 P(B\cap C)
+
 
 
 $$
@@ -37,7 +39,9 @@ We see from the diagram that the sample space $\mathcal S$ contains $20$ outcome
 $$
 
 
+
 P(B\cap C)=\dfrac{5}{20}=0.25.
+
 
 
 $$
@@ -61,7 +65,9 @@ The diagram shows that the sample space $\mathcal{S}$ contains $27$ outcomes, an
 $$
 
 
+
 P((A\cup B)\cap C')=\dfrac{9}{27}= \dfrac{1}{3}.
+
 
 
 $$
@@ -83,7 +89,9 @@ Since $P(A)=\dfrac{1}{2}$ and $N(\mathcal S)=40,$ we get
 $$
 
 
+
 \begin{aligned}𝑃(𝐴) & =\frac{𝑁(𝐴)}{𝑁(S)} \\ \frac{1}{2} & =\frac{𝑁(𝐴)}{40} \\ 𝑁(𝐴) & =\frac{1}{2}⋅40 \\ 𝑁(𝐴) & =20.\end{aligned}
+
 
 
 $$
@@ -93,7 +101,9 @@ From the diagram,
 $$
 
 
+
 N(A)=9+N(A\cap B).
+
 
 
 $$
@@ -103,7 +113,9 @@ Therefore,
 $$
 
 
+
 N(A\cap B)=20-9=11.
+
 
 
 $$
@@ -117,7 +129,9 @@ We also find
 $$
 
 
+
 \begin{aligned}9+11+12+6+𝑁(𝐶) & =40 \\ 38+𝑁(𝐶) & =40 \\ 𝑁(𝐶) & =2.\end{aligned}
+
 
 
 $$
@@ -131,7 +145,9 @@ Finally,
 $$
 
 
+
 x \cdot y = 11 \cdot 2 = 22.
+
 
 
 $$
@@ -193,7 +209,9 @@ Note that, in the bottom-right corner of the Venn diagram, we have placed a $6$ 
 $$
 
 
+
 35 - 4-3-2-2-5-6-7 = 6
+
 
 
 $$
@@ -205,7 +223,9 @@ Finally,
 $$
 
 
+
 x\cdot y\cdot z=6\cdot 2\cdot 6=72.
+
 
 
 $$
@@ -265,7 +285,9 @@ Note that, in the bottom-right corner of the Venn diagram, we have placed a $2$ 
 $$
 
 
+
 60-15-3-2-5-20-10-3=2
+
 
 
 $$
@@ -277,7 +299,9 @@ Finally, the required probability is
 $$
 
 
+
 P(B\cap N'\cap M') = \frac{15}{60} = 0.25.
+
 
 
 $$

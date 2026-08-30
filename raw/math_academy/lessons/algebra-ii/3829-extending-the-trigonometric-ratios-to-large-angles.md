@@ -21,7 +21,9 @@ As an example, let's write the following trigonometric ratio in terms of a refer
 $$
 
 
+
 \sin{440^\circ}
+
 
 
 $$
@@ -31,7 +33,9 @@ To express this trigonometric ratio in terms of a reference angle, we first find
 $$
 
 
+
 440^\circ - 360^\circ = 80^\circ \quad{\color{green}{\checkmark}}
+
 
 
 $$
@@ -41,7 +45,9 @@ Now, notice that our coterminal angle is acute and lies in the first quadrant. T
 $$
 
 
+
 \sin 440^\circ = \sin 80^\circ .
+
 
 
 $$
@@ -63,7 +69,9 @@ First, we find an angle that's coterminal with $750^\circ$ that lies in the rang
 $$
 
 
+
 \begin{aligned}750^{∘}−360^{∘} & =390^{∘} \\ 750^{∘}−2⋅360^{∘} & =30^{∘}\,✓\end{aligned}
+
 
 
 $$
@@ -73,7 +81,9 @@ Notice that our coterminal angle is acute and lies in the first quadrant. Theref
 $$
 
 
+
 \cos 750^\circ = \cos 30^\circ.
+
 
 
 $$
@@ -89,7 +99,9 @@ As an example, let's express the following trigonometric ratio in terms of a ref
 $$
 
 
+
 \sin{940^\circ}
+
 
 
 $$
@@ -109,7 +121,9 @@ So, we conclude that
 $$
 
 
+
 \sin 940^\circ = -\sin{40^\circ}.
+
 
 
 $$
@@ -139,7 +153,9 @@ So, we conclude that
 $$
 
 
+
 \sin 860^\circ = \sin 40^\circ.
+
 
 
 $$
@@ -165,7 +181,9 @@ To express $\cos 970^\circ$ in terms of $\cos\theta_R,$ we proceed as follows:
 $$
 
 
+
 \theta_R = 250^\circ - 180^\circ= 70^\circ
+
 
 
 $$
@@ -177,7 +195,9 @@ So, we conclude that
 $$
 
 
+
 \cos 970^\circ = -\cos 70^\circ.
+
 
 
 $$
@@ -207,7 +227,9 @@ So, we conclude that
 $$
 
 
+
 \tan 580^\circ = \tan 40^\circ.
+
 
 
 $$

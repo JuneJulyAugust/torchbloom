@@ -42,7 +42,9 @@ In general, if we have a polynomial
 $$
 
 
+
 f(x) = a_nx^n+a_{n-1}x^{n-1}+...+a_{1}x + a_0
+
 
 
 $$
@@ -52,7 +54,9 @@ with leading coefficient $a_n\neq 0,$ the end behavior of the polynomial is alwa
 $$
 
 
+
 f(x) \rightarrow +\infty \quad \text{or} \quad f(x) \rightarrow -\infty
+
 
 
 $$
@@ -88,7 +92,9 @@ Let's call $P(x)$ the given polynomial:
 $$
 
 
+
 P(x)=2x^3 -6 x^2 + 8
+
 
 
 $$
@@ -114,7 +120,9 @@ To illustrate, consider the following polynomial:
 $$
 
 
+
 P(x) = 2x^3 -6 x^2 + 8
+
 
 
 $$

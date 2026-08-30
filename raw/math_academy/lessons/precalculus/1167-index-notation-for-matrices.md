@@ -16,7 +16,9 @@ Suppose we are given the following matrix:
 $$
 
 
+
 \begin{aligned}2 & −1 & 0 \\ −5 & 0 & −2 \\ −1 & 8 & 1 \\ 0 & 3 & −7\end{aligned}
+
 
 
 $$
@@ -28,7 +30,9 @@ The first subscript represents the row and the second subscript represents the c
 $$
 
 
+
 \begin{aligned}2 & −1 & 0 \\ −5 & 0 & −2 \\ −1 & 8 & 1 \\ 0 & 3 & −7\end{aligned}
+
 
 
 $$
@@ -38,7 +42,9 @@ We can denote every entry of a matrix in this way. For instance, $a_{{\color{blu
 $$
 
 
+
 \begin{aligned}𝑎_{11} & 𝑎_{12} & 𝑎_{13} \\ 𝑎_{21} & 𝑎_{22} & 𝑎_{23} \\ 𝑎_{31} & 𝑎_{32} & 𝑎_{33} \\ 𝑎_{41} & 𝑎_{42} & 𝑎_{43}\end{aligned}
+
 
 
 $$
@@ -52,7 +58,9 @@ Find the entry $a_{23}$ of the matrix ${A},$ where
 $$
 
 
+
 [\begin{aligned}−1 & 1 & 2 & 1 \\ 0 & 1 & −3 & −1\end{aligned}]
+
 
 
 $$
@@ -64,7 +72,9 @@ The entry $a_{23}$ lies at the intersection of the $2$nd row and $3$rd column. T
 $$
 
 
+
 [\begin{aligned}−1 & 1 & 2 & 1 \\ 0 & 1 & −3 & −1\end{aligned}]
+
 
 
 $$
@@ -78,7 +88,9 @@ Find the entry $b_{22}$ of the matrix ${B},$ where
 $$
 
 
+
 [\begin{aligned}−5 & 1 \\ 0 & 2\end{aligned}]
+
 
 
 $$
@@ -90,7 +102,9 @@ The entry $b_{22}$ lies at the intersection of the $2$nd row and $2$nd column. T
 $$
 
 
+
 [\begin{aligned}−5 & 1 \\ 0 & 2\end{aligned}]
+
 
 
 $$
@@ -104,7 +118,9 @@ If $A$ is an $m\times n$ matrix, we can write it as
 $$
 
 
+
 \begin{aligned}𝑎_{11} & 𝑎_{12} & … & 𝑎_{1𝑛} \\ 𝑎_{21} & 𝑎_{22} & … & 𝑎_{2𝑛} \\ ⋮ & ⋮ & ⋱ & ⋮ \\ 𝑎_{𝑚1} & 𝑎_{𝑚2} & … & 𝑎_{𝑚𝑛}\end{aligned}
+
 
 
 $$
@@ -120,7 +136,9 @@ Consider the highlighted entry of the matrix $C$ given below. Describe it in ter
 $$
 
 
+
 [\begin{aligned}0 & −2 & 5 \\ 34 & 5 & 1\end{aligned}]
+
 
 
 $$

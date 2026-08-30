@@ -17,7 +17,9 @@ Suppose that we want to solve the following trigonometric equation:
 $$
 
 
+
 4\cos^2x-3=0, \qquad 0 \leq x < 2\pi
+
 
 
 $$
@@ -31,7 +33,9 @@ First, we rearrange the equation and isolate $\cos^2{x}{:}$
 $$
 
 
+
 \begin{aligned}4cos^{2}⁡𝑥−3 & =0 \\ 4cos^{2}⁡𝑥 & =3 \\ cos^{2}⁡𝑥 & =\frac{3}{4}\end{aligned}
+
 
 
 $$
@@ -41,7 +45,9 @@ Taking the square root on both sides of the equation, we have
 $$
 
 
+
 \begin{aligned}cos^{2}⁡𝑥 & =\frac{3}{4} \\ cos⁡𝑥 & =±\sqrt{√\frac{3}{4}} \\ cos⁡𝑥 & =±\frac{\sqrt{√3}}{2}.\end{aligned}
+
 
 
 $$
@@ -53,7 +59,9 @@ Our equations are
 $$
 
 
+
 \cos{x} = -\dfrac{\sqrt3}{2} \qquad \textrm{and}\qquad \cos{x} = \dfrac{\sqrt3}{2}.
+
 
 
 $$
@@ -71,7 +79,9 @@ Combining the solutions from both equations, the solutions to the original equat
 $$
 
 
+
 x_1 = \dfrac{\pi}{6}, \quad x_2 = \dfrac{5\pi}{6}, \quad x_3 = \dfrac{7\pi}{6}, \quad x_4 = \dfrac{11\pi}{6}.
+
 
 
 $$
@@ -89,7 +99,9 @@ Taking the square root of both sides of the equation, we have
 $$
 
 
+
 \begin{aligned}cos^{2}⁡𝑥 & =\frac{1}{9} \\ cos⁡𝑥 & =±\sqrt{√\frac{1}{9}} \\ cos⁡𝑥 & =±\frac{1}{3}.\end{aligned}
+
 
 
 $$
@@ -99,7 +111,9 @@ So, we have to solve the following two equations:
 $$
 
 
+
 \cos{x} = -\dfrac{1}{3}, \qquad \cos{x} = \dfrac{1}{3}
+
 
 
 $$
@@ -115,7 +129,9 @@ Combining all solutions from both equations, we get
 $$
 
 
+
 x_1 \approx -1.231\,0, \quad x_2 \approx 1.231\,0.
+
 
 
 $$
@@ -125,7 +141,9 @@ Finally,
 $$
 
 
+
 x_1\cdot x_2 \approx -1.231\,0 \cdot 1.231\,0 \approx -1.5,
+
 
 
 $$
@@ -145,7 +163,9 @@ Taking the square root on both sides of the equation, we have
 $$
 
 
+
 \begin{aligned}sin^{2}⁡(𝑥) & =\frac{3}{4} \\ sin⁡(𝑥) & =±\sqrt{√\frac{3}{4}} \\ sin⁡(𝑥) & =±\frac{\sqrt{√3}}{2}.\end{aligned}
+
 
 
 $$
@@ -155,7 +175,9 @@ So, we have to solve the following two equations:
 $$
 
 
+
 \sin{x} = -\dfrac{\sqrt{3}}{2}, \qquad \sin{x} = \dfrac{\sqrt{3}}{2}
+
 
 
 $$
@@ -171,7 +193,9 @@ Combining all solutions from both equations, we get
 $$
 
 
+
 x_1 = -\dfrac{2\pi}{3}, \quad x_2=-\dfrac{\pi}{3},\quad x_3= \dfrac{\pi}{3},\quad x_4= \dfrac{2\pi}{3}.
+
 
 
 $$
@@ -181,7 +205,9 @@ Finally,
 $$
 
 
+
 x_2\cdot x_3 = -\dfrac{\pi}{3} \cdot \dfrac{\pi}{3} = -\dfrac{\pi^2}{9}.
+
 
 
 $$

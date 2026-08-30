@@ -17,7 +17,9 @@ The parametric equations of a horizontal hyperbola centered at the origin with C
 $$
 
 
+
 \dfrac{x^2}{a^2} - \dfrac{y^2}{b^2} = 1
+
 
 
 $$
@@ -27,7 +29,9 @@ are given by
 $$
 
 
+
 x=a\sec{t},\quad y=b\tan{t},
+
 
 
 $$
@@ -37,7 +41,9 @@ where $a$ and $b$ are positive constants. The domain of the parameter $t$ is
 $$
 
 
+
 t\in[-\pi,\pi],\qquad t\neq \pm \frac{\pi}{2}.
+
 
 
 $$
@@ -63,7 +69,9 @@ The parametric equations of a horizontal hyperbola with Cartesian equation
 $$
 
 
+
 \frac{x^2}{a^2} - \frac{y^2}{b^2} = 1
+
 
 
 $$
@@ -73,7 +81,9 @@ are given by
 $$
 
 
+
 x=a\sec{t},\quad y=b\tan{t}.
+
 
 
 $$
@@ -83,7 +93,9 @@ In our case, $a = \sqrt{49} = 7$ and $b =\sqrt9= 3.$ Therefore, the parametric e
 $$
 
 
+
 x=7\sec{t},\quad y=3\tan{t}.
+
 
 
 $$
@@ -103,7 +115,9 @@ The parametric equations of a horizontal hyperbola centered at the origin with C
 $$
 
 
+
 \dfrac{x^2}{a^2} - \dfrac{y^2}{b^2} = 1
+
 
 
 $$
@@ -113,7 +127,9 @@ are given by
 $$
 
 
+
 x=a\sec{t},\quad y=b\tan{t},
+
 
 
 $$
@@ -127,7 +143,9 @@ The asymptotes of a horizontal hyperbola are $y=\pm \dfrac{b}{a}x.$ In our case,
 $$
 
 
+
 \begin{aligned}\frac{𝑏}{𝑎} & =\frac{5}{7} \\ \frac{𝑏}{7} & =\frac{5}{7} \\ 𝑏 & =5.\end{aligned}
+
 
 
 $$
@@ -137,7 +155,9 @@ Therefore, the parametric equations of the hyperbola are
 $$
 
 
+
 x=7\sec{t},\quad y=5\tan{t}.
+
 
 
 $$
@@ -149,7 +169,9 @@ We've been told that the parametric equations of a horizontal hyperbola centered
 $$
 
 
+
 x=a\sec{t},\quad y=b\tan{t}
+
 
 
 $$
@@ -161,7 +183,9 @@ First, let's make the trigonometric functions the subject of each equation:
 $$
 
 
+
 \begin{aligned}𝑥 & =𝑎sec⁡𝑡 & ⟹ & & sec⁡𝑡 & =\frac{𝑥}{𝑎}, \\ 𝑦 & =𝑏tan⁡𝑡 & ⟹ & & tan⁡𝑡 & =\frac{𝑦}{𝑏}.\end{aligned}
+
 
 
 $$
@@ -171,7 +195,9 @@ Now, we recall the secant-tangent identity:
 $$
 
 
+
 \tan^2{t} + 1 = \sec^2{t}.
+
 
 
 $$
@@ -181,7 +207,9 @@ Substituting the above into the secant-tangent identity, we get
 $$
 
 
+
 \begin{aligned}tan^{2}⁡𝑡+1 & =sec^{2}⁡𝑡 \\ (\frac{𝑦}{𝑏})^{2}+1 & =(\frac{𝑥}{𝑎})^{2} \\ \frac{𝑦^{2}}{𝑏^{2}}+1 & =\frac{𝑥^{2}}{𝑎^{2}} \\ \frac{𝑥^{2}}{𝑎^{2}}−\frac{𝑦^{2}}{𝑏^{2}} & =1.\end{aligned}
+
 
 
 $$
@@ -203,7 +231,9 @@ To find the Cartesian equation of the hyperbola, we need to eliminate the parame
 $$
 
 
+
 \begin{aligned}𝑥 & =6sec⁡𝑡 \\ \frac{𝑥}{6} & =sec⁡𝑡 \\ (\frac{𝑥}{6})^{2} & =(sec⁡𝑡)^{2} \\ \frac{𝑥^{2}}{6^{2}} & =sec^{2}⁡𝑡 \\ \frac{𝑥^{2}}{36} & =sec^{2}⁡𝑡.\end{aligned}
+
 
 
 $$
@@ -213,7 +243,9 @@ $$
 $$
 
 
+
 \begin{aligned}𝑦 & =4\sqrt{√2}tan⁡𝑡 \\ \frac{𝑦}{4\sqrt{√2}} & =tan⁡𝑡 \\ (\frac{𝑦}{4\sqrt{√2}})^{2} & =(tan⁡𝑡)^{2} \\ \frac{𝑦^{2}}{(4\sqrt{√2})^{2}} & =tan^{2}⁡𝑡 \\ \frac{𝑦^{2}}{32} & =tan^{2}⁡𝑡.\end{aligned}
+
 
 
 $$
@@ -223,7 +255,9 @@ Substituting the two equations into the identity $\tan^2{t} + 1 = \sec^2{t}$ and
 $$
 
 
+
 \begin{aligned}tan^{2}⁡𝑡+1 & =sec^{2}⁡𝑡 \\ \frac{𝑦^{2}}{32}+1 & =\frac{𝑥^{2}}{36} \\ \frac{𝑥^{2}}{36}−\frac{𝑦^{2}}{32} & =1.\end{aligned}
+
 
 
 $$
@@ -239,7 +273,9 @@ The quarter-hyperbola above is defined by the parametric equations
 $$
 
 
+
 x = \sqrt2\sec{t}, \qquad y = \sqrt3\tan{t}.
+
 
 
 $$
@@ -253,7 +289,9 @@ The parametric equations of the full hyperbola are
 $$
 
 
+
 x= \sqrt2 \sec{t}, \quad y = \sqrt3 \tan{t}, \quad t \in [-\pi,\pi], \quad t \neq \pm\dfrac{\pi}2.
+
 
 
 $$
@@ -269,7 +307,9 @@ Therefore, the parametric equations that describe the required quarter-hyperbola
 $$
 
 
+
 x= \sqrt2\sec{t}, \quad y = \sqrt3\tan{t}, \quad t \in \left[0, \dfrac{\pi}2\right).
+
 
 
 $$

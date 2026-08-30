@@ -23,7 +23,9 @@ The parametric equations for this ellipse are
 $$
 
 
+
 x = 4\cos{\theta},\quad y=3\sin\theta, \quad 0\leq \theta \lt 2\pi.
+
 
 
 $$
@@ -33,7 +35,9 @@ In general, an ellipse centered at $O$ with horizontal radius $a$ and vertical r
 $$
 
 
+
 x = a\cos{\theta},\quad y=b\sin\theta, \quad 0\leq \theta \lt 2\pi.
+
 
 
 $$
@@ -55,7 +59,9 @@ The parametric equations of an ellipse centered at the origin with a horizontal 
 $$
 
 
+
 x= a\cos\theta,\quad y=b\sin\theta, \quad \theta \in [0,2\pi).
+
 
 
 $$
@@ -67,7 +73,9 @@ In our case, $a=3$ and $b=1.$ Therefore, the parametric equations of the ellipse
 $$
 
 
+
 x= 3\cos\theta,\quad y=\sin\theta, \quad \theta \in [0,2\pi).
+
 
 
 $$
@@ -87,7 +95,9 @@ The parametric equations of an ellipse centered at the point $(h,k)$ with a hori
 $$
 
 
+
 x= a\cos\theta+h,\quad y=b\sin\theta+k, \quad \theta \in [0,2\pi).
+
 
 
 $$
@@ -99,7 +109,9 @@ In our case, the ellipse is centered at the point $(1,-2),$ $a=6$ and $b=4.$ The
 $$
 
 
+
 x=6\cos\theta+1,\quad y=4\sin\theta-2,\quad \theta\in [0,2\pi).
+
 
 
 $$
@@ -113,7 +125,9 @@ The semi-ellipse below is defined by the parametric equations
 $$
 
 
+
 x = 5\cos\theta, \qquad y = 4\sin\theta.
+
 
 
 $$
@@ -129,7 +143,9 @@ The parametric equations of an ellipse centered at the origin with a horizontal 
 $$
 
 
+
 x= a\cos\theta,\quad y=b\sin\theta, \quad \theta \in [0,2\pi).
+
 
 
 $$
@@ -139,7 +155,9 @@ In our case, $a=5$ and $b=4.$ Therefore, the parametric equations of the ** elli
 $$
 
 
+
 x= 5\cos\theta,\quad y=4\sin\theta, \quad \theta \in [0,2\pi).
+
 
 
 $$
@@ -155,7 +173,9 @@ Therefore, the parametric equations of the semi-ellipse are
 $$
 
 
+
 x= 5\cos\theta,\quad y=4\sin\theta, \quad \theta \in\left[0, \pi\right].
+
 
 
 $$
@@ -169,7 +189,9 @@ Find the Cartesian equation of the ellipse
 $$
 
 
+
 x= 4\cos\theta,\quad y=2\sin\theta - 1, \quad 0\leq\theta<2\pi.
+
 
 
 $$
@@ -183,7 +205,9 @@ By isolating the $\cos\theta$ term in the $x$-equation and squaring, we get
 $$
 
 
+
 \begin{aligned}𝑥 & =4cos⁡𝜃 \\ \frac{𝑥}{4} & =cos⁡𝜃 \\ \frac{𝑥^{2}}{4^{2}} & =cos^{2}⁡𝜃 \\ \frac{𝑥^{2}}{16} & =cos^{2}⁡𝜃.\end{aligned}
+
 
 
 $$
@@ -193,7 +217,9 @@ By isolating the $\sin\theta$ term in the $y$-equation and squaring, we get
 $$
 
 
+
 \begin{aligned}𝑦+1 & =2sin⁡𝜃 \\ \frac{𝑦+1}{2} & =sin⁡𝜃 \\ \frac{(𝑦+1)^{2}}{2^{2}} & =sin^{2}⁡𝜃 \\ \frac{(𝑦+1)^{2}}{4} & =sin^{2}⁡𝜃.\end{aligned}
+
 
 
 $$
@@ -203,7 +229,9 @@ Adding the two equations and using $\cos^2\theta + \sin^2\theta =1,$ we get
 $$
 
 
+
 \begin{aligned}\frac{𝑥^{2}}{16}+\frac{(𝑦+1)^{2}}{4} & =cos^{2}⁡𝜃+sin^{2}⁡𝜃=1.\end{aligned}
+
 
 
 $$
@@ -213,7 +241,9 @@ So the Cartesian equation of the ellipse is
 $$
 
 
+
 \frac{x^2}{16}+\frac{(y+1)^2}{4} = 1.
+
 
 
 $$

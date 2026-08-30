@@ -19,7 +19,9 @@ Let's start with the odd case first. What is the range of
 $$
 
 
+
 f(x) = -2\sqrt[3]{3x-2}+2?
+
 
 
 $$
@@ -47,7 +49,9 @@ Let's now focus on the even case. What is the range of
 $$
 
 
+
 g(x) = -3\sqrt[4]{2x-1}-2?
+
 
 
 $$
@@ -57,7 +61,9 @@ The range of $\sqrt[4] x$ is
 $$
 
 
+
 \sqrt[4] x \ge 0.
+
 
 
 $$
@@ -69,7 +75,9 @@ First, remember that horizontal shifts and stretches do not affect the range. Th
 $$
 
 
+
 \sqrt[4]{2x-1} \ge 0.
+
 
 
 $$
@@ -79,7 +87,9 @@ Multiplying the above inequality by $-3$ and then subtracting $2,$ we get
 $$
 
 
+
 \begin{aligned}\sqrt[√2𝑥−1]{4} & ≥0 \\ −3\sqrt[√2𝑥−1]{4} & ≤0 \\ −3\sqrt[√2𝑥−1]{4}−2 & ≤−2 \\ 𝑔(𝑥) & ≤−2.\end{aligned}
+
 
 
 $$
@@ -103,7 +113,9 @@ The range of $\sqrt[4] x$ is
 $$
 
 
+
 \sqrt[4] x \ge 0.
+
 
 
 $$
@@ -113,7 +125,9 @@ Horizontal shifts and stretches do not affect the range. Therefore,
 $$
 
 
+
 \sqrt[4]{1-2x} \ge 0.
+
 
 
 $$
@@ -123,7 +137,9 @@ Multiplying the above inequality by $-2$ and then adding $1,$ we get
 $$
 
 
+
 \begin{aligned}\sqrt[√1−2𝑥]{4} & ≥0 \\ −2\sqrt[√1−2𝑥]{4} & ≤0 \\ −2\sqrt[√1−2𝑥]{4}+1 & ≤1 \\ 𝑓(𝑥) & ≤1.\end{aligned}
+
 
 
 $$

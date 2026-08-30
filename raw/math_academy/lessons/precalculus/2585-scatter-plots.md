@@ -29,7 +29,9 @@ Then, we plot the points that correspond to the pairs from the data:
 $$
 
 
+
 (2,2.5), \quad (4,3), \quad (5,4), \quad (7,4.5), \quad (9,4.5)
+
 
 
 $$

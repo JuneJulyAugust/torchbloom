@@ -46,7 +46,9 @@ First, we find an angle that's coterminal with $\dfrac {8\pi}3$ by ** integer mu
 $$
 
 
+
 \begin{aligned}\frac{8𝜋}{3}−2𝜋=\frac{2𝜋}{3}\,✓\end{aligned}
+
 
 
 $$
@@ -86,7 +88,9 @@ First, we find an angle that's coterminal with $-435^\circ$ by ** integer multip
 $$
 
 
+
 \begin{aligned}−435^{∘}+360^{∘} & =−75^{∘} \\ −75^{∘}+360^{∘} & =285^{∘}\,✓\end{aligned}
+
 
 
 $$
@@ -114,7 +118,9 @@ Which angles are coterminal with $240^\circ?$
 $$
 
 
+
 600^\circ, \quad 300^\circ, \quad -480^\circ.
+
 
 
 $$
@@ -128,7 +134,9 @@ Let's start by adding multiples of $360^\circ$ to $240^\circ\mathbin{:}$
 $$
 
 
+
 \begin{aligned}240^{∘}+360^{∘}=600^{∘}\,✓\end{aligned}
+
 
 
 $$
@@ -140,7 +148,9 @@ Now, let's subtract multiples of $360^\circ$ from $240^\circ\mathbin{:}$
 $$
 
 
+
 \begin{aligned}240^{∘}−360^{∘} & =−120^{∘} \\ 240^{∘}−2⋅(360^{∘}) & =−480^{∘}\,✓\end{aligned}
+
 
 
 $$
@@ -158,7 +168,9 @@ Which angle is coterminal with $\dfrac {3 \pi} {5}?$
 $$
 
 
+
 \dfrac{4\pi}{5}, \quad -\dfrac{7\pi}{5}, \quad -\dfrac{11\pi}{5}.
+
 
 
 $$
@@ -172,7 +184,9 @@ Let's start by adding multiples of $2\pi$ to $\dfrac {3 \pi} {5}\mathbin{:}$
 $$
 
 
+
 \begin{aligned}\frac{3𝜋}{5}+2𝜋=\frac{13𝜋}{5}\end{aligned}
+
 
 
 $$
@@ -184,7 +198,9 @@ Now, let's subtract multiples of $2\pi$ from $\dfrac {3 \pi} {5}\mathbin{:}$
 $$
 
 
+
 \begin{aligned}\frac{3𝜋}{5}−2𝜋 & =−\frac{7𝜋}{5}\,✓ \\ \frac{3𝜋}{5}−2⋅(2𝜋) & =−\frac{17𝜋}{5}\end{aligned}
+
 
 
 $$

@@ -111,7 +111,9 @@ Recall that the linear correlation coefficient $\rho$ satisfies the inequality
 $$
 
 
+
 -1 \leq \rho \leq 1,
+
 
 
 $$
@@ -143,7 +145,9 @@ Recall that the linear correlation coefficient $\rho$ satisfies the inequality
 $$
 
 
+
 -1 \leq \rho \leq 1,
+
 
 
 $$

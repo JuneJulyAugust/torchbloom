@@ -86,7 +86,9 @@ So, we can keep subtracting $4$ from the input until we get to an input that we 
 $$
 
 
+
 \begin{aligned}𝑓(84) & =𝑓(84−4) \\ & =𝑓(84−2⋅4) \\ & =⋯ \\ & =𝑓(84−20⋅4) \\ & =𝑓(4) \\ & =0\end{aligned}
+
 
 
 $$

@@ -18,7 +18,9 @@ Let's start with the odd case first. As an example, we will find the root of the
 $$
 
 
+
 f(x) = \sqrt[{\color{blue}{3}}]{10-4x} + 2\,.
+
 
 
 $$
@@ -30,7 +32,9 @@ To find the root of $f(x),$ we must solve $f(x)=0\mathbin{:}$
 $$
 
 
+
 \sqrt[3]{10 - 4x} + 2 = 0
+
 
 
 $$
@@ -40,7 +44,9 @@ We solve this equation by making $x$ the subject, as follows:
 $$
 
 
+
 \begin{aligned}\sqrt[√10−4𝑥]{3}+2 & =0 \\ \sqrt[√10−4𝑥]{3} & =−2 \\ (\sqrt[√10−4𝑥]{3})^{3} & =(−2)^{3} \\ 10−4𝑥 & =−8 \\ −4𝑥 & =−18 \\ 𝑥 & =\frac{9}{2}.\end{aligned}
+
 
 
 $$
@@ -62,7 +68,9 @@ To find the roots of $f(x),$ we must solve $f(x)=0\mathbin{:}$
 $$
 
 
+
 \sqrt[3]{4x-5} - 3 = 0
+
 
 
 $$
@@ -72,7 +80,9 @@ We solve this equation by making $x$ the subject, as follows:
 $$
 
 
+
 \begin{aligned}\sqrt[√4𝑥−5]{3}−3 & =0 \\ \sqrt[√4𝑥−5]{3} & =3 \\ (\sqrt[√4𝑥−5]{3})^{3} & =3^{3} \\ 4𝑥−5 & =27 \\ 4𝑥 & =32 \\ 𝑥 & =8\end{aligned}
+
 
 
 $$
@@ -86,7 +96,9 @@ Let's now learn how to find the root of a radical function with an even index. F
 $$
 
 
+
 f(x) = -3\sqrt[4]{10x+1} + 9.
+
 
 
 $$
@@ -96,7 +108,9 @@ To find the root of $f(x),$ we must solve $f(x)=0\mathbin{:}$
 $$
 
 
+
 -3\sqrt[4]{10x+1} + 9 = 0
+
 
 
 $$
@@ -106,7 +120,9 @@ We solve this equation by making $x$ the subject, as follows:
 $$
 
 
+
 \begin{aligned}−3\sqrt[√10𝑥+1]{4}+9 & =0 \\ −3\sqrt[√10𝑥+1]{4} & =−9 \\ \sqrt[√10𝑥+1]{4} & =3 \\ (\sqrt[√10𝑥+1]{4})^{4} & =3^{4} \\ 10𝑥+1 & =81 \\ 10𝑥 & =80 \\ 𝑥 & =8\end{aligned}
+
 
 
 $$
@@ -116,7 +132,9 @@ Finally, we must check the answer by substituting it back into the initial equat
 $$
 
 
+
 \begin{aligned}−3\sqrt[√10⋅8+1]{4}+9 & =0 \\ −3\sqrt[√81]{4}+9 & =0 \\ −3⋅3+9 & =0 \\ 0 & =0\,✓\end{aligned}
+
 
 
 $$
@@ -140,7 +158,9 @@ To find the root of $f(x),$ we must solve $f(x)=0\mathbin{:}$
 $$
 
 
+
 3\sqrt[4]{15- 8x} + 3 = 0
+
 
 
 $$
@@ -150,7 +170,9 @@ We solve this equation by making $x$ the subject, as follows:
 $$
 
 
+
 \begin{aligned}3\sqrt[√15−8𝑥]{4}+3 & =0 \\ 3\sqrt[√15−8𝑥]{4} & =−3 \\ \sqrt[√15−8𝑥]{4} & =−1\end{aligned}
+
 
 
 $$

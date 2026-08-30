@@ -21,7 +21,9 @@ The fundamental imaginary number is $\textrm{i}$, which is defined to be the squ
 $$
 
 
+
 \textrm{i} =\sqrt{-1}
+
 
 
 $$
@@ -31,7 +33,9 @@ Following this, we can find the square root of any other negative number, such a
 $$
 
 
+
 \begin{aligned}\sqrt{√−9} & =\sqrt{√9⋅(−1)} \\ & =\sqrt{√9}⋅\sqrt{√−1} \\ & =3⋅i \\ & =3i\end{aligned}
+
 
 
 $$
@@ -51,7 +55,9 @@ The imaginary unit $\textrm{i}$ is defined as
 $$
 
 
+
 \textrm{i} = \sqrt{-1}.
+
 
 
 $$
@@ -61,7 +67,9 @@ Therefore, the given number can be rewritten as
 $$
 
 
+
 \begin{aligned}\sqrt{√−36} & =\sqrt{√36⋅(−1)} \\ & =\sqrt{√36}⋅\sqrt{√−1} \\ & =6i.\end{aligned}
+
 
 
 $$
@@ -79,7 +87,9 @@ The imaginary unit $\textrm{i}$ is defined as
 $$
 
 
+
 \textrm{i} = \sqrt{-1}.
+
 
 
 $$
@@ -89,7 +99,9 @@ Therefore, the given number can be rewritten as
 $$
 
 
+
 \begin{aligned}−\sqrt{√−9} & =−\sqrt{√9⋅(−1)} \\ & =−\sqrt{√9}⋅\sqrt{√−1} \\ & =−3i.\end{aligned}
+
 
 
 $$
@@ -107,7 +119,9 @@ The imaginary unit $\textrm{i}$ is defined as
 $$
 
 
+
 \textrm{i} = \sqrt{-1}.
+
 
 
 $$
@@ -117,7 +131,9 @@ Since $18 = 9 \cdot 2,$ the given number can be rewritten as
 $$
 
 
+
 \begin{aligned}\sqrt{√−18} & =\sqrt{√18⋅(−1)} \\ & =\sqrt{√9⋅2⋅(−1)} \\ & =\sqrt{√9}⋅\sqrt{√2}⋅\sqrt{√−1} \\ & =3\sqrt{√2}\,i.\end{aligned}
+
 
 
 $$
@@ -135,7 +151,9 @@ The imaginary unit $\textrm{i}$ is defined as
 $$
 
 
+
 \textrm{i} = \sqrt{-1}.
+
 
 
 $$
@@ -145,7 +163,9 @@ Therefore, the given number can be rewritten as
 $$
 
 
+
 \begin{aligned}\sqrt{√−\frac{25}{16}} & =\sqrt{√\frac{25}{16}⋅(−1)} \\ & =\sqrt{√\frac{25}{16}}⋅\sqrt{√−1} \\ & =\frac{\sqrt{√25}}{\sqrt{√16}}⋅\sqrt{√−1} \\ & =\frac{5}{4}i.\end{aligned}
+
 
 
 $$

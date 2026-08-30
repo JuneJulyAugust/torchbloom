@@ -26,7 +26,9 @@ Which of the following are zero matrices?
 $$
 
 
+
 [\begin{aligned}0 & 0 \\ 0 & 0\end{aligned}]
+
 
 
 $$
@@ -50,7 +52,9 @@ Which of the following are square matrices?
 $$
 
 
+
 [\begin{aligned}1 & 0 & 1 \\ 2 & 3 & 1\end{aligned}]
+
 
 
 $$
@@ -88,7 +92,9 @@ Which of the following are diagonal matrices?
 $$
 
 
+
 [\begin{aligned}3 & 0 \\ 0 & 3\end{aligned}]
+
 
 
 $$
@@ -116,7 +122,9 @@ How can we best describe the following matrix?
 $$
 
 
+
 \begin{aligned}5 \\ −9 \\ 2\end{aligned}
+
 
 
 $$

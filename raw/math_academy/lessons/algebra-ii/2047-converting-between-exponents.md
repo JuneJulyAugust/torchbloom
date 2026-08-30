@@ -17,7 +17,9 @@ One way of representing the fact that exponential and logarithmic functions are 
 $$
 
 
+
 a = b^{\log_b{a}},
+
 
 
 $$
@@ -31,7 +33,9 @@ For example, suppose we want to find an approximation of the following number:
 $$
 
 
+
 4^{60}
+
 
 
 $$
@@ -41,7 +45,9 @@ It's hard to know how large this number is off the bat. However, we can get a be
 $$
 
 
+
 10^{\log(4^{60})}
+
 
 
 $$
@@ -51,7 +57,9 @@ Applying the power rule to the argument of the logarithm and using the fact that
 $$
 
 
+
 \begin{aligned}4^{60} & =10^{log⁡(4^{60})} \\ & =10^{60\,⋅\,log⁡4} \\ & ≈10^{60\,⋅\,0.602} \\ & ≈10^{36}.\end{aligned}
+
 
 
 $$
@@ -73,7 +81,9 @@ Therefore, we have
 $$
 
 
+
 \begin{aligned}2^{60} & =10^{log⁡(2^{60})} \\ & =10^{60\,⋅\,log⁡2} \\ & ≈10^{60\,⋅\,0.301} \\ & ≈10^{18}.\end{aligned}
+
 
 
 $$
@@ -93,7 +103,9 @@ Therefore, we have
 $$
 
 
+
 \begin{aligned}10^{𝑡}⋅4^{𝑡} & =10^{𝑡}⋅10^{log⁡(4^{𝑡})} \\ & =10^{𝑡}⋅10^{𝑡\,⋅\,log⁡4} \\ & ≈10^{𝑡}⋅10^{0.602𝑡} \\ & =10^{𝑡+0.602𝑡} \\ & =10^{(1+0.602)𝑡} \\ & =10^{1.602𝑡}.\end{aligned}
+
 
 
 $$
@@ -111,7 +123,9 @@ Using the compound interest equation, if the initial deposit is $P_0,$ the total
 $$
 
 
+
 P = P_0 \cdot \left(1+\dfrac{0.24}{12}\right)^{12t} = P_0 \cdot (1.02)^{12t}.
+
 
 
 $$
@@ -121,7 +135,9 @@ To determine the equivalent annual interest rate when compounding yearly, we tra
 $$
 
 
+
 \begin{aligned}𝑃 & =𝑃_{0}⋅(1.02)^{12𝑡} \\ & =𝑃_{0}⋅((1.02)^{12})^{𝑡} \\ & ≈𝑃_{0}⋅(1.268)^{𝑡} \\ & =𝑃_{0}⋅(1+\frac{0.268}{1})^{1⋅𝑡}\end{aligned}
+
 
 
 $$
@@ -141,7 +157,9 @@ If the initial deposit is $P_0,$ using the compound interest equation, the total
 $$
 
 
+
 P = P_0 \cdot \left(1+\dfrac{0.1}{1}\right)^t = P_0 \cdot (1.1)^t.
+
 
 
 $$
@@ -151,7 +169,9 @@ To determine the equivalent annual interest rate when compounding monthly, we tr
 $$
 
 
+
 \begin{aligned}𝑃 & =𝑃_{0}⋅(1.1)^{𝑡} \\ & =𝑃_{0}⋅((1.1)^{1/12})^{12𝑡} \\ & ≈𝑃_{0}⋅(1.007\,974\,…)^{12𝑡} \\ & =𝑃_{0}⋅(1+0.007\,974\,…)^{12𝑡} \\ & =𝑃_{0}⋅(1+\frac{12⋅0.007\,974\,…}{12})^{12𝑡} \\ & ≈𝑃_{0}⋅(1+\frac{0.095\,689\,…}{12})^{12𝑡}.\end{aligned}
+
 
 
 $$
@@ -161,7 +181,9 @@ This represents the annual interest rate of
 $$
 
 
+
 {\color{blue}0.095\,689\,\ldots} \approx 9.6\%
+
 
 
 $$

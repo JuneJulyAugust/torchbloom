@@ -30,7 +30,9 @@ Dividing this number by the total number of data points in the table $(100),$ we
 $$
 
 
+
 \begin{aligned}𝑃(𝐴∩𝐵) & =\frac{35}{100} \\ & =0.35.\end{aligned}
+
 
 
 $$
@@ -62,7 +64,9 @@ Dividing by the total number of data points in the table $(200),$ we get
 $$
 
 
+
 P(C \cap D) = \dfrac{30}{200} = 0.15.
+
 
 
 $$
@@ -84,7 +88,9 @@ Adding up these numbers and then dividing by the total number of data points in 
 $$
 
 
+
 \begin{aligned}𝑃(𝐴∪𝐵) & =\frac{20+20+25}{100} \\ & =\frac{65}{100} \\ & =0.65.\end{aligned}
+
 
 
 $$
@@ -114,7 +120,9 @@ Adding up these numbers and then dividing by the total number of data points in 
 $$
 
 
+
 p =\dfrac{12+20+6}{50} = \dfrac{38}{50} =0.76.
+
 
 
 $$
@@ -142,7 +150,9 @@ Adding up these numbers and then dividing by the total number of data points in 
 $$
 
 
+
 p = \dfrac{11+9}{80} = \dfrac{20}{80} = 0.25.
+
 
 
 $$
@@ -154,7 +164,9 @@ Finally, to estimate the number of students in the entire school who are boys th
 $$
 
 
+
 \begin{aligned}𝑛 & =500⋅𝑝 \\ & =500⋅0.25 \\ & =125\end{aligned}
+
 
 
 $$

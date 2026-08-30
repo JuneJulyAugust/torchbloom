@@ -22,7 +22,9 @@ For example, the function
 $$
 
 
+
 f(x) = x^2,
+
 
 
 $$
@@ -60,7 +62,9 @@ For example, the function
 $$
 
 
+
 g(x)=x,
+
 
 
 $$
@@ -100,7 +104,9 @@ Notice the following:
 $$
 
 
+
 \begin{aligned}𝑓(−1) & =1=𝑓(1) \\ 𝑓(−2) & =4=𝑓(2) \\ 𝑓(−3) & =9=𝑓(3) \\ & =\,\,\,⋮\end{aligned}
+
 
 
 $$
@@ -112,7 +118,9 @@ In general, a function $f(x)$ is said to be **even** if
 $$
 
 
+
 f(-x) = f(x)
+
 
 
 $$
@@ -130,7 +138,9 @@ Notice the following:
 $$
 
 
+
 \begin{aligned}𝑓(−1) & =−1=−𝑓(1) \\ 𝑓(−2) & =−2=−𝑓(2) \\ 𝑓(−3) & =−3=−𝑓(3) \\ & =\,\,\,\,\,⋮\end{aligned}
+
 
 
 $$
@@ -142,7 +152,9 @@ In general, a function $f(x)$ is said to be **odd** if
 $$
 
 
+
 f(-x) = -f(x)
+
 
 
 $$
@@ -168,7 +180,9 @@ Computing $f(-x)$ for the given function and comparing it to $f(x),$ we have
 $$
 
 
+
 \begin{aligned}𝑓(−𝑥) & =|(−𝑥)|−1 \\ & =|𝑥|−1 \\ & =𝑓(𝑥).\end{aligned}
+
 
 
 $$
@@ -180,7 +194,9 @@ Lastly, we compute $-f(x)$ and get
 $$
 
 
+
 \begin{aligned}−𝑓(𝑥) & =−(|𝑥|−1) \\ & =−|𝑥|+1.\end{aligned}
+
 
 
 $$
@@ -204,7 +220,9 @@ Using the fact that $g(-1) = g(1),$ we obtain
 $$
 
 
+
 \begin{aligned}𝑔(−1) & =𝑔(1) \\ −4 & =𝑎−3 \\ 𝑎 & =−1.\end{aligned}
+
 
 
 $$
@@ -214,7 +232,9 @@ Using the fact that $g(-5) = g(5),$ we obtain
 $$
 
 
+
 \begin{aligned}𝑔(−5) & =𝑔(5) \\ 20 & =𝑏+5 \\ 𝑏 & =15.\end{aligned}
+
 
 
 $$
@@ -224,7 +244,9 @@ Finally,
 $$
 
 
+
 a+b = -1 + 15 = 14.
+
 
 
 $$

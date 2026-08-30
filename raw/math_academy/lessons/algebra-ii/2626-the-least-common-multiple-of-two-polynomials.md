@@ -30,7 +30,9 @@ To find the $\textrm{LCM}$ of $(x+3)^2$ and $(x+3),$ we raise $(x+3)$ to the lar
 $$
 
 
+
 \textrm{LCM}\left((x+3)^2, \, (x+3) \right) = {\color{red}{(x+3)^2}}.
+
 
 
 $$
@@ -40,7 +42,9 @@ Finally, we multiply all of our results together:
 $$
 
 
+
 \textrm{LCM}\left(6(x+3)^2, \, 8(x+3) \right) = {\color{blue}{24}}\cdot {\color{red}{(x+3)^2}} = 24(x+3)^2.
+
 
 
 $$
@@ -68,7 +72,9 @@ Since the variable part is the same in the expressions, we have
 $$
 
 
+
 \textrm{LCM}\left((x+1), \, (x+1)\right) = {\color{red}{(x+1)}}.
+
 
 
 $$
@@ -78,7 +84,9 @@ Finally, we multiply all of our results together:
 $$
 
 
+
 \textrm{LCM}\left(4(x+1), \, 6(x+1)\right) = {\color{blue}{12}}\cdot {\color{red}{(x+1)}} = 12(x+1).
+
 
 
 $$
@@ -106,7 +114,9 @@ To find the $\textrm{LCM}$ of $(x-1)^4$ and $(x-1)^2,$ we raise $(x-1)$ to the l
 $$
 
 
+
 \textrm{LCM}\left((x-1)^4, \, (x-1)^2\right) = {\color{red}{(x-1)^4}}.
+
 
 
 $$
@@ -116,7 +126,9 @@ Finally, we multiply all of our results together:
 $$
 
 
+
 \textrm{LCM}\left(9(x-1)^4, \, 12(x-1)^2\right) = {\color{blue}{36}}\cdot {\color{red}{(x-1)^4}} = 36(x-1)^4.
+
 
 
 $$
@@ -150,7 +162,9 @@ Now, we raise $(x+3)$ and $(y+1)$ to the corresponding largest powers. Therefore
 $$
 
 
+
 \textrm{LCM}\left((x+3)^2(y+1)^2, \,(x+3)(y+1)^4\right) =(x+3)^{\color{blue}{2}}\cdot (y+1)^{\color{red}{4}}.
+
 
 
 $$
@@ -160,7 +174,9 @@ Finally, we multiply all of our results together:
 $$
 
 
+
 \textrm{LCM}\left(6(x+3)^2(y+1)^2, \, 9(x+3)(y+1)^4\right) = 18(x+3)^2 (y+1)^4.
+
 
 
 $$
@@ -196,7 +212,9 @@ Now, we raise $(x+2)$ and $(y+1)$ to the corresponding largest powers. Therefore
 $$
 
 
+
 \textrm{LCM}\left((x+2)^4 (y+1), \,(x+2) (y+1)^2,\,(x+2)^2 (y+1)^3\right) =(x+2)^{\color{blue}{4}}\cdot (y+1)^{\color{red}{3}}.
+
 
 
 $$
@@ -206,7 +224,9 @@ Finally, we multiply all of our results together:
 $$
 
 
+
 \begin{aligned} & LCM(12(𝑥+2)^{4}(𝑦+1),\,9(𝑥+2)(𝑦+1)^{2},\,6(𝑥+2)^{2}(𝑦+1)^{3}) \\ & =36⋅(𝑥+2)^{4}⋅(𝑦+1)^{3} \\ & =36(𝑥+2)^{4}(𝑦+1)^{3}.\end{aligned}
+
 
 
 $$

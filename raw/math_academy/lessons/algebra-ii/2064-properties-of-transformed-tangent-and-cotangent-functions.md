@@ -18,7 +18,9 @@ Given the equation of a general transformed tangent function
 $$
 
 
+
 y={\color{red}A}\tan\left( {\color{blue}B} x + C\right) +{\color{green}D},
+
 
 
 $$
@@ -34,7 +36,9 @@ We obtain the horizontal shift by factoring the argument of the function, as fol
 $$
 
 
+
 y={\color{red}A}\tan\left( {\color{blue}B}\left[ x + \dfrac{C}{{\color{blue}B}} \right]\right) +{\color{green}D}
+
 
 
 $$
@@ -46,7 +50,9 @@ We can apply the same ideas to work out the properties of a transformed cotangen
 $$
 
 
+
 y={\color{red}A}\cot\left( {\color{blue}B} x + C\right) +{\color{green}D}.
+
 
 
 $$
@@ -76,7 +82,9 @@ The zeros of $y=\cot x$ are given by
 $$
 
 
+
 x = \dfrac{\pi}{2} + n\pi,
+
 
 
 $$
@@ -88,7 +96,9 @@ To find the zeros of $f(x) = \cot \left(2x + \dfrac \pi 6\right),$ we replace th
 $$
 
 
+
 2x + \dfrac \pi 6 = \dfrac{\pi}{2} + n\pi.
+
 
 
 $$
@@ -98,7 +108,9 @@ Solving for $x,$ we get
 $$
 
 
+
 \begin{aligned}2𝑥+\frac{𝜋}{6} & =\frac{𝜋}{2}+𝑛𝜋 \\ 2𝑥 & =\frac{𝜋}{2}+𝑛𝜋−\frac{𝜋}{6} \\ 2𝑥 & =\frac{𝜋}{3}+𝑛𝜋 \\ 𝑥 & =\frac{𝜋}{6}+\frac{𝑛𝜋}{2}.\end{aligned}
+
 
 
 $$
@@ -118,7 +130,9 @@ The asymptotes of $y=\tan x$ are given by the expression
 $$
 
 
+
 x = \dfrac{\pi}{2} + n \pi,
+
 
 
 $$
@@ -130,7 +144,9 @@ To find the asymptotes of $\tan\left(2x\right),$ we replace the $x$ on the left-
 $$
 
 
+
 2x = \dfrac{\pi}{2} + n\pi.
+
 
 
 $$
@@ -140,7 +156,9 @@ Solving for $x,$ we get
 $$
 
 
+
 \begin{aligned}2𝑥 & =\frac{𝜋}{2}+𝑛𝜋 \\ 𝑥 & =\frac{𝜋}{4}+\frac{𝑛𝜋}{2}.\end{aligned}
+
 
 
 $$
@@ -160,7 +178,9 @@ The domain of $y=\tan x$ is given by the expression
 $$
 
 
+
 x \neq \dfrac\pi 2 + n\pi ,
+
 
 
 $$
@@ -172,7 +192,9 @@ To find the domain of $\tan\left(\dfrac x 2\right),$ we replace the $x$ on the l
 $$
 
 
+
 \dfrac x 2 \neq \dfrac\pi 2 + n\pi .
+
 
 
 $$
@@ -182,7 +204,9 @@ Solving for $x,$ we get
 $$
 
 
+
 \begin{aligned}\frac{𝑥}{2} & ≠\frac{𝜋}{2}+𝑛𝜋 \\ 𝑥 & ≠𝜋+2𝑛𝜋.\end{aligned}
+
 
 
 $$

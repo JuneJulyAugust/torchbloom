@@ -23,7 +23,9 @@ To compute the complex conjugate $\bar{z}$ of $z,$ we flip the sign of the imagi
 $$
 
 
+
 \bar{z} = x-\textrm{i}y
+
 
 
 $$
@@ -47,7 +49,9 @@ The conjugate of $z=x + \textrm{i} y,$ denoted $\bar{z},$ is given by
 $$
 
 
+
 \bar{z} = x - \textrm{i} y.
+
 
 
 $$
@@ -79,7 +83,9 @@ To plot the difference between two complex numbers, say
 $$
 
 
+
 z_1-z_2,
+
 
 
 $$
@@ -89,7 +95,9 @@ we plot the sum
 $$
 
 
+
 z_1 + (-z_2).
+
 
 
 $$
@@ -137,7 +145,9 @@ First, let's assume that $z_1$ and $z_2$ are expressed in polar form:
 $$
 
 
+
 \begin{aligned}𝑧_{1} & =𝑟_{1}(cos⁡𝜃_{1}+isin⁡𝜃_{1}) \\ 𝑧_{2} & =𝑟_{2}(cos⁡𝜃_{2}+isin⁡𝜃_{2})\end{aligned}
+
 
 
 $$
@@ -147,7 +157,9 @@ As we know, the product $z_1\cdot z_2$ is given by the following formula:
 $$
 
 
+
 z_3 = z_1\cdot z_2 = r_1 \cdot r_2\left( \cos(\theta_1+\theta_2) + \textrm{i} \sin(\theta_1+\theta_2)\right)
+
 
 
 $$
@@ -175,7 +187,9 @@ First, we calculate the modulus of $z_3{:}$
 $$
 
 
+
 |z_3|=|z_1|\cdot|z_2|=4 \cdot 1.5 = 6.
+
 
 
 $$
@@ -185,7 +199,9 @@ From the diagram, the arguments of $z_1$ and $z_2$ are equal to $\theta_1=\dfrac
 $$
 
 
+
 \theta_3 = \theta_1 + \theta_2 = \dfrac{3\pi}{4} + \dfrac{5\pi}{4} = 2\pi.
+
 
 
 $$

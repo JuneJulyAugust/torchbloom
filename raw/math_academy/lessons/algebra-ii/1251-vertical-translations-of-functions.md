@@ -20,7 +20,9 @@ For each point on the graph of $y=f(x)$ there is a corresponding point on the gr
 $$
 
 
+
 \begin{aligned}Points on y=f(x) & Points on y=f(x)+2 \\ (−2,0) & (−2,2) \\ (0,1.5) & (0,3.5) \\ (1,2) & (1,4) \\ (3,−3) & (3,−1)\end{aligned}
+
 
 
 $$
@@ -34,7 +36,9 @@ On the other hand, for each point on the graph of $y=f(x)$ there is a correspond
 $$
 
 
+
 \begin{aligned}Points on y=f(x) & Points on y=f(x)-2 \\ (−2,0) & (−2,−2) \\ (0,1.5) & (0,−0.5) \\ (1,2) & (1,0) \\ (3,−3) & (3,−5)\end{aligned}
+
 
 
 $$
@@ -116,7 +120,9 @@ Hence, if the point $(3,4)$ lies on $y=f(x)$, then the point
 $$
 
 
+
 (3,4+3) = (3,7)
+
 
 
 $$
@@ -134,7 +140,9 @@ Now, if $x = 3$ then
 $$
 
 
+
 \begin{aligned}𝑦 & =𝑓(3)+3 \\ & =4+3 \\ & =7.\end{aligned}
+
 
 
 $$

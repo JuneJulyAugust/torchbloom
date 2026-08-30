@@ -20,7 +20,9 @@ First, recall that the total number of ways of selecting $3$ books from $5$ (whe
 $$
 
 
+
 \begin{aligned}_{5}𝑃_{3} & =\frac{5!}{(5−3)!} \\ & =\frac{5!}{2!} \\ & =60\end{aligned}
+
 
 
 $$
@@ -32,7 +34,9 @@ So, we must divide by the number of ways to order the $3$ books that we selected
 $$
 
 
+
 \begin{aligned}\frac{_{5}𝑃_{3}}{3!} & =\frac{60}{3!} \\ & =\frac{60}{6} \\ & =10.\end{aligned}
+
 
 
 $$
@@ -46,7 +50,9 @@ In general, the number of unique combinations of $n$ objects taken $r$ at a time
 $$
 
 
+
 {}_nC_r = \frac{{}_nP_r}{r!} = \dfrac{n!}{(n-r)!r!}.
+
 
 
 $$
@@ -58,7 +64,9 @@ In the previous example, we had $n=5$ books, taking $r=3$ books with us on the t
 $$
 
 
+
 \begin{aligned}_{5}𝐶_{3} & =\frac{5!}{(5−3)!3!} \\ & =\frac{5!}{2!3!} \\ & =\frac{5×4×3!}{2!3!} \\ & =\frac{5×4×3!}{2!3!} \\ & =\frac{5×4}{2!} \\ & =\frac{20}{2} \\ & =10.\end{aligned}
+
 
 
 $$
@@ -80,7 +88,9 @@ The number of combinations of $n$ objects taken $r$ at a time is given by the fo
 $$
 
 
+
 {}_nC_r = \dfrac{n!}{(n-r)!r!}.
+
 
 
 $$
@@ -90,7 +100,9 @@ Substituting $n=7$ and $r=5,$ we get
 $$
 
 
+
  \begin{aligned} {}_{7}C_5 &= \dfrac {7!} {(7 - 5)!5!} \\\[5pt] &= \dfrac {7!} {2!5!} \\\[5pt] &= \dfrac {7 \cdot 6 \cdot 5!} {2!5!} \\\[5pt] &= \dfrac {7 \cdot 6 } {2 \cdot 1 } \\\[5pt] & = \dfrac {42}{2} \\\[5pt] &= 21. \end{aligned}
+
 
 
 $$
@@ -110,7 +122,9 @@ In general, the number of combinations of $n$ objects taken $r$ at a time is giv
 $$
 
 
+
 {}_nC_r = \dfrac{n!}{(n-r)!\,r!}.
+
 
 
 $$
@@ -120,7 +134,9 @@ Substituting $n=12$ and $r=10,$ we get
 $$
 
 
+
  \begin{aligned} _{12}C_{10} &= \dfrac {12!} {(12 - 10)!10!} \\\[5pt] &= \dfrac {12!} {2!10!} \\\[5pt] &= \dfrac {12 \cdot 11 \cdot 10!} {2!\cdot10!} \\\[5pt] &= \dfrac {12 \cdot 11} {2} \\\[5pt] &= 66. \end{aligned}
+
 
 
 $$
@@ -138,7 +154,9 @@ The number of combinations of $n$ objects taken $r$ at a time is given by the fo
 $$
 
 
+
 {}_nC_r = \dfrac{n!}{(n-r)!r!}.
+
 
 
 $$
@@ -150,7 +168,9 @@ Therefore, the number of different ways to form the committee is
 $$
 
 
+
 \begin{aligned}_{𝑛}𝐶_{𝑟} & =_{10}𝐶_{3} \\ & =\frac{10!}{(10−3)!3!} \\ & =\frac{10!}{7!3!} \\ & =\frac{10⋅9⋅8⋅7!}{7!3!} \\ & =\frac{720}{6} \\ & =120.\end{aligned}
+
 
 
 $$
@@ -168,7 +188,9 @@ The number of combinations of $n$ objects taken $r$ at a time is given by the fo
 $$
 
 
+
 {}_nC_r = \dfrac{n!}{(n-r)!r!}.
+
 
 
 $$
@@ -180,7 +202,9 @@ Therefore, the number of different ways in which the teacher can form the team i
 $$
 
 
+
 \begin{aligned}_{20}𝐶_{4} & =\frac{20!}{(20−4)!4!} \\ & =\frac{20!}{16!4!} \\ & =\frac{20⋅19⋅18⋅17⋅16!}{16!4!} \\ & =\frac{116\,280}{24} \\ & =4\,845.\end{aligned}
+
 
 
 $$

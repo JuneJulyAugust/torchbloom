@@ -20,7 +20,9 @@ We can identify four points on the unit circle above,
 $$
 
 
+
 (1,0), \quad (0,1), \quad (-1,0), \quad (0,-1),
+
 
 
 $$
@@ -30,7 +32,9 @@ that correspond to the angles
 $$
 
 
+
 0^\circ, \quad 90^\circ,\quad 180^\circ, \quad 270^\circ,
+
 
 
 $$
@@ -40,7 +44,9 @@ in degrees, or
 $$
 
 
+
 0, \quad \dfrac{\pi}{2}, \quad \pi, \quad \dfrac{3\pi}{2},
+
 
 
 $$
@@ -52,7 +58,9 @@ We can use these points to find cosine and sine of quadrantal angles. First, rec
 $$
 
 
+
 x = \cos\theta, \qquad y = \sin\theta
+
 
 
 $$
@@ -62,7 +70,9 @@ For example, if we are asked to find the value of $\cos(\pi),$ then we just look
 $$
 
 
+
 \cos(\pi)={\color{blue}{-1}}.
+
 
 
 $$
@@ -106,7 +116,9 @@ Therefore, using the fact that $\tan{\theta} = \dfrac{\sin \theta}{\cos\theta},$
 $$
 
 
+
 \tan\left(\dfrac{3\pi}{2}\right) = \dfrac{\sin\left(\dfrac{3\pi}{2}\right)}{\cos\left(\dfrac{3\pi}{2}\right)} = \dfrac{-1}{0}.
+
 
 
 $$
@@ -134,7 +146,9 @@ Therefore, using the fact that $\csc{\theta} = \dfrac{1}{\sin\theta},$ we have
 $$
 
 
+
 \csc{\left(0\right)} = \dfrac{1}{\sin{\left(0\right)}} = \dfrac{1}{0}.
+
 
 
 $$

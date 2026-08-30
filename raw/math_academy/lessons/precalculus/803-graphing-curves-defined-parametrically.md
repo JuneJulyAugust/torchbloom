@@ -18,7 +18,9 @@ We can draw a curve by defining a relationship between $x$ and $y$ using a third
 $$
 
 
+
 x=2t, \,\,\, y=t^2, \quad -3\leq t\leq 3.
+
 
 
 $$
@@ -42,7 +44,9 @@ For the parametric curve
 $$
 
 
+
 x=3t, \,\,\, y=t^3, \quad -3\leq t \leq 3,
+
 
 
 $$
@@ -64,7 +68,9 @@ Plot the graph of the parametrically defined curve
 $$
 
 
+
 x=t(t-6), \,\,\, y=t^3, \quad -2\leq t \leq 2.
+
 
 
 $$
@@ -88,7 +94,9 @@ Given that a curve is defined parametrically as
 $$
 
 
+
 x=t^2-6t, \,\,\, y=t^4+4, \quad t \in (-\infty , \infty),
+
 
 
 $$
@@ -112,7 +120,9 @@ We often see parametric curves defined in terms of the parameter $t,$ such as th
 $$
 
 
+
 x=2 \cos t, \,\,\, y=3 \sin t, \quad 0 \leq t < 2 \pi
+
 
 
 $$
@@ -122,7 +132,9 @@ However, we can also define parametric curves in terms of other variables. Anoth
 $$
 
 
+
 x=2 \cos \theta, \,\,\, y=3 \sin \theta, \quad 0 \leq \theta < 2 \pi .
+
 
 
 $$
@@ -138,7 +150,9 @@ Given that a curve is defined parametrically as
 $$
 
 
+
 x = 4\cos\theta, \,\,\, y = 2\sin\theta, \quad 0\leq \theta < 2\pi,
+
 
 
 $$

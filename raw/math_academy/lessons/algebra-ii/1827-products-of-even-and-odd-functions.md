@@ -39,7 +39,9 @@ First, notice that any non-zero constant function $c(x) \equiv c \neq 0$ is even
 $$
 
 
+
 c(-x) = c = c(x)
+
 
 
 $$
@@ -69,7 +71,9 @@ First, let's recall the following rules regarding the products of even and odd f
 $$
 
 
+
 \begin{aligned} & even\,⋅even=even \\ & odd\,⋅odd=even \\ & even\,⋅odd=odd \\ & odd\,⋅even=odd\end{aligned}
+
 
 
 $$
@@ -79,7 +83,9 @@ In our case, we have
 $$
 
 
+
 \begin{aligned}𝑓(𝑥)⋅𝑔(𝑥)⋅ℎ(𝑥) & =odd⋅even⋅odd \\ & =(odd⋅even)⋅odd \\ & =odd⋅odd \\ & =even.\end{aligned}
+
 
 
 $$
@@ -105,7 +111,9 @@ First, let's recall the following rules regarding the products of even and odd f
 $$
 
 
+
 \begin{aligned} & even\,⋅even=even \\ & odd\,⋅odd=even \\ & even\,⋅odd=odd \\ & odd\,⋅even=odd\end{aligned}
+
 
 
 $$
@@ -127,7 +135,9 @@ Now, suppose we know that
 $$
 
 
+
 f(x) \cdot (x^2 + 1)
+
 
 
 $$
@@ -139,7 +149,9 @@ First, let's recall the following rules regarding the products of even and odd f
 $$
 
 
+
 \begin{aligned} & even\,⋅even=even \\ & odd\,⋅odd=even \\ & even\,⋅odd=odd \\ & odd\,⋅even=odd\end{aligned}
+
 
 
 $$
@@ -149,7 +161,9 @@ Notice that $x^2 + 1$ is an even function since
 $$
 
 
+
 (-x)^2 + 1 = x^2 + 1
+
 
 
 $$
@@ -161,7 +175,9 @@ Now, since $f(x) \cdot (x^2 + 1)$ is odd and $x^2 + 1$ is even, we have that $f(
 $$
 
 
+
 \underbrace{\color{blue}\text{odd}}_{f(x)} \quad \cdot \quad \underbrace{\text{even}}_{x^2 + 1} \quad = \quad \underbrace{\text{odd}}_{f(x) \,\cdot \,(x^2 + 1)}
+
 
 
 $$
@@ -181,7 +197,9 @@ First, let's recall the following rules regarding the products of the non-zero e
 $$
 
 
+
 \begin{aligned} & even\,⋅even=even \\ & odd\,⋅odd=even \\ & even\,⋅odd=odd \\ & odd\,⋅even=odd\end{aligned}
+
 
 
 $$
@@ -191,7 +209,9 @@ Notice that $x^3$ is an odd function since
 $$
 
 
+
 (-x)^3 = -x^3
+
 
 
 $$
@@ -203,7 +223,9 @@ Now, since $f(x) \cdot x^3$ and $x^3$ are odd, we have that $f(x)$ must be an ev
 $$
 
 
+
 \underbrace{\color{blue}\text{even}}_{f(x)} \quad \cdot \quad \underbrace{\text{odd}}_{ {\large x^3} } \quad = \quad \underbrace{\text{odd}}_{f(x) \,\cdot \,{\large x^3} }
+
 
 
 $$

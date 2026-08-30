@@ -53,7 +53,9 @@ Now, multiplying both sides of the equation by the least common denominator, we 
 $$
 
 
+
 \begin{aligned}\frac{4}{𝑥−2}−\frac{8}{𝑥(𝑥−2)} & =\frac{3}{𝑥} \\ 𝑥(𝑥−2)⋅(\frac{4}{𝑥−2}−\frac{8}{𝑥(𝑥−2)}) & =𝑥(𝑥−2)⋅\frac{3}{𝑥} \\ \frac{4𝑥(𝑥−2)}{𝑥−2}−\frac{8𝑥(𝑥−2)}{𝑥(𝑥−2)} & =\frac{3𝑥(𝑥−2)}{𝑥} \\ \frac{4𝑥(𝑥−2)}{𝑥−2}−\frac{8𝑥(𝑥−2)}{𝑥(𝑥−2)} & =\frac{3𝑥(𝑥−2)}{𝑥} \\ 4𝑥−8 & =3(𝑥−2)\end{aligned}
+
 
 
 $$
@@ -63,7 +65,9 @@ Solving this equation for $x,$ we get the following:
 $$
 
 
+
 \begin{aligned}4𝑥−8 & =3(𝑥−2) \\ 4𝑥−8 & =3𝑥−6 \\ 4𝑥−3𝑥 & =−6+8 \\ 𝑥 & =2\end{aligned}
+
 
 
 $$
@@ -79,7 +83,9 @@ For example, consider the following equation:
 $$
 
 
+
 \dfrac{1}{x-1}+\dfrac{2}{x-2}=\dfrac{5}{x^2-3x+2}
+
 
 
 $$
@@ -89,7 +95,9 @@ Notice that the right-hand side of our equation contains a term with a quadratic
 $$
 
 
+
 \dfrac{1}{x-1}+\dfrac{2}{x-2}=\dfrac{5}{(x-1)(x-2)}\,.
+
 
 
 $$
@@ -105,7 +113,9 @@ Now, multiplying both sides of the equation by the least common denominator, we 
 $$
 
 
+
 \begin{aligned}(𝑥−1)(𝑥−2)⋅(\frac{1}{𝑥−1}+\frac{2}{𝑥−2}) & =(𝑥−1)(𝑥−2)⋅(\frac{5}{(𝑥−1)(𝑥−2)}) \\ \frac{(𝑥−1)(𝑥−2)}{𝑥−1}+\frac{2(𝑥−1)(𝑥−2)}{𝑥−2} & =\frac{5(𝑥−1)(𝑥−2)}{(𝑥−1)(𝑥−2)} \\ \frac{(𝑥−1)⋅(𝑥−2)}{𝑥−1}+\frac{2(𝑥−1)⋅(𝑥−2)}{𝑥−2} & =\frac{5(𝑥−1)(𝑥−2)}{(𝑥−1)(𝑥−2)} \\ (𝑥−2)+2(𝑥−1) & =5\end{aligned}
+
 
 
 $$
@@ -115,7 +125,9 @@ Solving this equation for $x,$ we get the following:
 $$
 
 
+
 \begin{aligned}(𝑥−2)+2(𝑥−1) & =5 \\ 𝑥−2+2𝑥−2 & =5 \\ 3𝑥−4 & =5 \\ 3𝑥 & =9 \\ 𝑥 & =3\end{aligned}
+
 
 
 $$
@@ -137,7 +149,9 @@ First, we factor the quadratic denominator, giving us the equation
 $$
 
 
+
 \dfrac{3}{k-3} -\dfrac {2}{k-2} = \dfrac{2}{(k-2)(k-3)}.
+
 
 
 $$
@@ -153,7 +167,9 @@ Now, multiplying both sides of the equation by the least common denominator, we 
 $$
 
 
+
 \begin{aligned}\frac{3}{𝑘−3}−\frac{2}{𝑘−2} & =\frac{2}{(𝑘−2)(𝑘−3)} \\ (𝑘−2)(𝑘−3)⋅(\frac{3}{𝑘−3}−\frac{2}{𝑘−2}) & =(𝑘−2)(𝑘−3)⋅\frac{2}{(𝑘−2)(𝑘−3)} \\ \frac{3(𝑘−2)(𝑘−3)}{𝑘−3}−\frac{2(𝑘−2)(𝑘−3)}{𝑘−2} & =\frac{2(𝑘−2)(𝑘−3)}{(𝑘−2)(𝑘−3)} \\ \frac{3(𝑘−2)⋅(𝑘−3)}{𝑘−3}−\frac{2⋅(𝑘−2)⋅(𝑘−3)}{𝑘−2} & =\frac{2⋅(𝑘−2)(𝑘−3)}{(𝑘−2)(𝑘−3)} \\ 3(𝑘−2)−2(𝑘−3) & =2\end{aligned}
+
 
 
 $$
@@ -163,7 +179,9 @@ Solving this equation for $k,$ we get the following:
 $$
 
 
+
 \begin{aligned}3(𝑘−2)−2(𝑘−3) & =2 \\ 3𝑘−6−2𝑘+6 & =2 \\ 𝑘 & =2\end{aligned}
+
 
 
 $$
@@ -183,7 +201,9 @@ First, we factor the quadratic denominator, giving us the equation
 $$
 
 
+
 \dfrac{3}{u+1} - \dfrac{1}{3u} =\dfrac{5}{u(u+1)}.
+
 
 
 $$
@@ -199,7 +219,9 @@ Now, multiplying both sides of the equation by the least common denominator, we 
 $$
 
 
+
 \begin{aligned}\frac{3}{𝑢+1}−\frac{1}{3𝑢} & =\frac{5}{𝑢(𝑢+1)} \\ 3𝑢(𝑢+1)⋅(\frac{3}{𝑢+1}−\frac{1}{3𝑢}) & =3𝑢(𝑢+1)⋅\frac{5}{𝑢(𝑢+1)} \\ \frac{9𝑢(𝑢+1)}{𝑢+1}−\frac{3𝑢(𝑢+1)}{3𝑢} & =\frac{15𝑢(𝑢+1)}{𝑢(𝑢+1)} \\ \frac{9𝑢⋅(𝑢+1)}{𝑢+1}−\frac{3𝑢⋅(𝑢+1)}{3𝑢} & =\frac{15⋅𝑢(𝑢+1)}{𝑢(𝑢+1)} \\ 9𝑢−(𝑢+1) & =15\end{aligned}
+
 
 
 $$
@@ -209,7 +231,9 @@ Solving this equation for $u,$ we get the following:
 $$
 
 
+
 \begin{aligned}9𝑢−(𝑢+1) & =15 \\ 9𝑢−𝑢−1 & =15 \\ 8𝑢 & =16 \\ 𝑢 & =2\end{aligned}
+
 
 
 $$

@@ -120,7 +120,9 @@ First, let's factor out the minus sign next to the $x$ inside the function:
 $$
 
 
+
 y=f\left(-\left(3x\right)\right)
+
 
 
 $$
@@ -158,7 +160,9 @@ First, let's factor out the negative sign next to the $x$ inside the function:
 $$
 
 
+
 y=3f\left(-(x-1)\right)
+
 
 
 $$

@@ -18,7 +18,9 @@ Suppose we want to find all of the solutions to the equation
 $$
 
 
+
 x \cdot 3^x - 2 \cdot 3^x = 0.
+
 
 
 $$
@@ -28,7 +30,9 @@ First, we factor the equation:
 $$
 
 
+
 \begin{aligned}𝑥⋅3^{𝑥}−2⋅3^{𝑥} & =0 \\ (𝑥−2)⋅3^{𝑥} & =0\end{aligned}
+
 
 
 $$
@@ -38,7 +42,9 @@ We can now apply the zero product property, which states that $ab=0$ if and only
 $$
 
 
+
 x-2 = 0 \quad \textrm{and} \quad 3^x=0.
+
 
 
 $$
@@ -64,7 +70,9 @@ First, we factor the equation:
 $$
 
 
+
 \begin{aligned}𝑥^{2}𝑒^{𝑥−1}−2𝑥𝑒^{𝑥−1}−15𝑒^{𝑥−1} & =0 \\ (𝑥^{2}−2𝑥−15)𝑒^{𝑥−1} & =0\end{aligned}
+
 
 
 $$
@@ -74,7 +82,9 @@ We can now apply the zero product property, which states that $ab=0$ if and only
 $$
 
 
+
 x^2 - 2x - 15 = 0 \quad \textrm{and} \quad e^{x-1}=0.
+
 
 
 $$
@@ -100,7 +110,9 @@ First, we factor the equation:
 $$
 
 
+
 \begin{aligned}9𝑥^{2}⋅3^{𝑥+1} & =16⋅3^{𝑥+1} \\ 9𝑥^{2}⋅3^{𝑥+1}−16⋅3^{𝑥+1} & =0 \\ (9𝑥^{2}−16)3^{𝑥+1} & =0\end{aligned}
+
 
 
 $$
@@ -110,7 +122,9 @@ We can now apply the zero product property, which states that $ab=0$ if and only
 $$
 
 
+
 9x^2 - 16 = 0 \quad \textrm{and} \quad 3^{x+1}=0.
+
 
 
 $$

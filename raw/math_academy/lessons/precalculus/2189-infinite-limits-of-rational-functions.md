@@ -29,7 +29,9 @@ As an example, let's consider the following function:
 $$
 
 
+
 f(x) = \dfrac{1}{x-1}
+
 
 
 $$
@@ -53,7 +55,9 @@ Therefore, we conclude that
 $$
 
 
+
 f(x) \rightarrow {\color{red}{-\infty}} \quad \textrm{as}\quad x\rightarrow 1^-.
+
 
 
 $$

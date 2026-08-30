@@ -19,7 +19,9 @@ Recall that the double-angle formula for sine states that
 $$
 
 
+
 \sin{2\theta}=2\sin{\theta}\cos{\theta}.
+
 
 
 $$
@@ -29,7 +31,9 @@ We already know the value of $\sin{\theta}.$ To calculate $\cos\theta,$ we use t
 $$
 
 
+
 \sin^2{\theta}+\cos^2{\theta}=1\qquad\Rightarrow\qquad \cos{\theta}=\pm \sqrt{1-\sin^2{\theta}}
+
 
 
 $$
@@ -39,7 +43,9 @@ Since $\theta$ lies in the first quadrant, we know that $\cos{\theta}>0,$ and so
 $$
 
 
+
 \begin{aligned}cos⁡𝜃 & =\sqrt{√1−sin^{2}⁡𝜃} \\ & =\sqrt{√1−(\frac{3}{5})^{2}} \\ & =\sqrt{√1−\frac{9}{25}} \\ & =\sqrt{√\frac{16}{25}} \\ & =\frac{4}{5}\end{aligned}
+
 
 
 $$
@@ -49,7 +55,9 @@ Therefore, we have
 $$
 
 
+
 \begin{aligned}sin⁡2𝜃 & =2sin⁡𝜃cos⁡𝜃 \\ & =2⋅\frac{3}{5}⋅\frac{4}{5} \\ & =\frac{24}{25}.\end{aligned}
+
 
 
 $$
@@ -69,7 +77,9 @@ To find the value of $\sin2\theta,$ we use the double-angle formula for sine:
 $$
 
 
+
 \sin2\theta = 2\sin\theta\cos\theta
+
 
 
 $$
@@ -79,7 +89,9 @@ First, we need to find the value of $\sin{\theta}.$ From the Pythagorean identit
 $$
 
 
+
 \sin \theta = \pm \sqrt{1 - \cos^2 \theta}.
+
 
 
 $$
@@ -89,7 +101,9 @@ Substituting $\cos{\theta} = \dfrac{1}{3}$ into the above, we get
 $$
 
 
+
 \begin{aligned}sin⁡𝜃 & =±\sqrt{√1−(\frac{1}{3})^{2}} \\ & =±\sqrt{√1−\frac{1}{9}} \\ & =±\sqrt{√\frac{8}{9}} \\ & =±\frac{2\sqrt{√2}}{3}.\end{aligned}
+
 
 
 $$
@@ -99,7 +113,9 @@ We're given that $\theta$ lies in the first quadrant. Therefore, $\sin\theta > 0
 $$
 
 
+
 \sin\theta = \dfrac{2\sqrt{2}}{3}.
+
 
 
 $$
@@ -109,7 +125,9 @@ Finally, substituting our values for sine and cosine into the double-angle formu
 $$
 
 
+
 \begin{aligned}sin⁡2𝜃 & =2sin⁡𝜃cos⁡𝜃 \\ & =2⋅(\frac{2\sqrt{√2}}{3})⋅(\frac{1}{3}) \\ & =\frac{4\sqrt{√2}}{9}.\end{aligned}
+
 
 
 $$
@@ -127,7 +145,9 @@ To find the value of $\sin2\theta,$ we use the double-angle formula for sine:
 $$
 
 
+
 \sin2\theta = 2\sin\theta\cos\theta
+
 
 
 $$
@@ -137,7 +157,9 @@ First, we need to find the value of $\cos{\theta}.$ From the Pythagorean identit
 $$
 
 
+
 \cos \theta = \pm \sqrt{1 - \sin^2 \theta}.
+
 
 
 $$
@@ -147,7 +169,9 @@ Substituting $\sin{\theta} = \dfrac{\sqrt{2}}{2}$ into the above, we get
 $$
 
 
+
 \begin{aligned}cos⁡𝜃 & =±\sqrt{1−(−\frac{\sqrt{√2}}{2})^{2}} \\ & =±\sqrt{√1−\frac{2}{4}} \\ & =±\sqrt{√1−\frac{1}{2}} \\ & =±\sqrt{√\frac{1}{2}} \\ & =±\frac{1}{\sqrt{√2}} \\ & =±\frac{\sqrt{√2}}{2}.\end{aligned}
+
 
 
 $$
@@ -157,7 +181,9 @@ We're given that $\theta$ lies in the second quadrant. Therefore, $\cos\theta \l
 $$
 
 
+
 \cos x = -\dfrac{\sqrt{2}}{2}.
+
 
 
 $$
@@ -167,7 +193,9 @@ Finally, substituting our values for sine and cosine into the double-angle formu
 $$
 
 
+
 \begin{aligned}sin⁡2𝜃 & =2sin⁡𝜃cos⁡𝜃 \\ & =2⋅(\frac{\sqrt{√2}}{2})⋅(−\frac{\sqrt{√2}}{2}) \\ & =−\frac{2⋅\sqrt{√2}⋅\sqrt{√2}}{2⋅2} \\ & =−\frac{2⋅2}{2⋅2} \\ & =−1.\end{aligned}
+
 
 
 $$
@@ -185,7 +213,9 @@ To find the value of $\sin2\theta,$ we use the double-angle formula for sine:
 $$
 
 
+
 \sin2\theta = 2\sin\theta\cos\theta
+
 
 
 $$
@@ -195,7 +225,9 @@ First, recall that $\sin{\theta} = \dfrac{1}{\csc{\theta}}.$ Therefore,
 $$
 
 
+
 \sin \theta = \dfrac{1}{\csc \theta} = \dfrac{1}{2}.
+
 
 
 $$
@@ -205,7 +237,9 @@ Now, we need to find the value of $\cos{\theta}.$ From the Pythagorean identity,
 $$
 
 
+
 \cos \theta = \pm \sqrt{1 - \sin^2 \theta}.
+
 
 
 $$
@@ -215,7 +249,9 @@ Substituting $\sin\theta = \dfrac12$ into the above, we get
 $$
 
 
+
 \begin{aligned}cos⁡𝜃 & =±\sqrt{√1−sin^{2}⁡𝜃} \\ & =±\sqrt{√1−(\frac{1}{2})^{2}} \\ & =±\sqrt{√1−\frac{1}{4}} \\ & =±\sqrt{√\frac{3}{4}} \\ & =±\frac{\sqrt{√3}}{2}.\end{aligned}
+
 
 
 $$
@@ -225,7 +261,9 @@ We're given that $\theta$ lies in the first quadrant. Therefore, $\cos\theta \gt
 $$
 
 
+
 \cos{\theta} = \dfrac{\sqrt{3}}{2}.
+
 
 
 $$
@@ -235,7 +273,9 @@ Finally, substituting our values for sine and cosine into the double-angle formu
 $$
 
 
+
 \begin{aligned}sin⁡2𝜃 & =2sin⁡𝜃cos⁡𝜃 \\ & =2⋅(\frac{1}{2})⋅(\frac{\sqrt{√3}}{2}) \\ & =\frac{\sqrt{√3}}{2}.\end{aligned}
+
 
 
 $$
@@ -255,7 +295,9 @@ To find the value of $\sin2\theta,$ we use the double-angle formula for sine:
 $$
 
 
+
 \sin2\theta = 2\sin\theta\cos\theta
+
 
 
 $$
@@ -265,7 +307,9 @@ First, let's find the value of $\sin{\theta}.$ From the Pythagorean identity, we
 $$
 
 
+
 \sin \theta = \pm \sqrt{1 - \cos^2 \theta}.
+
 
 
 $$
@@ -275,7 +319,9 @@ Substituting $\cos \theta = \dfrac{\sqrt{3}}{3}$ into the above, we get
 $$
 
 
+
 \begin{aligned}sin⁡𝜃 & =±\sqrt{√1−cos^{2}⁡𝜃} \\ & =±\sqrt{1−(\frac{\sqrt{√3}}{3})^{2}} \\ & =±\sqrt{√1−\frac{1}{3}} \\ & =±\sqrt{√\frac{2}{3}} \\ & =±\frac{\sqrt{√2}}{\sqrt{√3}}.\end{aligned}
+
 
 
 $$
@@ -285,7 +331,9 @@ We're given that $\theta$ lies in the fourth quadrant. Therefore, $\sin\theta \l
 $$
 
 
+
 \sin{\theta} = -\dfrac{\sqrt{2}}{\sqrt 3}.
+
 
 
 $$
@@ -295,7 +343,9 @@ Now, substituting our values for sine and cosine into the double-angle formula f
 $$
 
 
+
 \begin{aligned}sin⁡2𝜃 & =2sin⁡𝜃cos⁡𝜃 \\ & =2⋅(−\frac{\sqrt{√2}}{\sqrt{√3}})⋅(\frac{\sqrt{√3}}{3}) \\ & =−\frac{2\sqrt{√2}}{3}.\end{aligned}
+
 
 
 $$
@@ -305,7 +355,9 @@ Finally,
 $$
 
 
+
 \begin{aligned}csc⁡2𝜃 & =\frac{1}{sin⁡2𝜃}=\frac{1}{(−\frac{2\sqrt{√2}}{3})}=−\frac{3}{2\sqrt{√2}}=−\frac{3\sqrt{√2}}{4}.\end{aligned}
+
 
 
 $$

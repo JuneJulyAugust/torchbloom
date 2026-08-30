@@ -21,7 +21,9 @@ The directrices of the *wide* ellipse
 $$
 
 
+
 \dfrac{(x - h)^2}{a^2} + \dfrac{(y - k)^2}{b^2} = 1, \qquad (a > b)
+
 
 
 $$
@@ -31,7 +33,9 @@ are the two *vertical* parallel lines with equations
 $$
 
 
+
 x = h \pm \dfrac{a^2}{c},
+
 
 
 $$
@@ -47,7 +51,9 @@ From the diagram, we see that the center of the ellipse is at
 $$
 
 
+
 (h,k) = (2,2),
+
 
 
 $$
@@ -59,7 +65,9 @@ Now, computing the focal length, we get
 $$
 
 
+
 \begin{aligned}𝑐 & =\sqrt{√|𝑎^{2}−𝑏^{2}|} \\ & =\sqrt{√|4^{2}−3^{2}|} \\ & =\sqrt{√7}.\end{aligned}
+
 
 
 $$
@@ -69,7 +77,9 @@ Therefore, the equations of the directrices are as follows:
 $$
 
 
+
 \begin{aligned}𝑥 & =ℎ±\frac{𝑎^{2}}{𝑐} \\ 𝑥 & =2±\frac{4^{2}}{\sqrt{√7}} \\ 𝑥 & =2±\frac{16}{\sqrt{√7}}\end{aligned}
+
 
 
 $$
@@ -93,7 +103,9 @@ For the ** ellipse
 $$
 
 
+
 \dfrac{(x-h)^2}{a^2} + \dfrac{(y-k)^2}{b^2} = 1, \qquad (a > b)
+
 
 
 $$
@@ -103,7 +115,9 @@ the equations of the directrices are
 $$
 
 
+
 x = h \pm \dfrac{a^2}{c},
+
 
 
 $$
@@ -115,7 +129,9 @@ In our case, we have
 $$
 
 
+
 h = 3, \qquad k = 1, \qquad a^2 = 16, \qquad b^2 = 4.
+
 
 
 $$
@@ -125,7 +141,9 @@ Now, computing the focal length, we get
 $$
 
 
+
 \begin{aligned}𝑐 & =\sqrt{√|𝑎^{2}−𝑏^{2}|} \\ & =\sqrt{√|16−4|} \\ & =\sqrt{√12} \\ & =2\sqrt{√3}.\end{aligned}
+
 
 
 $$
@@ -135,7 +153,9 @@ Therefore, the equations of the directrices are the following:
 $$
 
 
+
 \begin{aligned}𝑥 & =ℎ±\frac{𝑎^{2}}{𝑐} \\ 𝑥 & =3±\frac{16}{2\sqrt{√3}} \\ 𝑥 & =3±\frac{8}{\sqrt{√3}}\end{aligned}
+
 
 
 $$
@@ -147,7 +167,9 @@ The directrices of the *tall* ellipse
 $$
 
 
+
 \dfrac{(x - h)^2}{a^2} + \dfrac{(y - k)^2}{b^2} = 1, \qquad (a < b)
+
 
 
 $$
@@ -157,7 +179,9 @@ are the two *horizontal* parallel lines with equations
 $$
 
 
+
 y = k \pm \dfrac{b^2}{c},
+
 
 
 $$
@@ -173,7 +197,9 @@ From the diagram, we see that the center of the ellipse is at
 $$
 
 
+
 (h,k) = (3,-4),
+
 
 
 $$
@@ -185,7 +211,9 @@ Now, computing the focal length, we get
 $$
 
 
+
 \begin{aligned}𝑐 & =\sqrt{√|𝑎^{2}−𝑏^{2}|} \\ & =\sqrt{√|2^{2}−6^{2}|} \\ & =\sqrt{√32} \\ & =4\sqrt{√2}.\end{aligned}
+
 
 
 $$
@@ -195,7 +223,9 @@ Therefore, the equations of the directrices are the following:
 $$
 
 
+
 \begin{aligned}𝑦 & =𝑘±\frac{𝑏^{2}}{𝑐} \\ 𝑦 & =−4±\frac{6^{2}}{4\sqrt{√2}} \\ 𝑦 & =−4±\frac{36}{4\sqrt{√2}} \\ 𝑦 & =−4±\frac{9}{\sqrt{√2}}\end{aligned}
+
 
 
 $$
@@ -217,7 +247,9 @@ For the ** ellipse
 $$
 
 
+
 \dfrac{(x-h)^2}{a^2} + \dfrac{(y-k)^2}{b^2} = 1, \qquad (a < b)
+
 
 
 $$
@@ -227,7 +259,9 @@ the equations of the directrices are
 $$
 
 
+
 y = k \pm \dfrac{b^2}{c},
+
 
 
 $$
@@ -239,7 +273,9 @@ In our case, we have
 $$
 
 
+
 h = 2, \qquad k = 1, \qquad a^2 = 16, \qquad b^2 = 36.
+
 
 
 $$
@@ -249,7 +285,9 @@ Now, computing the focal length, we get
 $$
 
 
+
 \begin{aligned}𝑐 & =\sqrt{√|𝑎^{2}−𝑏^{2}|} \\ & =\sqrt{√|16−36|} \\ & =\sqrt{√20} \\ & =2\sqrt{√5}.\end{aligned}
+
 
 
 $$
@@ -259,7 +297,9 @@ Therefore, the equations of the directrices are the following:
 $$
 
 
+
 \begin{aligned}𝑦 & =𝑘±\frac{𝑏^{2}}{𝑐} \\ 𝑦 & =1±\frac{36}{2\sqrt{√5}} \\ 𝑦 & =1±\frac{18}{\sqrt{√5}}\end{aligned}
+
 
 
 $$
@@ -279,7 +319,9 @@ The focus-directrix property states that
 $$
 
 
+
 \dfrac {PF_1} {PD_1} = e
+
 
 
 $$
@@ -293,7 +335,9 @@ An ellipse can be uniquely determined using the focus-directrix property:
 $$
 
 
+
 𝑃
+
 
 
 $$

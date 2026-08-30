@@ -20,7 +20,9 @@ Two of the most basic trigonometric identities are
 $$
 
 
+
 \tan \theta = \dfrac {\sin \theta} {\cos \theta},\qquad \cot \theta = \dfrac {\cos \theta} {\sin \theta}.
+
 
 
 $$
@@ -32,7 +34,9 @@ In addition, we also have the two **reciprocal relationships** that we've alread
 $$
 
 
+
 \sec \theta = \dfrac 1 {\cos \theta},\qquad \csc \theta = \dfrac 1 {\sin \theta}.
+
 
 
 $$
@@ -54,7 +58,9 @@ First, we recall the identity $\tan \theta = \dfrac {\sin \theta} {\cos \theta},
 $$
 
 
+
 \begin{aligned}tan⁡𝜃cos⁡𝜃 & =\frac{sin⁡𝜃}{cos⁡𝜃}⋅cos⁡𝜃\end{aligned}
+
 
 
 $$
@@ -64,7 +70,9 @@ Now, we multiply the two quantities and simplify as much as possible:
 $$
 
 
+
 \begin{aligned}\frac{sin⁡𝜃}{cos⁡𝜃}⋅cos⁡𝜃 & =\frac{sin⁡𝜃⋅cos⁡𝜃}{cos⁡𝜃} \\ & =\frac{sin⁡𝜃⋅cos⁡𝜃}{cos⁡𝜃} \\ & =\frac{sin⁡𝜃}{1} \\ & =sin⁡𝜃\end{aligned}
+
 
 
 $$
@@ -84,7 +92,9 @@ First, we recall the identity $\cot \theta = \dfrac {\cos \theta} {\sin \theta},
 $$
 
 
+
 \begin{aligned}3cot⁡𝜃sin⁡𝜃=3⋅\frac{cos⁡𝜃}{sin⁡𝜃}⋅sin⁡𝜃\end{aligned}
+
 
 
 $$
@@ -94,7 +104,9 @@ Then, we multiply the terms and simplify as much as possible:
 $$
 
 
+
 \begin{aligned}3⋅\frac{cos⁡𝜃}{sin⁡𝜃}⋅sin⁡𝜃 & =\frac{3cos⁡𝜃⋅sin⁡𝜃}{sin⁡𝜃} \\ & =\frac{3cos⁡𝜃⋅sin⁡𝜃}{sin⁡𝜃} \\ & =\frac{3cos⁡𝜃}{1} \\ & =3cos⁡𝜃\end{aligned}
+
 
 
 $$
@@ -116,7 +128,9 @@ To write the equation in terms of $\tan\theta$ only, we divide both sides of the
 $$
 
 
+
 \begin{aligned}5sin⁡𝜃 & =2cos⁡𝜃 \\ 5⋅\frac{sin⁡𝜃}{cos⁡𝜃} & =2⋅\frac{cos⁡𝜃}{cos⁡𝜃} \\ 5tan⁡𝜃 & =2\end{aligned}
+
 
 
 $$
@@ -126,7 +140,9 @@ Finally, we isolate $\tan\theta$ by dividing both sides of the equation by $5\ma
 $$
 
 
+
 \begin{aligned}\frac{5tan⁡𝜃}{5} & =\frac{2}{5} \\ tan⁡𝜃 & =\frac{2}{5}\end{aligned}
+
 
 
 $$
@@ -144,7 +160,9 @@ First, let's interpret the fraction as a division:
 $$
 
 
+
 \dfrac {\cot \theta + \csc \theta} {\cos \theta + 1} = \left(\cot \theta + \csc \theta\right)\div \left(\cos \theta + 1\right)
+
 
 
 $$
@@ -154,7 +172,9 @@ Then, we recall the identities $\cot \theta = \dfrac {\cos \theta} {\sin \theta}
 $$
 
 
+
 \begin{aligned}(cot⁡𝜃+csc⁡𝜃)÷(cos⁡𝜃+1) & =(\frac{cos⁡𝜃}{sin⁡𝜃}+\frac{1}{sin⁡𝜃})÷(cos⁡𝜃+1) \\ & =(\frac{cos⁡𝜃+1}{sin⁡𝜃})÷(cos⁡𝜃+1)\end{aligned}
+
 
 
 $$
@@ -164,7 +184,9 @@ Finally, we turn the division into multiplication, and simplify the expression a
 $$
 
 
+
 \begin{aligned}(\frac{cos⁡𝜃+1}{sin⁡𝜃})÷(cos⁡𝜃+1) & =(\frac{cos⁡𝜃+1}{sin⁡𝜃})⋅(\frac{1}{cos⁡𝜃+1}) \\ & =\frac{cos⁡𝜃+1}{sin⁡𝜃(cos⁡𝜃+1)} \\ & =\frac{(cos⁡𝜃+1)}{sin⁡𝜃(cos⁡𝜃+1)} \\ & =\frac{1}{sin⁡𝜃} \\ & =csc⁡𝜃\end{aligned}
+
 
 
 $$

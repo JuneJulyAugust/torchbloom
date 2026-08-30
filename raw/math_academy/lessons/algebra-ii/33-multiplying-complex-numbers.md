@@ -19,7 +19,9 @@ For example, we can multiply the purely imaginary number $3 \textrm{i}$ by the r
 $$
 
 
+
 \begin{aligned}6⋅3i & =(6⋅3)i=18i\end{aligned}
+
 
 
 $$
@@ -31,7 +33,9 @@ For example, we can multiply the complex number $2-3\textrm{i}$ by the real numb
 $$
 
 
+
 \begin{aligned} 3(2-3\textrm{i}) &= 3\cdot2 + 3\cdot(-3\textrm{i}) \\[3pt] &= 6 + 3\cdot (-3)\textrm{i} \\[3pt] &= 6 -9\textrm{i} \end{aligned}
+
 
 
 $$
@@ -51,7 +55,9 @@ For the given problem, we have
 $$
 
 
+
 2\cdot 3\,\textrm{i} = (2\cdot 3) \,\textrm{i} = 6\,\textrm{i}.
+
 
 
 $$
@@ -65,7 +71,9 @@ For example, to multiply $2\textrm{i}$ and $3\textrm{i},$ we proceed as follows:
 $$
 
 
+
 \begin{aligned}\begin{aligned}(2i)(3i) & =2⋅3⋅i^{2} \\ & =6i^{2} \\ & =6(−1) \\ & =−6\end{aligned}\end{aligned}
+
 
 
 $$
@@ -75,7 +83,9 @@ Knowing this, we can also multiply a complex number by a purely imaginary number
 $$
 
 
+
 \begin{aligned} 2\textrm{i}(4-3\textrm{i}) &= 2\textrm{i}\cdot 4+2\textrm{i}\cdot(-3\textrm{i}) \\[3pt] &=2\cdot 4\textrm{i}+2\cdot(-3)\textrm{i}^2\\[3pt] &= 8\textrm{i}+(-6)(-1)\\[3pt] &= 8\textrm{i}+6\\[3pt] &=6+8\textrm{i} \end{aligned}
+
 
 
 $$
@@ -95,7 +105,9 @@ For the given problem, we have
 $$
 
 
+
 \begin{aligned}2\,i⋅(−3\,i) & =2⋅(−3)⋅i^{2} \\ & =−6\,i^{2} \\ & =−6⋅(−1) \\ & =6.\end{aligned}
+
 
 
 $$
@@ -115,7 +127,9 @@ For the given problem, we have
 $$
 
 
+
 \begin{aligned}6\,i⋅(4+2\,i) & =6\,i⋅4+6\,i⋅2\,i \\ & =4⋅6\,i+6⋅2⋅\,i^{2} \\ & =24\,i+12⋅(−1) \\ & =24\,i−12 \\ & =−12+24\,i.\end{aligned}
+
 
 
 $$
@@ -129,7 +143,9 @@ So, to multiply $2 + \textrm{i}$ and $5 + 3\textrm{i},$ we proceed as follows:
 $$
 
 
+
 \begin{aligned} (2+\textrm{i})(5+3\textrm{i}) &= 2 (5+3\textrm{i}) + \textrm{i} (5+3\textrm{i}) \\&= 2\cdot5 + 2\cdot(3\textrm{i}) +\textrm{i}\cdot 5+ \textrm{i} \cdot (3\textrm{i}) \\&= 10 + 6\textrm{i} + 5\textrm{i} +3\textrm{i}^2 \\&= 10 + 11\textrm{i} + 3(-1) \\&= 10 + 11\textrm{i} - 3 \\&= 7 + 11\textrm{i} \end{aligned}
+
 
 
 $$
@@ -149,7 +165,9 @@ For the given problem, we have
 $$
 
 
+
 \begin{aligned}(1−3\,i)(2+4\,i) & =1⋅2+1⋅4\,i+(−3\,i)⋅2+(−3\,i)⋅4\,i \\ & =2+4\,i−6\,i−12\,i^{2} \\ & =2−2\,i−12⋅(−1) \\ & =2−2\,i+12 \\ & =14−2\,i.\end{aligned}
+
 
 
 $$

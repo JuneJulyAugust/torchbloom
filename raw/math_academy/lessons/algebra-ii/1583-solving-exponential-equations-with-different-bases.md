@@ -20,7 +20,9 @@ To solve this equation, we need both exponential terms to have a common base. To
 $$
 
 
+
 {\color{red}3}^{3x}=\left({\color{red}3}^4\right)^{x-1}
+
 
 
 $$
@@ -30,7 +32,9 @@ Then, we apply the power rule for exponents:
 $$
 
 
+
 \begin{aligned}3^{3𝑥} & =3^{4(𝑥−1)}\end{aligned}
+
 
 
 $$
@@ -40,7 +44,9 @@ Now, since both sides of the equation share the same base $({\color{red}3}),$ we
 $$
 
 
+
 \begin{aligned}3𝑥 & =4(𝑥−1) \\ 3𝑥 & =4𝑥−4 \\ 𝑥 & =4\end{aligned}
+
 
 
 $$
@@ -62,7 +68,9 @@ To do this, we write $9$ as ${\color{red}3}^2,$ and then rewrite the right-hand 
 $$
 
 
+
 \begin{aligned}3^{3𝑥−3} & =9^{𝑥} \\ 3^{3𝑥−3} & =(3^{2})^{𝑥} \\ 3^{3𝑥−3} & =3^{2𝑥}\end{aligned}
+
 
 
 $$
@@ -72,7 +80,9 @@ Now, since both sides of the equation share the same base $({\color{red}3}),$ we
 $$
 
 
+
 \begin{aligned}3𝑥−3 & =2𝑥 \\ 𝑥 & =3\end{aligned}
+
 
 
 $$
@@ -90,7 +100,9 @@ To solve this equation, we need both exponential terms to have a common base. To
 $$
 
 
+
 \left({\color{red}3}^2\right)^{3x}=\left({\color{red}3}^3\right)^{x+2}
+
 
 
 $$
@@ -100,7 +112,9 @@ Then, we apply the power rule for exponents:
 $$
 
 
+
 \begin{aligned}3^{2(3𝑥)}=3^{3(𝑥+2)}\end{aligned}
+
 
 
 $$
@@ -110,7 +124,9 @@ Now, since both sides of the equation share the same base $({\color{red}3}),$ we
 $$
 
 
+
 \begin{aligned}2(3𝑥) & =3(𝑥+2) \\ 6𝑥 & =3𝑥+6 \\ 3𝑥 & =6 \\ 𝑥 & =2\end{aligned}
+
 
 
 $$

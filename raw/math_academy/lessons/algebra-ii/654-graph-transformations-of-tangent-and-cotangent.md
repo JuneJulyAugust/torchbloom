@@ -30,7 +30,9 @@ So, the equation of the curve is
 $$
 
 
+
 y=\cot\left(2x\right)+3.
+
 
 
 $$
@@ -54,7 +56,9 @@ From the graph, we see that the given curve shifted **** by $1$ unit. So, the eq
 $$
 
 
+
 y=\tan\left(\dfrac{x}{2}\right)-1.
+
 
 
 $$
@@ -68,7 +72,9 @@ Consider the graph below that shows a section of the function
 $$
 
 
+
 y=\dfrac{1}{2}\tan{(x+C)}, \quad -\dfrac{\pi}{2} < C < \dfrac{\pi}{2},
+
 
 
 $$
@@ -92,7 +98,9 @@ So, the equation of the curve is
 $$
 
 
+
 y=\frac 1 2\tan(x-1).
+
 
 
 $$
@@ -116,7 +124,9 @@ From the graph, we see that the given curve shifted **** by $\dfrac{1}{2}$ units
 $$
 
 
+
 y=\frac 1 3\cot\left(x+\dfrac{1}{2}\right).
+
 
 
 $$
@@ -138,7 +148,9 @@ We can calculate the period $T$ by computing the difference in the $x$-values be
 $$
 
 
+
 T = (2+\pi) - \left(2-\pi\right) = 2\pi.
+
 
 
 $$
@@ -148,7 +160,9 @@ The formula for the period $T$ of the function $y=A\tan(Bx + C) + D$ is given by
 $$
 
 
+
 T = \dfrac{\pi}{B}.
+
 
 
 $$
@@ -158,7 +172,9 @@ Applying the formula for the period, we get
 $$
 
 
+
 2\pi = \dfrac{\pi}{B} \quad\Longrightarrow\quad B = \dfrac{\pi}{2\pi} = \dfrac 1 2.
+
 
 
 $$

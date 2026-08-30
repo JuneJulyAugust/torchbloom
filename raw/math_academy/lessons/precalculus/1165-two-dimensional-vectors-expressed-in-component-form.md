@@ -35,7 +35,9 @@ We have
 $$
 
 
+
 \begin{aligned} & \overset{𝑂𝑋}{}=2𝐢, \\ & \overset{𝑋𝐴}{}=\overset{𝑂𝑌}{}=3𝐣.\end{aligned}
+
 
 
 $$
@@ -45,7 +47,9 @@ Now, from $\triangle OXA,$ we have
 $$
 
 
+
 \begin{aligned}\overset{𝑂𝐴}{} & =\overset{𝑂𝑋}{}+\overset{𝑋𝐴}{} \\ & =2𝐢+3𝐣.\end{aligned}
+
 
 
 $$
@@ -55,7 +59,9 @@ So, the point $A$ with coordinates $(2,3)$ has a position vector
 $$
 
 
+
 \begin{aligned}\overset{𝑂𝐴}{} & =2𝐢+3𝐣.\end{aligned}
+
 
 
 $$
@@ -65,7 +71,9 @@ In general, if a point $A$ has coordinates $(a_x,a_y),$ then its position vector
 $$
 
 
+
 \overrightarrow{OA} = \mathbf{a} = a_x\mathbf{i}+a_y\mathbf{j}.
+
 
 
 $$
@@ -87,7 +95,9 @@ Remember that in general, if a point $A$ has coordinates $(a_x,a_y),$ then its p
 $$
 
 
+
 \overrightarrow{OA} = a_x\mathbf{i}+a_y\mathbf{j}.
+
 
 
 $$
@@ -97,7 +107,9 @@ Here, the point $A$ has coordinates $(-1,2),$ so its position vector is given by
 $$
 
 
+
 \begin{aligned}\overset{𝑂𝐴}{} & =(−1)⋅𝐢+2⋅𝐣 \\ & =−𝐢+2𝐣.\end{aligned}
+
 
 
 $$
@@ -109,7 +121,9 @@ The $\mathbf{i,j}$ notation can sometimes be cumbersome. An alternative is to us
 $$
 
 
+
 2\mathbf{i}+3\mathbf{j}=\langle 2,3 \rangle.
+
 
 
 $$
@@ -119,7 +133,9 @@ Note that, using angle bracket notation, the special unit vectors can be express
 $$
 
 
+
 \begin{aligned}𝐢=1𝐢+0𝐣=⟨1,0⟩, \\ 𝐣=0𝐢+1𝐣=⟨0,1⟩.\end{aligned}
+
 
 
 $$
@@ -129,7 +145,9 @@ We can also use **column vector** notation, which is similar to angle bracket no
 $$
 
 
+
 [\begin{aligned}2 \\ 3\end{aligned}]
+
 
 
 $$
@@ -175,7 +193,9 @@ We have
 $$
 
 
+
 \begin{aligned} & \overset{𝑂𝐴}{}=𝐚=−2𝐢+𝐣, \\ & \overset{𝑂𝐵}{}=𝐛=2𝐢+3𝐣.\end{aligned}
+
 
 
 $$
@@ -185,7 +205,9 @@ Now, from $\triangle OAB,$ we have
 $$
 
 
+
 \begin{aligned}\overset{𝐴𝐵}{} & =\overset{𝐴𝑂}{}+\overset{𝑂𝐵}{} \\ & =−\overset{𝑂𝐴}{}+\overset{𝑂𝐵}{} \\ & =𝐛−𝐚 \\ & =(2𝐢+3𝐣)−(−2𝐢+𝐣) \\ & =4𝐢+2𝐣.\end{aligned}
+
 
 
 $$
@@ -197,7 +219,9 @@ If $A$ and $B$ are points in the Cartesian plane with position vectors $\mathbf{
 $$
 
 
+
 \overrightarrow{AB} = \mathbf{b}-\mathbf{a}.
+
 
 
 $$
@@ -207,7 +231,9 @@ To understand why the equation above is true, remember that $\overrightarrow{OA}
 $$
 
 
+
 \begin{aligned}\overset{𝐴𝐵}{} & =\overset{𝐴𝑂}{}+\overset{𝑂𝐵}{} \\ & =−\overset{𝑂𝐴}{}+\overset{𝑂𝐵}{} \\ & =−𝐚+𝐛 \\ & =𝐛−𝐚.\end{aligned}
+
 
 
 $$
@@ -217,7 +243,9 @@ For example, given $A(5,13)$ and $B(-2,-35)$, we have
 $$
 
 
+
 \begin{aligned} & \overset{𝑂𝐴}{}=𝐚=5𝐢+13𝐣, \\ & \overset{𝑂𝐵}{}=𝐛=−2𝐢−35𝐣.\end{aligned}
+
 
 
 $$
@@ -227,7 +255,9 @@ Now, using the formula, we obtain
 $$
 
 
+
 \begin{aligned}\overset{𝐴𝐵}{} & =𝐛−𝐚 \\ & =(−2𝐢−35𝐣)−(5𝐢+13𝐣) \\ & =−7𝐢−48𝐣.\end{aligned}
+
 
 
 $$

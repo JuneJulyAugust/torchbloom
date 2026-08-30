@@ -17,7 +17,9 @@ The parametric equations of a circle of radius $1$ centered at the origin are
 $$
 
 
+
 x=\cos\theta,\quad y=\sin\theta, \quad 0\leq \theta <2\pi.
+
 
 
 $$
@@ -33,7 +35,9 @@ For a general circle of radius $r$ centered at the origin $O,$ the parametric eq
 $$
 
 
+
 x=r\cos\theta,\quad y=r\sin\theta, \quad 0\leq \theta <2\pi.
+
 
 
 $$
@@ -45,7 +49,9 @@ Another set of parametric equations for a circle of radius $r$ centered at $O$ i
 $$
 
 
+
 x=r\sin\theta,\quad y=r\cos\theta, \quad 0\leq \theta <2\pi.
+
 
 
 $$
@@ -65,7 +71,9 @@ The parametric equations of a circle of radius $r$ centered at the origin are
 $$
 
 
+
 x = r\cos\theta, \quad y = r\sin\theta, \quad \theta \in [0,2\pi).
+
 
 
 $$
@@ -77,7 +85,9 @@ In our case, the radius is $r = 2.$ Therefore, the parametric equations of the c
 $$
 
 
+
 x=2\cos\theta,\quad y=2\sin\theta, \quad \theta \in [0,2\pi).
+
 
 
 $$
@@ -89,7 +99,9 @@ The parametric equations of a circle of radius $r$ centered at the point $(a,b)$
 $$
 
 
+
 x= r\cos\theta+a,\quad y=r\sin\theta+b,\quad \theta \in [0,2\pi).
+
 
 
 $$
@@ -99,7 +111,9 @@ For example, the parametric equations of a circle of radius $2$ centered at the 
 $$
 
 
+
 x= 2\cos\theta+1,\quad y=2\sin\theta-2,\quad \theta \in [0,2\pi).
+
 
 
 $$
@@ -121,7 +135,9 @@ The parametric equations of a circle of radius $r$ centered at the point $(a,b)$
 $$
 
 
+
 x= r\cos\theta+a,\quad y=r\sin\theta+b,\quad \theta \in [0,2\pi).
+
 
 
 $$
@@ -131,7 +147,9 @@ In our case, we have a circle of radius $2$ centered at the point $(4,6).$ There
 $$
 
 
+
 x=2\cos\theta+4,\quad y=2\sin\theta+6,\quad\theta \in [0,2\pi).
+
 
 
 $$
@@ -147,7 +165,9 @@ The quarter-circle above is defined by the parametric equations
 $$
 
 
+
 x = 6\cos\theta, \qquad y = 6\sin\theta.
+
 
 
 $$
@@ -161,7 +181,9 @@ The parametric equations of a circle of radius $r$ centered at the origin are
 $$
 
 
+
 x = r\cos\theta, \quad y = r\sin\theta, \quad \theta \in [0,2\pi).
+
 
 
 $$
@@ -171,7 +193,9 @@ In our case, the radius $r = 6.$ So, the parametric equations of the ** circle a
 $$
 
 
+
 x=6\cos\theta,\quad y=6\sin\theta, \quad \theta \in [0,2\pi).
+
 
 
 $$
@@ -187,7 +211,9 @@ Therefore, the parametric equations of the quarter-circle are
 $$
 
 
+
 x=6\cos\theta,\quad y=6\sin\theta, \quad \theta \in \left[0,\dfrac{\pi}{2} \right].
+
 
 
 $$
@@ -199,7 +225,9 @@ To convert the parametric equations of a circle to a Cartesian equation, we can 
 $$
 
 
+
 \cos^2 \theta + \sin^2 \theta = 1
+
 
 
 $$
@@ -209,7 +237,9 @@ To demonstrate, consider the circle defined parametrically as
 $$
 
 
+
 x=5\cos\theta,\quad y=5\sin\theta, \quad 0\leq\theta\lt 2\pi.
+
 
 
 $$
@@ -219,7 +249,9 @@ By isolating the $\cos\theta$ term in the $x$-equation and squaring, we get
 $$
 
 
+
 \begin{aligned}\frac{𝑥}{5} & =cos⁡𝜃 \\ \frac{𝑥^{2}}{5^{2}} & =cos^{2}⁡𝜃 \\ \frac{𝑥^{2}}{25} & =cos^{2}⁡𝜃.\end{aligned}
+
 
 
 $$
@@ -229,7 +261,9 @@ By isolating the $\sin\theta$ term in the $y$-equation and squaring, we get
 $$
 
 
+
 \begin{aligned}\frac{𝑦}{5} & =sin⁡𝜃 \\ \frac{𝑦^{2}}{5^{2}} & =sin^{2}⁡𝜃 \\ \frac{𝑦^{2}}{25} & =sin^{2}⁡𝜃.\end{aligned}
+
 
 
 $$
@@ -239,7 +273,9 @@ Substituting these values into the Pythagorean identity, we obtain
 $$
 
 
+
 \begin{aligned}cos^{2}⁡𝜃+sin^{2}⁡𝜃 & =1 \\ \frac{𝑥^{2}}{25}+\frac{𝑦^{2}}{25} & =1 \\ 𝑥^{2}+𝑦^{2} & =25.\end{aligned}
+
 
 
 $$
@@ -255,7 +291,9 @@ Calculate the Cartesian equation of the circle
 $$
 
 
+
 x=3\cos\theta + 2,\quad y=3\sin\theta - 4, \quad 0\leq\theta\lt 2\pi.
+
 
 
 $$
@@ -267,7 +305,9 @@ To find the Cartesian equation of the circle, we need to eliminate the parameter
 $$
 
 
+
 \cos^2 \theta + \sin^2 \theta = 1
+
 
 
 $$
@@ -277,7 +317,9 @@ By isolating the $\cos\theta$ term in the $x$-equation and squaring, we get
 $$
 
 
+
 \begin{aligned}\frac{𝑥−2}{3} & =cos⁡𝜃 \\ \frac{(𝑥−2)^{2}}{3^{2}} & =cos^{2}⁡𝜃 \\ \frac{(𝑥−2)^{2}}{9} & =cos^{2}⁡𝜃.\end{aligned}
+
 
 
 $$
@@ -287,7 +329,9 @@ By isolating the $\sin\theta$ term in the $y$-equation and squaring, we get
 $$
 
 
+
 \begin{aligned}\frac{𝑦+4}{3} & =sin⁡𝜃 \\ \frac{(𝑦+4)^{2}}{3^{2}} & =sin^{2}⁡𝜃 \\ \frac{(𝑦+4)^{2}}{9} & =sin^{2}⁡𝜃.\end{aligned}
+
 
 
 $$
@@ -297,7 +341,9 @@ Substituting these values into the Pythagorean identity, we obtain
 $$
 
 
+
 \begin{aligned}cos^{2}⁡𝜃+sin^{2}⁡𝜃 & =1 \\ \frac{(𝑥−2)^{2}}{9}+\frac{(𝑦+4)^{2}}{9} & =1 \\ (𝑥−2)^{2}+(𝑦+4)^{2} & =9.\end{aligned}
+
 
 
 $$

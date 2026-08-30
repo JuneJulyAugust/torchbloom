@@ -23,7 +23,9 @@ We can check that this is true by substituting $\overline{z} = 1-\textrm{i}$ int
 $$
 
 
+
 \begin{aligned}\overset{𝑧}{–}^{2}−2\overset{𝑧}{–}+2 & =0 \\ (1−i)^{2}−2(1−i)+2 & =0 \\ 1−2i+i^{2}−2+2i+2 & =0 \\ 1−2i−1−2+2i+2 & =0 \\ 0 & =0.\,✓\end{aligned}
+
 
 
 $$
@@ -57,7 +59,9 @@ Since the quadratic equation has real coefficients and $x=-3\textrm{i}$ is a roo
 $$
 
 
+
 (x-3\textrm{i})(x+3\textrm{i})= 0
+
 
 
 $$
@@ -67,7 +71,9 @@ Multiplying out the parentheses and simplifying gives
 $$
 
 
+
 \begin{aligned}𝑥^{2}−(3i)^{2} & =0 \\ 𝑥^{2}−9(−1) & =0 \\ 𝑥^{2}+9 & =0.\end{aligned}
+
 
 
 $$
@@ -77,7 +83,9 @@ This equation has roots $x=\pm 3\textrm{i},$ but the coefficient of $x^2$ is not
 $$
 
 
+
 \begin{aligned}2(𝑥^{2}+9) & =0 \\ 2𝑥^{2}+18 & =0.\end{aligned}
+
 
 
 $$
@@ -95,7 +103,9 @@ Since the quadratic equation has real coefficients and $x=6-8\textrm{i}$ is a ro
 $$
 
 
+
 \Bigl(x-(6-8\textrm{i})\Bigr)\Bigl(x-(6+8\textrm{i})\Bigr) = 0
+
 
 
 $$
@@ -105,7 +115,9 @@ By expanding the parentheses, we can write the equation in standard form as foll
 $$
 
 
+
 \begin{aligned}𝑥^{2}−𝑥(6+8i)−𝑥(6−8i)+(6−8i)(6+8i) & =0 \\ 𝑥^{2}−6𝑥−8𝑥i−6𝑥+8𝑥i+36−64i^{2} & =0 \\ 𝑥^{2}−12𝑥+36+64 & =0 \\ 𝑥^{2}−12𝑥+100 & =0\end{aligned}
+
 
 
 $$
@@ -115,7 +127,9 @@ This equation has roots $x= 6 \pm 8\textrm{i},$ but the coefficient of $x^2$ is 
 $$
 
 
+
 \begin{aligned}−(𝑥^{2}−12𝑥+100) & =0 \\ −𝑥^{2}+12𝑥−100 & =0.\end{aligned}
+
 
 
 $$
@@ -131,7 +145,9 @@ Now, let's prove the theorem. Suppose that $a,b,c$ are real numbers and that $z$
 $$
 
 
+
 az^2 +bz +c = 0.
+
 
 
 $$
@@ -141,7 +157,9 @@ If we take the complex conjugate of this equation, we get
 $$
 
 
+
 \overline{ az^2+ bz+c} = \overline{0}
+
 
 
 $$
@@ -151,7 +169,9 @@ and since $\overline{0} = 0,$ we have
 $$
 
 
+
 \overline{ az^2+ bz+c} = 0.
+
 
 
 $$
@@ -161,7 +181,9 @@ We can now take the complex conjugate of each term individually. This gives
 $$
 
 
+
 \overline{az^2} + \overline{bz} +\overline{c} = 0,
+
 
 
 $$
@@ -171,7 +193,9 @@ and since $a,b,$ and $c$ are real, we have
 $$
 
 
+
 a\overline{z^2} + b\overline{z} +c = 0.
+
 
 
 $$
@@ -181,7 +205,9 @@ Finally, we use the fact that $\overline{z^2} = (\overline{z})^2,$ so our equati
 $$
 
 
+
 a(\overline{z})^2 + b\overline{z} +c = 0.
+
 
 
 $$

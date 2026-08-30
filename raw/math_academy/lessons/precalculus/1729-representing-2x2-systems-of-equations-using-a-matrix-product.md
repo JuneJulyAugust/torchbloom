@@ -16,7 +16,9 @@ Matrices can be used to represent systems of equations, such as the following:
 $$
 
 
+
 \begin{aligned}2𝑥+3𝑦=5 \\ 4𝑥 − 5𝑦=−1\end{aligned}
+
 
 
 $$
@@ -26,7 +28,9 @@ For a $2\times 2$ system like the one above, we put the coefficients of the syst
 $$
 
 
+
 [\begin{aligned}2 & 3 \\ 4 & −5\end{aligned}]
+
 
 
 $$
@@ -36,7 +40,9 @@ Each row has the coefficients of one of the equations in the system, and each co
 $$
 
 
+
 [\begin{aligned}5 \\ −1\end{aligned}]
+
 
 
 $$
@@ -46,7 +52,9 @@ where $\mathbf{b}$ consists of each constant on the right side of the system and
 $$
 
 
+
 [\begin{aligned}2 & 3 \\ 4 & −5\end{aligned}]
+
 
 
 $$
@@ -56,7 +64,9 @@ We can write any system of two equations with two variables in this form. Just t
 $$
 
 
+
 \begin{aligned}𝐴𝐱 & =[\begin{aligned}2 & 3 \\ 4 & −5\end{aligned}][\begin{aligned}𝑥 \\ 𝑦\end{aligned}] \\ & =[\begin{aligned}2𝑥+3𝑦 \\ 4𝑥 − 5𝑦\end{aligned}] \\ & =[\begin{aligned}5 \\ −1\end{aligned}] \\ & =𝐛\,✓\end{aligned}
+
 
 
 $$
@@ -70,7 +80,9 @@ Represent the following system of equations using matrices:
 $$
 
 
+
 \begin{aligned}2𝑥=5 \\ −5𝑥+6𝑦=−8\end{aligned}
+
 
 
 $$
@@ -82,7 +94,9 @@ First, let's write the system so that both $x$ and $y$ appear in each equation. 
 $$
 
 
+
 \begin{aligned}2𝑥+0𝑦=5 \\ −5𝑥+6𝑦=−8\end{aligned}
+
 
 
 $$
@@ -92,7 +106,9 @@ Now, we can write the system in the form $A\mathbf{x} = \mathbf{b},$ where
 $$
 
 
+
 [\begin{aligned}2 & 0 \\ −5 & 6\end{aligned}]
+
 
 
 $$
@@ -102,7 +118,9 @@ is the coefficient matrix,
 $$
 
 
+
 [\begin{aligned}5 \\ −8\end{aligned}]
+
 
 
 $$
@@ -112,7 +130,9 @@ is the column vector of constants, and
 $$
 
 
+
 [\begin{aligned}𝑥 \\ 𝑦\end{aligned}]
+
 
 
 $$
@@ -124,7 +144,9 @@ So, the equation $A\mathbf{x} = \mathbf{b}$ becomes
 $$
 
 
+
 [\begin{aligned}2 & 0 \\ −5 & 6\end{aligned}]
+
 
 
 $$
@@ -138,7 +160,9 @@ Represent the following system of equations using matrices:
 $$
 
 
+
 \begin{aligned}\begin{aligned}−5𝑦=−3𝑥 \\ 6+𝑥=−2+𝑦\end{aligned}\end{aligned}
+
 
 
 $$
@@ -150,7 +174,9 @@ First, we organize the system so that it’s in the correct order:
 $$
 
 
+
 \begin{aligned}\begin{aligned}3𝑥−5𝑦=0 \\ 𝑥−𝑦=−8.\end{aligned}\end{aligned}
+
 
 
 $$
@@ -160,7 +186,9 @@ Now, we can write the system in the form $A\mathbf{x} = \mathbf{b},$ where
 $$
 
 
+
 [\begin{aligned}3 & −5 \\ 1 & −1\end{aligned}]
+
 
 
 $$
@@ -170,7 +198,9 @@ is the coefficient matrix,
 $$
 
 
+
 [\begin{aligned}0 \\ −8\end{aligned}]
+
 
 
 $$
@@ -180,7 +210,9 @@ is the column vector of constants, and
 $$
 
 
+
 [\begin{aligned}𝑥 \\ 𝑦\end{aligned}]
+
 
 
 $$
@@ -192,7 +224,9 @@ So, the equation $A\mathbf{x} = \mathbf{b}$ becomes
 $$
 
 
+
 [\begin{aligned}3 & −5 \\ 1 & −1\end{aligned}]
+
 
 
 $$
@@ -206,7 +240,9 @@ What is the system of equations represented by
 $$
 
 
+
 [\begin{aligned}10 & −15 \\ 1 & 0\end{aligned}]
+
 
 
 $$
@@ -218,7 +254,9 @@ The $2\times 2$ matrix represents the coefficients of $x$ and $y,$ while the $2\
 $$
 
 
+
 \begin{aligned}\begin{aligned}10𝑥−15𝑦=5 \\ 1𝑥+0𝑦=−2\end{aligned}\end{aligned}
+
 
 
 $$
@@ -228,7 +266,9 @@ Simplifying both equations in the system, we get
 $$
 
 
+
 \begin{aligned}\begin{aligned}2𝑥−3𝑦=1 \\ 𝑥=−2.\end{aligned}\end{aligned}
+
 
 
 $$

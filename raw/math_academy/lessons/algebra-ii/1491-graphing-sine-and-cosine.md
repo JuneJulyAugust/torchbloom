@@ -74,7 +74,9 @@ Which of the following is **** a zero of $y=\sin{x}?$
 $$
 
 
+
 0, \quad -\dfrac{\pi}{2}, \quad 2\pi, \quad -\pi
+
 
 
 $$
@@ -154,7 +156,9 @@ Which of the following is a value of $x$ that minimizes the graph of $y=\cos{x}?
 $$
 
 
+
 -2\pi , \quad 0, \quad \dfrac{\pi}2, \quad -\pi
+
 
 
 $$

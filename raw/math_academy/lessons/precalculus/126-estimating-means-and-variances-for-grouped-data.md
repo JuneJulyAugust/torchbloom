@@ -34,7 +34,9 @@ For example, consider the first class:
 $$
 
 
+
 0 \leq x < 20
+
 
 
 $$
@@ -44,7 +46,9 @@ Since the data is continuous, $x$ can assume *any* real number in this interval.
 $$
 
 
+
 x = 10.5\,\textrm{mins}, \qquad x = 2.14546\,\textrm{mins}, \qquad x = 3.141\,592\,654\ldots\,\textrm{mins},
+
 
 
 $$
@@ -82,7 +86,9 @@ Given a frequency table containing continuous data split into $K$ classes, the m
 $$
 
 
+
 \overline x \approx \dfrac{1}{n}\sum_{i=1}^K f_i \cdot m_{i}
+
 
 
 $$
@@ -126,7 +132,9 @@ If we have a data set that consists of the points $x_1, x_2, \ldots, x_n,$ then 
 $$
 
 
+
 \sigma^2= \dfrac{1}{n} \sum\limits_{i=1}^n (x_i - \overline{x})^2,
+
 
 
 $$
@@ -138,7 +146,9 @@ Given a frequency table containing continuous data split into $K$ classes, the v
 $$
 
 
+
 \sigma^2_n \approx \dfrac{1}{n}\sum_{i=1}^K f_i \cdot (m_{i} - \overline x)^2,
+
 
 
 $$
@@ -168,7 +178,9 @@ Earlier, we found that
 $$
 
 
+
 \overline{x}\approx 41.3333
+
 
 
 $$
@@ -180,7 +192,9 @@ Let's estimate the variance of this data set to one decimal place using the foll
 $$
 
 
+
 \sigma^2_n \approx \dfrac{1}{n}\sum_{i=1}^K f_i \cdot (m_{i} - \overline x)^2
+
 
 
 $$
@@ -196,7 +210,9 @@ Finally, we sum the values in the last column and divide by $30$ (the total numb
 $$
 
 
+
 \begin{aligned}𝜎_{2𝑛}^{} & ≈\frac{4908.8785+1284.4370+600.8936+5752.4579}{30} \\ & ≈418.2222 \\ & ≈418.2\end{aligned}
+
 
 
 $$
@@ -208,7 +224,9 @@ Finally, we can find an estimate of the standard deviation by taking the square 
 $$
 
 
+
 \sigma_n \approx \sqrt{418.2222} \approx 20.5\,\textrm{mins}
+
 
 
 $$

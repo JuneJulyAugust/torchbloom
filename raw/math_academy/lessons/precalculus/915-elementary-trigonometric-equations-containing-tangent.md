@@ -16,7 +16,9 @@ Suppose we want to find all of the solutions to the equation
 $$
 
 
+
 0^{∘}≤𝑥<360^{∘}.
+
 
 
 $$
@@ -26,7 +28,9 @@ We can immediately calculate a solution, called the **principal value**, as foll
 $$
 
 
+
 x = \arctan\left(\sqrt{3}\right) = 60^\circ
+
 
 
 $$
@@ -40,7 +44,9 @@ Therefore, our second solution $x_2$ inside the range $0^\circ \leq x < 360^\cir
 $$
 
 
+
 \begin{aligned}𝑥_{2} & =𝑥_{1}+180^{∘} \\ & =60^{∘}+180^{∘} \\ & =240^{∘}.\end{aligned}
+
 
 
 $$
@@ -62,7 +68,9 @@ First, we rearrange the equation and isolate $\tan x \mathbin{:}$
 $$
 
 
+
 \begin{aligned}3tan⁡𝑥+3\sqrt{√3} & =0 \\ 3tan⁡𝑥 & =−3\sqrt{√3} \\ tan⁡𝑥 & =−\frac{3\sqrt{√3}}{3} \\ tan⁡𝑥 & =−\sqrt{√3}.\end{aligned}
+
 
 
 $$
@@ -72,7 +80,9 @@ Next, we find the principal value:
 $$
 
 
+
 \begin{aligned}𝑥=arctan⁡(−\sqrt{√3})=−60^{∘}\end{aligned}
+
 
 
 $$
@@ -82,15 +92,19 @@ Since $-60^\circ$ lies outside the given domain, it is not a solution. However, 
 $$
 
 
+
 \begin{aligned}𝑥_{1} & =𝑥+180^{∘}=−60^{∘}+180^{∘}=120^{∘}\end{aligned}
 
 
+
 $$
 
 $$
+
 
 
 \begin{aligned}𝑥_{2} & =𝑥+360^{∘}=−60^{∘}+360^{∘}=300^{∘}\end{aligned}
+
 
 
 $$
@@ -110,7 +124,9 @@ First, we find the principal value:
 $$
 
 
+
 \begin{aligned}𝑥=arctan⁡(4)=75.963\,75...^{∘}≈75.964^{∘}\end{aligned}
+
 
 
 $$
@@ -122,7 +138,9 @@ To generate more solutions, we add integer multiples of $180^\circ$ as follows:
 $$
 
 
+
 x_2 = 180^\circ + 75.964^\circ \approx 255.964^\circ
+
 
 
 $$
@@ -136,7 +154,9 @@ Suppose we want to find all of the solutions to the equation
 $$
 
 
+
 −180^{∘}<𝑥≤180^{∘}.
+
 
 
 $$
@@ -148,7 +168,9 @@ First, we find the principal value:
 $$
 
 
+
 \begin{aligned}𝑥=arctan⁡(1)=45^{∘}\end{aligned}
+
 
 
 $$
@@ -160,7 +182,9 @@ To generate more solutions, we subtract integer multiples of $180^\circ,$ as fol
 $$
 
 
+
 \begin{aligned}𝑥_{2} & =𝑥_{1}−180^{∘} \\ & =45^{∘}−180^{∘} \\ & =−135^{∘}\end{aligned}
+
 
 
 $$
@@ -180,7 +204,9 @@ First, we rearrange the equation, isolating $\tan x \mathbin{:}$
 $$
 
 
+
 \begin{aligned}3tan⁡𝑥−\sqrt{√3} & =0 \\ 3tan⁡𝑥 & =\sqrt{√3} \\ tan⁡𝑥 & =\frac{\sqrt{√3}}{3}\end{aligned}
+
 
 
 $$
@@ -190,7 +216,9 @@ Now, we find the principal value:
 $$
 
 
+
 \begin{aligned}𝑥=arctan⁡(\frac{\sqrt{√3}}{3})=30^{∘}\end{aligned}
+
 
 
 $$
@@ -202,7 +230,9 @@ To generate more solutions, we subtract integer multiples of $180^\circ$ as foll
 $$
 
 
+
 \begin{aligned}𝑥_{2} & =𝑥_{1}−180^{∘} \\ & =30^{∘}−180^{∘} \\ & =−150^{∘}\end{aligned}
+
 
 
 $$
@@ -224,7 +254,9 @@ The $y$-values of both functions are the same at the intersection point. Equatin
 $$
 
 
+
 \tan x=1, \qquad -\dfrac \pi 2 < x < \dfrac {\pi} 2 .
+
 
 
 $$
@@ -234,7 +266,9 @@ First, we find the principal value:
 $$
 
 
+
 \begin{aligned}𝑥=arctan⁡(1)=\frac{𝜋}{4}\end{aligned}
+
 
 
 $$

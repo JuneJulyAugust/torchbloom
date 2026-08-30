@@ -20,7 +20,9 @@ Since the hypotenuse is the radius of the unit circle, its length must be equal 
 $$
 
 
+
 x^2+y^2=1.
+
 
 
 $$
@@ -32,7 +34,9 @@ For example, suppose that the $x$-coordinate of a point $P$ in the first quadran
 $$
 
 
+
 \begin{aligned} x^2+y^2&=1\\\[5pt] \left(\dfrac{3}{7}\right)^2+y^2&=1\\\[5pt] \dfrac{9}{49}+y^2&=1\\\[5pt] y^2&= 1-\dfrac{9}{49}\\\[5pt] y^2&= \dfrac{40}{49}\\\[5pt] y&= \pm\sqrt{\dfrac{40}{49}}\\\[5pt] y &= \pm \dfrac{2\sqrt{10}}{7} \end{aligned}
+
 
 
 $$
@@ -54,7 +58,9 @@ Since the point $A$ lies on the unit circle, it must satisfy the Pythagorean the
 $$
 
 
+
 x^2+y^2=1 .
+
 
 
 $$
@@ -64,7 +70,9 @@ Substituting $y=\dfrac{5}{9}$ into the above and solving for $x$ gives
 $$
 
 
+
 \begin{aligned} x^2+y^2&=1\\\[5pt] x^2+\left(\dfrac{5}{9}\right)^2&=1\\\[5pt] x^2+\left(\dfrac{25}{81}\right)&=1\\\[5pt] x^2&= 1-\dfrac{25}{81}\\\[5pt] x^2&= \dfrac{56}{81}\\\[5pt] x&= \sqrt{\dfrac{56}{81}}\\\[5pt] x&= \pm \dfrac{2\sqrt{14}}{9}. \end{aligned}
+
 
 
 $$
@@ -80,7 +88,9 @@ Recall that the coordinates of a point on the unit circle with a central angle $
 $$
 
 
+
 x = \cos\theta, \qquad y = \sin\theta.
+
 
 
 $$
@@ -90,7 +100,9 @@ If this point is in the first quadrant, we can substitute these values into the 
 $$
 
 
+
 \begin{aligned}𝑥^{2}+𝑦^{2} & =1 \\ (cos⁡𝜃)^{2}+(sin⁡𝜃)^{2} & =1 \\ cos^{2}⁡𝜃+sin^{2}⁡𝜃 & =1.\end{aligned}
+
 
 
 $$
@@ -114,7 +126,9 @@ Any point $(x,y)$ on the unit circle is related to the central angle $\theta$ as
 $$
 
 
+
 x = \cos\theta, \qquad y = \sin\theta.
+
 
 
 $$
@@ -124,7 +138,9 @@ We're given that $x=\dfrac{2}{3}$ at the point $P.$ Therefore, we have
 $$
 
 
+
 \cos\theta = \dfrac{2}{3}.
+
 
 
 $$
@@ -134,7 +150,9 @@ We can use the Pythagorean identity to find $\sin\theta\mathbin{:}$
 $$
 
 
+
 \begin{aligned}sin^{2}⁡𝜃+cos^{2}⁡𝜃 & =1 \\ sin^{2}⁡𝜃 & =1−cos^{2}⁡𝜃 \\ sin⁡𝜃 & =±\sqrt{√1−cos^{2}⁡𝜃}\end{aligned}
+
 
 
 $$
@@ -144,7 +162,9 @@ Substituting $\cos\theta = \dfrac{2}{3}$ gives
 $$
 
 
+
 \begin{aligned}sin⁡𝜃 & =±\sqrt{√1−(\frac{2}{3})^{2}} \\ & =±\sqrt{√1−\frac{4}{9}} \\ & =±\sqrt{√\frac{5}{9}} \\ & =±\frac{\sqrt{√5}}{3}.\end{aligned}
+
 
 
 $$
@@ -168,7 +188,9 @@ Again, any point $(x,y)$ on the unit circle is related to the central angle $\th
 $$
 
 
+
 x = \cos\theta, \qquad y = \sin\theta.
+
 
 
 $$
@@ -178,7 +200,9 @@ We're given that $x=\dfrac{2\sqrt 6}{7}$ at the point $P.$ Therefore, we have
 $$
 
 
+
 \cos\theta = \dfrac{2\sqrt 6}{7}.
+
 
 
 $$
@@ -188,7 +212,9 @@ We can use the Pythagorean identity to find $\sin\theta\mathbin{:}$
 $$
 
 
+
 \begin{aligned}sin^{2}⁡𝜃+cos^{2}⁡𝜃 & =1 \\ sin^{2}⁡𝜃 & =1−cos^{2}⁡𝜃 \\ sin⁡𝜃 & =±\sqrt{√1−cos^{2}⁡𝜃}\end{aligned}
+
 
 
 $$
@@ -198,7 +224,9 @@ Substituting $\cos\theta = \dfrac{2\sqrt 6}{7}$ gives
 $$
 
 
+
 \begin{aligned}sin⁡𝜃 & =±\sqrt{1−(\frac{2\sqrt{√6}}{7})^{2}} \\ & =±\sqrt{√1−\frac{24}{49}} \\ & =±\sqrt{√\frac{25}{49}} \\ & =±\frac{5}{7}.\end{aligned}
+
 
 
 $$
@@ -210,7 +238,9 @@ Finally, knowing that $\csc\theta = \dfrac{1}{\sin\theta},$ we have
 $$
 
 
+
 \csc\theta = \dfrac{1}{\left(\dfrac{5}{7}\right)} = \dfrac{7}{5}.
+
 
 
 $$
@@ -230,7 +260,9 @@ We're given that $x=\dfrac{4}{5}$ at the point $P.$ Therefore, we have
 $$
 
 
+
 \cos\theta = \dfrac{4}{5}.
+
 
 
 $$
@@ -240,7 +272,9 @@ We can use the Pythagorean identity to find $\sin\theta\mathbin{:}$
 $$
 
 
+
 \begin{aligned}sin^{2}⁡𝜃+cos^{2}⁡𝜃 & =1 \\ sin^{2}⁡𝜃 & =1−cos^{2}⁡𝜃 \\ sin⁡𝜃 & =±\sqrt{√1−cos^{2}⁡𝜃}\end{aligned}
+
 
 
 $$
@@ -250,7 +284,9 @@ Substituting $\cos\theta = \dfrac{4}{5}$ gives
 $$
 
 
+
 \begin{aligned}sin⁡𝜃 & =±\sqrt{√1−(\frac{4}{5})^{2}} \\ & =±\sqrt{√1−\frac{16}{25}} \\ & =±\sqrt{√\frac{9}{25}} \\ & =±\frac{3}{5}.\end{aligned}
+
 
 
 $$
@@ -262,7 +298,9 @@ Using the fact that
 $$
 
 
+
 \tan\theta = \dfrac{\sin\theta}{\cos\theta},
+
 
 
 $$
@@ -272,7 +310,9 @@ we finally get
 $$
 
 
+
 \tan\theta = \dfrac{\left(\dfrac{3}{5}\right)}{\left(\dfrac{4}{5}\right)} = \dfrac {3}{4}.
+
 
 
 $$

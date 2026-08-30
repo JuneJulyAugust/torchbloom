@@ -21,7 +21,9 @@ How can we find *all* the solutions to the trigonometric equation
 $$
 
 
+
 \sin{x} = \dfrac{1}{2}?
+
 
 
 $$
@@ -39,7 +41,9 @@ In our example, we find the principal value as follows:
 $$
 
 
+
 x = \arcsin \left(\dfrac{1}{2}\right)= \dfrac{\pi}{6}
+
 
 
 $$
@@ -53,7 +57,9 @@ Since the second solution $\color{blue}x_2$ lies in the $2$nd quadrant, we can f
 $$
 
 
+
 \begin{aligned}𝑥_{2} & =𝜋−𝜃_{𝑅} \\ & =𝜋−\frac{𝜋}{6} \\ & =\frac{5𝜋}{6}\end{aligned}
+
 
 
 $$
@@ -63,7 +69,9 @@ So, the solutions for $x \in [0, 2\pi)$ are ${\color{red}x_1}={\color{red}\dfrac
 $$
 
 
+
 x={\color{red}\dfrac{\pi}{6}}+2n\pi, \quad x={\color{blue}\dfrac{5\pi}{6}}+2n\pi .
+
 
 
 $$
@@ -81,7 +89,9 @@ First, we rearrange the equation and isolate $\cos x \mathbin{:}$
 $$
 
 
+
 \begin{aligned}2cos⁡𝑥+\sqrt{√2} & =0 \\ 2cos⁡𝑥 & =−\sqrt{√2} \\ cos⁡𝑥 & =−\frac{\sqrt{√2}}{2}\end{aligned}
+
 
 
 $$
@@ -91,7 +101,9 @@ Next, we find the principal value:
 $$
 
 
+
 x_1 = \arccos\left( -\dfrac{\sqrt{2}}{2} \right)= 135^\circ
+
 
 
 $$
@@ -105,7 +117,9 @@ Since the second solution $x_2$ lies in the $3$rd quadrant, we can find it using
 $$
 
 
+
 \begin{aligned}𝑥_{2} & =180^{∘}+𝜃_{𝑅} \\ & =180^{∘}+45^{∘} \\ & =225^{∘}\end{aligned}
+
 
 
 $$
@@ -115,7 +129,9 @@ So, the solutions for $x\in[0,360)$ are $x=135^\circ, 225^\circ.$ Therefore, the
 $$
 
 
+
 x = 135^\circ+n\cdot 360^\circ, \quad x=225^\circ+n\cdot 360^\circ.
+
 
 
 $$
@@ -133,7 +149,9 @@ First, we rearrange the equation and isolate $\csc x \mathbin{:}$
 $$
 
 
+
 \begin{aligned}3csc⁡𝑥+2\sqrt{√3} & =0 \\ 3csc⁡𝑥 & =−2\sqrt{√3} \\ csc⁡𝑥 & =−\frac{2\sqrt{√3}}{3}\end{aligned}
+
 
 
 $$
@@ -143,7 +161,9 @@ Recall that $\csc{x}=\dfrac{1}{\sin{x}}.$ Therefore, the given equation is equiv
 $$
 
 
+
 \sin{x} =-\dfrac{3}{2\sqrt{3}}=-\dfrac{\sqrt{3}}{2}.
+
 
 
 $$
@@ -153,7 +173,9 @@ Now, we find the principal value:
 $$
 
 
+
 \begin{aligned}𝑥_{1}=arcsin⁡(−\frac{\sqrt{√3}}{2})=\frac{5𝜋}{3}\end{aligned}
+
 
 
 $$
@@ -167,7 +189,9 @@ Since the second solution $x_2$ lies in the $3$rd quadrant, we can find it using
 $$
 
 
+
 \begin{aligned}𝑥_{2} & =𝜋+𝜃_{𝑅} \\ & =𝜋+\frac{𝜋}{3} \\ & =\frac{4𝜋}{3}\end{aligned}
+
 
 
 $$
@@ -177,7 +201,9 @@ So, the solutions for $x\in[0,2\pi)$ are $x=\dfrac{4\pi}{3}, \dfrac{5\pi}{3}.$ T
 $$
 
 
+
 x = \dfrac{4\pi}{3}+2n\pi, \quad x=\dfrac{5\pi}{3}+2n\pi,
+
 
 
 $$
@@ -201,7 +227,9 @@ For instance, let's find the general solution of the equation
 $$
 
 
+
 \tan x = \sqrt{3}.
+
 
 
 $$
@@ -211,7 +239,9 @@ First, we find the principal value:
 $$
 
 
+
 {\color{blue}x_1} = \arctan\left({\sqrt{3}}\right)= {\color{blue}60^\circ}
+
 
 
 $$
@@ -221,7 +251,9 @@ The tangent function has a period of $180^\circ.$ Therefore, the general solutio
 $$
 
 
+
 x = {\color{blue}60^\circ} +n\cdot 180^\circ,
+
 
 
 $$
@@ -241,7 +273,9 @@ Recall that $\cot{x}=\dfrac{1}{\tan{x}}.$ Therefore, the given equation is equiv
 $$
 
 
+
 \begin{aligned}tan⁡𝑥 & =1.\end{aligned}
+
 
 
 $$
@@ -251,7 +285,9 @@ Now, we find the principal value:
 $$
 
 
+
 x_1 = \arctan \left( 1 \right)= \dfrac{\pi}{4}
+
 
 
 $$
@@ -261,7 +297,9 @@ The tangent function has a period of $\pi.$ Therefore, the general solution for 
 $$
 
 
+
 x=\dfrac{\pi}{4}+n\pi ,
+
 
 
 $$
@@ -285,7 +323,9 @@ Recall that $\sec{x} = \dfrac{1}{\cos{x}}.$ Therefore, the given equation is equ
 $$
 
 
+
 \begin{aligned}\frac{1}{cos⁡𝑥} & =\sqrt{√2} \\ cos⁡𝑥 & =\frac{1}{\sqrt{√2}} \\ & =\frac{\sqrt{√2}}{2}.\end{aligned}
+
 
 
 $$
@@ -295,7 +335,9 @@ First, we find the principal value:
 $$
 
 
+
 x_1 = \arccos \left(\dfrac{\sqrt{2}}{2} \right)= 45^\circ
+
 
 
 $$
@@ -309,7 +351,9 @@ Since the second solution $x_2$ lies in the $4$th quadrant, we can find it using
 $$
 
 
+
 \begin{aligned}𝑥_{2} & =360^{∘}−𝜃_{𝑅} \\ & =360^{∘}−45^{∘} \\ & =315^{∘}\end{aligned}
+
 
 
 $$
@@ -319,7 +363,9 @@ So, the solutions for $x\in\left[0^\circ,360^\circ\right)$ are $x=45^\circ, 315^
 $$
 
 
+
 x = 45^\circ+n\cdot 360^\circ , \quad x=315^\circ+n\cdot 360^\circ ,
+
 
 
 $$

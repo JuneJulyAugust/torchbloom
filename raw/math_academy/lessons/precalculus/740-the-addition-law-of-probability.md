@@ -20,7 +20,9 @@ We can state the addition law mathematically as follows:
 $$
 
 
+
 P(A\cup B)= P(A)+P(B)-P(A\cap B)
+
 
 
 $$
@@ -42,7 +44,9 @@ Suppose we have the events $A$ and $B$ with the following probabilities:
 $$
 
 
+
 P(A)=0.5,\qquad P(B)=0.6,\qquad P(A\cap B)=0.3
+
 
 
 $$
@@ -58,7 +62,9 @@ The addition law for probability states that
 $$
 
 
+
 P(A\cup B) = P(A) + P(B) - P(A\cap B).
+
 
 
 $$
@@ -68,7 +74,9 @@ So, to calculate $P(A\cup B),$ we apply the addition law:
 $$
 
 
+
 \begin{aligned}𝑃(𝐴∪𝐵) & =𝑃(𝐴)+𝑃(𝐵)−𝑃(𝐴∩𝐵) \\ & =0.5+0.6−0.3 \\ & =0.8\end{aligned}
+
 
 
 $$
@@ -90,7 +98,9 @@ We apply the addition law:
 $$
 
 
+
 \begin{aligned}𝑃(𝐴∪𝐵) & =𝑃(𝐴)+𝑃(𝐵)−𝑃(𝐴∩𝐵) \\ 0.8 & =0.5+0.6−𝑃(𝐴∩𝐵) \\ 𝑃(𝐴∩𝐵) & =0.5+0.6−0.8 \\ 𝑃(𝐴∩𝐵) & =0.3\end{aligned}
+
 
 
 $$
@@ -112,7 +122,9 @@ Let us call $R$ the event "We get a prime number", and $E$ the event "We get an 
 $$
 
 
+
 \begin{aligned}𝑃(𝑅∪𝐸) & =𝑃(𝑅)+𝑃(𝐸)−𝑃(𝑅∩𝐸)\end{aligned}
+
 
 
 $$
@@ -130,7 +142,9 @@ Therefore, applying the addition law, we have
 $$
 
 
+
 \begin{aligned}𝑃(𝑅∪𝐸) & =𝑃(𝑅)+𝑃(𝐸)−𝑃(𝑅∩𝐸) \\ & =\frac{8}{20}+\frac{10}{20}−\frac{1}{20} \\ & =\frac{17}{20}.\end{aligned}
+
 
 
 $$
@@ -152,7 +166,9 @@ The required probability is $P(O \cup B),$ which we can find using the addition 
 $$
 
 
+
 P(O \cup B) = P(O) + P(B) - P(O \cap B)
+
 
 
 $$
@@ -168,7 +184,9 @@ Moreover, since $O$ and $B$ are independent, we have
 $$
 
 
+
 \begin{aligned}𝑃(𝑂∩𝐵) & =𝑃(𝑂)⋅𝑃(𝐵) \\ & =\frac{4}{13}⋅\frac{1}{2} \\ & =\frac{2}{13}.\end{aligned}
+
 
 
 $$
@@ -178,7 +196,9 @@ Finally, substituting all of the known information into the addition law, we get
 $$
 
 
+
 \begin{aligned}𝑃(𝑂∪𝐵) & =𝑃(𝑂)+𝑃(𝐵)−𝑃(𝑂∩𝐵) \\ & =\frac{4}{13}+\frac{1}{2}−\frac{2}{13} \\ & =\frac{17}{26}.\end{aligned}
+
 
 
 $$

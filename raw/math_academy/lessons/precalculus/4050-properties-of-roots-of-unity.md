@@ -18,7 +18,9 @@ Recall that the $n$th roots of unity are the solutions to the equation
 $$
 
 
+
 z^n = 1.
+
 
 
 $$
@@ -28,7 +30,9 @@ In general, the $n$th roots of unity can be expressed as
 $$
 
 
+
 z_k = e^{2\pi k\textrm i /n }, \qquad k=0,1,2,\ldots,n-1.
+
 
 
 $$
@@ -50,7 +54,9 @@ The $12$th root of unity $e^{2\pi \text{i}/3}$ can be written as
 $$
 
 
+
 e^{2\pi \text{i}/3} = z^p,
+
 
 
 $$
@@ -64,7 +70,9 @@ Recall that the $12$th roots of unity can be written in the form
 $$
 
 
+
 e^{2 k\pi \text{i} / 12}
+
 
 
 $$
@@ -76,7 +84,9 @@ We obtain the ** $12$th root of unity by substituting $k=1{:}$
 $$
 
 
+
 z= e^{2 \cdot 1 \cdot \pi \text{i} / 12} = {\color{blue}e^{\pi \text{i} / 6}}
+
 
 
 $$
@@ -86,7 +96,9 @@ We can write the given root of unity as a power of the principal root as follows
 $$
 
 
+
 \begin{aligned}𝑒^{2𝜋i/3} & =𝑒^{(2⋅2𝜋)i/(2⋅3)} \\ & =𝑒^{4𝜋i/6} \\ & =𝑒^{4⋅𝜋i/6} \\ & =(𝑒^{𝜋i/6})^{4}\end{aligned}
+
 
 
 $$
@@ -146,7 +158,9 @@ So, the sum of all $n$ roots can be calculated as the sum of the following geome
 $$
 
 
+
 \begin{aligned}1+𝑧+𝑧^{2}+⋯+𝑧^{𝑛−1} & =\frac{1−𝑧^{𝑛}}{1−𝑧} \\ & =\frac{1−1}{1−𝑧} \\ & =0.\end{aligned}
+
 
 
 $$
@@ -160,7 +174,9 @@ As an example, the principal fourth root of unity is
 $$
 
 
+
 z=e^{2\pi\text{i}/4}=e^{\pi\text{i}/2}.
+
 
 
 $$
@@ -172,7 +188,9 @@ Therefore, the product of all four roots of unity is
 $$
 
 
+
 \begin{aligned}𝑧^{0}⋅𝑧^{1}⋅𝑧^{2}⋅𝑧^{3} & =𝑧^{0\,+\,1\,+2\,+3} \\ & =𝑧^{6} \\ & =𝑧^{4}⋅𝑧^{2} \\ & =1⋅(𝑒^{𝜋i/2})^{2} \\ & =𝑒^{𝜋i} \\ & =−1.\end{aligned}
+
 
 
 $$
@@ -192,7 +210,9 @@ Recall that the principal cube root of unity is
 $$
 
 
+
 z=e^{2\pi\text{i}/3},
+
 
 
 $$
@@ -204,7 +224,9 @@ Therefore, the product of all three roots is
 $$
 
 
+
 \begin{aligned}𝑧^{0}⋅𝑧^{1}⋅𝑧^{2} & =𝑧^{0\,+\,1\,+\,2} \\ & =𝑧^{3} \\ & =1.\end{aligned}
+
 
 
 $$

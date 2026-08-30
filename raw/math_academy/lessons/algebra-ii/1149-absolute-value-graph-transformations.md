@@ -52,7 +52,9 @@ First, notice that since $\left|-x\right| = |x|,$ we have that
 $$
 
 
+
 f(\left|x\right|)=f(\left|-x\right|).
+
 
 
 $$

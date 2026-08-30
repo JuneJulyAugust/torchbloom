@@ -39,7 +39,9 @@ It is also worth noting that $f(x) =\sqrt[3]{x}$ is an invertible function, and 
 $$
 
 
+
 f^{-1}(x) = x^3, \qquad x\in (-\infty,\infty).
+
 
 
 $$

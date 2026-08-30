@@ -16,7 +16,9 @@ Suppose we want to find all of the solutions to
 $$
 
 
+
 \cos\left(x+\dfrac{\pi}{3}\right) = \dfrac{1}{2}, \qquad -\pi \leq x < \pi.
+
 
 
 $$
@@ -28,7 +30,9 @@ We know that the general solution to the elementary equation $\cos{X} = \dfrac{1
 $$
 
 
+
 \begin{aligned}𝑋 & =\frac{𝜋}{3}+2𝑛𝜋, & \, & \, & 𝑋 & =\frac{5𝜋}{3}+2𝑛𝜋,\end{aligned}
+
 
 
 $$
@@ -40,7 +44,9 @@ To find the general solution of the transformed cosine equation, we replace $X$ 
 $$
 
 
+
 x+\dfrac{\pi}{3} = \dfrac{\pi}{3} + 2n\pi, \qquad\qquad x+\dfrac{\pi}{3} = \dfrac{5\pi}{3}+ 2n\pi.
+
 
 
 $$
@@ -50,7 +56,9 @@ We now solve the above two equations for $x,$ as follows:
 $$
 
 
+
 \begin{aligned}𝑥 & =2𝑛𝜋 & \, & \, & 𝑥 & =\frac{4𝜋}{3}+2𝑛𝜋 \\ & & \, & \, & 𝑥 & =\frac{4𝜋}{3}+\frac{6𝑛𝜋}{3} \\ & & \, & \, & 𝑥 & =\frac{2𝜋(2+3𝑛)}{3}\end{aligned}
+
 
 
 $$
@@ -66,7 +74,9 @@ All other values of $n$ generate solutions outside the domain $-\pi \leq x < \pi
 $$
 
 
+
 x_1 = -\dfrac{2\pi}{3},\qquad x_2 = 0.
+
 
 
 $$
@@ -86,7 +96,9 @@ The general solution to our equation is given by
 $$
 
 
+
 \begin{aligned}2𝑥 & =\frac{𝜋}{4}+2𝑛𝜋, & \, & \, & 2𝑥 & =\frac{7𝜋}{4}+2𝑛𝜋.\end{aligned}
+
 
 
 $$
@@ -96,7 +108,9 @@ Solving our two equations for $x$ gives the following:
 $$
 
 
+
 \begin{aligned}𝑥 & =\frac{𝜋}{8}+𝑛𝜋 & \, & \, & 𝑥 & =\frac{7𝜋}{8}+𝑛𝜋 \\ 𝑥 & =\frac{𝜋}{8}+\frac{8𝑛𝜋}{8} & \, & \, & 𝑥 & =\frac{7𝜋}{8}+\frac{8𝑛𝜋}{8} \\ 𝑥 & =\frac{(8𝑛+1)𝜋}{8} & \, & \, & 𝑥 & =\frac{(8𝑛+7)𝜋}{8}\end{aligned}
+
 
 
 $$
@@ -112,7 +126,9 @@ All other values of $n$ generate solutions outside the domain $0 \leq x \lt 2\pi
 $$
 
 
+
 x = \dfrac{\pi}{8}, \, \dfrac{7\pi}{8}, \, \dfrac{9\pi}{8}, \, \dfrac{15\pi}{8}.
+
 
 
 $$
@@ -122,7 +138,9 @@ Finally,
 $$
 
 
+
 x_2\cdot x_3 = \dfrac{7\pi}{8} \cdot \dfrac{9\pi}{8} = \dfrac{63\pi^2}{64}.
+
 
 
 $$
@@ -140,7 +158,9 @@ First, we rearrange the equation, as follows:
 $$
 
 
+
 \begin{aligned}−2\sqrt{√3}cos⁡(2𝑥+60^{∘})−3 & =0 \\ −2\sqrt{√3}cos⁡(2𝑥+60^{∘}) & =3 \\ cos⁡(2𝑥+60^{∘}) & =−\frac{3}{2\sqrt{√3}} \\ cos⁡(2𝑥+60^{∘}) & =−\frac{\sqrt{√3}}{2}\end{aligned}
+
 
 
 $$
@@ -152,7 +172,9 @@ The general solution to our equation is
 $$
 
 
+
 \begin{aligned}2𝑥+60^{∘} & =150^{∘}+𝑛⋅360^{∘}, & \, & \, & 2𝑥+60^{∘} & =210^{∘}+𝑛⋅360^{∘}.\end{aligned}
+
 
 
 $$
@@ -162,7 +184,9 @@ Solving the two equations above for $x$ gives the following:
 $$
 
 
+
 \begin{aligned}2𝑥 & =150^{∘}−60^{∘}+𝑛⋅360^{∘} & \, & \, & 2𝑥 & =210^{∘}−60^{∘}+𝑛⋅360^{∘} \\ 2𝑥 & =90^{∘}+𝑛⋅360^{∘} & \, & \, & 2𝑥 & =150^{∘}+𝑛⋅360^{∘} \\ 𝑥 & =45^{∘}+𝑛⋅180^{∘} & \, & \, & 𝑥 & =75^{∘}+𝑛⋅180^{∘}\end{aligned}
+
 
 
 $$
@@ -178,7 +202,9 @@ All other values of $n$ generate solutions outside the domain $0^\circ \leq x \l
 $$
 
 
+
 x_1 = 45^\circ,\quad x_2 = 75^\circ,\quad x_3 = 225^\circ,\quad x_4= 255^\circ .
+
 
 
 $$
@@ -198,7 +224,9 @@ The general solution to our equation is
 $$
 
 
+
 \begin{aligned}2𝑥+\frac{𝜋}{4} & =−\frac{2𝜋}{3}+2𝑛𝜋, & \, & \, & 2𝑥+\frac{𝜋}{4} & =\frac{2𝜋}{3}+2𝑛𝜋.\end{aligned}
+
 
 
 $$
@@ -208,7 +236,9 @@ Solving the two equations above for $x$ gives the following:
 $$
 
 
+
 \begin{aligned}2𝑥 & =−\frac{11𝜋}{12}+2𝑛𝜋 & \, & \, & 2𝑥 & =\frac{5𝜋}{12}+2𝑛𝜋 \\ 𝑥 & =−\frac{11𝜋}{24}+𝑛𝜋 & \, & \, & 𝑥 & =\frac{5𝜋}{24}+𝑛𝜋 \\ 𝑥 & =\frac{(24𝑛−11)𝜋}{24} & \, & \, & 𝑥 & =\frac{(24𝑛+5)𝜋}{24}\end{aligned}
+
 
 
 $$
@@ -226,7 +256,9 @@ All other values of $n$ generate solutions outside the domain $-2\pi < x \leq 0.
 $$
 
 
+
 x_1 = -\dfrac{43\pi}{24}, \quad x_2=-\dfrac{35\pi}{24}, \quad x_3 = -\dfrac{19\pi}{24}, \quad x_4 = -\dfrac{11\pi}{24}.
+
 
 
 $$

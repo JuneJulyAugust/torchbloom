@@ -39,7 +39,9 @@ To demonstrate, let's find the end behavior as $x\to\infty$ of the rational func
 $$
 
 
+
 f(x) = \dfrac{4x^2- x}{2x^3+3}.
+
 
 
 $$
@@ -51,7 +53,9 @@ Dividing each term by $x^3$ and simplifying, we get the following:
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =\frac{4𝑥^{2}−𝑥}{2𝑥^{3}+3} \\ & =\frac{(\frac{4𝑥^{2}}{𝑥^{3}}−\frac{𝑥}{𝑥^{3}})}{𝑥^{3}} \\ & =\frac{(\frac{4}{𝑥}−\frac{1}{𝑥^{2}})}{𝑥}\end{aligned}
+
 
 
 $$
@@ -61,7 +65,9 @@ We now consider the end behavior of each term separately. As $x$ approaches $\in
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =\frac{(\frac{4}{𝑥}−\frac{1}{𝑥^{2}})}{𝑥} \\ & ⟶\frac{0−0}{2+0} \\ & =\frac{0}{2} \\ & =0.\end{aligned}
+
 
 
 $$
@@ -85,7 +91,9 @@ Now, dividing each term by $x^4,$ we get
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =\frac{𝑥^{2}+2𝑥}{7𝑥^{4}−1} \\ & =\frac{(\frac{𝑥^{2}}{𝑥^{4}}+\frac{2𝑥}{𝑥^{4}})}{𝑥^{4}} \\ & =\frac{(\frac{1}{𝑥^{2}}+\frac{2}{𝑥^{3}})}{𝑥^{2}}\end{aligned}
+
 
 
 $$
@@ -95,7 +103,9 @@ As $x$ approaches $-\infty,$ the terms $\dfrac{1}{x^2}, \dfrac{2}{x^3},$ and $\d
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =\frac{(\frac{1}{𝑥^{2}}+\frac{2}{𝑥^{3}})}{𝑥^{2}} \\ & ⟶\frac{0+0}{7−0} \\ & =\frac{0}{7} \\ & =0.\end{aligned}
+
 
 
 $$
@@ -119,7 +129,9 @@ Now, dividing each term by $x^2,$ we get
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =\frac{𝑥^{2}−5𝑥}{2𝑥^{2}−1} \\ & =\frac{(\frac{𝑥^{2}}{𝑥^{2}}−\frac{5𝑥}{𝑥^{2}})}{𝑥^{2}} \\ & =\frac{(1−\frac{5}{𝑥})}{𝑥}.\end{aligned}
+
 
 
 $$
@@ -129,7 +141,9 @@ As $x$ approaches $\infty,$ the terms $\dfrac{5}{x}$ and $\dfrac{1}{x^2}$ become
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =\frac{(1−\frac{5}{𝑥})}{𝑥} \\ & ⟶\frac{1−0}{2−0} \\ & =\frac{1}{2}.\end{aligned}
+
 
 
 $$
@@ -153,7 +167,9 @@ Now, dividing each term by $x^2,$ we get
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =\frac{2𝑥^{3}}{𝑥^{2}−1} \\ & =\frac{(\frac{2𝑥^{3}}{𝑥^{2}})}{𝑥^{2}} \\ & =\frac{2𝑥}{(1−\frac{1}{𝑥^{2}})}.\end{aligned}
+
 
 
 $$
@@ -163,7 +179,9 @@ As $x$ approaches $\infty,$ the term $\dfrac{1}{x^2}$ becomes very small, wherea
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =\frac{2𝑥}{1−\frac{1}{𝑥^{2}}} \\ & ≈\frac{2𝑥}{1−0} \\ & =2𝑥\end{aligned}
+
 
 
 $$

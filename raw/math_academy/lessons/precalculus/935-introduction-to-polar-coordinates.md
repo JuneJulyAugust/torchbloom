@@ -37,7 +37,9 @@ First, let's find $r,$ which is the distance from $P$ to the origin. Notice that
 $$
 
 
+
 r = \sqrt{x^2 + y^2}.
+
 
 
 $$
@@ -47,7 +49,9 @@ Furthermore, the polar angle $\theta$ is an angle in this right triangle. The op
 $$
 
 
+
 \theta = \arctan\left(\dfrac y x\right).
+
 
 
 $$
@@ -57,7 +61,9 @@ For the point $P(3,4),$ for example, we have that the distance from the origin i
 $$
 
 
+
 \begin{aligned}𝑟 & =\sqrt{√3^{2}+4^{2}} \\ & =\sqrt{√9+16} \\ & =5,\end{aligned}
+
 
 
 $$
@@ -67,7 +73,9 @@ and the polar angle is
 $$
 
 
+
 \begin{aligned}𝜃 & =arctan⁡(\frac{4}{3}) \\ & ≈0.927\end{aligned}
+
 
 
 $$
@@ -97,7 +105,9 @@ First, we determine $r\mathbin{:}$
 $$
 
 
+
 \begin{aligned} r &= \sqrt{x^2 + y^2}\\[3pt] &= \sqrt{1^2 + (-\sqrt{3})^2}\\[3pt] &=\sqrt{1+3}\\[3pt] &= 2 \end{aligned}
+
 
 
 $$
@@ -107,7 +117,9 @@ We then compute the reference angle $\theta_R\mathbin{:}$
 $$
 
 
+
 \begin{aligned} \theta_R &= \left|\arctan\left(\dfrac y x\right)\right|\\&= \left|\arctan\left(\dfrac{-\sqrt{3}}{1}\right)\right|\\&= \left|\arctan\left(-\sqrt 3\right)\right|\\&= \left|-\dfrac{\pi}{3}\right|\\&= \dfrac{\pi}{3} \end{aligned}
+
 
 
 $$
@@ -117,7 +129,9 @@ Since the point lies in the fourth quadrant, we subtract the reference angle fro
 $$
 
 
+
 \begin{aligned}𝜃 & =2𝜋−𝜃_{𝑅} \\ & =2𝜋−\frac{𝜋}{3} \\ & =\frac{5𝜋}{3}.\end{aligned}
+
 
 
 $$
@@ -137,7 +151,9 @@ First, we determine $r\mathbin{:}$
 $$
 
 
+
 \begin{aligned} r &= \sqrt{x^2 + y^2}\\&= \sqrt{(-5)^2 + (-5)^2}\\&=\sqrt{50}\\&= 5\sqrt{2}. \end{aligned}
+
 
 
 $$
@@ -147,7 +163,9 @@ For the reference angle, we get
 $$
 
 
+
 \begin{aligned} \theta_R &= \left|\arctan\left(\dfrac y x\right)\right|\\\[5pt] &= \left|\arctan\left(\dfrac {-5}{-5}\right)\right|\\\[5pt] &= \left|\arctan(1)\right|\\\[5pt] &= \left|\dfrac{\pi}{4}\right|\\\[5pt] &=\dfrac\pi 4. \end{aligned}
+
 
 
 $$
@@ -157,7 +175,9 @@ Since the point lies in the third quadrant, we add the reference angle to $\pi,$
 $$
 
 
+
 \begin{aligned}𝜃 & =𝜋+𝜃_{𝑅} \\ & =𝜋+\frac{𝜋}{4} \\ & =\frac{5𝜋}{4}.\end{aligned}
+
 
 
 $$
@@ -179,7 +199,9 @@ First, we determine $r\mathbin{:}$
 $$
 
 
+
 \begin{aligned} r &= \sqrt{x^2 + y^2}\\[3pt] &= \sqrt{(-6)^2 + 8^2}\\[3pt] &=\sqrt{100}\\[3pt] &= 10 \end{aligned}
+
 
 
 $$
@@ -189,7 +211,9 @@ For the reference angle, we get
 $$
 
 
+
 \begin{aligned} \theta_R &= \left|\arctan\left(\dfrac y x\right)\right|\\[3pt] &= \left|\arctan\left(-\dfrac 8{6}\right)\right|\\[3pt] &\approx 0.927\,29 . \end{aligned}
+
 
 
 $$
@@ -199,7 +223,9 @@ Since the point $P$ lies in the second quadrant, we subtract the reference angle
 $$
 
 
+
 \begin{aligned}𝜃 & =𝜋−𝜃_{𝑅} \\ & =𝜋−0.927\,29 \\ & ≈2.214\,29 \\ & ≈2.214\end{aligned}
+
 
 
 $$
@@ -235,7 +261,9 @@ First, we determine $r\mathbin{:}$
 $$
 
 
+
 \begin{aligned} r &= \sqrt{0^2 + (-7)^2}\\&= \sqrt{7^2}\\&= 7 \end{aligned}
+
 
 
 $$

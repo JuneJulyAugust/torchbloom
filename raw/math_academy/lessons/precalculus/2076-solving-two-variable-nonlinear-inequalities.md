@@ -17,7 +17,9 @@ Consider the function $f(x,y),$ defined as
 $$
 
 
+
 f(x,y) = 2x^2y.
+
 
 
 $$
@@ -29,7 +31,9 @@ To answer this question, we first solve $f(x,y) = 0.$ This gives
 $$
 
 
+
 \begin{aligned}2𝑥^{2}⋅𝑦=0\, & ⟹\,2𝑥^{2}=0\,or\,𝑦=0.\end{aligned}
+
 
 
 $$

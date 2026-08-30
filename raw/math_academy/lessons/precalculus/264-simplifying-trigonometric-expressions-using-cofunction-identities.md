@@ -33,7 +33,9 @@ First, notice that the cofunction of $\cos x$ (****sine) is $\sin x$ (sine). The
 $$
 
 
+
 \cos x = \sin \left( \dfrac{\pi}{2} - x \right).
+
 
 
 $$
@@ -43,7 +45,9 @@ Substituting $x=\dfrac{\pi}{5}$ into the above, we get
 $$
 
 
+
 \begin{aligned}cos(\frac{𝜋}{5}) & =sin(\frac{𝜋}{2}−\frac{𝜋}{5}) \\ & =sin⁡(\frac{3𝜋}{10}).\end{aligned}
+
 
 
 $$
@@ -75,7 +79,9 @@ First, we recall the cofunction identity for sine and cosine:
 $$
 
 
+
 \cos \left( \dfrac{\pi}{2} - y \right) = \sin y
+
 
 
 $$
@@ -85,7 +91,9 @@ Substituting this into our expression, we get
 $$
 
 
+
 \begin{aligned}1−cos(\frac{𝜋}{2}−𝑦)sin⁡𝑦 & =1−sin\,𝑦\,sin⁡𝑦 \\ & =1−sin^{2}⁡𝑦 \\ & =cos^{2}⁡𝑦.\end{aligned}
+
 
 
 $$
@@ -103,7 +111,9 @@ First, we recall the cofunction identity for tangent and contangent:
 $$
 
 
+
 \tan\left(90^\circ - x \right) = \cot x
+
 
 
 $$
@@ -113,7 +123,9 @@ We also recall the cofunction identity for secant and cosecant:
 $$
 
 
+
 \sec( 90^\circ - x ) = \csc x
+
 
 
 $$
@@ -123,7 +135,9 @@ Substituting these identities into our expression and using the fact that
 $$
 
 
+
 \cot x = \dfrac{\cos x}{\sin x} \qquad \text{and} \qquad \csc x = \dfrac{1}{\sin x},
+
 
 
 $$
@@ -133,7 +147,9 @@ we get the following:
 $$
 
 
+
 \begin{aligned}tan(90^{∘}−𝑥)cos⁡𝑥−sec(90^{∘}−𝑥) & =cot\,𝑥cos⁡𝑥−csc\,𝑥 \\ & =\frac{cos\,𝑥}{sin\,𝑥}⋅cos⁡𝑥−\frac{1}{sin\,𝑥} \\ & =\frac{cos^{2}⁡𝑥−1}{sin⁡𝑥} \\ & =\frac{−sin^{2}⁡𝑥}{sin⁡𝑥} \\ & =\frac{−sin⁡𝑥sin⁡𝑥}{sin⁡𝑥} \\ & =−sin⁡𝑥\end{aligned}
+
 
 
 $$

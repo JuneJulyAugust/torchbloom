@@ -17,7 +17,9 @@ Consider the horizontal hyperbola whose equation is
 $$
 
 
+
 \dfrac{x^2}{10} - \dfrac{y^2}{25} = 1,
+
 
 
 $$
@@ -33,7 +35,9 @@ Recall that the equation of general horizontal hyperbola centered at the origin 
 $$
 
 
+
 \dfrac{x^2}{a^2} - \dfrac{y^2}{b^2} = 1.
+
 
 
 $$
@@ -43,7 +47,9 @@ The equations of the asymptotes of a general horizontal hyperbola are
 $$
 
 
+
 y = \pm \dfrac{b}{a}x.
+
 
 
 $$
@@ -53,7 +59,9 @@ From the equation of the hyperbola shown in the diagram above, we have that $a =
 $$
 
 
+
 \begin{aligned}𝑦=±\frac{5}{\sqrt{√10}}𝑥.\end{aligned}
+
 
 
 $$
@@ -63,7 +71,9 @@ Finally, if we rationalize the denominator in the above equation, we get
 $$
 
 
+
 y = \pm\dfrac{\sqrt{10}}{2}x.
+
 
 
 $$
@@ -81,7 +91,9 @@ The standard equation of a horizontal hyperbola centered at the origin is
 $$
 
 
+
 \frac{x^2}{a^2} - \frac{y^2}{b^2}=1.
+
 
 
 $$
@@ -91,7 +103,9 @@ For a horizontal hyperbola centered at the origin, the equations of the asymptot
 $$
 
 
+
 y=\pm \dfrac{b}{a}x.
+
 
 
 $$
@@ -101,7 +115,9 @@ In our case, we have
 $$
 
 
+
 a=\sqrt{36} = 6, \qquad b=\sqrt9 =3.
+
 
 
 $$
@@ -111,7 +127,9 @@ Therefore, the asymptotes of the hyperbola are
 $$
 
 
+
 \begin{aligned}𝑦 & =±\frac{3}{6}𝑥 \\ & =±\frac{1}{2}𝑥.\end{aligned}
+
 
 
 $$
@@ -123,7 +141,9 @@ For a general vertical hyperbola centered at the origin of the form
 $$
 
 
+
 \dfrac{y^2}{a^2} - \dfrac{x^2}{b^2} = 1,
+
 
 
 $$
@@ -133,7 +153,9 @@ the equations of the asymptotes are
 $$
 
 
+
 y = \pm \dfrac{a}{b}x.
+
 
 
 $$
@@ -143,7 +165,9 @@ $$
 $$
 
 
+
 y - k = \pm \dfrac{\textrm{constant associated with }y}{\textrm{constant associated with }x} (x - h)
+
 
 
 $$
@@ -161,7 +185,9 @@ The standard equation of a vertical hyperbola centered at the origin is
 $$
 
 
+
 \dfrac{y^2}{a^2} - \dfrac{x^2}{b^2} = 1.
+
 
 
 $$
@@ -171,7 +197,9 @@ For a vertical hyperbola centered at the origin, the equations of the asymptotes
 $$
 
 
+
 y=\pm \dfrac{a}{b} x.
+
 
 
 $$
@@ -181,7 +209,9 @@ In our case, we have
 $$
 
 
+
 a=\sqrt{9} = 3, \qquad b=\sqrt{16} = 4.
+
 
 
 $$
@@ -201,7 +231,9 @@ The standard equation of a horizontal hyperbola centered at the origin is
 $$
 
 
+
 \frac{x^2}{a^2} - \frac{y^2}{b^2}=1.
+
 
 
 $$
@@ -211,7 +243,9 @@ For a horizontal hyperbola centered at the origin, the equations of the asymptot
 $$
 
 
+
 y=\pm \dfrac{b}{a}x.
+
 
 
 $$
@@ -221,7 +255,9 @@ To rewrite the given equation in standard form, we divide both sides of the equa
 $$
 
 
+
 \begin{aligned}25𝑥^{2}−9𝑦^{2} & =225 \\ \frac{25𝑥^{2}}{225}−\frac{9𝑦^{2}}{225} & =\frac{225}{225} \\ \frac{𝑥^{2}}{9}−\frac{𝑦^{2}}{25} & =1\end{aligned}
+
 
 
 $$

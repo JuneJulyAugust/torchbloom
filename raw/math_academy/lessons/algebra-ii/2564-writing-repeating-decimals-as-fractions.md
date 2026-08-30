@@ -41,7 +41,9 @@ We proceed in four steps.
 $$
 
 
+
 x=5.7777 \ldots
+
 
 
 $$
@@ -53,7 +55,9 @@ Notice that the repeating digit is $7.$
 $$
 
 
+
 \begin{aligned}10×𝑥 & =10×5.7777… \\ 10𝑥 & =57.7777…\end{aligned}
+
 
 
 $$
@@ -63,7 +67,9 @@ $$
 $$
 
 
+
 \begin{aligned}10𝑥 & =57.7777… \\ −\,𝑥 & =5.7777… \\ 9𝑥 & =52\end{aligned}
+
 
 
 $$
@@ -73,7 +79,9 @@ $$
 $$
 
 
+
 \begin{aligned}9𝑥 & =52 \\ \frac{9𝑥}{9} & =\frac{52}{9} \\ 𝑥 & =\frac{52}{9}\end{aligned}
+
 
 
 $$
@@ -93,7 +101,9 @@ We're given the repeating decimal
 $$
 
 
+
 0.\overline{23} = 0.232323\ldots
+
 
 
 $$
@@ -105,7 +115,9 @@ To express this as a fraction, we proceed in four steps.
 $$
 
 
+
 x=0.2323 \ldots
+
 
 
 $$
@@ -117,7 +129,9 @@ Notice that the repeating digits are $2$ and $3.$
 $$
 
 
+
 \begin{aligned}100×𝑥 & =100×0.2323… \\ 100𝑥 & =23.2323…\end{aligned}
+
 
 
 $$
@@ -127,7 +141,9 @@ $$
 $$
 
 
+
 \begin{aligned}100𝑥 & =23.2323… \\ −\,𝑥 & =0.2323… \\ 99𝑥 & =23\end{aligned}
+
 
 
 $$
@@ -137,7 +153,9 @@ $$
 $$
 
 
+
 \begin{aligned}99𝑥 & =23 \\ \frac{99𝑥}{99} & =\frac{23}{99} \\ 𝑥 & =\frac{23}{99}.\end{aligned}
+
 
 
 $$
@@ -151,7 +169,9 @@ Consider the following decimal:
 $$
 
 
+
 0.67777\ldots
+
 
 
 $$
@@ -187,7 +207,9 @@ We're given the repeating decimal
 $$
 
 
+
 0.26\overline{8} = 0.268888\ldots
+
 
 
 $$
@@ -199,7 +221,9 @@ To express this as a fraction, we proceed in five steps.
 $$
 
 
+
 x=0.268888 \ldots
+
 
 
 $$
@@ -211,7 +235,9 @@ Notice that we have two non-repeating digits after the decimal point ($2$ and $6
 $$
 
 
+
 \begin{aligned}100𝑥 & =26.8888…\end{aligned}
+
 
 
 $$
@@ -221,7 +247,9 @@ $$
 $$
 
 
+
 \begin{aligned}10×100𝑥 & =10×26.8888… \\ 1000𝑥 & =268.8888…\end{aligned}
+
 
 
 $$
@@ -231,7 +259,9 @@ $$
 $$
 
 
+
 \begin{aligned}1000𝑥 & =268.8888… \\ −\,100𝑥 & =26.8888… \\ 900𝑥 & =242\end{aligned}
+
 
 
 $$
@@ -241,7 +271,9 @@ $$
 $$
 
 
+
 \begin{aligned}900𝑥 & =242 \\ \frac{900𝑥}{900} & =\frac{242}{900} \\ 𝑥 & =\frac{242}{900} \\ 𝑥 & =\frac{121}{450}\end{aligned}
+
 
 
 $$

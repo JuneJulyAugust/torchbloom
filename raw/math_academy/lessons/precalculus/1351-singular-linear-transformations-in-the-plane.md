@@ -21,7 +21,9 @@ What is the image of this triangle under the action of the transformation $\math
 $$
 
 
+
 [\begin{aligned}1 & 0 \\ 0 & 0\end{aligned}]
+
 
 
 $$
@@ -31,7 +33,9 @@ To find the image of the triangle under the action of $\mathbf T,$ we first crea
 $$
 
 
+
 [\begin{aligned}0 & 2 & 2 \\ 0 & 1 & 3\end{aligned}]
+
 
 
 $$
@@ -41,7 +45,9 @@ Now, we compute the image of $X$ under the action of $\mathbf T$ by calculating 
 $$
 
 
+
 \begin{aligned}𝑇𝑋 & =[\begin{aligned}1 & 0 \\ 0 & 0\end{aligned}][\begin{aligned}0 & 2 & 2 \\ 0 & 1 & 3\end{aligned}] \\ & =[\begin{aligned}0 & 2 & 2 \\ 0 & 0 & 0\end{aligned}]\end{aligned}
+
 
 
 $$
@@ -67,7 +73,9 @@ Consider the linear transformation $\mathbf T$ with matrix representation $T,$ g
 $$
 
 
+
 [\begin{aligned}2 & 0 \\ 0 & 0\end{aligned}]
+
 
 
 $$
@@ -87,7 +95,9 @@ To find the image of $S$ under the action of $\mathbf T$, we first create a matr
 $$
 
 
+
 [\begin{aligned}−1 & 0 & 1 \\ 2 & 1 & 1\end{aligned}]
+
 
 
 $$
@@ -97,7 +107,9 @@ Now, we compute the image of $X$ under $\mathbf T$ by calculating the matrix pro
 $$
 
 
+
 \begin{aligned}𝑇𝑋 & =[\begin{aligned}2 & 0 \\ 0 & 0\end{aligned}][\begin{aligned}−1 & 0 & 1 \\ 2 & 1 & 1\end{aligned}] \\ & =[\begin{aligned}−2 & 0 & 2 \\ 0 & 0 & 0\end{aligned}]\end{aligned}
+
 
 
 $$
@@ -115,7 +127,9 @@ Consider the linear transformation $\mathbf T$ with matrix representation $T,$ g
 $$
 
 
+
 [\begin{aligned}3 & −2 \\ −6 & 4\end{aligned}]
+
 
 
 $$
@@ -131,7 +145,9 @@ To find the image of the triangle under the action of $\mathbf T$, we first crea
 $$
 
 
+
 [\begin{aligned}1 & 1 & 0 \\ 0 & 1 & 1\end{aligned}]
+
 
 
 $$
@@ -141,7 +157,9 @@ Now, we compute the image of $X$ under the action of $\mathbf T$ by calculating 
 $$
 
 
+
 \begin{aligned}𝑇𝑋 & =[\begin{aligned}3 & −2 \\ −6 & 4\end{aligned}][\begin{aligned}1 & 1 & 0 \\ 0 & 1 & 1\end{aligned}] \\ & =[\begin{aligned}3 & 1 & −2 \\ −6 & −2 & 4\end{aligned}]\end{aligned}
+
 
 
 $$
@@ -185,7 +203,9 @@ Consider the linear transformation $\mathbf T$ with matrix representation $T,$ g
 $$
 
 
+
 [\begin{aligned}0 & 0 \\ 0 & 0\end{aligned}]
+
 
 
 $$

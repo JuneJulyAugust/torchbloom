@@ -16,7 +16,9 @@ Suppose that the continuous random variable $Z$ follows a standard normal distri
 $$
 
 
+
 Z\sim N(0,1)
+
 
 
 $$
@@ -40,7 +42,9 @@ Since these two areas are equal by symmetry, we have the following rule:
 $$
 
 
+
 P(Z \gt a) = P(Z \lt -a)
+
 
 
 $$
@@ -50,7 +54,9 @@ Similarly, we have that
 $$
 
 
+
 P(Z \gt -a) = P(Z \lt a) = \Phi(a),
+
 
 
 $$
@@ -76,7 +82,9 @@ For a random variable $Z \sim N(0,1)$ we have the following symmetry property fo
 $$
 
 
+
 P(Z \gt -a) = P(Z \lt a) = \Phi(a)
+
 
 
 $$
@@ -94,7 +102,9 @@ Therefore,
 $$
 
 
+
 P(Z > -0.76) = P(Z < 0.76) = \Phi(0.76) = 0.7764.
+
 
 
 $$
@@ -114,7 +124,9 @@ For a random variable $Z \sim N(0,1),$ we have the following symmetry property f
 $$
 
 
+
 P(Z \gt a) = P(Z \lt -a) = \Phi(-a)
+
 
 
 $$
@@ -132,7 +144,9 @@ Therefore,
 $$
 
 
+
 \begin{aligned}𝑃(𝑍<−1.54) & =𝑃(𝑍>1.54) \\ & =1−𝑃(𝑍<1.54) \\ & =1−Φ(1.54) \\ & =1−0.9382 \\ & =0.0618.\end{aligned}
+
 
 
 $$
@@ -154,7 +168,9 @@ By the definition of the cumulative distribution function $\Phi(z),$
 $$
 
 
+
 P(Z \leq z) = \Phi(z).
+
 
 
 $$
@@ -164,7 +180,9 @@ So, we express the required probability in terms of $\Phi(z)$:
 $$
 
 
+
 \begin{aligned}𝑃(−0.53<𝑍<0.53) & =𝑃(𝑍<0.53)−𝑃(𝑍≤−0.53) \\ & =𝑃(𝑍≤0.53)−𝑃(𝑍≤−0.53) \\ & =Φ(0.53)−Φ(−0.53)\end{aligned}
+
 
 
 $$
@@ -174,7 +192,9 @@ From the table, we know that
 $$
 
 
+
 \Phi(0.53) = 0.7019,
+
 
 
 $$
@@ -184,7 +204,9 @@ but we are not given $\Phi(-0.53).$ However, we can compute this using symmetry:
 $$
 
 
+
 \begin{aligned}Φ(−0.53) & =𝑃(𝑍≤−0.53) \\ & =𝑃(𝑍≥0.53) \\ & =1−𝑃(𝑍<0.53) \\ & =1−𝑃(𝑍≤0.53) \\ & =1−Φ(0.53) \\ & =1−0.7019 \\ & =0.2981\end{aligned}
+
 
 
 $$
@@ -194,7 +216,9 @@ Therefore, we have
 $$
 
 
+
 \begin{aligned}𝑃(−0.53<𝑍<0.53) & =Φ(0.53)−Φ(−0.53) \\ & =0.7019−0.2981 \\ & =0.4038.\end{aligned}
+
 
 
 $$

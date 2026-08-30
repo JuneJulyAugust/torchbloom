@@ -16,7 +16,9 @@ A **quadratic inequality** is an inequality that involves the square of a variab
 $$
 
 
+
 x^2 +x-2 \geq 0
+
 
 
 $$
@@ -30,7 +32,9 @@ For example, suppose we want to keep track of the sign of the expression $x+2.$ 
 $$
 
 
+
 \begin{aligned}𝑥+2 & =0 \\ 𝑥 & =−2\end{aligned}
+
 
 
 $$
@@ -64,7 +68,9 @@ Let's start down the first column. In the interval $(-\infty, -1),$ we choose a 
 $$
 
 
+
 \begin{aligned}𝑥−2 & =−2−2=−4<0, \\ 𝑥+1 & =−2+1=−1<0,\end{aligned}
+
 
 
 $$
@@ -76,7 +82,9 @@ To find the sign of $(x-2)(x+1)$ on this interval, we can just multiply the corr
 $$
 
 
+
 ({\color{red}-}) \times ({\color{red}-}) = ({\color{blue}+})
+
 
 
 $$
@@ -118,7 +126,9 @@ First, let's factor the left-hand side of the inequality:
 $$
 
 
+
 \begin{aligned}𝑥^{2}−3𝑥 & <0 \\ 𝑥(𝑥−3) & <0\end{aligned}
+
 
 
 $$
@@ -146,7 +156,9 @@ First, let's factor the left-hand side of the inequality:
 $$
 
 
+
 \begin{aligned}𝑥^{2}−3𝑥+2 & ≥0 \\ (𝑥−1)(𝑥−2) & ≥0\end{aligned}
+
 
 
 $$
@@ -174,7 +186,9 @@ First, we rewrite the given inequality so that the right-hand side equals zero. 
 $$
 
 
+
 \begin{aligned}𝑥^{2}+𝑥 & ≤6 \\ 𝑥^{2}+𝑥−6 & ≤0 \\ (𝑥−2)(𝑥+3) & ≤0\end{aligned}
+
 
 
 $$

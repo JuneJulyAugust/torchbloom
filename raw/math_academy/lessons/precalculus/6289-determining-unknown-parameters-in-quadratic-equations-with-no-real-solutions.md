@@ -16,7 +16,9 @@ Recall that for a quadratic equation
 $$
 
 
+
 ax^2 + bx + c = 0,
+
 
 
 $$
@@ -26,7 +28,9 @@ with $a\neq 0,$ the discriminant is defined as
 $$
 
 
+
 \mathcal{D} = b^2 - 4ac.
+
 
 
 $$
@@ -40,7 +44,9 @@ To demonstrate, let's consider the equation
 $$
 
 
+
 2x^2-5kx+10 = 0
+
 
 
 $$
@@ -52,7 +58,9 @@ To compute the discriminant, we first note that the coefficients are
 $$
 
 
+
 a=2,\quad b=-5k,\quad c=10.
+
 
 
 $$
@@ -62,7 +70,9 @@ So, we require
 $$
 
 
+
 \begin{aligned}D & <0 \\ 𝑏^{2}−4𝑎𝑐 & <0 \\ (−5𝑘)^{2}−4(2)(10) & <0 \\ 25𝑘^{2}−80 & <0\end{aligned}
+
 
 
 $$
@@ -72,7 +82,9 @@ This is a quadratic inequality in the variable $k.$ Solving this equation for $k
 $$
 
 
+
 \begin{aligned}25𝑘^{2}−80 & <0 \\ 25𝑘^{2} & <80 \\ 𝑘^{2} & <\frac{16}{5} \\ \sqrt{√𝑘^{2}} & <\sqrt{√\frac{16}{5}} \\ |𝑘| & <\frac{4}{\sqrt{√5}} \\ |𝑘| & <\frac{4\sqrt{√5}}{5}.\end{aligned}
+
 
 
 $$
@@ -82,7 +94,9 @@ Therefore, our solution is
 $$
 
 
+
 -\dfrac{4\sqrt{5}}{5} < k < \dfrac{4\sqrt{5}}{5}.
+
 
 
 $$
@@ -92,7 +106,9 @@ We can also express this solution using interval notation:
 $$
 
 
+
 k \in \left(-\dfrac{4\sqrt{5}}{5},\dfrac{4\sqrt{5}}{5}\right)
+
 
 
 $$
@@ -116,7 +132,9 @@ So, we require
 $$
 
 
+
 \begin{aligned}D & <0 \\ 𝑏^{2}−4𝑎𝑐 & <0 \\ (6)^{2}−4(𝑘)(𝑘) & <0 \\ 36−4𝑘^{2} & <0 \\ 36 & <4𝑘^{2} \\ 𝑘^{2} & >9 \\ \sqrt{√𝑘^{2}} & >\sqrt{√9} \\ |𝑘| & >3.\end{aligned}
+
 
 
 $$
@@ -138,7 +156,9 @@ First, rewrite the equation in standard quadratic form:
 $$
 
 
+
 \begin{aligned}𝑥(𝑝𝑥−24) & =−9 \\ 𝑝𝑥^{2}−24𝑥 & =−9 \\ 𝑝𝑥^{2}−24𝑥+9 & =0\end{aligned}
+
 
 
 $$
@@ -148,7 +168,9 @@ The coefficients of our quadratic equation are the following:
 $$
 
 
+
 a = p, \qquad b = -24, \qquad c = 9
+
 
 
 $$
@@ -158,7 +180,9 @@ So, computing the discriminant, we get
 $$
 
 
+
 \begin{aligned}D & =𝑏^{2}−4𝑎𝑐 \\ & =(−24)^{2}−4(𝑝)(9) \\ & =576−36𝑝.\end{aligned}
+
 
 
 $$
@@ -168,7 +192,9 @@ To have no real solutions, we need $\mathcal{D} < 0{:}$
 $$
 
 
+
 \begin{aligned}576−36𝑝 & <0 \\ −36𝑝 & <−576 \\ 𝑝 & >\frac{−576}{−36} \\ 𝑝 & >16\end{aligned}
+
 
 
 $$

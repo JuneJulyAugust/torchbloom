@@ -18,7 +18,9 @@ For example, to divide $2 - \textrm{i}$ by $1 + 3\textrm{i},$ we start by settin
 $$
 
 
+
 \dfrac {2 - \textrm{i}} {1 + 3\textrm{i}}
+
 
 
 $$
@@ -30,7 +32,9 @@ We multiply both the numerator and denominator by $1 - 3\textrm{i},$ so that the
 $$
 
 
+
 \begin{aligned} \dfrac {2 - \textrm{i}} {1 + 3\textrm{i}} \cdot \dfrac {1 - 3\textrm{i}} {1 - 3\textrm{i}} &= \dfrac {2 - 6\textrm{i} -\textrm{i} + 3\textrm{i}^2} {1 - 3\textrm{i} + 3\textrm{i} - 9\textrm{i}^2} \\\[5pt] &= \dfrac {2 - 7\textrm{i} + 3(-1)} {1 - 9(-1)} \\\[5pt] &= \dfrac {2 - 7\textrm{i} - 3} {1 + 9} \\\[5pt] &= \dfrac {-1 - 7\textrm{i}} {10} \end{aligned}
+
 
 
 $$
@@ -40,7 +44,9 @@ Now that the denominator is a real number, we can write the complex number in th
 $$
 
 
+
 \begin{aligned} \dfrac {-1 - 7\textrm{i}} {10} = -\dfrac{1} {10} - \dfrac {7} {10} \textrm{i} \end{aligned}
+
 
 
 $$
@@ -58,7 +64,9 @@ The denominator is $1-\textrm{i}$ and its conjugate is $1+\textrm{i}.$ We multip
 $$
 
 
+
 \begin{aligned} \dfrac {4 + \textrm{i}} {1 - \textrm{i}} &=\dfrac {4 + \textrm{i}} {1 - \textrm{i}} \cdot \dfrac {1 + \textrm{i}} {1 + \textrm{i}} \\\[5pt] &= \dfrac {4 + 4\textrm{i} + \textrm{i} + \textrm{i}^2} {1^2 - \textrm{i}^2} \\\[5pt] &= \dfrac {4 + 5\textrm{i} + (-1)} {1 - (-1)} \\\[5pt] &= \dfrac {3 + 5\textrm{i}} {2} \end{aligned}
+
 
 
 $$
@@ -68,7 +76,9 @@ Now that the denominator is a real number, we can write the complex number in th
 $$
 
 
+
 \begin{aligned} \dfrac {3 + 5\textrm{i}} {2} = \dfrac{3} {2} + \dfrac {5} {2} \textrm{i} \end{aligned}
+
 
 
 $$
@@ -86,7 +96,9 @@ First, we set up the fraction:
 $$
 
 
+
 \dfrac{3\textrm{i}}{2+5\textrm i}
+
 
 
 $$
@@ -96,7 +108,9 @@ The denominator is $2+5\textrm{i}$ and its conjugate is $2-5\textrm{i}.$ We mult
 $$
 
 
+
 \begin{aligned} \dfrac {3 \textrm{i}} {2 +5\textrm{i}} &= \dfrac {3 \textrm{i}} {2 +5 \textrm{i}} \cdot \dfrac {2 -5 \textrm{i}} {2-5\textrm{i}} \\\[5pt] &=\dfrac {6 \textrm{i} - 15 \textrm{i}^2 } {2^2 - (5\textrm{i})^2} \\\[5pt] &=\dfrac {6 \textrm{i} - 15\textrm{i}^2 } {4 - 25\textrm{i}^2} \\\[5pt] &= \dfrac {6 \textrm{i} - 15(-1) } {4 - 25(-1)} \\\[5pt] &=\dfrac {6 \textrm{i} + 15 } {29} \end{aligned}
+
 
 
 $$
@@ -106,7 +120,9 @@ Now that the denominator is a real number, we can write the complex number in th
 $$
 
 
+
 \begin{aligned} \dfrac {6 \textrm{i} + 15 } {29}= \dfrac{15} {29} + \dfrac {6} {29} \textrm{i} \end{aligned}
+
 
 
 $$
@@ -124,7 +140,9 @@ The denominator is $-1+2\textrm{i}$ and its conjugate is $-1-2\textrm{i}.$ We mu
 $$
 
 
+
 \begin{aligned} \dfrac {4} {-1 +2\textrm{i}} &=\dfrac {4} {-1 +2 \textrm{i}} \cdot \dfrac {-1 -2 \textrm{i}} {-1-2\textrm{i}} \\\[5pt] &= \dfrac {-4 - 8 \textrm{i} } {(-1)^2 - (2\textrm{i})^2} \\\[5pt] &= \dfrac {-4 - 8 \textrm{i} } {1 - 4\textrm{i}^2} \\\[5pt] &= \dfrac {-4 - 8 \textrm{i} } {1 - 4(-1)} \\\[5pt] &= \dfrac {-4 - 8 \textrm{i} } {5} \end{aligned}
+
 
 
 $$
@@ -134,7 +152,9 @@ Now that the denominator is a real number, we can write the complex number in th
 $$
 
 
+
 \begin{aligned} \dfrac {-4 - 8 \textrm{i} } {5} = -\dfrac{4} {5} - \dfrac {8} {5} \textrm{i} \end{aligned}
+
 
 
 $$
@@ -152,7 +172,9 @@ First, we set up the fraction:
 $$
 
 
+
 \dfrac {-8 - 3\textrm{i}} {2\textrm{i}}
+
 
 
 $$
@@ -164,7 +186,9 @@ So, we multiply both the numerator and the denominator by $-2\textrm{i},$ so tha
 $$
 
 
+
 \begin{aligned} \dfrac {-8 - 3\textrm{i}} {2\textrm{i}} &= \dfrac {-8 - 3\textrm{i}} {2\textrm{i}} \cdot \dfrac {-2\textrm{i}} {-2\textrm{i}} \\\[5pt] &= \dfrac {16\textrm{i} + 6\textrm{i}^2} {-4\textrm{i}^2} \\\[5pt] &= \dfrac {16\textrm{i} + 6(-1)} {-4(-1)} \\\[5pt] &= \dfrac {-6 + 16\textrm{i}} {4} \end{aligned}
+
 
 
 $$
@@ -174,7 +198,9 @@ Now that the denominator is a real number, we can write the complex number in th
 $$
 
 
+
 \begin{aligned} \dfrac {-6 + 16\textrm{i}} {4} &= - \dfrac{6}{4} + \dfrac{16}{4} \textrm{i} \\\[5pt] &= -\dfrac{3} {2} + 4\textrm{i} \end{aligned}
+
 
 
 $$

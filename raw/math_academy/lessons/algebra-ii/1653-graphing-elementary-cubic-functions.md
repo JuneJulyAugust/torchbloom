@@ -77,7 +77,9 @@ Now, we need to choose between graphs III and IV. To do this, let's evaluate $y=
 $$
 
 
+
 y = -(1)^3 = -1,
+
 
 
 $$
@@ -93,7 +95,9 @@ Now that we know the graph of $y=x^3,$ we can plot vertical translations of this
 $$
 
 
+
 y=x^3+k
+
 
 
 $$
@@ -105,7 +109,9 @@ For example, to plot the function
 $$
 
 
+
 y=x^3 \, {\color{blue} \, +\, 3},
+
 
 
 $$
@@ -119,7 +125,9 @@ Similarly, to plot the function
 $$
 
 
+
 y=x^3 \, {\color{red} - \, 2},
+
 
 
 $$
@@ -137,7 +145,9 @@ For example, to plot the graph of
 $$
 
 
+
 y=-x^3 \, {\color{blue}+ \, 2.5},
+
 
 
 $$
@@ -167,7 +177,9 @@ Because we know how to plot the graph of $y=x^3,$ we can also plot horizontal tr
 $$
 
 
+
 y=(x-h)^3
+
 
 
 $$
@@ -179,7 +191,9 @@ For example, to plot the graph of
 $$
 
 
+
 y=(x {\color{blue} \, - \, 4})^3,
+
 
 
 $$
@@ -193,7 +207,9 @@ The graph of
 $$
 
 
+
 y=(x+h)^3
+
 
 
 $$
@@ -205,7 +221,9 @@ For example, to plot the graph of
 $$
 
 
+
 y=(x{\color{red} \, + \, 2})^3,
+
 
 
 $$
@@ -239,7 +257,9 @@ In general, the graph of
 $$
 
 
+
 y = (x-h)^3 + k
+
 
 
 $$

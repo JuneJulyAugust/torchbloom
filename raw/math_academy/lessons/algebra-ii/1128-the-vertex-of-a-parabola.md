@@ -64,7 +64,9 @@ The standard equation of a left-opening or right-opening parabola that has its v
 $$
 
 
+
 (y-k)^2 = 4p(x-h).
+
 
 
 $$
@@ -74,7 +76,9 @@ The standard equation of an upward-opening or downward-opening parabola that has
 $$
 
 
+
 (x-h)^2 = 4p(y-k).
+
 
 
 $$
@@ -96,7 +100,9 @@ The standard equation of an upward- or downward-opening parabola that has its ve
 $$
 
 
+
 (x-h)^2 = 4p(y-k),
+
 
 
 $$
@@ -108,7 +114,9 @@ We can rewrite the given equation as
 $$
 
 
+
 \begin{aligned}(𝑥+1)^{2} & =4(2)(𝑦−2).\end{aligned}
+
 
 
 $$
@@ -130,7 +138,9 @@ The standard equation of a left- or right-opening parabola that has its vertex a
 $$
 
 
+
 (y-k)^2 = 4p(x-h),
+
 
 
 $$
@@ -142,7 +152,9 @@ We can rewrite the given equation as
 $$
 
 
+
 (y-2)^2 = 4\left(\dfrac{2}{4}\right)(x +1),
+
 
 
 $$
@@ -152,7 +164,9 @@ which simplifies to
 $$
 
 
+
 (y-2)^2 = 4\left(\dfrac{1}{2}\right)(x +1),
+
 
 
 $$

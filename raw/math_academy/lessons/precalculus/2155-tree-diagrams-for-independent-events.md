@@ -20,7 +20,9 @@ The probabilities on the first level of the tree correspond to the event $H\math
 $$
 
 
+
 P(H) = \dfrac12, \qquad P(H') = \dfrac12
+
 
 
 $$
@@ -34,7 +36,9 @@ Next, we find the probabilities on the second level. Since $H$ and $F$ are indep
 $$
 
 
+
 \begin{aligned}𝑃(𝐹|𝐻) & =𝑃(𝐹|𝐻^{′})=𝑃(𝐹)=\frac{1}{6} \\ 𝑃(𝐹^{′}|𝐻) & =𝑃(𝐹^{′}|𝐻^{′})=𝑃(𝐹^{′})=\frac{5}{6}\end{aligned}
+
 
 
 $$
@@ -52,7 +56,9 @@ Therefore,
 $$
 
 
+
 P(H\cap F) = \dfrac12\cdot\dfrac16 = \dfrac{1}{12}.
+
 
 
 $$
@@ -72,7 +78,9 @@ Since the events $A$ and $E$ are independent, we have
 $$
 
 
+
 P(E) = P(E|A) = P(E|A').
+
 
 
 $$
@@ -82,7 +90,9 @@ From the tree diagram, we can see that
 $$
 
 
+
 P(E|A) = P(E|A') = 0.25.
+
 
 
 $$
@@ -116,7 +126,9 @@ Since the marbles are drawn with replacement, the events are independent. Theref
 $$
 
 
+
 \begin{aligned}𝑃(𝑌_{1}) & =𝑃(𝑌_{2})=\frac{10}{16}, \\ 𝑃(𝐵_{1}) & =𝑃(𝐵_{2})=\frac{6}{16}.\end{aligned}
+
 
 
 $$
@@ -134,7 +146,9 @@ Therefore,
 $$
 
 
+
 \begin{aligned}𝑃(𝑌_{1}∩𝐵_{2}) & =𝑃(𝑌_{1})⋅𝑃(𝐵_{2}) \\ & =\frac{10}{16}⋅\frac{6}{16} \\ & =\frac{5}{8}⋅\frac{3}{8} \\ & =\frac{15}{64}.\end{aligned}
+
 
 
 $$
@@ -164,7 +178,9 @@ Since the balls are drawn with replacement, the events are independent. Therefor
 $$
 
 
+
 \begin{aligned}𝑃(𝐺_{1}) & =𝑃(𝐺_{2})=\frac{24}{40}, \\ 𝑃(𝑃_{1}) & =𝑃(𝑃_{2})=\frac{16}{40}.\end{aligned}
+
 
 
 $$
@@ -178,7 +194,9 @@ The required probability is
 $$
 
 
+
 P\left( (G_1 \cap P_2) \cup (P_1 \cap G_2)\right),
+
 
 
 $$
@@ -192,7 +210,9 @@ Therefore,
 $$
 
 
+
 \begin{aligned}𝑃((𝐺_{1}∩𝑃_{2})∪(𝑃_{1}∩𝐺_{2})) & =𝑃(𝐺_{1})⋅𝑃(𝑃_{2})+𝑃(𝑃_{1})⋅𝑃(𝐺_{2}) \\ & =\frac{24}{40}⋅\frac{16}{40}+\frac{16}{40}⋅\frac{24}{40} \\ & =\frac{3}{5}⋅\frac{2}{5}+\frac{2}{5}⋅\frac{3}{5} \\ & =\frac{6}{25}+\frac{6}{25} \\ & =\frac{12}{25}.\end{aligned}
+
 
 
 $$

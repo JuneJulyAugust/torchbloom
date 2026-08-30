@@ -30,7 +30,9 @@ We can see from the table that there are $7$ possible outcomes that belong to $F
 $$
 
 
+
 F = \{(1, 4),\,(2, 4),\,(3, 4),\, (4, 1),\,(4, 2),\, (4, 3),\,(4, 4)\}
+
 
 
 $$
@@ -40,7 +42,9 @@ Among these $7$ outcomes, there are $4$ outcomes that belong to $L.$
 $$
 
 
+
 L = \{(1, 4),\,(2, 4),\, (4, 1),\,(4, 2)\}
+
 
 
 $$
@@ -50,7 +54,9 @@ Since each outcome is equally likely, we have
 $$
 
 
+
 P(L|F) = \dfrac{4}{7}.
+
 
 
 $$
@@ -74,7 +80,9 @@ From the table, there are $8$ possible outcomes that belong to $F.$
 $$
 
 
+
 F = \{(1, 4),\,(2, 2),\,(2, 4),\,(3, 4),\, (4, 1),\,(4, 2),\,(4, 3),\,(4, 4)\}
+
 
 
 $$
@@ -84,7 +92,9 @@ Among these $8$ outcomes, there are $2$ outcomes that belong to $T.$
 $$
 
 
+
 T \cap F = \{ (3, 4) ,\, (4, 3)\}
+
 
 
 $$
@@ -94,7 +104,9 @@ Since the dice are fair, each outcome is equally likely, and we have
 $$
 
 
+
 P(T|F) = \dfrac{2}{8} = \dfrac{1}{4}.
+
 
 
 $$

@@ -19,7 +19,9 @@ The estimated number of times an event occurs is the product of the total number
 $$
 
 
+
 \text{estimated number of event occurrences} = \text{total number of trials} \cdot P(\text{Event})
+
 
 
 $$
@@ -29,7 +31,9 @@ For example, suppose a game is played $40$ times, and a player wins $14$ of thos
 $$
 
 
+
 P(\text{win}) = \dfrac{14}{40} = 0.35.
+
 
 
 $$
@@ -39,7 +43,9 @@ Now suppose the game will be played $200$ times. To estimate how many wins to ex
 $$
 
 
+
 n = 200\cdot P(\text{win}) = 200\cdot 0.35 = 70
+
 
 
 $$
@@ -61,7 +67,9 @@ The estimated number of times an event occurs is the product of the total number
 $$
 
 
+
 \text{estimated number of event occurrences} = \text{total number of trials} \cdot P(\text{Event})
+
 
 
 $$
@@ -71,7 +79,9 @@ First, to calculate the experimental probability, we divide the number of times 
 $$
 
 
+
 P(\textrm{prize}) = \dfrac{8}{25}.
+
 
 
 $$
@@ -81,7 +91,9 @@ Therefore, the estimated number of times that a prize is won at the second carni
 $$
 
 
+
 n=150 \cdot P(\textrm{prize}) = 150 \cdot \dfrac{8}{25} = 48.
+
 
 
 $$
@@ -103,7 +115,9 @@ The estimated number of times an event occurs is the product of the total number
 $$
 
 
+
 \text{estimated number of event occurrences} = \text{total number of trials} \cdot P(\text{Event})
+
 
 
 $$
@@ -113,7 +127,9 @@ First, to calculate the experimental probability, we divide the number of studen
 $$
 
 
+
 P(\text{blue eyes}) = \dfrac{36}{200} = 0.18.
+
 
 
 $$
@@ -123,7 +139,9 @@ Therefore, the estimated number of students with blue eyes in Brewster Academy i
 $$
 
 
+
 n = 350\cdot P(\text{blue eyes}) = 350\cdot 0.18 = 63.
+
 
 
 $$
@@ -139,7 +157,9 @@ Recall the previous example, where a player won $14$ out of $40$ games. The expe
 $$
 
 
+
 P(\text{win}) = 0.35,
+
 
 
 $$
@@ -175,7 +195,9 @@ The estimated number of times an event occurs is the product of the total number
 $$
 
 
+
 \text{estimated number of event occurrences} = \text{total number of trials} \cdot P(\text{Event})
+
 
 
 $$
@@ -185,7 +207,9 @@ The total number of students surveyed is
 $$
 
 
+
 2+4+3+2+1 = 12.
+
 
 
 $$
@@ -195,7 +219,9 @@ Out of the $12$ students that were surveyed, $4$ of those students read $11$ boo
 $$
 
 
+
 11
+
 
 
 $$
@@ -205,7 +231,9 @@ Therefore, the estimated number of students who read $11$ books at the second sc
 $$
 
 
+
 11
+
 
 
 $$

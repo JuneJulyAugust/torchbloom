@@ -23,7 +23,9 @@ Now, from $\triangle OXA,$ we have that
 $$
 
 
+
 \begin{aligned}tan⁡𝜃 & =\frac{|𝑋𝐴|}{|𝑂𝑋|} \\ & =\frac{𝑎_{𝑦}}{𝑎_{𝑥}} \\ & =\frac{2}{3}.\end{aligned}
+
 
 
 $$
@@ -35,7 +37,9 @@ In general, for any vector $\mathbf{a} = \left< a_x, a_y \right>,$ the angle $\t
 $$
 
 
+
 \tan \theta = \dfrac{a_y}{a_x}.
+
 
 
 $$
@@ -45,7 +49,9 @@ When the vector $\mathbf{a}$ lies in the $1$st quadrant, the desired solution to
 $$
 
 
+
 \theta = \arctan\left(\dfrac{a_y}{a_x}\right)
+
 
 
 $$
@@ -63,7 +69,9 @@ The angle $\theta$ that the vector makes with the positive $x$-axis satisfies th
 $$
 
 
+
 \begin{aligned}tan⁡𝜃 & =\frac{𝑎_{𝑦}}{𝑎_{𝑥}} \\ & =\frac{3}{1} \\ & =3.\end{aligned}
+
 
 
 $$
@@ -73,7 +81,9 @@ Since the vector lies in the $1$st quadrant, the desired solution to the above e
 $$
 
 
+
 \begin{aligned}𝜃 & =arctan⁡(3) \\ & ≈71.6^{∘}\end{aligned}
+
 
 
 $$
@@ -85,7 +95,9 @@ We know that for any vector $\mathbf{a} = \left< a_x, a_y \right>,$ the angle $\
 $$
 
 
+
 \tan \theta = \dfrac{a_y}{a_x}.
+
 
 
 $$
@@ -97,7 +109,9 @@ The general solution to the above equation is
 $$
 
 
+
 \theta = \arctan \left( \dfrac{a_y}{a_x} \right) + n \cdot 180^\circ,
+
 
 
 $$
@@ -125,7 +139,9 @@ Applying the formula for the angle that a vector makes with the positive $x$-axi
 $$
 
 
+
 \begin{aligned}tan⁡𝜃 & =\frac{𝑎_{𝑦}}{𝑎_{𝑥}} \\ & =\frac{3}{−2} \\ & =−\frac{3}{2}.\end{aligned}
+
 
 
 $$
@@ -135,7 +151,9 @@ The solutions of this equation are
 $$
 
 
+
 \begin{aligned}𝜃 & =arctan⁡(−\frac{3}{2})+𝑛⋅180^{∘} \\ & ≈−56.3^{∘}+𝑛⋅180^{∘},\end{aligned}
+
 
 
 $$
@@ -149,7 +167,9 @@ To get a solution in the desired range, we choose $n=1$ and get
 $$
 
 
+
 \begin{aligned}𝜃 & ≈−56.3^{∘}+180^{∘} \\ & =123.7^{∘}.\end{aligned}
+
 
 
 $$
@@ -171,7 +191,9 @@ Applying the formula for the angle that a vector makes with the positive $x$-axi
 $$
 
 
+
 \begin{aligned}tan⁡𝜃 & =\frac{𝑎_{𝑦}}{𝑎_{𝑥}} \\ & =\frac{−\sqrt{√3}}{1} \\ & =−\sqrt{√3}.\end{aligned}
+
 
 
 $$
@@ -181,7 +203,9 @@ The solutions of this equation are
 $$
 
 
+
 \begin{aligned}𝜃 & =arctan⁡(−\sqrt{√3})+𝑛⋅180^{∘} \\ & ≈−60^{∘}+𝑛⋅180^{∘},\end{aligned}
+
 
 
 $$
@@ -195,7 +219,9 @@ To get a solution in the desired range, we choose $n=2$ and get
 $$
 
 
+
 \begin{aligned}𝜃 & ≈−60^{∘}+360^{∘} \\ & =300^{∘}.\end{aligned}
+
 
 
 $$
@@ -215,7 +241,9 @@ First, we need to find the angle $\theta$ that the vector $\mathbf{a}$ makes wit
 $$
 
 
+
 \tan\theta = \dfrac{a_y}{a_x} = \dfrac{-1}{2} = -\dfrac{1}{2}.
+
 
 
 $$
@@ -225,7 +253,9 @@ The solutions of this equation are
 $$
 
 
+
 \begin{aligned}𝜃 & =arctan⁡(−\frac{1}{2})+𝑛⋅180^{∘} \\ & ≈−26.6^{∘}+𝑛⋅180^{∘},\end{aligned}
+
 
 
 $$
@@ -237,7 +267,9 @@ In this case, our vector is located in the $4$th quadrant. Choosing $n=0$, we ge
 $$
 
 
+
 \begin{aligned}𝜃 & ≈−26.6^{∘}.\end{aligned}
+
 
 
 $$
@@ -247,7 +279,9 @@ Finally, to find the angle $\theta'$ that the vector $\mathbf{a}$ makes with the
 $$
 
 
+
 \begin{aligned}𝜃^{′} & =|𝜃|+90^{∘} \\ & =26.6^{∘}+90^{∘} \\ & =116.6^{∘}.\end{aligned}
+
 
 
 $$

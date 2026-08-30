@@ -95,7 +95,9 @@ We know that that $y = \sin{x}$ has a minimum value of $-1.$
 $$
 
 
+
 \sin{x} \geq -1
+
 
 
 $$
@@ -105,7 +107,9 @@ Multiplying both sides of the above inequality by $2$ gives:
 $$
 
 
+
 \begin{aligned}2⋅sin⁡𝑥 & ≥2⋅(−1) \\ 2sin⁡𝑥 & ≥−2\end{aligned}
+
 
 
 $$
@@ -123,7 +127,9 @@ We can calculate the amplitude using the minimum and maximum values $y_\min$ and
 $$
 
 
+
 \textrm{Amplitude } =\dfrac{y_\max - y_\min}2
+
 
 
 $$
@@ -133,7 +139,9 @@ For example, the amplitude of the function $y=\sin x$ shown above, where $y_\min
 $$
 
 
+
 \begin{aligned}Amplitude & =\frac{1−(−1)}{2} \\ & =\frac{1+1}{2} \\ & =\frac{2}{2} \\ & =1.\end{aligned}
+
 
 
 $$
@@ -161,7 +169,9 @@ From the graph, we see that the maximum value is $y_\max=2$ and the minimum valu
 $$
 
 
+
 \begin{aligned}Amplitude & =\frac{𝑦_{max}−𝑦_{min}}{2} \\ & =\frac{2−(−2)}{2} \\ & =\frac{2+2}{2} \\ & =\frac{4}{2} \\ & =2.\end{aligned}
+
 
 
 $$

@@ -16,7 +16,9 @@ Trigonometric functions, or more precisely, **sinusoidal curves** of the form
 $$
 
 
+
 F(t) = A \sin(Bt) + C
+
 
 
 $$
@@ -26,7 +28,9 @@ or
 $$
 
 
+
 G(t) = A \cos(Bt) + C
+
 
 
 $$
@@ -98,7 +102,9 @@ From the graph, we see that the distance between the peaks (i.e., the period) is
 $$
 
 
+
 \textrm{period} = 2.5 - 0.5 = 2\,\textrm{seconds}.
+
 
 
 $$
@@ -114,7 +120,9 @@ The daily tide level in a coastal city, in feet, is modeled by the function
 $$
 
 
+
 H(t)=6\cos\left(\dfrac{\pi t}{6}\right)+ 8,
+
 
 
 $$
@@ -150,7 +158,9 @@ The altitude of a satellite $t$ minutes after an astronomer starts observing it,
 $$
 
 
+
 A(t)=8\sin\left(\dfrac{\pi t}{50}\right)+400,
+
 
 
 $$
@@ -178,7 +188,9 @@ Now, we have
 $$
 
 
+
 \text{amplitude}=|A|=8.
+
 
 
 $$
@@ -188,7 +200,9 @@ Therefore, we conclude that the altitude difference is equal to
 $$
 
 
+
 2\cdot {\color{black}8} = 16\,\textrm{km}.
+
 
 
 $$

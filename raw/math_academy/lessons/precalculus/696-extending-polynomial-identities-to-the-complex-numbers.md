@@ -19,7 +19,9 @@ We know that a difference of squares can be factored using the difference of squ
 $$
 
 
+
 a^2 - b^2 = (a+b)(a-b).
+
 
 
 $$
@@ -31,7 +33,9 @@ As an example, let's consider the quadratic expression $x^2 + 4.$ Notice that we
 $$
 
 
+
 x^2 + 2^2.
+
 
 
 $$
@@ -43,7 +47,9 @@ We start by writing $x^2+4$ as a difference:
 $$
 
 
+
 x^2 + 4 = x^2 - \left(-4\right)
+
 
 
 $$
@@ -53,7 +59,9 @@ Then, we rewrite the second term as the square of an imaginary number, as follow
 $$
 
 
+
 \begin{aligned}𝑥^{2}−(−4) & =𝑥^{2}−(−2^{2}) \\ & =𝑥^{2}−((−1)⋅2^{2}) \\ & =𝑥^{2}−(i^{2}⋅2^{2}) \\ & =𝑥^{2}−(i⋅2)^{2} \\ & =𝑥^{2}−(2i)^{2}\end{aligned}
+
 
 
 $$
@@ -63,7 +71,9 @@ Finally, we factor the expression as a difference of squares:
 $$
 
 
+
 \begin{aligned}𝑥^{2}−(2i)^{2}=(𝑥+2i)(𝑥−2i)\end{aligned}
+
 
 
 $$
@@ -73,7 +83,9 @@ And, we're done! Notice that we can easily check that this is correct by multipl
 $$
 
 
+
 \begin{aligned}(𝑥+2i)(𝑥−2i) & =𝑥^{2}−2i𝑥+2i𝑥−4i^{2} \\ & =𝑥^{2}−4i^{2} \\ & =𝑥^{2}−4(−1) \\ & =𝑥^{2}+4\,✓\end{aligned}
+
 
 
 $$
@@ -91,7 +103,9 @@ To factor a sum of squares, we first write it as a difference. Then, we rewrite 
 $$
 
 
+
 \begin{aligned}𝑚^{2}+16𝑛^{2} & =𝑚^{2}−(−16𝑛^{2}) \\ & =𝑚^{2}−(16\,i^{2}𝑛^{2}) \\ & =𝑚^{2}−(4^{2}i^{2}𝑛^{2}) \\ & =𝑚^{2}−(4i𝑛)^{2} \\ & =(𝑚+4i𝑛)(𝑚−4i𝑛).\end{aligned}
+
 
 
 $$
@@ -109,7 +123,9 @@ Notice that the given expression is a sum of squares, since
 $$
 
 
+
 25x^4 + 4 y^8 = \left( 5x^2\right)^2 + \left(2 y^4\right)^2.
+
 
 
 $$
@@ -119,7 +135,9 @@ To factor a sum of squares, we first write it as a difference. Then, we rewrite 
 $$
 
 
+
 \begin{aligned}25𝑥^{4}+4𝑦^{8} & =25𝑥^{4}−(−4𝑦^{8}) \\ & =25𝑥^{4}−(4i^{2}𝑦^{8}) \\ & =(5𝑥^{2})^{2}−(2i𝑦^{4})^{2} \\ & =(5𝑥^{2}+2i𝑦^{4})(5𝑥^{2}−2i𝑦^{4}).\end{aligned}
+
 
 
 $$
@@ -137,7 +155,9 @@ First, let's factor $-z$ from the expression. We have
 $$
 
 
+
 -z^3-25z =-z(z^2+25).
+
 
 
 $$
@@ -149,7 +169,9 @@ To factor a sum of squares, we first write it as a difference. Then, we rewrite 
 $$
 
 
+
 \begin{aligned}𝑧^{2}+25 & =𝑧^{2}−(−25) \\ & =𝑧^{2}−(25i^{2}) \\ & =𝑧^{2}−(5i)^{2} \\ & =(𝑧+5i)(𝑧−5i).\end{aligned}
+
 
 
 $$
@@ -159,7 +181,9 @@ Finally, substituting this back into our main expression, we get
 $$
 
 
+
 -z(z^2+25)=-z(z+5\textrm i)(z-5\textrm i).
+
 
 
 $$
@@ -177,7 +201,9 @@ First, let's factor the expression as a perfect square trinomial in $x^2.$ We ha
 $$
 
 
+
 \begin{aligned}𝑥^{4}+18𝑥^{2}+81 & =(𝑥^{2})^{2}+2⋅9⋅\,(𝑥^{2})+(9)^{2} \\ & =(𝑥^{2}+9)^{2}.\end{aligned}
+
 
 
 $$
@@ -187,7 +213,9 @@ Now, we need to factor the sum of squares in the parentheses. To do this, we fir
 $$
 
 
+
 \begin{aligned}𝑥^{2}+9 & =𝑥^{2}−(−9) \\ & =𝑥^{2}−(9i^{2}) \\ & =𝑥^{2}−(3i)^{2} \\ & =(𝑥+3i)(𝑥−3i)\end{aligned}
+
 
 
 $$
@@ -197,7 +225,9 @@ Finally, substituting this back into our main expression, we get
 $$
 
 
+
 \begin{aligned}𝑥^{4}+18𝑥^{2}+81 & =(𝑥^{2}+9)^{2} \\ & =((𝑥+3i)(𝑥−3i))^{2} \\ & =(𝑥+3i)^{2}(𝑥−3i)^{2}.\end{aligned}
+
 
 
 $$

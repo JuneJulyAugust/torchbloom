@@ -35,7 +35,9 @@ Typically, when computing the points of intersection of a reciprocal function an
 $$
 
 
+
 \begin{aligned}𝑦=𝑥 \\ 𝑦=\frac{1}{𝑥}\,.\end{aligned}
+
 
 
 $$
@@ -45,7 +47,9 @@ This system of equations can (usually) be transformed into a single rational equ
 $$
 
 
+
 x = \dfrac{1}{x} \quad \Rightarrow \quad x^2 = 1.
+
 
 
 $$
@@ -55,7 +59,9 @@ By solving the quadratic equation, we can find the intersection points. And like
 $$
 
 
+
 x^2 = 1 \quad \Rightarrow \quad x = \pm 1
+
 
 
 $$
@@ -75,7 +81,9 @@ We need to solve the following system of equations:
 $$
 
 
+
 \begin{aligned}𝑦=2𝑥−3 \\ 𝑦=\frac{1}{𝑥−2}\end{aligned}
+
 
 
 $$
@@ -85,7 +93,9 @@ Setting the equations equal and then solving for $x,$ we get the following:
 $$
 
 
+
 \begin{aligned}2𝑥−3 & =\frac{1}{𝑥−2} \\ (𝑥−2)(2𝑥−3) & =1 \\ 2𝑥^{2}−7𝑥+6 & =1 \\ 2𝑥^{2}−7𝑥+5 & =0 \\ (𝑥−1)(2𝑥−5) & =0 \\ 𝑥 & =1,\frac{5}{2}\end{aligned}
+
 
 
 $$
@@ -107,7 +117,9 @@ For example, suppose that we want to find where the curve $y=\dfrac{1}{x}+1$ and
 $$
 
 
+
 \begin{aligned}𝑦=\frac{1}{𝑥}+1 \\ 𝑦=2\end{aligned}
+
 
 
 $$
@@ -117,7 +129,9 @@ Setting the equations equal and solving for $x,$ we get the following:
 $$
 
 
+
 \begin{aligned}\frac{1}{𝑥}+1 & =2 \\ \frac{1}{𝑥} & =1 \\ 𝑥 & =1\end{aligned}
+
 
 
 $$
@@ -127,7 +141,9 @@ To find the corresponding $y$-coordinate, we plug $x=1$ into either equation. Le
 $$
 
 
+
 \begin{aligned}𝑦 & =\frac{1}{𝑥}+1 \\ & =\frac{1}{1}+1 \\ & =2\end{aligned}
+
 
 
 $$
@@ -151,7 +167,9 @@ We need to solve the following system of equations:
 $$
 
 
+
 \begin{aligned}𝑦=\frac{1}{𝑥−2}+1 \\ 𝑦=−𝑥+3\end{aligned}
+
 
 
 $$
@@ -161,7 +179,9 @@ Setting the equations equal to one another simplifying, we get a quadratic equat
 $$
 
 
+
 \begin{aligned}\frac{1}{𝑥−2}+1 & =−𝑥+3 \\ \frac{1}{𝑥−2} & =−𝑥+2 \\ 1 & =(−𝑥+2)(𝑥−2) \\ 1 & =−𝑥^{2}+4𝑥−4 \\ 𝑥^{2}−4𝑥+5 & =0\end{aligned}
+
 
 
 $$
@@ -171,7 +191,9 @@ Then, we use the quadratic formula:
 $$
 
 
+
 \begin{aligned}𝑥 & =\frac{4±\sqrt{√(−4)^{2}−4(1)(5)}}{2(1)} \\ & =\frac{4±\sqrt{√16−20}}{2} \\ & =\frac{4±\sqrt{√−4}}{2}\end{aligned}
+
 
 
 $$
@@ -195,7 +217,9 @@ To determine whether the line $y=2x+3$ intersects the reciprocal function $y=\df
 $$
 
 
+
 \begin{aligned}𝑦=\frac{𝑘}{𝑥+3} \\ 𝑦=2𝑥+3\end{aligned}
+
 
 
 $$
@@ -205,7 +229,9 @@ Setting the equations equal to one another and simplifying, we get a quadratic e
 $$
 
 
+
 \begin{aligned}\frac{𝑘}{𝑥+3} & =2𝑥+3 \\ 𝑘 & =(2𝑥+3)(𝑥+3) \\ 𝑘 & =2𝑥^{2}+9𝑥+9 \\ 2𝑥^{2}+9𝑥+9−𝑘 & =0\end{aligned}
+
 
 
 $$
@@ -215,7 +241,9 @@ Then, we use the quadratic formula:
 $$
 
 
+
 \begin{aligned}𝑥 & =\frac{−9±\sqrt{√9^{2}−4(2)(9−𝑘)}}{2(2)} \\ & =\frac{−9±\sqrt{√81−72+8𝑘}}{4} \\ & =\frac{−9±\sqrt{√9+8𝑘}}{4}\end{aligned}
+
 
 
 $$
@@ -227,7 +255,9 @@ So, the expression inside the square root must be negative:
 $$
 
 
+
 \begin{aligned}9+8𝑘 & <0 \\ 8𝑘 & <−9 \\ 𝑘 & <−\frac{9}{8}\end{aligned}
+
 
 
 $$

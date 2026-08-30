@@ -16,7 +16,9 @@ A **hyperbola** is a curve that takes the general form
 $$
 
 
+
 \dfrac {x^2} {a^2} - \dfrac {y^2} {b^2} = 1 \quad \textrm{or} \quad \dfrac {y^2} {a^2} - \dfrac {x^2} {b^2} = 1
+
 
 
 $$
@@ -28,7 +30,9 @@ For now, let's just look at an example of a graph of a hyperbola. Below, we have
 $$
 
 
+
 \dfrac{x^2}{3^2} - \dfrac{y^2}{2^2} = 1,
+
 
 
 $$
@@ -38,7 +42,9 @@ which can also be written as
 $$
 
 
+
 \dfrac{x^2}{9} - \dfrac{y^2}{4} = 1,
+
 
 
 $$
@@ -66,7 +72,9 @@ The **general standard equation** of a horizontal hyperbola is also known as the
 $$
 
 
+
 \dfrac {x^2} {a^2} - \dfrac {y^2} {b^2} = 1.
+
 
 
 $$
@@ -76,7 +84,9 @@ $$
 $$
 
 
+
 \dfrac{x^2}{3^2} - \dfrac{y^2}{2^2} = 1 \quad \textrm{or} \quad \dfrac{x^2}{9} - \dfrac{y^2}{4} = 1.
+
 
 
 $$
@@ -96,7 +106,9 @@ The Cartesian equation of a horizontal hyperbola centered at the origin is
 $$
 
 
+
 \dfrac{x^2}{a^2} - \dfrac{y^2}{b^2}=1.
+
 
 
 $$
@@ -106,7 +118,9 @@ Therefore, to write the equation of the hyperbola in standard form, we need to d
 $$
 
 
+
 \begin{aligned}9𝑥^{2}−16𝑦^{2} & =144 \\ \frac{9𝑥^{2}}{144}−\frac{16𝑦^{2}}{144} & =\frac{144}{144} \\ \frac{𝑥^{2}}{16}−\frac{𝑦^{2}}{9} & =1\end{aligned}
+
 
 
 $$
@@ -118,7 +132,9 @@ Similar to horizontal hyperbolas, there are also **vertical hyperbolas.** For ex
 $$
 
 
+
 \dfrac{y^2}{4} - \dfrac{x^2}{9} = 1
+
 
 
 $$
@@ -132,7 +148,9 @@ The general standard equation for a vertical hyperbola is given by
 $$
 
 
+
 \dfrac {y^2} {a^2} - \dfrac {x^2} {b^2} = 1.
+
 
 
 $$
@@ -156,7 +174,9 @@ The Cartesian equation of a vertical hyperbola centered at the origin is
 $$
 
 
+
 \frac{y^2}{a^2} - \frac{x^2}{b^2}=1.
+
 
 
 $$
@@ -166,7 +186,9 @@ Therefore, to write the equation of the hyperbola in standard form, we need to d
 $$
 
 
+
 \begin{aligned}4𝑦^{2}−7𝑥^{2} & =84 \\ \frac{4𝑦^{2}}{84}−\frac{7𝑥^{2}}{84} & =\frac{84}{84} \\ \frac{𝑦^{2}}{21}−\frac{𝑥^{2}}{12} & =1\end{aligned}
+
 
 
 $$
@@ -178,7 +200,9 @@ The *reciprocal function*
 $$
 
 
+
 y=\frac{1}{x}
+
 
 
 $$
@@ -194,7 +218,9 @@ To see the connection more clearly, let's first rewrite the equation without fra
 $$
 
 
+
 y=\frac{1}{x} \qquad \Longleftrightarrow \qquad xy=1
+
 
 
 $$
@@ -204,7 +230,9 @@ Now, define new coordinates by
 $$
 
 
+
 x=u-v \qquad \text{and} \qquad y=u+v.
+
 
 
 $$
@@ -216,7 +244,9 @@ Then, we get
 $$
 
 
+
 xy=1 \qquad \Longleftrightarrow \qquad (u-v)(u+v)=1 \qquad \Longleftrightarrow \qquad u^2-v^2=1,
+
 
 
 $$

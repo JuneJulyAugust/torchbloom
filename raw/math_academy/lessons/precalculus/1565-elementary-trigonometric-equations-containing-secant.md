@@ -17,7 +17,9 @@ Suppose we want to solve the equation
 $$
 
 
+
 \sec x={\sqrt{2}}, \qquad 0^\circ\leq x < 360^\circ.
+
 
 
 $$
@@ -27,7 +29,9 @@ Most calculators don't have a $\textrm{arcsec}{x}$ button, so we can't get a pri
 $$
 
 
+
 \begin{aligned}sec⁡𝑥 & =\sqrt{√2} \\ \frac{1}{cos⁡𝑥} & =\sqrt{√2} \\ cos⁡𝑥 & =\frac{1}{\sqrt{√2}}\end{aligned}
+
 
 
 $$
@@ -37,7 +41,9 @@ Now, we can proceed as usual. Our principal value is
 $$
 
 
+
 x = \arccos \left(\dfrac{1}{\sqrt{2}} \right)= 45^\circ.
+
 
 
 $$
@@ -53,7 +59,9 @@ Since the second solution $x_2$ lies in the $4$th quadrant, we can find it using
 $$
 
 
+
 x_2 = 360^\circ - 45^\circ = 315^\circ .
+
 
 
 $$
@@ -73,7 +81,9 @@ First, we rearrange the equation, isolating $\sec x\mathbin{:}$
 $$
 
 
+
 \begin{aligned}2sec⁡𝑥+4 & =0 \\ 2sec⁡𝑥 & =−4 \\ sec⁡𝑥 & =−2\end{aligned}
+
 
 
 $$
@@ -83,7 +93,9 @@ Recall that $\sec x = \dfrac{1}{\cos x}.$ Therefore, the given equation is equiv
 $$
 
 
+
 \cos x = \dfrac{1}{(-2)}=-\dfrac{1}{2}.
+
 
 
 $$
@@ -93,7 +105,9 @@ Now, we find the principal value:
 $$
 
 
+
 x = \arccos \left( -\dfrac{1}{2} \right)= \dfrac{2\pi}{3}
+
 
 
 $$
@@ -109,7 +123,9 @@ Since the second solution $x_2$ lies in the $3$rd quadrant, we can find it using
 $$
 
 
+
 \begin{aligned}𝑥_{2} & =𝜋+𝜃_{𝑅} \\ & =𝜋+\frac{𝜋}{3} \\ & =\frac{4𝜋}{3}\end{aligned}
+
 
 
 $$
@@ -121,7 +137,9 @@ Finally,
 $$
 
 
+
 x_1 \cdot x_2 = \dfrac{2\pi}{3} \cdot \dfrac{4\pi}{3} = \dfrac{8\pi^2}{9}.
+
 
 
 $$
@@ -139,7 +157,9 @@ Recall that $\sec x = \dfrac{1}{\cos x}.$ Therefore, the given equation is equiv
 $$
 
 
+
 \cos x = \dfrac{1}{3}.
+
 
 
 $$
@@ -149,7 +169,9 @@ First, we find the principal value:
 $$
 
 
+
 \begin{aligned}𝑥=arccos⁡(\frac{1}{3})=1.230\,959…≈1.231\,0\end{aligned}
+
 
 
 $$
@@ -165,7 +187,9 @@ Since the second solution $x_2$ lies in the $4$th quadrant, we can find it using
 $$
 
 
+
 \begin{aligned}𝑥_{2} & =2𝜋−𝜃_{𝑅} \\ & =2𝜋−1.231\,0 \\ & =5.052\,2\end{aligned}
+
 
 
 $$
@@ -175,7 +199,9 @@ Finally,
 $$
 
 
+
 x_1\cdot x_2 \approx 1.231\,0 \cdot 5.052\,2 \approx 6.2
+
 
 
 $$
@@ -189,7 +215,9 @@ We can solve an equation involving secant over any desired domain. For example, 
 $$
 
 
+
 \sec x = 2, \qquad -2\pi < x \leq 2\pi.
+
 
 
 $$
@@ -199,7 +227,9 @@ We can proceed as usual. Recall that $\sec x = \dfrac{1}{\cos x}.$ Therefore, th
 $$
 
 
+
 \cos x = \dfrac{1}{2}.
+
 
 
 $$
@@ -209,7 +239,9 @@ Now, we find the principal value:
 $$
 
 
+
 x = \arccos \left(\dfrac{1}{2} \right)= \dfrac{\pi}{3}
+
 
 
 $$
@@ -225,7 +257,9 @@ Since the second solution $\color{blue}x_2$ lies in the $4$th quadrant, we can f
 $$
 
 
+
 {\color{blue}x_2} = 2\pi - \dfrac{\pi}{3} = \dfrac{5\pi}{3}
+
 
 
 $$
@@ -237,7 +271,9 @@ To get the remaining solutions in the desired domain, we need to find angles tha
 $$
 
 
+
 \begin{aligned} x_3 & = {\color{red}x_1} -2\pi = \dfrac{\pi}{3}- 2\pi= -\dfrac{5\pi}{3},\\x_4 &= {\color{blue}x_2} -2\pi = \dfrac{5\pi}{3}- 2\pi= -\dfrac{\pi}{3}.\end{aligned}
+
 
 
 $$
@@ -259,7 +295,9 @@ Recall that $\sec x = \dfrac{1}{\cos x}.$ Therefore the given equation is equiva
 $$
 
 
+
 \cos{x} = \frac{1}{\sqrt{2}}=\dfrac{\sqrt{2}}{2}.
+
 
 
 $$
@@ -269,7 +307,9 @@ First, we find the principal value:
 $$
 
 
+
 \begin{aligned}𝑥=arccos⁡(\frac{1}{\sqrt{√2}})=45^{∘}\end{aligned}
+
 
 
 $$
@@ -285,7 +325,9 @@ A second solution $X$ lies in the $4$th quadrant, and we can find it using the r
 $$
 
 
+
 \begin{aligned}𝑋 & =360^{∘}−𝜃_{𝑅} \\ & =360^{∘}−45^{∘} \\ & =315^{∘}\end{aligned}
+
 
 
 $$
@@ -295,7 +337,9 @@ However, this value is not in the required domain. To get the second solution $x
 $$
 
 
+
 x_2 = 315^\circ - 360^\circ = -45^\circ.
+
 
 
 $$
@@ -307,7 +351,9 @@ Finally,
 $$
 
 
+
 x_1\cdot x_2 = 45\cdot (-45)=-2\,025.
+
 
 
 $$
@@ -319,7 +365,9 @@ Are there any solutions to the equation
 $$
 
 
+
 \sec{x} = \dfrac{1}{5}, \qquad 0 \leq x < 2\pi?
+
 
 
 $$
@@ -329,7 +377,9 @@ Recall that $\sec{x}= \dfrac{1}{\cos{x}}.$ Therefore, the given equation is equi
 $$
 
 
+
 \cos{x} = 5.
+
 
 
 $$
@@ -357,7 +407,9 @@ Recall that the range of $\sec x$ for $0\leq x \lt 2\pi$ is given by
 $$
 
 
+
 \sec x \in (-\infty, -1] \cup [1,\infty).
+
 
 
 $$

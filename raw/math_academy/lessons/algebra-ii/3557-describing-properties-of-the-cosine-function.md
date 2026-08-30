@@ -28,7 +28,9 @@ A general expression for the zeros is
 $$
 
 
+
 x = \dfrac{\pi}{2} + n\pi.
+
 
 
 $$
@@ -40,7 +42,9 @@ The function has a maximum when $x=0$ and is periodic with period $2\pi.$ Theref
 $$
 
 
+
 x = 2n\pi.
+
 
 
 $$
@@ -52,7 +56,9 @@ The function has a minimum when $x=\pi$ and is periodic with period $2\pi.$ Ther
 $$
 
 
+
 x = \pi + 2n\pi.
+
 
 
 $$
@@ -110,7 +116,9 @@ The period of $y = \cos x$ is $2\pi.$ Therefore, for any integer $n$ we have
 $$
 
 
+
 \cos{x} = \cos{(x+2n\pi)} .
+
 
 
 $$
@@ -120,7 +128,9 @@ Substituting $n=2$ into the right-hand-side of the above gives
 $$
 
 
+
 \begin{aligned}cos⁡𝑥 & =cos⁡(𝑥+2⋅2⋅𝜋) \\ & =cos⁡(𝑥+4𝜋).\end{aligned}
+
 
 
 $$
@@ -132,7 +142,9 @@ Finally, then
 $$
 
 
+
 \begin{aligned}2cos⁡(𝑥+4𝜋)+3 & =2(−\frac{1}{3})+3 \\ & =−\frac{2}{3}+3 \\ & =\frac{7}{3}.\end{aligned}
+
 
 
 $$
@@ -144,7 +156,9 @@ Recall that a function $f(x)$ is *even* if it satisfies the property
 $$
 
 
+
 f(-x) = f(x).
+
 
 
 $$
@@ -154,7 +168,9 @@ As it turns out, cosine is an even function! So, for any value of $x,$ we have
 $$
 
 
+
 \cos(-x) = \cos(x).
+
 
 
 $$

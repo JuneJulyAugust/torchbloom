@@ -22,7 +22,9 @@ To remove the logarithm, we exponentiate both sides of the equation. The logarit
 $$
 
 
+
 \begin{aligned}ln⁡𝑥 & =2 \\ 𝑒^{ln⁡𝑥} & =𝑒^{2}\end{aligned}
+
 
 
 $$
@@ -34,7 +36,9 @@ Therefore, we get
 $$
 
 
+
 \begin{aligned}𝑥 & =𝑒^{2}.\end{aligned}
+
 
 
 $$
@@ -54,7 +58,9 @@ To remove the logarithm, we exponentiate both sides of the equation. The logarit
 $$
 
 
+
 \begin{aligned}ln⁡(4𝑥+5) & =3 \\ 𝑒^{ln⁡(4𝑥+5)} & =𝑒^{3}\end{aligned}
+
 
 
 $$
@@ -66,7 +72,9 @@ Therefore, we get
 $$
 
 
+
 \begin{aligned}4𝑥+5 & =𝑒^{3} \\ 4𝑥 & =𝑒^{3}−5 \\ 𝑥 & =\frac{𝑒^{3}−5}{4}.\end{aligned}
+
 
 
 $$
@@ -84,7 +92,9 @@ First, we rearrange our equation to isolate the logarithmic term, as follows:
 $$
 
 
+
 \begin{aligned}3ln⁡(5𝑥+1)−2 & =13 \\ 3ln⁡(5𝑥+1) & =15 \\ ln⁡(5𝑥+1) & =5\end{aligned}
+
 
 
 $$
@@ -94,7 +104,9 @@ To remove the natural logarithm, we exponentiate both sides of the equation. The
 $$
 
 
+
 \begin{aligned}ln⁡(5𝑥+1) & =5 \\ 𝑒^{ln⁡(5𝑥+1)} & =𝑒^{5}\end{aligned}
+
 
 
 $$
@@ -106,7 +118,9 @@ Therefore, we get
 $$
 
 
+
 \begin{aligned}5𝑥+1 & =𝑒^{5} \\ 5𝑥 & =𝑒^{5}−1 \\ 𝑥 & =\frac{𝑒^{5}−1}{5}.\end{aligned}
+
 
 
 $$
@@ -124,7 +138,9 @@ First, we rearrange our equation by collecting the like logarithmic terms, as fo
 $$
 
 
+
 \begin{aligned}ln⁡(1−2𝑥)+5ln⁡(1−2𝑥) & =4 \\ (1+5)ln⁡(1−2𝑥) & =4 \\ 6ln⁡(1−2𝑥) & =4 \\ ln⁡(1−2𝑥) & =\frac{2}{3}\end{aligned}
+
 
 
 $$
@@ -134,7 +150,9 @@ To remove the natural logarithm, we exponentiate both sides of the equation. The
 $$
 
 
+
 \begin{aligned}ln⁡(1−2𝑥) & =\frac{2}{3} \\ 𝑒^{ln⁡(1−2𝑥)} & =𝑒^{2/3}\end{aligned}
+
 
 
 $$
@@ -146,7 +164,9 @@ Therefore, we get
 $$
 
 
+
 \begin{aligned}1−2𝑥 & =𝑒^{2/3} \\ 1−2𝑥 & =\sqrt[√𝑒^{2}]{3} \\ −2𝑥 & =\sqrt[√𝑒^{2}]{3}−1 \\ 𝑥 & =−\frac{\sqrt[√𝑒^{2}]{3}−1}{2} \\ 𝑥 & =\frac{−\sqrt[√𝑒^{2}]{3}+1}{2} \\ 𝑥 & =\frac{1−\sqrt[√𝑒^{2}]{3}}{2}.\end{aligned}
+
 
 
 $$

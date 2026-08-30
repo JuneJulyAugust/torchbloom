@@ -26,7 +26,9 @@ The length $OP$ is called the **scalar projection** of $\mathbf{a}$ onto $\mathb
 $$
 
 
+
 \begin{aligned}comp_{𝐛}\,𝐚 & =𝑂𝑃 \\ & =|\,𝐚\,|cos⁡𝜃 \\ & =2cos⁡(\frac{𝜋}{4}) \\ & =2⋅\frac{\sqrt{√2}}{2} \\ & =\sqrt{√2}\end{aligned}
+
 
 
 $$
@@ -36,7 +38,9 @@ This formula is the general definition of the scalar projection:
 $$
 
 
+
 \text{comp}_{\mathbf{b}}\,\mathbf{a}= |\,\mathbf{a}\,| \cos\theta
+
 
 
 $$
@@ -52,7 +56,9 @@ For example, consider two vectors $\mathbf{a}$ and $\mathbf{b},$ where it is kno
 $$
 
 
+
 |\,\mathbf{a}\,|=2, \qquad \theta = 135^\circ.
+
 
 
 $$
@@ -64,7 +70,9 @@ Computing the scalar projection of $\mathbf a$ onto $\mathbf b$ using the formul
 $$
 
 
+
 \begin{aligned}comp_{𝐛}\,𝐚 & =|\,𝐚\,|cos⁡𝜃 \\ & =2cos⁡(135^{∘}) \\ & =2⋅(−\frac{\sqrt{√2}}{2}) \\ & =−\sqrt{√2}.\end{aligned}
+
 
 
 $$
@@ -84,7 +92,9 @@ Using the formula for the scalar projection, we obtain
 $$
 
 
+
 \begin{aligned}comp_{𝐛}\,𝐚 & =|\,𝐚\,|cos⁡𝜃 \\ & =13cos⁡(\frac{2𝜋}{3}) \\ & =13⋅(−\frac{1}{2}) \\ & =−\frac{13}{2}.\end{aligned}
+
 
 
 $$
@@ -96,7 +106,9 @@ We have been using the following formula for the scalar projection of $\mathbf{a
 $$
 
 
+
 \text{comp}_{\mathbf{b}}\,\mathbf{a}= |\,\mathbf{a}\,| \cos\theta
+
 
 
 $$
@@ -106,7 +118,9 @@ However, sometimes we are not given the angle between two vectors. In such cases
 $$
 
 
+
 \begin{aligned}𝐚⋅𝐛 & =|\,𝐚\,|\,|\,𝐛\,|cos⁡𝜃 \\ cos⁡𝜃 & =\frac{𝐚⋅𝐛}{|\,𝐚\,|\,|\,𝐛\,|}\end{aligned}
+
 
 
 $$
@@ -116,7 +130,9 @@ Substituting this into our original formula, we get
 $$
 
 
+
 \begin{aligned}comp_{𝐛}\,𝐚 & =|\,𝐚\,|cos⁡𝜃 \\ & =|\,𝐚\,|⋅\frac{𝐚⋅𝐛}{|\,𝐚\,|\,|\,𝐛\,|} \\ & =\frac{𝐚⋅𝐛}{|\,𝐛\,|}.\end{aligned}
+
 
 
 $$
@@ -126,7 +142,9 @@ Therefore, another general formula for the scalar projection of $\mathbf{a}$ ont
 $$
 
 
+
 \begin{aligned}comp_{𝐛}\,𝐚 & =\frac{𝐚⋅𝐛}{|\,𝐛\,|}.\end{aligned}
+
 
 
 $$
@@ -144,7 +162,9 @@ Using the formula for the scalar projection, we obtain
 $$
 
 
+
 \begin{aligned}comp_{𝐛}\,𝐚 & =\frac{𝐚⋅𝐛}{|\,𝐛\,|} \\ & =\frac{𝑎_{𝑥}𝑏_{𝑥}+𝑎_{𝑦}𝑏_{𝑦}+𝑎_{𝑧}𝑏_{𝑧}}{\sqrt{√𝑏_{2𝑥}^{}+𝑏_{2𝑦}^{}+𝑏_{2𝑧}^{}}} \\ & =\frac{3⋅2+3⋅(−7)+(−1)⋅0}{\sqrt{√2^{2}+(−7)^{2}+0^{2}}} \\ & =−\frac{15}{\sqrt{√53}}.\end{aligned}
+
 
 
 $$
@@ -174,7 +194,9 @@ Using the formula for the scalar projection, we obtain
 $$
 
 
+
 \begin{aligned}comp_{𝐛}\,𝐚 & =\frac{𝐚⋅𝐛}{|\,𝐛\,|} \\ & =\frac{𝑎_{𝑥}𝑏_{𝑥}+𝑎_{𝑦}𝑏_{𝑦}+𝑐_{𝑧}𝑏_{𝑧}}{\sqrt{√𝑏_{2𝑥}^{}+𝑏_{2𝑦}^{}+𝑏_{2𝑧}^{}}} \\ & =\frac{0⋅2+0⋅(−4)+1⋅0}{\sqrt{√2^{2}+(−4)^{2}+0^{2}}} \\ & =\frac{0}{\sqrt{√2^{2}+(−4)^{2}+0^{2}}} \\ & =0.\end{aligned}
+
 
 
 $$

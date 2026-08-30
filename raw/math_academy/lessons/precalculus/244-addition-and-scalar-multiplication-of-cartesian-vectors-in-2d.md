@@ -20,7 +20,9 @@ To compute $\mathbf{a}+\mathbf{b},$ we collect all of the $\mathbf{i}$'s and $\m
 $$
 
 
+
 \begin{aligned}𝐚+𝐛 & =(2𝐢+3𝐣)+(−4𝐢+4𝐣) \\ & =(2+(−4))𝐢+(3+4)𝐣 \\ & =−2𝐢+7𝐣.\end{aligned}
+
 
 
 $$
@@ -30,7 +32,9 @@ Writing our answer in angle bracket and column vector notations, we get
 $$
 
 
+
 [\begin{aligned}−2 \\ 7\end{aligned}]
+
 
 
 $$
@@ -40,7 +44,9 @@ To compute $-5\mathbf{a},$ we multiply each of the components by $-5\mathbin{:}$
 $$
 
 
+
 \begin{aligned}−5⋅𝐚 & =−5(2𝐢+3𝐣) \\ & =(−5⋅2)𝐢+(−5⋅3)𝐣 \\ & =−10𝐢+−15𝐣\end{aligned}
+
 
 
 $$
@@ -50,7 +56,9 @@ Writing our answer in angle bracket and column vector notations, we get
 $$
 
 
+
 [\begin{aligned}−10 \\ −15\end{aligned}]
+
 
 
 $$
@@ -68,7 +76,9 @@ To compute $\mathbf{a}-2\mathbf{b},$ we just need to compute all of the $\mathbf
 $$
 
 
+
 \begin{aligned}𝐚−2𝐛 & =(−4𝐢+6𝐣)−2(12𝐢) \\ & =−4𝐢+6𝐣−24𝐢 \\ & =(−4𝐢−24𝐢)+6𝐣 \\ & =−28𝐢+6𝐣\end{aligned}
+
 
 
 $$
@@ -82,7 +92,9 @@ For example, in angle bracket notation, we have
 $$
 
 
+
 \begin{aligned}⟨2,5⟩+⟨−3,7⟩ & = \\ ⟨2+(−3),5+7⟩ & = \\ ⟨−1,12⟩ & ,\end{aligned}
+
 
 
 $$
@@ -92,7 +104,9 @@ and in column vector notation, we have
 $$
 
 
+
 \begin{aligned}[\begin{aligned}2 \\ 5\end{aligned}]+[\begin{aligned}−3 \\ 7\end{aligned}] & =[\begin{aligned}2+(−3) \\ 5+7\end{aligned}]=[\begin{aligned}−1 \\ 12\end{aligned}].\end{aligned}
+
 
 
 $$
@@ -104,7 +118,9 @@ For example, in angle bracket notation, we have
 $$
 
 
+
 \begin{aligned}−5⋅⟨2,5⟩ & = \\ ⟨(−5)⋅2,(−5)⋅5⟩ & = \\ ⟨−10,−25⟩ & ,\end{aligned}
+
 
 
 $$
@@ -114,7 +130,9 @@ and in column vector notation, we have
 $$
 
 
+
 \begin{aligned}−5⋅[\begin{aligned}2 \\ 5\end{aligned}] & =[\begin{aligned}(−5)⋅2 \\ (−5)⋅5\end{aligned}]=[\begin{aligned}−10 \\ −25\end{aligned}].\end{aligned}
+
 
 
 $$
@@ -132,7 +150,9 @@ To compute $\mathbf{a}-3\mathbf{b},$ we just need to perform the required operat
 $$
 
 
+
 \begin{aligned}𝐚−3𝐛 & =⟨−7,15⟩−3⋅⟨14,−11⟩ \\ & =⟨−7,15⟩−⟨42,−33⟩ \\ & =⟨−7−42,15−(−33)⟩ \\ & =⟨−49,48⟩\end{aligned}
+
 
 
 $$
@@ -150,7 +170,9 @@ To compute the result, we just need to perform the required operations with each
 $$
 
 
+
 \begin{aligned}2𝐚−(𝐛−5𝐜) & =2⋅[\begin{aligned}1 \\ −5\end{aligned}]−([\begin{aligned}2 \\ 4\end{aligned}]−5⋅[\begin{aligned}−3 \\ 7\end{aligned}]) \\ & =[\begin{aligned}2 \\ −10\end{aligned}]−([\begin{aligned}2 \\ 4\end{aligned}]−[\begin{aligned}−15 \\ 35\end{aligned}]) \\ & =[\begin{aligned}2 \\ −10\end{aligned}]−[\begin{aligned}17 \\ −31\end{aligned}] \\ & =[\begin{aligned}−15 \\ 21\end{aligned}]\end{aligned}
+
 
 
 $$
@@ -168,7 +190,9 @@ We will mostly stick to these notations. However, there are many possible notati
 $$
 
 
+
 \vec{v}, \quad \overrightarrow{V}, \quad v, \quad \hat{v}.
+
 
 
 $$
@@ -192,7 +216,9 @@ Therefore, to compute the result, we just need to perform the required operation
 $$
 
 
+
 \begin{aligned}\overset{𝑎}{⃗}+6\overset{𝑏}{⃗} & =⟨−3,2⟩+6⋅⟨4,5⟩ \\ & =⟨−3,2⟩+⟨6⋅4,6⋅5⟩ \\ & =⟨−3,2⟩+⟨24,30⟩ \\ & =⟨21,32⟩\end{aligned}
+
 
 
 $$

@@ -20,7 +20,9 @@ For instance, suppose that we want to plot the graph of $y = x^3-x.$ Then we set
 $$
 
 
+
 \begin{aligned}𝑥^{3}−𝑥 & =0 \\ 𝑥(𝑥^{2}−1) & =0 \\ 𝑥(𝑥−1)(𝑥+1) & =0\end{aligned}
+
 
 
 $$
@@ -44,7 +46,9 @@ First, notice that the function is a product of $3$ linear binomials, so this fu
 $$
 
 
+
 \dfrac{1}{9}({\color{blue}{x}}-3)({\color{red}{x}}+2)(x+3) = \dfrac 1 9\cdot {\color{blue}{x}}\cdot {\color{red}{x}}\cdot x +\cdots = \dfrac 1 9 x^3+\cdots
+
 
 
 $$
@@ -56,7 +60,9 @@ We also find the $y$-intercept of the curve by plugging the value $x=0$ into the
 $$
 
 
+
 \begin{aligned}𝑦 & =\frac{1}{9}(0−3)(0+2)(0+3) \\ & =\frac{(−3)(2)(3)}{9} \\ & =−2\end{aligned}
+
 
 
 $$
@@ -78,7 +84,9 @@ We are told that $x=2$ is a root of $f(x),$ which means that $(x-2)$ is a factor
 $$
 
 
+
 \begin{aligned} & 𝑥^{3} & 𝑥^{2} & 𝑥^{1} & 𝑥^{0} \\ 2 & 1 & −1 & −4 & 4 \\ & & 2 & 2 & −4 \\ & 1 & 1 & −2 & 0\end{aligned}
+
 
 
 $$
@@ -88,7 +96,9 @@ We obtain
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =(𝑥−2)(𝑥^{2}+𝑥−2) \\ & =(𝑥−2)(𝑥−1)(𝑥+2),\end{aligned}
+
 
 
 $$
@@ -100,7 +110,9 @@ Now, let's find the $y$-intercept. To do that, we substitute $x=0,$ and we get
 $$
 
 
+
 \begin{aligned}𝑦 & =(0−2)(0−1)(0+2) \\ & =(−2)(−1)(2) \\ & =4.\end{aligned}
+
 
 
 $$
@@ -118,7 +130,9 @@ For instance, suppose that we want to plot the graph of $y = -x^3+4x.$ Then we s
 $$
 
 
+
 \begin{aligned}−𝑥^{3}+4𝑥 & =0 \\ −𝑥(𝑥^{2}−4) & =0 \\ −𝑥(𝑥−2)(𝑥+2) & =0\end{aligned}
+
 
 
 $$
@@ -142,7 +156,9 @@ First, notice that the function is a product of $3$ linear binomials, so this fu
 $$
 
 
+
 \dfrac{1}{2}({\color{blue}{x}}+5)(1-{\color{red}{x}})(x+2) = \dfrac 1 2\cdot {\color{blue}{x}}\cdot (-{\color{red}{x}})\cdot x +\cdots = -\dfrac 1 2 x^3+\cdots
+
 
 
 $$
@@ -154,7 +170,9 @@ We now find the $y$-intercept of the curve by plugging the value $x=0$ into the 
 $$
 
 
+
 \begin{aligned}𝑦 & =\frac{1}{2}(0+5)(1−0)(0+2) \\ & =\frac{(5)(1)(2)}{2} \\ & =5\end{aligned}
+
 
 
 $$
@@ -176,7 +194,9 @@ Since $x=-1$ is a root of $f(x),$ this means that $(x+1)$ is a factor of $f(x),$
 $$
 
 
+
 \begin{aligned} & 𝑥^{3} & 𝑥^{2} & 𝑥^{1} & 𝑥^{0} \\ −1 & −1 & 4 & −1 & −6 \\ & & 1 & −5 & 6 \\ & −1 & 5 & −6 & 0\end{aligned}
+
 
 
 $$
@@ -186,7 +206,9 @@ So we obtain
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =(𝑥+1)(−𝑥^{2}+5𝑥−6) \\ & =−(𝑥+1)(𝑥^{2}−5𝑥+6) \\ & =−(𝑥+1)(𝑥−2)(𝑥−3).\end{aligned}
+
 
 
 $$
@@ -198,7 +220,9 @@ Now, let's find the $y$-intercept. To do that, we substitute $x=0,$ and we get
 $$
 
 
+
 \begin{aligned}𝑦 & =−(0+1)(0−2)(0−3) \\ & =−(1)(−2)(−3) \\ & =−6.\end{aligned}
+
 
 
 $$

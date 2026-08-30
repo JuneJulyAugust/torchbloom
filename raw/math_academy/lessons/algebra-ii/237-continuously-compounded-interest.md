@@ -17,7 +17,9 @@ Suppose that some money $P_0$ is deposited into a bank account. We know the bank
 $$
 
 
+
 \begin{aligned} P &= P_0\left(1 + \dfrac r n \right)^{nt}, \end{aligned}
+
 
 
 $$
@@ -29,7 +31,9 @@ Now suppose that we increase the number of compounding periods per year so that 
 $$
 
 
+
 \begin{aligned} P &= P_0e^{rt}, \end{aligned}
+
 
 
 $$
@@ -43,7 +47,9 @@ In this situation, we have an initial balance $P_0= 450\,000,$ a growth rate of 
 $$
 
 
+
 \begin{aligned} P &= P_0e^{rt} \\[3pt] &= (450\,000)e^{(0.045)(5)} \\[3pt] &= (450\,000)e^{0.225} \\[3pt] &= (450\,000)(1.252\,322\,716) \\[3pt] &\approx 563\,545. \end{aligned}
+
 
 
 $$
@@ -65,7 +71,9 @@ The continuously compounded growth equation is
 $$
 
 
+
 \begin{aligned} P &= P_0e^{rt}. \end{aligned}
+
 
 
 $$
@@ -75,7 +83,9 @@ We have an initial amount of $P_0=13\,500,$ a rate of $r=-0.06,$ and a time dura
 $$
 
 
+
 \begin{aligned} P &= P_0e^{rt} \\&= 13\,500e^{(-0.06)(10)} \\[3pt] &= 13\,500e^{-0.6} \\[3pt] &= 13\,500(0.548\,81...) \\[3pt] &\approx 7\,409. \end{aligned}
+
 
 
 $$
@@ -95,7 +105,9 @@ The continuously compounded growth equation is
 $$
 
 
+
 \begin{aligned} P &= P_0e^{rt}. \end{aligned}
+
 
 
 $$
@@ -105,7 +117,9 @@ We have a final amount of $P=20\,500,$ a rate of $r=0.052,$ and a time duration 
 $$
 
 
+
 \begin{aligned}𝑃 & =𝑃_{0}𝑒^{𝑟𝑡} \\ 20\,500 & =𝑃_{0}𝑒^{(0.052)(14)} \\ 20\,500 & =𝑃_{0}𝑒^{0.728} \\ 20\,500 & =𝑃_{0}(2.070\,93...) \\ 𝑃_{0} & =\frac{20\,500}{2.070\,93...} \\ 𝑃_{0} & ≈9\,899.\end{aligned}
+
 
 
 $$
@@ -125,7 +139,9 @@ The continuously compounded growth equation is
 $$
 
 
+
 P = P_0e^{rt}.
+
 
 
 $$
@@ -135,7 +151,9 @@ We have an initial amount of $P_0=4\,350,$ a final amount of $P=7\,210,$ and a t
 $$
 
 
+
 \begin{aligned}𝑃 & =𝑃_{0}𝑒^{𝑟𝑡} \\ 7\,210 & =(4\,350)𝑒^{𝑟(9)} \\ 𝑒^{9𝑟} & =\frac{7\,210}{4\,350} \\ 𝑒^{9𝑟} & =1.657\,47... \\ ln⁡(𝑒^{9𝑟}) & =ln⁡(1.657\,47...) \\ 9𝑟 & =0.505\,29... \\ 𝑟 & =0.056\,14...≈5.6\%.\end{aligned}
+
 
 
 $$
@@ -149,7 +167,9 @@ The formula for continuously compounded growth, given by
 $$
 
 
+
 P=P_0 e^{rt}
+
 
 
 $$
@@ -159,7 +179,9 @@ is actually equal to the compound interest equation
 $$
 
 
+
 \begin{aligned} P &= P_0 \left(1 + \dfrac r n \right)^{nt}, \end{aligned}
+
 
 
 $$
@@ -171,7 +193,9 @@ To demonstrate, let's take the case of $P_0=1,$ $r=1,$ and $t=1.$ Then the formu
 $$
 
 
+
 \begin{aligned}𝑃 & =𝑃_{0}𝑒^{1⋅1} \\ & =1𝑒^{1⋅1} \\ & =𝑒 \\ & =2.7182818…\end{aligned}
+
 
 
 $$
@@ -181,7 +205,9 @@ and the compound interest equation is
 $$
 
 
+
 \begin{aligned}𝑃 & =𝑃_{0}(1+\frac{𝑟}{𝑛})^{𝑛𝑡} \\ & =1(1+\frac{1}{𝑛})^{𝑛⋅1} \\ & =(1+\frac{1}{𝑛})^{𝑛}.\end{aligned}
+
 
 
 $$
@@ -191,7 +217,9 @@ If we substitute a large value of $n,$ say $n=1\,000\,000,$ then we get
 $$
 
 
+
 \begin{aligned}𝑃 & =(1+\frac{1}{1\,000\,000})^{1\,000\,000} \\ & =(1.000001)^{1\,000\,000} \\ & ≈2.718280 \\ & ≈𝑒.\end{aligned}
+
 
 
 $$

@@ -23,7 +23,9 @@ To find the $x$-coordinates of the intersection points, we can substitute $y = 2
 $$
 
 
+
 \begin{aligned}\frac{𝑥^{2}}{12}+\frac{𝑦^{2}}{24} & =1 \\ \frac{𝑥^{2}}{12}+\frac{(2𝑥)^{2}}{24} & =1 \\ \frac{𝑥^{2}}{12}+\frac{4𝑥^{2}}{24} & =1 \\ 2𝑥^{2}+4𝑥^{2} & =24 \\ 6𝑥^{2} & =24 \\ 𝑥^{2} & =4 \\ 𝑥 & =±2\end{aligned}
+
 
 
 $$
@@ -49,7 +51,9 @@ Let's start by multiplying the equation of the ellipse by $16$ to remove the fra
 $$
 
 
+
 \begin{aligned}\frac{(𝑥−2)^{2}}{4}+\frac{(𝑦−1)^{2}}{16} & =1 \\ 16⋅(\frac{(𝑥−2)^{2}}{4}+\frac{(𝑦−1)^{2}}{16}) & =16⋅1 \\ 4(𝑥−2)^{2}+(𝑦−1)^{2} & =16\end{aligned}
+
 
 
 $$
@@ -59,7 +63,9 @@ To find the points of intersection, we substitute $y =- 2x+9$ into the equation 
 $$
 
 
+
 \begin{aligned}4(𝑥−2)^{2}+(𝑦−1)^{2} & =16 \\ 4(𝑥−2)^{2}+(−2𝑥+9−1)^{2} & =16 \\ 4(𝑥−2)^{2}+(−2𝑥+8)^{2} & =16 \\ 4(𝑥^{2}−4𝑥+4)+4𝑥^{2}−32𝑥+64 & =16 \\ 4𝑥^{2}−16𝑥+16+4𝑥^{2}−32𝑥+64 & =16 \\ 8𝑥^{2}−48𝑥+64 & =0 \\ 𝑥^{2}−6𝑥+8 & =0 \\ (𝑥−2)(𝑥−4) & =0 \\ 𝑥 & =2,4\end{aligned}
+
 
 
 $$
@@ -87,7 +93,9 @@ We start by multiplying the equation of the ellipse by $12$ to remove the fracti
 $$
 
 
+
 \begin{aligned}\frac{(𝑥+3)^{2}}{6}+\frac{(𝑦−1)^{2}}{12} & =1 \\ 12⋅(\frac{(𝑥+3)^{2}}{6}+\frac{(𝑦−1)^{2}}{12}) & =12⋅1 \\ 2(𝑥+3)^{2}+(𝑦−1)^{2} & =12\end{aligned}
+
 
 
 $$
@@ -97,7 +105,9 @@ To find the point of intersection, we substitute $y = -2x+1$ into the equation o
 $$
 
 
+
 \begin{aligned}2(𝑥+3)^{2}+(𝑦−1)^{2} & =12 \\ 2(𝑥+3)^{2}+(−2𝑥+1−1)^{2} & =12 \\ 2(𝑥+3)^{2}+4𝑥^{2} & =12 \\ 2(𝑥^{2}+6𝑥+9)+4𝑥^{2} & =12 \\ 2𝑥^{2}+12𝑥+18+4𝑥^{2} & =12 \\ 6𝑥^{2}+12𝑥+6 & =0 \\ 𝑥^{2}+2𝑥+1 & =0 \\ (𝑥+1)^{2} & =0 \\ 𝑥 & =−1\end{aligned}
+
 
 
 $$
@@ -107,7 +117,9 @@ To find the corresponding $y$-value, we substitute $x=- 1$ into the equation of 
 $$
 
 
+
 \begin{aligned}𝑦 & =−2⋅(−1)+1=3.\end{aligned}
+
 
 
 $$
@@ -127,7 +139,9 @@ We start by multiplying the equation of the ellipse by $10$ to remove the fracti
 $$
 
 
+
 \begin{aligned}\frac{(𝑥−4)^{2}}{10}+\frac{(𝑦+2)^{2}}{5} & =1 \\ 10(\frac{(𝑥−4)^{2}}{10}+\frac{(𝑦+2)^{2}}{5}) & =10⋅1 \\ (𝑥−4)^{2}+2(𝑦+2)^{2} & =10\end{aligned}
+
 
 
 $$
@@ -137,7 +151,9 @@ To find the points of intersection, we substitute $y = x-1$ into the equation of
 $$
 
 
+
 \begin{aligned}(𝑥−4)^{2}+2(𝑦+2)^{2} & =10 \\ (𝑥−4)^{2}+2(𝑥−1+2)^{2} & =10 \\ (𝑥−4)^{2}+2(𝑥+1)^{2} & =10 \\ 𝑥^{2}−8𝑥+16+2𝑥^{2}+4𝑥+2 & =10 \\ 3𝑥^{2}−4𝑥+8 & =0\end{aligned}
+
 
 
 $$
@@ -147,7 +163,9 @@ If we compute the discriminant $\mathcal{D}$ of the above quadratic equation, th
 $$
 
 
+
 \begin{aligned}D & =(−4)^{2}−4⋅3⋅8 \\ & =16−96 \\ & =−80.\end{aligned}
+
 
 
 $$

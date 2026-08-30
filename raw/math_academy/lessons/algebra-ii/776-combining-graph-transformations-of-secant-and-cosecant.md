@@ -21,7 +21,9 @@ We can combine vertical and horizontal shifts and stretches to get new transform
 $$
 
 
+
 y = 2 \sec\left(x- \dfrac{\pi}{8}\right) + 1.
+
 
 
 $$
@@ -61,7 +63,9 @@ Since the local minimum of cosecant is $y=1,$ from the graph we see that the giv
 $$
 
 
+
 y=\csc\left(2x\right)-1.
+
 
 
 $$
@@ -85,7 +89,9 @@ From the graph, we see that the given curve is a secant graph that's been shifte
 $$
 
 
+
 y=\dfrac 1 2\sec\left(x-1\right).
+
 
 
 $$
@@ -107,7 +113,9 @@ The period of the function is
 $$
 
 
+
 T = \frac{27\pi}{4} -\frac{3\pi}{4} = \frac{24\pi}{4} = 6\pi.
+
 
 
 $$
@@ -117,7 +125,9 @@ The formula for the period of the function $y=A\csc(Bx + C) + D$ is given by
 $$
 
 
+
 T = \dfrac{2\pi}{B}.
+
 
 
 $$
@@ -127,7 +137,9 @@ Applying the formula for $T$ gives
 $$
 
 
+
 6\pi = \dfrac{2\pi}{B} \quad\Longrightarrow\quad B = \dfrac{2\pi}{6\pi} = \dfrac 1 3.
+
 
 
 $$
@@ -137,7 +149,9 @@ So $B=\dfrac 1 3,$ and therefore, the equation of the function is
 $$
 
 
+
 y=\csc\left(\dfrac x 3-\dfrac\pi 4\right).
+
 
 
 $$
@@ -157,7 +171,9 @@ The period of the function is
 $$
 
 
+
 T = \dfrac{3\pi}4 - \left(-\dfrac \pi 4\right) = \pi.
+
 
 
 $$
@@ -167,7 +183,9 @@ The formula for the period of the function $y=A\sec(Bx + C) + D$ is given by
 $$
 
 
+
 T = \dfrac{2\pi}{B}.
+
 
 
 $$
@@ -177,7 +195,9 @@ Applying the formula of the period, we get
 $$
 
 
+
 \pi = \dfrac{2\pi}{B}\quad\Longrightarrow\quad B = \dfrac{2\pi}{\pi} = 2.
+
 
 
 $$
@@ -189,7 +209,9 @@ So, we have
 $$
 
 
+
 B+D = 2+2 = 4.
+
 
 
 $$
@@ -199,7 +221,9 @@ Finally, the equation of the curve is
 $$
 
 
+
 y=\sec\left(2x\right)+2.
+
 
 
 $$
@@ -221,7 +245,9 @@ First, we rewrite the function by factoring out the horizontal stretch factor, a
 $$
 
 
+
 \begin{aligned}𝑦 & =sec⁡(2𝑥+𝐶) \\ & =sec⁡(2(𝑥+\frac{𝐶}{2}))\end{aligned}
+
 
 
 $$
@@ -231,7 +257,9 @@ From the graph, we see that the graph of secant has been shifted by $\dfrac 1 2$
 $$
 
 
+
 \dfrac C 2 = \dfrac{1}{2}\quad\Longrightarrow\quad C = 1.
+
 
 
 $$

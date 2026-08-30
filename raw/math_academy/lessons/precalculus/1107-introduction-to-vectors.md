@@ -53,7 +53,9 @@ As we can see from the picture above, we have
 $$
 
 
+
 \overrightarrow{AB} = \overrightarrow{CD} = \textbf{a}.
+
 
 
 $$

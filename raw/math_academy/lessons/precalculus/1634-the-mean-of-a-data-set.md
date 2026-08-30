@@ -19,7 +19,9 @@ If we have a data set that consists of the points $x_1, x_2, \ldots, x_n,$ then 
 $$
 
 
+
 \overline{x} = \dfrac{1}{n} \sum_{i=1}^n x_i
+
 
 
 $$
@@ -29,7 +31,9 @@ To demonstrate, let's compute the mean of the data set below:
 $$
 
 
+
 1, \: 7, \: 3, \: 9
+
 
 
 $$
@@ -39,7 +43,9 @@ Here, there are $n=4$ data points. Adding up all the points in the data set, we 
 $$
 
 
+
 \sum_{i=1}^n x_i = 1 + 7 + 3 + 9 = 20.
+
 
 
 $$
@@ -49,7 +55,9 @@ Therefore, the mean is
 $$
 
 
+
 \begin{aligned}\overset{𝑥}{} & =\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{𝑖} \\ & =\frac{1}{4}⋅20 \\ & =5.\end{aligned}
+
 
 
 $$
@@ -69,7 +77,9 @@ If we have a data set that consists of the points $x_1, x_2, \ldots, x_n,$ then 
 $$
 
 
+
 \overline{x} = \dfrac{1}{n} \sum_{i=1}^n x_i
+
 
 
 $$
@@ -79,7 +89,9 @@ Substituting $n=12$ and $\displaystyle \sum_{i=1}^{12} x_i = 96,$ we get
 $$
 
 
+
 \begin{aligned}\overset{𝑥}{} & =\frac{1}{12}⋅96=8.\end{aligned}
+
 
 
 $$
@@ -93,7 +105,9 @@ What is the mean of the following data set?
 $$
 
 
+
 9, \: 10, \: 8, \: 11, \: 12
+
 
 
 $$
@@ -105,7 +119,9 @@ If we have a data set that consists of the points $x_1, x_2, \ldots, x_n,$ then 
 $$
 
 
+
 \overline{x} = \dfrac{1}{n} \sum_{i=1}^n x_i
+
 
 
 $$
@@ -115,7 +131,9 @@ Here, there are $n=5$ data points. Adding up all the points in the data set, we 
 $$
 
 
+
 \begin{aligned}\underset{\underset{𝑖=1}{∑}}{\overset{}{5}}𝑥_{𝑖} & =9+10+8+11+12 \\ & =50.\end{aligned}
+
 
 
 $$
@@ -125,7 +143,9 @@ Therefore, the mean is
 $$
 
 
+
 \begin{aligned}\overset{𝑥}{} & =\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{𝑖} \\ & =\frac{1}{5}⋅50 \\ & =10.\end{aligned}
+
 
 
 $$
@@ -139,7 +159,9 @@ Given that the mean of the following data set is $9,$ find the value of $a\mathb
 $$
 
 
+
 5, \: 3, \: a, \: a, \: a, \: 7
+
 
 
 $$
@@ -151,7 +173,9 @@ If we have a data set that consists of the points $x_1, x_2, \ldots, x_n,$ then 
 $$
 
 
+
 \overline{x} = \dfrac{1}{n} \sum_{i=1}^n x_i
+
 
 
 $$
@@ -161,7 +185,9 @@ Here, there are $n=6$ data points. Adding up all the points in the data set, we 
 $$
 
 
+
 \begin{aligned}\underset{\underset{𝑖=1}{∑}}{\overset{}{6}}𝑥_{𝑖} & =5+3+𝑎+𝑎+𝑎+7 \\ & =15+3𝑎.\end{aligned}
+
 
 
 $$
@@ -171,7 +197,9 @@ Therefore, the mean is given by the expression
 $$
 
 
+
 \begin{aligned}\overset{𝑥}{} & =\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{𝑖} \\ & =\frac{1}{6}⋅(15+3𝑎) \\ & =\frac{15+3𝑎}{6}.\end{aligned}
+
 
 
 $$
@@ -181,7 +209,9 @@ Finally, since we're told that $\overline{x} = 9,$ we have
 $$
 
 
+
 \begin{aligned}9 & =\frac{15+3𝑎}{6} \\ 54 & =15+3𝑎 \\ 39 & =3𝑎 \\ 𝑎 & =13.\end{aligned}
+
 
 
 $$

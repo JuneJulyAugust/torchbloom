@@ -17,7 +17,9 @@ Let's compute the first few powers of $\textrm{i},$ where $\textrm{i} = \sqrt{-1
 $$
 
 
+
 \begin{aligned}i^{0} & =1 \\ i^{1} & =i \\ i^{2} & =−1 \\ i^{3} & =i^{2}⋅i=(−1)⋅i=−i \\ i^{4} & =i^{2}⋅i^{2}=(−1)⋅(−1)=1\end{aligned}
+
 
 
 $$
@@ -37,7 +39,9 @@ Let's recall the first few powers of $\textrm{i},$ where $\textrm{i} = \sqrt{-1}
 $$
 
 
+
 \begin{aligned}i^{0} & =1 \\ i^{1} & =i \\ i^{2} & =−1 \\ i^{3} & =i^{2}⋅i=(−1)⋅i=−i \\ i^{4} & =i^{2}⋅i^{2}=(−1)⋅(−1)=1\end{aligned}
+
 
 
 $$
@@ -47,7 +51,9 @@ Therefore,
 $$
 
 
+
 \begin{aligned}4i^{3} & =4⋅(−i)=−4i.\end{aligned}
+
 
 
 $$
@@ -59,7 +65,9 @@ Let's remind ourselves of the first few powers of $\textrm{i}\mathbin{:}$
 $$
 
 
+
 \begin{aligned}i^{1} & =i \\ i^{2} & =−1 \\ i^{3} & =−i \\ i^{4} & =1\end{aligned}
+
 
 
 $$
@@ -73,7 +81,9 @@ So, for $\textrm{i}^5$ through $\textrm{i}^8,$ the exact same pattern repeats. R
 $$
 
 
+
 \begin{aligned} \textrm{i}^5&=\textrm{i}^4 \cdot \textrm{i} &= \textrm{i}\\\[5pt] \textrm{i}^6&=\textrm{i}^4 \cdot \textrm{i}^2 &=-1\\\[5pt] \textrm{i}^7&=\textrm{i}^4 \cdot \textrm{i}^3 &= -\textrm{i} \\\[5pt] \textrm{i}^8&=\textrm{i}^4 \cdot \textrm{i}^4 &= 1 . \end{aligned}
+
 
 
 $$
@@ -83,7 +93,9 @@ Similarly, for $\textrm{i}^9$ through to $\textrm{i}^{12},$ the pattern repeats 
 $$
 
 
+
 \begin{aligned} \textrm{i}^9&=(\textrm{i}^4)^2 \cdot \textrm{i} &= \textrm{i}\\\[5pt] \textrm{i}^{10}&=(\textrm{i}^4)^2 \cdot \textrm{i}^2 &=-1\\\[5pt] \textrm{i}^{11}&=(\textrm{i}^4)^2 \cdot \textrm{i}^3 &= -\textrm{i} \\\[5pt] \textrm{i}^{12}&=(\textrm{i}^4)^2 \cdot \textrm{i}^4 &= 1 \end{aligned}
+
 
 
 $$
@@ -107,7 +119,9 @@ In our case, we have $n=15.$ Dividing the power by $4,$ we get
 $$
 
 
+
 15\div 4 = 3\,\textrm{R} \color{blue}{3}.
+
 
 
 $$
@@ -117,7 +131,9 @@ So the remainder is $\color{blue}3.$ Therefore,
 $$
 
 
+
 \textrm{i}^{15} = \textrm{i}^{\color{blue}{3}} = -\textrm{i}.
+
 
 
 $$
@@ -135,7 +151,9 @@ Using the addition law for exponents, we have
 $$
 
 
+
 ab =\textrm{i}^9\cdot\textrm{i}^7 = \textrm{i}^{9+7} = \textrm{i}^{16}.
+
 
 
 $$
@@ -147,7 +165,9 @@ In our case, we have $n=16.$ Dividing the power by $4,$ we get
 $$
 
 
+
 16\div 4 = 4\,\textrm{R} \color{blue}{0}.
+
 
 
 $$
@@ -157,7 +177,9 @@ So the remainder is $\color{blue}0.$ Therefore,
 $$
 
 
+
 \textrm{i}^{16} = \textrm{i}^{\color{blue}{0}} =1.
+
 
 
 $$
@@ -175,7 +197,9 @@ First, using the laws of exponents, we can write
 $$
 
 
+
 \textrm{i}^{-2}=\dfrac{1}{\textrm{i}^2}.
+
 
 
 $$
@@ -185,7 +209,9 @@ We now recall that $\textrm{i}^2 = -1.$ Therefore,
 $$
 
 
+
 \dfrac{1}{\textrm{i}^2} = \dfrac{1}{(-1)} = -1.
+
 
 
 $$

@@ -25,7 +25,9 @@ For example, the value located in row $\color{red}4$ and position $\color{blue}2
 $$
 
 
+
 \begin{aligned} & & & & & 1 & & & & & \\ & & & & 1 & & 1 & & & & \\ & & & 1 & & 2 & & 1 & & & \\ & & 1 & & 3 & & 3 & & 1 & & \\ & 1 & & 4 & & 6 & & 4 & & 1 & \\ ⋮ & & ⋮ & & ⋮ & & ⋮ & & ⋮ & & ⋮\end{aligned}
+
 
 
 $$
@@ -53,7 +55,9 @@ The value located in row $\color{red}3$ and position $\color{blue}2$ is highligh
 $$
 
 
+
 \begin{aligned} & & & & 1 & & & & \\ & & & 1 & & 1 & & & \\ & & 1 & & 2 & & 1 & & \\ & 1 & & 3 & & 3 & & 1 & \\ ⋮ & & ⋮ & & ⋮ & & ⋮ & & ⋮\end{aligned}
+
 
 
 $$
@@ -69,7 +73,9 @@ Which expression is missing in the following equation?
 $$
 
 
+
 \displaystyle{4 \choose 3} = \displaystyle{3 \choose 2} + \displaystyle{\left[ \phantom{3 \choose 3}\right]}
+
 
 
 $$
@@ -89,7 +95,9 @@ The location of $\displaystyle{4 \choose 3}$ in Pascal's triangle is highlighted
 $$
 
 
+
 \begin{aligned} & & & & & & & (\frac{0}{0}) & & & & & \\ & & & & & & (\frac{1}{0}) & & (\frac{1}{1}) & & & & \\ & & & & & (\frac{2}{0}) & & (\frac{2}{1}) & & (\frac{2}{2}) & & & \\ & & & & (\frac{3}{0}) & & (\frac{3}{1}) & & (\frac{3}{2}) & & (\frac{3}{3}) & & \\ & & & (\frac{4}{0}) & & (\frac{4}{1}) & & (\frac{4}{2}) & & (\frac{4}{3}) & & (\frac{4}{4}) & \\ & & ⋮ & & ⋮ & & ⋮ & & ⋮ & & ⋮ & & ⋮\end{aligned}
+
 
 
 $$
@@ -99,7 +107,9 @@ Now, $\displaystyle{4 \choose 3}$ is the sum of the two closest numbers located 
 $$
 
 
+
 \displaystyle{4 \choose 3} = \displaystyle{3 \choose 2} + \displaystyle{3 \choose 3}.
+
 
 
 $$
@@ -115,7 +125,9 @@ The binomial coefficient $\displaystyle{n \choose r}$ is given by the formula
 $$
 
 
+
 \displaystyle{n \choose r} = \dfrac{n!}{(n-r)!\, r!}.
+
 
 
 $$
@@ -133,7 +145,9 @@ The binomial coefficient $\displaystyle{n \choose r}$ is given by the formula
 $$
 
 
+
 \displaystyle{n \choose r} = \dfrac{n!}{(n-r)!\, r!}.
+
 
 
 $$
@@ -143,7 +157,9 @@ In this case, we have $n = 5$ and $r = 4.$ Therefore,
 $$
 
 
+
 \begin{aligned}(\frac{5}{4}) & =\frac{5!}{(5−4)!⋅4!} \\ & =\frac{5⋅4!}{1!⋅4!} \\ & =\frac{5⋅4!}{1⋅4!} \\ & =5.\end{aligned}
+
 
 
 $$

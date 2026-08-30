@@ -20,7 +20,9 @@ For example, suppose we want to find the multiplicity of the root $x=-2$ of the 
 $$
 
 
+
 p(x) = x^4+2x^3-3x^2-8x-4.
+
 
 
 $$
@@ -30,7 +32,9 @@ Because $x=-2$ is a root of $p(x),$ we know that $(x+2)$ is a factor of $p(x),$ 
 $$
 
 
+
 \begin{aligned}−2 & 1 & 2 & −3 & −8 & −4 \\ & 0 & −2 & 0 & 6 & 4 \\ & 1 & 0 & −3 & −2 & 0\end{aligned}
+
 
 
 $$
@@ -40,7 +44,9 @@ Therefore,
 $$
 
 
+
 \dfrac{p(x)}{x+2} = x^3-3x-2,
+
 
 
 $$
@@ -50,7 +56,9 @@ which means that
 $$
 
 
+
 p(x) = (x+2) (x^3-3x-2).
+
 
 
 $$
@@ -62,7 +70,9 @@ Substituting $x=-2$ into the cubic factor $(x^3-3x-2),$ we get
 $$
 
 
+
 (-2)^3-3(-2)-2 = -8+6-2 = -4 \neq 0. \quad \color{red}\times
+
 
 
 $$
@@ -86,7 +96,9 @@ Therefore,
 $$
 
 
+
 \dfrac{p(x)}{x-3} = x^3 - 7x - 6
+
 
 
 $$
@@ -96,7 +108,9 @@ which means that
 $$
 
 
+
 p(x) = (x-3) (x^3 - 7x - 6).
+
 
 
 $$
@@ -106,7 +120,9 @@ Let's check if $x=3$ is also a root of $(x^3-7x-6).$ Substituting, we get
 $$
 
 
+
 3^3 - 7(3) - 6 = 27 - 21 - 6 = 0. \quad \color{green}\checkmark
+
 
 
 $$
@@ -118,7 +134,9 @@ Therefore,
 $$
 
 
+
 \dfrac{x^3-7x-6}{x-3} = x^2 + 3x + 2 ,
+
 
 
 $$
@@ -128,7 +146,9 @@ which means that
 $$
 
 
+
 x^3-7x-6 = (x-3)(x^2 + 3x + 2).
+
 
 
 $$
@@ -138,7 +158,9 @@ So we have
 $$
 
 
+
 \begin{aligned}𝑝(𝑥) & =(𝑥−3)(𝑥^{3}−7𝑥−6) \\ & =(𝑥−3)(𝑥−3)(𝑥^{2}+3𝑥+2) \\ & =(𝑥−3)^{2}(𝑥+1)(𝑥+2).\end{aligned}
+
 
 
 $$
@@ -154,7 +176,9 @@ For example, consider the polynomial $p(x) = x^4 - 3x^2 - 4.$ To factor this pol
 $$
 
 
+
 \begin{aligned}𝑝(𝑥) & =𝑥^{4}−3𝑥^{2}−4 \\ & =(𝑥^{2})^{2}−3(𝑥^{2})−4 \\ & =𝑢^{2}−3𝑢−4 \\ & =(𝑢−4)(𝑢+1)\end{aligned}
+
 
 
 $$
@@ -164,7 +188,9 @@ Now, we substitute $x^2$ back in for $u$ and continue factoring:
 $$
 
 
+
 \begin{aligned}𝑝(𝑥) & =(𝑥^{2}−4)(𝑥^{2}+1) \\ & =(𝑥+2)(𝑥−2)(𝑥^{2}+1)\end{aligned}
+
 
 
 $$
@@ -182,7 +208,9 @@ First, we need to factor the polynomial. This polynomial is a biquadratic since 
 $$
 
 
+
 \begin{aligned}𝑝(𝑥) & =𝑥^{4}−6𝑥^{2}−27 \\ & =(𝑥^{2})^{2}−6(𝑥^{2})−27 \\ & =𝑢^{2}−6𝑢−27 \\ & =(𝑢−9)(𝑢+3)\end{aligned}
+
 
 
 $$
@@ -192,7 +220,9 @@ Now, we substitute $x^2$ back in for $u$ and continue factoring:
 $$
 
 
+
 \begin{aligned}𝑝(𝑥) & =(𝑥^{2}−9)(𝑥^{2}+3) \\ & =(𝑥+3)(𝑥−3)(𝑥^{2}+3)\end{aligned}
+
 
 
 $$
@@ -220,7 +250,9 @@ First, we need to factor the polynomial. Notice that all of the terms have a com
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =𝑥^{4}+2𝑥^{3}+𝑥^{2}+2𝑥 \\ & =𝑥(𝑥^{3}+2𝑥^{2}+𝑥+2)\end{aligned}
+
 
 
 $$
@@ -230,7 +262,9 @@ Now, we factor the cubic by grouping, and simplify until the polynomial is fully
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =𝑥(𝑥^{3}+2𝑥^{2}+𝑥+2) \\ & =𝑥[𝑥^{2}(𝑥+2)+(𝑥+2)] \\ & =𝑥(𝑥^{2}+1)(𝑥+2)\end{aligned}
+
 
 
 $$

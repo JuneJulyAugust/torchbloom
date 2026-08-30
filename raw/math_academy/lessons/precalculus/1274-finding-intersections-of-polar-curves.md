@@ -24,7 +24,9 @@ To determine the polar coordinates of the intersection points, we must solve the
 $$
 
 
+
 \begin{aligned}𝑟=\sqrt{√2} \,sin⁡𝜃 \\ 𝑟=1\end{aligned}
+
 
 
 $$
@@ -34,7 +36,9 @@ So, we begin by setting the equations equal to each other and solving for $\thet
 $$
 
 
+
 \begin{aligned}\sqrt{√2} \,sin⁡𝜃 & =1 \\ sin⁡𝜃 & =\frac{1}{\sqrt{√2}} \\ & =\frac{\sqrt{√2}}{2}.\end{aligned}
+
 
 
 $$
@@ -44,7 +48,9 @@ Solving this equation in the interval $[0,2\pi),$ we obtain
 $$
 
 
+
 \theta_1 = \dfrac{\pi}{4}, \qquad \theta_2 = \dfrac{3\pi}{4}.
+
 
 
 $$
@@ -54,7 +60,9 @@ Also, notice that $r=1$ at both intersection points. Therefore, the polar coordi
 $$
 
 
+
 (r,\theta)=\bigg(1, \dfrac{\pi}{4}\bigg)\qquad \textrm{and} \qquad(r,\theta)=\bigg(1, \dfrac{3\pi}{4}\bigg).
+
 
 
 $$
@@ -94,7 +102,9 @@ To find the second point of intersection, we set the equations of the curves equ
 $$
 
 
+
 \begin{aligned}4\sqrt{√3}sin⁡𝜃 & =4cos⁡𝜃 \\ \frac{sin⁡𝜃}{cos⁡𝜃} & =\frac{4}{4\sqrt{√3}} \\ tan⁡𝜃 & =\frac{1}{\sqrt{√3}}\end{aligned}
+
 
 
 $$
@@ -106,7 +116,9 @@ Now, we use the equation $r=4\cos \theta$ to find the $r$-coordinate of the poin
 $$
 
 
+
 \begin{aligned}𝑟 & =4cos⁡(\frac{𝜋}{6}) \\ & =4⋅\frac{\sqrt{√3}}{2} \\ & =2\sqrt{√3}\end{aligned}
+
 
 
 $$
@@ -128,7 +140,9 @@ To determine the polar coordinates of the intersection points, we will solve the
 $$
 
 
+
 \begin{aligned}𝑟=3+3cos⁡𝜃 \\ 𝑟=4\end{aligned}
+
 
 
 $$
@@ -138,7 +152,9 @@ We begin by setting the equations equal to each other and solving for $\theta.$ 
 $$
 
 
+
 \begin{aligned} 3+3\cos \theta & = 4\\\[5pt] 3\cos \theta & = 1 \\[3pt] \cos \theta & = \dfrac 1 3. \end{aligned}
+
 
 
 $$
@@ -152,7 +168,9 @@ Therefore, the polar coordinates of the points of intersection are
 $$
 
 
+
 (r,\theta)=\left(4 , 70.5 \, ^\circ \right)\qquad \textrm{and} \qquad (r,\theta)=\left(4 , 289.5 \, ^\circ\right).
+
 
 
 $$

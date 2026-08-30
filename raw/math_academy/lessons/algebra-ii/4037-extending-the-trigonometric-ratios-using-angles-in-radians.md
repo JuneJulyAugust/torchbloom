@@ -18,7 +18,9 @@ Let's express the following trigonometric ratio in terms of a reference angle:
 $$
 
 
+
 \sin\left(\dfrac{2\pi}{3}\right)
+
 
 
 $$
@@ -30,7 +32,9 @@ To convert the measure of an angle in radians to an equivalent measure in degree
 $$
 
 
+
 \left(\dfrac{2\pi}{3}\right) \cdot \left(\dfrac {180^\circ} {\pi}\right) = 120^\circ.
+
 
 
 $$
@@ -52,7 +56,9 @@ Now, to express $\sin\left(\dfrac{2\pi}{3}\right)$ in terms of $\sin\theta_R,$ w
 $$
 
 
+
 \begin{aligned}𝜃_{𝑅} & =𝜋−𝜃 \\ & =𝜋−\frac{2𝜋}{3} \\ & =\frac{3𝜋}{3}−\frac{2𝜋}{3} \\ & =\frac{𝜋}{3}.\end{aligned}
+
 
 
 $$
@@ -64,7 +70,9 @@ $$
 $$
 
 
+
 \sin\left(\dfrac{2\pi}{3}\right) = \sin\left(\dfrac{\pi}{3}\right).
+
 
 
 $$
@@ -88,7 +96,9 @@ To convert the measure of an angle in radians to an equivalent measure in degree
 $$
 
 
+
 \left(\dfrac{8\pi}{5}\right) \cdot \left(\dfrac {180^\circ} {\pi}\right) = 288^\circ.
+
 
 
 $$
@@ -110,7 +120,9 @@ To express $\sin\left(\dfrac{8\pi}{5}\right)$ in terms of $\sin\theta_R,$ we fol
 $$
 
 
+
 \begin{aligned}𝜃_{𝑅} & =2𝜋−𝜃 \\ & =2𝜋−\frac{8𝜋}{5} \\ & =\frac{10𝜋}{5}−\frac{8𝜋}{5} \\ & =\frac{2𝜋}{5}.\end{aligned}
+
 
 
 $$
@@ -122,7 +134,9 @@ $$
 $$
 
 
+
 \sin\left(\dfrac{8\pi}{5}\right) = -\sin\left(\dfrac{2\pi}{5}\right).
+
 
 
 $$
@@ -142,7 +156,9 @@ To convert the measure of an angle in radians to an equivalent measure in degree
 $$
 
 
+
 \left(\dfrac{7\pi}{5}\right) \cdot \left(\dfrac {180^\circ} {\pi}\right) = 252^\circ.
+
 
 
 $$
@@ -164,7 +180,9 @@ To express $\cos\left(\dfrac{7\pi}{5}\right)$ in terms of $\cos\theta_R,$ we fol
 $$
 
 
+
 \begin{aligned}𝜃_{𝑅} & =𝜃−𝜋 \\ & =\frac{7𝜋}{5}−𝜋 \\ & =\frac{2𝜋}{5}.\end{aligned}
+
 
 
 $$
@@ -176,7 +194,9 @@ $$
 $$
 
 
+
 \cos\left(\dfrac{7\pi}{5}\right) = -\cos\left(\dfrac{2\pi}{5}\right).
+
 
 
 $$
@@ -196,7 +216,9 @@ To convert the measure of an angle in radians to an equivalent measure in degree
 $$
 
 
+
 \left(\dfrac{4\pi} {3}\right) \cdot \left(\dfrac {180^\circ} {\pi}\right) = 240^\circ.
+
 
 
 $$
@@ -218,7 +240,9 @@ To express $\tan\left(\dfrac{4\pi}{3}\right)$ in terms of $\tan\theta_R,$ we fol
 $$
 
 
+
 \begin{aligned}𝜃_{𝑅} & =𝜃−𝜋 \\ & =\frac{4𝜋}{3}−𝜋 \\ & =\frac{𝜋}{3}.\end{aligned}
+
 
 
 $$
@@ -230,7 +254,9 @@ $$
 $$
 
 
+
 \tan\left(\dfrac{4\pi}{3}\right) = \tan\left(\dfrac{\pi}{3}\right).
+
 
 
 $$
@@ -250,7 +276,9 @@ To convert the measure of an angle in radians to an equivalent measure in degree
 $$
 
 
+
 \left(\dfrac{13\pi}{20}\right) \cdot \left(\dfrac{180^\circ}{\pi}\right) = 117^\circ.
+
 
 
 $$
@@ -272,7 +300,9 @@ To express $\cot\left(\dfrac{13\pi}{20}\right)$ in terms of $\cot\theta_R,$ we f
 $$
 
 
+
 \begin{aligned}𝜃_{𝑅} & =𝜋−𝜃 \\ & =𝜋−\frac{13𝜋}{20} \\ & =\frac{7𝜋}{20}.\end{aligned}
+
 
 
 $$
@@ -284,7 +314,9 @@ $$
 $$
 
 
+
 \cot\left( \dfrac{13\pi}{20}\right) = -\cot\left(\dfrac{7\pi}{20}\right).
+
 
 
 $$

@@ -21,7 +21,9 @@ To calculate how much money, $P,$ we will have in an account after $t$ years, we
 $$
 
 
+
 \begin{aligned} P &= P_0\left(1 + \dfrac r n \right)^{nt}, \\\end{aligned}
+
 
 
 $$
@@ -59,7 +61,9 @@ The compound interest equation states that
 $$
 
 
+
 \begin{aligned} P &= P_0\left(1 + \dfrac r n \right)^{nt}. \end{aligned}
+
 
 
 $$
@@ -69,7 +73,9 @@ There are $12$ months in one year, so $n=12.$ We also have an initial amount of 
 $$
 
 
+
 \begin{aligned} P &= P_0\left(1 + \dfrac {r} {n} \right)^{(n)(t)} \\\[5pt] &= 10,000\left(1 + \dfrac {0.03} {12} \right)^{(12)(10)} \\\[5pt] &= 10,000(1 + 0.0025)^{120} \\\[5pt] &= 10,000(1.0025)^{120} \\\[5pt] &= 10,000(1.349\,353...) \\\[5pt] &= 13,493.53...\\\[5pt] &\approx 13,494. \end{aligned}
+
 
 
 $$
@@ -89,7 +95,9 @@ The compound interest equation states that
 $$
 
 
+
 \begin{aligned} P &= P_0\left(1 + \dfrac r n \right)^{nt}. \end{aligned}
+
 
 
 $$
@@ -99,7 +107,9 @@ Since the payments are compounded yearly, we have $n=1.$ We also have an annual 
 $$
 
 
+
 \begin{aligned} P &= P_0\left(1 + \dfrac {r} {n}\right)^{nt} \\\[5pt] 10,000 &=P_0\left(1 + \dfrac {0.02} {1}\right)^{(1)(10)} \\\[5pt] 10,000 &= P_0(1.02)^{10} \\\[5pt] 10,000 &= P_0(1.218,994...) \\\[5pt] P_0 &= \dfrac {10,000} {1.218,994...} \\\[5pt] P_0 &= 8,203.48... \\\[5pt] P_0 &\approx 8,203 \end{aligned}
+
 
 
 $$

@@ -16,7 +16,9 @@ The following two identities are known as the **sum and difference formulas for 
 $$
 
 
+
 \begin{aligned}sin⁡(𝑥+𝑦) & =sin⁡𝑥cos⁡𝑦+cos⁡𝑥sin⁡𝑦 \\ sin⁡(𝑥−𝑦) & =sin⁡𝑥cos⁡𝑦−cos⁡𝑥sin⁡𝑦\end{aligned}
+
 
 
 $$
@@ -30,7 +32,9 @@ For example, we can use the sum rule to find the exact value of $\sin(75^\circ).
 $$
 
 
+
 75^\circ = {\color{blue}45^\circ} + {\color{red}30^\circ}
+
 
 
 $$
@@ -40,7 +44,9 @@ We can now apply the sum formula for sine as follows:
 $$
 
 
+
 \begin{aligned}sin⁡75^{∘} & =sin⁡(45^{∘}+30^{∘}) \\ & =sin⁡45^{∘}cos⁡30^{∘}+cos⁡45^{∘}sin⁡30^{∘} \\ & =\frac{\sqrt{√2}}{2}⋅\frac{\sqrt{√3}}{2}+\frac{\sqrt{√2}}{2}⋅\frac{1}{2} \\ & =\frac{\sqrt{√6}+\sqrt{√2}}{4}\end{aligned}
+
 
 
 $$
@@ -50,7 +56,9 @@ Therefore, we conclude that
 $$
 
 
+
 \sin 75^\circ = \dfrac {\sqrt{6} + \sqrt{2}} 4.
+
 
 
 $$
@@ -72,7 +80,9 @@ Recall the difference formula for sine:
 $$
 
 
+
 \sin(x-y) = \sin x\cos y - \cos x\sin y
+
 
 
 $$
@@ -82,7 +92,9 @@ Applying the difference formula for sine with $x = \dfrac{\pi}{3}$ and $y = \dfr
 $$
 
 
+
 \begin{aligned}sin⁡(\frac{𝜋}{12}) & =sin⁡(\frac{𝜋}{3}−\frac{𝜋}{4}) \\ & =sin⁡(\frac{𝜋}{3})cos⁡(\frac{𝜋}{4})−cos⁡(\frac{𝜋}{3})sin⁡(\frac{𝜋}{4}) \\ & =\frac{\sqrt{√3}}{2}⋅\frac{\sqrt{√2}}{2}−\frac{1}{2}⋅\frac{\sqrt{√2}}{2} \\ & =\frac{\sqrt{√6}−\sqrt{√2}}{4}.\end{aligned}
+
 
 
 $$
@@ -100,7 +112,9 @@ Recall the difference formula for sine:
 $$
 
 
+
 \sin(u-v) = \sin u\cos v - \cos u\sin v
+
 
 
 $$
@@ -110,7 +124,9 @@ Applying the difference formula for sine with $u=x$ and $v=30^{\circ},$ we get
 $$
 
 
+
 \begin{aligned}sin⁡(𝑥−30^{∘}) & =sin⁡𝑥cos⁡30^{∘}−cos⁡𝑥sin⁡30^{∘} \\ & =sin⁡𝑥⋅(\frac{\sqrt{√3}}{2})−cos⁡𝑥⋅(\frac{1}{2}) \\ & =\frac{\sqrt{√3}sin⁡𝑥}{2}−\frac{cos⁡𝑥}{2} \\ & =\frac{\sqrt{√3}sin⁡𝑥−cos⁡𝑥}{2}.\end{aligned}
+
 
 
 $$
@@ -128,7 +144,9 @@ Recall the sum formula for sine:
 $$
 
 
+
 \sin(u+v) = \sin{u}\cos{v} + \cos{u}\sin{v}
+
 
 
 $$
@@ -138,7 +156,9 @@ Applying the sum formula for sine with $u = x$ and $v = \dfrac{\pi}{6},$ we get
 $$
 
 
+
 \begin{aligned}sin⁡(𝑥+\frac{𝜋}{6}) & =sin⁡𝑥cos⁡(\frac{𝜋}{6})+cos⁡𝑥sin⁡(\frac{𝜋}{6}) \\ & =sin⁡𝑥⋅(\frac{\sqrt{√3}}{2})+cos⁡𝑥⋅(\frac{1}{2}) \\ & =\frac{\sqrt{√3}sin⁡𝑥}{2}+\frac{cos⁡𝑥}{2} \\ & =\frac{\sqrt{√3}sin⁡𝑥+cos⁡𝑥}{2}.\end{aligned}
+
 
 
 $$
@@ -150,7 +170,9 @@ Let's now prove the sum formula for sine:
 $$
 
 
+
 \sin(A+B) = \sin A\cos B + \cos A\sin B
+
 
 
 $$
@@ -160,7 +182,9 @@ To start with, we need to use the *difference* formula for *cosine*:
 $$
 
 
+
 \cos(A-B) = \cos A\cos B + \sin A\sin B
+
 
 
 $$
@@ -172,7 +196,9 @@ Now, if we replace $A$ with $\left(\dfrac{\pi}{2} - A\right)$ in the difference 
 $$
 
 
+
 \cos\left(\dfrac\pi2 - A-B\right) = \cos \left(\dfrac\pi2 - A\right)\cos B + \sin\left(\dfrac\pi2 - A\right)\sin B
+
 
 
 $$
@@ -182,7 +208,9 @@ i.e.
 $$
 
 
+
 \cos\left(\dfrac\pi2 - (A+B)\right) = \cos \left(\dfrac\pi2 - A\right)\cos B + \sin\left(\dfrac\pi2 - A\right)\sin B.
+
 
 
 $$
@@ -192,7 +220,9 @@ Next, using the cofunction identities
 $$
 
 
+
 \begin{aligned}cos⁡(\frac{𝜋}{2}−(𝐴+𝐵)) & =sin⁡(𝐴+𝐵) \\ cos⁡(\frac{𝜋}{2}−𝐴) & =sin⁡𝐴 \\ sin⁡(\frac{𝜋}{2}−𝐴) & =cos⁡𝐴\end{aligned}
+
 
 
 $$
@@ -202,7 +232,9 @@ the identity above reduces to
 $$
 
 
+
 \sin(A+B) = \sin A\cos B + \cos A\sin B
+
 
 
 $$
@@ -216,7 +248,9 @@ We have shown how to derive the sum formula
 $$
 
 
+
 \sin(A+B) = \sin A\cos B + \cos A\sin B.
+
 
 
 $$
@@ -226,7 +260,9 @@ We can derive the difference formula for sine by simply replacing $B$ with $-B,$
 $$
 
 
+
 \cos(-B) = \cos B, \qquad \sin(-B) = -\sin B
+
 
 
 $$
@@ -236,7 +272,9 @@ Substituting these into our sum formula, we get
 $$
 
 
+
 \begin{aligned}sin⁡(𝐴+(−𝐵))=sin⁡𝐴cos⁡(−𝐵)+cos⁡𝐴sin⁡(−𝐵)\end{aligned}
+
 
 
 $$
@@ -246,7 +284,9 @@ which simplifies as
 $$
 
 
+
 \sin(A-B) = \sin A\cos B - \cos A\sin B
+
 
 
 $$

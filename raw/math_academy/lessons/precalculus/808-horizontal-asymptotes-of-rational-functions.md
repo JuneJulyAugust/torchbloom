@@ -19,7 +19,9 @@ For example, let's consider the rational function
 $$
 
 
+
 f(x) = \frac{2x^2}{x^2-1}.
+
 
 
 $$
@@ -45,7 +47,9 @@ In our case, the dominant term is $x^2.$ So, we divide every term in the numerat
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =\frac{2𝑥^{2}}{𝑥^{2}−1} \\ & =\frac{\frac{2𝑥^{2}}{𝑥^{2}}}{𝑥^{2}} \\ & =\frac{2}{1−\frac{1}{𝑥^{2}}}.\end{aligned}
+
 
 
 $$
@@ -55,7 +59,9 @@ When $x$ is very large, the $\dfrac{1}{x^2}$term becomes very small. Therefore, 
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =\frac{2}{1−\frac{1}{𝑥^{2}}} \\ & →\frac{2}{1−0} \\ & =2.\end{aligned}
+
 
 
 $$
@@ -77,7 +83,9 @@ Ignoring the coefficient, the dominant term in the denominator is $x^3.$ So, we 
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =\frac{4𝑥^{3}−𝑥}{3𝑥^{3}+24} \\ & =\frac{(\frac{4𝑥^{3}}{𝑥^{3}}−\frac{𝑥}{𝑥^{3}})}{𝑥^{3}} \\ & =\frac{(4−\frac{1}{𝑥^{2}})}{𝑥^{2}}\end{aligned}
+
 
 
 $$
@@ -87,7 +95,9 @@ Now, when $x$ is very large, the terms $\dfrac{1}{x^2}$ and $\dfrac{24}{x^3}$ be
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =\frac{(4−\frac{1}{𝑥^{2}})}{𝑥^{2}} \\ & →\frac{4−0}{3+0} \\ & =\frac{4}{3}.\end{aligned}
+
 
 
 $$
@@ -109,7 +119,9 @@ Ignoring the coefficient, the dominant term in the denominator is $x^4.$ So, we 
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =\frac{3𝑥^{2}+2𝑥}{6𝑥^{4}−1} \\ & =\frac{(\frac{3𝑥^{2}}{𝑥^{4}}+\frac{2𝑥}{𝑥^{4}})}{𝑥^{4}} \\ & =\frac{(\frac{3}{𝑥^{2}}+\frac{2}{𝑥^{3}})}{𝑥^{2}}\end{aligned}
+
 
 
 $$
@@ -119,7 +131,9 @@ Now, when $x$ is very large, the terms $\dfrac{3}{x^2}, \dfrac{2}{x^3},$ and $\d
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =\frac{(\frac{3}{𝑥^{2}}+\frac{2}{𝑥^{3}})}{𝑥^{2}} \\ & →\frac{0+0}{6−0} \\ & =0.\end{aligned}
+
 
 
 $$
@@ -141,7 +155,9 @@ Ignoring the coefficient, the dominant term in the denominator is $x^2.$ So, we 
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =\frac{2𝑥^{3}}{𝑥^{2}−1} \\ & =\frac{(\frac{2𝑥^{3}}{𝑥^{2}})}{𝑥^{2}} \\ & =\frac{2𝑥}{(1−\frac{1}{𝑥^{2}})}\end{aligned}
+
 
 
 $$
@@ -151,7 +167,9 @@ Now, when $x$ is very large, the term $\dfrac{1}{x^2}$ becomes very small. There
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =\frac{2𝑥}{(1−\frac{1}{𝑥^{2}})} \\ & ≈\frac{2𝑥}{1−0} \\ & =2𝑥.\end{aligned}
+
 
 
 $$

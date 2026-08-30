@@ -32,7 +32,9 @@ To find the final expression, we apply each transformation in turn.
 $$
 
 
+
 \begin{aligned}𝑦 & =3⋅(𝑓(𝑥+4)+5) \\ & =3⋅𝑓(𝑥+4)+3⋅5 \\ & =3𝑓(𝑥+4)+15.\end{aligned}
+
 
 
 $$
@@ -42,7 +44,9 @@ Therefore, the final function expression is
 $$
 
 
+
 y=3f(x+4)+15.
+
 
 
 $$

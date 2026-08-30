@@ -22,7 +22,9 @@ The distance between the center of the ellipse and each focus is called the **fo
 $$
 
 
+
 c = \sqrt{\left|a^2-b^2\right|},
+
 
 
 $$
@@ -34,7 +36,9 @@ For our ellipse, we already know that the focal length is $4.$ But let's check t
 $$
 
 
+
 \begin{aligned}𝑐 & =\sqrt{√|𝑎^{2}−𝑏^{2}|} \\ & =\sqrt{√|(5)^{2}−(3)^{2}|} \\ & =\sqrt{√|25−9|} \\ & =\sqrt{√16} \\ & =4\,✓\end{aligned}
+
 
 
 $$
@@ -52,7 +56,9 @@ We need to remember that the focal length $c$ of an ellipse is given by the form
 $$
 
 
+
 c = \sqrt{\left|a^2 - b^2\right|},
+
 
 
 $$
@@ -80,7 +86,9 @@ For a horizontal (i.e., "wide") ellipse centered at $(h, k),$ the coordinates of
 $$
 
 
+
 c = \sqrt{|a^2-b^2|},
+
 
 
 $$
@@ -92,7 +100,9 @@ From the diagram we see that $(h,k) = (0,1),$ $a = 4,$ and $b = 2.$ Therefore, w
 $$
 
 
+
 \begin{aligned}𝑐 & =\sqrt{√|𝑎^{2}−𝑏^{2}|} \\ & =\sqrt{√|4^{2}−2^{2}|} \\ & =\sqrt{√|16−4|} \\ & =\sqrt{√|12|} \\ & =\sqrt{√12} \\ & =2\sqrt{√3}.\end{aligned}
+
 
 
 $$
@@ -112,7 +122,9 @@ Remember that the general equation of an ellipse centered at $(h,k)$ with a hori
 $$
 
 
+
 \dfrac{(x-h)^2}{{a}^2}+\dfrac{(y-k)^2}{{b}^2}=1.
+
 
 
 $$
@@ -124,7 +136,9 @@ The coordinates of the foci of a horizontal ellipse are $(h\pm c,k).$ Recall tha
 $$
 
 
+
 c = \sqrt{|a^2-b^2|}.
+
 
 
 $$
@@ -134,7 +148,9 @@ Therefore, we have
 $$
 
 
+
 \begin{aligned}𝑐 & =\sqrt{√|𝑎^{2}−𝑏^{2}|} \\ & =\sqrt{√|25−9|} \\ & =\sqrt{√|16|} \\ & =\sqrt{√16} \\ & =4.\end{aligned}
+
 
 
 $$
@@ -154,7 +170,9 @@ Remember that the general equation of an ellipse centered at $(h,k)$ with a hori
 $$
 
 
+
 \dfrac{(x-h)^2}{{a}^2}+\dfrac{(y-k)^2}{{b}^2}=1.
+
 
 
 $$
@@ -164,7 +182,9 @@ To rewrite the equation of the ellipse in standard form, we need to group $x$ an
 $$
 
 
+
 \begin{aligned}2𝑥^{2}+𝑦^{2}+4𝑥 & =30 \\ 2(𝑥^{2}+2𝑥)+𝑦^{2} & =30 \\ 2(𝑥^{2}+2𝑥+1)−2+𝑦^{2} & =30 \\ 2(𝑥+1)^{2}+𝑦^{2} & =32 \\ \frac{(𝑥+1)^{2}}{16}+\frac{𝑦^{2}}{32} & =1 \\ \frac{(𝑥+1)^{2}}{16}+\frac{(𝑦−0)^{2}}{32} & =1\end{aligned}
+
 
 
 $$
@@ -176,7 +196,9 @@ The coordinates of the foci of a vertical ellipse are $(h, k\pm c).$ Recall that
 $$
 
 
+
 c = \sqrt{|a^2-b^2|}.
+
 
 
 $$
@@ -186,7 +208,9 @@ Therefore, we have
 $$
 
 
+
 \begin{aligned}𝑐 & =\sqrt{√|𝑎^{2}−𝑏^{2}|} \\ & =\sqrt{√|16−32|} \\ & =\sqrt{√|−16|} \\ & =\sqrt{√16} \\ & =4.\end{aligned}
+
 
 
 $$
@@ -208,7 +232,9 @@ For a horizontal ellipse, the point-foci property states that for *any* point $P
 $$
 
 
+
 |PF_1| + |PF_2| = 2a,
+
 
 
 $$
@@ -234,7 +260,9 @@ Here, the length of the semi-major axis is equal to the horizontal radius, $a.$ 
 $$
 
 
+
 |P F_1| + |P F_2| = 2a.
+
 
 
 $$
@@ -244,7 +272,9 @@ Now, let's compute the distance from the point $P$ to each focus:
 $$
 
 
+
 \begin{aligned}|𝑃𝐹_{1}| & =\sqrt{√(4−(−5))^{2}+(3−0)^{2}} \\ & =\sqrt{√9^{2}+3^{2}} \\ & =\sqrt{√81+9} \\ & =\sqrt{√90} \\ & =3\sqrt{√10} \\ & \\ |𝑃𝐹_{2}| & =\sqrt{√(4−5)^{2}+(3−0)^{2}} \\ & =\sqrt{√(−1)^{2}+3^{2}} \\ & =\sqrt{√1+9} \\ & =\sqrt{√10}\end{aligned}
+
 
 
 $$
@@ -254,7 +284,9 @@ Finally, we have
 $$
 
 
+
 \begin{aligned}|𝑃𝐹_{1}|+|𝑃𝐹_{2}|=2𝑎 \\ 3\sqrt{√10}+\sqrt{√10}=2𝑎 \\ 4\sqrt{√10}=2𝑎 \\ 2\sqrt{√10}=𝑎.\end{aligned}
+
 
 
 $$

@@ -23,7 +23,9 @@ The volume of this parallelepiped is given by the absolute value of the triple p
 $$
 
 
+
 V = |\mathbf{a} \cdot (\mathbf{b} \times \mathbf{c})|
+
 
 
 $$
@@ -45,7 +47,9 @@ First, we compute the triple product:
 $$
 
 
+
 \begin{aligned}𝐚⋅(𝐛×𝐜) & =\begin{aligned}1 & −4 & 2 \\ 0 & −2 & 1 \\ −1 & 0 & 3\end{aligned} \\ & =1⋅\begin{aligned}−2 & 1 \\ 0 & 3\end{aligned}−(−4)⋅\begin{aligned}0 & 1 \\ −1 & 3\end{aligned}+2⋅\begin{aligned}0 & −2 \\ −1 & 0\end{aligned} \\ & =(−2⋅3−1⋅0)+4(0⋅3−1⋅(−1))+2(0⋅0−(−1)⋅(−2)) \\ & =−6+4−4 \\ & =−6\end{aligned}
+
 
 
 $$
@@ -55,7 +59,9 @@ Finally, we take the absolute value. So the volume of the corresponding parallel
 $$
 
 
+
 V = |-6| = 6.
+
 
 
 $$
@@ -85,7 +91,9 @@ Computing the triple product, we get
 $$
 
 
+
 \begin{aligned}𝐚⋅(𝐛×𝐜) & =\begin{aligned}𝑘 & 2 & 1 \\ −2 & −1 & 1 \\ −1 & 1 & 2\end{aligned} \\ & =𝑘⋅\begin{aligned}−1 & 1 \\ 1 & 2\end{aligned}−2⋅\begin{aligned}−2 & 1 \\ −1 & 2\end{aligned}+1⋅\begin{aligned}−2 & −1 \\ −1 & 1\end{aligned} \\ & =𝑘(−1⋅2−1⋅1)−2(−2⋅2−(−1)⋅1)+(−2⋅1−(−1)⋅(−1)) \\ & =−3𝑘+6−3 \\ & =−3𝑘+3.\end{aligned}
+
 
 
 $$
@@ -95,7 +103,9 @@ Three vectors are coplanar if and only if their triple product is zero:
 $$
 
 
+
 \begin{aligned}𝐚⋅(𝐛×𝐜) & =0 \\ −3𝑘+3 & =0 \\ 𝑘 & =1\end{aligned}
+
 
 
 $$
@@ -125,7 +135,9 @@ First, we find the displacement vectors $\overrightarrow{AB},$ $\overrightarrow{
 $$
 
 
+
 \begin{aligned}\overset{𝐴𝐵}{} & =𝐛−𝐚 \\ & =(2𝐢+𝐣+𝐤)−(3𝐢−𝐣+2𝐤) \\ & =−𝐢+2𝐣−𝐤 \\ & =⟨−1,2,−1⟩ \\ \overset{𝐴𝐶}{} & =𝐜−𝐚 \\ & =(−𝐢+2𝐣+𝐤)−(3𝐢−𝐣+2𝐤) \\ & =−4𝐢+3𝐣−𝐤 \\ & =⟨−4,3,−1⟩ \\ \overset{𝐴𝐷}{} & =𝐝−𝐚 \\ & =(4𝐢+4𝐣+2𝐤)−(3𝐢−𝐣+2𝐤) \\ & =𝐢+5𝐣 \\ & =⟨1,5,0⟩\end{aligned}
+
 
 
 $$
@@ -137,7 +149,9 @@ Computing the triple product, we have
 $$
 
 
+
 \begin{aligned}\overset{𝐴𝐵}{}⋅(\overset{𝐴𝐶}{}×\overset{𝐴𝐷}{}) & =\begin{aligned}−1 & 2 & −1 \\ −4 & 3 & −1 \\ 1 & 5 & 0\end{aligned} \\ & =(−1)⋅\begin{aligned}3 & −1 \\ 5 & 0\end{aligned}−2⋅\begin{aligned}−4 & −1 \\ 1 & 0\end{aligned}+(−1)⋅\begin{aligned}−4 & 3 \\ 1 & 5\end{aligned} \\ & =−(3⋅0−5⋅(−1))−2((−4)⋅0−1⋅(−1))−((−4)⋅5−1⋅3) \\ & =−5−2+23 \\ & =16.\end{aligned}
+
 
 
 $$
@@ -147,7 +161,9 @@ Therefore, the volume of the corresponding parallelepiped spanned by $\overright
 $$
 
 
+
 V=|16|=16.
+
 
 
 $$
@@ -159,7 +175,9 @@ We have been using the fact that the volume of a parallelepiped spanned by the v
 $$
 
 
+
 V = |\mathbf{a} \cdot (\mathbf{b} \times \mathbf{c})|
+
 
 
 $$
@@ -179,7 +197,9 @@ To compute the volume, we will multiply the area of the base by the height. Firs
 $$
 
 
+
 \begin{aligned}ℎ & =|proj_{𝐛×𝐜}\,𝐚| \\ & =\frac{𝐚⋅(𝐛×𝐜)}{|𝐛×𝐜|} \\ & =\frac{|𝐚⋅(𝐛×𝐜)|}{|𝐛×𝐜|}\end{aligned}
+
 
 
 $$
@@ -189,7 +209,9 @@ Now, multiplying the area of the base by the height, we get
 $$
 
 
+
 \begin{aligned}𝑉 & =𝐴⋅ℎ \\ & =|𝐛×𝐜|⋅\frac{|𝐚⋅(𝐛×𝐜)|}{|𝐛×𝐜|} \\ & =|𝐚⋅(𝐛×𝐜)|.\end{aligned}
+
 
 
 $$

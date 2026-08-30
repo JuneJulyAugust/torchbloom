@@ -23,7 +23,9 @@ We can show that the equation of the trend line is given by
 $$
 
 
+
 y = mx+b,
+
 
 
 $$
@@ -55,7 +57,9 @@ The equation of the regression line is given by
 $$
 
 
+
 y = mx+b,
+
 
 
 $$
@@ -65,7 +69,9 @@ where
 $$
 
 
+
 \begin{aligned}𝑚 & =\frac{𝑆_{𝑥𝑦}}{𝑆_{𝑥𝑥}},\,𝑏=\overset{𝑦}{–}−𝑚\overset{𝑥}{}.\end{aligned}
+
 
 
 $$
@@ -81,7 +87,9 @@ Now, substituting into the formula for $m,$ we obtain
 $$
 
 
+
 m = \dfrac{-26}{38} = -\dfrac{13}{19} \approx -0.7.
+
 
 
 $$
@@ -91,7 +99,9 @@ Next, we substitute into the formula for $b{:}$
 $$
 
 
+
 \begin{aligned}𝑏 & =\overset{𝑦}{–}−𝑚\overset{𝑥}{} \\ & =3−(−\frac{13}{19})⋅4 \\ & =\frac{109}{19} \\ & ≈5.7\end{aligned}
+
 
 
 $$
@@ -101,7 +111,9 @@ Therefore, the equation of the regression line is
 $$
 
 
+
 y = -0.7x + 5.7.
+
 
 
 $$
@@ -119,7 +131,9 @@ The equation of the regression line is given by
 $$
 
 
+
 y = mx+b,
+
 
 
 $$
@@ -129,7 +143,9 @@ where
 $$
 
 
+
 \begin{aligned}𝑚 & =\frac{𝑆_{𝑥𝑦}}{𝑆_{𝑥𝑥}},\,𝑏=\overset{𝑦}{–}−𝑚\overset{𝑥}{}.\end{aligned}
+
 
 
 $$
@@ -147,7 +163,9 @@ Next, we substitute into the formula for $b{:}$
 $$
 
 
+
 \begin{aligned}𝑏 & =\overset{𝑦}{–}−𝑚\overset{𝑥}{} \\ & =24−(−\frac{9}{2})⋅2 \\ & =33\end{aligned}
+
 
 
 $$
@@ -157,7 +175,9 @@ Therefore, the equation of the regression line is
 $$
 
 
+
 y = -4.5x+33
+
 
 
 $$
@@ -167,7 +187,9 @@ Finally, we can estimate the required value by substituting $y=10$ into the equa
 $$
 
 
+
 \begin{aligned}𝑦 & =−4.5𝑥+33 \\ 10 & =−4.5𝑥+33 \\ −23 & =−4.5𝑥 \\ 𝑥 & ≈5\end{aligned}
+
 
 
 $$

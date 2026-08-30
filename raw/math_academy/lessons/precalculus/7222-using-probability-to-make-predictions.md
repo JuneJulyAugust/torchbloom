@@ -18,7 +18,9 @@ In particular, the estimated number of times an event occurs is the product of t
 $$
 
 
+
 \text{estimated number of event occurrences} = \text{total number of trials} \cdot P(\text{Event})
+
 
 
 $$
@@ -28,7 +30,9 @@ For example, suppose a fair six-sided die is rolled $60$ times. The probability 
 $$
 
 
+
 P(3) = \dfrac{1}{6}.
+
 
 
 $$
@@ -38,7 +42,9 @@ So, the estimated number of times a $3$ will be rolled is
 $$
 
 
+
 60 \cdot \dfrac{1}{6} = 10.
+
 
 
 $$
@@ -62,7 +68,9 @@ The estimated number of times an event occurs is the product of the total number
 $$
 
 
+
 \text{estimated number of event occurrences} = \text{total number of trials} \cdot P(\text{Event})
+
 
 
 $$
@@ -72,7 +80,9 @@ The probability of drawing a red or blue marble is
 $$
 
 
+
 P(\text{red or blue}) = \dfrac{4+5}{4+5+3} = \dfrac{9}{12} = \dfrac{3}{4}.
+
 
 
 $$
@@ -82,7 +92,9 @@ Substituting into the formula, the expected number of times a red or blue marble
 $$
 
 
+
 92 \cdot \dfrac{3}{4} = 69.
+
 
 
 $$
@@ -100,7 +112,9 @@ The estimated number of times an event occurs is the product of the total number
 $$
 
 
+
 \text{estimated number of event occurrences} = \text{total number of trials} \cdot P(\text{Event})
+
 
 
 $$
@@ -110,7 +124,9 @@ There are $12$ possible outcomes:
 $$
 
 
+
 \{1,2,3,4,5,6,7,8,9,10,11,12\}
+
 
 
 $$
@@ -120,7 +136,9 @@ Of these outcomes, $10$ of them are greater than $4$ or a multiple of $2{:}$
 $$
 
 
+
 \{2,4,5,6,7,8,9,10,11,12\}
+
 
 
 $$
@@ -130,7 +148,9 @@ So, the probability of landing on a number greater than $4$ or a multiple of $2$
 $$
 
 
+
 P(\text{greater than 4 or multiple of 2}) = \dfrac{10}{12} = \dfrac{5}{6}.
+
 
 
 $$
@@ -140,7 +160,9 @@ Substituting into the formula, the expected number of times the spinner lands on
 $$
 
 
+
 60 \cdot \dfrac{5}{6} = 50.
+
 
 
 $$
@@ -164,7 +186,9 @@ The estimated number of times an event occurs is the product of the total number
 $$
 
 
+
 \text{estimated number of event occurrences} = \text{total number of trials} \cdot P(\text{Event})
+
 
 
 $$
@@ -174,7 +198,9 @@ The probability of selecting a student who chooses a sandwich or a salad is
 $$
 
 
+
 P(\text{sandwich or salad}) = \dfrac{50+30}{120+50+30} = \dfrac{80}{200} = \boxed{\dfrac{2}{5}}.
+
 
 
 $$
@@ -184,7 +210,9 @@ Substituting into the formula, the estimated number of times a sandwich or salad
 $$
 
 
+
 400 \cdot \dfrac{2}{5} = \boxed{160}.
+
 
 
 $$
@@ -212,7 +240,9 @@ Their experimental probabilities, respectively, are
 $$
 
 
+
 P(\text{blue}) = \dfrac{10}{25} = \dfrac{2}{5} \qquad \text{and} \qquad P(\text{blue}) = \dfrac{48}{100} = \dfrac{12}{25}.
+
 
 
 $$
@@ -246,7 +276,9 @@ The estimated number of times an event occurs is the product of the total number
 $$
 
 
+
 \text{estimated number of event occurrences} = \text{total number of trials} \cdot P(\text{Event})
+
 
 
 $$

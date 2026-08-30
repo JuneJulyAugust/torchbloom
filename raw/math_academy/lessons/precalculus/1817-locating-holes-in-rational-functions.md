@@ -20,7 +20,9 @@ To demonstrate, let's consider the rational function $f(x),$ given by
 $$
 
 
+
 f(x)= \dfrac{x-1}{x(x-1)}.
+
 
 
 $$
@@ -36,7 +38,9 @@ From the plot, we see that $y = f(x)$ doesn't have an asymptote at $x=1,$ but an
 $$
 
 
+
 f(1) = \dfrac{1-1}{1(1-1)} = \dfrac{0}{0},
+
 
 
 $$
@@ -48,7 +52,9 @@ This explains why we couldn't cancel out the common factor of $(x-1).$ The funct
 $$
 
 
+
 y = \dfrac{x-1}{x(x-1)}\quad\textrm{and}\quad y=\dfrac1x
+
 
 
 $$
@@ -78,7 +84,9 @@ Now, we set the common factor equal to zero and solve for $x.$ This gives
 $$
 
 
+
 5x-2 = 0\quad\Longrightarrow\quad x=\dfrac 2 5.
+
 
 
 $$
@@ -102,7 +110,9 @@ Now, we set the common factor equal to zero and solve for $x.$ This gives
 $$
 
 
+
 x + 2 = 0\quad\Longrightarrow\quad x=-2.
+
 
 
 $$
@@ -116,7 +126,9 @@ Finding the reduced rational function $F(x),$ we get
 $$
 
 
+
 \begin{aligned}𝐹(𝑥) & =\frac{(𝑥+5)(𝑥+2)}{(𝑥+2)(𝑥+1)} \\ & =\frac{(𝑥+5)(𝑥+2)}{(𝑥+2)(𝑥+1)} \\ & =\frac{𝑥+5}{𝑥+1}.\end{aligned}
+
 
 
 $$
@@ -126,7 +138,9 @@ Therefore, the $y$-coordinate of the hole is
 $$
 
 
+
 \begin{aligned}𝐹(−2) & =\frac{−2+5}{−2+1} \\ & =\frac{3}{−1} \\ & =−3.\end{aligned}
+
 
 
 $$
@@ -148,7 +162,9 @@ Factoring the numerator and denominator, we get
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =\frac{𝑥^{2}−𝑥−2}{𝑥^{2}−1} \\ & =\frac{(𝑥+1)(𝑥−2)}{(𝑥−1)(𝑥+1)}.\end{aligned}
+
 
 
 $$
@@ -160,7 +176,9 @@ Now, we set the common factor equal to zero and solve for $x.$ This gives
 $$
 
 
+
 x + 1 = 0\quad\Longrightarrow\quad x= -1.
+
 
 
 $$
@@ -178,7 +196,9 @@ Consider the graph of $y=f(x)$ shown above, where $f(x)$ is the rational functio
 $$
 
 
+
 f(x) = \dfrac{x(x-4)}{g(x)}.
+
 
 
 $$
@@ -200,7 +220,9 @@ The straight line (without the hole) has a slope of $1$ and a $y$-intercept of $
 $$
 
 
+
 y = x.
+
 
 
 $$
@@ -210,7 +232,9 @@ To introduce a hole at $x=4,$ we need the function to have a common factor in th
 $$
 
 
+
 g(x) = x-4.
+
 
 
 $$
@@ -220,7 +244,9 @@ The complete expression for $f(x)$ is
 $$
 
 
+
 f(x) = \dfrac{x(x-4)}{x-4}.
+
 
 
 $$

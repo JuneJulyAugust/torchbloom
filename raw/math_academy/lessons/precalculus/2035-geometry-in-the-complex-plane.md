@@ -19,7 +19,9 @@ Consider the complex numbers $z_1$ and $z_2,$ given by
 $$
 
 
+
 z_1=a+\textrm i b , \qquad z_2=c+\textrm i d.
+
 
 
 $$
@@ -33,7 +35,9 @@ By the distance formula, the distance $D$ between these two complex numbers is g
 $$
 
 
+
 D = \sqrt{(a-c)^2+(b-d)^2}.
+
 
 
 $$
@@ -43,7 +47,9 @@ However, notice that
 $$
 
 
+
 \begin{aligned}𝑧_{1}−𝑧_{2} & =(𝑎+𝑏i)−(𝑐+𝑑i) \\ & =(𝑎−𝑐)+(𝑏−𝑑)i,\end{aligned}
+
 
 
 $$
@@ -53,7 +59,9 @@ and therefore,
 $$
 
 
+
 |z_1 - z_2 | = \sqrt{(a-c)^2+(b-d)^2} .
+
 
 
 $$
@@ -63,7 +71,9 @@ To summarize, the distance between two numbers in the complex plane equals the m
 $$
 
 
+
 D = |z_1-z_2| = \sqrt{(a-c)^2 + (b-d)^2}
+
 
 
 $$
@@ -75,7 +85,9 @@ Let's compute the distance between the following complex numbers:
 $$
 
 
+
 \begin{aligned}𝑧_{1}=1+i,\,𝑧_{2}=2+3i\end{aligned}
+
 
 
 $$
@@ -85,7 +97,9 @@ Computing the difference, we obtain
 $$
 
 
+
 \begin{aligned}𝑧_{1}−𝑧_{2} & =(1+i)−(2+3i) \\ & =−1−2i.\end{aligned}
+
 
 
 $$
@@ -95,7 +109,9 @@ Therefore, the distance between the numbers is
 $$
 
 
+
 \begin{aligned}|𝑧_{1}−𝑧_{2}| & =|−1−2i| \\ & =\sqrt{√(−1)^{2}+(−2)^{2}} \\ & =\sqrt{√5}.\end{aligned}
+
 
 
 $$
@@ -115,7 +131,9 @@ Computing the difference, we obtain
 $$
 
 
+
 \begin{aligned}𝑧_{1}−𝑧_{2} & =(12+12i)−(−4i) \\ & =12+16i.\end{aligned}
+
 
 
 $$
@@ -125,7 +143,9 @@ Therefore, the distance between the numbers is
 $$
 
 
+
 \begin{aligned}|12+16i| & =\sqrt{√(12)^{2}+(16)^{2}} \\ & =\sqrt{√400} \\ & =20.\end{aligned}
+
 
 
 $$
@@ -137,7 +157,9 @@ Given two complex numbers
 $$
 
 
+
 z_1 = a+\textrm i b, \qquad z_2 = c+\textrm i d,
+
 
 
 $$
@@ -147,7 +169,9 @@ we can calculate the number corresponding to the midpoint of the line segment jo
 $$
 
 
+
 \dfrac{z_1 + z_2}{2} = \left( \dfrac{a+c}{2} \right) + \textrm i\left( \dfrac{b+d}{2} \right)
+
 
 
 $$
@@ -163,7 +187,9 @@ The midpoint is given by
 $$
 
 
+
 \begin{aligned}\frac{𝑧_{1}+𝑧_{2}}{2} & =\frac{(2+i)+(4+5i)}{2} \\ & =\frac{6+6i}{2} \\ & =3+3i.\end{aligned}
+
 
 
 $$
@@ -185,7 +211,9 @@ Given two complex numbers
 $$
 
 
+
 z_1 = a+\textrm i b, \qquad z_2 = c+\textrm i d,
+
 
 
 $$
@@ -195,7 +223,9 @@ we can calculate the number corresponding to the midpoint of the line segment jo
 $$
 
 
+
 \dfrac{z_1 + z_2}{2}
+
 
 
 $$
@@ -205,7 +235,9 @@ Therefore, the midpoint is given by
 $$
 
 
+
 \begin{aligned}\frac{𝑧_{1}+𝑧_{2}}{2} & =\frac{(2+3i)+(−6+3i)}{2} \\ & =\frac{−4+6i}{2} \\ & =−2+3i.\end{aligned}
+
 
 
 $$
@@ -221,7 +253,9 @@ Given three complex numbers $z_1, z_2,$ and $z_3$ in the complex plane, the numb
 $$
 
 
+
 \dfrac{z_1+z_2+z_3}{3}
+
 
 
 $$
@@ -231,7 +265,9 @@ For example, let's calculate the number corresponding to the centroid of the tri
 $$
 
 
+
 \begin{aligned}𝑧_{1}=1+i,\,𝑧_{2}=5+i,\,𝑧_{3}=4i.\end{aligned}
+
 
 
 $$
@@ -245,7 +281,9 @@ The location of the centroid corresponds to the complex number
 $$
 
 
+
 \begin{aligned}\frac{𝑧_{1}+𝑧_{2}+𝑧_{3}}{3} & =\frac{(1+i)+(5+i)+(4i)}{3} \\ & =\frac{6+6i}{3} \\ & =2+2i.\end{aligned}
+
 
 
 $$
@@ -269,7 +307,9 @@ Therefore, the centroid corresponds to
 $$
 
 
+
 \begin{aligned}\frac{𝑧_{1}+𝑧_{2}+𝑧_{3}}{3} & =\frac{(−2+3i)+(5+7i)+(3+i)}{3} \\ & =\frac{6+11i}{3} \\ & =2+\frac{11}{3}i.\end{aligned}
+
 
 
 $$

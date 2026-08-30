@@ -16,7 +16,9 @@ The **power rule** allows us to simplify logarithms of exponentiated expressions
 $$
 
 
+
 \log_{n}\left( c^{\color{blue}m} \right) = {\color{blue}m}\log_{n}{c}.
+
 
 
 $$
@@ -28,7 +30,9 @@ For example, let's use the rule to simplify $\log\left(125\right)\mathbin{:}$
 $$
 
 
+
 \begin{aligned}log⁡(125) & =log⁡(5^{3}) \\ & =3log⁡(5)\end{aligned}
+
 
 
 $$
@@ -38,7 +42,9 @@ $$
 $$
 
 
+
 \begin{aligned}log⁡(125) & =log⁡(5^{3}) \\ & =log⁡(5⋅5⋅5) \\ & =log⁡(5)+log⁡(5)+log⁡(5) \\ & =3log⁡(5)\end{aligned}
+
 
 
 $$
@@ -58,7 +64,9 @@ First, let's recall the power rule for logarithms:
 $$
 
 
+
 \log_n(c^m)= m\log_n\left( c \right)
+
 
 
 $$
@@ -68,7 +76,9 @@ Using the power rule for logarithms, we get
 $$
 
 
+
 \begin{aligned}ln⁡(𝑥^{2}) & =2ln⁡𝑥.\end{aligned}
+
 
 
 $$
@@ -88,7 +98,9 @@ First, let's recall the power rule for logarithms:
 $$
 
 
+
 \log_n(c^m)= m\log_n\left( c \right)
+
 
 
 $$
@@ -98,7 +110,9 @@ Using the power rule for logarithms, we get
 $$
 
 
+
 \begin{aligned}\frac{1}{2}log_{3}⁡𝑥 & =log_{3}⁡(𝑥^{1/2}).\end{aligned}
+
 
 
 $$
@@ -118,7 +132,9 @@ First, let's recall the power rule for natural logarithms:
 $$
 
 
+
 \ln\left( c^m \right) = m\ln{c}
+
 
 
 $$
@@ -128,7 +144,9 @@ Using the power rule for logarithms and the information given, we get
 $$
 
 
+
 \begin{aligned}ln⁡(𝑥^{3}) & =3⋅ln⁡(𝑥) \\ & =3⋅0.2 \\ & =0.6.\end{aligned}
+
 
 
 $$

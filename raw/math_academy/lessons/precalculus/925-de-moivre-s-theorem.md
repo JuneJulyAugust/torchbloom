@@ -17,7 +17,9 @@ Topic ID: 925
 $$
 
 
+
 \left[ \cos (\varphi) + \textrm{i}\sin(\varphi) \right]^n = \cos(n\varphi) + \textrm{i}\sin{(n\varphi)},
+
 
 
 $$
@@ -29,7 +31,9 @@ For example, let's use De Moivre's theorem to compute $\left[\cos (3\theta) +\te
 $$
 
 
+
 \begin{aligned}[cos⁡(3𝜃)+isin⁡(3𝜃)]^{5} & =cos⁡(5⋅3𝜃)+isin⁡(5⋅3𝜃) \\ & =cos⁡(15𝜃)+isin⁡(15𝜃).\end{aligned}
+
 
 
 $$
@@ -47,7 +51,9 @@ De Moivre's Theorem states that
 $$
 
 
+
 \left[ \cos(\varphi) + \textrm{i}\sin(\varphi) \right]^n = \cos(n\varphi) + \textrm{i}\sin{(n\varphi)}.
+
 
 
 $$
@@ -57,7 +63,9 @@ In our expression, we have $n=4$ and $\varphi=\dfrac{\theta}{10}.$ Substituting 
 $$
 
 
+
 \begin{aligned}[cos⁡(\frac{𝜃}{10})+isin⁡(\frac{𝜃}{10})]^{4} & =cos⁡(4⋅\frac{𝜃}{10})+isin⁡(4⋅\frac{𝜃}{10}) \\ & =cos⁡(\frac{2𝜃}{5})+isin⁡(\frac{2𝜃}{5}).\end{aligned}
+
 
 
 $$
@@ -75,7 +83,9 @@ First, note that
 $$
 
 
+
 \dfrac{1}{\left[ \cos(\theta) +\textrm{i}\sin(\theta) \right]^2} = \left[ \cos(\theta) +\textrm{i}\sin(\theta) \right]^{-2} .
+
 
 
 $$
@@ -85,7 +95,9 @@ De Moivre's Theorem states that
 $$
 
 
+
 \left[ \cos(\varphi) + \textrm{i}\sin(\varphi) \right]^n = \cos(n\varphi) + \textrm{i}\sin{(n\varphi)}.
+
 
 
 $$
@@ -95,7 +107,9 @@ In our expression, we have $n=-2$ and $\varphi=\theta.$ Substituting in these va
 $$
 
 
+
 \begin{aligned}\frac{1}{[cos⁡(𝜃)+isin⁡(𝜃)]^{2}} & =[cos⁡(𝜃)+isin⁡(𝜃)]^{−2} \\ & =cos⁡(−2𝜃)+isin⁡(−2𝜃).\end{aligned}
+
 
 
 $$
@@ -105,7 +119,9 @@ Finally, using the fact that $\cos(-\varphi) = \cos (\varphi)$ and $\sin(-\varph
 $$
 
 
+
 \cos(-2\theta) + \textrm{i}\sin(-2\theta) = \cos(2\theta) - \textrm{i}\sin{(2\theta)}.
+
 
 
 $$
@@ -117,7 +133,9 @@ We can also use De Moivre's theorem for an expression with a subtraction:
 $$
 
 
+
 \left[ \cos (\varphi) - \textrm{i}\sin(\varphi) \right]^n = \cos(n\varphi) - \textrm{i}\sin{(n\varphi)}.
+
 
 
 $$
@@ -127,7 +145,9 @@ For example, with $n=5$ and $\varphi=3\theta,$ we have
 $$
 
 
+
 \begin{aligned}[cos⁡(3𝜃)−isin⁡(3𝜃)]^{5} & =cos⁡(5⋅3𝜃)−isin⁡(5⋅3𝜃) \\ & =cos⁡(15𝜃)−isin⁡(15𝜃).\end{aligned}
+
 
 
 $$
@@ -137,7 +157,9 @@ To understand why we can also use De Moivre's theorem with subtraction, remember
 $$
 
 
+
 \begin{aligned}[cos⁡(𝜑)−isin⁡(𝜑)]^{𝑛} & =[cos⁡(−𝜑)+isin⁡(−𝜑)]^{𝑛} \\ & =cos⁡(−𝑛𝜑)+isin⁡(−𝑛𝜑) \\ & =cos⁡(𝑛𝜑)−isin⁡(𝑛𝜑).\end{aligned}
+
 
 
 $$
@@ -155,7 +177,9 @@ First, note that
 $$
 
 
+
 \begin{aligned}\frac{1}{[cos⁡(2𝜃)−isin⁡(2𝜃)]^{4}} & =[cos⁡(2𝜃)−isin⁡(2𝜃)]^{−4}.\end{aligned}
+
 
 
 $$
@@ -165,7 +189,9 @@ For expressions involving subtraction, De Moivre's theorem states that
 $$
 
 
+
 \left[ \cos (\varphi) - \textrm{i}\sin(\varphi) \right]^n = \cos(n\varphi) - \textrm{i}\sin{(n\varphi)}.
+
 
 
 $$
@@ -175,7 +201,9 @@ In our expression, we have $n=-4$ and $\varphi=2\theta.$ Substituting in these v
 $$
 
 
+
 \begin{aligned}[cos⁡(2𝜃)−isin⁡(2𝜃)]^{−4} & =cos⁡(−4⋅2𝜃)−isin⁡(−4⋅2𝜃) \\ & =cos⁡(−8𝜃)−isin⁡(−8𝜃).\end{aligned}
+
 
 
 $$
@@ -185,7 +213,9 @@ Finally, using the fact that $\cos(-\varphi) = \cos (\varphi)$ and $\sin(-\varph
 $$
 
 
+
 \begin{aligned}cos⁡(−8𝜃)−isin⁡(−8𝜃) & =cos⁡(8𝜃)−[−isin⁡(8𝜃)] \\ & =cos⁡(8𝜃)+isin⁡(8𝜃).\end{aligned}
+
 
 
 $$

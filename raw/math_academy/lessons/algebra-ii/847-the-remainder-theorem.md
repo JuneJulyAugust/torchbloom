@@ -21,7 +21,9 @@ We get a remainder of ${\color{blue}1}.$ Indeed, when we work out $p({\color{red
 $$
 
 
+
 \begin{aligned}𝑝(2) & =4(2)^{3}−5(2)^{2}−7(2)+3 \\ & =32−20−14+3 \\ & =1\,✓\end{aligned}
+
 
 
 $$
@@ -31,7 +33,9 @@ To understand why this happens, notice that we can use the result of the synthet
 $$
 
 
+
 p(x) = (4x^2+3x-1)(x-2)+{\color{blue}{1}}.
+
 
 
 $$
@@ -41,7 +45,9 @@ When we substitute $x={\color{red}{2}}$ into the above, we see that the $(x-2)$ 
 $$
 
 
+
 \begin{aligned}𝑝(2) & =(4⋅2^{2}+3⋅2−1)(2−2)+1 \\ & =(4⋅2^{2}+3⋅2−1)(0)+1 \\ & =0+1 \\ & =1\,✓\end{aligned}
+
 
 
 $$
@@ -63,7 +69,9 @@ Evaluating $p\left(\dfrac23\right)$ directly gives
 $$
 
 
+
 \begin{aligned} p\left(\dfrac23\right) & =3\cdot \left(\dfrac23\right)^2 +7\cdot \left(\dfrac23\right) - 4 \\\[5pt] & =3\cdot \left(\dfrac49\right) +\dfrac{14}{3} - 4 \\\[5pt] & =\dfrac{12}{9}+\dfrac{2}{3} \\\[5pt] & = \dfrac{12+ 3\cdot 2}{9} \\\[5pt] & = \dfrac{18}{9}\\\[5pt] & = 2. \end{aligned}
+
 
 
 $$
@@ -87,7 +95,9 @@ Evaluating $q(-3)$ directly gives
 $$
 
 
+
 \begin{aligned}𝑞(−3) & =2(−3)^{3}+3(−3)^{2}−5(−3)+𝑐 \\ & =−54+27+15+𝑐 \\ & =−12+𝑐,\end{aligned}
+
 
 
 $$
@@ -97,7 +107,9 @@ which means that
 $$
 
 
+
 -5 = -12 + c.
+
 
 
 $$
@@ -117,7 +129,9 @@ Since $(x-2)$ is a factor of $f(x)$, it must divide into $f(x)$ with no remainde
 $$
 
 
+
 \begin{aligned}0 & =𝑓(2) \\ & =𝑎(2)^{3}+𝑏(2)^{2}−11(2)−2 \\ & =8𝑎+4𝑏−24.\end{aligned}
+
 
 
 $$
@@ -127,7 +141,9 @@ Likewise, since we're told that the remainder is $-8$ when $f(x)$ is divided by 
 $$
 
 
+
 \begin{aligned}−8 & =𝑓(1) \\ & =𝑎(1)^{3}+𝑏(1)^{2}−11(1)−2 \\ & =𝑎+𝑏−13.\end{aligned}
+
 
 
 $$
@@ -137,7 +153,9 @@ We now have the system of equations
 $$
 
 
+
 \begin{aligned}0=8𝑎+4𝑏−24 \\ −8=𝑎+𝑏−13.\end{aligned}
+
 
 
 $$
@@ -147,7 +165,9 @@ Simplifying each equation, we get
 $$
 
 
+
 \begin{aligned}2𝑎+𝑏=6 \\ 𝑎+𝑏=5.\end{aligned}
+
 
 
 $$
@@ -157,7 +177,9 @@ To eliminate $b,$ we subtract the equations and get
 $$
 
 
+
 \begin{aligned}2 & 𝑎+𝑏 & & =6 \\ −\, & 𝑎+𝑏 & & =5 \\ & 𝑎 & & =1.\end{aligned}
+
 
 
 $$

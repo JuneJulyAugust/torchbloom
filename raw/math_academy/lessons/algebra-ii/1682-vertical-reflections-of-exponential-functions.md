@@ -22,7 +22,9 @@ If we combine vertical translations with reflection, we get a general form
 $$
 
 
+
 y = -a(b^x) + k.
+
 
 
 $$

@@ -22,7 +22,9 @@ Recall that the equation of an ellipse centered at $(h,k)$ is given by
 $$
 
 
+
 \dfrac{(x-h)^2}{a^2} + \dfrac{(y-k)^2}{b^2} = 1.
+
 
 
 $$
@@ -38,7 +40,9 @@ For example, the ellipse
 $$
 
 
+
 \dfrac{(x-1)^2}{{\color{blue}4}^2} + \dfrac{(y-2)^2}{3^2} = 1,
+
 
 
 $$
@@ -50,7 +54,9 @@ On the other hand, the ellipse
 $$
 
 
+
 \dfrac{(x-1)^2}{3^2} + \dfrac{(y-2)^2}{ {\color{blue}4}^2} = 1,
+
 
 
 $$
@@ -70,7 +76,9 @@ The equation of an ellipse centered at $(h,k)$ is given by
 $$
 
 
+
 \dfrac{(x-h)^2}{a^2} + \dfrac{(y-k)^2}{b^2} = 1.
+
 
 
 $$
@@ -82,7 +90,9 @@ Comparing our equation with the standard equation, we have $(h, k) = (2, -4)$ an
 $$
 
 
+
 (h \pm a, k) = (2\pm 4, -4),
+
 
 
 $$
@@ -102,7 +112,9 @@ The equation of an ellipse centered at $(h,k)$ is given by
 $$
 
 
+
 \dfrac{(x-h)^2}{a^2} + \dfrac{(y-k)^2}{b^2} = 1.
+
 
 
 $$
@@ -114,7 +126,9 @@ Comparing our equation with the standard equation, we have $(h, k) = (-1, 2)$ an
 $$
 
 
+
 (h, k \pm b) = (-1, 2 \pm 8),
+
 
 
 $$
@@ -146,7 +160,9 @@ We see that for the blue (inner) ellipse we have $a = 5,$ $b = 3,$ and $c = \sqr
 $$
 
 
+
 e = \dfrac c a = \dfrac 4 5.
+
 
 
 $$
@@ -156,7 +172,9 @@ For the orange (outer) ellipse, we have $a = 5,$ $b = 4,$ $c = \sqrt {|a^2 - b^2
 $$
 
 
+
 e = \dfrac c a = \dfrac 3 5.
+
 
 
 $$
@@ -174,7 +192,9 @@ To understand why this is, remember that a circle is a special case of an ellips
 $$
 
 
+
 c = \sqrt {|a^2 - b^2|} = \sqrt {|r^2 - r^2|} = 0,
+
 
 
 $$
@@ -184,7 +204,9 @@ and since the length of all the semi-axes is equal to $r,$ the eccentricity is
 $$
 
 
+
 e = \dfrac 0 r=0.
+
 
 
 $$
@@ -198,7 +220,9 @@ For this circle, we have $a=b=5.$ Then the focal length is
 $$
 
 
+
 c = \sqrt {|a^2 - b^2|} = \sqrt {|5^2 - 5^2|} = 0,
+
 
 
 $$
@@ -208,7 +232,9 @@ and consequently, the eccentricity is
 $$
 
 
+
 e = \dfrac 0 r = \dfrac 0 5 =0.
+
 
 
 $$
@@ -226,7 +252,9 @@ The standard equation of an ellipse centered at $(h, k)$ is given by
 $$
 
 
+
 \dfrac{(x-h)^2}{a^2} + \dfrac{(y-k)^2}{b^2} = 1.
+
 
 
 $$
@@ -236,7 +264,9 @@ Since $9 > 5,$ the ellipse is horizontal. For a horizontal ellipse, the eccentri
 $$
 
 
+
 c=\sqrt{\vert a^2 - b^2 \vert}.
+
 
 
 $$
@@ -246,7 +276,9 @@ Comparing our equation with standard equation, we find that $a = \sqrt{9} = 3$ a
 $$
 
 
+
 \begin{aligned}𝑒 & =\frac{𝑐}{𝑎} \\ & =\frac{\sqrt{√|𝑎^{2}−𝑏^{2}|}}{𝑎} \\ & =\frac{\sqrt{√|9−5|}}{3} \\ & =\frac{\sqrt{√4}}{3} \\ & =\frac{2}{3}.\end{aligned}
+
 
 
 $$
@@ -266,7 +298,9 @@ For a vertical ellipse, the eccentricity is given by $e=\dfrac{c}{b},$ where the
 $$
 
 
+
 c= \sqrt{\vert a^2 - b^2\vert}.
+
 
 
 $$
@@ -278,7 +312,9 @@ Since $5>3,$ the semi-major axis has length $b=5,$ and therefore the eccentricit
 $$
 
 
+
 \begin{aligned}𝑒 & =\frac{𝑐}{𝑏} \\ & =\frac{\sqrt{√|𝑎^{2}−𝑏^{2}|}}{𝑏} \\ & =\frac{\sqrt{√|3^{2}−5^{2}|}}{5} \\ & =\frac{\sqrt{√|9−25|}}{5} \\ & =\frac{\sqrt{√|−16|}}{5} \\ & =\frac{4}{5}.\end{aligned}
+
 
 
 $$

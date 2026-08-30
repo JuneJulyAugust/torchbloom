@@ -23,7 +23,9 @@ Computing the trigonometric ratios for the triangle above and solving for $x$ an
 $$
 
 
+
 \begin{aligned}cos⁡𝜃 & =\frac{𝑥}{𝑟}\, & ⇒ & \, & 𝑥 & =𝑟cos⁡𝜃, \\ sin⁡𝜃 & =\frac{𝑦}{𝑟}\, & ⇒ & \, & 𝑦 & =𝑟sin⁡𝜃.\end{aligned}
+
 
 
 $$
@@ -33,7 +35,9 @@ Let's use these formulas to write the point $P(2, 60^\circ)$ in Cartesian coordi
 $$
 
 
+
 \begin{aligned}𝑥 & =2cos⁡60^{∘}=2⋅\frac{1}{2}=1, \\ 𝑦 & =2sin⁡60^{∘}=2⋅\frac{\sqrt{√3}}{2}=\sqrt{√3}.\end{aligned}
+
 
 
 $$
@@ -53,7 +57,9 @@ To convert from polar coordinates to Cartesian coordinates, we use
 $$
 
 
+
 x = r\cos\theta, \qquad y=r\sin\theta.
+
 
 
 $$
@@ -63,7 +69,9 @@ First, we calculate the $x$-coordinate of $P\mathbin{:}$
 $$
 
 
+
 \begin{aligned} x &= r\cos\theta\\\[5pt] &= 6 \cos\left(\dfrac{\pi}{3} \right)\\\[5pt] &= 6 \cdot \dfrac{1}{2}\\\[5pt] &= 3 \end{aligned}
+
 
 
 $$
@@ -73,7 +81,9 @@ Then, we calculate the $y$-coordinate of $P\mathbin{:}$
 $$
 
 
+
 \begin{aligned} y &= r\sin\theta\\\[5pt] &= 6 \sin\left(\dfrac{\pi}{3} \right)\\\[5pt] &= 6 \cdot \dfrac{\sqrt{3}}{2}\\\[5pt] &= 3\sqrt{3} \end{aligned}
+
 
 
 $$
@@ -93,7 +103,9 @@ We notice that the point $P$ is described using polar coordinates $(r,\theta),$ 
 $$
 
 
+
 r=2, \quad \theta=135^{\circ}.
+
 
 
 $$
@@ -103,7 +115,9 @@ To convert from polar coordinates to Cartesian coordinates, we use
 $$
 
 
+
 x = r\cos\theta, \qquad y=r\sin\theta.
+
 
 
 $$
@@ -113,7 +127,9 @@ First, we calculate the $x$-coordinate of $P\mathbin{:}$
 $$
 
 
+
 \begin{aligned} x &= r\cos\theta\\\[5pt] &=2 \cos\left( 135^{\circ} \right)\\\[5pt] &= 2 \left(-\dfrac{\sqrt{2}}{2}\right)\\\[5pt] &= -\sqrt{2} \end{aligned}
+
 
 
 $$
@@ -123,7 +139,9 @@ Then, we calculate the $y$-coordinate of $P\mathbin{:}$
 $$
 
 
+
 \begin{aligned} y &= r\sin\theta\\\[5pt] &= 2 \sin\left(135^{\circ}\right)\\\[5pt] &= 2 \left(\dfrac{\sqrt{2}}{2}\right)\\\[5pt] &= \sqrt{2} \end{aligned}
+
 
 
 $$
@@ -143,7 +161,9 @@ First, we use the Cartesian coordinates of $A$ to find $r,$ the distance between
 $$
 
 
+
 \begin{aligned} r &= \sqrt{x^2+y^2}\\[3pt] &=\sqrt{3^2+(\sqrt{3})^2}\\[3pt] &= \sqrt{12} \\[3pt] &= 2\sqrt{3} \end{aligned}
+
 
 
 $$
@@ -153,7 +173,9 @@ Consequently, the polar coordinates of $B$ are
 $$
 
 
+
 \left(5(2\sqrt{3}),\dfrac{5\pi}{6}\right)=\left(10\sqrt{3},\dfrac{5\pi}{6}\right).
+
 
 
 $$
@@ -163,7 +185,9 @@ Now, we convert $B$ to Cartesian coordinates. To convert from polar coordinates 
 $$
 
 
+
 x = r\cos\theta, \qquad y=r\sin\theta.
+
 
 
 $$
@@ -173,7 +197,9 @@ First, we calculate the $x$-coordinate of $B\mathbin{:}$
 $$
 
 
+
 \begin{aligned} x &= r\cos\theta\\\[5pt] &=10\sqrt{3} \cos\left(\dfrac{5\pi}{6} \right)\\\[5pt] &= 10\sqrt{3} \left(-\dfrac{\sqrt{3}}{2} \right)\\\[5pt] &= -15 \end{aligned}
+
 
 
 $$
@@ -183,7 +209,9 @@ Then, we calculate the $y$-coordinate of $B\mathbin{:}$
 $$
 
 
+
 \begin{aligned} y &= r\sin\theta\\\[5pt] &=10\sqrt{3} \sin\left(\dfrac{5\pi}{6} \right)\\\[5pt] &= 10\sqrt{3} \cdot\dfrac{1}{2} \\\[5pt] &=5\sqrt{3} \end{aligned}
+
 
 
 $$
@@ -207,7 +235,9 @@ Notice that one must traverse the circle counterclockwise to move from the point
 $$
 
 
+
 \theta_B = \dfrac{\pi}{4}+\dfrac{\pi}{2} = \dfrac{3\pi}{4}.
+
 
 
 $$
@@ -219,7 +249,9 @@ Now, we convert $B$ to Cartesian coordinates. To convert from polar coordinates 
 $$
 
 
+
 x = r\cos\theta, \qquad y=r\sin\theta.
+
 
 
 $$
@@ -229,7 +261,9 @@ First, we calculate the $x$-coordinate of $B\mathbin{:}$
 $$
 
 
+
 \begin{aligned} x &= r\cos\theta\\\[5pt] &=3\cos\left(\dfrac{3\pi}{4} \right)\\\[5pt] &=3\left(-\dfrac{\sqrt{2}}{2}\right)\\\[5pt] &=-\dfrac{3\sqrt 2}{2} \end{aligned}
+
 
 
 $$
@@ -239,7 +273,9 @@ Then, we calculate the $y$-coordinate of $B\mathbin{:}$
 $$
 
 
+
 \begin{aligned} y &= r\sin\theta\\\[5pt] &= 3\sin\left(\dfrac{3\pi}{4} \right)\\\[5pt] &= 3\cdot\dfrac{\sqrt{2}}{2}\\\[5pt] &=\dfrac{3\sqrt 2}{2} \end{aligned}
+
 
 
 $$

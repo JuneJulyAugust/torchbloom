@@ -18,7 +18,9 @@ Suppose we have the transformed exponential function
 $$
 
 
+
 f(x)=2^{5x}+1
+
 
 
 $$
@@ -30,7 +32,9 @@ and we wish to find the inverse function $f^{-1}(x).$ We can do this using the f
 $$
 
 
+
 \begin{aligned}𝑦 & =2^{5𝑥}+1\end{aligned}
+
 
 
 $$
@@ -40,7 +44,9 @@ $$
 $$
 
 
+
 \begin{aligned}𝑥 & =2^{5𝑦}+1\end{aligned}
+
 
 
 $$
@@ -50,7 +56,9 @@ $$
 $$
 
 
+
 \begin{aligned}𝑥 & =2^{5𝑦}+1 \\ 𝑥−1 & =2^{5𝑦} \\ log_{2}⁡(𝑥−1) & =log_{2}⁡(2^{5𝑦}) \\ log_{2}⁡(𝑥−1) & =5𝑦 \\ 5𝑦 & =log_{2}⁡(𝑥−1) \\ 𝑦 & =\frac{1}{5}log_{2}⁡(𝑥−1)\end{aligned}
+
 
 
 $$
@@ -60,7 +68,9 @@ Therefore, the inverse function is
 $$
 
 
+
 f^{-1}(x) = \dfrac{1}{5}\log_2{(x-1)}.
+
 
 
 $$
@@ -78,7 +88,9 @@ To find $f^{-1}(x),$ we start by replacing $f(x)$ with $y\mathbin{:}$
 $$
 
 
+
 \begin{aligned}𝑦 & =𝑒^{𝑥−𝑘}+2\end{aligned}
+
 
 
 $$
@@ -88,7 +100,9 @@ Now, interchanging $x$ and $y$ gives
 $$
 
 
+
 \begin{aligned}𝑥 & =𝑒^{𝑦−𝑘}+2.\end{aligned}
+
 
 
 $$
@@ -98,7 +112,9 @@ Finally, we make $y$ the subject of the equation, as follows:
 $$
 
 
+
 \begin{aligned}𝑥 & =𝑒^{𝑦−𝑘}+2 \\ 𝑒^{𝑦−𝑘} & =𝑥−2 \\ ln⁡(𝑒^{𝑦−𝑘}) & =ln⁡(𝑥−2) \\ 𝑦−𝑘 & =ln⁡(𝑥−2) \\ 𝑦 & =ln⁡(𝑥−2)+𝑘\end{aligned}
+
 
 
 $$
@@ -120,7 +136,9 @@ To find $f^{-1}(x),$ we start by replacing $f(x)$ with $y\mathbin{:}$
 $$
 
 
+
 \begin{aligned}𝑦 & =\frac{1}{2}𝑒^{𝑥+8}−2\end{aligned}
+
 
 
 $$
@@ -130,7 +148,9 @@ Now, interchanging $x$ and $y$ gives
 $$
 
 
+
 \begin{aligned}𝑥 & =\frac{1}{2}𝑒^{𝑦+8}−2.\end{aligned}
+
 
 
 $$
@@ -140,7 +160,9 @@ Finally, we make $y$ the subject of the equation, as follows:
 $$
 
 
+
 \begin{aligned}𝑥 & =\frac{1}{2}𝑒^{𝑦+8}−2 \\ \frac{1}{2}𝑒^{𝑦+8} & =𝑥+2 \\ 𝑒^{𝑦+8} & =2𝑥+4 \\ ln⁡(𝑒^{𝑦+8}) & =ln⁡(2𝑥+4) \\ 𝑦+8 & =ln⁡(2𝑥+4) \\ 𝑦 & =ln⁡(2𝑥+4)−8\end{aligned}
+
 
 
 $$
@@ -154,7 +176,9 @@ Now suppose we wish to find the inverse of the logarithmic function
 $$
 
 
+
 f(x)=3\log_{2}(x-1)+1.
+
 
 
 $$
@@ -166,7 +190,9 @@ We can find $f^{-1}(x)$ using the same three steps as before.
 $$
 
 
+
 y = 3\log_{2}(x-1)+1
+
 
 
 $$
@@ -176,7 +202,9 @@ $$
 $$
 
 
+
 x = 3\log_{2}(y-1)+1
+
 
 
 $$
@@ -186,7 +214,9 @@ $$
 $$
 
 
+
 \begin{aligned}3log_{2}⁡(𝑦−1)+1 & =𝑥 \\ 3log_{2}⁡(𝑦−1) & =𝑥−1 \\ log_{2}⁡(𝑦−1) & =\frac{𝑥−1}{3} \\ 2^{log_{2}⁡(𝑦−1)} & =2^{(𝑥−1)/3} \\ 𝑦−1 & =2^{(𝑥−1)/3} \\ 𝑦 & =2^{(𝑥−1)/3}+1\end{aligned}
+
 
 
 $$
@@ -196,7 +226,9 @@ Therefore, the inverse function is
 $$
 
 
+
 f^{-1}(x) = {2}^{(x-1)/3}+1.
+
 
 
 $$
@@ -214,7 +246,9 @@ To find $f^{-1}(x),$ we start by replacing $f(x)$ with $y\mathbin{:}$
 $$
 
 
+
 y = \ln(x+3)+6
+
 
 
 $$
@@ -224,7 +258,9 @@ Then, we swap $x$ and $y{:}$
 $$
 
 
+
 \begin{aligned}𝑥 & =ln⁡(𝑦+3)+6\end{aligned}
+
 
 
 $$
@@ -234,7 +270,9 @@ Finally, we make $y$ the subject of the equation, as follows:
 $$
 
 
+
 \begin{aligned}𝑥 & =ln⁡(𝑦+3)+6 \\ ln⁡(𝑦+3) & =𝑥−6 \\ 𝑒^{ln⁡(𝑦+3)} & =𝑒^{𝑥−6} \\ 𝑦+3 & =𝑒^{𝑥−6} \\ 𝑦 & =𝑒^{𝑥−6}−3\end{aligned}
+
 
 
 $$
@@ -254,7 +292,9 @@ To find $f^{-1}(x),$ we start by replacing $f(x)$ with $y\mathbin{:}$
 $$
 
 
+
 \begin{aligned}𝑦 & =2log_{4}⁡(3𝑥)−1\end{aligned}
+
 
 
 $$
@@ -264,7 +304,9 @@ Then, we swap $x$ and $y{:}$
 $$
 
 
+
 \begin{aligned}𝑥 & =2log_{4}⁡(3𝑦)−1\end{aligned}
+
 
 
 $$
@@ -274,7 +316,9 @@ Finally, we make $y$ the subject of the equation, as follows:
 $$
 
 
+
 \begin{aligned}𝑥 & =2log_{4}⁡(3𝑦)−1 \\ 2log_{4}⁡(3𝑦) & =𝑥+1 \\ log_{4}⁡(3𝑦) & =\frac{𝑥+1}{2} \\ 4^{log_{4}⁡(3𝑦)} & =4^{(𝑥+1)/2} \\ 3𝑦 & =4^{(𝑥+1)/2} \\ 𝑦 & =\frac{1}{3}4^{(𝑥+1)/2}\end{aligned}
+
 
 
 $$

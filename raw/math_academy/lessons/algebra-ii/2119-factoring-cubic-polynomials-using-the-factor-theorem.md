@@ -29,7 +29,9 @@ Therefore,
 $$
 
 
+
 \dfrac{x^3-2x^2-x+2}{x-2}=x^2-1,
+
 
 
 $$
@@ -39,7 +41,9 @@ which means that
 $$
 
 
+
 x^3-2x^2-x+2 = (x-2) (x^2-1).
+
 
 
 $$
@@ -49,7 +53,9 @@ We can factor the quadratic factor even further, and get
 $$
 
 
+
 x^3-2x^2-x+2 = (x-2) (x-1) (x+1).
+
 
 
 $$
@@ -59,7 +65,9 @@ Now that our polynomial is fully factored, we can see that the three roots of th
 $$
 
 
+
 x=2, \qquad x=1, \qquad x=-1.
+
 
 
 $$
@@ -83,7 +91,9 @@ Therefore,
 $$
 
 
+
 \dfrac{x^3+2x^2-x-2}{x+2} = x^2-1,
+
 
 
 $$
@@ -93,7 +103,9 @@ which means
 $$
 
 
+
 x^3+2x^2-x-2 = (x+2) (x^2-1).
+
 
 
 $$
@@ -103,7 +115,9 @@ We can factor the quadratic factor even further, and get
 $$
 
 
+
 x^3+2x^2-x-2 = (x+2) (x+1)(x-1).
+
 
 
 $$
@@ -125,7 +139,9 @@ Therefore,
 $$
 
 
+
 \dfrac{2x^3+3x^2-18x+8}{x-2} = 2x^2+7x-4,
+
 
 
 $$
@@ -135,7 +151,9 @@ which means
 $$
 
 
+
 2x^3+3x^2-18x+8 = (x-2)(2x^2+7x-4).
+
 
 
 $$
@@ -145,7 +163,9 @@ We can factor the quadratic factor even further, and get
 $$
 
 
+
 2x^3+3x^2-18x+8 = (x-2)(2x-1)(x+4).
+
 
 
 $$
@@ -155,7 +175,9 @@ We can now equate each factor to $0$ and solve for $x$ to find the three roots:
 $$
 
 
+
 \begin{aligned}𝑥+4 & =0\, & 2𝑥−1 & =0\, & 𝑥−2 & =0 \\ 𝑥 & =−4\, & 𝑥 & =\frac{1}{2}\, & 𝑥 & =2\end{aligned}
+
 
 
 $$
@@ -177,7 +199,9 @@ Therefore,
 $$
 
 
+
 \dfrac{x^3 - 4x^2 - 2x + 20}{x+2} = x^2 - 6x + 10,
+
 
 
 $$
@@ -187,7 +211,9 @@ which means that
 $$
 
 
+
 x^3 - 4x^2 - 2x + 20 = (x+2)(x^2 - 6x + 10).
+
 
 
 $$
@@ -197,7 +223,9 @@ To see whether the quadratic polynomial $x^2 - 6x + 10$ can be factored any furt
 $$
 
 
+
 b^2 - 4ac = (-6)^2 - 4(1)(10) = -4 < 0
+
 
 
 $$
@@ -209,7 +237,9 @@ Therefore, the full factorization of $f(x)$ over the real numbers is given by
 $$
 
 
+
 x^3 - 4x^2 - 2x + 20 = (x+2)(x^2 - 6x + 10).
+
 
 
 $$
@@ -231,7 +261,9 @@ Therefore,
 $$
 
 
+
 \dfrac{x^3 - x^2 - 4x - 2}{x+1} = x^2 - 2x - 2,
+
 
 
 $$
@@ -241,7 +273,9 @@ which means that
 $$
 
 
+
 x^3 - x^2 - 4x - 2 = (x+1) (x^2 - 2x -2).
+
 
 
 $$
@@ -251,7 +285,9 @@ To see whether the quadratic polynomial $x^2 - 2x - 2$ can be factored any furth
 $$
 
 
+
 \mathcal D = b^2 - 4ac = (-2)^2 - 4(1)(-2) = 12 > 0
+
 
 
 $$
@@ -263,7 +299,9 @@ Therefore, the full factorization of $f(x)$ (over the rational numbers) is given
 $$
 
 
+
 x^3 - x^2 - 4x - 2 = (x+1)(x^2 - 2x - 2).
+
 
 
 $$
@@ -273,7 +311,9 @@ $$
 $$
 
 
+
 x+1 = 0\qquad \textrm{and}\qquad x^2 - 2x - 2 = 0.
+
 
 
 $$

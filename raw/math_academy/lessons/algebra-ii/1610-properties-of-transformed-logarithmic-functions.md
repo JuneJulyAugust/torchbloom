@@ -24,7 +24,9 @@ First, recall that the domain of $y=\log_a (x)$ is
 $$
 
 
+
 x > 0.
+
 
 
 $$
@@ -34,7 +36,9 @@ To find the domain of $f(x),$ we take the above inequality and replace $x$ with 
 $$
 
 
+
 x-1 > 0.
+
 
 
 $$
@@ -44,7 +48,9 @@ Solving this inequality, we obtain
 $$
 
 
+
 \begin{aligned}𝑥−1 & >0 \\ 𝑥 & >1.\end{aligned}
+
 
 
 $$
@@ -64,7 +70,9 @@ The domain of $y = \ln x$ is
 $$
 
 
+
 x \gt 0.
+
 
 
 $$
@@ -74,7 +82,9 @@ To find the domain of $f(x),$ we replace $x$ with $2x+4$ in the above inequality
 $$
 
 
+
 2x+4 > 0.
+
 
 
 $$
@@ -84,7 +94,9 @@ Solving this inequality, we obtain
 $$
 
 
+
 \begin{aligned}2𝑥+4 & >0 \\ 2𝑥 & >−4 \\ 𝑥 & >−2.\end{aligned}
+
 
 
 $$
@@ -106,7 +118,9 @@ To find the equation of the vertical asymptote of $f(x),$ we set the argument of
 $$
 
 
+
 \begin{aligned}4𝑥 & =0 \\ 𝑥 & =0.\end{aligned}
+
 
 
 $$
@@ -126,7 +140,9 @@ To find the root of $f(x),$ we must solve $f(x)=0\mathbin{:}$
 $$
 
 
+
 \log(2x) - 2 = 0
+
 
 
 $$
@@ -136,7 +152,9 @@ We solve this equation by making $x$ the subject, as follows:
 $$
 
 
+
 \begin{aligned}log⁡(2𝑥)−2 & =0 \\ log⁡(2𝑥) & =2 \\ 10^{log⁡(2𝑥)} & =10^{2} \\ 2𝑥 & =100 \\ 𝑥 & =50\end{aligned}
+
 
 
 $$
@@ -156,7 +174,9 @@ The range of $\log_2 x$ is
 $$
 
 
+
 \log_2 x \in (-\infty,\infty).
+
 
 
 $$
@@ -166,7 +186,9 @@ Because the range of the logarithm function is the interval containing all real 
 $$
 
 
+
 f(x) \in (-\infty,\infty).
+
 
 
 $$

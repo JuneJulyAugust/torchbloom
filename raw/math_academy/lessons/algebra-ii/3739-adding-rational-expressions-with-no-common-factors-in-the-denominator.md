@@ -17,7 +17,9 @@ Remember that in order to add fractions with different denominators, like $\dfra
 $$
 
 
+
 \begin{aligned}\frac{1}{4}+\frac{1}{8} & = \\ \frac{2}{8}+\frac{1}{8} & = \\ \frac{3}{8} & \end{aligned}
+
 
 
 $$
@@ -37,7 +39,9 @@ Using the fact that $2=\dfrac 2 1,$ we can write the expression as
 $$
 
 
+
 \dfrac 2 1 + \dfrac{2}{k}.
+
 
 
 $$
@@ -47,7 +51,9 @@ In order to add the two fractions, we need them to have a common denominator. So
 $$
 
 
+
 \begin{aligned}\frac{2}{1}+\frac{2}{𝑘} & = \\ \frac{𝑘}{𝑘}⋅\frac{2}{1}+\frac{2}{𝑘} & = \\ \frac{2𝑘}{𝑘}+\frac{2}{𝑘} & \end{aligned}
+
 
 
 $$
@@ -57,7 +63,9 @@ Finally, we add the fractions and simplify the result:
 $$
 
 
+
 \begin{aligned}\frac{2𝑘}{𝑘}+\frac{2}{𝑘} & = \\ \frac{2𝑘+2}{𝑘} & = \\ \frac{2(𝑘+1)}{𝑘} & \end{aligned}
+
 
 
 $$
@@ -77,7 +85,9 @@ To do this, we multiply the top and bottom of the first fraction by $p+1,$ and t
 $$
 
 
+
 \begin{aligned}\frac{1}{𝑞}+\frac{1}{𝑝+1} & = \\ \frac{𝑝+1}{𝑝+1}⋅\frac{1}{𝑞}+\frac{𝑞}{𝑞}⋅\frac{1}{𝑝+1} & = \\ \frac{𝑝+1}{(𝑝+1)𝑞}+\frac{𝑞}{(𝑝+1)𝑞} & = \\ \frac{𝑝+𝑞+1}{(𝑝+1)𝑞} & \end{aligned}
+
 
 
 $$

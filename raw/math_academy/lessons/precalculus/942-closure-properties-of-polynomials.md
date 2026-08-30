@@ -23,7 +23,9 @@ To illustrate, let's consider the following two integers:
 $$
 
 
+
 a = 3, \qquad b=2
+
 
 
 $$
@@ -43,7 +45,9 @@ We say the integers are **closed** under addition, subtraction, and multiplicati
 $$
 
 
+
 \dfrac{a}{b} = \dfrac{4}{2} = 2,
+
 
 
 $$
@@ -59,7 +63,9 @@ To illustrate, let's consider the following two polynomials:
 $$
 
 
+
 P(x) = x+1, \qquad Q(x) = x^2
+
 
 
 $$
@@ -77,7 +83,9 @@ $$
 $$
 
 
+
 \dfrac{P}{Q} = \dfrac{x^2}{x} = x,
+
 
 
 $$
@@ -121,7 +129,9 @@ Consider the following polynomials:
 $$
 
 
+
 P(x) = 2x^{\color{blue}4} - 3x + 1, \qquad Q(x) = -6x^{\color{red}3} + 5x^2 + x
+
 
 
 $$
@@ -131,7 +141,9 @@ Notice that these polynomials have degrees $4$ and $3,$ respectively. We write t
 $$
 
 
+
 \textrm{deg}(P) = {\color{blue}4}, \qquad \textrm{deg}(Q) = {\color{red}3}.
+
 
 
 $$
@@ -147,7 +159,9 @@ As a result, the leading term in the product $P \cdot Q$ equals the product of t
 $$
 
 
+
 2x^{\color{blue}4} \cdot (-6x^{\color{red}3}) = -12x^{{\color{blue}4}+{\color{red}3}} = -12x^{\color{purple}7}
+
 
 
 $$
@@ -161,7 +175,9 @@ We have the following general rule:
 $$
 
 
+
 \textrm{deg}(P \cdot Q) = \textrm{deg}(P) + \textrm{deg}(Q)
+
 
 
 $$
@@ -191,7 +207,9 @@ First, let's suppose that $P(x)$ and $Q(x)$ have *different* degrees. In this ca
 $$
 
 
+
 \textrm{deg}(P \pm Q) = \max \big\{ \textrm{deg}(P), \textrm{deg}(Q) \big\},
+
 
 
 $$
@@ -203,7 +221,9 @@ For example, suppose that $\textrm{deg}(P) = 5$ and $\textrm{deg}(Q) = 2.$ Then,
 $$
 
 
+
 \textrm{deg}(P + Q) = \max \big\{ 5, 2 \big\} = 5.
+
 
 
 $$
@@ -217,7 +237,9 @@ Now suppose that $P(x)$ and $Q(x)$ have the *same* degree. That is
 $$
 
 
+
 \textrm{deg}(P) = \textrm{deg}(Q) = n.
+
 
 
 $$
@@ -227,7 +249,9 @@ In this case, the degree of the sum or difference can be *any integer* from $0$ 
 $$
 
 
+
 0 \leq \textrm{deg}(P \pm Q) \leq n
+
 
 
 $$

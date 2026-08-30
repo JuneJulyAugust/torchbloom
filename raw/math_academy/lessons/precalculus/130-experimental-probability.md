@@ -23,7 +23,9 @@ To compute the experimental probability, we divide the number of times the coin 
 $$
 
 
+
 P(\text{head}) = \dfrac{44}{100} = 0.44.
+
 
 
 $$
@@ -37,7 +39,9 @@ In general, the formula for the experimental probability is
 $$
 
 
+
 P(\text{Event}) = \dfrac{\text{number of event occurrences}}{\text{total number of trials}}.
+
 
 
 $$
@@ -55,7 +59,9 @@ The experimental probability of an event is the fraction of the time the event o
 $$
 
 
+
 P(\text{Event}) = \dfrac{\text{number of event occurrences}}{\text{total number of trials}}
+
 
 
 $$
@@ -65,7 +71,9 @@ To compute the experimental probability in this case, we divide the number of ti
 $$
 
 
+
 P(\text{green}) = \dfrac{18}{40}
+
 
 
 $$
@@ -75,7 +83,9 @@ Converting to a percentage, we get
 $$
 
 
+
 P(\text{green}) = \dfrac{18}{40} = \dfrac{45}{100} = 45\%.
+
 
 
 $$
@@ -89,7 +99,9 @@ Experimental probability can be calculated from different types of data represen
 $$
 
 
+
 P(\text{event}) = \dfrac{\text{number of event occurrences}}{\text{total number of trials}}
+
 
 
 $$
@@ -123,7 +135,9 @@ Using the formula, we compute
 $$
 
 
+
 2
+
 
 
 $$
@@ -145,7 +159,9 @@ The experimental probability of an event is the fraction of the time the event o
 $$
 
 
+
 P(\text{Event}) = \dfrac{\text{number of event occurrences}}{\text{total number of trials}}
+
 
 
 $$
@@ -161,7 +177,9 @@ Therefore, the experimental probability that a student spends between $20$ and $
 $$
 
 
+
 20
+
 
 
 $$
@@ -181,7 +199,9 @@ The experimental probability of an event is the fraction of the time the event o
 $$
 
 
+
 P(\text{Event}) = \dfrac{\text{number of event occurrences}}{\text{total number of trials}}
+
 
 
 $$
@@ -197,7 +217,9 @@ Therefore, the experimental probability that a randomly selected student sleeps 
 $$
 
 
+
 6
+
 
 
 $$
@@ -217,7 +239,9 @@ The experimental probability of an event is the fraction of the time the event o
 $$
 
 
+
 P(\text{Event}) = \dfrac{\text{number of event occurrences}}{\text{total number of trials}}
+
 
 
 $$
@@ -233,7 +257,9 @@ Therefore, the experimental probability that a student practices between $20$ an
 $$
 
 
+
 20
+
 
 
 $$

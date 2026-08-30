@@ -21,7 +21,9 @@ For example, for which values of $k$ does the equation
 $$
 
 
+
 3x^2-6kx+k=0
+
 
 
 $$
@@ -35,7 +37,9 @@ To compute the discriminant, we first note the equation's coefficients:
 $$
 
 
+
 a=3,\quad b=-6k,\quad c=k
+
 
 
 $$
@@ -45,7 +49,9 @@ So, we require
 $$
 
 
+
 \begin{aligned}D & >0 \\ 𝑏^{2}−4𝑎𝑐 & >0 \\ (−6𝑘)^{2}−4(3)(𝑘) & >0 \\ 36𝑘^{2}−12𝑘 & >0 \\ 3𝑘^{2}−𝑘 & >0.\end{aligned}
+
 
 
 $$
@@ -55,7 +61,9 @@ Now, let's consider the parabola $y=3k^2-k$ and find its solutions. We obtain
 $$
 
 
+
 \begin{aligned}3𝑘^{2}−𝑘 & =0 \\ 𝑘(3𝑘−1) & =0,\end{aligned}
+
 
 
 $$
@@ -65,7 +73,9 @@ so the solutions are
 $$
 
 
+
 k=0\quad \text{and}\quad k=\dfrac{1}{3}.
+
 
 
 $$
@@ -93,7 +103,9 @@ To compute the discriminant, first note the following coefficients: $a=k,$ $b=k,
 $$
 
 
+
 \begin{aligned}D & ≥0 \\ 𝑏^{2}−4𝑎𝑐 & ≥0 \\ 𝑘^{2}−4(𝑘)(1) & ≥0 \\ 𝑘^{2}−4𝑘 & ≥0.\end{aligned}
+
 
 
 $$
@@ -103,7 +115,9 @@ Now, let's consider the parabola $y=k^2-4k$ and find its solutions. We obtain
 $$
 
 
+
 \begin{aligned}𝑘^{2}−4𝑘 & =0 \\ 𝑘(𝑘−4) & =0,\end{aligned}
+
 
 
 $$
@@ -131,7 +145,9 @@ So, we require
 $$
 
 
+
 \begin{aligned}D & <0 \\ 𝑏^{2}−4𝑎𝑐 & <0 \\ (−2𝑘)^{2}−4(2)(3𝑘−4) & <0 \\ 4𝑘^{2}−8(3𝑘−4) & <0 \\ 4𝑘^{2}−24𝑘+32 & <0 \\ 𝑘^{2}−6𝑘+8 & <0.\end{aligned}
+
 
 
 $$
@@ -141,7 +157,9 @@ Now, let's consider the parabola $y=k^2 - 6k + 8$ and find its solutions. We obt
 $$
 
 
+
 \begin{aligned}𝑘^{2}−6𝑘+8 & =0 \\ 𝑘^{2}−2𝑘−4𝑘+8 & =0 \\ 𝑘(𝑘−2)−4(𝑘−2) & =0 \\ (𝑘−2)(𝑘−4) & =0,\end{aligned}
+
 
 
 $$

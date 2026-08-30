@@ -29,11 +29,13 @@ First, using the power rule, we can write
 $$
 
 
+
 \begin{aligned}
 3\log_2(x) + \dfrac{1}{2}\log_2(y)
   &= \log_2\left(x^3\right) + \log_2\left(y^{1/2}\right) \\
   &= \log_2\left(x^3\right) + \log_2\left(\sqrt{y}\right).
 \end{aligned}
+
 
 
 $$
@@ -43,7 +45,9 @@ Now, using the product rule, we get
 $$
 
 
+
 \log_2\left(x^3\right) + \log_2 \left(\sqrt{y}\right) = \log_2 \left(x^3\sqrt{y}\right).
+
 
 
 $$
@@ -53,7 +57,9 @@ Therefore,
 $$
 
 
+
 3\log_2(x) + \dfrac 1 2 \log_2(y) = \log_2 \left(x^3\sqrt{y}\right).
+
 
 
 $$
@@ -71,7 +77,9 @@ Using the product rule for natural logarithms, we can combine the first two term
 $$
 
 
+
 \begin{aligned}ln⁡(2)+ln⁡(𝑥)−ln⁡(𝑦)=ln⁡(2𝑥)−ln⁡(𝑦)\end{aligned}
+
 
 
 $$
@@ -81,7 +89,9 @@ Now, using the quotient rule for natural logarithms, we get
 $$
 
 
+
 \ln(2x)-\ln(y) = \ln \left( \dfrac{2x}{y} \right).
+
 
 
 $$
@@ -91,7 +101,9 @@ Therefore,
 $$
 
 
+
 \ln(2)+\ln(x)-\ln(y) = \ln\left(\dfrac{2x}{y}\right).
+
 
 
 $$
@@ -109,7 +121,9 @@ Using the power rule for logarithms, we can rewrite the second term to obtain
 $$
 
 
+
 \log(3)+4\log(y)=\log(3)+\log(y^4).
+
 
 
 $$
@@ -119,7 +133,9 @@ Now, using the product rule for logarithms, we can combine the two terms to get
 $$
 
 
+
 \log(3)+\log(y^4)=\log\left(3y^4\right).
+
 
 
 $$
@@ -129,7 +145,9 @@ Therefore,
 $$
 
 
+
 \log(3)+4\log(y)=\log\left(3y^4\right).
+
 
 
 $$
@@ -147,7 +165,9 @@ Using the power rule for logarithms, we can rewrite both terms of the expression
 $$
 
 
+
 \begin{aligned}3log⁡(𝑥)−2log⁡(5) & =log⁡(𝑥^{3})−log⁡(5^{2}) \\ & =log⁡(𝑥^{3})−log⁡(25)\end{aligned}
+
 
 
 $$
@@ -157,7 +177,9 @@ Now, using the quotient rule for logarithms, we can combine the two terms to get
 $$
 
 
+
 \log\left(x^3\right) - \log(25) =\log\left( \dfrac{x^3}{25} \right).
+
 
 
 $$
@@ -167,7 +189,9 @@ Therefore,
 $$
 
 
+
 3\log(x) - 2\log(5) = \log\left( \dfrac{x^3}{25} \right).
+
 
 
 $$
@@ -185,7 +209,9 @@ Using the power rule for logarithms, we can rewrite the first term of the given 
 $$
 
 
+
 \begin{aligned}3log⁡(2)+log⁡(𝑥)−log⁡(4) & =log⁡(2^{3})+log⁡(𝑥)−log⁡(4) \\ & =log⁡(8)+log⁡(𝑥)−log⁡(4)\end{aligned}
+
 
 
 $$
@@ -195,7 +221,9 @@ Now, using the product rule for logarithms, we can combine the first two terms t
 $$
 
 
+
 \begin{aligned}log⁡(8)+log⁡(𝑥)−log⁡(4)=log⁡(8𝑥)−log⁡(4).\end{aligned}
+
 
 
 $$
@@ -205,7 +233,9 @@ Finally, using the quotient rule for logarithms, we get
 $$
 
 
+
 \begin{aligned}log⁡(8𝑥)−log⁡(4) & =log⁡(\frac{8𝑥}{4}) \\ & =log⁡(2𝑥).\end{aligned}
+
 
 
 $$
@@ -215,7 +245,9 @@ Therefore,
 $$
 
 
+
 3\log(2)+\log(x)-\log(4) = \log\left(2x\right).
+
 
 
 $$

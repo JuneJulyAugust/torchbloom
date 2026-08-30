@@ -23,7 +23,9 @@ The general standard equation of a parabola whose vertex is $(0,0)$ and whose ar
 $$
 
 
+
 y^2 = 4px,
+
 
 
 $$
@@ -41,7 +43,9 @@ Notice that we can rewrite the equation $y^2=x$ as
 $$
 
 
+
 y^2 = 4 \left( \dfrac{1}{4} \right) x.
+
 
 
 $$
@@ -65,7 +69,9 @@ The general standard equation of a parabola whose vertex is $(0,0)$ and whose ar
 $$
 
 
+
 y^2 = 4px.
+
 
 
 $$
@@ -75,7 +81,9 @@ Since we know the given parabola passes through the point $(-8,4),$ we can subst
 $$
 
 
+
 \begin{aligned}𝑦^{2} & =4𝑝𝑥 \\ 4^{2} & =4𝑝(−8) \\ 16 & =−32𝑝 \\ 𝑝 & =−\frac{1}{2}\end{aligned}
+
 
 
 $$
@@ -85,7 +93,9 @@ So, the equation of the parabola is
 $$
 
 
+
 \begin{aligned}𝑦^{2} & =4𝑝𝑥 \\ 𝑦^{2} & =4(−\frac{1}{2})𝑥 \\ 𝑦^{2} & =−2𝑥.\end{aligned}
+
 
 
 $$
@@ -105,7 +115,9 @@ The general standard equation of a parabola whose vertex is $(0,0)$ and whose ar
 $$
 
 
+
 y^2 = 4px.
+
 
 
 $$
@@ -115,7 +127,9 @@ Since we know the given parabola passes through the point $(4,4),$ we can substi
 $$
 
 
+
 \begin{aligned}𝑦^{2} & =4𝑝𝑥 \\ 4^{2} & =4𝑝(4) \\ 16 & =16𝑝 \\ 𝑝 & =1\end{aligned}
+
 
 
 $$
@@ -125,7 +139,9 @@ So, the equation of the parabola is
 $$
 
 
+
 \begin{aligned}𝑦^{2} & =4𝑝𝑥 \\ 𝑦^{2} & =4(1)𝑥 \\ 𝑦^{2} & =4𝑥.\end{aligned}
+
 
 
 $$
@@ -143,7 +159,9 @@ The general standard equation of a parabola whose vertex is $(h,k)$ and whose ar
 $$
 
 
+
 (y-k)^2 = 4p(x-h),
+
 
 
 $$
@@ -159,7 +177,9 @@ Notice that we can rewrite the equation of our parabola $(y-2)^2=2(x-2)$ as
 $$
 
 
+
 (y-2)^2=4 \left( \dfrac{1}{2} \right)(x-2).
+
 
 
 $$
@@ -183,7 +203,9 @@ The general standard equation of a parabola whose vertex is $(h, k)$ and whose a
 $$
 
 
+
 \begin{aligned}(𝑦−𝑘)^{2} & =4𝑝(𝑥−ℎ).\end{aligned}
+
 
 
 $$
@@ -193,7 +215,9 @@ Since we know that the given parabola has its vertex at $(h, k) = (4,2),$ we sub
 $$
 
 
+
 \begin{aligned}(𝑦−2)^{2} & =4𝑝(𝑥−4).\end{aligned}
+
 
 
 $$
@@ -203,7 +227,9 @@ We also know that the given parabola passes through the point $(0,6),$ so we can
 $$
 
 
+
 \begin{aligned}(𝑦−2)^{2} & =4𝑝(𝑥−4) \\ (6−2)^{2} & =4𝑝(0−4) \\ 16 & =−16𝑝 \\ 𝑝 & =−1\end{aligned}
+
 
 
 $$
@@ -213,7 +239,9 @@ So, the equation of the parabola is
 $$
 
 
+
 \begin{aligned}(𝑦−2)^{2} & =4𝑝(𝑥−4) \\ (𝑦−2)^{2} & =4(−1)(𝑥−4) \\ (𝑦−2)^{2} & =−4(𝑥−4).\end{aligned}
+
 
 
 $$
@@ -233,7 +261,9 @@ The general standard equation of a parabola whose vertex is $(h, k)$ and whose a
 $$
 
 
+
 \begin{aligned}(𝑦−𝑘)^{2} & =4𝑝(𝑥−ℎ).\end{aligned}
+
 
 
 $$
@@ -243,7 +273,9 @@ Since we know that the given parabola has its vertex at $(h, k) = (2,-2),$ we su
 $$
 
 
+
 \begin{aligned}(𝑦+2)^{2} & =4𝑝(𝑥−2).\end{aligned}
+
 
 
 $$
@@ -253,7 +285,9 @@ We also know that the given parabola passes through the point $(-6, 2),$ so we c
 $$
 
 
+
 \begin{aligned}(𝑦+2)^{2} & =4𝑝(𝑥−2) \\ (2+2)^{2} & =4𝑝(−6−2) \\ 16 & =−32𝑝 \\ 𝑝 & =−\frac{1}{2}\end{aligned}
+
 
 
 $$
@@ -263,7 +297,9 @@ So, the equation of the parabola is
 $$
 
 
+
 \begin{aligned}(𝑦+2)^{2} & =4𝑝(𝑥−2) \\ (𝑦+2)^{2} & =4(−\frac{1}{2})(𝑥−2) \\ (𝑦+2)^{2} & =−2(𝑥−2).\end{aligned}
+
 
 
 $$

@@ -24,7 +24,9 @@ First, we verify the conformability for multiplication:
 $$
 
 
+
 \underset{\boxed{2} \times \color{green}{\fbox{3}}}{A} \underset{\color{green}\checkmark}{\cdot} \underset{{\color{green}\fbox{3}} \times \boxed{2}}{B} = \underset{\boxed{2} \times \boxed{2}}{C}
+
 
 
 $$
@@ -34,7 +36,9 @@ So the matrices are conformable for multiplication, and the product is a $2 \tim
 $$
 
 
-\eqalign { \underbrace{ \left\lbrack \matrix { -2 & 2 & 1 \ 1 & -1 & 3 } \right\rbrack}_{A} \underbrace{ \left\lbrack \matrix { -5 & 2 \ 2 & -2 \ -4 & 1 } \right\rbrack}_{B} &= \underbrace{ \left\lbrack \matrix { \ast & \ast \ \ast & \ast } \right\rbrack }_{C} }
+
+\begin{aligned} \underbrace{ \left\lbrack \matrix { -2 & 2 & 1 \\1 & -1 & 3 } \right\rbrack}_{A} \underbrace{ \left\lbrack \matrix { -5 & 2 \\2 & -2 \\-4 & 1 } \right\rbrack}_{B} &= \underbrace{ \left\lbrack \matrix { \ast & \ast \\\ast & \ast } \right\rbrack }_{C} \end{aligned}
+
 
 
 $$
@@ -46,7 +50,9 @@ To find $c_{11},$ the entry at the intersection of the $1$st row and $1$st colum
 $$
 
 
-\eqalign { \left\lbrack \matrix { \color{blue}-2 & \color{blue}2 & \color{blue}1 \ \color{lightgray}1 & \color{lightgray}-1 & \color{lightgray}3 } \right\rbrack \left\lbrack \matrix { \color{red}-5 & \color{lightgray}2 \ \color{red}2 & \color{lightgray}-2 \ \color{red}-4 & \color{lightgray}1 } \right\rbrack \% &= \% \left\lbrack \% \matrix { \% ({\color{blue}{-2}}) \cdot ({\color{red}{-5}}) + {\color{blue}{2}} \cdot {\color{red}{2}} + {\color{blue}{1}} \cdot ({\color{red}{-4}}) & \ast \ \% \ast & \ast \% } \% \right\rbrack = \left\lbrack \matrix { \boxed{10} & \ast \ \ast & \ast } \right\rbrack, && \quad \boxed{10} = ({\color{blue}{-2}}) \cdot ({\color{red}{-5}}) + {\color{blue}{2}} \cdot {\color{red}{2}} + {\color{blue}{1}} \cdot ({\color{red}{-4}}) }
+
+\begin{aligned} \left\lbrack \matrix { \color{blue}-2 & \color{blue}2 & \color{blue}1 \\\color{lightgray}1 & \color{lightgray}-1 & \color{lightgray}3 } \right\rbrack \left\lbrack \matrix { \color{red}-5 & \color{lightgray}2 \\\color{red}2 & \color{lightgray}-2 \\\color{red}-4 & \color{lightgray}1 } \right\rbrack \% &= \% \left\lbrack \% \matrix { \% ({\color{blue}{-2}}) \cdot ({\color{red}{-5}}) + {\color{blue}{2}} \cdot {\color{red}{2}} + {\color{blue}{1}} \cdot ({\color{red}{-4}}) & \ast \\\% \ast & \ast \% } \% \right\rbrack = \left\lbrack \matrix { \boxed{10} & \ast \\\ast & \ast } \right\rbrack, && \quad \boxed{10} = ({\color{blue}{-2}}) \cdot ({\color{red}{-5}}) + {\color{blue}{2}} \cdot {\color{red}{2}} + {\color{blue}{1}} \cdot ({\color{red}{-4}}) \end{aligned}
+
 
 
 $$
@@ -56,7 +62,9 @@ To find $c_{12},$ we calculate the dot product of the $1$st row of $A$ and the $
 $$
 
 
-\eqalign { \left\lbrack \matrix { \color{blue}-2 & \color{blue}2 & \color{blue}1 \ \color{lightgray}1 & \color{lightgray}-1 & \color{lightgray}3 } \right\rbrack \left\lbrack \matrix { \color{lightgray}-5 & \color{red}2 \ \color{lightgray}2 & \color{red}-2 \ \color{lightgray}-4 & \color{red}1 } \right\rbrack \% &= \% \left\lbrack \% \matrix { \% 10 & ({\color{blue}{-2}}) \cdot {\color{red}{2}} + {\color{blue}{2}} \cdot ({\color{red}{-2}}) + {\color{blue}{1}} \cdot {\color{red}{1}} \ \% \ast & \ast \% } \% \right\rbrack = \left\lbrack \matrix { 10 & \boxed{-7} \ \ast & \ast } \right\rbrack, && \quad \boxed{-7} = ({\color{blue}{-2}}) \cdot {\color{red}{2}} + {\color{blue}{2}} \cdot ({\color{red}{-2}}) + {\color{blue}{1}} \cdot {\color{red}{1}} }
+
+\begin{aligned} \left\lbrack \matrix { \color{blue}-2 & \color{blue}2 & \color{blue}1 \\\color{lightgray}1 & \color{lightgray}-1 & \color{lightgray}3 } \right\rbrack \left\lbrack \matrix { \color{lightgray}-5 & \color{red}2 \\\color{lightgray}2 & \color{red}-2 \\\color{lightgray}-4 & \color{red}1 } \right\rbrack \% &= \% \left\lbrack \% \matrix { \% 10 & ({\color{blue}{-2}}) \cdot {\color{red}{2}} + {\color{blue}{2}} \cdot ({\color{red}{-2}}) + {\color{blue}{1}} \cdot {\color{red}{1}} \\\% \ast & \ast \% } \% \right\rbrack = \left\lbrack \matrix { 10 & \boxed{-7} \\\ast & \ast } \right\rbrack, && \quad \boxed{-7} = ({\color{blue}{-2}}) \cdot {\color{red}{2}} + {\color{blue}{2}} \cdot ({\color{red}{-2}}) + {\color{blue}{1}} \cdot {\color{red}{1}} \end{aligned}
+
 
 
 $$
@@ -66,7 +74,9 @@ To find $c_{21},$ we calculate the dot product of the $2$nd row of $A$ and the $
 $$
 
 
-\eqalign { \left\lbrack \matrix { \color{lightgray}-2 & \color{lightgray}2 & \color{lightgray}1 \ \color{blue}1 & \color{blue}-1 & \color{blue}3 } \right\rbrack \left\lbrack \matrix { \color{red}-5 & \color{lightgray}2 \ \color{red}2 & \color{lightgray}-2 \ \color{red}-4 & \color{lightgray}1 } \right\rbrack \% &= \% \left\lbrack \% \matrix { \% 10 & -7 \ \% {\color{blue}{1}} \cdot ({\color{red}{-5}}) + ({\color{blue}{-1}}) \cdot {\color{red}{2}} + {\color{blue}{3}} \cdot ({\color{red}{-4}}) & \ast \% } \% \right\rbrack = \left\lbrack \matrix { 10 & -7 \ \boxed{-19} & \ast } \right\rbrack, && \quad \boxed{-19} = {\color{blue}{1}} \cdot ({\color{red}{-5}}) + ({\color{blue}{-1}}) \cdot {\color{red}{2}} + {\color{blue}{3}} \cdot ({\color{red}{-4}}) }
+
+\begin{aligned} \left\lbrack \matrix { \color{lightgray}-2 & \color{lightgray}2 & \color{lightgray}1 \\\color{blue}1 & \color{blue}-1 & \color{blue}3 } \right\rbrack \left\lbrack \matrix { \color{red}-5 & \color{lightgray}2 \\\color{red}2 & \color{lightgray}-2 \\\color{red}-4 & \color{lightgray}1 } \right\rbrack \% &= \% \left\lbrack \% \matrix { \% 10 & -7 \\\% {\color{blue}{1}} \cdot ({\color{red}{-5}}) + ({\color{blue}{-1}}) \cdot {\color{red}{2}} + {\color{blue}{3}} \cdot ({\color{red}{-4}}) & \ast \% } \% \right\rbrack = \left\lbrack \matrix { 10 & -7 \\\boxed{-19} & \ast } \right\rbrack, && \quad \boxed{-19} = {\color{blue}{1}} \cdot ({\color{red}{-5}}) + ({\color{blue}{-1}}) \cdot {\color{red}{2}} + {\color{blue}{3}} \cdot ({\color{red}{-4}}) \end{aligned}
+
 
 
 $$
@@ -76,7 +86,9 @@ Finally, to find $c_{22},$ we calculate the dot product of the $2$nd row of $A$ 
 $$
 
 
-\eqalign { \left\lbrack \matrix { \color{lightgray}-2 & \color{lightgray}2 & \color{lightgray}1 \ \color{blue}1 & \color{blue}-1 & \color{blue}3 } \right\rbrack \left\lbrack \matrix { \color{lightgray}-5 & \color{red}2 \ \color{lightgray}2 & \color{red}-2 \ \color{lightgray}-4 & \color{red}1 } \right\rbrack \% &= \% \left\lbrack \% \matrix { \% 10 & -7 \ \% -19 & {\color{blue}{1}} \cdot {\color{red}{2}} + ({\color{blue}{-1}}) \cdot ({\color{red}{-2}}) + {\color{blue}{3}} \cdot {\color{red}{1}} \% } \% \right\rbrack = \left\lbrack \matrix { 10 & -7 \ -19 & \boxed{7} } \right\rbrack, && \quad \boxed{7} = {\color{blue}{1}} \cdot {\color{red}{2}} + ({\color{blue}{-1}}) \cdot ({\color{red}{-2}}) + {\color{blue}{3}} \cdot {\color{red}{1}} }
+
+\begin{aligned} \left\lbrack \matrix { \color{lightgray}-2 & \color{lightgray}2 & \color{lightgray}1 \\\color{blue}1 & \color{blue}-1 & \color{blue}3 } \right\rbrack \left\lbrack \matrix { \color{lightgray}-5 & \color{red}2 \\\color{lightgray}2 & \color{red}-2 \\\color{lightgray}-4 & \color{red}1 } \right\rbrack \% &= \% \left\lbrack \% \matrix { \% 10 & -7 \\\% -19 & {\color{blue}{1}} \cdot {\color{red}{2}} + ({\color{blue}{-1}}) \cdot ({\color{red}{-2}}) + {\color{blue}{3}} \cdot {\color{red}{1}} \% } \% \right\rbrack = \left\lbrack \matrix { 10 & -7 \\-19 & \boxed{7} } \right\rbrack, && \quad \boxed{7} = {\color{blue}{1}} \cdot {\color{red}{2}} + ({\color{blue}{-1}}) \cdot ({\color{red}{-2}}) + {\color{blue}{3}} \cdot {\color{red}{1}} \end{aligned}
+
 
 
 $$
@@ -98,7 +110,9 @@ There are $3$ columns in $C$ and $3$ rows in $D,$ so $C$ and $D$ are conformable
 $$
 
 
+
 \underset{\boxed{2} \times \color{green}{\fbox{3}}}{C} \underset{\color{green}\checkmark}{\cdot} \underset{{\color{green}\fbox{3}} \times \boxed{2}}{D} = \underset{\boxed{2} \times \boxed{2}}{CD}
+
 
 
 $$
@@ -108,7 +122,9 @@ Let's compute $CD,$ one element at a time:
 $$
 
 
+
 \begin{aligned} & [\begin{aligned}1 & −2 & 0 \\ 2 & 1 & 1\end{aligned}]\begin{aligned}0 & 1 \\ 2 & 0 \\ −3 & 2\end{aligned}=[\begin{aligned}−4 & ∗ \\ ∗ & ∗\end{aligned}], & & \,−4=1⋅0+(−2)⋅2+0⋅(−3) \\ & [\begin{aligned}1 & −2 & 0 \\ 2 & 1 & 1\end{aligned}]\begin{aligned}0 & 1 \\ 2 & 0 \\ −3 & 2\end{aligned}=[\begin{aligned}−4 & 1 \\ ∗ & ∗\end{aligned}], & & \,1=1⋅1+(−2)⋅0+0⋅2 \\ & [\begin{aligned}1 & −2 & 0 \\ 2 & 1 & 1\end{aligned}]\begin{aligned}0 & 1 \\ 2 & 0 \\ −3 & 2\end{aligned}=[\begin{aligned}−4 & 1 \\ −1 & ∗\end{aligned}], & & \,−1=2⋅0+1⋅2+1⋅(−3) \\ & [\begin{aligned}1 & −2 & 0 \\ 2 & 1 & 1\end{aligned}]\begin{aligned}0 & 1 \\ 2 & 0 \\ −3 & 2\end{aligned}=[\begin{aligned}−4 & 1 \\ −1 & 4\end{aligned}], & & \,4=2⋅1+1⋅0+1⋅2\end{aligned}
+
 
 
 $$
@@ -124,7 +140,9 @@ Let $C=AB.$ What is the value of $c_{32}$, if
 $$
 
 
+
 \begin{aligned}1 & 2 \\ −2 & 0 \\ 1 & 2\end{aligned}
+
 
 
 $$
@@ -136,7 +154,9 @@ Multiplying the $3$rd row in $A$ by the $2$nd column in $B$, we get
 $$
 
 
+
 \begin{aligned}𝑐_{32} & =\begin{aligned}1 & 2 \\ −2 & 0 \\ 1 & 2\end{aligned}[\begin{aligned}3 & 4 & −1 \\ 1 & −2 & 2\end{aligned}] \\ & =[\begin{aligned}1 & 2\end{aligned}][\begin{aligned}4 \\ −2\end{aligned}] \\ & =1⋅4+2⋅(−2) \\ & =4−4 \\ & =0.\end{aligned}
+
 
 
 $$
@@ -156,7 +176,9 @@ There is $1$ column in the first matrix and $1$ row in the second matrix, so the
 $$
 
 
+
 \boxed{3} \times {\color{green}\fbox{1}} {\color{green}\checkmark} {\color{green}\fbox{1}} \times \boxed{2} = \boxed{3} \times \boxed{2}
+
 
 
 $$
@@ -166,7 +188,9 @@ Computing the product, we have
 $$
 
 
-\eqalign { \left\lbrack \matrix { -1 \ 0 \ -2 } \right\rbrack \left\lbrack \matrix { 2 & -5 } \right\rbrack &= \left\lbrack \matrix { (-1)\cdot 2 & (-1)\cdot (-5) \ 0\cdot 2 & 0\cdot (-5)\ (-2)\cdot 2 & (-2)\cdot (-5) } \right\rbrack \\[5pt] &= \left\lbrack \matrix { -2 & 5 \ 0 & 0 \ -4 & 10 } \right\rbrack }
+
+\begin{aligned} \left\lbrack \matrix { -1 \\0 \\-2 } \right\rbrack \left\lbrack \matrix { 2 & -5 } \right\rbrack &= \left\lbrack \matrix { (-1)\cdot 2 & (-1)\cdot (-5) \\0\cdot 2 & 0\cdot (-5)\\(-2)\cdot 2 & (-2)\cdot (-5) } \right\rbrack \\\[5pt] &= \left\lbrack \matrix { -2 & 5 \\0 & 0 \\-4 & 10 } \right\rbrack \end{aligned}
+
 
 
 $$
@@ -184,7 +208,9 @@ To compute $c_{\color{red}{i}\color{blue}{j}},$ we take the dot product of the $
 $$
 
 
+
 [\begin{aligned}𝑎_{𝑖1} & 𝑎_{𝑖2} & ⋯ & 𝑎_{𝑖𝑛}\end{aligned}]
+
 
 
 $$

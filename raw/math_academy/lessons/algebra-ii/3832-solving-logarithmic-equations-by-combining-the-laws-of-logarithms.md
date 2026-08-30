@@ -45,7 +45,9 @@ First, we apply the power rule to the ** term to make the coefficient in front o
 $$
 
 
+
 \begin{aligned}\frac{1}{2}log_{2}⁡(4𝑥^{4})+log_{2}⁡𝑥 & =1 \\ log_{2}⁡((4𝑥^{4})^{1/2})+log_{2}⁡𝑥 & =1 \\ log_{2}⁡(2𝑥^{2})+log_{2}⁡𝑥 & =1\end{aligned}
+
 
 
 $$
@@ -55,7 +57,9 @@ Next, we combine the logarithms using the product rule. This gives
 $$
 
 
+
 \begin{aligned}log_{2}⁡(2𝑥^{2}⋅𝑥) & =1 \\ log_{2}⁡(2𝑥^{3}) & =1.\end{aligned}
+
 
 
 $$
@@ -65,7 +69,9 @@ Writing this equation in its equivalent exponential form, we get
 $$
 
 
+
 \begin{aligned}2^{log_{2}⁡(2𝑥^{3})} & =2^{1} \\ 2𝑥^{3} & =2.\end{aligned}
+
 
 
 $$
@@ -75,7 +81,9 @@ Now, we solve this equation for $x$ using the usual methods.
 $$
 
 
+
 \begin{aligned}𝑥^{3} & =1 \\ \sqrt[√𝑥^{3}]{3} & =\sqrt[√1]{3} \\ 𝑥 & =1\end{aligned}
+
 
 
 $$
@@ -87,7 +95,9 @@ Substituting $x=1$ back into the original equation, we get
 $$
 
 
+
 \begin{aligned}\frac{1}{2}log_{2}⁡(4⋅1^{4})+log_{2}⁡1 & \overset{=}{?}1 \\ \frac{1}{2}log_{2}⁡4+log_{2}⁡1 & \overset{=}{?}1 \\ \frac{1}{2}log_{2}⁡4+0 & \overset{=}{?}1 \\ log_{2}⁡(4^{1/2}) & \overset{=}{?}1 \\ log_{2}⁡(2) & \overset{=}{?}1 \\ 1 & =1.\,✓\end{aligned}
+
 
 
 $$
@@ -109,7 +119,9 @@ First, we apply the power rule to the first term to make the coefficient in fron
 $$
 
 
+
 \begin{aligned}log_{2}⁡(4𝑥)−2log_{2}⁡(𝑥^{2})=1 & \\ log_{2}⁡(4𝑥)−log_{2}⁡((𝑥^{2})^{2})=1 & \\ log_{2}⁡(4𝑥)−log_{2}⁡(𝑥^{4}) & =1\end{aligned}
+
 
 
 $$
@@ -119,7 +131,9 @@ Next, we combine the logarithms using the quotient rule. This gives
 $$
 
 
+
 \begin{aligned}log_{2}⁡(\frac{4𝑥}{𝑥^{4}}) & =1 \\ log_{2}⁡(\frac{4}{𝑥^{3}}) & =1.\end{aligned}
+
 
 
 $$
@@ -129,7 +143,9 @@ Writing this equation in its equivalent exponential form, we get
 $$
 
 
+
 \begin{aligned}\frac{4}{𝑥^{3}} & =2^{1} \\ \frac{4}{𝑥^{3}} & =2.\end{aligned}
+
 
 
 $$
@@ -139,7 +155,9 @@ Now, we solve this rational equation for $x$ using the usual methods.
 $$
 
 
+
 \begin{aligned}\frac{4}{𝑥^{3}} & =2 \\ 𝑥^{3}⋅\frac{4}{𝑥^{3}} & =𝑥^{3}⋅2 \\ 𝑥^{3}⋅\frac{4}{𝑥^{3}} & =2𝑥^{3} \\ 2𝑥^{3} & =4 \\ 𝑥^{3} & =2 \\ 𝑥 & =\sqrt[√2]{3}\end{aligned}
+
 
 
 $$
@@ -151,7 +169,9 @@ Substituting $x=\sqrt[3]{2}$ back into the original equation, we get
 $$
 
 
+
 \begin{aligned}log_{2}⁡(4(\sqrt[√2]{3}))−2log_{2}⁡((\sqrt[√2]{3})^{2}) & \overset{=}{?}1 \\ log_{2}⁡(4(\sqrt[√2]{3}))−log_{2}⁡((\sqrt[√2]{3})^{2})^{2} & \overset{=}{?}1 \\ log_{2}⁡(4(\sqrt[√2]{3}))−log_{2}⁡((\sqrt[√2]{3})^{4}) & \overset{=}{?}1 \\ log_{2}⁡(4(\sqrt[√2]{3}))−log_{2}⁡(2(\sqrt[√2]{3})) & \overset{=}{?}1 \\ log_{2}⁡(\frac{4\sqrt[√2]{3}}{2\sqrt[√2]{3}}) & \overset{=}{?}1 \\ log_{2}⁡\frac{4\sqrt[√2]{3}}{2\sqrt[√2]{3}} & \overset{=}{?}1 \\ log_{2}⁡(\frac{4}{2}) & \overset{=}{?}1 \\ log_{2}⁡(2) & \overset{=}{?}1 \\ 1 & =1.\,✓\end{aligned}
+
 
 
 $$
@@ -173,7 +193,9 @@ First, we apply the power rule to the ** term to make the coefficient in front o
 $$
 
 
+
 \begin{aligned}2log_{3}⁡(\sqrt{√2}𝑥)−log_{3}⁡(𝑥−1) & =log_{3}⁡(3𝑥) \\ log_{3}⁡(\sqrt{√2}𝑥)^{2}−log_{3}⁡(𝑥−1) & =log_{3}⁡(3𝑥) \\ log_{3}⁡(2𝑥^{2})−log_{3}⁡(𝑥−1) & =log_{3}⁡(3𝑥)\end{aligned}
+
 
 
 $$
@@ -183,7 +205,9 @@ Next, we combine the logarithms on the left-hand side using the quotient rule:
 $$
 
 
+
 \begin{aligned}log_{3}⁡(\frac{2𝑥^{2}}{𝑥−1}) & =log_{3}⁡(3𝑥)\end{aligned}
+
 
 
 $$
@@ -193,7 +217,9 @@ Now, we solve the equation for $x$ using the usual methods.
 $$
 
 
+
 \begin{aligned}\frac{2𝑥^{2}}{𝑥−1} & =3𝑥 \\ (𝑥−1)⋅\frac{2𝑥^{2}}{𝑥−1} & =(𝑥−1)⋅(3𝑥) \\ (𝑥−1)⋅\frac{2𝑥^{2}}{𝑥−1} & =(𝑥−1)⋅(3𝑥) \\ 2𝑥^{2} & =3𝑥^{2}−3𝑥 \\ 𝑥^{2}−3𝑥 & =0 \\ 𝑥(𝑥−3) & =0\end{aligned}
+
 
 
 $$

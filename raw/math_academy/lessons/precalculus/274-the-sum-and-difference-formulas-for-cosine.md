@@ -16,7 +16,9 @@ The following two identities are known as the **sum and difference formulas for 
 $$
 
 
+
 \begin{aligned}cos⁡(𝑥\,+\,𝑦) & =cos⁡𝑥cos⁡𝑦\,\,−\,sin⁡𝑥sin⁡𝑦 \\ cos⁡(𝑥\,−\,𝑦) & =cos⁡𝑥cos⁡𝑦\,\,+\,sin⁡𝑥sin⁡𝑦\end{aligned}
+
 
 
 $$
@@ -32,7 +34,9 @@ For example, we can use the sum formula to find the exact value of $\cos(105^\ci
 $$
 
 
+
 105^\circ = {\color{blue}45^\circ} + {\color{red}60^\circ}.
+
 
 
 $$
@@ -42,7 +46,9 @@ We can now apply the sum formula for cosine, as follows:
 $$
 
 
+
 \begin{aligned}cos⁡105^{∘} & =cos⁡(45^{∘}+60^{∘}) \\ & =cos⁡45^{∘}⋅cos⁡60−sin⁡45^{∘}⋅sin⁡60 \\ & =\frac{\sqrt{√2}}{2}⋅\frac{1}{2}−\frac{\sqrt{√2}}{2}⋅\frac{\sqrt{√3}}{2} \\ & =\frac{\sqrt{√2}}{4}−\frac{\sqrt{√6}}{4} \\ & =\frac{\sqrt{√2}−\sqrt{√6}}{4}\end{aligned}
+
 
 
 $$
@@ -62,7 +68,9 @@ Recall the difference formula for cosine:
 $$
 
 
+
 \cos(x - y) = \cos{x}\cos{y} + \sin{x}\sin{y}
+
 
 
 $$
@@ -72,7 +80,9 @@ Applying the difference formula for cosine with $x = \dfrac{\pi}{6}$ and $y = \d
 $$
 
 
+
 \begin{aligned}cos⁡(−\frac{𝜋}{12}) & =cos⁡(\frac{𝜋}{6}−\frac{𝜋}{4}) \\ & =cos⁡(\frac{𝜋}{6})cos⁡(\frac{𝜋}{4})+sin⁡(\frac{𝜋}{6})sin⁡(\frac{𝜋}{4}) \\ & =\frac{\sqrt{√3}}{2}⋅\frac{\sqrt{√2}}{2}+\frac{1}{2}⋅\frac{\sqrt{√2}}{2} \\ & =\frac{\sqrt{√6}}{4}+\frac{\sqrt{√2}}{4} \\ & =\frac{\sqrt{√6}+\sqrt{√2}}{4}.\end{aligned}
+
 
 
 $$
@@ -90,7 +100,9 @@ First, we recall the difference formula for cosine:
 $$
 
 
+
 \cos(u - v) = \cos{u}\cos{v} + \sin{u}\sin{v}
+
 
 
 $$
@@ -100,7 +112,9 @@ Applying the difference formula for cosine with $u = x$ and $v = 60^\circ,$ we g
 $$
 
 
+
 \begin{aligned}cos⁡(𝑥−60^{∘}) & =cos⁡𝑥cos⁡60^{∘}+sin⁡𝑥sin⁡60^{∘} \\ & =cos⁡𝑥⋅\frac{1}{2}+sin⁡𝑥⋅\frac{\sqrt{√3}}{2} \\ & =\frac{cos⁡𝑥}{2}+\frac{\sqrt{√3}sin⁡𝑥}{2} \\ & =\frac{cos⁡𝑥+\sqrt{√3}sin⁡𝑥}{2}.\end{aligned}
+
 
 
 $$
@@ -118,7 +132,9 @@ First, we recall the difference formula for cosine:
 $$
 
 
+
 \cos(u - v) = \cos u \cos v + \sin u \sin v
+
 
 
 $$
@@ -128,7 +144,9 @@ Applying the difference formula for cosine with $u = x$ and $v = \dfrac{\pi}{2},
 $$
 
 
+
 \begin{aligned}cos⁡(𝑥−\frac{𝜋}{2}) & =cos⁡𝑥cos⁡(\frac{𝜋}{2})+sin⁡𝑥sin⁡(\frac{𝜋}{2}) \\ & =cos⁡𝑥⋅0+sin⁡𝑥⋅1 \\ & =sin⁡𝑥.\end{aligned}
+
 
 
 $$
@@ -140,7 +158,9 @@ Let's now prove the difference formula for cosine:
 $$
 
 
+
 \cos(A-B) = \cos A\cos B + \sin A\sin B
+
 
 
 $$
@@ -154,7 +174,9 @@ Since $P$ and $Q$ lie on the unit circle, their coordinates are
 $$
 
 
+
 P(\cos A, \sin A), \qquad Q(\cos B, \sin B).
+
 
 
 $$
@@ -164,7 +186,9 @@ Therefore, the squared distance $PQ^2$ between $P$ and $Q$ can be found using th
 $$
 
 
+
 \begin{aligned}𝑃𝑄^{2} & =(cos⁡𝐴−cos⁡𝐵)^{2}+(sin⁡𝐴−sin⁡𝐵)^{2} \\ & =cos^{2}⁡𝐴−2cos⁡𝐴cos⁡𝐵+cos^{2}⁡𝐵+sin^{2}⁡𝐴−2sin⁡𝐴sin⁡𝐵+sin^{2}⁡𝐵 \\ & =(cos^{2}⁡𝐴+sin^{2}⁡𝐴)+(cos^{2}⁡𝐵+sin^{2}⁡𝐵)−2(cos⁡𝐴cos⁡𝐵+sin⁡𝐴sin⁡𝐵)\end{aligned}
+
 
 
 $$
@@ -174,7 +198,9 @@ Now, since
 $$
 
 
+
 \cos^2 B + \sin^2 B = \cos^2 A + \sin^2 A = 1
+
 
 
 $$
@@ -184,7 +210,9 @@ for all $A$ and $B$ by the Pythagorean identity, our expression for $PQ^2$ simpl
 $$
 
 
+
 PQ^2 = 1+1 - 2(\cos A\cos B + \sin A\sin B)
+
 
 
 $$
@@ -194,7 +222,9 @@ i.e.,
 $$
 
 
+
 PQ^2 = 2 - 2(\cos A\cos B + \sin A\sin B).
+
 
 
 $$
@@ -204,7 +234,9 @@ We can also calculate $PQ^2$ by applying the law of cosines to $\triangle POQ{:}
 $$
 
 
+
 \begin{aligned}𝑃𝑄^{2}=1^{2}+1^{2}−2⋅1⋅1⋅cos⁡(𝐴−𝐵)\end{aligned}
+
 
 
 $$
@@ -214,7 +246,9 @@ which simplifies as
 $$
 
 
+
 PQ^2 = 2 - 2\cos(A-B).
+
 
 
 $$
@@ -224,7 +258,9 @@ Equating the two expressions for $PQ^2,$ we get
 $$
 
 
+
 2 - 2(\cos A\cos B + \sin A\sin B) = 2 - 2\cos(A-B)
+
 
 
 $$
@@ -234,7 +270,9 @@ which simplifies to
 $$
 
 
+
 \cos(A-B) = \cos A\cos B + \sin A\sin B
+
 
 
 $$
@@ -248,7 +286,9 @@ We have shown how to derive the difference formula
 $$
 
 
+
 \cos(A-B) = \cos A\cos B + \sin A\sin B.
+
 
 
 $$
@@ -258,7 +298,9 @@ We can derive the sum formula for cosine by simply replacing $B$ with $-B,$ and 
 $$
 
 
+
 \cos(-B) = \cos B, \qquad \sin(-B) = -\sin B
+
 
 
 $$
@@ -268,7 +310,9 @@ Substituting these into our difference formula, we get
 $$
 
 
+
 \begin{aligned}cos⁡(𝐴−(−𝐵))=cos⁡𝐴cos⁡(−𝐵)+sin⁡𝐴sin⁡(−𝐵)\end{aligned}
+
 
 
 $$
@@ -278,7 +322,9 @@ which simplifies as
 $$
 
 
+
 \cos(A+B) = \cos A\cos B - \sin A\sin B.
+
 
 
 $$

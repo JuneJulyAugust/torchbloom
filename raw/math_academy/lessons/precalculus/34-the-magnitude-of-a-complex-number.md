@@ -23,7 +23,9 @@ Using the Pythagorean theorem, we obtain
 $$
 
 
+
 \begin{aligned}|𝑧| & =\sqrt{√(−4)^{2}+(5)^{2}} \\ & =\sqrt{√16+25} \\ & =\sqrt{√41}.\end{aligned}
+
 
 
 $$
@@ -33,7 +35,9 @@ In general, for a complex number $z=a+b\textrm{i},$ the magnitude of $z$ can be 
 $$
 
 
+
 |z| = \sqrt{a^2+b^2}
+
 
 
 $$
@@ -51,7 +55,9 @@ For a complex number $z=a+b\textrm{i},$ the magnitude of $z$ is given by
 $$
 
 
+
 |z| = \sqrt{a^2+b^2} .
+
 
 
 $$
@@ -61,7 +67,9 @@ For the complex number $z=3-4\textrm{i},$ we have $a=3$ and $b=-4.$ So, the magn
 $$
 
 
+
 \begin{aligned}\begin{aligned}|𝑧| & =\sqrt{√(3)^{2}+(−4)^{2}} \\ & =\sqrt{√9+16} \\ & =\sqrt{√25} \\ & =5.\end{aligned}\end{aligned}
+
 
 
 $$
@@ -81,7 +89,9 @@ We know that for a complex number $z=a+b\textrm{i},$ the magnitude of $z$ is giv
 $$
 
 
+
 |z| = \sqrt{a^2+b^2} .
+
 
 
 $$
@@ -91,7 +101,9 @@ So, its magnitude of $z=0 + \sqrt{2} \textrm{i}$ is given by
 $$
 
 
+
 \begin{aligned}|𝑧| & =\sqrt{√𝑎^{2}+𝑏^{2}} \\ & =\sqrt{√(0)^{2}+(\sqrt{√2})^{2}} \\ & =\sqrt{√0+2} \\ & =\sqrt{√2}.\end{aligned}
+
 
 
 $$
@@ -109,7 +121,9 @@ For a complex number $z=a+b\textrm{i},$ the magnitude of $z$ is given by
 $$
 
 
+
 |z| = \sqrt{a^2+b^2} .
+
 
 
 $$
@@ -119,7 +133,9 @@ For the complex number $z=5c - 9d\textrm{i},$ we have $a=5c$ and $b=-9d.$ So, th
 $$
 
 
+
 \begin{aligned}\begin{aligned}|𝑧| & =\sqrt{√(5𝑐)^{2}+(−9𝑑)^{2}} \\ & =\sqrt{√25𝑐^{2}+81𝑑^{2}}.\end{aligned}\end{aligned}
+
 
 
 $$

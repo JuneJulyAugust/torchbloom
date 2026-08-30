@@ -40,7 +40,9 @@ Now, according to the triangle law of addition, the resultant
 $$
 
 
+
 \mathbf{a}+\mathbf{b}
+
 
 
 $$
@@ -60,7 +62,9 @@ We write
 $$
 
 
+
 \overrightarrow{AB}=-\overrightarrow{BA}.
+
 
 
 $$
@@ -70,7 +74,9 @@ To compute the sum of two opposite vectors,
 $$
 
 
+
 \overrightarrow{AB}+\overrightarrow{BA},
+
 
 
 $$
@@ -82,7 +88,9 @@ According to the triangle law of addition, the resultant is the vector that goes
 $$
 
 
+
 \overrightarrow{AB}+\overrightarrow{BA} = \overrightarrow{AA}=\mathbf{0}.
+
 
 
 $$
@@ -106,7 +114,9 @@ That vector is called the zero vector, and we write
 $$
 
 
+
 \overrightarrow{AB}+\overrightarrow{BA} = \overrightarrow{AA}=\mathbf{0}.
+
 
 
 $$
@@ -120,7 +130,9 @@ The trick is to interpret the subtraction as the addition of a negative vector. 
 $$
 
 
+
 \mathbf{a}-\mathbf{b}
+
 
 
 $$
@@ -130,7 +142,9 @@ can be interpreted as the addition
 $$
 
 
+
 \mathbf{a} + (-\mathbf{b}),
+
 
 
 $$
@@ -154,7 +168,9 @@ We interpret the subtraction
 $$
 
 
+
 \mathbf{a}-\mathbf{b}
+
 
 
 $$
@@ -164,7 +180,9 @@ as the addition
 $$
 
 
+
 \mathbf{a} + (-\mathbf{b}),
+
 
 
 $$
@@ -196,7 +214,9 @@ First, we use the triangle law of addition to find
 $$
 
 
+
 \textbf{a}+\textbf{b}.
+
 
 
 $$
@@ -210,7 +230,9 @@ Now, we use the triangle law of addition to find
 $$
 
 
+
 (\textbf{a}+\textbf{b})+(-\textbf{c}).
+
 
 
 $$

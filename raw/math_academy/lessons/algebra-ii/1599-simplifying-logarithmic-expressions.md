@@ -19,7 +19,9 @@ To demonstrate, let's look at the expression
 $$
 
 
+
 5\log_{\color{blue}4}{\color{red}7}+3\log_{\color{blue}4}{\color{red}7}.
+
 
 
 $$
@@ -29,7 +31,9 @@ Both logarithmic terms have a base of $\color{blue}4$ and an argument of ${\colo
 $$
 
 
+
 \begin{aligned}5log_{4}⁡7+3log_{4}⁡7 & =(5+3)log_{4}⁡7=8log_{4}⁡7\end{aligned}
+
 
 
 $$
@@ -47,7 +51,9 @@ Both logarithmic terms have a base of $2$ and an argument of $5.$ Therefore, we 
 $$
 
 
+
 \begin{aligned}2log_{2}⁡5+4log_{2}⁡5 & =(2+4)log_{2}⁡5=6log_{2}⁡5\end{aligned}
+
 
 
 $$
@@ -65,7 +71,9 @@ Both the first and the third logarithmic terms have a base of ${\color{blue}4}$ 
 $$
 
 
+
 \begin{aligned}2log_{4}⁡(9)−3log_{3}⁡(9)+5log_{4}⁡(9) & =(2+5)log_{4}⁡(9)−3log_{3}⁡(9) \\ & =7log_{4}⁡(9)−3log_{3}⁡(9)\end{aligned}
+
 
 
 $$
@@ -83,7 +91,9 @@ Both the second and the third logarithmic terms have a base of ${\color{blue}4}$
 $$
 
 
+
 \begin{aligned}9log_{6}⁡(2𝑥)−2log_{4}⁡(2𝑥)−3log_{4}⁡(2𝑥) & =9log_{6}⁡(2𝑥)+(−2−3)log_{4}⁡(2𝑥) \\ & =9log_{6}⁡(2𝑥)−5log_{4}⁡(2𝑥)\end{aligned}
+
 
 
 $$

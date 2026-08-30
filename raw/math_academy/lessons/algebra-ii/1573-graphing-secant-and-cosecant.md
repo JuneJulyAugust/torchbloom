@@ -19,7 +19,9 @@ The **secant** is the reciprocal of the cosine:
 $$
 
 
+
 \sec x = \dfrac{1}{\cos x}.
+
 
 
 $$
@@ -105,7 +107,9 @@ The **cosecant** is the reciprocal of the sine:
 $$
 
 
+
 \csc x = \dfrac{1}{\sin x}
+
 
 
 $$

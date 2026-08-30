@@ -18,7 +18,9 @@ When outcomes are equally likely, we can calculate probability using the formula
 $$
 
 
+
 P(\textrm{Event}) = \frac{\textrm{Number of favorable outcomes}}{\textrm{Total number of outcomes}}.
+
 
 
 $$
@@ -34,7 +36,9 @@ First, we find the total number of markers:
 $$
 
 
+
 4 + 7 + 5 = 16.
+
 
 
 $$
@@ -46,7 +50,9 @@ So, the probability of selecting a red marker is
 $$
 
 
+
 P(\textrm{red marker}) = \frac{7}{16}.
+
 
 
 $$
@@ -66,7 +72,9 @@ The probability of an event when all outcomes are equally likely is given by
 $$
 
 
+
 P(\textrm{Event}) = \frac{\textrm{Number of favorable outcomes}}{\textrm{Total number of outcomes}}.
+
 
 
 $$
@@ -80,7 +88,9 @@ Since each student is equally likely to be selected, the probability of randomly
 $$
 
 
+
 P(\text{gaming}) = \dfrac{5}{30} = \dfrac{1}{6}.
+
 
 
 $$
@@ -98,7 +108,9 @@ The probability of an event when all outcomes are equally likely is given by
 $$
 
 
+
 P(\textrm{Event}) = \frac{\textrm{Number of favorable outcomes}}{\textrm{Total number of outcomes}}.
+
 
 
 $$
@@ -108,7 +120,9 @@ In this case, there are $6$ possible outcomes when spinning the spinner:
 $$
 
 
+
 \{\text{A}, \text{B}, \text{C}, \text{D}, \text{E}, \text{F}\}
+
 
 
 $$
@@ -118,7 +132,9 @@ Of these outcomes, $2$ of them are not consonants (that is, they are vowels):
 $$
 
 
+
 \{\text{A}, \text{E}\}
+
 
 
 $$
@@ -128,7 +144,9 @@ Since the spinner has equal sections, all outcomes are equally likely. Therefore
 $$
 
 
+
 P(\textrm{not a consonant}) = \dfrac{2}{6} = \dfrac{1}{3}.
+
 
 
 $$
@@ -142,7 +160,9 @@ In probability, the word "or" means that either event can occur. We still use th
 $$
 
 
+
 P(\textrm{Event}) = \frac{\textrm{Number of favorable outcomes}}{\textrm{Total number of outcomes}}
+
 
 
 $$
@@ -164,7 +184,9 @@ These groups do not overlap. So, the number of favorable outcomes is
 $$
 
 
+
 6 + 8 = 14.
+
 
 
 $$
@@ -174,7 +196,9 @@ Since each fruit is equally likely to be selected, the probability of randomly s
 $$
 
 
+
 P(\textrm{banana or apple}) = \dfrac{14}{20} = \dfrac{7}{10}.
+
 
 
 $$
@@ -192,7 +216,9 @@ The probability of an event when all outcomes are equally likely is given by
 $$
 
 
+
 P(\textrm{Event}) = \frac{\textrm{Number of favorable outcomes}}{\textrm{Total number of outcomes}}.
+
 
 
 $$
@@ -202,7 +228,9 @@ In this case, there are $12$ possible outcomes when rolling a $12$-sided die:
 $$
 
 
+
 \{1,2,3,4,5,6,7,8,9,10,11,12\}
+
 
 
 $$
@@ -218,7 +246,9 @@ These events do not overlap. So, the number of favorable outcomes is
 $$
 
 
+
 4 + 2 = 6.
+
 
 
 $$
@@ -228,7 +258,9 @@ Since each outcome is equally likely, the probability of rolling a number divisi
 $$
 
 
+
 P(\text{divisible by 3 or 5}) = \dfrac{6}{12} = \dfrac{1}{2}.
+
 
 
 $$
@@ -240,7 +272,9 @@ Sometimes the events in an "or" statement can overlap. This means that some outc
 $$
 
 
+
 P(\textrm{Event}) = \frac{\textrm{Number of favorable outcomes}}{\textrm{Total number of outcomes}}
+
 
 
 $$
@@ -254,7 +288,9 @@ In this case, there are $10$ possible outcomes when picking a card:
 $$
 
 
+
 \{1,2,3,4,5,6,7,8,9,10\}
+
 
 
 $$
@@ -270,7 +306,9 @@ So, in total, the number of favorable outcomes is
 $$
 
 
+
 5+3=8.
+
 
 
 $$
@@ -280,7 +318,9 @@ Since each outcome is equally likely, the probability that the card is an even n
 $$
 
 
+
 6
+
 
 
 $$
@@ -298,7 +338,9 @@ The probability of an event when all outcomes are equally likely is given by
 $$
 
 
+
 P(\textrm{Event}) = \frac{\textrm{Number of favorable outcomes}}{\textrm{Total number of outcomes}}.
+
 
 
 $$
@@ -308,7 +350,9 @@ In our case, there are $12$ possible outcomes when rolling a $12$-sided die:
 $$
 
 
+
 \{1,2,3,4,5,6,7,8,9,10,11,12\}
+
 
 
 $$
@@ -324,7 +368,9 @@ So, the number of favorable outcomes is
 $$
 
 
+
 6+3=9.
+
 
 
 $$
@@ -334,7 +380,9 @@ Since each outcome is equally likely, the probability of getting an even number 
 $$
 
 
+
 P(\text{even or less than 7}) = \dfrac{9}{12} = \dfrac{3}{4}.
+
 
 
 $$

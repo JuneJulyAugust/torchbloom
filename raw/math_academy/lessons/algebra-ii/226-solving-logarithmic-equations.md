@@ -21,7 +21,9 @@ The base of the logarithm is $3,$ so we use a base of $3$ for the exponentiation
 $$
 
 
+
 \begin{aligned}log_{3}⁡𝑥 & =4 \\ 3^{(log_{3}⁡𝑥)} & =3^{4}\end{aligned}
+
 
 
 $$
@@ -31,7 +33,9 @@ The equation above may look complicated, but since exponentiation is the inverse
 $$
 
 
+
 \begin{aligned}𝑥 & =3^{4} \\ 𝑥 & =81.\end{aligned}
+
 
 
 $$
@@ -51,7 +55,9 @@ To remove the logarithm, we exponentiate both sides of the equation. The base of
 $$
 
 
+
 \begin{aligned}log_{2}⁡𝑥 & =5 \\ 2^{log_{2}⁡𝑥} & =2^{5}\end{aligned}
+
 
 
 $$
@@ -63,7 +69,9 @@ Therefore, we get
 $$
 
 
+
 \begin{aligned}𝑥 & =2^{5} \\ 𝑥 & =32.\end{aligned}
+
 
 
 $$
@@ -81,7 +89,9 @@ To remove the logarithm, we exponentiate both sides of the equation. The base of
 $$
 
 
+
 \begin{aligned}log_{7}⁡(2𝑥+1) & =1 \\ 7^{log_{7}⁡(2𝑥+1)} & =7^{1}\end{aligned}
+
 
 
 $$
@@ -93,7 +103,9 @@ Therefore, we get
 $$
 
 
+
 \begin{aligned}2𝑥+1 & =7 \\ 2𝑥 & =6 \\ 𝑥 & =3.\end{aligned}
+
 
 
 $$
@@ -111,7 +123,9 @@ First, we make $\log_5 (x-3)$ the subject of the equation by moving everything e
 $$
 
 
+
 \begin{aligned}2log_{5}⁡(𝑥−3)+1 & =5 \\ 2log_{5}⁡(𝑥−3) & =4 \\ log_{5}⁡(𝑥−3) & =2.\end{aligned}
+
 
 
 $$
@@ -121,7 +135,9 @@ To remove the logarithm, we exponentiate both sides of the equation. The base of
 $$
 
 
+
 \begin{aligned}log_{5}⁡(𝑥−3) & =2 \\ 5^{log_{5}⁡(𝑥−3)} & =5^{2}\end{aligned}
+
 
 
 $$
@@ -133,7 +149,9 @@ Therefore, we get
 $$
 
 
+
 \begin{aligned}𝑥−3 & =5^{2} \\ 𝑥−3 & =25 \\ 𝑥 & =28\end{aligned}
+
 
 
 $$
@@ -151,7 +169,9 @@ First, we simplify our equation by collecting the like logarithmic terms, and is
 $$
 
 
+
 \begin{aligned}7log_{6}⁡𝑥−3log_{6}⁡𝑥 & =2 \\ (7−3)log_{6}⁡𝑥 & =2 \\ 4log_{6}⁡𝑥 & =2 \\ log_{6}⁡𝑥 & =\frac{1}{2}\end{aligned}
+
 
 
 $$
@@ -161,7 +181,9 @@ To remove the logarithm, we exponentiate both sides of the equation. The base of
 $$
 
 
+
 \begin{aligned}log_{6}⁡𝑥 & =\frac{1}{2} \\ 6^{log_{6}⁡𝑥} & =6^{1/2}\end{aligned}
+
 
 
 $$
@@ -173,7 +195,9 @@ Therefore, we get
 $$
 
 
+
 \begin{aligned}𝑥 & =6^{1/2} \\ 𝑥 & =\sqrt{√6}.\end{aligned}
+
 
 
 $$

@@ -30,7 +30,9 @@ We *define* the sine and cosine of $\theta,$ as follows:
 $$
 
 
+
 \cos\theta = x, \qquad \sin\theta = y
+
 
 
 $$
@@ -58,7 +60,9 @@ Any point $(x,y)$ on the unit circle is related to the central angle $\theta$ as
 $$
 
 
+
 x = \cos\theta, \qquad y = \sin\theta
+
 
 
 $$
@@ -70,7 +74,9 @@ We're given that $x=-0.7$ at the point $P.$ Therefore, we have
 $$
 
 
+
 \cos\theta = -0.7.
+
 
 
 $$
@@ -98,7 +104,9 @@ The $x$-coordinate of $P'$ equals the cosine of the reference angle.
 $$
 
 
+
 \cos(45^\circ)=\dfrac{\sqrt{2}}{2}
+
 
 
 $$
@@ -108,7 +116,9 @@ Therefore, we conclude that
 $$
 
 
+
 \cos(\, \underbrace{135^\circ}_{\theta} \,) = - \cos(\, \underbrace{45^\circ}_{\theta_R} \,) = -\dfrac{\sqrt{2}}{2}.
+
 
 
 $$
@@ -120,7 +130,9 @@ We can use a similar argument to show that, since $y = \sin\theta,$ we have
 $$
 
 
+
 \sin(135^\circ) = \sin(45^\circ) = \dfrac{\sqrt 2}{2}.
+
 
 
 $$
@@ -166,7 +178,9 @@ For example, let's consider $\sin 140^\circ.$
 $$
 
 
+
 \begin{aligned}𝜃_{𝑅} & =180^{∘}−𝜃 \\ & =180^{∘}−140^{∘} \\ & =40^{∘}.\end{aligned}
+
 
 
 $$
@@ -178,7 +192,9 @@ $$
 $$
 
 
+
 \sin 140^\circ = \sin{40^\circ}.
+
 
 
 $$
@@ -210,7 +226,9 @@ First, let's draw the angle $335^\circ$ in the coordinate plane (CAST diagram):
 $$
 
 
+
 \begin{aligned}𝜃_{𝑅} & =360^{∘}−𝜃 \\ & =360^{∘}−335^{∘} \\ & =25^{∘}.\end{aligned}
+
 
 
 $$
@@ -222,7 +240,9 @@ $$
 $$
 
 
+
 \sin 335^\circ = -\sin{25^\circ}.
+
 
 
 $$
@@ -252,7 +272,9 @@ First, let's draw the angle $340^\circ$ in the coordinate plane (CAST diagram):
 $$
 
 
+
 \begin{aligned}𝜃_{𝑅} & =360^{∘}−𝜃 \\ & =360^{∘}−340^{∘} \\ & =20^{∘}.\end{aligned}
+
 
 
 $$
@@ -264,7 +286,9 @@ $$
 $$
 
 
+
 \cos 340^\circ = \cos{20^\circ}.
+
 
 
 $$
@@ -294,7 +318,9 @@ First, let's draw the angle $162^\circ$ in the coordinate plane (CAST diagram):
 $$
 
 
+
 \begin{aligned}𝜃_{𝑅} & =180^{∘}−𝜃 \\ & =180^{∘}−162^{∘} \\ & =18^{∘}.\end{aligned}
+
 
 
 $$
@@ -306,7 +332,9 @@ $$
 $$
 
 
+
 \tan 162^\circ = -\tan{18^\circ}.
+
 
 
 $$

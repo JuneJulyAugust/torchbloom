@@ -17,7 +17,9 @@ We have already seen some properties of matrix multiplication. For example, mult
 $$
 
 
+
 A I_n = I_n A = A.
+
 
 
 $$
@@ -27,7 +29,9 @@ Also, matrix multiplication follows the **distributive laws**:
 $$
 
 
+
 \begin{aligned}(𝐴+𝐵)𝐶 & =𝐴𝐶+𝐵𝐶, \\ 𝐶(𝐴+𝐵) & =𝐶𝐴+𝐶𝐵.\end{aligned}
+
 
 
 $$
@@ -41,7 +45,9 @@ Find $AB-CB,$ where
 $$
 
 
+
 \begin{aligned}2 & 4 & −3 \\ −1 & −5 & 3 \\ −2 & 0 & 7\end{aligned}
+
 
 
 $$
@@ -53,7 +59,9 @@ We can apply the distributive law
 $$
 
 
+
 AB-CB=(A-C)B.
+
 
 
 $$
@@ -63,7 +71,9 @@ So, we calculate $A-C$ first:
 $$
 
 
+
 \begin{aligned}𝐴−𝐶 & =\begin{aligned}2 & 4 & −3 \\ −1 & −5 & 3 \\ −2 & 0 & 7\end{aligned}−\begin{aligned}3 & 4 & −3 \\ −1 & −4 & 3 \\ −2 & 0 & 8\end{aligned} \\ & =\begin{aligned}−1 & 0 & 0 \\ 0 & −1 & 0 \\ 0 & 0 & −1\end{aligned} \\ & =−𝐼_{3}\end{aligned}
+
 
 
 $$
@@ -73,7 +83,9 @@ Finally, we obtain
 $$
 
 
+
 \begin{aligned}𝐴𝐵−𝐶𝐵 & =(𝐴−𝐶)𝐵 \\ & =−𝐼_{3}𝐵 \\ & =−𝐵 \\ & =\begin{aligned}−\sqrt{√2} & −\sqrt{√3} & 45 \\ −81 & \sqrt{√5} & 2 \\ −2 & −1 & −\sqrt{√3}\end{aligned}.\end{aligned}
+
 
 
 $$
@@ -85,7 +97,9 @@ If $A,$ $B,$ and $C$ are three matrices that are conformable for multiplication,
 $$
 
 
+
 \left( AB\right) C = A\left( BC\right)
+
 
 
 $$
@@ -103,7 +117,9 @@ Calculate $ABC,$ where
 $$
 
 
+
 \begin{aligned}1 & −1 & 0 \\ 4 & 3 & 1 \\ 1 & 2 & 1\end{aligned}
+
 
 
 $$
@@ -115,7 +131,9 @@ First, recall the associative law
 $$
 
 
+
 ABC = (AB)C = A(BC).
+
 
 
 $$
@@ -131,7 +149,9 @@ So, we find the product $BC$ first:
 $$
 
 
+
 \begin{aligned}𝐵𝐶 & =\begin{aligned}−2 & 5 & −4 \\ 2 & 1 & 1 \\ −4 & 3 & −1\end{aligned}⋅\begin{aligned}−2 \\ 1 \\ 3\end{aligned} \\ & =\begin{aligned}−3 \\ 0 \\ 8\end{aligned}\end{aligned}
+
 
 
 $$
@@ -141,7 +161,9 @@ Now, we multiply $A$ by $BC\mathbin{:}$
 $$
 
 
+
 \begin{aligned}𝐴𝐵𝐶 & =𝐴(𝐵𝐶) \\ & =\begin{aligned}1 & −1 & 0 \\ 4 & 3 & 1 \\ 1 & 2 & 1\end{aligned}⋅\begin{aligned}−3 \\ 0 \\ 8\end{aligned} \\ & =\begin{aligned}−3 \\ −4 \\ 5\end{aligned}\end{aligned}
+
 
 
 $$
@@ -153,7 +175,9 @@ In general, matrix multiplication is **not** commutative. In other words, given 
 $$
 
 
+
 AB \neq BA.
+
 
 
 $$

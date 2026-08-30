@@ -18,7 +18,9 @@ The **law of total probability** provides a rule for doing this. It states that
 $$
 
 
+
 P(A) = P(A\cap B) + P(A\cap B').
+
 
 
 $$
@@ -32,7 +34,9 @@ As a simple example, suppose that we have a crate of fruit in which $\dfrac{1}{1
 $$
 
 
+
 P(A \cap B) = \dfrac{1}{10}, \qquad P(A \cap B') = \dfrac{1}{8}.
+
 
 
 $$
@@ -42,7 +46,9 @@ To find the probability of selecting an apricot from the crate, we add up the pr
 $$
 
 
+
 \begin{aligned}𝑃(𝐴) & =𝑃(𝐴∩𝐵)+𝑃(𝐴∩𝐵^{′}) \\ & =\frac{1}{10}+\frac{1}{8} \\ & =\frac{4}{40}+\frac{5}{40} \\ & =\frac{9}{40}\end{aligned}
+
 
 
 $$
@@ -62,7 +68,9 @@ To calculate the probability that the randomly selected marble is green, we can 
 $$
 
 
+
 P(G) = P(G\cap A) + P(G\cap A')
+
 
 
 $$
@@ -72,7 +80,9 @@ To calculate $P(G\cap A),$ we take the number of green marbles in box $A$ $(7)$ 
 $$
 
 
+
 P(G \cap A) = \dfrac{7}{40}.
+
 
 
 $$
@@ -82,7 +92,9 @@ Similarly, to calculate $P(G\cap A'),$ we take the number of green marbles in bo
 $$
 
 
+
 P(G \cap A') = \dfrac{8}{40}.
+
 
 
 $$
@@ -92,7 +104,9 @@ Finally, substituting the above information into the law of total probability, t
 $$
 
 
+
 \begin{aligned}𝑃(𝐺) & =𝑃(𝐺∩𝐴)+𝑃(𝐺∩𝐴^{′}) \\ & =\frac{7}{40}+\frac{8}{40} \\ & =\frac{15}{40} \\ & =\frac{3}{8}.\end{aligned}
+
 
 
 $$
@@ -104,7 +118,9 @@ It is sometimes helpful to write the law of total probability in terms of condit
 $$
 
 
+
 P(A) = P(A\cap B) + P(A\cap B')
+
 
 
 $$
@@ -114,7 +130,9 @@ Then, we express each of the joint probabilities using the multiplication law fo
 $$
 
 
+
 \begin{aligned}𝑃(𝐴∩𝐵) & =𝑃(𝐴|𝐵)𝑃(𝐵) \\ 𝑃(𝐴∩𝐵^{′}) & =𝑃(𝐴|𝐵^{′})𝑃(𝐵^{′})\end{aligned}
+
 
 
 $$
@@ -124,7 +142,9 @@ Substituting the above into the law of total probability, we get the law of tota
 $$
 
 
+
 P(A) = P(A|B)P(B) + P(A|B')P(B')
+
 
 
 $$
@@ -144,7 +164,9 @@ To calculate the probability that a randomly selected patient tests positive, we
 $$
 
 
+
 P(A) = P(A|D)P(D) + P(A|D')P(D')
+
 
 
 $$
@@ -160,7 +182,9 @@ Substituting the above information into the law of total probability, the probab
 $$
 
 
+
 \begin{aligned}𝑃(𝐴) & =𝑃(𝐴|𝐷)𝑃(𝐷)+𝑃(𝐴|𝐷^{′})𝑃(𝐷^{′}) \\ & =(\frac{10}{11})(\frac{1}{5})+(\frac{3}{11})(\frac{4}{5}) \\ & =\frac{2}{11}+\frac{12}{55} \\ & =\frac{10+12}{55} \\ & =\frac{2}{5}.\end{aligned}
+
 
 
 $$
@@ -180,7 +204,9 @@ To calculate the probability that a randomly selected component is defective, we
 $$
 
 
+
 P(D) = P(D|A)P(A) + P(D|A')P(A')
+
 
 
 $$
@@ -198,7 +224,9 @@ Substituting the above information into the law of total probability and solving
 $$
 
 
+
 \begin{aligned}𝑃(𝐷) & =𝑃(𝐷|𝐴)𝑃(𝐴)+𝑃(𝐷|𝐴^{′})𝑃(𝐴^{′}) \\ 0.11 & =(0.08)(0.70)+𝑃(𝐷|𝐴^{′})(0.30) \\ 0.110 & =0.056+0.3𝑃(𝐷|𝐴^{′}) \\ 0.3𝑃(𝐷|𝐴^{′}) & =0.054 \\ 𝑃(𝐷|𝐴^{′}) & =0.18.\end{aligned}
+
 
 
 $$

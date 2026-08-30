@@ -24,7 +24,9 @@ First, notice that each coin toss is a Bernoulli trial. And since we are tossing
 $$
 
 
+
 \textrm{HHH}, \quad \textbf{HHT}, \quad \textbf{HTH}, \quad \textrm{HTT}, \quad \textbf{THH}, \quad \textrm{THT}, \quad\textrm{TTH}, \quad \textrm{TTT}
+
 
 
 $$
@@ -34,7 +36,9 @@ Let the random variable $X$ denote the number of heads obtained when a coin is t
 $$
 
 
+
 P(X = 2) = \dfrac 3 8.
+
 
 
 $$
@@ -52,7 +56,9 @@ Therefore, we have
 $$
 
 
+
 \begin{aligned}𝑃(𝑋=2) & =𝑃(HHT)+𝑃(HTH)+𝑃(THH) \\ & =3⋅𝑃(HHT) \\ & =3⋅(\frac{1}{2})^{2}⋅(1−\frac{1}{2}).\end{aligned}
+
 
 
 $$
@@ -76,7 +82,9 @@ It can be shown that $X$ follows a so-called **binomial distribution** and has t
 $$
 
 
+
 f(x) = \displaystyle \binom{n}{x} p^x (1-p)^{n-x}, \qquad x=0,1,2,\ldots, n
+
 
 
 $$
@@ -94,7 +102,9 @@ If a random variable $X$ follows a binomial distribution, we write
 $$
 
 
+
 X\sim B(n,p).
+
 
 
 $$
@@ -108,7 +118,9 @@ Let $X$ be the number of heads obtained when a coin is tossed $\color{blue}3$ ti
 $$
 
 
+
 X\sim B\left({\color{blue}3}, \dfrac12\right).
+
 
 
 $$
@@ -118,7 +130,9 @@ Therefore, the probability of getting $X=2$ heads is
 $$
 
 
+
 \begin{aligned}𝑃(𝑋=2) & =𝑓(2) \\ & =(\frac{3}{2})(\frac{1}{2})^{2}(1−\frac{1}{2})^{3\,−\,2} \\ & =3⋅(\frac{1}{2})^{2}(\frac{1}{2}) \\ & =3⋅(\frac{1}{2})^{3} \\ & =\frac{3}{8}\end{aligned}
+
 
 
 $$
@@ -138,7 +152,9 @@ For a binomial random variable $X \sim B(n,p),$ where $n$ is the number of trial
 $$
 
 
+
 f(x) = \displaystyle \binom{n}{x} p^x (1-p)^{n-x}
+
 
 
 $$
@@ -148,7 +164,9 @@ Here, we have $X \sim B(6, 0.7),$ so $X$ has the probability mass function
 $$
 
 
+
 f(x) = \displaystyle \binom{6}{x} (0.7)^x (0.3)^{6-x}.
+
 
 
 $$
@@ -158,7 +176,9 @@ Therefore,
 $$
 
 
+
 \begin{aligned}𝑃(𝑋=2) & =𝑓(2) \\ & =(\frac{6}{2})(0.7)^{2}(0.3)^{6−2} \\ & =15(0.7)^{2}(0.3)^{4} \\ & ≈0.0595\end{aligned}
+
 
 
 $$
@@ -178,7 +198,9 @@ For a binomial random variable $X \sim B(n,p),$ where $n$ is the number of trial
 $$
 
 
+
 f(x) = \displaystyle \binom{n}{x} p^x (1-p)^{n-x}
+
 
 
 $$
@@ -188,7 +210,9 @@ Here, we have $X \sim B(10, 0.7),$ so $X$ has the probability mass function
 $$
 
 
+
 f(x) = \displaystyle \binom{10}{x} (0.7)^x (0.3)^{10-x}.
+
 
 
 $$
@@ -198,7 +222,9 @@ Therefore, we have
 $$
 
 
+
 \begin{aligned}𝑃(𝑋>8) & =𝑃(𝑋∈{9,10}) \\ & =𝑓(9)+𝑓(10) \\ & =(\frac{10}{9})(0.7)^{9}(0.3)^{10−9}+(\frac{10}{10})(0.7)^{10}(0.3)^{10−10} \\ & =10(0.7)^{9}(0.3)+1(0.7)^{10}(0.3)^{0} \\ & ≈0.1493\end{aligned}
+
 
 
 $$
@@ -218,7 +244,9 @@ For a binomial random variable $X \sim B(n,p),$ where $n$ is the number of trial
 $$
 
 
+
 f(x) = \displaystyle \binom{n}{x} p^x (1-p)^{n-x}
+
 
 
 $$
@@ -228,7 +256,9 @@ Here, we have $X \sim B(5, 0.3),$ so $X$ has the probability mass function
 $$
 
 
+
 f(x) = \displaystyle \binom{5}{x} (0.3)^x (0.7)^{5-x}.
+
 
 
 $$
@@ -238,7 +268,9 @@ Therefore, we have
 $$
 
 
+
 \begin{aligned}𝑃(0<𝑋<3) & =𝑃(𝑋∈{1,2}) \\ & =𝑓(1)+𝑓(2) \\ & =(\frac{5}{1})(0.3)^{1}(0.7)^{5−1}+(\frac{5}{2})(0.3)^{2}(0.7)^{5−2} \\ & =5(0.3)(0.7)^{4}+10(0.3)^{2}(0.7)^{3} \\ & ≈0.6689\end{aligned}
+
 
 
 $$
@@ -258,7 +290,9 @@ For a binomial random variable $X \sim B(n,p),$ we have the following probabilit
 $$
 
 
+
 f(x) = \displaystyle \binom{n}{x} p^x (1-p)^{n-x}
+
 
 
 $$
@@ -268,7 +302,9 @@ Here, we have $X \sim B(7, 0.2),$ so $X$ has the probability mass function
 $$
 
 
+
 f(x) = \displaystyle \binom{7}{x} (0.2)^x (0.8)^{7-x}.
+
 
 
 $$
@@ -280,7 +316,9 @@ Computing $P(X < 2),$ we get
 $$
 
 
+
 \begin{aligned}𝑃(𝑋<2) & =𝑃(𝑋∈{0,1}) \\ & =𝑓(0)+𝑓(1) \\ & =(\frac{7}{0})(0.2)^{0}(0.8)^{7−0}+(\frac{7}{1})(0.2)^{1}(0.8)^{7−1} \\ & =(0.8)^{7}+7(0.2)(0.8)^{6} \\ & ≈0.5767\end{aligned}
+
 
 
 $$
@@ -292,7 +330,9 @@ Therefore, we have
 $$
 
 
+
 \begin{aligned}𝑃(𝑋≥2) & =1−𝑃(𝑋<2) \\ & ≈1−0.5767 \\ & =0.4233\end{aligned}
+
 
 
 $$

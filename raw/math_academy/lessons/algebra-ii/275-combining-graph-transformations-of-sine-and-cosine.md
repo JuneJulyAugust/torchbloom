@@ -76,7 +76,9 @@ From the graph, we see that the maximum value is $y_\max=\sqrt{2}$ and the minim
 $$
 
 
+
 A = \dfrac{y_\max-y_\min}{2} = \dfrac{\sqrt{2}-(-\sqrt{2})}{2}=\sqrt{2}.
+
 
 
 $$
@@ -98,7 +100,9 @@ We can see that the function repeats itself $3$ times in the interval $x\in[0,2\
 $$
 
 
+
 T = \dfrac{2\pi}{3}.
+
 
 
 $$
@@ -108,7 +112,9 @@ The formula for the period $T$ of the function $y=A\sin(Bx + C) + D$ is given by
 $$
 
 
+
 T = \dfrac{2\pi}{B}.
+
 
 
 $$
@@ -118,7 +124,9 @@ Applying the formula for the period, we get
 $$
 
 
+
 \dfrac{2\pi}{3} = \dfrac{2\pi}{B}\quad\Longrightarrow\quad B = \dfrac{2\pi}{\left(\dfrac{2\pi}{3}\right)} = 3.
+
 
 
 $$

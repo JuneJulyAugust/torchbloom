@@ -23,7 +23,9 @@ Suppose we wish to model the height of the tip above the water using a function 
 $$
 
 
+
 H(t) = A \sin \left( B t \right) + C,
+
 
 
 $$
@@ -47,7 +49,9 @@ Therefore, we have the following model for $H(t){:}$
 $$
 
 
+
 H(t) = \pm 5\sin\left(\dfrac{\pi t}{15}\right) + 1
+
 
 
 $$
@@ -59,7 +63,9 @@ Therefore, our complete model for the height of the waterwheel's tip is
 $$
 
 
+
 H(t) = 5\sin\left(\dfrac{\pi t}{15}\right) + 1.
+
 
 
 $$
@@ -71,7 +77,9 @@ A **sinusoidal** is a model that takes one of the following forms:
 $$
 
 
+
 F(t) = A \sin (B t) + C, \qquad G(t) = A \cos (B t) + C
+
 
 
 $$
@@ -149,7 +157,9 @@ Finally, let's find the constant $B.$ The period of our function is $1 \cdot 4 =
 $$
 
 
+
 B = \dfrac{2\pi}{\textrm{Period}} = \dfrac{2\pi}{4} = \dfrac{\pi}2.
+
 
 
 $$
@@ -159,7 +169,9 @@ Therefore, we conclude that
 $$
 
 
+
 D(t) = 2\sin \left( \dfrac{\pi t}2 \right) + 6.
+
 
 
 $$
@@ -197,7 +209,9 @@ Finally, let's find the constant $B.$ The period of our function is $0.01 \cdot 
 $$
 
 
+
 B = \dfrac{2\pi}{\textrm{Period}} = \dfrac{2\pi}{0.02} = 100\pi.
+
 
 
 $$
@@ -207,7 +221,9 @@ So, since $|A|=0.25$, our function must be of the form
 $$
 
 
+
 D(t) = \pm 0.25\cos \left( 100{\pi t} \right).
+
 
 
 $$
@@ -217,7 +233,9 @@ Finally, since we have a cosine model that begins at its maximum, we select the 
 $$
 
 
+
 D(t) = 0.25\cos \left( 100{\pi t} \right).
+
 
 
 $$
@@ -255,7 +273,9 @@ Finally, let's find the constant $B.$ The period of our function is $22.5 \cdot 
 $$
 
 
+
 B = \dfrac{2\pi}{\textrm{Period}} = \dfrac{2\pi}{90} = \dfrac{\pi}{45}.
+
 
 
 $$
@@ -265,7 +285,9 @@ So, since $|A|=5$, our function must be of the form
 $$
 
 
+
 H(t) = \pm5 \sin \left( \dfrac{\pi t}{45} \right) + 417.
+
 
 
 $$
@@ -275,7 +297,9 @@ Finally, since we have a sine model that reaches its minimum before its maximum,
 $$
 
 
+
 D(t) = -5 \sin \left( \dfrac{\pi t}{45} \right) + 417.
+
 
 
 $$

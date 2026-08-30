@@ -18,7 +18,9 @@ Given the sum of a geometric series, we can find the number of terms in the sequ
 $$
 
 
+
 4+12+36+\cdots + a_N = 484
+
 
 
 $$
@@ -28,7 +30,9 @@ First, we determine the common ratio $r$ for this geometric series:
 $$
 
 
+
 \begin{aligned}𝑟 & =\frac{𝑎_{2}}{𝑎_{1}}=\frac{12}{4}=3\end{aligned}
+
 
 
 $$
@@ -38,7 +42,9 @@ The sum of the first $N$ terms of a geometric series can be determined by the fo
 $$
 
 
+
 S_N = \dfrac{a_1 (1-r^N) }{1-r}.
+
 
 
 $$
@@ -48,7 +54,9 @@ In this case, $a_1= 4$ and $r = 3.$ Substituting our values into the above formu
 $$
 
 
+
 \begin{aligned}484 & =\frac{4(1−3^{𝑁})}{1−3} \\ 484 & =−2(1−3^{𝑁}) \\ 484 & =2(3^{𝑁}−1) \\ 242 & =3^{𝑁}−1 \\ 243 & =3^{𝑁}\end{aligned}
+
 
 
 $$
@@ -58,7 +66,9 @@ Now, we rewrite $243$ as $3^{5},$ which gives
 $$
 
 
+
 \begin{aligned}3^{𝑁} & =3^{5}.\end{aligned}
+
 
 
 $$
@@ -68,7 +78,9 @@ Finally, since both sides of the equation share the same base $(3),$ we equate t
 $$
 
 
+
 \begin{aligned}𝑁 & =5\end{aligned}
+
 
 
 $$
@@ -88,7 +100,9 @@ First, we determine the common ratio $r$ for this geometric series:
 $$
 
 
+
 \begin{aligned}𝑟 & =\frac{𝑎_{2}}{𝑎_{1}}=\frac{6}{3}=2\end{aligned}
+
 
 
 $$
@@ -98,7 +112,9 @@ The sum of the first $N$ terms of a geometric series can be determined by the fo
 $$
 
 
+
 S_N = \dfrac{a_1 (1-r^N) }{1-r}.
+
 
 
 $$
@@ -108,7 +124,9 @@ In this case, $a_1= 3$ and $r = 2.$ Substituting our values into the above formu
 $$
 
 
+
 \begin{aligned}765 & =\frac{3(1−2^{𝑁})}{1−2} \\ 765 & =−3(1−2^{𝑁}) \\ 765 & =3(2^{𝑁}−1) \\ 255 & =2^{𝑁}−1 \\ 256 & =2^{𝑁}\end{aligned}
+
 
 
 $$
@@ -118,7 +136,9 @@ Now, we rewrite $256$ as $2^{8},$ which gives
 $$
 
 
+
 \begin{aligned}2^{𝑁} & =2^{8}.\end{aligned}
+
 
 
 $$
@@ -128,7 +148,9 @@ Finally, since both sides of the equation share the same base $(2),$ we equate t
 $$
 
 
+
 \begin{aligned}𝑁 & =8\end{aligned}
+
 
 
 $$
@@ -142,7 +164,9 @@ Suppose now we have a geometric series
 $$
 
 
+
 2 + 4 + 8 + 16 + 32+ \dots,
+
 
 
 $$
@@ -152,7 +176,9 @@ and we want to find the least value $N$ so that the sum of the first $N$ terms e
 $$
 
 
+
 𝑁
+
 
 
 $$
@@ -164,7 +190,9 @@ First, we determine the common ratio $r$ for this geometric series:
 $$
 
 
+
 \begin{aligned}𝑟 & =\frac{𝑎_{2}}{𝑎_{1}}=\frac{4}{2}=2\end{aligned}
+
 
 
 $$
@@ -174,7 +202,9 @@ The sum of the first $N$ terms of a geometric series can be determined by the fo
 $$
 
 
+
 S_N = \dfrac{a_1 \left( 1-r^N\right) }{1-r}.
+
 
 
 $$
@@ -184,7 +214,9 @@ Substituting $a_1= 2$ and $r =2,$ we get the following:
 $$
 
 
+
 \begin{aligned}𝑆_{𝑁} & =\frac{2(1−2^{𝑁})}{1−2} \\ & =2(2^{𝑁}−1)\end{aligned}
+
 
 
 $$
@@ -194,7 +226,9 @@ If this is to exceed $620,$ then the following must be true:
 $$
 
 
+
 \begin{aligned}2(2^{𝑁}−1) & >620 \\ 2^{𝑁}−1 & >310 \\ 2^{𝑁} & >311\end{aligned}
+
 
 
 $$
@@ -204,7 +238,9 @@ Now, we take $\log$ of both sides of the equation and use the power rule to solv
 $$
 
 
+
 \begin{aligned}log⁡(2^{𝑁}) & >log⁡(311) \\ 𝑁log⁡2 & >log⁡(311) \\ 𝑁 & >\frac{log⁡(311)}{log⁡2} \\ 𝑁 & >8.281…\end{aligned}
+
 
 
 $$
@@ -226,7 +262,9 @@ First, we determine the common ratio $r$ for this geometric series:
 $$
 
 
+
 \begin{aligned}𝑟 & =\frac{𝑎_{2}}{𝑎_{1}}=\frac{4}{1}=4\end{aligned}
+
 
 
 $$
@@ -236,7 +274,9 @@ The sum of the first $N$ terms of a geometric series can be determined by the fo
 $$
 
 
+
 S_N = \dfrac{a_1 (1-r^N) }{1-r}.
+
 
 
 $$
@@ -246,7 +286,9 @@ Substituting $a_1= 1$ and $r =4,$ we get the following:
 $$
 
 
+
 \begin{aligned}𝑆_{𝑁} & =1⋅\frac{1−4^{𝑁}}{1−4} \\ & =\frac{4^{𝑁}−1}{3}\end{aligned}
+
 
 
 $$
@@ -256,7 +298,9 @@ If this is to exceed $240,$ then the following must be true:
 $$
 
 
+
 \begin{aligned}\frac{4^{𝑁}−1}{3} & >240 \\ 4^{𝑁}−1 & >720 \\ 4^{𝑁} & >721\end{aligned}
+
 
 
 $$
@@ -266,7 +310,9 @@ Now, we take $\log$ of both sides of the equation and use the power rule to solv
 $$
 
 
+
 \begin{aligned}log⁡(4^{𝑁}) & >log⁡(721) \\ 𝑁log⁡4 & >log⁡(721) \\ 𝑁 & >\frac{log⁡(721)}{log⁡4} \\ 𝑁 & >4.746…\end{aligned}
+
 
 
 $$
@@ -288,7 +334,9 @@ First, we determine the common ratio $r$ for this geometric series:
 $$
 
 
+
 \begin{aligned}𝑟 & =\frac{𝑎_{2}}{𝑎_{1}}=\frac{4}{2}=2\end{aligned}
+
 
 
 $$
@@ -298,7 +346,9 @@ The sum of the first $N$ terms of a geometric series can be determined by the fo
 $$
 
 
+
 S_N = \dfrac{a_1 (1-r^N) }{1-r}.
+
 
 
 $$
@@ -308,7 +358,9 @@ Substituting $a_1= 2$ and $r = 2$ into the above, we get the following:
 $$
 
 
+
 \begin{aligned}𝑆_{𝑁} & =2⋅\frac{1−2^{𝑁}}{1−2} \\ & =2⋅\frac{1−2^{𝑁}}{−1} \\ & =2(2^{𝑁}−1)\end{aligned}
+
 
 
 $$
@@ -318,7 +370,9 @@ If this is to not exceed $1\,000,$ then the following must be true:
 $$
 
 
+
 \begin{aligned}2(2^{𝑁}−1) & <1\,000 \\ 2^{𝑁}−1 & <500 \\ 2^{𝑁} & <501\end{aligned}
+
 
 
 $$
@@ -328,7 +382,9 @@ Now, we take $\log$ of both sides of the equation and use the power rule to solv
 $$
 
 
+
 \begin{aligned}log⁡(2^{𝑁}) & <log⁡(501) \\ 𝑁log⁡(2) & <log⁡(501) \\ 𝑁 & <\frac{log⁡(501)}{log⁡2} \\ 𝑁 & <8.968…\end{aligned}
+
 
 
 $$

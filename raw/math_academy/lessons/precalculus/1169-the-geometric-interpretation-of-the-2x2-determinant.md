@@ -21,7 +21,9 @@ Now, we construct a new matrix
 $$
 
 
+
 [\begin{aligned}1 & 2 \\ 3 & −1\end{aligned}]
+
 
 
 $$
@@ -31,7 +33,9 @@ where the columns are made up of the components of the corresponding vectors. Le
 $$
 
 
+
 \begin{aligned}det(𝑀) & =\begin{aligned}1 & 2 \\ 3 & −1\end{aligned} \\ & =1⋅(−1)−2⋅3 \\ & =−7\end{aligned}
+
 
 
 $$
@@ -41,7 +45,9 @@ It turns out that the absolute value of $\det(M)$ gives the area $A$ of the para
 $$
 
 
+
 \begin{aligned}𝐴 & =|det(𝑀)| \\ & =|−7| \\ & =7\end{aligned}
+
 
 
 $$
@@ -59,7 +65,9 @@ First, we construct a matrix where the columns are made up of the components of 
 $$
 
 
+
 [\begin{aligned}1 & 3 \\ 2 & −3\end{aligned}]
+
 
 
 $$
@@ -69,7 +77,9 @@ Then, we find the determinant:
 $$
 
 
+
 \begin{aligned}det(𝑀) & =\begin{aligned}1 & 3 \\ 2 & −3\end{aligned} \\ & =1⋅(−3)−3⋅2 \\ & =−9\end{aligned}
+
 
 
 $$
@@ -79,7 +89,9 @@ The absolute value of $\det(M)$ gives the area $A$ of the parallelogram:
 $$
 
 
+
 A = |{-9}| = 9
+
 
 
 $$
@@ -97,7 +109,9 @@ For example, in the diagram above, we have the vectors $\textbf{u} = \left< 1,1 
 $$
 
 
+
 [\begin{aligned}1 & 2 \\ 1 & 2\end{aligned}]
+
 
 
 $$
@@ -107,7 +121,9 @@ Indeed, the determinant does come out to zero:
 $$
 
 
+
 \begin{aligned}det(𝑀) & =\begin{aligned}1 & 2 \\ 1 & 2\end{aligned} \\ & =1⋅2−2⋅1 \\ & =0\end{aligned}
+
 
 
 $$
@@ -125,7 +141,9 @@ First, we construct a matrix where the columns are made up of the components of 
 $$
 
 
+
 [\begin{aligned}3 & 6 \\ −2 & −4\end{aligned}]
+
 
 
 $$
@@ -135,7 +153,9 @@ Then, we find the determinant:
 $$
 
 
+
 \begin{aligned}det(𝑀) & =\begin{aligned}3 & 6 \\ −2 & −4\end{aligned} \\ & =3⋅(−4)−6⋅(−2) \\ & =0\end{aligned}
+
 
 
 $$
@@ -145,7 +165,9 @@ The absolute value of $\det(M)$ gives the area $A$ of the parallelogram:
 $$
 
 
+
 A = |\,0\,| = 0
+
 
 
 $$
@@ -163,7 +185,9 @@ We construct a new matrix
 $$
 
 
+
 [\begin{aligned}𝑎 & 𝑐 \\ 𝑏 & 𝑑\end{aligned}]
+
 
 
 $$
@@ -173,7 +197,9 @@ where the columns are made up of the components of the corresponding vectors. Th
 $$
 
 
+
 A = |\det(M)|
+
 
 
 $$
@@ -187,7 +213,9 @@ We can compute the area by starting with the area of the outer rectangle, and th
 $$
 
 
+
 \begin{aligned}𝐴 & =(𝑎+𝑐)(𝑏+𝑑)−2⋅\frac{1}{2}𝑐𝑑−2⋅𝑎𝑑−2⋅\frac{1}{2}𝑎𝑏 \\ & =|𝑎𝑏+𝑎𝑑+𝑏𝑐+𝑐𝑑−𝑐𝑑−2𝑎𝑑−𝑎𝑏| \\ & =|𝑏𝑐−𝑎𝑑| \\ & =|𝑎𝑑−𝑏𝑐| \\ & =|det(𝑀)|\end{aligned}
+
 
 
 $$

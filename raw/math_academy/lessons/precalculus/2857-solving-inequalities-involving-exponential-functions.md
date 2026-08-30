@@ -20,7 +20,9 @@ For example, to solve the inequality
 $$
 
 
+
 2^x < 3,
+
 
 
 $$
@@ -30,7 +32,9 @@ we can take the logarithm (base $2$) of both sides and get
 $$
 
 
+
 \begin{aligned}log_{2}⁡(2^{𝑥}) & <log_{2}⁡(3) \\ 𝑥 & <log_{2}⁡(3).\end{aligned}
+
 
 
 $$
@@ -42,7 +46,9 @@ To see this concretely, consider the following order of numbers:
 $$
 
 
+
 0.5 < 1 < 2 < 3
+
 
 
 $$
@@ -52,7 +58,9 @@ If we take the logarithm (base $2$) of all the numbers above, they stay in the s
 $$
 
 
+
 \underbrace{-1}_{ \log_2(0.5) } < \underbrace{0}_{ \log_2(1) } < \underbrace{1}_{ \log_2(2) } < \underbrace{ \,\, 1.585 \,\, }_{ \log_2(3) }
+
 
 
 $$
@@ -70,7 +78,9 @@ Isolating the exponential term, we find
 $$
 
 
+
 \begin{aligned}4𝑒^{𝑥}−5 & >0 \\ 4𝑒^{𝑥} & >5 \\ 𝑒^{𝑥} & >\frac{5}{4}.\end{aligned}
+
 
 
 $$
@@ -80,7 +90,9 @@ Then, taking the natural logarithm of both sides and applying the laws of logari
 $$
 
 
+
 \begin{aligned}ln⁡(𝑒^{𝑥}) & >ln⁡(\frac{5}{4}) \\ 𝑥 & >ln⁡5−ln⁡4.\end{aligned}
+
 
 
 $$
@@ -92,7 +104,9 @@ When we have an exponential function in an inequality and the base of the expone
 $$
 
 
+
 \dfrac{1}{2} \lt 1
+
 
 
 $$
@@ -102,7 +116,9 @@ If we take a logarithm with base $\dfrac{1}{2}$ of both sides, then we get a fal
 $$
 
 
+
 \begin{aligned}log_{\frac{1}{2}}⁡(\frac{1}{2}) & ≮log_{\frac{1}{2}}⁡(1) \\ 1 & ≮0\end{aligned}
+
 
 
 $$
@@ -114,7 +130,9 @@ For example, consider the following inequality:
 $$
 
 
+
 \left( \dfrac{2}{3} \right)^x < 5
+
 
 
 $$
@@ -124,7 +142,9 @@ We can't take $\log_\frac{2}{3}$ of both sides, but we can take the natural loga
 $$
 
 
+
 \begin{aligned}ln⁡[(\frac{2}{3})^{𝑥}] & <ln⁡5 \\ 𝑥ln⁡(\frac{2}{3}) & <ln⁡5 \\ 𝑥(ln⁡2−ln⁡3) & <ln⁡5\end{aligned}
+
 
 
 $$
@@ -134,7 +154,9 @@ Lastly, note that $\ln 2 - \ln 3$ is a negative quantity, so when we divide both
 $$
 
 
+
 \begin{aligned}𝑥 & >\frac{ln⁡5}{ln⁡2−ln⁡3}\end{aligned}
+
 
 
 $$
@@ -152,7 +174,9 @@ Isolating the exponential term, we find
 $$
 
 
+
 \begin{aligned}5⋅(\frac{3}{4})^{𝑥}+2 & ≥12 \\ 5⋅(\frac{3}{4})^{𝑥} & ≥10 \\ (\frac{3}{4})^{𝑥} & ≥2.\end{aligned}
+
 
 
 $$
@@ -162,7 +186,9 @@ Then, taking the natural logarithm of both sides and applying the laws of logari
 $$
 
 
+
 \begin{aligned}ln⁡[(\frac{3}{4})^{𝑥}] & ≥ln⁡2 \\ 𝑥ln⁡(\frac{3}{4}) & ≥ln⁡2 \\ 𝑥(ln⁡3−ln⁡4) & ≥ln⁡2.\end{aligned}
+
 
 
 $$
@@ -172,7 +198,9 @@ Lastly, note that $\ln 3 - \ln 4$ is a negative quantity, so when we divide both
 $$
 
 
+
 \begin{aligned}𝑥 & ≤\frac{ln⁡2}{ln⁡3−ln⁡4}\end{aligned}
+
 
 
 $$
@@ -184,7 +212,9 @@ Sometimes we might not be able to find the logarithm of both sides of inequality
 $$
 
 
+
 3^{x-1} \geq -5
+
 
 
 $$
@@ -196,7 +226,9 @@ What we can do instead, though, is realize that a power of a positive number is 
 $$
 
 
+
 3^{x-1} > 0
+
 
 
 $$
@@ -222,7 +254,9 @@ Isolating the exponential term, we find
 $$
 
 
+
 \begin{aligned}4⋅3^{8−𝑥}+12 & >0 \\ 4⋅3^{8−𝑥} & >−12 \\ 3^{8−𝑥} & >−3.\end{aligned}
+
 
 
 $$
@@ -232,7 +266,9 @@ Because a power of a positive number is always greater than $0,$ we must have
 $$
 
 
+
 3^{8-x} > 0
+
 
 
 $$
@@ -250,7 +286,9 @@ For example, consider the inequality
 $$
 
 
+
 2^{x} < 3^{1-x}.
+
 
 
 $$
@@ -260,7 +298,9 @@ Taking the natural logarithm of both sides and applying the laws of logarithms, 
 $$
 
 
+
 \begin{aligned}ln⁡(2^{𝑥}) & <ln⁡(3^{1−𝑥}) \\ 𝑥ln⁡2 & <(1−𝑥)ln⁡3 \\ 𝑥ln⁡2 & <ln⁡3−𝑥ln⁡3 \\ 𝑥ln⁡2+𝑥ln⁡3 & <ln⁡3 \\ 𝑥(ln⁡2+ln⁡3) & <ln⁡3 \\ 𝑥 & <\frac{ln⁡3}{ln⁡2+ln⁡3}\end{aligned}
+
 
 
 $$
@@ -270,7 +310,9 @@ $$
 $$
 
 
+
 2^{x} < -3^{1-x}
+
 
 
 $$
@@ -290,7 +332,9 @@ Taking the natural logarithm of both sides and applying the laws of logarithms, 
 $$
 
 
+
 \begin{aligned}3⋅5^{𝑥} & <7^{3−𝑥} \\ ln⁡(3⋅5^{𝑥}) & <ln⁡(7^{3−𝑥}) \\ ln⁡3+ln⁡(5^{𝑥}) & <ln⁡(7^{3−𝑥}) \\ ln⁡3+𝑥ln⁡5 & <(3−𝑥)ln⁡7 \\ ln⁡3+𝑥ln⁡5 & <3ln⁡7−𝑥ln⁡7 \\ 𝑥ln⁡5+𝑥ln⁡7 & <3ln⁡7−ln⁡3 \\ 𝑥(ln⁡5+ln⁡7) & <3ln⁡7−ln⁡3 \\ 𝑥 & <\frac{3ln⁡7−ln⁡3}{ln⁡5+ln⁡7}\end{aligned}
+
 
 
 $$

@@ -38,7 +38,9 @@ Since $\theta$ is in the second quadrant, its reference angle is given by
 $$
 
 
+
 \begin{aligned}𝜃_{𝑅} & =180^{∘}−𝜃 \\ & =180^{∘}−100^{∘} \\ & =80^{∘}.\end{aligned}
+
 
 
 $$
@@ -58,7 +60,9 @@ To convert the measure of an angle in radians to an equivalent measure in degree
 $$
 
 
+
 \left(\dfrac{11\pi} {9}\right) \cdot \left(\dfrac {180^\circ} {\pi}\right) = 220^\circ.
+
 
 
 $$
@@ -74,7 +78,9 @@ As $\theta$ is in the third quadrant, its reference angle is given by
 $$
 
 
+
 \theta_R = \theta - \pi.
+
 
 
 $$
@@ -84,7 +90,9 @@ Therefore,
 $$
 
 
+
 \begin{aligned}𝜃_{𝑅} & =\frac{11𝜋}{9}−𝜋=\frac{2𝜋}{9}.\end{aligned}
+
 
 
 $$
@@ -114,7 +122,9 @@ Now, using the triangle above, we have
 $$
 
 
+
 \cos \theta_R = \dfrac{0.74}{1} = 0.74.
+
 
 
 $$
@@ -124,7 +134,9 @@ Therefore,
 $$
 
 
+
 \theta_R = \arccos\left(0.74\right) \approx 42^\circ.
+
 
 
 $$

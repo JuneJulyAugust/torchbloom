@@ -20,7 +20,9 @@ For example, consider the matrix
 $$
 
 
+
 [\begin{aligned}1 & 3 \\ 2 & 4\end{aligned}]
+
 
 
 $$
@@ -30,7 +32,9 @@ To multiply ${A}$ by the scalar $2,$ we just multiply each entry of ${A}$ by $2\
 $$
 
 
+
 \begin{aligned}2𝐴 & =2[\begin{aligned}1 & 3 \\ 2 & 4\end{aligned}] \\ & =[\begin{aligned}2⋅1 & 2⋅3 \\ 2⋅2 & 2⋅4\end{aligned}] \\ & =[\begin{aligned}2 & 6 \\ 4 & 8\end{aligned}]\end{aligned}
+
 
 
 $$
@@ -40,7 +44,9 @@ In general, to multiply a $m \times n$ matrix $A$ by a scalar $c,$ we multiply e
 $$
 
 
+
 \begin{aligned}𝑎_{11} & 𝑎_{12} & … & 𝑎_{1𝑛} \\ 𝑎_{21} & 𝑎_{22} & … & 𝑎_{2𝑛} \\ ⋮ & ⋮ & ⋱ & ⋮ \\ 𝑎_{𝑚1} & 𝑎_{𝑚2} & … & 𝑎_{𝑚𝑛}\end{aligned}
+
 
 
 $$
@@ -58,7 +64,9 @@ We multiply each entry of $A$ by $-2,$ as follows:
 $$
 
 
+
 \begin{aligned}−2𝐴 & =−2[\begin{aligned}2 & −1 \\ 4 & 7\end{aligned}] \\ & =[\begin{aligned}−2⋅2 & −2⋅(−1) \\ −2⋅4 & −2⋅7\end{aligned}] \\ & =[\begin{aligned}−4 & 2 \\ −8 & −14\end{aligned}]\end{aligned}
+
 
 
 $$
@@ -76,7 +84,9 @@ To express $kA,$ we multiply each entry of $A$ by $k,$ as follows:
 $$
 
 
+
 \begin{aligned}𝑘𝐴 & =𝑘⋅[\begin{aligned}2 & 6 & 8 \\ 12 & 0 & −4\end{aligned}] \\ & =[\begin{aligned}2𝑘 & 6𝑘 & 8𝑘 \\ 12𝑘 & 0 & −4𝑘\end{aligned}]\end{aligned}
+
 
 
 $$
@@ -86,7 +96,9 @@ Now, we set the above result equal to the matrix given for $kA$ in the problem s
 $$
 
 
+
 \left\lbrack \matrix { 2k & 6k & 8k \ 12k & 0 & -4k } \right\rbrack = \left\lbrack \matrix { 1 & 3 & 4 \ 6 & 0 & -2 } \right\rbrack
+
 
 
 $$
@@ -96,7 +108,9 @@ We can solve for $k$ by equating any two corresponding (nonzero) elements. Let's
 $$
 
 
+
 \begin{aligned}2𝑘 & =1 \\ 𝑘 & =\frac{1}{2}.\end{aligned}
+
 
 
 $$
@@ -112,7 +126,9 @@ For example, for any numbers $c_1, c_2$ and any matrix $A,$ we can perform scala
 $$
 
 
+
 c_1 (c_2 A) = (c_1 c_2) A = c_2 (c_1 A)
+
 
 
 $$
@@ -122,7 +138,9 @@ Moreover, we can distribute a matrix over the sum or difference of scalars:
 $$
 
 
+
 (c_1 \pm c_2)A = c_1A \pm c_2A
+
 
 
 $$
@@ -132,7 +150,9 @@ We can also distribute scalar multiplication over the sum or difference of two m
 $$
 
 
+
 c (A \pm B) = c A \pm c B
+
 
 
 $$
@@ -150,7 +170,9 @@ We multiply each entry of $A$ by $2$ and each entry of $B$ by $\dfrac{1}{2},$ an
 $$
 
 
+
 \begin{aligned}2𝐴+\frac{1}{2}𝐵 & =2[\begin{aligned}1 & 5 \\ 1 & 2\end{aligned}]+\frac{1}{2}[\begin{aligned}0 & 2 \\ 4 & 2\end{aligned}] \\ & =[\begin{aligned}2⋅1 & 2⋅5 \\ 2⋅1 & 2⋅2\end{aligned}]+\begin{aligned}\frac{1}{2}⋅0 & \frac{1}{2}⋅2 \\ \frac{1}{2}⋅4 & \frac{1}{2}⋅2\end{aligned} \\ & =[\begin{aligned}2 & 10 \\ 2 & 4\end{aligned}]+[\begin{aligned}0 & 1 \\ 2 & 1\end{aligned}] \\ & =[\begin{aligned}2+0 & 10+1 \\ 2+2 & 4+1\end{aligned}] \\ & =[\begin{aligned}2 & 11 \\ 4 & 5\end{aligned}]\end{aligned}
+
 
 
 $$

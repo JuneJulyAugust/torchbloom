@@ -17,7 +17,9 @@ If an ellipse has horizontal radius $a$ and vertical radius $b,$ then the area $
 $$
 
 
+
 A = \pi ab.
+
 
 
 $$
@@ -31,7 +33,9 @@ This ellipse is centered at $O$ and has horizontal and vertical radii $a=2$ and 
 $$
 
 
+
 \begin{aligned}𝐴 & =𝜋(2)(3) \\ & =6𝜋.\end{aligned}
+
 
 
 $$
@@ -41,7 +45,9 @@ $$
 $$
 
 
+
 A = \pi a^2
+
 
 
 $$
@@ -61,7 +67,9 @@ The area of an ellipse with horizontal radius $a$ and vertical radius $b$ is giv
 $$
 
 
+
 A = \pi ab.
+
 
 
 $$
@@ -71,7 +79,9 @@ In our case, the ellipse has a horizontal radius of length $a=1$ and a vertical 
 $$
 
 
+
 A = \pi(1)(5) = 5\pi.
+
 
 
 $$
@@ -89,7 +99,9 @@ The area of an ellipse with horizontal radius $a$ and vertical radius $b$ is giv
 $$
 
 
+
 A = \pi ab.
+
 
 
 $$
@@ -99,7 +111,9 @@ The general equation of an ellipse centered at $(h,k)$ with horizontal radius $a
 $$
 
 
+
 \dfrac{(x-h)^2}{a^2} + \dfrac{(y-k)^2}{b^2} = 1.
+
 
 
 $$
@@ -111,7 +125,9 @@ Therefore, the area of the ellipse is
 $$
 
 
+
 A = \pi ( \sqrt{2})(2 \sqrt{2}) = 4\pi.
+
 
 
 $$
@@ -129,7 +145,9 @@ The area of an ellipse with horizontal radius $a$ and vertical radius $b$ is giv
 $$
 
 
+
 A = \pi ab.
+
 
 
 $$
@@ -139,7 +157,9 @@ The general equation of an ellipse centered at $(h,k)$ with horizontal radius $a
 $$
 
 
+
 \dfrac{(x-h)^2}{a^2} + \dfrac{(y-k)^2}{b^2} = 1.
+
 
 
 $$
@@ -149,7 +169,9 @@ To write the equation of the ellipse in this form, we must complete the square f
 $$
 
 
+
 \begin{aligned}𝑥^{2}+4𝑦^{2}+8𝑦 & =8 \\ 𝑥^{2}+4[𝑦^{2}+2𝑦] & =8 \\ 𝑥^{2}+4[(𝑦+1)^{2}−1] & =8 \\ 𝑥^{2}+4(𝑦+1)^{2}−4 & =8 \\ 𝑥^{2}+4(𝑦+1)^{2} & =8+4 \\ 𝑥^{2}+4(𝑦+1)^{2} & =12 \\ \frac{𝑥^{2}}{12}+\frac{(𝑦+1)^{2}}{3} & =1\end{aligned}
+
 
 
 $$
@@ -161,7 +183,9 @@ Therefore, the area of the ellipse is
 $$
 
 
+
 A = \pi(2\sqrt{3})(\sqrt{3}) = 6\pi.
+
 
 
 $$

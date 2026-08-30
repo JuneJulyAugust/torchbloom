@@ -18,7 +18,9 @@ We can solve rational inequalities using the sign table method. As an example, l
 $$
 
 
+
 \dfrac{x-2}{x} \geq 0
+
 
 
 $$
@@ -28,7 +30,9 @@ Notice that we have zero on the right-hand side. We define the function $f(x)$ a
 $$
 
 
+
 f(x) = \dfrac{x-2}{x}.
+
 
 
 $$
@@ -42,7 +46,9 @@ In our case, the equation is
 $$
 
 
+
 \dfrac{x-2}{x} = 0,
+
 
 
 $$
@@ -56,7 +62,9 @@ To find the vertical asymptotes, we set the denominator of $f(x)$ equal to zero 
 $$
 
 
+
 x = 0.
+
 
 
 $$
@@ -70,7 +78,9 @@ The root and asymptote divide the number line into the following $3$ subinterval
 $$
 
 
+
 (-\infty,0), \qquad (0,2), \qquad (2,\infty)
+
 
 
 $$
@@ -98,7 +108,9 @@ First, we define the function $f(x)$ as
 $$
 
 
+
 f(x) = \dfrac{1-x}{x+2}.
+
 
 
 $$
@@ -110,7 +122,9 @@ The solution to the equation $f(x) = 0$ is $x = 1.$ Also, $f(x)$ has a vertical 
 $$
 
 
+
 (-\infty,-2), \quad (-2,1), \quad (1,\infty)
+
 
 
 $$
@@ -136,7 +150,9 @@ First, we define the function $f(x)$ as
 $$
 
 
+
 f(x) = \dfrac{2x-1}{(x+2)(x-1)}.
+
 
 
 $$
@@ -148,7 +164,9 @@ The solution to the equation $f(x) = 0$ is $x=\dfrac 12.$ Also, $f(x)$ has verti
 $$
 
 
+
 \left(-\infty,-2\right), \quad \left(-2,\dfrac 12\right), \quad \left(\dfrac 12,1\right), \quad \left(1,\infty\right)
+
 
 
 $$
@@ -164,7 +182,9 @@ Therefore, remembering that the root of $f(x)$ is also a solution, we conclude t
 $$
 
 
+
 x\in \left(-2,\dfrac12\right]\cup (1,\infty).
+
 
 
 $$
@@ -182,7 +202,9 @@ First, we define the function $f(x)$ as
 $$
 
 
+
 f(x) = \dfrac{x^2-1}{x-3} .
+
 
 
 $$
@@ -192,7 +214,9 @@ By factoring its numerator, the function $f(x)$ can be rewritten as
 $$
 
 
+
 f(x) = \dfrac{(x+1)(x-1)}{x-3}.
+
 
 
 $$
@@ -204,7 +228,9 @@ The solutions to the equation $f(x) = 0$ are $x = \pm 1.$ Also, $f(x)$ has a ver
 $$
 
 
+
 (-\infty,-1) \quad(-1,1) \quad (1,3) \quad (3,\infty)
+
 
 
 $$

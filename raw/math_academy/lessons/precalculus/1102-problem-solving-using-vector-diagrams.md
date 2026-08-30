@@ -24,7 +24,9 @@ According to the triangle law of addition,
 $$
 
 
+
 \begin{aligned}\overset{𝑃𝑅}{} & =\overset{𝑃𝑄}{}+\overset{𝑄𝑅}{}\end{aligned}
+
 
 
 $$
@@ -38,7 +40,9 @@ From the original diagram, we have that
 $$
 
 
+
 {\color{blue}{\overrightarrow{PQ}}} = \mathbf{a} \qquad\textrm{and}\qquad {\color{blue}{\overrightarrow{QR}}} = -\mathbf{b}.
+
 
 
 $$
@@ -50,7 +54,9 @@ Therefore, by substituting these values into our equation for ${\color{red}\over
 $$
 
 
+
 \begin{aligned}\overset{𝑃𝑅}{} & =\overset{𝑃𝑄}{}+\overset{𝑄𝑅}{} \\ & =𝐚+(−𝐛) \\ & =𝐚−𝐛.\end{aligned}
+
 
 
 $$
@@ -74,7 +80,9 @@ According to the triangle law of addition,
 $$
 
 
+
 {\color{red}{\overrightarrow{TQ}}} = {\color{blue}{\overrightarrow{TS}}} + {\color{blue}{\overrightarrow{SQ}}},
+
 
 
 $$
@@ -88,7 +96,9 @@ Now, from the original diagram, we have that
 $$
 
 
+
 {\color{blue}\overrightarrow{TS}} = \mathbf{d}, \qquad {\color{blue}{\overrightarrow{SQ}}} = -\mathbf{b}.
+
 
 
 $$
@@ -102,7 +112,9 @@ Therefore, we obtain
 $$
 
 
+
 \begin{aligned}\overset{𝑇𝑄}{} & =\overset{𝑇𝑆}{}+\overset{𝑆𝑄}{} \\ & =𝐝+(−𝐛) \\ & =𝐝−𝐛.\end{aligned}
+
 
 
 $$
@@ -124,7 +136,9 @@ According to the triangle law of addition,
 $$
 
 
+
 {\color{red}{\overrightarrow{TS}}} = {\color{blue}{\overrightarrow{TP}}} + {\color{blue}{\overrightarrow{PQ}}} + {\color{blue}{\overrightarrow{QS}}}
+
 
 
 $$
@@ -138,7 +152,9 @@ Now, from the original diagram, we have that
 $$
 
 
+
 {\color{blue}\overrightarrow{TP}} = -\mathbf{b}, \qquad {\color{blue}\overrightarrow{PQ}} = \mathbf{a}, \qquad {\color{blue}\overrightarrow{QS}} = \mathbf{c}.
+
 
 
 $$
@@ -152,7 +168,9 @@ Therefore, we obtain
 $$
 
 
+
 \begin{aligned}\overset{𝑇𝑆}{} & =\overset{𝑇𝑃}{}+\overset{𝑃𝑄}{}+\overset{𝑄𝑆}{} \\ & =−𝐛+𝐚+𝐜 \\ & =𝐚−𝐛+𝐜.\end{aligned}
+
 
 
 $$

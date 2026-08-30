@@ -39,7 +39,9 @@ We proceed to factor the left-hand side by grouping:
 $$
 
 
+
 \begin{aligned}𝑥^{3}+𝑥^{2}−9𝑥−9 & = \\ (𝑥^{3}+𝑥^{2})−(9𝑥+9) & = \\ 𝑥^{2}(𝑥+1)−9(𝑥+1) & = \\ (𝑥+1)⋅𝑥^{2}−(𝑥+1)⋅9 & = \\ (𝑥+1)(𝑥^{2}−9) & \end{aligned}
+
 
 
 $$
@@ -65,7 +67,9 @@ We proceed to factor the left side by grouping:
 $$
 
 
+
 \begin{aligned}2𝑥^{3}+3𝑥^{2}−8𝑥−12 & = \\ (2𝑥^{3}+3𝑥^{2})−(8𝑥+12) & = \\ 𝑥^{2}(2𝑥+3)−4(2𝑥+3) & = \\ (2𝑥+3)⋅𝑥^{2}−(2𝑥+3)⋅4 & = \\ (2𝑥+3)(𝑥^{2}−4) & \end{aligned}
+
 
 
 $$
@@ -91,7 +95,9 @@ First, we multiply the equation by $-1$ to make the coefficient of the cubic ter
 $$
 
 
+
 x^3+4x^2-5x-20=0.
+
 
 
 $$
@@ -101,7 +107,9 @@ We then proceed to factor the left-hand side by grouping:
 $$
 
 
+
 \begin{aligned}𝑥^{3}+4𝑥^{2}−5𝑥−20 & =0 \\ 𝑥^{2}(𝑥+4)−5(𝑥+4) & =0 \\ (𝑥^{2}−5)(𝑥+4) & =0\end{aligned}
+
 
 
 $$
@@ -127,7 +135,9 @@ First, we subtract $4x^2$ and $6x$ from both sides to make the right side $0.$ T
 $$
 
 
+
 8x^3-4x^2-6x+3=0
+
 
 
 $$
@@ -137,7 +147,9 @@ Next, we factor by grouping. Notice that when grouping the smaller terms, we fac
 $$
 
 
+
 \begin{aligned}8𝑥^{3}−4𝑥^{2}−6𝑥+3 & = \\ (8𝑥^{3}−4𝑥^{2})−(6𝑥−3) & = \\ 4𝑥^{2}(2𝑥−1)−3(2𝑥−1) & = \\ (2𝑥−1)⋅4𝑥^{2}−(2𝑥−1)⋅3 & = \\ (2𝑥−1)(4𝑥^{2}−3). & \end{aligned}
+
 
 
 $$

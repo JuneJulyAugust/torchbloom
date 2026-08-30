@@ -19,7 +19,9 @@ For instance, the equation of a circle of radius $2$ in polar coordinates is sim
 $$
 
 
+
 r = 2.
+
 
 
 $$
@@ -35,7 +37,9 @@ The equation of the above circle in polar coordinates is simply
 $$
 
 
+
 r=k.
+
 
 
 $$
@@ -87,7 +91,9 @@ We can compute the radius $k$ of our circle using the Pythagorean theorem, as fo
 $$
 
 
+
 \begin{aligned}𝑘 & =\sqrt{√𝑥^{2}+𝑦^{2}} \\ & =\sqrt{√2^{2}+5^{2}} \\ & =\sqrt{√29}\end{aligned}
+
 
 
 $$

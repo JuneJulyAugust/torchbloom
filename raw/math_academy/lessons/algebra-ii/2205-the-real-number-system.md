@@ -19,7 +19,9 @@ The **irrational numbers** are numbers that are real but not rational. Irrationa
 $$
 
 
+
 -\sqrt 2, \quad \sqrt 2, \quad \sqrt[3]{2}, \quad \sqrt 3.
+
 
 
 $$
@@ -29,7 +31,9 @@ Irrational numbers aren't restricted to surds. The most famous example of an irr
 $$
 
 
+
 \pi = 3.141\,592\,653\, \ldots\,.
+
 
 
 $$
@@ -53,7 +57,9 @@ Which of the following is an irrational number?
 $$
 
 
+
 4, \qquad 3.1415926 \ldots, \qquad \dfrac{5}{13}, \qquad 1.27, \qquad 5.7232323 \ldots
+
 
 
 $$

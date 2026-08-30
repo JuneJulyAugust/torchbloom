@@ -16,7 +16,9 @@ To compute the quotient of two complex numbers $z_1 = {\color{blue}r_1} \left[\c
 $$
 
 
+
 \begin{aligned}\frac{𝑧_{1}}{𝑧_{2}}=\frac{𝑟_{1}}{𝑟_{2}}[cos⁡(𝜃_{1}−𝜃_{2})+isin⁡(𝜃_{1}−𝜃_{2})]\end{aligned}
+
 
 
 $$
@@ -26,7 +28,9 @@ For example, let's use the above formula to compute the quotient of the followin
 $$
 
 
+
 \begin{aligned}𝑧_{1} & =4[cos⁡(\frac{2𝜋}{3})+isin⁡(\frac{2𝜋}{3})] \\ 𝑧_{2} & =2[cos⁡(\frac{𝜋}{3})+isin⁡(\frac{𝜋}{3})]\end{aligned}
+
 
 
 $$
@@ -36,7 +40,9 @@ Here, we have ${\color{blue}r_1}={\color{blue}4},$ ${\color{red}r_2}={\color{red
 $$
 
 
+
 \begin{aligned}\frac{𝑧_{1}}{𝑧_{2}} & =\frac{4}{2}[cos⁡(\frac{2𝜋}{3}−\frac{𝜋}{3})+isin⁡(\frac{2𝜋}{3}−\frac{𝜋}{3})] \\ & =2[cos⁡(\frac{𝜋}{3})+isin⁡(\frac{𝜋}{3})].\end{aligned}
+
 
 
 $$
@@ -46,7 +52,9 @@ By evaluating the sine and cosine, we can get the expression in Cartesian form:
 $$
 
 
+
 \begin{aligned}\frac{𝑧_{1}}{𝑧_{2}} & =2[(\frac{1}{2})+i(\frac{\sqrt{√3}}{2})] \\ & =1+\sqrt{√3}\,i\end{aligned}
+
 
 
 $$
@@ -66,7 +74,9 @@ To compute the quotient of two complex numbers, we use the formula
 $$
 
 
+
 \begin{aligned}\frac{𝑧_{1}}{𝑧_{2}}=\frac{𝑟_{1}}{𝑟_{2}}[cos⁡(𝜃_{1}−𝜃_{2})+isin⁡(𝜃_{1}−𝜃_{2})].\end{aligned}
+
 
 
 $$
@@ -76,7 +86,9 @@ Substituting in $r_1=2,$ $r_2=4,$ $\theta_1=\dfrac{5\pi}{6},$ and $\theta_2=\dfr
 $$
 
 
+
 \begin{aligned}\frac{𝑧_{1}}{𝑧_{2}} & =\frac{2}{4}[cos⁡(\frac{5𝜋}{6}−\frac{𝜋}{2})+isin⁡(\frac{5𝜋}{6}−\frac{𝜋}{2})] \\ & =\frac{1}{2}[cos⁡(\frac{𝜋}{3})+isin⁡(\frac{𝜋}{3})].\end{aligned}
+
 
 
 $$
@@ -86,7 +98,9 @@ By evaluating the sine and cosine, we can get the expression in Cartesian form:
 $$
 
 
+
 \begin{aligned}\frac{𝑧_{1}}{𝑧_{2}} & =\frac{1}{2}[\frac{1}{2}+i(\frac{\sqrt{√3}}{2})] \\ & =\frac{1}{4}+\frac{\sqrt{√3}}{4}i\end{aligned}
+
 
 
 $$
@@ -104,7 +118,9 @@ To compute the quotient of two complex numbers, we use the formula
 $$
 
 
+
 \begin{aligned}\frac{𝑧_{1}}{𝑧_{2}}=\frac{𝑟_{1}}{𝑟_{2}}[cos⁡(𝜃_{1}−𝜃_{2})+isin⁡(𝜃_{1}−𝜃_{2})].\end{aligned}
+
 
 
 $$
@@ -114,7 +130,9 @@ Substituting in $r_1=6,$ $r_2=4,$ $\theta_1=\dfrac{\pi}{12},$ and $\theta_2=-\df
 $$
 
 
+
 \begin{aligned}\frac{𝑧_{1}}{𝑧_{2}} & =\frac{6}{4}[cos⁡(\frac{𝜋}{12}−(−\frac{𝜋}{6}))+isin⁡(\frac{𝜋}{12}−(−\frac{𝜋}{6}))] \\ & =\frac{3}{2}[cos⁡(\frac{𝜋}{4})+isin⁡(\frac{𝜋}{4})].\end{aligned}
+
 
 
 $$
@@ -124,7 +142,9 @@ By evaluating the sine and cosine, we can get the expression in Cartesian form:
 $$
 
 
+
 \begin{aligned}\frac{𝑧_{1}}{𝑧_{2}} & =\frac{3}{2}[\frac{\sqrt{√2}}{2}+i(\frac{\sqrt{√2}}{2})] \\ & =\frac{3\sqrt{√2}}{4}+\frac{3\sqrt{√2}}{4}i\end{aligned}
+
 
 
 $$
@@ -136,7 +156,9 @@ To compute the quotient of two complex numbers $z_1 = r_1 \left[\cos(\theta_1) +
 $$
 
 
+
 \begin{aligned}\frac{𝑧_{1}}{𝑧_{2}}=\frac{𝑟_{1}}{𝑟_{2}}[cos⁡(𝜃_{1}−𝜃_{2})+isin⁡(𝜃_{1}−𝜃_{2})].\end{aligned}
+
 
 
 $$
@@ -146,7 +168,9 @@ To see why the formula works, let's compute the quotient manually:
 $$
 
 
+
 \begin{aligned}\frac{𝑧_{1}}{𝑧_{2}} & =\frac{𝑟_{1}[cos⁡(𝜃_{1})+isin⁡(𝜃_{1})]}{𝑟_{2}[cos⁡(𝜃_{2})+isin⁡(𝜃_{2})]} \\ & =\frac{𝑟_{1}}{𝑟_{2}}⋅\frac{cos⁡(𝜃_{1})+isin⁡(𝜃_{1})}{cos⁡(𝜃_{2})+isin⁡(𝜃_{2})}⋅\frac{cos⁡(𝜃_{2})−isin⁡(𝜃_{2})}{cos⁡(𝜃_{2})−isin⁡(𝜃_{2})} \\ & =\frac{𝑟_{1}}{𝑟_{2}}⋅\frac{\overset{\overset{[cos⁡(𝜃_{1})cos⁡(𝜃_{2})+sin⁡(𝜃_{1})sin⁡(𝜃_{2})]}{}}{cos⁡(𝜃_{1}−𝜃_{2})}+i\overset{\overset{[sin⁡(𝜃_{1})cos⁡(𝜃_{2})−cos⁡(𝜃_{1})sin⁡(𝜃_{2})]}{}}{sin⁡(𝜃_{1}−𝜃_{2})}}{cos^{2}⁡(𝜃_{2})+sin^{2}⁡(𝜃_{2})} \\ & =\frac{𝑟_{1}}{𝑟_{2}}⋅\frac{cos⁡(𝜃_{1}−𝜃_{2})+isin⁡(𝜃_{1}−𝜃_{2})}{1} \\ & =\frac{𝑟_{1}}{𝑟_{2}}[cos⁡(𝜃_{1}−𝜃_{2})+isin⁡(𝜃_{1}−𝜃_{2})]\end{aligned}
+
 
 
 $$

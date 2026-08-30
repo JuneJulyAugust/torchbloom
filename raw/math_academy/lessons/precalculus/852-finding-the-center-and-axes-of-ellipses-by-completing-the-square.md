@@ -22,7 +22,9 @@ Clearly, this is an ellipse. To determine the center and the lengths of the majo
 $$
 
 
+
 \dfrac{(x-h)^2}{{a}^2}+\dfrac{(y-k)^2}{{b}^2}=1,
+
 
 
 $$
@@ -34,7 +36,9 @@ We do this by completing the square. First, we must group the $x$ terms and the 
 $$
 
 
+
 \begin{aligned}4𝑥^{2}+𝑦^{2}−8𝑥−4𝑦 & =8 \\ (4𝑥^{2}−8𝑥)+(𝑦^{2}−4𝑦) & =8\end{aligned}
+
 
 
 $$
@@ -44,7 +48,9 @@ Now, we complete the square for the both the $x$ and $y$ terms, as follows:
 $$
 
 
+
 \begin{aligned}(4𝑥^{2}−8𝑥)+(𝑦^{2}−4𝑦) & =8 \\ 4[𝑥^{2}−2𝑥]+𝑦^{2}−4𝑦 & =8 \\ 4[(𝑥−1)^{2}−1]+(𝑦−2)^{2}−4 & =8 \\ 4(𝑥−1)^{2}−4+(𝑦−2)^{2}−4 & =8.\end{aligned}
+
 
 
 $$
@@ -54,7 +60,9 @@ Finally, we rearrange the equation into the desired form:
 $$
 
 
+
 \begin{aligned}4(𝑥−1)^{2}−4+(𝑦−2)^{2}−4 & =8 \\ 4(𝑥−1)^{2}+(𝑦−2)^{2} & =8+4+4 \\ 4(𝑥−1)^{2}+(𝑦−2)^{2} & =16 \\ \frac{(𝑥−1)^{2}}{4}+\frac{(𝑦−2)^{2}}{16} & =1 \\ \frac{(𝑥−1)^{2}}{2^{2}}+\frac{(𝑦−2)^{2}}{4^{2}} & =1.\end{aligned}
+
 
 
 $$
@@ -78,7 +86,9 @@ First, we must group the $x$ terms and the $y$ terms:
 $$
 
 
+
 \begin{aligned}25𝑥^{2}+9𝑦^{2}−100𝑥−18𝑦 & =116 \\ (25𝑥^{2}−100𝑥)+(9𝑦^{2}−18𝑦) & =116\end{aligned}
+
 
 
 $$
@@ -88,7 +98,9 @@ Now, we complete the square for the both the $x$ and $y$ terms, as follows:
 $$
 
 
+
 \begin{aligned}(25𝑥^{2}−100𝑥)+(9𝑦^{2}−18𝑦) & =116 \\ 25[𝑥^{2}−4𝑥]+9[𝑦^{2}−2𝑦] & =116 \\ 25[(𝑥−2)^{2}−4]+9[(𝑦−1)^{2}−1] & =116 \\ 25(𝑥−2)^{2}−100+9(𝑦−1)^{2}−9 & =116\end{aligned}
+
 
 
 $$
@@ -98,7 +110,9 @@ Finally, we rearrange the equation into the desired form:
 $$
 
 
+
 \begin{aligned}25(𝑥−2)^{2}−100+9(𝑦−1)^{2}−9 & =116 \\ 25(𝑥−2)^{2}+9(𝑦−1)^{2} & =116+100+9 \\ 25(𝑥−2)^{2}+9(𝑦−1)^{2} & =225 \\ \frac{(𝑥−2)^{2}}{9}+\frac{(𝑦−1)^{2}}{25} & =1 \\ \frac{(𝑥−2)^{2}}{3^{2}}+\frac{(𝑦−1)^{2}}{5^{2}} & =1\end{aligned}
+
 
 
 $$
@@ -118,7 +132,9 @@ First, we must group the $x$ terms and the $y$ terms:
 $$
 
 
+
 \begin{aligned}𝑥^{2}+4𝑦^{2}−6𝑥+24𝑦+41 & =0 \\ (𝑥^{2}−6𝑥)+(4𝑦^{2}+24𝑦)+41 & =0\end{aligned}
+
 
 
 $$
@@ -128,7 +144,9 @@ Now, we complete the square for the both the $x$ and $y$ terms, as follows:
 $$
 
 
+
 \begin{aligned}(𝑥^{2}−6𝑥)+(4𝑦^{2}+24𝑦)+41 & =0 \\ (𝑥^{2}−6𝑥)+4[𝑦^{2}+6𝑦]+41 & =0 \\ (𝑥−3)^{2}−9+4[(𝑦+3)^{2}−9]+41 & =0 \\ (𝑥−3)^{2}−9+4(𝑦+3)^{2}−36+41 & =0\end{aligned}
+
 
 
 $$
@@ -138,7 +156,9 @@ Finally, we rearrange the equation into the desired form:
 $$
 
 
+
 \begin{aligned}(𝑥−3)^{2}−9+4(𝑦+3)^{2}−36+41 & =0 \\ (𝑥−3)^{2}+4(𝑦+3)^{2} & =9+36−41 \\ (𝑥−3)^{2}+4(𝑦+3)^{2} & =4 \\ \frac{(𝑥−3)^{2}}{4}+\frac{(𝑦+3)^{2}}{1} & =1 \\ \frac{(𝑥−3)^{2}}{2^{2}}+\frac{(𝑦+3)^{2}}{1^{2}} & =1\end{aligned}
+
 
 
 $$

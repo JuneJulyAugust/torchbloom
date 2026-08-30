@@ -16,7 +16,9 @@ When simplifying expressions containing $\cot$ and $\csc,$ we can use the follow
 $$
 
 
+
 1 + \cot^2 x= \csc^2 x
+
 
 
 $$
@@ -26,7 +28,9 @@ The identity above can be obtained by starting with the Pythagorean identity:
 $$
 
 
+
 \begin{aligned}sin^{2}⁡𝑥+cos^{2}⁡𝑥=1\end{aligned}
+
 
 
 $$
@@ -36,7 +40,9 @@ We divide both sides by $\color{black}\sin^2 x$ as follows:
 $$
 
 
+
 \begin{aligned}\frac{sin^{2}⁡𝑥}{sin^{2}⁡𝑥}+\frac{cos^{2}⁡𝑥}{sin^{2}⁡𝑥} & =\frac{1}{sin^{2}⁡𝑥}\end{aligned}
+
 
 
 $$
@@ -46,7 +52,9 @@ Simplifying the above using $\cot x = \dfrac{\cos x}{\sin x}$ and $\csc x = \dfr
 $$
 
 
+
 1 + \cot^2 x = \csc^2 x,
+
 
 
 $$
@@ -66,7 +74,9 @@ First, using the identity $1 + \cot^2 \theta = \csc^2 \theta,$ we rewrite the ex
 $$
 
 
+
 \begin{aligned}sin⁡𝜃\,(1+cot^{2}⁡𝜃)=sin⁡𝜃⋅csc^{2}⁡𝜃\end{aligned}
+
 
 
 $$
@@ -76,7 +86,9 @@ Then, using the fact that $\csc {\theta} = \dfrac{1}{\sin{\theta}},$ we can furt
 $$
 
 
+
 \begin{aligned}sin⁡𝜃⋅csc^{2}⁡𝜃 & =sin⁡𝜃⋅\frac{1}{sin^{2}⁡𝜃} \\ & =sin⁡𝜃⋅\frac{1}{sin⁡𝜃⋅sin⁡𝜃} \\ & =\frac{1}{sin⁡𝜃} \\ & =csc⁡𝜃\end{aligned}
+
 
 
 $$
@@ -90,7 +102,9 @@ Starting with $1 + \cot^2\theta = \csc^2\theta,$ if we subtract $1$ from both si
 $$
 
 
+
 \cot^2\theta = \csc^2\theta - 1.
+
 
 
 $$
@@ -102,7 +116,9 @@ We can also rewrite the identity another way. Starting again with $1 + \cot^2\th
 $$
 
 
+
 \csc^2\theta - \cot^2\theta = 1.
+
 
 
 $$
@@ -116,7 +132,9 @@ Substituting the identity into the given expression, we get
 $$
 
 
+
 \begin{aligned}\frac{1}{csc^{2}⁡𝜃−1} & =\frac{1}{cot^{2}⁡𝜃}=tan^{2}⁡𝜃.\end{aligned}
+
 
 
 $$
@@ -136,7 +154,9 @@ First, we multiply the numerator and the denominator of our expression by $\csc 
 $$
 
 
+
 \begin{aligned}\frac{1}{csc⁡𝜃−cot⁡𝜃} & =\frac{1}{csc⁡𝜃−cot⁡𝜃}⋅\frac{csc⁡𝜃+cot⁡𝜃}{csc⁡𝜃+cot⁡𝜃} \\ & =\frac{csc⁡𝜃+cot⁡𝜃}{csc^{2}⁡𝜃−cot^{2}⁡𝜃}.\end{aligned}
+
 
 
 $$
@@ -146,7 +166,9 @@ Now, using the identity $\csc^2 \theta - \cot^2 \theta=1$, we have
 $$
 
 
+
 \begin{aligned}\frac{csc⁡𝜃+cot⁡𝜃}{csc^{2}⁡𝜃−cot^{2}⁡𝜃} & =\frac{csc⁡𝜃+cot⁡𝜃}{1} \\ & =csc⁡𝜃+cot⁡𝜃.\end{aligned}
+
 
 
 $$
@@ -164,7 +186,9 @@ First, we factor $\csc x$ from the first two terms, as follows:
 $$
 
 
+
 \begin{aligned}csc⁡𝑥+csc⁡𝑥cot^{2}⁡𝑥−csc^{3}⁡𝑥 & =csc⁡𝑥\,(1+cot^{2}⁡𝑥)−csc^{3}⁡𝑥\end{aligned}
+
 
 
 $$
@@ -174,7 +198,9 @@ Now, using the cotangent-cosecant identity,
 $$
 
 
+
 1+ \cot^2 x=\csc^2 x ,
+
 
 
 $$
@@ -184,7 +210,9 @@ we get
 $$
 
 
+
 \begin{aligned}csc⁡𝑥\,(1+cot^{2}⁡𝑥)−csc^{3}⁡𝑥 & =csc⁡𝑥⋅(csc^{2}⁡𝑥)−csc^{3}⁡𝑥 \\ & =csc^{3}⁡𝑥−csc^{3}⁡𝑥 \\ & =0.\end{aligned}
+
 
 
 $$
@@ -202,7 +230,9 @@ First, we recall the following identity:
 $$
 
 
+
 1= \csc^2{\theta} -\cot^2{\theta}
+
 
 
 $$
@@ -212,7 +242,9 @@ Substituting the above identity into the given expression, and then factoring it
 $$
 
 
+
 \begin{aligned}\frac{1}{csc⁡𝜃+cot⁡𝜃}+cot⁡𝜃 & =\frac{csc^{2}⁡𝜃−cot^{2}⁡𝜃}{csc⁡𝜃+cot⁡𝜃}+cot⁡𝜃 \\ & =\frac{(csc⁡𝜃−cot⁡𝜃)\,(csc⁡𝜃+cot⁡𝜃)}{csc⁡𝜃+cot⁡𝜃}+cot⁡𝜃 \\ & =\frac{(csc⁡𝜃−cot⁡𝜃)\,(csc⁡𝜃+cot⁡𝜃)}{csc⁡𝜃+cot⁡𝜃}+cot⁡𝜃 \\ & =(csc⁡𝜃−cot⁡𝜃)+cot⁡𝜃 \\ & =csc⁡𝜃.\end{aligned}
+
 
 
 $$

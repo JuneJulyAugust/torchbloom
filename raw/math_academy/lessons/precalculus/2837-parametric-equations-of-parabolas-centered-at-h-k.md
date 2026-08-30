@@ -16,7 +16,9 @@ The parametric equations of a *vertical* parabola that has its vertex at $(h,k)$
 $$
 
 
+
 x-h = 2pt, \qquad y-k = pt^2, \qquad t \in (-\infty, \infty),
+
 
 
 $$
@@ -28,7 +30,9 @@ For instance, the parabola
 $$
 
 
+
 x-2 = 2t,\quad y-1 = t^2,\quad t \in (-\infty, \infty)
+
 
 
 $$
@@ -54,7 +58,9 @@ The parametric equations of a vertical parabola that has its vertex at $(h,k)$ a
 $$
 
 
+
 x - h = 2pt, \qquad y - k = pt^2,
+
 
 
 $$
@@ -66,7 +72,9 @@ In our case, $(h,k) = (-4,5),$ and so we have
 $$
 
 
+
 x + 4 = 2pt, \qquad y - 5 = pt^2.
+
 
 
 $$
@@ -76,7 +84,9 @@ Since the parabola passes through $(-2, 3),$ we can substitute $x=-2$ and $y=3$ 
 $$
 
 
+
 \begin{aligned}2=2𝑝𝑡 \\ −2=𝑝𝑡^{2}.\end{aligned}
+
 
 
 $$
@@ -86,7 +96,9 @@ Solving the first equation for $t,$ we have
 $$
 
 
+
 \begin{aligned}2 & =2𝑝𝑡 \\ 1 & =𝑝𝑡 \\ 𝑡 & =\frac{1}{𝑝}.\end{aligned}
+
 
 
 $$
@@ -96,7 +108,9 @@ Substituting this into the second equation and solving for $p,$ we get
 $$
 
 
+
 \begin{aligned}−2 & =𝑝(\frac{1}{𝑝})^{2} \\ −2 & =\frac{1}{𝑝} \\ 𝑝 & =−\frac{1}{2}.\end{aligned}
+
 
 
 $$
@@ -106,7 +120,9 @@ Therefore, the parametric equations of the parabola are
 $$
 
 
+
 x + 4 = 2\left(-\dfrac12\right)t, \qquad y - 5 = \left(-\dfrac12\right)t^2 ,
+
 
 
 $$
@@ -116,7 +132,9 @@ which simplify to
 $$
 
 
+
 x + 4 = -t, \qquad y - 5 = -\dfrac12t^2 .
+
 
 
 $$
@@ -128,7 +146,9 @@ The parametric equations of a *horizontal* parabola that has its vertex at $(h,k
 $$
 
 
+
 x-h = pt^2, \qquad y-k = 2pt, \qquad t \in (-\infty, \infty),
+
 
 
 $$
@@ -152,7 +172,9 @@ The parametric equations of a horizontal parabola that has its vertex at $(h,k)$
 $$
 
 
+
 x - h = pt^2, \qquad y - k = 2pt,
+
 
 
 $$
@@ -164,7 +186,9 @@ In our case, $(h,k) = (-3,2),$ and so we have
 $$
 
 
+
 x+3 = pt^2, \qquad y-2 = 2pt.
+
 
 
 $$
@@ -174,7 +198,9 @@ Since the parabola passes through $(1,0),$ we can substitute $x=1$ and $y=0$ int
 $$
 
 
+
 \begin{aligned}4=𝑝𝑡^{2} \\ −2=2𝑝𝑡.\end{aligned}
+
 
 
 $$
@@ -184,7 +210,9 @@ Solving the second equation for $t,$ we have
 $$
 
 
+
 \begin{aligned}−2 & =2𝑝𝑡 \\ 𝑡 & =−\frac{1}{𝑝}.\end{aligned}
+
 
 
 $$
@@ -194,7 +222,9 @@ Substituting this into the first equation and solving for $p,$ we get
 $$
 
 
+
 \begin{aligned}4 & =𝑝(−\frac{1}{𝑝})^{2} \\ 4 & =𝑝⋅\frac{1}{𝑝^{2}} \\ 4 & =\frac{1}{𝑝} \\ 𝑝 & =\frac{1}{4}.\end{aligned}
+
 
 
 $$
@@ -204,7 +234,9 @@ Therefore, the parametric equations of the parabola are
 $$
 
 
+
 x+3 = \left(\dfrac{1}{4}\right)t^2, \qquad y -2 = 2\left(\dfrac{1}{4}\right)t ,
+
 
 
 $$
@@ -214,7 +246,9 @@ which simplify to
 $$
 
 
+
 x+3 = \dfrac{1}{4}t^2, \qquad y -2= \dfrac{1}{2}t .
+
 
 
 $$
@@ -228,7 +262,9 @@ Find the Cartesian equation of the parabola defined by the parametric equations
 $$
 
 
+
 x-1 = -2t^2, \qquad y+1 = -4t, \qquad t\in(-\infty, \infty).
+
 
 
 $$
@@ -240,7 +276,9 @@ First, let's make $t$ the subject of the parametric equations. This gives
 $$
 
 
+
 \begin{aligned}𝑡^{2} & =−\frac{𝑥−1}{2},\,𝑡=−\frac{𝑦+1}{4}.\end{aligned}
+
 
 
 $$
@@ -250,7 +288,9 @@ Squaring both sides of the second equation, we have
 $$
 
 
+
 \begin{aligned}𝑡^{2} & =(−\frac{𝑦+1}{4})^{2} \\ & =\frac{(𝑦+1)^{2}}{16}.\end{aligned}
+
 
 
 $$
@@ -260,7 +300,9 @@ We can now eliminate the parameter $t$ by substituting the above into the equati
 $$
 
 
+
 \begin{aligned}\frac{(𝑦+1)^{2}}{16} & =−\frac{𝑥−1}{2} \\ (𝑦+1)^{2} & =16⋅(−\frac{𝑥−1}{2}) \\ (𝑦+1)^{2} & =−8(𝑥−1)\end{aligned}
+
 
 
 $$
@@ -272,7 +314,9 @@ Let's recall the parametric equations of a vertical parabola that has its vertex
 $$
 
 
+
 x-h = 2pt, \qquad y-k = pt^2, \qquad t\in(-\infty,\infty).
+
 
 
 $$
@@ -284,7 +328,9 @@ First, let's make $t$ the subject of the parametric equations:
 $$
 
 
+
 \begin{aligned}𝑥−ℎ & =2𝑝𝑡 & ⟹ & & 𝑡 & =\frac{𝑥−ℎ}{2𝑝} \\ 𝑦−𝑘 & =𝑝𝑡^{2} & ⟹ & & 𝑡^{2} & =\frac{𝑦−𝑘}{𝑝}\end{aligned}
+
 
 
 $$
@@ -294,7 +340,9 @@ Squaring the first equation above, we have
 $$
 
 
+
 \begin{aligned}𝑡^{2} & =(\frac{𝑥−ℎ}{2𝑝})^{2} \\ 𝑡^{2} & =\frac{(𝑥−ℎ)^{2}}{4𝑝^{2}}.\end{aligned}
+
 
 
 $$
@@ -304,7 +352,9 @@ Now, substituting in the second equation $t^2 = \dfrac{y-k}{p},$ we can eliminat
 $$
 
 
+
 \begin{aligned}𝑡^{2} & =\frac{(𝑥−ℎ)^{2}}{4𝑝^{2}} \\ \frac{𝑦−𝑘}{𝑝} & =\frac{(𝑥−ℎ)^{2}}{4𝑝^{2}} \\ \frac{𝑦−𝑘}{𝑝}⋅4𝑝^{2} & =(𝑥−ℎ)^{2} \\ (𝑥−ℎ)^{2} & =4𝑝(𝑦−𝑘)\end{aligned}
+
 
 
 $$

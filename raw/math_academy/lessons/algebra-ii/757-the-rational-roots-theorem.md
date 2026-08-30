@@ -20,7 +20,9 @@ In other words, given a polynomial with integer coefficients, any rational roots
 $$
 
 
+
 \pm \dfrac{\textrm{factor of the constant term}}{\textrm{factor of the leading coefficient}}.
+
 
 
 $$
@@ -30,7 +32,9 @@ For example, consider the polynomial
 $$
 
 
+
 f(x) = {\color{red}{8}}x^3+12x^2+6x+{\color{blue}{2}}.
+
 
 
 $$
@@ -42,7 +46,9 @@ At first glance, it may seem like we have $16$ possible rational roots:
 $$
 
 
+
 \begin{aligned}±\frac{1}{1}, & ±\frac{1}{2}, & ±\frac{1}{4}, & ±\frac{1}{8}, \\ ±\frac{2}{1}, & ±\frac{2}{2}, & ±\frac{2}{4}, & ±\frac{2}{8}.\end{aligned}
+
 
 
 $$
@@ -52,7 +58,9 @@ However, if we reduce the above fractions to lowest form, we see that there are 
 $$
 
 
+
 \begin{aligned}±1, & ±\frac{1}{2}, & ±\frac{1}{4}, & ±\frac{1}{8}, \\ ±2, & ±1, & ±\frac{1}{2}, & ±\frac{1}{4}.\end{aligned}
+
 
 
 $$
@@ -62,7 +70,9 @@ Removing the duplicates, we have ten *possible* rational roots. We list them fro
 $$
 
 
+
 \begin{aligned}±\frac{1}{8}, & ±\frac{1}{4}, & ±\frac{1}{2}, & ±1, & ±2.\end{aligned}
+
 
 
 $$
@@ -88,7 +98,9 @@ Given a polynomial with integer coefficients, the rational roots theorem states 
 $$
 
 
+
 \pm \dfrac{\textrm{factor of the constant term}}{\textrm{factor of the leading coefficient}}.
+
 
 
 $$
@@ -98,7 +110,9 @@ For the given polynomial $f(x),$ the constant term is $-6,$ and the leading coef
 $$
 
 
+
 \pm \dfrac{\textrm{factor of }{-6}}{\textrm{factor of }9}.
+
 
 
 $$
@@ -124,7 +138,9 @@ Given a polynomial with integer coefficients, the rational roots theorem states 
 $$
 
 
+
 \pm \dfrac{\textrm{factor of the constant term}}{\textrm{factor of the leading coefficient}}.
+
 
 
 $$
@@ -134,7 +150,9 @@ For the given polynomial $f(x),$ the constant term is $15$ and the leading coeff
 $$
 
 
+
 \pm \dfrac{\textrm{factor of }{15}}{\textrm{factor of }12}.
+
 
 
 $$
@@ -154,7 +172,9 @@ Given a polynomial with integer coefficients, the rational roots theorem states 
 $$
 
 
+
 \pm \dfrac{\textrm{factor of the constant term}}{\textrm{factor of the leading coefficient}}.
+
 
 
 $$
@@ -170,7 +190,9 @@ First, we list out all the possibilities for the numerator and denominator:
 $$
 
 
+
 \begin{aligned}±\frac{1}{1}, & ±\frac{1}{2}, & ±\frac{1}{3}, & ±\frac{1}{6}, \\ ±\frac{3}{1}, & ±\frac{3}{2}, & ±\frac{3}{3}, & ±\frac{3}{6}, \\ ±\frac{9}{1}, & ±\frac{9}{2}, & ±\frac{9}{3}, & ±\frac{9}{6}.\end{aligned}
+
 
 
 $$
@@ -180,7 +202,9 @@ Next, we reduce the fractions to lowest terms:
 $$
 
 
+
 \begin{aligned}±1, & ±\frac{1}{2}, & ±\frac{1}{3}, & ±\frac{1}{6}, \\ ±3, & ±\frac{3}{2}, & ±1, & ±\frac{1}{2}, \\ ±9, & ±\frac{9}{2}, & ±3, & ±\frac{3}{2}.\end{aligned}
+
 
 
 $$
@@ -190,7 +214,9 @@ Notice that several potential roots are duplicates (shown above in red). Removin
 $$
 
 
+
 \pm \frac{1}{6}, \; \pm \frac13, \; \pm \frac12, \; \pm 1, \; \pm \frac32, \; \pm 3, \; \pm \frac{9}{2}, \; \pm 9.
+
 
 
 $$
@@ -210,7 +236,9 @@ Given a polynomial with integer coefficients, the rational roots theorem states 
 $$
 
 
+
 \pm \dfrac{\textrm{factor of the constant term}}{\textrm{factor of the leading coefficient}}.
+
 
 
 $$
@@ -220,7 +248,9 @@ For the given polynomial $f(x),$ the constant term is $4$ and the leading coeffi
 $$
 
 
+
 \pm \dfrac{\textrm{factor of }{4}}{\textrm{factor of }1}.
+
 
 
 $$
@@ -230,7 +260,9 @@ Therefore, the possible rational roots are as follows:
 $$
 
 
+
 \pm1, \pm 2, \pm 4
+
 
 
 $$
@@ -244,7 +276,9 @@ Since the remainder is $0,$ we conclude that $\left(x-1\right)$ is indeed a fact
 $$
 
 
+
 f(x) = \left( x - 1\right) (x^2 - 4).
+
 
 
 $$
@@ -254,7 +288,9 @@ Since the highest-degree factor is now a quadratic, we can continue factoring us
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =(𝑥−1)(𝑥^{2}−4) \\ & =(𝑥−1)(𝑥+2)(𝑥−2)\end{aligned}
+
 
 
 $$
@@ -264,7 +300,9 @@ Setting the factors equal to $0,$ we find the roots $x=-2, 1, 2.$ Summing these 
 $$
 
 
+
 -2+1+2 =1.
+
 
 
 $$

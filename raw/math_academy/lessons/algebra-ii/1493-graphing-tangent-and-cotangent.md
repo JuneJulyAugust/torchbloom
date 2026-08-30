@@ -76,7 +76,9 @@ Which of the following $x$-values is **** in the domain of $y=\tan x?$
 $$
 
 
+
 0, \quad \dfrac{\pi}{2}, \quad \dfrac{\pi}{3}, \quad \dfrac{\pi}{4}
+
 
 
 $$
@@ -98,7 +100,9 @@ The **cotangent** is the reciprocal of the tangent:
 $$
 
 
+
 \cot x = \dfrac{1}{\tan x}.
+
 
 
 $$
@@ -168,7 +172,9 @@ Which of the following is the equation of a vertical asymptote of the function $
 $$
 
 
+
 x=\dfrac{\pi}{2}, \quad x=2\pi, \quad x=-\dfrac{3\pi}{2}, \quad x=\dfrac{5\pi}{4}
+
 
 
 $$

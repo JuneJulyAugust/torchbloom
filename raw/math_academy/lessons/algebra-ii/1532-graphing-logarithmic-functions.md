@@ -23,7 +23,9 @@ For example, suppose that we wish to plot the graph of
 $$
 
 
+
 y=\log_2 x.
+
 
 
 $$

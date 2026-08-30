@@ -19,7 +19,9 @@ Suppose that we want to solve the quadratic equation
 $$
 
 
+
 x^2 -2x +2=0.
+
 
 
 $$
@@ -29,7 +31,9 @@ This quadratic is written in standard form with $a=1,$ $b=-2,$ and $c=2.$ Howeve
 $$
 
 
+
 \begin{aligned}𝑏^{2}−4𝑎𝑐 & =(−2)^{2}−4(1)(2) \\ & =4−8 \\ & =−4 \\ & <0\end{aligned}
+
 
 
 $$
@@ -39,7 +43,9 @@ This means that the quadratic equation has no real solutions. However, if we all
 $$
 
 
+
 \begin{aligned}𝑥 & =\frac{−𝑏±\sqrt{√𝑏^{2}−4𝑎𝑐}}{2𝑎} \\ & =\frac{−(−2)±\sqrt{√(−2)^{2}−4(1)(2)}}{2⋅1} \\ & =\frac{2±\sqrt{√−4}}{2} \\ & =\frac{2±2i}{2} \\ & =1±i\end{aligned}
+
 
 
 $$
@@ -59,7 +65,9 @@ We can find the roots of a quadratic equation using the quadratic formula:
 $$
 
 
+
 x = \frac{-b\pm\sqrt{b^2-4ac}}{2a}
+
 
 
 $$
@@ -69,7 +77,9 @@ In this case, the coefficients are $a=1, b=-4,$ and $c=5.$ Substituting these va
 $$
 
 
+
 \begin{aligned}𝑥 & =\frac{−(−4)±\sqrt{√(−4)^{2}−4(1)(5)}}{2(1)} \\ & =\frac{4±\sqrt{√16−20}}{2} \\ & =\frac{4±\sqrt{√−4}}{2} \\ & =\frac{4±2\,i}{2} \\ & =2±i.\end{aligned}
+
 
 
 $$
@@ -89,7 +99,9 @@ First, we write the equation in standard form by bringing all of the terms to th
 $$
 
 
+
 4x^2 - 4x + 13=0.
+
 
 
 $$
@@ -99,7 +111,9 @@ We can find the roots of a quadratic equation using the quadratic formula:
 $$
 
 
+
 x = \frac{-b\pm\sqrt{b^2-4ac}}{2a}
+
 
 
 $$
@@ -109,7 +123,9 @@ In this case, the coefficients are $a=4, b=-4,$ and $c=13.$ Substituting these v
 $$
 
 
+
 \begin{aligned}𝑥 & =\frac{−(−4)±\sqrt{√(−4)^{2}−4(4)(13)}}{2(4)} \\ & =\frac{4±\sqrt{√16−208}}{8} \\ & =\frac{4±\sqrt{√−192}}{8} \\ & =\frac{4±8\sqrt{√−3}}{8} \\ & =\frac{4±8\sqrt{√3}\,i}{8} \\ & =\frac{1}{2}±\sqrt{√3}\,i\end{aligned}
+
 
 
 $$
@@ -127,7 +143,9 @@ The left-hand side is a perfect square. Therefore, we can solve the equation as 
 $$
 
 
+
 \begin{aligned}(𝑥−2)^{2} & =−16 \\ 𝑥−2 & =±\sqrt{√−16} \\ 𝑥−2 & =±4i \\ 𝑥 & =2±4i\end{aligned}
+
 
 
 $$
@@ -147,7 +165,9 @@ We first move the constant to the right-hand side:
 $$
 
 
+
 \begin{aligned}𝑥^{2}+8𝑥+80 & =0 \\ 𝑥^{2}+8𝑥 & =−80\end{aligned}
+
 
 
 $$
@@ -157,7 +177,9 @@ Next, we complete the square on the left-hand side:
 $$
 
 
+
 \begin{aligned}𝑥^{2}+8𝑥 & =−80 \\ 𝑥^{2}+2⋅4𝑥+4^{2}−4^{2} & =−80 \\ (𝑥+4)^{2}−16 & =−80 \\ (𝑥+4)^{2} & =−64\end{aligned}
+
 
 
 $$
@@ -169,7 +191,9 @@ Finally, we solve the equation using the square root method:
 $$
 
 
+
 \begin{aligned}(𝑥+4)^{2} & =−64 \\ 𝑥+4 & =±\sqrt{√−64} \\ 𝑥+4 & =±8\,i \\ 𝑥 & =−4±8\,i\end{aligned}
+
 
 
 $$

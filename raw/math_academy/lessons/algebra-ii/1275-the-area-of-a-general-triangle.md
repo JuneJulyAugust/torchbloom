@@ -16,7 +16,9 @@ The formula for the area of a general triangle is
 $$
 
 
+
 \mathcal{A}=\frac{1}{2}{\color{red}{a}}{\color{blue}{b}}\sin{C},
+
 
 
 $$
@@ -36,7 +38,9 @@ Therefore, the area of our triangle is
 $$
 
 
+
 \begin{aligned}A & =\frac{1}{2}⋅10⋅12⋅sin⁡45^{∘} \\ & =60⋅\frac{\sqrt{√2}}{2} \\ & =30\sqrt{√2}.\end{aligned}
+
 
 
 $$
@@ -56,7 +60,9 @@ The formula for the area of the triangle is
 $$
 
 
+
 \mathcal{A}=\dfrac{1}{2}ab\sin{C},
+
 
 
 $$
@@ -68,7 +74,9 @@ Here, we have
 $$
 
 
+
 \begin{aligned}𝑎 & =𝐶𝐵=58 \\ 𝑏 & =𝐶𝐴=40 \\ 𝑚∠𝐶 & =31^{∘}.\end{aligned}
+
 
 
 $$
@@ -78,7 +86,9 @@ Since
 $$
 
 
+
 \sin{31^{\circ}} = 0.515\,038
+
 
 
 $$
@@ -88,7 +98,9 @@ rounded to six decimal places, we calculate the area as follows:
 $$
 
 
+
 \begin{aligned}A & =\frac{1}{2}⋅58⋅40sin⁡31^{∘} \\ & =1160⋅(0.515\,038) \\ & ≈597.44,\end{aligned}
+
 
 
 $$
@@ -110,7 +122,9 @@ The formula for the area of the triangle is
 $$
 
 
+
 \mathcal{A}=\dfrac{1}{2}bc\sin{A},
+
 
 
 $$
@@ -122,7 +136,9 @@ Here
 $$
 
 
+
 \begin{aligned}𝑐 & =𝐴𝐵, \\ 𝑏 & =𝐴𝐶=12 cm, \\ 𝑚∠𝐴 & =45^{∘}.\end{aligned}
+
 
 
 $$
@@ -132,7 +148,9 @@ Since
 $$
 
 
+
 \sin{45^{\circ}} = \dfrac{\sqrt{2}}{2},
+
 
 
 $$
@@ -142,7 +160,9 @@ we can calculate $c=AB,$ as follows:
 $$
 
 
+
 \begin{aligned}A & =\frac{1}{2}⋅𝑏⋅𝑐⋅sin⁡𝐴 \\ 24\sqrt{√2} & =\frac{1}{2}⋅12⋅𝑐⋅sin⁡45^{∘} \\ 24\sqrt{√2} & =\frac{1}{2}⋅12⋅𝑐⋅(\frac{\sqrt{√2}}{2}) \\ 24\sqrt{√2} & =3\sqrt{√2}𝑐 \\ 24 & =3𝑐 \\ 𝑐 & =8 cm.\end{aligned}
+
 
 
 $$
@@ -168,7 +188,9 @@ First, we find the area for $\triangle ABC,$ and get
 $$
 
 
+
 \begin{aligned}A_{𝐴𝐵𝐶} & =\frac{1}{2}(42)(35)sin⁡36^{∘} \\ & =735sin⁡36^{∘} \\ & ≈432.022\end{aligned}
+
 
 
 $$
@@ -180,7 +202,9 @@ Now we find the area for $\triangle ADC,$ and get
 $$
 
 
+
 \begin{aligned}A_{𝐴𝐷𝐶} & =\frac{1}{2}(20)(18)sin⁡80^{∘} \\ & =180sin⁡80^{∘} \\ & ≈177.265\end{aligned}
+
 
 
 $$
@@ -192,7 +216,9 @@ Finally, we add together the areas of our two triangles to determine the area of
 $$
 
 
+
 \begin{aligned}A_{𝐴𝐵𝐶𝐷} & =A_{𝐴𝐵𝐶}+A_{𝐴𝐷𝐶} \\ & =432.022+177.265 \\ & ≈609\end{aligned}
+
 
 
 $$
@@ -214,7 +240,9 @@ Let's start by finding the area of $\triangle ACD.$ We get
 $$
 
 
+
 \begin{aligned}A_{𝐴𝐶𝐷} & =\frac{1}{2}⋅𝐷𝐴⋅𝐷𝐶⋅sin⁡𝐷 \\ & =\frac{1}{2}(25)(32)sin⁡70^{∘} \\ & =400sin⁡70^{∘} \\ & =375.877... \\ & ≈376\,cm^{2}\end{aligned}
+
 
 
 $$
@@ -226,7 +254,9 @@ The difference of the areas of the quadrilateral $ABCD$ and $\triangle ACD$ give
 $$
 
 
+
 \begin{aligned}A_{𝐴𝐵𝐶} & =A_{𝐴𝐶𝐷}−A_{𝐴𝐵𝐶𝐷} \\ & =376−300 \\ & =76\,cm^{2}.\end{aligned}
+
 
 
 $$
@@ -246,7 +276,9 @@ Using the usual formula for the area $\mathcal A$ of a triangle in terms of its 
 $$
 
 
+
 \mathcal A = \dfrac12 ah.
+
 
 
 $$
@@ -256,7 +288,9 @@ Using elementary trigonometry, we have that
 $$
 
 
+
 \dfrac{h}{b} = \sin C
+
 
 
 $$
@@ -266,7 +300,9 @@ which means that
 $$
 
 
+
 h = b\sin C.
+
 
 
 $$
@@ -276,7 +312,9 @@ Therefore, by substituting this into our expression for $\mathcal A,$ we have
 $$
 
 
+
 \mathcal A = \dfrac12ab\sin C
+
 
 
 $$
@@ -288,7 +326,9 @@ We can use a similar approach to prove the following formulas:
 $$
 
 
+
 \begin{aligned}A & =\frac{1}{2}𝑏𝑐sin⁡𝐴 \\ A & =\frac{1}{2}𝑎𝑐sin⁡𝐵\end{aligned}
+
 
 
 $$

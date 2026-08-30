@@ -25,7 +25,9 @@ We have a triangle! Notice that the angle corresponding to the corner at $C$ is 
 $$
 
 
+
 180^\circ- (30+45)^\circ=105^\circ.
+
 
 
 $$
@@ -35,7 +37,9 @@ Using the law of sines, we have
 $$
 
 
+
 \dfrac{3}{\sin{105^\circ}} = \dfrac{x}{\sin 45^\circ},
+
 
 
 $$
@@ -45,7 +49,9 @@ which gives
 $$
 
 
+
 \begin{aligned}𝑥 & =3⋅\frac{sin⁡45^{∘}}{sin⁡105^{∘}}=2.20\,km\end{aligned}
+
 
 
 $$
@@ -71,7 +77,9 @@ Solving for $\angle C,$ we have
 $$
 
 
+
 \begin{aligned}𝑚∠𝐶 & =180^{∘}−(𝑚∠𝐶𝐴𝐵+𝑚∠𝐶𝐵𝐴) \\ & =180^{∘}−(45^{∘}+60^{∘}) \\ & =180^{∘}−105^{∘} \\ & =75^{∘}.\end{aligned}
+
 
 
 $$
@@ -81,7 +89,9 @@ Now, according to the law of sines, we have
 $$
 
 
+
 \begin{aligned}\frac{𝑥}{sin⁡𝐴} & =\frac{3}{sin⁡𝐶} \\ \frac{𝑥}{sin⁡60^{∘}} & =\frac{3}{sin⁡75^{∘}} \\ 𝑥 & =\frac{3sin⁡60^{∘}}{sin⁡75^{∘}} \\ 𝑥 & ≈2.7\end{aligned}
+
 
 
 $$
@@ -109,7 +119,9 @@ According to the law of sines, we have
 $$
 
 
+
 \dfrac{\sin M}{LD} = \dfrac{\sin D}{ML},
+
 
 
 $$
@@ -119,7 +131,9 @@ which, in turn, gives
 $$
 
 
+
 \begin{aligned}\frac{sin⁡50^{∘}}{100} & =\frac{sin⁡𝐷}{20} \\ sin⁡𝐷 & =\frac{20⋅sin⁡50^{∘}}{100} \\ sin⁡𝐷 & ≈0.153 21,\end{aligned}
+
 
 
 $$
@@ -131,7 +145,9 @@ Now, we can find $m\angle D$ using the inverse sine function, and get
 $$
 
 
+
 \begin{aligned}𝐷 & =arcsin⁡(0.153 21) \\ 𝐷 & ≈8.813 00^{∘},\end{aligned}
+
 
 
 $$
@@ -143,7 +159,9 @@ Finally,
 $$
 
 
+
 \begin{aligned}𝑚∠𝐿 & =180^{∘}−(𝑚∠𝑀+𝑚∠𝐷) \\ & =180^{∘}−(50^{∘}+8.813 00^{∘}) \\ & ≈121.19^{∘}\end{aligned}
+
 
 
 $$

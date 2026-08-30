@@ -20,7 +20,9 @@ Furthermore, any such polynomial can be factored as
 $$
 
 
+
 ax^2+bx+c = a(x-x_1)(x-x_2),
+
 
 
 $$
@@ -42,7 +44,9 @@ Let's consider some examples.
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =2(𝑥−\frac{1}{2})(𝑥−(−1)) \\ & =2(𝑥−\frac{1}{2})(𝑥+1)\end{aligned}
+
 
 
 $$
@@ -52,7 +56,9 @@ $$
 $$
 
 
+
 \begin{aligned}𝑔(𝑥) & =9(𝑥−\frac{1}{3})(𝑥−\frac{1}{3}) \\ & =9(𝑥−\frac{1}{3})^{2}\end{aligned}
+
 
 
 $$
@@ -62,7 +68,9 @@ $$
 $$
 
 
+
 \begin{aligned}ℎ(𝑥) & =(𝑥−2i)(𝑥−(−2i)) \\ & =(𝑥−2i)(𝑥+2i)\end{aligned}
+
 
 
 $$
@@ -72,7 +80,9 @@ $$
 $$
 
 
+
 \begin{aligned}𝑘(𝑥) & =(𝑥−(2+i))(𝑥−(2−i)) \\ & =(𝑥−2−i)(𝑥−2+i)\end{aligned}
+
 
 
 $$
@@ -90,7 +100,9 @@ Since our quadratic polynomial has roots ${\color{black}x_1=2}$ and ${\color{bla
 $$
 
 
+
 \begin{aligned}𝑎(𝑥−𝑥_{1})(𝑥−𝑥_{2}) & =3(𝑥−2)(𝑥−5) \\ & =3(𝑥−2)(𝑥−5)\end{aligned}
+
 
 
 $$
@@ -100,7 +112,9 @@ Expanding the parentheses, we obtain
 $$
 
 
+
 \begin{aligned}3(𝑥−2)(𝑥−5) & =3(𝑥^{2}−7𝑥+10) \\ & =3𝑥^{2}−21𝑥+30.\end{aligned}
+
 
 
 $$
@@ -120,7 +134,9 @@ Since our quadratic polynomial has the double root ${\color{black}x_1=x_2=5},$ a
 $$
 
 
+
 \begin{aligned}𝑎(𝑥−𝑥_{1})^{2} & =1⋅(𝑥−5)^{2} \\ & =(𝑥−5)^{2}\end{aligned}
+
 
 
 $$
@@ -130,7 +146,9 @@ Expanding the parentheses, we obtain
 $$
 
 
+
 \begin{aligned}(𝑥−5)^{2} & =𝑥^{2}−10𝑥+25.\end{aligned}
+
 
 
 $$
@@ -150,7 +168,9 @@ Since our quadratic polynomial has roots ${\color{black}z_1=3+\textrm{i}}$ and $
 $$
 
 
+
 \begin{aligned}𝑎(𝑧−𝑧_{1})(𝑧−𝑧_{2}) & =2(𝑧−(3+i))(𝑧−(3−i))\end{aligned}
+
 
 
 $$
@@ -160,7 +180,9 @@ Expanding the parentheses, we obtain
 $$
 
 
+
 \begin{aligned}2(𝑧−(3+i))(𝑧−(3−i)) & =2(𝑧^{2}−(3+i)𝑧−(3−i)𝑧+(3+i)(3−i)) \\ & =2(𝑧^{2}−(3+i+3−i)𝑧+(3^{2}−i^{2})) \\ & =2(𝑧^{2}−6𝑧+(9+1)) \\ & =2(𝑧^{2}−6𝑧+10) \\ & =2𝑧^{2}−12𝑧+20.\end{aligned}
+
 
 
 $$
@@ -182,7 +204,9 @@ Next, we solve $f(u) = 0$ by completing the square, as follows:
 $$
 
 
+
 \begin{aligned}𝑓(𝑢) & =0 \\ 𝑢^{2}−2𝑢+10 & =0 \\ (𝑢^{2}−2𝑢+1^{2})−1^{2}+10 & =0 \\ (𝑢−1)^{2}−1+10 & =0 \\ (𝑢−1)^{2}+9 & =0 \\ (𝑢−1)^{2} & =−9 \\ (𝑢−1)^{2} & =9i^{2} \\ (𝑢−1)^{2} & =(3i)^{2} \\ 𝑢−1 & =±3i \\ 𝑢 & =1±3i\end{aligned}
+
 
 
 $$
@@ -192,7 +216,9 @@ Now, since our quadratic equation has roots $u_1=1+ 3\textrm{i}$ and $u_2=1- 3\t
 $$
 
 
+
 \begin{aligned}𝑢^{2}−2𝑢+10 & =𝑎(𝑢−𝑢_{1})(𝑢−𝑢_{2}) \\ & =(𝑢−(1+3i))(𝑢−(1−3i)).\end{aligned}
+
 
 
 $$
@@ -206,7 +232,9 @@ Consider a general polynomial $p(x)$ of degree $n$ with real coefficients, given
 $$
 
 
+
 p(x) = a_nx^n+\ldots+a_1x+a_0, \qquad a_n\neq 0.
+
 
 
 $$
@@ -218,7 +246,9 @@ Furthermore, $p(x)$ can be factored as follows:
 $$
 
 
+
 p(x) = a_n(x-x_1)(x-x_2)(x-x_3)\cdots (x-x_{n})
+
 
 
 $$

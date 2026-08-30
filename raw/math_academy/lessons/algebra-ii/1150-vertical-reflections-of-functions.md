@@ -20,7 +20,9 @@ As usual, It's helpful to first find a few points on the graph of $y=-f(x)$. You
 $$
 
 
+
 \begin{aligned}Points on 𝑦=𝑓(𝑥) & Points on 𝑦=−𝑓(𝑥) \\ (−1,2) & (−1,−2) \\ (0,−1) & (0,1) \\ (2,0) & (2,0) \\ (3,4) & (3,−4)\end{aligned}
+
 
 
 $$

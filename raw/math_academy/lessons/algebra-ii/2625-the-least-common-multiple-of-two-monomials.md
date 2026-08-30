@@ -29,7 +29,9 @@ Then, to find the $\textrm{LCM}$ of $a^2$ and $a^3,$ we raise $a$ to the largest
 $$
 
 
+
 \textrm{LCM}(a^2,a^3) = {\color{red}{a^3}}.
+
 
 
 $$
@@ -39,7 +41,9 @@ Finally, we multiply all of our results together:
 $$
 
 
+
 \textrm{LCM}(4a^2,10a^3) ={\color{blue}{20}}\cdot {\color{red}{a^3}}= 20a^3
+
 
 
 $$
@@ -67,7 +71,9 @@ Since the variable part is the same in the expressions, we have
 $$
 
 
+
 \textrm{LCM}(x^2,x^2) = {\color{red}{x^2}}.
+
 
 
 $$
@@ -77,7 +83,9 @@ Finally, we multiply all of our results together:
 $$
 
 
+
 \textrm{LCM}(2x^2,5x^2) = {\color{blue}{10}}\cdot {\color{red}{x^2}} = 10x^2
+
 
 
 $$
@@ -105,7 +113,9 @@ Then, to find the $\textrm{LCM}$ of $x$ and $x^2,$ we raise $x$ to the largest p
 $$
 
 
+
 \textrm{LCM}(x,x^2) = {\color{red}{x^2}}.
+
 
 
 $$
@@ -115,7 +125,9 @@ Finally, we multiply all of our results together:
 $$
 
 
+
 \textrm{LCM}(2x,3x^2) ={\color{blue}{6}}\cdot {\color{red}{x^2}}= 6x^2
+
 
 
 $$
@@ -149,7 +161,9 @@ Now, we raise $x$ and $y$ to their corresponding largest powers. Therefore,
 $$
 
 
+
 \textrm{LCM}(xy,x^2y) =x^{\color{blue}{2}}\cdot y^{\color{red}{1}}=x^2y.
+
 
 
 $$
@@ -159,7 +173,9 @@ Finally, we multiply all of our results together:
 $$
 
 
+
 \textrm{LCM}(3xy,5x^2y) = 15\cdot x^2y = 15x^2y
+
 
 
 $$
@@ -189,7 +205,9 @@ Then, to find the $\textrm{LCM}$ of $w,$ $w^3,$ and $w^2,$ we raise $w$ to the l
 $$
 
 
+
 \textrm{LCM}(w, w^3,w^2) = {\color{red}{w^3}}.
+
 
 
 $$
@@ -199,7 +217,9 @@ Finally, we multiply all of our results together:
 $$
 
 
+
 \textrm{LCM}(2w, 3w^3,8w^2) = {\color{blue}{24}}\cdot {\color{red}{w^3}} = 24w^3
+
 
 
 $$

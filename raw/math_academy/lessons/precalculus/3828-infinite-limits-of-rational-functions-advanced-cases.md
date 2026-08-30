@@ -18,7 +18,9 @@ As an example, let's consider the following rational function:
 $$
 
 
+
 f(x) = \dfrac{x}{x^2 - 4}
+
 
 
 $$
@@ -28,7 +30,9 @@ First, we factor the numerator and denominator. This gives
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =\frac{𝑥}{(𝑥+2)(𝑥−2)}.\end{aligned}
+
 
 
 $$
@@ -44,7 +48,9 @@ Therefore, we conclude that
 $$
 
 
+
 f(x) \rightarrow {\color{red}{-\infty}} \quad\textrm{as}\quad x \rightarrow -2^-.
+
 
 
 $$
@@ -66,7 +72,9 @@ Factoring the numerator and denominator and canceling any common factors, we get
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =−\frac{2𝑥+4}{𝑥^{2}+𝑥−2} \\ & =−\frac{2(𝑥+2)}{(𝑥+2)(𝑥−1)} \\ & =−\frac{2(𝑥+2)}{(𝑥+2)(𝑥−1)} \\ & =−\frac{2}{𝑥−1}.\end{aligned}
+
 
 
 $$
@@ -98,7 +106,9 @@ Factoring the numerator and denominator and canceling any common factors (if any
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =\frac{2𝑥+10}{25−𝑥^{2}} \\ & =\frac{2(𝑥+5)}{(5+𝑥)(5−𝑥)} \\ & =\frac{2(𝑥+5)}{(5+𝑥)(5−𝑥)} \\ & =\frac{2}{5−𝑥}.\end{aligned}
+
 
 
 $$
@@ -122,7 +132,9 @@ Let's determine the behavior of the following function near its asymptotes:
 $$
 
 
+
 f(x) = \dfrac{1}{x^2 - 2x + 1}
+
 
 
 $$
@@ -132,7 +144,9 @@ First, we factor the function and cancel the common factors (if any):
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =\frac{1}{𝑥^{2}−2𝑥+1} \\ & =\frac{1}{(𝑥−1)^{2}}\end{aligned}
+
 
 
 $$
@@ -152,7 +166,9 @@ Now, since $f(x)$ approaches ${\color{blue}{\infty}}$ from the left *and* from t
 $$
 
 
+
 f(x) \to {\color{blue}{\infty}} \quad \textrm{as}\quad \quad x \to 1.
+
 
 
 $$

@@ -44,7 +44,9 @@ The elements $1,2,3,4,5,8$ are in either $X$ or $Y,$ or both. Therefore, the uni
 $$
 
 
+
 X \cup Y = \{ 1,2,3,4,5,8 \}.
+
 
 
 $$
@@ -70,7 +72,9 @@ Therefore, the union of $A$ and $B$ is
 $$
 
 
+
 A \cup B = \{ a,b,c,d,e \}.
+
 
 
 $$
@@ -88,7 +92,9 @@ The union $X \cup Y$ is the set of all elements belonging to either $X$ or $Y,$ 
 $$
 
 
+
 \begin{aligned}𝑋∪𝑌 & ={2,5,7,8}∪{1,3,5} \\ & ={1,2,3,5,7,8}.\end{aligned}
+
 
 
 $$
@@ -98,7 +104,9 @@ The union $Y \cup Z$ is the set of all elements belonging to either $Y$ or $Z,$ 
 $$
 
 
+
 \begin{aligned}𝑌∪𝑍 & ={1,3,5}∪{2,4,6,8} \\ & ={1,2,3,4,5,6,8}.\end{aligned}
+
 
 
 $$
@@ -108,7 +116,9 @@ The union $Z \cup X$ is the set of all elements belonging to either $Z$ or $X,$ 
 $$
 
 
+
 \begin{aligned}𝑍∪𝑋 & ={2,4,6,8}∪{2,5,7,8} \\ & ={2,4,5,6,7,8}.\end{aligned}
+
 
 
 $$
@@ -126,7 +136,9 @@ The multiples of $4$ that are greater than $0$ are
 $$
 
 
+
 A = \{ 4,8,12,16,20,24,28,32, 36 \ldots \}.
+
 
 
 $$
@@ -136,7 +148,9 @@ Likewise, multiples of $6$ that are greater than $0$ are
 $$
 
 
+
 B = \{ 6,12,18,24,30,36,\ldots \}.
+
 
 
 $$
@@ -148,7 +162,9 @@ Therefore, we have
 $$
 
 
+
 \begin{aligned}𝐴∪𝐵 & ={4,8,12,16,20,24,28,32,36,…}∪{6,12,18,24,30,36,…} \\ & ={4,6,8,12,16,18,20,24,28,30,32,36,…}.\end{aligned}
+
 
 
 $$

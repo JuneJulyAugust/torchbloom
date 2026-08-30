@@ -20,7 +20,9 @@ The directrices of the *horizontal* hyperbola
 $$
 
 
+
 \dfrac{(x-h)^2}{a^2} - \dfrac{(y-k)^2}{b^2} = 1
+
 
 
 $$
@@ -30,7 +32,9 @@ are the two *vertical* lines with the equations
 $$
 
 
+
 x = h \pm \dfrac{a^2}{c},
+
 
 
 $$
@@ -46,7 +50,9 @@ From the diagram, we see that the center of the hyperbola is
 $$
 
 
+
 (h,k) = (2,1),
+
 
 
 $$
@@ -56,7 +62,9 @@ and that the semi-transverse and semi-conjugate axes are given by
 $$
 
 
+
 a=\dfrac{8}{2}=4, \qquad b=\dfrac{6}{2}=3.
+
 
 
 $$
@@ -66,7 +74,9 @@ Computing the focal length, we get
 $$
 
 
+
 \begin{aligned}𝑐 & =\sqrt{√𝑎^{2}+𝑏^{2}} \\ & =\sqrt{√4^{2}+3^{2}} \\ & =\sqrt{√25} \\ & =5.\end{aligned}
+
 
 
 $$
@@ -76,7 +86,9 @@ Therefore, the equations of the directrices are as follows:
 $$
 
 
+
 \begin{aligned}𝑥 & =ℎ±\frac{𝑎^{2}}{𝑐} \\ 𝑥 & =2±\frac{4^{2}}{5} \\ 𝑥 & =2±\frac{16}{5} \\ 𝑥 & =−\frac{6}{5},\,\frac{26}{5}\end{aligned}
+
 
 
 $$
@@ -100,7 +112,9 @@ For the ** hyperbola
 $$
 
 
+
 \dfrac{(x-h)^2}{a^2} - \dfrac{(y-k)^2}{b^2} = 1
+
 
 
 $$
@@ -110,7 +124,9 @@ the equations of the directrices are
 $$
 
 
+
 x = h \pm \dfrac{a^2}{c},
+
 
 
 $$
@@ -122,7 +138,9 @@ In our case, we have
 $$
 
 
+
 h=0, \qquad k=0, \qquad a^2 = 25, \qquad b^2 = 9.
+
 
 
 $$
@@ -132,7 +150,9 @@ Now, computing the focal length, we get
 $$
 
 
+
 \begin{aligned}𝑐 & =\sqrt{√𝑎^{2}+𝑏^{2}} \\ & =\sqrt{√25+9} \\ & =\sqrt{√34}.\end{aligned}
+
 
 
 $$
@@ -142,7 +162,9 @@ Therefore, the equations of the directrices are the following:
 $$
 
 
+
 \begin{aligned}𝑥 & =ℎ±\frac{𝑎^{2}}{𝑐} \\ 𝑥 & =0±\frac{5^{2}}{\sqrt{√34}} \\ 𝑥 & =±\frac{25}{\sqrt{√34}}\end{aligned}
+
 
 
 $$
@@ -154,7 +176,9 @@ The directrices of the *vertical* hyperbola
 $$
 
 
+
 \dfrac{(y-k)^2}{a^2} - \dfrac{(x-h)^2}{b^2} = 1
+
 
 
 $$
@@ -164,7 +188,9 @@ are the two *horizontal* lines with the equations
 $$
 
 
+
 y = k \pm \dfrac{a^2}{c},
+
 
 
 $$
@@ -180,7 +206,9 @@ From the diagram, we see that the center of the hyperbola is
 $$
 
 
+
 (h,k) = (0,-1),
+
 
 
 $$
@@ -190,7 +218,9 @@ and that the semi-transverse and semi-conjugate axes are
 $$
 
 
+
 a=\dfrac{2\sqrt{6}}{2}=\sqrt{6} \qquad b=\dfrac{2\sqrt{3}}{2}=\sqrt{3}.
+
 
 
 $$
@@ -200,7 +230,9 @@ Computing the focal length, we get
 $$
 
 
+
 \begin{aligned}𝑐 & =\sqrt{√𝑎^{2}+𝑏^{2}} \\ & =\sqrt{√(\sqrt{√6})^{2}+(\sqrt{√3})^{2}} \\ & =\sqrt{√9} \\ & =3.\end{aligned}
+
 
 
 $$
@@ -210,7 +242,9 @@ Therefore, the equations of the directrices are:
 $$
 
 
+
 \begin{aligned}𝑦 & =𝑘±\frac{𝑎^{2}}{𝑐} \\ 𝑦 & =−1±\frac{(\sqrt{√6})^{2}}{3} \\ 𝑦 & =−1±\frac{6}{3} \\ 𝑦 & =−1±2 \\ 𝑦 & =−3,\,1\end{aligned}
+
 
 
 $$
@@ -232,7 +266,9 @@ For the ** hyperbola
 $$
 
 
+
 \dfrac{(y-k)^2}{a^2} - \dfrac{(x-h)^2}{b^2} = 1
+
 
 
 $$
@@ -242,7 +278,9 @@ the equations of the directrices are
 $$
 
 
+
 y = k \pm \dfrac{a^2}{c},
+
 
 
 $$
@@ -254,7 +292,9 @@ In our case, we have
 $$
 
 
+
 h=-3, \qquad k=2, \qquad a^2 = 28, \qquad b^2 = 21.
+
 
 
 $$
@@ -264,7 +304,9 @@ Now, computing the focal length, we get
 $$
 
 
+
 \begin{aligned}𝑐 & =\sqrt{√𝑎^{2}+𝑏^{2}} \\ & =\sqrt{√28+21} \\ & =\sqrt{√49} \\ & =7.\end{aligned}
+
 
 
 $$
@@ -274,7 +316,9 @@ Therefore, the equations of the directrices are the following:
 $$
 
 
+
 \begin{aligned}𝑦 & =𝑘±\frac{𝑎^{2}}{𝑐} \\ 𝑦 & =2±\frac{28}{7} \\ 𝑦 & =2±4 \\ 𝑦 & =−2,\,6\end{aligned}
+
 
 
 $$
@@ -294,7 +338,9 @@ Now consider a point $P$ on the *left* branch of the horizontal hyperbola shown 
 $$
 
 
+
 \dfrac {PF_1} {PD_1} = e
+
 
 
 $$
@@ -306,7 +352,9 @@ Similarly, if $Q$ is a point on the *right* branch of the hyperbola, then
 $$
 
 
+
 \dfrac {QF_2} {QD_2} = e.
+
 
 
 $$
@@ -318,7 +366,9 @@ A hyperbola (more precisely, one of its branches) can be uniquely determined usi
 $$
 
 
+
 𝑃
+
 
 
 $$

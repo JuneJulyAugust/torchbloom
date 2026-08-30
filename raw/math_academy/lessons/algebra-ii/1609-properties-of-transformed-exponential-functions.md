@@ -18,7 +18,9 @@ Consider the exponential function $f(x)=2^x.$ Its domain is given by
 $$
 
 
+
 x \in (-\infty, \infty).
+
 
 
 $$
@@ -40,7 +42,9 @@ To find the $y$-intercept, we substitute $x = 0$ into the equation:
 $$
 
 
+
 \begin{aligned}𝑦 & =−2𝑒^{−2(0)}+3 \\ & =−2𝑒^{0}+3 \\ & =−2(1)+3 \\ & =1\end{aligned}
+
 
 
 $$
@@ -60,7 +64,9 @@ The range of $4^x$ is
 $$
 
 
+
 4^x \gt 0.
+
 
 
 $$
@@ -70,7 +76,9 @@ Multiplying the above inequality by $2$ and then adding $3,$ we get the followin
 $$
 
 
+
 \begin{aligned}4^{𝑥} & >0 \\ 2(4)^{𝑥} & >0 \\ 2(4)^{𝑥}+3 & >0+3 \\ 𝑦 & >3\end{aligned}
+
 
 
 $$
@@ -94,7 +102,9 @@ To find the root of $f(x),$ we must solve $f(x)=0\mathbin{:}$
 $$
 
 
+
 3(2)^{x} - 48 = 0
+
 
 
 $$
@@ -104,7 +114,9 @@ First, we isolate the term with the variable exponent by adding $48$ to both sid
 $$
 
 
+
 \begin{aligned}3(2)^{𝑥}−48 & =0 \\ 3(2)^{𝑥}−48+48 & =0+48 \\ 3(2)^{𝑥} & =48\end{aligned}
+
 
 
 $$
@@ -114,7 +126,9 @@ Dividing both sides by $3,$ we get
 $$
 
 
+
 \begin{aligned}3(2)^{𝑥} & =48 \\ 2^{𝑥} & =16.\end{aligned}
+
 
 
 $$
@@ -124,7 +138,9 @@ Now, we rewrite $16$ as $2^4$ to get
 $$
 
 
+
 2^x = 2^4.
+
 
 
 $$
@@ -134,7 +150,9 @@ Finally, since both sides of the equation share the same base $(2)$, we equate t
 $$
 
 
+
 x = 4.
+
 
 
 $$
@@ -158,7 +176,9 @@ Since the function approaches the line $y=2$ as $x\to -\infty,$ we conclude that
 $$
 
 
+
 f(x)\to 2 \quad \textrm{as}\quad x\to -\infty.
+
 
 
 $$

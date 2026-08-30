@@ -17,7 +17,9 @@ Suppose we are given the function
 $$
 
 
+
 y=5\log_6(x-2).
+
 
 
 $$
@@ -69,7 +71,9 @@ From the diagram, we deduce that under such a transformation, the point $(4,2)$ 
 $$
 
 
+
 (4,k \cdot 2)=\left(4,3\right)
+
 
 
 $$
@@ -111,7 +115,9 @@ Clearly, $b \neq 0.$ Substituting $x=\dfrac1b$ into the equation of the curve, w
 $$
 
 
+
 \begin{aligned}𝑦 & =𝑘log_{5}⁡(𝑏⋅\frac{1}{𝑏}) \\ & =𝑘log_{5}⁡1 \\ & =0.\end{aligned}
+
 
 
 $$
@@ -121,7 +127,9 @@ So, the point $\left(\dfrac1b, 0\right)$ lies on the curve. But from the diagram
 $$
 
 
+
 (2,0) = \left(\dfrac1b,0\right)\quad\Rightarrow\quad b=\dfrac12.
+
 
 
 $$
@@ -131,7 +139,9 @@ Now, we substitute coordinates of the point $(10,3)$ into the equation:
 $$
 
 
+
 \begin{aligned}𝑘log_{5}⁡(𝑏𝑥) & =𝑦 \\ 𝑘log_{5}⁡(\frac{1}{2}𝑥) & =𝑦 \\ 𝑘log_{5}⁡(\frac{1}{2}⋅10) & =3 \\ 𝑘log_{5}⁡5 & =3 \\ 𝑘 & =3\end{aligned}
+
 
 
 $$
@@ -141,7 +151,9 @@ Finally,
 $$
 
 
+
 b\cdot k = \dfrac12 \cdot 3 = \dfrac32.
+
 
 
 $$

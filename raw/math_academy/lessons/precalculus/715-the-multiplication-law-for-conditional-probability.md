@@ -41,7 +41,9 @@ We use the definition of the conditional probability $P(A|B){:}$
 $$
 
 
+
 P(A|B) = \dfrac{P(A\cap B)}{P(B)}
+
 
 
 $$
@@ -51,7 +53,9 @@ Substituting the given values, we get
 $$
 
 
+
 \begin{aligned}P(A|B)&=\dfrac{P(A\cap B)}{P(B)}\\\[5pt] &=\dfrac{\left(\dfrac{1}{3}\right)}{\left(\dfrac{2}{3}\right)}\\\[5pt] &=\dfrac{1}{2}. \end{aligned}
+
 
 
 $$
@@ -71,7 +75,9 @@ The required probability is $P(L | O)$, which is given by
 $$
 
 
+
 P(L | O)= \dfrac{P(O\cap L)}{P(O)}.
+
 
 
 $$
@@ -87,7 +93,9 @@ Therefore, substituting the above into our formula for $P(L | O)$, we get
 $$
 
 
+
 P(L | O) = \dfrac{\left(\dfrac{1}{5}\right)}{\left(\dfrac12\right)} = \dfrac{2}{5}.
+
 
 
 $$
@@ -99,7 +107,9 @@ Given two events $A$ and $B$ in a random experiment, the definition of the condi
 $$
 
 
+
 P(A|B) = \dfrac{P(A\cap B)}{P(B)}.
+
 
 
 $$
@@ -109,7 +119,9 @@ By multiplying both sides of the formula by $P(B),$ we get the **multiplication 
 $$
 
 
+
 P(A\cap B) = P(B) \cdot P(A|B).
+
 
 
 $$
@@ -119,7 +131,9 @@ Also, since $P(A\cap B) = P(B\cap A),$ we can also write the multiplication law 
 $$
 
 
+
 P(A\cap B) = P(A) \cdot P(B|A)
+
 
 
 $$
@@ -137,7 +151,9 @@ Using the multiplication law for probability, we have that
 $$
 
 
+
 \begin{aligned}𝑃(𝐴∩𝐵) & =𝑃(𝐵)⋅𝑃(𝐴|𝐵) \\ & =0.6⋅0.3 \\ & =0.18.\end{aligned}
+
 
 
 $$
@@ -147,7 +163,9 @@ Now, substituting $P(A\cap B) = 0.18$ and $P(A)=0.5$ into the definition of $P(B
 $$
 
 
+
 \begin{aligned}𝑃(𝐵|𝐴) & =\frac{𝑃(𝐵∩𝐴)}{𝑃(𝐴)} \\ & =\frac{𝑃(𝐴∩𝐵)}{𝑃(𝐴)} \\ & =\frac{0.18}{0.5} \\ & =0.36.\end{aligned}
+
 
 
 $$
@@ -169,7 +187,9 @@ The required probability is $P(R_1\cap R_2),$ which is given by
 $$
 
 
+
 P(R_1\cap R_2) = P(R_1) \cdot P(R_2|R_1).
+
 
 
 $$
@@ -185,7 +205,9 @@ Substituting the above data into the multiplication law for conditional probabil
 $$
 
 
+
 P(R_1\cap R_2)=\dfrac{1}{2}\cdot\dfrac{2}{5}=\dfrac{1}{5}.
+
 
 
 $$

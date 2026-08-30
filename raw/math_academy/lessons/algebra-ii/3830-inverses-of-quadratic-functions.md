@@ -21,7 +21,9 @@ As an example, let's consider the following quadratic function:
 $$
 
 
+
 f(x)=(x-2)^2-3
+
 
 
 $$
@@ -39,7 +41,9 @@ Now that $f(x)$ is one-to-one, we can calculate its inverse. We follow the four 
 $$
 
 
+
 y = (x-2)^2 - 3
+
 
 
 $$
@@ -49,7 +53,9 @@ $$
 $$
 
 
+
 x = (y-2)^2 - 3
+
 
 
 $$
@@ -59,7 +65,9 @@ $$
 $$
 
 
+
 \begin{aligned}𝑥 & =(𝑦−2)^{2}−3 \\ 𝑥+3 & =(𝑦−2)^{2} \\ \sqrt{√𝑥+3} & =𝑦−2 \\ \sqrt{√𝑥+3}+2 & =𝑦\end{aligned}
+
 
 
 $$
@@ -71,7 +79,9 @@ $$
 $$
 
 
+
 f^{-1}(x) = \sqrt{x + 3} +2
+
 
 
 $$
@@ -93,7 +103,9 @@ To find the inverse of a function, we follow these steps:
 $$
 
 
+
 y = (x+4)^2 -3
+
 
 
 $$
@@ -103,7 +115,9 @@ $$
 $$
 
 
+
 x = (y+4)^2 -3
+
 
 
 $$
@@ -113,7 +127,9 @@ $$
 $$
 
 
+
 \begin{aligned}𝑥 & =(𝑦+4)^{2}−3 \\ 𝑥+3 & =(𝑦+4)^{2} \\ \sqrt{√𝑥+3} & =𝑦+4 \\ \sqrt{√𝑥+3}−4 & =𝑦\end{aligned}
+
 
 
 $$
@@ -125,7 +141,9 @@ Notice that we take the positive square root because if $x \geq -4$ is the domai
 $$
 
 
+
 f^{-1}(x) = \sqrt{x + 3} - 4
+
 
 
 $$
@@ -143,7 +161,9 @@ First, we complete the square:
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =−𝑥^{2}+2𝑥+6 \\ & =−(𝑥^{2}−2𝑥)+6 \\ & =−(𝑥^{2}−2⋅𝑥+1^{2}−1^{2})+6 \\ & =−((𝑥−1)^{2}−1)+6 \\ & =−(𝑥−1)^{2}+1+6 \\ & =−(𝑥−1)^{2}+7\end{aligned}
+
 
 
 $$
@@ -155,7 +175,9 @@ To find the inverse of a function, we follow these steps:
 $$
 
 
+
 y = -(x-1)^2+ 7
+
 
 
 $$
@@ -165,7 +187,9 @@ $$
 $$
 
 
+
 x = -(y-1)^2+ 7
+
 
 
 $$
@@ -175,7 +199,9 @@ $$
 $$
 
 
+
 \begin{aligned}𝑥 & =−(𝑦−1)^{2}+7 \\ 𝑥−7 & =−(𝑦−1)^{2} \\ 7−𝑥 & =(𝑦−1)^{2} \\ \sqrt{√7−𝑥} & =𝑦−1 \\ \sqrt{√7−𝑥}+1 & =𝑦\end{aligned}
+
 
 
 $$
@@ -187,7 +213,9 @@ Note that we selected the positive square root because if the domain of $f(x)$ i
 $$
 
 
+
 f^{-1}(x) = \sqrt{7-x } +1
+
 
 
 $$
@@ -207,7 +235,9 @@ To find the inverse of a function, we follow these steps:
 $$
 
 
+
 y = (x-3)^2 - 2
+
 
 
 $$
@@ -217,7 +247,9 @@ $$
 $$
 
 
+
 x = (y - 3)^2 - 2
+
 
 
 $$
@@ -227,7 +259,9 @@ $$
 $$
 
 
+
 \begin{aligned}𝑥 & =(𝑦−3)^{2}−2 \\ 𝑥+2 & =(𝑦−3)^{2} \\ −\sqrt{√𝑥+2} & =𝑦−3 \\ 3−\sqrt{√𝑥+2} & =𝑦\end{aligned}
+
 
 
 $$
@@ -239,7 +273,9 @@ Notice that we take the negative square root because if $x \leq 3$ is the domain
 $$
 
 
+
 f^{-1}(x) = 3 - \sqrt{x + 2}
+
 
 
 $$

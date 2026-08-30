@@ -30,7 +30,9 @@ We can write down a general expression for the zeros as follows:
 $$
 
 
+
 x = n\pi.
+
 
 
 $$
@@ -42,7 +44,9 @@ The function has a maximum when $x=\dfrac\pi 2$ and the function is periodic wit
 $$
 
 
+
 x = \dfrac{\pi}{2} + 2n\pi.
+
 
 
 $$
@@ -54,7 +58,9 @@ The function has a minimum when $x=-\dfrac\pi 2$ and the function is periodic wi
 $$
 
 
+
 x = -\dfrac{\pi}{2} + 2n\pi.
+
 
 
 $$
@@ -110,7 +116,9 @@ The period of $y = \sin x$ is $2\pi.$ Therefore, for any integer $n$ we have
 $$
 
 
+
 \sin{x} = \sin{(x+2n\pi)} .
+
 
 
 $$
@@ -120,7 +128,9 @@ Substituting $n=3$ into the above gives
 $$
 
 
+
 \begin{aligned}sin⁡𝑥 & =sin⁡(𝑥+2⋅3⋅𝜋) \\ & =sin⁡(𝑥+6𝜋).\end{aligned}
+
 
 
 $$
@@ -132,7 +142,9 @@ Finally, then:
 $$
 
 
+
 \begin{aligned}−2sin⁡(𝑥+6𝜋)−3 & =−2(\frac{1}{2})−3 \\ & =−1−3 \\ & =−4.\end{aligned}
+
 
 
 $$
@@ -144,7 +156,9 @@ Recall that a function $f(x)$ is *odd* if it satisfies the property
 $$
 
 
+
 f(-x) = -f(x).
+
 
 
 $$
@@ -154,7 +168,9 @@ As it turns out, sine is an odd function! So, for any value of $x,$ we have
 $$
 
 
+
 \sin(-x) = -\sin(x).
+
 
 
 $$

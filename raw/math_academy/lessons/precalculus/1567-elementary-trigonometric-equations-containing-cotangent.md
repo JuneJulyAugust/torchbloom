@@ -16,7 +16,9 @@ Suppose we want to solve the equation
 $$
 
 
+
 \cot x = 1, \qquad 0 \leq x < 2\pi.
+
 
 
 $$
@@ -26,7 +28,9 @@ Most calculators don't have a $\textrm{arccot}$ button, so we can't get a princi
 $$
 
 
+
 \tan{x} = \frac{1}{1} = 1
+
 
 
 $$
@@ -36,7 +40,9 @@ Now, we can proceed as usual. Our principal value is
 $$
 
 
+
 \begin{aligned}𝑥 & =arctan⁡(1)=\frac{𝜋}{4}.\end{aligned}
+
 
 
 $$
@@ -48,7 +54,9 @@ Since we're dealing with the tangent function, we can get additional solutions b
 $$
 
 
+
 \begin{aligned}𝑥_{2} & =𝑥_{1}+𝜋 \\ & =\frac{𝜋}{4}+𝜋 \\ & =\frac{5𝜋}{4}.\end{aligned}
+
 
 
 $$
@@ -68,7 +76,9 @@ First, we rearrange the equation to isolate $\cot x\mathbin{:}$
 $$
 
 
+
 \begin{aligned}3cot⁡𝑥+3\sqrt{√3} & =0 \\ 3cot⁡𝑥 & =−3\sqrt{√3} \\ cot⁡𝑥 & =−\frac{3\sqrt{√3}}{3} \\ cot⁡𝑥 & =−\sqrt{√3}\end{aligned}
+
 
 
 $$
@@ -78,7 +88,9 @@ Recall that $\cot{x}=\dfrac{1}{\tan{x}}.$ Therefore, the given equation is equiv
 $$
 
 
+
 \tan{x} =-\dfrac{1}{\sqrt{3}}=-\dfrac{\sqrt{3}}{3}.
+
 
 
 $$
@@ -88,7 +100,9 @@ Now, we find the principal value:
 $$
 
 
+
 \begin{aligned}𝑥 & =arctan⁡(−\frac{\sqrt{√3}}{3})=−30^{∘}\end{aligned}
+
 
 
 $$
@@ -98,7 +112,9 @@ Since $-30^\circ$ lies outside the given domain, it is not a solution. However, 
 $$
 
 
+
 \begin{aligned}𝑥_{1} & =𝑥+180^{∘} \\ & =−30^{∘}+180^{∘} \\ & =150^{∘} \\ & \\ 𝑥_{2} & =𝑥+360^{∘} \\ & =−30^{∘}+360^{∘} \\ & =330^{∘}\end{aligned}
+
 
 
 $$
@@ -120,7 +136,9 @@ First, we rearrange the equation to isolate $\cot x\mathbin{:}$
 $$
 
 
+
 \begin{aligned}2cot⁡𝑥 & =9−cot⁡𝑥 \\ 3cot⁡𝑥 & =9 \\ cot⁡𝑥 & =3\end{aligned}
+
 
 
 $$
@@ -130,7 +148,9 @@ Recall that $\cot{x}=\dfrac{1}{\tan{x}}.$ Therefore, the given equation is equiv
 $$
 
 
+
 \tan{x} =\dfrac{1}{3} .
+
 
 
 $$
@@ -140,7 +160,9 @@ Now, we find the principal value:
 $$
 
 
+
 \begin{aligned}𝑥=arctan(\frac{1}{3})=0.321\,750≈0.321\,8\end{aligned}
+
 
 
 $$
@@ -152,7 +174,9 @@ To generate more solutions, we add integer multiples of $\pi,$ as follows:
 $$
 
 
+
 \begin{aligned}𝑥_{2} & =𝑥_{1}+𝜋 \\ & =𝜋+0.321\,8 \\ & =3.463\,4\end{aligned}
+
 
 
 $$
@@ -162,7 +186,9 @@ Finally, the value of $x_1\cdot x_2$ is
 $$
 
 
+
 0.321\,8 \cdot 3.463\,4 \approx 1.1
+
 
 
 $$
@@ -176,7 +202,9 @@ We can solve an equation involving cotangent over any given domain. For example,
 $$
 
 
+
 \cot x = 1, \qquad -2\pi \leq x < 0.
+
 
 
 $$
@@ -186,7 +214,9 @@ We can proceed as usual. Recall that $\cot{x}=\dfrac{1}{\tan{x}}.$ Therefore, th
 $$
 
 
+
 \tan{x} = \frac{1}{1} = 1.
+
 
 
 $$
@@ -196,7 +226,9 @@ Now, we find the principal value:
 $$
 
 
+
 \begin{aligned}𝑥 & =arctan⁡(1)=\frac{𝜋}{4}\end{aligned}
+
 
 
 $$
@@ -206,7 +238,9 @@ Since $\dfrac\pi 4$ lies outside the required domain, it is not a solution. Howe
 $$
 
 
+
 \begin{aligned}𝑥_{1} & =𝑥−𝜋 \\ & =\frac{𝜋}{4}−𝜋 \\ & =−\frac{3𝜋}{4} \\ 𝑥_{2} & =𝑥−2𝜋 \\ & =\frac{𝜋}{4}−2𝜋 \\ & =−\frac{7𝜋}{4}\end{aligned}
+
 
 
 $$
@@ -226,7 +260,9 @@ First, we rearrange the equation and isolate $\cot x\mathbin{:}$
 $$
 
 
+
 \begin{aligned}3cot⁡𝑥+3\sqrt{√3} & =0 \\ 3cot⁡𝑥 & =−3\sqrt{√3} \\ cot⁡𝑥 & =−\frac{3\sqrt{√3}}{3} \\ cot⁡𝑥 & =−\sqrt{√3}\end{aligned}
+
 
 
 $$
@@ -236,7 +272,9 @@ Recall that $\cot{x}=\dfrac{1}{\tan{x}}.$ Therefore, the given equation is equiv
 $$
 
 
+
 \tan{x} =-\dfrac{1}{\sqrt{3}}=-\dfrac{\sqrt{3}}{3}
+
 
 
 $$
@@ -246,7 +284,9 @@ Now, we find the principal value:
 $$
 
 
+
 \begin{aligned}𝑥 & =arctan⁡(−\frac{\sqrt{√3}}{3})=−30^{∘}\end{aligned}
+
 
 
 $$
@@ -258,7 +298,9 @@ To generate more solutions, we add integer multiples of $180^\circ$ as follows:
 $$
 
 
+
 \begin{aligned}𝑥_{2} & =𝑥_{1}+180^{∘} \\ & =−30^{∘}+180^{∘} \\ & =150^{∘}\end{aligned}
+
 
 
 $$
@@ -270,7 +312,9 @@ Finally, the numerical value of $x_1\cdot x_2$ is
 $$
 
 
+
 -30\cdot(150) = -4\,500.
+
 
 
 $$
@@ -282,7 +326,9 @@ Consider the following equation:
 $$
 
 
+
 \cot x = 0, \qquad 0 < x < 2\pi
+
 
 
 $$
@@ -292,7 +338,9 @@ We can't find an equivalent equation involving tangent, since this would lead to
 $$
 
 
+
 \tan x = \dfrac{1}{0} = \textrm{undefined}
+
 
 
 $$
@@ -302,7 +350,9 @@ However, we can instead find an equivalent equation using the fact that $\cot x 
 $$
 
 
+
 \dfrac{\cos x}{\sin x}=0
+
 
 
 $$
@@ -312,7 +362,9 @@ In this case, we can find the principal solution as follows:
 $$
 
 
+
 \begin{aligned} \cos x &=0\\\[5pt] x &= \arccos 0 \\\[5pt] x &= \dfrac{\pi}{2} \end{aligned}
+
 
 
 $$
@@ -324,7 +376,9 @@ To find more solutions, we add integer multiples of $\pi,$ as follows:
 $$
 
 
+
 \begin{aligned}𝑥_{2} & =𝑥_{1}+𝜋 \\ & =\frac{𝜋}{2}+𝜋 \\ & =\frac{3𝜋}{2}\end{aligned}
+
 
 
 $$
@@ -344,7 +398,9 @@ First, we rearrange the equation to isolate $\cot x\mathbin{:}$
 $$
 
 
+
 \begin{aligned}3−2cot⁡𝑥 & =3 \\ −2cot⁡𝑥 & =0 \\ cot⁡𝑥 & =0\end{aligned}
+
 
 
 $$
@@ -354,7 +410,9 @@ We can't find an equivalent equation involving tangent, since this would lead to
 $$
 
 
+
 \tan x = \dfrac{1}{0} = \textrm{undefined}
+
 
 
 $$
@@ -364,7 +422,9 @@ However, we can instead find an equivalent equation using the fact that $\cot x 
 $$
 
 
+
 \dfrac{\cos x}{\sin x}=0
+
 
 
 $$
@@ -374,7 +434,9 @@ In this case, we can find the principal solution as follows:
 $$
 
 
+
 \begin{aligned} \cos x &=0\\\[5pt] x &= \arccos 0 \\\[5pt] x &= 90^\circ \end{aligned}
+
 
 
 $$
@@ -386,7 +448,9 @@ To find more solutions, we add integer multiples of $180^\circ$ as follows:
 $$
 
 
+
 \begin{aligned}𝑥_{2} & =𝑥_{1}+180^{∘} \\ & =90^{∘}+180^{∘} \\ & =270^{∘}\end{aligned}
+
 
 
 $$
@@ -398,7 +462,9 @@ Finally, the numerical value of $x_1\cdot x_2$ is
 $$
 
 
+
 90 \cdot(270) = 24\,300.
+
 
 
 $$

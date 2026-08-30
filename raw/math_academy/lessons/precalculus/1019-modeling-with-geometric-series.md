@@ -28,7 +28,9 @@ To model this situation, let $a_n$ be the number of users that subscribed in the
 $$
 
 
+
 a_1=300, \qquad a_2=600, \qquad a_3=1\,200, \qquad \ldots
+
 
 
 $$
@@ -38,7 +40,9 @@ Notice that there is a common ratio between the terms of the sequence, since
 $$
 
 
+
 r = \dfrac{a_2}{a_1} = \dfrac{a_3}{a_2}=2.
+
 
 
 $$
@@ -50,7 +54,9 @@ To predict the total number of subscribers by the end of the $12$th month, we ne
 $$
 
 
+
 S_N = a_1\bigg(\dfrac{1-r^N}{1-r} \bigg).
+
 
 
 $$
@@ -60,7 +66,9 @@ Substituting $a_1 = 300, r = 2,$ and $N=12$ into the above, we get
 $$
 
 
+
 \begin{aligned}𝑆_{12} & =𝑎_{1}(\frac{1−𝑟^{12}}{1−𝑟}) \\ & =300(\frac{1−2^{12}}{1−2}) \\ & =1\,228\,500.\end{aligned}
+
 
 
 $$
@@ -80,7 +88,9 @@ Let $a_n$ be the number of files repaired in the $n$th minute. Then, we have
 $$
 
 
+
 a_1=900, \qquad a_2=600, \qquad a_3=400, \qquad \ldots
+
 
 
 $$
@@ -90,7 +100,9 @@ Notice that this is a geometric sequence with a common ratio $r=\dfrac23,$ since
 $$
 
 
+
 \dfrac23 = \dfrac{a_2}{a_1} = \dfrac{a_3}{a_2}.
+
 
 
 $$
@@ -100,7 +112,9 @@ To calculate the total number of files repaired by the ninth minute, we use the 
 $$
 
 
+
 S_N = a_1\left(\dfrac{1-r^N}{1-r} \right).
+
 
 
 $$
@@ -110,7 +124,9 @@ Substituting $a_1 = 900, r = \dfrac23,$ and $N=9$ into the above, we get
 $$
 
 
+
 \begin{aligned}𝑆_{𝑛} & =𝑎_{1}(\frac{1−𝑟^{𝑁}}{1−𝑟}) \\ 𝑆_{9} & =𝑎_{1}(\frac{1−𝑟^{9}}{1−𝑟}) \\ & =900⋅\frac{1−(\frac{2}{3})^{9}}{3} \\ & =900⋅\frac{1−(\frac{2}{3})^{9}}{3} \\ & =3⋅900⋅(1−(\frac{2}{3})^{9}) \\ & ≈2\,630.\end{aligned}
+
 
 
 $$
@@ -130,7 +146,9 @@ Let $a_n$ be the number of miles that Emily cycles on day $n.$ Since Emily's dis
 $$
 
 
+
 \begin{aligned}𝑎_{1} & =20 \\ 𝑎_{2} & =𝑎_{1}+𝑎_{1}⋅(0.1) \\ & =20+20⋅(0.1) \\ & =20⋅(1.1) \\ 𝑎_{3} & =𝑎_{2}+𝑎_{2}⋅(0.1) \\ & =20⋅(1.1)+20⋅(1.1)⋅(0.1) \\ & =20⋅(1.1)⋅(1+0.1) \\ & =20⋅(1.1)^{2}\end{aligned}
+
 
 
 $$
@@ -140,7 +158,9 @@ From here, we can deduce that
 $$
 
 
+
 a_n = 20\cdot (1.1)^{n-1},
+
 
 
 $$
@@ -152,7 +172,9 @@ The sum of the first $N$ terms of a geometric sequence is given by
 $$
 
 
+
 S_N = a_1\left(\dfrac{1-r^N}{1-r} \right).
+
 
 
 $$
@@ -162,7 +184,9 @@ We want to know how long will it take Emily to finish. Therefore, we need to sol
 $$
 
 
+
 \begin{aligned} S_N & \geq 300 \\20\left(\dfrac{1-1.1^N}{1-1.1}\right) & \geq 300 \\\[5pt] \dfrac{1-1.1^N}{1-1.1} & \geq 15 \\\[5pt] \dfrac{1-1.1^N}{-0.1} & \geq 15 \\\[5pt] \dfrac{1.1^N-1}{0.1} & \geq 15\\\[5pt] 1.1^N -1 & \geq 1.5 \\\[5pt] 1.1^N & \geq 2.5 \\\[5pt] \log\left(1.1^N\right) &\geq \log(2.5) \\\[5pt] N \log(1.1) & \geq \log(2.5) \\\[5pt] N & \geq \dfrac{\log(2.5)}{\log(1.1)} \\\[5pt] N & \geq 9.614 \end{aligned}
+
 
 
 $$
@@ -184,7 +208,9 @@ Let $a_n$ denote the maximum height of the ball between the $(n-1)$th and $n$th 
 $$
 
 
+
 a_1 = 16, \qquad a_2 = 8, \qquad \ldots
+
 
 
 $$
@@ -194,7 +220,9 @@ We're told that $a_n$ is geometric. The common ratio is
 $$
 
 
+
 r = \dfrac{a_2}{a_1} = \dfrac{8}{16} = \dfrac12.
+
 
 
 $$
@@ -214,7 +242,9 @@ Therefore, the total distance $d$ traveled between when the ball is dropped and 
 $$
 
 
+
 \begin{aligned}𝑑 & =𝑎_{1}+2𝑎_{2}+2𝑎_{3}+2𝑎_{4} \\ & =\underset{=𝑎_{1}}{\underset{}{2𝑎_{1}−𝑎_{1}}}+2𝑎_{2}+2𝑎_{3}+2𝑎_{4} \\ & =2𝑎_{1}+2𝑎_{2}+2𝑎_{3}+2𝑎_{4}−𝑎_{1} \\ & =2(𝑎_{1}+𝑎_{2}+𝑎_{3}+𝑎_{4})−𝑎_{1} \\ & =2𝑆_{4}−𝑎_{1},\end{aligned}
+
 
 
 $$
@@ -226,7 +256,9 @@ To calculate $S_4,$ we use the formula
 $$
 
 
+
 S_N = a_1\left(\dfrac{1-r^N}{1-r} \right).
+
 
 
 $$
@@ -236,7 +268,9 @@ Substituting $a_1 = 16, r = \dfrac12,$ and $N=4$ into the above, we get
 $$
 
 
+
 \begin{aligned}𝑆_{4} & =16\frac{1−(\frac{1}{2})^{4}}{2} \\ & =16⋅\frac{15}{8} \\ & =30.\end{aligned}
+
 
 
 $$
@@ -246,7 +280,9 @@ Therefore, the ball travels a total distance of
 $$
 
 
+
 d = 2 \cdot 30 - 16 = 44 \,\textrm m.
+
 
 
 $$
@@ -264,7 +300,9 @@ Let $a_n$ denote the maximum height of the ball between the $(n-1)$th and $n$th 
 $$
 
 
+
 a_1 = 20, \qquad a_2 = 16, \qquad \ldots
+
 
 
 $$
@@ -278,7 +316,9 @@ We're told that $a_n$ is geometric. The common ratio is
 $$
 
 
+
 r = \dfrac{a_2}{a_1} = \dfrac{16}{20} = \dfrac45.
+
 
 
 $$
@@ -298,7 +338,9 @@ Therefore, the total distance $d$ traveled between when the ball is first kicked
 $$
 
 
+
 \begin{aligned}𝑑 & =2𝑎_{1}+2𝑎_{2}+2𝑎_{3}+2𝑎_{4} \\ & =2(𝑎_{1}+𝑎_{2}+𝑎_{3}+𝑎_{4}) \\ & =2𝑆_{4},\end{aligned}
+
 
 
 $$
@@ -310,7 +352,9 @@ To calculate $S_4,$ we use the formula
 $$
 
 
+
 S_N = a_1\left(\dfrac{1-r^N}{1-r} \right).
+
 
 
 $$
@@ -320,7 +364,9 @@ Substituting $a_1 = 20, r = \dfrac45,$ and $N=4$ into the above, we get
 $$
 
 
+
 \begin{aligned}𝑆_{4} & =20\frac{1−(\frac{4}{5})^{4}}{5} \\ & =20⋅\frac{369}{125} \\ & =\frac{1\,476}{25}.\end{aligned}
+
 
 
 $$
@@ -330,7 +376,9 @@ Therefore, the ball travels a total distance of
 $$
 
 
+
 d = 2 \cdot \dfrac{1\,476}{25} \approx 118.1\,\textrm m
+
 
 
 $$

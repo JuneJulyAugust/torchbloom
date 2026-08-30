@@ -23,7 +23,9 @@ How can we calculate the area of the image of $D$ under the action of the linear
 $$
 
 
+
 [\begin{aligned}0 & −2 \\ 2 & 0\end{aligned}]
+
 
 
 $$
@@ -33,7 +35,9 @@ For any linear transformation $\mathbf{T},$ we have the following connection bet
 $$
 
 
+
 \text{Area}(\mathbf{T}(D)) = |\det(T)| \cdot \text{Area}(D)
+
 
 
 $$
@@ -45,7 +49,9 @@ From the diagram, we have
 $$
 
 
+
 \text{Area}(D) = 2 \cdot 3 = 6.
+
 
 
 $$
@@ -55,7 +61,9 @@ Computing the determinant of $T,$ we get
 $$
 
 
+
 \det(T) = 0 \cdot 0 - (-2) \cdot 2 = 4.
+
 
 
 $$
@@ -65,7 +73,9 @@ Therefore,
 $$
 
 
+
 \begin{aligned}Area(𝐓(𝐷)) & =|det(𝑇)|⋅Area(𝐷) \\ & =|\,4\,|⋅6 \\ & =24.\end{aligned}
+
 
 
 $$
@@ -79,7 +89,9 @@ What is the area scale factor of the linear transformation $\mathbf{T}$ that is 
 $$
 
 
+
 [\begin{aligned}2 & 3 \\ 1 & 4\end{aligned}]
+
 
 
 $$
@@ -91,7 +103,9 @@ The area scale factor of a linear transformation $\mathbf T$ with standard matri
 $$
 
 
+
 \begin{aligned}|det(𝑇)| & =|2⋅4−3⋅1| \\ & =|8−3| \\ & =5.\end{aligned}
+
 
 
 $$
@@ -107,7 +121,9 @@ Consider the shaded region $D$ shown above. What is the area of the image of $D$
 $$
 
 
+
 [\begin{aligned}4 & 2 \\ −1 & 2\end{aligned}]
+
 
 
 $$
@@ -119,7 +135,9 @@ Recall that for any linear transformation $\mathbf{T},$ we have the following co
 $$
 
 
+
 \text{Area}(\mathbf{T}(D)) = |\det(T)| \cdot \text{Area}(D)
+
 
 
 $$
@@ -129,7 +147,9 @@ From the diagram, we have
 $$
 
 
+
 \text{Area}(D) = \frac{1}{2} \cdot 3 \cdot 4 = 6.
+
 
 
 $$
@@ -139,7 +159,9 @@ Computing the determinant of $T,$ we get
 $$
 
 
+
 \det(T) = 4 \cdot 2 - 2 \cdot (-1) = 10.
+
 
 
 $$
@@ -149,7 +171,9 @@ Therefore,
 $$
 
 
+
 \begin{aligned}Area(𝐓(𝐷)) & =|det(𝑇)|⋅Area(𝐷) \\ & =|\,10\,|⋅6 \\ & =60.\end{aligned}
+
 
 
 $$
@@ -163,7 +187,9 @@ A triangle $D$ has vertices $(1,1)$, $(4,5),$ and $(-2,1).$ What is the area of 
 $$
 
 
+
 [\begin{aligned}−7 & 5 \\ −2 & 3\end{aligned}]
+
 
 
 $$
@@ -179,7 +205,9 @@ Recall that for any linear transformation $\mathbf{T},$ we have the following co
 $$
 
 
+
 \text{Area}(\mathbf{T}(D)) = |\det(T)| \cdot \text{Area}(D)
+
 
 
 $$
@@ -189,7 +217,9 @@ From the diagram, we have
 $$
 
 
+
 \text{Area}(D) = \dfrac{1}{2} \cdot 3 \cdot 4 = 6.
+
 
 
 $$
@@ -199,7 +229,9 @@ Computing the determinant of $T,$ we get
 $$
 
 
+
 \det(T) = (-7) \cdot 3 - 5 \cdot (-2) = -11.
+
 
 
 $$
@@ -209,7 +241,9 @@ Therefore,
 $$
 
 
+
 \begin{aligned}Area(𝐓(𝐷)) & =|det(𝑇)|⋅Area(𝐷) \\ & =|−11|⋅6 \\ & =66.\end{aligned}
+
 
 
 $$

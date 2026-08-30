@@ -17,7 +17,9 @@ The **cross product** of two vectors $\mathbf{a}$ and $\mathbf{b}$ is defined as
 $$
 
 
+
 \mathbf{a}\times\mathbf{b} = | \, \mathbf{a} \, | \cdot | \, \mathbf{b} \, | \cdot \sin\theta \cdot \mathbf{n},
+
 
 
 $$
@@ -33,7 +35,9 @@ For example, suppose we have two vectors $\mathbf a$ and $\mathbf b$ such that
 $$
 
 
+
 |\,\mathbf{a}\,|=5,\qquad |\,\mathbf{b}\,|=4,\qquad \theta=30^\circ.
+
 
 
 $$
@@ -43,7 +47,9 @@ To compute the cross product $\mathbf{c} = \mathbf{a}\times\mathbf{b},$ we first
 $$
 
 
+
 \begin{aligned}|\,𝐜\,| & =|\,𝐚×𝐛\,| \\ & =|\,𝐚\,|⋅|\,𝐛|⋅|sin⁡𝜃|⋅|𝐧| \\ & =5⋅4⋅sin⁡30^{∘}⋅1 \\ & =5⋅4⋅\frac{1}{2} \\ & =10\end{aligned}
+
 
 
 $$
@@ -77,7 +83,9 @@ We use the formula for the cross product and obtain
 $$
 
 
+
 \begin{aligned}𝐚×𝐛 & =|\,𝐚\,|⋅|\,𝐛\,|⋅sin⁡𝜃⋅𝐧 \\ & =7⋅3⋅sin⁡120^{∘}⋅𝐧 \\ & =7⋅3⋅\frac{\sqrt{√3}}{2}⋅𝐧 \\ & =\frac{21\sqrt{√3}}{2}𝐧.\end{aligned}
+
 
 
 $$
@@ -95,7 +103,9 @@ We use the formula for the cross product and obtain
 $$
 
 
+
 \begin{aligned}𝐚×𝐛 & =|\,𝐚\,|⋅|\,𝐛\,|⋅sin⁡𝜃⋅𝐧 \\ & =12⋅9⋅sin⁡105^{∘}⋅𝐧 \\ & ≈12⋅9⋅0.965926⋅𝐧 \\ & ≈104.32⋅𝐧.\end{aligned}
+
 
 
 $$
@@ -107,7 +117,9 @@ If two vectors $\mathbf{a}$ and $\mathbf{b}$ are parallel (or collinear), then t
 $$
 
 
+
 \begin{aligned}𝐚×𝐛 & =|\,𝐚\,|⋅|\,𝐛\,|⋅sin⁡0^{∘}⋅𝐧 \\ & =|\,𝐚\,|⋅|\,𝐛\,|⋅0⋅𝐧 \\ & =𝟎\end{aligned}
+
 
 
 $$
@@ -117,7 +129,9 @@ The converse is also true. So, if $\mathbf a$ and $\mathbf b$ are nonzero vector
 $$
 
 
+
 \mathbf{a} \parallel \mathbf{b} \quad\Leftrightarrow\quad \mathbf{a} \times \mathbf{b} = \mathbf{0}.
+
 
 
 $$

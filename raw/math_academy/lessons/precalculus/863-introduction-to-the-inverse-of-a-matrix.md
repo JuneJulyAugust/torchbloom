@@ -16,7 +16,9 @@ Given the scalar $a,$ the **multiplicative inverse** of $a$ is defined as the sc
 $$
 
 
+
 a \cdot a^{-1} = a^{-1} \cdot a = 1.
+
 
 
 $$
@@ -26,7 +28,9 @@ For example, the multiplicative inverse of $2$ is the number $2^{-1} = \dfrac{1}
 $$
 
 
+
 \dfrac{1}{2}\cdot 2 = 2\cdot \dfrac{1}{2} = 1.
+
 
 
 $$
@@ -36,7 +40,9 @@ Similarly, given a square $n \times n$ matrix $A,$ the **inverse** of $A$ is def
 $$
 
 
+
 A \cdot A^{-1} = A^{-1} \cdot A = I_n,
+
 
 
 $$
@@ -48,7 +54,9 @@ For example, suppose we're given the following $2\times 2$ matrix:
 $$
 
 
+
 [\begin{aligned}−1 & −1 \\ 1 & 2\end{aligned}]
+
 
 
 $$
@@ -58,7 +66,9 @@ The inverse of the above matrix is given by
 $$
 
 
+
 [\begin{aligned}−2 & −1 \\ 1 & 1\end{aligned}]
+
 
 
 $$
@@ -68,7 +78,9 @@ To verify that the above matrix is in fact the inverse of $A,$ first observe tha
 $$
 
 
+
 \begin{aligned}\underset{𝐴}{\underset{}{[\begin{aligned}−1 & −1 \\ 1 & 2\end{aligned}]}}\underset{𝐴^{−1}}{\underset{}{[\begin{aligned}−2 & −1 \\ 1 & 1\end{aligned}]}} & =[\begin{aligned}−1⋅(−2)+(−1)⋅1 & −1⋅(−1)+(−1)⋅1 \\ 1⋅(−2)+2⋅1 & 1⋅(−1)+2⋅1\end{aligned}] \\ & =[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ & =𝐼_{2}\,✓\end{aligned}
+
 
 
 $$
@@ -78,7 +90,9 @@ Likewise, if we multiply $A^{-1}$ by $A,$ then we also get the identity matrix $
 $$
 
 
+
 \begin{aligned}[\begin{aligned}−2 & −1 \\ 1 & 1\end{aligned}]\underset{𝐴}{\underset{}{[\begin{aligned}−1 & −1 \\ 1 & 2\end{aligned}]}} & =𝐼_{2}\,✓\end{aligned}
+
 
 
 $$
@@ -94,7 +108,9 @@ Using the method of direct verification, determine whether the matrix $B$ is the
 $$
 
 
+
 [\begin{aligned}1 & 0 \\ −1 & 1\end{aligned}]
+
 
 
 $$
@@ -108,7 +124,9 @@ Computing $AB,$ we get
 $$
 
 
+
 \begin{aligned}𝐴𝐵 & =[\begin{aligned}1 & 0 \\ −1 & 1\end{aligned}][\begin{aligned}1 & 0 \\ 1 & 1\end{aligned}] \\ & =[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ & =𝐼_{2}.\,✓\end{aligned}
+
 
 
 $$
@@ -118,7 +136,9 @@ Likewise, computing $BA,$ we get
 $$
 
 
+
 \begin{aligned}𝐵𝐴 & =[\begin{aligned}1 & 0 \\ 1 & 1\end{aligned}][\begin{aligned}1 & 0 \\ −1 & 1\end{aligned}] \\ & =[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ & =𝐼_{2}.\,✓\end{aligned}
+
 
 
 $$
@@ -134,7 +154,9 @@ Using the method of direct verification, determine whether the matrix $B$ is the
 $$
 
 
+
 \begin{aligned}1 & 1 & 1 \\ 0 & 1 & 1 \\ 0 & 0 & 1\end{aligned}
+
 
 
 $$
@@ -148,7 +170,9 @@ Computing $AB,$ we get
 $$
 
 
+
 \begin{aligned}𝐴𝐵 & =\begin{aligned}1 & 1 & 1 \\ 0 & 1 & 1 \\ 0 & 0 & 1\end{aligned}\begin{aligned}1 & −1 & 0 \\ 0 & 1 & −1 \\ 0 & 0 & 1\end{aligned} \\ & =\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{aligned} \\ & =𝐼_{3}.\,✓\end{aligned}
+
 
 
 $$
@@ -158,7 +182,9 @@ Likewise, computing $BA,$ we get
 $$
 
 
+
 \begin{aligned}𝐵𝐴 & =\begin{aligned}1 & −1 & 0 \\ 0 & 1 & −1 \\ 0 & 0 & 1\end{aligned}\begin{aligned}1 & 1 & 1 \\ 0 & 1 & 1 \\ 0 & 0 & 1\end{aligned} \\ & =\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{aligned} \\ & =𝐼_{3}.\,✓\end{aligned}
+
 
 
 $$

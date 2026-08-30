@@ -18,7 +18,9 @@ Consider the following geometric sequence:
 $$
 
 
+
 3,\quad 6,\quad 12,\quad 24, \quad \ldots
+
 
 
 $$
@@ -30,7 +32,9 @@ First, let's construct a formula for the $n$th term of the sequence. The first t
 $$
 
 
+
 r = \dfrac 6 3 = 2.
+
 
 
 $$
@@ -40,7 +44,9 @@ So, the $n$th term of the sequence can be written as
 $$
 
 
+
 \begin{aligned}𝑎_{𝑛} & =𝑎_{1}⋅𝑟^{𝑛−1} \\ & =3⋅2^{𝑛−1}.\end{aligned}
+
 
 
 $$
@@ -50,7 +56,9 @@ We want the $n$th term to be greater than $3\,000\,000.$ So, we can set up and s
 $$
 
 
+
 \begin{aligned}𝑎_{𝑛} & >3\,000\,000 \\ 3⋅2^{𝑛−1} & >3\,000\,000 \\ 2^{𝑛−1} & >1\,000\,000 \\ log⁡(2^{𝑛−1}) & >log⁡(1\,000\,000) \\ (𝑛−1)log⁡(2) & >log⁡(1\,000\,000) \\ 𝑛−1 & >\frac{log⁡(1\,000\,000)}{log⁡(2)} \\ 𝑛 & >\frac{log⁡(1\,000\,000)}{log⁡(2)}+1\end{aligned}
+
 
 
 $$
@@ -60,7 +68,9 @@ Estimating the right-hand side using a calculator, we get
 $$
 
 
+
 \dfrac {\log (1\,000\,000)} {\log (2)} + 1 \approx 20.932.
+
 
 
 $$
@@ -72,7 +82,9 @@ To check our answer, we can easily verify that $a_{20} < 3\, 000\, 000$ and $a_{
 $$
 
 
+
 \begin{aligned}𝑎_{20} & =𝑎_{1}⋅𝑟^{20−1}=3⋅2^{19}=1\,572\,864<3\,000\,000 \\ 𝑎_{21} & =𝑎_{1}⋅𝑟^{21−1}=3⋅2^{20}=3\,145\,728>3\,000\,000\,✓\end{aligned}
+
 
 
 $$
@@ -88,7 +100,9 @@ What is the first term that exceeds $2\,000\,000$ in the following geometric seq
 $$
 
 
+
 \dfrac 1 {32},\: \dfrac 1 4,\: 2,\: 16,\: \ldots
+
 
 
 $$
@@ -100,7 +114,9 @@ The first term of the sequence is $a_1=\dfrac{1}{32}$ and the common ratio is
 $$
 
 
+
 r = \dfrac {\left(\dfrac 1 {4}\right)} {\left(\dfrac 1 {32} \right)} = 8.
+
 
 
 $$
@@ -110,7 +126,9 @@ So, the $n$th term of the sequence can be written as follows:
 $$
 
 
+
 \begin{aligned}𝑎_{𝑛} & =𝑎_{1}⋅𝑟^{𝑛−1} \\ & =\frac{1}{32}⋅8^{𝑛−1} \\ & =\frac{2}{64}⋅8^{𝑛−1} \\ & =\frac{2}{8^{2}}⋅8^{𝑛−1} \\ & =2⋅8^{−2}⋅8^{𝑛−1} \\ & =2⋅8^{𝑛−3}\end{aligned}
+
 
 
 $$
@@ -120,7 +138,9 @@ We want the $n$th term to be greater than $2\,000\,000.$ So, we set up and solve
 $$
 
 
+
 \begin{aligned}2⋅8^{𝑛−3} & >2\,000\,000 \\ 8^{𝑛−3} & >1\,000\,000 \\ log⁡(8^{𝑛−3}) & >log⁡(1\,000\,000) \\ (𝑛−3)log⁡(8) & >log⁡(1\,000\,000) \\ 𝑛−3 & >\frac{log⁡(1\,000\,000)}{log⁡(8)} \\ 𝑛 & >\frac{log⁡(1\,000\,000)}{log⁡(8)}+3\end{aligned}
+
 
 
 $$
@@ -130,7 +150,9 @@ Estimating the right-hand side using a calculator, we get
 $$
 
 
+
 \dfrac {\log (1\,000\, 000)} {\log (8)} + 3 \approx 9.643.
+
 
 
 $$
@@ -146,7 +168,9 @@ What is the first term that is less than $0. 000\,000\,1$ in the following geome
 $$
 
 
+
 16,\: 8,\: 4,\: 2,\: \ldots
+
 
 
 $$
@@ -158,7 +182,9 @@ The first term of the sequence is $a_1=16,$ and the common ratio is
 $$
 
 
+
 r = \dfrac 8 {16} = \dfrac 1 2.
+
 
 
 $$
@@ -168,7 +194,9 @@ So, the $n$th term of the sequence can be written as
 $$
 
 
+
 \begin{aligned}𝑎_{𝑛} & =𝑎_{1}⋅𝑟^{𝑛−1} \\ & =16⋅(\frac{1}{2})^{𝑛−1} \\ & =2^{4}⋅2^{1−𝑛} \\ & =2^{5−𝑛}.\end{aligned}
+
 
 
 $$
@@ -178,7 +206,9 @@ We want the $n$th term to be less than $0.000\,000\,1.$ So, we set up and solve 
 $$
 
 
+
 \begin{aligned}2^{5−𝑛} & <0.000\,000\,1 \\ log⁡(2^{5−𝑛}) & <log⁡(0.000\,000\,1) \\ (5−𝑛)log⁡(2) & <log⁡(0.000\,000\,1) \\ 5−𝑛 & <\frac{log⁡(0.000\,000\,1)}{log⁡(2)} \\ −𝑛 & <\frac{log⁡(0.000\,000\,1)}{log⁡(2)}−5 \\ 𝑛 & >5−\frac{log⁡(0.000\,000\,1)}{log⁡(2)}\end{aligned}
+
 
 
 $$
@@ -188,7 +218,9 @@ Estimating the right-hand side using a calculator, we get
 $$
 
 
+
 5 - \dfrac { \log (0.000\, 000\, 1)} {\log (2)} \approx 28.253.
+
 
 
 $$
@@ -208,7 +240,9 @@ Since we are given that $a_{4}= 54$ and $r= 3,$ we can use the $n$th term formul
 $$
 
 
+
 \begin{aligned}a_n&=a_1\cdot r^{n-1}\\[3pt] a_4&=a_1\cdot 3^{4-1}\\[3pt] 54&=a_1\cdot 3^3\\[3pt] 54&=27a_1\\[3pt] a_1&=2 \end{aligned}
+
 
 
 $$
@@ -218,7 +252,9 @@ So, the $n$th term of the geometric sequence is
 $$
 
 
+
 \begin{aligned}𝑎_{𝑛} & =𝑎_{1}⋅𝑟^{𝑛−1} \\ & =2⋅3^{𝑛−1}.\end{aligned}
+
 
 
 $$
@@ -228,7 +264,9 @@ We want the $n$th term to be greater than $1\,000.$ So, we set up and solve the 
 $$
 
 
+
 \begin{aligned}2⋅3^{𝑛−1} & >1\,000 \\ 3^{𝑛−1} & >500 \\ log⁡(3)^{𝑛−1} & >log⁡(500) \\ (𝑛−1)log⁡(3) & >log⁡(500) \\ 𝑛−1 & >\frac{log⁡(500)}{log⁡(3)} \\ 𝑛 & >\frac{log⁡(500)}{log⁡(3)}+1\end{aligned}
+
 
 
 $$
@@ -238,7 +276,9 @@ Estimating the right-hand side using a calculator, we get
 $$
 
 
+
 \dfrac {\log (500)} {\log (3)} + 1 \approx 6.657.
+
 
 
 $$

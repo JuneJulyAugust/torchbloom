@@ -21,7 +21,9 @@ For example, suppose we conduct an experiment where we flip a coin twice. The sa
 $$
 
 
+
 \Omega = \left\{HH, HT, TH, TT\right\}
+
 
 
 $$
@@ -43,7 +45,9 @@ So, the possible values of $X$ are given by the following set:
 $$
 
 
+
 S = \{0,1,2\}
+
 
 
 $$
@@ -107,7 +111,9 @@ The **probability distribution**, or more precisely, **probability mass function
 $$
 
 
+
 P(X = x) = f(x)
+
 
 
 $$
@@ -119,7 +125,9 @@ For example, if $X$ is the result of rolling a $6$-sided die, then we have
 $$
 
 
+
 \begin{aligned}\frac{1}{6},\, & 𝑥=1,2,3,4,5,6 \\ 0,\, & otherwise.\end{aligned}
+
 
 
 $$
@@ -155,7 +163,9 @@ Which of the following functions are valid probability mass functions?
 $$
 
 
+
 \begin{aligned}𝑓(𝑥)=\begin{aligned}\frac{2}{5}, & 𝑥=0 \\ −\frac{1}{5}, & 𝑥=1 \\ \frac{4}{5}, & 𝑥=2\end{aligned}\,𝑔(𝑥)=\begin{aligned}\frac{2}{5}, & 𝑥=0 \\ \frac{3}{10}, & 𝑥=1\end{aligned}\,ℎ(𝑥)=\begin{aligned}\frac{3}{10}, & 𝑥=0 \\ \frac{1}{2}, & 𝑥=1 \\ \frac{1}{5}, & 𝑥=2\end{aligned}\,\end{aligned}
+
 
 
 $$
@@ -191,7 +201,9 @@ Using the values in the table, we have
 $$
 
 
+
 \begin{aligned}𝑃(𝑋∈{2,4,6}) & =𝑃(𝑋=2)+𝑃(𝑋=4)+𝑃(𝑋=6) \\ & =𝑓(2)+𝑓(4)+𝑓(6) \\ & =0.1+0.1+0.2 \\ & =0.4.\end{aligned}
+
 
 
 $$
@@ -209,7 +221,9 @@ Using the values in the table, we have
 $$
 
 
+
 \begin{aligned}𝑃(𝑋≤3) & =𝑃(𝑥∈{1,2,3}) \\ & =𝑃(𝑋=1)+𝑃(𝑋=2)+𝑃(𝑋=3) \\ & =\frac{1}{5}+\frac{3}{10}+\frac{1}{10} \\ & =\frac{3}{5}.\end{aligned}
+
 
 
 $$

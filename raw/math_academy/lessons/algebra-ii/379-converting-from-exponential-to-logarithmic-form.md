@@ -18,7 +18,9 @@ For example, we know that ${\color{blue}{2}}^{\color{red}{3}} = 8.$ But we can a
 $$
 
 
+
 \log_{\color{blue}{2}}(8) = {\color{red}{3}}.
+
 
 
 $$
@@ -90,7 +92,9 @@ Notice that the given equation can be written using exponents as
 $$
 
 
+
 4^{1/2} = 2.
+
 
 
 $$
@@ -116,7 +120,9 @@ Notice that the given approximation can be written using exponents:
 $$
 
 
+
 5^{1/3} \approx 1.709
+
 
 
 $$

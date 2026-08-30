@@ -17,7 +17,9 @@ A **dilation** of scale factor $k$ with the center at the origin is a linear tra
 $$
 
 
+
 [\begin{aligned}𝑘 & 0 \\ 0 & 𝑘\end{aligned}]
+
 
 
 $$
@@ -27,7 +29,9 @@ For example, let
 $$
 
 
+
 [\begin{aligned}2 & 0 \\ 0 & 2\end{aligned}]
+
 
 
 $$
@@ -43,7 +47,9 @@ We can find the images of $\{\mathbf{i},\mathbf{j} \}$ under $T,$ as follows:
 $$
 
 
+
 \begin{aligned}𝐢^{′} & =𝑇𝐢=[\begin{aligned}2 & 0 \\ 0 & 2\end{aligned}][\begin{aligned}1 \\ 0\end{aligned}]=[\begin{aligned}2 \\ 0\end{aligned}]=2𝐢, \\ 𝐣^{′} & =𝑇𝐣=[\begin{aligned}2 & 0 \\ 0 & 2\end{aligned}][\begin{aligned}0 \\ 1\end{aligned}]=[\begin{aligned}0 \\ 2\end{aligned}]=2𝐣.\end{aligned}
+
 
 
 $$
@@ -65,7 +71,9 @@ We can write $\mathbf{T}(\mathbf{v})$ as follows:
 $$
 
 
+
 \begin{aligned}𝐓(𝐯) & =[\begin{aligned}6 \\ 4\end{aligned}] \\ & =\frac{1}{4}⋅[\begin{aligned}24 \\ 16\end{aligned}] \\ & =\frac{1}{4}𝐯\end{aligned}
+
 
 
 $$
@@ -77,7 +85,9 @@ Remember that the matrix representing a dilation of scale factor $k$ is given by
 $$
 
 
+
 [\begin{aligned}𝑘 & 0 \\ 0 & 𝑘\end{aligned}]
+
 
 
 $$
@@ -87,7 +97,9 @@ Therefore, the standard matrix of $\mathbf{T}$ is
 $$
 
 
+
 \begin{aligned}\frac{1}{4} & 0 \\ 0 & \frac{1}{4}\end{aligned}
+
 
 
 $$
@@ -99,7 +111,9 @@ A **reflection in the $x$-axis** is represented by the matrix
 $$
 
 
+
 [\begin{aligned}1 & 0 \\ 0 & −1\end{aligned}]
+
 
 
 $$
@@ -113,7 +127,9 @@ We can find the images of $\{\mathbf{i},\mathbf{j} \}$ under $T,$ as follows:
 $$
 
 
+
 \begin{aligned}𝐢^{′} & =𝐓(𝐢)=[\begin{aligned}1 & 0 \\ 0 & −1\end{aligned}][\begin{aligned}1 \\ 0\end{aligned}]=[\begin{aligned}1 \\ 0\end{aligned}]=𝐢 \\ 𝐣^{′} & =𝐓(𝐣)=[\begin{aligned}1 & 0 \\ 0 & −1\end{aligned}][\begin{aligned}0 \\ 1\end{aligned}]=[\begin{aligned}0 \\ −1\end{aligned}]=−𝐣\end{aligned}
+
 
 
 $$
@@ -127,7 +143,9 @@ Similarly, a **reflection in the $y$-axis** is represented by the matrix
 $$
 
 
+
 [\begin{aligned}−1 & 0 \\ 0 & 1\end{aligned}]
+
 
 
 $$
@@ -137,7 +155,9 @@ Again, we can find the images of $\{\mathbf{i},\mathbf{j} \}$ under $T,$ as foll
 $$
 
 
+
 \begin{aligned}𝐢^{′} & =𝐓(𝐢)=[\begin{aligned}−1 & 0 \\ 0 & 1\end{aligned}][\begin{aligned}1 \\ 0\end{aligned}]=[\begin{aligned}−1 \\ 0\end{aligned}]=−𝐢 \\ 𝐣^{′} & =𝐓(𝐣)=[\begin{aligned}−1 & 0 \\ 0 & 1\end{aligned}][\begin{aligned}0 \\ 1\end{aligned}]=[\begin{aligned}0 \\ 1\end{aligned}]=𝐣\end{aligned}
+
 
 
 $$
@@ -153,7 +173,9 @@ A **reflection in line $y=x$** is represented by the matrix
 $$
 
 
+
 [\begin{aligned}0 & 1 \\ 1 & 0\end{aligned}]
+
 
 
 $$
@@ -163,7 +185,9 @@ We can find the images of $\{\mathbf{i},\mathbf{j} \}$ under $T$, as follows:
 $$
 
 
+
 \begin{aligned}𝐢^{′} & =𝐓(𝐢)=[\begin{aligned}0 & 1 \\ 1 & 0\end{aligned}][\begin{aligned}1 \\ 0\end{aligned}]=[\begin{aligned}0 \\ 1\end{aligned}]=𝐣 \\ 𝐣^{′} & =𝐓(𝐣)=[\begin{aligned}0 & 1 \\ 1 & 0\end{aligned}][\begin{aligned}0 \\ 1\end{aligned}]=[\begin{aligned}1 \\ 0\end{aligned}]=𝐢\end{aligned}
+
 
 
 $$
@@ -177,7 +201,9 @@ Similarly, a **reflection in line $y=-x$** is represented by the matrix
 $$
 
 
+
 [\begin{aligned}0 & −1 \\ −1 & 0\end{aligned}]
+
 
 
 $$
@@ -187,7 +213,9 @@ We can find the images of $\{\mathbf{i},\mathbf{j} \}$ under $T,$ as follows:
 $$
 
 
+
 \begin{aligned}𝐢^{′} & =𝐓(𝐢)=[\begin{aligned}0 & −1 \\ −1 & 0\end{aligned}][\begin{aligned}1 \\ 0\end{aligned}]=[\begin{aligned}0 \\ −1\end{aligned}]=−𝐣 \\ 𝐣^{′} & =𝐓(𝐣)=[\begin{aligned}0 & −1 \\ −1 & 0\end{aligned}][\begin{aligned}0 \\ 1\end{aligned}]=[\begin{aligned}−1 \\ 0\end{aligned}]=−𝐢\end{aligned}
+
 
 
 $$
@@ -213,7 +241,9 @@ We can find the images of $\{\mathbf{i},\mathbf{j} \}$ under $T,$ as follows:
 $$
 
 
+
 \begin{aligned}𝐢^{′} & =𝐓(𝐢)=[\begin{aligned}1 & 0 \\ 0 & −1\end{aligned}][\begin{aligned}1 \\ 0\end{aligned}]=[\begin{aligned}1 \\ 0\end{aligned}]=𝐢 \\ 𝐣^{′} & =𝐓(𝐣)=[\begin{aligned}1 & 0 \\ 0 & −1\end{aligned}][\begin{aligned}0 \\ 1\end{aligned}]=[\begin{aligned}0 \\ −1\end{aligned}]=−𝐣\end{aligned}
+
 
 
 $$

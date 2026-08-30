@@ -35,7 +35,9 @@ As an example, let's solve the following equation:
 $$
 
 
+
 \ln \left( 2x\right) + \ln (2)=3
+
 
 
 $$
@@ -45,7 +47,9 @@ Since the logarithms on the left-hand side share a common base, we can use the p
 $$
 
 
+
 \begin{aligned}ln⁡(2𝑥)+ln⁡(2) & =3 \\ ln⁡(2𝑥⋅2) & =3 \\ ln⁡(4𝑥) & =3\end{aligned}
+
 
 
 $$
@@ -55,7 +59,9 @@ Next, we exponentiate both sides of the equation, and we get
 $$
 
 
+
 \begin{aligned}𝑒^{ln⁡(4𝑥)} & =𝑒^{3} \\ 4𝑥 & =𝑒^{3} \\ 𝑥 & =\frac{𝑒^{3}}{4}\end{aligned}
+
 
 
 $$
@@ -75,7 +81,9 @@ The logarithms share the same base, and so we can combine them using the product
 $$
 
 
+
 \begin{aligned}2log_{2}⁡(𝑥−4)+2log_{2}⁡(3) & =4 \\ 2[log_{2}⁡(𝑥−4)+log_{2}⁡(3)] & =4 \\ 2log_{2}⁡(3(𝑥−4)) & =4 \\ 2log_{2}⁡(3𝑥−12) & =4 \\ log_{2}⁡(3𝑥−12) & =\frac{4}{2} \\ log_{2}⁡(3𝑥−12) & =2\end{aligned}
+
 
 
 $$
@@ -85,7 +93,9 @@ Now, we solve the equation for $x$ using the usual methods.
 $$
 
 
+
 \begin{aligned}2^{log_{2}⁡(3𝑥−12)} & =2^{2} \\ 3𝑥−12 & =4 \\ 3𝑥 & =16 \\ 𝑥 & =\frac{16}{3}\end{aligned}
+
 
 
 $$
@@ -103,7 +113,9 @@ The logarithms share the same base, so we can combine them using the quotient ru
 $$
 
 
+
 \begin{aligned}log⁡(𝑥)−log⁡(2) & =1 \\ log⁡(\frac{𝑥}{2}) & =1\end{aligned}
+
 
 
 $$
@@ -113,7 +125,9 @@ Now, we solve the equation for $x$ using the usual methods.
 $$
 
 
+
 \begin{aligned}10^{log⁡(𝑥/2)} & =10^{1} \\ \frac{𝑥}{2} & =10 \\ 𝑥 & =20\end{aligned}
+
 
 
 $$
@@ -127,7 +141,9 @@ As an example, let's consider the following equation:
 $$
 
 
+
 \ln \left( x\right) + \ln \left(4x\right)=0
+
 
 
 $$
@@ -137,7 +153,9 @@ Since the logarithms on the left-hand side share a common base, we can use the p
 $$
 
 
+
 \begin{aligned}ln⁡(𝑥)+ln⁡(4𝑥)=0 & \\ ln⁡(𝑥⋅4𝑥) & =0 \\ ln⁡(4𝑥^{2}) & =0\end{aligned}
+
 
 
 $$
@@ -147,7 +165,9 @@ Next, we exponentiate both sides of the equation, and we get
 $$
 
 
+
 \begin{aligned}𝑒^{ln⁡(4𝑥^{2})} & =𝑒^{0} \\ 4𝑥^{2} & =1 \\ 𝑥^{2} & =\frac{1}{4} \\ 𝑥 & =±\sqrt{√\frac{1}{4}} \\ 𝑥 & =±\frac{1}{2}.\end{aligned}
+
 
 
 $$
@@ -175,7 +195,9 @@ The logarithms on the left-hand side share the same base, so we can combine them
 $$
 
 
+
 \begin{aligned}log_{2}⁡𝑥+log_{2}⁡(𝑥+3) & =2 \\ log_{2}⁡[𝑥(𝑥+3)] & =2\end{aligned}
+
 
 
 $$
@@ -185,7 +207,9 @@ Now, we solve the equation for $x$ using the usual methods.
 $$
 
 
+
 \begin{aligned}𝑥(𝑥+3) & =2^{2} \\ 𝑥^{2}+3𝑥 & =4 \\ 𝑥^{2}+3𝑥−4 & =0 \\ (𝑥+4)(𝑥−1) & =0.\end{aligned}
+
 
 
 $$

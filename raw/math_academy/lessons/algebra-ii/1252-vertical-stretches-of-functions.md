@@ -22,7 +22,9 @@ The following table lists four sets of points. The set of points in the left-han
 $$
 
 
+
 \begin{aligned}Points on y=f(x) & Points on y=2f(x) & \\ (1,2) & (1,4) & \\ (4,−3) & (4,−6) & \\ (0,2) & (0,4) & \\ (−2,0) & (−2,0) & \end{aligned}
+
 
 
 $$

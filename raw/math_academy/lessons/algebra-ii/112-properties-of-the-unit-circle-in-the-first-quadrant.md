@@ -27,7 +27,9 @@ So, we have
 $$
 
 
+
 x = \cos\theta, \qquad y = \sin\theta.
+
 
 
 $$
@@ -51,7 +53,9 @@ Any point $(x,y)$ on the unit circle is related to the central angle $\theta$ as
 $$
 
 
+
 x = \cos\theta, \qquad y = \sin\theta.
+
 
 
 $$
@@ -61,7 +65,9 @@ We're given that $\theta=45^\circ$ at the point $P.$ Therefore, we have
 $$
 
 
+
 \begin{aligned}𝑥 & =cos⁡45^{∘}=\frac{\sqrt{√2}}{2}, \\ 𝑦 & =sin⁡45^{∘}=\frac{\sqrt{√2}}{2}.\end{aligned}
+
 
 
 $$
@@ -89,7 +95,9 @@ Therefore, using the definitions of $\cos\theta$ and $\sin\theta$, we have
 $$
 
 
+
 \cos\theta = \dfrac{x}{1} = x, \qquad \sin\theta = \dfrac{y}{1} = y.
+
 
 
 $$
@@ -109,7 +117,9 @@ We're given that $y=\dfrac{\sqrt 3}{2}$ at the point $P.$ Therefore, we have
 $$
 
 
+
 \sin\theta = \dfrac{\sqrt 3}{2}.
+
 
 
 $$
@@ -119,7 +129,9 @@ We compute the angle $\theta$ using the inverse sine:
 $$
 
 
+
 \theta = \arcsin\left(\dfrac{\sqrt 3}{2}\right) = 60^\circ.
+
 
 
 $$
@@ -139,7 +151,9 @@ We're given that $x=\dfrac{\sqrt 8}{3}$ at the point $P.$ Therefore, we have
 $$
 
 
+
 \cos\theta = \dfrac{\sqrt 8}{3}.
+
 
 
 $$
@@ -149,7 +163,9 @@ Knowing that $\sec\theta = \dfrac{1}{\cos\theta},$ we can calculate $\sec\theta$
 $$
 
 
+
 \sec\theta = \dfrac{1}{\left(\dfrac{\sqrt 8}{3}\right)} =\dfrac{3}{\sqrt 8} = \dfrac{3\sqrt 8}{8}.
+
 
 
 $$
@@ -161,7 +177,9 @@ To find the tangent of an angle using the unit circle, we need to use the relati
 $$
 
 
+
 \tan\theta = \dfrac{\sin\theta}{\cos\theta}.
+
 
 
 $$
@@ -175,7 +193,9 @@ For this particular triangle, we have
 $$
 
 
+
 \sin\theta = \dfrac{y}{z}, \qquad \cos\theta = \dfrac{x}{z}, \qquad \tan\theta = \dfrac{y}{x}.
+
 
 
 $$
@@ -185,7 +205,9 @@ When we take $\sin\theta$ and divide it by $\cos\theta,$ we get
 $$
 
 
+
 \begin{aligned}\frac{sin⁡𝜃}{cos⁡𝜃} & =\frac{𝑦}{𝑧}÷\frac{𝑥}{𝑧} \\ & =\frac{𝑦}{𝑧}⋅\frac{𝑧}{𝑥} \\ & =\frac{𝑦⋅𝑧}{𝑥⋅𝑧} \\ & =\frac{𝑦⋅𝑧}{𝑥⋅𝑧} \\ & =\frac{𝑦}{𝑥} \\ & =tan⁡𝜃.\end{aligned}
+
 
 
 $$
@@ -197,7 +219,9 @@ Finally, since $\cot\theta = \dfrac{1}{\tan\theta},$ it immediately follows that
 $$
 
 
+
 \cot\theta = \dfrac{1}{\left(\dfrac{\sin\theta}{\cos\theta}\right)} = \dfrac{\cos\theta}{\sin\theta}.
+
 
 
 $$
@@ -217,7 +241,9 @@ We're given that $x=\dfrac{\sqrt 7}{7}$ and $y=\dfrac{\sqrt{42}}{7}$ at the poin
 $$
 
 
+
 \cos\theta = \dfrac{\sqrt 7}{7}, \qquad \sin\theta =\dfrac{\sqrt{42}}{7}.
+
 
 
 $$
@@ -227,7 +253,9 @@ Knowing that $\tan\theta = \dfrac{\sin \theta}{\cos\theta},$ we can calculate $\
 $$
 
 
+
 \tan\theta = \dfrac{\left(\dfrac{\sqrt{42}}{7}\right)}{\left(\dfrac{\sqrt 7}{7}\right)} = \dfrac{\sqrt{42} }{\sqrt{7}} = \sqrt 6.
+
 
 
 $$

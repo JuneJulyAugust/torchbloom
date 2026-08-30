@@ -19,7 +19,9 @@ For instance $\sin^2 30^\circ$ is the same as $(\sin30^\circ)^2.$ Therefore,
 $$
 
 
+
 \begin{aligned}sin^{2}⁡30^{∘} & =(sin⁡30^{∘})^{2} \\ & =(\frac{1}{2})^{2} \\ & =\frac{1}{4}.\end{aligned}
+
 
 
 $$
@@ -29,7 +31,9 @@ Similarly, $\tan^4 \left(\dfrac\pi 3\right)$ is the same as $\left(\tan \left(\d
 $$
 
 
+
 \begin{aligned}tan^{4}⁡(\frac{𝜋}{3}) & =(tan⁡(\frac{𝜋}{3}))^{4} \\ & =(\sqrt{√3})^{4} \\ & =(\sqrt{√3})^{2}⋅(\sqrt{√3})^{2} \\ & =3⋅3 \\ & =9.\end{aligned}
+
 
 
 $$
@@ -55,7 +59,9 @@ Using the fact that $\csc{\theta} = \dfrac{1}{\sin\theta},$ we have
 $$
 
 
+
 \begin{aligned}csc⁡240^{∘} & =\frac{1}{sin⁡240^{∘}} \\ & =\frac{1}{(−\frac{\sqrt{√3}}{2})} \\ & =−\frac{2}{\sqrt{√3}}.\end{aligned}
+
 
 
 $$
@@ -65,7 +71,9 @@ Finally, we combine the results:
 $$
 
 
+
 \begin{aligned}sin^{2}⁡(150^{∘})+2csc^{2}⁡(240^{∘}) & =(\frac{1}{2})^{2}+2(−\frac{2}{\sqrt{√3}})^{2} \\ & =\frac{1}{4}+2(\frac{4}{3}) \\ & =\frac{1}{4}+\frac{8}{3} \\ & =\frac{35}{12}\end{aligned}
+
 
 
 $$
@@ -91,7 +99,9 @@ Finally, we combine the results:
 $$
 
 
+
 \begin{aligned}4cos^{2}⁡(\frac{𝜋}{6})−sin⁡(\frac{𝜋}{4}) & =4(\frac{\sqrt{√3}}{2})^{2}−\frac{\sqrt{√2}}{2} \\ & =3−\frac{\sqrt{√2}}{2}\end{aligned}
+
 
 
 $$

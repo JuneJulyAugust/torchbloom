@@ -21,7 +21,9 @@ Suppose further that the semi-log scatter plot has the trend line
 $$
 
 
+
 Y = 4 + 0.3x,
+
 
 
 $$
@@ -33,7 +35,9 @@ The first step is to transform the exponential relationship into a linear form. 
 $$
 
 
+
 \begin{aligned}𝑦 & =𝑎⋅𝑏^{𝑥} \\ log⁡𝑦 & =log⁡(𝑎⋅𝑏^{𝑥}) \\ log⁡𝑦 & =log⁡𝑎+log⁡𝑏^{𝑥} \\ log⁡𝑦 & =log⁡𝑎+𝑥⋅log⁡𝑏 \\ 𝑌 & =𝐴+𝐵𝑥,\end{aligned}
+
 
 
 $$
@@ -43,7 +47,9 @@ where
 $$
 
 
+
 Y=\log y,\qquad A=\log a,\qquad B=\log b.
+
 
 
 $$
@@ -53,7 +59,9 @@ Now, comparing $Y = A + Bx$ with the equation $Y = 4 + 0.3x,$ we obtain
 $$
 
 
+
 A = 4, \qquad B = 0.3.
+
 
 
 $$
@@ -69,7 +77,9 @@ Therefore, we conclude that the approximate relationship between $x$ and $y$ is 
 $$
 
 
+
 y\approx 10\,000 \cdot 2^x.
+
 
 
 $$
@@ -89,7 +99,9 @@ Applying $\log$ to both sides of $y = a \cdot b^x,$ we get
 $$
 
 
+
 \begin{aligned}𝑦 & =𝑎⋅𝑏^{𝑥} \\ log⁡𝑦 & =log⁡(𝑎⋅𝑏^{𝑥}) \\ log⁡𝑦 & =log⁡𝑎+log⁡𝑏^{𝑥} \\ log⁡𝑦 & =log⁡𝑎+𝑥⋅log⁡𝑏 \\ 𝑌 & =𝐴+𝐵𝑥,\end{aligned}
+
 
 
 $$
@@ -99,7 +111,9 @@ where
 $$
 
 
+
 Y=\log y,\qquad A=\log a,\qquad B=\log b.
+
 
 
 $$
@@ -109,7 +123,9 @@ Comparing $Y = A + Bx$ with the given equation $Y = 3 - 0.2x,$ we obtain
 $$
 
 
+
 A = 3, \qquad B = -0.2.
+
 
 
 $$
@@ -119,7 +135,9 @@ As a result, we get
 $$
 
 
+
 \begin{aligned}𝐴 & =3 \\ log⁡𝑎 & =3 \\ 𝑎 & =10^{3} \\ 𝑎 & =1\,000.\end{aligned}
+
 
 
 $$
@@ -129,7 +147,9 @@ Also,
 $$
 
 
+
 \begin{aligned}𝐵 & =−0.2 \\ log⁡𝑏 & =−0.2 \\ 𝑏 & =10^{−0.2} \\ & ≈0.63.\end{aligned}
+
 
 
 $$
@@ -151,7 +171,9 @@ To get the corresponding semi-log plot, we apply $\log$ to both sides of $y = a 
 $$
 
 
+
 \begin{aligned}𝑦 & =𝑎⋅𝑏^{𝑥} \\ log⁡𝑦 & =log⁡(𝑎⋅𝑏^{𝑥}) \\ log⁡𝑦 & =log⁡𝑎+log⁡𝑏^{𝑥} \\ log⁡𝑦 & =log⁡𝑎+𝑥⋅log⁡𝑏 \\ 𝑌 & =𝐴+𝐵𝑥,\end{aligned}
+
 
 
 $$
@@ -161,7 +183,9 @@ where
 $$
 
 
+
 Y=\log y , \qquad A=\log a, \qquad B=\log b.
+
 
 
 $$
@@ -193,7 +217,9 @@ Applying $\log$ to both sides of $y = a \cdot b^x,$ we get
 $$
 
 
+
 \begin{aligned}𝑦 & =𝑎⋅𝑏^{𝑥} \\ log⁡𝑦 & =log⁡(𝑎⋅𝑏^{𝑥}) \\ log⁡𝑦 & =log⁡𝑎+log⁡𝑏^{𝑥} \\ log⁡𝑦 & =log⁡𝑎+𝑥⋅log⁡𝑏 \\ 𝑌 & =𝐴+𝐵𝑥,\end{aligned}
+
 
 
 $$
@@ -203,7 +229,9 @@ where
 $$
 
 
+
 Y=\log y, \qquad A=\log a, \qquad B=\log b.
+
 
 
 $$
@@ -213,7 +241,9 @@ When $y = 15$ (corresponding to monthly earnings of $15$ million), we have
 $$
 
 
+
 Y = \log {y} = \log (15) \approx 1.1761
+
 
 
 $$
@@ -225,7 +255,9 @@ To find when the monthly earnings will equal $15$ million, we need to substitute
 $$
 
 
+
 \begin{aligned}1.1761 & =0.5+0.15𝑥 \\ 0.6761 & =0.15𝑥 \\ 𝑥 & ≈4.5\end{aligned}
+
 
 
 $$

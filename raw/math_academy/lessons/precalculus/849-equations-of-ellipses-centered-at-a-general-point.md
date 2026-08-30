@@ -17,7 +17,9 @@ The equation of an ellipse centered at the point $({\color{red}h}, {\color{blue}
 $$
 
 
+
 \dfrac{(x-{\color{red}h})^2}{{\color{red}a}^2}+\dfrac{(y-{\color{blue}k})^2}{{\color{blue}b}^2}=1.
+
 
 
 $$
@@ -33,7 +35,9 @@ Substituting ${\color{red}a} = {\color{red}4},$ ${\color{blue}b} = {\color{blue}
 $$
 
 
+
 \begin{aligned}\frac{(𝑥−2)^{2}}{4^{2}}+\frac{(𝑦−1)^{2}}{3^{2}} & =1 \\ \frac{(𝑥−2)^{2}}{16}+\frac{(𝑦−1)^{2}}{9} & =1.\end{aligned}
+
 
 
 $$
@@ -53,7 +57,9 @@ Remember that the general equation of an ellipse centered at $(h,k)$ with a hori
 $$
 
 
+
 \dfrac{(x-h)^2}{{a}^2}+\dfrac{(y-k)^2}{{b}^2}=1.
+
 
 
 $$
@@ -63,7 +69,9 @@ Here, the ellipse is centered at $(1,-1),$ the horizontal radius has length $a=5
 $$
 
 
+
 \begin{aligned}\frac{(𝑥−ℎ)^{2}}{𝑎^{2}}+\frac{(𝑦−𝑘)^{2}}{𝑏^{2}} & =1 \\ \frac{(𝑥−1)^{2}}{5^{2}}+\frac{(𝑦−(−1))^{2}}{3^{2}} & =1 \\ \frac{(𝑥−1)^{2}}{25}+\frac{(𝑦+1)^{2}}{9} & =1.\end{aligned}
+
 
 
 $$
@@ -83,7 +91,9 @@ Remember that the general equation of an ellipse centered at $(h,k)$ with a hori
 $$
 
 
+
 \dfrac{(x-h)^2}{{a}^2}+\dfrac{(y-k)^2}{{b}^2}=1.
+
 
 
 $$
@@ -93,7 +103,9 @@ Here, the ellipse is centered at $(-1,-3),$ the horizontal radius has length $a=
 $$
 
 
+
 \begin{aligned}\frac{(𝑥−ℎ)^{2}}{𝑎^{2}}+\frac{(𝑦−𝑘)^{2}}{𝑏^{2}} & =1 \\ \frac{(𝑥−(−1))^{2}}{2^{2}}+\frac{(𝑦−(−3))^{2}}{4^{2}} & =1 \\ \frac{(𝑥+1)^{2}}{4}+\frac{(𝑦+3)^{2}}{16} & =1.\end{aligned}
+
 
 
 $$
@@ -111,7 +123,9 @@ Remember that the general equation of an ellipse centered at $(h,k)$ with a hori
 $$
 
 
+
 \dfrac{(x-h)^2}{{a}^2}+\dfrac{(y-k)^2}{{b}^2}=1.
+
 
 
 $$

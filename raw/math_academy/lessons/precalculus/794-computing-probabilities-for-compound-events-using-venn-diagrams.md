@@ -17,7 +17,9 @@ Suppose we have a bag of tiles labeled $a,b,c,d,e,$ and $f,$ where the bag conta
 $$
 
 
+
 \mathcal S = \{ a, b, c, d, e, f \}.
+
 
 
 $$
@@ -49,7 +51,9 @@ Therefore, we have
 $$
 
 
+
 P(A\cap B) = \frac{\color{red}1}{\color{blue}6}.
+
 
 
 $$
@@ -79,7 +83,9 @@ There are $25$ patients in total, so the number of remaining patients is
 $$
 
 
+
 25 - 10 - 12 = 3.
+
 
 
 $$
@@ -117,7 +123,9 @@ So, we have
 $$
 
 
+
 P(A\cup B)=\dfrac{60}{100}= 0.6.
+
 
 
 $$
@@ -143,7 +151,9 @@ The total number of students who play at least one of the instruments is
 $$
 
 
+
 22+46+17 = 85,
+
 
 
 $$
@@ -153,7 +163,9 @@ and there are $100$ students in total, so the number of remaining students is
 $$
 
 
+
 100 - 85 = 15.
+
 
 
 $$
@@ -169,7 +181,9 @@ The shaded part of the Venn diagram corresponds to students who play at least on
 $$
 
 
+
 P\left(A\cup B\right)=\dfrac{85}{100}= 0.85.
+
 
 
 $$

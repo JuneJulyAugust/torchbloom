@@ -22,7 +22,9 @@ The first step is to write the parabola equation in its general form. For a hori
 $$
 
 
+
 (y-k)^2 = 4p(x-h).
+
 
 
 $$
@@ -44,7 +46,9 @@ Let's use the procedure described earlier to find the directrix of the parabola
 $$
 
 
+
 y^2 = 2x.
+
 
 
 $$
@@ -56,7 +60,9 @@ To determine $p,$ we rewrite the equation of the parabola in the general form $(
 $$
 
 
+
 \begin{aligned}𝑦^{2} & =4⋅\frac{1}{2}⋅𝑥\end{aligned}
+
 
 
 $$
@@ -68,7 +74,9 @@ Finally, because the parabola opens to the right, the directrix lies at a distan
 $$
 
 
+
 \begin{aligned}𝑥 & =0−𝑝 \\ 𝑥 & =0−\frac{1}{2} \\ 𝑥 & =−\frac{1}{2}\end{aligned}
+
 
 
 $$
@@ -90,7 +98,9 @@ The equation of a left-opening or right-opening parabola is given by
 $$
 
 
+
 (y - k)^2 = 4p (x - h).
+
 
 
 $$
@@ -100,7 +110,9 @@ The directrix of this parabola is
 $$
 
 
+
 x= h-p.
+
 
 
 $$
@@ -110,7 +122,9 @@ First, we express our equation in standard form, as follows:
 $$
 
 
+
 (y-(-3))^2 = 4\left(-1\right)(x-(-4))
+
 
 
 $$
@@ -120,7 +134,9 @@ Comparing this equation side-by-side with the standard form, we obtain
 $$
 
 
+
 h=-4, \qquad k=-3, \qquad p=-1.
+
 
 
 $$
@@ -130,7 +146,9 @@ Therefore, the equation of the directrix is
 $$
 
 
+
 \begin{aligned}𝑥 & =ℎ−𝑝 \\ 𝑥 & =−4−(−1) \\ 𝑥 & =−3.\end{aligned}
+
 
 
 $$
@@ -148,7 +166,9 @@ The equation of an upward-opening or downward-opening parabola is given by
 $$
 
 
+
 (x - h)^2 = 4p (y - k).
+
 
 
 $$
@@ -158,7 +178,9 @@ The directrix of this parabola is
 $$
 
 
+
 y= k-p.
+
 
 
 $$
@@ -168,7 +190,9 @@ To rewrite our equation of the parabola in standard form, we need to group $x$-t
 $$
 
 
+
 \begin{aligned}3𝑥^{2}−24𝑥−4𝑦+32 & =0 \\ 3𝑥^{2}−24𝑥 & =4𝑦−32 \\ 3(𝑥^{2}−8𝑥) & =4𝑦−32 \\ 3((𝑥−4)^{2}−16) & =4𝑦−32 \\ 3(𝑥−4)^{2}−48 & =4𝑦−32 \\ 3(𝑥−4)^{2} & =4𝑦+16 \\ 3(𝑥−4)^{2} & =4(𝑦+4) \\ (𝑥−4)^{2} & =4(\frac{1}{3})(𝑦+4)\end{aligned}
+
 
 
 $$
@@ -178,7 +202,9 @@ Comparing the final equation side-by-side with the standard form, we obtain
 $$
 
 
+
 h=4, \qquad k=-4, \qquad p=\dfrac{1}{3}.
+
 
 
 $$
@@ -188,7 +214,9 @@ Therefore, the equation of the directrix is
 $$
 
 
+
 \begin{aligned}𝑦 & =𝑘−𝑝 \\ 𝑦 & =−4−(\frac{1}{3}) \\ 𝑦 & =−\frac{13}{3}.\end{aligned}
+
 
 
 $$
@@ -208,7 +236,9 @@ The equation of an upward-opening or downward-opening parabola is given by
 $$
 
 
+
 (x - h)^2 = 4p(y - k).
+
 
 
 $$
@@ -218,7 +248,9 @@ The directrix of this parabola is
 $$
 
 
+
 y = k - p.
+
 
 
 $$
@@ -228,7 +260,9 @@ Since our parabola is upward opening and has its vertex at $(h,k) = (6,-4),$ the
 $$
 
 
+
 \begin{aligned}(𝑥−6)^{2} & =4𝑝(𝑦−(−4)) \\ (𝑥−6)^{2} & =4𝑝(𝑦+4)\end{aligned}
+
 
 
 $$
@@ -238,7 +272,9 @@ Now, since the parabola passes through the point $B,$ we substitute the coordina
 $$
 
 
+
 \begin{aligned}(2−6)^{2} & =4𝑝(4+4) \\ (−4)^{2} & =4𝑝(8) \\ 16 & =32𝑝 \\ 𝑝 & =\frac{1}{2}\end{aligned}
+
 
 
 $$
@@ -248,7 +284,9 @@ Therefore, the equation of our parabola is
 $$
 
 
+
 (x - 6)^2 = 4\left(\dfrac{1}{2}\right)(y + 4)
+
 
 
 $$
@@ -258,7 +296,9 @@ and we have
 $$
 
 
+
 h = 6, \qquad k = -4, \qquad p = \dfrac{1}{2}.
+
 
 
 $$
@@ -268,7 +308,9 @@ Finally, the equation of the directrix is
 $$
 
 
+
 \begin{aligned}𝑦 & =𝑘−𝑝 \\ 𝑦 & =−4−\frac{1}{2} \\ 𝑦 & =−\frac{9}{2}.\end{aligned}
+
 
 
 $$

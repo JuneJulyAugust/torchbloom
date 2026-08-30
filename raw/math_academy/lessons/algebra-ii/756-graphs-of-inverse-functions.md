@@ -17,7 +17,9 @@ Consider the function
 $$
 
 
+
 {\color{black}f(x)} = 4x-2,
+
 
 
 $$
@@ -27,7 +29,9 @@ defined over the entire real line, and its inverse function
 $$
 
 
+
 {\color{black}f^{-1}(x)} = \dfrac{1}{4}(x+2).
+
 
 
 $$
@@ -67,7 +71,9 @@ Remember that each point $(a,b)$ on $y = f(x)$ has a corresponding point $(b,a)$
 $$
 
 
+
 \begin{aligned}(0,1) & ⟶(1,0) \\ (−2,5) & ⟶(5,−2)\end{aligned}
+
 
 
 $$

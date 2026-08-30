@@ -16,7 +16,9 @@ Suppose we want to find all of the solutions to
 $$
 
 
+
 0≤𝑥<2𝜋.
+
 
 
 $$
@@ -28,7 +30,9 @@ Recall that the general solution of the elementary equation $\sin{X} = \dfrac{\s
 $$
 
 
+
 \begin{aligned}𝑋 & =\frac{𝜋}{3}+2𝑛𝜋, & \, & \, & 𝑋 & =\frac{2𝜋}{3}+2𝑛𝜋,\end{aligned}
+
 
 
 $$
@@ -40,7 +44,9 @@ To find the general solution of the transformed sine equation, we replace $X$ wi
 $$
 
 
+
 x - \dfrac{\pi}3 = \dfrac{\pi}{3} + 2n\pi, \qquad\qquad x - \dfrac{\pi}3 = \dfrac{2\pi}{3} + 2n\pi.
+
 
 
 $$
@@ -50,7 +56,9 @@ We now solve the above two equations for $x,$ as follows:
 $$
 
 
+
 \begin{aligned}𝑥 & =\frac{2𝜋}{3}+2𝑛𝜋 & \, & \, & 𝑥 & =𝜋+2𝑛𝜋 \\ 𝑥 & =\frac{2𝜋}{3}+\frac{6𝑛𝜋}{3} & \, & \, & 𝑥 & =(1+2𝑛)𝜋 \\ 𝑥 & =\frac{2𝜋(1+3𝑛)}{3} & \, & \, & & \end{aligned}
+
 
 
 $$
@@ -64,7 +72,9 @@ All other values of $n$ generate solutions outside the domain $0\leq x < 2\pi.$ 
 $$
 
 
+
 x_1 = \dfrac{2\pi}{3},\qquad x_2 = \pi.
+
 
 
 $$
@@ -84,7 +94,9 @@ The general solution to our equation is given by
 $$
 
 
+
 \begin{aligned}3𝑥 & =210^{∘}+𝑛⋅360^{∘}, & \, & \, & 3𝑥 & =330^{∘}+𝑛⋅360^{∘}.\end{aligned}
+
 
 
 $$
@@ -94,7 +106,9 @@ Solving our two equations for $x$ gives the following:
 $$
 
 
+
 \begin{aligned}𝑥 & =70^{∘}+𝑛⋅120^{∘} & \, & \, & 𝑥 & =110^{∘}+𝑛⋅120^{∘}\end{aligned}
+
 
 
 $$
@@ -112,7 +126,9 @@ All other values of $n$ generate solutions outside the domain $0^\circ \leq x \l
 $$
 
 
+
 x = 70^\circ, 110^\circ, 190^\circ, 230^\circ, 310^\circ, 350^\circ .
+
 
 
 $$
@@ -122,7 +138,9 @@ Finally, since $x_2 = 110^\circ$ and $x_5 = 310^\circ$ we have
 $$
 
 
+
 x_2\cdot x_5 = 110 \cdot 310 = 34\, 100.
+
 
 
 $$
@@ -142,7 +160,9 @@ First, we rearrange the equation, as follows:
 $$
 
 
+
 \begin{aligned}−2\sqrt{√3}sin⁡(2𝑥+\frac{𝜋}{3})−3 & =0 \\ −2\sqrt{√3}sin⁡(2𝑥+\frac{𝜋}{3}) & =3 \\ sin⁡(2𝑥+\frac{𝜋}{3}) & =\frac{3}{−2\sqrt{√3}} \\ sin⁡(2𝑥+\frac{𝜋}{3}) & =−\frac{\sqrt{√3}}{2}\end{aligned}
+
 
 
 $$
@@ -152,7 +172,9 @@ The general solution to our equation is
 $$
 
 
+
 \begin{aligned}2𝑥+\frac{𝜋}{3} & =\frac{4𝜋}{3}+2𝑛𝜋, & \, & \, & 2𝑥+\frac{𝜋}{3} & =\frac{5𝜋}{3}+2𝑛𝜋.\end{aligned}
+
 
 
 $$
@@ -162,7 +184,9 @@ Solving the two equations above for $x$ gives the following:
 $$
 
 
+
 \begin{aligned}2𝑥 & =𝜋+2𝑛𝜋 & \, & \, & 2𝑥 & =\frac{4𝜋}{3}+2𝑛𝜋 \\ 𝑥 & =\frac{𝜋}{2}+𝑛𝜋 & \, & \, & 𝑥 & =\frac{2𝜋}{3}+𝑛𝜋 \\ 𝑥 & =\frac{𝜋}{2}+\frac{2𝑛𝜋}{2} & \, & \, & 𝑥 & =\frac{2𝜋}{3}+\frac{3𝑛𝜋}{3} \\ 𝑥 & =\frac{(1+2𝑛)𝜋}{2} & \, & \, & 𝑥 & =\frac{𝜋(2+3𝑛)}{3}\end{aligned}
+
 
 
 $$
@@ -178,7 +202,9 @@ All other values of $n$ generate solutions outside the domain $0 \leq x \lt 2\pi
 $$
 
 
+
 x = \dfrac{\pi}{2},\dfrac{2\pi}{3},\dfrac{3\pi}{2},\dfrac{5\pi}{3}.
+
 
 
 $$
@@ -188,7 +214,9 @@ Finally, since $x_1 = \dfrac{\pi}{2}$ and $x_4 = \dfrac{5\pi}{3},$ we have
 $$
 
 
+
 x_1\cdot x_4 = \dfrac{\pi}{2} \cdot \dfrac{5\pi}{3} = \dfrac{5\pi^2}{6}.
+
 
 
 $$
@@ -208,7 +236,9 @@ The general solution to our equation is
 $$
 
 
+
 \begin{aligned}2𝑥+\frac{𝜋}{4} & =\frac{𝜋}{4}+2𝑛𝜋, & \, & \, & 2𝑥+\frac{𝜋}{4} & =\frac{3𝜋}{4}+2𝑛𝜋.\end{aligned}
+
 
 
 $$
@@ -218,7 +248,9 @@ Solving the two equations above for $x$ gives the following:
 $$
 
 
+
 \begin{aligned}2𝑥 & =2𝑛𝜋 & \, & \, & 2𝑥 & =\frac{𝜋}{2}+2𝑛𝜋 \\ 𝑥 & =𝑛𝜋 & \, & \, & 𝑥 & =\frac{𝜋}{4}+𝑛𝜋 \\ & & \, & \, & 𝑥 & =\frac{𝜋}{4}+\frac{4𝑛𝜋}{4} \\ & & \, & \, & 𝑥 & =\frac{(1+4𝑛)𝜋}{4}\end{aligned}
+
 
 
 $$
@@ -236,7 +268,9 @@ All other values of $n$ generate solutions outside the domain $-\pi < x \leq \pi
 $$
 
 
+
 x_1 = -\dfrac{3\pi}4,\quad x_2=0,\quad x_3= \dfrac{\pi}4,\quad x_4= \pi.
+
 
 
 $$
@@ -246,7 +280,9 @@ Finally, we have
 $$
 
 
+
 x_3\cdot x_4 = \dfrac{\pi}{4} \cdot \pi = \dfrac{\pi^2}{4}.
+
 
 
 $$

@@ -17,7 +17,9 @@ Remember that the **identity matrix** $I_n$ is an $n \times n$ square matrix wit
 $$
 
 
+
 \begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{aligned}
+
 
 
 $$
@@ -29,7 +31,9 @@ For example, let's consider the matrix
 $$
 
 
+
 \begin{aligned}−2 & 3 & 10 \\ 6 & −2 & 2 \\ 23 & 4 & 8\end{aligned}
+
 
 
 $$
@@ -39,7 +43,9 @@ Multiplying the matrix $A$ by the identity matrix $I_3,$ we find that the result
 $$
 
 
+
 \begin{aligned}𝐴⋅𝐼_{3} & =\begin{aligned}−2 & 3 & 10 \\ 6 & −2 & 2 \\ 23 & 4 & 8\end{aligned}\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{aligned} \\ & =\begin{aligned}(−2)⋅1+3⋅0+10⋅0 & (−2)⋅0+3⋅1+10⋅0 & (−2)⋅0+3⋅0+10⋅1 \\ 6⋅1+(−2)⋅0+2⋅0 & 6⋅0+(−2)⋅1+2⋅0 & 6⋅0+(−2)⋅0+2⋅1 \\ 23⋅1+4⋅0+8⋅0 & 23⋅0+4⋅1+8⋅0 & 23⋅0+4⋅0+8⋅1\end{aligned} \\ & =\begin{aligned}−2 & 3 & 10 \\ 6 & −2 & 2 \\ 23 & 4 & 8\end{aligned} \\ & =𝐴\end{aligned}
+
 
 
 $$
@@ -53,7 +59,9 @@ For *any* square $n \times n$ matrix $A,$ we have
 $$
 
 
+
 A \cdot I_n = I_n \cdot A = A.
+
 
 
 $$
@@ -63,7 +71,9 @@ In other words, the $n \times n$ identity matrix $I_n$ has a similar property to
 $$
 
 
+
 a\cdot 1 = 1\cdot a = a
+
 
 
 $$
@@ -87,7 +97,9 @@ Therefore, the multiplication is well defined and
 $$
 
 
+
 \begin{aligned}2 & 3 & −1 \\ 5 & 2 & 7 \\ 0 & 4 & 6\end{aligned}
+
 
 
 $$
@@ -101,7 +113,9 @@ For example, consider the matrix
 $$
 
 
+
 [\begin{aligned}3 & −1 \\ 1 & 2\end{aligned}]
+
 
 
 $$
@@ -111,7 +125,9 @@ The first column of the identity matrix $I_2$ is given by
 $$
 
 
+
 [\begin{aligned}1 \\ 0\end{aligned}]
+
 
 
 $$
@@ -121,7 +137,9 @@ If we multiply $A$ by the column on the *right*, we get
 $$
 
 
+
 \begin{aligned}[\begin{aligned}3 & −1 \\ 1 & 2\end{aligned}][\begin{aligned}1 \\ 0\end{aligned}] & =[\begin{aligned}3⋅1+(−1)⋅0 \\ 1⋅1+2⋅0\end{aligned}] \\ & =[\begin{aligned}3 \\ 1\end{aligned}].\end{aligned}
+
 
 
 $$
@@ -135,7 +153,9 @@ On the other hand, if we multiply $A$ by the first *row* of the identity matrix 
 $$
 
 
+
 \begin{aligned}[\begin{aligned}1 & 0\end{aligned}][\begin{aligned}3 & −1 \\ 1 & 2\end{aligned}] & =[\begin{aligned}3⋅1+1⋅0 & (−1)⋅1+2⋅0\end{aligned}] \\ & =[\begin{aligned}3 & −1\end{aligned}].\end{aligned}
+
 
 
 $$
@@ -155,7 +175,9 @@ Since we're multiplying the $3\times 3$ matrix $C$ by the $2$nd ** of the identi
 $$
 
 
+
 \begin{aligned}1 \\ 1 \\ 4\end{aligned}
+
 
 
 $$
@@ -165,7 +187,9 @@ Don't believe it? Let's check the long way:
 $$
 
 
+
 \begin{aligned}𝐶𝐷 & =\begin{aligned}2 & 1 & 0 \\ −1 & 1 & −4 \\ 5 & 4 & −2\end{aligned}\begin{aligned}0 \\ 1 \\ 0\end{aligned} \\ & =\begin{aligned}2⋅0+1⋅1+0⋅0 \\ −1⋅0+1⋅1+(−4)⋅0 \\ 5⋅0+4⋅1+(−2)⋅0\end{aligned} \\ & =\begin{aligned}1 \\ 1 \\ 4\end{aligned}\end{aligned}
+
 
 
 $$
@@ -183,7 +207,9 @@ Then, multiplying by $I_2,$ we have
 $$
 
 
+
 \begin{aligned}𝐴𝐼_{2} & =[\begin{aligned}𝑎_{11} & 𝑎_{12} \\ 𝑎_{21} & 𝑎_{22}\end{aligned}][\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ & =[\begin{aligned}𝑎_{11}⋅1+𝑎_{12}⋅0 & 𝑎_{11}⋅0+𝑎_{12}⋅1 \\ 𝑎_{21}⋅1+𝑎_{22}⋅0 & 𝑎_{21}⋅0+𝑎_{22}⋅1\end{aligned}] \\ & =[\begin{aligned}𝑎_{11} & 𝑎_{12} \\ 𝑎_{21} & 𝑎_{22}\end{aligned}] \\ & =𝐴.\end{aligned}
+
 
 
 $$
@@ -193,7 +219,9 @@ Similarly,
 $$
 
 
+
 \begin{aligned}𝐼_{2}𝐴 & =[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}][\begin{aligned}𝑎_{11} & 𝑎_{12} \\ 𝑎_{21} & 𝑎_{22}\end{aligned}] \\ & =[\begin{aligned}𝑎_{11} & 𝑎_{12} \\ 𝑎_{21} & 𝑎_{22}\end{aligned}] \\ & =𝐴.\end{aligned}
+
 
 
 $$

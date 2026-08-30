@@ -19,7 +19,9 @@ For example, to simplify the rational expression $\dfrac{2x}{2+6x},$ we cancel o
 $$
 
 
+
 \begin{aligned}\frac{2𝑥}{2+6𝑥} & = \\ \frac{2𝑥}{2(1+3𝑥)} & = \\ \frac{𝑥}{1+3𝑥} & \end{aligned}
+
 
 
 $$
@@ -33,7 +35,9 @@ For example, to simplify the rational expression $\dfrac{x^2-4}{x+2},$ we factor
 $$
 
 
+
 \begin{aligned}\frac{𝑥^{2}−4}{𝑥+2} & = \\ \frac{(𝑥+2)(𝑥−2)}{𝑥+2} & = \\ \frac{(𝑥+2)(𝑥−2)}{𝑥+2} & = \\ 𝑥−2 & \end{aligned}
+
 
 
 $$
@@ -51,7 +55,9 @@ The numerator is a difference of squares. If we factor it and then cancel out an
 $$
 
 
+
  \begin{aligned} \dfrac {x^2 - 9} {(x + 3)(x+2)} & = \\\[5pt] \dfrac {(x + 3)(x - 3)} {(x + 3)(x+2)}&=\\\[5pt] \dfrac {(x + 3)(x - 3)} {(x + 3)(x+2)}&=\\\[5pt] \dfrac {x - 3} {x+2} &. \\\end{aligned}
+
 
 
 $$
@@ -69,7 +75,9 @@ The numerator can be factored as $x^2+x-6= (x+3)(x-2).$ Cancelling out any commo
 $$
 
 
+
 \begin{aligned}\begin{aligned}\frac{𝑥^{2}+𝑥−6}{𝑥−2} & = \\ \frac{(𝑥+3)(𝑥−2)}{𝑥−2} & = \\ \frac{(𝑥+3)(𝑥−2)}{(𝑥−2)} & = \\ \frac{𝑥+3}{1} & = \\ 𝑥+3 & .\end{aligned}\end{aligned}
+
 
 
 $$
@@ -87,7 +95,9 @@ Here, we take out a factor of $2$ from the denominator, and then use the polynom
 $$
 
 
+
  \begin{aligned} \dfrac{4(a+b)} {2a^2+4ab+2b^2} &=\dfrac{4(a+b)} {2\left(a^2+2ab+b^2\right)} \\&=\dfrac{2\cdot 2\cdot(a+b)} {2(a+b)(a+b)} \\&=\dfrac{2\cdot 2\cdot(a+b)} {2(a+b)(a+b)}\\&=\dfrac {2} {a+b}. \end{aligned}
+
 
 
 $$
@@ -105,7 +115,9 @@ We factor the numerator and denominator, canceling out any common factors that a
 $$
 
 
+
 \begin{aligned}\frac{𝑥^{2}−4}{𝑥^{2}−5𝑥+6} & =\frac{(𝑥−2)(𝑥+2)}{(𝑥−3)(𝑥−2)} \\ & =\frac{(𝑥−2)(𝑥+2)}{(𝑥−3)(𝑥−2)} \\ & =\frac{𝑥+2}{𝑥−3}\end{aligned}
+
 
 
 $$

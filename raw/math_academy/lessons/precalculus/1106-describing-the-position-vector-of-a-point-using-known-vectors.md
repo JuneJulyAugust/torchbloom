@@ -181,7 +181,9 @@ Additionally,
 $$
 
 
+
 \begin{aligned}𝐦 & =\overset{𝑂𝑁}{}+\overset{𝑁𝑀}{} \\ & =2𝐧+2𝐤.\end{aligned}
+
 
 
 $$
@@ -207,7 +209,9 @@ From the diagram, we see that
 $$
 
 
+
 \overrightarrow{OX} = \overrightarrow{OA}+\overrightarrow{AX}.
+
 
 
 $$
@@ -219,7 +223,9 @@ First, from $\triangle OAB,$ we have
 $$
 
 
+
 \begin{aligned}\overset{𝐴𝐵}{} & =\overset{𝐴𝑂}{}+\overset{𝑂𝐵}{} \\ & =−\overset{𝑂𝐴}{}+\overset{𝑂𝐵}{} \\ & =−𝐚+𝐛 \\ & =𝐛−𝐚.\end{aligned}
+
 
 
 $$
@@ -229,7 +235,9 @@ Since $AX:XB=3:1,$ we have
 $$
 
 
+
 \overrightarrow{AX}=\dfrac{3}{4}\overrightarrow{AB}=\dfrac{3}{4}(\mathbf{b}-\mathbf{a}).
+
 
 
 $$
@@ -239,7 +247,9 @@ Therefore,
 $$
 
 
+
 \begin{aligned}\overset{𝑂𝑋}{} & =\overset{𝑂𝐴}{}+\overset{𝐴𝑋}{} \\ & =𝐚+\frac{3}{4}(𝐛−𝐚) \\ & =\frac{1}{4}𝐚+\frac{3}{4}𝐛.\end{aligned}
+
 
 
 $$

@@ -19,7 +19,9 @@ For example, consider the polynomial $x^2-9.$ This polynomial has two roots, $x=
 $$
 
 
+
 \begin{aligned}𝑥=3\,⇒\,𝑥^{2}−9 & = \\ (3)^{2}−9 & = \\ 9−9 & = \\ 0 & \,✓ \\ 𝑥=−3\,⇒\,𝑥^{2}−9 & = \\ (−3)^{2}−9 & = \\ 9−9 & = \\ 0 & \,✓\end{aligned}
+
 
 
 $$
@@ -29,7 +31,9 @@ On the other hand, a number like $x=1$ is *not* a root of the polynomial because
 $$
 
 
+
 \begin{aligned}𝑥=1\,⇒\,𝑥^{2}−9 & = \\ (1)^{2}−9 & = \\ 1−9 & = \\ −8 & \,×\end{aligned}
+
 
 
 $$
@@ -47,7 +51,9 @@ Substituting $3$ for $x$ in the polynomial and evaluating, we get the following 
 $$
 
 
+
 \begin{aligned} 2(3)^3+8(3)^2-2(3)-8 &= \\2(27)+8(9)-6-8 &= \\54+72-14 &= \\112 \end{aligned}
+
 
 
 $$
@@ -65,7 +71,9 @@ For example, the polynomial below is a parametric polynomial:
 $$
 
 
+
 f(x)=2x^2 -px
+
 
 
 $$
@@ -77,7 +85,9 @@ If we're given the root of a polynomial, we can find the numerical value of a pa
 $$
 
 
+
 f(1)=0
+
 
 
 $$
@@ -87,7 +97,9 @@ Therefore, we can evaluate the polynomial at $x=1,$ set it equal to $0,$ and sol
 $$
 
 
+
 \begin{aligned}𝑓(1) & =0 \\ 2(1)^{2}−𝑝(1) & =0 \\ 2−𝑝 & =0 \\ 𝑝 & =2\end{aligned}
+
 
 
 $$
@@ -105,7 +117,9 @@ Since $x=3$ is a root, we have $f(3)=0.$ Therefore, we can evaluate the polynomi
 $$
 
 
+
 \begin{aligned}(3)^{3}−3(3)+𝑝 & =0 \\ 27−9+𝑝 & =0 \\ 𝑝 & =−18\end{aligned}
+
 
 
 $$

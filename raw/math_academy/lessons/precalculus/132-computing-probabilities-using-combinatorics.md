@@ -21,7 +21,9 @@ Let $A$ represent the event that our number starts with $1.$ We can use the form
 $$
 
 
+
 3
+
 
 
 $$
@@ -31,7 +33,9 @@ First, let's calculate the total number of ways to choose a $3$-digit number usi
 $$
 
 
+
 N = {}_{4}P_3 = \dfrac{4!}{(4-3)!} = 24
+
 
 
 $$
@@ -41,7 +45,9 @@ Then, we calculate the number of ways to choose a $3$-digit number starting with
 $$
 
 
+
 n = {}_{3}P_2 = \dfrac{3!}{(3-2)!} = \dfrac{3!}{1!} = 6
+
 
 
 $$
@@ -51,7 +57,9 @@ Therefore, using the formula, the probability is
 $$
 
 
+
 P(A) = \dfrac{n}{N} = \dfrac{6}{24} = \dfrac{1}{4} = 25\%.
+
 
 
 $$
@@ -69,7 +77,9 @@ Let $A$ represent the event described in the question. Then
 $$
 
 
+
 \begin{aligned}𝑃(𝐴) & =\frac{𝑛}{𝑁},\end{aligned}
+
 
 
 $$
@@ -81,7 +91,9 @@ First, we compute $N.$ We want to count how many $4$-digit numbers can be formed
 $$
 
 
+
 N = 9^4 = 6\,561.
+
 
 
 $$
@@ -91,7 +103,9 @@ Now, we compute $n.$ To create a $4$-digit number from the $9$ digits where no d
 $$
 
 
+
 \begin{aligned}𝑛=_{9}𝑃_{4} & =\frac{9!}{5!}=3\,024\end{aligned}
+
 
 
 $$
@@ -101,7 +115,9 @@ Finally, we have
 $$
 
 
+
 \begin{aligned}𝑃(𝐴) & =\frac{3\,024}{6\,561}≈0.46=46\%.\end{aligned}
+
 
 
 $$
@@ -117,7 +133,9 @@ Let $A$ represent the event described in the question. Then
 $$
 
 
+
 P(A) = \dfrac{n}{N},
+
 
 
 $$
@@ -131,7 +149,9 @@ First, we compute $N.$ The number of ways to draw $2$ tiles from a total of $20$
 $$
 
 
+
 N = {}_{20}C_2 = \dfrac{20!}{2!\cdot 18!} = 190.
+
 
 
 $$
@@ -141,7 +161,9 @@ Now, we compute $n.$ There are $5$ tiles with the letter $a,$ so the number of w
 $$
 
 
+
 n = {}_{5}C_2 = \dfrac{5!}{2!\cdot 3!} = 10.
+
 
 
 $$
@@ -151,7 +173,9 @@ Finally,
 $$
 
 
+
 P(A) = \dfrac{10}{190} = \dfrac{1}{19}.
+
 
 
 $$
@@ -169,7 +193,9 @@ Let $A$ denote the event described in the question. Then
 $$
 
 
+
 \begin{aligned}𝑃(𝐴) & =\frac{𝑛}{𝑁},\end{aligned}
+
 
 
 $$
@@ -183,7 +209,9 @@ First, we compute $N.$ The number of ways to select $2$ persons out of a total o
 $$
 
 
+
 \begin{aligned}𝑁=_{10}𝐶_{2} & =\frac{10!}{2!⋅8!}=45.\end{aligned}
+
 
 
 $$
@@ -193,7 +221,9 @@ Now, we compute $n.$ A total of $4$ club members are women, so the number of way
 $$
 
 
+
 \begin{aligned}𝑛=_{4}𝐶_{2}=\frac{4!}{2!⋅2!}=6.\end{aligned}
+
 
 
 $$
@@ -203,7 +233,9 @@ Finally, we obtain
 $$
 
 
+
 \begin{aligned}𝑃(𝐴) & =\frac{𝑛}{𝑁}=\frac{6}{45}=\frac{2}{15}\end{aligned}
+
 
 
 $$
@@ -221,7 +253,9 @@ Let $A$ represent the event described in the question. Then
 $$
 
 
+
 P(A) = \dfrac{n}{N},
+
 
 
 $$
@@ -235,7 +269,9 @@ First, we compute $N.$ The number of ways to draw $5$ tiles from a total of $12$
 $$
 
 
+
 N = {}_{12}C_5 = \dfrac{12!}{5!\cdot 7!} = 792.
+
 
 
 $$
@@ -251,7 +287,9 @@ Multiplying the results from the above steps, we get
 $$
 
 
+
 n = {}_4 C_2 \cdot {}_4 C_3 = 6 \cdot 4 = 24.
+
 
 
 $$
@@ -261,7 +299,9 @@ Finally,
 $$
 
 
+
 P(A) = \dfrac{24}{792} \approx 0.03=3\%.
+
 
 
 $$
@@ -281,7 +321,9 @@ The probability of the complement can be computed as
 $$
 
 
+
 P(A') = \dfrac{n}{N},
+
 
 
 $$
@@ -293,7 +335,9 @@ To assign a unique day to each of the $4$ people, we must choose $4$ days out of
 $$
 
 
+
 n = {}_{7}P_4 = \dfrac{7!}{3!} = 840.
+
 
 
 $$
@@ -303,7 +347,9 @@ On the other hand, if the same day can be assigned to different people, we have 
 $$
 
 
+
 N = 7 \cdot 7 \cdot 7 \cdot 7 = 2401.
+
 
 
 $$
@@ -313,7 +359,9 @@ Finally, the probability of the complement is
 $$
 
 
+
 P(A') = \dfrac{n}{N} = \dfrac{840}{2\, 401} \approx 0.350
+
 
 
 $$
@@ -325,7 +373,9 @@ Therefore, we have
 $$
 
 
+
 \begin{aligned}𝑃(𝐴) & =1−𝑃(𝐴^{′}) \\ & ≈1−0.350 \\ & =0.650\end{aligned}
+
 
 
 $$

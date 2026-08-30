@@ -27,7 +27,9 @@ Since the curve of best fit is parabolic, it must be of the form
 $$
 
 
+
 y = ax^2 + bx + c.
+
 
 
 $$
@@ -65,7 +67,9 @@ Recall that a general parabola has the equation
 $$
 
 
+
 y = ax^2 + bx + c.
+
 
 
 $$
@@ -81,7 +85,9 @@ Therefore, the correct answer is
 $$
 
 
+
 y = -2.1x^2 + 0.7x + 1.
+
 
 
 $$
@@ -109,7 +115,9 @@ We want to find the best model for the scatterplot data shown, in the quadratic 
 $$
 
 
+
 y = ax^2+bx+c,
+
 
 
 $$
@@ -127,7 +135,9 @@ Therefore, of the given choices, only choice
 $$
 
 
+
 y = -2.28x^{2} + 20.2x+652.76
+
 
 
 $$
@@ -143,7 +153,9 @@ The scatter plot above shows a relationship between the number of people in a pa
 $$
 
 
+
 y = \dfrac{1}{27} x^2+2.
+
 
 
 $$
@@ -159,7 +171,9 @@ To predict the waiting time when $9$ people are in the cafeteria, we need to sub
 $$
 
 
+
 \begin{aligned}𝑦 & =\frac{1}{27}𝑥^{2}+2 \\ & =\frac{1}{27}(9)^{2}+2 \\ & =3+2 \\ & =5\end{aligned}
+
 
 
 $$
@@ -183,7 +197,9 @@ The residual equals the difference between the actual value of the dependent var
 $$
 
 
+
 \textrm{Residual} = \text{Actual} - \textrm{Estimated}
+
 
 
 $$
@@ -199,7 +215,9 @@ As a result,
 $$
 
 
+
 \begin{aligned}Residual & =Actual−Estimated \\ & =𝑦−\overset{𝑦}{ˆ} \\ & =60−50 \\ & =10.\end{aligned}
+
 
 
 $$

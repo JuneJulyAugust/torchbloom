@@ -16,7 +16,9 @@ A complex number $z$ is called an **$n$th root of unity** if it satisfies the eq
 $$
 
 
+
 z^n=1.
+
 
 
 $$
@@ -28,7 +30,9 @@ For example, to find all the 5th roots of unity, we must solve the equation
 $$
 
 
+
 z^5=1.
+
 
 
 $$
@@ -46,7 +50,9 @@ Now, here's the trick. When expressing unity in exponential form, we add an arbi
 $$
 
 
+
 \begin{aligned}1 & =𝑟𝑒^{i𝜃} \\ & =𝑟𝑒^{i(𝜃+2𝑘𝜋)} \\ & =1⋅𝑒^{i(0+2𝑘𝜋)} \\ & =𝑒^{2𝑘𝜋i}\end{aligned}
+
 
 
 $$
@@ -58,7 +64,9 @@ Now, rewriting the right-hand side of the equation $z^5 = 1,$ we get
 $$
 
 
+
 z^5 = e^{2k\pi \textrm{i}}.
+
 
 
 $$
@@ -68,7 +76,9 @@ Taking the 5th root of both sides gives
 $$
 
 
+
 \begin{aligned}𝑧_{𝑘}=(𝑒^{2𝑘𝜋i})^{1/5}=𝑒^{2𝑘𝜋i/5}.\end{aligned}
+
 
 
 $$
@@ -78,7 +88,9 @@ There are exactly $5$ distinct 5th roots of unity. To find these, we substitute 
 $$
 
 
+
 \begin{aligned}𝑘=0 & :\,𝑧_{0}=𝑒^{2(0)𝜋i/5}=𝑒^{0}=1 \\ 𝑘=1 & :\,𝑧_{1}=𝑒^{2(1)𝜋i/5}=𝑒^{2𝜋i/5} \\ 𝑘=2 & :\,𝑧_{2}=𝑒^{2(2)𝜋i/5}=𝑒^{4𝜋i/5} \\ 𝑘=3 & :\,𝑧_{3}=𝑒^{2(3)𝜋i/5}=𝑒^{6𝜋i/5} \\ 𝑘=4 & :\,𝑧_{4}=𝑒^{2(4)𝜋i/5}=𝑒^{8𝜋i/5}\end{aligned}
+
 
 
 $$
@@ -88,7 +100,9 @@ Therefore, our 5th roots of unity are as follows:
 $$
 
 
+
 1, \quad e^{2\pi\textrm{i}/5}, \quad e^{4\pi\textrm{i}/5}, \quad e^{6\pi\textrm{i}/5}, \quad e^{8\pi\textrm{i}/5}
+
 
 
 $$
@@ -98,7 +112,9 @@ In general, the case corresponding to $k=1$ is the **principal $n$th root of uni
 $$
 
 
+
 z_1 = e^{2\pi \textrm{i}/5}.
+
 
 
 $$
@@ -116,7 +132,9 @@ Let $z$ be a $6$th root of unity. This means that
 $$
 
 
+
 z^{6} = 1.
+
 
 
 $$
@@ -126,7 +144,9 @@ First, we express the complex number $1$ in the form $re^{\textrm{i}\theta}.$ No
 $$
 
 
+
 1 = e^{\textrm{i}(0 + 2k\pi)} = e^{2k\pi \textrm{i}},
+
 
 
 $$
@@ -136,7 +156,9 @@ where $k$ is an integer. So, we have
 $$
 
 
+
 \begin{aligned}𝑧^{6}=𝑒^{2𝑘𝜋i}\,⟹\,𝑧=(𝑒^{2𝑘𝜋i})^{1/6}=𝑒^{𝑘𝜋i/3}.\end{aligned}
+
 
 
 $$
@@ -150,7 +172,9 @@ Earlier, we found that the $5$th roots of unity are as follows:
 $$
 
 
+
 z_0 = 1, \qquad z_1 = e^{2\pi\textrm{i}/5}, \qquad z_2 = e^{4\pi\textrm{i}/5}, \qquad z_3 = e^{6\pi\textrm{i}/5}, \qquad z_4 = e^{8\pi\textrm{i}/5}
+
 
 
 $$
@@ -204,7 +228,9 @@ First, we express the complex number $1$ in the form $re^{\textrm{i}\theta}.$ No
 $$
 
 
+
 1 = e^{\textrm{i}(0 + 2k\pi)} = e^{2k\pi \textrm{i}},
+
 
 
 $$
@@ -214,7 +240,9 @@ where $k$ is an integer. So, we have
 $$
 
 
+
 \begin{aligned}𝑧^{7}=𝑒^{2𝑘𝜋i}\,⟹\,𝑧=(𝑒^{2𝑘𝜋i})^{1/7}=𝑒^{2𝑘𝜋i/7}.\end{aligned}
+
 
 
 $$
@@ -228,7 +256,9 @@ So, the required root corresponds to $k=5.$ Substituting this into the expressio
 $$
 
 
+
 \begin{aligned}𝑧_{5}=𝑒^{2(5)𝜋i/7}=𝑒^{10𝜋i/7}\end{aligned}
+
 
 
 $$
@@ -240,7 +270,9 @@ Earlier, when finding the 5th roots of unity, we substituted the integers from $
 $$
 
 
+
 \begin{aligned}𝑧_{𝑘}=𝑒^{2𝑘𝜋i/5}\end{aligned}
+
 
 
 $$
@@ -250,7 +282,9 @@ This process gave us the following results:
 $$
 
 
+
 z_0 = 1, \qquad z_1 = e^{2\pi\textrm{i}/5}, \qquad z_2 = e^{4\pi\textrm{i}/5}, \qquad z_3 = e^{6\pi\textrm{i}/5}, \qquad z_4 = e^{8\pi\textrm{i}/5}
+
 
 
 $$
@@ -264,7 +298,9 @@ For example, substituting $k=8$ into our formula gives
 $$
 
 
+
 \begin{aligned}𝑧_{8} & =𝑒^{2(8)𝜋i/5} \\ & =𝑒^{16𝜋i/5} \\ & =𝑒^{6𝜋i/5+10𝜋i/5} \\ & =𝑒^{6𝜋i/5+2𝜋i} \\ & =𝑒^{6𝜋i/5}⋅𝑒^{2𝜋i} \\ & =𝑒^{6𝜋i/5}⋅1 \\ & =𝑒^{6𝜋i/5} \\ & =𝑧_{3}.\end{aligned}
+
 
 
 $$

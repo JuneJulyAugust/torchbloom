@@ -30,7 +30,9 @@ Now, we can uniquely describe our position vector using $\mathbf{i}, \mathbf{j},
 $$
 
 
+
 \begin{aligned}𝐚 & =\overset{𝑂𝐴}{}=2𝐢+2𝐣+3𝐤.\end{aligned}
+
 
 
 $$
@@ -50,7 +52,9 @@ Remember that in general, if a point $A$ has coordinates $(a_x,a_y,a_z),$ then i
 $$
 
 
+
 \overrightarrow{OA} = \mathbf{a} = a_x\mathbf{i}+a_y\mathbf{j} + a_z\mathbf{k}.
+
 
 
 $$
@@ -60,7 +64,9 @@ Here, the point $A$ has the coordinates $(1,-2,2),$ so its position vector is gi
 $$
 
 
+
 \begin{aligned}\overset{𝑂𝐴}{} & =𝐢−2𝐣+2𝐤.\end{aligned}
+
 
 
 $$
@@ -72,7 +78,9 @@ In general, the position vector of a point $A(a_x,a_y,a_z)$ is the vector
 $$
 
 
+
 \begin{aligned}𝑎_{𝑥} \\ 𝑎_{𝑦} \\ 𝑎_{𝑧}\end{aligned}
+
 
 
 $$
@@ -84,7 +92,9 @@ Lastly, note that a vector is defined by its components uniquely. In other words
 $$
 
 
+
 \begin{aligned}𝑎_{𝑥}=𝑏_{𝑥} \\ 𝑎_{𝑦}=𝑏_{𝑦} \\ 𝑎_{𝑧}=𝑏_{𝑧}.\end{aligned}
+
 
 
 $$
@@ -108,7 +118,9 @@ Remember that in general, if a point $A$ has coordinates $(a_x,a_y,a_z),$ then i
 $$
 
 
+
 \begin{aligned}𝑎_{𝑥} \\ 𝑎_{𝑦} \\ 𝑎_{𝑧}\end{aligned}
+
 
 
 $$
@@ -118,7 +130,9 @@ Here, the point $A$ has the coordinates $(-1,-2,3),$ so its position vector is g
 $$
 
 
+
 \begin{aligned}−1 \\ −2 \\ 3\end{aligned}
+
 
 
 $$
@@ -136,7 +150,9 @@ We have
 $$
 
 
+
 \begin{aligned} & \overset{𝑂𝐴}{}=𝐚=−𝐢+4𝐣−5𝐤, \\ & \overset{𝑂𝐵}{}=𝐛=2𝐢+3𝐣+5𝐤.\end{aligned}
+
 
 
 $$
@@ -146,7 +162,9 @@ Now, we can express $\overrightarrow{AB}$ as the difference of position vectors,
 $$
 
 
+
 \begin{aligned}\overset{𝐴𝐵}{} & =𝐛−𝐚 \\ & =(2𝐢+3𝐣+5𝐤)−(−𝐢+4𝐣−5𝐤) \\ & =3𝐢−𝐣+10𝐤 \\ & =\begin{aligned}3 \\ −1 \\ 10\end{aligned}\end{aligned}
+
 
 
 $$

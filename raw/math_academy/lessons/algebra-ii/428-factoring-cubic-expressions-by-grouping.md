@@ -18,7 +18,9 @@ To factor a cubic, we can often **factor by grouping**. To demonstrate, let's us
 $$
 
 
+
 3x^3-6x^2+2x-4
+
 
 
 $$
@@ -28,7 +30,9 @@ $$
 $$
 
 
+
 (3x^3-6x^2)+(2x-4)
+
 
 
 $$
@@ -38,7 +42,9 @@ $$
 $$
 
 
+
 3x^2(x -2)+2(x-2)
+
 
 
 $$
@@ -48,7 +54,9 @@ $$
 $$
 
 
+
 (x - 2)3x^2+(x-2)2
+
 
 
 $$
@@ -58,7 +66,9 @@ $$
 $$
 
 
+
 (x - 2)(3x^2+2)
+
 
 
 $$
@@ -80,7 +90,9 @@ First, we group the two larger terms and the two smaller terms:
 $$
 
 
+
 (x^3 + 3x^2) + (4x + 12)
+
 
 
 $$
@@ -90,7 +102,9 @@ Next, we factor the two larger terms and the two smaller terms separately, so th
 $$
 
 
+
 x^2(x + 3) + 4(x + 3)
+
 
 
 $$
@@ -100,7 +114,9 @@ Then, we rearrange the expression so that the binomial factors in parentheses ap
 $$
 
 
+
 (x + 3)x^2 + (x + 3)4
+
 
 
 $$
@@ -110,7 +126,9 @@ Finally, we factor out the binomial in parentheses from the entire expression:
 $$
 
 
+
 (x + 3)(x^2 + 4)
+
 
 
 $$
@@ -128,7 +146,9 @@ First, we group the two larger terms and the two smaller terms:
 $$
 
 
+
 (15n^3 + 5n^2) + (3n + 1)
+
 
 
 $$
@@ -138,7 +158,9 @@ Next, we factor the two larger terms and the two smaller terms separately, so th
 $$
 
 
+
 5n^2(3n + 1) + (3n + 1)
+
 
 
 $$
@@ -148,7 +170,9 @@ Then, we rearrange the expression so that the binomial factors in parentheses ap
 $$
 
 
+
 (3n + 1)5n^2 + (3n + 1)
+
 
 
 $$
@@ -158,7 +182,9 @@ Finally, we factor out the binomial in parentheses from the entire expression:
 $$
 
 
+
 (3n + 1)(5n^2 + 1)
+
 
 
 $$
@@ -176,7 +202,9 @@ First, we group the two larger terms and the two smaller terms:
 $$
 
 
+
 (a^3 + 4a^2) - (3a + 12)
+
 
 
 $$
@@ -188,7 +216,9 @@ Next, we factor the two larger terms and the two smaller terms separately, so th
 $$
 
 
+
 a^2(a + 4) - 3(a + 4)
+
 
 
 $$
@@ -198,7 +228,9 @@ Then, we rearrange the expression so that the binomial factors in parentheses ap
 $$
 
 
+
 (a + 4)a^2 - (a + 4)3
+
 
 
 $$
@@ -208,7 +240,9 @@ Finally, we factor out the binomial in parentheses from the entire expression:
 $$
 
 
+
 (a + 4)(a^2 - 3)
+
 
 
 $$
@@ -226,7 +260,9 @@ First, we group the two larger terms and the two smaller terms:
 $$
 
 
+
 (2p^3 +5p^2) - (8p +20)
+
 
 
 $$
@@ -236,7 +272,9 @@ Next, we factor the two larger terms and the two smaller terms separately, so th
 $$
 
 
+
 p^2(2p +5) -4(2p +5)
+
 
 
 $$
@@ -246,7 +284,9 @@ Then, we rearrange the expression so that the binomial factors in parentheses ap
 $$
 
 
+
 (2p+5)p^2-(2p+5)4
+
 
 
 $$
@@ -256,7 +296,9 @@ Finally, we factor out the binomial in parentheses from the entire expression:
 $$
 
 
+
 (2p + 5)(p^2-4)
+
 
 
 $$
@@ -266,7 +308,9 @@ However, we need to make sure that we factor **. Here, the factor $p^2-4$ is a d
 $$
 
 
+
 (2p + 5)(p-2)(p+2).
+
 
 
 $$

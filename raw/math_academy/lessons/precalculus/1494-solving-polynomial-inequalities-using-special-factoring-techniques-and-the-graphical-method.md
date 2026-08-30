@@ -28,7 +28,9 @@ First, we factor the polynomial $f(x).$ In this case, we can factor the polynomi
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =𝑥^{3}−3𝑥^{2}−𝑥+3 \\ & =(𝑥^{3}−3𝑥^{2})−(𝑥−3) \\ & =𝑥^{2}(𝑥−3)−(𝑥−3) \\ & =(𝑥^{2}−1)(𝑥−3) \\ & =(𝑥+1)(𝑥−1)(𝑥−3)\end{aligned}
+
 
 
 $$
@@ -46,7 +48,9 @@ Based on the graph, the solution is
 $$
 
 
+
 x \in [-1, 1] \cup [3, \infty).
+
 
 
 $$
@@ -66,7 +70,9 @@ First, we factor the polynomial $f(x){:}$
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =−𝑥^{3}−5𝑥^{2}+4𝑥+20 \\ & =−[𝑥^{3}+5𝑥^{2}−4𝑥−20] \\ & =−[𝑥^{2}(𝑥+5)−4(𝑥+5)] \\ & =−[(𝑥^{2}−4)(𝑥+5)] \\ & =−(𝑥+2)(𝑥−2)(𝑥+5)\end{aligned}
+
 
 
 $$
@@ -84,7 +90,9 @@ Based on the graph, the solution is
 $$
 
 
+
 x \in (-\infty, -5) \cup (-2,2).
+
 
 
 $$
@@ -102,7 +110,9 @@ To solve this inequality, we first need to move all of the terms to the left-han
 $$
 
 
+
 \begin{aligned}𝑃(𝑥) & >2𝑥^{2} \\ 𝑥^{4}−8 & >2𝑥^{2} \\ 𝑥^{4}−2𝑥^{2}−8 & >0\end{aligned}
+
 
 
 $$
@@ -114,7 +124,9 @@ We factor the polynomial $f(x),$ as follows:
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =𝑥^{4}−2𝑥^{2}−8 \\ & =𝑥^{4}−4𝑥^{2}+2𝑥^{2}−8 \\ & =𝑥^{2}(𝑥^{2}−4)+2(𝑥^{2}−4) \\ & =(𝑥^{2}+2)(𝑥^{2}−4) \\ & =(𝑥^{2}+2)(𝑥+2)(𝑥−2)\end{aligned}
+
 
 
 $$
@@ -132,7 +144,9 @@ Based on the graph, the solution is
 $$
 
 
+
 x \in (-\infty,-2) \cup (2,\infty).
+
 
 
 $$
@@ -152,7 +166,9 @@ First, we factor the polynomial $P(x).$ We can do this using the rational roots 
 $$
 
 
+
 \pm \dfrac{1}{2} , \pm \dfrac{3}{2}, \pm 1 , \pm 3 .
+
 
 
 $$
@@ -162,7 +178,9 @@ We're given that the polynomial has at least one integer root, and so the list o
 $$
 
 
+
 \pm 1, \pm 3.
+
 
 
 $$
@@ -172,7 +190,9 @@ Let's now test each of the above options until we find a root:
 $$
 
 
+
 \begin{aligned}𝑃(1) & =−2(1)^{3}−7(1)^{2}−2(1)+3−8\,× \\ 𝑃(−1) & =−2(−1)^{3}−7(−1)^{2}−2(−1)+3=0\,✓\end{aligned}
+
 
 
 $$
@@ -186,7 +206,9 @@ Therefore,
 $$
 
 
+
 \begin{aligned}𝑃(𝑥) & =(𝑥+1)(−2𝑥^{2}−5𝑥+3) \\ & =−(𝑥+1)(2𝑥^{2}+5𝑥−3).\end{aligned}
+
 
 
 $$
@@ -196,7 +218,9 @@ Since the highest-degree factor is now quadratic, we can continue factoring usin
 $$
 
 
+
 P(x) =-(x+1)(2x-1)(x+3).
+
 
 
 $$
@@ -212,7 +236,9 @@ Since $P(x) \leq 0$ when the curve $y=P(x)$ is below $x$-axis or touches this ax
 $$
 
 
+
 x \in [-3,-1] \cup \left[\dfrac{1}{2}, \infty \right).
+
 
 
 $$

@@ -22,7 +22,9 @@ For example, let's consider the rational function
 $$
 
 
+
 f(x) = \dfrac{1}{(x-2)(x+2)}.
+
 
 
 $$
@@ -46,7 +48,9 @@ In our case, the function is already factored, and there are no common factors i
 $$
 
 
+
 (x-2)(x+2) = 0
+
 
 
 $$
@@ -68,7 +72,9 @@ Factoring the numerator and denominator, we get
 $$
 
 
+
 \begin{aligned}𝑓(𝑥)=\frac{1}{(𝑥+2)(𝑥−3)}.\end{aligned}
+
 
 
 $$
@@ -78,7 +84,9 @@ There are no common factors in the numerator and denominator, so we set the deno
 $$
 
 
+
 \begin{aligned}(𝑥+2)(𝑥−3) & =0\end{aligned}
+
 
 
 $$
@@ -100,7 +108,9 @@ Factoring the numerator and denominator and canceling any common factors, we get
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =\frac{𝑥−2}{𝑥^{2}−6𝑥+8} \\ & =\frac{𝑥−2}{(𝑥−2)(𝑥−4)} \\ & =\frac{𝑥−2}{(𝑥−2)(𝑥−4)} \\ & =\frac{1}{𝑥−4}.\end{aligned}
+
 
 
 $$
@@ -110,7 +120,9 @@ Next, we set the denominator equal to zero and solve for $x\mathbin{:}$
 $$
 
 
+
 x - 4 = 0
+
 
 
 $$
@@ -132,7 +144,9 @@ Factoring the numerator and denominator, we get
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =\frac{2}{𝑥^{3}+𝑥^{2}+4𝑥} \\ & =\frac{2}{𝑥(𝑥^{2}+𝑥+4)}.\end{aligned}
+
 
 
 $$
@@ -142,7 +156,9 @@ There are no common factors in the numerator and denominator, so we set the deno
 $$
 
 
+
 x(x^2 +x+ 4) = 0.
+
 
 
 $$
@@ -170,7 +186,9 @@ Factoring the numerator and denominator and canceling any common factors, we get
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =\frac{𝑥^{2}−𝑥−6}{𝑥^{3}−3𝑥^{2}+𝑥−3} \\ & =\frac{(𝑥+2)(𝑥−3)}{𝑥^{2}(𝑥−3)+(𝑥−3)} \\ & =\frac{(𝑥+2)(𝑥−3)}{(𝑥^{2}+1)(𝑥−3)} \\ & =\frac{(𝑥+2)(𝑥−3)}{(𝑥^{2}+1)(𝑥−3)} \\ & =\frac{𝑥+2}{𝑥^{2}+1}.\end{aligned}
+
 
 
 $$
@@ -180,7 +198,9 @@ Next, we set the denominator equal to zero:
 $$
 
 
+
 x^2 + 1 = 0
+
 
 
 $$
@@ -190,7 +210,9 @@ This equation does not have any real solutions because the discriminant $\mathca
 $$
 
 
+
 \begin{aligned}D & =𝑏^{2}−4𝑎𝑐 \\ & =(0)^{2}−4(1)(1) \\ & =0−4 \\ & =−4\end{aligned}
+
 
 
 $$

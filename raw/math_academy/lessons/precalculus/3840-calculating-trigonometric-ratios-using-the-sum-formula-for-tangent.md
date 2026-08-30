@@ -20,7 +20,9 @@ Suppose that for the angles $u$ and $v,$ we have
 $$
 
 
+
 \cos u = \dfrac {3}{5}, \qquad \tan v = 3.
+
 
 
 $$
@@ -32,7 +34,9 @@ First, we recall the sum formula for tangent:
 $$
 
 
+
 \tan(u+v) = \dfrac{\tan{u}+\tan{v}}{1-\tan{u}\tan{v}}
+
 
 
 $$
@@ -42,7 +46,9 @@ We need to find the value of $\tan u.$ To do that, we first find the value of $\
 $$
 
 
+
 \sin^2 u + \cos^2 u= 1 \qquad\Longrightarrow\qquad \sin^2 u = 1- \cos^2 u
+
 
 
 $$
@@ -52,7 +58,9 @@ Substituting our values into the Pythagorean identity, we get
 $$
 
 
+
 \begin{aligned}sin^{2}⁡𝑢 & =1−cos^{2}⁡𝑢 \\ & =1−(\frac{3}{5})^{2} \\ & =1−\frac{3^{2}}{5^{2}} \\ & =1−\frac{9}{25} \\ & =\frac{25}{25}−\frac{9}{25} \\ & =\frac{16}{25}.\end{aligned}
+
 
 
 $$
@@ -62,7 +70,9 @@ Therefore,
 $$
 
 
+
 \begin{aligned}sin⁡𝑢 & =±\sqrt{√\frac{16}{25}} \\ & =±\frac{4}{5}.\end{aligned}
+
 
 
 $$
@@ -72,7 +82,9 @@ We're given that $u$ lies in the fourth quadrant, where sine is negative. So, we
 $$
 
 
+
 \sin u = -\dfrac{4}{5}.
+
 
 
 $$
@@ -82,7 +94,9 @@ We can now compute $\tan u\mathbin{:}$
 $$
 
 
+
 \begin{aligned}tan⁡𝑢 & =\frac{sin⁡𝑢}{cos⁡𝑢}=\frac{(−\frac{4}{5})}{5}=−\frac{4}{3}\end{aligned}
+
 
 
 $$
@@ -92,7 +106,9 @@ Finally, we use the sum formula for the tangent:
 $$
 
 
+
 \begin{aligned}tan⁡(𝑢+𝑣) & =\frac{tan⁡𝑢+tan⁡𝑣}{1−tan⁡𝑢tan⁡𝑣} \\ & =\frac{(−\frac{4}{3}+3)}{3} \\ & =\frac{(−\frac{4}{3}+\frac{9}{3})}{3} \\ & =\frac{(\frac{5}{3})}{3} \\ & =\frac{1}{3}\end{aligned}
+
 
 
 $$
@@ -106,7 +122,9 @@ Suppose that for the angles $u$ and $v,$ we have
 $$
 
 
+
 \sin u = \dfrac {4}{5} , \qquad \tan v = \dfrac{1}{2}.
+
 
 
 $$
@@ -120,7 +138,9 @@ First, we recall the sum formula for tangent:
 $$
 
 
+
 \tan(u+v) = \dfrac{\tan{u}+\tan{v}}{1-\tan{u}\tan{v}}
+
 
 
 $$
@@ -130,7 +150,9 @@ We need to find the value of $\tan u.$ To do that, we first find the value of $\
 $$
 
 
+
 \sin^2 u + \cos^2 u= 1 \qquad\Longrightarrow\qquad \cos^2 u = 1- \sin^2 u
+
 
 
 $$
@@ -140,7 +162,9 @@ Substituting our values into the Pythagorean identity, we get
 $$
 
 
+
 \begin{aligned}cos^{2}⁡𝑢 & =1−sin^{2}⁡𝑢 \\ & =1−(\frac{4}{5})^{2} \\ & =1−\frac{4^{2}}{5^{2}} \\ & =1−\frac{16}{25} \\ & =\frac{25}{25}−\frac{16}{25} \\ & =\frac{9}{25}.\end{aligned}
+
 
 
 $$
@@ -150,7 +174,9 @@ Therefore,
 $$
 
 
+
 \begin{aligned}cos⁡𝑢 & =±\sqrt{√\frac{9}{25}} \\ & =±\frac{3}{5}.\end{aligned}
+
 
 
 $$
@@ -160,7 +186,9 @@ We're given that $u$ lies in the first quadrant, where cosine is positive. So, w
 $$
 
 
+
 \cos u= \dfrac{3}{5}.
+
 
 
 $$
@@ -170,7 +198,9 @@ We can now compute $\tan u\mathbin{:}$
 $$
 
 
+
 \begin{aligned}tan⁡𝑢 & =\frac{sin⁡𝑢}{cos⁡𝑢}=\frac{(\frac{4}{5})}{5}=\frac{4}{3}\end{aligned}
+
 
 
 $$
@@ -180,7 +210,9 @@ Finally, we use the sum formula for the tangent:
 $$
 
 
+
 \begin{aligned}tan⁡(𝑢+𝑣) & =\frac{tan⁡𝑢+tan⁡𝑣}{1−tan⁡𝑢tan⁡𝑣} \\ & =\frac{(\frac{4}{3}+\frac{1}{2})}{3} \\ & =\frac{(\frac{11}{6})}{6} \\ & =\frac{11}{2}.\end{aligned}
+
 
 
 $$
@@ -194,7 +226,9 @@ Suppose that for the angles $u$ and $v,$ we have
 $$
 
 
+
 \sin u = -\dfrac{2}{\sqrt{5}} , \qquad \tan v = 4.
+
 
 
 $$
@@ -208,7 +242,9 @@ First, we recall the difference formula for tangent:
 $$
 
 
+
 \tan(u-v) = \dfrac{\tan u - \tan v}{1+\tan u \tan v}
+
 
 
 $$
@@ -218,7 +254,9 @@ We need to find the value of $\tan u.$ To do that, we first find the value of $\
 $$
 
 
+
 \sin^2 u + \cos^2 u= 1 \qquad\Longrightarrow\qquad \cos^2 u = 1- \sin^2 u
+
 
 
 $$
@@ -228,7 +266,9 @@ Substituting our values into the Pythagorean identity, we get
 $$
 
 
+
 \begin{aligned}cos^{2}⁡𝑢 & =1−sin^{2}⁡𝑢 \\ & =1−(−\frac{2}{\sqrt{√5}})^{2} \\ & =1−(\frac{2}{\sqrt{√5}})^{2} \\ & =1−\frac{2^{2}}{(\sqrt{√5})^{2}} \\ & =1−\frac{4}{5} \\ & =\frac{5}{5}−\frac{4}{5} \\ & =\frac{1}{5}.\end{aligned}
+
 
 
 $$
@@ -238,7 +278,9 @@ Therefore,
 $$
 
 
+
 \begin{aligned}cos⁡𝑢 & =±\sqrt{√\frac{1}{5}} \\ & =±\frac{1}{\sqrt{√5}}.\end{aligned}
+
 
 
 $$
@@ -248,7 +290,9 @@ We're given that $u$ lies in the third quadrant, where cosine is negative. So, w
 $$
 
 
+
 \cos u = -\dfrac{1}{\sqrt{5}}.
+
 
 
 $$
@@ -258,7 +302,9 @@ We can now compute $\tan u\mathbin{:}$
 $$
 
 
+
 \begin{aligned}tan⁡𝑢 & =\frac{sin⁡𝑢}{cos⁡𝑢}=\frac{(−\frac{2}{\sqrt{√5}})}{\sqrt{√5}}=2\end{aligned}
+
 
 
 $$
@@ -268,7 +314,9 @@ Finally, we use the difference formula for the tangent:
 $$
 
 
+
 \begin{aligned}tan⁡(𝑢−𝑣) & =\frac{tan⁡𝑢−tan⁡𝑣}{1+tan⁡𝑢tan⁡𝑣} \\ & =\frac{2−4}{1+2⋅4} \\ & =\frac{(−2)}{9} \\ & =−\frac{2}{9}\end{aligned}
+
 
 
 $$

@@ -17,7 +17,9 @@ Given two finite data sets of equal length, say,
 $$
 
 
+
 x=\big\{ x_1,x_2, \ldots, x_n \big\}, \qquad y=\big\{ y_1,y_2, \ldots, y_n \big\},
+
 
 
 $$
@@ -35,7 +37,9 @@ To calculate $\textrm{Cov}(x,y),$ we use the following formula:
 $$
 
 
+
 \textrm{Cov}(x,y) = \dfrac{1}{n} \sum\limits_{i=1}^n (x_i - \overline{x})(y_i - \overline{y}),
+
 
 
 $$
@@ -53,7 +57,9 @@ Calculate $\textrm{Cov}(x,y)$ for the following data sets:
 $$
 
 
+
 x = \big\{ 6, \: -2, \: 7, \: 1 \big\},\qquad y = \big\{ 5, \: -1, \: 4, \: 0 \big\}
+
 
 
 $$
@@ -65,7 +71,9 @@ The (population) covariance of the data sets $x=\big\{x_1,x_2, \ldots, x_n \big\
 $$
 
 
+
 \textrm{Cov}(x,y) = \dfrac{1}{n} \sum\limits_{i=1}^n (x_i - \overline{x})(y_i - \overline{y}),
+
 
 
 $$
@@ -77,7 +85,9 @@ First, we need to compute the means:
 $$
 
 
+
 \begin{aligned}\overset{𝑥}{} & =\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{𝑖} \\ & =\frac{1}{4}⋅(6+(−2)+7+1) \\ & =\frac{1}{4}⋅12 \\ & =3 \\ \overset{𝑦}{–} & =\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑦_{𝑖} \\ & =\frac{1}{4}⋅(5+(−1)+4+0) \\ & =\frac{1}{4}⋅8 \\ & =2\end{aligned}
+
 
 
 $$
@@ -87,7 +97,9 @@ Therefore, the covariance of our data sets is
 $$
 
 
+
 \begin{aligned}Cov(𝑥,𝑦) & =\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}(𝑥_{𝑖}−\overset{𝑥}{})(𝑦_{𝑖}−\overset{𝑦}{–}) \\ & =\frac{1}{4}[(6−3)(5−2)+(−2−3)(−1−2)+(7−3)(4−2)+(1−3)(0−2)] \\ & =\frac{1}{4}[(3)(3)+(−5)(−3)+(4)(2)+(−2)(−2)] \\ & =\frac{1}{4}[9+15+8+4] \\ & =\frac{1}{4}⋅36 \\ & =9.\end{aligned}
+
 
 
 $$
@@ -105,7 +117,9 @@ The (population) covariance of the data sets $x=\big\{x_1,x_2, \ldots, x_n \big\
 $$
 
 
+
 \textrm{Cov}(x,y) = \dfrac{1}{n} \sum\limits_{i=1}^n (x_i - \overline{x})(y_i - \overline{y}),
+
 
 
 $$
@@ -117,7 +131,9 @@ Therefore, the covariance of our data sets is
 $$
 
 
+
 \begin{aligned}Cov(𝑥,𝑦) & =\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}(𝑥_{𝑖}−\overset{𝑥}{})(𝑦_{𝑖}−\overset{𝑦}{–}) \\ & =\frac{1}{4}[(2−5)(54−73)+(4−5)(68−73)+(6−5)(80−73)+(8−5)(90−73)] \\ & =\frac{1}{4}[(−3)(−19)+(−1)(−5)+(1)(7)+(3)(17)] \\ & =\frac{1}{4}[57+5+7+51] \\ & =\frac{1}{4}⋅120 \\ & =30.\end{aligned}
+
 
 
 $$
@@ -131,7 +147,9 @@ The (population) covariance of the data sets
 $$
 
 
+
 x=\big\{ x_1,x_2, \ldots, x_n \big\}, \qquad y=\big\{ y_1,y_2, \ldots, y_n \big\}
+
 
 
 $$
@@ -141,7 +159,9 @@ is given by
 $$
 
 
+
 \textrm{Cov}(x,y) = \dfrac{1}{n} \sum\limits_{i=1}^n (x_i - \overline{x})(y_i - \overline{y}).
+
 
 
 $$
@@ -151,7 +171,9 @@ If we compare a single data set, say $x$, against itself using our formula for c
 $$
 
 
+
 \begin{aligned}Cov(𝑥,𝑥) & =\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}(𝑥_{𝑖}−\overset{𝑥}{})(𝑥_{𝑖}−\overset{𝑥}{}) \\ & =\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}(𝑥_{𝑖}−\overset{𝑥}{})^{2} \\ & =𝜎^{2},\end{aligned}
+
 
 
 $$

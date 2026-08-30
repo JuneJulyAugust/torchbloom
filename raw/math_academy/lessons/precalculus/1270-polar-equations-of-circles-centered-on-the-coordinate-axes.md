@@ -22,7 +22,9 @@ With a little bit of geometry and trigonometry, it turns out that the equation o
 $$
 
 
+
 r=2a\cos\theta.
+
 
 
 $$
@@ -34,7 +36,9 @@ So, for instance, if $a=2$, then we have a circle of radius $2$ centered at $(2,
 $$
 
 
+
 r= 4 \cos\theta.
+
 
 
 $$
@@ -44,7 +48,9 @@ Similarly, if $a=-2,$ then we have a circle of radius $|{-2}| = 2$ centered at $
 $$
 
 
+
 r= -4 \cos\theta.
+
 
 
 $$
@@ -64,7 +70,9 @@ In our case, we have $r=2\cos\theta,$ and therefore
 $$
 
 
+
 a = \dfrac{2}{2} = 1.
+
 
 
 $$
@@ -86,7 +94,9 @@ Again, using some geometry and trigonometry, it's possible to show that the pola
 $$
 
 
+
 r=2a \sin \theta.
+
 
 
 $$
@@ -98,7 +108,9 @@ So, for instance, if $a=2,$ then we have a circle of radius $2$ centered at $(0,
 $$
 
 
+
 r=4 \sin \theta.
+
 
 
 $$
@@ -108,7 +120,9 @@ Similarly, if $a=-3$, then we have a circle of radius $|{-3}| = 3$ centered at $
 $$
 
 
+
 r=-6 \sin \theta.
+
 
 
 $$
@@ -128,7 +142,9 @@ In our case, we have $r=4\sin\theta,$ and therefore
 $$
 
 
+
 a = \dfrac{4}{2} = 2.
+
 
 
 $$
@@ -154,7 +170,9 @@ In polar coordinates, the equation of such a circle is given by
 $$
 
 
+
 \begin{aligned}𝑟 & =2𝑎sin⁡𝜃 \\ & =2⋅(−4.5)⋅sin⁡𝜃 \\ & =−9sin⁡𝜃.\end{aligned}
+
 
 
 $$
@@ -172,7 +190,9 @@ First, we find the polar coordinates of the point $A.$ The distance from $A$ to 
 $$
 
 
+
 \begin{aligned}𝑟 & =\sqrt{√𝑥^{2}+𝑦^{2}} \\ & =\sqrt{√(−\frac{7}{2})^{2}+(\frac{7}{2})^{2}} \\ & =\sqrt{√2(\frac{7}{2})^{2}} \\ & =\frac{7\sqrt{√2}}{2}.\end{aligned}
+
 
 
 $$
@@ -182,7 +202,9 @@ Now, since $A$ lies in the second quadrant, we get
 $$
 
 
+
 \begin{aligned}𝜃 & =𝜋−arctan⁡\frac{𝑦}{𝑥} \\ & =𝜋−arctan⁡−\frac{(\frac{7}{2})}{2} \\ & =𝜋−\frac{𝜋}{4} \\ & =\frac{3𝜋}{4}.\end{aligned}
+
 
 
 $$
@@ -194,7 +216,9 @@ To find the value of $k$, we substitute the polar coordinates of the point $A$ i
 $$
 
 
+
 \begin{aligned}𝑟 & =𝑘cos⁡𝜃 \\ \frac{7\sqrt{√2}}{2} & =𝑘cos⁡(\frac{3𝜋}{4}) \\ \frac{7\sqrt{√2}}{2} & =𝑘(−\frac{\sqrt{√2}}{2}) \\ 𝑘 & =−7\end{aligned}
+
 
 
 $$
@@ -218,7 +242,9 @@ Let a point $P$ on the circle have polar coordinates $(r, \theta)$. Then, the Ca
 $$
 
 
+
 (x, y) = (r\cos\theta, \, r\sin\theta).
+
 
 
 $$
@@ -228,7 +254,9 @@ The distance from $P$ to the center $(a, 0)$ is equal to the radius $|a|.$ We ca
 $$
 
 
+
 \sqrt{(r\cos\theta - a)^2 + (r\sin\theta)^2} = |a|
+
 
 
 $$
@@ -238,7 +266,9 @@ Squaring both sides, we get
 $$
 
 
+
 (r\cos\theta - a)^2 + (r\sin\theta)^2 = a^2.
+
 
 
 $$
@@ -248,7 +278,9 @@ Expanding both terms yields
 $$
 
 
+
 r^2\cos^2\theta - 2ar\cos\theta + a^2 + r^2\sin^2\theta = a^2.
+
 
 
 $$
@@ -258,7 +290,9 @@ Then, we combine like terms:
 $$
 
 
+
 r^2(\cos^2\theta + \sin^2\theta) - 2ar\cos\theta + a^2 = a^2
+
 
 
 $$
@@ -268,7 +302,9 @@ Since $\cos^2\theta + \sin^2\theta = 1$, we can simplify the above as follows:
 $$
 
 
+
 r^2 - 2ar\cos\theta + a^2 = a^2
+
 
 
 $$
@@ -278,7 +314,9 @@ Subtracting $a^2$ from both sides gives
 $$
 
 
+
 r^2 - 2ar\cos\theta = 0.
+
 
 
 $$
@@ -288,7 +326,9 @@ Then, we factor our equation:
 $$
 
 
+
 r(r - 2a\cos\theta) = 0
+
 
 
 $$
@@ -298,7 +338,9 @@ So, either $r = 0$ (which corresponds to the origin, already on the circle), or
 $$
 
 
+
 r = 2a\cos\theta,
+
 
 
 $$
@@ -320,7 +362,9 @@ Let a point $P$ on the circle have polar coordinates $(r, \theta)$. Then, the Ca
 $$
 
 
+
 (x, y) = (r\cos\theta, \, r\sin\theta).
+
 
 
 $$
@@ -330,7 +374,9 @@ The distance from $P$ to the center $(0, a)$ is equal to the radius $|a|.$ We ca
 $$
 
 
+
 \sqrt{(r\cos\theta - 0)^2 + (r\sin\theta - a)^2} = |a|
+
 
 
 $$
@@ -340,7 +386,9 @@ Squaring both sides, we get
 $$
 
 
+
 (r\cos\theta)^2 + (r\sin\theta - a)^2 = a^2.
+
 
 
 $$
@@ -350,7 +398,9 @@ Expanding both terms yields
 $$
 
 
+
 r^2\cos^2\theta + r^2\sin^2\theta - 2ar\sin\theta + a^2 = a^2.
+
 
 
 $$
@@ -360,7 +410,9 @@ Then, we combine like terms:
 $$
 
 
+
 r^2(\cos^2\theta + \sin^2\theta) - 2ar\sin\theta + a^2 = a^2
+
 
 
 $$
@@ -370,7 +422,9 @@ Since $\cos^2\theta + \sin^2\theta = 1$, we simplify:
 $$
 
 
+
 r^2 - 2ar\sin\theta + a^2 = a^2
+
 
 
 $$
@@ -380,7 +434,9 @@ Subtracting $a^2$ from both sides gives
 $$
 
 
+
 r^2 - 2ar\sin\theta = 0.
+
 
 
 $$
@@ -390,7 +446,9 @@ Then, we factor our equation:
 $$
 
 
+
 r(r - 2a\sin\theta) = 0
+
 
 
 $$
@@ -400,7 +458,9 @@ So, either $r = 0$ (which corresponds to the origin, already on the circle), or
 $$
 
 
+
 r = 2a\sin\theta,
+
 
 
 $$

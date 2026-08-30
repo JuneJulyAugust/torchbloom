@@ -16,7 +16,9 @@ Consider the vector $\mathbf{a}$ shown in the picture below. The vector $2\mathb
 $$
 
 
+
 |2\mathbf{a}|=2 \cdot |\mathbf{a}|
+
 
 
 $$
@@ -28,7 +30,9 @@ On the other hand, $-1.5\mathbf{a}$ is the vector that has the opposite directio
 $$
 
 
+
 |-1.5\mathbf{a}|=1.5 \cdot |\mathbf{a}|
+
 
 
 $$
@@ -72,7 +76,9 @@ In general, two vectors $\mathbf{a}$ and $\mathbf{b}$ are called **parallel** (o
 $$
 
 
+
 \mathbf{a} = \lambda \mathbf{b}.
+
 
 
 $$
@@ -82,7 +88,9 @@ Sometimes, we'll use a special notation
 $$
 
 
+
 \mathbf{a} \parallel \mathbf{b}
+
 
 
 $$
@@ -102,7 +110,9 @@ Notice that
 $$
 
 
+
 7\mathbf{a}+14\mathbf{b}= \dfrac{7}{3} (3\mathbf{a}+6\mathbf{b}),
+
 
 
 $$
@@ -140,7 +150,9 @@ For any vector $\mathbf{a}$ the vector $0 \cdot \mathbf{a}$ is equal to the zero
 $$
 
 
+
 0\cdot\mathbf{a}=\mathbf{0}.
+
 
 
 $$

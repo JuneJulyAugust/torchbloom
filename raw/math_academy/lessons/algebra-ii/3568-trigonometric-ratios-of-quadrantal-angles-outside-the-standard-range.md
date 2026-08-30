@@ -19,7 +19,9 @@ For example, if the angle is $540^\circ,$ then we write
 $$
 
 
+
 540^\circ - 360^\circ = 180^\circ.\quad{\color{green}{\checkmark}}
+
 
 
 $$
@@ -33,7 +35,9 @@ We can do a similar thing when working with negative angles. For example, if the
 $$
 
 
+
 \begin{aligned}−\frac{7𝜋}{2}+2𝜋 & =−\frac{3𝜋}{2} \\ −\frac{3𝜋}{2}+2𝜋 & =\frac{𝜋}{2}.\,✓\end{aligned}
+
 
 
 $$
@@ -53,7 +57,9 @@ First, we find an angle that's coterminal with $\dfrac{7\pi}{2}$ and lies in the
 $$
 
 
+
 \begin{aligned}\frac{7𝜋}{2}−2𝜋 & =\frac{3𝜋}{2}\,✓\end{aligned}
+
 
 
 $$
@@ -83,7 +89,9 @@ First, we find an angle that's coterminal with $-270^\circ$ that lies in the ran
 $$
 
 
+
 -270^\circ + 360^\circ = 90^\circ\quad{\color{green}{\checkmark}}
+
 
 
 $$
@@ -105,7 +113,9 @@ So, using the fact that $\cot{\theta} = \dfrac{\cos\theta}{\sin\theta},$ we have
 $$
 
 
+
 \cot{90^\circ} = \dfrac{\cos{90^\circ}}{\sin{90^\circ}} = \dfrac{0}{1}.
+
 
 
 $$

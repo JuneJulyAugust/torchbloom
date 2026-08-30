@@ -30,7 +30,9 @@ For example, take the point $(3,-4).$ The fact that it's on the graph of $y=f(x)
 $$
 
 
+
 f(x-2) = f({\color{red}5}-2) = f(3) = -4,
+
 
 
 $$
@@ -42,7 +44,9 @@ For each point on the graph of $y=f(x)$ there is a corresponding point on the gr
 $$
 
 
+
 \begin{aligned}Points on y=f(x) & Points on y=f(x-2) \\ (3,−4) & (5,−4) \\ (1,2) & (3,2) \\ (0,1.5) & (2,1.5) \\ (−2,0) & (0,0)\end{aligned}
+
 
 
 $$
@@ -86,7 +90,9 @@ When graphing a function, we can combine vertical and horizontal translations. I
 $$
 
 
+
 y = f(x-h)+k
+
 
 
 $$

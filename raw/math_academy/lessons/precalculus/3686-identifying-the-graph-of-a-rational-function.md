@@ -71,7 +71,9 @@ First, we denote
 $$
 
 
+
 f(x) = \dfrac{x^2 - x}{x^2 + 2x} = \dfrac{x(x - 1)}{x(x+2)}.
+
 
 
 $$
@@ -81,7 +83,9 @@ Notice that the numerator and denominator both have $x$ as a common factor. Sett
 $$
 
 
+
 \%x - 2 = 0\qquad\Longrightarrow\qquad x= 2. x = 0.
+
 
 
 $$
@@ -95,7 +99,9 @@ Finding the reduced rational function $F(x),$ we get
 $$
 
 
+
 \begin{aligned}𝐹(𝑥) & =\frac{𝑥(𝑥−1)}{𝑥(𝑥+2)} \\ & =\frac{𝑥(𝑥−1)}{𝑥(𝑥+2)} \\ & =\frac{𝑥−1}{𝑥+2}.\end{aligned}
+
 
 
 $$
@@ -105,7 +111,9 @@ The $y$-coordinate of the hole is given by
 $$
 
 
+
 \begin{aligned}𝐹(0) & =\frac{0−1}{0+2} \\ & =−\frac{1}{2}.\end{aligned}
+
 
 
 $$
@@ -143,7 +151,9 @@ First, we define the function $f(x)$ and factor the numerator and denominator.
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =\frac{4𝑥^{2}−4}{𝑥^{3}−𝑥^{2}−9𝑥+9} \\ & =\frac{4(𝑥^{2}−1)}{𝑥^{2}(𝑥−1)−9(𝑥−1)} \\ & =\frac{4(𝑥−1)(𝑥+1)}{(𝑥−1)(𝑥^{2}−9)} \\ & =\frac{4(𝑥−1)(𝑥+1)}{(𝑥−1)(𝑥+3)(𝑥−3)}\end{aligned}
+
 
 
 $$
@@ -153,7 +163,9 @@ Notice that the numerator and denominator both have $(x-1)$ as a common factor. 
 $$
 
 
+
 x - 1 = 0\quad\Longrightarrow\quad x= 1.
+
 
 
 $$
@@ -167,7 +179,9 @@ Finding the reduced rational function $F(x),$ we get
 $$
 
 
+
 \begin{aligned}𝐹(𝑥) & =\frac{4(𝑥−1)(𝑥+1)}{(𝑥−1)(𝑥+3)(𝑥−3)} \\ & =\frac{4(𝑥−1)(𝑥+1)}{(𝑥−1)(𝑥+3)(𝑥−3)} \\ & =\frac{4(𝑥+1)}{(𝑥+3)(𝑥−3)}.\end{aligned}
+
 
 
 $$
@@ -177,7 +191,9 @@ The $y$-coordinate of the hole is given by
 $$
 
 
+
 \begin{aligned}𝐹(1) & =\frac{4(1+1)}{(1+3)(1−3)} \\ & =\frac{8}{−8} \\ & =−1.\end{aligned}
+
 
 
 $$

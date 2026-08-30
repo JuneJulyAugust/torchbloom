@@ -18,7 +18,9 @@ Given any vector $\mathbf a$, we can create a unit vector $\mathbf u$ by dividin
 $$
 
 
+
 \mathbf{u} = \dfrac{ \mathbf{a} }{ |\,\mathbf{a}\,| }
+
 
 
 $$
@@ -28,7 +30,9 @@ For example, if $|\,\mathbf{a}\,|=2,$ then the unit vector is
 $$
 
 
+
 \mathbf{u} = \dfrac{\mathbf{a}}{2} = \dfrac{1}{2} \mathbf{a}.
+
 
 
 $$
@@ -48,7 +52,9 @@ To obtain the unit vector that is parallel to $\mathbf{a},$ we divide $\mathbf{a
 $$
 
 
+
 \mathbf{u}=\dfrac{\mathbf{a}}{|\,\mathbf{a}\,|}=\dfrac{1}{3}\mathbf{a}
+
 
 
 $$
@@ -70,7 +76,9 @@ In $\bigtriangleup AHB$ we have $\angle AHB = 90^\circ$, $AH=3$ and $BH=2$. So, 
 $$
 
 
+
 \begin{aligned}𝐴𝐵 & =\sqrt{√𝐴𝐻^{2}+𝐵𝐻^{2}} \\ & =\sqrt{√3^{2}+2^{2}} \\ & =\sqrt{√9+4} \\ & =\sqrt{√13}.\end{aligned}
+
 
 
 $$
@@ -80,7 +88,9 @@ Hence, the magnitude of $\mathbf{a}$ is $\sqrt{13}$. Consequently, the unit vect
 $$
 
 
+
 \begin{aligned}𝐮 & =\frac{1}{|\,𝐚\,|}⋅𝐚 \\ & =\frac{1}{\sqrt{√13}}𝐚\end{aligned}
+
 
 
 $$
@@ -102,7 +112,9 @@ To find the unit vector corresponding to $\mathbf{a+b},$ we have to divide by th
 $$
 
 
+
 \begin{aligned}𝐮 & =\frac{𝐚+𝐛}{|𝐚+𝐛|}\end{aligned}
+
 
 
 $$
@@ -112,7 +124,9 @@ To find the magnitude, first notice that we obtain a right triangle. So, we can 
 $$
 
 
+
 \begin{aligned}|𝐚+𝐛|^{2} & =|𝐚|^{2}+|𝐛|^{2} \\ & =10^{2}+20^{2} \\ & =100+400 \\ & =500\end{aligned}
+
 
 
 $$
@@ -122,7 +136,9 @@ Therefore, the magnitude is
 $$
 
 
+
 |\mathbf{a+b}|=\sqrt{500}=10\sqrt{5},
+
 
 
 $$
@@ -132,7 +148,9 @@ and the corresponding unit vector is
 $$
 
 
+
 \begin{aligned}𝐮 & =\frac{𝐚+𝐛}{|𝐚+𝐛|} \\ & =\frac{1}{10\sqrt{√5}}(𝐚+𝐛).\end{aligned}
+
 
 
 $$

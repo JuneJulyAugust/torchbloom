@@ -21,7 +21,9 @@ Let's define a linear transformation $\mathbf R$ by its standard matrix $R,$ giv
 $$
 
 
+
 [\begin{aligned}cos⁡30^{∘} & −sin⁡30^{∘} \\ sin⁡30^{∘} & cos⁡30^{∘}\end{aligned}]
+
 
 
 $$
@@ -31,7 +33,9 @@ We can find the images of $\{\mathbf{i},\mathbf{j} \}$ under $\mathbf{R}$ by com
 $$
 
 
+
 \begin{aligned}𝐢^{′} & =𝐑(𝐢)=[\begin{aligned}cos⁡30^{∘} & −sin⁡30^{∘} \\ sin⁡30^{∘} & cos⁡30^{∘}\end{aligned}][\begin{aligned}1 \\ 0\end{aligned}]=[\begin{aligned}cos⁡30^{∘} \\ sin⁡30^{∘}\end{aligned}] \\ 𝐣^{′} & =𝐑(𝐣)=[\begin{aligned}cos⁡30^{∘} & −sin⁡30^{∘} \\ sin⁡30^{∘} & cos⁡30^{∘}\end{aligned}][\begin{aligned}0 \\ 1\end{aligned}]=[\begin{aligned}−sin⁡30^{∘} \\ cos⁡30^{∘}\end{aligned}]\end{aligned}
+
 
 
 $$
@@ -51,7 +55,9 @@ The matrix $R_\theta,$ given by
 $$
 
 
+
 [\begin{aligned}cos⁡𝜃 & −sin⁡𝜃 \\ sin⁡𝜃 & cos⁡𝜃\end{aligned}]
+
 
 
 $$
@@ -63,7 +69,9 @@ To find the matrix representing a rotation by an angle $\theta$ *clockwise* abou
 $$
 
 
+
 [\begin{aligned}cos⁡(−𝜃) & −sin⁡(−𝜃) \\ sin⁡(−𝜃) & cos⁡(−𝜃)\end{aligned}]
+
 
 
 $$
@@ -81,7 +89,9 @@ A rotation of $135^{\circ}$ counterclockwise about the origin is represented by 
 $$
 
 
+
 [\begin{aligned}cos⁡(135^{∘}) & −sin⁡(135^{∘}) \\ sin⁡(135^{∘}) & cos⁡(135^{∘})\end{aligned}]
+
 
 
 $$
@@ -91,7 +101,9 @@ To find the image $\mathbf{v}'$ under the action of the matrix $R_{135^{\circ}}$
 $$
 
 
+
 \begin{aligned}𝐯^{′} & =𝑅_{135^{∘}}⋅𝐯 \\ & =\begin{aligned}−\frac{1}{\sqrt{√2}} & −\frac{1}{\sqrt{√2}} \\ \frac{1}{\sqrt{√2}} & −\frac{1}{\sqrt{√2}}\end{aligned}[\begin{aligned}−5 \\ 4\end{aligned}] \\ & =\begin{aligned}\frac{1}{\sqrt{√2}} \\ −\frac{9}{\sqrt{√2}}\end{aligned}\end{aligned}
+
 
 
 $$
@@ -107,7 +119,9 @@ What is the geometrical interpretation of the transformation represented by the 
 $$
 
 
+
 \begin{aligned}−\frac{1}{\sqrt{√2}} & −\frac{1}{\sqrt{√2}} \\ \frac{1}{\sqrt{√2}} & −\frac{1}{\sqrt{√2}}\end{aligned}
+
 
 
 $$
@@ -119,7 +133,9 @@ The rotation matrix $R_\theta$ represents a rotation of angle $\theta$ countercl
 $$
 
 
+
 [\begin{aligned}cos⁡𝜃 & −sin⁡𝜃 \\ sin⁡𝜃 & cos⁡𝜃\end{aligned}]
+
 
 
 $$
@@ -129,7 +145,9 @@ Comparing $A$ with the rotation matrix, we have
 $$
 
 
+
 \begin{aligned}sin⁡𝜃=\frac{1}{\sqrt{√2}} \\ cos⁡𝜃=−\frac{1}{\sqrt{√2}}.\end{aligned}
+
 
 
 $$
@@ -141,7 +159,9 @@ Dividing the first equation by the second gives
 $$
 
 
+
 \tan \theta = -1.
+
 
 
 $$
@@ -151,7 +171,9 @@ The principal value $\theta_1$ is
 $$
 
 
+
 \theta_1 = \arctan (-1) = -\dfrac{\pi}{4},
+
 
 
 $$
@@ -161,7 +183,9 @@ but this is outside the range $\dfrac{\pi}{2} \leq \theta \leq \pi.$ To find a v
 $$
 
 
+
 \theta = \theta_1 + \pi = \dfrac{3\pi}{4}
+
 
 
 $$
@@ -173,7 +197,9 @@ Note that this is also equivalent to a ** rotation with an angle of rotation giv
 $$
 
 
+
 2\pi - \dfrac{3\pi}{4} = \dfrac{5\pi}{4}.
+
 
 
 $$
@@ -197,7 +223,9 @@ The rotation matrix $R_\theta$ represents a rotation of angle $\theta$ countercl
 $$
 
 
+
 [\begin{aligned}cos⁡𝜃 & −sin⁡𝜃 \\ sin⁡𝜃 & cos⁡𝜃\end{aligned}]
+
 
 
 $$
@@ -207,7 +235,9 @@ Substituting $\theta = \dfrac{\pi}{3}$ into the above, we have
 $$
 
 
+
 \begin{aligned}𝑅 & =\begin{aligned}cos⁡(\frac{𝜋}{3}) & −sin⁡(\frac{𝜋}{3}) \\ sin⁡(\frac{𝜋}{3}) & cos⁡(\frac{𝜋}{3})\end{aligned} \\ & =\begin{aligned}\frac{1}{2} & −\frac{\sqrt{√3}}{2} \\ \frac{\sqrt{√3}}{2} & \frac{1}{2}\end{aligned} \\ & =\frac{1}{2}[\begin{aligned}1 & −\sqrt{√3} \\ \sqrt{√3} & 1\end{aligned}].\end{aligned}
+
 
 
 $$
@@ -217,7 +247,9 @@ To find the image of $S$ under the transformation, we first create a matrix $X$ 
 $$
 
 
+
 [\begin{aligned}1 & 3 & 5 \\ 1 & 4 & 8\end{aligned}]
+
 
 
 $$
@@ -227,7 +259,9 @@ Now, we compute the image of $X$ under the rotation $\mathbf{R}$ by calculating 
 $$
 
 
+
 \begin{aligned}𝑅𝑋 & =\frac{1}{2}[\begin{aligned}1 & −\sqrt{√3} \\ \sqrt{√3} & 1\end{aligned}][\begin{aligned}1 & 3 & 5 \\ 1 & 4 & 8\end{aligned}] \\ & =\frac{1}{2}[\begin{aligned}1−\sqrt{√3} & 3−4\sqrt{√3} & 5−8\sqrt{√3} \\ 1+\sqrt{√3} & 4+3\sqrt{√3} & 8+5\sqrt{√3}\end{aligned}] \\ & =\begin{aligned}\frac{1−\sqrt{√3}}{2} & \frac{3−4\sqrt{√3}}{2} & \frac{5−8\sqrt{√3}}{2} \\ \frac{1+\sqrt{√3}}{2} & \frac{4+3\sqrt{√3}}{2} & \frac{8+5\sqrt{√3}}{2}\end{aligned}\end{aligned}
+
 
 
 $$
@@ -237,7 +271,9 @@ Therefore, the coordinates of the respective vertices of $S'$ are
 $$
 
 
+
 \left(\dfrac{1-\sqrt{3}}{2},\dfrac{1+\sqrt{3}}{2}\right), \quad \left(\dfrac{3-4\sqrt{3}}{2},\dfrac{4+3\sqrt{3}}{2}\right),\quad \left(\dfrac{5-8\sqrt{3}}{2},\dfrac{8+5\sqrt{3}}{2}\right).
+
 
 
 $$

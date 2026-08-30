@@ -34,7 +34,9 @@ Therefore, the probability $P$ that a randomly chosen point between $A$ and $B$ 
 $$
 
 
+
 \begin{aligned} P&=\dfrac{{CD}}{{AB}}=\dfrac{2}{5}=0.4. \end{aligned}
+
 
 
 $$
@@ -54,7 +56,9 @@ From the graph, the total length between $A$ and $B$ is
 $$
 
 
+
 {AB}=5-(-5)=10.
+
 
 
 $$
@@ -64,7 +68,9 @@ The length between $E$ and $F$ is
 $$
 
 
+
 {EF}=1-(-3)=4.
+
 
 
 $$
@@ -76,7 +82,9 @@ Therefore, the probability $P$ that a randomly chosen point between $A$ and $B$ 
 $$
 
 
+
 \begin{aligned} P&=\dfrac{{EF}}{{AB}}=\dfrac{4}{10}=0.4. \end{aligned}
+
 
 
 $$
@@ -94,7 +102,9 @@ In general, we can compute the desired probability $P$ as
 $$
 
 
+
 P = \dfrac{\textrm{area of the smaller region}}{\textrm{area of the sample space}}.
+
 
 
 $$
@@ -114,7 +124,9 @@ The total area of the circle is
 $$
 
 
+
 \mathcal{A}_{\textrm{total}}=\pi r^2,
+
 
 
 $$
@@ -126,7 +138,9 @@ The area of the shaded sector is given by
 $$
 
 
+
 \mathcal{A}_{\textrm{sector}}=\dfrac{40^{\circ}}{360^{\circ}}\,\pi r^2=\dfrac{1}{9}\,\pi r^2.
+
 
 
 $$
@@ -136,7 +150,9 @@ Therefore, the probability $P$ that the pointer will stop in the shaded sector i
 $$
 
 
+
 \begin{aligned}𝑃 & =\frac{A_{sector}}{A_{total}} \\ & =\frac{\frac{1}{9}𝜋𝑟^{2}}{9} \\ & =\frac{\frac{1}{9}\,𝜋𝑟^{2}}{9} \\ & =\frac{1}{9}.\end{aligned}
+
 
 
 $$
@@ -156,7 +172,9 @@ The area of the rectangle is
 $$
 
 
+
 \mathcal{A}_{\textrm{rectangle}} = 5 \cdot 20 = 100\,\textrm{in}^2.
+
 
 
 $$
@@ -166,7 +184,9 @@ On the other hand, the area of the triangle is
 $$
 
 
+
 \mathcal{A}_{\textrm{triangle}} = \dfrac{1}{2} \cdot 20 \cdot 5 = 50\,\textrm{in}^2.
+
 
 
 $$
@@ -176,7 +196,9 @@ Therefore, the probability of hitting the triangle is
 $$
 
 
+
 \begin{aligned}𝑃 & =\frac{A_{triangle}}{A_{rectangle}} \\ & =\frac{50}{100} \\ & =\frac{1}{2}.\end{aligned}
+
 
 
 $$
@@ -196,7 +218,9 @@ The area of the square is
 $$
 
 
+
 \mathcal{A}_{\textrm{square}} = 4^2 = 16.
+
 
 
 $$
@@ -206,7 +230,9 @@ The area of the circle is
 $$
 
 
+
 \mathcal{A}_{\textrm{circle}} = \pi \cdot 2^2 = 4\pi.
+
 
 
 $$
@@ -216,7 +242,9 @@ Therefore, the probability of hitting the circle is
 $$
 
 
+
 \begin{aligned}\frac{A_{circle}}{A_{square}}=\frac{4𝜋}{16}=\frac{𝜋}{4}.\end{aligned}
+
 
 
 $$
@@ -226,7 +254,9 @@ Finally, hitting the circle is the complement of missing the circle. As a result
 $$
 
 
+
 \begin{aligned}𝑃 & =1−\frac{A_{circle}}{A_{square}} \\ & =1−\frac{𝜋}{4} \\ & =\frac{4−𝜋}{4} \\ & ≈0.215\end{aligned}
+
 
 
 $$

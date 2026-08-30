@@ -27,7 +27,9 @@ The function has asymptotes when $x=0,\pm \pi, \pm 2\pi,\ldots,$ etc. Therefore,
 $$
 
 
+
 x = n\pi.
+
 
 
 $$
@@ -39,7 +41,9 @@ From the graph, we see that the function takes a value of $1$ when $x=\dfrac{\pi
 $$
 
 
+
 x = \dfrac{\pi}{2} + 2n\pi.
+
 
 
 $$
@@ -51,7 +55,9 @@ From the graph, we see that the function takes a value of $-1$ when $x=-\dfrac{\
 $$
 
 
+
 x = -\dfrac{\pi}{2} +2n\pi.
+
 
 
 $$
@@ -109,7 +115,9 @@ The period of $y = \csc x$ is $2\pi.$ Therefore, for integer $n$ we have
 $$
 
 
+
 \csc{x} = \csc{(x+2n\pi)} .
+
 
 
 $$
@@ -119,7 +127,9 @@ Substituting $n=-4$ into the right-hand-side of the above gives
 $$
 
 
+
 \begin{aligned}csc⁡𝑥 & =csc⁡(𝑥+2⋅(−4)⋅𝜋) \\ & =csc⁡(𝑥−8𝜋).\end{aligned}
+
 
 
 $$
@@ -133,7 +143,9 @@ Recall that a function $f(x)$ is *odd* if it satisfies the property
 $$
 
 
+
 f(-x) = -f(x).
+
 
 
 $$
@@ -143,7 +155,9 @@ As it turns out, cosecant is an odd function! So, for any value of $x,$ we have
 $$
 
 
+
 \csc(-x) = -\csc(x).
+
 
 
 $$

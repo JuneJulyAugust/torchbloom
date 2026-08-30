@@ -19,7 +19,9 @@ Suppose we want to find all of the solutions to the equation
 $$
 
 
+
 \sin{x}\cos{x}-\dfrac{1}{2}\sin{x} = 0, \qquad 0^\circ \leq x \leq 180^\circ.
+
 
 
 $$
@@ -29,7 +31,9 @@ First, we factor the equation:
 $$
 
 
+
 \begin{aligned}sin⁡𝑥cos⁡𝑥−\frac{1}{2}sin⁡𝑥 & =0 \\ sin⁡𝑥(cos⁡𝑥−\frac{1}{2}) & =0\end{aligned}
+
 
 
 $$
@@ -39,7 +43,9 @@ We can now apply the zero product rule, which states that $ab=0$ if and only if 
 $$
 
 
+
 \sin{x} = 0 \quad \textrm{and} \quad \cos{x}-\dfrac12=0.
+
 
 
 $$
@@ -55,7 +61,9 @@ Combining all the solutions from both equations, the solutions of the original e
 $$
 
 
+
 x_1 = 0^\circ,\quad x_2 = 60^\circ,\quad x_3 = 180^\circ.
+
 
 
 $$
@@ -75,7 +83,9 @@ First, we factor the equation:
 $$
 
 
+
 \begin{aligned}\sqrt{√3}sin⁡𝜃tan⁡𝜃−sin⁡𝜃 & =0 \\ sin⁡𝜃(\sqrt{√3}tan⁡𝜃−1) & =0\end{aligned}
+
 
 
 $$
@@ -85,7 +95,9 @@ By the zero-product property, we have to solve two equations:
 $$
 
 
+
 \sin{\theta } = 0, \qquad \sqrt{3}\tan{\theta } - 1 =0.
+
 
 
 $$
@@ -101,7 +113,9 @@ Combining all solutions from both equations, we get
 $$
 
 
+
 \theta_1 = 0^\circ, \quad \theta_2= 30^\circ, \quad \theta_3=180^\circ, \quad \theta_4= 210^\circ.
+
 
 
 $$
@@ -111,7 +125,9 @@ Finally,
 $$
 
 
+
 \theta_2\cdot \theta_3 =30 \cdot 180 = 5\,400.
+
 
 
 $$
@@ -129,7 +145,9 @@ First, we factor the equation:
 $$
 
 
+
 \begin{aligned}\sqrt{√2}sin⁡𝑥cos⁡𝑥 & =−sin⁡𝑥 \\ \sqrt{√2}sin⁡𝑥cos⁡𝑥+sin⁡𝑥 & =0 \\ sin⁡𝑥(\sqrt{√2}cos⁡𝑥+1) & =0\end{aligned}
+
 
 
 $$
@@ -139,7 +157,9 @@ By the zero-product property, we have to solve two equations:
 $$
 
 
+
 \sin{x} = 0, \qquad \sqrt{2} \cos{x} + 1 =0.
+
 
 
 $$
@@ -155,7 +175,9 @@ Combining all solutions from both equations, we get
 $$
 
 
+
 x_1 = 0,\quad x_2=\dfrac{3\pi}{4},\quad x_3= \pi.
+
 
 
 $$
@@ -165,7 +187,9 @@ Finally,
 $$
 
 
+
 x_2\cdot x_3 = \dfrac{3\pi}{4} \cdot \pi=\dfrac{3\pi^2}{4}.
+
 
 
 $$
@@ -179,7 +203,9 @@ For example, suppose we want to find all of the solutions to the equation
 $$
 
 
+
 (\sec x -1)(2\sin x +1)= 0, \qquad -\pi \leq x < \pi.
+
 
 
 $$
@@ -191,7 +217,9 @@ The equation is already factored, so by the zero-product property, we have to so
 $$
 
 
+
 \sec{x} -1 =0, \qquad 2\sin{x} + 1 = 0.
+
 
 
 $$
@@ -207,7 +235,9 @@ Combining all the solutions from both equations, the solutions to the original e
 $$
 
 
+
 x_1 = - \dfrac{5\pi}{6},\quad x_2 = - \dfrac{\pi}{6},\quad x_3 = 0.
+
 
 
 $$
@@ -229,7 +259,9 @@ First, we factor the equation:
 $$
 
 
+
 \begin{aligned}csc⁡𝑥tan⁡𝑥 & =tan⁡𝑥 \\ csc⁡𝑥tan⁡𝑥−tan⁡𝑥 & =0 \\ (csc⁡𝑥−1)tan⁡𝑥 & =0\end{aligned}
+
 
 
 $$
@@ -239,7 +271,9 @@ Therefore, by the zero-product property, we have to solve two equations:
 $$
 
 
+
 \csc{x} - 1 = 0, \qquad \tan{x} = 0
+
 
 
 $$
@@ -267,7 +301,9 @@ At the intersection points, the $y$ values of both graphs are the same. This giv
 $$
 
 
+
 2\sin{x}\cos{x} = \cos{x}.
+
 
 
 $$
@@ -277,7 +313,9 @@ First, we factor the equation:
 $$
 
 
+
 \begin{aligned}2cos⁡𝑥sin⁡𝑥−cos⁡𝑥 & =0 \\ cos⁡𝑥(2sin⁡𝑥−1) & =0\end{aligned}
+
 
 
 $$
@@ -287,7 +325,9 @@ By the zero-product property, we have to solve two equations:
 $$
 
 
+
 \cos{x} = 0, \qquad 2\sin{x} - 1 = 0
+
 
 
 $$
@@ -303,7 +343,9 @@ Combining all solutions from both equations, we get
 $$
 
 
+
 x_1=30^\circ, \quad x_2=90^\circ,\quad x_3=150^\circ, \quad x_4 = 270^\circ.
+
 
 
 $$

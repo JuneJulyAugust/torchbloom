@@ -21,7 +21,9 @@ To find the coordinates of the $x$-intercepts of a hyperbola, we substitute $y=0
 $$
 
 
+
 \begin{aligned}\frac{𝑥^{2}}{9}−\frac{0^{2}}{25} & =1 \\ \frac{𝑥^{2}}{9} & =1 \\ 𝑥^{2} & =9 \\ 𝑥 & =±3\end{aligned}
+
 
 
 $$
@@ -41,7 +43,9 @@ To find the $x$-intercepts of the hyperbola, we substitute $y=0$ into the equati
 $$
 
 
+
 \begin{aligned}\frac{(𝑥+1)^{2}}{10}−\frac{𝑦^{2}}{25} & =1 \\ \frac{(𝑥+1)^{2}}{10}−\frac{0^{2}}{25} & =1 \\ \frac{(𝑥+1)^{2}}{10} & =1 \\ (𝑥+1)^{2} & =10 \\ 𝑥+1 & =±\sqrt{√10} \\ 𝑥 & =−1±\sqrt{√10}\end{aligned}
+
 
 
 $$
@@ -61,7 +65,9 @@ To find the $y$-intercepts of the hyperbola, we substitute $x=0$ into the equati
 $$
 
 
+
 \begin{aligned}7𝑦^{2}−5𝑥^{2} & =28 \\ 7𝑦^{2}−5(0)^{2} & =28 \\ 7𝑦^{2} & =28 \\ 𝑦^{2} & =4 \\ 𝑦 & =±2\end{aligned}
+
 
 
 $$
@@ -79,7 +85,9 @@ To find the points where the hyperbola intersects the line, we substitute the eq
 $$
 
 
+
 \begin{aligned}\frac{𝑥^{2}}{9}−\frac{𝑦^{2}}{3} & =1 \\ \frac{6^{2}}{9}−\frac{𝑦^{2}}{3} & =1 \\ \frac{36}{9}−\frac{𝑦^{2}}{3} & =1 \\ 4−\frac{𝑦^{2}}{3} & =1 \\ \frac{𝑦^{2}}{3} & =4−1 \\ \frac{𝑦^{2}}{3} & =3 \\ 𝑦^{2} & =9 \\ 𝑦 & =±3\end{aligned}
+
 
 
 $$
@@ -99,7 +107,9 @@ To find the points where the hyperbola intersects the line $y=-3,$ we substitute
 $$
 
 
+
 \begin{aligned}\frac{𝑥^{2}}{10}−\frac{𝑦^{2}}{15} & =1 \\ \frac{𝑥^{2}}{10}−\frac{(−3)^{2}}{15} & =1 \\ \frac{𝑥^{2}}{10}−\frac{9}{15} & =1 \\ \frac{𝑥^{2}}{10}−\frac{3}{5} & =1 \\ 𝑥^{2}−6 & =10 \\ 𝑥^{2} & =16 \\ 𝑥 & =±4\end{aligned}
+
 
 
 $$
@@ -121,7 +131,9 @@ To find the points where the hyperbola intersects the line $y=x,$ we first repla
 $$
 
 
+
 \begin{aligned}\frac{𝑥^{2}}{9}−\frac{𝑦^{2}}{25} & =1 \\ \frac{𝑥^{2}}{9}−\frac{𝑥^{2}}{25} & =1 \\ \frac{16𝑥^{2}}{225} & =1 \\ 𝑥^{2} & =\frac{225}{16} \\ 𝑥 & =±\frac{15}{4}\end{aligned}
+
 
 
 $$

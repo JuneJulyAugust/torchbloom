@@ -84,7 +84,9 @@ So, we have
 $$
 
 
+
 P\left(A'\cap B\right)=\dfrac{7}{30}.
+
 
 
 $$
@@ -118,7 +120,9 @@ The total number of students who volunteered for percussion or wind instruments 
 $$
 
 
+
 3 + 17 + 12 = 32,
+
 
 
 $$
@@ -128,7 +132,9 @@ and there are $35$ students in total, so the number of remaining students is
 $$
 
 
+
 35 - 32 = 3.
+
 
 
 $$
@@ -144,7 +150,9 @@ The shaded part of the Venn diagram corresponds to students who volunteered neit
 $$
 
 
+
 P(A'\cap B')=\dfrac{3}{35} \approx 0.09,
+
 
 
 $$

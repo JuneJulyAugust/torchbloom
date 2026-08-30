@@ -20,7 +20,9 @@ For example, consider the function $f(x) = \dfrac{x-3}{x^2-25}.$ Factoring the n
 $$
 
 
+
 f(x) = \dfrac{x-3}{(x+5)(x-5)}.
+
 
 
 $$
@@ -30,7 +32,9 @@ There are no common factors to cancel, so we set the numerator equal to zero and
 $$
 
 
+
 \begin{aligned}𝑥−3 & =0 \\ 𝑥 & =3\end{aligned}
+
 
 
 $$
@@ -50,7 +54,9 @@ First, we factor $f(x),$ as follows:
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =\frac{2𝑥+1}{𝑥^{2}+𝑥−6} \\ & =\frac{2𝑥+1}{(𝑥+3)(𝑥−2)}\end{aligned}
+
 
 
 $$
@@ -60,7 +66,9 @@ There are no common factors in the numerator and denominator, so we set the nume
 $$
 
 
+
 \begin{aligned}2𝑥+1 & =0 \\ 2𝑥 & =−1 \\ 𝑥 & =−\frac{1}{2}\end{aligned}
+
 
 
 $$
@@ -80,7 +88,9 @@ First, we factor $f(x),$ as follows:
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =\frac{𝑥^{2}−4𝑥}{𝑥^{2}+5𝑥+6} \\ & =\frac{𝑥(𝑥−4)}{(𝑥+2)(𝑥+3)}\end{aligned}
+
 
 
 $$
@@ -90,7 +100,9 @@ There are no common factors in the numerator and denominator, so we set the nume
 $$
 
 
+
 \begin{aligned}𝑥(𝑥−4) & =0 \\ 𝑥 & =0,4\end{aligned}
+
 
 
 $$
@@ -110,7 +122,9 @@ First, we factor the numerator and denominator and cancel any common factors, as
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =\frac{𝑥+1}{𝑥^{2}−𝑥−2} \\ & =\frac{𝑥+1}{(𝑥+1)(𝑥−2)} \\ & =\frac{(𝑥+1)}{(𝑥+1)(𝑥−2)} \\ & =\frac{1}{𝑥−2}\end{aligned}
+
 
 
 $$
@@ -130,7 +144,9 @@ First, we factor the numerator and denominator and cancel any common factors, as
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =\frac{𝑥^{3}−2𝑥^{2}−9𝑥+18}{𝑥^{2}−𝑥−2} \\ & =\frac{𝑥^{2}(𝑥−2)−9(𝑥−2)}{(𝑥−2)(𝑥+1)} \\ & =\frac{(𝑥−2)(𝑥^{2}−9)}{(𝑥−2)(𝑥+1)} \\ & =\frac{(𝑥−2)(𝑥−3)(𝑥+3)}{(𝑥−2)(𝑥+1)} \\ & =\frac{(𝑥−2)(𝑥−3)(𝑥+3)}{(𝑥−2)(𝑥+1)} \\ & =\frac{(𝑥−3)(𝑥+3)}{𝑥+1}\end{aligned}
+
 
 
 $$
@@ -140,7 +156,9 @@ Setting the numerator equal to zero and solving for $x$ gives
 $$
 
 
+
 (x-3)(x+3) = 0 \quad\Longrightarrow\quad x = \pm3.
+
 
 
 $$

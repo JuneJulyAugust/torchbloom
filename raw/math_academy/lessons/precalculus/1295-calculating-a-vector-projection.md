@@ -26,7 +26,9 @@ The vector $\overrightarrow{OP}$ is called the **vector projection** of $\mathbf
 $$
 
 
+
 \begin{aligned}proj_{𝐛}\,𝐚 & =𝑂𝑃⋅𝐮 \\ & =comp_{𝐛}\,𝐚⋅𝐮\end{aligned}
+
 
 
 $$
@@ -38,7 +40,9 @@ First, we compute the scalar projection:
 $$
 
 
+
 \begin{aligned}comp_{𝐛}\,𝐚 & =|\,𝐚\,|cos⁡𝜃 \\ & =2cos⁡(\frac{𝜋}{4}) \\ & =\sqrt{√2}\end{aligned}
+
 
 
 $$
@@ -48,7 +52,9 @@ Then, we compute the unit vector that is parallel to $\mathbf{b}\mathbin{:}$
 $$
 
 
+
 \mathbf{u} = \dfrac{\mathbf{b}}{|\,\mathbf{b}\,|} = \dfrac{\mathbf{b}}{3} = \dfrac{1}{3} \mathbf{b}
+
 
 
 $$
@@ -58,7 +64,9 @@ Therefore, the vector projection of $\mathbf{a}$ onto $\mathbf{b}$ is
 $$
 
 
+
 \begin{aligned}proj_{𝐛}\,𝐚 & =comp_{𝐛}\,𝐚⋅𝐮 \\ & =\sqrt{√2}⋅\frac{1}{3}𝐛 \\ & =\frac{\sqrt{√2}}{3}𝐛.\end{aligned}
+
 
 
 $$
@@ -74,7 +82,9 @@ Consider two vectors $\mathbf{a}$ and $\mathbf{b},$ where it is known that
 $$
 
 
+
 |\,\mathbf{a}\,|=2,\qquad |\,\mathbf{b}\,|=3,\qquad \theta = 135^\circ.
+
 
 
 $$
@@ -88,7 +98,9 @@ Next, we compute the scalar projection:
 $$
 
 
+
 \begin{aligned}comp_{𝐛}\,𝐚 & =|\,𝐚\,|cos⁡𝜃 \\ & =2cos⁡(135^{∘}) \\ & =2⋅(−\frac{\sqrt{√2}}{2}) \\ & =−\sqrt{√2}\end{aligned}
+
 
 
 $$
@@ -100,7 +112,9 @@ Then, we find the unit vector that is parallel to $\mathbf{b}\mathbin{:}$
 $$
 
 
+
 \mathbf{u} = \dfrac{\mathbf{b}}{|\,\mathbf{b}\,|} = \dfrac{\mathbf{b}}{3} = \dfrac{1}{3} \mathbf{b}
+
 
 
 $$
@@ -110,7 +124,9 @@ Therefore, the vector projection of $\mathbf{a}$ onto $\mathbf{b}$ is
 $$
 
 
+
 \begin{aligned}proj_{𝐛}\,𝐚 & =comp_{𝐛}\,𝐚⋅𝐮 \\ & =−\sqrt{√2}⋅\frac{1}{3}𝐛 \\ & =−\frac{\sqrt{√2}}{3}𝐛.\end{aligned}
+
 
 
 $$
@@ -130,7 +146,9 @@ First, we find the scalar projection as follows:
 $$
 
 
+
 \begin{aligned}comp_{𝐛}\,𝐚 & =|\,𝐚\,|cos⁡𝜃 \\ & =8cos⁡(\frac{5𝜋}{6}) \\ & =8⋅(−\frac{\sqrt{√3}}{2}) \\ & =−4\sqrt{√3}\end{aligned}
+
 
 
 $$
@@ -140,7 +158,9 @@ Now, we find the unit vector that is parallel to $\mathbf{b}\mathbin{:}$
 $$
 
 
+
 \mathbf{u} = \dfrac{\mathbf{b}}{|\,\mathbf{b}\,|} = \dfrac{\mathbf{b}}{4} = \dfrac{1}{4} \mathbf{b}
+
 
 
 $$
@@ -150,7 +170,9 @@ Finally, we compute the vector projection as follows:
 $$
 
 
+
 \begin{aligned}proj_{𝐛}\,𝐚 & =comp_{𝐛}\,𝐚⋅𝐮 \\ & =−4\sqrt{√3}⋅\frac{1}{4}𝐛 \\ & =−\sqrt{√3}𝐛\end{aligned}
+
 
 
 $$
@@ -162,7 +184,9 @@ We have been using the following formula for the vector projection of $\mathbf{a
 $$
 
 
+
 \text{proj}_{\mathbf{b}}\,\mathbf{a} =\text{comp}_{\mathbf{b}}\,\mathbf{a} \cdot \mathbf{u}
+
 
 
 $$
@@ -172,7 +196,9 @@ However, we can write an alternative formula using the formula for the scalar pr
 $$
 
 
+
 \begin{aligned}comp_{𝐛}\,𝐚 & =\frac{𝐚⋅𝐛}{|\,𝐛\,|}.\end{aligned}
+
 
 
 $$
@@ -182,7 +208,9 @@ Substituting the above into the original formula for the vector projection, and 
 $$
 
 
+
 \begin{aligned}proj_{𝐛}\,𝐚 & =\frac{𝐚⋅𝐛}{|\,𝐛\,|}⋅\frac{𝐛}{|\,𝐛\,|} \\ & =\frac{𝐚⋅𝐛}{|\,𝐛\,|^{2}}𝐛 \\ & =\frac{𝐚⋅𝐛}{𝐛⋅𝐛}𝐛.\end{aligned}
+
 
 
 $$
@@ -192,7 +220,9 @@ Therefore, another general formula for the vector projection of $\mathbf{a}$ ont
 $$
 
 
+
 \begin{aligned}proj_{𝐛}\,𝐚 & =\frac{𝐚⋅𝐛}{𝐛⋅𝐛}𝐛.\end{aligned}
+
 
 
 $$
@@ -210,7 +240,9 @@ Using the formula for the vector projection, we obtain
 $$
 
 
+
 \begin{aligned}proj_{𝐛}\,𝐚 & =\frac{𝐚⋅𝐛}{𝐛⋅𝐛}𝐛 \\ & =\frac{𝑎_{𝑥}𝑏_{𝑥}+𝑎_{𝑦}𝑏_{𝑦}+𝑎_{𝑧}𝑏_{𝑧}}{𝑏_{2𝑥}^{}+𝑏_{2𝑦}^{}+𝑏_{2𝑧}^{}}𝐛 \\ & =\frac{1⋅5+(−3)⋅(−4)+5⋅0}{5^{2}+(−4)^{2}+0^{2}}𝐛 \\ & =\frac{17}{41}⟨5,−4,0⟩ \\ & =⟨\frac{85}{41},−\frac{68}{41},0⟩.\end{aligned}
+
 
 
 $$
@@ -240,7 +272,9 @@ Using the formula for the vector projection, we obtain
 $$
 
 
+
 \begin{aligned}proj_{𝐛}\,𝐚 & =\frac{𝐚⋅𝐛}{𝐛⋅𝐛}𝐛 \\ & =\frac{𝑎_{𝑥}𝑏_{𝑥}+𝑎_{𝑦}𝑏_{𝑦}+𝑎_{𝑧}𝑏_{𝑧}}{𝑏_{2𝑥}^{}+𝑏_{2𝑦}^{}+𝑏_{2𝑧}^{}}𝐛 \\ & =\frac{1⋅1+0⋅5+1⋅(−1)}{1^{2}+5^{2}+(−1)^{2}}𝐛 \\ & =\frac{0}{1^{2}+5^{2}+(−1)^{2}}𝐛 \\ & =⟨0,0,0⟩.\end{aligned}
+
 
 
 $$

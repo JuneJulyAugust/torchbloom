@@ -26,7 +26,9 @@ If the $3\times 3$ matrix $A$ is invertible, then we can find a solution to the 
 $$
 
 
+
 \begin{aligned}𝐴𝐱 & =𝐛 \\ 𝐴^{−1}𝐴𝐱 & =𝐴^{−1}𝐛 \\ 𝐼_{3}𝐱 & =𝐴^{−1}𝐛 \\ 𝐱 & =𝐴^{−1}𝐛\end{aligned}
+
 
 
 $$
@@ -44,7 +46,9 @@ Consider the following system of linear equations:
 $$
 
 
+
 \begin{aligned}−2𝑥+5𝑦−2𝑧=−2 \\ −3𝑦+𝑧=−2 \\ 3𝑥−7𝑦+3𝑧=3\end{aligned}
+
 
 
 $$
@@ -56,7 +60,9 @@ The system above has the matrix representation $A \mathbf{x} = \mathbf{b}.$ Give
 $$
 
 
+
 \begin{aligned}−2 & −1 & −1 \\ 3 & 0 & 2 \\ 9 & 1 & 6\end{aligned}
+
 
 
 $$
@@ -68,7 +74,9 @@ First, let's write our system in matrix form as follows:
 $$
 
 
+
 \begin{aligned}𝐴𝐱 & =𝐛 \\ \begin{aligned}−2 & 5 & −2 \\ 0 & −3 & 1 \\ 3 & −7 & 3\end{aligned}\begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned} & =\begin{aligned}−2 \\ −2 \\ 3\end{aligned}\end{aligned}
+
 
 
 $$
@@ -80,7 +88,9 @@ Therefore, we obtain
 $$
 
 
+
 \begin{aligned}𝐱 & =𝐴^{−1}𝐛 \\ & =\begin{aligned}−2 & −1 & −1 \\ 3 & 0 & 2 \\ 9 & 1 & 6\end{aligned}\begin{aligned}−2 \\ −2 \\ 3\end{aligned} \\ & =\begin{aligned}3 \\ 0 \\ −2\end{aligned}.\end{aligned}
+
 
 
 $$
@@ -98,7 +108,9 @@ Solve the following system of linear equations using matrices:
 $$
 
 
+
 \begin{aligned}\begin{aligned}3𝑦+𝑥+𝑧=0 \\ 𝑧+4𝑦−5=2 \\ 1+2𝑥−𝑦=−3\end{aligned}\end{aligned}
+
 
 
 $$
@@ -110,7 +122,9 @@ First, we organize the system so that the variables are in the correct order and
 $$
 
 
+
 \begin{aligned}\begin{aligned}𝑥+3𝑦+𝑧=0 \\ 0𝑥+4𝑦+𝑧=7 \\ 2𝑥−𝑦+0𝑧=−4\end{aligned}\end{aligned}
+
 
 
 $$
@@ -120,7 +134,9 @@ Next, we write the system in the form $A\mathbf{x} = \mathbf{b}$, where $A$ is a
 $$
 
 
+
 \begin{aligned}1 & 3 & 1 \\ 0 & 4 & 1 \\ 2 & −1 & 0\end{aligned}
+
 
 
 $$
@@ -132,7 +148,9 @@ Now, the solution to $A\mathbf{x}=\mathbf{b}$ is given by $\mathbf{x}= A^{-1}\ma
 $$
 
 
+
 \begin{aligned}det(𝐴)=\begin{aligned}1 & 3 & 1 \\ 0 & 4 & 1 \\ 2 & −1 & 0\end{aligned} & =1\begin{aligned}4 & 1 \\ −1 & 0\end{aligned}−3\begin{aligned}0 & 1 \\ 2 & 0\end{aligned}+1\begin{aligned}0 & 4 \\ 2 & −1\end{aligned} \\ & =(1)−3(−2)+(−8) \\ & =1+6−8 \\ & =−1\end{aligned}
+
 
 
 $$
@@ -142,7 +160,9 @@ $$
 $$
 
 
+
 \begin{aligned}𝑀 & =\begin{aligned}\begin{aligned}4 & 1 \\ −1 & 0\end{aligned} & \begin{aligned}0 & 1 \\ 2 & 0\end{aligned} & \begin{aligned}0 & 4 \\ 2 & −1\end{aligned} \\ \begin{aligned}3 & 1 \\ −1 & 0\end{aligned} & \begin{aligned}1 & 1 \\ 2 & 0\end{aligned} & \begin{aligned}1 & 3 \\ 2 & −1\end{aligned} \\ \begin{aligned}3 & 1 \\ 4 & 1\end{aligned} & \begin{aligned}1 & 1 \\ 0 & 1\end{aligned} & \begin{aligned}1 & 3 \\ 0 & 4\end{aligned}\end{aligned} \\ & =\begin{aligned}1 & −2 & −8 \\ 1 & −2 & −7 \\ −1 & 1 & 4\end{aligned}\end{aligned}
+
 
 
 $$
@@ -152,7 +172,9 @@ $$
 $$
 
 
+
 \begin{aligned}1 & 2 & −8 \\ −1 & −2 & 7 \\ −1 & −1 & 4\end{aligned}
+
 
 
 $$
@@ -162,7 +184,9 @@ $$
 $$
 
 
+
 \begin{aligned}1 & −1 & −1 \\ 2 & −2 & −1 \\ −8 & 7 & 4\end{aligned}
+
 
 
 $$
@@ -172,7 +196,9 @@ $$
 $$
 
 
+
 \begin{aligned}1 & −1 & −1 \\ 2 & −2 & −1 \\ −8 & 7 & 4\end{aligned}
+
 
 
 $$
@@ -182,7 +208,9 @@ Finally, we can calculate the solution as follows:
 $$
 
 
+
 \begin{aligned}𝐱 & =𝐴^{−1}𝐛 \\ & =\begin{aligned}−1 & 1 & 1 \\ −2 & 2 & 1 \\ 8 & −7 & −4\end{aligned}\begin{aligned}0 \\ 7 \\ −4\end{aligned} \\ & =\begin{aligned}3 \\ 10 \\ −33\end{aligned}\end{aligned}
+
 
 
 $$
@@ -202,7 +230,9 @@ Since $B$ is not singular, it must have an inverse $B^{−1}.$ Now, pre-multiply
 $$
 
 
+
 \begin{aligned}𝐵\,𝐱 & =𝐴^{−1}\,𝐝 \\ 𝐵^{−1}𝐵\,𝐱 & =𝐵^{−1}𝐴^{−1}\,𝐝 \\ 𝐼_{10}\,𝐱 & =𝐵^{−1}𝐴^{−1}\,𝐝 \\ 𝐱 & =𝐵^{−1}𝐴^{−1}\,𝐝.\end{aligned}
+
 
 
 $$

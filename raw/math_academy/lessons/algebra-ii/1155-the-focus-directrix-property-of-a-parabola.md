@@ -25,7 +25,9 @@ The focus-directrix property states that for any point $P(x,y)$ on a parabola, t
 $$
 
 
+
 |PF| = |PD|.
+
 
 
 $$
@@ -37,7 +39,9 @@ First, we find $|PF|^2$ using the distance formula.
 $$
 
 
+
 \begin{aligned}|𝑃𝐹|^{2} & =(𝑥−\frac{1}{2})^{2}+(𝑦−0)^{2} \\ & =(𝑥−\frac{1}{2})^{2}+𝑦^{2}\end{aligned}
+
 
 
 $$
@@ -47,7 +51,9 @@ Then, we determine $|PD|^2$:
 $$
 
 
+
 \begin{aligned}|𝑃𝐷|^{2} & =(𝑥−(−\frac{1}{2}))^{2} \\ & =(𝑥+\frac{1}{2})^{2}.\end{aligned}
+
 
 
 $$
@@ -57,7 +63,9 @@ Using the focus-directrix property, we have $|PF| = |PD|$. Hence,
 $$
 
 
+
 \begin{aligned}|𝑃𝐹|^{2} & =|𝑃𝐷|^{2} \\ (𝑥−\frac{1}{2})^{2}+𝑦^{2} & =(𝑥+\frac{1}{2})^{2} \\ 𝑥^{2}−𝑥+\frac{1}{4}+𝑦^{2} & =𝑥^{2}+𝑥+\frac{1}{4} \\ 𝑦^{2} & =2𝑥.\end{aligned}
+
 
 
 $$
@@ -79,7 +87,9 @@ The focus-directrix property states that any parabola can be defined as the set 
 $$
 
 
+
 |PF| = |PD|.
+
 
 
 $$
@@ -91,7 +101,9 @@ First, we find $|PF|^2$ using the distance formula:
 $$
 
 
+
 \begin{aligned}|𝑃𝐹|^{2} & =(𝑥−(−4))^{2}+(𝑦−0)^{2} \\ & =(𝑥+4)^{2}+𝑦^{2}\end{aligned}
+
 
 
 $$
@@ -101,7 +113,9 @@ Then, we determine $|PD|^2$:
 $$
 
 
+
 \begin{aligned}|𝑃𝐷|^{2} & =(𝑥−4)^{2}\end{aligned}
+
 
 
 $$
@@ -111,7 +125,9 @@ Using the focus-directrix property, we have $|PF| = |PD|.$ Hence,
 $$
 
 
+
 \begin{aligned}(𝑥+4)^{2}+𝑦^{2} & =(𝑥−4)^{2} \\ 𝑥^{2}+8𝑥+16+𝑦^{2} & =𝑥^{2}−8𝑥+16 \\ 𝑦^{2} & =−16𝑥\end{aligned}
+
 
 
 $$
@@ -133,7 +149,9 @@ The focus-directrix property states that any parabola can be defined as the set 
 $$
 
 
+
 |PF| = |PD|.
+
 
 
 $$
@@ -145,7 +163,9 @@ First, we find $|PF|^2$ using the distance formula:
 $$
 
 
+
 \begin{aligned}|𝑃𝐹|^{2} & =(𝑥−0)^{2}+(𝑦−4)^{2} \\ & =𝑥^{2}+(𝑦−4)^{2}\end{aligned}
+
 
 
 $$
@@ -155,7 +175,9 @@ Then, we determine $|PD|^2{:}$
 $$
 
 
+
 \begin{aligned}|𝑃𝐷|^{2} & =(𝑦−(−4))^{2} \\ & =(𝑦+4)^{2}\end{aligned}
+
 
 
 $$
@@ -165,7 +187,9 @@ Using the focus-directrix property, we have $|PF| = |PD|.$ Hence,
 $$
 
 
+
 \begin{aligned}𝑥^{2}+(𝑦−4)^{2} & =(𝑦+4)^{2} \\ 𝑥^{2}+𝑦^{2}−8𝑦+16 & =𝑦^{2}+8𝑦+16 \\ 𝑥^{2} & =16𝑦.\end{aligned}
+
 
 
 $$
@@ -185,7 +209,9 @@ The focus-directrix property states that any parabola can be defined as the set 
 $$
 
 
+
 |PF| = |PD|.
+
 
 
 $$
@@ -197,7 +223,9 @@ First, we find $|PF|^2$ using the distance formula:
 $$
 
 
+
 \begin{aligned}|𝑃𝐹|^{2} & =(𝑥−3)^{2}+(𝑦−0)^{2} \\ & =(𝑥−3)^{2}+𝑦^{2}\end{aligned}
+
 
 
 $$
@@ -207,7 +235,9 @@ Then, we determine $|PD|^2 \mathbin{:}$
 $$
 
 
+
 \begin{aligned}|𝑃𝐷|^{2} & =(𝑥+1)^{2}\end{aligned}
+
 
 
 $$
@@ -217,7 +247,9 @@ Using the focus-directrix property, we have $|PF| = |PD|.$ Hence,
 $$
 
 
+
 \begin{aligned}(𝑥−3)^{2}+𝑦^{2} & =(𝑥+1)^{2} \\ 𝑥^{2}−6𝑥+9+𝑦^{2} & =𝑥^{2}+2𝑥+1 \\ 𝑦^{2} & =8𝑥−8 \\ 𝑦^{2} & =8(𝑥−1).\end{aligned}
+
 
 
 $$
@@ -237,7 +269,9 @@ The focus-directrix property states that any parabola can be defined as the set 
 $$
 
 
+
 |PF| = |PD|.
+
 
 
 $$
@@ -249,7 +283,9 @@ First, we find $|PF|^2$ using the distance formula:
 $$
 
 
+
 \begin{aligned}|𝑃𝐹|^{2} & =(𝑥−0)^{2}+(𝑦−4)^{2} \\ & =𝑥^{2}+(𝑦−4)^{2}\end{aligned}
+
 
 
 $$
@@ -259,7 +295,9 @@ Then, we determine $|PD|^2 \mathbin{:}$
 $$
 
 
+
 \begin{aligned}|𝑃𝐷|^{2} & =(𝑦−(−4))^{2} \\ & =(𝑦+4)^{2}\end{aligned}
+
 
 
 $$
@@ -269,7 +307,9 @@ Using the focus-directrix property, we have $|PF| = |PD|.$ Hence,
 $$
 
 
+
 \begin{aligned}𝑥^{2}+(𝑦−4)^{2} & =(𝑦+4)^{2} \\ 𝑥^{2}+𝑦^{2}−8𝑦+16 & =𝑦^{2}+8𝑦+16 \\ 𝑥^{2} & =16𝑦.\end{aligned}
+
 
 
 $$

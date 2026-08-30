@@ -30,7 +30,9 @@ To demonstrate, consider the point $x=\pi.$ By substituting it into our function
 $$
 
 
+
 \begin{aligned}𝑦 & =sin⁡(𝑥−\frac{𝜋}{2}) \\ & =sin⁡(𝜋−\frac{𝜋}{2}) \\ & =sin⁡(\frac{𝜋}{2}) \\ & =1.\end{aligned}
+
 
 
 $$
@@ -118,7 +120,9 @@ Note that the asymptotes of $y=\tan\left(x-\dfrac{\pi}{4} \right)$ are also shif
 $$
 
 
+
 x=\dfrac{\pi}{2}+ \dfrac{\pi}{4} = \dfrac{3\pi}{4}.
+
 
 
 $$
@@ -132,7 +136,9 @@ Note that the asymptotes of $y=\tan\left(x+1 \right)$ are also shifted to the le
 $$
 
 
+
 x=\dfrac{\pi}{2}-1.
+
 
 
 $$
@@ -188,7 +194,9 @@ The corresponding asymptote on the graph of $y=\tan x$ is $x=-\dfrac{\pi}{2}.$ T
 $$
 
 
+
 x = -\dfrac{\pi}{2} - \dfrac 12 = -\dfrac{\pi+1}{2}.
+
 
 
 $$

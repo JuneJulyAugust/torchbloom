@@ -17,7 +17,9 @@ Given two matrices, it is not always possible to multiply them together. To demo
 $$
 
 
+
 [\begin{aligned}1 & 12 \\ 6 & −4\end{aligned}]
+
 
 
 $$
@@ -27,7 +29,9 @@ Normally, to compute the product $AB,$ we multiply each row of $A$ by each colum
 $$
 
 
+
 [\begin{aligned}1 & 12 \\ 6 & −4\end{aligned}]
+
 
 
 $$
@@ -63,7 +67,9 @@ There are $2$ columns in $A$ and $2$ rows in $B.$ Since the number of columns in
 $$
 
 
+
 \underset{2 \times \color{green}{\fbox{2}}}{A} \underset{\color{green}\checkmark}{\times} \underset{{\color{green}\fbox{2}} \times 3}{B} = {\color{green}\text{well defined}}
+
 
 
 $$
@@ -73,7 +79,9 @@ On the other hand, there are $3$ columns in $B$ and $2$ rows in $A.$ Since the n
 $$
 
 
+
 \underset{2 \times \color{red}{3}}{B} \underset{\color{red}\neq}{\times} \underset{{\color{red}2} \times 2}{A} = {\color{red}\text{undefined}}
+
 
 
 $$
@@ -93,7 +101,9 @@ There are $4$ columns in $A$ and $4$ rows in $B.$ Since the number of columns in
 $$
 
 
+
 \underset{\boxed{3} \times \color{green}{\fbox{4}}}{A} \underset{\color{green}\checkmark}{\times} \underset{{\color{green}\fbox{4}} \times \boxed{2}}{B} = \underset{\boxed{3} \times \boxed{2}}{AB}
+
 
 
 $$
@@ -115,7 +125,9 @@ The product $BA$ has dimensions $2 \times 2\mathbin{:}$
 $$
 
 
+
 \underset{\boxed{2} \times \color{green}{\fbox{4}}}{B} \underset{\color{green}\checkmark}{\times} \underset{{\color{green}\fbox{4}} \times \boxed{2}}{A} = \underset{\boxed{2} \times \boxed{2}}{BA}
+
 
 
 $$

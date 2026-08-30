@@ -64,7 +64,9 @@ First, let's factor out the coefficient next to the $x$ inside the function:
 $$
 
 
+
 y = f\left(2x+2\right) -1 = f\left(2(x+1)\right) - 1
+
 
 
 $$
@@ -150,7 +152,9 @@ First, let's factor out the coefficient next to the $x$ inside the function:
 $$
 
 
+
 y=f\left(\dfrac x2-3\right)+5 = f\left(\dfrac 12(x-6)\right)+5
+
 
 
 $$
@@ -170,7 +174,9 @@ Therefore, a possible order of transformations is
 $$
 
 
+
 (\textrm{T}1) \to (\textrm{T}3) \to (\textrm{T}2).
+
 
 
 $$

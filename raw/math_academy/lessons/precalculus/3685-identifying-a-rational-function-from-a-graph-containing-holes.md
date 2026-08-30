@@ -19,7 +19,9 @@ For example, suppose we are given the following rational functions:
 $$
 
 
+
 \begin{aligned}𝑦=𝑓(𝑥) & =\frac{(𝑥−4)^{2}}{(𝑥−4)(𝑥−2)} \\ 𝑦=𝑔(𝑥) & =\frac{2(𝑥^{2}−4)}{(𝑥−4)(𝑥−2)} \\ 𝑦=ℎ(𝑥) & =\frac{2𝑥^{2}+4}{(𝑥−4)(𝑥−2)}\end{aligned}
+
 
 
 $$
@@ -39,7 +41,9 @@ Therefore, among the given options, the only one that satisfies the above condit
 $$
 
 
+
 y=\dfrac{2(x^2-4)}{(x-4)(x-2)} \qquad {\color{green}\Large \checkmark}
+
 
 
 $$
@@ -81,7 +85,9 @@ Therefore, among the given options, the only one that satisfies the above condit
 $$
 
 
+
 y = \dfrac {x^2-x}{x^2-1}.
+
 
 
 $$
@@ -137,7 +143,9 @@ Therefore, among the given options, the only one that satisfies the above condit
 $$
 
 
+
 y = \dfrac{x-3}{(x+1)(x-2)(x-3)}.
+
 
 
 $$
@@ -175,7 +183,9 @@ Therefore, among the given options, the only one that satisfies the above condit
 $$
 
 
+
 y = \dfrac{x^2-2x}{(x^2-x)(x-2)}
+
 
 
 $$

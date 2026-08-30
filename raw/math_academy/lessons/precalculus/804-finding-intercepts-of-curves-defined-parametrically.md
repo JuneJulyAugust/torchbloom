@@ -24,7 +24,9 @@ For example consider the following parametric curve:
 $$
 
 
+
 x=t-3, \quad y=4-t^2,\quad -\infty < t < \infty
+
 
 
 $$
@@ -38,7 +40,9 @@ To find coordinates of the $x$-intercepts $A$ and $B,$ first realize that the $y
 $$
 
 
+
 \begin{aligned}𝑦 & =4−𝑡^{2} \\ 0 & =4−𝑡^{2} \\ 𝑡^{2} & =4 \\ 𝑡 & =±2\end{aligned}
+
 
 
 $$
@@ -60,7 +64,9 @@ A curve is defined parametrically as
 $$
 
 
+
 x=4+t, \quad y=2-t, \quad -\infty < t < \infty.
+
 
 
 $$
@@ -74,7 +80,9 @@ To find the $x$-intercept, we first set $y=0$ and solve for $t.$ We get
 $$
 
 
+
 \begin{aligned}𝑦 & =2−𝑡 \\ 0 & =2−𝑡 \\ 𝑡 & =2.\end{aligned}
+
 
 
 $$
@@ -86,7 +94,9 @@ Substituting $t=2$ gives
 $$
 
 
+
 \begin{aligned}𝑥 & =4+𝑡 \\ 𝑥 & =4+(2)=6.\end{aligned}
+
 
 
 $$
@@ -106,7 +116,9 @@ To find the coordinates of the $x$-intercepts, we set $y=0$ and solve for $t.$
 $$
 
 
+
 \begin{aligned}𝑦 & =\sqrt{√(𝑡−2)(3𝑡−1)} \\ 0 & =\sqrt{√(𝑡−2)(3𝑡−1)} \\ 0 & =(𝑡−2)(3𝑡−1)\end{aligned}
+
 
 
 $$
@@ -142,7 +154,9 @@ A curve is defined parametrically as
 $$
 
 
+
 x=t-3,\quad y=4-t^2, \quad -\infty < t < \infty
+
 
 
 $$
@@ -156,7 +170,9 @@ To find the $y$-intercept, we first set $x=0$ and solve for $t\mathbin{:}$
 $$
 
 
+
 \begin{aligned}𝑥 & =0 \\ 𝑡−3 & =0 \\ 𝑡 & =3.\end{aligned}
+
 
 
 $$
@@ -166,7 +182,9 @@ Then, we substitute our solution for $t$ into the equation $y=4-t^2.$ Substituti
 $$
 
 
+
 \begin{aligned}𝑦 & =4−𝑡^{2} \\ & =4−3^{2} \\ & =4−9 \\ & =−5.\end{aligned}
+
 
 
 $$

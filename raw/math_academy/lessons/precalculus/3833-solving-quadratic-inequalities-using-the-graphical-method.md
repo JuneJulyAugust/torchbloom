@@ -17,7 +17,9 @@ We can use the so-called **graphical method** to solve quadratic inequalities. F
 $$
 
 
+
 x^2 + x - 2 > 0.
+
 
 
 $$
@@ -27,7 +29,9 @@ To solve it, we need to find the values of $x$ for which the parabola
 $$
 
 
+
 y=x^2+x-2
+
 
 
 $$
@@ -39,7 +43,9 @@ First, let's find the roots of the parabola:
 $$
 
 
+
 \begin{aligned}𝑥^{2}+𝑥−2 & =0 \\ (𝑥+2)(𝑥−1) & =0\end{aligned}
+
 
 
 $$
@@ -65,7 +71,9 @@ To solve the inequality
 $$
 
 
+
 x^2-2x-8 \geq 0,
+
 
 
 $$
@@ -75,7 +83,9 @@ we need to find the values of $x$ for which the parabola
 $$
 
 
+
 y=x^2-2x-8
+
 
 
 $$
@@ -87,7 +97,9 @@ First, let's find the roots of the parabola:
 $$
 
 
+
 \begin{aligned}𝑥^{2}−2𝑥−8 & =0 \\ (𝑥+2)(𝑥−4) & =0\end{aligned}
+
 
 
 $$
@@ -113,7 +125,9 @@ To solve the inequality
 $$
 
 
+
 -x^2 + 7 x - 10 \leq 0,
+
 
 
 $$
@@ -123,7 +137,9 @@ we need to find the values of $x$ for which the parabola
 $$
 
 
+
 y = -x^2 + 7 x - 10
+
 
 
 $$
@@ -135,7 +151,9 @@ First, let's find the roots of the parabola:
 $$
 
 
+
 \begin{aligned}−𝑥^{2}+7𝑥−10 & =0 \\ −(𝑥^{2}−7𝑥+10) & =0 \\ −(𝑥−2)(𝑥−5) & =0\end{aligned}
+
 
 
 $$
@@ -157,7 +175,9 @@ For example, let's find the solution of
 $$
 
 
+
 x^2 \ge 6-x.
+
 
 
 $$
@@ -167,7 +187,9 @@ To solve this inequality using the graphical method, we first move all the terms
 $$
 
 
+
 \begin{aligned}𝑥^{2}+𝑥−6 & ≥0.\end{aligned}
+
 
 
 $$
@@ -177,7 +199,9 @@ So, we need to find the values of $x$ for which the parabola $y = x^2 + x - 6$ l
 $$
 
 
+
 \begin{aligned}𝑥^{2}+𝑥−6 & =0 \\ (𝑥+3)(𝑥−2) & =0\end{aligned}
+
 
 
 $$
@@ -191,7 +215,9 @@ Since we want to solve
 $$
 
 
+
 x^2 + x - 6 \ge 0,
+
 
 
 $$
@@ -205,7 +231,9 @@ We can also express our inequality in interval notation. In interval notation, o
 $$
 
 
+
 x \in {\color{blue}\left(-\infty, - 3 \right]}\cup{\color{blue}\left[2, \infty\right)}.
+
 
 
 $$
@@ -223,7 +251,9 @@ To solve this inequality using the graphical method, we first need to move all o
 $$
 
 
+
 \begin{aligned}2𝑥^{2}−6 & ≤−4𝑥 \\ 2𝑥^{2}+4𝑥−6 & ≤0 \\ 𝑥^{2}+2𝑥−3 & ≤0.\end{aligned}
+
 
 
 $$
@@ -233,7 +263,9 @@ So, we want to find the values of $x$ for which the parabola $y=x^2+2x-3$ lies b
 $$
 
 
+
 \begin{aligned}𝑥^{2}+2𝑥−3 & =0 \\ (𝑥−1)(𝑥+3) & =0\end{aligned}
+
 
 
 $$
@@ -247,7 +279,9 @@ Since we are interested in solving
 $$
 
 
+
 x^2+2x-3 \le 0,
+
 
 
 $$
@@ -271,7 +305,9 @@ To solve this inequality using the graphical method, we first need to move all o
 $$
 
 
+
 \begin{aligned}2𝑥^{2} & <−4𝑥 \\ 2𝑥^{2}+4𝑥 & <0.\end{aligned}
+
 
 
 $$
@@ -281,7 +317,9 @@ So, we want to find the values of $x$ for which the parabola $y = 2x^2 + 4x$ lie
 $$
 
 
+
 \begin{aligned}2𝑥^{2}+4𝑥 & =0 \\ 2𝑥(𝑥+2) & =0\end{aligned}
+
 
 
 $$
@@ -295,7 +333,9 @@ Since we are interested in solving
 $$
 
 
+
 2x^2 + 4x \lt 0,
+
 
 
 $$

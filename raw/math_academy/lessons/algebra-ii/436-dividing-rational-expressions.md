@@ -18,7 +18,9 @@ For example, let's divide $x$ by $\dfrac{3}{y}\mathbin{:}$
 $$
 
 
+
 x \div \dfrac{3}{y}
+
 
 
 $$
@@ -28,7 +30,9 @@ To do this, we just need to multiply by the reciprocal of the divisor. The divis
 $$
 
 
+
 \begin{aligned}𝑥÷\frac{3}{𝑦} & = \\ 𝑥⋅\frac{𝑦}{3} & = \\ \frac{𝑥𝑦}{3} & .\end{aligned}
+
 
 
 $$
@@ -48,7 +52,9 @@ To compute
 $$
 
 
+
 \dfrac{3}{x} \div \dfrac{5}{y},
+
 
 
 $$
@@ -58,7 +64,9 @@ we just need to multiply by the reciprocal of the divisor:
 $$
 
 
+
 \begin{aligned} \dfrac 3 x \div \dfrac 5 y&=\\\dfrac 3 x \cdot \dfrac y 5&=\\\dfrac {3y} {5x} \end{aligned}
+
 
 
 $$
@@ -76,7 +84,9 @@ To compute
 $$
 
 
+
 \dfrac{3}{x} \div \dfrac{y}{6x^2},
+
 
 
 $$
@@ -86,7 +96,9 @@ we just need to multiply by the reciprocal of the divisor:
 $$
 
 
+
  \begin{aligned} \dfrac 3 x \div \dfrac y {6x^2} &=\\\dfrac 3 x \cdot \dfrac {6x^2} y &=\\\dfrac {18x^2} {xy}&=\\\dfrac {18x^2} {xy}&=\\\dfrac {18x} {y}& \end{aligned}
+
 
 
 $$
@@ -106,7 +118,9 @@ To compute $x \div y,$ i.e.,
 $$
 
 
+
 \begin{aligned}\frac{2𝑎^{2}(1+𝑏)}{3𝑏} & ÷\frac{1+𝑏}{5𝑏^{2}},\end{aligned}
+
 
 
 $$
@@ -116,7 +130,9 @@ we just need to multiply by the reciprocal of the divisor:
 $$
 
 
+
  \begin{aligned} \dfrac {2a^2(1+b)} {3b} \div \dfrac{1+b}{5b^2}&=\\\[5pt] \dfrac {2a^2(1+b)} {3b} \cdot \dfrac {5b^2} {1+b}&=\\\[5pt] \dfrac {2a^2(1+b)} {3b} \cdot \dfrac {5b^{2}} {1+b}&=\\\[5pt] \dfrac {10a^2b} {3} \end{aligned}
+
 
 
 $$
@@ -134,7 +150,9 @@ To compute
 $$
 
 
+
  \begin{aligned} \dfrac {2a^3 - 10a} {7b} &\div \dfrac {2a} {14b^2}, \end{aligned}
+
 
 
 $$
@@ -144,7 +162,9 @@ we just need to multiply by the reciprocal of the divisor:
 $$
 
 
+
  \begin{aligned} \dfrac {2a^3 - 10a} {7b} \div \dfrac {2a} {14b^2}&=\\\dfrac {2a^3 - 10a} {7b} \cdot \dfrac {14b^2} {2a}&=\\\dfrac {2a(a^2 - 5)} {7b} \cdot \dfrac {2b \cdot 7b} {2a}&=\\\dfrac {2a(a^2 - 5)} {7b} \cdot \dfrac {2b \cdot 7b} {2a}&=\\\dfrac {2b(a^2 - 5)} 1 &=\\2a^2b - 10b & \end{aligned}
+
 
 
 $$

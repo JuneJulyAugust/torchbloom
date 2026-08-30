@@ -17,7 +17,9 @@ If we want to add (or subtract) three or more matrices, all operations should be
 $$
 
 
+
 \begin{aligned}1 \\ 1 \\ −1\end{aligned}
+
 
 
 $$
@@ -27,7 +29,9 @@ Then we can calculate ${A}+{B}-{C}$ by performing the operations on each corresp
 $$
 
 
+
 \begin{aligned}𝐴+𝐵−𝐶 & =\begin{aligned}1 \\ 1 \\ −1\end{aligned}+\begin{aligned}−1 \\ 2 \\ 0\end{aligned}−\begin{aligned}0 \\ 5 \\ −2\end{aligned} \\ & =\begin{aligned}1+(−1)−0 \\ 1+2−5 \\ −1+0−(−2)\end{aligned} \\ & =\begin{aligned}0 \\ −2 \\ 1\end{aligned}\end{aligned}
+
 
 
 $$
@@ -41,7 +45,9 @@ Calculate $A-(B-C),$ where
 $$
 
 
+
 [\begin{aligned}−1 & 0 \\ 2 & −2\end{aligned}]
+
 
 
 $$
@@ -53,7 +59,9 @@ Performing the operations on each corresponding entry, we get:
 $$
 
 
+
 \begin{aligned}𝐴−(𝐵−𝐶) & =[\begin{aligned}−1 & 0 \\ 2 & −2\end{aligned}]−([\begin{aligned}−1 & −1 \\ 2 & 0\end{aligned}]−[\begin{aligned}0 & −5 \\ 1 & 1\end{aligned}]) \\ & =[\begin{aligned}−1 & 0 \\ 2 & −2\end{aligned}]−[\begin{aligned}−1−0 & −1−(−5) \\ 2−1 & 0−1\end{aligned}] \\ & =[\begin{aligned}−1 & 0 \\ 2 & −2\end{aligned}]−[\begin{aligned}−1 & 4 \\ 1 & −1\end{aligned}] \\ & =[\begin{aligned}−1−(−1) & 0−4 \\ 2−1 & −2−(−1)\end{aligned}] \\ & =[\begin{aligned}0 & −4 \\ 1 & −1\end{aligned}]\end{aligned}
+
 
 
 $$
@@ -67,7 +75,9 @@ For example, if $A,$ $B,$ and $C$ are three $m \times n$ matrices then we can ad
 $$
 
 
+
 (A+B)+C = A+(B+C) = A+B+C
+
 
 
 $$
@@ -77,7 +87,9 @@ Moreover, we can distribute a subtraction over matrices in parentheses:
 $$
 
 
+
 A - (B + C) = A - B - C
+
 
 
 $$
@@ -91,7 +103,9 @@ Find $A+C-(B+A),$ if
 $$
 
 
+
 \begin{aligned}1 & −2 \\ \sqrt{√2} & 0 \\ 0 & −2\end{aligned}
+
 
 
 $$
@@ -103,7 +117,9 @@ First, we simplify the expression by distributing the subtraction over the matri
 $$
 
 
+
 \begin{aligned}𝐴+𝐶−(𝐵+𝐴) & =𝐴+𝐶−𝐵−𝐴 \\ & =𝐴+𝐶−𝐵−𝐴 \\ & =𝐶−𝐵\end{aligned}
+
 
 
 $$
@@ -113,7 +129,9 @@ We are left with a single subtraction. So, we subtract the corresponding entries
 $$
 
 
+
 \begin{aligned}𝐶−𝐵 & =\begin{aligned}3 & −1 \\ 1 & 2 \\ −6 & 1\end{aligned}−\begin{aligned}3 & −1 \\ 2 & 0 \\ −4 & 1\end{aligned} \\ & =\begin{aligned}3−3 & −1−(−1) \\ 1−2 & 2−0 \\ −6−(−4) & 1−1\end{aligned} \\ & =\begin{aligned}0 & 0 \\ −1 & 2 \\ −2 & 0\end{aligned}\end{aligned}
+
 
 
 $$

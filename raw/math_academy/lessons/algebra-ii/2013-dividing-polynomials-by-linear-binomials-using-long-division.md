@@ -17,7 +17,9 @@ Suppose we want to divide one polynomial by another. For example,
 $$
 
 
+
 \dfrac{2x^2+8x-5}{x+5}.
+
 
 
 $$
@@ -43,7 +45,9 @@ Our task is to find the quotient and remainder of the following division problem
 $$
 
 
+
 \dfrac{2x^2+8x-5}{x+5}
+
 
 
 $$
@@ -59,7 +63,9 @@ We start by writing the dividend and the divisor as follows:
 $$
 
 
+
 \begin{aligned} & 𝑥+2\,\,\,\,\, \\ & 𝑥+5\,\,\,2𝑥^{2}+18𝑥−15\,\,\end{aligned}
+
 
 
 $$
@@ -71,7 +77,9 @@ We divide the leading term of the dividend $({\color{red}2x^2})$ by the leading 
 $$
 
 
+
 \begin{aligned} & 𝑥+5\,\,\,\,\,2𝑥 \\ & 𝑥+5\,\,\,2𝑥^{2}+18𝑥−15\,\,\end{aligned}
+
 
 
 $$
@@ -81,7 +89,9 @@ Next, we multiply the ${\color{#8b008b}{2x}}$ we just found by the full divisor 
 $$
 
 
+
 \begin{aligned} & 𝑥+5\,\,\,\,\,2𝑥 \\ & 𝑥+5\,\,\,2𝑥^{2}+18𝑥−15\,\, \\ & 𝑥+2\,\,\,\,\,\underset{}{2𝑥^{2}+10𝑥−18}\end{aligned}
+
 
 
 $$
@@ -91,7 +101,9 @@ Now, we subtract ${2x^2+10x}$ from ${2x^2+8x - 5}$ and get ${{-2x-5}}{:}$
 $$
 
 
+
 \begin{aligned} & 𝑥+5\,\,\,\,\,2𝑥 \\ & 𝑥+5\,\,\,2𝑥^{2}+18𝑥−15\,\, \\ & 𝑥+2\,\,\,\,\,\underset{}{2𝑥^{2}+10𝑥−18} \\ & 𝑥+2\,\,\,\,\,\,\,3𝑥^{2}1−2𝑥−5\end{aligned}
+
 
 
 $$
@@ -105,7 +117,9 @@ We divide the leading term of the dividend $({\color{red}-2x})$ by the leading t
 $$
 
 
+
 \begin{aligned} & 𝑥+5\,\,\,\,\,2𝑥\,\,−12 \\ & 𝑥+5\,\,\,2𝑥^{2}+18𝑥−15\,\, \\ & 𝑥+2\,\,\,\,\,\underset{}{2𝑥^{2}+10𝑥−18} \\ & 𝑥+2\,\,\,\,\,\,\,3𝑥^{2}1−2𝑥−5 \\ & \end{aligned}
+
 
 
 $$
@@ -115,7 +129,9 @@ Next, we multiply the ${\color{#8b008b}{-2}}$ term we just found by the full div
 $$
 
 
+
 \begin{aligned} & 𝑥+5\,\,\,\,\,2𝑥\,\,−12 \\ & 𝑥+5\,\,\,2𝑥^{2}+18𝑥−15\,\, \\ & 𝑥+2\,\,\,\,\,\underset{}{2𝑥^{2}+10𝑥−18} \\ & 𝑥+2\,\,\,\,\,\,\,3𝑥^{2}−12𝑥−15 \\ & 𝑥+2\,\,\,\,\,\,\,3𝑥^{2}\underset{}{−12𝑥−10}\end{aligned}
+
 
 
 $$
@@ -125,7 +141,9 @@ Finally, we subtract ${{-2x-10}}$ from ${{-2x-5}}$ to get ${\color{red}{5}}{:}$
 $$
 
 
+
 \begin{aligned} & 𝑥+5\,\,\,\,\,2𝑥\,\,−12 \\ & 𝑥+5\,\,\,2𝑥^{2}+18𝑥−15\,\, \\ & 𝑥+2\,\,\,\,\,\underset{}{2𝑥^{2}+10𝑥−18} \\ & 𝑥+2\,\,\,\,\,\,\,3𝑥^{2}−12𝑥−15 \\ & 𝑥+2\,\,\,\,\,\,\,3𝑥^{2}\underset{}{−12𝑥−10} \\ & 𝑥+2\,\,\,\,\,\,\,3𝑥^{2}−12𝑥−15\end{aligned}
+
 
 
 $$
@@ -145,7 +163,9 @@ From top to bottom, what are the missing expressions in the following polynomial
 $$
 
 
+
 \begin{aligned} & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\phantom{2x+20} \\ & 𝑥−4\,\,\,2𝑥^{2}+12𝑥+25\,\, \\ & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underset{}{2𝑥^{2}−\,\,8𝑥} \\ & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,4𝑥^{2}−\phantom{20x+25} \\ & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,4𝑥^{2}−\underset{}{20𝑥−80} \\ & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,4𝑥^{2}+26𝑥\,\,\,\,105 \\ & \end{aligned}
+
 
 
 $$
@@ -157,7 +177,9 @@ Using the method of polynomial division, we obtain the following:
 $$
 
 
+
 \begin{aligned} & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,2𝑥+20 \\ & 𝑥−4\,\,\,2𝑥^{2}+12𝑥+25\,\, \\ & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underset{}{2𝑥^{2}−\,\,8𝑥} \\ & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,4𝑥^{2}−20𝑥+25 \\ & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,4𝑥^{2}−\underset{}{20𝑥−80} \\ & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,4𝑥^{2}+26𝑥\,\,\,\,105 \\ & \end{aligned}
+
 
 
 $$
@@ -173,7 +195,9 @@ In general, we can write the result of any division as follows:
 $$
 
 
+
 \frac{\text{dividend}}{\text{divisor}}={\color{blue}\text{quotient}} +\dfrac{{\color{red}\text{remainder}}}{\text{divisor}}
+
 
 
 $$
@@ -187,7 +211,9 @@ Consider the following polynomial division:
 $$
 
 
+
 \begin{aligned} & 𝑥+2\,\,\,\,\,2𝑥−2 \\ & 𝑥+5\,\,\,2𝑥^{2}+18𝑥−15\,\, \\ & 𝑥+2\,\,\,\,\,\underset{}{2𝑥^{2}+10𝑥−15} \\ & 𝑥+2\,\,\,\,\,\,\,3𝑥^{2}−12𝑥−15 \\ & 𝑥+2\,\,\,\,\,\,\,3𝑥^{2}\underset{}{−12𝑥−10} \\ & 𝑥+2\,\,\,\,\,\,\,\,\,3𝑥^{2}−2𝑥−15\end{aligned}
+
 
 
 $$
@@ -199,7 +225,9 @@ From the above, what is $\dfrac{2x^2+8x-5}{x+5}?$
 $$
 
 
+
 \begin{aligned} & 𝑥+2\,\,\,\,\,2𝑥−2 \\ & 𝑥+5\,\,\,2𝑥^{2}+18𝑥−15\,\, \\ & 𝑥+2\,\,\,\,\,\underset{}{2𝑥^{2}+10𝑥−15} \\ & 𝑥+2\,\,\,\,\,\,\,3𝑥^{2}−12𝑥−15 \\ & 𝑥+2\,\,\,\,\,\,\,3𝑥^{2}\underset{}{−12𝑥−10} \\ & 𝑥+2\,\,\,\,\,\,\,\,\,3𝑥^{2}−2𝑥−15\end{aligned}
+
 
 
 $$
@@ -215,7 +243,9 @@ Therefore, we obtain
 $$
 
 
+
 \dfrac{2x^2+8x-5}{x+5} = {\color{blue}2x-2}+\dfrac{\color{red}5}{\color{purple}x+5}.
+
 
 
 $$
@@ -231,7 +261,9 @@ For example, consider the following division problem:
 $$
 
 
+
 \dfrac{x^2+5}{x+1}
+
 
 
 $$
@@ -241,7 +273,9 @@ Notice that the dividend has no $x$ term. To use polynomial division, we need to
 $$
 
 
+
 \dfrac{x^2+{\color{blue} 0x}+5}{x+1}.
+
 
 
 $$
@@ -257,7 +291,9 @@ From top to bottom, what are the missing expressions in the following polynomial
 $$
 
 
+
 \begin{aligned} & 𝑥+1\,\,\,\,\phantom{x^2 - x + 1} \\ & 𝑥+1\,\,\,𝑥^{3}+0𝑥^{2}+0𝑥+64\,\, \\ & 𝑥+1\,\,\,\,\,\underset{}{𝑥^{3}+0𝑥^{2}} \\ & 𝑥+1\,\,\,\,\,\,𝑥^{3}−\,0𝑥^{2}+0𝑥+64 \\ & 𝑥+1\,\,\,\,\,\,𝑥^{3}\underset{}{−\,0𝑥^{2}−0𝑥} \\ & 𝑥+1\,\,\,\,\,\,\,\,𝑥^{3}−𝑥^{2}−\,\phantom{x + 64} \\ & 𝑥+1\,\,\,\,\,\,\,\,\,𝑥^{3}−𝑥^{2}−\,\underset{}{𝑥+11} \\ & 𝑥+1\,\,\,\,\,\,\,\,\,𝑥^{3}−𝑥^{2}+𝑥−\,63\end{aligned}
+
 
 
 $$
@@ -269,7 +305,9 @@ Notice that the dividend is missing the $x^2$-term and the $x$-term. So, we writ
 $$
 
 
+
 x^3+{\color{red}0}x^2 + {\color{red}0}x + 64
+
 
 
 $$
@@ -279,7 +317,9 @@ Using the method of polynomial division, we obtain the following:
 $$
 
 
+
 \begin{aligned} & 𝑥+1\,\,\,\,\,𝑥^{2}−𝑥+1 \\ & 𝑥+1\,\,\,𝑥^{3}+0𝑥^{2}+0𝑥+64\,\, \\ & 𝑥+1\,\,\,\,\,\underset{}{𝑥^{3}+0𝑥^{2}} \\ & 𝑥+1\,\,\,\,\,\,𝑥^{3}−\,0𝑥^{2}+0𝑥+64 \\ & 𝑥+1\,\,\,\,\,\,𝑥^{3}\underset{}{−\,0𝑥^{2}−0𝑥} \\ & 𝑥+1\,\,\,\,\,\,\,\,\,𝑥^{3}−𝑥^{2}−\,𝑥+64 \\ & 𝑥+1\,\,\,\,\,\,\,\,\,𝑥^{3}−𝑥^{2}−\,\underset{}{𝑥+11} \\ & 𝑥+1\,\,\,\,\,\,\,\,\,𝑥^{3}−𝑥^{2}+𝑥−\,63\end{aligned}
+
 
 
 $$
@@ -297,7 +337,9 @@ For example, let's check that the following polynomial division result is correc
 $$
 
 
+
 \frac{2x^2+8x - 5}{x+5}=2x-2 +\dfrac{5}{x+5}
+
 
 
 $$
@@ -307,7 +349,9 @@ First, we multiply the above by $(x+5)$ and simplify:
 $$
 
 
+
 \begin{aligned}(𝑥+5)×(\frac{2𝑥^{2}+8𝑥−5}{𝑥+5}) & =(𝑥+5)×(2𝑥−2+\frac{5}{𝑥+5}) \\ \frac{(2𝑥^{2}+8𝑥−5)(𝑥+5)}{𝑥+5} & =(2𝑥−2)(𝑥+5)+\frac{5(𝑥+5)}{𝑥+5} \\ \frac{(2𝑥^{2}+8𝑥−5)(𝑥+5)}{𝑥+5} & =(2𝑥−2)(𝑥+5)+\frac{5(𝑥+5)}{𝑥+5} \\ 2𝑥^{2}+8𝑥−5 & =(2𝑥−2)(𝑥+5)+5\end{aligned}
+
 
 
 $$
@@ -317,7 +361,9 @@ Now, we expand the parentheses on the right-hand side:
 $$
 
 
+
 \begin{aligned}2𝑥^{2}+8𝑥−5 & =(2𝑥−2)(𝑥+5)+5 \\ 2𝑥^{2}+8𝑥−5 & =2𝑥^{2}+10𝑥−2𝑥−10+5 \\ 2𝑥^{2}+8𝑥−5 & =2𝑥^{2}+8𝑥−5\,✓\end{aligned}
+
 
 
 $$

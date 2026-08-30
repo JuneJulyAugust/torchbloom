@@ -22,7 +22,9 @@ For example, consider the equation
 $$
 
 
+
 \dfrac{1}{2x^2}= \dfrac{1}{2x}-\dfrac{1}{x}.
+
 
 
 $$
@@ -34,7 +36,9 @@ Now, let's multiply both sides of the equation by the least common denominator. 
 $$
 
 
+
 \textrm{LCM}(2x^2, 2x, x) = {\color{black}2x^2}.
+
 
 
 $$
@@ -44,7 +48,9 @@ Multiplying both sides of the equation by ${\color{black}2x^2}$ and simplifying,
 $$
 
 
+
 \begin{aligned}2𝑥^{2}⋅\frac{1}{2𝑥^{2}} & =2𝑥^{2}⋅(\frac{1}{2𝑥}−\frac{1}{𝑥}) \\ 2𝑥^{2}⋅\frac{1}{2𝑥^{2}} & =\frac{2𝑥^{2}}{2𝑥}−\frac{2𝑥^{2}}{𝑥} \\ 1 & =\frac{2𝑥⋅𝑥}{2𝑥}−\frac{𝑥⋅2𝑥}{𝑥} \\ 1 & =𝑥−2𝑥 \\ 1 & =−𝑥 \\ 𝑥 & =−1.\end{aligned}
+
 
 
 $$
@@ -70,7 +76,9 @@ Multiplying both sides of the equation by $x$ and simplifying, we get
 $$
 
 
+
 \begin{aligned}\frac{𝑥+2}{𝑥} & =\frac{𝑥−4}{𝑥}+2 \\ 𝑥⋅(\frac{𝑥+2}{𝑥}) & =𝑥⋅(\frac{𝑥−4}{𝑥}+2) \\ 𝑥⋅\frac{𝑥+2}{𝑥} & =𝑥⋅\frac{𝑥−4}{𝑥}+𝑥⋅2 \\ 𝑥⋅\frac{𝑥+2}{𝑥} & =𝑥⋅\frac{𝑥−4}{𝑥}+2𝑥 \\ 𝑥+2 & =𝑥−4+2𝑥.\end{aligned}
+
 
 
 $$
@@ -80,7 +88,9 @@ We now have a linear equation in $x,$ and we can solve this using the addition a
 $$
 
 
+
 \begin{aligned}𝑥+2 & =𝑥−4+2𝑥 \\ 𝑥+2 & =3𝑥−4 \\ 3𝑥−𝑥 & =2+4 \\ 2𝑥 & =6 \\ 𝑥 & =3\end{aligned}
+
 
 
 $$
@@ -104,7 +114,9 @@ Now, let's multiply both sides of the equation by the least common denominator. 
 $$
 
 
+
 \textrm{LCM}(8x,2x) = 8x.
+
 
 
 $$
@@ -114,7 +126,9 @@ Multiplying both sides of the equation by $8x$ and simplifying, we get
 $$
 
 
+
 \begin{aligned}3−\frac{10𝑥+7}{8𝑥} & =\frac{6𝑥−3}{2𝑥} \\ 8𝑥⋅(3−\frac{10𝑥+7}{8𝑥}) & =8𝑥⋅(\frac{6𝑥−3}{2𝑥}) \\ 8𝑥⋅3−8𝑥⋅(\frac{10𝑥+7}{8𝑥}) & =8𝑥⋅(\frac{6𝑥−3}{2𝑥}) \\ 24𝑥−8𝑥⋅(\frac{10𝑥+7}{8𝑥}) & =4⋅2𝑥⋅(\frac{6𝑥−3}{2𝑥}) \\ 24𝑥−(10𝑥+7) & =4⋅(6𝑥−3).\end{aligned}
+
 
 
 $$
@@ -124,7 +138,9 @@ We now have a linear equation in $x,$ and we can solve this using the addition a
 $$
 
 
+
 \begin{aligned}24𝑥−(10𝑥+7) & =4⋅(6𝑥−3) \\ 14𝑥−7 & =24𝑥−12 \\ 24𝑥−14𝑥 & =−7+12 \\ 10𝑥 & =5 \\ 𝑥 & =\frac{1}{2}\end{aligned}
+
 
 
 $$
@@ -148,7 +164,9 @@ Now, let's multiply both sides of the equation by the least common denominator. 
 $$
 
 
+
 \textrm{LCM}(x, 6x, 3x) = 6x.
+
 
 
 $$
@@ -158,7 +176,9 @@ Multiplying both sides of the equation by $6x$ and simplifying, we get
 $$
 
 
+
 \begin{aligned}\frac{1+𝑥}{𝑥}+\frac{5+𝑥}{6𝑥} & =\frac{1−𝑥}{3𝑥} \\ 6𝑥⋅(\frac{1+𝑥}{𝑥}+\frac{5+𝑥}{6𝑥}) & =6𝑥⋅\frac{1−𝑥}{3𝑥} \\ 6𝑥⋅(\frac{1+𝑥}{𝑥})+6𝑥⋅(\frac{5+𝑥}{6𝑥}) & =6𝑥⋅(\frac{1−𝑥}{3𝑥}) \\ 6𝑥⋅(\frac{1+𝑥}{𝑥})+6𝑥⋅(\frac{5+𝑥}{6𝑥}) & =2⋅3𝑥⋅(\frac{1−𝑥}{3𝑥}) \\ 6𝑥⋅(\frac{1+𝑥}{𝑥})+6𝑥⋅(\frac{5+𝑥}{6𝑥}) & =2⋅3𝑥⋅(\frac{1−𝑥}{3𝑥}) \\ 6(1+𝑥)+(5+𝑥) & =2(1−𝑥).\end{aligned}
+
 
 
 $$
@@ -168,7 +188,9 @@ We now have a linear equation in $x,$ and we can solve this using the addition a
 $$
 
 
+
 \begin{aligned}6(1+𝑥)+(5+𝑥) & =2(1−𝑥) \\ 6+6𝑥+5+𝑥 & =2−2𝑥 \\ 7𝑥+11 & =2−2𝑥 \\ 7𝑥+2𝑥 & =2−11 \\ 9𝑥 & =−9 \\ 𝑥 & =−1\end{aligned}
+
 
 
 $$
@@ -192,7 +214,9 @@ Now, let's multiply both sides of the equation by the least common denominator. 
 $$
 
 
+
 \textrm{LCM}(3a^2, a, 2a^2) = 6a^2.
+
 
 
 $$
@@ -202,7 +226,9 @@ Multiplying both sides of the equation by $6a^2$ and simplifying, we get
 $$
 
 
+
 \begin{aligned}\frac{2𝑎−5}{3𝑎^{2}}+\frac{1}{𝑎} & =\frac{𝑎−1}{2𝑎^{2}} \\ 6𝑎^{2}⋅(\frac{2𝑎−5}{3𝑎^{2}}+\frac{1}{𝑎}) & =6𝑎^{2}⋅(\frac{𝑎−1}{2𝑎^{2}}) \\ 6𝑎^{2}⋅(\frac{2𝑎−5}{3𝑎^{2}})+6𝑎^{2}⋅(\frac{1}{𝑎}) & =6𝑎^{2}⋅(\frac{𝑎−1}{2𝑎^{2}}) \\ 2⋅3𝑎^{2}⋅(\frac{2𝑎−5}{3𝑎^{2}})+6𝑎⋅𝑎⋅(\frac{1}{𝑎}) & =3⋅2𝑎^{2}⋅(\frac{𝑎−1}{2𝑎^{2}}) \\ 2⋅3𝑎^{2}⋅(\frac{2𝑎−5}{3𝑎^{2}})+6𝑎⋅𝑎⋅(\frac{1}{𝑎}) & =3⋅2𝑎^{2}⋅(\frac{𝑎−1}{2𝑎^{2}}) \\ 2⋅(2𝑎−5)+6𝑎⋅(1) & =3⋅(𝑎−1) \\ 2(2𝑎−5)+6𝑎 & =3(𝑎−1).\end{aligned}
+
 
 
 $$
@@ -212,7 +238,9 @@ We now have a linear equation in $a,$ and we can solve this using the addition a
 $$
 
 
+
 \begin{aligned}2(2𝑎−5)+6𝑎 & =3(𝑎−1) \\ 4𝑎−10+6𝑎 & =3𝑎−3 \\ 10𝑎−10 & =3𝑎−3 \\ 10𝑎−3𝑎 & =−3+10 \\ 7𝑎 & =7 \\ 𝑎 & =1\end{aligned}
+
 
 
 $$

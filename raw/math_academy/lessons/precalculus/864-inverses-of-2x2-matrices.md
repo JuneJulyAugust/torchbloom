@@ -19,7 +19,9 @@ Given a $2 \times 2$ matrix
 $$
 
 
+
 [\begin{aligned}𝑎 & 𝑏 \\ 𝑐 & 𝑑\end{aligned}]
+
 
 
 $$
@@ -29,7 +31,9 @@ the **inverse** of $A$ can be found using the following formula:
 $$
 
 
+
 \begin{aligned}𝐴^{−1} & =\frac{1}{det(𝐴)}[\begin{aligned}𝑑 & −𝑏 \\ −𝑐 & 𝑎\end{aligned}].\end{aligned}
+
 
 
 $$
@@ -43,7 +47,9 @@ Calculate $A^{-1},$ where
 $$
 
 
+
 [\begin{aligned}1 & 0 \\ −2 & 1\end{aligned}]
+
 
 
 $$
@@ -55,7 +61,9 @@ Given a $2 \times 2$ matrix
 $$
 
 
+
 [\begin{aligned}𝑎 & 𝑏 \\ 𝑐 & 𝑑\end{aligned}]
+
 
 
 $$
@@ -65,7 +73,9 @@ the inverse of $A$ can be found using the following formula:
 $$
 
 
+
 \begin{aligned}𝐴^{−1} & =\frac{1}{det(𝐴)}[\begin{aligned}𝑑 & −𝑏 \\ −𝑐 & 𝑎\end{aligned}].\end{aligned}
+
 
 
 $$
@@ -75,7 +85,9 @@ First, we compute the determinant:
 $$
 
 
+
 \det(A) = 1 \cdot 1 - 0 \cdot (-2) = 1
+
 
 
 $$
@@ -85,7 +97,9 @@ Using the formula, then, the inverse is given by
 $$
 
 
+
 \begin{aligned}𝐴^{−1} & =\frac{1}{det(𝐴)}[\begin{aligned}𝑑 & −𝑏 \\ −𝑐 & 𝑎\end{aligned}]. \\ & =\frac{1}{1}[\begin{aligned}1 & −0 \\ −(−2) & 1\end{aligned}] \\ & =[\begin{aligned}1 & 0 \\ 2 & 1\end{aligned}].\end{aligned}
+
 
 
 $$
@@ -95,7 +109,9 @@ We can verify the result as follows:
 $$
 
 
+
 \begin{aligned}𝐴𝐴^{−1} & =[\begin{aligned}1 & 0 \\ −2 & 1\end{aligned}][\begin{aligned}1 & 0 \\ 2 & 1\end{aligned}] \\ & =[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ & =𝐼_{2}\,✓ \\ 𝐴^{−1}𝐴 & =[\begin{aligned}1 & 0 \\ 2 & 1\end{aligned}][\begin{aligned}1 & 0 \\ −2 & 1\end{aligned}] \\ & =[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ & =𝐼_{2}\,✓\end{aligned}
+
 
 
 $$
@@ -107,7 +123,9 @@ Remember that the inverse of a $2\times 2$ matrix $[\begin{aligned}𝑎 & 𝑏 \
 $$
 
 
+
 [\begin{aligned}𝑑 & −𝑏 \\ −𝑐 & 𝑎\end{aligned}]
+
 
 
 $$
@@ -127,7 +145,9 @@ Which of the matrices below are singular?
 $$
 
 
+
 [\begin{aligned}1 & 1 \\ 1 & 1\end{aligned}]
+
 
 
 $$
@@ -155,7 +175,9 @@ The matrix $A$ is singular if and only if $\det(A)=0.$ Calculating the determina
 $$
 
 
+
 \begin{aligned}det(𝐴) & =(1−𝑘)(1−𝑘)−4 \\ & =𝑘^{2}−2𝑘−3.\end{aligned}
+
 
 
 $$
@@ -165,7 +187,9 @@ Now, we set the determinant equal to $0$ and solve for $k\mathbin{:}$
 $$
 
 
+
 \begin{aligned}𝑘^{2}−2𝑘−3 & =0 \\ (𝑘−3)(𝑘+1) & =0 \\ 𝑘 & =3,−1\end{aligned}
+
 
 
 $$
@@ -179,7 +203,9 @@ Given a matrix $[\begin{aligned}𝑎 & 𝑏 \\ 𝑐 & 𝑑\end{aligned}]$ we hav
 $$
 
 
+
 [\begin{aligned}𝑑 & −𝑏 \\ −𝑐 & 𝑎\end{aligned}]
+
 
 
 $$
@@ -189,7 +215,9 @@ To check that this formula is correct for a general matrix $A$, we need to verif
 $$
 
 
+
 AA^{-1} = A^{-1}A = I_2.
+
 
 
 $$
@@ -199,7 +227,9 @@ First, we compute $A^{-1}A\mathbin{:}$
 $$
 
 
+
 \begin{aligned}𝐴^{−1}⋅𝐴 & =\frac{1}{𝑎𝑑−𝑏𝑐}[\begin{aligned}𝑑 & −𝑏 \\ −𝑐 & 𝑎\end{aligned}]⋅[\begin{aligned}𝑎 & 𝑏 \\ 𝑐 & 𝑑\end{aligned}] \\ & =\frac{1}{𝑎𝑑−𝑏𝑐}[\begin{aligned}𝑎𝑑−𝑏𝑐 & 0 \\ 0 & −𝑏𝑐+𝑎𝑑\end{aligned}] \\ & =[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ & =𝐼_{2}\,✓\end{aligned}
+
 
 
 $$
@@ -209,7 +239,9 @@ Then, we compute $A A^{-1}\mathbin{:}$
 $$
 
 
+
 \begin{aligned}𝐴⋅𝐴^{−1} & =[\begin{aligned}𝑎 & 𝑏 \\ 𝑐 & 𝑑\end{aligned}]⋅\frac{1}{𝑎𝑑−𝑏𝑐}[\begin{aligned}𝑑 & −𝑏 \\ −𝑐 & 𝑎\end{aligned}] \\ & =\frac{1}{𝑎𝑑−𝑏𝑐}[\begin{aligned}𝑎 & 𝑏 \\ 𝑐 & 𝑑\end{aligned}]⋅[\begin{aligned}𝑑 & −𝑏 \\ −𝑐 & 𝑎\end{aligned}] \\ & =\frac{1}{𝑎𝑑−𝑏𝑐}[\begin{aligned}𝑎𝑑−𝑏𝑐 & 0 \\ 0 & −𝑏𝑐+𝑎𝑑\end{aligned}] \\ & =[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ & =𝐼_{2}\,✓\end{aligned}
+
 
 
 $$
@@ -219,7 +251,9 @@ So, we have verified that
 $$
 
 
+
 AA^{-1} = A^{-1}A = I_2,
+
 
 
 $$

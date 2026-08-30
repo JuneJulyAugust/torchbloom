@@ -21,7 +21,9 @@ A transformed sine function in its most general form can be expressed as
 $$
 
 
+
 y={\color{red}A}\sin\left( {\color{blue}B} x + C\right) +{\color{green}D},
+
 
 
 $$
@@ -41,7 +43,9 @@ The phase shift (horizontal shift) is slightly trickier to work out. First, we m
 $$
 
 
+
 y={\color{red}A}\sin\left( {\color{blue}B}\left[ x + \dfrac {C}{ \color{blue}B}\right]\right) +{\color{green}D}
+
 
 
 $$
@@ -53,7 +57,9 @@ The **midline** is the horizontal line that lies halfway between the horizontal 
 $$
 
 
+
 y = {\color{green}{D}}.
+
 
 
 $$
@@ -63,7 +69,9 @@ We can also think of the midline as representing the average of the maximum and 
 $$
 
 
+
 y = \dfrac{ y_{\textrm{max}} + y_{\textrm{min}}}{2}.
+
 
 
 $$
@@ -73,7 +81,9 @@ Finally, we can apply the same methods to determine the properties of a transfor
 $$
 
 
+
 y={\color{red}A}\cos\left( {\color{blue}B} x + C\right) +{\color{green}D}.
+
 
 
 $$
@@ -117,7 +127,9 @@ The equation of the midline is given by
 $$
 
 
+
 y = \dfrac{y_{\textrm{min}}+y_{\textrm{max}}}{2},
+
 
 
 $$
@@ -129,7 +141,9 @@ In our case, we have
 $$
 
 
+
 \begin{aligned}\frac{𝑦_{min}+𝑦_{max}}{2} & =\frac{−6+8}{2} \\ & =\frac{2}{2} \\ & =1.\end{aligned}
+
 
 
 $$
@@ -145,7 +159,9 @@ For example, let's determine the range of the following function:
 $$
 
 
+
 f(x)={\color{red}2}\sin\left( {\color{blue}3}x - \dfrac{\pi}{2}\right)+{\color{green}1}
+
 
 
 $$
@@ -155,7 +171,9 @@ We start by writing down the range of $\sin x{:}$
 $$
 
 
+
 -1 \leq \sin x \leq 1
+
 
 
 $$
@@ -165,7 +183,9 @@ The idea is to transform this inequality using addition, multiplication, and oth
 $$
 
 
+
 y_{\textrm{min}} \leq f(x) \leq y_{\textrm{max}}
+
 
 
 $$
@@ -175,7 +195,9 @@ First, we note that *horizontal* shifts and *horizontal* stretches do not affect
 $$
 
 
+
 -1 \leq \sin \left( {\color{blue}3}x - \dfrac{\pi}{2}\right) \leq 1.
+
 
 
 $$
@@ -187,7 +209,9 @@ To take care of the amplitude effects, we multiply our inequality by ${\color{re
 $$
 
 
+
 \begin{aligned}−1≤sin⁡(3𝑥−\frac{𝜋}{2})≤1 \\ 2⋅(−1)≤2⋅sin⁡(3𝑥−\frac{𝜋}{2})≤2⋅1 \\ −2≤2sin⁡(3𝑥−\frac{𝜋}{2})≤2\end{aligned}
+
 
 
 $$
@@ -197,7 +221,9 @@ Finally, to deal with the vertical shift, we increase all the quantities in our 
 $$
 
 
+
 \begin{aligned}−2≤2sin⁡(3𝑥−\frac{𝜋}{2})≤2 \\ −2+1≤2sin⁡(3𝑥−\frac{𝜋}{2})+1≤2+1 \\ −1≤2sin⁡(3𝑥−\frac{𝜋}{2})+1≤3\end{aligned}
+
 
 
 $$
@@ -207,7 +233,9 @@ Since the middle part of the inequality is now identical to $f(x),$ we can write
 $$
 
 
+
 -1 \leq f(x) \leq 3
+
 
 
 $$
@@ -227,7 +255,9 @@ The range of $\cos x$ is
 $$
 
 
+
 -1 \leq \cos x \leq 1.
+
 
 
 $$
@@ -237,7 +267,9 @@ Horizontal shifts and stretches have no effect on the range. Therefore,
 $$
 
 
+
 -1\leq\cos\left(3x \right) \leq 1.
+
 
 
 $$
@@ -247,7 +279,9 @@ Multiplying the above inequality by $-4$ and then subtracting $2,$ we get
 $$
 
 
+
 \begin{aligned}−1 & ≤cos⁡(3𝑥)≤1 \\ 4 & ≥−4cos⁡(3𝑥)≥−4 \\ 2 & ≥−4cos⁡(3𝑥)−2≥−6 \\ −6 & ≤𝑓(𝑥)≤2.\end{aligned}
+
 
 
 $$

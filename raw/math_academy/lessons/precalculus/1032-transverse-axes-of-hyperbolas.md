@@ -18,7 +18,9 @@ Let's consider the *horizontal* hyperbola
 $$
 
 
+
 \dfrac{(x-h)^2}{a^2} - \dfrac{(y-k)^2}{b^2} = 1,
+
 
 
 $$
@@ -46,7 +48,9 @@ Now consider the *vertical* hyperbola
 $$
 
 
+
 \dfrac{(y-k)^2}{a^2} - \dfrac{(x-h)^2}{b^2} = 1,
+
 
 
 $$
@@ -78,7 +82,9 @@ For the ** hyperbola
 $$
 
 
+
 \dfrac{(x-h)^2}{a^2} - \dfrac{(y-k)^2}{b^2} = 1
+
 
 
 $$
@@ -92,7 +98,9 @@ From our diagram, we see that the center of the hyperbola is at
 $$
 
 
+
 (h,k) = (-5,2),
+
 
 
 $$
@@ -102,7 +110,9 @@ and the transverse axis is $2a=4.$ So,
 $$
 
 
+
 a = \dfrac{4}{2}=2.
+
 
 
 $$
@@ -112,7 +122,9 @@ Therefore, the endpoints of the transverse axis are
 $$
 
 
+
 (h - a, k) = (-5 - 2, 2) = (-7,2)
+
 
 
 $$
@@ -122,7 +134,9 @@ and
 $$
 
 
+
 (h + a, k) = (-5 + 2, 2) = (-3,2).
+
 
 
 $$
@@ -140,7 +154,9 @@ For the ** hyperbola
 $$
 
 
+
 \dfrac{(y-k)^2}{a^2} - \dfrac{(x-h)^2}{b^2} = 1
+
 
 
 $$
@@ -152,7 +168,9 @@ In our case, we have
 $$
 
 
+
 (h,k) = (11,3),
+
 
 
 $$
@@ -162,7 +180,9 @@ and $a^2=27.$ So,
 $$
 
 
+
 a = \sqrt{27}=3\sqrt{3}.
+
 
 
 $$
@@ -172,7 +192,9 @@ Therefore, the endpoints of the transverse axis are
 $$
 
 
+
 (h, k \pm a) = (11, 3 \pm 3\sqrt{3}).
+
 
 
 $$

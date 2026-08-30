@@ -27,7 +27,9 @@ The **law of sines** states that
 $$
 
 
+
 \dfrac{a}{\sin{A}} = \dfrac{b}{\sin{B}} = \dfrac{c}{\sin{C}}.
+
 
 
 $$
@@ -71,7 +73,9 @@ The **law of sines** states that
 $$
 
 
+
 \frac{a}{\sin{A}} = \frac{b}{\sin{B}} = \frac{c}{\sin{C}}.
+
 
 
 $$
@@ -81,7 +85,9 @@ We can flip the fractions *upside down* to get another formula
 $$
 
 
+
 \frac{\sin{A}}{a} = \frac{\sin{B}}{b} = \frac{\sin{C}}{c}.
+
 
 
 $$
@@ -115,7 +121,9 @@ The **law of sines** states that
 $$
 
 
+
 \frac{\sin{A}}{a} = \frac{\sin{B}}{b} = \frac{\sin{C}}{c}.
+
 
 
 $$
@@ -157,7 +165,9 @@ According to the law of sines, we have the following:
 $$
 
 
+
 \begin{aligned}\frac{sin⁡𝐴}{𝑎} & =\frac{sin⁡𝐵}{𝑏} \\ \frac{sin⁡30^{∘}}{4} & =\frac{sin⁡𝐵}{5} \\ sin⁡𝐵 & =5⋅\frac{sin⁡30^{∘}}{4} \\ sin⁡𝐵 & =5⋅\frac{0.5}{4} \\ sin⁡𝐵 & =0.625\end{aligned}
+
 
 
 $$
@@ -167,7 +177,9 @@ One solution to the above equation is
 $$
 
 
+
 \begin{aligned}𝐵 & =arcsin⁡(0.625) \\ & =38.68^{∘}.\end{aligned}
+
 
 
 $$
@@ -179,7 +191,9 @@ However, this is not the only solution. Another solution is given by
 $$
 
 
+
 \begin{aligned}𝐵 & =180^{∘}−arcsin⁡(0.625) \\ & =180^{∘}−38.68^{∘} \\ & =141.32^{∘}.\end{aligned}
+
 
 
 $$
@@ -241,7 +255,9 @@ Using elementary trigonometry, we have that
 $$
 
 
+
 \dfrac{h}{b} = \sin C,\qquad \dfrac{h}{c} = \sin B
+
 
 
 $$
@@ -251,7 +267,9 @@ which gives
 $$
 
 
+
 h = b\sin C,\qquad h = c\sin B.
+
 
 
 $$
@@ -261,7 +279,9 @@ Equating the two expressions for $h$ gives
 $$
 
 
+
 b\sin C = c\sin B.
+
 
 
 $$
@@ -271,7 +291,9 @@ Dividing this equation by $\sin B\sin C$ yields
 $$
 
 
+
 \begin{aligned}𝑏sin⁡𝐶 & =𝑐sin⁡𝐵 \\ \frac{𝑏sin⁡𝐶}{sin⁡𝐵sin⁡𝐶} & =\frac{𝑐sin⁡𝐵}{sin⁡𝐵sin⁡𝐶} \\ \frac{𝑏sin⁡𝐶}{sin⁡𝐵sin⁡𝐶} & =\frac{𝑐sin⁡𝐵}{sin⁡𝐵sin⁡𝐶} \\ \frac{𝑏}{sin⁡𝐵} & =\frac{𝑐}{sin⁡𝐶}.\end{aligned}
+
 
 
 $$
@@ -285,7 +307,9 @@ According to the diagram, we have
 $$
 
 
+
 \dfrac{h'}{a} = \sin B,\qquad \dfrac{h'}{b} = \sin (180^\circ - A)
+
 
 
 $$
@@ -295,7 +319,9 @@ which gives
 $$
 
 
+
 h' = a\sin B,\qquad h' = b\sin (180^\circ - A).
+
 
 
 $$
@@ -305,7 +331,9 @@ Equating the two expressions for $h'$ gives
 $$
 
 
+
 a\sin B = b\sin (180^\circ - A).
+
 
 
 $$
@@ -315,7 +343,9 @@ It can be shown that $\sin (180^\circ - A) = \sin A$ (this essentially states th
 $$
 
 
+
 a\sin B = b\sin A.
+
 
 
 $$
@@ -325,7 +355,9 @@ Dividing this equation by $\sin A\sin B$ yields
 $$
 
 
+
 \dfrac{a}{\sin A} = \dfrac{b}{\sin B}.
+
 
 
 $$
@@ -335,7 +367,9 @@ Finally, combining this with our previous result, we get
 $$
 
 
+
 \dfrac{a}{\sin A} = \dfrac{b}{\sin B} = \dfrac{c}{\sin C}
+
 
 
 $$

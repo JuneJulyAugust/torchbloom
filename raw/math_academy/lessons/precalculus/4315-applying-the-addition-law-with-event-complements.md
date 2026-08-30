@@ -18,7 +18,9 @@ Recall that the addition law for probability states that
 $$
 
 
+
 P(A\cup B)= P(A)+P(B)-P(A\cap B).
+
 
 
 $$
@@ -30,7 +32,9 @@ For example, suppose we wish to find $P(A' \cap B),$ where
 $$
 
 
+
 P(A) = \dfrac{1}{2}, \qquad P(B) = \dfrac{1}{4}, \qquad P(A \cap B) = \dfrac{3}{16}.
+
 
 
 $$
@@ -48,7 +52,9 @@ So, we start by calculating $P(A \cup B)$ using the addition law:
 $$
 
 
+
 \begin{aligned}𝑃(𝐴∪𝐵) & =𝑃(𝐴)+𝑃(𝐵)−𝑃(𝐴∩𝐵) \\ & =\frac{1}{2}+\frac{1}{4}−\frac{3}{16} \\ & =\frac{8}{16}+\frac{4}{16}−\frac{3}{16} \\ & =\frac{9}{16}\end{aligned}
+
 
 
 $$
@@ -66,7 +72,9 @@ Finally, we have
 $$
 
 
+
 P(A' \cap B) = \dfrac{1}{16}.
+
 
 
 $$
@@ -84,7 +92,9 @@ First, we calculate $P(A\cap B)$ using the addition law:
 $$
 
 
+
 \begin{aligned}𝑃(𝐴∪𝐵) & =𝑃(𝐴)+𝑃(𝐵)−𝑃(𝐴∩𝐵) \\ 0.7 & =0.3+0.5−𝑃(𝐴∩𝐵) \\ 𝑃(𝐴∩𝐵) & =0.3+0.5−0.7 \\ 𝑃(𝐴∩𝐵) & =0.1\end{aligned}
+
 
 
 $$
@@ -98,7 +108,9 @@ Finally, we have
 $$
 
 
+
 P(A'\cap B) = 0.4.
+
 
 
 $$
@@ -116,7 +128,9 @@ First, we calculate $P(B)$ using the addition law:
 $$
 
 
+
 \begin{aligned}𝑃(𝐴∪𝐵) & =𝑃(𝐴)+𝑃(𝐵)−𝑃(𝐴∩𝐵) \\ \frac{2}{3} & =\frac{1}{2}+𝑃(𝐵)−\frac{1}{6} \\ 𝑃(𝐵) & =\frac{2}{3}+\frac{1}{6}−\frac{1}{2} \\ 𝑃(𝐵) & =\frac{1}{3}\end{aligned}
+
 
 
 $$
@@ -130,7 +144,9 @@ Finally, we have
 $$
 
 
+
 P(A'\cup B') = \dfrac1{3} + \dfrac{1}{6} + \dfrac{1}{3} = \dfrac56.
+
 
 
 $$
@@ -148,7 +164,9 @@ First, we calculate $P(A)$ using the addition law:
 $$
 
 
+
 \begin{aligned}𝑃(𝐴∪𝐵) & =𝑃(𝐴)+𝑃(𝐵)−𝑃(𝐴∩𝐵) \\ 0.9 & =𝑃(𝐴)+0.6−0.4 \\ 𝑃(𝐴) & =0.9+0.4−0.6 \\ 𝑃(𝐴) & =0.7\end{aligned}
+
 
 
 $$
@@ -158,7 +176,9 @@ Therefore,
 $$
 
 
+
 \begin{aligned}𝑃(𝐴^{′}) & =1−𝑃(𝐴) \\ & =1−0.7 \\ & =0.3.\end{aligned}
+
 
 
 $$

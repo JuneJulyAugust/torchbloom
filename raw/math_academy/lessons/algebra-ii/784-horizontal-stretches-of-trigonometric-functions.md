@@ -24,7 +24,9 @@ In general, the period of $y=\sin (Bx)$ is equal to the period of $y=\sin x$ (wh
 $$
 
 
+
 \text{period} = 2\pi\cdot \dfrac{1}{B}
+
 
 
 $$
@@ -52,7 +54,9 @@ The horizontal scaling factor is given by
 $$
 
 
+
 \dfrac{1}{B} = \dfrac{1}{\left( \dfrac{1}{2} \right) } = 2.
+
 
 
 $$
@@ -62,7 +66,9 @@ So, the period is
 $$
 
 
+
 2\pi \cdot \dfrac{1}{B} = 2\pi \cdot 2= 4\pi.
+
 
 
 $$
@@ -92,7 +98,9 @@ We know that for a function $y=\sin (Bx),$ the horizontal scaling factor is $\df
 $$
 
 
+
 \text{period} = 2\pi \cdot \dfrac{1}{B}
+
 
 
 $$
@@ -102,7 +110,9 @@ For our particular function, the period is $\dfrac{2\pi}{3},$ so we have
 $$
 
 
+
 \begin{aligned}\frac{2𝜋}{3} & =2𝜋⋅\frac{1}{𝐵} \\ \frac{2𝜋}{3} & =\frac{2𝜋}{𝐵} \\ 𝐵 & =3.\end{aligned}
+
 
 
 $$
@@ -114,7 +124,9 @@ Graphs of tangent can be horizontally scaled in the same way as graphs of sine a
 $$
 
 
+
 \text{period} = \pi \cdot \dfrac{1}{B}.
+
 
 
 $$
@@ -144,7 +156,9 @@ The horizontal scaling factor is given by
 $$
 
 
+
 \dfrac{1}{B} = \dfrac{1}{\left( \dfrac{1}{4} \right)} = 4.
+
 
 
 $$
@@ -154,7 +168,9 @@ So, the period is
 $$
 
 
+
 \pi \cdot \dfrac{1}{B} = \pi \cdot 4 = 4\pi.
+
 
 
 $$
@@ -186,7 +202,9 @@ We know that for a function $y=\tan (Bx),$ the horizontal scaling factor is $\df
 $$
 
 
+
 \text{period} = \pi \cdot \dfrac{1}{B}
+
 
 
 $$
@@ -196,7 +214,9 @@ For our particular function, the period is $\dfrac{2\pi}{3},$ so we have
 $$
 
 
+
 \begin{aligned}\frac{2𝜋}{3} & =𝜋⋅\frac{1}{𝐵} \\ \frac{2}{3} & =\frac{1}{𝐵} \\ 𝐵 & =\frac{3}{2}.\end{aligned}
+
 
 
 $$

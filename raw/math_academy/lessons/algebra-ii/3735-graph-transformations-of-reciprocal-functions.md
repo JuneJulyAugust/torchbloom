@@ -17,7 +17,9 @@ In general, the graph of
 $$
 
 
+
 y=\dfrac{1}{x}+k
+
 
 
 $$
@@ -29,7 +31,9 @@ For example, to plot the function
 $$
 
 
+
 y=\dfrac{1}{x} \, {\color{blue} \, +\, 2},
+
 
 
 $$
@@ -43,7 +47,9 @@ Similarly, to plot the function
 $$
 
 
+
 y=\dfrac{1}{x} \, {\color{red} - \, 3},
+
 
 
 $$
@@ -63,7 +69,9 @@ For example, to plot the function
 $$
 
 
+
 y=-\dfrac{1}{x} \, {\color{blue} \, +\, 1.5},
+
 
 
 $$
@@ -99,7 +107,9 @@ Because we know how to plot the graph of $y=\dfrac{1}{x},$ we can also plot hori
 $$
 
 
+
 y=\dfrac{1}{x-h}
+
 
 
 $$
@@ -111,7 +121,9 @@ For example, to plot the graph of
 $$
 
 
+
 y=\dfrac{1}{x {\color{blue} \, - \, 1}},
+
 
 
 $$
@@ -125,7 +137,9 @@ The graph of
 $$
 
 
+
 y=\dfrac{1}{x+h}
+
 
 
 $$
@@ -137,7 +151,9 @@ For example, to plot the graph of
 $$
 
 
+
 y=\dfrac{1}{x{\color{red} \, + \, 3}},
+
 
 
 $$
@@ -179,7 +195,9 @@ In general, the graph of
 $$
 
 
+
 y = \dfrac{1}{x-h} + k
+
 
 
 $$
@@ -195,7 +213,9 @@ The same is true regarding translations of the negative reciprocal function. In 
 $$
 
 
+
 y = -\dfrac{1}{x-h} + k
+
 
 
 $$

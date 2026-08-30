@@ -27,7 +27,9 @@ We see that the function lies on or above the $x$-axis on the intervals
 $$
 
 
+
 (-\infty, -3] \quad \textrm{and}\quad [-1,2].
+
 
 
 $$
@@ -37,7 +39,9 @@ Therefore, the solution to the inequality $p(x) \geq 0$ is
 $$
 
 
+
 x \in (-\infty, -3] \cup [-1,2].
+
 
 
 $$
@@ -61,7 +65,9 @@ Based on the graph, the solution is
 $$
 
 
+
 x \in (-\infty, -3) \cup (-3, -1) \cup (0,2).
+
 
 
 $$
@@ -109,7 +115,9 @@ First, we factor the polynomial $f(x){:}$
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =𝑥^{3}−9𝑥 \\ & =𝑥(𝑥^{2}−9) \\ & =𝑥(𝑥+3)(𝑥−3)\end{aligned}
+
 
 
 $$
@@ -127,7 +135,9 @@ Based on the graph, the solution is
 $$
 
 
+
 x \in (-3,0) \cup (3,\infty).
+
 
 
 $$

@@ -22,7 +22,9 @@ For example, to find $\cos(-225^\circ),$ first, we find an angle that's cotermin
 $$
 
 
+
 -225^\circ + 360^\circ = 135^\circ\quad{\color{green}{\checkmark}}
+
 
 
 $$
@@ -48,7 +50,9 @@ First, we find an angle that's coterminal with $-120^\circ$ that lies in the ran
 $$
 
 
+
 -120^\circ + 360^\circ = 240^\circ\quad{\color{green}{\checkmark}}
+
 
 
 $$
@@ -78,7 +82,9 @@ First, we find an angle that's coterminal with $-210^\circ$ that lies in the ran
 $$
 
 
+
 -210^\circ + 360^\circ = 150^\circ\quad{\color{green}{\checkmark}}
+
 
 
 $$
@@ -98,7 +104,9 @@ Therefore, using the fact that $\sec\theta = \dfrac{1}{\cos\theta},$ we have
 $$
 
 
+
 \begin{aligned}sec⁡(150^{∘}) & =\frac{1}{cos⁡(150^{∘})} \\ & =\frac{1}{(−\frac{\sqrt{√3}}{2})} \\ & =−\frac{2}{\sqrt{√3}} \\ & =−\frac{2\sqrt{√3}}{3}.\end{aligned}
+
 
 
 $$
@@ -118,7 +126,9 @@ First, we find an angle that's coterminal with $-\dfrac {7\pi}{4}$ that lies in 
 $$
 
 
+
 -\dfrac{7\pi} 4 + 2\pi = \dfrac{\pi}{4}\quad{\color{green}{\checkmark}}
+
 
 
 $$
@@ -140,7 +150,9 @@ Therefore, using the fact that $\tan\theta = \dfrac{\sin\theta}{\cos\theta},$ we
 $$
 
 
+
 \begin{aligned}tan⁡(−\frac{7𝜋}{4}) & =tan⁡(\frac{𝜋}{4}) \\ & =\frac{sin⁡(\frac{𝜋}{4})}{4} \\ & =\frac{(\frac{\sqrt{√2}}{2})}{2} \\ & =1.\end{aligned}
+
 
 
 $$
@@ -154,7 +166,9 @@ For example, to find $\sin 420^\circ$, first we find an angle that's coterminal 
 $$
 
 
+
 420^\circ - 360^\circ = 60^\circ\quad{\color{green}{\checkmark}}
+
 
 
 $$
@@ -184,7 +198,9 @@ First, we find an angle that's coterminal with $\dfrac{31\pi}{6}$ that lies in t
 $$
 
 
+
 \begin{aligned}\frac{31𝜋}{6}−2𝜋=\frac{19𝜋}{6} \\ \frac{19𝜋}{6}−2𝜋=\frac{7𝜋}{6}\,✓\end{aligned}
+
 
 
 $$
@@ -206,7 +222,9 @@ Finally, then:
 $$
 
 
+
 4 \cos \left(\dfrac{31\pi}{6}\right) = 4\cdot \left(-\dfrac{\sqrt{3}}{2}\right) = -2\sqrt{3}.
+
 
 
 $$

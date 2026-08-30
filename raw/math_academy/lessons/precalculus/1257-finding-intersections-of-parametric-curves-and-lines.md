@@ -24,7 +24,9 @@ To find the coordinates of the intersection points, we perform the following two
 $$
 
 
+
 \begin{aligned}𝑥−𝑦−4 & =0 \\ (2𝑡)−(𝑡^{2}−3𝑡)−4 & =0 \\ 2𝑡−𝑡^{2}+3𝑡−4 & =0 \\ −𝑡^{2}+5𝑡−4 & =0 \\ 𝑡^{2}−5𝑡+4 & =0 \\ (𝑡−1)(𝑡−4) & =0 \\ 𝑡 & =1,4.\end{aligned}
+
 
 
 $$
@@ -54,7 +56,9 @@ To find the coordinates of intersection points, we take the equation of the line
 $$
 
 
+
 \begin{aligned}4𝑥−2𝑦−15 & =0 \\ 4(𝑡^{2})−2(2𝑡)−15 & =0 \\ 4𝑡^{2}−4𝑡−15 & =0 \\ (2𝑡−5)(2𝑡+3) & =0 \\ 𝑡 & =\frac{5}{2},−\frac{3}{2}.\end{aligned}
+
 
 
 $$
@@ -80,7 +84,9 @@ To find the coordinates of the points of intersection, we take the equation of t
 $$
 
 
+
 \begin{aligned}2𝑥−𝑦 & =0 \\ 2cos⁡𝜃−2sin⁡𝜃 & =0 \\ 2cos⁡𝜃 & =2sin⁡𝜃 \\ cos⁡𝜃 & =sin⁡𝜃 \\ 1 & =\frac{sin⁡𝜃}{cos⁡𝜃} \\ 1 & =tan⁡𝜃\end{aligned}
+
 
 
 $$
@@ -90,7 +96,9 @@ The principal value of $\theta$ is
 $$
 
 
+
 \theta = \arctan(1) = \dfrac{\pi}{4}.
+
 
 
 $$
@@ -102,7 +110,9 @@ To get a second solution, we add $\pi$ to $\theta_1\mathbin{:}$
 $$
 
 
+
 \theta_1 = \dfrac{\pi}{4} + \pi = \dfrac{5\pi}{4}
+
 
 
 $$

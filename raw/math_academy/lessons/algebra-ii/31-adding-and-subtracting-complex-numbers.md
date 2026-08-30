@@ -18,7 +18,9 @@ To add complex numbers, we just add the real parts and add the imaginary parts s
 $$
 
 
+
 \begin{aligned}(3+5i)+(2−3i) & =(3+5i)+(2−3i) \\ & =(3+2)+(5+(−\,3))i \\ & =(3+2)+(5−3)i \\ & =5+2i\end{aligned}
+
 
 
 $$
@@ -28,7 +30,9 @@ In general, we write
 $$
 
 
+
 (a + b\textrm{i}) + (c + d\textrm{i}) = (a + c) + (b + d)\textrm{i}.
+
 
 
 $$
@@ -38,7 +42,9 @@ Subtracting complex numbers works in the same way: we just subtract the real par
 $$
 
 
+
 \begin{aligned}(3+5i)−(2−3i) & =(3+5i)−(2−3i) \\ & =(3−2)+(5−(−\,3))i \\ & =(3−2)+(5+3)i \\ & =1+8i.\end{aligned}
+
 
 
 $$
@@ -48,7 +54,9 @@ In general, we write
 $$
 
 
+
 (a + b\textrm{i}) - (c + d\textrm{i}) = (a - c) + (b - d)\textrm{i}.
+
 
 
 $$
@@ -68,7 +76,9 @@ For the given problem, we have
 $$
 
 
+
 \begin{aligned}(4+3\,i)+(1+5\,i) & =(4+3\,i)+(1+5\,i) \\ & =(4+1)+(3+5)\,i \\ & =5+8\,i.\end{aligned}
+
 
 
 $$
@@ -88,7 +98,9 @@ For the given problem, we have
 $$
 
 
+
 \begin{aligned}(5+4\,i)−(1+2\,i) & =(5+4\,i)−(1+2\,i) \\ & =(5−1)+(4−2)\,i \\ & =4+2\,i.\end{aligned}
+
 
 
 $$
@@ -106,7 +118,9 @@ First, we simplify the two complex numbers:
 $$
 
 
+
 \begin{aligned}(\frac{1}{2}+\sqrt{√−9})+(3−\sqrt{√−16}) & =(\frac{1}{2}+3\,i)+(3−4\,i)\end{aligned}
+
 
 
 $$
@@ -116,7 +130,9 @@ To add these two complex numbers, we just add the real parts and add the imagina
 $$
 
 
+
 \begin{aligned}(\frac{1}{2}+3\,i)+(3−4\,i) & =(\frac{1}{2}+3)+(3+(−4))\,i \\ & =(\frac{1}{2}+3)+(3−4)\,i \\ & =\frac{7}{2}−1\,i \\ & =\frac{7}{2}−\,i\end{aligned}
+
 
 
 $$
@@ -136,7 +152,9 @@ In this case, $5\,\textrm{i}$ and $8\,\textrm{i}$ are purely imaginary numbers. 
 $$
 
 
+
 \begin{aligned}5\,i−8\,i=(5−8)\,i & =−3\,i\end{aligned}
+
 
 
 $$

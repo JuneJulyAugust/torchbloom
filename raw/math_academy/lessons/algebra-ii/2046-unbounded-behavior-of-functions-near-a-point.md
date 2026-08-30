@@ -26,7 +26,9 @@ When this happens, we say that the function approaches "infinity", or that it ha
 $$
 
 
+
 f(x) \rightarrow \infty\quad \text{as}\quad x \rightarrow 1
+
 
 
 $$
@@ -42,7 +44,9 @@ The function $g(x)$ approaches negative infinity as $x$ approaches $1.$ So, we c
 $$
 
 
+
 g(x) \rightarrow -\infty\quad \text{as } \quad x \rightarrow 1.
+
 
 
 $$
@@ -72,7 +76,9 @@ So, we can write
 $$
 
 
+
 g(x) \to -\infty \quad \text{as} \quad x \to -1.
+
 
 
 $$
@@ -88,7 +94,9 @@ So, we can write
 $$
 
 
+
 g(x) \to \infty \quad \text{as} \quad x \to 1.
+
 
 
 $$
@@ -100,7 +108,9 @@ Finally,
 $$
 
 
+
 b - a = 1 - (-1) = 2.
+
 
 
 $$
@@ -140,7 +150,9 @@ We say that the function approaches positive infinity as $x$ approaches $2$ from
 $$
 
 
+
 f(x) \rightarrow \infty \quad \text{as} \quad x \rightarrow 2^+,
+
 
 
 $$
@@ -156,7 +168,9 @@ We say that the function approaches negative infinity as $x$ approaches $2$ from
 $$
 
 
+
 g(x) \rightarrow -\infty \quad \text{as} \quad x \rightarrow 2^-,
+
 
 
 $$
@@ -194,7 +208,9 @@ An asymptote is a line that a function gets very close to but never touches. In 
 $$
 
 
+
 f(x) \rightarrow \pm \infty \quad \text{as} \quad x \rightarrow a^+
+
 
 
 $$
@@ -204,7 +220,9 @@ or
 $$
 
 
+
 f(x)\rightarrow \pm\infty \quad \text{as} \quad x \rightarrow a^-
+
 
 
 $$

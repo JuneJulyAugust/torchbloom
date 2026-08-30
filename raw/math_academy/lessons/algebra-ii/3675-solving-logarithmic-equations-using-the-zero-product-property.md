@@ -20,7 +20,9 @@ For example, suppose we want to find all of the solutions to the equation
 $$
 
 
+
 x \cdot \ln x + 3 \ln x = 0.
+
 
 
 $$
@@ -30,7 +32,9 @@ First, we factor the equation:
 $$
 
 
+
 \begin{aligned}𝑥⋅ln⁡𝑥+3ln⁡𝑥 & =0 \\ (𝑥+3)ln⁡𝑥 & =0\end{aligned}
+
 
 
 $$
@@ -40,7 +44,9 @@ We can now apply the zero product property, which states that $ab=0$ if and only
 $$
 
 
+
 x+3 = 0 \quad \textrm{and} \quad \ln x =0.
+
 
 
 $$
@@ -74,7 +80,9 @@ First, we factor the equation:
 $$
 
 
+
 \begin{aligned}𝑥^{2}log_{2}⁡(𝑥+1)−𝑥log_{2}⁡(𝑥+1)−2log_{2}⁡(𝑥+1) & =0 \\ (𝑥^{2}−𝑥−2)log_{2}⁡(𝑥+1) & =0\end{aligned}
+
 
 
 $$
@@ -84,7 +92,9 @@ We can now apply the zero product property, which states that $ab=0$ if and only
 $$
 
 
+
 x^2 - x - 2 = 0 \quad \textrm{and} \quad \log_2 (x+1) =0.
+
 
 
 $$
@@ -118,7 +128,9 @@ First, we factor the equation:
 $$
 
 
+
 \begin{aligned}3𝑥^{2}log_{3}⁡(4𝑥) & =12log_{3}⁡(4𝑥) \\ 3𝑥^{2}log_{3}⁡(4𝑥)−12log_{3}⁡(4𝑥) & =0 \\ (3𝑥^{2}−12)log_{3}⁡(4𝑥) & =0\end{aligned}
+
 
 
 $$
@@ -128,7 +140,9 @@ We can now apply the zero product property, which states that $ab=0$ if and only
 $$
 
 
+
 3x^2 -12 = 0 \quad \textrm{and} \quad \log_3 (4x) =0.
+
 
 
 $$

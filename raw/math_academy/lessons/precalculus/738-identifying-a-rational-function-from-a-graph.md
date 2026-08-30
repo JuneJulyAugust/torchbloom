@@ -26,7 +26,9 @@ From the graph, we deduce the following:
 $$
 
 
+
 f(x) = \dfrac{?}{x+1}
+
 
 
 $$
@@ -36,7 +38,9 @@ $$
 $$
 
 
+
 f(x) = \dfrac{x+2}{x+1}.
+
 
 
 $$
@@ -78,7 +82,9 @@ Therefore, only option II satisfies the above conditions:
 $$
 
 
+
 y = \dfrac{2-2x}{x^2 + 1}
+
 
 
 $$
@@ -116,7 +122,9 @@ Therefore, only option IV satisfies the above conditions:
 $$
 
 
+
 y = \dfrac{x^2 + 1}{2x^2 + 1}
+
 
 
 $$
@@ -154,7 +162,9 @@ Therefore, among the given options, the only one that satisfies the above condit
 $$
 
 
+
 y = \dfrac{2x^2 + 3}{(x-1)^2}.
+
 
 
 $$
@@ -192,7 +202,9 @@ Therefore, among the given options, the only one that satisfies the above condit
 $$
 
 
+
 y= \dfrac{4-2x}{(x+2)(x-3)}.
+
 
 
 $$

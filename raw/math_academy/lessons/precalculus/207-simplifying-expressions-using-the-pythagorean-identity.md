@@ -17,7 +17,9 @@ The Pythagorean identity is
 $$
 
 
+
 \cos^2{\theta}+\sin^2{\theta}=1.
+
 
 
 $$
@@ -27,7 +29,9 @@ We can use the Pythagorean identity to simplify trigonometric expressions. For e
 $$
 
 
+
 2\sin \theta \left(\sin \theta + \dfrac {\cos^2 \theta} {\sin \theta}\right)
+
 
 
 $$
@@ -37,7 +41,9 @@ We first expand the parentheses, and then simplify the resulting expression:
 $$
 
 
+
 \begin{aligned}2sin⁡𝜃(sin⁡𝜃+\frac{cos^{2}⁡𝜃}{sin⁡𝜃}) & =2sin^{2}⁡𝜃+2sin⁡𝜃⋅\frac{cos^{2}⁡𝜃}{sin⁡𝜃} \\ & =2sin^{2}⁡𝜃+2sin⁡𝜃⋅\frac{cos^{2}⁡𝜃}{sin⁡𝜃} \\ & =2sin^{2}⁡𝜃+2cos^{2}⁡𝜃 \\ & =2(sin^{2}⁡𝜃+cos^{2}⁡𝜃)\end{aligned}
+
 
 
 $$
@@ -47,7 +53,9 @@ Now, we can use the Pythagorean identity to rewrite the expression in the parent
 $$
 
 
+
 2(\sin^2\theta + \cos^2\theta) =2\cdot 1 = 2
+
 
 
 $$
@@ -57,7 +65,9 @@ Therefore, we conclude that
 $$
 
 
+
 2\sin \theta \left(\sin \theta + \dfrac {\cos^2 \theta} {\sin \theta}\right) = 2.
+
 
 
 $$
@@ -75,7 +85,9 @@ First, we expand the parentheses:
 $$
 
 
+
 \begin{aligned}2sin⁡𝑥cos⁡𝑥−sin^{2}⁡𝑥−cos^{2}⁡𝑥\end{aligned}
+
 
 
 $$
@@ -85,7 +97,9 @@ Next, we group the $\sin^2 x$ and $\cos^2 x$ terms.
 $$
 
 
+
 2\sin x\cos x -(\sin^2x + \cos^2 x)
+
 
 
 $$
@@ -95,7 +109,9 @@ Then, we use $\sin^2{x} + \cos^2{x} = 1$ to simplify the expression in the paren
 $$
 
 
+
 2\sin x\cos x - 1
+
 
 
 $$
@@ -105,7 +121,9 @@ Therefore, we conclude that
 $$
 
 
+
 \sin x(2\cos x - \sin x) - \cos^2x = 2\sin x\cos x - 1.
+
 
 
 $$
@@ -123,7 +141,9 @@ First, we factor $\sin^2\theta$ from the expression:
 $$
 
 
+
 \sin^4{\theta}+\sin^2{\theta}\cos^2{\theta} = \sin^2{\theta}\cdot(\sin^2{\theta}+\cos^2{\theta})
+
 
 
 $$
@@ -133,7 +153,9 @@ Then, we use $\cos^2\theta + \sin^2\theta = 1$ to simplify the expression in the
 $$
 
 
+
 \begin{aligned}sin^{2}⁡𝜃⋅(sin^{2}⁡𝜃+cos^{2}) & =sin^{2}⁡𝜃⋅1=sin^{2}⁡𝜃\end{aligned}
+
 
 
 $$
@@ -143,7 +165,9 @@ Therefore, we conclude that
 $$
 
 
+
 \sin^4{\theta}+\sin^2{\theta}\cos^2{\theta} = \sin^2\theta.
+
 
 
 $$
@@ -161,7 +185,9 @@ First, we factor the numerator:
 $$
 
 
+
 \dfrac {\cos \theta \sin^2 \theta + \cos^3 \theta} {\sin \theta} = \dfrac {\cos \theta \cdot (\sin^2 \theta + \cos^2 \theta)} {\sin \theta}
+
 
 
 $$
@@ -171,7 +197,9 @@ Next, we use the Pythagorean identity to rewrite the expression in the parenthes
 $$
 
 
+
 \begin{aligned}\frac{cos⁡𝜃⋅(sin^{2}⁡𝜃+cos^{2}⁡𝜃)}{sin⁡𝜃} & =\frac{cos⁡𝜃⋅(1)}{sin⁡𝜃} \\ & =\frac{cos⁡𝜃}{sin⁡𝜃} \\ & =cot⁡𝜃\end{aligned}
+
 
 
 $$
@@ -181,7 +209,9 @@ Therefore, we conclude that:
 $$
 
 
+
 \dfrac {\cos \theta \sin^2 \theta + \cos^3 \theta} {\sin \theta} = \cot \theta.
+
 
 
 $$
@@ -199,7 +229,9 @@ First, we rewrite the second term using the identity $\cot \theta = \dfrac{\cos\
 $$
 
 
+
 \dfrac{\sin{\theta}}{1+\cos{\theta}}+\dfrac{\cos{\theta}}{\sin{\theta}}
+
 
 
 $$
@@ -209,7 +241,9 @@ Next, we put both terms over a common denominator, and combine the two fractions
 $$
 
 
+
 \begin{aligned}\frac{sin⁡𝜃⋅sin⁡𝜃}{sin⁡𝜃(1+cos⁡𝜃)}+\frac{cos⁡𝜃⋅(1+cos⁡𝜃)}{sin⁡𝜃(1+cos⁡𝜃)} & = \\ \frac{sin⁡𝜃⋅sin⁡𝜃+cos⁡𝜃⋅(1+cos⁡𝜃)}{sin⁡𝜃(1+cos⁡𝜃)} & \end{aligned}
+
 
 
 $$
@@ -219,7 +253,9 @@ Finally, we simplify as follows:
 $$
 
 
+
 \begin{aligned}\frac{sin^{2}⁡𝜃+cos⁡𝜃+cos^{2}⁡𝜃}{sin⁡𝜃(1+cos⁡𝜃)} & = \\ \frac{(sin^{2}⁡𝜃+cos^{2}⁡𝜃)+cos⁡𝜃}{sin⁡𝜃(1+cos⁡𝜃)} & = \\ \frac{1+cos⁡𝜃}{sin⁡𝜃(1+cos⁡𝜃)} & = \\ \frac{1}{sin⁡𝜃} & = \\ csc⁡𝜃 & \end{aligned}
+
 
 
 $$
@@ -229,7 +265,9 @@ Therefore, we conclude that
 $$
 
 
+
 \dfrac{\sin{\theta}}{1+\cos{\theta}}+\cot{\theta} = \csc\theta.
+
 
 
 $$

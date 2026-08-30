@@ -16,7 +16,9 @@ Recall that the cross product of two vectors $\mathbf{a}$ and $\mathbf{b}$ is de
 $$
 
 
+
 \mathbf{a}\times\mathbf{b} = | \, \mathbf{a} \, | \cdot | \, \mathbf{b} \, | \cdot \sin\theta \cdot \mathbf{n},
+
 
 
 $$
@@ -58,7 +60,9 @@ With that in mind, let's evaluate our expression:
 $$
 
 
+
 \begin{aligned}(−2𝐚+5𝐛)×𝐜 & =(−2𝐚)×𝐜+(5𝐛)×𝐜\end{aligned}
+
 
 
 $$
@@ -70,7 +74,9 @@ $$
 $$
 
 
+
 \begin{aligned}−2(𝐚×𝐜)+5(𝐛×𝐜) & =−2⋅(𝐢)+5⋅(−3𝐢+𝐣) \\ & =−2𝐢−15𝐢+5𝐣 \\ & =−17𝐢+5𝐣\end{aligned}
+
 
 
 $$
@@ -84,7 +90,9 @@ More specifically, it is **anticommutative**, meaning that if we swap the order 
 $$
 
 
+
 \mathbf{a} \times \mathbf{b} = -\mathbf{b} \times \mathbf{a}
+
 
 
 $$
@@ -118,7 +126,9 @@ So, $\mathbf a \times \mathbf b$ and $\mathbf b \times \mathbf a$ have the *same
 $$
 
 
+
 \mathbf a \times \mathbf b = -\mathbf b \times \mathbf a.
+
 
 
 $$

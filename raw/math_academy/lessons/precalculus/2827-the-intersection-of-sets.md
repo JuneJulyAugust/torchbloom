@@ -27,7 +27,9 @@ The only element that is contained in both $A$ and $B$ is $b.$ Therefore,
 $$
 
 
+
 A \cap B = \{ b \}.
+
 
 
 $$
@@ -51,7 +53,9 @@ The elements $1,$ $2,$ and $8$ are in both $X$ and $Y.$ Therefore, the intersect
 $$
 
 
+
 X \cap Y = \{ 1,2,8 \}.
+
 
 
 $$
@@ -77,7 +81,9 @@ Therefore, the intersection of $A$ and $B$ is
 $$
 
 
+
 A \cap B = \{ b \}.
+
 
 
 $$
@@ -95,7 +101,9 @@ The intersection $X \cap Y$ is the set of all elements belonging to both $X$ and
 $$
 
 
+
 \begin{aligned}𝑋∩𝑌 & ={2,5,7,8}∩{1,3,5} \\ & ={5}.\end{aligned}
+
 
 
 $$
@@ -105,7 +113,9 @@ The intersection $Y \cap Z$ is the set of all elements belonging to both $Y$ and
 $$
 
 
+
 \begin{aligned}𝑌∩𝑍 & ={1,3,5}∩{2,4,6,8} \\ & ={} \\ & =∅.\end{aligned}
+
 
 
 $$
@@ -115,7 +125,9 @@ The intersection $Z \cap X$ is the set of all elements belonging to both $Z$ and
 $$
 
 
+
 \begin{aligned}𝑍∩𝑋 & ={2,4,6,8}∩{2,5,7,8} \\ & ={2,8}.\end{aligned}
+
 
 
 $$
@@ -133,7 +145,9 @@ The multiples of $4$ that are greater than $0$ are
 $$
 
 
+
 A = \{ 4,8,12,16,20,24,28,32, 36 \ldots \}.
+
 
 
 $$
@@ -143,7 +157,9 @@ Likewise, multiples of $6$ that are greater than $0$ are
 $$
 
 
+
 B = \{ 6,12,18,24,30,36,\ldots \}.
+
 
 
 $$
@@ -155,7 +171,9 @@ Therefore, we have
 $$
 
 
+
 \begin{aligned}𝐴∩𝐵 & ={4,8,12,16,20,24,28,32,36,…}∩{6,12,18,24,30,36,…} \\ & ={12,24,36,…}.\end{aligned}
+
 
 
 $$

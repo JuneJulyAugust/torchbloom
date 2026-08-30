@@ -20,7 +20,9 @@ We can use polar coordinates to express any radial line in a simple way. For any
 $$
 
 
+
 \theta=K,
+
 
 
 $$
@@ -36,7 +38,9 @@ Since the polar angle at every point on the line is $\dfrac{\pi}{6},$ its equati
 $$
 
 
+
 \theta = \dfrac{\pi}{6}.
+
 
 
 $$
@@ -46,7 +50,9 @@ Notice that the same radial line expressed in Cartesian coordinates is
 $$
 
 
+
 y = \dfrac{\sqrt 3}{3}x, \qquad x\geq 0.
+
 
 
 $$
@@ -82,7 +88,9 @@ The counterclockwise angle that the ray makes with the positive $x$-axis is
 $$
 
 
+
 \pi+\dfrac{\pi}{4}=\dfrac{5\pi}{4}.
+
 
 
 $$
@@ -104,7 +112,9 @@ First, we find the reference angle associated with the point:
 $$
 
 
+
 \begin{aligned}𝜃_{𝑅} & =arctan⁡\frac{𝑦}{𝑥} \\ & =arctan⁡\frac{−2\sqrt{√3}}{6} \\ & =arctan⁡(\frac{\sqrt{√3}}{3}) \\ & =\frac{𝜋}{6}\end{aligned}
+
 
 
 $$
@@ -114,7 +124,9 @@ Now, notice that the ray lies in the fourth quadrant. So, we find the angle in t
 $$
 
 
+
 \begin{aligned}𝜃 & =2𝜋−𝜃_{𝑅} \\ & =2𝜋−\frac{𝜋}{6} \\ & =\frac{11𝜋}{6}.\end{aligned}
+
 
 
 $$
@@ -124,7 +136,9 @@ Therefore, the polar equation of the ray is
 $$
 
 
+
 \theta = \dfrac{11\pi}{6}.
+
 
 
 $$
@@ -144,7 +158,9 @@ The polar coordinates of $P$ are $(r, \theta) = \left(7, \dfrac{4\pi}{3}\right).
 $$
 
 
+
 \begin{aligned}𝑥 & =𝑟cos⁡𝜃 \\ & =7cos⁡(\frac{4𝜋}{3}) \\ & =7⋅(−\frac{1}{2}) \\ & =−\frac{7}{2} \\ 𝑦 & =𝑟sin⁡𝜃 \\ & =7sin⁡(\frac{4𝜋}{3}) \\ & =7⋅(−\frac{\sqrt{√3}}{2}) \\ & =−\frac{7\sqrt{√3}}{2}\end{aligned}
+
 
 
 $$

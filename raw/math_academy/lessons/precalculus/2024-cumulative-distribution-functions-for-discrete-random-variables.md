@@ -17,7 +17,9 @@ The **cumulative distribution function** (or **CDF**) of a discrete random varia
 $$
 
 
+
 F(x) = P(X \leq x).
+
 
 
 $$
@@ -35,7 +37,9 @@ One benefit to using a cumulative distribution function is that it allows us to 
 $$
 
 
+
 P(a < X \leq b) = F(b) - F(a)
+
 
 
 $$
@@ -45,7 +49,9 @@ Continuing the example above, if we want to calculate the probability that the r
 $$
 
 
+
 \begin{aligned}𝑃(2<𝑋≤5) & =𝐹(5)−𝐹(2) \\ & =\frac{5}{6}−\frac{1}{3} \\ & =\frac{5}{6}−\frac{2}{6} \\ & =\frac{3}{6} \\ & =\frac{1}{2}\end{aligned}
+
 
 
 $$
@@ -65,7 +71,9 @@ The cumulative distribution function of a discrete random variable $Y$ is the fu
 $$
 
 
+
 F(y) = P(Y \leq y).
+
 
 
 $$
@@ -75,7 +83,9 @@ So, we have
 $$
 
 
+
 \begin{aligned}𝐹(2) & =𝑃(𝑌≤2) \\ & =𝑃(𝑌∈{1,2}) \\ & =𝑃(𝑌=1)+𝑃(𝑌=2) \\ & =𝑓(1)+𝑓(2) \\ & =\frac{1}{2}+\frac{1}{8} \\ & =\frac{5}{8}.\end{aligned}
+
 
 
 $$
@@ -93,7 +103,9 @@ The cumulative distribution function of a discrete random variable $X$ is the fu
 $$
 
 
+
 F(x) = P(X \leq x).
+
 
 
 $$
@@ -103,7 +115,9 @@ So, we have
 $$
 
 
+
 \begin{aligned}𝐹(5) & =𝑃(𝑋≤5) \\ & =𝑃(𝑋∈{1,3,5}) \\ & =𝑃(𝑋=1)+𝑃(𝑋=3)+𝑃(𝑋=5) \\ & =𝑃(𝑋∈{1,3})+𝑃(𝑋=5) \\ & =𝑃(𝑋≤3)+𝑃(𝑋=5) \\ & =𝐹(3)+𝑃(𝑋=5).\end{aligned}
+
 
 
 $$
@@ -113,7 +127,9 @@ Therefore,
 $$
 
 
+
 \begin{aligned}𝑃(𝑋=5) & =𝐹(5)−𝐹(3) \\ & =0.50−0.45 \\ & =0.05.\end{aligned}
+
 
 
 $$
@@ -131,7 +147,9 @@ The cumulative distribution function of a discrete random variable $Y$ is the fu
 $$
 
 
+
 F(y) = P(Y \leq y).
+
 
 
 $$
@@ -141,7 +159,9 @@ To compute the probability of a random variable $Y$ over an interval, we can use
 $$
 
 
+
 P(a < X \leq b) = F(b) - F(a).
+
 
 
 $$
@@ -153,7 +173,9 @@ So first, we must convert the interval $2 \leq Y < 5$ to the form $a < X \leq b.
 $$
 
 
+
 \begin{aligned}𝑃(2≤𝑌<5) & =𝑃(1<𝑌≤4) \\ & =𝐹(4)−𝐹(1) \\ & =\frac{3}{4}−\frac{1}{4} \\ & =\frac{1}{2}.\end{aligned}
+
 
 
 $$
@@ -165,7 +187,9 @@ So far, we've used cumulative distribution functions to compute probabilities of
 $$
 
 
+
 P(X \leq x) = F(x)
+
 
 
 $$
@@ -175,7 +199,9 @@ and
 $$
 
 
+
 P(a < X \leq b) = F(b) - F(a).
+
 
 
 $$
@@ -187,7 +213,9 @@ Indeed, there is. Recall the following rule of probability:
 $$
 
 
+
 P(X > a) = 1 - P(X\leq a)
+
 
 
 $$
@@ -197,7 +225,9 @@ Substituting $P(X \leq a) = F(a)$ into the above formula, we have
 $$
 
 
+
 P(X > a) = 1-F(a).
+
 
 
 $$
@@ -215,7 +245,9 @@ The cumulative distribution function of a discrete random variable $X$ is the fu
 $$
 
 
+
 F(x) = P(X \leq x).
+
 
 
 $$
@@ -225,7 +257,9 @@ To solve the given problem, we can use the rule
 $$
 
 
+
 P(X > a) = 1 - P(X\leq a) = 1-F(a).
+
 
 
 $$
@@ -235,7 +269,9 @@ In our case, we have
 $$
 
 
+
 \begin{aligned}𝑃(𝑋>2) & =1−𝑃(𝑋≤2) \\ & =1−𝐹(2) \\ & =1−0.6 \\ & =0.4.\end{aligned}
+
 
 
 $$

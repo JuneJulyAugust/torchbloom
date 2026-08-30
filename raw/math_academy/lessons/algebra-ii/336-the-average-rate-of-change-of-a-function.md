@@ -33,7 +33,9 @@ Let $f(x)=2x^2.$ Applying the formula for the average rate of change, we get
 $$
 
 
+
 \begin{aligned}\frac{Δ𝑦}{Δ𝑥} & =\frac{𝑓(𝑏)−𝑓(𝑎)}{𝑏−𝑎} \\ & =\frac{𝑓(5)−𝑓(0)}{5−(0)} \\ & =\frac{(2(5)^{2})−(2(0)^{2})}{5} \\ & =\frac{50}{5} \\ & =10.\end{aligned}
+
 
 
 $$
@@ -51,7 +53,9 @@ Using the formula for the average rate of change, we get
 $$
 
 
+
 \begin{aligned}\frac{Δ𝑓}{Δ𝑥} & =\frac{𝑓(𝑏)−𝑓(𝑎)}{𝑏−𝑎} \\ & =\frac{𝑓(2)−𝑓(−1)}{2−(−1)} \\ & =\frac{6−(−3)}{2−(−1)} \\ & =3.\end{aligned}
+
 
 
 $$
@@ -71,7 +75,9 @@ Applying the formula, we get
 $$
 
 
+
 \begin{aligned}\frac{Δ𝑓}{Δ𝑥} & =\frac{𝑓(𝑏)−𝑓(𝑎)}{𝑏−𝑎} \\ & =\frac{𝑓(6)−𝑓(0)}{6} \\ & =\frac{2\sqrt{√6}+1−(2\sqrt{√0}+1)}{6} \\ & =\frac{2\sqrt{√6}}{6} \\ & =\frac{\sqrt{√6}}{3}.\end{aligned}
+
 
 
 $$
@@ -91,7 +97,9 @@ We have $\dfrac{\Delta f}{\Delta x}=0$ if and only if $\Delta f = 0.$ So
 $$
 
 
+
 \begin{aligned} & Δ𝑓=0 \\ & 𝑓(𝑏)−𝑓(𝑎)=0 \\ & 𝑓(𝑏)=𝑓(𝑎).\end{aligned}
+
 
 
 $$

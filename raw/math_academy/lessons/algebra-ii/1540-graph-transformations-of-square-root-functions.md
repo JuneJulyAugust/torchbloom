@@ -135,7 +135,9 @@ First, let's re-write the expression as follows:
 $$
 
 
+
 y=\sqrt{2-x}=\sqrt{-(x-2)}
+
 
 
 $$

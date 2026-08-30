@@ -18,7 +18,9 @@ If there are $n$ experiments and $p$ is the probability of success on each exper
 $$
 
 
+
 f(x) = \binom{n}{x} p^x (1-p)^{n-x}, \qquad x=0,1,2, \ldots, n
+
 
 
 $$
@@ -36,7 +38,9 @@ So, the number of heads has the following probability mass function:
 $$
 
 
+
 \begin{aligned}𝑓(𝑥) & =(\frac{5}{𝑥})(\frac{1}{2})^{𝑥}(1−\frac{1}{2})^{5−𝑥} \\ & =(\frac{5}{𝑥})(\frac{1}{2})^{𝑥}(\frac{1}{2})^{5−𝑥} \\ & =(\frac{5}{𝑥})(\frac{1}{2})^{5}\end{aligned}
+
 
 
 $$
@@ -46,7 +50,9 @@ When a random variable $X$ follows a binomial distribution consisting of $n$ exp
 $$
 
 
+
 X\sim B(n,p).
+
 
 
 $$
@@ -102,7 +108,9 @@ The number of successes of a binomial random variable has the probability mass f
 $$
 
 
+
 P(X=x) = \binom{n}{x} p^x (1-p)^{n-x},
+
 
 
 $$
@@ -114,7 +122,9 @@ Substituting the above information into the formula for probability mass functio
 $$
 
 
+
 \begin{aligned}𝑃(𝑋=3) & =(\frac{5}{3})(0.75)^{3}(1−0.75)^{5−3} \\ & =\frac{5!}{3!(5−3)!}(0.75)^{3}(0.25)^{2} \\ & =10(0.75)^{3}(0.25)^{2} \\ & =0.264\end{aligned}
+
 
 
 $$
@@ -144,7 +154,9 @@ The number of successes of a binomial random variable has the probability mass f
 $$
 
 
+
 P(X=x) = \binom{n}{x} p^x (1-p)^{n-x},
+
 
 
 $$
@@ -156,7 +168,9 @@ Substituting the above information into the formula for probability mass functio
 $$
 
 
+
 \begin{aligned}𝑃(𝑋=𝑥) & =(\frac{8}{𝑥})(0.5)^{𝑥}(1−0.5)^{8−𝑥} \\ & =(\frac{8}{𝑥})(0.5)^{𝑥}(0.5)^{8−𝑥}.\end{aligned}
+
 
 
 $$
@@ -166,7 +180,9 @@ We want to find the probability of rolling an even number at least $7$ times. So
 $$
 
 
+
 \begin{aligned}𝑃(𝑋≥7) & =𝑃(𝑋=7)+𝑃(𝑋=8) \\ & =(\frac{8}{7})(0.5)^{7}(0.5)^{8−7}+(\frac{8}{8})(0.5)^{8}(0.5)^{8−8} \\ & =8(0.5)^{7}(0.5)+1(0.5)^{8} \\ & =0.035\end{aligned}
+
 
 
 $$
@@ -196,7 +212,9 @@ The number of successes of a binomial random variable has the probability mass f
 $$
 
 
+
 P(X=x) = \binom{n}{x} p^x (1-p)^{n-x},
+
 
 
 $$
@@ -208,7 +226,9 @@ Substituting the above information into the formula for probability mass functio
 $$
 
 
+
 \begin{aligned}𝑃(𝑋=𝑥) & =(\frac{12}{𝑥})(0.4)^{𝑥}(1−0.4)^{12−𝑥} \\ & =(\frac{12}{𝑥})(0.4)^{𝑥}(0.6)^{12−𝑥}.\end{aligned}
+
 
 
 $$
@@ -220,7 +240,9 @@ However, computing
 $$
 
 
+
 P(X \geq 2) = P(X=2) + P(X=3) + \ldots + P(X=12)
+
 
 
 $$
@@ -230,7 +252,9 @@ will involve many computations, so let's express our answer in terms of the comp
 $$
 
 
+
 \begin{aligned}𝑃(𝑋≥2) & =1−𝑃(𝑋<2) \\ & =1−[𝑃(𝑋=0)+𝑃(𝑋=1)] \\ & =1−[(\frac{12}{0})(0.4)^{0}(0.6)^{12−0}+(\frac{12}{1})(0.4)^{1}(0.6)^{12−1}] \\ & =1−[(0.6)^{12}+12(0.4)(0.6)^{11}] \\ & =1−0.019\,591 \\ & =0.980\end{aligned}
+
 
 
 $$

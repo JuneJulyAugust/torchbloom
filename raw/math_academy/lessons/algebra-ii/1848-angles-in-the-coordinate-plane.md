@@ -62,7 +62,9 @@ To convert the measure of an angle in radians to an equivalent measure in degree
 $$
 
 
+
 \left(\dfrac{2\pi} 5\right) \cdot \left(\dfrac {180^\circ} {\pi}\right) = 72^\circ.
+
 
 
 $$
@@ -126,7 +128,9 @@ Using the tangent ratio, we have
 $$
 
 
+
 \tan\theta = \dfrac{1}{\sqrt 3} = \dfrac{\sqrt 3}{3}.
+
 
 
 $$
@@ -136,7 +140,9 @@ Finally, using the inverse tangent, we get
 $$
 
 
+
 \theta = \arctan{\left( \dfrac{\sqrt 3}{3} \right)} = 30^\circ.
+
 
 
 $$

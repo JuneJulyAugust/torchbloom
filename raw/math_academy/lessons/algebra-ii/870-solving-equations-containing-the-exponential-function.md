@@ -16,7 +16,9 @@ Suppose we are given an equation containing an exponential function, such as
 $$
 
 
+
 e^{t}= 12.
+
 
 
 $$
@@ -28,7 +30,9 @@ Here, the base of the exponential is $e,$ so we take the *natural* logarithm of 
 $$
 
 
+
 \log_e{x} = \ln{x}.
+
 
 
 $$
@@ -38,7 +42,9 @@ Taking the natural logarithm of both sides, we have that
 $$
 
 
+
 \begin{aligned}𝑒^{𝑡} & =12 \\ ln⁡(𝑒^{𝑡}) & =ln⁡(12).\end{aligned}
+
 
 
 $$
@@ -48,7 +54,9 @@ Now, we use the fact that $\ln \left(e^a \right) = a$ to simplify the left-hand 
 $$
 
 
+
 t = \ln (12).
+
 
 
 $$
@@ -68,7 +76,9 @@ First, we take the natural logarithm $\left(\ln\right)$ of both sides of the equ
 $$
 
 
+
 \begin{aligned}𝑒^{𝑥−3} & =2^{5} \\ ln⁡(𝑒^{𝑥−3}) & =ln⁡(2^{5})\end{aligned}
+
 
 
 $$
@@ -78,7 +88,9 @@ Now, we use the fact that $\ln \left(e^a \right) = a$ to simplify the left-hand 
 $$
 
 
+
 x-3 = \ln \left( 2^5 \right).
+
 
 
 $$
@@ -88,7 +100,9 @@ Finally, we solve for $x$ and rewrite the right-hand side using the power law of
 $$
 
 
+
 \begin{aligned}𝑥−3 & =ln⁡(2^{5}) \\ 𝑥 & =ln⁡(2^{5})+3 \\ 𝑥 & =5ln⁡(2)+3\end{aligned}
+
 
 
 $$
@@ -108,7 +122,9 @@ First, we take the natural logarithm $(\ln)$ of both sides of the equation and s
 $$
 
 
+
 \begin{aligned}𝑒^{2−4𝑥} & =2 \\ ln⁡(𝑒^{2−4𝑥}) & =ln⁡(2) \\ 2−4𝑥 & =ln⁡(2) \\ −4𝑥 & =ln⁡(2)−2 \\ 𝑥 & =\frac{1}{2}−\frac{ln⁡(2)}{4}\end{aligned}
+
 
 
 $$
@@ -118,7 +134,9 @@ Evaluating the above expression using a calculator gives
 $$
 
 
+
 x \approx 0.327
+
 
 
 $$
@@ -138,7 +156,9 @@ First, we isolate the exponential, as follows:
 $$
 
 
+
 \begin{aligned}𝑒^{𝑥+1}+1 & =3 \\ 𝑒^{𝑥+1} & =2\end{aligned}
+
 
 
 $$
@@ -148,7 +168,9 @@ Then, we find the natural logarithm $\left(\ln\right)$ of both sides of the equa
 $$
 
 
+
 \begin{aligned}𝑒^{𝑥+1} & =2 \\ ln⁡(𝑒^{𝑥+1}) & =ln⁡(2) \\ 𝑥+1 & =ln⁡(2) \\ 𝑥 & =ln⁡(2)−1\end{aligned}
+
 
 
 $$

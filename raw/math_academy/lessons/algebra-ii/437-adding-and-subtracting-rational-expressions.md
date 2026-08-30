@@ -17,7 +17,9 @@ When two fractions have the same denominator, we add the numerators. For example
 $$
 
 
+
 \dfrac 1 7 + \dfrac 5 7 = \dfrac{1+5}{7} = \dfrac 6 7.
+
 
 
 $$
@@ -29,7 +31,9 @@ It works the same with rational expressions! So suppose that we want to add
 $$
 
 
+
 \dfrac{1}{x} + \dfrac{5}{x}.
+
 
 
 $$
@@ -39,7 +43,9 @@ Because both fractions have the same denominator of $x,$ we can add the numerato
 $$
 
 
+
 \dfrac{1}{x} + \dfrac{5}{x} = \dfrac{1+5}{x} = \dfrac{6}{x}
+
 
 
 $$
@@ -59,7 +65,9 @@ We have a common denominator of $2a,$ so we add the numerators and simplify:
 $$
 
 
+
 \begin{aligned}\frac{2+𝑎}{2𝑎}+\frac{3+2𝑎}{2𝑎} & = \\ \frac{2+𝑎+3+2𝑎}{2𝑎} & = \\ \frac{2+3+𝑎+2𝑎}{2𝑎} & = \\ \frac{5+3𝑎}{2𝑎} & \end{aligned}
+
 
 
 $$
@@ -71,7 +79,9 @@ Remember that in order to add fractions with different denominators, like $\dfra
 $$
 
 
+
 \begin{aligned}\frac{1}{4}+\frac{1}{8} & = \\ \frac{2}{8}+\frac{1}{8} & = \\ \frac{3}{8} & \end{aligned}
+
 
 
 $$
@@ -91,7 +101,9 @@ We wish to add the following fractions:
 $$
 
 
+
 a+b = \dfrac 3 {2x} + \dfrac y x
+
 
 
 $$
@@ -101,7 +113,9 @@ In order to add the two fractions, we need them to have a common denominator. He
 $$
 
 
+
 \begin{aligned} \dfrac 3 {2x} + \dfrac y x &= \\\[5pt] \dfrac 3 {2x} + \dfrac 2 2 \cdot \dfrac y x &= \\\[5pt] \dfrac 3 {2x} + \dfrac {2y} {2x} &= \\\[5pt] \dfrac {3 + 2y} {2x} \end{aligned}
+
 
 
 $$
@@ -119,7 +133,9 @@ In order to add the two fractions, we need them to have a common denominator. He
 $$
 
 
+
 \begin{aligned}\frac{𝑦}{𝑥(1+𝑦)}+\frac{𝑦}{1+𝑦} & = \\ \frac{𝑦}{𝑥(1+𝑦)}+\frac{𝑥}{𝑥}⋅\frac{𝑦}{1+𝑦} & = \\ \frac{𝑦}{𝑥(1+𝑦)}+\frac{𝑥𝑦}{𝑥(1+𝑦)} & = \\ \frac{𝑦+𝑥𝑦}{𝑥(1+𝑦)} & = \\ \frac{𝑦(1+𝑥)}{𝑥(1+𝑦)} & \end{aligned}
+
 
 
 $$

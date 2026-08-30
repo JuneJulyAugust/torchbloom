@@ -17,7 +17,9 @@ The **normal distribution** has the probability density function
 $$
 
 
+
 f(x) = \dfrac{1}{\sigma \sqrt{2\pi}} e^{-\frac{1}{2} \left( \frac{x-\mu}{\sigma} \right)^2},
+
 
 
 $$
@@ -37,7 +39,9 @@ To compute a probability involving a normally distributed variable $X \sim N(\mu
 $$
 
 
+
 Z = \dfrac{X - \mu}{\sigma}
+
 
 
 $$
@@ -47,7 +51,9 @@ So, we have
 $$
 
 
+
 P(X < x) = P \left( Z < \dfrac{x-\mu}{\sigma} \right)
+
 
 
 $$
@@ -61,7 +67,9 @@ The $z$-table above shows the cumulative probabilities for a normal random varia
 $$
 
 
+
 \begin{aligned}𝑃(𝑋≤1.4) & =𝑃(𝑍≤\frac{1.4−1}{2}) \\ & =𝑃(𝑍≤0.2)\end{aligned}
+
 
 
 $$
@@ -71,7 +79,9 @@ According to the table, we have
 $$
 
 
+
 P(Z \leq 0.2) = 0.5793 .
+
 
 
 $$
@@ -81,7 +91,9 @@ Therefore,
 $$
 
 
+
 P(X \leq 1.4) = 0.5793.
+
 
 
 $$
@@ -99,7 +111,9 @@ Given a normal random variable $X \sim N(\mu, \sigma^2),$ we have
 $$
 
 
+
 P(X < x) = P \left( Z < \dfrac{x-\mu}{\sigma} \right)
+
 
 
 $$
@@ -111,7 +125,9 @@ First, we transform $X$ into a standard normal random variable $Z$ by $z$-scorin
 $$
 
 
+
 \begin{aligned}𝑃(𝑋<1.24) & =𝑃(𝑍<\frac{1.24−2}{2}) \\ & =𝑃(𝑍<−0.38) \\ & =𝑃(𝑍≤−0.38) \\ & =Φ(−0.38)\end{aligned}
+
 
 
 $$
@@ -125,7 +141,9 @@ According to the table, we have
 $$
 
 
+
 \Phi(-0.38) = 0.3520.
+
 
 
 $$
@@ -135,7 +153,9 @@ Therefore, we conclude that
 $$
 
 
+
 P(X < 1.24) = 0.3520.
+
 
 
 $$
@@ -153,7 +173,9 @@ Given a normal random variable $Y \sim N(\mu, \sigma^2),$ we have
 $$
 
 
+
 P(Y \geq y) = P \left( Z \geq \dfrac{y-\mu}{\sigma} \right)
+
 
 
 $$
@@ -165,7 +187,9 @@ First, we transform $Y$ into a standard normal random variable $Z$ by $z$-scorin
 $$
 
 
+
 \begin{aligned}𝑃(𝑌≥2.92) & =𝑃(𝑍≥\frac{2.92−5}{4}) \\ & =𝑃(𝑍≥−0.52)\end{aligned}
+
 
 
 $$
@@ -179,7 +203,9 @@ Now, we express the required probability in terms of $\Phi(z)\mathbin{:}$
 $$
 
 
+
 \begin{aligned}𝑃(𝑍≥−0.52) & =1−𝑃(𝑍<−0.52) \\ & =1−𝑃(𝑍≤−0.52) \\ & =1−Φ(−0.52)\end{aligned}
+
 
 
 $$
@@ -189,7 +215,9 @@ From the table, we know that
 $$
 
 
+
 \Phi(-0.52) =0.3015.
+
 
 
 $$
@@ -199,7 +227,9 @@ Therefore, we have
 $$
 
 
+
 \begin{aligned}𝑃(𝑍≥−0.52) & =1−Φ(−0.52) \\ & =1−0.3015 \\ & =0.6985.\end{aligned}
+
 
 
 $$
@@ -209,7 +239,9 @@ Finally, we conclude that
 $$
 
 
+
 P(Y \geq 2.92) = 0.6985.
+
 
 
 $$
@@ -227,7 +259,9 @@ Given a normal random variable $X \sim N(\mu, \sigma^2),$ we have
 $$
 
 
+
 P(a < X < b) = P \left( \dfrac{a-\mu}{\sigma} < Z < \dfrac{b-\mu}{\sigma} \right)
+
 
 
 $$
@@ -239,7 +273,9 @@ First, we transform $X$ into a standard normal random variable $Z$ by $z$-scorin
 $$
 
 
+
 \begin{aligned}𝑃(−1.13<𝑋<3.25) & =𝑃(\frac{−1.13−1}{3}<𝑍<\frac{3.25−1}{3}) \\ & =𝑃(−0.71<𝑍<0.75)\end{aligned}
+
 
 
 $$
@@ -253,7 +289,9 @@ Now, we express the required probability in terms of $\Phi(z)\mathbin{:}$
 $$
 
 
+
 \begin{aligned}𝑃(−0.71<𝑍<0.75) & =𝑃(𝑍<0.75)−𝑃(𝑍≤−0.71) \\ & =𝑃(𝑍≤0.75)−𝑃(𝑍≤−0.71) \\ & =Φ(0.75)−Φ(−0.71)\end{aligned}
+
 
 
 $$
@@ -263,7 +301,9 @@ From the table, we have the following:
 $$
 
 
+
 \begin{aligned}Φ(−0.71) & =0.2389 \\ Φ(0.75) & =0.7734\end{aligned}
+
 
 
 $$
@@ -273,7 +313,9 @@ Therefore, we have
 $$
 
 
+
 \begin{aligned}𝑃(−0.71<𝑍<0.75) & =Φ(0.75)−Φ(−0.71) \\ & =0.7734−0.2389 \\ & =0.5345.\end{aligned}
+
 
 
 $$
@@ -283,7 +325,9 @@ Finally, we conclude that
 $$
 
 
+
 P(-1.13< X < 3.25) = 0.5345.
+
 
 
 $$

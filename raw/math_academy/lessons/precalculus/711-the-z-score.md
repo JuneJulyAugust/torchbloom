@@ -20,7 +20,9 @@ To determine how good the student's score is, we can calculate the **$z$-score**
 $$
 
 
+
 z = \frac{x-\overline{x}}{\sigma}.
+
 
 
 $$
@@ -38,7 +40,9 @@ In this particular example, the student's $z$-score is
 $$
 
 
+
 z = \dfrac{82 - 75}{3.5} = 2.
+
 
 
 $$
@@ -58,7 +62,9 @@ The $z$-score of an observation $x$ is defined by
 $$
 
 
+
 z = \frac{x-\overline{x}}{\sigma}.
+
 
 
 $$
@@ -70,7 +76,9 @@ Here, we're told that the mean is $\overline{x}=15,$ and we can calculate the st
 $$
 
 
+
 \sigma = \sqrt{\sigma^2} = \sqrt{3.25}.
+
 
 
 $$
@@ -80,7 +88,9 @@ So, the $z$-score of the observation $x=17.3$ is given by
 $$
 
 
+
 \begin{aligned}𝑧 & =\frac{𝑥−\overset{𝑥}{}}{𝜎} \\ & ≈\frac{17.3−15}{\sqrt{√3.25}} \\ & ≈1.28\end{aligned}
+
 
 
 $$
@@ -96,7 +106,9 @@ To accomplish this, we can take the formula for the $z$-score and solve for $x\m
 $$
 
 
+
 \begin{aligned}𝑧 & =\frac{𝑥−\overset{𝑥}{}}{𝜎} \\ 𝑧⋅𝜎 & =𝑥−\overset{𝑥}{} \\ 𝑥 & =\overset{𝑥}{}+𝑧⋅𝜎\end{aligned}
+
 
 
 $$
@@ -106,7 +118,9 @@ For example, suppose that a data set has a mean of $\overline{x}=15$ and a stand
 $$
 
 
+
 \begin{aligned}𝑥 & =\overset{𝑥}{}+𝑧⋅𝜎 \\ & =15+2⋅1.5 \\ & =15+3 \\ & =18\end{aligned}
+
 
 
 $$
@@ -124,7 +138,9 @@ To compute the value of an observation $x$ which yields a given $z$-score in a d
 $$
 
 
+
 x = \overline{x} + z \cdot \sigma
+
 
 
 $$
@@ -134,7 +150,9 @@ Substituting $x=13.2,$ $z=-1.5,$ and $\sigma=1.2$ into the formula and solving f
 $$
 
 
+
 \begin{aligned}𝑥 & =\overset{𝑥}{}+𝑧⋅𝜎 \\ 13.2 & =\overset{𝑥}{}+(−1.5)⋅1.2 \\ 13.2 & =\overset{𝑥}{}−1.8 \\ \overset{𝑥}{} & =13.2+1.8 \\ \overset{𝑥}{} & =15\end{aligned}
+
 
 
 $$
@@ -152,7 +170,9 @@ To compute the value of an observation $x$ which yields a given $z$-score in a d
 $$
 
 
+
 x = \overline{x} + z \cdot \sigma
+
 
 
 $$
@@ -162,7 +182,9 @@ From the first observation, we have
 $$
 
 
+
 \begin{aligned}18 & =\overset{𝑥}{¯}+2.8⋅𝜎.\end{aligned}
+
 
 
 $$
@@ -172,7 +194,9 @@ From the second observation, we have
 $$
 
 
+
 \begin{aligned}12 & =\overset{𝑥}{¯}+1.6⋅𝜎.\end{aligned}
+
 
 
 $$
@@ -182,7 +206,9 @@ Subtracting the second equation from the first and solving for $\sigma,$ we get
 $$
 
 
+
 \begin{aligned}(18−12) & =(\overset{𝑥}{¯}−\overset{𝑥}{¯})+(2.8−1.6)⋅𝜎 \\ 6 & =1.2⋅𝜎 \\ 𝜎 & =5.\end{aligned}
+
 
 
 $$
@@ -192,7 +218,9 @@ Finally, substituting this value back into our first equation and solving for $\
 $$
 
 
+
 \begin{aligned}18 & =\overset{𝑥}{¯}+2.8⋅𝜎 \\ 18 & =\overset{𝑥}{¯}+2.8⋅5 \\ \overset{𝑥}{¯} & =4.\end{aligned}
+
 
 
 $$
@@ -210,7 +238,9 @@ To compute the value of an observation $x$ which yields a given $z$-score in a d
 $$
 
 
+
 x = \overline{x} + z \cdot \sigma
+
 
 
 $$
@@ -220,7 +250,9 @@ Substituting $x=184,$ $\overline{x}=178,$ and $z=1.5$ into the formula and solvi
 $$
 
 
+
 \begin{aligned}𝑥 & =\overset{𝑥}{}+𝑧⋅𝜎 \\ 184 & =178+1.5⋅𝜎 \\ 6 & =1.5⋅𝜎 \\ 𝜎 & =\frac{6}{1.5} \\ 𝜎 & =4.\end{aligned}
+
 
 
 $$

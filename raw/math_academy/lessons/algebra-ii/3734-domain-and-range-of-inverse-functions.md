@@ -58,7 +58,9 @@ From the graph, we see that the range of $f(x)$ is
 $$
 
 
+
 0 \leq f(x) \lt 9.
+
 
 
 $$
@@ -68,7 +70,9 @@ Therefore, the domain of $f^{-1}(x)$ is
 $$
 
 
+
 0 \leq x \lt 9.
+
 
 
 $$
@@ -94,7 +98,9 @@ From the graph, we see that the domain of $f(x)$ is
 $$
 
 
+
 -1 \lt x \lt 4.
+
 
 
 $$
@@ -104,7 +110,9 @@ Therefore, the range of $f^{-1}(x)$ is
 $$
 
 
+
 -1 \lt f^{-1}(x) \lt 4.
+
 
 
 $$
@@ -128,7 +136,9 @@ The domain of $f(x)$ is
 $$
 
 
+
 -3\lt x \leq 3.
+
 
 
 $$
@@ -138,7 +148,9 @@ Therefore, the range of $f^{-1}(x)$ is
 $$
 
 
+
 -3\lt f^{-1}(x) \leq 3.
+
 
 
 $$

@@ -18,7 +18,9 @@ For example, notice that
 $$
 
 
+
 \cos \left( \arccos \left( \dfrac{\sqrt 3}{2} \right) \right) = \cos \left( \dfrac{\pi}{6} \right) = \dfrac{\sqrt 3}{2}.
+
 
 
 $$
@@ -48,7 +50,9 @@ The range of $y = \sin x$ is $y\in [-1,1],$ which coincides with the domain of i
 $$
 
 
+
 \sin(\arcsin x) = x.
+
 
 
 $$
@@ -58,7 +62,9 @@ Therefore,
 $$
 
 
+
 \sin\left(\arcsin\left(\dfrac{1}{2}\right)\right) = \dfrac{1}{2}.
+
 
 
 $$
@@ -80,7 +86,9 @@ For example, suppose we want to evaluate
 $$
 
 
+
 \arccos\left(\cos\left(\dfrac{\pi}{6}\right)\right).
+
 
 
 $$
@@ -90,7 +98,9 @@ Since our angle $\dfrac{\pi}{6}$ lies within the range of the $\arccos$ function
 $$
 
 
+
 \arccos\left(\cos\left(\dfrac{\pi}{6}\right)\right) = \dfrac{\pi}{6}.
+
 
 
 $$
@@ -102,7 +112,9 @@ On the other hand, if $\theta$ is not in the range of the inverse function, then
 $$
 
 
+
 \arccos\left(\cos\left(-\dfrac{\pi}{6}\right)\right).
+
 
 
 $$
@@ -112,7 +124,9 @@ Our angle $-\dfrac{\pi}{6}$ does *not* lie within the range of the $\arccos$ fun
 $$
 
 
+
 \arccos\left(\cos\left(-\dfrac{\pi}{6}\right)\right)\neq -\dfrac{\pi}{6}.
+
 
 
 $$
@@ -122,7 +136,9 @@ To find the correct value, we first compute $\cos\left(-\dfrac{\pi}{6}\right).$ 
 $$
 
 
+
 \cos\left(-\dfrac{\pi}{6}\right) = \dfrac{\sqrt 3}{2}.
+
 
 
 $$
@@ -132,7 +148,9 @@ Finally, we compute $\arccos\left(\dfrac{\sqrt 3}{2}\right).$ This gives
 $$
 
 
+
 \arccos\left(\dfrac{\sqrt 3}{2}\right) = \dfrac{\pi}{6}.
+
 
 
 $$
@@ -142,7 +160,9 @@ Therefore,
 $$
 
 
+
 \arccos\left(\cos\left(-\dfrac{\pi}{6}\right)\right) = \arccos\left(\dfrac{\sqrt 3}{2}\right) = \dfrac{\pi}{6}.
+
 
 
 $$
@@ -160,7 +180,9 @@ First, note that the range of $\theta = \arcsin x$ is given by
 $$
 
 
+
 -\dfrac\pi 2 \le \theta \le \dfrac\pi2.
+
 
 
 $$
@@ -172,7 +194,9 @@ To find the correct value, we first compute $\sin\left(\dfrac{5\pi}{6}\right){:}
 $$
 
 
+
 \sin\left(\dfrac{5\pi}{6}\right) = \dfrac 1 2
+
 
 
 $$
@@ -182,7 +206,9 @@ Now, we find $\arcsin\left(\dfrac 1 2\right)\mathbin{:}$
 $$
 
 
+
 \arcsin\left(\dfrac 1 2\right) = \dfrac\pi 6
+
 
 
 $$
@@ -192,7 +218,9 @@ Therefore, we conclude that
 $$
 
 
+
 \arcsin\left(\sin\left(\dfrac{5\pi}{6}\right)\right) = \arcsin\left(\dfrac 1 2\right) = \dfrac{\pi}{6}.
+
 
 
 $$
@@ -210,7 +238,9 @@ The range of $\theta = \arcsin x$ is given by
 $$
 
 
+
 -90^\circ \le \theta \le 90^\circ.
+
 
 
 $$
@@ -226,7 +256,9 @@ From the first quadrant, we see that
 $$
 
 
+
 \arcsin\left(\dfrac{\sqrt{3}}{2}\right) = 60^\circ.
+
 
 
 $$
@@ -236,7 +268,9 @@ Finally then,
 $$
 
 
+
 \cos\left(\arcsin\left(\dfrac{1}{2}\right)\right) = \cos\left(60^\circ\right) = \dfrac {1} 2.
+
 
 
 $$

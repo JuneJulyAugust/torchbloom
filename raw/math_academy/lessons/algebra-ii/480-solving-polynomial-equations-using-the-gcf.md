@@ -19,7 +19,9 @@ A **polynomial equation** is an equation that can be written in the form
 $$
 
 
+
 P_n(x)=0,
+
 
 
 $$
@@ -35,7 +37,9 @@ First, notice that all of the terms of the polynomial have a common factor of $x
 $$
 
 
+
 \begin{aligned}𝑥^{3}−𝑥 & =0 \\ 𝑥(𝑥^{2}−1) & =0\end{aligned}
+
 
 
 $$
@@ -45,7 +49,9 @@ Now, we factor the expression $x^2-1$ using the difference of squares formula:
 $$
 
 
+
 \begin{aligned}𝑥(𝑥^{2}−1) & =0 \\ 𝑥(𝑥+1)(𝑥−1) & =0\end{aligned}
+
 
 
 $$
@@ -65,7 +71,9 @@ First, notice that all of the terms of the polynomial have a common factor of $2
 $$
 
 
+
 \begin{aligned}2𝑥^{3}−6𝑥^{2}+4𝑥 & =0 \\ 2𝑥(𝑥^{2}−3𝑥+2) & =0\end{aligned}
+
 
 
 $$
@@ -75,7 +83,9 @@ Now, we factor the expression $x^2-3x+2$ as follows:
 $$
 
 
+
 \begin{aligned}2𝑥(𝑥^{2}−3𝑥+2) & =0 \\ 2𝑥(𝑥−1)(𝑥−2) & =0\end{aligned}
+
 
 
 $$
@@ -95,7 +105,9 @@ First, let's rewrite the polynomial equation in the form $P_n(x)=0.$ To do this,
 $$
 
 
+
 \begin{aligned}𝑥^{3}−𝑥^{2}−𝑥 & =3𝑥^{2}+4𝑥 \\ 𝑥^{3}−4𝑥^{2}−𝑥 & =4𝑥 \\ 𝑥^{3}−4𝑥^{2}−5𝑥 & =0\end{aligned}
+
 
 
 $$
@@ -105,7 +117,9 @@ Next, notice that all of the terms of the polynomial have a common factor of $x.
 $$
 
 
+
 \begin{aligned}𝑥^{3}−4𝑥^{2}−5𝑥 & =0 \\ 𝑥(𝑥^{2}−4𝑥−5) & =0\end{aligned}
+
 
 
 $$
@@ -115,7 +129,9 @@ Now, we factor the expression $x^2 - 4x - 5$ as follows:
 $$
 
 
+
 \begin{aligned}𝑥(𝑥^{2}−4𝑥−5) & =0 \\ 𝑥(𝑥+1)(𝑥−5) & =0\end{aligned}
+
 
 
 $$
@@ -135,7 +151,9 @@ First, let's rewrite the polynomial equation in the form $P_n(x)=0\mathbin{:}$
 $$
 
 
+
 \begin{aligned}3𝑥^{5}+𝑥^{3} & =3𝑥^{3}−5𝑥^{4} \\ 3𝑥^{5}+5𝑥^{4}+𝑥^{3} & =3𝑥^{3} \\ 3𝑥^{5}+5𝑥^{4}−2𝑥^{3} & =0\end{aligned}
+
 
 
 $$
@@ -145,7 +163,9 @@ Next, notice that all of the terms of the polynomial have a common factor of $x^
 $$
 
 
+
 \begin{aligned}3𝑥^{5}+5𝑥^{4}−2𝑥^{3} & =0 \\ 𝑥^{3}(3𝑥^{2}+5𝑥−2) & =0\end{aligned}
+
 
 
 $$
@@ -155,7 +175,9 @@ Now, we factor the expression $3x^2+5x-2$ as follows:
 $$
 
 
+
 \begin{aligned}𝑥^{3}(3𝑥^{2}+5𝑥−2) & =0 \\ 𝑥^{3}(3𝑥−1)(𝑥+2) & =0\end{aligned}
+
 
 
 $$

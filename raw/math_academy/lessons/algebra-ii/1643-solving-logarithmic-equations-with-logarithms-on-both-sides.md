@@ -19,7 +19,9 @@ To solve an equation that has logarithms with the same base on both sides, we ca
 $$
 
 
+
 \log_3(2x-4)=\log_3(x+3).
+
 
 
 $$
@@ -29,7 +31,9 @@ Since both sides of the equation are represented as logarithms of the same base 
 $$
 
 
+
 \begin{aligned}3^{log_{3}⁡(2𝑥−4)} & =3^{log_{3}⁡(𝑥+3)} \\ 2𝑥−4 & =𝑥+3.\end{aligned}
+
 
 
 $$
@@ -39,7 +43,9 @@ Now, we solve for $x\mathbin{:}$
 $$
 
 
+
 \begin{aligned}2𝑥−4 & =𝑥+3 \\ 𝑥 & =7\end{aligned}
+
 
 
 $$
@@ -53,7 +59,9 @@ So, once we've found the solutions, we need to substitute them back into the ori
 $$
 
 
+
 \begin{aligned}log_{3}⁡(2𝑥−4) & \overset{=}{?}log_{3}⁡(𝑥+3) \\ log_{3}⁡(2⋅7−4) & \overset{=}{?}log_{3}⁡(7+3) \\ log_{3}⁡(10) & =log_{3}⁡(10).\,✓\end{aligned}
+
 
 
 $$
@@ -67,7 +75,9 @@ In the previous example, you may have noticed that for the logarithmic equation
 $$
 
 
+
 \log_3 (2x-4) = \log_3 (x+3),
+
 
 
 $$
@@ -77,7 +87,9 @@ we were able to "cancel out" the logarithms and equate the arguments:
 $$
 
 
+
 2x-4 = x+3
+
 
 
 $$
@@ -89,7 +101,9 @@ This result holds in general. Whenever the logarithms on both sides of the equat
 $$
 
 
+
 \log_n f(x) = \log_n g(x)
+
 
 
 $$
@@ -109,7 +123,9 @@ Since the logarithms on both sides of the equation have the same base, we can eq
 $$
 
 
+
 \begin{aligned}log_{2}⁡(𝑥^{2}−6) & =log_{2}⁡(10) \\ 𝑥^{2}−6 & =10 \\ 𝑥^{2} & =16 \\ 𝑥 & =±4.\end{aligned}
+
 
 
 $$
@@ -135,7 +151,9 @@ Since the logarithms on both sides of the equation have the same base, we can eq
 $$
 
 
+
 \begin{aligned}log⁡(𝑥−1) & =log⁡(2𝑥+1) \\ 𝑥−1 & =2𝑥+1 \\ 𝑥 & =−2.\end{aligned}
+
 
 
 $$
@@ -159,7 +177,9 @@ Since the logarithms on both sides of the equation have the same base, we can eq
 $$
 
 
+
 \begin{aligned}ln⁡(2𝑥^{2}) & =ln⁡(3𝑥) \\ 2𝑥^{2} & =3𝑥 \\ 2𝑥^{2}−3𝑥 & =0 \\ 𝑥(2𝑥−3) & =0 \\ 𝑥 & =0,\,\frac{3}{2}.\end{aligned}
+
 
 
 $$

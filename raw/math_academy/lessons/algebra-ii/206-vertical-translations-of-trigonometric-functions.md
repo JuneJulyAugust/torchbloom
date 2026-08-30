@@ -115,7 +115,9 @@ We know that $y = \sin{x}$ has a minimum value of $-1.$ So, we have
 $$
 
 
+
 -1 \leq \sin x.
+
 
 
 $$
@@ -125,7 +127,9 @@ Adding $2$ to both sides of the above inequality gives
 $$
 
 
+
 \begin{aligned}−1+2 & ≤sin⁡𝑥+2 \\ 1 & ≤sin⁡𝑥+2.\end{aligned}
+
 
 
 $$

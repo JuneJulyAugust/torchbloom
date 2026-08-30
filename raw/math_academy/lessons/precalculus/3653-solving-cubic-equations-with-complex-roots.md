@@ -39,7 +39,9 @@ We find the quotient when $f(x)$ is divided by $(x+2)$ using synthetic division.
 $$
 
 
+
 \begin{aligned}−2 & 1 & 0 & 0 & 8 \\ & & −2 & 4 & −8 \\ & 1 & −2 & 4 & 0\end{aligned}
+
 
 
 $$
@@ -51,7 +53,9 @@ To find the remaining two roots, we solve $x^2-2x+4 = 0$ by completing the squar
 $$
 
 
+
 \begin{aligned}𝑥^{2}−2𝑥+4 & =0 \\ 𝑥^{2}−2𝑥+1+3 & =0 \\ (𝑥−1)^{2}+3 & =0 \\ (𝑥−1)^{2} & =−3 \\ (𝑥−1)^{2} & =(\sqrt{√3}i)^{2} \\ 𝑥−1 & =±\sqrt{√3}i \\ 𝑥 & =1±\sqrt{√3}i\end{aligned}
+
 
 
 $$
@@ -73,7 +77,9 @@ Since $f(x)$ has real coefficients and $x_1=1+3\text{i}$ is a root of $f(x),$ th
 $$
 
 
+
 \overline{x_1}=\overline{1+3\textrm{i}}=1-3\text{i}
+
 
 
 $$
@@ -85,7 +91,9 @@ Now, according to the factor theorem, $\big(x-(1+3\text{i})\big)\big(x-(1-3\text
 $$
 
 
+
 \begin{aligned}(𝑥−(1+3i))(𝑥−(1−3i)) & = \\ 𝑥^{2}−(1+3i+1−3i)𝑥+(1+3i)(1−3i) & = \\ 𝑥^{2}−2𝑥+(1^{2}−(3i)^{2}) & = \\ 𝑥^{2}−2𝑥+10 & .\end{aligned}
+
 
 
 $$
@@ -95,7 +103,9 @@ Next, we find the quotient when $f(x)$ is divided by $x^2 - 2x + 10$ using polyn
 $$
 
 
+
 \begin{aligned} & 𝑥^{2}−2𝑥+10\,\,\,\,\,\,𝑥−1 \\ & 𝑥^{2}−2𝑥+10\,\,\,\,𝑥^{3}−3𝑥^{2}+12𝑥−10\,\, \\ & 𝑥^{2}−2𝑥+10\,\,\,\,\,\,\underset{}{𝑥^{3}−2𝑥^{2}+10𝑥} \\ & 𝑥^{2}−2𝑥+10\,\,\,\,\,\,𝑥^{3}−0𝑥^{2}+02𝑥−10 \\ & 𝑥^{2}−2𝑥+10\,\,\,\,\,\,𝑥^{3}\underset{}{\,−\,0𝑥^{2}+02𝑥−10} \\ & 𝑥^{2}−2𝑥+10\,\,\,\,\,\,𝑥^{3}−3𝑥^{2}+12𝑥−10\end{aligned}
+
 
 
 $$
@@ -107,7 +117,9 @@ To find the remaining root, we set the linear factor equal to zero and solve for
 $$
 
 
+
 \begin{aligned}𝑥−1=0\,⟹\,𝑥=1\end{aligned}
+
 
 
 $$

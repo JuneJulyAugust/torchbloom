@@ -17,7 +17,9 @@ If a particle moves with *constant* velocity $\mathbf{u},$ the position vector o
 $$
 
 
+
 \mathbf{r} = \mathbf{r}_0 + \mathbf{u} t,
+
 
 
 $$
@@ -35,7 +37,9 @@ Let's calculate the position vector of the particle after $2$ seconds. In our ca
 $$
 
 
+
 \mathbf{r}_0 = \mathbf{i} + 2\mathbf{j}, \qquad \mathbf u = 3\mathbf{i} + 2\mathbf{j}.
+
 
 
 $$
@@ -45,7 +49,9 @@ Therefore, the position vector of the particle after $t = 2 \: \textrm{s}$ is
 $$
 
 
+
 \begin{aligned}𝐫 & =𝐫_{0}+𝐮𝑡 \\ & =(𝐢+2𝐣)+(3𝐢+2𝐣)(2) \\ & =(𝐢+2𝐣)+(6𝐢+4𝐣) \\ & =(7𝐢+6𝐣)\,m.\end{aligned}
+
 
 
 $$
@@ -69,7 +75,9 @@ If a particle moves with constant velocity $\mathbf{u},$ the position vector of 
 $$
 
 
+
 \mathbf{r} = \mathbf{r}_0 + \mathbf{u} t,
+
 
 
 $$
@@ -81,7 +89,9 @@ In our case, we have
 $$
 
 
+
 \mathbf{r}_0 = 3\mathbf{j} - \mathbf{i}, \qquad \mathbf u = \mathbf{i} - \mathbf{j}.
+
 
 
 $$
@@ -91,7 +101,9 @@ Therefore, the position vector of the particle after $t = 2 \: \textrm{h}$ is
 $$
 
 
+
 \begin{aligned}𝐫 & =𝐫_{0}+𝐮𝑡 \\ & =(3𝐣−𝐢)+(𝐢−𝐣)(2) \\ & =(−𝐢+3𝐣)+(2𝐢−2𝐣) \\ & =(𝐢+𝐣)\,mi.\end{aligned}
+
 
 
 $$
@@ -103,7 +115,9 @@ Recall that when a particle moves along a straight line with *constant* accelera
 $$
 
 
+
 s = ut + \dfrac12 a t^2.
+
 
 
 $$
@@ -113,7 +127,9 @@ There is an analogous formula that works for planar motion. If a particle moves 
 $$
 
 
+
 \mathbf{r} = \mathbf{r}_0 + \mathbf{u} t + \dfrac12 \mathbf{a} t^2,
+
 
 
 $$
@@ -129,7 +145,9 @@ In our case, we have
 $$
 
 
+
 \mathbf{r}_0 = 2\mathbf i + 2\mathbf j, \qquad \mathbf u = 3\mathbf{i} + \mathbf{j}, \qquad \mathbf a = -\mathbf{i} + \mathbf{j}.
+
 
 
 $$
@@ -139,7 +157,9 @@ Therefore, the position vector of the particle after $t = 2 \, \textrm{s}$ is
 $$
 
 
+
 \begin{aligned}𝐫 & =(2𝐢+2\,𝐣)+(3𝐢+𝐣)(2)+\frac{1}{2}(−𝐢+𝐣)(2)^{2} \\ & =(2𝐢+2\,𝐣)+(6𝐢+2𝐣)+2(−𝐢+𝐣) \\ & =(2𝐢+2\,𝐣)+(6𝐢+2𝐣)+(−2𝐢+2𝐣) \\ & =(6𝐢+6𝐣)\,m.\end{aligned}
+
 
 
 $$
@@ -163,7 +183,9 @@ If a particle moves with constant acceleration $\mathbf{a},$ the position vector
 $$
 
 
+
 \mathbf{r} = \mathbf{r}_0 + \mathbf{u} t + \dfrac12 \mathbf{a} t^2,
+
 
 
 $$
@@ -175,7 +197,9 @@ In our case, we have
 $$
 
 
+
 \mathbf{r}_0 = 4\mathbf i - \mathbf j , \qquad \mathbf u = \mathbf{i} +\mathbf{j}, \qquad \mathbf a = \mathbf{i} + 3\mathbf{j}.
+
 
 
 $$
@@ -185,7 +209,9 @@ Therefore, the position vector of the particle after $t = 4 \, \textrm{min}$ is
 $$
 
 
+
 \begin{aligned}𝐫 & =(4𝐢−𝐣)+(𝐢+𝐣)(4)+\frac{1}{2}(𝐢+3𝐣)(4)^{2} \\ & =(4𝐢−𝐣)+(4𝐢+4𝐣)+8(𝐢+3𝐣) \\ & =(8𝐢+3𝐣)+(8𝐢+24𝐣) \\ & =(16𝐢+27𝐣)\,cm.\end{aligned}
+
 
 
 $$
@@ -203,7 +229,9 @@ If a particle moves with constant acceleration $\mathbf{a},$ the position vector
 $$
 
 
+
 \mathbf{r} = \mathbf{r}_0 + \mathbf{u} t + \dfrac12 \mathbf{a} t^2,
+
 
 
 $$
@@ -215,7 +243,9 @@ In our case, we have
 $$
 
 
+
 \mathbf{r}_0 = 0\mathbf i +0 \mathbf j , \qquad \mathbf u = -\mathbf{i}-2\mathbf{j}, \qquad \mathbf a = \mathbf{i} +\mathbf{j}.
+
 
 
 $$
@@ -225,7 +255,9 @@ Therefore, the position vector of the particle after $t = 6 \, \textrm{s}$ is
 $$
 
 
+
 \begin{aligned}𝐫 & =(0𝐢+0𝐣)+(−𝐢−2𝐣)(6)+\frac{1}{2}(𝐢+𝐣)(6)^{2} \\ & =(−6𝐢−12𝐣)+18(𝐢+𝐣) \\ & =(−6𝐢−12𝐣)+(18𝐢+18𝐣) \\ & =(12𝐢+6𝐣)\,cm.\end{aligned}
+
 
 
 $$
@@ -235,7 +267,9 @@ Finally, the distance from the particle to the origin at this time is
 $$
 
 
+
 \begin{aligned}|𝐫| & =|12𝐢+6𝐣| \\ & =\sqrt{√12^{2}+6^{2}} \\ & =\sqrt{√144+36} \\ & =\sqrt{√180} \\ & =6\sqrt{√5}\,cm.\end{aligned}
+
 
 
 $$

@@ -54,7 +54,9 @@ To convert the measure of an angle in radians to an equivalent measure in degree
 $$
 
 
+
 \left(-\dfrac{2\pi} 3 \right) \cdot \left(\dfrac {180^\circ} {\pi}\right) = -120^\circ.
+
 
 
 $$

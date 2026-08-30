@@ -35,7 +35,9 @@ In this case, the probability of the event occurring is a relatively large numbe
 $$
 
 
+
 \dfrac12 < \dfrac{3}{4} < 1,
+
 
 
 $$
@@ -101,7 +103,9 @@ First, to calculate the experimental probability, we divide the number of days t
 $$
 
 
+
 P(\text{practices piano}) = \dfrac{9}{12} = \dfrac{3}{4}.
+
 
 
 $$
@@ -111,7 +115,9 @@ This is a relatively large number, closer to $1.$ Since
 $$
 
 
+
 \dfrac12 < \dfrac34 < 1,
+
 
 
 $$
@@ -135,7 +141,9 @@ So, the experimental probability of rain is
 $$
 
 
+
 P(\text{rain}) = \dfrac{6}{20} = \dfrac{3}{10}.
+
 
 
 $$
@@ -145,7 +153,9 @@ Since it rains on $6$ out of $20$ days, it *doesn't* rain on $14$ out of $20$ da
 $$
 
 
+
 P(\text{no rain}) = \dfrac{14}{20} = \dfrac{7}{10}.
+
 
 
 $$
@@ -155,7 +165,9 @@ The experimental probability of rain is less than the experimental probability o
 $$
 
 
+
 P(\text{rain}) = \dfrac{3}{10} < \dfrac{7}{10} = P(\text{no rain})
+
 
 
 $$

@@ -18,7 +18,9 @@ Suppose we are given two linear transformations represented by the matrices
 $$
 
 
+
 [\begin{aligned}0 & −1 \\ 1 & 0\end{aligned}]
+
 
 
 $$
@@ -28,7 +30,9 @@ Here, $R$ represents a rotation of $90^\circ$ counterclockwise about the origin,
 $$
 
 
+
 \begin{aligned}𝐯\overset{⟶}{𝑅}𝑅𝐯\overset{⟶}{𝑆}𝑆(𝑅𝐯)\end{aligned}
+
 
 
 $$
@@ -40,7 +44,9 @@ Since matrix multiplication is associative, we can write
 $$
 
 
+
 S(R\mathbf{v}) = (SR)\mathbf{v}.
+
 
 
 $$
@@ -52,7 +58,9 @@ In our case, the matrix that represents the combined transformation is
 $$
 
 
+
 \begin{aligned}𝑆𝑅 & =[\begin{aligned}1 & 0 \\ 0 & −1\end{aligned}][\begin{aligned}0 & −1 \\ 1 & 0\end{aligned}] \\ & =[\begin{aligned}0 & −1 \\ −1 & 0\end{aligned}].\end{aligned}
+
 
 
 $$
@@ -66,7 +74,9 @@ For example, consider the transformations
 $$
 
 
+
 [\begin{aligned}0 & −1 \\ 1 & 0\end{aligned}]
+
 
 
 $$
@@ -76,7 +86,9 @@ Computing the product $SR,$ we get
 $$
 
 
+
 \begin{aligned}𝑆𝑅=[\begin{aligned}1 & 0 \\ 0 & −1\end{aligned}][\begin{aligned}0 & −1 \\ 1 & 0\end{aligned}]=[\begin{aligned}0 & −1 \\ −1 & 0\end{aligned}].\end{aligned}
+
 
 
 $$
@@ -88,7 +100,9 @@ On the other hand, computing the product $RS,$ we get
 $$
 
 
+
 \begin{aligned}𝑅𝑆=[\begin{aligned}0 & −1 \\ 1 & 0\end{aligned}][\begin{aligned}1 & 0 \\ 0 & −1\end{aligned}]=[\begin{aligned}0 & 1 \\ 1 & 0\end{aligned}].\end{aligned}
+
 
 
 $$
@@ -100,7 +114,9 @@ In general, the transformations are performed from right-to-left. So, for exampl
 $$
 
 
+
 \mathbf v' = SR\mathbf v,
+
 
 
 $$
@@ -154,7 +170,9 @@ Let $P$ be the matrix that represents the rotation and let $Q$ be the matrix tha
 $$
 
 
+
 \begin{aligned}𝑃 & =\begin{aligned}cos⁡(\frac{𝜋}{2}) & −sin⁡(\frac{𝜋}{2}) \\ sin⁡(\frac{𝜋}{2}) & cos⁡(\frac{𝜋}{2})\end{aligned}=[\begin{aligned}0 & −1 \\ 1 & 0\end{aligned}] \\ 𝑄 & =[\begin{aligned}2 & 0 \\ 0 & 1\end{aligned}]\end{aligned}
+
 
 
 $$
@@ -164,7 +182,9 @@ Therefore, the combined transformation can be represented by the matrix $QP\math
 $$
 
 
+
 \begin{aligned}𝑄𝑃 & =[\begin{aligned}2 & 0 \\ 0 & 1\end{aligned}][\begin{aligned}0 & −1 \\ 1 & 0\end{aligned}] \\ & =[\begin{aligned}0 & −2 \\ 1 & 0\end{aligned}]\end{aligned}
+
 
 
 $$
@@ -188,7 +208,9 @@ Let $P$ be the matrix that represents the rotation, $Q$ be the matrix that repre
 $$
 
 
+
 \begin{aligned}𝑃 & =\begin{aligned}cos⁡(\frac{𝜋}{3}) & −sin⁡(\frac{𝜋}{3}) \\ sin⁡(\frac{𝜋}{3}) & cos⁡(\frac{𝜋}{3})\end{aligned}=\begin{aligned}\frac{1}{2} & −\frac{\sqrt{√3}}{2} \\ \frac{\sqrt{√3}}{2} & \frac{1}{2}\end{aligned}=\frac{1}{2}[\begin{aligned}1 & −\sqrt{√3} \\ \sqrt{√3} & 1\end{aligned}] \\ 𝑄 & =[\begin{aligned}5 & 0 \\ 0 & 5\end{aligned}]=5[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ 𝑅 & =[\begin{aligned}−1 & 0 \\ 0 & 1\end{aligned}]\end{aligned}
+
 
 
 $$
@@ -198,7 +220,9 @@ Therefore, the combined transformation can be represented by the matrix $RQP\mat
 $$
 
 
+
 \begin{aligned}𝑅𝑄𝑃 & =[\begin{aligned}−1 & 0 \\ 0 & 1\end{aligned}](5[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}])(\frac{1}{2}[\begin{aligned}1 & −\sqrt{√3} \\ \sqrt{√3} & 1\end{aligned}]) \\ & =\frac{5}{2}[\begin{aligned}−1 & 0 \\ 0 & 1\end{aligned}][\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}][\begin{aligned}1 & −\sqrt{√3} \\ \sqrt{√3} & 1\end{aligned}] \\ & =\frac{5}{2}[\begin{aligned}−1 & 0 \\ 0 & 1\end{aligned}][\begin{aligned}1 & −\sqrt{√3} \\ \sqrt{√3} & 1\end{aligned}] \\ & =\frac{5}{2}[\begin{aligned}−1 & \sqrt{√3} \\ \sqrt{√3} & 1\end{aligned}]\end{aligned}
+
 
 
 $$

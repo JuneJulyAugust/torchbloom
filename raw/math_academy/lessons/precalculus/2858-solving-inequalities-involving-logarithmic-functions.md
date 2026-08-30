@@ -22,7 +22,9 @@ For example, to solve the inequality
 $$
 
 
+
 \log_2 (x-1) < 4,
+
 
 
 $$
@@ -32,7 +34,9 @@ we write each side of the inequality as an exponent of $2,$ and we get
 $$
 
 
+
 \begin{aligned}2^{log_{2}⁡(𝑥−1)} & <2^{4} \\ 𝑥−1 & <16 \\ 𝑥 & <17.\end{aligned}
+
 
 
 $$
@@ -42,7 +46,9 @@ Now, we must only keep the solutions that are in the domain of the logarithm in 
 $$
 
 
+
 x-1 > 0 \quad \Rightarrow \quad x > 1
+
 
 
 $$
@@ -52,7 +58,9 @@ Our solution is $x < 17,$ which can be expressed as $(-\infty, 17).$ But the dom
 $$
 
 
+
 (-\infty, 17) \cap (1, \infty) = (1, 17)
+
 
 
 $$
@@ -70,7 +78,9 @@ To see this concretely, consider the following order of numbers:
 $$
 
 
+
 -2 < -1 < 0 < 0.5 < 1 < 2 < 3
+
 
 
 $$
@@ -80,7 +90,9 @@ If we raise $2$ to the power of these numbers, the results stay in the same orde
 $$
 
 
+
 \underbrace{0.25}_{ 2^{-2} } < \underbrace{0.5}_{ 2^{-1} } < \underbrace{1}_{ 2^0 } < \underbrace{\,\, 1.41\ldots \,\,}_{ 2^{0.5} } < \underbrace{2}_{ 2^1 } < \underbrace{4}_{ 2^2 } < \underbrace{8}_{ 2^3 }
+
 
 
 $$
@@ -98,7 +110,9 @@ First, we isolate the logarithm:
 $$
 
 
+
 \begin{aligned}\frac{3}{5}ln⁡(𝑥+2)+1 & ≤0 \\ \frac{3}{5}ln⁡(𝑥+2) & ≤−1 \\ ln⁡(𝑥+2) & ≤−\frac{5}{3}\end{aligned}
+
 
 
 $$
@@ -108,7 +122,9 @@ Now, we use each side of the inequality as an exponent of $e.$ We get the follow
 $$
 
 
+
 \begin{aligned}𝑒^{ln⁡(𝑥+2)} & ≤𝑒^{−5/3} \\ 𝑥+2 & ≤𝑒^{−5/3} \\ 𝑥 & ≤𝑒^{−5/3}−2\end{aligned}
+
 
 
 $$
@@ -118,7 +134,9 @@ Now, we must only keep the solutions that are in the domain of the logarithm in 
 $$
 
 
+
 x+2> 0 \quad \Rightarrow \quad x > -2
+
 
 
 $$
@@ -128,7 +146,9 @@ Our solution is $x \leq e^{-5/3}-2,$ which can be expressed as $\left(-\infty, e
 $$
 
 
+
 \left(-\infty, e^{-5/3}-2\right] \cap (-2, \infty) = \left(-2,e^{-5/3}-2 \right]
+
 
 
 $$

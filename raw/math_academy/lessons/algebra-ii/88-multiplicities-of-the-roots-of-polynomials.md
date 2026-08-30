@@ -17,7 +17,9 @@ Suppose we have the factored polynomial
 $$
 
 
+
 p(x)= (x-5)^2(x+8).
+
 
 
 $$
@@ -51,7 +53,9 @@ First, let's completely factor $P(x)\mathbin{:}$
 $$
 
 
+
 \begin{aligned}𝑃(𝑥) & =(𝑥+1)^{2}(𝑥^{2}−𝑥−2)(𝑥−2)(𝑥+3) \\ & =(𝑥+1)^{2}((𝑥+1)(𝑥−2))(𝑥−2)(𝑥+3) \\ & =(𝑥+1)^{2}(𝑥+1)(𝑥−2)(𝑥−2)(𝑥+3) \\ & =(𝑥+1)^{3}(𝑥−2)^{2}(𝑥+3)\end{aligned}
+
 
 
 $$
@@ -83,7 +87,9 @@ Therefore,
 $$
 
 
+
 \dfrac{p(x)}{x+3} = 2x^2 + 7x + 3
+
 
 
 $$
@@ -93,7 +99,9 @@ which means that
 $$
 
 
+
 p(x) = (x+3) (2x^2 + 7x + 3).
+
 
 
 $$
@@ -103,7 +111,9 @@ We can factor the quadratic factor even further, and get
 $$
 
 
+
 \begin{aligned}𝑝(𝑥) & =(𝑥+3)(2𝑥+1)(𝑥+3) \\ & =(𝑥+3)^{2}(2𝑥+1).\end{aligned}
+
 
 
 $$
@@ -125,7 +135,9 @@ For this polynomial, we can factor by noting that the greatest common factor of 
 $$
 
 
+
 \begin{aligned}𝑝(𝑥) & =𝑥^{3}−5𝑥^{2} \\ & =𝑥^{2}(𝑥−5)\end{aligned}
+
 
 
 $$
@@ -151,7 +163,9 @@ First, we need to factor the polynomial. For this polynomial, we can factor by g
 $$
 
 
+
 \begin{aligned}𝑝(𝑥) & =𝑥^{3}+3𝑥^{2}−4𝑥−12 \\ & =𝑥^{2}(𝑥+3)−4(𝑥+3) \\ & =(𝑥^{2}−4)(𝑥+3) \\ & =(𝑥−2)(𝑥+2)(𝑥+3)\end{aligned}
+
 
 
 $$

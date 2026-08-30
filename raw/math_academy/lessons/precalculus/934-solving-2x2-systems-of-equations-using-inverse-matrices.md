@@ -18,7 +18,9 @@ If the $2\times 2$ matrix $A$ is invertible, then we can find a solution to the 
 $$
 
 
+
 A\mathbf{x} = \mathbf{b}
+
 
 
 $$
@@ -28,7 +30,9 @@ by "pre-multiplying" both sides of the equation by $A^{-1}\mathbin{:}$
 $$
 
 
+
 \begin{aligned}𝐴𝐱 & =𝐛 \\ 𝐴^{−1}𝐴𝐱 & =𝐴^{−1}𝐛 \\ 𝐼_{2}𝐱 & =𝐴^{−1}𝐛 \\ 𝐱 & =𝐴^{−1}𝐛\end{aligned}
+
 
 
 $$
@@ -40,7 +44,9 @@ For instance, to find the solution to the system of equations
 $$
 
 
+
 [\begin{aligned}1 & 1 \\ 0 & 1\end{aligned}]
+
 
 
 $$
@@ -50,7 +56,9 @@ we first calculate the inverse of the coefficient matrix $[\begin{aligned}1 & 1 
 $$
 
 
+
 [\begin{aligned}1 & −1 \\ 0 & 1\end{aligned}]
+
 
 
 $$
@@ -60,7 +68,9 @@ Then, the solution to this system is
 $$
 
 
+
 \begin{aligned}𝐱 & =𝐴^{−1}𝐛 \\ & =[\begin{aligned}1 & −1 \\ 0 & 1\end{aligned}][\begin{aligned}5 \\ 2\end{aligned}] \\ & =[\begin{aligned}3 \\ 2\end{aligned}].\end{aligned}
+
 
 
 $$
@@ -76,7 +86,9 @@ Find a solution to the system of linear equations
 $$
 
 
+
 \begin{aligned}2𝑥+𝑦=2 \\ 4𝑥+3𝑦=6.\end{aligned}
+
 
 
 $$
@@ -88,7 +100,9 @@ This system can be written as
 $$
 
 
+
 [\begin{aligned}2 & 1 \\ 4 & 3\end{aligned}]
+
 
 
 $$
@@ -98,7 +112,9 @@ To find the solution, we need to calculate the inverse of the coefficient matrix
 $$
 
 
+
 \begin{aligned}𝐴^{−1} & =\frac{1}{3⋅2−4⋅1}[\begin{aligned}3 & −1 \\ −4 & 2\end{aligned}] \\ & =\frac{1}{2}[\begin{aligned}3 & −1 \\ −4 & 2\end{aligned}].\end{aligned}
+
 
 
 $$
@@ -108,7 +124,9 @@ We can now find the solution to this system:
 $$
 
 
+
 \begin{aligned}𝐱 & =𝐴^{−1}𝐛 \\ & =\frac{1}{2}[\begin{aligned}3 & −1 \\ −4 & 2\end{aligned}][\begin{aligned}2 \\ 6\end{aligned}] \\ & =\frac{1}{2}[\begin{aligned}0 \\ 4\end{aligned}] \\ & =[\begin{aligned}0 \\ 2\end{aligned}]\end{aligned}
+
 
 
 $$
@@ -124,7 +142,9 @@ Solve the system of linear equations
 $$
 
 
+
 \begin{aligned}2𝑥−3𝑦=5 \\ 6𝑦−5𝑥=−8.\end{aligned}
+
 
 
 $$
@@ -136,7 +156,9 @@ First, we reorganize the equations so that they are in the right order, to get
 $$
 
 
+
 \begin{aligned}2𝑥−3𝑦=5 \\ −5𝑥+6𝑦=−8.\end{aligned}
+
 
 
 $$
@@ -146,7 +168,9 @@ Now, we can represent this system of equations in the form $A\mathbf{x} =\mathbf
 $$
 
 
+
 [\begin{aligned}2 & −3 \\ −5 & 6\end{aligned}]
+
 
 
 $$
@@ -156,7 +180,9 @@ To find the solution, we need to calculate the inverse of the coefficient matrix
 $$
 
 
+
 \begin{aligned}𝐴^{−1} & =\frac{1}{6⋅2−3⋅5}[\begin{aligned}6 & 3 \\ 5 & 2\end{aligned}] \\ & =−\frac{1}{3}[\begin{aligned}6 & 3 \\ 5 & 2\end{aligned}].\end{aligned}
+
 
 
 $$
@@ -166,7 +192,9 @@ We can now find the solution to this system:
 $$
 
 
+
 \begin{aligned}𝐱 & =𝐴^{−1}𝐛 \\ & =−\frac{1}{3}[\begin{aligned}6 & 3 \\ 5 & 2\end{aligned}][\begin{aligned}5 \\ −8\end{aligned}] \\ & =−\frac{1}{3}[\begin{aligned}6 \\ 9\end{aligned}] \\ & =[\begin{aligned}−2 \\ −3\end{aligned}].\end{aligned}
+
 
 
 $$
@@ -180,7 +208,9 @@ Consider the system of equations
 $$
 
 
+
 \begin{aligned}2𝑥+𝑦=3 \\ 6𝑥+3𝑦=9.\end{aligned}
+
 
 
 $$
@@ -192,7 +222,9 @@ This system can be represented in the form $A\mathbf{x}=\mathbf{b}$ as
 $$
 
 
+
 [\begin{aligned}2 & 1 \\ 6 & 3\end{aligned}]
+
 
 
 $$
@@ -202,7 +234,9 @@ To use this matrix method, we need to find $A^{-1}.$ However
 $$
 
 
+
 \det (A) = 2\cdot 3 - 1\cdot 6 =0.
+
 
 
 $$

@@ -19,7 +19,9 @@ For a discrete random variable $X$ with probability mass function $f(x)$ defined
 $$
 
 
+
 \textrm E[X] = \sum\limits_{x \in S} x \cdot f(x)
+
 
 
 $$
@@ -39,7 +41,9 @@ The expected value of a discrete random variable $X$ with probability mass funct
 $$
 
 
+
 \textrm E[X] = \sum\limits_{x \in S} x \cdot f(x).
+
 
 
 $$
@@ -49,7 +53,9 @@ A tetrahedral die has four sides. Let $X$ be the score attained on a random roll
 $$
 
 
+
 f(1) = f(2) = f(3) = f(4) = \dfrac{1}{4}
+
 
 
 $$
@@ -59,7 +65,9 @@ Summing up the products of each value of $X$ and its associated probability, we 
 $$
 
 
+
 \begin{aligned}E[𝑋] & =1⋅𝑓(1)+2⋅𝑓(2)+3⋅𝑓(3)+4⋅𝑓(4) \\ & =1(\frac{1}{4})+2(\frac{1}{4})+3(\frac{1}{4})+4(\frac{1}{4}) \\ & =\frac{1}{4}+\frac{2}{4}+\frac{3}{4}+\frac{4}{4} \\ & =\frac{1+2+3+4}{4} \\ & =\frac{10}{4} \\ & =2.5.\end{aligned}
+
 
 
 $$
@@ -77,7 +85,9 @@ The expected value of a discrete random variable $X$ with probability mass funct
 $$
 
 
+
 \textrm E[X] = \sum\limits_{x \in S} x \cdot f(x).
+
 
 
 $$
@@ -87,7 +97,9 @@ Summing up the products of each value of $X$ and its associated probability, we 
 $$
 
 
+
 \begin{aligned}E[𝑋] & =1⋅𝑓(1)+2⋅𝑓(2)+3⋅𝑓(3)+4⋅𝑓(4) \\ & =1(\frac{1}{10})+2(\frac{3}{10})+3(\frac{2}{5})+4(\frac{1}{5}) \\ & =\frac{1}{10}+\frac{6}{10}+\frac{6}{5}+\frac{4}{5} \\ & =\frac{1}{10}+\frac{6}{10}+\frac{12}{10}+\frac{8}{10} \\ & =\frac{1+6+12+8}{10} \\ & =\frac{27}{10} \\ & =2.7\,.\end{aligned}
+
 
 
 $$
@@ -105,7 +117,9 @@ The expected value of a discrete random variable $X$ with probability mass funct
 $$
 
 
+
 \textrm E[X] = \sum\limits_{x \in S} x \cdot f(x).
+
 
 
 $$
@@ -115,7 +129,9 @@ We're given the frequencies of the number of pets, so we can start by computing 
 $$
 
 
+
 \begin{aligned}𝑃(𝑋=0)=𝑓(0) & =\frac{5}{16} \\ 𝑃(𝑋=1)=𝑓(1) & =\frac{6}{16}=\frac{3}{8} \\ 𝑃(𝑋=2)=𝑓(2) & =\frac{5}{16}\end{aligned}
+
 
 
 $$
@@ -127,7 +143,9 @@ Now, summing up the products of each value of $X$ and its associated probability
 $$
 
 
+
 \begin{aligned}E[𝑋] & =0⋅𝑓(0)+1⋅𝑓(1)+2⋅𝑓(2) \\ & =0(\frac{5}{16})+1(\frac{3}{8})+2(\frac{5}{16}) \\ & =0+\frac{3}{8}+\frac{10}{16} \\ & =0+\frac{6}{16}+\frac{10}{16} \\ & =\frac{0+6+10}{16} \\ & =\frac{16}{16} \\ & =1\,.\end{aligned}
+
 
 
 $$
@@ -151,7 +169,9 @@ The probabilities for the outcomes are
 $$
 
 
+
 P(-1)=\dfrac{4}{5}, \qquad P(5)=\dfrac{1}{5}.
+
 
 
 $$
@@ -163,7 +183,9 @@ Therefore, the expected value of $p$ is given by
 $$
 
 
+
 \begin{aligned} \textrm E[p] &= -1 \cdot f(-1) + 5 \cdot f(5) \\\[5pt] &= -1 \left( \dfrac{4}{5} \right) + 5 \left( \dfrac{1}{5} \right) \\\[5pt] &=-\dfrac{4}{5} + 1 \\[3pt] &=\dfrac{1}{5} \\[3pt] &=0.2 \end{aligned}
+
 
 
 $$

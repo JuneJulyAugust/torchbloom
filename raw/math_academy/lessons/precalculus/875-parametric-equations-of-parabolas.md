@@ -17,7 +17,9 @@ The standard parametric equations of a *vertical* parabola that has its vertex a
 $$
 
 
+
 x = 2pt, \qquad y = pt^2, \qquad t \in (-\infty, \infty),
+
 
 
 $$
@@ -47,7 +49,9 @@ The parametric equations of a vertical parabola that has its vertex at $(0,0)$ a
 $$
 
 
+
 x = 2pt, \qquad y = pt^2,
+
 
 
 $$
@@ -59,7 +63,9 @@ Since the parabola passes through $(4,8),$ we can substitute $x=4$ and $y=8$ int
 $$
 
 
+
 \begin{aligned}4=2𝑝𝑡 \\ 8=𝑝𝑡^{2}.\end{aligned}
+
 
 
 $$
@@ -69,7 +75,9 @@ Solving the first equation for $t,$ we have
 $$
 
 
+
 \begin{aligned}4 & =2𝑝𝑡 \\ 2 & =𝑝𝑡 \\ 𝑡 & =\frac{2}{𝑝}.\end{aligned}
+
 
 
 $$
@@ -79,7 +87,9 @@ Substituting this into the second equation and solving for $p,$ we get
 $$
 
 
+
 \begin{aligned}8 & =𝑝(\frac{2}{𝑝})^{2} \\ 8 & =𝑝⋅\frac{4}{𝑝^{2}} \\ 8 & =\frac{4}{𝑝} \\ 𝑝 & =\frac{1}{2}.\end{aligned}
+
 
 
 $$
@@ -89,7 +99,9 @@ Therefore, the parametric equations of the parabola are
 $$
 
 
+
 x = 2\left(\dfrac 12 \right)t, \qquad y = \left(\dfrac 12 \right)t^2 ,
+
 
 
 $$
@@ -99,7 +111,9 @@ which simplify to
 $$
 
 
+
 x = t, \qquad y = \dfrac 12 t^2 .
+
 
 
 $$
@@ -111,7 +125,9 @@ The parametric equations of a *horizontal* parabola that has its vertex at $(0,0
 $$
 
 
+
 x = pt^2, \qquad y = 2pt, \qquad t \in (-\infty, \infty),
+
 
 
 $$
@@ -137,7 +153,9 @@ The parametric equations of a horizontal parabola $y^2=4px$ that has its vertex 
 $$
 
 
+
 x = pt^2, \qquad y = 2pt,
+
 
 
 $$
@@ -149,7 +167,9 @@ Comparing the given Cartesian equation with the general case $y^2=4px$ and solvi
 $$
 
 
+
 \begin{aligned}4𝑝𝑥 & =−64𝑥 \\ 4𝑝 & =−64 \\ 𝑝 & =−16.\end{aligned}
+
 
 
 $$
@@ -159,7 +179,9 @@ Therefore, the parametric equations of the parabola are
 $$
 
 
+
 x = (-16)t^2, \qquad y = 2(-16)t,
+
 
 
 $$
@@ -169,7 +191,9 @@ which simplify to
 $$
 
 
+
 x = -16t^2, \qquad y = -32t .
+
 
 
 $$
@@ -183,7 +207,9 @@ Find the Cartesian equation of the parabola defined by the parametric equations
 $$
 
 
+
 x = 2t^2, \qquad y = 4t, \qquad t\in(-\infty,\infty).
+
 
 
 $$
@@ -195,7 +221,9 @@ First, let's make $t$ the subject of the parametric equations. This gives
 $$
 
 
+
 \begin{aligned}𝑡^{2} & =\frac{𝑥}{2},\,𝑡=\frac{𝑦}{4}.\end{aligned}
+
 
 
 $$
@@ -205,7 +233,9 @@ Squaring both sides of the second equation, we have
 $$
 
 
+
 \begin{aligned}𝑡^{2} & =\frac{𝑦^{2}}{16}.\end{aligned}
+
 
 
 $$
@@ -215,7 +245,9 @@ We can now eliminate the parameter $t$ by substituting the above into the equati
 $$
 
 
+
 \begin{aligned}\frac{𝑦^{2}}{16} & =\frac{𝑥}{2} \\ 𝑦^{2} & =8𝑥\end{aligned}
+
 
 
 $$
@@ -229,7 +261,9 @@ We've been told that the parametric equations of a vertical parabola that has it
 $$
 
 
+
 x = 2pt, \qquad y = pt^2, \qquad t\in(-\infty,\infty).
+
 
 
 $$
@@ -241,7 +275,9 @@ First, let's make $t$ the subject of the parametric equations:
 $$
 
 
+
 \begin{aligned}𝑥 & =2𝑝𝑡 & ⟹ & & 𝑡 & =\frac{𝑥}{2𝑝} \\ 𝑦 & =𝑝𝑡^{2} & ⟹ & & 𝑡^{2} & =\frac{𝑦}{𝑝}\end{aligned}
+
 
 
 $$
@@ -251,7 +287,9 @@ Squaring the first equation above, we have
 $$
 
 
+
 \begin{aligned}𝑡^{2} & =(\frac{𝑥}{2𝑝})^{2} \\ 𝑡^{2} & =\frac{𝑥^{2}}{4𝑝^{2}}.\end{aligned}
+
 
 
 $$
@@ -261,7 +299,9 @@ Now, substituting the above into the second equation $t^2 = \dfrac{y}{p},$ we ca
 $$
 
 
+
 \begin{aligned}𝑡^{2} & =\frac{𝑦}{𝑝} \\ \frac{𝑥^{2}}{4𝑝^{2}} & =\frac{𝑦}{𝑝} \\ 𝑥^{2} & =\frac{𝑦}{𝑝}⋅4𝑝^{2} \\ 𝑥^{2} & =4𝑝𝑦\end{aligned}
+
 
 
 $$

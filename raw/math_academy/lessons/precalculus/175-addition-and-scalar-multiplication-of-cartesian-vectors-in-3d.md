@@ -17,7 +17,9 @@ Suppose we are given two vectors $\mathbf{a}$ and $\mathbf{b},$ where
 $$
 
 
+
 \begin{aligned} & 𝐚=7𝐢+3𝐣+5𝐤,\, & 𝐛=−2𝐢+5𝐣+3𝐤.\end{aligned}
+
 
 
 $$
@@ -29,7 +31,9 @@ To add the vectors together, we add their components:
 $$
 
 
+
 \begin{aligned}𝐚+𝐛 & =(7𝐢+3𝐣+5𝐤)+(−2𝐢+5𝐣+3𝐤) \\ & =(7+(−2))𝐢+(3+5)𝐣+(5+3)𝐤 \\ & =5𝐢+8𝐣+8𝐤\end{aligned}
+
 
 
 $$
@@ -39,7 +43,9 @@ Similarly, to compute $3\cdot\mathbf{a},$ we multiply each component of $\mathbf
 $$
 
 
+
 \begin{aligned}3⋅𝐚 & =3⋅(7𝐢+3𝐣+5𝐤) \\ & =(3⋅7)𝐢+(3⋅3)𝐣+(3⋅5)𝐤 \\ & =21\,𝐢+9\,𝐣+15\,𝐤\end{aligned}
+
 
 
 $$
@@ -53,7 +59,9 @@ For example, in angle bracket notation, we have
 $$
 
 
+
 \begin{aligned}⟨7,\,3,\,5⟩+⟨−2,\,5,\,3⟩ & = \\ ⟨7+(−2),\,3+5,\,5+3⟩ & = \\ ⟨5,\,8,\,8⟩, & \end{aligned}
+
 
 
 $$
@@ -63,7 +71,9 @@ and in column vector notation, we have
 $$
 
 
+
 \begin{aligned}\begin{aligned}7 \\ 3 \\ 5\end{aligned}+\begin{aligned}−2 \\ 5 \\ 3\end{aligned}=\begin{aligned}7+(−2) \\ 3+5 \\ 5+3\end{aligned}=\begin{aligned}5 \\ 8 \\ 8\end{aligned}.\end{aligned}
+
 
 
 $$
@@ -75,7 +85,9 @@ For example, in angle bracket notation, we have
 $$
 
 
+
 \begin{aligned}3⋅⟨7, 3, 5⟩ & = \\ ⟨3⋅7, 3⋅3, 3⋅5⟩ & = \\ ⟨21, 9, 15⟩ & ,\end{aligned}
+
 
 
 $$
@@ -85,7 +97,9 @@ and in column vector notation, we have
 $$
 
 
+
 \begin{aligned}3⋅\begin{aligned}7 \\ 3 \\ 5\end{aligned}=\begin{aligned}3⋅7 \\ 3⋅3 \\ 3⋅5\end{aligned}=\begin{aligned}21 \\ 9 \\ 15\end{aligned}.\end{aligned}
+
 
 
 $$
@@ -103,7 +117,9 @@ To compute the difference, we just subtract each component individually:
 $$
 
 
+
 \begin{aligned}𝐚−𝐛 & =⟨2,−5,1⟩−⟨2,0,−4⟩ \\ & =⟨2−2,−5−0,1−(−4)⟩ \\ & =⟨0,−5,5⟩\end{aligned}
+
 
 
 $$
@@ -121,7 +137,9 @@ To compute the product, we just multiply each component individually:
 $$
 
 
+
 \begin{aligned}−2𝐚 & =−2⋅⟨−3,2,1⟩ \\ & =⟨−2⋅(−3),−2⋅2,−2⋅1⟩ \\ & =⟨6,−4,−2⟩\end{aligned}
+
 
 
 $$
@@ -139,7 +157,9 @@ To compute $3\mathbf{a}+2\mathbf{b},$ we just need to perform the required opera
 $$
 
 
+
 \begin{aligned}3𝐚+2𝐛 & =3⋅⟨−4,5,1⟩+2⋅⟨4,1,−3⟩ \\ & =⟨−12,15,3⟩+⟨8,2,−6⟩ \\ & =⟨−4,17,−3⟩\end{aligned}
+
 
 
 $$
@@ -157,7 +177,9 @@ To compute $\mathbf{a}-(\mathbf{b}-\mathbf{c}),$ we just need to perform the req
 $$
 
 
+
 \begin{aligned}𝐚−(𝐛−𝐜) & =\begin{aligned}3 \\ 1 \\ −2\end{aligned}−\begin{aligned}1 \\ 1 \\ −1\end{aligned}−\begin{aligned}−1 \\ 2 \\ 4\end{aligned} \\ & =\begin{aligned}3 \\ 1 \\ −2\end{aligned}−\begin{aligned}2 \\ −1 \\ −5\end{aligned} \\ & =\begin{aligned}1 \\ 2 \\ 3\end{aligned}\end{aligned}
+
 
 
 $$
