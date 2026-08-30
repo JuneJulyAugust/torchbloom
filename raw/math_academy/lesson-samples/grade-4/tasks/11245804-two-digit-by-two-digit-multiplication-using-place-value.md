@@ -2,7 +2,7 @@
 
 - **Activity task:** `11245804`
 - **Activity URL:** [Math Academy activity](https://www.mathacademy.com/students/43609/activity?taskId=11245804)
-- **Related lesson:** [Two-Digit by Two-Digit Multiplication Using Place Value](https://www.mathacademy.com/topics/2394)
+- **Related lesson:** [Two-Digit by Two-Digit Multiplication Using Place Value](../../../elementary-school/lessons/grade-4/2394-two-digit-by-two-digit-multiplication-using-place-value.md)
 
 > Raw task-page capture. It retains the page-visible prompts, mathematical expressions, instructional graphics, completion result, completion time, and elapsed time. The completed-attempt page did not expose a student response value for questions unless stated otherwise.
 

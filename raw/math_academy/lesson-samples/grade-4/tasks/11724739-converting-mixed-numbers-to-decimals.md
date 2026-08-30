@@ -2,7 +2,7 @@
 
 - **Activity task:** `11724739`
 - **Activity URL:** [Math Academy activity](https://www.mathacademy.com/students/43609/activity?taskId=11724739)
-- **Related lesson:** [Converting Mixed Numbers to Decimals](https://www.mathacademy.com/topics/2349)
+- **Related lesson:** [Converting Mixed Numbers to Decimals](../../../elementary-school/lessons/grade-4/2349-converting-mixed-numbers-to-decimals.md)
 
 > Raw task-page capture. It retains the page-visible prompts, mathematical expressions, instructional graphics, completion result, completion time, and elapsed time. The completed-attempt page did not expose a student response value for questions unless stated otherwise.
 

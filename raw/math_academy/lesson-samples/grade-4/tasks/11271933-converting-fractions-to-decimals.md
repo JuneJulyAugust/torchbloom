@@ -2,7 +2,7 @@
 
 - **Activity task:** `11271933`
 - **Activity URL:** [Math Academy activity](https://www.mathacademy.com/students/43609/activity?taskId=11271933)
-- **Related lesson:** [Converting Fractions to Decimals](https://www.mathacademy.com/topics/3914)
+- **Related lesson:** [Converting Fractions to Decimals](../../../elementary-school/lessons/grade-4/3914-converting-fractions-to-decimals.md)
 
 > Raw task-page capture. It retains the page-visible prompts, mathematical expressions, instructional graphics, completion result, completion time, and elapsed time. The completed-attempt page did not expose a student response value for questions unless stated otherwise.
 

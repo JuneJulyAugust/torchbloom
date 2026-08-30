@@ -2,7 +2,7 @@
 
 - **Activity task:** `10993470`
 - **Activity URL:** [Math Academy activity](https://www.mathacademy.com/students/43609/activity?taskId=10993470)
-- **Related lesson:** [Multiplying Unit Fractions by Whole Numbers Using Models](https://www.mathacademy.com/topics/564)
+- **Related lesson:** [Multiplying Unit Fractions by Whole Numbers Using Models](../../../elementary-school/lessons/grade-4/564-multiplying-unit-fractions-by-whole-numbers-using-models.md)
 
 > Raw task-page capture. It retains the page-visible prompts, mathematical expressions, instructional graphics, completion result, completion time, and elapsed time. The completed-attempt page did not expose a student response value for questions unless stated otherwise.
 

@@ -2,7 +2,7 @@
 
 - **Activity task:** `11724736`
 - **Activity URL:** [Math Academy activity](https://www.mathacademy.com/students/43609/activity?taskId=11724736)
-- **Related lesson:** [Interpreting Fractions as Division](https://www.mathacademy.com/topics/2409)
+- **Related lesson:** [Interpreting Fractions as Division](../../../elementary-school/lessons/grade-4/2409-interpreting-fractions-as-division.md)
 
 > Raw task-page capture. It retains the page-visible prompts, mathematical expressions, instructional graphics, completion result, completion time, and elapsed time. The completed-attempt page did not expose a student response value for questions unless stated otherwise.
 

@@ -2,7 +2,7 @@
 
 - **Activity task:** `11349678`
 - **Activity URL:** [Math Academy activity](https://www.mathacademy.com/students/43609/activity?taskId=11349678)
-- **Related lesson:** [Dividing by 10, 100, and 1,000 Using the Pattern of Zeros](https://www.mathacademy.com/topics/3882)
+- **Related lesson:** [Dividing by 10, 100, and 1,000 Using the Pattern of Zeros](../../../elementary-school/lessons/grade-4/3882-dividing-by-10-100-and-1-000-using-the-pattern-of-zeros.md)
 
 > Raw task-page capture. It retains the page-visible prompts, mathematical expressions, instructional graphics, completion result, completion time, and elapsed time. The completed-attempt page did not expose a student response value for questions unless stated otherwise.
 

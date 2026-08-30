@@ -2,7 +2,7 @@
 
 - **Activity task:** `11307328`
 - **Activity URL:** [Math Academy activity](https://www.mathacademy.com/students/43609/activity?taskId=11307328)
-- **Related lesson:** [Comparing Decimals Up to Hundredths](https://www.mathacademy.com/topics/3996)
+- **Related lesson:** [Comparing Decimals Up to Hundredths](../../../elementary-school/lessons/grade-4/3996-comparing-decimals-up-to-hundredths.md)
 
 > Raw task-page capture. It retains the page-visible prompts, mathematical expressions, instructional graphics, completion result, completion time, and elapsed time. The completed-attempt page did not expose a student response value for questions unless stated otherwise.
 

@@ -2,7 +2,7 @@
 
 - **Activity task:** `10872999`
 - **Activity URL:** [Math Academy activity](https://www.mathacademy.com/students/43609/activity?taskId=10872999)
-- **Related lesson:** [Two-Digit by Two-Digit Multiplication Using Area Models](https://www.mathacademy.com/topics/2418)
+- **Related lesson:** [Two-Digit by Two-Digit Multiplication Using Area Models](../../../elementary-school/lessons/grade-4/2418-two-digit-by-two-digit-multiplication-using-area-models.md)
 
 > Raw task-page capture. It retains the page-visible prompts, mathematical expressions, instructional graphics, completion result, completion time, and elapsed time. The completed-attempt page did not expose a student response value for questions unless stated otherwise.
 

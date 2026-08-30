@@ -2,7 +2,7 @@
 
 - **Activity task:** `11290566`
 - **Activity URL:** [Math Academy activity](https://www.mathacademy.com/students/43609/activity?taskId=11290566)
-- **Related lesson:** [The Relationship Between Multiplication and Division](https://www.mathacademy.com/topics/3877)
+- **Related lesson:** [The Relationship Between Multiplication and Division](../../../elementary-school/lessons/grade-4/3877-the-relationship-between-multiplication-and-division.md)
 
 > Raw task-page capture. It retains the page-visible prompts, mathematical expressions, instructional graphics, completion result, completion time, and elapsed time. The completed-attempt page did not expose a student response value for questions unless stated otherwise.
 

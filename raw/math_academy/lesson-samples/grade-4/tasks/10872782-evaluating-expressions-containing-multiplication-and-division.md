@@ -2,7 +2,7 @@
 
 - **Activity task:** `10872782`
 - **Activity URL:** [Math Academy activity](https://www.mathacademy.com/students/43609/activity?taskId=10872782)
-- **Related lesson:** [Evaluating Expressions Containing Multiplication and Division](https://www.mathacademy.com/topics/3923)
+- **Related lesson:** [Evaluating Expressions Containing Multiplication and Division](../../../elementary-school/lessons/grade-4/3923-evaluating-expressions-containing-multiplication-and-division.md)
 
 > Raw task-page capture. It retains the page-visible prompts, mathematical expressions, instructional graphics, completion result, completion time, and elapsed time. The completed-attempt page did not expose a student response value for questions unless stated otherwise.
 

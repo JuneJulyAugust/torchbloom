@@ -2,7 +2,7 @@
 
 - **Activity task:** `10848602`
 - **Activity URL:** [Math Academy activity](https://www.mathacademy.com/students/43609/activity?taskId=10848602)
-- **Related lesson:** [Comparing Fractions](https://www.mathacademy.com/topics/538)
+- **Related lesson:** [Comparing Fractions](../../../elementary-school/lessons/grade-4/538-comparing-fractions.md)
 
 > Raw task-page capture. It retains the page-visible prompts, mathematical expressions, instructional graphics, completion result, completion time, and elapsed time. The completed-attempt page did not expose a student response value for questions unless stated otherwise.
 

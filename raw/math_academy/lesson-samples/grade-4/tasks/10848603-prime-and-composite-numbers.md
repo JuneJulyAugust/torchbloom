@@ -2,7 +2,7 @@
 
 - **Activity task:** `10848603`
 - **Activity URL:** [Math Academy activity](https://www.mathacademy.com/students/43609/activity?taskId=10848603)
-- **Related lesson:** [Prime and Composite Numbers](https://www.mathacademy.com/topics/840)
+- **Related lesson:** [Prime and Composite Numbers](../../../elementary-school/lessons/grade-4/840-prime-and-composite-numbers.md)
 
 > Raw task-page capture. It retains the page-visible prompts, mathematical expressions, instructional graphics, completion result, completion time, and elapsed time. The completed-attempt page did not expose a student response value for questions unless stated otherwise.
 

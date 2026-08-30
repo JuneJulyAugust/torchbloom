@@ -2,7 +2,7 @@
 
 - **Activity task:** `12166953`
 - **Activity URL:** [Math Academy activity](https://www.mathacademy.com/students/43609/activity?taskId=12166953)
-- **Related lesson:** [Subtracting Numbers Up to Seven Digits](https://www.mathacademy.com/topics/3909)
+- **Related lesson:** [Subtracting Numbers Up to Seven Digits](../../../elementary-school/lessons/grade-4/3909-subtracting-numbers-up-to-seven-digits.md)
 
 > Raw task-page capture. It retains the page-visible prompts, mathematical expressions, instructional graphics, completion result, completion time, and elapsed time. The completed-attempt page did not expose a student response value for questions unless stated otherwise.
 

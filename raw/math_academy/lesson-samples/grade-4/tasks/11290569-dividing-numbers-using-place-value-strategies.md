@@ -2,7 +2,7 @@
 
 - **Activity task:** `11290569`
 - **Activity URL:** [Math Academy activity](https://www.mathacademy.com/students/43609/activity?taskId=11290569)
-- **Related lesson:** [Dividing Numbers Using Place-Value Strategies](https://www.mathacademy.com/topics/3886)
+- **Related lesson:** [Dividing Numbers Using Place-Value Strategies](../../../elementary-school/lessons/grade-4/3886-dividing-numbers-using-place-value-strategies.md)
 
 > Raw task-page capture. It retains the page-visible prompts, mathematical expressions, instructional graphics, completion result, completion time, and elapsed time. The completed-attempt page did not expose a student response value for questions unless stated otherwise.
 
