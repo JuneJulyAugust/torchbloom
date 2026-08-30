@@ -5,8 +5,8 @@ Topic ID: 3916
 
 ## Prerequisites
 
-- [Adding Fractions With Like Denominators](https://www.mathacademy.com/topics/adding-fractions-with-like-denominators-2351)
-- [Dividing by 10, 100, and 1,000 Using the Pattern of Zeros](https://www.mathacademy.com/topics/dividing-by-10-100-and-1-000-using-the-pattern-of-zeros-3882)
+- [Adding Fractions With Like Denominators](./2351-adding-fractions-with-like-denominators.md)
+- [Dividing by 10, 100, and 1,000 Using the Pattern of Zeros](./3882-dividing-by-10-100-and-1-000-using-the-pattern-of-zeros.md)
 
 ## Lesson
 

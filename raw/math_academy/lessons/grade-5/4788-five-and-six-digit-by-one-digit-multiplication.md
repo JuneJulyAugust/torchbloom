@@ -5,7 +5,7 @@ Topic ID: 4788
 
 ## Prerequisites
 
-- [Three- and Four-Digit by One-Digit Multiplication](https://www.mathacademy.com/topics/three-and-four-digit-by-one-digit-multiplication-2291)
+- [Three- and Four-Digit by One-Digit Multiplication](./2291-three-and-four-digit-by-one-digit-multiplication.md)
 
 ## Lesson
 

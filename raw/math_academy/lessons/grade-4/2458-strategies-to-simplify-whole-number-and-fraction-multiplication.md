@@ -5,8 +5,8 @@ Topic ID: 2458
 
 ## Prerequisites
 
-- [Multiplying Fractions by Whole Numbers](https://www.mathacademy.com/topics/multiplying-fractions-by-whole-numbers-2360)
-- [Evaluating Expressions Containing Multiplication and Division](https://www.mathacademy.com/topics/evaluating-expressions-containing-multiplication-and-division-3923)
+- [Multiplying Fractions by Whole Numbers](./2360-multiplying-fractions-by-whole-numbers.md)
+- [Evaluating Expressions Containing Multiplication and Division](./3923-evaluating-expressions-containing-multiplication-and-division.md)
 
 ## Lesson
 

@@ -5,7 +5,7 @@ Topic ID: 7003
 
 ## Prerequisites
 
-- [Fraction Models](https://www.mathacademy.com/topics/fraction-models-2366)
+- [Fraction Models](./2366-fraction-models.md)
 
 ## Lesson
 

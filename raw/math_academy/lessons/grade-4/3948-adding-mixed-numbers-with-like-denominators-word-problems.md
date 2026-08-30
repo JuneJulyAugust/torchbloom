@@ -5,8 +5,8 @@ Topic ID: 3948
 
 ## Prerequisites
 
-- [Adding Mixed Numbers With Like Denominators](https://www.mathacademy.com/topics/adding-mixed-numbers-with-like-denominators-2352)
-- [Word Problems Involving Additive and Multiplicative Comparison](https://www.mathacademy.com/topics/word-problems-involving-additive-and-multiplicative-comparison-3903)
+- [Adding Mixed Numbers With Like Denominators](./2352-adding-mixed-numbers-with-like-denominators.md)
+- [Word Problems Involving Additive and Multiplicative Comparison](./3903-word-problems-involving-additive-and-multiplicative-comparison.md)
 
 ## Lesson
 

@@ -5,8 +5,8 @@ Topic ID: 2477
 
 ## Prerequisites
 
-- [Multiplying Three-Digit Decimals](https://www.mathacademy.com/topics/multiplying-three-digit-decimals-2355)
-- [Evaluating Larger Exponents](https://www.mathacademy.com/topics/evaluating-larger-exponents-3537)
+- [Multiplying Three-Digit Decimals](./2355-multiplying-three-digit-decimals.md)
+- [Evaluating Larger Exponents](./3537-evaluating-larger-exponents.md)
 
 ## Lesson
 

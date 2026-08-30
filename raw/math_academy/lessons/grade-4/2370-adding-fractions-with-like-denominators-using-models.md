@@ -5,7 +5,7 @@ Topic ID: 2370
 
 ## Prerequisites
 
-- [Writing Fractions in Lowest Terms](https://www.mathacademy.com/topics/writing-fractions-in-lowest-terms-2364)
+- [Writing Fractions in Lowest Terms](./2364-writing-fractions-in-lowest-terms.md)
 
 ## Lesson
 

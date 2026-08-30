@@ -5,7 +5,7 @@ Topic ID: 2380
 
 ## Prerequisites
 
-- [Multiplying Mixed Numbers by Whole Numbers](https://www.mathacademy.com/topics/multiplying-mixed-numbers-by-whole-numbers-2379)
+- [Multiplying Mixed Numbers by Whole Numbers](./2379-multiplying-mixed-numbers-by-whole-numbers.md)
 
 ## Lesson
 

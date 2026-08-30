@@ -5,7 +5,7 @@ Topic ID: 2407
 
 ## Prerequisites
 
-- [Polygons](https://www.mathacademy.com/topics/polygons-2470)
+- [Polygons](./2470-polygons.md)
 
 ## Lesson
 

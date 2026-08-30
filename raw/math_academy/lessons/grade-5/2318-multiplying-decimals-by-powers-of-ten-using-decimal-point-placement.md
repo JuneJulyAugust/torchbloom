@@ -5,7 +5,7 @@ Topic ID: 2318
 
 ## Prerequisites
 
-- [Multiplying Decimals by Powers of Ten Using Place Value](https://www.mathacademy.com/topics/multiplying-decimals-by-powers-of-ten-using-place-value-110)
+- [Multiplying Decimals by Powers of Ten Using Place Value](./110-multiplying-decimals-by-powers-of-ten-using-place-value.md)
 
 ## Lesson
 

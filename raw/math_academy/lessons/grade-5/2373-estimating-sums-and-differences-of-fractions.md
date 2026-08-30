@@ -5,8 +5,8 @@ Topic ID: 2373
 
 ## Prerequisites
 
-- [Subtracting Fractions and Whole Numbers](https://www.mathacademy.com/topics/subtracting-fractions-and-whole-numbers-545)
-- [Comparing Fractions Using One-Half Benchmarks](https://www.mathacademy.com/topics/comparing-fractions-using-one-half-benchmarks-3936)
+- [Subtracting Fractions and Whole Numbers](./545-subtracting-fractions-and-whole-numbers.md)
+- [Comparing Fractions Using One-Half Benchmarks](../grade-4/3936-comparing-fractions-using-one-half-benchmarks.md)
 
 ## Lesson
 

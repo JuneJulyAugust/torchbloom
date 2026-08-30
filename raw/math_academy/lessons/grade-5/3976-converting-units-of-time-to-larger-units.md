@@ -5,9 +5,9 @@ Topic ID: 3976
 
 ## Prerequisites
 
-- [Converting Units of Time to Smaller Units](https://www.mathacademy.com/topics/converting-units-of-time-to-smaller-units-2429)
-- [Dividing by 10, 100, and 1,000 Using the Pattern of Zeros](https://www.mathacademy.com/topics/dividing-by-10-100-and-1-000-using-the-pattern-of-zeros-3882)
-- [Dividing Numbers Using Place-Value Strategies](https://www.mathacademy.com/topics/dividing-numbers-using-place-value-strategies-3886)
+- [Converting Units of Time to Smaller Units](../grade-4/2429-converting-units-of-time-to-smaller-units.md)
+- [Dividing by 10, 100, and 1,000 Using the Pattern of Zeros](../grade-4/3882-dividing-by-10-100-and-1-000-using-the-pattern-of-zeros.md)
+- [Dividing Numbers Using Place-Value Strategies](../grade-4/3886-dividing-numbers-using-place-value-strategies.md)
 
 ## Lesson
 

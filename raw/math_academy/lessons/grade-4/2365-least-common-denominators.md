@@ -5,8 +5,8 @@ Topic ID: 2365
 
 ## Prerequisites
 
-- [Equivalent Fractions](https://www.mathacademy.com/topics/equivalent-fractions-2363)
-- [Least Common Multiples](https://www.mathacademy.com/topics/least-common-multiples-2440)
+- [Equivalent Fractions](./2363-equivalent-fractions.md)
+- [Least Common Multiples](./2440-least-common-multiples.md)
 
 ## Lesson
 

@@ -5,7 +5,7 @@ Topic ID: 2442
 
 ## Prerequisites
 
-- [Plotting Decimals on Number Lines](https://www.mathacademy.com/topics/plotting-decimals-on-number-lines-3915)
+- [Plotting Decimals on Number Lines](../grade-4/3915-plotting-decimals-on-number-lines.md)
 
 ## Lesson
 

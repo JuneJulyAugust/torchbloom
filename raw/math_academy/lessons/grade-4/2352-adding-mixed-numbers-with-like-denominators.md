@@ -5,7 +5,7 @@ Topic ID: 2352
 
 ## Prerequisites
 
-- [Adding Fractions With Like Denominators](https://www.mathacademy.com/topics/adding-fractions-with-like-denominators-2351)
+- [Adding Fractions With Like Denominators](./2351-adding-fractions-with-like-denominators.md)
 
 ## Lesson
 

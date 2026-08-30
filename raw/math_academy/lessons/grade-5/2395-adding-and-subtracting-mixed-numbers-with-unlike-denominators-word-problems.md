@@ -5,8 +5,8 @@ Topic ID: 2395
 
 ## Prerequisites
 
-- [Subtracting Mixed Numbers With Unlike Denominators Using Improper Fractions](https://www.mathacademy.com/topics/subtracting-mixed-numbers-with-unlike-denominators-using-improper-fractions-525)
-- [Adding and Subtracting Fractions With Unlike Denominators: Word Problems](https://www.mathacademy.com/topics/adding-and-subtracting-fractions-with-unlike-denominators-word-problems-2375)
+- [Subtracting Mixed Numbers With Unlike Denominators Using Improper Fractions](./525-subtracting-mixed-numbers-with-unlike-denominators-using-improper-fractions.md)
+- [Adding and Subtracting Fractions With Unlike Denominators: Word Problems](./2375-adding-and-subtracting-fractions-with-unlike-denominators-word-problems.md)
 
 ## Lesson
 

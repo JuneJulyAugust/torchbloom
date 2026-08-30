@@ -5,10 +5,10 @@ Topic ID: 4219
 
 ## Prerequisites
 
-- [Subtracting Mixed Numbers With Like Denominators Using Improper Fractions](https://www.mathacademy.com/topics/subtracting-mixed-numbers-with-like-denominators-using-improper-fractions-2362)
-- [Two-Digit by One-Digit Multiplication Using Place Value](https://www.mathacademy.com/topics/two-digit-by-one-digit-multiplication-using-place-value-2416)
-- [Two-Digit by One-Digit Division Using Partial Quotients](https://www.mathacademy.com/topics/two-digit-by-one-digit-division-using-partial-quotients-2424)
-- [Adding Mixed Numbers With Like Denominators: Word Problems](https://www.mathacademy.com/topics/adding-mixed-numbers-with-like-denominators-word-problems-3948)
+- [Subtracting Mixed Numbers With Like Denominators Using Improper Fractions](./2362-subtracting-mixed-numbers-with-like-denominators-using-improper-fractions.md)
+- [Two-Digit by One-Digit Multiplication Using Place Value](./2416-two-digit-by-one-digit-multiplication-using-place-value.md)
+- [Two-Digit by One-Digit Division Using Partial Quotients](./2424-two-digit-by-one-digit-division-using-partial-quotients.md)
+- [Adding Mixed Numbers With Like Denominators: Word Problems](./3948-adding-mixed-numbers-with-like-denominators-word-problems.md)
 
 ## Lesson
 

@@ -5,7 +5,7 @@ Topic ID: 2396
 
 ## Prerequisites
 
-- [Evaluating Whole Number Expressions With Parentheses](https://www.mathacademy.com/topics/evaluating-whole-number-expressions-with-parentheses-2398)
+- [Evaluating Whole Number Expressions With Parentheses](./2398-evaluating-whole-number-expressions-with-parentheses.md)
 
 ## Lesson
 

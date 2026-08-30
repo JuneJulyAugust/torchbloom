@@ -5,9 +5,9 @@ Topic ID: 2497
 
 ## Prerequisites
 
-- [Dividing Fractions by Whole Numbers](https://www.mathacademy.com/topics/dividing-fractions-by-whole-numbers-2369)
-- [Dividing Whole Numbers by Fractions](https://www.mathacademy.com/topics/dividing-whole-numbers-by-fractions-2377)
-- [Dividing Numbers by One-Digit Numbers: Interpreting the Remainder](https://www.mathacademy.com/topics/dividing-numbers-by-one-digit-numbers-interpreting-the-remainder-2434)
+- [Dividing Fractions by Whole Numbers](./2369-dividing-fractions-by-whole-numbers.md)
+- [Dividing Whole Numbers by Fractions](./2377-dividing-whole-numbers-by-fractions.md)
+- [Dividing Numbers by One-Digit Numbers: Interpreting the Remainder](./2434-dividing-numbers-by-one-digit-numbers-interpreting-the-remainder.md)
 
 ## Lesson
 

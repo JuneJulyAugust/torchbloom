@@ -5,7 +5,7 @@ Topic ID: 2391
 
 ## Prerequisites
 
-- [Division With Remainders](https://www.mathacademy.com/topics/division-with-remainders-3952)
+- [Division With Remainders](./3952-division-with-remainders.md)
 
 ## Lesson
 

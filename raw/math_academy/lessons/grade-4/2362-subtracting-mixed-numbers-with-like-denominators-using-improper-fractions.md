@@ -5,10 +5,10 @@ Topic ID: 2362
 
 ## Prerequisites
 
-- [Subtracting Mixed Numbers With Like Denominators](https://www.mathacademy.com/topics/subtracting-mixed-numbers-with-like-denominators-235)
-- [Comparing Fractions](https://www.mathacademy.com/topics/comparing-fractions-538)
-- [Subtracting Two-Digit Numbers](https://www.mathacademy.com/topics/subtracting-two-digit-numbers-3876)
-- [Converting Mixed Numbers to Improper Fractions](https://www.mathacademy.com/topics/converting-mixed-numbers-to-improper-fractions-3901)
+- [Subtracting Mixed Numbers With Like Denominators](./235-subtracting-mixed-numbers-with-like-denominators.md)
+- [Comparing Fractions](./538-comparing-fractions.md)
+- [Subtracting Two-Digit Numbers](./3876-subtracting-two-digit-numbers.md)
+- [Converting Mixed Numbers to Improper Fractions](./3901-converting-mixed-numbers-to-improper-fractions.md)
 
 ## Lesson
 

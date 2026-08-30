@@ -5,8 +5,8 @@ Topic ID: 2283
 
 ## Prerequisites
 
-- [The Place Value System With Decimals](https://www.mathacademy.com/topics/the-place-value-system-with-decimals-2282)
-- [Multiplying Numbers by Powers of Ten Using Place Value](https://www.mathacademy.com/topics/multiplying-numbers-by-powers-of-ten-using-place-value-2322)
+- [The Place Value System With Decimals](./2282-the-place-value-system-with-decimals.md)
+- [Multiplying Numbers by Powers of Ten Using Place Value](./2322-multiplying-numbers-by-powers-of-ten-using-place-value.md)
 
 ## Lesson
 

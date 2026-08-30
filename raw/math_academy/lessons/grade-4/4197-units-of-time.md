@@ -5,7 +5,7 @@ Topic ID: 4197
 
 ## Prerequisites
 
-- [Multiplying Fractions by Whole Numbers](https://www.mathacademy.com/topics/multiplying-fractions-by-whole-numbers-2360)
+- [Multiplying Fractions by Whole Numbers](./2360-multiplying-fractions-by-whole-numbers.md)
 
 ## Lesson
 

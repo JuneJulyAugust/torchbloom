@@ -5,11 +5,11 @@ Topic ID: 3903
 
 ## Prerequisites
 
-- [Units of Length](https://www.mathacademy.com/topics/units-of-length-236)
-- [Representing Comparison Statements as Equations](https://www.mathacademy.com/topics/representing-comparison-statements-as-equations-3902)
-- [Units of Mass](https://www.mathacademy.com/topics/units-of-mass-4196)
-- [Units of Time](https://www.mathacademy.com/topics/units-of-time-4197)
-- [Units of Volume](https://www.mathacademy.com/topics/units-of-volume-4198)
+- [Units of Length](./236-units-of-length.md)
+- [Representing Comparison Statements as Equations](./3902-representing-comparison-statements-as-equations.md)
+- [Units of Mass](./4196-units-of-mass.md)
+- [Units of Time](./4197-units-of-time.md)
+- [Units of Volume](./4198-units-of-volume.md)
 
 ## Lesson
 

@@ -5,8 +5,8 @@ Topic ID: 4073
 
 ## Prerequisites
 
-- [Two-Digit by One-Digit Division](https://www.mathacademy.com/topics/two-digit-by-one-digit-division-535)
-- [Converting Customary Units of Length to Smaller Units](https://www.mathacademy.com/topics/converting-customary-units-of-length-to-smaller-units-3994)
+- [Two-Digit by One-Digit Division](./535-two-digit-by-one-digit-division.md)
+- [Converting Customary Units of Length to Smaller Units](../grade-4/3994-converting-customary-units-of-length-to-smaller-units.md)
 
 ## Lesson
 

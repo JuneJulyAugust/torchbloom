@@ -5,8 +5,8 @@ Topic ID: 1509
 
 ## Prerequisites
 
-- [Angles and Measures of Angles](https://www.mathacademy.com/topics/angles-and-measures-of-angles-2172)
-- [Writing Unit Fractions in Words](https://www.mathacademy.com/topics/writing-unit-fractions-in-words-3951)
+- [Angles and Measures of Angles](./2172-angles-and-measures-of-angles.md)
+- [Writing Unit Fractions in Words](./3951-writing-unit-fractions-in-words.md)
 
 ## Lesson
 

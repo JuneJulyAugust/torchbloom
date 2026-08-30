@@ -5,7 +5,7 @@ Topic ID: 2367
 
 ## Prerequisites
 
-- [Modeling Fractions Using Number Lines](https://www.mathacademy.com/topics/modeling-fractions-using-number-lines-7003)
+- [Modeling Fractions Using Number Lines](./7003-modeling-fractions-using-number-lines.md)
 
 ## Lesson
 

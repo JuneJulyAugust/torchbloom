@@ -5,7 +5,7 @@ Topic ID: 2379
 
 ## Prerequisites
 
-- [Multiplying Fractions by Swapping Denominators](https://www.mathacademy.com/topics/multiplying-fractions-by-swapping-denominators-2459)
+- [Multiplying Fractions by Swapping Denominators](./2459-multiplying-fractions-by-swapping-denominators.md)
 
 ## Lesson
 

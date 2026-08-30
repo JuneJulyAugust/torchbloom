@@ -5,9 +5,9 @@ Topic ID: 2382
 
 ## Prerequisites
 
-- [Dividing Fractions by Whole Numbers](https://www.mathacademy.com/topics/dividing-fractions-by-whole-numbers-2369)
-- [Dividing Whole Numbers by Fractions](https://www.mathacademy.com/topics/dividing-whole-numbers-by-fractions-2377)
-- [Dividing Fractions Using Models](https://www.mathacademy.com/topics/dividing-fractions-using-models-2438)
+- [Dividing Fractions by Whole Numbers](./2369-dividing-fractions-by-whole-numbers.md)
+- [Dividing Whole Numbers by Fractions](./2377-dividing-whole-numbers-by-fractions.md)
+- [Dividing Fractions Using Models](./2438-dividing-fractions-using-models.md)
 
 ## Lesson
 

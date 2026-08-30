@@ -5,7 +5,7 @@ Topic ID: 3751
 
 ## Prerequisites
 
-- [Quadrilaterals](https://www.mathacademy.com/topics/quadrilaterals-2407)
+- [Quadrilaterals](./2407-quadrilaterals.md)
 
 ## Lesson
 

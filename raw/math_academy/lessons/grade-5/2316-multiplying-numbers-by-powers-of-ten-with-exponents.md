@@ -5,7 +5,7 @@ Topic ID: 2316
 
 ## Prerequisites
 
-- [Powers of Ten](https://www.mathacademy.com/topics/powers-of-ten-2315)
+- [Powers of Ten](./2315-powers-of-ten.md)
 
 ## Lesson
 

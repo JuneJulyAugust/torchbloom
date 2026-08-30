@@ -5,9 +5,9 @@ Topic ID: 2474
 
 ## Prerequisites
 
-- [Comparing Fractions](https://www.mathacademy.com/topics/comparing-fractions-538)
-- [Comparing Negative Numbers](https://www.mathacademy.com/topics/comparing-negative-numbers-2444)
-- [Evaluating Exponents With Fractional Bases](https://www.mathacademy.com/topics/evaluating-exponents-with-fractional-bases-2476)
+- [Comparing Fractions](../grade-4/538-comparing-fractions.md)
+- [Comparing Negative Numbers](./2444-comparing-negative-numbers.md)
+- [Evaluating Exponents With Fractional Bases](./2476-evaluating-exponents-with-fractional-bases.md)
 
 ## Lesson
 

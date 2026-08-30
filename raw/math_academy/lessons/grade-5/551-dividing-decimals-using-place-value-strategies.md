@@ -5,8 +5,8 @@ Topic ID: 551
 
 ## Prerequisites
 
-- [Estimating Decimal Division](https://www.mathacademy.com/topics/estimating-decimal-division-548)
-- [Interpreting Division Problems as Mixed Numbers](https://www.mathacademy.com/topics/interpreting-division-problems-as-mixed-numbers-3898)
+- [Estimating Decimal Division](./548-estimating-decimal-division.md)
+- [Interpreting Division Problems as Mixed Numbers](../grade-4/3898-interpreting-division-problems-as-mixed-numbers.md)
 
 ## Lesson
 

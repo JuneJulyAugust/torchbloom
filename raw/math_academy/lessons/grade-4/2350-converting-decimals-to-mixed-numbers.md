@@ -5,8 +5,8 @@ Topic ID: 2350
 
 ## Prerequisites
 
-- [Converting Decimals to Fractions](https://www.mathacademy.com/topics/converting-decimals-to-fractions-2342)
-- [Converting Mixed Numbers to Decimals](https://www.mathacademy.com/topics/converting-mixed-numbers-to-decimals-2349)
+- [Converting Decimals to Fractions](./2342-converting-decimals-to-fractions.md)
+- [Converting Mixed Numbers to Decimals](./2349-converting-mixed-numbers-to-decimals.md)
 
 ## Lesson
 

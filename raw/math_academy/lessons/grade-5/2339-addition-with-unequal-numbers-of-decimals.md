@@ -5,7 +5,7 @@ Topic ID: 2339
 
 ## Prerequisites
 
-- [Adding Decimals](https://www.mathacademy.com/topics/adding-decimals-326)
+- [Adding Decimals](./326-adding-decimals.md)
 
 ## Lesson
 

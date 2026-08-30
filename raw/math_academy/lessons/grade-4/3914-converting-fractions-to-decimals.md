@@ -5,9 +5,9 @@ Topic ID: 3914
 
 ## Prerequisites
 
-- [Decimal Fractions](https://www.mathacademy.com/topics/decimal-fractions-2341)
-- [Equivalent Fractions](https://www.mathacademy.com/topics/equivalent-fractions-2363)
-- [Multi-Digit by One-Digit Multiplication Using Place Value](https://www.mathacademy.com/topics/multi-digit-by-one-digit-multiplication-using-place-value-2417)
+- [Decimal Fractions](./2341-decimal-fractions.md)
+- [Equivalent Fractions](./2363-equivalent-fractions.md)
+- [Multi-Digit by One-Digit Multiplication Using Place Value](./2417-multi-digit-by-one-digit-multiplication-using-place-value.md)
 
 ## Lesson
 

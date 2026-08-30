@@ -5,8 +5,8 @@ Topic ID: 110
 
 ## Prerequisites
 
-- [Comparing Place Values With Decimals](https://www.mathacademy.com/topics/comparing-place-values-with-decimals-2283)
-- [Equivalent Decimals](https://www.mathacademy.com/topics/equivalent-decimals-2344)
+- [Comparing Place Values With Decimals](./2283-comparing-place-values-with-decimals.md)
+- [Equivalent Decimals](./2344-equivalent-decimals.md)
 
 ## Lesson
 

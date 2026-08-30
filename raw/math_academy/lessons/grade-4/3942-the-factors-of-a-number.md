@@ -5,8 +5,8 @@ Topic ID: 3942
 
 ## Prerequisites
 
-- [Products and Factors](https://www.mathacademy.com/topics/products-and-factors-122)
-- [Understanding Remainders Using Models](https://www.mathacademy.com/topics/understanding-remainders-using-models-3888)
+- [Products and Factors](./122-products-and-factors.md)
+- [Understanding Remainders Using Models](./3888-understanding-remainders-using-models.md)
 
 ## Lesson
 

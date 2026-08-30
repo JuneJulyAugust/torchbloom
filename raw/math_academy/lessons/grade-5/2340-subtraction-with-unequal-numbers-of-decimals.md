@@ -5,8 +5,8 @@ Topic ID: 2340
 
 ## Prerequisites
 
-- [Subtracting Decimals](https://www.mathacademy.com/topics/subtracting-decimals-109)
-- [Addition With Unequal Numbers of Decimals](https://www.mathacademy.com/topics/addition-with-unequal-numbers-of-decimals-2339)
+- [Subtracting Decimals](./109-subtracting-decimals.md)
+- [Addition With Unequal Numbers of Decimals](./2339-addition-with-unequal-numbers-of-decimals.md)
 
 ## Lesson
 

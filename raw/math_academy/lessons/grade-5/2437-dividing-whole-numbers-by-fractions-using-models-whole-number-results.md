@@ -5,8 +5,8 @@ Topic ID: 2437
 
 ## Prerequisites
 
-- [Dividing Whole Numbers by Unit Fractions Using Models](https://www.mathacademy.com/topics/dividing-whole-numbers-by-unit-fractions-using-models-529)
-- [Writing Unit Fractions in Words](https://www.mathacademy.com/topics/writing-unit-fractions-in-words-3951)
+- [Dividing Whole Numbers by Unit Fractions Using Models](./529-dividing-whole-numbers-by-unit-fractions-using-models.md)
+- [Writing Unit Fractions in Words](../grade-4/3951-writing-unit-fractions-in-words.md)
 
 ## Lesson
 

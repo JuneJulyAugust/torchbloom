@@ -5,8 +5,8 @@ Topic ID: 547
 
 ## Prerequisites
 
-- [Division of Whole Numbers With Decimal Quotients](https://www.mathacademy.com/topics/division-of-whole-numbers-with-decimal-quotients-2335)
-- [Rounding Up Decimals](https://www.mathacademy.com/topics/rounding-up-decimals-3585)
+- [Division of Whole Numbers With Decimal Quotients](./2335-division-of-whole-numbers-with-decimal-quotients.md)
+- [Rounding Up Decimals](./3585-rounding-up-decimals.md)
 
 ## Lesson
 

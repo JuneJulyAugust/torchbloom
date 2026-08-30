@@ -5,7 +5,7 @@ Topic ID: 2359
 
 ## Prerequisites
 
-- [Interpreting Division Problems as Mixed Numbers](https://www.mathacademy.com/topics/interpreting-division-problems-as-mixed-numbers-3898)
+- [Interpreting Division Problems as Mixed Numbers](./3898-interpreting-division-problems-as-mixed-numbers.md)
 
 ## Lesson
 

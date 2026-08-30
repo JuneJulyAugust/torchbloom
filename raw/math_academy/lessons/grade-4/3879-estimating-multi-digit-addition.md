@@ -5,7 +5,7 @@ Topic ID: 3879
 
 ## Prerequisites
 
-- [Rounding Up the Digit 9](https://www.mathacademy.com/topics/rounding-up-the-digit-9-3900)
+- [Rounding Up the Digit 9](./3900-rounding-up-the-digit-9.md)
 
 ## Lesson
 

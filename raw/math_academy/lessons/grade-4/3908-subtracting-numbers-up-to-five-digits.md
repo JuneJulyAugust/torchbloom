@@ -5,7 +5,7 @@ Topic ID: 3908
 
 ## Prerequisites
 
-- [Subtracting Three-Digit Numbers](https://www.mathacademy.com/topics/subtracting-three-digit-numbers-3907)
+- [Subtracting Three-Digit Numbers](./3907-subtracting-three-digit-numbers.md)
 
 ## Lesson
 

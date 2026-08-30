@@ -5,9 +5,9 @@ Topic ID: 2326
 
 ## Prerequisites
 
-- [Rounding Up Decimals](https://www.mathacademy.com/topics/rounding-up-decimals-3585)
-- [Estimating Multi-Digit Addition](https://www.mathacademy.com/topics/estimating-multi-digit-addition-3879)
-- [Estimating Multi-Digit Subtraction](https://www.mathacademy.com/topics/estimating-multi-digit-subtraction-3880)
+- [Rounding Up Decimals](./3585-rounding-up-decimals.md)
+- [Estimating Multi-Digit Addition](../grade-4/3879-estimating-multi-digit-addition.md)
+- [Estimating Multi-Digit Subtraction](../grade-4/3880-estimating-multi-digit-subtraction.md)
 
 ## Lesson
 

@@ -5,9 +5,9 @@ Topic ID: 2423
 
 ## Prerequisites
 
-- [Two-Digit by One-Digit Multiplication Using Area Models](https://www.mathacademy.com/topics/two-digit-by-one-digit-multiplication-using-area-models-2415)
-- [Dividing by One-Digit Numbers by Connecting Multiplication and Division](https://www.mathacademy.com/topics/dividing-by-one-digit-numbers-by-connecting-multiplication-and-division-2422)
-- [Dividing Numbers Using Place-Value Strategies](https://www.mathacademy.com/topics/dividing-numbers-using-place-value-strategies-3886)
+- [Two-Digit by One-Digit Multiplication Using Area Models](./2415-two-digit-by-one-digit-multiplication-using-area-models.md)
+- [Dividing by One-Digit Numbers by Connecting Multiplication and Division](./2422-dividing-by-one-digit-numbers-by-connecting-multiplication-and-division.md)
+- [Dividing Numbers Using Place-Value Strategies](./3886-dividing-numbers-using-place-value-strategies.md)
 
 ## Lesson
 

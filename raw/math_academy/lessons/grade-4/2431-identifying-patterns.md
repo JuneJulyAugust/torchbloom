@@ -5,9 +5,9 @@ Topic ID: 2431
 
 ## Prerequisites
 
-- [Multi-Digit by One-Digit Multiplication Using Place Value](https://www.mathacademy.com/topics/multi-digit-by-one-digit-multiplication-using-place-value-2417)
-- [Multi-Digit by One-Digit Division Using Partial Quotients](https://www.mathacademy.com/topics/multi-digit-by-one-digit-division-using-partial-quotients-2425)
-- [Generating Patterns](https://www.mathacademy.com/topics/generating-patterns-2430)
+- [Multi-Digit by One-Digit Multiplication Using Place Value](./2417-multi-digit-by-one-digit-multiplication-using-place-value.md)
+- [Multi-Digit by One-Digit Division Using Partial Quotients](./2425-multi-digit-by-one-digit-division-using-partial-quotients.md)
+- [Generating Patterns](./2430-generating-patterns.md)
 
 ## Lesson
 

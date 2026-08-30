@@ -5,9 +5,9 @@ Topic ID: 2432
 
 ## Prerequisites
 
-- [Multiplicative Comparisons of Whole Number Expressions](https://www.mathacademy.com/topics/multiplicative-comparisons-of-whole-number-expressions-2399)
-- [Additive Comparisons of Whole Number Expressions](https://www.mathacademy.com/topics/additive-comparisons-of-whole-number-expressions-3750)
-- [Connecting Patterns](https://www.mathacademy.com/topics/connecting-patterns-3971)
+- [Multiplicative Comparisons of Whole Number Expressions](./2399-multiplicative-comparisons-of-whole-number-expressions.md)
+- [Additive Comparisons of Whole Number Expressions](./3750-additive-comparisons-of-whole-number-expressions.md)
+- [Connecting Patterns](./3971-connecting-patterns.md)
 
 ## Lesson
 

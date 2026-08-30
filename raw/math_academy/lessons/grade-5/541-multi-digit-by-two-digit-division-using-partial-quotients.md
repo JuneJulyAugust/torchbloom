@@ -5,8 +5,8 @@ Topic ID: 541
 
 ## Prerequisites
 
-- [Two-Digit by Two-Digit Multiplication](https://www.mathacademy.com/topics/two-digit-by-two-digit-multiplication-258)
-- [Multi-Digit by One-Digit Division Using Partial Quotients](https://www.mathacademy.com/topics/multi-digit-by-one-digit-division-using-partial-quotients-2425)
+- [Two-Digit by Two-Digit Multiplication](./258-two-digit-by-two-digit-multiplication.md)
+- [Multi-Digit by One-Digit Division Using Partial Quotients](../grade-4/2425-multi-digit-by-one-digit-division-using-partial-quotients.md)
 
 ## Lesson
 

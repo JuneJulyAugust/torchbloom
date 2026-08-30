@@ -5,7 +5,7 @@ Topic ID: 2344
 
 ## Prerequisites
 
-- [The Place Value System With Decimals](https://www.mathacademy.com/topics/the-place-value-system-with-decimals-2282)
+- [The Place Value System With Decimals](./2282-the-place-value-system-with-decimals.md)
 
 ## Lesson
 

@@ -5,7 +5,7 @@ Topic ID: 2331
 
 ## Prerequisites
 
-- [Three-Digit by Two-Digit Division](https://www.mathacademy.com/topics/three-digit-by-two-digit-division-2329)
+- [Three-Digit by Two-Digit Division](./2329-three-digit-by-two-digit-division.md)
 
 ## Lesson
 

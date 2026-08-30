@@ -5,8 +5,8 @@ Topic ID: 3915
 
 ## Prerequisites
 
-- [Decimal Fractions](https://www.mathacademy.com/topics/decimal-fractions-2341)
-- [Modeling Mixed Numbers Using Number Lines](https://www.mathacademy.com/topics/modeling-mixed-numbers-using-number-lines-7008)
+- [Decimal Fractions](./2341-decimal-fractions.md)
+- [Modeling Mixed Numbers Using Number Lines](./7008-modeling-mixed-numbers-using-number-lines.md)
 
 ## Lesson
 

@@ -5,7 +5,7 @@ Topic ID: 7008
 
 ## Prerequisites
 
-- [Models for Mixed Numbers](https://www.mathacademy.com/topics/models-for-mixed-numbers-3893)
+- [Models for Mixed Numbers](./3893-models-for-mixed-numbers.md)
 
 ## Lesson
 

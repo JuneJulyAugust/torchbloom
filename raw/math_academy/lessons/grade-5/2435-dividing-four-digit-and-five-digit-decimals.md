@@ -5,8 +5,8 @@ Topic ID: 2435
 
 ## Prerequisites
 
-- [Dividing Three-Digit Decimals by Two-Digit Decimals](https://www.mathacademy.com/topics/dividing-three-digit-decimals-by-two-digit-decimals-2328)
-- [Four-Digit by Two-Digit Division](https://www.mathacademy.com/topics/four-digit-by-two-digit-division-2331)
+- [Dividing Three-Digit Decimals by Two-Digit Decimals](./2328-dividing-three-digit-decimals-by-two-digit-decimals.md)
+- [Four-Digit by Two-Digit Division](./2331-four-digit-by-two-digit-division.md)
 
 ## Lesson
 

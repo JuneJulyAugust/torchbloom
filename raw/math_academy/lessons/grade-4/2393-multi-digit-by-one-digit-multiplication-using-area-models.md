@@ -5,8 +5,8 @@ Topic ID: 2393
 
 ## Prerequisites
 
-- [Two-Digit by One-Digit Multiplication Using Area Models](https://www.mathacademy.com/topics/two-digit-by-one-digit-multiplication-using-area-models-2415)
-- [Adding Three Multi-Digit Numbers](https://www.mathacademy.com/topics/adding-three-multi-digit-numbers-3881)
+- [Two-Digit by One-Digit Multiplication Using Area Models](./2415-two-digit-by-one-digit-multiplication-using-area-models.md)
+- [Adding Three Multi-Digit Numbers](./3881-adding-three-multi-digit-numbers.md)
 
 ## Lesson
 

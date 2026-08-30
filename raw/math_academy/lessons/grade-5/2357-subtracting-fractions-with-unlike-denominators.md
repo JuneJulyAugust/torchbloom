@@ -5,9 +5,9 @@ Topic ID: 2357
 
 ## Prerequisites
 
-- [Subtracting Fractions and Whole Numbers](https://www.mathacademy.com/topics/subtracting-fractions-and-whole-numbers-545)
-- [Adding Fractions With Unlike Denominators](https://www.mathacademy.com/topics/adding-fractions-with-unlike-denominators-2353)
-- [Subtracting Fractions With Unlike Denominators Using Models](https://www.mathacademy.com/topics/subtracting-fractions-with-unlike-denominators-using-models-2372)
+- [Subtracting Fractions and Whole Numbers](./545-subtracting-fractions-and-whole-numbers.md)
+- [Adding Fractions With Unlike Denominators](./2353-adding-fractions-with-unlike-denominators.md)
+- [Subtracting Fractions With Unlike Denominators Using Models](./2372-subtracting-fractions-with-unlike-denominators-using-models.md)
 
 ## Lesson
 

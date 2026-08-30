@@ -5,10 +5,10 @@ Topic ID: 4025
 
 ## Prerequisites
 
-- [Four-Digit by One-Digit Division](https://www.mathacademy.com/topics/four-digit-by-one-digit-division-540)
-- [Using Fractions to Represent Division of Whole Numbers](https://www.mathacademy.com/topics/using-fractions-to-represent-division-of-whole-numbers-2412)
-- [Rounding Up Whole Numbers](https://www.mathacademy.com/topics/rounding-up-whole-numbers-3884)
-- [Comparing Fractions Using One-Half Benchmarks](https://www.mathacademy.com/topics/comparing-fractions-using-one-half-benchmarks-3936)
+- [Four-Digit by One-Digit Division](./540-four-digit-by-one-digit-division.md)
+- [Using Fractions to Represent Division of Whole Numbers](./2412-using-fractions-to-represent-division-of-whole-numbers.md)
+- [Rounding Up Whole Numbers](../grade-4/3884-rounding-up-whole-numbers.md)
+- [Comparing Fractions Using One-Half Benchmarks](../grade-4/3936-comparing-fractions-using-one-half-benchmarks.md)
 
 ## Lesson
 

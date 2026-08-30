@@ -5,8 +5,8 @@ Topic ID: 2429
 
 ## Prerequisites
 
-- [Two-Digit by Two-Digit Multiplication Using Area Models](https://www.mathacademy.com/topics/two-digit-by-two-digit-multiplication-using-area-models-2418)
-- [Units of Time](https://www.mathacademy.com/topics/units-of-time-4197)
+- [Two-Digit by Two-Digit Multiplication Using Area Models](./2418-two-digit-by-two-digit-multiplication-using-area-models.md)
+- [Units of Time](./4197-units-of-time.md)
 
 ## Lesson
 

@@ -5,9 +5,9 @@ Topic ID: 2401
 
 ## Prerequisites
 
-- [Subtracting Mixed Numbers With Unlike Denominators Using Improper Fractions](https://www.mathacademy.com/topics/subtracting-mixed-numbers-with-unlike-denominators-using-improper-fractions-525)
-- [Two-Digit by One-Digit Division](https://www.mathacademy.com/topics/two-digit-by-one-digit-division-535)
-- [Creating and Interpreting Line Plots With Fractions](https://www.mathacademy.com/topics/creating-and-interpreting-line-plots-with-fractions-2408)
+- [Subtracting Mixed Numbers With Unlike Denominators Using Improper Fractions](./525-subtracting-mixed-numbers-with-unlike-denominators-using-improper-fractions.md)
+- [Two-Digit by One-Digit Division](./535-two-digit-by-one-digit-division.md)
+- [Creating and Interpreting Line Plots With Fractions](../grade-4/2408-creating-and-interpreting-line-plots-with-fractions.md)
 
 ## Lesson
 

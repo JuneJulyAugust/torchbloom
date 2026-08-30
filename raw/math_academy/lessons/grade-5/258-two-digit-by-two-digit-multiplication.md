@@ -5,8 +5,8 @@ Topic ID: 258
 
 ## Prerequisites
 
-- [Two-Digit by One-Digit Multiplication](https://www.mathacademy.com/topics/two-digit-by-one-digit-multiplication-2392)
-- [Two-Digit by Two-Digit Multiplication Using Place Value](https://www.mathacademy.com/topics/two-digit-by-two-digit-multiplication-using-place-value-2394)
+- [Two-Digit by One-Digit Multiplication](./2392-two-digit-by-one-digit-multiplication.md)
+- [Two-Digit by Two-Digit Multiplication Using Place Value](../grade-4/2394-two-digit-by-two-digit-multiplication-using-place-value.md)
 
 ## Lesson
 

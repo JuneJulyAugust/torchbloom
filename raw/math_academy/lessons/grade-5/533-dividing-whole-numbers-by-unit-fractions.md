@@ -5,8 +5,8 @@ Topic ID: 533
 
 ## Prerequisites
 
-- [Dividing Whole Numbers by Unit Fractions Using Models](https://www.mathacademy.com/topics/dividing-whole-numbers-by-unit-fractions-using-models-529)
-- [Two-Digit by One-Digit Multiplication](https://www.mathacademy.com/topics/two-digit-by-one-digit-multiplication-2392)
+- [Dividing Whole Numbers by Unit Fractions Using Models](./529-dividing-whole-numbers-by-unit-fractions-using-models.md)
+- [Two-Digit by One-Digit Multiplication](./2392-two-digit-by-one-digit-multiplication.md)
 
 ## Lesson
 

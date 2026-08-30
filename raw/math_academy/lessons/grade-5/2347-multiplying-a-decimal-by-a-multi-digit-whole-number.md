@@ -5,8 +5,8 @@ Topic ID: 2347
 
 ## Prerequisites
 
-- [Three-Digit by Three-Digit Multiplication](https://www.mathacademy.com/topics/three-digit-by-three-digit-multiplication-383)
-- [Multiplying a Decimal by a One-Digit Whole Number](https://www.mathacademy.com/topics/multiplying-a-decimal-by-a-one-digit-whole-number-2346)
+- [Three-Digit by Three-Digit Multiplication](./383-three-digit-by-three-digit-multiplication.md)
+- [Multiplying a Decimal by a One-Digit Whole Number](./2346-multiplying-a-decimal-by-a-one-digit-whole-number.md)
 
 ## Lesson
 

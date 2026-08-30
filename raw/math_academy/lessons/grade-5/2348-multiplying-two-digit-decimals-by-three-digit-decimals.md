@@ -5,8 +5,8 @@ Topic ID: 2348
 
 ## Prerequisites
 
-- [Multiplying Two-Digit Decimals](https://www.mathacademy.com/topics/multiplying-two-digit-decimals-111)
-- [Converting Improper Fractions to Mixed Numbers](https://www.mathacademy.com/topics/converting-improper-fractions-to-mixed-numbers-2359)
+- [Multiplying Two-Digit Decimals](./111-multiplying-two-digit-decimals.md)
+- [Converting Improper Fractions to Mixed Numbers](../grade-4/2359-converting-improper-fractions-to-mixed-numbers.md)
 
 ## Lesson
 

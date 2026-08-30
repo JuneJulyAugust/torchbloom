@@ -5,7 +5,7 @@ Topic ID: 2341
 
 ## Prerequisites
 
-- [Writing Fractions in Words](https://www.mathacademy.com/topics/writing-fractions-in-words-3959)
+- [Writing Fractions in Words](./3959-writing-fractions-in-words.md)
 
 ## Lesson
 

@@ -5,8 +5,8 @@ Topic ID: 3920
 
 ## Prerequisites
 
-- [Multi-Digit by One-Digit Multiplication Using Area Models](https://www.mathacademy.com/topics/multi-digit-by-one-digit-multiplication-using-area-models-2393)
-- [Multi-Digit by One-Digit Division Using Area Models](https://www.mathacademy.com/topics/multi-digit-by-one-digit-division-using-area-models-2426)
+- [Multi-Digit by One-Digit Multiplication Using Area Models](./2393-multi-digit-by-one-digit-multiplication-using-area-models.md)
+- [Multi-Digit by One-Digit Division Using Area Models](./2426-multi-digit-by-one-digit-division-using-area-models.md)
 
 ## Lesson
 

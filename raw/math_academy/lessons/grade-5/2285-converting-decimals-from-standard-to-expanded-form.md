@@ -5,7 +5,7 @@ Topic ID: 2285
 
 ## Prerequisites
 
-- [Comparing Place Values With Decimals](https://www.mathacademy.com/topics/comparing-place-values-with-decimals-2283)
+- [Comparing Place Values With Decimals](./2283-comparing-place-values-with-decimals.md)
 
 ## Lesson
 

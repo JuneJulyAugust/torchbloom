@@ -5,11 +5,11 @@ Topic ID: 3981
 
 ## Prerequisites
 
-- [Angles and Measures of Angles](https://www.mathacademy.com/topics/angles-and-measures-of-angles-2172)
-- [Multiplying Fractions by Whole Numbers](https://www.mathacademy.com/topics/multiplying-fractions-by-whole-numbers-2360)
-- [Multi-Digit by One-Digit Division Using Partial Quotients](https://www.mathacademy.com/topics/multi-digit-by-one-digit-division-using-partial-quotients-2425)
-- [Dividing by 10, 100, and 1,000 Using the Pattern of Zeros](https://www.mathacademy.com/topics/dividing-by-10-100-and-1-000-using-the-pattern-of-zeros-3882)
-- [Writing Unit Fractions in Words](https://www.mathacademy.com/topics/writing-unit-fractions-in-words-3951)
+- [Angles and Measures of Angles](./2172-angles-and-measures-of-angles.md)
+- [Multiplying Fractions by Whole Numbers](./2360-multiplying-fractions-by-whole-numbers.md)
+- [Multi-Digit by One-Digit Division Using Partial Quotients](./2425-multi-digit-by-one-digit-division-using-partial-quotients.md)
+- [Dividing by 10, 100, and 1,000 Using the Pattern of Zeros](./3882-dividing-by-10-100-and-1-000-using-the-pattern-of-zeros.md)
+- [Writing Unit Fractions in Words](./3951-writing-unit-fractions-in-words.md)
 
 ## Lesson
 

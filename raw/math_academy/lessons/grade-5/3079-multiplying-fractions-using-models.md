@@ -5,7 +5,7 @@ Topic ID: 3079
 
 ## Prerequisites
 
-- [Multiplying Fractions by Unit Fractions Using Models](https://www.mathacademy.com/topics/multiplying-fractions-by-unit-fractions-using-models-565)
+- [Multiplying Fractions by Unit Fractions Using Models](./565-multiplying-fractions-by-unit-fractions-using-models.md)
 
 ## Lesson
 

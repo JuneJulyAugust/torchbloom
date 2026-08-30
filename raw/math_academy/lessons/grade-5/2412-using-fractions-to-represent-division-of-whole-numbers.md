@@ -5,8 +5,8 @@ Topic ID: 2412
 
 ## Prerequisites
 
-- [Three-Digit by One-Digit Division](https://www.mathacademy.com/topics/three-digit-by-one-digit-division-536)
-- [Interpreting Division Problems as Mixed Numbers](https://www.mathacademy.com/topics/interpreting-division-problems-as-mixed-numbers-3898)
+- [Three-Digit by One-Digit Division](./536-three-digit-by-one-digit-division.md)
+- [Interpreting Division Problems as Mixed Numbers](../grade-4/3898-interpreting-division-problems-as-mixed-numbers.md)
 
 ## Lesson
 

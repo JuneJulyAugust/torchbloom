@@ -5,7 +5,7 @@ Topic ID: 3881
 
 ## Prerequisites
 
-- [Adding Numbers Up to Seven Digits](https://www.mathacademy.com/topics/adding-numbers-up-to-seven-digits-3913)
+- [Adding Numbers Up to Seven Digits](./3913-adding-numbers-up-to-seven-digits.md)
 
 ## Lesson
 

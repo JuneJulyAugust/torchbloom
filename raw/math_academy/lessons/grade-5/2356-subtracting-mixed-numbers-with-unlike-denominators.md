@@ -5,8 +5,8 @@ Topic ID: 2356
 
 ## Prerequisites
 
-- [Adding Mixed Numbers With Unlike Denominators](https://www.mathacademy.com/topics/adding-mixed-numbers-with-unlike-denominators-2354)
-- [Subtracting Fractions With Unlike Denominators](https://www.mathacademy.com/topics/subtracting-fractions-with-unlike-denominators-2357)
+- [Adding Mixed Numbers With Unlike Denominators](./2354-adding-mixed-numbers-with-unlike-denominators.md)
+- [Subtracting Fractions With Unlike Denominators](./2357-subtracting-fractions-with-unlike-denominators.md)
 
 ## Lesson
 

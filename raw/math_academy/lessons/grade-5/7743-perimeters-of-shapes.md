@@ -5,8 +5,8 @@ Topic ID: 7743
 
 ## Prerequisites
 
-- [Units of Length](https://www.mathacademy.com/topics/units-of-length-236)
-- [Rectangles, Rhombuses, and Squares](https://www.mathacademy.com/topics/rectangles-rhombuses-and-squares-3751)
+- [Units of Length](../grade-4/236-units-of-length.md)
+- [Rectangles, Rhombuses, and Squares](./3751-rectangles-rhombuses-and-squares.md)
 
 ## Lesson
 

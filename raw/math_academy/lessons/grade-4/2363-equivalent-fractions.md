@@ -5,9 +5,9 @@ Topic ID: 2363
 
 ## Prerequisites
 
-- [Improper Fractions](https://www.mathacademy.com/topics/improper-fractions-2367)
-- [Finding Equivalent Fractions Using Area Models](https://www.mathacademy.com/topics/finding-equivalent-fractions-using-area-models-2368)
-- [The Factors of a Number](https://www.mathacademy.com/topics/the-factors-of-a-number-3942)
+- [Improper Fractions](./2367-improper-fractions.md)
+- [Finding Equivalent Fractions Using Area Models](./2368-finding-equivalent-fractions-using-area-models.md)
+- [The Factors of a Number](./3942-the-factors-of-a-number.md)
 
 ## Lesson
 

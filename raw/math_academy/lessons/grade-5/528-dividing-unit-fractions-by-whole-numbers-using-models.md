@@ -5,7 +5,7 @@ Topic ID: 528
 
 ## Prerequisites
 
-- [Multiplying Unit Fractions by Whole Numbers Using Models](https://www.mathacademy.com/topics/multiplying-unit-fractions-by-whole-numbers-using-models-564)
+- [Multiplying Unit Fractions by Whole Numbers Using Models](../grade-4/564-multiplying-unit-fractions-by-whole-numbers-using-models.md)
 
 ## Lesson
 

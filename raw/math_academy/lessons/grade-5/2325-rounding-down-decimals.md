@@ -5,8 +5,8 @@ Topic ID: 2325
 
 ## Prerequisites
 
-- [Comparing Decimals](https://www.mathacademy.com/topics/comparing-decimals-2286)
-- [Rounding Down Whole Numbers](https://www.mathacademy.com/topics/rounding-down-whole-numbers-3883)
+- [Comparing Decimals](./2286-comparing-decimals.md)
+- [Rounding Down Whole Numbers](../grade-4/3883-rounding-down-whole-numbers.md)
 
 ## Lesson
 

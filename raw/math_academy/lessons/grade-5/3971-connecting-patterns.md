@@ -5,8 +5,8 @@ Topic ID: 3971
 
 ## Prerequisites
 
-- [Identifying Patterns](https://www.mathacademy.com/topics/identifying-patterns-2431)
-- [Representing Comparison Statements as Equations](https://www.mathacademy.com/topics/representing-comparison-statements-as-equations-3902)
+- [Identifying Patterns](../grade-4/2431-identifying-patterns.md)
+- [Representing Comparison Statements as Equations](../grade-4/3902-representing-comparison-statements-as-equations.md)
 
 ## Lesson
 

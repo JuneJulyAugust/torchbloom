@@ -5,7 +5,7 @@ Topic ID: 565
 
 ## Prerequisites
 
-- [Multiplying Fractions by Whole Numbers Using Models](https://www.mathacademy.com/topics/multiplying-fractions-by-whole-numbers-using-models-3968)
+- [Multiplying Fractions by Whole Numbers Using Models](../grade-4/3968-multiplying-fractions-by-whole-numbers-using-models.md)
 
 ## Lesson
 

@@ -5,10 +5,10 @@ Topic ID: 2438
 
 ## Prerequisites
 
-- [Converting Improper Fractions to Mixed Numbers](https://www.mathacademy.com/topics/converting-improper-fractions-to-mixed-numbers-2359)
-- [Using Fractions to Represent Division of Whole Numbers](https://www.mathacademy.com/topics/using-fractions-to-represent-division-of-whole-numbers-2412)
-- [Dividing Fractions by Whole Numbers Using Models](https://www.mathacademy.com/topics/dividing-fractions-by-whole-numbers-using-models-2436)
-- [Dividing Whole Numbers by Fractions Using Models: Fractional Results](https://www.mathacademy.com/topics/dividing-whole-numbers-by-fractions-using-models-fractional-results-4698)
+- [Converting Improper Fractions to Mixed Numbers](../grade-4/2359-converting-improper-fractions-to-mixed-numbers.md)
+- [Using Fractions to Represent Division of Whole Numbers](./2412-using-fractions-to-represent-division-of-whole-numbers.md)
+- [Dividing Fractions by Whole Numbers Using Models](./2436-dividing-fractions-by-whole-numbers-using-models.md)
+- [Dividing Whole Numbers by Fractions Using Models: Fractional Results](./4698-dividing-whole-numbers-by-fractions-using-models-fractional-results.md)
 
 ## Lesson
 

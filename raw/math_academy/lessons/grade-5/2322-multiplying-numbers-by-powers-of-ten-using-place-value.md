@@ -5,7 +5,7 @@ Topic ID: 2322
 
 ## Prerequisites
 
-- [Comparing Place Values](https://www.mathacademy.com/topics/comparing-place-values-2313)
+- [Comparing Place Values](../grade-4/2313-comparing-place-values.md)
 
 ## Lesson
 

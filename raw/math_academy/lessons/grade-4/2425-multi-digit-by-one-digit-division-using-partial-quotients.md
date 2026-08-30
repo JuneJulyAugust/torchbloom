@@ -5,8 +5,8 @@ Topic ID: 2425
 
 ## Prerequisites
 
-- [More Multi-Digit by One-Digit Division Using Area Models](https://www.mathacademy.com/topics/more-multi-digit-by-one-digit-division-using-area-models-3920)
-- [Two-Digit by One-Digit Division With Remainders Using Partial Quotients](https://www.mathacademy.com/topics/two-digit-by-one-digit-division-with-remainders-using-partial-quotients-3925)
+- [More Multi-Digit by One-Digit Division Using Area Models](./3920-more-multi-digit-by-one-digit-division-using-area-models.md)
+- [Two-Digit by One-Digit Division With Remainders Using Partial Quotients](./3925-two-digit-by-one-digit-division-with-remainders-using-partial-quotients.md)
 
 ## Lesson
 

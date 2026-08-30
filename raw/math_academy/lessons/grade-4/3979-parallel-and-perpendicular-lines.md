@@ -5,7 +5,7 @@ Topic ID: 3979
 
 ## Prerequisites
 
-- [Right, Straight, Full, and Null Angles](https://www.mathacademy.com/topics/right-straight-full-and-null-angles-1509)
+- [Right, Straight, Full, and Null Angles](./1509-right-straight-full-and-null-angles.md)
 
 ## Lesson
 

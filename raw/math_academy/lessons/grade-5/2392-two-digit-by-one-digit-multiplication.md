@@ -5,7 +5,7 @@ Topic ID: 2392
 
 ## Prerequisites
 
-- [Two-Digit by One-Digit Multiplication Using Place Value](https://www.mathacademy.com/topics/two-digit-by-one-digit-multiplication-using-place-value-2416)
+- [Two-Digit by One-Digit Multiplication Using Place Value](../grade-4/2416-two-digit-by-one-digit-multiplication-using-place-value.md)
 
 ## Lesson
 

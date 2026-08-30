@@ -5,8 +5,8 @@ Topic ID: 2411
 
 ## Prerequisites
 
-- [Multiplying a Decimal by a One-Digit Whole Number](https://www.mathacademy.com/topics/multiplying-a-decimal-by-a-one-digit-whole-number-2346)
-- [Volumes of Right Rectangular Prisms](https://www.mathacademy.com/topics/volumes-of-right-rectangular-prisms-2404)
+- [Multiplying a Decimal by a One-Digit Whole Number](./2346-multiplying-a-decimal-by-a-one-digit-whole-number.md)
+- [Volumes of Right Rectangular Prisms](./2404-volumes-of-right-rectangular-prisms.md)
 
 ## Lesson
 

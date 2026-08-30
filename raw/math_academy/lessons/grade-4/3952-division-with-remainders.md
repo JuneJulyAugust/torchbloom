@@ -5,9 +5,9 @@ Topic ID: 3952
 
 ## Prerequisites
 
-- [The Multiples of a Number](https://www.mathacademy.com/topics/the-multiples-of-a-number-2206)
-- [Dividends, Divisors, Quotients, and Remainders](https://www.mathacademy.com/topics/dividends-divisors-quotients-and-remainders-2390)
-- [Finding Remainders](https://www.mathacademy.com/topics/finding-remainders-3949)
+- [The Multiples of a Number](./2206-the-multiples-of-a-number.md)
+- [Dividends, Divisors, Quotients, and Remainders](./2390-dividends-divisors-quotients-and-remainders.md)
+- [Finding Remainders](./3949-finding-remainders.md)
 
 ## Lesson
 

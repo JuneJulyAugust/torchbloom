@@ -5,7 +5,7 @@ Topic ID: 2434
 
 ## Prerequisites
 
-- [Four-Digit by One-Digit Division](https://www.mathacademy.com/topics/four-digit-by-one-digit-division-540)
+- [Four-Digit by One-Digit Division](./540-four-digit-by-one-digit-division.md)
 
 ## Lesson
 

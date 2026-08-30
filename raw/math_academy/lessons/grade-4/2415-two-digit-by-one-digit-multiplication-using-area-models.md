@@ -5,9 +5,9 @@ Topic ID: 2415
 
 ## Prerequisites
 
-- [Products and Factors](https://www.mathacademy.com/topics/products-and-factors-122)
-- [Multiplying Whole Numbers Ending in Zeros](https://www.mathacademy.com/topics/multiplying-whole-numbers-ending-in-zeros-488)
-- [Adding Three-Digit and Two-Digit Numbers](https://www.mathacademy.com/topics/adding-three-digit-and-two-digit-numbers-3910)
+- [Products and Factors](./122-products-and-factors.md)
+- [Multiplying Whole Numbers Ending in Zeros](./488-multiplying-whole-numbers-ending-in-zeros.md)
+- [Adding Three-Digit and Two-Digit Numbers](./3910-adding-three-digit-and-two-digit-numbers.md)
 
 ## Lesson
 

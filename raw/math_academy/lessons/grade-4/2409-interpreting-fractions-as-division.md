@@ -5,8 +5,8 @@ Topic ID: 2409
 
 ## Prerequisites
 
-- [Writing Fractions in Lowest Terms](https://www.mathacademy.com/topics/writing-fractions-in-lowest-terms-2364)
-- [Dividends, Divisors, Quotients, and Remainders](https://www.mathacademy.com/topics/dividends-divisors-quotients-and-remainders-2390)
+- [Writing Fractions in Lowest Terms](./2364-writing-fractions-in-lowest-terms.md)
+- [Dividends, Divisors, Quotients, and Remainders](./2390-dividends-divisors-quotients-and-remainders.md)
 
 ## Lesson
 

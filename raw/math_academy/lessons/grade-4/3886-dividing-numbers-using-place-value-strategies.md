@@ -5,8 +5,8 @@ Topic ID: 3886
 
 ## Prerequisites
 
-- [Evaluating Expressions Containing Multiplication and Division](https://www.mathacademy.com/topics/evaluating-expressions-containing-multiplication-and-division-3923)
-- [Rewriting Numbers Ending in Zeros](https://www.mathacademy.com/topics/rewriting-numbers-ending-in-zeros-3924)
+- [Evaluating Expressions Containing Multiplication and Division](./3923-evaluating-expressions-containing-multiplication-and-division.md)
+- [Rewriting Numbers Ending in Zeros](./3924-rewriting-numbers-ending-in-zeros.md)
 
 ## Lesson
 

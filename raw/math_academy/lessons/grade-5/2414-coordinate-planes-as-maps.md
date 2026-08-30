@@ -5,7 +5,7 @@ Topic ID: 2414
 
 ## Prerequisites
 
-- [Solving Real World Problems Using Coordinates](https://www.mathacademy.com/topics/solving-real-world-problems-using-coordinates-2413)
+- [Solving Real World Problems Using Coordinates](./2413-solving-real-world-problems-using-coordinates.md)
 
 ## Lesson
 

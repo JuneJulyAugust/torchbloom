@@ -5,8 +5,8 @@ Topic ID: 4314
 
 ## Prerequisites
 
-- [Rounding Up Decimals](https://www.mathacademy.com/topics/rounding-up-decimals-3585)
-- [Significant Figures](https://www.mathacademy.com/topics/significant-figures-4033)
+- [Rounding Up Decimals](./3585-rounding-up-decimals.md)
+- [Significant Figures](./4033-significant-figures.md)
 
 ## Lesson
 

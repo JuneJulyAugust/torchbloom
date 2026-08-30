@@ -5,8 +5,8 @@ Topic ID: 2427
 
 ## Prerequisites
 
-- [Units of Length](https://www.mathacademy.com/topics/units-of-length-236)
-- [Multiplying by 10, 100, and 1,000 Using the Pattern of Zeros](https://www.mathacademy.com/topics/multiplying-by-10-100-and-1-000-using-the-pattern-of-zeros-2338)
+- [Units of Length](./236-units-of-length.md)
+- [Multiplying by 10, 100, and 1,000 Using the Pattern of Zeros](./2338-multiplying-by-10-100-and-1-000-using-the-pattern-of-zeros.md)
 
 ## Lesson
 

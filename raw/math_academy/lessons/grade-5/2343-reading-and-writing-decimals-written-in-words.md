@@ -5,8 +5,8 @@ Topic ID: 2343
 
 ## Prerequisites
 
-- [The Place Value System With Decimals](https://www.mathacademy.com/topics/the-place-value-system-with-decimals-2282)
-- [Reading Whole Numbers Written in Words](https://www.mathacademy.com/topics/reading-whole-numbers-written-in-words-3899)
+- [The Place Value System With Decimals](./2282-the-place-value-system-with-decimals.md)
+- [Reading Whole Numbers Written in Words](../grade-4/3899-reading-whole-numbers-written-in-words.md)
 
 ## Lesson
 

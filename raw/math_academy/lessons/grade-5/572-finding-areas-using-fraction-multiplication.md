@@ -5,8 +5,8 @@ Topic ID: 572
 
 ## Prerequisites
 
-- [Connecting Fraction Multiplication and Area](https://www.mathacademy.com/topics/connecting-fraction-multiplication-and-area-569)
-- [Multiplying Mixed Numbers](https://www.mathacademy.com/topics/multiplying-mixed-numbers-2381)
+- [Connecting Fraction Multiplication and Area](./569-connecting-fraction-multiplication-and-area.md)
+- [Multiplying Mixed Numbers](./2381-multiplying-mixed-numbers.md)
 
 ## Lesson
 

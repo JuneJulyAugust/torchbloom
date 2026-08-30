@@ -5,9 +5,9 @@ Topic ID: 3904
 
 ## Prerequisites
 
-- [Two-Digit by One-Digit Multiplication Using Place Value](https://www.mathacademy.com/topics/two-digit-by-one-digit-multiplication-using-place-value-2416)
-- [Word Problems Involving Additive and Multiplicative Comparison](https://www.mathacademy.com/topics/word-problems-involving-additive-and-multiplicative-comparison-3903)
-- [Subtracting Three-Digit Numbers](https://www.mathacademy.com/topics/subtracting-three-digit-numbers-3907)
+- [Two-Digit by One-Digit Multiplication Using Place Value](./2416-two-digit-by-one-digit-multiplication-using-place-value.md)
+- [Word Problems Involving Additive and Multiplicative Comparison](./3903-word-problems-involving-additive-and-multiplicative-comparison.md)
+- [Subtracting Three-Digit Numbers](./3907-subtracting-three-digit-numbers.md)
 
 ## Lesson
 

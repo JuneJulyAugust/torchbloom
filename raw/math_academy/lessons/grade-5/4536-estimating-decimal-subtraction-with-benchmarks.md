@@ -5,8 +5,8 @@ Topic ID: 4536
 
 ## Prerequisites
 
-- [Subtraction With Unequal Numbers of Decimals](https://www.mathacademy.com/topics/subtraction-with-unequal-numbers-of-decimals-2340)
-- [Estimating Decimal Addition With Benchmarks](https://www.mathacademy.com/topics/estimating-decimal-addition-with-benchmarks-2389)
+- [Subtraction With Unequal Numbers of Decimals](./2340-subtraction-with-unequal-numbers-of-decimals.md)
+- [Estimating Decimal Addition With Benchmarks](./2389-estimating-decimal-addition-with-benchmarks.md)
 
 ## Lesson
 

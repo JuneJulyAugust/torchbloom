@@ -5,8 +5,8 @@ Topic ID: 3762
 
 ## Prerequisites
 
-- [Multiplying Fractions: Word Problems](https://www.mathacademy.com/topics/multiplying-fractions-word-problems-567)
-- [Multiplying Mixed Numbers](https://www.mathacademy.com/topics/multiplying-mixed-numbers-2381)
+- [Multiplying Fractions: Word Problems](./567-multiplying-fractions-word-problems.md)
+- [Multiplying Mixed Numbers](./2381-multiplying-mixed-numbers.md)
 
 ## Lesson
 

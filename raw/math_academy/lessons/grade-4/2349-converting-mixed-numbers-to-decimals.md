@@ -5,8 +5,8 @@ Topic ID: 2349
 
 ## Prerequisites
 
-- [Converting Fractions to Decimals](https://www.mathacademy.com/topics/converting-fractions-to-decimals-3914)
-- [Modeling Mixed Numbers Using Number Lines](https://www.mathacademy.com/topics/modeling-mixed-numbers-using-number-lines-7008)
+- [Converting Fractions to Decimals](./3914-converting-fractions-to-decimals.md)
+- [Modeling Mixed Numbers Using Number Lines](./7008-modeling-mixed-numbers-using-number-lines.md)
 
 ## Lesson
 

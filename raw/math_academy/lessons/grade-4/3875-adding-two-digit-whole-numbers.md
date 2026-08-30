@@ -5,7 +5,7 @@ Topic ID: 3875
 
 ## Prerequisites
 
-- [Equivalent Place Value Representations](https://www.mathacademy.com/topics/equivalent-place-value-representations-3921)
+- [Equivalent Place Value Representations](./3921-equivalent-place-value-representations.md)
 
 ## Lesson
 

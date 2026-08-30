@@ -5,8 +5,8 @@ Topic ID: 3936
 
 ## Prerequisites
 
-- [Comparing Fractions](https://www.mathacademy.com/topics/comparing-fractions-538)
-- [Interpreting Division Problems as Mixed Numbers](https://www.mathacademy.com/topics/interpreting-division-problems-as-mixed-numbers-3898)
+- [Comparing Fractions](./538-comparing-fractions.md)
+- [Interpreting Division Problems as Mixed Numbers](./3898-interpreting-division-problems-as-mixed-numbers.md)
 
 ## Lesson
 

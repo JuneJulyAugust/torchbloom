@@ -5,8 +5,8 @@ Topic ID: 2287
 
 ## Prerequisites
 
-- [Two-Digit by One-Digit Multiplication Using Area Models](https://www.mathacademy.com/topics/two-digit-by-one-digit-multiplication-using-area-models-2415)
-- [Rounding Up the Digit 9](https://www.mathacademy.com/topics/rounding-up-the-digit-9-3900)
+- [Two-Digit by One-Digit Multiplication Using Area Models](./2415-two-digit-by-one-digit-multiplication-using-area-models.md)
+- [Rounding Up the Digit 9](./3900-rounding-up-the-digit-9.md)
 
 ## Lesson
 

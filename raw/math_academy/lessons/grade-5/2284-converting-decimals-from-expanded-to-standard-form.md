@@ -5,8 +5,8 @@ Topic ID: 2284
 
 ## Prerequisites
 
-- [Converting Decimals From Standard to Expanded Form](https://www.mathacademy.com/topics/converting-decimals-from-standard-to-expanded-form-2285)
-- [Converting From Expanded Form to Standard Form](https://www.mathacademy.com/topics/converting-from-expanded-form-to-standard-form-2311)
+- [Converting Decimals From Standard to Expanded Form](./2285-converting-decimals-from-standard-to-expanded-form.md)
+- [Converting From Expanded Form to Standard Form](../grade-4/2311-converting-from-expanded-form-to-standard-form.md)
 
 ## Lesson
 

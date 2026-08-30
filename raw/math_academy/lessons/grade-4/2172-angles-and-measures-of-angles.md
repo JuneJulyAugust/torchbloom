@@ -5,7 +5,7 @@ Topic ID: 2172
 
 ## Prerequisites
 
-- [Points, Lines, Rays, and Segments](https://www.mathacademy.com/topics/points-lines-rays-and-segments-1378)
+- [Points, Lines, Rays, and Segments](./1378-points-lines-rays-and-segments.md)
 
 ## Lesson
 

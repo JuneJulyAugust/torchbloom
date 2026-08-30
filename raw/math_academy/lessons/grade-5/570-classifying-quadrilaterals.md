@@ -5,7 +5,7 @@ Topic ID: 570
 
 ## Prerequisites
 
-- [Rectangles, Rhombuses, and Squares](https://www.mathacademy.com/topics/rectangles-rhombuses-and-squares-3751)
+- [Rectangles, Rhombuses, and Squares](./3751-rectangles-rhombuses-and-squares.md)
 
 ## Lesson
 

@@ -5,8 +5,8 @@ Topic ID: 539
 
 ## Prerequisites
 
-- [Adding Fractions and Whole Numbers Using Models](https://www.mathacademy.com/topics/adding-fractions-and-whole-numbers-using-models-543)
-- [Adding Fractions With Like Denominators](https://www.mathacademy.com/topics/adding-fractions-with-like-denominators-2351)
+- [Adding Fractions and Whole Numbers Using Models](./543-adding-fractions-and-whole-numbers-using-models.md)
+- [Adding Fractions With Like Denominators](../grade-4/2351-adding-fractions-with-like-denominators.md)
 
 ## Lesson
 

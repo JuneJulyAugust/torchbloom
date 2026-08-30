@@ -5,8 +5,8 @@ Topic ID: 2317
 
 ## Prerequisites
 
-- [Multiplying Numbers by Powers of Ten With Exponents](https://www.mathacademy.com/topics/multiplying-numbers-by-powers-of-ten-with-exponents-2316)
-- [Multiplying Decimals by Powers of Ten Using Decimal Point Placement](https://www.mathacademy.com/topics/multiplying-decimals-by-powers-of-ten-using-decimal-point-placement-2318)
+- [Multiplying Numbers by Powers of Ten With Exponents](./2316-multiplying-numbers-by-powers-of-ten-with-exponents.md)
+- [Multiplying Decimals by Powers of Ten Using Decimal Point Placement](./2318-multiplying-decimals-by-powers-of-ten-using-decimal-point-placement.md)
 
 ## Lesson
 

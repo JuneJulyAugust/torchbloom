@@ -5,8 +5,8 @@ Topic ID: 538
 
 ## Prerequisites
 
-- [Comparing Whole Numbers](https://www.mathacademy.com/topics/comparing-whole-numbers-2324)
-- [Writing Unit Fractions in Words](https://www.mathacademy.com/topics/writing-unit-fractions-in-words-3951)
+- [Comparing Whole Numbers](./2324-comparing-whole-numbers.md)
+- [Writing Unit Fractions in Words](./3951-writing-unit-fractions-in-words.md)
 
 ## Lesson
 

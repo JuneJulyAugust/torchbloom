@@ -5,7 +5,7 @@ Topic ID: 3959
 
 ## Prerequisites
 
-- [Writing Unit Fractions in Words](https://www.mathacademy.com/topics/writing-unit-fractions-in-words-3951)
+- [Writing Unit Fractions in Words](./3951-writing-unit-fractions-in-words.md)
 
 ## Lesson
 

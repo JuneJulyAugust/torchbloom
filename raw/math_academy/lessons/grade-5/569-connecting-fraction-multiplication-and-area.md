@@ -5,7 +5,7 @@ Topic ID: 569
 
 ## Prerequisites
 
-- [Multiplying Fractions](https://www.mathacademy.com/topics/multiplying-fractions-2378)
+- [Multiplying Fractions](./2378-multiplying-fractions.md)
 
 ## Lesson
 

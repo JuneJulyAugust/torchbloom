@@ -5,7 +5,7 @@ Topic ID: 3953
 
 ## Prerequisites
 
-- [Products and Factors](https://www.mathacademy.com/topics/products-and-factors-122)
+- [Products and Factors](./122-products-and-factors.md)
 
 ## Lesson
 

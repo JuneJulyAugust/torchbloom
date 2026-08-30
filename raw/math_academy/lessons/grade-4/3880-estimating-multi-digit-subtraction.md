@@ -5,8 +5,8 @@ Topic ID: 3880
 
 ## Prerequisites
 
-- [Rounding Up the Digit 9](https://www.mathacademy.com/topics/rounding-up-the-digit-9-3900)
-- [Subtracting Numbers Up to Seven Digits](https://www.mathacademy.com/topics/subtracting-numbers-up-to-seven-digits-3909)
+- [Rounding Up the Digit 9](./3900-rounding-up-the-digit-9.md)
+- [Subtracting Numbers Up to Seven Digits](./3909-subtracting-numbers-up-to-seven-digits.md)
 
 ## Lesson
 

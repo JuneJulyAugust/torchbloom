@@ -5,7 +5,7 @@ Topic ID: 3902
 
 ## Prerequisites
 
-- [Interpreting Multiplication Equations as a Comparison](https://www.mathacademy.com/topics/interpreting-multiplication-equations-as-a-comparison-3874)
+- [Interpreting Multiplication Equations as a Comparison](./3874-interpreting-multiplication-equations-as-a-comparison.md)
 
 ## Lesson
 

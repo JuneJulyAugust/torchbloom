@@ -5,9 +5,9 @@ Topic ID: 2377
 
 ## Prerequisites
 
-- [Dividing Whole Numbers by Unit Fractions](https://www.mathacademy.com/topics/dividing-whole-numbers-by-unit-fractions-533)
-- [Reciprocals](https://www.mathacademy.com/topics/reciprocals-2388)
-- [Multiplying Fractions by Swapping Denominators](https://www.mathacademy.com/topics/multiplying-fractions-by-swapping-denominators-2459)
+- [Dividing Whole Numbers by Unit Fractions](./533-dividing-whole-numbers-by-unit-fractions.md)
+- [Reciprocals](./2388-reciprocals.md)
+- [Multiplying Fractions by Swapping Denominators](./2459-multiplying-fractions-by-swapping-denominators.md)
 
 ## Lesson
 

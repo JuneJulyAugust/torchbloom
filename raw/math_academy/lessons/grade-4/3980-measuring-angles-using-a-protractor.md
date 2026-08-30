@@ -5,8 +5,8 @@ Topic ID: 3980
 
 ## Prerequisites
 
-- [Angles and Measures of Angles](https://www.mathacademy.com/topics/angles-and-measures-of-angles-2172)
-- [Subtracting Two-Digit Numbers From Three-Digit Numbers](https://www.mathacademy.com/topics/subtracting-two-digit-numbers-from-three-digit-numbers-3906)
+- [Angles and Measures of Angles](./2172-angles-and-measures-of-angles.md)
+- [Subtracting Two-Digit Numbers From Three-Digit Numbers](./3906-subtracting-two-digit-numbers-from-three-digit-numbers.md)
 
 ## Lesson
 

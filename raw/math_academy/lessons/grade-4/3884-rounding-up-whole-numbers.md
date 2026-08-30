@@ -5,7 +5,7 @@ Topic ID: 3884
 
 ## Prerequisites
 
-- [Rounding Down Whole Numbers](https://www.mathacademy.com/topics/rounding-down-whole-numbers-3883)
+- [Rounding Down Whole Numbers](./3883-rounding-down-whole-numbers.md)
 
 ## Lesson
 

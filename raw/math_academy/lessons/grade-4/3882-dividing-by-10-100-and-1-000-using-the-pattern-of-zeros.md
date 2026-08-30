@@ -5,8 +5,8 @@ Topic ID: 3882
 
 ## Prerequisites
 
-- [Multiplying by 10, 100, and 1,000 Using the Pattern of Zeros](https://www.mathacademy.com/topics/multiplying-by-10-100-and-1-000-using-the-pattern-of-zeros-2338)
-- [The Relationship Between Multiplication and Division](https://www.mathacademy.com/topics/the-relationship-between-multiplication-and-division-3877)
+- [Multiplying by 10, 100, and 1,000 Using the Pattern of Zeros](./2338-multiplying-by-10-100-and-1-000-using-the-pattern-of-zeros.md)
+- [The Relationship Between Multiplication and Division](./3877-the-relationship-between-multiplication-and-division.md)
 
 ## Lesson
 

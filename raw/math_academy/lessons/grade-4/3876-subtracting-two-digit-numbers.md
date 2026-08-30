@@ -5,7 +5,7 @@ Topic ID: 3876
 
 ## Prerequisites
 
-- [Equivalent Place Value Representations and Borrowing](https://www.mathacademy.com/topics/equivalent-place-value-representations-and-borrowing-3954)
+- [Equivalent Place Value Representations and Borrowing](./3954-equivalent-place-value-representations-and-borrowing.md)
 
 ## Lesson
 

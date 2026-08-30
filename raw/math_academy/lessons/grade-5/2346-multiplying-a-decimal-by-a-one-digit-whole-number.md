@@ -5,9 +5,9 @@ Topic ID: 2346
 
 ## Prerequisites
 
-- [Dividing Decimals by Powers of Ten Using Place Value](https://www.mathacademy.com/topics/dividing-decimals-by-powers-of-ten-using-place-value-2323)
-- [Interpreting Fractions as Division](https://www.mathacademy.com/topics/interpreting-fractions-as-division-2409)
-- [Five- and Six-Digit by One-Digit Multiplication](https://www.mathacademy.com/topics/five-and-six-digit-by-one-digit-multiplication-4788)
+- [Dividing Decimals by Powers of Ten Using Place Value](./2323-dividing-decimals-by-powers-of-ten-using-place-value.md)
+- [Interpreting Fractions as Division](../grade-4/2409-interpreting-fractions-as-division.md)
+- [Five- and Six-Digit by One-Digit Multiplication](./4788-five-and-six-digit-by-one-digit-multiplication.md)
 
 ## Lesson
 

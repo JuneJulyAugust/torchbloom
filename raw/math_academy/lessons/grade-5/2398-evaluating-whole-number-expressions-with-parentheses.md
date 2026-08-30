@@ -5,7 +5,7 @@ Topic ID: 2398
 
 ## Prerequisites
 
-- [Evaluating Whole Number Expressions](https://www.mathacademy.com/topics/evaluating-whole-number-expressions-2397)
+- [Evaluating Whole Number Expressions](./2397-evaluating-whole-number-expressions.md)
 
 ## Lesson
 

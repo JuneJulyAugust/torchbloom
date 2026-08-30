@@ -5,8 +5,8 @@ Topic ID: 3889
 
 ## Prerequisites
 
-- [Comparing Fractions](https://www.mathacademy.com/topics/comparing-fractions-538)
-- [Adding Fractions With Like Denominators Using Models](https://www.mathacademy.com/topics/adding-fractions-with-like-denominators-using-models-2370)
+- [Comparing Fractions](./538-comparing-fractions.md)
+- [Adding Fractions With Like Denominators Using Models](./2370-adding-fractions-with-like-denominators-using-models.md)
 
 ## Lesson
 

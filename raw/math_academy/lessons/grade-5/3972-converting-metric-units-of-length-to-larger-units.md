@@ -5,10 +5,10 @@ Topic ID: 3972
 
 ## Prerequisites
 
-- [Dividing Decimals by Powers of Ten Using Decimal Point Placement](https://www.mathacademy.com/topics/dividing-decimals-by-powers-of-ten-using-decimal-point-placement-2289)
-- [Multiplying a Decimal by a Multi-Digit Whole Number](https://www.mathacademy.com/topics/multiplying-a-decimal-by-a-multi-digit-whole-number-2347)
-- [Converting Metric Units of Length to Smaller Units](https://www.mathacademy.com/topics/converting-metric-units-of-length-to-smaller-units-2427)
-- [Solving Multistep Word Problems Using Number Operations](https://www.mathacademy.com/topics/solving-multistep-word-problems-using-number-operations-3904)
+- [Dividing Decimals by Powers of Ten Using Decimal Point Placement](./2289-dividing-decimals-by-powers-of-ten-using-decimal-point-placement.md)
+- [Multiplying a Decimal by a Multi-Digit Whole Number](./2347-multiplying-a-decimal-by-a-multi-digit-whole-number.md)
+- [Converting Metric Units of Length to Smaller Units](../grade-4/2427-converting-metric-units-of-length-to-smaller-units.md)
+- [Solving Multistep Word Problems Using Number Operations](../grade-4/3904-solving-multistep-word-problems-using-number-operations.md)
 
 ## Lesson
 

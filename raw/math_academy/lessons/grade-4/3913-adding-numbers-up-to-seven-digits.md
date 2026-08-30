@@ -5,7 +5,7 @@ Topic ID: 3913
 
 ## Prerequisites
 
-- [Adding Numbers Up to Five Digits](https://www.mathacademy.com/topics/adding-numbers-up-to-five-digits-3912)
+- [Adding Numbers Up to Five Digits](./3912-adding-numbers-up-to-five-digits.md)
 
 ## Lesson
 

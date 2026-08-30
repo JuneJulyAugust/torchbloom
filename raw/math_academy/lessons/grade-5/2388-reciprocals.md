@@ -5,7 +5,7 @@ Topic ID: 2388
 
 ## Prerequisites
 
-- [Converting Mixed Numbers to Improper Fractions](https://www.mathacademy.com/topics/converting-mixed-numbers-to-improper-fractions-3901)
+- [Converting Mixed Numbers to Improper Fractions](../grade-4/3901-converting-mixed-numbers-to-improper-fractions.md)
 
 ## Lesson
 

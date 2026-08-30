@@ -5,8 +5,8 @@ Topic ID: 2206
 
 ## Prerequisites
 
-- [Adding Three Multi-Digit Numbers](https://www.mathacademy.com/topics/adding-three-multi-digit-numbers-3881)
-- [The Factors of a Number](https://www.mathacademy.com/topics/the-factors-of-a-number-3942)
+- [Adding Three Multi-Digit Numbers](./3881-adding-three-multi-digit-numbers.md)
+- [The Factors of a Number](./3942-the-factors-of-a-number.md)
 
 ## Lesson
 

@@ -5,8 +5,8 @@ Topic ID: 2354
 
 ## Prerequisites
 
-- [Adding Mixed Numbers With Like Denominators](https://www.mathacademy.com/topics/adding-mixed-numbers-with-like-denominators-2352)
-- [Adding Fractions With Unlike Denominators](https://www.mathacademy.com/topics/adding-fractions-with-unlike-denominators-2353)
+- [Adding Mixed Numbers With Like Denominators](../grade-4/2352-adding-mixed-numbers-with-like-denominators.md)
+- [Adding Fractions With Unlike Denominators](./2353-adding-fractions-with-unlike-denominators.md)
 
 ## Lesson
 

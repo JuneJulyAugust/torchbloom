@@ -5,8 +5,8 @@ Topic ID: 2313
 
 ## Prerequisites
 
-- [Multiplying by 10, 100, and 1,000 Using the Pattern of Zeros](https://www.mathacademy.com/topics/multiplying-by-10-100-and-1-000-using-the-pattern-of-zeros-2338)
-- [Interpreting Multiplication Equations as a Comparison](https://www.mathacademy.com/topics/interpreting-multiplication-equations-as-a-comparison-3874)
+- [Multiplying by 10, 100, and 1,000 Using the Pattern of Zeros](./2338-multiplying-by-10-100-and-1-000-using-the-pattern-of-zeros.md)
+- [Interpreting Multiplication Equations as a Comparison](./3874-interpreting-multiplication-equations-as-a-comparison.md)
 
 ## Lesson
 

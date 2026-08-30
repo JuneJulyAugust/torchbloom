@@ -5,8 +5,8 @@ Topic ID: 537
 
 ## Prerequisites
 
-- [Dividing by Two-Digit Numbers by Connecting Multiplication and Division](https://www.mathacademy.com/topics/dividing-by-two-digit-numbers-by-connecting-multiplication-and-division-2406)
-- [Dividing Numbers by One-Digit Numbers: Interpreting the Remainder](https://www.mathacademy.com/topics/dividing-numbers-by-one-digit-numbers-interpreting-the-remainder-2434)
+- [Dividing by Two-Digit Numbers by Connecting Multiplication and Division](./2406-dividing-by-two-digit-numbers-by-connecting-multiplication-and-division.md)
+- [Dividing Numbers by One-Digit Numbers: Interpreting the Remainder](./2434-dividing-numbers-by-one-digit-numbers-interpreting-the-remainder.md)
 
 ## Lesson
 

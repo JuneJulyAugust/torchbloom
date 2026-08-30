@@ -5,7 +5,7 @@ Topic ID: 2390
 
 ## Prerequisites
 
-- [Understanding Remainders Using Models](https://www.mathacademy.com/topics/understanding-remainders-using-models-3888)
+- [Understanding Remainders Using Models](./3888-understanding-remainders-using-models.md)
 
 ## Lesson
 

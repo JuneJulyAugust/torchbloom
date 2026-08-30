@@ -5,10 +5,10 @@ Topic ID: 1505
 
 ## Prerequisites
 
-- [Angles and Measures of Angles](https://www.mathacademy.com/topics/angles-and-measures-of-angles-2172)
-- [Representing Comparison Statements as Equations](https://www.mathacademy.com/topics/representing-comparison-statements-as-equations-3902)
-- [Subtracting Three-Digit Numbers](https://www.mathacademy.com/topics/subtracting-three-digit-numbers-3907)
-- [Adding Three-Digit and Two-Digit Numbers](https://www.mathacademy.com/topics/adding-three-digit-and-two-digit-numbers-3910)
+- [Angles and Measures of Angles](./2172-angles-and-measures-of-angles.md)
+- [Representing Comparison Statements as Equations](./3902-representing-comparison-statements-as-equations.md)
+- [Subtracting Three-Digit Numbers](./3907-subtracting-three-digit-numbers.md)
+- [Adding Three-Digit and Two-Digit Numbers](./3910-adding-three-digit-and-two-digit-numbers.md)
 
 ## Lesson
 

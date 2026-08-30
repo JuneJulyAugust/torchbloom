@@ -5,9 +5,9 @@ Topic ID: 3974
 
 ## Prerequisites
 
-- [Two-Digit by One-Digit Division](https://www.mathacademy.com/topics/two-digit-by-one-digit-division-535)
-- [Dividing Decimals by Powers of Ten Using Decimal Point Placement](https://www.mathacademy.com/topics/dividing-decimals-by-powers-of-ten-using-decimal-point-placement-2289)
-- [Converting Units of Volume to Smaller Units](https://www.mathacademy.com/topics/converting-units-of-volume-to-smaller-units-2402)
+- [Two-Digit by One-Digit Division](./535-two-digit-by-one-digit-division.md)
+- [Dividing Decimals by Powers of Ten Using Decimal Point Placement](./2289-dividing-decimals-by-powers-of-ten-using-decimal-point-placement.md)
+- [Converting Units of Volume to Smaller Units](../grade-4/2402-converting-units-of-volume-to-smaller-units.md)
 
 ## Lesson
 

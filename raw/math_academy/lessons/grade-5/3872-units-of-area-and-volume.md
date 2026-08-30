@@ -5,8 +5,8 @@ Topic ID: 3872
 
 ## Prerequisites
 
-- [Evaluating Exponents](https://www.mathacademy.com/topics/evaluating-exponents-2321)
-- [Understanding Volume Using Unit Cubes](https://www.mathacademy.com/topics/understanding-volume-using-unit-cubes-2403)
+- [Evaluating Exponents](./2321-evaluating-exponents.md)
+- [Understanding Volume Using Unit Cubes](./2403-understanding-volume-using-unit-cubes.md)
 
 ## Lesson
 

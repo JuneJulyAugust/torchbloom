@@ -5,7 +5,7 @@ Topic ID: 2311
 
 ## Prerequisites
 
-- [Converting From Standard Form to Expanded Form](https://www.mathacademy.com/topics/converting-from-standard-form-to-expanded-form-2320)
+- [Converting From Standard Form to Expanded Form](./2320-converting-from-standard-form-to-expanded-form.md)
 
 ## Lesson
 

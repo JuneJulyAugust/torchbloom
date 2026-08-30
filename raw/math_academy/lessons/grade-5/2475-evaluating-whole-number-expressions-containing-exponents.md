@@ -5,8 +5,8 @@ Topic ID: 2475
 
 ## Prerequisites
 
-- [Evaluating Whole Number Expressions With Parentheses](https://www.mathacademy.com/topics/evaluating-whole-number-expressions-with-parentheses-2398)
-- [Evaluating Larger Exponents](https://www.mathacademy.com/topics/evaluating-larger-exponents-3537)
+- [Evaluating Whole Number Expressions With Parentheses](./2398-evaluating-whole-number-expressions-with-parentheses.md)
+- [Evaluating Larger Exponents](./3537-evaluating-larger-exponents.md)
 
 ## Lesson
 

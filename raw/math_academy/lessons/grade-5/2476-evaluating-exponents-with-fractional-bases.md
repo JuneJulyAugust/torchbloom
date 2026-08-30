@@ -5,8 +5,8 @@ Topic ID: 2476
 
 ## Prerequisites
 
-- [Multiplying Fractions](https://www.mathacademy.com/topics/multiplying-fractions-2378)
-- [Evaluating Larger Exponents](https://www.mathacademy.com/topics/evaluating-larger-exponents-3537)
+- [Multiplying Fractions](./2378-multiplying-fractions.md)
+- [Evaluating Larger Exponents](./3537-evaluating-larger-exponents.md)
 
 ## Lesson
 

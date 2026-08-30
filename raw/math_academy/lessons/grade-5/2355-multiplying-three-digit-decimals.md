@@ -5,7 +5,7 @@ Topic ID: 2355
 
 ## Prerequisites
 
-- [Multiplying Two-Digit Decimals by Three-Digit Decimals](https://www.mathacademy.com/topics/multiplying-two-digit-decimals-by-three-digit-decimals-2348)
+- [Multiplying Two-Digit Decimals by Three-Digit Decimals](./2348-multiplying-two-digit-decimals-by-three-digit-decimals.md)
 
 ## Lesson
 

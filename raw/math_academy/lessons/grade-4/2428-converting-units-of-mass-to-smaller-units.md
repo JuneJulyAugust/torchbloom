@@ -5,8 +5,8 @@ Topic ID: 2428
 
 ## Prerequisites
 
-- [Two-Digit by Two-Digit Multiplication Using Area Models](https://www.mathacademy.com/topics/two-digit-by-two-digit-multiplication-using-area-models-2418)
-- [Units of Mass](https://www.mathacademy.com/topics/units-of-mass-4196)
+- [Two-Digit by Two-Digit Multiplication Using Area Models](./2418-two-digit-by-two-digit-multiplication-using-area-models.md)
+- [Units of Mass](./4196-units-of-mass.md)
 
 ## Lesson
 

@@ -5,9 +5,9 @@ Topic ID: 3898
 
 ## Prerequisites
 
-- [Interpreting Fractions as Division](https://www.mathacademy.com/topics/interpreting-fractions-as-division-2409)
-- [Division With Remainders](https://www.mathacademy.com/topics/division-with-remainders-3952)
-- [Modeling Mixed Numbers Using Number Lines](https://www.mathacademy.com/topics/modeling-mixed-numbers-using-number-lines-7008)
+- [Interpreting Fractions as Division](./2409-interpreting-fractions-as-division.md)
+- [Division With Remainders](./3952-division-with-remainders.md)
+- [Modeling Mixed Numbers Using Number Lines](./7008-modeling-mixed-numbers-using-number-lines.md)
 
 ## Lesson
 

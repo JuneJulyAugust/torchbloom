@@ -5,9 +5,9 @@ Topic ID: 2408
 
 ## Prerequisites
 
-- [Multiplying Fractions by Whole Numbers](https://www.mathacademy.com/topics/multiplying-fractions-by-whole-numbers-2360)
-- [Creating and Interpreting Line Plots](https://www.mathacademy.com/topics/creating-and-interpreting-line-plots-2400)
-- [Comparing Fractions Using Common Denominators](https://www.mathacademy.com/topics/comparing-fractions-using-common-denominators-4204)
+- [Multiplying Fractions by Whole Numbers](./2360-multiplying-fractions-by-whole-numbers.md)
+- [Creating and Interpreting Line Plots](./2400-creating-and-interpreting-line-plots.md)
+- [Comparing Fractions Using Common Denominators](./4204-comparing-fractions-using-common-denominators.md)
 
 ## Lesson
 

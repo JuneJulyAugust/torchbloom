@@ -5,8 +5,8 @@ Topic ID: 3933
 
 ## Prerequisites
 
-- [Multiplying Numbers Using Repeated Addition](https://www.mathacademy.com/topics/multiplying-numbers-using-repeated-addition-3878)
-- [Subtracting Numbers Up to Five Digits](https://www.mathacademy.com/topics/subtracting-numbers-up-to-five-digits-3908)
+- [Multiplying Numbers Using Repeated Addition](./3878-multiplying-numbers-using-repeated-addition.md)
+- [Subtracting Numbers Up to Five Digits](./3908-subtracting-numbers-up-to-five-digits.md)
 
 ## Lesson
 

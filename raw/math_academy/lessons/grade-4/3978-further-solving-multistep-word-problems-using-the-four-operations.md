@@ -5,9 +5,9 @@ Topic ID: 3978
 
 ## Prerequisites
 
-- [Multi-Digit by One-Digit Multiplication Using Place Value](https://www.mathacademy.com/topics/multi-digit-by-one-digit-multiplication-using-place-value-2417)
-- [Multi-Digit by One-Digit Division Using Partial Quotients](https://www.mathacademy.com/topics/multi-digit-by-one-digit-division-using-partial-quotients-2425)
-- [Solving Multistep Word Problems Using Number Operations](https://www.mathacademy.com/topics/solving-multistep-word-problems-using-number-operations-3904)
+- [Multi-Digit by One-Digit Multiplication Using Place Value](./2417-multi-digit-by-one-digit-multiplication-using-place-value.md)
+- [Multi-Digit by One-Digit Division Using Partial Quotients](./2425-multi-digit-by-one-digit-division-using-partial-quotients.md)
+- [Solving Multistep Word Problems Using Number Operations](./3904-solving-multistep-word-problems-using-number-operations.md)
 
 ## Lesson
 

@@ -5,8 +5,8 @@ Topic ID: 3585
 
 ## Prerequisites
 
-- [Rounding Down Decimals](https://www.mathacademy.com/topics/rounding-down-decimals-2325)
-- [Rounding Up the Digit 9](https://www.mathacademy.com/topics/rounding-up-the-digit-9-3900)
+- [Rounding Down Decimals](./2325-rounding-down-decimals.md)
+- [Rounding Up the Digit 9](../grade-4/3900-rounding-up-the-digit-9.md)
 
 ## Lesson
 

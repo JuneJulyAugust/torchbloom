@@ -5,7 +5,7 @@ Topic ID: 3909
 
 ## Prerequisites
 
-- [Subtracting Numbers Up to Five Digits](https://www.mathacademy.com/topics/subtracting-numbers-up-to-five-digits-3908)
+- [Subtracting Numbers Up to Five Digits](./3908-subtracting-numbers-up-to-five-digits.md)
 
 ## Lesson
 

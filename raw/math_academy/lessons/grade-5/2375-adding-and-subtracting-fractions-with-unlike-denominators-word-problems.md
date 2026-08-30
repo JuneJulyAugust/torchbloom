@@ -5,7 +5,7 @@ Topic ID: 2375
 
 ## Prerequisites
 
-- [Subtracting Fractions With Unlike Denominators](https://www.mathacademy.com/topics/subtracting-fractions-with-unlike-denominators-2357)
+- [Subtracting Fractions With Unlike Denominators](./2357-subtracting-fractions-with-unlike-denominators.md)
 
 ## Lesson
 

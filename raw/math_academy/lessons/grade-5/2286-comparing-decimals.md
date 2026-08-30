@@ -5,9 +5,9 @@ Topic ID: 2286
 
 ## Prerequisites
 
-- [Comparing Place Values With Decimals](https://www.mathacademy.com/topics/comparing-place-values-with-decimals-2283)
-- [Equivalent Decimals](https://www.mathacademy.com/topics/equivalent-decimals-2344)
-- [Comparing Decimals Up to Hundredths](https://www.mathacademy.com/topics/comparing-decimals-up-to-hundredths-3996)
+- [Comparing Place Values With Decimals](./2283-comparing-place-values-with-decimals.md)
+- [Equivalent Decimals](./2344-equivalent-decimals.md)
+- [Comparing Decimals Up to Hundredths](../grade-4/3996-comparing-decimals-up-to-hundredths.md)
 
 ## Lesson
 

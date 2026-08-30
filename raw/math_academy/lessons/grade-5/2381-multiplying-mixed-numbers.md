@@ -5,7 +5,7 @@ Topic ID: 2381
 
 ## Prerequisites
 
-- [Multiplying Mixed Numbers by Fractions](https://www.mathacademy.com/topics/multiplying-mixed-numbers-by-fractions-2380)
+- [Multiplying Mixed Numbers by Fractions](./2380-multiplying-mixed-numbers-by-fractions.md)
 
 ## Lesson
 

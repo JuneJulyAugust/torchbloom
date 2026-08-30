@@ -5,8 +5,8 @@ Topic ID: 2360
 
 ## Prerequisites
 
-- [Converting Mixed Numbers to Improper Fractions](https://www.mathacademy.com/topics/converting-mixed-numbers-to-improper-fractions-3901)
-- [Multiplying Fractions by Whole Numbers Using Models](https://www.mathacademy.com/topics/multiplying-fractions-by-whole-numbers-using-models-3968)
+- [Converting Mixed Numbers to Improper Fractions](./3901-converting-mixed-numbers-to-improper-fractions.md)
+- [Multiplying Fractions by Whole Numbers Using Models](./3968-multiplying-fractions-by-whole-numbers-using-models.md)
 
 ## Lesson
 

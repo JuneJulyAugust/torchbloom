@@ -5,8 +5,8 @@ Topic ID: 2289
 
 ## Prerequisites
 
-- [Multiplying Decimals by Powers of Ten Using Decimal Point Placement](https://www.mathacademy.com/topics/multiplying-decimals-by-powers-of-ten-using-decimal-point-placement-2318)
-- [Dividing Decimals by Powers of Ten Using Place Value](https://www.mathacademy.com/topics/dividing-decimals-by-powers-of-ten-using-place-value-2323)
+- [Multiplying Decimals by Powers of Ten Using Decimal Point Placement](./2318-multiplying-decimals-by-powers-of-ten-using-decimal-point-placement.md)
+- [Dividing Decimals by Powers of Ten Using Place Value](./2323-dividing-decimals-by-powers-of-ten-using-place-value.md)
 
 ## Lesson
 

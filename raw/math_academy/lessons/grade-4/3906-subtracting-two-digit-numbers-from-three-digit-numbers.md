@@ -5,7 +5,7 @@ Topic ID: 3906
 
 ## Prerequisites
 
-- [Subtracting Two-Digit Numbers](https://www.mathacademy.com/topics/subtracting-two-digit-numbers-3876)
+- [Subtracting Two-Digit Numbers](./3876-subtracting-two-digit-numbers.md)
 
 ## Lesson
 

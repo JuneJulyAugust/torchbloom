@@ -5,8 +5,8 @@ Topic ID: 2459
 
 ## Prerequisites
 
-- [Multiplying Fractions](https://www.mathacademy.com/topics/multiplying-fractions-2378)
-- [Strategies to Simplify Whole Number and Fraction Multiplication](https://www.mathacademy.com/topics/strategies-to-simplify-whole-number-and-fraction-multiplication-2458)
+- [Multiplying Fractions](./2378-multiplying-fractions.md)
+- [Strategies to Simplify Whole Number and Fraction Multiplication](../grade-4/2458-strategies-to-simplify-whole-number-and-fraction-multiplication.md)
 
 ## Lesson
 

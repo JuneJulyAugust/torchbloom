@@ -5,7 +5,7 @@ Topic ID: 111
 
 ## Prerequisites
 
-- [Multiplying a Decimal by a Multi-Digit Whole Number](https://www.mathacademy.com/topics/multiplying-a-decimal-by-a-multi-digit-whole-number-2347)
+- [Multiplying a Decimal by a Multi-Digit Whole Number](./2347-multiplying-a-decimal-by-a-multi-digit-whole-number.md)
 
 ## Lesson
 

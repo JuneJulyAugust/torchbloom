@@ -5,7 +5,7 @@ Topic ID: 109
 
 ## Prerequisites
 
-- [Estimating Decimal Addition and Subtraction](https://www.mathacademy.com/topics/estimating-decimal-addition-and-subtraction-2326)
+- [Estimating Decimal Addition and Subtraction](./2326-estimating-decimal-addition-and-subtraction.md)
 
 ## Lesson
 

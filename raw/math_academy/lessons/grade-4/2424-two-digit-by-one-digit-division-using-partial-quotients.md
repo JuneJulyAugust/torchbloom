@@ -5,7 +5,7 @@ Topic ID: 2424
 
 ## Prerequisites
 
-- [Two-Digit by One-Digit Division Using Area Models](https://www.mathacademy.com/topics/two-digit-by-one-digit-division-using-area-models-2423)
+- [Two-Digit by One-Digit Division Using Area Models](./2423-two-digit-by-one-digit-division-using-area-models.md)
 
 ## Lesson
 

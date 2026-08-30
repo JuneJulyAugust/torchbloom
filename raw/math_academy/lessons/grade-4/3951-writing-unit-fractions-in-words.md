@@ -5,9 +5,9 @@ Topic ID: 3951
 
 ## Prerequisites
 
-- [The Multiples of a Number](https://www.mathacademy.com/topics/the-multiples-of-a-number-2206)
-- [Writing Whole Numbers in Words](https://www.mathacademy.com/topics/writing-whole-numbers-in-words-3885)
-- [Modeling Fractions Using Number Lines](https://www.mathacademy.com/topics/modeling-fractions-using-number-lines-7003)
+- [The Multiples of a Number](./2206-the-multiples-of-a-number.md)
+- [Writing Whole Numbers in Words](./3885-writing-whole-numbers-in-words.md)
+- [Modeling Fractions Using Number Lines](./7003-modeling-fractions-using-number-lines.md)
 
 ## Lesson
 

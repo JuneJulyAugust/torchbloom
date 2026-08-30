@@ -5,8 +5,8 @@ Topic ID: 2374
 
 ## Prerequisites
 
-- [Adding Fractions and Whole Numbers Using Models](https://www.mathacademy.com/topics/adding-fractions-and-whole-numbers-using-models-543)
-- [Least Common Denominators](https://www.mathacademy.com/topics/least-common-denominators-2365)
+- [Adding Fractions and Whole Numbers Using Models](./543-adding-fractions-and-whole-numbers-using-models.md)
+- [Least Common Denominators](../grade-4/2365-least-common-denominators.md)
 
 ## Lesson
 

@@ -5,7 +5,7 @@ Topic ID: 535
 
 ## Prerequisites
 
-- [Two-Digit by One-Digit Division With Remainders Using Partial Quotients](https://www.mathacademy.com/topics/two-digit-by-one-digit-division-with-remainders-using-partial-quotients-3925)
+- [Two-Digit by One-Digit Division With Remainders Using Partial Quotients](../grade-4/3925-two-digit-by-one-digit-division-with-remainders-using-partial-quotients.md)
 
 ## Lesson
 

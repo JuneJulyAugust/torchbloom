@@ -5,7 +5,7 @@ Topic ID: 4698
 
 ## Prerequisites
 
-- [Dividing Whole Numbers by Fractions Using Models: Whole Number Results](https://www.mathacademy.com/topics/dividing-whole-numbers-by-fractions-using-models-whole-number-results-2437)
+- [Dividing Whole Numbers by Fractions Using Models: Whole Number Results](./2437-dividing-whole-numbers-by-fractions-using-models-whole-number-results.md)
 
 ## Lesson
 

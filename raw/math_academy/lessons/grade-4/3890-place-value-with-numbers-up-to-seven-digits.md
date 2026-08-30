@@ -5,7 +5,7 @@ Topic ID: 3890
 
 ## Prerequisites
 
-- [Place Value With Numbers Up to Four Digits](https://www.mathacademy.com/topics/place-value-with-numbers-up-to-four-digits-2312)
+- [Place Value With Numbers Up to Four Digits](./2312-place-value-with-numbers-up-to-four-digits.md)
 
 ## Lesson
 

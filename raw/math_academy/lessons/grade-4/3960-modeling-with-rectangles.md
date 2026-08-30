@@ -5,8 +5,8 @@ Topic ID: 3960
 
 ## Prerequisites
 
-- [Units of Length](https://www.mathacademy.com/topics/units-of-length-236)
-- [Representing Comparison Statements as Equations](https://www.mathacademy.com/topics/representing-comparison-statements-as-equations-3902)
+- [Units of Length](./236-units-of-length.md)
+- [Representing Comparison Statements as Equations](./3902-representing-comparison-statements-as-equations.md)
 
 ## Lesson
 

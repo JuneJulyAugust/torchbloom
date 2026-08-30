@@ -5,8 +5,8 @@ Topic ID: 545
 
 ## Prerequisites
 
-- [Adding Fractions and Whole Numbers](https://www.mathacademy.com/topics/adding-fractions-and-whole-numbers-539)
-- [Subtracting Fractions and Whole Numbers Using Models](https://www.mathacademy.com/topics/subtracting-fractions-and-whole-numbers-using-models-544)
+- [Adding Fractions and Whole Numbers](./539-adding-fractions-and-whole-numbers.md)
+- [Subtracting Fractions and Whole Numbers Using Models](./544-subtracting-fractions-and-whole-numbers-using-models.md)
 
 ## Lesson
 

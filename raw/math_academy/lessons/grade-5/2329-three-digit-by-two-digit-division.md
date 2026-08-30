@@ -5,8 +5,8 @@ Topic ID: 2329
 
 ## Prerequisites
 
-- [Three-Digit by One-Digit Division](https://www.mathacademy.com/topics/three-digit-by-one-digit-division-536)
-- [Multi-Digit by Two-Digit Division Using Partial Quotients](https://www.mathacademy.com/topics/multi-digit-by-two-digit-division-using-partial-quotients-541)
+- [Three-Digit by One-Digit Division](./536-three-digit-by-one-digit-division.md)
+- [Multi-Digit by Two-Digit Division Using Partial Quotients](./541-multi-digit-by-two-digit-division-using-partial-quotients.md)
 
 ## Lesson
 

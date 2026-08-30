@@ -5,9 +5,9 @@ Topic ID: 2422
 
 ## Prerequisites
 
-- [Dividends, Divisors, Quotients, and Remainders](https://www.mathacademy.com/topics/dividends-divisors-quotients-and-remainders-2390)
-- [The Relationship Between Multiplication and Division](https://www.mathacademy.com/topics/the-relationship-between-multiplication-and-division-3877)
-- [Multiplying Numbers Using Repeated Subtraction](https://www.mathacademy.com/topics/multiplying-numbers-using-repeated-subtraction-3933)
+- [Dividends, Divisors, Quotients, and Remainders](./2390-dividends-divisors-quotients-and-remainders.md)
+- [The Relationship Between Multiplication and Division](./3877-the-relationship-between-multiplication-and-division.md)
+- [Multiplying Numbers Using Repeated Subtraction](./3933-multiplying-numbers-using-repeated-subtraction.md)
 
 ## Lesson
 

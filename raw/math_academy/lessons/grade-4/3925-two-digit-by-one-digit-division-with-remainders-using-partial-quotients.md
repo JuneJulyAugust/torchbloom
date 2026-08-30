@@ -5,8 +5,8 @@ Topic ID: 3925
 
 ## Prerequisites
 
-- [Interpreting Remainders in Context](https://www.mathacademy.com/topics/interpreting-remainders-in-context-2391)
-- [Two-Digit by One-Digit Division Using Partial Quotients](https://www.mathacademy.com/topics/two-digit-by-one-digit-division-using-partial-quotients-2424)
+- [Interpreting Remainders in Context](./2391-interpreting-remainders-in-context.md)
+- [Two-Digit by One-Digit Division Using Partial Quotients](./2424-two-digit-by-one-digit-division-using-partial-quotients.md)
 
 ## Lesson
 

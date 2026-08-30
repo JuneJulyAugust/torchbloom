@@ -5,8 +5,8 @@ Topic ID: 543
 
 ## Prerequisites
 
-- [Adding Fractions With Like Denominators Using Models](https://www.mathacademy.com/topics/adding-fractions-with-like-denominators-using-models-2370)
-- [Modeling Mixed Numbers Using Number Lines](https://www.mathacademy.com/topics/modeling-mixed-numbers-using-number-lines-7008)
+- [Adding Fractions With Like Denominators Using Models](../grade-4/2370-adding-fractions-with-like-denominators-using-models.md)
+- [Modeling Mixed Numbers Using Number Lines](../grade-4/7008-modeling-mixed-numbers-using-number-lines.md)
 
 ## Lesson
 

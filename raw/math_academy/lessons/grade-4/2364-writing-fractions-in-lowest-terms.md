@@ -5,8 +5,8 @@ Topic ID: 2364
 
 ## Prerequisites
 
-- [Equivalent Fractions](https://www.mathacademy.com/topics/equivalent-fractions-2363)
-- [Greatest Common Factors](https://www.mathacademy.com/topics/greatest-common-factors-2439)
+- [Equivalent Fractions](./2363-equivalent-fractions.md)
+- [Greatest Common Factors](./2439-greatest-common-factors.md)
 
 ## Lesson
 

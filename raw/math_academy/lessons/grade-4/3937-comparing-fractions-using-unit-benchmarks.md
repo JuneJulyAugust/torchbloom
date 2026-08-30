@@ -5,8 +5,8 @@ Topic ID: 3937
 
 ## Prerequisites
 
-- [Comparing Fractions](https://www.mathacademy.com/topics/comparing-fractions-538)
-- [Converting Improper Fractions to Mixed Numbers](https://www.mathacademy.com/topics/converting-improper-fractions-to-mixed-numbers-2359)
+- [Comparing Fractions](./538-comparing-fractions.md)
+- [Converting Improper Fractions to Mixed Numbers](./2359-converting-improper-fractions-to-mixed-numbers.md)
 
 ## Lesson
 

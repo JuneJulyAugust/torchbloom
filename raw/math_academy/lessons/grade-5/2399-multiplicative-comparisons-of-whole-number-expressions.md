@@ -5,7 +5,7 @@ Topic ID: 2399
 
 ## Prerequisites
 
-- [Creating Whole Number Expressions From Terminology](https://www.mathacademy.com/topics/creating-whole-number-expressions-from-terminology-2485)
+- [Creating Whole Number Expressions From Terminology](./2485-creating-whole-number-expressions-from-terminology.md)
 
 ## Lesson
 

@@ -5,8 +5,8 @@ Topic ID: 2404
 
 ## Prerequisites
 
-- [Units of Area and Volume](https://www.mathacademy.com/topics/units-of-area-and-volume-3872)
-- [Modeling With Rectangles](https://www.mathacademy.com/topics/modeling-with-rectangles-3960)
+- [Units of Area and Volume](./3872-units-of-area-and-volume.md)
+- [Modeling With Rectangles](../grade-4/3960-modeling-with-rectangles.md)
 
 ## Lesson
 

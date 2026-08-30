@@ -5,7 +5,7 @@ Topic ID: 568
 
 ## Prerequisites
 
-- [Finding Areas Using Fraction Multiplication](https://www.mathacademy.com/topics/finding-areas-using-fraction-multiplication-572)
+- [Finding Areas Using Fraction Multiplication](./572-finding-areas-using-fraction-multiplication.md)
 
 ## Lesson
 

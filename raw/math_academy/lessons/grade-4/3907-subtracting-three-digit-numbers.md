@@ -5,7 +5,7 @@ Topic ID: 3907
 
 ## Prerequisites
 
-- [Subtracting Two-Digit Numbers From Three-Digit Numbers](https://www.mathacademy.com/topics/subtracting-two-digit-numbers-from-three-digit-numbers-3906)
+- [Subtracting Two-Digit Numbers From Three-Digit Numbers](./3906-subtracting-two-digit-numbers-from-three-digit-numbers.md)
 
 ## Lesson
 

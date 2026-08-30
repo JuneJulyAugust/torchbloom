@@ -5,7 +5,7 @@ Topic ID: 2288
 
 ## Prerequisites
 
-- [Two-Digit by Two-Digit Multiplication](https://www.mathacademy.com/topics/two-digit-by-two-digit-multiplication-258)
+- [Two-Digit by Two-Digit Multiplication](./258-two-digit-by-two-digit-multiplication.md)
 
 ## Lesson
 

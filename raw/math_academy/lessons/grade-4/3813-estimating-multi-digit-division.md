@@ -5,13 +5,13 @@ Topic ID: 3813
 
 ## Prerequisites
 
-- [Units of Length](https://www.mathacademy.com/topics/units-of-length-236)
-- [Dividing by 10, 100, and 1,000 Using the Pattern of Zeros](https://www.mathacademy.com/topics/dividing-by-10-100-and-1-000-using-the-pattern-of-zeros-3882)
-- [Dividing Numbers Using Place-Value Strategies](https://www.mathacademy.com/topics/dividing-numbers-using-place-value-strategies-3886)
-- [Rounding Up the Digit 9](https://www.mathacademy.com/topics/rounding-up-the-digit-9-3900)
-- [Units of Mass](https://www.mathacademy.com/topics/units-of-mass-4196)
-- [Units of Time](https://www.mathacademy.com/topics/units-of-time-4197)
-- [Units of Volume](https://www.mathacademy.com/topics/units-of-volume-4198)
+- [Units of Length](./236-units-of-length.md)
+- [Dividing by 10, 100, and 1,000 Using the Pattern of Zeros](./3882-dividing-by-10-100-and-1-000-using-the-pattern-of-zeros.md)
+- [Dividing Numbers Using Place-Value Strategies](./3886-dividing-numbers-using-place-value-strategies.md)
+- [Rounding Up the Digit 9](./3900-rounding-up-the-digit-9.md)
+- [Units of Mass](./4196-units-of-mass.md)
+- [Units of Time](./4197-units-of-time.md)
+- [Units of Volume](./4198-units-of-volume.md)
 
 ## Lesson
 

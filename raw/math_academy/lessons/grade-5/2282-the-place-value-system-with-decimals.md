@@ -5,7 +5,7 @@ Topic ID: 2282
 
 ## Prerequisites
 
-- [Converting Decimals to Fractions](https://www.mathacademy.com/topics/converting-decimals-to-fractions-2342)
+- [Converting Decimals to Fractions](../grade-4/2342-converting-decimals-to-fractions.md)
 
 ## Lesson
 

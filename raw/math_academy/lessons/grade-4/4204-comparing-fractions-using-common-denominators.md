@@ -5,8 +5,8 @@ Topic ID: 4204
 
 ## Prerequisites
 
-- [Comparing Fraction Models Using Common Denominators](https://www.mathacademy.com/topics/comparing-fraction-models-using-common-denominators-2376)
-- [Greatest Common Factors](https://www.mathacademy.com/topics/greatest-common-factors-2439)
+- [Comparing Fraction Models Using Common Denominators](./2376-comparing-fraction-models-using-common-denominators.md)
+- [Greatest Common Factors](./2439-greatest-common-factors.md)
 
 ## Lesson
 

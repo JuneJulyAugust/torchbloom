@@ -5,8 +5,8 @@ Topic ID: 2433
 
 ## Prerequisites
 
-- [Describing the Coordinate Plane](https://www.mathacademy.com/topics/describing-the-coordinate-plane-2410)
-- [Comparing Patterns](https://www.mathacademy.com/topics/comparing-patterns-2432)
+- [Describing the Coordinate Plane](./2410-describing-the-coordinate-plane.md)
+- [Comparing Patterns](./2432-comparing-patterns.md)
 
 ## Lesson
 

@@ -5,7 +5,7 @@ Topic ID: 6368
 
 ## Prerequisites
 
-- [Acute, Obtuse, and Reflex Angles](https://www.mathacademy.com/topics/acute-obtuse-and-reflex-angles-1510)
+- [Acute, Obtuse, and Reflex Angles](./1510-acute-obtuse-and-reflex-angles.md)
 
 ## Lesson
 

@@ -5,11 +5,11 @@ Topic ID: 3965
 
 ## Prerequisites
 
-- [Sums of Angles](https://www.mathacademy.com/topics/sums-of-angles-1505)
-- [Acute, Obtuse, and Reflex Angles](https://www.mathacademy.com/topics/acute-obtuse-and-reflex-angles-1510)
-- [Two-Digit by One-Digit Multiplication Using Place Value](https://www.mathacademy.com/topics/two-digit-by-one-digit-multiplication-using-place-value-2416)
-- [Strategies to Simplify Whole Number and Fraction Multiplication](https://www.mathacademy.com/topics/strategies-to-simplify-whole-number-and-fraction-multiplication-2458)
-- [Connecting Angles and Circles](https://www.mathacademy.com/topics/connecting-angles-and-circles-3981)
+- [Sums of Angles](./1505-sums-of-angles.md)
+- [Acute, Obtuse, and Reflex Angles](./1510-acute-obtuse-and-reflex-angles.md)
+- [Two-Digit by One-Digit Multiplication Using Place Value](./2416-two-digit-by-one-digit-multiplication-using-place-value.md)
+- [Strategies to Simplify Whole Number and Fraction Multiplication](./2458-strategies-to-simplify-whole-number-and-fraction-multiplication.md)
+- [Connecting Angles and Circles](./3981-connecting-angles-and-circles.md)
 
 ## Lesson
 

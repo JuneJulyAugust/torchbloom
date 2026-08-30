@@ -5,8 +5,8 @@ Topic ID: 2397
 
 ## Prerequisites
 
-- [Evaluating Expressions Containing Multiplication and Division](https://www.mathacademy.com/topics/evaluating-expressions-containing-multiplication-and-division-3923)
-- [Evaluating Expressions Involving Addition and Multiplication](https://www.mathacademy.com/topics/evaluating-expressions-involving-addition-and-multiplication-3953)
+- [Evaluating Expressions Containing Multiplication and Division](../grade-4/3923-evaluating-expressions-containing-multiplication-and-division.md)
+- [Evaluating Expressions Involving Addition and Multiplication](../grade-4/3953-evaluating-expressions-involving-addition-and-multiplication.md)
 
 ## Lesson
 

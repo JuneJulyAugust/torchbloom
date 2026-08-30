@@ -5,7 +5,7 @@ Topic ID: 4033
 
 ## Prerequisites
 
-- [Rounding Up Whole Numbers](https://www.mathacademy.com/topics/rounding-up-whole-numbers-3884)
+- [Rounding Up Whole Numbers](../grade-4/3884-rounding-up-whole-numbers.md)
 
 ## Lesson
 

@@ -5,9 +5,9 @@ Topic ID: 3975
 
 ## Prerequisites
 
-- [Multi-Digit by Two-Digit Division Using Partial Quotients](https://www.mathacademy.com/topics/multi-digit-by-two-digit-division-using-partial-quotients-541)
-- [Dividing Decimals Using Place Value Strategies](https://www.mathacademy.com/topics/dividing-decimals-using-place-value-strategies-551)
-- [Converting Units of Mass to Smaller Units](https://www.mathacademy.com/topics/converting-units-of-mass-to-smaller-units-2428)
+- [Multi-Digit by Two-Digit Division Using Partial Quotients](./541-multi-digit-by-two-digit-division-using-partial-quotients.md)
+- [Dividing Decimals Using Place Value Strategies](./551-dividing-decimals-using-place-value-strategies.md)
+- [Converting Units of Mass to Smaller Units](../grade-4/2428-converting-units-of-mass-to-smaller-units.md)
 
 ## Lesson
 

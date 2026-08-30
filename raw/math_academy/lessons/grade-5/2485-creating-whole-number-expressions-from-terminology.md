@@ -5,9 +5,9 @@ Topic ID: 2485
 
 ## Prerequisites
 
-- [Dividends, Divisors, Quotients, and Remainders](https://www.mathacademy.com/topics/dividends-divisors-quotients-and-remainders-2390)
-- [Creating and Interpreting Whole Number Expressions](https://www.mathacademy.com/topics/creating-and-interpreting-whole-number-expressions-2396)
-- [Representing Comparison Statements as Equations](https://www.mathacademy.com/topics/representing-comparison-statements-as-equations-3902)
+- [Dividends, Divisors, Quotients, and Remainders](../grade-4/2390-dividends-divisors-quotients-and-remainders.md)
+- [Creating and Interpreting Whole Number Expressions](./2396-creating-and-interpreting-whole-number-expressions.md)
+- [Representing Comparison Statements as Equations](../grade-4/3902-representing-comparison-statements-as-equations.md)
 
 ## Lesson
 

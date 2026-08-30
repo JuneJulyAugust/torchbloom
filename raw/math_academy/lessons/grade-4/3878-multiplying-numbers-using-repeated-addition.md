@@ -5,8 +5,8 @@ Topic ID: 3878
 
 ## Prerequisites
 
-- [Multiplying Whole Numbers Ending in Zeros](https://www.mathacademy.com/topics/multiplying-whole-numbers-ending-in-zeros-488)
-- [The Multiples of a Number](https://www.mathacademy.com/topics/the-multiples-of-a-number-2206)
+- [Multiplying Whole Numbers Ending in Zeros](./488-multiplying-whole-numbers-ending-in-zeros.md)
+- [The Multiples of a Number](./2206-the-multiples-of-a-number.md)
 
 ## Lesson
 

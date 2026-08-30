@@ -5,7 +5,7 @@ Topic ID: 2281
 
 ## Prerequisites
 
-- [Negative Numbers](https://www.mathacademy.com/topics/negative-numbers-2442)
+- [Negative Numbers](./2442-negative-numbers.md)
 
 ## Lesson
 

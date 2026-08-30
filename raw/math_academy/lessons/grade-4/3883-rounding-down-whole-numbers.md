@@ -5,9 +5,9 @@ Topic ID: 3883
 
 ## Prerequisites
 
-- [The Multiples of a Number](https://www.mathacademy.com/topics/the-multiples-of-a-number-2206)
-- [Multiplying by 10, 100, and 1,000 Using the Pattern of Zeros](https://www.mathacademy.com/topics/multiplying-by-10-100-and-1-000-using-the-pattern-of-zeros-2338)
-- [Comparing Whole Numbers Using Place Value](https://www.mathacademy.com/topics/comparing-whole-numbers-using-place-value-3919)
+- [The Multiples of a Number](./2206-the-multiples-of-a-number.md)
+- [Multiplying by 10, 100, and 1,000 Using the Pattern of Zeros](./2338-multiplying-by-10-100-and-1-000-using-the-pattern-of-zeros.md)
+- [Comparing Whole Numbers Using Place Value](./3919-comparing-whole-numbers-using-place-value.md)
 
 ## Lesson
 

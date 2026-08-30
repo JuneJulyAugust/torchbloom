@@ -5,9 +5,9 @@ Topic ID: 548
 
 ## Prerequisites
 
-- [Three-Digit by One-Digit Division](https://www.mathacademy.com/topics/three-digit-by-one-digit-division-536)
-- [Dividing Decimals by Powers of Ten Using Decimal Point Placement](https://www.mathacademy.com/topics/dividing-decimals-by-powers-of-ten-using-decimal-point-placement-2289)
-- [Rounding Up Decimals](https://www.mathacademy.com/topics/rounding-up-decimals-3585)
+- [Three-Digit by One-Digit Division](./536-three-digit-by-one-digit-division.md)
+- [Dividing Decimals by Powers of Ten Using Decimal Point Placement](./2289-dividing-decimals-by-powers-of-ten-using-decimal-point-placement.md)
+- [Rounding Up Decimals](./3585-rounding-up-decimals.md)
 
 ## Lesson
 

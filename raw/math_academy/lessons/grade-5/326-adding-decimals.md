@@ -5,8 +5,8 @@ Topic ID: 326
 
 ## Prerequisites
 
-- [Estimating Decimal Addition and Subtraction](https://www.mathacademy.com/topics/estimating-decimal-addition-and-subtraction-2326)
-- [Adding Decimal Fractions](https://www.mathacademy.com/topics/adding-decimal-fractions-3916)
+- [Estimating Decimal Addition and Subtraction](./2326-estimating-decimal-addition-and-subtraction.md)
+- [Adding Decimal Fractions](../grade-4/3916-adding-decimal-fractions.md)
 
 ## Lesson
 

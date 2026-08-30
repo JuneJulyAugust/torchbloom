@@ -5,8 +5,8 @@ Topic ID: 571
 
 ## Prerequisites
 
-- [Multiplying Mixed Numbers by Fractions](https://www.mathacademy.com/topics/multiplying-mixed-numbers-by-fractions-2380)
-- [Comparing Fractions Using Unit Benchmarks](https://www.mathacademy.com/topics/comparing-fractions-using-unit-benchmarks-3937)
+- [Multiplying Mixed Numbers by Fractions](./2380-multiplying-mixed-numbers-by-fractions.md)
+- [Comparing Fractions Using Unit Benchmarks](../grade-4/3937-comparing-fractions-using-unit-benchmarks.md)
 
 ## Lesson
 

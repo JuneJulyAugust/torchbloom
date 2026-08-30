@@ -5,9 +5,9 @@ Topic ID: 3949
 
 ## Prerequisites
 
-- [The Relationship Between Multiplication and Division](https://www.mathacademy.com/topics/the-relationship-between-multiplication-and-division-3877)
-- [Understanding Remainders Using Models](https://www.mathacademy.com/topics/understanding-remainders-using-models-3888)
-- [Evaluating Expressions Involving Addition and Multiplication](https://www.mathacademy.com/topics/evaluating-expressions-involving-addition-and-multiplication-3953)
+- [The Relationship Between Multiplication and Division](./3877-the-relationship-between-multiplication-and-division.md)
+- [Understanding Remainders Using Models](./3888-understanding-remainders-using-models.md)
+- [Evaluating Expressions Involving Addition and Multiplication](./3953-evaluating-expressions-involving-addition-and-multiplication.md)
 
 ## Lesson
 

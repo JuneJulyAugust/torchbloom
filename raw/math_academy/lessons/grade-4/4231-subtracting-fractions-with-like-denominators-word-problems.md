@@ -5,8 +5,8 @@ Topic ID: 4231
 
 ## Prerequisites
 
-- [Subtracting Fractions With Like Denominators](https://www.mathacademy.com/topics/subtracting-fractions-with-like-denominators-3934)
-- [Adding Fractions With Like Denominators: Word Problems](https://www.mathacademy.com/topics/adding-fractions-with-like-denominators-word-problems-3947)
+- [Subtracting Fractions With Like Denominators](./3934-subtracting-fractions-with-like-denominators.md)
+- [Adding Fractions With Like Denominators: Word Problems](./3947-adding-fractions-with-like-denominators-word-problems.md)
 
 ## Lesson
 

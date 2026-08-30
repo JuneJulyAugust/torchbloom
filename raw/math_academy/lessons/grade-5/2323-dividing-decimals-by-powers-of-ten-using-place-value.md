@@ -5,8 +5,8 @@ Topic ID: 2323
 
 ## Prerequisites
 
-- [Multiplying Decimals by Powers of Ten Using Place Value](https://www.mathacademy.com/topics/multiplying-decimals-by-powers-of-ten-using-place-value-110)
-- [Dividing by 10, 100, and 1,000 Using the Pattern of Zeros](https://www.mathacademy.com/topics/dividing-by-10-100-and-1-000-using-the-pattern-of-zeros-3882)
+- [Multiplying Decimals by Powers of Ten Using Place Value](./110-multiplying-decimals-by-powers-of-ten-using-place-value.md)
+- [Dividing by 10, 100, and 1,000 Using the Pattern of Zeros](../grade-4/3882-dividing-by-10-100-and-1-000-using-the-pattern-of-zeros.md)
 
 ## Lesson
 

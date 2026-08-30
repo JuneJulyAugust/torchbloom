@@ -5,7 +5,7 @@ Topic ID: 3912
 
 ## Prerequisites
 
-- [Adding Three-Digit Numbers](https://www.mathacademy.com/topics/adding-three-digit-numbers-3911)
+- [Adding Three-Digit Numbers](./3911-adding-three-digit-numbers.md)
 
 ## Lesson
 

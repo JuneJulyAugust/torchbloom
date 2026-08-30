@@ -5,7 +5,7 @@ Topic ID: 3893
 
 ## Prerequisites
 
-- [Improper Fractions](https://www.mathacademy.com/topics/improper-fractions-2367)
+- [Improper Fractions](./2367-improper-fractions.md)
 
 ## Lesson
 

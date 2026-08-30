@@ -5,8 +5,8 @@ Topic ID: 2351
 
 ## Prerequisites
 
-- [Converting Improper Fractions to Mixed Numbers](https://www.mathacademy.com/topics/converting-improper-fractions-to-mixed-numbers-2359)
-- [Adding Fractions With Like Denominators Using Models](https://www.mathacademy.com/topics/adding-fractions-with-like-denominators-using-models-2370)
+- [Converting Improper Fractions to Mixed Numbers](./2359-converting-improper-fractions-to-mixed-numbers.md)
+- [Adding Fractions With Like Denominators Using Models](./2370-adding-fractions-with-like-denominators-using-models.md)
 
 ## Lesson
 

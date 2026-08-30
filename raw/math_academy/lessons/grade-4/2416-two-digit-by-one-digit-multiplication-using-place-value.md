@@ -5,7 +5,7 @@ Topic ID: 2416
 
 ## Prerequisites
 
-- [Two-Digit by One-Digit Multiplication Using Area Models](https://www.mathacademy.com/topics/two-digit-by-one-digit-multiplication-using-area-models-2415)
+- [Two-Digit by One-Digit Multiplication Using Area Models](./2415-two-digit-by-one-digit-multiplication-using-area-models.md)
 
 ## Lesson
 

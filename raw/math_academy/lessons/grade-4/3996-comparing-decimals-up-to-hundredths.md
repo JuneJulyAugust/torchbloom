@@ -5,8 +5,8 @@ Topic ID: 3996
 
 ## Prerequisites
 
-- [Plotting Decimals on Number Lines](https://www.mathacademy.com/topics/plotting-decimals-on-number-lines-3915)
-- [Comparing Whole Numbers Using Place Value](https://www.mathacademy.com/topics/comparing-whole-numbers-using-place-value-3919)
+- [Plotting Decimals on Number Lines](./3915-plotting-decimals-on-number-lines.md)
+- [Comparing Whole Numbers Using Place Value](./3919-comparing-whole-numbers-using-place-value.md)
 
 ## Lesson
 

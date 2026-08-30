@@ -5,7 +5,7 @@ Topic ID: 2338
 
 ## Prerequisites
 
-- [Multiplying by 10, 100, and 1,000 Using Place Value](https://www.mathacademy.com/topics/multiplying-by-10-100-and-1-000-using-place-value-3587)
+- [Multiplying by 10, 100, and 1,000 Using Place Value](./3587-multiplying-by-10-100-and-1-000-using-place-value.md)
 
 ## Lesson
 

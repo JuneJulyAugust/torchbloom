@@ -5,7 +5,7 @@ Topic ID: 3919
 
 ## Prerequisites
 
-- [Comparing Whole Numbers](https://www.mathacademy.com/topics/comparing-whole-numbers-2324)
+- [Comparing Whole Numbers](./2324-comparing-whole-numbers.md)
 
 ## Lesson
 

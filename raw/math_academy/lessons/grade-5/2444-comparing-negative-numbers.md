@@ -5,8 +5,8 @@ Topic ID: 2444
 
 ## Prerequisites
 
-- [Negative Numbers](https://www.mathacademy.com/topics/negative-numbers-2442)
-- [Comparing Whole Numbers Using Place Value](https://www.mathacademy.com/topics/comparing-whole-numbers-using-place-value-3919)
+- [Negative Numbers](./2442-negative-numbers.md)
+- [Comparing Whole Numbers Using Place Value](../grade-4/3919-comparing-whole-numbers-using-place-value.md)
 
 ## Lesson
 

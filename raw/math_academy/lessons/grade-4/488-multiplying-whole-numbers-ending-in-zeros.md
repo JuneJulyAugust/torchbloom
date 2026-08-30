@@ -5,7 +5,7 @@ Topic ID: 488
 
 ## Prerequisites
 
-- [Multiplying by 10, 100, and 1,000 Using the Pattern of Zeros](https://www.mathacademy.com/topics/multiplying-by-10-100-and-1-000-using-the-pattern-of-zeros-2338)
+- [Multiplying by 10, 100, and 1,000 Using the Pattern of Zeros](./2338-multiplying-by-10-100-and-1-000-using-the-pattern-of-zeros.md)
 
 ## Lesson
 

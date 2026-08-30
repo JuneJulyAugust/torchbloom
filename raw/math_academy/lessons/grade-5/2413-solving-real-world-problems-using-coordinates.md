@@ -5,7 +5,7 @@ Topic ID: 2413
 
 ## Prerequisites
 
-- [Describing the Coordinate Plane](https://www.mathacademy.com/topics/describing-the-coordinate-plane-2410)
+- [Describing the Coordinate Plane](./2410-describing-the-coordinate-plane.md)
 
 ## Lesson
 

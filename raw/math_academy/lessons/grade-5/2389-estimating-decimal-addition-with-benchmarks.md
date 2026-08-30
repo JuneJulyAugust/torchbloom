@@ -5,7 +5,7 @@ Topic ID: 2389
 
 ## Prerequisites
 
-- [Addition With Unequal Numbers of Decimals](https://www.mathacademy.com/topics/addition-with-unequal-numbers-of-decimals-2339)
+- [Addition With Unequal Numbers of Decimals](./2339-addition-with-unequal-numbers-of-decimals.md)
 
 ## Lesson
 

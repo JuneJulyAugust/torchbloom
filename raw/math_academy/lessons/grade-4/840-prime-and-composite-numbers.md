@@ -5,7 +5,7 @@ Topic ID: 840
 
 ## Prerequisites
 
-- [The Factors of a Number](https://www.mathacademy.com/topics/the-factors-of-a-number-3942)
+- [The Factors of a Number](./3942-the-factors-of-a-number.md)
 
 ## Lesson
 

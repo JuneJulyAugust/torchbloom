@@ -5,7 +5,7 @@ Topic ID: 2320
 
 ## Prerequisites
 
-- [Place Value With Numbers Up to Seven Digits](https://www.mathacademy.com/topics/place-value-with-numbers-up-to-seven-digits-3890)
+- [Place Value With Numbers Up to Seven Digits](./3890-place-value-with-numbers-up-to-seven-digits.md)
 
 ## Lesson
 

@@ -5,8 +5,8 @@ Topic ID: 2321
 
 ## Prerequisites
 
-- [Introduction to Exponents](https://www.mathacademy.com/topics/introduction-to-exponents-2314)
-- [Two-Digit by One-Digit Multiplication](https://www.mathacademy.com/topics/two-digit-by-one-digit-multiplication-2392)
+- [Introduction to Exponents](./2314-introduction-to-exponents.md)
+- [Two-Digit by One-Digit Multiplication](./2392-two-digit-by-one-digit-multiplication.md)
 
 ## Lesson
 

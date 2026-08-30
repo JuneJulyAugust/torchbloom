@@ -5,9 +5,9 @@ Topic ID: 2376
 
 ## Prerequisites
 
-- [Comparing Fractions](https://www.mathacademy.com/topics/comparing-fractions-538)
-- [Least Common Denominators](https://www.mathacademy.com/topics/least-common-denominators-2365)
-- [Connecting Factors and Multiples](https://www.mathacademy.com/topics/connecting-factors-and-multiples-3935)
+- [Comparing Fractions](./538-comparing-fractions.md)
+- [Least Common Denominators](./2365-least-common-denominators.md)
+- [Connecting Factors and Multiples](./3935-connecting-factors-and-multiples.md)
 
 ## Lesson
 

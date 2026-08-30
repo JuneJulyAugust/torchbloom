@@ -5,7 +5,7 @@ Topic ID: 2436
 
 ## Prerequisites
 
-- [Dividing Unit Fractions by Whole Numbers Using Models](https://www.mathacademy.com/topics/dividing-unit-fractions-by-whole-numbers-using-models-528)
+- [Dividing Unit Fractions by Whole Numbers Using Models](./528-dividing-unit-fractions-by-whole-numbers-using-models.md)
 
 ## Lesson
 

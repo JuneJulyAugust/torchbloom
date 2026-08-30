@@ -5,8 +5,8 @@ Topic ID: 549
 
 ## Prerequisites
 
-- [Dividing Decimals Using Place Value Strategies](https://www.mathacademy.com/topics/dividing-decimals-using-place-value-strategies-551)
-- [Division of Whole Numbers With Decimal Quotients](https://www.mathacademy.com/topics/division-of-whole-numbers-with-decimal-quotients-2335)
+- [Dividing Decimals Using Place Value Strategies](./551-dividing-decimals-using-place-value-strategies.md)
+- [Division of Whole Numbers With Decimal Quotients](./2335-division-of-whole-numbers-with-decimal-quotients.md)
 
 ## Lesson
 

@@ -5,7 +5,7 @@ Topic ID: 3899
 
 ## Prerequisites
 
-- [Writing Whole Numbers in Words](https://www.mathacademy.com/topics/writing-whole-numbers-in-words-3885)
+- [Writing Whole Numbers in Words](./3885-writing-whole-numbers-in-words.md)
 
 ## Lesson
 

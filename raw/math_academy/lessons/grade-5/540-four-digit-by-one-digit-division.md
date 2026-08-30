@@ -5,7 +5,7 @@ Topic ID: 540
 
 ## Prerequisites
 
-- [Three-Digit by One-Digit Division](https://www.mathacademy.com/topics/three-digit-by-one-digit-division-536)
+- [Three-Digit by One-Digit Division](./536-three-digit-by-one-digit-division.md)
 
 ## Lesson
 

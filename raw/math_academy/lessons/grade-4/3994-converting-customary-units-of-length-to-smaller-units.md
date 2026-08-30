@@ -5,8 +5,8 @@ Topic ID: 3994
 
 ## Prerequisites
 
-- [Units of Length](https://www.mathacademy.com/topics/units-of-length-236)
-- [Two-Digit by Two-Digit Multiplication Using Area Models](https://www.mathacademy.com/topics/two-digit-by-two-digit-multiplication-using-area-models-2418)
+- [Units of Length](./236-units-of-length.md)
+- [Two-Digit by Two-Digit Multiplication Using Area Models](./2418-two-digit-by-two-digit-multiplication-using-area-models.md)
 
 ## Lesson
 

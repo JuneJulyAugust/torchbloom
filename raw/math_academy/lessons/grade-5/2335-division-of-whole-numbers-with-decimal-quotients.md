@@ -5,8 +5,8 @@ Topic ID: 2335
 
 ## Prerequisites
 
-- [Four-Digit by One-Digit Division](https://www.mathacademy.com/topics/four-digit-by-one-digit-division-540)
-- [Equivalent Decimals](https://www.mathacademy.com/topics/equivalent-decimals-2344)
+- [Four-Digit by One-Digit Division](./540-four-digit-by-one-digit-division.md)
+- [Equivalent Decimals](./2344-equivalent-decimals.md)
 
 ## Lesson
 

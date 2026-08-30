@@ -5,8 +5,8 @@ Topic ID: 3537
 
 ## Prerequisites
 
-- [Three-Digit by Three-Digit Multiplication](https://www.mathacademy.com/topics/three-digit-by-three-digit-multiplication-383)
-- [Evaluating Exponents](https://www.mathacademy.com/topics/evaluating-exponents-2321)
+- [Three-Digit by Three-Digit Multiplication](./383-three-digit-by-three-digit-multiplication.md)
+- [Evaluating Exponents](./2321-evaluating-exponents.md)
 
 ## Lesson
 

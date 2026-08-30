@@ -5,7 +5,7 @@ Topic ID: 3947
 
 ## Prerequisites
 
-- [Word Problems Involving Additive and Multiplicative Comparison](https://www.mathacademy.com/topics/word-problems-involving-additive-and-multiplicative-comparison-3903)
+- [Word Problems Involving Additive and Multiplicative Comparison](./3903-word-problems-involving-additive-and-multiplicative-comparison.md)
 
 ## Lesson
 

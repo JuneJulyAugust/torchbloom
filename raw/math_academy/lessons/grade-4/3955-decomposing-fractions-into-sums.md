@@ -5,8 +5,8 @@ Topic ID: 3955
 
 ## Prerequisites
 
-- [Decomposing Fractions Into Sums Using Models](https://www.mathacademy.com/topics/decomposing-fractions-into-sums-using-models-3889)
-- [Converting Mixed Numbers to Improper Fractions](https://www.mathacademy.com/topics/converting-mixed-numbers-to-improper-fractions-3901)
+- [Decomposing Fractions Into Sums Using Models](./3889-decomposing-fractions-into-sums-using-models.md)
+- [Converting Mixed Numbers to Improper Fractions](./3901-converting-mixed-numbers-to-improper-fractions.md)
 
 ## Lesson
 

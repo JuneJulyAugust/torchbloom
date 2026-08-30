@@ -5,8 +5,8 @@ Topic ID: 2402
 
 ## Prerequisites
 
-- [Two-Digit by One-Digit Multiplication Using Area Models](https://www.mathacademy.com/topics/two-digit-by-one-digit-multiplication-using-area-models-2415)
-- [Units of Volume](https://www.mathacademy.com/topics/units-of-volume-4198)
+- [Two-Digit by One-Digit Multiplication Using Area Models](./2415-two-digit-by-one-digit-multiplication-using-area-models.md)
+- [Units of Volume](./4198-units-of-volume.md)
 
 ## Lesson
 

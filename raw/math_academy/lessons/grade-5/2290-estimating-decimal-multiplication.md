@@ -5,7 +5,7 @@ Topic ID: 2290
 
 ## Prerequisites
 
-- [Rounding Up Decimals](https://www.mathacademy.com/topics/rounding-up-decimals-3585)
+- [Rounding Up Decimals](./3585-rounding-up-decimals.md)
 
 ## Lesson
 

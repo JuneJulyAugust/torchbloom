@@ -5,8 +5,8 @@ Topic ID: 2328
 
 ## Prerequisites
 
-- [Dividing Decimals Using the Standard Algorithm](https://www.mathacademy.com/topics/dividing-decimals-using-the-standard-algorithm-549)
-- [Three-Digit by Two-Digit Division](https://www.mathacademy.com/topics/three-digit-by-two-digit-division-2329)
+- [Dividing Decimals Using the Standard Algorithm](./549-dividing-decimals-using-the-standard-algorithm.md)
+- [Three-Digit by Two-Digit Division](./2329-three-digit-by-two-digit-division.md)
 
 ## Lesson
 

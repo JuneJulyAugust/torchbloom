@@ -5,7 +5,7 @@ Topic ID: 3910
 
 ## Prerequisites
 
-- [Adding Two-Digit Whole Numbers](https://www.mathacademy.com/topics/adding-two-digit-whole-numbers-3875)
+- [Adding Two-Digit Whole Numbers](./3875-adding-two-digit-whole-numbers.md)
 
 ## Lesson
 

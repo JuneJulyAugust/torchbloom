@@ -5,9 +5,9 @@ Topic ID: 2342
 
 ## Prerequisites
 
-- [Writing Fractions in Lowest Terms](https://www.mathacademy.com/topics/writing-fractions-in-lowest-terms-2364)
-- [Dividing Numbers Using Place-Value Strategies](https://www.mathacademy.com/topics/dividing-numbers-using-place-value-strategies-3886)
-- [Converting Fractions to Decimals](https://www.mathacademy.com/topics/converting-fractions-to-decimals-3914)
+- [Writing Fractions in Lowest Terms](./2364-writing-fractions-in-lowest-terms.md)
+- [Dividing Numbers Using Place-Value Strategies](./3886-dividing-numbers-using-place-value-strategies.md)
+- [Converting Fractions to Decimals](./3914-converting-fractions-to-decimals.md)
 
 ## Lesson
 

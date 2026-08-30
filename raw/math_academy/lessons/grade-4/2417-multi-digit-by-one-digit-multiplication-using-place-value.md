@@ -5,8 +5,8 @@ Topic ID: 2417
 
 ## Prerequisites
 
-- [Multi-Digit by One-Digit Multiplication Using Area Models](https://www.mathacademy.com/topics/multi-digit-by-one-digit-multiplication-using-area-models-2393)
-- [Two-Digit by One-Digit Multiplication Using Place Value](https://www.mathacademy.com/topics/two-digit-by-one-digit-multiplication-using-place-value-2416)
+- [Multi-Digit by One-Digit Multiplication Using Area Models](./2393-multi-digit-by-one-digit-multiplication-using-area-models.md)
+- [Two-Digit by One-Digit Multiplication Using Place Value](./2416-two-digit-by-one-digit-multiplication-using-place-value.md)
 
 ## Lesson
 
