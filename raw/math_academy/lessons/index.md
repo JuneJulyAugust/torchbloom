@@ -23,6 +23,7 @@ This is a raw source archive of lesson pages reached through the student's visib
 - [Mathematical Foundations I lessons](./mathematical-foundations-i/index.md) — 357 lesson pages from the active Mathematical Foundations I course, with prerequisites, text, mathematical expressions, and instructional graphics.
 - [Mathematical Foundations II lessons](./mathematical-foundations-ii/index.md) — 360 lesson pages from the active Mathematical Foundations II course, with prerequisites, text, mathematical expressions, and instructional graphics.
 - [Mathematical Foundations III lessons](./mathematical-foundations-iii/index.md) — 323 lesson pages from the active Mathematical Foundations III course, with prerequisites, text, mathematical expressions, and instructional graphics.
+- [Integrated Math III (Honors) lessons](./integrated-math-iii-honors/index.md) — 278 lesson pages from the active Integrated Math III (Honors) course, with prerequisites, text, mathematical expressions, and instructional graphics.
 - [Completed Grade 4 task samples](../lesson-samples/grade-4/index.md) — 34 completed activity task pages and their visible question data.
 
 Local images are kept separately in `raw/math_academy/lesson-assets/`, while each Markdown page references the correct asset paths.
