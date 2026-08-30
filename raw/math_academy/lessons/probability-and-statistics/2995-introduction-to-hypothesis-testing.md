@@ -165,7 +165,7 @@ P\big(\boxed{\phantom{\textrm{X \leq 4}}} \big)= \boxed{\phantom{\textrm{0.0000}
 
 $$
 
-Since $P\big(\boxed{\phantom{\textrm{X \leq 4}}}\big)$$\boxed{\phantom{\textrm{<}}}$ $5\%,$ there is $\boxed{\phantom{\textrm{sufficient}}}$ evidence to reject $H_0.$
+Since $P\big(\boxed{\phantom{\textrm{X \leq 4}}}\big)$ $\boxed{\phantom{\textrm{<}}}$ $5\%,$ there is $\boxed{\phantom{\textrm{sufficient}}}$ evidence to reject $H_0.$
 
 Therefore, we $\boxed{\phantom{\textrm{can conclude}}}$ that the proportion of defective T-shirts has decreased since the machine was replaced.
 

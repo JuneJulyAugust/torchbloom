@@ -134,7 +134,7 @@ If $R$ is reflexive, symmetric, and transitive, then $R$ is an equivalence relat
 
 Let's consider each of the properties in turn.
 
-- The relation $R$ is reflexive because $(\alpha, \alpha), (\beta,\beta), (\gamma,\gamma) \in R.$$\:\:{\color{green}\checkmark}$
+- The relation $R$ is reflexive because $(\alpha, \alpha), (\beta,\beta), (\gamma,\gamma) \in R.$\:\:{\color{green}\checkmark}$
 
 - The relation $R$ is symmetric because $(y,x) \in R$ whenever $(x,y) \in R.$ $\:\:{\color{green}\checkmark}$
 

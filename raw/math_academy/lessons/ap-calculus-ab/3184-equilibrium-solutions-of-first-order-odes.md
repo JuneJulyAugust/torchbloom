@@ -103,7 +103,7 @@ Now, let's check each proposed solution by substituting them into $f(y).$
 
 - $y=-3$ is ** an equilibrium point. We have $f(-3) = (-3)^2 - (-3) - 6 = 6 \neq 0.$ $\quad \color{red}{\times}$
 
-- $y = -2$ is an equilibrium point. We have $f(-2) = (-2)^2 - (-2) - 6 = 0.$$\quad \color{green}{\checkmark}$
+- $y = -2$ is an equilibrium point. We have $f(-2) = (-2)^2 - (-2) - 6 = 0.$\quad \color{green}{\checkmark}$
 
 - $y= -1$ is ** an equilibrium point. We have $f(-1) = (-1)^2 - (-1) - 6 = -4 \neq 0.$ $\quad \color{red}{\times}$
 

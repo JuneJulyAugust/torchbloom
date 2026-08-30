@@ -33,7 +33,7 @@ In general, a function $f(x)$ has a removable discontinuity at $x=c$ if
 
 - $\displaystyle\lim_{x\to c} f(x)$ exists $\,{\color{green}{\checkmark}}$
 
-- $\displaystyle\lim_{x\to c} f(x) \neq f(c)$$\,{\color{red}{\times}}$
+- $\displaystyle\lim_{x\to c} f(x) \neq f(c)$\,{\color{red}{\times}}$
 
 In addition, both $f(c)$ and $\displaystyle \lim_{x\to c}f(x)$ should be finite.
 
