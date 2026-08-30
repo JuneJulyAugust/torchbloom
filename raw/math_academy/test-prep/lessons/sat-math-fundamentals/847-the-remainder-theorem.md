@@ -63,7 +63,7 @@ Evaluating $p\left(\dfrac23\right)$ directly gives
 $$
 
 
-\begin{aligned} p\left(\dfrac23\right) & =3\cdot \left(\dfrac23\right)^2 +7\cdot \left(\dfrac23\right) - 4 \\\[5pt] & =3\cdot \left(\dfrac49\right) +\dfrac{14}{3} - 4 \\\[5pt] & =\dfrac{12}{9}+\dfrac{2}{3} \\\[5pt] & = \dfrac{12+ 3\cdot 2}{9} \\\[5pt] & = \dfrac{18}{9}\\\[5pt] & = 2. \end{aligned}
+\begin{aligned} p\left(\dfrac23\right) & =3\cdot \left(\dfrac23\right)^2 +7\cdot \left(\dfrac23\right) - 4 \\[5pt] & =3\cdot \left(\dfrac49\right) +\dfrac{14}{3} - 4 \\[5pt] & =\dfrac{12}{9}+\dfrac{2}{3} \\[5pt] & = \dfrac{12+ 3\cdot 2}{9} \\[5pt] & = \dfrac{18}{9}\\[5pt] & = 2. \end{aligned}
 
 
 $$

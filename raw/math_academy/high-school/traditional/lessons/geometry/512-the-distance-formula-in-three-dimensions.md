@@ -38,7 +38,7 @@ respectively. Therefore, we have
 $$
 
 
-\begin{aligned}𝑑 & =\sqrt{√(5\,−\,2)^{2}+(0\,−\,1)^{2}+(−7−3)^{2}} \\ & =\sqrt{√3^{2}+(−1)^{2}+(−10)^{2}} \\ & =\sqrt{√9+1+100} \\ & =\sqrt{√110}.\end{aligned}
+\begin{aligned}𝑑 & =\sqrt{(5\,−\,2)^{2}+(0\,−\,1)^{2}+(−7−3)^{2}} \\ & =\sqrt{3^{2}+(−1)^{2}+(−10)^{2}} \\ & =\sqrt{9+1+100} \\ & =\sqrt{110}.\end{aligned}
 
 
 $$
@@ -70,7 +70,7 @@ Since $A$ and $B$ have coordinates $𝑥_{1}$ and $𝑥_{2}$ respectively, we ha
 $$
 
 
-\begin{aligned}𝐴𝐵 & =\sqrt{√(2−3)^{2}+(4−2)^{2}+(4−6)^{2}} \\ & =\sqrt{√(−1)^{2}+2^{2}+(−2)^{2}} \\ & =\sqrt{√9} \\ & =3.\end{aligned}
+\begin{aligned}𝐴𝐵 & =\sqrt{(2−3)^{2}+(4−2)^{2}+(4−6)^{2}} \\ & =\sqrt{(−1)^{2}+2^{2}+(−2)^{2}} \\ & =\sqrt{9} \\ & =3.\end{aligned}
 
 
 $$
@@ -98,7 +98,7 @@ In this case, we have $A\underbrace{(2,5,3)}_{(x_1,y_1,z_1)}$ and $B\underbrace{
 $$
 
 
-\begin{aligned}𝑑 & =\sqrt{√(−2−2)^{2}+(1−5)^{2}+(7−3)^{2}} \\ & =\sqrt{√(−4)^{2}+(−4)^{2}+4^{2}} \\ & =\sqrt{√16+16+16} \\ & =\sqrt{√48} \\ & =4\sqrt{√3}.\end{aligned}
+\begin{aligned}𝑑 & =\sqrt{(−2−2)^{2}+(1−5)^{2}+(7−3)^{2}} \\ & =\sqrt{(−4)^{2}+(−4)^{2}+4^{2}} \\ & =\sqrt{16+16+16} \\ & =\sqrt{48} \\ & =4\sqrt{3}.\end{aligned}
 
 
 $$
@@ -126,7 +126,7 @@ Using the distance formula for $A\underbrace{(p, 3p, p)}_{(x_1,y_1,z_1)}$ and $B
 $$
 
 
-\begin{aligned}𝑑 & =\sqrt{√(3𝑝−𝑝)^{2}+(𝑝−3𝑝)^{2}+(0−𝑝)^{2}} \\ & =\sqrt{√(2𝑝)^{2}+(−2𝑝)^{2}+(−𝑝)^{2}} \\ & =\sqrt{√4𝑝^{2}+4𝑝^{2}+𝑝^{2}} \\ & =\sqrt{√9𝑝^{2}} \\ & =3|𝑝|\end{aligned}
+\begin{aligned}𝑑 & =\sqrt{(3𝑝−𝑝)^{2}+(𝑝−3𝑝)^{2}+(0−𝑝)^{2}} \\ & =\sqrt{(2𝑝)^{2}+(−2𝑝)^{2}+(−𝑝)^{2}} \\ & =\sqrt{4𝑝^{2}+4𝑝^{2}+𝑝^{2}} \\ & =\sqrt{9𝑝^{2}} \\ & =3|𝑝|\end{aligned}
 
 
 $$

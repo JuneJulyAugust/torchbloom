@@ -46,7 +46,7 @@ has the following singular value decomposition:
 $$
 
 
-\begin{aligned}\frac{1}{\sqrt{√2}} & \frac{1}{\sqrt{√2}} \\ −\frac{1}{\sqrt{√2}} & \frac{1}{\sqrt{√2}}\end{aligned}
+\begin{aligned}\frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}} \\ −\frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}}\end{aligned}
 
 
 $$
@@ -60,7 +60,7 @@ The singular value decomposition of a matrix $A$ can be thought of as a type of 
 $$
 
 
-\begin{aligned}−\frac{1}{\sqrt{√10}} & \,∗\, \\ \frac{3}{\sqrt{√10}} & \,∗\,\end{aligned}
+\begin{aligned}−\frac{1}{\sqrt{10}} & \,∗\, \\ \frac{3}{\sqrt{10}} & \,∗\,\end{aligned}
 
 
 $$
@@ -70,7 +70,7 @@ Consider the matrix $U$ shown above. Given that $A=U \Sigma V^T$ is a singular v
 $$
 
 
-\begin{aligned}\frac{1}{\sqrt{√5}} \\ \frac{2}{\sqrt{√5}}\end{aligned}
+\begin{aligned}\frac{1}{\sqrt{5}} \\ \frac{2}{\sqrt{5}}\end{aligned}
 
 
 $$
@@ -83,7 +83,7 @@ Recall that since $A=U \Sigma V^T$ is a singular value decomposition of a $2\tim
 
 - the norm of the second column must be equal to $1.$
 
-Among the given options, only the vector $\begin{aligned}\frac{3}{\sqrt{√10}} \\ \frac{1}{\sqrt{√10}}\end{aligned}$ has both properties.
+Among the given options, only the vector $\begin{aligned}\frac{3}{\sqrt{10}} \\ \frac{1}{\sqrt{10}}\end{aligned}$ has both properties.
 
 ### Finding the Second and Third Matrices of a Singular Value Decomposition
 
@@ -256,7 +256,7 @@ As a result, the matrix $U$ in our singular value decomposition of $A$ is given 
 $$
 
 
-\begin{aligned}\frac{3}{\sqrt{√10}} & −\frac{1}{\sqrt{√10}} \\ \frac{1}{\sqrt{√10}} & \frac{3}{\sqrt{√10}}\end{aligned}
+\begin{aligned}\frac{3}{\sqrt{10}} & −\frac{1}{\sqrt{10}} \\ \frac{1}{\sqrt{10}} & \frac{3}{\sqrt{10}}\end{aligned}
 
 
 $$
@@ -294,7 +294,7 @@ From the matrix $\Sigma,$ we deduce that the singular values are $\sigma_1=9$ an
 $$
 
 
-\begin{aligned}𝐮_{2} & =\frac{1}{𝜎_{2}}𝐴𝐯_{2} \\ & =\frac{1}{4}[\begin{aligned}6 & −5 \\ 0 & 6\end{aligned}]\begin{aligned}\frac{3}{\sqrt{√13}} \\ \frac{2}{\sqrt{√13}}\end{aligned} \\ & =\frac{1}{4}\begin{aligned}\frac{8}{\sqrt{√13}} \\ \frac{12}{\sqrt{√13}}\end{aligned} \\ & =\begin{aligned}\frac{2}{\sqrt{√13}} \\ \frac{3}{\sqrt{√13}}\end{aligned}.\end{aligned}
+\begin{aligned}𝐮_{2} & =\frac{1}{𝜎_{2}}𝐴𝐯_{2} \\ & =\frac{1}{4}[\begin{matrix}6 & −5 \\ 0 & 6\end{matrix}]\begin{matrix}\frac{3}{\sqrt{13}} \\ \frac{2}{\sqrt{13}}\end{matrix} \\ & =\frac{1}{4}\begin{matrix}\frac{8}{\sqrt{13}} \\ \frac{12}{\sqrt{13}}\end{matrix} \\ & =\begin{matrix}\frac{2}{\sqrt{13}} \\ \frac{3}{\sqrt{13}}\end{matrix}.\end{aligned}
 
 
 $$
@@ -336,7 +336,7 @@ Finally, we construct the matrices $U$ and $V\mathbin{:}$
 $$
 
 
-\begin{aligned}−\frac{1}{\sqrt{√5}} & −\frac{2}{\sqrt{√5}} \\ \frac{2}{\sqrt{√5}} & −\frac{1}{\sqrt{√5}}\end{aligned}
+\begin{aligned}−\frac{1}{\sqrt{5}} & −\frac{2}{\sqrt{5}} \\ \frac{2}{\sqrt{5}} & −\frac{1}{\sqrt{5}}\end{aligned}
 
 
 $$
@@ -372,7 +372,7 @@ Finally, we construct the matrices $U$ and $V\mathbin{:}$
 $$
 
 
-\begin{aligned}\frac{3}{\sqrt{√10}} & −\frac{1}{\sqrt{√10}} \\ \frac{1}{\sqrt{√10}} & \frac{3}{\sqrt{√10}}\end{aligned}
+\begin{aligned}\frac{3}{\sqrt{10}} & −\frac{1}{\sqrt{10}} \\ \frac{1}{\sqrt{10}} & \frac{3}{\sqrt{10}}\end{aligned}
 
 
 $$

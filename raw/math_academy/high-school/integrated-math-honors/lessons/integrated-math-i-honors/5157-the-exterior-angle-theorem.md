@@ -24,7 +24,7 @@ For example, in the context of the above diagram, the theorem states that
 $$
 
 
-\underbrace{m\angle BCD}_{\textrm{Exterior angle at }C} = \underbrace{m\angle{A} + m\angle{B}}_{\textrm{Non-adjacent interior angles}}.
+\underbrace{m\angle BCD}_{\text{Exterior angle at }C} = \underbrace{m\angle{A} + m\angle{B}}_{\text{Non-adjacent interior angles}}.
 
 
 $$

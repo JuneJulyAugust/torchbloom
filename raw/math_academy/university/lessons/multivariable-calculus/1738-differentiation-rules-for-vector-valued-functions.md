@@ -95,7 +95,7 @@ Let's find $\mathbf g'(t)$ and $u'(t),$ as follows:
 $$
 
 
-\begin{aligned}𝐠^{′}(𝑡) & =\begin{aligned}\frac{d}{d𝑡}(ln⁡𝑡) \\ \frac{d}{d𝑡}(−𝑡) \\ \frac{d}{d𝑡}𝑒^{2𝑡}\end{aligned}=\begin{aligned}\frac{1}{𝑡} \\ −1 \\ 2𝑒^{2𝑡}\end{aligned} \\ 𝑢^{′}(𝑡) & =\frac{d}{d𝑡}(𝑡)=1\end{aligned}
+\begin{aligned}𝐠^{′}(𝑡) & =\begin{matrix}\frac{d}{d𝑡}(ln⁡𝑡) \\ \frac{d}{d𝑡}(−𝑡) \\ \frac{d}{d𝑡}𝑒^{2𝑡}\end{matrix}=\begin{matrix}\frac{1}{𝑡} \\ −1 \\ 2𝑒^{2𝑡}\end{matrix} \\ 𝑢^{′}(𝑡) & =\frac{d}{d𝑡}(𝑡)=1\end{aligned}
 
 
 $$
@@ -105,7 +105,7 @@ Therefore, we obtain
 $$
 
 
-\begin{aligned}(𝑢(𝑡)𝐠(𝑡))^{′} & =𝑢^{′}(𝑡)𝐠(𝑡)+𝑢(𝑡)𝐠^{′}(𝑡) \\ & =1⋅\begin{aligned}ln⁡𝑡 \\ −𝑡 \\ 𝑒^{2𝑡}\end{aligned}+𝑡⋅\begin{aligned}\frac{1}{𝑡} \\ −1 \\ 2𝑒^{2𝑡}\end{aligned} \\ & =\begin{aligned}ln⁡𝑡 \\ −𝑡 \\ 𝑒^{2𝑡}\end{aligned}+\begin{aligned}1 \\ −𝑡 \\ 2𝑡𝑒^{2𝑡}\end{aligned} \\ & =\begin{aligned}1+ln⁡𝑡 \\ −2𝑡 \\ (2𝑡+1)𝑒^{2𝑡}\end{aligned}.\end{aligned}
+\begin{aligned}(𝑢(𝑡)𝐠(𝑡))^{′} & =𝑢^{′}(𝑡)𝐠(𝑡)+𝑢(𝑡)𝐠^{′}(𝑡) \\ & =1⋅\begin{matrix}ln⁡𝑡 \\ −𝑡 \\ 𝑒^{2𝑡}\end{matrix}+𝑡⋅\begin{matrix}\frac{1}{𝑡} \\ −1 \\ 2𝑒^{2𝑡}\end{matrix} \\ & =\begin{matrix}ln⁡𝑡 \\ −𝑡 \\ 𝑒^{2𝑡}\end{matrix}+\begin{matrix}1 \\ −𝑡 \\ 2𝑡𝑒^{2𝑡}\end{matrix} \\ & =\begin{matrix}1+ln⁡𝑡 \\ −2𝑡 \\ (2𝑡+1)𝑒^{2𝑡}\end{matrix}.\end{aligned}
 
 
 $$
@@ -187,7 +187,7 @@ Find $\dfrac{\textrm d}{\textrm dt} (\mathbf f \cdot \mathbf g)(t),$ given the f
 $$
 
 
-\begin{aligned}𝐟(𝑡) & =\sqrt{√𝑡}\,𝐢+𝑡^{2}𝐣 \\ 𝐠(𝑡) & =\frac{1}{𝑡}𝐢+𝑒^{𝑡}𝐣\end{aligned}
+\begin{aligned}𝐟(𝑡) & =\sqrt{𝑡}\,𝐢+𝑡^{2}𝐣 \\ 𝐠(𝑡) & =\frac{1}{𝑡}𝐢+𝑒^{𝑡}𝐣\end{aligned}
 
 
 $$
@@ -209,7 +209,7 @@ Let's now find the derivatives of each function:
 $$
 
 
-\begin{aligned}\frac{d}{d𝑡}𝐟(𝑡) & =\frac{d}{d𝑡}(\sqrt{√𝑡})𝐢+\frac{d}{d𝑡}(𝑡^{2})𝐣 \\ & =\frac{1}{2\sqrt{√𝑡}}\,𝐢+2𝑡\,𝐣, \\ \frac{d}{d𝑡}𝐠(𝑡) & =\frac{d}{d𝑡}(\frac{1}{𝑡})𝐢+\frac{d}{d𝑡}(𝑒^{𝑡})𝐣 \\ & =−\frac{1}{𝑡^{2}}\,𝐢+𝑒^{𝑡}\,𝐣.\end{aligned}
+\begin{aligned}\frac{d}{d𝑡}𝐟(𝑡) & =\frac{d}{d𝑡}(\sqrt{𝑡})𝐢+\frac{d}{d𝑡}(𝑡^{2})𝐣 \\ & =\frac{1}{2\sqrt{𝑡}}\,𝐢+2𝑡\,𝐣, \\ \frac{d}{d𝑡}𝐠(𝑡) & =\frac{d}{d𝑡}(\frac{1}{𝑡})𝐢+\frac{d}{d𝑡}(𝑒^{𝑡})𝐣 \\ & =−\frac{1}{𝑡^{2}}\,𝐢+𝑒^{𝑡}\,𝐣.\end{aligned}
 
 
 $$

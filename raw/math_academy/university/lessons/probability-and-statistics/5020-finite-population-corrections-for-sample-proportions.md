@@ -215,7 +215,7 @@ The probability we wish to find is $P\left(0.35 \lt \widehat{\,p} \lt 0.5\right)
 $$
 
 
-\begin{aligned}𝑃(0.35<\overset{\,𝑝}{ˆ}<0.5) & =𝑃\frac{0.35−0.25}{\sqrt{√\frac{7}{1\,584}}}<𝑍<\frac{0.5−0.25}{\sqrt{√\frac{7}{1\,584}}} \\ & ≈𝑃(1.50<𝑍<3.76) \\ & =𝑃(𝑍<3.76)−𝑃(𝑍<1.50) \\ & =Φ(3.76)−Φ(1.50)\end{aligned}
+\begin{aligned}𝑃(0.35<\overset{\,𝑝}{ˆ}<0.5) & =𝑃\frac{0.35−0.25}{\sqrt{\frac{7}{1\,584}}}<𝑍<\frac{0.5−0.25}{\sqrt{\frac{7}{1\,584}}} \\ & ≈𝑃(1.50<𝑍<3.76) \\ & =𝑃(𝑍<3.76)−𝑃(𝑍<1.50) \\ & =Φ(3.76)−Φ(1.50)\end{aligned}
 
 
 $$
@@ -313,7 +313,7 @@ The probability we wish to find is $P\left(\widehat{\,p} \geq \dfrac{24}{32}\rig
 $$
 
 
-\begin{aligned}𝑃(\overset{\,𝑝}{ˆ}≥0.75) & =𝑃𝑍≥\frac{0.75−0.8}{\sqrt{√\frac{3}{724}}} \\ & =𝑃(𝑍≥−0.78) \\ & =1−𝑃(𝑍<−0.78) \\ & =1−Φ(−0.78)\end{aligned}
+\begin{aligned}𝑃(\overset{\,𝑝}{ˆ}≥0.75) & =𝑃𝑍≥\frac{0.75−0.8}{\sqrt{\frac{3}{724}}} \\ & =𝑃(𝑍≥−0.78) \\ & =1−𝑃(𝑍<−0.78) \\ & =1−Φ(−0.78)\end{aligned}
 
 
 $$

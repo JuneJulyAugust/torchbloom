@@ -88,7 +88,7 @@ A first-order ordinary differential equation that is written in the form
 $$
 
 
-\dfrac {\textrm{d}y} {\textrm{d}x} = f(x, y)
+\dfrac {\text{d}y} {\text{d}x} = f(x, y)
 
 
 $$
@@ -120,7 +120,7 @@ Consider the homogeneous differential equation
 $$
 
 
-\frac{\textrm{d}y}{\textrm{d}x} = \dfrac{x+y}{x} \,.
+\frac{\text{d}y}{\text{d}x} = \dfrac{x+y}{x} \,.
 
 
 $$
@@ -178,7 +178,7 @@ Use the transformation $y = vx$ (where $v=v(x)$) to rewrite the given first-orde
 $$
 
 
-\dfrac {\textrm{d}y} {\textrm{d}x} = \cos \left( \frac {y} {x} \right)
+\dfrac {\text{d}y} {\text{d}x} = \cos \left( \frac {y} {x} \right)
 
 
 $$
@@ -234,7 +234,7 @@ To understand why, suppose we have a homogeneous first-order ordinary differenti
 $$
 
 
-\dfrac {\textrm{d}y} {\textrm{d}x} = f(x, y).
+\dfrac {\text{d}y} {\text{d}x} = f(x, y).
 
 
 $$

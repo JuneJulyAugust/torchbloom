@@ -155,7 +155,7 @@ Since we are given the length of the hypotenuse and opposite sides to $\theta,$ 
 $$
 
 
-\begin{aligned} \sin (\theta) = \dfrac{\textrm{opposite}}{\textrm{hypotenuse}} &= \dfrac{5}{7}. \end{aligned}
+\begin{aligned} \sin (\theta) = \dfrac{\text{opposite}}{\text{hypotenuse}} &= \dfrac{5}{7}. \end{aligned}
 
 
 $$
@@ -165,7 +165,7 @@ We now calculate $\theta$ using the inverse sine:
 $$
 
 
-\begin{aligned} \sin (\theta) &= \dfrac{5}{7}\\\[5pt] \arcsin( \sin (\theta)) &= \arcsin\left(\dfrac{5}{7} \right)\\\[5pt] \theta &= \arcsin\left(\dfrac{5}{7} \right)\\\[5pt] &=(45.584\,6...)^\circ \\\[5pt] &\approx 46^\circ \end{aligned}
+\begin{aligned} \sin (\theta) &= \dfrac{5}{7}\\[5pt] \arcsin( \sin (\theta)) &= \arcsin\left(\dfrac{5}{7} \right)\\[5pt] \theta &= \arcsin\left(\dfrac{5}{7} \right)\\[5pt] &=(45.584\,6...)^\circ \\[5pt] &\approx 46^\circ \end{aligned}
 
 
 $$
@@ -189,7 +189,7 @@ Since we are given the lengths of the adjacent and opposite sides, we can use ta
 $$
 
 
-\tan \alpha= \dfrac{\textrm{opposite}}{\textrm{adjacent}} = \dfrac{13}{9}.
+\tan \alpha= \dfrac{\text{opposite}}{\text{adjacent}} = \dfrac{13}{9}.
 
 
 $$
@@ -199,7 +199,7 @@ We now calculate $\alpha$ using the inverse tangent:
 $$
 
 
-\begin{aligned} \tan \alpha &= \dfrac{13}{9}\\\[5pt] \arctan( \tan \alpha) &= \arctan\left(\dfrac{13}{9} \right)\\\[5pt] \alpha &= \arctan\left(\dfrac{13}{9} \right)\\\[5pt] &=(55.304\,8...)^\circ\\\[5pt] &\approx 55.3^\circ \end{aligned}
+\begin{aligned} \tan \alpha &= \dfrac{13}{9}\\[5pt] \arctan( \tan \alpha) &= \arctan\left(\dfrac{13}{9} \right)\\[5pt] \alpha &= \arctan\left(\dfrac{13}{9} \right)\\[5pt] &=(55.304\,8...)^\circ\\[5pt] &\approx 55.3^\circ \end{aligned}
 
 
 $$

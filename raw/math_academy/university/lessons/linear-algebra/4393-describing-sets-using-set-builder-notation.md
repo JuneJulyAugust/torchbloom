@@ -19,12 +19,12 @@ As previously seen, we can define sets using so-called *constructive definitions
 $$
 
 
-\big\{ {\color{blue}\textrm{rule}} \: : \: {\color{blue}\textrm{base set}} \big\}
+\big\{ {\color{blue}\text{rule}} \: : \: {\color{blue}\text{base set}} \big\}
 
 
 $$
 
-where the ${\color{blue}\textrm{rule}}$ is an expression (or formula) that depends on a variable that *constructs* elements of our set when the variable runs over some ${\color{blue}\textrm{base set}}.$
+where the ${\color{blue}\text{rule}}$ is an expression (or formula) that depends on a variable that *constructs* elements of our set when the variable runs over some ${\color{blue}\text{base set}}.$
 
 For example, the set $A,$ given by
 
@@ -217,12 +217,12 @@ We can also define sets using so-called *conditional definitions* of the form
 $$
 
 
-\{ {\color{blue}\textrm{base set}} \: : \: {\color{blue}\textrm{conditions}} \}
+\{ {\color{blue}\text{base set}} \: : \: {\color{blue}\text{conditions}} \}
 
 
 $$
 
-where our set contains only those elements of the ${\color{blue}\textrm{base set}}$ that satisfy the given ${\color{blue}\textrm{conditions}}$ (or restrictions).
+where our set contains only those elements of the ${\color{blue}\text{base set}}$ that satisfy the given ${\color{blue}\text{conditions}}$ (or restrictions).
 
 For example, the set $A,$ given by
 
@@ -325,7 +325,7 @@ Find the missing coefficients $p$ and $q$ in the conditional definition of the s
 $$
 
 
-\{\pm 3\textrm{i}\} = \Big\{z \in \mathbb{C} \: : \: 4z^2+pz+q = 0 \Big\}
+\{\pm 3\text{i}\} = \Big\{z \in \mathbb{C} \: : \: 4z^2+pz+q = 0 \Big\}
 
 
 $$
@@ -334,7 +334,7 @@ $$
 
 The given set contains the roots $z\in\mathbb C$ of some quadratic polynomial $f(z).$
 
-Since the quadratic polynomial has roots $z_1=-3\textrm{i}$ and $z_2=3\textrm{i},$ and the coefficient of the quadratic term is $a=4,$ we can write the polynomial as follows:
+Since the quadratic polynomial has roots $z_1=-3\text{i}$ and $z_2=3\text{i},$ and the coefficient of the quadratic term is $a=4,$ we can write the polynomial as follows:
 
 $$
 
@@ -349,7 +349,7 @@ Therefore, we can express the given set as follows:
 $$
 
 
-\{\pm 3\textrm{i}\} = \Big\{z \in \mathbb{C} \: : \: 4z^2+\boxed{\color{blue}0}z+\boxed{\color{blue}36} = 0 \Big\}
+\{\pm 3\text{i}\} = \Big\{z \in \mathbb{C} \: : \: 4z^2+\boxed{\color{blue}0}z+\boxed{\color{blue}36} = 0 \Big\}
 
 
 $$

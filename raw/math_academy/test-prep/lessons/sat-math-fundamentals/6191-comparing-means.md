@@ -33,7 +33,7 @@ Let's start by computing the mean of class B's results:
 $$
 
 
-\textrm{Mean}(B) = \dfrac{6+5+8+10+10+4+6}{7} = 7.0
+\text{Mean}(B) = \dfrac{6+5+8+10+10+4+6}{7} = 7.0
 
 
 $$

@@ -16,7 +16,7 @@ A binary relation $R$ defined over $A$ and $B$ is **functional** (or a **partial
 $$
 
 
-(a,b_1) \in R \quad\textrm{and}\quad (a,b_2) \in R \qquad\Rightarrow\qquad b_1 = b_2.
+(a,b_1) \in R \quad\text{and}\quad (a,b_2) \in R \qquad\Rightarrow\qquad b_1 = b_2.
 
 
 $$
@@ -70,7 +70,7 @@ A binary relation $R$ defined over $A$ and $B$ is ** (or a **) if, for all $a \i
 $$
 
 
-(a,b_1) \in R \quad\textrm{and}\quad (a,b_2) \in R \qquad\Rightarrow\qquad b_1 = b_2.
+(a,b_1) \in R \quad\text{and}\quad (a,b_2) \in R \qquad\Rightarrow\qquad b_1 = b_2.
 
 
 $$
@@ -116,7 +116,7 @@ A binary relation $R$ defined over $A$ and $B$ is ** (or a **) if, for all $a \i
 $$
 
 
-(a,b_1) \in R \quad\textrm{and}\quad (a,b_2) \in R \qquad\Rightarrow\qquad b_1 = b_2.
+(a,b_1) \in R \quad\text{and}\quad (a,b_2) \in R \qquad\Rightarrow\qquad b_1 = b_2.
 
 
 $$
@@ -132,7 +132,7 @@ In this case, our relation is not functional because the digraph contains the ar
 $$
 
 
-\gamma \longrightarrow \beta \qquad\textrm{and}\qquad \gamma \longrightarrow \gamma
+\gamma \longrightarrow \beta \qquad\text{and}\qquad \gamma \longrightarrow \gamma
 
 
 $$
@@ -145,9 +145,9 @@ that have the same starting node and different ending nodes.
 
 Which of the following relations are functional?
 
-- $x \: R \: y$ if and only if $x=\textrm{e}^y,$ defined on $\mathbb{R}$
+- $x \: R \: y$ if and only if $x=\text{e}^y,$ defined on $\mathbb{R}$
 
-- $x \: S \: y$ if and only if $2x \equiv y \:\: (\textrm{mod}\:6),$ defined on $\mathbb{Z}$
+- $x \: S \: y$ if and only if $2x \equiv y \:\: (\text{mod}\:6),$ defined on $\mathbb{Z}$
 
 - $x \: T \: y$ if and only if $x = |y|,$ defined on $\mathbb{Q}$
 
@@ -158,7 +158,7 @@ A binary relation $R$ defined over $A$ and $B$ is ** (or a **) if, for all $a \i
 $$
 
 
-(a,b_1) \in R \quad\textrm{and}\quad (a,b_2) \in R \qquad\Rightarrow\qquad b_1 = b_2.
+(a,b_1) \in R \quad\text{and}\quad (a,b_2) \in R \qquad\Rightarrow\qquad b_1 = b_2.
 
 
 $$
@@ -167,9 +167,9 @@ In other words, if the first components of two ordered pairs are equal, then the
 
 With that in mind, let's examine our relations.
 
-- $R$ is functional. Indeed, $a=\textrm{e}^b_1$ and $a=\textrm{e}^b_2$ is equivalent to $b_1 = b_2.$ So, when the first components of two pairs are equal, then the second components are also equal.
+- $R$ is functional. Indeed, $a=\text{e}^b_1$ and $a=\text{e}^b_2$ is equivalent to $b_1 = b_2.$ So, when the first components of two pairs are equal, then the second components are also equal.
 
-- $S$ is ** functional. Notice that $2(0) \equiv 0 \: (\textrm{mod}\:6)$ and also $2(0) \equiv 6 \: (\textrm{mod}\:6).$ So, $S$ contains the pairs $(0,0)$ and $(0,6)$ with the same first component but different second components.
+- $S$ is ** functional. Notice that $2(0) \equiv 0 \: (\text{mod}\:6)$ and also $2(0) \equiv 6 \: (\text{mod}\:6).$ So, $S$ contains the pairs $(0,0)$ and $(0,6)$ with the same first component but different second components.
 
 - $T$ is ** functional. Notice that $1 = | 1|$ and $1 = | - 1|.$ So, $T$ contains the pairs $(1,1)$ and $(1,-1)$ with the same first component but different second components.
 

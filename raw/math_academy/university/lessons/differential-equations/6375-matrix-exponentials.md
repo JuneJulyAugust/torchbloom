@@ -100,7 +100,7 @@ We have a square matrix of dimension $n=2.$ Thus,
 $$
 
 
-\begin{aligned}𝑒^{𝐴𝑡} & =𝛼_{1}𝐴𝑡+𝛼_{0}𝐼 \\ & =𝛼_{1}[\begin{aligned}2 & 0 \\ −7 & 7\end{aligned}]𝑡+𝛼_{0}[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ & =[\begin{aligned}2𝛼_{1}𝑡+𝛼_{0} & 0 \\ −7𝛼_{1}𝑡 & 7𝛼_{1}𝑡+𝛼_{0}\end{aligned}],\end{aligned}
+\begin{aligned}𝑒^{𝐴𝑡} & =𝛼_{1}𝐴𝑡+𝛼_{0}𝐼 \\ & =𝛼_{1}[\begin{matrix}2 & 0 \\ −7 & 7\end{matrix}]𝑡+𝛼_{0}[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}] \\ & =[\begin{matrix}2𝛼_{1}𝑡+𝛼_{0} & 0 \\ −7𝛼_{1}𝑡 & 7𝛼_{1}𝑡+𝛼_{0}\end{matrix}],\end{aligned}
 
 
 $$
@@ -122,7 +122,7 @@ both of multiplicity one. Thus, we have the following:
 $$
 
 
-\begin{aligned}\begin{aligned}𝑟(2𝑡)=𝑒^{2𝑡} \\ 𝑟(7𝑡)=𝑒^{7𝑡}\end{aligned}\,⇒\,\begin{aligned}2𝑡𝛼_{1}+𝛼_{0}=𝑒^{2𝑡} \\ 7𝑡𝛼_{1}+𝛼_{0}=𝑒^{7𝑡}\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}𝑟(2𝑡)=𝑒^{2𝑡} \\ 𝑟(7𝑡)=𝑒^{7𝑡}\end{matrix}\,⇒\,\begin{matrix}2𝑡𝛼_{1}+𝛼_{0}=𝑒^{2𝑡} \\ 7𝑡𝛼_{1}+𝛼_{0}=𝑒^{7𝑡}\end{matrix}\end{aligned}
 
 
 $$
@@ -184,7 +184,7 @@ We have a square matrix of dimension $n=2.$ Thus,
 $$
 
 
-\begin{aligned}𝑒^{𝐴𝑡} & =𝛼_{1}𝐴𝑡+𝛼_{0}𝐼 \\ & =𝛼_{1}[\begin{aligned}1 & 0 \\ −3 & 4\end{aligned}]𝑡+𝛼_{0}[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ & =[\begin{aligned}𝛼_{1}𝑡+𝛼_{0} & 0 \\ −3𝛼_{1}𝑡 & 4𝛼_{1}𝑡+𝛼_{0}\end{aligned}],\end{aligned}
+\begin{aligned}𝑒^{𝐴𝑡} & =𝛼_{1}𝐴𝑡+𝛼_{0}𝐼 \\ & =𝛼_{1}[\begin{matrix}1 & 0 \\ −3 & 4\end{matrix}]𝑡+𝛼_{0}[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}] \\ & =[\begin{matrix}𝛼_{1}𝑡+𝛼_{0} & 0 \\ −3𝛼_{1}𝑡 & 4𝛼_{1}𝑡+𝛼_{0}\end{matrix}],\end{aligned}
 
 
 $$
@@ -206,7 +206,7 @@ both of multiplicity one. Thus, we have the following:
 $$
 
 
-\begin{aligned}\begin{aligned}𝑟(𝑡)=𝑒^{𝑡} \\ 𝑟(4𝑡)=𝑒^{4𝑡}\end{aligned}\,⇒\,\begin{aligned}𝑡𝛼_{1}+𝛼_{0}=𝑒^{𝑡} \\ 4𝑡𝛼_{1}+𝛼_{0}=𝑒^{4𝑡}\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}𝑟(𝑡)=𝑒^{𝑡} \\ 𝑟(4𝑡)=𝑒^{4𝑡}\end{matrix}\,⇒\,\begin{matrix}𝑡𝛼_{1}+𝛼_{0}=𝑒^{𝑡} \\ 4𝑡𝛼_{1}+𝛼_{0}=𝑒^{4𝑡}\end{matrix}\end{aligned}
 
 
 $$
@@ -268,7 +268,7 @@ We have a square matrix of dimension $n=2.$ Thus,
 $$
 
 
-\begin{aligned}𝑒^{𝐴𝑡} & =𝛼_{1}𝐴𝑡+𝛼_{0}𝐼 \\ & =𝛼_{1}[\begin{aligned}7 & 4 \\ −5 & −1\end{aligned}]𝑡+𝛼_{0}[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ & =[\begin{aligned}7𝛼_{1}𝑡+𝛼_{0} & 4𝛼_{1}𝑡 \\ −5𝛼_{1}𝑡 & −𝛼_{1}𝑡+𝛼_{0}\end{aligned}].\end{aligned}
+\begin{aligned}𝑒^{𝐴𝑡} & =𝛼_{1}𝐴𝑡+𝛼_{0}𝐼 \\ & =𝛼_{1}[\begin{matrix}7 & 4 \\ −5 & −1\end{matrix}]𝑡+𝛼_{0}[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}] \\ & =[\begin{matrix}7𝛼_{1}𝑡+𝛼_{0} & 4𝛼_{1}𝑡 \\ −5𝛼_{1}𝑡 & −𝛼_{1}𝑡+𝛼_{0}\end{matrix}].\end{aligned}
 
 
 $$
@@ -280,7 +280,7 @@ Consider the polynomial $r(\lambda) = \alpha_1 \lambda + \alpha_0.$ The eigenval
 $$
 
 
-\lambda_1= (3+2\textrm{i}) t, \qquad \lambda_2= (3-2\textrm{i}) t,
+\lambda_1= (3+2\text{i}) t, \qquad \lambda_2= (3-2\text{i}) t,
 
 
 $$
@@ -300,7 +300,7 @@ Now, we equate the real and imaginary parts, and solve for $\alpha_1$ and $\alph
 $$
 
 
-\begin{aligned}\begin{aligned}3𝛼_{1}𝑡+𝛼_{0}=𝑒^{3𝑡}cos⁡(2𝑡) \\ 2𝑡𝛼_{1}=𝑒^{3𝑡}sin⁡(2𝑡)\end{aligned}\,⇒\,\begin{aligned}𝛼_{1}=\frac{1}{2𝑡}𝑒^{3𝑡}sin⁡(2𝑡) \\ 𝛼_{0}=𝑒^{3𝑡}(cos⁡(2𝑡)−\frac{3}{2}sin⁡(2𝑡))\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}3𝛼_{1}𝑡+𝛼_{0}=𝑒^{3𝑡}cos⁡(2𝑡) \\ 2𝑡𝛼_{1}=𝑒^{3𝑡}sin⁡(2𝑡)\end{matrix}\,⇒\,\begin{matrix}𝛼_{1}=\frac{1}{2𝑡}𝑒^{3𝑡}sin⁡(2𝑡) \\ 𝛼_{0}=𝑒^{3𝑡}(cos⁡(2𝑡)−\frac{3}{2}sin⁡(2𝑡))\end{matrix}\end{aligned}
 
 
 $$
@@ -386,7 +386,7 @@ We have a square matrix of dimension $n=2.$ Thus,
 $$
 
 
-\begin{aligned}𝑒^{𝐴𝑡} & =𝛼_{1}𝐴𝑡+𝛼_{0}𝐼 \\ & =𝛼_{1}[\begin{aligned}8 & −2 \\ 2 & 4\end{aligned}]𝑡+𝛼_{0}[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ & =[\begin{aligned}8𝛼_{1}𝑡+𝛼_{0} & −2𝛼_{1}𝑡 \\ 2𝛼_{1}𝑡 & 4𝛼_{1}𝑡+𝛼_{0}\end{aligned}],\end{aligned}
+\begin{aligned}𝑒^{𝐴𝑡} & =𝛼_{1}𝐴𝑡+𝛼_{0}𝐼 \\ & =𝛼_{1}[\begin{matrix}8 & −2 \\ 2 & 4\end{matrix}]𝑡+𝛼_{0}[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}] \\ & =[\begin{matrix}8𝛼_{1}𝑡+𝛼_{0} & −2𝛼_{1}𝑡 \\ 2𝛼_{1}𝑡 & 4𝛼_{1}𝑡+𝛼_{0}\end{matrix}],\end{aligned}
 
 
 $$
@@ -408,7 +408,7 @@ of multiplicity two. Thus, we have the following:
 $$
 
 
-\begin{aligned}\begin{aligned}𝑟(6𝑡)=𝑒^{6𝑡} \\ \frac{d}{d𝜆}𝑟(6𝑡)=𝑒^{6𝑡}\end{aligned}\,⇒\,\begin{aligned}6𝑡𝛼_{1}+𝛼_{0}=𝑒^{6𝑡} \\ 𝛼_{1}=𝑒^{6𝑡}\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}𝑟(6𝑡)=𝑒^{6𝑡} \\ \frac{d}{d𝜆}𝑟(6𝑡)=𝑒^{6𝑡}\end{matrix}\,⇒\,\begin{matrix}6𝑡𝛼_{1}+𝛼_{0}=𝑒^{6𝑡} \\ 𝛼_{1}=𝑒^{6𝑡}\end{matrix}\end{aligned}
 
 
 $$
@@ -502,7 +502,7 @@ Therefore, we have
 $$
 
 
-\begin{aligned}\frac{d}{d𝑡}(𝑒^{𝐴𝑡}) & =𝐴\,𝑒^{𝐴𝑡} \\ & =[\begin{aligned}1 & 1 \\ 0 & 1\end{aligned}][\begin{aligned}𝑒^{𝑡} & 𝑡𝑒^{𝑡} \\ 0 & 𝑒^{𝑡}\end{aligned}] \\ & =[\begin{aligned}𝑒^{𝑡} & (𝑡+1)𝑒^{𝑡} \\ 0 & 𝑒^{𝑡}\end{aligned}].\end{aligned}
+\begin{aligned}\frac{d}{d𝑡}(𝑒^{𝐴𝑡}) & =𝐴\,𝑒^{𝐴𝑡} \\ & =[\begin{matrix}1 & 1 \\ 0 & 1\end{matrix}][\begin{matrix}𝑒^{𝑡} & 𝑡𝑒^{𝑡} \\ 0 & 𝑒^{𝑡}\end{matrix}] \\ & =[\begin{matrix}𝑒^{𝑡} & (𝑡+1)𝑒^{𝑡} \\ 0 & 𝑒^{𝑡}\end{matrix}].\end{aligned}
 
 
 $$

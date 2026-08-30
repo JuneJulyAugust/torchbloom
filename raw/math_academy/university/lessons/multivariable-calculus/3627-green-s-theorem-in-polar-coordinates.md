@@ -97,7 +97,7 @@ Finally, we can calculate our double integral by applying the change of variable
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}𝑥^{2}+𝑦^{2}\,d𝐴 & =\underset{Δ}{∬}(𝑟^{2}cos^{2}⁡𝜃+𝑟^{2}sin^{2}⁡𝜃)\,𝑟\,d𝑟d𝜃 \\ & =∫_{2𝜋0}^{}∫_{10}^{}𝑟^{3}(cos^{2}⁡𝜃+sin^{2}⁡𝜃)\,d𝑟\,d𝜃 \\ & =∫_{2𝜋0}^{}∫_{10}^{}𝑟^{3}\,d𝑟\,d𝜃 \\ & =∫_{2𝜋0}^{}[\frac{𝑟^{4}}{4}]_{10}^{}\,d𝜃 \\ & =∫_{2𝜋0}^{}\frac{1}{4}\,d𝜃 \\ & =2𝜋⋅\frac{1}{4} \\ & =\frac{𝜋}{2}\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}𝑥^{2}+𝑦^{2}\,d𝐴 & =\underset{Δ}{∬}(𝑟^{2}cos^{2}⁡𝜃+𝑟^{2}sin^{2}⁡𝜃)\,𝑟\,d𝑟d𝜃 \\ & =∫_{2𝜋0}∫_{10}𝑟^{3}(cos^{2}⁡𝜃+sin^{2}⁡𝜃)\,d𝑟\,d𝜃 \\ & =∫_{2𝜋0}∫_{10}𝑟^{3}\,d𝑟\,d𝜃 \\ & =∫_{2𝜋0}[\frac{𝑟^{4}}{4}]_{10}\,d𝜃 \\ & =∫_{2𝜋0}\frac{1}{4}\,d𝜃 \\ & =2𝜋⋅\frac{1}{4} \\ & =\frac{𝜋}{2}\end{aligned}
 
 
 $$
@@ -189,7 +189,7 @@ Therefore, we can write our double integral as
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}𝑦\,d𝐴 & =\underset{Δ}{∬}𝑟sin⁡𝜃\,𝑟\,d𝑟d𝜃 \\ & =∫_{2𝜋0}^{}\,∫_{20}^{}𝑟^{2}sin⁡𝜃\,d𝑟\,d𝜃.\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}𝑦\,d𝐴 & =\underset{Δ}{∬}𝑟sin⁡𝜃\,𝑟\,d𝑟d𝜃 \\ & =∫_{2𝜋0}\,∫_{20}𝑟^{2}sin⁡𝜃\,d𝑟\,d𝜃.\end{aligned}
 
 
 $$
@@ -245,7 +245,7 @@ Applying Green's theorem, we get
 $$
 
 
-\begin{aligned}\underset{𝐶}{∮}(2𝑦+ln⁡(\sqrt{√𝑥+5}))\,d𝑥+(𝑒^{𝑦/3}+3𝑥)\,d𝑦 & =\underset{𝐷}{∬}(\frac{𝜕𝑄}{𝜕𝑥}−\frac{𝜕𝑃}{𝜕𝑦})d𝐴 \\ & =\underset{𝐷}{∬}(3−2)\,d𝐴 \\ & =\underset{𝐷}{∬}\,d𝐴.\end{aligned}
+\begin{aligned}\underset{𝐶}{∮}(2𝑦+ln⁡(\sqrt{𝑥+5}))\,d𝑥+(𝑒^{𝑦/3}+3𝑥)\,d𝑦 & =\underset{𝐷}{∬}(\frac{𝜕𝑄}{𝜕𝑥}−\frac{𝜕𝑃}{𝜕𝑦})d𝐴 \\ & =\underset{𝐷}{∬}(3−2)\,d𝐴 \\ & =\underset{𝐷}{∬}\,d𝐴.\end{aligned}
 
 
 $$
@@ -275,7 +275,7 @@ Therefore, we can write our double integral as
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}\,d𝐴 & =\underset{Δ}{∬}\,𝑟\,d𝑟d𝜃 \\ & =∫_{2𝜋𝜋/2}^{}\,∫_{30}^{}𝑟\,d𝑟\,d𝜃.\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}\,d𝐴 & =\underset{Δ}{∬}\,𝑟\,d𝑟d𝜃 \\ & =∫_{2𝜋𝜋/2}\,∫_{30}𝑟\,d𝑟\,d𝜃.\end{aligned}
 
 
 $$

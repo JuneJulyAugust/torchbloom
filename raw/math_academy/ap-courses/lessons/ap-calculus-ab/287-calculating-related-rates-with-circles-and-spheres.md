@@ -11,7 +11,7 @@ Topic ID: 287
 
 ### Introduction
 
-Suppose we're told that the radius of a circle is **growing at a rate of $2\,\textrm{cm}$ every second**, as shown below.
+Suppose we're told that the radius of a circle is **growing at a rate of $2\,\text{cm}$ every second**, as shown below.
 
 ![Instructional graphic](../../../lesson-assets/ap-calculus-ab/topic-287/42ef69ba90ca36f3.png)
 
@@ -27,7 +27,7 @@ $$
 
 $$
 
-Here, $A$ is the area of the circle, measured in $\textrm{cm}^2,$ and $t$ is the time in seconds.
+Here, $A$ is the area of the circle, measured in $\text{cm}^2,$ and $t$ is the time in seconds.
 
 We know that the area is related to the radius $r$ as
 
@@ -49,7 +49,7 @@ $$
 
 $$
 
-Since the radius of a circle is growing at a rate of $2\,\textrm{cm}$ every second, we have $\dfrac{\textrm dr}{\textrm dt} = 2 \, \textrm{cm}.$ Substituting this information, we have
+Since the radius of a circle is growing at a rate of $2\,\text{cm}$ every second, we have $\dfrac{\textrm dr}{\textrm dt} = 2 \, \text{cm}.$ Substituting this information, we have
 
 $$
 
@@ -61,12 +61,12 @@ $$
 
 And, that's it, we're done!
 
-If we want to calculate $\dfrac{\textrm d A}{\textrm d t}$ at a particular moment, we substitute the value of $r$ at that moment into the above. So, for example, if we want to compute $\dfrac{\textrm d A}{\textrm d t}$ at the moment when $r=6\,\textrm{cm},$ we plug this into the above and get
+If we want to calculate $\dfrac{\textrm d A}{\textrm d t}$ at a particular moment, we substitute the value of $r$ at that moment into the above. So, for example, if we want to compute $\dfrac{\textrm d A}{\textrm d t}$ at the moment when $r=6\,\text{cm},$ we plug this into the above and get
 
 $$
 
 
-\dfrac{\textrm d A}{\textrm d t} = 4\pi \cdot 6 = 24\pi\,\textrm{cm}^2/\textrm{s}.
+\dfrac{\textrm d A}{\textrm d t} = 4\pi \cdot 6 = 24\pi\,\text{cm}^2/\text{s}.
 
 
 $$

@@ -116,7 +116,7 @@ Calculating the first derivative of $y_p$ gives
 $$
 
 
-\frac{\textrm{d}y_p}{\textrm{d}x} = - \alpha \sin x + \beta \cos x.
+\frac{\text{d}y_p}{\text{d}x} = - \alpha \sin x + \beta \cos x.
 
 
 $$
@@ -146,7 +146,7 @@ Equating the coefficients of $\sin x$ and $\cos x$ on both sides of the equation
 $$
 
 
-\begin{aligned}\begin{aligned}2𝛼+𝛽=0\, & (equating the coefficients of\,cos⁡𝑥) \\ −𝛼+2𝛽=10\, & (equating the coefficients of\,sin⁡𝑥)\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}2𝛼+𝛽=0\, & (equating the coefficients of\,cos⁡𝑥) \\ −𝛼+2𝛽=10\, & (equating the coefficients of\,sin⁡𝑥)\end{matrix}\end{aligned}
 
 
 $$
@@ -210,7 +210,7 @@ Calculating the first derivative of $y_p$ gives
 $$
 
 
-\frac{\textrm{d}y_p}{\textrm{d}x} = - \alpha \sin {x} + \beta \cos {x}.
+\frac{\text{d}y_p}{\text{d}x} = - \alpha \sin {x} + \beta \cos {x}.
 
 
 $$
@@ -240,7 +240,7 @@ Equating the coefficients, we get the following system of equations:
 $$
 
 
-\begin{aligned}\begin{aligned}3𝛼+𝛽=2\, & (equating the coefficients of\,cos⁡𝑥) \\ −𝛼+3𝛽=0\, & (equating the coefficients of\,sin⁡𝑥)\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}3𝛼+𝛽=2\, & (equating the coefficients of\,cos⁡𝑥) \\ −𝛼+3𝛽=0\, & (equating the coefficients of\,sin⁡𝑥)\end{matrix}\end{aligned}
 
 
 $$
@@ -266,7 +266,7 @@ Consider the differential equation
 $$
 
 
-2\frac{\textrm{d} y}{\textrm{d} x} + 4 y = 8 \cos(3x) - 2 \sin(3x).
+2\frac{\text{d} y}{\text{d} x} + 4 y = 8 \cos(3x) - 2 \sin(3x).
 
 
 $$
@@ -282,7 +282,7 @@ To find the complementary solution $y_c$ we solve the corresponding homogeneous 
 $$
 
 
-2\frac{\textrm{d} y_c}{\textrm{d} x} + 4 y_c = 0.
+2\frac{\text{d} y_c}{\text{d} x} + 4 y_c = 0.
 
 
 $$
@@ -318,7 +318,7 @@ Calculating the first derivative of $y_p$ gives
 $$
 
 
-\frac{\textrm{d}y_p}{\textrm{d}x} = - 3\alpha \sin(3x) + 3\beta \cos(3x).
+\frac{\text{d}y_p}{\text{d}x} = - 3\alpha \sin(3x) + 3\beta \cos(3x).
 
 
 $$
@@ -348,7 +348,7 @@ Equating the coefficients, we get the following system of equations:
 $$
 
 
-\begin{aligned}\begin{aligned}6𝛽+4𝛼=8\, & (equating the coefficients of\,cos⁡(3𝑥)) \\ −6𝛼+4𝛽=−2\, & (equating the coefficients of\,sin⁡(3𝑥))\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}6𝛽+4𝛼=8\, & (equating the coefficients of\,cos⁡(3𝑥)) \\ −6𝛼+4𝛽=−2\, & (equating the coefficients of\,sin⁡(3𝑥))\end{matrix}\end{aligned}
 
 
 $$
@@ -486,7 +486,7 @@ Equating the coefficients, we get the following system of equations:
 $$
 
 
-\begin{aligned}\begin{aligned}2𝛽+3𝛼=0\, & (equating the coefficients of\,cos⁡(2𝑥)) \\ −2𝛼+3𝛽=26\, & (equating the coefficients of\,sin⁡(2𝑥))\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}2𝛽+3𝛼=0\, & (equating the coefficients of\,cos⁡(2𝑥)) \\ −2𝛼+3𝛽=26\, & (equating the coefficients of\,sin⁡(2𝑥))\end{matrix}\end{aligned}
 
 
 $$

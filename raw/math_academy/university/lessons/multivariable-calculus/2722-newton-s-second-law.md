@@ -21,7 +21,7 @@ F = ma
 
 $$
 
-where $F$ is the resultant force, measured in **Newtons** $(\text N),$ $m$ is the mass, measured in $\textrm{kg},$ and $a$ is the acceleration, measured in $\textrm{m/s}^2.$
+where $F$ is the resultant force, measured in **Newtons** $(\text N),$ $m$ is the mass, measured in $\text{kg},$ and $a$ is the acceleration, measured in $\text{m/s}^2.$
 
 Note the following:
 
@@ -29,7 +29,7 @@ Note the following:
 
 - The term "resultant force" means the (vector) sum of forces acting on the particle.
 
-- The equation $F=ma$ tells us that $1\,\textrm{N}$ is the total force required to accelerate a mass of $m = 1\,\textrm{kg}$ at a rate of $a = 1\,\textrm{m/s}^2.$
+- The equation $F=ma$ tells us that $1\,\text{N}$ is the total force required to accelerate a mass of $m = 1\,\text{kg}$ at a rate of $a = 1\,\text{m/s}^2.$
 
 - When the motion is one-dimensional, the **magnitude** of a force is given by its absolute value.
 
@@ -37,7 +37,7 @@ Let's see a concrete example.
 
 ### A Concrete Example
 
-Suppose that a body of mass $2 \, \textrm{kg}$ is moving in a straight line along the $x$-axis under the action of a single force $F,$ measured in Newtons. At time $t$ seconds, the body's velocity is given by $v(t) = t^2+e^{-t}$ meters per second.
+Suppose that a body of mass $2 \, \text{kg}$ is moving in a straight line along the $x$-axis under the action of a single force $F,$ measured in Newtons. At time $t$ seconds, the body's velocity is given by $v(t) = t^2+e^{-t}$ meters per second.
 
 ![Instructional graphic](../../../lesson-assets/multivariable-calculus/topic-2722/e447b727e6d0e2cf.png)
 
@@ -79,7 +79,7 @@ $$
 
 #### Question
 
-A body of mass $3 \, \textrm{kg}$ is moving in a straight line along the $x$-axis under the action of a single force $F,$ measured in Newtons $(\textrm{N}).$ At time $t$ seconds, the velocity of the body is given by $v(t) =t^2- e^{t-4}$ meters per second. Calculate the magnitude of the force at time $t=4$ seconds.
+A body of mass $3 \, \text{kg}$ is moving in a straight line along the $x$-axis under the action of a single force $F,$ measured in Newtons $(\text{N}).$ At time $t$ seconds, the velocity of the body is given by $v(t) =t^2- e^{t-4}$ meters per second. Calculate the magnitude of the force at time $t=4$ seconds.
 
 #### Explanation
 
@@ -105,7 +105,7 @@ $$
 
 $$
 
-As a result, the acceleration at $t=4 \, \textrm{s}$ is
+As a result, the acceleration at $t=4 \, \text{s}$ is
 
 $$
 
@@ -130,7 +130,7 @@ Finally, the magnitude of the force is
 $$
 
 
-|F| = |21| = 21 \, \textrm{N}.
+|F| = |21| = 21 \, \text{N}.
 
 
 $$
@@ -139,7 +139,7 @@ $$
 
 #### Question
 
-A body of mass $2 \, \textrm{kg}$ is moving in a straight line along the $x$-axis under the action of a single force $F,$ measured in Newtons. At time $t$ seconds, the position of the body is given by $s(t) = e^{3t-6} + t^2$ meters. Find the expression for the force acting on the body at time $t.$
+A body of mass $2 \, \text{kg}$ is moving in a straight line along the $x$-axis under the action of a single force $F,$ measured in Newtons. At time $t$ seconds, the position of the body is given by $s(t) = e^{3t-6} + t^2$ meters. Find the expression for the force acting on the body at time $t.$
 
 #### Explanation
 
@@ -189,7 +189,7 @@ $$
 
 #### Question
 
-A body of mass $2 \, \textrm{kg}$ moves in a straight line along the $x$-axis under the action of a single force $F,$ measured in Newtons. At time $t\geq 0$ seconds, the velocity of the body is given by $v(t) =2t^3-12t^2-30t+5$ meters per second. Calculate the time when the force acting on the body has a magnitude of zero.
+A body of mass $2 \, \text{kg}$ moves in a straight line along the $x$-axis under the action of a single force $F,$ measured in Newtons. At time $t\geq 0$ seconds, the velocity of the body is given by $v(t) =2t^3-12t^2-30t+5$ meters per second. Calculate the time when the force acting on the body has a magnitude of zero.
 
 #### Explanation
 
@@ -227,4 +227,4 @@ $$
 
 Since $t \geq 0,$ we disregard the negative solution.
 
-Therefore, the force has zero magnitude when $t=5 \, \textrm{s}.$
+Therefore, the force has zero magnitude when $t=5 \, \text{s}.$

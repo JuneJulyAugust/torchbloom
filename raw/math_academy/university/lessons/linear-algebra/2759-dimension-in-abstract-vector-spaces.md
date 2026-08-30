@@ -39,14 +39,14 @@ Let's now consider the following theorem:
 
 *If a basis of a vector space $V$ has $n$ elements, then every basis of $V$ has $n$ elements.*
 
-The number $n$ is called the **dimension** of the vector space, and we write $\textrm{dim}(V)=n.$
+The number $n$ is called the **dimension** of the vector space, and we write $\text{dim}(V)=n.$
 
 So, since the standard basis of $\mathbb{R}_2[t]$ has $3$ elements, all of its bases have $3$ elements, and we write
 
 $$
 
 
-\textrm{dim}(\mathbb{R}_2[t])=3.
+\text{dim}(\mathbb{R}_2[t])=3.
 
 
 $$
@@ -84,7 +84,7 @@ Therefore, we have that
 $$
 
 
-\textrm{dim}(\mathbb{R}_6[t])=6+1=7.
+\text{dim}(\mathbb{R}_6[t])=6+1=7.
 
 
 $$
@@ -94,7 +94,7 @@ In general,
 $$
 
 
-\textrm{dim}(\mathbb{R}_n[t])=n+1.
+\text{dim}(\mathbb{R}_n[t])=n+1.
 
 
 $$
@@ -126,7 +126,7 @@ If we were to repeat the same process above for the vector space $\text{M}_{5\ti
 $$
 
 
-\textrm{dim}(\text{M}_{5\times 6}(\mathbb{R})) = 5\cdot 6 =30.
+\text{dim}(\text{M}_{5\times 6}(\mathbb{R})) = 5\cdot 6 =30.
 
 
 $$
@@ -136,7 +136,7 @@ In general,
 $$
 
 
-\textrm{dim}(\text{M}_{n\times m}(\mathbb{R})) = n\cdot m.
+\text{dim}(\text{M}_{n\times m}(\mathbb{R})) = n\cdot m.
 
 
 $$
@@ -157,17 +157,17 @@ Which of the following vector spaces has a dimension of $9?$
 
 Let's examine each of the vector spaces in turn.
 
-1. Recall that $\textrm{dim}(\mathbb{R}^n)=n.$ Therefore,
+1. Recall that $\text{dim}(\mathbb{R}^n)=n.$ Therefore,
 
-2. Recall that $\textrm{dim}(\mathbb{R}_{n}[t])=n+1.$ Therefore,
+2. Recall that $\text{dim}(\mathbb{R}_{n}[t])=n+1.$ Therefore,
 
-3. Recall that $\textrm{dim}(\text{M}_{n}(\mathbb{R}))=n^2.$ Therefore,
+3. Recall that $\text{dim}(\text{M}_{n}(\mathbb{R}))=n^2.$ Therefore,
 
 Hence, the correct answer is "II and III only."
 
 ### Infinite-Dimensional Vector Spaces
 
-When a vector space $V$ has a finite dimension $\textrm{dim}(V) = n < \infty,$ the vector space is **finite-dimensional**.
+When a vector space $V$ has a finite dimension $\text{dim}(V) = n < \infty,$ the vector space is **finite-dimensional**.
 
 Some vector spaces can have arbitrarily large linearly independent sets. In such cases, the vector space is **infinite-dimensional**.
 

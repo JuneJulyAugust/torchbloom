@@ -13,7 +13,7 @@ Topic ID: 3947
 
 Fraction addition often arises in real-world situations.
 
-For example, suppose a cable is cut into two pieces. One piece is of length $\dfrac{2}{7}\,\textrm{m}$ and the other of length $\dfrac{4}{7}\,\textrm{m}.$ What was the original length of the cable?
+For example, suppose a cable is cut into two pieces. One piece is of length $\dfrac{2}{7}\,\text{m}$ and the other of length $\dfrac{4}{7}\,\text{m}.$ What was the original length of the cable?
 
 To find the original length of the cable, we need to calculate the sum
 
@@ -31,13 +31,13 @@ $$
 
 $$
 
-Therefore, the original length of the cable was $\dfrac{6}{7}\,\textrm{m}.$
+Therefore, the original length of the cable was $\dfrac{6}{7}\,\text{m}.$
 
 ### Example: Adding Fractions
 
 #### Question
 
-Grace downloaded two files. The size of the first file was $\dfrac{7}{5}\,\textrm{MB}$ and the size of the second was $\dfrac{2}{5}\,\textrm{MB}.$ What is the combined size of the files?
+Grace downloaded two files. The size of the first file was $\dfrac{7}{5}\,\text{MB}$ and the size of the second was $\dfrac{2}{5}\,\text{MB}.$ What is the combined size of the files?
 
 #### Explanation
 
@@ -51,7 +51,7 @@ $$
 
 $$
 
-Therefore, the combined size of the files is $\dfrac{9}{5}\,\textrm{MB}.$
+Therefore, the combined size of the files is $\dfrac{9}{5}\,\text{MB}.$
 
 ### Example: Adding Fractions and Simplifying the Result
 
@@ -85,7 +85,7 @@ Therefore, Claire used $\dfrac{2}{5}\, \mathrm{yd}$ of fabric.
 
 #### Question
 
-Emily carries some books and other supplies in her backpack. If her books weigh $\dfrac{74}{8}\,\textrm{lb}$ and her other supplies weigh $\dfrac{25}{8}\,\textrm{lb},$ what is the combined weight of the contents of Emily's backpack? Express your final answer as a mixed number.
+Emily carries some books and other supplies in her backpack. If her books weigh $\dfrac{74}{8}\,\text{lb}$ and her other supplies weigh $\dfrac{25}{8}\,\text{lb},$ what is the combined weight of the contents of Emily's backpack? Express your final answer as a mixed number.
 
 #### Explanation
 
@@ -103,8 +103,8 @@ We then convert $\dfrac{99}{8}$ to a mixed number:
 
 $$
 
-99 \div 8 = 12\,\textrm{R}3 = 12\,\dfrac38
+99 \div 8 = 12\,\text{R}3 = 12\,\dfrac38
 
 $$
 
-Therefore, the contents Emily's backpack weigh $12\,\dfrac{3}{8}\,\textrm{lb}.$
+Therefore, the contents Emily's backpack weigh $12\,\dfrac{3}{8}\,\text{lb}.$

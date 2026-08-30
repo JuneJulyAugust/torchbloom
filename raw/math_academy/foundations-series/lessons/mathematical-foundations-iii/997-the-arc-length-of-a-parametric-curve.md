@@ -42,7 +42,7 @@ is given by the formula
 $$
 
 
-L = \int_{t_1}^{t_2} \sqrt{\left(\dfrac{\textrm{d}x}{\textrm{d}t}\right)^2+\left(\dfrac{\textrm{d}y}{\textrm{d}t}\right)^2}\,\textrm{d}t.
+L = \int_{t_1}^{t_2} \sqrt{\left(\dfrac{\text{d}x}{\text{d}t}\right)^2+\left(\dfrac{\text{d}y}{\text{d}t}\right)^2}\,\text{d}t.
 
 
 $$
@@ -54,7 +54,7 @@ According to the formula, the length of the blue arc is
 $$
 
 
-\begin{aligned}𝐿 & =∫_{𝜋/20}^{}\sqrt{√(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}}\,d𝑡 \\ & =∫_{𝜋/20}^{}\sqrt{√(\frac{d}{d𝑡}(2cos⁡𝑡))^{2}+(\frac{d}{d𝑡}(2sin⁡𝑡))^{2}}\,d𝑡 \\ & =∫_{𝜋/20}^{}\sqrt{√(−2sin⁡𝑡)^{2}+(2cos⁡𝑡)^{2}}\,d𝑡 \\ & =∫_{𝜋/20}^{}\sqrt{√4(sin^{2}⁡𝑡+cos^{2}⁡𝑡)}\,d𝑡 \\ & =∫_{𝜋/20}^{}2\,d𝑡 \\ & =2𝑡_{𝜋/20}^{} \\ & =2(\frac{𝜋}{2}−0) \\ & =𝜋.\end{aligned}
+\begin{aligned}𝐿 & =∫_{𝜋/20}\sqrt{(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}}\,d𝑡 \\ & =∫_{𝜋/20}\sqrt{(\frac{d}{d𝑡}(2cos⁡𝑡))^{2}+(\frac{d}{d𝑡}(2sin⁡𝑡))^{2}}\,d𝑡 \\ & =∫_{𝜋/20}\sqrt{(−2sin⁡𝑡)^{2}+(2cos⁡𝑡)^{2}}\,d𝑡 \\ & =∫_{𝜋/20}\sqrt{4(sin^{2}⁡𝑡+cos^{2}⁡𝑡)}\,d𝑡 \\ & =∫_{𝜋/20}2\,d𝑡 \\ & =2𝑡_{𝜋/20} \\ & =2(\frac{𝜋}{2}−0) \\ & =𝜋.\end{aligned}
 
 
 $$
@@ -82,7 +82,7 @@ To compute the arc length $L$ of a parametrically defined curve, we use the form
 $$
 
 
-L = \int_{t_1}^{t_2} \sqrt{ \left( \dfrac{\textrm{d}x}{\textrm{d}t}\right)^2 + \left( \dfrac{\textrm{d}y}{\textrm{d}t}\right)^2}\:\textrm{d}t.
+L = \int_{t_1}^{t_2} \sqrt{ \left( \dfrac{\text{d}x}{\text{d}t}\right)^2 + \left( \dfrac{\text{d}y}{\text{d}t}\right)^2}\:\text{d}t.
 
 
 $$
@@ -112,7 +112,7 @@ We substitute these derivatives in the formula for arc length, and we get
 $$
 
 
-\begin{aligned}𝐿 & =∫_{𝑡_{2}𝑡_{1}}^{}\sqrt{√(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}}\,d𝑡 \\ & =∫_{10}^{}\sqrt{√(−1)^{2}+(𝑡^{1/2})^{2}}\,d𝑡 \\ & =∫_{10}^{}\sqrt{√1+𝑡}\,d𝑡.\end{aligned}
+\begin{aligned}𝐿 & =∫_{𝑡_{2}𝑡_{1}}^{}\sqrt{(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}}\,d𝑡 \\ & =∫_{10}\sqrt{(−1)^{2}+(𝑡^{1/2})^{2}}\,d𝑡 \\ & =∫_{10}\sqrt{1+𝑡}\,d𝑡.\end{aligned}
 
 
 $$
@@ -132,7 +132,7 @@ To compute the arc length $L$ of a parametrically defined curve, we use the form
 $$
 
 
-L = \int_{t_1}^{t_2} \sqrt{ \left( \dfrac{\textrm{d}x}{\textrm{d}t}\right)^2 + \left( \dfrac{\textrm{d}y}{\textrm{d}t}\right)^2}\:\textrm{d}t.
+L = \int_{t_1}^{t_2} \sqrt{ \left( \dfrac{\text{d}x}{\text{d}t}\right)^2 + \left( \dfrac{\text{d}y}{\text{d}t}\right)^2}\:\text{d}t.
 
 
 $$
@@ -162,7 +162,7 @@ We substitute these derivatives in the formula for arc length, and we get
 $$
 
 
-\begin{aligned}𝐿 & =∫_{𝑡_{2}𝑡_{1}}^{}\sqrt{√(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}}\,d𝑡 \\ & =∫_{𝜋/40}^{}\sqrt{√(1)^{2}+(−tan⁡𝑡)^{2}}\,d𝑡 \\ & =∫_{𝜋/40}^{}\sqrt{√1+tan^{2}⁡𝑡}\,d𝑡 \\ & =∫_{𝜋/40}^{}\sqrt{√sec^{2}⁡𝑡}\,d𝑡 \\ & =∫_{𝜋/40}^{}sec⁡𝑡\,d𝑡\,.\end{aligned}
+\begin{aligned}𝐿 & =∫_{𝑡_{2}𝑡_{1}}^{}\sqrt{(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}}\,d𝑡 \\ & =∫_{𝜋/40}\sqrt{(1)^{2}+(−tan⁡𝑡)^{2}}\,d𝑡 \\ & =∫_{𝜋/40}\sqrt{1+tan^{2}⁡𝑡}\,d𝑡 \\ & =∫_{𝜋/40}\sqrt{sec^{2}⁡𝑡}\,d𝑡 \\ & =∫_{𝜋/40}sec⁡𝑡\,d𝑡\,.\end{aligned}
 
 
 $$
@@ -210,7 +210,7 @@ We substitute these derivatives in the formula for arc length, and we get
 $$
 
 
-\begin{aligned}𝐿 & =∫_{𝑡_{2}𝑡_{1}}^{}\sqrt{√(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}}\,d𝑡 \\ & =∫_{𝜋/40}^{}\sqrt{√(2𝑒^{𝑡}cos⁡𝑡)^{2}+(−2𝑒^{𝑡}sin⁡𝑡)^{2}}\,d𝑡 \\ & =∫_{𝜋/40}^{}\sqrt{√4𝑒^{2𝑡}(cos^{2}⁡𝑡+sin^{2}⁡𝑡)}\,d𝑡 \\ & =∫_{𝜋/40}^{}2𝑒^{𝑡}\,d𝑡 \\ & =2𝑒^{𝑡}_{𝜋/40}^{} \\ & =2(𝑒^{𝜋/4}−1).\end{aligned}
+\begin{aligned}𝐿 & =∫_{𝑡_{2}𝑡_{1}}^{}\sqrt{(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}}\,d𝑡 \\ & =∫_{𝜋/40}\sqrt{(2𝑒^{𝑡}cos⁡𝑡)^{2}+(−2𝑒^{𝑡}sin⁡𝑡)^{2}}\,d𝑡 \\ & =∫_{𝜋/40}\sqrt{4𝑒^{2𝑡}(cos^{2}⁡𝑡+sin^{2}⁡𝑡)}\,d𝑡 \\ & =∫_{𝜋/40}2𝑒^{𝑡}\,d𝑡 \\ & =2𝑒^{𝑡}_{𝜋/40} \\ & =2(𝑒^{𝜋/4}−1).\end{aligned}
 
 
 $$
@@ -242,7 +242,7 @@ To approximate the length $\Delta{s}$ we apply the Pythagorean theorem, as follo
 $$
 
 
-\begin{aligned}Δ𝑠 & ≈\sqrt{√(Δ𝑥)^{2}+(Δ𝑦)^{2}}.\end{aligned}
+\begin{aligned}Δ𝑠 & ≈\sqrt{(Δ𝑥)^{2}+(Δ𝑦)^{2}}.\end{aligned}
 
 
 $$
@@ -262,7 +262,7 @@ We then take the limit as $\Delta x, \Delta y \rightarrow 0.$ As we do this, the
 $$
 
 
-\begin{aligned}𝐿 & =∫\sqrt{√(d𝑥)^{2}+(d𝑦)^{2}} \\ & =∫_{𝑡_{2}𝑡_{1}}^{}\sqrt{√(\frac{d𝑥}{d𝑡}⋅d𝑡)^{2}+(\frac{d𝑦}{d𝑡}⋅d𝑡)^{2}} \\ & =∫_{𝑡_{2}𝑡_{1}}^{}\sqrt{√(\frac{d𝑥}{d𝑡})^{2}⋅(d𝑡)^{2}+(\frac{d𝑦}{d𝑡})^{2}⋅(d𝑡)^{2}} \\ & =∫_{𝑡_{2}𝑡_{1}}^{}\sqrt{√(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}}⋅\sqrt{√d𝑡^{2}} \\ & =∫_{𝑡_{2}𝑡_{1}}^{}\sqrt{√(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}}\,d𝑡.\end{aligned}
+\begin{aligned}𝐿 & =∫\sqrt{(d𝑥)^{2}+(d𝑦)^{2}} \\ & =∫_{𝑡_{2}𝑡_{1}}^{}\sqrt{(\frac{d𝑥}{d𝑡}⋅d𝑡)^{2}+(\frac{d𝑦}{d𝑡}⋅d𝑡)^{2}} \\ & =∫_{𝑡_{2}𝑡_{1}}^{}\sqrt{(\frac{d𝑥}{d𝑡})^{2}⋅(d𝑡)^{2}+(\frac{d𝑦}{d𝑡})^{2}⋅(d𝑡)^{2}} \\ & =∫_{𝑡_{2}𝑡_{1}}^{}\sqrt{(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}}⋅\sqrt{d𝑡^{2}} \\ & =∫_{𝑡_{2}𝑡_{1}}^{}\sqrt{(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}}\,d𝑡.\end{aligned}
 
 
 $$

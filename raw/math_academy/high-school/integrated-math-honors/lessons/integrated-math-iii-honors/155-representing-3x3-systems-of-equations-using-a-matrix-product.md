@@ -56,7 +56,7 @@ We can write any system of three equations with three variables in this form. Ju
 $$
 
 
-\begin{aligned}𝐴𝐱 & =\begin{aligned}3 & 2 & −2 \\ 2 & −1 & −4 \\ 2 & 1 & −3\end{aligned}\begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned} \\ & =\begin{aligned}3𝑥+2𝑦 − 2𝑧 \\ 2𝑥 − 1𝑦 − 4𝑧 \\ 2𝑥+1𝑦 − 3𝑧\end{aligned} \\ & =\begin{aligned}7 \\ 2 \\ 3\end{aligned} \\ & =𝐛\,✓\end{aligned}
+\begin{aligned}𝐴𝐱 & =\begin{matrix}3 & 2 & −2 \\ 2 & −1 & −4 \\ 2 & 1 & −3\end{matrix}\begin{matrix}𝑥 \\ 𝑦 \\ 𝑧\end{matrix} \\ & =\begin{matrix}3𝑥+2𝑦 − 2𝑧 \\ 2𝑥 − 1𝑦 − 4𝑧 \\ 2𝑥+1𝑦 − 3𝑧\end{matrix} \\ & =\begin{matrix}7 \\ 2 \\ 3\end{matrix} \\ & =𝐛\,✓\end{aligned}
 
 
 $$
@@ -70,7 +70,7 @@ The system of equations
 $$
 
 
-\begin{aligned}\begin{aligned}6𝑥+4𝑦=1 \\ 𝑥−8𝑦−𝑧=−2 \\ 3𝑥+2𝑦−2𝑧=1\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}6𝑥+4𝑦=1 \\ 𝑥−8𝑦−𝑧=−2 \\ 3𝑥+2𝑦−2𝑧=1\end{matrix}\end{aligned}
 
 
 $$
@@ -152,7 +152,7 @@ The system of equations
 $$
 
 
-\begin{aligned}\begin{aligned}2𝑥−𝑦+𝑧=4 \\ 𝑧−𝑥+2=−1 \\ 2𝑦−2𝑥−4𝑧=−4\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}2𝑥−𝑦+𝑧=4 \\ 𝑧−𝑥+2=−1 \\ 2𝑦−2𝑥−4𝑧=−4\end{matrix}\end{aligned}
 
 
 $$

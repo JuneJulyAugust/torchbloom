@@ -69,7 +69,7 @@ Let $[\begin{aligned}2 & 1 \\ −2 & 1\end{aligned}]$ Then
 $$
 
 
-\begin{aligned}𝑃^{−1} & =[\begin{aligned}2 & 1 \\ −2 & 1\end{aligned}]^{−1}=\frac{1}{4}[\begin{aligned}1 & −1 \\ 2 & 2\end{aligned}].\end{aligned}
+\begin{aligned}𝑃^{−1} & =[\begin{matrix}2 & 1 \\ −2 & 1\end{matrix}]^{−1}=\frac{1}{4}[\begin{matrix}1 & −1 \\ 2 & 2\end{matrix}].\end{aligned}
 
 
 $$
@@ -79,7 +79,7 @@ Therefore, carrying out the necessary matrix multiplication, we obtain
 $$
 
 
-\begin{aligned}𝐶 & =\frac{1}{4}[\begin{aligned}2 & 1 \\ −2 & 1\end{aligned}][\begin{aligned}1 & 0 \\ 0 & −4\end{aligned}][\begin{aligned}1 & −1 \\ 2 & 2\end{aligned}] \\ & =\frac{1}{4}[\begin{aligned}2 & −4 \\ −2 & −4\end{aligned}][\begin{aligned}1 & −1 \\ 2 & 2\end{aligned}] \\ & =\begin{aligned}−\frac{3}{2} & −\frac{5}{2} \\ −\frac{5}{2} & −\frac{3}{2}\end{aligned}.\end{aligned}
+\begin{aligned}𝐶 & =\frac{1}{4}[\begin{matrix}2 & 1 \\ −2 & 1\end{matrix}][\begin{matrix}1 & 0 \\ 0 & −4\end{matrix}][\begin{matrix}1 & −1 \\ 2 & 2\end{matrix}] \\ & =\frac{1}{4}[\begin{matrix}2 & −4 \\ −2 & −4\end{matrix}][\begin{matrix}1 & −1 \\ 2 & 2\end{matrix}] \\ & =\begin{matrix}−\frac{3}{2} & −\frac{5}{2} \\ −\frac{5}{2} & −\frac{3}{2}\end{matrix}.\end{aligned}
 
 
 $$
@@ -137,7 +137,7 @@ Since $D$ is a diagonal matrix, we have the following:
 $$
 
 
-\begin{aligned}𝐷^{2} & =[\begin{aligned}1 & 0 \\ 0 & −1\end{aligned}][\begin{aligned}1 & 0 \\ 0 & −1\end{aligned}]=[\begin{aligned}1^{2} & 0 \\ 0 & (−1)^{2}\end{aligned}] \\ 𝐷^{3} & =𝐷^{2}𝐷=[\begin{aligned}1^{2} & 0 \\ 0 & (−1)^{2}\end{aligned}][\begin{aligned}1 & 0 \\ 0 & −1\end{aligned}]=[\begin{aligned}1^{3} & 0 \\ 0 & (−1)^{3}\end{aligned}]\end{aligned}
+\begin{aligned}𝐷^{2} & =[\begin{matrix}1 & 0 \\ 0 & −1\end{matrix}][\begin{matrix}1 & 0 \\ 0 & −1\end{matrix}]=[\begin{matrix}1^{2} & 0 \\ 0 & (−1)^{2}\end{matrix}] \\ 𝐷^{3} & =𝐷^{2}𝐷=[\begin{matrix}1^{2} & 0 \\ 0 & (−1)^{2}\end{matrix}][\begin{matrix}1 & 0 \\ 0 & −1\end{matrix}]=[\begin{matrix}1^{3} & 0 \\ 0 & (−1)^{3}\end{matrix}]\end{aligned}
 
 
 $$
@@ -157,7 +157,7 @@ Therefore, we can conclude that
 $$
 
 
-\begin{aligned}𝐴^{55} & =[\begin{aligned}5 & 1 \\ 0 & 1\end{aligned}][\begin{aligned}1 & 0 \\ 0 & −1\end{aligned}]^{55}\begin{aligned}\frac{1}{5} & −\frac{1}{5} \\ 0 & 1\end{aligned} \\ & =[\begin{aligned}5 & 1 \\ 0 & 1\end{aligned}][\begin{aligned}1 & 0 \\ 0 & −1\end{aligned}]\begin{aligned}\frac{1}{5} & −\frac{1}{5} \\ 0 & 1\end{aligned} \\ & =[\begin{aligned}5 & −1 \\ 0 & −1\end{aligned}]\begin{aligned}\frac{1}{5} & −\frac{1}{5} \\ 0 & 1\end{aligned} \\ & =[\begin{aligned}1 & −2 \\ 0 & −1\end{aligned}].\end{aligned}
+\begin{aligned}𝐴^{55} & =[\begin{matrix}5 & 1 \\ 0 & 1\end{matrix}][\begin{matrix}1 & 0 \\ 0 & −1\end{matrix}]^{55}\begin{matrix}\frac{1}{5} & −\frac{1}{5} \\ 0 & 1\end{matrix} \\ & =[\begin{matrix}5 & 1 \\ 0 & 1\end{matrix}][\begin{matrix}1 & 0 \\ 0 & −1\end{matrix}]\begin{matrix}\frac{1}{5} & −\frac{1}{5} \\ 0 & 1\end{matrix} \\ & =[\begin{matrix}5 & −1 \\ 0 & −1\end{matrix}]\begin{matrix}\frac{1}{5} & −\frac{1}{5} \\ 0 & 1\end{matrix} \\ & =[\begin{matrix}1 & −2 \\ 0 & −1\end{matrix}].\end{aligned}
 
 
 $$
@@ -223,7 +223,7 @@ Carrying out the necessary multiplication, we obtain the following:
 $$
 
 
-\begin{aligned}𝐴^{100} & =𝑃𝐷^{100}𝑃^{−1} \\ & =[\begin{aligned}2 & −1 \\ −1 & 1\end{aligned}][\begin{aligned}1 & 0 \\ 0 & 0\end{aligned}]^{100}[\begin{aligned}1 & 1 \\ 1 & 2\end{aligned}] \\ & =[\begin{aligned}2 & −1 \\ −1 & 1\end{aligned}][\begin{aligned}1^{100} & 0 \\ 0 & 0^{100}\end{aligned}][\begin{aligned}1 & 1 \\ 1 & 2\end{aligned}] \\ & =[\begin{aligned}2 & −1 \\ −1 & 1\end{aligned}][\begin{aligned}1 & 0 \\ 0 & 0\end{aligned}][\begin{aligned}1 & 1 \\ 1 & 2\end{aligned}] \\ & =[\begin{aligned}2 & 0 \\ −1 & 0\end{aligned}][\begin{aligned}1 & 1 \\ 1 & 2\end{aligned}] \\ & =[\begin{aligned}2 & 2 \\ −1 & −1\end{aligned}].\end{aligned}
+\begin{aligned}𝐴^{100} & =𝑃𝐷^{100}𝑃^{−1} \\ & =[\begin{matrix}2 & −1 \\ −1 & 1\end{matrix}][\begin{matrix}1 & 0 \\ 0 & 0\end{matrix}]^{100}[\begin{matrix}1 & 1 \\ 1 & 2\end{matrix}] \\ & =[\begin{matrix}2 & −1 \\ −1 & 1\end{matrix}][\begin{matrix}1^{100} & 0 \\ 0 & 0^{100}\end{matrix}][\begin{matrix}1 & 1 \\ 1 & 2\end{matrix}] \\ & =[\begin{matrix}2 & −1 \\ −1 & 1\end{matrix}][\begin{matrix}1 & 0 \\ 0 & 0\end{matrix}][\begin{matrix}1 & 1 \\ 1 & 2\end{matrix}] \\ & =[\begin{matrix}2 & 0 \\ −1 & 0\end{matrix}][\begin{matrix}1 & 1 \\ 1 & 2\end{matrix}] \\ & =[\begin{matrix}2 & 2 \\ −1 & −1\end{matrix}].\end{aligned}
 
 
 $$
@@ -259,7 +259,7 @@ Therefore, $E$ is diagonalizable. The eigenvalues of $E$ are $\lambda_1=3$ and $
 $$
 
 
-\begin{aligned}𝑃=[\begin{aligned}3 & 6 \\ 1 & 1\end{aligned}]^{−1}=\frac{1}{−3}[\begin{aligned}1 & −6 \\ −1 & 3\end{aligned}]=\begin{aligned}−\frac{1}{3} & 2 \\ \frac{1}{3} & −1\end{aligned}.\end{aligned}
+\begin{aligned}𝑃=[\begin{matrix}3 & 6 \\ 1 & 1\end{matrix}]^{−1}=\frac{1}{−3}[\begin{matrix}1 & −6 \\ −1 & 3\end{matrix}]=\begin{matrix}−\frac{1}{3} & 2 \\ \frac{1}{3} & −1\end{matrix}.\end{aligned}
 
 
 $$

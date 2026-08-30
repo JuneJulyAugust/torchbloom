@@ -111,7 +111,7 @@ Recall that we can define an inner product on functions over $[-\pi,\pi)$ given 
 $$
 
 
-\langle f(x), g(x)\rangle=\int_{-\pi}^{\pi} f(x)g(x)\,\textrm{d}x.
+\langle f(x), g(x)\rangle=\int_{-\pi}^{\pi} f(x)g(x)\,\text{d}x.
 
 
 $$
@@ -165,7 +165,7 @@ Let's see how this works in concrete examples.
 $$
 
 
-\langle f(x),g(x) \rangle = \displaystyle\int_{0}^{2\pi} f(x) g(x) \, \textrm{d}x
+\langle f(x),g(x) \rangle = \displaystyle\int_{0}^{2\pi} f(x) g(x) \, \text{d}x
 
 
 $$
@@ -189,7 +189,7 @@ Substituting this into the integral gives
 $$
 
 
-\begin{aligned}⟨sin⁡(6𝑥),cos⁡(4𝑥)⟩ & =∫_{2𝜋0}^{}sin⁡(6𝑥)cos⁡(4𝑥)\,d𝑥 \\ & =∫_{2𝜋0}^{}\frac{1}{2}sin⁡(10𝑥)+\frac{1}{2}sin⁡(2𝑥)\,d𝑥 \\ & =[−\frac{1}{20}cos⁡(10𝑥)−\frac{1}{4}cos⁡(2𝑥)]_{2𝜋0}^{} \\ & =−\frac{1}{20}(cos⁡(20𝜋)−cos⁡(0))−\frac{1}{4}(cos⁡(4𝜋)−cos⁡(0)) \\ & =−\frac{1}{20}(1−1)−\frac{1}{4}(1−1) \\ & =0.\end{aligned}
+\begin{aligned}⟨sin⁡(6𝑥),cos⁡(4𝑥)⟩ & =∫_{2𝜋0}sin⁡(6𝑥)cos⁡(4𝑥)\,d𝑥 \\ & =∫_{2𝜋0}\frac{1}{2}sin⁡(10𝑥)+\frac{1}{2}sin⁡(2𝑥)\,d𝑥 \\ & =[−\frac{1}{20}cos⁡(10𝑥)−\frac{1}{4}cos⁡(2𝑥)]_{2𝜋0} \\ & =−\frac{1}{20}(cos⁡(20𝜋)−cos⁡(0))−\frac{1}{4}(cos⁡(4𝜋)−cos⁡(0)) \\ & =−\frac{1}{20}(1−1)−\frac{1}{4}(1−1) \\ & =0.\end{aligned}
 
 
 $$
@@ -215,7 +215,7 @@ To do this, we'll use a powerful idea from linear algebra. We define an *inner p
 $$
 
 
-\langle f(x), g(x)\rangle=\int_{-\pi}^{\pi} f(x)g(x)\,\textrm{d}x.
+\langle f(x), g(x)\rangle=\int_{-\pi}^{\pi} f(x)g(x)\,\text{d}x.
 
 
 $$
@@ -246,11 +246,11 @@ with the constant function $1.$
 
 - **Step 3.** Apply the orthogonality property. For any $n\ge 1,$ we have $\langle \cos(nx),1\rangle=0$ and $\langle \sin(nx),1\rangle=0.$ This makes all the terms in the sums equal to zero:
 
-- **Step 4.** Solve for $a_0.$ We just need to calculate $\langle 1,1\rangle=\displaystyle\int_{-\pi}^{\pi} 1\cdot 1\,\textrm{d}x=2\pi.$
+- **Step 4.** Solve for $a_0.$ We just need to calculate $\langle 1,1\rangle=\displaystyle\int_{-\pi}^{\pi} 1\cdot 1\,\text{d}x=2\pi.$
 
 We find the formulas for $a_n$ and $b_n$ (for $n\ge 1$) in a similar way.
 
-- To find $a_n,$ we take the inner product of the Fourier series with $\cos(nx).$ By orthogonality, the only term that is not zero on the right-hand side is the one involving $\langle \cos(nx),\cos(nx)\rangle.$ Since $\langle \cos(nx),\cos(nx)\rangle = \displaystyle\int_{-\pi}^{\pi}\cos^2(nx)\,\textrm{d}x = \pi,$ we can solve for $a_n{:}$
+- To find $a_n,$ we take the inner product of the Fourier series with $\cos(nx).$ By orthogonality, the only term that is not zero on the right-hand side is the one involving $\langle \cos(nx),\cos(nx)\rangle.$ Since $\langle \cos(nx),\cos(nx)\rangle = \displaystyle\int_{-\pi}^{\pi}\cos^2(nx)\,\text{d}x = \pi,$ we can solve for $a_n{:}$
 
 - Similarly, to find $b_n,$ we take the inner product with $\sin(nx){:}$
 
@@ -281,7 +281,7 @@ The usual inner product of functions $f$ and $g$ over $x\in [0,2\pi)$ is given b
 $$
 
 
-\langle f(x),g(x) \rangle = \int_{0}^{2\pi} f(x)g(x)\,\textrm{d}x.
+\langle f(x),g(x) \rangle = \int_{0}^{2\pi} f(x)g(x)\,\text{d}x.
 
 
 $$
@@ -323,7 +323,7 @@ Computing the inner product, we have
 $$
 
 
-\begin{aligned}⟨cos⁡(4𝑥),cos⁡(4𝑥)⟩ & =∫_{2𝜋0}^{}cos^{2}⁡(4𝑥)\,d𝑥 \\ & =∫_{2𝜋0}^{}\frac{1}{2}+\frac{1}{2}cos⁡(8𝑥)\,d𝑥 \\ & =[\frac{1}{2}𝑥+\frac{1}{16}sin⁡(8𝑥)]_{2𝜋0}^{} \\ & =\frac{1}{2}(2𝜋−0)−\frac{1}{16}(sin⁡(16𝜋)−sin⁡(0)) \\ & =𝜋.\end{aligned}
+\begin{aligned}⟨cos⁡(4𝑥),cos⁡(4𝑥)⟩ & =∫_{2𝜋0}cos^{2}⁡(4𝑥)\,d𝑥 \\ & =∫_{2𝜋0}\frac{1}{2}+\frac{1}{2}cos⁡(8𝑥)\,d𝑥 \\ & =[\frac{1}{2}𝑥+\frac{1}{16}sin⁡(8𝑥)]_{2𝜋0} \\ & =\frac{1}{2}(2𝜋−0)−\frac{1}{16}(sin⁡(16𝜋)−sin⁡(0)) \\ & =𝜋.\end{aligned}
 
 
 $$
@@ -333,7 +333,7 @@ Finally, we obtain that
 $$
 
 
-\begin{aligned}⟨𝑓(𝑥),cos⁡(4𝑥)⟩ & =𝑎_{4}⟨cos⁡(4𝑥),cos⁡(4𝑥)⟩ \\ 𝑎_{4} & =\frac{⟨𝑓(𝑥),cos⁡(4𝑥)⟩}{⟨cos⁡(4𝑥),cos⁡(4𝑥)⟩} \\ 𝑎_{4} & =\frac{1}{𝜋}∫_{2𝜋0}^{}𝑓(𝑥)cos⁡(4𝑥)\,d𝑥 \\ & =\frac{1}{𝜋}⋅∫_{2𝜋0}^{}(2𝑥^{2}+5)cos⁡(4𝑥)\,d𝑥.\end{aligned}
+\begin{aligned}⟨𝑓(𝑥),cos⁡(4𝑥)⟩ & =𝑎_{4}⟨cos⁡(4𝑥),cos⁡(4𝑥)⟩ \\ 𝑎_{4} & =\frac{⟨𝑓(𝑥),cos⁡(4𝑥)⟩}{⟨cos⁡(4𝑥),cos⁡(4𝑥)⟩} \\ 𝑎_{4} & =\frac{1}{𝜋}∫_{2𝜋0}𝑓(𝑥)cos⁡(4𝑥)\,d𝑥 \\ & =\frac{1}{𝜋}⋅∫_{2𝜋0}(2𝑥^{2}+5)cos⁡(4𝑥)\,d𝑥.\end{aligned}
 
 
 $$
@@ -355,7 +355,7 @@ To determine the coefficients, we use the inner product on $[-\pi,\pi)$:
 $$
 
 
-\langle f(x), g(x)\rangle=\int_{-\pi}^{\pi} f(x)g(x)\,\textrm{d}x.
+\langle f(x), g(x)\rangle=\int_{-\pi}^{\pi} f(x)g(x)\,\text{d}x.
 
 
 $$
@@ -368,7 +368,7 @@ Now, we derive the formula for $a_n$ for $n\ge 1{:}$
 
 - Using linearity, we get
 
-- By orthogonality, $\langle 1,\cos(nx)\rangle=0,$ $\langle \sin(kx),\cos(nx)\rangle=0$ for all $k,$ and $\langle \cos(kx),\cos(nx)\rangle=0$ whenever $k\ne n,$ so Since $\displaystyle \langle \cos(nx),\cos(nx)\rangle=\int_{-\pi}^{\pi} \cos^2(nx)\,\textrm{d}x=\pi,$ we obtain
+- By orthogonality, $\langle 1,\cos(nx)\rangle=0,$ $\langle \sin(kx),\cos(nx)\rangle=0$ for all $k,$ and $\langle \cos(kx),\cos(nx)\rangle=0$ whenever $k\ne n,$ so Since $\displaystyle \langle \cos(nx),\cos(nx)\rangle=\int_{-\pi}^{\pi} \cos^2(nx)\,\text{d}x=\pi,$ we obtain
 
 Finally, we derive the formula for $b_n$ for $n\ge 1{:}$
 
@@ -376,14 +376,14 @@ Finally, we derive the formula for $b_n$ for $n\ge 1{:}$
 
 - Using linearity, we get
 
-- By orthogonality, $\langle 1,\sin(nx)\rangle=0,$ $\langle \cos(kx),\sin(nx)\rangle=0$ for all $k,$ and $\langle \sin(kx),\sin(nx)\rangle=0$ whenever $k\ne n,$ so Since $\displaystyle \langle \sin(nx),\sin(nx)\rangle=\int_{-\pi}^{\pi} \sin^2(nx)\,\textrm{d}x=\pi,$ we obtain
+- By orthogonality, $\langle 1,\sin(nx)\rangle=0,$ $\langle \cos(kx),\sin(nx)\rangle=0$ for all $k,$ and $\langle \sin(kx),\sin(nx)\rangle=0$ whenever $k\ne n,$ so Since $\displaystyle \langle \sin(nx),\sin(nx)\rangle=\int_{-\pi}^{\pi} \sin^2(nx)\,\text{d}x=\pi,$ we obtain
 
 Putting these together, the Fourier coefficients are the following:
 
 $$
 
 
-\begin{aligned}𝑎_{0} & =\frac{1}{𝜋}∫_{𝜋−𝜋}^{}𝑓(𝑥)\,d𝑥 \\ 𝑎_{𝑛} & =\frac{1}{𝜋}∫_{𝜋−𝜋}^{}𝑓(𝑥)cos⁡(𝑛𝑥)\,d𝑥,\,𝑛≥1 \\ 𝑏_{𝑛} & =\frac{1}{𝜋}∫_{𝜋−𝜋}^{}𝑓(𝑥)sin⁡(𝑛𝑥)\,d𝑥,\,𝑛≥1\end{aligned}
+\begin{aligned}𝑎_{0} & =\frac{1}{𝜋}∫_{𝜋−𝜋}𝑓(𝑥)\,d𝑥 \\ 𝑎_{𝑛} & =\frac{1}{𝜋}∫_{𝜋−𝜋}𝑓(𝑥)cos⁡(𝑛𝑥)\,d𝑥,\,𝑛≥1 \\ 𝑏_{𝑛} & =\frac{1}{𝜋}∫_{𝜋−𝜋}𝑓(𝑥)sin⁡(𝑛𝑥)\,d𝑥,\,𝑛≥1\end{aligned}
 
 
 $$

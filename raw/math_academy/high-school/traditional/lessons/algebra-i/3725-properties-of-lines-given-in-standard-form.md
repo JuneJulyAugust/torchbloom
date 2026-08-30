@@ -86,7 +86,7 @@ To find the $x$-intercept, we substitute $y=0$ into the equation and solve for $
 $$
 
 
-\begin{aligned} 4x-3y&=8\\\[5pt] 4x-3(0)&=8\\\[5pt] 4x&=8\\\[5pt] \dfrac{4x}{4}&=\dfrac{8}{4}\\\[5pt] x&=2 \end{aligned}
+\begin{aligned} 4x-3y&=8\\[5pt] 4x-3(0)&=8\\[5pt] 4x&=8\\[5pt] \dfrac{4x}{4}&=\dfrac{8}{4}\\[5pt] x&=2 \end{aligned}
 
 
 $$

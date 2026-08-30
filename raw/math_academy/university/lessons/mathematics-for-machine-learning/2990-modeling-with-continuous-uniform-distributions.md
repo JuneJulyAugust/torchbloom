@@ -52,7 +52,7 @@ For example, the probability that a randomly selected patient waits longer than 
 $$
 
 
-\begin{aligned}𝑃(𝑋≥9) & =∫_{149}^{}\frac{1}{8}\,d𝑥 \\ & =\frac{1}{8}∫_{149}^{}\,d𝑥 \\ & =\frac{1}{8}[𝑥]_{149}^{} \\ & =\frac{1}{8}[14−9] \\ & =\frac{5}{8}.\end{aligned}
+\begin{aligned}𝑃(𝑋≥9) & =∫_{149}\frac{1}{8}\,d𝑥 \\ & =\frac{1}{8}∫_{149}\,d𝑥 \\ & =\frac{1}{8}[𝑥]_{149} \\ & =\frac{1}{8}[14−9] \\ & =\frac{5}{8}.\end{aligned}
 
 
 $$
@@ -104,7 +104,7 @@ Therefore,
 $$
 
 
-\begin{aligned}𝑃(𝑋<30) & =∫_{3027}^{}𝑓(𝑥)\,d𝑥 \\ & =∫_{3027}^{}\frac{1}{7}\,d𝑥 \\ & =\frac{𝑥}{7}_{3027}^{} \\ & =\frac{30}{7}−\frac{27}{7} \\ & =\frac{3}{7}.\end{aligned}
+\begin{aligned}𝑃(𝑋<30) & =∫_{3027}𝑓(𝑥)\,d𝑥 \\ & =∫_{3027}\frac{1}{7}\,d𝑥 \\ & =\frac{𝑥}{7}_{3027} \\ & =\frac{30}{7}−\frac{27}{7} \\ & =\frac{3}{7}.\end{aligned}
 
 
 $$
@@ -149,14 +149,14 @@ A museum manager notices that the minimum visiting time of visitors to the museu
 
 #### Explanation
 
-Let $X$ represent the visiting time of a randomly chosen visitor. From the problem statement, we know that $X \sim U[1.5,4.5],$ and we wish to compute $\textrm{Var}[X].$
+Let $X$ represent the visiting time of a randomly chosen visitor. From the problem statement, we know that $X \sim U[1.5,4.5],$ and we wish to compute $\text{Var}[X].$
 
 In general, if $X \sim U[a,b],$ then $X$ has the following variance:
 
 $$
 
 
-\textrm{Var}[X] = \dfrac{(b-a)^2}{12}
+\text{Var}[X] = \dfrac{(b-a)^2}{12}
 
 
 $$
@@ -166,9 +166,9 @@ So, for our random variable $X \sim U[1.5,4.5],$ we have the following variance:
 $$
 
 
-\textrm{Var}[X] = \dfrac{(4.5-1.5)^2}{12} = \dfrac{9}{12} = \dfrac{3}{4}
+\text{Var}[X] = \dfrac{(4.5-1.5)^2}{12} = \dfrac{9}{12} = \dfrac{3}{4}
 
 
 $$
 
-Therefore, the variance is $\dfrac{3}{4}\,\textrm{hr}^2.$
+Therefore, the variance is $\dfrac{3}{4}\,\text{hr}^2.$

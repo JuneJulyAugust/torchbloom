@@ -143,7 +143,7 @@ To get the slope, we evaluate the partial derivative $f_x(x,y)$ at $(0,1)\mathbi
 $$
 
 
-\begin{aligned}𝑓_{𝑥}(0,1) & =\frac{\sqrt{√2}𝜋}{4}sin⁡(2(0)+\frac{𝜋(1)}{4}) \\ & =\frac{\sqrt{√2}𝜋}{4}sin⁡(\frac{𝜋}{4}) \\ & =\frac{𝜋}{4}\end{aligned}
+\begin{aligned}𝑓_{𝑥}(0,1) & =\frac{\sqrt{2}𝜋}{4}sin⁡(2(0)+\frac{𝜋(1)}{4}) \\ & =\frac{\sqrt{2}𝜋}{4}sin⁡(\frac{𝜋}{4}) \\ & =\frac{𝜋}{4}\end{aligned}
 
 
 $$
@@ -181,7 +181,7 @@ Computing the cross product, we get
 $$
 
 
-\begin{aligned}𝐧_{1}×𝐧_{2} & =⟨0,1,0⟩×⟨−\frac{𝜋}{4},0,1⟩ \\ & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 0 & 1 & 0 \\ −𝜋/4 & 0 & 1\end{aligned} \\ & =𝐢+\frac{𝜋}{4}\,𝐤.\end{aligned}
+\begin{aligned}𝐧_{1}×𝐧_{2} & =⟨0,1,0⟩×⟨−\frac{𝜋}{4},0,1⟩ \\ & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 0 & 1 & 0 \\ −𝜋/4 & 0 & 1\end{matrix} \\ & =𝐢+\frac{𝜋}{4}\,𝐤.\end{aligned}
 
 
 $$

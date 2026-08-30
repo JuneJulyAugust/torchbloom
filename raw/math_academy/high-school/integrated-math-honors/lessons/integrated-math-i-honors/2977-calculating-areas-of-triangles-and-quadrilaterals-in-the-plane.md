@@ -180,7 +180,7 @@ From the diagram, we can calculate the lengths of $\overline{AB}$ and $\overline
 $$
 
 
-\begin{aligned}𝐴𝐵 & =\sqrt{√(𝑥_{𝐵}−𝑥_{𝐴})^{2}+(𝑦_{𝐵}−𝑦_{𝐴})^{2}} \\ & =\sqrt{√(0−(−3))^{2}+(0−(2))^{2}} \\ & =\sqrt{√9+4} \\ & =\sqrt{√13} \\ 𝐵𝐷 & =\sqrt{√(𝑥_{𝐷}−𝑥_{𝐵})^{2}+(𝑦_{𝐷}−𝑦_{𝐵})^{2}} \\ & =\sqrt{√(2−0)^{2}+(3−0)^{2}} \\ & =\sqrt{√4+9} \\ & =\sqrt{√13}\end{aligned}
+\begin{aligned}𝐴𝐵 & =\sqrt{(𝑥_{𝐵}−𝑥_{𝐴})^{2}+(𝑦_{𝐵}−𝑦_{𝐴})^{2}} \\ & =\sqrt{(0−(−3))^{2}+(0−(2))^{2}} \\ & =\sqrt{9+4} \\ & =\sqrt{13} \\ 𝐵𝐷 & =\sqrt{(𝑥_{𝐷}−𝑥_{𝐵})^{2}+(𝑦_{𝐷}−𝑦_{𝐵})^{2}} \\ & =\sqrt{(2−0)^{2}+(3−0)^{2}} \\ & =\sqrt{4+9} \\ & =\sqrt{13}\end{aligned}
 
 
 $$
@@ -190,7 +190,7 @@ Therefore, the area of the parallelogram is
 $$
 
 
-\begin{aligned}A & =𝐴𝐵⋅𝐵𝐷 \\ & =\sqrt{√13}⋅\sqrt{√13} \\ & =13.\end{aligned}
+\begin{aligned}A & =𝐴𝐵⋅𝐵𝐷 \\ & =\sqrt{13}⋅\sqrt{13} \\ & =13.\end{aligned}
 
 
 $$

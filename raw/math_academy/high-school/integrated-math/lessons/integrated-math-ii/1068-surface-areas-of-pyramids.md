@@ -27,14 +27,14 @@ S = S_L + S_B
 
 $$
 
-For example, suppose the total surface area of a rectangular pyramid is $100 \, \textrm{in}^2$ and its base area is $36 \, \textrm{in}^2.$ What is the lateral surface area of this pyramid?
+For example, suppose the total surface area of a rectangular pyramid is $100 \, \text{in}^2$ and its base area is $36 \, \text{in}^2.$ What is the lateral surface area of this pyramid?
 
 We are given that
 
 $$
 
 
-S = 100 \, \textrm{in}^2, \qquad S_B = 36 \, \textrm{in}^2.
+S = 100 \, \text{in}^2, \qquad S_B = 36 \, \text{in}^2.
 
 
 $$
@@ -53,7 +53,7 @@ $$
 
 #### Question
 
-Consider a square pyramid where all faces that make up the lateral surface have the same area. Given that the total surface area of the pyramid is $48 \, \textrm{yd}^2$ and the base area is $20 \, \textrm{yd}^2,$ find the area of a single face on the lateral surface.
+Consider a square pyramid where all faces that make up the lateral surface have the same area. Given that the total surface area of the pyramid is $48 \, \text{yd}^2$ and the base area is $20 \, \text{yd}^2,$ find the area of a single face on the lateral surface.
 
 #### Explanation
 
@@ -72,7 +72,7 @@ We are given that
 $$
 
 
-S = 48 \, \textrm{yd}^2, \qquad S_B = 20 \, \textrm{yd}^2.
+S = 48 \, \text{yd}^2, \qquad S_B = 20 \, \text{yd}^2.
 
 
 $$
@@ -92,7 +92,7 @@ Since our pyramid is square-based, $4$ triangular faces make up the lateral surf
 $$
 
 
-\dfrac{S_L}{4} = \dfrac{28}{4} = 7 \, \textrm{yd}^2
+\dfrac{S_L}{4} = \dfrac{28}{4} = 7 \, \text{yd}^2
 
 
 $$
@@ -121,12 +121,12 @@ Find the lateral surface area of the regular pentagonal pyramid shown above.
 
 #### Explanation
 
-First, we find the area of one face that makes up the lateral surface. Each face is a triangle with a base of $25\,\textrm{mm}$ and a height of $36\,\textrm{mm}.$ So, its area is given by
+First, we find the area of one face that makes up the lateral surface. Each face is a triangle with a base of $25\,\text{mm}$ and a height of $36\,\text{mm}.$ So, its area is given by
 
 $$
 
 
-A = \dfrac{1}{2} \cdot 25 \cdot 36 = 450 \, \textrm{mm}^2.
+A = \dfrac{1}{2} \cdot 25 \cdot 36 = 450 \, \text{mm}^2.
 
 
 $$
@@ -136,7 +136,7 @@ Our pyramid has $5$ such faces on its lateral surface. Therefore, the lateral su
 $$
 
 
-S_L = 5A = 5 \cdot 450 = 2\,250 \, \textrm{mm}^2.
+S_L = 5A = 5 \cdot 450 = 2\,250 \, \text{mm}^2.
 
 
 $$
@@ -159,7 +159,7 @@ For example, consider the square pyramid shown below.
 
 ![Instructional graphic](../../../../lesson-assets/integrated-math-ii/topic-1068/435c24a5b62b2bbd.png)
 
-We're given that the side length $s = 1 \, \textrm{cm}.$ Therefore, its perimeter is equal to
+We're given that the side length $s = 1 \, \text{cm}.$ Therefore, its perimeter is equal to
 
 $$
 
@@ -169,12 +169,12 @@ $$
 
 $$
 
-Now, substituting $p = 4 \, \textrm{cm}$ and $l = 3 \, \textrm{cm}$ into the formula for $S_L,$ we get
+Now, substituting $p = 4 \, \text{cm}$ and $l = 3 \, \text{cm}$ into the formula for $S_L,$ we get
 
 $$
 
 
-S_L = \dfrac{1}{2}(4)(3) = 6 \, \textrm{cm}^2.
+S_L = \dfrac{1}{2}(4)(3) = 6 \, \text{cm}^2.
 
 
 $$
@@ -184,7 +184,7 @@ Since the base of our pyramid is a square, we have
 $$
 
 
-S_B = s^2 = 1^2 = 1 \, \textrm{cm}^2.
+S_B = s^2 = 1^2 = 1 \, \text{cm}^2.
 
 
 $$
@@ -203,7 +203,7 @@ $$
 
 #### Question
 
-Find the lateral surface area of a regular pentagonal pyramid if its slant height is $8 \, \textrm{m}$ and the side length of the base is $9 \, \textrm{m}.$
+Find the lateral surface area of a regular pentagonal pyramid if its slant height is $8 \, \text{m}$ and the side length of the base is $9 \, \text{m}.$
 
 #### Explanation
 
@@ -219,7 +219,7 @@ $$
 
 where $p$ is the base's perimeter and $l$ is the pyramid's slant height.
 
-Given the side $s = 9 \, \textrm{m}$ of the regular pentagonal base, its perimeter is equal to
+Given the side $s = 9 \, \text{m}$ of the regular pentagonal base, its perimeter is equal to
 
 $$
 
@@ -234,7 +234,7 @@ Finally, substituting
 $$
 
 
-p = 45 \, \textrm{m}, \qquad l = 8 \, \textrm{m}
+p = 45 \, \text{m}, \qquad l = 8 \, \text{m}
 
 
 $$
@@ -244,7 +244,7 @@ into the formula, we get
 $$
 
 
-S_L = \dfrac{1}{2}(45)(8) = 180 \, \textrm{m}^2.
+S_L = \dfrac{1}{2}(45)(8) = 180 \, \text{m}^2.
 
 
 $$
@@ -255,7 +255,7 @@ $$
 
 ![Instructional graphic](../../../../lesson-assets/integrated-math-ii/topic-1068/7118c99af7c18047.png)
 
-Find the total surface area of a regular triangular pyramid if its slant height is $12 \, \textrm{yd}$ and the length of the base side is $7 \, \textrm{yd}.$
+Find the total surface area of a regular triangular pyramid if its slant height is $12 \, \text{yd}$ and the length of the base side is $7 \, \text{yd}.$
 
 #### Explanation
 
@@ -271,16 +271,16 @@ $$
 
 With this in mind, let's find $S_L$ and $S_B$ in turn.
 
-- We can find the lateral surface area of a regular pyramid using the formula where $p$ is the base's perimeter and $l$ is the pyramid's slant height. Given the side $s = 7 \, \textrm{cm}$ of the regular (equilateral) triangular base, its perimeter is equal to Now, substituting $p = 21 \, \textrm{yd}$ and $l = 12 \, \textrm{yd}$ into the formula, we get
+- We can find the lateral surface area of a regular pyramid using the formula where $p$ is the base's perimeter and $l$ is the pyramid's slant height. Given the side $s = 7 \, \text{cm}$ of the regular (equilateral) triangular base, its perimeter is equal to Now, substituting $p = 21 \, \text{yd}$ and $l = 12 \, \text{yd}$ into the formula, we get
 
-- The base of the triangular pyramid is an equilateral triangle. In our cases, it's a triangle with side length $s = 7 \, \textrm{yd}.$ So, we have
+- The base of the triangular pyramid is an equilateral triangle. In our cases, it's a triangle with side length $s = 7 \, \text{yd}.$ So, we have
 
 Finally, the total surface area of the pyramid is
 
 $$
 
 
-\begin{aligned}𝑆 & =𝑆_{𝐿}+𝑆_{𝐵} \\ & =(126+\frac{49\sqrt{√3}}{4})\,yd^{2}.\end{aligned}
+\begin{aligned}𝑆 & =𝑆_{𝐿}+𝑆_{𝐵} \\ & =(126+\frac{49\sqrt{3}}{4})\,yd^{2}.\end{aligned}
 
 
 $$

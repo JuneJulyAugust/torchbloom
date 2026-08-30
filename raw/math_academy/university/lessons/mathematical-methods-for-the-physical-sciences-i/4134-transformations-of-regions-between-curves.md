@@ -101,7 +101,7 @@ Let's find the image of $\mathbf{T}^{-1}(D)$ in the $uv$-plane. To do that, we w
 $$
 
 
-\begin{aligned}𝐓^{−1}(𝐷) & ={(𝑢,𝑣)\,:\,2≤\sqrt{√𝑥𝑦}≤4,\,2𝑥≤𝑦≤3𝑥} \\ & ={(𝑢,𝑣)\,:\,2^{2}≤(\sqrt{√𝑥𝑦})^{2}≤4^{2},\,2≤\frac{𝑦}{𝑥}≤3} \\ & ={(𝑢,𝑣)\,:\,4≤𝑥𝑦≤16,\,2≤\frac{𝑦}{𝑥}≤3} \\ & ={(𝑢,𝑣)\,:\,4≤𝑣≤16,\,2≤𝑢≤3} \\ & ={(𝑢,𝑣)\,:\,2≤𝑢≤3,\,4≤𝑣≤16}\end{aligned}
+\begin{aligned}𝐓^{−1}(𝐷) & ={(𝑢,𝑣)\,:\,2≤\sqrt{𝑥𝑦}≤4,\,2𝑥≤𝑦≤3𝑥} \\ & ={(𝑢,𝑣)\,:\,2^{2}≤(\sqrt{𝑥𝑦})^{2}≤4^{2},\,2≤\frac{𝑦}{𝑥}≤3} \\ & ={(𝑢,𝑣)\,:\,4≤𝑥𝑦≤16,\,2≤\frac{𝑦}{𝑥}≤3} \\ & ={(𝑢,𝑣)\,:\,4≤𝑣≤16,\,2≤𝑢≤3} \\ & ={(𝑢,𝑣)\,:\,2≤𝑢≤3,\,4≤𝑣≤16}\end{aligned}
 
 
 $$
@@ -295,7 +295,7 @@ To find the intersections of the parabola and line in the $uv$-plane, we solve t
 $$
 
 
-\begin{aligned}\begin{aligned}𝑣=𝑢^{2}−2 \\ 𝑣=1\end{aligned}\,⟹\,\begin{aligned}𝑢=±\sqrt{√3} \\ 𝑣=1\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}𝑣=𝑢^{2}−2 \\ 𝑣=1\end{matrix}\,⟹\,\begin{matrix}𝑢=±\sqrt{3} \\ 𝑣=1\end{matrix}\end{aligned}
 
 
 $$
@@ -367,7 +367,7 @@ To find the intersections of the curves in the $uv$-plane, we solve the followin
 $$
 
 
-\begin{aligned}\begin{aligned}𝑣=3−𝑢^{2} \\ 𝑣=−1\end{aligned}\,⟹\,\begin{aligned}𝑢=±2 \\ 𝑣=−1\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}𝑣=3−𝑢^{2} \\ 𝑣=−1\end{matrix}\,⟹\,\begin{matrix}𝑢=±2 \\ 𝑣=−1\end{matrix}\end{aligned}
 
 
 $$

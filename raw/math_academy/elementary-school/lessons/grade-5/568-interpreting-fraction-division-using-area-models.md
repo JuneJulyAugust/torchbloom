@@ -113,7 +113,7 @@ Therefore, the area model represents the following multiplication problems:
 
 $$
 
-3 \times {\color{blue}\dfrac{1}{24}} = \dfrac{1}{8} \qquad\textrm{or}\qquad {\color{blue}\dfrac{1}{24}} \times 3 = \dfrac{1}{8}
+3 \times {\color{blue}\dfrac{1}{24}} = \dfrac{1}{8} \qquad\text{or}\qquad {\color{blue}\dfrac{1}{24}} \times 3 = \dfrac{1}{8}
 
 $$
 
@@ -147,7 +147,7 @@ Using the relationship between multiplication and division, we can turn this div
 
 $$
 
-\dfrac 1{8} = \dfrac 1 {40} \times 5 \qquad\textrm{or}\qquad \dfrac 1{8} = 5 \times \dfrac 1 {40}
+\dfrac 1{8} = \dfrac 1 {40} \times 5 \qquad\text{or}\qquad \dfrac 1{8} = 5 \times \dfrac 1 {40}
 
 $$
 

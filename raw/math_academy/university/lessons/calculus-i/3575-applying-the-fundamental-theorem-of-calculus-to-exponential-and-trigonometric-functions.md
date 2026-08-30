@@ -20,7 +20,7 @@ Besides polynomials, exponential and trigonometric functions are perhaps the mos
 $$
 
 
-\int_a^b f(x)\,\textrm{d}x = F(b) - F(a).
+\int_a^b f(x)\,\text{d}x = F(b) - F(a).
 
 
 $$
@@ -30,7 +30,7 @@ To illustrate this, let's calculate
 $$
 
 
-\int_1^3 2^x \,\textrm{d}x.
+\int_1^3 2^x \,\text{d}x.
 
 
 $$
@@ -40,7 +40,7 @@ Recall that the antiderivative of $2^x$ is $\dfrac{2^x}{\ln{2}}.$ Therefore, eva
 $$
 
 
-\begin{aligned}∫_{31}^{}2^{𝑥}\,d𝑥 & =\frac{2^{𝑥}}{ln⁡2}_{31}^{} \\ & =\frac{1}{ln⁡2}(2^{3}−2^{1}) \\ & =\frac{1}{ln⁡2}(8−2) \\ & =\frac{6}{ln⁡2}.\end{aligned}
+\begin{aligned}∫_{31}2^{𝑥}\,d𝑥 & =\frac{2^{𝑥}}{ln⁡2}_{31} \\ & =\frac{1}{ln⁡2}(2^{3}−2^{1}) \\ & =\frac{1}{ln⁡2}(8−2) \\ & =\frac{6}{ln⁡2}.\end{aligned}
 
 
 $$
@@ -58,7 +58,7 @@ Taking the antiderivative and evaluating the difference at the bounds, we get
 $$
 
 
-\begin{aligned}∫_{50}^{}𝑒^{𝑥}\,d𝑥 & =𝑒^{𝑥}_{50}^{} \\ & =𝑒^{5}−𝑒^{0} \\ & =𝑒^{5}−1.\end{aligned}
+\begin{aligned}∫_{50}𝑒^{𝑥}\,d𝑥 & =𝑒^{𝑥}_{50} \\ & =𝑒^{5}−𝑒^{0} \\ & =𝑒^{5}−1.\end{aligned}
 
 
 $$
@@ -67,7 +67,7 @@ $$
 
 #### Question
 
-Evaluate $\displaystyle \int_{0}^{\pi/2} \cos x \,\textrm{d} x.$
+Evaluate $\displaystyle \int_{0}^{\pi/2} \cos x \,\text{d} x.$
 
 #### Explanation
 
@@ -76,7 +76,7 @@ Taking the antiderivative and evaluating the difference at the bounds, we get
 $$
 
 
-\begin{aligned}∫_{𝜋/20}^{}cos⁡𝑥\,d𝑥 & =sin⁡𝑥\,_{𝜋/20}^{} \\ & =sin⁡(\frac{𝜋}{2})−sin⁡(0) \\ & =1−0 \\ & =1.\end{aligned}
+\begin{aligned}∫_{𝜋/20}cos⁡𝑥\,d𝑥 & =sin⁡𝑥\,_{𝜋/20} \\ & =sin⁡(\frac{𝜋}{2})−sin⁡(0) \\ & =1−0 \\ & =1.\end{aligned}
 
 
 $$

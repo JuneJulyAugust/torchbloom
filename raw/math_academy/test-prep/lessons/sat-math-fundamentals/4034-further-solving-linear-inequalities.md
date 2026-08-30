@@ -181,7 +181,7 @@ Then, we apply the addition and multiplication principles:
 $$
 
 
-\begin{aligned} 12y-3 &> 5y-2 \\\[5pt] 12y-3-5y &> 5y-2-5y \\\[5pt] 7y-3 &> {-2} \\\[5pt] 7y-3 +3 &> {-2} +3 \\\[5pt] 7y &> {1} \\\[5pt] \dfrac{7y}{7} &> \dfrac{1}7 \\\[5pt] y &> \dfrac{1}{7} \end{aligned}
+\begin{aligned} 12y-3 &> 5y-2 \\[5pt] 12y-3-5y &> 5y-2-5y \\[5pt] 7y-3 &> {-2} \\[5pt] 7y-3 +3 &> {-2} +3 \\[5pt] 7y &> {1} \\[5pt] \dfrac{7y}{7} &> \dfrac{1}7 \\[5pt] y &> \dfrac{1}{7} \end{aligned}
 
 
 $$

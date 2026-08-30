@@ -16,9 +16,9 @@ Topic ID: 566
 
 In this lesson, we'll consider real-life situations where we have to multiply fractions by whole numbers.
 
-Suppose that Justin, a chef, has $8$ large tins of tomatoes. If each tin of tomatoes weighs $\dfrac{5}{4}\,\textrm{lb},$ how many pounds of tomatoes does Justin have in total?
+Suppose that Justin, a chef, has $8$ large tins of tomatoes. If each tin of tomatoes weighs $\dfrac{5}{4}\,\text{lb},$ how many pounds of tomatoes does Justin have in total?
 
-To find out the total weight of tomatoes, we need to multiply $\dfrac{5}{4}\,\textrm{lb}$ by $8.$
+To find out the total weight of tomatoes, we need to multiply $\dfrac{5}{4}\,\text{lb}$ by $8.$
 
 To multiply a fraction by a whole number, we multiply the fraction's numerator by the whole number and keep the denominator the same:
 
@@ -40,7 +40,7 @@ $$
 
 $$
 
-So, in total, Justin has $10\,\textrm{lb}$ of tomatoes.
+So, in total, Justin has $10\,\text{lb}$ of tomatoes.
 
 ### Example: Multiplying a Fraction by a Whole Number: Result Is a Whole Number
 
@@ -72,13 +72,13 @@ $$
 
 $$
 
-So, Larry drank $9\,\textrm{oz}$ of water.
+So, Larry drank $9\,\text{oz}$ of water.
 
 ### Example: Multiplying a Fraction by a Whole Number: Result Is a Mixed Number
 
 #### Question
 
-Greg stacked $5$ cardboard boxes on top of each other. How tall was his pile if each box is $\dfrac{3}{4}\,\textrm{ft}$ high?
+Greg stacked $5$ cardboard boxes on top of each other. How tall was his pile if each box is $\dfrac{3}{4}\,\text{ft}$ high?
 
 #### Explanation
 
@@ -99,12 +99,12 @@ Finally, we then convert $\dfrac {15}{4}$ to a mixed number:
 $$
 
 
-15 \div 4 = 3\,\textrm{R}\,3 = 3\,\dfrac{3}{4}
+15 \div 4 = 3\,\text{R}\,3 = 3\,\dfrac{3}{4}
 
 
 $$
 
-So, Greg's stack of boxes was $3\,\dfrac{3}{4}\,\textrm{ft}$ high.
+So, Greg's stack of boxes was $3\,\dfrac{3}{4}\,\text{ft}$ high.
 
 ### Example: Determining Whole Number Bounds of a Multiplication Problem
 
@@ -131,7 +131,7 @@ Finally, we then convert $\dfrac {25}{6}$ to a mixed number:
 $$
 
 
-25 \div 6 = 4\,\textrm{R}\,1 = 4\,\dfrac{1}{6}
+25 \div 6 = 4\,\text{R}\,1 = 4\,\dfrac{1}{6}
 
 
 $$

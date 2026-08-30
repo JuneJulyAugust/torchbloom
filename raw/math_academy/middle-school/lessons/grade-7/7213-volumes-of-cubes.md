@@ -15,7 +15,7 @@ Topic ID: 7213
 
 In this lesson, we'll learn how to find the *volume* of a cube.
 
-For example, suppose that we have a cube whose edges are $2\,\textrm{cm}$ in length, like the one shown below.
+For example, suppose that we have a cube whose edges are $2\,\text{cm}$ in length, like the one shown below.
 
 ![Instructional graphic](../../../lesson-assets/grade-7/topic-7213/bb783ca6be039197.png)
 
@@ -31,25 +31,25 @@ V = s^3.
 
 $$
 
-To find the volume of this cube, we substitute $s=2 \: \textrm{cm}$ into the formula. This gives
+To find the volume of this cube, we substitute $s=2 \: \text{cm}$ into the formula. This gives
 
 $$
 
 
 
-V = (2\, \textrm{cm})^3 = 8 \text{ cm}^3 .
+V = (2\, \text{cm})^3 = 8 \text{ cm}^3 .
 
 
 
 $$
 
-So the volume of the cube is $8\,\textrm{cm}^3.$
+So the volume of the cube is $8\,\text{cm}^3.$
 
 ### Example: Calculating the Volume of a Cube
 
 #### Question
 
-Find the volume of the cube whose sides each have length $\dfrac{1}{4} \: \textrm{m}.$
+Find the volume of the cube whose sides each have length $\dfrac{1}{4} \: \text{m}.$
 
 #### Explanation
 
@@ -67,13 +67,13 @@ $$
 
 where $s$ is the side length of the cube.
 
-Substituting $s = \dfrac{1}{4}\,\textrm{m}$ into the formula, we get
+Substituting $s = \dfrac{1}{4}\,\text{m}$ into the formula, we get
 
 $$
 
 
 
-V = \left(\dfrac{1}{4}\, \textrm{m}\right)^3 = \dfrac{1}{64}\, \textrm{ m}^3 .
+V = \left(\dfrac{1}{4}\, \text{m}\right)^3 = \dfrac{1}{64}\, \text{ m}^3 .
 
 
 
@@ -83,7 +83,7 @@ $$
 
 Volumes of cubes naturally arise in real-world contexts.
 
-For example, suppose a large storage box is shaped like a cube and is used to hold equipment. Each side of the box has length $6 \: \textrm{ft}.$ What is the volume of the box?
+For example, suppose a large storage box is shaped like a cube and is used to hold equipment. Each side of the box has length $6 \: \text{ft}.$ What is the volume of the box?
 
 We need to find the volume of a cube.
 
@@ -101,25 +101,25 @@ $$
 
 where $s$ is the side length of the cube.
 
-Substituting $s = 6\,\textrm{ft}$ into the formula, we get
+Substituting $s = 6\,\text{ft}$ into the formula, we get
 
 $$
 
 
 
-V = \left(6\, \textrm{ft}\right)^3 = 216 \: \textrm{ft}^3 .
+V = \left(6\, \text{ft}\right)^3 = 216 \: \text{ft}^3 .
 
 
 
 $$
 
-Therefore, the volume of the box is $216 \: \textrm{ft}^3.$
+Therefore, the volume of the box is $216 \: \text{ft}^3.$
 
 ### Example: Calculating the Volume of a Cube in Word Problems
 
 #### Question
 
-Each side of a sugar cube has length $\dfrac{3}{5} \: \textrm{cm}.$ What is the volume of the sugar cube?
+Each side of a sugar cube has length $\dfrac{3}{5} \: \text{cm}.$ What is the volume of the sugar cube?
 
 #### Explanation
 
@@ -139,25 +139,25 @@ $$
 
 where $s$ is the side length of the cube.
 
-Substituting $s = \dfrac{3}{5}\,\textrm{cm}$ into the formula, we get
+Substituting $s = \dfrac{3}{5}\,\text{cm}$ into the formula, we get
 
 $$
 
 
 
-V = \left(\dfrac{3}{5}\, \textrm{cm}\right)^3 = \dfrac{27}{125} \: \textrm{cm}^3 .
+V = \left(\dfrac{3}{5}\, \text{cm}\right)^3 = \dfrac{27}{125} \: \text{cm}^3 .
 
 
 
 $$
 
-Therefore, the volume of the sugar cube is $\dfrac{27}{125} \: \textrm{cm}^3.$
+Therefore, the volume of the sugar cube is $\dfrac{27}{125} \: \text{cm}^3.$
 
 ### Problems Involving Volumes of Cubes
 
 Other real-world scenarios with volumes of cubes may involve rates and prices.
 
-For example, suppose a company charges $0.08$ per $\textrm{cm}^3$ to produce a solid cube-shaped block of wax. Each side of the cube has a length of $5\: \textrm{cm}.$ What is the total cost to produce the block?
+For example, suppose a company charges $0.08$ per $\text{cm}^3$ to produce a solid cube-shaped block of wax. Each side of the cube has a length of $5\: \text{cm}.$ What is the total cost to produce the block?
 
 We first find the volume of the cube. The volume $V$ of a cube is given by
 
@@ -171,19 +171,19 @@ V = s^3.
 
 $$
 
-Substituting $s = 5\,\textrm{cm},$ we get
+Substituting $s = 5\,\text{cm},$ we get
 
 $$
 
 
 
-V = (5\,\textrm{cm})^3 = 125 \: \textrm{cm}^3.
+V = (5\,\text{cm})^3 = 125 \: \text{cm}^3.
 
 
 
 $$
 
-Now, we compute the total cost. The company charges $0.08$ per $\textrm{cm}^3,$ so we get
+Now, we compute the total cost. The company charges $0.08$ per $\text{cm}^3,$ so we get
 
 $$
 
@@ -219,13 +219,13 @@ V = s^3.
 
 $$
 
-Substituting $s = 6\,\textrm{m},$ we get
+Substituting $s = 6\,\text{m},$ we get
 
 $$
 
 
 
-V = (6\,\textrm{m})^3 = 216 \: \textrm{m}^3.
+V = (6\,\text{m})^3 = 216 \: \text{m}^3.
 
 
 

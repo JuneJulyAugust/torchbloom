@@ -30,7 +30,7 @@ First, we must find the probabilities associated with each row factor, i.e., we 
 $$
 
 
-P(\textrm{Student is from School 1}), \qquad P(\textrm{Student is from School 2})
+P(\text{Student is from School 1}), \qquad P(\text{Student is from School 2})
 
 
 $$
@@ -40,7 +40,7 @@ and for each column factor
 $$
 
 
-P(\textrm{Student passes}), \qquad P(\textrm{Student fails}).
+P(\text{Student passes}), \qquad P(\text{Student fails}).
 
 
 $$
@@ -52,7 +52,7 @@ So, in our case, we have:
 $$
 
 
-\begin{aligned}\overset{𝑝}{^}(Student is from School 1) & =\frac{18+6}{60}=0.4 \\ \overset{𝑝}{^}(Student is from School 2) & =\frac{24+12}{60}=0.6 \\ \overset{𝑝}{^}(Student passes the exam) & =\frac{18+24}{60}=0.7 \\ \overset{𝑝}{^}(Student fails the exam) & =\frac{6+12}{60}=0.3\end{aligned}
+\begin{aligned}\hat{𝑝}(Student is from School 1) & =\frac{18+6}{60}=0.4 \\ \hat{𝑝}(Student is from School 2) & =\frac{24+12}{60}=0.6 \\ \hat{𝑝}(Student passes the exam) & =\frac{18+24}{60}=0.7 \\ \hat{𝑝}(Student fails the exam) & =\frac{6+12}{60}=0.3\end{aligned}
 
 
 $$
@@ -72,7 +72,7 @@ Let's estimate the probability of each combination of values of $A$ and $B$ *und
 $$
 
 
-\begin{aligned}𝑃(School 1∩Pass) & =\overset{𝑝}{^}(Student is from School 1)⋅\overset{𝑝}{^}(Student passes)=0.28 \\ 𝑃(School 1∩Fail) & =\overset{𝑝}{^}(Student is from School 1)⋅\overset{𝑝}{^}(Student fails)=0.12 \\ 𝑃(School 2∩Pass) & =\overset{𝑝}{^}(Student is from School 2)⋅\overset{𝑝}{^}(Student passes)=0.42 \\ 𝑃(School 2∩Fail) & =\overset{𝑝}{^}(Student is from School 2)⋅\overset{𝑝}{^}(Student fails)=0.18\end{aligned}
+\begin{aligned}𝑃(School 1∩Pass) & =\hat{𝑝}(Student is from School 1)⋅\hat{𝑝}(Student passes)=0.28 \\ 𝑃(School 1∩Fail) & =\hat{𝑝}(Student is from School 1)⋅\hat{𝑝}(Student fails)=0.12 \\ 𝑃(School 2∩Pass) & =\hat{𝑝}(Student is from School 2)⋅\hat{𝑝}(Student passes)=0.42 \\ 𝑃(School 2∩Fail) & =\hat{𝑝}(Student is from School 2)⋅\hat{𝑝}(Student fails)=0.18\end{aligned}
 
 
 $$
@@ -112,7 +112,7 @@ We can calculate estimates for the probabilities $P(A_i)$ and $P(B_j),$ which we
 $$
 
 
-\begin{aligned}\overset{𝑝}{^}(𝐴_{𝑖}) & =\frac{number of observations with level 𝐴_{𝑖}}{total number of observations} \\ \overset{𝑝}{^}(𝐵_{𝑗}) & =\frac{number of observations with level 𝐵_{𝑗}}{total number of observations}\end{aligned}
+\begin{aligned}\hat{𝑝}(𝐴_{𝑖}) & =\frac{number of observations with level 𝐴_{𝑖}}{total number of observations} \\ \hat{𝑝}(𝐵_{𝑗}) & =\frac{number of observations with level 𝐵_{𝑗}}{total number of observations}\end{aligned}
 
 
 $$
@@ -156,7 +156,7 @@ We can calculate estimates for the probabilities $P(A_i)$ and $P(B_j),$ which we
 $$
 
 
-\begin{aligned}\overset{𝑝}{^}(𝐴_{𝑖}) & =\frac{number of observations with level 𝐴_{𝑖}}{total number of observations} \\ \overset{𝑝}{^}(𝐵_{𝑗}) & =\frac{number of observations with level 𝐵_{𝑗}}{total number of observations}\end{aligned}
+\begin{aligned}\hat{𝑝}(𝐴_{𝑖}) & =\frac{number of observations with level 𝐴_{𝑖}}{total number of observations} \\ \hat{𝑝}(𝐵_{𝑗}) & =\frac{number of observations with level 𝐵_{𝑗}}{total number of observations}\end{aligned}
 
 
 $$
@@ -166,7 +166,7 @@ So, in our case we have
 $$
 
 
-\begin{aligned}\overset{𝑝}{^}(Adults) & =\frac{20+28}{80}=\frac{3}{5} \\ \overset{𝑝}{^}(Children) & =\frac{24+8}{80}=\frac{2}{5} \\ \overset{𝑝}{^}(Beach) & =\frac{20+24}{80}=\frac{11}{20} \\ \overset{𝑝}{^}(Mountains) & =\frac{28+8}{80}=\frac{9}{20}\end{aligned}
+\begin{aligned}\hat{𝑝}(Adults) & =\frac{20+28}{80}=\frac{3}{5} \\ \hat{𝑝}(Children) & =\frac{24+8}{80}=\frac{2}{5} \\ \hat{𝑝}(Beach) & =\frac{20+24}{80}=\frac{11}{20} \\ \hat{𝑝}(Mountains) & =\frac{28+8}{80}=\frac{9}{20}\end{aligned}
 
 
 $$
@@ -176,7 +176,7 @@ Next, let's estimate the probability of each combination of values under the ass
 $$
 
 
-\begin{aligned}𝑃(Adults∩Beach) & =\overset{𝑝}{^}(Adults)⋅\overset{𝑝}{^}(Beach)=\frac{33}{100} \\ 𝑃(Adults∩Mountains) & =\overset{𝑝}{^}(Adults)⋅\overset{𝑝}{^}(Mountains)=\frac{27}{100} \\ 𝑃(Children∩Beach) & =\overset{𝑝}{^}(Children)⋅\overset{𝑝}{^}(Beach)=\frac{11}{50} \\ 𝑃(Children∩Mountains) & =\overset{𝑝}{^}(Children)⋅\overset{𝑝}{^}(Mountains)=\frac{9}{50}\end{aligned}
+\begin{aligned}𝑃(Adults∩Beach) & =\hat{𝑝}(Adults)⋅\hat{𝑝}(Beach)=\frac{33}{100} \\ 𝑃(Adults∩Mountains) & =\hat{𝑝}(Adults)⋅\hat{𝑝}(Mountains)=\frac{27}{100} \\ 𝑃(Children∩Beach) & =\hat{𝑝}(Children)⋅\hat{𝑝}(Beach)=\frac{11}{50} \\ 𝑃(Children∩Mountains) & =\hat{𝑝}(Children)⋅\hat{𝑝}(Mountains)=\frac{9}{50}\end{aligned}
 
 
 $$
@@ -285,7 +285,7 @@ $$
 
 $$
 
-From the given chi-square table, the critical value for $\nu=1$ at a $5\%$ significance level is $\chi^2_{\textrm{critical}}=3.841,$ and the critical region is
+From the given chi-square table, the critical value for $\nu=1$ at a $5\%$ significance level is $\chi^2_{\text{critical}}=3.841,$ and the critical region is
 
 $$
 
@@ -369,7 +369,7 @@ We now compute the number of degrees of freedom:
 
 - Given a contingency table with $n$ rows and $m$ columns: the number of constraints is $1 + (m-1) + (n-1)$ the total number of observations must equal $N,$ and the estimates $\hat p (A_1), \hat p(A_2),\ldots \hat p(A_{n-1})$ and $\hat p(B_1), \hat p(B_2), \ldots \hat p(B_{m-1})$ set a constraint each. Notice that the $\hat p(A_n)$ and $\hat p(B_m)$ can be deduced by the others, so they don't create a constraint. Therefore, the number of degrees of freedom $\nu$ is calculated as follows: So, in our case there are $\nu = (2-1)(2-1)=\boxed{\color{blue}1}$ degree of freedom.
 
-From the given chi-square table, the critical value for $\nu=1$ at a $5\%$ significance level is $\chi^2_{\textrm{critical}}=3.841,$ and the critical region is
+From the given chi-square table, the critical value for $\nu=1$ at a $5\%$ significance level is $\chi^2_{\text{critical}}=3.841,$ and the critical region is
 
 $$
 
@@ -519,7 +519,7 @@ $$
 
 So, in our case there is $\nu = (2-1)(2-1)=\boxed{\color{blue}1}$ degree of freedom.
 
-From the given chi-square table, the critical value for $\nu=1$ at a $10\%$ significance level is $\chi^2_{\textrm{critical}}=2.706,$ and the critical region is
+From the given chi-square table, the critical value for $\nu=1$ at a $10\%$ significance level is $\chi^2_{\text{critical}}=2.706,$ and the critical region is
 
 $$
 

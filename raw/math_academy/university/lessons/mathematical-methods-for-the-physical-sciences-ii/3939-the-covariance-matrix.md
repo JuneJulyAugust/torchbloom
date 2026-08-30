@@ -24,11 +24,11 @@ $$
 
 Note the following:
 
-- The $i$th diagonal element is $\Sigma_{ii} = \textrm{Var}[X_i].$
+- The $i$th diagonal element is $\Sigma_{ii} = \text{Var}[X_i].$
 
-- The element in the $i$th row and $j$th column for $i \neq j$ is $\Sigma_{ij} = \textrm{Cov}[X_i, X_j].$
+- The element in the $i$th row and $j$th column for $i \neq j$ is $\Sigma_{ij} = \text{Cov}[X_i, X_j].$
 
-Now, since $\textrm{Cov}[X_i,X_j] = \textrm{Cov}[X_j,X_i]$ for any pair of random variables $X_i, X_j$, we have the following theorem:
+Now, since $\text{Cov}[X_i,X_j] = \text{Cov}[X_j,X_i]$ for any pair of random variables $X_i, X_j$, we have the following theorem:
 
 *The covariance matrix is always symmetric. Moreover, it is a positive semi-definite matrix.*
 
@@ -60,16 +60,16 @@ $$
 
 That is,
 
-- the $i$th diagonal element is $\Sigma_{ii} = \textrm{Var}[X_i],$ and
+- the $i$th diagonal element is $\Sigma_{ii} = \text{Var}[X_i],$ and
 
-- the element in the $i$th row and $j$th column for $i \neq j$ is $\Sigma_{ij} = \textrm{Cov}[X_i, X_j].$
+- the element in the $i$th row and $j$th column for $i \neq j$ is $\Sigma_{ij} = \text{Cov}[X_i, X_j].$
 
 Now, note that
 
 $$
 
 
-\textrm{Cov}[X,Y] = \textrm{Cov}[Y,X].
+\text{Cov}[X,Y] = \text{Cov}[Y,X].
 
 
 $$
@@ -78,11 +78,11 @@ As a result, the covariance matrix is always symmetric (moreover, it is a positi
 
 So, we can find the missing elements as follows:
 
-- $a = \Sigma_{21} = \textrm{Cov}[X_2,X_1] = \textrm{Cov}[X_1,X_2] = \Sigma_{12} = 2$
+- $a = \Sigma_{21} = \text{Cov}[X_2,X_1] = \text{Cov}[X_1,X_2] = \Sigma_{12} = 2$
 
-- $b = \Sigma_{23} = \textrm{Cov}[X_2,X_3] = \textrm{Cov}[X_3,X_2] = \Sigma_{32} = 1$
+- $b = \Sigma_{23} = \text{Cov}[X_2,X_3] = \text{Cov}[X_3,X_2] = \Sigma_{32} = 1$
 
-- $c = \Sigma_{31} = \textrm{Cov}[X_3,X_1] = \textrm{Cov}[X_1,X_3] = \Sigma_{13} = 0$
+- $c = \Sigma_{31} = \text{Cov}[X_3,X_1] = \text{Cov}[X_1,X_3] = \Sigma_{13} = 0$
 
 Therefore, $a + b + c = 2 + 1 +0 = 3.$
 
@@ -90,7 +90,7 @@ Therefore, $a + b + c = 2 + 1 +0 = 3.$
 
 #### Question
 
-Consider two random variables $X$ and $Y$ with expectations $\textrm{E}[X] = 4,$ $\textrm{E}[Y] = 3,$ mixed moment $\textrm{E}[XY] = 9,$ and second raw moments $\textrm{E}[X^2] = 18$ and $\textrm{E}[Y^2] = 14.$ Find the covariance matrix for $X$ and $Y.$
+Consider two random variables $X$ and $Y$ with expectations $\text{E}[X] = 4,$ $\text{E}[Y] = 3,$ mixed moment $\text{E}[XY] = 9,$ and second raw moments $\text{E}[X^2] = 18$ and $\text{E}[Y^2] = 14.$ Find the covariance matrix for $X$ and $Y.$
 
 #### Explanation
 
@@ -109,7 +109,7 @@ Recall that the variance of a random variable $X$ is determined by the formula
 $$
 
 
-\textrm{Var}[X] = \textrm{E}[X^2] - \textrm{E}[X]^2,
+\text{Var}[X] = \text{E}[X^2] - \text{E}[X]^2,
 
 
 $$
@@ -119,12 +119,12 @@ and the covariance of two random variables $X$ and $Y$ is given by the formula
 $$
 
 
-\textrm{Cov}[X,Y] = \textrm{E}[XY] - \textrm{E}[X] \cdot \textrm{E}[Y].
+\text{Cov}[X,Y] = \text{E}[XY] - \text{E}[X] \cdot \text{E}[Y].
 
 
 $$
 
-First, let's find $\textrm{Var}[X]{:}$
+First, let's find $\text{Var}[X]{:}$
 
 $$
 
@@ -144,7 +144,7 @@ $$
 
 $$
 
-Now lets find $\textrm{Cov}[X,Y]{:}$
+Now lets find $\text{Cov}[X,Y]{:}$
 
 $$
 
@@ -170,7 +170,7 @@ $$
 
 The joint probability mass function $f(x,y)$ for the discrete random variables $X$ and $Y$ is given below.
 
-Given that $\textrm{E}[X] = 3$ and $\textrm{E}[Y] = 2.2,$ find the covariance matrix for $X$ and $Y.$
+Given that $\text{E}[X] = 3$ and $\text{E}[Y] = 2.2,$ find the covariance matrix for $X$ and $Y.$
 
 #### Explanation
 
@@ -189,7 +189,7 @@ Recall that the variance of a random variable $X$ is determined by the formula
 $$
 
 
-\textrm{Var}[X] = \textrm{E}[X^2] - \textrm{E}[X]^2,
+\text{Var}[X] = \text{E}[X^2] - \text{E}[X]^2,
 
 
 $$
@@ -199,14 +199,14 @@ and the covariance of two random variables $X$ and $Y$ is given by the formula
 $$
 
 
-\textrm{Cov}[X,Y] = \textrm{E}[XY] - \textrm{E}[X] \cdot \textrm{E}[Y].
+\text{Cov}[X,Y] = \text{E}[XY] - \text{E}[X] \cdot \text{E}[Y].
 
 
 $$
 
 First, let's find the marginal mass functions for $X$ and $Y.$ These are given by the row and column totals, respectively.
 
-Now, we can find $\textrm{Var}[X].$ If $X$ is defined on a support $S_X,$ then
+Now, we can find $\text{Var}[X].$ If $X$ is defined on a support $S_X,$ then
 
 $$
 
@@ -246,7 +246,7 @@ $$
 
 $$
 
-Finally, let's find $\textrm{Cov}[X,Y].$ By the rule of the lazy statistician, we find $\textrm{E}[XY]{:}$
+Finally, let's find $\text{Cov}[X,Y].$ By the rule of the lazy statistician, we find $\text{E}[XY]{:}$
 
 $$
 
@@ -290,7 +290,7 @@ $$
 
 $$
 
-If $\textrm{E}[X] = \dfrac{7}{12},$ $\textrm{E}[Y] = \dfrac{5}{8},$ and $\textrm{E}[XY]=\dfrac{17}{48},$ find the covariance matrix for $X$ and $Y.$
+If $\text{E}[X] = \dfrac{7}{12},$ $\text{E}[Y] = \dfrac{5}{8},$ and $\text{E}[XY]=\dfrac{17}{48},$ find the covariance matrix for $X$ and $Y.$
 
 #### Explanation
 
@@ -309,7 +309,7 @@ Recall that the variance of a random variable $X$ is determined by the formula
 $$
 
 
-\textrm{Var}[X] = \textrm{E}[X^2] - \textrm{E}[X]^2,
+\text{Var}[X] = \text{E}[X^2] - \text{E}[X]^2,
 
 
 $$
@@ -319,17 +319,17 @@ and the covariance of two random variables $X$ and $Y$ is given by the formula
 $$
 
 
-\textrm{Cov}[X,Y] = \textrm{E}[XY] - \textrm{E}[X] \cdot \textrm{E}[Y].
+\text{Cov}[X,Y] = \text{E}[XY] - \text{E}[X] \cdot \text{E}[Y].
 
 
 $$
 
-First, we find $\textrm{Var}[X].$ We compute $\textrm{E}[X^2]$ using the rule of the lazy statistician:
+First, we find $\text{Var}[X].$ We compute $\text{E}[X^2]$ using the rule of the lazy statistician:
 
 $$
 
 
-\begin{aligned}E[𝑋^{2}] & =∫_{10}^{}∫_{10}^{}𝑥^{2}⋅𝑓(𝑥,𝑦)\,d𝑥d𝑦 \\ & =∫_{10}^{}∫_{10}^{}𝑥^{2}(𝑥+\frac{3}{2}𝑦^{2})\,d𝑥d𝑦 \\ & =∫_{10}^{}∫_{10}^{}(𝑥^{3}+\frac{3}{2}𝑥^{2}𝑦^{2})d𝑥d𝑦 \\ & =∫_{10}^{}[\frac{1}{4}𝑥^{4}+\frac{1}{2}𝑥^{3}𝑦^{2}]_{𝑥=1𝑥=0}^{}\,d𝑦 \\ & =∫_{10}^{}(\frac{1}{4}+\frac{1}{2}𝑦^{2})d𝑦 \\ & =[\frac{1}{4}𝑦+\frac{1}{6}𝑦^{3}]_{10}^{} \\ & =\frac{1}{4}+\frac{1}{6} \\ & =\frac{5}{12}\end{aligned}
+\begin{aligned}E[𝑋^{2}] & =∫_{10}∫_{10}𝑥^{2}⋅𝑓(𝑥,𝑦)\,d𝑥d𝑦 \\ & =∫_{10}∫_{10}𝑥^{2}(𝑥+\frac{3}{2}𝑦^{2})\,d𝑥d𝑦 \\ & =∫_{10}∫_{10}(𝑥^{3}+\frac{3}{2}𝑥^{2}𝑦^{2})d𝑥d𝑦 \\ & =∫_{10}[\frac{1}{4}𝑥^{4}+\frac{1}{2}𝑥^{3}𝑦^{2}]_{𝑥=1𝑥=0}\,d𝑦 \\ & =∫_{10}(\frac{1}{4}+\frac{1}{2}𝑦^{2})d𝑦 \\ & =[\frac{1}{4}𝑦+\frac{1}{6}𝑦^{3}]_{10} \\ & =\frac{1}{4}+\frac{1}{6} \\ & =\frac{5}{12}\end{aligned}
 
 
 $$
@@ -344,12 +344,12 @@ $$
 
 $$
 
-Similarly, we compute $\textrm{E}[Y^2]$ using the rule of the lazy statistician:
+Similarly, we compute $\text{E}[Y^2]$ using the rule of the lazy statistician:
 
 $$
 
 
-\begin{aligned}E[𝑌^{2}] & =∫_{10}^{}∫_{10}^{}𝑦^{2}⋅𝑓(𝑥,𝑦)\,d𝑥d𝑦 \\ & =∫_{10}^{}∫_{10}^{}𝑦^{2}(𝑥+\frac{3}{2}𝑦^{2})\,d𝑥d𝑦 \\ & =∫_{10}^{}∫_{10}^{}(𝑥𝑦^{2}+\frac{3}{2}𝑦^{4})d𝑥d𝑦 \\ & =∫_{10}^{}[\frac{1}{2}𝑥^{2}𝑦^{2}+\frac{3}{2}𝑥𝑦^{4}]_{𝑥=1𝑥=0}^{}\,d𝑦 \\ & =∫_{10}^{}(\frac{1}{2}𝑦^{2}+\frac{3}{2}𝑦^{4})d𝑦 \\ & =[\frac{1}{6}𝑦^{3}+\frac{3}{10}𝑦^{5}]_{10}^{} \\ & =\frac{1}{6}+\frac{3}{10} \\ & =\frac{7}{15}\end{aligned}
+\begin{aligned}E[𝑌^{2}] & =∫_{10}∫_{10}𝑦^{2}⋅𝑓(𝑥,𝑦)\,d𝑥d𝑦 \\ & =∫_{10}∫_{10}𝑦^{2}(𝑥+\frac{3}{2}𝑦^{2})\,d𝑥d𝑦 \\ & =∫_{10}∫_{10}(𝑥𝑦^{2}+\frac{3}{2}𝑦^{4})d𝑥d𝑦 \\ & =∫_{10}[\frac{1}{2}𝑥^{2}𝑦^{2}+\frac{3}{2}𝑥𝑦^{4}]_{𝑥=1𝑥=0}\,d𝑦 \\ & =∫_{10}(\frac{1}{2}𝑦^{2}+\frac{3}{2}𝑦^{4})d𝑦 \\ & =[\frac{1}{6}𝑦^{3}+\frac{3}{10}𝑦^{5}]_{10} \\ & =\frac{1}{6}+\frac{3}{10} \\ & =\frac{7}{15}\end{aligned}
 
 
 $$
@@ -364,7 +364,7 @@ $$
 
 $$
 
-Finally, let's find $\textrm{Cov}[X,Y].$ Using the given results, we have
+Finally, let's find $\text{Cov}[X,Y].$ Using the given results, we have
 
 $$
 

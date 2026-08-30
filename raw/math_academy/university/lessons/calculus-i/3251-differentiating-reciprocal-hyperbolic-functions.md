@@ -11,7 +11,7 @@ Topic ID: 3251
 
 ### Introduction
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
 The derivatives of the reciprocal hyperbolic functions are as follows:
 
@@ -28,7 +28,7 @@ Let's use these results to find the derivative of
 $$
 
 
-y= \sech x - 2\csch x.
+y= \operatorname{sech} x - 2\operatorname{csch} x.
 
 
 $$
@@ -47,20 +47,20 @@ $$
 
 #### Question
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
-Find the derivative of $y = 3\sech{x}+\coth{x}.$
+Find the derivative of $y = 3\operatorname{sech}{x}+\coth{x}.$
 
 #### Explanation
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
 First, we recall the results for the derivatives of the basic reciprocal hyperbolic functions:
 
 $$
 
 
-( \sech x )' = -\sech x\tanh x, \quad ( \csch x )' = -\csch x \coth x, \quad ( \coth x )' = -\csch^2 x
+( \operatorname{sech} x )' = -\operatorname{sech} x\tanh x, \quad ( \operatorname{csch} x )' = -\operatorname{csch} x \coth x, \quad ( \coth x )' = -\operatorname{csch}^2 x
 
 
 $$
@@ -79,13 +79,13 @@ $$
 
 #### Question
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
 Find the derivative of $f(x) =\coth(5x - 2).$
 
 #### Explanation
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
 First, we express $f(x)$ as a composite function:
 
@@ -102,7 +102,7 @@ The chain rule states that
 $$
 
 
-\dfrac {\textrm{d}f} {\textrm{d}x} = \dfrac {\textrm{d}f} {\textrm{d}g} \cdot \dfrac {\textrm{d}g} {\textrm{d}x}.
+\dfrac {\text{d}f} {\text{d}x} = \dfrac {\text{d}f} {\text{d}g} \cdot \dfrac {\text{d}g} {\text{d}x}.
 
 
 $$
@@ -112,7 +112,7 @@ Differentiating, we have
 $$
 
 
-\dfrac {\textrm{d}f} {\textrm{d}g} = -\csch^2{g},
+\dfrac {\text{d}f} {\text{d}g} = -\operatorname{csch}^2{g},
 
 
 $$
@@ -122,7 +122,7 @@ and
 $$
 
 
-\dfrac {\textrm{d}g} {\textrm{d}x} = 5.
+\dfrac {\text{d}g} {\text{d}x} = 5.
 
 
 $$
@@ -141,13 +141,13 @@ $$
 
 #### Question
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
 Find the derivative of $f(x) = x^2\coth{x}.$
 
 #### Explanation
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
 Here, we have the product of two functions $u(x) = x^2$ and $v(x) = \coth{x}.$ So, we apply the product rule:
 
@@ -163,36 +163,36 @@ $$
 
 #### Question
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
-Find the derivative of $f(x) = \dfrac{\sech{x}}{4x}.$
+Find the derivative of $f(x) = \dfrac{\operatorname{sech}{x}}{4x}.$
 
 #### Explanation
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
-In this case, the expression for $f(x)$ is a quotient $\dfrac{u(x)}{v(x)}$ with $u(x) = \sech{x}$ and $v(x) = 4x.$
+In this case, the expression for $f(x)$ is a quotient $\dfrac{u(x)}{v(x)}$ with $u(x) = \operatorname{sech}{x}$ and $v(x) = 4x.$
 
 Therefore, we apply the quotient rule as follows:
 
 $$
 
 
-\begin{aligned}\begin{aligned}𝑓^{′}(𝑥) & =\frac{𝑢^{′}(𝑥)⋅𝑣(𝑥)−𝑢(𝑥)⋅𝑣^{′}(𝑥)}{[𝑣(𝑥)]^{2}} \\ & =\frac{(sech⁡𝑥)^{′}⋅(4𝑥)−sech⁡𝑥⋅(4𝑥)^{′}}{(4𝑥)^{2}} \\ & =\frac{(−sech⁡𝑥tanh⁡𝑥)⋅(4𝑥)−sech⁡𝑥⋅4}{16𝑥^{2}} \\ & =−\frac{4sech⁡𝑥(𝑥tanh⁡𝑥+1)}{16𝑥^{2}} \\ & =−\frac{sech⁡𝑥(𝑥tanh⁡𝑥+1)}{4𝑥^{2}}\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}𝑓^{′}(𝑥) & =\frac{𝑢^{′}(𝑥)⋅𝑣(𝑥)−𝑢(𝑥)⋅𝑣^{′}(𝑥)}{[𝑣(𝑥)]^{2}} \\ & =\frac{(sech⁡𝑥)^{′}⋅(4𝑥)−sech⁡𝑥⋅(4𝑥)^{′}}{(4𝑥)^{2}} \\ & =\frac{(−sech⁡𝑥tanh⁡𝑥)⋅(4𝑥)−sech⁡𝑥⋅4}{16𝑥^{2}} \\ & =−\frac{4sech⁡𝑥(𝑥tanh⁡𝑥+1)}{16𝑥^{2}} \\ & =−\frac{sech⁡𝑥(𝑥tanh⁡𝑥+1)}{4𝑥^{2}}\end{matrix}\end{aligned}
 
 
 $$
 
 ### Deriving the Result for the Derivative of the Hyperbolic Secant
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
 We wish to prove the following result:
 
 $$
 
 
-\dfrac{\textrm{d}}{\textrm{d}x}(\sech{x}) = -\sech{x} \tanh{x}.
+\dfrac{\text{d}}{\text{d}x}(\operatorname{sech}{x}) = -\operatorname{sech}{x} \tanh{x}.
 
 
 $$
@@ -202,7 +202,7 @@ To do this, we can use the fact that
 $$
 
 
-\sech x = \dfrac{1}{\cosh x}.
+\operatorname{sech} x = \dfrac{1}{\cosh x}.
 
 
 $$

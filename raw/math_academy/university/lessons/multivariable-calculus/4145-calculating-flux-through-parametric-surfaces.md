@@ -16,7 +16,7 @@ Recall that the flux of the vector field $\mathbf F$ across a smooth, orientable
 $$
 
 
-\iint\limits_S \mathbf F \cdot \textrm{d} \mathbf{S} = \iint\limits_S \mathbf F \cdot {\color{blue}\mathbf{n}} \,\textrm{d}S,
+\iint\limits_S \mathbf F \cdot \text{d} \mathbf{S} = \iint\limits_S \mathbf F \cdot {\color{blue}\mathbf{n}} \,\text{d}S,
 
 
 $$
@@ -50,7 +50,7 @@ Substituting this into the formula for the flux, we obtain
 $$
 
 
-\begin{aligned}\underset{𝑆}{∬}𝐅⋅d𝐒 & =\underset{𝑆}{∬}𝐅⋅𝐧\,d𝑆 \\ & =\underset{𝑆}{∬}𝐅⋅\frac{𝐫_{′𝑢}^{}×𝐫_{′𝑣}^{}}{‖𝐫_{′𝑢}^{}×𝐫_{′𝑣}^{}‖}\,d𝑆 \\ & =\underset{𝐷}{∬}𝐅(𝐫(𝑢,𝑣))⋅\frac{𝐫_{′𝑢}^{}×𝐫_{′𝑣}^{}}{‖𝐫_{′𝑢}^{}×𝐫_{′𝑣}^{}‖}\,‖𝐫_{′𝑢}^{}×𝐫_{′𝑣}^{}‖\,d𝐴 \\ & =\underset{𝐷}{∬}𝐅(𝐫(𝑢,𝑣))⋅(𝐫_{′𝑢}^{}×𝐫_{′𝑣}^{})\,d𝐴.\end{aligned}
+\begin{aligned}\underset{𝑆}{∬}𝐅⋅d𝐒 & =\underset{𝑆}{∬}𝐅⋅𝐧\,d𝑆 \\ & =\underset{𝑆}{∬}𝐅⋅\frac{𝐫_{′𝑢}×𝐫_{′𝑣}}{‖𝐫_{′𝑢}×𝐫_{′𝑣}‖}\,d𝑆 \\ & =\underset{𝐷}{∬}𝐅(𝐫(𝑢,𝑣))⋅\frac{𝐫_{′𝑢}×𝐫_{′𝑣}}{‖𝐫_{′𝑢}×𝐫_{′𝑣}‖}\,‖𝐫_{′𝑢}×𝐫_{′𝑣}‖\,d𝐴 \\ & =\underset{𝐷}{∬}𝐅(𝐫(𝑢,𝑣))⋅(𝐫_{′𝑢}×𝐫_{′𝑣})\,d𝐴.\end{aligned}
 
 
 $$
@@ -60,7 +60,7 @@ Therefore, if $S$ is a smooth, orientable surface given in parametric form by $\
 $$
 
 
-\iint\limits_S \mathbf F \cdot \textrm{d} \mathbf{S} = \iint\limits_D \mathbf F(\mathbf{r}(u,v)) \cdot (\mathbf{r}'_u \times \mathbf{r}'_v) \: \textrm{d}A.
+\iint\limits_S \mathbf F \cdot \text{d} \mathbf{S} = \iint\limits_D \mathbf F(\mathbf{r}(u,v)) \cdot (\mathbf{r}'_u \times \mathbf{r}'_v) \: \text{d}A.
 
 
 $$
@@ -100,7 +100,7 @@ For a surface $S$ with parametrization $\mathbf{r}(u,v)$ for $(u,v) \in D,$ the 
 $$
 
 
-\iint\limits_S \mathbf{F} \cdot \textrm{d}\mathbf{S} = \iint\limits_S \mathbf{F} \cdot \mathbf{n} \,\textrm{d}S = \iint\limits_D \mathbf{F}(\mathbf{r}(u,v)) \cdot (\mathbf{r}'_u \times \mathbf{r}'_v) \,\textrm{d}A.
+\iint\limits_S \mathbf{F} \cdot \text{d}\mathbf{S} = \iint\limits_S \mathbf{F} \cdot \mathbf{n} \,\text{d}S = \iint\limits_D \mathbf{F}(\mathbf{r}(u,v)) \cdot (\mathbf{r}'_u \times \mathbf{r}'_v) \,\text{d}A.
 
 
 $$
@@ -110,7 +110,7 @@ We first compute the tangent vectors to the grid curves:
 $$
 
 
-\begin{aligned}𝐫_{′𝑢}^{} & =⟨\frac{𝜕𝑥}{𝜕𝑢},\,\frac{𝜕𝑦}{𝜕𝑢},\,\frac{𝜕𝑧}{𝜕𝑢}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑢}(𝑢^{2}),\,\frac{𝜕}{𝜕𝑢}(𝑣^{2}),\,\frac{𝜕}{𝜕𝑢}(1)⟩ \\ & =⟨2𝑢,\,0,\,0⟩ \\ 𝐫_{′𝑣}^{} & =⟨\frac{𝜕𝑥}{𝜕𝑣},\,\frac{𝜕𝑦}{𝜕𝑣},\,\frac{𝜕𝑧}{𝜕𝑣}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑣}(𝑢^{2}),\,\frac{𝜕}{𝜕𝑣}(𝑣^{2}),\,\frac{𝜕}{𝜕𝑣}(1)⟩ \\ & =⟨0,\,2𝑣,\,0⟩\end{aligned}
+\begin{aligned}𝐫_{′𝑢} & =⟨\frac{𝜕𝑥}{𝜕𝑢},\,\frac{𝜕𝑦}{𝜕𝑢},\,\frac{𝜕𝑧}{𝜕𝑢}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑢}(𝑢^{2}),\,\frac{𝜕}{𝜕𝑢}(𝑣^{2}),\,\frac{𝜕}{𝜕𝑢}(1)⟩ \\ & =⟨2𝑢,\,0,\,0⟩ \\ 𝐫_{′𝑣} & =⟨\frac{𝜕𝑥}{𝜕𝑣},\,\frac{𝜕𝑦}{𝜕𝑣},\,\frac{𝜕𝑧}{𝜕𝑣}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑣}(𝑢^{2}),\,\frac{𝜕}{𝜕𝑣}(𝑣^{2}),\,\frac{𝜕}{𝜕𝑣}(1)⟩ \\ & =⟨0,\,2𝑣,\,0⟩\end{aligned}
 
 
 $$
@@ -120,7 +120,7 @@ Now, the fundamental vector product is
 $$
 
 
-\begin{aligned}𝐫_{′𝑢}^{}×𝐫_{′𝑣}^{} & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 2𝑢 & 0 & 0 \\ 0 & 2𝑣 & 0\end{aligned} \\ & =⟨\begin{aligned}0 & 0 \\ 2𝑣 & 0\end{aligned},\,−\begin{aligned}2𝑢 & 0 \\ 0 & 0\end{aligned},\,\begin{aligned}2𝑢 & 0 \\ 0 & 2𝑣\end{aligned}⟩ \\ & =⟨0,\,0,\,4𝑢𝑣⟩.\end{aligned}
+\begin{aligned}𝐫_{′𝑢}×𝐫_{′𝑣} & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 2𝑢 & 0 & 0 \\ 0 & 2𝑣 & 0\end{matrix} \\ & =⟨\begin{matrix}0 & 0 \\ 2𝑣 & 0\end{matrix},\,−\begin{matrix}2𝑢 & 0 \\ 0 & 0\end{matrix},\,\begin{matrix}2𝑢 & 0 \\ 0 & 2𝑣\end{matrix}⟩ \\ & =⟨0,\,0,\,4𝑢𝑣⟩.\end{aligned}
 
 
 $$
@@ -140,7 +140,7 @@ Finally, we calculate the dot product of $\mathbf{F}$ and $\mathbf{r}'_u \times 
 $$
 
 
-\begin{aligned}𝐅(𝐫(𝑢,𝑣))⋅(𝐫_{′𝑢}^{}×𝐫_{′𝑣}^{}) & =⟨𝑢^{2}+𝑣^{2},\,𝑢^{2}−𝑣^{2},\,𝑢^{2}𝑣^{2}⟩⋅⟨0,\,0,\,4𝑢𝑣⟩ \\ & =(𝑢^{2}+𝑣^{2})⋅0+(𝑢^{2}−𝑣^{2})⋅0+𝑢^{2}𝑣^{2}⋅4𝑢𝑣 \\ & =4𝑢^{3}𝑣^{3}\end{aligned}
+\begin{aligned}𝐅(𝐫(𝑢,𝑣))⋅(𝐫_{′𝑢}×𝐫_{′𝑣}) & =⟨𝑢^{2}+𝑣^{2},\,𝑢^{2}−𝑣^{2},\,𝑢^{2}𝑣^{2}⟩⋅⟨0,\,0,\,4𝑢𝑣⟩ \\ & =(𝑢^{2}+𝑣^{2})⋅0+(𝑢^{2}−𝑣^{2})⋅0+𝑢^{2}𝑣^{2}⋅4𝑢𝑣 \\ & =4𝑢^{3}𝑣^{3}\end{aligned}
 
 
 $$
@@ -150,7 +150,7 @@ Therefore, the surface integral can be written as
 $$
 
 
-\begin{aligned}\underset{𝑆}{∬}𝐅⋅d𝐒 & =\underset{𝐷}{∬}𝐅(𝐫(𝑢,𝑣))⋅(𝐫_{′𝑢}^{}×𝐫_{′𝑣}^{})\,d𝐴 \\ & =\underset{𝐷}{∬}\,4𝑢^{3}𝑣^{3}\,d𝐴.\end{aligned}
+\begin{aligned}\underset{𝑆}{∬}𝐅⋅d𝐒 & =\underset{𝐷}{∬}𝐅(𝐫(𝑢,𝑣))⋅(𝐫_{′𝑢}×𝐫_{′𝑣})\,d𝐴 \\ & =\underset{𝐷}{∬}\,4𝑢^{3}𝑣^{3}\,d𝐴.\end{aligned}
 
 
 $$
@@ -164,7 +164,7 @@ Evaluate the surface integral
 $$
 
 
-\iint\limits_S \left\langle z, \: x, \: y \right\rangle \cdot \textrm{d}\mathbf{S}
+\iint\limits_S \left\langle z, \: x, \: y \right\rangle \cdot \text{d}\mathbf{S}
 
 
 $$
@@ -188,7 +188,7 @@ For a surface $S$ with parametrization $\mathbf{r}(u,v)$ for $(u,v) \in D,$ the 
 $$
 
 
-\iint\limits_S \mathbf{F} \cdot \textrm{d}\mathbf{S} = \iint\limits_S \mathbf{F} \cdot \mathbf{n} \,\textrm{d}S = \iint\limits_D \mathbf{F}(\mathbf{r}(u,v)) \cdot (\mathbf{r}'_u \times \mathbf{r}'_v) \,\textrm{d}A.
+\iint\limits_S \mathbf{F} \cdot \text{d}\mathbf{S} = \iint\limits_S \mathbf{F} \cdot \mathbf{n} \,\text{d}S = \iint\limits_D \mathbf{F}(\mathbf{r}(u,v)) \cdot (\mathbf{r}'_u \times \mathbf{r}'_v) \,\text{d}A.
 
 
 $$
@@ -198,7 +198,7 @@ We first compute the tangent vectors to the grid curves:
 $$
 
 
-\begin{aligned}𝐫_{′𝑢}^{} & =⟨\frac{𝜕𝑥}{𝜕𝑢},\,\frac{𝜕𝑦}{𝜕𝑢},\,\frac{𝜕𝑧}{𝜕𝑢}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑢}(1+2𝑢+𝑣),\,\frac{𝜕}{𝜕𝑢}(𝑢+𝑣),\,\frac{𝜕}{𝜕𝑢}(𝑢−𝑣)⟩ \\ & =⟨2,\,1,\,1⟩ \\ 𝐫_{′𝑣}^{} & =⟨\frac{𝜕𝑥}{𝜕𝑣},\,\frac{𝜕𝑦}{𝜕𝑣},\,\frac{𝜕𝑧}{𝜕𝑣}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑣}(1+2𝑢+𝑣),\,\frac{𝜕}{𝜕𝑣}(𝑢+𝑣),\,\frac{𝜕}{𝜕𝑣}(𝑢−𝑣)⟩ \\ & =⟨1,\,1,\,−1⟩\end{aligned}
+\begin{aligned}𝐫_{′𝑢} & =⟨\frac{𝜕𝑥}{𝜕𝑢},\,\frac{𝜕𝑦}{𝜕𝑢},\,\frac{𝜕𝑧}{𝜕𝑢}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑢}(1+2𝑢+𝑣),\,\frac{𝜕}{𝜕𝑢}(𝑢+𝑣),\,\frac{𝜕}{𝜕𝑢}(𝑢−𝑣)⟩ \\ & =⟨2,\,1,\,1⟩ \\ 𝐫_{′𝑣} & =⟨\frac{𝜕𝑥}{𝜕𝑣},\,\frac{𝜕𝑦}{𝜕𝑣},\,\frac{𝜕𝑧}{𝜕𝑣}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑣}(1+2𝑢+𝑣),\,\frac{𝜕}{𝜕𝑣}(𝑢+𝑣),\,\frac{𝜕}{𝜕𝑣}(𝑢−𝑣)⟩ \\ & =⟨1,\,1,\,−1⟩\end{aligned}
 
 
 $$
@@ -208,7 +208,7 @@ Now, the fundamental vector product is
 $$
 
 
-\begin{aligned}𝐫_{′𝑢}^{}×𝐫_{′𝑣}^{} & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 2 & 1 & 1 \\ 1 & 1 & −1\end{aligned} \\ & =⟨\begin{aligned}1 & 1 \\ 1 & −1\end{aligned},−\begin{aligned}2 & 1 \\ 1 & −1\end{aligned},\begin{aligned}2 & 1 \\ 1 & 1\end{aligned}⟩ \\ & =⟨−2,\,3,\,1⟩.\end{aligned}
+\begin{aligned}𝐫_{′𝑢}×𝐫_{′𝑣} & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 2 & 1 & 1 \\ 1 & 1 & −1\end{matrix} \\ & =⟨\begin{matrix}1 & 1 \\ 1 & −1\end{matrix},−\begin{matrix}2 & 1 \\ 1 & −1\end{matrix},\begin{matrix}2 & 1 \\ 1 & 1\end{matrix}⟩ \\ & =⟨−2,\,3,\,1⟩.\end{aligned}
 
 
 $$
@@ -228,7 +228,7 @@ Then, we calculate the dot product of $\mathbf{F}$ and $\mathbf{r}'_u \times \ma
 $$
 
 
-\begin{aligned}𝐅(𝐫(𝑢,𝑣))⋅(𝐫_{′𝑢}^{}×𝐫_{′𝑣}^{}) & =⟨𝑢−𝑣,\,1+2𝑢+𝑣,\,𝑢+𝑣⟩⋅⟨−2,\,3,\,1⟩ \\ & =(𝑢−𝑣)⋅(−2)+(1+2𝑢+𝑣)⋅3+(𝑢+𝑣)⋅1 \\ & =−2𝑢+2𝑣+3+6𝑢+3𝑣+𝑢+𝑣 \\ & =5𝑢+6𝑣+3\end{aligned}
+\begin{aligned}𝐅(𝐫(𝑢,𝑣))⋅(𝐫_{′𝑢}×𝐫_{′𝑣}) & =⟨𝑢−𝑣,\,1+2𝑢+𝑣,\,𝑢+𝑣⟩⋅⟨−2,\,3,\,1⟩ \\ & =(𝑢−𝑣)⋅(−2)+(1+2𝑢+𝑣)⋅3+(𝑢+𝑣)⋅1 \\ & =−2𝑢+2𝑣+3+6𝑢+3𝑣+𝑢+𝑣 \\ & =5𝑢+6𝑣+3\end{aligned}
 
 
 $$
@@ -238,7 +238,7 @@ Therefore, the surface integral evaluates to
 $$
 
 
-\begin{aligned}\underset{𝑆}{∬}⟨𝑧,\,𝑥,\,𝑦⟩⋅d𝐒 & =\underset{𝐷}{∬}𝐅(𝐫(𝑢,𝑣))⋅(𝐫_{′𝑢}^{}×𝐫_{′𝑣}^{})\,d𝐴 \\ & =\underset{𝐷}{∬}(5𝑢+6𝑣+3)\,d𝐴 \\ & =∫_{20}^{}∫_{10}^{}(5𝑢+6𝑣+3)\,d𝑣\,d𝑢 \\ & =∫_{20}^{}[5𝑢𝑣+3𝑣^{2}+3𝑣]_{𝑣=1𝑣=0}^{}\,d𝑢 \\ & =∫_{20}^{}(5𝑢+6)\,d𝑢 \\ & =[\frac{5}{2}𝑢^{2}+6𝑢]_{20}^{} \\ & =10+12 \\ & =22.\end{aligned}
+\begin{aligned}\underset{𝑆}{∬}⟨𝑧,\,𝑥,\,𝑦⟩⋅d𝐒 & =\underset{𝐷}{∬}𝐅(𝐫(𝑢,𝑣))⋅(𝐫_{′𝑢}×𝐫_{′𝑣})\,d𝐴 \\ & =\underset{𝐷}{∬}(5𝑢+6𝑣+3)\,d𝐴 \\ & =∫_{20}∫_{10}(5𝑢+6𝑣+3)\,d𝑣\,d𝑢 \\ & =∫_{20}[5𝑢𝑣+3𝑣^{2}+3𝑣]_{𝑣=1𝑣=0}\,d𝑢 \\ & =∫_{20}(5𝑢+6)\,d𝑢 \\ & =[\frac{5}{2}𝑢^{2}+6𝑢]_{20} \\ & =10+12 \\ & =22.\end{aligned}
 
 
 $$

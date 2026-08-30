@@ -396,7 +396,7 @@ V = \dfrac{1}{2} \cdot 10 \cdot 6 \cdot 5 = 150 \: \text{m}^3.
 
 $$
 
-Now, we compute the total cost. The manufacturer charges $3$ per $\textrm{m}^3,$ so we get
+Now, we compute the total cost. The manufacturer charges $3$ per $\text{m}^3,$ so we get
 
 $$
 

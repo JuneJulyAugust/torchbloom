@@ -158,7 +158,7 @@ Since the function approaches the line $y=2$ as $x\to -\infty,$ we conclude that
 $$
 
 
-f(x)\to 2 \quad \textrm{as}\quad x\to -\infty.
+f(x)\to 2 \quad \text{as}\quad x\to -\infty.
 
 
 $$

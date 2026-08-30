@@ -20,7 +20,7 @@ By translating this into the language of vector spaces, we get the **rank-nullit
 $$
 
 
-\textrm{dim(Col}(A)) + \textrm{dim(Null}(A)) = \textrm{dim}(\mathbb{R}^n),
+\text{dim(Col}(A)) + \text{dim(Null}(A)) = \text{dim}(\mathbb{R}^n),
 
 
 $$
@@ -30,7 +30,7 @@ $$
 $$
 
 
-\textrm{rank}(A) + \textrm{nullity}(A) = n.
+\text{rank}(A) + \text{nullity}(A) = n.
 
 
 $$
@@ -45,11 +45,11 @@ $$
 
 $$
 
-We can use the rank-nullity theorem to calculate $\textrm{rank}(A).$
+We can use the rank-nullity theorem to calculate $\text{rank}(A).$
 
 In this case, we must have $n=4,$ since this is the number of components in each of the vectors of the null space.
 
-Also, we must have $\textrm{nullity}(A)=2,$ since
+Also, we must have $\text{nullity}(A)=2,$ since
 
 $$
 
@@ -73,7 +73,7 @@ $$
 
 #### Question
 
-Consider a $8 \times 6$ matrix $A.$ If $\textrm{rank}(A)=5$ then what is $\textrm{nullity}(A)?$
+Consider a $8 \times 6$ matrix $A.$ If $\text{rank}(A)=5$ then what is $\text{nullity}(A)?$
 
 #### Explanation
 
@@ -82,7 +82,7 @@ According to the rank-nullity theorem, if $A$ is a matrix with $n$ columns, then
 $$
 
 
-\textrm{rank}(A) + \textrm{nullity}(A) = n.
+\text{rank}(A) + \text{nullity}(A) = n.
 
 
 $$
@@ -101,7 +101,7 @@ $$
 
 #### Question
 
-Let $A$ be a $3\times 5$ matrix. If $\mathcal{B}= \{\mathbf{b_1}, \mathbf{b_2}, \mathbf{b_3}\}$ is a basis of $\textrm{Col}(A)$, find $\textrm{dim(Null}(A)).$
+Let $A$ be a $3\times 5$ matrix. If $\mathcal{B}= \{\mathbf{b_1}, \mathbf{b_2}, \mathbf{b_3}\}$ is a basis of $\text{Col}(A)$, find $\text{dim(Null}(A)).$
 
 #### Explanation
 
@@ -110,12 +110,12 @@ According to the rank-nullity theorem, if $A$ is a matrix with $n$ columns, then
 $$
 
 
-\textrm{rank}(A) + \textrm{nullity}(A) = n.
+\text{rank}(A) + \text{nullity}(A) = n.
 
 
 $$
 
-For the given matrix, we have $n=5,$ and since $\mathcal{B}$ is formed by $3$ vectors, $\textrm{rank}(A) = 3.$ Therefore,
+For the given matrix, we have $n=5,$ and since $\mathcal{B}$ is formed by $3$ vectors, $\text{rank}(A) = 3.$ Therefore,
 
 $$
 
@@ -139,11 +139,11 @@ $$
 
 $$
 
-1. $\textrm{rank}(A)=1$
+1. $\text{rank}(A)=1$
 
 2. $A$ is invertible
 
-3. $\textrm{Col}(A)$ is a $2$-dimensional subspace of $\Bbb R^3$
+3. $\text{Col}(A)$ is a $2$-dimensional subspace of $\Bbb R^3$
 
 #### Explanation
 
@@ -162,17 +162,17 @@ Also, according to the rank-nullity theorem, if $A$ is a matrix with $n$ columns
 $$
 
 
-\textrm{rank}(A) + \textrm{nullity}(A) = n.
+\text{rank}(A) + \text{nullity}(A) = n.
 
 
 $$
 
 With that in mind, let's examine each statement in turn.
 
-- Statement I is true. Indeed, we have that which means that $\textrm{nullity}(A) =2.$ Now, for the matrix $A,$ the number of columns is $n = 3,$ so according to the rank-nullity theorem, we obtain
+- Statement I is true. Indeed, we have that which means that $\text{nullity}(A) =2.$ Now, for the matrix $A,$ the number of columns is $n = 3,$ so according to the rank-nullity theorem, we obtain
 
-- Statement II is false. Since $\textrm{nullity}(A) = 2 \neq 0,$ then by the invertible matrix theorem, $A$ cannot be an invertible matrix.
+- Statement II is false. Since $\text{nullity}(A) = 2 \neq 0,$ then by the invertible matrix theorem, $A$ cannot be an invertible matrix.
 
-- Statement III is false. Since $\textrm{rank}(A) = 1,$ we have that $\textrm{Col}(A)$ is a $1$-dimensional subspace of $\Bbb R^3.$
+- Statement III is false. Since $\text{rank}(A) = 1,$ we have that $\text{Col}(A)$ is a $1$-dimensional subspace of $\Bbb R^3.$
 
 Therefore, the correct answer is "I only."

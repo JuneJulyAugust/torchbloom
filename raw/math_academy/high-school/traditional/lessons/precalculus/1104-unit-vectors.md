@@ -77,7 +77,7 @@ $$
 
 
 
-\begin{aligned}𝐴𝐵 & =\sqrt{√𝐴𝐻^{2}+𝐵𝐻^{2}} \\ & =\sqrt{√3^{2}+2^{2}} \\ & =\sqrt{√9+4} \\ & =\sqrt{√13}.\end{aligned}
+\begin{aligned}𝐴𝐵 & =\sqrt{𝐴𝐻^{2}+𝐵𝐻^{2}} \\ & =\sqrt{3^{2}+2^{2}} \\ & =\sqrt{9+4} \\ & =\sqrt{13}.\end{aligned}
 
 
 
@@ -89,7 +89,7 @@ $$
 
 
 
-\begin{aligned}𝐮 & =\frac{1}{|\,𝐚\,|}⋅𝐚 \\ & =\frac{1}{\sqrt{√13}}𝐚\end{aligned}
+\begin{aligned}𝐮 & =\frac{1}{|\,𝐚\,|}⋅𝐚 \\ & =\frac{1}{\sqrt{13}}𝐚\end{aligned}
 
 
 
@@ -149,7 +149,7 @@ $$
 
 
 
-\begin{aligned}𝐮 & =\frac{𝐚+𝐛}{|𝐚+𝐛|} \\ & =\frac{1}{10\sqrt{√5}}(𝐚+𝐛).\end{aligned}
+\begin{aligned}𝐮 & =\frac{𝐚+𝐛}{|𝐚+𝐛|} \\ & =\frac{1}{10\sqrt{5}}(𝐚+𝐛).\end{aligned}
 
 
 

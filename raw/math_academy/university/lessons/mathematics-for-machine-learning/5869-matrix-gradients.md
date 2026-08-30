@@ -72,7 +72,7 @@ To find the gradient, we differentiate $f$ with respect to each element of $X.$ 
 $$
 
 
-\begin{aligned}∇_{𝑋}𝑓(𝑋) & =\begin{aligned}\frac{𝜕𝑓}{𝜕𝑥_{11}} & \frac{𝜕𝑓}{𝜕𝑥_{12}} \\ \frac{𝜕𝑓}{𝜕𝑥_{21}} & \frac{𝜕𝑓}{𝜕𝑥_{22}}\end{aligned} \\ & =\begin{aligned}\frac{𝜕}{𝜕𝑥_{11}}(ln⁡(𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21})) & \frac{𝜕}{𝜕𝑥_{12}}(ln⁡(𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21})) \\ \frac{𝜕}{𝜕𝑥_{21}}(ln⁡(𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21})) & \frac{𝜕}{𝜕𝑥_{22}}(ln⁡(𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21}))\end{aligned} \\ & =\begin{aligned}\frac{𝑥_{22}}{𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21}} & −\frac{𝑥_{21}}{𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21}} \\ −\frac{𝑥_{12}}{𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21}} & \frac{𝑥_{11}}{𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21}}\end{aligned} \\ & =\frac{1}{𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21}}[\begin{aligned}𝑥_{22} & −𝑥_{21} \\ −𝑥_{12} & 𝑥_{11}\end{aligned}] \\ & =\frac{1}{det(𝑋)}[\begin{aligned}𝑥_{22} & −𝑥_{21} \\ −𝑥_{12} & 𝑥_{11}\end{aligned}].\end{aligned}
+\begin{aligned}∇_{𝑋}𝑓(𝑋) & =\begin{matrix}\frac{𝜕𝑓}{𝜕𝑥_{11}} & \frac{𝜕𝑓}{𝜕𝑥_{12}} \\ \frac{𝜕𝑓}{𝜕𝑥_{21}} & \frac{𝜕𝑓}{𝜕𝑥_{22}}\end{matrix} \\ & =\begin{matrix}\frac{𝜕}{𝜕𝑥_{11}}(ln⁡(𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21})) & \frac{𝜕}{𝜕𝑥_{12}}(ln⁡(𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21})) \\ \frac{𝜕}{𝜕𝑥_{21}}(ln⁡(𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21})) & \frac{𝜕}{𝜕𝑥_{22}}(ln⁡(𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21}))\end{matrix} \\ & =\begin{matrix}\frac{𝑥_{22}}{𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21}} & −\frac{𝑥_{21}}{𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21}} \\ −\frac{𝑥_{12}}{𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21}} & \frac{𝑥_{11}}{𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21}}\end{matrix} \\ & =\frac{1}{𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21}}[\begin{matrix}𝑥_{22} & −𝑥_{21} \\ −𝑥_{12} & 𝑥_{11}\end{matrix}] \\ & =\frac{1}{det(𝑋)}[\begin{matrix}𝑥_{22} & −𝑥_{21} \\ −𝑥_{12} & 𝑥_{11}\end{matrix}].\end{aligned}
 
 
 $$
@@ -102,7 +102,7 @@ Then, we substitute our values into our gradient. This gives
 $$
 
 
-\begin{aligned}∇_{𝑋}𝑓(𝑋) & =−\frac{1}{11}[\begin{aligned}−2 & −5 \\ −1 & 3\end{aligned}] \\ & =\frac{1}{11}[\begin{aligned}2 & 5 \\ 1 & −3\end{aligned}].\end{aligned}
+\begin{aligned}∇_{𝑋}𝑓(𝑋) & =−\frac{1}{11}[\begin{matrix}−2 & −5 \\ −1 & 3\end{matrix}] \\ & =\frac{1}{11}[\begin{matrix}2 & 5 \\ 1 & −3\end{matrix}].\end{aligned}
 
 
 $$
@@ -152,7 +152,7 @@ So, the gradient is
 $$
 
 
-\begin{aligned}\,\,\,∇_{𝑋}𝑓(𝑋) & =\begin{aligned}\frac{𝜕𝑓}{𝜕𝑥_{11}} & \frac{𝜕𝑓}{𝜕𝑥_{12}} \\ \frac{𝜕𝑓}{𝜕𝑥_{21}} & \frac{𝜕𝑓}{𝜕𝑥_{22}}\end{aligned} \\ & =\begin{aligned}\frac{𝜕}{𝜕𝑥_{11}}(𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21})^{2} & \frac{𝜕}{𝜕𝑥_{12}}(𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21})^{2} \\ \frac{𝜕}{𝜕𝑥_{21}}(𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21})^{2} & \frac{𝜕}{𝜕𝑥_{22}}(𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21})^{2}\end{aligned} \\ & =[\begin{aligned}2(𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21})⋅𝑥_{22} & 2(𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21})⋅(−𝑥_{21}) \\ 2(𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21})⋅(−𝑥_{12}) & 2(𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21})⋅𝑥_{11}\end{aligned}] \\ & =2(𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21})[\begin{aligned}𝑥_{22} & −𝑥_{21} \\ −𝑥_{12} & 𝑥_{11}\end{aligned}] \\ & =2det(𝑋)[\begin{aligned}𝑥_{22} & −𝑥_{21} \\ −𝑥_{12} & 𝑥_{11}\end{aligned}].\end{aligned}
+\begin{aligned}\,\,\,∇_{𝑋}𝑓(𝑋) & =\begin{matrix}\frac{𝜕𝑓}{𝜕𝑥_{11}} & \frac{𝜕𝑓}{𝜕𝑥_{12}} \\ \frac{𝜕𝑓}{𝜕𝑥_{21}} & \frac{𝜕𝑓}{𝜕𝑥_{22}}\end{matrix} \\ & =\begin{matrix}\frac{𝜕}{𝜕𝑥_{11}}(𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21})^{2} & \frac{𝜕}{𝜕𝑥_{12}}(𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21})^{2} \\ \frac{𝜕}{𝜕𝑥_{21}}(𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21})^{2} & \frac{𝜕}{𝜕𝑥_{22}}(𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21})^{2}\end{matrix} \\ & =[\begin{matrix}2(𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21})⋅𝑥_{22} & 2(𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21})⋅(−𝑥_{21}) \\ 2(𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21})⋅(−𝑥_{12}) & 2(𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21})⋅𝑥_{11}\end{matrix}] \\ & =2(𝑥_{11}𝑥_{22}−𝑥_{12}𝑥_{21})[\begin{matrix}𝑥_{22} & −𝑥_{21} \\ −𝑥_{12} & 𝑥_{11}\end{matrix}] \\ & =2det(𝑋)[\begin{matrix}𝑥_{22} & −𝑥_{21} \\ −𝑥_{12} & 𝑥_{11}\end{matrix}].\end{aligned}
 
 
 $$
@@ -162,7 +162,7 @@ Evaluating at $\begin{aligned}−\frac{1}{2} & \frac{3}{2} \\ −4 & 10\end{alig
 $$
 
 
-\begin{aligned}∇_{𝑋}𝑓(𝑋) & =2(−\frac{1}{2}⋅10−(−4)⋅\frac{3}{2})\begin{aligned}10 & 4 \\ −\frac{3}{2} & −\frac{1}{2}\end{aligned} \\ & =2(−5−(−6))\begin{aligned}10 & 4 \\ −\frac{3}{2} & −\frac{1}{2}\end{aligned} \\ & =[\begin{aligned}20 & 8 \\ −3 & −1\end{aligned}].\end{aligned}
+\begin{aligned}∇_{𝑋}𝑓(𝑋) & =2(−\frac{1}{2}⋅10−(−4)⋅\frac{3}{2})\begin{matrix}10 & 4 \\ −\frac{3}{2} & −\frac{1}{2}\end{matrix} \\ & =2(−5−(−6))\begin{matrix}10 & 4 \\ −\frac{3}{2} & −\frac{1}{2}\end{matrix} \\ & =[\begin{matrix}20 & 8 \\ −3 & −1\end{matrix}].\end{aligned}
 
 
 $$
@@ -492,7 +492,7 @@ Finally, evaluating $\nabla_{\mathbf{A}} L$ at $\begin{aligned}1 \\ 2 \\ 3\end{a
 $$
 
 
-\begin{aligned}∇_{𝐀}𝐿 & =𝐲⋅𝐱^{𝑇} \\ & =(𝐀𝐱−𝐛)⋅𝐱^{𝑇} \\ & =[\begin{aligned}1 & 0 & 2 \\ 0 & 1 & 1\end{aligned}]\begin{aligned}1 \\ 2 \\ 3\end{aligned}−[\begin{aligned}4 \\ 5\end{aligned}]⋅[\begin{aligned}1 & 2 & 3\end{aligned}] \\ & =([\begin{aligned}7 \\ 5\end{aligned}]−[\begin{aligned}4 \\ 5\end{aligned}])⋅[\begin{aligned}1 & 2 & 3\end{aligned}] \\ & =[\begin{aligned}3 \\ 0\end{aligned}]⋅[\begin{aligned}1 & 2 & 3\end{aligned}] \\ & =[\begin{aligned}3 & 6 & 9 \\ 0 & 0 & 0\end{aligned}].\end{aligned}
+\begin{aligned}∇_{𝐀}𝐿 & =𝐲⋅𝐱^{𝑇} \\ & =(𝐀𝐱−𝐛)⋅𝐱^{𝑇} \\ & =[\begin{matrix}1 & 0 & 2 \\ 0 & 1 & 1\end{matrix}]\begin{matrix}1 \\ 2 \\ 3\end{matrix}−[\begin{matrix}4 \\ 5\end{matrix}]⋅[\begin{matrix}1 & 2 & 3\end{matrix}] \\ & =([\begin{matrix}7 \\ 5\end{matrix}]−[\begin{matrix}4 \\ 5\end{matrix}])⋅[\begin{matrix}1 & 2 & 3\end{matrix}] \\ & =[\begin{matrix}3 \\ 0\end{matrix}]⋅[\begin{matrix}1 & 2 & 3\end{matrix}] \\ & =[\begin{matrix}3 & 6 & 9 \\ 0 & 0 & 0\end{matrix}].\end{aligned}
 
 
 $$

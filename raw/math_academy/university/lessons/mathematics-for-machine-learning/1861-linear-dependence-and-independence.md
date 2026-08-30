@@ -33,11 +33,11 @@ $$
 
 $$
 
-- For the first set ${\color{blue}(\textrm{I})},$ we have The above equation is true only if $x_1=x_2=0.$ So, the set $\color{blue}(\textrm{I})$ is *linearly independent*.
+- For the first set ${\color{blue}(\text{I})},$ we have The above equation is true only if $x_1=x_2=0.$ So, the set $\color{blue}(\text{I})$ is *linearly independent*.
 
-- On the other hand, for the second set ${\color{red}(\textrm{II})},$ we have The above equation has solutions other than $x_1=x_2=0.$ For example, $x_1=2$ and $x_2=1$ gives Therefore, the set $\color{red}(\textrm{II})$ is *not* linearly independent. Rather, it is *linearly dependent*.
+- On the other hand, for the second set ${\color{red}(\text{II})},$ we have The above equation has solutions other than $x_1=x_2=0.$ For example, $x_1=2$ and $x_2=1$ gives Therefore, the set $\color{red}(\text{II})$ is *not* linearly independent. Rather, it is *linearly dependent*.
 
-**Note:** You may notice that the vectors in the set $\color{red}(\textrm{II})$ were parallel (i.e. multiples of one another), while the vectors in set $\color{blue}(\textrm{I})$ were not. This trend holds in general, for all sets of two vectors:
+**Note:** You may notice that the vectors in the set $\color{red}(\text{II})$ were parallel (i.e. multiples of one another), while the vectors in set $\color{blue}(\text{I})$ were not. This trend holds in general, for all sets of two vectors:
 
 - a set of two vectors is *linearly dependent* if and only if the two vectors are parallel, while
 
@@ -348,7 +348,7 @@ To solve the system, we create its augmented matrix and reduce it using Gaussian
 $$
 
 
-\begin{aligned}𝑀 & =\begin{aligned}2 & −1 & 2 & 0 \\ 4 & 4 & 5 & 0 \\ 0 & 6 & 1 & 0\end{aligned} & 𝑅_{2}:=𝑅_{2}+(−2)𝑅_{1} \\ & ∼\begin{aligned}2 & −1 & 2 & 0 \\ 0 & 6 & 1 & 0 \\ 0 & 6 & 1 & 0\end{aligned} & 𝑅_{3}:=𝑅_{3}+(−1)𝑅_{2} \\ & ∼\begin{aligned}2 & −1 & 2 & 0 \\ 0 & 6 & 1 & 0 \\ 0 & 0 & 0 & 0\end{aligned} & \end{aligned}
+\begin{aligned}𝑀 & =\begin{matrix}2 & −1 & 2 & 0 \\ 4 & 4 & 5 & 0 \\ 0 & 6 & 1 & 0\end{matrix} & 𝑅_{2}:=𝑅_{2}+(−2)𝑅_{1} \\ & ∼\begin{matrix}2 & −1 & 2 & 0 \\ 0 & 6 & 1 & 0 \\ 0 & 6 & 1 & 0\end{matrix} & 𝑅_{3}:=𝑅_{3}+(−1)𝑅_{2} \\ & ∼\begin{matrix}2 & −1 & 2 & 0 \\ 0 & 6 & 1 & 0 \\ 0 & 0 & 0 & 0\end{matrix} & \end{aligned}
 
 
 $$

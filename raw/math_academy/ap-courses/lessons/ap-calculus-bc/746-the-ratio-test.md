@@ -63,7 +63,7 @@ Now that we have expressions for the consecutive terms $a_n$ and $a_{n+1},$ we c
 $$
 
 
-\begin{aligned} L &=\lim_{n\to\infty}\left|\frac{a_{n+1}}{a_n} \right|\\\[5pt] &=\lim_{n\to\infty}\left(\frac{n+1}{3\cdot 3^n} \div \frac{n}{3^n}\right)\\\[5pt] &= \lim_{n\to\infty}\left(\frac{n+1}{3\cdot 3^n} \cdot \frac{3^n}{n}\right)\\\[5pt] &= \lim_{n\to\infty}\left(\frac{n+1}{3n} \right)\\\[5pt] &= \lim_{n\to\infty}\left(\frac{1}{3}\cdot \frac{n+1}{n}\right)\\\[5pt] &= \frac{1}{3}\lim_{n\to\infty}\left(1 + \frac{1}{n}\right)\\\[5pt] &=\frac{1}{3}\left(1 + 0\right)\\\[5pt] &=\frac{1}{3}. \end{aligned}
+\begin{aligned} L &=\lim_{n\to\infty}\left|\frac{a_{n+1}}{a_n} \right|\\[5pt] &=\lim_{n\to\infty}\left(\frac{n+1}{3\cdot 3^n} \div \frac{n}{3^n}\right)\\[5pt] &= \lim_{n\to\infty}\left(\frac{n+1}{3\cdot 3^n} \cdot \frac{3^n}{n}\right)\\[5pt] &= \lim_{n\to\infty}\left(\frac{n+1}{3n} \right)\\[5pt] &= \lim_{n\to\infty}\left(\frac{1}{3}\cdot \frac{n+1}{n}\right)\\[5pt] &= \frac{1}{3}\lim_{n\to\infty}\left(1 + \frac{1}{n}\right)\\[5pt] &=\frac{1}{3}\left(1 + 0\right)\\[5pt] &=\frac{1}{3}. \end{aligned}
 
 
 $$
@@ -97,7 +97,7 @@ Now that we have expressions for the consecutive terms $a_n$ and $a_{n+1},$ we c
 $$
 
 
-\begin{aligned}  L &=\lim_{n\to\infty}\left|\frac{a_{n+1}}{a_n} \right|\\\[5pt] &=\lim_{n\to\infty}\left| \dfrac{(-1)^{n+1}\,(n+1)!}{3\cdot 3^n} \div \dfrac{(-1)^n\,n!}{3^n}\right|\\\[5pt] &=\lim_{n\to\infty}\left| \dfrac{(-1)^{n+1}\,(n+1)!}{3\cdot 3^n} \cdot \dfrac{3^n}{(-1)^n\,n!}\right|\\\[5pt] &=\lim_{n\to\infty}\left|-\dfrac{n+1}{3}\right|\\\[5pt] &=\dfrac 1 3\lim_{n\to\infty}\left(n+1\right)\\\[5pt] &=\infty. \end{aligned}
+\begin{aligned}  L &=\lim_{n\to\infty}\left|\frac{a_{n+1}}{a_n} \right|\\[5pt] &=\lim_{n\to\infty}\left| \dfrac{(-1)^{n+1}\,(n+1)!}{3\cdot 3^n} \div \dfrac{(-1)^n\,n!}{3^n}\right|\\[5pt] &=\lim_{n\to\infty}\left| \dfrac{(-1)^{n+1}\,(n+1)!}{3\cdot 3^n} \cdot \dfrac{3^n}{(-1)^n\,n!}\right|\\[5pt] &=\lim_{n\to\infty}\left|-\dfrac{n+1}{3}\right|\\[5pt] &=\dfrac 1 3\lim_{n\to\infty}\left(n+1\right)\\[5pt] &=\infty. \end{aligned}
 
 
 $$

@@ -75,7 +75,7 @@ $$
 
 
 
-\begin{aligned}𝐴𝐱 & =𝐛 \\ \begin{aligned}−2 & 5 & −2 \\ 0 & −3 & 1 \\ 3 & −7 & 3\end{aligned}\begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned} & =\begin{aligned}−2 \\ −2 \\ 3\end{aligned}\end{aligned}
+\begin{aligned}𝐴𝐱 & =𝐛 \\ \begin{matrix}−2 & 5 & −2 \\ 0 & −3 & 1 \\ 3 & −7 & 3\end{matrix}\begin{matrix}𝑥 \\ 𝑦 \\ 𝑧\end{matrix} & =\begin{matrix}−2 \\ −2 \\ 3\end{matrix}\end{aligned}
 
 
 
@@ -89,7 +89,7 @@ $$
 
 
 
-\begin{aligned}𝐱 & =𝐴^{−1}𝐛 \\ & =\begin{aligned}−2 & −1 & −1 \\ 3 & 0 & 2 \\ 9 & 1 & 6\end{aligned}\begin{aligned}−2 \\ −2 \\ 3\end{aligned} \\ & =\begin{aligned}3 \\ 0 \\ −2\end{aligned}.\end{aligned}
+\begin{aligned}𝐱 & =𝐴^{−1}𝐛 \\ & =\begin{matrix}−2 & −1 & −1 \\ 3 & 0 & 2 \\ 9 & 1 & 6\end{matrix}\begin{matrix}−2 \\ −2 \\ 3\end{matrix} \\ & =\begin{matrix}3 \\ 0 \\ −2\end{matrix}.\end{aligned}
 
 
 
@@ -109,7 +109,7 @@ $$
 
 
 
-\begin{aligned}\begin{aligned}3𝑦+𝑥+𝑧=0 \\ 𝑧+4𝑦−5=2 \\ 1+2𝑥−𝑦=−3\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}3𝑦+𝑥+𝑧=0 \\ 𝑧+4𝑦−5=2 \\ 1+2𝑥−𝑦=−3\end{matrix}\end{aligned}
 
 
 
@@ -123,7 +123,7 @@ $$
 
 
 
-\begin{aligned}\begin{aligned}𝑥+3𝑦+𝑧=0 \\ 0𝑥+4𝑦+𝑧=7 \\ 2𝑥−𝑦+0𝑧=−4\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}𝑥+3𝑦+𝑧=0 \\ 0𝑥+4𝑦+𝑧=7 \\ 2𝑥−𝑦+0𝑧=−4\end{matrix}\end{aligned}
 
 
 
@@ -149,7 +149,7 @@ $$
 
 
 
-\begin{aligned}det(𝐴)=\begin{aligned}1 & 3 & 1 \\ 0 & 4 & 1 \\ 2 & −1 & 0\end{aligned} & =1\begin{aligned}4 & 1 \\ −1 & 0\end{aligned}−3\begin{aligned}0 & 1 \\ 2 & 0\end{aligned}+1\begin{aligned}0 & 4 \\ 2 & −1\end{aligned} \\ & =(1)−3(−2)+(−8) \\ & =1+6−8 \\ & =−1\end{aligned}
+\begin{aligned}det(𝐴)=\begin{matrix}1 & 3 & 1 \\ 0 & 4 & 1 \\ 2 & −1 & 0\end{matrix} & =1\begin{matrix}4 & 1 \\ −1 & 0\end{matrix}−3\begin{matrix}0 & 1 \\ 2 & 0\end{matrix}+1\begin{matrix}0 & 4 \\ 2 & −1\end{matrix} \\ & =(1)−3(−2)+(−8) \\ & =1+6−8 \\ & =−1\end{aligned}
 
 
 
@@ -161,7 +161,7 @@ $$
 
 
 
-\begin{aligned}𝑀 & =\begin{aligned}\begin{aligned}4 & 1 \\ −1 & 0\end{aligned} & \begin{aligned}0 & 1 \\ 2 & 0\end{aligned} & \begin{aligned}0 & 4 \\ 2 & −1\end{aligned} \\ \begin{aligned}3 & 1 \\ −1 & 0\end{aligned} & \begin{aligned}1 & 1 \\ 2 & 0\end{aligned} & \begin{aligned}1 & 3 \\ 2 & −1\end{aligned} \\ \begin{aligned}3 & 1 \\ 4 & 1\end{aligned} & \begin{aligned}1 & 1 \\ 0 & 1\end{aligned} & \begin{aligned}1 & 3 \\ 0 & 4\end{aligned}\end{aligned} \\ & =\begin{aligned}1 & −2 & −8 \\ 1 & −2 & −7 \\ −1 & 1 & 4\end{aligned}\end{aligned}
+\begin{aligned}𝑀 & =\begin{matrix}\begin{matrix}4 & 1 \\ −1 & 0\end{matrix} & \begin{matrix}0 & 1 \\ 2 & 0\end{matrix} & \begin{matrix}0 & 4 \\ 2 & −1\end{matrix} \\ \begin{matrix}3 & 1 \\ −1 & 0\end{matrix} & \begin{matrix}1 & 1 \\ 2 & 0\end{matrix} & \begin{matrix}1 & 3 \\ 2 & −1\end{matrix} \\ \begin{matrix}3 & 1 \\ 4 & 1\end{matrix} & \begin{matrix}1 & 1 \\ 0 & 1\end{matrix} & \begin{matrix}1 & 3 \\ 0 & 4\end{matrix}\end{matrix} \\ & =\begin{matrix}1 & −2 & −8 \\ 1 & −2 & −7 \\ −1 & 1 & 4\end{matrix}\end{aligned}
 
 
 
@@ -209,7 +209,7 @@ $$
 
 
 
-\begin{aligned}𝐱 & =𝐴^{−1}𝐛 \\ & =\begin{aligned}−1 & 1 & 1 \\ −2 & 2 & 1 \\ 8 & −7 & −4\end{aligned}\begin{aligned}0 \\ 7 \\ −4\end{aligned} \\ & =\begin{aligned}3 \\ 10 \\ −33\end{aligned}\end{aligned}
+\begin{aligned}𝐱 & =𝐴^{−1}𝐛 \\ & =\begin{matrix}−1 & 1 & 1 \\ −2 & 2 & 1 \\ 8 & −7 & −4\end{matrix}\begin{matrix}0 \\ 7 \\ −4\end{matrix} \\ & =\begin{matrix}3 \\ 10 \\ −33\end{matrix}\end{aligned}
 
 
 

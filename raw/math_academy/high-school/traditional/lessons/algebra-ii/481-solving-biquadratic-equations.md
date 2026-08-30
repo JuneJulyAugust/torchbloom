@@ -41,7 +41,7 @@ $$
 
 
 
-\begin{aligned}𝑎^{2} & =1 & \, & ⇒ & \,𝑎 & =±1 \\ 𝑎^{2} & =2 & \, & ⇒ & \,𝑎 & =±\sqrt{√2}\end{aligned}
+\begin{aligned}𝑎^{2} & =1 & \, & ⇒ & \,𝑎 & =±1 \\ 𝑎^{2} & =2 & \, & ⇒ & \,𝑎 & =±\sqrt{2}\end{aligned}
 
 
 
@@ -167,7 +167,7 @@ $$
 
 
 
-\begin{aligned}𝑥^{2} & =4 \\ \sqrt{√𝑥^{2}} & =\sqrt{√4} \\ |𝑥| & =2 \\ 𝑥 & =±2\end{aligned}
+\begin{aligned}𝑥^{2} & =4 \\ \sqrt{𝑥^{2}} & =\sqrt{4} \\ |𝑥| & =2 \\ 𝑥 & =±2\end{aligned}
 
 
 

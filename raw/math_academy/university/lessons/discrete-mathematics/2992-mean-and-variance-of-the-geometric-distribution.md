@@ -18,7 +18,7 @@ $$
 
 
 
-X\sim \textrm{Geom}(p)
+X\sim \text{Geom}(p)
 
 
 
@@ -44,13 +44,13 @@ $$
 
 
 
-\textrm{Var}[X] = \dfrac{1-p}{p^2}.
+\text{Var}[X] = \dfrac{1-p}{p^2}.
 
 
 
 $$
 
-For example, if $X \sim \textrm{Geom}(0.2),$ then the mean is
+For example, if $X \sim \text{Geom}(0.2),$ then the mean is
 
 $$
 
@@ -68,7 +68,7 @@ $$
 
 
 
-\textrm{Var}[X] = \dfrac{1-0.2}{(0.2)^2}=20.
+\text{Var}[X] = \dfrac{1-0.2}{(0.2)^2}=20.
 
 
 
@@ -78,11 +78,11 @@ $$
 
 #### Question
 
-Given that $X \sim \textrm{Geom} \left(0.02\right),$ what is $\textrm E[X]?$
+Given that $X \sim \text{Geom} \left(0.02\right),$ what is $\textrm E[X]?$
 
 #### Explanation
 
-If $X \sim \textrm{Geom}(p)$ is a geometric random variable, then
+If $X \sim \text{Geom}(p)$ is a geometric random variable, then
 
 $$
 
@@ -94,7 +94,7 @@ $$
 
 $$
 
-Therefore, for our random variable $X \sim \textrm{Geom}\left(0.02\right),$ we have the following expected value:
+Therefore, for our random variable $X \sim \text{Geom}\left(0.02\right),$ we have the following expected value:
 
 $$
 
@@ -132,13 +132,13 @@ $$
 
 
 
-X \sim \textrm{Geom}\left(\dfrac {1}{4}\right)
+X \sim \text{Geom}\left(\dfrac {1}{4}\right)
 
 
 
 $$
 
-We wish to compute the expected number of draws, i.e., $\textrm E[X].$ Recall that, if $X \sim \textrm{Geom}\left(p\right),$ then
+We wish to compute the expected number of draws, i.e., $\textrm E[X].$ Recall that, if $X \sim \text{Geom}\left(p\right),$ then
 
 $$
 
@@ -150,7 +150,7 @@ $$
 
 $$
 
-Therefore, for our random variable $X \sim \textrm{Geom}\left(\dfrac 1 4\right),$ we have the following expected value:
+Therefore, for our random variable $X \sim \text{Geom}\left(\dfrac 1 4\right),$ we have the following expected value:
 
 $$
 
@@ -168,29 +168,29 @@ So, the expected number of draws is $4.$
 
 #### Question
 
-Given that $X\sim \textrm{Geom}\left(\dfrac{1}{3}\right),$ what is $\textrm{SD}[X]?$
+Given that $X\sim \text{Geom}\left(\dfrac{1}{3}\right),$ what is $\text{SD}[X]?$
 
 #### Explanation
 
-If $X \sim \textrm{Geom}(p)$ is a geometric random variable, then
+If $X \sim \text{Geom}(p)$ is a geometric random variable, then
 
 $$
 
 
 
-\textrm{SD}[X] = \sqrt{\textrm{Var}[X]} = \dfrac{\sqrt{1-p}}{p}.
+\text{SD}[X] = \sqrt{\text{Var}[X]} = \dfrac{\sqrt{1-p}}{p}.
 
 
 
 $$
 
-Therefore, for our random variable $X \sim \textrm{Geom}\left(\dfrac{1}{3}\right),$ we have the following standard deviation:
+Therefore, for our random variable $X \sim \text{Geom}\left(\dfrac{1}{3}\right),$ we have the following standard deviation:
 
 $$
 
 
 
-\begin{aligned}SD[𝑋] & =\frac{\sqrt{√1−\frac{1}{3}}}{3} \\ & =\frac{\sqrt{√\frac{2}{3}}}{3} \\ & =\sqrt{√6}\end{aligned}
+\begin{aligned}SD[𝑋] & =\frac{\sqrt{1−\frac{1}{3}}}{3} \\ & =\frac{\sqrt{\frac{2}{3}}}{3} \\ & =\sqrt{6}\end{aligned}
 
 
 
@@ -222,25 +222,25 @@ $$
 
 
 
-X \sim \textrm{Geom}\left(\dfrac{1}{8}\right)
+X \sim \text{Geom}\left(\dfrac{1}{8}\right)
 
 
 
 $$
 
-Recall that, if $X \sim\textrm{Geom}\left(p\right),$ then
+Recall that, if $X \sim\text{Geom}\left(p\right),$ then
 
 $$
 
 
 
-\textrm{Var}[X] = \dfrac{1-p}{p^2}.
+\text{Var}[X] = \dfrac{1-p}{p^2}.
 
 
 
 $$
 
-Therefore, for our random variable $X \sim \textrm{Geom}\left(\dfrac{1}{8}\right),$ we have the following variance:
+Therefore, for our random variable $X \sim \text{Geom}\left(\dfrac{1}{8}\right),$ we have the following variance:
 
 $$
 
@@ -254,7 +254,7 @@ $$
 
 ### Justification for the Mean
 
-Throughout this lesson, we used the fact that if $X\sim\textrm{Geom}(p),$ then
+Throughout this lesson, we used the fact that if $X\sim\text{Geom}(p),$ then
 
 $$
 
@@ -268,7 +268,7 @@ $$
 
 Let's now justify this result.
 
-First, recall that if $X\sim \textrm{Geom}(p),$ then the PMF of $X$ is given by
+First, recall that if $X\sim \text{Geom}(p),$ then the PMF of $X$ is given by
 
 $$
 
@@ -310,7 +310,7 @@ $$
 
 
 
-\textrm{E}[X] = \sum_{x=1}^\infty x \cdot p(1-p)^{x-1}.
+\text{E}[X] = \sum_{x=1}^\infty x \cdot p(1-p)^{x-1}.
 
 
 
@@ -322,7 +322,7 @@ $$
 
 
 
-\textrm{E}[X] = p \sum_{x=1}^\infty x (1-p)^{x-1}.
+\text{E}[X] = p \sum_{x=1}^\infty x (1-p)^{x-1}.
 
 
 
@@ -334,7 +334,7 @@ $$
 
 
 
-\textrm{E}[X] = p \sum_{x=1}^\infty x q^{x-1}.
+\text{E}[X] = p \sum_{x=1}^\infty x q^{x-1}.
 
 
 

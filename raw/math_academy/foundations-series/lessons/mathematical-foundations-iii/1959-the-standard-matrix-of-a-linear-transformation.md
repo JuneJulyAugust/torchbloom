@@ -39,7 +39,7 @@ The standard matrix for the linear transformation $\mathbf{S}$ is $[\begin{align
 $$
 
 
-\begin{aligned}\overset{\overset{[\begin{aligned}−3 & 7 \\ 1 & −5\end{aligned}]}{}}{𝑆}⋅[\begin{aligned}𝑥 \\ 𝑦\end{aligned}] & =[\begin{aligned}−3⋅𝑥+7⋅𝑦 \\ 1⋅𝑥+(−5)⋅𝑦\end{aligned}] \\ & =[\begin{aligned}−3𝑥+7𝑦 \\ 𝑥−5𝑦\end{aligned}] \\ & =𝐒[\begin{aligned}𝑥 \\ 𝑦\end{aligned}].\end{aligned}
+\begin{aligned}\overset{[\begin{matrix}−3 & 7 \\ 1 & −5\end{matrix}]}{}}{𝑆}⋅[\begin{matrix}𝑥 \\ 𝑦\end{matrix}] & =[\begin{matrix}−3⋅𝑥+7⋅𝑦 \\ 1⋅𝑥+(−5)⋅𝑦\end{matrix}] \\ & =[\begin{matrix}−3𝑥+7𝑦 \\ 𝑥−5𝑦\end{matrix}] \\ & =𝐒[\begin{matrix}𝑥 \\ 𝑦\end{matrix}].\end{aligned}
 
 
 $$
@@ -117,7 +117,7 @@ Consider a general vector $[\begin{aligned}𝑥 \\ 𝑦\end{aligned}]$ Multiplyi
 $$
 
 
-\begin{aligned}𝑇⋅[\begin{aligned}𝑥 \\ 𝑦\end{aligned}] & =[\begin{aligned}8 & −1 \\ −5 & −2\end{aligned}]⋅[\begin{aligned}𝑥 \\ 𝑦\end{aligned}] \\ & =[\begin{aligned}8𝑥−𝑦 \\ −5𝑥−2𝑦\end{aligned}].\end{aligned}
+\begin{aligned}𝑇⋅[\begin{matrix}𝑥 \\ 𝑦\end{matrix}] & =[\begin{matrix}8 & −1 \\ −5 & −2\end{matrix}]⋅[\begin{matrix}𝑥 \\ 𝑦\end{matrix}] \\ & =[\begin{matrix}8𝑥−𝑦 \\ −5𝑥−2𝑦\end{matrix}].\end{aligned}
 
 
 $$
@@ -153,7 +153,7 @@ Using the fact that $\,\mathbf{T}(\mathbf{v})=T\cdot \mathbf{v},$ we get
 $$
 
 
-\begin{aligned}𝐓(𝐯) & =𝑇⋅𝐯 \\ & =[\begin{aligned}4 & 7 \\ −6 & −2\end{aligned}]⋅[\begin{aligned}−2 \\ 5\end{aligned}] \\ & =[\begin{aligned}27 \\ 2\end{aligned}].\end{aligned}
+\begin{aligned}𝐓(𝐯) & =𝑇⋅𝐯 \\ & =[\begin{matrix}4 & 7 \\ −6 & −2\end{matrix}]⋅[\begin{matrix}−2 \\ 5\end{matrix}] \\ & =[\begin{matrix}27 \\ 2\end{matrix}].\end{aligned}
 
 
 $$

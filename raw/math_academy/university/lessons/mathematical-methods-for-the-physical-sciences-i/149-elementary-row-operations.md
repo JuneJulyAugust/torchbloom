@@ -41,7 +41,7 @@ For example, the row operation $R_1:= 2 R_1$ means, "create a new row $1$ by tak
 $$
 
 
-\begin{aligned}𝑀 & ∼\begin{aligned}1 & 3 & −1 & 0 \\ 2 & −1 & 4 & −2 \\ 5 & 1 & 1 & 1\end{aligned}\,𝑅_{1}:=2𝑅_{1} \\ & ∼\begin{aligned}2⋅1 & 2⋅3 & 2⋅(−1) & 2⋅0 \\ 2 & −1 & 4 & −2 \\ 5 & 1 & 1 & 1\end{aligned} \\ & ∼\begin{aligned}2 & 6 & −2 & 0 \\ 2 & −1 & 4 & −2 \\ 5 & 1 & 1 & 1\end{aligned}\end{aligned}
+\begin{aligned}𝑀 & ∼\begin{matrix}1 & 3 & −1 & 0 \\ 2 & −1 & 4 & −2 \\ 5 & 1 & 1 & 1\end{matrix}\,𝑅_{1}:=2𝑅_{1} \\ & ∼\begin{matrix}2⋅1 & 2⋅3 & 2⋅(−1) & 2⋅0 \\ 2 & −1 & 4 & −2 \\ 5 & 1 & 1 & 1\end{matrix} \\ & ∼\begin{matrix}2 & 6 & −2 & 0 \\ 2 & −1 & 4 & −2 \\ 5 & 1 & 1 & 1\end{matrix}\end{aligned}
 
 
 $$
@@ -77,7 +77,7 @@ Carrying out this row operation, we get the following:
 $$
 
 
-\begin{aligned}𝐴 & =\begin{aligned}1 & 2 & 3 \\ 4 & 2 & −1 \\ 7 & 12 & 13\end{aligned}\,𝑅_{2}:=𝑅_{2}+(−4)⋅𝑅_{1} \\ & ∼\begin{aligned}1 & 2 & 3 \\ 4+(−4)(1) & 2+(−4)(2) & −1+(−4)(3) \\ 7 & 12 & 13\end{aligned} \\ & ∼\begin{aligned}1 & 2 & 3 \\ 0 & −6 & −13 \\ 7 & 12 & 13\end{aligned}\end{aligned}
+\begin{aligned}𝐴 & =\begin{matrix}1 & 2 & 3 \\ 4 & 2 & −1 \\ 7 & 12 & 13\end{matrix}\,𝑅_{2}:=𝑅_{2}+(−4)⋅𝑅_{1} \\ & ∼\begin{matrix}1 & 2 & 3 \\ 4+(−4)(1) & 2+(−4)(2) & −1+(−4)(3) \\ 7 & 12 & 13\end{matrix} \\ & ∼\begin{matrix}1 & 2 & 3 \\ 0 & −6 & −13 \\ 7 & 12 & 13\end{matrix}\end{aligned}
 
 
 $$
@@ -107,7 +107,7 @@ Applying this row operation, we obtain the following:
 $$
 
 
-\begin{aligned}𝐴 & =\begin{aligned}−1 & 5 & 4 & 1 \\ 1 & 0 & 5 & 2 \\ 3 & 7 & 1 & 9\end{aligned}\,𝑅_{1}↔𝑅_{2} \\ & ∼\begin{aligned}1 & 0 & 5 & 2 \\ −1 & 5 & 4 & 1 \\ 3 & 7 & 1 & 9\end{aligned}\end{aligned}
+\begin{aligned}𝐴 & =\begin{matrix}−1 & 5 & 4 & 1 \\ 1 & 0 & 5 & 2 \\ 3 & 7 & 1 & 9\end{matrix}\,𝑅_{1}↔𝑅_{2} \\ & ∼\begin{matrix}1 & 0 & 5 & 2 \\ −1 & 5 & 4 & 1 \\ 3 & 7 & 1 & 9\end{matrix}\end{aligned}
 
 
 $$
@@ -135,7 +135,7 @@ Now, applying the operation $R_2:=R_2+1 \cdot R_1,$ we get the following:
 $$
 
 
-\begin{aligned}𝐴 & =\begin{aligned}−4 & −2 & 4 \\ 4 & 1 & 2 \\ 1 & 2 & 3\end{aligned}\,𝑅_{2}:=𝑅_{2}+1⋅𝑅_{1} \\ & ∼\begin{aligned}−4 & −2 & 4 \\ 4+1⋅(−4) & 1+1⋅(−2) & 2+1⋅4 \\ 1 & 2 & 3\end{aligned} \\ & ∼\begin{aligned}−4 & −2 & 4 \\ 0 & −1 & 6 \\ 1 & 2 & 3\end{aligned} \\ & =𝐵\end{aligned}
+\begin{aligned}𝐴 & =\begin{matrix}−4 & −2 & 4 \\ 4 & 1 & 2 \\ 1 & 2 & 3\end{matrix}\,𝑅_{2}:=𝑅_{2}+1⋅𝑅_{1} \\ & ∼\begin{matrix}−4 & −2 & 4 \\ 4+1⋅(−4) & 1+1⋅(−2) & 2+1⋅4 \\ 1 & 2 & 3\end{matrix} \\ & ∼\begin{matrix}−4 & −2 & 4 \\ 0 & −1 & 6 \\ 1 & 2 & 3\end{matrix} \\ & =𝐵\end{aligned}
 
 
 $$
@@ -191,7 +191,7 @@ Applying this operation, we obtain the following:
 $$
 
 
-\begin{aligned}𝐴 & =\begin{aligned}3 & 1 & −2 \\ −1 & 5 & 6 \\ 0 & 2 & 4\end{aligned}\,𝑅_{2}:=𝑅_{2}+(−5)⋅𝑅_{1} \\ & ∼\begin{aligned}3 & 1 & −2 \\ −1+(−5)⋅3 & 5+(−5)⋅1 & 6+(−5)⋅(−2) \\ 0 & 2 & 4\end{aligned} \\ & ∼\begin{aligned}3 & 1 & −2 \\ −16 & 0 & 16 \\ 0 & 2 & 4\end{aligned}\end{aligned}
+\begin{aligned}𝐴 & =\begin{matrix}3 & 1 & −2 \\ −1 & 5 & 6 \\ 0 & 2 & 4\end{matrix}\,𝑅_{2}:=𝑅_{2}+(−5)⋅𝑅_{1} \\ & ∼\begin{matrix}3 & 1 & −2 \\ −1+(−5)⋅3 & 5+(−5)⋅1 & 6+(−5)⋅(−2) \\ 0 & 2 & 4\end{matrix} \\ & ∼\begin{matrix}3 & 1 & −2 \\ −16 & 0 & 16 \\ 0 & 2 & 4\end{matrix}\end{aligned}
 
 
 $$

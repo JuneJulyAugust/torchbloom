@@ -138,7 +138,7 @@ So, we first need to solve our inequality for $x{:}$
 $$
 
 
-\begin{aligned}𝑥^{2}−9 & <0 \\ 𝑥^{2} & <9 \\ \sqrt{√𝑥^{2}} & <\sqrt{√9} \\ |𝑥| & <3 \\ −3<𝑥 & <3\end{aligned}
+\begin{aligned}𝑥^{2}−9 & <0 \\ 𝑥^{2} & <9 \\ \sqrt{𝑥^{2}} & <\sqrt{9} \\ |𝑥| & <3 \\ −3<𝑥 & <3\end{aligned}
 
 
 $$

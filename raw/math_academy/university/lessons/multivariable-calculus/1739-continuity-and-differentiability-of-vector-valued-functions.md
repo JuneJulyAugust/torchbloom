@@ -76,7 +76,7 @@ Find $\mathbf g(1)$ given that $\mathbf f(t)$ and $\mathbf g(t)$ are two continu
 $$
 
 
-\lim_\limits{t\rightarrow 1} \big[ 2\mathbf f(t)-\mathbf g(t) \big] = \left\langle 2, 1, -1 \right\rangle.
+\lim\limits_{t\rightarrow 1} \big[ 2\mathbf f(t)-\mathbf g(t) \big] = \left\langle 2, 1, -1 \right\rangle.
 
 
 $$
@@ -98,7 +98,7 @@ On the other hand, we are told that
 $$
 
 
-\lim_\limits{t\rightarrow 1} \big[ 2\mathbf f(t)-\mathbf g(t) \big] = \left\langle 2, 1, -1 \right\rangle.
+\lim\limits_{t\rightarrow 1} \big[ 2\mathbf f(t)-\mathbf g(t) \big] = \left\langle 2, 1, -1 \right\rangle.
 
 
 $$
@@ -160,7 +160,7 @@ Let's now differentiate $\mathbf f(t)$ to find $\mathbf f'(t)\mathbin{:}$
 $$
 
 
-\begin{aligned}𝐟^{′}(𝑡) & =⟨\frac{d}{d𝑡}(2𝑒^{𝑡}),\,\frac{d}{d𝑡}(\frac{𝜋}{𝑡−3}),\,\frac{d}{d𝑡}(\sqrt{√𝑡})⟩ \\ & =⟨2𝑒^{𝑡},\,−\frac{𝜋}{(𝑡−3)^{2}},\,\frac{1}{2\sqrt{√𝑡}}⟩\end{aligned}
+\begin{aligned}𝐟^{′}(𝑡) & =⟨\frac{d}{d𝑡}(2𝑒^{𝑡}),\,\frac{d}{d𝑡}(\frac{𝜋}{𝑡−3}),\,\frac{d}{d𝑡}(\sqrt{𝑡})⟩ \\ & =⟨2𝑒^{𝑡},\,−\frac{𝜋}{(𝑡−3)^{2}},\,\frac{1}{2\sqrt{𝑡}}⟩\end{aligned}
 
 
 $$
@@ -176,7 +176,7 @@ Find the interval where the function $\mathbf g(t)\cdot\mathbf h(t)$ is differen
 $$
 
 
-\begin{aligned}𝐠(𝑡) & =3sin⁡𝑡\,𝐢−cos⁡(2𝑡)\,𝐣−\sqrt{√𝑡}\,𝐤 \\ 𝐡(𝑡) & =2𝑡\,𝐢+𝑡^{2}\,𝐣−3cos⁡𝑡\,𝐤\end{aligned}
+\begin{aligned}𝐠(𝑡) & =3sin⁡𝑡\,𝐢−cos⁡(2𝑡)\,𝐣−\sqrt{𝑡}\,𝐤 \\ 𝐡(𝑡) & =2𝑡\,𝐢+𝑡^{2}\,𝐣−3cos⁡𝑡\,𝐤\end{aligned}
 
 
 $$

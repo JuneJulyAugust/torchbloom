@@ -74,7 +74,7 @@ $$
 
 
 
-\mathcal{A}_s= s^2 = 3^2 = 9 \textrm{ in}^2.
+\mathcal{A}_s= s^2 = 3^2 = 9 \text{ in}^2.
 
 
 
@@ -110,13 +110,13 @@ The figure is composed of three squares, $R_1,$ $R_2,$ and $R_3$, and one rectan
 
 The perimeter of the figure is determined by the sum of the lengths of
 
-- $3$ sides of $R_1$ (each of length $1\,\textrm{cm}$),
+- $3$ sides of $R_1$ (each of length $1\,\text{cm}$),
 
-- $1$ side of $R_2$ (of length $1\,\textrm{cm}$),
+- $1$ side of $R_2$ (of length $1\,\text{cm}$),
 
-- $3$ sides of $R_3$ (of length $1\,\textrm{cm}$),
+- $3$ sides of $R_3$ (of length $1\,\text{cm}$),
 
-- $3$ sides of $R_4$ (two of length $3\,\textrm{cm}$ and one of length $1\,\textrm{cm}$).
+- $3$ sides of $R_4$ (two of length $3\,\text{cm}$ and one of length $1\,\text{cm}$).
 
 Therefore, the perimeter is given by
 

@@ -17,7 +17,7 @@ To calculate the limit at infinity of a rational function, such as
 $$
 
 
-\lim_\limits{x\rightarrow \infty}\left(\dfrac{x^4}{x^5-x^2}\right),
+\lim\limits_{x\rightarrow \infty}\left(\dfrac{x^4}{x^5-x^2}\right),
 
 
 $$
@@ -34,7 +34,7 @@ $$
 
 $$
 
-**Step 2:** Apply the rule that if $n$ is any positive integer then $\displaystyle \lim_\limits{x\rightarrow \infty}\left(\dfrac{1}{x^n}\right)=0.$ Evaluate the remaining expression to obtain the answer.
+**Step 2:** Apply the rule that if $n$ is any positive integer then $\displaystyle \lim\limits_{x\rightarrow \infty}\left(\dfrac{1}{x^n}\right)=0.$ Evaluate the remaining expression to obtain the answer.
 
 $$
 
@@ -48,7 +48,7 @@ $$
 
 #### Question
 
-Evaluate $\lim_\limits{x\rightarrow \infty} \dfrac{3x^4+9x}{6x^4-x^3}.$
+Evaluate $\lim\limits_{x\rightarrow \infty} \dfrac{3x^4+9x}{6x^4-x^3}.$
 
 #### Explanation
 
@@ -66,7 +66,7 @@ $$
 
 #### Question
 
-Calculate $\lim_\limits{x\rightarrow -\infty} \dfrac{4-5x-2x^3}{x^2+3}.$
+Calculate $\lim\limits_{x\rightarrow -\infty} \dfrac{4-5x-2x^3}{x^2+3}.$
 
 #### Explanation
 
@@ -106,7 +106,7 @@ What is the horizontal asymptote of $y=f(x)$ with $f(x)=\dfrac{2x^3+1}{x^3-15x}?
 
 #### Explanation
 
-The horizontal asymptote is $y=\lim_\limits{x \rightarrow \infty} f(x).$ To find the horizontal asymptote, we apply the usual procedure of dividing the numerator and denominator by the highest power of $x$ in the denominator, which is $x^3.$
+The horizontal asymptote is $y=\lim\limits_{x \rightarrow \infty} f(x).$ To find the horizontal asymptote, we apply the usual procedure of dividing the numerator and denominator by the highest power of $x$ in the denominator, which is $x^3.$
 
 $$
 
@@ -126,7 +126,7 @@ Find the horizontal asymptote of $y=f(x)$ where $f(x)=\dfrac{x^5-10}{x^3-8x^2}.$
 
 #### Explanation
 
-The horizontal asymptote is $y=\lim_\limits{x \rightarrow \infty} f(x).$ To find the horizontal asymptote, we apply the usual procedure of dividing the numerator and denominator by the highest power of $x$ in the denominator, which is $x^3.$
+The horizontal asymptote is $y=\lim\limits_{x \rightarrow \infty} f(x).$ To find the horizontal asymptote, we apply the usual procedure of dividing the numerator and denominator by the highest power of $x$ in the denominator, which is $x^3.$
 
 $$
 

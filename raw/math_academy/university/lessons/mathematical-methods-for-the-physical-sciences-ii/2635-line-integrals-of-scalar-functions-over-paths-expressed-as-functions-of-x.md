@@ -16,7 +16,7 @@ To calculate the line integral of a function $f(x,y)$ along a curve $C,$ we use 
 $$
 
 
-\int\limits_C f(x, y) \, \textrm{d}s = \int\limits_a^b f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \textrm{d}t.
+\int\limits_C f(x, y) \, \text{d}s = \int\limits_a^b f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \text{d}t.
 
 
 $$
@@ -54,7 +54,7 @@ Computing $\| \mathbf{r}'(t) \|,$ we get
 $$
 
 
-\begin{aligned}‖𝐫^{′}(𝑡)‖ & =\sqrt{√(𝑥^{′}(𝑡))^{2}+(𝑦^{′}(𝑡))^{2}} \\ & =\sqrt{√1^{2}+(2𝑡)^{2}} \\ & =\sqrt{√1+4𝑡^{2}}.\end{aligned}
+\begin{aligned}‖𝐫^{′}(𝑡)‖ & =\sqrt{(𝑥^{′}(𝑡))^{2}+(𝑦^{′}(𝑡))^{2}} \\ & =\sqrt{1^{2}+(2𝑡)^{2}} \\ & =\sqrt{1+4𝑡^{2}}.\end{aligned}
 
 
 $$
@@ -74,7 +74,7 @@ Therefore, we can express the line integral in terms of $t$ as follows:
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}\frac{𝑦}{𝑥}\,d𝑠 & =∫_{𝑏𝑎}^{}𝑓(𝐫(𝑡))\,‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{10}^{}𝑡\,\sqrt{√1+4𝑡^{2}}\,d𝑡\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}\frac{𝑦}{𝑥}\,d𝑠 & =∫_{𝑏𝑎}𝑓(𝐫(𝑡))\,‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{10}𝑡\,\sqrt{1+4𝑡^{2}}\,d𝑡\end{aligned}
 
 
 $$
@@ -98,7 +98,7 @@ where $C$ is the section of the curve $y = \dfrac{x^3}3$ between the points $(0,
 $$
 
 
-\displaystyle\int\limits_a^b f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \textrm{d}t.
+\displaystyle\int\limits_a^b f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \text{d}t.
 
 
 $$
@@ -120,7 +120,7 @@ Computing $\mathbf{r}'(t)$ and $\| \mathbf{r}'(t) \|,$ we get the following:
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑡) & =\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣 \\ & =\frac{d}{d𝑡}(𝑡)𝐢+\frac{d}{d𝑡}(\frac{𝑡^{3}}{3})𝐣 \\ & =𝐢+𝑡^{2}\,𝐣 \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{√(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}} \\ & =\sqrt{√1^{2}+(𝑡^{2})^{2}} \\ & =\sqrt{√1+𝑡^{4}}\end{aligned}
+\begin{aligned}𝐫^{′}(𝑡) & =\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣 \\ & =\frac{d}{d𝑡}(𝑡)𝐢+\frac{d}{d𝑡}(\frac{𝑡^{3}}{3})𝐣 \\ & =𝐢+𝑡^{2}\,𝐣 \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}} \\ & =\sqrt{1^{2}+(𝑡^{2})^{2}} \\ & =\sqrt{1+𝑡^{4}}\end{aligned}
 
 
 $$
@@ -140,7 +140,7 @@ Therefore, we can write the integral as
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}𝑓(𝑥,𝑦)\,d𝑠 & =∫_{30}^{}𝑓(𝐫(𝑡))\,‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{30}^{}\frac{1}{9}𝑡^{5}⋅\sqrt{√1+𝑡^{4}}⋅d𝑡 \\ & =\frac{1}{9}∫_{30}^{}𝑡^{5}\sqrt{√1+𝑡^{4}}\,d𝑡.\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}𝑓(𝑥,𝑦)\,d𝑠 & =∫_{30}𝑓(𝐫(𝑡))\,‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{30}\frac{1}{9}𝑡^{5}⋅\sqrt{1+𝑡^{4}}⋅d𝑡 \\ & =\frac{1}{9}∫_{30}𝑡^{5}\sqrt{1+𝑡^{4}}\,d𝑡.\end{aligned}
 
 
 $$
@@ -168,7 +168,7 @@ Computing $\mathbf{r}'(t)$ and $\| \mathbf{r}'(t) \|,$ we get the following:
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑡) & =\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣 \\ & =\frac{d}{d𝑡}(𝑡)𝐢+\frac{d}{d𝑡}(𝑡)𝐣 \\ & =𝐢+𝐣 \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{√(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}} \\ & =\sqrt{√1^{2}+1^{2}} \\ & =\sqrt{√2}\end{aligned}
+\begin{aligned}𝐫^{′}(𝑡) & =\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣 \\ & =\frac{d}{d𝑡}(𝑡)𝐢+\frac{d}{d𝑡}(𝑡)𝐣 \\ & =𝐢+𝐣 \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}} \\ & =\sqrt{1^{2}+1^{2}} \\ & =\sqrt{2}\end{aligned}
 
 
 $$
@@ -188,7 +188,7 @@ Therefore, we can write the integral as
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}\frac{𝑦^{3}}{𝑥^{2}}\,d𝑠 & =∫_{40}^{}𝑓(𝐫(𝑡))\,‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{40}^{}𝑡⋅\sqrt{√2}⋅d𝑡 \\ & =\sqrt{√2}∫_{40}^{}𝑡\,d𝑡 \\ & =\frac{\sqrt{√2}}{2}𝑡^{2}_{40}^{} \\ & =\frac{\sqrt{√2}}{2}(4^{2}−0^{2}) \\ & =8\sqrt{√2}.\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}\frac{𝑦^{3}}{𝑥^{2}}\,d𝑠 & =∫_{40}𝑓(𝐫(𝑡))\,‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{40}𝑡⋅\sqrt{2}⋅d𝑡 \\ & =\sqrt{2}∫_{40}𝑡\,d𝑡 \\ & =\frac{\sqrt{2}}{2}𝑡^{2}_{40} \\ & =\frac{\sqrt{2}}{2}(4^{2}−0^{2}) \\ & =8\sqrt{2}.\end{aligned}
 
 
 $$

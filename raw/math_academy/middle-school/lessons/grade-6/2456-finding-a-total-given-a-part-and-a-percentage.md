@@ -18,7 +18,7 @@ $$
 
 
 
-\textrm{percent} \times \textrm{whole} = \textrm{part}
+\text{percent} \times \text{whole} = \text{part}
 
 
 
@@ -30,7 +30,7 @@ $$
 
 
 
-\textrm{whole} = \textrm{part} \div \textrm{percent}
+\text{whole} = \text{part} \div \text{percent}
 
 
 
@@ -92,7 +92,7 @@ $$
 
 
 
-\textrm{whole} = \textrm{part} \div \textrm{percentage}
+\text{whole} = \text{part} \div \text{percentage}
 
 
 
@@ -138,7 +138,7 @@ $$
 
 
 
-\textrm{whole} = \textrm{part} \div \textrm{percentage}
+\text{whole} = \text{part} \div \text{percentage}
 
 
 
@@ -186,7 +186,7 @@ $$
 
 
 
-\textrm{whole} = \textrm{part} \div \textrm{percentage}
+\text{whole} = \text{part} \div \text{percentage}
 
 
 

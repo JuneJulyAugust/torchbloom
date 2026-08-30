@@ -129,7 +129,7 @@ Therefore, $7,971 \div 10 \approx 800.$
 
 #### Question
 
-A farmer needs to pack $27,825\,\textrm{kg}$ of potatoes into bags. Each bag fits exactly $7\,\textrm{kg}$ of potatoes. By rounding the total weight of potatoes to the nearest thousand kilograms, estimate the number of bags needed to pack all the potatoes.
+A farmer needs to pack $27,825\,\text{kg}$ of potatoes into bags. Each bag fits exactly $7\,\text{kg}$ of potatoes. By rounding the total weight of potatoes to the nearest thousand kilograms, estimate the number of bags needed to pack all the potatoes.
 
 #### Explanation
 

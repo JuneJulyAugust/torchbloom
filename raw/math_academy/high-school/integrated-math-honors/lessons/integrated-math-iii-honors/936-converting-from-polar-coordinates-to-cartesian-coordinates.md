@@ -33,7 +33,7 @@ Let's use these formulas to write the point $P(2, 60^\circ)$ in Cartesian coordi
 $$
 
 
-\begin{aligned}𝑥 & =2cos⁡60^{∘}=2⋅\frac{1}{2}=1, \\ 𝑦 & =2sin⁡60^{∘}=2⋅\frac{\sqrt{√3}}{2}=\sqrt{√3}.\end{aligned}
+\begin{aligned}𝑥 & =2cos⁡60^{∘}=2⋅\frac{1}{2}=1, \\ 𝑦 & =2sin⁡60^{∘}=2⋅\frac{\sqrt{3}}{2}=\sqrt{3}.\end{aligned}
 
 
 $$
@@ -63,7 +63,7 @@ First, we calculate the $x$-coordinate of $P\mathbin{:}$
 $$
 
 
-\begin{aligned} x &= r\cos\theta\\\[5pt] &= 6 \cos\left(\dfrac{\pi}{3} \right)\\\[5pt] &= 6 \cdot \dfrac{1}{2}\\\[5pt] &= 3 \end{aligned}
+\begin{aligned} x &= r\cos\theta\\[5pt] &= 6 \cos\left(\dfrac{\pi}{3} \right)\\[5pt] &= 6 \cdot \dfrac{1}{2}\\[5pt] &= 3 \end{aligned}
 
 
 $$
@@ -73,7 +73,7 @@ Then, we calculate the $y$-coordinate of $P\mathbin{:}$
 $$
 
 
-\begin{aligned} y &= r\sin\theta\\\[5pt] &= 6 \sin\left(\dfrac{\pi}{3} \right)\\\[5pt] &= 6 \cdot \dfrac{\sqrt{3}}{2}\\\[5pt] &= 3\sqrt{3} \end{aligned}
+\begin{aligned} y &= r\sin\theta\\[5pt] &= 6 \sin\left(\dfrac{\pi}{3} \right)\\[5pt] &= 6 \cdot \dfrac{\sqrt{3}}{2}\\[5pt] &= 3\sqrt{3} \end{aligned}
 
 
 $$
@@ -113,7 +113,7 @@ First, we calculate the $x$-coordinate of $P\mathbin{:}$
 $$
 
 
-\begin{aligned} x &= r\cos\theta\\\[5pt] &=2 \cos\left( 135^{\circ} \right)\\\[5pt] &= 2 \left(-\dfrac{\sqrt{2}}{2}\right)\\\[5pt] &= -\sqrt{2} \end{aligned}
+\begin{aligned} x &= r\cos\theta\\[5pt] &=2 \cos\left( 135^{\circ} \right)\\[5pt] &= 2 \left(-\dfrac{\sqrt{2}}{2}\right)\\[5pt] &= -\sqrt{2} \end{aligned}
 
 
 $$
@@ -123,7 +123,7 @@ Then, we calculate the $y$-coordinate of $P\mathbin{:}$
 $$
 
 
-\begin{aligned} y &= r\sin\theta\\\[5pt] &= 2 \sin\left(135^{\circ}\right)\\\[5pt] &= 2 \left(\dfrac{\sqrt{2}}{2}\right)\\\[5pt] &= \sqrt{2} \end{aligned}
+\begin{aligned} y &= r\sin\theta\\[5pt] &= 2 \sin\left(135^{\circ}\right)\\[5pt] &= 2 \left(\dfrac{\sqrt{2}}{2}\right)\\[5pt] &= \sqrt{2} \end{aligned}
 
 
 $$
@@ -173,7 +173,7 @@ First, we calculate the $x$-coordinate of $B\mathbin{:}$
 $$
 
 
-\begin{aligned} x &= r\cos\theta\\\[5pt] &=10\sqrt{3} \cos\left(\dfrac{5\pi}{6} \right)\\\[5pt] &= 10\sqrt{3} \left(-\dfrac{\sqrt{3}}{2} \right)\\\[5pt] &= -15 \end{aligned}
+\begin{aligned} x &= r\cos\theta\\[5pt] &=10\sqrt{3} \cos\left(\dfrac{5\pi}{6} \right)\\[5pt] &= 10\sqrt{3} \left(-\dfrac{\sqrt{3}}{2} \right)\\[5pt] &= -15 \end{aligned}
 
 
 $$
@@ -183,7 +183,7 @@ Then, we calculate the $y$-coordinate of $B\mathbin{:}$
 $$
 
 
-\begin{aligned} y &= r\sin\theta\\\[5pt] &=10\sqrt{3} \sin\left(\dfrac{5\pi}{6} \right)\\\[5pt] &= 10\sqrt{3} \cdot\dfrac{1}{2} \\\[5pt] &=5\sqrt{3} \end{aligned}
+\begin{aligned} y &= r\sin\theta\\[5pt] &=10\sqrt{3} \sin\left(\dfrac{5\pi}{6} \right)\\[5pt] &= 10\sqrt{3} \cdot\dfrac{1}{2} \\[5pt] &=5\sqrt{3} \end{aligned}
 
 
 $$
@@ -229,7 +229,7 @@ First, we calculate the $x$-coordinate of $B\mathbin{:}$
 $$
 
 
-\begin{aligned} x &= r\cos\theta\\\[5pt] &=3\cos\left(\dfrac{3\pi}{4} \right)\\\[5pt] &=3\left(-\dfrac{\sqrt{2}}{2}\right)\\\[5pt] &=-\dfrac{3\sqrt 2}{2} \end{aligned}
+\begin{aligned} x &= r\cos\theta\\[5pt] &=3\cos\left(\dfrac{3\pi}{4} \right)\\[5pt] &=3\left(-\dfrac{\sqrt{2}}{2}\right)\\[5pt] &=-\dfrac{3\sqrt 2}{2} \end{aligned}
 
 
 $$
@@ -239,7 +239,7 @@ Then, we calculate the $y$-coordinate of $B\mathbin{:}$
 $$
 
 
-\begin{aligned} y &= r\sin\theta\\\[5pt] &= 3\sin\left(\dfrac{3\pi}{4} \right)\\\[5pt] &= 3\cdot\dfrac{\sqrt{2}}{2}\\\[5pt] &=\dfrac{3\sqrt 2}{2} \end{aligned}
+\begin{aligned} y &= r\sin\theta\\[5pt] &= 3\sin\left(\dfrac{3\pi}{4} \right)\\[5pt] &= 3\cdot\dfrac{\sqrt{2}}{2}\\[5pt] &=\dfrac{3\sqrt 2}{2} \end{aligned}
 
 
 $$

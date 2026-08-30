@@ -38,7 +38,7 @@ $$
 
 $$
 
-First, notice that $\textrm{gcd}(2,15)=1$ and
+First, notice that $\text{gcd}(2,15)=1$ and
 
 $$
 
@@ -146,7 +146,7 @@ $$
 
 where $\phi$ is Euler's totient function.
 
-First, notice that $\textrm{gcd}(7,33)=1$ and
+First, notice that $\text{gcd}(7,33)=1$ and
 
 $$
 
@@ -204,7 +204,7 @@ $$
 
 where $\phi$ is Euler's totient function.
 
-First, notice that $\textrm{gcd}(4,21)=1$ and
+First, notice that $\text{gcd}(4,21)=1$ and
 
 $$
 
@@ -228,7 +228,7 @@ $$
 
 $$
 
-Let's now find $5^{220}$ modulo ${\color{blue}12}.$ First, notice that $\textrm{gcd}(5,12)=1$ and
+Let's now find $5^{220}$ modulo ${\color{blue}12}.$ First, notice that $\text{gcd}(5,12)=1$ and
 
 $$
 

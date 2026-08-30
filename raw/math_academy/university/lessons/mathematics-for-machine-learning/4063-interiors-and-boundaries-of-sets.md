@@ -32,12 +32,12 @@ Then, the set $\partial A,$ the boundary of $A,$ has the following representatio
 
 ![Instructional graphic](../../../lesson-assets/mathematics-for-machine-learning/topic-4063/09da72d1eebd3fae.png)
 
-The **interior** of a set $S,$ denoted $\textrm{int}\, S,$ is the set containing all the interior points of $S.$ It contains every point in $S$ except the boundary points:
+The **interior** of a set $S,$ denoted $\text{int}\, S,$ is the set containing all the interior points of $S.$ It contains every point in $S$ except the boundary points:
 
 $$
 
 
-\textrm{int}\,S = S - \partial S
+\text{int}\,S = S - \partial S
 
 
 $$
@@ -51,7 +51,7 @@ More formally, the interior of $A$ is given by
 $$
 
 
-\textrm{int}\,A = \big\{ (x,y)\in\mathbb R^2 \,:\, -1 \lt x \lt 1, \, 0 \lt y \lt 2 \big\}.
+\text{int}\,A = \big\{ (x,y)\in\mathbb R^2 \,:\, -1 \lt x \lt 1, \, 0 \lt y \lt 2 \big\}.
 
 
 $$
@@ -121,7 +121,7 @@ The interior of $A$ is given by
 $$
 
 
-\textrm{int}\,A = \big\{ (x,y)\in\mathbb R^2 \,:\, \boxed{\phantom{AAAAA}}, \, -2 < y < 2\big\}.
+\text{int}\,A = \big\{ (x,y)\in\mathbb R^2 \,:\, \boxed{\phantom{AAAAA}}, \, -2 < y < 2\big\}.
 
 
 $$
@@ -136,12 +136,12 @@ The set $A$ and its boundary $\partial A$ are shown below.
 
 ![Instructional graphic](../../../lesson-assets/mathematics-for-machine-learning/topic-4063/815e769bc07ff628.png)
 
-The interior of a set $A,$ denoted $\textrm{int}\, A,$ is the set containing all the interior points of $A.$ It contains every point in $A$ except the boundary points:
+The interior of a set $A,$ denoted $\text{int}\, A,$ is the set containing all the interior points of $A.$ It contains every point in $A$ except the boundary points:
 
 $$
 
 
-\textrm{int}\,A = A - \partial A
+\text{int}\,A = A - \partial A
 
 
 $$
@@ -155,7 +155,7 @@ So, in this case, the interior of $A$ is given by
 $$
 
 
-\textrm{int}\,A = \big\{ (x,y)\in\mathbb R^2 \,:\, \boxed{y^2 - 1 < x}, \, -2 < y < 2\big\}.
+\text{int}\,A = \big\{ (x,y)\in\mathbb R^2 \,:\, \boxed{y^2 - 1 < x}, \, -2 < y < 2\big\}.
 
 
 $$
@@ -176,11 +176,11 @@ $$
 
 Which of the following statements are true?
 
-1. $A - \partial A = \textrm{int}\, A$
+1. $A - \partial A = \text{int}\, A$
 
-2. $\textrm{int}\, A \cap \partial A = \emptyset$
+2. $\text{int}\, A \cap \partial A = \emptyset$
 
-3. $A = \textrm{int}\,A \cup \partial A$
+3. $A = \text{int}\,A \cup \partial A$
 
 #### Explanation
 
@@ -190,12 +190,12 @@ In this case, the set $A$ and its boundary $\partial A$ are shown below.
 
 ![Instructional graphic](../../../lesson-assets/mathematics-for-machine-learning/topic-4063/b3a740da2a97acde.png)
 
-The interior of a set $A,$ denoted $\textrm{int}\, A,$ is the set containing all the interior points of $A.$ It contains every point in $A$ except the boundary points:
+The interior of a set $A,$ denoted $\text{int}\, A,$ is the set containing all the interior points of $A.$ It contains every point in $A$ except the boundary points:
 
 $$
 
 
-\textrm{int}\,A = A - \partial A
+\text{int}\,A = A - \partial A
 
 
 $$
@@ -206,10 +206,10 @@ The interior of $A$ is shown below.
 
 With that in mind, let's examine each statement:
 
-- Statement I is true. Since $\textrm{int}\,A$ contains all points in $A$ except the boundary points, we must have $A - \partial A = \textrm{int}\, A.$
+- Statement I is true. Since $\text{int}\,A$ contains all points in $A$ except the boundary points, we must have $A - \partial A = \text{int}\, A.$
 
-- Statement II is true. Since $\textrm{int}\,A$ contains all points in $A$ except the boundary points, we must have $\textrm{int}\, A \cap \partial A = \emptyset,$ where $\emptyset$ denotes the empty set.
+- Statement II is true. Since $\text{int}\,A$ contains all points in $A$ except the boundary points, we must have $\text{int}\, A \cap \partial A = \emptyset,$ where $\emptyset$ denotes the empty set.
 
-- Statement III is true. In this case, the set $A$ contains all of its boundary points, so we must have $A = \textrm{int}\,A \cup \partial A.$
+- Statement III is true. In this case, the set $A$ contains all of its boundary points, so we must have $A = \text{int}\,A \cup \partial A.$
 
 Therefore, the correct answer is "I, II, and III."

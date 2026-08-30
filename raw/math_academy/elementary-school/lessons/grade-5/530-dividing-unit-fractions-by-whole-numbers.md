@@ -62,7 +62,7 @@ $$
 
 #### Question
 
-Joshua uses $\dfrac{1}{2} \, \textrm{kg}$ of ham to make $4$ pizzas. If the ham is distributed equally among the $4$ pizzas, how much ham does he put on each pizza?
+Joshua uses $\dfrac{1}{2} \, \text{kg}$ of ham to make $4$ pizzas. If the ham is distributed equally among the $4$ pizzas, how much ham does he put on each pizza?
 
 #### Explanation
 
@@ -82,4 +82,4 @@ $$
 
 $$
 
-Therefore, Joshua puts $\dfrac{1}{8} \, \textrm{kg}$ of ham on each pizza.
+Therefore, Joshua puts $\dfrac{1}{8} \, \text{kg}$ of ham on each pizza.

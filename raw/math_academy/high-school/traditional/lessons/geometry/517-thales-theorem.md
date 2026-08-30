@@ -29,7 +29,7 @@ Now that we know $\triangle ABC$ is a right triangle, we can apply the Pythagore
 $$
 
 
-\begin{aligned}𝐴𝐵 & =\sqrt{√𝐴𝐶^{2}+𝐵𝐶^{2}} \\ & =\sqrt{√8^{2}+6^{2}} \\ & =\sqrt{√64+36} \\ & =\sqrt{√100} \\ & =10\,cm\end{aligned}
+\begin{aligned}𝐴𝐵 & =\sqrt{𝐴𝐶^{2}+𝐵𝐶^{2}} \\ & =\sqrt{8^{2}+6^{2}} \\ & =\sqrt{64+36} \\ & =\sqrt{100} \\ & =10\,cm\end{aligned}
 
 
 $$
@@ -38,7 +38,7 @@ $$
 
 #### Question
 
-Consider the figure below, where $AC=7\,\textrm{cm}$ and $BC=24\,\textrm{cm}.$ What is the radius of the circle?
+Consider the figure below, where $AC=7\,\text{cm}$ and $BC=24\,\text{cm}.$ What is the radius of the circle?
 
 ![Instructional graphic](../../../../lesson-assets/geometry/topic-517/5f6629ea71e100d4.png)
 
@@ -51,7 +51,7 @@ So, by the Pythagorean theorem, we have
 $$
 
 
-\begin{aligned}𝐴𝐵 & =\sqrt{√𝐴𝐶^{2}+𝐵𝐶^{2}} \\ & =\sqrt{√7^{2}+24^{2}} \\ & =\sqrt{√625} \\ & =25\,cm.\end{aligned}
+\begin{aligned}𝐴𝐵 & =\sqrt{𝐴𝐶^{2}+𝐵𝐶^{2}} \\ & =\sqrt{7^{2}+24^{2}} \\ & =\sqrt{625} \\ & =25\,cm.\end{aligned}
 
 
 $$
@@ -61,7 +61,7 @@ Finally, the radius of the circle is
 $$
 
 
-OA = \dfrac{AB}{2} = \dfrac{25}{2} = 12.5 \,\textrm{cm}.
+OA = \dfrac{AB}{2} = \dfrac{25}{2} = 12.5 \,\text{cm}.
 
 
 $$
@@ -72,7 +72,7 @@ $$
 
 ![Instructional graphic](../../../../lesson-assets/geometry/topic-517/83586a700591b0e8.png)
 
-The radius of the above circle is $10\,\textrm{m}$ and $AC=12\,\textrm{m}.$ What is the length of the chord $\overline{BC}?$
+The radius of the above circle is $10\,\text{m}$ and $AC=12\,\text{m}.$ What is the length of the chord $\overline{BC}?$
 
 #### Explanation
 
@@ -80,7 +80,7 @@ Notice that $\triangle{ACB}$ is inscribed in the circle, where $\overline{AB}$ i
 
 ![Instructional graphic](../../../../lesson-assets/geometry/topic-517/b833afe2a2a28940.png)
 
-Now, $AB=2AO=2 \cdot 10 = 20 \, \textrm{m}.$
+Now, $AB=2AO=2 \cdot 10 = 20 \, \text{m}.$
 
 Finally, by the Pythagorean theorem,
 
@@ -92,4 +92,4 @@ $$
 
 $$
 
-So, $BC = \sqrt{256} = 16\,\textrm{cm}.$
+So, $BC = \sqrt{256} = 16\,\text{cm}.$

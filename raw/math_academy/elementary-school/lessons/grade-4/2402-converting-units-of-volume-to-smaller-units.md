@@ -46,7 +46,7 @@ We start with the unit conversion between gallons and pints:
 
 $$
 
-1\, \textrm{gallon} =8\, \textrm{pints}
+1\, \text{gallon} =8\, \text{pints}
 
 $$
 
@@ -84,7 +84,7 @@ We start with the unit conversion between pints and cups:
 
 $$
 
-1\, \textrm{pint} =2\, \textrm{cups}
+1\, \text{pint} =2\, \text{cups}
 
 $$
 
@@ -122,7 +122,7 @@ We start with the unit conversion between fluid ounces and cups:
 
 $$
 
-1 \,\textrm{cup}=8 \,\textrm{fluid ounces}
+1 \,\text{cup}=8 \,\text{fluid ounces}
 
 $$
 
@@ -154,15 +154,15 @@ For metric units of volume, there is one primary conversion that we need to be a
 
 $$
 
-1 \,\textrm{liter} =1,000 \,\textrm{milliliters}
+1 \,\text{liter} =1,000 \,\text{milliliters}
 
 $$
 
-The unit symbol for liters is $\textrm{L},$ and the symbol for milliliters is $\textrm{mL}.$ So, we can express our unit conversion using unit symbols as follows:
+The unit symbol for liters is $\text{L},$ and the symbol for milliliters is $\text{mL}.$ So, we can express our unit conversion using unit symbols as follows:
 
 $$
 
-1 \,\textrm{L} =1,000 \,\textrm{mL}
+1 \,\text{L} =1,000 \,\text{mL}
 
 $$
 
@@ -174,7 +174,7 @@ $$
 
 $$
 
-Therefore, $2\,\textrm{L}$ liters equals $2,000\,\textrm{mL}.$
+Therefore, $2\,\text{L}$ liters equals $2,000\,\text{mL}.$
 
 ### Example: Converting From Liters to Milliliters
 
@@ -188,7 +188,7 @@ We start with the unit conversion between liters and milliliters:
 
 $$
 
-1\, \textrm{liter} =1,000\, \textrm{milliliters}
+1\, \text{liter} =1,000\, \text{milliliters}
 
 $$
 

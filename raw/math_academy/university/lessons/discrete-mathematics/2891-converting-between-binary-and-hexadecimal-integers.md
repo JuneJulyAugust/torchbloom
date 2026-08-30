@@ -22,7 +22,7 @@ $$
 
 
 
-{\color{SandyBrown}3}\,{\color{Purple}\textrm{B}}\,{\color{SteelBlue}7}.
+{\color{SandyBrown}3}\,{\color{Purple}\text{B}}\,{\color{SteelBlue}7}.
 
 
 
@@ -48,7 +48,7 @@ $$
 
 
 
-(3\textrm{B}7)_{16} = (0011 \: 1011 \: 0111 )_2 = (11 \: 1011 \: 0111 )_2.
+(3\text{B}7)_{16} = (0011 \: 1011 \: 0111 )_2 = (11 \: 1011 \: 0111 )_2.
 
 
 
@@ -76,7 +76,7 @@ $$
 
 
 
-({\color{SandyBrown}3}\,{\color{Purple}\textrm{B}}\,{\color{SteelBlue}7})_{16}.
+({\color{SandyBrown}3}\,{\color{Purple}\text{B}}\,{\color{SteelBlue}7})_{16}.
 
 
 
@@ -88,7 +88,7 @@ $$
 
 
 
-(11 \: 1011 \: 0111 )_2 = (3\textrm{B}7)_{16}.
+(11 \: 1011 \: 0111 )_2 = (3\text{B}7)_{16}.
 
 
 
@@ -102,15 +102,15 @@ The table below gives the conversions between binary and hexadecimal for the dec
 
 #### Question
 
-What is $(\textrm{FE}9)_{16}$ written in base $2?$
+What is $(\text{FE}9)_{16}$ written in base $2?$
 
 #### Explanation
 
-Recall that the hexadecimal integers $\textrm{A}-\textrm{F}$ correspond to decimal integers $10-15{:}$
+Recall that the hexadecimal integers $\text{A}-\text{F}$ correspond to decimal integers $10-15{:}$
 
 To write a hexadecimal integer as the corresponding binary number, we convert each digit of the hexadecimal number into a $4$-digit binary (with leading zeros if necessary) and concatenate the results.
 
-- Converting each digit of $(\textrm{FE}9)_{16}$ into binary, we obtain:
+- Converting each digit of $(\text{FE}9)_{16}$ into binary, we obtain:
 
 - Concatenating the results, we get
 
@@ -122,7 +122,7 @@ What is $(100 \: 1101)_2$ written in base $16?$
 
 #### Explanation
 
-Recall that the hexadecimal integers $\textrm{A}-\textrm{F}$ correspond to decimal integers $10-15{:}$
+Recall that the hexadecimal integers $\text{A}-\text{F}$ correspond to decimal integers $10-15{:}$
 
 To write a binary integer as the corresponding hexadecimal number, we split it from right to left into blocks containing precisely four digits. Then, we write each block using the corresponding hexadecimal digit.
 
@@ -156,7 +156,7 @@ $$
 
 
 
-(100 \: 1101 )_2 = (4\textrm{D})_{16}.
+(100 \: 1101 )_2 = (4\text{D})_{16}.
 
 
 

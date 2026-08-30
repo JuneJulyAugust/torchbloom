@@ -16,7 +16,7 @@ Recall that for two vectors $\mathbf{u}, \mathbf{v} \in \mathbb{R}^n,$ the **dot
 $$
 
 
-\begin{aligned}𝐮⋅𝐯 & =\begin{aligned}𝑢_{1} \\ 𝑢_{2} \\ ⋮ \\ 𝑢_{𝑛}\end{aligned}⋅\begin{aligned}𝑣_{1} \\ 𝑣_{2} \\ ⋮ \\ 𝑣_{𝑛}\end{aligned} \\ & =𝑢_{1}⋅𝑣_{1}+𝑢_{2}⋅𝑣_{2}+⋯+𝑢_{𝑛}⋅𝑣_{𝑛} \\ & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑢_{𝑖}𝑣_{𝑖}\end{aligned}
+\begin{aligned}𝐮⋅𝐯 & =\begin{matrix}𝑢_{1} \\ 𝑢_{2} \\ ⋮ \\ 𝑢_{𝑛}\end{matrix}⋅\begin{matrix}𝑣_{1} \\ 𝑣_{2} \\ ⋮ \\ 𝑣_{𝑛}\end{matrix} \\ & =𝑢_{1}⋅𝑣_{1}+𝑢_{2}⋅𝑣_{2}+⋯+𝑢_{𝑛}⋅𝑣_{𝑛} \\ & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑢_{𝑖}𝑣_{𝑖}\end{aligned}
 
 
 $$

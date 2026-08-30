@@ -217,7 +217,7 @@ Therefore, the $99\%$ confidence interval for the population mean $\mu$ is the f
 $$
 
 
-\begin{aligned}110 & ±2.654⋅\frac{16.5}{\sqrt{√66}}\sqrt{√\frac{580−66}{580−1}}\end{aligned}
+\begin{aligned}110 & ±2.654⋅\frac{16.5}{\sqrt{66}}\sqrt{\frac{580−66}{580−1}}\end{aligned}
 
 
 $$
@@ -246,7 +246,7 @@ $$
 
 #### Question
 
-A jewelry store has $N = 240$ diamond rings for sale. The weight of the diamonds in the rings is normally distributed. A sample of $n = 19$ rings is taken, and the sample mean weight of diamonds per ring is found to be $\overline{x} = 1.3 \, \textrm{carats}$ with the sample variance of $s^2 = (0.25 \, \textrm{carats})^2$. Find a $95\%$ confidence interval for the population mean weight (in carats) given that $\overline{x}$ and $s^2$ are the unbiased estimates of the population mean $\mu$ and population variance $\sigma^2,$ respectively.
+A jewelry store has $N = 240$ diamond rings for sale. The weight of the diamonds in the rings is normally distributed. A sample of $n = 19$ rings is taken, and the sample mean weight of diamonds per ring is found to be $\overline{x} = 1.3 \, \text{carats}$ with the sample variance of $s^2 = (0.25 \, \text{carats})^2$. Find a $95\%$ confidence interval for the population mean weight (in carats) given that $\overline{x}$ and $s^2$ are the unbiased estimates of the population mean $\mu$ and population variance $\sigma^2,$ respectively.
 
 **
 
@@ -345,7 +345,7 @@ Therefore, the $95\%$ confidence interval for the population mean $\mu$ is the f
 $$
 
 
-\begin{aligned}1.3 & ±2.101⋅\frac{0.25}{\sqrt{√19}}\sqrt{√\frac{240−19}{240−1}}\end{aligned}
+\begin{aligned}1.3 & ±2.101⋅\frac{0.25}{\sqrt{19}}\sqrt{\frac{240−19}{240−1}}\end{aligned}
 
 
 $$

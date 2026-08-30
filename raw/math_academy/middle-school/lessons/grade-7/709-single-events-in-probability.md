@@ -19,7 +19,7 @@ $$
 
 
 
-P(\textrm{Event}) = \frac{\textrm{Number of favorable outcomes}}{\textrm{Total number of outcomes}}.
+P(\text{Event}) = \frac{\text{Number of favorable outcomes}}{\text{Total number of outcomes}}.
 
 
 
@@ -51,7 +51,7 @@ $$
 
 
 
-P(\textrm{red marker}) = \frac{7}{16}.
+P(\text{red marker}) = \frac{7}{16}.
 
 
 
@@ -73,7 +73,7 @@ $$
 
 
 
-P(\textrm{Event}) = \frac{\textrm{Number of favorable outcomes}}{\textrm{Total number of outcomes}}.
+P(\text{Event}) = \frac{\text{Number of favorable outcomes}}{\text{Total number of outcomes}}.
 
 
 
@@ -109,7 +109,7 @@ $$
 
 
 
-P(\textrm{Event}) = \frac{\textrm{Number of favorable outcomes}}{\textrm{Total number of outcomes}}.
+P(\text{Event}) = \frac{\text{Number of favorable outcomes}}{\text{Total number of outcomes}}.
 
 
 
@@ -145,7 +145,7 @@ $$
 
 
 
-P(\textrm{not a consonant}) = \dfrac{2}{6} = \dfrac{1}{3}.
+P(\text{not a consonant}) = \dfrac{2}{6} = \dfrac{1}{3}.
 
 
 
@@ -161,7 +161,7 @@ $$
 
 
 
-P(\textrm{Event}) = \frac{\textrm{Number of favorable outcomes}}{\textrm{Total number of outcomes}}
+P(\text{Event}) = \frac{\text{Number of favorable outcomes}}{\text{Total number of outcomes}}
 
 
 
@@ -197,7 +197,7 @@ $$
 
 
 
-P(\textrm{banana or apple}) = \dfrac{14}{20} = \dfrac{7}{10}.
+P(\text{banana or apple}) = \dfrac{14}{20} = \dfrac{7}{10}.
 
 
 
@@ -217,7 +217,7 @@ $$
 
 
 
-P(\textrm{Event}) = \frac{\textrm{Number of favorable outcomes}}{\textrm{Total number of outcomes}}.
+P(\text{Event}) = \frac{\text{Number of favorable outcomes}}{\text{Total number of outcomes}}.
 
 
 
@@ -273,7 +273,7 @@ $$
 
 
 
-P(\textrm{Event}) = \frac{\textrm{Number of favorable outcomes}}{\textrm{Total number of outcomes}}
+P(\text{Event}) = \frac{\text{Number of favorable outcomes}}{\text{Total number of outcomes}}
 
 
 
@@ -339,7 +339,7 @@ $$
 
 
 
-P(\textrm{Event}) = \frac{\textrm{Number of favorable outcomes}}{\textrm{Total number of outcomes}}.
+P(\text{Event}) = \frac{\text{Number of favorable outcomes}}{\text{Total number of outcomes}}.
 
 
 

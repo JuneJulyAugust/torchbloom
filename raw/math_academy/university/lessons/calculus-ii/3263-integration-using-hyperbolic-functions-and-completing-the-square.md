@@ -17,7 +17,7 @@ Consider the integral
 $$
 
 
-\int \dfrac{1}{\sqrt{x^2-10x+34}}\, \textrm{d}x.
+\int \dfrac{1}{\sqrt{x^2-10x+34}}\, \text{d}x.
 
 
 $$
@@ -37,7 +37,7 @@ If we plug the above into our integral and collect a factor of $9$ in the denomi
 $$
 
 
-\begin{aligned}∫\frac{1}{\sqrt{√𝑥^{2}−10𝑥+34}}\,d𝑥 & =∫\frac{1}{\sqrt{√(𝑥−5)^{2}+9}}\,d𝑥 \\ & =∫\frac{1}{\sqrt{√9[\frac{(𝑥−5)^{2}}{9}+1]}}\,d𝑥 \\ & =\frac{1}{3}∫\frac{1}{\sqrt{√(\frac{𝑥−5}{3})^{2}+1}}\,d𝑥.\end{aligned}
+\begin{aligned}∫\frac{1}{\sqrt{𝑥^{2}−10𝑥+34}}\,d𝑥 & =∫\frac{1}{\sqrt{(𝑥−5)^{2}+9}}\,d𝑥 \\ & =∫\frac{1}{\sqrt{9[\frac{(𝑥−5)^{2}}{9}+1]}}\,d𝑥 \\ & =\frac{1}{3}∫\frac{1}{\sqrt{(\frac{𝑥−5}{3})^{2}+1}}\,d𝑥.\end{aligned}
 
 
 $$
@@ -47,7 +47,7 @@ This now looks more familiar! Let $u = \dfrac {x-5}{3}.$ Then
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x}=\dfrac{1}{3} \quad\Longrightarrow\quad \textrm{d}x = 3\,\textrm{d}u.
+\dfrac{\text{d}u}{\text{d}x}=\dfrac{1}{3} \quad\Longrightarrow\quad \text{d}x = 3\,\text{d}u.
 
 
 $$
@@ -57,7 +57,7 @@ We can now write the integral as
 $$
 
 
-\begin{aligned}∫\frac{1}{\sqrt{√𝑥^{2}−10𝑥+34}}\,d𝑥 & =\frac{1}{3}∫\frac{1}{\sqrt{√(\frac{𝑥−5}{3})^{2}+1}}\,d𝑥 \\ & =\frac{1}{3}∫\frac{1}{\sqrt{√𝑢^{2}+1}}\,⋅(3\,d𝑢) \\ & =∫\frac{1}{\sqrt{√𝑢^{2}+1}}\,d𝑢.\end{aligned}
+\begin{aligned}∫\frac{1}{\sqrt{𝑥^{2}−10𝑥+34}}\,d𝑥 & =\frac{1}{3}∫\frac{1}{\sqrt{(\frac{𝑥−5}{3})^{2}+1}}\,d𝑥 \\ & =\frac{1}{3}∫\frac{1}{\sqrt{𝑢^{2}+1}}\,⋅(3\,d𝑢) \\ & =∫\frac{1}{\sqrt{𝑢^{2}+1}}\,d𝑢.\end{aligned}
 
 
 $$
@@ -67,7 +67,7 @@ This is a basic integral for an inverse hyperbolic function, and we can solve it
 $$
 
 
-\begin{aligned}∫\frac{1}{\sqrt{√𝑢^{2}+1}}\,d𝑢 & =arsinh⁡𝑢+𝐶 \\ & =arsinh⁡(\frac{𝑥−5}{3})+𝐶\end{aligned}
+\begin{aligned}∫\frac{1}{\sqrt{𝑢^{2}+1}}\,d𝑢 & =arsinh⁡𝑢+𝐶 \\ & =arsinh⁡(\frac{𝑥−5}{3})+𝐶\end{aligned}
 
 
 $$
@@ -76,7 +76,7 @@ $$
 
 #### Question
 
-Calculate $\displaystyle \int \dfrac{\textrm{d}x}{\sqrt{\left(x - 1\right)^2-9}}.$
+Calculate $\displaystyle \int \dfrac{\text{d}x}{\sqrt{\left(x - 1\right)^2-9}}.$
 
 #### Explanation
 
@@ -85,7 +85,7 @@ First, we note that
 $$
 
 
-\int \dfrac{\textrm{d}x}{\sqrt{\left(x - 1\right)^2-9}} = \int \dfrac{\textrm{d}x}{\sqrt{9\left(\dfrac{x - 1}{3}\right)^2-9}} = \dfrac{1}{3} \int \dfrac{1}{\sqrt{\left( \dfrac{x-1}{3}\right)^2-1}} \textrm{d}x.
+\int \dfrac{\text{d}x}{\sqrt{\left(x - 1\right)^2-9}} = \int \dfrac{\text{d}x}{\sqrt{9\left(\dfrac{x - 1}{3}\right)^2-9}} = \dfrac{1}{3} \int \dfrac{1}{\sqrt{\left( \dfrac{x-1}{3}\right)^2-1}} \text{d}x.
 
 
 $$
@@ -95,7 +95,7 @@ Let $u =\dfrac{x-1}{3}.$ Then, we have
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x}=\dfrac{1}{3} \quad\Longrightarrow\quad \textrm{d}x = 3\,\textrm{d}u.
+\dfrac{\text{d}u}{\text{d}x}=\dfrac{1}{3} \quad\Longrightarrow\quad \text{d}x = 3\,\text{d}u.
 
 
 $$
@@ -105,7 +105,7 @@ Therefore,
 $$
 
 
-\begin{aligned}\frac{1}{3}∫\frac{1}{\sqrt{√(\frac{𝑥−1}{3})^{2}−1}}d𝑥 & =\frac{1}{3}∫\frac{1}{\sqrt{√𝑢^{2}−1}}⋅3\,d𝑢 \\ & =arcosh⁡𝑢+𝐶 \\ & =arcosh⁡(\frac{𝑥−1}{3})+𝐶.\end{aligned}
+\begin{aligned}\frac{1}{3}∫\frac{1}{\sqrt{(\frac{𝑥−1}{3})^{2}−1}}d𝑥 & =\frac{1}{3}∫\frac{1}{\sqrt{𝑢^{2}−1}}⋅3\,d𝑢 \\ & =arcosh⁡𝑢+𝐶 \\ & =arcosh⁡(\frac{𝑥−1}{3})+𝐶.\end{aligned}
 
 
 $$
@@ -114,7 +114,7 @@ $$
 
 #### Question
 
-${\displaystyle \int \dfrac{\textrm{d}x}{\sqrt{x^2-2x+2}} =}$
+${\displaystyle \int \dfrac{\text{d}x}{\sqrt{x^2-2x+2}} =}$
 
 #### Explanation
 
@@ -133,7 +133,7 @@ Substituting the above into the given integral, we get
 $$
 
 
-\int \dfrac{\textrm{d}x}{\sqrt{x^2-2x+2}} = \int \dfrac{\textrm{d}x}{\sqrt { (x-1)^2 + 1}}.
+\int \dfrac{\text{d}x}{\sqrt{x^2-2x+2}} = \int \dfrac{\text{d}x}{\sqrt { (x-1)^2 + 1}}.
 
 
 $$
@@ -143,7 +143,7 @@ Let $u = x-1.$ Then, we have
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x}=1 \quad\Longrightarrow\quad \textrm{d}x = \textrm{d}u.
+\dfrac{\text{d}u}{\text{d}x}=1 \quad\Longrightarrow\quad \text{d}x = \text{d}u.
 
 
 $$
@@ -153,7 +153,7 @@ Therefore,
 $$
 
 
-\begin{aligned}\begin{aligned}∫\frac{d𝑥}{\sqrt{√𝑥^{2}−2𝑥+2}} & =∫\frac{d𝑥}{\sqrt{√(𝑥−1)^{2}+1}} \\ & =∫\frac{d𝑢}{\sqrt{√𝑢^{2}+1}} \\ & =arsinh⁡𝑢+𝐶 \\ & =arsinh⁡(𝑥−1)+𝐶.\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}∫\frac{d𝑥}{\sqrt{𝑥^{2}−2𝑥+2}} & =∫\frac{d𝑥}{\sqrt{(𝑥−1)^{2}+1}} \\ & =∫\frac{d𝑢}{\sqrt{𝑢^{2}+1}} \\ & =arsinh⁡𝑢+𝐶 \\ & =arsinh⁡(𝑥−1)+𝐶.\end{matrix}\end{aligned}
 
 
 $$
@@ -162,7 +162,7 @@ $$
 
 #### Question
 
-${\displaystyle \int \dfrac{2}{\sqrt{x^2-4x+3}} \textrm{d}x=}$
+${\displaystyle \int \dfrac{2}{\sqrt{x^2-4x+3}} \text{d}x=}$
 
 #### Explanation
 
@@ -181,7 +181,7 @@ Substituting the above into the given integral, we get
 $$
 
 
-\int \dfrac{2}{\sqrt{x^2-4x+3}} \textrm{d}x = \int \dfrac{2}{\sqrt {(x-2)^2-1} } \, \textrm{d}x.
+\int \dfrac{2}{\sqrt{x^2-4x+3}} \text{d}x = \int \dfrac{2}{\sqrt {(x-2)^2-1} } \, \text{d}x.
 
 
 $$
@@ -191,7 +191,7 @@ Let $u = x-2.$ Then, we have
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x}=1 \quad\Longrightarrow\quad \textrm{d}x = \textrm{d}u.
+\dfrac{\text{d}u}{\text{d}x}=1 \quad\Longrightarrow\quad \text{d}x = \text{d}u.
 
 
 $$
@@ -201,7 +201,7 @@ Therefore,
 $$
 
 
-\begin{aligned}\begin{aligned}∫\frac{2}{\sqrt{√𝑥^{2}−4𝑥+3}}d𝑥 & =∫\frac{2}{\sqrt{√(𝑥−2)^{2}−1}}\,d𝑥 \\ & =2∫\frac{1}{\sqrt{√𝑢^{2}−1}}d𝑢 \\ & =2arcosh⁡𝑢+𝐶 \\ & =2arcosh⁡(𝑥−2)+𝐶.\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}∫\frac{2}{\sqrt{𝑥^{2}−4𝑥+3}}d𝑥 & =∫\frac{2}{\sqrt{(𝑥−2)^{2}−1}}\,d𝑥 \\ & =2∫\frac{1}{\sqrt{𝑢^{2}−1}}d𝑢 \\ & =2arcosh⁡𝑢+𝐶 \\ & =2arcosh⁡(𝑥−2)+𝐶.\end{matrix}\end{aligned}
 
 
 $$
@@ -210,7 +210,7 @@ $$
 
 #### Question
 
-$\displaystyle \int \dfrac{1}{4x-x^2} \textrm{d}x=$
+$\displaystyle \int \dfrac{1}{4x-x^2} \text{d}x=$
 
 #### Explanation
 
@@ -219,7 +219,7 @@ First, we complete the square for the denominator:
 $$
 
 
-\begin{aligned} 4x-x^2 & = -(x^2 - 4x)\\\[5pt] & = -(x^2 - 2\cdot 2x + 2^2-2^2)\\\[5pt] & = -((x-2)^2 - 4) \\\[5pt] &= 4 - (x-2)^2 \end{aligned}
+\begin{aligned} 4x-x^2 & = -(x^2 - 4x)\\[5pt] & = -(x^2 - 2\cdot 2x + 2^2-2^2)\\[5pt] & = -((x-2)^2 - 4) \\[5pt] &= 4 - (x-2)^2 \end{aligned}
 
 
 $$
@@ -229,7 +229,7 @@ Substituting the above into the denominator of our integral, we get
 $$
 
 
-\int \dfrac{1}{4x-x^2}\textrm{d}x = \int \dfrac{1}{4-(x-2)^2}\textrm{d}x = \dfrac{1}{4} {\int}\dfrac{1}{ 1 - \left( \frac{1}{2}(x-2)\right)^2 }\textrm{d}x.
+\int \dfrac{1}{4x-x^2}\text{d}x = \int \dfrac{1}{4-(x-2)^2}\text{d}x = \dfrac{1}{4} {\int}\dfrac{1}{ 1 - \left( \frac{1}{2}(x-2)\right)^2 }\text{d}x.
 
 
 $$
@@ -239,7 +239,7 @@ Let $u = \dfrac{1}{2}(x-2).$ Then, we have
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x}=\dfrac{1}{2} \quad\Longrightarrow\quad \textrm{d}x = 2\,\textrm{d}u.
+\dfrac{\text{d}u}{\text{d}x}=\dfrac{1}{2} \quad\Longrightarrow\quad \text{d}x = 2\,\text{d}u.
 
 
 $$

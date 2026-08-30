@@ -15,19 +15,19 @@ Topic ID: 3871
 
 We can use unit arguments to make conversions between different units of measurement when more than one conversion factor needs to be considered.
 
-For example, let's use unit arguments to convert $0.006\,\textrm{km}$ into centimeters. We start by recalling the conversion table for length units.
+For example, let's use unit arguments to convert $0.006\,\text{km}$ into centimeters. We start by recalling the conversion table for length units.
 
-There is no direct conversion between $\textrm{km}$ and $\textrm{cm}.$ However, we can convert from $\textrm{km}$ to $\textrm{m},$ and then from $\textrm{m}$ to $\textrm{cm}.$ Let's write down the conversion factors for both of these unit conversions:
-
-$$
-
-
-\dfrac{1\,000\,\textrm{m}}{\textrm{km}}, \qquad \dfrac{100\,\textrm{cm}}{\textrm{m}}
-
+There is no direct conversion between $\text{km}$ and $\text{cm}.$ However, we can convert from $\text{km}$ to $\text{m},$ and then from $\text{m}$ to $\text{cm}.$ Let's write down the conversion factors for both of these unit conversions:
 
 $$
 
-Now, if we multiply these factors together, we'll get a conversion factor from $\textrm{km}$ to $\textrm{cm},$ as follows:
+
+\dfrac{1\,000\,\text{m}}{\text{km}}, \qquad \dfrac{100\,\text{cm}}{\text{m}}
+
+
+$$
+
+Now, if we multiply these factors together, we'll get a conversion factor from $\text{km}$ to $\text{cm},$ as follows:
 
 $$
 
@@ -37,9 +37,9 @@ $$
 
 $$
 
-This conversion factor tells us that there are $100\,000\,\textrm{cm}$ per kilometer. Notice that the meters unit $(\textrm m)$ canceled away, leaving only the units we're interested in $(\textrm{cm}$ and $\textrm{km}).$
+This conversion factor tells us that there are $100\,000\,\text{cm}$ per kilometer. Notice that the meters unit $(\textrm m)$ canceled away, leaving only the units we're interested in $(\text{cm}$ and $\text{km}).$
 
-To convert $0.006\,\textrm{km}$ into centimeters, we multiply by the conversion factor as follows:
+To convert $0.006\,\text{km}$ into centimeters, we multiply by the conversion factor as follows:
 
 $$
 
@@ -49,17 +49,17 @@ $$
 
 $$
 
-Therefore, $0.006\,\textrm{km}$ is equivalent to $600\,\textrm{cm}.$
+Therefore, $0.006\,\text{km}$ is equivalent to $600\,\text{cm}.$
 
 ### Example: Two-Step Conversions
 
 #### Question
 
-What is $0.05\,\textrm{km}$ expressed in $\textrm{mm}?$
+What is $0.05\,\text{km}$ expressed in $\text{mm}?$
 
 #### Explanation
 
-There are $1000\,\textrm{m}$ per $\textrm{km},$ and also $1\,000\,\textrm{mm}$ per $\textrm{m}.$ We can write this as follows:
+There are $1000\,\text{m}$ per $\text{km},$ and also $1\,000\,\text{mm}$ per $\text{m}.$ We can write this as follows:
 
 $$
 
@@ -69,9 +69,9 @@ $$
 
 $$
 
-This is our conversion factor. It tells us that there are $1\,000\,000\,\textrm{mm}$ per $\textrm{km}.$
+This is our conversion factor. It tells us that there are $1\,000\,000\,\text{mm}$ per $\text{km}.$
 
-Now, multiplying $0.05 \,\textrm{km}$ by our conversion factor, we get
+Now, multiplying $0.05 \,\text{km}$ by our conversion factor, we get
 
 $$
 
@@ -81,17 +81,17 @@ $$
 
 $$
 
-Therefore, $0.05 \,\textrm{km}$ is equivalent to $50 \,000 \,\textrm{mm}.$
+Therefore, $0.05 \,\text{km}$ is equivalent to $50 \,000 \,\text{mm}.$
 
 ### Example: Two-Step Conversions Using Reciprocals
 
 #### Question
 
-What is $55\,000 \,\textrm{mg}$ expressed in $\textrm{kg}?$
+What is $55\,000 \,\text{mg}$ expressed in $\text{kg}?$
 
 #### Explanation
 
-There are $1000\,\textrm g$ per $\textrm{kg},$ and also $1000\,\textrm{mg}$ per $\textrm{g}.$ We can write this as follows:
+There are $1000\,\textrm g$ per $\text{kg},$ and also $1000\,\text{mg}$ per $\text{g}.$ We can write this as follows:
 
 $$
 
@@ -101,19 +101,19 @@ $$
 
 $$
 
-This tells us that there are $1\,000\,000\,\textrm{mg}$ per $\textrm{kg}.$ However, since we're converting from a smaller unit of mass $(\textrm{mg})$ to a larger one $(\textrm{kg}),$ we need to multiply $55\,000 \,\textrm{mg}$ by the reciprocal of the above:
+This tells us that there are $1\,000\,000\,\text{mg}$ per $\text{kg}.$ However, since we're converting from a smaller unit of mass $(\text{mg})$ to a larger one $(\text{kg}),$ we need to multiply $55\,000 \,\text{mg}$ by the reciprocal of the above:
 
 $$
 
 
-\dfrac{\textrm{kg}}{1\,000\,000\,\textrm{mg}}
+\dfrac{\text{kg}}{1\,000\,000\,\text{mg}}
 
 
 $$
 
 This is our conversion factor.
 
-Now, multiplying $55\,000 \,\textrm{mg}$ by our conversion factor, we get
+Now, multiplying $55\,000 \,\text{mg}$ by our conversion factor, we get
 
 $$
 
@@ -123,7 +123,7 @@ $$
 
 $$
 
-Therefore, $55\,000 \,\textrm{mg}$ is equivalent to $0.055 \, \textrm{kg}.$
+Therefore, $55\,000 \,\text{mg}$ is equivalent to $0.055 \, \text{kg}.$
 
 ### Example: Converting Units of Time
 
@@ -133,7 +133,7 @@ How many hours are in $5$ weeks?
 
 #### Explanation
 
-There are $7\,\textrm {days}$ per $\textrm{week},$ and also $24\,\textrm{hours}$ per $\textrm{day}.$ We can write this as follows:
+There are $7\,\textrm {days}$ per $\text{week},$ and also $24\,\text{hours}$ per $\text{day}.$ We can write this as follows:
 
 $$
 
@@ -145,7 +145,7 @@ $$
 
 This is our conversion factor.
 
-Now, multiplying $5\,\textrm{weeks}$ by our conversion factor, we get
+Now, multiplying $5\,\text{weeks}$ by our conversion factor, we get
 
 $$
 
@@ -155,7 +155,7 @@ $$
 
 $$
 
-Therefore, $5$ weeks is equivalent to $840 \,\textrm{hours}.$
+Therefore, $5$ weeks is equivalent to $840 \,\text{hours}.$
 
 ### Example: Converting Units of Time Using Reciprocals
 
@@ -165,7 +165,7 @@ How many hours are in $18$ seconds?
 
 #### Explanation
 
-There are $60\,\textrm {min}$ per $\textrm{hour},$ and also $60\,\textrm{s}$ per $\textrm{min}.$ We can write this as follows:
+There are $60\,\textrm {min}$ per $\text{hour},$ and also $60\,\text{s}$ per $\text{min}.$ We can write this as follows:
 
 $$
 
@@ -175,19 +175,19 @@ $$
 
 $$
 
-This tells us that there are $3\,600\,\textrm{s}$ per $\textrm{hour}.$ However, since we're converting from a smaller unit of time $(\textrm{s})$ to a larger one $(\textrm{hours}),$ we need to multiply $18 \,\textrm{s}$ by the reciprocal of the above:
+This tells us that there are $3\,600\,\text{s}$ per $\text{hour}.$ However, since we're converting from a smaller unit of time $(\text{s})$ to a larger one $(\text{hours}),$ we need to multiply $18 \,\text{s}$ by the reciprocal of the above:
 
 $$
 
 
-\dfrac{\textrm{hour}}{3\,600\,\textrm{s}}
+\dfrac{\text{hour}}{3\,600\,\text{s}}
 
 
 $$
 
 This is our conversion factor.
 
-Now, multiplying $18 \,\textrm{s}$ by our conversion factor, we get
+Now, multiplying $18 \,\text{s}$ by our conversion factor, we get
 
 $$
 
@@ -197,4 +197,4 @@ $$
 
 $$
 
-Therefore, $18$ seconds is equivalent to $0.005 \, \textrm{hours.}$
+Therefore, $18$ seconds is equivalent to $0.005 \, \text{hours.}$

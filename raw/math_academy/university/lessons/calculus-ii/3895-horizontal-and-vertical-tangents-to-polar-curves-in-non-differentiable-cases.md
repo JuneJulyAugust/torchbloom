@@ -141,7 +141,7 @@ which is equivalent to
 $$
 
 
-y'(\theta_0) = 0 \qquad \textrm{and}\qquad x'(\theta_0) \neq 0.
+y'(\theta_0) = 0 \qquad \text{and}\qquad x'(\theta_0) \neq 0.
 
 
 $$
@@ -209,7 +209,7 @@ So, it seems that the curve $r = 1-\sin\theta$ has a vertical tangent at $\theta
 $$
 
 
-\lim\limits_{\theta \to (\pi/2)^{-}} \dfrac{\textrm d y}{\textrm d x} = \pm\infty \qquad\textrm{and}\qquad \lim\limits_{\theta \to (\pi/2)^{+}} \dfrac{\textrm d y}{\textrm d x} = \pm\infty.
+\lim\limits_{\theta \to (\pi/2)^{-}} \dfrac{\textrm d y}{\textrm d x} = \pm\infty \qquad\text{and}\qquad \lim\limits_{\theta \to (\pi/2)^{+}} \dfrac{\textrm d y}{\textrm d x} = \pm\infty.
 
 
 $$
@@ -297,7 +297,7 @@ is infinite. This means that
 $$
 
 
-y'(\theta_0) \neq 0 \qquad \textrm{and}\qquad x'(\theta_0) = 0.
+y'(\theta_0) \neq 0 \qquad \text{and}\qquad x'(\theta_0) = 0.
 
 
 $$
@@ -307,7 +307,7 @@ However, if the curve is continuous at $\theta_0$ yet the derivative takes the i
 $$
 
 
-\lim\limits_{\theta \to \theta_0^{-}} \dfrac{\textrm d y}{\textrm d x} = \pm\infty \qquad\textrm{and}\qquad \lim\limits_{\theta \to \theta_0^{+}} \dfrac{\textrm d y}{\textrm d x} = \pm\infty.
+\lim\limits_{\theta \to \theta_0^{-}} \dfrac{\textrm d y}{\textrm d x} = \pm\infty \qquad\text{and}\qquad \lim\limits_{\theta \to \theta_0^{+}} \dfrac{\textrm d y}{\textrm d x} = \pm\infty.
 
 
 $$

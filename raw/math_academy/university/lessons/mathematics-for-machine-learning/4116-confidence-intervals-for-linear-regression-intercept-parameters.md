@@ -88,7 +88,7 @@ Given a value $\alpha$ between $0$ and $1,$ the corresponding $[100(1-\alpha)]\%
 $$
 
 
-\underbrace{\widehat{\,\beta}_0}_{\:\: \textrm{point} \ \textrm{estimate}} \: \pm \: \overbrace{t_{n-2,\alpha/2} \cdot \underbrace{\textrm{SE}[\widehat{\,\beta}_0\,]}_{\textrm{standard} \ \,\:\: \textrm{error}}}^{\textrm{margin of error}}.
+\underbrace{\widehat{\,\beta}_0}_{\:\: \text{point} \ \text{estimate}} \: \pm \: \overbrace{t_{n-2,\alpha/2} \cdot \underbrace{\text{SE}[\widehat{\,\beta}_0\,]}_{\text{standard} \ \,\:\: \text{error}}}^{\text{margin of error}}.
 
 
 $$
@@ -99,7 +99,7 @@ Note the following:
 
 - $P(T > t_{n-2,\alpha/2}) = \dfrac{\alpha}{2},$ where $T$ has a student's $t$-distribution with $n-2$ degrees of freedom.
 
-- $\textrm{SE}[\widehat{\,\beta}_0\,]$ is the standard error of $\widehat{\,\beta}_0,$ given by where we have: $\textrm{MSE}$ is the mean squared error of the model: where $\widehat{\,y}_i$ is the estimate of $y_i$ given by our regression model. $S_{xx}$ is the usual sum of squares formula:
+- $\text{SE}[\widehat{\,\beta}_0\,]$ is the standard error of $\widehat{\,\beta}_0,$ given by where we have: $\text{MSE}$ is the mean squared error of the model: where $\widehat{\,y}_i$ is the estimate of $y_i$ given by our regression model. $S_{xx}$ is the usual sum of squares formula:
 
 The derivation of this result is rather long, and we leave it until the end of the lesson. For now, note the following:
 
@@ -109,7 +109,7 @@ The derivation of this result is rather long, and we leave it until the end of t
 
 - Even considering the entire population, the data points will not fall on a perfectly straight line. Thus, errors are present even in the "true" regression model. These errors have some (unknown) variance, which we'll denote as $\sigma^2.$
 
-- It can be shown that the $\textrm{MSE}$ is an *unbiased* estimator of $\sigma^2.$
+- It can be shown that the $\text{MSE}$ is an *unbiased* estimator of $\sigma^2.$
 
 ### Example: Finding Confidence Intervals for Intercept Parameters
 
@@ -142,7 +142,7 @@ We are told that all assumptions for a simple regression model are held. So, giv
 $$
 
 
-\underbrace{\widehat{\,\beta}_0}_{\:\: \textrm{point} \ \textrm{estimate}} \: \pm \: \overbrace{t_{n-2,\alpha/2} \cdot \textrm{SE}[\widehat{\,\beta}_0\,]}^{\textrm{margin of error}}.
+\underbrace{\widehat{\,\beta}_0}_{\:\: \text{point} \ \text{estimate}} \: \pm \: \overbrace{t_{n-2,\alpha/2} \cdot \text{SE}[\widehat{\,\beta}_0\,]}^{\text{margin of error}}.
 
 
 $$
@@ -153,7 +153,7 @@ Note the following:
 
 - $P(T > t_{n-2,\alpha/2}) = \dfrac{\alpha}{2},$ where $T$ has a student's $t$-distribution with $n-2$ degrees of freedom.
 
-- $\textrm{SE}[\widehat{\,\beta}_0\,]$ is the standard error of $\widehat{\,\beta}_0,$ given by where we have: $\textrm{MSE}$ is the mean squared error of the model: where $\widehat{\,y}_i$ is the estimate of $y_i$ given by our regression model. $S_{xx}$ is the usual sum of squares formula:
+- $\text{SE}[\widehat{\,\beta}_0\,]$ is the standard error of $\widehat{\,\beta}_0,$ given by where we have: $\text{MSE}$ is the mean squared error of the model: where $\widehat{\,y}_i$ is the estimate of $y_i$ given by our regression model. $S_{xx}$ is the usual sum of squares formula:
 
 To construct the confidence interval, we proceed as follows:
 
@@ -167,14 +167,14 @@ To construct the confidence interval, we proceed as follows:
 
 #### Question
 
-The table above shows the number of hours each of four students spent studying for a biology exam and the grades they obtained on the exam. The corresponding fitted linear regression line using this sample is $\widehat{\,y} = 21.3 + 10x.$ Assuming that all conditions for the simple regression model are satisfied, $\overline{x}=5,$ and $\textrm{MSE}=1.375,$ find a $90\%$ confidence interval for the $y$-intercept of the regression line.
+The table above shows the number of hours each of four students spent studying for a biology exam and the grades they obtained on the exam. The corresponding fitted linear regression line using this sample is $\widehat{\,y} = 21.3 + 10x.$ Assuming that all conditions for the simple regression model are satisfied, $\overline{x}=5,$ and $\text{MSE}=1.375,$ find a $90\%$ confidence interval for the $y$-intercept of the regression line.
 
 **
 
 $$
 
 
-\textrm{SE}[\widehat{\,\beta}_0\,] = \sqrt{ \textrm{MSE} \cdot \bigg( \dfrac{1}{n} + \dfrac{\overline{x}^2}{S_{xx}} \bigg) }.
+\text{SE}[\widehat{\,\beta}_0\,] = \sqrt{ \text{MSE} \cdot \bigg( \dfrac{1}{n} + \dfrac{\overline{x}^2}{S_{xx}} \bigg) }.
 
 
 $$
@@ -202,7 +202,7 @@ We are told that all assumptions for a simple regression model are held. So, giv
 $$
 
 
-\beta_0 \: \pm \: \overbrace{t_{n-2,\alpha/2} \cdot \textrm{SE}[\widehat{\,\beta}_0\,]}^{\textrm{margin of error}}.
+\beta_0 \: \pm \: \overbrace{t_{n-2,\alpha/2} \cdot \text{SE}[\widehat{\,\beta}_0\,]}^{\text{margin of error}}.
 
 
 $$
@@ -213,7 +213,7 @@ Note the following:
 
 - $P(T > t_{n-2,\alpha/2}) = \dfrac{\alpha}{2},$ where $T$ has a student's $t$-distribution with $n-2$ degrees of freedom.
 
-- $\textrm{SE}[\widehat{\,\beta}_0\,]$ is the standard error of $\widehat{\,\beta}_0,$ given by where we have: $\textrm{MSE}$ is the mean squared error of the model: where $\widehat{\,y}_i$ is the estimate of $y_i$ given by our regression model. $S_{xx}$ is the usual sum of squares formula:
+- $\text{SE}[\widehat{\,\beta}_0\,]$ is the standard error of $\widehat{\,\beta}_0,$ given by where we have: $\text{MSE}$ is the mean squared error of the model: where $\widehat{\,y}_i$ is the estimate of $y_i$ given by our regression model. $S_{xx}$ is the usual sum of squares formula:
 
 - **** Find the point estimate. From the regression equation $\widehat{\,y}=21.3 + 10x,$ our point estimate is
 
@@ -284,7 +284,7 @@ It can be shown that
 $$
 
 
-\textrm E[\widehat{\beta}_0] = \beta_0, \qquad \textrm{Var}[\widehat{\beta_0}] = \sigma^2\left(\dfrac1n+ \dfrac{\overline{x}^2}{S_{xx}}\right).
+\textrm E[\widehat{\beta}_0] = \beta_0, \qquad \text{Var}[\widehat{\beta_0}] = \sigma^2\left(\dfrac1n+ \dfrac{\overline{x}^2}{S_{xx}}\right).
 
 
 $$
@@ -306,7 +306,7 @@ We do not know $\sigma^2,$ the variance of the error terms. However, it can be s
 $$
 
 
-\textrm{MSE} = \dfrac{1}{n-2}\sum\limits_{i=1}^n (y_i - \widehat{\,y}_i)^2,
+\text{MSE} = \dfrac{1}{n-2}\sum\limits_{i=1}^n (y_i - \widehat{\,y}_i)^2,
 
 
 $$
@@ -318,7 +318,7 @@ Our estimate of the standard error of $\widehat{\beta}_0$ is now given by
 $$
 
 
-\textrm{SE}[\widehat{\beta}_0] = \sqrt{\textrm{MSE}\cdot\left(\dfrac1n+ \dfrac{\overline{x}^2}{S_{xx}}\right)} .
+\text{SE}[\widehat{\beta}_0] = \sqrt{\text{MSE}\cdot\left(\dfrac1n+ \dfrac{\overline{x}^2}{S_{xx}}\right)} .
 
 
 $$
@@ -328,7 +328,7 @@ Since this is an *estimate* of the standard error, it can be shown that the rand
 $$
 
 
-\dfrac{\widehat{\beta}_0 -\beta_0}{\textrm{SE}[\widehat{\beta_0}] }
+\dfrac{\widehat{\beta}_0 -\beta_0}{\text{SE}[\widehat{\beta_0}] }
 
 
 $$
@@ -340,7 +340,7 @@ Finally, given a value $\alpha$ between $0$ and $1,$ the corresponding $[100(1-\
 $$
 
 
-\widehat{\,\beta}_0 \: \pm \: \overbrace{t_{n-2,\alpha/2} \cdot \textrm{SE}[\widehat{\,\beta}_0\,] }^{\textrm{margin of error}}.
+\widehat{\,\beta}_0 \: \pm \: \overbrace{t_{n-2,\alpha/2} \cdot \text{SE}[\widehat{\,\beta}_0\,] }^{\text{margin of error}}.
 
 
 $$
@@ -352,7 +352,7 @@ Earlier, we made use of the following results:
 $$
 
 
-\textrm E[\widehat{\beta}_0] = \beta_0, \qquad \textrm{Var}[\widehat{\beta_0}] = \sigma^2\left(\dfrac{1}{n} + \dfrac{\overline{x}^2}{S_{xx}}\right)
+\textrm E[\widehat{\beta}_0] = \beta_0, \qquad \text{Var}[\widehat{\beta_0}] = \sigma^2\left(\dfrac{1}{n} + \dfrac{\overline{x}^2}{S_{xx}}\right)
 
 
 $$
@@ -415,7 +415,7 @@ $$
 
 $$
 
-We're now in a position to compute $\textrm{E}[{\widehat{\beta_0}}]$ and $\textrm{Var}[{\widehat{\beta_0}}].$
+We're now in a position to compute $\text{E}[{\widehat{\beta_0}}]$ and $\text{Var}[{\widehat{\beta_0}}].$
 
 - For the mean, we have
 

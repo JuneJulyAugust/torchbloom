@@ -20,7 +20,7 @@ To demonstrate, consider the nonlinear system of equations below.
 $$
 
 
-\begin{aligned}4𝑥−12=\sqrt{√14} \\ (4𝑥−12)^{2}=𝑦\end{aligned}
+\begin{aligned}4𝑥−12=\sqrt{14} \\ (4𝑥−12)^{2}=𝑦\end{aligned}
 
 
 $$
@@ -34,7 +34,7 @@ Here, notice that both equations involve the expression $4x - 12.$
 $$
 
 
-\begin{aligned}4𝑥−12=\sqrt{√14} \\ (4𝑥−12)^{2}=𝑦\end{aligned}
+\begin{aligned}4𝑥−12=\sqrt{14} \\ (4𝑥−12)^{2}=𝑦\end{aligned}
 
 
 $$
@@ -56,7 +56,7 @@ Thus, substituting $\sqrt{14}$ in place of $4x-12$ in the second equation, we ha
 $$
 
 
-\begin{aligned}(4𝑥−12)^{2} & =𝑦 \\ (\sqrt{√14})^{2} & =𝑦 \\ 14 & =𝑦\end{aligned}
+\begin{aligned}(4𝑥−12)^{2} & =𝑦 \\ (\sqrt{14})^{2} & =𝑦 \\ 14 & =𝑦\end{aligned}
 
 
 $$
@@ -80,7 +80,7 @@ Let’s see some more examples.
 $$
 
 
-\begin{aligned}5𝑥−\frac{7}{11}=\sqrt{√3} \\ 𝑦=−2(\frac{7}{11}−5𝑥)^{2}\end{aligned}
+\begin{aligned}5𝑥−\frac{7}{11}=\sqrt{3} \\ 𝑦=−2(\frac{7}{11}−5𝑥)^{2}\end{aligned}
 
 
 $$
@@ -116,7 +116,7 @@ So next, we substitute $-\sqrt{3}$ for $\left(\dfrac{7}{11}-5x\right)$ in the se
 $$
 
 
-\begin{aligned}𝑦 & =−2(\frac{7}{11}−5𝑥)^{2} \\ & =−2(−\sqrt{√3})^{2} \\ & =−2⋅3 \\ 𝑦 & =−6\end{aligned}
+\begin{aligned}𝑦 & =−2(\frac{7}{11}−5𝑥)^{2} \\ & =−2(−\sqrt{3})^{2} \\ & =−2⋅3 \\ 𝑦 & =−6\end{aligned}
 
 
 $$

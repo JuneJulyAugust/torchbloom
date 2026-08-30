@@ -147,7 +147,7 @@ $$
 
 $$
 
-Therefore $\dfrac{7\pi}{5}$ is equivalent to $252^\circ,$ which lies in the $3\textrm{rd}$ quadrant.
+Therefore $\dfrac{7\pi}{5}$ is equivalent to $252^\circ,$ which lies in the $3\text{rd}$ quadrant.
 
 ![Instructional graphic](../../../lesson-assets/sat-math-fundamentals/topic-4037/546932c7125559b1.png)
 
@@ -201,7 +201,7 @@ $$
 
 $$
 
-Therefore $\dfrac{4\pi} {3}$ is equivalent to $240^\circ,$ which lies in the $3\textrm{rd}$ quadrant.
+Therefore $\dfrac{4\pi} {3}$ is equivalent to $240^\circ,$ which lies in the $3\text{rd}$ quadrant.
 
 ![Instructional graphic](../../../lesson-assets/sat-math-fundamentals/topic-4037/5b44582e86366d1b.png)
 
@@ -255,7 +255,7 @@ $$
 
 $$
 
-Therefore $\dfrac{13\pi}{20}$ is equivalent to $117^\circ,$ which lies in the $2\textrm{nd}$ quadrant.
+Therefore $\dfrac{13\pi}{20}$ is equivalent to $117^\circ,$ which lies in the $2\text{nd}$ quadrant.
 
 ![Instructional graphic](../../../lesson-assets/sat-math-fundamentals/topic-4037/b4741e1b511c9c7f.png)
 

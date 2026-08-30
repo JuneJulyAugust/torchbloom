@@ -32,7 +32,7 @@ To compute the integral of a function $f(x,y,z)$ over $R,$ we use the change of 
 $$
 
 
-\iiint\limits_{R} f(x,y,z) \ \mathrm{d}V = \iiint\limits_{\Delta} \ f(x(u,v,w), y(u,v,w), z(u,v,w)) \: \left| \dfrac{\partial (x, y, z)}{\partial (u, v, w)} \right| \: \textrm{d}u \textrm{d}v \textrm{d}w
+\iiint\limits_{R} f(x,y,z) \ \mathrm{d}V = \iiint\limits_{\Delta} \ f(x(u,v,w), y(u,v,w), z(u,v,w)) \: \left| \dfrac{\partial (x, y, z)}{\partial (u, v, w)} \right| \: \text{d}u \text{d}v \text{d}w
 
 
 $$
@@ -96,7 +96,7 @@ To find the required integral, we can use the change of variables formula
 $$
 
 
-\iiint\limits_{R} f(x,y,z) \ \mathrm{d}V = \iiint\limits_{\Delta} \ f(x(u,v,w), y(u,v,w), z(u,v,w)) \: \left| \dfrac{\partial (x, y, z)}{\partial (u, v, w)} \right| \: \textrm{d}u \textrm{d}v \textrm{d}w
+\iiint\limits_{R} f(x,y,z) \ \mathrm{d}V = \iiint\limits_{\Delta} \ f(x(u,v,w), y(u,v,w), z(u,v,w)) \: \left| \dfrac{\partial (x, y, z)}{\partial (u, v, w)} \right| \: \text{d}u \text{d}v \text{d}w
 
 
 $$
@@ -144,7 +144,7 @@ The Jacobian determinant corresponding to $\mathbf T^{-1}$ is
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑢,𝑣,𝑤)}{𝜕(𝑥,𝑦,𝑧)} & =\begin{aligned}\frac{𝜕𝑢}{𝜕𝑥} & \frac{𝜕𝑢}{𝜕𝑦} & \frac{𝜕𝑢}{𝜕𝑧} \\ \frac{𝜕𝑣}{𝜕𝑥} & \frac{𝜕𝑣}{𝜕𝑦} & \frac{𝜕𝑣}{𝜕𝑧} \\ \frac{𝜕𝑤}{𝜕𝑥} & \frac{𝜕𝑤}{𝜕𝑦} & \frac{𝜕𝑤}{𝜕𝑧}\end{aligned} \\ & =\begin{aligned}𝑦 & 𝑥 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 2\end{aligned} \\ & =2\begin{aligned}𝑦 & 𝑥 \\ 0 & 1\end{aligned} \\ & =2(𝑦−0) \\ & =2𝑦 \\ & =2𝑣.\end{aligned}
+\begin{aligned}\frac{𝜕(𝑢,𝑣,𝑤)}{𝜕(𝑥,𝑦,𝑧)} & =\begin{matrix}\frac{𝜕𝑢}{𝜕𝑥} & \frac{𝜕𝑢}{𝜕𝑦} & \frac{𝜕𝑢}{𝜕𝑧} \\ \frac{𝜕𝑣}{𝜕𝑥} & \frac{𝜕𝑣}{𝜕𝑦} & \frac{𝜕𝑣}{𝜕𝑧} \\ \frac{𝜕𝑤}{𝜕𝑥} & \frac{𝜕𝑤}{𝜕𝑦} & \frac{𝜕𝑤}{𝜕𝑧}\end{matrix} \\ & =\begin{matrix}𝑦 & 𝑥 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 2\end{matrix} \\ & =2\begin{matrix}𝑦 & 𝑥 \\ 0 & 1\end{matrix} \\ & =2(𝑦−0) \\ & =2𝑦 \\ & =2𝑣.\end{aligned}
 
 
 $$
@@ -168,7 +168,7 @@ Note that $\dfrac{\partial (x, y, z)}{\partial (u, v, w)} \neq 0$ everywhere ins
 $$
 
 
-\begin{aligned}\underset{𝑅}{∭}3𝑥𝑦^{2}+6𝑦𝑧\,d𝑉 & =\underset{Δ}{∭}(3𝑢𝑣+3𝑣𝑤)⋅\frac{𝜕(𝑥,𝑦,𝑧)}{𝜕(𝑢,𝑣,𝑤)}\,d𝑢d𝑣d𝑤 \\ & =\underset{Δ}{∭}3𝑣(𝑢+𝑤)⋅\frac{1}{2𝑣}\,d𝑢d𝑣d𝑤 \\ & =∫_{21}^{}∫_{21}^{}∫_{20}^{}\frac{3}{2}(𝑢+𝑤)\,d𝑤\,d𝑣\,d𝑢\end{aligned}
+\begin{aligned}\underset{𝑅}{∭}3𝑥𝑦^{2}+6𝑦𝑧\,d𝑉 & =\underset{Δ}{∭}(3𝑢𝑣+3𝑣𝑤)⋅\frac{𝜕(𝑥,𝑦,𝑧)}{𝜕(𝑢,𝑣,𝑤)}\,d𝑢d𝑣d𝑤 \\ & =\underset{Δ}{∭}3𝑣(𝑢+𝑤)⋅\frac{1}{2𝑣}\,d𝑢d𝑣d𝑤 \\ & =∫_{21}∫_{21}∫_{20}\frac{3}{2}(𝑢+𝑤)\,d𝑤\,d𝑣\,d𝑢\end{aligned}
 
 
 $$
@@ -226,7 +226,7 @@ To compute the required integral, we can use the change of variables formula
 $$
 
 
-\iiint\limits_{R} f(x,y,z) \ \mathrm{d}V = \iiint\limits_{\Delta} \ f(x(u,v,w), y(u,v,w), z(u,v,w)) \: \left| \dfrac{\partial (x, y, z)}{\partial (u, v, w)} \right| \: \textrm{d}u \textrm{d}v \textrm{d}w
+\iiint\limits_{R} f(x,y,z) \ \mathrm{d}V = \iiint\limits_{\Delta} \ f(x(u,v,w), y(u,v,w), z(u,v,w)) \: \left| \dfrac{\partial (x, y, z)}{\partial (u, v, w)} \right| \: \text{d}u \text{d}v \text{d}w
 
 
 $$
@@ -274,7 +274,7 @@ The Jacobian determinant corresponding to $\mathbf T^{-1}$ is
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑢,𝑣,𝑤)}{𝜕(𝑥,𝑦,𝑧)} & =\begin{aligned}\frac{𝜕𝑢}{𝜕𝑥} & \frac{𝜕𝑢}{𝜕𝑦} & \frac{𝜕𝑢}{𝜕𝑧} \\ \frac{𝜕𝑣}{𝜕𝑥} & \frac{𝜕𝑣}{𝜕𝑦} & \frac{𝜕𝑣}{𝜕𝑧} \\ \frac{𝜕𝑤}{𝜕𝑥} & \frac{𝜕𝑤}{𝜕𝑦} & \frac{𝜕𝑤}{𝜕𝑧}\end{aligned} \\ & =\begin{aligned}1 & 2𝑦 & 0 \\ 0 & 1 & 1 \\ 0 & 0 & 2\end{aligned} \\ & =1⋅1⋅2 \\ & =2.\end{aligned}
+\begin{aligned}\frac{𝜕(𝑢,𝑣,𝑤)}{𝜕(𝑥,𝑦,𝑧)} & =\begin{matrix}\frac{𝜕𝑢}{𝜕𝑥} & \frac{𝜕𝑢}{𝜕𝑦} & \frac{𝜕𝑢}{𝜕𝑧} \\ \frac{𝜕𝑣}{𝜕𝑥} & \frac{𝜕𝑣}{𝜕𝑦} & \frac{𝜕𝑣}{𝜕𝑧} \\ \frac{𝜕𝑤}{𝜕𝑥} & \frac{𝜕𝑤}{𝜕𝑦} & \frac{𝜕𝑤}{𝜕𝑧}\end{matrix} \\ & =\begin{matrix}1 & 2𝑦 & 0 \\ 0 & 1 & 1 \\ 0 & 0 & 2\end{matrix} \\ & =1⋅1⋅2 \\ & =2.\end{aligned}
 
 
 $$
@@ -298,7 +298,7 @@ Note that $\dfrac{\partial (x, y, z)}{\partial (u, v, w)} \neq 0$ everywhere ins
 $$
 
 
-\begin{aligned}\underset{𝑅}{∭}(𝑥+𝑦^{2})^{15}𝑧\,d𝑉 & =\underset{Δ}{∭}𝑢^{15}⋅\frac{𝑤}{2}⋅\frac{1}{2}\,d𝑢d𝑣d𝑤 \\ & =\frac{1}{4}\underset{Δ}{∭}𝑢^{15}𝑤\,d𝑢d𝑣d𝑤 \\ & =\frac{1}{4}∫_{10}^{}∫_{40}^{}∫_{40}^{}𝑢^{15}𝑤\,d𝑤\,d𝑣\,d𝑢 \\ & =\frac{1}{4}∫_{10}^{}𝑢^{15}\,d𝑢⋅∫_{40}^{}d𝑣⋅∫_{40}^{}𝑤\,d𝑤 \\ & =\frac{1}{4}⋅[\frac{𝑢^{16}}{16}]_{𝑢=1𝑢=0}^{}⋅[𝑣]_{𝑣=4𝑣=0}^{}⋅[\frac{𝑤^{2}}{2}]_{𝑤=4𝑤=0}^{} \\ & =\frac{1}{4}⋅(\frac{1}{16}−0)⋅(4−0)⋅(8−0) \\ & =\frac{1}{2}\end{aligned}
+\begin{aligned}\underset{𝑅}{∭}(𝑥+𝑦^{2})^{15}𝑧\,d𝑉 & =\underset{Δ}{∭}𝑢^{15}⋅\frac{𝑤}{2}⋅\frac{1}{2}\,d𝑢d𝑣d𝑤 \\ & =\frac{1}{4}\underset{Δ}{∭}𝑢^{15}𝑤\,d𝑢d𝑣d𝑤 \\ & =\frac{1}{4}∫_{10}∫_{40}∫_{40}𝑢^{15}𝑤\,d𝑤\,d𝑣\,d𝑢 \\ & =\frac{1}{4}∫_{10}𝑢^{15}\,d𝑢⋅∫_{40}d𝑣⋅∫_{40}𝑤\,d𝑤 \\ & =\frac{1}{4}⋅[\frac{𝑢^{16}}{16}]_{𝑢=1𝑢=0}⋅[𝑣]_{𝑣=4𝑣=0}⋅[\frac{𝑤^{2}}{2}]_{𝑤=4𝑤=0} \\ & =\frac{1}{4}⋅(\frac{1}{16}−0)⋅(4−0)⋅(8−0) \\ & =\frac{1}{2}\end{aligned}
 
 
 $$
@@ -324,7 +324,7 @@ Recall that the volume of $R$ can be found as
 $$
 
 
-V = \iiint\limits_R \textrm{d}V.
+V = \iiint\limits_R \text{d}V.
 
 
 $$
@@ -346,7 +346,7 @@ To compute the required volume, we can use the change of variables formula
 $$
 
 
-\iiint\limits_{R} f(x,y,z) \ \mathrm{d}V = \iiint\limits_{\Delta} \ f(x(u,v,w), y(u,v,w), z(u,v,w)) \: \left| \dfrac{\partial (x, y, z)}{\partial (u, v, w)} \right| \: \textrm{d}u \textrm{d}v \textrm{d}w
+\iiint\limits_{R} f(x,y,z) \ \mathrm{d}V = \iiint\limits_{\Delta} \ f(x(u,v,w), y(u,v,w), z(u,v,w)) \: \left| \dfrac{\partial (x, y, z)}{\partial (u, v, w)} \right| \: \text{d}u \text{d}v \text{d}w
 
 
 $$
@@ -404,7 +404,7 @@ The Jacobian determinant corresponding to $\mathbf T^{-1}$ is
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑢,𝑣,𝑤)}{𝜕(𝑥,𝑦,𝑧)} & =\begin{aligned}\frac{𝜕𝑢}{𝜕𝑥} & \frac{𝜕𝑢}{𝜕𝑦} & \frac{𝜕𝑢}{𝜕𝑧} \\ \frac{𝜕𝑣}{𝜕𝑥} & \frac{𝜕𝑣}{𝜕𝑦} & \frac{𝜕𝑣}{𝜕𝑧} \\ \frac{𝜕𝑤}{𝜕𝑥} & \frac{𝜕𝑤}{𝜕𝑦} & \frac{𝜕𝑤}{𝜕𝑧}\end{aligned} \\ & =\begin{aligned}1 & 1 & 0 \\ −2 & 1 & 0 \\ 0 & 0 & 3𝑧^{2}\end{aligned} \\ & =3𝑧^{2}(−1)^{3+3}\begin{aligned}1 & 1 \\ −2 & 1\end{aligned} \\ & =9𝑧^{2} \\ & =9𝑤^{2/3}.\end{aligned}
+\begin{aligned}\frac{𝜕(𝑢,𝑣,𝑤)}{𝜕(𝑥,𝑦,𝑧)} & =\begin{matrix}\frac{𝜕𝑢}{𝜕𝑥} & \frac{𝜕𝑢}{𝜕𝑦} & \frac{𝜕𝑢}{𝜕𝑧} \\ \frac{𝜕𝑣}{𝜕𝑥} & \frac{𝜕𝑣}{𝜕𝑦} & \frac{𝜕𝑣}{𝜕𝑧} \\ \frac{𝜕𝑤}{𝜕𝑥} & \frac{𝜕𝑤}{𝜕𝑦} & \frac{𝜕𝑤}{𝜕𝑧}\end{matrix} \\ & =\begin{matrix}1 & 1 & 0 \\ −2 & 1 & 0 \\ 0 & 0 & 3𝑧^{2}\end{matrix} \\ & =3𝑧^{2}(−1)^{3+3}\begin{matrix}1 & 1 \\ −2 & 1\end{matrix} \\ & =9𝑧^{2} \\ & =9𝑤^{2/3}.\end{aligned}
 
 
 $$
@@ -428,7 +428,7 @@ Note that $\dfrac{\partial (x, y, z)}{\partial (u, v, w)} \neq 0$ everywhere ins
 $$
 
 
-\begin{aligned}\underset{𝑅}{∭}d𝑉 & =\underset{Δ}{∭}1⋅\frac{1}{9}𝑤^{−2/3}\,d𝑢d𝑣d𝑤 \\ & =∫_{10}^{}∫_{2−2}^{}∫_{81}^{}\frac{1}{9}𝑤^{−2/3}\,d𝑤\,d𝑣\,d𝑢 \\ & =\frac{1}{9}∫_{10}^{}d𝑢⋅∫_{2−2}^{}d𝑣⋅∫_{81}^{}𝑤^{−2/3}d𝑤 \\ & =\frac{1}{9}[𝑢]_{10}^{}⋅[𝑣]_{2−2}^{}⋅[3𝑤^{1/3}]_{81}^{} \\ & =\frac{1}{9}⋅(1−0)⋅(2−(−2))⋅3(8^{1/3}−1^{1/3}) \\ & =\frac{4}{3}.\end{aligned}
+\begin{aligned}\underset{𝑅}{∭}d𝑉 & =\underset{Δ}{∭}1⋅\frac{1}{9}𝑤^{−2/3}\,d𝑢d𝑣d𝑤 \\ & =∫_{10}∫_{2−2}∫_{81}\frac{1}{9}𝑤^{−2/3}\,d𝑤\,d𝑣\,d𝑢 \\ & =\frac{1}{9}∫_{10}d𝑢⋅∫_{2−2}d𝑣⋅∫_{81}𝑤^{−2/3}d𝑤 \\ & =\frac{1}{9}[𝑢]_{10}⋅[𝑣]_{2−2}⋅[3𝑤^{1/3}]_{81} \\ & =\frac{1}{9}⋅(1−0)⋅(2−(−2))⋅3(8^{1/3}−1^{1/3}) \\ & =\frac{4}{3}.\end{aligned}
 
 
 $$

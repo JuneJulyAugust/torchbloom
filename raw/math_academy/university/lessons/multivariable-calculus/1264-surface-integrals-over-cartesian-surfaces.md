@@ -17,7 +17,7 @@ Recall that for a surface $S$ with parametrization $\mathbf{r}(u,v)$ for $(u,v) 
 $$
 
 
-\iint\limits_S f(x,y,z) \, \textrm{d}S = \iint\limits_D f(\mathbf{r}(u,v)) \left\| \mathbf{r}'_u \times \mathbf{r}'_v \right\| \text{d}A.
+\iint\limits_S f(x,y,z) \, \text{d}S = \iint\limits_D f(\mathbf{r}(u,v)) \left\| \mathbf{r}'_u \times \mathbf{r}'_v \right\| \text{d}A.
 
 
 $$
@@ -37,7 +37,7 @@ Moreover, we know that under the canonical parametrization, the magnitude of the
 $$
 
 
-\begin{aligned}𝐫_{′𝑥}^{}×𝐫_{′𝑦}^{} & =\sqrt{√1+(\frac{𝜕𝑧}{𝜕𝑥})^{2}+(\frac{𝜕𝑧}{𝜕𝑦})^{2}}.\end{aligned}
+\begin{aligned}𝐫_{′𝑥}×𝐫_{′𝑦} & =\sqrt{1+(\frac{𝜕𝑧}{𝜕𝑥})^{2}+(\frac{𝜕𝑧}{𝜕𝑦})^{2}}.\end{aligned}
 
 
 $$
@@ -47,7 +47,7 @@ Therefore, for a surface $S$ defined by $z=g(x,y)$ with $(x,y)\in D\subseteq \ma
 $$
 
 
-\iint\limits_S f(x,y,z) \, \textrm{d}S = \iint\limits_D f\left(x,y,g(x,y)\right) \sqrt{1+\left(\dfrac{\partial z}{\partial x}\right)^2+\left(\dfrac{\partial z}{\partial y}\right)^2} \: \text{d}A.
+\iint\limits_S f(x,y,z) \, \text{d}S = \iint\limits_D f\left(x,y,g(x,y)\right) \sqrt{1+\left(\dfrac{\partial z}{\partial x}\right)^2+\left(\dfrac{\partial z}{\partial y}\right)^2} \: \text{d}A.
 
 
 $$
@@ -75,7 +75,7 @@ For a surface $S$ defined by $z=g(x,y)$ with $(x,y)\in D,$ the surface integral 
 $$
 
 
-\iint\limits_S f(x,y,z) \, \textrm{d}S = \iint\limits_D f\left(x,y,g(x,y)\right) \sqrt{1+\left(\dfrac{\partial z}{\partial x}\right)^2+\left(\dfrac{\partial z}{\partial y}\right)^2} \: \text{d}A.
+\iint\limits_S f(x,y,z) \, \text{d}S = \iint\limits_D f\left(x,y,g(x,y)\right) \sqrt{1+\left(\dfrac{\partial z}{\partial x}\right)^2+\left(\dfrac{\partial z}{\partial y}\right)^2} \: \text{d}A.
 
 
 $$
@@ -105,7 +105,7 @@ Therefore, the surface integral can be written as
 $$
 
 
-\begin{aligned}\underset{𝑆}{∬}𝑓(𝑥,𝑦,𝑧)\,d𝑆 & =\underset{𝐷}{∬}𝑓(𝑥,𝑦,𝑔(𝑥,𝑦))\sqrt{√1+(\frac{𝜕𝑧}{𝜕𝑥})^{2}+(\frac{𝜕𝑧}{𝜕𝑦})^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}𝑓(𝑥,𝑦,𝑔(𝑥,𝑦))\sqrt{√1+(2𝑥)^{2}+(−1)^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}\,𝑥(𝑥^{2}−𝑦)\sqrt{√2+4𝑥^{2}}\,d𝐴 \\ & =∫_{20}^{}∫_{10}^{}\,(𝑥^{3}−𝑥𝑦)\sqrt{√2+4𝑥^{2}}\,\,d𝑦\,d𝑥.\end{aligned}
+\begin{aligned}\underset{𝑆}{∬}𝑓(𝑥,𝑦,𝑧)\,d𝑆 & =\underset{𝐷}{∬}𝑓(𝑥,𝑦,𝑔(𝑥,𝑦))\sqrt{1+(\frac{𝜕𝑧}{𝜕𝑥})^{2}+(\frac{𝜕𝑧}{𝜕𝑦})^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}𝑓(𝑥,𝑦,𝑔(𝑥,𝑦))\sqrt{1+(2𝑥)^{2}+(−1)^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}\,𝑥(𝑥^{2}−𝑦)\sqrt{2+4𝑥^{2}}\,d𝐴 \\ & =∫_{20}∫_{10}\,(𝑥^{3}−𝑥𝑦)\sqrt{2+4𝑥^{2}}\,\,d𝑦\,d𝑥.\end{aligned}
 
 
 $$
@@ -121,7 +121,7 @@ Evaluate the surface integral
 $$
 
 
-\iint\limits_{S} \dfrac{1}{\sqrt{z-x+y^2}} \: \textrm{d}S
+\iint\limits_{S} \dfrac{1}{\sqrt{z-x+y^2}} \: \text{d}S
 
 
 $$
@@ -135,7 +135,7 @@ For a surface $S$ defined by $z=g(x,y)$ with $(x,y)\in D,$ the surface integral 
 $$
 
 
-\iint\limits_S f(x,y,z) \, \textrm{d}S = \iint\limits_D f\left(x,y,g(x,y)\right) \sqrt{1+\left(\dfrac{\partial z}{\partial x}\right)^2+\left(\dfrac{\partial z}{\partial y}\right)^2} \: \text{d}A.
+\iint\limits_S f(x,y,z) \, \text{d}S = \iint\limits_D f\left(x,y,g(x,y)\right) \sqrt{1+\left(\dfrac{\partial z}{\partial x}\right)^2+\left(\dfrac{\partial z}{\partial y}\right)^2} \: \text{d}A.
 
 
 $$
@@ -165,7 +165,7 @@ Therefore, the surface integral can be evaluated as follows:
 $$
 
 
-\begin{aligned}\underset{𝑆}{∬}\frac{1}{\sqrt{√𝑧−𝑥+𝑦^{2}}}\,d𝑆 & =\underset{𝐷}{∬}𝑓(𝑥,𝑦,𝑔(𝑥,𝑦))\sqrt{√1+(\frac{𝜕𝑧}{𝜕𝑥})^{2}+(\frac{𝜕𝑧}{𝜕𝑦})^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}\,\frac{1}{\sqrt{√(1+𝑥+𝑦^{2})−𝑥+𝑦^{2}}}⋅\sqrt{√1+1^{2}+(2𝑦)^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}\,\frac{1}{\sqrt{√1+2𝑦^{2}}}⋅\sqrt{√2+4𝑦^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}\,\frac{1}{\sqrt{√1+2𝑦^{2}}}⋅\sqrt{√2(1+2𝑦^{2})}\,d𝐴 \\ & =\underset{𝐷}{∬}\,\frac{1}{\sqrt{√1+2𝑦^{2}}}⋅\sqrt{√2}⋅\sqrt{√1+2𝑦^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}\,\frac{1}{\sqrt{√1+2𝑦^{2}}}⋅\sqrt{√2}⋅\sqrt{√1+2𝑦^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}\,\sqrt{√2}\,d𝐴 \\ & =\sqrt{√2}\underset{𝐷}{∬}\,d𝐴 \\ & =\sqrt{√2}⋅Area(𝐷) \\ & =\sqrt{√2}⋅(1−0)⋅(1−(−1)) \\ & =\sqrt{√2}⋅1⋅2 \\ & =2\sqrt{√2}.\end{aligned}
+\begin{aligned}\underset{𝑆}{∬}\frac{1}{\sqrt{𝑧−𝑥+𝑦^{2}}}\,d𝑆 & =\underset{𝐷}{∬}𝑓(𝑥,𝑦,𝑔(𝑥,𝑦))\sqrt{1+(\frac{𝜕𝑧}{𝜕𝑥})^{2}+(\frac{𝜕𝑧}{𝜕𝑦})^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}\,\frac{1}{\sqrt{(1+𝑥+𝑦^{2})−𝑥+𝑦^{2}}}⋅\sqrt{1+1^{2}+(2𝑦)^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}\,\frac{1}{\sqrt{1+2𝑦^{2}}}⋅\sqrt{2+4𝑦^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}\,\frac{1}{\sqrt{1+2𝑦^{2}}}⋅\sqrt{2(1+2𝑦^{2})}\,d𝐴 \\ & =\underset{𝐷}{∬}\,\frac{1}{\sqrt{1+2𝑦^{2}}}⋅\sqrt{2}⋅\sqrt{1+2𝑦^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}\,\frac{1}{\sqrt{1+2𝑦^{2}}}⋅\sqrt{2}⋅\sqrt{1+2𝑦^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}\,\sqrt{2}\,d𝐴 \\ & =\sqrt{2}\underset{𝐷}{∬}\,d𝐴 \\ & =\sqrt{2}⋅Area(𝐷) \\ & =\sqrt{2}⋅(1−0)⋅(1−(−1)) \\ & =\sqrt{2}⋅1⋅2 \\ & =2\sqrt{2}.\end{aligned}
 
 
 $$
@@ -181,7 +181,7 @@ Evaluate the surface integral
 $$
 
 
-\displaystyle \iint\limits_{S} x^2y \: \textrm{d}S,
+\displaystyle \iint\limits_{S} x^2y \: \text{d}S,
 
 
 $$
@@ -195,7 +195,7 @@ For a surface $S$ defined by $z=g(x,y)$ with $(x,y)\in D,$ the surface integral 
 $$
 
 
-\iint\limits_S f(x,y,z) \, \textrm{d}S = \iint\limits_D f\left(x,y,g(x,y)\right) \sqrt{1+\left(\dfrac{\partial z}{\partial x}\right)^2+\left(\dfrac{\partial z}{\partial y}\right)^2} \: \text{d}A.
+\iint\limits_S f(x,y,z) \, \text{d}S = \iint\limits_D f\left(x,y,g(x,y)\right) \sqrt{1+\left(\dfrac{\partial z}{\partial x}\right)^2+\left(\dfrac{\partial z}{\partial y}\right)^2} \: \text{d}A.
 
 
 $$
@@ -225,7 +225,7 @@ Therefore, the surface integral can be expressed as follows:
 $$
 
 
-\begin{aligned}\underset{𝑆}{∬}𝑥^{2}𝑦\,d𝑆 & =\underset{𝐷}{∬}𝑓(𝑥,𝑦,𝑔(𝑥,𝑦))\sqrt{√1+(\frac{𝜕𝑧}{𝜕𝑥})^{2}+(\frac{𝜕𝑧}{𝜕𝑦})^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}𝑥^{2}𝑦⋅\sqrt{√1+(\sqrt{√2})^{2}+(−1)^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}𝑥^{2}𝑦⋅\sqrt{√4}\,d𝐴 \\ & =2\underset{𝐷}{∬}\,𝑥^{2}𝑦\,d𝐴.\end{aligned}
+\begin{aligned}\underset{𝑆}{∬}𝑥^{2}𝑦\,d𝑆 & =\underset{𝐷}{∬}𝑓(𝑥,𝑦,𝑔(𝑥,𝑦))\sqrt{1+(\frac{𝜕𝑧}{𝜕𝑥})^{2}+(\frac{𝜕𝑧}{𝜕𝑦})^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}𝑥^{2}𝑦⋅\sqrt{1+(\sqrt{2})^{2}+(−1)^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}𝑥^{2}𝑦⋅\sqrt{4}\,d𝐴 \\ & =2\underset{𝐷}{∬}\,𝑥^{2}𝑦\,d𝐴.\end{aligned}
 
 
 $$
@@ -245,7 +245,7 @@ Therefore, using the change of variables formula for polar coordinates, where $x
 $$
 
 
-\begin{aligned}2\underset{𝐷}{∬}\,𝑥^{2}𝑦\,d𝐴 & =2\underset{Δ}{∬} 𝑓(𝑟cos⁡𝜃,𝑟sin⁡𝜃)\,𝑟 d𝑟d𝜃 \\ & =2\underset{Δ}{∬}𝑟^{2}cos^{2}⁡𝜃⋅𝑟sin⁡𝜃⋅𝑟\,d𝑟d𝜃 \\ & =2\underset{Δ}{∬}𝑟^{4}cos^{2}⁡𝜃sin⁡𝜃\,d𝑟d𝜃 \\ & =2∫_{𝜋0}^{}cos^{2}⁡𝜃sin⁡𝜃∫_{10}^{}𝑟^{4}\,d𝑟\,d𝜃 \\ & =2∫_{𝜋0}^{}cos^{2}⁡𝜃sin⁡𝜃\,[\frac{𝑟^{5}}{5}]_{10}^{}\,d𝜃 \\ & =\frac{2}{5}∫_{𝜋0}^{}cos^{2}⁡𝜃sin⁡𝜃\,d𝜃 \\ & =\frac{2}{15}[−cos^{3}⁡𝜃]_{𝜋0}^{} \\ & =\frac{2}{15}(1+1) \\ & =\frac{4}{15}.\end{aligned}
+\begin{aligned}2\underset{𝐷}{∬}\,𝑥^{2}𝑦\,d𝐴 & =2\underset{Δ}{∬} 𝑓(𝑟cos⁡𝜃,𝑟sin⁡𝜃)\,𝑟 d𝑟d𝜃 \\ & =2\underset{Δ}{∬}𝑟^{2}cos^{2}⁡𝜃⋅𝑟sin⁡𝜃⋅𝑟\,d𝑟d𝜃 \\ & =2\underset{Δ}{∬}𝑟^{4}cos^{2}⁡𝜃sin⁡𝜃\,d𝑟d𝜃 \\ & =2∫_{𝜋0}cos^{2}⁡𝜃sin⁡𝜃∫_{10}𝑟^{4}\,d𝑟\,d𝜃 \\ & =2∫_{𝜋0}cos^{2}⁡𝜃sin⁡𝜃\,[\frac{𝑟^{5}}{5}]_{10}\,d𝜃 \\ & =\frac{2}{5}∫_{𝜋0}cos^{2}⁡𝜃sin⁡𝜃\,d𝜃 \\ & =\frac{2}{15}[−cos^{3}⁡𝜃]_{𝜋0} \\ & =\frac{2}{15}(1+1) \\ & =\frac{4}{15}.\end{aligned}
 
 
 $$

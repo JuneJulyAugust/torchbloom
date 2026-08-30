@@ -16,7 +16,7 @@ Consider the tip of a waterwheel's paddle that rotates at a constant rate, as sh
 
 ![Instructional graphic](../../../../lesson-assets/integrated-math-iii/topic-4934/c7d35c76aefbf941.png)
 
-The wheel begins its clockwise cycle from its leftmost position, as shown in the diagram. The maximum and minimum height of the tip is $6\,\textrm{ft}$ above the water and $4\,\textrm{ft}$ below the water, respectively, and the tip takes $30$ seconds to complete one full rotation.
+The wheel begins its clockwise cycle from its leftmost position, as shown in the diagram. The maximum and minimum height of the tip is $6\,\text{ft}$ above the water and $4\,\text{ft}$ below the water, respectively, and the tip takes $30$ seconds to complete one full rotation.
 
 Suppose we wish to model the height of the tip above the water using a function of the form
 
@@ -38,7 +38,7 @@ We can obtain the values of $A,$ $B,$ and $C$ as follows:
 
 - First, the midline (vertical shift) of the graph is given by the average value of the highest and lowest points: So, in our case, we have
 
-- Second, the magnitude of the amplitude equals half the distance between the highest and lowest points: So, in our case, we have Therefore, $A = \pm 5\,\textrm{ft}.$
+- Second, the magnitude of the amplitude equals half the distance between the highest and lowest points: So, in our case, we have Therefore, $A = \pm 5\,\text{ft}.$
 
 - If we assume $B > 0,$ we have which means that So, in our case, we have
 
@@ -134,7 +134,7 @@ Now, we consider the given information:
 
 - In the formula, the amplitude equals $|A| = 2.$ From this, we can find the minimum value:
 
-- The weight's lowest position is at $4\, \textrm{ft}$ and its highest position is at $8 \, \textrm{ft}.$ This means that our graph must lie between the horizontal lines $D=4$ and $D=8.$ Using this information, we can compute the midline (vertical shift):
+- The weight's lowest position is at $4\, \text{ft}$ and its highest position is at $8 \, \text{ft}.$ This means that our graph must lie between the horizontal lines $D=4$ and $D=8.$ Using this information, we can compute the midline (vertical shift):
 
 - At $t=0,$ the weight is $6$ feet above the ground. This means that the point $(0,6)$ lies on the graph.
 
@@ -149,7 +149,7 @@ Finally, let's find the constant $B.$ The period of our function is $1 \cdot 4 =
 $$
 
 
-B = \dfrac{2\pi}{\textrm{Period}} = \dfrac{2\pi}{4} = \dfrac{\pi}2.
+B = \dfrac{2\pi}{\text{Period}} = \dfrac{2\pi}{4} = \dfrac{\pi}2.
 
 
 $$
@@ -182,7 +182,7 @@ Let's recall the general terminology for sinusoidal curves:
 
 Now, we consider the given information:
 
-- The object's minimum distance from its central position is $-0.25 \, \textrm{cm}$ and its maximum distance is $0.25 \, \textrm{cm}.$ This means that our graph must lie between the horizontal lines $D=-0.25$ and $D=0.25.$ Using this information, we can compute the following: The midline (vertical shift) of the graph is The amplitude is
+- The object's minimum distance from its central position is $-0.25 \, \text{cm}$ and its maximum distance is $0.25 \, \text{cm}.$ This means that our graph must lie between the horizontal lines $D=-0.25$ and $D=0.25.$ Using this information, we can compute the following: The midline (vertical shift) of the graph is The amplitude is
 
 - At $t=0,$ the object is $0.25$ centimeters above its central position. This means that the point $(0,0.25)$ lies on the graph.
 
@@ -197,7 +197,7 @@ Finally, let's find the constant $B.$ The period of our function is $0.01 \cdot 
 $$
 
 
-B = \dfrac{2\pi}{\textrm{Period}} = \dfrac{2\pi}{0.02} = 100\pi.
+B = \dfrac{2\pi}{\text{Period}} = \dfrac{2\pi}{0.02} = 100\pi.
 
 
 $$
@@ -228,7 +228,7 @@ $$
 
 The International Space Station (ISS) orbits the Earth. The distance from the ISS to the Earth, in kilometers, as it orbits can be modeled by a function of the form $D(t) = A \sin \left(B t \right) + C,$ where $A,$ $B,$ $C$ are constants, and $t$ is the time (in minutes).
 
-It is observed that when $t = 0,$ the ISS is halfway between its perigee (the point in its orbit nearest to Earth) and apogee (the point in its orbit farthest from Earth). The ISS then reaches its perigee, $412\,\textrm{km}$ from Earth, after $22.5$ minutes. The apogee of the ISS is $422\,\textrm{km}$ from Earth.
+It is observed that when $t = 0,$ the ISS is halfway between its perigee (the point in its orbit nearest to Earth) and apogee (the point in its orbit farthest from Earth). The ISS then reaches its perigee, $412\,\text{km}$ from Earth, after $22.5$ minutes. The apogee of the ISS is $422\,\text{km}$ from Earth.
 
 Using this information, determine the function $D(t).$
 
@@ -240,11 +240,11 @@ Let's recall the general terminology for sinusoidal curves:
 
 Now, we consider the given information:
 
-- The perigee is $412 \, \textrm{km}$ from Earth and the apogee is $422 \, \textrm{km}$ from Earth. This means that our graph must lie between the horizontal lines $D=412$ and $D=422.$ Using this information, we can compute the following: The midline (vertical shift) of the graph is The amplitude is
+- The perigee is $412 \, \text{km}$ from Earth and the apogee is $422 \, \text{km}$ from Earth. This means that our graph must lie between the horizontal lines $D=412$ and $D=422.$ Using this information, we can compute the following: The midline (vertical shift) of the graph is The amplitude is
 
-- When $t=0,$ the ISS is $417 \, \textrm{km}$ from Earth. This means that the point $(0,417)$ lies on the graph.
+- When $t=0,$ the ISS is $417 \, \text{km}$ from Earth. This means that the point $(0,417)$ lies on the graph.
 
-- When $t=22.5,$ the the ISS is $412 \, \textrm{km}$ from Earth. This means that the point $(22.5,412)$ lies on the graph.
+- When $t=22.5,$ the the ISS is $412 \, \text{km}$ from Earth. This means that the point $(22.5,412)$ lies on the graph.
 
 Therefore, we can make the following sketch of the graph:
 
@@ -255,7 +255,7 @@ Finally, let's find the constant $B.$ The period of our function is $22.5 \cdot 
 $$
 
 
-B = \dfrac{2\pi}{\textrm{Period}} = \dfrac{2\pi}{90} = \dfrac{\pi}{45}.
+B = \dfrac{2\pi}{\text{Period}} = \dfrac{2\pi}{90} = \dfrac{\pi}{45}.
 
 
 $$

@@ -45,7 +45,7 @@ $$
 
 
 
-x+3 = 0 \quad \textrm{and} \quad \ln x =0.
+x+3 = 0 \quad \text{and} \quad \ln x =0.
 
 
 
@@ -93,7 +93,7 @@ $$
 
 
 
-x^2 - x - 2 = 0 \quad \textrm{and} \quad \log_2 (x+1) =0.
+x^2 - x - 2 = 0 \quad \text{and} \quad \log_2 (x+1) =0.
 
 
 
@@ -141,7 +141,7 @@ $$
 
 
 
-3x^2 -12 = 0 \quad \textrm{and} \quad \log_3 (4x) =0.
+3x^2 -12 = 0 \quad \text{and} \quad \log_3 (4x) =0.
 
 
 

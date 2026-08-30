@@ -70,7 +70,7 @@ The **Jacobian determinant** of $\mathbf T,$ denoted $\dfrac{\partial (x, y)}{\p
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)} & =\begin{aligned}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣}\end{aligned}=\frac{𝜕𝑥}{𝜕𝑢}⋅\frac{𝜕𝑦}{𝜕𝑣}−\frac{𝜕𝑥}{𝜕𝑣}⋅\frac{𝜕𝑦}{𝜕𝑢}\end{aligned}
+\begin{aligned}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)} & =\begin{matrix}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣}\end{matrix}=\frac{𝜕𝑥}{𝜕𝑢}⋅\frac{𝜕𝑦}{𝜕𝑣}−\frac{𝜕𝑥}{𝜕𝑣}⋅\frac{𝜕𝑦}{𝜕𝑢}\end{aligned}
 
 
 $$
@@ -102,7 +102,7 @@ Therefore, the corresponding Jacobian determinant is
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)} & =\begin{aligned}cos⁡𝑣 & −𝑢sin⁡𝑣 \\ sin⁡𝑣 & 𝑢cos⁡𝑣\end{aligned} \\ & =cos⁡𝑣⋅(𝑢cos⁡𝑣)−(−𝑢sin⁡𝑣)⋅sin⁡𝑣 \\ & =𝑢cos^{2}⁡𝑣+𝑢sin^{2}⁡𝑣 \\ & =𝑢(cos^{2}⁡𝑣+sin^{2}⁡𝑣) \\ & =𝑢.\end{aligned}
+\begin{aligned}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)} & =\begin{matrix}cos⁡𝑣 & −𝑢sin⁡𝑣 \\ sin⁡𝑣 & 𝑢cos⁡𝑣\end{matrix} \\ & =cos⁡𝑣⋅(𝑢cos⁡𝑣)−(−𝑢sin⁡𝑣)⋅sin⁡𝑣 \\ & =𝑢cos^{2}⁡𝑣+𝑢sin^{2}⁡𝑣 \\ & =𝑢(cos^{2}⁡𝑣+sin^{2}⁡𝑣) \\ & =𝑢.\end{aligned}
 
 
 $$
@@ -140,7 +140,7 @@ the Jacobian determinant of $\mathbf T,$ denoted $\dfrac{\partial (x, y)}{\parti
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)} & =\begin{aligned}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣}\end{aligned}.\end{aligned}
+\begin{aligned}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)} & =\begin{matrix}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣}\end{matrix}.\end{aligned}
 
 
 $$
@@ -162,7 +162,7 @@ Therefore, the corresponding Jacobian determinant is
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)} & =\begin{aligned}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣}\end{aligned} \\ & =\begin{aligned}3(𝑢+𝑣)^{2} & 3(𝑢+𝑣)^{2} \\ 2(𝑢−𝑣) & −2(𝑢−𝑣)\end{aligned} \\ & =3(𝑢+𝑣)^{2}⋅(−2(𝑢−𝑣))−3(𝑢+𝑣)^{2}⋅2(𝑢−𝑣) \\ & =−12(𝑢+𝑣)^{2}(𝑢−𝑣).\end{aligned}
+\begin{aligned}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)} & =\begin{matrix}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣}\end{matrix} \\ & =\begin{matrix}3(𝑢+𝑣)^{2} & 3(𝑢+𝑣)^{2} \\ 2(𝑢−𝑣) & −2(𝑢−𝑣)\end{matrix} \\ & =3(𝑢+𝑣)^{2}⋅(−2(𝑢−𝑣))−3(𝑢+𝑣)^{2}⋅2(𝑢−𝑣) \\ & =−12(𝑢+𝑣)^{2}(𝑢−𝑣).\end{aligned}
 
 
 $$
@@ -200,7 +200,7 @@ the Jacobian determinant of $\mathbf T,$ denoted $\dfrac{\partial (x, y)}{\parti
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)} & =\begin{aligned}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣}\end{aligned}.\end{aligned}
+\begin{aligned}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)} & =\begin{matrix}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣}\end{matrix}.\end{aligned}
 
 
 $$
@@ -222,7 +222,7 @@ Therefore, the corresponding Jacobian determinant is
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)} & =\begin{aligned}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣}\end{aligned} \\ & =\begin{aligned}−2𝑣sin⁡𝑢 & 2cos⁡𝑢 \\ 𝑣cos⁡𝑢 & sin⁡𝑢\end{aligned} \\ & =−2𝑣sin⁡𝑢⋅sin⁡𝑢−2cos⁡𝑢⋅𝑣cos⁡𝑢 \\ & =−2𝑣(sin^{2}⁡𝑢+cos^{2}⁡𝑢) \\ & =−2𝑣.\end{aligned}
+\begin{aligned}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)} & =\begin{matrix}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣}\end{matrix} \\ & =\begin{matrix}−2𝑣sin⁡𝑢 & 2cos⁡𝑢 \\ 𝑣cos⁡𝑢 & sin⁡𝑢\end{matrix} \\ & =−2𝑣sin⁡𝑢⋅sin⁡𝑢−2cos⁡𝑢⋅𝑣cos⁡𝑢 \\ & =−2𝑣(sin^{2}⁡𝑢+cos^{2}⁡𝑢) \\ & =−2𝑣.\end{aligned}
 
 
 $$
@@ -257,11 +257,11 @@ For an affine transformation, the determinant of $T$ gives us the following info
 
 - The *area scale factor* of the transformation: If a rectangle in the $uv$-plane has area $A,$ its image in the $xy$-plane is a parallelogram of area $|\det(T)|\cdot A.$
 
-- Whether the transformation is *orientation-preserving* or *orientation-reversing:* If $\textrm{det}(T) > 0,$ the transformation is orientation-preserving. If $\textrm{det}(T) < 0,$ the transformation is orientation-reversing.
+- Whether the transformation is *orientation-preserving* or *orientation-reversing:* If $\text{det}(T) > 0,$ the transformation is orientation-preserving. If $\text{det}(T) < 0,$ the transformation is orientation-reversing.
 
-- Whether the transformation is *invertible* or *non-invertible:* If $\textrm{det}(T) \neq 0,$ the transformation is invertible. If $\textrm{det}(T) = 0,$ the transformation is non-invertible. In such cases, a rectangle in the $uv$-plane collapses to either a line segment or point in the $xy$-plane.
+- Whether the transformation is *invertible* or *non-invertible:* If $\text{det}(T) \neq 0,$ the transformation is invertible. If $\text{det}(T) = 0,$ the transformation is non-invertible. In such cases, a rectangle in the $uv$-plane collapses to either a line segment or point in the $xy$-plane.
 
-Affine transformations are special because these properties are *global*. In other words, they apply *everywhere* in the plane. So, for example, if $\textrm{det}(T) = 2$, then the image of *every* rectangle in the $uv$-plane is a parallelogram with double the area of its preimage.
+Affine transformations are special because these properties are *global*. In other words, they apply *everywhere* in the plane. So, for example, if $\text{det}(T) = 2$, then the image of *every* rectangle in the $uv$-plane is a parallelogram with double the area of its preimage.
 
 ### Intuition Behind the Jacobian
 
@@ -328,7 +328,7 @@ Recall that the absolute value of the Jacobian determinant gives the local area 
 $$
 
 
-\textrm{Area}\big(\mathbf{T}(\Delta)\big) \approx \left| \dfrac{\partial (x, y)}{\partial (u, v)} \right| \cdot \underbrace{\textrm{Area}(\Delta)}_{\large \delta{A}}
+\text{Area}\big(\mathbf{T}(\Delta)\big) \approx \left| \dfrac{\partial (x, y)}{\partial (u, v)} \right| \cdot \underbrace{\text{Area}(\Delta)}_{\large \delta{A}}
 
 
 $$
@@ -338,7 +338,7 @@ Computing the corresponding Jacobian determinant, we obtain the following:
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)} & =\begin{aligned}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣}\end{aligned} \\ & =\begin{aligned}𝑣^{3} & 3𝑢𝑣^{2} \\ 2𝑢 & 2𝑣\end{aligned} \\ & =𝑣^{3}⋅2𝑣−3𝑢𝑣^{2}⋅2𝑢 \\ & =2𝑣^{4}−6𝑢^{2}𝑣^{2} \\ \frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)}_{(−1,2)} & =(2𝑣^{4}−6𝑢^{2}𝑣^{2})\,_{𝑢=−1\,𝑣=2} \\ & =2(2)^{4}−6(−1)^{2}(2)^{2} \\ & =32−24 \\ & =8\end{aligned}
+\begin{aligned}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)} & =\begin{matrix}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣}\end{matrix} \\ & =\begin{matrix}𝑣^{3} & 3𝑢𝑣^{2} \\ 2𝑢 & 2𝑣\end{matrix} \\ & =𝑣^{3}⋅2𝑣−3𝑢𝑣^{2}⋅2𝑢 \\ & =2𝑣^{4}−6𝑢^{2}𝑣^{2} \\ \frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)}_{(−1,2)} & =(2𝑣^{4}−6𝑢^{2}𝑣^{2})\,_{𝑢=−1\,𝑣=2} \\ & =2(2)^{4}−6(−1)^{2}(2)^{2} \\ & =32−24 \\ & =8\end{aligned}
 
 
 $$
@@ -396,7 +396,7 @@ Computing the corresponding Jacobian determinant, we obtain
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)} & =\begin{aligned}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣}\end{aligned} \\ & =\begin{aligned}𝑒^{𝑣} & 𝑢𝑒^{𝑣} \\ 2𝑢 & −2𝑣\end{aligned} \\ & =𝑒^{𝑣}⋅(−2𝑣)−𝑢𝑒^{𝑣}⋅2𝑢 \\ & =−2𝑒^{𝑣}(𝑢^{2}+𝑣).\end{aligned}
+\begin{aligned}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)} & =\begin{matrix}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣}\end{matrix} \\ & =\begin{matrix}𝑒^{𝑣} & 𝑢𝑒^{𝑣} \\ 2𝑢 & −2𝑣\end{matrix} \\ & =𝑒^{𝑣}⋅(−2𝑣)−𝑢𝑒^{𝑣}⋅2𝑢 \\ & =−2𝑒^{𝑣}(𝑢^{2}+𝑣).\end{aligned}
 
 
 $$

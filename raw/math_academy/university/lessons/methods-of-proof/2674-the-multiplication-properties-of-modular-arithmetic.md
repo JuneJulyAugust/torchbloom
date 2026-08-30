@@ -16,7 +16,7 @@ Let's consider the modular congruence
 $$
 
 
-a \equiv b \quad (\textrm{mod}\,n).
+a \equiv b \quad (\text{mod}\,n).
 
 
 $$
@@ -28,7 +28,7 @@ For example, consider the true statement
 $$
 
 
-7\equiv 2 \quad (\textrm{mod}\,5).
+7\equiv 2 \quad (\text{mod}\,5).
 
 
 $$
@@ -50,7 +50,7 @@ In general, the **scalar multiplication property** of congruences states that fo
 $$
 
 
-a\equiv b \quad \Longrightarrow\quad ka \equiv kb \qquad (\textrm{mod}\,n).
+a\equiv b \quad \Longrightarrow\quad ka \equiv kb \qquad (\text{mod}\,n).
 
 
 $$
@@ -60,7 +60,7 @@ We also have
 $$
 
 
-a\equiv b \qquad (\textrm{mod}\,n) \quad \Longrightarrow\quad ka \equiv kb \qquad (\textrm{mod}\,kn).
+a\equiv b \qquad (\text{mod}\,n) \quad \Longrightarrow\quad ka \equiv kb \qquad (\text{mod}\,kn).
 
 
 $$
@@ -69,21 +69,21 @@ $$
 
 #### Question
 
-Which of the following is equivalent to $3x \equiv 1 \: (\textrm{mod}\,20)?$
+Which of the following is equivalent to $3x \equiv 1 \: (\text{mod}\,20)?$
 
-1. $x \equiv 5 \quad (\textrm{mod}\,20)$
+1. $x \equiv 5 \quad (\text{mod}\,20)$
 
-2. $x \equiv 7 \quad (\textrm{mod}\,20)$
+2. $x \equiv 7 \quad (\text{mod}\,20)$
 
-3. $x \equiv 9 \quad (\textrm{mod}\,20)$
+3. $x \equiv 9 \quad (\text{mod}\,20)$
 
 #### Explanation
 
 The scalar multiplication properties of congruences state that for $k \in \mathbb{Z},$ we have the following:
 
-- $a \equiv b \: (\textrm{mod}\,n) \quad \Longrightarrow\quad ka \equiv kb \:(\textrm{mod}\,n)$
+- $a \equiv b \: (\text{mod}\,n) \quad \Longrightarrow\quad ka \equiv kb \:(\text{mod}\,n)$
 
-- $a \equiv b \: (\textrm{mod}\,n) \quad \Longrightarrow\quad ka \equiv kb \:(\textrm{mod}\,kn)$
+- $a \equiv b \: (\text{mod}\,n) \quad \Longrightarrow\quad ka \equiv kb \:(\text{mod}\,kn)$
 
 The modulus equals $20$ in all statements, which suggests we'll need to use the first property.
 
@@ -102,7 +102,7 @@ Therefore,
 $$
 
 
-3x \equiv 1 \quad \Longrightarrow \quad x \equiv 7\qquad (\textrm{mod}\,20)
+3x \equiv 1 \quad \Longrightarrow \quad x \equiv 7\qquad (\text{mod}\,20)
 
 
 $$
@@ -114,7 +114,7 @@ Another useful property that stems from the multiplication property is as follow
 $$
 
 
-a\equiv b \quad \textrm{and}\quad c\equiv d \qquad (\textrm{mod}\,n),
+a\equiv b \quad \text{and}\quad c\equiv d \qquad (\text{mod}\,n),
 
 
 $$
@@ -124,7 +124,7 @@ then, we have
 $$
 
 
-ac\equiv bd \qquad (\textrm{mod}\,n).
+ac\equiv bd \qquad (\text{mod}\,n).
 
 
 $$
@@ -135,7 +135,7 @@ Using this, we can compute the residue of a large product without finding the pr
 
 #### Question
 
-Use the multiplicative property of congruences to compute the residue of $76 \cdot 122 \textrm{mod} 6.$
+Use the multiplicative property of congruences to compute the residue of $76 \cdot 122 \text{mod} 6.$
 
 #### Explanation
 
@@ -144,7 +144,7 @@ The multiplicative property of modular congruences states that if
 $$
 
 
-a\equiv b \quad \textrm{and}\quad c\equiv d \qquad (\textrm{mod}\,n),
+a\equiv b \quad \text{and}\quad c\equiv d \qquad (\text{mod}\,n),
 
 
 $$
@@ -154,7 +154,7 @@ then, we have
 $$
 
 
-ac\equiv bd \qquad (\textrm{mod}\,n).
+ac\equiv bd \qquad (\text{mod}\,n).
 
 
 $$
@@ -184,7 +184,7 @@ Therefore, we conclude that
 $$
 
 
-76 \cdot 122 \equiv 2 \qquad (\textrm{mod}\,6).
+76 \cdot 122 \equiv 2 \qquad (\text{mod}\,6).
 
 
 $$
@@ -193,7 +193,7 @@ $$
 
 #### Question
 
-Use the multiplicative property of congruences to compute the residue of $5^{7} \textrm{mod} 8.$
+Use the multiplicative property of congruences to compute the residue of $5^{7} \text{mod} 8.$
 
 #### Explanation
 
@@ -202,7 +202,7 @@ The multiplicative property of modular congruences states that if
 $$
 
 
-a\equiv b \quad \textrm{and}\quad c\equiv d \qquad (\textrm{mod}\,n),
+a\equiv b \quad \text{and}\quad c\equiv d \qquad (\text{mod}\,n),
 
 
 $$
@@ -212,7 +212,7 @@ then, we have
 $$
 
 
-ac\equiv bd \qquad (\textrm{mod}\,n).
+ac\equiv bd \qquad (\text{mod}\,n).
 
 
 $$
@@ -252,19 +252,19 @@ Therefore, we conclude that
 $$
 
 
-5^{7} \textrm{ mod } 8= 5.
+5^{7} \text{ mod } 8= 5.
 
 
 $$
 
 ### The Exponentiation Property
 
-The multiplicative property states that given $a \equiv b \: (\textrm{mod}\,n)$ and $c \equiv d \: (\textrm{mod}\,n),$ we obtain $ac \equiv bd \: (\textrm{mod}\,n).$ By taking the same congruence twice, we obtain
+The multiplicative property states that given $a \equiv b \: (\text{mod}\,n)$ and $c \equiv d \: (\text{mod}\,n),$ we obtain $ac \equiv bd \: (\text{mod}\,n).$ By taking the same congruence twice, we obtain
 
 $$
 
 
-a^2 \equiv b^2 \qquad (\textrm{mod}\,n).
+a^2 \equiv b^2 \qquad (\text{mod}\,n).
 
 
 $$
@@ -274,7 +274,7 @@ In general,
 $$
 
 
-a^k \equiv b^k \qquad (\textrm{mod}\,n)
+a^k \equiv b^k \qquad (\text{mod}\,n)
 
 
 $$
@@ -289,18 +289,18 @@ What is the last digit in the decimal expansion of $17^{13}?$
 
 #### Explanation
 
-If $a\equiv b\:(\textrm{mod}\,n)$ and $c\equiv d\:(\textrm{mod}\,n),$ then the following properties hold:
+If $a\equiv b\:(\text{mod}\,n)$ and $c\equiv d\:(\text{mod}\,n),$ then the following properties hold:
 
-- $ac\equiv bd \: (\textrm{mod}\,n)$
+- $ac\equiv bd \: (\text{mod}\,n)$
 
-- $a^k \equiv b^k \: (\textrm{mod}\,n)$ for any positive integer $k$
+- $a^k \equiv b^k \: (\text{mod}\,n)$ for any positive integer $k$
 
 To find the last digit, we need to calculate the following residue:
 
 $$
 
 
-17^{13} \textrm{ mod } 10
+17^{13} \text{ mod } 10
 
 
 $$
@@ -350,7 +350,7 @@ Therefore, we conclude that
 $$
 
 
-17^{13} \textrm{ mod } 10 = 7
+17^{13} \text{ mod } 10 = 7
 
 
 $$
@@ -361,9 +361,9 @@ which means that the last digit of $17^{13}$ is $7.$
 
 Throughout this lesson, we've made use of the following properties:
 
-- $a \equiv b \: (\textrm{mod}\,n) \quad \Longrightarrow\quad ka \equiv kb \:(\textrm{mod}\,n)$
+- $a \equiv b \: (\text{mod}\,n) \quad \Longrightarrow\quad ka \equiv kb \:(\text{mod}\,n)$
 
-- $a \equiv b \: (\textrm{mod}\,n) \quad \Longrightarrow\quad ka \equiv kb \:(\textrm{mod}\,kn)$
+- $a \equiv b \: (\text{mod}\,n) \quad \Longrightarrow\quad ka \equiv kb \:(\text{mod}\,kn)$
 
 Let's prove the first property. The proof of the second property is similar.
 
@@ -392,7 +392,7 @@ Therefore, we conclude that
 $$
 
 
-a \equiv b \: (\textrm{mod}\,n) \quad \Longrightarrow\quad ka \equiv kb \:(\textrm{mod}\,n).
+a \equiv b \: (\text{mod}\,n) \quad \Longrightarrow\quad ka \equiv kb \:(\text{mod}\,n).
 
 
 $$

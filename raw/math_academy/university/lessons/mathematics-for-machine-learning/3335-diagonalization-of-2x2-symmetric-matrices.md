@@ -56,7 +56,7 @@ has the orthogonal diagonalization
 $$
 
 
-\begin{aligned}𝐴 & =\underset{𝑃}{\underset{}\begin{aligned}\frac{3}{\sqrt{√10}} & \frac{1}{\sqrt{√10}} \\ \frac{1}{\sqrt{√10}} & −\frac{3}{\sqrt{√10}}\end{aligned}}}\underset{𝐷}{\underset{}\begin{aligned}4 & 0 \\ 0 & −6\end{aligned}}}\underset{𝑃^{𝑇}}{\underset{}\begin{aligned}\frac{3}{\sqrt{√10}} & \frac{1}{\sqrt{√10}} \\ \frac{1}{\sqrt{√10}} & −\frac{3}{\sqrt{√10}}\end{aligned}^{𝑇}}},\end{aligned}
+\begin{aligned}𝐴 & =\underset{𝑃}{\begin{matrix}\frac{3}{\sqrt{10}} & \frac{1}{\sqrt{10}} \\ \frac{1}{\sqrt{10}} & −\frac{3}{\sqrt{10}}\end{matrix}}\underset{𝐷}{\begin{matrix}4 & 0 \\ 0 & −6\end{matrix}}\underset{𝑃^{𝑇}}{\begin{matrix}\frac{3}{\sqrt{10}} & \frac{1}{\sqrt{10}} \\ \frac{1}{\sqrt{10}} & −\frac{3}{\sqrt{10}}\end{matrix}^{𝑇}}},\end{aligned}
 
 
 $$
@@ -80,7 +80,7 @@ In the case of symmetric matrices, the two eigenvectors we compute in step 2 wil
 $$
 
 
-\begin{aligned}\,∗\, & −\frac{\sqrt{√10}}{10} \\ \,∗\, & −\frac{3\sqrt{√10}}{10}\end{aligned}
+\begin{aligned}\,∗\, & −\frac{\sqrt{10}}{10} \\ \,∗\, & −\frac{3\sqrt{10}}{10}\end{aligned}
 
 
 $$
@@ -90,7 +90,7 @@ Consider the matrix $P$ shown above. Given that $A=PDP^T$ is an orthogonal diago
 $$
 
 
-\begin{aligned}\frac{3\sqrt{√10}}{10} \\ −\frac{\sqrt{√10}}{10}\end{aligned}
+\begin{aligned}\frac{3\sqrt{10}}{10} \\ −\frac{\sqrt{10}}{10}\end{aligned}
 
 
 $$
@@ -117,7 +117,7 @@ Since $A=PDP^T$ is an orthogonal diagonalization of a $2\times 2$ symmetric matr
 
 - the norm of the first column must be equal to $1.$
 
-Among the given options, only the vector $\begin{aligned}\frac{3\sqrt{√10}}{10} \\ −\frac{\sqrt{√10}}{10}\end{aligned}$ has both properties.
+Among the given options, only the vector $\begin{aligned}\frac{3\sqrt{10}}{10} \\ −\frac{\sqrt{10}}{10}\end{aligned}$ has both properties.
 
 ### Example: Orthogonally Diagonalizing a 2x2 Symmetric Matrix Given Part of the Diagonalization
 
@@ -136,7 +136,7 @@ Consider the matrices shown above. Given that $D=P^T \! AP,$ where $P$ is an ort
 $$
 
 
-\begin{aligned}\frac{\sqrt{√2}}{2} \\ \frac{\sqrt{√2}}{2}\end{aligned}
+\begin{aligned}\frac{\sqrt{2}}{2} \\ \frac{\sqrt{2}}{2}\end{aligned}
 
 
 $$
@@ -174,7 +174,7 @@ Now, we need to find an eigenvector that corresponds to $\lambda_1=-1.$ Computin
 $$
 
 
-\begin{aligned}𝐴+𝐼 & =[\begin{aligned}0 & −1 \\ −1 & 0\end{aligned}]+[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ & =[\begin{aligned}1 & −1 \\ −1 & 1\end{aligned}].\end{aligned}
+\begin{aligned}𝐴+𝐼 & =[\begin{matrix}0 & −1 \\ −1 & 0\end{matrix}]+[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}] \\ & =[\begin{matrix}1 & −1 \\ −1 & 1\end{matrix}].\end{aligned}
 
 
 $$
@@ -184,7 +184,7 @@ So, we have a system of linear equations with the augmented matrix $M$ which we 
 $$
 
 
-\begin{aligned}𝑀 & =[\begin{aligned}1 & −1 & 0 \\ −1 & 1 & 0\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+𝑅_{1} \\ & ∼[\begin{aligned}1 & −1 & 0 \\ 0 & 0 & 0\end{aligned}] & & \end{aligned}
+\begin{aligned}𝑀 & =[\begin{matrix}1 & −1 & 0 \\ −1 & 1 & 0\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+𝑅_{1} \\ & ∼[\begin{matrix}1 & −1 & 0 \\ 0 & 0 & 0\end{matrix}] & & \end{aligned}
 
 
 $$

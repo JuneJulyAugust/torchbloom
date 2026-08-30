@@ -30,7 +30,7 @@ $$
 
 $$
 
-In our case, $b=50\,\textrm{s}$ and $h=4\,\textrm{cm/s}.$ Therefore, the area under the graph is
+In our case, $b=50\,\text{s}$ and $h=4\,\text{cm/s}.$ Therefore, the area under the graph is
 
 $$
 
@@ -40,7 +40,7 @@ $$
 
 $$
 
-This means the subatomic particle covered a total distance of $100 \,\textrm{cm}.$
+This means the subatomic particle covered a total distance of $100 \,\text{cm}.$
 
 To understand why the area represents the distance traveled, we can consider the units of each of the variables in the area equation:
 
@@ -102,7 +102,7 @@ $$
 
 $$
 
-So, the distance covered by the object is $360\,\textrm{km}.$
+So, the distance covered by the object is $360\,\text{km}.$
 
 ### Example: Calculating the Area Under a Trapezoidal Speed-Time Graph
 
@@ -156,7 +156,7 @@ So, the distance covered by the object is $480$ meters.
 
 #### Question
 
-A car starts to decelerate from an initial speed of $10\,\textrm{m/s}$ until it comes to rest. The speed-time graph illustrates the motion of the car. If the total distance covered by the car was $80$ meters, how long did it take for the car to stop?
+A car starts to decelerate from an initial speed of $10\,\text{m/s}$ until it comes to rest. The speed-time graph illustrates the motion of the car. If the total distance covered by the car was $80$ meters, how long did it take for the car to stop?
 
 ![Instructional graphic](../../../../lesson-assets/algebra-i/topic-1590/2e2ba8d3099a1171.png)
 
@@ -206,23 +206,23 @@ $$
 
 $$
 
-Therefore, it took $16 \,\textrm{s}$ for the car to stop.
+Therefore, it took $16 \,\text{s}$ for the car to stop.
 
 ### Example: Constructing a Speed-Time Graph and Calculating the Distance Traveled
 
 #### Question
 
-An F1 racing car moves with constant acceleration during its first $5$ seconds of travel, changing its speed from $0\,\textrm{m/s}$ to $60\,\textrm{m/s}.$ Then, the car applies the brakes, decelerating at a constant rate before it comes to a stop $35$ seconds later. Calculate the total distance covered by the car.
+An F1 racing car moves with constant acceleration during its first $5$ seconds of travel, changing its speed from $0\,\text{m/s}$ to $60\,\text{m/s}.$ Then, the car applies the brakes, decelerating at a constant rate before it comes to a stop $35$ seconds later. Calculate the total distance covered by the car.
 
 #### Explanation
 
 The distance covered by the car is the area below its speed-time graph. So, we first need to make a speed-time graph that illustrates the described situation.
 
-- The graph starts at $(0,0),$ since the car starts at a speed of $0\,\textrm{m/s}.$
+- The graph starts at $(0,0),$ since the car starts at a speed of $0\,\text{m/s}.$
 
-- After $5$ seconds, the speed of the car is $60 \textrm{m/s}.$ This corresponds to the point $(5,60).$
+- After $5$ seconds, the speed of the car is $60 \text{m/s}.$ This corresponds to the point $(5,60).$
 
-- After another $35$ seconds, the car stops. So, at $t=5+35=40$ seconds, the speed is $0 \textrm{m/s}.$ This corresponds to the point $(40,0).$
+- After another $35$ seconds, the car stops. So, at $t=5+35=40$ seconds, the speed is $0 \text{m/s}.$ This corresponds to the point $(40,0).$
 
 Connecting the points with line segments and shading the relevant area, we obtain the following graph:
 

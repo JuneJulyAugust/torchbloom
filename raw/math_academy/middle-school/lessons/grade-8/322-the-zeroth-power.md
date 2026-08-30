@@ -16,7 +16,7 @@ Any number raised to the power of zero is equal to $1.$ For example,
 $$
 
 
-2^0 = 1 \quad\textrm{and}\quad (-55)^0=1.
+2^0 = 1 \quad\text{and}\quad (-55)^0=1.
 
 
 $$

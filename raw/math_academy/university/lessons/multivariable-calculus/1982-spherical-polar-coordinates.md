@@ -106,7 +106,7 @@ Calculating $x,$ we get
 $$
 
 
-\begin{aligned}𝑥 & =𝜌cos⁡𝜃sin⁡𝜙 \\ & =2\sqrt{√3}cos⁡(𝜋)sin⁡(\frac{5𝜋}{6}) \\ & =2\sqrt{√3}⋅(−1)⋅\frac{1}{2} \\ & =−\sqrt{√3}.\end{aligned}
+\begin{aligned}𝑥 & =𝜌cos⁡𝜃sin⁡𝜙 \\ & =2\sqrt{3}cos⁡(𝜋)sin⁡(\frac{5𝜋}{6}) \\ & =2\sqrt{3}⋅(−1)⋅\frac{1}{2} \\ & =−\sqrt{3}.\end{aligned}
 
 
 $$
@@ -116,7 +116,7 @@ Calculating $y,$ we get
 $$
 
 
-\begin{aligned}𝑦 & =𝜌sin⁡𝜃sin⁡𝜙 \\ & =2\sqrt{√3}sin⁡(𝜋)sin⁡(\frac{5𝜋}{6}) \\ & =2\sqrt{√3}⋅0⋅\frac{1}{2} \\ & =0.\end{aligned}
+\begin{aligned}𝑦 & =𝜌sin⁡𝜃sin⁡𝜙 \\ & =2\sqrt{3}sin⁡(𝜋)sin⁡(\frac{5𝜋}{6}) \\ & =2\sqrt{3}⋅0⋅\frac{1}{2} \\ & =0.\end{aligned}
 
 
 $$
@@ -126,7 +126,7 @@ Calculating $z,$ we get
 $$
 
 
-\begin{aligned}𝑧 & =𝜌cos⁡𝜙 \\ & =2\sqrt{√3}cos⁡(\frac{5𝜋}{6}) \\ & =2\sqrt{√3}⋅(−\frac{\sqrt{√3}}{2}) \\ & =−3.\end{aligned}
+\begin{aligned}𝑧 & =𝜌cos⁡𝜙 \\ & =2\sqrt{3}cos⁡(\frac{5𝜋}{6}) \\ & =2\sqrt{3}⋅(−\frac{\sqrt{3}}{2}) \\ & =−3.\end{aligned}
 
 
 $$
@@ -160,7 +160,7 @@ First, we find $\rho\mathbin{:}$
 $$
 
 
-\begin{aligned}𝜌 & =\sqrt{√𝑥^{2}+𝑦^{2}+𝑧^{2}} \\ & =\sqrt{√1^{2}+(\sqrt{√3})^{2}+2^{2}} \\ & =\sqrt{√1+3+4} \\ & =\sqrt{√8} \\ & =2\sqrt{√2}\end{aligned}
+\begin{aligned}𝜌 & =\sqrt{𝑥^{2}+𝑦^{2}+𝑧^{2}} \\ & =\sqrt{1^{2}+(\sqrt{3})^{2}+2^{2}} \\ & =\sqrt{1+3+4} \\ & =\sqrt{8} \\ & =2\sqrt{2}\end{aligned}
 
 
 $$
@@ -170,7 +170,7 @@ Now, since $(x,y) = (1,\sqrt{3})$ lies in the first quadrant, we can compute the
 $$
 
 
-\begin{aligned}𝜃 & =arctan⁡\frac{𝑦}{𝑥} \\ & =arctan⁡\frac{\sqrt{√3}}{1} \\ & =arctan⁡(\sqrt{√3}) \\ & =\frac{𝜋}{3}\end{aligned}
+\begin{aligned}𝜃 & =arctan⁡\frac{𝑦}{𝑥} \\ & =arctan⁡\frac{\sqrt{3}}{1} \\ & =arctan⁡(\sqrt{3}) \\ & =\frac{𝜋}{3}\end{aligned}
 
 
 $$
@@ -180,7 +180,7 @@ Finally, for $\phi$, we get
 $$
 
 
-\begin{aligned}𝜙 & =arccos⁡(\frac{𝑧}{𝜌}) \\ & =arccos⁡(\frac{2}{2\sqrt{√2}}) \\ & =arccos⁡(\frac{\sqrt{√2}}{2}) \\ & =\frac{𝜋}{4}.\end{aligned}
+\begin{aligned}𝜙 & =arccos⁡(\frac{𝑧}{𝜌}) \\ & =arccos⁡(\frac{2}{2\sqrt{2}}) \\ & =arccos⁡(\frac{\sqrt{2}}{2}) \\ & =\frac{𝜋}{4}.\end{aligned}
 
 
 $$
@@ -220,7 +220,7 @@ First, we find $\rho\mathbin{:}$
 $$
 
 
-\begin{aligned}𝜌 & =\sqrt{√𝑥^{2}+𝑦^{2}+𝑧^{2}} \\ & =\sqrt{√(−\sqrt{√2})^{2}+0^{2}+(\sqrt{√2})^{2}} \\ & =\sqrt{√2+0+2} \\ & =\sqrt{√4} \\ & =2\end{aligned}
+\begin{aligned}𝜌 & =\sqrt{𝑥^{2}+𝑦^{2}+𝑧^{2}} \\ & =\sqrt{(−\sqrt{2})^{2}+0^{2}+(\sqrt{2})^{2}} \\ & =\sqrt{2+0+2} \\ & =\sqrt{4} \\ & =2\end{aligned}
 
 
 $$
@@ -240,7 +240,7 @@ Finally, for $\phi,$ we obtain
 $$
 
 
-\begin{aligned}𝜙 & =arccos⁡(\frac{𝑧}{𝜌}) \\ & =arccos⁡(\frac{\sqrt{√2}}{2}) \\ & =\frac{𝜋}{4}.\end{aligned}
+\begin{aligned}𝜙 & =arccos⁡(\frac{𝑧}{𝜌}) \\ & =arccos⁡(\frac{\sqrt{2}}{2}) \\ & =\frac{𝜋}{4}.\end{aligned}
 
 
 $$

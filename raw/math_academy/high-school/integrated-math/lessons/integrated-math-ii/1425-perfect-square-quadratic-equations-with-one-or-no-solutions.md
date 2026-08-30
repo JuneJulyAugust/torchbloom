@@ -29,7 +29,7 @@ We can solve this equation using the square root method:
 $$
 
 
-\begin{aligned}(3𝑥−6)^{2} & =0 \\ \sqrt{√(3𝑥−6)^{2}} & =\sqrt{√0} \\ |3𝑥−6| & =0\end{aligned}
+\begin{aligned}(3𝑥−6)^{2} & =0 \\ \sqrt{(3𝑥−6)^{2}} & =\sqrt{0} \\ |3𝑥−6| & =0\end{aligned}
 
 
 $$
@@ -59,7 +59,7 @@ We can solve this equation using the square root method:
 $$
 
 
-\begin{aligned}−2(3𝑘−12)^{2} & =0 \\ (3𝑘−12)^{2} & =0 \\ \sqrt{√(3𝑘−12)^{2}} & =\sqrt{√0} \\ |3𝑘−12| & =0 \\ 3𝑘−12 & =0 \\ 3𝑘 & =12 \\ 𝑘 & =4\end{aligned}
+\begin{aligned}−2(3𝑘−12)^{2} & =0 \\ (3𝑘−12)^{2} & =0 \\ \sqrt{(3𝑘−12)^{2}} & =\sqrt{0} \\ |3𝑘−12| & =0 \\ 3𝑘−12 & =0 \\ 3𝑘 & =12 \\ 𝑘 & =4\end{aligned}
 
 
 $$
@@ -77,7 +77,7 @@ First, we solve for $x$ as follows:
 $$
 
 
-\begin{aligned}(𝑥+3)^{2}+10 & =𝑘 \\ (𝑥+3)^{2} & =𝑘−10 \\ \sqrt{√(𝑥+3)^{2}} & =\sqrt{√𝑘−10} \\ |𝑥+3| & =\sqrt{√𝑘−10}\end{aligned}
+\begin{aligned}(𝑥+3)^{2}+10 & =𝑘 \\ (𝑥+3)^{2} & =𝑘−10 \\ \sqrt{(𝑥+3)^{2}} & =\sqrt{𝑘−10} \\ |𝑥+3| & =\sqrt{𝑘−10}\end{aligned}
 
 
 $$
@@ -87,7 +87,7 @@ The equation has only one solution if the right-hand side is equal to zero. So, 
 $$
 
 
-\begin{aligned}\sqrt{√𝑘−10} & =0 \\ 𝑘−10 & =0 \\ 𝑘 & =10\end{aligned}
+\begin{aligned}\sqrt{𝑘−10} & =0 \\ 𝑘−10 & =0 \\ 𝑘 & =10\end{aligned}
 
 
 $$
@@ -117,7 +117,7 @@ From here, we solve the equation using the square root method:
 $$
 
 
-\begin{aligned}\sqrt{√(𝑔−9)^{2}} & =\sqrt{√0} \\ |𝑔−9| & =0 \\ 𝑔−9 & =0 \\ 𝑔 & =9\end{aligned}
+\begin{aligned}\sqrt{(𝑔−9)^{2}} & =\sqrt{0} \\ |𝑔−9| & =0 \\ 𝑔−9 & =0 \\ 𝑔 & =9\end{aligned}
 
 
 $$
@@ -129,7 +129,7 @@ Let's try and solve the equation $(x+1)^2=-1$ using the square root method.
 $$
 
 
-\begin{aligned}(𝑥+1)^{2} & =−1 \\ \sqrt{√(𝑥+1)^{2}} & =\sqrt{√−1} \\ |𝑥+1| & =\sqrt{√−1}\end{aligned}
+\begin{aligned}(𝑥+1)^{2} & =−1 \\ \sqrt{(𝑥+1)^{2}} & =\sqrt{−1} \\ |𝑥+1| & =\sqrt{−1}\end{aligned}
 
 
 $$
@@ -149,7 +149,7 @@ Let's try and solve using the square root method:
 $$
 
 
-\begin{aligned}(4𝑥+1)^{2}+2 & =3𝑘 \\ (4𝑥+1)^{2} & =3𝑘−2 \\ \sqrt{√(4𝑥+1)^{2}} & =\sqrt{√3𝑘−2} \\ |4𝑥+1| & =\sqrt{√3𝑘−2}\end{aligned}
+\begin{aligned}(4𝑥+1)^{2}+2 & =3𝑘 \\ (4𝑥+1)^{2} & =3𝑘−2 \\ \sqrt{(4𝑥+1)^{2}} & =\sqrt{3𝑘−2} \\ |4𝑥+1| & =\sqrt{3𝑘−2}\end{aligned}
 
 
 $$

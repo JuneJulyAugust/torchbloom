@@ -55,7 +55,7 @@ Therefore, the sample mean vector is
 $$
 
 
-\begin{aligned}𝐦 & =\frac{1}{4}(𝐱_{1}+𝐱_{2}+𝐱_{3}+𝐱_{4}) \\ & =\frac{1}{4}([\begin{aligned}4 \\ 80\end{aligned}]+[\begin{aligned}3 \\ 85\end{aligned}]+[\begin{aligned}5 \\ 75\end{aligned}]+[\begin{aligned}4 \\ 72\end{aligned}]) \\ & =\frac{1}{4}[\begin{aligned}16 \\ 312\end{aligned}] \\ & =[\begin{aligned}4 \\ 78\end{aligned}].\end{aligned}
+\begin{aligned}𝐦 & =\frac{1}{4}(𝐱_{1}+𝐱_{2}+𝐱_{3}+𝐱_{4}) \\ & =\frac{1}{4}([\begin{matrix}4 \\ 80\end{matrix}]+[\begin{matrix}3 \\ 85\end{matrix}]+[\begin{matrix}5 \\ 75\end{matrix}]+[\begin{matrix}4 \\ 72\end{matrix}]) \\ & =\frac{1}{4}[\begin{matrix}16 \\ 312\end{matrix}] \\ & =[\begin{matrix}4 \\ 78\end{matrix}].\end{aligned}
 
 
 $$
@@ -105,7 +105,7 @@ Therefore, the sample mean is
 $$
 
 
-\begin{aligned}𝐦 & =\frac{1}{4}(𝐱_{1}+𝐱_{2}+𝐱_{3}+𝐱_{4}) \\ & =\frac{1}{4}([\begin{aligned}1 \\ 2\end{aligned}]+[\begin{aligned}1 \\ 5\end{aligned}]+[\begin{aligned}0 \\ 3\end{aligned}]+[\begin{aligned}2 \\ 2\end{aligned}]) \\ & =\frac{1}{4}[\begin{aligned}4 \\ 12\end{aligned}] \\ & =[\begin{aligned}1 \\ 3\end{aligned}].\end{aligned}
+\begin{aligned}𝐦 & =\frac{1}{4}(𝐱_{1}+𝐱_{2}+𝐱_{3}+𝐱_{4}) \\ & =\frac{1}{4}([\begin{matrix}1 \\ 2\end{matrix}]+[\begin{matrix}1 \\ 5\end{matrix}]+[\begin{matrix}0 \\ 3\end{matrix}]+[\begin{matrix}2 \\ 2\end{matrix}]) \\ & =\frac{1}{4}[\begin{matrix}4 \\ 12\end{matrix}] \\ & =[\begin{matrix}1 \\ 3\end{matrix}].\end{aligned}
 
 
 $$
@@ -147,7 +147,7 @@ One thing we can do with this data is to check how much each observation differs
 $$
 
 
-\begin{aligned}𝐛_{1} & =𝐱_{1}−𝐦=[\begin{aligned}4 \\ 80\end{aligned}]−[\begin{aligned}4 \\ 78\end{aligned}]=[\begin{aligned}0 \\ 2\end{aligned}] \\ 𝐛_{2} & =𝐱_{2}−𝐦=[\begin{aligned}3 \\ 85\end{aligned}]−[\begin{aligned}4 \\ 78\end{aligned}]=[\begin{aligned}−1 \\ 7\end{aligned}] \\ 𝐛_{3} & =𝐱_{3}−𝐦=[\begin{aligned}5 \\ 75\end{aligned}]−[\begin{aligned}4 \\ 78\end{aligned}]=[\begin{aligned}1 \\ −3\end{aligned}] \\ 𝐛_{4} & =𝐱_{4}−𝐦=[\begin{aligned}4 \\ 72\end{aligned}]−[\begin{aligned}4 \\ 78\end{aligned}]=[\begin{aligned}0 \\ −6\end{aligned}]\end{aligned}
+\begin{aligned}𝐛_{1} & =𝐱_{1}−𝐦=[\begin{matrix}4 \\ 80\end{matrix}]−[\begin{matrix}4 \\ 78\end{matrix}]=[\begin{matrix}0 \\ 2\end{matrix}] \\ 𝐛_{2} & =𝐱_{2}−𝐦=[\begin{matrix}3 \\ 85\end{matrix}]−[\begin{matrix}4 \\ 78\end{matrix}]=[\begin{matrix}−1 \\ 7\end{matrix}] \\ 𝐛_{3} & =𝐱_{3}−𝐦=[\begin{matrix}5 \\ 75\end{matrix}]−[\begin{matrix}4 \\ 78\end{matrix}]=[\begin{matrix}1 \\ −3\end{matrix}] \\ 𝐛_{4} & =𝐱_{4}−𝐦=[\begin{matrix}4 \\ 72\end{matrix}]−[\begin{matrix}4 \\ 78\end{matrix}]=[\begin{matrix}0 \\ −6\end{matrix}]\end{aligned}
 
 
 $$
@@ -169,7 +169,7 @@ Notice that the mean of a mean-deviation form equals the zero vector:
 $$
 
 
-\begin{aligned}𝐦_{𝐵} & =\frac{1}{4}([\begin{aligned}0 \\ 2\end{aligned}]+[\begin{aligned}−1 \\ 7\end{aligned}]+[\begin{aligned}1 \\ −3\end{aligned}]+[\begin{aligned}0 \\ −6\end{aligned}]) \\ & =\frac{1}{4}([\begin{aligned}0 \\ 0\end{aligned}]) \\ & =[\begin{aligned}0 \\ 0\end{aligned}]\end{aligned}
+\begin{aligned}𝐦_{𝐵} & =\frac{1}{4}([\begin{matrix}0 \\ 2\end{matrix}]+[\begin{matrix}−1 \\ 7\end{matrix}]+[\begin{matrix}1 \\ −3\end{matrix}]+[\begin{matrix}0 \\ −6\end{matrix}]) \\ & =\frac{1}{4}([\begin{matrix}0 \\ 0\end{matrix}]) \\ & =[\begin{matrix}0 \\ 0\end{matrix}]\end{aligned}
 
 
 $$
@@ -227,7 +227,7 @@ As a result, the sample mean is
 $$
 
 
-\begin{aligned}𝐦 & =\frac{1}{3}(𝐱_{1}+𝐱_{2}+𝐱_{3}) \\ & =\frac{1}{3}([\begin{aligned}5 \\ 15\end{aligned}]+[\begin{aligned}9 \\ −7\end{aligned}]+[\begin{aligned}4 \\ 1\end{aligned}]) \\ & =\frac{1}{3}[\begin{aligned}18 \\ 9\end{aligned}] \\ & =[\begin{aligned}6 \\ 3\end{aligned}].\end{aligned}
+\begin{aligned}𝐦 & =\frac{1}{3}(𝐱_{1}+𝐱_{2}+𝐱_{3}) \\ & =\frac{1}{3}([\begin{matrix}5 \\ 15\end{matrix}]+[\begin{matrix}9 \\ −7\end{matrix}]+[\begin{matrix}4 \\ 1\end{matrix}]) \\ & =\frac{1}{3}[\begin{matrix}18 \\ 9\end{matrix}] \\ & =[\begin{matrix}6 \\ 3\end{matrix}].\end{aligned}
 
 
 $$
@@ -237,7 +237,7 @@ Now, we have the following:
 $$
 
 
-\begin{aligned}𝐛_{1} & =𝐱_{1}−𝐦=[\begin{aligned}5 \\ 15\end{aligned}]−[\begin{aligned}6 \\ 3\end{aligned}]=[\begin{aligned}−1 \\ 12\end{aligned}] \\ 𝐛_{2} & =𝐱_{2}−𝐦=[\begin{aligned}9 \\ −7\end{aligned}]−[\begin{aligned}6 \\ 3\end{aligned}]=[\begin{aligned}3 \\ −10\end{aligned}] \\ 𝐛_{3} & =𝐱_{3}−𝐦=[\begin{aligned}4 \\ 1\end{aligned}]−[\begin{aligned}6 \\ 3\end{aligned}]=[\begin{aligned}−2 \\ −2\end{aligned}]\end{aligned}
+\begin{aligned}𝐛_{1} & =𝐱_{1}−𝐦=[\begin{matrix}5 \\ 15\end{matrix}]−[\begin{matrix}6 \\ 3\end{matrix}]=[\begin{matrix}−1 \\ 12\end{matrix}] \\ 𝐛_{2} & =𝐱_{2}−𝐦=[\begin{matrix}9 \\ −7\end{matrix}]−[\begin{matrix}6 \\ 3\end{matrix}]=[\begin{matrix}3 \\ −10\end{matrix}] \\ 𝐛_{3} & =𝐱_{3}−𝐦=[\begin{matrix}4 \\ 1\end{matrix}]−[\begin{matrix}6 \\ 3\end{matrix}]=[\begin{matrix}−2 \\ −2\end{matrix}]\end{aligned}
 
 
 $$
@@ -269,7 +269,7 @@ Calculating the product $B B^T,$ we obtain
 $$
 
 
-\begin{aligned}[\begin{aligned}0 & −1 & 1 & 0 \\ 2 & 7 & −3 & −6\end{aligned}]\begin{aligned}0 & 2 \\ −1 & 7 \\ 1 & −3 \\ 0 & −6\end{aligned} & =[\begin{aligned}2 & −10 \\ −10 & 98\end{aligned}].\end{aligned}
+\begin{aligned}[\begin{matrix}0 & −1 & 1 & 0 \\ 2 & 7 & −3 & −6\end{matrix}]\begin{matrix}0 & 2 \\ −1 & 7 \\ 1 & −3 \\ 0 & −6\end{matrix} & =[\begin{matrix}2 & −10 \\ −10 & 98\end{matrix}].\end{aligned}
 
 
 $$
@@ -341,7 +341,7 @@ The sample mean is
 $$
 
 
-\begin{aligned}𝐦 & =\frac{1}{3}(𝐱_{1}+𝐱_{2}+𝐱_{3}) \\ & =\frac{1}{3}([\begin{aligned}2 \\ −4\end{aligned}]+[\begin{aligned}6 \\ 1\end{aligned}]+[\begin{aligned}4 \\ 6\end{aligned}]) \\ & =\frac{1}{3}[\begin{aligned}12 \\ 3\end{aligned}] \\ & =[\begin{aligned}4 \\ 1\end{aligned}].\end{aligned}
+\begin{aligned}𝐦 & =\frac{1}{3}(𝐱_{1}+𝐱_{2}+𝐱_{3}) \\ & =\frac{1}{3}([\begin{matrix}2 \\ −4\end{matrix}]+[\begin{matrix}6 \\ 1\end{matrix}]+[\begin{matrix}4 \\ 6\end{matrix}]) \\ & =\frac{1}{3}[\begin{matrix}12 \\ 3\end{matrix}] \\ & =[\begin{matrix}4 \\ 1\end{matrix}].\end{aligned}
 
 
 $$
@@ -351,7 +351,7 @@ Now, we have the following:
 $$
 
 
-\begin{aligned}𝐛_{1} & =𝐱_{1}−𝐦=[\begin{aligned}2 \\ −4\end{aligned}]−[\begin{aligned}4 \\ 1\end{aligned}]=[\begin{aligned}−2 \\ −5\end{aligned}] \\ 𝐛_{2} & =𝐱_{2}−𝐦=[\begin{aligned}6 \\ 1\end{aligned}]−[\begin{aligned}4 \\ 1\end{aligned}]=[\begin{aligned}2 \\ 0\end{aligned}] \\ 𝐛_{3} & =𝐱_{3}−𝐦=[\begin{aligned}4 \\ 6\end{aligned}]−[\begin{aligned}4 \\ 1\end{aligned}]=[\begin{aligned}0 \\ 5\end{aligned}]\end{aligned}
+\begin{aligned}𝐛_{1} & =𝐱_{1}−𝐦=[\begin{matrix}2 \\ −4\end{matrix}]−[\begin{matrix}4 \\ 1\end{matrix}]=[\begin{matrix}−2 \\ −5\end{matrix}] \\ 𝐛_{2} & =𝐱_{2}−𝐦=[\begin{matrix}6 \\ 1\end{matrix}]−[\begin{matrix}4 \\ 1\end{matrix}]=[\begin{matrix}2 \\ 0\end{matrix}] \\ 𝐛_{3} & =𝐱_{3}−𝐦=[\begin{matrix}4 \\ 6\end{matrix}]−[\begin{matrix}4 \\ 1\end{matrix}]=[\begin{matrix}0 \\ 5\end{matrix}]\end{aligned}
 
 
 $$
@@ -371,7 +371,7 @@ Finally, the sample covariance matrix is
 $$
 
 
-\begin{aligned}𝐶 & =\frac{1}{3−1}[\begin{aligned}−2 & 2 & 0 \\ −5 & 0 & 5\end{aligned}]\begin{aligned}−2 & −5 \\ 2 & 0 \\ 0 & 5\end{aligned} \\ & =\frac{1}{2}[\begin{aligned}8 & 10 \\ 10 & 50\end{aligned}].\end{aligned}
+\begin{aligned}𝐶 & =\frac{1}{3−1}[\begin{matrix}−2 & 2 & 0 \\ −5 & 0 & 5\end{matrix}]\begin{matrix}−2 & −5 \\ 2 & 0 \\ 0 & 5\end{matrix} \\ & =\frac{1}{2}[\begin{matrix}8 & 10 \\ 10 & 50\end{matrix}].\end{aligned}
 
 
 $$

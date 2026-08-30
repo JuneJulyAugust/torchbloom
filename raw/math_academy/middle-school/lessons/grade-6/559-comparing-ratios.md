@@ -83,7 +83,7 @@ $\quad$ The ratio of students to mentors in Club A is $\boxed{\phantom{5:1}}.$
 
 $\quad$ The ratio of students to mentors in Club B is $\boxed{\phantom{3:1}}.$
 
-$\quad$ Therefore, Club A has a $\boxed{\phantom{\textrm{smaller}}}$ ratio of students to mentors compared to Club B.
+$\quad$ Therefore, Club A has a $\boxed{\phantom{\mathrm{smaller}}}$ ratio of students to mentors compared to Club B.
 
 #### Explanation
 
@@ -151,7 +151,7 @@ $\quad$ The ratio of students to mentors in Club A is $\boxed{5:1}.$
 
 $\quad$ The ratio of students to mentors in Club B is $\boxed{3:1}.$
 
-$\quad$ Therefore, Club A has a $\boxed{\textrm{larger}}$ ratio of students to mentors compared to Club B.
+$\quad$ Therefore, Club A has a $\boxed{\text{larger}}$ ratio of students to mentors compared to Club B.
 
 ### Comparing Ratios Using Fractions
 
@@ -223,7 +223,7 @@ $\quad$ The number of laptops relative to students for Classroom A is $\boxed{\p
 
 $\quad$ The number of laptops relative to students for Classroom B is $\boxed{\phantom{1/3}}.$
 
-$\quad$ Therefore, Classroom A has a $\boxed{\phantom{\textrm{larger}}}$ fraction of laptops relative to students compared to Classroom B.
+$\quad$ Therefore, Classroom A has a $\boxed{\phantom{\mathrm{larger}}}$ fraction of laptops relative to students compared to Classroom B.
 
 #### Explanation
 
@@ -285,7 +285,7 @@ $\quad$ The number of laptops relative to students for Classroom A is $\boxed{\d
 
 $\quad$ The number of laptops relative to students for Classroom B is $\boxed{\dfrac{1}{3}}.$
 
-$\quad$ Therefore, Classroom A has a $\boxed{\textrm{smaller}}$ fraction of laptops relative to students compared to Classroom B.
+$\quad$ Therefore, Classroom A has a $\boxed{\text{smaller}}$ fraction of laptops relative to students compared to Classroom B.
 
 ### Example: Comparing Ratios With With Common Denominators
 
@@ -297,7 +297,7 @@ $\quad$ The number of instructors relative to students for School A is $\boxed{\
 
 $\quad$ The number of instructors relative to students for School B is $\boxed{\phantom{2/3}}.$
 
-$\quad$ Therefore, School A has a $\boxed{\phantom{\textrm{smaller}}}$ fraction of instructors relative to students compared to School B.
+$\quad$ Therefore, School A has a $\boxed{\phantom{\mathrm{smaller}}}$ fraction of instructors relative to students compared to School B.
 
 #### Explanation
 
@@ -359,7 +359,7 @@ $\quad$ The number of instructors relative to students for School A is $\boxed{\
 
 $\quad$ The number of instructors relative to students for School B is $\boxed{\dfrac{2}{3}}.$
 
-$\quad$ Therefore, School A has a $\boxed{\textrm{smaller}}$ fraction of instructors relative to students compared to School B.
+$\quad$ Therefore, School A has a $\boxed{\text{smaller}}$ fraction of instructors relative to students compared to School B.
 
 ### Further Comparing Ratios
 
@@ -423,7 +423,7 @@ $\quad$ The amount of cement relative to gravel for Site A is $\,\boxed{\phantom
 
 $\quad$ The amount of cement relative to gravel for Site B is $\,\boxed{\phantom{0/0}}.$
 
-$\quad$ Therefore, Site A has a $\boxed{\phantom{\textrm{larger}}}$ fraction of cement relative to gravel compared to Site B.
+$\quad$ Therefore, Site A has a $\boxed{\phantom{\mathrm{larger}}}$ fraction of cement relative to gravel compared to Site B.
 
 #### Explanation
 
@@ -485,4 +485,4 @@ $\quad$ The amount of cement relative to gravel for Site A is $\boxed{\dfrac58}.
 
 $\quad$ The amount of cement relative to gravel for Site B is $\boxed{\dfrac49}.$
 
-$\quad$ Therefore, Site A has a $\boxed{\textrm{larger}}$ fraction of cement relative to gravel compared to Site B.
+$\quad$ Therefore, Site A has a $\boxed{\text{larger}}$ fraction of cement relative to gravel compared to Site B.

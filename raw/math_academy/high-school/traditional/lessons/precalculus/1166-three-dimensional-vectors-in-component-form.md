@@ -163,7 +163,7 @@ $$
 
 
 
-\begin{aligned}\overset{𝐴𝐵}{} & =𝐛−𝐚 \\ & =(2𝐢+3𝐣+5𝐤)−(−𝐢+4𝐣−5𝐤) \\ & =3𝐢−𝐣+10𝐤 \\ & =\begin{aligned}3 \\ −1 \\ 10\end{aligned}\end{aligned}
+\begin{aligned}\overset{𝐴𝐵}{} & =𝐛−𝐚 \\ & =(2𝐢+3𝐣+5𝐤)−(−𝐢+4𝐣−5𝐤) \\ & =3𝐢−𝐣+10𝐤 \\ & =\begin{matrix}3 \\ −1 \\ 10\end{matrix}\end{aligned}
 
 
 

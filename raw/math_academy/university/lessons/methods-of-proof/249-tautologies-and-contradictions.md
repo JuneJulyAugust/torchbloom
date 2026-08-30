@@ -148,7 +148,7 @@ Therefore, we conclude that
 $$
 
 
-(A \land \neg B) \Rightarrow \neg B \equiv \textrm{t}
+(A \land \neg B) \Rightarrow \neg B \equiv \text{t}
 
 
 $$

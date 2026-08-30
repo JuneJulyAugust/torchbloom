@@ -44,7 +44,7 @@ To compute this improper integral, we start by integrating as usual:
 $$
 
 
-\begin{aligned}\underset{𝑎→∞}{lim}∫_{𝑎2}^{}\frac{1}{𝑥^{2}}\,d𝑥 & =\underset{𝑎→∞}{lim}∫_{𝑎2}^{}𝑥^{−2}\,d𝑥 \\ & =\underset{𝑎→∞}{lim}[\frac{𝑥^{−1}}{−1}]_{𝑎2}^{} \\ & =\underset{𝑎→∞}{lim}[−\frac{1}{𝑥}]_{𝑎2}^{} \\ & =\underset{𝑎→∞}{lim}([−\frac{1}{𝑎}]−[−\frac{1}{2}]) \\ & =\underset{𝑎→∞}{lim}(\frac{1}{2}−\frac{1}{𝑎})\end{aligned}
+\begin{aligned}\underset{𝑎→∞}{lim}∫_{𝑎2}\frac{1}{𝑥^{2}}\,d𝑥 & =\underset{𝑎→∞}{lim}∫_{𝑎2}𝑥^{−2}\,d𝑥 \\ & =\underset{𝑎→∞}{lim}[\frac{𝑥^{−1}}{−1}]_{𝑎2} \\ & =\underset{𝑎→∞}{lim}[−\frac{1}{𝑥}]_{𝑎2} \\ & =\underset{𝑎→∞}{lim}([−\frac{1}{𝑎}]−[−\frac{1}{2}]) \\ & =\underset{𝑎→∞}{lim}(\frac{1}{2}−\frac{1}{𝑎})\end{aligned}
 
 
 $$
@@ -73,7 +73,7 @@ $$
 
 #### Question
 
-Evaluate $\displaystyle \int_2^\infty \dfrac {8}{t^5} \,\textrm{d}t.$
+Evaluate $\displaystyle \int_2^\infty \dfrac {8}{t^5} \,\text{d}t.$
 
 #### Explanation
 
@@ -82,7 +82,7 @@ We proceed by setting the upper bound equal to some parameter $a,$ integrating a
 $$
 
 
-\begin{aligned}∫_{∞2}^{}\frac{8}{𝑡^{5}}\,d𝑡 & =\underset{𝑎→∞}{lim}∫_{𝑎2}^{}\frac{8}{𝑡^{5}}\,d𝑡 \\ & =8\underset{𝑎→∞}{lim}∫_{𝑎2}^{}𝑡^{−5}\,d𝑡 \\ & =8\underset{𝑎→∞}{lim}[−\frac{1}{4}𝑡^{−4}]_{𝑎2}^{} \\ & =−2⋅\underset{𝑎→∞}{lim}[\frac{1}{𝑡^{4}}]_{𝑎2}^{} \\ & =−2⋅\underset{𝑎→∞}{lim}(\frac{1}{𝑎^{4}}−\frac{1}{2^{4}}) \\ & =−2(0−\frac{1}{16}) \\ & =\frac{1}{8}\end{aligned}
+\begin{aligned}∫_{∞2}\frac{8}{𝑡^{5}}\,d𝑡 & =\underset{𝑎→∞}{lim}∫_{𝑎2}\frac{8}{𝑡^{5}}\,d𝑡 \\ & =8\underset{𝑎→∞}{lim}∫_{𝑎2}𝑡^{−5}\,d𝑡 \\ & =8\underset{𝑎→∞}{lim}[−\frac{1}{4}𝑡^{−4}]_{𝑎2} \\ & =−2⋅\underset{𝑎→∞}{lim}[\frac{1}{𝑡^{4}}]_{𝑎2} \\ & =−2⋅\underset{𝑎→∞}{lim}(\frac{1}{𝑎^{4}}−\frac{1}{2^{4}}) \\ & =−2(0−\frac{1}{16}) \\ & =\frac{1}{8}\end{aligned}
 
 
 $$
@@ -91,7 +91,7 @@ $$
 
 #### Question
 
-Evaluate $\displaystyle\int_0^\infty \dfrac{1}{(x+1)^2} \,\textrm{d}x.$
+Evaluate $\displaystyle\int_0^\infty \dfrac{1}{(x+1)^2} \,\text{d}x.$
 
 #### Explanation
 
@@ -100,7 +100,7 @@ First, we substitute $u=x+1.$ Differentiating, we get
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x} = 1 \quad\Longrightarrow\quad \textrm{d}u =\textrm{d}x.
+\dfrac{\text{d}u}{\text{d}x} = 1 \quad\Longrightarrow\quad \text{d}u =\text{d}x.
 
 
 $$
@@ -112,7 +112,7 @@ So, the integral in terms of the new variable $u$ is
 $$
 
 
-\int_0^\infty \dfrac{1}{(x+1)^2} \,\textrm{d}x = \int_1^\infty \dfrac{1}{u^2} \,\textrm{d}u.
+\int_0^\infty \dfrac{1}{(x+1)^2} \,\text{d}x = \int_1^\infty \dfrac{1}{u^2} \,\text{d}u.
 
 
 $$
@@ -122,7 +122,7 @@ Finally, we proceed by setting the upper bound equal to some parameter $a,$ inte
 $$
 
 
-\begin{aligned}∫_{∞0}^{}\frac{1}{(𝑥+1)^{2}}\,d𝑥 & =∫_{∞1}^{}\frac{1}{𝑢^{2}}\,d𝑢 \\ & =∫_{∞1}^{}𝑢^{−2}\,d𝑢 \\ & =\underset{𝑎→∞}{lim}∫_{𝑎1}^{}𝑢^{−2}\,d𝑢 \\ & =\underset{𝑎→∞}{lim}[−𝑢^{−1}]_{𝑎1}^{} \\ & =−\underset{𝑎→∞}{lim}[\frac{1}{𝑢}]_{𝑎1}^{} \\ & =−1⋅\underset{𝑎→∞}{lim}[\frac{1}{𝑎}−\frac{1}{1}] \\ & =−1⋅(0−1) \\ & =1\end{aligned}
+\begin{aligned}∫_{∞0}\frac{1}{(𝑥+1)^{2}}\,d𝑥 & =∫_{∞1}\frac{1}{𝑢^{2}}\,d𝑢 \\ & =∫_{∞1}𝑢^{−2}\,d𝑢 \\ & =\underset{𝑎→∞}{lim}∫_{𝑎1}𝑢^{−2}\,d𝑢 \\ & =\underset{𝑎→∞}{lim}[−𝑢^{−1}]_{𝑎1} \\ & =−\underset{𝑎→∞}{lim}[\frac{1}{𝑢}]_{𝑎1} \\ & =−1⋅\underset{𝑎→∞}{lim}[\frac{1}{𝑎}−\frac{1}{1}] \\ & =−1⋅(0−1) \\ & =1\end{aligned}
 
 
 $$
@@ -131,7 +131,7 @@ $$
 
 #### Question
 
-Evaluate $\displaystyle \int_{-\infty}^{0} \dfrac{1}{(x-4)^2} \,\textrm{d}x.$
+Evaluate $\displaystyle \int_{-\infty}^{0} \dfrac{1}{(x-4)^2} \,\text{d}x.$
 
 #### Explanation
 
@@ -142,7 +142,7 @@ First, we substitute $u=x-4.$ Differentiating, we get
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x}= 1 \quad\Longrightarrow\quad \textrm{d}u =\textrm{d}x.
+\dfrac{\text{d}u}{\text{d}x}= 1 \quad\Longrightarrow\quad \text{d}u =\text{d}x.
 
 
 $$
@@ -154,7 +154,7 @@ So, the integral in terms of the new variable $u$ is
 $$
 
 
-\displaystyle \int_{-\infty}^{0} \dfrac{1}{(x-4)^2} \,\textrm{d}x =\int_{-\infty}^{-4} \dfrac{1}{u^2} \,\textrm{d}u.
+\displaystyle \int_{-\infty}^{0} \dfrac{1}{(x-4)^2} \,\text{d}x =\int_{-\infty}^{-4} \dfrac{1}{u^2} \,\text{d}u.
 
 
 $$
@@ -164,7 +164,7 @@ Finally, we proceed by setting the lower bound equal to some parameter $a,$ inte
 $$
 
 
-\begin{aligned}∫_{0−∞}^{}\frac{1}{(𝑥−4)^{2}}\,d𝑥 & =∫_{−4−∞}^{}\frac{1}{𝑢^{2}}\,d𝑢 \\ & =∫_{−4−∞}^{}𝑢^{−2}\,d𝑢 \\ & =\underset{𝑎→−∞}{lim}∫_{−4𝑎}^{}𝑢^{−2}\,d𝑢 \\ & =\underset{𝑎→−∞}{lim}[−𝑢^{−1}]_{−4𝑎}^{} \\ & =−1⋅\underset{𝑎→−∞}{lim}[\frac{1}{𝑢}]_{−4𝑎}^{} \\ & =−1⋅\underset{𝑎→−∞}{lim}[\frac{1}{(−4)}−\frac{1}{𝑎}] \\ & =−1⋅\underset{𝑎→−∞}{lim}(−\frac{1}{4}−\frac{1}{𝑎}) \\ & =−1⋅(−\frac{1}{4}−0) \\ & =\frac{1}{4}\end{aligned}
+\begin{aligned}∫_{0−∞}\frac{1}{(𝑥−4)^{2}}\,d𝑥 & =∫_{−4−∞}\frac{1}{𝑢^{2}}\,d𝑢 \\ & =∫_{−4−∞}𝑢^{−2}\,d𝑢 \\ & =\underset{𝑎→−∞}{lim}∫_{−4𝑎}𝑢^{−2}\,d𝑢 \\ & =\underset{𝑎→−∞}{lim}[−𝑢^{−1}]_{−4𝑎} \\ & =−1⋅\underset{𝑎→−∞}{lim}[\frac{1}{𝑢}]_{−4𝑎} \\ & =−1⋅\underset{𝑎→−∞}{lim}[\frac{1}{(−4)}−\frac{1}{𝑎}] \\ & =−1⋅\underset{𝑎→−∞}{lim}(−\frac{1}{4}−\frac{1}{𝑎}) \\ & =−1⋅(−\frac{1}{4}−0) \\ & =\frac{1}{4}\end{aligned}
 
 
 $$
@@ -184,7 +184,7 @@ Let's discuss a concrete example of a divergent improper integral. Consider the 
 $$
 
 
-I = \int_1^\infty \frac{1}{x}\,\textrm{d}x
+I = \int_1^\infty \frac{1}{x}\,\text{d}x
 
 
 $$
@@ -194,7 +194,7 @@ We can attempt to work out $I$ by integrating over $x\in[1,a]$ as usual and taki
 $$
 
 
-\begin{aligned}∫_{∞1}^{}\frac{1}{𝑥}d𝑥 & =\underset{𝑎→∞}{lim}∫_{𝑎1}^{}\frac{1}{𝑥}d𝑥 \\ & =\underset{𝑎→∞}{lim}[ln⁡|𝑥|]_{𝑎1}^{} \\ & =\underset{𝑎→∞}{lim}([ln⁡𝑎]−[ln⁡1]) \\ & =\underset{𝑎→∞}{lim}([ln⁡𝑎]−[0]) \\ & =\underset{𝑎→∞}{lim}(ln⁡𝑎) \\ & =∞.\end{aligned}
+\begin{aligned}∫_{∞1}\frac{1}{𝑥}d𝑥 & =\underset{𝑎→∞}{lim}∫_{𝑎1}\frac{1}{𝑥}d𝑥 \\ & =\underset{𝑎→∞}{lim}[ln⁡|𝑥|]_{𝑎1} \\ & =\underset{𝑎→∞}{lim}([ln⁡𝑎]−[ln⁡1]) \\ & =\underset{𝑎→∞}{lim}([ln⁡𝑎]−[0]) \\ & =\underset{𝑎→∞}{lim}(ln⁡𝑎) \\ & =∞.\end{aligned}
 
 
 $$
@@ -207,11 +207,11 @@ The limit of $I$ as $a\rightarrow \infty$ is infinite. Therefore, the integral $
 
 Which of the following improper integrals are divergent?
 
-1. $\displaystyle \int_1^\infty \frac{1}{\sqrt{x}}\,\textrm{d}x$
+1. $\displaystyle \int_1^\infty \frac{1}{\sqrt{x}}\,\text{d}x$
 
-2. $\displaystyle \int_{-\infty}^{-2} \frac{1}{(1+x)^2}\,\textrm{d}x$
+2. $\displaystyle \int_{-\infty}^{-2} \frac{1}{(1+x)^2}\,\text{d}x$
 
-3. $\displaystyle \int_{1}^\infty \dfrac{1}{x^3} \,\textrm{d}x$
+3. $\displaystyle \int_{1}^\infty \dfrac{1}{x^3} \,\text{d}x$
 
 #### Explanation
 

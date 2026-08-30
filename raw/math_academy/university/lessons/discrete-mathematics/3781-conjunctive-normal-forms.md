@@ -127,7 +127,7 @@ $$
 
 
 
-\begin{aligned}(\overset{𝑥_{3}}{}⇒𝑥_{2})∧(𝑥_{1}⇒𝑥_{2}) & ≡(\overset{\overset{𝑥_{3}}{}}{}∨𝑥_{2})∧(𝑥_{1}⇒𝑥_{2}) \\ & ≡(\overset{\overset{𝑥_{3}}{}}{}∨𝑥_{2})∧(\overset{𝑥_{1}}{}∨𝑥_{2})\end{aligned}
+\begin{aligned}(\overset{𝑥_{3}}{}⇒𝑥_{2})∧(𝑥_{1}⇒𝑥_{2}) & ≡(\overset{𝑥_{3}}{}}{}∨𝑥_{2})∧(𝑥_{1}⇒𝑥_{2}) \\ & ≡(\overset{𝑥_{3}}{}}{}∨𝑥_{2})∧(\overset{𝑥_{1}}{}∨𝑥_{2})\end{aligned}
 
 
 

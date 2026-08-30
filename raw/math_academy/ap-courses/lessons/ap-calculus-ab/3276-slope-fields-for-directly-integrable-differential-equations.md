@@ -115,7 +115,7 @@ the slope field does not vary with $y$ (for a fixed value of $x$).
 
 #### Question
 
-Consider the differential equation $\dfrac{\textrm{d}y}{\textrm{d}x} = x^2 + 2x$ and its slope field. Which of the following statements are true?
+Consider the differential equation $\dfrac{\text{d}y}{\text{d}x} = x^2 + 2x$ and its slope field. Which of the following statements are true?
 
 1. At every point along the line $x=-1,$ the slope of the slope field does not vary
 

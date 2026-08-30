@@ -115,7 +115,7 @@ we substitute $y = z + y_0.$ Then
 $$
 
 
-\begin{aligned}𝑦^{′} & =𝑧^{′}(𝑥)+𝑦_{′0}^{}(𝑥) \\ & =𝑎(𝑧+𝑦_{0})^{2}+𝑏(𝑧+𝑦_{0})+𝑐 \\ & =𝑎𝑧^{2}+2𝑎𝑧𝑦_{0}+𝑎𝑦_{20}^{}+𝑏𝑧+𝑏𝑦_{0}+𝑐.\end{aligned}
+\begin{aligned}𝑦^{′} & =𝑧^{′}(𝑥)+𝑦_{′0}(𝑥) \\ & =𝑎(𝑧+𝑦_{0})^{2}+𝑏(𝑧+𝑦_{0})+𝑐 \\ & =𝑎𝑧^{2}+2𝑎𝑧𝑦_{0}+𝑎𝑦_{20}+𝑏𝑧+𝑏𝑦_{0}+𝑐.\end{aligned}
 
 
 $$
@@ -145,7 +145,7 @@ This is a Bernoulli equation of the form
 $$
 
 
-\frac{ \textrm{d} z}{\textrm{d}x} + P(x)z = Q(x)z^n,
+\frac{ \text{d} z}{\text{d}x} + P(x)z = Q(x)z^n,
 
 
 $$
@@ -181,7 +181,7 @@ Express this equation in the Bernoulli form
 $$
 
 
-\frac{\textrm{d}z}{\textrm{d}x} + P(x)z = Q(x)z^n
+\frac{\text{d}z}{\text{d}x} + P(x)z = Q(x)z^n
 
 
 $$
@@ -255,7 +255,7 @@ This is a Bernoulli equation of the form
 $$
 
 
-\frac{ \textrm{d} z}{\textrm{d}x} + P(x)z = Q(x)z^n
+\frac{ \text{d} z}{\text{d}x} + P(x)z = Q(x)z^n
 
 
 $$

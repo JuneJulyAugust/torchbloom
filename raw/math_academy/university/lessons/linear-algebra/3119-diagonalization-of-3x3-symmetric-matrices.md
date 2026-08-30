@@ -62,7 +62,7 @@ This matrix is symmetric. So let's apply our diagonalization algorithm.
 $$
 
 
-\begin{aligned}\frac{\sqrt{√3}}{3} & \frac{\sqrt{√2}}{2} & \,∗\, \\ \frac{\sqrt{√3}}{3} & 0 & \,∗\, \\ \frac{\sqrt{√3}}{3} & −\frac{\sqrt{√2}}{2} & \,∗\,\end{aligned}
+\begin{aligned}\frac{\sqrt{3}}{3} & \frac{\sqrt{2}}{2} & \,∗\, \\ \frac{\sqrt{3}}{3} & 0 & \,∗\, \\ \frac{\sqrt{3}}{3} & −\frac{\sqrt{2}}{2} & \,∗\,\end{aligned}
 
 
 $$
@@ -99,7 +99,7 @@ Since $A=PDP^T$ is an orthogonal diagonalization of a $3\times 3$ symmetric matr
 
 - the norm of the third column must be equal to $1.$
 
-Among the given options, only the vector $\begin{aligned}\frac{\sqrt{√6}}{6} \\ −\frac{\sqrt{√6}}{3} \\ \frac{\sqrt{√6}}{6}\end{aligned}$ has both properties.
+Among the given options, only the vector $\begin{aligned}\frac{\sqrt{6}}{6} \\ −\frac{\sqrt{6}}{3} \\ \frac{\sqrt{6}}{6}\end{aligned}$ has both properties.
 
 ### Example: Orthogonally Diagonalizing a 3x3 Matrix With Distinct Eigenvalues
 
@@ -148,7 +148,7 @@ Now, we need to find an eigenvector that corresponds to $\lambda_3=4.$ Computing
 $$
 
 
-\begin{aligned}𝐴−4𝐼 & =\begin{aligned}1 & 1 & −1 \\ 1 & 1 & −1 \\ −1 & −1 & 3\end{aligned}−4\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{aligned}=\begin{aligned}−3 & 1 & −1 \\ 1 & −3 & −1 \\ −1 & −1 & −1\end{aligned}.\end{aligned}
+\begin{aligned}𝐴−4𝐼 & =\begin{matrix}1 & 1 & −1 \\ 1 & 1 & −1 \\ −1 & −1 & 3\end{matrix}−4\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{matrix}=\begin{matrix}−3 & 1 & −1 \\ 1 & −3 & −1 \\ −1 & −1 & −1\end{matrix}.\end{aligned}
 
 
 $$
@@ -254,7 +254,7 @@ Now, we need to find eigenvectors that correspond to $\lambda_1=\lambda_2=-1.$ C
 $$
 
 
-\begin{aligned}𝐴−(−1)𝐼 & =\begin{aligned}3 & 2 & 4 \\ 2 & 0 & 2 \\ 4 & 2 & 3\end{aligned}+\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{aligned}=\begin{aligned}4 & 2 & 4 \\ 2 & 1 & 2 \\ 4 & 2 & 4\end{aligned}.\end{aligned}
+\begin{aligned}𝐴−(−1)𝐼 & =\begin{matrix}3 & 2 & 4 \\ 2 & 0 & 2 \\ 4 & 2 & 3\end{matrix}+\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{matrix}=\begin{matrix}4 & 2 & 4 \\ 2 & 1 & 2 \\ 4 & 2 & 4\end{matrix}.\end{aligned}
 
 
 $$
@@ -278,7 +278,7 @@ and we find $\mathbf{e}_2$ as follows:
 $$
 
 
-\begin{aligned}𝐞_{2} & =𝐯_{2}−\frac{𝐯_{2}⋅𝐞_{1}}{𝐞_{1}⋅𝐞_{1}}𝐞_{1} \\ & =𝐯_{2}−\frac{1}{5}𝐞_{1} \\ & =\begin{aligned}−1 \\ 0 \\ 1\end{aligned}−\frac{1}{5}\begin{aligned}−1 \\ 2 \\ 0\end{aligned} \\ & =\begin{aligned}−\frac{4}{5} \\ −\frac{2}{5} \\ 1\end{aligned}\end{aligned}
+\begin{aligned}𝐞_{2} & =𝐯_{2}−\frac{𝐯_{2}⋅𝐞_{1}}{𝐞_{1}⋅𝐞_{1}}𝐞_{1} \\ & =𝐯_{2}−\frac{1}{5}𝐞_{1} \\ & =\begin{matrix}−1 \\ 0 \\ 1\end{matrix}−\frac{1}{5}\begin{matrix}−1 \\ 2 \\ 0\end{matrix} \\ & =\begin{matrix}−\frac{4}{5} \\ −\frac{2}{5} \\ 1\end{matrix}\end{aligned}
 
 
 $$
@@ -288,7 +288,7 @@ Finally, dividing $\mathbf{e}_1$ and $\mathbf{e}_2$ by their respective norms, w
 $$
 
 
-\begin{aligned}\frac{𝐞_{1}}{‖𝐞_{1}‖} & =\frac{1}{\sqrt{√5}}\begin{aligned}−1 \\ 2 \\ 0\end{aligned}=\begin{aligned}−\frac{\sqrt{√5}}{5} \\ \frac{2\sqrt{√5}}{5} \\ 0\end{aligned} \\ \frac{𝐞_{2}}{‖𝐞_{2}‖} & =\frac{\sqrt{√5}}{3}\begin{aligned}−\frac{4}{5} \\ −\frac{2}{5} \\ 1\end{aligned}=\begin{aligned}−\frac{4\sqrt{√5}}{15} \\ −\frac{2\sqrt{√5}}{15} \\ \frac{\sqrt{√5}}{3}\end{aligned}\end{aligned}
+\begin{aligned}\frac{𝐞_{1}}{‖𝐞_{1}‖} & =\frac{1}{\sqrt{5}}\begin{matrix}−1 \\ 2 \\ 0\end{matrix}=\begin{matrix}−\frac{\sqrt{5}}{5} \\ \frac{2\sqrt{5}}{5} \\ 0\end{matrix} \\ \frac{𝐞_{2}}{‖𝐞_{2}‖} & =\frac{\sqrt{5}}{3}\begin{matrix}−\frac{4}{5} \\ −\frac{2}{5} \\ 1\end{matrix}=\begin{matrix}−\frac{4\sqrt{5}}{15} \\ −\frac{2\sqrt{5}}{15} \\ \frac{\sqrt{5}}{3}\end{matrix}\end{aligned}
 
 
 $$

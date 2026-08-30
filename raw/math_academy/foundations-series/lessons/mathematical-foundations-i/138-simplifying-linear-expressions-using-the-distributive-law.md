@@ -29,7 +29,7 @@ Our first step is to distribute the $3$ over each of the terms in the parenthese
 $$
 
 
-\begin{aligned} 3(x + 2) + 4x &= \\\[5pt] 3\cdot x + 3\cdot 2 + 4x &= \\\[5pt] (3x) + (6) + 4x &= \\\[5pt] 3x +6 + 4x & \end{aligned}
+\begin{aligned} 3(x + 2) + 4x &= \\[5pt] 3\cdot x + 3\cdot 2 + 4x &= \\[5pt] (3x) + (6) + 4x &= \\[5pt] 3x +6 + 4x & \end{aligned}
 
 
 $$
@@ -57,7 +57,7 @@ First, we distribute the $3$ over each of the terms in parentheses.
 $$
 
 
-\begin{aligned} (4+c)\cdot 3-8 &= \\\[5pt] 4\cdot3+c\cdot 3-8 &= \\\[5pt] (12)+(3c)-8 &= \\\[5pt] 12+3c-8 & \end{aligned}
+\begin{aligned} (4+c)\cdot 3-8 &= \\[5pt] 4\cdot3+c\cdot 3-8 &= \\[5pt] (12)+(3c)-8 &= \\[5pt] 12+3c-8 & \end{aligned}
 
 
 $$
@@ -67,7 +67,7 @@ Then, we collect like terms.
 $$
 
 
-\begin{aligned} 12+3c-8 &= \\\[5pt] 3c +(12-8)&= \\\[5pt] 3c+4 \end{aligned}
+\begin{aligned} 12+3c-8 &= \\[5pt] 3c +(12-8)&= \\[5pt] 3c+4 \end{aligned}
 
 
 $$
@@ -85,7 +85,7 @@ First, we distribute the $(-4)$ over each of the terms in parentheses.
 $$
 
 
-\begin{aligned}\begin{aligned}(−4)(8𝑥+7𝑦)+30𝑦 & = \\ (−4)⋅8𝑥+(−4)⋅7𝑦+30𝑦 & = \\ (−32𝑥)+(−28𝑦)+30𝑦 & = \\ −32𝑥−28𝑦+30𝑦 & \end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}(−4)(8𝑥+7𝑦)+30𝑦 & = \\ (−4)⋅8𝑥+(−4)⋅7𝑦+30𝑦 & = \\ (−32𝑥)+(−28𝑦)+30𝑦 & = \\ −32𝑥−28𝑦+30𝑦 & \end{matrix}\end{aligned}
 
 
 $$
@@ -95,7 +95,7 @@ Then, we collect like terms.
 $$
 
 
-\begin{aligned}\begin{aligned}−32𝑥−28𝑦+30𝑦 & = \\ −32𝑥+(−28𝑦+30𝑦) & = \\ −32𝑥+2𝑦 & \end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}−32𝑥−28𝑦+30𝑦 & = \\ −32𝑥+(−28𝑦+30𝑦) & = \\ −32𝑥+2𝑦 & \end{matrix}\end{aligned}
 
 
 $$

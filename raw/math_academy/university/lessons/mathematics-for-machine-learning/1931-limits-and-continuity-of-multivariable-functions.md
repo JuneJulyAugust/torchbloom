@@ -212,7 +212,7 @@ However, we can simplify the limit by first multiplying the numerator and denomi
 $$
 
 
-\begin{aligned}\underset{𝐱→(2,1)}{lim}\frac{𝑥^{2}−4𝑦}{𝑥−2\sqrt{√𝑦}} & =\underset{𝐱→(2,1)}{lim}\frac{(𝑥^{2}−4𝑦)(𝑥+2\sqrt{√𝑦})}{(𝑥−2\sqrt{√𝑦})(𝑥+2\sqrt{√𝑦})} \\ & =\underset{𝐱→(2,1)}{lim}\frac{(𝑥^{2}−4𝑦)(𝑥+2\sqrt{√𝑦})}{𝑥^{2}−(2\sqrt{√𝑦})^{2}} \\ & =\underset{𝐱→(2,1)}{lim}\frac{(𝑥^{2}−4𝑦)(𝑥+2\sqrt{√𝑦})}{𝑥^{2}−4𝑦} \\ & =\underset{𝐱→(2,1)}{lim}(𝑥+2\sqrt{√𝑦})\end{aligned}
+\begin{aligned}\underset{𝐱→(2,1)}{lim}\frac{𝑥^{2}−4𝑦}{𝑥−2\sqrt{𝑦}} & =\underset{𝐱→(2,1)}{lim}\frac{(𝑥^{2}−4𝑦)(𝑥+2\sqrt{𝑦})}{(𝑥−2\sqrt{𝑦})(𝑥+2\sqrt{𝑦})} \\ & =\underset{𝐱→(2,1)}{lim}\frac{(𝑥^{2}−4𝑦)(𝑥+2\sqrt{𝑦})}{𝑥^{2}−(2\sqrt{𝑦})^{2}} \\ & =\underset{𝐱→(2,1)}{lim}\frac{(𝑥^{2}−4𝑦)(𝑥+2\sqrt{𝑦})}{𝑥^{2}−4𝑦} \\ & =\underset{𝐱→(2,1)}{lim}(𝑥+2\sqrt{𝑦})\end{aligned}
 
 
 $$
@@ -222,7 +222,7 @@ Now that the limit has been simplified, we can evaluate it:
 $$
 
 
-\begin{aligned}\underset{𝐱→(2,1)}{lim}(𝑥+2\sqrt{√𝑦}) & =2+2\sqrt{√1} \\ & =2+2 \\ & =4\end{aligned}
+\begin{aligned}\underset{𝐱→(2,1)}{lim}(𝑥+2\sqrt{𝑦}) & =2+2\sqrt{1} \\ & =2+2 \\ & =4\end{aligned}
 
 
 $$

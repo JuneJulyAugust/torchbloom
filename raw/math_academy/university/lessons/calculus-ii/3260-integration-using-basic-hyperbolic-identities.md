@@ -27,7 +27,7 @@ To demonstrate, consider the Pythagorean trigonometric identity:
 $$
 
 
-\newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \newcommand{\cosh}{\mathop{\rm cosh}\nolimits} \newcommand{\sinh}{\mathop{\rm sinh}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \cos^2 x \:{\color{blue}{\boldsymbol +}}\: \sin^2 x = 1
+\cos^2 x \:{\color{blue}{\boldsymbol +}}\: \sin^2 x = 1
 
 
 $$
@@ -63,7 +63,7 @@ To demonstrate, consider the following trigonometric identity:
 $$
 
 
-\newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \newcommand{\cosh}{\mathop{\rm cosh}\nolimits} \newcommand{\sinh}{\mathop{\rm sinh}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} 1 \:{\color{blue}{\boldsymbol +}}\: \tan^2 x = \sec^2 x
+1 \:{\color{blue}{\boldsymbol +}}\: \tan^2 x = \sec^2 x
 
 
 $$
@@ -97,7 +97,7 @@ Thus, the corresponding hyperbolic identity is
 $$
 
 
-1 \:{\color{red}{\boldsymbol -}}\: \tanh^2 x = \sech^2 x.
+1 \:{\color{red}{\boldsymbol -}}\: \tanh^2 x = \operatorname{sech}^2 x.
 
 
 $$
@@ -106,11 +106,11 @@ $$
 
 #### Question
 
-$\newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \newcommand{\cosh}{\mathop{\rm cosh}\nolimits} \newcommand{\sinh}{\mathop{\rm sinh}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits}$Find a hyperbolic identity that corresponds to the trigonometric identity $1 + \cot^2{x} = \csc^2{x}.$
+$$Find a hyperbolic identity that corresponds to the trigonometric identity $1 + \cot^2{x} = \csc^2{x}.$
 
 #### Explanation
 
-$\newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \newcommand{\cosh}{\mathop{\rm cosh}\nolimits} \newcommand{\sinh}{\mathop{\rm sinh}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits}$Osborn's rule allows us to construct a hyperbolic identity from a corresponding trigonometric identity.
+$$Osborn's rule allows us to construct a hyperbolic identity from a corresponding trigonometric identity.
 
 To apply Osborn's rule, we follow two steps:
 
@@ -133,7 +133,7 @@ Notice that
 $$
 
 
-\cot^2{x} = \dfrac{\cos^2{x}}{\sin^2{x}} \qquad \textrm{and} \qquad \csc^2{x} = \dfrac{1}{\sin^2{x}}
+\cot^2{x} = \dfrac{\cos^2{x}}{\sin^2{x}} \qquad \text{and} \qquad \csc^2{x} = \dfrac{1}{\sin^2{x}}
 
 
 $$
@@ -143,7 +143,7 @@ and thus, we have two products of sines. Therefore, the corresponding hyperbolic
 $$
 
 
-1 \,{\mathbf{\color{red}{-}}}\, \coth^2{x} = {\mathbf{\color{red}{-}}}\,\csch^2{x}.
+1 \,{\mathbf{\color{red}{-}}}\, \coth^2{x} = {\mathbf{\color{red}{-}}}\,\operatorname{csch}^2{x}.
 
 
 $$
@@ -155,7 +155,7 @@ Suppose we want to calculate the integral
 $$
 
 
-\newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \int \dfrac{1}{\sinh^2 x}\,\textrm{d}x.
+\int \dfrac{1}{\sinh^2 x}\,\text{d}x.
 
 
 $$
@@ -165,7 +165,7 @@ First, we note the following hyperbolic identity:
 $$
 
 
-\csch{x} = \dfrac{1}{\sinh{x}}
+\operatorname{csch}{x} = \dfrac{1}{\sinh{x}}
 
 
 $$
@@ -175,7 +175,7 @@ Therefore, we can write our integral as
 $$
 
 
-\int \dfrac{1}{\sinh^2{x}} \,\textrm{d}x = \int \left(\dfrac{1}{\sinh{x}}\right)^2 \,\textrm{d}x = \int \csch^2{x} \,\textrm{d}x.
+\int \dfrac{1}{\sinh^2{x}} \,\text{d}x = \int \left(\dfrac{1}{\sinh{x}}\right)^2 \,\text{d}x = \int \operatorname{csch}^2{x} \,\text{d}x.
 
 
 $$
@@ -185,7 +185,7 @@ From here, we can see that this is just a standard hyperbolic integral:
 $$
 
 
-\int \dfrac{1}{\sinh^2{x}}\,\textrm{d}x = \int \csch^2{x}\,\textrm{d}x = -\coth{x} + C
+\int \dfrac{1}{\sinh^2{x}}\,\text{d}x = \int \operatorname{csch}^2{x}\,\text{d}x = -\coth{x} + C
 
 
 $$
@@ -194,14 +194,11 @@ $$
 
 #### Question
 
-$\newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \newcommand{\cosh}{\mathop{\rm cosh}\nolimits} \newcommand{\sinh}{\mathop{\rm sinh}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits}$ Evaluate $\displaystyle \int _{-1}^{1} \coth{x}\sinh{x}\,\textrm d x.$
+$$ Evaluate $\displaystyle \int _{-1}^{1} \coth{x}\sinh{x}\,\textrm d x.$
 
 #### Explanation
 
 $$
-
-
-\newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \newcommand{\cosh}{\mathop{\rm cosh}\nolimits} \newcommand{\sinh}{\mathop{\rm sinh}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits}
 
 
 $$
@@ -231,7 +228,7 @@ Now, we rewrite the integral using the above identity, as follows:
 $$
 
 
-\begin{aligned}∫_{1−1}^{}coth⁡𝑥sinh⁡𝑥\,d𝑥 & =∫_{1−1}^{}\frac{cosh⁡𝑥}{sinh⁡𝑥}⋅sinh⁡𝑥\,d𝑥 \\ & =∫_{1−1}^{}cosh⁡𝑥\,d𝑥 \\ & =sinh⁡𝑥\,_{1−1}^{} \\ & =sinh⁡(1)−sinh⁡(−1) \\ & =\frac{𝑒^{1}−𝑒^{−1}}{2}−\frac{𝑒^{−1}−𝑒^{−(−1)}}{2} \\ & =\frac{𝑒^{1}−𝑒^{−1}−𝑒^{−1}+𝑒^{1}}{2} \\ & =\frac{2𝑒−2𝑒^{−1}}{2} \\ & =𝑒−𝑒^{−1}.\end{aligned}
+\begin{aligned}∫_{1−1}coth⁡𝑥sinh⁡𝑥\,d𝑥 & =∫_{1−1}\frac{cosh⁡𝑥}{sinh⁡𝑥}⋅sinh⁡𝑥\,d𝑥 \\ & =∫_{1−1}cosh⁡𝑥\,d𝑥 \\ & =sinh⁡𝑥\,_{1−1} \\ & =sinh⁡(1)−sinh⁡(−1) \\ & =\frac{𝑒^{1}−𝑒^{−1}}{2}−\frac{𝑒^{−1}−𝑒^{−(−1)}}{2} \\ & =\frac{𝑒^{1}−𝑒^{−1}−𝑒^{−1}+𝑒^{1}}{2} \\ & =\frac{2𝑒−2𝑒^{−1}}{2} \\ & =𝑒−𝑒^{−1}.\end{aligned}
 
 
 $$
@@ -240,16 +237,16 @@ $$
 
 #### Question
 
-$\newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\sinh}{\mathop{\rm sinh}\nolimits} \newcommand{\cosh}{\mathop{\rm cosh}\nolimits} \newcommand{\tanh}{\mathop{\rm tanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$Evaluate $\displaystyle \int _{-1}^{1} \dfrac{\tanh^2{x}}{2\sinh^2 x} \,\textrm d x.$
+$$Evaluate $\displaystyle \int _{-1}^{1} \dfrac{\tanh^2{x}}{2\sinh^2 x} \,\textrm d x.$
 
 #### Explanation
 
-$\newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\sinh}{\mathop{\rm sinh}\nolimits} \newcommand{\cosh}{\mathop{\rm cosh}\nolimits} \newcommand{\tanh}{\mathop{\rm tanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$First, we write our integral as
+$$First, we write our integral as
 
 $$
 
 
-\int _{-1}^{1} \dfrac{\tanh^2{x}}{2\sinh^2 x}\textrm{d}x = \dfrac{1}{2}\int _{-1}^{1} \dfrac{1}{\sinh^2{x}}\cdot \tanh^2{x} \, \textrm{d}x.
+\int _{-1}^{1} \dfrac{\tanh^2{x}}{2\sinh^2 x}\text{d}x = \dfrac{1}{2}\int _{-1}^{1} \dfrac{1}{\sinh^2{x}}\cdot \tanh^2{x} \, \text{d}x.
 
 
 $$
@@ -279,7 +276,7 @@ Then, we use the above identity to write the integral as follows:
 $$
 
 
-\begin{aligned}\frac{1}{2}∫_{1−1}^{}\frac{1}{sinh^{2}⁡𝑥}⋅tanh^{2}⁡𝑥\,d𝑥 & =\frac{1}{2}∫_{1−1}^{}\frac{1}{sinh^{2}⁡𝑥}⋅\frac{sinh^{2}⁡𝑥}{cosh^{2}⁡𝑥}\,d𝑥 \\ & =\frac{1}{2}∫_{1−1}^{}\frac{sinh^{2}⁡𝑥}{sinh^{2}⁡𝑥}⋅\frac{1}{cosh^{2}⁡𝑥}\,d𝑥 \\ & =\frac{1}{2}∫_{1−1}^{}\frac{1}{cosh^{2}⁡𝑥}\,d𝑥 \\ & =\frac{1}{2}∫_{1−1}^{}sech^{2}⁡𝑥 \\ & =\frac{1}{2}tanh⁡𝑥_{1−1}^{} \\ & =\frac{1}{2}(tanh⁡(1)−tanh⁡(−1)) \\ & =\frac{1}{2}(\frac{𝑒−𝑒^{−1}}{𝑒+𝑒^{−1}}−\frac{𝑒^{−1}−𝑒}{𝑒^{−1}+𝑒}) \\ & =\frac{1}{2}(\frac{𝑒^{2}−1}{𝑒^{2}+1}−\frac{1−𝑒^{2}}{1+𝑒^{2}}) \\ & =\frac{1}{2}(2⋅\frac{𝑒^{2}−1}{𝑒^{2}+1}) \\ & =\frac{𝑒^{2}−1}{𝑒^{2}+1}\end{aligned}
+\begin{aligned}\frac{1}{2}∫_{1−1}\frac{1}{sinh^{2}⁡𝑥}⋅tanh^{2}⁡𝑥\,d𝑥 & =\frac{1}{2}∫_{1−1}\frac{1}{sinh^{2}⁡𝑥}⋅\frac{sinh^{2}⁡𝑥}{cosh^{2}⁡𝑥}\,d𝑥 \\ & =\frac{1}{2}∫_{1−1}\frac{sinh^{2}⁡𝑥}{sinh^{2}⁡𝑥}⋅\frac{1}{cosh^{2}⁡𝑥}\,d𝑥 \\ & =\frac{1}{2}∫_{1−1}\frac{1}{cosh^{2}⁡𝑥}\,d𝑥 \\ & =\frac{1}{2}∫_{1−1}sech^{2}⁡𝑥 \\ & =\frac{1}{2}tanh⁡𝑥_{1−1} \\ & =\frac{1}{2}(tanh⁡(1)−tanh⁡(−1)) \\ & =\frac{1}{2}(\frac{𝑒−𝑒^{−1}}{𝑒+𝑒^{−1}}−\frac{𝑒^{−1}−𝑒}{𝑒^{−1}+𝑒}) \\ & =\frac{1}{2}(\frac{𝑒^{2}−1}{𝑒^{2}+1}−\frac{1−𝑒^{2}}{1+𝑒^{2}}) \\ & =\frac{1}{2}(2⋅\frac{𝑒^{2}−1}{𝑒^{2}+1}) \\ & =\frac{𝑒^{2}−1}{𝑒^{2}+1}\end{aligned}
 
 
 $$
@@ -288,7 +285,7 @@ $$
 
 #### Question
 
-Evaluate $\newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \displaystyle{\int_{0}^{\ln 3} \tanh x \, \textrm{d}x}.$
+Evaluate $\displaystyle{\int_{0}^{\ln 3} \tanh x \, \text{d}x}.$
 
 #### Explanation
 
@@ -297,7 +294,7 @@ First, we find the hyperbolic identity that corresponds to the following trigono
 $$
 
 
-\newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \tan{x} = \dfrac{\sin{x}}{\cos{x}}
+\tan{x} = \dfrac{\sin{x}}{\cos{x}}
 
 
 $$
@@ -317,7 +314,7 @@ Now, we rewrite the integral as follows:
 $$
 
 
-\begin{aligned}∫_{ln⁡30}^{}tanh⁡𝑥\,d𝑥 & =∫_{ln⁡30}^{}\frac{sinh⁡𝑥}{cosh⁡𝑥}\,d𝑥\end{aligned}
+\begin{aligned}∫_{ln⁡30}tanh⁡𝑥\,d𝑥 & =∫_{ln⁡30}\frac{sinh⁡𝑥}{cosh⁡𝑥}\,d𝑥\end{aligned}
 
 
 $$
@@ -327,7 +324,7 @@ We can solve this by substitution. Let $u = \cosh{x}.$ Then,
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x} = \sinh{x} \quad \Longrightarrow \quad \textrm{d}u = \sinh{x} \, \textrm d x.
+\dfrac{\text{d}u}{\text{d}x} = \sinh{x} \quad \Longrightarrow \quad \text{d}u = \sinh{x} \, \textrm d x.
 
 
 $$
@@ -339,7 +336,7 @@ Now, we evaluate the integral, as follows:
 $$
 
 
-\begin{aligned}∫_{ln⁡30}^{}\frac{sinh⁡𝑥}{cosh⁡𝑥}\,d𝑥 & =∫_{5/31}^{}\frac{1}{𝑢}\,d𝑢 \\ & =ln⁡|𝑢|_{5/31}^{} \\ & =ln⁡(\frac{5}{3})−ln⁡1 \\ & =ln⁡(\frac{5}{3})\end{aligned}
+\begin{aligned}∫_{ln⁡30}\frac{sinh⁡𝑥}{cosh⁡𝑥}\,d𝑥 & =∫_{5/31}\frac{1}{𝑢}\,d𝑢 \\ & =ln⁡|𝑢|_{5/31} \\ & =ln⁡(\frac{5}{3})−ln⁡1 \\ & =ln⁡(\frac{5}{3})\end{aligned}
 
 
 $$

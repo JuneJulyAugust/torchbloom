@@ -178,7 +178,7 @@ First, we find the roots of the parabola using the quadratic formula:
 $$
 
 
-\begin{aligned}𝑛_{1,2} & =\frac{−(−25)±\sqrt{√(−25)^{2}−4(3)(−10)}}{2(3)} \\ & =\frac{25±\sqrt{√745}}{6}\end{aligned}
+\begin{aligned}𝑛_{1,2} & =\frac{−(−25)±\sqrt{(−25)^{2}−4(3)(−10)}}{2(3)} \\ & =\frac{25±\sqrt{745}}{6}\end{aligned}
 
 
 $$

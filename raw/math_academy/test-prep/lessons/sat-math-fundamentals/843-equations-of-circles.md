@@ -144,7 +144,7 @@ The length of the radius is
 $$
 
 
-\begin{aligned}𝐶𝑋 & =\sqrt{√(2−(−1))^{2}+(0−4)^{2}} \\ & =\sqrt{√3^{2}+4^{2}} \\ & =\sqrt{√25} \\ & =5.\end{aligned}
+\begin{aligned}𝐶𝑋 & =\sqrt{(2−(−1))^{2}+(0−4)^{2}} \\ & =\sqrt{3^{2}+4^{2}} \\ & =\sqrt{25} \\ & =5.\end{aligned}
 
 
 $$
@@ -184,7 +184,7 @@ Using the distance formula to compute the distance between the points $X(3,4)$ a
 $$
 
 
-\begin{aligned}𝑋𝑌 & =\sqrt{√(−1−3)^{2}+(2−4)^{2}} \\ & =\sqrt{√4^{2}+2^{2}} \\ & =\sqrt{√20} \\ & =2\sqrt{√5}.\end{aligned}
+\begin{aligned}𝑋𝑌 & =\sqrt{(−1−3)^{2}+(2−4)^{2}} \\ & =\sqrt{4^{2}+2^{2}} \\ & =\sqrt{20} \\ & =2\sqrt{5}.\end{aligned}
 
 
 $$
@@ -214,7 +214,7 @@ So our circle has radius $r=\sqrt{5}$ and center $(a,b)=(1,3),$ and therefore it
 $$
 
 
-\begin{aligned}(𝑥−𝑎)^{2}+(𝑦−𝑏)^{2} & =𝑟^{2} \\ (𝑥−1)^{2}+(𝑦−3)^{2} & =(\sqrt{√5})^{2} \\ (𝑥−1)^{2}+(𝑦−3)^{2} & =5\end{aligned}
+\begin{aligned}(𝑥−𝑎)^{2}+(𝑦−𝑏)^{2} & =𝑟^{2} \\ (𝑥−1)^{2}+(𝑦−3)^{2} & =(\sqrt{5})^{2} \\ (𝑥−1)^{2}+(𝑦−3)^{2} & =5\end{aligned}
 
 
 $$

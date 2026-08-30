@@ -25,7 +25,7 @@ The area of each tile is the product of the two side lengths. Therefore, the are
 
 $$
 
-\dfrac{1}{4} \times \dfrac{1}{4}\;\textrm{square units}.
+\dfrac{1}{4} \times \dfrac{1}{4}\;\text{square units}.
 
 $$
 
@@ -47,7 +47,7 @@ The area of each tile is
 
 $$
 
-\dfrac{1}{2} \times \dfrac{1}{3}\;\textrm{square units}.
+\dfrac{1}{2} \times \dfrac{1}{3}\;\text{square units}.
 
 $$
 
@@ -57,7 +57,7 @@ Another way of computing the area of a part of a unit square is to realize that 
 
 $$
 
-\textrm{area of a single tile} = \dfrac{1}{\textrm{number of tiles}}.
+\text{area of a single tile} = \dfrac{1}{\text{number of tiles}}.
 
 $$
 
@@ -75,7 +75,7 @@ Since $10$ tiles are shaded, the total shaded area is:
 
 $$
 
-10\times\dfrac{1}{49} = \dfrac{10}{49} \,\textrm{square units}.
+10\times\dfrac{1}{49} = \dfrac{10}{49} \,\text{square units}.
 
 $$
 
@@ -97,7 +97,7 @@ Since each tile has an area of $\dfrac{1}{36}$ square units, the area of the sha
 
 $$
 
-25\times\dfrac{1}{36} = \dfrac{25}{36}\;\textrm{square units}.
+25\times\dfrac{1}{36} = \dfrac{25}{36}\;\text{square units}.
 
 $$
 
@@ -117,7 +117,7 @@ Finally, we find the area of the shaded rectangle by multiplying the lengths of 
 
 $$
 
-\dfrac{4}{7} \times \dfrac{6}{7}\,\,\textrm{square units}.
+\dfrac{4}{7} \times \dfrac{6}{7}\,\,\text{square units}.
 
 $$
 
@@ -141,7 +141,7 @@ Finally, we find the area of the shaded rectangle by multiplying the lengths of 
 
 $$
 
-\dfrac{3}{4} \times \dfrac{2}{5}\,\,\textrm{square units}.
+\dfrac{3}{4} \times \dfrac{2}{5}\,\,\text{square units}.
 
 $$
 

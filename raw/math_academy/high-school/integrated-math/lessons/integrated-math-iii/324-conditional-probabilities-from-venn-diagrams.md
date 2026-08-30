@@ -20,7 +20,7 @@ Now, suppose that we wish to calculate the probability that a randomly selected 
 $$
 
 
-P(\textrm{ student likes baseball } | \textrm{ student likes volleyball }).
+P(\text{ student likes baseball } | \text{ student likes volleyball }).
 
 
 $$
@@ -50,7 +50,7 @@ Therefore, the probability that a randomly selected student likes baseball *give
 $$
 
 
-P(\textrm{ student likes baseball } | \textrm{ student likes volleyball }) = \dfrac{30}{50} = \dfrac35.
+P(\text{ student likes baseball } | \text{ student likes volleyball }) = \dfrac{30}{50} = \dfrac35.
 
 
 $$

@@ -16,7 +16,7 @@ Consider the following repeated integral:
 $$
 
 
-\displaystyle \int_0^1 \int_0^{1-x} \int_0^{1-x-y} f(x,y,z) \:\textrm{d}z\:\textrm{d}y\:\textrm{d}x
+\displaystyle \int_0^1 \int_0^{1-x} \int_0^{1-x-y} f(x,y,z) \:\text{d}z\:\text{d}y\:\text{d}x
 
 
 $$
@@ -40,12 +40,12 @@ Suppose we wish to change the order of integration so that we integrate first wi
 $$
 
 
-\int_0^1 \int_0^{1-x} \int_0^{1-x-y} f(x,y,z) \:\textrm{d}z\:\textrm{d}y\:\textrm{d}x = \iint\limits_D \left[ \int_{u_1(x,z)}^{u_2(x,z)} f(x,y,z) \:\textrm{d}y \right] \textrm{d}A.
+\int_0^1 \int_0^{1-x} \int_0^{1-x-y} f(x,y,z) \:\text{d}z\:\text{d}y\:\text{d}x = \iint\limits_D \left[ \int_{u_1(x,z)}^{u_2(x,z)} f(x,y,z) \:\text{d}y \right] \text{d}A.
 
 
 $$
 
-To change the order of integration from $\textrm{d}z\:\textrm{d}y\:\textrm{d}x$ to $\textrm{d}y\:\textrm{d}A,$ we write $R$ as a type III region.
+To change the order of integration from $\text{d}z\:\text{d}y\:\text{d}x$ to $\text{d}y\:\text{d}A,$ we write $R$ as a type III region.
 
 To visualize $R$ as a type III region, imagine firing an arrow through the region parallel to the $y$-axis and in the direction of increasing $y,$ as shown below.
 
@@ -76,7 +76,7 @@ Therefore, by swapping the order of integration so that it is integrated first w
 $$
 
 
-\begin{aligned}∫_{10}^{}∫_{1−𝑥0}^{}∫_{1−𝑥−𝑦0}^{}𝑓(𝑥,𝑦,𝑧)\,d𝑧\,d𝑦\,d𝑥 & =\underset{𝐷}{∬}[∫_{1−𝑥−𝑧0}^{}𝑓(𝑥,𝑦,𝑧)\,d𝑦]d𝐴.\end{aligned}
+\begin{aligned}∫_{10}∫_{1−𝑥0}∫_{1−𝑥−𝑦0}𝑓(𝑥,𝑦,𝑧)\,d𝑧\,d𝑦\,d𝑥 & =\underset{𝐷}{∬}[∫_{1−𝑥−𝑧0}𝑓(𝑥,𝑦,𝑧)\,d𝑦]d𝐴.\end{aligned}
 
 
 $$
@@ -92,7 +92,7 @@ Change the order of integration in the integral
 $$
 
 
-\displaystyle \int_0^1 \int_0^{2} \int_0^{\sqrt[3]{z}} f(x,y,z) \:\textrm{d}y\:\textrm{d}x\:\textrm{d}z
+\displaystyle \int_0^1 \int_0^{2} \int_0^{\sqrt[3]{z}} f(x,y,z) \:\text{d}y\:\text{d}x\:\text{d}z
 
 
 $$
@@ -106,7 +106,7 @@ We wish to find the limits of integration $u_1(x,y)$ and $u_2(x,y)$ such that
 $$
 
 
-\int_0^1 \int_0^{2} \int_0^{\sqrt[3]{z}} f(x,y,z) \:\textrm{d}y\:\textrm{d}x\:\textrm{d}z = \iint\limits_D \left[ \int_{u_1(x,y)}^{u_2(x,y)} f(x,y,z) \:\textrm{d}z\right] \textrm{d}A.
+\int_0^1 \int_0^{2} \int_0^{\sqrt[3]{z}} f(x,y,z) \:\text{d}y\:\text{d}x\:\text{d}z = \iint\limits_D \left[ \int_{u_1(x,y)}^{u_2(x,y)} f(x,y,z) \:\text{d}z\right] \text{d}A.
 
 
 $$
@@ -121,7 +121,7 @@ R = \big\{ (x,y,z) \:\: {:} \:\: 0 \leq x \leq 2, \:\: 0 \leq z \leq 1, \:\: 0 \
 
 $$
 
-To change the order of integration from $\textrm{d}y\:\textrm{d}x\:\textrm{d}z$ to $\textrm{d}z\:\textrm{d}A,$ we write $R$ as a type I region.
+To change the order of integration from $\text{d}y\:\text{d}x\:\text{d}z$ to $\text{d}z\:\text{d}A,$ we write $R$ as a type I region.
 
 To visualize this, imagine firing an arrow through the region parallel to the $z$-axis and in the direction of increasing $z,$ as shown below.
 
@@ -152,7 +152,7 @@ Therefore, by swapping the order of integration so that it is integrated first w
 $$
 
 
-\int_0^1 \int_0^{2} \int_0^{\sqrt[3]{z}} f(x,y,z) \:\textrm{d}y\:\textrm{d}x\:\textrm{d}z = \iint\limits_D \left[\int_{y^3}^{1} f(x,y,z) \:\textrm{d}z\right] \textrm{d}A.
+\int_0^1 \int_0^{2} \int_0^{\sqrt[3]{z}} f(x,y,z) \:\text{d}y\:\text{d}x\:\text{d}z = \iint\limits_D \left[\int_{y^3}^{1} f(x,y,z) \:\text{d}z\right] \text{d}A.
 
 
 $$
@@ -166,7 +166,7 @@ Change the order of integration in the integral
 $$
 
 
-\displaystyle \int_0^{1} \int_0^{1} \int_0^{1-z^2} f(x,y,z) \:\textrm{d}y\:\textrm{d}z\:\textrm{d}x.
+\displaystyle \int_0^{1} \int_0^{1} \int_0^{1-z^2} f(x,y,z) \:\text{d}y\:\text{d}z\:\text{d}x.
 
 
 $$
@@ -180,7 +180,7 @@ We wish to find limits of integration $u_1(x,y),$ $u_2(x,y),$ $v_1(x),$ $v_2(x),
 $$
 
 
-\int_0^{1} \int_0^{1} \int_0^{1-z^2} f(x,y,z) \:\textrm{d}y\:\textrm{d}z\:\textrm{d}x = \int_a^b \int_{v_1(x)}^{v_2(x)} \int_{u_1(x,y)}^{u_2(x,y)} f(x,y,z) \:\textrm{d}z\:\textrm{d}y\:\textrm{d}x.
+\int_0^{1} \int_0^{1} \int_0^{1-z^2} f(x,y,z) \:\text{d}y\:\text{d}z\:\text{d}x = \int_a^b \int_{v_1(x)}^{v_2(x)} \int_{u_1(x,y)}^{u_2(x,y)} f(x,y,z) \:\text{d}z\:\text{d}y\:\text{d}x.
 
 
 $$
@@ -213,7 +213,7 @@ Then, the region $R$ is shown in the diagram below, where $0 \leq y \leq 1-z^2.$
 
 ![Instructional graphic](../../../lesson-assets/multivariable-calculus/topic-4158/f0881dad0f0e1f54.png)
 
-To change the order of integration from $\textrm{d}y\:\textrm{d}z\:\textrm{d}x$ to $\textrm{d}z\:\textrm{d}y\:\textrm{d}x,$ we write $R$ as a type I region and its projection $D$ onto the $xy$-plane as a type I ** region.
+To change the order of integration from $\text{d}y\:\text{d}z\:\text{d}x$ to $\text{d}z\:\text{d}y\:\text{d}x,$ we write $R$ as a type I region and its projection $D$ onto the $xy$-plane as a type I ** region.
 
 To visualize this, imagine firing an arrow through the region parallel to the $z$-axis and in the direction of increasing $z,$ as shown below.
 
@@ -258,7 +258,7 @@ Therefore, by swapping the order of integration so that it is integrated first w
 $$
 
 
-\int_0^{1} \int_0^{1} \int_0^{1-z^2} f(x,y,z) \:\textrm{d}y\:\textrm{d}z\:\textrm{d}x = \int_0^{1} \int_0^{\boxed{1}} \int_{\boxed{0}}^{\boxed{\sqrt{1-y}}} f(x,y,z) \:\textrm{d}z\:\textrm{d}y\:\textrm{d}x.
+\int_0^{1} \int_0^{1} \int_0^{1-z^2} f(x,y,z) \:\text{d}y\:\text{d}z\:\text{d}x = \int_0^{1} \int_0^{\boxed{1}} \int_{\boxed{0}}^{\boxed{\sqrt{1-y}}} f(x,y,z) \:\text{d}z\:\text{d}y\:\text{d}x.
 
 
 $$
@@ -280,7 +280,7 @@ We wish to find the limits of integration $u_1(x,y),$ $u_2(x,y),$ $v_1(y),$ $v_2
 $$
 
 
-\int_{0}^{1} \int_{0}^{2} \int_{z}^{2} e^{x^2} \, \mathrm{d}x \: \mathrm{d}z \: \mathrm{d}y = \int_{a}^{b} \int_{v_1(y)}^{v_2(y)} \int_{u_1(x,y)}^{u_2(x,y)} e^{x^2} \, \textrm{d}z \: \textrm{d}x \: \textrm{d}y.
+\int_{0}^{1} \int_{0}^{2} \int_{z}^{2} e^{x^2} \, \mathrm{d}x \: \mathrm{d}z \: \mathrm{d}y = \int_{a}^{b} \int_{v_1(y)}^{v_2(y)} \int_{u_1(x,y)}^{u_2(x,y)} e^{x^2} \, \text{d}z \: \text{d}x \: \text{d}y.
 
 
 $$
@@ -313,7 +313,7 @@ Then, the region $R$ is shown in the diagram below, where $z \leq x \leq 2.$
 
 ![Instructional graphic](../../../lesson-assets/multivariable-calculus/topic-4158/b8f67b807245c35b.png)
 
-To change the order of integration from $\mathrm{d}x \: \mathrm{d}z \: \mathrm{d}y$ to $\textrm{d}z\:\textrm{d}x\:\textrm{d}y,$ we write $R$ as a type I region and its projection $D$ onto the $xy$-plane as a type II ** region.
+To change the order of integration from $\mathrm{d}x \: \mathrm{d}z \: \mathrm{d}y$ to $\text{d}z\:\text{d}x\:\text{d}y,$ we write $R$ as a type I region and its projection $D$ onto the $xy$-plane as a type II ** region.
 
 To visualize this, imagine firing an arrow through the region parallel to the $z$-axis and in the direction of increasing $z,$ as shown below.
 
@@ -358,7 +358,7 @@ Therefore, by swapping the order of integration, we obtain
 $$
 
 
-\begin{aligned}∫_{10}^{}∫_{20}^{}∫_{2𝑧}^{}𝑒^{𝑥^{2}}\,d𝑥\,d𝑧\,d𝑦 & =∫_{10}^{}∫_{20}^{}∫_{𝑥0}^{}𝑒^{𝑥^{2}}\,d𝑧\,d𝑥\,d𝑦 \\ & =∫_{10}^{}∫_{20}^{}𝑒^{𝑥^{2}}[∫_{𝑥0}^{}d𝑧]d𝑥\,d𝑦 \\ & =∫_{10}^{}∫_{20}^{}𝑒^{𝑥^{2}}[𝑧]_{𝑥0}^{}\,d𝑥\,d𝑦 \\ & =∫_{10}^{}∫_{20}^{}𝑥𝑒^{𝑥^{2}}\,d𝑥\,d𝑦 \\ & =∫_{10}^{}[∫_{20}^{}𝑥𝑒^{𝑥^{2}}\,d𝑥]d𝑦 \\ & =∫_{10}^{}[\frac{1}{2}𝑒^{𝑥^{2}}]_{20}^{}\,d𝑦 \\ & =\frac{1}{2}∫_{10}^{}(𝑒^{4}−1)\,d𝑦 \\ & =\frac{1}{2}(𝑒^{4}−1)⋅[𝑦]_{10}^{} \\ & =\frac{1}{2}(𝑒^{4}−1).\end{aligned}
+\begin{aligned}∫_{10}∫_{20}∫_{2𝑧}𝑒^{𝑥^{2}}\,d𝑥\,d𝑧\,d𝑦 & =∫_{10}∫_{20}∫_{𝑥0}𝑒^{𝑥^{2}}\,d𝑧\,d𝑥\,d𝑦 \\ & =∫_{10}∫_{20}𝑒^{𝑥^{2}}[∫_{𝑥0}d𝑧]d𝑥\,d𝑦 \\ & =∫_{10}∫_{20}𝑒^{𝑥^{2}}[𝑧]_{𝑥0}\,d𝑥\,d𝑦 \\ & =∫_{10}∫_{20}𝑥𝑒^{𝑥^{2}}\,d𝑥\,d𝑦 \\ & =∫_{10}[∫_{20}𝑥𝑒^{𝑥^{2}}\,d𝑥]d𝑦 \\ & =∫_{10}[\frac{1}{2}𝑒^{𝑥^{2}}]_{20}\,d𝑦 \\ & =\frac{1}{2}∫_{10}(𝑒^{4}−1)\,d𝑦 \\ & =\frac{1}{2}(𝑒^{4}−1)⋅[𝑦]_{10} \\ & =\frac{1}{2}(𝑒^{4}−1).\end{aligned}
 
 
 $$

@@ -50,7 +50,7 @@ Differentiating $z(x)$ using the chain rule, we get
 $$
 
 
-\dfrac{\textrm{d}z}{\textrm{d}x} = 1 + \,\dfrac{\textrm{d}y}{\textrm{d}x} \quad\Longrightarrow\quad \dfrac{\textrm{d}y}{\textrm{d}x} = \dfrac{\textrm{d}z}{\textrm{d}x} - 1.
+\dfrac{\text{d}z}{\text{d}x} = 1 + \,\dfrac{\text{d}y}{\text{d}x} \quad\Longrightarrow\quad \dfrac{\text{d}y}{\text{d}x} = \dfrac{\text{d}z}{\text{d}x} - 1.
 
 
 $$
@@ -70,7 +70,7 @@ Expressing this equation in the form $z'(x) = g(z)$ gives
 $$
 
 
-\dfrac{\textrm{d}z}{\textrm{d}x} = z^2+ 1.
+\dfrac{\text{d}z}{\text{d}x} = z^2+ 1.
 
 
 $$
@@ -104,7 +104,7 @@ Consider the differential equation
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x} = \ln(x + y).
+\dfrac{\text{d}y}{\text{d}x} = \ln(x + y).
 
 
 $$
@@ -128,7 +128,7 @@ Differentiating $z(x)$ using the chain rule, we get
 $$
 
 
-\dfrac{\textrm{d}z}{\textrm{d}x} = 1 + \dfrac{\textrm{d}y}{\textrm{d}x} \quad\Longrightarrow\quad \dfrac{\textrm{d}y}{\textrm{d}x} = \dfrac{\textrm{d}z}{\textrm{d}x} - 1.
+\dfrac{\text{d}z}{\text{d}x} = 1 + \dfrac{\text{d}y}{\text{d}x} \quad\Longrightarrow\quad \dfrac{\text{d}y}{\text{d}x} = \dfrac{\text{d}z}{\text{d}x} - 1.
 
 
 $$
@@ -148,7 +148,7 @@ Expressing this equation in the form $z'(x) = f(z),$ we get
 $$
 
 
-\dfrac{\textrm{d}z}{\textrm{d}x} = \ln z+1.
+\dfrac{\text{d}z}{\text{d}x} = \ln z+1.
 
 
 $$
@@ -164,7 +164,7 @@ Consider the differential equation
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x} = x + y.
+\dfrac{\text{d}y}{\text{d}x} = x + y.
 
 
 $$
@@ -198,7 +198,7 @@ Differentiating $z(x)$ using the chain rule, we get
 $$
 
 
-\dfrac{\textrm{d}z}{\textrm{d}x} = 1 + \,\dfrac{\textrm{d}y}{\textrm{d}x} \quad\Longrightarrow\quad \dfrac{\textrm{d}y}{\textrm{d}x} = \dfrac{\textrm{d}z}{\textrm{d}x} - 1.
+\dfrac{\text{d}z}{\text{d}x} = 1 + \,\dfrac{\text{d}y}{\text{d}x} \quad\Longrightarrow\quad \dfrac{\text{d}y}{\text{d}x} = \dfrac{\text{d}z}{\text{d}x} - 1.
 
 
 $$
@@ -218,7 +218,7 @@ Expressing this equation in the form $z'(x) = f(z)$ gives
 $$
 
 
-\dfrac{\textrm{d}z}{\textrm{d}x} = z+1.
+\dfrac{\text{d}z}{\text{d}x} = z+1.
 
 
 $$

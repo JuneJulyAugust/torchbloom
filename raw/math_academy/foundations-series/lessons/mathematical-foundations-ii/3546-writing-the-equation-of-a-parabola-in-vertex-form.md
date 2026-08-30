@@ -205,7 +205,7 @@ Then, we *add* and *then subtract* $\left({\color{blue}\dfrac{b}{2a}}\right)^2{:
 $$
 
 
-\underbrace{x^2+{\color{red}{2}}\cdot {\color{blue}\dfrac{b}{2a}}x + \left({\color{blue}\dfrac{b}{2a}}\right)^2}_{\textrm{perfect square}} - \left({\color{blue}\dfrac{b}{2a}}\right)^2+ {\color{purple}\dfrac{c}{a}}
+\underbrace{x^2+{\color{red}{2}}\cdot {\color{blue}\dfrac{b}{2a}}x + \left({\color{blue}\dfrac{b}{2a}}\right)^2}_{\text{perfect square}} - \left({\color{blue}\dfrac{b}{2a}}\right)^2+ {\color{purple}\dfrac{c}{a}}
 
 
 $$

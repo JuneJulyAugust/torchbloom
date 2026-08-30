@@ -12,7 +12,7 @@ Topic ID: 1362
 
 ### Introduction
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
 Since the hyperbolic functions are defined in terms of exponential functions, we can easily calculate their derivatives.
 
@@ -50,20 +50,20 @@ $$
 
 #### Question
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
 Find the derivative of $y = 3\tanh{x}- \sinh{x}.$
 
 #### Explanation
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
 First, we recall the results for the derivatives of the basic hyperbolic functions:
 
 $$
 
 
-\dfrac{\textrm{d}}{\textrm{d}x} ( \sinh x ) = \cosh x, \quad \dfrac{\textrm{d}}{\textrm{d}x} ( \cosh x ) = \sinh x, \quad \dfrac{\textrm{d}}{\textrm{d}x} ( \tanh x ) = \sech^2 x
+\dfrac{\text{d}}{\text{d}x} ( \sinh x ) = \cosh x, \quad \dfrac{\text{d}}{\text{d}x} ( \cosh x ) = \sinh x, \quad \dfrac{\text{d}}{\text{d}x} ( \tanh x ) = \operatorname{sech}^2 x
 
 
 $$
@@ -82,7 +82,7 @@ $$
 
 #### Question
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
 Find the derivative of $f(x) = \cosh{\sqrt x}.$
 
@@ -103,7 +103,7 @@ The chain rule states that
 $$
 
 
-\dfrac {\textrm{d}f} {\textrm{d}x} = \dfrac {\textrm{d}f} {\textrm{d}g} \cdot \dfrac {\textrm{d}g} {\textrm{d}x}.
+\dfrac {\text{d}f} {\text{d}x} = \dfrac {\text{d}f} {\text{d}g} \cdot \dfrac {\text{d}g} {\text{d}x}.
 
 
 $$
@@ -113,7 +113,7 @@ Differentiating, we have
 $$
 
 
-\dfrac {\textrm{d}f} {\textrm{d}g} = \sinh g,
+\dfrac {\text{d}f} {\text{d}g} = \sinh g,
 
 
 $$
@@ -123,7 +123,7 @@ and
 $$
 
 
-\dfrac {\textrm{d}g} {\textrm{d}x} = \dfrac{1}{2\sqrt x}.
+\dfrac {\text{d}g} {\text{d}x} = \dfrac{1}{2\sqrt x}.
 
 
 $$
@@ -133,7 +133,7 @@ Finally, multiplying the two results together and substituting for $g$ gives
 $$
 
 
-\begin{aligned}\frac{d𝑓}{d𝑥} & =sinh⁡𝑔⋅\frac{1}{2\sqrt{√𝑥}} \\ & =sinh⁡\sqrt{√𝑥}⋅\frac{1}{2\sqrt{√𝑥}} \\ & =\frac{sinh⁡\sqrt{√𝑥}}{2\sqrt{√𝑥}}.\end{aligned}
+\begin{aligned}\frac{d𝑓}{d𝑥} & =sinh⁡𝑔⋅\frac{1}{2\sqrt{𝑥}} \\ & =sinh⁡\sqrt{𝑥}⋅\frac{1}{2\sqrt{𝑥}} \\ & =\frac{sinh⁡\sqrt{𝑥}}{2\sqrt{𝑥}}.\end{aligned}
 
 
 $$
@@ -142,13 +142,13 @@ $$
 
 #### Question
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
 Find the derivative of $f(x) = 2x\tanh{x}.$
 
 #### Explanation
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
 Here, we have the product of two functions $u(x) = 2x$ and $v(x)=\tanh x.$ So, we apply the product rule:
 
@@ -164,13 +164,13 @@ $$
 
 #### Question
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
 Find the derivative of $w(x) = \dfrac{x^3}{\cosh{x}}.$
 
 #### Explanation
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
 In this case, the expression for $w(x)$ is a quotient $\dfrac{u(x)}{v(x)}$ with $u(x) = x^3$ and $v(x) = \cosh{x}.$
 
@@ -179,21 +179,21 @@ Therefore, we apply the quotient rule as follows:
 $$
 
 
-\begin{aligned}\begin{aligned}𝑤^{′}(𝑥) & =\frac{𝑢^{′}(𝑥)⋅𝑣(𝑥)−𝑢(𝑥)⋅𝑣^{′}(𝑥)}{[𝑣(𝑥)]^{2}} \\ & =\frac{(𝑥^{3})^{′}⋅cosh⁡𝑥−𝑥^{3}⋅(cosh⁡𝑥)^{′}}{(cosh⁡𝑥)^{2}} \\ & =\frac{3𝑥^{2}⋅cosh⁡𝑥−𝑥^{3}⋅sinh⁡𝑥}{cosh^{2}⁡𝑥} \\ & =\frac{𝑥^{2}(3cosh⁡𝑥−𝑥sinh⁡𝑥)}{cosh^{2}⁡𝑥}\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}𝑤^{′}(𝑥) & =\frac{𝑢^{′}(𝑥)⋅𝑣(𝑥)−𝑢(𝑥)⋅𝑣^{′}(𝑥)}{[𝑣(𝑥)]^{2}} \\ & =\frac{(𝑥^{3})^{′}⋅cosh⁡𝑥−𝑥^{3}⋅(cosh⁡𝑥)^{′}}{(cosh⁡𝑥)^{2}} \\ & =\frac{3𝑥^{2}⋅cosh⁡𝑥−𝑥^{3}⋅sinh⁡𝑥}{cosh^{2}⁡𝑥} \\ & =\frac{𝑥^{2}(3cosh⁡𝑥−𝑥sinh⁡𝑥)}{cosh^{2}⁡𝑥}\end{matrix}\end{aligned}
 
 
 $$
 
 ### Deriving the Formula for the Derivative of the Hyperbolic Sine
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \%$
+$\%$
 
 We would like the prove the following result:
 
 $$
 
 
-\dfrac{\textrm{d}}{\textrm{d}x}(\sinh{x}) = \cosh x
+\dfrac{\text{d}}{\text{d}x}(\sinh{x}) = \cosh x
 
 
 $$
@@ -222,14 +222,14 @@ The proof for the derivative of the hyperbolic cosine is very similar. You may w
 
 ### Deriving the Formula for the Derivative of the Hyperbolic Tangent
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
 We would like the prove the following result:
 
 $$
 
 
-\dfrac{\textrm d}{\textrm d x}(\tanh{x}) = \sech^2{x}
+\dfrac{\textrm d}{\textrm d x}(\tanh{x}) = \operatorname{sech}^2{x}
 
 
 $$

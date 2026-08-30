@@ -21,7 +21,7 @@ $$
 
 
 
-P(\textrm{ student likes baseball } | \textrm{ student likes volleyball }).
+P(\text{ student likes baseball } | \text{ student likes volleyball }).
 
 
 
@@ -55,7 +55,7 @@ $$
 
 
 
-P(\textrm{ student likes baseball } | \textrm{ student likes volleyball }) = \dfrac{30}{50} = \dfrac35.
+P(\text{ student likes baseball } | \text{ student likes volleyball }) = \dfrac{30}{50} = \dfrac35.
 
 
 

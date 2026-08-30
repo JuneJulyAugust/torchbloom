@@ -64,7 +64,7 @@ Therefore, using the change of variables formula, we obtain
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}\sqrt{√𝑥^{2}+𝑦^{2}}\,d𝐴 & =\underset{Δ}{∬}\sqrt{√(𝑟cos⁡𝜃)^{2}+(𝑟sin⁡𝜃)^{2}}\,𝑟\,d𝑟\,d𝜃 \\ & =∫_{2𝜋0}^{}∫_{21}^{}\sqrt{√𝑟^{2}(cos^{2}⁡𝜃+sin^{2}⁡𝜃)}\,𝑟\,d𝑟\,d𝜃 \\ & =∫_{2𝜋0}^{}∫_{21}^{}\sqrt{√𝑟^{2}}⋅𝑟\,d𝑟\,d𝜃 \\ & =∫_{2𝜋0}^{}∫_{21}^{}𝑟^{2}\,d𝑟\,d𝜃.\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}\sqrt{𝑥^{2}+𝑦^{2}}\,d𝐴 & =\underset{Δ}{∬}\sqrt{(𝑟cos⁡𝜃)^{2}+(𝑟sin⁡𝜃)^{2}}\,𝑟\,d𝑟\,d𝜃 \\ & =∫_{2𝜋0}∫_{21}\sqrt{𝑟^{2}(cos^{2}⁡𝜃+sin^{2}⁡𝜃)}\,𝑟\,d𝑟\,d𝜃 \\ & =∫_{2𝜋0}∫_{21}\sqrt{𝑟^{2}}⋅𝑟\,d𝑟\,d𝜃 \\ & =∫_{2𝜋0}∫_{21}𝑟^{2}\,d𝑟\,d𝜃.\end{aligned}
 
 
 $$
@@ -74,7 +74,7 @@ Evaluating this integral, we get
 $$
 
 
-\begin{aligned}∫_{2𝜋0}^{}∫_{21}^{}𝑟^{2}\,d𝑟\,d𝜃 & =∫_{2𝜋0}^{}d𝜃∫_{20}^{}𝑟^{2}\,d𝑟 \\ & =2𝜋∫_{21}^{}𝑟^{2}\,d𝑟 \\ & =2𝜋⋅[\frac{1}{3}𝑟^{3}]_{21}^{} \\ & =\frac{2}{3}𝜋⋅[2^{3}−1^{3}] \\ & =\frac{2}{3}𝜋⋅7 \\ & =\frac{14𝜋}{3}.\end{aligned}
+\begin{aligned}∫_{2𝜋0}∫_{21}𝑟^{2}\,d𝑟\,d𝜃 & =∫_{2𝜋0}d𝜃∫_{20}𝑟^{2}\,d𝑟 \\ & =2𝜋∫_{21}𝑟^{2}\,d𝑟 \\ & =2𝜋⋅[\frac{1}{3}𝑟^{3}]_{21} \\ & =\frac{2}{3}𝜋⋅[2^{3}−1^{3}] \\ & =\frac{2}{3}𝜋⋅7 \\ & =\frac{14𝜋}{3}.\end{aligned}
 
 
 $$
@@ -95,7 +95,7 @@ $$
 
 ![Instructional graphic](../../../lesson-assets/mathematical-methods-for-the-physical-sciences-i/topic-2835/d7202f06f445f8cc.png)
 
-The region $D$ in the first quadrant is enclosed between the quarter-circles of radii $3$ and $4,$ as shown above. What is $\displaystyle \iint\limits_D \dfrac{1}{x^2+y^2} \: \textrm{d}A$ expressed in polar coordinates?
+The region $D$ in the first quadrant is enclosed between the quarter-circles of radii $3$ and $4,$ as shown above. What is $\displaystyle \iint\limits_D \dfrac{1}{x^2+y^2} \: \text{d}A$ expressed in polar coordinates?
 
 #### Explanation
 
@@ -124,7 +124,7 @@ Therefore, using the change of variables formula, we obtain
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}\frac{1}{𝑥^{2}+𝑦^{2}}\,d𝐴 & =\underset{Δ}{∬}\frac{1}{(𝑟sin⁡𝜃)^{2}+(𝑟cos⁡𝜃)^{2}}\,𝑟\,d𝑟d𝜃 \\ & =∫_{𝜋/20}^{}∫_{43}^{}\frac{𝑟}{𝑟^{2}(sin^{2}⁡𝜃+cos^{2}⁡𝜃)}\,d𝑟\,d𝜃 \\ & =∫_{𝜋/20}^{}∫_{43}^{}\frac{1}{𝑟}\,d𝑟\,d𝜃.\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}\frac{1}{𝑥^{2}+𝑦^{2}}\,d𝐴 & =\underset{Δ}{∬}\frac{1}{(𝑟sin⁡𝜃)^{2}+(𝑟cos⁡𝜃)^{2}}\,𝑟\,d𝑟d𝜃 \\ & =∫_{𝜋/20}∫_{43}\frac{𝑟}{𝑟^{2}(sin^{2}⁡𝜃+cos^{2}⁡𝜃)}\,d𝑟\,d𝜃 \\ & =∫_{𝜋/20}∫_{43}\frac{1}{𝑟}\,d𝑟\,d𝜃.\end{aligned}
 
 
 $$
@@ -186,7 +186,7 @@ The region $D$ is enclosed between the curve $(x+1)^2+y^2=1$ and the line $x=-1,
 $$
 
 
-\displaystyle \iint\limits_D xy \: \textrm{d}A
+\displaystyle \iint\limits_D xy \: \text{d}A
 
 
 $$
@@ -240,7 +240,7 @@ Therefore, using the change of variables formula, we obtain
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}𝑥𝑦\,d𝐴 & =\underset{Δ}{∬}(𝑟cos⁡𝜃⋅𝑟sin⁡𝜃)\,𝑟\,d𝑟d𝜃 \\ & =∫_{𝜋3𝜋/4}^{}∫_{−2cos⁡𝜃−sec⁡𝜃}^{}𝑟^{3}cos⁡𝜃\,sin⁡𝜃\,d𝑟\,d𝜃 \\ & =∫_{𝜋3𝜋/4}^{}cos⁡𝜃\,sin⁡𝜃∫_{−2cos⁡𝜃−sec⁡𝜃}^{}𝑟^{3}\,d𝑟\,d𝜃.\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}𝑥𝑦\,d𝐴 & =\underset{Δ}{∬}(𝑟cos⁡𝜃⋅𝑟sin⁡𝜃)\,𝑟\,d𝑟d𝜃 \\ & =∫_{𝜋3𝜋/4}∫_{−2cos⁡𝜃−sec⁡𝜃}𝑟^{3}cos⁡𝜃\,sin⁡𝜃\,d𝑟\,d𝜃 \\ & =∫_{𝜋3𝜋/4}cos⁡𝜃\,sin⁡𝜃∫_{−2cos⁡𝜃−sec⁡𝜃}𝑟^{3}\,d𝑟\,d𝜃.\end{aligned}
 
 
 $$
@@ -251,7 +251,7 @@ $$
 
 ![Instructional graphic](../../../lesson-assets/mathematical-methods-for-the-physical-sciences-i/topic-2835/32128578f1a56425.png)
 
-Evaluate the double integral $\displaystyle \iint\limits_D \dfrac{2y}{x^2+y^2} \: \textrm{d}A,$ where the region $D$ is shown above.
+Evaluate the double integral $\displaystyle \iint\limits_D \dfrac{2y}{x^2+y^2} \: \text{d}A,$ where the region $D$ is shown above.
 
 #### Explanation
 
@@ -302,7 +302,7 @@ Therefore, using the change of variables formula, we obtain
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}\frac{2𝑦}{𝑥^{2}+𝑦^{2}}\,d𝐴 & =\underset{Δ}{∬}\frac{2𝑟sin⁡𝜃}{𝑟^{2}cos^{2}⁡𝜃+𝑟^{2}sin^{2}⁡𝜃}\,𝑟\,d𝑟d𝜃 \\ & =∫_{𝜋/2𝜋/4}^{}∫_{sin⁡𝜃1/2csc⁡𝜃}^{}2sin⁡𝜃\,d𝑟\,d𝜃 \\ & =∫_{𝜋/2𝜋/4}^{}2sin⁡𝜃∫_{sin⁡𝜃1/2csc⁡𝜃}^{}\,d𝑟\,d𝜃 \\ & =∫_{𝜋/2𝜋/4}^{}2sin⁡𝜃[𝑟]_{sin⁡𝜃1/2csc⁡𝜃}^{}\,d𝜃 \\ & =∫_{𝜋/2𝜋/4}^{}2sin⁡𝜃(sin⁡𝜃−\frac{1}{2}csc⁡𝜃)\,d𝜃 \\ & =∫_{𝜋/2𝜋/4}^{}(2sin^{2}⁡𝜃−1)\,d𝜃 \\ & =∫_{𝜋/2𝜋/4}^{}−cos⁡(2𝜃)\,d𝜃 \\ & =−\frac{1}{2}[sin⁡(2𝜃)]_{𝜋/2𝜋/4}^{} \\ & =−\frac{1}{2}(0−sin⁡(\frac{𝜋}{2})) \\ & =\frac{1}{2}.\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}\frac{2𝑦}{𝑥^{2}+𝑦^{2}}\,d𝐴 & =\underset{Δ}{∬}\frac{2𝑟sin⁡𝜃}{𝑟^{2}cos^{2}⁡𝜃+𝑟^{2}sin^{2}⁡𝜃}\,𝑟\,d𝑟d𝜃 \\ & =∫_{𝜋/2𝜋/4}∫_{sin⁡𝜃1/2csc⁡𝜃}2sin⁡𝜃\,d𝑟\,d𝜃 \\ & =∫_{𝜋/2𝜋/4}2sin⁡𝜃∫_{sin⁡𝜃1/2csc⁡𝜃}\,d𝑟\,d𝜃 \\ & =∫_{𝜋/2𝜋/4}2sin⁡𝜃[𝑟]_{sin⁡𝜃1/2csc⁡𝜃}\,d𝜃 \\ & =∫_{𝜋/2𝜋/4}2sin⁡𝜃(sin⁡𝜃−\frac{1}{2}csc⁡𝜃)\,d𝜃 \\ & =∫_{𝜋/2𝜋/4}(2sin^{2}⁡𝜃−1)\,d𝜃 \\ & =∫_{𝜋/2𝜋/4}−cos⁡(2𝜃)\,d𝜃 \\ & =−\frac{1}{2}[sin⁡(2𝜃)]_{𝜋/2𝜋/4} \\ & =−\frac{1}{2}(0−sin⁡(\frac{𝜋}{2})) \\ & =\frac{1}{2}.\end{aligned}
 
 
 $$

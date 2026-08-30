@@ -12,12 +12,12 @@ Topic ID: 1867
 
 ### Introduction
 
-The dimension of the column space of a matrix $A$ is called the **rank of $A$**. It's usually denoted by $\textrm{rank}(A)$. So,
+The dimension of the column space of a matrix $A$ is called the **rank of $A$**. It's usually denoted by $\text{rank}(A)$. So,
 
 $$
 
 
-\textrm{rank}(A) = \textrm{dim}(\textrm{Col}(A)).
+\text{rank}(A) = \text{dim}(\text{Col}(A)).
 
 
 $$
@@ -37,22 +37,22 @@ we write $A$ in row echelon form, as follows:
 $$
 
 
-\begin{aligned}𝐴 & =\begin{aligned}3 & 2 & 5 \\ 0 & 1 & 0 \\ 6 & 4 & 10\end{aligned} & 𝑅_{3} & :=𝑅_{3}+(−2)𝑅_{1} \\ & ∼\begin{aligned}3 & 2 & 5 \\ 0 & 1 & 0 \\ 0 & 0 & 0\end{aligned}. & & \end{aligned}
+\begin{aligned}𝐴 & =\begin{matrix}3 & 2 & 5 \\ 0 & 1 & 0 \\ 6 & 4 & 10\end{matrix} & 𝑅_{3} & :=𝑅_{3}+(−2)𝑅_{1} \\ & ∼\begin{matrix}3 & 2 & 5 \\ 0 & 1 & 0 \\ 0 & 0 & 0\end{matrix}. & & \end{aligned}
 
 
 $$
 
-From the reduced matrix above, we see that there are $2$ pivot columns, namely, the $1$st and the $2$nd. This implies that the first and the second columns of $A$ form a basis of $\textrm{Col}(A)$ and, therefore, the dimension of $\textrm{Col}(A)$ is equal to $2.$
+From the reduced matrix above, we see that there are $2$ pivot columns, namely, the $1$st and the $2$nd. This implies that the first and the second columns of $A$ form a basis of $\text{Col}(A)$ and, therefore, the dimension of $\text{Col}(A)$ is equal to $2.$
 
 ### Example: Determining the Rank of a Matrix Given the Number of Pivot Columns
 
 #### Question
 
-Let $A$ be a $4 \times 7$ matrix that has $3$ **** columns. Find $\textrm{rank}(A).$
+Let $A$ be a $4 \times 7$ matrix that has $3$ **** columns. Find $\text{rank}(A).$
 
 #### Explanation
 
-We know that $\textrm{rank}(A)$ is the number of pivot columns in $A$.
+We know that $\text{rank}(A)$ is the number of pivot columns in $A$.
 
 Since $A$ has $7$ columns and $3$ of them are non-pivots, then the number of pivot columns in $A$ is
 
@@ -64,17 +64,17 @@ $$
 
 $$
 
-Therefore, $\textrm{rank}(A)=4$.
+Therefore, $\text{rank}(A)=4$.
 
 ### An Alternative Definition of the Rank
 
 Note that the number of pivot columns always coincides with the number of non-zero rows in the corresponding row echelon form matrix. So, technically,
 
-$\textrm{rank}(A)$ is the number of *pivot columns* in the corresponding row echelon form matrix of $A$.
+$\text{rank}(A)$ is the number of *pivot columns* in the corresponding row echelon form matrix of $A$.
 
 Or, equivalently,
 
-$\textrm{rank}(A)$ is the number of *non-zero rows* in the corresponding row echelon form matrix of $A$.
+$\text{rank}(A)$ is the number of *non-zero rows* in the corresponding row echelon form matrix of $A$.
 
 ### Example: Identifying the Matrix With a Given Rank by Inspection
 
@@ -94,7 +94,7 @@ $$
 
 First, notice that a matrix of rank $4$ must have at least $4$ columns and at least $4$ rows. So, we disregard the matrix $B$ since it has only $3$ rows.
 
-Also, the matrix must have $4$ pivot columns. As we can see, the matrix $A$ has only $3$ pivot columns, while the matrix $C$ has exactly $4$ pivot columns. So, $\textrm{rank}(A)=3$ and $\textrm{rank}(C)=4.$
+Also, the matrix must have $4$ pivot columns. As we can see, the matrix $A$ has only $3$ pivot columns, while the matrix $C$ has exactly $4$ pivot columns. So, $\text{rank}(A)=3$ and $\text{rank}(C)=4.$
 
 Therefore, the correct answer is "$C$ only".
 
@@ -102,7 +102,7 @@ Therefore, the correct answer is "$C$ only".
 
 #### Question
 
-If $\begin{aligned}2 & 3 & 0 \\ 0 & −1 & 5 \\ −4 & 0 & 5\end{aligned}$, find $\textrm{rank}(A).$
+If $\begin{aligned}2 & 3 & 0 \\ 0 & −1 & 5 \\ −4 & 0 & 5\end{aligned}$, find $\text{rank}(A).$
 
 #### Explanation
 
@@ -111,11 +111,11 @@ To find the rank of $A,$ we first reduce it to row echelon form, as follows:
 $$
 
 
-\begin{aligned}𝐴 & =\begin{aligned}2 & 3 & 0 \\ 0 & −1 & 5 \\ −4 & 0 & 5\end{aligned} & 𝑅_{3} & :=𝑅_{3}+2𝑅_{1} \\ & ∼\begin{aligned}2 & 3 & 0 \\ 0 & −1 & 5 \\ 0 & 6 & 5\end{aligned} & 𝑅_{3} & :=𝑅_{3}+6𝑅_{2} \\ & ∼\begin{aligned}2 & 3 & 0 \\ 0 & −1 & 5 \\ 0 & 0 & 35\end{aligned} & & \end{aligned}
+\begin{aligned}𝐴 & =\begin{matrix}2 & 3 & 0 \\ 0 & −1 & 5 \\ −4 & 0 & 5\end{matrix} & 𝑅_{3} & :=𝑅_{3}+2𝑅_{1} \\ & ∼\begin{matrix}2 & 3 & 0 \\ 0 & −1 & 5 \\ 0 & 6 & 5\end{matrix} & 𝑅_{3} & :=𝑅_{3}+6𝑅_{2} \\ & ∼\begin{matrix}2 & 3 & 0 \\ 0 & −1 & 5 \\ 0 & 0 & 35\end{matrix} & & \end{aligned}
 
 
 $$
 
 The reduced matrix above has $3$ pivot columns (or, alternatively, it has exactly $3$ non-zero rows).
 
-Therefore, $\textrm{rank}(A)=3.$
+Therefore, $\text{rank}(A)=3.$

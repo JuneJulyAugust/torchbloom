@@ -16,7 +16,7 @@ Suppose we want to evaluate the double integral
 $$
 
 
-\displaystyle \iint\limits_{D} 2(x+y)\,\textrm{d}A,
+\displaystyle \iint\limits_{D} 2(x+y)\,\text{d}A,
 
 
 $$
@@ -74,7 +74,7 @@ So, finally, we obtain
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}2(𝑥+𝑦)\,d𝐴 & =\underset{𝐷_{1}}{∬}2(𝑥+𝑦)\,d𝐴+\underset{𝐷_{2}}{∬}2(𝑥+𝑦)\,d𝐴 \\ & =∫_{10}^{}∫_{21}^{}2(𝑥+𝑦) d𝑦\,d𝑥+∫_{3/21}^{}∫_{3−𝑥𝑥}^{}2(𝑥+𝑦)\,d𝑦\,d𝑥.\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}2(𝑥+𝑦)\,d𝐴 & =\underset{𝐷_{1}}{∬}2(𝑥+𝑦)\,d𝐴+\underset{𝐷_{2}}{∬}2(𝑥+𝑦)\,d𝐴 \\ & =∫_{10}∫_{21}2(𝑥+𝑦) d𝑦\,d𝑥+∫_{3/21}∫_{3−𝑥𝑥}2(𝑥+𝑦)\,d𝑦\,d𝑥.\end{aligned}
 
 
 $$
@@ -118,7 +118,7 @@ Therefore, using the additivity property of double integrals, we obtain
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}𝑓(𝑥,𝑦)\,d𝐴 & =\underset{𝐷_{1}}{∬}𝑓(𝑥,𝑦)\,d𝐴+\underset{𝐷_{2}}{∬}𝑓(𝑥,𝑦)\,d𝐴 \\ & =∫_{10}^{}∫_{2^{𝑥}\sqrt{√𝑥}}^{}𝑓(𝑥,𝑦)\,d𝑦\,d𝑥+∫_{41}^{}∫_{2\sqrt{√𝑥}}^{}𝑓(𝑥,𝑦)\,d𝑦\,d𝑥.\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}𝑓(𝑥,𝑦)\,d𝐴 & =\underset{𝐷_{1}}{∬}𝑓(𝑥,𝑦)\,d𝐴+\underset{𝐷_{2}}{∬}𝑓(𝑥,𝑦)\,d𝐴 \\ & =∫_{10}∫_{2^{𝑥}\sqrt{𝑥}}^{}𝑓(𝑥,𝑦)\,d𝑦\,d𝑥+∫_{41}∫_{2\sqrt{𝑥}}^{}𝑓(𝑥,𝑦)\,d𝑦\,d𝑥.\end{aligned}
 
 
 $$
@@ -172,7 +172,7 @@ Therefore, using the additivity property of double integrals, we obtain
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}𝑓(𝑥,𝑦)\,d𝐴 & =\underset{𝐷_{1}}{∬}𝑓(𝑥,𝑦)\,d𝐴+\underset{𝐷_{2}}{∬}𝑓(𝑥,𝑦)\,d𝐴 \\ & =∫_{21}^{}∫_{𝑒1}^{}𝑓(𝑥,𝑦)\,d𝑥\,d𝑦+∫_{32}^{}∫_{𝑒𝑒^{𝑦−2}}^{}𝑓(𝑥,𝑦)\,d𝑥\,d𝑦.\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}𝑓(𝑥,𝑦)\,d𝐴 & =\underset{𝐷_{1}}{∬}𝑓(𝑥,𝑦)\,d𝐴+\underset{𝐷_{2}}{∬}𝑓(𝑥,𝑦)\,d𝐴 \\ & =∫_{21}∫_{𝑒1}𝑓(𝑥,𝑦)\,d𝑥\,d𝑦+∫_{32}∫_{𝑒𝑒^{𝑦−2}}^{}𝑓(𝑥,𝑦)\,d𝑥\,d𝑦.\end{aligned}
 
 
 $$
@@ -216,7 +216,7 @@ Therefore, using the additivity property of double integrals, we obtain
 $$
 
 
-\begin{aligned}𝐴 & =\underset{𝐷}{∬}\,d𝐴 \\ & =\underset{𝐷_{1}}{∬}\,d𝐴+\underset{𝐷_{2}}{∬}\,d𝐴 \\ & =∫_{0−2}^{}∫_{𝑦^{3}−4𝑦0}^{}\,d𝑥\,d𝑦+∫_{10}^{}∫_{02𝑦^{3}−2𝑦}^{}\,d𝑥\,d𝑦 \\ & =∫_{0−2}^{}[𝑥]_{𝑦^{3}−4𝑦0}^{}\,d𝑦+∫_{10}^{}[𝑥]_{02𝑦^{3}−2𝑦}^{}\,d𝑦 \\ & =∫_{0−2}^{}(𝑦^{3}−4𝑦)\,d𝑦+∫_{10}^{}(2𝑦−2𝑦^{3})\,d𝑦 \\ & =[\frac{𝑦^{4}}{4}−2𝑦^{2}]_{0−2}^{}+[𝑦^{2}−\frac{𝑦^{4}}{2}]_{10}^{} \\ & =4+\frac{1}{2} \\ & =\frac{9}{2}.\end{aligned}
+\begin{aligned}𝐴 & =\underset{𝐷}{∬}\,d𝐴 \\ & =\underset{𝐷_{1}}{∬}\,d𝐴+\underset{𝐷_{2}}{∬}\,d𝐴 \\ & =∫_{0−2}∫_{𝑦^{3}−4𝑦0}^{}\,d𝑥\,d𝑦+∫_{10}∫_{02𝑦^{3}−2𝑦}^{}\,d𝑥\,d𝑦 \\ & =∫_{0−2}[𝑥]_{𝑦^{3}−4𝑦0}^{}\,d𝑦+∫_{10}[𝑥]_{02𝑦^{3}−2𝑦}^{}\,d𝑦 \\ & =∫_{0−2}(𝑦^{3}−4𝑦)\,d𝑦+∫_{10}(2𝑦−2𝑦^{3})\,d𝑦 \\ & =[\frac{𝑦^{4}}{4}−2𝑦^{2}]_{0−2}+[𝑦^{2}−\frac{𝑦^{4}}{2}]_{10} \\ & =4+\frac{1}{2} \\ & =\frac{9}{2}.\end{aligned}
 
 
 $$

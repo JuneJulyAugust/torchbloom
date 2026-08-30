@@ -59,7 +59,7 @@ We start by finding the **determinant of the coefficient matrix**:
 $$
 
 
-\begin{aligned}𝐷 & =\begin{aligned}3 & −2 \\ −1 & 2\end{aligned} \\ & =3⋅2−(−1)⋅(−2) \\ & =4\end{aligned}
+\begin{aligned}𝐷 & =\begin{matrix}3 & −2 \\ −1 & 2\end{matrix} \\ & =3⋅2−(−1)⋅(−2) \\ & =4\end{aligned}
 
 
 $$
@@ -69,7 +69,7 @@ Now, we compute $D_x$ and $D_y\mathbin{:}$
 $$
 
 
-\begin{aligned}𝐷_{𝑥} & =\begin{aligned}−1 & −2 \\ 3 & 2\end{aligned} \\ & =(−1)⋅2−3⋅(−2) \\ & =4 \\ 𝐷_{𝑦} & =\begin{aligned}3 & −1 \\ −1 & 3\end{aligned} \\ & =3⋅3−(−1)⋅(−1) \\ & =8\end{aligned}
+\begin{aligned}𝐷_{𝑥} & =\begin{matrix}−1 & −2 \\ 3 & 2\end{matrix} \\ & =(−1)⋅2−3⋅(−2) \\ & =4 \\ 𝐷_{𝑦} & =\begin{matrix}3 & −1 \\ −1 & 3\end{matrix} \\ & =3⋅3−(−1)⋅(−1) \\ & =8\end{aligned}
 
 
 $$
@@ -127,7 +127,7 @@ The determinant of the coefficient matrix is
 $$
 
 
-\begin{aligned}𝐷 & =\begin{aligned}1 & −1 \\ 2 & 1\end{aligned}.\end{aligned}
+\begin{aligned}𝐷 & =\begin{matrix}1 & −1 \\ 2 & 1\end{matrix}.\end{aligned}
 
 
 $$
@@ -137,7 +137,7 @@ Now, to construct $D_x$, we replace the first column of the coefficient matrix b
 $$
 
 
-\begin{aligned}𝐷_{𝑥} & =\begin{aligned}2 & −1 \\ 1 & 1\end{aligned}\end{aligned}
+\begin{aligned}𝐷_{𝑥} & =\begin{matrix}2 & −1 \\ 1 & 1\end{matrix}\end{aligned}
 
 
 $$
@@ -175,7 +175,7 @@ The determinant of the coefficient matrix is
 $$
 
 
-\begin{aligned}𝐷 & =\begin{aligned}5 & 2 \\ −3 & 3\end{aligned}.\end{aligned}
+\begin{aligned}𝐷 & =\begin{matrix}5 & 2 \\ −3 & 3\end{matrix}.\end{aligned}
 
 
 $$
@@ -185,7 +185,7 @@ Now, to construct $D_y$, we replace the second column of the coefficient matrix 
 $$
 
 
-\begin{aligned}𝐷_{𝑦} & =\begin{aligned}5 & −1 \\ −3 & 9\end{aligned}\end{aligned}
+\begin{aligned}𝐷_{𝑦} & =\begin{matrix}5 & −1 \\ −3 & 9\end{matrix}\end{aligned}
 
 
 $$
@@ -195,7 +195,7 @@ Finally, according to Cramer's rule, we have
 $$
 
 
-\begin{aligned}𝑦 & =\frac{𝐷_{𝑦}}{𝐷}=\frac\begin{aligned}5 & −1 \\ −3 & 9\end{aligned}}\begin{aligned}5 & 2 \\ −3 & 3\end{aligned}}.\end{aligned}
+\begin{aligned}𝑦 & =\frac{𝐷_{𝑦}}{𝐷}=\frac{\begin{matrix}5 & −1 \\ −3 & 9\end{matrix}}{\begin{matrix}5 & 2 \\ −3 & 3\end{matrix}}.\end{aligned}
 
 
 $$
@@ -229,7 +229,7 @@ The determinant of the coefficient matrix is
 $$
 
 
-\begin{aligned}𝐷 & =\begin{aligned}5 & −2 \\ 1 & 𝑘\end{aligned}.\end{aligned}
+\begin{aligned}𝐷 & =\begin{matrix}5 & −2 \\ 1 & 𝑘\end{matrix}.\end{aligned}
 
 
 $$
@@ -239,7 +239,7 @@ According to Cramer's rule, the value of $y$ is given by $y=\dfrac{D_y}{D},$ whe
 $$
 
 
-\begin{aligned}𝐷_{𝑦} & =\begin{aligned}5 & 4 \\ 1 & 8\end{aligned} \\ & =5⋅8−4⋅1 \\ & =36.\end{aligned}
+\begin{aligned}𝐷_{𝑦} & =\begin{matrix}5 & 4 \\ 1 & 8\end{matrix} \\ & =5⋅8−4⋅1 \\ & =36.\end{aligned}
 
 
 $$
@@ -249,7 +249,7 @@ Therefore:
 $$
 
 
-\begin{aligned}𝑦 & =\frac{𝐷_{𝑦}}{𝐷} \\ 3 & =\frac{36}\begin{aligned}5 & −2 \\ 1 & 𝑘\end{aligned}} \\ \begin{aligned}5 & −2 \\ 1 & 𝑘\end{aligned} & =12\end{aligned}
+\begin{aligned}𝑦 & =\frac{𝐷_{𝑦}}{𝐷} \\ 3 & =\frac{36}\begin{matrix}5 & −2 \\ 1 & 𝑘\end{matrix}} \\ \begin{matrix}5 & −2 \\ 1 & 𝑘\end{matrix} & =12\end{aligned}
 
 
 $$

@@ -27,7 +27,7 @@ Both the numerator and denominator grow without bound as $n\to\infty.$ However, 
 $$
 
 
-a_n = \dfrac{n}{2^n} = \dfrac{\textrm{a fairly big number}}{\textrm{an enormous number}}.
+a_n = \dfrac{n}{2^n} = \dfrac{\text{a fairly big number}}{\text{an enormous number}}.
 
 
 $$

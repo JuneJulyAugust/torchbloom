@@ -44,7 +44,7 @@ Given the diameter $d$ of a semicircle, we can find the corresponding area using
 $$
 
 
-A = \overbrace{\dfrac{1}{2} \cdot \underbrace{\dfrac{1}{4}\pi d^2}_{\textrm{Full circle}}}^{\textrm{Semicircle}} = \dfrac{1}{8}\pi d^2.
+A = \overbrace{\dfrac{1}{2} \cdot \underbrace{\dfrac{1}{4}\pi d^2}_{\text{Full circle}}}^{\text{Semicircle}} = \dfrac{1}{8}\pi d^2.
 
 
 $$
@@ -64,7 +64,7 @@ We can now calculate the volume of the solid, as follows:
 $$
 
 
-\begin{aligned}𝑉 & =∫_{𝑏𝑎}^{}𝐴(𝑥)\,d𝑥 \\ & =∫_{10}^{}\frac{𝜋}{2}(1−2𝑥+𝑥^{2})d𝑥 \\ & =\frac{𝜋}{2}∫_{10}^{}(1−2𝑥+𝑥^{2})d𝑥 \\ & =\frac{𝜋}{2}(𝑥−𝑥^{2}+\frac{𝑥^{3}}{3})_{10}^{} \\ & =\frac{𝜋}{2}[(1−1+\frac{1}{3})−0] \\ & =\frac{𝜋}{2}⋅\frac{1}{3} \\ & =\frac{𝜋}{6}\end{aligned}
+\begin{aligned}𝑉 & =∫_{𝑏𝑎}𝐴(𝑥)\,d𝑥 \\ & =∫_{10}\frac{𝜋}{2}(1−2𝑥+𝑥^{2})d𝑥 \\ & =\frac{𝜋}{2}∫_{10}(1−2𝑥+𝑥^{2})d𝑥 \\ & =\frac{𝜋}{2}(𝑥−𝑥^{2}+\frac{𝑥^{3}}{3})_{10} \\ & =\frac{𝜋}{2}[(1−1+\frac{1}{3})−0] \\ & =\frac{𝜋}{2}⋅\frac{1}{3} \\ & =\frac{𝜋}{6}\end{aligned}
 
 
 $$
@@ -108,7 +108,7 @@ So, the expression for the area of the cross-section is
 $$
 
 
-\begin{aligned}𝐴(𝑥) & =\frac{1}{8}𝜋𝑑^{2} \\ & =\frac{𝜋}{8}2−𝑥^{2}^{2} \\ & =\frac{𝜋}{8}(4−4𝑥^{2}+𝑥^{4}).\end{aligned}
+\begin{aligned}𝐴(𝑥) & =\frac{1}{8}𝜋𝑑^{2} \\ & =\frac{𝜋}{8}(2−𝑥^{2})^{2} \\ & =\frac{𝜋}{8}(4−4𝑥^{2}+𝑥^{4}).\end{aligned}
 
 
 $$
@@ -118,7 +118,7 @@ We can now write the volume of the solid, as follows:
 $$
 
 
-\begin{aligned}𝑉 & =∫_{𝑏𝑎}^{}𝐴(𝑥)\,d𝑥 \\ & =\frac{𝜋}{8}∫_{\sqrt{√2}−\sqrt{√2}}^{}(4−4𝑥^{2}+𝑥^{4})d𝑥\end{aligned}
+\begin{aligned}𝑉 & =∫_{𝑏𝑎}𝐴(𝑥)\,d𝑥 \\ & =\frac{𝜋}{8}∫_{\sqrt{2}−\sqrt{2}}^{}(4−4𝑥^{2}+𝑥^{4})d𝑥\end{aligned}
 
 
 $$
@@ -186,7 +186,7 @@ We can now write the volume of the solid, as follows:
 $$
 
 
-\begin{aligned}𝑉 & =∫_{𝑏𝑎}^{}𝐴(𝑥)\,d𝑥 \\ & =∫_{1−2}^{}\frac{𝜋}{8}(−𝑥^{2}−𝑥+2)^{2}\,d𝑥 \\ & =\frac{𝜋}{8}∫_{1−2}^{}(−𝑥^{2}−𝑥+2)^{2}\,d𝑥\end{aligned}
+\begin{aligned}𝑉 & =∫_{𝑏𝑎}𝐴(𝑥)\,d𝑥 \\ & =∫_{1−2}\frac{𝜋}{8}(−𝑥^{2}−𝑥+2)^{2}\,d𝑥 \\ & =\frac{𝜋}{8}∫_{1−2}(−𝑥^{2}−𝑥+2)^{2}\,d𝑥\end{aligned}
 
 
 $$
@@ -244,7 +244,7 @@ We can now calculate the volume of the solid, as follows:
 $$
 
 
-\begin{aligned}𝑉 & =∫_{𝑑𝑐}^{}𝐴(𝑦)\,d𝑦 \\ & =∫_{0−2}^{}\frac{𝜋}{8}(𝑦^{2}+4𝑦+4)d𝑦 \\ & =\frac{𝜋}{8}∫_{0−2}^{}(𝑦^{2}+4𝑦+4)d𝑦 \\ & =\frac{𝜋}{8}(\frac{𝑦^{3}}{3}+2𝑦^{2}+4𝑦)_{0−2}^{} \\ & =\frac{𝜋}{8}[0−(−\frac{8}{3}+8−8)] \\ & =\frac{𝜋}{3}\end{aligned}
+\begin{aligned}𝑉 & =∫_{𝑑𝑐}𝐴(𝑦)\,d𝑦 \\ & =∫_{0−2}\frac{𝜋}{8}(𝑦^{2}+4𝑦+4)d𝑦 \\ & =\frac{𝜋}{8}∫_{0−2}(𝑦^{2}+4𝑦+4)d𝑦 \\ & =\frac{𝜋}{8}(\frac{𝑦^{3}}{3}+2𝑦^{2}+4𝑦)_{0−2} \\ & =\frac{𝜋}{8}[0−(−\frac{8}{3}+8−8)] \\ & =\frac{𝜋}{3}\end{aligned}
 
 
 $$
@@ -298,7 +298,7 @@ We can now calculate the volume of the solid, as follows:
 $$
 
 
-\begin{aligned}𝑉 & =∫_{𝑑𝑐}^{}𝐴(𝑦)\,d𝑦 \\ & =\frac{9𝜋}{8}∫_{10}^{}𝑦^{2}d𝑦 \\ & =\frac{3𝜋}{8}⋅(𝑦^{3})_{10}^{} \\ & =\frac{3𝜋}{8}(1−0) \\ & =\frac{3𝜋}{8}\end{aligned}
+\begin{aligned}𝑉 & =∫_{𝑑𝑐}𝐴(𝑦)\,d𝑦 \\ & =\frac{9𝜋}{8}∫_{10}𝑦^{2}d𝑦 \\ & =\frac{3𝜋}{8}⋅(𝑦^{3})_{10} \\ & =\frac{3𝜋}{8}(1−0) \\ & =\frac{3𝜋}{8}\end{aligned}
 
 
 $$
@@ -366,7 +366,7 @@ We can now calculate the volume of the solid, as follows:
 $$
 
 
-\begin{aligned}𝑉 & =∫_{𝑑𝑐}^{}𝐴(𝑦)\,d𝑦 \\ & =∫_{1−1}^{}𝜋(𝑦^{4}−2𝑦^{2}+1)d𝑦 \\ & =𝜋∫_{1−1}^{}(𝑦^{4}−2𝑦^{2}+1)d𝑦 \\ & =2𝜋∫_{10}^{}(𝑦^{4}−2𝑦^{2}+1)d𝑦 \\ & =2𝜋(\frac{𝑦^{5}}{5}−\frac{2}{3}𝑦^{3}+𝑦)_{10}^{} \\ & =2𝜋[(\frac{1}{5}−\frac{2}{3}+1)−0] \\ & =2𝜋⋅\frac{8}{15} \\ & =\frac{16𝜋}{15}\end{aligned}
+\begin{aligned}𝑉 & =∫_{𝑑𝑐}𝐴(𝑦)\,d𝑦 \\ & =∫_{1−1}𝜋(𝑦^{4}−2𝑦^{2}+1)d𝑦 \\ & =𝜋∫_{1−1}(𝑦^{4}−2𝑦^{2}+1)d𝑦 \\ & =2𝜋∫_{10}(𝑦^{4}−2𝑦^{2}+1)d𝑦 \\ & =2𝜋(\frac{𝑦^{5}}{5}−\frac{2}{3}𝑦^{3}+𝑦)_{10} \\ & =2𝜋[(\frac{1}{5}−\frac{2}{3}+1)−0] \\ & =2𝜋⋅\frac{8}{15} \\ & =\frac{16𝜋}{15}\end{aligned}
 
 
 $$

@@ -52,7 +52,7 @@ In our case, the matrix that represents the combined transformation is
 $$
 
 
-\begin{aligned}𝑆𝑅 & =[\begin{aligned}1 & 0 \\ 0 & −1\end{aligned}][\begin{aligned}0 & −1 \\ 1 & 0\end{aligned}] \\ & =[\begin{aligned}0 & −1 \\ −1 & 0\end{aligned}].\end{aligned}
+\begin{aligned}𝑆𝑅 & =[\begin{matrix}1 & 0 \\ 0 & −1\end{matrix}][\begin{matrix}0 & −1 \\ 1 & 0\end{matrix}] \\ & =[\begin{matrix}0 & −1 \\ −1 & 0\end{matrix}].\end{aligned}
 
 
 $$
@@ -76,7 +76,7 @@ Computing the product $SR,$ we get
 $$
 
 
-\begin{aligned}𝑆𝑅=[\begin{aligned}1 & 0 \\ 0 & −1\end{aligned}][\begin{aligned}0 & −1 \\ 1 & 0\end{aligned}]=[\begin{aligned}0 & −1 \\ −1 & 0\end{aligned}].\end{aligned}
+\begin{aligned}𝑆𝑅=[\begin{matrix}1 & 0 \\ 0 & −1\end{matrix}][\begin{matrix}0 & −1 \\ 1 & 0\end{matrix}]=[\begin{matrix}0 & −1 \\ −1 & 0\end{matrix}].\end{aligned}
 
 
 $$
@@ -88,7 +88,7 @@ On the other hand, computing the product $RS,$ we get
 $$
 
 
-\begin{aligned}𝑅𝑆=[\begin{aligned}0 & −1 \\ 1 & 0\end{aligned}][\begin{aligned}1 & 0 \\ 0 & −1\end{aligned}]=[\begin{aligned}0 & 1 \\ 1 & 0\end{aligned}].\end{aligned}
+\begin{aligned}𝑅𝑆=[\begin{matrix}0 & −1 \\ 1 & 0\end{matrix}][\begin{matrix}1 & 0 \\ 0 & −1\end{matrix}]=[\begin{matrix}0 & 1 \\ 1 & 0\end{matrix}].\end{aligned}
 
 
 $$
@@ -154,7 +154,7 @@ Let $P$ be the matrix that represents the rotation and let $Q$ be the matrix tha
 $$
 
 
-\begin{aligned}𝑃 & =\begin{aligned}cos⁡(\frac{𝜋}{2}) & −sin⁡(\frac{𝜋}{2}) \\ sin⁡(\frac{𝜋}{2}) & cos⁡(\frac{𝜋}{2})\end{aligned}=[\begin{aligned}0 & −1 \\ 1 & 0\end{aligned}] \\ 𝑄 & =[\begin{aligned}2 & 0 \\ 0 & 1\end{aligned}]\end{aligned}
+\begin{aligned}𝑃 & =\begin{matrix}cos⁡(\frac{𝜋}{2}) & −sin⁡(\frac{𝜋}{2}) \\ sin⁡(\frac{𝜋}{2}) & cos⁡(\frac{𝜋}{2})\end{matrix}=[\begin{matrix}0 & −1 \\ 1 & 0\end{matrix}] \\ 𝑄 & =[\begin{matrix}2 & 0 \\ 0 & 1\end{matrix}]\end{aligned}
 
 
 $$
@@ -164,7 +164,7 @@ Therefore, the combined transformation can be represented by the matrix $QP\math
 $$
 
 
-\begin{aligned}𝑄𝑃 & =[\begin{aligned}2 & 0 \\ 0 & 1\end{aligned}][\begin{aligned}0 & −1 \\ 1 & 0\end{aligned}] \\ & =[\begin{aligned}0 & −2 \\ 1 & 0\end{aligned}]\end{aligned}
+\begin{aligned}𝑄𝑃 & =[\begin{matrix}2 & 0 \\ 0 & 1\end{matrix}][\begin{matrix}0 & −1 \\ 1 & 0\end{matrix}] \\ & =[\begin{matrix}0 & −2 \\ 1 & 0\end{matrix}]\end{aligned}
 
 
 $$
@@ -188,7 +188,7 @@ Let $P$ be the matrix that represents the rotation, $Q$ be the matrix that repre
 $$
 
 
-\begin{aligned}𝑃 & =\begin{aligned}cos⁡(\frac{𝜋}{3}) & −sin⁡(\frac{𝜋}{3}) \\ sin⁡(\frac{𝜋}{3}) & cos⁡(\frac{𝜋}{3})\end{aligned}=\begin{aligned}\frac{1}{2} & −\frac{\sqrt{√3}}{2} \\ \frac{\sqrt{√3}}{2} & \frac{1}{2}\end{aligned}=\frac{1}{2}[\begin{aligned}1 & −\sqrt{√3} \\ \sqrt{√3} & 1\end{aligned}] \\ 𝑄 & =[\begin{aligned}5 & 0 \\ 0 & 5\end{aligned}]=5[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ 𝑅 & =[\begin{aligned}−1 & 0 \\ 0 & 1\end{aligned}]\end{aligned}
+\begin{aligned}𝑃 & =\begin{matrix}cos⁡(\frac{𝜋}{3}) & −sin⁡(\frac{𝜋}{3}) \\ sin⁡(\frac{𝜋}{3}) & cos⁡(\frac{𝜋}{3})\end{matrix}=\begin{matrix}\frac{1}{2} & −\frac{\sqrt{3}}{2} \\ \frac{\sqrt{3}}{2} & \frac{1}{2}\end{matrix}=\frac{1}{2}[\begin{matrix}1 & −\sqrt{3} \\ \sqrt{3} & 1\end{matrix}] \\ 𝑄 & =[\begin{matrix}5 & 0 \\ 0 & 5\end{matrix}]=5[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}] \\ 𝑅 & =[\begin{matrix}−1 & 0 \\ 0 & 1\end{matrix}]\end{aligned}
 
 
 $$
@@ -198,7 +198,7 @@ Therefore, the combined transformation can be represented by the matrix $RQP\mat
 $$
 
 
-\begin{aligned}𝑅𝑄𝑃 & =[\begin{aligned}−1 & 0 \\ 0 & 1\end{aligned}](5[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}])(\frac{1}{2}[\begin{aligned}1 & −\sqrt{√3} \\ \sqrt{√3} & 1\end{aligned}]) \\ & =\frac{5}{2}[\begin{aligned}−1 & 0 \\ 0 & 1\end{aligned}][\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}][\begin{aligned}1 & −\sqrt{√3} \\ \sqrt{√3} & 1\end{aligned}] \\ & =\frac{5}{2}[\begin{aligned}−1 & 0 \\ 0 & 1\end{aligned}][\begin{aligned}1 & −\sqrt{√3} \\ \sqrt{√3} & 1\end{aligned}] \\ & =\frac{5}{2}[\begin{aligned}−1 & \sqrt{√3} \\ \sqrt{√3} & 1\end{aligned}]\end{aligned}
+\begin{aligned}𝑅𝑄𝑃 & =[\begin{matrix}−1 & 0 \\ 0 & 1\end{matrix}](5[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}])(\frac{1}{2}[\begin{matrix}1 & −\sqrt{3} \\ \sqrt{3} & 1\end{matrix}]) \\ & =\frac{5}{2}[\begin{matrix}−1 & 0 \\ 0 & 1\end{matrix}][\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}][\begin{matrix}1 & −\sqrt{3} \\ \sqrt{3} & 1\end{matrix}] \\ & =\frac{5}{2}[\begin{matrix}−1 & 0 \\ 0 & 1\end{matrix}][\begin{matrix}1 & −\sqrt{3} \\ \sqrt{3} & 1\end{matrix}] \\ & =\frac{5}{2}[\begin{matrix}−1 & \sqrt{3} \\ \sqrt{3} & 1\end{matrix}]\end{aligned}
 
 
 $$

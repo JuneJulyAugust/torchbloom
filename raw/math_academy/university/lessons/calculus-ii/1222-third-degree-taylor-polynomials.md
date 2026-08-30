@@ -16,7 +16,7 @@ Recall that we can approximate a function $f(x)$ using a second-degree Taylor po
 $$
 
 
-P_2(x) = \underbrace{f(a) + f'(a)(x-a)}_{\text{linear approximation}} + \underbrace{\dfrac{1}{2}f''(a)(x-a)^2}_{\textrm{new quadratic term}}.
+P_2(x) = \underbrace{f(a) + f'(a)(x-a)}_{\text{linear approximation}} + \underbrace{\dfrac{1}{2}f''(a)(x-a)^2}_{\text{new quadratic term}}.
 
 
 $$

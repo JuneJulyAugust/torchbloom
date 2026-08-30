@@ -170,7 +170,7 @@ So, the second derivative is
 $$
 
 
-\begin{aligned}𝒇^{″}(𝑥,𝑦) & =\begin{aligned}\frac{𝜕^{2}𝑓}{𝜕𝑥^{2}} & \frac{𝜕^{2}𝑓}{𝜕𝑥𝜕𝑦} \\ \frac{𝜕^{2}𝑓}{𝜕𝑦𝜕𝑥} & \frac{𝜕^{2}𝑓}{𝜕𝑦^{2}}\end{aligned}=[\begin{aligned}4 & −1 \\ −1 & 2\end{aligned}].\end{aligned}
+\begin{aligned}𝒇^{″}(𝑥,𝑦) & =\begin{matrix}\frac{𝜕^{2}𝑓}{𝜕𝑥^{2}} & \frac{𝜕^{2}𝑓}{𝜕𝑥𝜕𝑦} \\ \frac{𝜕^{2}𝑓}{𝜕𝑦𝜕𝑥} & \frac{𝜕^{2}𝑓}{𝜕𝑦^{2}}\end{matrix}=[\begin{matrix}4 & −1 \\ −1 & 2\end{matrix}].\end{aligned}
 
 
 $$
@@ -238,7 +238,7 @@ So, the second derivative is
 $$
 
 
-\begin{aligned}𝒇^{″}(𝑥,𝑦) & =\begin{aligned}\frac{𝜕^{2}𝑓}{𝜕𝑥^{2}} & \frac{𝜕^{2}𝑓}{𝜕𝑥𝜕𝑦} \\ \frac{𝜕^{2}𝑓}{𝜕𝑦𝜕𝑥} & \frac{𝜕^{2}𝑓}{𝜕𝑦^{2}}\end{aligned}=[\begin{aligned}−2 & 0 \\ 0 & 2\end{aligned}].\end{aligned}
+\begin{aligned}𝒇^{″}(𝑥,𝑦) & =\begin{matrix}\frac{𝜕^{2}𝑓}{𝜕𝑥^{2}} & \frac{𝜕^{2}𝑓}{𝜕𝑥𝜕𝑦} \\ \frac{𝜕^{2}𝑓}{𝜕𝑦𝜕𝑥} & \frac{𝜕^{2}𝑓}{𝜕𝑦^{2}}\end{matrix}=[\begin{matrix}−2 & 0 \\ 0 & 2\end{matrix}].\end{aligned}
 
 
 $$
@@ -248,7 +248,7 @@ Evaluating the second derivative at $(1,-1),$ we obtain
 $$
 
 
-\begin{aligned}𝒇^{″}(1,−1)=[\begin{aligned}−2 & 0 \\ 0 & 2\end{aligned}].\end{aligned}
+\begin{aligned}𝒇^{″}(1,−1)=[\begin{matrix}−2 & 0 \\ 0 & 2\end{matrix}].\end{aligned}
 
 
 $$

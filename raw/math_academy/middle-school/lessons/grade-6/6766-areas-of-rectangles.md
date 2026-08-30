@@ -14,19 +14,19 @@ Topic ID: 6766
 
 The **area** of a shape is a measure of the two-dimensional space it covers. For example, we use area to figure out how much paint is needed for a wall or how much carpet is needed for a floor.
 
-To measure area, we use a **square unit**. A square unit is a square whose sides are 1 unit long. For instance, let's look at a square with a side length of $1\,\textrm{in}.$
+To measure area, we use a **square unit**. A square unit is a square whose sides are 1 unit long. For instance, let's look at a square with a side length of $1\,\text{in}.$
 
 ![Instructional graphic](../../../lesson-assets/grade-6/topic-6766/22ee1a2b2804bfad.png)
 
-The area of this square is ${\color{red}{1\,\textrm{in}^2}},$ which we read as "one square inch."
+The area of this square is ${\color{red}{1\,\text{in}^2}},$ which we read as "one square inch."
 
 Other common square units include:
 
-- One square centimeter ($1\,\textrm{cm}^2$)
+- One square centimeter ($1\,\text{cm}^2$)
 
-- One square meter ($1\,\textrm{m}^2$)
+- One square meter ($1\,\text{m}^2$)
 
-- One square foot ($1\,\textrm{ft}^2$)
+- One square foot ($1\,\text{ft}^2$)
 
 In the next slides, we will see how to find the area of larger shapes by counting how many square units fit inside them.
 
@@ -50,7 +50,7 @@ $$
 
 $$
 
-Since each grid square has an area of $1\,\textrm{cm}^2,$ the total area of the large square is $9\,\textrm{cm}^2.$
+Since each grid square has an area of $1\,\text{cm}^2,$ the total area of the large square is $9\,\text{cm}^2.$
 
 ### Formula for the Area of a Square
 
@@ -62,13 +62,13 @@ $$
 
 
 
-\textrm{Area} = (\textrm{Side Length})^2
+\text{Area} = (\text{Side Length})^2
 
 
 
 $$
 
-For our square, the side length is $3\,\textrm{cm}.$ Let's use the formula to calculate the area:
+For our square, the side length is $3\,\text{cm}.$ Let's use the formula to calculate the area:
 
 $$
 
@@ -98,19 +98,19 @@ $$
 
 
 
-\textrm{Area} = (\textrm{Side Length})^2.
+\text{Area} = (\text{Side Length})^2.
 
 
 
 $$
 
-Note that each side of a grid cell measures $3\,\textrm{ft},$ and each side of the shaded square covers $4$ grid cells. So, the length of each side of the shaded square is
+Note that each side of a grid cell measures $3\,\text{ft},$ and each side of the shaded square covers $4$ grid cells. So, the length of each side of the shaded square is
 
 $$
 
 
 
-\textrm{Side Length} = 4 \times 3\:\textrm{ft} = 12 \,\textrm{ft}.
+\text{Side Length} = 4 \times 3\:\text{ft} = 12 \,\text{ft}.
 
 
 
@@ -144,7 +144,7 @@ $$
 
 
 
-\textrm{Area} = (\textrm{Side Length})^2.
+\text{Area} = (\text{Side Length})^2.
 
 
 
@@ -156,7 +156,7 @@ $$
 
 
 
-\textrm{Side Length} = 7\,\textrm{m}.
+\text{Side Length} = 7\,\text{m}.
 
 
 
@@ -198,7 +198,7 @@ $$
 
 
 
-a = {PQ} = 10\,\textrm{cm}, \qquad b = {PS} = 6\,\textrm{cm}.
+a = {PQ} = 10\,\text{cm}, \qquad b = {PS} = 6\,\text{cm}.
 
 
 
@@ -234,7 +234,7 @@ $$
 
 
 
-\mathcal{A} = a \cdot b = 60\,\textrm{cm}^2,
+\mathcal{A} = a \cdot b = 60\,\text{cm}^2,
 
 
 
@@ -344,13 +344,13 @@ $$
 
 $$
 
-Therefore, the length of the missing side is $8\,\textrm{m}.$
+Therefore, the length of the missing side is $8\,\text{m}.$
 
 ### Example: Calculating the Length of a Side of a Rectangle Given Another Side and Its Area
 
 #### Question
 
-The area of the rectangular field shown below is $2,400\,\textrm{m}^2.$ If the length of the rectangle is $60\:\textrm{m},$ what is its width?
+The area of the rectangular field shown below is $2,400\,\text{m}^2.$ If the length of the rectangle is $60\:\text{m},$ what is its width?
 
 ![Instructional graphic](../../../lesson-assets/grade-6/topic-6766/77c830c18a949db5.png)
 
@@ -394,4 +394,4 @@ $$
 
 $$
 
-Therefore, the width is $40\:\textrm{m}.$
+Therefore, the width is $40\:\text{m}.$

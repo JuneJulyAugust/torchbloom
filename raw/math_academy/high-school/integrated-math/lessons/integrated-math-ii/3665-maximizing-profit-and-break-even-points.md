@@ -35,7 +35,7 @@ The $x$-coordinate of the vertex can be found using the formula
 $$
 
 
-x_\textrm{max}= -\dfrac{b}{2a}.
+x_\text{max}= -\dfrac{b}{2a}.
 
 
 $$
@@ -45,7 +45,7 @@ For the function $P(x) = -3x^2 + 120x - 42,$ we have $a = -3$ and $b=120,$ which
 $$
 
 
-x_\textrm{max}=-\dfrac{120}{2(-3)}=20.
+x_\text{max}=-\dfrac{120}{2(-3)}=20.
 
 
 $$
@@ -81,7 +81,7 @@ The $x$-coordinate of the vertex can be found using the formula
 $$
 
 
-x_{\textrm{min}}= -\dfrac{b}{2a}.
+x_{\text{min}}= -\dfrac{b}{2a}.
 
 
 $$
@@ -91,7 +91,7 @@ For the function $C(x) =0.4x^2-24x+520,$ we have $a = 0.4$ and $b=-24,$ which gi
 $$
 
 
-x_{\textrm{min}}=-\dfrac{-24}{2(0.4)}=30.
+x_{\text{min}}=-\dfrac{-24}{2(0.4)}=30.
 
 
 $$
@@ -147,7 +147,7 @@ The $x$-coordinate of the vertex can be found using the formula
 $$
 
 
-x_\textrm{max}= -\dfrac{b}{2a}.
+x_\text{max}= -\dfrac{b}{2a}.
 
 
 $$
@@ -157,7 +157,7 @@ For the function $P(x) = -0.04x^2+10x-610,$ we have $a = -0.04$ and $b=10,$ whic
 $$
 
 
-x_\textrm{max}=-\dfrac{10}{2(-0.04)}=125.
+x_\text{max}=-\dfrac{10}{2(-0.04)}=125.
 
 
 $$
@@ -235,7 +235,7 @@ Now, to solve for $x,$ we apply the quadratic formula:
 $$
 
 
-\begin{aligned}𝑥 & =\frac{−(−900)±\sqrt{√(−900)^{2}−4(1)(200\,000)}}{2} \\ & =\frac{900±\sqrt{√10\,000}}{2} \\ & =\frac{900±100}{2} \\ & =450±50\end{aligned}
+\begin{aligned}𝑥 & =\frac{−(−900)±\sqrt{(−900)^{2}−4(1)(200\,000)}}{2} \\ & =\frac{900±\sqrt{10\,000}}{2} \\ & =\frac{900±100}{2} \\ & =450±50\end{aligned}
 
 
 $$

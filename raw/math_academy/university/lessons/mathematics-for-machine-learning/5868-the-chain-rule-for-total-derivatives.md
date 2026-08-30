@@ -39,7 +39,7 @@ In a previous lesson, we saw that the derivative of $f(\mathbf{y}(x))$ with resp
 $$
 
 
-\dfrac{\textrm{d} f}{\textrm{d}x}= \dfrac{\partial f}{\partial y_1} \cdot \dfrac{\partial y_1}{\partial x} + \dfrac{\partial f}{\partial y_2} \cdot \dfrac{\partial y_2}{\partial x} + \dots + \dfrac{\partial f}{\partial y_n} \cdot \dfrac{\partial y_n}{\partial x}
+\dfrac{\text{d} f}{\text{d}x}= \dfrac{\partial f}{\partial y_1} \cdot \dfrac{\partial y_1}{\partial x} + \dfrac{\partial f}{\partial y_2} \cdot \dfrac{\partial y_2}{\partial x} + \dots + \dfrac{\partial f}{\partial y_n} \cdot \dfrac{\partial y_n}{\partial x}
 
 
 $$
@@ -59,16 +59,16 @@ Now, notice that this can be written as
 $$
 
 
-\dfrac{\textrm{d} f}{\textrm{d}x} = \underbrace{\dfrac{\textrm{d}f}{\textrm{d}\mathbf y}}_{1\times n} \cdot \underbrace{\dfrac{\textrm{d}\mathbf y}{\textrm{d}x}}_{n\times 1}
+\dfrac{\text{d} f}{\text{d}x} = \underbrace{\dfrac{\text{d}f}{\text{d}\mathbf y}}_{1\times n} \cdot \underbrace{\dfrac{\text{d}\mathbf y}{\text{d}x}}_{n\times 1}
 
 
 $$
 
 where
 
-- $\dfrac{\textrm{d}f}{\textrm{d}\mathbf y}$ is the *total derivative* of $f$ with respect to $\mathbf y$, which is a row vector of size $1\times n$, and
+- $\dfrac{\text{d}f}{\text{d}\mathbf y}$ is the *total derivative* of $f$ with respect to $\mathbf y$, which is a row vector of size $1\times n$, and
 
-- $\dfrac{\textrm{d}\mathbf y}{\textrm{d}x}$ is the *total derivative* of $\mathbf y$ with respect to $x$, which is a column vector of size $n\times 1.$
+- $\dfrac{\text{d}\mathbf y}{\text{d}x}$ is the *total derivative* of $\mathbf y$ with respect to $x$, which is a column vector of size $n\times 1.$
 
 In the next slides, we will apply this matrix formulation to a concrete example.
 
@@ -81,7 +81,7 @@ The **chain rule for total derivatives** tells us that
 $$
 
 
-\underbrace{\dfrac{\textrm{d}\mathbf{f}}{\textrm{d} \mathbf{x}}}_{m \times n} = \underbrace{\dfrac{\textrm{d}\mathbf{f}}{\textrm{d} \mathbf{y}}}_{m \times q} \cdot \underbrace{\dfrac{\textrm{d}\mathbf{y}}{\textrm{d} \mathbf{x}}}_{q \times n}.
+\underbrace{\dfrac{\text{d}\mathbf{f}}{\text{d} \mathbf{x}}}_{m \times n} = \underbrace{\dfrac{\text{d}\mathbf{f}}{\text{d} \mathbf{y}}}_{m \times q} \cdot \underbrace{\dfrac{\text{d}\mathbf{y}}{\text{d} \mathbf{x}}}_{q \times n}.
 
 
 $$
@@ -93,7 +93,7 @@ Here, the dot denotes matrix multiplication. The inner matrix dimensions match, 
 $$
 
 
-\dfrac{\textrm{d}\mathbf{f}}{\textrm{d} \mathbf{x}} = \underbrace{\dfrac{\textrm{d}\mathbf{y}}{\textrm{d} \mathbf{x}}}_{q \times n} \cdot \underbrace{\dfrac{\textrm{d}\mathbf{f}}{\textrm{d} \mathbf{y}}}_{m \times q} \qquad \text{(WRONG!)}
+\dfrac{\text{d}\mathbf{f}}{\text{d} \mathbf{x}} = \underbrace{\dfrac{\text{d}\mathbf{y}}{\text{d} \mathbf{x}}}_{q \times n} \cdot \underbrace{\dfrac{\text{d}\mathbf{f}}{\text{d} \mathbf{y}}}_{m \times q} \qquad \text{(WRONG!)}
 
 
 $$
@@ -123,7 +123,7 @@ The chain rule states that
 $$
 
 
-\dfrac{\textrm{d} \mathbf{f}}{\textrm{d} \mathbf{x}} = \dfrac{\textrm{d}\mathbf{f}}{\textrm{d} \mathbf{y}} \cdot \dfrac{\textrm{d}\mathbf{y}}{\textrm{d} \mathbf{x}}.
+\dfrac{\text{d} \mathbf{f}}{\text{d} \mathbf{x}} = \dfrac{\text{d}\mathbf{f}}{\text{d} \mathbf{y}} \cdot \dfrac{\text{d}\mathbf{y}}{\text{d} \mathbf{x}}.
 
 
 $$
@@ -149,7 +149,7 @@ Then, by the chain rule, we have
 $$
 
 
-\begin{aligned}\frac{d𝐟}{d𝐱} & =\frac{d𝐟}{d𝐲}⋅\frac{d𝐲}{d𝐱} \\ & =[\begin{aligned}1 & 1 \\ 1 & −2\end{aligned}]⋅[\begin{aligned}2𝑥_{1} & 0 \\ 0 & 2𝑥_{2}\end{aligned}] \\ & =[\begin{aligned}2𝑥_{1} & 2𝑥_{2} \\ 2𝑥_{1} & −4𝑥_{2}\end{aligned}].\end{aligned}
+\begin{aligned}\frac{d𝐟}{d𝐱} & =\frac{d𝐟}{d𝐲}⋅\frac{d𝐲}{d𝐱} \\ & =[\begin{matrix}1 & 1 \\ 1 & −2\end{matrix}]⋅[\begin{matrix}2𝑥_{1} & 0 \\ 0 & 2𝑥_{2}\end{matrix}] \\ & =[\begin{matrix}2𝑥_{1} & 2𝑥_{2} \\ 2𝑥_{1} & −4𝑥_{2}\end{matrix}].\end{aligned}
 
 
 $$
@@ -175,7 +175,7 @@ First, we substitute $\mathbf{y}$ into $\mathbf{f}$ to write $\mathbf{f}$ explic
 $$
 
 
-[\begin{aligned}𝑥_{21}^{}+𝑥_{22}^{} \\ 𝑥_{21}^{}−2𝑥_{22}^{}\end{aligned}]
+[\begin{aligned}𝑥_{21}+𝑥_{22} \\ 𝑥_{21}−2𝑥_{22}\end{aligned}]
 
 
 $$
@@ -185,7 +185,7 @@ Now, we compute the derivative of $\mathbf f$ with respect to $\mathbf x{:}$
 $$
 
 
-\begin{aligned}\frac{d𝐟}{d𝐱} & =\begin{aligned}\frac{𝜕𝑓_{1}}{𝜕𝑥_{1}} & \frac{𝜕𝑓_{1}}{𝜕𝑥_{2}} \\ \frac{𝜕𝑓_{2}}{𝜕𝑥_{1}} & \frac{𝜕𝑓_{2}}{𝜕𝑥_{2}}\end{aligned} \\ & =[\begin{aligned}2𝑥_{1} & 2𝑥_{2} \\ 2𝑥_{1} & −4𝑥_{2}\end{aligned}].\end{aligned}
+\begin{aligned}\frac{d𝐟}{d𝐱} & =\begin{matrix}\frac{𝜕𝑓_{1}}{𝜕𝑥_{1}} & \frac{𝜕𝑓_{1}}{𝜕𝑥_{2}} \\ \frac{𝜕𝑓_{2}}{𝜕𝑥_{1}} & \frac{𝜕𝑓_{2}}{𝜕𝑥_{2}}\end{matrix} \\ & =[\begin{matrix}2𝑥_{1} & 2𝑥_{2} \\ 2𝑥_{1} & −4𝑥_{2}\end{matrix}].\end{aligned}
 
 
 $$
@@ -285,7 +285,7 @@ Therefore, we have
 $$
 
 
-\begin{aligned}\frac{d}{d𝐱}𝐟(𝐲(𝐱))_{𝐱_{0}} & =\frac{d𝐟}{d𝐲}_{𝐲_{0}}⋅\frac{d𝐲}{d𝐱}_{𝐱_{0}} \\ & =[\begin{aligned}1 & 1 \\ 1 & −1\end{aligned}]⋅[\begin{aligned}1 & 1 & −1 \\ 1 & −1 & 1\end{aligned}] \\ & =[\begin{aligned}2 & 0 & 0 \\ 0 & 2 & −2\end{aligned}].\end{aligned}
+\begin{aligned}\frac{d}{d𝐱}𝐟(𝐲(𝐱))_{𝐱_{0}} & =\frac{d𝐟}{d𝐲}_{𝐲_{0}}⋅\frac{d𝐲}{d𝐱}_{𝐱_{0}} \\ & =[\begin{matrix}1 & 1 \\ 1 & −1\end{matrix}]⋅[\begin{matrix}1 & 1 & −1 \\ 1 & −1 & 1\end{matrix}] \\ & =[\begin{matrix}2 & 0 & 0 \\ 0 & 2 & −2\end{matrix}].\end{aligned}
 
 
 $$
@@ -327,7 +327,7 @@ Since these derivatives are constant matrices, the value at $\mathbf{x}_0$ is si
 $$
 
 
-\begin{aligned}\frac{d}{d𝐱}𝐟(𝐲(𝐱)) & =\frac{d𝐟}{d𝐲}⋅\frac{d𝐲}{d𝐱} \\ & =𝐁𝐀 \\ & =[\begin{aligned}3 & 2 \\ 1 & −1\end{aligned}][\begin{aligned}1 & 0 & 2 \\ −1 & 3 & 4\end{aligned}] \\ & =[\begin{aligned}1 & 6 & 14 \\ 2 & −3 & −2\end{aligned}].\end{aligned}
+\begin{aligned}\frac{d}{d𝐱}𝐟(𝐲(𝐱)) & =\frac{d𝐟}{d𝐲}⋅\frac{d𝐲}{d𝐱} \\ & =𝐁𝐀 \\ & =[\begin{matrix}3 & 2 \\ 1 & −1\end{matrix}][\begin{matrix}1 & 0 & 2 \\ −1 & 3 & 4\end{matrix}] \\ & =[\begin{matrix}1 & 6 & 14 \\ 2 & −3 & −2\end{matrix}].\end{aligned}
 
 
 $$
@@ -371,7 +371,7 @@ Therefore, we have
 $$
 
 
-\begin{aligned}\frac{d}{d𝐱}𝐟(𝐲(𝐱)) & =\frac{d𝐟}{d𝐲}⋅\frac{d𝐲}{d𝐱} \\ & =𝐁𝐀 \\ & =\begin{aligned}−1 & 0 \\ −3 & 1 \\ 2 & 4\end{aligned}[\begin{aligned}2 & 1 & 0 \\ 4 & −3 & 1\end{aligned}] \\ & =\begin{aligned}−2 & −1 & 0 \\ −2 & −6 & 1 \\ 20 & −10 & 4\end{aligned}.\end{aligned}
+\begin{aligned}\frac{d}{d𝐱}𝐟(𝐲(𝐱)) & =\frac{d𝐟}{d𝐲}⋅\frac{d𝐲}{d𝐱} \\ & =𝐁𝐀 \\ & =\begin{matrix}−1 & 0 \\ −3 & 1 \\ 2 & 4\end{matrix}[\begin{matrix}2 & 1 & 0 \\ 4 & −3 & 1\end{matrix}] \\ & =\begin{matrix}−2 & −1 & 0 \\ −2 & −6 & 1 \\ 20 & −10 & 4\end{matrix}.\end{aligned}
 
 
 $$
@@ -409,7 +409,7 @@ For $\mathbf x, \mathbf y, \mathbf z\in\mathbb R^2,$ consider the following func
 $$
 
 
-\begin{aligned} & 𝐲(𝐱)=𝐀𝐱\,where\,𝐀=[\begin{aligned}−1 & 1 \\ 0 & −1\end{aligned}] \\ & 𝐳(𝐲)=[\begin{aligned}𝑦_{1}−𝑦_{2} \\ 𝑦_{1}𝑦_{2}\end{aligned}] \\ & 𝐟(𝐳)=𝐂𝐳\,where\,𝐂=[\begin{aligned}2 & −1 \\ −1 & 2\end{aligned}]\end{aligned}
+\begin{aligned} & 𝐲(𝐱)=𝐀𝐱\,where\,𝐀=[\begin{matrix}−1 & 1 \\ 0 & −1\end{matrix}] \\ & 𝐳(𝐲)=[\begin{matrix}𝑦_{1}−𝑦_{2} \\ 𝑦_{1}𝑦_{2}\end{matrix}] \\ & 𝐟(𝐳)=𝐂𝐳\,where\,𝐂=[\begin{matrix}2 & −1 \\ −1 & 2\end{matrix}]\end{aligned}
 
 
 $$
@@ -441,7 +441,7 @@ Therefore, we have
 $$
 
 
-\begin{aligned}\frac{d}{d𝐱}𝐟(𝐳(𝐲(𝐱)))_{𝐱_{0}} & =\frac{d𝐟}{d𝐳}_{𝐳_{0}}⋅\frac{d𝐳}{d𝐲}_{𝐲_{0}}⋅\frac{d𝐲}{d𝐱}_{𝐱_{0}} \\ & =[\begin{aligned}2 & −1 \\ −1 & 2\end{aligned}]⋅[\begin{aligned}1 & −1 \\ −1 & 2\end{aligned}]⋅[\begin{aligned}−1 & 1 \\ 0 & −1\end{aligned}] \\ & =[\begin{aligned}3 & −4 \\ −3 & 5\end{aligned}]⋅[\begin{aligned}−1 & 1 \\ 0 & −1\end{aligned}] \\ & =[\begin{aligned}−3 & 7 \\ 3 & −8\end{aligned}].\end{aligned}
+\begin{aligned}\frac{d}{d𝐱}𝐟(𝐳(𝐲(𝐱)))_{𝐱_{0}} & =\frac{d𝐟}{d𝐳}_{𝐳_{0}}⋅\frac{d𝐳}{d𝐲}_{𝐲_{0}}⋅\frac{d𝐲}{d𝐱}_{𝐱_{0}} \\ & =[\begin{matrix}2 & −1 \\ −1 & 2\end{matrix}]⋅[\begin{matrix}1 & −1 \\ −1 & 2\end{matrix}]⋅[\begin{matrix}−1 & 1 \\ 0 & −1\end{matrix}] \\ & =[\begin{matrix}3 & −4 \\ −3 & 5\end{matrix}]⋅[\begin{matrix}−1 & 1 \\ 0 & −1\end{matrix}] \\ & =[\begin{matrix}−3 & 7 \\ 3 & −8\end{matrix}].\end{aligned}
 
 
 $$

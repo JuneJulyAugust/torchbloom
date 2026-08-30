@@ -223,7 +223,7 @@ We want to find $P(2.1 < \overline{X} < 2.3).$ So, we convert $\overline{X}$ to 
 $$
 
 
-\begin{aligned}𝑃(2.1<\overset{𝑋}{}<2.3) & =𝑃\frac{2.1−2}{\sqrt{√\frac{112}{297}}}<𝑍<\frac{2.3−2}{\sqrt{√\frac{112}{297}}} \\ & ≈𝑃(0.16<𝑍<0.49) \\ & =𝑃(𝑍≤0.49)−𝑃(𝑍≤0.16) \\ & =Φ(0.49)−Φ(0.16)\end{aligned}
+\begin{aligned}𝑃(2.1<\overset{𝑋}{}<2.3) & =𝑃\frac{2.1−2}{\sqrt{\frac{112}{297}}}<𝑍<\frac{2.3−2}{\sqrt{\frac{112}{297}}} \\ & ≈𝑃(0.16<𝑍<0.49) \\ & =𝑃(𝑍≤0.49)−𝑃(𝑍≤0.16) \\ & =Φ(0.49)−Φ(0.16)\end{aligned}
 
 
 $$
@@ -321,7 +321,7 @@ We want to find $P(\overline{X} \gt 70).$ So, we convert $\overline{X}$ to a sta
 $$
 
 
-\begin{aligned}𝑃(\overset{𝑋}{}>70) & =𝑃(𝑍>\frac{70−75}{\sqrt{√4}}) \\ & =𝑃(𝑍>−2.5) \\ & =1−𝑃(𝑍≤−2.5) \\ & =1−Φ(−2.5)\end{aligned}
+\begin{aligned}𝑃(\overset{𝑋}{}>70) & =𝑃(𝑍>\frac{70−75}{\sqrt{4}}) \\ & =𝑃(𝑍>−2.5) \\ & =1−𝑃(𝑍≤−2.5) \\ & =1−Φ(−2.5)\end{aligned}
 
 
 $$

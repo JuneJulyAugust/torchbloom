@@ -48,7 +48,7 @@ This explains why we couldn't cancel out the common factor of $(x-1).$ The funct
 $$
 
 
-y = \dfrac{x-1}{x(x-1)}\quad\textrm{and}\quad y=\dfrac1x
+y = \dfrac{x-1}{x(x-1)}\quad\text{and}\quad y=\dfrac1x
 
 
 $$

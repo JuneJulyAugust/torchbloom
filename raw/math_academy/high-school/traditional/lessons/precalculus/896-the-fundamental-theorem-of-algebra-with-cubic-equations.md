@@ -132,7 +132,7 @@ The Argand diagram above shows the roots of the cubic polynomial $f(x).$ Find $f
 
 #### Explanation
 
-From the diagram, we see that $f(x)$ has roots ${\color{black}x_1= 2}$ and ${\color{black}x_{2,3}=-2\pm \textrm{i}}.$ Additionally, we're given that the coefficient of the cubic term is ${\color{black}a=1}.$
+From the diagram, we see that $f(x)$ has roots ${\color{black}x_1= 2}$ and ${\color{black}x_{2,3}=-2\pm \text{i}}.$ Additionally, we're given that the coefficient of the cubic term is ${\color{black}a=1}.$
 
 Therefore, we can write the polynomial as follows:
 

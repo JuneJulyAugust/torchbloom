@@ -44,7 +44,7 @@ is a $C^1$ transformation, meaning that it and its first derivatives are continu
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑥,𝑦,𝑧)}{𝜕(𝑢,𝑣,𝑤)} & =\begin{aligned}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} & \frac{𝜕𝑥}{𝜕𝑤} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣} & \frac{𝜕𝑦}{𝜕𝑤} \\ \frac{𝜕𝑧}{𝜕𝑢} & \frac{𝜕𝑧}{𝜕𝑣} & \frac{𝜕𝑧}{𝜕𝑤}\end{aligned}.\end{aligned}
+\begin{aligned}\frac{𝜕(𝑥,𝑦,𝑧)}{𝜕(𝑢,𝑣,𝑤)} & =\begin{matrix}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} & \frac{𝜕𝑥}{𝜕𝑤} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣} & \frac{𝜕𝑦}{𝜕𝑤} \\ \frac{𝜕𝑧}{𝜕𝑢} & \frac{𝜕𝑧}{𝜕𝑣} & \frac{𝜕𝑧}{𝜕𝑤}\end{matrix}.\end{aligned}
 
 
 $$
@@ -64,7 +64,7 @@ Therefore, the corresponding Jacobian determinant is
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑥,𝑦,𝑧)}{𝜕(𝑢,𝑣,𝑤)} & =\begin{aligned}sin⁡𝑣cos⁡𝑤 & 𝑢cos⁡𝑣cos⁡𝑤 & −𝑢sin⁡𝑣sin⁡𝑤 \\ sin⁡𝑣sin⁡𝑤 & 𝑢cos⁡𝑣sin⁡𝑤 & 𝑢sin⁡𝑣cos⁡𝑤 \\ cos⁡𝑣 & −𝑢sin⁡𝑣 & 0\end{aligned} \\ & =cos⁡𝑣\begin{aligned}𝑢cos⁡𝑣cos⁡𝑤 & −𝑢sin⁡𝑣sin⁡𝑤 \\ 𝑢cos⁡𝑣sin⁡𝑤 & 𝑢sin⁡𝑣cos⁡𝑤\end{aligned}+𝑢sin⁡𝑣\begin{aligned}sin⁡𝑣cos⁡𝑤 & −𝑢sin⁡𝑣sin⁡𝑤 \\ sin⁡𝑣sin⁡𝑤 & 𝑢sin⁡𝑣cos⁡𝑤\end{aligned} \\ & =cos⁡𝑣⋅𝑢^{2}cos⁡𝑣sin⁡𝑣⋅(cos^{2}⁡𝑤+sin^{2}⁡𝑤)+𝑢sin⁡𝑣⋅𝑢sin^{2}⁡𝑣⋅(cos^{2}⁡𝑤+sin^{2}⁡𝑤) \\ & =𝑢^{2}cos^{2}⁡𝑣sin⁡𝑣+𝑢^{2}sin^{2}⁡𝑣sin⁡𝑣 \\ & =𝑢^{2}sin⁡𝑣⋅(cos^{2}⁡𝑣+sin^{2}⁡𝑣) \\ & =𝑢^{2}sin⁡𝑣.\end{aligned}
+\begin{aligned}\frac{𝜕(𝑥,𝑦,𝑧)}{𝜕(𝑢,𝑣,𝑤)} & =\begin{matrix}sin⁡𝑣cos⁡𝑤 & 𝑢cos⁡𝑣cos⁡𝑤 & −𝑢sin⁡𝑣sin⁡𝑤 \\ sin⁡𝑣sin⁡𝑤 & 𝑢cos⁡𝑣sin⁡𝑤 & 𝑢sin⁡𝑣cos⁡𝑤 \\ cos⁡𝑣 & −𝑢sin⁡𝑣 & 0\end{matrix} \\ & =cos⁡𝑣\begin{matrix}𝑢cos⁡𝑣cos⁡𝑤 & −𝑢sin⁡𝑣sin⁡𝑤 \\ 𝑢cos⁡𝑣sin⁡𝑤 & 𝑢sin⁡𝑣cos⁡𝑤\end{matrix}+𝑢sin⁡𝑣\begin{matrix}sin⁡𝑣cos⁡𝑤 & −𝑢sin⁡𝑣sin⁡𝑤 \\ sin⁡𝑣sin⁡𝑤 & 𝑢sin⁡𝑣cos⁡𝑤\end{matrix} \\ & =cos⁡𝑣⋅𝑢^{2}cos⁡𝑣sin⁡𝑣⋅(cos^{2}⁡𝑤+sin^{2}⁡𝑤)+𝑢sin⁡𝑣⋅𝑢sin^{2}⁡𝑣⋅(cos^{2}⁡𝑤+sin^{2}⁡𝑤) \\ & =𝑢^{2}cos^{2}⁡𝑣sin⁡𝑣+𝑢^{2}sin^{2}⁡𝑣sin⁡𝑣 \\ & =𝑢^{2}sin⁡𝑣⋅(cos^{2}⁡𝑣+sin^{2}⁡𝑣) \\ & =𝑢^{2}sin⁡𝑣.\end{aligned}
 
 
 $$
@@ -122,7 +122,7 @@ the Jacobian determinant of $\mathbf T,$ denoted $\dfrac{\partial (x, y, z)}{\pa
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑥,𝑦,𝑧)}{𝜕(𝑢,𝑣,𝑤)} & =\begin{aligned}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} & \frac{𝜕𝑥}{𝜕𝑤} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣} & \frac{𝜕𝑦}{𝜕𝑤} \\ \frac{𝜕𝑧}{𝜕𝑢} & \frac{𝜕𝑧}{𝜕𝑣} & \frac{𝜕𝑧}{𝜕𝑤}\end{aligned}.\end{aligned}
+\begin{aligned}\frac{𝜕(𝑥,𝑦,𝑧)}{𝜕(𝑢,𝑣,𝑤)} & =\begin{matrix}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} & \frac{𝜕𝑥}{𝜕𝑤} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣} & \frac{𝜕𝑦}{𝜕𝑤} \\ \frac{𝜕𝑧}{𝜕𝑢} & \frac{𝜕𝑧}{𝜕𝑣} & \frac{𝜕𝑧}{𝜕𝑤}\end{matrix}.\end{aligned}
 
 
 $$
@@ -142,7 +142,7 @@ Therefore, the corresponding Jacobian determinant is
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑥,𝑦,𝑧)}{𝜕(𝑢,𝑣,𝑤)} & =\begin{aligned}2 & −1 & 0 \\ 1 & 3 & 1 \\ 1 & 2 & −1\end{aligned} \\ & =2\begin{aligned}3 & 1 \\ 2 & −1\end{aligned}−(−1)⋅\begin{aligned}1 & 1 \\ 1 & −1\end{aligned} \\ & =2(−3−2)+(−1−1) \\ & =−10−2 \\ & =−12.\end{aligned}
+\begin{aligned}\frac{𝜕(𝑥,𝑦,𝑧)}{𝜕(𝑢,𝑣,𝑤)} & =\begin{matrix}2 & −1 & 0 \\ 1 & 3 & 1 \\ 1 & 2 & −1\end{matrix} \\ & =2\begin{matrix}3 & 1 \\ 2 & −1\end{matrix}−(−1)⋅\begin{matrix}1 & 1 \\ 1 & −1\end{matrix} \\ & =2(−3−2)+(−1−1) \\ & =−10−2 \\ & =−12.\end{aligned}
 
 
 $$
@@ -212,7 +212,7 @@ the Jacobian determinant of $\mathbf T,$ denoted $\dfrac{\partial (x, y, z)}{\pa
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑥,𝑦,𝑧)}{𝜕(𝑢,𝑣,𝑤)} & =\begin{aligned}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} & \frac{𝜕𝑥}{𝜕𝑤} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣} & \frac{𝜕𝑦}{𝜕𝑤} \\ \frac{𝜕𝑧}{𝜕𝑢} & \frac{𝜕𝑧}{𝜕𝑣} & \frac{𝜕𝑧}{𝜕𝑤}\end{aligned}.\end{aligned}
+\begin{aligned}\frac{𝜕(𝑥,𝑦,𝑧)}{𝜕(𝑢,𝑣,𝑤)} & =\begin{matrix}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} & \frac{𝜕𝑥}{𝜕𝑤} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣} & \frac{𝜕𝑦}{𝜕𝑤} \\ \frac{𝜕𝑧}{𝜕𝑢} & \frac{𝜕𝑧}{𝜕𝑣} & \frac{𝜕𝑧}{𝜕𝑤}\end{matrix}.\end{aligned}
 
 
 $$
@@ -242,7 +242,7 @@ Therefore, the corresponding Jacobian determinant is
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑥,𝑦,𝑧)}{𝜕(𝑢,𝑣,𝑤)} & =\begin{aligned}−3𝑢^{2} & 0 & 1 \\ 2𝑣 & 2𝑢 & 0 \\ 2𝑢 & 1 & 0\end{aligned} \\ & =−3𝑢^{2}\begin{aligned}2𝑢 & 0 \\ 1 & 0\end{aligned}+1\begin{aligned}2𝑣 & 2𝑢 \\ 2𝑢 & 1\end{aligned} \\ & =−3𝑢^{2}(0−0)+1(2𝑣−4𝑢^{2}) \\ & =2(𝑣−2𝑢^{2}).\end{aligned}
+\begin{aligned}\frac{𝜕(𝑥,𝑦,𝑧)}{𝜕(𝑢,𝑣,𝑤)} & =\begin{matrix}−3𝑢^{2} & 0 & 1 \\ 2𝑣 & 2𝑢 & 0 \\ 2𝑢 & 1 & 0\end{matrix} \\ & =−3𝑢^{2}\begin{matrix}2𝑢 & 0 \\ 1 & 0\end{matrix}+1\begin{matrix}2𝑣 & 2𝑢 \\ 2𝑢 & 1\end{matrix} \\ & =−3𝑢^{2}(0−0)+1(2𝑣−4𝑢^{2}) \\ & =2(𝑣−2𝑢^{2}).\end{aligned}
 
 
 $$
@@ -294,7 +294,7 @@ the Jacobian determinant of $\mathbf T,$ denoted $\dfrac{\partial (x, y, z)}{\pa
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑥,𝑦,𝑧)}{𝜕(𝑢,𝑣,𝑤)} & =\begin{aligned}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} & \frac{𝜕𝑥}{𝜕𝑤} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣} & \frac{𝜕𝑦}{𝜕𝑤} \\ \frac{𝜕𝑧}{𝜕𝑢} & \frac{𝜕𝑧}{𝜕𝑣} & \frac{𝜕𝑧}{𝜕𝑤}\end{aligned}.\end{aligned}
+\begin{aligned}\frac{𝜕(𝑥,𝑦,𝑧)}{𝜕(𝑢,𝑣,𝑤)} & =\begin{matrix}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} & \frac{𝜕𝑥}{𝜕𝑤} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣} & \frac{𝜕𝑦}{𝜕𝑤} \\ \frac{𝜕𝑧}{𝜕𝑢} & \frac{𝜕𝑧}{𝜕𝑣} & \frac{𝜕𝑧}{𝜕𝑤}\end{matrix}.\end{aligned}
 
 
 $$
@@ -330,7 +330,7 @@ Therefore, the corresponding Jacobian determinant of $\mathbf{T}^{-1}$ is
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑢,𝑣,𝑤)}{𝜕(𝑥,𝑦,𝑧)} & =\begin{aligned}\frac{𝜕𝑢}{𝜕𝑥} & \frac{𝜕𝑢}{𝜕𝑦} & \frac{𝜕𝑢}{𝜕𝑧} \\ \frac{𝜕𝑣}{𝜕𝑥} & \frac{𝜕𝑣}{𝜕𝑦} & \frac{𝜕𝑣}{𝜕𝑧} \\ \frac{𝜕𝑤}{𝜕𝑥} & \frac{𝜕𝑤}{𝜕𝑦} & \frac{𝜕𝑤}{𝜕𝑧}\end{aligned} \\ & =\begin{aligned}2𝑥 & 0 & 0 \\ 𝑦 & 𝑥 & 0 \\ 0 & 𝑧 & 𝑦\end{aligned} \\ & =2𝑥\begin{aligned}𝑥 & 0 \\ 𝑧 & 𝑦\end{aligned} \\ & =2𝑥(𝑥𝑦−0) \\ & =2𝑥^{2}𝑦.\end{aligned}
+\begin{aligned}\frac{𝜕(𝑢,𝑣,𝑤)}{𝜕(𝑥,𝑦,𝑧)} & =\begin{matrix}\frac{𝜕𝑢}{𝜕𝑥} & \frac{𝜕𝑢}{𝜕𝑦} & \frac{𝜕𝑢}{𝜕𝑧} \\ \frac{𝜕𝑣}{𝜕𝑥} & \frac{𝜕𝑣}{𝜕𝑦} & \frac{𝜕𝑣}{𝜕𝑧} \\ \frac{𝜕𝑤}{𝜕𝑥} & \frac{𝜕𝑤}{𝜕𝑦} & \frac{𝜕𝑤}{𝜕𝑧}\end{matrix} \\ & =\begin{matrix}2𝑥 & 0 & 0 \\ 𝑦 & 𝑥 & 0 \\ 0 & 𝑧 & 𝑦\end{matrix} \\ & =2𝑥\begin{matrix}𝑥 & 0 \\ 𝑧 & 𝑦\end{matrix} \\ & =2𝑥(𝑥𝑦−0) \\ & =2𝑥^{2}𝑦.\end{aligned}
 
 
 $$
@@ -340,7 +340,7 @@ Writing down $\dfrac{\partial (u, v, w)}{\partial (x, y, z)}$ in terms of $u,$ $
 $$
 
 
-\begin{aligned}2𝑥^{2}𝑦 & =2⋅𝑥⋅(𝑥𝑦) \\ & =2⋅\sqrt{√𝑢}⋅𝑣 \\ & =2𝑣\sqrt{√𝑢}.\end{aligned}
+\begin{aligned}2𝑥^{2}𝑦 & =2⋅𝑥⋅(𝑥𝑦) \\ & =2⋅\sqrt{𝑢}⋅𝑣 \\ & =2𝑣\sqrt{𝑢}.\end{aligned}
 
 
 $$
@@ -350,7 +350,7 @@ Finally, we take the reciprocal:
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑥,𝑦,𝑧)}{𝜕(𝑢,𝑣,𝑤)} & =(\frac{𝜕(𝑢,𝑣,𝑤)}{𝜕(𝑥,𝑦,𝑧)})^{−1} \\ & =\frac{1}{2𝑣\sqrt{√𝑢}}.\end{aligned}
+\begin{aligned}\frac{𝜕(𝑥,𝑦,𝑧)}{𝜕(𝑢,𝑣,𝑤)} & =(\frac{𝜕(𝑢,𝑣,𝑤)}{𝜕(𝑥,𝑦,𝑧)})^{−1} \\ & =\frac{1}{2𝑣\sqrt{𝑢}}.\end{aligned}
 
 
 $$

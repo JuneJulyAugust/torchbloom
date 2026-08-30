@@ -28,7 +28,7 @@ In natural language, the associative law for conjunctions amounts to moving a co
 $$
 
 
-\underbrace{\vphantom{p}\textrm{The cat is quiet}}_{(A} \quad \underbrace{\textrm{and}\vphantom{p}}_{\land} \quad \underbrace{\vphantom{p}\textrm{the dog is loud}}_{B)} \quad , \quad \underbrace{\vphantom{p}\textrm{and}}_{\land} \quad \underbrace{\vphantom{p}\textrm{the turtle is slow}}_{C}
+\underbrace{\vphantom{p}\text{The cat is quiet}}_{(A} \quad \underbrace{\text{and}\vphantom{p}}_{\land} \quad \underbrace{\vphantom{p}\text{the dog is loud}}_{B)} \quad , \quad \underbrace{\vphantom{p}\text{and}}_{\land} \quad \underbrace{\vphantom{p}\text{the turtle is slow}}_{C}
 
 
 $$
@@ -38,7 +38,7 @@ is logically equivalent to the sentence
 $$
 
 
-\underbrace{\vphantom{p}\textrm{The cat is quiet}}_{A} \quad , \quad \underbrace{\vphantom{p}\textrm{and}}_{\land} \quad \underbrace{\vphantom{p}\textrm{the dog is loud}}_{(B} \quad \underbrace{\textrm{and}\vphantom{p}}_{\land} \quad \underbrace{\textrm{the turtle is slow}}_{C)}.
+\underbrace{\vphantom{p}\text{The cat is quiet}}_{A} \quad , \quad \underbrace{\vphantom{p}\text{and}}_{\land} \quad \underbrace{\vphantom{p}\text{the dog is loud}}_{(B} \quad \underbrace{\text{and}\vphantom{p}}_{\land} \quad \underbrace{\text{the turtle is slow}}_{C)}.
 
 
 $$
@@ -62,7 +62,7 @@ In natural language, the associative law for disjunctions amounts to moving a co
 $$
 
 
-\underbrace{\vphantom{p}\textrm{The cat is quiet}}_{(A} \quad \underbrace{\textrm{or}\vphantom{p}}_{\lor} \quad \underbrace{\vphantom{p}\textrm{the dog is loud}}_{B)} \quad , \quad \underbrace{\vphantom{p}\textrm{or}}_{\lor} \quad \underbrace{\vphantom{p}\textrm{the turtle is slow}}_{C}
+\underbrace{\vphantom{p}\text{The cat is quiet}}_{(A} \quad \underbrace{\text{or}\vphantom{p}}_{\lor} \quad \underbrace{\vphantom{p}\text{the dog is loud}}_{B)} \quad , \quad \underbrace{\vphantom{p}\text{or}}_{\lor} \quad \underbrace{\vphantom{p}\text{the turtle is slow}}_{C}
 
 
 $$
@@ -72,7 +72,7 @@ is logically equivalent to the sentence
 $$
 
 
-\underbrace{\vphantom{p}\textrm{The cat is quiet}}_{A} \quad , \quad \underbrace{\vphantom{p}\textrm{or}}_{\lor} \quad \underbrace{\vphantom{p}\textrm{the dog is loud}}_{(B} \quad \underbrace{\textrm{or}\vphantom{p}}_{\lor} \quad \underbrace{\textrm{the turtle is slow}}_{C)}.
+\underbrace{\vphantom{p}\text{The cat is quiet}}_{A} \quad , \quad \underbrace{\vphantom{p}\text{or}}_{\lor} \quad \underbrace{\vphantom{p}\text{the dog is loud}}_{(B} \quad \underbrace{\text{or}\vphantom{p}}_{\lor} \quad \underbrace{\text{the turtle is slow}}_{C)}.
 
 
 $$
@@ -138,7 +138,7 @@ In natural language, the commutative law for conjunctions amounts to swapping tw
 $$
 
 
-\underbrace{\vphantom{p}\textrm{The cat is quiet}}_{(A} \quad \underbrace{\textrm{and}\vphantom{p}}_{\land} \quad \underbrace{\vphantom{p}\textrm{the dog is loud}}_{B)}
+\underbrace{\vphantom{p}\text{The cat is quiet}}_{(A} \quad \underbrace{\text{and}\vphantom{p}}_{\land} \quad \underbrace{\vphantom{p}\text{the dog is loud}}_{B)}
 
 
 $$
@@ -148,7 +148,7 @@ is logically equivalent to the sentence
 $$
 
 
-\underbrace{\vphantom{p}\textrm{The dog is loud}}_{(B} \quad \underbrace{\textrm{and}\vphantom{p}}_{\land} \quad \underbrace{\vphantom{p}\textrm{the cat is quiet}}_{A)}.
+\underbrace{\vphantom{p}\text{The dog is loud}}_{(B} \quad \underbrace{\text{and}\vphantom{p}}_{\land} \quad \underbrace{\vphantom{p}\text{the cat is quiet}}_{A)}.
 
 
 $$
@@ -172,7 +172,7 @@ Likewise, in natural language, the commutative law for disjunctions amounts to s
 $$
 
 
-\underbrace{\vphantom{p}\textrm{The cat is quiet}}_{(A} \quad \underbrace{\textrm{or}\vphantom{p}}_{\lor} \quad \underbrace{\vphantom{p}\textrm{the dog is loud}}_{B)}
+\underbrace{\vphantom{p}\text{The cat is quiet}}_{(A} \quad \underbrace{\text{or}\vphantom{p}}_{\lor} \quad \underbrace{\vphantom{p}\text{the dog is loud}}_{B)}
 
 
 $$
@@ -182,7 +182,7 @@ is logically equivalent to the sentence
 $$
 
 
-\underbrace{\vphantom{p}\textrm{The dog is loud}}_{(B} \quad \underbrace{\textrm{or}\vphantom{p}}_{\lor} \quad \underbrace{\vphantom{p}\textrm{the cat is quiet}}_{A)}.
+\underbrace{\vphantom{p}\text{The dog is loud}}_{(B} \quad \underbrace{\text{or}\vphantom{p}}_{\lor} \quad \underbrace{\vphantom{p}\text{the cat is quiet}}_{A)}.
 
 
 $$

@@ -33,7 +33,7 @@ To calculate a line integral with respect to $x,$ we must first parameterize $C$
 $$
 
 
-\int\limits_C f(x, y) \, \textrm{d}x = \int\limits_a^b f(\mathbf r(t)) \, \dfrac{\text{d}x}{\text{d}t} \, \textrm{d}t.
+\int\limits_C f(x, y) \, \text{d}x = \int\limits_a^b f(\mathbf r(t)) \, \dfrac{\text{d}x}{\text{d}t} \, \text{d}t.
 
 
 $$
@@ -46,7 +46,7 @@ Let's take a look at a concrete example.
 
 ![Instructional graphic](../../../lesson-assets/multivariable-calculus/topic-2109/1cc5d0bda54c4349.png)
 
-Find a definite integral that's equivalent to the line integral $\displaystyle \int_C (x+y) \, \textrm{d} x,$ where $C$ is the path along the line segment from the point $(0,0)$ to the point $(3,3),$ as shown above.
+Find a definite integral that's equivalent to the line integral $\displaystyle \int_C (x+y) \, \text{d} x,$ where $C$ is the path along the line segment from the point $(0,0)$ to the point $(3,3),$ as shown above.
 
 #### Explanation
 
@@ -55,7 +55,7 @@ We will use the formula
 $$
 
 
-\int\limits_C f(x, y) \, \textrm{d}x = \int\limits_a^b f(\mathbf r(t)) \, \dfrac{\text{d}x}{\text{d}t} \, \textrm{d}t.
+\int\limits_C f(x, y) \, \text{d}x = \int\limits_a^b f(\mathbf r(t)) \, \dfrac{\text{d}x}{\text{d}t} \, \text{d}t.
 
 
 $$
@@ -72,7 +72,7 @@ $$
 
 where $0 \le t \le 1.$
 
-Computing $\dfrac{\textrm{d}x}{\textrm{d}t},$ we get the following:
+Computing $\dfrac{\text{d}x}{\text{d}t},$ we get the following:
 
 $$
 
@@ -97,7 +97,7 @@ Therefore, we can write the integral as
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}𝑓(𝑥,𝑦)\,d𝑥 & =∫_{10}^{}𝑓(𝐫(𝑡))\,\frac{d𝑥}{d𝑡}\,d𝑡 \\ & =∫_{10}^{}6𝑡⋅3\,d𝑡 \\ & =18∫_{10}^{}𝑡\,d𝑡.\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}𝑓(𝑥,𝑦)\,d𝑥 & =∫_{10}𝑓(𝐫(𝑡))\,\frac{d𝑥}{d𝑡}\,d𝑡 \\ & =∫_{10}6𝑡⋅3\,d𝑡 \\ & =18∫_{10}𝑡\,d𝑡.\end{aligned}
 
 
 $$
@@ -123,7 +123,7 @@ To calculate a line integral with respect to $y,$ we must first parameterize $C$
 $$
 
 
-\int\limits_C f(x, y) \, \textrm{d}y = \int\limits_a^b f(\mathbf r(t)) \, \dfrac{\text{d}y}{\text{d}t} \, \textrm{d}t.
+\int\limits_C f(x, y) \, \text{d}y = \int\limits_a^b f(\mathbf r(t)) \, \dfrac{\text{d}y}{\text{d}t} \, \text{d}t.
 
 
 $$
@@ -143,7 +143,7 @@ We will use the formula
 $$
 
 
-\int\limits_C f(x, y) \, \textrm{d}y = \int\limits_a^b f(\mathbf r(t)) \, \dfrac{\text{d}y}{\text{d}t} \, \textrm{d}t.
+\int\limits_C f(x, y) \, \text{d}y = \int\limits_a^b f(\mathbf r(t)) \, \dfrac{\text{d}y}{\text{d}t} \, \text{d}t.
 
 
 $$
@@ -158,7 +158,7 @@ $$
 
 $$
 
-Computing $\dfrac{\textrm{d}y}{\textrm{d}t},$ we get the following:
+Computing $\dfrac{\text{d}y}{\text{d}t},$ we get the following:
 
 $$
 
@@ -183,7 +183,7 @@ Therefore, we can write the integral as
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}𝑓(𝑥,𝑦)\,d𝑦 & =∫_{𝜋/20}^{}𝑓(𝐫(𝑡))\,\frac{d𝑦}{d𝑡}\,d𝑡 \\ & =∫_{𝜋/20}^{}(4cos^{2}⁡𝑡)⋅5cos⁡𝑡\,d𝑡 \\ & =20∫_{𝜋/20}^{}cos^{3}⁡𝑡\,d𝑡.\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}𝑓(𝑥,𝑦)\,d𝑦 & =∫_{𝜋/20}𝑓(𝐫(𝑡))\,\frac{d𝑦}{d𝑡}\,d𝑡 \\ & =∫_{𝜋/20}(4cos^{2}⁡𝑡)⋅5cos⁡𝑡\,d𝑡 \\ & =20∫_{𝜋/20}cos^{3}⁡𝑡\,d𝑡.\end{aligned}
 
 
 $$
@@ -203,7 +203,7 @@ We will use the formula
 $$
 
 
-\int\limits_C f(x, y) \, \textrm{d}y = \int\limits_a^b f(\mathbf r(t)) \, \dfrac{\text{d}y}{\text{d}t} \, \textrm{d}t.
+\int\limits_C f(x, y) \, \text{d}y = \int\limits_a^b f(\mathbf r(t)) \, \dfrac{\text{d}y}{\text{d}t} \, \text{d}t.
 
 
 $$
@@ -218,7 +218,7 @@ $$
 
 $$
 
-Computing $\dfrac{\textrm{d}y}{\textrm{d}t},$ we get the following:
+Computing $\dfrac{\text{d}y}{\text{d}t},$ we get the following:
 
 $$
 
@@ -243,7 +243,7 @@ We can now evaluate the integral:
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}𝑓(𝑥,𝑦)\,d𝑦 & =∫_{𝜋/20}^{}𝑓(𝐫(𝑡))\,\frac{d𝑦}{d𝑡}\,d𝑡 \\ & =∫_{𝜋/20}^{}4⋅(2cos⁡𝑡)⋅d𝑡 \\ & =8∫_{𝜋/20}^{}cos⁡𝑡\,d𝑡 \\ & =8sin⁡𝑡\,_{𝜋/20}^{} \\ & =8sin⁡(\frac{𝜋}{2})−8sin⁡0 \\ & =8.\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}𝑓(𝑥,𝑦)\,d𝑦 & =∫_{𝜋/20}𝑓(𝐫(𝑡))\,\frac{d𝑦}{d𝑡}\,d𝑡 \\ & =∫_{𝜋/20}4⋅(2cos⁡𝑡)⋅d𝑡 \\ & =8∫_{𝜋/20}cos⁡𝑡\,d𝑡 \\ & =8sin⁡𝑡\,_{𝜋/20} \\ & =8sin⁡(\frac{𝜋}{2})−8sin⁡0 \\ & =8.\end{aligned}
 
 
 $$

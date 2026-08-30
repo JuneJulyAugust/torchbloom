@@ -31,7 +31,7 @@ At each asymptote, the one-sided infinite limits exist. For example:
 $$
 
 
-\lim_\limits{x\to (\pi/2)^{-}}\sec(x)=\infty,\qquad \lim_\limits{x\to (\pi/2)^{+}}\sec(x)=-\infty.
+\lim\limits_{x\to (\pi/2)^{-}}\sec(x)=\infty,\qquad \lim\limits_{x\to (\pi/2)^{+}}\sec(x)=-\infty.
 
 
 $$
@@ -41,7 +41,7 @@ However, because the left and right-sided limits are not equal, the overall limi
 $$
 
 
-\lim_\limits {x \to a} \sec \left(x\right)=\text{DNE}, \qquad a= \pm\dfrac{\pi}{2}, \pm \dfrac{3\pi}{2},\ldots
+\lim\limits_{x \to a} \sec \left(x\right)=\text{DNE}, \qquad a= \pm\dfrac{\pi}{2}, \pm \dfrac{3\pi}{2},\ldots
 
 
 $$
@@ -50,7 +50,7 @@ $$
 
 #### Question
 
-Calculate $\lim_\limits {x\to (\pi/4)} 2\sec \left(2x\right).$
+Calculate $\lim\limits_{x\to (\pi/4)} 2\sec \left(2x\right).$
 
 #### Explanation
 
@@ -75,7 +75,7 @@ As $x$ approaches $\dfrac\pi {4}$ from the left, the values of $y=2\sec(2x)$ are
 $$
 
 
-\lim_\limits {x \to (\pi/4)^-} 2\sec(2x) = \infty.
+\lim\limits_{x \to (\pi/4)^-} 2\sec(2x) = \infty.
 
 
 $$
@@ -85,7 +85,7 @@ Similarly, as $x$ approaches $\dfrac\pi {4}$ from the right, the values of $y=2\
 $$
 
 
-\lim_\limits {x \to (\pi/4)^+} 2\sec (2x) = -\infty.
+\lim\limits_{x \to (\pi/4)^+} 2\sec (2x) = -\infty.
 
 
 $$
@@ -95,7 +95,7 @@ Therefore, since the two limits are not equal, we conclude that
 $$
 
 
-\lim_\limits {x \to (\pi/4)} 2\sec (2x) = \text{DNE}.
+\lim\limits_{x \to (\pi/4)} 2\sec (2x) = \text{DNE}.
 
 
 $$
@@ -121,7 +121,7 @@ At each asymptote, the one-sided limits exist. For example:
 $$
 
 
-\lim_\limits{x\to 0^-}\csc(x)=-\infty, \quad \lim_\limits{x\to 0^+}\csc(x)=\infty.
+\lim\limits_{x\to 0^-}\csc(x)=-\infty, \quad \lim\limits_{x\to 0^+}\csc(x)=\infty.
 
 
 $$
@@ -131,7 +131,7 @@ However, because the left and right-sided limits are not equal, the overall limi
 $$
 
 
-\lim_\limits{x\to a}\csc(x)=\text{DNE}, \qquad a = 0, \pm \pi, \pm 2\pi\ldots
+\lim\limits_{x\to a}\csc(x)=\text{DNE}, \qquad a = 0, \pm \pi, \pm 2\pi\ldots
 
 
 $$
@@ -140,7 +140,7 @@ $$
 
 #### Question
 
-Calculate $\lim_\limits {x \to \pi} \csc x$
+Calculate $\lim\limits_{x \to \pi} \csc x$
 
 #### Explanation
 
@@ -167,7 +167,7 @@ Therefore
 $$
 
 
-\lim_\limits {x \to \pi^-}\csc x = \infty
+\lim\limits_{x \to \pi^-}\csc x = \infty
 
 
 $$
@@ -177,7 +177,7 @@ However, as $x$ approaches $\pi$ from the right, the values of $y=\csc x$ are ne
 $$
 
 
-\lim_\limits {x \to \pi^+}\csc x = -\infty
+\lim\limits_{x \to \pi^+}\csc x = -\infty
 
 
 $$
@@ -187,7 +187,7 @@ Since the two limits are not equal, we conclude that
 $$
 
 
-\lim_\limits {x \to \pi}\csc x = \text{DNE}.
+\lim\limits_{x \to \pi}\csc x = \text{DNE}.
 
 
 $$
@@ -203,7 +203,7 @@ From the graph, we see that for any point that is not an asymptote, the limit of
 $$
 
 
-\lim_\limits{x \to a} \cot (x)=\cot\left(a\right), \qquad a\neq 0, \pm \pi, \pm 2\pi,\ldots
+\lim\limits_{x \to a} \cot (x)=\cot\left(a\right), \qquad a\neq 0, \pm \pi, \pm 2\pi,\ldots
 
 
 $$
@@ -213,7 +213,7 @@ At each asymptote, the one-sided limits exist. For example:
 $$
 
 
-\lim_\limits{x \to 0^{+}} \cot (x) = \infty, \qquad \lim_\limits{x \to 0^{-}} \cot (x) = -\infty.
+\lim\limits_{x \to 0^{+}} \cot (x) = \infty, \qquad \lim\limits_{x \to 0^{-}} \cot (x) = -\infty.
 
 
 $$
@@ -223,7 +223,7 @@ However, because the left and right-sided limits are not equal, the overall limi
 $$
 
 
-\lim_\limits{x \to a} \cot (x)=\text{DNE}, \qquad a= 0, \pm \pi, \pm 2\pi,\ldots
+\lim\limits_{x \to a} \cot (x)=\text{DNE}, \qquad a= 0, \pm \pi, \pm 2\pi,\ldots
 
 
 $$
@@ -232,7 +232,7 @@ $$
 
 #### Question
 
-Calculate $\lim_\limits {x \to \pi/3} \cot \left(3x\right).$
+Calculate $\lim\limits_{x \to \pi/3} \cot \left(3x\right).$
 
 #### Explanation
 
@@ -257,7 +257,7 @@ As $x$ approaches $\dfrac\pi 3$ from the left, the values of $y=\cot(3x)$ are ne
 $$
 
 
-\lim_\limits {x \to (\pi/3)^-} \cot(3x) = -\infty.
+\lim\limits_{x \to (\pi/3)^-} \cot(3x) = -\infty.
 
 
 $$
@@ -267,7 +267,7 @@ As $x$ approaches $\dfrac\pi 3$ from the right, the values of $y=\cot(3x)$ are p
 $$
 
 
-\lim_\limits {x \to (\pi/3)^+} \cot(3x) = +\infty.
+\lim\limits_{x \to (\pi/3)^+} \cot(3x) = +\infty.
 
 
 $$
@@ -277,7 +277,7 @@ Since the left and right-sided limits are not equal, we get
 $$
 
 
-\lim_\limits {x \to \pi/3} \cot \left(3x\right) = \textrm{DNE}.
+\lim\limits_{x \to \pi/3} \cot \left(3x\right) = \text{DNE}.
 
 
 $$

@@ -155,7 +155,7 @@ $\qquad$The probability of selecting a student who chooses a sandwich or a salad
 
 $\qquad$The estimated number of times a sandwich or salad is chosen in $400$ selections is $\boxed{\phantom{160}}.$
 
-$\qquad$We expect that the actual number of sandwich or salad selections will be $\boxed{\phantom{\text{close to}}}$ $\boxed{\phantom{160}}.$
+$\qquad$We expect that the actual number of sandwich or salad selections will be $\boxed{\phantom{\mathrm{close to}}}$ $\boxed{\phantom{160}}.$
 
 #### Explanation
 
@@ -237,7 +237,7 @@ $\qquad$Out of $240$ rolls, Ava expects to get an even number about $\boxed{\pha
 
 $\qquad$Out of $240$ rolls, Noah expects to get an even number about $\boxed{\phantom{134.4}}$ times.
 
-$\qquad$ Ava's estimate for the number of even numbers in $240$ rolls is $\boxed{\phantom{\textrm{less reliable than}}}$ Noah's estimate.
+$\qquad$ Ava's estimate for the number of even numbers in $240$ rolls is $\boxed{\phantom{\mathrm{less reliable than}}}$ Noah's estimate.
 
 #### Explanation
 

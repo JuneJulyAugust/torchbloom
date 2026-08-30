@@ -16,7 +16,7 @@ How can we solve an integral like
 $$
 
 
-\int 2x(x^2+1)^3\,\textrm{d}x \,?
+\int 2x(x^2+1)^3\,\text{d}x \,?
 
 
 $$
@@ -26,7 +26,7 @@ Notice that if we let $u=x^2+1$, then the derivative is $u' = 2x,$ and both $u$ 
 $$
 
 
-\int \underbrace{2x}_{u'}(\overbrace{x^2+1}^{u})^3\,\textrm{d}x
+\int \underbrace{2x}_{u'}(\overbrace{x^2+1}^{u})^3\,\text{d}x
 
 
 $$
@@ -36,7 +36,7 @@ Integrals like this can always be solved using substitution. So, let's proceed. 
 $$
 
 
-\dfrac{\textrm d u}{\textrm d x} = 2x\quad\Longrightarrow\quad\color{blue}\textrm{d}u=2x \, \textrm{d}x.
+\dfrac{\textrm d u}{\textrm d x} = 2x\quad\Longrightarrow\quad\color{blue}\text{d}u=2x \, \text{d}x.
 
 
 $$
@@ -46,7 +46,7 @@ We can now see that the change of variables from $x$ to $u$ is convenient becaus
 $$
 
 
-\int {\color{blue}{2x}}({\color{red}{x^2+1}})^3\,{\color{blue}{\textrm{d}x}} = \int \color{red}(x^2+1)^{\color{black}3}\, \color{blue}{2x\,\textrm{d}x} \color{black}= \int {\color{red}u}^{\color{black}3}\, {\color{blue}{\,\textrm{d}u}} .
+\int {\color{blue}{2x}}({\color{red}{x^2+1}})^3\,{\color{blue}{\text{d}x}} = \int \color{red}(x^2+1)^{\color{black}3}\, \color{blue}{2x\,\text{d}x} \color{black}= \int {\color{red}u}^{\color{black}3}\, {\color{blue}{\,\text{d}u}} .
 
 
 $$
@@ -66,7 +66,7 @@ For the last step, we change the variable back to $x$ by replacing $u=x^2+1.$ So
 $$
 
 
-\displaystyle\int 2x(x^2+1)^3\,\textrm{d}x =\dfrac{(x^2+1)^4}{4}+C.
+\displaystyle\int 2x(x^2+1)^3\,\text{d}x =\dfrac{(x^2+1)^4}{4}+C.
 
 
 $$
@@ -85,7 +85,7 @@ $$
 
 #### Question
 
-Calculate $\displaystyle\int 6x^2(2x^3+3)^6\,\textrm{d}x.$
+Calculate $\displaystyle\int 6x^2(2x^3+3)^6\,\text{d}x.$
 
 #### Explanation
 
@@ -134,7 +134,7 @@ Lastly, we substitute $u=2x^3+3$ back in the expression. So the final result is
 $$
 
 
-\displaystyle\int 6x^2(2x^3+3)^6\,\textrm{d}x =\dfrac{(2x^3+3)^7}{7}+C.
+\displaystyle\int 6x^2(2x^3+3)^6\,\text{d}x =\dfrac{(2x^3+3)^7}{7}+C.
 
 
 $$
@@ -143,7 +143,7 @@ $$
 
 #### Question
 
-Calculate $\displaystyle\int x\left(1+2x^2\right)^6\,\textrm{d}x.$
+Calculate $\displaystyle\int x\left(1+2x^2\right)^6\,\text{d}x.$
 
 #### Explanation
 
@@ -238,7 +238,7 @@ Therefore, we conclude that
 $$
 
 
-\displaystyle\int \dfrac{2x}{1+x^2}\,\textrm{d}x = \ln(1+x^2)+C.
+\displaystyle\int \dfrac{2x}{1+x^2}\,\text{d}x = \ln(1+x^2)+C.
 
 
 $$
@@ -277,7 +277,7 @@ $$
 
 #### Question
 
-$\displaystyle \int \dfrac{x^2}{\sqrt{1-x^3}} \, \textrm{d}x=$
+$\displaystyle \int \dfrac{x^2}{\sqrt{1-x^3}} \, \text{d}x=$
 
 #### Explanation
 
@@ -296,7 +296,7 @@ and we can solve the resulting integral as follows:
 $$
 
 
-\begin{aligned}∫\frac{𝑥^{2}}{\sqrt{√1−𝑥^{3}}}\,d𝑥 & =∫\frac{1}{\sqrt{√1−𝑥^{3}}}⋅𝑥^{2}\,d𝑥 \\ & =∫\frac{1}{\sqrt{√𝑢}}⋅(−\frac{1}{3})d𝑢 \\ & =−\frac{1}{3}∫\frac{1}{\sqrt{√𝑢}}\,d𝑢 \\ & =−\frac{1}{3}(2\sqrt{√𝑢})+𝐶 \\ & =−\frac{2}{3}\sqrt{√𝑢}+𝐶 \\ & =−\frac{2}{3}\sqrt{√1−𝑥^{3}}+𝐶\end{aligned}
+\begin{aligned}∫\frac{𝑥^{2}}{\sqrt{1−𝑥^{3}}}\,d𝑥 & =∫\frac{1}{\sqrt{1−𝑥^{3}}}⋅𝑥^{2}\,d𝑥 \\ & =∫\frac{1}{\sqrt{𝑢}}⋅(−\frac{1}{3})d𝑢 \\ & =−\frac{1}{3}∫\frac{1}{\sqrt{𝑢}}\,d𝑢 \\ & =−\frac{1}{3}(2\sqrt{𝑢})+𝐶 \\ & =−\frac{2}{3}\sqrt{𝑢}+𝐶 \\ & =−\frac{2}{3}\sqrt{1−𝑥^{3}}+𝐶\end{aligned}
 
 
 $$

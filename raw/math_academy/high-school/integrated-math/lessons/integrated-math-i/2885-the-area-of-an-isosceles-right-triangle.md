@@ -64,7 +64,7 @@ $$
 
 
 
-\begin{aligned}A & =\frac{1}{2}⋅(2\sqrt{√7})^{2} \\ & =\frac{1}{2}⋅4⋅7 \\ & =14.\end{aligned}
+\begin{aligned}A & =\frac{1}{2}⋅(2\sqrt{7})^{2} \\ & =\frac{1}{2}⋅4⋅7 \\ & =14.\end{aligned}
 
 
 
@@ -96,7 +96,7 @@ $$
 
 
 
-\begin{aligned}\frac{1}{2}𝑠^{2} & =A \\ 𝑠^{2} & =2A \\ 𝑠 & =\sqrt{√2A}\end{aligned}
+\begin{aligned}\frac{1}{2}𝑠^{2} & =A \\ 𝑠^{2} & =2A \\ 𝑠 & =\sqrt{2A}\end{aligned}
 
 
 
@@ -108,7 +108,7 @@ $$
 
 
 
-\begin{aligned}𝑠 & =\sqrt{√2⋅16} \\ & =\sqrt{√2}⋅\sqrt{√16} \\ & =4\sqrt{√2}.\end{aligned}
+\begin{aligned}𝑠 & =\sqrt{2⋅16} \\ & =\sqrt{2}⋅\sqrt{16} \\ & =4\sqrt{2}.\end{aligned}
 
 
 
@@ -130,7 +130,7 @@ $$
 
 
 
-\begin{aligned}𝐴 & =\frac{1}{2}(\frac{𝑑}{\sqrt{√2}})^{2} \\ & =\frac{1}{2}⋅\frac{𝑑^{2}}{2} \\ & =\frac{1}{4}𝑑^{2}.\end{aligned}
+\begin{aligned}𝐴 & =\frac{1}{2}(\frac{𝑑}{\sqrt{2}})^{2} \\ & =\frac{1}{2}⋅\frac{𝑑^{2}}{2} \\ & =\frac{1}{4}𝑑^{2}.\end{aligned}
 
 
 
@@ -172,7 +172,7 @@ $$
 
 
 
-\begin{aligned}A & =\frac{1}{4}⋅(\sqrt{√3})^{2} \\ & =\frac{1}{4}⋅3 \\ & =\frac{3}{4}.\end{aligned}
+\begin{aligned}A & =\frac{1}{4}⋅(\sqrt{3})^{2} \\ & =\frac{1}{4}⋅3 \\ & =\frac{3}{4}.\end{aligned}
 
 
 
@@ -204,7 +204,7 @@ $$
 
 
 
-\begin{aligned}\frac{1}{4}𝑑^{2} & =A \\ 𝑑^{2} & =4A \\ 𝑑 & =\sqrt{√4A} \\ 𝑑 & =2\sqrt{√A}\end{aligned}
+\begin{aligned}\frac{1}{4}𝑑^{2} & =A \\ 𝑑^{2} & =4A \\ 𝑑 & =\sqrt{4A} \\ 𝑑 & =2\sqrt{A}\end{aligned}
 
 
 
@@ -216,7 +216,7 @@ $$
 
 
 
-\begin{aligned}𝑑 & =2\sqrt{√16} \\ & =2⋅4 \\ & =8.\end{aligned}
+\begin{aligned}𝑑 & =2\sqrt{16} \\ & =2⋅4 \\ & =8.\end{aligned}
 
 
 

@@ -17,7 +17,7 @@ In this topic, we'll learn how to use Laplace transforms to solve inhomogeneous 
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=𝑥_{1}(𝑡)+5 \\ 𝑥_{′2}^{}(𝑡)=−2𝑥_{1}(𝑡)+4𝑥_{2}(𝑡)−2,\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=𝑥_{1}(𝑡)+5 \\ 𝑥_{′2}(𝑡)=−2𝑥_{1}(𝑡)+4𝑥_{2}(𝑡)−2,\end{aligned}
 
 
 $$
@@ -37,7 +37,7 @@ Let's see how this works in practice.
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=𝑥_{1}(𝑡)+5 \\ 𝑥_{′2}^{}(𝑡)=−2𝑥_{1}(𝑡)+4𝑥_{2}(𝑡)−2,\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=𝑥_{1}(𝑡)+5 \\ 𝑥_{′2}(𝑡)=−2𝑥_{1}(𝑡)+4𝑥_{2}(𝑡)−2,\end{aligned}
 
 
 $$
@@ -49,7 +49,7 @@ First, we compute the Laplace transforms of both sides of each equation in our s
 $$
 
 
-\begin{aligned}L{𝑥_{′1}^{}(𝑡)}=L{𝑥_{1}(𝑡)+5} \\ L{𝑥_{′2}^{}(𝑡)}=L{−2𝑥_{1}(𝑡)+4𝑥_{2}(𝑡)−2}\end{aligned}
+\begin{aligned}L{𝑥_{′1}(𝑡)}=L{𝑥_{1}(𝑡)+5} \\ L{𝑥_{′2}(𝑡)}=L{−2𝑥_{1}(𝑡)+4𝑥_{2}(𝑡)−2}\end{aligned}
 
 
 $$
@@ -121,7 +121,7 @@ Finally, we write down the solution to the initial value problem:
 $$
 
 
-\begin{aligned}𝐱(𝑡) & =[\begin{aligned}𝑥_{1}(𝑡) \\ 𝑥_{2}(𝑡)\end{aligned}]=[\begin{aligned}3𝑒^{𝑡}−5 \\ 2𝑒^{𝑡}+3𝑒^{4𝑡}−2\end{aligned}]\end{aligned}
+\begin{aligned}𝐱(𝑡) & =[\begin{matrix}𝑥_{1}(𝑡) \\ 𝑥_{2}(𝑡)\end{matrix}]=[\begin{matrix}3𝑒^{𝑡}−5 \\ 2𝑒^{𝑡}+3𝑒^{4𝑡}−2\end{matrix}]\end{aligned}
 
 
 $$
@@ -133,7 +133,7 @@ $$
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=2𝑥_{1}(𝑡)+5cos⁡(2𝑡)−3 \\ 𝑥_{′2}^{}(𝑡)=−3𝑥_{1}(𝑡)+4𝑥_{2}(𝑡)+2sin⁡(2𝑡),\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=2𝑥_{1}(𝑡)+5cos⁡(2𝑡)−3 \\ 𝑥_{′2}(𝑡)=−3𝑥_{1}(𝑡)+4𝑥_{2}(𝑡)+2sin⁡(2𝑡),\end{aligned}
 
 
 $$
@@ -147,7 +147,7 @@ First, we compute the Laplace transforms of both sides of each equation in our s
 $$
 
 
-\begin{aligned}L{𝑥_{′1}^{}(𝑡)}=L{2𝑥_{1}(𝑡)+5cos⁡(2𝑡)−3} \\ L{𝑥_{′2}^{}(𝑡)}=L{−3𝑥_{1}(𝑡)+4𝑥_{2}(𝑡)+2sin⁡(2𝑡)}\end{aligned}
+\begin{aligned}L{𝑥_{′1}(𝑡)}=L{2𝑥_{1}(𝑡)+5cos⁡(2𝑡)−3} \\ L{𝑥_{′2}(𝑡)}=L{−3𝑥_{1}(𝑡)+4𝑥_{2}(𝑡)+2sin⁡(2𝑡)}\end{aligned}
 
 
 $$
@@ -191,7 +191,7 @@ where $X_1(s) = \mathcal{L}\left\{x_1(t) \right\}$ and $X_2(s) = \mathcal{L}\lef
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=−𝑥_{1}(𝑡)+4 \\ 𝑥_{′2}^{}(𝑡)=2𝑥_{1}(𝑡)−3𝑥_{2}(𝑡),\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=−𝑥_{1}(𝑡)+4 \\ 𝑥_{′2}(𝑡)=2𝑥_{1}(𝑡)−3𝑥_{2}(𝑡),\end{aligned}
 
 
 $$
@@ -205,7 +205,7 @@ First, we compute the Laplace transforms of both sides of each equation in our s
 $$
 
 
-\begin{aligned}L{𝑥_{′1}^{}(𝑡)}=L{−𝑥_{1}(𝑡)+4} \\ L{𝑥_{′2}^{}(𝑡)}=L{2𝑥_{1}(𝑡)−3𝑥_{2}(𝑡)}\end{aligned}
+\begin{aligned}L{𝑥_{′1}(𝑡)}=L{−𝑥_{1}(𝑡)+4} \\ L{𝑥_{′2}(𝑡)}=L{2𝑥_{1}(𝑡)−3𝑥_{2}(𝑡)}\end{aligned}
 
 
 $$
@@ -269,7 +269,7 @@ $$
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=𝑥_{1}(𝑡)+3𝑥_{2}(𝑡)−7 \\ 𝑥_{′2}^{}(𝑡)=−2𝑥_{2}(𝑡)+6,\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=𝑥_{1}(𝑡)+3𝑥_{2}(𝑡)−7 \\ 𝑥_{′2}(𝑡)=−2𝑥_{2}(𝑡)+6,\end{aligned}
 
 
 $$
@@ -303,7 +303,7 @@ Finally, we write down the solution to the initial value problem:
 $$
 
 
-\begin{aligned}𝐱(𝑡) & =[\begin{aligned}𝑥_{1}(𝑡) \\ 𝑥_{2}(𝑡)\end{aligned}]=[\begin{aligned}2𝑒^{𝑡}−𝑒^{−2𝑡}−2 \\ 𝑒^{−2𝑡}+3\end{aligned}]\end{aligned}
+\begin{aligned}𝐱(𝑡) & =[\begin{matrix}𝑥_{1}(𝑡) \\ 𝑥_{2}(𝑡)\end{matrix}]=[\begin{matrix}2𝑒^{𝑡}−𝑒^{−2𝑡}−2 \\ 𝑒^{−2𝑡}+3\end{matrix}]\end{aligned}
 
 
 $$

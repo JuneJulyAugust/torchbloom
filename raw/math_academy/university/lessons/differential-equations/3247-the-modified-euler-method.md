@@ -220,7 +220,7 @@ the **Modified Euler Method** with step size $\Delta x$ is given by
 $$
 
 
-\begin{aligned}Predictor: & \,Δ𝑦_{𝑝}=𝑦^{′}⋅Δ𝑥, \\ Corrector: & \,Δ𝑦=\frac{1}{2}(𝑦^{′}+𝑦_{′𝑝}^{})⋅Δ𝑥,\end{aligned}
+\begin{aligned}Predictor: & \,Δ𝑦_{𝑝}=𝑦^{′}⋅Δ𝑥, \\ Corrector: & \,Δ𝑦=\frac{1}{2}(𝑦^{′}+𝑦_{′𝑝})⋅Δ𝑥,\end{aligned}
 
 
 $$
@@ -262,7 +262,7 @@ So, the predicted slope at this point is
 $$
 
 
-\begin{aligned}𝑦_{′𝑝}^{} & =𝑥_{2new}^{}+𝑦_{𝑝} \\ & =1^{2}+2 \\ & =3.\end{aligned}
+\begin{aligned}𝑦_{′𝑝} & =𝑥_{2new}+𝑦_{𝑝} \\ & =1^{2}+2 \\ & =3.\end{aligned}
 
 
 $$
@@ -274,7 +274,7 @@ Finally, we compute $\Delta y$ using the corrector equation:
 $$
 
 
-\begin{aligned}Δ𝑦 & =\frac{1}{2}(𝑦^{′}+𝑦_{′𝑝}^{})⋅Δ𝑥 \\ & =\frac{1}{2}(1+3)⋅1 \\ & =\frac{1}{2}⋅4 \\ & =2.\end{aligned}
+\begin{aligned}Δ𝑦 & =\frac{1}{2}(𝑦^{′}+𝑦_{′𝑝})⋅Δ𝑥 \\ & =\frac{1}{2}(1+3)⋅1 \\ & =\frac{1}{2}⋅4 \\ & =2.\end{aligned}
 
 
 $$
@@ -334,7 +334,7 @@ the modified Euler method with step size $\Delta x$ is given by
 $$
 
 
-\begin{aligned}Predictor & : & Δ𝑦_{𝑝} & =𝑦^{′}⋅Δ𝑥, \\ Corrector & : & Δ𝑦 & =\frac{1}{2}(𝑦^{′}+𝑦_{′𝑝}^{})⋅Δ𝑥,\end{aligned}
+\begin{aligned}Predictor & : & Δ𝑦_{𝑝} & =𝑦^{′}⋅Δ𝑥, \\ Corrector & : & Δ𝑦 & =\frac{1}{2}(𝑦^{′}+𝑦_{′𝑝})⋅Δ𝑥,\end{aligned}
 
 
 $$
@@ -346,7 +346,7 @@ We compute $\Delta y$ using the corrector equation:
 $$
 
 
-\begin{aligned}Δ𝑦 & =\frac{1}{2}(𝑦^{′}+𝑦_{′𝑝}^{})Δ𝑥 \\ & =\frac{1}{2}(0+\frac{7}{4})⋅\frac{1}{2} \\ & =\frac{1}{4}(\frac{7}{4}) \\ & =\frac{7}{16}\end{aligned}
+\begin{aligned}Δ𝑦 & =\frac{1}{2}(𝑦^{′}+𝑦_{′𝑝})Δ𝑥 \\ & =\frac{1}{2}(0+\frac{7}{4})⋅\frac{1}{2} \\ & =\frac{1}{4}(\frac{7}{4}) \\ & =\frac{7}{16}\end{aligned}
 
 
 $$
@@ -386,7 +386,7 @@ the modified Euler method with step size $\Delta x$ is given by
 $$
 
 
-\begin{aligned}Predictor & : & Δ𝑦_{𝑝} & =𝑦^{′}⋅Δ𝑥, \\ Corrector & : & Δ𝑦 & =\frac{1}{2}(𝑦^{′}+𝑦_{′𝑝}^{})⋅Δ𝑥,\end{aligned}
+\begin{aligned}Predictor & : & Δ𝑦_{𝑝} & =𝑦^{′}⋅Δ𝑥, \\ Corrector & : & Δ𝑦 & =\frac{1}{2}(𝑦^{′}+𝑦_{′𝑝})⋅Δ𝑥,\end{aligned}
 
 
 $$
@@ -434,7 +434,7 @@ So, the predicted slope at this point is
 $$
 
 
-\begin{aligned}𝑦_{′𝑝}^{} & =𝑓(𝑥_{new},𝑦_{𝑝}) \\ & =𝑥_{new}𝑦_{𝑝}−𝑦_{2𝑝}^{}+2 \\ & =(1)(2)−(2)^{2}+2 \\ & =0\end{aligned}
+\begin{aligned}𝑦_{′𝑝} & =𝑓(𝑥_{new},𝑦_{𝑝}) \\ & =𝑥_{new}𝑦_{𝑝}−𝑦_{2𝑝}+2 \\ & =(1)(2)−(2)^{2}+2 \\ & =0\end{aligned}
 
 
 $$
@@ -446,7 +446,7 @@ Finally, we compute $\Delta y$ using the corrector equation:
 $$
 
 
-\begin{aligned}Δ𝑦 & =\frac{1}{2}(𝑦^{′}+𝑦_{′𝑝}^{})⋅Δ𝑥 \\ & =\frac{1}{2}(1+0)⋅1 \\ & =\frac{1}{2}\end{aligned}
+\begin{aligned}Δ𝑦 & =\frac{1}{2}(𝑦^{′}+𝑦_{′𝑝})⋅Δ𝑥 \\ & =\frac{1}{2}(1+0)⋅1 \\ & =\frac{1}{2}\end{aligned}
 
 
 $$
@@ -486,7 +486,7 @@ the modified Euler method with step size $\Delta x$ is given by
 $$
 
 
-\begin{aligned}Predictor & : & Δ𝑦_{𝑝} & =𝑦^{′}⋅Δ𝑥, \\ Corrector & : & Δ𝑦 & =\frac{1}{2}(𝑦^{′}+𝑦_{′𝑝}^{})⋅Δ𝑥,\end{aligned}
+\begin{aligned}Predictor & : & Δ𝑦_{𝑝} & =𝑦^{′}⋅Δ𝑥, \\ Corrector & : & Δ𝑦 & =\frac{1}{2}(𝑦^{′}+𝑦_{′𝑝})⋅Δ𝑥,\end{aligned}
 
 
 $$
@@ -546,7 +546,7 @@ So, the predicted slope at this point is
 $$
 
 
-\begin{aligned}𝑦_{′𝑝}^{} & =𝑥_{2new}^{}𝑦_{2𝑝}^{}+𝑥_{new}𝑦_{2𝑝}^{} \\ & =2^{2}⋅3^{2}+2⋅3^{2} \\ & =54.\end{aligned}
+\begin{aligned}𝑦_{′𝑝} & =𝑥_{2new}𝑦_{2𝑝}+𝑥_{new}𝑦_{2𝑝} \\ & =2^{2}⋅3^{2}+2⋅3^{2} \\ & =54.\end{aligned}
 
 
 $$
@@ -558,7 +558,7 @@ Finally, we compute $\Delta y$ using the corrector equation:
 $$
 
 
-\begin{aligned}Δ𝑦 & =\frac{1}{2}(𝑦^{′}+𝑦_{′𝑝}^{})⋅Δ𝑥 \\ & =\frac{1}{2}(2+54)⋅1 \\ & =\frac{1}{2}⋅56 \\ & =28\end{aligned}
+\begin{aligned}Δ𝑦 & =\frac{1}{2}(𝑦^{′}+𝑦_{′𝑝})⋅Δ𝑥 \\ & =\frac{1}{2}(2+54)⋅1 \\ & =\frac{1}{2}⋅56 \\ & =28\end{aligned}
 
 
 $$

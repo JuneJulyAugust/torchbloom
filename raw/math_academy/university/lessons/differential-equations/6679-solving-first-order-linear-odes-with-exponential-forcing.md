@@ -68,7 +68,7 @@ Consider the differential equation
 $$
 
 
-\frac {\textrm{d} y} {\textrm{d} x} + 3 y = 4 e ^ {2x}.
+\frac {\text{d} y} {\text{d} x} + 3 y = 4 e ^ {2x}.
 
 
 $$
@@ -78,7 +78,7 @@ The associated homogeneous equation is
 $$
 
 
-\frac {\textrm{d} y} {\textrm{d} x} + 3 y = 0
+\frac {\text{d} y} {\text{d} x} + 3 y = 0
 
 
 $$
@@ -112,7 +112,7 @@ Calculating the first derivative of $y_p$ gives
 $$
 
 
-\frac{\textrm{d}y_p}{\textrm{d}x} = 2\alpha e ^{2x}.
+\frac{\text{d}y_p}{\text{d}x} = 2\alpha e ^{2x}.
 
 
 $$
@@ -186,7 +186,7 @@ Calculating the first derivative of $y_p$ gives
 $$
 
 
-\frac{\textrm{d}y_p}{\textrm{d}x} = \alpha e^{x} + 3\beta e^{3x}.
+\frac{\text{d}y_p}{\text{d}x} = \alpha e^{x} + 3\beta e^{3x}.
 
 
 $$
@@ -312,7 +312,7 @@ We calculate the first derivative of $y_p$ using the product rule for differenti
 $$
 
 
-\begin{aligned}𝑦_{′𝑝}^{} & =(𝛼𝑥𝑒^{−5𝑥})^{′} \\ & =𝛼(𝑥𝑒^{−5𝑥})^{′} \\ & =𝛼(𝑒^{−5𝑥}−5𝑥𝑒^{−5𝑥}) \\ & =𝛼(1−5𝑥)𝑒^{−5𝑥}\end{aligned}
+\begin{aligned}𝑦_{′𝑝} & =(𝛼𝑥𝑒^{−5𝑥})^{′} \\ & =𝛼(𝑥𝑒^{−5𝑥})^{′} \\ & =𝛼(𝑒^{−5𝑥}−5𝑥𝑒^{−5𝑥}) \\ & =𝛼(1−5𝑥)𝑒^{−5𝑥}\end{aligned}
 
 
 $$
@@ -384,7 +384,7 @@ Calculating the first derivative of $y_p$ gives
 $$
 
 
-\begin{aligned}𝑦_{′𝑝}^{} & =(𝛼𝑥𝑒^{−5𝑥}+𝛽𝑒^{𝑥})^{′} \\ & =𝛼(𝑥𝑒^{−5𝑥})^{′}+𝛽(𝑒^{𝑥})^{′} \\ & =𝛼(𝑒^{−5𝑥}−5𝑥𝑒^{−5𝑥})+𝛽𝑒^{𝑥} \\ & =𝛼(1−5𝑥)𝑒^{−5𝑥}+𝛽𝑒^{𝑥}.\end{aligned}
+\begin{aligned}𝑦_{′𝑝} & =(𝛼𝑥𝑒^{−5𝑥}+𝛽𝑒^{𝑥})^{′} \\ & =𝛼(𝑥𝑒^{−5𝑥})^{′}+𝛽(𝑒^{𝑥})^{′} \\ & =𝛼(𝑒^{−5𝑥}−5𝑥𝑒^{−5𝑥})+𝛽𝑒^{𝑥} \\ & =𝛼(1−5𝑥)𝑒^{−5𝑥}+𝛽𝑒^{𝑥}.\end{aligned}
 
 
 $$
@@ -490,7 +490,7 @@ We calculate the first derivative of $y_p$ using the product rule for differenti
 $$
 
 
-\begin{aligned}𝑦_{′𝑝}^{} & =(𝛼𝑥𝑒^{6𝑥})^{′} \\ & =𝛼(𝑥𝑒^{6𝑥})^{′} \\ & =𝛼(𝑒^{6𝑥}+6𝑥𝑒^{6𝑥}) \\ & =𝛼(1+6𝑥)𝑒^{6𝑥}\end{aligned}
+\begin{aligned}𝑦_{′𝑝} & =(𝛼𝑥𝑒^{6𝑥})^{′} \\ & =𝛼(𝑥𝑒^{6𝑥})^{′} \\ & =𝛼(𝑒^{6𝑥}+6𝑥𝑒^{6𝑥}) \\ & =𝛼(1+6𝑥)𝑒^{6𝑥}\end{aligned}
 
 
 $$

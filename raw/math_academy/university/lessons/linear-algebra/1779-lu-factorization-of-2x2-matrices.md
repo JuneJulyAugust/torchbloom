@@ -25,7 +25,7 @@ For example, we can write the matrix $[\begin{aligned}−2 & 1 \\ 6 & −6\end{a
 $$
 
 
-\begin{aligned}[\begin{aligned}−2 & 1 \\ 6 & −6\end{aligned}]=\underset{𝐿}{\underset{}{[\begin{aligned}1 & 0 \\ −3 & 1\end{aligned}]}}⋅\underset{𝑈}{\underset{}{[\begin{aligned}−2 & 1 \\ 0 & −3\end{aligned}]}}\end{aligned}
+\begin{aligned}[\begin{matrix}−2 & 1 \\ 6 & −6\end{matrix}]=\underset{𝐿}{\underset{}{[\begin{matrix}1 & 0 \\ −3 & 1\end{matrix}]}}⋅\underset{𝑈}{\underset{}{[\begin{matrix}−2 & 1 \\ 0 & −3\end{matrix}]}}\end{aligned}
 
 
 $$
@@ -83,7 +83,7 @@ To find the matrices $L$ and $U,$ we reduce the matrix $A$ to row echelon form. 
 $$
 
 
-\begin{aligned}𝐴 & =[\begin{aligned}−2 & 1 \\ 6 & −6\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+3𝑅_{1}\,⟺\,\overset{\overset{[\begin{aligned}1 & 0 \\ 3 & 1\end{aligned}]}{}}{𝐸_{1}}⋅𝐴 \\ & ∼[\begin{aligned}−2 & 1 \\ 0 & −3\end{aligned}] & & \\ & =𝑈 & & \end{aligned}
+\begin{aligned}𝐴 & =[\begin{matrix}−2 & 1 \\ 6 & −6\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+3𝑅_{1}\,⟺\,\overset{[\begin{matrix}1 & 0 \\ 3 & 1\end{matrix}]}{}}{𝐸_{1}}⋅𝐴 \\ & ∼[\begin{matrix}−2 & 1 \\ 0 & −3\end{matrix}] & & \\ & =𝑈 & & \end{aligned}
 
 
 $$
@@ -93,7 +93,7 @@ The reduced matrix is upper triangular, so it is our matrix $U.$ Now, since $E_1
 $$
 
 
-\begin{aligned}𝐸_{1}𝐴 & =𝑈 \\ 𝐴 & =𝐸_{−11}^{}𝑈 \\ 𝐴 & =[\begin{aligned}1 & 0 \\ 3 & 1\end{aligned}]^{−1}𝑈 \\ 𝐴 & =\underset{𝐿}{\underset{}{[\begin{aligned}1 & 0 \\ −3 & 1\end{aligned}]}}⋅\underset{𝑈}{\underset{}{[\begin{aligned}−2 & 1 \\ 0 & −3\end{aligned}]}}\end{aligned}
+\begin{aligned}𝐸_{1}𝐴 & =𝑈 \\ 𝐴 & =𝐸_{−11}𝑈 \\ 𝐴 & =[\begin{matrix}1 & 0 \\ 3 & 1\end{matrix}]^{−1}𝑈 \\ 𝐴 & =\underset{𝐿}{\underset{}{[\begin{matrix}1 & 0 \\ −3 & 1\end{matrix}]}}⋅\underset{𝑈}{\underset{}{[\begin{matrix}−2 & 1 \\ 0 & −3\end{matrix}]}}\end{aligned}
 
 
 $$
@@ -117,7 +117,7 @@ To find the matrices $L$ and $U,$ we reduce the matrix $A$ to row echelon form. 
 $$
 
 
-\begin{aligned}𝐴 & =[\begin{aligned}7 & 9 \\ −7 & −6\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+1⋅𝑅_{1}\,⟺\,\overset{\overset{[\begin{aligned}1 & 0 \\ 1 & 1\end{aligned}]}{}}{𝐸_{1}}⋅𝐴 \\ & ∼[\begin{aligned}7 & 9 \\ 0 & 3\end{aligned}] & & \\ & =𝑈 & & \end{aligned}
+\begin{aligned}𝐴 & =[\begin{matrix}7 & 9 \\ −7 & −6\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+1⋅𝑅_{1}\,⟺\,\overset{[\begin{matrix}1 & 0 \\ 1 & 1\end{matrix}]}{}}{𝐸_{1}}⋅𝐴 \\ & ∼[\begin{matrix}7 & 9 \\ 0 & 3\end{matrix}] & & \\ & =𝑈 & & \end{aligned}
 
 
 $$
@@ -127,7 +127,7 @@ The reduced matrix is upper triangular, so it is our matrix $U.$ Now, since $E_1
 $$
 
 
-\begin{aligned}𝐸_{1}𝐴 & =𝑈 \\ 𝐴 & =𝐸_{−11}^{}𝑈 \\ 𝐴 & =[\begin{aligned}1 & 0 \\ 1 & 1\end{aligned}]^{−1}𝑈 \\ 𝐴 & =\underset{𝐿}{\underset{}{[\begin{aligned}1 & 0 \\ −1 & 1\end{aligned}]}}\underset{𝑈}{\underset{}{[\begin{aligned}7 & 9 \\ 0 & 3\end{aligned}]}}\end{aligned}
+\begin{aligned}𝐸_{1}𝐴 & =𝑈 \\ 𝐴 & =𝐸_{−11}𝑈 \\ 𝐴 & =[\begin{matrix}1 & 0 \\ 1 & 1\end{matrix}]^{−1}𝑈 \\ 𝐴 & =\underset{𝐿}{\underset{}{[\begin{matrix}1 & 0 \\ −1 & 1\end{matrix}]}}\underset{𝑈}{\underset{}{[\begin{matrix}7 & 9 \\ 0 & 3\end{matrix}]}}\end{aligned}
 
 
 $$
@@ -145,7 +145,7 @@ To find the matrices $L$ and $U,$ we reduce the matrix $A$ to row echelon form. 
 $$
 
 
-\begin{aligned}𝐴 & =[\begin{aligned}4 & 3 \\ 12 & 9\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+(−3)𝑅_{1}\,⟺\,\overset{\overset{[\begin{aligned}1 & 0 \\ −3 & 1\end{aligned}]}{}}{𝐸_{1}}⋅𝐴 \\ & ∼[\begin{aligned}4 & 3 \\ 0 & 0\end{aligned}] & & \\ & =𝑈. & & \end{aligned}
+\begin{aligned}𝐴 & =[\begin{matrix}4 & 3 \\ 12 & 9\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+(−3)𝑅_{1}\,⟺\,\overset{[\begin{matrix}1 & 0 \\ −3 & 1\end{matrix}]}{}}{𝐸_{1}}⋅𝐴 \\ & ∼[\begin{matrix}4 & 3 \\ 0 & 0\end{matrix}] & & \\ & =𝑈. & & \end{aligned}
 
 
 $$
@@ -155,7 +155,7 @@ The reduced matrix is upper triangular, so it is our matrix $U.$ Now, since $E_1
 $$
 
 
-\begin{aligned}𝐸_{1}𝐴 & =𝑈 \\ 𝐴 & =𝐸_{−11}^{}𝑈 \\ 𝐴 & =[\begin{aligned}1 & 0 \\ −3 & 1\end{aligned}]^{−1}𝑈 \\ 𝐴 & =\underset{𝐿}{\underset{}{[\begin{aligned}1 & 0 \\ 3 & 1\end{aligned}]}}\underset{𝑈}{\underset{}{[\begin{aligned}4 & 3 \\ 0 & 0\end{aligned}]}}.\end{aligned}
+\begin{aligned}𝐸_{1}𝐴 & =𝑈 \\ 𝐴 & =𝐸_{−11}𝑈 \\ 𝐴 & =[\begin{matrix}1 & 0 \\ −3 & 1\end{matrix}]^{−1}𝑈 \\ 𝐴 & =\underset{𝐿}{\underset{}{[\begin{matrix}1 & 0 \\ 3 & 1\end{matrix}]}}\underset{𝑈}{\underset{}{[\begin{matrix}4 & 3 \\ 0 & 0\end{matrix}]}}.\end{aligned}
 
 
 $$

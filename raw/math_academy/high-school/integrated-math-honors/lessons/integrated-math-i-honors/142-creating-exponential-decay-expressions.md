@@ -15,9 +15,9 @@ Topic ID: 142
 
 A situation involves **exponential decay** if some initial amount repeatedly shrinks due to being multiplied by some constant rate.
 
-For example, suppose that a certain battery had a voltage of $4\,\textrm{V}$ when it was healthy. Following a sharp impact, the battery's voltage decreased by $\dfrac12$ every day since the day of the impact. What was the voltage of the battery $3$ days after it was damaged?
+For example, suppose that a certain battery had a voltage of $4\,\text{V}$ when it was healthy. Following a sharp impact, the battery's voltage decreased by $\dfrac12$ every day since the day of the impact. What was the voltage of the battery $3$ days after it was damaged?
 
-Starting with a voltage of $4\,\textrm{V},$ we know that this number will halve every day. So after $1$ day, the voltage (measured in volts) was
+Starting with a voltage of $4\,\text{V},$ we know that this number will halve every day. So after $1$ day, the voltage (measured in volts) was
 
 $$
 
@@ -57,7 +57,7 @@ $$
 
 $$
 
-So after $3$ days, the voltage reduced to just $\dfrac 1 2\,\textrm{V}.$
+So after $3$ days, the voltage reduced to just $\dfrac 1 2\,\text{V}.$
 
 This is an example of exponential decay. The voltage decreases by $\dfrac 1 2$ over a time interval of $1$ day, every day. The voltage decays very rapidly, as we can see from the graph below.
 
@@ -67,7 +67,7 @@ This is an example of exponential decay. The voltage decreases by $\dfrac 1 2$ o
 
 #### Question
 
-A radioactive substance decays exponentially such that its mass reduces by $\dfrac 1 3$ every year. If the mass of the substance was initially $4\,\textrm{kg},$ what is the mass of the substance after $6$ years?
+A radioactive substance decays exponentially such that its mass reduces by $\dfrac 1 3$ every year. If the mass of the substance was initially $4\,\text{kg},$ what is the mass of the substance after $6$ years?
 
 #### Explanation
 
@@ -75,15 +75,15 @@ If the mass of the substance reduces by $\dfrac 1 3$ every year, then $\dfrac 2 
 
 Therefore:
 
-- After $1$ year, the mass is $4\cdot \left(\dfrac 2 3\right)\,\textrm{kg}.$
+- After $1$ year, the mass is $4\cdot \left(\dfrac 2 3\right)\,\text{kg}.$
 
-- After $\color{blue}2$ years, the mass is $4\cdot \left(\dfrac 2 3\right)^{\color{blue}2}\,\textrm{kg}.$
+- After $\color{blue}2$ years, the mass is $4\cdot \left(\dfrac 2 3\right)^{\color{blue}2}\,\text{kg}.$
 
-- After $\color{blue}3$ years, the mass is $4\cdot \left(\dfrac 2 3\right)^{\color{blue}3}\,\textrm{kg}.$
+- After $\color{blue}3$ years, the mass is $4\cdot \left(\dfrac 2 3\right)^{\color{blue}3}\,\text{kg}.$
 
 - $\ldots$
 
-Repeating this pattern, we see that the mass after $\color{blue}6$ years is $4\cdot \left(\dfrac 2 3\right)^{\color{blue}6}\,\textrm{kg}.$
+Repeating this pattern, we see that the mass after $\color{blue}6$ years is $4\cdot \left(\dfrac 2 3\right)^{\color{blue}6}\,\text{kg}.$
 
 ### Example: Creating an Exponential Decay Expression From a Decay Rate
 

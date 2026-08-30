@@ -87,7 +87,7 @@ Now, we compute the derivative:
 $$
 
 
-\begin{aligned}𝑦_{′𝑝}^{} & ∼\frac{d}{d𝑥}(\frac{𝑎_{0}}{2}+\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}𝑎_{𝑛}cos⁡(\frac{𝑛𝜋𝑥}{3})+𝑏_{𝑛}sin⁡(\frac{𝑛𝜋𝑥}{3})) \\ & ∼0+\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}𝑎_{𝑛}⋅(−\frac{𝑛𝜋}{3}sin⁡(\frac{𝑛𝜋𝑥}{3}))+𝑏_{𝑛}⋅\frac{𝑛𝜋}{3}cos⁡(\frac{𝑛𝜋𝑥}{3}) \\ & ∼\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}−\frac{𝑎_{𝑛}𝑛𝜋}{3}sin⁡(\frac{𝑛𝜋𝑥}{3})+\frac{𝑏_{𝑛}𝑛𝜋}{3}cos⁡(\frac{𝑛𝜋𝑥}{3}).\end{aligned}
+\begin{aligned}𝑦_{′𝑝} & ∼\frac{d}{d𝑥}(\frac{𝑎_{0}}{2}+\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}𝑎_{𝑛}cos⁡(\frac{𝑛𝜋𝑥}{3})+𝑏_{𝑛}sin⁡(\frac{𝑛𝜋𝑥}{3})) \\ & ∼0+\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}𝑎_{𝑛}⋅(−\frac{𝑛𝜋}{3}sin⁡(\frac{𝑛𝜋𝑥}{3}))+𝑏_{𝑛}⋅\frac{𝑛𝜋}{3}cos⁡(\frac{𝑛𝜋𝑥}{3}) \\ & ∼\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}−\frac{𝑎_{𝑛}𝑛𝜋}{3}sin⁡(\frac{𝑛𝜋𝑥}{3})+\frac{𝑏_{𝑛}𝑛𝜋}{3}cos⁡(\frac{𝑛𝜋𝑥}{3}).\end{aligned}
 
 
 $$
@@ -243,7 +243,7 @@ Now, we compute the derivatives:
 $$
 
 
-\begin{aligned}𝑦_{′𝑝}^{} & ∼\frac{d}{d𝑥}(\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}𝑎_{𝑛}cos⁡(𝑛𝜋𝑥))∼\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}−𝑎_{𝑛}𝑛𝜋sin⁡(𝑛𝜋𝑥) \\ 𝑦_{″𝑝}^{} & ∼\frac{d}{d𝑥}(\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}−𝑎_{𝑛}𝑛𝜋sin⁡(𝑛𝜋𝑥))∼\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}−𝑎_{𝑛}𝑛^{2}𝜋^{2}cos⁡(𝑛𝜋𝑥)\end{aligned}
+\begin{aligned}𝑦_{′𝑝} & ∼\frac{d}{d𝑥}(\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}𝑎_{𝑛}cos⁡(𝑛𝜋𝑥))∼\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}−𝑎_{𝑛}𝑛𝜋sin⁡(𝑛𝜋𝑥) \\ 𝑦_{″𝑝} & ∼\frac{d}{d𝑥}(\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}−𝑎_{𝑛}𝑛𝜋sin⁡(𝑛𝜋𝑥))∼\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}−𝑎_{𝑛}𝑛^{2}𝜋^{2}cos⁡(𝑛𝜋𝑥)\end{aligned}
 
 
 $$
@@ -321,7 +321,7 @@ Now, we compute the derivatives:
 $$
 
 
-\begin{aligned}𝑦_{′𝑝}^{} & ∼\frac{d}{d𝑥}(\frac{𝑎_{0}}{2}+\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}𝑏_{𝑛}sin⁡(𝑛𝜋𝑥))∼\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}𝑏_{𝑛}𝑛𝜋cos⁡(𝑛𝜋𝑥) \\ 𝑦_{″𝑝}^{} & ∼\frac{d}{d𝑥}(\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}𝑏_{𝑛}𝑛𝜋cos⁡(𝑛𝜋𝑥))∼\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}−𝑏_{𝑛}𝑛^{2}𝜋^{2}sin⁡(𝑛𝜋𝑥)\end{aligned}
+\begin{aligned}𝑦_{′𝑝} & ∼\frac{d}{d𝑥}(\frac{𝑎_{0}}{2}+\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}𝑏_{𝑛}sin⁡(𝑛𝜋𝑥))∼\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}𝑏_{𝑛}𝑛𝜋cos⁡(𝑛𝜋𝑥) \\ 𝑦_{″𝑝} & ∼\frac{d}{d𝑥}(\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}𝑏_{𝑛}𝑛𝜋cos⁡(𝑛𝜋𝑥))∼\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}−𝑏_{𝑛}𝑛^{2}𝜋^{2}sin⁡(𝑛𝜋𝑥)\end{aligned}
 
 
 $$

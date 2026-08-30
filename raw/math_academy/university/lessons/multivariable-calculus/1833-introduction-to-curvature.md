@@ -20,7 +20,7 @@ If the curve $\mathbf{r}(s)$ is parametrized by the arc length $s,$ then the cur
 $$
 
 
-\kappa(s) = \left\| \dfrac{\textrm{d}\mathbf T}{\textrm{d}s} \right\|= \| \mathbf T'(s) \|.
+\kappa(s) = \left\| \dfrac{\text{d}\mathbf T}{\text{d}s} \right\|= \| \mathbf T'(s) \|.
 
 
 $$
@@ -54,7 +54,7 @@ Next, we differentiate $\mathbf{T}(s)$ and evaluate its absolute value at $s=\pi
 $$
 
 
-\begin{aligned}𝐓^{′}(𝑠) & =\frac{1}{2}⟨\frac{d}{d𝑠}(cos⁡(\frac{𝑠}{2})),\,\frac{d}{d𝑠}(\sqrt{√3}),\,\frac{d}{d𝑠}(sin⁡(\frac{𝑠}{2}))⟩ \\ & =\frac{1}{4}⟨−sin⁡(\frac{𝑠}{2}),\,0,\,cos⁡(\frac{𝑠}{2})⟩ \\ 𝐓^{′}(𝜋) & =\frac{1}{4}⟨−sin⁡(\frac{𝜋}{2}),\,0,\,cos⁡(\frac{𝜋}{2})⟩ \\ & =\frac{1}{4}⟨−1,\,0,\,0⟩\end{aligned}
+\begin{aligned}𝐓^{′}(𝑠) & =\frac{1}{2}⟨\frac{d}{d𝑠}(cos⁡(\frac{𝑠}{2})),\,\frac{d}{d𝑠}(\sqrt{3}),\,\frac{d}{d𝑠}(sin⁡(\frac{𝑠}{2}))⟩ \\ & =\frac{1}{4}⟨−sin⁡(\frac{𝑠}{2}),\,0,\,cos⁡(\frac{𝑠}{2})⟩ \\ 𝐓^{′}(𝜋) & =\frac{1}{4}⟨−sin⁡(\frac{𝜋}{2}),\,0,\,cos⁡(\frac{𝜋}{2})⟩ \\ & =\frac{1}{4}⟨−1,\,0,\,0⟩\end{aligned}
 
 
 $$
@@ -64,7 +64,7 @@ Finally, we obtain the curvature by taking the magnitude:
 $$
 
 
-\begin{aligned}𝜅(𝜋) & =𝐓^{′}(𝜋)=\frac{1}{4}\sqrt{√(−1)^{2}+(0)^{2}+0^{2}}=\frac{1}{4}\end{aligned}
+\begin{aligned}𝜅(𝜋) & =𝐓^{′}(𝜋)=\frac{1}{4}\sqrt{(−1)^{2}+(0)^{2}+0^{2}}=\frac{1}{4}\end{aligned}
 
 
 $$
@@ -112,7 +112,7 @@ Finally, we obtain the curvature at the point where $s=\dfrac{\pi}{2}\mathbin{:}
 $$
 
 
-\begin{aligned}𝜅(\frac{𝜋}{2}) & =𝐓^{′}(\frac{𝜋}{2})=‖−𝐤‖=\sqrt{√0^{2}+0^{2}+(−1)^{2}}=1\end{aligned}
+\begin{aligned}𝜅(\frac{𝜋}{2}) & =𝐓^{′}(\frac{𝜋}{2})=‖−𝐤‖=\sqrt{0^{2}+0^{2}+(−1)^{2}}=1\end{aligned}
 
 
 $$
@@ -148,7 +148,7 @@ Now, we calculate $\mathbf r'(s)$ and $\mathbf r''(s)\mathbin{:}$
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑠) & =⟨\frac{d}{d𝑠}(\frac{\sqrt{√2}}{2}cos⁡𝑠),\,\frac{d}{d𝑠}(−\frac{\sqrt{√2}}{2}cos⁡𝑠),\,\frac{d}{d𝑠}(sin⁡𝑠)⟩ \\ & =⟨−\frac{\sqrt{√2}}{2}sin⁡𝑠,\,\frac{\sqrt{√2}}{2}sin⁡𝑠,\,cos⁡𝑠⟩ \\ 𝐫^{″}(𝑠) & =⟨\frac{d}{d𝑠}(−\frac{\sqrt{√2}}{2}sin⁡𝑠),\,\frac{d}{d𝑠}(\frac{\sqrt{√2}}{2}sin⁡𝑠),\,\frac{d}{d𝑠}(cos⁡𝑠)⟩ \\ & =⟨−\frac{\sqrt{√2}}{2}cos⁡𝑠,\,\frac{\sqrt{√2}}{2}cos⁡𝑠,\,−sin⁡𝑠⟩\end{aligned}
+\begin{aligned}𝐫^{′}(𝑠) & =⟨\frac{d}{d𝑠}(\frac{\sqrt{2}}{2}cos⁡𝑠),\,\frac{d}{d𝑠}(−\frac{\sqrt{2}}{2}cos⁡𝑠),\,\frac{d}{d𝑠}(sin⁡𝑠)⟩ \\ & =⟨−\frac{\sqrt{2}}{2}sin⁡𝑠,\,\frac{\sqrt{2}}{2}sin⁡𝑠,\,cos⁡𝑠⟩ \\ 𝐫^{″}(𝑠) & =⟨\frac{d}{d𝑠}(−\frac{\sqrt{2}}{2}sin⁡𝑠),\,\frac{d}{d𝑠}(\frac{\sqrt{2}}{2}sin⁡𝑠),\,\frac{d}{d𝑠}(cos⁡𝑠)⟩ \\ & =⟨−\frac{\sqrt{2}}{2}cos⁡𝑠,\,\frac{\sqrt{2}}{2}cos⁡𝑠,\,−sin⁡𝑠⟩\end{aligned}
 
 
 $$
@@ -158,7 +158,7 @@ Finally, the curvature is
 $$
 
 
-\begin{aligned}𝜅(𝑠) & =𝐫^{″}(𝑠) \\ & =\sqrt{(−\frac{\sqrt{√2}}{2}cos⁡𝑠)^{2}+(\frac{\sqrt{√2}}{2}cos⁡𝑠)^{2}+(−sin⁡𝑠)^{2}} \\ & =\sqrt{√\frac{1}{2}cos^{2}⁡𝑠+\frac{1}{2}cos^{2}⁡𝑠+sin^{2}⁡𝑠} \\ & =\sqrt{√cos^{2}⁡𝑠+sin^{2}⁡𝑠} \\ & =1.\end{aligned}
+\begin{aligned}𝜅(𝑠) & =𝐫^{″}(𝑠) \\ & =\sqrt{(−\frac{\sqrt{2}}{2}cos⁡𝑠)^{2}+(\frac{\sqrt{2}}{2}cos⁡𝑠)^{2}+(−sin⁡𝑠)^{2}} \\ & =\sqrt{\frac{1}{2}cos^{2}⁡𝑠+\frac{1}{2}cos^{2}⁡𝑠+sin^{2}⁡𝑠} \\ & =\sqrt{cos^{2}⁡𝑠+sin^{2}⁡𝑠} \\ & =1.\end{aligned}
 
 
 $$
@@ -228,7 +228,7 @@ First, we calculate $\mathbf r'(t)$ and find its magnitude:
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑡) & =⟨\frac{d}{d𝑡}(2sin⁡𝑡),\,\frac{d}{d𝑡}(2cos⁡𝑡)⟩ \\ & =⟨2cos⁡𝑡,\,−2sin⁡𝑡⟩ \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{√(2cos⁡𝑡)^{2}+(−2sin⁡𝑡)^{2}} \\ & =\sqrt{√4(cos^{2}⁡𝑡+sin^{2}⁡𝑡)} \\ & =2\end{aligned}
+\begin{aligned}𝐫^{′}(𝑡) & =⟨\frac{d}{d𝑡}(2sin⁡𝑡),\,\frac{d}{d𝑡}(2cos⁡𝑡)⟩ \\ & =⟨2cos⁡𝑡,\,−2sin⁡𝑡⟩ \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{(2cos⁡𝑡)^{2}+(−2sin⁡𝑡)^{2}} \\ & =\sqrt{4(cos^{2}⁡𝑡+sin^{2}⁡𝑡)} \\ & =2\end{aligned}
 
 
 $$
@@ -248,7 +248,7 @@ Next, we calculate $\mathbf T'(t)$ and find its magnitude:
 $$
 
 
-\begin{aligned}𝐓^{′}(𝑡) & =⟨\frac{d}{d𝑡}(cos⁡𝑡),\,\frac{d}{d𝑡}(−sin⁡𝑡)⟩ \\ & =⟨−sin⁡𝑡,\,−cos⁡𝑡⟩ \\ ‖𝐓^{′}(𝑡)‖ & =\sqrt{√(−sin⁡𝑡)^{2}+(−cos⁡𝑡)^{2}} \\ & =1\end{aligned}
+\begin{aligned}𝐓^{′}(𝑡) & =⟨\frac{d}{d𝑡}(cos⁡𝑡),\,\frac{d}{d𝑡}(−sin⁡𝑡)⟩ \\ & =⟨−sin⁡𝑡,\,−cos⁡𝑡⟩ \\ ‖𝐓^{′}(𝑡)‖ & =\sqrt{(−sin⁡𝑡)^{2}+(−cos⁡𝑡)^{2}} \\ & =1\end{aligned}
 
 
 $$

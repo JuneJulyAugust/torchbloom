@@ -325,7 +325,7 @@ Let $[\begin{aligned}𝑥_{0} \\ 𝑦_{0}\end{aligned}]$ Then, we can re-write t
 $$
 
 
-\begin{aligned}𝑧−𝑧_{0} & =(𝑥−𝑥_{0})⋅\frac{𝜕𝑓}{𝜕𝑥}(𝑥_{0},𝑦_{0})+(𝑦−𝑦_{0})⋅\frac{𝜕𝑓}{𝜕𝑦}(𝑥_{0},𝑦_{0}) \\ 𝑧−𝑧_{0} & =[\begin{aligned}\frac{𝜕𝑓}{𝜕𝑥}(𝑥_{0},𝑦_{0}) & \frac{𝜕𝑓}{𝜕𝑦}(𝑥_{0},𝑦_{0})\end{aligned}]⋅[\begin{aligned}𝑥−𝑥_{0} \\ 𝑦−𝑦_{0}\end{aligned}] \\ 𝑧−𝑓(𝑥_{0},𝑦_{0}) & =[\begin{aligned}\frac{𝜕𝑓}{𝜕𝑥}(𝑥_{0},𝑦_{0}) & \frac{𝜕𝑓}{𝜕𝑦}(𝑥_{0},𝑦_{0})\end{aligned}]⋅([\begin{aligned}𝑥 \\ 𝑦\end{aligned}]−[\begin{aligned}𝑥_{0} \\ 𝑦_{0}\end{aligned}]) \\ 𝑧−𝑓(𝐚) & =[\begin{aligned}\frac{𝜕𝑓}{𝜕𝑥}(𝐚) & \frac{𝜕𝑓}{𝜕𝑦}(𝐚)\end{aligned}]⋅(𝐱−𝐚) \\ 𝑧−𝑓(𝐚) & =𝒇^{′}(𝐚)(𝐱−𝐚)\end{aligned}
+\begin{aligned}𝑧−𝑧_{0} & =(𝑥−𝑥_{0})⋅\frac{𝜕𝑓}{𝜕𝑥}(𝑥_{0},𝑦_{0})+(𝑦−𝑦_{0})⋅\frac{𝜕𝑓}{𝜕𝑦}(𝑥_{0},𝑦_{0}) \\ 𝑧−𝑧_{0} & =[\begin{matrix}\frac{𝜕𝑓}{𝜕𝑥}(𝑥_{0},𝑦_{0}) & \frac{𝜕𝑓}{𝜕𝑦}(𝑥_{0},𝑦_{0})\end{matrix}]⋅[\begin{matrix}𝑥−𝑥_{0} \\ 𝑦−𝑦_{0}\end{matrix}] \\ 𝑧−𝑓(𝑥_{0},𝑦_{0}) & =[\begin{matrix}\frac{𝜕𝑓}{𝜕𝑥}(𝑥_{0},𝑦_{0}) & \frac{𝜕𝑓}{𝜕𝑦}(𝑥_{0},𝑦_{0})\end{matrix}]⋅([\begin{matrix}𝑥 \\ 𝑦\end{matrix}]−[\begin{matrix}𝑥_{0} \\ 𝑦_{0}\end{matrix}]) \\ 𝑧−𝑓(𝐚) & =[\begin{matrix}\frac{𝜕𝑓}{𝜕𝑥}(𝐚) & \frac{𝜕𝑓}{𝜕𝑦}(𝐚)\end{matrix}]⋅(𝐱−𝐚) \\ 𝑧−𝑓(𝐚) & =𝒇^{′}(𝐚)(𝐱−𝐚)\end{aligned}
 
 
 $$

@@ -13,7 +13,7 @@ Topic ID: 2181
 
 ### Introduction
 
-The **greatest common factor** (or $\textrm{GCF}$) of the two monomials $12x^2$ and $54x$ is the largest expression that will divide *both* $12x^2$ and $54x$ with no remainder.
+The **greatest common factor** (or $\text{GCF}$) of the two monomials $12x^2$ and $54x$ is the largest expression that will divide *both* $12x^2$ and $54x$ with no remainder.
 
 To find the greatest common factor, we follow three steps:
 
@@ -27,7 +27,7 @@ $$
 
 
 
-\textrm{GCF}(12x^2, 54x) = {\color{red}2} \cdot {\color{blue}3} \cdot {\color{green}x} = 6x
+\text{GCF}(12x^2, 54x) = {\color{red}2} \cdot {\color{blue}3} \cdot {\color{green}x} = 6x
 
 
 
@@ -71,7 +71,7 @@ $$
 
 
 
-\textrm{GCF}(10y^2, 25y^4) = {\color{red}5} \cdot {\color{blue}y} \cdot {\color{green}y} = 5y^2
+\text{GCF}(10y^2, 25y^4) = {\color{red}5} \cdot {\color{blue}y} \cdot {\color{green}y} = 5y^2
 
 
 
@@ -115,7 +115,7 @@ $$
 
 
 
-\textrm{GCF}(6x^2y^2, 3xy) = {\color{red}3} \cdot {\color{blue}x} \cdot {\color{green}y} = 3xy
+\text{GCF}(6x^2y^2, 3xy) = {\color{red}3} \cdot {\color{blue}x} \cdot {\color{green}y} = 3xy
 
 
 
@@ -161,7 +161,7 @@ $$
 
 
 
-\textrm{GCF}(-18p^2qr, 24p^3qr^2) = {\color{red}2} \cdot {\color{blue}3} \cdot {\color{green}p} \cdot {\color{green}p} \cdot {\color{YellowOrange}q} \cdot {\color{Magenta}r} = 6p^2qr
+\text{GCF}(-18p^2qr, 24p^3qr^2) = {\color{red}2} \cdot {\color{blue}3} \cdot {\color{green}p} \cdot {\color{green}p} \cdot {\color{YellowOrange}q} \cdot {\color{Magenta}r} = 6p^2qr
 
 
 
@@ -205,7 +205,7 @@ $$
 
 
 
-\textrm{GCF}\left(30ab^3, 10a^3b, 15a^2b^2\right) = {\color{red}5} \cdot {\color{blue}a} \cdot {\color{violet}b} = 5ab.
+\text{GCF}\left(30ab^3, 10a^3b, 15a^2b^2\right) = {\color{red}5} \cdot {\color{blue}a} \cdot {\color{violet}b} = 5ab.
 
 
 

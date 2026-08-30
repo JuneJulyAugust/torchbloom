@@ -43,7 +43,7 @@ The sum over all the shells will approximate the total volume that we want. This
 $$
 
 
-\begin{aligned}𝑉 & =2𝜋∫_{𝑑𝑐}^{}𝑦𝑥\,d𝑦 \\ & =2𝜋∫_{𝑑𝑐}^{}𝑦\,𝑓(𝑦)\,d𝑦.\end{aligned}
+\begin{aligned}𝑉 & =2𝜋∫_{𝑑𝑐}𝑦𝑥\,d𝑦 \\ & =2𝜋∫_{𝑑𝑐}𝑦\,𝑓(𝑦)\,d𝑦.\end{aligned}
 
 
 $$
@@ -75,7 +75,7 @@ Using the shell method, the volume of the solid can be expressed as follows:
 $$
 
 
-\begin{aligned}𝑉 & =2𝜋∫_{𝑑𝑐}^{}𝑦𝑓(𝑦)\,d𝑦 \\ & =2𝜋∫_{40}^{}𝑦(4𝑦−𝑦^{2})d𝑦\end{aligned}
+\begin{aligned}𝑉 & =2𝜋∫_{𝑑𝑐}𝑦𝑓(𝑦)\,d𝑦 \\ & =2𝜋∫_{40}𝑦(4𝑦−𝑦^{2})d𝑦\end{aligned}
 
 
 $$
@@ -93,7 +93,7 @@ According to the shell method, the volume $V$ is given by the following straight
 $$
 
 
-\begin{aligned}𝑉 & =2𝜋∫_{10}^{}𝑦𝑓(𝑦)\,d𝑦 \\ & =2𝜋∫_{10}^{}𝑦(2𝑦−2𝑦^{2})\,d𝑦 \\ & =2𝜋∫_{10}^{}2𝑦^{2}−2𝑦^{3}\,d𝑦\end{aligned}
+\begin{aligned}𝑉 & =2𝜋∫_{10}𝑦𝑓(𝑦)\,d𝑦 \\ & =2𝜋∫_{10}𝑦(2𝑦−2𝑦^{2})\,d𝑦 \\ & =2𝜋∫_{10}2𝑦^{2}−2𝑦^{3}\,d𝑦\end{aligned}
 
 
 $$
@@ -105,7 +105,7 @@ To determine this volume using the disc method, we'd first need to express our c
 $$
 
 
-\begin{aligned}𝑦=\frac{1}{2}+\frac{1}{2}\sqrt{√1−2𝑥},\, & 𝑦≥\frac{1}{2} \\ 𝑦=\frac{1}{2}−\frac{1}{2}\sqrt{√1−2𝑥},\, & 𝑦<\frac{1}{2}\end{aligned}
+\begin{aligned}𝑦=\frac{1}{2}+\frac{1}{2}\sqrt{1−2𝑥},\, & 𝑦≥\frac{1}{2} \\ 𝑦=\frac{1}{2}−\frac{1}{2}\sqrt{1−2𝑥},\, & 𝑦<\frac{1}{2}\end{aligned}
 
 
 $$
@@ -117,7 +117,7 @@ The required volume is equal to the difference between the volumes generated whe
 $$
 
 
-V = \pi \int_{0}^{1/2} \left( \left[ \dfrac{1}{2}+\dfrac{1}{2}\sqrt{1-2x} \right]^2 - \left[ \dfrac{1}{2}-\dfrac{1}{2}\sqrt{1-2x} \right]^2 \right) \textrm{d}x.
+V = \pi \int_{0}^{1/2} \left( \left[ \dfrac{1}{2}+\dfrac{1}{2}\sqrt{1-2x} \right]^2 - \left[ \dfrac{1}{2}-\dfrac{1}{2}\sqrt{1-2x} \right]^2 \right) \text{d}x.
 
 
 $$
@@ -151,7 +151,7 @@ Using the shell method, the volume of the solid can be found as follows:
 $$
 
 
-\begin{aligned}𝑉 & =2𝜋∫_{𝑑𝑐}^{}𝑦𝑓(𝑦)\,d𝑦 \\ & =2𝜋∫_{10}^{}𝑦(2𝑦−2𝑦^{2})d𝑦 \\ & =4𝜋∫_{10}^{}(𝑦^{2}−𝑦^{3})d𝑦 \\ & =4𝜋(∫_{10}^{}𝑦^{2}\,d𝑦−∫_{10}^{}𝑦^{3}d𝑦) \\ & =4𝜋(\frac{𝑦^{3}}{3}_{10}^{}−\frac{𝑦^{4}}{4}_{10}^{}) \\ & =4𝜋((\frac{1}{3}−0)−(\frac{1}{4}−0)) \\ & =4𝜋(\frac{1}{3}−\frac{1}{4}) \\ & =\frac{𝜋}{3}\end{aligned}
+\begin{aligned}𝑉 & =2𝜋∫_{𝑑𝑐}𝑦𝑓(𝑦)\,d𝑦 \\ & =2𝜋∫_{10}𝑦(2𝑦−2𝑦^{2})d𝑦 \\ & =4𝜋∫_{10}(𝑦^{2}−𝑦^{3})d𝑦 \\ & =4𝜋(∫_{10}𝑦^{2}\,d𝑦−∫_{10}𝑦^{3}d𝑦) \\ & =4𝜋(\frac{𝑦^{3}}{3}_{10}−\frac{𝑦^{4}}{4}_{10}) \\ & =4𝜋((\frac{1}{3}−0)−(\frac{1}{4}−0)) \\ & =4𝜋(\frac{1}{3}−\frac{1}{4}) \\ & =\frac{𝜋}{3}\end{aligned}
 
 
 $$

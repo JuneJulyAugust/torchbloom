@@ -268,7 +268,7 @@ Thus, the general solution of the system is
 $$
 
 
-\begin{aligned}[\begin{aligned}𝑥(𝑡) \\ 𝑦(𝑡)\end{aligned}] & =𝑐_{1}[\begin{aligned}3 \\ 1\end{aligned}]+𝑐_{2}([\begin{aligned}3 \\ 1\end{aligned}]𝑡+[\begin{aligned}−1 \\ 0\end{aligned}]) \\ & =𝑐_{1}[\begin{aligned}3 \\ 1\end{aligned}]+𝑐_{2}[\begin{aligned}3𝑡−1 \\ 𝑡\end{aligned}],\,𝑐_{1},𝑐_{2}∈ℝ.\end{aligned}
+\begin{aligned}[\begin{matrix}𝑥(𝑡) \\ 𝑦(𝑡)\end{matrix}] & =𝑐_{1}[\begin{matrix}3 \\ 1\end{matrix}]+𝑐_{2}([\begin{matrix}3 \\ 1\end{matrix}]𝑡+[\begin{matrix}−1 \\ 0\end{matrix}]) \\ & =𝑐_{1}[\begin{matrix}3 \\ 1\end{matrix}]+𝑐_{2}[\begin{matrix}3𝑡−1 \\ 𝑡\end{matrix}],\,𝑐_{1},𝑐_{2}∈ℝ.\end{aligned}
 
 
 $$

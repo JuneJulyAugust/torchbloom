@@ -19,7 +19,7 @@ For example, suppose that we wish to simplify $\dfrac {4x - 12} {10x + 4}.$ To d
 $$
 
 
-\begin{aligned} \dfrac {4x - 12} {10x + 4} &=\dfrac {4(x - 3)} {2(5x + 2)}\\\[5pt] &=\dfrac {2 \cdot 2 \cdot (x - 3)} {2(5x + 2)}\\\[5pt] &=\dfrac {2 \cdot 2(x - 3)} {2(5x + 2)}\\\[5pt] &=\dfrac {2(x - 3)} {5x + 2} \end{aligned}
+\begin{aligned} \dfrac {4x - 12} {10x + 4} &=\dfrac {4(x - 3)} {2(5x + 2)}\\[5pt] &=\dfrac {2 \cdot 2 \cdot (x - 3)} {2(5x + 2)}\\[5pt] &=\dfrac {2 \cdot 2(x - 3)} {2(5x + 2)}\\[5pt] &=\dfrac {2(x - 3)} {5x + 2} \end{aligned}
 
 
 $$
@@ -37,7 +37,7 @@ We factor the numerator and denominator and cancel any factors that they have in
 $$
 
 
-\begin{aligned}\begin{aligned}\frac{2𝑥+4}{2} & =\frac{2(𝑥+2)}{2} \\ & =\frac{2(𝑥+2)}{2⋅1} \\ & =\frac{𝑥+2}{1} \\ & =𝑥+2\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}\frac{2𝑥+4}{2} & =\frac{2(𝑥+2)}{2} \\ & =\frac{2(𝑥+2)}{2⋅1} \\ & =\frac{𝑥+2}{1} \\ & =𝑥+2\end{matrix}\end{aligned}
 
 
 $$
@@ -55,7 +55,7 @@ We factor the numerator and denominator and cancel any factors that they have in
 $$
 
 
- \begin{aligned} \dfrac {6y + 2} {3xy + x} &= \dfrac {6y + 2} {x(3y + 1)} \\\[5pt] &=\dfrac {2(3y + 1)} {x(3y + 1)} \\\[5pt] &=\dfrac {2(3y + 1) } {x (3y + 1) } \\\[5pt] &=\dfrac {2 } {x} \end{aligned}
+ \begin{aligned} \dfrac {6y + 2} {3xy + x} &= \dfrac {6y + 2} {x(3y + 1)} \\[5pt] &=\dfrac {2(3y + 1)} {x(3y + 1)} \\[5pt] &=\dfrac {2(3y + 1) } {x (3y + 1) } \\[5pt] &=\dfrac {2 } {x} \end{aligned}
 
 
 $$

@@ -22,7 +22,7 @@ $$
 
 
 
-\begin{aligned}𝐴 & =\frac{1}{2}⋅𝑏⋅ℎ \\ & =\frac{1}{2}⋅𝑠⋅\sqrt{√3}⋅𝑠 \\ & =\frac{\sqrt{√3}}{2}𝑠^{2}.\end{aligned}
+\begin{aligned}𝐴 & =\frac{1}{2}⋅𝑏⋅ℎ \\ & =\frac{1}{2}⋅𝑠⋅\sqrt{3}⋅𝑠 \\ & =\frac{\sqrt{3}}{2}𝑠^{2}.\end{aligned}
 
 
 
@@ -54,7 +54,7 @@ $$
 
 
 
-\begin{aligned}A & =\frac{\sqrt{√3}}{2}⋅12^{2} \\ & =\frac{\sqrt{√3}}{2}⋅144 \\ & =72\sqrt{√3}.\end{aligned}
+\begin{aligned}A & =\frac{\sqrt{3}}{2}⋅12^{2} \\ & =\frac{\sqrt{3}}{2}⋅144 \\ & =72\sqrt{3}.\end{aligned}
 
 
 
@@ -86,7 +86,7 @@ $$
 
 
 
-\begin{aligned}23\sqrt{√3} & =\frac{\sqrt{√3}}{2}𝑠^{2} \\ 23 & =\frac{1}{2}𝑠^{2} \\ 46 & =𝑠^{2} \\ 𝑠 & =\sqrt{√46}\end{aligned}
+\begin{aligned}23\sqrt{3} & =\frac{\sqrt{3}}{2}𝑠^{2} \\ 23 & =\frac{1}{2}𝑠^{2} \\ 46 & =𝑠^{2} \\ 𝑠 & =\sqrt{46}\end{aligned}
 
 
 
@@ -122,7 +122,7 @@ $$
 
 
 
-\begin{aligned}A & =\frac{\sqrt{√3}}{2}𝑠^{2} \\ & =\frac{\sqrt{√3}}{2}⋅5^{2} \\ & =\frac{\sqrt{√3}}{2}⋅25 \\ & =\frac{25\sqrt{√3}}{2}\end{aligned}
+\begin{aligned}A & =\frac{\sqrt{3}}{2}𝑠^{2} \\ & =\frac{\sqrt{3}}{2}⋅5^{2} \\ & =\frac{\sqrt{3}}{2}⋅25 \\ & =\frac{25\sqrt{3}}{2}\end{aligned}
 
 
 
@@ -158,7 +158,7 @@ $$
 
 
 
-\begin{aligned}26\sqrt{√3} & =\frac{\sqrt{√3}}{2}𝑠^{2} \\ 52 & =𝑠^{2} \\ 𝑠 & =\sqrt{√52} \\ 𝑠 & =2\sqrt{√13}\end{aligned}
+\begin{aligned}26\sqrt{3} & =\frac{\sqrt{3}}{2}𝑠^{2} \\ 52 & =𝑠^{2} \\ 𝑠 & =\sqrt{52} \\ 𝑠 & =2\sqrt{13}\end{aligned}
 
 
 
@@ -170,7 +170,7 @@ $$
 
 
 
-\begin{aligned}\sqrt{√3}⋅𝑠 & =\sqrt{√3}⋅2\sqrt{√13} \\ & =2\sqrt{√39}.\end{aligned}
+\begin{aligned}\sqrt{3}⋅𝑠 & =\sqrt{3}⋅2\sqrt{13} \\ & =2\sqrt{39}.\end{aligned}
 
 
 

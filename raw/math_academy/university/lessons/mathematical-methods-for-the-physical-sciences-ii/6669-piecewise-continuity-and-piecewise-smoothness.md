@@ -111,7 +111,7 @@ Which of the following functions are piecewise continuous on $x\in [0,\infty).$
 $$
 
 
-\begin{aligned}𝑓(𝑥) & =\begin{aligned}1,\, & ⌈𝑥⌉ is even \\ −1,\, & ⌈𝑥⌉ is odd\end{aligned} \\ 𝑔(𝑥) & =𝑢(𝑥−1)+𝑢\,(𝑥−\frac{1}{2})+𝑢\,(𝑥−\frac{1}{3})+⋯ \\ ℎ(𝑥) & =⌈\frac{𝑥}{2}⌉\end{aligned}
+\begin{aligned}𝑓(𝑥) & =\begin{matrix}1,\, & ⌈𝑥⌉ is even \\ −1,\, & ⌈𝑥⌉ is odd\end{matrix} \\ 𝑔(𝑥) & =𝑢(𝑥−1)+𝑢\,(𝑥−\frac{1}{2})+𝑢\,(𝑥−\frac{1}{3})+⋯ \\ ℎ(𝑥) & =⌈\frac{𝑥}{2}⌉\end{aligned}
 
 
 $$

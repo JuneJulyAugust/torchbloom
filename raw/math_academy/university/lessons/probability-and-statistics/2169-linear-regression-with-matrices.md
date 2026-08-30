@@ -93,7 +93,7 @@ Substituting $X$ and $\mathbf{y}$ into the formula above and simplifying, we get
 $$
 
 
-\begin{aligned}\overset{𝜷}{^}=[\begin{aligned}1 \\ 0.1\end{aligned}].\end{aligned}
+\begin{aligned}\hat{𝜷}=[\begin{matrix}1 \\ 0.1\end{matrix}].\end{aligned}
 
 
 $$
@@ -131,7 +131,7 @@ The coefficients of the line that best fits the data can be found as the least-s
 $$
 
 
-\begin{aligned}\overset{\overset\begin{aligned}1 & −6 \\ 1 & −3 \\ 1 & −1 \\ 1 & 0 \\ 1 & 4\end{aligned}}{}}{𝑋}\overset{\overset{[\begin{aligned}𝛽_{0} \\ 𝛽_{1}\end{aligned}]}{}}{𝜷} & =\overset{\overset\begin{aligned}−7 \\ −4 \\ 2 \\ 8 \\ 10\end{aligned}}{}}{𝐲},\end{aligned}
+\begin{aligned}\overset{\begin{matrix}1 & −6 \\ 1 & −3 \\ 1 & −1 \\ 1 & 0 \\ 1 & 4\end{matrix}}{𝑋}\overset{[\begin{matrix}𝛽_{0} \\ 𝛽_{1}\end{matrix}]}{}}{𝜷} & =\overset{\begin{matrix}−7 \\ −4 \\ 2 \\ 8 \\ 10\end{matrix}}{𝐲},\end{aligned}
 
 
 $$
@@ -163,7 +163,7 @@ The coefficients of the line that best fits the data can be found as the least-s
 $$
 
 
-\begin{aligned}\overset{\overset\begin{aligned}1 & −3 \\ 1 & −1 \\ 1 & 0 \\ 1 & 4\end{aligned}}{}}{𝑋}\overset{\overset{[\begin{aligned}𝛽_{0} \\ 𝛽_{1}\end{aligned}]}{}}{𝜷} & =\overset{\overset\begin{aligned}10 \\ 8 \\ 6 \\ 3\end{aligned}}{}}{𝐲},\end{aligned}
+\begin{aligned}\overset{\begin{matrix}1 & −3 \\ 1 & −1 \\ 1 & 0 \\ 1 & 4\end{matrix}}{𝑋}\overset{[\begin{matrix}𝛽_{0} \\ 𝛽_{1}\end{matrix}]}{}}{𝜷} & =\overset{\begin{matrix}10 \\ 8 \\ 6 \\ 3\end{matrix}}{𝐲},\end{aligned}
 
 
 $$
@@ -195,7 +195,7 @@ Substituting the given values of $({X^T} X)^{-1}$ and $X^T \mathbf{y}$ into the 
 $$
 
 
-\begin{aligned}\overset{𝜷}{^} & =(𝑋^{𝑇}\,𝑋)^{−1}𝑋^{𝑇}\,𝐲 \\ & =\frac{1}{104}[\begin{aligned}26 & 0 \\ 0 & 4\end{aligned}][\begin{aligned}27 \\ −26\end{aligned}] \\ & =[\begin{aligned}6.75 \\ −1\end{aligned}].\end{aligned}
+\begin{aligned}\hat{𝜷} & =(𝑋^{𝑇}\,𝑋)^{−1}𝑋^{𝑇}\,𝐲 \\ & =\frac{1}{104}[\begin{matrix}26 & 0 \\ 0 & 4\end{matrix}][\begin{matrix}27 \\ −26\end{matrix}] \\ & =[\begin{matrix}6.75 \\ −1\end{matrix}].\end{aligned}
 
 
 $$
@@ -229,7 +229,7 @@ The coefficients of the line that best fits the data can be found as the least-s
 $$
 
 
-\begin{aligned}\overset{\overset\begin{aligned}1 & 1 \\ 1 & 2 \\ 1 & 4 \\ 1 & 5\end{aligned}}{}}{𝑋}\overset{\overset{[\begin{aligned}𝛽_{0} \\ 𝛽_{1}\end{aligned}]}{}}{𝜷} & =\overset{\overset\begin{aligned}0.8 \\ 1.8 \\ 3.2 \\ 4.2\end{aligned}}{}}{𝐲},\end{aligned}
+\begin{aligned}\overset{\begin{matrix}1 & 1 \\ 1 & 2 \\ 1 & 4 \\ 1 & 5\end{matrix}}{𝑋}\overset{[\begin{matrix}𝛽_{0} \\ 𝛽_{1}\end{matrix}]}{}}{𝜷} & =\overset{\begin{matrix}0.8 \\ 1.8 \\ 3.2 \\ 4.2\end{matrix}}{𝐲},\end{aligned}
 
 
 $$
@@ -261,7 +261,7 @@ Substituting the given values of $({X^T} X)^{-1}$ and $X^T \mathbf{y}$ into the 
 $$
 
 
-\begin{aligned}\overset{𝜷}{^} & =(𝑋^{𝑇}\,𝑋)^{−1}𝑋^{𝑇}\,𝐲 \\ & =\frac{1}{20}[\begin{aligned}23 & −6 \\ −6 & 2\end{aligned}]⋅[\begin{aligned}10 \\ 38.2\end{aligned}] \\ & =[\begin{aligned}0.04 \\ 0.82\end{aligned}].\end{aligned}
+\begin{aligned}\hat{𝜷} & =(𝑋^{𝑇}\,𝑋)^{−1}𝑋^{𝑇}\,𝐲 \\ & =\frac{1}{20}[\begin{matrix}23 & −6 \\ −6 & 2\end{matrix}]⋅[\begin{matrix}10 \\ 38.2\end{matrix}] \\ & =[\begin{matrix}0.04 \\ 0.82\end{matrix}].\end{aligned}
 
 
 $$

@@ -41,7 +41,7 @@ For instance, let's find the characteristic polynomial of the matrix $[\begin{al
 $$
 
 
-\begin{aligned}𝑝(𝜆) & =det(𝐶−𝜆𝐼) \\ & =\begin{aligned}−8−𝜆 & −9 \\ 6 & 7−𝜆\end{aligned} \\ & =(−8−𝜆)⋅(7−𝜆)−(−9)⋅6 \\ & =𝜆^{2}+𝜆−2\end{aligned}
+\begin{aligned}𝑝(𝜆) & =det(𝐶−𝜆𝐼) \\ & =\begin{matrix}−8−𝜆 & −9 \\ 6 & 7−𝜆\end{matrix} \\ & =(−8−𝜆)⋅(7−𝜆)−(−9)⋅6 \\ & =𝜆^{2}+𝜆−2\end{aligned}
 
 
 $$
@@ -63,7 +63,7 @@ First, let's find the characteristic equation:
 $$
 
 
-\begin{aligned}det(𝐴−𝜆𝐼) & =0 \\ \begin{aligned}𝑎−𝜆 & 𝑏 \\ 𝑐 & 𝑑−𝜆\end{aligned} & =0 \\ (𝑎−𝜆)(𝑑−𝜆)−𝑏𝑐 & =0 \\ 𝜆^{2}−(𝑎+𝑑)𝜆+(𝑎𝑑−𝑏𝑐) & =0\end{aligned}
+\begin{aligned}det(𝐴−𝜆𝐼) & =0 \\ \begin{matrix}𝑎−𝜆 & 𝑏 \\ 𝑐 & 𝑑−𝜆\end{matrix} & =0 \\ (𝑎−𝜆)(𝑑−𝜆)−𝑏𝑐 & =0 \\ 𝜆^{2}−(𝑎+𝑑)𝜆+(𝑎𝑑−𝑏𝑐) & =0\end{aligned}
 
 
 $$
@@ -153,7 +153,7 @@ Therefore,
 $$
 
 
-\lambda_1+\lambda_2 = \textrm{tr}(A)= 9+(-6)=3.
+\lambda_1+\lambda_2 = \text{tr}(A)= 9+(-6)=3.
 
 
 $$
@@ -167,7 +167,7 @@ The **Cayley-Hamilton theorem** states the following:
 $$
 
 
-p(\lambda) = \textrm{det}(A-\lambda I) = (-1)^n\lambda^n + c_{n-1}\lambda^{n-1}+\cdots+c_1\lambda + c_0.
+p(\lambda) = \text{det}(A-\lambda I) = (-1)^n\lambda^n + c_{n-1}\lambda^{n-1}+\cdots+c_1\lambda + c_0.
 
 
 $$
@@ -220,7 +220,7 @@ $$
 
 #### Question
 
-Let $A$ be a $2\times 2$ matrix such that $\textrm{tr}(A)=-4$ and $\textrm{det}(A)=-18.$ If $A^2 = xA + yI$ for constants $x$ and $y,$ then find the value of $x+y.$
+Let $A$ be a $2\times 2$ matrix such that $\text{tr}(A)=-4$ and $\text{det}(A)=-18.$ If $A^2 = xA + yI$ for constants $x$ and $y,$ then find the value of $x+y.$
 
 #### Explanation
 
@@ -229,7 +229,7 @@ The characteristic polynomial of $A$ is given by
 $$
 
 
-p(\lambda)=\lambda^2-\textrm{tr}(A)\lambda+\textrm{det}(A).
+p(\lambda)=\lambda^2-\text{tr}(A)\lambda+\text{det}(A).
 
 
 $$
@@ -254,12 +254,12 @@ Given that $[\begin{aligned}−8 & −9 \\ 6 & 7\end{aligned}]$ and $A^{-1}=pI+q
 
 #### Explanation
 
-Let's find the characteristic equation $\textrm{det}(A-\lambda I)=0\mathbin{:}$
+Let's find the characteristic equation $\text{det}(A-\lambda I)=0\mathbin{:}$
 
 $$
 
 
-\begin{aligned}det(𝐴−𝜆𝐼) & =0 \\ \begin{aligned}−8−𝜆 & −9 \\ 6 & 7−𝜆\end{aligned} & =0 \\ (−8−𝜆)(7−𝜆)+54 & =0 \\ 𝜆^{2}+𝜆−2 & =0\end{aligned}
+\begin{aligned}det(𝐴−𝜆𝐼) & =0 \\ \begin{matrix}−8−𝜆 & −9 \\ 6 & 7−𝜆\end{matrix} & =0 \\ (−8−𝜆)(7−𝜆)+54 & =0 \\ 𝜆^{2}+𝜆−2 & =0\end{aligned}
 
 
 $$
@@ -315,7 +315,7 @@ For the given matrix $[\begin{aligned}1 & 2 \\ 3 & 4\end{aligned}]$ the characte
 $$
 
 
-\begin{aligned}𝑝(𝜆) & =det(𝐴−𝜆𝐼) \\ & =\begin{aligned}1−𝜆 & 2 \\ 3 & 4−𝜆\end{aligned} \\ & =(1−𝜆)(4−𝜆)−6 \\ & =𝜆^{2}−5𝜆−2,\end{aligned}
+\begin{aligned}𝑝(𝜆) & =det(𝐴−𝜆𝐼) \\ & =\begin{matrix}1−𝜆 & 2 \\ 3 & 4−𝜆\end{matrix} \\ & =(1−𝜆)(4−𝜆)−6 \\ & =𝜆^{2}−5𝜆−2,\end{aligned}
 
 
 $$
@@ -365,7 +365,7 @@ Now, the computation is much faster:
 $$
 
 
-\begin{aligned}𝑓(𝐴) & =𝐴+2𝐼 \\ & =[\begin{aligned}1 & 2 \\ 3 & 4\end{aligned}]+2[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ & =[\begin{aligned}3 & 2 \\ 3 & 6\end{aligned}]\end{aligned}
+\begin{aligned}𝑓(𝐴) & =𝐴+2𝐼 \\ & =[\begin{matrix}1 & 2 \\ 3 & 4\end{matrix}]+2[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}] \\ & =[\begin{matrix}3 & 2 \\ 3 & 6\end{matrix}]\end{aligned}
 
 
 $$
@@ -395,7 +395,7 @@ Let's start by finding the characteristic polynomial $p(\lambda)\mathbin{:}$
 $$
 
 
-\begin{aligned}𝑝(𝜆) & =det(𝐴−𝜆𝐼) \\ & =\begin{aligned}4−𝜆 & −5 \\ 3 & −4−𝜆\end{aligned} \\ & =(4−𝜆)(−4−𝜆)+15 \\ & =𝜆^{2}−1\end{aligned}
+\begin{aligned}𝑝(𝜆) & =det(𝐴−𝜆𝐼) \\ & =\begin{matrix}4−𝜆 & −5 \\ 3 & −4−𝜆\end{matrix} \\ & =(4−𝜆)(−4−𝜆)+15 \\ & =𝜆^{2}−1\end{aligned}
 
 
 $$
@@ -427,7 +427,7 @@ According to the Cayley-Hamilton theorem, we have $p(A)=O.$ Therefore,
 $$
 
 
-\begin{aligned}𝑓(𝐴) & =𝑞(𝐴)𝑝(𝐴)+(2𝐴−𝐼) \\ & =𝑞(𝐴)⋅𝑂+(2𝐴−𝐼) \\ & =2𝐴−𝐼 \\ & =2[\begin{aligned}4 & −5 \\ 3 & −4\end{aligned}]−[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ & =[\begin{aligned}8 & −10 \\ 6 & −8\end{aligned}]−[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ & =[\begin{aligned}7 & −10 \\ 6 & −9\end{aligned}].\end{aligned}
+\begin{aligned}𝑓(𝐴) & =𝑞(𝐴)𝑝(𝐴)+(2𝐴−𝐼) \\ & =𝑞(𝐴)⋅𝑂+(2𝐴−𝐼) \\ & =2𝐴−𝐼 \\ & =2[\begin{matrix}4 & −5 \\ 3 & −4\end{matrix}]−[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}] \\ & =[\begin{matrix}8 & −10 \\ 6 & −8\end{matrix}]−[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}] \\ & =[\begin{matrix}7 & −10 \\ 6 & −9\end{matrix}].\end{aligned}
 
 
 $$

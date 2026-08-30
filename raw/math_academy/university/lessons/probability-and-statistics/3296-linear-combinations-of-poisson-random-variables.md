@@ -14,19 +14,19 @@ Topic ID: 3296
 
 The sum of two independent Poisson random variables is also a Poisson random variable.
 
-More precisely, if $X_1$ and $X_2$ are independent Poisson random variables such that $X_1\sim \textrm{Po}(\lambda_1)$ and $X_2\sim \textrm{Po}(\lambda_2)$, then
+More precisely, if $X_1$ and $X_2$ are independent Poisson random variables such that $X_1\sim \text{Po}(\lambda_1)$ and $X_2\sim \text{Po}(\lambda_2)$, then
 
 $$
 
 
-Y = X_1+X_2\sim \textrm{Po}(\lambda_1+\lambda_2).
+Y = X_1+X_2\sim \text{Po}(\lambda_1+\lambda_2).
 
 
 $$
 
 We'll prove this in a separate lesson.
 
-For example, if $X_1\sim \textrm{Po}({\color{red}{4}})$ and $X_2\sim \textrm{Po}({\color{blue}{5}})$ are independent, then
+For example, if $X_1\sim \text{Po}({\color{red}{4}})$ and $X_2\sim \text{Po}({\color{blue}{5}})$ are independent, then
 
 $$
 
@@ -38,9 +38,9 @@ $$
 
 There is some nice intuition behind this rule. For example, consider the following situation:
 
-- the random variable $X_1\sim \textrm{Po}({\color{red}{4}})$ represents the number of red buses that arrive at a bus station every hour, and
+- the random variable $X_1\sim \text{Po}({\color{red}{4}})$ represents the number of red buses that arrive at a bus station every hour, and
 
-- the random variable $X_2\sim \textrm{Po}({\color{blue}{5}})$ represents the number of blue buses that arrive the same bus station every hour.
+- the random variable $X_2\sim \text{Po}({\color{blue}{5}})$ represents the number of blue buses that arrive the same bus station every hour.
 
 Under this model, we assume that an average of $\color{red}{4}$ red buses and $\color{blue}{5}$ blue buses arrive at the bus station every hour.
 
@@ -49,7 +49,7 @@ Then, the random variable
 $$
 
 
-Y = X_1+X_2 \sim \textrm{Po}(9)
+Y = X_1+X_2 \sim \text{Po}(9)
 
 
 $$
@@ -62,16 +62,16 @@ represents the number of buses (both red and blue) that arrive at the bus statio
 
 #### Question
 
-If $X_1\sim \textrm{Po}(4)$ and $X_2\sim \textrm{Po}(2.3)$ are independent, then what is the distribution of $Y = X_1+X_2?$
+If $X_1\sim \text{Po}(4)$ and $X_2\sim \text{Po}(2.3)$ are independent, then what is the distribution of $Y = X_1+X_2?$
 
 #### Explanation
 
-Recall that if $X_1$ and $X_2$ are independent Poisson random variables, where $X_1\sim \textrm{Po}(\lambda_1)$ and $X_2\sim \textrm{Po}(\lambda_2)$, then
+Recall that if $X_1$ and $X_2$ are independent Poisson random variables, where $X_1\sim \text{Po}(\lambda_1)$ and $X_2\sim \text{Po}(\lambda_2)$, then
 
 $$
 
 
-X_1+X_2\sim \textrm{Po}(\lambda_1+\lambda_2).
+X_1+X_2\sim \text{Po}(\lambda_1+\lambda_2).
 
 
 $$
@@ -90,16 +90,16 @@ $$
 
 #### Question
 
-If $X_1\sim \textrm{Po}(2)$ and $X_2\sim \textrm{Po}(4)$ are independent, and $Y=X_1+X_2$, then calculate $P(Y<3).$ Round your answer to $3$ decimal places.
+If $X_1\sim \text{Po}(2)$ and $X_2\sim \text{Po}(4)$ are independent, and $Y=X_1+X_2$, then calculate $P(Y<3).$ Round your answer to $3$ decimal places.
 
 #### Explanation
 
-Recall that if $X_1$ and $X_2$ are independent Poisson random variables, where $X_1\sim \textrm{Po}(\lambda_1)$ and $X_2\sim \textrm{Po}(\lambda_2)$, then
+Recall that if $X_1$ and $X_2$ are independent Poisson random variables, where $X_1\sim \text{Po}(\lambda_1)$ and $X_2\sim \text{Po}(\lambda_2)$, then
 
 $$
 
 
-X_1+X_2\sim \textrm{Po}(\lambda_1+\lambda_2).
+X_1+X_2\sim \text{Po}(\lambda_1+\lambda_2).
 
 
 $$
@@ -114,7 +114,7 @@ $$
 
 $$
 
-The probability mass function of $Y\sim \textrm{Po}(\lambda)$ is given by
+The probability mass function of $Y\sim \text{Po}(\lambda)$ is given by
 
 $$
 
@@ -124,7 +124,7 @@ f(y) = \dfrac{\lambda^y e^{-\lambda}}{y!}, \qquad y=0,1,2,\ldots
 
 $$
 
-Here, $Y\sim \textrm{Po}(6)$, so the probability distribution of $Y$ is
+Here, $Y\sim \text{Po}(6)$, so the probability distribution of $Y$ is
 
 $$
 
@@ -160,13 +160,13 @@ Let's define the following random variables:
 
 We assume that $X_1$ and $X_2$ are independent Poisson random variables.
 
-- The app is downloaded, on average, at a rate of $5$ times per minute on tablets. Thus, $X_1 \sim \textrm{Po}(5).$
+- The app is downloaded, on average, at a rate of $5$ times per minute on tablets. Thus, $X_1 \sim \text{Po}(5).$
 
-- The app is downloaded, on average, at a rate of $6$ times per minute on smartphones. Thus, $X_2 \sim \textrm{Po}(6).$
+- The app is downloaded, on average, at a rate of $6$ times per minute on smartphones. Thus, $X_2 \sim \text{Po}(6).$
 
 Let $Y = X_1+X_2.$ We want to find $P(Y > 5).$
 
-Since $X_1\sim \textrm{Po}(5)$ and $X_2\sim \textrm{Po}(6)$ are independent Poisson random variables, then
+Since $X_1\sim \text{Po}(5)$ and $X_2\sim \text{Po}(6)$ are independent Poisson random variables, then
 
 $$
 

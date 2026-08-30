@@ -22,7 +22,7 @@ Since the angular velocity is constant, we refer to this as **uniform circular m
 $$
 
 
-\omega = \dfrac\pi 3\,\textrm{rad/s}.
+\omega = \dfrac\pi 3\,\text{rad/s}.
 
 
 $$
@@ -71,7 +71,7 @@ Let's see an example.
 
 #### Question
 
-A particle moves along a **** circular path with center $O$ in the $xy$-plane with a constant angular velocity of $3 \textrm{rad/s}.$ Given that the object is at the position $(7,0)$ when $t=0,$ find the position function of the particle.
+A particle moves along a **** circular path with center $O$ in the $xy$-plane with a constant angular velocity of $3 \text{rad/s}.$ Given that the object is at the position $(7,0)$ when $t=0,$ find the position function of the particle.
 
 #### Explanation
 
@@ -89,7 +89,7 @@ where it is assumed that the circle is centered at $O,$ and particle is at the p
 
 Since the object's initial position is $(7,0),$ we have that $\mathbf r(0)=\,7\mathbf i,$ and we can conclude that the radius of the circle $R=7.$
 
-Therefore, since we have $R=7$ and $\omega= -3 \textrm{rad/s}$ (negative because the motion is clockwise), we get that the position function is given by
+Therefore, since we have $R=7$ and $\omega= -3 \text{rad/s}$ (negative because the motion is clockwise), we get that the position function is given by
 
 $$
 
@@ -180,12 +180,12 @@ To find the speed, we calculate the magnitude of the velocity vector as follows:
 $$
 
 
-\begin{aligned}||𝐯(𝑡)|| & =\sqrt{√(−5𝜋sin⁡𝜋𝑡)^{2}+(5𝜋cos⁡𝜋𝑡)^{2}} \\ & =\sqrt{√25𝜋^{2}sin^{2}⁡𝜋𝑡+25𝜋^{2}cos^{2}⁡𝜋𝑡} \\ & =\sqrt{√25𝜋^{2}(sin^{2}⁡𝜋𝑡+cos^{2}⁡𝜋𝑡)} \\ & =5𝜋\end{aligned}
+\begin{aligned}||𝐯(𝑡)|| & =\sqrt{(−5𝜋sin⁡𝜋𝑡)^{2}+(5𝜋cos⁡𝜋𝑡)^{2}} \\ & =\sqrt{25𝜋^{2}sin^{2}⁡𝜋𝑡+25𝜋^{2}cos^{2}⁡𝜋𝑡} \\ & =\sqrt{25𝜋^{2}(sin^{2}⁡𝜋𝑡+cos^{2}⁡𝜋𝑡)} \\ & =5𝜋\end{aligned}
 
 
 $$
 
-Therefore, the object's speed is $5 \pi \textrm{m/s}.$
+Therefore, the object's speed is $5 \pi \text{m/s}.$
 
 Note that the speed is constant, but the velocity is not.
 
@@ -203,12 +203,12 @@ $$
 
 where $R$ is the radius of the circle, and $\omega$ is the angular velocity.
 
-In our case, the radius of the circle is $R=5\,\textrm m$ and the angular frequency $\omega = \pi \,\textrm{rad/s}.$ Therefore,
+In our case, the radius of the circle is $R=5\,\textrm m$ and the angular frequency $\omega = \pi \,\text{rad/s}.$ Therefore,
 
 $$
 
 
-||\mathbf v|| = 5\cdot |\pi| = 5\pi \textrm{ m/s}.
+||\mathbf v|| = 5\cdot |\pi| = 5\pi \text{ m/s}.
 
 
 $$
@@ -304,12 +304,12 @@ Finally, we calculate the magnitude of the acceleration as follows:
 $$
 
 
-\begin{aligned}||𝐚(𝑡)|| & =\sqrt{√(−36cos⁡3𝑡)^{2}+(−36sin⁡3𝑡)^{2}} \\ & =\sqrt{√36^{2}cos^{2}⁡3𝑡+36^{2}sin^{2}⁡3𝑡} \\ & =\sqrt{√36^{2}} \\ & =36\end{aligned}
+\begin{aligned}||𝐚(𝑡)|| & =\sqrt{(−36cos⁡3𝑡)^{2}+(−36sin⁡3𝑡)^{2}} \\ & =\sqrt{36^{2}cos^{2}⁡3𝑡+36^{2}sin^{2}⁡3𝑡} \\ & =\sqrt{36^{2}} \\ & =36\end{aligned}
 
 
 $$
 
-Therefore, the magnitude of the acceleration is $36\, \textrm{m/s}^2.$
+Therefore, the magnitude of the acceleration is $36\, \text{m/s}^2.$
 
 Note that $||\mathbf a||$ is constant, but $\mathbf a$ is not.
 
@@ -325,12 +325,12 @@ $$
 
 $$
 
-In our case, the radius of the circle is $R=4\,\textrm m$ and the angular frequency $\omega = 3\,\textrm{rad/s}.$ Therefore,
+In our case, the radius of the circle is $R=4\,\textrm m$ and the angular frequency $\omega = 3\,\text{rad/s}.$ Therefore,
 
 $$
 
 
-||\mathbf a|| = 3^2\cdot |4| = 36\, \textrm{m/s}^2.
+||\mathbf a|| = 3^2\cdot |4| = 36\, \text{m/s}^2.
 
 
 $$

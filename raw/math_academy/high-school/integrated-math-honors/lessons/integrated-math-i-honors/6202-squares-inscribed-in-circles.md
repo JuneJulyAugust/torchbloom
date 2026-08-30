@@ -27,14 +27,14 @@ Let's see some examples.
 
 ![Instructional graphic](../../../../lesson-assets/integrated-math-i-honors/topic-6202/b1b24c352f3d3460.png)
 
-Suppose a square is inscribed in a circle of radius $r=6\:\textrm{cm},$ as shown above.
+Suppose a square is inscribed in a circle of radius $r=6\:\text{cm},$ as shown above.
 
 A diagonal of the square coincides with a diameter, and the length of the diameter equals twice the radius. Therefore, the length of the diagonal is
 
 $$
 
 
-d = 2r = 2(6) = 12\,\textrm{cm}.
+d = 2r = 2(6) = 12\,\text{cm}.
 
 
 $$
@@ -126,7 +126,7 @@ Finally, if $s$ is the length of the side of the square, then $2s^2 = d^2.$ Subs
 $$
 
 
-\begin{aligned}2𝑠^{2} & =𝑑^{2} \\ 2𝑠^{2} & =4^{2} \\ 2𝑠^{2} & =16 \\ 𝑠^{2} & =8 \\ 𝑠 & =2\sqrt{√2}.\end{aligned}
+\begin{aligned}2𝑠^{2} & =𝑑^{2} \\ 2𝑠^{2} & =4^{2} \\ 2𝑠^{2} & =16 \\ 𝑠^{2} & =8 \\ 𝑠 & =2\sqrt{2}.\end{aligned}
 
 
 $$
@@ -150,7 +150,7 @@ Now, if $d$ is a diagonal of a square, then the area of the square is given by $
 $$
 
 
-\begin{aligned}A_{𝐼} & =\frac{1}{2}𝑑^{2} \\ 3 & =\frac{1}{2}𝑑^{2} \\ 6 & =𝑑^{2} \\ 𝑑 & =\sqrt{√6}\,m\end{aligned}
+\begin{aligned}A_{𝐼} & =\frac{1}{2}𝑑^{2} \\ 3 & =\frac{1}{2}𝑑^{2} \\ 6 & =𝑑^{2} \\ 𝑑 & =\sqrt{6}\,m\end{aligned}
 
 
 $$
@@ -160,7 +160,7 @@ The side of the outer square equals the diameter of the inscribed circle. Theref
 $$
 
 
-\mathcal{A}_O = d^2 = \left(\sqrt{6}\right)^2 = 6 \: \textrm{m}^2.
+\mathcal{A}_O = d^2 = \left(\sqrt{6}\right)^2 = 6 \: \text{m}^2.
 
 
 $$
@@ -180,7 +180,7 @@ Since the area of a circle is $\mathcal{A} = \pi r^2$, where $r$ is the radius, 
 $$
 
 
-\begin{aligned}A_{𝑂} & =𝜋𝑟^{2} \\ 18𝜋 & =𝜋𝑟^{2} \\ 18 & =𝑟^{2} \\ 𝑟 & =3\sqrt{√2}\,in\end{aligned}
+\begin{aligned}A_{𝑂} & =𝜋𝑟^{2} \\ 18𝜋 & =𝜋𝑟^{2} \\ 18 & =𝑟^{2} \\ 𝑟 & =3\sqrt{2}\,in\end{aligned}
 
 
 $$
@@ -200,7 +200,7 @@ If $d$ and $s$ are the lengths of the diagonal and the side of the square, respe
 $$
 
 
-\begin{aligned}2𝑠^{2} & =𝑑^{2} \\ 2𝑠^{2} & =(6\sqrt{√2})^{2} \\ 𝑠^{2} & =36 \\ 𝑠 & =6\,in\end{aligned}
+\begin{aligned}2𝑠^{2} & =𝑑^{2} \\ 2𝑠^{2} & =(6\sqrt{2})^{2} \\ 𝑠^{2} & =36 \\ 𝑠 & =6\,in\end{aligned}
 
 
 $$

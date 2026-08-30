@@ -17,7 +17,7 @@ For a particle with position $x(t),$ the **average velocity** of the particle ov
 $$
 
 
-v_{\textrm{avg}} = \dfrac{\Delta x}{\Delta t} = \dfrac{x(b) - x(a)}{b-a}.
+v_{\text{avg}} = \dfrac{\Delta x}{\Delta t} = \dfrac{x(b) - x(a)}{b-a}.
 
 
 $$
@@ -27,7 +27,7 @@ Similarly, the **average acceleration** of a particle with velocity $v(t)$ over 
 $$
 
 
-a_{\textrm{avg}} = \dfrac{\Delta v}{\Delta t} = \dfrac{v(b) - v(a)}{b-a}.
+a_{\text{avg}} = \dfrac{\Delta v}{\Delta t} = \dfrac{v(b) - v(a)}{b-a}.
 
 
 $$
@@ -80,7 +80,7 @@ $$
 
 $$
 
-Therefore, the average velocity is $\dfrac {e^2+7} {2} \, \textrm{m}/\textrm{sec}.$
+Therefore, the average velocity is $\dfrac {e^2+7} {2} \, \text{m}/\text{sec}.$
 
 ### Example: Calculating the Average Acceleration of a Particle Given Its Velocity Function
 
@@ -95,12 +95,12 @@ The average acceleration is the average rate of change of the velocity, so
 $$
 
 
-\begin{aligned}𝑎_{avg} & =\frac{𝑣(𝑏)−𝑣(𝑎)}{𝑏−𝑎} \\ & =\frac{𝑣(4)−𝑣(1)}{4−1} \\ & =\frac{(4+\sqrt{√4})−(1+\sqrt{√1})}{3} \\ & =\frac{6−2}{3} \\ & =\frac{4}{3}.\end{aligned}
+\begin{aligned}𝑎_{avg} & =\frac{𝑣(𝑏)−𝑣(𝑎)}{𝑏−𝑎} \\ & =\frac{𝑣(4)−𝑣(1)}{4−1} \\ & =\frac{(4+\sqrt{4})−(1+\sqrt{1})}{3} \\ & =\frac{6−2}{3} \\ & =\frac{4}{3}.\end{aligned}
 
 
 $$
 
-Therefore, the average acceleration is $\dfrac{4}{3} \, \textrm{mi}/\textrm{min}^2.$
+Therefore, the average acceleration is $\dfrac{4}{3} \, \text{mi}/\text{min}^2.$
 
 ### Calculating Average Velocity Using Integration
 
@@ -115,7 +115,7 @@ But what if we are given the *velocity* and asked to find the average *velocity*
 $$
 
 
-v_{\textrm{avg}} = \dfrac{1}{t_2-t_1}\int_{t_1}^{t_2} v(t)\,\textrm d t.
+v_{\text{avg}} = \dfrac{1}{t_2-t_1}\int_{t_1}^{t_2} v(t)\,\textrm d t.
 
 
 $$
@@ -124,7 +124,7 @@ $$
 
 #### Question
 
-A weight attached to a spring oscillates in the vertical direction with velocity $v(t)=2\pi\sin(\pi t)\,\textrm{cm/s},$ where $t\geq 0$ is the time in seconds. Find the average velocity of the weight on the interval $[0, 1].$
+A weight attached to a spring oscillates in the vertical direction with velocity $v(t)=2\pi\sin(\pi t)\,\text{cm/s},$ where $t\geq 0$ is the time in seconds. Find the average velocity of the weight on the interval $[0, 1].$
 
 #### Explanation
 
@@ -133,7 +133,7 @@ To calculate the average value of the velocity on $[t_1,t_2],$ we use the averag
 $$
 
 
-v_{\textrm{avg}} = \dfrac {1}{t_2-t_1}\, \int_{t_1}^{t_2} v(t) \, \textrm dt.
+v_{\text{avg}} = \dfrac {1}{t_2-t_1}\, \int_{t_1}^{t_2} v(t) \, \textrm dt.
 
 
 $$
@@ -143,16 +143,16 @@ So, we get
 $$
 
 
-\begin{aligned}𝑣_{avg} & =\frac{1}{1−0}\,∫_{10}^{}2𝜋sin⁡(𝜋𝑡)\,d𝑡 \\ & =2𝜋(−\frac{1}{𝜋}cos⁡(𝜋𝑡))_{10}^{} \\ & =−2(cos⁡𝜋−cos⁡0) \\ & =−2(−1−1) \\ & =4.\end{aligned}
+\begin{aligned}𝑣_{avg} & =\frac{1}{1−0}\,∫_{10}2𝜋sin⁡(𝜋𝑡)\,d𝑡 \\ & =2𝜋(−\frac{1}{𝜋}cos⁡(𝜋𝑡))_{10} \\ & =−2(cos⁡𝜋−cos⁡0) \\ & =−2(−1−1) \\ & =4.\end{aligned}
 
 
 $$
 
-Therefore, the average velocity is $4 \, \textrm{cm/s}.$
+Therefore, the average velocity is $4 \, \text{cm/s}.$
 
 ### Calculating Average Position and Acceleration Using Integration
 
-We can also calculate the average position $x_{\textrm{avg}}$ and average acceleration $a_{\textrm{avg}}$ of a particle over an interval $[t_1, t_2]$ using the following formulas:
+We can also calculate the average position $x_{\text{avg}}$ and average acceleration $a_{\text{avg}}$ of a particle over an interval $[t_1, t_2]$ using the following formulas:
 
 $$
 
@@ -175,7 +175,7 @@ To calculate the average value of the position on $[t_1,t_2],$ we use the averag
 $$
 
 
-x_{\textrm{avg}} = \dfrac {1}{t_2-t_1}\, \int_{t_1}^{t_2} x(t) \, \textrm dt.
+x_{\text{avg}} = \dfrac {1}{t_2-t_1}\, \int_{t_1}^{t_2} x(t) \, \textrm dt.
 
 
 $$
@@ -185,9 +185,9 @@ So, we get
 $$
 
 
-\begin{aligned}𝑥_{avg} & =\frac{1}{2−1}\,∫_{21}^{}(\frac{3}{𝑡}+2𝑡)d𝑡 \\ & =(3ln⁡|𝑡|+𝑡^{2})_{21}^{} \\ & =(3ln⁡|2|+2^{2})−(3ln⁡|1|+1^{2}) \\ & =(3ln⁡2+4)−(0+1) \\ & =3+3ln⁡2.\end{aligned}
+\begin{aligned}𝑥_{avg} & =\frac{1}{2−1}\,∫_{21}(\frac{3}{𝑡}+2𝑡)d𝑡 \\ & =(3ln⁡|𝑡|+𝑡^{2})_{21} \\ & =(3ln⁡|2|+2^{2})−(3ln⁡|1|+1^{2}) \\ & =(3ln⁡2+4)−(0+1) \\ & =3+3ln⁡2.\end{aligned}
 
 
 $$
 
-Therefore, the average position is $(3 + 3 \ln 2) \, \textrm{m}.$
+Therefore, the average position is $(3 + 3 \ln 2) \, \text{m}.$

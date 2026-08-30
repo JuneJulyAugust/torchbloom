@@ -17,7 +17,7 @@ Recall that for a path $C$ in the $xy$-plane, the arc length $L$ of $C$ can be c
 $$
 
 
-L = \displaystyle\int_C \, \textrm{d}s
+L = \displaystyle\int_C \, \text{d}s
 
 
 $$
@@ -91,7 +91,7 @@ which is the same as the line integral
 $$
 
 
-L = \displaystyle\int\limits_C \, \textrm{d}s.
+L = \displaystyle\int\limits_C \, \text{d}s.
 
 
 $$
@@ -133,7 +133,7 @@ In polar coordinates, the arc length element $\textrm d s$ is given by
 $$
 
 
-\textrm ds = \sqrt{r^2 +\left(\frac{\textrm{d}r}{\textrm{d}\theta}\right)^2 }\,\textrm{d}\theta.
+\textrm ds = \sqrt{r^2 +\left(\frac{\text{d}r}{\text{d}\theta}\right)^2 }\,\text{d}\theta.
 
 
 $$
@@ -143,7 +143,7 @@ So, for a polar curve defined as $r = r(\theta)$ for $\theta_1 \leq \theta \leq 
 $$
 
 
-L= \int_C \,\textrm d s = \int_{\theta_1}^{\theta_2} \sqrt{r^2 +\left(\frac{\textrm{d}r}{\textrm{d}\theta}\right)^2 }\,\textrm{d}\theta.
+L= \int_C \,\textrm d s = \int_{\theta_1}^{\theta_2} \sqrt{r^2 +\left(\frac{\text{d}r}{\text{d}\theta}\right)^2 }\,\text{d}\theta.
 
 
 $$
@@ -153,7 +153,7 @@ Since $r=1-\sin{\theta},$ we have
 $$
 
 
-\dfrac{\textrm{d}r}{\textrm{d}\theta} = -\cos{\theta}.
+\dfrac{\text{d}r}{\text{d}\theta} = -\cos{\theta}.
 
 
 $$
@@ -163,7 +163,7 @@ Therefore, the expression for our line integral is
 $$
 
 
-\begin{aligned}∫_{𝐶}\,d𝑠 & =∫_{𝜃_{2}𝜃_{1}}^{}\sqrt{√𝑟^{2}+(\frac{d𝑟}{d𝜃})^{2}}\,d𝜃 \\ & =∫_{𝜋0}^{}\sqrt{√(1−sin⁡𝜃)^{2}+(−cos⁡𝜃)^{2}}\,d𝜃 \\ & =∫_{𝜋0}^{}\sqrt{√1−2sin⁡𝜃+sin^{2}⁡𝜃+cos^{2}⁡𝜃}\,d𝜃 \\ & =∫_{𝜋0}^{}\sqrt{√2−2sin⁡𝜃}\,d𝜃 \\ & =\sqrt{√2}∫_{𝜋0}^{}\sqrt{√1−sin⁡𝜃}\,d𝜃\,.\end{aligned}
+\begin{aligned}∫_{𝐶}\,d𝑠 & =∫_{𝜃_{2}𝜃_{1}}^{}\sqrt{𝑟^{2}+(\frac{d𝑟}{d𝜃})^{2}}\,d𝜃 \\ & =∫_{𝜋0}\sqrt{(1−sin⁡𝜃)^{2}+(−cos⁡𝜃)^{2}}\,d𝜃 \\ & =∫_{𝜋0}\sqrt{1−2sin⁡𝜃+sin^{2}⁡𝜃+cos^{2}⁡𝜃}\,d𝜃 \\ & =∫_{𝜋0}\sqrt{2−2sin⁡𝜃}\,d𝜃 \\ & =\sqrt{2}∫_{𝜋0}\sqrt{1−sin⁡𝜃}\,d𝜃\,.\end{aligned}
 
 
 $$
@@ -193,7 +193,7 @@ In polar coordinates, the arc length element $\textrm d s$ is given by
 $$
 
 
-\textrm ds = \sqrt{r^2 +\left(\frac{\textrm{d}r}{\textrm{d}\theta}\right)^2 }\,\textrm{d}\theta.
+\textrm ds = \sqrt{r^2 +\left(\frac{\text{d}r}{\text{d}\theta}\right)^2 }\,\text{d}\theta.
 
 
 $$
@@ -203,7 +203,7 @@ So, for a polar curve defined as $r = r(\theta)$ for $\theta_1 \leq \theta \leq 
 $$
 
 
-L= \int_C \,\textrm d s = \int_{\theta_1}^{\theta_2} \sqrt{r^2 +\left(\frac{\textrm{d}r}{\textrm{d}\theta}\right)^2 }\,\textrm{d}\theta.
+L= \int_C \,\textrm d s = \int_{\theta_1}^{\theta_2} \sqrt{r^2 +\left(\frac{\text{d}r}{\text{d}\theta}\right)^2 }\,\text{d}\theta.
 
 
 $$
@@ -213,7 +213,7 @@ Since $r=2(1+\sin\theta),$ we have
 $$
 
 
-\dfrac{\textrm{d}r}{\textrm{d}\theta} = 2\cos{\theta}.
+\dfrac{\text{d}r}{\text{d}\theta} = 2\cos{\theta}.
 
 
 $$
@@ -223,7 +223,7 @@ Therefore, we evaluate our line integral as follows:
 $$
 
 
-\begin{aligned}𝐿 & =∫_{𝜃_{2}𝜃_{1}}^{}\sqrt{√𝑟^{2}+(\frac{d𝑟}{d𝜃})^{2}}\,d𝜃 \\ & =∫_{𝜋0}^{}\sqrt{√4(1+sin⁡𝜃)^{2}+4(cos⁡𝜃)^{2}}\,d𝜃 \\ & =2∫_{𝜋0}^{}\sqrt{√1+2sin⁡𝜃+sin^{2}⁡𝜃+cos^{2}⁡𝜃}\,d𝜃 \\ & =2∫_{𝜋0}^{}\sqrt{√1+2sin⁡𝜃+1}\,d𝜃 \\ & =2∫_{𝜋0}^{}\sqrt{√2+2sin⁡𝜃}\,d𝜃 \\ & =2\sqrt{√2}∫_{𝜋0}^{}\sqrt{√1+sin⁡𝜃}\,d𝜃\end{aligned}
+\begin{aligned}𝐿 & =∫_{𝜃_{2}𝜃_{1}}^{}\sqrt{𝑟^{2}+(\frac{d𝑟}{d𝜃})^{2}}\,d𝜃 \\ & =∫_{𝜋0}\sqrt{4(1+sin⁡𝜃)^{2}+4(cos⁡𝜃)^{2}}\,d𝜃 \\ & =2∫_{𝜋0}\sqrt{1+2sin⁡𝜃+sin^{2}⁡𝜃+cos^{2}⁡𝜃}\,d𝜃 \\ & =2∫_{𝜋0}\sqrt{1+2sin⁡𝜃+1}\,d𝜃 \\ & =2∫_{𝜋0}\sqrt{2+2sin⁡𝜃}\,d𝜃 \\ & =2\sqrt{2}∫_{𝜋0}\sqrt{1+sin⁡𝜃}\,d𝜃\end{aligned}
 
 
 $$
@@ -243,7 +243,7 @@ Rewriting our integral using the above identities, we can evaluate it as follows
 $$
 
 
-\begin{aligned}𝐿 & =2\sqrt{√2}∫_{𝜋0}^{}\sqrt{√1+sin⁡𝜃}\,d𝜃 \\ & =2\sqrt{√2}∫_{𝜋0}^{}\sqrt{√sin^{2}⁡(\frac{𝜃}{2})+cos^{2}⁡(\frac{𝜃}{2})+2sin⁡(\frac{𝜃}{2})cos⁡(\frac{𝜃}{2})}\,d𝜃 \\ & =2\sqrt{√2}∫_{𝜋0}^{}\sqrt{√(sin⁡(\frac{𝜃}{2})+cos⁡(\frac{𝜃}{2}))^{2}}\,d𝜃 \\ & =2\sqrt{√2}∫_{𝜋0}^{}sin⁡(\frac{𝜃}{2})+cos⁡(\frac{𝜃}{2})\,d𝜃 \\ & =4\sqrt{√2}[−cos⁡(\frac{𝜃}{2})+sin⁡(\frac{𝜃}{2})]_{𝜋0}^{} \\ & =4\sqrt{√2}(−cos⁡(\frac{𝜋}{2})+sin⁡(\frac{𝜋}{2}))−(−cos⁡(0)+sin⁡(0)) \\ & =4\sqrt{√2}((0+1)−(−1+0)) \\ & =8\sqrt{√2}\end{aligned}
+\begin{aligned}𝐿 & =2\sqrt{2}∫_{𝜋0}\sqrt{1+sin⁡𝜃}\,d𝜃 \\ & =2\sqrt{2}∫_{𝜋0}\sqrt{sin^{2}⁡(\frac{𝜃}{2})+cos^{2}⁡(\frac{𝜃}{2})+2sin⁡(\frac{𝜃}{2})cos⁡(\frac{𝜃}{2})}\,d𝜃 \\ & =2\sqrt{2}∫_{𝜋0}\sqrt{(sin⁡(\frac{𝜃}{2})+cos⁡(\frac{𝜃}{2}))^{2}}\,d𝜃 \\ & =2\sqrt{2}∫_{𝜋0}sin⁡(\frac{𝜃}{2})+cos⁡(\frac{𝜃}{2})\,d𝜃 \\ & =4\sqrt{2}[−cos⁡(\frac{𝜃}{2})+sin⁡(\frac{𝜃}{2})]_{𝜋0} \\ & =4\sqrt{2}(−cos⁡(\frac{𝜋}{2})+sin⁡(\frac{𝜋}{2}))−(−cos⁡(0)+sin⁡(0)) \\ & =4\sqrt{2}((0+1)−(−1+0)) \\ & =8\sqrt{2}\end{aligned}
 
 
 $$

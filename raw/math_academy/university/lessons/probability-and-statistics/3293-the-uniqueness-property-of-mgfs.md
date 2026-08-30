@@ -80,7 +80,7 @@ Consider the independent random variables $Y_1, Y_2, \ldots, Y_{10}$ where $Y_i\
 
 Recall that a random variable's probability distribution is uniquely determined by its moment-generating function (MGF). Therefore, if the MGF of a random variable $X$ matches that of a known distribution, then $X$ has the same distribution.
 
-For a binomial random variable $Y_i \sim \textrm{B}(n,p),$ we have
+For a binomial random variable $Y_i \sim \text{B}(n,p),$ we have
 
 $$
 
@@ -90,7 +90,7 @@ M_{Y_i}(t) = (1-p+pe^t)^n.
 
 $$
 
-In our case, since $Y_i \sim \textrm{B}(5,0.3),$ we have
+In our case, since $Y_i \sim \text{B}(5,0.3),$ we have
 
 $$
 
@@ -115,7 +115,7 @@ In our case, we have
 $$
 
 
-\begin{aligned}𝑀_{𝑌}(𝑡) & =\overset{\overset{(0.7+0.3𝑒^{𝑡})^{5}⋅(0.7+0.3𝑒^{𝑡})^{5}⋯(0.7+0.3𝑒^{𝑡})^{5}}{}}{10 times} \\ & =(0.7+0.3𝑒^{𝑡})^{50}.\end{aligned}
+\begin{aligned}𝑀_{𝑌}(𝑡) & =\overset{(0.7+0.3𝑒^{𝑡})^{5}⋅(0.7+0.3𝑒^{𝑡})^{5}⋯(0.7+0.3𝑒^{𝑡})^{5}}{}}{10 times} \\ & =(0.7+0.3𝑒^{𝑡})^{50}.\end{aligned}
 
 
 $$
@@ -228,11 +228,11 @@ Therefore, the correct answer is "I, II, and III."
 
 Let's use our knowledge of the uniqueness property of moment-generating functions to prove some general results.
 
-- **Sums of Bernoulli Random Variables**: Suppose $X_1, X_2, \ldots, X_n\sim \textrm{Bernoulli}(p)$ are independent. Then To prove this, let $M_{X_i}(t)$ be the moment-generating function of $X_i$ for $i=1,2,\ldots, n$. Then, we have By the multiplicative property of moment-generating functions, we have that which is the moment-generating function of a binomial random variable with distribution $B(n, p).$ Now, since any given distribution is characterized by its moment-generating function (meaning that no other distribution can have the same moment-generating function), we conclude that
+- **Sums of Bernoulli Random Variables**: Suppose $X_1, X_2, \ldots, X_n\sim \text{Bernoulli}(p)$ are independent. Then To prove this, let $M_{X_i}(t)$ be the moment-generating function of $X_i$ for $i=1,2,\ldots, n$. Then, we have By the multiplicative property of moment-generating functions, we have that which is the moment-generating function of a binomial random variable with distribution $B(n, p).$ Now, since any given distribution is characterized by its moment-generating function (meaning that no other distribution can have the same moment-generating function), we conclude that
 
 - **Sums of Binomial Random Variables**: Suppose $X_1\sim B(n_1,p)$ and $X_2\sim B(n_2,p)$ are independent. Then To prove this, let $M_{X_1}(t)$ and $M_{X_2}(t)$ be the moment-generating functions of $X_1$ and $X_2$ respectively. Then, we have By the multiplicative property of moment-generating functions, we have This is the moment-generating function of a binomial random variable with distribution $B(n_1+n_2, p).$ Therefore, by the uniqueness property, we conclude
 
-- **Sums of Poisson Random Variables**: If $X_1\sim \textrm{Po}(\lambda_1)$ and $X_2\sim \textrm{Po}(\lambda_2)$ are independent, then To prove this, let $M_{X_1}(t)$ and $M_{X_2}(t)$ be the moment-generating functions of $X_1$ and $X_2$ respectively. Then, we have By the multiplicative property of moment-generating functions, we have This is the moment-generating function of a Poisson random variable with distribution $\textrm{Po}(\lambda_1+\lambda_2).$ Therefore, by the uniqueness property, we conclude
+- **Sums of Poisson Random Variables**: If $X_1\sim \text{Po}(\lambda_1)$ and $X_2\sim \text{Po}(\lambda_2)$ are independent, then To prove this, let $M_{X_1}(t)$ and $M_{X_2}(t)$ be the moment-generating functions of $X_1$ and $X_2$ respectively. Then, we have By the multiplicative property of moment-generating functions, we have This is the moment-generating function of a Poisson random variable with distribution $\text{Po}(\lambda_1+\lambda_2).$ Therefore, by the uniqueness property, we conclude
 
 - **Sums of Normal Random Variables**: Suppose $X_1\sim N(\mu_1,\sigma_1^2)$ and $X_2\sim N(\mu_2,\sigma_2^2)$ are independent. Then To prove this, let $M_{X_1}(t)$ and $M_{X_2}(t)$ be the moment-generating functions of $X_1$ and $X_2$ respectively. Then, we have where $\exp(x) = e^x$ is the exponential function. By the multiplicative property of moment-generating functions and by the properties of the exponential function, we have that This is the moment-generating function of a normal random variable with distribution $N(\mu_1+\mu_2, \sigma_1^2+\sigma_2^2).$ Therefore, by the uniqueness property, we conclude
 

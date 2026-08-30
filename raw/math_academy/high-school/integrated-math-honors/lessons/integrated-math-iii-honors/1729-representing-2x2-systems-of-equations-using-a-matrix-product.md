@@ -56,7 +56,7 @@ We can write any system of two equations with two variables in this form. Just t
 $$
 
 
-\begin{aligned}𝐴𝐱 & =[\begin{aligned}2 & 3 \\ 4 & −5\end{aligned}][\begin{aligned}𝑥 \\ 𝑦\end{aligned}] \\ & =[\begin{aligned}2𝑥+3𝑦 \\ 4𝑥 − 5𝑦\end{aligned}] \\ & =[\begin{aligned}5 \\ −1\end{aligned}] \\ & =𝐛\,✓\end{aligned}
+\begin{aligned}𝐴𝐱 & =[\begin{matrix}2 & 3 \\ 4 & −5\end{matrix}][\begin{matrix}𝑥 \\ 𝑦\end{matrix}] \\ & =[\begin{matrix}2𝑥+3𝑦 \\ 4𝑥 − 5𝑦\end{matrix}] \\ & =[\begin{matrix}5 \\ −1\end{matrix}] \\ & =𝐛\,✓\end{aligned}
 
 
 $$
@@ -138,7 +138,7 @@ Represent the following system of equations using matrices:
 $$
 
 
-\begin{aligned}\begin{aligned}−5𝑦=−3𝑥 \\ 6+𝑥=−2+𝑦\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}−5𝑦=−3𝑥 \\ 6+𝑥=−2+𝑦\end{matrix}\end{aligned}
 
 
 $$
@@ -150,7 +150,7 @@ First, we organize the system so that it’s in the correct order:
 $$
 
 
-\begin{aligned}\begin{aligned}3𝑥−5𝑦=0 \\ 𝑥−𝑦=−8.\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}3𝑥−5𝑦=0 \\ 𝑥−𝑦=−8.\end{matrix}\end{aligned}
 
 
 $$
@@ -218,7 +218,7 @@ The $2\times 2$ matrix represents the coefficients of $x$ and $y,$ while the $2\
 $$
 
 
-\begin{aligned}\begin{aligned}10𝑥−15𝑦=5 \\ 1𝑥+0𝑦=−2\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}10𝑥−15𝑦=5 \\ 1𝑥+0𝑦=−2\end{matrix}\end{aligned}
 
 
 $$
@@ -228,7 +228,7 @@ Simplifying both equations in the system, we get
 $$
 
 
-\begin{aligned}\begin{aligned}2𝑥−3𝑦=1 \\ 𝑥=−2.\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}2𝑥−3𝑦=1 \\ 𝑥=−2.\end{matrix}\end{aligned}
 
 
 $$

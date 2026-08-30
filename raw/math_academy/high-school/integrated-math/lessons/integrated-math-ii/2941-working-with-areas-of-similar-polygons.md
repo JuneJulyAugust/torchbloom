@@ -12,7 +12,7 @@ Topic ID: 2941
 
 ### Introduction
 
-The length of a side of the hexagon ${S}$ is $20\, \textrm{in}.$ The ratio of the area of the larger hexagon to the area of the smaller one is $25:4.$ Given that the two hexagons ${S}$ and ${L}$ are similar, what is the length of the side of the hexagon ${L}?$
+The length of a side of the hexagon ${S}$ is $20\, \text{in}.$ The ratio of the area of the larger hexagon to the area of the smaller one is $25:4.$ Given that the two hexagons ${S}$ and ${L}$ are similar, what is the length of the side of the hexagon ${L}?$
 
 ![Instructional graphic](../../../../lesson-assets/integrated-math-ii/topic-2941/79cd0f97eb7643fa.png)
 
@@ -43,7 +43,7 @@ As a result, the side length of polygon ${L}$ is $\dfrac{5}{2}$ times the side l
 $$
 
 
-20 \cdot \dfrac{5}{2} = 50 \,\textrm{in}.
+20 \cdot \dfrac{5}{2} = 50 \,\text{in}.
 
 
 $$
@@ -127,7 +127,7 @@ Hence, the dimensions of $P$ are
 $$
 
 
-\dfrac{8}{\left(\dfrac{4}{5}\right)}=10\,\textrm{in} \qquad \textrm{and}\qquad \dfrac{6}{\left(\dfrac{4}{5}\right)}=\dfrac{15}{2}\,\textrm{in}.
+\dfrac{8}{\left(\dfrac{4}{5}\right)}=10\,\text{in} \qquad \text{and}\qquad \dfrac{6}{\left(\dfrac{4}{5}\right)}=\dfrac{15}{2}\,\text{in}.
 
 
 $$

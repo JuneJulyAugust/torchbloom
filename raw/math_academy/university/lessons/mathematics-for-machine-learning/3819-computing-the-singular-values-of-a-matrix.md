@@ -46,7 +46,7 @@ Let's now compute our singular values. First, we calculate $A^T \! A\mathbin{:}$
 $$
 
 
-\begin{aligned}𝐴^{𝑇}\,𝐴 & =\begin{aligned}\,0 & \,2 \\ \,\,−2 & \,0 \\ 2 & 1\end{aligned}^{𝑇}\begin{aligned}\,0 & \,2 \\ \,\,−2 & \,0 \\ 2 & 1\end{aligned} \\ & =[\begin{aligned}0 & −2 & 2 \\ 2 & 0 & 1\end{aligned}]\begin{aligned}\,0 & \,2 \\ \,\,−2 & \,0 \\ 2 & 1\end{aligned} \\ & =[\begin{aligned}8 & 2 \\ 2 & 5\end{aligned}]\end{aligned}
+\begin{aligned}𝐴^{𝑇}\,𝐴 & =\begin{matrix}\,0 & \,2 \\ \,\,−2 & \,0 \\ 2 & 1\end{matrix}^{𝑇}\begin{matrix}\,0 & \,2 \\ \,\,−2 & \,0 \\ 2 & 1\end{matrix} \\ & =[\begin{matrix}0 & −2 & 2 \\ 2 & 0 & 1\end{matrix}]\begin{matrix}\,0 & \,2 \\ \,\,−2 & \,0 \\ 2 & 1\end{matrix} \\ & =[\begin{matrix}8 & 2 \\ 2 & 5\end{matrix}]\end{aligned}
 
 
 $$
@@ -56,7 +56,7 @@ Next, we compute the eigenvalues of $A^T \! A\mathbin{:}$
 $$
 
 
-\begin{aligned}|𝐴^{𝑇}\,𝐴−𝜆𝐼| & =0 \\ \begin{aligned}8−𝜆 & 2 \\ 2 & 5−𝜆\end{aligned} & =0 \\ (8−𝜆)(5−𝜆)−4 & =0 \\ 𝜆^{2}−13𝜆+36 & =0 \\ (𝜆−9)(𝜆−4) & =0 \\ 𝜆 & =9,\,4\end{aligned}
+\begin{aligned}|𝐴^{𝑇}\,𝐴−𝜆𝐼| & =0 \\ \begin{matrix}8−𝜆 & 2 \\ 2 & 5−𝜆\end{matrix} & =0 \\ (8−𝜆)(5−𝜆)−4 & =0 \\ 𝜆^{2}−13𝜆+36 & =0 \\ (𝜆−9)(𝜆−4) & =0 \\ 𝜆 & =9,\,4\end{aligned}
 
 
 $$
@@ -66,7 +66,7 @@ Therefore, the singular values of $A$ are as follows:
 $$
 
 
-\begin{aligned}𝜎_{1} & =\sqrt{√𝜆_{1}}=\sqrt{√9}=3 \\ 𝜎_{2} & =\sqrt{√𝜆_{2}}=\sqrt{√4}=2\end{aligned}
+\begin{aligned}𝜎_{1} & =\sqrt{𝜆_{1}}=\sqrt{9}=3 \\ 𝜎_{2} & =\sqrt{𝜆_{2}}=\sqrt{4}=2\end{aligned}
 
 
 $$
@@ -118,7 +118,7 @@ First, we calculate $A^T \! A\mathbin{:}$
 $$
 
 
-\begin{aligned}𝐴^{𝑇}\,𝐴 & =[\begin{aligned}1 & 2 \\ 2 & 1\end{aligned}]^{𝑇}[\begin{aligned}1 & 2 \\ 2 & 1\end{aligned}] \\ & =[\begin{aligned}1 & 2 \\ 2 & 1\end{aligned}][\begin{aligned}1 & 2 \\ 2 & 1\end{aligned}] \\ & =[\begin{aligned}5 & 4 \\ 4 & 5\end{aligned}]\end{aligned}
+\begin{aligned}𝐴^{𝑇}\,𝐴 & =[\begin{matrix}1 & 2 \\ 2 & 1\end{matrix}]^{𝑇}[\begin{matrix}1 & 2 \\ 2 & 1\end{matrix}] \\ & =[\begin{matrix}1 & 2 \\ 2 & 1\end{matrix}][\begin{matrix}1 & 2 \\ 2 & 1\end{matrix}] \\ & =[\begin{matrix}5 & 4 \\ 4 & 5\end{matrix}]\end{aligned}
 
 
 $$
@@ -128,7 +128,7 @@ Now, we solve the characteristic equation of $A^T \! A\mathbin{:}$
 $$
 
 
-\begin{aligned}|𝐴^{𝑇}\,𝐴−𝜆𝐼| & =0 \\ \begin{aligned}5−𝜆 & 4 \\ 4 & 5−𝜆\end{aligned} & =0 \\ (5−𝜆)^{2}−16 & =0 \\ 𝜆^{2}−10𝜆+9 & =0 \\ (𝜆−1)(𝜆−9) & =0 \\ 𝜆 & =9,\,1\end{aligned}
+\begin{aligned}|𝐴^{𝑇}\,𝐴−𝜆𝐼| & =0 \\ \begin{matrix}5−𝜆 & 4 \\ 4 & 5−𝜆\end{matrix} & =0 \\ (5−𝜆)^{2}−16 & =0 \\ 𝜆^{2}−10𝜆+9 & =0 \\ (𝜆−1)(𝜆−9) & =0 \\ 𝜆 & =9,\,1\end{aligned}
 
 
 $$
@@ -138,7 +138,7 @@ Therefore, the singular values of $A$ are as follows:
 $$
 
 
-\begin{aligned}𝜎_{1} & =\sqrt{√𝜆_{1}}=\sqrt{√9}=3 \\ 𝜎_{2} & =\sqrt{√𝜆_{2}}=\sqrt{√1}=1\end{aligned}
+\begin{aligned}𝜎_{1} & =\sqrt{𝜆_{1}}=\sqrt{9}=3 \\ 𝜎_{2} & =\sqrt{𝜆_{2}}=\sqrt{1}=1\end{aligned}
 
 
 $$
@@ -158,7 +158,7 @@ First, we calculate $A^T \! A\mathbin{:}$
 $$
 
 
-\begin{aligned}𝐴^{𝑇}\,𝐴 & =[\begin{aligned}1 & 0 & 1 \\ 0 & 1 & 0\end{aligned}]^{𝑇}[\begin{aligned}1 & 0 & 1 \\ 0 & 1 & 0\end{aligned}] \\ & =\begin{aligned}1 & 0 \\ 0 & 1 \\ 1 & 0\end{aligned}[\begin{aligned}1 & 0 & 1 \\ 0 & 1 & 0\end{aligned}] \\ & =\begin{aligned}1 & 0 & 1 \\ 0 & 1 & 0 \\ 1 & 0 & 1\end{aligned}\end{aligned}
+\begin{aligned}𝐴^{𝑇}\,𝐴 & =[\begin{matrix}1 & 0 & 1 \\ 0 & 1 & 0\end{matrix}]^{𝑇}[\begin{matrix}1 & 0 & 1 \\ 0 & 1 & 0\end{matrix}] \\ & =\begin{matrix}1 & 0 \\ 0 & 1 \\ 1 & 0\end{matrix}[\begin{matrix}1 & 0 & 1 \\ 0 & 1 & 0\end{matrix}] \\ & =\begin{matrix}1 & 0 & 1 \\ 0 & 1 & 0 \\ 1 & 0 & 1\end{matrix}\end{aligned}
 
 
 $$
@@ -168,7 +168,7 @@ Now, we solve the characteristic equation of $A^T \! A\mathbin{:}$
 $$
 
 
-\begin{aligned}|𝐴^{𝑇}\,𝐴−𝜆𝐼| & =0 \\ \begin{aligned}1−𝜆 & 0 & 1 \\ 0 & 1−𝜆 & 0 \\ 1 & 0 & 1−𝜆\end{aligned} & =0 \\ (1−𝜆)\begin{aligned}1−𝜆 & 0 \\ 0 & 1−𝜆\end{aligned}+\begin{aligned}0 & 1−𝜆 \\ 1 & 0\end{aligned} & =0 \\ (1−𝜆)(1−𝜆)^{2}−(1−𝜆) & =0 \\ (1−𝜆)((1−𝜆)^{2}−1) & =0 \\ (1−𝜆)(𝜆^{2}−2𝜆) & =0 \\ −𝜆(𝜆−1)(𝜆−2) & =0 \\ 𝜆 & =2,\,1,\,0\end{aligned}
+\begin{aligned}|𝐴^{𝑇}\,𝐴−𝜆𝐼| & =0 \\ \begin{matrix}1−𝜆 & 0 & 1 \\ 0 & 1−𝜆 & 0 \\ 1 & 0 & 1−𝜆\end{matrix} & =0 \\ (1−𝜆)\begin{matrix}1−𝜆 & 0 \\ 0 & 1−𝜆\end{matrix}+\begin{matrix}0 & 1−𝜆 \\ 1 & 0\end{matrix} & =0 \\ (1−𝜆)(1−𝜆)^{2}−(1−𝜆) & =0 \\ (1−𝜆)((1−𝜆)^{2}−1) & =0 \\ (1−𝜆)(𝜆^{2}−2𝜆) & =0 \\ −𝜆(𝜆−1)(𝜆−2) & =0 \\ 𝜆 & =2,\,1,\,0\end{aligned}
 
 
 $$
@@ -178,7 +178,7 @@ Therefore, the singular values of $A$ are as follows:
 $$
 
 
-\begin{aligned}𝜎_{1} & =\sqrt{√𝜆_{1}}=\sqrt{√2} \\ 𝜎_{2} & =\sqrt{√𝜆_{2}}=\sqrt{√1}=1 \\ 𝜎_{3} & =\sqrt{√𝜆_{3}}=\sqrt{√0}=0\end{aligned}
+\begin{aligned}𝜎_{1} & =\sqrt{𝜆_{1}}=\sqrt{2} \\ 𝜎_{2} & =\sqrt{𝜆_{2}}=\sqrt{1}=1 \\ 𝜎_{3} & =\sqrt{𝜆_{3}}=\sqrt{0}=0\end{aligned}
 
 
 $$

@@ -133,7 +133,7 @@ $$
 
 $$
 
-Using $p' = \dfrac{\textrm{d}p}{\textrm{d}x}$, the expression simplifies to
+Using $p' = \dfrac{\text{d}p}{\text{d}x}$, the expression simplifies to
 
 $$
 

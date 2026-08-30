@@ -138,7 +138,7 @@ Now, since the triangles are similar, the corresponding sides must be proportion
 $$
 
 
-\begin{aligned} \dfrac{{AD}}{{AB}} &= \dfrac{{DE}}{{BC}}\\\[5pt] \dfrac{x+5}{x} &= \dfrac{8}{4}\\\[5pt] \dfrac{x+5}{x} &= 2\\\[5pt] x+5 &= 2x \\\[5pt] x&=5. \end{aligned}
+\begin{aligned} \dfrac{{AD}}{{AB}} &= \dfrac{{DE}}{{BC}}\\[5pt] \dfrac{x+5}{x} &= \dfrac{8}{4}\\[5pt] \dfrac{x+5}{x} &= 2\\[5pt] x+5 &= 2x \\[5pt] x&=5. \end{aligned}
 
 
 $$

@@ -11,7 +11,7 @@ Topic ID: 755
 
 ### Introduction
 
-The **lowest common multiple** (or $\textrm{LCM}$) of two integers is the smallest multiple that's common to both numbers.
+The **lowest common multiple** (or $\text{LCM}$) of two integers is the smallest multiple that's common to both numbers.
 
 To find the lowest common multiple of two small numbers, we can list all multiples of the two numbers and identify the smallest multiple that they have in common.
 
@@ -30,7 +30,7 @@ The smallest multiple in both lists is $12$ So $12$ is our answer, and we can wr
 $$
 
 
-\textrm{LCM}(4,6)= 12.
+\text{LCM}(4,6)= 12.
 
 
 $$
@@ -41,7 +41,7 @@ $$
 
 Now suppose that we want to find the lowest common multiple of two larger numbers. It would take a while to make long lists of multiples. Luckily, there is a faster method.
 
-Let's demonstrate by finding $\textrm{LCM}(10,12).$ We start by writing the prime factorization of $10$ and $12$, writing any repeating factors as powers:
+Let's demonstrate by finding $\text{LCM}(10,12).$ We start by writing the prime factorization of $10$ and $12$, writing any repeating factors as powers:
 
 $$
 
@@ -83,7 +83,7 @@ $$
 
 #### Question
 
-Calculate $\textrm{LCM}(120, 90).$
+Calculate $\text{LCM}(120, 90).$
 
 #### Explanation
 
@@ -116,7 +116,7 @@ Therefore, the lowest common multiple of $120$ and $90$ is
 $$
 
 
-\textrm{LCM}(120, 90) = 2^3 \cdot 3^2 \cdot 5 = 360.
+\text{LCM}(120, 90) = 2^3 \cdot 3^2 \cdot 5 = 360.
 
 
 $$
@@ -125,7 +125,7 @@ $$
 
 #### Question
 
-Calculate $\textrm{LCM}(30, 33, 20).$
+Calculate $\text{LCM}(30, 33, 20).$
 
 #### Explanation
 
@@ -162,7 +162,7 @@ Therefore, the lowest common multiple of $30$, $33,$ and $20$ is
 $$
 
 
-\textrm{LCM}(30, 33, 20) = 2^2 \cdot 3 \cdot 5 \cdot 11 = 660.
+\text{LCM}(30, 33, 20) = 2^2 \cdot 3 \cdot 5 \cdot 11 = 660.
 
 
 $$

@@ -88,13 +88,13 @@ Consider the picture shown below. Find the exact value of $|\mathbf{a}|.$
 
 ![Instructional graphic](../../../../lesson-assets/precalculus/topic-1101/3d937b3ea87f8729.png)
 
-In $\bigtriangleup AHB$ we have $\angle AHB = 90^\circ$, $AH=35\:\textrm{mm}$ and $BH=25\:\textrm{mm}.$ So, the Pythagorean theorem gives
+In $\bigtriangleup AHB$ we have $\angle AHB = 90^\circ$, $AH=35\:\text{mm}$ and $BH=25\:\text{mm}.$ So, the Pythagorean theorem gives
 
 $$
 
 
 
-\begin{aligned}𝐴𝐵 & =\sqrt{√𝐴𝐻^{2}+𝐵𝐻^{2}} \\ & =\sqrt{√35^{2}+25^{2}} \\ & =\sqrt{√1\,850} \\ & =5\sqrt{√74}\,mm.\end{aligned}
+\begin{aligned}𝐴𝐵 & =\sqrt{𝐴𝐻^{2}+𝐵𝐻^{2}} \\ & =\sqrt{35^{2}+25^{2}} \\ & =\sqrt{1\,850} \\ & =5\sqrt{74}\,mm.\end{aligned}
 
 
 

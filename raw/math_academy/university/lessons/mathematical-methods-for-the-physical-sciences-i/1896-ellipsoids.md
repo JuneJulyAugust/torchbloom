@@ -176,7 +176,7 @@ From the ellipsoid equation, we make $z$ the subject as follows:
 $$
 
 
-\begin{aligned}\frac{𝑥^{2}}{4}+\frac{𝑦^{2}}{9}+𝑧^{2} & =1 \\ 𝑧^{2} & =1−\frac{𝑥^{2}}{4}−\frac{𝑦^{2}}{9} \\ 𝑧 & =±\sqrt{√1−\frac{𝑥^{2}}{4}−\frac{𝑦^{2}}{9}}\end{aligned}
+\begin{aligned}\frac{𝑥^{2}}{4}+\frac{𝑦^{2}}{9}+𝑧^{2} & =1 \\ 𝑧^{2} & =1−\frac{𝑥^{2}}{4}−\frac{𝑦^{2}}{9} \\ 𝑧 & =±\sqrt{1−\frac{𝑥^{2}}{4}−\frac{𝑦^{2}}{9}}\end{aligned}
 
 
 $$
@@ -252,7 +252,7 @@ To find the intersection, we substitute $z=1$ into the equation of the sphere:
 $$
 
 
-\begin{aligned}𝑥^{2}+𝑦^{2}+(1)^{2} & =4 \\ 𝑥^{2}+𝑦^{2}+1 & =4 \\ 𝑥^{2}+𝑦^{2} & =3 \\ 𝑥^{2}+𝑦^{2} & =(\sqrt{√3})^{2}\end{aligned}
+\begin{aligned}𝑥^{2}+𝑦^{2}+(1)^{2} & =4 \\ 𝑥^{2}+𝑦^{2}+1 & =4 \\ 𝑥^{2}+𝑦^{2} & =3 \\ 𝑥^{2}+𝑦^{2} & =(\sqrt{3})^{2}\end{aligned}
 
 
 $$

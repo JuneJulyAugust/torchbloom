@@ -114,7 +114,7 @@ $$
 
 #### Question
 
-Calculate the integral $\displaystyle{\int} (2\sec^2 x + \sec x \tan x)\, \textrm{d}x.$
+Calculate the integral $\displaystyle{\int} (2\sec^2 x + \sec x \tan x)\, \text{d}x.$
 
 #### Explanation
 
@@ -143,7 +143,7 @@ Therefore, we get
 $$
 
 
-\begin{aligned} \int (2\sec^2 x + \sec x \tan x )\, \textrm{d}x& = 2 \int \sec^2 x \, \textrm{d}x+ \int \sec x \tan x \, \textrm{d}x \\&=2\tan x + \sec x + C. \end{aligned}
+\begin{aligned} \int (2\sec^2 x + \sec x \tan x )\, \text{d}x& = 2 \int \sec^2 x \, \text{d}x+ \int \sec x \tan x \, \text{d}x \\&=2\tan x + \sec x + C. \end{aligned}
 
 
 $$
@@ -152,7 +152,7 @@ $$
 
 #### Question
 
-Calculate the integral $\displaystyle{\int} \csc{x}(\csc{x}+3\cot{x})\, \textrm{d}x.$
+Calculate the integral $\displaystyle{\int} \csc{x}(\csc{x}+3\cot{x})\, \text{d}x.$
 
 #### Explanation
 

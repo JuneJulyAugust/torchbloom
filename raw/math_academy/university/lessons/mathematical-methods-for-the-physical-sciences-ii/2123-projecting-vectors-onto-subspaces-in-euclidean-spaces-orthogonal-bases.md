@@ -11,7 +11,7 @@ Topic ID: 2123
 
 ### Introduction
 
-If $\big\{\mathbf{a}_1, \mathbf{a}_2, \ldots, \mathbf{a}_n \big\}$ is a set of orthogonal vectors, then the **orthogonal projection of a vector $\mathbf{x}$ onto the subspace $S = \textrm{Span}\{\mathbf{a}_1, \mathbf{a}_2, \ldots, \mathbf{a}_n \}$** is given by
+If $\big\{\mathbf{a}_1, \mathbf{a}_2, \ldots, \mathbf{a}_n \big\}$ is a set of orthogonal vectors, then the **orthogonal projection of a vector $\mathbf{x}$ onto the subspace $S = \text{Span}\{\mathbf{a}_1, \mathbf{a}_2, \ldots, \mathbf{a}_n \}$** is given by
 
 $$
 
@@ -21,16 +21,16 @@ $$
 
 $$
 
-In other words, the orthogonal projection of $\mathbf{x}$ onto $S = \textrm{Span}\{\mathbf{a}_1, \mathbf{a}_2, \ldots, \mathbf{a}_n \}$ is the sum of the orthogonal projections of $\mathbf{x}$ onto each one-dimensional subspace of $\textrm{Span}\big\{\mathbf{a}_1, \mathbf{a}_2, \ldots, \mathbf{a}_n \big\}.$
+In other words, the orthogonal projection of $\mathbf{x}$ onto $S = \text{Span}\{\mathbf{a}_1, \mathbf{a}_2, \ldots, \mathbf{a}_n \}$ is the sum of the orthogonal projections of $\mathbf{x}$ onto each one-dimensional subspace of $\text{Span}\big\{\mathbf{a}_1, \mathbf{a}_2, \ldots, \mathbf{a}_n \big\}.$
 
 **Watch out!** The formula works *only* when the set of vectors $\{\mathbf{a}_1, \mathbf{a}_2, \ldots, \mathbf{a}_n \}$ is orthogonal!
 
-In case of a $2$-dimensional subspace $S=\textrm{Span} \big\{\mathbf{a}_1,\mathbf{a}_2 \big\},$ we can visualize the orthogonal projection geometrically, as follows:
+In case of a $2$-dimensional subspace $S=\text{Span} \big\{\mathbf{a}_1,\mathbf{a}_2 \big\},$ we can visualize the orthogonal projection geometrically, as follows:
 
 $$
 
 
-{\color{blue}\textrm{proj}_{S} \: \mathbf{x}} = {\color{red}\textrm{proj}_{\mathbf{a}_1}\mathbf{x}} + {\color{red}\textrm{proj}_{\mathbf{a}_2}\mathbf{x}}
+{\color{blue}\text{proj}_{S} \: \mathbf{x}} = {\color{red}\text{proj}_{\mathbf{a}_1}\mathbf{x}} + {\color{red}\text{proj}_{\mathbf{a}_2}\mathbf{x}}
 
 
 $$
@@ -43,7 +43,7 @@ $$
 
 #### Question
 
-Consider the vector $\mathbf{x}$ and the subspace $S=\textrm{Span}\{\mathbf{a}_1,\mathbf{a}_2 \},$ where
+Consider the vector $\mathbf{x}$ and the subspace $S=\text{Span}\{\mathbf{a}_1,\mathbf{a}_2 \},$ where
 
 $$
 
@@ -62,17 +62,17 @@ Since the set $\{\mathbf{a}_1,\mathbf{a}_2\}$ is orthogonal, the orthogonal proj
 $$
 
 
-\textrm{proj}_{S}\,\mathbf{x} = \textrm{proj}_{\mathbf{a}_1}\mathbf{x} + \textrm{proj}_{\mathbf{a}_2}\mathbf{x}.
+\text{proj}_{S}\,\mathbf{x} = \text{proj}_{\mathbf{a}_1}\mathbf{x} + \text{proj}_{\mathbf{a}_2}\mathbf{x}.
 
 
 $$
 
-So, we first find the orthogonal projections of $\mathbf{x}$ onto $\textrm{Span}\{\mathbf{a}_1\}$ and $\textrm{Span}\{\mathbf{a}_2\}\mathbin{:}$
+So, we first find the orthogonal projections of $\mathbf{x}$ onto $\text{Span}\{\mathbf{a}_1\}$ and $\text{Span}\{\mathbf{a}_2\}\mathbin{:}$
 
 $$
 
 
-\begin{aligned}proj_{𝐚_{1}}𝐱 & =\frac{𝐱⋅𝐚_{1}}{𝐚_{1}⋅𝐚_{1}}𝐚_{1}=\frac{2⋅1+3⋅1+(−2)⋅1}{1^{2}+1^{2}+1^{2}}𝐚_{1}=1\begin{aligned}1 \\ 1 \\ 1\end{aligned}=\begin{aligned}1 \\ 1 \\ 1\end{aligned} \\ proj_{𝐚_{2}}𝐱 & =\frac{𝐱⋅𝐚_{2}}{𝐚_{2}⋅𝐚_{2}}𝐚_{2}=\frac{2⋅(−2)+3⋅1+(−2)⋅1}{(−2)^{2}+1^{2}+1^{2}}𝐚_{2}=−\frac{1}{2}\begin{aligned}−2 \\ 1 \\ 1\end{aligned}\end{aligned}
+\begin{aligned}proj_{𝐚_{1}}𝐱 & =\frac{𝐱⋅𝐚_{1}}{𝐚_{1}⋅𝐚_{1}}𝐚_{1}=\frac{2⋅1+3⋅1+(−2)⋅1}{1^{2}+1^{2}+1^{2}}𝐚_{1}=1\begin{matrix}1 \\ 1 \\ 1\end{matrix}=\begin{matrix}1 \\ 1 \\ 1\end{matrix} \\ proj_{𝐚_{2}}𝐱 & =\frac{𝐱⋅𝐚_{2}}{𝐚_{2}⋅𝐚_{2}}𝐚_{2}=\frac{2⋅(−2)+3⋅1+(−2)⋅1}{(−2)^{2}+1^{2}+1^{2}}𝐚_{2}=−\frac{1}{2}\begin{matrix}−2 \\ 1 \\ 1\end{matrix}\end{aligned}
 
 
 $$
@@ -82,7 +82,7 @@ Therefore, we have that
 $$
 
 
-\begin{aligned}proj_{𝑆}\,𝐱 & =proj_{𝐚_{1}}𝐱+proj_{𝐚_{2}}𝐱 \\ & =\begin{aligned}1 \\ 1 \\ 1\end{aligned}+(−\frac{1}{2})\begin{aligned}−2 \\ 1 \\ 1\end{aligned} \\ & =\begin{aligned}2 \\ \frac{1}{2} \\ \frac{1}{2}\end{aligned}.\end{aligned}
+\begin{aligned}proj_{𝑆}\,𝐱 & =proj_{𝐚_{1}}𝐱+proj_{𝐚_{2}}𝐱 \\ & =\begin{matrix}1 \\ 1 \\ 1\end{matrix}+(−\frac{1}{2})\begin{matrix}−2 \\ 1 \\ 1\end{matrix} \\ & =\begin{matrix}2 \\ \frac{1}{2} \\ \frac{1}{2}\end{matrix}.\end{aligned}
 
 
 $$
@@ -110,17 +110,17 @@ Since our plane passes through the origin, it defines the subspace $S=\text{Span
 $$
 
 
-\textrm{proj}_{S}\,\mathbf{x} = \textrm{proj}_{\mathbf{v}}\,\mathbf{x} + \textrm{proj}_{\mathbf{w}}\,\mathbf{x}.
+\text{proj}_{S}\,\mathbf{x} = \text{proj}_{\mathbf{v}}\,\mathbf{x} + \text{proj}_{\mathbf{w}}\,\mathbf{x}.
 
 
 $$
 
-So, we first find the orthogonal projections of $\mathbf{x}$ onto $\textrm{Span}\{\mathbf{v}\}$ and $\textrm{Span}\{\mathbf{w}\}\mathbin{:}$
+So, we first find the orthogonal projections of $\mathbf{x}$ onto $\text{Span}\{\mathbf{v}\}$ and $\text{Span}\{\mathbf{w}\}\mathbin{:}$
 
 $$
 
 
-\begin{aligned}proj_{𝐯}\,𝐱 & =\frac{𝐱⋅𝐯}{𝐯⋅𝐯}𝐯=\frac{13⋅2+(−2)⋅3+(−1)⋅(−1)}{2^{2}+3^{2}+(−1)^{2}}𝐯=\frac{3}{2}\begin{aligned}2 \\ 3 \\ −1\end{aligned} \\ proj_{𝐰}\,𝐱 & =\frac{𝐱⋅𝐰}{𝐰⋅𝐰}𝐰=\frac{13⋅5+(−2)⋅(−3)+(−1)⋅1}{5^{2}+(−3)^{2}+1^{2}}𝐰=2\begin{aligned}5 \\ −3 \\ 1\end{aligned}\end{aligned}
+\begin{aligned}proj_{𝐯}\,𝐱 & =\frac{𝐱⋅𝐯}{𝐯⋅𝐯}𝐯=\frac{13⋅2+(−2)⋅3+(−1)⋅(−1)}{2^{2}+3^{2}+(−1)^{2}}𝐯=\frac{3}{2}\begin{matrix}2 \\ 3 \\ −1\end{matrix} \\ proj_{𝐰}\,𝐱 & =\frac{𝐱⋅𝐰}{𝐰⋅𝐰}𝐰=\frac{13⋅5+(−2)⋅(−3)+(−1)⋅1}{5^{2}+(−3)^{2}+1^{2}}𝐰=2\begin{matrix}5 \\ −3 \\ 1\end{matrix}\end{aligned}
 
 
 $$
@@ -130,14 +130,14 @@ Therefore, we have that
 $$
 
 
-\begin{aligned}proj_{𝑆}\,𝐱 & =proj_{𝐯}\,𝐱+proj_{𝐰}\,𝐱 \\ & =\frac{3}{2}\begin{aligned}2 \\ 3 \\ −1\end{aligned}+2\begin{aligned}5 \\ −3 \\ 1\end{aligned} \\ & =\begin{aligned}3 \\ \frac{9}{2} \\ −\frac{3}{2}\end{aligned}+\begin{aligned}10 \\ −6 \\ 2\end{aligned} \\ & =\begin{aligned}13 \\ −\frac{3}{2} \\ \frac{1}{2}\end{aligned}.\end{aligned}
+\begin{aligned}proj_{𝑆}\,𝐱 & =proj_{𝐯}\,𝐱+proj_{𝐰}\,𝐱 \\ & =\frac{3}{2}\begin{matrix}2 \\ 3 \\ −1\end{matrix}+2\begin{matrix}5 \\ −3 \\ 1\end{matrix} \\ & =\begin{matrix}3 \\ \frac{9}{2} \\ −\frac{3}{2}\end{matrix}+\begin{matrix}10 \\ −6 \\ 2\end{matrix} \\ & =\begin{matrix}13 \\ −\frac{3}{2} \\ \frac{1}{2}\end{matrix}.\end{aligned}
 
 
 $$
 
 ### The Distance Between a Vector and a Subspace
 
-Let $n,m$ be positive integers such that $n\leq m.$ Given an orthogonal set $\big\{\mathbf{a}_1, \mathbf{a}_2, \ldots, \mathbf{a}_n \big\} \subset \Bbb R^m$ and a vector $\mathbf x \in \Bbb R^m,$ we define the **distance between the vector $\mathbf{x}$ and the vector space $S=\textrm{Span}\{\mathbf{a}_1,\mathbf{a}_2, \ldots, \mathbf{a}_n \}$** as
+Let $n,m$ be positive integers such that $n\leq m.$ Given an orthogonal set $\big\{\mathbf{a}_1, \mathbf{a}_2, \ldots, \mathbf{a}_n \big\} \subset \Bbb R^m$ and a vector $\mathbf x \in \Bbb R^m,$ we define the **distance between the vector $\mathbf{x}$ and the vector space $S=\text{Span}\{\mathbf{a}_1,\mathbf{a}_2, \ldots, \mathbf{a}_n \}$** as
 
 $$
 
@@ -156,18 +156,18 @@ Finally, notice that we can represent the vector $\mathbf{x}$ as a sum of two or
 $$
 
 
-\mathbf{x} = \underbrace{\textrm{proj}_{S}\mathbf{x}}_{\large \in S} + \underbrace{(\mathbf{x}-\textrm{proj}_{S}\mathbf{x})}_{\large \in S^\perp}
+\mathbf{x} = \underbrace{\text{proj}_{S}\mathbf{x}}_{\large \in S} + \underbrace{(\mathbf{x}-\text{proj}_{S}\mathbf{x})}_{\large \in S^\perp}
 
 
 $$
 
-**Note:** The vector $\textbf{x}-\textrm{proj}_{S}\,\mathbf{x},$ whose norm $\| \textbf{x}-\textrm{proj}_{S}\,\mathbf{x} \|$ represents the distance from $\mathbf{x}$ to $S,$ is sometimes called the **vector rejection of $\mathbf{x}$ from $S.$**
+**Note:** The vector $\textbf{x}-\text{proj}_{S}\,\mathbf{x},$ whose norm $\| \textbf{x}-\text{proj}_{S}\,\mathbf{x} \|$ represents the distance from $\mathbf{x}$ to $S,$ is sometimes called the **vector rejection of $\mathbf{x}$ from $S.$**
 
 ### Example: Calculating the Distance Between a Vector and a Subspace Spanned by Orthogonal Vectors
 
 #### Question
 
-Consider the vector $\mathbf{x}$ and the subspace $S=\textrm{Span}\{\mathbf{a}_1,\mathbf{a}_2 \},$ where
+Consider the vector $\mathbf{x}$ and the subspace $S=\text{Span}\{\mathbf{a}_1,\mathbf{a}_2 \},$ where
 
 $$
 
@@ -186,17 +186,17 @@ Since the set $\{\mathbf{a}_1,\mathbf{a}_2\}$ is orthogonal, the orthogonal proj
 $$
 
 
-\textrm{proj}_{S}\,\mathbf{x} = \textrm{proj}_{\mathbf{a}_1}\mathbf{x} + \textrm{proj}_{\mathbf{a}_2}\mathbf{x}.
+\text{proj}_{S}\,\mathbf{x} = \text{proj}_{\mathbf{a}_1}\mathbf{x} + \text{proj}_{\mathbf{a}_2}\mathbf{x}.
 
 
 $$
 
-So, we first find the orthogonal projections of $\mathbf{x}$ onto $\textrm{Span}\{\mathbf{a}_1\}$ and $\textrm{Span}\{\mathbf{a}_2\}\mathbin{:}$
+So, we first find the orthogonal projections of $\mathbf{x}$ onto $\text{Span}\{\mathbf{a}_1\}$ and $\text{Span}\{\mathbf{a}_2\}\mathbin{:}$
 
 $$
 
 
-\begin{aligned}proj_{𝐚_{1}}𝐱 & =\frac{𝐱⋅𝐚_{1}}{𝐚_{1}⋅𝐚_{1}}𝐚_{1}=\frac{3⋅1+2⋅2+1⋅1}{1^{2}+2^{2}+1^{2}}𝐚_{1}=\frac{4}{3}\begin{aligned}1 \\ 2 \\ 1\end{aligned} \\ proj_{𝐚_{2}}𝐱 & =\frac{𝐱⋅𝐚_{2}}{𝐚_{2}⋅𝐚_{2}}𝐚_{2}=\frac{3⋅1+2⋅(−1)+1⋅1}{1^{2}+(−1)^{2}+1^{2}}𝐚_{2}=\frac{2}{3}\begin{aligned}1 \\ −1 \\ 1\end{aligned}\end{aligned}
+\begin{aligned}proj_{𝐚_{1}}𝐱 & =\frac{𝐱⋅𝐚_{1}}{𝐚_{1}⋅𝐚_{1}}𝐚_{1}=\frac{3⋅1+2⋅2+1⋅1}{1^{2}+2^{2}+1^{2}}𝐚_{1}=\frac{4}{3}\begin{matrix}1 \\ 2 \\ 1\end{matrix} \\ proj_{𝐚_{2}}𝐱 & =\frac{𝐱⋅𝐚_{2}}{𝐚_{2}⋅𝐚_{2}}𝐚_{2}=\frac{3⋅1+2⋅(−1)+1⋅1}{1^{2}+(−1)^{2}+1^{2}}𝐚_{2}=\frac{2}{3}\begin{matrix}1 \\ −1 \\ 1\end{matrix}\end{aligned}
 
 
 $$
@@ -206,7 +206,7 @@ Therefore, we have that
 $$
 
 
-\begin{aligned}proj_{𝑆}\,𝐱 & =proj_{𝐚_{1}}𝐱+proj_{𝐚_{2}}𝐱 \\ & =\frac{4}{3}\begin{aligned}1 \\ 2 \\ 1\end{aligned}+\frac{2}{3}\begin{aligned}1 \\ −1 \\ 1\end{aligned} \\ & =\frac{2}{3}2\begin{aligned}1 \\ 2 \\ 1\end{aligned}+\begin{aligned}1 \\ −1 \\ 1\end{aligned} \\ & =\begin{aligned}2 \\ 2 \\ 2\end{aligned}=\overset{𝐱}{^}.\end{aligned}
+\begin{aligned}proj_{𝑆}\,𝐱 & =proj_{𝐚_{1}}𝐱+proj_{𝐚_{2}}𝐱 \\ & =\frac{4}{3}\begin{matrix}1 \\ 2 \\ 1\end{matrix}+\frac{2}{3}\begin{matrix}1 \\ −1 \\ 1\end{matrix} \\ & =\frac{2}{3}2\begin{matrix}1 \\ 2 \\ 1\end{matrix}+\begin{matrix}1 \\ −1 \\ 1\end{matrix} \\ & =\begin{matrix}2 \\ 2 \\ 2\end{matrix}=\hat{𝐱}.\end{aligned}
 
 
 $$
@@ -216,7 +216,7 @@ Finally, the distance between $\mathbf{x}$ and the subspace $S$ is given by
 $$
 
 
-\begin{aligned}𝑑(𝐱,\overset{𝐱}{^}) & =‖𝐱−\overset{𝐱}{^}‖ \\ & =\sqrt{√(𝑥_{1}−\overset{𝐱}{^}_{1})^{2}+(𝑥_{2}−\overset{𝐱}{^}_{2})^{2}+(𝑥_{3}−\overset{𝐱}{^}_{3})^{2}} \\ & =\sqrt{√(3−2)^{2}+(2−2)^{2}+(1−2)^{2}} \\ & =\sqrt{√2}.\end{aligned}
+\begin{aligned}𝑑(𝐱,\hat{𝐱}) & =‖𝐱−\hat{𝐱}‖ \\ & =\sqrt{(𝑥_{1}−\hat{𝐱}_{1})^{2}+(𝑥_{2}−\hat{𝐱}_{2})^{2}+(𝑥_{3}−\hat{𝐱}_{3})^{2}} \\ & =\sqrt{(3−2)^{2}+(2−2)^{2}+(1−2)^{2}} \\ & =\sqrt{2}.\end{aligned}
 
 
 $$
@@ -225,7 +225,7 @@ $$
 
 #### Question
 
-Consider the vector $\mathbf{x}$ and the subspace $S=\textrm{Span}\{\mathbf v,\mathbf w\}$ where
+Consider the vector $\mathbf{x}$ and the subspace $S=\text{Span}\{\mathbf v,\mathbf w\}$ where
 
 $$
 
@@ -244,17 +244,17 @@ Since the set $\{\mathbf{v},\mathbf{w}\}$ is orthogonal, the orthogonal projecti
 $$
 
 
-\textrm{proj}_{S}\,\mathbf{x} = \textrm{proj}_{\mathbf{v}}\mathbf{x} + \textrm{proj}_{\mathbf{w}}\mathbf{x}.
+\text{proj}_{S}\,\mathbf{x} = \text{proj}_{\mathbf{v}}\mathbf{x} + \text{proj}_{\mathbf{w}}\mathbf{x}.
 
 
 $$
 
-So, we first find the orthogonal projections of $\mathbf{x}$ onto $\textrm{Span}\{\mathbf{v}\}$ and $\textrm{Span}\{\mathbf{w}\}\mathbin{:}$
+So, we first find the orthogonal projections of $\mathbf{x}$ onto $\text{Span}\{\mathbf{v}\}$ and $\text{Span}\{\mathbf{w}\}\mathbin{:}$
 
 $$
 
 
-\begin{aligned}proj_{𝐯}\,𝐱 & =\frac{𝐱⋅𝐯}{𝐯⋅𝐯}𝐯=\frac{\sqrt{√10}⋅0+3⋅1+1⋅1}{0^{2}+(−1)^{2}+1^{2}}𝐯=2\begin{aligned}0 \\ 1 \\ 1\end{aligned}=\begin{aligned}0 \\ 2 \\ 2\end{aligned} \\ proj_{𝐰}\,𝐱 & =\frac{𝐱⋅𝐰}{𝐰⋅𝐰}𝐰=\frac{\sqrt{√10}⋅0+3⋅(−1)+1⋅1}{0^{2}+(−1)^{2}+(−1)^{2}}𝐰=(−1)\begin{aligned}0 \\ −1 \\ 1\end{aligned}=\begin{aligned}0 \\ 1 \\ −1\end{aligned}\end{aligned}
+\begin{aligned}proj_{𝐯}\,𝐱 & =\frac{𝐱⋅𝐯}{𝐯⋅𝐯}𝐯=\frac{\sqrt{10}⋅0+3⋅1+1⋅1}{0^{2}+(−1)^{2}+1^{2}}𝐯=2\begin{matrix}0 \\ 1 \\ 1\end{matrix}=\begin{matrix}0 \\ 2 \\ 2\end{matrix} \\ proj_{𝐰}\,𝐱 & =\frac{𝐱⋅𝐰}{𝐰⋅𝐰}𝐰=\frac{\sqrt{10}⋅0+3⋅(−1)+1⋅1}{0^{2}+(−1)^{2}+(−1)^{2}}𝐰=(−1)\begin{matrix}0 \\ −1 \\ 1\end{matrix}=\begin{matrix}0 \\ 1 \\ −1\end{matrix}\end{aligned}
 
 
 $$
@@ -264,17 +264,17 @@ Therefore, we have that
 $$
 
 
-\begin{aligned}proj_{𝑆}\,𝐱 & =proj_{𝐯}\,𝐱+proj_{𝐰}\,𝐱 \\ & =\begin{aligned}0 \\ 2 \\ 2\end{aligned}+\begin{aligned}0 \\ 1 \\ −1\end{aligned} \\ & =\begin{aligned}0 \\ 3 \\ 1\end{aligned}.\end{aligned}
+\begin{aligned}proj_{𝑆}\,𝐱 & =proj_{𝐯}\,𝐱+proj_{𝐰}\,𝐱 \\ & =\begin{matrix}0 \\ 2 \\ 2\end{matrix}+\begin{matrix}0 \\ 1 \\ −1\end{matrix} \\ & =\begin{matrix}0 \\ 3 \\ 1\end{matrix}.\end{aligned}
 
 
 $$
 
-The acute angle between $\mathbf{x}$ and $S$ is the acute angle between $\mathbf{x}$ and $\textrm{proj}_S \mathbf{x}$ or any other non-zero vector that is parallel to $\textrm{proj}_S \mathbf{x}.$ So, computing the cosine using the dot product, we obtain
+The acute angle between $\mathbf{x}$ and $S$ is the acute angle between $\mathbf{x}$ and $\text{proj}_S \mathbf{x}$ or any other non-zero vector that is parallel to $\text{proj}_S \mathbf{x}.$ So, computing the cosine using the dot product, we obtain
 
 $$
 
 
-\begin{aligned}cos⁡𝜃 & =\frac{𝐱⋅proj_{𝑆}\,𝐱}{‖𝐱‖\,‖proj_{𝑆}\,𝐱‖} \\ & =\frac{\sqrt{√10}⋅0+3⋅3+1⋅1}{\sqrt{√(\sqrt{√10})^{2}+3^{2}+1^{2}}\,\sqrt{√0^{2}+3^{2}+1^{2}}} \\ & =\frac{10}{\sqrt{√20}\,\sqrt{√10}} \\ & =\frac{10}{10\,\sqrt{√2}} \\ & =\frac{\sqrt{√2}}{2}.\end{aligned}
+\begin{aligned}cos⁡𝜃 & =\frac{𝐱⋅proj_{𝑆}\,𝐱}{‖𝐱‖\,‖proj_{𝑆}\,𝐱‖} \\ & =\frac{\sqrt{10}⋅0+3⋅3+1⋅1}{\sqrt{(\sqrt{10})^{2}+3^{2}+1^{2}}\,\sqrt{0^{2}+3^{2}+1^{2}}} \\ & =\frac{10}{\sqrt{20}\,\sqrt{10}} \\ & =\frac{10}{10\,\sqrt{2}} \\ & =\frac{\sqrt{2}}{2}.\end{aligned}
 
 
 $$
@@ -293,7 +293,7 @@ which is already an acute angle.
 
 ### Justification of the Formula
 
-Let's now prove the formula for the orthogonal projection of a vector $\mathbf{x}$ onto the subspaces $\textrm{Span}\{\mathbf{a}_1 \}$ and $\textrm{Span}\{\mathbf{a}_2 \}$ given that $\mathbf{a}_1\perp \mathbf{a}_2.$
+Let's now prove the formula for the orthogonal projection of a vector $\mathbf{x}$ onto the subspaces $\text{Span}\{\mathbf{a}_1 \}$ and $\text{Span}\{\mathbf{a}_2 \}$ given that $\mathbf{a}_1\perp \mathbf{a}_2.$
 
 We start by writing $\mathbf{x}$ as a sum of two vectors
 
@@ -305,7 +305,7 @@ $$
 
 $$
 
-where $\mathbf{x}_S=\text{proj}_S\,\mathbf{x}$ is in $\textrm{Span}\{\mathbf{a}_1,\mathbf{a}_2\},$ and $\mathbf{x}_{S^\perp}$ is in the orthogonal complement of $\textrm{Span}\{\mathbf{a}_1,\mathbf{a}_2\}$. That is, $\mathbf{x}_S=k_1\mathbf{a}_1+k_2\mathbf{a}_2\in S\,$ and $\mathbf{x}_{S^\perp} \in S^\perp.$
+where $\mathbf{x}_S=\text{proj}_S\,\mathbf{x}$ is in $\text{Span}\{\mathbf{a}_1,\mathbf{a}_2\},$ and $\mathbf{x}_{S^\perp}$ is in the orthogonal complement of $\text{Span}\{\mathbf{a}_1,\mathbf{a}_2\}$. That is, $\mathbf{x}_S=k_1\mathbf{a}_1+k_2\mathbf{a}_2\in S\,$ and $\mathbf{x}_{S^\perp} \in S^\perp.$
 
 From the equation above, we get
 
@@ -322,7 +322,7 @@ Now, using the fact that $\mathbf{x}_{S^\perp}$ is orthogonal to $S,$ and the fa
 $$
 
 
-\begin{aligned}\begin{aligned}𝐱_{𝑆^{⊥}}⋅𝐚_{1}=0 \\ 𝐱_{𝑆^{⊥}}⋅𝐚_{2}=0\end{aligned} & \,\,\,⟹\,\,\,\begin{aligned}(𝐱−𝑘_{1}𝐚_{1}−𝑘_{2}𝐚_{2})⋅𝐚_{1}=0 \\ (𝐱−𝑘_{1}𝐚_{1}−𝑘_{2}𝐚_{2})⋅𝐚_{2}=0\end{aligned} \\ & \,\,\,⟹\,\,\,\begin{aligned}𝐱⋅𝐚_{1}−𝑘_{1}(𝐚_{1}⋅𝐚_{1})−𝑘_{2}(𝐚_{2}⋅𝐚_{1})=0 \\ 𝐱⋅𝐚_{2}−𝑘_{1}(𝐚_{1}⋅𝐚_{2})−𝑘_{2}(𝐚_{2}⋅𝐚_{2})=0\end{aligned} \\ & \,\,\,⟹\,\,\,\begin{aligned}𝑘_{1}(𝐚_{1}⋅𝐚_{1})=𝐱⋅𝐚_{1} \\ 𝑘_{2}(𝐚_{2}⋅𝐚_{2})=𝐱⋅𝐚_{2}\end{aligned} \\ & \,\,\,⟹\,\,\,\begin{aligned}𝑘_{1}=\frac{𝐱⋅𝐚_{1}}{𝐚_{1}⋅𝐚_{1}} \\ 𝑘_{2}=\frac{𝐱⋅𝐚_{2}}{𝐚_{2}⋅𝐚_{2}}.\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}𝐱_{𝑆^{⊥}}⋅𝐚_{1}=0 \\ 𝐱_{𝑆^{⊥}}⋅𝐚_{2}=0\end{matrix} & \,\,\,⟹\,\,\,\begin{matrix}(𝐱−𝑘_{1}𝐚_{1}−𝑘_{2}𝐚_{2})⋅𝐚_{1}=0 \\ (𝐱−𝑘_{1}𝐚_{1}−𝑘_{2}𝐚_{2})⋅𝐚_{2}=0\end{matrix} \\ & \,\,\,⟹\,\,\,\begin{matrix}𝐱⋅𝐚_{1}−𝑘_{1}(𝐚_{1}⋅𝐚_{1})−𝑘_{2}(𝐚_{2}⋅𝐚_{1})=0 \\ 𝐱⋅𝐚_{2}−𝑘_{1}(𝐚_{1}⋅𝐚_{2})−𝑘_{2}(𝐚_{2}⋅𝐚_{2})=0\end{matrix} \\ & \,\,\,⟹\,\,\,\begin{matrix}𝑘_{1}(𝐚_{1}⋅𝐚_{1})=𝐱⋅𝐚_{1} \\ 𝑘_{2}(𝐚_{2}⋅𝐚_{2})=𝐱⋅𝐚_{2}\end{matrix} \\ & \,\,\,⟹\,\,\,\begin{matrix}𝑘_{1}=\frac{𝐱⋅𝐚_{1}}{𝐚_{1}⋅𝐚_{1}} \\ 𝑘_{2}=\frac{𝐱⋅𝐚_{2}}{𝐚_{2}⋅𝐚_{2}}.\end{matrix}\end{aligned}
 
 
 $$

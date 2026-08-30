@@ -17,33 +17,33 @@ $$
 
 
 
-e^{\textrm{i}\theta} = \cos\theta + \textrm{i}\sin\theta.
+e^{\text{i}\theta} = \cos\theta + \text{i}\sin\theta.
 
 
 
 $$
 
-With Euler's formula, we can write any complex number $z$ in three equivalent ways. Letting $r=|z|$ and $\theta =\textrm{arg}(z),$ we have the following:
+With Euler's formula, we can write any complex number $z$ in three equivalent ways. Letting $r=|z|$ and $\theta =\text{arg}(z),$ we have the following:
 
-For instance, if $z=1+\textrm{i},$ then we have
-
-$$
-
-
-
-\begin{aligned}𝑟 & =\sqrt{√1^{2}+1^{2}}=\sqrt{√2}, \\ 𝜃 & =arg(𝑧)=arctan⁡(\frac{1}{1})=\frac{𝜋}{4}.\end{aligned}
-
-
-
-$$
-
-So, the complex number $z=1+\textrm{i}$ can be written in exponential form as
+For instance, if $z=1+\text{i},$ then we have
 
 $$
 
 
 
-z=\sqrt{2}e^{\textrm{i}\pi/4}.
+\begin{aligned}𝑟 & =\sqrt{1^{2}+1^{2}}=\sqrt{2}, \\ 𝜃 & =arg(𝑧)=arctan⁡(\frac{1}{1})=\frac{𝜋}{4}.\end{aligned}
+
+
+
+$$
+
+So, the complex number $z=1+\text{i}$ can be written in exponential form as
+
+$$
+
+
+
+z=\sqrt{2}e^{\text{i}\pi/4}.
 
 
 
@@ -55,29 +55,29 @@ $$
 
 
 
-e^{\textrm{i}\pi} = -1 \quad\Longrightarrow\quad e^{\textrm{i}\pi} +1=0
+e^{\text{i}\pi} = -1 \quad\Longrightarrow\quad e^{\text{i}\pi} +1=0
 
 
 
 $$
 
-The equation $e^{\textrm{i}\pi} +1=0$ is called **Euler's identity**. It is often described as the most beautiful equation in all of mathematics because it combines five important constants $e, \textrm{i}, \pi, 1,$ and $0$ into a single elegant form.
+The equation $e^{\text{i}\pi} +1=0$ is called **Euler's identity**. It is often described as the most beautiful equation in all of mathematics because it combines five important constants $e, \text{i}, \pi, 1,$ and $0$ into a single elegant form.
 
 ### Example: Writing a Complex Number in Exponential Form
 
 #### Question
 
-Write the complex number $z=4+4\textrm{i}$ in exponential form.
+Write the complex number $z=4+4\text{i}$ in exponential form.
 
 #### Explanation
 
-To write our complex number in the form $z = r\textrm{e}^{\textrm{i}\theta},$ where $r=|z|$ and $\theta = \arg(z),$ we first calculate $r\mathbin{:}$
+To write our complex number in the form $z = r\text{e}^{\text{i}\theta},$ where $r=|z|$ and $\theta = \arg(z),$ we first calculate $r\mathbin{:}$
 
 $$
 
 
 
-\begin{aligned}𝑟=|𝑧| & =\sqrt{√𝑥^{2}+𝑦^{2}} \\ & =\sqrt{√4^{2}+4^{2}} \\ & =4\sqrt{√2}\end{aligned}
+\begin{aligned}𝑟=|𝑧| & =\sqrt{𝑥^{2}+𝑦^{2}} \\ & =\sqrt{4^{2}+4^{2}} \\ & =4\sqrt{2}\end{aligned}
 
 
 
@@ -95,13 +95,13 @@ $$
 
 $$
 
-Finally, substituting $r=4\sqrt{2}$ and $\theta=\dfrac{\pi}{4}$ into $z=re^{\textrm{i}\theta},$ we get
+Finally, substituting $r=4\sqrt{2}$ and $\theta=\dfrac{\pi}{4}$ into $z=re^{\text{i}\theta},$ we get
 
 $$
 
 
 
-z = 4\sqrt{2}\,\textrm{e}^{\pi\textrm{i}/4}.
+z = 4\sqrt{2}\,\text{e}^{\pi\text{i}/4}.
 
 
 

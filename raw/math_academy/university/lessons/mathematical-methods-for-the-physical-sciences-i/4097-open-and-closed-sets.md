@@ -34,7 +34,7 @@ If $A$ is an open set, then it equals its interior, and we can write
 $$
 
 
-A = \textrm{int}\,A.
+A = \text{int}\,A.
 
 
 $$
@@ -84,7 +84,7 @@ If set $A$ is closed, it consists of all points within its interior and boundary
 $$
 
 
-A = \partial A \cup \textrm{int}\, A.
+A = \partial A \cup \text{int}\, A.
 
 
 $$

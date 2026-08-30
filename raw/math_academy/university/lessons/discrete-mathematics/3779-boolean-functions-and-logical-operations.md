@@ -28,7 +28,7 @@ Complete the missing values in the truth table below.
 
 #### Explanation
 
-Recall that $\textrm{True}=1$ and $\textrm{False}=0.$
+Recall that $\text{True}=1$ and $\text{False}=0.$
 
 Also, the implication $x_1 \Rightarrow x_2$ is false if and only if $x_1$ is true ($1$) and $x_2$ is false ($0$).
 
@@ -52,7 +52,7 @@ Complete the missing values in the truth table below.
 
 #### Explanation
 
-Recall that $\textrm{True}=1$ and $\textrm{False}=0.$
+Recall that $\text{True}=1$ and $\text{False}=0.$
 
 Also, the Peirce arrow $x_1 \downarrow x_2$ is true if and only if both $x_1$ and $x_2$ are false ($0$).
 

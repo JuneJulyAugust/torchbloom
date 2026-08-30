@@ -139,7 +139,7 @@ $$
 
 #### Question
 
-Paul knows that the distance between cell tower $A$ and cell tower $B$ is $35\,\textrm{miles},$ and the distance between cell tower $B$ and cell tower $C$ is $25\,\textrm{miles},$ but he does not know their exact locations. Assuming that the three locations form a triangle, what is the range of possible values for the distance between cellphone towers $A$ and $C?$
+Paul knows that the distance between cell tower $A$ and cell tower $B$ is $35\,\text{miles},$ and the distance between cell tower $B$ and cell tower $C$ is $25\,\text{miles},$ but he does not know their exact locations. Assuming that the three locations form a triangle, what is the range of possible values for the distance between cellphone towers $A$ and $C?$
 
 #### Explanation
 
@@ -160,7 +160,7 @@ We know that
 $$
 
 
-AB = 35\,\textrm{mi}, \qquad BC = 25\,\textrm{mi}.
+AB = 35\,\text{mi}, \qquad BC = 25\,\text{mi}.
 
 
 $$
@@ -193,12 +193,12 @@ The triangle inequality theorem states that the length of any one side must be s
 
 - Applying the triangle inequality theorem to $\triangle{ABC}$, we get
 
-Since both $AC < 39\,\textrm{cm}$ and $AC < 22\,\textrm{cm}$ must be satisfied, we conclude that
+Since both $AC < 39\,\text{cm}$ and $AC < 22\,\text{cm}$ must be satisfied, we conclude that
 
 $$
 
 
-AC < 22\,\textrm{cm}.
+AC < 22\,\text{cm}.
 
 
 $$

@@ -16,7 +16,7 @@ Suppose that $a$ is an integer and that $n$ is a positive integer. Then there ar
 $$
 
 
-a = qn + r \quad\textrm{where}\quad 0 \leq r \lt n.
+a = qn + r \quad\text{where}\quad 0 \leq r \lt n.
 
 
 $$

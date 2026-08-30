@@ -22,7 +22,7 @@ We see that the curve approaches zero as $x$ approaches positive infinity. The s
 $$
 
 
-\lim_\limits{x \to \infty} \left(\dfrac{1}{x}\right)=0 \qquad \textrm{and} \qquad \lim_\limits{x \to -\infty} \left(\dfrac{1}{x}\right)=0.
+\lim\limits_{x \to \infty} \left(\dfrac{1}{x}\right)=0 \qquad \text{and} \qquad \lim\limits_{x \to -\infty} \left(\dfrac{1}{x}\right)=0.
 
 
 $$
@@ -43,7 +43,7 @@ and so on. This is because as the size of $x$ increases, the size of $\dfrac{1}{
 
 #### Question
 
-Compute $\lim_\limits{x \to \infty} \dfrac{1}{4x^4}.$
+Compute $\lim\limits_{x \to \infty} \dfrac{1}{4x^4}.$
 
 #### Explanation
 
@@ -62,7 +62,7 @@ Now, using the fact that
 $$
 
 
-\lim_\limits{x \to \infty} \left(\dfrac{1}{x^4}\right)=0,
+\lim\limits_{x \to \infty} \left(\dfrac{1}{x^4}\right)=0,
 
 
 $$
@@ -72,7 +72,7 @@ we can evaluate our limit as follows:
 $$
 
 
-\dfrac{1}{4} \cdot\lim_\limits{x \to \infty} \dfrac{1}{x^4} = \dfrac 1 4\cdot 0 = 0
+\dfrac{1}{4} \cdot\lim\limits_{x \to \infty} \dfrac{1}{x^4} = \dfrac 1 4\cdot 0 = 0
 
 
 $$
@@ -115,7 +115,7 @@ $$
 
 #### Question
 
-Compute $\lim_\limits{x \to -\infty} \dfrac{1}{(1-x)^4} \,.$
+Compute $\lim\limits_{x \to -\infty} \dfrac{1}{(1-x)^4} \,.$
 
 #### Explanation
 
@@ -134,7 +134,7 @@ Therefore, since $(1-x)^4$ is a non-constant polynomial, we have
 $$
 
 
-\lim_\limits{x \to -\infty} \dfrac{1}{(1-x)^4} = 0.
+\lim\limits_{x \to -\infty} \dfrac{1}{(1-x)^4} = 0.
 
 
 $$
@@ -150,7 +150,7 @@ From the graph, we see that
 $$
 
 
-\lim_\limits{x\rightarrow 0^-} \left(\dfrac{1}{x}\right) = -\infty \qquad \textrm{and} \qquad \lim_\limits{x\rightarrow 0^+} \left(\dfrac{1}{x}\right) = \infty.
+\lim\limits_{x\rightarrow 0^-} \left(\dfrac{1}{x}\right) = -\infty \qquad \text{and} \qquad \lim\limits_{x\rightarrow 0^+} \left(\dfrac{1}{x}\right) = \infty.
 
 
 $$
@@ -160,7 +160,7 @@ Since the left and right-sided limits are not the same, we conclude that
 $$
 
 
-\lim_\limits{x\rightarrow 0} \left(\dfrac{1}{x}\right) = \textrm{DNE}.
+\lim\limits_{x\rightarrow 0} \left(\dfrac{1}{x}\right) = \text{DNE}.
 
 
 $$
@@ -181,7 +181,7 @@ and so on. For all of the above, the limit of the function does not exist at $x=
 
 #### Question
 
-Compute $\lim_\limits{x \to (-1)} \dfrac{1}{(x+1)^3} \,.$
+Compute $\lim\limits_{x \to (-1)} \dfrac{1}{(x+1)^3} \,.$
 
 #### Explanation
 
@@ -198,7 +198,7 @@ From the graph, we see that
 $$
 
 
-\lim_\limits{x \to (-1^-)} \dfrac{1}{(x+1)^3} = -\infty, \qquad \lim_\limits{x \to (-1^+)} \dfrac{1}{(x+1)^3} = \infty,
+\lim\limits_{x \to (-1^-)} \dfrac{1}{(x+1)^3} = -\infty, \qquad \lim\limits_{x \to (-1^+)} \dfrac{1}{(x+1)^3} = \infty,
 
 
 $$
@@ -208,7 +208,7 @@ and therefore
 $$
 
 
-\lim_\limits{x \to (-1)} \dfrac{1}{(x+1)^3}= \textrm{DNE}.
+\lim\limits_{x \to (-1)} \dfrac{1}{(x+1)^3}= \text{DNE}.
 
 
 $$
@@ -224,7 +224,7 @@ We see that as we approach $0$ from both sides, the function grows rapidly witho
 $$
 
 
-\lim_\limits{x\rightarrow 0^-}\left(\dfrac{1}{x^2}\right) = \lim_\limits{x\rightarrow 0^+} \left(\dfrac{1}{x^2}\right)= \infty,
+\lim\limits_{x\rightarrow 0^-}\left(\dfrac{1}{x^2}\right) = \lim\limits_{x\rightarrow 0^+} \left(\dfrac{1}{x^2}\right)= \infty,
 
 
 $$
@@ -234,7 +234,7 @@ which implies that
 $$
 
 
-\lim_\limits{x\rightarrow 0} \left(\dfrac{1}{x^2}\right)= \infty.
+\lim\limits_{x\rightarrow 0} \left(\dfrac{1}{x^2}\right)= \infty.
 
 
 $$
@@ -244,7 +244,7 @@ Any function of the form $y = \dfrac{1}{x^n}$ (where $n$ is an *even* natural nu
 $$
 
 
-\lim_\limits{x\rightarrow 0} \left(\dfrac{1}{x^n}\right)= \infty, \qquad n=2,4,6,\ldots
+\lim\limits_{x\rightarrow 0} \left(\dfrac{1}{x^n}\right)= \infty, \qquad n=2,4,6,\ldots
 
 
 $$
@@ -253,7 +253,7 @@ $$
 
 #### Question
 
-Calculate $\lim_\limits {x\rightarrow -1} \dfrac{1}{(x+1)^4}.$
+Calculate $\lim\limits_{x\rightarrow -1} \dfrac{1}{(x+1)^4}.$
 
 #### Explanation
 
@@ -270,7 +270,7 @@ From the graph, we see that
 $$
 
 
-\lim_\limits{x \to (-1^-)} \dfrac{1}{(x+1)^4} = \infty, \qquad \lim_\limits{x \to (-1^+)} \dfrac{1}{(x+1)^4} = \infty,
+\lim\limits_{x \to (-1^-)} \dfrac{1}{(x+1)^4} = \infty, \qquad \lim\limits_{x \to (-1^+)} \dfrac{1}{(x+1)^4} = \infty,
 
 
 $$
@@ -280,7 +280,7 @@ and therefore
 $$
 
 
-\lim_\limits{x \to (-1)} \dfrac{1}{(x+1)^4}= \infty.
+\lim\limits_{x \to (-1)} \dfrac{1}{(x+1)^4}= \infty.
 
 
 $$

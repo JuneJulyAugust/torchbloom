@@ -53,13 +53,13 @@ In the next slide, we will apply this formula to calculate the local truncation 
 
 #### Question
 
-An initial value problem has the exact solution $y_{\textrm{exact}}(x) = \cos(2x).$ A numerical method is used to approximate the solution to the initial value problem, resulting in the table below, where $y$ denotes the approximate solution at each step, and $\tau_n$ is the local truncation error at each step. At each step, the exact value is used to approximate the new value.
+An initial value problem has the exact solution $y_{\text{exact}}(x) = \cos(2x).$ A numerical method is used to approximate the solution to the initial value problem, resulting in the table below, where $y$ denotes the approximate solution at each step, and $\tau_n$ is the local truncation error at each step. At each step, the exact value is used to approximate the new value.
 
 Calculate the local truncation error at each step. Round your answers to three decimal places.
 
 #### Explanation
 
-The local truncation error (LTE) is the error made in a ** of a numerical method, when the step begins from an **. The LTE of a numerical method at step $n$ from $x$ with exact value $y_{\textrm{exact}}(x)$ to $x_\text{new} = x + \Delta x$ is
+The local truncation error (LTE) is the error made in a ** of a numerical method, when the step begins from an **. The LTE of a numerical method at step $n$ from $x$ with exact value $y_{\text{exact}}(x)$ to $x_\text{new} = x + \Delta x$ is
 
 $$
 
@@ -103,11 +103,11 @@ $$
 
 $$
 
-Given that the exact solution is $y_{\textrm{exact}}(x) = \cos x,$ compute the local truncation error $\tau_{6}$ for the step starting at $x=1$ with step size $\Delta x=0.2.$ Round your answer to three decimal places.
+Given that the exact solution is $y_{\text{exact}}(x) = \cos x,$ compute the local truncation error $\tau_{6}$ for the step starting at $x=1$ with step size $\Delta x=0.2.$ Round your answer to three decimal places.
 
 #### Explanation
 
-The local truncation error (LTE) is the error made in a ** of a numerical method, when the step begins from an **. The LTE of a numerical method at step $n$ from $x$ with exact value $y_{\textrm{exact}}(x)$ to $x_\text{new} = x + \Delta x$ is
+The local truncation error (LTE) is the error made in a ** of a numerical method, when the step begins from an **. The LTE of a numerical method at step $n$ from $x$ with exact value $y_{\text{exact}}(x)$ to $x_\text{new} = x + \Delta x$ is
 
 $$
 
@@ -117,7 +117,7 @@ $$
 
 $$
 
-We're given that the exact solution is $y_{\textrm{exact}}(x) = \cos x.$ So, the $y$-value at the start of the step $x=1$ is $y_{\textrm{exact}}(1)=\cos(1).$
+We're given that the exact solution is $y_{\text{exact}}(x) = \cos x.$ So, the $y$-value at the start of the step $x=1$ is $y_{\text{exact}}(1)=\cos(1).$
 
 Now, let's find the $y$-increment given by the numerical method.
 
@@ -126,7 +126,7 @@ First, the slope at the start of the step is
 $$
 
 
-\begin{aligned}𝑦_{′exact}^{}(1) & =−sin⁡(1) \\ & =−0.8415.\end{aligned}
+\begin{aligned}𝑦_{′exact}(1) & =−sin⁡(1) \\ & =−0.8415.\end{aligned}
 
 
 $$
@@ -136,7 +136,7 @@ So, the increment at this step is
 $$
 
 
-\begin{aligned}Δ𝑦 & =𝑦_{′exact}^{}(1)⋅Δ𝑥 \\ & =−0.8415⋅0.2 \\ & ≈−0.1683.\end{aligned}
+\begin{aligned}Δ𝑦 & =𝑦_{′exact}(1)⋅Δ𝑥 \\ & =−0.8415⋅0.2 \\ & ≈−0.1683.\end{aligned}
 
 
 $$
@@ -175,11 +175,11 @@ $$
 
 $$
 
-If the exact solution is $y_{\textrm{exact}}(x) = x^3,$ find an expression for the local truncation error for the step from $x$ to $x_\text{new} = x + \Delta x.$
+If the exact solution is $y_{\text{exact}}(x) = x^3,$ find an expression for the local truncation error for the step from $x$ to $x_\text{new} = x + \Delta x.$
 
 #### Explanation
 
-The local truncation error (LTE) is the error made in a ** of a numerical method, when the step begins from an **. The LTE of a numerical method at step $n$ from $x$ with exact value $y_{\textrm{exact}}(x)$ to $x_\text{new} = x + \Delta x$ is
+The local truncation error (LTE) is the error made in a ** of a numerical method, when the step begins from an **. The LTE of a numerical method at step $n$ from $x$ with exact value $y_{\text{exact}}(x)$ to $x_\text{new} = x + \Delta x$ is
 
 $$
 
@@ -189,14 +189,14 @@ $$
 
 $$
 
-We're given that the exact solution of the initial value problem is $y_{\textrm{exact}}(x) = x^3.$ Now, let's find the $y$-increment given by the numerical method.
+We're given that the exact solution of the initial value problem is $y_{\text{exact}}(x) = x^3.$ Now, let's find the $y$-increment given by the numerical method.
 
 First, the slope at a step starting at $x$ is
 
 $$
 
 
-\begin{aligned}𝑦_{′exact}^{}(𝑥)=(𝑥^{3})^{′}=3𝑥^{2}.\end{aligned}
+\begin{aligned}𝑦_{′exact}(𝑥)=(𝑥^{3})^{′}=3𝑥^{2}.\end{aligned}
 
 
 $$
@@ -206,7 +206,7 @@ So, the increment given by the numerical method is
 $$
 
 
-\begin{aligned}Δ𝑦 & =𝑦_{′exact}^{}(𝑥)⋅Δ𝑥 \\ & =3𝑥^{2}⋅Δ𝑥.\end{aligned}
+\begin{aligned}Δ𝑦 & =𝑦_{′exact}(𝑥)⋅Δ𝑥 \\ & =3𝑥^{2}⋅Δ𝑥.\end{aligned}
 
 
 $$

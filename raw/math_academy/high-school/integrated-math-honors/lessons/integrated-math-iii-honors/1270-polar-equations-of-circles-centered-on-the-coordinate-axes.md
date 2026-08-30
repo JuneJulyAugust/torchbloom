@@ -172,7 +172,7 @@ First, we find the polar coordinates of the point $A.$ The distance from $A$ to 
 $$
 
 
-\begin{aligned}𝑟 & =\sqrt{√𝑥^{2}+𝑦^{2}} \\ & =\sqrt{√(−\frac{7}{2})^{2}+(\frac{7}{2})^{2}} \\ & =\sqrt{√2(\frac{7}{2})^{2}} \\ & =\frac{7\sqrt{√2}}{2}.\end{aligned}
+\begin{aligned}𝑟 & =\sqrt{𝑥^{2}+𝑦^{2}} \\ & =\sqrt{(−\frac{7}{2})^{2}+(\frac{7}{2})^{2}} \\ & =\sqrt{2(\frac{7}{2})^{2}} \\ & =\frac{7\sqrt{2}}{2}.\end{aligned}
 
 
 $$
@@ -194,7 +194,7 @@ To find the value of $k$, we substitute the polar coordinates of the point $A$ i
 $$
 
 
-\begin{aligned}𝑟 & =𝑘cos⁡𝜃 \\ \frac{7\sqrt{√2}}{2} & =𝑘cos⁡(\frac{3𝜋}{4}) \\ \frac{7\sqrt{√2}}{2} & =𝑘(−\frac{\sqrt{√2}}{2}) \\ 𝑘 & =−7\end{aligned}
+\begin{aligned}𝑟 & =𝑘cos⁡𝜃 \\ \frac{7\sqrt{2}}{2} & =𝑘cos⁡(\frac{3𝜋}{4}) \\ \frac{7\sqrt{2}}{2} & =𝑘(−\frac{\sqrt{2}}{2}) \\ 𝑘 & =−7\end{aligned}
 
 
 $$

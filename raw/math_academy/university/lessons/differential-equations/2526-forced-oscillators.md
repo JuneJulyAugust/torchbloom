@@ -46,7 +46,7 @@ y_c=A\cos(2 t) + B\sin(2 t).
 
 $$
 
-The forcing function $f(t) = \cos(2t)$ has the same frequency as the complementary solution above (both have a frequency of $\Omega = 2 \, \textrm{s}^{-1}$), so the system experiences *resonance*. As a result, the particular solution
+The forcing function $f(t) = \cos(2t)$ has the same frequency as the complementary solution above (both have a frequency of $\Omega = 2 \, \text{s}^{-1}$), so the system experiences *resonance*. As a result, the particular solution
 
 $$
 
@@ -188,7 +188,7 @@ $$
 
 #### Question
 
-A particle of mass $3\,\textrm{kg}$ is attached to a massless spring. The spring constant associated with the spring is $k = 6\, \textrm{kg/s}^2.$ The particle is also subject to the resistive force that's proportional to the particle's velocity with a damping coefficient $c = 9\, \textrm{kg/s},$ and an external force given by $F(t)=3t^2\,\textrm{N}.$
+A particle of mass $3\,\text{kg}$ is attached to a massless spring. The spring constant associated with the spring is $k = 6\, \text{kg/s}^2.$ The particle is also subject to the resistive force that's proportional to the particle's velocity with a damping coefficient $c = 9\, \text{kg/s},$ and an external force given by $F(t)=3t^2\,\text{N}.$
 
 The position of the particle is $y(t)$ (measured in meters), and $t>0$ is the time in seconds. If the particle moves with forced harmonic motion, what is the governing equation?
 
@@ -254,7 +254,7 @@ y'' + by' + \omega^2 y = f(t),
 
 $$
 
-if the roots of the characteristic equation are $\lambda = p \pm \textrm{i}q,$ then the complementary solution can be written in three different forms:
+if the roots of the characteristic equation are $\lambda = p \pm \text{i}q,$ then the complementary solution can be written in three different forms:
 
 1. $y_c = R e^{p t} \cos{(q t + \phi_1)}$
 

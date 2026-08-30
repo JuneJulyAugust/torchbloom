@@ -62,7 +62,7 @@ $$
 
 This gives us the residue of $3n$ modulo $6{:}$
 
-*Hence, we have that $3n \textrm{mod} 6 = 5.$*
+*Hence, we have that $3n \text{mod} 6 = 5.$*
 
 Now, let's calculate all possible residues of $3n$ modulo $6.$ To do that, we substitute $n=0,1,\ldots,5$ into $3n$ and compute the residues:
 
@@ -81,12 +81,12 @@ Notice that there are only two residues possible. So, we proceed as follows:
 $$
 
 
-3n \textrm{ mod } 6 \in \{ 0, 3\}.
+3n \text{ mod } 6 \in \{ 0, 3\}.
 
 
 $$
 
-*But this is a contradiction since $3n \textrm{mod} 6 = 5$ by assumption.*
+*But this is a contradiction since $3n \text{mod} 6 = 5$ by assumption.*
 
 Since we have a contradiction, our original assumption must be incorrect. Hence, we write our conclusion as follows:
 
@@ -114,19 +114,19 @@ $$
 
 $$
 
-*Hence, we have that $3n \textrm{mod} 6 = 5.$*
+*Hence, we have that $3n \text{mod} 6 = 5.$*
 
 *However, substituting $n=0,1,\ldots,5$ into the expression $3n,$ we obtain that*
 
 $$
 
 
-3n \textrm{ mod } 6 \in \{ 0, 3\}.
+3n \text{ mod } 6 \in \{ 0, 3\}.
 
 
 $$
 
-*But this is a contradiction since $3n \textrm{mod} 6 = 5$ by assumption.*
+*But this is a contradiction since $3n \text{mod} 6 = 5$ by assumption.*
 
 *Therefore, we conclude that $6 \not\mid (3n+1).$*
 
@@ -136,7 +136,7 @@ $$
 
 Prove by contradiction that $60 \not\mid (45n-19)$ for any $n\in\mathbb Z.$
 
-You may assume without proof that $45n \textrm{mod} 60 \in \{0,15,30,45\}$ for all $n.$
+You may assume without proof that $45n \text{mod} 60 \in \{0,15,30,45\}$ for all $n.$
 
 #### Explanation
 
@@ -178,7 +178,7 @@ $$
 
 This gives us the residue of $45n$ modulo $60{:}$
 
-Hence, we have that $45n \textrm{mod} 60=19.$
+Hence, we have that $45n \text{mod} 60=19.$
 
 We're given the set of all possible residues for $45n$ modulo $60.$ Let's call this set $R.$
 
@@ -187,7 +187,7 @@ We're given that
 $$
 
 
-45n \textrm{ mod } 60 \in R = \big\{ 0,15,30,45 \big\}.
+45n \text{ mod } 60 \in R = \big\{ 0,15,30,45 \big\}.
 
 
 $$
@@ -246,7 +246,7 @@ $$
 
 This gives us the residue of $14n$ modulo $4{:}$
 
-Hence, we have that $14n \textrm{mod} 4 = 3.$
+Hence, we have that $14n \text{mod} 4 = 3.$
 
 Now, let's calculate all possible residues of $14n$ modulo $4.$ To do that, we substitute $n=0,1,2,3$ into $14n$ and compute the residues:
 
@@ -265,12 +265,12 @@ However, substituting $n=0,1,2,3$ into the expression $14n,$ we obtain that
 $$
 
 
-14n \textrm{ mod } 4 \in \{ 0,2\}.
+14n \text{ mod } 4 \in \{ 0,2\}.
 
 
 $$
 
-But this is a contradiction since $14n \textrm{mod} 4 = 3$ by assumption.
+But this is a contradiction since $14n \text{mod} 4 = 3$ by assumption.
 
 Since we have a contradiction, our original assumption must be incorrect. Hence, we write our conclusion as follows:
 
@@ -322,7 +322,7 @@ $$
 
 This gives us the residue of $n^4$ modulo $4{:}$
 
-Hence, we have that $n^4 \textrm{mod} 4 = 3.$
+Hence, we have that $n^4 \text{mod} 4 = 3.$
 
 Now, let's calculate all possible residues of $n^4$ modulo $4.$ To do that, we substitute $n=0,1,2,3$ into $n^4$ and compute the residues:
 
@@ -341,12 +341,12 @@ However, substituting $n = 0,1,2,3$ into the expression $n^4,$ we obtain that
 $$
 
 
-n^4 \textrm{ mod } 4 \in R = \{ 0,1\}.
+n^4 \text{ mod } 4 \in R = \{ 0,1\}.
 
 
 $$
 
-But this is a contradiction since $n^4 \textrm{mod} 3 = 3$ by assumption.
+But this is a contradiction since $n^4 \text{mod} 3 = 3$ by assumption.
 
 Since we have a contradiction, our original assumption must be incorrect. Hence, we write our conclusion as follows:
 

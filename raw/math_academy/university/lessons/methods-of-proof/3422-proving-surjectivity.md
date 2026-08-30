@@ -120,7 +120,7 @@ $$
 
 You're given that the function $f: \mathbb{N} \to \mathbb{N}$ defined by $f(x)=4x^2$ is **** surjective. Complete the reasoning in the statement below.
 
-Since $f$ is not surjective, $\boxed{\phantom{\textrm{there exists} n \in \mathbb{N} \textrm{such that} \textrm{for all} m \in \mathbb{N}}}$ $\boxed{\phantom{4x^2 \neq n}}.$
+Since $f$ is not surjective, $\boxed{\phantom{\text{there exists} n \in \mathbb{N} \text{such that} \text{for all} m \in \mathbb{N}}}$ $\boxed{\phantom{4x^2 \neq n}}.$
 
 #### Explanation
 
@@ -146,7 +146,7 @@ $$
 
 Therefore, the correct statement in our case is as follows:
 
-Since $f$ is not surjective, $\boxed{\color{blue}\textrm{there exists} y \in \mathbb{N} \textrm{such that} \textrm{for all} x \in \mathbb{N},}$ $\boxed{\color{blue}4x^2 \neq y}.$
+Since $f$ is not surjective, $\boxed{\color{blue}\text{there exists} y \in \mathbb{N} \text{such that} \text{for all} x \in \mathbb{N},}$ $\boxed{\color{blue}4x^2 \neq y}.$
 
 ### Example: Proving a Function is Surjective
 

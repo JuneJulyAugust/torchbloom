@@ -40,7 +40,7 @@ We can now apply the zero product property, which states that $ab=0$ if and only
 $$
 
 
-x+3 = 0 \quad \textrm{and} \quad \ln x =0.
+x+3 = 0 \quad \text{and} \quad \ln x =0.
 
 
 $$
@@ -84,7 +84,7 @@ We can now apply the zero product property, which states that $ab=0$ if and only
 $$
 
 
-x^2 - x - 2 = 0 \quad \textrm{and} \quad \log_2 (x+1) =0.
+x^2 - x - 2 = 0 \quad \text{and} \quad \log_2 (x+1) =0.
 
 
 $$
@@ -128,7 +128,7 @@ We can now apply the zero product property, which states that $ab=0$ if and only
 $$
 
 
-3x^2 -12 = 0 \quad \textrm{and} \quad \log_3 (4x) =0.
+3x^2 -12 = 0 \quad \text{and} \quad \log_3 (4x) =0.
 
 
 $$

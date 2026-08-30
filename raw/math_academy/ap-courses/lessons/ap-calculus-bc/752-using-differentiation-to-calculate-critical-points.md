@@ -154,7 +154,7 @@ Differentiating $f(x),$ we obtain
 $$
 
 
-\begin{aligned}𝑓^{′}(𝑥) & =\frac{d}{d𝑥}(\sqrt{√3}sin⁡2𝑥−cos⁡2𝑥) \\ & =\sqrt{√3}⋅\frac{d}{d𝑥}(sin⁡2𝑥)−\frac{d}{d𝑥}(cos⁡2𝑥) \\ & =2\sqrt{√3}cos⁡2𝑥+2sin⁡2𝑥.\end{aligned}
+\begin{aligned}𝑓^{′}(𝑥) & =\frac{d}{d𝑥}(\sqrt{3}sin⁡2𝑥−cos⁡2𝑥) \\ & =\sqrt{3}⋅\frac{d}{d𝑥}(sin⁡2𝑥)−\frac{d}{d𝑥}(cos⁡2𝑥) \\ & =2\sqrt{3}cos⁡2𝑥+2sin⁡2𝑥.\end{aligned}
 
 
 $$

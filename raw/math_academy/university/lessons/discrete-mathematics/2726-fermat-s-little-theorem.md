@@ -17,11 +17,11 @@ Topic ID: 2726
 
 We also have the following special case of the theorem:
 
-*$a^{p-1} \equiv 1 \: (\text{mod}\:p)$ for any prime $p$ and any integer $a$ that is coprime with $p,$ i.e. $\textrm{gcd}(a,p)=1.$*
+*$a^{p-1} \equiv 1 \: (\text{mod}\:p)$ for any prime $p$ and any integer $a$ that is coprime with $p,$ i.e. $\text{gcd}(a,p)=1.$*
 
 Fermat's little theorem is useful because it allows us to quickly compute powers of integers modulo a prime number $p.$
 
-For example, let's compute $5^{32} \: \text{mod} \: 7$ using the special case of Fermat's little theorem. First, notice that since $7$ is prime and $\textrm{gcd}(5,7)=1,$ we can indeed apply the theorem. So, we get
+For example, let's compute $5^{32} \: \text{mod} \: 7$ using the special case of Fermat's little theorem. First, notice that since $7$ is prime and $\text{gcd}(5,7)=1,$ we can indeed apply the theorem. So, we get
 
 $$
 
@@ -71,9 +71,9 @@ $a^{p-1} \equiv 1 \: (\text{mod}\:p)$ for any prime $p$ and any integer $a$ that
 
 With that in mind, let's examine each of the given statements.
 
-- Statement I is true. Indeed, $23$ is prime, and $\textrm{gcd}(3,23)=1.$ So, according to the special case of Fermat's little theorem, we have
+- Statement I is true. Indeed, $23$ is prime, and $\text{gcd}(3,23)=1.$ So, according to the special case of Fermat's little theorem, we have
 
-- Statement II false. $17$ is prime, and $\textrm{gcd}(4,17)=1$. So, according to Fermat's little theorem, we have
+- Statement II false. $17$ is prime, and $\text{gcd}(4,17)=1$. So, according to Fermat's little theorem, we have
 
 - Statement III is false. The modulus $15$ is ** prime. So, Fermat's little theorem can't be applied.
 
@@ -91,7 +91,7 @@ The special case of Fermat's little theorem states the following:
 
 $a^{p-1} \equiv 1 \: (\text{mod}\:p)$ for any prime $p$ and any integer $a$ that is coprime with $p.$
 
-First, notice that $7$ is prime and $\textrm{gcd}(4,7)=1.$ So, we can apply the special case of Fermat's little theorem:
+First, notice that $7$ is prime and $\text{gcd}(4,7)=1.$ So, we can apply the special case of Fermat's little theorem:
 
 $$
 
@@ -127,7 +127,7 @@ The special case of Fermat's little theorem states the following:
 
 $a^{p-1} \equiv 1 \: (\text{mod}\:p)$ for any prime $p$ and any integer $a$ that is coprime with $p.$
 
-First, notice that $13$ is prime and $\textrm{gcd}(4,13)=1.$ So, we can apply the special case of Fermat's little theorem:
+First, notice that $13$ is prime and $\text{gcd}(4,13)=1.$ So, we can apply the special case of Fermat's little theorem:
 
 $$
 
@@ -209,7 +209,7 @@ $$
 
 $$
 
-So, we have managed to show that $5^6 \equiv 1\,(\textrm{mod}\, 7).$ Note that we used the division property of modular arithmetic to cancel the large factor from both sides of the congruence.
+So, we have managed to show that $5^6 \equiv 1\,(\text{mod}\, 7).$ Note that we used the division property of modular arithmetic to cancel the large factor from both sides of the congruence.
 
 Note the following:
 

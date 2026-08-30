@@ -28,7 +28,7 @@ The significance level is $\alpha = 5\%.$ Furthermore, we'll assume that events 
 $$
 
 
-X \sim \textrm{Po}(25).
+X \sim \text{Po}(25).
 
 
 $$
@@ -73,7 +73,7 @@ In this case, the population parameter we wish to test is $\lambda,$ the average
 
 - The manager wishes to test the hypothesis that the average number of bicycles rented per day has **. Therefore, the alternative hypothesis is $H_1: \boxed{\color{blue}\lambda > 13}.$
 
-- Under the null hypothesis, the rentals occur independently at a constant average rate of $13$ per day. Therefore, $X\sim \boxed{\color{blue}\textrm{Po}(13)}.$
+- Under the null hypothesis, the rentals occur independently at a constant average rate of $13$ per day. Therefore, $X\sim \boxed{\color{blue}\text{Po}(13)}.$
 
 - The manager conducted an experiment and found that $19$ bicycles were rented on a particular day. Therefore, a suitable test statistic is $P(\boxed{\color{blue}X\geq 19}).$ Note that: Since we wish to test $\lambda > 13,$ this is a **. We're interested in $X\geq 19,$ not just $X=19.$ This is because we also want to include ** events in the right tail that more unlikely than $X=19.$
 
@@ -83,7 +83,7 @@ In this case, the population parameter we wish to test is $\lambda,$ the average
 
 A website has an average visitor rate of $16$ visits per hour. A web designer is asked to rebrand the website, but the designer thinks the requested style will negatively impact the visitor rate. They wish to conduct a hypothesis test at the $10\%$ significance level to test whether the visitor rate has subsequently decreased.
 
-A total of $10$ people visited the website in the first hour after launching the rebranded website. The web designer compares this experimental evidence against a null hypothesis, making use of the cumulative distribution table below, where $X\sim \textrm{Po}(16).$
+A total of $10$ people visited the website in the first hour after launching the rebranded website. The web designer compares this experimental evidence against a null hypothesis, making use of the cumulative distribution table below, where $X\sim \text{Po}(16).$
 
 Assuming the visits occur independently, complete this hypothesis test and state your conclusion.
 
@@ -102,7 +102,7 @@ Under the null hypothesis, the visits occur independently at a constant average 
 $$
 
 
-X\sim \textrm{Po}(16).
+X\sim \text{Po}(16).
 
 
 $$
@@ -123,9 +123,9 @@ Let's interpret this result:
 
 - Since $P(\boxed{\color{blue}X\leq 10}) \boxed{\color{blue}<} 10\%,$ the experimental result is unlikely under the null hypothesis.
 
-- In other words, there is $\boxed{\color{blue}\textrm{sufficient}}$ evidence to reject $H_0.$
+- In other words, there is $\boxed{\color{blue}\text{sufficient}}$ evidence to reject $H_0.$
 
-- Therefore, we $\boxed{\color{blue}\textrm{can conclude}}$ that visitor rate has reduced since the website was rebranded.
+- Therefore, we $\boxed{\color{blue}\text{can conclude}}$ that visitor rate has reduced since the website was rebranded.
 
 ### Example: Conducting a Right-Tailed Test
 
@@ -133,7 +133,7 @@ Let's interpret this result:
 
 A technology company produced an electronic component at an average rate of $20$ units per day. The company then decided to make some mechanical improvements to increase production efficiency. After the improvements were made, the company supervisor conducted a hypothesis test at the $10\%$ significance level to test whether the production rate had increased.
 
-The supervisor noticed that $23$ units were produced on a randomly selected day after the upgrade. He compared this experimental evidence against a null hypothesis, making use of the cumulative distribution table below, where $X \sim \textrm{Po}(20).$
+The supervisor noticed that $23$ units were produced on a randomly selected day after the upgrade. He compared this experimental evidence against a null hypothesis, making use of the cumulative distribution table below, where $X \sim \text{Po}(20).$
 
 Assuming that the production of electronic components occurs independently, complete this hypothesis test and state your conclusion.
 
@@ -152,7 +152,7 @@ Under the null hypothesis, the production of electronic components occurs indepe
 $$
 
 
-X \sim \textrm{Po}(20).
+X \sim \text{Po}(20).
 
 
 $$
@@ -173,9 +173,9 @@ Let's interpret this result:
 
 - Since $P(\boxed{\color{blue}X \geq 23}) \boxed{\color{blue}\gt} 10 \%,$ the experimental result is likely under the null hypothesis.
 
-- In other words, there is $\boxed{\color{blue}\textrm{insufficient}}$ evidence to reject $H_0.$
+- In other words, there is $\boxed{\color{blue}\text{insufficient}}$ evidence to reject $H_0.$
 
-- Therefore, we $\boxed{\color{blue}\textrm{cannot conclude}}$ that the production rate has increased since the improvements to the machines were made.
+- Therefore, we $\boxed{\color{blue}\text{cannot conclude}}$ that the production rate has increased since the improvements to the machines were made.
 
 ### Justification for Using Equality for the Null Hypothesis
 

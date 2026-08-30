@@ -139,7 +139,7 @@ $$
 
 
 
-\begin{aligned} S_{21}&= \dfrac{21}{2}(1+101)\\[3pt] &= \dfrac{21}{2}\cdot 102 \\\[5pt] &= 21\cdot 51 \\\[5pt] &= 1\,071. \end{aligned}
+\begin{aligned} S_{21}&= \dfrac{21}{2}(1+101)\\[3pt] &= \dfrac{21}{2}\cdot 102 \\[5pt] &= 21\cdot 51 \\[5pt] &= 1\,071. \end{aligned}
 
 
 

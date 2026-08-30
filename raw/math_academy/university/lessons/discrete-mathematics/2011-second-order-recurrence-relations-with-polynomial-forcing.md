@@ -174,7 +174,7 @@ $$
 
 
 
-\begin{aligned}𝑎_{𝑛} & =𝑎_{(ℎ)𝑛}^{}+𝑎_{(𝑝)𝑛}^{} \\ & =𝐴⋅(−3)^{𝑛}+𝐵⋅(−2)^{𝑛}+\frac{1}{6}.\end{aligned}
+\begin{aligned}𝑎_{𝑛} & =𝑎_{(ℎ)𝑛}+𝑎_{(𝑝)𝑛} \\ & =𝐴⋅(−3)^{𝑛}+𝐵⋅(−2)^{𝑛}+\frac{1}{6}.\end{aligned}
 
 
 
@@ -290,7 +290,7 @@ $$
 
 
 
-\begin{aligned}𝑎_{𝑛} & =𝑎_{(ℎ)𝑛}^{}+𝑎_{(𝑝)𝑛}^{} \\ & =𝐴⋅3^{𝑛}+𝐵𝑛⋅3^{𝑛}+2.\end{aligned}
+\begin{aligned}𝑎_{𝑛} & =𝑎_{(ℎ)𝑛}+𝑎_{(𝑝)𝑛} \\ & =𝐴⋅3^{𝑛}+𝐵𝑛⋅3^{𝑛}+2.\end{aligned}
 
 
 
@@ -382,7 +382,7 @@ $$
 
 
 
-\begin{aligned}\begin{aligned}−9𝛼=9\, & (equating the coefficients of\,\,𝑛) \\ 18𝛼−9𝛽=0\, & (equating the constants)\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}−9𝛼=9\, & (equating the coefficients of\,\,𝑛) \\ 18𝛼−9𝛽=0\, & (equating the constants)\end{matrix}\end{aligned}
 
 
 
@@ -500,7 +500,7 @@ $$
 
 
 
-\begin{aligned}𝑎_{𝑛} & =𝑎_{(ℎ)𝑛}^{}+𝑎_{(𝑝)𝑛}^{} \\ & =𝐴⋅(−2)^{𝑛}+𝐵𝑛⋅(−2)^{𝑛}+2.\end{aligned}
+\begin{aligned}𝑎_{𝑛} & =𝑎_{(ℎ)𝑛}+𝑎_{(𝑝)𝑛} \\ & =𝐴⋅(−2)^{𝑛}+𝐵𝑛⋅(−2)^{𝑛}+2.\end{aligned}
 
 
 

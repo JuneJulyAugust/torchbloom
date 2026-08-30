@@ -17,7 +17,7 @@ Recall that the line integral with respect to arc length of a function $f(x,y)$ 
 $$
 
 
-\int\limits_C f(x, y) \, \textrm{d}s = \int\limits_{t_a}^{t_b} f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \textrm{d}t,
+\int\limits_C f(x, y) \, \text{d}s = \int\limits_{t_a}^{t_b} f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \text{d}t,
 
 
 $$
@@ -91,7 +91,7 @@ We will use the formula
 $$
 
 
-\int\limits_C f(x, y) \, \textrm{d}s = \int\limits_{t_a}^{t_b} f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \textrm{d}t,
+\int\limits_C f(x, y) \, \text{d}s = \int\limits_{t_a}^{t_b} f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \text{d}t,
 
 
 $$
@@ -115,7 +115,7 @@ Computing $\mathbf{r}'(t)$ and $\| \mathbf{r}'(t) \|,$ we get the following:
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑡) & =\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣 \\ & =\frac{d}{d𝑡}(1)𝐢+\frac{d}{d𝑡}(𝑡)𝐣 \\ & =0\,𝐢+𝐣 \\ & =𝐣 \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{√(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}} \\ & =\sqrt{√0^{2}+1^{2}} \\ & =1\end{aligned}
+\begin{aligned}𝐫^{′}(𝑡) & =\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣 \\ & =\frac{d}{d𝑡}(1)𝐢+\frac{d}{d𝑡}(𝑡)𝐣 \\ & =0\,𝐢+𝐣 \\ & =𝐣 \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}} \\ & =\sqrt{0^{2}+1^{2}} \\ & =1\end{aligned}
 
 
 $$
@@ -135,7 +135,7 @@ Therefore, we can write the integral as
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}𝑓(𝑥,𝑦)\,d𝑠 & =∫_{10}^{}𝑓(𝐫(𝑡))\,‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{10}^{}(1+sin⁡𝑡)⋅1⋅d𝑡 \\ & =∫_{10}^{}(1+sin⁡𝑡)d𝑡.\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}𝑓(𝑥,𝑦)\,d𝑠 & =∫_{10}𝑓(𝐫(𝑡))\,‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{10}(1+sin⁡𝑡)⋅1⋅d𝑡 \\ & =∫_{10}(1+sin⁡𝑡)d𝑡.\end{aligned}
 
 
 $$
@@ -153,7 +153,7 @@ We will use the formula
 $$
 
 
-\int\limits_C f(x, y) \, \textrm{d}s = \int\limits_{t_a}^{t_b} f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \textrm{d}t,
+\int\limits_C f(x, y) \, \text{d}s = \int\limits_{t_a}^{t_b} f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \text{d}t,
 
 
 $$
@@ -177,7 +177,7 @@ Computing $\mathbf{r}'(t)$ and $\| \mathbf{r}'(t) \|,$ we get the following:
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑡) & =\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣 \\ & =\frac{d}{d𝑡}(2𝑡)𝐢+\frac{d}{d𝑡}(3)𝐣 \\ & =2\,𝐢 \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{√(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}} \\ & =\sqrt{√2^{2}+0^{2}} \\ & =2\end{aligned}
+\begin{aligned}𝐫^{′}(𝑡) & =\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣 \\ & =\frac{d}{d𝑡}(2𝑡)𝐢+\frac{d}{d𝑡}(3)𝐣 \\ & =2\,𝐢 \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}} \\ & =\sqrt{2^{2}+0^{2}} \\ & =2\end{aligned}
 
 
 $$
@@ -197,7 +197,7 @@ Therefore, we can write the integral as
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}𝑒^{𝑥+𝑦}\,d𝑠 & =∫_{10}^{}𝑓(𝐫(𝑡))\,‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{10}^{}𝑒^{2𝑡+3}⋅2⋅d𝑡 \\ & =2∫_{10}^{}𝑒^{2𝑡+3}\,d𝑡.\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}𝑒^{𝑥+𝑦}\,d𝑠 & =∫_{10}𝑓(𝐫(𝑡))\,‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{10}𝑒^{2𝑡+3}⋅2⋅d𝑡 \\ & =2∫_{10}𝑒^{2𝑡+3}\,d𝑡.\end{aligned}
 
 
 $$
@@ -207,7 +207,7 @@ We can solve this using the substitution $u=2t+3,$ $\textrm d u=2\,\textrm d t$ 
 $$
 
 
-\begin{aligned}2∫_{10}^{}𝑒^{2𝑡+3}\,d𝑡 & =∫_{53}^{}𝑒^{𝑢}\,d𝑢 \\ & =𝑒^{𝑢}\,_{53}^{} \\ & =𝑒^{5}−𝑒^{3} \\ & =𝑒^{3}(𝑒^{2}−1)\end{aligned}
+\begin{aligned}2∫_{10}𝑒^{2𝑡+3}\,d𝑡 & =∫_{53}𝑒^{𝑢}\,d𝑢 \\ & =𝑒^{𝑢}\,_{53} \\ & =𝑒^{5}−𝑒^{3} \\ & =𝑒^{3}(𝑒^{2}−1)\end{aligned}
 
 
 $$
@@ -225,7 +225,7 @@ We will use the formula
 $$
 
 
-\int\limits_C f(x,y,z) \, \textrm{d}s = \int\limits_{t_a}^{t_b} f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \textrm{d}t,
+\int\limits_C f(x,y,z) \, \text{d}s = \int\limits_{t_a}^{t_b} f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \text{d}t,
 
 
 $$
@@ -249,7 +249,7 @@ Computing $\mathbf{r}'(t)$ and $\| \mathbf{r}'(t) \|,$ we get the following:
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑡) & =\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣+\frac{d𝑧}{d𝑡}\,𝐤 \\ & =\frac{d}{d𝑡}(−𝑡)𝐢+\frac{d}{d𝑡}(𝑡+1)𝐣+\frac{d}{d𝑡}(𝑡−3)𝐤 \\ & =−𝐢+𝐣+𝐤 \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{√(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}+(\frac{d𝑧}{d𝑡})^{2}} \\ & =\sqrt{√(−1)^{2}+1^{2}+1^{2}} \\ & =\sqrt{√3}\end{aligned}
+\begin{aligned}𝐫^{′}(𝑡) & =\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣+\frac{d𝑧}{d𝑡}\,𝐤 \\ & =\frac{d}{d𝑡}(−𝑡)𝐢+\frac{d}{d𝑡}(𝑡+1)𝐣+\frac{d}{d𝑡}(𝑡−3)𝐤 \\ & =−𝐢+𝐣+𝐤 \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}+(\frac{d𝑧}{d𝑡})^{2}} \\ & =\sqrt{(−1)^{2}+1^{2}+1^{2}} \\ & =\sqrt{3}\end{aligned}
 
 
 $$
@@ -269,7 +269,7 @@ Therefore, we can write the integral as
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}𝑓(𝑥,𝑦)\,d𝑠 & =∫_{10}^{}𝑓(𝐫(𝑡))\,‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{10}^{}(𝑡^{2}+4)⋅\sqrt{√3}⋅d𝑡 \\ & =\sqrt{√3}∫_{10}^{}(𝑡^{2}+4)\,d𝑡.\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}𝑓(𝑥,𝑦)\,d𝑠 & =∫_{10}𝑓(𝐫(𝑡))\,‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{10}(𝑡^{2}+4)⋅\sqrt{3}⋅d𝑡 \\ & =\sqrt{3}∫_{10}(𝑡^{2}+4)\,d𝑡.\end{aligned}
 
 
 $$

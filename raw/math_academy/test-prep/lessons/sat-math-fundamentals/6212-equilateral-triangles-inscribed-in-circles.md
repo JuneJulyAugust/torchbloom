@@ -103,7 +103,7 @@ Recall that, in any $30$-$60$-$90$ triangle, the longer leg is $\dfrac{\sqrt{3}}
 $$
 
 
-\begin{aligned}𝑥 & =𝑟⋅\frac{\sqrt{√3}}{2} \\ & =11⋅\frac{\sqrt{√3}}{2} \\ & =\frac{11\sqrt{√3}}{2}.\end{aligned}
+\begin{aligned}𝑥 & =𝑟⋅\frac{\sqrt{3}}{2} \\ & =11⋅\frac{\sqrt{3}}{2} \\ & =\frac{11\sqrt{3}}{2}.\end{aligned}
 
 
 $$
@@ -147,7 +147,7 @@ Next, in the $30$-$60$-$90$ triangle, the longer leg is $\dfrac{\sqrt{3}}{2}$ ti
 $$
 
 
-\begin{aligned}𝑥 & =𝑟⋅\frac{\sqrt{√3}}{2} \\ & =6⋅\frac{\sqrt{√3}}{2} \\ & =3\sqrt{√3}\end{aligned}
+\begin{aligned}𝑥 & =𝑟⋅\frac{\sqrt{3}}{2} \\ & =6⋅\frac{\sqrt{3}}{2} \\ & =3\sqrt{3}\end{aligned}
 
 
 $$
@@ -167,7 +167,7 @@ and the corresponding area of the triangle is
 $$
 
 
-\begin{aligned}A & =\frac{\sqrt{√3}}{4}𝑠^{2} \\ & =\frac{\sqrt{√3}}{4}(6\sqrt{√3})^{2} \\ & =\frac{\sqrt{√3}}{4}⋅108 \\ & =27\sqrt{√3}\,m^{2}.\end{aligned}
+\begin{aligned}A & =\frac{\sqrt{3}}{4}𝑠^{2} \\ & =\frac{\sqrt{3}}{4}(6\sqrt{3})^{2} \\ & =\frac{\sqrt{3}}{4}⋅108 \\ & =27\sqrt{3}\,m^{2}.\end{aligned}
 
 
 $$
@@ -199,7 +199,7 @@ Finally, in a $30$-$60$-$90$ triangle, the longer leg is $\dfrac{\sqrt{3}}{2}$ t
 $$
 
 
-\begin{aligned}𝑥 & =𝑟⋅\frac{\sqrt{√3}}{2} \\ 13.5 & =𝑟⋅\frac{\sqrt{√3}}{2} \\ 𝑟 & =\frac{2}{\sqrt{√3}}⋅13.5 \\ & =\frac{27}{\sqrt{√3}} \\ & =\frac{27}{\sqrt{√3}}⋅\frac{\sqrt{√3}}{\sqrt{√3}} \\ & =\frac{27\sqrt{√3}}{3} \\ & =9\sqrt{√3}.\end{aligned}
+\begin{aligned}𝑥 & =𝑟⋅\frac{\sqrt{3}}{2} \\ 13.5 & =𝑟⋅\frac{\sqrt{3}}{2} \\ 𝑟 & =\frac{2}{\sqrt{3}}⋅13.5 \\ & =\frac{27}{\sqrt{3}} \\ & =\frac{27}{\sqrt{3}}⋅\frac{\sqrt{3}}{\sqrt{3}} \\ & =\frac{27\sqrt{3}}{3} \\ & =9\sqrt{3}.\end{aligned}
 
 
 $$

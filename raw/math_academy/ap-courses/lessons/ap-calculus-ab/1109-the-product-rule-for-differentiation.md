@@ -101,7 +101,7 @@ If $y = u(x) \cdot v(x),$ then
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x} = \dfrac{\textrm{d}u}{\textrm{d}x} \cdot v + u \cdot \dfrac{\textrm{d}v}{\textrm{d}x}
+\dfrac{\text{d}y}{\text{d}x} = \dfrac{\text{d}u}{\text{d}x} \cdot v + u \cdot \dfrac{\text{d}v}{\text{d}x}
 
 
 $$

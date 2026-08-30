@@ -69,7 +69,7 @@ Using the properties of addition/subtraction and scalar multiplication of vector
 $$
 
 
-\begin{aligned}3𝐚_{𝟏}+𝑠𝐚_{𝟐} & =𝐛 \\ 3\begin{aligned}−1 \\ 2 \\ 1\end{aligned}+𝑠\begin{aligned}4 \\ 0 \\ −2\end{aligned} & =\begin{aligned}13 \\ 6 \\ −5\end{aligned} \\ 𝑠\begin{aligned}4 \\ 0 \\ −2\end{aligned} & =\begin{aligned}13 \\ 6 \\ −5\end{aligned}−3\begin{aligned}−1 \\ 2 \\ 1\end{aligned} \\ 𝑠\begin{aligned}4 \\ 0 \\ −2\end{aligned} & =\begin{aligned}16 \\ 0 \\ −8\end{aligned}.\end{aligned}
+\begin{aligned}3𝐚_{𝟏}+𝑠𝐚_{𝟐} & =𝐛 \\ 3\begin{matrix}−1 \\ 2 \\ 1\end{matrix}+𝑠\begin{matrix}4 \\ 0 \\ −2\end{matrix} & =\begin{matrix}13 \\ 6 \\ −5\end{matrix} \\ 𝑠\begin{matrix}4 \\ 0 \\ −2\end{matrix} & =\begin{matrix}13 \\ 6 \\ −5\end{matrix}−3\begin{matrix}−1 \\ 2 \\ 1\end{matrix} \\ 𝑠\begin{matrix}4 \\ 0 \\ −2\end{matrix} & =\begin{matrix}16 \\ 0 \\ −8\end{matrix}.\end{aligned}
 
 
 $$
@@ -97,7 +97,7 @@ Using the properties of addition/subtraction and scalar multiplication of vector
 $$
 
 
-\begin{aligned}𝐚+2𝐱 & =𝐛 \\ 2𝐱 & =𝐛−𝐚 \\ 𝐱 & =\frac{1}{2}(𝐛−𝐚) \\ 𝐱 & =\frac{1}{2}\begin{aligned}24 \\ −9 \\ 13\end{aligned}−\begin{aligned}12 \\ −11 \\ −5\end{aligned} \\ 𝐱 & =\frac{1}{2}\begin{aligned}12 \\ 2 \\ 18\end{aligned} \\ 𝐱 & =\begin{aligned}6 \\ 1 \\ 9\end{aligned}.\end{aligned}
+\begin{aligned}𝐚+2𝐱 & =𝐛 \\ 2𝐱 & =𝐛−𝐚 \\ 𝐱 & =\frac{1}{2}(𝐛−𝐚) \\ 𝐱 & =\frac{1}{2}\begin{matrix}24 \\ −9 \\ 13\end{matrix}−\begin{matrix}12 \\ −11 \\ −5\end{matrix} \\ 𝐱 & =\frac{1}{2}\begin{matrix}12 \\ 2 \\ 18\end{matrix} \\ 𝐱 & =\begin{matrix}6 \\ 1 \\ 9\end{matrix}.\end{aligned}
 
 
 $$
@@ -125,7 +125,7 @@ If $x_1 \mathbf{c}_1 + x_2\mathbf{c}_2 = \mathbf d,$ then we have
 $$
 
 
-\begin{aligned}𝑥_{1}\begin{aligned}4 \\ −1 \\ 3\end{aligned}+𝑥_{2}\begin{aligned}1 \\ 0 \\ 1\end{aligned} & =\begin{aligned}5 \\ −5 \\ 0\end{aligned} \\ \begin{aligned}4𝑥_{1}+𝑥_{2} \\ −𝑥_{1} \\ 3𝑥_{1}+𝑥_{2}\end{aligned} & =\begin{aligned}5 \\ −5 \\ 0\end{aligned}.\end{aligned}
+\begin{aligned}𝑥_{1}\begin{matrix}4 \\ −1 \\ 3\end{matrix}+𝑥_{2}\begin{matrix}1 \\ 0 \\ 1\end{matrix} & =\begin{matrix}5 \\ −5 \\ 0\end{matrix} \\ \begin{matrix}4𝑥_{1}+𝑥_{2} \\ −𝑥_{1} \\ 3𝑥_{1}+𝑥_{2}\end{matrix} & =\begin{matrix}5 \\ −5 \\ 0\end{matrix}.\end{aligned}
 
 
 $$
@@ -205,7 +205,7 @@ Since $\mathbf{b}$ is a linear combination of vectors $\mathbf{a_1}, \,\mathbf{a
 $$
 
 
-\begin{aligned}𝑥_{1}𝐚_{𝟏}+𝑥_{2}𝐚_{𝟐}+𝑥_{3}𝐚_{𝟑} & =𝐛 \\ 𝑥_{1}\begin{aligned}0 \\ 1 \\ 0\end{aligned}+𝑥_{2}\begin{aligned}1 \\ 0 \\ −1\end{aligned}+𝑥_{3}\begin{aligned}1 \\ 2 \\ 3\end{aligned} & =\begin{aligned}1 \\ 1 \\ 7\end{aligned} \\ \begin{aligned}0 \\ 𝑥_{1} \\ 0\end{aligned}+\begin{aligned}𝑥_{2} \\ 0 \\ −𝑥_{2}\end{aligned}+\begin{aligned}𝑥_{3} \\ 2𝑥_{3} \\ 3𝑥_{3}\end{aligned} & =\begin{aligned}1 \\ 1 \\ 7\end{aligned} \\ \begin{aligned}𝑥_{2}+𝑥_{3} \\ 𝑥_{1}+2𝑥_{3} \\ −𝑥_{2}+3𝑥_{3}\end{aligned} & =\begin{aligned}1 \\ 1 \\ 7\end{aligned}.\end{aligned}
+\begin{aligned}𝑥_{1}𝐚_{𝟏}+𝑥_{2}𝐚_{𝟐}+𝑥_{3}𝐚_{𝟑} & =𝐛 \\ 𝑥_{1}\begin{matrix}0 \\ 1 \\ 0\end{matrix}+𝑥_{2}\begin{matrix}1 \\ 0 \\ −1\end{matrix}+𝑥_{3}\begin{matrix}1 \\ 2 \\ 3\end{matrix} & =\begin{matrix}1 \\ 1 \\ 7\end{matrix} \\ \begin{matrix}0 \\ 𝑥_{1} \\ 0\end{matrix}+\begin{matrix}𝑥_{2} \\ 0 \\ −𝑥_{2}\end{matrix}+\begin{matrix}𝑥_{3} \\ 2𝑥_{3} \\ 3𝑥_{3}\end{matrix} & =\begin{matrix}1 \\ 1 \\ 7\end{matrix} \\ \begin{matrix}𝑥_{2}+𝑥_{3} \\ 𝑥_{1}+2𝑥_{3} \\ −𝑥_{2}+3𝑥_{3}\end{matrix} & =\begin{matrix}1 \\ 1 \\ 7\end{matrix}.\end{aligned}
 
 
 $$
@@ -235,7 +235,7 @@ Row-reducing the augmented matrix, we get
 $$
 
 
-\begin{aligned}𝑀 & =\begin{aligned}0 & 1 & 1 & 1 \\ 1 & 0 & 2 & 1 \\ 0 & −1 & 3 & 7\end{aligned} & 𝑅_{1} & ↔𝑅_{2} \\ & ∼\begin{aligned}1 & 0 & 2 & 1 \\ 0 & 1 & 1 & 1 \\ 0 & −1 & 3 & 7\end{aligned} & 𝑅_{3} & :=𝑅_{3}+𝑅_{2} \\ & ∼\begin{aligned}1 & 0 & 2 & 1 \\ 0 & 1 & 1 & 1 \\ 0 & 0 & 4 & 8\end{aligned} & 𝑅_{3} & :=\frac{1}{4}𝑅_{3} \\ & ∼\begin{aligned}1 & 0 & 2 & 1 \\ 0 & 1 & 1 & 1 \\ 0 & 0 & 1 & 2\end{aligned}. & & \end{aligned}
+\begin{aligned}𝑀 & =\begin{matrix}0 & 1 & 1 & 1 \\ 1 & 0 & 2 & 1 \\ 0 & −1 & 3 & 7\end{matrix} & 𝑅_{1} & ↔𝑅_{2} \\ & ∼\begin{matrix}1 & 0 & 2 & 1 \\ 0 & 1 & 1 & 1 \\ 0 & −1 & 3 & 7\end{matrix} & 𝑅_{3} & :=𝑅_{3}+𝑅_{2} \\ & ∼\begin{matrix}1 & 0 & 2 & 1 \\ 0 & 1 & 1 & 1 \\ 0 & 0 & 4 & 8\end{matrix} & 𝑅_{3} & :=\frac{1}{4}𝑅_{3} \\ & ∼\begin{matrix}1 & 0 & 2 & 1 \\ 0 & 1 & 1 & 1 \\ 0 & 0 & 1 & 2\end{matrix}. & & \end{aligned}
 
 
 $$

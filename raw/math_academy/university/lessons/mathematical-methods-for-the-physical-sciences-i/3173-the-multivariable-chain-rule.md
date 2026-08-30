@@ -18,7 +18,7 @@ The chain rule for single variable functions $f=f(x)$ and $x=x(t)$ states that
 $$
 
 
-\dfrac{\textrm{d}f}{\textrm{d}t} = \dfrac{\textrm{d}f}{\textrm{d}x} \cdot \dfrac{\textrm{d}x}{\textrm{d}t}.
+\dfrac{\text{d}f}{\text{d}t} = \dfrac{\text{d}f}{\text{d}x} \cdot \dfrac{\text{d}x}{\text{d}t}.
 
 
 $$
@@ -41,12 +41,12 @@ Then, traversing each branch, we compute the product of the derivatives along ea
 
 ![Instructional graphic](../../../lesson-assets/mathematical-methods-for-the-physical-sciences-i/topic-3173/c8ba8fd1aded0f43.png)
 
-Finally, to find $\dfrac{\textrm{d}f}{\textrm{d}t},$ we sum the results for each branch:
+Finally, to find $\dfrac{\text{d}f}{\text{d}t},$ we sum the results for each branch:
 
 $$
 
 
-\dfrac{\textrm{d}f}{\textrm{d}t} = \dfrac{\partial f}{\partial x} \cdot \dfrac{\textrm{d}x}{\textrm{d}t} + \dfrac{\partial f}{\partial y} \cdot \dfrac{\textrm{d}y}{\textrm{d}t}
+\dfrac{\text{d}f}{\text{d}t} = \dfrac{\partial f}{\partial x} \cdot \dfrac{\text{d}x}{\text{d}t} + \dfrac{\partial f}{\partial y} \cdot \dfrac{\text{d}y}{\text{d}t}
 
 
 $$
@@ -57,7 +57,7 @@ This result is called the **multivariable chain rule**.
 
 #### Question
 
-If $f(x,y)=\cos(xy), x=t,$ and $y=e^t,$ compute $\dfrac{\textrm{d}f}{\textrm{d}t}.$
+If $f(x,y)=\cos(xy), x=t,$ and $y=e^t,$ compute $\dfrac{\text{d}f}{\text{d}t}.$
 
 #### Explanation
 
@@ -68,7 +68,7 @@ The chain rule for a multivariable function $f(x,y)$ with one independent variab
 $$
 
 
-\dfrac{\textrm{d}f}{\textrm{d}t} = \dfrac{\partial f}{\partial x}\cdot \dfrac{\textrm{d}x}{\textrm{d}t} + \dfrac{\partial f}{\partial y}\cdot \dfrac{\textrm{d}y}{\textrm{d}t}
+\dfrac{\text{d}f}{\text{d}t} = \dfrac{\partial f}{\partial x}\cdot \dfrac{\text{d}x}{\text{d}t} + \dfrac{\partial f}{\partial y}\cdot \dfrac{\text{d}y}{\text{d}t}
 
 
 $$
@@ -131,7 +131,7 @@ $$
 
 #### Question
 
-If $f(x,y) = 2\sqrt{x+y}$ and $y=\cos x,$ compute $\dfrac{\textrm{d}f}{\textrm{d}x}.$
+If $f(x,y) = 2\sqrt{x+y}$ and $y=\cos x,$ compute $\dfrac{\text{d}f}{\text{d}x}.$
 
 #### Explanation
 
@@ -140,7 +140,7 @@ The chain rule for a multivariable function $f(x,y)$ in the case where $y = y(x)
 $$
 
 
-\dfrac{\textrm{d}f}{\textrm{d}x} = \dfrac{\partial f}{\partial x} + \dfrac{\partial f}{\partial y}\cdot \dfrac{\textrm{d}y}{\textrm{d}x}
+\dfrac{\text{d}f}{\text{d}x} = \dfrac{\partial f}{\partial x} + \dfrac{\partial f}{\partial y}\cdot \dfrac{\text{d}y}{\text{d}x}
 
 
 $$
@@ -150,7 +150,7 @@ First, we find the partial derivatives of $f$ with respect to $x$ and $y\mathbin
 $$
 
 
-\begin{aligned}\frac{𝜕𝑓}{𝜕𝑥}=\frac{1}{\sqrt{√𝑥+𝑦}},\,\frac{𝜕𝑓}{𝜕𝑦}=\frac{1}{\sqrt{√𝑥+𝑦}}\end{aligned}
+\begin{aligned}\frac{𝜕𝑓}{𝜕𝑥}=\frac{1}{\sqrt{𝑥+𝑦}},\,\frac{𝜕𝑓}{𝜕𝑦}=\frac{1}{\sqrt{𝑥+𝑦}}\end{aligned}
 
 
 $$
@@ -160,7 +160,7 @@ Writing the above results in terms of $x,$ we get
 $$
 
 
-\begin{aligned}\frac{𝜕𝑓}{𝜕𝑥}=\frac{𝜕𝑓}{𝜕𝑦} & =\frac{1}{\sqrt{√𝑥+cos⁡𝑥}}.\end{aligned}
+\begin{aligned}\frac{𝜕𝑓}{𝜕𝑥}=\frac{𝜕𝑓}{𝜕𝑦} & =\frac{1}{\sqrt{𝑥+cos⁡𝑥}}.\end{aligned}
 
 
 $$
@@ -180,7 +180,7 @@ Finally, putting the derivatives into the multivariable chain rule, we get
 $$
 
 
-\begin{aligned}\frac{d𝑓}{d𝑥} & =\frac{1}{\sqrt{√𝑥+cos⁡𝑥}}+\frac{1}{\sqrt{√𝑥+cos⁡𝑥}}⋅(−sin⁡𝑥) \\ & =\frac{1}{\sqrt{√𝑥+cos⁡𝑥}}−\frac{sin⁡𝑥}{\sqrt{√𝑥+cos⁡𝑥}} \\ & =\frac{1−sin⁡𝑥}{\sqrt{√𝑥+cos⁡𝑥}}.\end{aligned}
+\begin{aligned}\frac{d𝑓}{d𝑥} & =\frac{1}{\sqrt{𝑥+cos⁡𝑥}}+\frac{1}{\sqrt{𝑥+cos⁡𝑥}}⋅(−sin⁡𝑥) \\ & =\frac{1}{\sqrt{𝑥+cos⁡𝑥}}−\frac{sin⁡𝑥}{\sqrt{𝑥+cos⁡𝑥}} \\ & =\frac{1−sin⁡𝑥}{\sqrt{𝑥+cos⁡𝑥}}.\end{aligned}
 
 
 $$

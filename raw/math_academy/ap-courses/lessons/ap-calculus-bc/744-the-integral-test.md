@@ -22,7 +22,7 @@ The **integral test** is used to determine whether an infinite series $\displays
 $$
 
 
-\int_1^\infty f(x) \: \textrm{d}x
+\int_1^\infty f(x) \: \text{d}x
 
 
 $$
@@ -54,7 +54,7 @@ We can compare it to the integral
 $$
 
 
-\int_1^\infty \dfrac {1} {x^{3/2}} \: \textrm{d}x.
+\int_1^\infty \dfrac {1} {x^{3/2}} \: \text{d}x.
 
 
 $$
@@ -64,7 +64,7 @@ Here, $f(x) = \dfrac{1}{x^{3/2}}$ is a positive, continuous, and decreasing func
 $$
 
 
-\begin{aligned}∫_{∞1}^{}\frac{1}{𝑥^{3/2}}\,d𝑥 & =\underset{𝑏→∞}{lim}∫_{𝑏1}^{}\frac{1}{𝑥^{3/2}}\,d𝑥 \\ & =\underset{𝑏→∞}{lim}[−2(\frac{1}{𝑥^{1/2}})]_{𝑏1}^{} \\ & =−2\underset{𝑏→∞}{lim}[\frac{1}{𝑏^{1/2}}−\frac{1}{1^{1/2}}] \\ & =−2[0−1] \\ & =2\end{aligned}
+\begin{aligned}∫_{∞1}\frac{1}{𝑥^{3/2}}\,d𝑥 & =\underset{𝑏→∞}{lim}∫_{𝑏1}\frac{1}{𝑥^{3/2}}\,d𝑥 \\ & =\underset{𝑏→∞}{lim}[−2(\frac{1}{𝑥^{1/2}})]_{𝑏1} \\ & =−2\underset{𝑏→∞}{lim}[\frac{1}{𝑏^{1/2}}−\frac{1}{1^{1/2}}] \\ & =−2[0−1] \\ & =2\end{aligned}
 
 
 $$
@@ -77,9 +77,9 @@ Since the integral is convergent, the integral test guarantees that the series $
 
 Given the sequence $a_n = \dfrac{1}{n^2}$ and the function $f(x) = \dfrac{1}{x^2},$ which of the following statements are true?
 
-1. $\displaystyle \int_{1}^{\infty} f(x) \: \textrm{d}x$ is convergent
+1. $\displaystyle \int_{1}^{\infty} f(x) \: \text{d}x$ is convergent
 
-2. $\displaystyle \int_{1}^{\infty} f(x) \: \textrm{d}x$ is divergent
+2. $\displaystyle \int_{1}^{\infty} f(x) \: \text{d}x$ is divergent
 
 3. The series $\displaystyle \sum_{n=1}^\infty a_n$ is convergent
 
@@ -90,7 +90,7 @@ We carry out the integration as follows:
 $$
 
 
-\begin{aligned}∫_{∞1}^{}\frac{1}{𝑥^{2}}\,d𝑥 & =∫_{∞1}^{}𝑓(𝑥)\,d𝑥 \\ & =\underset{𝑏→∞}{lim}∫_{𝑏1}^{}𝑥^{−2}\,d𝑥 \\ & =\underset{𝑏→∞}{lim}[\frac{𝑥^{−1}}{−1}]_{𝑏1}^{} \\ & =\underset{𝑏→∞}{lim}[−𝑥^{−1}]_{𝑏1}^{} \\ & =−\underset{𝑏→∞}{lim}[𝑥^{−1}]_{𝑏1}^{} \\ & =−\underset{𝑏→∞}{lim}[\frac{1}{𝑥}]_{𝑏1}^{} \\ & =−\underset{𝑏→∞}{lim}([\frac{1}{𝑏}]−[\frac{1}{1}]) \\ & =−([0]−[1]) \\ & =−(−1) \\ & =1\end{aligned}
+\begin{aligned}∫_{∞1}\frac{1}{𝑥^{2}}\,d𝑥 & =∫_{∞1}𝑓(𝑥)\,d𝑥 \\ & =\underset{𝑏→∞}{lim}∫_{𝑏1}𝑥^{−2}\,d𝑥 \\ & =\underset{𝑏→∞}{lim}[\frac{𝑥^{−1}}{−1}]_{𝑏1} \\ & =\underset{𝑏→∞}{lim}[−𝑥^{−1}]_{𝑏1} \\ & =−\underset{𝑏→∞}{lim}[𝑥^{−1}]_{𝑏1} \\ & =−\underset{𝑏→∞}{lim}[\frac{1}{𝑥}]_{𝑏1} \\ & =−\underset{𝑏→∞}{lim}([\frac{1}{𝑏}]−[\frac{1}{1}]) \\ & =−([0]−[1]) \\ & =−(−1) \\ & =1\end{aligned}
 
 
 $$
@@ -107,9 +107,9 @@ In conclusion, only statements I and III are true.
 
 Given the sequence $a_n = \dfrac{1}{2n+1}$ and the function $f(x) = \dfrac{1}{2x+1},$ which of the following statements are true?
 
-1. $\displaystyle \int_{1}^{\infty} f(x) \: \textrm{d}x$ is convergent
+1. $\displaystyle \int_{1}^{\infty} f(x) \: \text{d}x$ is convergent
 
-2. $\displaystyle \int_{1}^{\infty} f(x) \: \textrm{d}x$ is divergent
+2. $\displaystyle \int_{1}^{\infty} f(x) \: \text{d}x$ is divergent
 
 3. The series $\displaystyle \sum_{n=1}^\infty a_n$ is divergent
 
@@ -120,7 +120,7 @@ We carry out the integration as follows:
 $$
 
 
-\begin{aligned}∫_{∞1}^{}\frac{1}{2𝑥+1}d𝑥 & =\underset{𝑏→∞}{lim}∫_{𝑏1}^{}\frac{1}{2𝑥+1}d𝑥 \\ & =\underset{𝑏→∞}{lim}[\frac{1}{2}ln⁡|2𝑥+1|]_{𝑏1}^{} \\ & =\underset{𝑏→∞}{lim}([\frac{1}{2}ln⁡|2𝑏+1|]−[\frac{1}{2}ln⁡|2(1)+1|]) \\ & =\underset{𝑏→∞}{lim}([\frac{1}{2}ln⁡|2𝑏+1|]−[\frac{1}{2}ln⁡|3|]) \\ & =\underset{𝑏→∞}{lim}(\frac{1}{2}ln⁡\frac{2𝑏+1}{3}) \\ & =∞.\end{aligned}
+\begin{aligned}∫_{∞1}\frac{1}{2𝑥+1}d𝑥 & =\underset{𝑏→∞}{lim}∫_{𝑏1}\frac{1}{2𝑥+1}d𝑥 \\ & =\underset{𝑏→∞}{lim}[\frac{1}{2}ln⁡|2𝑥+1|]_{𝑏1} \\ & =\underset{𝑏→∞}{lim}([\frac{1}{2}ln⁡|2𝑏+1|]−[\frac{1}{2}ln⁡|2(1)+1|]) \\ & =\underset{𝑏→∞}{lim}([\frac{1}{2}ln⁡|2𝑏+1|]−[\frac{1}{2}ln⁡|3|]) \\ & =\underset{𝑏→∞}{lim}(\frac{1}{2}ln⁡\frac{2𝑏+1}{3}) \\ & =∞.\end{aligned}
 
 
 $$
@@ -220,7 +220,7 @@ Based on the plot above, we see that for $x>1,$ the combined area of all the rec
 $$
 
 
-\begin{aligned}∫_{∞1}^{}𝑓(𝑥)\,d𝑥 & <𝑎_{1}+𝑎_{2}+𝑎_{3}+… \\ ∫_{∞1}^{}𝑓(𝑥)\,d𝑥 & <\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}𝑎_{𝑛}.\end{aligned}
+\begin{aligned}∫_{∞1}𝑓(𝑥)\,d𝑥 & <𝑎_{1}+𝑎_{2}+𝑎_{3}+… \\ ∫_{∞1}𝑓(𝑥)\,d𝑥 & <\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}𝑎_{𝑛}.\end{aligned}
 
 
 $$
@@ -236,7 +236,7 @@ Based on the plot above, we see that for $x>1,$ the combined area of all the rec
 $$
 
 
-\begin{aligned}𝑎_{2}+𝑎_{3}+𝑎_{4}+… & <∫_{∞1}^{}𝑓(𝑥)\,d𝑥 \\ \underset{\underset{𝑛=2}{∑}}{\overset{}{∞}}𝑎_{𝑛} & <∫_{∞1}^{}𝑓(𝑥)\,d𝑥.\end{aligned}
+\begin{aligned}𝑎_{2}+𝑎_{3}+𝑎_{4}+… & <∫_{∞1}𝑓(𝑥)\,d𝑥 \\ \underset{\underset{𝑛=2}{∑}}{\overset{}{∞}}𝑎_{𝑛} & <∫_{∞1}𝑓(𝑥)\,d𝑥.\end{aligned}
 
 
 $$

@@ -105,7 +105,7 @@ $$
 
 
 
-P(\textrm{Event}) = \frac{\textrm{Number of favorable outcomes}}{\textrm{Total number of outcomes}}.
+P(\text{Event}) = \frac{\text{Number of favorable outcomes}}{\text{Total number of outcomes}}.
 
 
 
@@ -169,7 +169,7 @@ $$
 
 
 
-P(\textrm{Event}) = \frac{\textrm{Number of favorable outcomes}}{\textrm{Total number of outcomes}}.
+P(\text{Event}) = \frac{\text{Number of favorable outcomes}}{\text{Total number of outcomes}}.
 
 
 
@@ -219,7 +219,7 @@ $$
 
 
 
-P(\textrm{Event}) = \frac{\textrm{Number of favorable outcomes}}{\textrm{Total number of outcomes}}.
+P(\text{Event}) = \frac{\text{Number of favorable outcomes}}{\text{Total number of outcomes}}.
 
 
 

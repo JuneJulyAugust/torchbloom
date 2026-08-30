@@ -43,7 +43,7 @@ Since the $4$th element is $3,$ we conclude that
 $$
 
 
-\textrm{Median} = {\color{blue}\mathbf3}.
+\text{Median} = {\color{blue}\mathbf3}.
 
 
 $$
@@ -145,7 +145,7 @@ The total number of values in the dataset is $10$ (the final cumulative frequenc
 $$
 
 
-\dfrac{10}{2} = 5\textrm{th} \qquad\text{and}\qquad 5+1 = 6\textrm{th}.
+\dfrac{10}{2} = 5\text{th} \qquad\text{and}\qquad 5+1 = 6\text{th}.
 
 
 $$
@@ -191,7 +191,7 @@ Thus, the total number of values in the dataset is $20$ (the final cumulative fr
 $$
 
 
-\dfrac{20}{2} = 10\textrm{th} \qquad\text{and}\qquad 10+1 = 11\textrm{th}
+\dfrac{20}{2} = 10\text{th} \qquad\text{and}\qquad 10+1 = 11\text{th}
 
 
 $$
@@ -241,7 +241,7 @@ Thus, the total number of values is ${\color{blue}17}.$ Since this is an odd num
 $$
 
 
-\dfrac{{\color{blue}17} + 1}{2} = \dfrac{18}{2} = {\color{red}9\textrm{th}}
+\dfrac{{\color{blue}17} + 1}{2} = \dfrac{18}{2} = {\color{red}9\text{th}}
 
 
 $$
@@ -289,7 +289,7 @@ There are $26$ total values in the dataset. Since this is an even number, the me
 $$
 
 
-\dfrac{26}{2} = 13\textrm{th} \qquad \text{and} \qquad 13 + 1 = 14\textrm{th}
+\dfrac{26}{2} = 13\text{th} \qquad \text{and} \qquad 13 + 1 = 14\text{th}
 
 
 $$

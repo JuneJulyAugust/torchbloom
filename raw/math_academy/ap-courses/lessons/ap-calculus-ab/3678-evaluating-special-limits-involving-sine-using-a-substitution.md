@@ -16,7 +16,7 @@ Recall the following special limit for sine:
 $$
 
 
-\lim_\limits{\theta \to 0}\: \dfrac{\sin \theta}{\theta} = 1
+\lim\limits_{\theta \to 0}\: \dfrac{\sin \theta}{\theta} = 1
 
 
 $$
@@ -26,12 +26,12 @@ We can use this special limit to evaluate other limits, such as
 $$
 
 
-\lim_\limits{x \to 0}\: \dfrac{\sin 2x}{x}.
+\lim\limits_{x \to 0}\: \dfrac{\sin 2x}{x}.
 
 
 $$
 
-For this limit, notice that as $x\to0,$ both the numerator and denominator approach $0.$ So, if we attempt to evaluate the limit directly, we get $\%\lim_\limits{x \to 0} \: \dfrac{\sin 2x}{x} = \dfrac00,$ which is an indeterminate form.
+For this limit, notice that as $x\to0,$ both the numerator and denominator approach $0.$ So, if we attempt to evaluate the limit directly, we get $\%\lim\limits_{x \to 0} \: \dfrac{\sin 2x}{x} = \dfrac00,$ which is an indeterminate form.
 
 Instead, we rewrite the limit using the algebra of limits, as follows:
 
@@ -48,7 +48,7 @@ Now, this limit looks very similar to our special limit for sine. So, if we make
 $$
 
 
-\lim_\limits{x \to 0} \: \dfrac{\sin {\color{blue}2x}}{\color{blue}2x} = \lim_\limits{\theta \to 0} \: \dfrac{\sin {\color{blue}\theta}}{\color{blue}\theta} = 1.
+\lim\limits_{x \to 0} \: \dfrac{\sin {\color{blue}2x}}{\color{blue}2x} = \lim\limits_{\theta \to 0} \: \dfrac{\sin {\color{blue}\theta}}{\color{blue}\theta} = 1.
 
 
 $$
@@ -67,7 +67,7 @@ $$
 
 #### Question
 
-Find $\lim_\limits{x \to 5} \:\dfrac{\sin (x-5)}{15-3x}.$
+Find $\lim\limits_{x \to 5} \:\dfrac{\sin (x-5)}{15-3x}.$
 
 #### Explanation
 
@@ -110,7 +110,7 @@ Let $\theta =x-5.$ Then, $\theta \to 0$ as $x \to 5,$ we have
 $$
 
 
-\lim_\limits{x \to 5} \:\dfrac{\sin({\color{blue}x-5})}{\color{blue}x-5} = \lim_\limits{\theta \to 0} \:\dfrac{\sin{\color{blue}\theta}}{\color{blue}\theta} =1.
+\lim\limits_{x \to 5} \:\dfrac{\sin({\color{blue}x-5})}{\color{blue}x-5} = \lim\limits_{\theta \to 0} \:\dfrac{\sin{\color{blue}\theta}}{\color{blue}\theta} =1.
 
 
 $$
@@ -129,7 +129,7 @@ $$
 
 #### Question
 
-Calculate $\lim_\limits{\theta \to 0} \:\dfrac{\tan 2\theta}{\theta}.$
+Calculate $\lim\limits_{\theta \to 0} \:\dfrac{\tan 2\theta}{\theta}.$
 
 #### Explanation
 

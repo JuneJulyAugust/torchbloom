@@ -51,7 +51,7 @@ Let's assume that the flipping of the coin and rolling of the die are independen
 $$
 
 
-P(X=x\:\textrm{and}\:Y=y) = \dfrac{1}{2} \cdot \dfrac{1}{4} = \dfrac{1}{8}.
+P(X=x\:\text{and}\:Y=y) = \dfrac{1}{2} \cdot \dfrac{1}{4} = \dfrac{1}{8}.
 
 
 $$
@@ -63,12 +63,12 @@ Similar to the case of single random variables, we have
 $$
 
 
-f(x,y) = P(X=x\:\textrm{ and }\:Y=y).
+f(x,y) = P(X=x\:\text{ and }\:Y=y).
 
 
 $$
 
-Going forward, we will use the shorthand notation $P(X=x, Y=y)$ to mean $P(X=x\:\textrm{and}\:Y=y).$
+Going forward, we will use the shorthand notation $P(X=x, Y=y)$ to mean $P(X=x\:\text{and}\:Y=y).$
 
 ### Bivariate and Multivariate Distributions
 

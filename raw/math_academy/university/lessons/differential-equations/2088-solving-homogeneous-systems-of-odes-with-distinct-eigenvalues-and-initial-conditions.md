@@ -76,7 +76,7 @@ To find the values of $c_1$ and $c_2$, we substitute $t=0$ in the general soluti
 $$
 
 
-\begin{aligned}𝐱(0) & =[\begin{aligned}7 \\ −1\end{aligned}] \\ 𝑐_{1}[\begin{aligned}3 \\ 1\end{aligned}]𝑒^{0}+𝑐_{2}[\begin{aligned}2 \\ −1\end{aligned}]𝑒^{0} & =[\begin{aligned}7 \\ −1\end{aligned}] \\ [\begin{aligned}3𝑐_{1}+2𝑐_{2} \\ 𝑐_{1}−𝑐_{2}\end{aligned}] & =[\begin{aligned}7 \\ −1\end{aligned}]\end{aligned}
+\begin{aligned}𝐱(0) & =[\begin{matrix}7 \\ −1\end{matrix}] \\ 𝑐_{1}[\begin{matrix}3 \\ 1\end{matrix}]𝑒^{0}+𝑐_{2}[\begin{matrix}2 \\ −1\end{matrix}]𝑒^{0} & =[\begin{matrix}7 \\ −1\end{matrix}] \\ [\begin{matrix}3𝑐_{1}+2𝑐_{2} \\ 𝑐_{1}−𝑐_{2}\end{matrix}] & =[\begin{matrix}7 \\ −1\end{matrix}]\end{aligned}
 
 
 $$
@@ -116,7 +116,7 @@ Therefore, the solution to the initial value problem is
 $$
 
 
-\begin{aligned}𝐱(𝑡) & =1⋅[\begin{aligned}3 \\ 1\end{aligned}]𝑒^{𝑡}+2⋅[\begin{aligned}2 \\ −1\end{aligned}]𝑒^{−𝑡} \\ & =\begin{aligned}3 \\ 1\end{aligned}𝑒^{𝑡}+\begin{aligned}4 \\ −2\end{aligned}𝑒^{−𝑡}.\end{aligned}
+\begin{aligned}𝐱(𝑡) & =1⋅[\begin{matrix}3 \\ 1\end{matrix}]𝑒^{𝑡}+2⋅[\begin{matrix}2 \\ −1\end{matrix}]𝑒^{−𝑡} \\ & =\begin{matrix}3 \\ 1\end{matrix}𝑒^{𝑡}+\begin{matrix}4 \\ −2\end{matrix}𝑒^{−𝑡}.\end{aligned}
 
 
 $$
@@ -174,7 +174,7 @@ Therefore, the general solution to our matrix differential equation is
 $$
 
 
-\begin{aligned}𝐱(𝑡)=𝑐_{1}[\begin{aligned}6 \\ −2\end{aligned}]𝑒^{3𝑡}+𝑐_{2}[\begin{aligned}1 \\ −3\end{aligned}]𝑒^{−2𝑡},\,𝑐_{1},𝑐_{2}∈ℝ.\end{aligned}
+\begin{aligned}𝐱(𝑡)=𝑐_{1}[\begin{matrix}6 \\ −2\end{matrix}]𝑒^{3𝑡}+𝑐_{2}[\begin{matrix}1 \\ −3\end{matrix}]𝑒^{−2𝑡},\,𝑐_{1},𝑐_{2}∈ℝ.\end{aligned}
 
 
 $$
@@ -184,7 +184,7 @@ Now, to find the values of $c_1$ and $c_2,$ we substitute $t=0$ into the general
 $$
 
 
-\begin{aligned}𝐱(0) & =[\begin{aligned}−11 \\ 1\end{aligned}] \\ 𝑐_{1}[\begin{aligned}6 \\ −2\end{aligned}]𝑒^{0}+𝑐_{2}[\begin{aligned}1 \\ −3\end{aligned}]𝑒^{0} & =[\begin{aligned}−11 \\ 1\end{aligned}] \\ [\begin{aligned}6𝑐_{1}+𝑐_{2} \\ −2𝑐_{1}−3𝑐_{2}\end{aligned}] & =[\begin{aligned}−11 \\ 1\end{aligned}]\end{aligned}
+\begin{aligned}𝐱(0) & =[\begin{matrix}−11 \\ 1\end{matrix}] \\ 𝑐_{1}[\begin{matrix}6 \\ −2\end{matrix}]𝑒^{0}+𝑐_{2}[\begin{matrix}1 \\ −3\end{matrix}]𝑒^{0} & =[\begin{matrix}−11 \\ 1\end{matrix}] \\ [\begin{matrix}6𝑐_{1}+𝑐_{2} \\ −2𝑐_{1}−3𝑐_{2}\end{matrix}] & =[\begin{matrix}−11 \\ 1\end{matrix}]\end{aligned}
 
 
 $$
@@ -224,7 +224,7 @@ Therefore, the solution for the initial value problem is
 $$
 
 
-\begin{aligned}𝐱(𝑡) & =−2⋅[\begin{aligned}6 \\ −2\end{aligned}]𝑒^{3𝑡}+1⋅[\begin{aligned}1 \\ −3\end{aligned}]𝑒^{−2𝑡} \\ & =[\begin{aligned}−12 \\ 4\end{aligned}]𝑒^{3𝑡}+[\begin{aligned}1 \\ −3\end{aligned}]𝑒^{−2𝑡}.\end{aligned}
+\begin{aligned}𝐱(𝑡) & =−2⋅[\begin{matrix}6 \\ −2\end{matrix}]𝑒^{3𝑡}+1⋅[\begin{matrix}1 \\ −3\end{matrix}]𝑒^{−2𝑡} \\ & =[\begin{matrix}−12 \\ 4\end{matrix}]𝑒^{3𝑡}+[\begin{matrix}1 \\ −3\end{matrix}]𝑒^{−2𝑡}.\end{aligned}
 
 
 $$
@@ -234,7 +234,7 @@ Finally, we calculate $\mathbf x(2)\mathbin{:}$
 $$
 
 
-\begin{aligned}𝐱(2) & =[\begin{aligned}−12 \\ 4\end{aligned}]𝑒^{3⋅2}+[\begin{aligned}1 \\ −3\end{aligned}]𝑒^{−2⋅2} \\ & =[\begin{aligned}−12𝑒^{6}+𝑒^{−4} \\ 4𝑒^{6}−3𝑒^{−4}\end{aligned}]\end{aligned}
+\begin{aligned}𝐱(2) & =[\begin{matrix}−12 \\ 4\end{matrix}]𝑒^{3⋅2}+[\begin{matrix}1 \\ −3\end{matrix}]𝑒^{−2⋅2} \\ & =[\begin{matrix}−12𝑒^{6}+𝑒^{−4} \\ 4𝑒^{6}−3𝑒^{−4}\end{matrix}]\end{aligned}
 
 
 $$
@@ -248,7 +248,7 @@ Find the solution to the initial value problem
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=3𝑥_{1}(𝑡)−𝑥_{2}(𝑡) \\ 𝑥_{′2}^{}(𝑡)=6𝑥_{1}(𝑡)−4𝑥_{2}(𝑡)\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=3𝑥_{1}(𝑡)−𝑥_{2}(𝑡) \\ 𝑥_{′2}(𝑡)=6𝑥_{1}(𝑡)−4𝑥_{2}(𝑡)\end{aligned}
 
 
 $$
@@ -262,7 +262,7 @@ Let's construct the matrix differential equation $\mathbf{x}'(t)=A\mathbf{x}(t)$
 $$
 
 
-[\begin{aligned}𝑥_{′1}^{}(𝑡) \\ 𝑥_{′2}^{}(𝑡)\end{aligned}]
+[\begin{aligned}𝑥_{′1}(𝑡) \\ 𝑥_{′2}(𝑡)\end{aligned}]
 
 
 $$
@@ -276,7 +276,7 @@ Now, we write down the general solution to the given linear system of differenti
 $$
 
 
-\begin{aligned}𝐱(𝑡) & =𝑐_{1}𝐯_{1}𝑒^{𝜆_{1}𝑡}+𝑐_{2}𝐯_{2}𝑒^{𝜆_{2}𝑡} \\ & =𝑐_{1}[\begin{aligned}1 \\ 1\end{aligned}]𝑒^{2𝑡}+𝑐_{2}[\begin{aligned}1 \\ 6\end{aligned}]𝑒^{−3𝑡},\,𝑐_{1},𝑐_{2}∈ℝ\end{aligned}
+\begin{aligned}𝐱(𝑡) & =𝑐_{1}𝐯_{1}𝑒^{𝜆_{1}𝑡}+𝑐_{2}𝐯_{2}𝑒^{𝜆_{2}𝑡} \\ & =𝑐_{1}[\begin{matrix}1 \\ 1\end{matrix}]𝑒^{2𝑡}+𝑐_{2}[\begin{matrix}1 \\ 6\end{matrix}]𝑒^{−3𝑡},\,𝑐_{1},𝑐_{2}∈ℝ\end{aligned}
 
 
 $$
@@ -286,7 +286,7 @@ Now, to find the values of $c_1$ and $c_2,$ we substitute $t=0$ in the general s
 $$
 
 
-\begin{aligned}𝐱(0) & =[\begin{aligned}5 \\ 0\end{aligned}] \\ 𝑐_{1}[\begin{aligned}1 \\ 1\end{aligned}]𝑒^{0}+𝑐_{2}[\begin{aligned}1 \\ 6\end{aligned}]𝑒^{0} & =[\begin{aligned}5 \\ 0\end{aligned}] \\ [\begin{aligned}𝑐_{1}+𝑐_{2} \\ 𝑐_{1}+6𝑐_{2}\end{aligned}] & =[\begin{aligned}5 \\ 0\end{aligned}]\end{aligned}
+\begin{aligned}𝐱(0) & =[\begin{matrix}5 \\ 0\end{matrix}] \\ 𝑐_{1}[\begin{matrix}1 \\ 1\end{matrix}]𝑒^{0}+𝑐_{2}[\begin{matrix}1 \\ 6\end{matrix}]𝑒^{0} & =[\begin{matrix}5 \\ 0\end{matrix}] \\ [\begin{matrix}𝑐_{1}+𝑐_{2} \\ 𝑐_{1}+6𝑐_{2}\end{matrix}] & =[\begin{matrix}5 \\ 0\end{matrix}]\end{aligned}
 
 
 $$
@@ -326,7 +326,7 @@ Finally, we write down the solution to the initial value problem:
 $$
 
 
-\begin{aligned}𝐱(𝑡) & =6[\begin{aligned}1 \\ 1\end{aligned}]𝑒^{2𝑡}−[\begin{aligned}1 \\ 6\end{aligned}]𝑒^{−3𝑡}.\end{aligned}
+\begin{aligned}𝐱(𝑡) & =6[\begin{matrix}1 \\ 1\end{matrix}]𝑒^{2𝑡}−[\begin{matrix}1 \\ 6\end{matrix}]𝑒^{−3𝑡}.\end{aligned}
 
 
 $$

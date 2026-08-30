@@ -16,7 +16,7 @@ The **additive inverse** of $a$ modulo $n$ is the integer $0 \leq x \lt n$ such 
 $$
 
 
-x + a \equiv 0 \quad (\textrm{mod} \: n).
+x + a \equiv 0 \quad (\text{mod} \: n).
 
 
 $$
@@ -35,7 +35,7 @@ We can visualize this using a clock diagram.
 
 ![Instructional graphic](../../../lesson-assets/methods-of-proof/topic-2735/a16ac5081ae321d4.png)
 
-On the other hand, the integer $6$ is *not* the additive inverse of $5$ modulo $12$ since $6 + 5 \equiv 11\not\equiv 0 \, (\textrm{mod} \: 12).$
+On the other hand, the integer $6$ is *not* the additive inverse of $5$ modulo $12$ since $6 + 5 \equiv 11\not\equiv 0 \, (\text{mod} \: 12).$
 
 In general, we have the following theorem:
 
@@ -45,7 +45,7 @@ Note the following:
 
 - The word "unique" in the statement above means with respect to the inequality $0 \leq x \lt n.$
 
-- It's important to know that any integer summed with an integer congruent to its inverse will also give zero. For example, $x=7$ is the additive inverse of $5$ modulo $12.$ But since $19\equiv 7\:(\textrm{mod}\: 12),$ we have that the sum of $5$ and $19$ is also congruent to $0{:}$
+- It's important to know that any integer summed with an integer congruent to its inverse will also give zero. For example, $x=7$ is the additive inverse of $5$ modulo $12.$ But since $19\equiv 7\:(\text{mod}\: 12),$ we have that the sum of $5$ and $19$ is also congruent to $0{:}$
 
 Let's see some more examples.
 
@@ -64,7 +64,7 @@ The additive inverse of $14$ modulo $35$ is the integer $0 \leq x \lt 35$ such t
 $$
 
 
-x + 14 \equiv 0 \quad (\textrm{mod}\:35).
+x + 14 \equiv 0 \quad (\text{mod}\:35).
 
 
 $$
@@ -94,12 +94,12 @@ The additive inverse of $17$ modulo $26$ is the integer $0 \leq x \lt 26$ such t
 $$
 
 
-x + 17 \equiv 0 \quad (\textrm{mod}\:26).
+x + 17 \equiv 0 \quad (\text{mod}\:26).
 
 
 $$
 
-Notice that $-17 + 17 \equiv 0,$ so $x\equiv -17\:(\textrm{mod}\:26).$ To write this in the required form, we use the following sequence of congruences:
+Notice that $-17 + 17 \equiv 0,$ so $x\equiv -17\:(\text{mod}\:26).$ To write this in the required form, we use the following sequence of congruences:
 
 $$
 
@@ -116,12 +116,12 @@ We can verify this result as follows:
 $$
 
 
-9 + 17 \equiv 26 \equiv 0\:\:{\color{green}{\checkmark}} \quad (\textrm{mod}\:26)
+9 + 17 \equiv 26 \equiv 0\:\:{\color{green}{\checkmark}} \quad (\text{mod}\:26)
 
 
 $$
 
-**** The additive inverse of $a$ modulo $n$ is simply the residue of $-a$ modulo $n,$ i.e. $-a \: \textrm{mod} \: n.$
+**** The additive inverse of $a$ modulo $n$ is simply the residue of $-a$ modulo $n,$ i.e. $-a \: \text{mod} \: n.$
 
 ### Example: Finding the Additive Inverse of a Larger Number
 
@@ -136,12 +136,12 @@ The additive inverse of $23$ modulo $15$ is the integer $0 \leq x \lt 15$ such t
 $$
 
 
-x + 23 \equiv 0 \quad (\textrm{mod}\:15).
+x + 23 \equiv 0 \quad (\text{mod}\:15).
 
 
 $$
 
-First, we note that $23\equiv 8\:(\textrm{mod}\:15){:}$
+First, we note that $23\equiv 8\:(\text{mod}\:15){:}$
 
 $$
 
@@ -151,7 +151,7 @@ $$
 
 $$
 
-Also, note that $-8 + 8 \equiv 0,$ so $x\equiv -8\:(\textrm{mod}\:15).$ To write this in the required form, we use the following sequence of congruences:
+Also, note that $-8 + 8 \equiv 0,$ so $x\equiv -8\:(\text{mod}\:15).$ To write this in the required form, we use the following sequence of congruences:
 
 $$
 
@@ -173,7 +173,7 @@ $$
 
 $$
 
-**** In general, the additive inverse of $a$ modulo $n$ is simply the residue of $-a$ modulo $n,$ i.e. $-a \: \textrm{mod} \: n.$
+**** In general, the additive inverse of $a$ modulo $n$ is simply the residue of $-a$ modulo $n,$ i.e. $-a \: \text{mod} \: n.$
 
 ### Example: Finding the Additive Inverse of a Negative Number
 
@@ -188,12 +188,12 @@ The additive inverse of $-43$ modulo $15$ is the integer $0 \leq x \lt 15$ such 
 $$
 
 
-x + (-43) \equiv 0 \quad (\textrm{mod}\:15).
+x + (-43) \equiv 0 \quad (\text{mod}\:15).
 
 
 $$
 
-First, we note that $-43\equiv 2\:(\textrm{mod}\:15){:}$
+First, we note that $-43\equiv 2\:(\text{mod}\:15){:}$
 
 $$
 
@@ -203,7 +203,7 @@ $$
 
 $$
 
-Also, note that $-2 + 2 \equiv 0,$ so $x\equiv -2\:(\textrm{mod}\:15).$ To write this in the required form, we use the following sequence of congruences:
+Also, note that $-2 + 2 \equiv 0,$ so $x\equiv -2\:(\text{mod}\:15).$ To write this in the required form, we use the following sequence of congruences:
 
 $$
 
@@ -225,4 +225,4 @@ $$
 
 $$
 
-**** In general, the additive inverse of $a$ modulo $n$ is simply the residue of $-a$ modulo $n,$ i.e. $-a \: \textrm{mod} \: n.$
+**** In general, the additive inverse of $a$ modulo $n$ is simply the residue of $-a$ modulo $n,$ i.e. $-a \: \text{mod} \: n.$

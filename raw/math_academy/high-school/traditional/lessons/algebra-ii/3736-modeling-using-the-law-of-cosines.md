@@ -14,7 +14,7 @@ Topic ID: 3736
 
 We sometimes face real-world problems where we can use the law of cosines to find missing information.
 
-For example, consider two ships that are sailing from a port. The first ship is sailing due west and the second ship is sailing $31^\circ$ south of west. After ten minutes, the first ship has traveled $5\,\textrm{km}$ while the second ship has traveled only $2\,\textrm{km}.$ To one decimal place, what is the distance between the ships after ten minutes?
+For example, consider two ships that are sailing from a port. The first ship is sailing due west and the second ship is sailing $31^\circ$ south of west. After ten minutes, the first ship has traveled $5\,\text{km}$ while the second ship has traveled only $2\,\text{km}.$ To one decimal place, what is the distance between the ships after ten minutes?
 
 ![Instructional graphic](../../../../lesson-assets/algebra-ii/topic-3736/ea3c3c8084cf486e.png)
 
@@ -52,7 +52,7 @@ $$
 
 
 
-d = \sqrt{11.857} \approx 3.4 \,\textrm{km},
+d = \sqrt{11.857} \approx 3.4 \,\text{km},
 
 
 
@@ -64,7 +64,7 @@ rounded to $1$ decimal place.
 
 #### Question
 
-Nicole and Megan are training passes for a basketball tournament. When Nicole throws the ball, it bounces on the ground once before reaching Megan. Assume the ball makes two straight paths, one from Nicole to the ground, whose length is $7\,\textrm{ft},$ and another from the ground to Megan, whose length is $8\,\textrm{ft}.$ If the angle formed between the paths is $75^\circ,$ how far away is Megan from Nicole?
+Nicole and Megan are training passes for a basketball tournament. When Nicole throws the ball, it bounces on the ground once before reaching Megan. Assume the ball makes two straight paths, one from Nicole to the ground, whose length is $7\,\text{ft},$ and another from the ground to Megan, whose length is $8\,\text{ft}.$ If the angle formed between the paths is $75^\circ,$ how far away is Megan from Nicole?
 
 #### Explanation
 
@@ -90,7 +90,7 @@ $$
 
 
 
-d = \sqrt{84.012}\approx 9.17\,\textrm{ft}.
+d = \sqrt{84.012}\approx 9.17\,\text{ft}.
 
 
 
@@ -100,7 +100,7 @@ $$
 
 #### Question
 
-Mark and Tom, two soccer players, were standing together in the middle of the field. Suddenly, they ran in a straight line in different directions as shown below. Mark ran $16\,\textrm{m}$ and Tom ran $20\,\textrm{m}.$ If the current distance between Mark and Tom is $4\sqrt{21}\,\textrm{m},$ what is the angle between the paths formed by the players?
+Mark and Tom, two soccer players, were standing together in the middle of the field. Suddenly, they ran in a straight line in different directions as shown below. Mark ran $16\,\text{m}$ and Tom ran $20\,\text{m}.$ If the current distance between Mark and Tom is $4\sqrt{21}\,\text{m},$ what is the angle between the paths formed by the players?
 
 ![Instructional graphic](../../../../lesson-assets/algebra-ii/topic-3736/c83f56f5b433c35c.png)
 
@@ -112,7 +112,7 @@ $$
 
 
 
-\begin{aligned}𝑐=4\sqrt{√21},\,𝑚=20,\,𝑡=16,\end{aligned}
+\begin{aligned}𝑐=4\sqrt{21},\,𝑚=20,\,𝑡=16,\end{aligned}
 
 
 
@@ -124,7 +124,7 @@ $$
 
 
 
-\begin{aligned}𝑐^{2} & =𝑚^{2}+𝑡^{2}−2𝑚𝑡cos⁡𝐶 \\ (4\sqrt{√21})^{2} & =20^{2}+16^{2}−2(20)(16)cos⁡𝐶 \\ 336 & =400+256−640cos⁡𝐶 \\ 640cos⁡𝐶 & =320 \\ cos⁡𝐶 & =\frac{1}{2}.\end{aligned}
+\begin{aligned}𝑐^{2} & =𝑚^{2}+𝑡^{2}−2𝑚𝑡cos⁡𝐶 \\ (4\sqrt{21})^{2} & =20^{2}+16^{2}−2(20)(16)cos⁡𝐶 \\ 336 & =400+256−640cos⁡𝐶 \\ 640cos⁡𝐶 & =320 \\ cos⁡𝐶 & =\frac{1}{2}.\end{aligned}
 
 
 

@@ -85,7 +85,7 @@ Finally, we obtain
 $$
 
 
-\begin{aligned}𝐴=𝑃𝐷𝑃^{−1} & =[\begin{aligned}3 & −2 \\ −1 & 1\end{aligned}][\begin{aligned}2 & 0 \\ 0 & 3\end{aligned}][\begin{aligned}3 & −2 \\ −1 & 1\end{aligned}]^{−1}.\end{aligned}
+\begin{aligned}𝐴=𝑃𝐷𝑃^{−1} & =[\begin{matrix}3 & −2 \\ −1 & 1\end{matrix}][\begin{matrix}2 & 0 \\ 0 & 3\end{matrix}][\begin{matrix}3 & −2 \\ −1 & 1\end{matrix}]^{−1}.\end{aligned}
 
 
 $$
@@ -95,7 +95,7 @@ We can check our solution by computing the product on the right-hand side:
 $$
 
 
-\begin{aligned}[\begin{aligned}3 & −2 \\ −1 & 1\end{aligned}][\begin{aligned}2 & 0 \\ 0 & 3\end{aligned}][\begin{aligned}3 & −2 \\ −1 & 1\end{aligned}]^{−1} & =[\begin{aligned}6 & −6 \\ −2 & 3\end{aligned}][\begin{aligned}1 & 2 \\ 1 & 3\end{aligned}] \\ & =[\begin{aligned}0 & −6 \\ 1 & 5\end{aligned}] \\ & =𝐴\,✓\end{aligned}
+\begin{aligned}[\begin{matrix}3 & −2 \\ −1 & 1\end{matrix}][\begin{matrix}2 & 0 \\ 0 & 3\end{matrix}][\begin{matrix}3 & −2 \\ −1 & 1\end{matrix}]^{−1} & =[\begin{matrix}6 & −6 \\ −2 & 3\end{matrix}][\begin{matrix}1 & 2 \\ 1 & 3\end{matrix}] \\ & =[\begin{matrix}0 & −6 \\ 1 & 5\end{matrix}] \\ & =𝐴\,✓\end{aligned}
 
 
 $$
@@ -161,7 +161,7 @@ So, the eigenvalues are $\lambda_1=\lambda_2=3.$ Since we get one repeated eigen
 $$
 
 
-\begin{aligned}𝐴−3𝐼 & =[\begin{aligned}3 & −5 \\ 0 & 3\end{aligned}]−3[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ & =[\begin{aligned}0 & −5 \\ 0 & 0\end{aligned}].\end{aligned}
+\begin{aligned}𝐴−3𝐼 & =[\begin{matrix}3 & −5 \\ 0 & 3\end{matrix}]−3[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}] \\ & =[\begin{matrix}0 & −5 \\ 0 & 0\end{matrix}].\end{aligned}
 
 
 $$
@@ -239,7 +239,7 @@ Now, we simply need to find an eigenvector that corresponds to $\lambda_2=-1.$ C
 $$
 
 
-\begin{aligned}𝐴−(−1)𝐼 & =[\begin{aligned}1 & 4 \\ 2 & 3\end{aligned}]+[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ & =[\begin{aligned}2 & 4 \\ 2 & 4\end{aligned}].\end{aligned}
+\begin{aligned}𝐴−(−1)𝐼 & =[\begin{matrix}1 & 4 \\ 2 & 3\end{matrix}]+[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}] \\ & =[\begin{matrix}2 & 4 \\ 2 & 4\end{matrix}].\end{aligned}
 
 
 $$
@@ -249,7 +249,7 @@ To solve the corresponding system of linear equations, we construct the augmente
 $$
 
 
-\begin{aligned}𝑀 & =[\begin{aligned}2 & 4 & 0 \\ 2 & 4 & 0\end{aligned}] & 𝑅_{2}=𝑅_{2}+(−1)𝑅_{1} \\ & ∼[\begin{aligned}2 & 4 & 0 \\ 0 & 0 & 0\end{aligned}] & \end{aligned}
+\begin{aligned}𝑀 & =[\begin{matrix}2 & 4 & 0 \\ 2 & 4 & 0\end{matrix}] & 𝑅_{2}=𝑅_{2}+(−1)𝑅_{1} \\ & ∼[\begin{matrix}2 & 4 & 0 \\ 0 & 0 & 0\end{matrix}] & \end{aligned}
 
 
 $$

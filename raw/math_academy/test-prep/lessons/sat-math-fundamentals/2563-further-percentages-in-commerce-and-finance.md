@@ -25,7 +25,7 @@ To calculate the percentage of a markup, we can use the following formula:
 $$
 
 
-\textrm{percentage markup} = \dfrac{\textrm{amount of markup}}{\textrm{original amount}}
+\text{percentage markup} = \dfrac{\text{amount of markup}}{\text{original amount}}
 
 
 $$
@@ -37,7 +37,7 @@ Likewise, to calculate the percentage of a markdown, we can use the following fo
 $$
 
 
-\textrm{percentage markdown} = \dfrac{\textrm{amount of markdown}}{\textrm{original amount}}
+\text{percentage markdown} = \dfrac{\text{amount of markdown}}{\text{original amount}}
 
 
 $$
@@ -59,7 +59,7 @@ We will use the formula
 $$
 
 
-\textrm{percent markup} = \dfrac{\textrm{amount of markup}}{\textrm{original price}}.
+\text{percent markup} = \dfrac{\text{amount of markup}}{\text{original price}}.
 
 
 $$
@@ -99,7 +99,7 @@ We will use the formula
 $$
 
 
-\textrm{percent markdown} = \dfrac{\textrm{amount of markdown}}{\textrm{original price}}.
+\text{percent markdown} = \dfrac{\text{amount of markdown}}{\text{original price}}.
 
 
 $$
@@ -133,7 +133,7 @@ Sometimes, we might know the final price of an item after a markup or markdown h
 $$
 
 
-\textrm{percent paid} \times \textrm{original price} = \textrm{final price}
+\text{percent paid} \times \text{original price} = \text{final price}
 
 
 $$
@@ -159,7 +159,7 @@ We will use the formula
 $$
 
 
-\textrm{percent paid} \times \textrm{original price} = \textrm{final price}.
+\text{percent paid} \times \text{original price} = \text{final price}.
 
 
 $$
@@ -199,7 +199,7 @@ We will use the formula
 $$
 
 
-\textrm{percent paid} \times \textrm{original price} = \textrm{final price}.
+\text{percent paid} \times \text{original price} = \text{final price}.
 
 
 $$

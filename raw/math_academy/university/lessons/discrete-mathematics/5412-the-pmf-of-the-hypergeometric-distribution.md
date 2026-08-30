@@ -42,7 +42,7 @@ $$
 
 
 
-\begin{aligned}𝑃(𝑋=𝑥) & =\frac{# of samples of size 6 with x successes}{# of samples of size 6} \\ & =\frac{(\frac{12}{𝑥})⋅(\frac{6}{6−𝑥})}{𝑥}.\end{aligned}
+\begin{aligned}𝑃(𝑋=𝑥) & =\frac{\# of samples of size 6 with x successes}{# of samples of size 6} \\ & =\frac{(\frac{12}{𝑥})⋅(\frac{6}{6−𝑥})}{𝑥}.\end{aligned}
 
 
 
@@ -52,11 +52,11 @@ $$
 
 #### Question
 
-If $X \sim \textrm{Hypergeometric}(24,15, 8),$ then find $P(X = x)$ for $X \in \{0,1,\ldots,8\}.$
+If $X \sim \text{Hypergeometric}(24,15, 8),$ then find $P(X = x)$ for $X \in \{0,1,\ldots,8\}.$
 
 #### Explanation
 
-A hypergeometric random variable $X \sim \textrm{Hypergeometric}(N, K, n)$ counts the number of successes in a random sample of size $n,$ drawn without replacement from a population of size $N,$ which contains $K$ items with a successful characteristic.
+A hypergeometric random variable $X \sim \text{Hypergeometric}(N, K, n)$ counts the number of successes in a random sample of size $n,$ drawn without replacement from a population of size $N,$ which contains $K$ items with a successful characteristic.
 
 The probability that the sample contains precisely $x$ successes is given by
 
@@ -92,7 +92,7 @@ $$
 
 
 
-\begin{aligned}𝑃(𝑋=𝑥) & =\frac{# of samples of size 8 with precisely x successes}{# of samples of size 8} \\ & =\frac{(\frac{15}{𝑥})⋅(\frac{9}{8−𝑥})}{𝑥}.\end{aligned}
+\begin{aligned}𝑃(𝑋=𝑥) & =\frac{\# of samples of size 8 with precisely x successes}{# of samples of size 8} \\ & =\frac{(\frac{15}{𝑥})⋅(\frac{9}{8−𝑥})}{𝑥}.\end{aligned}
 
 
 
@@ -100,7 +100,7 @@ $$
 
 ### The Structure of the Probability Mass Function
 
-In general, the probability mass function of a hypergeometric random variable $X\sim \textrm{Hypergeometric}(N,K,n)$ is given by
+In general, the probability mass function of a hypergeometric random variable $X\sim \text{Hypergeometric}(N,K,n)$ is given by
 
 $$
 

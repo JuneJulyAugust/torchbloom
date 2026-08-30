@@ -34,7 +34,7 @@ We require that the point $P$ lies on the curve $y=\sqrt{2x}+1.$ Substituting th
 $$
 
 
-\begin{aligned}𝑆(𝑥) & =(𝑥−5)^{2}+(𝑦−1)^{2} \\ & =(𝑥−5)^{2}+(\sqrt{√2𝑥}+1−1)^{2} \\ & =(𝑥−5)^{2}+(\sqrt{√2𝑥})^{2} \\ & =(𝑥−5)^{2}+2𝑥 \\ & =𝑥^{2}−10𝑥+25+2𝑥 \\ & =𝑥^{2}−8𝑥+25.\end{aligned}
+\begin{aligned}𝑆(𝑥) & =(𝑥−5)^{2}+(𝑦−1)^{2} \\ & =(𝑥−5)^{2}+(\sqrt{2𝑥}+1−1)^{2} \\ & =(𝑥−5)^{2}+(\sqrt{2𝑥})^{2} \\ & =(𝑥−5)^{2}+2𝑥 \\ & =𝑥^{2}−10𝑥+25+2𝑥 \\ & =𝑥^{2}−8𝑥+25.\end{aligned}
 
 
 $$
@@ -82,7 +82,7 @@ Finally, since $S$ gives the squared distance between the two points, the actual
 $$
 
 
-\begin{aligned}𝑑 & =\sqrt{√𝑆(4)} \\ & =\sqrt{√(4)^{2}−8(4)+25} \\ & =\sqrt{√9} \\ & =3.\end{aligned}
+\begin{aligned}𝑑 & =\sqrt{𝑆(4)} \\ & =\sqrt{(4)^{2}−8(4)+25} \\ & =\sqrt{9} \\ & =3.\end{aligned}
 
 
 $$
@@ -172,7 +172,7 @@ We require that the point $P$ lies on the curve $y=x^2.$ Substituting this into 
 $$
 
 
-\begin{aligned} S(x) &= x^2 + \left(y- \dfrac{3}{2} \right)^2 \\\[5pt] &= x^2 + \left( x^2 - \dfrac{3}{2} \right)^2 \\\[5pt] &= x^2 + x^4 -3x^2 + \dfrac{9}{4}\\\[5pt] &= x^4 - 2 x^2 + \dfrac{9}{4}.\\\end{aligned}
+\begin{aligned} S(x) &= x^2 + \left(y- \dfrac{3}{2} \right)^2 \\[5pt] &= x^2 + \left( x^2 - \dfrac{3}{2} \right)^2 \\[5pt] &= x^2 + x^4 -3x^2 + \dfrac{9}{4}\\[5pt] &= x^4 - 2 x^2 + \dfrac{9}{4}.\\\end{aligned}
 
 
 $$
@@ -224,7 +224,7 @@ We require that the point $P$ lies on the curve $y=\sqrt{2x^2+3}+1.$ Substitutin
 $$
 
 
-\begin{aligned}𝑆 & =(𝑥−3)^{2}+(𝑦−1)^{2} \\ & =(𝑥−3)^{2}+(\sqrt{√2𝑥^{2}+3}+1−1)^{2} \\ & =(𝑥−3)^{2}+(\sqrt{√2𝑥^{2}+3})^{2} \\ & =𝑥^{2}−6𝑥+9+2𝑥^{2}+3 \\ & =3𝑥^{2}−6𝑥+12.\end{aligned}
+\begin{aligned}𝑆 & =(𝑥−3)^{2}+(𝑦−1)^{2} \\ & =(𝑥−3)^{2}+(\sqrt{2𝑥^{2}+3}+1−1)^{2} \\ & =(𝑥−3)^{2}+(\sqrt{2𝑥^{2}+3})^{2} \\ & =𝑥^{2}−6𝑥+9+2𝑥^{2}+3 \\ & =3𝑥^{2}−6𝑥+12.\end{aligned}
 
 
 $$
@@ -256,7 +256,7 @@ Computing this quantity, we get
 $$
 
 
-\begin{aligned}𝑑 & =\sqrt{√𝑆(1)} \\ & =\sqrt{√3(1)^{2}−6(1)+12} \\ & =\sqrt{√9} \\ & =3.\end{aligned}
+\begin{aligned}𝑑 & =\sqrt{𝑆(1)} \\ & =\sqrt{3(1)^{2}−6(1)+12} \\ & =\sqrt{9} \\ & =3.\end{aligned}
 
 
 $$

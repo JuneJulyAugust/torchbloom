@@ -117,7 +117,7 @@ Substituting $\tan x = -\sqrt{2}$ into the above, we get
 $$
 
 
-\begin{aligned}tan⁡2𝑥 & =\frac{2\,tan⁡𝑥}{1−(tan⁡𝑥)^{2}} \\ & =\frac{2⋅(−\sqrt{√2})}{1−(−\sqrt{√2})^{2}} \\ & =\frac{−2\sqrt{√2}}{−1} \\ & =2\sqrt{√2}.\end{aligned}
+\begin{aligned}tan⁡2𝑥 & =\frac{2\,tan⁡𝑥}{1−(tan⁡𝑥)^{2}} \\ & =\frac{2⋅(−\sqrt{2})}{1−(−\sqrt{2})^{2}} \\ & =\frac{−2\sqrt{2}}{−1} \\ & =2\sqrt{2}.\end{aligned}
 
 
 $$
@@ -145,7 +145,7 @@ Substituting $x=15^\circ$ into the above, we get
 $$
 
 
-\begin{aligned}\frac{2tan⁡15^{∘}}{1−tan^{2}⁡15^{∘}} & =tan⁡(2⋅15^{∘}) \\ & =tan⁡30^{∘} \\ & =\frac{\sqrt{√3}}{3}.\end{aligned}
+\begin{aligned}\frac{2tan⁡15^{∘}}{1−tan^{2}⁡15^{∘}} & =tan⁡(2⋅15^{∘}) \\ & =tan⁡30^{∘} \\ & =\frac{\sqrt{3}}{3}.\end{aligned}
 
 
 $$

@@ -62,7 +62,7 @@ $$
 
 
 
-62\div 9 = {\color{blue}{6}} \,\textrm{R}\, {\color{red}{8}}.
+62\div 9 = {\color{blue}{6}} \,\text{R}\, {\color{red}{8}}.
 
 
 
@@ -92,7 +92,7 @@ $$
 
 
 
-85\div 7 = {\color{blue}{12}} \,\textrm{R}\, {\color{red}{1}}.
+85\div 7 = {\color{blue}{12}} \,\text{R}\, {\color{red}{1}}.
 
 
 
@@ -126,7 +126,7 @@ $$
 
 
 
-61\div 4 = {\color{blue}{15}} \,\textrm{R}\, {\color{red}{1}}.
+61\div 4 = {\color{blue}{15}} \,\text{R}\, {\color{red}{1}}.
 
 
 
@@ -162,7 +162,7 @@ $$
 
 
 
-74\div 6 = {\color{blue}{12}} \,\textrm{R}\, {\color{red}{2}}.
+74\div 6 = {\color{blue}{12}} \,\text{R}\, {\color{red}{2}}.
 
 
 
@@ -220,7 +220,7 @@ $$
 
 
 
-942 \div 9 = {\color{blue}{104}} \,\textrm{R}\, {\color{red}{6}}.
+942 \div 9 = {\color{blue}{104}} \,\text{R}\, {\color{red}{6}}.
 
 
 

@@ -38,7 +38,7 @@ We can now apply the zero product property, which states that $ab=0$ if and only
 $$
 
 
-x-2 = 0 \quad \textrm{and} \quad 3^x=0.
+x-2 = 0 \quad \text{and} \quad 3^x=0.
 
 
 $$
@@ -74,7 +74,7 @@ We can now apply the zero product property, which states that $ab=0$ if and only
 $$
 
 
-x^2 - 2x - 15 = 0 \quad \textrm{and} \quad e^{x-1}=0.
+x^2 - 2x - 15 = 0 \quad \text{and} \quad e^{x-1}=0.
 
 
 $$
@@ -110,7 +110,7 @@ We can now apply the zero product property, which states that $ab=0$ if and only
 $$
 
 
-9x^2 - 16 = 0 \quad \textrm{and} \quad 3^{x+1}=0.
+9x^2 - 16 = 0 \quad \text{and} \quad 3^{x+1}=0.
 
 
 $$

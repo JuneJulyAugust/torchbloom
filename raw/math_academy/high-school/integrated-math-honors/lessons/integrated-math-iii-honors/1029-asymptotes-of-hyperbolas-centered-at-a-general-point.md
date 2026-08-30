@@ -62,7 +62,7 @@ $$
 $$
 
 
-y - k = \pm \dfrac{\textrm{constant associated with }y}{\textrm{constant associated with }x} (x - h)
+y - k = \pm \dfrac{\text{constant associated with }y}{\text{constant associated with }x} (x - h)
 
 
 $$
@@ -110,7 +110,7 @@ Therefore, the asymptotes are given by
 $$
 
 
-\begin{aligned}𝑦+7 & =±(\frac{4\sqrt{√2}}{3\sqrt{√2}})(𝑥+2) \\ 𝑦+7 & =±\frac{4}{3}(𝑥+2).\end{aligned}
+\begin{aligned}𝑦+7 & =±(\frac{4\sqrt{2}}{3\sqrt{2}})(𝑥+2) \\ 𝑦+7 & =±\frac{4}{3}(𝑥+2).\end{aligned}
 
 
 $$

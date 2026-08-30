@@ -26,7 +26,7 @@ $$
 
 $$
 
-How can we find the orthogonal projection $\mathbf{x}_S$ of the vector $\mathbf{x}$ onto the subspace $S = \textrm{Span}\{\mathbf{a}_1, \mathbf{a}_2 \}?$ Notice that since $\mathbf a_1\cdot \mathbf a_2 \neq 0,$ the vectors $\mathbf{a}_1$ and $\mathbf{a}_2$ are not orthogonal.
+How can we find the orthogonal projection $\mathbf{x}_S$ of the vector $\mathbf{x}$ onto the subspace $S = \text{Span}\{\mathbf{a}_1, \mathbf{a}_2 \}?$ Notice that since $\mathbf a_1\cdot \mathbf a_2 \neq 0,$ the vectors $\mathbf{a}_1$ and $\mathbf{a}_2$ are not orthogonal.
 
 As usual, we would like to write $\mathbf{x}$ as
 
@@ -57,7 +57,7 @@ Since $\mathbf{x}_{S^\perp} \in S^\perp,$ that is, $\mathbf{x}_{S^\perp} \perp S
 $$
 
 
-\begin{aligned}\begin{aligned}𝐱_{𝑆^{⊥}}⊥𝐚_{1} \\ 𝐱_{𝑆^{⊥}}⊥𝐚_{2}\end{aligned}\,⟹\,\begin{aligned}𝐱_{𝑆^{⊥}}⋅𝐚_{1}=0 \\ 𝐱_{𝑆^{⊥}}⋅𝐚_{2}=0.\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}𝐱_{𝑆^{⊥}}⊥𝐚_{1} \\ 𝐱_{𝑆^{⊥}}⊥𝐚_{2}\end{matrix}\,⟹\,\begin{matrix}𝐱_{𝑆^{⊥}}⋅𝐚_{1}=0 \\ 𝐱_{𝑆^{⊥}}⋅𝐚_{2}=0.\end{matrix}\end{aligned}
 
 
 $$
@@ -92,7 +92,7 @@ A^TA\mathbf{k} = A^T\mathbf{x} \qquad\Longrightarrow\qquad \mathbf{k}=(A^TA)^{-1
 
 $$
 
-Also, we note that $\mathbf{x}_S = k_1 \mathbf{a}_1 + k_2 \mathbf{a}_2$ can be expressed as $\textrm{proj}_{S}\,\mathbf{x} = A\mathbf{k}.$
+Also, we note that $\mathbf{x}_S = k_1 \mathbf{a}_1 + k_2 \mathbf{a}_2$ can be expressed as $\text{proj}_{S}\,\mathbf{x} = A\mathbf{k}.$
 
 Therefore,
 
@@ -111,7 +111,7 @@ Now, we return to our example. Using the formula, we get
 $$
 
 
-\begin{aligned}proj_{𝑆}\,𝐱 & =\begin{aligned}1 & 1 \\ 2 & 3 \\ 1 & 1\end{aligned}⋅[\begin{aligned}1 & 2 & 1 \\ 1 & 3 & 1\end{aligned}]⋅\begin{aligned}1 & 1 \\ 2 & 3 \\ 1 & 1\end{aligned}^{−1}⋅[\begin{aligned}1 & 2 & 1 \\ 1 & 3 & 1\end{aligned}]⋅\begin{aligned}2 \\ 4 \\ 0\end{aligned} \\ & =\begin{aligned}1 & 1 \\ 2 & 3 \\ 1 & 1\end{aligned}⋅([\begin{aligned}6 & 8 \\ 8 & 11\end{aligned}])^{−1}⋅[\begin{aligned}10 \\ 14\end{aligned}] \\ & =\begin{aligned}1 & 1 \\ 2 & 3 \\ 1 & 1\end{aligned}⋅\frac{1}{2}[\begin{aligned}11 & −8 \\ −8 & 6\end{aligned}]⋅[\begin{aligned}10 \\ 14\end{aligned}] \\ & =\begin{aligned}1 & 1 \\ 2 & 3 \\ 1 & 1\end{aligned}⋅[\begin{aligned}−1 \\ 2\end{aligned}] \\ & =\begin{aligned}1 \\ 4 \\ 1\end{aligned}.\end{aligned}
+\begin{aligned}proj_{𝑆}\,𝐱 & =\begin{matrix}1 & 1 \\ 2 & 3 \\ 1 & 1\end{matrix}⋅[\begin{matrix}1 & 2 & 1 \\ 1 & 3 & 1\end{matrix}]⋅\begin{matrix}1 & 1 \\ 2 & 3 \\ 1 & 1\end{matrix}^{−1}⋅[\begin{matrix}1 & 2 & 1 \\ 1 & 3 & 1\end{matrix}]⋅\begin{matrix}2 \\ 4 \\ 0\end{matrix} \\ & =\begin{matrix}1 & 1 \\ 2 & 3 \\ 1 & 1\end{matrix}⋅([\begin{matrix}6 & 8 \\ 8 & 11\end{matrix}])^{−1}⋅[\begin{matrix}10 \\ 14\end{matrix}] \\ & =\begin{matrix}1 & 1 \\ 2 & 3 \\ 1 & 1\end{matrix}⋅\frac{1}{2}[\begin{matrix}11 & −8 \\ −8 & 6\end{matrix}]⋅[\begin{matrix}10 \\ 14\end{matrix}] \\ & =\begin{matrix}1 & 1 \\ 2 & 3 \\ 1 & 1\end{matrix}⋅[\begin{matrix}−1 \\ 2\end{matrix}] \\ & =\begin{matrix}1 \\ 4 \\ 1\end{matrix}.\end{aligned}
 
 
 $$
@@ -120,12 +120,12 @@ $$
 
 ### The General Formula for the Orthogonal Projection of a Vector Onto a Subspace
 
-If $\{\mathbf{a}_1, \mathbf{a}_2, \ldots, \mathbf{a}_n \}$ is a set of *linearly independent* vectors, then the orthogonal projection of a vector $\mathbf{x}$ onto the subspace $S = \textrm{span}\{\mathbf{a}_1, \mathbf{a}_2, \ldots, \mathbf{a}_n \}$ is given by
+If $\{\mathbf{a}_1, \mathbf{a}_2, \ldots, \mathbf{a}_n \}$ is a set of *linearly independent* vectors, then the orthogonal projection of a vector $\mathbf{x}$ onto the subspace $S = \text{span}\{\mathbf{a}_1, \mathbf{a}_2, \ldots, \mathbf{a}_n \}$ is given by
 
 $$
 
 
-\textrm{proj}_{S} \: \mathbf{x} = A(A^T\!A)^{-1}\!A^T\,\mathbf{x},
+\text{proj}_{S} \: \mathbf{x} = A(A^T\!A)^{-1}\!A^T\,\mathbf{x},
 
 
 $$
@@ -165,7 +165,7 @@ The orthogonal projection of $\mathbf{x}$ onto the subspace spanned by the colum
 $$
 
 
-\textrm{proj}_{S} \: \mathbf{x} = A\left(A^T\!A\right)^{-1}\!A^T\,\mathbf{x}.
+\text{proj}_{S} \: \mathbf{x} = A\left(A^T\!A\right)^{-1}\!A^T\,\mathbf{x}.
 
 
 $$
@@ -185,7 +185,7 @@ Therefore, we get the following projection:
 $$
 
 
-\begin{aligned}proj_{𝑆}\,𝐱 & =\begin{aligned}−2 & −2 \\ −2 & −2 \\ 2 & −2\end{aligned}⋅[\begin{aligned}−2 & −2 & 2 \\ −2 & −2 & −2\end{aligned}]⋅\begin{aligned}−2 & −2 \\ −2 & −2 \\ 2 & −2\end{aligned}^{−1}⋅[\begin{aligned}−2 & −2 & 2 \\ −2 & −2 & −2\end{aligned}]⋅\begin{aligned}2 \\ 0 \\ 8\end{aligned} \\ & =\begin{aligned}−2 & −2 \\ −2 & −2 \\ 2 & −2\end{aligned}⋅[\begin{aligned}12 & 4 \\ 4 & 12\end{aligned}]^{−1}⋅[\begin{aligned}12 \\ −20\end{aligned}] \\ & =\begin{aligned}−2 & −2 \\ −2 & −2 \\ 2 & −2\end{aligned}⋅\frac{1}{32}[\begin{aligned}3 & −1 \\ −1 & 3\end{aligned}]⋅[\begin{aligned}12 \\ −20\end{aligned}] \\ & =\begin{aligned}−2 & −2 \\ −2 & −2 \\ 2 & −2\end{aligned}⋅\frac{1}{4}[\begin{aligned}7 \\ −9\end{aligned}] \\ & =\begin{aligned}1 \\ 1 \\ 8\end{aligned}\end{aligned}
+\begin{aligned}proj_{𝑆}\,𝐱 & =\begin{matrix}−2 & −2 \\ −2 & −2 \\ 2 & −2\end{matrix}⋅[\begin{matrix}−2 & −2 & 2 \\ −2 & −2 & −2\end{matrix}]⋅\begin{matrix}−2 & −2 \\ −2 & −2 \\ 2 & −2\end{matrix}^{−1}⋅[\begin{matrix}−2 & −2 & 2 \\ −2 & −2 & −2\end{matrix}]⋅\begin{matrix}2 \\ 0 \\ 8\end{matrix} \\ & =\begin{matrix}−2 & −2 \\ −2 & −2 \\ 2 & −2\end{matrix}⋅[\begin{matrix}12 & 4 \\ 4 & 12\end{matrix}]^{−1}⋅[\begin{matrix}12 \\ −20\end{matrix}] \\ & =\begin{matrix}−2 & −2 \\ −2 & −2 \\ 2 & −2\end{matrix}⋅\frac{1}{32}[\begin{matrix}3 & −1 \\ −1 & 3\end{matrix}]⋅[\begin{matrix}12 \\ −20\end{matrix}] \\ & =\begin{matrix}−2 & −2 \\ −2 & −2 \\ 2 & −2\end{matrix}⋅\frac{1}{4}[\begin{matrix}7 \\ −9\end{matrix}] \\ & =\begin{matrix}1 \\ 1 \\ 8\end{matrix}\end{aligned}
 
 
 $$
@@ -211,7 +211,7 @@ First, we verify whether $\mathbf{a}_1, \mathbf{a}_2, \mathbf{a}_3$ are linearly
 $$
 
 
-\begin{aligned}𝑀 & =\,\,\begin{aligned}4 & 1 & 1 \\ 3 & 1 & 2 \\ 1 & 1 & 4\end{aligned} & & \begin{aligned}𝑅_{3}↔𝑅_{1}\end{aligned} \\ & ∼\begin{aligned}1 & 1 & 4 \\ 3 & 1 & 2 \\ 4 & 1 & 1\end{aligned} & & \begin{aligned}𝑅_{2}:=𝑅_{2}+(−3)𝑅_{1} \\ 𝑅_{3}:=𝑅_{3}+(−4)𝑅_{1}\end{aligned} \\ & ∼\begin{aligned}1 & 1 & 4 \\ 0 & −2 & −10 \\ 0 & −3 & −15\end{aligned} & & \begin{aligned}𝑅_{3}:=𝑅_{3}+(−\frac{3}{2})𝑅_{2}\end{aligned} \\ & ∼\begin{aligned}1 & 1 & 4 \\ 0 & −2 & −10 \\ 0 & 0 & 0\end{aligned} & & \end{aligned}
+\begin{aligned}𝑀 & =\,\,\begin{matrix}4 & 1 & 1 \\ 3 & 1 & 2 \\ 1 & 1 & 4\end{matrix} & & \begin{matrix}𝑅_{3}↔𝑅_{1}\end{matrix} \\ & ∼\begin{matrix}1 & 1 & 4 \\ 3 & 1 & 2 \\ 4 & 1 & 1\end{matrix} & & \begin{matrix}𝑅_{2}:=𝑅_{2}+(−3)𝑅_{1} \\ 𝑅_{3}:=𝑅_{3}+(−4)𝑅_{1}\end{matrix} \\ & ∼\begin{matrix}1 & 1 & 4 \\ 0 & −2 & −10 \\ 0 & −3 & −15\end{matrix} & & \begin{matrix}𝑅_{3}:=𝑅_{3}+(−\frac{3}{2})𝑅_{2}\end{matrix} \\ & ∼\begin{matrix}1 & 1 & 4 \\ 0 & −2 & −10 \\ 0 & 0 & 0\end{matrix} & & \end{aligned}
 
 
 $$
@@ -223,7 +223,7 @@ Now, the orthogonal projection of $\mathbf{x}$ onto the subspace spanned by the 
 $$
 
 
-\textrm{proj}_{S} \: \mathbf{x} = A(A^T\!A)^{-1}\!A^T\,\mathbf{x}.
+\text{proj}_{S} \: \mathbf{x} = A(A^T\!A)^{-1}\!A^T\,\mathbf{x}.
 
 
 $$
@@ -243,19 +243,19 @@ Therefore, we get the following projection:
 $$
 
 
-\begin{aligned}proj_{𝑆}\,𝐱 & =\begin{aligned}4 & 1 \\ 3 & 1 \\ 1 & 1\end{aligned}⋅[\begin{aligned}4 & 3 & 1 \\ 1 & 1 & 1\end{aligned}]⋅\begin{aligned}4 & 1 \\ 3 & 1 \\ 1 & 1\end{aligned}^{−1}⋅[\begin{aligned}4 & 3 & 1 \\ 1 & 1 & 1\end{aligned}]⋅\begin{aligned}5 \\ −1 \\ 1\end{aligned} \\ & =\begin{aligned}4 & 1 \\ 3 & 1 \\ 1 & 1\end{aligned}⋅[\begin{aligned}26 & 8 \\ 8 & 3\end{aligned}]^{−1}⋅[\begin{aligned}18 \\ 5\end{aligned}] \\ & =\begin{aligned}4 & 1 \\ 3 & 1 \\ 1 & 1\end{aligned}⋅\frac{1}{14}[\begin{aligned}3 & −8 \\ −8 & 26\end{aligned}]⋅[\begin{aligned}18 \\ 5\end{aligned}] \\ & =\begin{aligned}4 & 1 \\ 3 & 1 \\ 1 & 1\end{aligned}[\begin{aligned}1 \\ −1\end{aligned}] \\ & =\begin{aligned}3 \\ 2 \\ 0\end{aligned}\end{aligned}
+\begin{aligned}proj_{𝑆}\,𝐱 & =\begin{matrix}4 & 1 \\ 3 & 1 \\ 1 & 1\end{matrix}⋅[\begin{matrix}4 & 3 & 1 \\ 1 & 1 & 1\end{matrix}]⋅\begin{matrix}4 & 1 \\ 3 & 1 \\ 1 & 1\end{matrix}^{−1}⋅[\begin{matrix}4 & 3 & 1 \\ 1 & 1 & 1\end{matrix}]⋅\begin{matrix}5 \\ −1 \\ 1\end{matrix} \\ & =\begin{matrix}4 & 1 \\ 3 & 1 \\ 1 & 1\end{matrix}⋅[\begin{matrix}26 & 8 \\ 8 & 3\end{matrix}]^{−1}⋅[\begin{matrix}18 \\ 5\end{matrix}] \\ & =\begin{matrix}4 & 1 \\ 3 & 1 \\ 1 & 1\end{matrix}⋅\frac{1}{14}[\begin{matrix}3 & −8 \\ −8 & 26\end{matrix}]⋅[\begin{matrix}18 \\ 5\end{matrix}] \\ & =\begin{matrix}4 & 1 \\ 3 & 1 \\ 1 & 1\end{matrix}[\begin{matrix}1 \\ −1\end{matrix}] \\ & =\begin{matrix}3 \\ 2 \\ 0\end{matrix}\end{aligned}
 
 
 $$
 
 ### Some Intuition Behind the Formula
 
-As we've already seen, the orthogonal projection of a vector $\mathbf{x}$ onto the one-dimensional subspace $\textrm{Span}\{\mathbf{a}\}$ is given by
+As we've already seen, the orthogonal projection of a vector $\mathbf{x}$ onto the one-dimensional subspace $\text{Span}\{\mathbf{a}\}$ is given by
 
 $$
 
 
-\textrm{proj}_{\mathbf{a}} \, \mathbf{x} = \dfrac{\mathbf{a} \cdot \mathbf{x}}{\mathbf{a} \cdot \mathbf{a}} \: \mathbf{a}.
+\text{proj}_{\mathbf{a}} \, \mathbf{x} = \dfrac{\mathbf{a} \cdot \mathbf{x}}{\mathbf{a} \cdot \mathbf{a}} \: \mathbf{a}.
 
 
 $$
@@ -275,7 +275,7 @@ Now, let's compare the above with the formula that we use when we want to projec
 $$
 
 
-\textrm{proj}_{S} \: \mathbf{x} = A(A^T\!A)^{-1}\!A^T\,\mathbf{x}
+\text{proj}_{S} \: \mathbf{x} = A(A^T\!A)^{-1}\!A^T\,\mathbf{x}
 
 
 $$

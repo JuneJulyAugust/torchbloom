@@ -18,7 +18,7 @@ $$
 
 
 
-\textrm{Var}[X] = \sum\limits_{x \in S} (x - \textrm E[X])^2 \cdot f(x).
+\text{Var}[X] = \sum\limits_{x \in S} (x - \textrm E[X])^2 \cdot f(x).
 
 
 
@@ -30,7 +30,7 @@ $$
 
 
 
-\textrm{Var}[X] = \textrm E [ (X - \textrm E[X])^2 ]
+\text{Var}[X] = \textrm E [ (X - \textrm E[X])^2 ]
 
 
 
@@ -48,7 +48,7 @@ In general,
 
 #### Question
 
-Let $X$ be the number obtained by a spinner with four sections labeled $1, 2, 3, 4.$ The probability mass function $f(x)$ of $X$ is shown in the table below. What is $\textrm{Var}[X]?$
+Let $X$ be the number obtained by a spinner with four sections labeled $1, 2, 3, 4.$ The probability mass function $f(x)$ of $X$ is shown in the table below. What is $\text{Var}[X]?$
 
 #### Explanation
 
@@ -58,7 +58,7 @@ $$
 
 
 
-\textrm{Var}[X] = \sum\limits_{x \in S} (x - \textrm E[X])^2 \cdot f(x).
+\text{Var}[X] = \sum\limits_{x \in S} (x - \textrm E[X])^2 \cdot f(x).
 
 
 
@@ -82,7 +82,7 @@ $$
 
 
 
-\textrm{Var}[X] = \sum\limits_{x \in S} \left(x - \dfrac{8}{3} \right)^2 \cdot f(x).
+\text{Var}[X] = \sum\limits_{x \in S} \left(x - \dfrac{8}{3} \right)^2 \cdot f(x).
 
 
 
@@ -108,7 +108,7 @@ $$
 
 
 
-\textrm{Var}[X] = \textrm E [ X^2 ] - \textrm E[X]^2
+\text{Var}[X] = \textrm E [ X^2 ] - \textrm E[X]^2
 
 
 
@@ -120,7 +120,7 @@ As we will see in the following example, using this formula often speeds up the 
 
 #### Question
 
-If $\textrm E[X] = 4$ and $\textrm E[X^2] = 21,$ then what is $\textrm{Var}[X]?$
+If $\textrm E[X] = 4$ and $\textrm E[X^2] = 21,$ then what is $\text{Var}[X]?$
 
 #### Explanation
 
@@ -130,7 +130,7 @@ $$
 
 
 
-\textrm{Var}[X] = \textrm E[X^2] - \textrm E[X]^2
+\text{Var}[X] = \textrm E[X^2] - \textrm E[X]^2
 
 
 
@@ -162,7 +162,7 @@ $$
 
 
 
-\textrm{Var}[X] = \textrm E[X^2] - \textrm E[X]^2
+\text{Var}[X] = \textrm E[X^2] - \textrm E[X]^2
 
 
 
@@ -214,7 +214,7 @@ $$
 
 
 
-\textrm{SD}[X] = \sqrt{ \textrm{Var}[X] }
+\text{SD}[X] = \sqrt{ \text{Var}[X] }
 
 
 
@@ -230,7 +230,7 @@ For now, though, let's get some practice computing the standard deviation of a r
 
 #### Question
 
-A fair die with sides labeled with numbers $1$ through $6$ is thrown once. If $X$ is the outcome of the die, what is $\textrm{SD}[X]?$
+A fair die with sides labeled with numbers $1$ through $6$ is thrown once. If $X$ is the outcome of the die, what is $\text{SD}[X]?$
 
 #### Explanation
 
@@ -240,7 +240,7 @@ $$
 
 
 
-\textrm{SD}[X] = \sqrt{ \textrm{Var}[X] },
+\text{SD}[X] = \sqrt{ \text{Var}[X] },
 
 
 
@@ -252,7 +252,7 @@ $$
 
 
 
-\textrm{Var}[X] = \textrm E[X^2] - \textrm E[X]^2
+\text{Var}[X] = \textrm E[X^2] - \textrm E[X]^2
 
 
 
@@ -302,7 +302,7 @@ $$
 
 
 
-\begin{aligned}SD[𝑋] & =\sqrt{√Var[𝑋]} \\ & =\sqrt{√\frac{35}{12}}.\end{aligned}
+\begin{aligned}SD[𝑋] & =\sqrt{Var[𝑋]} \\ & =\sqrt{\frac{35}{12}}.\end{aligned}
 
 
 
@@ -316,7 +316,7 @@ $$
 
 
 
-\textrm{Var}[X] = \textrm{E}[X^2] - \textrm{E}[X]^2
+\text{Var}[X] = \text{E}[X^2] - \text{E}[X]^2
 
 
 
@@ -328,7 +328,7 @@ $$
 
 
 
-\textrm{Var}[X] = \textrm E [ (X - \textrm E[X])^2 ].
+\text{Var}[X] = \textrm E [ (X - \textrm E[X])^2 ].
 
 
 
@@ -340,7 +340,7 @@ $$
 
 
 
-\textrm{Var}[X] =\textrm E [ X^2 - 2\textrm E[X] \cdot X + \textrm E[X]^2 ] .
+\text{Var}[X] =\textrm E [ X^2 - 2\textrm E[X] \cdot X + \textrm E[X]^2 ] .
 
 
 
@@ -352,7 +352,7 @@ $$
 
 
 
-\textrm{Var}[X] = \textrm E [ X^2 ] + \textrm E[ - 2\textrm E[X] \cdot X ] + \textrm E[ \textrm E[X]^2 ] .
+\text{Var}[X] = \textrm E [ X^2 ] + \textrm E[ - 2\textrm E[X] \cdot X ] + \textrm E[ \textrm E[X]^2 ] .
 
 
 
@@ -362,7 +362,7 @@ Now, we make the following simplifications:
 
 - Since $\textrm E[aX] = a \textrm E[X]$ for any constant $a,$ we can write
 
-- Since $\textrm{E}[X]$ is a constant, and $\textrm E[a] = a$ for any constant $a,$ we can write
+- Since $\text{E}[X]$ is a constant, and $\textrm E[a] = a$ for any constant $a,$ we can write
 
 So, we have
 

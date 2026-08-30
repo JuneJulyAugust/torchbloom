@@ -56,7 +56,7 @@ $$
 
 
 
-f(x) \rightarrow {\color{red}{-\infty}} \quad \textrm{as}\quad x\rightarrow 1^-.
+f(x) \rightarrow {\color{red}{-\infty}} \quad \text{as}\quad x\rightarrow 1^-.
 
 
 

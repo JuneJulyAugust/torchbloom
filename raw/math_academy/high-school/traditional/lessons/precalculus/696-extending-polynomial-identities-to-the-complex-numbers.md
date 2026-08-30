@@ -98,7 +98,7 @@ Factor $m^2 + 16n^2.$
 
 #### Explanation
 
-To factor a sum of squares, we first write it as a difference. Then, we rewrite the second term using $\textrm{i}^2 = -1.$ Finally, we factor as a difference of squares.
+To factor a sum of squares, we first write it as a difference. Then, we rewrite the second term using $\text{i}^2 = -1.$ Finally, we factor as a difference of squares.
 
 $$
 
@@ -130,7 +130,7 @@ $$
 
 $$
 
-To factor a sum of squares, we first write it as a difference. Then, we rewrite the second term using $\textrm{i}^2 = -1.$ Finally, we factor as a difference of squares.
+To factor a sum of squares, we first write it as a difference. Then, we rewrite the second term using $\text{i}^2 = -1.$ Finally, we factor as a difference of squares.
 
 $$
 
@@ -164,7 +164,7 @@ $$
 
 Let's now focus on factoring the expression $\left(z^2+25\right).$
 
-To factor a sum of squares, we first write it as a difference. Then, we rewrite the second term using $\textrm{i}^2 = -1.$ Finally, we factor as a difference of squares.
+To factor a sum of squares, we first write it as a difference. Then, we rewrite the second term using $\text{i}^2 = -1.$ Finally, we factor as a difference of squares.
 
 $$
 
@@ -208,7 +208,7 @@ $$
 
 $$
 
-Now, we need to factor the sum of squares in the parentheses. To do this, we first write it as a difference. Then, we rewrite the second term using $\textrm{i}^2 = -1.$ Finally, we factor as a difference of squares.
+Now, we need to factor the sum of squares in the parentheses. To do this, we first write it as a difference. Then, we rewrite the second term using $\text{i}^2 = -1.$ Finally, we factor as a difference of squares.
 
 $$
 

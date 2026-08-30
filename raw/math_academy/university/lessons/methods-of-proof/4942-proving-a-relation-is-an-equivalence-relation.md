@@ -91,21 +91,21 @@ Let $X$ be the set of all people, and $a \sim b$ if and only if $a$ and $b$ are 
 
 A proof of this statement is given below.
 
-$\textrm{L1}{:}\:$ Let $a, b, c \in X$ such that $a \sim b$ and $b \sim c.$
+$\text{L1}{:}\:$ Let $a, b, c \in X$ such that $a \sim b$ and $b \sim c.$
 
-$\textrm{L2}{:}\:$ Then, $a$ and $b,$ and $b$ and $c$ are of the same age.
+$\text{L2}{:}\:$ Then, $a$ and $b,$ and $b$ and $c$ are of the same age.
 
-$\textrm{L3}{:}\:$ So, $a$ and $c$ are the same age.
+$\text{L3}{:}\:$ So, $a$ and $c$ are the same age.
 
-$\textrm{L4}{:}\:$ Thus, $a \sim c.$
+$\text{L4}{:}\:$ Thus, $a \sim c.$
 
-$\textrm{L5}{:}\:$ Therefore, $\sim$ is transitive on $X.$
+$\text{L5}{:}\:$ Therefore, $\sim$ is transitive on $X.$
 
 What words are missing from the reasoning below?
 
-- Line $\textrm{L2}$ follows from line $\textrm{L1}$ by the definition of $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\:.$
+- Line $\text{L2}$ follows from line $\text{L1}$ by the definition of $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\:.$
 
-- Line $\textrm{L5}$ follows from $\textrm{L1}$ and $\textrm{L4}$ by the definition of $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_$ of relations.
+- Line $\text{L5}$ follows from $\text{L1}$ and $\text{L4}$ by the definition of $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_$ of relations.
 
 - To prove that $\sim$ is an equivalence relation, we also need to demonstrate that $\sim$ is $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\:$ and $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\:.$
 
@@ -113,11 +113,11 @@ What words are missing from the reasoning below?
 
 Let's examine each statement in turn.
 
-- First, we consider lines $\textrm{L1}$ and $\textrm{L2}.$ From the facts that $a \sim b$ and $b \sim c,$ we can conclude that $a$ and $b,$ and $b$ and $c,$ are of the same age by the definition of $∼$
+- First, we consider lines $\text{L1}$ and $\text{L2}.$ From the facts that $a \sim b$ and $b \sim c,$ we can conclude that $a$ and $b,$ and $b$ and $c,$ are of the same age by the definition of $∼$
 
-- Next, we consider lines $\textrm{L1},$ $\textrm{L4},$ and $\textrm{L5}.$ Since $a \sim b$ and $b \sim c$ implies $a \sim c,$ we can conclude that our relation is transitive. Therefore, $\textrm{L5}$ follows from $\textrm{L1}$ and $\textrm{L4}$ by the definition of $\boxed{\color{blue}\textrm{transitivity}}$ of relations.
+- Next, we consider lines $\text{L1},$ $\text{L4},$ and $\text{L5}.$ Since $a \sim b$ and $b \sim c$ implies $a \sim c,$ we can conclude that our relation is transitive. Therefore, $\text{L5}$ follows from $\text{L1}$ and $\text{L4}$ by the definition of $\boxed{\color{blue}\text{transitivity}}$ of relations.
 
-- Finally, to prove that we have an equivalence relation, we also need to demonstrate that $\sim$ is $\boxed{\color{blue}\textrm{reflexive}}$ and $\boxed{\color{blue}\textrm{symmetric}}.$
+- Finally, to prove that we have an equivalence relation, we also need to demonstrate that $\sim$ is $\boxed{\color{blue}\text{reflexive}}$ and $\boxed{\color{blue}\text{symmetric}}.$
 
 ### Example: Proving a Relation Is an Equivalence Relation
 

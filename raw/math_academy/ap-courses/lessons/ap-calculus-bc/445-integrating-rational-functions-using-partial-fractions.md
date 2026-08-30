@@ -12,7 +12,7 @@ Topic ID: 445
 
 ### Introduction
 
-How do we evaluate an integral like $\displaystyle \int \dfrac{2x-1}{(x+2)(x-3)} \textrm{d}x?$
+How do we evaluate an integral like $\displaystyle \int \dfrac{2x-1}{(x+2)(x-3)} \text{d}x?$
 
 First of all, note that the integrand can be converted into a sum of partial fractions:
 
@@ -82,7 +82,7 @@ And we're done!
 
 #### Question
 
-Evaluate $\displaystyle \int \dfrac{5x}{x^2+3x-4} \,\textrm{d}x.$
+Evaluate $\displaystyle \int \dfrac{5x}{x^2+3x-4} \,\text{d}x.$
 
 #### Explanation
 
@@ -160,7 +160,7 @@ $$
 
 #### Question
 
-Evaluate $\displaystyle \int_1^4 \dfrac{2x+3}{4x^2-1} \,\textrm{d}x.$
+Evaluate $\displaystyle \int_1^4 \dfrac{2x+3}{4x^2-1} \,\text{d}x.$
 
 #### Explanation
 
@@ -241,7 +241,7 @@ We can simplify the result using the laws of logarithms, as follows:
 $$
 
 
-\begin{aligned}∫\frac{2𝑥+3}{4𝑥^{2}−1}d𝑥 & =−\frac{1}{2}ln⁡|2𝑥+1|+ln⁡|2𝑥−1|+𝐶 \\ & =ln⁡\frac{1}{\sqrt{√2𝑥+1}}+ln⁡|2𝑥−1|+𝐶 \\ & =ln⁡\frac{2𝑥−1}{\sqrt{√2𝑥+1}}+𝐶\end{aligned}
+\begin{aligned}∫\frac{2𝑥+3}{4𝑥^{2}−1}d𝑥 & =−\frac{1}{2}ln⁡|2𝑥+1|+ln⁡|2𝑥−1|+𝐶 \\ & =ln⁡\frac{1}{\sqrt{2𝑥+1}}+ln⁡|2𝑥−1|+𝐶 \\ & =ln⁡\frac{2𝑥−1}{\sqrt{2𝑥+1}}+𝐶\end{aligned}
 
 
 $$
@@ -251,7 +251,7 @@ Finally, the definite integral is
 $$
 
 
-\begin{aligned}∫_{41}^{}\frac{2𝑥+3}{4𝑥^{2}−1}\,d𝑥 & =ln⁡\frac{2𝑥−1}{\sqrt{√2𝑥+1}}_{41}^{} \\ & =ln⁡(\frac{7}{3})−ln⁡(\frac{1}{\sqrt{√3}}) \\ & =ln⁡(\frac{7}{3})+ln⁡(\sqrt{√3}) \\ & =ln⁡(\frac{7\sqrt{√3}}{3}).\end{aligned}
+\begin{aligned}∫_{41}\frac{2𝑥+3}{4𝑥^{2}−1}\,d𝑥 & =ln⁡\frac{2𝑥−1}{\sqrt{2𝑥+1}}_{41} \\ & =ln⁡(\frac{7}{3})−ln⁡(\frac{1}{\sqrt{3}}) \\ & =ln⁡(\frac{7}{3})+ln⁡(\sqrt{3}) \\ & =ln⁡(\frac{7\sqrt{3}}{3}).\end{aligned}
 
 
 $$

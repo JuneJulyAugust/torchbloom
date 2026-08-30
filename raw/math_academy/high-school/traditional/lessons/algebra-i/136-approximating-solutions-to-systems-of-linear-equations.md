@@ -188,7 +188,7 @@ The smallest error is $0.2,$ which corresponds to $x=1.2.$ Therefore, $x\approx 
 
 ![Instructional graphic](../../../../lesson-assets/algebra-i/topic-136/782ed6d71c144ac7.png)
 
-The temperature, in ${}^{\circ}\textrm{C},$ of object $A$ and object $B$ are given by the equations $y=0.43x+6$ and $y=0.65x+3$, respectively, where $x$ is the time, in hours, since the beginning of the day. Using the graph above and the table below, find a value for $x$ that corresponds to an approximation of when both objects have the same temperature.
+The temperature, in ${}^{\circ}\text{C},$ of object $A$ and object $B$ are given by the equations $y=0.43x+6$ and $y=0.65x+3$, respectively, where $x$ is the time, in hours, since the beginning of the day. Using the graph above and the table below, find a value for $x$ that corresponds to an approximation of when both objects have the same temperature.
 
 .equal-width td {width: 10px; text-align: center;}
 

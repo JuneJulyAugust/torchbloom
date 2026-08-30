@@ -30,7 +30,7 @@ The factorials of the natural numbers $1$ through $5$ are as follows:
 $$
 
 
-\begin{aligned} 1! &= 1 \\\[5pt] 2! &= 2 \cdot 1 = 2 \\\[5pt] 3! &= 3 \cdot 2 \cdot 1 = 6 \\\[5pt] 4! &= 4 \cdot 3 \cdot 2 \cdot 1 = 24 \\\[5pt] 5! &= 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 = 120 \end{aligned}
+\begin{aligned} 1! &= 1 \\[5pt] 2! &= 2 \cdot 1 = 2 \\[5pt] 3! &= 3 \cdot 2 \cdot 1 = 6 \\[5pt] 4! &= 4 \cdot 3 \cdot 2 \cdot 1 = 24 \\[5pt] 5! &= 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 = 120 \end{aligned}
 
 
 $$
@@ -142,7 +142,7 @@ First, notice that $5! = 5 \cdot 4 \cdot 3 \cdot 2! \,.$ Then, we can cancel the
 $$
 
 
- \begin{aligned} \dfrac {5!} {2!} &= \dfrac {5 \cdot 4 \cdot 3 \cdot 2!} {2!} \\\[5pt] &= \dfrac {5 \cdot 4 \cdot 3 \cdot 2!} {2!} \\\[5pt] &= \dfrac {5 \cdot 4 \cdot 3} {1} \\\[5pt] &= 60 \end{aligned}
+ \begin{aligned} \dfrac {5!} {2!} &= \dfrac {5 \cdot 4 \cdot 3 \cdot 2!} {2!} \\[5pt] &= \dfrac {5 \cdot 4 \cdot 3 \cdot 2!} {2!} \\[5pt] &= \dfrac {5 \cdot 4 \cdot 3} {1} \\[5pt] &= 60 \end{aligned}
 
 
 $$

@@ -11,7 +11,7 @@ Topic ID: 3533
 
 ### Introduction
 
-The area of the whole circle below is $24\,\textrm{cm}^2,$ and the area of the shaded sector is $4\,\textrm{cm}^2.$ What is the measure of $\angle{AOB}?$
+The area of the whole circle below is $24\,\text{cm}^2,$ and the area of the shaded sector is $4\,\text{cm}^2.$ What is the measure of $\angle{AOB}?$
 
 ![Instructional graphic](../../../lesson-assets/sat-math-fundamentals/topic-3533/f6f75de787619d7a.png)
 
@@ -20,7 +20,7 @@ First, note that the ratio of the smaller area to the larger area is
 $$
 
 
-\dfrac{4\,\textrm{cm}^2}{24\,\textrm{cm}^2} = \dfrac{1}{6}.
+\dfrac{4\,\text{cm}^2}{24\,\text{cm}^2} = \dfrac{1}{6}.
 
 
 $$
@@ -49,7 +49,7 @@ What is the area of the shaded circular sector shown below?
 
 #### Explanation
 
-From the diagram, we have that the radius $r$ of the circle is $4\,\textrm{cm}.$
+From the diagram, we have that the radius $r$ of the circle is $4\,\text{cm}.$
 
 Now, $\angle{AOB}$ is the central angle that intercepts the arc $\overset{\frown}{AB}.$ So the measure of the major arc (that corresponds to our sector) is
 
@@ -87,7 +87,7 @@ $$
 
 ![Instructional graphic](../../../lesson-assets/sat-math-fundamentals/topic-3533/26f3e41c3267d476.png)
 
-The area of the circular sector $AOB$ is $9\pi\,\textrm{km}^2$ and $m\overset{\frown}{AB}=90^\circ.$ Find the radius of the circle.
+The area of the circular sector $AOB$ is $9\pi\,\text{km}^2$ and $m\overset{\frown}{AB}=90^\circ.$ Find the radius of the circle.
 
 #### Explanation
 
@@ -121,7 +121,7 @@ $$
 
 $$
 
-Therefore, $r=6\,\textrm{km}$, since a distance can't be negative.
+Therefore, $r=6\,\text{km}$, since a distance can't be negative.
 
 ### Example: Word Problems
 
@@ -133,12 +133,12 @@ A $12$-inch pendulum swings through an angle of $60^\circ$, as depicted below. F
 
 #### Explanation
 
-Let $r= 12\,\textrm{in}.$ Then, the area of the corresponding full circle is
+Let $r= 12\,\text{in}.$ Then, the area of the corresponding full circle is
 
 $$
 
 
-\pi r^2 = \pi \cdot 12^2 = 144\pi\,\textrm{in}^2.
+\pi r^2 = \pi \cdot 12^2 = 144\pi\,\text{in}^2.
 
 
 $$

@@ -65,7 +65,7 @@ $$
 
 
 
-\begin{aligned}𝐴𝐱 & =[\begin{aligned}2 & 3 \\ 4 & −5\end{aligned}][\begin{aligned}𝑥 \\ 𝑦\end{aligned}] \\ & =[\begin{aligned}2𝑥+3𝑦 \\ 4𝑥 − 5𝑦\end{aligned}] \\ & =[\begin{aligned}5 \\ −1\end{aligned}] \\ & =𝐛\,✓\end{aligned}
+\begin{aligned}𝐴𝐱 & =[\begin{matrix}2 & 3 \\ 4 & −5\end{matrix}][\begin{matrix}𝑥 \\ 𝑦\end{matrix}] \\ & =[\begin{matrix}2𝑥+3𝑦 \\ 4𝑥 − 5𝑦\end{matrix}] \\ & =[\begin{matrix}5 \\ −1\end{matrix}] \\ & =𝐛\,✓\end{aligned}
 
 
 
@@ -161,7 +161,7 @@ $$
 
 
 
-\begin{aligned}\begin{aligned}−5𝑦=−3𝑥 \\ 6+𝑥=−2+𝑦\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}−5𝑦=−3𝑥 \\ 6+𝑥=−2+𝑦\end{matrix}\end{aligned}
 
 
 
@@ -175,7 +175,7 @@ $$
 
 
 
-\begin{aligned}\begin{aligned}3𝑥−5𝑦=0 \\ 𝑥−𝑦=−8.\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}3𝑥−5𝑦=0 \\ 𝑥−𝑦=−8.\end{matrix}\end{aligned}
 
 
 
@@ -255,7 +255,7 @@ $$
 
 
 
-\begin{aligned}\begin{aligned}10𝑥−15𝑦=5 \\ 1𝑥+0𝑦=−2\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}10𝑥−15𝑦=5 \\ 1𝑥+0𝑦=−2\end{matrix}\end{aligned}
 
 
 
@@ -267,7 +267,7 @@ $$
 
 
 
-\begin{aligned}\begin{aligned}2𝑥−3𝑦=1 \\ 𝑥=−2.\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}2𝑥−3𝑦=1 \\ 𝑥=−2.\end{matrix}\end{aligned}
 
 
 

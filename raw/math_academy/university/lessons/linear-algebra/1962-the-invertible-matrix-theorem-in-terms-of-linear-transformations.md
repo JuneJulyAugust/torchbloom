@@ -46,7 +46,7 @@ Recall that the ** (in terms of linear transformations) states the following:
 
 $\mathbf{T}$ is a bijection $\begin{aligned} & Im(𝐓)=ℝ^{𝑛} \\ & rank(𝐓)=𝑛 \\ & Ker(𝐓)={𝟎} \\ & nullity(𝐓)=0\end{aligned}$ $\qquad \Longleftrightarrow \qquad$ $T$ is invertible
 
-Therefore, the missing expression is $\textrm{Im}(\mathbf{T}).$
+Therefore, the missing expression is $\text{Im}(\mathbf{T}).$
 
 ### Example: Identifying True Statements Using the Invertible Matrix Theorem
 
@@ -54,11 +54,11 @@ Therefore, the missing expression is $\textrm{Im}(\mathbf{T}).$
 
 Which of the following statements are true given that $\mathbf{T}:\mathbb{R}^3 \to \mathbb{R}^3$ is a linear transformation whose standard matrix is $T,$ and $T$ is invertible?
 
-1. $\textrm{Ker}(\mathbf{T}) \neq \{\mathbf{0}\}$
+1. $\text{Ker}(\mathbf{T}) \neq \{\mathbf{0}\}$
 
-2. $\textrm{nullity}(\mathbf{T})=0$
+2. $\text{nullity}(\mathbf{T})=0$
 
-3. $\textrm{rank}(\mathbf{T}) = 3$
+3. $\text{rank}(\mathbf{T}) = 3$
 
 #### Explanation
 
@@ -68,11 +68,11 @@ $\mathbf{T}$ is a bijection (an invertible transformation) $\begin{aligned} & Im
 
 With that in mind, let's examine each statement in turn.
 
-- Statement I is false. Since $T$ is invertible, the invertible matrix theorem implies that $\textrm{Ker}(\mathbf{T}) = \{\mathbf{0}\}.$
+- Statement I is false. Since $T$ is invertible, the invertible matrix theorem implies that $\text{Ker}(\mathbf{T}) = \{\mathbf{0}\}.$
 
-- Statement II is true. Since $T$ is invertible, the invertible matrix theorem implies that $\textrm{nullity}(\mathbf{T}) = 0.$
+- Statement II is true. Since $T$ is invertible, the invertible matrix theorem implies that $\text{nullity}(\mathbf{T}) = 0.$
 
-- Statement III is true. Since $T$ is invertible, the invertible matrix theorem implies that $\textrm{rank}(\mathbf{T}) = 3.$
+- Statement III is true. Since $T$ is invertible, the invertible matrix theorem implies that $\text{rank}(\mathbf{T}) = 3.$
 
 Therefore, the correct answer is "II and III only."
 
@@ -86,9 +86,9 @@ Let $\mathbf{T}:\mathbb{R}^3\rightarrow \mathbb{R}^3$ be a linear transformation
 
 Which of the following can be placed into the blank space to make a true statement?
 
-1. $\textrm{Im}(\mathbf{T})=\mathbb{R}^3$
+1. $\text{Im}(\mathbf{T})=\mathbb{R}^3$
 
-2. $\textrm{Ker}(\mathbf{T})\ne\{\mathbf{0}\}$
+2. $\text{Ker}(\mathbf{T})\ne\{\mathbf{0}\}$
 
 3. $\mathbf{T}$ is invertible
 
@@ -100,10 +100,10 @@ $\mathbf{T}$ is a bijection (an invertible transformation) $\begin{aligned} & Im
 
 With that in mind, let's examine each statement in turn.
 
-- Statement I is false. Since $[1, 2, 1]^T \not\in \textrm{Im}(\mathbf{T}),$ we must have that $\textrm{Im}(\mathbf{T}) \neq \mathbb{R}^3.$
+- Statement I is false. Since $[1, 2, 1]^T \not\in \text{Im}(\mathbf{T}),$ we must have that $\text{Im}(\mathbf{T}) \neq \mathbb{R}^3.$
 
-- Statement II is true. Since the vector $[1, 2, 1]^T$ does not lie in $\textrm{Im}(\mathbf{T})$, then $\textrm{Im}(\mathbf{T}) \neq \mathbb{R}^3.$ Therefore, according to the invertible matrix theorem, we must have $\textrm{Ker}(\mathbf{T}) \neq \{\mathbf{0}\}.$
+- Statement II is true. Since the vector $[1, 2, 1]^T$ does not lie in $\text{Im}(\mathbf{T})$, then $\text{Im}(\mathbf{T}) \neq \mathbb{R}^3.$ Therefore, according to the invertible matrix theorem, we must have $\text{Ker}(\mathbf{T}) \neq \{\mathbf{0}\}.$
 
-- Statement III is false. According to the invertible matrix theorem, since $\textrm{Im}(\mathbf{T}) \neq \mathbb{R}^3,$ the transformation $\mathbf T$ can't be invertible.
+- Statement III is false. According to the invertible matrix theorem, since $\text{Im}(\mathbf{T}) \neq \mathbb{R}^3,$ the transformation $\mathbf T$ can't be invertible.
 
 Therefore, the correct answer is "II only."

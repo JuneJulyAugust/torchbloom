@@ -279,7 +279,7 @@ Now, we solve the obtained equation for $n{:}$
 $$
 
 
-\begin{aligned}6𝑛^{2} & =3𝑚^{2}+18 \\ \frac{6𝑛^{2}}{6} & =\frac{3𝑚^{2}+18}{6} \\ 𝑛^{2} & =\frac{𝑚^{2}}{2}+3 \\ 𝑛 & =\sqrt{√\frac{𝑚^{2}}{2}+3}\end{aligned}
+\begin{aligned}6𝑛^{2} & =3𝑚^{2}+18 \\ \frac{6𝑛^{2}}{6} & =\frac{3𝑚^{2}+18}{6} \\ 𝑛^{2} & =\frac{𝑚^{2}}{2}+3 \\ 𝑛 & =\sqrt{\frac{𝑚^{2}}{2}+3}\end{aligned}
 
 
 $$
@@ -291,7 +291,7 @@ Therefore, the function $V$ that represents the volume of cube $N$ is given by
 $$
 
 
-\begin{aligned}𝑉(𝑚) & =𝑛^{3} \\ & =\sqrt{√\frac{𝑚^{2}}{2}+3}^{3} \\ & =((\frac{𝑚^{2}}{2}+3)^{1/2})^{3} \\ & =((\frac{𝑚^{2}}{2}+3)^{3})^{1/2} \\ & =\sqrt{√(\frac{𝑚^{2}}{2}+3)^{3}}.\end{aligned}
+\begin{aligned}𝑉(𝑚) & =𝑛^{3} \\ & =\sqrt{\frac{𝑚^{2}}{2}+3}^{3} \\ & =((\frac{𝑚^{2}}{2}+3)^{1/2})^{3} \\ & =((\frac{𝑚^{2}}{2}+3)^{3})^{1/2} \\ & =\sqrt{(\frac{𝑚^{2}}{2}+3)^{3}}.\end{aligned}
 
 
 $$

@@ -37,7 +37,7 @@ When partitioned in this way, we say that the matrix $M$ consists of four **bloc
 $$
 
 
-\begin{aligned}\overset{\overset{[\begin{aligned}2 & 1 \\ 0 & 5\end{aligned}]}{}}{𝑀_{11}} & \,\,\overset{\overset{[\begin{aligned}0 & 4 \\ 1 & −2\end{aligned}]}{}}{𝑀_{12}} \\ \underset{𝑀_{21}}{\underset{}{[\begin{aligned}4\, & 0\end{aligned}]}}\, & \,\,\,\underset{𝑀_{22}}{\underset{}{[\begin{aligned}0\, & −5\end{aligned}]}}\end{aligned}
+\begin{aligned}\overset{[\begin{matrix}2 & 1 \\ 0 & 5\end{matrix}]}{}}{𝑀_{11}} & \,\,\overset{[\begin{matrix}0 & 4 \\ 1 & −2\end{matrix}]}{}}{𝑀_{12}} \\ \underset{𝑀_{21}}{\underset{}{[\begin{matrix}4\, & 0\end{matrix}]}}\, & \,\,\,\underset{𝑀_{22}}{\underset{}{[\begin{matrix}0\, & −5\end{matrix}]}}\end{aligned}
 
 
 $$
@@ -177,7 +177,7 @@ Notice that our matrix is block lower triangular. Therefore, we can compute its 
 $$
 
 
-\begin{aligned}\begin{aligned}3 & 0 & 0 & 0 \\ 5 & −1 & 0 & 0 \\ 0 & 3 & 2 & 0 \\ 1 & 5 & 1 & 1\end{aligned} & =\begin{aligned}3 & 0 & 0 & 0 \\ 5 & −1 & 0 & 0 \\ 0 & 3 & 2 & 0 \\ 1 & 5 & 1 & 1\end{aligned} \\ & =\begin{aligned}3 & 0 \\ 5 & −1\end{aligned}⋅\begin{aligned}2 & 0 \\ 1 & 1\end{aligned} \\ & =(−3)⋅2 \\ & =−6\end{aligned}
+\begin{aligned}\begin{matrix}3 & 0 & 0 & 0 \\ 5 & −1 & 0 & 0 \\ 0 & 3 & 2 & 0 \\ 1 & 5 & 1 & 1\end{matrix} & =\begin{matrix}3 & 0 & 0 & 0 \\ 5 & −1 & 0 & 0 \\ 0 & 3 & 2 & 0 \\ 1 & 5 & 1 & 1\end{matrix} \\ & =\begin{matrix}3 & 0 \\ 5 & −1\end{matrix}⋅\begin{matrix}2 & 0 \\ 1 & 1\end{matrix} \\ & =(−3)⋅2 \\ & =−6\end{aligned}
 
 
 $$
@@ -195,7 +195,7 @@ Notice that we have a block upper triangular matrix. Therefore, its determinant 
 $$
 
 
-\begin{aligned}\begin{aligned}7 & 0 & −5 \\ 0 & 𝑒 & 4 \\ 0 & ℎ & 8\end{aligned} & =\begin{aligned}7 & 0 & −5 \\ 0 & 𝑒 & 4 \\ 0 & ℎ & 8\end{aligned} \\ & =7⋅\begin{aligned}𝑒 & 4 \\ ℎ & 8\end{aligned} \\ & =7⋅6 \\ & =42\end{aligned}
+\begin{aligned}\begin{matrix}7 & 0 & −5 \\ 0 & 𝑒 & 4 \\ 0 & ℎ & 8\end{matrix} & =\begin{matrix}7 & 0 & −5 \\ 0 & 𝑒 & 4 \\ 0 & ℎ & 8\end{matrix} \\ & =7⋅\begin{matrix}𝑒 & 4 \\ ℎ & 8\end{matrix} \\ & =7⋅6 \\ & =42\end{aligned}
 
 
 $$

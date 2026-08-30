@@ -53,7 +53,7 @@ The rate of change in the number of antelopes per year increases in proportion t
 $$
 
 
-\dfrac{\textrm{d}P}{\textrm{d}t}=kP - 20,
+\dfrac{\text{d}P}{\text{d}t}=kP - 20,
 
 
 $$
@@ -189,7 +189,7 @@ Therefore, our equation becomes
 $$
 
 
-\dfrac{\textrm{d}r}{\textrm{d}t} = -K.
+\dfrac{\text{d}r}{\text{d}t} = -K.
 
 
 $$
@@ -259,7 +259,7 @@ Therefore, our equation becomes
 $$
 
 
-\dfrac{\textrm{d}r}{\textrm{d}t} = \dfrac{K}{r^3}.
+\dfrac{\text{d}r}{\text{d}t} = \dfrac{K}{r^3}.
 
 
 $$

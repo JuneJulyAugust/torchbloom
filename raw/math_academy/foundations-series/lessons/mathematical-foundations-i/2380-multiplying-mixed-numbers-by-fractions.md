@@ -166,7 +166,7 @@ Finally, we write the resulting improper fraction as a mixed number:
 $$
 
 
-\dfrac{5}{4} = 1 \, \textrm{R} 1 = 1 \, \dfrac{1}{4}
+\dfrac{5}{4} = 1 \, \text{R} 1 = 1 \, \dfrac{1}{4}
 
 
 $$

@@ -314,7 +314,7 @@ So, our confidence interval can be written as follows:
 $$
 
 
-\begin{aligned}((\overset{𝑥}{}−\overset{𝑦}{–})−[margin of error], & \,(\overset{𝑥}{}−\overset{𝑦}{–})+[margin of error]) \\ ((\overset{𝑥}{}−\overset{𝑦}{–})−[z-score]⋅[standard error], & \,(\overset{𝑥}{}−\overset{𝑦}{–})+[z-score]⋅[standard error]) \\ ((\overset{𝑥}{}−\overset{𝑦}{–})−𝑧_{𝛼/2}⋅\sqrt{√\frac{𝜎_{2𝑥}^{}}{𝑛_{𝑥}}+\frac{𝜎_{2𝑦}^{}}{𝑛_{𝑦}}}, & \,(\overset{𝑥}{}−\overset{𝑦}{–})+𝑧_{𝛼/2}⋅\sqrt{√\frac{𝜎_{2𝑥}^{}}{𝑛_{𝑥}}+\frac{𝜎_{2𝑦}^{}}{𝑛_{𝑦}}}\,)\end{aligned}
+\begin{aligned}((\overset{𝑥}{}−\overset{𝑦}{–})−[margin of error], & \,(\overset{𝑥}{}−\overset{𝑦}{–})+[margin of error]) \\ ((\overset{𝑥}{}−\overset{𝑦}{–})−[z-score]⋅[standard error], & \,(\overset{𝑥}{}−\overset{𝑦}{–})+[z-score]⋅[standard error]) \\ ((\overset{𝑥}{}−\overset{𝑦}{–})−𝑧_{𝛼/2}⋅\sqrt{\frac{𝜎_{2𝑥}}{𝑛_{𝑥}}+\frac{𝜎_{2𝑦}}{𝑛_{𝑦}}}, & \,(\overset{𝑥}{}−\overset{𝑦}{–})+𝑧_{𝛼/2}⋅\sqrt{\frac{𝜎_{2𝑥}}{𝑛_{𝑥}}+\frac{𝜎_{2𝑦}}{𝑛_{𝑦}}}\,)\end{aligned}
 
 
 $$

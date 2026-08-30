@@ -31,14 +31,14 @@ We start by checking that the statement makes sense in the given domain of $n{:}
 
 *Notice that the expression $5^n -1$ gives us an integer value when $n \geq 1.$*
 
-Recall that $n \mid a$ is equivalent to $a \equiv 0 \: (\textrm{mod}\:n).$ So, instead of proving divisibility by $4,$ we can show that our expression is congruent to $0$ modulo $4{:}$
+Recall that $n \mid a$ is equivalent to $a \equiv 0 \: (\text{mod}\:n).$ So, instead of proving divisibility by $4,$ we can show that our expression is congruent to $0$ modulo $4{:}$
 
 *According to the definition of modular congruence,*
 
 $$
 
 
-4 \mid (5^n-1) \quad\Leftrightarrow\quad 5^n -1 \equiv 0 \: (\textrm{mod}\:4).
+4 \mid (5^n-1) \quad\Leftrightarrow\quad 5^n -1 \equiv 0 \: (\text{mod}\:4).
 
 
 $$
@@ -76,7 +76,7 @@ Proof:
 $$
 
 
-4 \mid (5^n-1) \quad\Leftrightarrow\quad 5^n -1 \equiv 0 \: (\textrm{mod}\:4).
+4 \mid (5^n-1) \quad\Leftrightarrow\quad 5^n -1 \equiv 0 \: (\text{mod}\:4).
 
 
 $$
@@ -115,14 +115,14 @@ We start by checking that the statement makes sense in the given domain of $n{:}
 
 Notice that the expression $4^{2n-3}+ 5$ gives us an integer value when $n \geq 2.$
 
-Recall that $n \mid a$ is equivalent to $a \equiv 0 \: (\textrm{mod}\:n).$ So, instead of proving divisibility by $3,$ we can show that our expression is congruent to $0$ modulo $3{:}$
+Recall that $n \mid a$ is equivalent to $a \equiv 0 \: (\text{mod}\:n).$ So, instead of proving divisibility by $3,$ we can show that our expression is congruent to $0$ modulo $3{:}$
 
 According to the definition of modular congruence,
 
 $$
 
 
-3 \mid (4^{2n-3}+ 5) \quad\Leftrightarrow\quad 4^{2n-3}+ 5 \equiv 0 \: (\textrm{mod}\:3).
+3 \mid (4^{2n-3}+ 5) \quad\Leftrightarrow\quad 4^{2n-3}+ 5 \equiv 0 \: (\text{mod}\:3).
 
 
 $$
@@ -151,14 +151,14 @@ Prove that $n^3-n$ is divisible by $3{:}$
 
 #### Explanation
 
-Recall that $n \mid a$ is equivalent to $a \equiv 0 \: (\textrm{mod}\:n).$ So, instead of proving divisibility by $3,$ we can show that our expression is congruent to $0$ modulo $3{:}$
+Recall that $n \mid a$ is equivalent to $a \equiv 0 \: (\text{mod}\:n).$ So, instead of proving divisibility by $3,$ we can show that our expression is congruent to $0$ modulo $3{:}$
 
 According to the definition of modular congruence,
 
 $$
 
 
-3 \mid (n^3-n) \quad\Leftrightarrow\quad n^3-n \equiv 0 \: (\textrm{mod}\:3).
+3 \mid (n^3-n) \quad\Leftrightarrow\quad n^3-n \equiv 0 \: (\text{mod}\:3).
 
 
 $$
@@ -169,7 +169,7 @@ Now, we have the following cases for $n{:}$
 
 First, we take $n \equiv 0$ in our expression:
 
-**** Suppose $n \equiv 0 \: (\textrm{mod}\:3).$ Then:
+**** Suppose $n \equiv 0 \: (\text{mod}\:3).$ Then:
 
 $$
 
@@ -181,7 +181,7 @@ $$
 
 Next, we take $n \equiv 1{:}$
 
-**** Suppose $n \equiv 1 \: (\textrm{mod}\:3).$ Then:
+**** Suppose $n \equiv 1 \: (\text{mod}\:3).$ Then:
 
 $$
 
@@ -193,7 +193,7 @@ $$
 
 Then, we take $n \equiv 2{:}$
 
-**** Suppose $n \equiv 2 \: (\textrm{mod}\:3).$ Then:
+**** Suppose $n \equiv 2 \: (\text{mod}\:3).$ Then:
 
 $$
 
@@ -210,7 +210,7 @@ In all these cases, we obtain
 $$
 
 
-n^3-n \equiv 0 \quad (\textrm{mod}\:3).
+n^3-n \equiv 0 \quad (\text{mod}\:3).
 
 
 $$
@@ -268,7 +268,7 @@ First, we write the statement in terms of congruences:
 $$
 
 
-3 \mid N \quad\Leftrightarrow\quad N \equiv 0 \quad (\textrm{mod}\:3).
+3 \mid N \quad\Leftrightarrow\quad N \equiv 0 \quad (\text{mod}\:3).
 
 
 $$
@@ -297,16 +297,16 @@ $$
 
 To do this, recall the multiplication properties of modular arithmetic:
 
-- For any $k\in \mathbb N,$ we have $a \equiv b \:\Leftrightarrow\: a^k\equiv b^k \quad (\textrm{mod}\: n).$
+- For any $k\in \mathbb N,$ we have $a \equiv b \:\Leftrightarrow\: a^k\equiv b^k \quad (\text{mod}\: n).$
 
-- For any $c\in \mathbb Z\setminus\{0\},$ we have $a \equiv b \:\Leftrightarrow\: ac \equiv bc \quad (\textrm{mod}\: n).$
+- For any $c\in \mathbb Z\setminus\{0\},$ we have $a \equiv b \:\Leftrightarrow\: ac \equiv bc \quad (\text{mod}\: n).$
 
 With this in mind, note that
 
 $$
 
 
-10 \equiv 1 \quad\Leftrightarrow\quad 10^k a_k \equiv 1^k a_k \qquad (\textrm{mod}\: 3).
+10 \equiv 1 \quad\Leftrightarrow\quad 10^k a_k \equiv 1^k a_k \qquad (\text{mod}\: 3).
 
 
 $$
@@ -374,7 +374,7 @@ According to the definition of modular congruence,
 $$
 
 
-13 \mid N \quad\Leftrightarrow\quad N \equiv 0 \quad (\textrm{mod}\:13).
+13 \mid N \quad\Leftrightarrow\quad N \equiv 0 \quad (\text{mod}\:13).
 
 
 $$

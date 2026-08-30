@@ -131,7 +131,7 @@ Earlier, we found that $\overline{x} = 5.$ Now, let's compute $\overline{x^2}{:}
 $$
 
 
-\begin{aligned}\overset{𝑥^{2}}{} & =\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{2𝑖}^{} \\ & =\frac{1}{4}⋅(1^{2}+7^{2}+3^{2}+9^{2}) \\ & =\frac{1}{4}⋅(1+49+9+81) \\ & =\frac{1}{4}⋅140 \\ & =35.\end{aligned}
+\begin{aligned}\overset{𝑥^{2}}{} & =\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{2𝑖} \\ & =\frac{1}{4}⋅(1^{2}+7^{2}+3^{2}+9^{2}) \\ & =\frac{1}{4}⋅(1+49+9+81) \\ & =\frac{1}{4}⋅140 \\ & =35.\end{aligned}
 
 
 $$
@@ -191,7 +191,7 @@ Now, let's compute $\overline{x^2}.$ We know that $\displaystyle \sum_{i=1}^{8} 
 $$
 
 
-\begin{aligned}\overset{𝑥^{2}}{} & =\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{2𝑖}^{} \\ & =\frac{1}{8}\underset{\underset{𝑖=1}{∑}}{\overset{}{8}}𝑥_{2𝑖}^{} \\ & =\frac{1}{8}⋅320 \\ & =40.\end{aligned}
+\begin{aligned}\overset{𝑥^{2}}{} & =\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{2𝑖} \\ & =\frac{1}{8}\underset{\underset{𝑖=1}{∑}}{\overset{}{8}}𝑥_{2𝑖} \\ & =\frac{1}{8}⋅320 \\ & =40.\end{aligned}
 
 
 $$
@@ -249,7 +249,7 @@ Now, let's compute $\overline{x^2}.$ Computing the mean of the squares of the po
 $$
 
 
-\begin{aligned}\overset{𝑥^{2}}{} & =\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{2𝑖}^{} \\ & =\frac{1}{7}⋅(4^{2}+5^{2}+4^{2}+7^{2}+8^{2}+11^{2}+3^{2}) \\ & =\frac{1}{7}⋅(16+25+16+49+64+121+9) \\ & =\frac{1}{7}⋅300 \\ & =\frac{300}{7}.\end{aligned}
+\begin{aligned}\overset{𝑥^{2}}{} & =\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{2𝑖} \\ & =\frac{1}{7}⋅(4^{2}+5^{2}+4^{2}+7^{2}+8^{2}+11^{2}+3^{2}) \\ & =\frac{1}{7}⋅(16+25+16+49+64+121+9) \\ & =\frac{1}{7}⋅300 \\ & =\frac{300}{7}.\end{aligned}
 
 
 $$
@@ -343,7 +343,7 @@ Now, let's compute $\overline{x^2}.$ Computing the mean of the squares of the po
 $$
 
 
-\begin{aligned}\overset{𝑥^{2}}{} & =\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{2𝑖}^{} \\ & =\frac{1}{6}⋅(7^{2}+5^{2}+0^{2}+2^{2}+1^{2}+3^{2}) \\ & =\frac{1}{6}⋅(49+25+0+4+1+9) \\ & =\frac{88}{6} \\ & =\frac{44}{3}.\end{aligned}
+\begin{aligned}\overset{𝑥^{2}}{} & =\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{2𝑖} \\ & =\frac{1}{6}⋅(7^{2}+5^{2}+0^{2}+2^{2}+1^{2}+3^{2}) \\ & =\frac{1}{6}⋅(49+25+0+4+1+9) \\ & =\frac{88}{6} \\ & =\frac{44}{3}.\end{aligned}
 
 
 $$
@@ -409,7 +409,7 @@ This will happen every time, because the quantity $\displaystyle \dfrac{1}{n} \s
 $$
 
 
-\begin{aligned}\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}(𝑥_{𝑖}−\overset{𝑥}{}) & =\underset{\overset{𝑥}{}}{\underset{}{\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{𝑖}}}−\frac{1}{𝑛}\underset{𝑛\overset{𝑥}{}}{\underset{}{\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}\overset{𝑥}{}}} \\ & =\overset{𝑥}{}−\frac{1}{𝑛}⋅𝑛\overset{𝑥}{} \\ & =\overset{𝑥}{}−\overset{𝑥}{} \\ & =0\end{aligned}
+\begin{aligned}\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}(𝑥_{𝑖}−\overset{𝑥}{}) & =\underset{\overset{𝑥}{\underset{}{\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{𝑖}}}−\frac{1}{𝑛}\underset{𝑛\overset{𝑥}{\underset{}{\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}\overset{𝑥}{}}} \\ & =\overset{𝑥}{}−\frac{1}{𝑛}⋅𝑛\overset{𝑥}{} \\ & =\overset{𝑥}{}−\overset{𝑥}{} \\ & =0\end{aligned}
 
 
 $$

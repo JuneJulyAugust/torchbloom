@@ -110,7 +110,7 @@ First, notice the following:
 $$
 
 
-\begin{aligned} \dfrac{{A'C'}}{{AC}} &= \dfrac{28}{7}=4\\\[5pt] \dfrac{{B'C'}}{{BC}} &= \dfrac{20}{5}=4\\\[5pt] \dfrac{{A'B'}}{{AB}} &= \dfrac{16}{4}=4\\\[5pt] \end{aligned}
+\begin{aligned} \dfrac{{A'C'}}{{AC}} &= \dfrac{28}{7}=4\\[5pt] \dfrac{{B'C'}}{{BC}} &= \dfrac{20}{5}=4\\[5pt] \dfrac{{A'B'}}{{AB}} &= \dfrac{16}{4}=4\\[5pt] \end{aligned}
 
 
 $$

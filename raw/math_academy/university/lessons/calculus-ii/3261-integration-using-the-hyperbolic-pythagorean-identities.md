@@ -20,14 +20,14 @@ Osborn's rule states that to convert a trigonometric identity to a corresponding
 
 - for any product of two trigonometric sines, change the sign of the corresponding product of hyperbolic sines.
 
-$\displaystyle \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$\displaystyle $
 
 For example, suppose we want to calculate the following integral:
 
 $$
 
 
-\int \cosh^2{x} - \sinh^2{x} \: \textrm{d}x
+\int \cosh^2{x} - \sinh^2{x} \: \text{d}x
 
 
 $$
@@ -68,13 +68,13 @@ Let's see another example.
 
 #### Question
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
-Calculate $\displaystyle{\int} \dfrac{1}{1+\sinh^2 x} \, \textrm{d}x.$
+Calculate $\displaystyle{\int} \dfrac{1}{1+\sinh^2 x} \, \text{d}x.$
 
 #### Explanation
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$First, we find the hyperbolic identity that corresponds to the Pythagorean identity
+$$First, we find the hyperbolic identity that corresponds to the Pythagorean identity
 
 $$
 
@@ -109,7 +109,7 @@ Additionally, we have
 $$
 
 
-\sech x = \dfrac{1}{\cosh x}.
+\operatorname{sech} x = \dfrac{1}{\cosh x}.
 
 
 $$
@@ -126,7 +126,7 @@ $$
 
 ### Calculating Integrals Using Related Hyperbolic Identities
 
-$\newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$We can use Osborn's rule to write down the hyperbolic equivalents of the sectant-tangent and cotangent-cosecant identities.
+$$We can use Osborn's rule to write down the hyperbolic equivalents of the sectant-tangent and cotangent-cosecant identities.
 
 From the secant-tangent identity
 
@@ -143,7 +143,7 @@ we have the equivalent hyperbolic identity
 $$
 
 
-1 - \tanh^2 x = \sech^2 x.
+1 - \tanh^2 x = \operatorname{sech}^2 x.
 
 
 $$
@@ -163,7 +163,7 @@ we have the equivalent hyperbolic identity
 $$
 
 
-1-\coth^2 x = -\csch^2 x
+1-\coth^2 x = -\operatorname{csch}^2 x
 
 
 $$
@@ -173,22 +173,22 @@ which we can rewrite as
 $$
 
 
-\coth^2 x - 1 = \csch^2 x.
+\coth^2 x - 1 = \operatorname{csch}^2 x.
 
 
 $$
 
-These identities can be used to solve certain integrals involving the expressions $\tanh^2{x},$ $\coth^2 x,$ $\sech^2 x,$ or $\csch^2{x}.$
+These identities can be used to solve certain integrals involving the expressions $\tanh^2{x},$ $\coth^2 x,$ $\operatorname{sech}^2 x,$ or $\operatorname{csch}^2{x}.$
 
 ### Example: Integrating a Function Using the Hyperbolic Secant-Tangent Identity
 
 #### Question
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$Evaluate $\displaystyle \int_{0}^{\ln 2} \dfrac{\tanh{x}-\tanh^3{x}}{\sech{x}} \, \textrm{d}x.$
+$$Evaluate $\displaystyle \int_{0}^{\ln 2} \dfrac{\tanh{x}-\tanh^3{x}}{\operatorname{sech}{x}} \, \text{d}x.$
 
 #### Explanation
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$First, we find the hyperbolic identity that corresponds to the secant-tangent identity
+$$First, we find the hyperbolic identity that corresponds to the secant-tangent identity
 
 $$
 
@@ -203,7 +203,7 @@ Using Osborn's rule, we get the hyperbolic secant-tangent identity
 $$
 
 
-1-\tanh^2x=\sech^2{x}.
+1-\tanh^2x=\operatorname{sech}^2{x}.
 
 
 $$
@@ -213,7 +213,7 @@ Using the above, we rewrite the integral and evaluate it as follows:
 $$
 
 
-\begin{aligned}∫_{ln⁡20}^{}\frac{tanh⁡𝑥−tanh^{3}⁡𝑥}{sech⁡𝑥}\,d𝑥 & =∫_{ln⁡20}^{}\frac{(1−tanh^{2}⁡𝑥)tanh⁡𝑥}{sech⁡𝑥}\,d𝑥 \\ & =∫_{ln⁡20}^{}\frac{sech^{2}⁡𝑥tanh⁡𝑥}{sech⁡𝑥}\,d𝑥 \\ & =∫_{ln⁡20}^{}sech⁡𝑥tanh⁡𝑥\,d𝑥 \\ & =−sech⁡𝑥\,_{ln⁡20}^{} \\ & =−sech⁡(ln⁡2)+sech⁡0 \\ & =−\frac{2}{𝑒^{ln⁡2}+𝑒^{−ln⁡2}}+\frac{2}{𝑒^{0}+𝑒^{0}} \\ & =−\frac{2}{(2+\frac{1}{2})}+1 \\ & =−\frac{2}{(\frac{5}{2})}+1 \\ & =−\frac{4}{5}+1 \\ & =\frac{1}{5}\end{aligned}
+\begin{aligned}∫_{ln⁡20}\frac{tanh⁡𝑥−tanh^{3}⁡𝑥}{sech⁡𝑥}\,d𝑥 & =∫_{ln⁡20}\frac{(1−tanh^{2}⁡𝑥)tanh⁡𝑥}{sech⁡𝑥}\,d𝑥 \\ & =∫_{ln⁡20}\frac{sech^{2}⁡𝑥tanh⁡𝑥}{sech⁡𝑥}\,d𝑥 \\ & =∫_{ln⁡20}sech⁡𝑥tanh⁡𝑥\,d𝑥 \\ & =−sech⁡𝑥\,_{ln⁡20} \\ & =−sech⁡(ln⁡2)+sech⁡0 \\ & =−\frac{2}{𝑒^{ln⁡2}+𝑒^{−ln⁡2}}+\frac{2}{𝑒^{0}+𝑒^{0}} \\ & =−\frac{2}{(2+\frac{1}{2})}+1 \\ & =−\frac{2}{(\frac{5}{2})}+1 \\ & =−\frac{4}{5}+1 \\ & =\frac{1}{5}\end{aligned}
 
 
 $$
@@ -222,7 +222,7 @@ $$
 
 #### Question
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$Evaluate $\displaystyle \int_{\ln 3}^{\ln 6} \dfrac{\csch{x}}{\coth^2{x} - 1} \, \textrm{d}x.$
+$$Evaluate $\displaystyle \int_{\ln 3}^{\ln 6} \dfrac{\operatorname{csch}{x}}{\coth^2{x} - 1} \, \text{d}x.$
 
 #### Explanation
 
@@ -231,7 +231,7 @@ First, we find the hyperbolic identity that corresponds to the cosecant-cotangen
 $$
 
 
-\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} 1 + \cot^2 x= \csc^2{x}.
+1 + \cot^2 x= \csc^2{x}.
 
 
 $$
@@ -241,7 +241,7 @@ Using Osborn's rule, we get the hyperbolic cosecant-cotangent identity
 $$
 
 
-\coth^2x - 1=\csch^2{x}.
+\coth^2x - 1=\operatorname{csch}^2{x}.
 
 
 $$
@@ -251,7 +251,7 @@ Using the above, we rewrite the integral and evaluate it, as follows:
 $$
 
 
-\begin{aligned} \int_{\ln 3}^{\ln 6} \dfrac{\csch{x}}{\coth^2{x} - 1} \, \textrm{d}x &= \int_{\ln 3}^{\ln 6} \dfrac{\csch{x}}{\csch^2{x}} \, \textrm{d}x \\\[5pt] &= \int_{\ln 3}^{\ln 6} \sinh{x} \, \textrm{d}x \\\[5pt] &= \cosh{x} \Big|_{\ln 3}^{\ln 6}\\\[5pt] &= \cosh(\ln 6) - \cosh(\ln 3)\\\[5pt] &= \left(\dfrac{e^{\ln 6}+e^{-\ln 6}}{2}\right) - \left(\dfrac{e^{\ln 3}+e^{-\ln 3}}{2}\right)\\\[5pt] &= \left(\dfrac{6 + \dfrac{1}{6}}{2}\right) - \left(\dfrac{3 + \dfrac{1}{3}}{2}\right)\\\[5pt] &= \dfrac{37}{12} - \dfrac{5}{3}\\\[5pt] &= \dfrac{37}{12} - \dfrac{20}{12} \\\[5pt] &= \dfrac{17}{12} \end{aligned}
+\begin{aligned} \int_{\ln 3}^{\ln 6} \dfrac{\operatorname{csch}{x}}{\coth^2{x} - 1} \, \text{d}x &= \int_{\ln 3}^{\ln 6} \dfrac{\operatorname{csch}{x}}{\operatorname{csch}^2{x}} \, \text{d}x \\[5pt] &= \int_{\ln 3}^{\ln 6} \sinh{x} \, \text{d}x \\[5pt] &= \cosh{x} \Big|_{\ln 3}^{\ln 6}\\[5pt] &= \cosh(\ln 6) - \cosh(\ln 3)\\[5pt] &= \left(\dfrac{e^{\ln 6}+e^{-\ln 6}}{2}\right) - \left(\dfrac{e^{\ln 3}+e^{-\ln 3}}{2}\right)\\[5pt] &= \left(\dfrac{6 + \dfrac{1}{6}}{2}\right) - \left(\dfrac{3 + \dfrac{1}{3}}{2}\right)\\[5pt] &= \dfrac{37}{12} - \dfrac{5}{3}\\[5pt] &= \dfrac{37}{12} - \dfrac{20}{12} \\[5pt] &= \dfrac{17}{12} \end{aligned}
 
 
 $$
@@ -260,11 +260,11 @@ $$
 
 #### Question
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$Calculate $\displaystyle{\int \dfrac{2}{\cosh^2(2x+1)-1} \, \textrm{d}x}.$
+$$Calculate $\displaystyle{\int \dfrac{2}{\cosh^2(2x+1)-1} \, \text{d}x}.$
 
 #### Explanation
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$First, we find the hyperbolic identity that corresponds to the Pythagorean identity
+$$First, we find the hyperbolic identity that corresponds to the Pythagorean identity
 
 $$
 

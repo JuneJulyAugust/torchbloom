@@ -17,7 +17,7 @@ Recall that the line integral with respect to arc length of a function $f(x,y)$ 
 $$
 
 
-\int\limits_C f(x, y) \, \textrm{d}s = \int\limits_a^b f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \textrm{d}t,
+\int\limits_C f(x, y) \, \text{d}s = \int\limits_a^b f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \text{d}t,
 
 
 $$
@@ -42,7 +42,7 @@ Additionally, the direction in which we traverse our ellipse does not matter, be
 
 #### Question
 
-What expression is equivalent to $\displaystyle \int_\limits{C} \dfrac{x}{y} \: \textrm{d}s,$ where $C$ is the ellipse $x^2 + 16y^2 = 16,$ traversed once in the counterclockwise direction?
+What expression is equivalent to $\displaystyle \int\limits_{C} \dfrac{x}{y} \: \text{d}s,$ where $C$ is the ellipse $x^2 + 16y^2 = 16,$ traversed once in the counterclockwise direction?
 
 #### Explanation
 
@@ -51,7 +51,7 @@ We will use the formula
 $$
 
 
-\int\limits_C f(x, y) \, \textrm{d}s = \int\limits_a^b f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \textrm{d}t.
+\int\limits_C f(x, y) \, \text{d}s = \int\limits_a^b f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \text{d}t.
 
 
 $$
@@ -81,7 +81,7 @@ Computing $\mathbf{r}'(t)$ and $\| \mathbf{r}'(t) \|,$ we get following:
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑡) & =\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣 \\ & =\frac{d}{d𝑡}(4cos⁡𝑡)𝐢+\frac{d}{d𝑡}(sin⁡𝑡)𝐣 \\ & =−4sin⁡𝑡\,𝐢+cos⁡𝑡\,𝐣 \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{√(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}} \\ & =\sqrt{√(−4sin⁡𝑡)^{2}+(cos⁡𝑡)^{2}} \\ & =\sqrt{√16sin^{2}⁡𝑡+cos^{2}⁡𝑡} \\ & =\sqrt{√15sin^{2}⁡𝑡+(sin^{2}⁡𝑡+cos^{2}⁡𝑡)} \\ & =\sqrt{√15sin^{2}⁡𝑡+1}\end{aligned}
+\begin{aligned}𝐫^{′}(𝑡) & =\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣 \\ & =\frac{d}{d𝑡}(4cos⁡𝑡)𝐢+\frac{d}{d𝑡}(sin⁡𝑡)𝐣 \\ & =−4sin⁡𝑡\,𝐢+cos⁡𝑡\,𝐣 \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}} \\ & =\sqrt{(−4sin⁡𝑡)^{2}+(cos⁡𝑡)^{2}} \\ & =\sqrt{16sin^{2}⁡𝑡+cos^{2}⁡𝑡} \\ & =\sqrt{15sin^{2}⁡𝑡+(sin^{2}⁡𝑡+cos^{2}⁡𝑡)} \\ & =\sqrt{15sin^{2}⁡𝑡+1}\end{aligned}
 
 
 $$
@@ -101,7 +101,7 @@ Therefore, we can write the integral as
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}\frac{𝑥}{𝑦}\,d𝑠 & =∫_{2𝜋0}^{}𝑓(𝐫(𝑡))\,‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{2𝜋0}^{}4cot⁡𝑡\sqrt{√15sin^{2}⁡𝑡+1}\,d𝑡 \\ & =4∫_{2𝜋0}^{}cot⁡𝑡\sqrt{√15sin^{2}⁡𝑡+1}\,d𝑡.\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}\frac{𝑥}{𝑦}\,d𝑠 & =∫_{2𝜋0}𝑓(𝐫(𝑡))\,‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{2𝜋0}4cot⁡𝑡\sqrt{15sin^{2}⁡𝑡+1}\,d𝑡 \\ & =4∫_{2𝜋0}cot⁡𝑡\sqrt{15sin^{2}⁡𝑡+1}\,d𝑡.\end{aligned}
 
 
 $$
@@ -112,7 +112,7 @@ $$
 
 ![Instructional graphic](../../../lesson-assets/multivariable-calculus/topic-3690/194af9f729fb0120.png)
 
-Find, as a definite integral, an expression for the line integral of the function $\displaystyle\int_\limits{C} 2xy \:\textrm{d}s,$ where the curve $C$ is the right half of the ellipse $9x^2 + 4y^2 = 36,$ shown above.
+Find, as a definite integral, an expression for the line integral of the function $\displaystyle\int\limits_{C} 2xy \:\text{d}s,$ where the curve $C$ is the right half of the ellipse $9x^2 + 4y^2 = 36,$ shown above.
 
 #### Explanation
 
@@ -121,7 +121,7 @@ We will use the formula
 $$
 
 
-\int\limits_C f(x, y) \, \textrm{d}s = \int\limits_a^b f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \textrm{d}t.
+\int\limits_C f(x, y) \, \text{d}s = \int\limits_a^b f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \text{d}t.
 
 
 $$
@@ -151,7 +151,7 @@ Computing $\mathbf{r}'(t)$ and $\| \mathbf{r}'(t) \|,$ we get following:
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑡) & =\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣 \\ & =\frac{d}{d𝑡}(2cos⁡𝑡)𝐢+\frac{d}{d𝑡}(3sin⁡𝑡)𝐣 \\ & =−2sin⁡𝑡\,𝐢+3cos⁡𝑡\,𝐣 \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{√(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}} \\ & =\sqrt{√(−2sin⁡𝑡)^{2}+(3cos⁡𝑡)^{2}} \\ & =\sqrt{√4sin^{2}⁡𝑡+9cos^{2}⁡𝑡} \\ & =\sqrt{√5cos^{2}⁡𝑡+4(sin^{2}⁡𝑡+cos^{2}⁡𝑡)} \\ & =\sqrt{√5cos^{2}⁡𝑡+4}\end{aligned}
+\begin{aligned}𝐫^{′}(𝑡) & =\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣 \\ & =\frac{d}{d𝑡}(2cos⁡𝑡)𝐢+\frac{d}{d𝑡}(3sin⁡𝑡)𝐣 \\ & =−2sin⁡𝑡\,𝐢+3cos⁡𝑡\,𝐣 \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}} \\ & =\sqrt{(−2sin⁡𝑡)^{2}+(3cos⁡𝑡)^{2}} \\ & =\sqrt{4sin^{2}⁡𝑡+9cos^{2}⁡𝑡} \\ & =\sqrt{5cos^{2}⁡𝑡+4(sin^{2}⁡𝑡+cos^{2}⁡𝑡)} \\ & =\sqrt{5cos^{2}⁡𝑡+4}\end{aligned}
 
 
 $$
@@ -171,7 +171,7 @@ Therefore, we can write the integral as
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}2𝑥𝑦\,d𝑠 & =∫_{𝜋/2−𝜋/2}^{}𝑓(𝐫(𝑡))\,‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{𝜋/2−𝜋/2}^{}12sin⁡𝑡cos⁡𝑡\sqrt{√5cos^{2}⁡𝑡+4}\,d𝑡 \\ & =12∫_{𝜋/2−𝜋/2}^{}sin⁡𝑡cos⁡𝑡\sqrt{√5cos^{2}⁡𝑡+4}\,d𝑡.\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}2𝑥𝑦\,d𝑠 & =∫_{𝜋/2−𝜋/2}𝑓(𝐫(𝑡))\,‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{𝜋/2−𝜋/2}12sin⁡𝑡cos⁡𝑡\sqrt{5cos^{2}⁡𝑡+4}\,d𝑡 \\ & =12∫_{𝜋/2−𝜋/2}sin⁡𝑡cos⁡𝑡\sqrt{5cos^{2}⁡𝑡+4}\,d𝑡.\end{aligned}
 
 
 $$
@@ -182,7 +182,7 @@ $$
 
 ![Instructional graphic](../../../lesson-assets/multivariable-calculus/topic-3690/50b2c734430f267e.png)
 
-Evaluate the line integral $\displaystyle\int_\limits{C}12xy\:\textrm{d}s,$ where the curve $C$ is the quarter-ellipse $4x^2+y^2=4$ traversed from the point $(0,2)$ to the point $(-1,0),$ as shown above.
+Evaluate the line integral $\displaystyle\int\limits_{C}12xy\:\text{d}s,$ where the curve $C$ is the quarter-ellipse $4x^2+y^2=4$ traversed from the point $(0,2)$ to the point $(-1,0),$ as shown above.
 
 #### Explanation
 
@@ -191,7 +191,7 @@ We will use the formula
 $$
 
 
-\int\limits_C f(x, y) \, \textrm{d}s = \int\limits_a^b f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \textrm{d}t.
+\int\limits_C f(x, y) \, \text{d}s = \int\limits_a^b f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \text{d}t.
 
 
 $$
@@ -221,7 +221,7 @@ Computing $\mathbf{r}'(t)$ and $\| \mathbf{r}'(t) \|,$ we get following:
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑡) & =\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣 \\ & =\frac{d}{d𝑡}(cos⁡𝑡)𝐢+\frac{d}{d𝑡}(2sin⁡𝑡)𝐣 \\ & =−sin⁡𝑡\,𝐢+2cos⁡𝑡\,𝐣 \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{√(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}} \\ & =\sqrt{√(−sin⁡𝑡)^{2}+(2cos⁡𝑡)^{2}} \\ & =\sqrt{√sin^{2}⁡𝑡+4cos^{2}⁡𝑡} \\ & =\sqrt{√3cos^{2}⁡𝑡+(sin^{2}⁡𝑡+cos^{2}⁡𝑡)} \\ & =\sqrt{√1+3cos^{2}⁡𝑡}\end{aligned}
+\begin{aligned}𝐫^{′}(𝑡) & =\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣 \\ & =\frac{d}{d𝑡}(cos⁡𝑡)𝐢+\frac{d}{d𝑡}(2sin⁡𝑡)𝐣 \\ & =−sin⁡𝑡\,𝐢+2cos⁡𝑡\,𝐣 \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}} \\ & =\sqrt{(−sin⁡𝑡)^{2}+(2cos⁡𝑡)^{2}} \\ & =\sqrt{sin^{2}⁡𝑡+4cos^{2}⁡𝑡} \\ & =\sqrt{3cos^{2}⁡𝑡+(sin^{2}⁡𝑡+cos^{2}⁡𝑡)} \\ & =\sqrt{1+3cos^{2}⁡𝑡}\end{aligned}
 
 
 $$
@@ -241,7 +241,7 @@ Therefore, we can write the integral as
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}12𝑥𝑦\,d𝑠 & =∫_{𝜋𝜋/2}^{}𝑓(𝐫(𝑡))\,‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{𝜋𝜋/2}^{}24sin⁡𝑡cos⁡𝑡⋅\sqrt{√1+3cos^{2}⁡𝑡}⋅d𝑡 \\ & =24∫_{𝜋𝜋/2}^{}sin⁡𝑡cos⁡𝑡\sqrt{√1+3cos^{2}⁡𝑡}\,d𝑡.\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}12𝑥𝑦\,d𝑠 & =∫_{𝜋𝜋/2}𝑓(𝐫(𝑡))\,‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{𝜋𝜋/2}24sin⁡𝑡cos⁡𝑡⋅\sqrt{1+3cos^{2}⁡𝑡}⋅d𝑡 \\ & =24∫_{𝜋𝜋/2}sin⁡𝑡cos⁡𝑡\sqrt{1+3cos^{2}⁡𝑡}\,d𝑡.\end{aligned}
 
 
 $$
@@ -251,7 +251,7 @@ We can solve this using the substitution $u=1+3\cos^2 {t},$ $\textrm d u=-6\sin 
 $$
 
 
-\begin{aligned}24∫_{𝜋𝜋/2}^{}sin⁡𝑡cos⁡𝑡\sqrt{√1+3cos^{2}⁡𝑡}\,d𝑡 & =−4∫_{41}^{}\sqrt{√𝑢}\,d𝑢 \\ & =−4⋅\frac{2}{3}𝑢^{3/2}_{41}^{} \\ & =−\frac{8}{3}(4^{3/2}−1^{3/2}) \\ & =−\frac{8}{3}(8−1) \\ & =−\frac{56}{3}\end{aligned}
+\begin{aligned}24∫_{𝜋𝜋/2}sin⁡𝑡cos⁡𝑡\sqrt{1+3cos^{2}⁡𝑡}\,d𝑡 & =−4∫_{41}\sqrt{𝑢}\,d𝑢 \\ & =−4⋅\frac{2}{3}𝑢^{3/2}_{41} \\ & =−\frac{8}{3}(4^{3/2}−1^{3/2}) \\ & =−\frac{8}{3}(8−1) \\ & =−\frac{56}{3}\end{aligned}
 
 
 $$

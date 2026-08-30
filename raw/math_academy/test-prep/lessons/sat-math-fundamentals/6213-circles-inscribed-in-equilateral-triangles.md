@@ -95,7 +95,7 @@ Recall that, in any $30$-$60$-$90$ triangle, the longer leg is $\sqrt{3}$ times 
 $$
 
 
-\begin{aligned}𝑥 & =𝑟⋅\sqrt{√3} \\ & =8⋅\sqrt{√3} \\ & =8\sqrt{√3}\end{aligned}
+\begin{aligned}𝑥 & =𝑟⋅\sqrt{3} \\ & =8⋅\sqrt{3} \\ & =8\sqrt{3}\end{aligned}
 
 
 $$
@@ -139,7 +139,7 @@ Next, in the $30$-$60$-$90$ triangle, the longer leg is $\sqrt{3}$ times the sho
 $$
 
 
-\begin{aligned}𝑥 & =𝑟⋅\sqrt{√3} \\ & =7⋅\sqrt{√3} \\ & =7\sqrt{√3}\,cm\end{aligned}
+\begin{aligned}𝑥 & =𝑟⋅\sqrt{3} \\ & =7⋅\sqrt{3} \\ & =7\sqrt{3}\,cm\end{aligned}
 
 
 $$
@@ -159,7 +159,7 @@ and the corresponding area of the triangle is
 $$
 
 
-\begin{aligned}A & =\frac{\sqrt{√3}}{4}𝑠^{2} \\ & =\frac{\sqrt{√3}}{4}(14\sqrt{√3})^{2} \\ & =\frac{\sqrt{√3}}{4}⋅588 \\ & =147\sqrt{√3}\,cm^{2}.\end{aligned}
+\begin{aligned}A & =\frac{\sqrt{3}}{4}𝑠^{2} \\ & =\frac{\sqrt{3}}{4}(14\sqrt{3})^{2} \\ & =\frac{\sqrt{3}}{4}⋅588 \\ & =147\sqrt{3}\,cm^{2}.\end{aligned}
 
 
 $$
@@ -191,7 +191,7 @@ Finally, in the $30$-$60$-$90$ triangle, the longer leg is $\sqrt{3}$ times the 
 $$
 
 
-\begin{aligned}𝑥 & =𝑟⋅\sqrt{√3} \\ 36 & =𝑟⋅\sqrt{√3} \\ 𝑟 & =\frac{36}{\sqrt{√3}} \\ & =\frac{36}{\sqrt{√3}}⋅\frac{\sqrt{√3}}{\sqrt{√3}} \\ & =\frac{36\sqrt{√3}}{3} \\ & =12\sqrt{√3}\end{aligned}
+\begin{aligned}𝑥 & =𝑟⋅\sqrt{3} \\ 36 & =𝑟⋅\sqrt{3} \\ 𝑟 & =\frac{36}{\sqrt{3}} \\ & =\frac{36}{\sqrt{3}}⋅\frac{\sqrt{3}}{\sqrt{3}} \\ & =\frac{36\sqrt{3}}{3} \\ & =12\sqrt{3}\end{aligned}
 
 
 $$

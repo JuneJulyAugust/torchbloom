@@ -126,7 +126,7 @@ Now, computing $A-1I,$ we get
 $$
 
 
-\begin{aligned}𝐴−1𝐼 & =[\begin{aligned}3 & −4 \\ 1 & −1\end{aligned}]−1[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}]=[\begin{aligned}2 & −4 \\ 1 & −2\end{aligned}].\end{aligned}
+\begin{aligned}𝐴−1𝐼 & =[\begin{matrix}3 & −4 \\ 1 & −1\end{matrix}]−1[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}]=[\begin{matrix}2 & −4 \\ 1 & −2\end{matrix}].\end{aligned}
 
 
 $$
@@ -156,7 +156,7 @@ Therefore, we can write
 $$
 
 
-\begin{aligned}[\begin{aligned}1 \\ 0\end{aligned}]\overset{}{𝐴−1𝐼\,}[\begin{aligned}2 \\ 1\end{aligned}]\overset{}{𝐴−1𝐼\,}𝟎.\end{aligned}
+\begin{aligned}[\begin{matrix}1 \\ 0\end{matrix}]\overset{}{𝐴−1𝐼\,}[\begin{matrix}2 \\ 1\end{matrix}]\overset{}{𝐴−1𝐼\,}𝟎.\end{aligned}
 
 
 $$
@@ -294,7 +294,7 @@ Now, computing $A-4I,$ we get
 $$
 
 
-\begin{aligned}𝐴−4𝐼 & =[\begin{aligned}8 & 4 \\ −4 & 0\end{aligned}]−(4)[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ & =[\begin{aligned}4 & 4 \\ −4 & −4\end{aligned}].\end{aligned}
+\begin{aligned}𝐴−4𝐼 & =[\begin{matrix}8 & 4 \\ −4 & 0\end{matrix}]−(4)[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}] \\ & =[\begin{matrix}4 & 4 \\ −4 & −4\end{matrix}].\end{aligned}
 
 
 $$
@@ -304,7 +304,7 @@ So, we have a system of linear equations with the augmented matrix $M,$ which we
 $$
 
 
-\begin{aligned}𝑀 & =[\begin{aligned}4 & 4 & 0 \\ −4 & −4 & 0\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+𝑅_{1} \\ & ∼[\begin{aligned}4 & 4 & 0 \\ 0 & 0 & 0\end{aligned}] & & \end{aligned}
+\begin{aligned}𝑀 & =[\begin{matrix}4 & 4 & 0 \\ −4 & −4 & 0\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+𝑅_{1} \\ & ∼[\begin{matrix}4 & 4 & 0 \\ 0 & 0 & 0\end{matrix}] & & \end{aligned}
 
 
 $$
@@ -368,7 +368,7 @@ Now, computing $A-4I,$ we get
 $$
 
 
-\begin{aligned}𝐴−4𝐼 & =[\begin{aligned}9 & 5 \\ −5 & −1\end{aligned}]−(4)[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ & =[\begin{aligned}5 & 5 \\ −5 & −5\end{aligned}].\end{aligned}
+\begin{aligned}𝐴−4𝐼 & =[\begin{matrix}9 & 5 \\ −5 & −1\end{matrix}]−(4)[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}] \\ & =[\begin{matrix}5 & 5 \\ −5 & −5\end{matrix}].\end{aligned}
 
 
 $$
@@ -378,7 +378,7 @@ So, the matrix equation $(A - 4I)\mathbf{v}_2 = \mathbf{v}_1$ is equivalent to t
 $$
 
 
-\begin{aligned}𝑀 & =[\begin{aligned}5 & 5 & −1 \\ −5 & −5 & 1\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+𝑅_{1} \\ & ∼[\begin{aligned}5 & 5 & −1 \\ 0 & 0 & 0\end{aligned}] & & \end{aligned}
+\begin{aligned}𝑀 & =[\begin{matrix}5 & 5 & −1 \\ −5 & −5 & 1\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+𝑅_{1} \\ & ∼[\begin{matrix}5 & 5 & −1 \\ 0 & 0 & 0\end{matrix}] & & \end{aligned}
 
 
 $$

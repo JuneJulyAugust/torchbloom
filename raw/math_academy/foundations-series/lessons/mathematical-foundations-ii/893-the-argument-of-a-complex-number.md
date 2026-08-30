@@ -12,7 +12,7 @@ Topic ID: 893
 
 ### Introduction
 
-Consider the complex number $z=3+4\textrm{i},$ as depicted on the Argand diagram below:
+Consider the complex number $z=3+4\text{i},$ as depicted on the Argand diagram below:
 
 ![Instructional graphic](../../../lesson-assets/mathematical-foundations-ii/topic-893/45e57138d54f9947.png)
 
@@ -44,7 +44,7 @@ rounded to two decimal places. Therefore $\arg (z) \approx 0.93$ to two decimal 
 
 #### Question
 
-Find, in radians to two decimal places, the argument of $z=2+7\textrm{i}.$
+Find, in radians to two decimal places, the argument of $z=2+7\text{i}.$
 
 #### Explanation
 
@@ -68,7 +68,7 @@ to two decimal places.
 
 #### Question
 
-Find, in radians, the argument of $z=-1+\textrm{i}\sqrt{3}.$
+Find, in radians, the argument of $z=-1+\text{i}\sqrt{3}.$
 
 #### Explanation
 
@@ -81,7 +81,7 @@ The complex number $z$ lies in the second quadrant of the complex plane. Therefo
 $$
 
 
-\begin{aligned}tan⁡𝛼 & =\frac{\sqrt{√3}}{1} \\ 𝛼 & =arctan⁡(\sqrt{√3}) \\ & =\frac{𝜋}{3}\end{aligned}
+\begin{aligned}tan⁡𝛼 & =\frac{\sqrt{3}}{1} \\ 𝛼 & =arctan⁡(\sqrt{3}) \\ & =\frac{𝜋}{3}\end{aligned}
 
 
 $$
@@ -100,7 +100,7 @@ $$
 
 #### Question
 
-Find, in radians to two decimal places, the argument of $z=-\sqrt{3}-\textrm{i}.$
+Find, in radians to two decimal places, the argument of $z=-\sqrt{3}-\text{i}.$
 
 #### Explanation
 
@@ -113,7 +113,7 @@ The complex number $z$ lies in the third quadrant of the complex plane. Therefor
 $$
 
 
-\begin{aligned}𝛼 & =arctan⁡(\frac{1}{\sqrt{√3}})=\frac{𝜋}{6}.\end{aligned}
+\begin{aligned}𝛼 & =arctan⁡(\frac{1}{\sqrt{3}})=\frac{𝜋}{6}.\end{aligned}
 
 
 $$
@@ -132,7 +132,7 @@ $$
 
 #### Question
 
-Find, in radians, the argument of $z=1-\textrm{i}.$
+Find, in radians, the argument of $z=1-\text{i}.$
 
 #### Explanation
 

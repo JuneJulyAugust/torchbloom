@@ -38,7 +38,7 @@ follows a **multinomial distribution** with parameters $n$ and $p=(p_1,p_2,\ldot
 $$
 
 
-X \sim \textrm{Multinomial}(n, p).
+X \sim \text{Multinomial}(n, p).
 
 
 $$
@@ -58,12 +58,12 @@ follows a multinomial distribution. We have $p_i=\dfrac{1}{4}$ for all $i,$ and
 $$
 
 
-X \sim \textrm{Multinomial}\left(10, \left(\dfrac 14,\dfrac 14, \dfrac 14, \dfrac 14\right)\right).
+X \sim \text{Multinomial}\left(10, \left(\dfrac 14,\dfrac 14, \dfrac 14, \dfrac 14\right)\right).
 
 
 $$
 
-The **multinomial probability mass function** of $X=(X_1,\ldots, X_k) \sim \textrm{Multinomial}(n, p)$ is given by
+The **multinomial probability mass function** of $X=(X_1,\ldots, X_k) \sim \text{Multinomial}(n, p)$ is given by
 
 $$
 
@@ -89,11 +89,11 @@ $$
 
 #### Question
 
-Given that $X \sim \textrm{Multinomial}(10, \mathbf{p})$ where $\mathbf{p}=(p_1,0.1,0.2,0.5),$ find $P(X_2=1,X_3=2,X_4=3).$ Round your answer to $3$ decimal places.
+Given that $X \sim \text{Multinomial}(10, \mathbf{p})$ where $\mathbf{p}=(p_1,0.1,0.2,0.5),$ find $P(X_2=1,X_3=2,X_4=3).$ Round your answer to $3$ decimal places.
 
 #### Explanation
 
-Recall that the multinomial probability mass function of $X\sim \textrm{Multinomial}(n, \mathbf{p})$ is given by
+Recall that the multinomial probability mass function of $X\sim \text{Multinomial}(n, \mathbf{p})$ is given by
 
 $$
 
@@ -151,11 +151,11 @@ rounded to $3$ decimal places.
 
 #### Question
 
-Given $X \sim\textrm{Multinomial}(7, \mathbf{p})$ where $\mathbf{p}=(0.1,0.2,0.2,0.5),$ compute $P(X_1=1, 1 < X_2 \leq 3, X_3=2).$ Round your answer to $3$ decimal places.
+Given $X \sim\text{Multinomial}(7, \mathbf{p})$ where $\mathbf{p}=(0.1,0.2,0.2,0.5),$ compute $P(X_1=1, 1 < X_2 \leq 3, X_3=2).$ Round your answer to $3$ decimal places.
 
 #### Explanation
 
-Recall that the multinomial probability mass function of $X\sim \textrm{Multinomial}(n, \mathbf{p})$ is given by
+Recall that the multinomial probability mass function of $X\sim \text{Multinomial}(n, \mathbf{p})$ is given by
 
 $$
 
@@ -219,7 +219,7 @@ $$
 
 This situation can be modeled using a multinomial distribution.
 
-Recall that the multinomial probability mass function of $X\sim \textrm{Multinomial}(n, \mathbf{p})$ is given by
+Recall that the multinomial probability mass function of $X\sim \text{Multinomial}(n, \mathbf{p})$ is given by
 
 $$
 

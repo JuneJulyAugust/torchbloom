@@ -50,7 +50,7 @@ Let's illustrate these ideas with some concrete examples.
 
 #### Question
 
-Let $[\begin{aligned}19 & 2 \\ \sqrt{√2} & −1\end{aligned}]$ and $[\begin{aligned}1 & 2 & −1 \\ −1 & 1 & 2\end{aligned}]$
+Let $[\begin{aligned}19 & 2 \\ \sqrt{2} & −1\end{aligned}]$ and $[\begin{aligned}1 & 2 & −1 \\ −1 & 1 & 2\end{aligned}]$
 
 Which of the following statements are true?
 

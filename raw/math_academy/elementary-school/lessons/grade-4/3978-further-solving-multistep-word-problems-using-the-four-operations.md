@@ -45,25 +45,25 @@ Therefore, each person will receive $11$ candy pieces.
 
 #### Question
 
-Thelma divided $225\, \textrm{g}$ of jelly beans equally among four of her friends and herself. Then, from her share, she gave $25\, \textrm{g}$ to her little brother. How many grams of jelly beans did she keep for herself?
+Thelma divided $225\, \text{g}$ of jelly beans equally among four of her friends and herself. Then, from her share, she gave $25\, \text{g}$ to her little brother. How many grams of jelly beans did she keep for herself?
 
 #### Explanation
 
 Let's start by writing down the important information:
 
-- Thelma had $225\,\textrm{g}$ of jelly beans.
+- Thelma had $225\,\text{g}$ of jelly beans.
 
 - The jelly beans were equally divided between $5$ people ($4$ of Thelma's friends, and herself).
 
-- From her share, she gave $25\, \textrm{g}$ to her brother.
+- From her share, she gave $25\, \text{g}$ to her brother.
 
 Let $B$ represent the number of grams of jelly beans Thelma kept for herself. This is the number we want to find.
 
 Now, we can deduce the following:
 
-- Thelma divided the $225\, \textrm{g}$ of jelly beans equally among $5$ people, including herself. Therefore, each of them received $225 \div 5 = {\color{blue}45}\, \textrm{g}$ of jelly beans.
+- Thelma divided the $225\, \text{g}$ of jelly beans equally among $5$ people, including herself. Therefore, each of them received $225 \div 5 = {\color{blue}45}\, \text{g}$ of jelly beans.
 
-- The weight of jelly beans that Thelma kept for herself, $B$, equals the amount we calculated above $({\color{blue}45}\, \textrm{g})$ minus the amount she gave to her brother $({\color{red}25}\, \textrm{g}).$ Therefore, the total number of grams of jelly beans Thelma kept for herself is
+- The weight of jelly beans that Thelma kept for herself, $B$, equals the amount we calculated above $({\color{blue}45}\, \text{g})$ minus the amount she gave to her brother $({\color{red}25}\, \text{g}).$ Therefore, the total number of grams of jelly beans Thelma kept for herself is
 
 Calculating the final difference, we get
 
@@ -73,7 +73,7 @@ B = 45 - 25 = 20.
 
 $$
 
-Therefore, Thelma kept only $20\, \textrm{g}$ of jelly beans for herself.
+Therefore, Thelma kept only $20\, \text{g}$ of jelly beans for herself.
 
 ### Example: Solving Problems Involving Multiplication and Division
 
@@ -127,7 +127,7 @@ Now, we can deduce the following:
 
 - The number of bracelets Britney needs to sell, $B$, equals the number of dollars she has left to raise $(588)$ divided by the cost per bracelet $(5).$ Therefore, the number of bracelets Britney needs to sell is
 
-Calculating the final quotient, we get $B = 588 \div 5 = {\color{blue}117}\,\textrm{R}\,{\color{red}3}{:}$
+Calculating the final quotient, we get $B = 588 \div 5 = {\color{blue}117}\,\text{R}\,{\color{red}3}{:}$
 
 This means that, after selling $\color{blue}117$ bracelets, Britney still needs ${\color{red}3}.$
 

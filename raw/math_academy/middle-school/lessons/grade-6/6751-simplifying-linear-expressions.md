@@ -127,7 +127,7 @@ $$
 
 
 
-\begin{aligned} 14m - 6 - 5m &= \\\[5pt] \underbrace{14m - 5m}_{m \textrm{ terms}} - 6 & \end{aligned}
+\begin{aligned} 14m - 6 - 5m &= \\[5pt] \underbrace{14m - 5m}_{m \text{ terms}} - 6 & \end{aligned}
 
 
 
@@ -139,7 +139,7 @@ $$
 
 
 
-\begin{aligned} \underbrace{14m - 5m} - 6 &= \\\[5pt] (14 - 5)m - 6 &= \\\[5pt] 9m - 6 \end{aligned}
+\begin{aligned} \underbrace{14m - 5m} - 6 &= \\[5pt] (14 - 5)m - 6 &= \\[5pt] 9m - 6 \end{aligned}
 
 
 
@@ -191,7 +191,7 @@ $$
 
 
 
-\begin{aligned} \underbrace{4m + 3m}_{m \textrm{ terms}}\,+\, \underbrace{6n - 2n}_{n \textrm{ terms}} - 5 &= \\\[5pt] (4+3)m + (6 - 2)n - 5 &= \\\[5pt] 7m + 4n - 5 \end{aligned}
+\begin{aligned} \underbrace{4m + 3m}_{m \text{ terms}}\,+\, \underbrace{6n - 2n}_{n \text{ terms}} - 5 &= \\[5pt] (4+3)m + (6 - 2)n - 5 &= \\[5pt] 7m + 4n - 5 \end{aligned}
 
 
 

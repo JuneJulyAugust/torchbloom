@@ -47,7 +47,7 @@ Now suppose that there exists a nonzero vector $\mathbf v_2$ that is mapped to t
 $$
 
 
-(A-\lambda I)\mathbf v_2 = \mathbf v_1 \qquad \textrm{and}\qquad (A-\lambda I)\mathbf v_1 = \mathbf 0,
+(A-\lambda I)\mathbf v_2 = \mathbf v_1 \qquad \text{and}\qquad (A-\lambda I)\mathbf v_1 = \mathbf 0,
 
 
 $$

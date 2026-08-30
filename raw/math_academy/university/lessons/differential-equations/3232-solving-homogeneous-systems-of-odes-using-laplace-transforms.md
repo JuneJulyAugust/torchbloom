@@ -17,7 +17,7 @@ In this topic, we'll learn how to use Laplace transforms to solve homogeneous sy
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=5𝑥_{1}(𝑡) \\ 𝑥_{′2}^{}(𝑡)=−2𝑥_{1}(𝑡)+6𝑥_{2}(𝑡),\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=5𝑥_{1}(𝑡) \\ 𝑥_{′2}(𝑡)=−2𝑥_{1}(𝑡)+6𝑥_{2}(𝑡),\end{aligned}
 
 
 $$
@@ -37,7 +37,7 @@ Let's see how this works in practice.
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=5𝑥_{1}(𝑡) \\ 𝑥_{′2}^{}(𝑡)=−2𝑥_{1}(𝑡)+6𝑥_{2}(𝑡),\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=5𝑥_{1}(𝑡) \\ 𝑥_{′2}(𝑡)=−2𝑥_{1}(𝑡)+6𝑥_{2}(𝑡),\end{aligned}
 
 
 $$
@@ -49,7 +49,7 @@ First, we find the Laplace transforms of both sides of each equation in our syst
 $$
 
 
-\begin{aligned}L{𝑥_{′1}^{}(𝑡)}=L{5𝑥_{1}(𝑡)} \\ L{𝑥_{′2}^{}(𝑡)}=L{−2𝑥_{1}(𝑡)+6𝑥_{2}(𝑡)}\end{aligned}
+\begin{aligned}L{𝑥_{′1}(𝑡)}=L{5𝑥_{1}(𝑡)} \\ L{𝑥_{′2}(𝑡)}=L{−2𝑥_{1}(𝑡)+6𝑥_{2}(𝑡)}\end{aligned}
 
 
 $$
@@ -111,7 +111,7 @@ Finally, we write down the solution to the initial value problem:
 $$
 
 
-\begin{aligned}𝐱(𝑡) & =[\begin{aligned}𝑥_{1}(𝑡) \\ 𝑥_{2}(𝑡)\end{aligned}]=[\begin{aligned}−3𝑒^{5𝑡} \\ 8𝑒^{6𝑡}−6𝑒^{5𝑡}\end{aligned}]=[\begin{aligned}0 \\ 8\end{aligned}]𝑒^{6𝑡}+[\begin{aligned}−3 \\ −6\end{aligned}]𝑒^{5𝑡}\end{aligned}
+\begin{aligned}𝐱(𝑡) & =[\begin{matrix}𝑥_{1}(𝑡) \\ 𝑥_{2}(𝑡)\end{matrix}]=[\begin{matrix}−3𝑒^{5𝑡} \\ 8𝑒^{6𝑡}−6𝑒^{5𝑡}\end{matrix}]=[\begin{matrix}0 \\ 8\end{matrix}]𝑒^{6𝑡}+[\begin{matrix}−3 \\ −6\end{matrix}]𝑒^{5𝑡}\end{aligned}
 
 
 $$
@@ -123,7 +123,7 @@ $$
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=−3𝑥_{1}(𝑡) \\ 𝑥_{′2}^{}(𝑡)=9𝑥_{1}(𝑡)+5𝑥_{2}(𝑡),\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=−3𝑥_{1}(𝑡) \\ 𝑥_{′2}(𝑡)=9𝑥_{1}(𝑡)+5𝑥_{2}(𝑡),\end{aligned}
 
 
 $$
@@ -147,7 +147,7 @@ First, we find the Laplace transforms of both sides of each equation in our syst
 $$
 
 
-\begin{aligned}L{𝑥_{′1}^{}(𝑡)}=L{−3𝑥_{1}(𝑡)} \\ L{𝑥_{′2}^{}(𝑡)}=L{9𝑥_{1}(𝑡)+5𝑥_{2}(𝑡)}\end{aligned}
+\begin{aligned}L{𝑥_{′1}(𝑡)}=L{−3𝑥_{1}(𝑡)} \\ L{𝑥_{′2}(𝑡)}=L{9𝑥_{1}(𝑡)+5𝑥_{2}(𝑡)}\end{aligned}
 
 
 $$
@@ -181,7 +181,7 @@ where $X_1(s) = \mathcal{L}\left\{x_1(t) \right\}$ and $X_2(s) = \mathcal{L}\lef
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=−3𝑥_{1}(𝑡)+𝑥_{2}(𝑡) \\ 𝑥_{′2}^{}(𝑡)=3𝑥_{1}(𝑡)−𝑥_{2}(𝑡),\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=−3𝑥_{1}(𝑡)+𝑥_{2}(𝑡) \\ 𝑥_{′2}(𝑡)=3𝑥_{1}(𝑡)−𝑥_{2}(𝑡),\end{aligned}
 
 
 $$
@@ -195,7 +195,7 @@ First, we find the Laplace transforms of both sides of each equation in our syst
 $$
 
 
-\begin{aligned}L\,{𝑥_{′1}^{}(𝑡)}=L\,{−3𝑥_{1}(𝑡)+𝑥_{2}(𝑡)} \\ L\,{𝑥_{′2}^{}(𝑡)}=L\,{3𝑥_{1}(𝑡)−𝑥_{2}(𝑡)}\end{aligned}
+\begin{aligned}L\,{𝑥_{′1}(𝑡)}=L\,{−3𝑥_{1}(𝑡)+𝑥_{2}(𝑡)} \\ L\,{𝑥_{′2}(𝑡)}=L\,{3𝑥_{1}(𝑡)−𝑥_{2}(𝑡)}\end{aligned}
 
 
 $$
@@ -279,7 +279,7 @@ $$
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=5𝑥_{1}(𝑡)−𝑥_{2}(𝑡) \\ 𝑥_{′2}^{}(𝑡)=−5𝑥_{1}(𝑡)+𝑥_{2}(𝑡),\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=5𝑥_{1}(𝑡)−𝑥_{2}(𝑡) \\ 𝑥_{′2}(𝑡)=−5𝑥_{1}(𝑡)+𝑥_{2}(𝑡),\end{aligned}
 
 
 $$
@@ -313,7 +313,7 @@ Finally, we write down the solution to the initial value problem:
 $$
 
 
-\begin{aligned}𝐱(𝑡) & =[\begin{aligned}𝑥_{1}(𝑡) \\ 𝑥_{2}(𝑡)\end{aligned}]=[\begin{aligned}4+𝑒^{6𝑡} \\ 20−𝑒^{6𝑡}\end{aligned}]=[\begin{aligned}4 \\ 20\end{aligned}]+[\begin{aligned}1 \\ −1\end{aligned}]𝑒^{6𝑡}\end{aligned}
+\begin{aligned}𝐱(𝑡) & =[\begin{matrix}𝑥_{1}(𝑡) \\ 𝑥_{2}(𝑡)\end{matrix}]=[\begin{matrix}4+𝑒^{6𝑡} \\ 20−𝑒^{6𝑡}\end{matrix}]=[\begin{matrix}4 \\ 20\end{matrix}]+[\begin{matrix}1 \\ −1\end{matrix}]𝑒^{6𝑡}\end{aligned}
 
 
 $$

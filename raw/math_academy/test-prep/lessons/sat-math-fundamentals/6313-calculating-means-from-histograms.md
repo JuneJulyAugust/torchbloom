@@ -84,7 +84,7 @@ To estimate the mean from a histogram, we first convert the histogram into a fre
 
 On a histogram with groups, the horizontal axis shows the value groups, and the vertical axis tells us how many values fall into each group.
 
-In our case, we build the frequency table below and record $x_{\textrm{mid}},$ the middle value of $x$ for each group. Then, we calculate $f\cdot x_{\textrm{mid}}$ for each row.
+In our case, we build the frequency table below and record $x_{\text{mid}},$ the middle value of $x$ for each group. Then, we calculate $f\cdot x_{\text{mid}}$ for each row.
 
 Therefore, our estimate of the mean is
 

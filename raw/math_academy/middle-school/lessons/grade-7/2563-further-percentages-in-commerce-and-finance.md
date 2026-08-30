@@ -26,7 +26,7 @@ $$
 
 
 
-\textrm{percentage markup} = \dfrac{\textrm{amount of markup}}{\textrm{original amount}}
+\text{percentage markup} = \dfrac{\text{amount of markup}}{\text{original amount}}
 
 
 
@@ -40,7 +40,7 @@ $$
 
 
 
-\textrm{percentage markdown} = \dfrac{\textrm{amount of markdown}}{\textrm{original amount}}
+\text{percentage markdown} = \dfrac{\text{amount of markdown}}{\text{original amount}}
 
 
 
@@ -64,7 +64,7 @@ $$
 
 
 
-\textrm{percent markup} = \dfrac{\textrm{amount of markup}}{\textrm{original price}}.
+\text{percent markup} = \dfrac{\text{amount of markup}}{\text{original price}}.
 
 
 
@@ -110,7 +110,7 @@ $$
 
 
 
-\textrm{percent markdown} = \dfrac{\textrm{amount of markdown}}{\textrm{original price}}.
+\text{percent markdown} = \dfrac{\text{amount of markdown}}{\text{original price}}.
 
 
 
@@ -150,7 +150,7 @@ $$
 
 
 
-\textrm{percent paid} \times \textrm{original price} = \textrm{final price}
+\text{percent paid} \times \text{original price} = \text{final price}
 
 
 
@@ -178,7 +178,7 @@ $$
 
 
 
-\textrm{percent paid} \times \textrm{original price} = \textrm{final price}.
+\text{percent paid} \times \text{original price} = \text{final price}.
 
 
 
@@ -224,7 +224,7 @@ $$
 
 
 
-\textrm{percent paid} \times \textrm{original price} = \textrm{final price}.
+\text{percent paid} \times \text{original price} = \text{final price}.
 
 
 

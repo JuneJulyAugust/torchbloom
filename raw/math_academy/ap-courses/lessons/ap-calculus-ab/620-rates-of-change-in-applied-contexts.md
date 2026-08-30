@@ -125,7 +125,7 @@ Now that we have the area $A$ expressed as a function of $h$ only, we can differ
 $$
 
 
-\begin{aligned} A'(h) &= \dfrac{\textrm d }{\textrm d h}\left( 2 h^2\right)\\\[5pt] &= 2\dfrac{\textrm d }{\textrm d h}\left(h^2\right)\\\[5pt] & = 2(2 h)\\\[5pt] &= 4 h.\end{aligned}
+\begin{aligned} A'(h) &= \dfrac{\textrm d }{\textrm d h}\left( 2 h^2\right)\\[5pt] &= 2\dfrac{\textrm d }{\textrm d h}\left(h^2\right)\\[5pt] & = 2(2 h)\\[5pt] &= 4 h.\end{aligned}
 
 
 $$
@@ -155,7 +155,7 @@ Taking the derivative, the rate of change of $V(r)$ with respect to $r$ is
 $$
 
 
-\begin{aligned} V'(r) &= \dfrac{\textrm d }{\textrm d r}\left( \dfrac{4}{3}\pi r^3\right)\\\[5pt] & = \dfrac{4}{3}\pi (3r^2)\\\[5pt] &= 4\pi r^2, \end{aligned}
+\begin{aligned} V'(r) &= \dfrac{\textrm d }{\textrm d r}\left( \dfrac{4}{3}\pi r^3\right)\\[5pt] & = \dfrac{4}{3}\pi (3r^2)\\[5pt] &= 4\pi r^2, \end{aligned}
 
 
 $$

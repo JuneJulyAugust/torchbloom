@@ -13,7 +13,7 @@ Topic ID: 5414
 
 In a previous lesson, we claimed that a deterministic finite automaton (DFA) is an **acceptor**—an automaton that processes a sequence of symbols and decides whether to "accept" or "reject" them. In this lesson, we'll explore how a DFA performs this task.
 
-A **string** is a finite sequence of symbols from an **alphabet** $\Sigma$, which is a nonempty finite set. For example, $\textrm{aab}$ is a string on the alphabet $\{\textrm{a}, \textrm{b} \}$, and $\textrm{100a11b}$ is a string on the alphabet $\{\textrm{0}, \textrm{1}, \textrm{a}, \textrm{b} \}$.
+A **string** is a finite sequence of symbols from an **alphabet** $\Sigma$, which is a nonempty finite set. For example, $\text{aab}$ is a string on the alphabet $\{\text{a}, \text{b} \}$, and $\text{100a11b}$ is a string on the alphabet $\{\text{0}, \text{1}, \text{a}, \text{b} \}$.
 
 Let $\omega = a \beta$ be a string, where $a$ is the first symbol of $\omega$ and $\beta$ is the remainder of $\omega$ after removing the first symbol. Then, starting from the transition function $\delta: Q \times \Sigma \to Q$ of an automaton $A = (Q, \Sigma, \delta, q_0, F)$ whose set of input symbols is the alphabet $\Sigma$, we can extend $\delta$ to a function on strings on the alphabet $\Sigma$ recursively as follows:
 

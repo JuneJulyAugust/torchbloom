@@ -163,7 +163,7 @@ In our case, we have
 $$
 
 
-\begin{aligned}𝑃(𝑋≤𝑚) & =∫_{𝑚1}^{}\frac{2}{𝑥^{3}}\,d𝑥 \\ & =−\frac{1}{𝑥^{2}}_{𝑚1}^{} \\ & =−\frac{1}{𝑚^{2}}+1\end{aligned}
+\begin{aligned}𝑃(𝑋≤𝑚) & =∫_{𝑚1}\frac{2}{𝑥^{3}}\,d𝑥 \\ & =−\frac{1}{𝑥^{2}}_{𝑚1} \\ & =−\frac{1}{𝑚^{2}}+1\end{aligned}
 
 
 $$
@@ -173,7 +173,7 @@ Therefore, the median is given by
 $$
 
 
-\begin{aligned}−\frac{1}{𝑚^{2}}+1 & =\frac{1}{2} \\ \frac{1}{𝑚^{2}} & =\frac{1}{2} \\ 𝑚 & =\sqrt{√2}.\end{aligned}
+\begin{aligned}−\frac{1}{𝑚^{2}}+1 & =\frac{1}{2} \\ \frac{1}{𝑚^{2}} & =\frac{1}{2} \\ 𝑚 & =\sqrt{2}.\end{aligned}
 
 
 $$
@@ -223,7 +223,7 @@ First, we find the lower quartile:
 $$
 
 
-\begin{aligned}𝑃(𝑋≤𝑞_{1}) & =\frac{1}{4} \\ 𝐹(𝑞_{1}) & =\frac{1}{4} \\ \frac{1}{25}𝑞_{21}^{} & =\frac{1}{4} \\ 𝑞_{21}^{} & =\frac{25}{4} \\ 𝑞_{1} & =\frac{5}{2}\end{aligned}
+\begin{aligned}𝑃(𝑋≤𝑞_{1}) & =\frac{1}{4} \\ 𝐹(𝑞_{1}) & =\frac{1}{4} \\ \frac{1}{25}𝑞_{21} & =\frac{1}{4} \\ 𝑞_{21} & =\frac{25}{4} \\ 𝑞_{1} & =\frac{5}{2}\end{aligned}
 
 
 $$
@@ -233,7 +233,7 @@ Then, we find the upper quartile:
 $$
 
 
-\begin{aligned}𝑃(𝑋≤𝑞_{3}) & =\frac{3}{4} \\ 𝐹(𝑞_{3}) & =\frac{3}{4} \\ \frac{1}{25}𝑞_{23}^{} & =\frac{3}{4} \\ 𝑞_{23}^{} & =\frac{75}{4} \\ 𝑞_{3} & =\frac{5\sqrt{√3}}{2}\end{aligned}
+\begin{aligned}𝑃(𝑋≤𝑞_{3}) & =\frac{3}{4} \\ 𝐹(𝑞_{3}) & =\frac{3}{4} \\ \frac{1}{25}𝑞_{23} & =\frac{3}{4} \\ 𝑞_{23} & =\frac{75}{4} \\ 𝑞_{3} & =\frac{5\sqrt{3}}{2}\end{aligned}
 
 
 $$
@@ -281,7 +281,7 @@ In our case, we want to find the $27$th percentile, which corresponds to the dec
 $$
 
 
-\begin{aligned}𝑃(𝑋≤𝑥_{0.27}) & =∫_{𝑥_{0.27}5}^{}\frac{2}{75}𝑥\,d𝑥 \\ & =\frac{𝑥^{2}}{75}_{𝑥_{0.27}5}^{} \\ & =\frac{𝑥_{20.27}^{}}{75}−\frac{1}{3}.\end{aligned}
+\begin{aligned}𝑃(𝑋≤𝑥_{0.27}) & =∫_{𝑥_{0.27}5}^{}\frac{2}{75}𝑥\,d𝑥 \\ & =\frac{𝑥^{2}}{75}_{𝑥_{0.27}5}^{} \\ & =\frac{𝑥_{20.27}}{75}−\frac{1}{3}.\end{aligned}
 
 
 $$
@@ -291,7 +291,7 @@ Therefore, the $27$th percentile is given by
 $$
 
 
-\begin{aligned}\frac{𝑥_{20.27}^{}}{75}−\frac{1}{3} & =0.27 \\ 𝑥_{20.27}^{} & =75(\frac{27}{100}+\frac{1}{3}) \\ 𝑥_{0.27} & =6.727\end{aligned}
+\begin{aligned}\frac{𝑥_{20.27}}{75}−\frac{1}{3} & =0.27 \\ 𝑥_{20.27} & =75(\frac{27}{100}+\frac{1}{3}) \\ 𝑥_{0.27} & =6.727\end{aligned}
 
 
 $$

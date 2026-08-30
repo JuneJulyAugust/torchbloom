@@ -71,12 +71,12 @@ The graph above shows the function $y=A\cos\left(x+2\right),$ where $A$ is a con
 
 The constant $A$ is the amplitude of the function.
 
-From the graph, we see that the maximum value is $y_\max=\sqrt{2}$ and the minimum value is $y_\min=-\sqrt{2}.$ Therefore, the amplitude is
+From the graph, we see that the maximum value is $y_{\max}=\sqrt{2}$ and the minimum value is $y_{\min}=-\sqrt{2}.$ Therefore, the amplitude is
 
 $$
 
 
-A = \dfrac{y_\max-y_\min}{2} = \dfrac{\sqrt{2}-(-\sqrt{2})}{2}=\sqrt{2}.
+A = \dfrac{y_{\max}-y_{\min}}{2} = \dfrac{\sqrt{2}-(-\sqrt{2})}{2}=\sqrt{2}.
 
 
 $$

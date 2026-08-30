@@ -14,7 +14,7 @@ Topic ID: 969
 
 ### Introduction
 
-The hyperbolic functions have inverse functions that are easy to define. The **inverse hyperbolic functions** are the following: $\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+The hyperbolic functions have inverse functions that are easy to define. The **inverse hyperbolic functions** are the following: $$
 
 - The **inverse hyperbolic sine**, defined as The graph of the inverse hyperbolic sine function is given below.
 
@@ -22,12 +22,12 @@ The hyperbolic functions have inverse functions that are easy to define. The **i
 
 - The **inverse hyperbolic tangent**, defined as The graph of the inverse hyperbolic tangent function is given below.
 
-For example, to calculate $\arcosh(\sqrt2)$ we substitute $x$ for $\sqrt2$ in the formula for $\arcosh$ and get
+For example, to calculate $\operatorname{arcosh}(\sqrt2)$ we substitute $x$ for $\sqrt2$ in the formula for $\operatorname{arcosh}$ and get
 
 $$
 
 
-\begin{aligned}arcosh⁡(\sqrt{√2}) & =ln⁡(\sqrt{√2}+\sqrt{√(\sqrt{√2})^{2}−1}) \\ & =ln⁡(\sqrt{√2}+\sqrt{√2−1}) \\ & =ln⁡(\sqrt{√2}+1).\end{aligned}
+\begin{aligned}arcosh⁡(\sqrt{2}) & =ln⁡(\sqrt{2}+\sqrt{(\sqrt{2})^{2}−1}) \\ & =ln⁡(\sqrt{2}+\sqrt{2−1}) \\ & =ln⁡(\sqrt{2}+1).\end{aligned}
 
 
 $$
@@ -36,20 +36,20 @@ $$
 
 #### Question
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
-$\arsinh{2} =$
+$\operatorname{arsinh}{2} =$
 
 #### Explanation
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
-The definition of $\arsinh x$ is
+The definition of $\operatorname{arsinh} x$ is
 
 $$
 
 
-\arsinh{x} =\ln\left(x+\sqrt{x^2+1}\right).
+\operatorname{arsinh}{x} =\ln\left(x+\sqrt{x^2+1}\right).
 
 
 $$
@@ -59,7 +59,7 @@ Therefore,
 $$
 
 
-\begin{aligned} \arsinh{2} & = \ln\left(2 + \sqrt{2^2+1}\right)\\\[5pt] & = \ln\left(2 + \sqrt{4+1}\right)\\\[5pt] &=\ln\left(2 + \sqrt 5\right). \end{aligned}
+\begin{aligned} \operatorname{arsinh}{2} & = \ln\left(2 + \sqrt{2^2+1}\right)\\[5pt] & = \ln\left(2 + \sqrt{4+1}\right)\\[5pt] &=\ln\left(2 + \sqrt 5\right). \end{aligned}
 
 
 $$
@@ -68,20 +68,20 @@ $$
 
 #### Question
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
-$\arcosh{3} =$
+$\operatorname{arcosh}{3} =$
 
 #### Explanation
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
-The definition of $\arcosh{x}$ is
+The definition of $\operatorname{arcosh}{x}$ is
 
 $$
 
 
-\arcosh{x} = \ln\left(x+\sqrt{x^2-1}\right).
+\operatorname{arcosh}{x} = \ln\left(x+\sqrt{x^2-1}\right).
 
 
 $$
@@ -91,7 +91,7 @@ Therefore,
 $$
 
 
-\begin{aligned} \arcosh{3} & = \ln\left(3+\sqrt{3^2-1}\right)\\[3pt] & = \ln\left(3+\sqrt{9-1}\right)\\[3pt] & = \ln\left(3+\sqrt{8}\right)\\[3pt] &=\ln{\left(3+2\sqrt{2}\right)}. \end{aligned}
+\begin{aligned} \operatorname{arcosh}{3} & = \ln\left(3+\sqrt{3^2-1}\right)\\[3pt] & = \ln\left(3+\sqrt{9-1}\right)\\[3pt] & = \ln\left(3+\sqrt{8}\right)\\[3pt] &=\ln{\left(3+2\sqrt{2}\right)}. \end{aligned}
 
 
 $$
@@ -100,20 +100,20 @@ $$
 
 #### Question
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
-$\artanh\left (\dfrac{1}{2} \right) =$
+$\operatorname{artanh}\left (\dfrac{1}{2} \right) =$
 
 #### Explanation
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
-The definition of $\artanh{x}$ is
+The definition of $\operatorname{artanh}{x}$ is
 
 $$
 
 
-\artanh{x} = \dfrac{1}{2}\ln\left(\dfrac{1+x}{1-x}\right).
+\operatorname{artanh}{x} = \dfrac{1}{2}\ln\left(\dfrac{1+x}{1-x}\right).
 
 
 $$
@@ -123,7 +123,7 @@ Therefore,
 $$
 
 
-\begin{aligned} \artanh\left ( \dfrac{1}{2} \right ) & = \dfrac{1}{2}\ln\left(\dfrac{1+\dfrac{1}{2}}{1-\dfrac{1}{2}}\right)\\\[5pt] &=\dfrac{1}{2}\ln\left(\dfrac{\dfrac{3}{2}}{\dfrac{1}{2}}\right)\\\[5pt] &=\dfrac{1}{2}\ln{3}. \end{aligned}
+\begin{aligned} \operatorname{artanh}\left ( \dfrac{1}{2} \right ) & = \dfrac{1}{2}\ln\left(\dfrac{1+\dfrac{1}{2}}{1-\dfrac{1}{2}}\right)\\[5pt] &=\dfrac{1}{2}\ln\left(\dfrac{\dfrac{3}{2}}{\dfrac{1}{2}}\right)\\[5pt] &=\dfrac{1}{2}\ln{3}. \end{aligned}
 
 
 $$
@@ -132,12 +132,12 @@ $$
 
 We can derive the formulas from inverse hyperbolic sine, cosine, and tangent from the definition of these base functions.
 
-For example, let's show that $\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+For example, let's show that $$
 
 $$
 
 
-\cosh^{-1}{x} = \arcosh{x} = \ln\big(x+\sqrt{x^2-1}\big), \qquad x \in [1, \infty).
+\cosh^{-1}{x} = \operatorname{arcosh}{x} = \ln\big(x+\sqrt{x^2-1}\big), \qquad x \in [1, \infty).
 
 
 $$
@@ -181,7 +181,7 @@ Letting $Y = e^{y},$ we form a quadratic equation in $Y$ and solve it by complet
 $$
 
 
-\begin{aligned}𝑌^{2}−2𝑥𝑌+1 & =0 \\ (𝑌−𝑥)^{2}−𝑥^{2}+1 & =0 \\ (𝑌−𝑥)^{2} & =𝑥^{2}−1 \\ 𝑌−𝑥 & =±\sqrt{√𝑥^{2}−1} \\ 𝑌 & =𝑥±\sqrt{√𝑥^{2}−1} \\ 𝑒^{𝑦} & =𝑥±\sqrt{√𝑥^{2}−1} \\ 𝑦 & =ln⁡(𝑥±\sqrt{√𝑥^{2}−1})\end{aligned}
+\begin{aligned}𝑌^{2}−2𝑥𝑌+1 & =0 \\ (𝑌−𝑥)^{2}−𝑥^{2}+1 & =0 \\ (𝑌−𝑥)^{2} & =𝑥^{2}−1 \\ 𝑌−𝑥 & =±\sqrt{𝑥^{2}−1} \\ 𝑌 & =𝑥±\sqrt{𝑥^{2}−1} \\ 𝑒^{𝑦} & =𝑥±\sqrt{𝑥^{2}−1} \\ 𝑦 & =ln⁡(𝑥±\sqrt{𝑥^{2}−1})\end{aligned}
 
 
 $$
@@ -191,17 +191,17 @@ Note that for $x\ge 1,$ we have $x-\sqrt{x^{2}-1}\leq 1$ and $x+\sqrt{x^{2}-1}\g
 $$
 
 
-\begin{aligned}𝑦 & =ln⁡(𝑥+\sqrt{√𝑥^{2}−1}).\end{aligned}
+\begin{aligned}𝑦 & =ln⁡(𝑥+\sqrt{𝑥^{2}−1}).\end{aligned}
 
 
 $$
 
-So, we obtain our formula for $\arcosh{:}$
+So, we obtain our formula for $\operatorname{arcosh}{:}$
 
 $$
 
 
-f^{-1}(x)= \arcosh{x} = \ln\big(x+\sqrt{x^2-1}\big).
+f^{-1}(x)= \operatorname{arcosh}{x} = \ln\big(x+\sqrt{x^2-1}\big).
 
 
 $$
@@ -210,13 +210,13 @@ $$
 
 #### Question
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
 Using the definition of the hyperbolic sine, calculate $f^{-1}(x)$ given that $f(x) = \sinh{\left(x^2\right)}$ and $x \geq 0.$
 
 #### Explanation
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
 Let $y = \sinh{\left(x^2\right)}.$ Since $x \geq 0,$ we have $y \geq 0.$
 
@@ -257,7 +257,7 @@ Let $Y = e^{y^2}.$ We can form a quadratic equation in $Y$ and solve it by compl
 $$
 
 
-\begin{aligned}𝑌^{2}−2𝑥𝑌−1 & =0 \\ (𝑌−𝑥)^{2}−𝑥^{2}−1 & =0 \\ (𝑌−𝑥)^{2} & =𝑥^{2}+1 \\ 𝑌−𝑥 & =±\sqrt{√𝑥^{2}+1} \\ 𝑌 & =𝑥±\sqrt{√𝑥^{2}+1} \\ 𝑒^{𝑦^{2}} & =𝑥±\sqrt{√𝑥^{2}+1}\end{aligned}
+\begin{aligned}𝑌^{2}−2𝑥𝑌−1 & =0 \\ (𝑌−𝑥)^{2}−𝑥^{2}−1 & =0 \\ (𝑌−𝑥)^{2} & =𝑥^{2}+1 \\ 𝑌−𝑥 & =±\sqrt{𝑥^{2}+1} \\ 𝑌 & =𝑥±\sqrt{𝑥^{2}+1} \\ 𝑒^{𝑦^{2}} & =𝑥±\sqrt{𝑥^{2}+1}\end{aligned}
 
 
 $$
@@ -267,7 +267,7 @@ Since $e^{y^2} >0$ for all real $y,$ and $x -\sqrt{x^2+1} <0,$ we must select th
 $$
 
 
-\begin{aligned}𝑒^{𝑦^{2}} & =𝑥+\sqrt{√𝑥^{2}+1} \\ ln⁡(𝑒^{𝑦^{2}}) & =ln⁡(𝑥+\sqrt{√𝑥^{2}+1}) \\ 𝑦^{2} & =ln⁡(𝑥+\sqrt{√𝑥^{2}+1}) \\ 𝑦 & =±\sqrt{√ln⁡(𝑥+\sqrt{√𝑥^{2}+1})}\end{aligned}
+\begin{aligned}𝑒^{𝑦^{2}} & =𝑥+\sqrt{𝑥^{2}+1} \\ ln⁡(𝑒^{𝑦^{2}}) & =ln⁡(𝑥+\sqrt{𝑥^{2}+1}) \\ 𝑦^{2} & =ln⁡(𝑥+\sqrt{𝑥^{2}+1}) \\ 𝑦 & =±\sqrt{ln⁡(𝑥+\sqrt{𝑥^{2}+1})}\end{aligned}
 
 
 $$

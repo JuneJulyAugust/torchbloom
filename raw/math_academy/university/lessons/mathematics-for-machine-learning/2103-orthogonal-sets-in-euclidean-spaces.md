@@ -40,7 +40,7 @@ Let's compute each dot product:
 $$
 
 
-\begin{aligned}𝐰_{1}⋅𝐰_{2} & =\begin{aligned}3 \\ 1 \\ 1\end{aligned}⋅\begin{aligned}−1 \\ 2 \\ 1\end{aligned}=3⋅(−1)+1⋅2+1⋅1=0 & ✓ \\ 𝐰_{1}⋅𝐰_{3} & =\begin{aligned}3 \\ 1 \\ 1\end{aligned}⋅\begin{aligned}−1 \\ −4 \\ 7\end{aligned}=3⋅(−1)+1⋅(−4)+1⋅7=0 & ✓ \\ 𝐰_{2}⋅𝐰_{3} & =\begin{aligned}−1 \\ 2 \\ 1\end{aligned}⋅\begin{aligned}−1 \\ −4 \\ 7\end{aligned}=(−1)⋅(−1)+2⋅(−4)+1⋅7=0 & ✓\end{aligned}
+\begin{aligned}𝐰_{1}⋅𝐰_{2} & =\begin{matrix}3 \\ 1 \\ 1\end{matrix}⋅\begin{matrix}−1 \\ 2 \\ 1\end{matrix}=3⋅(−1)+1⋅2+1⋅1=0 & ✓ \\ 𝐰_{1}⋅𝐰_{3} & =\begin{matrix}3 \\ 1 \\ 1\end{matrix}⋅\begin{matrix}−1 \\ −4 \\ 7\end{matrix}=3⋅(−1)+1⋅(−4)+1⋅7=0 & ✓ \\ 𝐰_{2}⋅𝐰_{3} & =\begin{matrix}−1 \\ 2 \\ 1\end{matrix}⋅\begin{matrix}−1 \\ −4 \\ 7\end{matrix}=(−1)⋅(−1)+2⋅(−4)+1⋅7=0 & ✓\end{aligned}
 
 
 $$
@@ -80,7 +80,7 @@ Let's compute each dot product:
 $$
 
 
-\begin{aligned}𝐱_{1}⋅𝐱_{2} & =\begin{aligned}2 \\ 0 \\ 1\end{aligned}⋅\begin{aligned}−1 \\ 0 \\ 2\end{aligned}=2⋅(−1)+0⋅0+1⋅2=0 & ✓ \\ 𝐱_{1}⋅𝐱_{3} & =\begin{aligned}2 \\ 0 \\ 1\end{aligned}⋅\begin{aligned}1 \\ −2 \\ 0\end{aligned}=2⋅1+0⋅(−2)+1⋅0=2≠0 & × \\ 𝐱_{2}⋅𝐱_{3} & =\begin{aligned}−1 \\ 0 \\ 2\end{aligned}⋅\begin{aligned}1 \\ −2 \\ 0\end{aligned}=(−1)⋅1+0⋅(−2)+2⋅0=−1≠0 & ×\end{aligned}
+\begin{aligned}𝐱_{1}⋅𝐱_{2} & =\begin{matrix}2 \\ 0 \\ 1\end{matrix}⋅\begin{matrix}−1 \\ 0 \\ 2\end{matrix}=2⋅(−1)+0⋅0+1⋅2=0 & ✓ \\ 𝐱_{1}⋅𝐱_{3} & =\begin{matrix}2 \\ 0 \\ 1\end{matrix}⋅\begin{matrix}1 \\ −2 \\ 0\end{matrix}=2⋅1+0⋅(−2)+1⋅0=2≠0 & × \\ 𝐱_{2}⋅𝐱_{3} & =\begin{matrix}−1 \\ 0 \\ 2\end{matrix}⋅\begin{matrix}1 \\ −2 \\ 0\end{matrix}=(−1)⋅1+0⋅(−2)+2⋅0=−1≠0 & ×\end{aligned}
 
 
 $$
@@ -110,7 +110,7 @@ Determine whether the following set is orthonormal:
 $$
 
 
-\begin{aligned}\frac{1}{\sqrt{√2}} \\ −\frac{1}{\sqrt{√2}}\end{aligned}
+\begin{aligned}\frac{1}{\sqrt{2}} \\ −\frac{1}{\sqrt{2}}\end{aligned}
 
 
 $$
@@ -134,7 +134,7 @@ With that in mind, let's examine our set:
 $$
 
 
-\begin{aligned}𝐰_{1}⋅𝐰_{2} & =\begin{aligned}\frac{1}{\sqrt{√2}} \\ −\frac{1}{\sqrt{√2}}\end{aligned}⋅[\begin{aligned}4 \\ 4\end{aligned}]=\frac{4}{\sqrt{√2}}−\frac{4}{\sqrt{√2}}=0 & ✓ \\ 𝐰_{1}⋅𝐰_{1} & =\begin{aligned}\frac{1}{\sqrt{√2}} \\ −\frac{1}{\sqrt{√2}}\end{aligned}⋅\begin{aligned}\frac{1}{\sqrt{√2}} \\ −\frac{1}{\sqrt{√2}}\end{aligned}=\frac{1}{2}+\frac{1}{2}=1 & ✓ \\ 𝐰_{2}⋅𝐰_{2} & =[\begin{aligned}4 \\ 4\end{aligned}]⋅[\begin{aligned}4 \\ 4\end{aligned}]=16+16=32≠1 & ×\end{aligned}
+\begin{aligned}𝐰_{1}⋅𝐰_{2} & =\begin{matrix}\frac{1}{\sqrt{2}} \\ −\frac{1}{\sqrt{2}}\end{matrix}⋅[\begin{matrix}4 \\ 4\end{matrix}]=\frac{4}{\sqrt{2}}−\frac{4}{\sqrt{2}}=0 & ✓ \\ 𝐰_{1}⋅𝐰_{1} & =\begin{matrix}\frac{1}{\sqrt{2}} \\ −\frac{1}{\sqrt{2}}\end{matrix}⋅\begin{matrix}\frac{1}{\sqrt{2}} \\ −\frac{1}{\sqrt{2}}\end{matrix}=\frac{1}{2}+\frac{1}{2}=1 & ✓ \\ 𝐰_{2}⋅𝐰_{2} & =[\begin{matrix}4 \\ 4\end{matrix}]⋅[\begin{matrix}4 \\ 4\end{matrix}]=16+16=32≠1 & ×\end{aligned}
 
 
 $$
@@ -174,7 +174,7 @@ So, we consider the augmented matrix $M$ of the system above and reduce it to ro
 $$
 
 
-\begin{aligned}𝑀 & =[\begin{aligned}−1 & −1 & 2 & 0 \\ 1 & 1 & 1 & 0\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+𝑅_{1} \\ & ∼[\begin{aligned}−1 & −1 & 2 & 0 \\ 0 & 0 & 3 & 0\end{aligned}] & & \end{aligned}
+\begin{aligned}𝑀 & =[\begin{matrix}−1 & −1 & 2 & 0 \\ 1 & 1 & 1 & 0\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+𝑅_{1} \\ & ∼[\begin{matrix}−1 & −1 & 2 & 0 \\ 0 & 0 & 3 & 0\end{matrix}] & & \end{aligned}
 
 
 $$
@@ -228,7 +228,7 @@ Consider the **** set $U$ below. By adding a new vector $\mathbf x = [x_1,\,x_2,
 $$
 
 
-\begin{aligned}−\frac{1}{\sqrt{√2}} \\ 0 \\ \frac{1}{\sqrt{√2}}\end{aligned}
+\begin{aligned}−\frac{1}{\sqrt{2}} \\ 0 \\ \frac{1}{\sqrt{2}}\end{aligned}
 
 
 $$
@@ -250,7 +250,7 @@ So, we consider the augmented matrix $M$ of the system above and reduce it to ro
 $$
 
 
-\begin{aligned}𝑀 & =\begin{aligned}−\frac{1}{\sqrt{√2}} & 0 & \frac{1}{\sqrt{√2}} & 0 \\ \frac{1}{\sqrt{√6}} & \frac{2}{\sqrt{√6}} & \frac{1}{\sqrt{√6}} & 0\end{aligned} & & \begin{aligned}𝑅_{1}:=\sqrt{√2}⋅𝑅_{1} \\ 𝑅_{2}:=\sqrt{√6}⋅𝑅_{2}\end{aligned} \\ & ∼[\begin{aligned}−1 & 0 & 1 & 0 \\ 1 & 2 & 1 & 0\end{aligned}] & & \begin{aligned}𝑅_{2}:=𝑅_{2}+𝑅_{1}\end{aligned} \\ & ∼[\begin{aligned}−1 & 0 & 1 & 0 \\ 0 & 2 & 2 & 0\end{aligned}] & & \end{aligned}
+\begin{aligned}𝑀 & =\begin{matrix}−\frac{1}{\sqrt{2}} & 0 & \frac{1}{\sqrt{2}} & 0 \\ \frac{1}{\sqrt{6}} & \frac{2}{\sqrt{6}} & \frac{1}{\sqrt{6}} & 0\end{matrix} & & \begin{matrix}𝑅_{1}:=\sqrt{2}⋅𝑅_{1} \\ 𝑅_{2}:=\sqrt{6}⋅𝑅_{2}\end{matrix} \\ & ∼[\begin{matrix}−1 & 0 & 1 & 0 \\ 1 & 2 & 1 & 0\end{matrix}] & & \begin{matrix}𝑅_{2}:=𝑅_{2}+𝑅_{1}\end{matrix} \\ & ∼[\begin{matrix}−1 & 0 & 1 & 0 \\ 0 & 2 & 2 & 0\end{matrix}] & & \end{aligned}
 
 
 $$
@@ -274,7 +274,7 @@ Now, we need to normalize $\mathbf{x}.$ Notice that $\| \mathbf{x} \| = \sqrt{1^
 $$
 
 
-\begin{aligned}\frac{1}{\sqrt{√3}} \\ −\frac{1}{\sqrt{√3}} \\ \frac{1}{\sqrt{√3}}\end{aligned}
+\begin{aligned}\frac{1}{\sqrt{3}} \\ −\frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}}\end{aligned}
 
 
 $$
@@ -284,7 +284,7 @@ Therefore, an orthonormal basis of $\mathbb{R}^3$ is
 $$
 
 
-\begin{aligned}−\frac{1}{\sqrt{√2}} \\ 0 \\ \frac{1}{\sqrt{√2}}\end{aligned}
+\begin{aligned}−\frac{1}{\sqrt{2}} \\ 0 \\ \frac{1}{\sqrt{2}}\end{aligned}
 
 
 $$

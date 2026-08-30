@@ -146,7 +146,7 @@ Let $V=\mathcal{C}\left[0,1\right]$ be the vector space of all functions that ar
 $$
 
 
-\langle x(t),y(t) \rangle = \displaystyle\int_{0}^{1} x(t) y(t) \, \textrm{d}t.
+\langle x(t),y(t) \rangle = \displaystyle\int_{0}^{1} x(t) y(t) \, \text{d}t.
 
 
 $$
@@ -162,7 +162,7 @@ First, we compute the inner product using our definition:
 $$
 
 
-\begin{aligned}⟨𝑥(𝑡),𝑦(𝑡)⟩ & =∫_{10}^{}𝑥(𝑡)𝑦(𝑡)\,d𝑡 \\ & =∫_{10}^{}(𝑘𝑡^{2}+3𝑡)(𝑡)\,d𝑡 \\ & =∫_{10}^{}(𝑘𝑡^{3}+3𝑡^{2})\,d𝑡 \\ & =(\frac{𝑘𝑡^{4}}{4}+𝑡^{3})_{10}^{} \\ & =\frac{𝑘}{4}+1.\end{aligned}
+\begin{aligned}⟨𝑥(𝑡),𝑦(𝑡)⟩ & =∫_{10}𝑥(𝑡)𝑦(𝑡)\,d𝑡 \\ & =∫_{10}(𝑘𝑡^{2}+3𝑡)(𝑡)\,d𝑡 \\ & =∫_{10}(𝑘𝑡^{3}+3𝑡^{2})\,d𝑡 \\ & =(\frac{𝑘𝑡^{4}}{4}+𝑡^{3})_{10} \\ & =\frac{𝑘}{4}+1.\end{aligned}
 
 
 $$
@@ -186,7 +186,7 @@ Let $V=\mathcal{C}\left[0,2\pi\right]$ be the vector space of all functions that
 $$
 
 
-\langle f(t),g(t) \rangle = \displaystyle\int_{0}^{2\pi} f(t) g(t) \, \textrm{d}t.
+\langle f(t),g(t) \rangle = \displaystyle\int_{0}^{2\pi} f(t) g(t) \, \text{d}t.
 
 
 $$
@@ -208,7 +208,7 @@ We need to evaluate
 $$
 
 
-\langle f(t), g(t) \rangle = \int_{0}^{2\pi}\cos{t} \sin2t \,\textrm{d}t.
+\langle f(t), g(t) \rangle = \int_{0}^{2\pi}\cos{t} \sin2t \,\text{d}t.
 
 
 $$
@@ -218,7 +218,7 @@ We can evaluate this integral using the given identity, as follows:
 $$
 
 
-\begin{aligned}∫_{2𝜋0}^{}sin⁡2𝑡\,cos⁡𝑡\,d𝑡 & =\frac{1}{2}∫_{2𝜋0}^{}(sin⁡(2𝑡−𝑡)+sin⁡(2𝑡+𝑡))\,d𝑡 \\ & =\frac{1}{2}∫_{2𝜋0}^{}(sin⁡𝑡+sin⁡3𝑡)\,d𝑡 \\ & =\frac{1}{2}(−cos⁡𝑡−\frac{cos⁡3𝑡}{3})_{2𝜋0}^{} \\ & =\frac{1}{2}[−cos⁡(2𝜋)−\frac{cos⁡(6𝜋)}{3}]−\frac{1}{2}[−cos⁡0−\frac{cos⁡0}{3}] \\ & =\frac{1}{2}[−1−\frac{1}{3}]−\frac{1}{2}[−1−\frac{1}{3}] \\ & =\frac{1}{2}⋅(−\frac{4}{3})−\frac{1}{2}⋅(−\frac{4}{3}) \\ & =−\frac{2}{3}+\frac{2}{3} \\ & =0\end{aligned}
+\begin{aligned}∫_{2𝜋0}sin⁡2𝑡\,cos⁡𝑡\,d𝑡 & =\frac{1}{2}∫_{2𝜋0}(sin⁡(2𝑡−𝑡)+sin⁡(2𝑡+𝑡))\,d𝑡 \\ & =\frac{1}{2}∫_{2𝜋0}(sin⁡𝑡+sin⁡3𝑡)\,d𝑡 \\ & =\frac{1}{2}(−cos⁡𝑡−\frac{cos⁡3𝑡}{3})_{2𝜋0} \\ & =\frac{1}{2}[−cos⁡(2𝜋)−\frac{cos⁡(6𝜋)}{3}]−\frac{1}{2}[−cos⁡0−\frac{cos⁡0}{3}] \\ & =\frac{1}{2}[−1−\frac{1}{3}]−\frac{1}{2}[−1−\frac{1}{3}] \\ & =\frac{1}{2}⋅(−\frac{4}{3})−\frac{1}{2}⋅(−\frac{4}{3}) \\ & =−\frac{2}{3}+\frac{2}{3} \\ & =0\end{aligned}
 
 
 $$

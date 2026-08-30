@@ -54,7 +54,7 @@ $$
 
 $$
 
-Therefore, we conclude that the eigenvalues of $A$ are $\lambda = \pm\textrm{i}.$
+Therefore, we conclude that the eigenvalues of $A$ are $\lambda = \pm\text{i}.$
 
 ### Example: Computing the Complex Eigenvalues of a Matrix
 
@@ -79,7 +79,7 @@ Then, we compute the characteristic equation, as follows:
 $$
 
 
-\begin{aligned}det(𝐴−𝜆𝐼) & =0 \\ \begin{aligned}1−𝜆 & −2 \\ 2 & 1−𝜆\end{aligned} & =0 \\ (1−𝜆)(1−𝜆)−2(−2) & =0 \\ 1−2𝜆+𝜆^{2}+4 & =0 \\ 𝜆^{2}−2𝜆+5 & =0\end{aligned}
+\begin{aligned}det(𝐴−𝜆𝐼) & =0 \\ \begin{matrix}1−𝜆 & −2 \\ 2 & 1−𝜆\end{matrix} & =0 \\ (1−𝜆)(1−𝜆)−2(−2) & =0 \\ 1−2𝜆+𝜆^{2}+4 & =0 \\ 𝜆^{2}−2𝜆+5 & =0\end{aligned}
 
 
 $$
@@ -89,12 +89,12 @@ Using the quadratic formula, we get
 $$
 
 
-\begin{aligned}𝜆 & =\frac{−𝑏±\sqrt{√𝑏^{2}−4𝑎𝑐}}{2𝑎} \\ & =\frac{−(−2)±\sqrt{√(−2)^{2}−4(1)(5)}}{2(1)} \\ & =\frac{2±\sqrt{√−16}}{2} \\ & =\frac{2±4i}{2} \\ & =1±2i.\end{aligned}
+\begin{aligned}𝜆 & =\frac{−𝑏±\sqrt{𝑏^{2}−4𝑎𝑐}}{2𝑎} \\ & =\frac{−(−2)±\sqrt{(−2)^{2}−4(1)(5)}}{2(1)} \\ & =\frac{2±\sqrt{−16}}{2} \\ & =\frac{2±4i}{2} \\ & =1±2i.\end{aligned}
 
 
 $$
 
-Therefore, the eigenvalues are $\lambda=1\pm 2\textrm{i}.$
+Therefore, the eigenvalues are $\lambda=1\pm 2\text{i}.$
 
 ### Complex Eigenvalues and Eigenvectors Come in Conjugate Pairs
 
@@ -142,16 +142,16 @@ Therefore, $\overline{\lambda}$ is also an eigenvalue of $A$ and its correspondi
 
 #### Question
 
-Given that $\lambda_1=-2+3\textrm{i}$ and $\lambda_2$ are eigenvalues of a real $2 \times 2$ matrix $A,$ find $2(\lambda_1+\lambda_2).$
+Given that $\lambda_1=-2+3\text{i}$ and $\lambda_2$ are eigenvalues of a real $2 \times 2$ matrix $A,$ find $2(\lambda_1+\lambda_2).$
 
 #### Explanation
 
-Since $\lambda_1=-2+3\textrm{i}$ is a complex eigenvalue of $A,$ the second eigenvalue of $A$ must be the complex conjugate of $\lambda_1.$ Therefore,
+Since $\lambda_1=-2+3\text{i}$ is a complex eigenvalue of $A,$ the second eigenvalue of $A$ must be the complex conjugate of $\lambda_1.$ Therefore,
 
 $$
 
 
-\lambda_2=\overline{\lambda}_1=-2-3\textrm{i}.
+\lambda_2=\overline{\lambda}_1=-2-3\text{i}.
 
 
 $$

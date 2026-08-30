@@ -59,7 +59,7 @@ $$
 
 
 
-\begin{aligned} (2+4x)^{1/2} &= (2(1+2x))^{1/2}\\\[5pt] &= 2^{1/2} (1+2x)^{1/2} \end{aligned}
+\begin{aligned} (2+4x)^{1/2} &= (2(1+2x))^{1/2}\\[5pt] &= 2^{1/2} (1+2x)^{1/2} \end{aligned}
 
 
 
@@ -193,7 +193,7 @@ $$
 
 
 
-\begin{aligned} \sqrt{2}(2-x)^{-{1}/{2}} & = \sqrt{2}\left(2\left(1-\frac{1}{2}x\right)\right)^{-{1}/{2}} \\\[5pt] & = (2)^{{1}/{2}}(2)^{-{1}/{2}}\left(1-\frac{1}{2}x\right)^{-{1}/{2}} \\\[5pt] & = \left(1-\frac{1}{2}x\right)^{-{1}/{2}}. \end{aligned}
+\begin{aligned} \sqrt{2}(2-x)^{-{1}/{2}} & = \sqrt{2}\left(2\left(1-\frac{1}{2}x\right)\right)^{-{1}/{2}} \\[5pt] & = (2)^{{1}/{2}}(2)^{-{1}/{2}}\left(1-\frac{1}{2}x\right)^{-{1}/{2}} \\[5pt] & = \left(1-\frac{1}{2}x\right)^{-{1}/{2}}. \end{aligned}
 
 
 
@@ -205,7 +205,7 @@ $$
 
 
 
-\begin{aligned} \dfrac{\sqrt{2}}{\sqrt{2-x}} & = \left(1-\dfrac{1}{2}x\right)^{-1/2} \\\[5pt] & = 1+\left(-\dfrac{1}{2}\right)\left(-\dfrac{1}{2}x\right)+\dfrac{\left(-\dfrac{1}{2}\right)\left(-\dfrac{1}{2}-1\right)\left(-\dfrac{1}{2}x\right)^2 }{2!}+ \cdots \\\[5pt] & = 1 + \dfrac{1}{4}x +\dfrac{\left(-\dfrac{1}{2}\right)\left(-\dfrac{3}{2}\right)\left(\dfrac{1}{4}\right)x^2}{2} + \cdots \\\[5pt] & = 1 + \dfrac{1}{4}x + \dfrac{3}{32}x^2+ \cdots . \end{aligned}
+\begin{aligned} \dfrac{\sqrt{2}}{\sqrt{2-x}} & = \left(1-\dfrac{1}{2}x\right)^{-1/2} \\[5pt] & = 1+\left(-\dfrac{1}{2}\right)\left(-\dfrac{1}{2}x\right)+\dfrac{\left(-\dfrac{1}{2}\right)\left(-\dfrac{1}{2}-1\right)\left(-\dfrac{1}{2}x\right)^2 }{2!}+ \cdots \\[5pt] & = 1 + \dfrac{1}{4}x +\dfrac{\left(-\dfrac{1}{2}\right)\left(-\dfrac{3}{2}\right)\left(\dfrac{1}{4}\right)x^2}{2} + \cdots \\[5pt] & = 1 + \dfrac{1}{4}x + \dfrac{3}{32}x^2+ \cdots . \end{aligned}
 
 
 

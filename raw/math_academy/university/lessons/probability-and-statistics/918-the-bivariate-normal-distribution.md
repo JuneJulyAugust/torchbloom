@@ -29,16 +29,16 @@ where
 $$
 
 
-\begin{aligned}𝝁=[\begin{aligned}𝜇_{1} \\ 𝜇_{2}\end{aligned}],\,Σ=[\begin{aligned}𝜎_{21}^{} & 𝜎_{12} \\ 𝜎_{21} & 𝜎_{22}^{}\end{aligned}]=[\begin{aligned}𝜎_{21}^{} & 𝜌𝜎_{1}𝜎_{2} \\ 𝜌𝜎_{1}𝜎_{2} & 𝜎_{22}^{}\end{aligned}],\end{aligned}
+\begin{aligned}𝝁=[\begin{matrix}𝜇_{1} \\ 𝜇_{2}\end{matrix}],\,Σ=[\begin{matrix}𝜎_{21} & 𝜎_{12} \\ 𝜎_{21} & 𝜎_{22}\end{matrix}]=[\begin{matrix}𝜎_{21} & 𝜌𝜎_{1}𝜎_{2} \\ 𝜌𝜎_{1}𝜎_{2} & 𝜎_{22}\end{matrix}],\end{aligned}
 
 
 $$
 
 Here,
 
-- $\sigma^2_1 = \textrm{Var}[X_1]$ and $\sigma^2_2 = \textrm{Var}[X_2]$ are the variances of $X_1$ and $X_2,$
+- $\sigma^2_1 = \text{Var}[X_1]$ and $\sigma^2_2 = \text{Var}[X_2]$ are the variances of $X_1$ and $X_2,$
 
-- $\sigma_{12} = \sigma_{21} = \textrm{Cov}[X_1,X_2]$ is the covariance of $X_1$ and $X_2$,
+- $\sigma_{12} = \sigma_{21} = \text{Cov}[X_1,X_2]$ is the covariance of $X_1$ and $X_2$,
 
 - $\rho$ is the linear correlation coefficient of $X_1$ and $X_2,$ and
 
@@ -77,7 +77,7 @@ Let's compare this to the density function of a bivariate normal vector. First, 
 $$
 
 
-\begin{aligned}𝑓(𝑥_{1},𝑥_{2}) & =\frac{1}{2𝜋\sqrt{√|Σ|}}\,exp(−\frac{1}{2}(𝐗−𝝁)^{𝑇}\,Σ^{−1}\,(𝐗−𝝁)) \\ & =(2𝜋)^{−1}|Σ|^{−1/2}\,exp(−\frac{1}{2}(𝐗−𝝁)^{𝑇}\,Σ^{−1}\,(𝐗−𝝁)) \\ & =(2𝜋)^{−2/2}|Σ|^{−1/2}\,exp(−\frac{1}{2}(𝐗−𝝁)^{𝑇}\,Σ^{−1}\,(𝐗−𝝁))\end{aligned}
+\begin{aligned}𝑓(𝑥_{1},𝑥_{2}) & =\frac{1}{2𝜋\sqrt{|Σ|}}\,exp(−\frac{1}{2}(𝐗−𝝁)^{𝑇}\,Σ^{−1}\,(𝐗−𝝁)) \\ & =(2𝜋)^{−1}|Σ|^{−1/2}\,exp(−\frac{1}{2}(𝐗−𝝁)^{𝑇}\,Σ^{−1}\,(𝐗−𝝁)) \\ & =(2𝜋)^{−2/2}|Σ|^{−1/2}\,exp(−\frac{1}{2}(𝐗−𝝁)^{𝑇}\,Σ^{−1}\,(𝐗−𝝁))\end{aligned}
 
 
 $$
@@ -103,7 +103,7 @@ where the mean vector $\boldsymbol{\mu}$ and covariance matrix $\Sigma$ are give
 $$
 
 
-\begin{aligned}𝜇=[\begin{aligned}𝜇_{1} \\ 𝜇_{2}\end{aligned}],\,Σ=[\begin{aligned}𝜎_{21}^{} & 𝜎_{12} \\ 𝜎_{21} & 𝜎_{22}^{}\end{aligned}]=[\begin{aligned}𝜎_{21}^{} & 𝜌𝜎_{1}𝜎_{2} \\ 𝜌𝜎_{1}𝜎_{2} & 𝜎_{22}^{}\end{aligned}].\end{aligned}
+\begin{aligned}𝜇=[\begin{matrix}𝜇_{1} \\ 𝜇_{2}\end{matrix}],\,Σ=[\begin{matrix}𝜎_{21} & 𝜎_{12} \\ 𝜎_{21} & 𝜎_{22}\end{matrix}]=[\begin{matrix}𝜎_{21} & 𝜌𝜎_{1}𝜎_{2} \\ 𝜌𝜎_{1}𝜎_{2} & 𝜎_{22}\end{matrix}].\end{aligned}
 
 
 $$
@@ -123,7 +123,7 @@ The level curves of the surface have equations of the form
 $$
 
 
-(\mathbf X - \boldsymbol \mu)^T \,\Sigma^{-1} \,(\mathbf X - \boldsymbol \mu) = \textrm{const},
+(\mathbf X - \boldsymbol \mu)^T \,\Sigma^{-1} \,(\mathbf X - \boldsymbol \mu) = \text{const},
 
 
 $$
@@ -165,12 +165,12 @@ Recall that if $\mathbf{X} = [X_1, X_2]^T$ is a bivariate normal vector with mea
 $$
 
 
-\begin{aligned}𝜇=(\begin{aligned}𝜇_{1} \\ 𝜇_{2}\end{aligned}),\,Σ=[\begin{aligned}𝜎_{21}^{} & 𝜎_{12} \\ 𝜎_{21} & 𝜎_{22}^{}\end{aligned}]=[\begin{aligned}𝜎_{21}^{} & 𝜌𝜎_{1}𝜎_{2} \\ 𝜌𝜎_{1}𝜎_{2} & 𝜎_{22}^{}\end{aligned}]\end{aligned}
+\begin{aligned}𝜇=(\begin{matrix}𝜇_{1} \\ 𝜇_{2}\end{matrix}),\,Σ=[\begin{matrix}𝜎_{21} & 𝜎_{12} \\ 𝜎_{21} & 𝜎_{22}\end{matrix}]=[\begin{matrix}𝜎_{21} & 𝜌𝜎_{1}𝜎_{2} \\ 𝜌𝜎_{1}𝜎_{2} & 𝜎_{22}\end{matrix}]\end{aligned}
 
 
 $$
 
-where $\sigma^2_i = \textrm{Var}[X_i],$ $\sigma_{12} = \textrm{Cov}[X_1,X_2],$ and $\rho$ is the correlation, then the joint probability density function of $\mathbf X$ is
+where $\sigma^2_i = \text{Var}[X_i],$ $\sigma_{12} = \text{Cov}[X_1,X_2],$ and $\rho$ is the correlation, then the joint probability density function of $\mathbf X$ is
 
 $$
 
@@ -187,7 +187,7 @@ Using the given values of $\sigma^2_1, \sigma^2_2$, and $\rho,$ our covariance m
 $$
 
 
-[\begin{aligned}9 & \frac{1}{3}⋅\sqrt{√9}⋅\sqrt{√1} \\ \frac{1}{3}⋅\sqrt{√9}⋅\sqrt{√1} & 1\end{aligned}]
+[\begin{aligned}9 & \frac{1}{3}⋅\sqrt{9}⋅\sqrt{1} \\ \frac{1}{3}⋅\sqrt{9}⋅\sqrt{1} & 1\end{aligned}]
 
 
 $$
@@ -207,7 +207,7 @@ Substituting this value into our expression for the joint PDF, we obtain
 $$
 
 
-\begin{aligned}𝑓(𝐱) & =\frac{1}{2𝜋\sqrt{√8}}exp(−\frac{1}{2}(𝐱−𝝁)^{𝑇}\,Σ^{−1}\,(𝐱−𝝁)) \\ & =\frac{1}{4𝜋\sqrt{√2}}exp(−\frac{1}{2}(𝐱−𝝁)^{𝑇}\,Σ^{−1}\,(𝐱−𝝁)).\end{aligned}
+\begin{aligned}𝑓(𝐱) & =\frac{1}{2𝜋\sqrt{8}}exp(−\frac{1}{2}(𝐱−𝝁)^{𝑇}\,Σ^{−1}\,(𝐱−𝝁)) \\ & =\frac{1}{4𝜋\sqrt{2}}exp(−\frac{1}{2}(𝐱−𝝁)^{𝑇}\,Σ^{−1}\,(𝐱−𝝁)).\end{aligned}
 
 
 $$
@@ -223,7 +223,7 @@ A linear combination of coordinates of a bivariate normal random vector generate
 $$
 
 
-\begin{aligned}𝝁=[\begin{aligned}𝜇_{1} \\ 𝜇_{2}\end{aligned}],\,Σ=[\begin{aligned}𝜎_{21}^{} & 𝜎_{12} \\ 𝜎_{21} & 𝜎_{22}^{}\end{aligned}],\end{aligned}
+\begin{aligned}𝝁=[\begin{matrix}𝜇_{1} \\ 𝜇_{2}\end{matrix}],\,Σ=[\begin{matrix}𝜎_{21} & 𝜎_{12} \\ 𝜎_{21} & 𝜎_{22}\end{matrix}],\end{aligned}
 
 
 $$
@@ -243,7 +243,7 @@ $$
 $$
 
 
-\begin{aligned}E[𝑌] & =𝑎𝜇_{1}+𝑏𝜇_{2}, \\ Var[𝑌] & =𝑎^{2}𝜎_{21}^{}+𝑏^{2}𝜎_{22}^{}+2𝑎𝑏𝜎_{12}.\end{aligned}
+\begin{aligned}E[𝑌] & =𝑎𝜇_{1}+𝑏𝜇_{2}, \\ Var[𝑌] & =𝑎^{2}𝜎_{21}+𝑏^{2}𝜎_{22}+2𝑎𝑏𝜎_{12}.\end{aligned}
 
 
 $$
@@ -257,7 +257,7 @@ Let $\mathbf{X} = [X_1,X_2]^T$ be a bivariate normal random vector with mean vec
 $$
 
 
-\begin{aligned}𝝁=[\begin{aligned}2 \\ −1\end{aligned}],\,Σ=[\begin{aligned}4 & −3 \\ −3 & 7\end{aligned}].\end{aligned}
+\begin{aligned}𝝁=[\begin{matrix}2 \\ −1\end{matrix}],\,Σ=[\begin{matrix}4 & −3 \\ −3 & 7\end{matrix}].\end{aligned}
 
 
 $$
@@ -271,7 +271,7 @@ Recall that if $\mathbf{X} = [X_1, X_2]^T$ is a bivariate normal random vector w
 $$
 
 
-\begin{aligned}𝝁=[\begin{aligned}𝜇_{1} \\ 𝜇_{2}\end{aligned}],\,Σ=[\begin{aligned}𝜎_{21}^{} & 𝜎_{12} \\ 𝜎_{21} & 𝜎_{22}^{}\end{aligned}],\end{aligned}
+\begin{aligned}𝝁=[\begin{matrix}𝜇_{1} \\ 𝜇_{2}\end{matrix}],\,Σ=[\begin{matrix}𝜎_{21} & 𝜎_{12} \\ 𝜎_{21} & 𝜎_{22}\end{matrix}],\end{aligned}
 
 
 $$
@@ -291,7 +291,7 @@ is a normally distributed random variable for all values of $a$ and $b,$ where
 $$
 
 
-\begin{aligned}E[𝑌] & =𝑎𝜇_{1}+𝑏𝜇_{2}, \\ Var[𝑌] & =𝑎^{2}𝜎_{21}^{}+𝑏^{2}𝜎_{22}^{}+2𝑎𝑏𝜎_{12}.\end{aligned}
+\begin{aligned}E[𝑌] & =𝑎𝜇_{1}+𝑏𝜇_{2}, \\ Var[𝑌] & =𝑎^{2}𝜎_{21}+𝑏^{2}𝜎_{22}+2𝑎𝑏𝜎_{12}.\end{aligned}
 
 
 $$
@@ -383,7 +383,7 @@ Let $\mathbf{X} = [X_1, X_2,X_3]^T$ be a multivariate normal random vector with 
 $$
 
 
-\begin{aligned}𝝁=\begin{aligned}1 \\ 2 \\ 1\end{aligned},\,Σ=\begin{aligned}6 & 1 & 2 \\ 1 & 3 & 2 \\ 2 & 2 & 4\end{aligned}.\end{aligned}
+\begin{aligned}𝝁=\begin{matrix}1 \\ 2 \\ 1\end{matrix},\,Σ=\begin{matrix}6 & 1 & 2 \\ 1 & 3 & 2 \\ 2 & 2 & 4\end{matrix}.\end{aligned}
 
 
 $$
@@ -427,7 +427,7 @@ Therefore, for the mean of $Y,$ we have
 $$
 
 
-\begin{aligned}E[𝑌] & =𝐜^{𝑇}𝝁 \\ & =[\begin{aligned}1 & −2 & 4\end{aligned}]\begin{aligned}1 \\ 2 \\ 1\end{aligned} \\ & =1−4+4 \\ & =1,\end{aligned}
+\begin{aligned}E[𝑌] & =𝐜^{𝑇}𝝁 \\ & =[\begin{matrix}1 & −2 & 4\end{matrix}]\begin{matrix}1 \\ 2 \\ 1\end{matrix} \\ & =1−4+4 \\ & =1,\end{aligned}
 
 
 $$
@@ -437,7 +437,7 @@ and for the variance of $Y,$ we have
 $$
 
 
-\begin{aligned}Var[𝑌] & =𝐜^{𝑇}Σ𝐜 \\ & =[\begin{aligned}1 & −2 & 4\end{aligned}]\begin{aligned}6 & 1 & 2 \\ 1 & 3 & 2 \\ 2 & 2 & 4\end{aligned}\begin{aligned}1 \\ −2 \\ 4\end{aligned} \\ & =[\begin{aligned}1 & −2 & 4\end{aligned}]\begin{aligned}12 \\ 3 \\ 14\end{aligned} \\ & =12−6+56 \\ & =62.\end{aligned}
+\begin{aligned}Var[𝑌] & =𝐜^{𝑇}Σ𝐜 \\ & =[\begin{matrix}1 & −2 & 4\end{matrix}]\begin{matrix}6 & 1 & 2 \\ 1 & 3 & 2 \\ 2 & 2 & 4\end{matrix}\begin{matrix}1 \\ −2 \\ 4\end{matrix} \\ & =[\begin{matrix}1 & −2 & 4\end{matrix}]\begin{matrix}12 \\ 3 \\ 14\end{matrix} \\ & =12−6+56 \\ & =62.\end{aligned}
 
 
 $$

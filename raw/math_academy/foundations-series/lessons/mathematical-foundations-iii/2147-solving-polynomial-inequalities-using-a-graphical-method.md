@@ -27,7 +27,7 @@ We see that the function lies on or above the $x$-axis on the intervals
 $$
 
 
-(-\infty, -3] \quad \textrm{and}\quad [-1,2].
+(-\infty, -3] \quad \text{and}\quad [-1,2].
 
 
 $$

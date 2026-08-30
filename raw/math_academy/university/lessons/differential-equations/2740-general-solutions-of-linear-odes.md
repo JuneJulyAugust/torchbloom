@@ -117,7 +117,7 @@ Differentiating the above with respect to $x$ gives
 $$
 
 
-\begin{aligned}𝑦_{′2}^{} & =𝑢^{′}𝑒^{5𝑥}+5𝑢𝑒^{5𝑥}=𝑒^{5𝑥}(𝑢^{′}+5𝑢) \\ 𝑦_{″2}^{} & =𝑒^{5𝑥}(𝑢^{″}+10𝑢^{′}+25𝑢).\end{aligned}
+\begin{aligned}𝑦_{′2} & =𝑢^{′}𝑒^{5𝑥}+5𝑢𝑒^{5𝑥}=𝑒^{5𝑥}(𝑢^{′}+5𝑢) \\ 𝑦_{″2} & =𝑒^{5𝑥}(𝑢^{″}+10𝑢^{′}+25𝑢).\end{aligned}
 
 
 $$
@@ -207,7 +207,7 @@ Differentiating $y_{2} = \dfrac{u(x)}{x}$ with respect to $x$ gives
 $$
 
 
-\begin{aligned}𝑦_{2} & =\frac{𝑢}{𝑥} \\ 𝑦_{′2}^{} & =\frac{𝑢^{′}𝑥−𝑢}{𝑥^{2}} \\ 𝑦_{″2}^{} & =\frac{𝑢^{″}𝑥^{2}−2𝑢^{′}𝑥+2𝑢}{𝑥^{3}}.\end{aligned}
+\begin{aligned}𝑦_{2} & =\frac{𝑢}{𝑥} \\ 𝑦_{′2} & =\frac{𝑢^{′}𝑥−𝑢}{𝑥^{2}} \\ 𝑦_{″2} & =\frac{𝑢^{″}𝑥^{2}−2𝑢^{′}𝑥+2𝑢}{𝑥^{3}}.\end{aligned}
 
 
 $$

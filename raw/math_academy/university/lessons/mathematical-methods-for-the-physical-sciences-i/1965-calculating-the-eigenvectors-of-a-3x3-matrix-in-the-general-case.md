@@ -50,7 +50,7 @@ In our case, we have $\lambda =-3.$ So, we get
 $$
 
 
-\begin{aligned}𝐴−𝜆𝐼 & =\begin{aligned}5 & 8 & 16 \\ 4 & 1 & 8 \\ −4 & −4 & −11\end{aligned}−(−3)\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{aligned}=\begin{aligned}8 & 8 & 16 \\ 4 & 4 & 8 \\ −4 & −4 & −8\end{aligned}.\end{aligned}
+\begin{aligned}𝐴−𝜆𝐼 & =\begin{matrix}5 & 8 & 16 \\ 4 & 1 & 8 \\ −4 & −4 & −11\end{matrix}−(−3)\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{matrix}=\begin{matrix}8 & 8 & 16 \\ 4 & 4 & 8 \\ −4 & −4 & −8\end{matrix}.\end{aligned}
 
 
 $$
@@ -128,7 +128,7 @@ In our case, we have $\lambda =-4.$ So, we get
 $$
 
 
-\begin{aligned}𝐴−𝜆𝐼 & =\begin{aligned}−4 & −5 & 8 \\ 0 & −4 & 3 \\ 0 & 0 & −1\end{aligned}−(−4)\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{aligned}=\begin{aligned}0 & −5 & 8 \\ 0 & 0 & 3 \\ 0 & 0 & 3\end{aligned}.\end{aligned}
+\begin{aligned}𝐴−𝜆𝐼 & =\begin{matrix}−4 & −5 & 8 \\ 0 & −4 & 3 \\ 0 & 0 & −1\end{matrix}−(−4)\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{matrix}=\begin{matrix}0 & −5 & 8 \\ 0 & 0 & 3 \\ 0 & 0 & 3\end{matrix}.\end{aligned}
 
 
 $$
@@ -148,7 +148,7 @@ So, we row-reduce the augmented matrix $M$ to row echelon form using Gaussian el
 $$
 
 
-\begin{aligned}𝑀 & =\begin{aligned}0 & −5 & 8 & 0 \\ 0 & 0 & 3 & 0 \\ 0 & 0 & 3 & 0\end{aligned} & & \begin{aligned}𝑅_{3}:=𝑅_{3}+(−1)𝑅_{2}\end{aligned} \\ & ∼\begin{aligned}0 & −5 & 8 & 0 \\ 0 & 0 & 3 & 0 \\ 0 & 0 & 0 & 0\end{aligned} & & \end{aligned}
+\begin{aligned}𝑀 & =\begin{matrix}0 & −5 & 8 & 0 \\ 0 & 0 & 3 & 0 \\ 0 & 0 & 3 & 0\end{matrix} & & \begin{matrix}𝑅_{3}:=𝑅_{3}+(−1)𝑅_{2}\end{matrix} \\ & ∼\begin{matrix}0 & −5 & 8 & 0 \\ 0 & 0 & 3 & 0 \\ 0 & 0 & 0 & 0\end{matrix} & & \end{aligned}
 
 
 $$
@@ -206,7 +206,7 @@ In our case, we have $\lambda =2.$ So, we get
 $$
 
 
-\begin{aligned}𝐴−𝜆𝐼 & =\begin{aligned}−8 & 8 & −6 \\ −15 & 14 & −9 \\ −5 & 4 & −1\end{aligned}−2\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{aligned}=\begin{aligned}−10 & 8 & −6 \\ −15 & 12 & −9 \\ −5 & 4 & −3\end{aligned}.\end{aligned}
+\begin{aligned}𝐴−𝜆𝐼 & =\begin{matrix}−8 & 8 & −6 \\ −15 & 14 & −9 \\ −5 & 4 & −1\end{matrix}−2\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{matrix}=\begin{matrix}−10 & 8 & −6 \\ −15 & 12 & −9 \\ −5 & 4 & −3\end{matrix}.\end{aligned}
 
 
 $$
@@ -226,7 +226,7 @@ So, we row-reduce the augmented matrix $M$ to row echelon form using Gaussian el
 $$
 
 
-\begin{aligned}𝑀 & =\begin{aligned}−10 & 8 & −6 & 0 \\ −15 & 12 & −9 & 0 \\ −5 & 4 & −3 & 0\end{aligned} & & \begin{aligned}𝑅_{1}:=−\frac{1}{2}𝑅_{1}\end{aligned} \\ & ∼\begin{aligned}5 & −4 & 3 & 0 \\ −15 & 12 & −9 & 0 \\ −5 & 4 & −3 & 0\end{aligned} & & \begin{aligned}𝑅_{2}:=𝑅_{2}+3𝑅_{1} \\ 𝑅_{3}:=𝑅_{3}+𝑅_{1}\end{aligned} \\ & ∼\begin{aligned}5 & −4 & 3 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0\end{aligned} & & \end{aligned}
+\begin{aligned}𝑀 & =\begin{matrix}−10 & 8 & −6 & 0 \\ −15 & 12 & −9 & 0 \\ −5 & 4 & −3 & 0\end{matrix} & & \begin{matrix}𝑅_{1}:=−\frac{1}{2}𝑅_{1}\end{matrix} \\ & ∼\begin{matrix}5 & −4 & 3 & 0 \\ −15 & 12 & −9 & 0 \\ −5 & 4 & −3 & 0\end{matrix} & & \begin{matrix}𝑅_{2}:=𝑅_{2}+3𝑅_{1} \\ 𝑅_{3}:=𝑅_{3}+𝑅_{1}\end{matrix} \\ & ∼\begin{matrix}5 & −4 & 3 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0\end{matrix} & & \end{aligned}
 
 
 $$
@@ -282,7 +282,7 @@ In our case, we have $\lambda =4.$ So, we get
 $$
 
 
-\begin{aligned}𝐴−𝜆𝐼 & =\begin{aligned}7 & −6 & 5 \\ 6 & −8 & 10 \\ 0 & 0 & 4\end{aligned}−4\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{aligned}=\begin{aligned}3 & −6 & 5 \\ 6 & −12 & 10 \\ 0 & 0 & 0\end{aligned}.\end{aligned}
+\begin{aligned}𝐴−𝜆𝐼 & =\begin{matrix}7 & −6 & 5 \\ 6 & −8 & 10 \\ 0 & 0 & 4\end{matrix}−4\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{matrix}=\begin{matrix}3 & −6 & 5 \\ 6 & −12 & 10 \\ 0 & 0 & 0\end{matrix}.\end{aligned}
 
 
 $$
@@ -302,7 +302,7 @@ So, we row-reduce the augmented matrix $M$ to row echelon form using Gaussian el
 $$
 
 
-\begin{aligned}𝑀 & =\begin{aligned}3 & −6 & 5 & 0 \\ 6 & −12 & 10 & 0 \\ 0 & 0 & 0 & 0\end{aligned} & & 𝑅_{2}:=𝑅_{2}+(−2)𝑅_{1} \\ & ∼\begin{aligned}3 & −6 & 5 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0\end{aligned} & & \end{aligned}
+\begin{aligned}𝑀 & =\begin{matrix}3 & −6 & 5 & 0 \\ 6 & −12 & 10 & 0 \\ 0 & 0 & 0 & 0\end{matrix} & & 𝑅_{2}:=𝑅_{2}+(−2)𝑅_{1} \\ & ∼\begin{matrix}3 & −6 & 5 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0\end{matrix} & & \end{aligned}
 
 
 $$
@@ -361,12 +361,12 @@ Consider the matrix $A$ shown above. What are the dimensions of the eigenspaces 
 
 #### Explanation
 
-First, we write down the characteristic equation $\textrm{det}(A-\lambda I)=0\mathbin{:}$
+First, we write down the characteristic equation $\text{det}(A-\lambda I)=0\mathbin{:}$
 
 $$
 
 
-\begin{aligned}det(𝐴−𝜆𝐼)=0 \\ \begin{aligned}1−𝜆 & 6 & −3 \\ 0 & −2−𝜆 & 0 \\ 1 & 2 & −3−𝜆\end{aligned}=0 \\ (−2−𝜆)\begin{aligned}1−𝜆 & −3 \\ 1 & −3−𝜆\end{aligned}=0 \\ (−2−𝜆)((1−𝜆)(−3−𝜆)+3)=0 \\ −(𝜆+2)(𝜆^{2}+2𝜆)=0 \\ 𝜆(𝜆+2)^{2}=0.\end{aligned}
+\begin{aligned}det(𝐴−𝜆𝐼)=0 \\ \begin{matrix}1−𝜆 & 6 & −3 \\ 0 & −2−𝜆 & 0 \\ 1 & 2 & −3−𝜆\end{matrix}=0 \\ (−2−𝜆)\begin{matrix}1−𝜆 & −3 \\ 1 & −3−𝜆\end{matrix}=0 \\ (−2−𝜆)((1−𝜆)(−3−𝜆)+3)=0 \\ −(𝜆+2)(𝜆^{2}+2𝜆)=0 \\ 𝜆(𝜆+2)^{2}=0.\end{aligned}
 
 
 $$

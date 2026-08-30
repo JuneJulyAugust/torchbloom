@@ -61,7 +61,7 @@ Therefore, the required area is given by
 $$
 
 
-\begin{aligned}𝐴 & =𝐴_{1}+𝐴_{2} \\ & =∫_{0−1}^{}(𝑥^{5}−𝑥)\,d𝑥+∫_{10}^{}(𝑥−𝑥^{5})\,d𝑥.\end{aligned}
+\begin{aligned}𝐴 & =𝐴_{1}+𝐴_{2} \\ & =∫_{0−1}(𝑥^{5}−𝑥)\,d𝑥+∫_{10}(𝑥−𝑥^{5})\,d𝑥.\end{aligned}
 
 
 $$

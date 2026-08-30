@@ -16,7 +16,7 @@ A **hyperbola** is a curve that takes the general form
 $$
 
 
-\dfrac {x^2} {a^2} - \dfrac {y^2} {b^2} = 1 \quad \textrm{or} \quad \dfrac {y^2} {a^2} - \dfrac {x^2} {b^2} = 1
+\dfrac {x^2} {a^2} - \dfrac {y^2} {b^2} = 1 \quad \text{or} \quad \dfrac {y^2} {a^2} - \dfrac {x^2} {b^2} = 1
 
 
 $$
@@ -76,7 +76,7 @@ $$
 $$
 
 
-\dfrac{x^2}{3^2} - \dfrac{y^2}{2^2} = 1 \quad \textrm{or} \quad \dfrac{x^2}{9} - \dfrac{y^2}{4} = 1.
+\dfrac{x^2}{3^2} - \dfrac{y^2}{2^2} = 1 \quad \text{or} \quad \dfrac{x^2}{9} - \dfrac{y^2}{4} = 1.
 
 
 $$

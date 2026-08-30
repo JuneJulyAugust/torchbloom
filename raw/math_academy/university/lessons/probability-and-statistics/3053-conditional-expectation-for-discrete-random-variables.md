@@ -24,7 +24,7 @@ $$
 
 where $f_{X|Y}(x|y)$ is the conditional probability mass function of $X$ given $Y.$
 
-This definition is similar to that of $\textrm{E}[X].$ However, we now use the conditional PMF $f_{X|Y}(x|y)$ instead of the marginal PMF $f_X(x)$ in the summation.
+This definition is similar to that of $\text{E}[X].$ However, we now use the conditional PMF $f_{X|Y}(x|y)$ instead of the marginal PMF $f_X(x)$ in the summation.
 
 Note the following:
 
@@ -50,7 +50,7 @@ $$
 
 #### Question
 
-Find the $\textrm{E}\big[Y \,|\, X=2\big]$ given that the conditional probability mass function $f_{Y|X}(y \,|\, 2)$ is shown in the table above.
+Find the $\text{E}\big[Y \,|\, X=2\big]$ given that the conditional probability mass function $f_{Y|X}(y \,|\, 2)$ is shown in the table above.
 
 #### Explanation
 
@@ -59,7 +59,7 @@ The conditional expected value of $Y$ given $X=x$ is defined by
 $$
 
 
-\textrm{E}\big[Y \,|\, X=x\big] = \sum_{y} y \, f_{Y | X}(y \,|\, x).
+\text{E}\big[Y \,|\, X=x\big] = \sum_{y} y \, f_{Y | X}(y \,|\, x).
 
 
 $$
@@ -78,7 +78,7 @@ $$
 
 #### Question
 
-Find $\textrm{E}\big[Y \,|\, X=2\big]$ given that the random variables $X$ and $Y$ have the joint probability mass function $f(x,y)$ shown in the table above.
+Find $\text{E}\big[Y \,|\, X=2\big]$ given that the random variables $X$ and $Y$ have the joint probability mass function $f(x,y)$ shown in the table above.
 
 #### Explanation
 
@@ -87,7 +87,7 @@ Recall that the conditional expected value of $Y$ given $X=x$ is defined by
 $$
 
 
-\textrm{E}\big[Y \,|\, X=x\big] = \sum_{y} y \, f_{Y | X}(y \,|\, x).
+\text{E}\big[Y \,|\, X=x\big] = \sum_{y} y \, f_{Y | X}(y \,|\, x).
 
 
 $$
@@ -120,7 +120,7 @@ $$
 
 #### Question
 
-Find $\textrm{E}\big[X \,|\, Y=1\big]$ given that the random variables $X$ and $Y$ have the joint probability mass function $f(x,y)$ shown in the table above.
+Find $\text{E}\big[X \,|\, Y=1\big]$ given that the random variables $X$ and $Y$ have the joint probability mass function $f(x,y)$ shown in the table above.
 
 #### Explanation
 
@@ -129,7 +129,7 @@ Recall that the conditional expected value of $X$ given $Y=y$ is defined by
 $$
 
 
-\textrm{E}\big[X \,|\, Y=y\big] = \sum_{x} x \, f_{X | Y}(x \,|\, y).
+\text{E}\big[X \,|\, Y=y\big] = \sum_{x} x \, f_{X | Y}(x \,|\, y).
 
 
 $$

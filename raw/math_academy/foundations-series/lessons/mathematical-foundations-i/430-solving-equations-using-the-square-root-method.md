@@ -57,7 +57,7 @@ Then, we take the square root of both sides of the equation and solve the result
 $$
 
 
-\begin{aligned}\sqrt{√𝑥^{2}} & =\sqrt{√16} \\ |𝑥| & =4 \\ 𝑥 & =±4\end{aligned}
+\begin{aligned}\sqrt{𝑥^{2}} & =\sqrt{16} \\ |𝑥| & =4 \\ 𝑥 & =±4\end{aligned}
 
 
 $$
@@ -85,7 +85,7 @@ Then, we take the square root of both sides of the equation and solve the result
 $$
 
 
-\begin{aligned}\sqrt{√𝑝^{2}} & =\sqrt{√\frac{25}{4}} \\ |𝑝| & =\frac{\sqrt{√25}}{\sqrt{√4}} \\ |𝑝| & =\frac{5}{2} \\ 𝑝 & =±\frac{5}{2}\end{aligned}
+\begin{aligned}\sqrt{𝑝^{2}} & =\sqrt{\frac{25}{4}} \\ |𝑝| & =\frac{\sqrt{25}}{\sqrt{4}} \\ |𝑝| & =\frac{5}{2} \\ 𝑝 & =±\frac{5}{2}\end{aligned}
 
 
 $$

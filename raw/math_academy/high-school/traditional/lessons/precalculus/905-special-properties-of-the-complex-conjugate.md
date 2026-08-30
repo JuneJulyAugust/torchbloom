@@ -26,7 +26,7 @@ $$
 
 where $\operatorname{Re}(z)$ is the real part of $z.$
 
-For example, suppose we have a complex number $z = 3+4\textrm{i}.$ To obtain the conjugate, we just flip the sign of the imaginary part and get $\overline{z} = 3 - 4 \textrm{i}.$
+For example, suppose we have a complex number $z = 3+4\text{i}.$ To obtain the conjugate, we just flip the sign of the imaginary part and get $\overline{z} = 3 - 4 \text{i}.$
 
 Now, adding $z$ and its conjugate $\overline{z},$ we find that the real part $(3)$ is doubled while the imaginary part $(4)$ is canceled out:
 
@@ -40,7 +40,7 @@ $$
 
 $$
 
-This result holds in general. For any complex number $z=x+\textrm{i}y,$ the conjugate is $\overline{z} = x-\textrm{i}y,$ and when we add, we find that the real part $(x)$ is doubled while the imaginary part $(y)$ is canceled out:
+This result holds in general. For any complex number $z=x+\text{i}y,$ the conjugate is $\overline{z} = x-\text{i}y,$ and when we add, we find that the real part $(x)$ is doubled while the imaginary part $(y)$ is canceled out:
 
 $$
 
@@ -56,7 +56,7 @@ $$
 
 #### Question
 
-If $z=7-3\textrm{i}$, calculate $z+\overline{z}.$
+If $z=7-3\text{i}$, calculate $z+\overline{z}.$
 
 #### Explanation
 
@@ -64,7 +64,7 @@ If $z=7-3\textrm{i}$, calculate $z+\overline{z}.$
 
 When we add a complex number and its conjugate, the result is always twice the real part of the complex number.
 
-For the given complex number $z=7-3\textrm{i},$ the real part is $\operatorname{Re}(z) = 7,$ so we have
+For the given complex number $z=7-3\text{i},$ the real part is $\operatorname{Re}(z) = 7,$ so we have
 
 $$
 
@@ -80,7 +80,7 @@ $$
 
 Alternatively, we can actually carry out the process of adding the complex number and its conjugate.
 
-To obtain the conjugate of the complex number $z=7-3\textrm{i},$ we flip the sign of the imaginary part and get $\overline{z} = 7 + 3 \textrm{i}.$
+To obtain the conjugate of the complex number $z=7-3\text{i},$ we flip the sign of the imaginary part and get $\overline{z} = 7 + 3 \text{i}.$
 
 Adding, we get
 
@@ -108,7 +108,7 @@ z\overline{z} = x^2 + y^2 = (\operatorname{Re}(z))^2 + (\operatorname{Im}(z))^2.
 
 $$
 
-For example, suppose we have a complex number $z=3+4\textrm{i}.$ To obtain the conjugate, we just flip the sign of the imaginary part and get $\overline{z} = 3 - 4 \textrm{i}.$
+For example, suppose we have a complex number $z=3+4\text{i}.$ To obtain the conjugate, we just flip the sign of the imaginary part and get $\overline{z} = 3 - 4 \text{i}.$
 
 Now, multiplying $z$ and its conjugate $\overline{z},$ we find that the result is the sum of squares of the real part $(3^2=9)$ and the imaginary part $(4^2=16)\mathbin{:}$
 
@@ -122,7 +122,7 @@ $$
 
 $$
 
-This result holds in general. For any complex number $z=x+\textrm{i}y,$ the conjugate is $\overline{z} = x-\textrm{i}y,$ and when we multiply, we find that the result is the sum of squares of the real part $(x^2)$ and the imaginary part $(y^2)\mathbin{:}$
+This result holds in general. For any complex number $z=x+\text{i}y,$ the conjugate is $\overline{z} = x-\text{i}y,$ and when we multiply, we find that the result is the sum of squares of the real part $(x^2)$ and the imaginary part $(y^2)\mathbin{:}$
 
 $$
 
@@ -138,7 +138,7 @@ $$
 
 #### Question
 
-Given that $z=7-4\textrm{i},$ calculate $z\overline{z}.$
+Given that $z=7-4\text{i},$ calculate $z\overline{z}.$
 
 #### Explanation
 
@@ -146,7 +146,7 @@ Given that $z=7-4\textrm{i},$ calculate $z\overline{z}.$
 
 When we multiply a complex number and its conjugate, the result is always the sum of squares of the real part and the imaginary part.
 
-For the given complex number $z=7-4\textrm{i},$ the real part is $\textrm{Re}(z)=7,$ and the imaginary part is $\textrm{Im}(z)=-4,$ so we have
+For the given complex number $z=7-4\text{i},$ the real part is $\text{Re}(z)=7,$ and the imaginary part is $\text{Im}(z)=-4,$ so we have
 
 $$
 
@@ -162,7 +162,7 @@ $$
 
 Alternatively, we can actually carry out the process of multiplying the complex number and its conjugate.
 
-To obtain the conjugate of the complex number $z=7-4\textrm{i},$ we flip the sign of the imaginary part and get $\overline{z} = 7 + 4 \textrm{i}.$
+To obtain the conjugate of the complex number $z=7-4\text{i},$ we flip the sign of the imaginary part and get $\overline{z} = 7 + 4 \text{i}.$
 
 Multiplying, we get
 

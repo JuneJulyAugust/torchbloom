@@ -17,7 +17,7 @@ Suppose that we have the two polynomials $6x^2 + x +1$ and $2x^2 - 3x + 6$, and 
 $$
 
 
-\begin{aligned}(6𝑥^{2}+𝑥+1)+(2𝑥^{2}−3𝑥+6) & = \\ 6𝑥^{2}+𝑥+1+2𝑥^{2}−3𝑥+6 & = \\ \underset{𝑥^{2} terms}{\underset{}{6𝑥^{2}+2𝑥^{2}}}+\overset{\overset{𝑥−3𝑥}{}}{𝑥 terms}+\underset{constants}{\underset{}{1+6}} & = \\ (6+2)𝑥^{2}+(1−3)𝑥+7 & = \\ 8𝑥^{2}−2𝑥+7 & \end{aligned}
+\begin{aligned}(6𝑥^{2}+𝑥+1)+(2𝑥^{2}−3𝑥+6) & = \\ 6𝑥^{2}+𝑥+1+2𝑥^{2}−3𝑥+6 & = \\ \underset{𝑥^{2} terms}{\underset{}{6𝑥^{2}+2𝑥^{2}}}+\overset{𝑥−3𝑥}{𝑥 terms}+\underset{constants}{\underset{}{1+6}} & = \\ (6+2)𝑥^{2}+(1−3)𝑥+7 & = \\ 8𝑥^{2}−2𝑥+7 & \end{aligned}
 
 
 $$

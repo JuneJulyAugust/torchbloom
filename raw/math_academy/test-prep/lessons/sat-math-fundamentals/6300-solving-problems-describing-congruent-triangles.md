@@ -247,7 +247,7 @@ $$
 
 $$
 
-Consequently, $\triangle ABC \cong \triangle DFE$ by the $\boxed{\textrm{SAS}}$ criterion, with the vertex correspondence
+Consequently, $\triangle ABC \cong \triangle DFE$ by the $\boxed{\text{SAS}}$ criterion, with the vertex correspondence
 
 $$
 

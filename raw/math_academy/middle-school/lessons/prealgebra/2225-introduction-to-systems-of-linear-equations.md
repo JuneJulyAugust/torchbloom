@@ -83,4 +83,4 @@ The pools have the same amount of water when the two graphs intersect.
 
 ![Instructional graphic](../../../lesson-assets/prealgebra/topic-2225/3bddda83041a740b.png)
 
-In this case, we have the point $(5,400).$ So, both pools have the same amount ($400\,\textrm{L}$) of water at $t=5$ days.
+In this case, we have the point $(5,400).$ So, both pools have the same amount ($400\,\text{L}$) of water at $t=5$ days.

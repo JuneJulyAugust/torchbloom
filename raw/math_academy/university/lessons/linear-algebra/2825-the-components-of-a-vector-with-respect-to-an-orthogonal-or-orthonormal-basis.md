@@ -13,7 +13,7 @@ Topic ID: 2825
 
 ### Introduction
 
-Given an orthogonal basis $\mathcal{B}=\{\mathbf{q}_1, \mathbf{q}_2, \ldots, \mathbf{q}_n\}$ of $S=\textrm{Span}\{\mathcal{B}\},$ there is an easy way to find the components of a vector $\mathbf{x}\in S$ with respect to this basis. The vector $\mathbf{x}$ with respect to the basis $\mathcal{B}$ is
+Given an orthogonal basis $\mathcal{B}=\{\mathbf{q}_1, \mathbf{q}_2, \ldots, \mathbf{q}_n\}$ of $S=\text{Span}\{\mathcal{B}\},$ there is an easy way to find the components of a vector $\mathbf{x}\in S$ with respect to this basis. The vector $\mathbf{x}$ with respect to the basis $\mathcal{B}$ is
 
 $$
 
@@ -67,7 +67,7 @@ $$
 
 #### Question
 
-Given the **** basis $\begin{aligned}\frac{1}{\sqrt{√5}} \\ −\frac{2}{\sqrt{√5}}\end{aligned}$ of $\mathbb R^2,$ find $[\mathbf{x}]_{\mathcal{B}}$ if $[\begin{aligned}−2\sqrt{√5} \\ 3\sqrt{√5}\end{aligned}]$
+Given the **** basis $\begin{aligned}\frac{1}{\sqrt{5}} \\ −\frac{2}{\sqrt{5}}\end{aligned}$ of $\mathbb R^2,$ find $[\mathbf{x}]_{\mathcal{B}}$ if $[\begin{aligned}−2\sqrt{5} \\ 3\sqrt{5}\end{aligned}]$
 
 #### Explanation
 
@@ -78,7 +78,7 @@ Since $\mathcal{B}$ is an orthonormal basis, we have that $[\begin{aligned}𝑥_
 $$
 
 
-\begin{aligned}𝑥_{1} & =[\begin{aligned}−2\sqrt{√5} \\ 3\sqrt{√5}\end{aligned}]⋅\begin{aligned}\frac{1}{\sqrt{√5}} \\ −\frac{2}{\sqrt{√5}}\end{aligned}=−2−6=−8 \\ 𝑥_{2} & =[\begin{aligned}−2\sqrt{√5} \\ 3\sqrt{√5}\end{aligned}]⋅\begin{aligned}\frac{2}{\sqrt{√5}} \\ \frac{1}{\sqrt{√5}}\end{aligned}=−4+3=−1\end{aligned}
+\begin{aligned}𝑥_{1} & =[\begin{matrix}−2\sqrt{5} \\ 3\sqrt{5}\end{matrix}]⋅\begin{matrix}\frac{1}{\sqrt{5}} \\ −\frac{2}{\sqrt{5}}\end{matrix}=−2−6=−8 \\ 𝑥_{2} & =[\begin{matrix}−2\sqrt{5} \\ 3\sqrt{5}\end{matrix}]⋅\begin{matrix}\frac{2}{\sqrt{5}} \\ \frac{1}{\sqrt{5}}\end{matrix}=−4+3=−1\end{aligned}
 
 
 $$

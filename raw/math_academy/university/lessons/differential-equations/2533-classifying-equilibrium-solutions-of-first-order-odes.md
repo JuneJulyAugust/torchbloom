@@ -71,7 +71,7 @@ Therefore, the correct answer is "I and III only".
 
 ![Instructional graphic](../../../lesson-assets/differential-equations/topic-2533/b439dc802331ac00.png)
 
-Consider the differential equation $\dfrac{\textrm{d}y}{\textrm{d}x}=f(y)$ where the graph of $f(y)$ is shown above. Which of the following statements are true?
+Consider the differential equation $\dfrac{\text{d}y}{\text{d}x}=f(y)$ where the graph of $f(y)$ is shown above. Which of the following statements are true?
 
 1. $y= -3$ is a sink.
 

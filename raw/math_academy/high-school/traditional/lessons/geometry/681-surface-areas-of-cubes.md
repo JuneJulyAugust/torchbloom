@@ -13,7 +13,7 @@ Topic ID: 681
 
 ### Introduction
 
-Suppose we want to find the surface area of a cube whose edges are $3\,\textrm{cm}$ in length, like the one shown below.
+Suppose we want to find the surface area of a cube whose edges are $3\,\text{cm}$ in length, like the one shown below.
 
 ![Instructional graphic](../../../../lesson-assets/geometry/topic-681/d41e43f51614d011.png)
 
@@ -27,17 +27,17 @@ S = 6\mathcal A =6 s^2.
 
 $$
 
-To find the surface area of the cube above, we substitute $s=3 \: \textrm{cm}$ into the formula. This gives
+To find the surface area of the cube above, we substitute $s=3 \: \text{cm}$ into the formula. This gives
 
 $$
 
 
-S = 6(3\, \text{cm})^2 = 54 \,\textrm{cm}^2.
+S = 6(3\, \text{cm})^2 = 54 \,\text{cm}^2.
 
 
 $$
 
-Therefore, the surface area of the cube is $54\,\textrm{cm}^2.$
+Therefore, the surface area of the cube is $54\,\text{cm}^2.$
 
 ### Example: Finding the Surface Area of a Cube Given a Side Length
 
@@ -61,12 +61,12 @@ $$
 
 where $s$ is the side length of the cube.
 
-Substituting $s = 7\,\textrm{m}$ into the formula, we get
+Substituting $s = 7\,\text{m}$ into the formula, we get
 
 $$
 
 
-S = 6(7\, \text{m})^2 = 294\,\textrm{m}^2 .
+S = 6(7\, \text{m})^2 = 294\,\text{m}^2 .
 
 
 $$
@@ -141,12 +141,12 @@ $$
 
 where $s$ is the side length of the cube.
 
-Substituting $s = 9\,\textrm{cm}$ into the formula, we get
+Substituting $s = 9\,\text{cm}$ into the formula, we get
 
 $$
 
 
-S_L = 4(9\, \text{cm})^2 = 324 \,\textrm{cm}^2.
+S_L = 4(9\, \text{cm})^2 = 324 \,\text{cm}^2.
 
 
 $$

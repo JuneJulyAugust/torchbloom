@@ -69,11 +69,11 @@ Therefore, the car will be worth $ 8\,192$ in $5$ years.
 
 #### Question
 
-A mountain has a glacier with a depth of $75\,\textrm{m}.$ The depth of the glacier reduces by $\dfrac{1}{4}$ every year. Construct a function that represents the depth $d(t)$ of the glacier after $t$ years.
+A mountain has a glacier with a depth of $75\,\text{m}.$ The depth of the glacier reduces by $\dfrac{1}{4}$ every year. Construct a function that represents the depth $d(t)$ of the glacier after $t$ years.
 
 #### Explanation
 
-The depth of the glacier is $75\,\textrm{m},$ and this reduces by $\dfrac{1}{4}$ every year. Therefore, the depth decays exponentially with a decay factor of $\dfrac 3 4.$
+The depth of the glacier is $75\,\text{m},$ and this reduces by $\dfrac{1}{4}$ every year. Therefore, the depth decays exponentially with a decay factor of $\dfrac 3 4.$
 
 The formula for exponential decay (in terms of a decay factor $b$) is
 
@@ -89,7 +89,7 @@ $$
 
 In our case, we have the following:
 
-- $a=75 \textrm{m}$ is the initial depth of the glacier.
+- $a=75 \text{m}$ is the initial depth of the glacier.
 
 - $b = \dfrac 3 4$ is the decay factor.
 
@@ -189,7 +189,7 @@ $$
 
 
 
-m(t) = 766 \cdot (\textrm{___})^{t}.
+m(t) = 766 \cdot (\textrm{\underline{\hspace{3em}}})^{t}.
 
 
 

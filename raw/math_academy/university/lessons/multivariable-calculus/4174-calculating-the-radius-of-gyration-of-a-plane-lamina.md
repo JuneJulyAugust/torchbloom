@@ -92,7 +92,7 @@ The moment of inertia about the $y$-axis is defined as
 $$
 
 
-I_y = \iint\limits_D x^2\lambda(x,y) \:\textrm{d}A,
+I_y = \iint\limits_D x^2\lambda(x,y) \:\text{d}A,
 
 
 $$
@@ -114,7 +114,7 @@ Therefore, the moment of inertia about the $y$-axis is
 $$
 
 
-\begin{aligned}𝐼_{𝑦} & =\underset{𝐷}{∬}𝑥^{2}𝜆(𝑥,𝑦)\,d𝐴 \\ & =\frac{𝑀}{3}∫_{21}^{}∫_{30}^{}𝑥^{2}\,d𝑥\,d𝑦 \\ & =\frac{𝑀}{3}∫_{21}^{}[\frac{1}{3}𝑥^{3}]_{30}^{}\,d𝑦 \\ & =\frac{𝑀}{3}∫_{21}^{}9\,d𝑦 \\ & =3𝑀∫_{21}^{}\,d𝑦 \\ & =3𝑀[𝑦]_{21}^{} \\ & =3𝑀(2−1) \\ & =3𝑀.\end{aligned}
+\begin{aligned}𝐼_{𝑦} & =\underset{𝐷}{∬}𝑥^{2}𝜆(𝑥,𝑦)\,d𝐴 \\ & =\frac{𝑀}{3}∫_{21}∫_{30}𝑥^{2}\,d𝑥\,d𝑦 \\ & =\frac{𝑀}{3}∫_{21}[\frac{1}{3}𝑥^{3}]_{30}\,d𝑦 \\ & =\frac{𝑀}{3}∫_{21}9\,d𝑦 \\ & =3𝑀∫_{21}\,d𝑦 \\ & =3𝑀[𝑦]_{21} \\ & =3𝑀(2−1) \\ & =3𝑀.\end{aligned}
 
 
 $$
@@ -150,7 +150,7 @@ The moment of inertia about the origin is defined as
 $$
 
 
-I_0 = \iint\limits_D (x^2 + y^2) \lambda(x,y) \: \textrm{d}A,
+I_0 = \iint\limits_D (x^2 + y^2) \lambda(x,y) \: \text{d}A,
 
 
 $$
@@ -170,7 +170,7 @@ Hence, the moment of inertia about the origin is
 $$
 
 
-\begin{aligned}𝐼_{0} & =\underset{𝐷}{∬}(𝑥^{2}+𝑦^{2})𝜆(𝑥,𝑦)\,d𝐴 \\ & =∫_{10}^{}∫_{𝑥0}^{}(𝑥^{2}+𝑦^{2})⋅3𝑀𝑥\,d𝑦\,d𝑥 \\ & =3𝑀∫_{10}^{}∫_{𝑥0}^{}𝑥^{3}+𝑥𝑦^{2}\,d𝑦\,d𝑥 \\ & =3𝑀∫_{10}^{}[𝑥^{3}𝑦+\frac{1}{3}𝑥𝑦^{3}]_{𝑦=𝑥𝑦=0}^{}\,d𝑥 \\ & =3𝑀∫_{10}^{}𝑥^{4}+\frac{1}{3}𝑥^{4}\,d𝑥 \\ & =3𝑀∫_{10}^{}\frac{4}{3}𝑥^{4}\,d𝑥 \\ & =3𝑀[\frac{4}{15}𝑥^{5}]_{10}^{} \\ & =3𝑀⋅\frac{4}{15} \\ & =\frac{4𝑀}{5}.\end{aligned}
+\begin{aligned}𝐼_{0} & =\underset{𝐷}{∬}(𝑥^{2}+𝑦^{2})𝜆(𝑥,𝑦)\,d𝐴 \\ & =∫_{10}∫_{𝑥0}(𝑥^{2}+𝑦^{2})⋅3𝑀𝑥\,d𝑦\,d𝑥 \\ & =3𝑀∫_{10}∫_{𝑥0}𝑥^{3}+𝑥𝑦^{2}\,d𝑦\,d𝑥 \\ & =3𝑀∫_{10}[𝑥^{3}𝑦+\frac{1}{3}𝑥𝑦^{3}]_{𝑦=𝑥𝑦=0}\,d𝑥 \\ & =3𝑀∫_{10}𝑥^{4}+\frac{1}{3}𝑥^{4}\,d𝑥 \\ & =3𝑀∫_{10}\frac{4}{3}𝑥^{4}\,d𝑥 \\ & =3𝑀[\frac{4}{15}𝑥^{5}]_{10} \\ & =3𝑀⋅\frac{4}{15} \\ & =\frac{4𝑀}{5}.\end{aligned}
 
 
 $$
@@ -180,7 +180,7 @@ Therefore, the radius of gyration about the origin is
 $$
 
 
-\begin{aligned}𝑅_{0} & =\sqrt{√\frac{𝐼_{0}}{𝑀}} \\ & =\sqrt{√\frac{4𝑀}{5}⋅\frac{1}{𝑀}} \\ & =\sqrt{√\frac{4}{5}} \\ & =\frac{2}{\sqrt{√5}} \\ & =\frac{2\sqrt{√5}}{5}.\end{aligned}
+\begin{aligned}𝑅_{0} & =\sqrt{\frac{𝐼_{0}}{𝑀}} \\ & =\sqrt{\frac{4𝑀}{5}⋅\frac{1}{𝑀}} \\ & =\sqrt{\frac{4}{5}} \\ & =\frac{2}{\sqrt{5}} \\ & =\frac{2\sqrt{5}}{5}.\end{aligned}
 
 
 $$
@@ -216,7 +216,7 @@ The moment of inertia about the origin, in polar coordinates, is defined as
 $$
 
 
-I_0 = \iint\limits_D \lambda(r,\theta) r^3 \:\textrm{d}r\:\textrm{d}\theta,
+I_0 = \iint\limits_D \lambda(r,\theta) r^3 \:\text{d}r\:\text{d}\theta,
 
 
 $$
@@ -228,7 +228,7 @@ Also, the mass density in terms of polar coordinates is $\lambda(r,\theta)=\dfra
 $$
 
 
-\begin{aligned}𝐼_{0} & =\underset{𝐷}{∬}𝜆(𝑟,𝜃)𝑟^{3}\,d𝑟\,d𝜃 \\ & =\frac{3}{2}𝑀∫_{𝜋0}^{}∫_{10}^{}𝑟^{4}sin⁡𝜃\,d𝑟\,d𝜃 \\ & =\frac{3}{2}𝑀(∫_{10}^{}𝑟^{4}\,d𝑟)(∫_{𝜋0}^{}sin⁡𝜃\,d𝜃) \\ & =\frac{3}{2}𝑀⋅\frac{1}{5}𝑟^{5}_{10}^{}⋅(−cos⁡𝜃)_{𝜋0}^{} \\ & =\frac{3}{2}𝑀⋅\frac{1}{5}⋅2 \\ & =\frac{3𝑀}{5}.\end{aligned}
+\begin{aligned}𝐼_{0} & =\underset{𝐷}{∬}𝜆(𝑟,𝜃)𝑟^{3}\,d𝑟\,d𝜃 \\ & =\frac{3}{2}𝑀∫_{𝜋0}∫_{10}𝑟^{4}sin⁡𝜃\,d𝑟\,d𝜃 \\ & =\frac{3}{2}𝑀(∫_{10}𝑟^{4}\,d𝑟)(∫_{𝜋0}sin⁡𝜃\,d𝜃) \\ & =\frac{3}{2}𝑀⋅\frac{1}{5}𝑟^{5}_{10}⋅(−cos⁡𝜃)_{𝜋0} \\ & =\frac{3}{2}𝑀⋅\frac{1}{5}⋅2 \\ & =\frac{3𝑀}{5}.\end{aligned}
 
 
 $$
@@ -238,7 +238,7 @@ Therefore, the radius of gyration about the origin is
 $$
 
 
-\begin{aligned}𝑅_{0} & =\sqrt{√\frac{𝐼_{0}}{𝑀}} \\ & =\sqrt{√\frac{3𝑀}{5}⋅\frac{1}{𝑀}} \\ & =\sqrt{√\frac{3}{5}}.\end{aligned}
+\begin{aligned}𝑅_{0} & =\sqrt{\frac{𝐼_{0}}{𝑀}} \\ & =\sqrt{\frac{3𝑀}{5}⋅\frac{1}{𝑀}} \\ & =\sqrt{\frac{3}{5}}.\end{aligned}
 
 
 $$

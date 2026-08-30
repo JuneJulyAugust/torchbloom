@@ -44,7 +44,7 @@ Since the data is continuous, $x$ can assume *any* real number in this interval.
 $$
 
 
-x = 10.5\,\textrm{mins}, \qquad x = 2.14546\,\textrm{mins}, \qquad x = 3.141\,592\,654\ldots\,\textrm{mins},
+x = 10.5\,\text{mins}, \qquad x = 2.14546\,\text{mins}, \qquad x = 3.141\,592\,654\ldots\,\text{mins},
 
 
 $$
@@ -196,7 +196,7 @@ Finally, we sum the values in the last column and divide by $30$ (the total numb
 $$
 
 
-\begin{aligned}𝜎_{2𝑛}^{} & ≈\frac{4908.8785+1284.4370+600.8936+5752.4579}{30} \\ & ≈418.2222 \\ & ≈418.2\end{aligned}
+\begin{aligned}𝜎_{2𝑛} & ≈\frac{4908.8785+1284.4370+600.8936+5752.4579}{30} \\ & ≈418.2222 \\ & ≈418.2\end{aligned}
 
 
 $$
@@ -208,7 +208,7 @@ Finally, we can find an estimate of the standard deviation by taking the square 
 $$
 
 
-\sigma_n \approx \sqrt{418.2222} \approx 20.5\,\textrm{mins}
+\sigma_n \approx \sqrt{418.2222} \approx 20.5\,\text{mins}
 
 
 $$

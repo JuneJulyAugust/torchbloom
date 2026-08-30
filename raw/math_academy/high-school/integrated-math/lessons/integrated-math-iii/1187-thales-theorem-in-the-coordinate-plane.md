@@ -70,7 +70,7 @@ So, using the Pythagorean theorem, we get
 $$
 
 
-\begin{aligned}𝐴𝐶 & =\sqrt{√𝐵𝐶^{2}−𝐴𝐵^{2}} \\ & =\sqrt{√(2\sqrt{√10})^{2}−(2\sqrt{√5})^{2}} \\ & =\sqrt{√4(10)−4(5)} \\ & =\sqrt{√40−20} \\ & =\sqrt{√20} \\ & =2\sqrt{√5}.\end{aligned}
+\begin{aligned}𝐴𝐶 & =\sqrt{𝐵𝐶^{2}−𝐴𝐵^{2}} \\ & =\sqrt{(2\sqrt{10})^{2}−(2\sqrt{5})^{2}} \\ & =\sqrt{4(10)−4(5)} \\ & =\sqrt{40−20} \\ & =\sqrt{20} \\ & =2\sqrt{5}.\end{aligned}
 
 
 $$
@@ -102,7 +102,7 @@ Using the distance formula to calculate $AB,$ we get
 $$
 
 
-\begin{aligned}𝐴𝐵 & =\sqrt{√(4−1)^{2}+(8−9)^{2}} \\ & =\sqrt{√(3)^{2}+(−1)^{2}} \\ & =\sqrt{√10}.\end{aligned}
+\begin{aligned}𝐴𝐵 & =\sqrt{(4−1)^{2}+(8−9)^{2}} \\ & =\sqrt{(3)^{2}+(−1)^{2}} \\ & =\sqrt{10}.\end{aligned}
 
 
 $$
@@ -112,7 +112,7 @@ Finally, the Pythagorean theorem gives
 $$
 
 
-\begin{aligned}𝐴𝐶 & =\sqrt{√𝐵𝐶^{2}−𝐴𝐵^{2}} \\ & =\sqrt{√8^{2}−(\sqrt{√10})^{2}} \\ & =\sqrt{√64−10} \\ & =\sqrt{√54} \\ & =3\sqrt{√6}.\end{aligned}
+\begin{aligned}𝐴𝐶 & =\sqrt{𝐵𝐶^{2}−𝐴𝐵^{2}} \\ & =\sqrt{8^{2}−(\sqrt{10})^{2}} \\ & =\sqrt{64−10} \\ & =\sqrt{54} \\ & =3\sqrt{6}.\end{aligned}
 
 
 $$

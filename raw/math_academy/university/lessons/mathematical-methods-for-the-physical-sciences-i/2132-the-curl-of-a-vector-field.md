@@ -23,12 +23,12 @@ $$
 
 $$
 
-If the first partial derivatives of $P, Q,$ and $R$ all exist, then the **curl** of $\mathbf F,$ denoted $\textrm{curl}\,\mathbf F,$ is a vector field on $\mathbb R^3$ given by
+If the first partial derivatives of $P, Q,$ and $R$ all exist, then the **curl** of $\mathbf F,$ denoted $\text{curl}\,\mathbf F,$ is a vector field on $\mathbb R^3$ given by
 
 $$
 
 
-\textrm{curl}\,\mathbf F = \left(\dfrac{\partial R}{\partial y} - \dfrac{\partial Q}{\partial z} \right)\,\mathbf i + \left(\dfrac{\partial P}{\partial z} - \dfrac{\partial R}{\partial x}\right)\,\mathbf j + \left(\dfrac{\partial Q }{\partial x} - \dfrac{\partial P }{\partial y}\right)\,\mathbf k.
+\text{curl}\,\mathbf F = \left(\dfrac{\partial R}{\partial y} - \dfrac{\partial Q}{\partial z} \right)\,\mathbf i + \left(\dfrac{\partial P}{\partial z} - \dfrac{\partial R}{\partial x}\right)\,\mathbf j + \left(\dfrac{\partial Q }{\partial x} - \dfrac{\partial P }{\partial y}\right)\,\mathbf k.
 
 
 $$
@@ -48,7 +48,7 @@ then the curl of $\mathbf F$ is given by the cross product
 $$
 
 
-\textrm{curl}\,\mathbf F = \nabla \times\mathbf F.
+\text{curl}\,\mathbf F = \nabla \times\mathbf F.
 
 
 $$
@@ -73,29 +73,29 @@ $$
 
 $$
 
-Then we can calculate $\textrm{curl}\,\mathbf{F}$ using the determinant formula as follows:
+Then we can calculate $\text{curl}\,\mathbf{F}$ using the determinant formula as follows:
 
 $$
 
 
-\begin{aligned}curl\,𝐅 & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ \frac{𝜕}{𝜕𝑥} & \frac{𝜕}{𝜕𝑦} & \frac{𝜕}{𝜕𝑧} \\ 𝑥𝑧 & 𝑥𝑦 & 𝑦𝑧\end{aligned} \\ & =[\frac{𝜕}{𝜕𝑦}(𝑦𝑧)−\frac{𝜕}{𝜕𝑧}(𝑥𝑦)]𝐢−[\frac{𝜕}{𝜕𝑥}(𝑦𝑧)−\frac{𝜕}{𝜕𝑧}(𝑥𝑧)]𝐣+[\frac{𝜕}{𝜕𝑥}(𝑥𝑦)−\frac{𝜕}{𝜕𝑦}(𝑥𝑧)]𝐤 \\ & =(𝑧−0)\,𝐢−(0−𝑥)\,𝐣+(𝑦−0)\,𝐤 \\ & =𝑧\,𝐢+𝑥\,𝐣+𝑦\,𝐤\end{aligned}
+\begin{aligned}curl\,𝐅 & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ \frac{𝜕}{𝜕𝑥} & \frac{𝜕}{𝜕𝑦} & \frac{𝜕}{𝜕𝑧} \\ 𝑥𝑧 & 𝑥𝑦 & 𝑦𝑧\end{matrix} \\ & =[\frac{𝜕}{𝜕𝑦}(𝑦𝑧)−\frac{𝜕}{𝜕𝑧}(𝑥𝑦)]𝐢−[\frac{𝜕}{𝜕𝑥}(𝑦𝑧)−\frac{𝜕}{𝜕𝑧}(𝑥𝑧)]𝐣+[\frac{𝜕}{𝜕𝑥}(𝑥𝑦)−\frac{𝜕}{𝜕𝑦}(𝑥𝑧)]𝐤 \\ & =(𝑧−0)\,𝐢−(0−𝑥)\,𝐣+(𝑦−0)\,𝐤 \\ & =𝑧\,𝐢+𝑥\,𝐣+𝑦\,𝐤\end{aligned}
 
 
 $$
 
 ### Some Notes About the Curl of a Vector Field
 
-We can only compute the curl of a *vector* field, and a vector field's curl is also a vector field. So if $\mathbf G = \textrm{curl}\,\mathbf F,$ then we have the following map:
+We can only compute the curl of a *vector* field, and a vector field's curl is also a vector field. So if $\mathbf G = \text{curl}\,\mathbf F,$ then we have the following map:
 
 $$
 
 
-\underbrace{\,\,\,\mathbf F(x,y,z)\,\,\,}_{\textrm{vector field}} \mapsto\underbrace{\,\,\,\mathbf G(x,y,z)\,\,\,}_{\textrm{vector field}}
+\underbrace{\,\,\,\mathbf F(x,y,z)\,\,\,}_{\text{vector field}} \mapsto\underbrace{\,\,\,\mathbf G(x,y,z)\,\,\,}_{\text{vector field}}
 
 
 $$
 
-In contrast, if $f(x,y, z)$ is a scalar field, then the statement $\textrm{curl}\, f$ has no meaning.
+In contrast, if $f(x,y, z)$ is a scalar field, then the statement $\text{curl}\, f$ has no meaning.
 
 The curl of a vector field at a point $P$ gives us helpful information about the rotational behavior of the vector field at $P.$ We'll describe this in more detail shortly.
 
@@ -103,7 +103,7 @@ The curl of a vector field at a point $P$ gives us helpful information about the
 
 #### Question
 
-Consider the vector field $\mathbf{F} = y\,\mathbf{i} + x^2\,\mathbf{j} - 2z\,\mathbf{k}.$ Evaluate $\textrm{curl}\,\mathbf{F}$ at the point $\left(-1,0,2\right).$
+Consider the vector field $\mathbf{F} = y\,\mathbf{i} + x^2\,\mathbf{j} - 2z\,\mathbf{k}.$ Evaluate $\text{curl}\,\mathbf{F}$ at the point $\left(-1,0,2\right).$
 
 #### Explanation
 
@@ -122,7 +122,7 @@ Therefore, we have
 $$
 
 
-\begin{aligned}curl\,𝐅 & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ \frac{𝜕}{𝜕𝑥} & \frac{𝜕}{𝜕𝑦} & \frac{𝜕}{𝜕𝑧} \\ 𝑦 & 𝑥^{2} & −2𝑧\end{aligned} \\ & =[\frac{𝜕}{𝜕𝑦}(−2𝑧)−\frac{𝜕}{𝜕𝑧}(𝑥^{2})]𝐢−[\frac{𝜕}{𝜕𝑥}(−2𝑧)−\frac{𝜕}{𝜕𝑧}(𝑦)]𝐣+[\frac{𝜕}{𝜕𝑥}(𝑥^{2})−\frac{𝜕}{𝜕𝑦}(𝑦)]𝐤 \\ & =(0−0)𝐢−(0−0)𝐣+(2𝑥−1)𝐤 \\ & =(2𝑥−1)\,𝐤.\end{aligned}
+\begin{aligned}curl\,𝐅 & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ \frac{𝜕}{𝜕𝑥} & \frac{𝜕}{𝜕𝑦} & \frac{𝜕}{𝜕𝑧} \\ 𝑦 & 𝑥^{2} & −2𝑧\end{matrix} \\ & =[\frac{𝜕}{𝜕𝑦}(−2𝑧)−\frac{𝜕}{𝜕𝑧}(𝑥^{2})]𝐢−[\frac{𝜕}{𝜕𝑥}(−2𝑧)−\frac{𝜕}{𝜕𝑧}(𝑦)]𝐣+[\frac{𝜕}{𝜕𝑥}(𝑥^{2})−\frac{𝜕}{𝜕𝑦}(𝑦)]𝐤 \\ & =(0−0)𝐢−(0−0)𝐣+(2𝑥−1)𝐤 \\ & =(2𝑥−1)\,𝐤.\end{aligned}
 
 
 $$
@@ -139,7 +139,7 @@ $$
 
 ### The Curl of a Two-Dimensional Vector Field
 
-Technically, we can only find the curl of a vector field on $\mathbb R^3.$ If $\mathbf F$ is a vector field on $\mathbb R^2,$ then (strictly speaking) $\textrm{curl}\, \mathbf F$ has no meaning.
+Technically, we can only find the curl of a vector field on $\mathbb R^3.$ If $\mathbf F$ is a vector field on $\mathbb R^2,$ then (strictly speaking) $\text{curl}\, \mathbf F$ has no meaning.
 
 However, it's sometimes helpful to avoid this issue by considering $\mathbf F$ as a vector field on $\mathbb R^3$ whose $\mathbf k$ component is zero everywhere.
 
@@ -168,7 +168,7 @@ and, finally, substitute the above into our curl formula, then we get
 $$
 
 
-\textrm{curl}\,\mathbf F = \left(\dfrac{\partial Q }{\partial x} - \dfrac{\partial P }{\partial y}\right)\,\mathbf k.
+\text{curl}\,\mathbf F = \left(\dfrac{\partial Q }{\partial x} - \dfrac{\partial P }{\partial y}\right)\,\mathbf k.
 
 
 $$
@@ -231,17 +231,17 @@ The curl of the vector field at our point measures how much the paddlewheel rota
 
 ![Instructional graphic](../../../lesson-assets/mathematical-methods-for-the-physical-sciences-i/topic-2132/2498377aceaca91b.png)
 
-- If the paddlewheel is forced to rotate due to the action of the water, then the vector field has curl. In other words, $\textrm{curl}\,\mathbf F \neq \mathbf 0.$
+- If the paddlewheel is forced to rotate due to the action of the water, then the vector field has curl. In other words, $\text{curl}\,\mathbf F \neq \mathbf 0.$
 
-- If the paddlewheel does not rotate due to the action of the water, then $\textrm{curl}\,\mathbf F = \mathbf 0.$ In this case, we say that $\mathbf F$ is **irrotational**.
+- If the paddlewheel does not rotate due to the action of the water, then $\text{curl}\,\mathbf F = \mathbf 0.$ In this case, we say that $\mathbf F$ is **irrotational**.
 
 For the particular point we've chosen in our example, we can see that the action of the water will cause the paddleboard to rotate counterclockwise.
 
 ![Instructional graphic](../../../lesson-assets/mathematical-methods-for-the-physical-sciences-i/topic-2132/383920dc0ea5d0d3.png)
 
-Since the water causes the paddleboard to rotate, we must have $\textrm{curl}\,\mathbf F \neq \mathbf 0.$
+Since the water causes the paddleboard to rotate, we must have $\text{curl}\,\mathbf F \neq \mathbf 0.$
 
-Finally, note that if $\textrm{curl}\,\mathbf F =\mathbf 0,$ then it does not point in any particular direction.
+Finally, note that if $\text{curl}\,\mathbf F =\mathbf 0,$ then it does not point in any particular direction.
 
 ### The Right-Hand Rule
 
@@ -255,13 +255,13 @@ The orientation of the curl vector is determined by the so-called **right-hand r
 
 ![Instructional graphic](../../../lesson-assets/mathematical-methods-for-the-physical-sciences-i/topic-2132/bb4eb0362fe04d08.png)
 
-Using our right hand, if we wrap our fingers in the direction of rotation (counterclockwise), our thumb will point *away* from the screen. Therefore, $\textrm{curl}\,\mathbf F$ also points away from the screen, in the direction of increasing $z.$
+Using our right hand, if we wrap our fingers in the direction of rotation (counterclockwise), our thumb will point *away* from the screen. Therefore, $\text{curl}\,\mathbf F$ also points away from the screen, in the direction of increasing $z.$
 
 The situation is reversed when the rotation of the vector field is clockwise:
 
 ![Instructional graphic](../../../lesson-assets/mathematical-methods-for-the-physical-sciences-i/topic-2132/8f5bfea279b6ef86.png)
 
-Using our right hand, if we wrap our fingers in the direction of rotation (clockwise), our thumb will point *into* the screen. Therefore, $\textrm{curl}\,\mathbf F$ also points into from the screen, in the direction of decreasing $z.$
+Using our right hand, if we wrap our fingers in the direction of rotation (clockwise), our thumb will point *into* the screen. Therefore, $\text{curl}\,\mathbf F$ also points into from the screen, in the direction of decreasing $z.$
 
 ### Examples of Vector Fields With Curl and Irrotational Vector Fields
 
@@ -285,34 +285,34 @@ The following vector fields are irrotational (i.e., they each have zero curl).
 
 Consider the vector field $\mathbf F(x,y,z),$ shown above. Given that $\mathbf F(x,y,z)$ is independent of $z,$ which of the following statements are true?
 
-1. $\textrm{curl}\,\mathbf F = \mathbf 0$
+1. $\text{curl}\,\mathbf F = \mathbf 0$
 
-2. $\textrm{curl}\, \mathbf F \neq \mathbf 0$
+2. $\text{curl}\, \mathbf F \neq \mathbf 0$
 
 3. $\mathbf F$ is irrotational
 
-4. $\textrm{curl}\, \mathbf F$ points in the positive $z$-direction.
+4. $\text{curl}\, \mathbf F$ points in the positive $z$-direction.
 
 #### Explanation
 
-Recall that $\textrm{curl}\,\mathbf F$ denotes the curl of the vector field $\mathbf F.$
+Recall that $\text{curl}\,\mathbf F$ denotes the curl of the vector field $\mathbf F.$
 
 To understand intuitively whether a vector field has curl at a point $P$, imagine that our vector field $\mathbf F$ represents the velocity field of a stream of flowing water. We place a paddlewheel at $P$ with the axis of rotation pointing in the $z$-direction, and we note whether the paddlewheel rotates or not.
 
-- If the paddlewheel is forced to rotate due to the action of the water, then the vector field has curl, i.e., $\textrm{curl}\,\mathbf F \neq \mathbf 0.$
+- If the paddlewheel is forced to rotate due to the action of the water, then the vector field has curl, i.e., $\text{curl}\,\mathbf F \neq \mathbf 0.$
 
-- If the paddlewheel does not rotate due to the action of the water, then the velocity field has zero curl, i.e., $\textrm{curl}\,\mathbf F = \mathbf 0.$
+- If the paddlewheel does not rotate due to the action of the water, then the velocity field has zero curl, i.e., $\text{curl}\,\mathbf F = \mathbf 0.$
 
 ![Instructional graphic](../../../lesson-assets/mathematical-methods-for-the-physical-sciences-i/topic-2132/326ed3180db192eb.png)
 
-If $\textrm{curl}\,\mathbf F = \mathbf 0$ everywhere in $\mathbb R^3$, we say that $\mathbf F$ is irrotational.
+If $\text{curl}\,\mathbf F = \mathbf 0$ everywhere in $\mathbb R^3$, we say that $\mathbf F$ is irrotational.
 
 With that in mind, let's check each statement:
 
-- Statement I is false, whereas statement II is true. If a paddlewheel were placed at any point $P$ in the manner described above, it would rotate counterclockwise. Therefore, $\textrm{curl}\,\mathbf F \neq \mathbf 0.$
+- Statement I is false, whereas statement II is true. If a paddlewheel were placed at any point $P$ in the manner described above, it would rotate counterclockwise. Therefore, $\text{curl}\,\mathbf F \neq \mathbf 0.$
 
-- Statements III is false. Since $\textrm{curl}\,\mathbf F \neq \mathbf 0,$ the vector field $\mathbf F$ is not irrotational.
+- Statements III is false. Since $\text{curl}\,\mathbf F \neq \mathbf 0,$ the vector field $\mathbf F$ is not irrotational.
 
-- Statement IV is true. Using our right hand, if we wrap our fingers in the direction of rotation (counterclockwise), our thumb will point upward. Therefore, $\textrm{curl}\,\mathbf F$ points upward, in the direction of increasing $z.$
+- Statement IV is true. Using our right hand, if we wrap our fingers in the direction of rotation (counterclockwise), our thumb will point upward. Therefore, $\text{curl}\,\mathbf F$ points upward, in the direction of increasing $z.$
 
 Therefore, the correct answer is "II and IV only."

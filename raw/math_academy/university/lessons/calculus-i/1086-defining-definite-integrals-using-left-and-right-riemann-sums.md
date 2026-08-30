@@ -49,7 +49,7 @@ The formula above is a bit clunky, so instead of writing it using limits and sig
 $$
 
 
-\mathcal{A} = \lim_{n\to\infty}\sum_{k=0}^{n-1}\left(\dfrac{k^2}{n^2} + 1\right)\cdot \dfrac{1}{n}= \int_0^1 (x^2 + 1)\, \textrm{d}x.
+\mathcal{A} = \lim_{n\to\infty}\sum_{k=0}^{n-1}\left(\dfrac{k^2}{n^2} + 1\right)\cdot \dfrac{1}{n}= \int_0^1 (x^2 + 1)\, \text{d}x.
 
 
 $$
@@ -59,7 +59,7 @@ In our example,
 $$
 
 
-\displaystyle \int_0^1 (x^2+1)\, \textrm{d}x
+\displaystyle \int_0^1 (x^2+1)\, \text{d}x
 
 
 $$
@@ -73,7 +73,7 @@ In general, for a function $f(x)$ defined on $[a,b],$ the **definite integral** 
 $$
 
 
-\int_a^b f(x)\textrm{d}x = \lim_{n\rightarrow\infty}\sum_{k=0}^{n-1} f(x_k)\Delta x,
+\int_a^b f(x)\text{d}x = \lim_{n\rightarrow\infty}\sum_{k=0}^{n-1} f(x_k)\Delta x,
 
 
 $$
@@ -99,7 +99,7 @@ This can be expressed as the definite integral of $f(x) = -2x^3+2$ between the l
 $$
 
 
-\displaystyle \mathcal{A} = \int_0^1 (-2x^3+2)\,\textrm{d}x
+\displaystyle \mathcal{A} = \int_0^1 (-2x^3+2)\,\text{d}x
 
 
 $$
@@ -108,7 +108,7 @@ $$
 
 #### Question
 
-Express $\displaystyle \int_1^3(4-x)\,\textrm{d}x$ as the limit of a left Riemann sum.
+Express $\displaystyle \int_1^3(4-x)\,\text{d}x$ as the limit of a left Riemann sum.
 
 #### Explanation
 
@@ -117,7 +117,7 @@ The definite integral can be defined in terms of the limit of a left Riemann sum
 $$
 
 
-\int_a^b f(x)\textrm{d}x = \lim_{n\rightarrow\infty}\sum_{k=0}^{n-1} f(x_k)\Delta x,
+\int_a^b f(x)\text{d}x = \lim_{n\rightarrow\infty}\sum_{k=0}^{n-1} f(x_k)\Delta x,
 
 
 $$
@@ -129,7 +129,7 @@ In the definite integral
 $$
 
 
-\displaystyle \int_1^3(4-x)\,\textrm{d}x,
+\displaystyle \int_1^3(4-x)\,\text{d}x,
 
 
 $$
@@ -149,7 +149,7 @@ and therefore
 $$
 
 
-\begin{aligned}∫_{31}^{}(4−𝑥)\,d𝑥 & =\underset{𝑛→∞}{lim}\underset{\underset{𝑘=0}{∑}}{\overset{}{𝑛−1}}𝑓(𝑥_{𝑘})\,Δ𝑥 \\ & =\underset{𝑛→∞}{lim}\underset{\underset{𝑘=0}{∑}}{\overset{}{𝑛−1}}[𝑓(1+𝑘⋅\frac{2}{𝑛})\,⋅\frac{2}{𝑛}] \\ & =\underset{𝑛→∞}{lim}\underset{\underset{𝑘=0}{∑}}{\overset{}{𝑛−1}}[𝑓(1+\frac{2𝑘}{𝑛})\,⋅\frac{2}{𝑛}] \\ & =\underset{𝑛→∞}{lim}\underset{\underset{𝑘=0}{∑}}{\overset{}{𝑛−1}}[(4−(1+\frac{2𝑘}{𝑛}))\,⋅\frac{2}{𝑛}] \\ & =\underset{𝑛→∞}{lim}\underset{\underset{𝑘=0}{∑}}{\overset{}{𝑛−1}}[(3−\frac{2𝑘}{𝑛})\,⋅\frac{2}{𝑛}].\end{aligned}
+\begin{aligned}∫_{31}(4−𝑥)\,d𝑥 & =\underset{𝑛→∞}{lim}\underset{\underset{𝑘=0}{∑}}{\overset{}{𝑛−1}}𝑓(𝑥_{𝑘})\,Δ𝑥 \\ & =\underset{𝑛→∞}{lim}\underset{\underset{𝑘=0}{∑}}{\overset{}{𝑛−1}}[𝑓(1+𝑘⋅\frac{2}{𝑛})\,⋅\frac{2}{𝑛}] \\ & =\underset{𝑛→∞}{lim}\underset{\underset{𝑘=0}{∑}}{\overset{}{𝑛−1}}[𝑓(1+\frac{2𝑘}{𝑛})\,⋅\frac{2}{𝑛}] \\ & =\underset{𝑛→∞}{lim}\underset{\underset{𝑘=0}{∑}}{\overset{}{𝑛−1}}[(4−(1+\frac{2𝑘}{𝑛}))\,⋅\frac{2}{𝑛}] \\ & =\underset{𝑛→∞}{lim}\underset{\underset{𝑘=0}{∑}}{\overset{}{𝑛−1}}[(3−\frac{2𝑘}{𝑛})\,⋅\frac{2}{𝑛}].\end{aligned}
 
 
 $$
@@ -263,7 +263,7 @@ Therefore,
 $$
 
 
-\begin{aligned}∫_{21}^{}𝑥^{2}\,d𝑥 & =\underset{𝑛→∞}{lim}\underset{\underset{𝑘=1}{∑}}{\overset{}{𝑛}}𝑓(𝑥_{𝑘})\,Δ𝑥 \\ & =\underset{𝑛→∞}{lim}\underset{\underset{𝑘=1}{∑}}{\overset{}{𝑛}}[𝑓(1+𝑘⋅\frac{1}{𝑛})⋅\frac{1}{𝑛}] \\ & =\underset{𝑛→∞}{lim}\underset{\underset{𝑘=1}{∑}}{\overset{}{𝑛}}[𝑓(1+\frac{𝑘}{𝑛})⋅\frac{1}{𝑛}] \\ & =\underset{𝑛→∞}{lim}\underset{\underset{𝑘=1}{∑}}{\overset{}{𝑛}}[(1+\frac{𝑘}{𝑛})^{2}\,⋅\frac{1}{𝑛}].\end{aligned}
+\begin{aligned}∫_{21}𝑥^{2}\,d𝑥 & =\underset{𝑛→∞}{lim}\underset{\underset{𝑘=1}{∑}}{\overset{}{𝑛}}𝑓(𝑥_{𝑘})\,Δ𝑥 \\ & =\underset{𝑛→∞}{lim}\underset{\underset{𝑘=1}{∑}}{\overset{}{𝑛}}[𝑓(1+𝑘⋅\frac{1}{𝑛})⋅\frac{1}{𝑛}] \\ & =\underset{𝑛→∞}{lim}\underset{\underset{𝑘=1}{∑}}{\overset{}{𝑛}}[𝑓(1+\frac{𝑘}{𝑛})⋅\frac{1}{𝑛}] \\ & =\underset{𝑛→∞}{lim}\underset{\underset{𝑘=1}{∑}}{\overset{}{𝑛}}[(1+\frac{𝑘}{𝑛})^{2}\,⋅\frac{1}{𝑛}].\end{aligned}
 
 
 $$

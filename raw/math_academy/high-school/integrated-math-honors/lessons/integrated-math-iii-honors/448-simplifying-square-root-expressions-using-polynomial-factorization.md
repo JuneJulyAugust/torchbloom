@@ -29,7 +29,7 @@ We can begin by factoring the expression under the radical, as follows:
 $$
 
 
-\begin{aligned}\sqrt{√𝑎^{2}+2𝑎+1} & = \\ \sqrt{√𝑎^{2}+2⋅1⋅𝑎+1} & = \\ \sqrt{√(𝑎+1)^{2}} & \end{aligned}
+\begin{aligned}\sqrt{𝑎^{2}+2𝑎+1} & = \\ \sqrt{𝑎^{2}+2⋅1⋅𝑎+1} & = \\ \sqrt{(𝑎+1)^{2}} & \end{aligned}
 
 
 $$
@@ -57,7 +57,7 @@ To simplify the radical expression, we factor the expression inside the radical 
 $$
 
 
-\begin{aligned}\sqrt{√4𝑥^{2}−8𝑥+4} & =\sqrt{√4⋅(𝑥^{2}−2𝑥+1)} \\ & =\sqrt{√4}⋅\sqrt{√𝑥^{2}−2𝑥+1} \\ & =2⋅\sqrt{√𝑥^{2}−2𝑥+1} \\ & =2⋅\sqrt{√𝑥^{2}−2⋅1⋅𝑥+1^{2}} \\ & =2⋅\sqrt{√(𝑥−1)^{2}} \\ & =2|𝑥−1|\end{aligned}
+\begin{aligned}\sqrt{4𝑥^{2}−8𝑥+4} & =\sqrt{4⋅(𝑥^{2}−2𝑥+1)} \\ & =\sqrt{4}⋅\sqrt{𝑥^{2}−2𝑥+1} \\ & =2⋅\sqrt{𝑥^{2}−2𝑥+1} \\ & =2⋅\sqrt{𝑥^{2}−2⋅1⋅𝑥+1^{2}} \\ & =2⋅\sqrt{(𝑥−1)^{2}} \\ & =2|𝑥−1|\end{aligned}
 
 
 $$
@@ -117,7 +117,7 @@ To simplify the expression, we first factor the numerator and denominator under 
 $$
 
 
-\begin{aligned}\sqrt{√\frac{𝑥^{2}−4𝑥+4}{𝑥^{2}+6𝑥+9}} & =\sqrt{√\frac{𝑥^{2}+2⋅𝑥⋅(−2)+(−2)^{2}}{𝑥^{2}+2⋅𝑥⋅3+3^{2}}} \\ & =\sqrt{√\frac{(𝑥−2)^{2}}{(𝑥+3)^{2}}}\end{aligned}
+\begin{aligned}\sqrt{\frac{𝑥^{2}−4𝑥+4}{𝑥^{2}+6𝑥+9}} & =\sqrt{\frac{𝑥^{2}+2⋅𝑥⋅(−2)+(−2)^{2}}{𝑥^{2}+2⋅𝑥⋅3+3^{2}}} \\ & =\sqrt{\frac{(𝑥−2)^{2}}{(𝑥+3)^{2}}}\end{aligned}
 
 
 $$
@@ -127,7 +127,7 @@ Then, by applying the quotient rule for radicals and the rules of absolute value
 $$
 
 
-\begin{aligned}\sqrt{√\frac{(𝑥−2)^{2}}{(𝑥+3)^{2}}} & =\frac{\sqrt{√(𝑥−2)^{2}}}{\sqrt{√(𝑥+3)^{2}}} \\ & =\frac{|𝑥−2|}{|𝑥+3|} \\ & =\frac{𝑥−2}{𝑥+3}.\end{aligned}
+\begin{aligned}\sqrt{\frac{(𝑥−2)^{2}}{(𝑥+3)^{2}}} & =\frac{\sqrt{(𝑥−2)^{2}}}{\sqrt{(𝑥+3)^{2}}} \\ & =\frac{|𝑥−2|}{|𝑥+3|} \\ & =\frac{𝑥−2}{𝑥+3}.\end{aligned}
 
 
 $$

@@ -61,7 +61,7 @@ The **intersection** of the relations $R$ and $S,$ each defined over the sets $A
 $$
 
 
-R \cap S = \big\{ (x,y) \in A \times B \,:\, x\:R\:y \:\:\textrm{and}\:\: x\:S\:y \big\}
+R \cap S = \big\{ (x,y) \in A \times B \,:\, x\:R\:y \:\:\text{and}\:\: x\:S\:y \big\}
 
 
 $$
@@ -73,7 +73,7 @@ The **union** of the relations $R$ and $S,$ each defined over the sets $A$ and $
 $$
 
 
-R \cup S = \big\{ (x,y) \in A \times B \,:\, x\:R\:y \:\:\textrm{or}\:\: x\:S\:y \big\}
+R \cup S = \big\{ (x,y) \in A \times B \,:\, x\:R\:y \:\:\text{or}\:\: x\:S\:y \big\}
 
 
 $$
@@ -95,7 +95,7 @@ The ** of the relations $R$ and $S,$ each defined over the sets $A$ and $B,$ is 
 $$
 
 
-R \cup S = \big\{ (x,y) \in A \times B \,:\, x\:R\:y \:\:\textrm{or}\:\: x\:S\:y \big\}
+R \cup S = \big\{ (x,y) \in A \times B \,:\, x\:R\:y \:\:\text{or}\:\: x\:S\:y \big\}
 
 
 $$

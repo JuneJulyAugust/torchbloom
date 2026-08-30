@@ -28,7 +28,7 @@ defined over a region $D$ in the $uv$-plane, then the surface area of $S$ is giv
 $$
 
 
-\iint\limits_{S} \: \textrm{d}S = \iint\limits_{D} \| \mathbf{r}'_ u \times \mathbf{r}'_v \| \: \textrm{d}A,
+\iint\limits_{S} \: \text{d}S = \iint\limits_{D} \| \mathbf{r}'_ u \times \mathbf{r}'_v \| \: \text{d}A,
 
 
 $$
@@ -52,7 +52,7 @@ Thus, the fundamental vector product of $S$ is given by
 $$
 
 
-\begin{aligned}𝐫_{′𝑥}^{}×𝐫_{′𝑦}^{} & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 1 & 0 & \frac{𝜕𝑓}{𝜕𝑥} \\ 0 & 1 & \frac{𝜕𝑓}{𝜕𝑦}\end{aligned} \\ & =⟨−\frac{𝜕𝑓}{𝜕𝑥},\,−\frac{𝜕𝑓}{𝜕𝑦},\,1⟩,\end{aligned}
+\begin{aligned}𝐫_{′𝑥}×𝐫_{′𝑦} & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 1 & 0 & \frac{𝜕𝑓}{𝜕𝑥} \\ 0 & 1 & \frac{𝜕𝑓}{𝜕𝑦}\end{matrix} \\ & =⟨−\frac{𝜕𝑓}{𝜕𝑥},\,−\frac{𝜕𝑓}{𝜕𝑦},\,1⟩,\end{aligned}
 
 
 $$
@@ -62,7 +62,7 @@ and using the fact that $z = f(x,y),$ we can write this as
 $$
 
 
-\begin{aligned}𝐫_{′𝑥}^{}×𝐫_{′𝑦}^{} & =⟨−\frac{𝜕𝑧}{𝜕𝑥},\,−\frac{𝜕𝑧}{𝜕𝑦},\,1⟩.\end{aligned}
+\begin{aligned}𝐫_{′𝑥}×𝐫_{′𝑦} & =⟨−\frac{𝜕𝑧}{𝜕𝑥},\,−\frac{𝜕𝑧}{𝜕𝑦},\,1⟩.\end{aligned}
 
 
 $$
@@ -154,7 +154,7 @@ Substituting these expressions into our surface area formula, we get
 $$
 
 
-\begin{aligned}\underset{𝑆}{∬}\,d𝑆 & =\underset{𝐷}{∬}\sqrt{√1+(\frac{𝜕𝑧}{𝜕𝑥})^{2}+(\frac{𝜕𝑧}{𝜕𝑦})^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}\sqrt{√1+(2𝑥)^{2}+(2𝑦)^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}\sqrt{√1+4𝑥^{2}+4𝑦^{2}}\,d𝐴.\end{aligned}
+\begin{aligned}\underset{𝑆}{∬}\,d𝑆 & =\underset{𝐷}{∬}\sqrt{1+(\frac{𝜕𝑧}{𝜕𝑥})^{2}+(\frac{𝜕𝑧}{𝜕𝑦})^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}\sqrt{1+(2𝑥)^{2}+(2𝑦)^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}\sqrt{1+4𝑥^{2}+4𝑦^{2}}\,d𝐴.\end{aligned}
 
 
 $$
@@ -174,7 +174,7 @@ Therefore, we get
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}\sqrt{√1+4𝑥^{2}+4𝑦^{2}}\,d𝐴 & =\underset{Δ}{∬}\sqrt{√1+4(𝑟cos⁡𝜃)^{2}+4(𝑟sin⁡𝜃)^{2}}\,𝑟\,d𝑟\,d𝜃 \\ & =\underset{Δ}{∬}𝑟\sqrt{√1+4𝑟^{2}(cos^{2}⁡𝜃+sin^{2}⁡𝜃)}\,d𝑟\,d𝜃 \\ & =\underset{Δ}{∬}𝑟\sqrt{√1+4𝑟^{2}}\,d𝑟\,d𝜃 \\ & =∫_{2𝜋0}^{}∫_{30}^{}𝑟\sqrt{√1+4𝑟^{2}\,}\,d𝑟\,d𝜃 \\ & =∫_{2𝜋0}^{}\,d𝜃\,∫_{30}^{}𝑟\sqrt{√1+4𝑟^{2}\,}\,d𝑟 \\ & =2𝜋∫_{30}^{}𝑟\sqrt{√1+4𝑟^{2}\,}\,d𝑟 \\ & =2𝜋[\frac{1}{12}(1+4𝑟^{2})^{3/2}]_{30}^{} \\ & =\frac{𝜋}{6}[(1+4𝑟^{2})^{3/2}]_{30}^{} \\ & =\frac{𝜋}{6}(37\sqrt{√37}−1).\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}\sqrt{1+4𝑥^{2}+4𝑦^{2}}\,d𝐴 & =\underset{Δ}{∬}\sqrt{1+4(𝑟cos⁡𝜃)^{2}+4(𝑟sin⁡𝜃)^{2}}\,𝑟\,d𝑟\,d𝜃 \\ & =\underset{Δ}{∬}𝑟\sqrt{1+4𝑟^{2}(cos^{2}⁡𝜃+sin^{2}⁡𝜃)}\,d𝑟\,d𝜃 \\ & =\underset{Δ}{∬}𝑟\sqrt{1+4𝑟^{2}}\,d𝑟\,d𝜃 \\ & =∫_{2𝜋0}∫_{30}𝑟\sqrt{1+4𝑟^{2}\,}\,d𝑟\,d𝜃 \\ & =∫_{2𝜋0}\,d𝜃\,∫_{30}𝑟\sqrt{1+4𝑟^{2}\,}\,d𝑟 \\ & =2𝜋∫_{30}𝑟\sqrt{1+4𝑟^{2}\,}\,d𝑟 \\ & =2𝜋[\frac{1}{12}(1+4𝑟^{2})^{3/2}]_{30} \\ & =\frac{𝜋}{6}[(1+4𝑟^{2})^{3/2}]_{30} \\ & =\frac{𝜋}{6}(37\sqrt{37}−1).\end{aligned}
 
 
 $$
@@ -232,7 +232,7 @@ the surface area is given by
 $$
 
 
-\begin{aligned}\underset{𝑆}{∬}\,d𝑆 & =\underset{𝐷}{∬}\sqrt{√1+(\frac{𝜕𝑧}{𝜕𝑥})^{2}+(\frac{𝜕𝑧}{𝜕𝑦})^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}\sqrt{√1+(−4)^{2}+(1)^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}\sqrt{√1+16+1}\,d𝐴 \\ & =\underset{𝐷}{∬}\sqrt{√18}\,d𝐴 \\ & =\underset{𝐷}{∬}3\sqrt{√2}\,d𝐴 \\ & =3\sqrt{√2}\underset{𝐷}{∬}d𝐴 \\ & =3\sqrt{√2}⋅Area(𝐷) \\ & =3\sqrt{√2}⋅(2−0)⋅(1−0) \\ & =6\sqrt{√2}.\end{aligned}
+\begin{aligned}\underset{𝑆}{∬}\,d𝑆 & =\underset{𝐷}{∬}\sqrt{1+(\frac{𝜕𝑧}{𝜕𝑥})^{2}+(\frac{𝜕𝑧}{𝜕𝑦})^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}\sqrt{1+(−4)^{2}+(1)^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}\sqrt{1+16+1}\,d𝐴 \\ & =\underset{𝐷}{∬}\sqrt{18}\,d𝐴 \\ & =\underset{𝐷}{∬}3\sqrt{2}\,d𝐴 \\ & =3\sqrt{2}\underset{𝐷}{∬}d𝐴 \\ & =3\sqrt{2}⋅Area(𝐷) \\ & =3\sqrt{2}⋅(2−0)⋅(1−0) \\ & =6\sqrt{2}.\end{aligned}
 
 
 $$
@@ -294,7 +294,7 @@ the surface area is given by
 $$
 
 
-\begin{aligned}\underset{𝑆}{∬}\,d𝑆 & =\underset{𝐷}{∬}\sqrt{√1+(\frac{𝜕𝑧}{𝜕𝑥})^{2}+(\frac{𝜕𝑧}{𝜕𝑦})^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}\sqrt{√1+(2)^{2}+(2)^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}3\,d𝐴 \\ & =3∫_{𝜋/20}^{}∫_{cos⁡𝑥0}^{}\,d𝑦\,d𝑥 \\ & =3∫_{𝜋/20}^{}𝑦\,_{cos⁡𝑥0}^{}\,d𝑥 \\ & =3∫_{𝜋/20}^{}cos⁡𝑥\,d𝑥 \\ & =3sin⁡𝑥\,_{𝜋/20}^{} \\ & =3(1−0) \\ & =3.\end{aligned}
+\begin{aligned}\underset{𝑆}{∬}\,d𝑆 & =\underset{𝐷}{∬}\sqrt{1+(\frac{𝜕𝑧}{𝜕𝑥})^{2}+(\frac{𝜕𝑧}{𝜕𝑦})^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}\sqrt{1+(2)^{2}+(2)^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}3\,d𝐴 \\ & =3∫_{𝜋/20}∫_{cos⁡𝑥0}\,d𝑦\,d𝑥 \\ & =3∫_{𝜋/20}𝑦\,_{cos⁡𝑥0}\,d𝑥 \\ & =3∫_{𝜋/20}cos⁡𝑥\,d𝑥 \\ & =3sin⁡𝑥\,_{𝜋/20} \\ & =3(1−0) \\ & =3.\end{aligned}
 
 
 $$
@@ -356,7 +356,7 @@ Now, since
 $$
 
 
-\begin{aligned}\frac{𝜕𝑥}{𝜕𝑦} & =\frac{𝜕}{𝜕𝑦}(𝑦+\sqrt{√2}𝑧)=1, \\ \frac{𝜕𝑥}{𝜕𝑧} & =\frac{𝜕}{𝜕𝑧}(𝑦+\sqrt{√2}𝑧)=\sqrt{√2},\end{aligned}
+\begin{aligned}\frac{𝜕𝑥}{𝜕𝑦} & =\frac{𝜕}{𝜕𝑦}(𝑦+\sqrt{2}𝑧)=1, \\ \frac{𝜕𝑥}{𝜕𝑧} & =\frac{𝜕}{𝜕𝑧}(𝑦+\sqrt{2}𝑧)=\sqrt{2},\end{aligned}
 
 
 $$
@@ -366,7 +366,7 @@ the surface area is given by
 $$
 
 
-\begin{aligned}\underset{𝑆}{∬}\,d𝑆 & =\underset{𝐷}{∬}\sqrt{√1+(\frac{𝜕𝑥}{𝜕𝑦})^{2}+(\frac{𝜕𝑥}{𝜕𝑧})^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}\sqrt{√1+(1)^{2}+(\sqrt{√2})^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}\sqrt{√4}\,d𝐴 \\ & =2\underset{𝐷}{∬}\,d𝐴 \\ & =2⋅Area(𝐷) \\ & =2⋅(2−1)⋅(3−1) \\ & =4.\end{aligned}
+\begin{aligned}\underset{𝑆}{∬}\,d𝑆 & =\underset{𝐷}{∬}\sqrt{1+(\frac{𝜕𝑥}{𝜕𝑦})^{2}+(\frac{𝜕𝑥}{𝜕𝑧})^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}\sqrt{1+(1)^{2}+(\sqrt{2})^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}\sqrt{4}\,d𝐴 \\ & =2\underset{𝐷}{∬}\,d𝐴 \\ & =2⋅Area(𝐷) \\ & =2⋅(2−1)⋅(3−1) \\ & =4.\end{aligned}
 
 
 $$
@@ -418,7 +418,7 @@ Now, since
 $$
 
 
-\begin{aligned}\frac{𝜕𝑧}{𝜕𝑥} & =\frac{𝜕}{𝜕𝑥}(\sqrt{√𝑥^{2}+𝑦^{2}})=\frac{𝑥}{\sqrt{√𝑥^{2}+𝑦^{2}}}, \\ \frac{𝜕𝑧}{𝜕𝑦} & =\frac{𝜕}{𝜕𝑦}(\sqrt{√𝑥^{2}+𝑦^{2}})=\frac{𝑦}{\sqrt{√𝑥^{2}+𝑦^{2}}},\end{aligned}
+\begin{aligned}\frac{𝜕𝑧}{𝜕𝑥} & =\frac{𝜕}{𝜕𝑥}(\sqrt{𝑥^{2}+𝑦^{2}})=\frac{𝑥}{\sqrt{𝑥^{2}+𝑦^{2}}}, \\ \frac{𝜕𝑧}{𝜕𝑦} & =\frac{𝜕}{𝜕𝑦}(\sqrt{𝑥^{2}+𝑦^{2}})=\frac{𝑦}{\sqrt{𝑥^{2}+𝑦^{2}}},\end{aligned}
 
 
 $$
@@ -428,7 +428,7 @@ the surface area is given by
 $$
 
 
-\begin{aligned}\underset{𝑆}{∬}\,d𝑆 & =\underset{𝐷}{∬}\sqrt{√1+(\frac{𝜕𝑧}{𝜕𝑥})^{2}+(\frac{𝜕𝑧}{𝜕𝑦})^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}\sqrt{1+(\frac{𝑥}{\sqrt{√𝑥^{2}+𝑦^{2}}})^{2}+(\frac{𝑦}{\sqrt{√𝑥^{2}+𝑦^{2}}})^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}\sqrt{√1+\frac{𝑥^{2}}{𝑥^{2}+𝑦^{2}}+\frac{𝑦^{2}}{𝑥^{2}+𝑦^{2}}}\,d𝐴 \\ & =\underset{𝐷}{∬}\sqrt{√1+\frac{𝑥^{2}+𝑦^{2}}{𝑥^{2}+𝑦^{2}}}\,d𝐴 \\ & =\underset{𝐷}{∬}\sqrt{√2}\,d𝐴.\end{aligned}
+\begin{aligned}\underset{𝑆}{∬}\,d𝑆 & =\underset{𝐷}{∬}\sqrt{1+(\frac{𝜕𝑧}{𝜕𝑥})^{2}+(\frac{𝜕𝑧}{𝜕𝑦})^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}\sqrt{1+(\frac{𝑥}{\sqrt{𝑥^{2}+𝑦^{2}}})^{2}+(\frac{𝑦}{\sqrt{𝑥^{2}+𝑦^{2}}})^{2}}\,d𝐴 \\ & =\underset{𝐷}{∬}\sqrt{1+\frac{𝑥^{2}}{𝑥^{2}+𝑦^{2}}+\frac{𝑦^{2}}{𝑥^{2}+𝑦^{2}}}\,d𝐴 \\ & =\underset{𝐷}{∬}\sqrt{1+\frac{𝑥^{2}+𝑦^{2}}{𝑥^{2}+𝑦^{2}}}\,d𝐴 \\ & =\underset{𝐷}{∬}\sqrt{2}\,d𝐴.\end{aligned}
 
 
 $$
@@ -448,7 +448,7 @@ Therefore, using the change of variables formula for polar coordinates, we obtai
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}\sqrt{√2}\,d𝐴 & =\underset{Δ}{∬}\sqrt{√2}\,𝑟\,d𝑟\,d𝜃 \\ & =∫_{𝜋/20}^{}∫_{20}^{}𝑟\sqrt{√2}\,d𝑟\,d𝜃 \\ & =\sqrt{√2}∫_{𝜋/20}^{}\,d𝜃∫_{20}^{}𝑟\,d𝑟 \\ & =\sqrt{√2}⋅[𝜃]_{𝜋/20}^{}⋅[\frac{𝑟^{2}}{2}]_{20}^{} \\ & =\sqrt{√2}⋅\frac{𝜋}{2}⋅2 \\ & =𝜋\sqrt{√2}.\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}\sqrt{2}\,d𝐴 & =\underset{Δ}{∬}\sqrt{2}\,𝑟\,d𝑟\,d𝜃 \\ & =∫_{𝜋/20}∫_{20}𝑟\sqrt{2}\,d𝑟\,d𝜃 \\ & =\sqrt{2}∫_{𝜋/20}\,d𝜃∫_{20}𝑟\,d𝑟 \\ & =\sqrt{2}⋅[𝜃]_{𝜋/20}⋅[\frac{𝑟^{2}}{2}]_{20} \\ & =\sqrt{2}⋅\frac{𝜋}{2}⋅2 \\ & =𝜋\sqrt{2}.\end{aligned}
 
 
 $$

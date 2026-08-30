@@ -71,7 +71,7 @@ First, to calculate the experimental probability, we divide the number of times 
 $$
 
 
-P(\textrm{prize}) = \dfrac{8}{25}.
+P(\text{prize}) = \dfrac{8}{25}.
 
 
 $$
@@ -81,7 +81,7 @@ Therefore, the estimated number of times that a prize is won at the second carni
 $$
 
 
-n=150 \cdot P(\textrm{prize}) = 150 \cdot \dfrac{8}{25} = 48.
+n=150 \cdot P(\text{prize}) = 150 \cdot \dfrac{8}{25} = 48.
 
 
 $$
@@ -166,7 +166,7 @@ A librarian recorded how many books students read in a month. The diagram above 
 
 $\qquad$According to the plot, the experimental probability that a student reads $11$ books in a month is $\boxed{\phantom{\dfrac{4}{12}}}.$
 
-$\qquad$We expect that the actual number of students who read $11$ books will be $\boxed{\phantom{\textrm{close to}\, 20}}.$
+$\qquad$We expect that the actual number of students who read $11$ books will be $\boxed{\phantom{\text{close to}\, 20}}.$
 
 #### Explanation
 
@@ -210,4 +210,4 @@ $$
 
 $$
 
-Since this is an estimate, the actual number may be $\boxed{\textrm{close to}\,\, 20},$ but not necessarily exactly $20.$
+Since this is an estimate, the actual number may be $\boxed{\text{close to}\,\, 20},$ but not necessarily exactly $20.$

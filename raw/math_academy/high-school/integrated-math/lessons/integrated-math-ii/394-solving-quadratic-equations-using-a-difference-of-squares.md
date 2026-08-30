@@ -170,7 +170,7 @@ Now, using the difference of squares formula, we factor the left-hand side of ou
 $$
 
 
-\begin{aligned}𝑡^{2}−11 & =0 \\ 𝑡^{2}−(\sqrt{√11})^{2} & =0 \\ (𝑡−\sqrt{√11})(𝑡+\sqrt{√11}) & =0\end{aligned}
+\begin{aligned}𝑡^{2}−11 & =0 \\ 𝑡^{2}−(\sqrt{11})^{2} & =0 \\ (𝑡−\sqrt{11})(𝑡+\sqrt{11}) & =0\end{aligned}
 
 
 $$

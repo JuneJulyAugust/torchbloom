@@ -16,7 +16,7 @@ Suppose that we want to evaluate the integral
 $$
 
 
-\int x\ln{x}\, \textrm{d}x \,.
+\int x\ln{x}\, \text{d}x \,.
 
 
 $$
@@ -26,7 +26,7 @@ The method of integration by parts can help us solve this problem. Let's remind 
 $$
 
 
-\int u v' \textrm{d}x = uv - \int v u'\textrm{d}x.
+\int u v' \text{d}x = uv - \int v u'\text{d}x.
 
 
 $$
@@ -57,7 +57,7 @@ When we apply integration by parts to integrals containing logarithmic functions
 
 #### Question
 
-Evaluate $\displaystyle \int_{1}^{e} 4x\ln\left(x^3\right) \textrm{d}x.$
+Evaluate $\displaystyle \int_{1}^{e} 4x\ln\left(x^3\right) \text{d}x.$
 
 #### Explanation
 
@@ -76,7 +76,7 @@ Using the formula of integration by parts, we get
 $$
 
 
-\begin{aligned}∫_{𝑒1}^{}4𝑥ln⁡(𝑥^{3})d𝑥 & =∫_{𝑒1}^{}𝑢𝑣^{′}d𝑥 \\ & =𝑢𝑣_{𝑒1}^{}−∫_{𝑒1}^{}𝑣𝑢^{′}d𝑥 \\ & =ln⁡(𝑥^{3})⋅(2𝑥^{2})_{𝑒1}^{}−∫_{𝑒1}^{}(2𝑥^{2})⋅\frac{3}{𝑥}\,d𝑥 \\ & =[2(𝑒)^{2}ln⁡(𝑒^{3})−2(1)^{2}ln⁡(1^{3})]−6∫_{𝑒1}^{}𝑥d𝑥 \\ & =6𝑒^{2}−6(\frac{1}{2}\,𝑥^{2})_{𝑒1}^{} \\ & =6𝑒^{2}−3𝑥^{2}_{𝑒1}^{} \\ & =6𝑒^{2}−3(𝑒^{2}−1^{2}) \\ & =3𝑒^{2}+3.\end{aligned}
+\begin{aligned}∫_{𝑒1}4𝑥ln⁡(𝑥^{3})d𝑥 & =∫_{𝑒1}𝑢𝑣^{′}d𝑥 \\ & =𝑢𝑣_{𝑒1}−∫_{𝑒1}𝑣𝑢^{′}d𝑥 \\ & =ln⁡(𝑥^{3})⋅(2𝑥^{2})_{𝑒1}−∫_{𝑒1}(2𝑥^{2})⋅\frac{3}{𝑥}\,d𝑥 \\ & =[2(𝑒)^{2}ln⁡(𝑒^{3})−2(1)^{2}ln⁡(1^{3})]−6∫_{𝑒1}𝑥d𝑥 \\ & =6𝑒^{2}−6(\frac{1}{2}\,𝑥^{2})_{𝑒1} \\ & =6𝑒^{2}−3𝑥^{2}_{𝑒1} \\ & =6𝑒^{2}−3(𝑒^{2}−1^{2}) \\ & =3𝑒^{2}+3.\end{aligned}
 
 
 $$
@@ -85,7 +85,7 @@ $$
 
 #### Question
 
-Calculate $\displaystyle \int \dfrac{\log_4{x}}{x^3} \,\textrm{d}x.$
+Calculate $\displaystyle \int \dfrac{\log_4{x}}{x^3} \,\text{d}x.$
 
 #### Explanation
 
@@ -115,7 +115,7 @@ Note that in the above calculation we used the change of base formula $\log_4{x}
 
 #### Question
 
-Calculate $\displaystyle \int \ln{x}\,\textrm{d}x.$
+Calculate $\displaystyle \int \ln{x}\,\text{d}x.$
 
 #### Explanation
 
@@ -124,7 +124,7 @@ At first, it may not look like we have two factors. Actually, we do, but one of 
 $$
 
 
-\int \ln{x}\,\textrm{d}x = \int \ln{x} \cdot 1 \cdot \textrm{d}x.
+\int \ln{x}\,\text{d}x = \int \ln{x} \cdot 1 \cdot \text{d}x.
 
 
 $$

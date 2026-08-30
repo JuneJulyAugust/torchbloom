@@ -154,7 +154,7 @@ Finally, $\triangle OTS$ is right. So, using the Pythagorean theorem, we have th
 $$
 
 
-\begin{aligned}𝑂𝑇^{2}+𝑇𝑆^{2} & =𝑂𝑆^{2} \\ (16)^{2}+𝑇𝑆^{2} & =(34)^{2} \\ 256+𝑇𝑆^{2} & =1156 \\ 𝑇𝑆^{2} & =900 \\ 𝑇𝑆 & =\sqrt{√900} \\ & =30\end{aligned}
+\begin{aligned}𝑂𝑇^{2}+𝑇𝑆^{2} & =𝑂𝑆^{2} \\ (16)^{2}+𝑇𝑆^{2} & =(34)^{2} \\ 256+𝑇𝑆^{2} & =1156 \\ 𝑇𝑆^{2} & =900 \\ 𝑇𝑆 & =\sqrt{900} \\ & =30\end{aligned}
 
 
 $$

@@ -146,4 +146,4 @@ In order to identify the quadrant to which the point $(4,-2)$ belongs, we start 
 
 ![Instructional graphic](../../../lesson-assets/sat-math-fundamentals/topic-92/f2a97f4e0c797b29.png)
 
-Based on the graph, we can tell that the point belongs to quadrant $\textrm{IV}$, the fourth quadrant.
+Based on the graph, we can tell that the point belongs to quadrant $\text{IV}$, the fourth quadrant.

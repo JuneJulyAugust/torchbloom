@@ -33,7 +33,7 @@ We can use differentiation to solve optimization problems involving boxes and tr
 
 #### Question
 
-Suppose that we want to make a box with a square base and without a lid using metal sheets. We have only $4 \, \textrm{m} ^ 2$ of sheet metal to create the box. Given that the volume of the box has been maximized, find the value of $x.$
+Suppose that we want to make a box with a square base and without a lid using metal sheets. We have only $4 \, \text{m} ^ 2$ of sheet metal to create the box. Given that the volume of the box has been maximized, find the value of $x.$
 
 ![Instructional graphic](../../../lesson-assets/ap-calculus-ab/topic-1213/14ff47ebb899ed77.png)
 
@@ -51,12 +51,12 @@ $$
 
 is the greatest possible value.
 
-****: The surface area is $4 \, \textrm{m} ^ 2$. So, we have the constraint equation
+****: The surface area is $4 \, \text{m} ^ 2$. So, we have the constraint equation
 
 $$
 
 
-\begin{aligned} S &= \textrm{(area of the base) } + 4 \, \textrm{(area of one side) } \\\[5pt] 4 &= x^2 + 4 x y.\end{aligned}
+\begin{aligned} S &= \text{(area of the base) } + 4 \, \text{(area of one side) } \\[5pt] 4 &= x^2 + 4 x y.\end{aligned}
 
 
 $$
@@ -76,7 +76,7 @@ Then, we substitute $y = \dfrac{1}{x} - \dfrac{x}{4}$ in the expression $V=x^2y,
 $$
 
 
-\begin{aligned} V(x) &= x^2 \left( \dfrac{1}{x} - \dfrac{x}{4}\right) \\\[5pt] &= x - \dfrac{x^3}{4}. \end{aligned}
+\begin{aligned} V(x) &= x^2 \left( \dfrac{1}{x} - \dfrac{x}{4}\right) \\[5pt] &= x - \dfrac{x^3}{4}. \end{aligned}
 
 
 $$
@@ -96,7 +96,7 @@ and solving for the stationary points, we get
 $$
 
 
-\begin{aligned} V'(x) &= 0 \\\[5pt] 1 - \dfrac{3x^2}{4} &=0 \\\[5pt] x^2 &= \dfrac{4}{3} \\\[5pt] x &= \dfrac{2\sqrt{3}}{3}. \end{aligned}
+\begin{aligned} V'(x) &= 0 \\[5pt] 1 - \dfrac{3x^2}{4} &=0 \\[5pt] x^2 &= \dfrac{4}{3} \\[5pt] x &= \dfrac{2\sqrt{3}}{3}. \end{aligned}
 
 
 $$
@@ -293,7 +293,7 @@ Since $C''\left(2\right)$ is positive, we conclude that $x=2$ is indeed a minimu
 
 #### Question
 
-A piece of cardboard measures $12\,\mathrm{cm}\times 8\, \mathrm{cm}.$ A tray of height $y\,\textrm{cm}$ is formed by cutting a $y\times y \,\textrm{cm}^2$ square from each of the corners and folding up the sides, as shown in the diagram. Determine the height of the box that gives the maximum possible volume. Round your answer to two decimal places.
+A piece of cardboard measures $12\,\mathrm{cm}\times 8\, \mathrm{cm}.$ A tray of height $y\,\text{cm}$ is formed by cutting a $y\times y \,\text{cm}^2$ square from each of the corners and folding up the sides, as shown in the diagram. Determine the height of the box that gives the maximum possible volume. Round your answer to two decimal places.
 
 ![Instructional graphic](../../../lesson-assets/ap-calculus-ab/topic-1213/abce34b9f95790d3.png)
 
@@ -348,7 +348,7 @@ and solving for the stationary points, we get
 $$
 
 
-\begin{aligned}𝑉^{′}(𝑦) & =0 \\ 12𝑦^{2}−80𝑦+96 & =0 \\ 3𝑦^{2}−20𝑦+24 & =0 \\ 𝑦 & =\frac{10±2\sqrt{√7}}{3}.\end{aligned}
+\begin{aligned}𝑉^{′}(𝑦) & =0 \\ 12𝑦^{2}−80𝑦+96 & =0 \\ 3𝑦^{2}−20𝑦+24 & =0 \\ 𝑦 & =\frac{10±2\sqrt{7}}{3}.\end{aligned}
 
 
 $$

@@ -47,7 +47,7 @@ $$
 
 The smaller the value of $\Vert A{\hat{\mathbf{x}}} - \mathbf{b} \Vert,$ the better our approximation $\hat{\mathbf{x}}$ will be.
 
-In terms of vector subspaces, we wish to find a vector $A{\hat{\mathbf{x}}}$ that lies in $\textrm{Col}(A)$ and is closest to $\mathbf{b}.$ Therefore, $A{\hat{\mathbf{x}}}$ must be the orthogonal projection of $\mathbf{b}$ onto the subspace spanned by the columns of $A.$
+In terms of vector subspaces, we wish to find a vector $A{\hat{\mathbf{x}}}$ that lies in $\text{Col}(A)$ and is closest to $\mathbf{b}.$ Therefore, $A{\hat{\mathbf{x}}}$ must be the orthogonal projection of $\mathbf{b}$ onto the subspace spanned by the columns of $A.$
 
 ![Instructional graphic](../../../lesson-assets/mathematics-for-machine-learning/topic-2166/f2929f2eb8608875.png)
 
@@ -56,7 +56,7 @@ It can be shown that ${\hat{\mathbf{x}}}$ is found by solving the corresponding 
 $$
 
 
-\begin{aligned}𝐴^{𝑇}\,𝐴\overset{𝐱}{^} & =𝐴^{𝑇}𝐛.\end{aligned}
+\begin{aligned}𝐴^{𝑇}\,𝐴\hat{𝐱} & =𝐴^{𝑇}𝐛.\end{aligned}
 
 
 $$
@@ -78,7 +78,7 @@ We now compute the right-hand side as follows:
 $$
 
 
-\begin{aligned}\overset{𝐱}{^} & =(𝐴^{𝑇}\,𝐴)^{−1}𝐴^{𝑇}𝐛 \\ & =[\begin{aligned}1 & −1 & 2 \\ 1 & −4 & −1\end{aligned}]\begin{aligned}1 & 1 \\ −1 & −4 \\ 2 & −1\end{aligned}^{−1}\,\,\,\,[\begin{aligned}1 & −1 & 2 \\ 1 & −4 & −1\end{aligned}]\begin{aligned}−2 \\ 4 \\ 2\end{aligned} \\ & =[\begin{aligned}6 & 3 \\ 3 & 18\end{aligned}]^{−1}[\begin{aligned}−2 \\ −20\end{aligned}] \\ & =\frac{1}{99}[\begin{aligned}18 & −3 \\ −3 & 6\end{aligned}][\begin{aligned}−2 \\ −20\end{aligned}] \\ & =\begin{aligned}\frac{8}{33} \\ −\frac{38}{33}\end{aligned}\end{aligned}
+\begin{aligned}\hat{𝐱} & =(𝐴^{𝑇}\,𝐴)^{−1}𝐴^{𝑇}𝐛 \\ & =[\begin{matrix}1 & −1 & 2 \\ 1 & −4 & −1\end{matrix}]\begin{matrix}1 & 1 \\ −1 & −4 \\ 2 & −1\end{matrix}^{−1}\,\,\,\,[\begin{matrix}1 & −1 & 2 \\ 1 & −4 & −1\end{matrix}]\begin{matrix}−2 \\ 4 \\ 2\end{matrix} \\ & =[\begin{matrix}6 & 3 \\ 3 & 18\end{matrix}]^{−1}[\begin{matrix}−2 \\ −20\end{matrix}] \\ & =\frac{1}{99}[\begin{matrix}18 & −3 \\ −3 & 6\end{matrix}][\begin{matrix}−2 \\ −20\end{matrix}] \\ & =\begin{matrix}\frac{8}{33} \\ −\frac{38}{33}\end{matrix}\end{aligned}
 
 
 $$
@@ -118,7 +118,7 @@ We can find the least-squares solution ${\hat{\mathbf{x}}}$ of the equation abov
 $$
 
 
-\begin{aligned}𝐴^{𝑇}\,𝐴\overset{𝐱}{^} & =𝐴^{𝑇}𝐛\end{aligned}
+\begin{aligned}𝐴^{𝑇}\,𝐴\hat{𝐱} & =𝐴^{𝑇}𝐛\end{aligned}
 
 
 $$
@@ -128,7 +128,7 @@ Since the columns of $A$ are linearly independent, the matrix $A^T \! A$ is inve
 $$
 
 
-\begin{aligned}\overset{𝐱}{^} & =(𝐴^{𝑇}\,𝐴)^{−1}𝐴^{𝑇}𝐛 \\ & =[\begin{aligned}1 & 1 & 2 & 0 \\ −1 & 0 & −1 & 1\end{aligned}]\begin{aligned}1 & −1 \\ 1 & 0 \\ 2 & −1 \\ 0 & 1\end{aligned}^{−1}\,\,\,[\begin{aligned}1 & 1 & 2 & 0 \\ −1 & 0 & −1 & 1\end{aligned}]\begin{aligned}1 \\ 0 \\ 1 \\ 0\end{aligned} \\ & =[\begin{aligned}6 & −3 \\ −3 & 3\end{aligned}]^{−1}[\begin{aligned}3 \\ −2\end{aligned}] \\ & =\frac{1}{3}[\begin{aligned}1 & 1 \\ 1 & 2\end{aligned}][\begin{aligned}3 \\ −2\end{aligned}] \\ & =\begin{aligned}\frac{1}{3} \\ −\frac{1}{3}\end{aligned}.\end{aligned}
+\begin{aligned}\hat{𝐱} & =(𝐴^{𝑇}\,𝐴)^{−1}𝐴^{𝑇}𝐛 \\ & =[\begin{matrix}1 & 1 & 2 & 0 \\ −1 & 0 & −1 & 1\end{matrix}]\begin{matrix}1 & −1 \\ 1 & 0 \\ 2 & −1 \\ 0 & 1\end{matrix}^{−1}\,\,\,[\begin{matrix}1 & 1 & 2 & 0 \\ −1 & 0 & −1 & 1\end{matrix}]\begin{matrix}1 \\ 0 \\ 1 \\ 0\end{matrix} \\ & =[\begin{matrix}6 & −3 \\ −3 & 3\end{matrix}]^{−1}[\begin{matrix}3 \\ −2\end{matrix}] \\ & =\frac{1}{3}[\begin{matrix}1 & 1 \\ 1 & 2\end{matrix}][\begin{matrix}3 \\ −2\end{matrix}] \\ & =\begin{matrix}\frac{1}{3} \\ −\frac{1}{3}\end{matrix}.\end{aligned}
 
 
 $$
@@ -164,7 +164,7 @@ We can find the least-squares solution ${\hat{\mathbf{x}}}$ of the equation abov
 $$
 
 
-\begin{aligned}𝐴^{𝑇}\,𝐴\overset{𝐱}{^} & =𝐴^{𝑇}𝐛\end{aligned}
+\begin{aligned}𝐴^{𝑇}\,𝐴\hat{𝐱} & =𝐴^{𝑇}𝐛\end{aligned}
 
 
 $$
@@ -174,7 +174,7 @@ Since the columns of $A$ are linearly independent, the matrix $A^T \! A$ is inve
 $$
 
 
-\begin{aligned}\overset{𝐱}{^} & =(𝐴^{𝑇}\,𝐴)^{−1}𝐴^{𝑇}𝐛 \\ & =\begin{aligned}−2 & 1 & 0 & 1 \\ −1 & −2 & −1 & 0 \\ 0 & 1 & −2 & −1\end{aligned}\begin{aligned}−2 & −1 & 0 \\ 1 & −2 & 1 \\ 0 & −1 & −2 \\ 1 & 0 & −1\end{aligned}^{−1}\,\,\,\,\begin{aligned}−2 & 1 & 0 & 1 \\ −1 & −2 & −1 & 0 \\ 0 & 1 & −2 & −1\end{aligned}\begin{aligned}12 \\ 0 \\ −12 \\ 0\end{aligned} \\ & =\begin{aligned}6 & 0 & 0 \\ 0 & 6 & 0 \\ 0 & 0 & 6\end{aligned}^{−1}\begin{aligned}−24 \\ 0 \\ 24\end{aligned} \\ & =\frac{1}{6}\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{aligned}\begin{aligned}−24 \\ 0 \\ 24\end{aligned} \\ & =\begin{aligned}−4 \\ 0 \\ 4\end{aligned}.\end{aligned}
+\begin{aligned}\hat{𝐱} & =(𝐴^{𝑇}\,𝐴)^{−1}𝐴^{𝑇}𝐛 \\ & =\begin{matrix}−2 & 1 & 0 & 1 \\ −1 & −2 & −1 & 0 \\ 0 & 1 & −2 & −1\end{matrix}\begin{matrix}−2 & −1 & 0 \\ 1 & −2 & 1 \\ 0 & −1 & −2 \\ 1 & 0 & −1\end{matrix}^{−1}\,\,\,\,\begin{matrix}−2 & 1 & 0 & 1 \\ −1 & −2 & −1 & 0 \\ 0 & 1 & −2 & −1\end{matrix}\begin{matrix}12 \\ 0 \\ −12 \\ 0\end{matrix} \\ & =\begin{matrix}6 & 0 & 0 \\ 0 & 6 & 0 \\ 0 & 0 & 6\end{matrix}^{−1}\begin{matrix}−24 \\ 0 \\ 24\end{matrix} \\ & =\frac{1}{6}\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{matrix}\begin{matrix}−24 \\ 0 \\ 24\end{matrix} \\ & =\begin{matrix}−4 \\ 0 \\ 4\end{matrix}.\end{aligned}
 
 
 $$
@@ -200,7 +200,7 @@ First of all, we write the given system in the form $A \mathbf{x} = \mathbf{b}\m
 $$
 
 
-\begin{aligned}\overset{\overset\begin{aligned}1 & 1 \\ 1 & 0 \\ −1 & 0 \\ −1 & −1\end{aligned}}{}}{𝐴}\overset{\overset{[\begin{aligned}𝑥_{1} \\ 𝑥_{2}\end{aligned}]}{}}{𝐱} & =\overset{\overset\begin{aligned}22 \\ 0 \\ 0 \\ 2\end{aligned}}{}}{𝐛} \\ 𝐴𝐱 & =𝐛\end{aligned}
+\begin{aligned}\overset{\begin{matrix}1 & 1 \\ 1 & 0 \\ −1 & 0 \\ −1 & −1\end{matrix}}{𝐴}\overset{[\begin{matrix}𝑥_{1} \\ 𝑥_{2}\end{matrix}]}{}}{𝐱} & =\overset{\begin{matrix}22 \\ 0 \\ 0 \\ 2\end{matrix}}{𝐛} \\ 𝐴𝐱 & =𝐛\end{aligned}
 
 
 $$
@@ -210,7 +210,7 @@ We can find the least-squares solution ${\hat{\mathbf{x}}}$ of the equation abov
 $$
 
 
-\begin{aligned}𝐴^{𝑇}\,𝐴\overset{𝐱}{^} & =𝐴^{𝑇}𝐛\end{aligned}
+\begin{aligned}𝐴^{𝑇}\,𝐴\hat{𝐱} & =𝐴^{𝑇}𝐛\end{aligned}
 
 
 $$
@@ -220,7 +220,7 @@ Since the columns of $A$ are linearly independent, the matrix $A^T \! A$ is inve
 $$
 
 
-\begin{aligned}\overset{𝐱}{^} & =(𝐴^{𝑇}\,𝐴)^{−1}𝐴^{𝑇}𝐛 \\ & =[\begin{aligned}1 & 1 & −1 & −1 \\ 1 & 0 & 0 & −1\end{aligned}]\begin{aligned}1 & 1 \\ 1 & 0 \\ −1 & 0 \\ −1 & −1\end{aligned}^{−1}\,\,\,\,[\begin{aligned}1 & 1 & −1 & −1 \\ 1 & 0 & 0 & −1\end{aligned}]\begin{aligned}22 \\ 0 \\ 0 \\ 2\end{aligned} \\ & =[\begin{aligned}4 & 2 \\ 2 & 2\end{aligned}]^{−1}[\begin{aligned}20 \\ 20\end{aligned}] \\ & =\frac{1}{4}[\begin{aligned}2 & −2 \\ −2 & 4\end{aligned}][\begin{aligned}20 \\ 20\end{aligned}] \\ & =\frac{1}{2}[\begin{aligned}1 & −1 \\ −1 & 2\end{aligned}][\begin{aligned}20 \\ 20\end{aligned}] \\ & =[\begin{aligned}0 \\ 10\end{aligned}].\end{aligned}
+\begin{aligned}\hat{𝐱} & =(𝐴^{𝑇}\,𝐴)^{−1}𝐴^{𝑇}𝐛 \\ & =[\begin{matrix}1 & 1 & −1 & −1 \\ 1 & 0 & 0 & −1\end{matrix}]\begin{matrix}1 & 1 \\ 1 & 0 \\ −1 & 0 \\ −1 & −1\end{matrix}^{−1}\,\,\,\,[\begin{matrix}1 & 1 & −1 & −1 \\ 1 & 0 & 0 & −1\end{matrix}]\begin{matrix}22 \\ 0 \\ 0 \\ 2\end{matrix} \\ & =[\begin{matrix}4 & 2 \\ 2 & 2\end{matrix}]^{−1}[\begin{matrix}20 \\ 20\end{matrix}] \\ & =\frac{1}{4}[\begin{matrix}2 & −2 \\ −2 & 4\end{matrix}][\begin{matrix}20 \\ 20\end{matrix}] \\ & =\frac{1}{2}[\begin{matrix}1 & −1 \\ −1 & 2\end{matrix}][\begin{matrix}20 \\ 20\end{matrix}] \\ & =[\begin{matrix}0 \\ 10\end{matrix}].\end{aligned}
 
 
 $$
@@ -234,7 +234,7 @@ Therefore,
 $$
 
 
-\begin{aligned}𝐴\overset{𝐱}{^}−𝐛 & =\begin{aligned}1 & 1 \\ 1 & 0 \\ −1 & 0 \\ −1 & −1\end{aligned}[\begin{aligned}0 \\ 10\end{aligned}]−\begin{aligned}22 \\ 0 \\ 0 \\ 2\end{aligned}=\begin{aligned}−12 \\ 0 \\ 0 \\ −12\end{aligned}.\end{aligned}
+\begin{aligned}𝐴\hat{𝐱}−𝐛 & =\begin{matrix}1 & 1 \\ 1 & 0 \\ −1 & 0 \\ −1 & −1\end{matrix}[\begin{matrix}0 \\ 10\end{matrix}]−\begin{matrix}22 \\ 0 \\ 0 \\ 2\end{matrix}=\begin{matrix}−12 \\ 0 \\ 0 \\ −12\end{matrix}.\end{aligned}
 
 
 $$

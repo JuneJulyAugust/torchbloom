@@ -105,7 +105,7 @@ $$
 
 #### Question
 
-Consider a spherical planet with radius $(6.3\times10^6)\,\textrm{m}$ and surface gravitational acceleration $g = 9.7\,\textrm{m/s}^2.$ Which differential equation best models the velocity $v$ of an object projected radially outward from the planet, where $r$ is the distance from the planet's center to the object? Assume the only force acting on the object is the force due to gravity.
+Consider a spherical planet with radius $(6.3\times10^6)\,\text{m}$ and surface gravitational acceleration $g = 9.7\,\text{m/s}^2.$ Which differential equation best models the velocity $v$ of an object projected radially outward from the planet, where $r$ is the distance from the planet's center to the object? Assume the only force acting on the object is the force due to gravity.
 
 #### Explanation
 
@@ -121,7 +121,7 @@ $$
 
 where $G$ is the gravitational constant, $m$ is the object's mass, and $M$ is the planet's mass.
 
-Since this is the only force and it acts inward, the resultant force, taking ** as positive, is $F=-F_\textrm{in}.$ Applying Newton's second law, $F=ma,$ where $a$ is the acceleration of the object, we have
+Since this is the only force and it acts inward, the resultant force, taking ** as positive, is $F=-F_\text{in}.$ Applying Newton's second law, $F=ma,$ where $a$ is the acceleration of the object, we have
 
 $$
 
@@ -143,7 +143,7 @@ $$
 
 with constant of proportionality $k=GM > 0.$
 
-When at the surface, $r=(6.3\times10^6)\,\textrm{m},$ the acceleration of the object due to gravity is $a=-9.7\,\textrm{m/s}^2.$ Substituting into our previous equation, we can solve for $k{:}$
+When at the surface, $r=(6.3\times10^6)\,\text{m},$ the acceleration of the object due to gravity is $a=-9.7\,\text{m/s}^2.$ Substituting into our previous equation, we can solve for $k{:}$
 
 $$
 
@@ -212,7 +212,7 @@ Recall that when the object is at the surface of Earth, $r=R.$ Let $v_0$ be the 
 $$
 
 
-\begin{aligned}𝑣(𝑅)^{2} & =\frac{2𝑔𝑅^{2}}{𝑅}+𝐶 \\ 𝑣_{20}^{} & =2𝑔𝑅+𝐶 \\ 𝐶 & =𝑣_{20}^{}−2𝑔𝑅\end{aligned}
+\begin{aligned}𝑣(𝑅)^{2} & =\frac{2𝑔𝑅^{2}}{𝑅}+𝐶 \\ 𝑣_{20} & =2𝑔𝑅+𝐶 \\ 𝐶 & =𝑣_{20}−2𝑔𝑅\end{aligned}
 
 
 $$
@@ -231,7 +231,7 @@ $$
 
 #### Question
 
-Consider a spherical planet with radius $(8\times10^5)\,\textrm{m}$ and surface gravitational acceleration $g = 16\,\textrm{m/s}^2.$ Which equation best models the velocity $v$ of an object projected radially outward from the planet's surface with an initial velocity of $(9\times10^{4})\,\textrm{m/s},$ where $r$ is the distance from the planet's center to the object. Assume the only force acting on the object is the force due to gravity.
+Consider a spherical planet with radius $(8\times10^5)\,\text{m}$ and surface gravitational acceleration $g = 16\,\text{m/s}^2.$ Which equation best models the velocity $v$ of an object projected radially outward from the planet's surface with an initial velocity of $(9\times10^{4})\,\text{m/s},$ where $r$ is the distance from the planet's center to the object. Assume the only force acting on the object is the force due to gravity.
 
 #### Explanation
 
@@ -249,7 +249,7 @@ $$
 
 where $G$ is the gravitational constant, $m$ is the object's mass, and $M$ is the planet's mass.
 
-Since this is the only force and it acts inward, the resultant force, taking ** as positive, is $F=-F_\textrm{in}.$ Applying Newton's second law, $F=ma,$ where $a$ is the acceleration of the object, we have
+Since this is the only force and it acts inward, the resultant force, taking ** as positive, is $F=-F_\text{in}.$ Applying Newton's second law, $F=ma,$ where $a$ is the acceleration of the object, we have
 
 $$
 
@@ -328,7 +328,7 @@ Let $v_0$ be the initial velocity of the object. Applying the initial condition 
 $$
 
 
-\begin{aligned}𝑣(𝑅)^{2} & =\frac{2𝑔𝑅^{2}}{𝑅}+𝐶 \\ 𝑣_{20}^{} & =2𝑔𝑅+𝐶 \\ 𝐶 & =𝑣_{20}^{}−2𝑔𝑅\end{aligned}
+\begin{aligned}𝑣(𝑅)^{2} & =\frac{2𝑔𝑅^{2}}{𝑅}+𝐶 \\ 𝑣_{20} & =2𝑔𝑅+𝐶 \\ 𝐶 & =𝑣_{20}−2𝑔𝑅\end{aligned}
 
 
 $$
@@ -380,7 +380,7 @@ Therefore, to ensure the velocity never vanishes, the remaining terms must be no
 $$
 
 
-\begin{aligned}𝑣_{20}^{}−2𝑔𝑅 & ≥0 \\ 𝑣_{20}^{} & ≥2𝑔𝑅 \\ 𝑣_{0} & ≥\sqrt{√2𝑔𝑅}.\end{aligned}
+\begin{aligned}𝑣_{20}−2𝑔𝑅 & ≥0 \\ 𝑣_{20} & ≥2𝑔𝑅 \\ 𝑣_{0} & ≥\sqrt{2𝑔𝑅}.\end{aligned}
 
 
 $$
@@ -401,7 +401,7 @@ $$
 
 #### Question
 
-Consider a planet with radius $(1.2\times10^{8})\,\textrm{m}$ and surface gravitational acceleration $g = 18.9\,\textrm{m/s}^2.$ What is the escape velocity of an object launched radially outward from the planet's surface? Assume only the force due to gravity acts on the object,
+Consider a planet with radius $(1.2\times10^{8})\,\text{m}$ and surface gravitational acceleration $g = 18.9\,\text{m/s}^2.$ What is the escape velocity of an object launched radially outward from the planet's surface? Assume only the force due to gravity acts on the object,
 
 Express your answer in scientific notation, rounding to **** where appropriate.
 
@@ -423,7 +423,7 @@ $$
 
 where $G$ is the gravitational constant, $m$ is the object's mass, $M$ is the planet's mass, and $r$ is the distance from the planet's center to the object.
 
-Since this is the only force and it acts inward, the resultant force, taking ** as positive, is $F=-F_\textrm{in}.$ Applying Newton's second law, $F=ma,$ where $a$ is the acceleration of the object, we have
+Since this is the only force and it acts inward, the resultant force, taking ** as positive, is $F=-F_\text{in}.$ Applying Newton's second law, $F=ma,$ where $a$ is the acceleration of the object, we have
 
 $$
 
@@ -502,7 +502,7 @@ Let $v_0$ be the initial velocity of the object. Applying the initial condition 
 $$
 
 
-\begin{aligned}𝑣(𝑅)^{2} & =\frac{2𝑔𝑅^{2}}{𝑅}+𝐶 \\ 𝑣_{20}^{} & =2𝑔𝑅+𝐶 \\ 𝐶 & =𝑣_{20}^{}−2𝑔𝑅\end{aligned}
+\begin{aligned}𝑣(𝑅)^{2} & =\frac{2𝑔𝑅^{2}}{𝑅}+𝐶 \\ 𝑣_{20} & =2𝑔𝑅+𝐶 \\ 𝐶 & =𝑣_{20}−2𝑔𝑅\end{aligned}
 
 
 $$
@@ -524,7 +524,7 @@ Notice in our velocity equation that as $r \to \infty,$ the expression $\dfrac{2
 $$
 
 
-\begin{aligned}𝑣_{20}^{}−2𝑔𝑅 & ≥0 \\ 𝑣_{20}^{} & ≥2𝑔𝑅 \\ 𝑣_{0} & ≥\sqrt{√2𝑔𝑅}.\end{aligned}
+\begin{aligned}𝑣_{20}−2𝑔𝑅 & ≥0 \\ 𝑣_{20} & ≥2𝑔𝑅 \\ 𝑣_{0} & ≥\sqrt{2𝑔𝑅}.\end{aligned}
 
 
 $$
@@ -544,7 +544,7 @@ Finally, substituting in the values $R=(1.2\times10^{8})$ and $g=18.9,$ we concl
 $$
 
 
-\begin{aligned}𝑣_{𝑒} & =\sqrt{√2⋅(1.2×10^{8})⋅18.9} \\ & =\sqrt{√(2⋅1.2⋅18.9)×10^{8}} \\ & =\sqrt{√45.36}×\sqrt{√10^{8}} \\ & ≈(6.73×10^{4})\,m/s,\end{aligned}
+\begin{aligned}𝑣_{𝑒} & =\sqrt{2⋅(1.2×10^{8})⋅18.9} \\ & =\sqrt{(2⋅1.2⋅18.9)×10^{8}} \\ & =\sqrt{45.36}×\sqrt{10^{8}} \\ & ≈(6.73×10^{4})\,m/s,\end{aligned}
 
 
 $$

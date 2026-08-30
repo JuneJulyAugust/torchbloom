@@ -70,12 +70,12 @@ Therefore, since
 $$
 
 
-\textrm{E}[\overline X] = \mu, \qquad \textrm{Var}[\overline X] = \dfrac{\sigma^2}{n}
+\text{E}[\overline X] = \mu, \qquad \text{Var}[\overline X] = \dfrac{\sigma^2}{n}
 
 
 $$
 
-we can calculate $\textrm E[X]$ and $\textrm{Var}[X]$ using the properties of mean and variance as follows:
+we can calculate $\textrm E[X]$ and $\text{Var}[X]$ using the properties of mean and variance as follows:
 
 $$
 
@@ -142,7 +142,7 @@ then, by the properties of mean and variance, we have
 $$
 
 
-\textrm{E}[X] = n\mu, \qquad \textrm{Var}[X] = n\sigma^2
+\text{E}[X] = n\mu, \qquad \text{Var}[X] = n\sigma^2
 
 
 $$
@@ -162,7 +162,7 @@ The expected value and the variance of a uniform random variable $X_i \sim U[a,b
 $$
 
 
-\textrm{E}[X_i] = \dfrac{a+b}{2}, \qquad \textrm{Var}[X_i] = \dfrac{(b-a)^2}{12}.
+\text{E}[X_i] = \dfrac{a+b}{2}, \qquad \text{Var}[X_i] = \dfrac{(b-a)^2}{12}.
 
 
 $$
@@ -212,7 +212,7 @@ The expected value and the variance of a binomial random variable $X_i \sim B(m,
 $$
 
 
-\textrm{E}[X_i] = mp, \qquad \textrm{Var}[X_i] = mp(1-p).
+\text{E}[X_i] = mp, \qquad \text{Var}[X_i] = mp(1-p).
 
 
 $$
@@ -241,7 +241,7 @@ $$
 
 #### Question
 
-Let $X_i \sim \textrm{Geom}(0.4)$ for $i=1,2,\ldots,80$ be independent geometric random variables. Suppose we define the random variable $X$ as
+Let $X_i \sim \text{Geom}(0.4)$ for $i=1,2,\ldots,80$ be independent geometric random variables. Suppose we define the random variable $X$ as
 
 $$
 
@@ -282,7 +282,7 @@ then by the properties of mean and variance, we have
 $$
 
 
-\textrm{E}[X] = n\mu, \qquad \textrm{Var}[X] = n\sigma^2
+\text{E}[X] = n\mu, \qquad \text{Var}[X] = n\sigma^2
 
 
 $$
@@ -297,12 +297,12 @@ X\sim N(n\mu, n\sigma^2).
 
 $$
 
-The expected value and the variance of a geometric random variable $X_i \sim \textrm{Geom}(p)$ can be found as
+The expected value and the variance of a geometric random variable $X_i \sim \text{Geom}(p)$ can be found as
 
 $$
 
 
-\textrm{E}[X_i] = \dfrac{1}{p}, \qquad \textrm{Var}[X_i] = \dfrac{1-p}{p^2}.
+\text{E}[X_i] = \dfrac{1}{p}, \qquad \text{Var}[X_i] = \dfrac{1-p}{p^2}.
 
 
 $$
@@ -331,7 +331,7 @@ $$
 
 #### Question
 
-Given that $X_i \sim \textrm{Po}(12)$ for $i=1,2,\ldots,60$ are independent Poisson random variables, what is the approximate distribution of the sample mean $\overline{X}?$
+Given that $X_i \sim \text{Po}(12)$ for $i=1,2,\ldots,60$ are independent Poisson random variables, what is the approximate distribution of the sample mean $\overline{X}?$
 
 #### Explanation
 
@@ -347,12 +347,12 @@ $$
 
 $$
 
-The expected value and the variance of a Poisson random variable $X_i \sim \textrm{Po}(\lambda)$ can be found as
+The expected value and the variance of a Poisson random variable $X_i \sim \text{Po}(\lambda)$ can be found as
 
 $$
 
 
-\textrm{E}[X_i] = \textrm{Var}[X_i] = \lambda.
+\text{E}[X_i] = \text{Var}[X_i] = \lambda.
 
 
 $$

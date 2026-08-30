@@ -109,7 +109,7 @@ For the diagram shown below, which of the following statements are true?
 
 2. $\overline{BC} \cong \overline{BE}$
 
-3. $BE = 4\,\textrm{cm}$
+3. $BE = 4\,\text{cm}$
 
 #### Explanation
 
@@ -119,6 +119,6 @@ Let's look at the statements one by one.
 
 - Statement II is false. From the picture, we can see that $\overline{BE}$ and $\overline{BC}$ have different hash marks, so
 
-- Statement III is false. According to the picture, we have that $\overline{BE}$ and $\overline{BD}$ have different hash marks, so Hence, ${BE} \neq {BD},$ and since ${BD} = 4\,\textrm{cm}$, we have $BE \neq 4\,\textrm{cm}.$
+- Statement III is false. According to the picture, we have that $\overline{BE}$ and $\overline{BD}$ have different hash marks, so Hence, ${BE} \neq {BD},$ and since ${BD} = 4\,\text{cm}$, we have $BE \neq 4\,\text{cm}.$
 
 Therefore, only statement I is true.

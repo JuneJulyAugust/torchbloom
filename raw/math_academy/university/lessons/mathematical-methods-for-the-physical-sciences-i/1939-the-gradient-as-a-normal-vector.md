@@ -67,7 +67,7 @@ Finally, since we want a unit normal vector, we normalize $\nabla f(1,1)\mathbin
 $$
 
 
-\begin{aligned}\frac{∇𝑓(1,1)}{‖∇𝑓(1,1)‖} & =\frac{3\,𝐢+4\,𝐣}{\sqrt{√3^{2}+4^{2}}} \\ & =\frac{1}{5}(3\,𝐢+4\,𝐣)\end{aligned}
+\begin{aligned}\frac{∇𝑓(1,1)}{‖∇𝑓(1,1)‖} & =\frac{3\,𝐢+4\,𝐣}{\sqrt{3^{2}+4^{2}}} \\ & =\frac{1}{5}(3\,𝐢+4\,𝐣)\end{aligned}
 
 
 $$
@@ -171,7 +171,7 @@ The point $P(0,0,1)$ lies on $\mathcal S.$ Computing $\nabla f(0,0,1),$ we get
 $$
 
 
-\begin{aligned} \nabla f(x,y,z) &= \langle f_x, \: f_y, \:f_z\rangle \\\[5pt] &= \dfrac12\langle2x, \: 2y, \: 2z\rangle\\\[5pt] &= \langle x, \: y, \: z\rangle\\[10pt] \nabla f(0,0,1) &= \langle 0,\: 0,\: 1 \rangle. \end{aligned}
+\begin{aligned} \nabla f(x,y,z) &= \langle f_x, \: f_y, \:f_z\rangle \\[5pt] &= \dfrac12\langle2x, \: 2y, \: 2z\rangle\\[5pt] &= \langle x, \: y, \: z\rangle\\[10pt] \nabla f(0,0,1) &= \langle 0,\: 0,\: 1 \rangle. \end{aligned}
 
 
 $$
@@ -195,7 +195,7 @@ So, we first find the gradient and evaluate it at $(x,y,z) = (2, 3, \sqrt 2)\mat
 $$
 
 
-\begin{aligned}∇𝑓(𝑥,𝑦,𝑧) & =\frac{𝜕}{𝜕𝑥}(2𝑥^{2}−𝑥𝑦−𝑧^{2}) 𝐢+\frac{𝜕}{𝜕𝑦}(2𝑥^{2}−𝑥𝑦−𝑧^{2}) 𝐣+\frac{𝜕}{𝜕𝑧}(2𝑥^{2}−𝑥𝑦−𝑧^{2}) 𝐤 \\ & =(4𝑥−𝑦) 𝐢−𝑥 𝐣−2𝑧 𝐤 \\ ∇𝑓(2,3,\sqrt{√2}) & =(4⋅2−3) 𝐢−2 𝐣−2\sqrt{√2} 𝐤 \\ & =5𝐢−2𝐣−2\sqrt{√2} 𝐤\end{aligned}
+\begin{aligned}∇𝑓(𝑥,𝑦,𝑧) & =\frac{𝜕}{𝜕𝑥}(2𝑥^{2}−𝑥𝑦−𝑧^{2}) 𝐢+\frac{𝜕}{𝜕𝑦}(2𝑥^{2}−𝑥𝑦−𝑧^{2}) 𝐣+\frac{𝜕}{𝜕𝑧}(2𝑥^{2}−𝑥𝑦−𝑧^{2}) 𝐤 \\ & =(4𝑥−𝑦) 𝐢−𝑥 𝐣−2𝑧 𝐤 \\ ∇𝑓(2,3,\sqrt{2}) & =(4⋅2−3) 𝐢−2 𝐣−2\sqrt{2} 𝐤 \\ & =5𝐢−2𝐣−2\sqrt{2} 𝐤\end{aligned}
 
 
 $$

@@ -48,7 +48,7 @@ This means we can write our expression $x^2-2$ as a difference of squares:
 $$
 
 
-\begin{aligned}𝑥^{2}−(\sqrt{√2})^{2} & \end{aligned}
+\begin{aligned}𝑥^{2}−(\sqrt{2})^{2} & \end{aligned}
 
 
 $$
@@ -58,7 +58,7 @@ Finally, we factor the expression using the difference of squares formula with $
 $$
 
 
-\begin{aligned}𝑥^{2}−(\sqrt{√2})^{2}=(𝑥−\sqrt{√2})(𝑥+\sqrt{√2})\end{aligned}
+\begin{aligned}𝑥^{2}−(\sqrt{2})^{2}=(𝑥−\sqrt{2})(𝑥+\sqrt{2})\end{aligned}
 
 
 $$
@@ -88,7 +88,7 @@ First, we write the expression as a difference of squares:
 $$
 
 
-\begin{aligned}𝑦^{2}−\frac{1}{10} & = \\ 𝑦^{2}−\frac{1}{(\sqrt{√10})^{2}} & = \\ 𝑦^{2}−(\frac{1}{\sqrt{√10}})^{2} & \end{aligned}
+\begin{aligned}𝑦^{2}−\frac{1}{10} & = \\ 𝑦^{2}−\frac{1}{(\sqrt{10})^{2}} & = \\ 𝑦^{2}−(\frac{1}{\sqrt{10}})^{2} & \end{aligned}
 
 
 $$
@@ -98,7 +98,7 @@ Then, we factor the expression using the difference of squares formula:
 $$
 
 
-\begin{aligned}𝑦^{2}−(\frac{1}{\sqrt{√10}})^{2}=(𝑦−\frac{1}{\sqrt{√10}})(𝑦+\frac{1}{\sqrt{√10}})\end{aligned}
+\begin{aligned}𝑦^{2}−(\frac{1}{\sqrt{10}})^{2}=(𝑦−\frac{1}{\sqrt{10}})(𝑦+\frac{1}{\sqrt{10}})\end{aligned}
 
 
 $$
@@ -126,7 +126,7 @@ First, we write the expression as a difference of squares:
 $$
 
 
-\begin{aligned}17𝑡^{2}−13 & =(\sqrt{√17}\,𝑡)^{2}−(\sqrt{√13})^{2}\end{aligned}
+\begin{aligned}17𝑡^{2}−13 & =(\sqrt{17}\,𝑡)^{2}−(\sqrt{13})^{2}\end{aligned}
 
 
 $$
@@ -136,7 +136,7 @@ Then, we factor the expression using the difference of squares formula:
 $$
 
 
-\begin{aligned}(\sqrt{√17}\,𝑡)^{2}−(\sqrt{√13})^{2}=(\sqrt{√17}\,𝑡−\sqrt{√13})(\sqrt{√17}\,𝑡+\sqrt{√13})\end{aligned}
+\begin{aligned}(\sqrt{17}\,𝑡)^{2}−(\sqrt{13})^{2}=(\sqrt{17}\,𝑡−\sqrt{13})(\sqrt{17}\,𝑡+\sqrt{13})\end{aligned}
 
 
 $$
@@ -164,7 +164,7 @@ Now, let's factor the expression inside parentheses using the difference of squa
 $$
 
 
-\begin{aligned}\frac{𝑚^{2}}{5}−9 & = \\ (\frac{𝑚}{\sqrt{√5}})^{2}−3^{2} & = \\ (\frac{𝑚}{\sqrt{√5}}−3)(\frac{𝑚}{\sqrt{√5}}+3) & \end{aligned}
+\begin{aligned}\frac{𝑚^{2}}{5}−9 & = \\ (\frac{𝑚}{\sqrt{5}})^{2}−3^{2} & = \\ (\frac{𝑚}{\sqrt{5}}−3)(\frac{𝑚}{\sqrt{5}}+3) & \end{aligned}
 
 
 $$
@@ -202,7 +202,7 @@ First, we write the expression as a difference of squares:
 $$
 
 
-\begin{aligned}−5𝑟^{2}+36𝑠^{2} & = \\ 36𝑠^{2}−5𝑟^{2} & = \\ (6𝑠)^{2}−(\sqrt{√5}\,𝑟)^{2} & \end{aligned}
+\begin{aligned}−5𝑟^{2}+36𝑠^{2} & = \\ 36𝑠^{2}−5𝑟^{2} & = \\ (6𝑠)^{2}−(\sqrt{5}\,𝑟)^{2} & \end{aligned}
 
 
 $$
@@ -212,7 +212,7 @@ Then, we factor the expression using the difference of squares formula:
 $$
 
 
-\begin{aligned}(6𝑠)^{2}−(\sqrt{√5}\,𝑟)^{2}=(6𝑠−\sqrt{√5}\,𝑟)(6𝑠+\sqrt{√5}\,𝑟)\end{aligned}
+\begin{aligned}(6𝑠)^{2}−(\sqrt{5}\,𝑟)^{2}=(6𝑠−\sqrt{5}\,𝑟)(6𝑠+\sqrt{5}\,𝑟)\end{aligned}
 
 
 $$

@@ -165,7 +165,7 @@ Finally, we convert to a mixed number:
 $$
 
 
-13 \div 9 = 1 \, \textrm{R} \, 4
+13 \div 9 = 1 \, \text{R} \, 4
 
 
 $$
@@ -229,7 +229,7 @@ Finally, we convert to a mixed number:
 $$
 
 
-17 \div 8 = 2 \, \textrm{R} \, 1
+17 \div 8 = 2 \, \text{R} \, 1
 
 
 $$

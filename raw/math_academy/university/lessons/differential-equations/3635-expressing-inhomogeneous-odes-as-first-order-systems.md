@@ -38,7 +38,7 @@ Differentiating the above equations with respect to $t,$ we get
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡) & =𝑦^{′} \\ 𝑥_{′2}^{}(𝑡) & =𝑦^{″} \\ 𝑥_{′3}^{}(𝑡) & =𝑦^{‴}\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡) & =𝑦^{′} \\ 𝑥_{′2}(𝑡) & =𝑦^{″} \\ 𝑥_{′3}(𝑡) & =𝑦^{‴}\end{aligned}
 
 
 $$
@@ -48,7 +48,7 @@ which we can rewrite as
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}=𝑥_{2} \\ 𝑥_{′2}^{}=𝑥_{3} \\ 𝑥_{′3}^{}=𝑦^{‴}.\end{aligned}
+\begin{aligned}𝑥_{′1}=𝑥_{2} \\ 𝑥_{′2}=𝑥_{3} \\ 𝑥_{′3}=𝑦^{‴}.\end{aligned}
 
 
 $$
@@ -82,7 +82,7 @@ Therefore, our complete system of equations is as follows:
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}=𝑥_{2} \\ 𝑥_{′2}^{}=𝑥_{3} \\ 𝑥_{′3}^{}=−5𝑥_{3}+4𝑥_{2}−𝑡^{2}𝑥_{1}+𝑡+1\end{aligned}
+\begin{aligned}𝑥_{′1}=𝑥_{2} \\ 𝑥_{′2}=𝑥_{3} \\ 𝑥_{′3}=−5𝑥_{3}+4𝑥_{2}−𝑡^{2}𝑥_{1}+𝑡+1\end{aligned}
 
 
 $$
@@ -106,7 +106,7 @@ can be written as a system of first-order differential equations, as follows:
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}=𝑥_{2} \\ 𝑥_{′2}^{}=𝑓(𝑡)\end{aligned}
+\begin{aligned}𝑥_{′1}=𝑥_{2} \\ 𝑥_{′2}=𝑓(𝑡)\end{aligned}
 
 
 $$
@@ -130,7 +130,7 @@ Differentiating the above equations with respect to $t,$ we get
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡) & =𝑦^{′} \\ 𝑥_{′2}^{}(𝑡) & =𝑦^{″}\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡) & =𝑦^{′} \\ 𝑥_{′2}(𝑡) & =𝑦^{″}\end{aligned}
 
 
 $$
@@ -140,7 +140,7 @@ which we can rewrite as
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}=𝑥_{2}, \\ 𝑥_{′2}^{}=𝑦^{″}.\end{aligned}
+\begin{aligned}𝑥_{′1}=𝑥_{2}, \\ 𝑥_{′2}=𝑦^{″}.\end{aligned}
 
 
 $$
@@ -174,7 +174,7 @@ Therefore, our complete system of equations is as follows:
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}=𝑥_{2} \\ 𝑥_{′2}^{}=7𝑡𝑥_{2}−𝑒^{𝑡}𝑥_{1}−𝑡\end{aligned}
+\begin{aligned}𝑥_{′1}=𝑥_{2} \\ 𝑥_{′2}=7𝑡𝑥_{2}−𝑒^{𝑡}𝑥_{1}−𝑡\end{aligned}
 
 
 $$
@@ -232,7 +232,7 @@ Differentiating the above equations with respect to $t,$ we get
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}=𝑦^{′} \\ 𝑥_{′2}^{}=𝑦^{″}\end{aligned}
+\begin{aligned}𝑥_{′1}=𝑦^{′} \\ 𝑥_{′2}=𝑦^{″}\end{aligned}
 
 
 $$
@@ -242,7 +242,7 @@ which we can rewrite as
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}=𝑥_{2}, \\ 𝑥_{′2}^{}=𝑦^{″}.\end{aligned}
+\begin{aligned}𝑥_{′1}=𝑥_{2}, \\ 𝑥_{′2}=𝑦^{″}.\end{aligned}
 
 
 $$
@@ -276,7 +276,7 @@ Therefore, our complete system of equations is as follows:
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}=𝑥_{2} \\ 𝑥_{′2}^{}=4𝑥_{1}−(𝑡+1)𝑥_{2}+𝑡^{2}\end{aligned}
+\begin{aligned}𝑥_{′1}=𝑥_{2} \\ 𝑥_{′2}=4𝑥_{1}−(𝑡+1)𝑥_{2}+𝑡^{2}\end{aligned}
 
 
 $$
@@ -286,7 +286,7 @@ We can represent this system as the matrix differential equation $\mathbf x'(t) 
 $$
 
 
-[\begin{aligned}𝑥_{′1}^{} \\ 𝑥_{′2}^{}\end{aligned}]
+[\begin{aligned}𝑥_{′1} \\ 𝑥_{′2}\end{aligned}]
 
 
 $$
@@ -356,7 +356,7 @@ Differentiating the above equations with respect to $t,$ we get
 $$
 
 
-\begin{aligned}𝑥_{′1}^{} & =𝑦^{′} \\ 𝑥_{′2}^{} & =𝑦^{″} \\ 𝑥_{′3}^{} & =𝑦^{‴}\end{aligned}
+\begin{aligned}𝑥_{′1} & =𝑦^{′} \\ 𝑥_{′2} & =𝑦^{″} \\ 𝑥_{′3} & =𝑦^{‴}\end{aligned}
 
 
 $$
@@ -366,7 +366,7 @@ which we can rewrite as
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}=𝑥_{2} \\ 𝑥_{′2}^{}=𝑥_{3} \\ 𝑥_{′3}^{}=𝑦^{‴}.\end{aligned}
+\begin{aligned}𝑥_{′1}=𝑥_{2} \\ 𝑥_{′2}=𝑥_{3} \\ 𝑥_{′3}=𝑦^{‴}.\end{aligned}
 
 
 $$
@@ -400,7 +400,7 @@ Therefore, our complete system of equations is as follows:
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}=𝑥_{2} \\ 𝑥_{′2}^{}=𝑥_{3} \\ 𝑥_{′3}^{}=8𝑥_{1}−𝑡𝑥_{2}+1−𝑡^{2}\end{aligned}
+\begin{aligned}𝑥_{′1}=𝑥_{2} \\ 𝑥_{′2}=𝑥_{3} \\ 𝑥_{′3}=8𝑥_{1}−𝑡𝑥_{2}+1−𝑡^{2}\end{aligned}
 
 
 $$
@@ -410,7 +410,7 @@ We can represent this system as the matrix differential equation $\mathbf x'(t) 
 $$
 
 
-\begin{aligned}𝑥_{′1}^{} \\ 𝑥_{′2}^{} \\ 𝑥_{′3}^{}\end{aligned}
+\begin{aligned}𝑥_{′1} \\ 𝑥_{′2} \\ 𝑥_{′3}\end{aligned}
 
 
 $$

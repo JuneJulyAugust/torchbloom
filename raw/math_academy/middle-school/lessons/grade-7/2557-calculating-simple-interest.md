@@ -27,7 +27,7 @@ $$
 
 
 
-\textrm{Simple Interest} = \textrm{Principal} \times \textrm{Rate} \times \textrm{Time}.
+\text{Simple Interest} = \text{Principal} \times \text{Rate} \times \text{Time}.
 
 
 
@@ -91,7 +91,7 @@ $$
 
 
 
-\textrm{Simple Interest} = \textrm{Principal} \times \textrm{Rate} \times \textrm{Time}.
+\text{Simple Interest} = \text{Principal} \times \text{Rate} \times \text{Time}.
 
 
 
@@ -205,7 +205,7 @@ $$
 
 
 
-\textrm{Simple Interest} = \textrm{Principal} \times \textrm{Rate} \times \textrm{Time}
+\text{Simple Interest} = \text{Principal} \times \text{Rate} \times \text{Time}
 
 
 

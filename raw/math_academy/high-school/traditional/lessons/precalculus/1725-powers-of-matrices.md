@@ -43,7 +43,7 @@ $$
 
 
 
-\begin{aligned}𝐴^{2} & =𝐴⋅𝐴 \\ & =[\begin{aligned}3 & −1 \\ 2 & 1\end{aligned}]⋅[\begin{aligned}3 & −1 \\ 2 & 1\end{aligned}] \\ & =[\begin{aligned}3⋅3+(−1)⋅2 & 3⋅(−1)+(−1)⋅1 \\ 2⋅3+1⋅2 & 2⋅(−1)+1⋅1\end{aligned}] \\ & =[\begin{aligned}7 & −4 \\ 8 & −1\end{aligned}]\end{aligned}
+\begin{aligned}𝐴^{2} & =𝐴⋅𝐴 \\ & =[\begin{matrix}3 & −1 \\ 2 & 1\end{matrix}]⋅[\begin{matrix}3 & −1 \\ 2 & 1\end{matrix}] \\ & =[\begin{matrix}3⋅3+(−1)⋅2 & 3⋅(−1)+(−1)⋅1 \\ 2⋅3+1⋅2 & 2⋅(−1)+1⋅1\end{matrix}] \\ & =[\begin{matrix}7 & −4 \\ 8 & −1\end{matrix}]\end{aligned}
 
 
 
@@ -65,7 +65,7 @@ $$
 
 
 
-\begin{aligned}𝐴^{2} & =𝐴⋅𝐴 \\ & =[\begin{aligned}3 & 0 \\ 5 & −1\end{aligned}]⋅[\begin{aligned}3 & 0 \\ 5 & −1\end{aligned}] \\ & =[\begin{aligned}9 & 0 \\ 10 & 1\end{aligned}]\end{aligned}
+\begin{aligned}𝐴^{2} & =𝐴⋅𝐴 \\ & =[\begin{matrix}3 & 0 \\ 5 & −1\end{matrix}]⋅[\begin{matrix}3 & 0 \\ 5 & −1\end{matrix}] \\ & =[\begin{matrix}9 & 0 \\ 10 & 1\end{matrix}]\end{aligned}
 
 
 
@@ -77,7 +77,7 @@ $$
 
 
 
-\begin{aligned}𝐴^{4} & =𝐴^{2}⋅𝐴^{2} \\ & =[\begin{aligned}9 & 0 \\ 10 & 1\end{aligned}]⋅[\begin{aligned}9 & 0 \\ 10 & 1\end{aligned}] \\ & =[\begin{aligned}81 & 0 \\ 100 & 1\end{aligned}].\end{aligned}
+\begin{aligned}𝐴^{4} & =𝐴^{2}⋅𝐴^{2} \\ & =[\begin{matrix}9 & 0 \\ 10 & 1\end{matrix}]⋅[\begin{matrix}9 & 0 \\ 10 & 1\end{matrix}] \\ & =[\begin{matrix}81 & 0 \\ 100 & 1\end{matrix}].\end{aligned}
 
 
 
@@ -117,7 +117,7 @@ $$
 
 
 
-\begin{aligned}𝐴^{2} & =[\begin{aligned}1 & 1 \\ 0 & 2\end{aligned}][\begin{aligned}1 & 1 \\ 0 & 2\end{aligned}] \\ & =[\begin{aligned}1 & 3 \\ 0 & 4\end{aligned}],\end{aligned}
+\begin{aligned}𝐴^{2} & =[\begin{matrix}1 & 1 \\ 0 & 2\end{matrix}][\begin{matrix}1 & 1 \\ 0 & 2\end{matrix}] \\ & =[\begin{matrix}1 & 3 \\ 0 & 4\end{matrix}],\end{aligned}
 
 
 
@@ -129,7 +129,7 @@ $$
 
 
 
-\begin{aligned}𝑓(𝐴) & =𝐴^{2}+4𝐴+3𝐼 \\ & =[\begin{aligned}1 & 3 \\ 0 & 4\end{aligned}]+4[\begin{aligned}1 & 1 \\ 0 & 2\end{aligned}]+3[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ & =[\begin{aligned}1 & 3 \\ 0 & 4\end{aligned}]+[\begin{aligned}4 & 4 \\ 0 & 8\end{aligned}]+[\begin{aligned}3 & 0 \\ 0 & 3\end{aligned}] \\ & =[\begin{aligned}1+4+3 & 3+4+0 \\ 0+0+0 & 4+8+3\end{aligned}] \\ & =[\begin{aligned}8 & 7 \\ 0 & 15\end{aligned}]\end{aligned}
+\begin{aligned}𝑓(𝐴) & =𝐴^{2}+4𝐴+3𝐼 \\ & =[\begin{matrix}1 & 3 \\ 0 & 4\end{matrix}]+4[\begin{matrix}1 & 1 \\ 0 & 2\end{matrix}]+3[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}] \\ & =[\begin{matrix}1 & 3 \\ 0 & 4\end{matrix}]+[\begin{matrix}4 & 4 \\ 0 & 8\end{matrix}]+[\begin{matrix}3 & 0 \\ 0 & 3\end{matrix}] \\ & =[\begin{matrix}1+4+3 & 3+4+0 \\ 0+0+0 & 4+8+3\end{matrix}] \\ & =[\begin{matrix}8 & 7 \\ 0 & 15\end{matrix}]\end{aligned}
 
 
 
@@ -175,7 +175,7 @@ $$
 
 
 
-\begin{aligned}𝐷^{2} & =𝐷⋅𝐷 \\ & =[\begin{aligned}1 & 5 \\ 0 & −3\end{aligned}]⋅[\begin{aligned}1 & 5 \\ 0 & −3\end{aligned}] \\ & =[\begin{aligned}1 & −10 \\ 0 & 9\end{aligned}]\end{aligned}
+\begin{aligned}𝐷^{2} & =𝐷⋅𝐷 \\ & =[\begin{matrix}1 & 5 \\ 0 & −3\end{matrix}]⋅[\begin{matrix}1 & 5 \\ 0 & −3\end{matrix}] \\ & =[\begin{matrix}1 & −10 \\ 0 & 9\end{matrix}]\end{aligned}
 
 
 
@@ -187,7 +187,7 @@ $$
 
 
 
-\begin{aligned}𝑓(𝐷) & =−𝐷^{2}+3𝐷+2𝐼 \\ & =−[\begin{aligned}1 & −10 \\ 0 & 9\end{aligned}]+3[\begin{aligned}1 & 5 \\ 0 & −3\end{aligned}]+2[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ & =[\begin{aligned}−1 & 10 \\ 0 & −9\end{aligned}]+[\begin{aligned}3 & 15 \\ 0 & −9\end{aligned}]+[\begin{aligned}2 & 0 \\ 0 & 2\end{aligned}] \\ & =[\begin{aligned}−1+3+2 & 10+15+0 \\ 0 & −9−9+2\end{aligned}] \\ & =[\begin{aligned}4 & 25 \\ 0 & −16\end{aligned}]\end{aligned}
+\begin{aligned}𝑓(𝐷) & =−𝐷^{2}+3𝐷+2𝐼 \\ & =−[\begin{matrix}1 & −10 \\ 0 & 9\end{matrix}]+3[\begin{matrix}1 & 5 \\ 0 & −3\end{matrix}]+2[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}] \\ & =[\begin{matrix}−1 & 10 \\ 0 & −9\end{matrix}]+[\begin{matrix}3 & 15 \\ 0 & −9\end{matrix}]+[\begin{matrix}2 & 0 \\ 0 & 2\end{matrix}] \\ & =[\begin{matrix}−1+3+2 & 10+15+0 \\ 0 & −9−9+2\end{matrix}] \\ & =[\begin{matrix}4 & 25 \\ 0 & −16\end{matrix}]\end{aligned}
 
 
 

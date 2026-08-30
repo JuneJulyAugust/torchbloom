@@ -19,7 +19,7 @@ To multiply a decimal by a one-digit whole number, such as $5.2 \times 7,$ we fo
 
 $$
 
-\begin{aligned} & \begin{aligned} & & \,\,\,\,\,\begin{aligned} \\ 1\end{aligned}\,\,\,\, & \\ & & \,\,\,\,5\,\,\,\, & \,\,\,\,\,\,\,.2\,\,\,\, \\ \,\,\,\,×\,\,\,\, & & & \,\,\,\,7\,\,\,\, \\ & \,\,\,\,3\,\,\,\, & \,\,\,\,6\,\,\,\, & \,\,\,\,4\,\,\,\,\end{aligned}\end{aligned}
+\begin{aligned} & \begin{matrix} & & \,\,\,\,\,\begin{matrix} \\ 1\end{matrix}\,\,\,\, & \\ & & \,\,\,\,5\,\,\,\, & \,\,\,\,\,\,\,.2\,\,\,\, \\ \,\,\,\,×\,\,\,\, & & & \,\,\,\,7\,\,\,\, \\ & \,\,\,\,3\,\,\,\, & \,\,\,\,6\,\,\,\, & \,\,\,\,4\,\,\,\,\end{matrix}\end{aligned}
 
 $$
 
@@ -47,7 +47,7 @@ First, we ignore the decimal point and multiply as if both numbers were whole nu
 
 $$
 
-\begin{aligned} & \begin{aligned} & & \,\,\,\,\,\begin{aligned} \\ 6\end{aligned}\,\,\,\, & \,\,\,\,\,\begin{aligned} \\ 4\end{aligned}\,\,\,\, & \\ & & \,\,\,\,2\,\,\,\, & \,\,\,\,8\,\,\,\, & \,\,\,\,\,\,\,.6\,\,\,\, \\ \,\,\,\,×\,\,\,\, & & & & \,\,\,\,7\,\,\,\, \\ & \,\,\,\,2\,\,\,\, & \,\,\,\,0\,\,\,\, & \,\,\,\,0\,\,\,\, & \,\,\,\,2\,\,\,\,\end{aligned}\end{aligned}
+\begin{aligned} & \begin{matrix} & & \,\,\,\,\,\begin{matrix} \\ 6\end{matrix}\,\,\,\, & \,\,\,\,\,\begin{matrix} \\ 4\end{matrix}\,\,\,\, & \\ & & \,\,\,\,2\,\,\,\, & \,\,\,\,8\,\,\,\, & \,\,\,\,\,\,\,.6\,\,\,\, \\ \,\,\,\,×\,\,\,\, & & & & \,\,\,\,7\,\,\,\, \\ & \,\,\,\,2\,\,\,\, & \,\,\,\,0\,\,\,\, & \,\,\,\,0\,\,\,\, & \,\,\,\,2\,\,\,\,\end{matrix}\end{aligned}
 
 $$
 
@@ -73,7 +73,7 @@ First, we ignore the decimal point and multiply as if both numbers were whole nu
 
 $$
 
-\begin{aligned} & \begin{aligned} & & \,\,\,\,\,\begin{aligned} \\ 1\end{aligned}\,\,\,\, & \,\,\,\,\,\begin{aligned} \\ 3\end{aligned}\,\,\,\, & \\ & & \,\,\,\,8\,\,\,\, & \,\,\,\,\,\,\,.2\,\,\,\, & \,\,\,\,9\,\,\,\, \\ \,\,\,\,×\,\,\,\, & & & & \,\,\,\,4\,\,\,\, \\ & \,\,\,\,3\,\,\,\, & \,\,\,\,3\,\,\,\, & \,\,\,\,1\,\,\,\, & \,\,\,\,6\,\,\,\,\end{aligned}\end{aligned}
+\begin{aligned} & \begin{matrix} & & \,\,\,\,\,\begin{matrix} \\ 1\end{matrix}\,\,\,\, & \,\,\,\,\,\begin{matrix} \\ 3\end{matrix}\,\,\,\, & \\ & & \,\,\,\,8\,\,\,\, & \,\,\,\,\,\,\,.2\,\,\,\, & \,\,\,\,9\,\,\,\, \\ \,\,\,\,×\,\,\,\, & & & & \,\,\,\,4\,\,\,\, \\ & \,\,\,\,3\,\,\,\, & \,\,\,\,3\,\,\,\, & \,\,\,\,1\,\,\,\, & \,\,\,\,6\,\,\,\,\end{matrix}\end{aligned}
 
 $$
 
@@ -101,7 +101,7 @@ First, we ignore the decimal point and multiply as if both numbers were whole nu
 
 $$
 
-\begin{aligned} & \begin{aligned} & & \,\,\,\,\,\begin{aligned} \\ 2\end{aligned}\,\,\,\, & \,\,\,\,\,\begin{aligned} \\ 5\end{aligned}\,\,\,\, & \,\,\,\,\,\begin{aligned} \\ 3\end{aligned}\,\,\,\, & \\ & & \,\,\,\,1\,\,\,\, & \,\,\,\,3\,\,\,\, & \,\,\,\,\,\,\,.9\,\,\,\, & \,\,\,\,6\,\,\,\, \\ \,\,\,\,×\,\,\,\, & & & & & \,\,\,\,6\,\,\,\, \\ & \,\,\,\,\,\,\,\, & \,\,\,\,8\,\,\,\, & \,\,\,\,3\,\,\,\, & \,\,\,\,7\,\,\,\, & \,\,\,\,6\,\,\,\,\end{aligned}\end{aligned}
+\begin{aligned} & \begin{matrix} & & \,\,\,\,\,\begin{matrix} \\ 2\end{matrix}\,\,\,\, & \,\,\,\,\,\begin{matrix} \\ 5\end{matrix}\,\,\,\, & \,\,\,\,\,\begin{matrix} \\ 3\end{matrix}\,\,\,\, & \\ & & \,\,\,\,1\,\,\,\, & \,\,\,\,3\,\,\,\, & \,\,\,\,\,\,\,.9\,\,\,\, & \,\,\,\,6\,\,\,\, \\ \,\,\,\,×\,\,\,\, & & & & & \,\,\,\,6\,\,\,\, \\ & \,\,\,\,\,\,\,\, & \,\,\,\,8\,\,\,\, & \,\,\,\,3\,\,\,\, & \,\,\,\,7\,\,\,\, & \,\,\,\,6\,\,\,\,\end{matrix}\end{aligned}
 
 $$
 
@@ -129,7 +129,7 @@ First, we ignore the decimal point and multiply as if both numbers were whole nu
 
 $$
 
-\begin{aligned} & \begin{aligned} & & \,\,\,\,\,\begin{aligned} \\ 1\end{aligned}\,\,\,\, & \,\,\,\,\,\begin{aligned} \\ 0\end{aligned}\,\,\,\, & \,\,\,\,\,\begin{aligned} \\ 1\end{aligned}\,\,\,\, & \\ & & \,\,\,\,0\,\,\,\, & \,\,\,\,\,\,\,.6\,\,\,\, & \,\,\,\,1\,\,\,\, & \,\,\,\,4\,\,\,\, \\ \,\,\,\,×\,\,\,\, & & & & & \,\,\,\,3\,\,\,\, \\ & \,\,\,\,\,\,\,\, & \,\,\,\,1\,\,\,\, & \,\,\,\,8\,\,\,\, & \,\,\,\,4\,\,\,\, & \,\,\,\,2\,\,\,\,\end{aligned}\end{aligned}
+\begin{aligned} & \begin{matrix} & & \,\,\,\,\,\begin{matrix} \\ 1\end{matrix}\,\,\,\, & \,\,\,\,\,\begin{matrix} \\ 0\end{matrix}\,\,\,\, & \,\,\,\,\,\begin{matrix} \\ 1\end{matrix}\,\,\,\, & \\ & & \,\,\,\,0\,\,\,\, & \,\,\,\,\,\,\,.6\,\,\,\, & \,\,\,\,1\,\,\,\, & \,\,\,\,4\,\,\,\, \\ \,\,\,\,×\,\,\,\, & & & & & \,\,\,\,3\,\,\,\, \\ & \,\,\,\,\,\,\,\, & \,\,\,\,1\,\,\,\, & \,\,\,\,8\,\,\,\, & \,\,\,\,4\,\,\,\, & \,\,\,\,2\,\,\,\,\end{matrix}\end{aligned}
 
 $$
 
@@ -159,7 +159,7 @@ First, we ignore the decimal point and multiply as if both numbers were whole nu
 
 $$
 
-\begin{aligned} & \begin{aligned} & & \,\,\,\,\,\begin{aligned} \\ 1\end{aligned}\,\,\,\, & \,\,\,\,\,\begin{aligned} \\ 2\end{aligned}\,\,\,\, & \,\,\,\,\,\begin{aligned} \\ 3\end{aligned}\,\,\,\, & \\ & & \,\,\,\,1\,\,\,\, & \,\,\,\,2\,\,\,\, & \,\,\,\,\,\,\,.6\,\,\,\, & \,\,\,\,9\,\,\,\, \\ \,\,\,\,×\,\,\,\, & & & & & \,\,\,\,4\,\,\,\, \\ & \,\,\,\,\,\,\,\, & \,\,\,\,5\,\,\,\, & \,\,\,\,0\,\,\,\, & \,\,\,\,7\,\,\,\, & \,\,\,\,6\,\,\,\,\end{aligned}\end{aligned}
+\begin{aligned} & \begin{matrix} & & \,\,\,\,\,\begin{matrix} \\ 1\end{matrix}\,\,\,\, & \,\,\,\,\,\begin{matrix} \\ 2\end{matrix}\,\,\,\, & \,\,\,\,\,\begin{matrix} \\ 3\end{matrix}\,\,\,\, & \\ & & \,\,\,\,1\,\,\,\, & \,\,\,\,2\,\,\,\, & \,\,\,\,\,\,\,.6\,\,\,\, & \,\,\,\,9\,\,\,\, \\ \,\,\,\,×\,\,\,\, & & & & & \,\,\,\,4\,\,\,\, \\ & \,\,\,\,\,\,\,\, & \,\,\,\,5\,\,\,\, & \,\,\,\,0\,\,\,\, & \,\,\,\,7\,\,\,\, & \,\,\,\,6\,\,\,\,\end{matrix}\end{aligned}
 
 $$
 

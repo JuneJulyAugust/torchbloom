@@ -63,7 +63,7 @@ Which of the following probabilities could be approximated using the normal appr
 
 #### Explanation
 
-Given a Poisson random variable $X \sim \textrm{Po}(\lambda),$ if $\lambda$ is large, we can approximate $X$ as a normal variable $Y$ with mean $\mu = \lambda$ and variance $\sigma^2 = \lambda,$ that is, $Y \sim N(\lambda, \lambda).$ Typically, we require $\lambda \geq 10$ for the approximation to be valid.
+Given a Poisson random variable $X \sim \text{Po}(\lambda),$ if $\lambda$ is large, we can approximate $X$ as a normal variable $Y$ with mean $\mu = \lambda$ and variance $\sigma^2 = \lambda,$ that is, $Y \sim N(\lambda, \lambda).$ Typically, we require $\lambda \geq 10$ for the approximation to be valid.
 
 - In situation I, we have $\lambda = 7.$ So, $\lambda$ is ** large, which means we ** use the normal approximation of the Poisson distribution.
 
@@ -102,7 +102,7 @@ To compute this probability, we transform to a standard normal random variable b
 $$
 
 
-\begin{aligned}𝑃(20.5≤𝑌≤21.5) & =𝑃(\frac{20.5−20}{\sqrt{√20}}≤𝑍≤\frac{21.5−20}{\sqrt{√20}}) \\ & ≈𝑃(0.11≤𝑍≤0.34) \\ & =𝑃(𝑍≤0.34)−𝑃(𝑍<0.11) \\ & =𝑃(𝑍≤0.34)−𝑃(𝑍≤0.11) \\ & =Φ(0.34)−Φ(0.11)\end{aligned}
+\begin{aligned}𝑃(20.5≤𝑌≤21.5) & =𝑃(\frac{20.5−20}{\sqrt{20}}≤𝑍≤\frac{21.5−20}{\sqrt{20}}) \\ & ≈𝑃(0.11≤𝑍≤0.34) \\ & =𝑃(𝑍≤0.34)−𝑃(𝑍<0.11) \\ & =𝑃(𝑍≤0.34)−𝑃(𝑍≤0.11) \\ & =Φ(0.34)−Φ(0.11)\end{aligned}
 
 
 $$
@@ -146,7 +146,7 @@ In the last example, we approximated the Poisson random variable
 $$
 
 
-X \sim \textrm{Po}(20)
+X \sim \text{Po}(20)
 
 
 $$
@@ -197,7 +197,7 @@ A library receives $90$ visitors per hour on average. The visitors arrive at a c
 
 #### Explanation
 
-Given a Poisson random variable $X \sim \textrm{Po}(\lambda),$ if $\lambda$ is large, we can approximate $X$ as a normal variable $Y$ with mean $\mu = \lambda$ and variance $\sigma^2 = \lambda,$ that is, $Y \sim N(\lambda, \lambda).$
+Given a Poisson random variable $X \sim \text{Po}(\lambda),$ if $\lambda$ is large, we can approximate $X$ as a normal variable $Y$ with mean $\mu = \lambda$ and variance $\sigma^2 = \lambda,$ that is, $Y \sim N(\lambda, \lambda).$
 
 Here, we have $\lambda = 90.$ So $\lambda$ is large, which means we can approximate $X$ as a normal random variable $Y$ with mean $\mu = 90$ and variance $\sigma^2 = 90,$ that is, $Y \sim N(90, 90).$
 
@@ -216,7 +216,7 @@ To compute this probability, we transform to a standard normal random variable b
 $$
 
 
-\begin{aligned}𝑃(94.5≤𝑌≤95.5) & =𝑃(\frac{94.5−90}{\sqrt{√90}}≤𝑍≤\frac{95.5−90}{\sqrt{√90}}) \\ & ≈𝑃(0.47≤𝑍≤0.58) \\ & =𝑃(𝑍≤0.58)−𝑃(𝑍<0.47) \\ & =𝑃(𝑍≤0.58)−𝑃(𝑍≤0.47) \\ & =Φ(0.58)−Φ(0.47) \\ & =0.7190−0.6808 \\ & =0.0382\end{aligned}
+\begin{aligned}𝑃(94.5≤𝑌≤95.5) & =𝑃(\frac{94.5−90}{\sqrt{90}}≤𝑍≤\frac{95.5−90}{\sqrt{90}}) \\ & ≈𝑃(0.47≤𝑍≤0.58) \\ & =𝑃(𝑍≤0.58)−𝑃(𝑍<0.47) \\ & =𝑃(𝑍≤0.58)−𝑃(𝑍≤0.47) \\ & =Φ(0.58)−Φ(0.47) \\ & =0.7190−0.6808 \\ & =0.0382\end{aligned}
 
 
 $$
@@ -243,7 +243,7 @@ A bakery sells an average of $95$ cookies per day. The sales occur at a constant
 
 #### Explanation
 
-Given a Poisson random variable $X \sim \textrm{Po}(\lambda),$ if $\lambda$ is large, we can approximate $X$ as a normal variable $Y$ with mean $\mu = \lambda$ and variance $\sigma^2 = \lambda,$ that is, $Y \sim N(\lambda, \lambda).$
+Given a Poisson random variable $X \sim \text{Po}(\lambda),$ if $\lambda$ is large, we can approximate $X$ as a normal variable $Y$ with mean $\mu = \lambda$ and variance $\sigma^2 = \lambda,$ that is, $Y \sim N(\lambda, \lambda).$
 
 Here, we have $\lambda = 95.$ So $\lambda$ is large, which means we can approximate $X$ as a normal random variable $Y$ with mean $\mu = 95$ and variance $\sigma^2 = 95,$ that is, $Y \sim N(95, 95).$
 
@@ -262,7 +262,7 @@ To compute this probability, we transform to a standard normal random variable b
 $$
 
 
-\begin{aligned}𝑃(𝑌>99.5) & =𝑃(𝑍>\frac{99.5−95}{\sqrt{√95}}) \\ & ≈𝑃(𝑍>0.46) \\ & =1−𝑃(𝑍≤0.46) \\ & =1−Φ(0.46) \\ & =1−0.6772 \\ & =0.3228\end{aligned}
+\begin{aligned}𝑃(𝑌>99.5) & =𝑃(𝑍>\frac{99.5−95}{\sqrt{95}}) \\ & ≈𝑃(𝑍>0.46) \\ & =1−𝑃(𝑍≤0.46) \\ & =1−Φ(0.46) \\ & =1−0.6772 \\ & =0.3228\end{aligned}
 
 
 $$

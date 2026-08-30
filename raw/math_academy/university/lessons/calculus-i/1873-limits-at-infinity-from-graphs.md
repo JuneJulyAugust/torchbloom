@@ -27,7 +27,7 @@ On the right side of the graph, we see that as $x$ gets bigger and bigger, $f(x)
 $$
 
 
-\lim_\limits{x\to \infty } f(x) = 1.
+\lim\limits_{x\to \infty } f(x) = 1.
 
 
 $$
@@ -37,7 +37,7 @@ Likewise, on the left side of the graph, as $x$ decreases to negative infinity (
 $$
 
 
-\lim_\limits{x\to -\infty } f(x) = 1.
+\lim\limits_{x\to -\infty } f(x) = 1.
 
 
 $$
@@ -46,7 +46,7 @@ $$
 
 #### Question
 
-The figure below shows the graph of $f(x).$ Find the limit $\lim_\limits{x \rightarrow \infty} f(x).$
+The figure below shows the graph of $f(x).$ Find the limit $\lim\limits_{x \rightarrow \infty} f(x).$
 
 ![Instructional graphic](../../../lesson-assets/calculus-i/topic-1873/8a470c850223f1ff.png)
 
@@ -59,7 +59,7 @@ Therefore, as $x$ approaches $\infty,$ the function $f(x)$ approaches $4,$ and w
 $$
 
 
-\lim_\limits{x\rightarrow \infty } f(x) = 4.
+\lim\limits_{x\rightarrow \infty } f(x) = 4.
 
 
 $$
@@ -77,7 +77,7 @@ In this case, we say that the limit of the function is infinity:
 $$
 
 
-\lim_\limits{x \rightarrow \infty} f(x) = \infty
+\lim\limits_{x \rightarrow \infty} f(x) = \infty
 
 
 $$
@@ -86,7 +86,7 @@ $$
 
 #### Question
 
-The figure below shows the graph of $f(x).$ Find $\lim_\limits{x \rightarrow \infty} f(x)$ and $\lim_\limits{x \rightarrow -\infty} f(x).$
+The figure below shows the graph of $f(x).$ Find $\lim\limits_{x \rightarrow \infty} f(x)$ and $\lim\limits_{x \rightarrow -\infty} f(x).$
 
 ![Instructional graphic](../../../lesson-assets/calculus-i/topic-1873/41df02da608c5c0f.png)
 
@@ -99,7 +99,7 @@ Consequently, $f(x)$ approaches the value $2$ as $x$ approaches $-\infty,$ and w
 $$
 
 
-\lim_\limits{x\rightarrow -\infty } f(x) = 2.
+\lim\limits_{x\rightarrow -\infty } f(x) = 2.
 
 
 $$
@@ -109,7 +109,7 @@ On the right side of the graph, as the values of $x$ increase and approach $\inf
 $$
 
 
-\lim_\limits{x\to \infty } f(x) = \infty.
+\lim\limits_{x\to \infty } f(x) = \infty.
 
 
 $$

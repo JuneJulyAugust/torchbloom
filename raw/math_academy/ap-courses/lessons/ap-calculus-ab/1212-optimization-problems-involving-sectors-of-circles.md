@@ -110,12 +110,12 @@ $$
 
 Since $A''(5)$ is negative, we conclude that $r=5$ is indeed a maximum of $A(r).$
 
-Therefore, the circular sector of the greatest area will have a radius of $5\,\textrm{in},$ and the maximum area is given by
+Therefore, the circular sector of the greatest area will have a radius of $5\,\text{in},$ and the maximum area is given by
 
 $$
 
 
-A(5) = 10(5) - 5^2 = 25\,\textrm{in}^2.
+A(5) = 10(5) - 5^2 = 25\,\text{in}^2.
 
 
 $$
@@ -185,7 +185,7 @@ Setting the derivative equal to zero and solving for $r$ gives
 $$
 
 
-\begin{aligned}2−\frac{16}{𝑟^{2}} & =0 \\ 2𝑟^{2} & =16 \\ 𝑟^{2} & =8 \\ 𝑟 & =2\sqrt{√2}.\end{aligned}
+\begin{aligned}2−\frac{16}{𝑟^{2}} & =0 \\ 2𝑟^{2} & =16 \\ 𝑟^{2} & =8 \\ 𝑟 & =2\sqrt{2}.\end{aligned}
 
 
 $$
@@ -199,7 +199,7 @@ Finally, when $r=2\sqrt{2}$, we have
 $$
 
 
-\begin{aligned}𝜃 & =\frac{16}{𝑟^{2}} \\ & =\frac{16}{(2\sqrt{√2})^{2}} \\ & =2.\end{aligned}
+\begin{aligned}𝜃 & =\frac{16}{𝑟^{2}} \\ & =\frac{16}{(2\sqrt{2})^{2}} \\ & =2.\end{aligned}
 
 
 $$

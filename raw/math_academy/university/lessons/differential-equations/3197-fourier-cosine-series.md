@@ -44,7 +44,7 @@ Since $f(x)$ is even and $\cos(nx)$ is even for any $n\ge 1,$ the product $f(x)\
 $$
 
 
-\begin{aligned}𝑎_{0} & =\frac{1}{𝜋}∫_{𝜋−𝜋}^{}𝑓(𝑥)\,d𝑥 \\ & =\frac{1}{𝜋}⋅2∫_{𝜋0}^{}𝑓(𝑥)\,d𝑥 \\ & =\frac{2}{𝜋}∫_{𝜋0}^{}𝑓(𝑥)\,d𝑥,\end{aligned}
+\begin{aligned}𝑎_{0} & =\frac{1}{𝜋}∫_{𝜋−𝜋}𝑓(𝑥)\,d𝑥 \\ & =\frac{1}{𝜋}⋅2∫_{𝜋0}𝑓(𝑥)\,d𝑥 \\ & =\frac{2}{𝜋}∫_{𝜋0}𝑓(𝑥)\,d𝑥,\end{aligned}
 
 
 $$
@@ -54,7 +54,7 @@ and for $n\ge 1,$
 $$
 
 
-\begin{aligned}𝑎_{𝑛} & =\frac{1}{𝜋}∫_{𝜋−𝜋}^{}𝑓(𝑥)cos⁡(𝑛𝑥)\,d𝑥 \\ & =\frac{1}{𝜋}⋅2∫_{𝜋0}^{}𝑓(𝑥)cos⁡(𝑛𝑥)\,d𝑥 \\ & =\frac{2}{𝜋}∫_{𝜋0}^{}𝑓(𝑥)cos⁡(𝑛𝑥)\,d𝑥.\end{aligned}
+\begin{aligned}𝑎_{𝑛} & =\frac{1}{𝜋}∫_{𝜋−𝜋}𝑓(𝑥)cos⁡(𝑛𝑥)\,d𝑥 \\ & =\frac{1}{𝜋}⋅2∫_{𝜋0}𝑓(𝑥)cos⁡(𝑛𝑥)\,d𝑥 \\ & =\frac{2}{𝜋}∫_{𝜋0}𝑓(𝑥)cos⁡(𝑛𝑥)\,d𝑥.\end{aligned}
 
 
 $$
@@ -128,7 +128,7 @@ In our case, $f(x)=\sin\left(\dfrac{3x}{4}\right)$ for $x \in (0,\pi).$ So, subs
 $$
 
 
-\begin{aligned}𝑎_{0} & =\frac{2}{𝜋}∫_{𝜋0}^{}sin⁡(\frac{3𝑥}{4})\,d𝑥 \\ & =\frac{2}{𝜋}[−\frac{4}{3}cos⁡(\frac{3𝑥}{4})]_{𝜋0}^{} \\ & =−\frac{8}{3𝜋}(cos⁡(\frac{3𝜋}{4})−cos⁡(0)) \\ & =−\frac{8}{3𝜋}(−\frac{\sqrt{√2}}{2}−1) \\ & =\frac{4}{3𝜋}(\sqrt{√2}+2).\end{aligned}
+\begin{aligned}𝑎_{0} & =\frac{2}{𝜋}∫_{𝜋0}sin⁡(\frac{3𝑥}{4})\,d𝑥 \\ & =\frac{2}{𝜋}[−\frac{4}{3}cos⁡(\frac{3𝑥}{4})]_{𝜋0} \\ & =−\frac{8}{3𝜋}(cos⁡(\frac{3𝜋}{4})−cos⁡(0)) \\ & =−\frac{8}{3𝜋}(−\frac{\sqrt{2}}{2}−1) \\ & =\frac{4}{3𝜋}(\sqrt{2}+2).\end{aligned}
 
 
 $$
@@ -142,7 +142,7 @@ Let $F(x)=-6x-2$ for $x\in[0,\pi).$ Find the missing parts in the Fourier cosine
 $$
 
 
-𝑋𝑋_{𝑋𝑋}^{}
+𝑋𝑋_{𝑋𝑋}
 
 
 $$
@@ -184,7 +184,7 @@ Thus, we obtain
 $$
 
 
-\begin{aligned}𝑎_{𝑛} & =\frac{2}{𝜋}(𝑢𝑣\,_{𝜋0}^{}−∫_{𝜋0}^{}𝑣𝑢^{′}\,d𝑥) \\ & =\frac{2}{𝜋}(\frac{1}{𝑛}[(−6𝑥−2)sin⁡(𝑛𝑥)]_{𝜋0}^{}+\frac{6}{𝑛}∫_{𝜋0}^{}sin⁡(𝑛𝑥)\,d𝑥) \\ & =\frac{2}{𝑛𝜋}(((−6𝜋−2)sin⁡(𝑛𝜋)+2sin⁡(0))−\frac{6}{𝑛}[cos⁡(𝑛𝑥)]_{𝜋0}^{}) \\ & =\frac{2}{𝑛𝜋}(0−\frac{6}{𝑛}(cos⁡(𝑛𝜋)−cos⁡(0))) \\ & =\frac{12(1−cos⁡(𝑛𝜋))}{𝑛^{2}𝜋}.\end{aligned}
+\begin{aligned}𝑎_{𝑛} & =\frac{2}{𝜋}(𝑢𝑣\,_{𝜋0}−∫_{𝜋0}𝑣𝑢^{′}\,d𝑥) \\ & =\frac{2}{𝜋}(\frac{1}{𝑛}[(−6𝑥−2)sin⁡(𝑛𝑥)]_{𝜋0}+\frac{6}{𝑛}∫_{𝜋0}sin⁡(𝑛𝑥)\,d𝑥) \\ & =\frac{2}{𝑛𝜋}(((−6𝜋−2)sin⁡(𝑛𝜋)+2sin⁡(0))−\frac{6}{𝑛}[cos⁡(𝑛𝑥)]_{𝜋0}) \\ & =\frac{2}{𝑛𝜋}(0−\frac{6}{𝑛}(cos⁡(𝑛𝜋)−cos⁡(0))) \\ & =\frac{12(1−cos⁡(𝑛𝜋))}{𝑛^{2}𝜋}.\end{aligned}
 
 
 $$

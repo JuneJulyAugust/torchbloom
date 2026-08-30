@@ -40,7 +40,7 @@ For example, the following equation is a second-order inhomogeneous ODE because 
 $$
 
 
-\frac{\textrm{d}^2 y}{\textrm{d} x^2} + 5\frac{\textrm{d} y}{\textrm{d} x} + 6y =3
+\frac{\text{d}^2 y}{\text{d} x^2} + 5\frac{\text{d} y}{\text{d} x} + 6y =3
 
 
 $$
@@ -62,7 +62,7 @@ To illustrate, let's find the general solution to the following inhomogeneous OD
 $$
 
 
-\frac{\textrm{d}^2 y}{\textrm{d} x^2} + 5\frac{\textrm{d} y}{\textrm{d} x} + 6y =3
+\frac{\text{d}^2 y}{\text{d} x^2} + 5\frac{\text{d} y}{\text{d} x} + 6y =3
 
 
 $$
@@ -124,7 +124,7 @@ where $\alpha$ is a constant to be found. Calculating the first and second deriv
 $$
 
 
-\frac{\textrm{d}y_p}{\textrm{d}x} = 0,\qquad \frac{\textrm{d}^2y_p}{\textrm{d}x^2} = 0.
+\frac{\text{d}y_p}{\text{d}x} = 0,\qquad \frac{\text{d}^2y_p}{\text{d}x^2} = 0.
 
 
 $$
@@ -212,7 +212,7 @@ Calculating the first and second derivatives of $y_p,$ we get
 $$
 
 
-\frac{\textrm{d}y_p}{\textrm{d}x} = \alpha,\qquad \frac{\textrm{d}^2y_p}{\textrm{d}x^2} = 0.
+\frac{\text{d}y_p}{\text{d}x} = \alpha,\qquad \frac{\text{d}^2y_p}{\text{d}x^2} = 0.
 
 
 $$
@@ -232,7 +232,7 @@ Equating the coefficients, we get the following system of equations:
 $$
 
 
-\begin{aligned}\begin{aligned}4𝛼=8\, & (equating the coefficients of\,\,𝑥) \\ 4𝛽−4𝛼=4\, & (equating the constants)\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}4𝛼=8\, & (equating the coefficients of\,\,𝑥) \\ 4𝛽−4𝛼=4\, & (equating the constants)\end{matrix}\end{aligned}
 
 
 $$
@@ -332,7 +332,7 @@ Equating the coefficients, we get the following system of equations:
 $$
 
 
-\begin{aligned}\begin{aligned}−2𝛼=1\, & (equating the coefficients of\,\,𝑥^{2}) \\ 2𝛼−2𝛽=5\, & (equating the coefficients of\,\,𝑥) \\ 2𝛼+𝛽−2𝛾=−3\, & (equating the constants)\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}−2𝛼=1\, & (equating the coefficients of\,\,𝑥^{2}) \\ 2𝛼−2𝛽=5\, & (equating the coefficients of\,\,𝑥) \\ 2𝛼+𝛽−2𝛾=−3\, & (equating the constants)\end{matrix}\end{aligned}
 
 
 $$

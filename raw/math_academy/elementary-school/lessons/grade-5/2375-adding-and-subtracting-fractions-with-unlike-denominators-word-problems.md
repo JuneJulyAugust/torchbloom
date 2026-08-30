@@ -57,7 +57,7 @@ Therefore, William bought $\dfrac12$ pounds of flour in total.
 
 #### Question
 
-A wooden slat was cut into two parts. One of the pieces is $\dfrac{6}{5}\,\textrm{ft}$ long and the other is $\dfrac{7}{4}\,\textrm{ft}$ long. How long was the original slat? Express your final answer as a mixed number.
+A wooden slat was cut into two parts. One of the pieces is $\dfrac{6}{5}\,\text{ft}$ long and the other is $\dfrac{7}{4}\,\text{ft}$ long. How long was the original slat? Express your final answer as a mixed number.
 
 #### Explanation
 
@@ -107,7 +107,7 @@ $$
 
 $$
 
-Therefore, the slat was originally $2\dfrac{19}{20}\,\textrm{ft}$ long.
+Therefore, the slat was originally $2\dfrac{19}{20}\,\text{ft}$ long.
 
 ### Example: Subtracting Fractions When One Denominator Is a Multiple of the Other
 
@@ -151,7 +151,7 @@ Therefore, John spent $\dfrac{3}{4}$ of an hour lifting weights.
 
 #### Question
 
-Tara cuts a piece of fabric that is $\dfrac{9}{4}\,\textrm{yd}$ long into two smaller pieces. If one of the pieces is $\dfrac{15}{14}\,\textrm{yd}$ long, how long is the other piece? Express your final answer as a mixed number.
+Tara cuts a piece of fabric that is $\dfrac{9}{4}\,\text{yd}$ long into two smaller pieces. If one of the pieces is $\dfrac{15}{14}\,\text{yd}$ long, how long is the other piece? Express your final answer as a mixed number.
 
 #### Explanation
 
@@ -201,4 +201,4 @@ $$
 
 $$
 
-Therefore, Tara's other piece is $1\dfrac{5}{28}\,\textrm{yd}$ long.
+Therefore, Tara's other piece is $1\dfrac{5}{28}\,\text{yd}$ long.

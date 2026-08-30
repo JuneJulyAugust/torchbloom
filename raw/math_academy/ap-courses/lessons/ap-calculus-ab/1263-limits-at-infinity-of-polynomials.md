@@ -13,7 +13,7 @@ Topic ID: 1263
 
 ### Introduction
 
-Suppose we want to calculate $\lim_\limits{x \to \infty} x^2$ and $\lim_\limits{x \to -\infty} x^2.$ To do this, we can use the graph of $y=x^2,$ which takes the familiar shape of a parabola.
+Suppose we want to calculate $\lim\limits_{x \to \infty} x^2$ and $\lim\limits_{x \to -\infty} x^2.$ To do this, we can use the graph of $y=x^2,$ which takes the familiar shape of a parabola.
 
 ![Instructional graphic](../../../lesson-assets/ap-calculus-ab/topic-1263/1056ed1b6491178c.png)
 
@@ -22,7 +22,7 @@ On the right side of the graph, we see that $y$ increases without bound as $x \t
 $$
 
 
-\lim_\limits{x \to \infty} x^2=\infty\qquad \textrm{and}\qquad \lim_\limits{x \to -\infty} x^2=\infty.
+\lim\limits_{x \to \infty} x^2=\infty\qquad \text{and}\qquad \lim\limits_{x \to -\infty} x^2=\infty.
 
 
 $$
@@ -36,7 +36,7 @@ In general, whenever $n$ is an *even natural number*, we have
 $$
 
 
-\lim_\limits{x \to \infty} x^n=\infty\qquad \textrm{and}\qquad \lim_\limits{x \to -\infty} x^n=\infty, \qquad \textrm{for}\qquad n=2,4,6,\ldots.
+\lim\limits_{x \to \infty} x^n=\infty\qquad \text{and}\qquad \lim\limits_{x \to -\infty} x^n=\infty, \qquad \text{for}\qquad n=2,4,6,\ldots.
 
 
 $$
@@ -73,7 +73,7 @@ because $y=-2x^2$ is a downwards parabola that points in the opposite direction 
 
 #### Question
 
-Find $\lim_\limits{x \to \infty} \left(-12x^{12}\right).$
+Find $\lim\limits_{x \to \infty} \left(-12x^{12}\right).$
 
 #### Explanation
 
@@ -82,7 +82,7 @@ The graph $y=x^{12}$ looks similar to an upward parabola, so
 $$
 
 
-\lim_\limits{x \to \infty} x^{12} = \infty .
+\lim\limits_{x \to \infty} x^{12} = \infty .
 
 
 $$
@@ -118,7 +118,7 @@ These limits are valid for any power function of the form $x^n,$ where $n$ is an
 $$
 
 
-\lim_\limits{x \to \infty} x^n=\infty\qquad \textrm{and}\qquad \lim_\limits{x \to -\infty} x^n=-\infty, \qquad n=1,3,5,\ldots.
+\lim\limits_{x \to \infty} x^n=\infty\qquad \text{and}\qquad \lim\limits_{x \to -\infty} x^n=-\infty, \qquad n=1,3,5,\ldots.
 
 
 $$
@@ -129,7 +129,7 @@ Again, multiplication of $x^n$ by a positive constant does not affect the limit 
 
 #### Question
 
-Evaluate $\lim_\limits{x \rightarrow -\infty} \dfrac{x^3}{2}.$
+Evaluate $\lim\limits_{x \rightarrow -\infty} \dfrac{x^3}{2}.$
 
 #### Explanation
 
@@ -172,7 +172,7 @@ For example, we have
 $$
 
 
-\lim_\limits{x \to \infty} 3=3.
+\lim\limits_{x \to \infty} 3=3.
 
 
 $$
@@ -182,7 +182,7 @@ Likewise,
 $$
 
 
-\lim_\limits{x \to -\infty} \sqrt{ \pi}= \sqrt{\pi} .
+\lim\limits_{x \to -\infty} \sqrt{ \pi}= \sqrt{\pi} .
 
 
 $$
@@ -192,7 +192,7 @@ In general, for any constant $C,$ we have
 $$
 
 
-\lim_\limits{x \to \pm\infty} C=C.
+\lim\limits_{x \to \pm\infty} C=C.
 
 
 $$
@@ -201,7 +201,7 @@ $$
 
 #### Question
 
-Given that $p(x)=9x^4$ and $q(x)=3x^4$, what is $\lim_\limits{x \to -\infty} \dfrac{p(x)}{q(x)}?$
+Given that $p(x)=9x^4$ and $q(x)=3x^4$, what is $\lim\limits_{x \to -\infty} \dfrac{p(x)}{q(x)}?$
 
 #### Explanation
 
@@ -224,7 +224,7 @@ For example, to compute
 $$
 
 
-\lim_\limits{x\to \infty} \left( 6x + 2x^3-7x^2+12\right) \, ,
+\lim\limits_{x\to \infty} \left( 6x + 2x^3-7x^2+12\right) \, ,
 
 
 $$
@@ -257,7 +257,7 @@ $$
 
 #### Question
 
-Calculate $\lim_\limits{y\rightarrow -\infty} (44-3y^4-9y^{12}) \,.$
+Calculate $\lim\limits_{y\rightarrow -\infty} (44-3y^4-9y^{12}) \,.$
 
 #### Explanation
 

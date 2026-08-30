@@ -38,7 +38,7 @@ Find the derivative of $y = 3\cos x + 4\sin x + 2x^3.$
 
 #### Explanation
 
-We know that $\dfrac{\textrm{d}}{\textrm{d}x} (\sin x) = \cos x,$ and that $\dfrac{\textrm{d}}{\textrm{d}x} (\cos x) = -\sin x.$ Applying these formulas, we have
+We know that $\dfrac{\text{d}}{\text{d}x} (\sin x) = \cos x,$ and that $\dfrac{\text{d}}{\text{d}x} (\cos x) = -\sin x.$ Applying these formulas, we have
 
 $$
 
@@ -58,7 +58,7 @@ Find the slope of $y = 4\tan x + 5x$ at $x = 0.$
 
 The slope at $x=0$ is given by the value of the derivative $y'$ at $x=0.$
 
-First, we compute the derivative, using the fact that $\dfrac{\textrm{d}}{\textrm{d}x} (\tan x) = \sec^2 x.$ We get
+First, we compute the derivative, using the fact that $\dfrac{\text{d}}{\text{d}x} (\tan x) = \sec^2 x.$ We get
 
 $$
 
@@ -87,7 +87,7 @@ To understand why the derivative of sine is cosine, we need to use the definitio
 $$
 
 
-\dfrac {\textrm{d}} {\textrm{d}x} (\sin x) = \lim_{h\rightarrow 0}\dfrac{\sin(x+h) - \sin x}{h}
+\dfrac {\text{d}} {\text{d}x} (\sin x) = \lim_{h\rightarrow 0}\dfrac{\sin(x+h) - \sin x}{h}
 
 
 $$
@@ -131,7 +131,7 @@ We can follow the same method for the cosine and use the definition of the deriv
 $$
 
 
-\dfrac {\textrm{d}} {\textrm{d}x} (\cos x) = \lim_{h\rightarrow 0}\dfrac{\cos(x+h) - \cos x}{h}
+\dfrac {\text{d}} {\text{d}x} (\cos x) = \lim_{h\rightarrow 0}\dfrac{\cos(x+h) - \cos x}{h}
 
 
 $$

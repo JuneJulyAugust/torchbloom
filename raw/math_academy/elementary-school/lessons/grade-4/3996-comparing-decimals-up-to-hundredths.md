@@ -20,7 +20,7 @@ For example, let's use number lines to determine which of the following numbers 
 
 $$
 
-1.4 \qquad\textrm{or}\qquad 1.35
+1.4 \qquad\text{or}\qquad 1.35
 
 $$
 

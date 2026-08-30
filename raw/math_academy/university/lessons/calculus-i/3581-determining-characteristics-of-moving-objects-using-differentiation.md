@@ -47,7 +47,7 @@ From the resulting velocity function above, we can find some characteristics of 
 
 - *Time intervals in which the particle is moving in the direction of decreasing $x.$* This occurs when its velocity is negative. Solving the inequality $v(t) < 0$ for the particle described above, we get Note we can divide through by $t$ without changing the inequality since $t > 0.$ Therefore, the time interval in which the particle is moving to the direction of decreasing $x$ is $t\in (2,\infty).$
 
-- *Moments when the particle is stationary.* The particle is stationary when $v=0\,\textrm{m}/\textrm{s}.$ So, we set $v=0$ and solve for $t{:}$ The solutions are $t=0$ and $t=2.$ So the particle is stationary at $t=0\,\textrm{s}$ and $t=2\,\textrm{s}.$
+- *Moments when the particle is stationary.* The particle is stationary when $v=0\,\text{m}/\text{s}.$ So, we set $v=0$ and solve for $t{:}$ The solutions are $t=0$ and $t=2.$ So the particle is stationary at $t=0\,\text{s}$ and $t=2\,\text{s}.$
 
 - *Moments when the acceleration of the particle is zero.* For the particle above, we differentiate $v(t)$ to find $a(t)$ as follows: Then, we put $a=0$ into the above to find the time when the acceleration is zero: Therefore, the acceleration is zero when $t=1.$
 
@@ -79,7 +79,7 @@ $$
 
 $$
 
-The particle is stationary when $v=0\, \textrm{m/s}$. So, we set $v = 0$ and solve for $t \mathbin{:}$
+The particle is stationary when $v=0\, \text{m/s}$. So, we set $v = 0$ and solve for $t \mathbin{:}$
 
 $$
 
@@ -91,7 +91,7 @@ $$
 
 The solutions are $t=6$ and $t=-1.$ Since $t\geq 0,$ we discard the solution $t=-1$ and keep only $t=6.$
 
-So the particle is stationary only at $t=6\, \textrm{s}.$ To find the displacement from the origin at this time, we substitute $t=6$ back into $s(t)$ and get
+So the particle is stationary only at $t=6\, \text{s}.$ To find the displacement from the origin at this time, we substitute $t=6$ back into $s(t)$ and get
 
 $$
 
@@ -101,7 +101,7 @@ $$
 
 $$
 
-Therefore, the particle is stationary at $t = 6\, \textrm{s}$ and its displacement from the origin at this time is $55\, \textrm{m}.$
+Therefore, the particle is stationary at $t = 6\, \text{s}$ and its displacement from the origin at this time is $55\, \text{m}.$
 
 ### Example: Determining Intervals of Increasing or Decreasing Displacement
 

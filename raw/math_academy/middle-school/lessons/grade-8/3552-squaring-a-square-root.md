@@ -84,7 +84,7 @@ This is because the square root of a number can *only* be positive or zero, neve
 $$
 
 
-\begin{aligned}\sqrt{√(−9)^{2}} & = \\ \sqrt{√(−9)⋅(−9)} & = \\ \sqrt{√81} & = \\ \sqrt{√9^{2}} & = \\ 9 & \end{aligned}
+\begin{aligned}\sqrt{(−9)^{2}} & = \\ \sqrt{(−9)⋅(−9)} & = \\ \sqrt{81} & = \\ \sqrt{9^{2}} & = \\ 9 & \end{aligned}
 
 
 $$
@@ -104,7 +104,7 @@ For any positive perfect square, we always have exactly two numbers whose square
 $$
 
 
-9^2=81\quad \textrm{and} \quad (-9)^2=81.
+9^2=81\quad \text{and} \quad (-9)^2=81.
 
 
 $$

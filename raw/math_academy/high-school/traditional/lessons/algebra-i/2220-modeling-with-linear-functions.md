@@ -26,9 +26,9 @@ $$
 
 According to this linear model,
 
-- the tree was $120\,\textrm{cm}$ high when it was planted, and
+- the tree was $120\,\text{cm}$ high when it was planted, and
 
-- the tree grows by $3\,\textrm{cm}$ each month.
+- the tree grows by $3\,\text{cm}$ each month.
 
 In practice, we tend to model linear relationships of this kind using function notation, as follows:
 

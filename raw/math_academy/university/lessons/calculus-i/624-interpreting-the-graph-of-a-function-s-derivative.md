@@ -114,7 +114,7 @@ Notice that $x=8$ is ** a relative extremum because the sign of $z'(x)$ does not
 
 #### Question
 
-Let $v(t)$ denote the speed (in $\textrm{km/h}$) of a hurricane at time $t$ (in hours) since the hurricane originated in the Atlantic Ocean. The graph of $y=v'(t),$ the derivative of $v(t),$ is given below. Find all the values of $t$ where the speed of the hurricane is decreasing.
+Let $v(t)$ denote the speed (in $\text{km/h}$) of a hurricane at time $t$ (in hours) since the hurricane originated in the Atlantic Ocean. The graph of $y=v'(t),$ the derivative of $v(t),$ is given below. Find all the values of $t$ where the speed of the hurricane is decreasing.
 
 ![Instructional graphic](../../../lesson-assets/calculus-i/topic-624/e8332ff77b1f4604.png)
 

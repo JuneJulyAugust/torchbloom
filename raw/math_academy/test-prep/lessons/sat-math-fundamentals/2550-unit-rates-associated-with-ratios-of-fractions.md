@@ -41,7 +41,7 @@ Writing the resulting improper fraction as a mixed number, we get
 $$
 
 
-\dfrac{20}{3} = 6 \, \textrm{R} 2 = 6 \, \dfrac{2}{3}.
+\dfrac{20}{3} = 6 \, \text{R} 2 = 6 \, \dfrac{2}{3}.
 
 
 $$
@@ -141,7 +141,7 @@ Finally, we write the resulting improper fraction as a mixed number:
 $$
 
 
-\dfrac{9}{8} = 1 \, \textrm{R} 1 = 1 \, \dfrac{1}{8}
+\dfrac{9}{8} = 1 \, \text{R} 1 = 1 \, \dfrac{1}{8}
 
 
 $$

@@ -32,7 +32,7 @@ $$
 
 We start by going through the long division procedure as usual:
 
-So, $79 \div 6 = 13 \, \textrm{R} \, 1.$ Writing this result as a mixed number, we obtain
+So, $79 \div 6 = 13 \, \text{R} \, 1.$ Writing this result as a mixed number, we obtain
 
 $$
 
@@ -104,7 +104,7 @@ Round $83 \div 5$ to the nearest whole number.
 
 We start by going through the long division procedure as usual:
 
-So, $83 \div 5 = 16 \, \textrm{R} \, 3.$ Writing this as a mixed number, we obtain
+So, $83 \div 5 = 16 \, \text{R} \, 3.$ Writing this as a mixed number, we obtain
 
 $$
 
@@ -140,7 +140,7 @@ Round $679 \div 6$ to the nearest whole number.
 
 We start by going through the long division procedure as usual:
 
-So, $679 \div 6 = 113 \, \textrm{R} \, 1.$ Writing this as a mixed number, we obtain
+So, $679 \div 6 = 113 \, \text{R} \, 1.$ Writing this as a mixed number, we obtain
 
 $$
 
@@ -176,7 +176,7 @@ Round $4,444 \div 7$ to the nearest whole number.
 
 We start by going through the long division procedure as usual:
 
-So, $4,444 \div 7 = 634 \, \textrm{R} \, 6.$ Writing this as a mixed number, we obtain
+So, $4,444 \div 7 = 634 \, \text{R} \, 6.$ Writing this as a mixed number, we obtain
 
 $$
 

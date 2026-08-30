@@ -15,11 +15,11 @@ Topic ID: 353
 
 To factor a polynomial expression like $2a^2+6a,$ we follow the three steps below:
 
-1. First, we find the greatest common factor (or $\textrm{GCF}$) of both terms. In this case,
+1. First, we find the greatest common factor (or $\text{GCF}$) of both terms. In this case,
 
-2. Then, we rewrite each term in the original expression as a product with the $\textrm{GCF}\mathbin{:}$
+2. Then, we rewrite each term in the original expression as a product with the $\text{GCF}\mathbin{:}$
 
-3. Finally, we write the $\textrm{GCF}$ outside the parentheses and keep the remaining terms inside:
+3. Finally, we write the $\text{GCF}$ outside the parentheses and keep the remaining terms inside:
 
 Therefore, the factored form of $2a^2+6a$ is $2a(a+3).$
 
@@ -43,19 +43,19 @@ Factor $4x^2+10x.$
 
 #### Explanation
 
-First, we find the $\textrm{GCF}$ of the two terms:
+First, we find the $\text{GCF}$ of the two terms:
 
 $$
 
 
 
-\textrm{GCF}(4x^2,10x) = 2x
+\text{GCF}(4x^2,10x) = 2x
 
 
 
 $$
 
-Then, we rewrite each term in the original expression as a product with the $\textrm{GCF}\mathbin{:}$
+Then, we rewrite each term in the original expression as a product with the $\text{GCF}\mathbin{:}$
 
 $$
 
@@ -67,7 +67,7 @@ $$
 
 $$
 
-Finally, we write the $\textrm{GCF}$ outside the parentheses and keep the remaining terms inside:
+Finally, we write the $\text{GCF}$ outside the parentheses and keep the remaining terms inside:
 
 $$
 
@@ -87,19 +87,19 @@ Factor $3t^2+12tw.$
 
 #### Explanation
 
-First, we find the $\textrm{GCF}$ of the two terms:
+First, we find the $\text{GCF}$ of the two terms:
 
 $$
 
 
 
-\textrm{GCF}(3t^2,12tw) = 3t
+\text{GCF}(3t^2,12tw) = 3t
 
 
 
 $$
 
-Then, we rewrite each term in the original expression as a product with the $\textrm{GCF}\mathbin{:}$
+Then, we rewrite each term in the original expression as a product with the $\text{GCF}\mathbin{:}$
 
 $$
 
@@ -111,7 +111,7 @@ $$
 
 $$
 
-Finally, we write the $\textrm{GCF}$ outside the parentheses and keep the remaining terms inside:
+Finally, we write the $\text{GCF}$ outside the parentheses and keep the remaining terms inside:
 
 $$
 
@@ -131,19 +131,19 @@ Factor $15x^2-5x-25xy.$
 
 #### Explanation
 
-First, we find the $\textrm{GCF}$ of the three terms:
+First, we find the $\text{GCF}$ of the three terms:
 
 $$
 
 
 
-\textrm{GCF}(15x^2, 5x, 25xy) = 5x
+\text{GCF}(15x^2, 5x, 25xy) = 5x
 
 
 
 $$
 
-Then, we rewrite each term in the original expression as a product with the $\textrm{GCF}\mathbin{:}$
+Then, we rewrite each term in the original expression as a product with the $\text{GCF}\mathbin{:}$
 
 $$
 
@@ -155,7 +155,7 @@ $$
 
 $$
 
-Finally, we write the $\textrm{GCF}$ outside the parentheses and keep the remaining terms inside:
+Finally, we write the $\text{GCF}$ outside the parentheses and keep the remaining terms inside:
 
 $$
 
@@ -175,19 +175,19 @@ Factor the polynomial expression $8a(b^2-3)-c(b^2-3).$
 
 #### Explanation
 
-First, we find the $\textrm{GCF}$ of the two terms:
+First, we find the $\text{GCF}$ of the two terms:
 
 $$
 
 
 
-\textrm{GCF}(8a(b^2-3),c(b^2-3)) = b^2-3
+\text{GCF}(8a(b^2-3),c(b^2-3)) = b^2-3
 
 
 
 $$
 
-Each term is already written as a product with the $\textrm{GCF}\mathbin{:}$
+Each term is already written as a product with the $\text{GCF}\mathbin{:}$
 
 $$
 
@@ -199,7 +199,7 @@ $$
 
 $$
 
-Finally, we write the $\textrm{GCF}$ outside the parentheses and keep the remaining terms inside:
+Finally, we write the $\text{GCF}$ outside the parentheses and keep the remaining terms inside:
 
 $$
 

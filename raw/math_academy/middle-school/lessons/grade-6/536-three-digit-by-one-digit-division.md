@@ -128,7 +128,7 @@ $$
 
 
 
- 6 \: \enclose{longdiv}{3 \: 7\: 9}
+ 6 \: \overline{3 \: 7\: 9}
 
 
 

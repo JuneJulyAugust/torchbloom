@@ -12,9 +12,9 @@ Topic ID: 157
 
 ### Introduction
 
-We often use $z=x+\textrm{i}y$ to denote a complex number $z$, where $x$ and $y$ are the real and imaginary parts of $z$ respectively.
+We often use $z=x+\text{i}y$ to denote a complex number $z$, where $x$ and $y$ are the real and imaginary parts of $z$ respectively.
 
-We can also depict complex numbers using $xy$-coordinates. For example, the complex number $4+6\textrm{i}$ can be represented by the point $(4,6),$ as follows:
+We can also depict complex numbers using $xy$-coordinates. For example, the complex number $4+6\text{i}$ can be represented by the point $(4,6),$ as follows:
 
 ![Instructional graphic](../../../../lesson-assets/precalculus/topic-157/e5c56327608e7eb9.png)
 
@@ -38,7 +38,7 @@ The coordinates of the point are $(-2,3)$.
 
 - the imaginary part is $y=3.$
 
-Therefore, the number depicted is $z=-2+3\textrm{i}.$
+Therefore, the number depicted is $z=-2+3\text{i}.$
 
 ### Example: Identifying a Complex Number With No Real or No Imaginary Part Represented by an Argand Diagram
 
@@ -56,17 +56,17 @@ The coordinates of the point are $(-4,0).$
 
 - the imaginary part is $y=0.$
 
-Therefore, the number depicted is $z=-4+0\textrm{i},$ which can be simplified to $z= -4.$
+Therefore, the number depicted is $z=-4+0\text{i},$ which can be simplified to $z= -4.$
 
 ### Example: Identifying an Argand Diagram Corresponding to a Complex Number
 
 #### Question
 
-Draw an Argand diagram representing the complex number $z=4+\textrm{i}$.
+Draw an Argand diagram representing the complex number $z=4+\text{i}$.
 
 #### Explanation
 
-We are given the complex number $z=4+\textrm{i}$.
+We are given the complex number $z=4+\text{i}$.
 
 - The real part of this complex number is $x=4,$ and
 

@@ -152,11 +152,11 @@ Let's check the conditions necessary for $f(x)$ to be continuous at $x=2.$
 
 - $f(2) = 6,$ so $f(2)$ exists. ${\color{green}\checkmark}$
 
-- We calculate the one-sided limits and find that they coincide: Therefore, the overall limit exists and $\lim_\limits{x\to 2} f(x)=8.\, \, {\color{green}\checkmark}$ $\ \[1ex]$
+- We calculate the one-sided limits and find that they coincide: Therefore, the overall limit exists and $\lim\limits_{x\to 2} f(x)=8.\, \, {\color{green}\checkmark}$ $\ \\[1ex]$
 
-- The limit of the function is not equal to the function value: $\lim_\limits{x\to 2} f(x)= 8,$ while $f(2) = 6.$ ${\color{red}\times}$
+- The limit of the function is not equal to the function value: $\lim\limits_{x\to 2} f(x)= 8,$ while $f(2) = 6.$ ${\color{red}\times}$
 
-Therefore, the function $f(x)$ has a discontinuity at $x=2$ because $\lim_\limits{x\to 2} f(x) \neq f(2).$
+Therefore, the function $f(x)$ has a discontinuity at $x=2$ because $\lim\limits_{x\to 2} f(x) \neq f(2).$
 
 ### Example: Applying the Definition of Continuity to Evaluate a Limit
 

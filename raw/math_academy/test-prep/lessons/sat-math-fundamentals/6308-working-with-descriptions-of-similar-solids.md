@@ -26,7 +26,7 @@ Here, the smaller prism is similar to the larger one with a scale factor of
 $$
 
 
-k = \dfrac{7\,\textrm{cm}}{21\,\textrm{cm}} = \dfrac{1}{3}.
+k = \dfrac{7\,\text{cm}}{21\,\text{cm}} = \dfrac{1}{3}.
 
 
 $$
@@ -41,7 +41,7 @@ $$
 
 $$
 
-Solving for $\mathcal{A}_E$ and substituting in $\mathcal{A}_F = 567\,\textrm{m}^2,$ we get
+Solving for $\mathcal{A}_E$ and substituting in $\mathcal{A}_F = 567\,\text{m}^2,$ we get
 
 $$
 
@@ -71,7 +71,7 @@ $$
 
 $$
 
-Solving for $V_E$ and substituting in $V_F = 1701\,\textrm{cm}^3,$ we get
+Solving for $V_E$ and substituting in $V_F = 1701\,\text{cm}^3,$ we get
 
 $$
 
@@ -85,7 +85,7 @@ $$
 
 #### Question
 
-Cone $P$ has a height of $6\,\textrm{in}$ and is similar to cone $Q,$ which has a height of $9\,\textrm{in}.$ The volume of cone $P$ is $56\,\textrm{in}^3.$ What is the volume of cone $Q?$
+Cone $P$ has a height of $6\,\text{in}$ and is similar to cone $Q,$ which has a height of $9\,\text{in}.$ The volume of cone $P$ is $56\,\text{in}^3.$ What is the volume of cone $Q?$
 
 #### Explanation
 
@@ -96,7 +96,7 @@ Here, the larger cone ($Q$) is similar to the smaller one ($P$) with a scale fac
 $$
 
 
-k = \dfrac{9\,\textrm{in}}{6\,\textrm{in}} = \dfrac{3}{2}.
+k = \dfrac{9\,\text{in}}{6\,\text{in}} = \dfrac{3}{2}.
 
 
 $$
@@ -111,7 +111,7 @@ $$
 
 $$
 
-Solving for $\mathcal{V}_Q$ and substituting $\mathcal{V}_P = 56\,\textrm{in}^3,$ we get
+Solving for $\mathcal{V}_Q$ and substituting $\mathcal{V}_P = 56\,\text{in}^3,$ we get
 
 $$
 
@@ -125,7 +125,7 @@ $$
 
 #### Question
 
-The height of rectangular prism $P$ is $10\,\textrm{cm}.$ Rectangular prism $Q$ is similar to prism $P,$ and has a surface area that is $36$ times that of $P.$ What is the height of prism $Q?$
+The height of rectangular prism $P$ is $10\,\text{cm}.$ Rectangular prism $Q$ is similar to prism $P,$ and has a surface area that is $36$ times that of $P.$ What is the height of prism $Q?$
 
 #### Explanation
 
@@ -161,7 +161,7 @@ $$
 
 $$
 
-Solving for $h_Q$ and substituting in $h_P = 10\,\textrm{cm},$ we get
+Solving for $h_Q$ and substituting in $h_P = 10\,\text{cm},$ we get
 
 $$
 
@@ -175,7 +175,7 @@ $$
 
 #### Question
 
-Two triangular prisms, $P$ and $Q,$ are similar. The surface area of prism $P$ is $36\,\textrm{in}^2,$ and the surface area of prism $Q$ is $324\,\textrm{in}^2.$ If the volume of prism $P$ is $50\,\textrm{in}^3,$ what is the volume of prism $Q?$
+Two triangular prisms, $P$ and $Q,$ are similar. The surface area of prism $P$ is $36\,\text{in}^2,$ and the surface area of prism $Q$ is $324\,\text{in}^2.$ If the volume of prism $P$ is $50\,\text{in}^3,$ what is the volume of prism $Q?$
 
 #### Explanation
 
@@ -190,7 +190,7 @@ Here, prism $Q$ is larger than prism $P.$ Computing the ratio of the surface are
 $$
 
 
-\dfrac{\mathcal{A}_Q}{\mathcal{A}_P} = \dfrac{324\,\textrm{in}^2}{36\,\textrm{in}^2} = 9.
+\dfrac{\mathcal{A}_Q}{\mathcal{A}_P} = \dfrac{324\,\text{in}^2}{36\,\text{in}^2} = 9.
 
 
 $$
@@ -215,7 +215,7 @@ $$
 
 $$
 
-Solving for $\mathcal{V}_Q$ and substituting in $\mathcal{V}_P = 50\,\textrm{in}^3,$ we get
+Solving for $\mathcal{V}_Q$ and substituting in $\mathcal{V}_P = 50\,\text{in}^3,$ we get
 
 $$
 
@@ -229,7 +229,7 @@ $$
 
 #### Question
 
-Two square pyramids, $P$ and $Q,$ are similar. The volume of pyramid $P$ is $16\,\textrm{ft}^3,$ and the volume of pyramid $Q$ is $432\,\textrm{ft}^3.$ If the surface area of pyramid $P$ is $36\,\textrm{ft}^2,$ what is the surface area of pyramid $Q?$
+Two square pyramids, $P$ and $Q,$ are similar. The volume of pyramid $P$ is $16\,\text{ft}^3,$ and the volume of pyramid $Q$ is $432\,\text{ft}^3.$ If the surface area of pyramid $P$ is $36\,\text{ft}^2,$ what is the surface area of pyramid $Q?$
 
 #### Explanation
 
@@ -269,7 +269,7 @@ $$
 
 $$
 
-Solving for $\mathcal{A}_Q$ and substituting in $\mathcal{A}_P = 36\,\textrm{ft}^2,$ we get
+Solving for $\mathcal{A}_Q$ and substituting in $\mathcal{A}_P = 36\,\text{ft}^2,$ we get
 
 $$
 

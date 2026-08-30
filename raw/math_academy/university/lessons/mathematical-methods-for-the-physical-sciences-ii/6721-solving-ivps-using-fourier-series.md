@@ -322,7 +322,7 @@ Using the derivative condition $y'(0)=0{:}$
 $$
 
 
-\begin{aligned}𝑦^{′}(0) & =−𝐴\sqrt{√7}sin⁡(0)+𝐵\sqrt{√7}cos⁡(0)−\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}𝑛𝑎_{𝑛}sin⁡(0) \\ 0 & =0+𝐵\sqrt{√7}−0 \\ 𝐵 & =0\end{aligned}
+\begin{aligned}𝑦^{′}(0) & =−𝐴\sqrt{7}sin⁡(0)+𝐵\sqrt{7}cos⁡(0)−\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}𝑛𝑎_{𝑛}sin⁡(0) \\ 0 & =0+𝐵\sqrt{7}−0 \\ 𝐵 & =0\end{aligned}
 
 
 $$
@@ -432,7 +432,7 @@ Applying $y'(0)=0$ and noting that $\cos(0)=1,$ we have
 $$
 
 
-\begin{aligned}0 & =𝐵(\sqrt{√7}𝜋)+\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}\frac{8(−1)^{𝑛}}{𝑛𝜋^{2}(28−𝑛^{2})} \\ 𝐵(\sqrt{√7}𝜋) & =−\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}\frac{8(−1)^{𝑛}}{𝑛𝜋^{2}(28−𝑛^{2})} \\ 𝐵 & =−\frac{1}{\sqrt{√7}𝜋}\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}\frac{8(−1)^{𝑛}}{𝑛𝜋^{2}(28−𝑛^{2})} \\ & =−\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}\frac{8(−1)^{𝑛}}{\sqrt{√7}𝑛𝜋^{3}(28−𝑛^{2})}.\end{aligned}
+\begin{aligned}0 & =𝐵(\sqrt{7}𝜋)+\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}\frac{8(−1)^{𝑛}}{𝑛𝜋^{2}(28−𝑛^{2})} \\ 𝐵(\sqrt{7}𝜋) & =−\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}\frac{8(−1)^{𝑛}}{𝑛𝜋^{2}(28−𝑛^{2})} \\ 𝐵 & =−\frac{1}{\sqrt{7}𝜋}\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}\frac{8(−1)^{𝑛}}{𝑛𝜋^{2}(28−𝑛^{2})} \\ & =−\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}\frac{8(−1)^{𝑛}}{\sqrt{7}𝑛𝜋^{3}(28−𝑛^{2})}.\end{aligned}
 
 
 $$

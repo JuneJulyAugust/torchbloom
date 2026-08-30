@@ -20,7 +20,7 @@ A **Poisson process** is a mathematical model used to describe events occurring 
 
 We encountered the exponential distribution in a previous lesson. The exponential distribution models the amount of continuous space or time $X$ between two events in a Poisson process with success rate $\lambda.$
 
-We have already seen that if $X\sim \textrm{Exp}(\lambda)$ follows an exponential distribution, then the probability density function of $X$ is given by
+We have already seen that if $X\sim \text{Exp}(\lambda)$ follows an exponential distribution, then the probability density function of $X$ is given by
 
 $$
 
@@ -37,7 +37,7 @@ For example, suppose a call center receives telephone calls at an average rate o
 $$
 
 
-X\sim \textrm{Exp}(3).
+X\sim \text{Exp}(3).
 
 
 $$
@@ -47,7 +47,7 @@ Therefore, the probability that the time between two consecutive calls is less t
 $$
 
 
-\begin{aligned}𝑃(𝑋<1) & =∫_{10}^{}3𝑒^{−3𝑥}\,d𝑥 \\ & =−𝑒^{−3𝑥}_{10}^{} \\ & =[−𝑒^{−3}]−[−𝑒^{0}] \\ & =[−𝑒^{−3}]+[1] \\ & =1−𝑒^{−3} \\ & ≈0.9502.\end{aligned}
+\begin{aligned}𝑃(𝑋<1) & =∫_{10}3𝑒^{−3𝑥}\,d𝑥 \\ & =−𝑒^{−3𝑥}_{10} \\ & =[−𝑒^{−3}]−[−𝑒^{0}] \\ & =[−𝑒^{−3}]+[1] \\ & =1−𝑒^{−3} \\ & ≈0.9502.\end{aligned}
 
 
 $$
@@ -107,7 +107,7 @@ The time intervals between successive purchases can be modeled as an exponential
 $$
 
 
-X\sim \textrm{Exp} \left( \dfrac{1}{20} \right).
+X\sim \text{Exp} \left( \dfrac{1}{20} \right).
 
 
 $$
@@ -127,7 +127,7 @@ Therefore, the probability that a customer will purchase a smartphone within the
 $$
 
 
-\begin{aligned}𝑃(𝑋<5) & =∫_{50}^{}𝑓(𝑥)\,d𝑥 \\ & =∫_{50}^{}\frac{1}{20}𝑒^{−𝑥/20}\,d𝑥 \\ & =−𝑒^{−𝑥/20}_{50}^{} \\ & =−𝑒^{−1/4}+𝑒^{0} \\ & =1−𝑒^{−1/4} \\ & ≈0.2212\,.\end{aligned}
+\begin{aligned}𝑃(𝑋<5) & =∫_{50}𝑓(𝑥)\,d𝑥 \\ & =∫_{50}\frac{1}{20}𝑒^{−𝑥/20}\,d𝑥 \\ & =−𝑒^{−𝑥/20}_{50} \\ & =−𝑒^{−1/4}+𝑒^{0} \\ & =1−𝑒^{−1/4} \\ & ≈0.2212\,.\end{aligned}
 
 
 $$
@@ -159,7 +159,7 @@ The time intervals between successive purchases can be modeled as an exponential
 $$
 
 
-X\sim \textrm{Exp} \left( \dfrac{1}{30} \right).
+X\sim \text{Exp} \left( \dfrac{1}{30} \right).
 
 
 $$
@@ -179,7 +179,7 @@ Therefore, the probability that it takes more than $60$ minutes to sell the next
 $$
 
 
-\begin{aligned}𝑃(𝑋≥60) & =∫_{∞60}^{}𝑓(𝑥)\,d𝑥 \\ & =∫_{∞60}^{}\frac{1}{30}𝑒^{−𝑥/30}\,d𝑥 \\ & =−𝑒^{−𝑥/30}_{∞60}^{} \\ & =−𝑒^{−∞}+𝑒^{−2} \\ & =0+𝑒^{−2} \\ & =𝑒^{−2} \\ & ≈0.1353.\end{aligned}
+\begin{aligned}𝑃(𝑋≥60) & =∫_{∞60}𝑓(𝑥)\,d𝑥 \\ & =∫_{∞60}\frac{1}{30}𝑒^{−𝑥/30}\,d𝑥 \\ & =−𝑒^{−𝑥/30}_{∞60} \\ & =−𝑒^{−∞}+𝑒^{−2} \\ & =0+𝑒^{−2} \\ & =𝑒^{−2} \\ & ≈0.1353.\end{aligned}
 
 
 $$
@@ -205,7 +205,7 @@ Then, the probability that the particle will decay in the first minute is
 $$
 
 
-\begin{aligned}𝑃(𝑋<1) & =∫_{10}^{}𝑓(𝑥)\,d𝑥 \\ & =∫_{10}^{}0.8𝑒^{−0.8𝑥}\,d𝑥 \\ & =−𝑒^{−0.8𝑥}_{10}^{} \\ & =−𝑒^{−0.8}+𝑒^{0} \\ & =1−𝑒^{−0.8} \\ & ≈0.5507.\end{aligned}
+\begin{aligned}𝑃(𝑋<1) & =∫_{10}𝑓(𝑥)\,d𝑥 \\ & =∫_{10}0.8𝑒^{−0.8𝑥}\,d𝑥 \\ & =−𝑒^{−0.8𝑥}_{10} \\ & =−𝑒^{−0.8}+𝑒^{0} \\ & =1−𝑒^{−0.8} \\ & ≈0.5507.\end{aligned}
 
 
 $$
@@ -259,7 +259,7 @@ Let $X$ be the user's waiting time in seconds. Since the server approves $2$ req
 $$
 
 
-X\sim \textrm{Exp} \left( \dfrac{1}{30} \right).
+X\sim \text{Exp} \left( \dfrac{1}{30} \right).
 
 
 $$

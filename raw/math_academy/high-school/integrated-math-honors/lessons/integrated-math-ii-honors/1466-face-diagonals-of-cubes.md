@@ -14,7 +14,7 @@ Topic ID: 1466
 
 A **face diagonal** of a cube is any line segment that joins two opposite vertices on one of the cube's faces.
 
-The diagram below shows a cube with side length $s=3\,\textrm{m},$ as well as the face diagonal $\overline{BE}.$ Let's denote the length of the face diagonal as $f.$
+The diagram below shows a cube with side length $s=3\,\text{m},$ as well as the face diagonal $\overline{BE}.$ Let's denote the length of the face diagonal as $f.$
 
 ![Instructional graphic](../../../../lesson-assets/integrated-math-ii-honors/topic-1466/b082432ab1b390e5.png)
 
@@ -30,12 +30,12 @@ $$
 
 We'll derive this formula at the end of the lesson.
 
-For the cube above, substituting $s = 3\,\textrm{m}$ into the formula, we get that the length of the diagonal is
+For the cube above, substituting $s = 3\,\text{m}$ into the formula, we get that the length of the diagonal is
 
 $$
 
 
-f = 3\sqrt{2} \,\textrm{m}.
+f = 3\sqrt{2} \,\text{m}.
 
 
 $$
@@ -50,7 +50,7 @@ Every cube contains precisely $12$ face diagonals (two for each of the six faces
 
 #### Question
 
-The side length of a cube is $25 \, \textrm{mm}.$ What is the length of a face diagonal of the cube?
+The side length of a cube is $25 \, \text{mm}.$ What is the length of a face diagonal of the cube?
 
 #### Explanation
 
@@ -66,12 +66,12 @@ $$
 
 where $s$ is the side length of the cube.
 
-Substituting $s = 25\,\textrm{mm}$ into the formula, we get
+Substituting $s = 25\,\text{mm}$ into the formula, we get
 
 $$
 
 
-f = 25\sqrt{2} \,\textrm{mm}.
+f = 25\sqrt{2} \,\text{mm}.
 
 
 $$
@@ -123,7 +123,7 @@ Notice that $\triangle ABC$ is a right triangle with legs $AB$ and $AC$ and hypo
 $$
 
 
-\begin{aligned}𝑠^{2}+𝑠^{2} & =𝑓^{2} \\ 2𝑠^{2} & =𝑓^{2} \\ 𝑓 & =\sqrt{√2𝑠^{2}} \\ 𝑓 & =\sqrt{√2}⋅\sqrt{√𝑠^{2}} \\ 𝑓 & =\sqrt{√2}⋅𝑠 \\ 𝑓 & =𝑠\sqrt{√2}.\end{aligned}
+\begin{aligned}𝑠^{2}+𝑠^{2} & =𝑓^{2} \\ 2𝑠^{2} & =𝑓^{2} \\ 𝑓 & =\sqrt{2𝑠^{2}} \\ 𝑓 & =\sqrt{2}⋅\sqrt{𝑠^{2}} \\ 𝑓 & =\sqrt{2}⋅𝑠 \\ 𝑓 & =𝑠\sqrt{2}.\end{aligned}
 
 
 $$

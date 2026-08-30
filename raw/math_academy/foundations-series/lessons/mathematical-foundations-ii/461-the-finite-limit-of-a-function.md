@@ -20,7 +20,7 @@ As $x$ approaches $2$, the value of $f(x)$ approaches $1.$ In other words, the l
 $$
 
 
-\lim_\limits{x\rightarrow 2}f(x)=1 \, .
+\lim\limits_{x\rightarrow 2}f(x)=1 \, .
 
 
 $$
@@ -29,7 +29,7 @@ $$
 
 #### Question
 
-Find $\lim_\limits{x\rightarrow \,-1}f(x)$ for the function $f(x)$ whose graph is shown below.
+Find $\lim\limits_{x\rightarrow \,-1}f(x)$ for the function $f(x)$ whose graph is shown below.
 
 ![Instructional graphic](../../../lesson-assets/mathematical-foundations-ii/topic-461/62a4d06ea936c9f9.png)
 
@@ -40,7 +40,7 @@ As $x$ approaches $-1,$ the value of $f(x)$ approaches $2.$ Consequently,
 $$
 
 
-\lim_\limits{x\rightarrow \,-1}f(x)=2\,.
+\lim\limits_{x\rightarrow \,-1}f(x)=2\,.
 
 
 $$
@@ -62,7 +62,7 @@ Near $x=2,$ both $g(x)$ and $h(x)$ appear to be approaching $y=1$. Therefore,
 $$
 
 
-\lim_\limits{x\rightarrow 2}g(x)=1
+\lim\limits_{x\rightarrow 2}g(x)=1
 
 
 $$
@@ -72,7 +72,7 @@ and
 $$
 
 
-\lim_\limits{x\rightarrow 2}h(x)=1 \, .
+\lim\limits_{x\rightarrow 2}h(x)=1 \, .
 
 
 $$
@@ -81,7 +81,7 @@ $$
 
 #### Question
 
-Find $\lim_\limits{x\rightarrow \,0} f(x)$ for the function below.
+Find $\lim\limits_{x\rightarrow \,0} f(x)$ for the function below.
 
 ![Instructional graphic](../../../lesson-assets/mathematical-foundations-ii/topic-461/de5a9ad1ec6c6368.png)
 
@@ -92,7 +92,7 @@ As $x$ approaches $0,$ the value of $f(x)$ approaches $1.$ Consequently,
 $$
 
 
-\lim_\limits{x\rightarrow \,0}f(x)= 1\,.
+\lim\limits_{x\rightarrow \,0}f(x)= 1\,.
 
 
 $$
@@ -105,11 +105,11 @@ Remember, it does not matter that the actual value of $f(0)$ is $2.$ All that ma
 
 Which of the following statements are true concerning the function $y=f(x)$ whose graph is shown below?
 
-1. $\lim_\limits{x\rightarrow \,0}f(x)=0$
+1. $\lim\limits_{x\rightarrow \,0}f(x)=0$
 
-2. $\lim_\limits{x\rightarrow \,3}f(x)=0$
+2. $\lim\limits_{x\rightarrow \,3}f(x)=0$
 
-3. $\lim_\limits{x\rightarrow \,-1}f(x)=\lim_\limits{x\rightarrow \,1}f(x)$
+3. $\lim\limits_{x\rightarrow \,-1}f(x)=\lim\limits_{x\rightarrow \,1}f(x)$
 
 ![Instructional graphic](../../../lesson-assets/mathematical-foundations-ii/topic-461/6b86b5f7738146ef.png)
 

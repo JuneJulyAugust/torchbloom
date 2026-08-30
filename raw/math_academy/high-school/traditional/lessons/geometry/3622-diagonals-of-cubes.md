@@ -13,7 +13,7 @@ Topic ID: 3622
 
 A **diagonal** of a cube is any line segment that joins two opposite vertices. Thus, the diagonal of a cube is the longest line segment that we can draw inside a cube.
 
-The diagram below shows a cube with side length $s=3\,\textrm{m},$ as well as the diagonal $\overline{AB}.$ Let's denote the length of the diagonal as $d.$
+The diagram below shows a cube with side length $s=3\,\text{m},$ as well as the diagonal $\overline{AB}.$ Let's denote the length of the diagonal as $d.$
 
 ![Instructional graphic](../../../../lesson-assets/geometry/topic-3622/ad021cecb06f2eb6.png)
 
@@ -34,7 +34,7 @@ For the cube above, the length of the diagonal is
 $$
 
 
-\begin{aligned}𝑑 & =𝑠\sqrt{√3}=3\sqrt{√3}\,m.\end{aligned}
+\begin{aligned}𝑑 & =𝑠\sqrt{3}=3\sqrt{3}\,m.\end{aligned}
 
 
 $$
@@ -69,12 +69,12 @@ $$
 
 where $s$ is the side length of the cube.
 
-Substituting $s = 9\sqrt 3\,\textrm{cm}$ into the formula, we get
+Substituting $s = 9\sqrt 3\,\text{cm}$ into the formula, we get
 
 $$
 
 
-\begin{aligned}𝑑 & =9\sqrt{√3}⋅\sqrt{√3} \\ & =9⋅(\sqrt{√3})^{2} \\ & =9⋅3 \\ & =27\,cm.\end{aligned}
+\begin{aligned}𝑑 & =9\sqrt{3}⋅\sqrt{3} \\ & =9⋅(\sqrt{3})^{2} \\ & =9⋅3 \\ & =27\,cm.\end{aligned}
 
 
 $$
@@ -83,7 +83,7 @@ $$
 
 #### Question
 
-The diagonal of a cube is $9\, \textrm{in}.$ Find the length of the edges of the cube.
+The diagonal of a cube is $9\, \text{in}.$ Find the length of the edges of the cube.
 
 #### Explanation
 
@@ -112,12 +112,12 @@ Finally, we rationalize the denominator, giving
 $$
 
 
-\begin{aligned}𝑠 & =\frac{9}{\sqrt{√3}}⋅\frac{\sqrt{√3}}{\sqrt{√3}} \\ & =\frac{9\sqrt{√3}}{(\sqrt{√3})^{2}} \\ & =\frac{9\sqrt{√3}}{3} \\ & =3\sqrt{√3}\,in.\end{aligned}
+\begin{aligned}𝑠 & =\frac{9}{\sqrt{3}}⋅\frac{\sqrt{3}}{\sqrt{3}} \\ & =\frac{9\sqrt{3}}{(\sqrt{3})^{2}} \\ & =\frac{9\sqrt{3}}{3} \\ & =3\sqrt{3}\,in.\end{aligned}
 
 
 $$
 
-Therefore, the length of the edges is $3\sqrt{3}\,\textrm{in}.$
+Therefore, the length of the edges is $3\sqrt{3}\,\text{in}.$
 
 ### Deriving the Diagonal Length Formula
 
@@ -138,7 +138,7 @@ Finally, applying the Pythagorean theorem to this triangle, we arrive at an expr
 $$
 
 
-\begin{aligned}(𝑠\sqrt{√2})^{2}+𝑠^{2} & =𝑑^{2} \\ 2𝑠^{2}+𝑠^{2} & =𝑑^{2} \\ 3𝑠^{2} & =𝑑^{2} \\ 𝑑 & =\sqrt{√3𝑠^{2}} \\ 𝑑 & =\sqrt{√3}⋅\sqrt{√𝑠^{2}} \\ 𝑑 & =\sqrt{√3}⋅𝑠 \\ 𝑑 & =𝑠\sqrt{√3}\end{aligned}
+\begin{aligned}(𝑠\sqrt{2})^{2}+𝑠^{2} & =𝑑^{2} \\ 2𝑠^{2}+𝑠^{2} & =𝑑^{2} \\ 3𝑠^{2} & =𝑑^{2} \\ 𝑑 & =\sqrt{3𝑠^{2}} \\ 𝑑 & =\sqrt{3}⋅\sqrt{𝑠^{2}} \\ 𝑑 & =\sqrt{3}⋅𝑠 \\ 𝑑 & =𝑠\sqrt{3}\end{aligned}
 
 
 $$

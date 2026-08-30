@@ -34,7 +34,7 @@ $$
 
 
 
-\begin{aligned}\sqrt{√36𝑎^{2}} & = \\ \sqrt{√(6𝑎)^{2}} & = \\ |6𝑎| & = \\ |6|⋅|𝑎| & \\ 6|𝑎| & \end{aligned}
+\begin{aligned}\sqrt{36𝑎^{2}} & = \\ \sqrt{(6𝑎)^{2}} & = \\ |6𝑎| & = \\ |6|⋅|𝑎| & \\ 6|𝑎| & \end{aligned}
 
 
 
@@ -78,7 +78,7 @@ $$
 
 
 
-\begin{aligned} \sqrt{\dfrac{r^2}{s^2}} &= \\\[5pt] \sqrt{\dfrac{r}{s} \cdot \dfrac{r}{s}} &= \\\[5pt] \sqrt{\left(\dfrac{r}{s}\right)^2} &= \\\[5pt] \left|\dfrac{r}{s}\right| &= \\\[5pt] \dfrac{|r|}{|s|} & \end{aligned}
+\begin{aligned} \sqrt{\dfrac{r^2}{s^2}} &= \\[5pt] \sqrt{\dfrac{r}{s} \cdot \dfrac{r}{s}} &= \\[5pt] \sqrt{\left(\dfrac{r}{s}\right)^2} &= \\[5pt] \left|\dfrac{r}{s}\right| &= \\[5pt] \dfrac{|r|}{|s|} & \end{aligned}
 
 
 
@@ -108,7 +108,7 @@ $$
 
 
 
-\begin{aligned} \sqrt{t^2}&=\\\[5pt] \sqrt{(t)^2}&=\\\[5pt] |t|.& \end{aligned}
+\begin{aligned} \sqrt{t^2}&=\\[5pt] \sqrt{(t)^2}&=\\[5pt] |t|.& \end{aligned}
 
 
 
@@ -134,7 +134,7 @@ $$
 
 
 
-\begin{aligned}\sqrt{√𝑡^{2}} & = \\ \sqrt{√(−2)^{2}} & = \\ \sqrt{√4} & = \\ 2 & .\end{aligned}
+\begin{aligned}\sqrt{𝑡^{2}} & = \\ \sqrt{(−2)^{2}} & = \\ \sqrt{4} & = \\ 2 & .\end{aligned}
 
 
 
@@ -180,7 +180,7 @@ $$
 
 
 
-\begin{aligned} \sqrt{y^4 z^{6}} & = \\\[5pt] \sqrt{y^2 z^3 \cdot y^2 z^3} &= \\\[5pt] \sqrt{\left(y^2 z^3\right)^2}&=\\\[5pt] |y^2 z^3| & = \\\[5pt] |y^2| \cdot |z^3| & = \\\[5pt] |y^2| \cdot |z|^3 \end{aligned}
+\begin{aligned} \sqrt{y^4 z^{6}} & = \\[5pt] \sqrt{y^2 z^3 \cdot y^2 z^3} &= \\[5pt] \sqrt{\left(y^2 z^3\right)^2}&=\\[5pt] |y^2 z^3| & = \\[5pt] |y^2| \cdot |z^3| & = \\[5pt] |y^2| \cdot |z|^3 \end{aligned}
 
 
 

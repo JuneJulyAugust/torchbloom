@@ -113,7 +113,7 @@ We can construct a cost function $C(x)$ for a business using the following equat
 $$
 
 
-C(x) = (\text{fixed cost}) + (\textrm{number of units})\cdot (\textrm{cost per unit})
+C(x) = (\text{fixed cost}) + (\text{number of units})\cdot (\text{cost per unit})
 
 
 $$
@@ -122,7 +122,7 @@ Let's break this equation down a bit:
 
 - The **fixed cost** is the part of the cost function that does not change. Irrespective of how many units are produced, fixed costs are always the same. Fixed costs typically incorporate rent, utilities, communications, employee wages, taxes, etc.
 
-- The term $(\textrm{number of units})\cdot (\textrm{cost per unit})$ represents the **variable cost.** This part of the cost function changes depending on how many units are produced.
+- The term $(\text{number of units})\cdot (\text{cost per unit})$ represents the **variable cost.** This part of the cost function changes depending on how many units are produced.
 
 For example, suppose that a company produces $x$ units of sweaters per month. Each unit costs $49$ to make, and the company's fixed costs are $4\,500$ per month.
 
@@ -161,7 +161,7 @@ The cost function $C(x)$ can be calculated as follows:
 $$
 
 
-C(x) = (\text{fixed cost}) + (\textrm{number of units})\cdot (\textrm{cost per unit})
+C(x) = (\text{fixed cost}) + (\text{number of units})\cdot (\text{cost per unit})
 
 
 $$

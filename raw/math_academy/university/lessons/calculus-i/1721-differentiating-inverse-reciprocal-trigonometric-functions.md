@@ -16,7 +16,7 @@ We can calculate the derivatives of the inverse reciprocal trigonometric functio
 $$
 
 
-\begin{aligned}\frac{d}{d𝑥}(arcsec 𝑥) & =\frac{1}{|𝑥|\sqrt{√𝑥^{2}−1}} \\ \frac{d}{d𝑥}(arccsc 𝑥) & =−\frac{1}{|𝑥|\sqrt{√𝑥^{2}−1}} \\ \frac{d}{d𝑥}(arccot 𝑥) & =−\frac{1}{1+𝑥^{2}}\end{aligned}
+\begin{aligned}\frac{d}{d𝑥}(arcsec 𝑥) & =\frac{1}{|𝑥|\sqrt{𝑥^{2}−1}} \\ \frac{d}{d𝑥}(arccsc 𝑥) & =−\frac{1}{|𝑥|\sqrt{𝑥^{2}−1}} \\ \frac{d}{d𝑥}(arccot 𝑥) & =−\frac{1}{1+𝑥^{2}}\end{aligned}
 
 
 $$
@@ -25,11 +25,11 @@ $$
 
 #### Question
 
-Calculate $\dfrac {\textrm{d}y}{\textrm{d}x}$ if $y = 2 \,\textrm {arccot} x.$
+Calculate $\dfrac {\text{d}y}{\text{d}x}$ if $y = 2 \,\textrm {arccot} x.$
 
 #### Explanation
 
-The formula for the derivative of $\textrm{arccot}$ is
+The formula for the derivative of $\text{arccot}$ is
 
 $$
 
@@ -57,7 +57,7 @@ Find $f'(x)$ if $f(x) =2 \, \textrm {arccot} (x^2 + 5).$
 
 #### Explanation
 
-The formula for the derivative of $\textrm{arccot}$ is
+The formula for the derivative of $\text{arccot}$ is
 
 $$
 
@@ -85,7 +85,7 @@ If $f(x) =3 x\, \textrm {arccsc}x,$ calculate $f'(x).$
 
 #### Explanation
 
-The formula for the derivative of $\textrm{arccsc}$ is
+The formula for the derivative of $\text{arccsc}$ is
 
 $$
 
@@ -100,7 +100,7 @@ Using the product rule and the formula above, we obtain
 $$
 
 
-\begin{aligned}𝑓^{′}(𝑥) & =\frac{d}{d𝑥}(3𝑥\,arccsc 𝑥) \\ & =3\frac{d}{d𝑥}(𝑥\,arccsc 𝑥) \\ & =3(𝑥⋅\frac{d}{d𝑥}(arccsc 𝑥)+arccsc 𝑥⋅\frac{d}{d𝑥}(𝑥)) \\ & =3𝑥(−\frac{1}{|𝑥|\sqrt{√𝑥^{2}−1}})+3\,arccsc 𝑥⋅1 \\ & =−\frac{3𝑥}{|𝑥|\sqrt{√𝑥^{2}−1}}+3\,arccsc 𝑥.\end{aligned}
+\begin{aligned}𝑓^{′}(𝑥) & =\frac{d}{d𝑥}(3𝑥\,arccsc 𝑥) \\ & =3\frac{d}{d𝑥}(𝑥\,arccsc 𝑥) \\ & =3(𝑥⋅\frac{d}{d𝑥}(arccsc 𝑥)+arccsc 𝑥⋅\frac{d}{d𝑥}(𝑥)) \\ & =3𝑥(−\frac{1}{|𝑥|\sqrt{𝑥^{2}−1}})+3\,arccsc 𝑥⋅1 \\ & =−\frac{3𝑥}{|𝑥|\sqrt{𝑥^{2}−1}}+3\,arccsc 𝑥.\end{aligned}
 
 
 $$
@@ -109,11 +109,11 @@ $$
 
 #### Question
 
-If $f(x) = \dfrac{\textrm{arcsec} x}{\textrm{arccsc} x},$ calculate $f'(x).$
+If $f(x) = \dfrac{\text{arcsec} x}{\text{arccsc} x},$ calculate $f'(x).$
 
 #### Explanation
 
-Here, we let $u(x) = \textrm{arcsec} x$ and $v(x) = \textrm{arccsc} x$, and apply the quotient rule.
+Here, we let $u(x) = \text{arcsec} x$ and $v(x) = \text{arccsc} x$, and apply the quotient rule.
 
 We use the formulae
 
@@ -130,7 +130,7 @@ Therefore,
 $$
 
 
-\begin{aligned}𝑓^{′}(𝑥) & =\frac{𝑢^{′}(𝑥)⋅𝑣(𝑥)−𝑢(𝑥)⋅𝑣^{′}(𝑥)}{[𝑣(𝑥)]^{2}} \\ & =\frac{\frac{1}{|𝑥|\sqrt{√𝑥^{2}−1}}⋅arccsc 𝑥−arcsec 𝑥⋅(−\frac{1}{|𝑥|\sqrt{√𝑥^{2}−1}})}{|𝑥|\sqrt{√𝑥^{2}−1}} \\ & =(\frac{1}{|𝑥|\sqrt{√𝑥^{2}−1}})\frac{arccsc 𝑥+arcsec 𝑥}{arccsc ^{2}𝑥} \\ & =\frac{arccsc 𝑥+arcsec 𝑥}{|𝑥|\sqrt{√𝑥^{2}−1} arccsc ^{2}𝑥}.\end{aligned}
+\begin{aligned}𝑓^{′}(𝑥) & =\frac{𝑢^{′}(𝑥)⋅𝑣(𝑥)−𝑢(𝑥)⋅𝑣^{′}(𝑥)}{[𝑣(𝑥)]^{2}} \\ & =\frac{\frac{1}{|𝑥|\sqrt{𝑥^{2}−1}}⋅arccsc 𝑥−arcsec 𝑥⋅(−\frac{1}{|𝑥|\sqrt{𝑥^{2}−1}})}{|𝑥|\sqrt{𝑥^{2}−1}} \\ & =(\frac{1}{|𝑥|\sqrt{𝑥^{2}−1}})\frac{arccsc 𝑥+arcsec 𝑥}{arccsc ^{2}𝑥} \\ & =\frac{arccsc 𝑥+arcsec 𝑥}{|𝑥|\sqrt{𝑥^{2}−1} arccsc ^{2}𝑥}.\end{aligned}
 
 
 $$

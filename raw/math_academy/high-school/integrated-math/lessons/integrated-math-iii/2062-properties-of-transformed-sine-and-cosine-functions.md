@@ -48,7 +48,7 @@ $$
 
 From here, we can see that the phase shift (or **phase**) is $-\dfrac{C}{\color{blue}B}.$
 
-The **midline** is the horizontal line that lies halfway between the horizontal lines $y = y_{\textrm{max}}$ and $y = y_{\textrm{min}},$ where $y_{\textrm{max}}$ and $y_{\textrm{min}}$ are the maximum and minimum values of our trigonometric function, respectively. Its equation is given by
+The **midline** is the horizontal line that lies halfway between the horizontal lines $y = y_{\text{max}}$ and $y = y_{\text{min}},$ where $y_{\text{max}}$ and $y_{\text{min}}$ are the maximum and minimum values of our trigonometric function, respectively. Its equation is given by
 
 $$
 
@@ -63,7 +63,7 @@ We can also think of the midline as representing the average of the maximum and 
 $$
 
 
-y = \dfrac{ y_{\textrm{max}} + y_{\textrm{min}}}{2}.
+y = \dfrac{ y_{\text{max}} + y_{\text{min}}}{2}.
 
 
 $$
@@ -117,12 +117,12 @@ The equation of the midline is given by
 $$
 
 
-y = \dfrac{y_{\textrm{min}}+y_{\textrm{max}}}{2},
+y = \dfrac{y_{\text{min}}+y_{\text{max}}}{2},
 
 
 $$
 
-where $y_{\textrm{min}}$ and $y_{\textrm{max}}$ are the minimum and maximum values of the function. The midline equals the average of the maximum and minimum values.
+where $y_{\text{min}}$ and $y_{\text{max}}$ are the minimum and maximum values of the function. The midline equals the average of the maximum and minimum values.
 
 In our case, we have
 
@@ -165,7 +165,7 @@ The idea is to transform this inequality using addition, multiplication, and oth
 $$
 
 
-y_{\textrm{min}} \leq f(x) \leq y_{\textrm{max}}
+y_{\text{min}} \leq f(x) \leq y_{\text{max}}
 
 
 $$

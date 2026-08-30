@@ -118,17 +118,17 @@ The **amplitude** of a sine function or cosine function represents half the dist
 
 ![Instructional graphic](../../../lesson-assets/mathematical-foundations-ii/topic-1661/267d51fb2ae1e148.png)
 
-We can calculate the amplitude using the minimum and maximum values $y_\min$ and $y_\max\mathbin{:}$
+We can calculate the amplitude using the minimum and maximum values $y_{\min}$ and $y_{\max}\mathbin{:}$
 
 $$
 
 
-\textrm{Amplitude } =\dfrac{y_\max - y_\min}2
+\text{Amplitude } =\dfrac{y_{\max} - y_{\min}}2
 
 
 $$
 
-For example, the amplitude of the function $y=\sin x$ shown above, where $y_\min =-1$ and $y_\max =1$, is
+For example, the amplitude of the function $y=\sin x$ shown above, where $y_{\min} =-1$ and $y_{\max} =1$, is
 
 $$
 
@@ -156,7 +156,7 @@ The resulting graph is shown below.
 
 ![Instructional graphic](../../../lesson-assets/mathematical-foundations-ii/topic-1661/5003c343d57da1d3.png)
 
-From the graph, we see that the maximum value is $y_\max=2$ and the minimum value is $y_\min=-2.$ Therefore, the amplitude is
+From the graph, we see that the maximum value is $y_{\max}=2$ and the minimum value is $y_{\min}=-2.$ Therefore, the amplitude is
 
 $$
 

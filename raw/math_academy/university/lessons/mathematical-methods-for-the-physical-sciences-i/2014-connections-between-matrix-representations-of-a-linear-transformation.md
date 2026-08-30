@@ -36,7 +36,7 @@ For instance, if $[\begin{aligned}1 & −2 \\ −1 & 1\end{aligned}]$ and $[\beg
 $$
 
 
-\begin{aligned}[𝐓]_{C} & =𝑃_{B→C}⋅[𝐓]_{B}⋅𝑃_{−1B→C}^{} \\ & =[\begin{aligned}−1 & −3 \\ 1 & 2\end{aligned}][\begin{aligned}1 & −2 \\ −1 & 1\end{aligned}][\begin{aligned}−1 & −3 \\ 1 & 2\end{aligned}]^{−1} \\ & =[\begin{aligned}−1 & −3 \\ 1 & 2\end{aligned}][\begin{aligned}1 & −2 \\ −1 & 1\end{aligned}][\begin{aligned}2 & 3 \\ −1 & −1\end{aligned}] \\ & =[\begin{aligned}2 & −1 \\ −1 & 0\end{aligned}][\begin{aligned}2 & 3 \\ −1 & −1\end{aligned}] \\ & =[\begin{aligned}5 & 7 \\ −2 & −3\end{aligned}].\end{aligned}
+\begin{aligned}[𝐓]_{C} & =𝑃_{B→C}⋅[𝐓]_{B}⋅𝑃_{−1B→C} \\ & =[\begin{matrix}−1 & −3 \\ 1 & 2\end{matrix}][\begin{matrix}1 & −2 \\ −1 & 1\end{matrix}][\begin{matrix}−1 & −3 \\ 1 & 2\end{matrix}]^{−1} \\ & =[\begin{matrix}−1 & −3 \\ 1 & 2\end{matrix}][\begin{matrix}1 & −2 \\ −1 & 1\end{matrix}][\begin{matrix}2 & 3 \\ −1 & −1\end{matrix}] \\ & =[\begin{matrix}2 & −1 \\ −1 & 0\end{matrix}][\begin{matrix}2 & 3 \\ −1 & −1\end{matrix}] \\ & =[\begin{matrix}5 & 7 \\ −2 & −3\end{matrix}].\end{aligned}
 
 
 $$
@@ -154,7 +154,7 @@ Our goal is to compute $[\mathbf{T}]_{\mathcal{C}}.$ First, we compute the inver
 $$
 
 
-\begin{aligned}𝑃_{−1B→C}^{} & =[\begin{aligned}1 & −1 \\ 0 & 1\end{aligned}]^{−1} \\ & =\frac{1}{1⋅1−0⋅(−1)}[\begin{aligned}1 & 1 \\ 0 & 1\end{aligned}] \\ & =[\begin{aligned}1 & 1 \\ 0 & 1\end{aligned}]\end{aligned}
+\begin{aligned}𝑃_{−1B→C} & =[\begin{matrix}1 & −1 \\ 0 & 1\end{matrix}]^{−1} \\ & =\frac{1}{1⋅1−0⋅(−1)}[\begin{matrix}1 & 1 \\ 0 & 1\end{matrix}] \\ & =[\begin{matrix}1 & 1 \\ 0 & 1\end{matrix}]\end{aligned}
 
 
 $$
@@ -164,7 +164,7 @@ Now, we can compute the matrix of $\mathbf{T}$ relative to the basis $\mathcal{C
 $$
 
 
-\begin{aligned}[𝐓]_{C} & =𝑃_{B→C}⋅[𝐓]_{B}⋅𝑃_{−1B→C}^{} \\ & =[\begin{aligned}1 & −1 \\ 0 & 1\end{aligned}][\begin{aligned}2 & −3 \\ 5 & 4\end{aligned}][\begin{aligned}1 & 1 \\ 0 & 1\end{aligned}] \\ & =[\begin{aligned}−3 & −7 \\ 5 & 4\end{aligned}][\begin{aligned}1 & 1 \\ 0 & 1\end{aligned}] \\ & =[\begin{aligned}−3 & −10 \\ 5 & 9\end{aligned}]\end{aligned}
+\begin{aligned}[𝐓]_{C} & =𝑃_{B→C}⋅[𝐓]_{B}⋅𝑃_{−1B→C} \\ & =[\begin{matrix}1 & −1 \\ 0 & 1\end{matrix}][\begin{matrix}2 & −3 \\ 5 & 4\end{matrix}][\begin{matrix}1 & 1 \\ 0 & 1\end{matrix}] \\ & =[\begin{matrix}−3 & −7 \\ 5 & 4\end{matrix}][\begin{matrix}1 & 1 \\ 0 & 1\end{matrix}] \\ & =[\begin{matrix}−3 & −10 \\ 5 & 9\end{matrix}]\end{aligned}
 
 
 $$
@@ -214,7 +214,7 @@ First, we compute the inverse of $P_{\small{\mathcal{B}}\to{\mathcal{S}}} \mathb
 $$
 
 
-\begin{aligned}𝑃_{−1B→S}^{} & =[\begin{aligned}3 & −7 \\ −2 & 5\end{aligned}]^{−1} \\ & =\frac{1}{5⋅3−(−7)⋅(−2)}[\begin{aligned}5 & 7 \\ 2 & 3\end{aligned}] \\ & =[\begin{aligned}5 & 7 \\ 2 & 3\end{aligned}].\end{aligned}
+\begin{aligned}𝑃_{−1B→S} & =[\begin{matrix}3 & −7 \\ −2 & 5\end{matrix}]^{−1} \\ & =\frac{1}{5⋅3−(−7)⋅(−2)}[\begin{matrix}5 & 7 \\ 2 & 3\end{matrix}] \\ & =[\begin{matrix}5 & 7 \\ 2 & 3\end{matrix}].\end{aligned}
 
 
 $$
@@ -224,7 +224,7 @@ Now, we can compute the matrix of $\mathbf{T}$ relative to the standard basis $\
 $$
 
 
-\begin{aligned}[𝐓]_{S} & =𝑃_{B→S}⋅[𝐓]_{B}⋅𝑃_{−1B→S}^{} \\ & =[\begin{aligned}3 & −7 \\ −2 & 5\end{aligned}][\begin{aligned}1 & 2 \\ 1 & −1\end{aligned}][\begin{aligned}5 & 7 \\ 2 & 3\end{aligned}] \\ & =[\begin{aligned}−4 & 13 \\ 3 & −9\end{aligned}][\begin{aligned}5 & 7 \\ 2 & 3\end{aligned}] \\ & =[\begin{aligned}6 & 11 \\ −3 & −6\end{aligned}]\end{aligned}
+\begin{aligned}[𝐓]_{S} & =𝑃_{B→S}⋅[𝐓]_{B}⋅𝑃_{−1B→S} \\ & =[\begin{matrix}3 & −7 \\ −2 & 5\end{matrix}][\begin{matrix}1 & 2 \\ 1 & −1\end{matrix}][\begin{matrix}5 & 7 \\ 2 & 3\end{matrix}] \\ & =[\begin{matrix}−4 & 13 \\ 3 & −9\end{matrix}][\begin{matrix}5 & 7 \\ 2 & 3\end{matrix}] \\ & =[\begin{matrix}6 & 11 \\ −3 & −6\end{matrix}]\end{aligned}
 
 
 $$
@@ -304,7 +304,7 @@ We reduce $M$ using Gaussian elimination until we get the identity matrix on the
 $$
 
 
-\begin{aligned}𝑀 & =[\begin{aligned}1 & 1 & 1 & 0 \\ −1 & 1 & −1 & 2\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+𝑅_{1} \\ & ∼[\begin{aligned}1 & 1 & 1 & 0 \\ 0 & 2 & 0 & 2\end{aligned}] & 𝑅_{2} & :=\frac{1}{2}𝑅_{2} \\ & ∼[\begin{aligned}1 & 1 & 1 & 0 \\ 0 & 1 & 0 & 1\end{aligned}] & 𝑅_{1} & :=𝑅_{1}+(−1)𝑅_{2} \\ & ∼[\begin{aligned}1 & 0 & 1 & −1 \\ 0 & 1 & 0 & 1\end{aligned}] & & \end{aligned}
+\begin{aligned}𝑀 & =[\begin{matrix}1 & 1 & 1 & 0 \\ −1 & 1 & −1 & 2\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+𝑅_{1} \\ & ∼[\begin{matrix}1 & 1 & 1 & 0 \\ 0 & 2 & 0 & 2\end{matrix}] & 𝑅_{2} & :=\frac{1}{2}𝑅_{2} \\ & ∼[\begin{matrix}1 & 1 & 1 & 0 \\ 0 & 1 & 0 & 1\end{matrix}] & 𝑅_{1} & :=𝑅_{1}+(−1)𝑅_{2} \\ & ∼[\begin{matrix}1 & 0 & 1 & −1 \\ 0 & 1 & 0 & 1\end{matrix}] & & \end{aligned}
 
 
 $$
@@ -324,7 +324,7 @@ Now, we compute the inverse of $P_{\small{\mathcal{B}}\to{\mathcal{C}}} \mathbin
 $$
 
 
-\begin{aligned}𝑃_{−1B→C}^{} & =[\begin{aligned}1 & −1 \\ 0 & 1\end{aligned}]^{−1} \\ & =\frac{1}{1⋅1−0⋅(−1)}[\begin{aligned}1 & 1 \\ 0 & 1\end{aligned}] \\ & =[\begin{aligned}1 & 1 \\ 0 & 1\end{aligned}]\end{aligned}
+\begin{aligned}𝑃_{−1B→C} & =[\begin{matrix}1 & −1 \\ 0 & 1\end{matrix}]^{−1} \\ & =\frac{1}{1⋅1−0⋅(−1)}[\begin{matrix}1 & 1 \\ 0 & 1\end{matrix}] \\ & =[\begin{matrix}1 & 1 \\ 0 & 1\end{matrix}]\end{aligned}
 
 
 $$
@@ -334,7 +334,7 @@ Finally, we can compute the matrix of $\mathbf{T}$ relative to the basis $\mathc
 $$
 
 
-\begin{aligned}[𝐓]_{C} & =𝑃_{B→C}⋅[𝐓]_{B}⋅𝑃_{−1B→C}^{} \\ & =[\begin{aligned}1 & −1 \\ 0 & 1\end{aligned}][\begin{aligned}4 & −3 \\ 2 & 6\end{aligned}][\begin{aligned}1 & 1 \\ 0 & 1\end{aligned}] \\ & =[\begin{aligned}2 & −9 \\ 2 & 6\end{aligned}][\begin{aligned}1 & 1 \\ 0 & 1\end{aligned}] \\ & =[\begin{aligned}2 & −7 \\ 2 & 8\end{aligned}]\end{aligned}
+\begin{aligned}[𝐓]_{C} & =𝑃_{B→C}⋅[𝐓]_{B}⋅𝑃_{−1B→C} \\ & =[\begin{matrix}1 & −1 \\ 0 & 1\end{matrix}][\begin{matrix}4 & −3 \\ 2 & 6\end{matrix}][\begin{matrix}1 & 1 \\ 0 & 1\end{matrix}] \\ & =[\begin{matrix}2 & −9 \\ 2 & 6\end{matrix}][\begin{matrix}1 & 1 \\ 0 & 1\end{matrix}] \\ & =[\begin{matrix}2 & −7 \\ 2 & 8\end{matrix}]\end{aligned}
 
 
 $$

@@ -34,7 +34,7 @@ We apply the multiplicative property of double integrals and then evaluate each 
 $$
 
 
-\begin{aligned} \iint\limits_{R} xy\\e^{x+y}\: \textrm d A &= \iint\limits_{R} \Big( x\\\! e^x \Big)\Big( y\\\! e^{y} \Big) \textrm d A\\\[5pt] &= \left(\int_0^1x\\e^{x} \\\textrm d x\right)\left( \int_1^2 y \\\!e^{y} \\\textrm d y\right)\\\[5pt] &= \Big[x\\\!e^x-e^x\Big]_0^1 \cdot \Big[y\\\!e^y-e^y\Big]_1^2\\\[5pt] &= \Big(e^1-e^1 - \left(0-e^0\right)\Big) \cdot \Big(2e^2-e^2 - \left(e^1-e^1\right) \Big)\\\[5pt] &= 1\cdot e^2\\\[5pt] &= e^2 \end{aligned}
+\begin{aligned} \iint\limits_{R} xy\\e^{x+y}\: \textrm d A &= \iint\limits_{R} \Big( x\\\! e^x \Big)\Big( y\\\! e^{y} \Big) \textrm d A\\[5pt] &= \left(\int_0^1x\\e^{x} \\\textrm d x\right)\left( \int_1^2 y \\\!e^{y} \\\textrm d y\right)\\[5pt] &= \Big[x\\\!e^x-e^x\Big]_0^1 \cdot \Big[y\\\!e^y-e^y\Big]_1^2\\[5pt] &= \Big(e^1-e^1 - \left(0-e^0\right)\Big) \cdot \Big(2e^2-e^2 - \left(e^1-e^1\right) \Big)\\[5pt] &= 1\cdot e^2\\[5pt] &= e^2 \end{aligned}
 
 
 $$
@@ -48,7 +48,7 @@ For example, suppose that $R= [a,b] \times [c,d].$ Then, we have the general res
 $$
 
 
-\begin{aligned}\underset{𝑅}{∬}𝑓(𝑥)\,d𝐴 & =\underset{𝑅}{∬}(𝑓(𝑥))(1)\,d𝐴 \\ & =(∫_{𝑏𝑎}^{}𝑓(𝑥)\,d𝑥)(∫_{𝑑𝑐}^{}1\,d𝑦) \\ & =(∫_{𝑏𝑎}^{}𝑓(𝑥)\,d𝑥)(𝑑−𝑐) \\ & =(𝑑−𝑐)∫_{𝑏𝑎}^{}𝑓(𝑥)\,d𝑥.\end{aligned}
+\begin{aligned}\underset{𝑅}{∬}𝑓(𝑥)\,d𝐴 & =\underset{𝑅}{∬}(𝑓(𝑥))(1)\,d𝐴 \\ & =(∫_{𝑏𝑎}𝑓(𝑥)\,d𝑥)(∫_{𝑑𝑐}1\,d𝑦) \\ & =(∫_{𝑏𝑎}𝑓(𝑥)\,d𝑥)(𝑑−𝑐) \\ & =(𝑑−𝑐)∫_{𝑏𝑎}𝑓(𝑥)\,d𝑥.\end{aligned}
 
 
 $$
@@ -58,7 +58,7 @@ By the same reasoning, we also have
 $$
 
 
-\iint\limits_{R} g(y) \, \textrm{d}A = (b-a) \int_c^d g(y) \, \textrm{d}y.
+\iint\limits_{R} g(y) \, \text{d}A = (b-a) \int_c^d g(y) \, \text{d}y.
 
 
 $$
@@ -118,7 +118,7 @@ Suppose that a domain $D$ is the union of two adjacent sub-domains $D_1$ and $D_
 $$
 
 
-\iint\limits_{D} f(x,y)\ \textrm{d}A = \iint\limits_{D_1} f(x,y)\ \textrm{d}A + \iint\limits_{D_2} f(x,y)\ \textrm{d}A.
+\iint\limits_{D} f(x,y)\ \text{d}A = \iint\limits_{D_1} f(x,y)\ \text{d}A + \iint\limits_{D_2} f(x,y)\ \text{d}A.
 
 
 $$
@@ -128,7 +128,7 @@ This property can be generalized if $D$ is split into a finite number $n$ of sub
 $$
 
 
-\iint\limits_{D} f(x,y)\ \textrm{d}A = \iint\limits_{D_1} f(x,y)\ \textrm{d}A + \iint\limits_{D_2} f(x,y)\ \textrm{d}A + \cdots + \iint\limits_{D_n} f(x,y)\ \textrm{d}A
+\iint\limits_{D} f(x,y)\ \text{d}A = \iint\limits_{D_1} f(x,y)\ \text{d}A + \iint\limits_{D_2} f(x,y)\ \text{d}A + \cdots + \iint\limits_{D_n} f(x,y)\ \text{d}A
 
 
 $$
@@ -142,7 +142,7 @@ Given that $C$ and $D$ are finite, non-overlapping regions and that
 $$
 
 
-\iint\limits_{C} f(x,y)\ \textrm{d}A = 8, \qquad \iint\limits_{D} f(x,y)\ \textrm{d}A = -5,
+\iint\limits_{C} f(x,y)\ \text{d}A = 8, \qquad \iint\limits_{D} f(x,y)\ \text{d}A = -5,
 
 
 $$
@@ -152,7 +152,7 @@ find the value of
 $$
 
 
-\iint\limits_{C \cup D} 3f(x,y)\ \textrm{d}A.
+\iint\limits_{C \cup D} 3f(x,y)\ \text{d}A.
 
 
 $$
@@ -234,7 +234,7 @@ First, notice that we have $R = R_1 \cup R_2,$ where $R_1= (0,2) \times (-1,0)$ 
 $$
 
 
-\begin{aligned} \iint\limits_{R} f(x,y)\\\textrm d A &= \iint\limits_{R_1} 2 \\\textrm d A + \iint\limits_{R_2} \dfrac{1}{xy+x+y+1} \\\textrm d A\\\[5pt] &= 2\iint\limits_{R_1} \textrm d A + \iint\limits_{R_2} \dfrac{1}{(x+1)(y+1)} \\\textrm d A\\\[5pt] &= 2(2-0)(0-(-1)) + \Bigg( \int_0^2 \dfrac{1}{x+1} \\\textrm d x \Bigg) \Bigg( \int_0^1 \dfrac{1}{y+1}\\\textrm d y \Bigg) \\\[5pt] &= 4 + \Big[\ln(x+1)\Big]_0^2 \cdot \Big[\ln(y+1)\Big]_0^1\\\[5pt] &= 4+ \ln 3\ln 2. \end{aligned}
+\begin{aligned} \iint\limits_{R} f(x,y)\\\textrm d A &= \iint\limits_{R_1} 2 \\\textrm d A + \iint\limits_{R_2} \dfrac{1}{xy+x+y+1} \\\textrm d A\\[5pt] &= 2\iint\limits_{R_1} \textrm d A + \iint\limits_{R_2} \dfrac{1}{(x+1)(y+1)} \\\textrm d A\\[5pt] &= 2(2-0)(0-(-1)) + \Bigg( \int_0^2 \dfrac{1}{x+1} \\\textrm d x \Bigg) \Bigg( \int_0^1 \dfrac{1}{y+1}\\\textrm d y \Bigg) \\[5pt] &= 4 + \Big[\ln(x+1)\Big]_0^2 \cdot \Big[\ln(y+1)\Big]_0^1\\[5pt] &= 4+ \ln 3\ln 2. \end{aligned}
 
 
 $$

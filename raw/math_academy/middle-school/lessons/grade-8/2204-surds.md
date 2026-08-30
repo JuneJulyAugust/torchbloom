@@ -83,7 +83,7 @@ Similarly, $\sqrt{\dfrac{1}{16}}$ is *not* a surd because it can be written as a
 $$
 
 
-\begin{aligned}\sqrt{√\frac{1}{16}} & =\sqrt{√\frac{1⋅1}{4⋅4}} \\ & =\sqrt{√\frac{1}{4}⋅\frac{1}{4}} \\ & =\sqrt{√(\frac{1}{4})^{2}} \\ & =\frac{1}{4}\end{aligned}
+\begin{aligned}\sqrt{\frac{1}{16}} & =\sqrt{\frac{1⋅1}{4⋅4}} \\ & =\sqrt{\frac{1}{4}⋅\frac{1}{4}} \\ & =\sqrt{(\frac{1}{4})^{2}} \\ & =\frac{1}{4}\end{aligned}
 
 
 $$

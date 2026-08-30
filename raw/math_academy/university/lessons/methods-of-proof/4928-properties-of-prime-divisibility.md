@@ -19,7 +19,7 @@ Let's state our first property:
 
 *For any positive integers $m$ and $n$ and any prime numbers $p$ and $q,$ we have that*
 
-$\qquad$ *$p^m \mid q^n \quad\textrm{or}\quad q^n \mid p^m \qquad\Longrightarrow\qquad p = q.$*
+$\qquad$ *$p^m \mid q^n \quad\text{or}\quad q^n \mid p^m \qquad\Longrightarrow\qquad p = q.$*
 
 We can prove this property using proof by contradiction.
 
@@ -31,7 +31,7 @@ We can prove this property using proof by contradiction.
 
 - *if $q^n \mid p^m$ then $p = q.$*
 
-*Let's suppose $p^m \mid q^n.$ For a contradiction, let's assume $p \neq q.$ Then, $\textrm{gcd}(p,q) = 1,$ and there exist integers $r$ and $s$ such that*
+*Let's suppose $p^m \mid q^n.$ For a contradiction, let's assume $p \neq q.$ Then, $\text{gcd}(p,q) = 1,$ and there exist integers $r$ and $s$ such that*
 
 $$
 
@@ -91,7 +91,7 @@ Let $q$ be a prime number. Which of the following statements are true?
 
 For any integers $m$ and $n$ and any prime numbers $p$ and $q,$ we have that
 
-$p^m \mid q^n \quad\textrm{or}\quad q^n \mid p^m \qquad\Longrightarrow\qquad p = q.$
+$p^m \mid q^n \quad\text{or}\quad q^n \mid p^m \qquad\Longrightarrow\qquad p = q.$
 
 With that in mind, let's examine each of the statements.
 
@@ -124,7 +124,7 @@ So, if $p$ divides a product of two factors, then $p$ divides at least one of th
 $$
 
 
-pr + as = \textrm{gcd}(a,p)=1.
+pr + as = \text{gcd}(a,p)=1.
 
 
 $$

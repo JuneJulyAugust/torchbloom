@@ -41,7 +41,7 @@ Then, we can write the line integral of $\mathbf F$ along $C$ as
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}𝐅⋅d𝐫 & =∫_{𝑏𝑎}^{}𝐅(𝐫(𝑡))⋅𝐫^{′}(𝑡)\,d𝑡 \\ & =∫_{𝑏𝑎}^{}(𝑃(𝑥(𝑡),𝑦(𝑡))\,𝐢+𝑄(𝑥(𝑡),𝑦(𝑡))\,𝐣)⋅(\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣)d𝑡 \\ & =∫_{𝑏𝑎}^{}(𝑃(𝑥(𝑡),𝑦(𝑡))\frac{d𝑥}{d𝑡}+𝑄(𝑥(𝑡),𝑦(𝑡))\frac{d𝑦}{d𝑡})\,d𝑡 \\ & =∫_{𝑏𝑎}^{}𝑃(𝑥(𝑡),𝑦(𝑡))\frac{d𝑥}{d𝑡}\,d𝑡+𝑄(𝑥(𝑡),𝑦(𝑡))\frac{d𝑦}{d𝑡}\,d𝑡 \\ & =\underset{𝐶}{∫}𝑃(𝑥,𝑦)\,d𝑥+𝑄(𝑥,𝑦)\,d𝑦.\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}𝐅⋅d𝐫 & =∫_{𝑏𝑎}𝐅(𝐫(𝑡))⋅𝐫^{′}(𝑡)\,d𝑡 \\ & =∫_{𝑏𝑎}(𝑃(𝑥(𝑡),𝑦(𝑡))\,𝐢+𝑄(𝑥(𝑡),𝑦(𝑡))\,𝐣)⋅(\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣)d𝑡 \\ & =∫_{𝑏𝑎}(𝑃(𝑥(𝑡),𝑦(𝑡))\frac{d𝑥}{d𝑡}+𝑄(𝑥(𝑡),𝑦(𝑡))\frac{d𝑦}{d𝑡})\,d𝑡 \\ & =∫_{𝑏𝑎}𝑃(𝑥(𝑡),𝑦(𝑡))\frac{d𝑥}{d𝑡}\,d𝑡+𝑄(𝑥(𝑡),𝑦(𝑡))\frac{d𝑦}{d𝑡}\,d𝑡 \\ & =\underset{𝐶}{∫}𝑃(𝑥,𝑦)\,d𝑥+𝑄(𝑥,𝑦)\,d𝑦.\end{aligned}
 
 
 $$
@@ -168,7 +168,7 @@ $$
 
 ![Instructional graphic](../../../lesson-assets/mathematical-methods-for-the-physical-sciences-ii/topic-3704/03a85b7e2b8f790c.png)
 
-Consider the integral $\displaystyle \int\limits_{C} \mathbf{F} \cdot \textrm{d}\mathbf{r},$ where $C$ is the closed polygonal path $FGHF$ shown above, traversed in the **** direction. Express this integral as a sum of line integrals along $C_1, C_2,$ and $C_3.$
+Consider the integral $\displaystyle \int\limits_{C} \mathbf{F} \cdot \text{d}\mathbf{r},$ where $C$ is the closed polygonal path $FGHF$ shown above, traversed in the **** direction. Express this integral as a sum of line integrals along $C_1, C_2,$ and $C_3.$
 
 #### Explanation
 
@@ -202,7 +202,7 @@ $$
 
 The path $C_1$ consists of a line segment from the point $A(-2,0)$ to the point $O(0,0),$ and the path $C_2$ consists of a line segment from the point $O(0,0)$ to the point $B(1,1).$
 
-Given that $\displaystyle \int\limits_{C_1} \mathbf{F} \cdot \textrm{d}\mathbf{r} = -4,$ evaluate $\displaystyle \int\limits_{C} \mathbf{F} \cdot \textrm{d}\mathbf{r},$ where $\mathbf{F}(x, y) = (2x-3y) \,\mathbf{i} + (2y-5x)\,\mathbf {j}$ and $C = C_1\cup C_2.$
+Given that $\displaystyle \int\limits_{C_1} \mathbf{F} \cdot \text{d}\mathbf{r} = -4,$ evaluate $\displaystyle \int\limits_{C} \mathbf{F} \cdot \text{d}\mathbf{r},$ where $\mathbf{F}(x, y) = (2x-3y) \,\mathbf{i} + (2y-5x)\,\mathbf {j}$ and $C = C_1\cup C_2.$
 
 #### Explanation
 
@@ -211,7 +211,7 @@ We will use the fact that
 $$
 
 
-\int\limits_{C} \mathbf{F} \cdot \textrm{d}\mathbf{r} = \int\limits_{C_1} \mathbf{F} \cdot \textrm{d}\mathbf{r} + \int\limits_{C_2} \mathbf{F} \cdot \textrm{d}\mathbf{r}.
+\int\limits_{C} \mathbf{F} \cdot \text{d}\mathbf{r} = \int\limits_{C_1} \mathbf{F} \cdot \text{d}\mathbf{r} + \int\limits_{C_2} \mathbf{F} \cdot \text{d}\mathbf{r}.
 
 
 $$
@@ -243,7 +243,7 @@ Computing the derivative, we get the following:
 $$
 
 
-\begin{aligned}𝐫_{′2}^{}(𝑡) & =\frac{d}{d𝑡}(𝑡)𝐢+\frac{d}{d𝑡}(𝑡)𝐣 \\ & =𝐢+𝐣\end{aligned}
+\begin{aligned}𝐫_{′2}(𝑡) & =\frac{d}{d𝑡}(𝑡)𝐢+\frac{d}{d𝑡}(𝑡)𝐣 \\ & =𝐢+𝐣\end{aligned}
 
 
 $$
@@ -253,7 +253,7 @@ We can now compute the dot product:
 $$
 
 
-\begin{aligned}𝐅(𝐫_{2}(𝑡))⋅𝐫_{′2}^{}(𝑡) & =(−𝑡\,𝐢−3𝑡\,𝐣)⋅(𝐢+𝐣) \\ & =−𝑡⋅1+(−3𝑡)⋅1 \\ & =−4𝑡\end{aligned}
+\begin{aligned}𝐅(𝐫_{2}(𝑡))⋅𝐫_{′2}(𝑡) & =(−𝑡\,𝐢−3𝑡\,𝐣)⋅(𝐢+𝐣) \\ & =−𝑡⋅1+(−3𝑡)⋅1 \\ & =−4𝑡\end{aligned}
 
 
 $$
@@ -263,7 +263,7 @@ Finally, we can evaluate the integral, as follows:
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}𝐅⋅d𝐫 & =\underset{𝐶_{1}}{∫}𝐅⋅d𝐫+\underset{𝐶_{2}}{∫}𝐅⋅d𝐫 \\ & =−4+∫_{10}^{}𝐅(𝐫_{𝟐}(𝑡))⋅𝐫_{′2}^{}(𝑡)\,d𝑡 \\ & =−4+∫_{10}^{}(−4𝑡)\,d𝑡 \\ & =−4+[−2𝑡^{2}]_{10}^{} \\ & =−4+[−2+0] \\ & =−6\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}𝐅⋅d𝐫 & =\underset{𝐶_{1}}{∫}𝐅⋅d𝐫+\underset{𝐶_{2}}{∫}𝐅⋅d𝐫 \\ & =−4+∫_{10}𝐅(𝐫_{𝟐}(𝑡))⋅𝐫_{′2}(𝑡)\,d𝑡 \\ & =−4+∫_{10}(−4𝑡)\,d𝑡 \\ & =−4+[−2𝑡^{2}]_{10} \\ & =−4+[−2+0] \\ & =−6\end{aligned}
 
 
 $$

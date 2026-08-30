@@ -17,7 +17,7 @@ In a previous lesson, we saw that
 
 $$
 
-10\,\textrm{tens} = 1\,\textrm{hundreds}.
+10\,\text{tens} = 1\,\text{hundreds}.
 
 $$
 
@@ -31,7 +31,7 @@ The first thing to realize is that
 
 $$
 
-20\,\textrm{tens} = 10\,\textrm{tens} + 10\,\textrm{tens}.
+20\,\text{tens} = 10\,\text{tens} + 10\,\text{tens}.
 
 $$
 
@@ -47,7 +47,7 @@ So, we conclude that
 
 $$
 
-{\color{blue}{2}}0\,\textrm{tens} = {\color{blue}{2}}\,\textrm{hundreds}.
+{\color{blue}{2}}0\,\text{tens} = {\color{blue}{2}}\,\text{hundreds}.
 
 $$
 
@@ -89,7 +89,7 @@ Since $76 = 70 + 6,$ we can write $76$ tens as
 
 $$
 
-70\,\textrm{tens} + 6\,\textrm{tens}.
+70\,\text{tens} + 6\,\text{tens}.
 
 $$
 
@@ -97,7 +97,7 @@ Now, since $70$ tens is the same as $7$ hundreds, the statement above is equal t
 
 $$
 
-7\,\textrm{hundreds} + 6\,\textrm{tens}.
+7\,\text{hundreds} + 6\,\text{tens}.
 
 $$
 
@@ -135,7 +135,7 @@ Since $68 = 60 + 8,$ we can write $68$ hundreds as
 
 $$
 
-60\,\textrm{hundreds} + 8\,\textrm{hundreds}.
+60\,\text{hundreds} + 8\,\text{hundreds}.
 
 $$
 
@@ -143,7 +143,7 @@ Now, since $60$ hundreds is the same as $6$ thousands, the statement above is eq
 
 $$
 
-6\,\textrm{thousands} + 8\,\textrm{hundreds}.
+6\,\text{thousands} + 8\,\text{hundreds}.
 
 $$
 

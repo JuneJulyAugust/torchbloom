@@ -122,7 +122,7 @@ So, the rectangle with the largest area is a square with side lengths $20$ m and
 $$
 
 
-A = 20\cdot 20 = 400\,\textrm{m}^2.
+A = 20\cdot 20 = 400\,\text{m}^2.
 
 
 $$
@@ -169,7 +169,7 @@ $$
 
 is the greatest possible value.
 
-****: This is subject to the constraint that the perimeter is $500\,\textrm{m}.$ This gives the equation
+****: This is subject to the constraint that the perimeter is $500\,\text{m}.$ This gives the equation
 
 $$
 
@@ -241,12 +241,12 @@ y=500-2(125)=250.
 
 $$
 
-Therefore, the dimensions of the field with the largest area are $x=125\,\textrm{m}$ and $y=250\,\textrm{m},$ and we conclude that
+Therefore, the dimensions of the field with the largest area are $x=125\,\text{m}$ and $y=250\,\text{m},$ and we conclude that
 
 $$
 
 
-x+y=375\,\textrm{m}.
+x+y=375\,\text{m}.
 
 
 $$
@@ -255,7 +255,7 @@ $$
 
 #### Question
 
-Among all rectangles with area $25\,\textrm{m}^2,$ what are the dimensions of the rectangle with the smallest perimeter?
+Among all rectangles with area $25\,\text{m}^2,$ what are the dimensions of the rectangle with the smallest perimeter?
 
 #### Explanation
 
@@ -273,7 +273,7 @@ P = 2(x + y).
 
 $$
 
-****: The constraint is that the area is exactly $25\,\textrm{m}^2.$ This gives the equation
+****: The constraint is that the area is exactly $25\,\text{m}^2.$ This gives the equation
 
 $$
 
@@ -345,4 +345,4 @@ $$
 
 $$
 
-Therefore, the dimensions of the rectangle with the smallest perimeter are $x=5\,\textrm{m}$ and $y=5\,\textrm{m}.$ In other words, the rectangle with the smallest perimeter is a square with sides of length $5\,\textrm{m}.$
+Therefore, the dimensions of the rectangle with the smallest perimeter are $x=5\,\text{m}$ and $y=5\,\text{m}.$ In other words, the rectangle with the smallest perimeter is a square with sides of length $5\,\text{m}.$

@@ -61,7 +61,7 @@ To compute the solution, we substitute the above values into the quadratic formu
 $$
 
 
-\begin{aligned}𝑥 & =\frac{−𝑏±\sqrt{√𝑏^{2}−4𝑎𝑐}}{2𝑎} \\ & =\frac{−(−2)±\sqrt{√(−2)^{2}−4(1)(−15)}}{2(1)} \\ & =\frac{2±\sqrt{√64}}{2} \\ & =\frac{2±8}{2} \\ & =1±4\end{aligned}
+\begin{aligned}𝑥 & =\frac{−𝑏±\sqrt{𝑏^{2}−4𝑎𝑐}}{2𝑎} \\ & =\frac{−(−2)±\sqrt{(−2)^{2}−4(1)(−15)}}{2(1)} \\ & =\frac{2±\sqrt{64}}{2} \\ & =\frac{2±8}{2} \\ & =1±4\end{aligned}
 
 
 $$
@@ -111,7 +111,7 @@ So, we substitute these values into the quadratic formula:
 $$
 
 
-\begin{aligned}𝑥 & =\frac{−𝑏±\sqrt{√𝑏^{2}−4𝑎𝑐}}{2𝑎} \\ & =\frac{−(−20)±\sqrt{√(−20)^{2}−4⋅25⋅(\,4\,)}}{2⋅25} \\ & =\frac{20±\sqrt{√20^{2}−4⋅25⋅\color{blue}\,4\,}}{2⋅25}\end{aligned}
+\begin{aligned}𝑥 & =\frac{−𝑏±\sqrt{𝑏^{2}−4𝑎𝑐}}{2𝑎} \\ & =\frac{−(−20)±\sqrt{(−20)^{2}−4⋅25⋅(\,4\,)}}{2⋅25} \\ & =\frac{20±\sqrt{20^{2}−4⋅25⋅\color{blue}\,4\,}}{2⋅25}\end{aligned}
 
 
 $$
@@ -123,7 +123,7 @@ Now, to find the solution, we simplify the above:
 $$
 
 
-\begin{aligned}\frac{20±\sqrt{√20^{2}−4⋅25⋅\color{blue}\,4\,}}{2⋅25} & =\frac{20±\sqrt{√400−400}}{50} \\ & =\frac{20±\sqrt{√0}}{50} \\ & =\frac{20±0}{50} \\ & =\frac{20}{50} \\ & =\frac{2}{5}\end{aligned}
+\begin{aligned}\frac{20±\sqrt{20^{2}−4⋅25⋅\color{blue}\,4\,}}{2⋅25} & =\frac{20±\sqrt{400−400}}{50} \\ & =\frac{20±\sqrt{0}}{50} \\ & =\frac{20±0}{50} \\ & =\frac{20}{50} \\ & =\frac{2}{5}\end{aligned}
 
 
 $$
@@ -153,7 +153,7 @@ So, we substitute these values into the quadratic formula:
 $$
 
 
-\begin{aligned} x &= \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} \\\[5pt] &= \dfrac{-(-3) \pm \sqrt{(-3)^2 - 4(2)(-5)}}{2(2)} \\\[5pt] &= \dfrac{3 \pm \sqrt{49}}{4} \\\[5pt] &= \dfrac{3 \pm 7}{4} \end{aligned}
+\begin{aligned} x &= \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} \\[5pt] &= \dfrac{-(-3) \pm \sqrt{(-3)^2 - 4(2)(-5)}}{2(2)} \\[5pt] &= \dfrac{3 \pm \sqrt{49}}{4} \\[5pt] &= \dfrac{3 \pm 7}{4} \end{aligned}
 
 
 $$
@@ -203,7 +203,7 @@ Now, we substitute these values into the quadratic formula:
 $$
 
 
-\begin{aligned} x &= \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} \\\[5pt] &= \dfrac{-(2) \pm \sqrt{(2)^2 - 4(1)(-6)}}{2(1)} \\\[5pt] &= \dfrac{-2 \pm \sqrt{28}}{2} \\\[5pt] &= \dfrac{-2 \pm 2\sqrt{7}}{2} \\\[5pt] &= -1 \pm \sqrt{7} \end{aligned}
+\begin{aligned} x &= \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} \\[5pt] &= \dfrac{-(2) \pm \sqrt{(2)^2 - 4(1)(-6)}}{2(1)} \\[5pt] &= \dfrac{-2 \pm \sqrt{28}}{2} \\[5pt] &= \dfrac{-2 \pm 2\sqrt{7}}{2} \\[5pt] &= -1 \pm \sqrt{7} \end{aligned}
 
 
 $$
@@ -243,7 +243,7 @@ Now, we substitute these values into the quadratic formula:
 $$
 
 
-\begin{aligned}𝑥 & =\frac{−𝑏±\sqrt{√𝑏^{2}−4𝑎𝑐}}{2𝑎} \\ & =\frac{−(−1)±\sqrt{√(−1)^{2}−4(3)(10)}}{2(3)} \\ & =\frac{1±\sqrt{√1−120}}{6} \\ & =\frac{1±\sqrt{√−119}}{6}\end{aligned}
+\begin{aligned}𝑥 & =\frac{−𝑏±\sqrt{𝑏^{2}−4𝑎𝑐}}{2𝑎} \\ & =\frac{−(−1)±\sqrt{(−1)^{2}−4(3)(10)}}{2(3)} \\ & =\frac{1±\sqrt{1−120}}{6} \\ & =\frac{1±\sqrt{−119}}{6}\end{aligned}
 
 
 $$

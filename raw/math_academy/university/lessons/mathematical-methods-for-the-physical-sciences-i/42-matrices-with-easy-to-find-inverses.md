@@ -81,7 +81,7 @@ Let's consider the $4\times4$ identity matrix:
 $$
 
 
-\begin{aligned}𝐼_{4}= & \begin{aligned}1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1\end{aligned} \\ & \,\,\,\begin{aligned}↑ & ↑ & ↑ & ↑\end{aligned} \\ & \,\,\,\begin{aligned}1 & 2 & 3 & 4\end{aligned}\end{aligned}
+\begin{aligned}𝐼_{4}= & \begin{matrix}1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1\end{matrix} \\ & \,\,\,\begin{matrix}↑ & ↑ & ↑ & ↑\end{matrix} \\ & \,\,\,\begin{matrix}1 & 2 & 3 & 4\end{matrix}\end{aligned}
 
 
 $$
@@ -90,44 +90,44 @@ Notice that we have numbered its columns.
 
 Now, let's create a new matrix $P$ by permuting its columns as follows:
 
-- insert the ${\color{purple}{3}}\textrm{rd}$ column of $I_4$ to the $1\textrm{st}$ column of the new matrix:
+- insert the ${\color{purple}{3}}\text{rd}$ column of $I_4$ to the $1\text{st}$ column of the new matrix:
 
 $$
 
 
-\begin{aligned} & \begin{aligned}0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 \\ 1 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0\end{aligned} \\ & \,\,\,\begin{aligned}↑ & ↑ & ↑ & ↑\end{aligned} \\ & \,\,\,\begin{aligned}3 & 0 & 0 & 0\end{aligned}\end{aligned}
+\begin{aligned} & \begin{matrix}0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 \\ 1 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0\end{matrix} \\ & \,\,\,\begin{matrix}↑ & ↑ & ↑ & ↑\end{matrix} \\ & \,\,\,\begin{matrix}3 & 0 & 0 & 0\end{matrix}\end{aligned}
 
 
 $$
 
-- insert the ${\color{blue}{1}}\textrm{st}$ column of $I_4$ to the $2\textrm{nd}$ column of the new matrix:
+- insert the ${\color{blue}{1}}\text{st}$ column of $I_4$ to the $2\text{nd}$ column of the new matrix:
 
 $$
 
 
-\begin{aligned} & \begin{aligned}0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 0 \\ 1 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0\end{aligned} \\ & \,\,\,\begin{aligned}↑ & ↑ & ↑ & ↑\end{aligned} \\ & \,\,\,\begin{aligned}0 & 1 & 0 & 0\end{aligned}\end{aligned}
+\begin{aligned} & \begin{matrix}0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 0 \\ 1 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0\end{matrix} \\ & \,\,\,\begin{matrix}↑ & ↑ & ↑ & ↑\end{matrix} \\ & \,\,\,\begin{matrix}0 & 1 & 0 & 0\end{matrix}\end{aligned}
 
 
 $$
 
-- insert the ${\color{red}{2}}\textrm{nd}$ column of $I_4$ to the $3\textrm{rd}$ column of the new matrix:
+- insert the ${\color{red}{2}}\text{nd}$ column of $I_4$ to the $3\text{rd}$ column of the new matrix:
 
 $$
 
 
-\begin{aligned} & \begin{aligned}0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 1 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0\end{aligned} \\ & \,\,\,\begin{aligned}↑ & ↑ & ↑ & ↑\end{aligned} \\ & \,\,\,\begin{aligned}3 & 1 & 2 & 4\end{aligned}\end{aligned}
+\begin{aligned} & \begin{matrix}0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 1 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0\end{matrix} \\ & \,\,\,\begin{matrix}↑ & ↑ & ↑ & ↑\end{matrix} \\ & \,\,\,\begin{matrix}3 & 1 & 2 & 4\end{matrix}\end{aligned}
 
 
 $$
 
-- insert the $4\textrm{th}$ column of $I_4$ to the $4\textrm{th}$ column of the new matrix:
+- insert the $4\text{th}$ column of $I_4$ to the $4\text{th}$ column of the new matrix:
 
 This gives the following permutation matrix:
 
 $$
 
 
-\begin{aligned}𝑃= & \begin{aligned}0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 1 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1\end{aligned} \\ & \,\,\,\begin{aligned}↑ & ↑ & ↑ & ↑\end{aligned} \\ & \,\,\,\begin{aligned}3 & 1 & 2 & 4\end{aligned}\end{aligned}
+\begin{aligned}𝑃= & \begin{matrix}0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 1 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1\end{matrix} \\ & \,\,\,\begin{matrix}↑ & ↑ & ↑ & ↑\end{matrix} \\ & \,\,\,\begin{matrix}3 & 1 & 2 & 4\end{matrix}\end{aligned}
 
 
 $$
@@ -149,7 +149,7 @@ Using this theorem, we get
 $$
 
 
-\begin{aligned}\begin{aligned}0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 1 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1\end{aligned}^{−1}=\begin{aligned}0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 1 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1\end{aligned}^{𝑇}=\begin{aligned}0 & 0 & 1 & 0 \\ 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 1\end{aligned}.\end{aligned}
+\begin{aligned}\begin{matrix}0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 1 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1\end{matrix}^{−1}=\begin{matrix}0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 1 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1\end{matrix}^{𝑇}=\begin{matrix}0 & 0 & 1 & 0 \\ 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 1\end{matrix}.\end{aligned}
 
 
 $$
@@ -187,7 +187,7 @@ In our case, we obtain
 $$
 
 
-\begin{aligned}𝐴^{−1}=\begin{aligned}1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 1 & 0\end{aligned}^{−1}=\begin{aligned}1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 1 & 0\end{aligned}^{𝑇}=\begin{aligned}1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 1 & 0\end{aligned}.\end{aligned}
+\begin{aligned}𝐴^{−1}=\begin{matrix}1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 1 & 0\end{matrix}^{−1}=\begin{matrix}1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 1 & 0\end{matrix}^{𝑇}=\begin{matrix}1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 1 & 0\end{matrix}.\end{aligned}
 
 
 $$
@@ -223,7 +223,7 @@ Using this theorem, we get
 $$
 
 
-\begin{aligned}\begin{aligned}1 & 0 & 0 & 0 \\ 3 & 1 & 0 & 0 \\ 5 & 0 & 1 & 0 \\ 7 & 0 & 0 & 1\end{aligned}^{−1}=\begin{aligned}1 & 0 & 0 & 0 \\ −3 & 1 & 0 & 0 \\ −5 & 0 & 1 & 0 \\ −7 & 0 & 0 & 1\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}1 & 0 & 0 & 0 \\ 3 & 1 & 0 & 0 \\ 5 & 0 & 1 & 0 \\ 7 & 0 & 0 & 1\end{matrix}^{−1}=\begin{matrix}1 & 0 & 0 & 0 \\ −3 & 1 & 0 & 0 \\ −5 & 0 & 1 & 0 \\ −7 & 0 & 0 & 1\end{matrix}\end{aligned}
 
 
 $$
@@ -259,7 +259,7 @@ In our case, we obtain
 $$
 
 
-\begin{aligned}𝐴^{−1}=\begin{aligned}1 & 0 & 0 & 0 \\ \frac{1}{3} & 1 & 0 & 0 \\ −6 & 0 & 1 & 0 \\ −2 & 0 & 0 & 1\end{aligned}^{−1}=\begin{aligned}1 & 0 & 0 & 0 \\ −\frac{1}{3} & 1 & 0 & 0 \\ 6 & 0 & 1 & 0 \\ 2 & 0 & 0 & 1\end{aligned}.\end{aligned}
+\begin{aligned}𝐴^{−1}=\begin{matrix}1 & 0 & 0 & 0 \\ \frac{1}{3} & 1 & 0 & 0 \\ −6 & 0 & 1 & 0 \\ −2 & 0 & 0 & 1\end{matrix}^{−1}=\begin{matrix}1 & 0 & 0 & 0 \\ −\frac{1}{3} & 1 & 0 & 0 \\ 6 & 0 & 1 & 0 \\ 2 & 0 & 0 & 1\end{matrix}.\end{aligned}
 
 
 $$

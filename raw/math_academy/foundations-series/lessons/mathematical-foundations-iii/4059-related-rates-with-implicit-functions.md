@@ -67,7 +67,7 @@ $$
 
 $$
 
-into our differentiated expression and solve for $\dfrac{\textrm{d}x}{\textrm{d}t}{:}$
+into our differentiated expression and solve for $\dfrac{\text{d}x}{\text{d}t}{:}$
 
 $$
 
@@ -107,12 +107,12 @@ $$
 
 $$
 
-Now, we substitute the given information $\dfrac{\textrm d y}{\textrm d t}=\sqrt{2},$ $x=1,$ and $y=\sqrt2,$ and solve $\dfrac{\textrm{d}x}{\textrm{d}t}.$ We get
+Now, we substitute the given information $\dfrac{\textrm d y}{\textrm d t}=\sqrt{2},$ $x=1,$ and $y=\sqrt2,$ and solve $\dfrac{\text{d}x}{\text{d}t}.$ We get
 
 $$
 
 
-\begin{aligned}\frac{d𝑥}{d𝑡}⋅(1)+\sqrt{√2}⋅(\frac{\sqrt{√2}}{2}) & =0 \\ \frac{d𝑥}{d𝑡}+1 & =0 \\ \frac{d𝑥}{d𝑡} & =−1.\end{aligned}
+\begin{aligned}\frac{d𝑥}{d𝑡}⋅(1)+\sqrt{2}⋅(\frac{\sqrt{2}}{2}) & =0 \\ \frac{d𝑥}{d𝑡}+1 & =0 \\ \frac{d𝑥}{d𝑡} & =−1.\end{aligned}
 
 
 $$

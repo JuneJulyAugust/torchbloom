@@ -105,7 +105,7 @@ $$
 
 
 
-a_n = C \cdot (3 + 5\textrm{i})^n + D \cdot (3 - 5\textrm{i})^n,
+a_n = C \cdot (3 + 5\text{i})^n + D \cdot (3 - 5\text{i})^n,
 
 
 
@@ -181,7 +181,7 @@ $$
 
 $$
 
-Therefore, $\lambda = -4\pm 2\textrm{i}$ are the complex roots of the characteristic equation.
+Therefore, $\lambda = -4\pm 2\text{i}$ are the complex roots of the characteristic equation.
 
 ### Simplifying the General Solution Using Complex Numbers in Polar Form
 
@@ -191,7 +191,7 @@ $$
 
 
 
-\lambda_1 = a + \textrm{i}b, \qquad \lambda_2 = a - \textrm{i}b.
+\lambda_1 = a + \text{i}b, \qquad \lambda_2 = a - \text{i}b.
 
 
 
@@ -205,7 +205,7 @@ $$
 
 
 
-\begin{aligned}𝑎_{𝑛} & =𝐶𝜆_{𝑛1}^{}+𝐷𝜆_{𝑛2}^{} \\ & =𝐶(𝑎+i𝑏)^{𝑛}+𝐷(𝑎−i𝑏)^{𝑛},\end{aligned}
+\begin{aligned}𝑎_{𝑛} & =𝐶𝜆_{𝑛1}+𝐷𝜆_{𝑛2} \\ & =𝐶(𝑎+i𝑏)^{𝑛}+𝐷(𝑎−i𝑏)^{𝑛},\end{aligned}
 
 
 
@@ -245,7 +245,7 @@ $$
 
 
 
-\begin{aligned}𝑎_{𝑛} & =𝐶𝜆_{𝑛1}^{}+𝐷𝜆_{𝑛2}^{} \\ & =𝐶[𝑟(cos⁡𝜃+isin⁡𝜃)]^{𝑛}+𝐷[𝑟(cos⁡(𝜃)−isin⁡(𝜃))]^{𝑛} \\ & =𝐶[𝑟^{𝑛}(cos⁡(𝑛𝜃)+isin⁡(𝑛𝜃))]+𝐷[𝑟^{𝑛}(cos⁡(𝑛𝜃)−isin⁡(𝑛𝜃))] \\ & =𝑟^{𝑛}((𝐶+𝐷)cos⁡(𝑛𝜃)+i(𝐶−𝐷)sin⁡(𝑛𝜃))\end{aligned}
+\begin{aligned}𝑎_{𝑛} & =𝐶𝜆_{𝑛1}+𝐷𝜆_{𝑛2} \\ & =𝐶[𝑟(cos⁡𝜃+isin⁡𝜃)]^{𝑛}+𝐷[𝑟(cos⁡(𝜃)−isin⁡(𝜃))]^{𝑛} \\ & =𝐶[𝑟^{𝑛}(cos⁡(𝑛𝜃)+isin⁡(𝑛𝜃))]+𝐷[𝑟^{𝑛}(cos⁡(𝑛𝜃)−isin⁡(𝑛𝜃))] \\ & =𝑟^{𝑛}((𝐶+𝐷)cos⁡(𝑛𝜃)+i(𝐶−𝐷)sin⁡(𝑛𝜃))\end{aligned}
 
 
 
@@ -341,7 +341,7 @@ $$
 
 
 
-\begin{aligned}𝑎_{𝑛} & =𝐶𝜆_{𝑛1}^{}+𝐷𝜆_{𝑛2}^{} \\ & =𝐶[10(cos⁡(\frac{𝜋}{2})+isin⁡(\frac{𝜋}{2}))]^{𝑛}+𝐷[10(cos⁡(\frac{𝜋}{2})−isin⁡(\frac{𝜋}{2}))]^{𝑛} \\ & =𝐶[10^{𝑛}(cos⁡(\frac{𝑛𝜋}{2})+isin⁡(\frac{𝑛𝜋}{2}))]+𝐷[10^{𝑛}(cos⁡(\frac{𝑛𝜋}{2})−isin⁡(\frac{𝑛𝜋}{2}))] \\ & =10^{𝑛}(𝐴cos⁡(\frac{𝑛𝜋}{2})+𝐵sin⁡(\frac{𝑛𝜋}{2})),\end{aligned}
+\begin{aligned}𝑎_{𝑛} & =𝐶𝜆_{𝑛1}+𝐷𝜆_{𝑛2} \\ & =𝐶[10(cos⁡(\frac{𝜋}{2})+isin⁡(\frac{𝜋}{2}))]^{𝑛}+𝐷[10(cos⁡(\frac{𝜋}{2})−isin⁡(\frac{𝜋}{2}))]^{𝑛} \\ & =𝐶[10^{𝑛}(cos⁡(\frac{𝑛𝜋}{2})+isin⁡(\frac{𝑛𝜋}{2}))]+𝐷[10^{𝑛}(cos⁡(\frac{𝑛𝜋}{2})−isin⁡(\frac{𝑛𝜋}{2}))] \\ & =10^{𝑛}(𝐴cos⁡(\frac{𝑛𝜋}{2})+𝐵sin⁡(\frac{𝑛𝜋}{2})),\end{aligned}
 
 
 
@@ -427,7 +427,7 @@ $$
 
 
 
-\begin{aligned}𝑎_{𝑛} & =(2\sqrt{√3})^{𝑛}(sin⁡(\frac{5𝑛𝜋}{6})−cos⁡(\frac{5𝑛𝜋}{6})).\end{aligned}
+\begin{aligned}𝑎_{𝑛} & =(2\sqrt{3})^{𝑛}(sin⁡(\frac{5𝑛𝜋}{6})−cos⁡(\frac{5𝑛𝜋}{6})).\end{aligned}
 
 
 
@@ -493,7 +493,7 @@ $$
 
 
 
-\lambda_1 = 1 + \textrm{i}, \qquad \lambda_2 = 1 - \textrm{i}.
+\lambda_1 = 1 + \text{i}, \qquad \lambda_2 = 1 - \text{i}.
 
 
 
@@ -505,7 +505,7 @@ $$
 
 
 
-\begin{aligned}𝜆_{1} & =\sqrt{√2}(cos⁡(\frac{𝜋}{4})+isin⁡(\frac{𝜋}{4})), \\ 𝜆_{2} & =\sqrt{√2}(cos⁡(\frac{𝜋}{4})−isin⁡(\frac{𝜋}{4})).\end{aligned}
+\begin{aligned}𝜆_{1} & =\sqrt{2}(cos⁡(\frac{𝜋}{4})+isin⁡(\frac{𝜋}{4})), \\ 𝜆_{2} & =\sqrt{2}(cos⁡(\frac{𝜋}{4})−isin⁡(\frac{𝜋}{4})).\end{aligned}
 
 
 

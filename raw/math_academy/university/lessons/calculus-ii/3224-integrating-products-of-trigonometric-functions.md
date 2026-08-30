@@ -120,7 +120,7 @@ Substituting this into the integral gives
 $$
 
 
-\begin{aligned}∫_{𝜋/2𝜋/4}^{}cos⁡(9𝑥)cos⁡(𝑥)\,d𝑥 & =∫_{𝜋/2𝜋/4}^{}\frac{1}{2}cos⁡(8𝑥)+\frac{1}{2}cos⁡(10𝑥)\,d𝑥 \\ & =[\frac{1}{16}sin⁡(8𝑥)+\frac{1}{20}sin⁡(10𝑥)]_{𝜋/2𝜋/4}^{} \\ & =\frac{1}{16}(sin⁡(4𝜋)−sin⁡(2𝜋))+\frac{1}{20}(sin⁡(5𝜋)−sin⁡(\frac{5𝜋}{2})) \\ & =\frac{1}{16}(0−0)+\frac{1}{20}(0−1) \\ & =−\frac{1}{20}.\end{aligned}
+\begin{aligned}∫_{𝜋/2𝜋/4}cos⁡(9𝑥)cos⁡(𝑥)\,d𝑥 & =∫_{𝜋/2𝜋/4}\frac{1}{2}cos⁡(8𝑥)+\frac{1}{2}cos⁡(10𝑥)\,d𝑥 \\ & =[\frac{1}{16}sin⁡(8𝑥)+\frac{1}{20}sin⁡(10𝑥)]_{𝜋/2𝜋/4} \\ & =\frac{1}{16}(sin⁡(4𝜋)−sin⁡(2𝜋))+\frac{1}{20}(sin⁡(5𝜋)−sin⁡(\frac{5𝜋}{2})) \\ & =\frac{1}{16}(0−0)+\frac{1}{20}(0−1) \\ & =−\frac{1}{20}.\end{aligned}
 
 
 $$
@@ -350,7 +350,7 @@ Substituting this into the integral gives
 $$
 
 
-\begin{aligned}∫_{𝜋/20}^{}sin⁡(2𝑥)cos⁡(4𝑥)\,d𝑥 & =∫_{𝜋/20}^{}\frac{1}{2}sin⁡(6𝑥)−\frac{1}{2}sin⁡(2𝑥)\,d𝑥 \\ & =[−\frac{1}{12}cos⁡(6𝑥)+\frac{1}{4}cos⁡(2𝑥)]_{𝜋/20}^{} \\ & =−\frac{1}{12}(cos⁡(3𝜋)−cos⁡(0))+\frac{1}{4}(cos⁡(𝜋)−cos⁡(0)) \\ & =−\frac{1}{12}(−1−1)+\frac{1}{4}(−1−1) \\ & =−\frac{1}{3}.\end{aligned}
+\begin{aligned}∫_{𝜋/20}sin⁡(2𝑥)cos⁡(4𝑥)\,d𝑥 & =∫_{𝜋/20}\frac{1}{2}sin⁡(6𝑥)−\frac{1}{2}sin⁡(2𝑥)\,d𝑥 \\ & =[−\frac{1}{12}cos⁡(6𝑥)+\frac{1}{4}cos⁡(2𝑥)]_{𝜋/20} \\ & =−\frac{1}{12}(cos⁡(3𝜋)−cos⁡(0))+\frac{1}{4}(cos⁡(𝜋)−cos⁡(0)) \\ & =−\frac{1}{12}(−1−1)+\frac{1}{4}(−1−1) \\ & =−\frac{1}{3}.\end{aligned}
 
 
 $$

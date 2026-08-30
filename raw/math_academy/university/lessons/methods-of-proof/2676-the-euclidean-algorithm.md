@@ -11,12 +11,12 @@ Topic ID: 2676
 
 ### Introduction
 
-The **greatest common divisor** (or $\textrm{gcd}$) of two integers is the largest positive integer that divides both of the integers. For example,
+The **greatest common divisor** (or $\text{gcd}$) of two integers is the largest positive integer that divides both of the integers. For example,
 
 $$
 
 
-\textrm{gcd}(48,18) = 6
+\text{gcd}(48,18) = 6
 
 
 $$
@@ -27,7 +27,7 @@ We often wish to compute the greatest common divisor of two large numbers. Doing
 
 Another method, known as the **Euclidian algorithm** is very efficient, despite being over $2\,000$ years old.
 
-Let's demonstrate how to compute $\textrm{gcd}(48,18)$ using the Euclidian algorithm. The first step is to apply the division algorithm and write down $48 = 18q + r.$ When we do, we get
+Let's demonstrate how to compute $\text{gcd}(48,18)$ using the Euclidian algorithm. The first step is to apply the division algorithm and write down $48 = 18q + r.$ When we do, we get
 
 $$
 
@@ -64,12 +64,12 @@ In practice, we normally write the steps underneath one another, like so.
 $$
 
 
-\begin{aligned}\begin{aligned}48 & = & 18(2) & + & 12 \\ & ↙ & & ↙ & \\ 18 & = & 12(1) & + & 6 \\ & ↙ & & ↙ & \\ 12 & = & 6(2) & + & 0\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}48 & = & 18(2) & + & 12 \\ & ↙ & & ↙ & \\ 18 & = & 12(1) & + & 6 \\ & ↙ & & ↙ & \\ 12 & = & 6(2) & + & 0\end{matrix}\end{aligned}
 
 
 $$
 
-The last positive remainder is ${\color{red}6}.$ The Euclidean algorithm states that this is the greatest common divisor that we seek. Therefore, we conclude that $\textrm{gcd}(48,18) = {\color{red}6}.$
+The last positive remainder is ${\color{red}6}.$ The Euclidean algorithm states that this is the greatest common divisor that we seek. Therefore, we conclude that $\text{gcd}(48,18) = {\color{red}6}.$
 
 Finally, we note that two integers $a$ and $b$ are **coprime** if $\gcd(a,b) = 1.$
 
@@ -86,7 +86,7 @@ We use the Euclidean algorithm, as follows:
 $$
 
 
-\begin{aligned}\begin{aligned}713 & = & 322(2) & + & 69 \\ & ↙ & & ↙ & \\ 322 & = & 69(4) & + & 46 \\ & ↙ & & ↙ & \\ 69 & = & 46(1) & + & 23 \\ & ↙ & & ↙ & \\ 46 & = & 23(2) & + & 0\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}713 & = & 322(2) & + & 69 \\ & ↙ & & ↙ & \\ 322 & = & 69(4) & + & 46 \\ & ↙ & & ↙ & \\ 69 & = & 46(1) & + & 23 \\ & ↙ & & ↙ & \\ 46 & = & 23(2) & + & 0\end{matrix}\end{aligned}
 
 
 $$
@@ -96,19 +96,19 @@ The last positive remainder is ${\color{red}23}.$ Therefore, we conclude that th
 $$
 
 
-\textrm{gcd}(713, 322) = 23.
+\text{gcd}(713, 322) = 23.
 
 
 $$
 
 ### Why Does the Euclidean Algorithm Work?
 
-We now return to the question of why the Euclidean algorithm works. To help us to understand, let's consider once more how to compute $\textrm{gcd}(48,18).$ Using the algorithm, we get the following:
+We now return to the question of why the Euclidean algorithm works. To help us to understand, let's consider once more how to compute $\text{gcd}(48,18).$ Using the algorithm, we get the following:
 
 $$
 
 
-\begin{aligned}\begin{aligned}48 & = & 18(2) & + & 12 \\ & ↙ & & ↙ & \\ 18 & = & 12(1) & + & 6 \\ & ↙ & & ↙ & \\ 12 & = & 6(2) & + & 0\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}48 & = & 18(2) & + & 12 \\ & ↙ & & ↙ & \\ 18 & = & 12(1) & + & 6 \\ & ↙ & & ↙ & \\ 12 & = & 6(2) & + & 0\end{matrix}\end{aligned}
 
 
 $$
@@ -123,7 +123,7 @@ $$
 
 $$
 
-We claim that $\textrm{gcd}(48,18)$ must be the same as $\textrm{gcd}(18,12).$ To see why, notice that we used the division algorithm to write
+We claim that $\text{gcd}(48,18)$ must be the same as $\text{gcd}(18,12).$ To see why, notice that we used the division algorithm to write
 
 $$
 
@@ -135,12 +135,12 @@ $$
 
 If $48$ and $18$ are divisible by some integer $n,$ then $n$ must also divide $18(2).$ This means that $n$ must divide $48-18(2),$ i.e., $n$ must divide $12.$ So any number $n$ that divides both $48$ and $18$ must also divide both $18$ and $12.$
 
-Repeating the same argument, we are able to conclude that $\textrm{gcd}(18,12) = \textrm{gcd}(12,6).$ Since $\textrm{gcd}(12,6) = 6,$ we conclude that
+Repeating the same argument, we are able to conclude that $\text{gcd}(18,12) = \text{gcd}(12,6).$ Since $\text{gcd}(12,6) = 6,$ we conclude that
 
 $$
 
 
-\textrm{gcd}(48,18) = \textrm{gcd}(18,12) = \textrm{gcd}(12,6) = 6.
+\text{gcd}(48,18) = \text{gcd}(18,12) = \text{gcd}(12,6) = 6.
 
 
 $$
@@ -160,7 +160,7 @@ We use the Euclidean algorithm, as follows:
 $$
 
 
-\begin{aligned}\begin{aligned}1036 & = & 555(1) & + & 481 \\ & ↙ & & ↙ & \\ 555 & = & 481(1) & + & 74 \\ & ↙ & & ↙ & \\ 481 & = & 74(6) & + & 37 \\ & ↙ & & ↙ & \\ 74 & = & 37(2) & + & 0\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}1036 & = & 555(1) & + & 481 \\ & ↙ & & ↙ & \\ 555 & = & 481(1) & + & 74 \\ & ↙ & & ↙ & \\ 481 & = & 74(6) & + & 37 \\ & ↙ & & ↙ & \\ 74 & = & 37(2) & + & 0\end{matrix}\end{aligned}
 
 
 $$
@@ -170,7 +170,7 @@ The last positive remainder is ${\color{red}37}.$ Therefore, we conclude that th
 $$
 
 
-\textrm{gcd}(1\,036, 555) = 37.
+\text{gcd}(1\,036, 555) = 37.
 
 
 $$
@@ -181,9 +181,9 @@ $$
 
 Which of the following statements are true?
 
-1. $\textrm{gcd}(651, 574) = 7$
+1. $\text{gcd}(651, 574) = 7$
 
-2. $\textrm{gcd}(651, 574) = 1$
+2. $\text{gcd}(651, 574) = 1$
 
 3. $651$ and $574$ are coprime
 
@@ -195,6 +195,6 @@ With that in mind, let's examine our statements in turn.
 
 - Statement I is true, while statement II is false. Indeed, let's use the Euclidean algorithm, as follows: The last positive remainder is ${\color{blue}7}.$ So, the greatest common divisor of $651$ and $574$ is $7\mathbin{:}$
 
-- Statement III is false. Since $\textrm{gcd}(651, 574) > 1,$ the numbers are not coprime.
+- Statement III is false. Since $\text{gcd}(651, 574) > 1,$ the numbers are not coprime.
 
 Therefore, the correct answer is "I only."

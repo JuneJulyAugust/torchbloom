@@ -46,7 +46,7 @@ $$
 
 
 
-\begin{aligned}\sqrt{√2}⋅𝑠 & =6\sqrt{√2} \\ 𝑠 & =6\end{aligned}
+\begin{aligned}\sqrt{2}⋅𝑠 & =6\sqrt{2} \\ 𝑠 & =6\end{aligned}
 
 
 
@@ -68,7 +68,7 @@ $$
 
 
 
-\begin{aligned}𝐴 & =(\frac{𝑑}{\sqrt{√2}})^{2}=\frac{1}{2}𝑑^{2}.\end{aligned}
+\begin{aligned}𝐴 & =(\frac{𝑑}{\sqrt{2}})^{2}=\frac{1}{2}𝑑^{2}.\end{aligned}
 
 
 
@@ -136,7 +136,7 @@ $$
 
 
 
-\begin{aligned}\frac{1}{2}𝑑^{2} & =𝐴 \\ 𝑑^{2} & =2𝐴 \\ 𝑑 & =\sqrt{√2𝐴}\end{aligned}
+\begin{aligned}\frac{1}{2}𝑑^{2} & =𝐴 \\ 𝑑^{2} & =2𝐴 \\ 𝑑 & =\sqrt{2𝐴}\end{aligned}
 
 
 
@@ -148,7 +148,7 @@ $$
 
 
 
-\begin{aligned}𝑑 & =\sqrt{√2⋅18} \\ & =\sqrt{√36} \\ & =6.\end{aligned}
+\begin{aligned}𝑑 & =\sqrt{2⋅18} \\ & =\sqrt{36} \\ & =6.\end{aligned}
 
 
 

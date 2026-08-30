@@ -86,7 +86,7 @@ Now, applying the change of variables formula, we obtain
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}(𝑥^{2}+𝑦^{2})\,d𝐴 & =\underset{Δ}{∬}((𝑟cos⁡𝜃)^{2}+(𝑟sin⁡𝜃)^{2})\,𝑟\,d𝑟d𝜃 \\ & =∫_{2𝜋0}^{}∫_{20}^{}𝑟^{3}(cos^{2}⁡𝜃+sin^{2}⁡𝜃)\,d𝑟\,d𝜃 \\ & =∫_{2𝜋0}^{}∫_{20}^{}𝑟^{3}\,d𝑟\,d𝜃.\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}(𝑥^{2}+𝑦^{2})\,d𝐴 & =\underset{Δ}{∬}((𝑟cos⁡𝜃)^{2}+(𝑟sin⁡𝜃)^{2})\,𝑟\,d𝑟d𝜃 \\ & =∫_{2𝜋0}∫_{20}𝑟^{3}(cos^{2}⁡𝜃+sin^{2}⁡𝜃)\,d𝑟\,d𝜃 \\ & =∫_{2𝜋0}∫_{20}𝑟^{3}\,d𝑟\,d𝜃.\end{aligned}
 
 
 $$
@@ -96,7 +96,7 @@ Evaluating the integral, we get
 $$
 
 
-\begin{aligned}∫_{2𝜋0}^{}∫_{20}^{}𝑟^{3}\,d𝑟\,d𝜃 & =∫_{2𝜋0}^{}d𝜃∫_{20}^{}𝑟^{3}\,d𝑟 \\ & =2𝜋⋅∫_{20}^{}𝑟^{3}\,d𝑟 \\ & =2𝜋⋅4 \\ & =8𝜋.\end{aligned}
+\begin{aligned}∫_{2𝜋0}∫_{20}𝑟^{3}\,d𝑟\,d𝜃 & =∫_{2𝜋0}d𝜃∫_{20}𝑟^{3}\,d𝑟 \\ & =2𝜋⋅∫_{20}𝑟^{3}\,d𝑟 \\ & =2𝜋⋅4 \\ & =8𝜋.\end{aligned}
 
 
 $$
@@ -119,7 +119,7 @@ In terms of transformations, the change of variables formula maps the non-rectan
 
 ![Instructional graphic](../../../lesson-assets/multivariable-calculus/topic-2030/0f9efd16aae73618.png)
 
-The region $D$ is the quarter-circle shown above. What is $\displaystyle \iint\limits_D y \sqrt{x^2+y^2} \: \textrm{d}A$ expressed in polar coordinates?
+The region $D$ is the quarter-circle shown above. What is $\displaystyle \iint\limits_D y \sqrt{x^2+y^2} \: \text{d}A$ expressed in polar coordinates?
 
 #### Explanation
 
@@ -148,7 +148,7 @@ Therefore, using the change of variables formula, we obtain
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}𝑦\sqrt{√𝑥^{2}+𝑦^{2}}\,d𝐴 & =\underset{Δ}{∬}(𝑟sin⁡𝜃)\sqrt{√(𝑟cos⁡𝜃)^{2}+(𝑟sin⁡𝜃)^{2}}\,𝑟\,d𝑟d𝜃 \\ & =\underset{Δ}{∬}𝑟^{2}sin⁡𝜃\sqrt{√𝑟^{2}(cos^{2}⁡𝜃sin^{2}⁡𝜃)}\,d𝑟d𝜃 \\ & =\underset{Δ}{∬}𝑟^{3}sin⁡𝜃\sqrt{√cos^{2}⁡𝜃+sin^{2}⁡𝜃}\,d𝑟d𝜃 \\ & =\underset{Δ}{∬}𝑟^{3}sin⁡𝜃\,d𝑟d𝜃 \\ & =∫_{𝜋/20}^{}∫_{10}^{}𝑟^{3}sin⁡𝜃\,d𝑟\,d𝜃.\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}𝑦\sqrt{𝑥^{2}+𝑦^{2}}\,d𝐴 & =\underset{Δ}{∬}(𝑟sin⁡𝜃)\sqrt{(𝑟cos⁡𝜃)^{2}+(𝑟sin⁡𝜃)^{2}}\,𝑟\,d𝑟d𝜃 \\ & =\underset{Δ}{∬}𝑟^{2}sin⁡𝜃\sqrt{𝑟^{2}(cos^{2}⁡𝜃sin^{2}⁡𝜃)}\,d𝑟d𝜃 \\ & =\underset{Δ}{∬}𝑟^{3}sin⁡𝜃\sqrt{cos^{2}⁡𝜃+sin^{2}⁡𝜃}\,d𝑟d𝜃 \\ & =\underset{Δ}{∬}𝑟^{3}sin⁡𝜃\,d𝑟d𝜃 \\ & =∫_{𝜋/20}∫_{10}𝑟^{3}sin⁡𝜃\,d𝑟\,d𝜃.\end{aligned}
 
 
 $$
@@ -176,7 +176,7 @@ Let's now use the above formulas to write the function $y=\sqrt{2x-x^2}$ in pola
 $$
 
 
-\begin{aligned}𝑦 & =\sqrt{√2𝑥−𝑥^{2}} \\ 𝑦^{2} & =2𝑥−𝑥^{2} \\ 𝑥^{2}+𝑦^{2} & =2𝑥 \\ (𝑟cos⁡𝜃)^{2}+(𝑟sin⁡𝜃)^{2} & =2𝑟cos⁡𝜃 \\ 𝑟^{2}(cos^{2}⁡𝜃+sin^{2}⁡𝜃) & =2𝑟cos⁡𝜃 \\ 𝑟^{2} & =2𝑟cos⁡𝜃 \\ 𝑟^{2}−2𝑟cos⁡𝜃 & =0 \\ 𝑟(𝑟−2cos⁡𝜃) & =0\end{aligned}
+\begin{aligned}𝑦 & =\sqrt{2𝑥−𝑥^{2}} \\ 𝑦^{2} & =2𝑥−𝑥^{2} \\ 𝑥^{2}+𝑦^{2} & =2𝑥 \\ (𝑟cos⁡𝜃)^{2}+(𝑟sin⁡𝜃)^{2} & =2𝑟cos⁡𝜃 \\ 𝑟^{2}(cos^{2}⁡𝜃+sin^{2}⁡𝜃) & =2𝑟cos⁡𝜃 \\ 𝑟^{2} & =2𝑟cos⁡𝜃 \\ 𝑟^{2}−2𝑟cos⁡𝜃 & =0 \\ 𝑟(𝑟−2cos⁡𝜃) & =0\end{aligned}
 
 
 $$
@@ -210,7 +210,7 @@ Given that $D = \left\{(x,y) \,: \, x^2 + (y+2)^2 \leq 4\right\},$ express the f
 $$
 
 
-\displaystyle \iint\limits_D e^{\sqrt{x^2 + y^2}} \, \textrm{d}A
+\displaystyle \iint\limits_D e^{\sqrt{x^2 + y^2}} \, \text{d}A
 
 
 $$
@@ -270,7 +270,7 @@ Therefore, using the change of variables formula, we obtain
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}𝑒^{\sqrt{√𝑥^{2}+𝑦^{2}}}\,d𝐴 & =\underset{Δ}{∬}𝑒^{\sqrt{√(𝑟cos⁡𝜃)^{2}+(𝑟sin⁡𝜃)^{2}}}\,𝑟\,d𝑟\,d𝜃 \\ & =∫_{2𝜋𝜋}^{}∫_{−4sin⁡𝜃0}^{}𝑟𝑒^{\sqrt{√𝑟^{2}(cos^{2}⁡𝜃+sin^{2}⁡𝜃)}}\,d𝑟\,d𝜃 \\ & =∫_{2𝜋𝜋}^{}∫_{−4sin⁡𝜃0}^{}𝑟𝑒^{\sqrt{√𝑟^{2}}}\,d𝑟\,d𝜃 \\ & =∫_{2𝜋𝜋}^{}∫_{−4sin⁡𝜃0}^{}𝑟𝑒^{𝑟}\,d𝑟\,d𝜃.\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}𝑒^{\sqrt{𝑥^{2}+𝑦^{2}}}\,d𝐴 & =\underset{Δ}{∬}𝑒^{\sqrt{(𝑟cos⁡𝜃)^{2}+(𝑟sin⁡𝜃)^{2}}}\,𝑟\,d𝑟\,d𝜃 \\ & =∫_{2𝜋𝜋}∫_{−4sin⁡𝜃0}𝑟𝑒^{\sqrt{𝑟^{2}(cos^{2}⁡𝜃+sin^{2}⁡𝜃)}}\,d𝑟\,d𝜃 \\ & =∫_{2𝜋𝜋}∫_{−4sin⁡𝜃0}𝑟𝑒^{\sqrt{𝑟^{2}}}\,d𝑟\,d𝜃 \\ & =∫_{2𝜋𝜋}∫_{−4sin⁡𝜃0}𝑟𝑒^{𝑟}\,d𝑟\,d𝜃.\end{aligned}
 
 
 $$
@@ -288,7 +288,7 @@ First, we integrate with respect to $r,$ treating $\theta$ as a constant:
 $$
 
 
-\begin{aligned}∫_{𝜋/80}^{}∫_{sin⁡2𝜃0}^{}𝑟\,d𝑟\,d𝜃 & =\frac{1}{2}∫_{𝜋/80}^{}[𝑟^{2}]_{sin⁡2𝜃0}^{}\,d𝜃 \\ & =\frac{1}{2}∫_{𝜋/80}^{}sin^{2}⁡2𝜃\,d𝜃\end{aligned}
+\begin{aligned}∫_{𝜋/80}∫_{sin⁡2𝜃0}𝑟\,d𝑟\,d𝜃 & =\frac{1}{2}∫_{𝜋/80}[𝑟^{2}]_{sin⁡2𝜃0}\,d𝜃 \\ & =\frac{1}{2}∫_{𝜋/80}sin^{2}⁡2𝜃\,d𝜃\end{aligned}
 
 
 $$
@@ -318,7 +318,7 @@ Finally, we can finish our integral by integrating with respect to $\theta,$ as 
 $$
 
 
-\begin{aligned}\frac{1}{2}∫_{𝜋/80}^{}sin^{2}⁡2𝜃\,d𝜃 & =\frac{1}{2}∫_{𝜋/80}^{}\frac{1}{2}(1−cos⁡4𝜃)\,d𝜃 \\ & =\frac{1}{4}∫_{𝜋/80}^{}1−cos⁡4𝜃\,d𝜃 \\ & =\frac{1}{4}[𝜃−\frac{1}{4}sin⁡4𝜃]_{𝜋/80}^{} \\ & =\frac{1}{4}[(\frac{𝜋}{8}−\frac{1}{4}sin⁡(\frac{𝜋}{2}))−(0−\frac{1}{4}sin⁡(0))] \\ & =\frac{1}{4}(\frac{𝜋}{8}−\frac{1}{4}) \\ & =\frac{1}{4}(\frac{𝜋}{8}−\frac{2}{8}) \\ & =\frac{1}{32}(𝜋−2)\end{aligned}
+\begin{aligned}\frac{1}{2}∫_{𝜋/80}sin^{2}⁡2𝜃\,d𝜃 & =\frac{1}{2}∫_{𝜋/80}\frac{1}{2}(1−cos⁡4𝜃)\,d𝜃 \\ & =\frac{1}{4}∫_{𝜋/80}1−cos⁡4𝜃\,d𝜃 \\ & =\frac{1}{4}[𝜃−\frac{1}{4}sin⁡4𝜃]_{𝜋/80} \\ & =\frac{1}{4}[(\frac{𝜋}{8}−\frac{1}{4}sin⁡(\frac{𝜋}{2}))−(0−\frac{1}{4}sin⁡(0))] \\ & =\frac{1}{4}(\frac{𝜋}{8}−\frac{1}{4}) \\ & =\frac{1}{4}(\frac{𝜋}{8}−\frac{2}{8}) \\ & =\frac{1}{32}(𝜋−2)\end{aligned}
 
 
 $$
@@ -360,7 +360,7 @@ Therefore, using the change of variables formula, we obtain
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}15𝑥𝑦^{2}\,d𝐴 & =\underset{Δ}{∬}15𝑟cos⁡𝜃⋅(𝑟sin⁡𝜃)^{2}\,𝑟\,d𝑟d𝜃 \\ & =∫_{𝜋/20}^{}∫_{20}^{}15𝑟^{4}cos⁡𝜃sin^{2}⁡𝜃\,d𝑟\,d𝜃 \\ & =∫_{𝜋/20}^{}3cos⁡𝜃sin^{2}⁡𝜃∫_{20}^{}5𝑟^{4}\,d𝑟\,d𝜃 \\ & =∫_{𝜋/20}^{}3cos⁡𝜃sin^{2}⁡𝜃\,[𝑟^{5}]_{20}^{}\,d𝜃 \\ & =∫_{𝜋/20}^{}3cos⁡𝜃sin^{2}⁡𝜃(2^{5}−0)d𝜃 \\ & =32∫_{𝜋/20}^{}3cos⁡𝜃sin^{2}⁡𝜃\,d𝜃 \\ & =32[sin^{3}⁡𝜃]_{𝜋/20}^{} \\ & =32(sin^{3}⁡(\frac{𝜋}{2})−sin^{3}⁡(0)) \\ & =32(1−0) \\ & =32.\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}15𝑥𝑦^{2}\,d𝐴 & =\underset{Δ}{∬}15𝑟cos⁡𝜃⋅(𝑟sin⁡𝜃)^{2}\,𝑟\,d𝑟d𝜃 \\ & =∫_{𝜋/20}∫_{20}15𝑟^{4}cos⁡𝜃sin^{2}⁡𝜃\,d𝑟\,d𝜃 \\ & =∫_{𝜋/20}3cos⁡𝜃sin^{2}⁡𝜃∫_{20}5𝑟^{4}\,d𝑟\,d𝜃 \\ & =∫_{𝜋/20}3cos⁡𝜃sin^{2}⁡𝜃\,[𝑟^{5}]_{20}\,d𝜃 \\ & =∫_{𝜋/20}3cos⁡𝜃sin^{2}⁡𝜃(2^{5}−0)d𝜃 \\ & =32∫_{𝜋/20}3cos⁡𝜃sin^{2}⁡𝜃\,d𝜃 \\ & =32[sin^{3}⁡𝜃]_{𝜋/20} \\ & =32(sin^{3}⁡(\frac{𝜋}{2})−sin^{3}⁡(0)) \\ & =32(1−0) \\ & =32.\end{aligned}
 
 
 $$

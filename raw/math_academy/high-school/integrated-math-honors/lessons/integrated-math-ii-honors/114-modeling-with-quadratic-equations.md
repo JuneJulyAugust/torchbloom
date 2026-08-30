@@ -174,7 +174,7 @@ Therefore, the larger of the two numbers is $a=12.$
 
 ![Instructional graphic](../../../../lesson-assets/integrated-math-ii-honors/topic-114/e25fad9167ed452a.png)
 
-Given that the area of the above rectangle is $66\,\textrm{cm}^2,$ find the value of $x.$
+Given that the area of the above rectangle is $66\,\text{cm}^2,$ find the value of $x.$
 
 #### Explanation
 
@@ -188,7 +188,7 @@ x(x-5).
 
 $$
 
-We are told that the area is $66\:\textrm{cm}^2.$ So, we have the following quadratic equation:
+We are told that the area is $66\:\text{cm}^2.$ So, we have the following quadratic equation:
 
 $$
 
@@ -223,7 +223,7 @@ Applying the quadratic formula with $a=1, b=-5,$ and $c=-66$ we get
 $$
 
 
-\begin{aligned}𝑥 & =\frac{−(−5)±\sqrt{√(−5)^{2}−4(1)(−66)}}{2(1)} \\ & =\frac{5±\sqrt{√25+264}}{2} \\ & =\frac{5±\sqrt{√289}}{2} \\ & =\frac{5±17}{2}.\end{aligned}
+\begin{aligned}𝑥 & =\frac{−(−5)±\sqrt{(−5)^{2}−4(1)(−66)}}{2(1)} \\ & =\frac{5±\sqrt{25+264}}{2} \\ & =\frac{5±\sqrt{289}}{2} \\ & =\frac{5±17}{2}.\end{aligned}
 
 
 $$
@@ -238,4 +238,4 @@ x = 11, \quad x=-6.
 
 $$
 
-We disregard the negative solution since the side lengths must be positive. Therefore, $x=11\:\textrm{cm}.$
+We disregard the negative solution since the side lengths must be positive. Therefore, $x=11\:\text{cm}.$

@@ -27,7 +27,7 @@ For any $t >0,$ the arc length $s$ of $C$ from $\mathbf r(0)$ to $\mathbf r(t)$ 
 $$
 
 
-\begin{aligned}𝑠 & =∫_{𝑡0}^{}‖𝐫^{′}(𝑢)‖\,d𝑢 \\ & =∫_{𝑡0}^{}‖⟨2cos⁡𝑢,\,−2sin⁡𝑢,\,\sqrt{√5}⟩‖\,d𝑢 \\ & =∫_{𝑡0}^{}\sqrt{√(2cos⁡𝑢)^{2}+(−2sin⁡𝑢)^{2}+(\sqrt{√5})^{2}}\,d𝑢 \\ & =∫_{𝑡0}^{}\sqrt{√4(cos^{2}⁡𝑢+sin^{2}⁡𝑢)+5}\,d𝑢 \\ & =∫_{𝑡0}^{}\sqrt{√9}\,d𝑢 \\ & =3𝑢_{𝑡0}^{} \\ & =3𝑡.\end{aligned}
+\begin{aligned}𝑠 & =∫_{𝑡0}‖𝐫^{′}(𝑢)‖\,d𝑢 \\ & =∫_{𝑡0}‖⟨2cos⁡𝑢,\,−2sin⁡𝑢,\,\sqrt{5}⟩‖\,d𝑢 \\ & =∫_{𝑡0}\sqrt{(2cos⁡𝑢)^{2}+(−2sin⁡𝑢)^{2}+(\sqrt{5})^{2}}\,d𝑢 \\ & =∫_{𝑡0}\sqrt{4(cos^{2}⁡𝑢+sin^{2}⁡𝑢)+5}\,d𝑢 \\ & =∫_{𝑡0}\sqrt{9}\,d𝑢 \\ & =3𝑢_{𝑡0} \\ & =3𝑡.\end{aligned}
 
 
 $$
@@ -59,7 +59,7 @@ In general, if $\mathbf r(t)$ for $t\in [a,b]$ is a continuously differentiable 
 $$
 
 
-\left\|\dfrac{\textrm{d}\mathbf R}{\textrm{d} s}\right\| = 1
+\left\|\dfrac{\text{d}\mathbf R}{\text{d} s}\right\| = 1
 
 
 $$
@@ -77,7 +77,7 @@ First, since $s=6\sqrt{2}t,$ we have that
 $$
 
 
-\begin{aligned}6\sqrt{√2}𝑡 & =𝑠 \\ 𝑡 & =\frac{𝑠}{6\sqrt{√2}} \\ 𝑡 & =\frac{\sqrt{√2}𝑠}{12}.\end{aligned}
+\begin{aligned}6\sqrt{2}𝑡 & =𝑠 \\ 𝑡 & =\frac{𝑠}{6\sqrt{2}} \\ 𝑡 & =\frac{\sqrt{2}𝑠}{12}.\end{aligned}
 
 
 $$
@@ -87,7 +87,7 @@ The vector function that pametrizes the curve $\mathbf r(t)$ by its arc length $
 $$
 
 
-\begin{aligned}𝐑(𝑠) & =𝐫(\frac{\sqrt{√2}𝑠}{12}) \\ & =⟨2(\frac{\sqrt{√2}𝑠}{12})−1,\,8(\frac{\sqrt{√2}𝑠}{12})+2,\,−2(\frac{\sqrt{√2}𝑠}{12})⟩ \\ & =⟨\frac{\sqrt{√2}𝑠}{6}−1,\,\frac{4\sqrt{√2}𝑠}{6}+2,\,−\frac{\sqrt{√2}𝑠}{6}⟩ \\ & =\frac{1}{6}⟨\sqrt{√2}𝑠−6,\,4\sqrt{√2}𝑠+12,\,−\sqrt{√2}𝑠⟩.\end{aligned}
+\begin{aligned}𝐑(𝑠) & =𝐫(\frac{\sqrt{2}𝑠}{12}) \\ & =⟨2(\frac{\sqrt{2}𝑠}{12})−1,\,8(\frac{\sqrt{2}𝑠}{12})+2,\,−2(\frac{\sqrt{2}𝑠}{12})⟩ \\ & =⟨\frac{\sqrt{2}𝑠}{6}−1,\,\frac{4\sqrt{2}𝑠}{6}+2,\,−\frac{\sqrt{2}𝑠}{6}⟩ \\ & =\frac{1}{6}⟨\sqrt{2}𝑠−6,\,4\sqrt{2}𝑠+12,\,−\sqrt{2}𝑠⟩.\end{aligned}
 
 
 $$
@@ -107,7 +107,7 @@ Therefore, the vector function $\mathbf R(s)$ that parametrizes $\mathbf r(t)$ b
 $$
 
 
-\begin{aligned}𝐑(𝑠) & =𝐫(\frac{𝑠}{2}) \\ & =cos⁡(\frac{𝑠}{2})\,𝐢−sin⁡(\frac{𝑠}{2})\,𝐣+\sqrt{√3}⋅\frac{𝑠}{2}𝐤 \\ & =cos⁡(\frac{𝑠}{2})\,𝐢−sin⁡(\frac{𝑠}{2})\,𝐣+\frac{\sqrt{√3}𝑠}{2}\,𝐤.\end{aligned}
+\begin{aligned}𝐑(𝑠) & =𝐫(\frac{𝑠}{2}) \\ & =cos⁡(\frac{𝑠}{2})\,𝐢−sin⁡(\frac{𝑠}{2})\,𝐣+\sqrt{3}⋅\frac{𝑠}{2}𝐤 \\ & =cos⁡(\frac{𝑠}{2})\,𝐢−sin⁡(\frac{𝑠}{2})\,𝐣+\frac{\sqrt{3}𝑠}{2}\,𝐤.\end{aligned}
 
 
 $$
@@ -117,7 +117,7 @@ Now, since the curve is parametrized by its arc length $s,$ the unit tangent can
 $$
 
 
-\mathbf T(s) = \dfrac{\textrm{d}}{\textrm{d}s}\mathbf R(s).
+\mathbf T(s) = \dfrac{\text{d}}{\text{d}s}\mathbf R(s).
 
 
 $$
@@ -127,7 +127,7 @@ So, we obtain
 $$
 
 
-\begin{aligned}𝐓(𝑠) & =\frac{d}{d𝑠}𝐑(𝑠) \\ & =\frac{d}{d𝑠}(cos⁡(\frac{𝑠}{2}))\,𝐢+\frac{d}{d𝑠}(−sin⁡(\frac{𝑠}{2}))𝐣+\frac{d}{d𝑠}(\frac{\sqrt{√3}𝑠}{2})𝐤 \\ & =−\frac{1}{2}sin⁡(\frac{𝑠}{2})\,𝐢−\frac{1}{2}cos⁡(\frac{𝑠}{2})\,𝐣+\frac{\sqrt{√3}}{2}\,𝐤 \\ & =\frac{1}{2}(−sin⁡(\frac{𝑠}{2})\,𝐢−cos⁡(\frac{𝑠}{2})\,𝐣+\sqrt{√3}\,𝐤).\end{aligned}
+\begin{aligned}𝐓(𝑠) & =\frac{d}{d𝑠}𝐑(𝑠) \\ & =\frac{d}{d𝑠}(cos⁡(\frac{𝑠}{2}))\,𝐢+\frac{d}{d𝑠}(−sin⁡(\frac{𝑠}{2}))𝐣+\frac{d}{d𝑠}(\frac{\sqrt{3}𝑠}{2})𝐤 \\ & =−\frac{1}{2}sin⁡(\frac{𝑠}{2})\,𝐢−\frac{1}{2}cos⁡(\frac{𝑠}{2})\,𝐣+\frac{\sqrt{3}}{2}\,𝐤 \\ & =\frac{1}{2}(−sin⁡(\frac{𝑠}{2})\,𝐢−cos⁡(\frac{𝑠}{2})\,𝐣+\sqrt{3}\,𝐤).\end{aligned}
 
 
 $$
@@ -145,7 +145,7 @@ First, we find $\mathbf{r}'(t)$ and its magnitude $\|\mathbf{r}'(t)\|\mathbin{:}
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑡) & =2\frac{d}{d𝑡}(𝑡cos⁡𝑡−sin⁡𝑡)\,𝐢+2\frac{d}{d𝑡}(𝑡sin⁡𝑡+cos⁡𝑡)\,𝐣 \\ & =2(cos⁡𝑡−𝑡sin⁡𝑡−cos⁡𝑡)\,𝐢+2(sin⁡𝑡+𝑡cos⁡𝑡−sin⁡𝑡)\,𝐣 \\ & =−2𝑡sin⁡𝑡\,𝐢+2𝑡cos⁡𝑡\,𝐣 \\ ‖𝑟^{′}(𝑡)‖ & =|2𝑡|\sqrt{√(−sin⁡𝑡)^{2}+cos^{2}⁡𝑡} \\ & =2𝑡\end{aligned}
+\begin{aligned}𝐫^{′}(𝑡) & =2\frac{d}{d𝑡}(𝑡cos⁡𝑡−sin⁡𝑡)\,𝐢+2\frac{d}{d𝑡}(𝑡sin⁡𝑡+cos⁡𝑡)\,𝐣 \\ & =2(cos⁡𝑡−𝑡sin⁡𝑡−cos⁡𝑡)\,𝐢+2(sin⁡𝑡+𝑡cos⁡𝑡−sin⁡𝑡)\,𝐣 \\ & =−2𝑡sin⁡𝑡\,𝐢+2𝑡cos⁡𝑡\,𝐣 \\ ‖𝑟^{′}(𝑡)‖ & =|2𝑡|\sqrt{(−sin⁡𝑡)^{2}+cos^{2}⁡𝑡} \\ & =2𝑡\end{aligned}
 
 
 $$
@@ -157,7 +157,7 @@ Next, we calculate the arc length of the curve from $0$ to $t\mathbin{:}$
 $$
 
 
-\begin{aligned}𝑠 & =∫_{𝑡0}^{}‖𝐫^{′}(𝑢)‖\,d𝑢 \\ & =∫_{𝑡0}^{}2𝑢\,d𝑢 \\ & =𝑢^{2}_{𝑡0}^{} \\ & =𝑡^{2}−0 \\ & =𝑡^{2}\end{aligned}
+\begin{aligned}𝑠 & =∫_{𝑡0}‖𝐫^{′}(𝑢)‖\,d𝑢 \\ & =∫_{𝑡0}2𝑢\,d𝑢 \\ & =𝑢^{2}_{𝑡0} \\ & =𝑡^{2}−0 \\ & =𝑡^{2}\end{aligned}
 
 
 $$
@@ -167,7 +167,7 @@ Now, since $s=t^2,$ we have
 $$
 
 
-\begin{aligned}𝑡^{2} & =𝑠 \\ 𝑡 & =±\sqrt{√𝑠} \\ 𝑡 & =\sqrt{√𝑠},\end{aligned}
+\begin{aligned}𝑡^{2} & =𝑠 \\ 𝑡 & =±\sqrt{𝑠} \\ 𝑡 & =\sqrt{𝑠},\end{aligned}
 
 
 $$
@@ -179,7 +179,7 @@ Finally, the vector function that parametrizes $\mathbf r(t)$ by its arc length 
 $$
 
 
-\begin{aligned}𝐑(𝑠) & =𝐫(\sqrt{√𝑠}) \\ & =2(\sqrt{√𝑠}cos⁡\sqrt{√𝑠}−sin⁡\sqrt{√𝑠})\,𝐢+2(\sqrt{√𝑠}sin⁡\sqrt{√𝑠}+cos⁡\sqrt{√𝑠})\,𝐣.\end{aligned}
+\begin{aligned}𝐑(𝑠) & =𝐫(\sqrt{𝑠}) \\ & =2(\sqrt{𝑠}cos⁡\sqrt{𝑠}−sin⁡\sqrt{𝑠})\,𝐢+2(\sqrt{𝑠}sin⁡\sqrt{𝑠}+cos⁡\sqrt{𝑠})\,𝐣.\end{aligned}
 
 
 $$

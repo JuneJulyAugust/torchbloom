@@ -17,7 +17,7 @@ When performing certain types of statistical tests (e.g., hypothesis testing), w
 
 In this lesson, we'll learn how to construct CDF tables for the Poisson distribution and use them to calculate probabilities.
 
-First, recall that the probability mass function of the Poisson distribution $\textrm{Po}(\lambda)$ is given by
+First, recall that the probability mass function of the Poisson distribution $\text{Po}(\lambda)$ is given by
 
 $$
 
@@ -39,7 +39,7 @@ F(x) = P(X \leq x).
 
 $$
 
-With that in mind, let's compute the values of $F(x)$ for the distribution $\textrm{Po}(2)$ at $x=0$ and $x=1.$
+With that in mind, let's compute the values of $F(x)$ for the distribution $\text{Po}(2)$ at $x=0$ and $x=1.$
 
 To do that, we use the definition of the cumulative distribution function:
 
@@ -57,13 +57,13 @@ Note the following:
 
 - $F(x)$ is an increasing function.
 
-- Since $\textrm{Po}(\lambda)$ takes arbitrarily large values, we have $F(x) < 1$ for all $n,$ and $F(x) \to 1$ as $x\to\infty.$
+- Since $\text{Po}(\lambda)$ takes arbitrarily large values, we have $F(x) < 1$ for all $n,$ and $F(x) \to 1$ as $x\to\infty.$
 
 ### Example: Constructing a Poisson CDF Table
 
 #### Question
 
-Consider the Poisson distribution $\textrm{Po}(9).$ Rounding to $4$ decimal places, fill in the missing value in the corresponding table for the cumulative distribution function below.
+Consider the Poisson distribution $\text{Po}(9).$ Rounding to $4$ decimal places, fill in the missing value in the corresponding table for the cumulative distribution function below.
 
 #### Explanation
 
@@ -77,7 +77,7 @@ F(x) = P(X \leq x).
 
 $$
 
-The probability mass function for the Poisson distribution $\textrm{Po}(\lambda)$ is given by
+The probability mass function for the Poisson distribution $\text{Po}(\lambda)$ is given by
 
 $$
 
@@ -103,7 +103,7 @@ $$
 
 #### Question
 
-Using the cumulative distribution function table of the Poisson random variable $X \sim \textrm{Po}(6)$ given below, compute $P(X=7).$
+Using the cumulative distribution function table of the Poisson random variable $X \sim \text{Po}(6)$ given below, compute $P(X=7).$
 
 #### Explanation
 
@@ -141,7 +141,7 @@ $$
 
 #### Question
 
-Using the cumulative distribution function table of the Poisson random variable $X \sim \textrm{Po}(8)$ given below, compute $P(3 \leq X \leq 6).$
+Using the cumulative distribution function table of the Poisson random variable $X \sim \text{Po}(8)$ given below, compute $P(3 \leq X \leq 6).$
 
 #### Explanation
 
@@ -179,7 +179,7 @@ $$
 
 #### Question
 
-Using the cumulative distribution function table of the Poisson random variable $X \sim \textrm{Po}(7)$ given below, compute $P(X \geq 5).$
+Using the cumulative distribution function table of the Poisson random variable $X \sim \text{Po}(7)$ given below, compute $P(X \geq 5).$
 
 #### Explanation
 

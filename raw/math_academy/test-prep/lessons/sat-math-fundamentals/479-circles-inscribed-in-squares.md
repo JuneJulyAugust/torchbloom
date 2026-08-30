@@ -33,18 +33,18 @@ Let's see an example.
 
 #### Question
 
-Find the area of a circle inscribed in a square with sides of length $18\,\textrm{m}.$
+Find the area of a circle inscribed in a square with sides of length $18\,\text{m}.$
 
 #### Explanation
 
 ![Instructional graphic](../../../lesson-assets/sat-math-fundamentals/topic-479/544c0e1b1ae542c2.png)
 
-The side of the square is $18 \: \textrm{m},$ which means that the diameter $d$ of the circle is
+The side of the square is $18 \: \text{m},$ which means that the diameter $d$ of the circle is
 
 $$
 
 
-d = 18 \: \textrm{m}.
+d = 18 \: \text{m}.
 
 
 $$
@@ -54,7 +54,7 @@ Thus, the radius $r$ of the circle is
 $$
 
 
-r = \dfrac{d}{2} = \dfrac{18}{2} = 9 \: \textrm{m}.
+r = \dfrac{d}{2} = \dfrac{18}{2} = 9 \: \text{m}.
 
 
 $$
@@ -73,7 +73,7 @@ $$
 
 Whenever we have information about a circle, we can use this to determine key characteristics of the square that inscribes it.
 
-For example, suppose we have a circle with radius $r=2\:\textrm{cm}$ inscribed in a square, as shown below. What is the area of the square?
+For example, suppose we have a circle with radius $r=2\:\text{cm}$ inscribed in a square, as shown below. What is the area of the square?
 
 ![Instructional graphic](../../../lesson-assets/sat-math-fundamentals/topic-479/7e44e0e039bf156c.png)
 
@@ -82,7 +82,7 @@ If $s$ is the length of the square's sides, then $s$ equals the diameter of the 
 $$
 
 
-s = 2r = 2(2) = 4\,\textrm{cm}.
+s = 2r = 2(2) = 4\,\text{cm}.
 
 
 $$
@@ -97,7 +97,7 @@ $$
 
 $$
 
-Therefore, the area of the square is $16\,\textrm{cm}^2.$
+Therefore, the area of the square is $16\,\text{cm}^2.$
 
 Let's look at another example.
 
@@ -145,7 +145,7 @@ $$
 
 #### Question
 
-The area of a circle inscribed in a square is $32\pi \,\textrm{mm}^2.$ Find the diagonal of the square.
+The area of a circle inscribed in a square is $32\pi \,\text{mm}^2.$ Find the diagonal of the square.
 
 #### Explanation
 
@@ -166,19 +166,19 @@ and taking the square root gives
 $$
 
 
-\begin{aligned}𝑟 & =\sqrt{√32} \\ & =\sqrt{√16⋅2} \\ & =\sqrt{√16}⋅\sqrt{√2} \\ & =4\sqrt{√2}.\end{aligned}
+\begin{aligned}𝑟 & =\sqrt{32} \\ & =\sqrt{16⋅2} \\ & =\sqrt{16}⋅\sqrt{2} \\ & =4\sqrt{2}.\end{aligned}
 
 
 $$
 
-Therefore, the radius of the circle equals $4\sqrt 2\,\textrm{mm}.$
+Therefore, the radius of the circle equals $4\sqrt 2\,\text{mm}.$
 
 The length $s$ of the square's side equals the diameter of the inscribed circle, and the diameter is twice the radius. Therefore,
 
 $$
 
 
-\begin{aligned}𝑠 & =2𝑟 \\ & =2(4\sqrt{√2}) \\ & =8\sqrt{√2}\,mm.\end{aligned}
+\begin{aligned}𝑠 & =2𝑟 \\ & =2(4\sqrt{2}) \\ & =8\sqrt{2}\,mm.\end{aligned}
 
 
 $$
@@ -188,7 +188,7 @@ Finally, the length $d$ of the square's diagonal is
 $$
 
 
-\begin{aligned}𝑑 & =𝑠\sqrt{√2} \\ & =8\sqrt{√2}⋅\sqrt{√2} \\ & =8⋅2 \\ & =16\,mm.\end{aligned}
+\begin{aligned}𝑑 & =𝑠\sqrt{2} \\ & =8\sqrt{2}⋅\sqrt{2} \\ & =8⋅2 \\ & =16\,mm.\end{aligned}
 
 
 $$

@@ -106,7 +106,7 @@ Therefore, we obtain the following:
 $$
 
 
-\begin{aligned}∇_{𝑥,𝑤}\,𝑓 & =\begin{aligned}\frac{𝜕𝑓}{𝜕𝑥} \\ \frac{𝜕𝑓}{𝜕𝑤}\end{aligned} \\ & =[\begin{aligned}𝑦𝑧𝑤 \\ 𝑥𝑦𝑧\end{aligned}]\end{aligned}
+\begin{aligned}∇_{𝑥,𝑤}\,𝑓 & =\begin{matrix}\frac{𝜕𝑓}{𝜕𝑥} \\ \frac{𝜕𝑓}{𝜕𝑤}\end{matrix} \\ & =[\begin{matrix}𝑦𝑧𝑤 \\ 𝑥𝑦𝑧\end{matrix}]\end{aligned}
 
 
 $$
@@ -192,7 +192,7 @@ To compute $\nabla_{\mathbf{w}} \: f$, we take partial derivatives with respect 
 $$
 
 
-\begin{aligned}\frac{𝜕𝑓}{𝜕𝑤_{1}} & =\frac{𝜕}{𝜕𝑤_{1}}(𝑤_{1}𝑥_{31}^{}+𝑤_{2}𝑥_{32}^{})=𝑥_{31}^{} \\ \frac{𝜕𝑓}{𝜕𝑤_{2}} & =\frac{𝜕}{𝜕𝑤_{2}}(𝑤_{1}𝑥_{31}^{}+𝑤_{2}𝑥_{32}^{})=𝑥_{32}^{}\end{aligned}
+\begin{aligned}\frac{𝜕𝑓}{𝜕𝑤_{1}} & =\frac{𝜕}{𝜕𝑤_{1}}(𝑤_{1}𝑥_{31}+𝑤_{2}𝑥_{32})=𝑥_{31} \\ \frac{𝜕𝑓}{𝜕𝑤_{2}} & =\frac{𝜕}{𝜕𝑤_{2}}(𝑤_{1}𝑥_{31}+𝑤_{2}𝑥_{32})=𝑥_{32}\end{aligned}
 
 
 $$
@@ -202,7 +202,7 @@ Therefore, with $[\begin{aligned}3,\,−2\end{aligned}]$ we obtain the following
 $$
 
 
-\begin{aligned}∇_{𝐰}\,𝑓 & =[\begin{aligned}𝑥_{31}^{} \\ 𝑥_{32}^{}\end{aligned}] \\ & =[\begin{aligned}27 \\ −8\end{aligned}]\end{aligned}
+\begin{aligned}∇_{𝐰}\,𝑓 & =[\begin{matrix}𝑥_{31} \\ 𝑥_{32}\end{matrix}] \\ & =[\begin{matrix}27 \\ −8\end{matrix}]\end{aligned}
 
 
 $$
@@ -246,7 +246,7 @@ First, we compute the gradient:
 $$
 
 
-\begin{aligned}\frac{𝜕𝑓}{𝜕𝑤_{1}} & =\frac{𝜕}{𝜕𝑤_{1}}(𝑤_{21}^{}𝑥_{22}^{}−𝑤_{2}𝑥_{1})=2𝑤_{1}𝑥_{22}^{} \\ \frac{𝜕𝑓}{𝜕𝑤_{2}} & =\frac{𝜕}{𝜕𝑤_{2}}(𝑤_{21}^{}𝑥_{22}^{}−𝑤_{2}𝑥_{1})=−𝑥_{1}\end{aligned}
+\begin{aligned}\frac{𝜕𝑓}{𝜕𝑤_{1}} & =\frac{𝜕}{𝜕𝑤_{1}}(𝑤_{21}𝑥_{22}−𝑤_{2}𝑥_{1})=2𝑤_{1}𝑥_{22} \\ \frac{𝜕𝑓}{𝜕𝑤_{2}} & =\frac{𝜕}{𝜕𝑤_{2}}(𝑤_{21}𝑥_{22}−𝑤_{2}𝑥_{1})=−𝑥_{1}\end{aligned}
 
 
 $$
@@ -256,7 +256,7 @@ Next, we compute the second derivatives:
 $$
 
 
-\begin{aligned}\frac{𝜕^{2}𝑓}{𝜕𝑤_{21}^{}} & =2𝑥_{22}^{}, & \,\frac{𝜕^{2}𝑓}{𝜕𝑤_{1}𝜕𝑤_{2}} & =0 \\ \frac{𝜕^{2}𝑓}{𝜕𝑤_{2}𝜕𝑤_{1}} & =0 & \,\frac{𝜕^{2}𝑓}{𝜕𝑤_{22}^{}} & =0\end{aligned}
+\begin{aligned}\frac{𝜕^{2}𝑓}{𝜕𝑤_{21}} & =2𝑥_{22}, & \,\frac{𝜕^{2}𝑓}{𝜕𝑤_{1}𝜕𝑤_{2}} & =0 \\ \frac{𝜕^{2}𝑓}{𝜕𝑤_{2}𝜕𝑤_{1}} & =0 & \,\frac{𝜕^{2}𝑓}{𝜕𝑤_{22}} & =0\end{aligned}
 
 
 $$
@@ -266,7 +266,7 @@ Putting everything into matrix form, we get the Hessian
 $$
 
 
-\begin{aligned}\frac{𝜕^{2}𝑓}{𝜕𝑤_{21}^{}} & \frac{𝜕^{2}𝑓}{𝜕𝑤_{1}𝜕𝑤_{2}} \\ \frac{𝜕^{2}𝑓}{𝜕𝑤_{2}𝜕𝑤_{1}} & \frac{𝜕^{2}𝑓}{𝜕𝑤_{22}^{}}\end{aligned}
+\begin{aligned}\frac{𝜕^{2}𝑓}{𝜕𝑤_{21}} & \frac{𝜕^{2}𝑓}{𝜕𝑤_{1}𝜕𝑤_{2}} \\ \frac{𝜕^{2}𝑓}{𝜕𝑤_{2}𝜕𝑤_{1}} & \frac{𝜕^{2}𝑓}{𝜕𝑤_{22}}\end{aligned}
 
 
 $$
@@ -296,7 +296,7 @@ Next, we compute the second derivatives:
 $$
 
 
-\begin{aligned} & \frac{𝜕^{2}𝑓}{𝜕𝑤_{21}^{}}=2𝑥_{21}^{}\,\, & & \frac{𝜕^{2}𝑓}{𝜕𝑤_{1}𝜕𝑤_{2}}=−2𝑥_{1} \\ & \frac{𝜕^{2}𝑓}{𝜕𝑤_{2}𝜕𝑤_{1}}=−2𝑥_{1}\,\, & & \frac{𝜕^{2}𝑓}{𝜕𝑤_{22}^{}}=2\end{aligned}
+\begin{aligned} & \frac{𝜕^{2}𝑓}{𝜕𝑤_{21}}=2𝑥_{21}\,\, & & \frac{𝜕^{2}𝑓}{𝜕𝑤_{1}𝜕𝑤_{2}}=−2𝑥_{1} \\ & \frac{𝜕^{2}𝑓}{𝜕𝑤_{2}𝜕𝑤_{1}}=−2𝑥_{1}\,\, & & \frac{𝜕^{2}𝑓}{𝜕𝑤_{22}}=2\end{aligned}
 
 
 $$
@@ -306,7 +306,7 @@ Therefore, we obtain the following:
 $$
 
 
-\begin{aligned}∇_{𝐰}(∇_{𝐰}\,𝑓) & =\begin{aligned}\frac{𝜕^{2}𝑓}{𝜕𝑤_{21}^{}} & \frac{𝜕^{2}𝑓}{𝜕𝑤_{1}𝜕𝑤_{2}} \\ \frac{𝜕^{2}𝑓}{𝜕𝑤_{2}𝜕𝑤_{1}} & \frac{𝜕^{2}𝑓}{𝜕𝑤_{22}^{}}\end{aligned} \\ & =[\begin{aligned}2𝑥_{21}^{} & −2𝑥_{1} \\ −2𝑥_{1} & 2\end{aligned}]\end{aligned}
+\begin{aligned}∇_{𝐰}(∇_{𝐰}\,𝑓) & =\begin{matrix}\frac{𝜕^{2}𝑓}{𝜕𝑤_{21}} & \frac{𝜕^{2}𝑓}{𝜕𝑤_{1}𝜕𝑤_{2}} \\ \frac{𝜕^{2}𝑓}{𝜕𝑤_{2}𝜕𝑤_{1}} & \frac{𝜕^{2}𝑓}{𝜕𝑤_{22}}\end{matrix} \\ & =[\begin{matrix}2𝑥_{21} & −2𝑥_{1} \\ −2𝑥_{1} & 2\end{matrix}]\end{aligned}
 
 
 $$

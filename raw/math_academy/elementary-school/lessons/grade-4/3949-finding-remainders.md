@@ -21,7 +21,7 @@ This model represents the division problem
 
 $$
 
-22 \div 5 = {\color{red}{4}} \, \textrm{R} \: {\color{blue}{2}}\,.
+22 \div 5 = {\color{red}{4}} \, \text{R} \: {\color{blue}{2}}\,.
 
 $$
 
@@ -49,7 +49,7 @@ Consider the following division problem:
 
 $$
 
-14 \div 4 = 3 \, \textrm{R} \: 2
+14 \div 4 = 3 \, \text{R} \: 2
 
 $$
 
@@ -119,7 +119,7 @@ Finally, we can write
 
 $$
 
-27 \div 6 = 4 \, \textrm{R} \, \boxed{\color{blue}3}.
+27 \div 6 = 4 \, \text{R} \, \boxed{\color{blue}3}.
 
 $$
 
@@ -131,7 +131,7 @@ Consider the following division problem with an unknown remainder.
 
 $$
 
-23 \div 5 = 4 \, \textrm{R} \: \boxed{\color{blue}?}
+23 \div 5 = 4 \, \text{R} \: \boxed{\color{blue}?}
 
 $$
 
@@ -167,7 +167,7 @@ Finally, we can write
 
 $$
 
-23 \div 5 = 4 \, \textrm{R} \, \boxed{\color{blue}3}.
+23 \div 5 = 4 \, \text{R} \, \boxed{\color{blue}3}.
 
 $$
 
@@ -213,6 +213,6 @@ Finally, we can write
 
 $$
 
-35 \div 6 = 5 \, \textrm{R} \, \boxed{\color{blue}5}.
+35 \div 6 = 5 \, \text{R} \, \boxed{\color{blue}5}.
 
 $$

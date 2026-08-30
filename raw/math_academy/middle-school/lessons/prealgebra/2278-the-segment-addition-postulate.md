@@ -89,7 +89,7 @@ $$
 
 $$
 
-Therefore, the distance between the points $B$ and $C$ is $2\,\textrm{cm}.$
+Therefore, the distance between the points $B$ and $C$ is $2\,\text{cm}.$
 
 ### Example: Calculating the Distance Between Three Collinear Points
 

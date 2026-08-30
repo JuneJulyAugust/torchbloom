@@ -56,7 +56,7 @@ Differentiating $\mathbf{x}_p(t)$ with respect to $t,$ we get
 $$
 
 
-\begin{aligned}𝐱_{′𝑝}^{}(𝑡) & =(Φ\,𝐮(𝑡))^{′} \\ & =Φ𝐮^{′}(𝑡)+Φ^{′}𝐮(𝑡).\end{aligned}
+\begin{aligned}𝐱_{′𝑝}(𝑡) & =(Φ\,𝐮(𝑡))^{′} \\ & =Φ𝐮^{′}(𝑡)+Φ^{′}𝐮(𝑡).\end{aligned}
 
 
 $$
@@ -127,39 +127,39 @@ $$
 
 Using the method of variation of parameters, we wish to find a particular solution in the form $\mathbf{x}_p(t) = \Phi \mathbf{u}(t),$ where $\Phi$ is a fundamental matrix for the corresponding homogeneous system and $\mathbf{u}(t)$ is a column vector of functions to be determined. A derivation of the formula for $\mathbf x_p(t)$ is given below.
 
-$\textrm{L1}{:}\:$ $\mathbf{x}_p(t) = \Phi \mathbf{u}(t)$
+$\text{L1}{:}\:$ $\mathbf{x}_p(t) = \Phi \mathbf{u}(t)$
 
-$\textrm{L2}{:}\:$ $\mathbf{x}'_p(t) = \Phi \mathbf{u}'(t) + \Phi' \mathbf{u}(t)$
+$\text{L2}{:}\:$ $\mathbf{x}'_p(t) = \Phi \mathbf{u}'(t) + \Phi' \mathbf{u}(t)$
 
-$\textrm{L3}{:}\:$ $\Phi \mathbf{u}'(t) + \Phi' \mathbf{u}(t) = A \Phi \mathbf{u}(t) + \mathbf{f}(t)$
+$\text{L3}{:}\:$ $\Phi \mathbf{u}'(t) + \Phi' \mathbf{u}(t) = A \Phi \mathbf{u}(t) + \mathbf{f}(t)$
 
-$\textrm{L4}{:}\:$ $\Phi' = A \Phi$
+$\text{L4}{:}\:$ $\Phi' = A \Phi$
 
-$\textrm{L5}{:}\:$ $\Phi \mathbf{u}'(t) = \mathbf{f}(t)$
+$\text{L5}{:}\:$ $\Phi \mathbf{u}'(t) = \mathbf{f}(t)$
 
-$\textrm{L6}{:}\:$ $\mathbf{u}'(t) = \Phi^{-1}(t) \mathbf{f}(t)$
+$\text{L6}{:}\:$ $\mathbf{u}'(t) = \Phi^{-1}(t) \mathbf{f}(t)$
 
-$\textrm{L7}{:}\:$ $\displaystyle\mathbf{u}(t) = \int \Phi^{-1} \mathbf{f}(t) \, \text{d}t$
+$\text{L7}{:}\:$ $\displaystyle\mathbf{u}(t) = \int \Phi^{-1} \mathbf{f}(t) \, \text{d}t$
 
-$\textrm{L8}{:}\:$ $\displaystyle\mathbf{x}_p(t) = \Phi \int \Phi^{-1}\mathbf{f}(t) \, \text{d}t$
+$\text{L8}{:}\:$ $\displaystyle\mathbf{x}_p(t) = \Phi \int \Phi^{-1}\mathbf{f}(t) \, \text{d}t$
 
 Fill in the blanks with the correct reasons to justify each step of the reasoning.
 
-$\quad$ Line $\textrm{L4}$ follows from the fact that $𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴$ matrix.
+$\quad$ Line $\text{L4}$ follows from the fact that $𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴$ matrix.
 
-$\quad$ Line $\textrm{L6}$ follows from line $\textrm{L5}$ by $𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴$ both sides of the equation.
+$\quad$ Line $\text{L6}$ follows from line $\text{L5}$ by $𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴$ both sides of the equation.
 
-$\quad$ Line $\textrm{L8}$ is obtained by substituting $\textrm{L7}$ into $𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴$
+$\quad$ Line $\text{L8}$ is obtained by substituting $\text{L7}$ into $𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴$
 
 #### Explanation
 
 Let's examine each statement in turn.
 
-- We first consider line $\textrm{L4}.$ Since $\Phi$ is a fundamental matrix, its columns are solutions to the homogeneous system $\mathbf{x}'(t) =A\mathbf{x}(t),$ i.e., by substituting any column $\mathbf{c}(t)$ of $\Phi$ into the homogeneous system, we get where $\mathbf{c}'(t)$ is the corresponding column of derivatives in $\Phi.$ As a result, this means that $\Phi' = A \Phi.$ Therefore, $\textrm{L4}$ follows from the fact that $Φ$ matrix.
+- We first consider line $\text{L4}.$ Since $\Phi$ is a fundamental matrix, its columns are solutions to the homogeneous system $\mathbf{x}'(t) =A\mathbf{x}(t),$ i.e., by substituting any column $\mathbf{c}(t)$ of $\Phi$ into the homogeneous system, we get where $\mathbf{c}'(t)$ is the corresponding column of derivatives in $\Phi.$ As a result, this means that $\Phi' = A \Phi.$ Therefore, $\text{L4}$ follows from the fact that $Φ$ matrix.
 
-- Next, we consider lines $\textrm{L5}$ and $\textrm{L6}.$ Since $\Phi$ is a fundamental matrix, its columns are linearly independent. So, $\Phi$ is invertible. Therefore, $\textrm{L6}$ follows from $\textrm{L5}$ by $Φ^{−1}$ both sides of the equation:
+- Next, we consider lines $\text{L5}$ and $\text{L6}.$ Since $\Phi$ is a fundamental matrix, its columns are linearly independent. So, $\Phi$ is invertible. Therefore, $\text{L6}$ follows from $\text{L5}$ by $Φ^{−1}$ both sides of the equation:
 
-- Finally, we consider lines $\textrm{L1},$ $\textrm{L7},$ and $\textrm{L8}.$ Substituting from $\textrm{L7}$ into $\textrm{L1},$ we get Therefore, $\textrm{L8}$ is obtained by substituting $\textrm{L7}$ into $L1$
+- Finally, we consider lines $\text{L1},$ $\text{L7},$ and $\text{L8}.$ Substituting from $\text{L7}$ into $\text{L1},$ we get Therefore, $\text{L8}$ is obtained by substituting $\text{L7}$ into $L1$
 
 ### Example: Finding the Particular Solution of an Inhomogeneous System of Linear ODEs
 
@@ -212,7 +212,7 @@ Since $\Phi$ is a fundamental matrix, it must be invertible. Using the formula f
 $$
 
 
-\begin{aligned}Φ^{−1} & =\frac{1}{0⋅(−2𝑒^{−4𝑡})−2𝑒^{−4𝑡}⋅𝑒^{3𝑡}}[\begin{aligned}−2𝑒^{−4𝑡} & −2𝑒^{−4𝑡} \\ −𝑒^{3𝑡} & 0\end{aligned}] \\ & =−\frac{𝑒^{𝑡}}{2}[\begin{aligned}−2𝑒^{−4𝑡} & −2𝑒^{−4𝑡} \\ −𝑒^{3𝑡} & 0\end{aligned}] \\ & =\begin{aligned}𝑒^{−3𝑡} & 𝑒^{−3𝑡} \\ \frac{1}{2}𝑒^{4𝑡} & 0\end{aligned} \\ Φ^{−1}\,𝐟(𝑡) & =\begin{aligned}𝑒^{−3𝑡} & 𝑒^{−3𝑡} \\ \frac{1}{2}𝑒^{4𝑡} & 0\end{aligned}[\begin{aligned}𝑒^{𝑡} \\ 2𝑒^{𝑡}\end{aligned}] \\ & =\begin{aligned}3𝑒^{−2𝑡} \\ \frac{1}{2}𝑒^{5𝑡}\end{aligned}\end{aligned}
+\begin{aligned}Φ^{−1} & =\frac{1}{0⋅(−2𝑒^{−4𝑡})−2𝑒^{−4𝑡}⋅𝑒^{3𝑡}}[\begin{matrix}−2𝑒^{−4𝑡} & −2𝑒^{−4𝑡} \\ −𝑒^{3𝑡} & 0\end{matrix}] \\ & =−\frac{𝑒^{𝑡}}{2}[\begin{matrix}−2𝑒^{−4𝑡} & −2𝑒^{−4𝑡} \\ −𝑒^{3𝑡} & 0\end{matrix}] \\ & =\begin{matrix}𝑒^{−3𝑡} & 𝑒^{−3𝑡} \\ \frac{1}{2}𝑒^{4𝑡} & 0\end{matrix} \\ Φ^{−1}\,𝐟(𝑡) & =\begin{matrix}𝑒^{−3𝑡} & 𝑒^{−3𝑡} \\ \frac{1}{2}𝑒^{4𝑡} & 0\end{matrix}[\begin{matrix}𝑒^{𝑡} \\ 2𝑒^{𝑡}\end{matrix}] \\ & =\begin{matrix}3𝑒^{−2𝑡} \\ \frac{1}{2}𝑒^{5𝑡}\end{matrix}\end{aligned}
 
 
 $$
@@ -222,7 +222,7 @@ Now, using our formula for $\mathbf{u}(t),$ we obtain
 $$
 
 
-\begin{aligned}𝐮(𝑡) & =∫Φ^{−1}\,𝐟(𝑡)\,d𝑡 \\ & =∫\begin{aligned}3𝑒^{−2𝑡} \\ \frac{1}{2}𝑒^{5𝑡}\end{aligned}\,d𝑡 \\ & =\begin{aligned}∫3𝑒^{−2𝑡}\,d𝑡 \\ ∫\frac{1}{2}𝑒^{5𝑡}\,d𝑡\end{aligned} \\ & =\begin{aligned}−\frac{3}{2}𝑒^{−2𝑡} \\ \frac{1}{10}𝑒^{5𝑡}\end{aligned}.\end{aligned}
+\begin{aligned}𝐮(𝑡) & =∫Φ^{−1}\,𝐟(𝑡)\,d𝑡 \\ & =∫\begin{matrix}3𝑒^{−2𝑡} \\ \frac{1}{2}𝑒^{5𝑡}\end{matrix}\,d𝑡 \\ & =\begin{matrix}∫3𝑒^{−2𝑡}\,d𝑡 \\ ∫\frac{1}{2}𝑒^{5𝑡}\,d𝑡\end{matrix} \\ & =\begin{matrix}−\frac{3}{2}𝑒^{−2𝑡} \\ \frac{1}{10}𝑒^{5𝑡}\end{matrix}.\end{aligned}
 
 
 $$
@@ -232,7 +232,7 @@ Therefore, our particular solution is
 $$
 
 
-\begin{aligned}𝐱_{𝑝}(𝑡) & =Φ\,𝐮(𝑡) \\ & =[\begin{aligned}0 & 2𝑒^{−4𝑡} \\ 𝑒^{3𝑡} & −2𝑒^{−4𝑡}\end{aligned}]\begin{aligned}−\frac{3}{2}𝑒^{−2𝑡} \\ \frac{1}{10}𝑒^{5𝑡}\end{aligned} \\ & =\begin{aligned}\frac{1}{5}𝑒^{𝑡} \\ −\frac{17}{10}𝑒^{𝑡}\end{aligned} \\ & =𝑒^{𝑡}\begin{aligned}\frac{1}{5} \\ −\frac{17}{10}\end{aligned}.\end{aligned}
+\begin{aligned}𝐱_{𝑝}(𝑡) & =Φ\,𝐮(𝑡) \\ & =[\begin{matrix}0 & 2𝑒^{−4𝑡} \\ 𝑒^{3𝑡} & −2𝑒^{−4𝑡}\end{matrix}]\begin{matrix}−\frac{3}{2}𝑒^{−2𝑡} \\ \frac{1}{10}𝑒^{5𝑡}\end{matrix} \\ & =\begin{matrix}\frac{1}{5}𝑒^{𝑡} \\ −\frac{17}{10}𝑒^{𝑡}\end{matrix} \\ & =𝑒^{𝑡}\begin{matrix}\frac{1}{5} \\ −\frac{17}{10}\end{matrix}.\end{aligned}
 
 
 $$
@@ -310,7 +310,7 @@ Since $\Phi$ is a fundamental matrix, it must be invertible. Using the formula f
 $$
 
 
-\begin{aligned}Φ^{−1} & =\frac{1}{𝑒^{−2𝑡}⋅𝑒^{−4𝑡}−0}[\begin{aligned}𝑒^{−4𝑡} & 0 \\ 0 & 𝑒^{−2𝑡}\end{aligned}] \\ & =𝑒^{6𝑡}[\begin{aligned}𝑒^{−4𝑡} & 0 \\ 0 & 𝑒^{−2𝑡}\end{aligned}] \\ & =[\begin{aligned}𝑒^{2𝑡} & 0 \\ 0 & 𝑒^{4𝑡}\end{aligned}]. \\ Φ^{−1}\,𝐟(𝑡) & =[\begin{aligned}𝑒^{2𝑡} & 0 \\ 0 & 𝑒^{4𝑡}\end{aligned}][\begin{aligned}2𝑡 \\ 0\end{aligned}] \\ & =[\begin{aligned}2𝑡𝑒^{2𝑡} \\ 0\end{aligned}].\end{aligned}
+\begin{aligned}Φ^{−1} & =\frac{1}{𝑒^{−2𝑡}⋅𝑒^{−4𝑡}−0}[\begin{matrix}𝑒^{−4𝑡} & 0 \\ 0 & 𝑒^{−2𝑡}\end{matrix}] \\ & =𝑒^{6𝑡}[\begin{matrix}𝑒^{−4𝑡} & 0 \\ 0 & 𝑒^{−2𝑡}\end{matrix}] \\ & =[\begin{matrix}𝑒^{2𝑡} & 0 \\ 0 & 𝑒^{4𝑡}\end{matrix}]. \\ Φ^{−1}\,𝐟(𝑡) & =[\begin{matrix}𝑒^{2𝑡} & 0 \\ 0 & 𝑒^{4𝑡}\end{matrix}][\begin{matrix}2𝑡 \\ 0\end{matrix}] \\ & =[\begin{matrix}2𝑡𝑒^{2𝑡} \\ 0\end{matrix}].\end{aligned}
 
 
 $$
@@ -320,7 +320,7 @@ Now, using our formula for $\mathbf{u}(t),$ we obtain
 $$
 
 
-\begin{aligned}𝐮(𝑡) & =∫Φ^{−1}\,𝐟(𝑡)\,d𝑡 \\ & =∫[\begin{aligned}2𝑡𝑒^{2𝑡} \\ 0\end{aligned}]\,d𝑡 \\ & =\begin{aligned}∫2𝑡𝑒^{2𝑡}\,d𝑡 \\ ∫0\,d𝑡\end{aligned}.\end{aligned}
+\begin{aligned}𝐮(𝑡) & =∫Φ^{−1}\,𝐟(𝑡)\,d𝑡 \\ & =∫[\begin{matrix}2𝑡𝑒^{2𝑡} \\ 0\end{matrix}]\,d𝑡 \\ & =\begin{matrix}∫2𝑡𝑒^{2𝑡}\,d𝑡 \\ ∫0\,d𝑡\end{matrix}.\end{aligned}
 
 
 $$
@@ -336,7 +336,7 @@ Therefore, our particular solution is
 $$
 
 
-\begin{aligned}𝐱_{𝑝}(𝑡) & =Φ\,𝐮(𝑡) \\ & =[\begin{aligned}𝑒^{−2𝑡} & 0 \\ 0 & 𝑒^{−4𝑡}\end{aligned}]\begin{aligned}\frac{1}{2}𝑒^{2𝑡}(2𝑡−1) \\ 0\end{aligned} \\ & =\frac{1}{2}[\begin{aligned}2𝑡−1 \\ 0\end{aligned}].\end{aligned}
+\begin{aligned}𝐱_{𝑝}(𝑡) & =Φ\,𝐮(𝑡) \\ & =[\begin{matrix}𝑒^{−2𝑡} & 0 \\ 0 & 𝑒^{−4𝑡}\end{matrix}]\begin{matrix}\frac{1}{2}𝑒^{2𝑡}(2𝑡−1) \\ 0\end{matrix} \\ & =\frac{1}{2}[\begin{matrix}2𝑡−1 \\ 0\end{matrix}].\end{aligned}
 
 
 $$

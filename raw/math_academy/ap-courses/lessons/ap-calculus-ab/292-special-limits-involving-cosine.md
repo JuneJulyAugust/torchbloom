@@ -18,7 +18,7 @@ Consider the following limit:
 $$
 
 
-\lim_\limits{x \to 0} \dfrac{1- \cos x}{x}
+\lim\limits_{x \to 0} \dfrac{1- \cos x}{x}
 
 
 $$
@@ -42,7 +42,7 @@ While $y = \dfrac{1 - \cos{x}}{x}$ is undefined at $x=0,$ it does appear from th
 $$
 
 
-\lim_\limits{x \to 0} \dfrac{1-\cos x}{x}=0.
+\lim\limits_{x \to 0} \dfrac{1-\cos x}{x}=0.
 
 
 $$
@@ -53,7 +53,7 @@ This is indeed the case. Moreover, it's possible to prove this result rigorously
 
 #### Question
 
-Evaluate $\lim_\limits{y \to 0} \dfrac{\cos^2 y-1}{y}.$
+Evaluate $\lim\limits_{y \to 0} \dfrac{\cos^2 y-1}{y}.$
 
 #### Explanation
 
@@ -76,7 +76,7 @@ Instead, let's recall the following special limit:
 $$
 
 
-\lim_\limits{y \to 0} \dfrac{1-\cos y}{y} = 0
+\lim\limits_{y \to 0} \dfrac{1-\cos y}{y} = 0
 
 
 $$
@@ -95,7 +95,7 @@ $$
 
 #### Question
 
-Calculate $\lim_\limits{x \to 0} \dfrac{\sec x -1}{x}.$
+Calculate $\lim\limits_{x \to 0} \dfrac{\sec x -1}{x}.$
 
 #### Explanation
 
@@ -106,7 +106,7 @@ So, if we attempt to evaluate the limit directly, we get
 $$
 
 
-\lim_\limits{x \to 0}\dfrac{\sec x -1}{x} = \dfrac{\sec 0-1}{0} = \dfrac 00,
+\lim\limits_{x \to 0}\dfrac{\sec x -1}{x} = \dfrac{\sec 0-1}{0} = \dfrac 00,
 
 
 $$
@@ -118,7 +118,7 @@ Instead, let's recall the following special limit:
 $$
 
 
-\lim_\limits{x \to 0} \dfrac{1-\cos x}{x} = 0
+\lim\limits_{x \to 0} \dfrac{1-\cos x}{x} = 0
 
 
 $$
@@ -140,12 +140,12 @@ We can use our special limit with cosine to evaluate other limits, such as
 $$
 
 
-\lim_\limits{x \to 3} \dfrac{1-\cos(x-3)}{2x-6}.
+\lim\limits_{x \to 3} \dfrac{1-\cos(x-3)}{2x-6}.
 
 
 $$
 
-For this limit, notice that as $x\to3,$ both the numerator and denominator approach $0.$ So, if we attempt to evaluate the limit directly, we get $\%\lim_\limits{x \to 0} \: \dfrac{\sin 2x}{x} = \dfrac00,$ which is an indeterminate form.
+For this limit, notice that as $x\to3,$ both the numerator and denominator approach $0.$ So, if we attempt to evaluate the limit directly, we get $\%\lim\limits_{x \to 0} \: \dfrac{\sin 2x}{x} = \dfrac00,$ which is an indeterminate form.
 
 Instead, we rewrite the limit using the algebra of limits, as follows:
 
@@ -162,7 +162,7 @@ Now, this limit looks very similar to our special limit for cosine. So, if we ma
 $$
 
 
-\lim_\limits{x \to 3} \dfrac{1-\cos{\color{blue}(x-3)}}{\color{blue}(x-3)} = \lim_\limits{\theta \to 0} \: \dfrac{1-\cos {\color{blue}\theta}}{\color{blue}\theta} = 0.
+\lim\limits_{x \to 3} \dfrac{1-\cos{\color{blue}(x-3)}}{\color{blue}(x-3)} = \lim\limits_{\theta \to 0} \: \dfrac{1-\cos {\color{blue}\theta}}{\color{blue}\theta} = 0.
 
 
 $$
@@ -181,7 +181,7 @@ $$
 
 #### Question
 
-Evaluate $\lim_\limits{x \to 0} \dfrac{1-\cos{3x}}{x}.$
+Evaluate $\lim\limits_{x \to 0} \dfrac{1-\cos{3x}}{x}.$
 
 #### Explanation
 
@@ -192,7 +192,7 @@ So, if we attempt to evaluate the limit directly, we get
 $$
 
 
-\lim_\limits{x \to 0}\dfrac{1-\cos{3x}}{x} = \dfrac{1-\cos(3\cdot 0)}{ 0} = \dfrac 00,
+\lim\limits_{x \to 0}\dfrac{1-\cos{3x}}{x} = \dfrac{1-\cos(3\cdot 0)}{ 0} = \dfrac 00,
 
 
 $$
@@ -204,7 +204,7 @@ Instead, let's recall the following special limit:
 $$
 
 
-\lim_\limits{\theta \to 0} \dfrac{1-\cos \theta}{\theta} = 0
+\lim\limits_{\theta \to 0} \dfrac{1-\cos \theta}{\theta} = 0
 
 
 $$
@@ -224,7 +224,7 @@ Let $\theta=3x.$ Then, since $\theta \to 0$ as $x \to 0,$ we have
 $$
 
 
-\lim_\limits{x \to 0} \dfrac{1-\cos {\color{blue}3x}}{\color{blue}3x} = \lim_\limits{\theta \to 0} \dfrac{1-\cos {\color{blue}\theta}}{\color{blue}\theta} = 0.
+\lim\limits_{x \to 0} \dfrac{1-\cos {\color{blue}3x}}{\color{blue}3x} = \lim\limits_{\theta \to 0} \dfrac{1-\cos {\color{blue}\theta}}{\color{blue}\theta} = 0.
 
 
 $$
@@ -234,7 +234,7 @@ Therefore,
 $$
 
 
-3\cdot\lim_\limits{x \to 0} \dfrac{1-\cos{\color{black}3x}}{\color{black}3x}= 3\cdot 0 = 0.
+3\cdot\lim\limits_{x \to 0} \dfrac{1-\cos{\color{black}3x}}{\color{black}3x}= 3\cdot 0 = 0.
 
 
 $$
@@ -246,7 +246,7 @@ We can prove the result
 $$
 
 
-\displaystyle \lim_\limits{x \to 0} \dfrac{1-\cos x}{x}=0,
+\displaystyle \lim\limits_{x \to 0} \dfrac{1-\cos x}{x}=0,
 
 
 $$
@@ -256,7 +256,7 @@ using the limit
 $$
 
 
-\lim_\limits{x \to 0} \dfrac{\sin x}{x}=1.
+\lim\limits_{x \to 0} \dfrac{\sin x}{x}=1.
 
 
 $$

@@ -104,7 +104,7 @@ We typically assume that our sequence of random variables $X_1, X_2,\ldots, X_n$
 $$
 
 
-\textrm{Var}(X_i) = \sigma^2, \qquad 1\leq i\leq n
+\text{Var}(X_i) = \sigma^2, \qquad 1\leq i\leq n
 
 
 $$
@@ -164,7 +164,7 @@ Therefore, our estimate for the population mean is
 $$
 
 
-\begin{aligned}\overset{𝜇}{^} & =\overset{𝑥}{} \\ & =\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{7}}𝑥_{𝑖} \\ & =\frac{1}{7}(6+13+7+5+14+11+7) \\ & =\frac{63}{7} \\ & =9.\end{aligned}
+\begin{aligned}\hat{𝜇} & =\overset{𝑥}{} \\ & =\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{7}}𝑥_{𝑖} \\ & =\frac{1}{7}(6+13+7+5+14+11+7) \\ & =\frac{63}{7} \\ & =9.\end{aligned}
 
 
 $$
@@ -176,7 +176,7 @@ One important feature of $\overline{X}$ is that it's an **unbiased estimator** o
 $$
 
 
-\textrm{E}[\overline{X}] = \mu.
+\text{E}[\overline{X}] = \mu.
 
 
 $$
@@ -199,7 +199,7 @@ Finally, any estimate $\bar{x}$ of the population mean $\mu$ found by computing 
 
 #### Question
 
-A sample $X_1, X_2$ of two metallic rings is drawn from a population. The population has rings of two different diameters, $16.5\,\textrm{mm}$ and $\textrm{18}\,\textrm{mm},$ distributed in the ratio $5:1.$ Calculate $\textrm{E}[\overline{X}].$
+A sample $X_1, X_2$ of two metallic rings is drawn from a population. The population has rings of two different diameters, $16.5\,\text{mm}$ and $\text{18}\,\text{mm},$ distributed in the ratio $5:1.$ Calculate $\text{E}[\overline{X}].$
 
 #### Explanation
 
@@ -218,17 +218,17 @@ Since $\overline{X}$ is an unbiased estimator of $\mu,$ we have
 $$
 
 
-\textrm{E}[\overline{X}] = \mu.
+\text{E}[\overline{X}] = \mu.
 
 
 $$
 
-We're told that the rings in the population have diameters $16.5\,\textrm{mm}$ and $\textrm{18}\,\textrm{mm},$ and these are distributed in the ratio $5:1.$ Therefore, to compute the population mean, we can consider a population consisting of $5+1 = 6$ rings only with the following diameters:
+We're told that the rings in the population have diameters $16.5\,\text{mm}$ and $\text{18}\,\text{mm},$ and these are distributed in the ratio $5:1.$ Therefore, to compute the population mean, we can consider a population consisting of $5+1 = 6$ rings only with the following diameters:
 
 $$
 
 
-16.5\,\textrm{mm}, \qquad 16.5\,\textrm{mm}, \qquad 16.5\,\textrm{mm}, \qquad 16.5\,\textrm{mm}, \qquad 16.5\,\textrm{mm}, \qquad 18\,\textrm{mm}.
+16.5\,\text{mm}, \qquad 16.5\,\text{mm}, \qquad 16.5\,\text{mm}, \qquad 16.5\,\text{mm}, \qquad 16.5\,\text{mm}, \qquad 18\,\text{mm}.
 
 
 $$
@@ -248,7 +248,7 @@ Finally,
 $$
 
 
-\textrm{E}[\overline{X}] = \mu = 16.75\,\textrm{mm}.
+\text{E}[\overline{X}] = \mu = 16.75\,\text{mm}.
 
 
 $$

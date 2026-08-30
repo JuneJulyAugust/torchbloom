@@ -31,7 +31,7 @@ Recall that the method of variation of parameters begins by assuming that a part
 $$
 
 
-\begin{aligned}𝑦_{𝑝}=𝑢_{1}𝑦_{1}+𝑢_{2}𝑦_{2} \\ 𝑦_{′𝑝}^{}=𝑢_{1}𝑦_{′1}^{}+𝑢_{2}𝑦_{′2}^{}\end{aligned}
+\begin{aligned}𝑦_{𝑝}=𝑢_{1}𝑦_{1}+𝑢_{2}𝑦_{2} \\ 𝑦_{′𝑝}=𝑢_{1}𝑦_{′1}+𝑢_{2}𝑦_{′2}\end{aligned}
 
 
 $$
@@ -47,7 +47,7 @@ So, we have the following system:
 $$
 
 
-\begin{aligned}𝑢_{′1}^{}𝑦_{1}+𝑢_{′2}^{}𝑦_{2}=0 \\ 𝑢_{′1}^{}𝑦_{′1}^{}+𝑢_{′2}^{}𝑦_{′2}^{}=𝑓\end{aligned}
+\begin{aligned}𝑢_{′1}𝑦_{1}+𝑢_{′2}𝑦_{2}=0 \\ 𝑢_{′1}𝑦_{′1}+𝑢_{′2}𝑦_{′2}=𝑓\end{aligned}
 
 
 $$
@@ -57,7 +57,7 @@ According to Cramer's rule, the solution of the system is the following:
 $$
 
 
-\begin{aligned}𝑢_{′1}^{} & =\frac\begin{aligned}0 & 𝑦_{2} \\ 𝑓 & 𝑦_{′2}^{}\end{aligned}}\begin{aligned}𝑦_{1} & 𝑦_{2} \\ 𝑦_{′1}^{} & 𝑦_{′2}^{}\end{aligned}}=−\frac{𝑦_{2}𝑓}{𝑦_{1}𝑦_{′2}^{}−𝑦_{2}𝑦_{′1}^{}}=−\frac{𝑓(𝑥)𝑦_{2}(𝑥)}{𝑊(𝑦_{1},𝑦_{2})} \\ 𝑢_{′2}^{} & =\frac\begin{aligned}𝑦_{1} & 0 \\ 𝑦_{′1}^{} & 𝑓\end{aligned}}\begin{aligned}𝑦_{1} & 𝑦_{2} \\ 𝑦_{′1}^{} & 𝑦_{′2}^{}\end{aligned}}=\frac{𝑦_{1}𝑓}{𝑦_{1}𝑦_{′2}^{}−𝑦_{2}𝑦_{′1}^{}}=\frac{𝑓(𝑥)𝑦_{1}(𝑥)}{𝑊(𝑦_{1},𝑦_{2})}\end{aligned}
+\begin{aligned}𝑢_{′1} & =\frac{\begin{matrix}0 & 𝑦_{2} \\ 𝑓 & 𝑦_{′2}\end{matrix}}{\begin{matrix}𝑦_{1} & 𝑦_{2} \\ 𝑦_{′1} & 𝑦_{′2}\end{matrix}}=−\frac{𝑦_{2}𝑓}{𝑦_{1}𝑦_{′2}−𝑦_{2}𝑦_{′1}}=−\frac{𝑓(𝑥)𝑦_{2}(𝑥)}{𝑊(𝑦_{1},𝑦_{2})} \\ 𝑢_{′2} & =\frac{\begin{matrix}𝑦_{1} & 0 \\ 𝑦_{′1} & 𝑓\end{matrix}}{\begin{matrix}𝑦_{1} & 𝑦_{2} \\ 𝑦_{′1} & 𝑦_{′2}\end{matrix}}=\frac{𝑦_{1}𝑓}{𝑦_{1}𝑦_{′2}−𝑦_{2}𝑦_{′1}}=\frac{𝑓(𝑥)𝑦_{1}(𝑥)}{𝑊(𝑦_{1},𝑦_{2})}\end{aligned}
 
 
 $$
@@ -117,7 +117,7 @@ where $u_1$ and $u_2$ satisfy the following system:
 $$
 
 
-\begin{aligned}𝑢_{′1}^{}𝑦_{′1}^{}+𝑢_{′2}^{}𝑦_{′2}^{}=𝑓(𝑥) \\ 𝑢_{′1}^{}𝑦_{1}+𝑢_{′2}^{}𝑦_{2}=0\end{aligned}
+\begin{aligned}𝑢_{′1}𝑦_{′1}+𝑢_{′2}𝑦_{′2}=𝑓(𝑥) \\ 𝑢_{′1}𝑦_{1}+𝑢_{′2}𝑦_{2}=0\end{aligned}
 
 
 $$
@@ -159,7 +159,7 @@ We can use the method of variation of parameters if these solutions are independ
 $$
 
 
-\begin{aligned}𝑊(𝑦_{1},𝑦_{2}) & =\begin{aligned}𝑦_{1} & 𝑦_{2} \\ 𝑦_{′1}^{} & 𝑦_{′2}^{}\end{aligned} \\ & =𝑦_{1}𝑦_{′2}^{}−𝑦_{′1}^{}𝑦_{2} \\ & =(𝑒^{𝑥})(𝑥𝑒^{𝑥})^{′}−(𝑒^{𝑥})^{′}(𝑥𝑒^{𝑥}) \\ & =(𝑒^{𝑥})(𝑒^{𝑥}+𝑥𝑒^{𝑥})−(𝑒^{𝑥})(𝑥𝑒^{𝑥}) \\ & =𝑒^{2𝑥}+𝑥𝑒^{2𝑥}−𝑥𝑒^{2𝑥} \\ & =𝑒^{2𝑥}≠0\end{aligned}
+\begin{aligned}𝑊(𝑦_{1},𝑦_{2}) & =\begin{matrix}𝑦_{1} & 𝑦_{2} \\ 𝑦_{′1} & 𝑦_{′2}\end{matrix} \\ & =𝑦_{1}𝑦_{′2}−𝑦_{′1}𝑦_{2} \\ & =(𝑒^{𝑥})(𝑥𝑒^{𝑥})^{′}−(𝑒^{𝑥})^{′}(𝑥𝑒^{𝑥}) \\ & =(𝑒^{𝑥})(𝑒^{𝑥}+𝑥𝑒^{𝑥})−(𝑒^{𝑥})(𝑥𝑒^{𝑥}) \\ & =𝑒^{2𝑥}+𝑥𝑒^{2𝑥}−𝑥𝑒^{2𝑥} \\ & =𝑒^{2𝑥}≠0\end{aligned}
 
 
 $$
@@ -237,7 +237,7 @@ where $A$ and $B$ are constants. What could be the function $g(x)?$
 $$
 
 
-\int \tan x \sin x\,\textrm{d}x = -\sin x + \ln\!\left|\tan x+\sec x\right|
+\int \tan x \sin x\,\text{d}x = -\sin x + \ln\!\left|\tan x+\sec x\right|
 
 
 $$
@@ -259,7 +259,7 @@ where $u_1$ and $u_2$ satisfy the following system:
 $$
 
 
-\begin{aligned}𝑢_{′1}^{}𝑦_{′1}^{}+𝑢_{′2}^{}𝑦_{′2}^{}=𝑓(𝑥) \\ 𝑢_{′1}^{}𝑦_{1}+𝑢_{′2}^{}𝑦_{2}=0\end{aligned}
+\begin{aligned}𝑢_{′1}𝑦_{′1}+𝑢_{′2}𝑦_{′2}=𝑓(𝑥) \\ 𝑢_{′1}𝑦_{1}+𝑢_{′2}𝑦_{2}=0\end{aligned}
 
 
 $$
@@ -303,7 +303,7 @@ We can use the method of variation of parameters if these solutions are linearly
 $$
 
 
-\begin{aligned}𝑊(𝑦_{1},𝑦_{2}) & =\begin{aligned}𝑦_{1} & 𝑦_{2} \\ 𝑦_{′1}^{} & 𝑦_{′2}^{}\end{aligned} \\ & =𝑦_{1}(𝑥)𝑦_{′2}^{}(𝑥)−𝑦_{′1}^{}(𝑥)𝑦_{2}(𝑥) \\ & =(cos⁡𝑥)(sin⁡𝑥)^{′}−(cos⁡𝑥)^{′}(sin⁡𝑥) \\ & =(cos⁡𝑥)(cos⁡𝑥)−(−sin⁡𝑥)(sin⁡𝑥) \\ & =cos^{2}⁡𝑥+sin^{2}⁡𝑥 \\ & =1≠0\end{aligned}
+\begin{aligned}𝑊(𝑦_{1},𝑦_{2}) & =\begin{matrix}𝑦_{1} & 𝑦_{2} \\ 𝑦_{′1} & 𝑦_{′2}\end{matrix} \\ & =𝑦_{1}(𝑥)𝑦_{′2}(𝑥)−𝑦_{′1}(𝑥)𝑦_{2}(𝑥) \\ & =(cos⁡𝑥)(sin⁡𝑥)^{′}−(cos⁡𝑥)^{′}(sin⁡𝑥) \\ & =(cos⁡𝑥)(cos⁡𝑥)−(−sin⁡𝑥)(sin⁡𝑥) \\ & =cos^{2}⁡𝑥+sin^{2}⁡𝑥 \\ & =1≠0\end{aligned}
 
 
 $$

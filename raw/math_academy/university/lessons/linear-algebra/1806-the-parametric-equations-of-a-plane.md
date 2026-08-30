@@ -99,7 +99,7 @@ Now, we need to find a normal vector of the plane. To do that, we use the cross 
 $$
 
 
-\begin{aligned}𝐧 & =𝐯×𝐰 \\ & =\begin{aligned}4 \\ 2 \\ −1\end{aligned}×\begin{aligned}4 \\ −3 \\ 2\end{aligned} \\ & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 4 & 2 & −1 \\ 4 & −3 & 2\end{aligned} \\ & =𝐢−12𝐣−20𝐤 \\ & =⟨1,−12,−20⟩\end{aligned}
+\begin{aligned}𝐧 & =𝐯×𝐰 \\ & =\begin{matrix}4 \\ 2 \\ −1\end{matrix}×\begin{matrix}4 \\ −3 \\ 2\end{matrix} \\ & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 4 & 2 & −1 \\ 4 & −3 & 2\end{matrix} \\ & =𝐢−12𝐣−20𝐤 \\ & =⟨1,−12,−20⟩\end{aligned}
 
 
 $$
@@ -123,7 +123,7 @@ So, the corresponding parametric equation of the plane is given by
 $$
 
 
-\begin{aligned}𝐫 & =𝐜+𝑠𝐯_{𝟏}+𝑡𝐯_{𝟐} \\ 𝐫 & =⟨2,50,−19⟩+𝑠\,⟨−1,7,2⟩+𝑡\,⟨2\sqrt{√3},9,−8⟩,\,𝑠,𝑡∈(−∞,∞)\end{aligned}
+\begin{aligned}𝐫 & =𝐜+𝑠𝐯_{𝟏}+𝑡𝐯_{𝟐} \\ 𝐫 & =⟨2,50,−19⟩+𝑠\,⟨−1,7,2⟩+𝑡\,⟨2\sqrt{3},9,−8⟩,\,𝑠,𝑡∈(−∞,∞)\end{aligned}
 
 
 $$

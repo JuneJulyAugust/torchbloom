@@ -197,7 +197,7 @@ Substituting our matrices into this equation, we have
 $$
 
 
-\begin{aligned}\overset{\overset{\frac{1}{\sqrt{√2}}[\begin{aligned}2 & −4 \\ 0 & 3\end{aligned}]}{}}{𝑅}𝐱 & =\overset{\overset{\frac{1}{\sqrt{√2}}[\begin{aligned}−1 & 1 \\ 1 & 1\end{aligned}]}{}}{𝑄^{𝑇}}\overset{\overset{[\begin{aligned}2 \\ 4\end{aligned}]}{}}{𝐛} \\ [\begin{aligned}2 & −4 \\ 0 & 3\end{aligned}]𝐱 & =[\begin{aligned}2 \\ 6\end{aligned}],\end{aligned}
+\begin{aligned}\overset{\frac{1}{\sqrt{2}}[\begin{matrix}2 & −4 \\ 0 & 3\end{matrix}]}{}}{𝑅}𝐱 & =\overset{\frac{1}{\sqrt{2}}[\begin{matrix}−1 & 1 \\ 1 & 1\end{matrix}]}{}}{𝑄^{𝑇}}\overset{[\begin{matrix}2 \\ 4\end{matrix}]}{}}{𝐛} \\ [\begin{matrix}2 & −4 \\ 0 & 3\end{matrix}]𝐱 & =[\begin{matrix}2 \\ 6\end{matrix}],\end{aligned}
 
 
 $$
@@ -285,7 +285,7 @@ Now, substituting our matrices, we have
 $$
 
 
-\begin{aligned}\overset{\overset{\frac{1}{7}[\begin{aligned}7 & −3 \\ 0 & 2\end{aligned}]}{}}{𝑅}𝐱 & =\overset{\overset{\frac{1}{7}[\begin{aligned}3 & 6 & 2 \\ −6 & 2 & 3\end{aligned}]}{}}{𝑄^{𝑇}}\overset{\overset\begin{aligned}0 \\ 4 \\ 2\end{aligned}}{}}{𝐛} \\ [\begin{aligned}7 & −3 \\ 0 & 2\end{aligned}]𝐱 & =[\begin{aligned}28 \\ 14\end{aligned}],\end{aligned}
+\begin{aligned}\overset{\frac{1}{7}[\begin{matrix}7 & −3 \\ 0 & 2\end{matrix}]}{}}{𝑅}𝐱 & =\overset{\frac{1}{7}[\begin{matrix}3 & 6 & 2 \\ −6 & 2 & 3\end{matrix}]}{}}{𝑄^{𝑇}}\overset{\begin{matrix}0 \\ 4 \\ 2\end{matrix}}{𝐛} \\ [\begin{matrix}7 & −3 \\ 0 & 2\end{matrix}]𝐱 & =[\begin{matrix}28 \\ 14\end{matrix}],\end{aligned}
 
 
 $$

@@ -58,9 +58,9 @@ $$
 
 ### A Worked Example
 
-Suppose a body of mass $125\,\textrm{kg}$ is released from rest and falls vertically downward. Let $v(t)$ be the body's velocity, in meters per second, $t \geq 0$ seconds after release, with downward taken as the positive direction. The air resistance on the body is proportional to the square of its velocity with a constant of proportionality $k=49\,\textrm{kg/m}$ and acts in the direction opposite to motion.
+Suppose a body of mass $125\,\text{kg}$ is released from rest and falls vertically downward. Let $v(t)$ be the body's velocity, in meters per second, $t \geq 0$ seconds after release, with downward taken as the positive direction. The air resistance on the body is proportional to the square of its velocity with a constant of proportionality $k=49\,\text{kg/m}$ and acts in the direction opposite to motion.
 
-Assuming the acceleration due to gravity is $g=9.8\,\textrm{m/s}^2,$ and the only forces acting on the body are the weight due to gravity and drag, let's find the equation for the velocity $v(t).$
+Assuming the acceleration due to gravity is $g=9.8\,\text{m/s}^2,$ and the only forces acting on the body are the weight due to gravity and drag, let's find the equation for the velocity $v(t).$
 
 First, note that only two forces act on the body: the force due to gravity, given by the weight
 
@@ -138,7 +138,7 @@ $$
 
 #### Question
 
-A supply crate of mass $24\,\textrm{kg}$ falls vertically downward. Let $v(t)$ be the crate's velocity, in meters per second, $t \geq 0$ seconds after the descent began, with downward taken as the positive direction. The air resistance on the crate is proportional to the square of its velocity with a constant of proportionality $k=\dfrac{4}{5}\,\textrm{kg/m}$ and acts in the direction opposite to motion.
+A supply crate of mass $24\,\text{kg}$ falls vertically downward. Let $v(t)$ be the crate's velocity, in meters per second, $t \geq 0$ seconds after the descent began, with downward taken as the positive direction. The air resistance on the crate is proportional to the square of its velocity with a constant of proportionality $k=\dfrac{4}{5}\,\text{kg/m}$ and acts in the direction opposite to motion.
 
 What differential equation best models the velocity? Assume the acceleration due to gravity is $g,$ and the only forces acting on the crate are the weight due to gravity and drag.
 
@@ -184,9 +184,9 @@ $$
 
 #### Question
 
-A concrete cylinder of mass $50\,\textrm{kg}$ is released vertically downward with an initial velocity of $9\,\textrm{m/s}.$ Let $v(t)$ be the cylinder's velocity, in meters per second, $t \geq 0$ seconds after release, with downward taken as the positive direction. The air resistance on the cylinder is proportional to the square of its velocity with a constant of proportionality $k=4.9\,\textrm{kg/m}$ and acts in the direction opposite to motion.
+A concrete cylinder of mass $50\,\text{kg}$ is released vertically downward with an initial velocity of $9\,\text{m/s}.$ Let $v(t)$ be the cylinder's velocity, in meters per second, $t \geq 0$ seconds after release, with downward taken as the positive direction. The air resistance on the cylinder is proportional to the square of its velocity with a constant of proportionality $k=4.9\,\text{kg/m}$ and acts in the direction opposite to motion.
 
-Find the equation for the velocity $v(t).$ Assume the acceleration due to gravity is $g=9.8\,\textrm{m/s}^2,$ and the only forces acting on the cylinder are the weight due to gravity and drag.
+Find the equation for the velocity $v(t).$ Assume the acceleration due to gravity is $g=9.8\,\text{m/s}^2,$ and the only forces acting on the cylinder are the weight due to gravity and drag.
 
 #### Explanation
 
@@ -242,7 +242,7 @@ $$
 
 where $C = 0.1C_1$ is a constant of integration.
 
-We're told that the package is released with an initial velocity of $9\,\textrm{m/s}.$ So, we can apply the initial condition $v(0) = 9,$ and solve for $C{:}$
+We're told that the package is released with an initial velocity of $9\,\text{m/s}.$ So, we can apply the initial condition $v(0) = 9,$ and solve for $C{:}$
 
 $$
 
@@ -266,9 +266,9 @@ $$
 
 #### Question
 
-An air mattress of mass $5\,\textrm{kg}$ is released from rest and falls vertically downward. Let $v(t)$ be the mattress's velocity, in meters per second, $t \geq 0$ seconds after release, with downward taken as the positive direction. The air resistance on the air mattress is proportional to the square of its velocity and acts in the direction opposite to motion. At a particular moment during the fall, the air mattress’s velocity is $0.5\,\textrm{m/s}$ and its instantaneous acceleration is $7.35\,\textrm{m/s}^2.$
+An air mattress of mass $5\,\text{kg}$ is released from rest and falls vertically downward. Let $v(t)$ be the mattress's velocity, in meters per second, $t \geq 0$ seconds after release, with downward taken as the positive direction. The air resistance on the air mattress is proportional to the square of its velocity and acts in the direction opposite to motion. At a particular moment during the fall, the air mattress’s velocity is $0.5\,\text{m/s}$ and its instantaneous acceleration is $7.35\,\text{m/s}^2.$
 
-Find the equation for the velocity $v(t).$ Assume the acceleration due to gravity is $g=9.8\,\textrm{m/s}^2,$ and the only forces acting on the air mattress are the weight due to gravity and drag.
+Find the equation for the velocity $v(t).$ Assume the acceleration due to gravity is $g=9.8\,\text{m/s}^2,$ and the only forces acting on the air mattress are the weight due to gravity and drag.
 
 #### Explanation
 
@@ -312,12 +312,12 @@ $$
 
 $$
 
-We're told that, at a particular moment, the air mattress's velocity is $0.5\,\textrm{m/s}$ and its instantaneous acceleration is $7.35\,\textrm{m/s}^2.$ Substituting these values and $g = 9.8$ into the ODE, we can solve for $k{:}$
+We're told that, at a particular moment, the air mattress's velocity is $0.5\,\text{m/s}$ and its instantaneous acceleration is $7.35\,\text{m/s}^2.$ Substituting these values and $g = 9.8$ into the ODE, we can solve for $k{:}$
 
 $$
 
 
-7.35 = g - \dfrac{k}{5} \cdot (0.5)^2 \quad\Longrightarrow\quad k = 49\,\textrm{kg/m}
+7.35 = g - \dfrac{k}{5} \cdot (0.5)^2 \quad\Longrightarrow\quad k = 49\,\text{kg/m}
 
 
 $$
@@ -386,9 +386,9 @@ Let's determine a terminal velocity in the next example.
 
 #### Question
 
-A body of mass $80\,\textrm{kg}$ falls vertically downward. Let $v$ be its velocity, with downward taken as the positive direction. The air resistance on the body is proportional to the square of its velocity with a constant of proportionality $k=1\,\textrm{kg/m}$ and acts opposite to the direction of motion.
+A body of mass $80\,\text{kg}$ falls vertically downward. Let $v$ be its velocity, with downward taken as the positive direction. The air resistance on the body is proportional to the square of its velocity with a constant of proportionality $k=1\,\text{kg/m}$ and acts opposite to the direction of motion.
 
-What is the terminal velocity $v_\text{term}$ of the body? Assume the acceleration due to gravity is $g = 9.8\,\textrm{m/s}^2,$ and the only forces acting on the body are the weight due to gravity and drag.
+What is the terminal velocity $v_\text{term}$ of the body? Assume the acceleration due to gravity is $g = 9.8\,\text{m/s}^2,$ and the only forces acting on the body are the weight due to gravity and drag.
 
 #### Explanation
 
@@ -399,7 +399,7 @@ First, note that only two forces act on the body: the force due to gravity, give
 $$
 
 
-w = mg = 80 \cdot 9.8 = 784\,\textrm{N},
+w = mg = 80 \cdot 9.8 = 784\,\text{N},
 
 
 $$
@@ -434,4 +434,4 @@ $$
 
 $$
 
-Therefore, the terminal velocity of the body is $v_\text{term} =28\,\textrm{m/s}.$
+Therefore, the terminal velocity of the body is $v_\text{term} =28\,\text{m/s}.$

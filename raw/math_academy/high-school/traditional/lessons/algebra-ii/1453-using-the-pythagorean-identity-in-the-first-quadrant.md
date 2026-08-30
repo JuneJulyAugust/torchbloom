@@ -35,7 +35,7 @@ $$
 
 
 
-\begin{aligned} x^2+y^2&=1\\\[5pt] \left(\dfrac{3}{7}\right)^2+y^2&=1\\\[5pt] \dfrac{9}{49}+y^2&=1\\\[5pt] y^2&= 1-\dfrac{9}{49}\\\[5pt] y^2&= \dfrac{40}{49}\\\[5pt] y&= \pm\sqrt{\dfrac{40}{49}}\\\[5pt] y &= \pm \dfrac{2\sqrt{10}}{7} \end{aligned}
+\begin{aligned} x^2+y^2&=1\\[5pt] \left(\dfrac{3}{7}\right)^2+y^2&=1\\[5pt] \dfrac{9}{49}+y^2&=1\\[5pt] y^2&= 1-\dfrac{9}{49}\\[5pt] y^2&= \dfrac{40}{49}\\[5pt] y&= \pm\sqrt{\dfrac{40}{49}}\\[5pt] y &= \pm \dfrac{2\sqrt{10}}{7} \end{aligned}
 
 
 
@@ -71,7 +71,7 @@ $$
 
 
 
-\begin{aligned} x^2+y^2&=1\\\[5pt] x^2+\left(\dfrac{5}{9}\right)^2&=1\\\[5pt] x^2+\left(\dfrac{25}{81}\right)&=1\\\[5pt] x^2&= 1-\dfrac{25}{81}\\\[5pt] x^2&= \dfrac{56}{81}\\\[5pt] x&= \sqrt{\dfrac{56}{81}}\\\[5pt] x&= \pm \dfrac{2\sqrt{14}}{9}. \end{aligned}
+\begin{aligned} x^2+y^2&=1\\[5pt] x^2+\left(\dfrac{5}{9}\right)^2&=1\\[5pt] x^2+\left(\dfrac{25}{81}\right)&=1\\[5pt] x^2&= 1-\dfrac{25}{81}\\[5pt] x^2&= \dfrac{56}{81}\\[5pt] x&= \sqrt{\dfrac{56}{81}}\\[5pt] x&= \pm \dfrac{2\sqrt{14}}{9}. \end{aligned}
 
 
 
@@ -151,7 +151,7 @@ $$
 
 
 
-\begin{aligned}sin^{2}⁡𝜃+cos^{2}⁡𝜃 & =1 \\ sin^{2}⁡𝜃 & =1−cos^{2}⁡𝜃 \\ sin⁡𝜃 & =±\sqrt{√1−cos^{2}⁡𝜃}\end{aligned}
+\begin{aligned}sin^{2}⁡𝜃+cos^{2}⁡𝜃 & =1 \\ sin^{2}⁡𝜃 & =1−cos^{2}⁡𝜃 \\ sin⁡𝜃 & =±\sqrt{1−cos^{2}⁡𝜃}\end{aligned}
 
 
 
@@ -163,7 +163,7 @@ $$
 
 
 
-\begin{aligned}sin⁡𝜃 & =±\sqrt{√1−(\frac{2}{3})^{2}} \\ & =±\sqrt{√1−\frac{4}{9}} \\ & =±\sqrt{√\frac{5}{9}} \\ & =±\frac{\sqrt{√5}}{3}.\end{aligned}
+\begin{aligned}sin⁡𝜃 & =±\sqrt{1−(\frac{2}{3})^{2}} \\ & =±\sqrt{1−\frac{4}{9}} \\ & =±\sqrt{\frac{5}{9}} \\ & =±\frac{\sqrt{5}}{3}.\end{aligned}
 
 
 
@@ -213,7 +213,7 @@ $$
 
 
 
-\begin{aligned}sin^{2}⁡𝜃+cos^{2}⁡𝜃 & =1 \\ sin^{2}⁡𝜃 & =1−cos^{2}⁡𝜃 \\ sin⁡𝜃 & =±\sqrt{√1−cos^{2}⁡𝜃}\end{aligned}
+\begin{aligned}sin^{2}⁡𝜃+cos^{2}⁡𝜃 & =1 \\ sin^{2}⁡𝜃 & =1−cos^{2}⁡𝜃 \\ sin⁡𝜃 & =±\sqrt{1−cos^{2}⁡𝜃}\end{aligned}
 
 
 
@@ -225,7 +225,7 @@ $$
 
 
 
-\begin{aligned}sin⁡𝜃 & =±\sqrt{1−(\frac{2\sqrt{√6}}{7})^{2}} \\ & =±\sqrt{√1−\frac{24}{49}} \\ & =±\sqrt{√\frac{25}{49}} \\ & =±\frac{5}{7}.\end{aligned}
+\begin{aligned}sin⁡𝜃 & =±\sqrt{1−(\frac{2\sqrt{6}}{7})^{2}} \\ & =±\sqrt{1−\frac{24}{49}} \\ & =±\sqrt{\frac{25}{49}} \\ & =±\frac{5}{7}.\end{aligned}
 
 
 
@@ -273,7 +273,7 @@ $$
 
 
 
-\begin{aligned}sin^{2}⁡𝜃+cos^{2}⁡𝜃 & =1 \\ sin^{2}⁡𝜃 & =1−cos^{2}⁡𝜃 \\ sin⁡𝜃 & =±\sqrt{√1−cos^{2}⁡𝜃}\end{aligned}
+\begin{aligned}sin^{2}⁡𝜃+cos^{2}⁡𝜃 & =1 \\ sin^{2}⁡𝜃 & =1−cos^{2}⁡𝜃 \\ sin⁡𝜃 & =±\sqrt{1−cos^{2}⁡𝜃}\end{aligned}
 
 
 
@@ -285,7 +285,7 @@ $$
 
 
 
-\begin{aligned}sin⁡𝜃 & =±\sqrt{√1−(\frac{4}{5})^{2}} \\ & =±\sqrt{√1−\frac{16}{25}} \\ & =±\sqrt{√\frac{9}{25}} \\ & =±\frac{3}{5}.\end{aligned}
+\begin{aligned}sin⁡𝜃 & =±\sqrt{1−(\frac{4}{5})^{2}} \\ & =±\sqrt{1−\frac{16}{25}} \\ & =±\sqrt{\frac{9}{25}} \\ & =±\frac{3}{5}.\end{aligned}
 
 
 

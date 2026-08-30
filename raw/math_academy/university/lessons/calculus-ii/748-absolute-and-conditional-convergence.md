@@ -28,7 +28,7 @@ where
 $$
 
 
-b_n = (-1)^n a_n \quad \textrm{or}\quad b_n = (-1)^{n+1} a_n, \quad a_n > 0.
+b_n = (-1)^n a_n \quad \text{or}\quad b_n = (-1)^{n+1} a_n, \quad a_n > 0.
 
 
 $$

@@ -28,7 +28,7 @@ We have $\theta = \dfrac{\pi}{2}$ at the point $P.$ The tangent to the curve at 
 
 To find the equation of the tangent line to the curve at $P,$ we follow four steps.
 
-**Step 1**: Calculate the derivative $\dfrac{\textrm{d}y}{\textrm{d}x}.$
+**Step 1**: Calculate the derivative $\dfrac{\text{d}y}{\text{d}x}.$
 
 Using techniques that we've previously discussed, we can show that
 
@@ -40,7 +40,7 @@ $$
 
 $$
 
-Therefore, we can find $\dfrac{\textrm{d}y}{\textrm{d}x}$ as follows:
+Therefore, we can find $\dfrac{\text{d}y}{\text{d}x}$ as follows:
 
 $$
 
@@ -106,7 +106,7 @@ $$
 
 To find the equation of the tangent line to a polar curve at a point $P,$ we follow four steps:
 
-****: Calculate the derivative $\dfrac{\textrm{d}y}{\textrm{d}x}.$
+****: Calculate the derivative $\dfrac{\text{d}y}{\text{d}x}.$
 
 In this case, we're given that
 
@@ -178,7 +178,7 @@ $$
 
 To find the equation of the normal line to a polar curve at a point $P,$ we follow four steps:
 
-****: Calculate the derivative $\dfrac{\textrm{d}y}{\textrm{d}x}.$
+****: Calculate the derivative $\dfrac{\text{d}y}{\text{d}x}.$
 
 In this case, we're given that
 

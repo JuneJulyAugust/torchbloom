@@ -104,7 +104,7 @@ Suppose $y_1(x)$ and $y_2(x)$ are differentiable functions defined on some inter
 $$
 
 
-\begin{aligned}𝑦_{1} & 𝑦_{2} \\ 𝑦_{′1}^{} & 𝑦_{′2}^{}\end{aligned}
+\begin{aligned}𝑦_{1} & 𝑦_{2} \\ 𝑦_{′1} & 𝑦_{′2}\end{aligned}
 
 
 $$
@@ -130,7 +130,7 @@ The Wronskian $W(y_1,y_2)$ of two functions $y_1(x)$ and $y_2(x)$ is defined as
 $$
 
 
-\begin{aligned}𝑦_{1} & 𝑦_{2} \\ 𝑦_{′1}^{} & 𝑦_{′2}^{}\end{aligned}
+\begin{aligned}𝑦_{1} & 𝑦_{2} \\ 𝑦_{′1} & 𝑦_{′2}\end{aligned}
 
 
 $$
@@ -166,7 +166,7 @@ Suppose the functions $y_1(x)$ and $y_2(x)$ are defined on some interval $I.$ Th
 $$
 
 
-\begin{aligned}𝑦_{1} & 𝑦_{2} \\ 𝑦_{′1}^{} & 𝑦_{′2}^{}\end{aligned}
+\begin{aligned}𝑦_{1} & 𝑦_{2} \\ 𝑦_{′1} & 𝑦_{′2}\end{aligned}
 
 
 $$
@@ -182,7 +182,7 @@ In our case, the Wronskian is given by
 $$
 
 
-\begin{aligned}𝑊(𝑦_{1},𝑦_{2}) & =\begin{aligned}𝑥^{2}+1 & 2𝑥 \\ (𝑥^{2}+1)^{′} & (2𝑥)^{′}\end{aligned} \\ & =\begin{aligned}𝑥^{2}+1 & 2𝑥 \\ 2𝑥 & 2\end{aligned} \\ & =(𝑥^{2}+1)⋅2−(2𝑥)⋅(2𝑥) \\ & =2(𝑥^{2}+1)−4𝑥^{2} \\ & =2𝑥^{2}+2−4𝑥^{2} \\ & =2−2𝑥^{2}\end{aligned}
+\begin{aligned}𝑊(𝑦_{1},𝑦_{2}) & =\begin{matrix}𝑥^{2}+1 & 2𝑥 \\ (𝑥^{2}+1)^{′} & (2𝑥)^{′}\end{matrix} \\ & =\begin{matrix}𝑥^{2}+1 & 2𝑥 \\ 2𝑥 & 2\end{matrix} \\ & =(𝑥^{2}+1)⋅2−(2𝑥)⋅(2𝑥) \\ & =2(𝑥^{2}+1)−4𝑥^{2} \\ & =2𝑥^{2}+2−4𝑥^{2} \\ & =2−2𝑥^{2}\end{aligned}
 
 
 $$
@@ -222,7 +222,7 @@ Computing the Wronskian of our solutions, we get
 $$
 
 
-\begin{aligned}𝑊(𝑦_{1},𝑦_{2}) & =\begin{aligned}𝑦_{1} & 𝑦_{2} \\ 𝑦_{′1}^{} & 𝑦_{′2}^{}\end{aligned} \\ & =𝑦_{1}𝑦_{′2}^{}−𝑦_{′1}^{}𝑦_{2} \\ & =(𝑒^{2𝑥})(𝑒^{−2𝑥})^{′}−(𝑒^{2𝑥})^{′}(𝑒^{−2𝑥}) \\ & =(𝑒^{2𝑥})(−2𝑒^{−2𝑥})−(2𝑒^{2𝑥})(𝑒^{−2𝑥}) \\ & =−2−2 \\ & =−4\end{aligned}
+\begin{aligned}𝑊(𝑦_{1},𝑦_{2}) & =\begin{matrix}𝑦_{1} & 𝑦_{2} \\ 𝑦_{′1} & 𝑦_{′2}\end{matrix} \\ & =𝑦_{1}𝑦_{′2}−𝑦_{′1}𝑦_{2} \\ & =(𝑒^{2𝑥})(𝑒^{−2𝑥})^{′}−(𝑒^{2𝑥})^{′}(𝑒^{−2𝑥}) \\ & =(𝑒^{2𝑥})(−2𝑒^{−2𝑥})−(2𝑒^{2𝑥})(𝑒^{−2𝑥}) \\ & =−2−2 \\ & =−4\end{aligned}
 
 
 $$

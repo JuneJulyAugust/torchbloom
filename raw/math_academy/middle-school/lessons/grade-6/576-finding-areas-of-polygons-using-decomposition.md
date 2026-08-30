@@ -63,7 +63,7 @@ $$
 
 
 
-\textrm{Total Area} = 8 \, \textrm{cm}^2
+\text{Total Area} = 8 \, \text{cm}^2
 
 
 
@@ -243,7 +243,7 @@ $$
 
 
 
-\textrm{Total Area} = 7 \, \textrm{in}^2
+\text{Total Area} = 7 \, \text{in}^2
 
 
 
@@ -317,7 +317,7 @@ $$
 
 
 
-\textrm{Total Area} = 20 \, \textrm{feet}^2
+\text{Total Area} = 20 \, \text{feet}^2
 
 
 

@@ -106,7 +106,7 @@ We then convert $\dfrac 4 3$ to a mixed number:
 
 $$
 
-4\div 3 = 1\,\textrm{R}1 = 1\,\dfrac 1 3
+4\div 3 = 1\,\text{R}1 = 1\,\dfrac 1 3
 
 $$
 

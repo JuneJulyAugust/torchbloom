@@ -22,7 +22,7 @@ For example, the following vectors are in $\mathbb{R}, \mathbb{R}^2,$ $\mathbb{R
 $$
 
 
-[\begin{aligned}\sqrt{√4} \\ 0\end{aligned}]
+[\begin{aligned}\sqrt{4} \\ 0\end{aligned}]
 
 
 $$
@@ -42,7 +42,7 @@ Multiplying each component of $\mathbf{a}$ by $\dfrac{1}{2},$ we get
 $$
 
 
-\begin{aligned}\frac{1}{2}𝐚 & =\frac{1}{2}\begin{aligned}−4 \\ 6 \\ 3 \\ 0\end{aligned} \\ & =\begin{aligned}\frac{1}{2}⋅(−4) \\ \frac{1}{2}⋅6 \\ \frac{1}{2}⋅3 \\ \frac{1}{2}⋅0\end{aligned} \\ & =\begin{aligned}−2 \\ 3 \\ \frac{3}{2} \\ 0\end{aligned}.\end{aligned}
+\begin{aligned}\frac{1}{2}𝐚 & =\frac{1}{2}\begin{matrix}−4 \\ 6 \\ 3 \\ 0\end{matrix} \\ & =\begin{matrix}\frac{1}{2}⋅(−4) \\ \frac{1}{2}⋅6 \\ \frac{1}{2}⋅3 \\ \frac{1}{2}⋅0\end{matrix} \\ & =\begin{matrix}−2 \\ 3 \\ \frac{3}{2} \\ 0\end{matrix}.\end{aligned}
 
 
 $$
@@ -64,7 +64,7 @@ To compute $\mathbf{a} + \mathbf{b},$ all we have to do is to add each component
 $$
 
 
-\begin{aligned}𝐚+𝐛 & =\begin{aligned}5 \\ 1 \\ −3 \\ 6\end{aligned}+\begin{aligned}−5 \\ 3 \\ 1 \\ 0\end{aligned} \\ & =\begin{aligned}5+(−5) \\ 1+3 \\ −3+1 \\ 6+0\end{aligned} \\ & =\begin{aligned}0 \\ 4 \\ −2 \\ 6\end{aligned}.\end{aligned}
+\begin{aligned}𝐚+𝐛 & =\begin{matrix}5 \\ 1 \\ −3 \\ 6\end{matrix}+\begin{matrix}−5 \\ 3 \\ 1 \\ 0\end{matrix} \\ & =\begin{matrix}5+(−5) \\ 1+3 \\ −3+1 \\ 6+0\end{matrix} \\ & =\begin{matrix}0 \\ 4 \\ −2 \\ 6\end{matrix}.\end{aligned}
 
 
 $$
@@ -92,7 +92,7 @@ First, we multiply each component of $\mathbf{a}$ by $\dfrac{1}{3}$ and each com
 $$
 
 
-\begin{aligned}\frac{1}{3}𝐚+\frac{1}{2}𝐛 & =\frac{1}{3}⋅\begin{aligned}−3 \\ 6 \\ 12 \\ −9 \\ 3\end{aligned}+\frac{1}{2}⋅\begin{aligned}−4 \\ −6 \\ 2 \\ −8 \\ 10\end{aligned} \\ & =\begin{aligned}−1 \\ 2 \\ 4 \\ −3 \\ 1\end{aligned}+\begin{aligned}−2 \\ −3 \\ 1 \\ −4 \\ 5\end{aligned} \\ & =\begin{aligned}−1−2 \\ 2−3 \\ 4+1 \\ −3−4 \\ 1+5\end{aligned} \\ & =\begin{aligned}−3 \\ −1 \\ 5 \\ −7 \\ 6\end{aligned}\end{aligned}
+\begin{aligned}\frac{1}{3}𝐚+\frac{1}{2}𝐛 & =\frac{1}{3}⋅\begin{matrix}−3 \\ 6 \\ 12 \\ −9 \\ 3\end{matrix}+\frac{1}{2}⋅\begin{matrix}−4 \\ −6 \\ 2 \\ −8 \\ 10\end{matrix} \\ & =\begin{matrix}−1 \\ 2 \\ 4 \\ −3 \\ 1\end{matrix}+\begin{matrix}−2 \\ −3 \\ 1 \\ −4 \\ 5\end{matrix} \\ & =\begin{matrix}−1−2 \\ 2−3 \\ 4+1 \\ −3−4 \\ 1+5\end{matrix} \\ & =\begin{matrix}−3 \\ −1 \\ 5 \\ −7 \\ 6\end{matrix}\end{aligned}
 
 
 $$

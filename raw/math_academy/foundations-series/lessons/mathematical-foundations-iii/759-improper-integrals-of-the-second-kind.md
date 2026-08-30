@@ -30,7 +30,7 @@ For instance, the definite integral
 $$
 
 
-\int_{\color{red}{0}}^{\color{blue}{1}}\frac{1}{\sqrt{x}}\textrm{d}x
+\int_{\color{red}{0}}^{\color{blue}{1}}\frac{1}{\sqrt{x}}\text{d}x
 
 
 $$
@@ -74,7 +74,7 @@ Let's once again consider the following improper integral:
 $$
 
 
-I = \int_{\color{red}{0}}^{\color{blue}1}\frac{1}{\sqrt{x}}\textrm{d}x
+I = \int_{\color{red}{0}}^{\color{blue}1}\frac{1}{\sqrt{x}}\text{d}x
 
 
 $$
@@ -84,7 +84,7 @@ The function under the integral is unbounded as we approach the *lower* integrat
 $$
 
 
-f(x) = \frac{1}{\sqrt{x}} \rightarrow \infty \quad\textrm{ as }\quad x\rightarrow {\color{red}0}^+
+f(x) = \frac{1}{\sqrt{x}} \rightarrow \infty \quad\text{ as }\quad x\rightarrow {\color{red}0}^+
 
 
 $$
@@ -94,7 +94,7 @@ We can attempt to evaluate this integral by integrating $f(x)$ over the interval
 $$
 
 
-I = \lim_{a\to{\color{red}0}^+} \int_a^1 \frac{1}{\sqrt{x}}\textrm{d}x
+I = \lim_{a\to{\color{red}0}^+} \int_a^1 \frac{1}{\sqrt{x}}\text{d}x
 
 
 $$
@@ -106,7 +106,7 @@ Now let's consider the following improper integral:
 $$
 
 
-I = \int_{\color{red}0}^{\color{blue}{2}}\frac{1}{\sqrt[3]{x-2}}\textrm{d}x
+I = \int_{\color{red}0}^{\color{blue}{2}}\frac{1}{\sqrt[3]{x-2}}\text{d}x
 
 
 $$
@@ -116,7 +116,7 @@ The function under the integral is unbounded as we approach the *upper* integrat
 $$
 
 
-f(x) = \frac{1}{\sqrt[3]{x-2}} \rightarrow -\infty \quad\textrm{ as }\quad x\rightarrow {\color{blue}2}^-
+f(x) = \frac{1}{\sqrt[3]{x-2}} \rightarrow -\infty \quad\text{ as }\quad x\rightarrow {\color{blue}2}^-
 
 
 $$
@@ -126,7 +126,7 @@ We can attempt to evaluate this integral by integrating $f(x)$ over the interval
 $$
 
 
-I = \lim_{b\to{\color{blue}2}^-} \int_{0}^b \frac{1}{\sqrt[3]{x-2}}\textrm{d}x
+I = \lim_{b\to{\color{blue}2}^-} \int_{0}^b \frac{1}{\sqrt[3]{x-2}}\text{d}x
 
 
 $$
@@ -135,7 +135,7 @@ $$
 
 #### Question
 
-Rewrite the improper integral $\displaystyle {\int_{0}^{1} \dfrac{\textrm{d}x}{x^2-1}}$ as the limit of definite integral.
+Rewrite the improper integral $\displaystyle {\int_{0}^{1} \dfrac{\text{d}x}{x^2-1}}$ as the limit of definite integral.
 
 #### Explanation
 
@@ -144,7 +144,7 @@ This is an improper integral of the second kind because the function under the i
 $$
 
 
-f(x) = \dfrac {1}{x^2-1} \rightarrow -\infty\quad \textrm{as}\quad x\rightarrow {\color{blue}{1}} ^-
+f(x) = \dfrac {1}{x^2-1} \rightarrow -\infty\quad \text{as}\quad x\rightarrow {\color{blue}{1}} ^-
 
 
 $$
@@ -154,7 +154,7 @@ We can attempt to evaluate this integral by integrating $f(x)$ over the interval
 $$
 
 
-\displaystyle {\int_{0}^{1} \dfrac{\textrm{d}x}{x^2-1}} = \lim\limits_{b \to {\color{blue}{1}}^-} \left( \displaystyle {\int_{0}^{b} \dfrac{\textrm{d}x}{x^2-1}} \right)
+\displaystyle {\int_{0}^{1} \dfrac{\text{d}x}{x^2-1}} = \lim\limits_{b \to {\color{blue}{1}}^-} \left( \displaystyle {\int_{0}^{b} \dfrac{\text{d}x}{x^2-1}} \right)
 
 
 $$
@@ -178,7 +178,7 @@ This is an improper integral of the second kind because the function is unbounde
 $$
 
 
-f(x) = \frac{1}{\sqrt{1-x^2}} \rightarrow \infty \quad\textrm{ as }\quad x\rightarrow 1^-
+f(x) = \frac{1}{\sqrt{1-x^2}} \rightarrow \infty \quad\text{ as }\quad x\rightarrow 1^-
 
 
 $$
@@ -188,7 +188,7 @@ Nonetheless, it is possible to evaluate the integral by setting the upper bound 
 $$
 
 
-\begin{aligned}∫_{10}^{}\frac{1}{\sqrt{√1−𝑥^{2}}}d𝑥 & =\underset{𝑏→1^{−}}{lim}∫_{𝑏0}^{}\frac{1}{\sqrt{√1−𝑥^{2}}}d𝑥 \\ & =\underset{𝑏→1^{−}}{lim}arcsin⁡𝑥_{𝑏0}^{} \\ & =\underset{𝑏→1^{−}}{lim}[arcsin⁡𝑏−arcsin⁡0] \\ & =\underset{𝑏→1^{−}}{lim}[arcsin⁡𝑏−0] \\ & =\underset{𝑏→1^{−}}{lim}arcsin⁡𝑏 \\ & =arcsin⁡(1) \\ & =\frac{𝜋}{2}\end{aligned}
+\begin{aligned}∫_{10}\frac{1}{\sqrt{1−𝑥^{2}}}d𝑥 & =\underset{𝑏→1^{−}}{lim}∫_{𝑏0}\frac{1}{\sqrt{1−𝑥^{2}}}d𝑥 \\ & =\underset{𝑏→1^{−}}{lim}arcsin⁡𝑥_{𝑏0} \\ & =\underset{𝑏→1^{−}}{lim}[arcsin⁡𝑏−arcsin⁡0] \\ & =\underset{𝑏→1^{−}}{lim}[arcsin⁡𝑏−0] \\ & =\underset{𝑏→1^{−}}{lim}arcsin⁡𝑏 \\ & =arcsin⁡(1) \\ & =\frac{𝜋}{2}\end{aligned}
 
 
 $$
@@ -230,7 +230,7 @@ Carrying out the change of variable, we have
 $$
 
 
-\begin{aligned}∫_{𝜋/20}^{}tan⁡𝑥\,d𝑥 & =∫_{𝜋/20}^{}\frac{sin⁡𝑥}{cos⁡𝑥}\,d𝑥 \\ & =∫_{𝜋/20}^{}\frac{sin⁡𝑥\,d𝑥}{cos⁡𝑥} \\ & =∫_{01}^{}\frac{−d𝑢}{𝑢} \\ & =−∫_{01}^{}\frac{d𝑢}{𝑢} \\ & =∫_{10}^{}\frac{d𝑢}{𝑢}.\end{aligned}
+\begin{aligned}∫_{𝜋/20}tan⁡𝑥\,d𝑥 & =∫_{𝜋/20}\frac{sin⁡𝑥}{cos⁡𝑥}\,d𝑥 \\ & =∫_{𝜋/20}\frac{sin⁡𝑥\,d𝑥}{cos⁡𝑥} \\ & =∫_{01}\frac{−d𝑢}{𝑢} \\ & =−∫_{01}\frac{d𝑢}{𝑢} \\ & =∫_{10}\frac{d𝑢}{𝑢}.\end{aligned}
 
 
 $$
@@ -240,7 +240,7 @@ This is an improper integral of the second kind because the function under the i
 $$
 
 
-f(u) = \dfrac{1}{u} \rightarrow \infty \quad\textrm{ as }\quad u\rightarrow 0^+.
+f(u) = \dfrac{1}{u} \rightarrow \infty \quad\text{ as }\quad u\rightarrow 0^+.
 
 
 $$
@@ -250,7 +250,7 @@ Nonetheless, it is possible to calculate the integral by setting the ** bound eq
 $$
 
 
-\begin{aligned}∫_{10}^{}\frac{d𝑢}{𝑢} & =\underset{𝑎→0^{+}}{lim}∫_{1𝑎}^{}\frac{d𝑢}{𝑢} \\ & =\underset{𝑎→0^{+}}{lim}ln⁡|𝑢||_{1𝑎}^{} \\ & =\underset{𝑎→0^{+}}{lim}[ln⁡|1|−ln⁡|𝑎|] \\ & =\underset{𝑎→0^{+}}{lim}[0−ln⁡|𝑎|] \\ & =−(−∞) \\ & =∞\end{aligned}
+\begin{aligned}∫_{10}\frac{d𝑢}{𝑢} & =\underset{𝑎→0^{+}}{lim}∫_{1𝑎}\frac{d𝑢}{𝑢} \\ & =\underset{𝑎→0^{+}}{lim}ln⁡|𝑢||_{1𝑎} \\ & =\underset{𝑎→0^{+}}{lim}[ln⁡|1|−ln⁡|𝑎|] \\ & =\underset{𝑎→0^{+}}{lim}[0−ln⁡|𝑎|] \\ & =−(−∞) \\ & =∞\end{aligned}
 
 
 $$

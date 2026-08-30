@@ -65,7 +65,7 @@ $$
 
 
 
-z^5 = e^{2k\pi \textrm{i}}.
+z^5 = e^{2k\pi \text{i}}.
 
 
 
@@ -101,7 +101,7 @@ $$
 
 
 
-1, \quad e^{2\pi\textrm{i}/5}, \quad e^{4\pi\textrm{i}/5}, \quad e^{6\pi\textrm{i}/5}, \quad e^{8\pi\textrm{i}/5}
+1, \quad e^{2\pi\text{i}/5}, \quad e^{4\pi\text{i}/5}, \quad e^{6\pi\text{i}/5}, \quad e^{8\pi\text{i}/5}
 
 
 
@@ -113,7 +113,7 @@ $$
 
 
 
-z_1 = e^{2\pi \textrm{i}/5}.
+z_1 = e^{2\pi \text{i}/5}.
 
 
 
@@ -139,13 +139,13 @@ z^{6} = 1.
 
 $$
 
-First, we express the complex number $1$ in the form $re^{\textrm{i}\theta}.$ Notice that $|1| = 1$ and $\arg(1) = 0.$ Hence,
+First, we express the complex number $1$ in the form $re^{\text{i}\theta}.$ Notice that $|1| = 1$ and $\arg(1) = 0.$ Hence,
 
 $$
 
 
 
-1 = e^{\textrm{i}(0 + 2k\pi)} = e^{2k\pi \textrm{i}},
+1 = e^{\text{i}(0 + 2k\pi)} = e^{2k\pi \text{i}},
 
 
 
@@ -163,7 +163,7 @@ $$
 
 $$
 
-The principal root corresponds to $k=1,$ and is therefore equal to $e^{\pi \textrm{i}/3}.$
+The principal root corresponds to $k=1,$ and is therefore equal to $e^{\pi \text{i}/3}.$
 
 ### The Geometry of the Nth Roots of Unity
 
@@ -173,7 +173,7 @@ $$
 
 
 
-z_0 = 1, \qquad z_1 = e^{2\pi\textrm{i}/5}, \qquad z_2 = e^{4\pi\textrm{i}/5}, \qquad z_3 = e^{6\pi\textrm{i}/5}, \qquad z_4 = e^{8\pi\textrm{i}/5}
+z_0 = 1, \qquad z_1 = e^{2\pi\text{i}/5}, \qquad z_2 = e^{4\pi\text{i}/5}, \qquad z_3 = e^{6\pi\text{i}/5}, \qquad z_4 = e^{8\pi\text{i}/5}
 
 
 
@@ -223,13 +223,13 @@ The $n$th roots of unity lie at the vertices of a regular $n$-gon inscribed insi
 
 Since there are $7$ points in our diagram, we need to find a $7$th root of unity.
 
-First, we express the complex number $1$ in the form $re^{\textrm{i}\theta}.$ Notice that $|1| = 1$ and $\arg(1) = 0.$ Hence,
+First, we express the complex number $1$ in the form $re^{\text{i}\theta}.$ Notice that $|1| = 1$ and $\arg(1) = 0.$ Hence,
 
 $$
 
 
 
-1 = e^{\textrm{i}(0 + 2k\pi)} = e^{2k\pi \textrm{i}},
+1 = e^{\text{i}(0 + 2k\pi)} = e^{2k\pi \text{i}},
 
 
 
@@ -283,7 +283,7 @@ $$
 
 
 
-z_0 = 1, \qquad z_1 = e^{2\pi\textrm{i}/5}, \qquad z_2 = e^{4\pi\textrm{i}/5}, \qquad z_3 = e^{6\pi\textrm{i}/5}, \qquad z_4 = e^{8\pi\textrm{i}/5}
+z_0 = 1, \qquad z_1 = e^{2\pi\text{i}/5}, \qquad z_2 = e^{4\pi\text{i}/5}, \qquad z_3 = e^{6\pi\text{i}/5}, \qquad z_4 = e^{8\pi\text{i}/5}
 
 
 

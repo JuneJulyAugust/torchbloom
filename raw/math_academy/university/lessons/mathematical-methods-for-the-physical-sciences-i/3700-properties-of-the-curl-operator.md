@@ -73,7 +73,7 @@ First, we need to calculate $\nabla \times \mathbf{F}.$ In doing so, we get
 $$
 
 
-\begin{aligned}∇×𝐅 & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ \frac{𝜕}{𝜕𝑥} & \frac{𝜕}{𝜕𝑦} & \frac{𝜕}{𝜕𝑧} \\ 3𝑥 & 𝑦^{2}𝑧 & 2\end{aligned} \\ & =[\frac{𝜕}{𝜕𝑦}(2)−\frac{𝜕}{𝜕𝑧}(𝑦^{2}𝑧)]𝐢−[\frac{𝜕}{𝜕𝑥}(2)−\frac{𝜕}{𝜕𝑧}(3𝑥)]𝐣+[\frac{𝜕}{𝜕𝑥}(𝑦^{2}𝑧)−\frac{𝜕}{𝜕𝑦}(3𝑥)]𝐤 \\ & =(0−𝑦^{2})𝐢−(0−0)𝐣+(0−0)𝐤 \\ & =−𝑦^{2}\,𝐢.\end{aligned}
+\begin{aligned}∇×𝐅 & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ \frac{𝜕}{𝜕𝑥} & \frac{𝜕}{𝜕𝑦} & \frac{𝜕}{𝜕𝑧} \\ 3𝑥 & 𝑦^{2}𝑧 & 2\end{matrix} \\ & =[\frac{𝜕}{𝜕𝑦}(2)−\frac{𝜕}{𝜕𝑧}(𝑦^{2}𝑧)]𝐢−[\frac{𝜕}{𝜕𝑥}(2)−\frac{𝜕}{𝜕𝑧}(3𝑥)]𝐣+[\frac{𝜕}{𝜕𝑥}(𝑦^{2}𝑧)−\frac{𝜕}{𝜕𝑦}(3𝑥)]𝐤 \\ & =(0−𝑦^{2})𝐢−(0−0)𝐣+(0−0)𝐤 \\ & =−𝑦^{2}\,𝐢.\end{aligned}
 
 
 $$
@@ -167,7 +167,7 @@ First, we compute $\nabla f \times \mathbf F.$ We get
 $$
 
 
-\begin{aligned}∇𝑓×𝐅 & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 1 & 1 & 0 \\ 0 & 𝑦−𝑧 & 𝑥−𝑦\end{aligned} \\ & =[1⋅(𝑥−𝑦)−0⋅(𝑦−𝑧)]\,𝐢−[1⋅(𝑥−𝑦)−0⋅(0)]\,𝐣+[1⋅(𝑦−𝑧)−1⋅(0)]\,𝐤 \\ & =(𝑥−𝑦)\,𝐢+(𝑦−𝑥)\,𝐣+(𝑦−𝑧)\,𝐤 \\ & =⟨𝑥−𝑦,\,𝑦−𝑥,\,𝑦−𝑧⟩.\end{aligned}
+\begin{aligned}∇𝑓×𝐅 & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 1 & 1 & 0 \\ 0 & 𝑦−𝑧 & 𝑥−𝑦\end{matrix} \\ & =[1⋅(𝑥−𝑦)−0⋅(𝑦−𝑧)]\,𝐢−[1⋅(𝑥−𝑦)−0⋅(0)]\,𝐣+[1⋅(𝑦−𝑧)−1⋅(0)]\,𝐤 \\ & =(𝑥−𝑦)\,𝐢+(𝑦−𝑥)\,𝐣+(𝑦−𝑧)\,𝐤 \\ & =⟨𝑥−𝑦,\,𝑦−𝑥,\,𝑦−𝑧⟩.\end{aligned}
 
 
 $$

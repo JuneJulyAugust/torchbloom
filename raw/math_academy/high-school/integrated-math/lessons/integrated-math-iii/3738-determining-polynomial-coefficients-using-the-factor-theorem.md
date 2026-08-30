@@ -62,7 +62,7 @@ According to the factor theorem, then, since $(3x+2)$ is a factor of $p(x),$ the
 $$
 
 
-\begin{aligned} p\left(-\frac23\right) &= 0 \\\[5pt] 3\left(-\frac23\right)^3-k\left(-\frac23\right)^2+4 &= 0 \\\[5pt] -\frac89-\frac{4k}{9}+\frac{36}{9} &= 0 \\\[5pt] -8 - 4k + 36 &= 0 \\\[5pt] 28 &= 4k \\\[5pt] k &= 7. \end{aligned}
+\begin{aligned} p\left(-\frac23\right) &= 0 \\[5pt] 3\left(-\frac23\right)^3-k\left(-\frac23\right)^2+4 &= 0 \\[5pt] -\frac89-\frac{4k}{9}+\frac{36}{9} &= 0 \\[5pt] -8 - 4k + 36 &= 0 \\[5pt] 28 &= 4k \\[5pt] k &= 7. \end{aligned}
 
 
 $$

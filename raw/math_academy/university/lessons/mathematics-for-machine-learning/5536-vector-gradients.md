@@ -42,7 +42,7 @@ Hence, the gradient is simply the transpose of the total derivative:
 $$
 
 
-\nabla f(\mathbf{x}) = \left( \frac{\textrm{d} f}{\textrm{d} \mathbf{x}} \right)^T
+\nabla f(\mathbf{x}) = \left( \frac{\text{d} f}{\text{d} \mathbf{x}} \right)^T
 
 
 $$
@@ -92,7 +92,7 @@ Then, $\mathbf b^T \mathbf x$ is the scalar function
 $$
 
 
-\begin{aligned}𝐛^{𝑇}𝐱 & =[\begin{aligned}𝑏_{1} & 𝑏_{2} & … & 𝑏_{𝑛}\end{aligned}]\begin{aligned}𝑥_{1} \\ 𝑥_{2} \\ ⋮ \\ 𝑥_{𝑛}\end{aligned}\end{aligned}
+\begin{aligned}𝐛^{𝑇}𝐱 & =[\begin{matrix}𝑏_{1} & 𝑏_{2} & … & 𝑏_{𝑛}\end{matrix}]\begin{matrix}𝑥_{1} \\ 𝑥_{2} \\ ⋮ \\ 𝑥_{𝑛}\end{matrix}\end{aligned}
 
 
 $$
@@ -224,7 +224,7 @@ Then, $\mathbf w^T \mathbf w$ is the *scalar* function
 $$
 
 
-\begin{aligned}𝐰^{𝑇}𝐰 & =[\begin{aligned}𝑤_{1} & 𝑤_{2} & … & 𝑤_{𝑛}\end{aligned}]\begin{aligned}𝑤_{1} \\ 𝑤_{2} \\ ⋮ \\ 𝑤_{𝑛}\end{aligned}\end{aligned}
+\begin{aligned}𝐰^{𝑇}𝐰 & =[\begin{matrix}𝑤_{1} & 𝑤_{2} & … & 𝑤_{𝑛}\end{matrix}]\begin{matrix}𝑤_{1} \\ 𝑤_{2} \\ ⋮ \\ 𝑤_{𝑛}\end{matrix}\end{aligned}
 
 
 $$
@@ -311,7 +311,7 @@ $$
 
 ### The Gradient of the L1 Norm
 
-Consider the $\textrm{L}_1$ (Manhattan) norm of a vector $\mathbf{x} \in \mathbb{R}^n$, defined as
+Consider the $\text{L}_1$ (Manhattan) norm of a vector $\mathbf{x} \in \mathbb{R}^n$, defined as
 
 $$
 
@@ -341,7 +341,7 @@ $$
 
 $$
 
-So, the full gradient of the $\textrm{L}_1$ norm is simply
+So, the full gradient of the $\text{L}_1$ norm is simply
 
 $$
 

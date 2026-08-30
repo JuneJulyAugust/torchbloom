@@ -68,7 +68,7 @@ To verify that the above matrix is in fact the inverse of $A,$ first observe tha
 $$
 
 
-\begin{aligned}\underset{𝐴}{\underset{}{[\begin{aligned}−1 & −1 \\ 1 & 2\end{aligned}]}}\underset{𝐴^{−1}}{\underset{}{[\begin{aligned}−2 & −1 \\ 1 & 1\end{aligned}]}} & =[\begin{aligned}−1⋅(−2)+(−1)⋅1 & −1⋅(−1)+(−1)⋅1 \\ 1⋅(−2)+2⋅1 & 1⋅(−1)+2⋅1\end{aligned}] \\ & =[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ & =𝐼_{2}\,✓\end{aligned}
+\begin{aligned}\underset{𝐴}{\underset{}{[\begin{matrix}−1 & −1 \\ 1 & 2\end{matrix}]}}\underset{𝐴^{−1}}{\underset{}{[\begin{matrix}−2 & −1 \\ 1 & 1\end{matrix}]}} & =[\begin{matrix}−1⋅(−2)+(−1)⋅1 & −1⋅(−1)+(−1)⋅1 \\ 1⋅(−2)+2⋅1 & 1⋅(−1)+2⋅1\end{matrix}] \\ & =[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}] \\ & =𝐼_{2}\,✓\end{aligned}
 
 
 $$
@@ -78,7 +78,7 @@ Likewise, if we multiply $A^{-1}$ by $A,$ then we also get the identity matrix $
 $$
 
 
-\begin{aligned}[\begin{aligned}−2 & −1 \\ 1 & 1\end{aligned}]\underset{𝐴}{\underset{}{[\begin{aligned}−1 & −1 \\ 1 & 2\end{aligned}]}} & =𝐼_{2}\,✓\end{aligned}
+\begin{aligned}[\begin{matrix}−2 & −1 \\ 1 & 1\end{matrix}]\underset{𝐴}{\underset{}{[\begin{matrix}−1 & −1 \\ 1 & 2\end{matrix}]}} & =𝐼_{2}\,✓\end{aligned}
 
 
 $$
@@ -108,7 +108,7 @@ Computing $AB,$ we get
 $$
 
 
-\begin{aligned}𝐴𝐵 & =[\begin{aligned}1 & 0 \\ −1 & 1\end{aligned}][\begin{aligned}1 & 0 \\ 1 & 1\end{aligned}] \\ & =[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ & =𝐼_{2}.\,✓\end{aligned}
+\begin{aligned}𝐴𝐵 & =[\begin{matrix}1 & 0 \\ −1 & 1\end{matrix}][\begin{matrix}1 & 0 \\ 1 & 1\end{matrix}] \\ & =[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}] \\ & =𝐼_{2}.\,✓\end{aligned}
 
 
 $$
@@ -118,7 +118,7 @@ Likewise, computing $BA,$ we get
 $$
 
 
-\begin{aligned}𝐵𝐴 & =[\begin{aligned}1 & 0 \\ 1 & 1\end{aligned}][\begin{aligned}1 & 0 \\ −1 & 1\end{aligned}] \\ & =[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ & =𝐼_{2}.\,✓\end{aligned}
+\begin{aligned}𝐵𝐴 & =[\begin{matrix}1 & 0 \\ 1 & 1\end{matrix}][\begin{matrix}1 & 0 \\ −1 & 1\end{matrix}] \\ & =[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}] \\ & =𝐼_{2}.\,✓\end{aligned}
 
 
 $$
@@ -148,7 +148,7 @@ Computing $AB,$ we get
 $$
 
 
-\begin{aligned}𝐴𝐵 & =\begin{aligned}1 & 1 & 1 \\ 0 & 1 & 1 \\ 0 & 0 & 1\end{aligned}\begin{aligned}1 & −1 & 0 \\ 0 & 1 & −1 \\ 0 & 0 & 1\end{aligned} \\ & =\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{aligned} \\ & =𝐼_{3}.\,✓\end{aligned}
+\begin{aligned}𝐴𝐵 & =\begin{matrix}1 & 1 & 1 \\ 0 & 1 & 1 \\ 0 & 0 & 1\end{matrix}\begin{matrix}1 & −1 & 0 \\ 0 & 1 & −1 \\ 0 & 0 & 1\end{matrix} \\ & =\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{matrix} \\ & =𝐼_{3}.\,✓\end{aligned}
 
 
 $$
@@ -158,7 +158,7 @@ Likewise, computing $BA,$ we get
 $$
 
 
-\begin{aligned}𝐵𝐴 & =\begin{aligned}1 & −1 & 0 \\ 0 & 1 & −1 \\ 0 & 0 & 1\end{aligned}\begin{aligned}1 & 1 & 1 \\ 0 & 1 & 1 \\ 0 & 0 & 1\end{aligned} \\ & =\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{aligned} \\ & =𝐼_{3}.\,✓\end{aligned}
+\begin{aligned}𝐵𝐴 & =\begin{matrix}1 & −1 & 0 \\ 0 & 1 & −1 \\ 0 & 0 & 1\end{matrix}\begin{matrix}1 & 1 & 1 \\ 0 & 1 & 1 \\ 0 & 0 & 1\end{matrix} \\ & =\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{matrix} \\ & =𝐼_{3}.\,✓\end{aligned}
 
 
 $$

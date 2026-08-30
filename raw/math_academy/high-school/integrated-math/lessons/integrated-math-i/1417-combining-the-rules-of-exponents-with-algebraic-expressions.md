@@ -226,7 +226,7 @@ $$
 
 
 
-\begin{aligned}\frac{\sqrt{√𝑦}}{\sqrt[√𝑦]{3}}=\frac{𝑦^{1/2}}{𝑦^{1/3}}\end{aligned}
+\begin{aligned}\frac{\sqrt{𝑦}}{\sqrt[√𝑦]{3}}=\frac{𝑦^{1/2}}{𝑦^{1/3}}\end{aligned}
 
 
 

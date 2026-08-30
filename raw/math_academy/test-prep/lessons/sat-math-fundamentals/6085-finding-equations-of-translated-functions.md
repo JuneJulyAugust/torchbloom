@@ -33,24 +33,24 @@ For each point on the original line $y = f(x),$ we must add $6$ to each $y$-coor
 $$
 
 
-y_{\textrm{new}} = y + 6.
+y_{\text{new}} = y + 6.
 
 
 $$
 
-We introduce the "$\textrm{new}$" suffix to distinguish $y$-values on the translated line from those on the original line.
+We introduce the "$\text{new}$" suffix to distinguish $y$-values on the translated line from those on the original line.
 
 Substituting the equation of our original line $y = -x + 2$ into the above equation gives
 
 $$
 
 
-y_{\textrm{new}} = (-x + 2) + 6.
+y_{\text{new}} = (-x + 2) + 6.
 
 
 $$
 
-Since our equation no longer refers to points on the original line, we can drop the "$\textrm{new}$" suffix, which gives
+Since our equation no longer refers to points on the original line, we can drop the "$\text{new}$" suffix, which gives
 
 $$
 
@@ -99,7 +99,7 @@ For each point on the curve $y = f(x),$ we must subtract $6$ from each $y$-coord
 $$
 
 
-y_{\textrm{new}} = y - 6.
+y_{\text{new}} = y - 6.
 
 
 $$
@@ -109,12 +109,12 @@ Substituting here the equation of the first curve gives
 $$
 
 
-y_{\textrm{new}} = (x^2 - 5x + 14) - 6.
+y_{\text{new}} = (x^2 - 5x + 14) - 6.
 
 
 $$
 
-Dropping the $\textrm{new}$ suffix, we get
+Dropping the $\text{new}$ suffix, we get
 
 $$
 
@@ -157,7 +157,7 @@ For each point on the line $y = f(x),$ we must subtract $2$ from each $x$-coordi
 $$
 
 
-x_{\textrm{new}} = x - 2.
+x_{\text{new}} = x - 2.
 
 
 $$
@@ -167,7 +167,7 @@ This equation is equivalent to
 $$
 
 
-x = x_{\textrm{new}} + 2.
+x = x_{\text{new}} + 2.
 
 
 $$
@@ -182,7 +182,7 @@ $$
 
 $$
 
-Dropping the $\textrm{new}$ suffix, we get
+Dropping the $\text{new}$ suffix, we get
 
 $$
 
@@ -227,7 +227,7 @@ For each point on the line $y = f(x),$ we must add $1$ to each $x$-coordinate to
 $$
 
 
-x_{\textrm{new}} = x + 1.
+x_{\text{new}} = x + 1.
 
 
 $$
@@ -237,7 +237,7 @@ This equation is equivalent to
 $$
 
 
-x = x_{\textrm{new}} - 1.
+x = x_{\text{new}} - 1.
 
 
 $$
@@ -252,7 +252,7 @@ $$
 
 $$
 
-Dropping the $\textrm{new}$ suffix, we get
+Dropping the $\text{new}$ suffix, we get
 
 $$
 
@@ -299,7 +299,7 @@ For each point on the curve $y = f(x),$ we must subtract $2$ from each $x$-coord
 $$
 
 
-x_{\textrm{new}} = x - 2.
+x_{\text{new}} = x - 2.
 
 
 $$
@@ -309,7 +309,7 @@ This equation is equivalent to
 $$
 
 
-x = x_{\textrm{new}} + 2.
+x = x_{\text{new}} + 2.
 
 
 $$
@@ -324,7 +324,7 @@ $$
 
 $$
 
-Dropping the $\textrm{new}$ suffix, we get
+Dropping the $\text{new}$ suffix, we get
 
 $$
 
@@ -365,7 +365,7 @@ For each point on the line, we must add $2$ to each $y$-coordinate to get the co
 $$
 
 
-y_{\textrm{new}} = y + 2.
+y_{\text{new}} = y + 2.
 
 
 $$
@@ -375,7 +375,7 @@ This equation is equivalent to
 $$
 
 
-y = y_{\textrm{new}} - 2.
+y = y_{\text{new}} - 2.
 
 
 $$
@@ -390,7 +390,7 @@ $$
 
 $$
 
-Dropping the $\textrm{new}$ suffix, we get
+Dropping the $\text{new}$ suffix, we get
 
 $$
 
@@ -437,7 +437,7 @@ For each point on the line, we must subtract $4$ from each $x$-coordinate to get
 $$
 
 
-x_{\textrm{new}} = x - 4.
+x_{\text{new}} = x - 4.
 
 
 $$
@@ -447,7 +447,7 @@ This equation is equivalent to
 $$
 
 
-x = x_{\textrm{new}} + 4.
+x = x_{\text{new}} + 4.
 
 
 $$
@@ -462,7 +462,7 @@ $$
 
 $$
 
-Dropping the $\textrm{new}$ suffix, we get
+Dropping the $\text{new}$ suffix, we get
 
 $$
 

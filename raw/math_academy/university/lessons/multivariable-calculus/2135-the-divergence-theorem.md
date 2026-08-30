@@ -33,7 +33,7 @@ The **divergence theorem** is a higher-dimensional analog of Green's theorem in 
 $$
 
 
-\iiint\limits_R \textrm{div}\,\mathbf{F} \: \textrm{d}V = \iint\limits_{S} \mathbf{F}\cdot\mathrm{d}\mathbf{S} = \iint\limits_{S} \mathbf{F}\cdot\mathbf{n}\:\mathrm{d}S
+\iiint\limits_R \text{div}\,\mathbf{F} \: \text{d}V = \iint\limits_{S} \mathbf{F}\cdot\mathrm{d}\mathbf{S} = \iint\limits_{S} \mathbf{F}\cdot\mathbf{n}\:\mathrm{d}S
 
 
 $$
@@ -71,7 +71,7 @@ To find the total flux directly, we would need to find the flux through each of 
 $$
 
 
-\iint\limits_{S} \mathbf{F}\cdot\mathrm{d}\mathbf{S} = \iiint\limits_R \textrm{div}\,\mathbf{F} \: \textrm{d}V,
+\iint\limits_{S} \mathbf{F}\cdot\mathrm{d}\mathbf{S} = \iiint\limits_R \text{div}\,\mathbf{F} \: \text{d}V,
 
 
 $$
@@ -111,7 +111,7 @@ Let $R$ be a simple solid region bounded by a closed surface $S$ with positive (
 $$
 
 
-\iint\limits_{S} \mathbf{F}\cdot\mathrm{d}\mathbf{S} = \iiint\limits_R \textrm{div}\,\mathbf{F} \: \textrm{d}V.
+\iint\limits_{S} \mathbf{F}\cdot\mathrm{d}\mathbf{S} = \iiint\limits_R \text{div}\,\mathbf{F} \: \text{d}V.
 
 
 $$
@@ -131,7 +131,7 @@ Therefore, using the divergence theorem, we have
 $$
 
 
-\iint\limits_{S} \mathbf{F}\cdot\mathrm{d}\mathbf{S} = \iiint\limits_R (z+1) \: \textrm{d}V,
+\iint\limits_{S} \mathbf{F}\cdot\mathrm{d}\mathbf{S} = \iiint\limits_R (z+1) \: \text{d}V,
 
 
 $$
@@ -151,7 +151,7 @@ Expressing our triple integral as a repeated integral, we have
 $$
 
 
-\begin{aligned}\underset{𝑅}{∭}𝑧+1\,d𝑉 & =∫_{1−1}^{}∫_{10}^{}∫_{1+𝑥^{2}+𝑦^{2}𝑦}^{}\,𝑧+1\,d𝑧\,d𝑦\,d𝑥.\end{aligned}
+\begin{aligned}\underset{𝑅}{∭}𝑧+1\,d𝑉 & =∫_{1−1}∫_{10}∫_{1+𝑥^{2}+𝑦^{2}𝑦}^{}\,𝑧+1\,d𝑧\,d𝑦\,d𝑥.\end{aligned}
 
 
 $$
@@ -169,7 +169,7 @@ Let $R$ be a simple solid region bounded by a closed surface $S$ with positive (
 $$
 
 
-\iint\limits_{S} \mathbf{F}\cdot\mathrm{d}\mathbf{S} = \iiint\limits_R \textrm{div}\,\mathbf{F} \: \textrm{d}V.
+\iint\limits_{S} \mathbf{F}\cdot\mathrm{d}\mathbf{S} = \iiint\limits_R \text{div}\,\mathbf{F} \: \text{d}V.
 
 
 $$
@@ -207,7 +207,7 @@ Let $R$ be a simple solid region bounded by a closed surface $S$ with positive (
 $$
 
 
-\iint\limits_{S} \mathbf{F}\cdot\mathrm{d}\mathbf{S} = \iiint\limits_R \textrm{div}\,\mathbf{F} \: \textrm{d}V.
+\iint\limits_{S} \mathbf{F}\cdot\mathrm{d}\mathbf{S} = \iiint\limits_R \text{div}\,\mathbf{F} \: \text{d}V.
 
 
 $$
@@ -227,7 +227,7 @@ Let $R$ be the solid region enclosed by $S.$ Then, using the divergence theorem,
 $$
 
 
-\begin{aligned}\underset{𝑆}{∬}𝐅⋅d𝐒 & =\underset{𝑅}{∭}6𝑥^{2}𝑦\,d𝑉 \\ & =∫_{10}^{}∫_{20}^{}∫_{21}^{}6𝑥^{2}𝑦\,d𝑧\,d𝑦\,d𝑥 \\ & =∫_{10}^{}3𝑥^{2}\,d𝑥⋅∫_{20}^{}2𝑦\,d𝑦⋅∫_{21}^{}\,d𝑧 \\ & =[𝑥^{3}]_{𝑥=1𝑥=0}^{}⋅[𝑦^{2}]_{𝑦=2𝑦=0}^{}⋅(2−1) \\ & =(1−0)⋅(4−0)⋅1 \\ & =4.\end{aligned}
+\begin{aligned}\underset{𝑆}{∬}𝐅⋅d𝐒 & =\underset{𝑅}{∭}6𝑥^{2}𝑦\,d𝑉 \\ & =∫_{10}∫_{20}∫_{21}6𝑥^{2}𝑦\,d𝑧\,d𝑦\,d𝑥 \\ & =∫_{10}3𝑥^{2}\,d𝑥⋅∫_{20}2𝑦\,d𝑦⋅∫_{21}\,d𝑧 \\ & =[𝑥^{3}]_{𝑥=1𝑥=0}⋅[𝑦^{2}]_{𝑦=2𝑦=0}⋅(2−1) \\ & =(1−0)⋅(4−0)⋅1 \\ & =4.\end{aligned}
 
 
 $$

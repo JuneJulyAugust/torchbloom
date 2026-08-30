@@ -158,7 +158,7 @@ Now, to solve for $x,$ we apply the quadratic formula:
 $$
 
 
-\begin{aligned}𝑥 & =\frac{−(−260)±\sqrt{√(−260)^{2}−4(1)(16\,800)}}{2} \\ & \\ & =\frac{260±\sqrt{√400}}{2} \\ & \\ & =\frac{260±20}{2} \\ & \end{aligned}
+\begin{aligned}𝑥 & =\frac{−(−260)±\sqrt{(−260)^{2}−4(1)(16\,800)}}{2} \\ & \\ & =\frac{260±\sqrt{400}}{2} \\ & \\ & =\frac{260±20}{2} \\ & \end{aligned}
 
 
 $$

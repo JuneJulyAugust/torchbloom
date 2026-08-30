@@ -47,7 +47,7 @@ $$
 
 
 
-\begin{aligned} y - y_1 &= m(x-x_1) \\\[5pt] y - 7 &= -\dfrac{1}{4}(x-(-8)) \\\[5pt] y - 7 &= -\dfrac{1}{4}(x+8)\\\[5pt] y - 7 &= -\dfrac{1}{4}x - 2 \\\[5pt] y &= -\dfrac{1}{4}x + 5 \end{aligned}
+\begin{aligned} y - y_1 &= m(x-x_1) \\[5pt] y - 7 &= -\dfrac{1}{4}(x-(-8)) \\[5pt] y - 7 &= -\dfrac{1}{4}(x+8)\\[5pt] y - 7 &= -\dfrac{1}{4}x - 2 \\[5pt] y &= -\dfrac{1}{4}x + 5 \end{aligned}
 
 
 

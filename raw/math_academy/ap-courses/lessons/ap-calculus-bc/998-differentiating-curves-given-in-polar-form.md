@@ -17,12 +17,12 @@ Any curve defined using polar coordinates $(r(\theta), \theta)$ is a parametric 
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x} = \dfrac{y'(\theta)}{x'(\theta)}
+\dfrac{\text{d}y}{\text{d}x} = \dfrac{y'(\theta)}{x'(\theta)}
 
 
 $$
 
-As an example, suppose we want to find $\dfrac{\textrm{d}y}{\textrm{d}x}$ for the polar curve $r = \sin4\theta,$ shown below.
+As an example, suppose we want to find $\dfrac{\text{d}y}{\text{d}x}$ for the polar curve $r = \sin4\theta,$ shown below.
 
 ![Instructional graphic](../../../lesson-assets/ap-calculus-bc/topic-998/9f29b366732d3d78.png)
 
@@ -68,7 +68,7 @@ $$
 
 ![Instructional graphic](../../../lesson-assets/ap-calculus-bc/topic-998/ec8308ae8798c73a.png)
 
-Find $\dfrac{\textrm{d}y}{\textrm{d}x}$ for the polar curve $r = 2^{\theta}$ (shown above) given that
+Find $\dfrac{\text{d}y}{\text{d}x}$ for the polar curve $r = 2^{\theta}$ (shown above) given that
 
 $$
 
@@ -80,12 +80,12 @@ $$
 
 #### Explanation
 
-To find $\dfrac{\textrm{d}y}{\textrm{d}x},$ we use the rule for differentiating parametric equations:
+To find $\dfrac{\text{d}y}{\text{d}x},$ we use the rule for differentiating parametric equations:
 
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x} = \dfrac{y'(\theta)}{x'(\theta)}
+\dfrac{\text{d}y}{\text{d}x} = \dfrac{y'(\theta)}{x'(\theta)}
 
 
 $$
@@ -116,12 +116,12 @@ $$
 
 #### Explanation
 
-To find $\dfrac{\textrm{d}y}{\textrm{d}x},$ we use the rule for differentiating parametric equations:
+To find $\dfrac{\text{d}y}{\text{d}x},$ we use the rule for differentiating parametric equations:
 
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x} = \dfrac{y'(\theta)}{x'(\theta)}
+\dfrac{\text{d}y}{\text{d}x} = \dfrac{y'(\theta)}{x'(\theta)}
 
 
 $$
@@ -131,7 +131,7 @@ Evaluating the numerator and denominator at $\theta=\dfrac\pi4,$ we have
 $$
 
 
-\begin{aligned}𝑦^{′}(\frac{𝜋}{4}) & =cos⁡(\frac{𝜋}{4})−cos⁡(\frac{𝜋}{2}) \\ & =\frac{\sqrt{√2}}{2}−0 \\ & =\frac{\sqrt{√2}}{2}\end{aligned}
+\begin{aligned}𝑦^{′}(\frac{𝜋}{4}) & =cos⁡(\frac{𝜋}{4})−cos⁡(\frac{𝜋}{2}) \\ & =\frac{\sqrt{2}}{2}−0 \\ & =\frac{\sqrt{2}}{2}\end{aligned}
 
 
 $$
@@ -141,7 +141,7 @@ and
 $$
 
 
-\begin{aligned}𝑥^{′}(\frac{𝜋}{4}) & =−sin⁡(\frac{𝜋}{4})+sin⁡(\frac{𝜋}{2}) \\ & =−\frac{\sqrt{√2}}{2}+1.\end{aligned}
+\begin{aligned}𝑥^{′}(\frac{𝜋}{4}) & =−sin⁡(\frac{𝜋}{4})+sin⁡(\frac{𝜋}{2}) \\ & =−\frac{\sqrt{2}}{2}+1.\end{aligned}
 
 
 $$
@@ -151,7 +151,7 @@ Hence, the slope of the tangent line is
 $$
 
 
-\begin{aligned}\frac{d𝑦}{d𝑥}_{𝜃=𝜋/4} & =\frac{𝑦^{′}(\frac{𝜋}{4})}{4} \\ & =\frac{(\frac{\sqrt{√2}}{2})}{2}.\end{aligned}
+\begin{aligned}\frac{d𝑦}{d𝑥}_{𝜃=𝜋/4} & =\frac{𝑦^{′}(\frac{𝜋}{4})}{4} \\ & =\frac{(\frac{\sqrt{2}}{2})}{2}.\end{aligned}
 
 
 $$
@@ -161,7 +161,7 @@ Multiplying the numerator and denominator by $2$ and simplifying, we get
 $$
 
 
-\begin{aligned}\frac{d𝑦}{d𝑥}_{𝜃=𝜋/4} & =\frac{(\frac{\sqrt{√2}}{2})}{2} \\ & =\frac{2⋅(\frac{\sqrt{√2}}{2})}{2} \\ & =\frac{\sqrt{√2}}{−\sqrt{√2}+2} \\ & =\frac{\sqrt{√2}}{2−\sqrt{√2}} \\ & =\frac{\sqrt{√2}}{2−\sqrt{√2}}⋅\frac{2+\sqrt{√2}}{2+\sqrt{√2}} \\ & =\frac{2\sqrt{√2}+2}{2} \\ & =\sqrt{√2}+1.\end{aligned}
+\begin{aligned}\frac{d𝑦}{d𝑥}_{𝜃=𝜋/4} & =\frac{(\frac{\sqrt{2}}{2})}{2} \\ & =\frac{2⋅(\frac{\sqrt{2}}{2})}{2} \\ & =\frac{\sqrt{2}}{−\sqrt{2}+2} \\ & =\frac{\sqrt{2}}{2−\sqrt{2}} \\ & =\frac{\sqrt{2}}{2−\sqrt{2}}⋅\frac{2+\sqrt{2}}{2+\sqrt{2}} \\ & =\frac{2\sqrt{2}+2}{2} \\ & =\sqrt{2}+1.\end{aligned}
 
 
 $$
@@ -172,16 +172,16 @@ $$
 
 ![Instructional graphic](../../../lesson-assets/ap-calculus-bc/topic-998/f2b5c70d26814aae.png)
 
-Find $\dfrac{\textrm{d}y}{\textrm{d}x}$ for the polar curve $r = 2$ (shown above) at $\theta = \dfrac{\pi}{3}.$
+Find $\dfrac{\text{d}y}{\text{d}x}$ for the polar curve $r = 2$ (shown above) at $\theta = \dfrac{\pi}{3}.$
 
 #### Explanation
 
-To find $\dfrac{\textrm{d}y}{\textrm{d}x},$ we use the formula for differentiating parametric curves:
+To find $\dfrac{\text{d}y}{\text{d}x},$ we use the formula for differentiating parametric curves:
 
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x} = \dfrac{y'(\theta)}{x'(\theta)}
+\dfrac{\text{d}y}{\text{d}x} = \dfrac{y'(\theta)}{x'(\theta)}
 
 
 $$
@@ -231,7 +231,7 @@ Finally, we arrive at
 $$
 
 
-\begin{aligned}\frac{d𝑦}{d𝑥}_{𝜃=𝜋/3} & =−cot⁡(\frac{𝜋}{3}) \\ & =−\frac{\sqrt{√3}}{3}.\end{aligned}
+\begin{aligned}\frac{d𝑦}{d𝑥}_{𝜃=𝜋/3} & =−cot⁡(\frac{𝜋}{3}) \\ & =−\frac{\sqrt{3}}{3}.\end{aligned}
 
 
 $$
@@ -242,16 +242,16 @@ $$
 
 ![Instructional graphic](../../../lesson-assets/ap-calculus-bc/topic-998/1497e7d424c4ba72.png)
 
-Find $\dfrac{\textrm{d}y}{\textrm{d}x}$ for the polar curve $r = \theta,$ shown above.
+Find $\dfrac{\text{d}y}{\text{d}x}$ for the polar curve $r = \theta,$ shown above.
 
 #### Explanation
 
-To find $\dfrac{\textrm{d}y}{\textrm{d}x},$ we use the formula for differentiating parametric curves:
+To find $\dfrac{\text{d}y}{\text{d}x},$ we use the formula for differentiating parametric curves:
 
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x} = \dfrac{y'(\theta)}{x'(\theta)}
+\dfrac{\text{d}y}{\text{d}x} = \dfrac{y'(\theta)}{x'(\theta)}
 
 
 $$

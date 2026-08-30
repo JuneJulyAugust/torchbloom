@@ -14,9 +14,9 @@ Topic ID: 7206
 
 Recall the following length conversions:
 
-- $1\,\textrm{ft} = 12\,\textrm{in}$
+- $1\,\text{ft} = 12\,\text{in}$
 
-- $1\,\textrm{yd} = 3\,\textrm{ft}$
+- $1\,\text{yd} = 3\,\text{ft}$
 
 When we convert from a smaller unit to a larger unit, we may need to use long division to divide by the number of smaller units in one larger unit.
 
@@ -28,7 +28,7 @@ $$
 
 
 
-1\,\textrm{yd} = 3\,\textrm{ft}
+1\,\text{yd} = 3\,\text{ft}
 
 
 
@@ -40,7 +40,7 @@ $$
 
 
 
-\dfrac{1}{3}\,\textrm{yd} = 1\,\textrm{ft}
+\dfrac{1}{3}\,\text{yd} = 1\,\text{ft}
 
 
 
@@ -56,7 +56,7 @@ $$
 
 
 
-84\,\textrm{ft} = 28\,\textrm{yd}.
+84\,\text{ft} = 28\,\text{yd}.
 
 
 
@@ -78,7 +78,7 @@ $$
 
 
 
-1 \,\textrm{ft} = 12 \,\textrm{in}
+1 \,\text{ft} = 12 \,\text{in}
 
 
 
@@ -90,7 +90,7 @@ $$
 
 
 
-\dfrac{1}{12} \,\textrm{ft} = 1 \,\textrm{in}
+\dfrac{1}{12} \,\text{ft} = 1 \,\text{in}
 
 
 
@@ -110,7 +110,7 @@ $$
 
 Finally, we simplify this fraction by interpreting $\dfrac{216}{12}$ as the division $216 \div 12.$ We can calculate this using long division:
 
-Therefore, $216\,\textrm{in}$ equals $18\,\textrm{ft}.$
+Therefore, $216\,\text{in}$ equals $18\,\text{ft}.$
 
 ### Two-Step Length Conversions
 
@@ -122,7 +122,7 @@ $$
 
 
 
-\textrm{inches} \rightarrow \textrm{feet} \rightarrow \textrm{yards}.
+\text{inches} \rightarrow \text{feet} \rightarrow \text{yards}.
 
 
 
@@ -130,7 +130,7 @@ $$
 
 For example, suppose we want to convert $360$ inches into yards. We first convert $360$ inches into feet, and then convert the result from feet to yards.
 
-- To convert from $360$ inches into feet, we start with the unit conversion Now, we divide both sides of the above equation by $12$ and obtain the following: We want to determine how many feet are in $360$ inches. So, we multiply both sides of the above equation by $360{:}$ Now, we simplify this fraction by interpreting $\dfrac{360}{12}$ as the division $360 \div 12.$ We can calculate this using long division: $3$ $0$ $12$ $\!\!\enclose{longdiv}{3 {\:\phantom{|}} 6 {\:\phantom{|}} 0}$ $-\!\!\!\!$ $3$ $6$ $0$ $0$ Therefore,
+- To convert from $360$ inches into feet, we start with the unit conversion Now, we divide both sides of the above equation by $12$ and obtain the following: We want to determine how many feet are in $360$ inches. So, we multiply both sides of the above equation by $360{:}$ Now, we simplify this fraction by interpreting $\dfrac{360}{12}$ as the division $360 \div 12.$ We can calculate this using long division: $3$ $0$ $12$ $\!\!\overline{3 {\:\phantom{|}} 6 {\:\phantom{|}} 0}$ $-\!\!\!\!$ $3$ $6$ $0$ $0$ Therefore,
 
 - Next, to convert from $30$ feet into yards, we start with the unit conversion Now, we divide both sides of the above equation by $3$ and obtain the following: We want to determine how many yards are in $30$ feet. So, we multiply both sides of the above equation by $30{:}$ Therefore,
 
@@ -140,7 +140,7 @@ $$
 
 
 
-360\,\textrm{in} = 10\,\textrm{yd}.
+360\,\text{in} = 10\,\text{yd}.
 
 
 
@@ -158,8 +158,8 @@ How many yards are in $408$ inches?
 
 To convert $408$ inches into yards, we convert $408$ inches into feet, and then convert the result from feet to yards.
 
-- To convert from $408$ inches into feet, we start with the unit conversion Now, we divide both sides of the above equation by $12$ and obtain the following: We want to determine how many feet are in $408$ inches. So, we multiply both sides of the above equation by $408{:}$ Now, we simplify this fraction by interpreting $\dfrac{408}{12}$ as the division $408 \div 12.$ We can calculate this using long division: $3$ $4$ $12$ $\!\!\enclose{longdiv}{4 {\:\phantom{|}} 0 {\:\phantom{|}} 8}$ $-\!\!\!\!$ $3$ $6$ $4$ $8$ $-\!\!\!\!$ $4$ $8$ $\phantom{0}$ $0$ Therefore, $408\,\textrm{in}$ equals $34\,\textrm{ft}.$
+- To convert from $408$ inches into feet, we start with the unit conversion Now, we divide both sides of the above equation by $12$ and obtain the following: We want to determine how many feet are in $408$ inches. So, we multiply both sides of the above equation by $408{:}$ Now, we simplify this fraction by interpreting $\dfrac{408}{12}$ as the division $408 \div 12.$ We can calculate this using long division: $3$ $4$ $12$ $\!\!\overline{4 {\:\phantom{|}} 0 {\:\phantom{|}} 8}$ $-\!\!\!\!$ $3$ $6$ $4$ $8$ $-\!\!\!\!$ $4$ $8$ $\phantom{0}$ $0$ Therefore, $408\,\text{in}$ equals $34\,\text{ft}.$
 
-- Next, to convert from $34$ feet into yards, we start with the unit conversion Now, we divide both sides of the above equation by $3$ and obtain the following: We want to determine how many yards are in $34$ feet. So, we multiply both sides of the above equation by $34{:}$ Therefore, $34\,\textrm{ft}$ equals $11\,\dfrac{1}{3}\,\textrm{yd}.$
+- Next, to convert from $34$ feet into yards, we start with the unit conversion Now, we divide both sides of the above equation by $3$ and obtain the following: We want to determine how many yards are in $34$ feet. So, we multiply both sides of the above equation by $34{:}$ Therefore, $34\,\text{ft}$ equals $11\,\dfrac{1}{3}\,\text{yd}.$
 
-In conclusion, $408\,\textrm{in}$ equals $11\,\dfrac{1}{3}\,\textrm{yd}.$
+In conclusion, $408\,\text{in}$ equals $11\,\dfrac{1}{3}\,\text{yd}.$

@@ -47,13 +47,13 @@ Therefore, $-(4) = -4.$
 
 Negative numbers appear often in real life.
 
-For instance, we can use *negative numbers* to measure temperature. Water freezes at $0^\circ\textrm{C},$ but the scale can go even lower. For example, the temperatures at the North Pole can reach $-40^\circ\textrm{C}\,!$
+For instance, we can use *negative numbers* to measure temperature. Water freezes at $0^\circ\text{C},$ but the scale can go even lower. For example, the temperatures at the North Pole can reach $-40^\circ\text{C}\,!$
 
 To read a thermometer, find where the fluid level aligns with the scale.
 
 ![Instructional graphic](../../../lesson-assets/grade-6/topic-2443/e6336f2516154d10.png)
 
-On the thermometer above, the fluid is at the same level as $-3$ on the scale, and the temperature is measured in degrees Celsius. Therefore, the thermometer shows $-3^\circ\textrm{C}.$
+On the thermometer above, the fluid is at the same level as $-3$ on the scale, and the temperature is measured in degrees Celsius. Therefore, the thermometer shows $-3^\circ\text{C}.$
 
 ### Example: Interpreting Negative Numbers on a Thermometer
 
@@ -65,41 +65,41 @@ What temperature is shown on the thermometer?
 
 #### Explanation
 
-The fluid in the thermometer is at the same level as $-5$ on the scale, and the temperature is measured in degrees Celsius. Therefore, the thermometer shows $-5^\circ\textrm{C}.$
+The fluid in the thermometer is at the same level as $-5$ on the scale, and the temperature is measured in degrees Celsius. Therefore, the thermometer shows $-5^\circ\text{C}.$
 
 ### Increasing the Temperature on a Thermometer
 
-To increase the temperature in a thermometer, we *raise* the fluid level by the desired number of units. So, what temperature is *$3^\circ\textrm{C}$ warmer* than $-6^\circ\textrm{C}?$
+To increase the temperature in a thermometer, we *raise* the fluid level by the desired number of units. So, what temperature is *$3^\circ\text{C}$ warmer* than $-6^\circ\text{C}?$
 
-Let's locate $-6^\circ\textrm{C}$ on a thermometer.
+Let's locate $-6^\circ\text{C}$ on a thermometer.
 
 ![Instructional graphic](../../../lesson-assets/grade-6/topic-2443/f1f4fac88d7c5494.png)
 
-To find a temperature that is $3^\circ\textrm{C}$ *warmer*, the fluid needs to *move up* by $3$ units. This gives:
+To find a temperature that is $3^\circ\text{C}$ *warmer*, the fluid needs to *move up* by $3$ units. This gives:
 
 ![Instructional graphic](../../../lesson-assets/grade-6/topic-2443/136c95c01973284a.png)
 
-The new fluid level is at $-3^\circ\textrm{C}.$
+The new fluid level is at $-3^\circ\text{C}.$
 
-Therefore, $-3^\circ\textrm{C}$ is $3^\circ\textrm{C}$ warmer than $-6^\circ\textrm{C}.$
+Therefore, $-3^\circ\text{C}$ is $3^\circ\text{C}$ warmer than $-6^\circ\text{C}.$
 
 ### Example: Finding a Temperature Warmer than a Negative Temperature
 
 #### Question
 
-Which temperature is $5^\circ\textrm{C}$ warmer than $-3^\circ\textrm{C}?$
+Which temperature is $5^\circ\text{C}$ warmer than $-3^\circ\text{C}?$
 
 #### Explanation
 
-Let's imagine $-3^\circ\,\textrm{C}$ on a thermometer.
+Let's imagine $-3^\circ\,\text{C}$ on a thermometer.
 
 ![Instructional graphic](../../../lesson-assets/grade-6/topic-2443/e8c22266ae928dd2.png)
 
-To find a temperature that is $5^\circ\,\textrm{C}$ warmer, the fluid needs to move up by $5$ units. This gives:
+To find a temperature that is $5^\circ\,\text{C}$ warmer, the fluid needs to move up by $5$ units. This gives:
 
 ![Instructional graphic](../../../lesson-assets/grade-6/topic-2443/a60f3d4d07b4bd6c.png)
 
-Therefore, $2^\circ\textrm{C}$ is $5^\circ\textrm{C}$ warmer than $-3^\circ\textrm{C}.$
+Therefore, $2^\circ\text{C}$ is $5^\circ\text{C}$ warmer than $-3^\circ\text{C}.$
 
 ### Example: Understanding Positive and Negative Values, and Zero
 

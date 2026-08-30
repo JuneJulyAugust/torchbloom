@@ -50,7 +50,7 @@ We first compute the tangent vectors to the grid curves:
 $$
 
 
-\begin{aligned}𝐫_{′𝑢}^{} & =⟨\frac{𝜕𝑥}{𝜕𝑢},\,\frac{𝜕𝑦}{𝜕𝑢},\,\frac{𝜕𝑧}{𝜕𝑢}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑢}(\sqrt{√2}cos⁡𝑢),\,\frac{𝜕}{𝜕𝑢}(\sqrt{√2}sin⁡𝑢),\,\frac{𝜕}{𝜕𝑢}(𝑣)⟩ \\ & =⟨−\sqrt{√2}sin⁡𝑢,\,\sqrt{√2}cos⁡𝑢,\,0⟩ \\ 𝐫_{′𝑣}^{} & =⟨\frac{𝜕𝑥}{𝜕𝑣},\,\frac{𝜕𝑦}{𝜕𝑣},\,\frac{𝜕𝑧}{𝜕𝑣}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑣}(\sqrt{√2}cos⁡𝑢),\,\frac{𝜕}{𝜕𝑣}(\sqrt{√2}sin⁡𝑢),\,\frac{𝜕}{𝜕𝑣}(𝑣)⟩ \\ & =⟨0,\,0,\,1⟩\end{aligned}
+\begin{aligned}𝐫_{′𝑢} & =⟨\frac{𝜕𝑥}{𝜕𝑢},\,\frac{𝜕𝑦}{𝜕𝑢},\,\frac{𝜕𝑧}{𝜕𝑢}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑢}(\sqrt{2}cos⁡𝑢),\,\frac{𝜕}{𝜕𝑢}(\sqrt{2}sin⁡𝑢),\,\frac{𝜕}{𝜕𝑢}(𝑣)⟩ \\ & =⟨−\sqrt{2}sin⁡𝑢,\,\sqrt{2}cos⁡𝑢,\,0⟩ \\ 𝐫_{′𝑣} & =⟨\frac{𝜕𝑥}{𝜕𝑣},\,\frac{𝜕𝑦}{𝜕𝑣},\,\frac{𝜕𝑧}{𝜕𝑣}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑣}(\sqrt{2}cos⁡𝑢),\,\frac{𝜕}{𝜕𝑣}(\sqrt{2}sin⁡𝑢),\,\frac{𝜕}{𝜕𝑣}(𝑣)⟩ \\ & =⟨0,\,0,\,1⟩\end{aligned}
 
 
 $$
@@ -60,7 +60,7 @@ Therefore, the fundamental vector product is
 $$
 
 
-\begin{aligned}𝐫_{′𝑢}^{}×𝐫_{′𝑣}^{} & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ −\sqrt{√2}sin⁡𝑢 & \sqrt{√2}cos⁡𝑢 & 0 \\ 0 & 0 & 1\end{aligned} \\ & =⟨\begin{aligned}\sqrt{√2}cos⁡𝑢 & 0 \\ 0 & 1\end{aligned},\,−\begin{aligned}−\sqrt{√2}sin⁡𝑢 & 0 \\ 0 & 1\end{aligned},\,\begin{aligned}−\sqrt{√2}sin⁡𝑢 & \sqrt{√2}cos⁡𝑢 \\ 0 & 0\end{aligned}⟩ \\ & =⟨\sqrt{√2}cos⁡𝑢,\,\sqrt{√2}sin⁡𝑢,\,0⟩.\end{aligned}
+\begin{aligned}𝐫_{′𝑢}×𝐫_{′𝑣} & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ −\sqrt{2}sin⁡𝑢 & \sqrt{2}cos⁡𝑢 & 0 \\ 0 & 0 & 1\end{matrix} \\ & =⟨\begin{matrix}\sqrt{2}cos⁡𝑢 & 0 \\ 0 & 1\end{matrix},\,−\begin{matrix}−\sqrt{2}sin⁡𝑢 & 0 \\ 0 & 1\end{matrix},\,\begin{matrix}−\sqrt{2}sin⁡𝑢 & \sqrt{2}cos⁡𝑢 \\ 0 & 0\end{matrix}⟩ \\ & =⟨\sqrt{2}cos⁡𝑢,\,\sqrt{2}sin⁡𝑢,\,0⟩.\end{aligned}
 
 
 $$
@@ -80,7 +80,7 @@ We first compute the tangent vectors to the grid curves:
 $$
 
 
-\begin{aligned}𝐫_{′𝑢}^{} & =⟨\frac{𝜕𝑥}{𝜕𝑢},\,\frac{𝜕𝑦}{𝜕𝑢},\,\frac{𝜕𝑧}{𝜕𝑢}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑢}(𝑢^{2}),\,\frac{𝜕}{𝜕𝑢}(𝑣^{2}),\,\frac{𝜕}{𝜕𝑢}(𝑢+𝑣)⟩ \\ & =⟨2𝑢,\,0,\,1⟩ \\ 𝐫_{′𝑣}^{} & =⟨\frac{𝜕𝑥}{𝜕𝑣},\,\frac{𝜕𝑦}{𝜕𝑣},\,\frac{𝜕𝑧}{𝜕𝑣}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑣}(𝑢^{2}),\,\frac{𝜕}{𝜕𝑣}(𝑣^{2}),\,\frac{𝜕}{𝜕𝑣}(𝑢+𝑣)⟩ \\ & =⟨0,\,2𝑣,\,1⟩\end{aligned}
+\begin{aligned}𝐫_{′𝑢} & =⟨\frac{𝜕𝑥}{𝜕𝑢},\,\frac{𝜕𝑦}{𝜕𝑢},\,\frac{𝜕𝑧}{𝜕𝑢}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑢}(𝑢^{2}),\,\frac{𝜕}{𝜕𝑢}(𝑣^{2}),\,\frac{𝜕}{𝜕𝑢}(𝑢+𝑣)⟩ \\ & =⟨2𝑢,\,0,\,1⟩ \\ 𝐫_{′𝑣} & =⟨\frac{𝜕𝑥}{𝜕𝑣},\,\frac{𝜕𝑦}{𝜕𝑣},\,\frac{𝜕𝑧}{𝜕𝑣}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑣}(𝑢^{2}),\,\frac{𝜕}{𝜕𝑣}(𝑣^{2}),\,\frac{𝜕}{𝜕𝑣}(𝑢+𝑣)⟩ \\ & =⟨0,\,2𝑣,\,1⟩\end{aligned}
 
 
 $$
@@ -90,7 +90,7 @@ Therefore, the fundamental vector product is
 $$
 
 
-\begin{aligned}𝐫_{′𝑢}^{}×𝐫_{′𝑣}^{} & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 2𝑢 & 0 & 1 \\ 0 & 2𝑣 & 1\end{aligned} \\ & =⟨\begin{aligned}0 & 1 \\ 2𝑣 & 1\end{aligned},\,−\begin{aligned}2𝑢 & 1 \\ 0 & 1\end{aligned},\,\begin{aligned}2𝑢 & 0 \\ 0 & 2𝑣\end{aligned}⟩ \\ & =⟨−2𝑣,\,−2𝑢,\,4𝑢𝑣⟩.\end{aligned}
+\begin{aligned}𝐫_{′𝑢}×𝐫_{′𝑣} & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 2𝑢 & 0 & 1 \\ 0 & 2𝑣 & 1\end{matrix} \\ & =⟨\begin{matrix}0 & 1 \\ 2𝑣 & 1\end{matrix},\,−\begin{matrix}2𝑢 & 1 \\ 0 & 1\end{matrix},\,\begin{matrix}2𝑢 & 0 \\ 0 & 2𝑣\end{matrix}⟩ \\ & =⟨−2𝑣,\,−2𝑢,\,4𝑢𝑣⟩.\end{aligned}
 
 
 $$
@@ -112,7 +112,7 @@ defined over a region $D$ in the $uv$-plane. If each point on $S$ corresponds to
 $$
 
 
-\iint\limits_{S} \: \textrm{d}S = \iint\limits_{D} \| \mathbf{r}'_ u \times \mathbf{r}'_v \| \: \textrm{d}A,
+\iint\limits_{S} \: \text{d}S = \iint\limits_{D} \| \mathbf{r}'_ u \times \mathbf{r}'_v \| \: \text{d}A,
 
 
 $$
@@ -136,7 +136,7 @@ We first compute the tangent vectors to the grid curves:
 $$
 
 
-\begin{aligned}𝐫_{′𝑢}^{}=⟨2𝑢,\,1,\,0⟩,\,𝐫_{′𝑣}^{}=⟨0,\,−1,\,1⟩\end{aligned}
+\begin{aligned}𝐫_{′𝑢}=⟨2𝑢,\,1,\,0⟩,\,𝐫_{′𝑣}=⟨0,\,−1,\,1⟩\end{aligned}
 
 
 $$
@@ -146,7 +146,7 @@ Now, the fundamental vector product is
 $$
 
 
-\begin{aligned}𝐫_{′𝑢}^{}×𝐫_{′𝑣}^{} & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 2𝑢 & 1 & 0 \\ 0 & −1 & 1\end{aligned}=⟨1,\,−2𝑢,\,−2𝑢⟩,\end{aligned}
+\begin{aligned}𝐫_{′𝑢}×𝐫_{′𝑣} & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 2𝑢 & 1 & 0 \\ 0 & −1 & 1\end{matrix}=⟨1,\,−2𝑢,\,−2𝑢⟩,\end{aligned}
 
 
 $$
@@ -156,7 +156,7 @@ and its magnitude is
 $$
 
 
-\begin{aligned}𝐫_{′𝑢}^{}×𝐫_{′𝑣}^{} & =∥⟨1,\,−2𝑢,\,−2𝑢⟩∥ \\ & =\sqrt{√1^{2}+(−2𝑢)^{2}+(−2𝑢)^{2}} \\ & =\sqrt{√1+4𝑢^{2}+4𝑢^{2}} \\ & =\sqrt{√1+8𝑢^{2}}.\end{aligned}
+\begin{aligned}𝐫_{′𝑢}×𝐫_{′𝑣} & =∥⟨1,\,−2𝑢,\,−2𝑢⟩∥ \\ & =\sqrt{1^{2}+(−2𝑢)^{2}+(−2𝑢)^{2}} \\ & =\sqrt{1+4𝑢^{2}+4𝑢^{2}} \\ & =\sqrt{1+8𝑢^{2}}.\end{aligned}
 
 
 $$
@@ -166,7 +166,7 @@ Therefore, the surface area is given by
 $$
 
 
-\begin{aligned}\underset{𝑆}{∬}\,d𝑆=\underset{𝐷}{∬}𝐫_{′𝑢}^{}×𝐫_{′𝑣}^{}d𝐴=\underset{𝐷}{∬}\sqrt{√1+8𝑢^{2}}\,d𝐴.\end{aligned}
+\begin{aligned}\underset{𝑆}{∬}\,d𝑆=\underset{𝐷}{∬}𝐫_{′𝑢}×𝐫_{′𝑣}d𝐴=\underset{𝐷}{∬}\sqrt{1+8𝑢^{2}}\,d𝐴.\end{aligned}
 
 
 $$
@@ -202,7 +202,7 @@ We first compute the tangent vectors to the grid curves:
 $$
 
 
-\begin{aligned}𝐫_{′𝑢}^{} & =⟨\frac{𝜕𝑥}{𝜕𝑢},\,\frac{𝜕𝑦}{𝜕𝑢},\,\frac{𝜕𝑧}{𝜕𝑢}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑢}(𝑢),\,\frac{𝜕}{𝜕𝑢}(𝑣),\,\frac{𝜕}{𝜕𝑢}(𝑢^{3}−𝑣)⟩ \\ & =⟨1,\,0,\,3𝑢^{2}⟩ \\ 𝐫_{′𝑣}^{} & =⟨\frac{𝜕𝑥}{𝜕𝑣},\,\frac{𝜕𝑦}{𝜕𝑣},\,\frac{𝜕𝑧}{𝜕𝑣}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑣}(𝑢),\,\frac{𝜕}{𝜕𝑣}(𝑣),\,\frac{𝜕}{𝜕𝑣}(𝑢^{3}−𝑣)⟩ \\ & =⟨0,\,1,\,−1⟩\end{aligned}
+\begin{aligned}𝐫_{′𝑢} & =⟨\frac{𝜕𝑥}{𝜕𝑢},\,\frac{𝜕𝑦}{𝜕𝑢},\,\frac{𝜕𝑧}{𝜕𝑢}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑢}(𝑢),\,\frac{𝜕}{𝜕𝑢}(𝑣),\,\frac{𝜕}{𝜕𝑢}(𝑢^{3}−𝑣)⟩ \\ & =⟨1,\,0,\,3𝑢^{2}⟩ \\ 𝐫_{′𝑣} & =⟨\frac{𝜕𝑥}{𝜕𝑣},\,\frac{𝜕𝑦}{𝜕𝑣},\,\frac{𝜕𝑧}{𝜕𝑣}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑣}(𝑢),\,\frac{𝜕}{𝜕𝑣}(𝑣),\,\frac{𝜕}{𝜕𝑣}(𝑢^{3}−𝑣)⟩ \\ & =⟨0,\,1,\,−1⟩\end{aligned}
 
 
 $$
@@ -212,7 +212,7 @@ Now, the fundamental vector product is
 $$
 
 
-\begin{aligned}𝐫_{′𝑢}^{}×𝐫_{′𝑣}^{} & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 1 & 0 & 3𝑢^{2} \\ 0 & 1 & −1\end{aligned} \\ & =⟨\begin{aligned}0 & 3𝑢^{2} \\ 1 & −1\end{aligned},\,−\begin{aligned}1 & 3𝑢^{2} \\ 0 & −1\end{aligned},\,\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}⟩ \\ & =⟨−3𝑢^{2},\,1,\,1⟩,\end{aligned}
+\begin{aligned}𝐫_{′𝑢}×𝐫_{′𝑣} & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 1 & 0 & 3𝑢^{2} \\ 0 & 1 & −1\end{matrix} \\ & =⟨\begin{matrix}0 & 3𝑢^{2} \\ 1 & −1\end{matrix},\,−\begin{matrix}1 & 3𝑢^{2} \\ 0 & −1\end{matrix},\,\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}⟩ \\ & =⟨−3𝑢^{2},\,1,\,1⟩,\end{aligned}
 
 
 $$
@@ -222,7 +222,7 @@ and its magnitude is
 $$
 
 
-\begin{aligned}𝐫_{′𝑢}^{}×𝐫_{′𝑣}^{} & =⟨−3𝑢^{2},\,1,\,1⟩ \\ & =\sqrt{√(3𝑢^{2})^{2}+(1)^{2}+(1)^{2}} \\ & =\sqrt{√9𝑢^{4}+2}.\end{aligned}
+\begin{aligned}𝐫_{′𝑢}×𝐫_{′𝑣} & =⟨−3𝑢^{2},\,1,\,1⟩ \\ & =\sqrt{(3𝑢^{2})^{2}+(1)^{2}+(1)^{2}} \\ & =\sqrt{9𝑢^{4}+2}.\end{aligned}
 
 
 $$
@@ -232,7 +232,7 @@ Therefore, the surface area is
 $$
 
 
-\begin{aligned}\underset{𝑆}{∬}\,d𝑆 & =\underset{𝐷}{∬}𝐫_{′𝑢}^{}×𝐫_{′𝑣}^{}d𝐴 \\ & =\underset{𝐷}{∬}\sqrt{√9𝑢^{4}+2}\,d𝐴.\end{aligned}
+\begin{aligned}\underset{𝑆}{∬}\,d𝑆 & =\underset{𝐷}{∬}𝐫_{′𝑢}×𝐫_{′𝑣}d𝐴 \\ & =\underset{𝐷}{∬}\sqrt{9𝑢^{4}+2}\,d𝐴.\end{aligned}
 
 
 $$
@@ -280,7 +280,7 @@ We first compute the tangent vectors to the grid curves:
 $$
 
 
-\begin{aligned}𝐫_{′𝑢}^{} & =⟨\frac{𝜕𝑥}{𝜕𝑢},\,\frac{𝜕𝑦}{𝜕𝑢},\,\frac{𝜕𝑧}{𝜕𝑢}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑢}(𝑢),\,\frac{𝜕}{𝜕𝑢}(𝑣),\,\frac{𝜕}{𝜕𝑢}(1−𝑢−𝑣)⟩ \\ & =⟨1,\,0,\,−1⟩ \\ 𝐫_{′𝑣}^{} & =⟨\frac{𝜕𝑥}{𝜕𝑣},\,\frac{𝜕𝑦}{𝜕𝑣},\,\frac{𝜕𝑧}{𝜕𝑣}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑣}(𝑢),\,\frac{𝜕}{𝜕𝑣}(𝑣),\,\frac{𝜕}{𝜕𝑣}(1−𝑢−𝑣)⟩ \\ & =⟨0,\,1,\,−1⟩\end{aligned}
+\begin{aligned}𝐫_{′𝑢} & =⟨\frac{𝜕𝑥}{𝜕𝑢},\,\frac{𝜕𝑦}{𝜕𝑢},\,\frac{𝜕𝑧}{𝜕𝑢}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑢}(𝑢),\,\frac{𝜕}{𝜕𝑢}(𝑣),\,\frac{𝜕}{𝜕𝑢}(1−𝑢−𝑣)⟩ \\ & =⟨1,\,0,\,−1⟩ \\ 𝐫_{′𝑣} & =⟨\frac{𝜕𝑥}{𝜕𝑣},\,\frac{𝜕𝑦}{𝜕𝑣},\,\frac{𝜕𝑧}{𝜕𝑣}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑣}(𝑢),\,\frac{𝜕}{𝜕𝑣}(𝑣),\,\frac{𝜕}{𝜕𝑣}(1−𝑢−𝑣)⟩ \\ & =⟨0,\,1,\,−1⟩\end{aligned}
 
 
 $$
@@ -290,7 +290,7 @@ Now, the fundamental vector product is
 $$
 
 
-\begin{aligned}𝐫_{′𝑢}^{}×𝐫_{′𝑣}^{} & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 1 & 0 & −1 \\ 0 & 1 & −1\end{aligned} \\ & =⟨\begin{aligned}0 & −1 \\ 1 & −1\end{aligned},\,−\begin{aligned}1 & −1 \\ 0 & −1\end{aligned},\,\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}⟩ \\ & =⟨1,\,1,\,1⟩,\end{aligned}
+\begin{aligned}𝐫_{′𝑢}×𝐫_{′𝑣} & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 1 & 0 & −1 \\ 0 & 1 & −1\end{matrix} \\ & =⟨\begin{matrix}0 & −1 \\ 1 & −1\end{matrix},\,−\begin{matrix}1 & −1 \\ 0 & −1\end{matrix},\,\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}⟩ \\ & =⟨1,\,1,\,1⟩,\end{aligned}
 
 
 $$
@@ -300,7 +300,7 @@ and its magnitude is
 $$
 
 
-\begin{aligned}𝐫_{′𝑢}^{}×𝐫_{′𝑣}^{} & =∥⟨1,\,1,\,1⟩∥ \\ & =\sqrt{√1^{2}+1^{2}+1^{2}} \\ & =\sqrt{√1+1+1} \\ & =\sqrt{√3}.\end{aligned}
+\begin{aligned}𝐫_{′𝑢}×𝐫_{′𝑣} & =∥⟨1,\,1,\,1⟩∥ \\ & =\sqrt{1^{2}+1^{2}+1^{2}} \\ & =\sqrt{1+1+1} \\ & =\sqrt{3}.\end{aligned}
 
 
 $$
@@ -320,7 +320,7 @@ Then, the surface area is
 $$
 
 
-\begin{aligned}\underset{𝑆}{∬}\,d𝑆 & =\underset{𝐷}{∬}𝐫_{′𝑢}^{}×𝐫_{′𝑣}^{}d𝐴 \\ & =\underset{𝐷}{∬}\sqrt{√3}\,d𝐴 \\ & =\sqrt{√3}\underset{𝐷}{∬} \,d𝐴 \\ & =\sqrt{√3}⋅Area(𝐷) \\ & =\sqrt{√3}⋅2⋅3 \\ & =6\sqrt{√3}.\end{aligned}
+\begin{aligned}\underset{𝑆}{∬}\,d𝑆 & =\underset{𝐷}{∬}𝐫_{′𝑢}×𝐫_{′𝑣}d𝐴 \\ & =\underset{𝐷}{∬}\sqrt{3}\,d𝐴 \\ & =\sqrt{3}\underset{𝐷}{∬} \,d𝐴 \\ & =\sqrt{3}⋅Area(𝐷) \\ & =\sqrt{3}⋅2⋅3 \\ & =6\sqrt{3}.\end{aligned}
 
 
 $$
@@ -390,7 +390,7 @@ As a result, we can approximate the area of $S_{ij}$ by the area of the parallel
 $$
 
 
-\begin{aligned}𝐴(𝑆_{𝑖𝑗}) & ≈‖𝐫_{′𝑢}^{}(𝑢_{𝑖},𝑣_{𝑗})Δ𝑢_{𝑖}×𝐫_{′𝑣}^{}(𝑢_{𝑖},𝑣_{𝑗})Δ𝑣_{𝑗}‖ \\ & =‖𝐫_{′𝑢}^{}(𝑢_{𝑖},𝑣_{𝑗})×𝐫_{′𝑣}^{}(𝑢_{𝑖},𝑣_{𝑗})‖\,Δ𝑢_{𝑖}Δ𝑣_{𝑗}\end{aligned}
+\begin{aligned}𝐴(𝑆_{𝑖𝑗}) & ≈‖𝐫_{′𝑢}(𝑢_{𝑖},𝑣_{𝑗})Δ𝑢_{𝑖}×𝐫_{′𝑣}(𝑢_{𝑖},𝑣_{𝑗})Δ𝑣_{𝑗}‖ \\ & =‖𝐫_{′𝑢}(𝑢_{𝑖},𝑣_{𝑗})×𝐫_{′𝑣}(𝑢_{𝑖},𝑣_{𝑗})‖\,Δ𝑢_{𝑖}Δ𝑣_{𝑗}\end{aligned}
 
 
 $$
@@ -400,7 +400,7 @@ Adding up the approximations for all patches, we get
 $$
 
 
-\begin{aligned}𝐴(𝑆) & ≈\underset{\underset{𝑖=0}{∑}}{\overset{}{𝑚}}\underset{\underset{𝑗=0}{∑}}{\overset{}{𝑛}}𝐴(𝑆_{𝑖𝑗}) \\ & =\underset{\underset{𝑖=0}{∑}}{\overset{}{𝑚}}\underset{\underset{𝑗=0}{∑}}{\overset{}{𝑛}}‖𝐫_{′𝑢}^{}(𝑢_{𝑖},𝑣_{𝑗})×𝐫_{′𝑣}^{}(𝑢_{𝑖},𝑣_{𝑗})‖\,Δ𝑢_{𝑖}Δ𝑣_{𝑗}.\end{aligned}
+\begin{aligned}𝐴(𝑆) & ≈\underset{\underset{𝑖=0}{∑}}{\overset{}{𝑚}}\underset{\underset{𝑗=0}{∑}}{\overset{}{𝑛}}𝐴(𝑆_{𝑖𝑗}) \\ & =\underset{\underset{𝑖=0}{∑}}{\overset{}{𝑚}}\underset{\underset{𝑗=0}{∑}}{\overset{}{𝑛}}‖𝐫_{′𝑢}(𝑢_{𝑖},𝑣_{𝑗})×𝐫_{′𝑣}(𝑢_{𝑖},𝑣_{𝑗})‖\,Δ𝑢_{𝑖}Δ𝑣_{𝑗}.\end{aligned}
 
 
 $$
@@ -410,7 +410,7 @@ This is a Riemann sum, and the closer the points $P_{ij}$ are to each other, the
 $$
 
 
-\begin{aligned}\underset{𝑆}{∬}\,d𝑆 & =\underset{𝐷}{∬}‖𝐫_{′𝑢}^{}×𝐫_{′𝑣}^{}‖\,d𝑢d𝑣 \\ & =\underset{𝐷}{∬}‖𝐫_{′𝑢}^{}×𝐫_{′𝑣}^{}‖\,d𝐴.\end{aligned}
+\begin{aligned}\underset{𝑆}{∬}\,d𝑆 & =\underset{𝐷}{∬}‖𝐫_{′𝑢}×𝐫_{′𝑣}‖\,d𝑢d𝑣 \\ & =\underset{𝐷}{∬}‖𝐫_{′𝑢}×𝐫_{′𝑣}‖\,d𝐴.\end{aligned}
 
 
 $$

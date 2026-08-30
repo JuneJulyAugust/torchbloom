@@ -47,7 +47,7 @@ We now apply the sum formula for tangent as follows:
 $$
 
 
-\begin{aligned}tan⁡(75^{∘}) & =tan⁡(30^{∘}+45^{∘}) \\ & =\frac{tan⁡30^{∘}+tan⁡45^{∘}}{1−tan⁡30^{∘}tan⁡45^{∘}} \\ & =\frac{(\frac{\sqrt{√3}}{3}+1)}{3} \\ & =\frac{(\frac{\sqrt{√3}}{3}+1)}{3}\end{aligned}
+\begin{aligned}tan⁡(75^{∘}) & =tan⁡(30^{∘}+45^{∘}) \\ & =\frac{tan⁡30^{∘}+tan⁡45^{∘}}{1−tan⁡30^{∘}tan⁡45^{∘}} \\ & =\frac{(\frac{\sqrt{3}}{3}+1)}{3} \\ & =\frac{(\frac{\sqrt{3}}{3}+1)}{3}\end{aligned}
 
 
 $$
@@ -57,7 +57,7 @@ We can simplify this fraction by multiplying the numerator and denominator by $3
 $$
 
 
-\begin{aligned}tan⁡(75^{∘}) & =\frac{(\frac{\sqrt{√3}}{3}+1)}{3} \\ & =\frac{3⋅(\frac{\sqrt{√3}}{3}+1)}{3} \\ & =\frac{\sqrt{√3}+3}{3−\sqrt{√3}} \\ & =\frac{3+\sqrt{√3}}{3−\sqrt{√3}}\end{aligned}
+\begin{aligned}tan⁡(75^{∘}) & =\frac{(\frac{\sqrt{3}}{3}+1)}{3} \\ & =\frac{3⋅(\frac{\sqrt{3}}{3}+1)}{3} \\ & =\frac{\sqrt{3}+3}{3−\sqrt{3}} \\ & =\frac{3+\sqrt{3}}{3−\sqrt{3}}\end{aligned}
 
 
 $$
@@ -67,7 +67,7 @@ Finally, we rationalize the denominator:
 $$
 
 
-\begin{aligned}tan⁡(75^{∘}) & =\frac{3+\sqrt{√3}}{3−\sqrt{√3}} \\ & =\frac{3+\sqrt{√3}}{3−\sqrt{√3}}⋅\frac{3+\sqrt{√3}}{3+\sqrt{√3}} \\ & =\frac{3^{2}+6\sqrt{√3}+(\sqrt{√3})^{2}}{3^{2}−(\sqrt{√3})^{2}} \\ & =\frac{9+6\sqrt{√3}+3}{9−3} \\ & =\frac{12+6\sqrt{√3}}{6} \\ & =2+\sqrt{√3}\end{aligned}
+\begin{aligned}tan⁡(75^{∘}) & =\frac{3+\sqrt{3}}{3−\sqrt{3}} \\ & =\frac{3+\sqrt{3}}{3−\sqrt{3}}⋅\frac{3+\sqrt{3}}{3+\sqrt{3}} \\ & =\frac{3^{2}+6\sqrt{3}+(\sqrt{3})^{2}}{3^{2}−(\sqrt{3})^{2}} \\ & =\frac{9+6\sqrt{3}+3}{9−3} \\ & =\frac{12+6\sqrt{3}}{6} \\ & =2+\sqrt{3}\end{aligned}
 
 
 $$
@@ -107,7 +107,7 @@ Applying the difference formula for tangent with $x = \dfrac{\pi}{3}$ and $y = \
 $$
 
 
-\begin{aligned}tan⁡(\frac{𝜋}{12}) & =tan⁡(\frac{𝜋}{3}−\frac{𝜋}{4}) \\ & =\frac{tan⁡(\frac{𝜋}{3})−tan⁡(\frac{𝜋}{4})}{3} \\ & =\frac{\sqrt{√3}−1}{1+\sqrt{√3}⋅1} \\ & =\frac{\sqrt{√3}−1}{\sqrt{√3}+1}.\end{aligned}
+\begin{aligned}tan⁡(\frac{𝜋}{12}) & =tan⁡(\frac{𝜋}{3}−\frac{𝜋}{4}) \\ & =\frac{tan⁡(\frac{𝜋}{3})−tan⁡(\frac{𝜋}{4})}{3} \\ & =\frac{\sqrt{3}−1}{1+\sqrt{3}⋅1} \\ & =\frac{\sqrt{3}−1}{\sqrt{3}+1}.\end{aligned}
 
 
 $$
@@ -117,7 +117,7 @@ Finally, we rationalize the denominator:
 $$
 
 
-\begin{aligned}tan⁡(\frac{𝜋}{12}) & =\frac{\sqrt{√3}−1}{\sqrt{√3}+1} \\ & =\frac{\sqrt{√3}−1}{\sqrt{√3}+1}⋅\frac{\sqrt{√3}−1}{\sqrt{√3}−1} \\ & =\frac{(\sqrt{√3})^{2}−2\sqrt{√3}+(−1)^{2}}{(\sqrt{√3})^{2}−1^{2}} \\ & =\frac{3−2\sqrt{√3}+1}{3−1} \\ & =\frac{4−2\sqrt{√3}}{2} \\ & =2−\sqrt{√3}\end{aligned}
+\begin{aligned}tan⁡(\frac{𝜋}{12}) & =\frac{\sqrt{3}−1}{\sqrt{3}+1} \\ & =\frac{\sqrt{3}−1}{\sqrt{3}+1}⋅\frac{\sqrt{3}−1}{\sqrt{3}−1} \\ & =\frac{(\sqrt{3})^{2}−2\sqrt{3}+(−1)^{2}}{(\sqrt{3})^{2}−1^{2}} \\ & =\frac{3−2\sqrt{3}+1}{3−1} \\ & =\frac{4−2\sqrt{3}}{2} \\ & =2−\sqrt{3}\end{aligned}
 
 
 $$
@@ -145,7 +145,7 @@ Applying the sum formula for tangent with $u=x$ and $v=30^{\circ},$ we obtain
 $$
 
 
-\begin{aligned} \tan(x -30^\circ) &= \dfrac{\tan x - \tan 30^\circ}{1 + \tan x \tan 30^\circ} \\\[5pt] &= \dfrac{\left(-\dfrac{4 \sqrt 3}3 -\dfrac{1} {\sqrt 3}\right)}{\left(1+\left(-\dfrac{4 \sqrt 3}3\right) \cdot \left(\dfrac{1}{\sqrt{3}}\right)\right)} \\\[5pt] &= \dfrac{\left(-\dfrac {4\sqrt 3} 3 - \dfrac{1}{\sqrt 3}\cdot \dfrac{\sqrt 3} { \sqrt 3}\right)} {\left(1-\dfrac 43\right)} \\\[5pt] &= \dfrac{\left(-\dfrac {4\sqrt 3} 3 - \dfrac{\sqrt 3} { 3}\right)} {\left(-\dfrac 13\right)} \\\[5pt] & = \dfrac {\left(- \dfrac{5\sqrt 3}{3}\right)} {\left( -\dfrac 1 3 \right)}\\[3pt] & = 5\sqrt{3}. \end{aligned}
+\begin{aligned} \tan(x -30^\circ) &= \dfrac{\tan x - \tan 30^\circ}{1 + \tan x \tan 30^\circ} \\[5pt] &= \dfrac{\left(-\dfrac{4 \sqrt 3}3 -\dfrac{1} {\sqrt 3}\right)}{\left(1+\left(-\dfrac{4 \sqrt 3}3\right) \cdot \left(\dfrac{1}{\sqrt{3}}\right)\right)} \\[5pt] &= \dfrac{\left(-\dfrac {4\sqrt 3} 3 - \dfrac{1}{\sqrt 3}\cdot \dfrac{\sqrt 3} { \sqrt 3}\right)} {\left(1-\dfrac 43\right)} \\[5pt] &= \dfrac{\left(-\dfrac {4\sqrt 3} 3 - \dfrac{\sqrt 3} { 3}\right)} {\left(-\dfrac 13\right)} \\[5pt] & = \dfrac {\left(- \dfrac{5\sqrt 3}{3}\right)} {\left( -\dfrac 1 3 \right)}\\[3pt] & = 5\sqrt{3}. \end{aligned}
 
 
 $$

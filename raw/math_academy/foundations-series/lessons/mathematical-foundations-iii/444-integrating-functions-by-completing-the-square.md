@@ -17,7 +17,7 @@ Consider the following integral:
 $$
 
 
-\int \dfrac{1}{x^2+2x+5}\, \textrm{d}x
+\int \dfrac{1}{x^2+2x+5}\, \text{d}x
 
 
 $$
@@ -49,7 +49,7 @@ Notice that this now resembles the basic integral for inverse tangent:
 $$
 
 
-\int \dfrac{1}{1+u^2} \, \textrm{d}u = \arctan u + C
+\int \dfrac{1}{1+u^2} \, \text{d}u = \arctan u + C
 
 
 $$
@@ -71,7 +71,7 @@ Differentiating, we get
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x}=\dfrac{1}{2} \quad\Longrightarrow\quad \textrm{d}x = 2\,\textrm{d}u.
+\dfrac{\text{d}u}{\text{d}x}=\dfrac{1}{2} \quad\Longrightarrow\quad \text{d}x = 2\,\text{d}u.
 
 
 $$
@@ -92,7 +92,7 @@ And we're done!
 
 #### Question
 
-Calculate $\displaystyle \int \dfrac{1}{\sqrt{36 -(3x - 2)^2}} \, \textrm{d}x.$
+Calculate $\displaystyle \int \dfrac{1}{\sqrt{36 -(3x - 2)^2}} \, \text{d}x.$
 
 #### Explanation
 
@@ -101,7 +101,7 @@ Let's rewrite our integral as follows:
 $$
 
 
-\begin{aligned}∫\frac{1}{\sqrt{√36−(3𝑥−2)^{2}}}\,d𝑥 & =∫\frac{1}{\sqrt{√36(1−(3𝑥−2)^{2}/36)}}\,d𝑥 \\ & =∫\frac{1}{\sqrt{√36}⋅\sqrt{√1−(3𝑥−2)^{2}/36}}\,d𝑥 \\ & =∫\frac{1}{6\sqrt{√1−(3𝑥−2)^{2}/36}}\,d𝑥 \\ & =\frac{1}{6}∫\frac{1}{\sqrt{√1−(3𝑥−2)^{2}/36}}\,d𝑥 \\ & =\frac{1}{6}∫\frac{1}{\sqrt{√1−((3𝑥−2)/6)^{2}}}\,d𝑥\end{aligned}
+\begin{aligned}∫\frac{1}{\sqrt{36−(3𝑥−2)^{2}}}\,d𝑥 & =∫\frac{1}{\sqrt{36(1−(3𝑥−2)^{2}/36)}}\,d𝑥 \\ & =∫\frac{1}{\sqrt{36}⋅\sqrt{1−(3𝑥−2)^{2}/36}}\,d𝑥 \\ & =∫\frac{1}{6\sqrt{1−(3𝑥−2)^{2}/36}}\,d𝑥 \\ & =\frac{1}{6}∫\frac{1}{\sqrt{1−(3𝑥−2)^{2}/36}}\,d𝑥 \\ & =\frac{1}{6}∫\frac{1}{\sqrt{1−((3𝑥−2)/6)^{2}}}\,d𝑥\end{aligned}
 
 
 $$
@@ -111,7 +111,7 @@ This resembles the basic integral for inverse sine:
 $$
 
 
-\int \dfrac{1}{\sqrt{1-u^2}}\,\textrm{d}u = \arcsin u + C
+\int \dfrac{1}{\sqrt{1-u^2}}\,\text{d}u = \arcsin u + C
 
 
 $$
@@ -133,7 +133,7 @@ Differentiating, we get
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x} = \dfrac{1}{2} \quad \Longrightarrow \quad \textrm{d}x = 2\,\textrm{d}u.
+\dfrac{\text{d}u}{\text{d}x} = \dfrac{1}{2} \quad \Longrightarrow \quad \text{d}x = 2\,\text{d}u.
 
 
 $$
@@ -143,7 +143,7 @@ Finally, we write the integral in terms of $u,$ and evaluate:
 $$
 
 
-\begin{aligned}∫\frac{1}{\sqrt{√36−(3𝑥−2)^{2}}}\,d𝑥 & =\frac{1}{6}∫\frac{1}{\sqrt{√1−((3𝑥−2)/6)^{2}}}\,d𝑥 \\ & =\frac{1}{6}∫\frac{1}{\sqrt{√1−𝑢^{2}}}⋅2\,d𝑢 \\ & =\frac{1}{3}arcsin⁡𝑢+𝐶 \\ & =\frac{1}{3}arcsin⁡(\frac{3𝑥−2}{6})+𝐶\end{aligned}
+\begin{aligned}∫\frac{1}{\sqrt{36−(3𝑥−2)^{2}}}\,d𝑥 & =\frac{1}{6}∫\frac{1}{\sqrt{1−((3𝑥−2)/6)^{2}}}\,d𝑥 \\ & =\frac{1}{6}∫\frac{1}{\sqrt{1−𝑢^{2}}}⋅2\,d𝑢 \\ & =\frac{1}{3}arcsin⁡𝑢+𝐶 \\ & =\frac{1}{3}arcsin⁡(\frac{3𝑥−2}{6})+𝐶\end{aligned}
 
 
 $$
@@ -152,7 +152,7 @@ $$
 
 #### Question
 
-Calculate $\displaystyle \int \dfrac{1}{x^2-2x + 3}\, \textrm{d}x.$
+Calculate $\displaystyle \int \dfrac{1}{x^2-2x + 3}\, \text{d}x.$
 
 #### Explanation
 
@@ -171,7 +171,7 @@ Substituting the above into the denominator, we get
 $$
 
 
-\begin{aligned}∫\frac{1}{𝑥^{2}−2𝑥+3}\,d𝑥 & =∫\frac{1}{(𝑥−1)^{2}+2}\,d𝑥 \\ & =\frac{1}{2}∫\frac{1}{1+((𝑥−1)/\sqrt{√2})^{2}}\,d𝑥.\end{aligned}
+\begin{aligned}∫\frac{1}{𝑥^{2}−2𝑥+3}\,d𝑥 & =∫\frac{1}{(𝑥−1)^{2}+2}\,d𝑥 \\ & =\frac{1}{2}∫\frac{1}{1+((𝑥−1)/\sqrt{2})^{2}}\,d𝑥.\end{aligned}
 
 
 $$
@@ -181,7 +181,7 @@ This resembles the basic integral for inverse tangent:
 $$
 
 
-\int \dfrac{1}{1+u^2} \, \textrm{d}u = \arctan u + C.
+\int \dfrac{1}{1+u^2} \, \text{d}u = \arctan u + C.
 
 
 $$
@@ -203,7 +203,7 @@ Differentiating, we get
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x}=\dfrac{1}{\sqrt{2}} \quad\Longrightarrow\quad \textrm{d}x = \sqrt{2}\,\textrm{d}u.
+\dfrac{\text{d}u}{\text{d}x}=\dfrac{1}{\sqrt{2}} \quad\Longrightarrow\quad \text{d}x = \sqrt{2}\,\text{d}u.
 
 
 $$
@@ -213,7 +213,7 @@ Finally, we write the integral in terms of $u,$ and evaluate:
 $$
 
 
-\begin{aligned}\begin{aligned}∫\frac{1}{𝑥^{2}−2𝑥+3}\,d𝑥 & =\frac{1}{2}∫\frac{1}{1+((𝑥−1)/\sqrt{√2})^{2}}\,d𝑥 \\ & =\frac{1}{2}∫\frac{1}{1+𝑢^{2}}⋅\sqrt{√2}\,d𝑢 \\ & =\frac{\sqrt{√2}}{2}∫\frac{1}{1+𝑢^{2}}\,d𝑢 \\ & =\frac{\sqrt{√2}}{2}arctan⁡𝑢+𝐶 \\ & =\frac{\sqrt{√2}}{2}arctan⁡(\frac{𝑥−1}{\sqrt{√2}})+𝐶\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}∫\frac{1}{𝑥^{2}−2𝑥+3}\,d𝑥 & =\frac{1}{2}∫\frac{1}{1+((𝑥−1)/\sqrt{2})^{2}}\,d𝑥 \\ & =\frac{1}{2}∫\frac{1}{1+𝑢^{2}}⋅\sqrt{2}\,d𝑢 \\ & =\frac{\sqrt{2}}{2}∫\frac{1}{1+𝑢^{2}}\,d𝑢 \\ & =\frac{\sqrt{2}}{2}arctan⁡𝑢+𝐶 \\ & =\frac{\sqrt{2}}{2}arctan⁡(\frac{𝑥−1}{\sqrt{2}})+𝐶\end{matrix}\end{aligned}
 
 
 $$
@@ -222,7 +222,7 @@ $$
 
 #### Question
 
-Calculate ${\displaystyle \int \dfrac{1}{\sqrt{4x - 4x^2}} \, \textrm{d}x}.$
+Calculate ${\displaystyle \int \dfrac{1}{\sqrt{4x - 4x^2}} \, \text{d}x}.$
 
 #### Explanation
 
@@ -241,7 +241,7 @@ Substituting the above in the given integral, we get
 $$
 
 
-\begin{aligned}∫\frac{1}{\sqrt{√4𝑥−4𝑥^{2}}}\,d𝑥 & =∫\frac{1}{\sqrt{√1−(2𝑥−1)^{2}}}\,d𝑥.\end{aligned}
+\begin{aligned}∫\frac{1}{\sqrt{4𝑥−4𝑥^{2}}}\,d𝑥 & =∫\frac{1}{\sqrt{1−(2𝑥−1)^{2}}}\,d𝑥.\end{aligned}
 
 
 $$
@@ -251,7 +251,7 @@ This resembles the basic integral for inverse sine:
 $$
 
 
-\int \frac{1}{\sqrt{1-u^2}}\,\textrm{d}u = \arcsin u+C
+\int \frac{1}{\sqrt{1-u^2}}\,\text{d}u = \arcsin u+C
 
 
 $$
@@ -273,7 +273,7 @@ Differentiating, we get
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x}=2 \quad\Longrightarrow\quad \textrm{d}x = \dfrac12\textrm{d}u.
+\dfrac{\text{d}u}{\text{d}x}=2 \quad\Longrightarrow\quad \text{d}x = \dfrac12\text{d}u.
 
 
 $$
@@ -283,7 +283,7 @@ Finally, we write the integral in terms of $u,$ and evaluate:
 $$
 
 
-\begin{aligned}∫\frac{1}{\sqrt{√4𝑥−4𝑥^{2}}}\,d𝑥 & =∫\frac{1}{\sqrt{√1−(2𝑥−1)^{2}}}\,d𝑥 \\ & =∫\frac{1}{\sqrt{√1−𝑢^{2}}}⋅\frac{1}{2}d𝑢 \\ & =\frac{1}{2}∫\frac{1}{\sqrt{√1−𝑢^{2}}}\,d𝑢 \\ & =\frac{1}{2}arcsin⁡𝑢+𝐶 \\ & =\frac{1}{2}arcsin⁡(2𝑥−1)+𝐶.\end{aligned}
+\begin{aligned}∫\frac{1}{\sqrt{4𝑥−4𝑥^{2}}}\,d𝑥 & =∫\frac{1}{\sqrt{1−(2𝑥−1)^{2}}}\,d𝑥 \\ & =∫\frac{1}{\sqrt{1−𝑢^{2}}}⋅\frac{1}{2}d𝑢 \\ & =\frac{1}{2}∫\frac{1}{\sqrt{1−𝑢^{2}}}\,d𝑢 \\ & =\frac{1}{2}arcsin⁡𝑢+𝐶 \\ & =\frac{1}{2}arcsin⁡(2𝑥−1)+𝐶.\end{aligned}
 
 
 $$
@@ -292,7 +292,7 @@ $$
 
 #### Question
 
-Evaluate the integral $\displaystyle{\int_{1+2/\sqrt{3}}^{3} \dfrac{1}{|x-1|\sqrt{x^2-2x}}\, \textrm{d}x}.$
+Evaluate the integral $\displaystyle{\int_{1+2/\sqrt{3}}^{3} \dfrac{1}{|x-1|\sqrt{x^2-2x}}\, \text{d}x}.$
 
 #### Explanation
 
@@ -311,7 +311,7 @@ Substituting the above in the given integral, we get
 $$
 
 
-\int_{1+2/\sqrt{3}}^{3} \dfrac{1}{|x-1|\sqrt{x^2-2x}}\, \textrm{d}x = \int_{1+2/\sqrt{3}}^{3} \dfrac{1}{|x-1|\sqrt{(x-1)^2-1}}\, \textrm{d}x.
+\int_{1+2/\sqrt{3}}^{3} \dfrac{1}{|x-1|\sqrt{x^2-2x}}\, \text{d}x = \int_{1+2/\sqrt{3}}^{3} \dfrac{1}{|x-1|\sqrt{(x-1)^2-1}}\, \text{d}x.
 
 
 $$
@@ -321,7 +321,7 @@ This resembles the basic integral for inverse secant:
 $$
 
 
-\int \frac{1}{|u|\sqrt{u^2-1}} \, \textrm{d}u = \textrm{arcsec} \, u +C
+\int \frac{1}{|u|\sqrt{u^2-1}} \, \text{d}u = \text{arcsec} \, u +C
 
 
 $$
@@ -343,7 +343,7 @@ Differentiating, we get
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x}=1 \quad\Longrightarrow\quad \textrm{d}x = \textrm{d}u.
+\dfrac{\text{d}u}{\text{d}x}=1 \quad\Longrightarrow\quad \text{d}x = \text{d}u.
 
 
 $$
@@ -355,7 +355,7 @@ Therefore,
 $$
 
 
-\begin{aligned} \int_{1+2/\sqrt{3}}^{3} \dfrac{1}{|x-1|\sqrt{x^2-2x}}\, \textrm{d}x &= \int_{1+2/\sqrt{3}}^{3}\dfrac{1}{|x-1|\sqrt{(x-1)^2-1}}\,\textrm{d}x \\\[5pt] &=\int_{2/\sqrt{3}}^{2} \dfrac{1}{|u|\sqrt{u^2-1}}\, \textrm{d}u\\\[5pt] &= \textrm{arcsec}\, {u}\Big|_{2/\sqrt{3}}^{2}\\\[5pt] &= \textrm{arcsec} \left(2\right) - \textrm{arcsec}\left(\dfrac{2}{\sqrt{3}} \right)\\\[5pt] &=\left(\dfrac{\pi}{3}-\dfrac{\pi}{6}\right)\\\[5pt] &=\dfrac{\pi}{6}. \end{aligned}
+\begin{aligned} \int_{1+2/\sqrt{3}}^{3} \dfrac{1}{|x-1|\sqrt{x^2-2x}}\, \text{d}x &= \int_{1+2/\sqrt{3}}^{3}\dfrac{1}{|x-1|\sqrt{(x-1)^2-1}}\,\text{d}x \\[5pt] &=\int_{2/\sqrt{3}}^{2} \dfrac{1}{|u|\sqrt{u^2-1}}\, \text{d}u\\[5pt] &= \text{arcsec}\, {u}\Big|_{2/\sqrt{3}}^{2}\\[5pt] &= \text{arcsec} \left(2\right) - \text{arcsec}\left(\dfrac{2}{\sqrt{3}} \right)\\[5pt] &=\left(\dfrac{\pi}{3}-\dfrac{\pi}{6}\right)\\[5pt] &=\dfrac{\pi}{6}. \end{aligned}
 
 
 $$

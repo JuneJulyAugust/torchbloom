@@ -37,7 +37,7 @@ This same process applies to all fraction word problems in this lesson: identify
 
 #### Question
 
-How many $\dfrac{5}{12}\,\textrm{m}$ long boards can be cut from a $\dfrac{5}{3}\,\textrm{m}$ plank of wood?
+How many $\dfrac{5}{12}\,\text{m}$ long boards can be cut from a $\dfrac{5}{3}\,\text{m}$ plank of wood?
 
 #### Explanation
 
@@ -111,7 +111,7 @@ Therefore, the plank can be cut into $4$ boards.
 
 #### Question
 
-A container holds $\dfrac{5}{18}\,\textrm{kg}$ of clay. Each small sculpture requires $\dfrac{2}{27}\,\textrm{kg}$ of clay. How many sculptures can be made with the clay in the container? Give your answer as an **** in its simplest form.
+A container holds $\dfrac{5}{18}\,\text{kg}$ of clay. Each small sculpture requires $\dfrac{2}{27}\,\text{kg}$ of clay. How many sculptures can be made with the clay in the container? Give your answer as an **** in its simplest form.
 
 #### Explanation
 
@@ -185,7 +185,7 @@ Therefore, $\dfrac{15}{4}$ sculptures can be made.
 
 #### Question
 
-How many $\dfrac34\,\textrm{kg}$ bags of flour can be filled using $\dfrac{7}{6}\,\textrm{kg}$ of flour? Give your answer as a **** in its simplest form.
+How many $\dfrac34\,\text{kg}$ bags of flour can be filled using $\dfrac{7}{6}\,\text{kg}$ of flour? Give your answer as a **** in its simplest form.
 
 #### Explanation
 
@@ -245,7 +245,7 @@ $$
 
 
 
-\dfrac{14}{9} = 1\,\textrm{R}5 = 1\,\dfrac59
+\dfrac{14}{9} = 1\,\text{R}5 = 1\,\dfrac59
 
 
 

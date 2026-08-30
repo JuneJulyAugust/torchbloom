@@ -23,19 +23,19 @@ Ciphers often work by
 
 The letters in the English alphabet are indexed as follows:
 
-One of the simplest ciphers, the **Caesar cipher**, involves replacing each letter in a message with a different one $k$ places down the alphabet. If the alphabet consists of $n$ letters, then the plain text index $i_\textrm{plain}$ is translated into the ciphertext index $i_\textrm{cipher}$ as follows:
+One of the simplest ciphers, the **Caesar cipher**, involves replacing each letter in a message with a different one $k$ places down the alphabet. If the alphabet consists of $n$ letters, then the plain text index $i_\text{plain}$ is translated into the ciphertext index $i_\text{cipher}$ as follows:
 
 $$
 
 
 
-i_\textrm{plain} + k \equiv i_\textrm{cipher} \: (\text{mod}\,n)
+i_\text{plain} + k \equiv i_\text{cipher} \: (\text{mod}\,n)
 
 
 
 $$
 
-For example, to encrypt the message $\textrm{HEY}$ using the Caesar cipher with the **key** $k=3$ over the English alphabet with $n=26$ letters, we do the following:
+For example, to encrypt the message $\text{HEY}$ using the Caesar cipher with the **key** $k=3$ over the English alphabet with $n=26$ letters, we do the following:
 
 - Find the index of each letter of the word in the alphabet: H E Y $\color{blue}7$ $\color{blue}4$ $\color{blue}24$
 
@@ -65,7 +65,7 @@ Therefore, the answer is $\text{QBRKC}.$
 
 ### Decrypting a Message Using the Caesar Cipher
 
-Earlier, we encrypted a message using the Caesar cipher with key $k=3$ over the English alphabet with $n=26$ letters. The resulting encrypted message was $\textrm{KHB}.$
+Earlier, we encrypted a message using the Caesar cipher with key $k=3$ over the English alphabet with $n=26$ letters. The resulting encrypted message was $\text{KHB}.$
 
 However, suppose we send this message to a friend. How can they **decipher** or **decrypt** this message to reveal the original message?
 
@@ -75,7 +75,7 @@ $$
 
 
 
-i_\textrm{cipher} - k \equiv i_\textrm{plain} \: (\text{mod}\,n)
+i_\text{cipher} - k \equiv i_\text{plain} \: (\text{mod}\,n)
 
 
 

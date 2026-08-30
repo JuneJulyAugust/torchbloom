@@ -99,9 +99,9 @@ The solutions of a linear system with two variables correspond to the points of 
 
 ![Instructional graphic](../../../../lesson-assets/algebra-i/topic-4638/c46ef86a2992a923.png)
 
-Notice that the equations in the system have the same slopes ($2$) but distinct $y$-intercepts ($6$ and $1$, respectively). So, the lines $\boxed{\color{blue}\textrm{are parallel}}$ and do not intersect.
+Notice that the equations in the system have the same slopes ($2$) but distinct $y$-intercepts ($6$ and $1$, respectively). So, the lines $\boxed{\color{blue}\text{are parallel}}$ and do not intersect.
 
-Therefore, the system has $\boxed{\color{blue}\textrm{no solutions}},$ meaning that it's $\boxed{\color{blue}\textrm{inconsistent}}.$
+Therefore, the system has $\boxed{\color{blue}\text{no solutions}},$ meaning that it's $\boxed{\color{blue}\text{inconsistent}}.$
 
 ### Example: Classifying Systems Using Consistency and Dependency Terminology
 

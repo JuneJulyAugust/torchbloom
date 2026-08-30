@@ -45,7 +45,7 @@ In our case, the diagonal has length $6 \sqrt 2,$ so we can solve for the side l
 $$
 
 
-\begin{aligned}\sqrt{√2}⋅𝑠 & =6\sqrt{√2} \\ 𝑠 & =6\end{aligned}
+\begin{aligned}\sqrt{2}⋅𝑠 & =6\sqrt{2} \\ 𝑠 & =6\end{aligned}
 
 
 $$
@@ -65,7 +65,7 @@ So, the area of the square shown above is given by
 $$
 
 
-\begin{aligned}𝐴 & =(\frac{𝑑}{\sqrt{√2}})^{2}=\frac{1}{2}𝑑^{2}.\end{aligned}
+\begin{aligned}𝐴 & =(\frac{𝑑}{\sqrt{2}})^{2}=\frac{1}{2}𝑑^{2}.\end{aligned}
 
 
 $$
@@ -125,7 +125,7 @@ We can solve for $d$ in terms of $A$ as follows:
 $$
 
 
-\begin{aligned}\frac{1}{2}𝑑^{2} & =𝐴 \\ 𝑑^{2} & =2𝐴 \\ 𝑑 & =\sqrt{√2𝐴}\end{aligned}
+\begin{aligned}\frac{1}{2}𝑑^{2} & =𝐴 \\ 𝑑^{2} & =2𝐴 \\ 𝑑 & =\sqrt{2𝐴}\end{aligned}
 
 
 $$
@@ -135,7 +135,7 @@ In our case, the area is $A=18,$ so the length of the diagonal is given by
 $$
 
 
-\begin{aligned}𝑑 & =\sqrt{√2⋅18} \\ & =\sqrt{√36} \\ & =6.\end{aligned}
+\begin{aligned}𝑑 & =\sqrt{2⋅18} \\ & =\sqrt{36} \\ & =6.\end{aligned}
 
 
 $$

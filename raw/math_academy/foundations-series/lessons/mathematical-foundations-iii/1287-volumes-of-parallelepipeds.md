@@ -45,7 +45,7 @@ First, we compute the triple product:
 $$
 
 
-\begin{aligned}𝐚⋅(𝐛×𝐜) & =\begin{aligned}1 & −4 & 2 \\ 0 & −2 & 1 \\ −1 & 0 & 3\end{aligned} \\ & =1⋅\begin{aligned}−2 & 1 \\ 0 & 3\end{aligned}−(−4)⋅\begin{aligned}0 & 1 \\ −1 & 3\end{aligned}+2⋅\begin{aligned}0 & −2 \\ −1 & 0\end{aligned} \\ & =(−2⋅3−1⋅0)+4(0⋅3−1⋅(−1))+2(0⋅0−(−1)⋅(−2)) \\ & =−6+4−4 \\ & =−6\end{aligned}
+\begin{aligned}𝐚⋅(𝐛×𝐜) & =\begin{matrix}1 & −4 & 2 \\ 0 & −2 & 1 \\ −1 & 0 & 3\end{matrix} \\ & =1⋅\begin{matrix}−2 & 1 \\ 0 & 3\end{matrix}−(−4)⋅\begin{matrix}0 & 1 \\ −1 & 3\end{matrix}+2⋅\begin{matrix}0 & −2 \\ −1 & 0\end{matrix} \\ & =(−2⋅3−1⋅0)+4(0⋅3−1⋅(−1))+2(0⋅0−(−1)⋅(−2)) \\ & =−6+4−4 \\ & =−6\end{aligned}
 
 
 $$
@@ -85,7 +85,7 @@ Computing the triple product, we get
 $$
 
 
-\begin{aligned}𝐚⋅(𝐛×𝐜) & =\begin{aligned}𝑘 & 2 & 1 \\ −2 & −1 & 1 \\ −1 & 1 & 2\end{aligned} \\ & =𝑘⋅\begin{aligned}−1 & 1 \\ 1 & 2\end{aligned}−2⋅\begin{aligned}−2 & 1 \\ −1 & 2\end{aligned}+1⋅\begin{aligned}−2 & −1 \\ −1 & 1\end{aligned} \\ & =𝑘(−1⋅2−1⋅1)−2(−2⋅2−(−1)⋅1)+(−2⋅1−(−1)⋅(−1)) \\ & =−3𝑘+6−3 \\ & =−3𝑘+3.\end{aligned}
+\begin{aligned}𝐚⋅(𝐛×𝐜) & =\begin{matrix}𝑘 & 2 & 1 \\ −2 & −1 & 1 \\ −1 & 1 & 2\end{matrix} \\ & =𝑘⋅\begin{matrix}−1 & 1 \\ 1 & 2\end{matrix}−2⋅\begin{matrix}−2 & 1 \\ −1 & 2\end{matrix}+1⋅\begin{matrix}−2 & −1 \\ −1 & 1\end{matrix} \\ & =𝑘(−1⋅2−1⋅1)−2(−2⋅2−(−1)⋅1)+(−2⋅1−(−1)⋅(−1)) \\ & =−3𝑘+6−3 \\ & =−3𝑘+3.\end{aligned}
 
 
 $$
@@ -137,7 +137,7 @@ Computing the triple product, we have
 $$
 
 
-\begin{aligned}\overset{𝐴𝐵}{}⋅(\overset{𝐴𝐶}{}×\overset{𝐴𝐷}{}) & =\begin{aligned}−1 & 2 & −1 \\ −4 & 3 & −1 \\ 1 & 5 & 0\end{aligned} \\ & =(−1)⋅\begin{aligned}3 & −1 \\ 5 & 0\end{aligned}−2⋅\begin{aligned}−4 & −1 \\ 1 & 0\end{aligned}+(−1)⋅\begin{aligned}−4 & 3 \\ 1 & 5\end{aligned} \\ & =−(3⋅0−5⋅(−1))−2((−4)⋅0−1⋅(−1))−((−4)⋅5−1⋅3) \\ & =−5−2+23 \\ & =16.\end{aligned}
+\begin{aligned}\overset{𝐴𝐵}{}⋅(\overset{𝐴𝐶}{}×\overset{𝐴𝐷}{}) & =\begin{matrix}−1 & 2 & −1 \\ −4 & 3 & −1 \\ 1 & 5 & 0\end{matrix} \\ & =(−1)⋅\begin{matrix}3 & −1 \\ 5 & 0\end{matrix}−2⋅\begin{matrix}−4 & −1 \\ 1 & 0\end{matrix}+(−1)⋅\begin{matrix}−4 & 3 \\ 1 & 5\end{matrix} \\ & =−(3⋅0−5⋅(−1))−2((−4)⋅0−1⋅(−1))−((−4)⋅5−1⋅3) \\ & =−5−2+23 \\ & =16.\end{aligned}
 
 
 $$

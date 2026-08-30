@@ -59,7 +59,7 @@ Next, we solve the equation using the square root method:
 $$
 
 
-\begin{aligned}(𝑥−1)^{2} & =\frac{1}{4} \\ \sqrt{√(𝑥−1)^{2}} & =\sqrt{√\frac{1}{4}} \\ |𝑥−1| & =\frac{1}{2} \\ 𝑥−1 & =±\frac{1}{2} \\ 𝑥 & =1±\frac{1}{2}\end{aligned}
+\begin{aligned}(𝑥−1)^{2} & =\frac{1}{4} \\ \sqrt{(𝑥−1)^{2}} & =\sqrt{\frac{1}{4}} \\ |𝑥−1| & =\frac{1}{2} \\ 𝑥−1 & =±\frac{1}{2} \\ 𝑥 & =1±\frac{1}{2}\end{aligned}
 
 
 $$
@@ -121,7 +121,7 @@ We now solve the equation using the square root method:
 $$
 
 
-\begin{aligned}(𝑥+1)^{2} & =\frac{1}{2} \\ \sqrt{√(𝑥+1)^{2}} & =\sqrt{√\frac{1}{2}} \\ |𝑥+1| & =\frac{1}{\sqrt{√2}} \\ 𝑥+1 & =±\frac{1}{\sqrt{√2}} \\ 𝑥 & =−1±\frac{1}{\sqrt{√2}}\end{aligned}
+\begin{aligned}(𝑥+1)^{2} & =\frac{1}{2} \\ \sqrt{(𝑥+1)^{2}} & =\sqrt{\frac{1}{2}} \\ |𝑥+1| & =\frac{1}{\sqrt{2}} \\ 𝑥+1 & =±\frac{1}{\sqrt{2}} \\ 𝑥 & =−1±\frac{1}{\sqrt{2}}\end{aligned}
 
 
 $$
@@ -159,7 +159,7 @@ So, $p=-\dfrac32$ and $q=\dfrac{11}{4}.$ Now, we solve the equation using the sq
 $$
 
 
-\begin{aligned}\sqrt{√(𝑥−\frac{3}{2})^{2}} & =\sqrt{√\frac{11}{4}} \\ 𝑥−\frac{3}{2} & =\frac{\sqrt{√11}}{2} \\ 𝑥−\frac{3}{2} & =±\frac{\sqrt{√11}}{2} \\ 𝑥 & =\frac{3}{2}±\frac{\sqrt{√11}}{2} \\ 𝑥 & =\frac{3±\sqrt{√11}}{2}\end{aligned}
+\begin{aligned}\sqrt{(𝑥−\frac{3}{2})^{2}} & =\sqrt{\frac{11}{4}} \\ 𝑥−\frac{3}{2} & =\frac{\sqrt{11}}{2} \\ 𝑥−\frac{3}{2} & =±\frac{\sqrt{11}}{2} \\ 𝑥 & =\frac{3}{2}±\frac{\sqrt{11}}{2} \\ 𝑥 & =\frac{3±\sqrt{11}}{2}\end{aligned}
 
 
 $$
@@ -207,7 +207,7 @@ Therefore, $p=-\dfrac12$ and $q=\dfrac32.$ We now solve the equation using the s
 $$
 
 
-\begin{aligned}2(𝑥−\frac{1}{2})^{2} & =\frac{3}{2} \\ (𝑥−\frac{1}{2})^{2} & =\frac{3}{4} \\ \sqrt{√(𝑥−\frac{1}{2})^{2}} & =\sqrt{√\frac{3}{4}} \\ 𝑥−\frac{1}{2} & =\frac{\sqrt{√3}}{2} \\ 𝑥−\frac{1}{2} & =±\frac{\sqrt{√3}}{2} \\ 𝑥 & =\frac{1}{2}±\frac{\sqrt{√3}}{2}\end{aligned}
+\begin{aligned}2(𝑥−\frac{1}{2})^{2} & =\frac{3}{2} \\ (𝑥−\frac{1}{2})^{2} & =\frac{3}{4} \\ \sqrt{(𝑥−\frac{1}{2})^{2}} & =\sqrt{\frac{3}{4}} \\ 𝑥−\frac{1}{2} & =\frac{\sqrt{3}}{2} \\ 𝑥−\frac{1}{2} & =±\frac{\sqrt{3}}{2} \\ 𝑥 & =\frac{1}{2}±\frac{\sqrt{3}}{2}\end{aligned}
 
 
 $$
@@ -281,7 +281,7 @@ which can be simplified as follows:
 $$
 
 
-\begin{aligned}𝑥+\frac{𝑏}{2𝑎} & =±\frac{\sqrt{√𝑏^{2}−4𝑎𝑐}}{2𝑎}\end{aligned}
+\begin{aligned}𝑥+\frac{𝑏}{2𝑎} & =±\frac{\sqrt{𝑏^{2}−4𝑎𝑐}}{2𝑎}\end{aligned}
 
 
 $$
@@ -291,7 +291,7 @@ Finally, we isolate $x{:}$
 $$
 
 
-\begin{aligned}𝑥 & =−\frac{𝑏}{2𝑎}±\frac{\sqrt{√𝑏^{2}−4𝑎𝑐}}{2𝑎}\end{aligned}
+\begin{aligned}𝑥 & =−\frac{𝑏}{2𝑎}±\frac{\sqrt{𝑏^{2}−4𝑎𝑐}}{2𝑎}\end{aligned}
 
 
 $$

@@ -159,7 +159,7 @@ First, we find the eigenvalues of the matrix $A$ by solving $\det(A-\lambda I)=0
 $$
 
 
-\begin{aligned}\begin{aligned}4−𝜆 & 3 & 0 \\ 0 & 1−𝜆 & 0 \\ 0 & 3 & 4−𝜆\end{aligned} & =0 \\ (1−𝜆)\begin{aligned}4−𝜆 & 0 \\ 0 & 4−𝜆\end{aligned} & =0 \\ (1−𝜆)((4−𝜆)(4−𝜆)−0) & =0 \\ (𝜆−1)(𝜆−4)^{2} & =0\end{aligned}
+\begin{aligned}\begin{matrix}4−𝜆 & 3 & 0 \\ 0 & 1−𝜆 & 0 \\ 0 & 3 & 4−𝜆\end{matrix} & =0 \\ (1−𝜆)\begin{matrix}4−𝜆 & 0 \\ 0 & 4−𝜆\end{matrix} & =0 \\ (1−𝜆)((4−𝜆)(4−𝜆)−0) & =0 \\ (𝜆−1)(𝜆−4)^{2} & =0\end{aligned}
 
 
 $$
@@ -225,7 +225,7 @@ We solve the characteristic equation $\vert A - \lambda I \vert = 0.$ For the gi
 $$
 
 
-{\color{red}{\lambda_1}} = {\color{red}{\lambda_2}} = {\color{red}2}\qquad \textrm{and} \qquad{\color{blue}\lambda_3 =1}.
+{\color{red}{\lambda_1}} = {\color{red}{\lambda_2}} = {\color{red}2}\qquad \text{and} \qquad{\color{blue}\lambda_3 =1}.
 
 
 $$
@@ -275,7 +275,7 @@ Finally, we obtain
 $$
 
 
-\begin{aligned}𝐴=𝑃𝐷𝑃^{−1} & =\begin{aligned}2 & −1 & 3 \\ 0 & 1 & 0 \\ 1 & 0 & 1\end{aligned}\begin{aligned}2 & 0 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & 1\end{aligned}\begin{aligned}2 & −1 & 3 \\ 0 & 1 & 0 \\ 1 & 0 & 1\end{aligned}^{−1}.\end{aligned}
+\begin{aligned}𝐴=𝑃𝐷𝑃^{−1} & =\begin{matrix}2 & −1 & 3 \\ 0 & 1 & 0 \\ 1 & 0 & 1\end{matrix}\begin{matrix}2 & 0 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & 1\end{matrix}\begin{matrix}2 & −1 & 3 \\ 0 & 1 & 0 \\ 1 & 0 & 1\end{matrix}^{−1}.\end{aligned}
 
 
 $$
@@ -315,7 +315,7 @@ The second column of $P$ corresponds to $\lambda=-2.$ Computing $A-\lambda I,$ w
 $$
 
 
-\begin{aligned}𝐴−(−2)𝐼 & =\begin{aligned}−1 & 1 & −2 \\ −2 & −4 & 4 \\ 3 & 3 & −8\end{aligned}−(−2)\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{aligned} \\ & =\begin{aligned}1 & 1 & −2 \\ −2 & −2 & 4 \\ 3 & 3 & −6\end{aligned}.\end{aligned}
+\begin{aligned}𝐴−(−2)𝐼 & =\begin{matrix}−1 & 1 & −2 \\ −2 & −4 & 4 \\ 3 & 3 & −8\end{matrix}−(−2)\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{matrix} \\ & =\begin{matrix}1 & 1 & −2 \\ −2 & −2 & 4 \\ 3 & 3 & −6\end{matrix}.\end{aligned}
 
 
 $$
@@ -325,7 +325,7 @@ So, we have a system of linear equations with the augmented matrix $M$ which we 
 $$
 
 
-\begin{aligned}𝑀 & =\begin{aligned}1 & 1 & −2 & 0 \\ −2 & −2 & 4 & 0 \\ 3 & 3 & −6 & 0\end{aligned} & & \begin{aligned}𝑅_{2}:=𝑅_{2}+2𝑅_{1} \\ 𝑅_{3}:=𝑅_{3}+(−3)𝑅_{1}\end{aligned} \\ & ∼\begin{aligned}1 & 1 & −2 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0\end{aligned} & & \end{aligned}
+\begin{aligned}𝑀 & =\begin{matrix}1 & 1 & −2 & 0 \\ −2 & −2 & 4 & 0 \\ 3 & 3 & −6 & 0\end{matrix} & & \begin{matrix}𝑅_{2}:=𝑅_{2}+2𝑅_{1} \\ 𝑅_{3}:=𝑅_{3}+(−3)𝑅_{1}\end{matrix} \\ & ∼\begin{matrix}1 & 1 & −2 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0\end{matrix} & & \end{aligned}
 
 
 $$

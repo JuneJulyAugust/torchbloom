@@ -38,7 +38,7 @@ Therefore, the integral of the reciprocal function is
 $$
 
 
-\int \dfrac 1 x \,\textrm{d}x = \ln |x| + C.
+\int \dfrac 1 x \,\text{d}x = \ln |x| + C.
 
 
 $$
@@ -47,7 +47,7 @@ $$
 
 #### Question
 
-Calculate $\displaystyle\int \left(\dfrac 2 x\right)\, \textrm{d} x.$
+Calculate $\displaystyle\int \left(\dfrac 2 x\right)\, \text{d} x.$
 
 #### Explanation
 

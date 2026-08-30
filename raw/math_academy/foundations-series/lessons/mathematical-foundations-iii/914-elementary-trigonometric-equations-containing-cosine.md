@@ -62,7 +62,7 @@ First, we rearrange the equation, isolating $\cos x\mathbin{:}$
 $$
 
 
-\begin{aligned}2cos⁡𝑥+\sqrt{√2} & =0 \\ 2cos⁡𝑥 & =−\sqrt{√2} \\ cos⁡𝑥 & =−\frac{\sqrt{√2}}{2}\end{aligned}
+\begin{aligned}2cos⁡𝑥+\sqrt{2} & =0 \\ 2cos⁡𝑥 & =−\sqrt{2} \\ cos⁡𝑥 & =−\frac{\sqrt{2}}{2}\end{aligned}
 
 
 $$
@@ -72,7 +72,7 @@ Now, we find the principal value:
 $$
 
 
-\begin{aligned}𝑥=arccos⁡(−\frac{\sqrt{√2}}{2})=\frac{3𝜋}{4}\end{aligned}
+\begin{aligned}𝑥=arccos⁡(−\frac{\sqrt{2}}{2})=\frac{3𝜋}{4}\end{aligned}
 
 
 $$
@@ -196,7 +196,7 @@ First, we rearrange the equation, isolating $\cos{x} \mathbin{:}$
 $$
 
 
-\begin{aligned}2cos⁡𝑥+\sqrt{√2} & =0 \\ 2cos⁡𝑥 & =−\sqrt{√2} \\ cos⁡𝑥 & =−\frac{\sqrt{√2}}{2}\end{aligned}
+\begin{aligned}2cos⁡𝑥+\sqrt{2} & =0 \\ 2cos⁡𝑥 & =−\sqrt{2} \\ cos⁡𝑥 & =−\frac{\sqrt{2}}{2}\end{aligned}
 
 
 $$
@@ -206,7 +206,7 @@ Now, we find the principal value:
 $$
 
 
-\begin{aligned}𝑥=arccos⁡(−\frac{\sqrt{√2}}{2})=135^{∘}\end{aligned}
+\begin{aligned}𝑥=arccos⁡(−\frac{\sqrt{2}}{2})=135^{∘}\end{aligned}
 
 
 $$

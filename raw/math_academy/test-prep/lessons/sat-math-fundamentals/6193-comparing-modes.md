@@ -31,7 +31,7 @@ So, we have
 $$
 
 
-\textrm{Mode}(A) = 3, \quad \textrm{Mode}(B) = 5.
+\text{Mode}(A) = 3, \quad \text{Mode}(B) = 5.
 
 
 $$

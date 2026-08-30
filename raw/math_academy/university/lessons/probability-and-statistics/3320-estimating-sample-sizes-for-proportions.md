@@ -23,7 +23,7 @@ Given a value $\alpha$ between $0$ and $1,$ we know that the corresponding $[100
 $$
 
 
-\widehat{\,p} \pm \overbrace{z_{\alpha/2} \cdot \sqrt{\dfrac{\widehat{\,p}(1-\widehat{\,p})}{n}}}^{\large \textrm{margin of error}},
+\widehat{\,p} \pm \overbrace{z_{\alpha/2} \cdot \sqrt{\dfrac{\widehat{\,p}(1-\widehat{\,p})}{n}}}^{\large \text{margin of error}},
 
 
 $$
@@ -123,7 +123,7 @@ Given a value $\alpha$ between $0$ and $1,$ the corresponding $[100(1-\alpha)]\%
 $$
 
 
-\widehat{\,p} \pm \overbrace{z_{\alpha/2} \cdot \sqrt{\dfrac{\widehat{\,p}(1-\widehat{\,p})}{n}}}^{\large \textrm{margin of error}},
+\widehat{\,p} \pm \overbrace{z_{\alpha/2} \cdot \sqrt{\dfrac{\widehat{\,p}(1-\widehat{\,p})}{n}}}^{\large \text{margin of error}},
 
 
 $$
@@ -183,7 +183,7 @@ into the inequality for $n,$ we obtain
 $$
 
 
-\begin{aligned}𝑛 & ≥\frac{𝑧_{2𝛼/2}^{}\,\overset{\,𝑝}{ˆ}(1−\overset{\,𝑝}{ˆ})}{𝜀^{2}} \\ & =\frac{(1.96)^{2}\,0.84(1−0.84)}{(0.06)^{2}} \\ & =143.42\end{aligned}
+\begin{aligned}𝑛 & ≥\frac{𝑧_{2𝛼/2}\,\overset{\,𝑝}{ˆ}(1−\overset{\,𝑝}{ˆ})}{𝜀^{2}} \\ & =\frac{(1.96)^{2}\,0.84(1−0.84)}{(0.06)^{2}} \\ & =143.42\end{aligned}
 
 
 $$
@@ -245,7 +245,7 @@ into our inequality for $n,$ we finally arrive at
 $$
 
 
-\begin{aligned}𝑛 & ≥\frac{𝑧_{2𝛼/2}^{}\,\overset{\,𝑝}{ˆ}(1−\overset{\,𝑝}{ˆ})}{𝜀^{2}} \\ & =\frac{(1.96)^{2}}{(0.03)^{2}}⋅\frac{1}{4} \\ & ≈1067.11.\end{aligned}
+\begin{aligned}𝑛 & ≥\frac{𝑧_{2𝛼/2}\,\overset{\,𝑝}{ˆ}(1−\overset{\,𝑝}{ˆ})}{𝜀^{2}} \\ & =\frac{(1.96)^{2}}{(0.03)^{2}}⋅\frac{1}{4} \\ & ≈1067.11.\end{aligned}
 
 
 $$
@@ -269,7 +269,7 @@ Given a value $\alpha$ between $0$ and $1,$ the corresponding $[100(1-\alpha)]\%
 $$
 
 
-\widehat{\,p} \pm \overbrace{z_{\alpha/2} \cdot \sqrt{\dfrac{\widehat{\,p}(1-\widehat{\,p})}{n}}}^{\large \textrm{margin of error}},
+\widehat{\,p} \pm \overbrace{z_{\alpha/2} \cdot \sqrt{\dfrac{\widehat{\,p}(1-\widehat{\,p})}{n}}}^{\large \text{margin of error}},
 
 
 $$
@@ -363,7 +363,7 @@ into the inequality for $n,$ we obtain
 $$
 
 
-\begin{aligned}𝑛 & ≥\frac{𝑧_{2𝛼/2}^{}}{4𝐸^{2}} \\ & =\frac{(2.576)^{2}}{4(0.08)^{2}} \\ & ≈259.21.\end{aligned}
+\begin{aligned}𝑛 & ≥\frac{𝑧_{2𝛼/2}}{4𝐸^{2}} \\ & =\frac{(2.576)^{2}}{4(0.08)^{2}} \\ & ≈259.21.\end{aligned}
 
 
 $$
@@ -385,7 +385,7 @@ Given a value $\alpha$ between $0$ and $1,$ the corresponding $[100(1-\alpha)]\%
 $$
 
 
-\widehat{\,p} \pm \overbrace{z_{\alpha/2} \cdot \sqrt{\dfrac{\widehat{\,p}(1-\widehat{\,p})}{n}}}^{\large \textrm{margin of error}},
+\widehat{\,p} \pm \overbrace{z_{\alpha/2} \cdot \sqrt{\dfrac{\widehat{\,p}(1-\widehat{\,p})}{n}}}^{\large \text{margin of error}},
 
 
 $$
@@ -451,12 +451,12 @@ into the inequality for $n,$ we obtain
 $$
 
 
-\begin{aligned}𝑛 & ≥\frac{𝑧_{2𝛼/2}^{}\,\overset{\,𝑝}{ˆ}(1−\overset{\,𝑝}{ˆ})}{𝜀^{2}} \\ & =\frac{(2.326)^{2}\,0.24}{(0.04)^{2}} \\ & =811.54.\end{aligned}
+\begin{aligned}𝑛 & ≥\frac{𝑧_{2𝛼/2}\,\overset{\,𝑝}{ˆ}(1−\overset{\,𝑝}{ˆ})}{𝜀^{2}} \\ & =\frac{(2.326)^{2}\,0.24}{(0.04)^{2}} \\ & =811.54.\end{aligned}
 
 
 $$
 
-Rounding up to the nearest integer, we get that $n=812$ or larger. Therefore, $n_{\textrm{min}} = 812.$
+Rounding up to the nearest integer, we get that $n=812$ or larger. Therefore, $n_{\text{min}} = 812.$
 
 ### Factors Affecting Sample Size
 
@@ -475,7 +475,7 @@ First, recall that, given a value $\alpha$ between $0$ and $1,$ the correspondin
 $$
 
 
-\widehat{\,p} \pm \overbrace{z_{\alpha/2} \cdot \sqrt{\dfrac{\widehat{\,p}(1-\widehat{\,p})}{n}}}^{\large \textrm{margin of error}},
+\widehat{\,p} \pm \overbrace{z_{\alpha/2} \cdot \sqrt{\dfrac{\widehat{\,p}(1-\widehat{\,p})}{n}}}^{\large \text{margin of error}},
 
 
 $$
@@ -515,7 +515,7 @@ So, we have
 $$
 
 
-\begin{aligned}𝑛_{1} & =\frac{𝑧_{2𝛼/2}^{}\,\overset{\,𝑝}{ˆ}(1−\overset{\,𝑝}{ˆ})}{𝜀_{21}^{}}, \\ 𝑛_{2} & =\frac{𝑧_{2𝛼/2}^{}\,\overset{\,𝑝}{ˆ}(1−\overset{\,𝑝}{ˆ})}{𝜀_{22}^{}}, \\ \frac{𝑛_{1}}{𝑛_{2}} & =\frac{𝜀_{22}^{}}{𝜀_{21}^{}} \\ & =(\frac{𝜀_{2}}{𝜀_{1}})^{2} \\ & =(\frac{1}{2})^{2} \\ & =\frac{1}{4}.\end{aligned}
+\begin{aligned}𝑛_{1} & =\frac{𝑧_{2𝛼/2}\,\overset{\,𝑝}{ˆ}(1−\overset{\,𝑝}{ˆ})}{𝜀_{21}}, \\ 𝑛_{2} & =\frac{𝑧_{2𝛼/2}\,\overset{\,𝑝}{ˆ}(1−\overset{\,𝑝}{ˆ})}{𝜀_{22}}, \\ \frac{𝑛_{1}}{𝑛_{2}} & =\frac{𝜀_{22}}{𝜀_{21}} \\ & =(\frac{𝜀_{2}}{𝜀_{1}})^{2} \\ & =(\frac{1}{2})^{2} \\ & =\frac{1}{4}.\end{aligned}
 
 
 $$
@@ -549,7 +549,7 @@ Given a value $\alpha$ between $0$ and $1,$ the corresponding $[100(1-\alpha)]\%
 $$
 
 
-\widehat{\,p} \pm \overbrace{z_{\alpha/2} \cdot \sqrt{\dfrac{\widehat{\,p}(1-\widehat{\,p})}{n}}}^{\large \textrm{margin of error}},
+\widehat{\,p} \pm \overbrace{z_{\alpha/2} \cdot \sqrt{\dfrac{\widehat{\,p}(1-\widehat{\,p})}{n}}}^{\large \text{margin of error}},
 
 
 $$
@@ -581,7 +581,7 @@ So, we have
 $$
 
 
-\begin{aligned}𝑛_{1} & =\frac{𝑧_{20.05}^{}\,\overset{\,𝑝}{ˆ}(1−\overset{\,𝑝}{ˆ})}{𝜀_{21}^{}}, \\ 𝑛_{2} & =\frac{𝑧_{20.005}^{}\,\overset{\,𝑝}{ˆ}(1−\overset{\,𝑝}{ˆ})}{𝜀_{22}^{}}, \\ \frac{𝑛_{2}}{𝑛_{1}} & =\frac{𝑧_{20.005}^{}}{𝑧_{20.05}^{}}\end{aligned}
+\begin{aligned}𝑛_{1} & =\frac{𝑧_{20.05}\,\overset{\,𝑝}{ˆ}(1−\overset{\,𝑝}{ˆ})}{𝜀_{21}}, \\ 𝑛_{2} & =\frac{𝑧_{20.005}\,\overset{\,𝑝}{ˆ}(1−\overset{\,𝑝}{ˆ})}{𝜀_{22}}, \\ \frac{𝑛_{2}}{𝑛_{1}} & =\frac{𝑧_{20.005}}{𝑧_{20.05}}\end{aligned}
 
 
 $$

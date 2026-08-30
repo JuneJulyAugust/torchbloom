@@ -60,7 +60,7 @@ Therefore, we can find the total surface area using the formula
 $$
 
 
-S = 2\pi \int_{x_1}^{x_2} y \sqrt{1+ \left( \dfrac{\text{d}y}{\text{d}x} \right)^2} \: \textrm{d}x.
+S = 2\pi \int_{x_1}^{x_2} y \sqrt{1+ \left( \dfrac{\text{d}y}{\text{d}x} \right)^2} \: \text{d}x.
 
 
 $$
@@ -98,7 +98,7 @@ Therefore, we will use
 $$
 
 
-S = 2\pi \int_{x_1}^{x_2} y \sqrt{1+ \left( \dfrac{\text{d}y}{\text{d}x} \right)^2} \: \textrm{d}x.
+S = 2\pi \int_{x_1}^{x_2} y \sqrt{1+ \left( \dfrac{\text{d}y}{\text{d}x} \right)^2} \: \text{d}x.
 
 
 $$
@@ -120,7 +120,7 @@ Therefore,
 $$
 
 
-\begin{aligned}𝑆 & =2𝜋∫_{𝑥_{2}𝑥_{1}}^{}𝑦\sqrt{√1+(\frac{d𝑦}{d𝑥})^{2}}\,d𝑥 \\ & =2𝜋∫_{20}^{}𝑒^{𝑥}\sqrt{√1+(𝑒^{𝑥})^{2}}\,d𝑥 \\ & =2𝜋∫_{20}^{}𝑒^{𝑥}\sqrt{√1+𝑒^{2𝑥}}\,d𝑥.\end{aligned}
+\begin{aligned}𝑆 & =2𝜋∫_{𝑥_{2}𝑥_{1}}^{}𝑦\sqrt{1+(\frac{d𝑦}{d𝑥})^{2}}\,d𝑥 \\ & =2𝜋∫_{20}𝑒^{𝑥}\sqrt{1+(𝑒^{𝑥})^{2}}\,d𝑥 \\ & =2𝜋∫_{20}𝑒^{𝑥}\sqrt{1+𝑒^{2𝑥}}\,d𝑥.\end{aligned}
 
 
 $$
@@ -154,7 +154,7 @@ Therefore, the area of the surface that is obtained when the $x=f(y)$ curve is r
 $$
 
 
-S = 2\pi \int_{y_1}^{y_2} y \sqrt{1+ \left( \dfrac{\text{d}x}{\text{d}y} \right)^2} \: \textrm{d}y.
+S = 2\pi \int_{y_1}^{y_2} y \sqrt{1+ \left( \dfrac{\text{d}x}{\text{d}y} \right)^2} \: \text{d}y.
 
 
 $$
@@ -194,7 +194,7 @@ Therefore, we will use
 $$
 
 
-S = 2\pi \int_{y_1}^{y_2} y \sqrt{1+ \left( \dfrac{\text{d}x}{\text{d}y} \right)^2} \: \textrm{d}y.
+S = 2\pi \int_{y_1}^{y_2} y \sqrt{1+ \left( \dfrac{\text{d}x}{\text{d}y} \right)^2} \: \text{d}y.
 
 
 $$
@@ -226,7 +226,7 @@ Finally, we obtain
 $$
 
 
-\begin{aligned}𝑆 & =2𝜋∫_{𝑦_{2}𝑦_{1}}^{}𝑦\sqrt{√1+(\frac{d𝑥}{d𝑦})^{2}}\,d𝑦 \\ & =2𝜋∫_{10}^{}𝑦\sqrt{√1+(3𝑦^{2}−1)^{2}}\,d𝑦 \\ & =2𝜋∫_{10}^{}𝑦\sqrt{√2−6𝑦^{2}+9𝑦^{4}}\,d𝑦.\end{aligned}
+\begin{aligned}𝑆 & =2𝜋∫_{𝑦_{2}𝑦_{1}}^{}𝑦\sqrt{1+(\frac{d𝑥}{d𝑦})^{2}}\,d𝑦 \\ & =2𝜋∫_{10}𝑦\sqrt{1+(3𝑦^{2}−1)^{2}}\,d𝑦 \\ & =2𝜋∫_{10}𝑦\sqrt{2−6𝑦^{2}+9𝑦^{4}}\,d𝑦.\end{aligned}
 
 
 $$
@@ -264,7 +264,7 @@ Therefore, we will use
 $$
 
 
-S = 2\pi \int_{x_1}^{x_2} y \sqrt{1+ \left( \dfrac{\text{d}y}{\text{d}x} \right)^2} \: \textrm{d}x.
+S = 2\pi \int_{x_1}^{x_2} y \sqrt{1+ \left( \dfrac{\text{d}y}{\text{d}x} \right)^2} \: \text{d}x.
 
 
 $$
@@ -276,7 +276,7 @@ Computing the derivative, we get
 $$
 
 
-\begin{aligned}\frac{d𝑦}{d𝑥} & =\frac{d}{d𝑥}(\sqrt{√𝑥−2})=\frac{1}{2\sqrt{√𝑥−2}}\,⇒\,(\frac{d𝑦}{d𝑥})^{2}=\frac{1}{4(𝑥−2)}.\end{aligned}
+\begin{aligned}\frac{d𝑦}{d𝑥} & =\frac{d}{d𝑥}(\sqrt{𝑥−2})=\frac{1}{2\sqrt{𝑥−2}}\,⇒\,(\frac{d𝑦}{d𝑥})^{2}=\frac{1}{4(𝑥−2)}.\end{aligned}
 
 
 $$
@@ -286,7 +286,7 @@ Therefore,
 $$
 
 
-\begin{aligned}𝑆 & =2𝜋∫_{𝑥_{2}𝑥_{1}}^{}𝑦\sqrt{√1+(\frac{d𝑦}{d𝑥})^{2}}\,d𝑥 \\ & =2𝜋∫_{42}^{}\sqrt{√𝑥−2}\sqrt{√1+\frac{1}{4(𝑥−2)}}\,d𝑥 \\ & =2𝜋∫_{42}^{}\sqrt{√𝑥−2}\sqrt{√\frac{4𝑥−7}{4(𝑥−2)}}\,d𝑥 \\ & =2𝜋∫_{42}^{}\sqrt{√𝑥−2}(\frac{\sqrt{√4𝑥−7}}{2\sqrt{√𝑥−2}})\,d𝑥 \\ & =𝜋∫_{42}^{}\sqrt{√4𝑥−7}\,d𝑥.\end{aligned}
+\begin{aligned}𝑆 & =2𝜋∫_{𝑥_{2}𝑥_{1}}^{}𝑦\sqrt{1+(\frac{d𝑦}{d𝑥})^{2}}\,d𝑥 \\ & =2𝜋∫_{42}\sqrt{𝑥−2}\sqrt{1+\frac{1}{4(𝑥−2)}}\,d𝑥 \\ & =2𝜋∫_{42}\sqrt{𝑥−2}\sqrt{\frac{4𝑥−7}{4(𝑥−2)}}\,d𝑥 \\ & =2𝜋∫_{42}\sqrt{𝑥−2}(\frac{\sqrt{4𝑥−7}}{2\sqrt{𝑥−2}})\,d𝑥 \\ & =𝜋∫_{42}\sqrt{4𝑥−7}\,d𝑥.\end{aligned}
 
 
 $$
@@ -306,7 +306,7 @@ we get
 $$
 
 
-\begin{aligned}𝑆 & =𝜋∫_{42}^{}\sqrt{√4𝑥−7}\,d𝑥 \\ & =\frac{𝜋}{4}∫_{91}^{}\sqrt{√𝑢}\,d𝑢 \\ & =\frac{𝜋}{4}⋅\frac{2}{3}\sqrt{√𝑢^{3}}\,_{91}^{} \\ & =\frac{𝜋}{6}(27−1) \\ & =\frac{13𝜋}{3}.\end{aligned}
+\begin{aligned}𝑆 & =𝜋∫_{42}\sqrt{4𝑥−7}\,d𝑥 \\ & =\frac{𝜋}{4}∫_{91}\sqrt{𝑢}\,d𝑢 \\ & =\frac{𝜋}{4}⋅\frac{2}{3}\sqrt{𝑢^{3}}\,_{91} \\ & =\frac{𝜋}{6}(27−1) \\ & =\frac{13𝜋}{3}.\end{aligned}
 
 
 $$

@@ -12,7 +12,7 @@ Topic ID: 446
 
 ### Introduction
 
-Suppose we are given the integral $\displaystyle \int \dfrac{3x+2}{(x+1)^2} \textrm{d}x.$ Note that we have the repeated factor $(x+1)$ in the denominator.
+Suppose we are given the integral $\displaystyle \int \dfrac{3x+2}{(x+1)^2} \text{d}x.$ Note that we have the repeated factor $(x+1)$ in the denominator.
 
 The correct form of the partial fraction expansion of the integrand is
 
@@ -80,7 +80,7 @@ where $C$ is a constant of integration.
 
 #### Question
 
-Calculate $\displaystyle \int_0^1 \dfrac{2x+3}{(x+1)^2} \,\textrm{d}x.$
+Calculate $\displaystyle \int_0^1 \dfrac{2x+3}{(x+1)^2} \,\text{d}x.$
 
 #### Explanation
 
@@ -139,7 +139,7 @@ Finally, we integrate this expression term by term to get
 $$
 
 
-\begin{aligned}∫_{10}^{}\frac{2𝑥+3}{(𝑥+1)^{2}}\,d𝑥 & =∫_{10}^{}(\frac{2}{(𝑥+1)}+\frac{1}{(𝑥+1)^{2}})\,d𝑥 \\ & =2∫_{10}^{}\frac{1}{𝑥+1}\,d𝑥+∫_{10}^{}\frac{1}{(𝑥+1)^{2}}\,d𝑥 \\ & =2ln⁡|𝑥+1||_{10}^{}+(−\frac{1}{𝑥+1})_{10}^{} \\ & =2ln⁡|𝑥+1||_{10}^{}−\frac{1}{𝑥+1}_{10}^{} \\ & =2[ln⁡2−ln⁡1]−[\frac{1}{2}−1] \\ & =2ln⁡2+\frac{1}{2}\end{aligned}
+\begin{aligned}∫_{10}\frac{2𝑥+3}{(𝑥+1)^{2}}\,d𝑥 & =∫_{10}(\frac{2}{(𝑥+1)}+\frac{1}{(𝑥+1)^{2}})\,d𝑥 \\ & =2∫_{10}\frac{1}{𝑥+1}\,d𝑥+∫_{10}\frac{1}{(𝑥+1)^{2}}\,d𝑥 \\ & =2ln⁡|𝑥+1||_{10}+(−\frac{1}{𝑥+1})_{10} \\ & =2ln⁡|𝑥+1||_{10}−\frac{1}{𝑥+1}_{10} \\ & =2[ln⁡2−ln⁡1]−[\frac{1}{2}−1] \\ & =2ln⁡2+\frac{1}{2}\end{aligned}
 
 
 $$
@@ -148,7 +148,7 @@ $$
 
 #### Question
 
-Evaluate $\displaystyle \int \dfrac{3x^2-5x+8}{(x-3)^2(x+1)}\textrm{d}x.$
+Evaluate $\displaystyle \int \dfrac{3x^2-5x+8}{(x-3)^2(x+1)}\text{d}x.$
 
 #### Explanation
 
@@ -228,7 +228,7 @@ where $K$ is an integral constant.
 
 #### Question
 
-Evaluate $\displaystyle \int_{0}^{1} \dfrac{x}{x^2+2x+1} \,\textrm{d}x.$
+Evaluate $\displaystyle \int_{0}^{1} \dfrac{x}{x^2+2x+1} \,\text{d}x.$
 
 #### Explanation
 
@@ -297,7 +297,7 @@ Finally, we integrate this expression term by term to get
 $$
 
 
-\begin{aligned}∫_{10}^{}\frac{𝑥}{𝑥^{2}+2𝑥+1}\,d𝑥 & =∫_{10}^{}(\frac{1}{𝑥+1}−\frac{1}{(𝑥+1)^{2}})d𝑥 \\ & =∫_{10}^{}\frac{1}{𝑥+1}\,d𝑥−∫_{10}^{}\frac{1}{(𝑥+1)^{2}}\,d𝑥 \\ & =ln⁡|𝑥+1|_{10}^{}+\frac{1}{𝑥+1}_{10}^{} \\ & =(ln⁡|1+1|−ln⁡|0+1|)+(\frac{1}{1+1}−\frac{1}{0+1}) \\ & =(ln⁡2−ln⁡1)+(\frac{1}{2}−1) \\ & =ln⁡2−\frac{1}{2}.\end{aligned}
+\begin{aligned}∫_{10}\frac{𝑥}{𝑥^{2}+2𝑥+1}\,d𝑥 & =∫_{10}(\frac{1}{𝑥+1}−\frac{1}{(𝑥+1)^{2}})d𝑥 \\ & =∫_{10}\frac{1}{𝑥+1}\,d𝑥−∫_{10}\frac{1}{(𝑥+1)^{2}}\,d𝑥 \\ & =ln⁡|𝑥+1|_{10}+\frac{1}{𝑥+1}_{10} \\ & =(ln⁡|1+1|−ln⁡|0+1|)+(\frac{1}{1+1}−\frac{1}{0+1}) \\ & =(ln⁡2−ln⁡1)+(\frac{1}{2}−1) \\ & =ln⁡2−\frac{1}{2}.\end{aligned}
 
 
 $$
@@ -306,7 +306,7 @@ $$
 
 #### Question
 
-Evaluate $\displaystyle \int \dfrac{9x^2+2x-1}{(3x-1)^3}\textrm{d}x.$
+Evaluate $\displaystyle \int \dfrac{9x^2+2x-1}{(3x-1)^3}\text{d}x.$
 
 #### Explanation
 

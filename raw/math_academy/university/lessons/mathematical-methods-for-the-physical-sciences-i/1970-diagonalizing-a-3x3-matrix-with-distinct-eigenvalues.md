@@ -175,7 +175,7 @@ We start by computing the eigenvalues of $A.$ To do that, we solve the character
 $$
 
 
-\begin{aligned}det(𝐴−𝜆𝐼) & =0 \\ \begin{aligned}2−𝜆 & 6 & 0 \\ 2 & 1−𝜆 & 0 \\ 1 & −4 & 4−𝜆\end{aligned} & =0 \\ (4−𝜆)\begin{aligned}2−𝜆 & 6 \\ 2 & 1−𝜆\end{aligned} & =0 \\ (4−𝜆)([𝜆^{2}−3𝜆+2]−12) & =0 \\ (4−𝜆)(𝜆^{2}−3𝜆−10) & =0 \\ (4−𝜆)(𝜆−5)(𝜆+2) & =0\end{aligned}
+\begin{aligned}det(𝐴−𝜆𝐼) & =0 \\ \begin{matrix}2−𝜆 & 6 & 0 \\ 2 & 1−𝜆 & 0 \\ 1 & −4 & 4−𝜆\end{matrix} & =0 \\ (4−𝜆)\begin{matrix}2−𝜆 & 6 \\ 2 & 1−𝜆\end{matrix} & =0 \\ (4−𝜆)([𝜆^{2}−3𝜆+2]−12) & =0 \\ (4−𝜆)(𝜆^{2}−3𝜆−10) & =0 \\ (4−𝜆)(𝜆−5)(𝜆+2) & =0\end{aligned}
 
 
 $$
@@ -231,7 +231,7 @@ Now, we need to find an eigenvector that corresponds to $\lambda_1=-2.$ Computin
 $$
 
 
-\begin{aligned}𝐴−𝜆_{1}𝐼 & =\begin{aligned}−8 & −4 & 6 \\ −9 & −7 & 9 \\ −16 & −10 & 14\end{aligned}−(−2)\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{aligned} \\ & =\begin{aligned}−6 & −4 & 6 \\ −9 & −5 & 9 \\ −16 & −10 & 16\end{aligned}.\end{aligned}
+\begin{aligned}𝐴−𝜆_{1}𝐼 & =\begin{matrix}−8 & −4 & 6 \\ −9 & −7 & 9 \\ −16 & −10 & 14\end{matrix}−(−2)\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{matrix} \\ & =\begin{matrix}−6 & −4 & 6 \\ −9 & −5 & 9 \\ −16 & −10 & 16\end{matrix}.\end{aligned}
 
 
 $$
@@ -241,7 +241,7 @@ So, we have a system of linear equations with the augmented matrix $M$ that we r
 $$
 
 
-\begin{aligned}𝑀 & =\begin{aligned}−6 & −4 & 6 & 0 \\ −9 & −5 & 9 & 0 \\ −16 & −10 & 16 & 0\end{aligned} & & \begin{aligned}𝑅_{2}:=𝑅_{2}+(−\frac{3}{2})𝑅_{1} \\ 𝑅_{3}:=𝑅_{3}+(−\frac{8}{3})𝑅_{1}\end{aligned} \\ & ∼\begin{aligned}−6 & −4 & 6 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & \frac{2}{3} & 0 & 0\end{aligned} & & \begin{aligned}𝑅_{3}:=𝑅_{3}+(−\frac{2}{3})𝑅_{2}\end{aligned} \\ & ∼\begin{aligned}−6 & −4 & 6 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 0\end{aligned}. & & \end{aligned}
+\begin{aligned}𝑀 & =\begin{matrix}−6 & −4 & 6 & 0 \\ −9 & −5 & 9 & 0 \\ −16 & −10 & 16 & 0\end{matrix} & & \begin{matrix}𝑅_{2}:=𝑅_{2}+(−\frac{3}{2})𝑅_{1} \\ 𝑅_{3}:=𝑅_{3}+(−\frac{8}{3})𝑅_{1}\end{matrix} \\ & ∼\begin{matrix}−6 & −4 & 6 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & \frac{2}{3} & 0 & 0\end{matrix} & & \begin{matrix}𝑅_{3}:=𝑅_{3}+(−\frac{2}{3})𝑅_{2}\end{matrix} \\ & ∼\begin{matrix}−6 & −4 & 6 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 0\end{matrix}. & & \end{aligned}
 
 
 $$

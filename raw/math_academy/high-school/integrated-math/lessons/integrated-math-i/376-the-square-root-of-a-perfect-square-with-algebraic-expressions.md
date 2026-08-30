@@ -32,7 +32,7 @@ $$
 
 
 
-\begin{aligned}\sqrt{√4^{2}} & =\sqrt{√16}=4 \\ \sqrt{√(−4)^{2}} & =\sqrt{√16}=4\end{aligned}
+\begin{aligned}\sqrt{4^{2}} & =\sqrt{16}=4 \\ \sqrt{(−4)^{2}} & =\sqrt{16}=4\end{aligned}
 
 
 
@@ -44,7 +44,7 @@ $$
 
 
 
-\begin{aligned}\sqrt{√4^{2}}=|4| & =4 & ✓ \\ \sqrt{√(−4)^{2}}=|−4| & =4 & ✓\end{aligned}
+\begin{aligned}\sqrt{4^{2}}=|4| & =4 & ✓ \\ \sqrt{(−4)^{2}}=|−4| & =4 & ✓\end{aligned}
 
 
 
@@ -78,7 +78,7 @@ $$
 
 
 
-\begin{aligned}\sqrt{√16𝑦^{2}} & =\sqrt{√4^{2}⋅𝑦^{2}} \\ & =\sqrt{√4⋅4⋅𝑦⋅𝑦} \\ & =\sqrt{√4⋅𝑦⋅4⋅𝑦} \\ & =\sqrt{√4𝑦⋅4𝑦} \\ & =\sqrt{√(4𝑦)^{2}}\end{aligned}
+\begin{aligned}\sqrt{16𝑦^{2}} & =\sqrt{4^{2}⋅𝑦^{2}} \\ & =\sqrt{4⋅4⋅𝑦⋅𝑦} \\ & =\sqrt{4⋅𝑦⋅4⋅𝑦} \\ & =\sqrt{4𝑦⋅4𝑦} \\ & =\sqrt{(4𝑦)^{2}}\end{aligned}
 
 
 
@@ -90,7 +90,7 @@ $$
 
 
 
-\begin{aligned}\sqrt{√(4𝑦)^{2}} & =|4𝑦| \\ & =|4|⋅|𝑦| \\ & =4|𝑦|\end{aligned}
+\begin{aligned}\sqrt{(4𝑦)^{2}} & =|4𝑦| \\ & =|4|⋅|𝑦| \\ & =4|𝑦|\end{aligned}
 
 
 
@@ -124,7 +124,7 @@ $$
 
 
 
-\begin{aligned}\sqrt{√36𝑎^{2}𝑐^{2}} & =\sqrt{√6^{2}⋅𝑎^{2}⋅𝑐^{2}} \\ & =\sqrt{√6⋅6⋅𝑎⋅𝑎⋅𝑐⋅𝑐} \\ & =\sqrt{√6⋅𝑎⋅𝑐⋅6⋅𝑎⋅𝑐} \\ & =\sqrt{√(6𝑎𝑐)⋅(6𝑎𝑐)} \\ & =\sqrt{√(6𝑎𝑐)^{2}}\end{aligned}
+\begin{aligned}\sqrt{36𝑎^{2}𝑐^{2}} & =\sqrt{6^{2}⋅𝑎^{2}⋅𝑐^{2}} \\ & =\sqrt{6⋅6⋅𝑎⋅𝑎⋅𝑐⋅𝑐} \\ & =\sqrt{6⋅𝑎⋅𝑐⋅6⋅𝑎⋅𝑐} \\ & =\sqrt{(6𝑎𝑐)⋅(6𝑎𝑐)} \\ & =\sqrt{(6𝑎𝑐)^{2}}\end{aligned}
 
 
 
@@ -136,7 +136,7 @@ $$
 
 
 
-\begin{aligned}\sqrt{√(6𝑎𝑐)^{2}} & =|6𝑎𝑐| \\ & =|6|⋅|𝑎𝑐| \\ & =6|𝑎𝑐|\end{aligned}
+\begin{aligned}\sqrt{(6𝑎𝑐)^{2}} & =|6𝑎𝑐| \\ & =|6|⋅|𝑎𝑐| \\ & =6|𝑎𝑐|\end{aligned}
 
 
 
@@ -170,7 +170,7 @@ $$
 
 
 
-\begin{aligned}\sqrt{√\frac{4𝑥^{2}}{𝑦^{2}}} & =\sqrt{√\frac{2^{2}𝑥^{2}}{𝑦^{2}}} \\ & =\sqrt{√\frac{2⋅2⋅𝑥⋅𝑥}{𝑦⋅𝑦}} \\ & =\sqrt{√\frac{2⋅𝑥⋅2⋅𝑥}{𝑦⋅𝑦}} \\ & =\sqrt{√\frac{2𝑥}{𝑦}⋅\frac{2𝑥}{𝑦}} \\ & =\sqrt{√(\frac{2𝑥}{𝑦})^{2}}\end{aligned}
+\begin{aligned}\sqrt{\frac{4𝑥^{2}}{𝑦^{2}}} & =\sqrt{\frac{2^{2}𝑥^{2}}{𝑦^{2}}} \\ & =\sqrt{\frac{2⋅2⋅𝑥⋅𝑥}{𝑦⋅𝑦}} \\ & =\sqrt{\frac{2⋅𝑥⋅2⋅𝑥}{𝑦⋅𝑦}} \\ & =\sqrt{\frac{2𝑥}{𝑦}⋅\frac{2𝑥}{𝑦}} \\ & =\sqrt{(\frac{2𝑥}{𝑦})^{2}}\end{aligned}
 
 
 
@@ -182,7 +182,7 @@ $$
 
 
 
-\begin{aligned}\sqrt{√(\frac{2𝑥}{𝑦})^{2}} & =\frac{2𝑥}{𝑦} \\ & =\frac{|2𝑥|}{|𝑦|} \\ & =\frac{|2|⋅|𝑥|}{|𝑦|} \\ & =\frac{2|𝑥|}{|𝑦|}\end{aligned}
+\begin{aligned}\sqrt{(\frac{2𝑥}{𝑦})^{2}} & =\frac{2𝑥}{𝑦} \\ & =\frac{|2𝑥|}{|𝑦|} \\ & =\frac{|2|⋅|𝑥|}{|𝑦|} \\ & =\frac{2|𝑥|}{|𝑦|}\end{aligned}
 
 
 

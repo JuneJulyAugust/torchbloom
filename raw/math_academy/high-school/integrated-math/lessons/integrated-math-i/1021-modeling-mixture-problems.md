@@ -25,7 +25,7 @@ $$
 
 
 
-\textrm{part} = \textrm{percentage} \times \textrm{total}
+\text{part} = \text{percentage} \times \text{total}
 
 
 
@@ -47,7 +47,7 @@ $$
 
 
 
-\textrm{part} = \textrm{percentage} \times \textrm{total}
+\text{part} = \text{percentage} \times \text{total}
 
 
 
@@ -109,7 +109,7 @@ $$
 
 
 
-\textrm{part} = \textrm{percentage} \times \textrm{total}
+\text{part} = \text{percentage} \times \text{total}
 
 
 

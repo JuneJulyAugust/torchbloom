@@ -213,7 +213,7 @@ $$
 $$
 
 
-\begin{aligned}𝑦 & =4\sqrt{√2}tan⁡𝑡 \\ \frac{𝑦}{4\sqrt{√2}} & =tan⁡𝑡 \\ (\frac{𝑦}{4\sqrt{√2}})^{2} & =(tan⁡𝑡)^{2} \\ \frac{𝑦^{2}}{(4\sqrt{√2})^{2}} & =tan^{2}⁡𝑡 \\ \frac{𝑦^{2}}{32} & =tan^{2}⁡𝑡.\end{aligned}
+\begin{aligned}𝑦 & =4\sqrt{2}tan⁡𝑡 \\ \frac{𝑦}{4\sqrt{2}} & =tan⁡𝑡 \\ (\frac{𝑦}{4\sqrt{2}})^{2} & =(tan⁡𝑡)^{2} \\ \frac{𝑦^{2}}{(4\sqrt{2})^{2}} & =tan^{2}⁡𝑡 \\ \frac{𝑦^{2}}{32} & =tan^{2}⁡𝑡.\end{aligned}
 
 
 $$

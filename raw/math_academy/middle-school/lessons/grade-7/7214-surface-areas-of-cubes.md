@@ -15,7 +15,7 @@ Topic ID: 7214
 
 In this lesson, we'll learn how to find the **surface area** of a cube.
 
-For example, suppose we want to find the surface area of a cube whose edges are $3\,\textrm{cm}$ in length, like the one shown below.
+For example, suppose we want to find the surface area of a cube whose edges are $3\,\text{cm}$ in length, like the one shown below.
 
 ![Instructional graphic](../../../lesson-assets/grade-7/topic-7214/fc695b332db194e3.png)
 
@@ -31,19 +31,19 @@ S = 6\mathcal A =6 s^2.
 
 $$
 
-To find the surface area of the cube above, we substitute $s=3 \: \textrm{cm}$ into the formula. This gives
+To find the surface area of the cube above, we substitute $s=3 \: \text{cm}$ into the formula. This gives
 
 $$
 
 
 
-S = 6(3\, \text{cm})^2 = 54 \,\textrm{cm}^2.
+S = 6(3\, \text{cm})^2 = 54 \,\text{cm}^2.
 
 
 
 $$
 
-Therefore, the surface area of the cube is $54\,\textrm{cm}^2.$
+Therefore, the surface area of the cube is $54\,\text{cm}^2.$
 
 ### Example: Finding the Surface Area of a Cube Given a Side Length
 
@@ -67,7 +67,7 @@ $$
 
 where $s$ is the side length of the cube.
 
-Substituting $s = 7\,\textrm{m}$ into the formula, we get
+Substituting $s = 7\,\text{m}$ into the formula, we get
 
 $$
 
@@ -123,13 +123,13 @@ $$
 
 where $s$ is the side length of the cube.
 
-Substituting $s = 9\,\textrm{cm}$ into the formula, we get
+Substituting $s = 9\,\text{cm}$ into the formula, we get
 
 $$
 
 
 
-S_L = 4(9\, \text{cm})^2 = 324 \,\textrm{cm}^2.
+S_L = 4(9\, \text{cm})^2 = 324 \,\text{cm}^2.
 
 
 
@@ -139,7 +139,7 @@ $$
 
 Surface areas of cubes naturally arise in real-world contexts.
 
-For example, suppose a cube-shaped storage container has a side length of $5\:\textrm{m}.$ A worker covers $4$ square meters using one liter of sealant. How many liters of sealant are needed to cover the *lateral* surface of the container?
+For example, suppose a cube-shaped storage container has a side length of $5\:\text{m}.$ A worker covers $4$ square meters using one liter of sealant. How many liters of sealant are needed to cover the *lateral* surface of the container?
 
 Recall that the lateral surface area $S_L$ of a cube is given by
 
@@ -153,13 +153,13 @@ S_L = 4s^2.
 
 $$
 
-Substituting $s = 5\,\textrm{m},$ we get
+Substituting $s = 5\,\text{m},$ we get
 
 $$
 
 
 
-S_L = 4(5\,\textrm{m})^2 = 4(25\,\textrm{m}^2) = 100 \,\textrm{m}^2.
+S_L = 4(5\,\text{m})^2 = 4(25\,\text{m}^2) = 100 \,\text{m}^2.
 
 
 
@@ -197,7 +197,7 @@ Let's see another example.
 
 #### Question
 
-A company charges $0.03$ per $\textrm{cm}^2$ to cover a cube-shaped box with protective film. Each side of the box has a length of $8\: \textrm{cm}.$ What is the total cost to cover the box?
+A company charges $0.03$ per $\text{cm}^2$ to cover a cube-shaped box with protective film. Each side of the box has a length of $8\: \text{cm}.$ What is the total cost to cover the box?
 
 #### Explanation
 
@@ -215,19 +215,19 @@ $$
 
 where $s$ is the side length of the cube.
 
-Substituting $s = 8\,\textrm{cm}$ into the formula, we get
+Substituting $s = 8\,\text{cm}$ into the formula, we get
 
 $$
 
 
 
-S = 6 (8\, \text{cm})^2 = 6 \cdot 64 = 384\,\textrm{cm}^2.
+S = 6 (8\, \text{cm})^2 = 6 \cdot 64 = 384\,\text{cm}^2.
 
 
 
 $$
 
-Now, we compute the total cost. The company charges $0.03$ per $\textrm{cm}^2,$ so we get
+Now, we compute the total cost. The company charges $0.03$ per $\text{cm}^2,$ so we get
 
 $$
 

@@ -16,7 +16,7 @@ A second-order, linear, homogeneous ordinary differential equation with constant
 $$
 
 
-a\frac{\textrm{d}^2 y}{\textrm{d} x^2} + b\frac{\textrm{d} y}{\textrm{d} x} + cy =0,
+a\frac{\text{d}^2 y}{\text{d} x^2} + b\frac{\text{d} y}{\text{d} x} + cy =0,
 
 
 $$
@@ -28,7 +28,7 @@ To find solutions, we can propose a trial solution of the form $y=e^{\lambda x},
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x} = \lambda e^{\lambda x}, \qquad \dfrac{\textrm{d}^2y}{\textrm{d}x^2} = \lambda^2 e^{\lambda x}.
+\dfrac{\text{d}y}{\text{d}x} = \lambda e^{\lambda x}, \qquad \dfrac{\text{d}^2y}{\text{d}x^2} = \lambda^2 e^{\lambda x}.
 
 
 $$
@@ -152,7 +152,7 @@ Find the general solution to the equation
 $$
 
 
-\frac{\textrm{d}^2 y}{\textrm{d} x^2} + \frac{\textrm{d} y}{\textrm{d} x} - 2y =0.
+\frac{\text{d}^2 y}{\text{d} x^2} + \frac{\text{d} y}{\text{d} x} - 2y =0.
 
 
 $$
@@ -164,7 +164,7 @@ This is a second-order homogeneous ODE. So, we assume the solutions take the for
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x} = \lambda e^{\lambda x}, \qquad \dfrac{\textrm{d}^2y}{\textrm{d}x^2} = \lambda^2 e^{\lambda x}.
+\dfrac{\text{d}y}{\text{d}x} = \lambda e^{\lambda x}, \qquad \dfrac{\text{d}^2y}{\text{d}x^2} = \lambda^2 e^{\lambda x}.
 
 
 $$

@@ -12,7 +12,7 @@ Topic ID: 1605
 
 ### Introduction
 
-Suppose that we are given a sector of a circle of radius $4\,\textrm{cm},$ like the one in the diagram below, where $m\angle AOB = \dfrac{\pi}4$ radians. How can we find the length of the arc $\overset{\frown}{AB}?$
+Suppose that we are given a sector of a circle of radius $4\,\text{cm},$ like the one in the diagram below, where $m\angle AOB = \dfrac{\pi}4$ radians. How can we find the length of the arc $\overset{\frown}{AB}?$
 
 ![Instructional graphic](../../../lesson-assets/sat-math-fundamentals/topic-1605/8da87dc5ba03a99f.png)
 
@@ -64,13 +64,13 @@ $$
 
 #### Question
 
-The diagram below shows a sector of a circle of radius $10 \textrm{cm}.$ Given that the measure of its central angle is $\dfrac{\pi}{4}$ radians, find the length of the arc $\overset{\frown}{AB}.$
+The diagram below shows a sector of a circle of radius $10 \text{cm}.$ Given that the measure of its central angle is $\dfrac{\pi}{4}$ radians, find the length of the arc $\overset{\frown}{AB}.$
 
 ![Instructional graphic](../../../lesson-assets/sat-math-fundamentals/topic-1605/be095f7b44ce9400.png)
 
 #### Explanation
 
-The central angle is $\theta = \dfrac{\pi}{4}$ radians and the radius is $r = 10\,\textrm{cm}.$
+The central angle is $\theta = \dfrac{\pi}{4}$ radians and the radius is $r = 10\,\text{cm}.$
 
 We find the length of $\overset{\frown}{AB}$ using the arc length formula:
 
@@ -86,13 +86,13 @@ $$
 
 #### Question
 
-Given that the length of the arc $\overset{\frown}{AB}$ in the circular sector below is $6\,\textrm{cm},$ find the value of $\theta$ in radians.
+Given that the length of the arc $\overset{\frown}{AB}$ in the circular sector below is $6\,\text{cm},$ find the value of $\theta$ in radians.
 
 ![Instructional graphic](../../../lesson-assets/sat-math-fundamentals/topic-1605/cb97cc8bf46e8e8e.png)
 
 #### Explanation
 
-Here, the length of the arc is $s = 6\,\textrm{cm}$ and the radius is $r = 5\,\textrm{cm}.$
+Here, the length of the arc is $s = 6\,\text{cm}$ and the radius is $r = 5\,\text{cm}.$
 
 Rearranging the arc length formula, we have
 
@@ -118,13 +118,13 @@ $$
 
 #### Question
 
-Given that the length of the arc $\overset{\frown}{AB}$ in the circle below is $4\,\textrm{cm},$ and that $\theta =2$ radians, what is the radius of the circle?
+Given that the length of the arc $\overset{\frown}{AB}$ in the circle below is $4\,\text{cm},$ and that $\theta =2$ radians, what is the radius of the circle?
 
 ![Instructional graphic](../../../lesson-assets/sat-math-fundamentals/topic-1605/aaebd3bb54c1a255.png)
 
 #### Explanation
 
-Here, the length of the arc is $s=4 \, \textrm{cm}$ and the central angle is $\theta=2.$
+Here, the length of the arc is $s=4 \, \text{cm}$ and the central angle is $\theta=2.$
 
 Rearranging the arc length formula, we have
 
@@ -141,7 +141,7 @@ Therefore,
 $$
 
 
-r = \dfrac{s}{\theta} = \dfrac{4}{2} = 2 \, \textrm{cm}.
+r = \dfrac{s}{\theta} = \dfrac{4}{2} = 2 \, \text{cm}.
 
 
 $$

@@ -63,7 +63,7 @@ To solve the equation, we first apply cross-multiplication:
 $$
 
 
-\begin{aligned} \dfrac{3}{2x} &= \dfrac 9 8 \\\[5pt] 3 \cdot 8 &= 2x \cdot 9 \\\[5pt] 24 &= 18x \end{aligned}
+\begin{aligned} \dfrac{3}{2x} &= \dfrac 9 8 \\[5pt] 3 \cdot 8 &= 2x \cdot 9 \\[5pt] 24 &= 18x \end{aligned}
 
 
 $$
@@ -73,7 +73,7 @@ Then, we apply the multiplication principle:
 $$
 
 
-\begin{aligned} 24 &= 18x \\\[5pt] \dfrac{24}{18} &= \dfrac{18x}{18} \\\[5pt] \dfrac{4}{3} &= x \end{aligned}
+\begin{aligned} 24 &= 18x \\[5pt] \dfrac{24}{18} &= \dfrac{18x}{18} \\[5pt] \dfrac{4}{3} &= x \end{aligned}
 
 
 $$
@@ -111,7 +111,7 @@ Now, we can proceed to solve the equation by cross-multiplication, as usual. (We
 $$
 
 
-\begin{aligned} \dfrac{3}{2x} &= \dfrac{\color{red}-9}{8} \\\[5pt] 3 \cdot 8 &= 2x \cdot (-9) \\\[5pt] 24 &= -18x \end{aligned}
+\begin{aligned} \dfrac{3}{2x} &= \dfrac{\color{red}-9}{8} \\[5pt] 3 \cdot 8 &= 2x \cdot (-9) \\[5pt] 24 &= -18x \end{aligned}
 
 
 $$
@@ -121,7 +121,7 @@ Then, we apply the multiplication principle:
 $$
 
 
-\begin{aligned} 24 &= -18x \\\[5pt] \dfrac{24}{-18} &= \dfrac{-18x}{-18} \\\[5pt] -\dfrac{4}{3} &= x \end{aligned}
+\begin{aligned} 24 &= -18x \\[5pt] \dfrac{24}{-18} &= \dfrac{-18x}{-18} \\[5pt] -\dfrac{4}{3} &= x \end{aligned}
 
 
 $$
@@ -175,7 +175,7 @@ To solve the equation, we first apply cross-multiplication:
 $$
 
 
-\begin{aligned} \dfrac{3x}{2x+1} &= \dfrac 9 8 \\\[5pt] 3x \cdot 8 &= (2x+1) \cdot 9 \\\[5pt] 24x &= 18x + 9 \end{aligned}
+\begin{aligned} \dfrac{3x}{2x+1} &= \dfrac 9 8 \\[5pt] 3x \cdot 8 &= (2x+1) \cdot 9 \\[5pt] 24x &= 18x + 9 \end{aligned}
 
 
 $$
@@ -185,7 +185,7 @@ Then, we apply the addition and multiplication principles, as usual:
 $$
 
 
-\begin{aligned} 24x &= 18x + 9 \\\[5pt] 24x-18x &= 18x + 9 -18x \\\[5pt] 6x& = 9 \\\[5pt] \dfrac{6x}{6} & = \dfrac{9}{6} \\\[5pt] x &= \dfrac{3}{2} \end{aligned}
+\begin{aligned} 24x &= 18x + 9 \\[5pt] 24x-18x &= 18x + 9 -18x \\[5pt] 6x& = 9 \\[5pt] \dfrac{6x}{6} & = \dfrac{9}{6} \\[5pt] x &= \dfrac{3}{2} \end{aligned}
 
 
 $$

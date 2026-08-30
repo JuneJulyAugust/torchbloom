@@ -154,7 +154,7 @@ Which of the following relations are equivalence relations on $\mathbb{Z}?$
 
 2. $a \,R\, b$ if $a - b$ is a multiple of $7$
 
-3. $a\, R \,b$ if $a \equiv (b - 1) \; (\textrm{mod}\:5)$
+3. $a\, R \,b$ if $a \equiv (b - 1) \; (\text{mod}\:5)$
 
 #### Explanation
 
@@ -174,6 +174,6 @@ With this in mind, let's consider each of the given relations.
 
 - Relation II is an equivalence relation. It is reflexive because for all $a \in \mathbb{Z},$ we have that $a - a=0$ is a multiple of $7.$ It is symmetric because for all $a, b \in \mathbb{Z},$ if $a - b$ is a multiple of $7,$ then $b - a=-(a-b)$ is also a multiple of $7.$ It is transitive because for all $a, b, c \in \mathbb{Z},$ if $a - b=7n$ and $b - c=7m,$ where $n, m$ are arbitrary integers, then This means that if $a - b$ is a multiple of $7$ and $b - c$ is a multiple of $7$ then $a-c$ is also a multiple of $7.$
 
-- Relation III is not an equivalence relation. For example, it is not reflexive because $1 \not\equiv (1 - 1) \; (\textrm{mod}\:5).$
+- Relation III is not an equivalence relation. For example, it is not reflexive because $1 \not\equiv (1 - 1) \; (\text{mod}\:5).$
 
 Therefore, the correct answer is "II only".

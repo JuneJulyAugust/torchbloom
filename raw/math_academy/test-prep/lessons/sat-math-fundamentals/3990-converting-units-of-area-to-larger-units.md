@@ -13,16 +13,16 @@ Topic ID: 3990
 
 We must be extra careful when converting a unit of area to a larger unit.
 
-To demonstrate, suppose that a square has an area of $7\,200 \, \textrm{mm}^2.$ Let's use unit arguments to express this area in square centimeters.
+To demonstrate, suppose that a square has an area of $7\,200 \, \text{mm}^2.$ Let's use unit arguments to express this area in square centimeters.
 
 We start by recalling the conversion table for units of length.
 
-Since we're converting from $\textrm{mm}^2$ to $\textrm{cm}^2$, we start with the conversion between $\textrm{mm}$ and $\textrm{cm}$. According to our table, there are $10\,\textrm{mm}$ per $\textrm{cm}.$ We can write this ratio as a fraction, as follows:
+Since we're converting from $\text{mm}^2$ to $\text{cm}^2$, we start with the conversion between $\text{mm}$ and $\text{cm}$. According to our table, there are $10\,\text{mm}$ per $\text{cm}.$ We can write this ratio as a fraction, as follows:
 
 $$
 
 
-\dfrac{10\,\textrm{mm}}{\textrm{cm}}
+\dfrac{10\,\text{mm}}{\text{cm}}
 
 
 $$
@@ -37,19 +37,19 @@ $$
 
 $$
 
-However, since we're converting from a smaller unit of area $(\textrm{mm}^2)$ to a larger one $(\textrm{cm}^2),$ we need to multiply $7\,200 \, \textrm{mm}^2$ by the *reciprocal* of the above, namely
+However, since we're converting from a smaller unit of area $(\text{mm}^2)$ to a larger one $(\text{cm}^2),$ we need to multiply $7\,200 \, \text{mm}^2$ by the *reciprocal* of the above, namely
 
 $$
 
 
-\dfrac{\textrm{cm}^2}{100\,\textrm{mm}^2}.
+\dfrac{\text{cm}^2}{100\,\text{mm}^2}.
 
 
 $$
 
 This is our conversion factor.
 
-Now, multiplying $7\,200 \, \textrm{mm}^2$ by our conversion factor, we get
+Now, multiplying $7\,200 \, \text{mm}^2$ by our conversion factor, we get
 
 $$
 
@@ -59,22 +59,22 @@ $$
 
 $$
 
-Therefore, we conclude that $7\,200 \, \textrm{mm}^2$ is equivalent to $72 \,\textrm{cm}^2.$
+Therefore, we conclude that $7\,200 \, \text{mm}^2$ is equivalent to $72 \,\text{cm}^2.$
 
 ### Example: Converting Square Millimeters to Square Centimeters
 
 #### Question
 
-What is $8\,250 \, \textrm{mm}^2$ measured in $\textrm{cm}^2?$
+What is $8\,250 \, \text{mm}^2$ measured in $\text{cm}^2?$
 
 #### Explanation
 
-There are $10 \, \textrm{mm}$ per $\textrm{cm},$ which we can write as follows:
+There are $10 \, \text{mm}$ per $\text{cm},$ which we can write as follows:
 
 $$
 
 
-\dfrac{10 \, \textrm{mm}}{\textrm{cm}}
+\dfrac{10 \, \text{mm}}{\text{cm}}
 
 
 $$
@@ -89,19 +89,19 @@ $$
 
 $$
 
-However, since we're converting from a smaller unit of area $(\textrm{mm}^2)$ to a larger one $(\textrm{cm}^2),$ we need to multiply $8\,250 \, \textrm{mm}^2$ by the reciprocal of the above:
+However, since we're converting from a smaller unit of area $(\text{mm}^2)$ to a larger one $(\text{cm}^2),$ we need to multiply $8\,250 \, \text{mm}^2$ by the reciprocal of the above:
 
 $$
 
 
-\dfrac{\textrm{cm}^2}{100\,\textrm{mm}^2}
+\dfrac{\text{cm}^2}{100\,\text{mm}^2}
 
 
 $$
 
 This is our conversion factor.
 
-Now, multiplying $8\,250\,\textrm{mm}^2$ by our conversion factor, we get
+Now, multiplying $8\,250\,\text{mm}^2$ by our conversion factor, we get
 
 $$
 
@@ -111,22 +111,22 @@ $$
 
 $$
 
-Therefore, $8\,250 \, \textrm{mm}^2$ is equivalent to $82.5 \,\textrm{cm}^2.$
+Therefore, $8\,250 \, \text{mm}^2$ is equivalent to $82.5 \,\text{cm}^2.$
 
 ### Example: Converting Square Centimeters to Square Meters
 
 #### Question
 
-What is $5\,000\,\textrm{cm}^2$ measured in $\textrm{m}^2?$
+What is $5\,000\,\text{cm}^2$ measured in $\text{m}^2?$
 
 #### Explanation
 
-There are $100\,\textrm{cm}$ per $\textrm{m},$ which we can write as follows:
+There are $100\,\text{cm}$ per $\text{m},$ which we can write as follows:
 
 $$
 
 
-\dfrac{100\,\textrm{cm}}{\textrm{m}}
+\dfrac{100\,\text{cm}}{\text{m}}
 
 
 $$
@@ -141,19 +141,19 @@ $$
 
 $$
 
-However, since we're converting from a smaller unit of area $(\textrm{cm}^2)$ to a larger one $(\textrm{m}^2),$ we need to multiply $5\,000\,\textrm{cm}^2$ by the reciprocal of the above:
+However, since we're converting from a smaller unit of area $(\text{cm}^2)$ to a larger one $(\text{m}^2),$ we need to multiply $5\,000\,\text{cm}^2$ by the reciprocal of the above:
 
 $$
 
 
-\dfrac{\textrm{m}^2}{10\,000\,\textrm{cm}^2}
+\dfrac{\text{m}^2}{10\,000\,\text{cm}^2}
 
 
 $$
 
 This is our conversion factor.
 
-Now, multiplying $5\,000\,\textrm{cm}^2$ by our conversion factor, we get
+Now, multiplying $5\,000\,\text{cm}^2$ by our conversion factor, we get
 
 $$
 
@@ -163,22 +163,22 @@ $$
 
 $$
 
-Therefore, $5\,000\,\textrm{cm}^2$ is equivalent to $0.5 \,\textrm{m}^2.$
+Therefore, $5\,000\,\text{cm}^2$ is equivalent to $0.5 \,\text{m}^2.$
 
 ### Example: Converting Square Meters to Square Kilometers
 
 #### Question
 
-What is $470\,000 \,\textrm{m}^2$ measured in $\textrm{km}^2?$
+What is $470\,000 \,\text{m}^2$ measured in $\text{km}^2?$
 
 #### Explanation
 
-There are $1\,000\,\textrm{m}$ per $\textrm{km},$ which we can write as follows:
+There are $1\,000\,\text{m}$ per $\text{km},$ which we can write as follows:
 
 $$
 
 
-\dfrac{1\,000\,\textrm{m}}{\textrm{km}}
+\dfrac{1\,000\,\text{m}}{\text{km}}
 
 
 $$
@@ -193,19 +193,19 @@ $$
 
 $$
 
-However, since we're converting from a smaller unit of area $(\textrm{m}^2)$ to a larger one $(\textrm{km}^2),$ we need to multiply $470\,000 \,\textrm{m}^2$ by the reciprocal of the above:
+However, since we're converting from a smaller unit of area $(\text{m}^2)$ to a larger one $(\text{km}^2),$ we need to multiply $470\,000 \,\text{m}^2$ by the reciprocal of the above:
 
 $$
 
 
-\dfrac{\textrm{km}^2}{1\,000\,000\,\textrm{m}^2}
+\dfrac{\text{km}^2}{1\,000\,000\,\text{m}^2}
 
 
 $$
 
 This is our conversion factor.
 
-Now, multiplying $470\,000 \,\textrm{m}^2$ by our conversion factor, we get
+Now, multiplying $470\,000 \,\text{m}^2$ by our conversion factor, we get
 
 $$
 
@@ -215,4 +215,4 @@ $$
 
 $$
 
-Therefore, $470\,000 \, \textrm{m}^2$ is equivalent to $0.47 \,\textrm{km}^2.$
+Therefore, $470\,000 \, \text{m}^2$ is equivalent to $0.47 \,\text{km}^2.$

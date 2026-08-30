@@ -18,9 +18,9 @@ Let's extract all possible information from this fact using the vector spaces re
 
 - The fact that the unique solution to $A\mathbf{x}=\mathbf{0}$ is $\mathbf{x}=\mathbf{0}$ tells us that or alternatively,
 
-- Furthermore, if $\textrm{dim(Null}(A))=0$ then $A$ has no *non-pivot* columns, or equivalently, all the columns of $A$ are *pivot columns*. So
+- Furthermore, if $\text{dim(Null}(A))=0$ then $A$ has no *non-pivot* columns, or equivalently, all the columns of $A$ are *pivot columns*. So
 
-- Finally, since $\textrm{Col}(A)$ is a subspace of $\mathbb{R}^n$ and its basis has $n$ linearly independent vectors, we can conclude that
+- Finally, since $\text{Col}(A)$ is a subspace of $\mathbb{R}^n$ and its basis has $n$ linearly independent vectors, we can conclude that
 
 All the results mentioned above can be summarized in the following theorem, called the **invertible matrix theorem**:
 
@@ -62,7 +62,7 @@ $$
 
 $$
 
-The missing expression is $\textrm{dim(Null}(A)).$
+The missing expression is $\text{dim(Null}(A)).$
 
 ### Example: Identifying True Statements Using the Invertible Matrix Theorem
 
@@ -80,9 +80,9 @@ $$
 
 1. $A$ is not invertible
 
-2. $\textrm{Col}(A)=\mathbb{R}^4$
+2. $\text{Col}(A)=\mathbb{R}^4$
 
-3. $\textrm{rank}(A)=4$
+3. $\text{rank}(A)=4$
 
 #### Explanation
 
@@ -100,9 +100,9 @@ With that in mind, let's examine each statement in turn.
 
 - Statement I is true. Since we conclude that So, according to the invertible matrix theorem, the matrix $A$ is not invertible.
 
-- Statement II is false. Since the matrix $A$ is not invertible, then by the invertible matrix theorem, we must have $\textrm{Col}(A) \neq \mathbb{R}^4.$
+- Statement II is false. Since the matrix $A$ is not invertible, then by the invertible matrix theorem, we must have $\text{Col}(A) \neq \mathbb{R}^4.$
 
-- Statement III is false. Since $A$ is not invertible, then by the invertible matrix theorem, we must have $\textrm{rank}(A) \neq 4.$
+- Statement III is false. Since $A$ is not invertible, then by the invertible matrix theorem, we must have $\text{rank}(A) \neq 4.$
 
 Therefore, the correct answer is "I only."
 
@@ -118,7 +118,7 @@ Which of the following can be placed into the blank space to make a true stateme
 
 1. $\det(A) = 0$
 
-2. $\textrm{rank}(A) = n$
+2. $\text{rank}(A) = n$
 
 3. $A$ has $n$ pivot columns
 
@@ -130,10 +130,10 @@ $A$ is invertible $\begin{aligned} & Col(𝐴)=ℝ^{𝑛} \\ & dim(Col(𝐴))=�
 
 With that in mind, let's examine each of the options separately.
 
-- The following statement is false: $\qquad$ ** $\:{\color{red}\times}$ Since $\textrm{Null}(A) = \{\mathbf{0}\},$ then according to the invertible matrix theorem, the matrix $A$ must be invertible, which means $\det(A) \ne 0.$
+- The following statement is false: $\qquad$ ** $\:{\color{red}\times}$ Since $\text{Null}(A) = \{\mathbf{0}\},$ then according to the invertible matrix theorem, the matrix $A$ must be invertible, which means $\det(A) \ne 0.$
 
-- The following statement is true: $\qquad$ ** $\:{\color{green}\checkmark}$ Indeed, since $A$ is invertible, then according to the invertible matrix theorem, we have $\textrm{rank}(A)=n.$
+- The following statement is true: $\qquad$ ** $\:{\color{green}\checkmark}$ Indeed, since $A$ is invertible, then according to the invertible matrix theorem, we have $\text{rank}(A)=n.$
 
-- The following statement is true: $\qquad$ ** $\:{\color{green}\checkmark}$ Indeed, since $A$ is invertible, then according to the invertible matrix theorem, we have $\textrm{dim(Col}(A))=n,$ which means that $A$ has exactly $n$ pivot columns.
+- The following statement is true: $\qquad$ ** $\:{\color{green}\checkmark}$ Indeed, since $A$ is invertible, then according to the invertible matrix theorem, we have $\text{dim(Col}(A))=n,$ which means that $A$ has exactly $n$ pivot columns.
 
 Therefore, the correct answer is "II and III only."

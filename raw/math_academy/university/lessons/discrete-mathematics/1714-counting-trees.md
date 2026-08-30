@@ -196,7 +196,7 @@ $$
 
 
 
-\begin{aligned}|𝑇_{′𝑛}^{}| & =(# of choices for the root)×(# of labeled trees) \\ & =𝑛⋅𝑛^{𝑛−2} \\ & =𝑛^{𝑛−1}.\end{aligned}
+\begin{aligned}|𝑇_{′𝑛}| & =(# of choices for the root)×(# of labeled trees) \\ & =𝑛⋅𝑛^{𝑛−2} \\ & =𝑛^{𝑛−1}.\end{aligned}
 
 
 
@@ -208,7 +208,7 @@ $$
 
 
 
-\begin{aligned}|𝑇_{′3}^{}| & =3^{3−1} \\ & =3^{2} \\ & =9.\end{aligned}
+\begin{aligned}|𝑇_{′3}| & =3^{3−1} \\ & =3^{2} \\ & =9.\end{aligned}
 
 
 
@@ -388,7 +388,7 @@ $$
 
 
 
-\textrm{# sequenced out-trees for a given tree} = n\cdot (n-1)! = n!
+\text{\# sequenced out-trees for a given tree} = n\cdot (n-1)! = n!
 
 
 

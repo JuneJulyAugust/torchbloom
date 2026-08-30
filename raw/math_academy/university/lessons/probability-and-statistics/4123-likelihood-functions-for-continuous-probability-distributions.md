@@ -50,7 +50,7 @@ In this case, we compute the likelihood function as follows:
 $$
 
 
-\begin{aligned}𝐿(𝜃) & =\underset{\underset{𝑖=1}{∏}}{\overset{}{𝑛}}(𝜃𝑥_{−𝜃−1𝑖}^{}) \\ & =(𝜃𝑥_{−𝜃−11}^{})⋅(𝜃𝑥_{−𝜃−12}^{})⋯(𝜃𝑥_{−𝜃−1𝑛}^{}) \\ & =𝜃^{𝑛}(𝑥_{−𝜃−11}^{})⋅(𝑥_{−𝜃−12}^{})⋯(𝑥_{−𝜃−1𝑛}^{}) \\ & =𝜃^{𝑛}(𝑥_{1}⋅𝑥_{2}⋯𝑥_{𝑛})^{−𝜃−1} \\ & =𝜃^{𝑛}(\underset{\underset{𝑖=1}{∏}}{\overset{}{𝑛}}𝑥_{𝑖})^{−𝜃−1}\end{aligned}
+\begin{aligned}𝐿(𝜃) & =\underset{\underset{𝑖=1}{∏}}{\overset{}{𝑛}}(𝜃𝑥_{−𝜃−1𝑖}) \\ & =(𝜃𝑥_{−𝜃−11})⋅(𝜃𝑥_{−𝜃−12})⋯(𝜃𝑥_{−𝜃−1𝑛}) \\ & =𝜃^{𝑛}(𝑥_{−𝜃−11})⋅(𝑥_{−𝜃−12})⋯(𝑥_{−𝜃−1𝑛}) \\ & =𝜃^{𝑛}(𝑥_{1}⋅𝑥_{2}⋯𝑥_{𝑛})^{−𝜃−1} \\ & =𝜃^{𝑛}(\underset{\underset{𝑖=1}{∏}}{\overset{}{𝑛}}𝑥_{𝑖})^{−𝜃−1}\end{aligned}
 
 
 $$
@@ -116,7 +116,7 @@ We can calculate the likelihood function as follows:
 $$
 
 
-\begin{aligned}𝐿(𝜃) & =\underset{\underset{𝑖=1}{∏}}{\overset{}{𝑛}}((𝜃+1)𝑥_{−𝜃−2𝑖}^{}) \\ & =(𝜃+1)^{𝑛}⋅\underset{\underset{𝑖=1}{∏}}{\overset{}{𝑛}}𝑥_{−𝜃−2𝑖}^{} \\ & =(𝜃+1)^{𝑛}(\underset{\underset{𝑖=1}{∏}}{\overset{}{𝑛}}𝑥_{𝑖})^{−𝜃−2}\end{aligned}
+\begin{aligned}𝐿(𝜃) & =\underset{\underset{𝑖=1}{∏}}{\overset{}{𝑛}}((𝜃+1)𝑥_{−𝜃−2𝑖}) \\ & =(𝜃+1)^{𝑛}⋅\underset{\underset{𝑖=1}{∏}}{\overset{}{𝑛}}𝑥_{−𝜃−2𝑖} \\ & =(𝜃+1)^{𝑛}(\underset{\underset{𝑖=1}{∏}}{\overset{}{𝑛}}𝑥_{𝑖})^{−𝜃−2}\end{aligned}
 
 
 $$
@@ -274,7 +274,7 @@ We can calculate the likelihood function as follows:
 $$
 
 
-\begin{aligned}𝐿(𝜃) & =\underset{\underset{𝑖=1}{∏}}{\overset{}{𝑛}}(\frac{1}{\sqrt{√2𝜋}}𝑒^{−(𝑥_{𝑖}−𝜃)^{2}/2}) \\ & =(2𝜋)^{−𝑛/2}\,𝑒^{−∑(𝑥_{𝑖}−𝜃)^{2}/2} \\ & =(2𝜋)^{−𝑛/2}\,𝑒^{−(∑𝑥_{2𝑖}^{}−2𝜃∑𝑥_{𝑖}+𝑛𝜃^{2})/2} \\ & =(2𝜋)^{−𝑛/2}\,𝑒^{−(𝐶−2𝑆𝜃+𝑛𝜃^{2})/2}\end{aligned}
+\begin{aligned}𝐿(𝜃) & =\underset{\underset{𝑖=1}{∏}}{\overset{}{𝑛}}(\frac{1}{\sqrt{2𝜋}}𝑒^{−(𝑥_{𝑖}−𝜃)^{2}/2}) \\ & =(2𝜋)^{−𝑛/2}\,𝑒^{−∑(𝑥_{𝑖}−𝜃)^{2}/2} \\ & =(2𝜋)^{−𝑛/2}\,𝑒^{−(∑𝑥_{2𝑖}−2𝜃∑𝑥_{𝑖}+𝑛𝜃^{2})/2} \\ & =(2𝜋)^{−𝑛/2}\,𝑒^{−(𝐶−2𝑆𝜃+𝑛𝜃^{2})/2}\end{aligned}
 
 
 $$
@@ -286,7 +286,7 @@ For our sample, we have that $n=4,$ and
 $$
 
 
-\begin{aligned}𝑆 & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{𝑖} \\ & =0.4+(−0.3)+(−2.2)+(−0.4) \\ & =−2.5 \\ 𝐶 & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{2𝑖}^{} \\ & =(0.4)^{2}+(−0.3)^{2}+(−2.2)^{2}+(−0.4)^{2} \\ & =5.25\end{aligned}
+\begin{aligned}𝑆 & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{𝑖} \\ & =0.4+(−0.3)+(−2.2)+(−0.4) \\ & =−2.5 \\ 𝐶 & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{2𝑖} \\ & =(0.4)^{2}+(−0.3)^{2}+(−2.2)^{2}+(−0.4)^{2} \\ & =5.25\end{aligned}
 
 
 $$

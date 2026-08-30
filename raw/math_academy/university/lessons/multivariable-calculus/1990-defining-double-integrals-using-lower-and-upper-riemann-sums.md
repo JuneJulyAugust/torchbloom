@@ -153,7 +153,7 @@ Calculate the double integral
 $$
 
 
-\displaystyle\iint\limits_R f(x,y) \, \textrm{d}A,
+\displaystyle\iint\limits_R f(x,y) \, \text{d}A,
 
 
 $$

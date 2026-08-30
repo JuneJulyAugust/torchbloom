@@ -63,7 +63,7 @@ To compute the CDF for $x\geq 0,$ we integrate $f(x)$ as follows:
 $$
 
 
-\begin{aligned}𝐹(𝑥) & =∫_{𝑥−∞}^{}𝑓(𝑡)\,d𝑡 \\ & =∫_{0−∞}^{}𝑓(𝑡)\,d𝑡+∫_{𝑥0}^{}𝑓(𝑡)\,d𝑡 \\ & =0+∫_{𝑥0}^{}\frac{2}{𝜋(1+𝑡^{2})}\,d𝑡 \\ & =\frac{2}{𝜋}arctan⁡𝑡_{𝑥0}^{} \\ & =\frac{2}{𝜋}arctan⁡𝑥−\frac{2}{𝜋}(0) \\ & =\frac{2}{𝜋}arctan⁡𝑥\end{aligned}
+\begin{aligned}𝐹(𝑥) & =∫_{𝑥−∞}𝑓(𝑡)\,d𝑡 \\ & =∫_{0−∞}𝑓(𝑡)\,d𝑡+∫_{𝑥0}𝑓(𝑡)\,d𝑡 \\ & =0+∫_{𝑥0}\frac{2}{𝜋(1+𝑡^{2})}\,d𝑡 \\ & =\frac{2}{𝜋}arctan⁡𝑡_{𝑥0} \\ & =\frac{2}{𝜋}arctan⁡𝑥−\frac{2}{𝜋}(0) \\ & =\frac{2}{𝜋}arctan⁡𝑥\end{aligned}
 
 
 $$
@@ -101,7 +101,7 @@ Since our random variable $X$ has a probability distribution function $f(x)$ tha
 $$
 
 
-\begin{aligned}0, & 𝑥<0, \\ ∫_{𝑥0}^{}𝑓(𝑡)\,d𝑡, & 𝑥≥0.\end{aligned}
+\begin{aligned}0, & 𝑥<0, \\ ∫_{𝑥0}𝑓(𝑡)\,d𝑡, & 𝑥≥0.\end{aligned}
 
 
 $$
@@ -111,7 +111,7 @@ For the given probability density function, we have
 $$
 
 
-\begin{aligned}∫_{𝑥0}^{}𝑓(𝑡)\,d𝑡 & =∫_{𝑥0}^{}𝑒^{−𝑡}\,d𝑡 \\ & =−𝑒^{−𝑡}_{𝑥0}^{} \\ & =−𝑒^{−𝑥}+1 \\ & =1−𝑒^{−𝑥}.\end{aligned}
+\begin{aligned}∫_{𝑥0}𝑓(𝑡)\,d𝑡 & =∫_{𝑥0}𝑒^{−𝑡}\,d𝑡 \\ & =−𝑒^{−𝑡}_{𝑥0} \\ & =−𝑒^{−𝑥}+1 \\ & =1−𝑒^{−𝑥}.\end{aligned}
 
 
 $$
@@ -149,7 +149,7 @@ Since our random variable $X$ has a probability distribution function $f(x)$ tha
 $$
 
 
-\begin{aligned}∫_{𝑥−∞}^{}𝑒^{2𝑡}\,d𝑡, & 𝑥<0, \\ ∫_{0−∞}^{}𝑒^{2𝑡}\,d𝑡+∫_{𝑥0}^{}𝑒^{−2𝑡}\,d𝑡, & 𝑥≥0.\end{aligned}
+\begin{aligned}∫_{𝑥−∞}𝑒^{2𝑡}\,d𝑡, & 𝑥<0, \\ ∫_{0−∞}𝑒^{2𝑡}\,d𝑡+∫_{𝑥0}𝑒^{−2𝑡}\,d𝑡, & 𝑥≥0.\end{aligned}
 
 
 $$
@@ -183,7 +183,7 @@ In these cases, the cumulative distribution function takes the following form:
 $$
 
 
-\begin{aligned}0, & 𝑥<𝑎 \\ ∫_{𝑥𝑎}^{}𝑓(𝑡)\,d𝑡, & 𝑎≤𝑥≤𝑏 \\ 1, & 𝑥>𝑏\end{aligned}
+\begin{aligned}0, & 𝑥<𝑎 \\ ∫_{𝑥𝑎}𝑓(𝑡)\,d𝑡, & 𝑎≤𝑥≤𝑏 \\ 1, & 𝑥>𝑏\end{aligned}
 
 
 $$
@@ -211,7 +211,7 @@ Since our random variable $X$ has a probability distribution function $f(x)$ tha
 $$
 
 
-\begin{aligned}0, & 𝑥<0 \\ ∫_{𝑥0}^{}𝑓(𝑡)\,d𝑡, & 0≤𝑥≤12 \\ 1, & 𝑥>12\end{aligned}
+\begin{aligned}0, & 𝑥<0 \\ ∫_{𝑥0}𝑓(𝑡)\,d𝑡, & 0≤𝑥≤12 \\ 1, & 𝑥>12\end{aligned}
 
 
 $$
@@ -221,7 +221,7 @@ For the given probability density function, we have
 $$
 
 
-\begin{aligned}∫_{𝑥0}^{}𝑓(𝑡)\,d𝑡 & =∫_{𝑥0}^{}\frac{1}{72}𝑡\,d𝑡 \\ & =\frac{1}{144}𝑡^{2}_{𝑥0}^{} \\ & =\frac{1}{144}𝑥^{2}.\end{aligned}
+\begin{aligned}∫_{𝑥0}𝑓(𝑡)\,d𝑡 & =∫_{𝑥0}\frac{1}{72}𝑡\,d𝑡 \\ & =\frac{1}{144}𝑡^{2}_{𝑥0} \\ & =\frac{1}{144}𝑥^{2}.\end{aligned}
 
 
 $$

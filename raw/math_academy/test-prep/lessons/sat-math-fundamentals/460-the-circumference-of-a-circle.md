@@ -39,7 +39,7 @@ $$
 
 $$
 
-Here, our circle has diameter $4\,\textrm{cm},$ so its circumference is
+Here, our circle has diameter $4\,\text{cm},$ so its circumference is
 
 $$
 
@@ -147,12 +147,12 @@ The border of the slice of pie will consist of two parts:
 
 - the right part (circular part), which consists of one-sixth of the circumference.
 
-First, let's find the length of the circular part. The formula for the circumference of a circle is $C=2 \pi r,$ where $r=12\,\textrm{in}$ is the radius. Therefore, we have
+First, let's find the length of the circular part. The formula for the circumference of a circle is $C=2 \pi r,$ where $r=12\,\text{in}$ is the radius. Therefore, we have
 
 $$
 
 
-C = 2 \pi \cdot 12 = 24\pi\,\textrm{in}.
+C = 2 \pi \cdot 12 = 24\pi\,\text{in}.
 
 
 $$
@@ -171,20 +171,20 @@ $$
 
 #### Question
 
-Carol has to wrap a rope around a circular column whose diameter is $20\,\textrm{cm}.$ What length of the rope will wrap the column perfectly?
+Carol has to wrap a rope around a circular column whose diameter is $20\,\text{cm}.$ What length of the rope will wrap the column perfectly?
 
 #### Explanation
 
 The length of the rope needed to wrap around the column is its circumference.
 
-The formula for the circumference of a circle is $C = \pi d$, where $d=20\,\textrm{cm}$ is the diameter.
+The formula for the circumference of a circle is $C = \pi d$, where $d=20\,\text{cm}$ is the diameter.
 
 Therefore, we have
 
 $$
 
 
-C = \pi\cdot 20 = 20\pi \,\textrm{cm}.
+C = \pi\cdot 20 = 20\pi \,\text{cm}.
 
 
 $$

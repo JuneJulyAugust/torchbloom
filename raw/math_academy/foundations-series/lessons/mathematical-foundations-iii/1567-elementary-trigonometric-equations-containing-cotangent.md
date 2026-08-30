@@ -21,7 +21,7 @@ $$
 
 $$
 
-Most calculators don't have a $\textrm{arccot}$ button, so we can't get a principal value immediately. However, recall that $\cot x = \dfrac{1}{\tan x}.$ We can get a principal value if we rewrite the equation in terms of $\tan x\mathbin{:}$
+Most calculators don't have a $\text{arccot}$ button, so we can't get a principal value immediately. However, recall that $\cot x = \dfrac{1}{\tan x}.$ We can get a principal value if we rewrite the equation in terms of $\tan x\mathbin{:}$
 
 $$
 
@@ -68,7 +68,7 @@ First, we rearrange the equation to isolate $\cot x\mathbin{:}$
 $$
 
 
-\begin{aligned}3cot⁡𝑥+3\sqrt{√3} & =0 \\ 3cot⁡𝑥 & =−3\sqrt{√3} \\ cot⁡𝑥 & =−\frac{3\sqrt{√3}}{3} \\ cot⁡𝑥 & =−\sqrt{√3}\end{aligned}
+\begin{aligned}3cot⁡𝑥+3\sqrt{3} & =0 \\ 3cot⁡𝑥 & =−3\sqrt{3} \\ cot⁡𝑥 & =−\frac{3\sqrt{3}}{3} \\ cot⁡𝑥 & =−\sqrt{3}\end{aligned}
 
 
 $$
@@ -88,7 +88,7 @@ Now, we find the principal value:
 $$
 
 
-\begin{aligned}𝑥 & =arctan⁡(−\frac{\sqrt{√3}}{3})=−30^{∘}\end{aligned}
+\begin{aligned}𝑥 & =arctan⁡(−\frac{\sqrt{3}}{3})=−30^{∘}\end{aligned}
 
 
 $$
@@ -226,7 +226,7 @@ First, we rearrange the equation and isolate $\cot x\mathbin{:}$
 $$
 
 
-\begin{aligned}3cot⁡𝑥+3\sqrt{√3} & =0 \\ 3cot⁡𝑥 & =−3\sqrt{√3} \\ cot⁡𝑥 & =−\frac{3\sqrt{√3}}{3} \\ cot⁡𝑥 & =−\sqrt{√3}\end{aligned}
+\begin{aligned}3cot⁡𝑥+3\sqrt{3} & =0 \\ 3cot⁡𝑥 & =−3\sqrt{3} \\ cot⁡𝑥 & =−\frac{3\sqrt{3}}{3} \\ cot⁡𝑥 & =−\sqrt{3}\end{aligned}
 
 
 $$
@@ -246,7 +246,7 @@ Now, we find the principal value:
 $$
 
 
-\begin{aligned}𝑥 & =arctan⁡(−\frac{\sqrt{√3}}{3})=−30^{∘}\end{aligned}
+\begin{aligned}𝑥 & =arctan⁡(−\frac{\sqrt{3}}{3})=−30^{∘}\end{aligned}
 
 
 $$
@@ -292,7 +292,7 @@ We can't find an equivalent equation involving tangent, since this would lead to
 $$
 
 
-\tan x = \dfrac{1}{0} = \textrm{undefined}
+\tan x = \dfrac{1}{0} = \text{undefined}
 
 
 $$
@@ -312,7 +312,7 @@ In this case, we can find the principal solution as follows:
 $$
 
 
-\begin{aligned} \cos x &=0\\\[5pt] x &= \arccos 0 \\\[5pt] x &= \dfrac{\pi}{2} \end{aligned}
+\begin{aligned} \cos x &=0\\[5pt] x &= \arccos 0 \\[5pt] x &= \dfrac{\pi}{2} \end{aligned}
 
 
 $$
@@ -354,7 +354,7 @@ We can't find an equivalent equation involving tangent, since this would lead to
 $$
 
 
-\tan x = \dfrac{1}{0} = \textrm{undefined}
+\tan x = \dfrac{1}{0} = \text{undefined}
 
 
 $$
@@ -374,7 +374,7 @@ In this case, we can find the principal solution as follows:
 $$
 
 
-\begin{aligned} \cos x &=0\\\[5pt] x &= \arccos 0 \\\[5pt] x &= 90^\circ \end{aligned}
+\begin{aligned} \cos x &=0\\[5pt] x &= \arccos 0 \\[5pt] x &= 90^\circ \end{aligned}
 
 
 $$

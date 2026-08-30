@@ -151,7 +151,7 @@ Therefore, our statement can be interpreted in the following two ways:
 
 $$
 
-9\times 8 = {\color{blue}{n}}, \qquad \textrm{or}\qquad 8 \times 9 = {\color{blue}{n}}
+9\times 8 = {\color{blue}{n}}, \qquad \text{or}\qquad 8 \times 9 = {\color{blue}{n}}
 
 $$
 
@@ -183,7 +183,7 @@ Therefore, our statement can be interpreted in the following two ways:
 
 $$
 
-9\times {\color{blue}{n}} = 72, \qquad \textrm{or}\qquad {\color{blue}{n}}\times 9= 72
+9\times {\color{blue}{n}} = 72, \qquad \text{or}\qquad {\color{blue}{n}}\times 9= 72
 
 $$
 

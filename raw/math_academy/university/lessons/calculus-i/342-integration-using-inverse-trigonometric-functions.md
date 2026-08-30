@@ -18,7 +18,7 @@ Recall the following derivatives of the inverse trigonometric functions:
 $$
 
 
-\begin{aligned}\frac{d}{d𝑥}(arcsin⁡𝑥) & =\frac{1}{\sqrt{√1−𝑥^{2}}} \\ \frac{d}{d𝑥}(arctan⁡𝑥) & =\frac{1}{1+𝑥^{2}} \\ \frac{d}{d𝑥}(arcsec\,𝑥) & =\frac{1}{|𝑥|\sqrt{√𝑥^{2}−1}}\end{aligned}
+\begin{aligned}\frac{d}{d𝑥}(arcsin⁡𝑥) & =\frac{1}{\sqrt{1−𝑥^{2}}} \\ \frac{d}{d𝑥}(arctan⁡𝑥) & =\frac{1}{1+𝑥^{2}} \\ \frac{d}{d𝑥}(arcsec\,𝑥) & =\frac{1}{|𝑥|\sqrt{𝑥^{2}−1}}\end{aligned}
 
 
 $$
@@ -28,7 +28,7 @@ Since integration is the opposite of differentiation, we arrive at the following
 $$
 
 
-\begin{aligned}∫\frac{1}{\sqrt{√1−𝑥^{2}}}d𝑥 & =arcsin⁡(𝑥)+𝐶 \\ ∫\frac{1}{1+𝑥^{2}}d𝑥 & =arctan⁡(𝑥)+𝐶 \\ ∫\frac{1}{|𝑥|\sqrt{√𝑥^{2}−1}}d𝑥 & =arcsec(𝑥)+𝐶\end{aligned}
+\begin{aligned}∫\frac{1}{\sqrt{1−𝑥^{2}}}d𝑥 & =arcsin⁡(𝑥)+𝐶 \\ ∫\frac{1}{1+𝑥^{2}}d𝑥 & =arctan⁡(𝑥)+𝐶 \\ ∫\frac{1}{|𝑥|\sqrt{𝑥^{2}−1}}d𝑥 & =arcsec(𝑥)+𝐶\end{aligned}
 
 
 $$
@@ -37,7 +37,7 @@ $$
 
 #### Question
 
-Calculate the indefinite integral $\displaystyle \int \frac{3}{\sqrt{1-x^2}}\textrm{d}x.$
+Calculate the indefinite integral $\displaystyle \int \frac{3}{\sqrt{1-x^2}}\text{d}x.$
 
 #### Explanation
 
@@ -46,7 +46,7 @@ Recall that
 $$
 
 
-\int \frac{1}{\sqrt{1-x^2}}\textrm{d}x = \arcsin (x) + C.
+\int \frac{1}{\sqrt{1-x^2}}\text{d}x = \arcsin (x) + C.
 
 
 $$
@@ -56,7 +56,7 @@ Therefore, we have
 $$
 
 
-\begin{aligned}∫\frac{3}{\sqrt{√1−𝑥^{2}}}d𝑥 & =3∫\frac{1}{\sqrt{√1−𝑥^{2}}}d𝑥 \\ & =3arcsin⁡(𝑥)+𝐶.\end{aligned}
+\begin{aligned}∫\frac{3}{\sqrt{1−𝑥^{2}}}d𝑥 & =3∫\frac{1}{\sqrt{1−𝑥^{2}}}d𝑥 \\ & =3arcsin⁡(𝑥)+𝐶.\end{aligned}
 
 
 $$
@@ -65,7 +65,7 @@ $$
 
 #### Question
 
-Calculate $\displaystyle \int \frac{2}{1+x^2}\textrm{d}x.$
+Calculate $\displaystyle \int \frac{2}{1+x^2}\text{d}x.$
 
 #### Explanation
 
@@ -74,7 +74,7 @@ Recall that
 $$
 
 
-\int \frac{1}{1+x^2}\textrm{d}x = \arctan{x} + C.
+\int \frac{1}{1+x^2}\text{d}x = \arctan{x} + C.
 
 
 $$
@@ -102,7 +102,7 @@ Recall that
 $$
 
 
-\int \dfrac{1}{|x|\sqrt{x^2 - 1}} \, \textrm dx = \textrm{arcsec} \, x.
+\int \dfrac{1}{|x|\sqrt{x^2 - 1}} \, \textrm dx = \text{arcsec} \, x.
 
 
 $$
@@ -112,7 +112,7 @@ Then we have
 $$
 
 
-\begin{aligned}\begin{aligned}𝑓(𝑥) & =∫𝑓^{′}(𝑥)\,d𝑥 \\ & =∫(\frac{5}{|𝑥|\sqrt{√𝑥^{2}−1}}−2𝑥)d𝑥 \\ & =∫\frac{5}{|𝑥|\sqrt{√𝑥^{2}−1}}\,d𝑥−∫2𝑥\,d𝑥 \\ & =5∫\frac{1}{|𝑥|\sqrt{√𝑥^{2}−1}}\,d𝑥−2∫𝑥\,d𝑥 \\ & =5arcsec\,(𝑥)−2⋅\frac{𝑥^{2}}{2}+𝐶 \\ & =5arcsec\,(𝑥)−𝑥^{2}+𝐶.\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}𝑓(𝑥) & =∫𝑓^{′}(𝑥)\,d𝑥 \\ & =∫(\frac{5}{|𝑥|\sqrt{𝑥^{2}−1}}−2𝑥)d𝑥 \\ & =∫\frac{5}{|𝑥|\sqrt{𝑥^{2}−1}}\,d𝑥−∫2𝑥\,d𝑥 \\ & =5∫\frac{1}{|𝑥|\sqrt{𝑥^{2}−1}}\,d𝑥−2∫𝑥\,d𝑥 \\ & =5arcsec\,(𝑥)−2⋅\frac{𝑥^{2}}{2}+𝐶 \\ & =5arcsec\,(𝑥)−𝑥^{2}+𝐶.\end{matrix}\end{aligned}
 
 
 $$
@@ -121,7 +121,7 @@ $$
 
 #### Question
 
-Evaluate the integral $\displaystyle \int \dfrac {x^2+2}{x^2 + 1}\, \textrm{d}x.$
+Evaluate the integral $\displaystyle \int \dfrac {x^2+2}{x^2 + 1}\, \text{d}x.$
 
 #### Explanation
 
@@ -150,7 +150,7 @@ we can now calculate the integral and get
 $$
 
 
-\begin{aligned}\begin{aligned}∫\frac{𝑥^{2}+2}{𝑥^{2}+1}\,d𝑥 & =∫(1+\frac{1}{𝑥^{2}+1})d𝑥 \\ & =∫1\,d𝑥+∫\frac{1}{𝑥^{2}+1}\,d𝑥 \\ & =𝑥+arctan⁡(𝑥)+𝐶.\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}∫\frac{𝑥^{2}+2}{𝑥^{2}+1}\,d𝑥 & =∫(1+\frac{1}{𝑥^{2}+1})d𝑥 \\ & =∫1\,d𝑥+∫\frac{1}{𝑥^{2}+1}\,d𝑥 \\ & =𝑥+arctan⁡(𝑥)+𝐶.\end{matrix}\end{aligned}
 
 
 $$

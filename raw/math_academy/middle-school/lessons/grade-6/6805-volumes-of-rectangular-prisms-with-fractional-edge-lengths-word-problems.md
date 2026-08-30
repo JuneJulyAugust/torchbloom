@@ -27,7 +27,7 @@ $$
 
 If there are several identical objects, first find the volume of one object. Then multiply by the number of objects.
 
-For example, suppose a storage box is $\dfrac{5}{2}\,\textrm{ft}$ long, $\dfrac{2}{3}\,\textrm{ft}$ wide, and $3\,\textrm{ft}$ high. Let's find the total volume of $3$ identical boxes.
+For example, suppose a storage box is $\dfrac{5}{2}\,\text{ft}$ long, $\dfrac{2}{3}\,\text{ft}$ wide, and $3\,\text{ft}$ high. Let's find the total volume of $3$ identical boxes.
 
 ![Instructional graphic](../../../lesson-assets/grade-6/topic-6805/4bc647311af7eb29.png)
 
@@ -43,7 +43,7 @@ $$
 
 $$
 
-So, one box has a volume of $5\,\textrm{ft}^3.$
+So, one box has a volume of $5\,\text{ft}^3.$
 
 Since there are $3$ boxes,
 
@@ -57,13 +57,13 @@ $$
 
 $$
 
-The total volume of the boxes is $15\,\textrm{ft}^3.$ Remember to include cubic units when giving a volume.
+The total volume of the boxes is $15\,\text{ft}^3.$ Remember to include cubic units when giving a volume.
 
 ### Example: Calculating the Volume of a Rectangular Prism
 
 #### Question
 
-Alessandro wants to build a concrete tank to store water. If he decides that the inner dimensions of this tank should be $2 \, \textrm{m}$ long, $\dfrac{4}{3} \, \textrm{m}$ wide, and $\dfrac{3}{2} \, \textrm{m}$ high, then how much water can this tank store?
+Alessandro wants to build a concrete tank to store water. If he decides that the inner dimensions of this tank should be $2 \, \text{m}$ long, $\dfrac{4}{3} \, \text{m}$ wide, and $\dfrac{3}{2} \, \text{m}$ high, then how much water can this tank store?
 
 #### Explanation
 
@@ -83,7 +83,7 @@ $$
 
 $$
 
-Therefore, the tank will be able to store $4 \, \textrm{m}^3$ of water.
+Therefore, the tank will be able to store $4 \, \text{m}^3$ of water.
 
 ### Unit Costs for Volumes
 
@@ -97,7 +97,7 @@ To solve these problems:
 
 Be sure the units match. Volume is measured in cubic units (such as $\text{ft}^3$ or $\text{in}^3$), and the rate is given "per cubic unit."
 
-For example, suppose a block of soap is shaped like a rectangular prism that is $2\,\textrm{in}$ long, $\dfrac{3}{2}\,\textrm{in}$ wide, and $\dfrac{4}{3}\,\textrm{in}$ high, and each cubic inch of soap costs $4.$
+For example, suppose a block of soap is shaped like a rectangular prism that is $2\,\text{in}$ long, $\dfrac{3}{2}\,\text{in}$ wide, and $\dfrac{4}{3}\,\text{in}$ high, and each cubic inch of soap costs $4.$
 
 ![Instructional graphic](../../../lesson-assets/grade-6/topic-6805/7878cc8a77520fb5.png)
 
@@ -131,7 +131,7 @@ Therefore, the total cost of the soap block is $16.$ Always find the volume firs
 
 #### Question
 
-A planter box is made from a rectangular concrete block that is $\dfrac{9}{2} \, \textrm{ft}$ long, $\dfrac{5}{3} \, \textrm{ft}$ wide, and $2 \, \textrm{ft}$ high. If each cubic foot of concrete requires $8\,\textrm{lb}$ of sand, how much sand was used to make the planter box?
+A planter box is made from a rectangular concrete block that is $\dfrac{9}{2} \, \text{ft}$ long, $\dfrac{5}{3} \, \text{ft}$ wide, and $2 \, \text{ft}$ high. If each cubic foot of concrete requires $8\,\text{lb}$ of sand, how much sand was used to make the planter box?
 
 #### Explanation
 
@@ -157,13 +157,13 @@ $$
 
 
 
-\dfrac{90 \div 6}{6 \div 6} = 15 \, \textrm{ft}^3
+\dfrac{90 \div 6}{6 \div 6} = 15 \, \text{ft}^3
 
 
 
 $$
 
-Since each cubic foot of concrete requires $8\,\textrm{lb}$ of sand, we get
+Since each cubic foot of concrete requires $8\,\text{lb}$ of sand, we get
 
 $$
 
@@ -175,4 +175,4 @@ $$
 
 $$
 
-Therefore, $120\,\textrm{lb}$ of sand were used to make the planter box.
+Therefore, $120\,\text{lb}$ of sand were used to make the planter box.

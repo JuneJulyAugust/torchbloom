@@ -13,7 +13,7 @@ Topic ID: 1914
 
 The **sum rule** states that the limit of the sum of two functions equals the sum of the limits (provided that those limits exist).
 
-More precisely, if $\lim_\limits{x\rightarrow a}f(x)=L$ and $\lim_\limits{x\rightarrow a}g(x)=K$, then
+More precisely, if $\lim\limits_{x\rightarrow a}f(x)=L$ and $\lim\limits_{x\rightarrow a}g(x)=K$, then
 
 $$
 
@@ -23,7 +23,7 @@ $$
 
 $$
 
-For example, to compute $\lim_\limits{x \rightarrow \,-3} \left(5x^2+2x\right),$ we can first apply the sum rule, followed by the constant rule, and compute the limits of the power functions.
+For example, to compute $\lim\limits_{x \rightarrow \,-3} \left(5x^2+2x\right),$ we can first apply the sum rule, followed by the constant rule, and compute the limits of the power functions.
 
 $$
 
@@ -43,13 +43,13 @@ $$
 
 $$
 
-**Warning!** If one of $\lim_\limits{x\rightarrow a}f(x)$ or $\lim_\limits{x\rightarrow a}g(x)$ exists while the other does not exist, then $\lim_\limits{x\rightarrow a}\Bigl(f(x)+g(x) \Bigr)$ does not exist either.
+**Warning!** If one of $\lim\limits_{x\rightarrow a}f(x)$ or $\lim\limits_{x\rightarrow a}g(x)$ exists while the other does not exist, then $\lim\limits_{x\rightarrow a}\Bigl(f(x)+g(x) \Bigr)$ does not exist either.
 
 ### Example: Applying the Sum Rule to Compute a Limit
 
 #### Question
 
-Evaluate $\lim_\limits{x \rightarrow \,1} \left(6x^2+x\right).$
+Evaluate $\lim\limits_{x \rightarrow \,1} \left(6x^2+x\right).$
 
 #### Explanation
 
@@ -67,7 +67,7 @@ $$
 
 #### Question
 
-The figure below shows the graphs of $y=f(x)$ and $y=g(x).$ Evaluate $\lim_\limits{x \rightarrow \,-2} \Bigl(3f(x) - g(x)\Bigr).$
+The figure below shows the graphs of $y=f(x)$ and $y=g(x).$ Evaluate $\lim\limits_{x \rightarrow \,-2} \Bigl(3f(x) - g(x)\Bigr).$
 
 ![Instructional graphic](../../../lesson-assets/calculus-i/topic-1914/0541507a0796f5b9.png)
 
@@ -78,29 +78,29 @@ According to the sum and constant multiple rules, we can compute the required li
 $$
 
 
-\lim_\limits{x \rightarrow \,-2} \Bigl(3f(x) - g(x)\Bigr) = 3 \lim_\limits{x \rightarrow \,-2} f(x) - \lim_\limits{x \rightarrow \,-2} g(x)
+\lim\limits_{x \rightarrow \,-2} \Bigl(3f(x) - g(x)\Bigr) = 3 \lim\limits_{x \rightarrow \,-2} f(x) - \lim\limits_{x \rightarrow \,-2} g(x)
 
 
 $$
 
-The above assumes that $\lim_\limits{x \rightarrow \,-2} f(x)$ and $\lim_\limits{x \rightarrow \,-2} g(x)$ both exist.
+The above assumes that $\lim\limits_{x \rightarrow \,-2} f(x)$ and $\lim\limits_{x \rightarrow \,-2} g(x)$ both exist.
 
-In the graph, we see that $\lim_\limits{x \rightarrow \,-2} f(x) =-1.$ However, $\lim_\limits{x \rightarrow \,-2} g(x) = \text{DNE}$ because the left and right limits are not equal:
-
-$$
-
-
-\lim_\limits{x\rightarrow {-2}^{-}}g(x)=3, \qquad \lim_\limits{x\rightarrow -2^{+}}g(x)=2 \,.
-
-
-$$
-
-Because $\lim_\limits{x \rightarrow \,-2} f(x)$ exists while $\lim_\limits{x \rightarrow \,-2} g(x)$ does not, the overall limit $\lim_\limits{x \rightarrow \,-2} \Bigl(3f(x) - g(x)\Bigr)$ does not exist either:
+In the graph, we see that $\lim\limits_{x \rightarrow \,-2} f(x) =-1.$ However, $\lim\limits_{x \rightarrow \,-2} g(x) = \text{DNE}$ because the left and right limits are not equal:
 
 $$
 
 
-\lim_\limits{x \rightarrow \,-2} \Bigl(3f(x) - g(x)\Bigr) = \text{DNE}
+\lim\limits_{x\rightarrow {-2}^{-}}g(x)=3, \qquad \lim\limits_{x\rightarrow -2^{+}}g(x)=2 \,.
+
+
+$$
+
+Because $\lim\limits_{x \rightarrow \,-2} f(x)$ exists while $\lim\limits_{x \rightarrow \,-2} g(x)$ does not, the overall limit $\lim\limits_{x \rightarrow \,-2} \Bigl(3f(x) - g(x)\Bigr)$ does not exist either:
+
+$$
+
+
+\lim\limits_{x \rightarrow \,-2} \Bigl(3f(x) - g(x)\Bigr) = \text{DNE}
 
 
 $$

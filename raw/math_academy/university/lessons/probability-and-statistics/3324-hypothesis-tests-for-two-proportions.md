@@ -41,7 +41,7 @@ Since the samples are independent, by the properties of expectation and variance
 $$
 
 
-\textrm E [\widehat{\,p}_1 - \widehat{\,p}_2] = p_1 - p_2, \qquad \textrm{Var} [\widehat{\,p}_1 - \widehat{\,p}_2] = \dfrac{p_1(1-p_1)}{n_1} + \dfrac{p_2(1-p_2)}{n_2}.
+\textrm E [\widehat{\,p}_1 - \widehat{\,p}_2] = p_1 - p_2, \qquad \text{Var} [\widehat{\,p}_1 - \widehat{\,p}_2] = \dfrac{p_1(1-p_1)}{n_1} + \dfrac{p_2(1-p_2)}{n_2}.
 
 
 $$
@@ -79,7 +79,7 @@ As we just saw, the variance of the difference between the two sampling distribu
 $$
 
 
-\textrm{Var}[\widehat{\,p}_1 - \widehat{\,p}_2] = \dfrac{p_1(1-p_1)}{n_1} + \dfrac{p_2(1-p_2)}{n_2}.
+\text{Var}[\widehat{\,p}_1 - \widehat{\,p}_2] = \dfrac{p_1(1-p_1)}{n_1} + \dfrac{p_2(1-p_2)}{n_2}.
 
 
 $$
@@ -131,7 +131,7 @@ Thus, our estimate for the variance is
 $$
 
 
-\textrm{Var}[\widehat{\,p}_1 - \widehat{\,p}_2] =\overline{p}(1-\overline{p})\left(\dfrac{1}{n_1} + \dfrac{1}{n_2}\right).
+\text{Var}[\widehat{\,p}_1 - \widehat{\,p}_2] =\overline{p}(1-\overline{p})\left(\dfrac{1}{n_1} + \dfrac{1}{n_2}\right).
 
 
 $$
@@ -219,7 +219,7 @@ Assuming the null hypothesis, i.e., $p_1-p_2=0,$ we compute the test statistic:
 $$
 
 
-\begin{aligned}𝑧 & =\frac{(\overset{\,𝑝}{ˆ}_{1}−\overset{\,𝑝}{ˆ}_{2})−(𝑝_{1}−𝑝_{2})}{\sqrt{√\overset{𝑝}{–}(1−\overset{𝑝}{–})(\frac{1}{𝑛_{1}}+\frac{1}{𝑛_{2}})}|} \\ & =\frac{(\frac{2}{5}−\frac{1}{5})−(0)}{5} \\ & ≈2.673\end{aligned}
+\begin{aligned}𝑧 & =\frac{(\overset{\,𝑝}{ˆ}_{1}−\overset{\,𝑝}{ˆ}_{2})−(𝑝_{1}−𝑝_{2})}{\sqrt{\overset{𝑝}{–}(1−\overset{𝑝}{–})(\frac{1}{𝑛_{1}}+\frac{1}{𝑛_{2}})}|} \\ & =\frac{(\frac{2}{5}−\frac{1}{5})−(0)}{5} \\ & ≈2.673\end{aligned}
 
 
 $$
@@ -315,7 +315,7 @@ Assuming the null hypothesis, i.e., $p_1-p_2=0,$ we compute the test statistic:
 $$
 
 
-\begin{aligned}𝑧 & =\frac{(\overset{\,𝑝}{ˆ}_{1}−\overset{\,𝑝}{ˆ}_{2})−(𝑝_{1}−𝑝_{2})}{\sqrt{√\overset{𝑝}{–}(1−\overset{𝑝}{–})(\frac{1}{𝑛_{1}}+\frac{1}{𝑛_{2}})}|} \\ & =\frac{(\frac{1}{5}−\frac{2}{7})−(0)}{5} \\ & ≈−1.264\end{aligned}
+\begin{aligned}𝑧 & =\frac{(\overset{\,𝑝}{ˆ}_{1}−\overset{\,𝑝}{ˆ}_{2})−(𝑝_{1}−𝑝_{2})}{\sqrt{\overset{𝑝}{–}(1−\overset{𝑝}{–})(\frac{1}{𝑛_{1}}+\frac{1}{𝑛_{2}})}|} \\ & =\frac{(\frac{1}{5}−\frac{2}{7})−(0)}{5} \\ & ≈−1.264\end{aligned}
 
 
 $$
@@ -405,7 +405,7 @@ Assuming the null hypothesis, i.e., $p_1-p_2=0,$ we compute the test statistic:
 $$
 
 
-\begin{aligned}𝑧 & =\frac{(\overset{\,𝑝}{ˆ}_{1}−\overset{\,𝑝}{ˆ}_{2})−(𝑝_{1}−𝑝_{2})}{\sqrt{√\overset{𝑝}{–}(1−\overset{𝑝}{–})(\frac{1}{𝑛_{1}}+\frac{1}{𝑛_{2}})}|} \\ & =\frac{(0.8−0.9)−(0)}{\sqrt{√\frac{64}{75}(1−\frac{64}{75})(\frac{1}{70}+\frac{1}{80})}|} \\ & ≈−1.727\end{aligned}
+\begin{aligned}𝑧 & =\frac{(\overset{\,𝑝}{ˆ}_{1}−\overset{\,𝑝}{ˆ}_{2})−(𝑝_{1}−𝑝_{2})}{\sqrt{\overset{𝑝}{–}(1−\overset{𝑝}{–})(\frac{1}{𝑛_{1}}+\frac{1}{𝑛_{2}})}|} \\ & =\frac{(0.8−0.9)−(0)}{\sqrt{\frac{64}{75}(1−\frac{64}{75})(\frac{1}{70}+\frac{1}{80})}|} \\ & ≈−1.727\end{aligned}
 
 
 $$
@@ -417,7 +417,7 @@ Since we are considering both tails, our critical region is
 $$
 
 
-Z \leq {-1.645} \qquad \textrm{or} \qquad Z \geq {1.645}.
+Z \leq {-1.645} \qquad \text{or} \qquad Z \geq {1.645}.
 
 
 $$
@@ -501,7 +501,7 @@ Assuming the null hypothesis, i.e., $p_1-p_2=0,$ we compute the test statistic:
 $$
 
 
-\begin{aligned}𝑧 & =\frac{(\overset{\,𝑝}{ˆ}_{1}−\overset{\,𝑝}{ˆ}_{2})−(𝑝_{1}−𝑝_{2})}{\sqrt{√\overset{𝑝}{–}(1−\overset{𝑝}{–})(\frac{1}{𝑛_{1}}+\frac{1}{𝑛_{2}})}|} \\ & =\frac{(\frac{2}{3}−\frac{3}{5})−(0)}{3} \\ & ≈2.289\end{aligned}
+\begin{aligned}𝑧 & =\frac{(\overset{\,𝑝}{ˆ}_{1}−\overset{\,𝑝}{ˆ}_{2})−(𝑝_{1}−𝑝_{2})}{\sqrt{\overset{𝑝}{–}(1−\overset{𝑝}{–})(\frac{1}{𝑛_{1}}+\frac{1}{𝑛_{2}})}|} \\ & =\frac{(\frac{2}{3}−\frac{3}{5})−(0)}{3} \\ & ≈2.289\end{aligned}
 
 
 $$

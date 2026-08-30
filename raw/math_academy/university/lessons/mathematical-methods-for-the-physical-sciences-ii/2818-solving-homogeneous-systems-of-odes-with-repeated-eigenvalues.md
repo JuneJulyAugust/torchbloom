@@ -62,7 +62,7 @@ Given a decoupled system of first-order linear ODEs in the form
 $$
 
 
-[\begin{aligned}𝑥_{′1}^{}(𝑡) \\ 𝑥_{′2}^{}(𝑡)\end{aligned}]
+[\begin{aligned}𝑥_{′1}(𝑡) \\ 𝑥_{′2}(𝑡)\end{aligned}]
 
 
 $$
@@ -148,7 +148,7 @@ To find $\mathbf{w},$ we solve the equation $(A - \lambda I)\mathbf{w} = \mathbf
 $$
 
 
-\begin{aligned}(𝐴−𝜆𝐼)𝐰 & =𝐯 \\ [\begin{aligned}−4+4 & 1 \\ 0 & −4+4\end{aligned}][\begin{aligned}𝑤_{1} \\ 𝑤_{2}\end{aligned}] & =[\begin{aligned}1 \\ 0\end{aligned}] \\ [\begin{aligned}0 & 1 \\ 0 & 0\end{aligned}][\begin{aligned}𝑤_{1} \\ 𝑤_{2}\end{aligned}] & =[\begin{aligned}1 \\ 0\end{aligned}]\end{aligned}
+\begin{aligned}(𝐴−𝜆𝐼)𝐰 & =𝐯 \\ [\begin{matrix}−4+4 & 1 \\ 0 & −4+4\end{matrix}][\begin{matrix}𝑤_{1} \\ 𝑤_{2}\end{matrix}] & =[\begin{matrix}1 \\ 0\end{matrix}] \\ [\begin{matrix}0 & 1 \\ 0 & 0\end{matrix}][\begin{matrix}𝑤_{1} \\ 𝑤_{2}\end{matrix}] & =[\begin{matrix}1 \\ 0\end{matrix}]\end{aligned}
 
 
 $$
@@ -244,7 +244,7 @@ To find $\mathbf{w},$ we solve the equation $(A - \lambda I)\mathbf{w} = \mathbf
 $$
 
 
-\begin{aligned}(𝐴−𝜆𝐼)𝐰 & =𝐯 \\ [\begin{aligned}−1−3 & −8 \\ 2 & 7−3\end{aligned}][\begin{aligned}𝑤_{1} \\ 𝑤_{2}\end{aligned}] & =[\begin{aligned}−2 \\ 1\end{aligned}] \\ [\begin{aligned}−4 & −8 \\ 2 & 4\end{aligned}][\begin{aligned}𝑤_{1} \\ 𝑤_{2}\end{aligned}] & =[\begin{aligned}−2 \\ 1\end{aligned}]\end{aligned}
+\begin{aligned}(𝐴−𝜆𝐼)𝐰 & =𝐯 \\ [\begin{matrix}−1−3 & −8 \\ 2 & 7−3\end{matrix}][\begin{matrix}𝑤_{1} \\ 𝑤_{2}\end{matrix}] & =[\begin{matrix}−2 \\ 1\end{matrix}] \\ [\begin{matrix}−4 & −8 \\ 2 & 4\end{matrix}][\begin{matrix}𝑤_{1} \\ 𝑤_{2}\end{matrix}] & =[\begin{matrix}−2 \\ 1\end{matrix}]\end{aligned}
 
 
 $$
@@ -294,7 +294,7 @@ Now, we need to find the values of $c_1$ and $c_2$ using the initial condition $
 $$
 
 
-\begin{aligned}𝐱(0) & =[\begin{aligned}−2𝑐_{1}+\frac{1}{2}𝑐_{2} \\ 𝑐_{1}\end{aligned}] \\ [\begin{aligned}−3 \\ 1\end{aligned}] & =[\begin{aligned}−2𝑐_{1}+\frac{1}{2}𝑐_{2} \\ 𝑐_{1}\end{aligned}] \\ [\begin{aligned}𝑐_{1} \\ 𝑐_{2}\end{aligned}] & =[\begin{aligned}1 \\ −2\end{aligned}].\end{aligned}
+\begin{aligned}𝐱(0) & =[\begin{matrix}−2𝑐_{1}+\frac{1}{2}𝑐_{2} \\ 𝑐_{1}\end{matrix}] \\ [\begin{matrix}−3 \\ 1\end{matrix}] & =[\begin{matrix}−2𝑐_{1}+\frac{1}{2}𝑐_{2} \\ 𝑐_{1}\end{matrix}] \\ [\begin{matrix}𝑐_{1} \\ 𝑐_{2}\end{matrix}] & =[\begin{matrix}1 \\ −2\end{matrix}].\end{aligned}
 
 
 $$
@@ -304,7 +304,7 @@ Finally, the solution to our initial value problem is given by
 $$
 
 
-\begin{aligned}𝐱(𝑡) & =[\begin{aligned}−2 \\ 1\end{aligned}]𝑒^{3𝑡}−2([\begin{aligned}−2 \\ 1\end{aligned}]𝑡𝑒^{3𝑡}+[\begin{aligned}\frac{1}{2} \\ 0\end{aligned}]𝑒^{3𝑡}) \\ & =[\begin{aligned}−3 \\ 1\end{aligned}]𝑒^{3𝑡}+[\begin{aligned}4 \\ −2\end{aligned}]𝑡𝑒^{3𝑡} \\ & =[\begin{aligned}(4𝑡−3)𝑒^{3𝑡} \\ (1−2𝑡)𝑒^{3𝑡}\end{aligned}].\end{aligned}
+\begin{aligned}𝐱(𝑡) & =[\begin{matrix}−2 \\ 1\end{matrix}]𝑒^{3𝑡}−2([\begin{matrix}−2 \\ 1\end{matrix}]𝑡𝑒^{3𝑡}+[\begin{matrix}\frac{1}{2} \\ 0\end{matrix}]𝑒^{3𝑡}) \\ & =[\begin{matrix}−3 \\ 1\end{matrix}]𝑒^{3𝑡}+[\begin{matrix}4 \\ −2\end{matrix}]𝑡𝑒^{3𝑡} \\ & =[\begin{matrix}(4𝑡−3)𝑒^{3𝑡} \\ (1−2𝑡)𝑒^{3𝑡}\end{matrix}].\end{aligned}
 
 
 $$
@@ -348,7 +348,7 @@ We can see that the second fundamental solution works by substituting $\mathbf x
 $$
 
 
-\begin{aligned}𝐱_{′2}^{}(𝑡) & =𝐴𝐱_{2}(𝑡) \\ \frac{d}{d𝑡}[𝐯𝑡𝑒^{𝜆𝑡}+𝐰𝑒^{𝜆𝑡}] & =𝐴(𝐯𝑡𝑒^{𝜆𝑡}+𝐰𝑒^{𝜆𝑡}) \\ 𝐯𝑒^{𝜆𝑡}+𝜆𝐯𝑡𝑒^{𝜆𝑡}+𝜆𝐰𝑒^{𝜆𝑡} & =𝐴𝐯𝑡𝑒^{𝜆𝑡}+𝐴𝐰𝑒^{𝜆𝑡} \\ 𝐯𝑒^{𝜆𝑡}+𝜆𝐯𝑡𝑒^{𝜆𝑡}+𝜆𝐰𝑒^{𝜆𝑡} & =𝜆𝐯𝑡𝑒^{𝜆𝑡}+𝐴𝐰𝑒^{𝜆𝑡} \\ 𝐯𝑒^{𝜆𝑡}+𝜆𝐰𝑒^{𝜆𝑡} & =𝐴𝐰𝑒^{𝜆𝑡} \\ 𝐯+𝜆𝐰 & =𝐴𝐰 \\ 𝐯 & =𝐴𝐰−𝜆𝐰 \\ 𝐯 & =(𝐴−𝜆𝐼)𝐰.\end{aligned}
+\begin{aligned}𝐱_{′2}(𝑡) & =𝐴𝐱_{2}(𝑡) \\ \frac{d}{d𝑡}[𝐯𝑡𝑒^{𝜆𝑡}+𝐰𝑒^{𝜆𝑡}] & =𝐴(𝐯𝑡𝑒^{𝜆𝑡}+𝐰𝑒^{𝜆𝑡}) \\ 𝐯𝑒^{𝜆𝑡}+𝜆𝐯𝑡𝑒^{𝜆𝑡}+𝜆𝐰𝑒^{𝜆𝑡} & =𝐴𝐯𝑡𝑒^{𝜆𝑡}+𝐴𝐰𝑒^{𝜆𝑡} \\ 𝐯𝑒^{𝜆𝑡}+𝜆𝐯𝑡𝑒^{𝜆𝑡}+𝜆𝐰𝑒^{𝜆𝑡} & =𝜆𝐯𝑡𝑒^{𝜆𝑡}+𝐴𝐰𝑒^{𝜆𝑡} \\ 𝐯𝑒^{𝜆𝑡}+𝜆𝐰𝑒^{𝜆𝑡} & =𝐴𝐰𝑒^{𝜆𝑡} \\ 𝐯+𝜆𝐰 & =𝐴𝐰 \\ 𝐯 & =𝐴𝐰−𝜆𝐰 \\ 𝐯 & =(𝐴−𝜆𝐼)𝐰.\end{aligned}
 
 
 $$

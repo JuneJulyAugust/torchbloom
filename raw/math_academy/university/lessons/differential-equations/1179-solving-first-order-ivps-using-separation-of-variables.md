@@ -129,7 +129,7 @@ $$
 
 #### Question
 
-Find the particular solution to the differential equation $\cos(3y)\dfrac {\textrm{d}y} {\textrm{d}x} + \sin(2x) = 0$ given that $y\left(\dfrac{\pi}{4}\right) = 0.$ Assume that $-\dfrac{\pi}{6} < y < \dfrac{\pi}{6}.$
+Find the particular solution to the differential equation $\cos(3y)\dfrac {\text{d}y} {\text{d}x} + \sin(2x) = 0$ given that $y\left(\dfrac{\pi}{4}\right) = 0.$ Assume that $-\dfrac{\pi}{6} < y < \dfrac{\pi}{6}.$
 
 #### Explanation
 

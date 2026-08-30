@@ -27,7 +27,7 @@ where we have a square root sign. What would be the order of operations? It turn
 $$
 
 
-\begin{aligned}1+\sqrt{√4} & = \\ 1+2 & = \\ 3 & \end{aligned}
+\begin{aligned}1+\sqrt{4} & = \\ 1+2 & = \\ 3 & \end{aligned}
 
 
 $$
@@ -93,7 +93,7 @@ Therefore, following the order of operations, we obtain
 $$
 
 
-\begin{aligned}\sqrt{√(3^{4}+7^{2}−2)÷2} & = \\ \sqrt{√(81+49−2)÷2} & = \\ \sqrt{√(130−2)÷2} & = \\ \sqrt{√128÷2} & = \\ \sqrt{√64} & = \\ \sqrt{√8⋅8} & = \\ \sqrt{√8^{2}} & = \\ 8 & .\end{aligned}
+\begin{aligned}\sqrt{(3^{4}+7^{2}−2)÷2} & = \\ \sqrt{(81+49−2)÷2} & = \\ \sqrt{(130−2)÷2} & = \\ \sqrt{128÷2} & = \\ \sqrt{64} & = \\ \sqrt{8⋅8} & = \\ \sqrt{8^{2}} & = \\ 8 & .\end{aligned}
 
 
 $$
@@ -133,7 +133,7 @@ Therefore, following PEMDAS, we obtain
 $$
 
 
-\begin{aligned}−3\sqrt{√(2^{4}−1)÷3} & = \\ −3\sqrt{√(16−1)÷3} & = \\ −3\sqrt{√15÷3} & = \\ −3\sqrt{√5} & .\end{aligned}
+\begin{aligned}−3\sqrt{(2^{4}−1)÷3} & = \\ −3\sqrt{(16−1)÷3} & = \\ −3\sqrt{15÷3} & = \\ −3\sqrt{5} & .\end{aligned}
 
 
 $$
@@ -171,7 +171,7 @@ Therefore, following the order of operations, we obtain
 $$
 
 
-\begin{aligned}\sqrt{√((5^{2}−4)÷3)−2} & = \\ \sqrt{√((25−4)÷3)−2} & = \\ \sqrt{√(21÷3)−2} & = \\ \sqrt{√7−2} & = \\ \sqrt{√5} & .\end{aligned}
+\begin{aligned}\sqrt{((5^{2}−4)÷3)−2} & = \\ \sqrt{((25−4)÷3)−2} & = \\ \sqrt{(21÷3)−2} & = \\ \sqrt{7−2} & = \\ \sqrt{5} & .\end{aligned}
 
 
 $$
@@ -195,7 +195,7 @@ Therefore, following the order of operations, we obtain
 $$
 
 
-\begin{aligned}2\sqrt{√13×2−5}+1 & = \\ 2\sqrt{√26−5}+1 & = \\ 2\sqrt{√21}+1. & \end{aligned}
+\begin{aligned}2\sqrt{13×2−5}+1 & = \\ 2\sqrt{26−5}+1 & = \\ 2\sqrt{21}+1. & \end{aligned}
 
 
 $$
@@ -217,7 +217,7 @@ Finally, we approximate the value of the expression:
 $$
 
 
-\begin{aligned}2\sqrt{√21}+1 & ≈ \\ 2(4.582\,576)+1 & = \\ 9.165\,152+1 & = \\ 10.165\,152 & ≈ \\ 10.165 & \end{aligned}
+\begin{aligned}2\sqrt{21}+1 & ≈ \\ 2(4.582\,576)+1 & = \\ 9.165\,152+1 & = \\ 10.165\,152 & ≈ \\ 10.165 & \end{aligned}
 
 
 $$

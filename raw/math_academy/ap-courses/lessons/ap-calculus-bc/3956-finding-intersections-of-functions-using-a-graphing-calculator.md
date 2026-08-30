@@ -56,7 +56,7 @@ Therefore, the problem can be reduced to finding the roots of the function $h(x)
 $$
 
 
-\begin{aligned}ℎ(𝑥) & =𝑓(𝑥)−𝑔(𝑥) \\ & =(𝑥^{4}−1)−(\sqrt{√𝑥}) \\ & =𝑥^{4}−1−\sqrt{√𝑥}.\end{aligned}
+\begin{aligned}ℎ(𝑥) & =𝑓(𝑥)−𝑔(𝑥) \\ & =(𝑥^{4}−1)−(\sqrt{𝑥}) \\ & =𝑥^{4}−1−\sqrt{𝑥}.\end{aligned}
 
 
 $$
@@ -272,7 +272,7 @@ As a result, the problem can be reduced to finding the roots of the function
 $$
 
 
-\begin{aligned}ℎ(𝑥) & =𝑓(𝑥)−𝑔(𝑥) \\ & =(5−\sqrt{√𝑥})−sin⁡(\frac{𝑥}{5}) \\ & =5−\sqrt{√𝑥}−sin⁡(\frac{𝑥}{5}).\end{aligned}
+\begin{aligned}ℎ(𝑥) & =𝑓(𝑥)−𝑔(𝑥) \\ & =(5−\sqrt{𝑥})−sin⁡(\frac{𝑥}{5}) \\ & =5−\sqrt{𝑥}−sin⁡(\frac{𝑥}{5}).\end{aligned}
 
 
 $$

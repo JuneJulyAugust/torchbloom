@@ -13,7 +13,7 @@ Topic ID: 735
 
 ### Introduction
 
-A **complex number** is a combination of a real number and an imaginary number. If we add the real number $\color{blue}2$ and the imaginary number ${\color{red}3\textrm{i}},$ we get the complex number ${\color{blue}2} +{\color{red}3\textrm{i}}.$
+A **complex number** is a combination of a real number and an imaginary number. If we add the real number $\color{blue}2$ and the imaginary number ${\color{red}3\text{i}},$ we get the complex number ${\color{blue}2} +{\color{red}3\text{i}}.$
 
 This complex number has **real part** equal to $\color{blue}2$ and **imaginary part** equal to ${\color{red}3},$ which we write as
 
@@ -27,17 +27,17 @@ $$
 
 $$
 
-In general, we write a complex number as ${\color{blue}a} + {\color{red}b\textrm{i}},$ where $\color{blue}a$ is the real part and $\color{red}b$ is the imaginary part.
+In general, we write a complex number as ${\color{blue}a} + {\color{red}b\text{i}},$ where $\color{blue}a$ is the real part and $\color{red}b$ is the imaginary part.
 
 ### Example: Identifying the Real and Imaginary Parts of a Complex Number
 
 #### Question
 
-What are the real and imaginary parts of the complex number $5 - 2\textrm{i}?$
+What are the real and imaginary parts of the complex number $5 - 2\text{i}?$
 
 #### Explanation
 
-For a given complex number $z = a + b \textrm{i},$
+For a given complex number $z = a + b \text{i},$
 
 - the number $a$ is called the **** of $z,$ and
 
@@ -49,23 +49,23 @@ Therefore, the real part of the given complex number is $5,$ and the imaginary p
 
 #### Question
 
-What is the real part of the complex number $\sqrt 3+6\textrm{i}-2?$
+What is the real part of the complex number $\sqrt 3+6\text{i}-2?$
 
 #### Explanation
 
-For a given complex number $z = a + b \textrm{i},$
+For a given complex number $z = a + b \text{i},$
 
 - the number $a$ is called the **** of $z,$ and
 
 - the number $b$ is called the **** of $z.$
 
-Rewriting the given complex number in the form $a + b \textrm{i},$ we get
+Rewriting the given complex number in the form $a + b \text{i},$ we get
 
 $$
 
 
 
-\sqrt 3+6\textrm{i}-2=\left(\sqrt 3-2\right)+6\textrm{i}.
+\sqrt 3+6\text{i}-2=\left(\sqrt 3-2\right)+6\text{i}.
 
 
 
@@ -75,13 +75,13 @@ Therefore, the real part of the given complex number is $\sqrt 3-2$ and the imag
 
 ### Complex Numbers Where the Real or Imaginary Part is Zero
 
-Any real number is a complex number ${\color{blue}a} + {\color{red}b\textrm{i}}$ with the imaginary part $\color{red}b$ equal to $0.$ For instance, $3$ is a complex number, because
+Any real number is a complex number ${\color{blue}a} + {\color{red}b\text{i}}$ with the imaginary part $\color{red}b$ equal to $0.$ For instance, $3$ is a complex number, because
 
 $$
 
 
 
-3 = 3+ {\color{red}0\textrm{i}}.
+3 = 3+ {\color{red}0\text{i}}.
 
 
 
@@ -89,13 +89,13 @@ $$
 
 In such a case, we say the complex number is **real**.
 
-Similarly, an imaginary number is a complex number ${\color{blue}a} + {\color{red}b\textrm{i}}$ with the real part $\color{blue}a$ equal to $0.$ For example, $2\textrm{i}$ is a complex number, because
+Similarly, an imaginary number is a complex number ${\color{blue}a} + {\color{red}b\text{i}}$ with the real part $\color{blue}a$ equal to $0.$ For example, $2\text{i}$ is a complex number, because
 
 $$
 
 
 
-2\textrm{i} = {\color{blue}0} + 2\textrm{i}.
+2\text{i} = {\color{blue}0} + 2\text{i}.
 
 
 
@@ -109,23 +109,23 @@ Ultimately, this means that the real numbers and the imaginary numbers are both 
 
 #### Question
 
-What is the real part of the complex number $-\sqrt 7 \,\textrm{i}?$
+What is the real part of the complex number $-\sqrt 7 \,\text{i}?$
 
 #### Explanation
 
-For a given complex number $z = a + b \textrm{i},$
+For a given complex number $z = a + b \text{i},$
 
 - the number $a$ is called the **** of $z,$ and
 
 - the number $b$ is called the **** of $z.$
 
-We can think of the number $-\sqrt 7 \,\textrm{i}$ as having a real part of zero:
+We can think of the number $-\sqrt 7 \,\text{i}$ as having a real part of zero:
 
 $$
 
 
 
--\sqrt 7\,\textrm{i} = 0 - \sqrt 7\,\textrm{i}
+-\sqrt 7\,\text{i} = 0 - \sqrt 7\,\text{i}
 
 
 
@@ -141,7 +141,7 @@ What is the imaginary part of the complex number $-6?$
 
 #### Explanation
 
-For a given complex number $z = a + b \textrm{i},$
+For a given complex number $z = a + b \text{i},$
 
 - the number $a$ is called the **** of $z,$ and
 
@@ -153,7 +153,7 @@ $$
 
 
 
--6 = -6+ 0\textrm{i}
+-6 = -6+ 0\text{i}
 
 
 

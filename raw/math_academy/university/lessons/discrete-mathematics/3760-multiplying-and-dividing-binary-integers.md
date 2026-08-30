@@ -94,7 +94,7 @@ $$
 
 
 
-\begin{aligned} & \begin{aligned} & & & & 1 & 1 & 0 & 0 \\ & × & & & & 1 & 0 & 1 \\ & & & & & & & \end{aligned}\end{aligned}
+\begin{aligned} & \begin{matrix} & & & & 1 & 1 & 0 & 0 \\ & × & & & & 1 & 0 & 1 \\ & & & & & & & \end{matrix}\end{aligned}
 
 
 
@@ -108,7 +108,7 @@ $$
 
 
 
-\begin{aligned} & \begin{aligned} & & & & 1 & 1 & 0 & 0 \\ & × & & & & 1 & 0 & 1 \\ & & & & 1 & 1 & 0 & 0\end{aligned}\end{aligned}
+\begin{aligned} & \begin{matrix} & & & & 1 & 1 & 0 & 0 \\ & × & & & & 1 & 0 & 1 \\ & & & & 1 & 1 & 0 & 0\end{matrix}\end{aligned}
 
 
 
@@ -120,7 +120,7 @@ $$
 
 
 
-\begin{aligned} & \begin{aligned} & & & & 1 & 1 & 0 & 0 \\ & × & & & & 1 & 0 & 1 \\ & & & & 1 & 1 & 0 & 0 \\ & & & 0 & 0 & 0 & 0 & 0\end{aligned}\end{aligned}
+\begin{aligned} & \begin{matrix} & & & & 1 & 1 & 0 & 0 \\ & × & & & & 1 & 0 & 1 \\ & & & & 1 & 1 & 0 & 0 \\ & & & 0 & 0 & 0 & 0 & 0\end{matrix}\end{aligned}
 
 
 
@@ -132,7 +132,7 @@ $$
 
 
 
-\begin{aligned} & \begin{aligned} & & & & 1 & 1 & 0 & 0 \\ & × & & & & 1 & 0 & 1 \\ & & & & 1 & 1 & 0 & 0 \\ & & & 0 & 0 & 0 & 0 & 0 \\ & & 1 & 1 & 0 & 0 & 0 & 0\end{aligned}\end{aligned}
+\begin{aligned} & \begin{matrix} & & & & 1 & 1 & 0 & 0 \\ & × & & & & 1 & 0 & 1 \\ & & & & 1 & 1 & 0 & 0 \\ & & & 0 & 0 & 0 & 0 & 0 \\ & & 1 & 1 & 0 & 0 & 0 & 0\end{matrix}\end{aligned}
 
 
 
@@ -144,7 +144,7 @@ $$
 
 
 
-\begin{aligned} & \begin{aligned} & & & & 1 & 1 & 0 & 0 \\ & × & & & & 1 & 0 & 1 \\ & & & & 1 & 1 & 0 & 0 \\ & & & 0 & 0 & 0 & 0 & 0 \\ & + & 1 & 1 & 0 & 0 & 0 & 0 \\ & & 1 & 1 & 1 & 1 & 0 & 0\end{aligned}\end{aligned}
+\begin{aligned} & \begin{matrix} & & & & 1 & 1 & 0 & 0 \\ & × & & & & 1 & 0 & 1 \\ & & & & 1 & 1 & 0 & 0 \\ & & & 0 & 0 & 0 & 0 & 0 \\ & + & 1 & 1 & 0 & 0 & 0 & 0 \\ & & 1 & 1 & 1 & 1 & 0 & 0\end{matrix}\end{aligned}
 
 
 

@@ -67,7 +67,7 @@ Note that since $I(t) = \dfrac{\mathrm{d}q}{\mathrm{d}t},$ solving for $q(t)$ al
 
 ### A Worked Example
 
-Consider a series RC circuit with a source electromotive force (EMF) of $8\sin(2t)\,\textrm{V},$ a resistance of $40\,\Omega,$ and a capacitance of $0.0025\,\textrm{F}.$ Let's find the differential equation governing the amount of charge $q$ (in coulombs) on the capacitor at time $t$ (in seconds).
+Consider a series RC circuit with a source electromotive force (EMF) of $8\sin(2t)\,\text{V},$ a resistance of $40\,\Omega,$ and a capacitance of $0.0025\,\text{F}.$ Let's find the differential equation governing the amount of charge $q$ (in coulombs) on the capacitor at time $t$ (in seconds).
 
 The current $I,$ measured in amperes, is defined as the rate of flow of charge $q,$ measured in coulombs:
 
@@ -117,7 +117,7 @@ Find the differential equation governing the amount of charge $q$ (in coulombs) 
 
 #### Explanation
 
-The diagram shows a series RC circuit with a source electromotive force (EMF) of $20\sin(3t)\,\textrm{V},$ a resistor of resistance $80\,\Omega,$ and a capacitor of capacitance $0.0025\,\textrm{F}.$
+The diagram shows a series RC circuit with a source electromotive force (EMF) of $20\sin(3t)\,\text{V},$ a resistor of resistance $80\,\Omega,$ and a capacitor of capacitance $0.0025\,\text{F}.$
 
 The current $I,$ measured in amperes, is defined as the rate of flow of charge $q,$ measured in coulombs.
 
@@ -203,7 +203,7 @@ Therefore, the steady-state charge (the charge the capacitor approaches as time 
 
 ![Instructional graphic](../../../lesson-assets/differential-equations/topic-6701/a8b0c3a438ae0818.png)
 
-Find an equation for the charge $q$ (in coulombs) on the capacitor in the circuit given in the diagram above, expressing your answer in terms of time $t$ (in seconds) ****, and given that the initial charge is $\dfrac{1}{50}\,\textrm{C}.$
+Find an equation for the charge $q$ (in coulombs) on the capacitor in the circuit given in the diagram above, expressing your answer in terms of time $t$ (in seconds) ****, and given that the initial charge is $\dfrac{1}{50}\,\text{C}.$
 
 **
 
@@ -263,7 +263,7 @@ q(t) = q_c(t) + q_p(t) = Ae^{-10t} + \dfrac3{100}.
 
 $$
 
-We're told that the circuit starts with an initial charge of $\dfrac{1}{50}\,\textrm{C}$ on the capacitor. So, we can apply the initial condition $q(0) = \dfrac{1}{50},$ and solve for $A{:}$
+We're told that the circuit starts with an initial charge of $\dfrac{1}{50}\,\text{C}$ on the capacitor. So, we can apply the initial condition $q(0) = \dfrac{1}{50},$ and solve for $A{:}$
 
 $$
 
@@ -299,7 +299,7 @@ To demonstrate, let's find the amplitude of the steady-state charge in the RC ci
 
 ![Instructional graphic](../../../lesson-assets/differential-equations/topic-6701/e2bcb9b9731e3f64.png)
 
-The diagram shows a series RC circuit with a source electromotive force (EMF) of $20\cos(4t)\,\textrm{V},$ a resistor with resistance $50\,\Omega,$ and a capacitor of capacitance $\dfrac{1}{150}\,\textrm{F}.$
+The diagram shows a series RC circuit with a source electromotive force (EMF) of $20\cos(4t)\,\text{V},$ a resistor with resistance $50\,\Omega,$ and a capacitor of capacitance $\dfrac{1}{150}\,\text{F}.$
 
 The current $I,$ measured in amperes, is defined as the rate of flow of charge $q,$ measured in coulombs:
 
@@ -376,7 +376,7 @@ Finally, the amplitude of the steady-state charge is given by
 $$
 
 
-\sqrt{\left(\dfrac{6}{125}\right)^2 + \left(\dfrac{8}{125}\right)^2} =0.08\,\textrm{coulombs}.
+\sqrt{\left(\dfrac{6}{125}\right)^2 + \left(\dfrac{8}{125}\right)^2} =0.08\,\text{coulombs}.
 
 
 $$
@@ -395,7 +395,7 @@ Find the amplitude of the steady-state charge for the RC circuit shown above, in
 
 #### Explanation
 
-The diagram shows a series RC circuit with a source electromotive force (EMF) of $90\cos(6t)\,\textrm{V},$ a resistor with resistance $30\,\Omega,$ and a capacitor with capacitance $\dfrac1{150}\,\textrm{F}.$
+The diagram shows a series RC circuit with a source electromotive force (EMF) of $90\cos(6t)\,\text{V},$ a resistor with resistance $30\,\Omega,$ and a capacitor with capacitance $\dfrac1{150}\,\text{F}.$
 
 The current $I,$ measured in amperes, is defined as the rate of flow of charge $q,$ measured in coulombs.
 

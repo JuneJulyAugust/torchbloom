@@ -18,7 +18,7 @@ To illustrate, let's consider the following example:
 $$
 
 
-I = \int \dfrac{\ln x}{x} \textrm{d}x
+I = \int \dfrac{\ln x}{x} \text{d}x
 
 
 $$
@@ -59,7 +59,7 @@ Notice that we added a constant of integration right at the very end of the calc
 
 #### Question
 
-Calculate $\displaystyle \int \dfrac{\ln^2{x}}{x} \textrm{d}x$ using integration by parts.
+Calculate $\displaystyle \int \dfrac{\ln^2{x}}{x} \text{d}x$ using integration by parts.
 
 #### Explanation
 
@@ -68,7 +68,7 @@ First, we let
 $$
 
 
-I = \int \dfrac{\ln^2 x}{x} \, \textrm{d}x.
+I = \int \dfrac{\ln^2 x}{x} \, \text{d}x.
 
 
 $$
@@ -107,7 +107,7 @@ $$
 
 #### Question
 
-Calculate $\displaystyle \int e^{x}\sin{x} \, \textrm{d}x.$
+Calculate $\displaystyle \int e^{x}\sin{x} \, \text{d}x.$
 
 #### Explanation
 
@@ -136,7 +136,7 @@ Again, we can use integration by parts to evaluate
 $$
 
 
-J = \int e^{x}\cos{x}\,\textrm{d}x.
+J = \int e^{x}\cos{x}\,\text{d}x.
 
 
 $$
@@ -175,11 +175,11 @@ $$
 
 #### Question
 
-Evaluate $\displaystyle \int_0^{\pi/2} e^x\sin(2x) \, \textrm{d}x.$
+Evaluate $\displaystyle \int_0^{\pi/2} e^x\sin(2x) \, \text{d}x.$
 
 #### Explanation
 
-Let's denote the indefinite integral by $I = \displaystyle \int e^{x}\sin(2x)\, \textrm{d}x.$
+Let's denote the indefinite integral by $I = \displaystyle \int e^{x}\sin(2x)\, \text{d}x.$
 
 To use integration by parts, let's suppose that
 
@@ -206,7 +206,7 @@ Again, we can use integration by parts to evaluate
 $$
 
 
-J = \int e^{x}\cos(2x)\,\textrm{d}x.
+J = \int e^{x}\cos(2x)\,\text{d}x.
 
 
 $$
@@ -246,7 +246,7 @@ Finally, we evaluate our definite integral, as follows:
 $$
 
 
-\begin{aligned}∫_{𝜋/20}^{}𝑒^{𝑥}sin⁡(2𝑥)\,d𝑥 & =(\frac{𝑒^{𝑥}(sin⁡(2𝑥)−2cos⁡(2𝑥))}{5})_{𝜋/20}^{} \\ & =\frac{𝑒^{𝜋/2}(sin⁡(2⋅\frac{𝜋}{2})−2cos⁡(2⋅\frac{𝜋}{2}))}{2}−\frac{𝑒^{0}(sin⁡(2⋅0)−2cos⁡(2⋅0))}{5} \\ & =\frac{2𝑒^{𝜋/2}}{5}+\frac{2}{5} \\ & =\frac{2}{5}(𝑒^{𝜋/2}+1)\end{aligned}
+\begin{aligned}∫_{𝜋/20}𝑒^{𝑥}sin⁡(2𝑥)\,d𝑥 & =(\frac{𝑒^{𝑥}(sin⁡(2𝑥)−2cos⁡(2𝑥))}{5})_{𝜋/20} \\ & =\frac{𝑒^{𝜋/2}(sin⁡(2⋅\frac{𝜋}{2})−2cos⁡(2⋅\frac{𝜋}{2}))}{2}−\frac{𝑒^{0}(sin⁡(2⋅0)−2cos⁡(2⋅0))}{5} \\ & =\frac{2𝑒^{𝜋/2}}{5}+\frac{2}{5} \\ & =\frac{2}{5}(𝑒^{𝜋/2}+1)\end{aligned}
 
 
 $$

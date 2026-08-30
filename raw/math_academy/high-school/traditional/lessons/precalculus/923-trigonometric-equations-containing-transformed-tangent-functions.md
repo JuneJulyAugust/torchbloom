@@ -127,7 +127,7 @@ $$
 
 
 
-\begin{aligned}2\sqrt{√3}tan⁡(2𝑥+\frac{𝜋}{3})−2 & =0 \\ 2\sqrt{√3}tan⁡(2𝑥+\frac{𝜋}{3}) & =2 \\ tan⁡(2𝑥+\frac{𝜋}{3}) & =\frac{1}{\sqrt{√3}} \\ tan⁡(2𝑥+\frac{𝜋}{3}) & =\frac{\sqrt{√3}}{3}\end{aligned}
+\begin{aligned}2\sqrt{3}tan⁡(2𝑥+\frac{𝜋}{3})−2 & =0 \\ 2\sqrt{3}tan⁡(2𝑥+\frac{𝜋}{3}) & =2 \\ tan⁡(2𝑥+\frac{𝜋}{3}) & =\frac{1}{\sqrt{3}} \\ tan⁡(2𝑥+\frac{𝜋}{3}) & =\frac{\sqrt{3}}{3}\end{aligned}
 
 
 

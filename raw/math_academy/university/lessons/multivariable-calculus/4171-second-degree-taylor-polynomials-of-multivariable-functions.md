@@ -17,7 +17,7 @@ Recall that the quadratic Taylor polynomial of a function $f(x)$ at the point $x
 $$
 
 
-f(x) \approx \overbrace{f(a) + f'(a)(x-a)}^{\text{Linear approximation}} + \underbrace{\dfrac{1}{2}f''(a)(x-a)^2}_{\textrm{Quadratic part}}.
+f(x) \approx \overbrace{f(a) + f'(a)(x-a)}^{\text{Linear approximation}} + \underbrace{\dfrac{1}{2}f''(a)(x-a)^2}_{\text{Quadratic part}}.
 
 
 $$
@@ -29,7 +29,7 @@ Given a twice-differentiable function $f(x,y),$ the **quadratic Taylor polynomia
 $$
 
 
-\begin{aligned}𝑓(𝑥,𝑦) & ≈\overset{\overset{𝑓(𝑎,𝑏)+𝑓_{𝑥}(𝑎,𝑏)⋅(𝑥−𝑎)+𝑓_{𝑦}(𝑎,𝑏)⋅(𝑦−𝑏)}{}}{Linear approximation} \\ & ≈\,\,+\underset{Quadratic part}{\underset{}{\frac{1}{2}(𝑓_{𝑥𝑥}(𝑎,𝑏)⋅(𝑥−𝑎)^{2}+2𝑓_{𝑥𝑦}(𝑎,𝑏)⋅(𝑥−𝑎)(𝑦−𝑏)+𝑓_{𝑦𝑦}(𝑎,𝑏)⋅(𝑦−𝑏)^{2})}}.\end{aligned}
+\begin{aligned}𝑓(𝑥,𝑦) & ≈\overset{𝑓(𝑎,𝑏)+𝑓_{𝑥}(𝑎,𝑏)⋅(𝑥−𝑎)+𝑓_{𝑦}(𝑎,𝑏)⋅(𝑦−𝑏)}{}}{Linear approximation} \\ & ≈\,\,+\underset{Quadratic part}{\underset{}{\frac{1}{2}(𝑓_{𝑥𝑥}(𝑎,𝑏)⋅(𝑥−𝑎)^{2}+2𝑓_{𝑥𝑦}(𝑎,𝑏)⋅(𝑥−𝑎)(𝑦−𝑏)+𝑓_{𝑦𝑦}(𝑎,𝑏)⋅(𝑦−𝑏)^{2})}}.\end{aligned}
 
 
 $$
@@ -59,7 +59,7 @@ If the function $f(x,y)$ is twice differentiable at $(x,y) = (0,0),$ then the qu
 $$
 
 
-\begin{aligned}𝑓(𝑥,𝑦) & ≈\overset{\overset{𝑓(0,0)+𝑓_{𝑥}(0,0)⋅𝑥+𝑓_{𝑦}(0,0)⋅𝑦}{}}{Linear approximation} \\ & ≈\,\,+\underset{Quadratic part}{\underset{}{\frac{1}{2}(𝑓_{𝑥𝑥}(0,0)⋅𝑥^{2}+2𝑓_{𝑥𝑦}(0,0)⋅𝑥𝑦+𝑓_{𝑦𝑦}(0,0)⋅𝑦^{2})}}.\end{aligned}
+\begin{aligned}𝑓(𝑥,𝑦) & ≈\overset{𝑓(0,0)+𝑓_{𝑥}(0,0)⋅𝑥+𝑓_{𝑦}(0,0)⋅𝑦}{}}{Linear approximation} \\ & ≈\,\,+\underset{Quadratic part}{\underset{}{\frac{1}{2}(𝑓_{𝑥𝑥}(0,0)⋅𝑥^{2}+2𝑓_{𝑥𝑦}(0,0)⋅𝑥𝑦+𝑓_{𝑦𝑦}(0,0)⋅𝑦^{2})}}.\end{aligned}
 
 
 $$
@@ -93,7 +93,7 @@ To see how, let's consider the quadratic Taylor polynomial of $f(x,y)$ about $(a
 $$
 
 
-\begin{aligned}𝑓(𝑥,𝑦) & ≈\overset{\overset{𝑓(𝑎,𝑏)+𝑓_{𝑥}(𝑎,𝑏)⋅(𝑥−𝑎)+𝑓_{𝑦}(𝑎,𝑏)⋅(𝑦−𝑏)}{}}{Linear approximation} \\ & ≈\,\,+\underset{Quadratic part}{\underset{}{\frac{1}{2}(𝑓_{𝑥𝑥}(𝑎,𝑏)⋅(𝑥−𝑎)^{2}+2𝑓_{𝑥𝑦}(𝑎,𝑏)⋅(𝑥−𝑎)(𝑦−𝑏)+𝑓_{𝑦𝑦}(𝑎,𝑏)⋅(𝑦−𝑏)^{2})}}.\end{aligned}
+\begin{aligned}𝑓(𝑥,𝑦) & ≈\overset{𝑓(𝑎,𝑏)+𝑓_{𝑥}(𝑎,𝑏)⋅(𝑥−𝑎)+𝑓_{𝑦}(𝑎,𝑏)⋅(𝑦−𝑏)}{}}{Linear approximation} \\ & ≈\,\,+\underset{Quadratic part}{\underset{}{\frac{1}{2}(𝑓_{𝑥𝑥}(𝑎,𝑏)⋅(𝑥−𝑎)^{2}+2𝑓_{𝑥𝑦}(𝑎,𝑏)⋅(𝑥−𝑎)(𝑦−𝑏)+𝑓_{𝑦𝑦}(𝑎,𝑏)⋅(𝑦−𝑏)^{2})}}.\end{aligned}
 
 
 $$
@@ -113,7 +113,7 @@ With that in mind, we can rewrite the linear part of the approximation as follow
 $$
 
 
-\begin{aligned}Linear approximation & =𝑓(𝑎,𝑏)+𝑓_{𝑥}(𝑎,𝑏)⋅(𝑥−𝑎)+𝑓_{𝑦}(𝑎,𝑏)⋅(𝑦−𝑏) \\ & =𝑓(𝐚)+[\begin{aligned}𝑓_{𝑥}(𝑎,𝑏) & 𝑓_{𝑦}(𝑎,𝑏)\end{aligned}]⋅[\begin{aligned}𝑥−𝑎 \\ 𝑦−𝑏\end{aligned}] \\ & =𝑓(𝐚)+[\begin{aligned}𝑓_{𝑥}(𝑎,𝑏) & 𝑓_{𝑦}(𝑎,𝑏)\end{aligned}]⋅([\begin{aligned}𝑥 \\ 𝑦\end{aligned}]−[\begin{aligned}𝑎 \\ 𝑏\end{aligned}]) \\ & =𝑓(𝐚)+𝒇^{′}(𝐚)(𝐱−𝐚)\end{aligned}
+\begin{aligned}Linear approximation & =𝑓(𝑎,𝑏)+𝑓_{𝑥}(𝑎,𝑏)⋅(𝑥−𝑎)+𝑓_{𝑦}(𝑎,𝑏)⋅(𝑦−𝑏) \\ & =𝑓(𝐚)+[\begin{matrix}𝑓_{𝑥}(𝑎,𝑏) & 𝑓_{𝑦}(𝑎,𝑏)\end{matrix}]⋅[\begin{matrix}𝑥−𝑎 \\ 𝑦−𝑏\end{matrix}] \\ & =𝑓(𝐚)+[\begin{matrix}𝑓_{𝑥}(𝑎,𝑏) & 𝑓_{𝑦}(𝑎,𝑏)\end{matrix}]⋅([\begin{matrix}𝑥 \\ 𝑦\end{matrix}]−[\begin{matrix}𝑎 \\ 𝑏\end{matrix}]) \\ & =𝑓(𝐚)+𝒇^{′}(𝐚)(𝐱−𝐚)\end{aligned}
 
 
 $$
@@ -135,7 +135,7 @@ Therefore, using the fact that $f_{xy} = f_{yx},$ we can rewrite the quadratic p
 $$
 
 
-\begin{aligned}Quadratic part & =\frac{1}{2}(𝑓_{𝑥𝑥}(𝑎,𝑏)⋅(𝑥−𝑎)^{2}+2𝑓_{𝑥𝑦}(𝑎,𝑏)⋅(𝑥−𝑎)(𝑦−𝑏)+𝑓_{𝑦𝑦}(𝑎,𝑏)⋅(𝑦−𝑏)^{2}) \\ & =\frac{1}{2}[\begin{aligned}𝑥−𝑎 & 𝑦−𝑏\end{aligned}]⋅[\begin{aligned}𝑓_{𝑥𝑥}(𝐚) & 𝑓_{𝑥𝑦}(𝐚) \\ 𝑓_{𝑦𝑥}(𝐚) & 𝑓_{𝑦𝑦}(𝐚)\end{aligned}]⋅[\begin{aligned}𝑥−𝑎 \\ 𝑦−𝑏\end{aligned}] \\ & =\frac{1}{2}([\begin{aligned}𝑥 & 𝑦\end{aligned}]−[\begin{aligned}𝑎 & 𝑏\end{aligned}])⋅[\begin{aligned}𝑓_{𝑥𝑥}(𝐚) & 𝑓_{𝑥𝑦}(𝐚) \\ 𝑓_{𝑦𝑥}(𝐚) & 𝑓_{𝑦𝑦}(𝐚)\end{aligned}]⋅([\begin{aligned}𝑥 \\ 𝑦\end{aligned}]−[\begin{aligned}𝑎 \\ 𝑏\end{aligned}]) \\ & =\frac{1}{2}(𝐱−𝐚)^{𝑇}𝒇^{″}(𝐚)(𝐱−𝐚)\end{aligned}
+\begin{aligned}Quadratic part & =\frac{1}{2}(𝑓_{𝑥𝑥}(𝑎,𝑏)⋅(𝑥−𝑎)^{2}+2𝑓_{𝑥𝑦}(𝑎,𝑏)⋅(𝑥−𝑎)(𝑦−𝑏)+𝑓_{𝑦𝑦}(𝑎,𝑏)⋅(𝑦−𝑏)^{2}) \\ & =\frac{1}{2}[\begin{matrix}𝑥−𝑎 & 𝑦−𝑏\end{matrix}]⋅[\begin{matrix}𝑓_{𝑥𝑥}(𝐚) & 𝑓_{𝑥𝑦}(𝐚) \\ 𝑓_{𝑦𝑥}(𝐚) & 𝑓_{𝑦𝑦}(𝐚)\end{matrix}]⋅[\begin{matrix}𝑥−𝑎 \\ 𝑦−𝑏\end{matrix}] \\ & =\frac{1}{2}([\begin{matrix}𝑥 & 𝑦\end{matrix}]−[\begin{matrix}𝑎 & 𝑏\end{matrix}])⋅[\begin{matrix}𝑓_{𝑥𝑥}(𝐚) & 𝑓_{𝑥𝑦}(𝐚) \\ 𝑓_{𝑦𝑥}(𝐚) & 𝑓_{𝑦𝑦}(𝐚)\end{matrix}]⋅([\begin{matrix}𝑥 \\ 𝑦\end{matrix}]−[\begin{matrix}𝑎 \\ 𝑏\end{matrix}]) \\ & =\frac{1}{2}(𝐱−𝐚)^{𝑇}𝒇^{″}(𝐚)(𝐱−𝐚)\end{aligned}
 
 
 $$
@@ -145,7 +145,7 @@ Therefore, our quadratic Taylor polynomial can be written as
 $$
 
 
-\begin{aligned}𝑓(𝐱) & ≈\overset{\overset{𝑓(𝐚)+𝒇^{′}(𝐚)(𝐱−𝐚)}{}}{Linear approximation}+\underset{Quadratic part}{\underset{}{\frac{1}{2}(𝐱−𝐚)^{𝑇}𝒇^{″}(𝐚)(𝐱−𝐚)}}.\end{aligned}
+\begin{aligned}𝑓(𝐱) & ≈\overset{𝑓(𝐚)+𝒇^{′}(𝐚)(𝐱−𝐚)}{}}{Linear approximation}+\underset{Quadratic part}{\underset{}{\frac{1}{2}(𝐱−𝐚)^{𝑇}𝒇^{″}(𝐚)(𝐱−𝐚)}}.\end{aligned}
 
 
 $$
@@ -155,7 +155,7 @@ Notice that this formula is more compact and has clear similarity with the corre
 $$
 
 
-f(x) \approx \overbrace{f(a) + f'(a)(x-a)}^{\text{Linear approximation}} + \underbrace{\dfrac{1}{2}f''(a)(x-a)^2}_{\textrm{Quadratic part}}
+f(x) \approx \overbrace{f(a) + f'(a)(x-a)}^{\text{Linear approximation}} + \underbrace{\dfrac{1}{2}f''(a)(x-a)^2}_{\text{Quadratic part}}
 
 
 $$
@@ -199,7 +199,7 @@ and the second derivative is
 $$
 
 
-\begin{aligned}\frac{𝜕^{2}𝑓}{𝜕𝑥_{21}^{}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{1}𝜕𝑥_{2}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{1}𝜕𝑥_{𝑛}} \\ \frac{𝜕^{2}𝑓}{𝜕𝑥_{2}𝜕𝑥_{1}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{22}^{}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{2}𝜕𝑥_{𝑛}} \\ ⋮ & ⋮ & ⋮ & ⋮ \\ \frac{𝜕^{2}𝑓}{𝜕𝑥_{𝑛}𝜕𝑥_{1}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{𝑛}𝜕𝑥_{2}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{2𝑛}^{}}\end{aligned}
+\begin{aligned}\frac{𝜕^{2}𝑓}{𝜕𝑥_{21}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{1}𝜕𝑥_{2}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{1}𝜕𝑥_{𝑛}} \\ \frac{𝜕^{2}𝑓}{𝜕𝑥_{2}𝜕𝑥_{1}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{22}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{2}𝜕𝑥_{𝑛}} \\ ⋮ & ⋮ & ⋮ & ⋮ \\ \frac{𝜕^{2}𝑓}{𝜕𝑥_{𝑛}𝜕𝑥_{1}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{𝑛}𝜕𝑥_{2}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{2𝑛}}\end{aligned}
 
 
 $$
@@ -257,7 +257,7 @@ and
 $$
 
 
-\begin{aligned}\frac{𝜕^{2}𝑓}{𝜕𝑥_{21}^{}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{1}𝜕𝑥_{2}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{1}𝜕𝑥_{𝑛}} \\ \frac{𝜕^{2}𝑓}{𝜕𝑥_{2}𝜕𝑥_{1}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{22}^{}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{2}𝜕𝑥_{𝑛}} \\ ⋮ & ⋮ & ⋮ & ⋮ \\ \frac{𝜕^{2}𝑓}{𝜕𝑥_{𝑛}𝜕𝑥_{1}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{𝑛}𝜕𝑥_{2}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{2𝑛}^{}}\end{aligned}
+\begin{aligned}\frac{𝜕^{2}𝑓}{𝜕𝑥_{21}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{1}𝜕𝑥_{2}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{1}𝜕𝑥_{𝑛}} \\ \frac{𝜕^{2}𝑓}{𝜕𝑥_{2}𝜕𝑥_{1}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{22}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{2}𝜕𝑥_{𝑛}} \\ ⋮ & ⋮ & ⋮ & ⋮ \\ \frac{𝜕^{2}𝑓}{𝜕𝑥_{𝑛}𝜕𝑥_{1}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{𝑛}𝜕𝑥_{2}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{2𝑛}}\end{aligned}
 
 
 $$
@@ -267,7 +267,7 @@ In this case, we have the following:
 $$
 
 
-\begin{aligned}𝒇^{′}(𝐱) & =[\begin{aligned}\frac{𝜕𝑓}{𝜕𝑥} & \frac{𝜕𝑓}{𝜕𝑦}\end{aligned}], & \,𝒇^{″}(𝐱) & =\begin{aligned}\frac{𝜕^{2}𝑓}{𝜕𝑥^{2}} & \frac{𝜕^{2}𝑓}{𝜕𝑥𝜕𝑦} \\ \frac{𝜕^{2}𝑓}{𝜕𝑦𝜕𝑥} & \frac{𝜕^{2}𝑓}{𝜕𝑦^{2}}\end{aligned}\end{aligned}
+\begin{aligned}𝒇^{′}(𝐱) & =[\begin{matrix}\frac{𝜕𝑓}{𝜕𝑥} & \frac{𝜕𝑓}{𝜕𝑦}\end{matrix}], & \,𝒇^{″}(𝐱) & =\begin{matrix}\frac{𝜕^{2}𝑓}{𝜕𝑥^{2}} & \frac{𝜕^{2}𝑓}{𝜕𝑥𝜕𝑦} \\ \frac{𝜕^{2}𝑓}{𝜕𝑦𝜕𝑥} & \frac{𝜕^{2}𝑓}{𝜕𝑦^{2}}\end{matrix}\end{aligned}
 
 
 $$
@@ -299,7 +299,7 @@ For the twice-differentiable function $f:\mathbb R^3\to\mathbb R,$ we have the f
 $$
 
 
-\begin{aligned}𝑓(1,0,0) & =−1, & \,𝒇^{′}(1,0,0) & =[\begin{aligned}1 & 0 & 1\end{aligned}], & \,𝒇^{″}(1,0,0) & =\begin{aligned}3 & 0 & −1 \\ 0 & 1 & 0 \\ −1 & 0 & 2\end{aligned}\end{aligned}
+\begin{aligned}𝑓(1,0,0) & =−1, & \,𝒇^{′}(1,0,0) & =[\begin{matrix}1 & 0 & 1\end{matrix}], & \,𝒇^{″}(1,0,0) & =\begin{matrix}3 & 0 & −1 \\ 0 & 1 & 0 \\ −1 & 0 & 2\end{matrix}\end{aligned}
 
 
 $$
@@ -343,7 +343,7 @@ and
 $$
 
 
-\begin{aligned}\frac{𝜕^{2}𝑓}{𝜕𝑥_{21}^{}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{1}𝜕𝑥_{2}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{1}𝜕𝑥_{𝑛}} \\ \frac{𝜕^{2}𝑓}{𝜕𝑥_{2}𝜕𝑥_{1}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{22}^{}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{2}𝜕𝑥_{𝑛}} \\ ⋮ & ⋮ & ⋮ & ⋮ \\ \frac{𝜕^{2}𝑓}{𝜕𝑥_{𝑛}𝜕𝑥_{1}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{𝑛}𝜕𝑥_{2}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{2𝑛}^{}}\end{aligned}
+\begin{aligned}\frac{𝜕^{2}𝑓}{𝜕𝑥_{21}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{1}𝜕𝑥_{2}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{1}𝜕𝑥_{𝑛}} \\ \frac{𝜕^{2}𝑓}{𝜕𝑥_{2}𝜕𝑥_{1}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{22}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{2}𝜕𝑥_{𝑛}} \\ ⋮ & ⋮ & ⋮ & ⋮ \\ \frac{𝜕^{2}𝑓}{𝜕𝑥_{𝑛}𝜕𝑥_{1}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{𝑛}𝜕𝑥_{2}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{2𝑛}}\end{aligned}
 
 
 $$
@@ -353,7 +353,7 @@ In this case, we have $\begin{aligned}1 \\ 0 \\ 0\end{aligned}$ and the followin
 $$
 
 
-\begin{aligned}𝑓(𝐚) & =−1, & \,𝒇^{′}(𝐚) & =[\begin{aligned}1 & 0 & 1\end{aligned}], & \,𝒇^{″}(𝐚) & =\begin{aligned}3 & 0 & −1 \\ 0 & 1 & 0 \\ −1 & 0 & 2\end{aligned}\end{aligned}
+\begin{aligned}𝑓(𝐚) & =−1, & \,𝒇^{′}(𝐚) & =[\begin{matrix}1 & 0 & 1\end{matrix}], & \,𝒇^{″}(𝐚) & =\begin{matrix}3 & 0 & −1 \\ 0 & 1 & 0 \\ −1 & 0 & 2\end{matrix}\end{aligned}
 
 
 $$
@@ -373,7 +373,7 @@ Finally, evaluating the polynomial at $\begin{aligned}1 \\ 1 \\ 1\end{aligned}$ 
 $$
 
 
-\begin{aligned}𝑓(1,1,1) & ≈−1+[\begin{aligned}1 & 0 & 1\end{aligned}]\begin{aligned}1−1 \\ 1 \\ 1\end{aligned}+\frac{1}{2}\begin{aligned}1−1 \\ 1 \\ 1\end{aligned}^{𝑇}\begin{aligned}3 & 0 & −1 \\ 0 & 1 & 0 \\ −1 & 0 & 2\end{aligned}\begin{aligned}1−1 \\ 1 \\ 1\end{aligned} \\ & =−1+[\begin{aligned}1 & 0 & 1\end{aligned}]\begin{aligned}0 \\ 1 \\ 1\end{aligned}+\frac{1}{2}\begin{aligned}0 \\ 1 \\ 1\end{aligned}^{𝑇}\begin{aligned}3 & 0 & −1 \\ 0 & 1 & 0 \\ −1 & 0 & 2\end{aligned}\begin{aligned}0 \\ 1 \\ 1\end{aligned} \\ & =−1+1+\frac{1}{2}[\begin{aligned}0 & 1 & 1\end{aligned}]\begin{aligned}−1 \\ 1 \\ 2\end{aligned} \\ & =\frac{1}{2}(3) \\ & =\frac{3}{2}.\end{aligned}
+\begin{aligned}𝑓(1,1,1) & ≈−1+[\begin{matrix}1 & 0 & 1\end{matrix}]\begin{matrix}1−1 \\ 1 \\ 1\end{matrix}+\frac{1}{2}\begin{matrix}1−1 \\ 1 \\ 1\end{matrix}^{𝑇}\begin{matrix}3 & 0 & −1 \\ 0 & 1 & 0 \\ −1 & 0 & 2\end{matrix}\begin{matrix}1−1 \\ 1 \\ 1\end{matrix} \\ & =−1+[\begin{matrix}1 & 0 & 1\end{matrix}]\begin{matrix}0 \\ 1 \\ 1\end{matrix}+\frac{1}{2}\begin{matrix}0 \\ 1 \\ 1\end{matrix}^{𝑇}\begin{matrix}3 & 0 & −1 \\ 0 & 1 & 0 \\ −1 & 0 & 2\end{matrix}\begin{matrix}0 \\ 1 \\ 1\end{matrix} \\ & =−1+1+\frac{1}{2}[\begin{matrix}0 & 1 & 1\end{matrix}]\begin{matrix}−1 \\ 1 \\ 2\end{matrix} \\ & =\frac{1}{2}(3) \\ & =\frac{3}{2}.\end{aligned}
 
 
 $$
@@ -436,7 +436,7 @@ $$
 
 $$
 
-Since $\dfrac{\textrm{d}f}{\textrm{d}\mathbf{x}}$ is a row vector and $(\mathbf{x}_0 - \mathbf{a})$ is a column vector, this is a scalar quantity and, hence, equal to its transpose:
+Since $\dfrac{\text{d}f}{\text{d}\mathbf{x}}$ is a row vector and $(\mathbf{x}_0 - \mathbf{a})$ is a column vector, this is a scalar quantity and, hence, equal to its transpose:
 
 $$
 

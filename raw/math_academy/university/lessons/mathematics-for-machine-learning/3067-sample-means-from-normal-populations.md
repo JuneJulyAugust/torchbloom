@@ -43,7 +43,7 @@ Also, we previously saw that the expected value of the sample mean equals the po
 $$
 
 
-\textrm{E}[\overline{X}] = \mu,
+\text{E}[\overline{X}] = \mu,
 
 
 $$
@@ -53,7 +53,7 @@ and the variance of the sample mean is
 $$
 
 
-\textrm{Var}[\overline{X}] = \dfrac{\sigma^2}{n}.
+\text{Var}[\overline{X}] = \dfrac{\sigma^2}{n}.
 
 
 $$
@@ -165,7 +165,7 @@ First, we transform $X$ into a standard normal random variable $Z$ by $z$-scorin
 $$
 
 
-\begin{aligned}𝑃(−4.3<\overset{𝑋}{}<−3.9) & =𝑃(\frac{−4.3−(−4)}{\sqrt{√4}}<𝑍<\frac{−3.9−(−4)}{\sqrt{√4}}) \\ & =𝑃(−0.15<𝑍<0.05) \\ & =Φ(0.05)−Φ(−0.15)\end{aligned}
+\begin{aligned}𝑃(−4.3<\overset{𝑋}{}<−3.9) & =𝑃(\frac{−4.3−(−4)}{\sqrt{4}}<𝑍<\frac{−3.9−(−4)}{\sqrt{4}}) \\ & =𝑃(−0.15<𝑍<0.05) \\ & =Φ(0.05)−Φ(−0.15)\end{aligned}
 
 
 $$
@@ -237,7 +237,7 @@ First, we transform $X$ into a standard normal random variable $Z$ by $z$-scorin
 $$
 
 
-\begin{aligned}𝑃(\overset{𝑋}{}<70) & =𝑃(𝑍<\frac{70−75}{\sqrt{√10}}) \\ & ≈𝑃(𝑍<−1.58) \\ & =Φ(−1.58)\end{aligned}
+\begin{aligned}𝑃(\overset{𝑋}{}<70) & =𝑃(𝑍<\frac{70−75}{\sqrt{10}}) \\ & ≈𝑃(𝑍<−1.58) \\ & =Φ(−1.58)\end{aligned}
 
 
 $$

@@ -198,7 +198,7 @@ $$
 
 
 
-\textrm{Residual} = \text{Actual} - \textrm{Estimated}
+\text{Residual} = \text{Actual} - \text{Estimated}
 
 
 

@@ -15,7 +15,7 @@ Topic ID: 3582
 
 Given the acceleration of a particle moving along a straight line relative to a fixed origin $O,$ we can find many characteristics of the particle.
 
-Let the positive direction be left to right. Suppose the particle has acceleration, measured in $\textrm{m}/\textrm{s}^2,$ given by the function $a(t) = 6-6t$, where $t > 0$ is the time in seconds, and is stationary when $t=0\,\textrm{s}.$
+Let the positive direction be left to right. Suppose the particle has acceleration, measured in $\text{m}/\text{s}^2,$ given by the function $a(t) = 6-6t$, where $t > 0$ is the time in seconds, and is stationary when $t=0\,\text{s}.$
 
 Recall we can find the velocity $v(t)$ by integrating the acceleration with respect to time:
 
@@ -57,9 +57,9 @@ From the resulting velocity function $v$ and its graph, we can find some charact
 
 - *Time intervals in which the particle is moving in the negative direction.* Also remember that the particle moves to the left (the negative direction) when its velocity is negative, $v(t) < 0.$ So, from the graph, we see that the particle moves to the left when
 
-- *Moments when the particle is stationary.* The particle is stationary when $v = 0 \,\textrm{m}/\textrm{s}{:}$ Therefore, the particle is stationary when $t=0\,\textrm{s}$ and $t=2\,\textrm{s}.$
+- *Moments when the particle is stationary.* The particle is stationary when $v = 0 \,\text{m}/\text{s}{:}$ Therefore, the particle is stationary when $t=0\,\text{s}$ and $t=2\,\text{s}.$
 
-- *Moments when the velocity of the particle is maximal.* The maximum velocity $v_\text{max}$ of the particle occurs at the maximum of the velocity function $v.$ From calculus, we know that the extrema of $v$ occur at the critical points of $v.$ Since $v'(t) = a(t),$ to find the times where $v$ is a maximum, we just need to solve $a(t)=0$ and test each solution using the first or second derivative test. Solving $a(t)=0$ gives We now test the extreme value using the second derivative test. For this, we find the second derivative of and evaluate it at $t=1{:}$ Since $v''(1) < 0,$ we conclude that the velocity is maximized when $t=1\,\textrm{s}.$ Therefore, the maximum velocity is
+- *Moments when the velocity of the particle is maximal.* The maximum velocity $v_\text{max}$ of the particle occurs at the maximum of the velocity function $v.$ From calculus, we know that the extrema of $v$ occur at the critical points of $v.$ Since $v'(t) = a(t),$ to find the times where $v$ is a maximum, we just need to solve $a(t)=0$ and test each solution using the first or second derivative test. Solving $a(t)=0$ gives We now test the extreme value using the second derivative test. For this, we find the second derivative of and evaluate it at $t=1{:}$ Since $v''(1) < 0,$ we conclude that the velocity is maximized when $t=1\,\text{s}.$ Therefore, the maximum velocity is
 
 ### Example: Finding the Time Intervals on which a Particle is Moving in a Particular Direction
 

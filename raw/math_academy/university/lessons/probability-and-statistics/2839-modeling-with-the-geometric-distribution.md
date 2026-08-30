@@ -83,7 +83,7 @@ p = 7\% = \dfrac{7}{100} = 0.07.
 
 $$
 
-So, $X\sim\textrm{Geom}(0.07).$ In this case, $X$ has the following probability mass function:
+So, $X\sim\text{Geom}(0.07).$ In this case, $X$ has the following probability mass function:
 
 $$
 
@@ -133,7 +133,7 @@ p = 10\% = \dfrac{10}{100} = 0.1.
 
 $$
 
-So, $X\sim\textrm{Geom}(0.1).$ In this case, $X$ has the following probability mass function:
+So, $X\sim\text{Geom}(0.1).$ In this case, $X$ has the following probability mass function:
 
 $$
 
@@ -183,7 +183,7 @@ p = 35\% = \dfrac{35}{100} = 0.35.
 
 $$
 
-So, $X\sim\textrm{Geom}(0.35).$ In this case, $X$ has the following probability mass function:
+So, $X\sim\text{Geom}(0.35).$ In this case, $X$ has the following probability mass function:
 
 $$
 

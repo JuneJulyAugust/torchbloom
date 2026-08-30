@@ -157,7 +157,7 @@ The following line plot shows the distance traveled, in miles, by various profes
 
 #### Explanation
 
-Looking at the graph, the most common distance traveled by cyclists is $8 \, \dfrac{1}{2}\, \textrm{mi}.$ A total of $6$ cyclists traveled this far.
+Looking at the graph, the most common distance traveled by cyclists is $8 \, \dfrac{1}{2}\, \text{mi}.$ A total of $6$ cyclists traveled this far.
 
 ![Instructional graphic](../../../lesson-assets/grade-4/topic-2408/64263570e2b6f095.png)
 

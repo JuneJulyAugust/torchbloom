@@ -38,7 +38,7 @@ We have the solutions $b=1,2.$ However, the original equation was given in terms
 $$
 
 
-\begin{aligned}𝑎^{2} & =1 & \, & ⇒ & \,𝑎 & =±1 \\ 𝑎^{2} & =2 & \, & ⇒ & \,𝑎 & =±\sqrt{√2}\end{aligned}
+\begin{aligned}𝑎^{2} & =1 & \, & ⇒ & \,𝑎 & =±1 \\ 𝑎^{2} & =2 & \, & ⇒ & \,𝑎 & =±\sqrt{2}\end{aligned}
 
 
 $$
@@ -148,7 +148,7 @@ The first equation $x^2 = -2$ has no real roots. However, the second equation ca
 $$
 
 
-\begin{aligned}𝑥^{2} & =4 \\ \sqrt{√𝑥^{2}} & =\sqrt{√4} \\ |𝑥| & =2 \\ 𝑥 & =±2\end{aligned}
+\begin{aligned}𝑥^{2} & =4 \\ \sqrt{𝑥^{2}} & =\sqrt{4} \\ |𝑥| & =2 \\ 𝑥 & =±2\end{aligned}
 
 
 $$

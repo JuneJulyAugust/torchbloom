@@ -178,32 +178,32 @@ $$
 
 Consider the proof of the relationship between the circumference and the area of a circle.
 
-$\textrm{L1}{:}\:$ $C=2\pi r$
+$\text{L1}{:}\:$ $C=2\pi r$
 
-$\textrm{L2}{:}\:$ $\pi r = \dfrac{C}{2}$
+$\text{L2}{:}\:$ $\pi r = \dfrac{C}{2}$
 
-$\textrm{L3}{:}\:$ $\mathcal{A}=\pi r^2$
+$\text{L3}{:}\:$ $\mathcal{A}=\pi r^2$
 
-$\textrm{L4}{:}\:$ $\mathcal{A}=(\pi r) \cdot r$
+$\text{L4}{:}\:$ $\mathcal{A}=(\pi r) \cdot r$
 
-$\textrm{L5}{:}\:$ $\mathcal{A}=\left(\dfrac{C}{2}\right) \cdot r$
+$\text{L5}{:}\:$ $\mathcal{A}=\left(\dfrac{C}{2}\right) \cdot r$
 
-$\textrm{L6}{:}\:$ $\mathcal{A}=\dfrac{1}{2}Cr$
+$\text{L6}{:}\:$ $\mathcal{A}=\dfrac{1}{2}Cr$
 
 Select the correct options in the following reasoning.
 
-Line $\textrm{L4}$ follows from line $\textrm{L3}$ by rewriting $r^2$ as $\boxed{\phantom{AAAA}}.$
+Line $\text{L4}$ follows from line $\text{L3}$ by rewriting $r^2$ as $\boxed{\phantom{AAAA}}.$
 
-Line $\textrm{L5}$ follows from lines $\boxed{\phantom{AAAAAAAA}}$ by substituting $\boxed{\phantom{AAAA}}$ with $\dfrac{C}{2}.$
+Line $\text{L5}$ follows from lines $\boxed{\phantom{AAAAAAAA}}$ by substituting $\boxed{\phantom{AAAA}}$ with $\dfrac{C}{2}.$
 
-Line $\textrm{L6}$ follows from line $\boxed{\phantom{AAAA}}$ by simplifying the expression.
+Line $\text{L6}$ follows from line $\boxed{\phantom{AAAA}}$ by simplifying the expression.
 
 #### Explanation
 
 Let's examine each statement in turn.
 
-- First, we consider lines $\textrm{L3}$ and $\textrm{L4}.$ From $\textrm{L3},$ we have By rewriting $r^2$ as $\boxed{r \cdot r},$ we get $\textrm{L4}{:}$
+- First, we consider lines $\text{L3}$ and $\text{L4}.$ From $\text{L3},$ we have By rewriting $r^2$ as $\boxed{r \cdot r},$ we get $\text{L4}{:}$
 
-- Next, we consider line $\textrm{L5}.$ It follows from $\boxed{\textrm{L2} \text{and} \textrm{L4}}$ by substituting $\boxed{\pi r}$ with $\dfrac{C}{2}{:}$
+- Next, we consider line $\text{L5}.$ It follows from $\boxed{\text{L2} \text{and} \text{L4}}$ by substituting $\boxed{\pi r}$ with $\dfrac{C}{2}{:}$
 
-- Finally, we consider line $\textrm{L6}.$ It follows by simplifying the expression from $\boxed{\textrm{L5}}{:}$
+- Finally, we consider line $\text{L6}.$ It follows by simplifying the expression from $\boxed{\text{L5}}{:}$

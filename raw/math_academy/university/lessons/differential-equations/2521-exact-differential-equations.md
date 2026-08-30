@@ -81,11 +81,11 @@ We'll justify the exactness test soon, and we'll also learn how to solve these t
 
 Which of the following differential equations is exact?
 
-1. $(2xy)\,\textrm{d}x + (x^{2}+4)\,\textrm{d}y = 0$
+1. $(2xy)\,\text{d}x + (x^{2}+4)\,\text{d}y = 0$
 
-2. $(y^{2}+2x)\,\textrm{d}x + (xy+1)\,\textrm{d}y = 0$
+2. $(y^{2}+2x)\,\text{d}x + (xy+1)\,\text{d}y = 0$
 
-3. $(7y - x)\,\textrm{d}y - (y - 3x)\,\textrm{d}x = 0$
+3. $(7y - x)\,\text{d}y - (y - 3x)\,\text{d}x = 0$
 
 #### Explanation
 
@@ -94,7 +94,7 @@ A differential equation of the form
 $$
 
 
-P(x,y)\textrm{d}x +Q(x,y)\textrm{d}y = 0
+P(x,y)\text{d}x +Q(x,y)\text{d}y = 0
 
 
 $$
@@ -128,7 +128,7 @@ Consider the following differential equation:
 $$
 
 
--\dfrac{y}{ x^2 } \textrm{d}x + Q(x,y)\textrm{d}y = 0
+-\dfrac{y}{ x^2 } \text{d}x + Q(x,y)\text{d}y = 0
 
 
 $$
@@ -148,7 +148,7 @@ A differential equation of the form
 $$
 
 
-P(x,y)\textrm{d}x +Q(x,y)\textrm{d}y = 0
+P(x,y)\text{d}x +Q(x,y)\text{d}y = 0
 
 
 $$
@@ -242,7 +242,7 @@ Find the general solution of the exact differential equation
 $$
 
 
-(y^2-2x)\,\textrm{d}x + (2xy +1)\textrm{d}y = 0.
+(y^2-2x)\,\text{d}x + (2xy +1)\text{d}y = 0.
 
 
 $$
@@ -254,7 +254,7 @@ Note that the differential equation is of the form
 $$
 
 
-P(x,y)\textrm{d}x +Q(x,y)\textrm{d}y = 0
+P(x,y)\text{d}x +Q(x,y)\text{d}y = 0
 
 
 $$
@@ -332,7 +332,7 @@ We start by rewriting this equation in differential form.
 $$
 
 
-P(x,y)\textrm{d}x +Q(x,y)\textrm{d}y = 0
+P(x,y)\text{d}x +Q(x,y)\text{d}y = 0
 
 
 $$
@@ -347,12 +347,12 @@ $$
 
 $$
 
-we first multiply through by $(13y-xe^{xy})\;\textrm{d}x$:
+we first multiply through by $(13y-xe^{xy})\;\text{d}x$:
 
 $$
 
 
-(13y-xe^{xy})\;\textrm{d}y = (11+ye^{xy})\;\textrm{d}x
+(13y-xe^{xy})\;\text{d}y = (11+ye^{xy})\;\text{d}x
 
 
 $$
@@ -362,7 +362,7 @@ Then, we then rearrange the terms:
 $$
 
 
-(11+ye^{xy})\;\textrm{d}x + (xe^{xy}-13y)\;\textrm{d}y = 0
+(11+ye^{xy})\;\text{d}x + (xe^{xy}-13y)\;\text{d}y = 0
 
 
 $$
@@ -372,7 +372,7 @@ Now, we should check for exactness. A differential equation of the form
 $$
 
 
-P(x,y)\textrm{d}x +Q(x,y)\textrm{d}y = 0
+P(x,y)\text{d}x +Q(x,y)\text{d}y = 0
 
 
 $$
@@ -518,7 +518,7 @@ By comparing the terms of our original ODE with the total differential, we immed
 $$
 
 
-P = \dfrac{\partial u}{\partial x}\qquad \textrm{and}\qquad Q = \dfrac{\partial u}{\partial y}
+P = \dfrac{\partial u}{\partial x}\qquad \text{and}\qquad Q = \dfrac{\partial u}{\partial y}
 
 
 $$

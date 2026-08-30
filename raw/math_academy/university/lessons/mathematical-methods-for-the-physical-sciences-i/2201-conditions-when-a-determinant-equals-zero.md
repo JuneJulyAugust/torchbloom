@@ -31,7 +31,7 @@ Let's compute the determinant using the Laplace expansion across the second row:
 $$
 
 
-\begin{aligned}det(𝐴) & =\begin{aligned}∗ & ∗ & ∗ \\ 0 & 0 & 0 \\ ∗ & ∗ & ∗\end{aligned} \\ & =(−1)^{2+1}(0)\begin{aligned}∗ & ∗ \\ ∗ & ∗\end{aligned}+(−1)^{2+2}(0)\begin{aligned}∗ & ∗ \\ ∗ & ∗\end{aligned}+(−1)^{2+3}(0)\begin{aligned}∗ & ∗ \\ ∗ & ∗\end{aligned} \\ & =0+0+0 \\ & =0\end{aligned}
+\begin{aligned}det(𝐴) & =\begin{matrix}∗ & ∗ & ∗ \\ 0 & 0 & 0 \\ ∗ & ∗ & ∗\end{matrix} \\ & =(−1)^{2+1}(0)\begin{matrix}∗ & ∗ \\ ∗ & ∗\end{matrix}+(−1)^{2+2}(0)\begin{matrix}∗ & ∗ \\ ∗ & ∗\end{matrix}+(−1)^{2+3}(0)\begin{matrix}∗ & ∗ \\ ∗ & ∗\end{matrix} \\ & =0+0+0 \\ & =0\end{aligned}
 
 
 $$
@@ -55,7 +55,7 @@ We can subtract the $1$st row from the $3$rd row, as follows:
 $$
 
 
-\begin{aligned}𝐴 & =\begin{aligned}1 & 2 & 1 \\ 1 & 2 & 3 \\ 1 & 2 & 1\end{aligned} & 𝑅_{3} & :=𝑅_{3}+(−1)𝑅_{1} \\ & ∼\begin{aligned}1 & 2 & 1 \\ 1 & 2 & 3 \\ 0 & 0 & 0\end{aligned} & & \\ & =𝐵 & & \end{aligned}
+\begin{aligned}𝐴 & =\begin{matrix}1 & 2 & 1 \\ 1 & 2 & 3 \\ 1 & 2 & 1\end{matrix} & 𝑅_{3} & :=𝑅_{3}+(−1)𝑅_{1} \\ & ∼\begin{matrix}1 & 2 & 1 \\ 1 & 2 & 3 \\ 0 & 0 & 0\end{matrix} & & \\ & =𝐵 & & \end{aligned}
 
 
 $$
@@ -83,7 +83,7 @@ Find $5\det(A)-\det(B),$ where
 $$
 
 
-\begin{aligned}4 & \sqrt{√13} & 4 \\ 4 & 11 & 4 \\ \sqrt{√3} & 9 & \sqrt{√3}\end{aligned}
+\begin{aligned}4 & \sqrt{13} & 4 \\ 4 & 11 & 4 \\ \sqrt{3} & 9 & \sqrt{3}\end{aligned}
 
 
 $$
@@ -115,7 +115,7 @@ We can add three times the $1$st row to the $3$rd row, as follows:
 $$
 
 
-\begin{aligned}𝐴 & =\begin{aligned}1 & 2 & 1 \\ 1 & 2 & 3 \\ −3 & −6 & −3\end{aligned} & 𝑅_{3} & :=𝑅_{3}+3𝑅_{1} \\ & ∼\begin{aligned}1 & 2 & 1 \\ 1 & 2 & 3 \\ 0 & 0 & 0\end{aligned} & & \\ & =𝐵 & & \end{aligned}
+\begin{aligned}𝐴 & =\begin{matrix}1 & 2 & 1 \\ 1 & 2 & 3 \\ −3 & −6 & −3\end{matrix} & 𝑅_{3} & :=𝑅_{3}+3𝑅_{1} \\ & ∼\begin{matrix}1 & 2 & 1 \\ 1 & 2 & 3 \\ 0 & 0 & 0\end{matrix} & & \\ & =𝐵 & & \end{aligned}
 
 
 $$
@@ -143,7 +143,7 @@ Which of the following determinants are equal to $0?$
 $$
 
 
-\begin{aligned}2 & \sqrt{√3} & 1 \\ 1 & 1 & 2 \\ 3 & 3 & 6\end{aligned}
+\begin{aligned}2 & \sqrt{3} & 1 \\ 1 & 1 & 2 \\ 3 & 3 & 6\end{aligned}
 
 
 $$

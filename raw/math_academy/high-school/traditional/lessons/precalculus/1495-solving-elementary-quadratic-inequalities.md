@@ -112,7 +112,7 @@ $$
 
 
 
-\begin{aligned}𝑥^{2} & >1 \\ \sqrt{√𝑥^{2}} & >\sqrt{√1} \\ |𝑥| & >1\end{aligned}
+\begin{aligned}𝑥^{2} & >1 \\ \sqrt{𝑥^{2}} & >\sqrt{1} \\ |𝑥| & >1\end{aligned}
 
 
 
@@ -146,7 +146,7 @@ $$
 
 
 
-\begin{aligned}𝑥^{2} & ≤2 \\ \sqrt{√𝑥^{2}} & ≤\sqrt{√2} \\ |𝑥| & ≤\sqrt{√2}.\end{aligned}
+\begin{aligned}𝑥^{2} & ≤2 \\ \sqrt{𝑥^{2}} & ≤\sqrt{2} \\ |𝑥| & ≤\sqrt{2}.\end{aligned}
 
 
 
@@ -196,7 +196,7 @@ $$
 
 
 
-\begin{aligned}\sqrt{√𝑥^{2}} & >\sqrt{√9} \\ |𝑥| & >3.\end{aligned}
+\begin{aligned}\sqrt{𝑥^{2}} & >\sqrt{9} \\ |𝑥| & >3.\end{aligned}
 
 
 

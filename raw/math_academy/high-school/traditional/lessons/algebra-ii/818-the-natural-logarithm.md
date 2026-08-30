@@ -49,7 +49,7 @@ $$
 
 
 
-e^3\approx 20.086\quad \textrm{is equivalent to}\quad \ln(20.086) \approx 3.
+e^3\approx 20.086\quad \text{is equivalent to}\quad \ln(20.086) \approx 3.
 
 
 

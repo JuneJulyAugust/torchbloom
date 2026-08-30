@@ -39,7 +39,7 @@ We can now apply the zero product rule, which states that $ab=0$ if and only if 
 $$
 
 
-\sin{x} = 0 \quad \textrm{and} \quad \cos{x}-\dfrac12=0.
+\sin{x} = 0 \quad \text{and} \quad \cos{x}-\dfrac12=0.
 
 
 $$
@@ -75,7 +75,7 @@ First, we factor the equation:
 $$
 
 
-\begin{aligned}\sqrt{√3}sin⁡𝜃tan⁡𝜃−sin⁡𝜃 & =0 \\ sin⁡𝜃(\sqrt{√3}tan⁡𝜃−1) & =0\end{aligned}
+\begin{aligned}\sqrt{3}sin⁡𝜃tan⁡𝜃−sin⁡𝜃 & =0 \\ sin⁡𝜃(\sqrt{3}tan⁡𝜃−1) & =0\end{aligned}
 
 
 $$
@@ -129,7 +129,7 @@ First, we factor the equation:
 $$
 
 
-\begin{aligned}\sqrt{√2}sin⁡𝑥cos⁡𝑥 & =−sin⁡𝑥 \\ \sqrt{√2}sin⁡𝑥cos⁡𝑥+sin⁡𝑥 & =0 \\ sin⁡𝑥(\sqrt{√2}cos⁡𝑥+1) & =0\end{aligned}
+\begin{aligned}\sqrt{2}sin⁡𝑥cos⁡𝑥 & =−sin⁡𝑥 \\ \sqrt{2}sin⁡𝑥cos⁡𝑥+sin⁡𝑥 & =0 \\ sin⁡𝑥(\sqrt{2}cos⁡𝑥+1) & =0\end{aligned}
 
 
 $$

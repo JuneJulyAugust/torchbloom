@@ -17,19 +17,19 @@ Remember that De Moivre's theorem provides a simple way to compute powers of com
 $$
 
 
-\left[ \cos(\theta) + \textrm{i}\sin(\theta) \right]^n = \cos(n\theta) + \textrm{i}\sin{(n\theta)}.
+\left[ \cos(\theta) + \text{i}\sin(\theta) \right]^n = \cos(n\theta) + \text{i}\sin{(n\theta)}.
 
 
 $$
 
-For example, let's use De Moivre's theorem to calculate $(1+\sqrt{3}\,\textrm{i})^3.$
+For example, let's use De Moivre's theorem to calculate $(1+\sqrt{3}\,\text{i})^3.$
 
-Let $z=1+\sqrt{3}\,\textrm{i}.$ First, we express $z$ in polar form. Computing the magnitude and argument, we get
+Let $z=1+\sqrt{3}\,\text{i}.$ First, we express $z$ in polar form. Computing the magnitude and argument, we get
 
 $$
 
 
-\begin{aligned}|𝑧| & =\sqrt{√1^{2}+(\sqrt{√3})^{2}}=2, \\ arg⁡(𝑧) & =arctan⁡(\frac{\sqrt{√3}}{1})=\frac{𝜋}{3}.\end{aligned}
+\begin{aligned}|𝑧| & =\sqrt{1^{2}+(\sqrt{3})^{2}}=2, \\ arg⁡(𝑧) & =arctan⁡(\frac{\sqrt{3}}{1})=\frac{𝜋}{3}.\end{aligned}
 
 
 $$
@@ -39,7 +39,7 @@ Now, we can write $z$ in polar form, as follows:
 $$
 
 
-z = 2\left[ \cos \left( \frac{\pi}{3} \right) + \textrm{i}\sin \left( \frac{\pi}{3}\right) \right]
+z = 2\left[ \cos \left( \frac{\pi}{3} \right) + \text{i}\sin \left( \frac{\pi}{3}\right) \right]
 
 
 $$
@@ -49,7 +49,7 @@ Finally, applying De Moivre's theorem, we get
 $$
 
 
-\begin{aligned}(1+\sqrt{√3}\,i)^{3} & =𝑧^{3} \\ & =[2[cos⁡(\frac{𝜋}{3})+isin⁡(\frac{𝜋}{3})]]^{3} \\ & =2^{3}[cos⁡(\frac{𝜋}{3})+isin⁡(\frac{𝜋}{3})]^{3} \\ & =8[cos⁡(3⋅\frac{𝜋}{3})+isin⁡(3⋅\frac{𝜋}{3})] \\ & =8[cos⁡(𝜋)+isin⁡(𝜋)] \\ & =8(−1+i⋅0) \\ & =−8.\end{aligned}
+\begin{aligned}(1+\sqrt{3}\,i)^{3} & =𝑧^{3} \\ & =[2[cos⁡(\frac{𝜋}{3})+isin⁡(\frac{𝜋}{3})]]^{3} \\ & =2^{3}[cos⁡(\frac{𝜋}{3})+isin⁡(\frac{𝜋}{3})]^{3} \\ & =8[cos⁡(3⋅\frac{𝜋}{3})+isin⁡(3⋅\frac{𝜋}{3})] \\ & =8[cos⁡(𝜋)+isin⁡(𝜋)] \\ & =8(−1+i⋅0) \\ & =−8.\end{aligned}
 
 
 $$
@@ -58,12 +58,12 @@ $$
 
 #### Question
 
-Express $z$ in the form $x+\textrm{i}y,$ where
+Express $z$ in the form $x+\text{i}y,$ where
 
 $$
 
 
-z = \left[ \cos \left( \frac{\pi}{6} \right) +\textrm{i}\sin \left( \frac{\pi}{6}\right) \right]^5.
+z = \left[ \cos \left( \frac{\pi}{6} \right) +\text{i}\sin \left( \frac{\pi}{6}\right) \right]^5.
 
 
 $$
@@ -75,7 +75,7 @@ We use De Moivre's theorem,
 $$
 
 
-(\cos\theta + \textrm{i}\sin\theta)^n = \cos(n\theta) + \textrm{i}\sin{(n\theta)},
+(\cos\theta + \text{i}\sin\theta)^n = \cos(n\theta) + \text{i}\sin{(n\theta)},
 
 
 $$
@@ -85,7 +85,7 @@ with $n=5$ and $\theta = \dfrac{\pi}{6}.$ Therefore, we get
 $$
 
 
-\begin{aligned}𝑧 & =[cos⁡(\frac{𝜋}{6})+isin⁡(\frac{𝜋}{6})]^{5} \\ & =cos⁡(5⋅\frac{𝜋}{6})+isin⁡(5⋅\frac{𝜋}{6}) \\ & =cos⁡(\frac{5𝜋}{6})+isin⁡(\frac{5𝜋}{6}) \\ & =−\frac{\sqrt{√3}}{2}+\frac{1}{2}i.\end{aligned}
+\begin{aligned}𝑧 & =[cos⁡(\frac{𝜋}{6})+isin⁡(\frac{𝜋}{6})]^{5} \\ & =cos⁡(5⋅\frac{𝜋}{6})+isin⁡(5⋅\frac{𝜋}{6}) \\ & =cos⁡(\frac{5𝜋}{6})+isin⁡(\frac{5𝜋}{6}) \\ & =−\frac{\sqrt{3}}{2}+\frac{1}{2}i.\end{aligned}
 
 
 $$
@@ -94,16 +94,16 @@ $$
 
 #### Question
 
-Use De Moivre's Theorem to express $(1+\textrm{i})^5$ in the form $x+\textrm{i}y.$
+Use De Moivre's Theorem to express $(1+\text{i})^5$ in the form $x+\text{i}y.$
 
 #### Explanation
 
-Let $z=1+\textrm{i}.$ First, we express $z$ in polar form. Computing the magnitude and argument, we get
+Let $z=1+\text{i}.$ First, we express $z$ in polar form. Computing the magnitude and argument, we get
 
 $$
 
 
-\begin{aligned}|𝑧| & =\sqrt{√1^{2}+1^{2}}=2^{1/2}, \\ arg⁡(𝑧) & =arctan⁡(\frac{1}{1})=\frac{𝜋}{4}.\end{aligned}
+\begin{aligned}|𝑧| & =\sqrt{1^{2}+1^{2}}=2^{1/2}, \\ arg⁡(𝑧) & =arctan⁡(\frac{1}{1})=\frac{𝜋}{4}.\end{aligned}
 
 
 $$
@@ -113,7 +113,7 @@ Now, we can write $z$ in polar form, as follows:
 $$
 
 
-z = 2^{1/2}\left[ \cos \left( \frac{\pi}{4} \right) +\textrm{i}\sin \left( \frac{\pi}{4} \right) \right]
+z = 2^{1/2}\left[ \cos \left( \frac{\pi}{4} \right) +\text{i}\sin \left( \frac{\pi}{4} \right) \right]
 
 
 $$
@@ -123,24 +123,24 @@ Finally, applying De Moivre's theorem, we get
 $$
 
 
-\begin{aligned}(1+i)^{5} & =𝑧^{5} \\ & =[2^{1/2}[cos⁡(\frac{𝜋}{4})+isin⁡(\frac{𝜋}{4})]]^{5} \\ & =(2^{1/2})^{5}[cos⁡(\frac{𝜋}{4})+isin⁡(\frac{𝜋}{4})]^{5} \\ & =2^{5/2}[cos⁡(\frac{5𝜋}{4})+isin⁡(\frac{5𝜋}{4})] \\ & =2^{5/2}(−\frac{\sqrt{√2}}{2}−\frac{\sqrt{√2}}{2}i) \\ & =2^{5/2}(−2^{−1/2}−2^{−1/2}i) \\ & =−2^{4/2}−2^{4/2}i \\ & =−2^{2}−2^{2}i \\ & =−4−4i.\end{aligned}
+\begin{aligned}(1+i)^{5} & =𝑧^{5} \\ & =[2^{1/2}[cos⁡(\frac{𝜋}{4})+isin⁡(\frac{𝜋}{4})]]^{5} \\ & =(2^{1/2})^{5}[cos⁡(\frac{𝜋}{4})+isin⁡(\frac{𝜋}{4})]^{5} \\ & =2^{5/2}[cos⁡(\frac{5𝜋}{4})+isin⁡(\frac{5𝜋}{4})] \\ & =2^{5/2}(−\frac{\sqrt{2}}{2}−\frac{\sqrt{2}}{2}i) \\ & =2^{5/2}(−2^{−1/2}−2^{−1/2}i) \\ & =−2^{4/2}−2^{4/2}i \\ & =−2^{2}−2^{2}i \\ & =−4−4i.\end{aligned}
 
 
 $$
 
 ### De Moivre's Theorem for Complex Numbers in CIS Notation
 
-Remember that the $\textrm{cis}\left(\theta\right)$ notation is a compact notation for expressing complex numbers:
+Remember that the $\text{cis}\left(\theta\right)$ notation is a compact notation for expressing complex numbers:
 
 $$
 
 
-\textrm{cis}\left(\theta\right) = \cos(\theta) + \textrm{i} \sin(\theta).
+\text{cis}\left(\theta\right) = \cos(\theta) + \text{i} \sin(\theta).
 
 
 $$
 
-We can write De Moivre's theorem in $\textrm{cis}\left(\theta\right)$ notation as follows:
+We can write De Moivre's theorem in $\text{cis}\left(\theta\right)$ notation as follows:
 
 $$
 
@@ -150,12 +150,12 @@ $$
 
 $$
 
-Therefore, to raise a complex number in the form $z=r\textrm{cis}\left(\theta\right)$ to the power of $n,$ we can use the identity
+Therefore, to raise a complex number in the form $z=r\text{cis}\left(\theta\right)$ to the power of $n,$ we can use the identity
 
 $$
 
 
-\left[r\,\textrm{cis}\left(\theta\right)\right]^n = r^n\,\textrm{cis}\left(n\theta\right).
+\left[r\,\text{cis}\left(\theta\right)\right]^n = r^n\,\text{cis}\left(n\theta\right).
 
 
 $$
@@ -164,7 +164,7 @@ $$
 
 #### Question
 
-Simplify $\left[3\,\textrm{cis}\left(\dfrac{\pi}{4}\right)\right]^3.$
+Simplify $\left[3\,\text{cis}\left(\dfrac{\pi}{4}\right)\right]^3.$
 
 #### Explanation
 
@@ -188,12 +188,12 @@ $$
 
 $$
 
-Also, we know that $r\,\textrm{cis}(\theta) = r \left[\cos (\theta) +\textrm{i}\sin(\theta) \right].$ Therefore, we get
+Also, we know that $r\,\text{cis}(\theta) = r \left[\cos (\theta) +\text{i}\sin(\theta) \right].$ Therefore, we get
 
 $$
 
 
-\begin{aligned}27\,cis(\frac{3𝜋}{4}) & =27[cos⁡(\frac{3𝜋}{4})+isin⁡(\frac{3𝜋}{4})] \\ & =27(−\frac{\sqrt{√2}}{2}+i\frac{\sqrt{√2}}{2}) \\ & =−\frac{27\sqrt{√2}}{2}+\frac{27\sqrt{√2}}{2}i.\end{aligned}
+\begin{aligned}27\,cis(\frac{3𝜋}{4}) & =27[cos⁡(\frac{3𝜋}{4})+isin⁡(\frac{3𝜋}{4})] \\ & =27(−\frac{\sqrt{2}}{2}+i\frac{\sqrt{2}}{2}) \\ & =−\frac{27\sqrt{2}}{2}+\frac{27\sqrt{2}}{2}i.\end{aligned}
 
 
 $$

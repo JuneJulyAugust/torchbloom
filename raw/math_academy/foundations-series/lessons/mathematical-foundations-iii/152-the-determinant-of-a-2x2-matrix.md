@@ -66,7 +66,7 @@ Using the formula, we have:
 $$
 
 
-\begin{aligned}det(𝐴) & =\begin{aligned}3 & 2 \\ 5 & 6\end{aligned} \\ & =3⋅6−2⋅5 \\ & =18−10 \\ & =8\end{aligned}
+\begin{aligned}det(𝐴) & =\begin{matrix}3 & 2 \\ 5 & 6\end{matrix} \\ & =3⋅6−2⋅5 \\ & =18−10 \\ & =8\end{aligned}
 
 
 $$
@@ -75,7 +75,7 @@ $$
 
 #### Question
 
-Calculate $\det(A),$ if $[\begin{aligned}\sqrt{√2} & −2 \\ 0 & \sqrt{√3}\end{aligned}]$
+Calculate $\det(A),$ if $[\begin{aligned}\sqrt{2} & −2 \\ 0 & \sqrt{3}\end{aligned}]$
 
 #### Explanation
 
@@ -94,7 +94,7 @@ Using the formula, we have:
 $$
 
 
-\begin{aligned}det(𝐴) & =\begin{aligned}\sqrt{√2} & −2 \\ 0 & \sqrt{√3}\end{aligned} \\ & =\sqrt{√2}⋅\sqrt{√3}−(−2)⋅0 \\ & =\sqrt{√6}\end{aligned}
+\begin{aligned}det(𝐴) & =\begin{matrix}\sqrt{2} & −2 \\ 0 & \sqrt{3}\end{matrix} \\ & =\sqrt{2}⋅\sqrt{3}−(−2)⋅0 \\ & =\sqrt{6}\end{aligned}
 
 
 $$
@@ -103,7 +103,7 @@ $$
 
 #### Question
 
-If ${A} = \left\lbrack \matrix {2 & -1 \ -3 & k} \right\rbrack$ and $\det({A}) = 5$, what is the value of $k?$
+If ${A} = \left\lbrack \begin{matrix}2 & -1 \ -3 & k\end{matrix} \right\rbrack$ and $\det({A}) = 5$, what is the value of $k?$
 
 #### Explanation
 
@@ -122,7 +122,7 @@ Using the formula, we have:
 $$
 
 
-\begin{aligned}det(𝐴) & =\begin{aligned}2 & −1 \\ −3 & 𝑘\end{aligned} \\ & =2⋅𝑘−(−1)⋅(−3) \\ & =2𝑘−3\end{aligned}
+\begin{aligned}det(𝐴) & =\begin{matrix}2 & −1 \\ −3 & 𝑘\end{matrix} \\ & =2⋅𝑘−(−1)⋅(−3) \\ & =2𝑘−3\end{aligned}
 
 
 $$

@@ -167,7 +167,7 @@ $$
 
 #### Question
 
-Due to server migration, the occupied disk space $S(t)$ (measured in $\textrm{GB}$) of a web server reduces exponentially according to the function
+Due to server migration, the occupied disk space $S(t)$ (measured in $\text{GB}$) of a web server reduces exponentially according to the function
 
 $$
 
@@ -177,7 +177,7 @@ S(t)= S_0\left(0.8\right)^{t},
 
 $$
 
-where $t$ is the time, in hours, since the migration began, and $S_0$ is the amount of disk space that the server occupied initially. If the server occupied $55 \textrm{GB}$ of storage twelve hours after the migration began, what was the initial amount of disk space that the server used?
+where $t$ is the time, in hours, since the migration began, and $S_0$ is the amount of disk space that the server occupied initially. If the server occupied $55 \text{GB}$ of storage twelve hours after the migration began, what was the initial amount of disk space that the server used?
 
 #### Explanation
 
@@ -211,4 +211,4 @@ S_0\approx 800.
 
 $$
 
-Therefore, we conclude that the initial disk usage of the server was around $800\,\textrm{GB}.$
+Therefore, we conclude that the initial disk usage of the server was around $800\,\text{GB}.$

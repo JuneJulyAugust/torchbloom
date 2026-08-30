@@ -192,7 +192,7 @@ First, we must find the cumulative distribution function $F(x)$ corresponding to
 $$
 
 
-\begin{aligned}0, & \,𝑥<0, \\ ∫_{𝑥0}^{}𝑓(𝑡)\,d𝑡, & \,0≤𝑥≤\frac{𝜋}{2}, \\ 1, & \,𝑥>\frac{𝜋}{2}.\end{aligned}
+\begin{aligned}0, & \,𝑥<0, \\ ∫_{𝑥0}𝑓(𝑡)\,d𝑡, & \,0≤𝑥≤\frac{𝜋}{2}, \\ 1, & \,𝑥>\frac{𝜋}{2}.\end{aligned}
 
 
 $$
@@ -202,7 +202,7 @@ Evaluating the integral, we obtain
 $$
 
 
-\begin{aligned}∫_{𝑥0}^{}𝑓(𝑡)\,d𝑡 & =∫_{𝑥0}^{}cos⁡𝑡\,d𝑡 \\ & =sin⁡𝑡\,_{𝑥0}^{} \\ & =sin⁡𝑥.\end{aligned}
+\begin{aligned}∫_{𝑥0}𝑓(𝑡)\,d𝑡 & =∫_{𝑥0}cos⁡𝑡\,d𝑡 \\ & =sin⁡𝑡\,_{𝑥0} \\ & =sin⁡𝑥.\end{aligned}
 
 
 $$

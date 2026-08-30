@@ -17,7 +17,7 @@ Recall that if the curve $\mathbf r(s)$ is parametrized by arc length $s,$ then 
 $$
 
 
-\kappa(s) = \left\| \dfrac{\textrm{d}\mathbf T}{\textrm{d}s} \right\|.
+\kappa(s) = \left\| \dfrac{\text{d}\mathbf T}{\text{d}s} \right\|.
 
 
 $$
@@ -69,7 +69,7 @@ First, we calculate $\mathbf r'(t),$ $\mathbf r'(1),$ and $\|\mathbf r'(1)\|\mat
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑡) & =⟨\frac{d}{d𝑡}(𝑡),\frac{d}{d𝑡}(−2𝑡),\frac{d}{d𝑡}(𝑡^{2})⟩ \\ & =⟨1,\,−2,\,2𝑡⟩ \\ 𝐫^{′}(1) & =⟨1,−2,2⟩ \\ ‖𝐫^{′}(1)‖ & =\sqrt{√1^{2}+(−2)^{2}+2^{2}} \\ & =\sqrt{√9} \\ & =3\end{aligned}
+\begin{aligned}𝐫^{′}(𝑡) & =⟨\frac{d}{d𝑡}(𝑡),\frac{d}{d𝑡}(−2𝑡),\frac{d}{d𝑡}(𝑡^{2})⟩ \\ & =⟨1,\,−2,\,2𝑡⟩ \\ 𝐫^{′}(1) & =⟨1,−2,2⟩ \\ ‖𝐫^{′}(1)‖ & =\sqrt{1^{2}+(−2)^{2}+2^{2}} \\ & =\sqrt{9} \\ & =3\end{aligned}
 
 
 $$
@@ -89,7 +89,7 @@ Next, we compute the cross product and its magnitude:
 $$
 
 
-\begin{aligned}𝐫^{′}(1)×𝐫^{″}(1) & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 1 & −2 & 2 \\ 0 & 0 & 2\end{aligned} \\ & =\begin{aligned}−2 & 2 \\ 0 & 2\end{aligned}𝐢−\begin{aligned}1 & 2 \\ 0 & 2\end{aligned}𝐣+\begin{aligned}1 & −2 \\ 0 & 0\end{aligned}𝐤 \\ & =−4\,𝐢−2\,𝐣 \\ ‖𝐫^{′}(1)×𝐫^{″}(1)‖ & =\sqrt{√(−4)^{2}+(−2)^{2}+0^{2}} \\ & =\sqrt{√20} \\ & =2\sqrt{√5}\end{aligned}
+\begin{aligned}𝐫^{′}(1)×𝐫^{″}(1) & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 1 & −2 & 2 \\ 0 & 0 & 2\end{matrix} \\ & =\begin{matrix}−2 & 2 \\ 0 & 2\end{matrix}𝐢−\begin{matrix}1 & 2 \\ 0 & 2\end{matrix}𝐣+\begin{matrix}1 & −2 \\ 0 & 0\end{matrix}𝐤 \\ & =−4\,𝐢−2\,𝐣 \\ ‖𝐫^{′}(1)×𝐫^{″}(1)‖ & =\sqrt{(−4)^{2}+(−2)^{2}+0^{2}} \\ & =\sqrt{20} \\ & =2\sqrt{5}\end{aligned}
 
 
 $$
@@ -99,7 +99,7 @@ Therefore, the curvature at $t=1$ is
 $$
 
 
-\begin{aligned}𝜅(1) & =\frac{‖𝐫^{′}(1)×𝐫^{″}(1)‖}{‖𝐫^{′}(1)‖^{3}}=\frac{2\sqrt{√5}}{3^{3}}=\frac{2\sqrt{√5}}{27}.\end{aligned}
+\begin{aligned}𝜅(1) & =\frac{‖𝐫^{′}(1)×𝐫^{″}(1)‖}{‖𝐫^{′}(1)‖^{3}}=\frac{2\sqrt{5}}{3^{3}}=\frac{2\sqrt{5}}{27}.\end{aligned}
 
 
 $$
@@ -127,7 +127,7 @@ First, we calculate $\mathbf r'(t)$ and $\| \mathbf r'(t) \|\mathbin{:}$
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑡) & =⟨\frac{d}{d𝑡}(𝑡^{2}),\,\frac{d}{d𝑡}(2𝑡),\,\frac{d}{d𝑡}(1)⟩ \\ & =⟨2𝑡,\,2,\,0⟩ \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{√(2𝑡)^{2}+(2)^{2}+0^{2}} \\ & =\sqrt{√4𝑡^{2}+4} \\ & =\sqrt{√4(𝑡^{2}+1)} \\ & =2\sqrt{√𝑡^{2}+1}\end{aligned}
+\begin{aligned}𝐫^{′}(𝑡) & =⟨\frac{d}{d𝑡}(𝑡^{2}),\,\frac{d}{d𝑡}(2𝑡),\,\frac{d}{d𝑡}(1)⟩ \\ & =⟨2𝑡,\,2,\,0⟩ \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{(2𝑡)^{2}+(2)^{2}+0^{2}} \\ & =\sqrt{4𝑡^{2}+4} \\ & =\sqrt{4(𝑡^{2}+1)} \\ & =2\sqrt{𝑡^{2}+1}\end{aligned}
 
 
 $$
@@ -147,7 +147,7 @@ Now, we compute the cross-product:
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑡)×𝐫^{″}(𝑡) & =⟨2𝑡,2,0⟩×⟨2,0,0⟩ \\ & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 2𝑡 & 2 & 0 \\ 2 & 0 & 0\end{aligned} \\ & =\begin{aligned}2 & 0 \\ 0 & 0\end{aligned}𝐢−\begin{aligned}2𝑡 & 0 \\ 2 & 0\end{aligned}𝐣+\begin{aligned}2𝑡 & 2 \\ 2 & 0\end{aligned}𝐤 \\ & =−4\,𝐤\end{aligned}
+\begin{aligned}𝐫^{′}(𝑡)×𝐫^{″}(𝑡) & =⟨2𝑡,2,0⟩×⟨2,0,0⟩ \\ & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 2𝑡 & 2 & 0 \\ 2 & 0 & 0\end{matrix} \\ & =\begin{matrix}2 & 0 \\ 0 & 0\end{matrix}𝐢−\begin{matrix}2𝑡 & 0 \\ 2 & 0\end{matrix}𝐣+\begin{matrix}2𝑡 & 2 \\ 2 & 0\end{matrix}𝐤 \\ & =−4\,𝐤\end{aligned}
 
 
 $$
@@ -229,7 +229,7 @@ First, we calculate $\mathbf r'(t)$ and $\|\mathbf r'(t)\|\mathbin{:}$
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑡) & =⟨\frac{d}{d𝑡}(2𝑡),\,\frac{d}{d𝑡}(1+𝑡^{2})⟩ \\ & =⟨2,\,2𝑡⟩ \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{√2^{2}+(2𝑡)^{2}} \\ & =\sqrt{√4+4𝑡^{2}} \\ & =2\sqrt{√1+𝑡^{2}}\end{aligned}
+\begin{aligned}𝐫^{′}(𝑡) & =⟨\frac{d}{d𝑡}(2𝑡),\,\frac{d}{d𝑡}(1+𝑡^{2})⟩ \\ & =⟨2,\,2𝑡⟩ \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{2^{2}+(2𝑡)^{2}} \\ & =\sqrt{4+4𝑡^{2}} \\ & =2\sqrt{1+𝑡^{2}}\end{aligned}
 
 
 $$
@@ -249,7 +249,7 @@ Next, we compute the cross product by considering $\mathbf r'(t)$ and $\mathbf r
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑡)×𝐫^{″}(𝑡) & =⟨2,\,2𝑡,0⟩×⟨0,\,2,\,0⟩ \\ & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 2 & 2𝑡 & 0 \\ 0 & 2 & 0\end{aligned} \\ & =\begin{aligned}2 & 2𝑡 \\ 0 & 2\end{aligned}\,𝐤 \\ & =4\,𝐤\end{aligned}
+\begin{aligned}𝐫^{′}(𝑡)×𝐫^{″}(𝑡) & =⟨2,\,2𝑡,0⟩×⟨0,\,2,\,0⟩ \\ & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 2 & 2𝑡 & 0 \\ 0 & 2 & 0\end{matrix} \\ & =\begin{matrix}2 & 2𝑡 \\ 0 & 2\end{matrix}\,𝐤 \\ & =4\,𝐤\end{aligned}
 
 
 $$
@@ -269,7 +269,7 @@ and therefore, the curvature is
 $$
 
 
-\begin{aligned}𝜅(𝑡) & =\frac{‖𝐫^{′}(𝑡)×𝐫^{″}(𝑡)‖}{‖𝐫^{′}(𝑡)‖^{3}}=\frac{4}{(2\sqrt{√1+𝑡^{2}})^{3}}=\frac{1}{2(1+𝑡^{2})^{3/2}}\,.\end{aligned}
+\begin{aligned}𝜅(𝑡) & =\frac{‖𝐫^{′}(𝑡)×𝐫^{″}(𝑡)‖}{‖𝐫^{′}(𝑡)‖^{3}}=\frac{4}{(2\sqrt{1+𝑡^{2}})^{3}}=\frac{1}{2(1+𝑡^{2})^{3/2}}\,.\end{aligned}
 
 
 $$

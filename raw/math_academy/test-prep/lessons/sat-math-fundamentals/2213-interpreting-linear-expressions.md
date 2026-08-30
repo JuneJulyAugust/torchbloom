@@ -29,7 +29,7 @@ Here, $w$ is the letter's weight in ounces.
 $$
 
 
-\overbrace{\:{\color{blue}2}\!\!\!{\underset{\underset{\Large\textrm{weight}}{\large\uparrow}}{w}}\!\!\!+{\color{red}1}\:}^{\large\textrm{total cost}}
+\overbrace{\:{\color{blue}2}\!\!\!{\underset{\underset{\Large\text{weight}}{\large\uparrow}}{w}}\!\!\!+{\color{red}1}\:}^{\large\text{total cost}}
 
 
 $$

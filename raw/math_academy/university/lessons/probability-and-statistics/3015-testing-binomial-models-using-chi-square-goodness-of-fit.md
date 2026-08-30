@@ -92,7 +92,7 @@ Notice we're not given the success probability $p.$ Therefore, we must estimate 
 $$
 
 
-\begin{aligned}\overset{𝑝}{^} & =\frac{total number of successes}{total number of trials} \\ & =\frac{∑(𝑥_{𝑖}⋅𝑂_{𝑖})}{𝑛⋅𝑁}\end{aligned}
+\begin{aligned}\hat{𝑝} & =\frac{total number of successes}{total number of trials} \\ & =\frac{∑(𝑥_{𝑖}⋅𝑂_{𝑖})}{𝑛⋅𝑁}\end{aligned}
 
 
 $$
@@ -116,7 +116,7 @@ So, in our case, we have
 $$
 
 
-\begin{aligned}\overset{𝑝}{^} & =\frac{0⋅12+1⋅32+2⋅44+3⋅12}{3⋅(100)} \\ & =0.52.\end{aligned}
+\begin{aligned}\hat{𝑝} & =\frac{0⋅12+1⋅32+2⋅44+3⋅12}{3⋅(100)} \\ & =0.52.\end{aligned}
 
 
 $$
@@ -162,7 +162,7 @@ We can calculate an estimate of $p,$ which we denote as $\hat p,$ as follows:
 $$
 
 
-\begin{aligned}\overset{𝑝}{^} & =\frac{total number of successes}{total number of trials} \\ & =\frac{∑(𝑥_{𝑖}⋅𝑂_{𝑖})}{𝑛⋅𝑁},\end{aligned}
+\begin{aligned}\hat{𝑝} & =\frac{total number of successes}{total number of trials} \\ & =\frac{∑(𝑥_{𝑖}⋅𝑂_{𝑖})}{𝑛⋅𝑁},\end{aligned}
 
 
 $$
@@ -172,7 +172,7 @@ where $O_i$ is the observed frequency for the $i$th observation, $N$ is the numb
 $$
 
 
-\begin{aligned}\overset{𝑝}{^} & =\frac{0⋅20+1⋅30+2⋅8+3⋅2}{3⋅(60)} \\ & ≈0.2889\end{aligned}
+\begin{aligned}\hat{𝑝} & =\frac{0⋅20+1⋅30+2⋅8+3⋅2}{3⋅(60)} \\ & ≈0.2889\end{aligned}
 
 
 $$
@@ -206,7 +206,7 @@ approximately follows a chi-square distribution with $\nu$ degrees of freedom, w
 $$
 
 
-\nu = \textrm{number of categories} - \textrm{number of constraints}.
+\nu = \text{number of categories} - \text{number of constraints}.
 
 
 $$
@@ -270,7 +270,7 @@ We can calculate an estimate of $p,$ which we denote as $\hat p,$ as follows:
 $$
 
 
-\begin{aligned}\overset{𝑝}{^} & =\frac{total number of successes}{total number of trials} \\ & =\frac{∑(𝑦_{𝑖}⋅𝑂_{𝑖})}{𝑛⋅𝑁},\end{aligned}
+\begin{aligned}\hat{𝑝} & =\frac{total number of successes}{total number of trials} \\ & =\frac{∑(𝑦_{𝑖}⋅𝑂_{𝑖})}{𝑛⋅𝑁},\end{aligned}
 
 
 $$
@@ -280,7 +280,7 @@ where $N$ is the number of observations, and $n$ is the number of trials in each
 $$
 
 
-\begin{aligned}\overset{𝑝}{^} & =\frac{0⋅12+1⋅32+2⋅67+3⋅52+4⋅27+5⋅0}{5⋅200} \\ & =0.48.\end{aligned}
+\begin{aligned}\hat{𝑝} & =\frac{0⋅12+1⋅32+2⋅67+3⋅52+4⋅27+5⋅0}{5⋅200} \\ & =0.48.\end{aligned}
 
 
 $$
@@ -343,7 +343,7 @@ $$
 
 So, there are $\nu = \boxed{\color{blue}4}$ degrees of freedom.
 
-From the given chi-square table, the critical value for $\nu=4$ at a $10\%$ significance level is $\chi^2_{\textrm{critical}}=7.779,$ and the critical region is
+From the given chi-square table, the critical value for $\nu=4$ at a $10\%$ significance level is $\chi^2_{\text{critical}}=7.779,$ and the critical region is
 
 $$
 
@@ -479,7 +479,7 @@ $$
 
 So, there are $\nu = \boxed{\color{blue}2}$ degrees of freedom.
 
-From the given chi-square table, the critical value for $\nu=1$ at a $1\%$ significance level is $\chi^2_{\textrm{critical}}=9.210,$ and the critical region is
+From the given chi-square table, the critical value for $\nu=1$ at a $1\%$ significance level is $\chi^2_{\text{critical}}=9.210,$ and the critical region is
 
 $$
 

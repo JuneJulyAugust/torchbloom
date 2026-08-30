@@ -176,7 +176,7 @@ Finally, we evaluate at $t=\dfrac{\pi}{8},$ and we get
 $$
 
 
-\begin{aligned}\frac{d^{2}𝑦}{d𝑥^{2}}_{𝑡=𝜋/8} & =−2sec^{3}⁡(2⋅\frac{𝜋}{8}) \\ & =−2sec^{3}⁡(\frac{𝜋}{4}) \\ & =−2(\sqrt{√2})^{3} \\ & =−4\sqrt{√2}.\end{aligned}
+\begin{aligned}\frac{d^{2}𝑦}{d𝑥^{2}}_{𝑡=𝜋/8} & =−2sec^{3}⁡(2⋅\frac{𝜋}{8}) \\ & =−2sec^{3}⁡(\frac{𝜋}{4}) \\ & =−2(\sqrt{2})^{3} \\ & =−4\sqrt{2}.\end{aligned}
 
 
 $$

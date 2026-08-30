@@ -19,7 +19,7 @@ We say that an implication has a trivial proof if the consequent is always true:
 $$
 
 
-P \quad \Rightarrow \overbrace{{\color{blue}Q}}^{\textrm{Always true}}
+P \quad \Rightarrow \overbrace{{\color{blue}Q}}^{\text{Always true}}
 
 
 $$
@@ -79,7 +79,7 @@ We say that an implication has a ** if the consequent is always true:
 $$
 
 
-P \quad \Rightarrow \overbrace{{\color{blue}Q}}^{\textrm{Always true}}
+P \quad \Rightarrow \overbrace{{\color{blue}Q}}^{\text{Always true}}
 
 
 $$
@@ -105,7 +105,7 @@ We say that an implication has *vacuous proof* if the antecedent is always *fals
 $$
 
 
-\overbrace{{\color{blue}P}}^{\textrm{Always false}} \Rightarrow \quad Q
+\overbrace{{\color{blue}P}}^{\text{Always false}} \Rightarrow \quad Q
 
 
 $$
@@ -175,7 +175,7 @@ We say that an implication has a ** if the antecedent is always false:
 $$
 
 
-\overbrace{{\color{blue}P}}^{\textrm{Always false}} \Rightarrow \quad Q
+\overbrace{{\color{blue}P}}^{\text{Always false}} \Rightarrow \quad Q
 
 
 $$
@@ -205,7 +205,7 @@ We say that an implication has a ** if the consequent is always true:
 $$
 
 
-P \quad \Rightarrow \overbrace{{\color{blue}Q}}^{\textrm{Always true}}
+P \quad \Rightarrow \overbrace{{\color{blue}Q}}^{\text{Always true}}
 
 
 $$

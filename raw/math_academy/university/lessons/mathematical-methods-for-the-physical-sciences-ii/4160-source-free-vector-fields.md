@@ -76,7 +76,7 @@ Therefore, since $\mathbf{F}$ is source-free, the flux of $\mathbf{F}$ across an
 $$
 
 
-\oint\limits_{C} \mathbf{F} \cdot \mathbf{n} \,\textrm{d}s = 0.
+\oint\limits_{C} \mathbf{F} \cdot \mathbf{n} \,\text{d}s = 0.
 
 
 $$
@@ -91,7 +91,7 @@ Given the vector field $\mathbf{F}(x,y) = 4y(x^2+y^2)\,\mathbf{i} - 4x(x^2+y^2)\
 
 2. $\mathbf{F}$ is a source-free vector field
 
-3. For two arbitrary curves $C_1$ and $C_2,$ we have $\displaystyle\int\limits_{C_1} \mathbf{F} \cdot \mathbf{n} \,\textrm{d}s \neq \int\limits_{C_2} \mathbf{F} \cdot \mathbf{n} \,\textrm{d}s.$
+3. For two arbitrary curves $C_1$ and $C_2,$ we have $\displaystyle\int\limits_{C_1} \mathbf{F} \cdot \mathbf{n} \,\text{d}s \neq \int\limits_{C_2} \mathbf{F} \cdot \mathbf{n} \,\text{d}s.$
 
 #### Explanation
 
@@ -101,7 +101,7 @@ If $\mathbf{F} = P\,\mathbf{i} + Q\,\mathbf{j}$ is a vector field with simply co
 
 - $\nabla \cdot \mathbf F = \dfrac{\partial P}{\partial x} + \dfrac{\partial Q}{\partial y} = 0.$
 
-- The flux $\displaystyle{\oint\limits_C \mathbf{F} \cdot \mathbf{n} \,\textrm{d}s}$ along any closed curve $C \in D$ is zero.
+- The flux $\displaystyle{\oint\limits_C \mathbf{F} \cdot \mathbf{n} \,\text{d}s}$ along any closed curve $C \in D$ is zero.
 
 - Flux is path-independent. That is, given any two curves $C_1,C_2 \in D$ with the same start and endpoints, we have that
 
@@ -133,7 +133,7 @@ With that in mind, let's consider each statement.
 
 - Statement II is true. This follows from statement I.
 
-- Statement III is false. Since $\mathbf F$ is source-free, we have that $\displaystyle\int\limits_{C_1} \mathbf{F} \cdot \mathbf{n} \,\textrm{d}s = \int\limits_{C_2} \mathbf{F} \cdot \mathbf{n} \,\textrm{d}s$ for all curves **.
+- Statement III is false. Since $\mathbf F$ is source-free, we have that $\displaystyle\int\limits_{C_1} \mathbf{F} \cdot \mathbf{n} \,\text{d}s = \int\limits_{C_2} \mathbf{F} \cdot \mathbf{n} \,\text{d}s$ for all curves **.
 
 Therefore, the correct answer is "I and II only."
 
@@ -165,7 +165,7 @@ If $\mathbf{F} = P\,\mathbf{i} + Q\,\mathbf{j}$ is a vector field with simply co
 
 - $\nabla \cdot \mathbf F = \dfrac{\partial P}{\partial x} + \dfrac{\partial Q}{\partial y} = 0.$
 
-- The flux $\displaystyle{\oint\limits_C \mathbf{F} \cdot \mathbf{n} \,\textrm{d}s}$ along any closed curve $C \in D$ is zero.
+- The flux $\displaystyle{\oint\limits_C \mathbf{F} \cdot \mathbf{n} \,\text{d}s}$ along any closed curve $C \in D$ is zero.
 
 - Flux is path-independent. That is, given any two curves $C_1, C_2 \in D$ with the same start and endpoints, we have that
 
@@ -188,7 +188,7 @@ Since $\mathbf{F}$ is source-free, we know the flux of $\mathbf{F}$ is independe
 $$
 
 
-\int\limits_{C_1} \mathbf{F} \cdot \mathbf{n}_1 \,\textrm{d}s = \int\limits_{C_2} \mathbf{F} \cdot \mathbf{n}_2 \,\textrm{d}s,
+\int\limits_{C_1} \mathbf{F} \cdot \mathbf{n}_1 \,\text{d}s = \int\limits_{C_2} \mathbf{F} \cdot \mathbf{n}_2 \,\text{d}s,
 
 
 $$
@@ -204,7 +204,7 @@ To calculate the flux of $\mathbf F$ across $C_2,$ we will use the formula
 $$
 
 
-\int\limits_{C_2} \mathbf{F} \cdot \mathbf{n}_2 \,\textrm{d}s = \int\limits_{C_2} P\,\textrm{d}y - Q\,\textrm{d}x.
+\int\limits_{C_2} \mathbf{F} \cdot \mathbf{n}_2 \,\text{d}s = \int\limits_{C_2} P\,\text{d}y - Q\,\text{d}x.
 
 
 $$
@@ -230,7 +230,7 @@ where $t\in [0,1].$ Therefore,
 $$
 
 
-\begin{aligned}𝑃(𝑥,𝑦) & =\sqrt{√𝑦^{3}}=\sqrt{√(3)^{3}}=3\sqrt{√3}, \\ 𝑄(𝑥,𝑦) & =\sqrt{√(5−𝑥)^{3}}=\sqrt{√(5−(5−4𝑡))^{3}}=8\sqrt{√𝑡^{3}}.\end{aligned}
+\begin{aligned}𝑃(𝑥,𝑦) & =\sqrt{𝑦^{3}}=\sqrt{(3)^{3}}=3\sqrt{3}, \\ 𝑄(𝑥,𝑦) & =\sqrt{(5−𝑥)^{3}}=\sqrt{(5−(5−4𝑡))^{3}}=8\sqrt{𝑡^{3}}.\end{aligned}
 
 
 $$
@@ -250,7 +250,7 @@ We evaluate the flux integral as follows:
 $$
 
 
-\begin{aligned}\underset{𝐶_{2}}{∫}𝐅⋅𝐧_{2}\,d𝑠 & =\underset{𝐶_{2}}{∫}𝑃\,d𝑦−𝑄\,d𝑥 \\ & =∫_{10}^{}(𝑃⋅\frac{d𝑦}{d𝑡}−𝑄⋅\frac{d𝑥}{d𝑡})d𝑡 \\ & =∫_{10}^{}(3\sqrt{√3})⋅(0)−(8\sqrt{√𝑡^{3}})⋅(−4)\,d𝑡 \\ & =∫_{10}^{}32𝑡^{3/2}\,d𝑡 \\ & =[\frac{64𝑡^{5/2}}{5}]_{10}^{} \\ & =(\frac{64(1)^{5/2}}{5})−(\frac{(64(0)^{5/2}}{5}) \\ & =\frac{64}{5}.\end{aligned}
+\begin{aligned}\underset{𝐶_{2}}{∫}𝐅⋅𝐧_{2}\,d𝑠 & =\underset{𝐶_{2}}{∫}𝑃\,d𝑦−𝑄\,d𝑥 \\ & =∫_{10}(𝑃⋅\frac{d𝑦}{d𝑡}−𝑄⋅\frac{d𝑥}{d𝑡})d𝑡 \\ & =∫_{10}(3\sqrt{3})⋅(0)−(8\sqrt{𝑡^{3}})⋅(−4)\,d𝑡 \\ & =∫_{10}32𝑡^{3/2}\,d𝑡 \\ & =[\frac{64𝑡^{5/2}}{5}]_{10} \\ & =(\frac{64(1)^{5/2}}{5})−(\frac{(64(0)^{5/2}}{5}) \\ & =\frac{64}{5}.\end{aligned}
 
 
 $$
@@ -260,7 +260,7 @@ Finally, we conclude that
 $$
 
 
-\int\limits_{C_1} \mathbf{F} \cdot \mathbf{n}_1\, \textrm{d}s = \dfrac{64}{5}.
+\int\limits_{C_1} \mathbf{F} \cdot \mathbf{n}_1\, \text{d}s = \dfrac{64}{5}.
 
 
 $$

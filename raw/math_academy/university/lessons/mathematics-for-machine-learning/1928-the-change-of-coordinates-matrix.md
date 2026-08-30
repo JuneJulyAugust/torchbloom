@@ -51,7 +51,7 @@ then the change-of-coordinates matrix from $\mathcal{B}$ to $\mathcal{C}$ is giv
 $$
 
 
-\begin{aligned}𝑃_{B→C}= & [\begin{aligned}−12 & 3 \\ 11 & 6\end{aligned}]. \\ & \,\underset{[𝐛_{1}]_{C}}{↑}\,\underset{[𝐛_{2}]_{C}}{↑}\end{aligned}
+\begin{aligned}𝑃_{B→C}= & [\begin{matrix}−12 & 3 \\ 11 & 6\end{matrix}]. \\ & \,\underset{[𝐛_{1}]_{C}}{↑}\,\underset{[𝐛_{2}]_{C}}{↑}\end{aligned}
 
 
 $$
@@ -169,7 +169,7 @@ In fact, the change-of-coordinates matrix from $\color{blue}\mathcal{B}$ to $\co
 $$
 
 
-P_{\small{\color{blue}\mathcal{B}}\to{\color{red}\mathcal{C}}}^{-1} = P_{\small{\color{red}\mathcal{C}}\to{\color{blue}\mathcal{B}}} \qquad\textrm{and}\qquad P_{\small{\color{red}\mathcal{C}}\to{\color{blue}\mathcal{B}}}^{-1} = P_{\small{\color{blue}\mathcal{B}}\to{\color{red}\mathcal{C}}}.
+P_{\small{\color{blue}\mathcal{B}}\to{\color{red}\mathcal{C}}}^{-1} = P_{\small{\color{red}\mathcal{C}}\to{\color{blue}\mathcal{B}}} \qquad\text{and}\qquad P_{\small{\color{red}\mathcal{C}}\to{\color{blue}\mathcal{B}}}^{-1} = P_{\small{\color{blue}\mathcal{B}}\to{\color{red}\mathcal{C}}}.
 
 
 $$
@@ -189,7 +189,7 @@ Computing the inverse of $P_{\small\mathcal{B}\to\mathcal{C}},$ we get
 $$
 
 
-\begin{aligned}𝑃_{C→B} & =𝑃_{−1B→C}^{} \\ & =[\begin{aligned}−4 & −6 \\ 3 & 5\end{aligned}]^{−1} \\ & =\frac{1}{(−4)⋅5−(−6)⋅3}[\begin{aligned}5 & 6 \\ −3 & −4\end{aligned}] \\ & =(−\frac{1}{2})⋅[\begin{aligned}5 & 6 \\ −3 & −4\end{aligned}] \\ & =\begin{aligned}−\frac{5}{2} & −3 \\ \frac{3}{2} & 2\end{aligned}.\end{aligned}
+\begin{aligned}𝑃_{C→B} & =𝑃_{−1B→C} \\ & =[\begin{matrix}−4 & −6 \\ 3 & 5\end{matrix}]^{−1} \\ & =\frac{1}{(−4)⋅5−(−6)⋅3}[\begin{matrix}5 & 6 \\ −3 & −4\end{matrix}] \\ & =(−\frac{1}{2})⋅[\begin{matrix}5 & 6 \\ −3 & −4\end{matrix}] \\ & =\begin{matrix}−\frac{5}{2} & −3 \\ \frac{3}{2} & 2\end{matrix}.\end{aligned}
 
 
 $$
@@ -255,7 +255,7 @@ Now, we simply reduce the left-hand side to reduced row-echelon form using Gauss
 $$
 
 
-\begin{aligned}𝑀 & =[\begin{aligned}1 & −2 & 2 & −4 \\ 3 & −5 & 7 & 1\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+(−3)𝑅_{1} \\ & ∼[\begin{aligned}1 & −2 & 2 & −4 \\ 0 & 1 & 1 & 13\end{aligned}] & 𝑅_{1} & :=𝑅_{1}+2𝑅_{2} \\ & ∼[\begin{aligned}1 & 0 & 4 & 22 \\ 0 & 1 & 1 & 13\end{aligned}] & & \end{aligned}
+\begin{aligned}𝑀 & =[\begin{matrix}1 & −2 & 2 & −4 \\ 3 & −5 & 7 & 1\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+(−3)𝑅_{1} \\ & ∼[\begin{matrix}1 & −2 & 2 & −4 \\ 0 & 1 & 1 & 13\end{matrix}] & 𝑅_{1} & :=𝑅_{1}+2𝑅_{2} \\ & ∼[\begin{matrix}1 & 0 & 4 & 22 \\ 0 & 1 & 1 & 13\end{matrix}] & & \end{aligned}
 
 
 $$
@@ -265,7 +265,7 @@ On the right-hand side, we obtain the change-of-coordinates matrix from $\mathca
 $$
 
 
-\begin{aligned}𝑃_{B→C}= & [\begin{aligned}\,4 & 22 \\ \,1 & 13\end{aligned}].\end{aligned}
+\begin{aligned}𝑃_{B→C}= & [\begin{matrix}\,4 & 22 \\ \,1 & 13\end{matrix}].\end{aligned}
 
 
 $$

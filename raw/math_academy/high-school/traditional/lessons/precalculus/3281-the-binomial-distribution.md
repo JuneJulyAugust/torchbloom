@@ -25,7 +25,7 @@ $$
 
 
 
-\textrm{HHH}, \quad \textbf{HHT}, \quad \textbf{HTH}, \quad \textrm{HTT}, \quad \textbf{THH}, \quad \textrm{THT}, \quad\textrm{TTH}, \quad \textrm{TTT}
+\text{HHH}, \quad \textbf{HHT}, \quad \textbf{HTH}, \quad \text{HTT}, \quad \textbf{THH}, \quad \text{THT}, \quad\text{TTH}, \quad \text{TTT}
 
 
 
@@ -45,11 +45,11 @@ $$
 
 We can also calculate this probability by considering each possible sequence where we have $X = 2$ (two heads and one tail), finding the probability of each, and then adding them.
 
-- First, let's calculate the probability of getting the sequence $\textrm{HHT}{:}$ Notice that we've written the probability of obtaining a tail as $\left(1 - \dfrac12\right).$ The reason for this will become clear shortly.
+- First, let's calculate the probability of getting the sequence $\text{HHT}{:}$ Notice that we've written the probability of obtaining a tail as $\left(1 - \dfrac12\right).$ The reason for this will become clear shortly.
 
-- Next, we calculate the probability of getting the sequence $\textrm{HTH}{:}$ Notice that this is the same as $P(\textrm{HHT}).$
+- Next, we calculate the probability of getting the sequence $\text{HTH}{:}$ Notice that this is the same as $P(\text{HHT}).$
 
-- Finally, we calculate the probability of getting the sequence $\textrm{THH}{:}$ Again, this is the same as $P(\textrm{HHT})$ and $P(\textrm{THH}).$
+- Finally, we calculate the probability of getting the sequence $\text{THH}{:}$ Again, this is the same as $P(\text{HHT})$ and $P(\text{THH}).$
 
 Therefore, we have
 

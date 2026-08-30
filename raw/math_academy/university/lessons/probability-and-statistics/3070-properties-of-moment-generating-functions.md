@@ -52,7 +52,7 @@ Note that for a fixed value of $t,$ we have that $e^{tb}$ is constant (i.e., it 
 
 #### Question
 
-You're given that if $X \sim \textrm{Exp}(\lambda),$ the moment-generating function (MGF) of $X$ is
+You're given that if $X \sim \text{Exp}(\lambda),$ the moment-generating function (MGF) of $X$ is
 
 $$
 
@@ -62,7 +62,7 @@ M_X(t) = \dfrac{\lambda}{\lambda - t}, \qquad t < \lambda.
 
 $$
 
-Let $Y = 3X+2,$ where $X \sim \textrm{Exp}(2).$ What is the MGF of $Y$ for $t < \dfrac23?$
+Let $Y = 3X+2,$ where $X \sim \text{Exp}(2).$ What is the MGF of $Y$ for $t < \dfrac23?$
 
 #### Explanation
 
@@ -76,7 +76,7 @@ M_Y(t) = e^{bt} M_X(at).
 
 $$
 
-For an exponential random variable $X \sim \textrm{Exp}(\lambda),$ we have
+For an exponential random variable $X \sim \text{Exp}(\lambda),$ we have
 
 $$
 
@@ -86,7 +86,7 @@ M_X(t) = \dfrac{\lambda}{\lambda - t}, \qquad t < \lambda.
 
 $$
 
-In our case, since $X \sim \textrm{Exp}(2),$ we have
+In our case, since $X \sim \text{Exp}(2),$ we have
 
 $$
 
@@ -159,7 +159,7 @@ and therefore
 $$
 
 
-\begin{aligned}𝑀_{𝑌}(𝑡) & =∫_{𝑑𝑐}^{}∫_{𝑏𝑎}^{}𝑓_{𝑋_{1},𝑋_{2}}(𝑥_{1},𝑥_{2})𝑒^{𝑡(𝑥_{1}+𝑥_{2})}\,d𝑥_{1}d𝑥_{2} \\ & =∫_{𝑑𝑐}^{}∫_{𝑏𝑎}^{}𝑓_{𝑋_{1}}(𝑥_{1})𝑓_{𝑋_{2}}(𝑥_{2})𝑒^{𝑡(𝑥_{1}+𝑥_{2})}\,d𝑥_{1}d𝑥_{2} \\ & =∫_{𝑑𝑐}^{}∫_{𝑏𝑎}^{}𝑓_{𝑋_{1}}(𝑥_{1})𝑓_{𝑋_{2}}(𝑥_{2})𝑒^{𝑡𝑥_{1}}𝑒^{𝑡𝑥_{2}}\,d𝑥_{1}d𝑥_{2} \\ & =∫_{𝑏𝑎}^{}𝑓_{𝑋_{1}}(𝑥_{1})𝑒^{𝑡𝑥_{1}}\,d𝑥_{1}⋅∫_{𝑑𝑐}^{}𝑓_{𝑋_{2}}(𝑥_{2})𝑒^{𝑡𝑥_{2}}\,d𝑥_{2} \\ & =E[𝑒^{𝑡𝑋_{1}}]⋅E[𝑒^{𝑡𝑋_{2}}] \\ & =𝑀_{𝑋_{1}}(𝑡)𝑀_{𝑋_{2}}(𝑡).\end{aligned}
+\begin{aligned}𝑀_{𝑌}(𝑡) & =∫_{𝑑𝑐}∫_{𝑏𝑎}𝑓_{𝑋_{1},𝑋_{2}}(𝑥_{1},𝑥_{2})𝑒^{𝑡(𝑥_{1}+𝑥_{2})}\,d𝑥_{1}d𝑥_{2} \\ & =∫_{𝑑𝑐}∫_{𝑏𝑎}𝑓_{𝑋_{1}}(𝑥_{1})𝑓_{𝑋_{2}}(𝑥_{2})𝑒^{𝑡(𝑥_{1}+𝑥_{2})}\,d𝑥_{1}d𝑥_{2} \\ & =∫_{𝑑𝑐}∫_{𝑏𝑎}𝑓_{𝑋_{1}}(𝑥_{1})𝑓_{𝑋_{2}}(𝑥_{2})𝑒^{𝑡𝑥_{1}}𝑒^{𝑡𝑥_{2}}\,d𝑥_{1}d𝑥_{2} \\ & =∫_{𝑏𝑎}𝑓_{𝑋_{1}}(𝑥_{1})𝑒^{𝑡𝑥_{1}}\,d𝑥_{1}⋅∫_{𝑑𝑐}𝑓_{𝑋_{2}}(𝑥_{2})𝑒^{𝑡𝑥_{2}}\,d𝑥_{2} \\ & =E[𝑒^{𝑡𝑋_{1}}]⋅E[𝑒^{𝑡𝑋_{2}}] \\ & =𝑀_{𝑋_{1}}(𝑡)𝑀_{𝑋_{2}}(𝑡).\end{aligned}
 
 
 $$
@@ -168,7 +168,7 @@ $$
 
 #### Question
 
-You're given that if $X \sim \textrm{Po}(\lambda),$ the moment-generating function (MGF) of $X$ is
+You're given that if $X \sim \text{Po}(\lambda),$ the moment-generating function (MGF) of $X$ is
 
 $$
 
@@ -178,7 +178,7 @@ M(t) = e^{\lambda(e^t-1)}, \qquad t\in\mathbb R.
 
 $$
 
-Let $Y = X_1 + X_2,$ where $X_1 \sim \textrm{Po}(4)$ and $X_2 \sim \textrm{Po}(7)$ are independent. What is the moment-generating function (MGF) of $Y$ for $t\in \mathbb{R}?$
+Let $Y = X_1 + X_2,$ where $X_1 \sim \text{Po}(4)$ and $X_2 \sim \text{Po}(7)$ are independent. What is the moment-generating function (MGF) of $Y$ for $t\in \mathbb{R}?$
 
 #### Explanation
 
@@ -192,7 +192,7 @@ M_Y(t) = M_{X_1}(t) M_{X_2}(t).
 
 $$
 
-For a Poisson random variable $X_1 \sim \textrm{Po}(\lambda),$ we have
+For a Poisson random variable $X_1 \sim \text{Po}(\lambda),$ we have
 
 $$
 
@@ -202,7 +202,7 @@ M_{X_1}(t) = e^{\lambda(e^t-1)}.
 
 $$
 
-In our case, since $X_1 \sim \textrm{Po}(4),$ we have
+In our case, since $X_1 \sim \text{Po}(4),$ we have
 
 $$
 
@@ -212,7 +212,7 @@ M_{X_1}(t) = e^{4(e^t-1)}.
 
 $$
 
-Then, since $X_2 \sim \textrm{Po}(7),$ we have
+Then, since $X_2 \sim \text{Po}(7),$ we have
 
 $$
 

@@ -24,14 +24,14 @@ Since we're converting from hours to minutes, we need a conversion between these
 $$
 
 
-\dfrac{60\,\textrm{min}}{\textrm{h}}
+\dfrac{60\,\text{min}}{\text{h}}
 
 
 $$
 
 This is our **conversion factor.** It's important to write the conversion factor with the units included.
 
-Now, multiplying $3 \, \textrm{h}$ by our conversion factor, we get
+Now, multiplying $3 \, \text{h}$ by our conversion factor, we get
 
 $$
 
@@ -41,37 +41,37 @@ $$
 
 $$
 
-Therefore, $3 \, \textrm{h}$ is equivalent to $180 \, \textrm{min}.$
+Therefore, $3 \, \text{h}$ is equivalent to $180 \, \text{min}.$
 
 Note the following:
 
 - When multiplying by the conversion factor, the units we want to remove should *always* cancel, and the units we wish to keep should *always* remain. If this isn't the case, we've made a mistake somewhere.
 
-- We can think of the conversion factor as equivalent to the number $1,$ and multiplying a quantity by $1$ doesn't change it. Therefore, multiplying $3\,\textrm{h}$ by the conversion factor doesn't change the *size* of the quantity, though it does change the units.
+- We can think of the conversion factor as equivalent to the number $1,$ and multiplying a quantity by $1$ doesn't change it. Therefore, multiplying $3\,\text{h}$ by the conversion factor doesn't change the *size* of the quantity, though it does change the units.
 
-Finally, notice that, in this example, we've converted from a larger unit of time $(\textrm{h})$ to a smaller one $(\textrm{min}).$ We'll see how to use units to convert from smaller units of time to larger ones later in this lesson.
+Finally, notice that, in this example, we've converted from a larger unit of time $(\text{h})$ to a smaller one $(\text{min}).$ We'll see how to use units to convert from smaller units of time to larger ones later in this lesson.
 
 ### Example: Converting From Hours to Minutes
 
 #### Question
 
-What is $0.5 \,\textrm{h}$ expressed in $\textrm{min}?$
+What is $0.5 \,\text{h}$ expressed in $\text{min}?$
 
 #### Explanation
 
-There are $60\,\textrm{min}$ per $\,\textrm{h},$ which we can write as follows:
+There are $60\,\text{min}$ per $\,\text{h},$ which we can write as follows:
 
 $$
 
 
-\dfrac{60\,\textrm{min}}{\textrm{h}}
+\dfrac{60\,\text{min}}{\text{h}}
 
 
 $$
 
 This is our conversion factor.
 
-Now, multiplying $0.5\,\textrm{h}$ by our conversion factor, we get
+Now, multiplying $0.5\,\text{h}$ by our conversion factor, we get
 
 $$
 
@@ -81,29 +81,29 @@ $$
 
 $$
 
-Therefore, $0.5\,\textrm{h}$ is equivalent to $30\,\textrm{min}.$
+Therefore, $0.5\,\text{h}$ is equivalent to $30\,\text{min}.$
 
 ### Example: Converting From Minutes to Seconds
 
 #### Question
 
-What is $15 \, \textrm{min}$ expressed in $\textrm{s}?$
+What is $15 \, \text{min}$ expressed in $\text{s}?$
 
 #### Explanation
 
-There are $60\,\textrm{s}$ per $\textrm{min},$ which we can write as follows:
+There are $60\,\text{s}$ per $\text{min},$ which we can write as follows:
 
 $$
 
 
-\dfrac{60\,\textrm{s}}{\textrm{min}}
+\dfrac{60\,\text{s}}{\text{min}}
 
 
 $$
 
 This is our conversion factor.
 
-Now, multiplying $15\,\textrm{min}$ by our conversion factor, we get
+Now, multiplying $15\,\text{min}$ by our conversion factor, we get
 
 $$
 
@@ -113,37 +113,37 @@ $$
 
 $$
 
-Therefore, $15\,\textrm{min}$ is equivalent to $900\,\textrm{s}.$
+Therefore, $15\,\text{min}$ is equivalent to $900\,\text{s}.$
 
 ### Using Reciprocals to Convert From Smaller Units to Larger Units
 
 We've seen how to use units to convert from larger units of time to smaller ones. Let's now learn how to convert from smaller units to larger ones.
 
-For example, let's express $36\,\textrm{min}$ in hours.
+For example, let's express $36\,\text{min}$ in hours.
 
-First, we note that there are $60\,\textrm{min}$ per hour, which we can write as follows:
-
-$$
-
-
-\dfrac{60\,\textrm{min}}{\textrm{h}}
-
-
-$$
-
-However, since we're converting from a smaller unit of time $(\textrm{min})$ to a larger one $(\textrm{h}),$ we need to multiply $36\,\textrm{min}$ by the *reciprocal* of the above:
+First, we note that there are $60\,\text{min}$ per hour, which we can write as follows:
 
 $$
 
 
-\dfrac{\textrm{h}}{60\,\textrm{min}}
+\dfrac{60\,\text{min}}{\text{h}}
+
+
+$$
+
+However, since we're converting from a smaller unit of time $(\text{min})$ to a larger one $(\text{h}),$ we need to multiply $36\,\text{min}$ by the *reciprocal* of the above:
+
+$$
+
+
+\dfrac{\text{h}}{60\,\text{min}}
 
 
 $$
 
 This is our conversion factor.
 
-Now, multiplying $36\,\textrm{min}$ by our conversion factor, we get
+Now, multiplying $36\,\text{min}$ by our conversion factor, we get
 
 $$
 
@@ -153,11 +153,11 @@ $$
 
 $$
 
-Therefore, $36\,\textrm{min}$ is equivalent to $0.6$ hours.
+Therefore, $36\,\text{min}$ is equivalent to $0.6$ hours.
 
 Note the following:
 
-- When we say that hours are a "larger unit of time" than minutes, this simply means that $1\,\textrm{h}$ is a longer time duration than $1\,\textrm{min}.$
+- When we say that hours are a "larger unit of time" than minutes, this simply means that $1\,\text{h}$ is a longer time duration than $1\,\text{min}.$
 
 - If you forget to take the reciprocal to find the conversion factor, the units will not cancel when you multiply. This indicates that a mistake has occurred. In such cases, it's best to double-check that you're using the correct conversion factor.
 
@@ -165,33 +165,33 @@ Note the following:
 
 #### Question
 
-What is $3\,600\,\textrm{s}$ expressed in $\textrm{min}?$
+What is $3\,600\,\text{s}$ expressed in $\text{min}?$
 
 #### Explanation
 
-There are $60\,\textrm{s}$ per $\textrm{min},$ which we can write as follows:
+There are $60\,\text{s}$ per $\text{min},$ which we can write as follows:
 
 $$
 
 
-\dfrac{60\,\textrm{s}}{\textrm{min}}
+\dfrac{60\,\text{s}}{\text{min}}
 
 
 $$
 
-However, since we're converting from a smaller unit of time $(\textrm{s})$ to a larger one $(\textrm{min}),$ we need to multiply $3\,600\,\textrm{s}$ by the reciprocal of the above:
+However, since we're converting from a smaller unit of time $(\text{s})$ to a larger one $(\text{min}),$ we need to multiply $3\,600\,\text{s}$ by the reciprocal of the above:
 
 $$
 
 
-\dfrac{\textrm{min}}{60\,\textrm{s}}
+\dfrac{\text{min}}{60\,\text{s}}
 
 
 $$
 
 This is our conversion factor.
 
-Now, multiplying $3\,600\,\textrm{s}$ by our conversion factor, we get
+Now, multiplying $3\,600\,\text{s}$ by our conversion factor, we get
 
 $$
 
@@ -201,4 +201,4 @@ $$
 
 $$
 
-Therefore, $3\,600\,\textrm{s}$ is equivalent to $60\,\textrm{min}.$
+Therefore, $3\,600\,\text{s}$ is equivalent to $60\,\text{min}.$

@@ -23,7 +23,7 @@ Given a random sample and a value $\alpha$ between $0$ and $1,$ we know that the
 $$
 
 
-\overline{x} \pm \overbrace{z_{\alpha/2} \cdot \dfrac{\sigma}{\sqrt n}}^{\large \textrm{margin of error}},
+\overline{x} \pm \overbrace{z_{\alpha/2} \cdot \dfrac{\sigma}{\sqrt n}}^{\large \text{margin of error}},
 
 
 $$
@@ -53,7 +53,7 @@ We can solve this inequality for $n$ by first squaring both sides. This gives
 $$
 
 
-\begin{aligned}𝑧_{2𝛼/2}^{}⋅\frac{𝜎^{2}}{𝑛} & ≤𝜀^{2}.\end{aligned}
+\begin{aligned}𝑧_{2𝛼/2}⋅\frac{𝜎^{2}}{𝑛} & ≤𝜀^{2}.\end{aligned}
 
 
 $$
@@ -82,9 +82,9 @@ Let's look at an example of the first case.
 
 #### Question
 
-A group of researchers wants to calculate a $98\%$ confidence interval for the mean number of hours wolves sleep daily in their natural habitat. The population standard deviation is known to be $\sigma = 1.2 \, \textrm{h}.$
+A group of researchers wants to calculate a $98\%$ confidence interval for the mean number of hours wolves sleep daily in their natural habitat. The population standard deviation is known to be $\sigma = 1.2 \, \text{h}.$
 
-Find the smallest sample size $n$ required to ensure that the margin of error for the $98\%$ confidence interval for the mean number of hours wolves sleep daily is at most $0.3 \, \textrm{h}.$
+Find the smallest sample size $n$ required to ensure that the margin of error for the $98\%$ confidence interval for the mean number of hours wolves sleep daily is at most $0.3 \, \text{h}.$
 
 **
 
@@ -97,7 +97,7 @@ As a result, given a value $\alpha$ between $0$ and $1,$ the corresponding $[100
 $$
 
 
-\overline{x} \pm \overbrace{z_{\alpha/2} \cdot \dfrac{\sigma}{\sqrt n}}^{\large \textrm{margin of error}},
+\overline{x} \pm \overbrace{z_{\alpha/2} \cdot \dfrac{\sigma}{\sqrt n}}^{\large \text{margin of error}},
 
 
 $$
@@ -149,7 +149,7 @@ into the inequality for $n,$ we obtain
 $$
 
 
-\begin{aligned}𝑛 & ≥\frac{𝑧_{2𝛼/2}^{}\,𝜎^{2}}{𝜀^{2}} \\ & =\frac{(2.326)^{2}\,(1.2)^{2}}{(0.3)^{2}} \\ & ≈86.56.\end{aligned}
+\begin{aligned}𝑛 & ≥\frac{𝑧_{2𝛼/2}\,𝜎^{2}}{𝜀^{2}} \\ & =\frac{(2.326)^{2}\,(1.2)^{2}}{(0.3)^{2}} \\ & ≈86.56.\end{aligned}
 
 
 $$
@@ -175,7 +175,7 @@ First, recall that the corresponding confidence interval for the population mean
 $$
 
 
-\overline{x} \pm \overbrace{t_{n-1, \,\alpha/2} \cdot \dfrac{s}{\sqrt n}}^{\large \textrm{margin of error}},
+\overline{x} \pm \overbrace{t_{n-1, \,\alpha/2} \cdot \dfrac{s}{\sqrt n}}^{\large \text{margin of error}},
 
 
 $$
@@ -239,7 +239,7 @@ Given a value $\alpha$ between $0$ and $1,$ the corresponding $[100(1-\alpha)]\%
 $$
 
 
-\overline{x} \pm \overbrace{t_{n-1, \,\alpha/2} \cdot \dfrac{s}{\sqrt n}}^{\large \textrm{margin of error}},
+\overline{x} \pm \overbrace{t_{n-1, \,\alpha/2} \cdot \dfrac{s}{\sqrt n}}^{\large \text{margin of error}},
 
 
 $$
@@ -301,7 +301,7 @@ into the inequality for $n,$ we obtain
 $$
 
 
-\begin{aligned}𝑛 & ≥\frac{𝑧_{2𝛼/2}^{}\,𝑠^{2}}{𝜀^{2}} \\ & =\frac{(2.326)^{2}\,(0.5)^{2}}{(0.05)^{2}} \\ & ≈541.03.\end{aligned}
+\begin{aligned}𝑛 & ≥\frac{𝑧_{2𝛼/2}\,𝑠^{2}}{𝜀^{2}} \\ & =\frac{(2.326)^{2}\,(0.5)^{2}}{(0.05)^{2}} \\ & ≈541.03.\end{aligned}
 
 
 $$
@@ -335,7 +335,7 @@ Given a value $\alpha$ between $0$ and $1,$ the corresponding $[100(1-\alpha)]\%
 $$
 
 
-\overline{x} \pm \overbrace{z_{\alpha/2} \cdot \dfrac{\sigma}{\sqrt n}}^{\large \textrm{margin of error}},
+\overline{x} \pm \overbrace{z_{\alpha/2} \cdot \dfrac{\sigma}{\sqrt n}}^{\large \text{margin of error}},
 
 
 $$
@@ -405,7 +405,7 @@ into the inequality for $n,$ we obtain
 $$
 
 
-\begin{aligned}𝑛 & ≥\frac{𝑧_{2𝛼/2}^{}\,\overset{𝜎}{ˆ}^{2}}{𝜀^{2}} \\ & =\frac{(1.96)^{2}\,(3)^{2}}{(0.5)^{2}} \\ & ≈138.30\end{aligned}
+\begin{aligned}𝑛 & ≥\frac{𝑧_{2𝛼/2}\,\overset{𝜎}{ˆ}^{2}}{𝜀^{2}} \\ & =\frac{(1.96)^{2}\,(3)^{2}}{(0.5)^{2}} \\ & ≈138.30\end{aligned}
 
 
 $$
@@ -431,7 +431,7 @@ First, recall that, given a value $\alpha$ between $0$ and $1,$ the correspondin
 $$
 
 
-\overline{x} \pm \overbrace{z_{\alpha/2} \cdot \dfrac{\sigma}{\sqrt n}}^{\large \textrm{margin of error}},
+\overline{x} \pm \overbrace{z_{\alpha/2} \cdot \dfrac{\sigma}{\sqrt n}}^{\large \text{margin of error}},
 
 
 $$
@@ -477,7 +477,7 @@ Canceling $\sigma$ and solving for $\dfrac{n_2}{n_1},$ we get
 $$
 
 
-\begin{aligned}𝑧_{0.025}⋅\frac{1}{\sqrt{√𝑛_{1}}} & =3⋅𝑧_{0.005}⋅\frac{1}{\sqrt{√𝑛_{2}}} \\ \frac{\sqrt{√𝑛_{2}}}{\sqrt{√𝑛_{1}}} & =\frac{3⋅𝑧_{0.005}}{𝑧_{0.025}} \\ (\frac{\sqrt{√𝑛_{2}}}{\sqrt{√𝑛_{1}}})^{2} & =(\frac{3⋅𝑧_{0.005}}{𝑧_{0.025}})^{2} \\ \frac{𝑛_{2}}{𝑛_{1}} & =\frac{9⋅𝑧_{20.005}^{}}{𝑧_{20.025}^{}}\end{aligned}
+\begin{aligned}𝑧_{0.025}⋅\frac{1}{\sqrt{𝑛_{1}}} & =3⋅𝑧_{0.005}⋅\frac{1}{\sqrt{𝑛_{2}}} \\ \frac{\sqrt{𝑛_{2}}}{\sqrt{𝑛_{1}}} & =\frac{3⋅𝑧_{0.005}}{𝑧_{0.025}} \\ (\frac{\sqrt{𝑛_{2}}}{\sqrt{𝑛_{1}}})^{2} & =(\frac{3⋅𝑧_{0.005}}{𝑧_{0.025}})^{2} \\ \frac{𝑛_{2}}{𝑛_{1}} & =\frac{9⋅𝑧_{20.005}}{𝑧_{20.025}}\end{aligned}
 
 
 $$
@@ -487,7 +487,7 @@ Now, using the fact that $z_{0.005} = 2.576$ and $z_{0.025} = 1.960$, we have
 $$
 
 
-\begin{aligned}\frac{𝑛_{2}}{𝑛_{1}} & =\frac{9⋅𝑧_{20.005}^{}}{𝑧_{20.025}^{}} \\ & =\frac{9⋅2.576^{2}}{1.960^{2}} \\ & ≈15.54.\end{aligned}
+\begin{aligned}\frac{𝑛_{2}}{𝑛_{1}} & =\frac{9⋅𝑧_{20.005}}{𝑧_{20.025}} \\ & =\frac{9⋅2.576^{2}}{1.960^{2}} \\ & ≈15.54.\end{aligned}
 
 
 $$
@@ -523,7 +523,7 @@ Given a value $\alpha$ between $0$ and $1,$ the corresponding $[100(1-\alpha)]\%
 $$
 
 
-\overline{x} \pm \overbrace{z_{\alpha/2} \cdot \dfrac{\sigma}{\sqrt n}}^{\large \textrm{margin of error}},
+\overline{x} \pm \overbrace{z_{\alpha/2} \cdot \dfrac{\sigma}{\sqrt n}}^{\large \text{margin of error}},
 
 
 $$
@@ -563,7 +563,7 @@ Solving for $\dfrac{n_2}{n_1},$ we get
 $$
 
 
-\begin{aligned}\frac{\sqrt{√𝑛_{2}}}{\sqrt{√𝑛_{1}}} & =\frac{𝑧_{0.01}⋅𝑠_{2}}{𝑧_{0.025}⋅𝑠_{1}} \\ (\frac{\sqrt{√𝑛_{2}}}{\sqrt{√𝑛_{1}}})^{2} & =(\frac{𝑧_{0.01}⋅𝑠_{2}}{𝑧_{0.025}⋅𝑠_{1}})^{2} \\ \frac{𝑛_{2}}{𝑛_{1}} & =\frac{𝑧_{20.01}^{}⋅𝑠_{22}^{}}{𝑧_{20.025}^{}⋅𝑠_{21}^{}}\end{aligned}
+\begin{aligned}\frac{\sqrt{𝑛_{2}}}{\sqrt{𝑛_{1}}} & =\frac{𝑧_{0.01}⋅𝑠_{2}}{𝑧_{0.025}⋅𝑠_{1}} \\ (\frac{\sqrt{𝑛_{2}}}{\sqrt{𝑛_{1}}})^{2} & =(\frac{𝑧_{0.01}⋅𝑠_{2}}{𝑧_{0.025}⋅𝑠_{1}})^{2} \\ \frac{𝑛_{2}}{𝑛_{1}} & =\frac{𝑧_{20.01}⋅𝑠_{22}}{𝑧_{20.025}⋅𝑠_{21}}\end{aligned}
 
 
 $$

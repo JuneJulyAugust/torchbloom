@@ -199,7 +199,7 @@ Differentiating gives
 $$
 
 
-\dfrac{\textrm d y}{\textrm d u} = \sec^2 u,\qquad \dfrac{\textrm{d}u}{\textrm d x} = \cos x.
+\dfrac{\textrm d y}{\textrm d u} = \sec^2 u,\qquad \dfrac{\text{d}u}{\textrm d x} = \cos x.
 
 
 $$

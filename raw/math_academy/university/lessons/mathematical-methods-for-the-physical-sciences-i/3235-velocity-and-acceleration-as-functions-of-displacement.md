@@ -37,7 +37,7 @@ In both of these relationships, we require $a$ and $v$ to be expressed as functi
 
 Now suppose that we're given the acceleration as a function of the displacement $x.$ How do we calculate the velocity in this case?
 
-For example, suppose that the acceleration of a particle is given by $a(x) = 4x\,\textrm{m/s}^2.$ A sketch of the situation is shown below.
+For example, suppose that the acceleration of a particle is given by $a(x) = 4x\,\text{m/s}^2.$ A sketch of the situation is shown below.
 
 ![Instructional graphic](../../../lesson-assets/mathematical-methods-for-the-physical-sciences-i/topic-3235/46d8d5d1380b368f.png)
 
@@ -46,7 +46,7 @@ Since the acceleration of the particle $P$ equals $4x,$ we have
 $$
 
 
-\dfrac{\textrm{d}v}{\textrm{d}t} = 4x.
+\dfrac{\text{d}v}{\text{d}t} = 4x.
 
 
 $$
@@ -61,12 +61,12 @@ $$
 
 $$
 
-Now, since $v= \dfrac{\textrm{d}x}{\textrm{d}t}$ by definition, we have
+Now, since $v= \dfrac{\text{d}x}{\text{d}t}$ by definition, we have
 
 $$
 
 
-v \dfrac{\textrm{d}v}{\textrm{d}x} = 4x.\qquad \qquad (\ast)
+v \dfrac{\text{d}v}{\text{d}x} = 4x.\qquad \qquad (\ast)
 
 
 $$
@@ -110,7 +110,7 @@ Since the acceleration of the particle $P$ has magnitude $\sin^2 x$ and is direc
 $$
 
 
-\dfrac{\textrm{d}v}{\textrm{d}t} = -\sin^2 x.
+\dfrac{\text{d}v}{\text{d}t} = -\sin^2 x.
 
 
 $$
@@ -125,12 +125,12 @@ $$
 
 $$
 
-Now, since $v= \dfrac{\textrm{d}x}{\textrm{d}t},$ we have
+Now, since $v= \dfrac{\text{d}x}{\text{d}t},$ we have
 
 $$
 
 
-v \dfrac{\textrm{d}v}{\textrm{d}x} = -\sin^2 x.\qquad \qquad (\ast)
+v \dfrac{\text{d}v}{\text{d}x} = -\sin^2 x.\qquad \qquad (\ast)
 
 
 $$
@@ -170,7 +170,7 @@ Since the acceleration of the particle $P$ is $(2x + e^{x-2}) \,\rm{m/s}^2,$ we 
 $$
 
 
-\dfrac{\textrm{d}v}{\textrm{d}t} = 2x + e^{x-2}.
+\dfrac{\text{d}v}{\text{d}t} = 2x + e^{x-2}.
 
 
 $$
@@ -180,7 +180,7 @@ Using the fact that
 $$
 
 
-\dfrac{\textrm{d}v}{\textrm{d}t}= \dfrac{\textrm{d}}{\textrm{d}x}\left(\dfrac{1}{2}v^2\right)
+\dfrac{\text{d}v}{\text{d}t}= \dfrac{\text{d}}{\text{d}x}\left(\dfrac{1}{2}v^2\right)
 
 
 $$
@@ -190,7 +190,7 @@ we can rewrite our equation as
 $$
 
 
-\dfrac{\textrm{d}}{\textrm{d}x}\left(\dfrac{1}{2}v^2\right) = 2x + e^{x-2}.
+\dfrac{\text{d}}{\text{d}x}\left(\dfrac{1}{2}v^2\right) = 2x + e^{x-2}.
 
 
 $$
@@ -230,7 +230,7 @@ Therefore,
 $$
 
 
-\begin{aligned}\frac{1}{2}𝑣^{2} & =𝑥^{2}+𝑒^{𝑥−2}+3 \\ 𝑣^{2} & =2(𝑥^{2}+𝑒^{𝑥−2}+3) \\ 𝑣 & =±\sqrt{√2(𝑥^{2}+𝑒^{𝑥−2}+3)}.\end{aligned}
+\begin{aligned}\frac{1}{2}𝑣^{2} & =𝑥^{2}+𝑒^{𝑥−2}+3 \\ 𝑣^{2} & =2(𝑥^{2}+𝑒^{𝑥−2}+3) \\ 𝑣 & =±\sqrt{2(𝑥^{2}+𝑒^{𝑥−2}+3)}.\end{aligned}
 
 
 $$
@@ -250,7 +250,7 @@ Finally, the velocity of $P$ at $x = 1$ is given by
 $$
 
 
-\begin{aligned}𝑣 & =\sqrt{√2(1^{2}+𝑒^{1−2}+3)} \\ & =\sqrt{√2(4+𝑒^{−1})} \\ & ≈2.96\,m/s,\end{aligned}
+\begin{aligned}𝑣 & =\sqrt{2(1^{2}+𝑒^{1−2}+3)} \\ & =\sqrt{2(4+𝑒^{−1})} \\ & ≈2.96\,m/s,\end{aligned}
 
 
 $$
@@ -272,7 +272,7 @@ Since the acceleration of the particle $P$ has magnitude $\dfrac{2}{(x+1)^2}\, \
 $$
 
 
-\dfrac{\textrm{d}v}{\textrm{d}t} =-\dfrac{2}{(x+1)^2}.
+\dfrac{\text{d}v}{\text{d}t} =-\dfrac{2}{(x+1)^2}.
 
 
 $$
@@ -282,7 +282,7 @@ Using the fact that
 $$
 
 
-\dfrac{\textrm{d}v}{\textrm{d}t}= \dfrac{\textrm{d}}{\textrm{d}x}\left(\dfrac{1}{2}v^2\right)
+\dfrac{\text{d}v}{\text{d}t}= \dfrac{\text{d}}{\text{d}x}\left(\dfrac{1}{2}v^2\right)
 
 
 $$
@@ -292,7 +292,7 @@ we can rewrite our equation as
 $$
 
 
-\dfrac{\textrm{d}}{\textrm{d}x}\left(\dfrac{1}{2}v^2\right) = -\dfrac{2}{(x+1)^2}.
+\dfrac{\text{d}}{\text{d}x}\left(\dfrac{1}{2}v^2\right) = -\dfrac{2}{(x+1)^2}.
 
 
 $$
@@ -317,7 +317,7 @@ $$
 
 $$
 
-Now, since $v=2\,\rm{m/s}$ when $x=0\, \textrm{m},$ we can find the value of the constant $K,$ as follows:
+Now, since $v=2\,\rm{m/s}$ when $x=0\, \text{m},$ we can find the value of the constant $K,$ as follows:
 
 $$
 
@@ -332,7 +332,7 @@ Therefore,
 $$
 
 
-\begin{aligned}\frac{1}{2}𝑣^{2} & =\frac{2}{𝑥+1} \\ 𝑣^{2} & =\frac{4}{𝑥+1} \\ 𝑣 & =±\frac{2}{\sqrt{√𝑥+1}}.\end{aligned}
+\begin{aligned}\frac{1}{2}𝑣^{2} & =\frac{2}{𝑥+1} \\ 𝑣^{2} & =\frac{4}{𝑥+1} \\ 𝑣 & =±\frac{2}{\sqrt{𝑥+1}}.\end{aligned}
 
 
 $$
@@ -347,12 +347,12 @@ v(x) = \dfrac{2}{\sqrt{x+1}}.
 
 $$
 
-Now, we know that $v= \dfrac{\textrm{d}x}{\textrm{d}t}.$ Therefore, we have the equation
+Now, we know that $v= \dfrac{\text{d}x}{\text{d}t}.$ Therefore, we have the equation
 
 $$
 
 
-\dfrac{\textrm{d}x}{\textrm{d}t} = \dfrac{2}{\sqrt{x+1}}.
+\dfrac{\text{d}x}{\text{d}t} = \dfrac{2}{\sqrt{x+1}}.
 
 
 $$
@@ -362,7 +362,7 @@ Separating the variables and integrating both sides with respect to $t,$ we have
 $$
 
 
-\begin{aligned}\frac{d𝑥}{d𝑡} & =\frac{2}{\sqrt{√𝑥+1}} \\ \sqrt{√𝑥+1}\,\frac{d𝑥}{d𝑡} & =2 \\ ∫\sqrt{√𝑥+1}\,\frac{d𝑥}{d𝑡}\,d𝑡 & =∫2\,d𝑡 \\ ∫\sqrt{√𝑥+1}\,d𝑥 & =∫2\,d𝑡 \\ \frac{2}{3}(𝑥+1)^{3/2} & =2𝑡+𝐶_{1} \\ (𝑥+1)^{3/2} & =3𝑡+𝐶\end{aligned}
+\begin{aligned}\frac{d𝑥}{d𝑡} & =\frac{2}{\sqrt{𝑥+1}} \\ \sqrt{𝑥+1}\,\frac{d𝑥}{d𝑡} & =2 \\ ∫\sqrt{𝑥+1}\,\frac{d𝑥}{d𝑡}\,d𝑡 & =∫2\,d𝑡 \\ ∫\sqrt{𝑥+1}\,d𝑥 & =∫2\,d𝑡 \\ \frac{2}{3}(𝑥+1)^{3/2} & =2𝑡+𝐶_{1} \\ (𝑥+1)^{3/2} & =3𝑡+𝐶\end{aligned}
 
 
 $$

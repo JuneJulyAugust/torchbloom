@@ -58,7 +58,7 @@ Taking the limit as $\delta u, \delta v\to 0$ gives our definition of the surfac
 $$
 
 
-\iint\limits_S f(x,y,z) \, \textrm{d}S.
+\iint\limits_S f(x,y,z) \, \text{d}S.
 
 
 $$
@@ -78,7 +78,7 @@ It follows that we can calculate our surface integral using the following formul
 $$
 
 
-\iint\limits_S f(x,y,z) \, \textrm{d}S = \iint\limits_D f(\mathbf{r}(u,v)) \left\| \mathbf{r}'_u \times \mathbf{r}'_v \right\| \text{d}A
+\iint\limits_S f(x,y,z) \, \text{d}S = \iint\limits_D f(\mathbf{r}(u,v)) \left\| \mathbf{r}'_u \times \mathbf{r}'_v \right\| \text{d}A
 
 
 $$
@@ -126,7 +126,7 @@ For a surface $S$ with parametrization $\mathbf{r}(u,v)$ for $(u,v) \in D,$ the 
 $$
 
 
-\iint\limits_S f(x,y,z) \, \textrm{d}S = \iint\limits_D f(\mathbf{r}(u,v)) \left\| \mathbf{r}'_u \times \mathbf{r}'_v \right\| \text{d}A.
+\iint\limits_S f(x,y,z) \, \text{d}S = \iint\limits_D f(\mathbf{r}(u,v)) \left\| \mathbf{r}'_u \times \mathbf{r}'_v \right\| \text{d}A.
 
 
 $$
@@ -136,7 +136,7 @@ We first compute the tangent vectors to the grid curves:
 $$
 
 
-\begin{aligned}𝐫_{′𝑢}^{} & =⟨\frac{𝜕𝑥}{𝜕𝑢},\,\frac{𝜕𝑦}{𝜕𝑢},\,\frac{𝜕𝑧}{𝜕𝑢}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑢}(𝑢),\,\frac{𝜕}{𝜕𝑢}(2𝑣),\,\frac{𝜕}{𝜕𝑢}(−𝑢)⟩ \\ & =⟨1,\,0,\,−1⟩ \\ 𝐫_{′𝑣}^{} & =⟨\frac{𝜕𝑥}{𝜕𝑣},\,\frac{𝜕𝑦}{𝜕𝑣},\,\frac{𝜕𝑧}{𝜕𝑣}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑣}(𝑢),\,\frac{𝜕}{𝜕𝑣}(2𝑣),\,\frac{𝜕}{𝜕𝑣}(−𝑢)⟩ \\ & =⟨0,\,2,\,0⟩\end{aligned}
+\begin{aligned}𝐫_{′𝑢} & =⟨\frac{𝜕𝑥}{𝜕𝑢},\,\frac{𝜕𝑦}{𝜕𝑢},\,\frac{𝜕𝑧}{𝜕𝑢}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑢}(𝑢),\,\frac{𝜕}{𝜕𝑢}(2𝑣),\,\frac{𝜕}{𝜕𝑢}(−𝑢)⟩ \\ & =⟨1,\,0,\,−1⟩ \\ 𝐫_{′𝑣} & =⟨\frac{𝜕𝑥}{𝜕𝑣},\,\frac{𝜕𝑦}{𝜕𝑣},\,\frac{𝜕𝑧}{𝜕𝑣}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑣}(𝑢),\,\frac{𝜕}{𝜕𝑣}(2𝑣),\,\frac{𝜕}{𝜕𝑣}(−𝑢)⟩ \\ & =⟨0,\,2,\,0⟩\end{aligned}
 
 
 $$
@@ -146,7 +146,7 @@ Then, we calculate the fundamental vector product:
 $$
 
 
-\begin{aligned}𝐫_{′𝑢}^{}×𝐫_{′𝑣}^{} & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 1 & 0 & −1 \\ 0 & 2 & 0\end{aligned} \\ & =⟨\begin{aligned}0 & −1 \\ 2 & 0\end{aligned},\,−\begin{aligned}1 & −1 \\ 0 & 0\end{aligned},\,\begin{aligned}1 & 0 \\ 0 & 2\end{aligned}⟩ \\ & =⟨2,\,0,\,2⟩\end{aligned}
+\begin{aligned}𝐫_{′𝑢}×𝐫_{′𝑣} & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 1 & 0 & −1 \\ 0 & 2 & 0\end{matrix} \\ & =⟨\begin{matrix}0 & −1 \\ 2 & 0\end{matrix},\,−\begin{matrix}1 & −1 \\ 0 & 0\end{matrix},\,\begin{matrix}1 & 0 \\ 0 & 2\end{matrix}⟩ \\ & =⟨2,\,0,\,2⟩\end{aligned}
 
 
 $$
@@ -156,7 +156,7 @@ Therefore,
 $$
 
 
-\begin{aligned}𝐫_{′𝑢}^{}×𝐫_{′𝑣}^{} & =∥⟨2,\,0,\,2⟩∥ \\ & =\sqrt{√2^{2}+0^{2}+2^{2}} \\ & =2\sqrt{√2}.\end{aligned}
+\begin{aligned}𝐫_{′𝑢}×𝐫_{′𝑣} & =∥⟨2,\,0,\,2⟩∥ \\ & =\sqrt{2^{2}+0^{2}+2^{2}} \\ & =2\sqrt{2}.\end{aligned}
 
 
 $$
@@ -176,7 +176,7 @@ Therefore, the surface integral can be written as
 $$
 
 
-\begin{aligned}\underset{𝑆}{∬}𝑓(𝑥,𝑦,𝑧)\,d𝑆 & =\underset{𝐷}{∬}𝑓(𝐫(𝑢,𝑣))𝐫_{′𝑢}^{}×𝐫_{′𝑣}^{}d𝐴 \\ & =\underset{𝐷}{∬}\,(2𝑢^{2}+4𝑣^{2})⋅2\sqrt{√2}\,d𝐴 \\ & =4\sqrt{√2}\underset{𝐷}{∬}\,𝑢^{2}+2𝑣^{2}\,d𝐴.\end{aligned}
+\begin{aligned}\underset{𝑆}{∬}𝑓(𝑥,𝑦,𝑧)\,d𝑆 & =\underset{𝐷}{∬}𝑓(𝐫(𝑢,𝑣))𝐫_{′𝑢}×𝐫_{′𝑣}d𝐴 \\ & =\underset{𝐷}{∬}\,(2𝑢^{2}+4𝑣^{2})⋅2\sqrt{2}\,d𝐴 \\ & =4\sqrt{2}\underset{𝐷}{∬}\,𝑢^{2}+2𝑣^{2}\,d𝐴.\end{aligned}
 
 
 $$
@@ -186,7 +186,7 @@ Finally, we can evaluate this integral as follows:
 $$
 
 
-\begin{aligned}\underset{𝑆}{∬}𝑓(𝑥,𝑦,𝑧)\,d𝑆 & =4\sqrt{√2}\underset{𝐷}{∬}\,𝑢^{2}+2𝑣^{2}\,d𝐴 \\ & =4\sqrt{√2}\underset{𝐷}{∬}\,𝑢^{2}+4\sqrt{√2}\underset{𝐷}{∬}2𝑣^{2}\,d𝐴 \\ & =4\sqrt{√2}\underset{𝐷}{∬}\,𝑢^{2}+8\sqrt{√2}\underset{𝐷}{∬}𝑣^{2}\,d𝐴 \\ & =4\sqrt{√2}∫_{10}^{}∫_{10}^{}𝑢^{2}\,d𝑢\,d𝑣+8\sqrt{√2}∫_{10}^{}∫_{10}^{}𝑣^{2}\,d𝑢\,d𝑣 \\ & =4\sqrt{√2}∫_{10}^{}∫_{10}^{}𝑢^{2}\,d𝑢\,d𝑣+8\sqrt{√2}∫_{10}^{}∫_{10}^{}𝑢^{2}\,d𝑢\,d𝑣 \\ & =12\sqrt{√2}∫_{10}^{}∫_{10}^{}𝑢^{2}\,d𝑢\,d𝑣 \\ & =12\sqrt{√2}∫_{10}^{}\,d𝑣∫_{10}^{}𝑢^{2}\,d𝑢 \\ & =12\sqrt{√2}⋅(1−0)⋅∫_{10}^{}𝑢^{2}\,d𝑢 \\ & =12\sqrt{√2}⋅[\frac{1}{3}𝑢^{3}]_{10}^{} \\ & =12\sqrt{√2}⋅\frac{1}{3} \\ & =4\sqrt{√2}\end{aligned}
+\begin{aligned}\underset{𝑆}{∬}𝑓(𝑥,𝑦,𝑧)\,d𝑆 & =4\sqrt{2}\underset{𝐷}{∬}\,𝑢^{2}+2𝑣^{2}\,d𝐴 \\ & =4\sqrt{2}\underset{𝐷}{∬}\,𝑢^{2}+4\sqrt{2}\underset{𝐷}{∬}2𝑣^{2}\,d𝐴 \\ & =4\sqrt{2}\underset{𝐷}{∬}\,𝑢^{2}+8\sqrt{2}\underset{𝐷}{∬}𝑣^{2}\,d𝐴 \\ & =4\sqrt{2}∫_{10}∫_{10}𝑢^{2}\,d𝑢\,d𝑣+8\sqrt{2}∫_{10}∫_{10}𝑣^{2}\,d𝑢\,d𝑣 \\ & =4\sqrt{2}∫_{10}∫_{10}𝑢^{2}\,d𝑢\,d𝑣+8\sqrt{2}∫_{10}∫_{10}𝑢^{2}\,d𝑢\,d𝑣 \\ & =12\sqrt{2}∫_{10}∫_{10}𝑢^{2}\,d𝑢\,d𝑣 \\ & =12\sqrt{2}∫_{10}\,d𝑣∫_{10}𝑢^{2}\,d𝑢 \\ & =12\sqrt{2}⋅(1−0)⋅∫_{10}𝑢^{2}\,d𝑢 \\ & =12\sqrt{2}⋅[\frac{1}{3}𝑢^{3}]_{10} \\ & =12\sqrt{2}⋅\frac{1}{3} \\ & =4\sqrt{2}\end{aligned}
 
 
 $$
@@ -224,7 +224,7 @@ For a surface $S$ with parametrization $\mathbf{r}(u,v)$ for $(u,v)\in D,$ the s
 $$
 
 
-\iint\limits_S f(x,y,z) \, \textrm{d}S = \iint\limits_D f(\mathbf{r}(u,v)) \left\| \mathbf{r}'_u \times \mathbf{r}'_v \right\| \text{d}A.
+\iint\limits_S f(x,y,z) \, \text{d}S = \iint\limits_D f(\mathbf{r}(u,v)) \left\| \mathbf{r}'_u \times \mathbf{r}'_v \right\| \text{d}A.
 
 
 $$
@@ -254,7 +254,7 @@ Therefore, the surface integral can be written as
 $$
 
 
-\begin{aligned}\underset{𝑆}{∬}𝑓(𝑥,𝑦,𝑧)\,d𝑆 & =\underset{𝐷}{∬}𝑓(𝐫(𝑢,𝑣))𝐫_{′𝑢}^{}×𝐫_{′𝑣}^{}d𝐴 \\ & =\underset{𝐷}{∬}\,4\sqrt{√2}𝑢𝑣\,\,d𝐴.\end{aligned}
+\begin{aligned}\underset{𝑆}{∬}𝑓(𝑥,𝑦,𝑧)\,d𝑆 & =\underset{𝐷}{∬}𝑓(𝐫(𝑢,𝑣))𝐫_{′𝑢}×𝐫_{′𝑣}d𝐴 \\ & =\underset{𝐷}{∬}\,4\sqrt{2}𝑢𝑣\,\,d𝐴.\end{aligned}
 
 
 $$
@@ -268,7 +268,7 @@ Evaluate the surface integral
 $$
 
 
-\iint\limits_{S} (x-y)\: \textrm{d}S,
+\iint\limits_{S} (x-y)\: \text{d}S,
 
 
 $$
@@ -292,7 +292,7 @@ For a surface $S$ with parametrization $\mathbf{r}(u,v)$ for $(u,v)\in D,$ the s
 $$
 
 
-\iint\limits_S f(x,y,z) \, \textrm{d}S = \iint\limits_D f(\mathbf{r}(u,v)) \left\| \mathbf{r}'_u \times \mathbf{r}'_v \right\| \text{d}A.
+\iint\limits_S f(x,y,z) \, \text{d}S = \iint\limits_D f(\mathbf{r}(u,v)) \left\| \mathbf{r}'_u \times \mathbf{r}'_v \right\| \text{d}A.
 
 
 $$
@@ -312,7 +312,7 @@ We first compute the tangent vectors to the grid curves:
 $$
 
 
-\begin{aligned}𝐫_{′𝑢}^{} & =⟨\frac{𝜕𝑥}{𝜕𝑢},\,\frac{𝜕𝑦}{𝜕𝑢},\,\frac{𝜕𝑧}{𝜕𝑢}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑢}(𝑢+𝑣),\,\frac{𝜕}{𝜕𝑢}(𝑢−𝑣),\,\frac{𝜕}{𝜕𝑢}(𝑣)⟩ \\ & =⟨1,\,1,\,0⟩ \\ 𝐫_{′𝑣}^{} & =⟨\frac{𝜕𝑥}{𝜕𝑣},\,\frac{𝜕𝑦}{𝜕𝑣},\,\frac{𝜕𝑧}{𝜕𝑣}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑣}(𝑢+𝑣),\,\frac{𝜕}{𝜕𝑣}(𝑢−𝑣),\,\frac{𝜕}{𝜕𝑣}(𝑣)⟩ \\ & =⟨1,\,−1,\,1⟩\end{aligned}
+\begin{aligned}𝐫_{′𝑢} & =⟨\frac{𝜕𝑥}{𝜕𝑢},\,\frac{𝜕𝑦}{𝜕𝑢},\,\frac{𝜕𝑧}{𝜕𝑢}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑢}(𝑢+𝑣),\,\frac{𝜕}{𝜕𝑢}(𝑢−𝑣),\,\frac{𝜕}{𝜕𝑢}(𝑣)⟩ \\ & =⟨1,\,1,\,0⟩ \\ 𝐫_{′𝑣} & =⟨\frac{𝜕𝑥}{𝜕𝑣},\,\frac{𝜕𝑦}{𝜕𝑣},\,\frac{𝜕𝑧}{𝜕𝑣}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑣}(𝑢+𝑣),\,\frac{𝜕}{𝜕𝑣}(𝑢−𝑣),\,\frac{𝜕}{𝜕𝑣}(𝑣)⟩ \\ & =⟨1,\,−1,\,1⟩\end{aligned}
 
 
 $$
@@ -322,7 +322,7 @@ Now, the fundamental vector product is
 $$
 
 
-\begin{aligned}𝐫_{′𝑢}^{}×𝐫_{′𝑣}^{} & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 1 & 1 & 0 \\ 1 & −1 & 1\end{aligned} \\ & =⟨\begin{aligned}1 & 0 \\ −1 & 1\end{aligned},\,−\begin{aligned}1 & 0 \\ 1 & 1\end{aligned},\,\begin{aligned}1 & 1 \\ 1 & −1\end{aligned}⟩ \\ & =⟨1,\,−1,\,−2⟩,\end{aligned}
+\begin{aligned}𝐫_{′𝑢}×𝐫_{′𝑣} & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 1 & 1 & 0 \\ 1 & −1 & 1\end{matrix} \\ & =⟨\begin{matrix}1 & 0 \\ −1 & 1\end{matrix},\,−\begin{matrix}1 & 0 \\ 1 & 1\end{matrix},\,\begin{matrix}1 & 1 \\ 1 & −1\end{matrix}⟩ \\ & =⟨1,\,−1,\,−2⟩,\end{aligned}
 
 
 $$
@@ -332,7 +332,7 @@ and
 $$
 
 
-\begin{aligned}𝐫_{′𝑢}^{}×𝐫_{′𝑣}^{} & =∥⟨1,\,−1,\,−2⟩∥ \\ & =\sqrt{√1^{2}+(−1)^{2}+(−2)^{2}} \\ & =\sqrt{√1+1+4} \\ & =\sqrt{√6}.\end{aligned}
+\begin{aligned}𝐫_{′𝑢}×𝐫_{′𝑣} & =∥⟨1,\,−1,\,−2⟩∥ \\ & =\sqrt{1^{2}+(−1)^{2}+(−2)^{2}} \\ & =\sqrt{1+1+4} \\ & =\sqrt{6}.\end{aligned}
 
 
 $$
@@ -362,7 +362,7 @@ our surface integral can be written as
 $$
 
 
-\begin{aligned}\underset{𝑆}{∬}(𝑥−𝑦)\,d𝑆 & =\underset{𝐷}{∬}𝑓(𝐫(𝑢,𝑣))𝐫_{′𝑢}^{}×𝐫_{′𝑣}^{}d𝐴 \\ & =\underset{𝐷}{∬}\,2𝑣\sqrt{√6}\,d𝐴 \\ & =\sqrt{√6}\underset{𝐷}{∬}\,2𝑣\,d𝐴 \\ & =\sqrt{√6}∫_{30}^{}2𝑣\,d𝑣⋅∫_{30}^{}1\,d𝑢 \\ & =\sqrt{√6}⋅[𝑣^{2}]_{30}^{}⋅[𝑢]_{30}^{} \\ & =\sqrt{√6}⋅9⋅3 \\ & =27\sqrt{√6}.\end{aligned}
+\begin{aligned}\underset{𝑆}{∬}(𝑥−𝑦)\,d𝑆 & =\underset{𝐷}{∬}𝑓(𝐫(𝑢,𝑣))𝐫_{′𝑢}×𝐫_{′𝑣}d𝐴 \\ & =\underset{𝐷}{∬}\,2𝑣\sqrt{6}\,d𝐴 \\ & =\sqrt{6}\underset{𝐷}{∬}\,2𝑣\,d𝐴 \\ & =\sqrt{6}∫_{30}2𝑣\,d𝑣⋅∫_{30}1\,d𝑢 \\ & =\sqrt{6}⋅[𝑣^{2}]_{30}⋅[𝑢]_{30} \\ & =\sqrt{6}⋅9⋅3 \\ & =27\sqrt{6}.\end{aligned}
 
 
 $$

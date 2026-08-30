@@ -57,7 +57,7 @@ The law of cosines is more general and can be used on *any* triangle.
 $$
 
 
-\begin{aligned}(\begin{aligned}\,side opposite\, \\ \,the angle\,\end{aligned})^{2}\,=\,(\begin{aligned}\,adjacent\, \\ \,side\,\end{aligned})^{2}\,+\,(\begin{aligned}\,adjacent\, \\ \,other side\,\end{aligned})^{2}\,−\,2(\begin{aligned}\,adjacent\, \\ \,side\,\end{aligned})(\begin{aligned}\,adjacent\, \\ \,other side\,\end{aligned})cos⁡(angle).\end{aligned}
+\begin{aligned}(\begin{matrix}\,side opposite\, \\ \,the angle\,\end{matrix})^{2}\,=\,(\begin{matrix}\,adjacent\, \\ \,side\,\end{matrix})^{2}\,+\,(\begin{matrix}\,adjacent\, \\ \,other side\,\end{matrix})^{2}\,−\,2(\begin{matrix}\,adjacent\, \\ \,side\,\end{matrix})(\begin{matrix}\,adjacent\, \\ \,other side\,\end{matrix})cos⁡(angle).\end{aligned}
 
 
 $$
@@ -151,7 +151,7 @@ It's helpful to notice that the equations always follow the same pattern:
 $$
 
 
-\begin{aligned}cos⁡(angle)=\frac{(\begin{aligned}adjacent \\ side\end{aligned})^{2}+(\begin{aligned}adjacent \\ other side\end{aligned})^{2}−(\begin{aligned}side opposite \\ the angle\end{aligned})^{2}}{2(\begin{aligned}adjacent \\ side\end{aligned})(\begin{aligned}adjacent \\ other side\end{aligned})}\end{aligned}
+\begin{aligned}cos⁡(angle)=\frac{(\begin{matrix}adjacent \\ side\end{matrix})^{2}+(\begin{matrix}adjacent \\ other side\end{matrix})^{2}−(\begin{matrix}side opposite \\ the angle\end{matrix})^{2}}{2(\begin{matrix}adjacent \\ side\end{matrix})(\begin{matrix}adjacent \\ other side\end{matrix})}\end{aligned}
 
 
 $$

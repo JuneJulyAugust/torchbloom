@@ -30,7 +30,7 @@ Thus, the total number of values is $21.$ Since this is an odd number, the media
 $$
 
 
-\dfrac{21+1}{2}=\dfrac{22}{2}=11\textrm{th}.
+\dfrac{21+1}{2}=\dfrac{22}{2}=11\text{th}.
 
 
 $$
@@ -113,9 +113,9 @@ The frequency table below shows the number of values in a dataset that fall into
 
 The process for determining the smallest possible value for the mean is similar to how we estimate the mean. However, instead of using the middle value for each group, we use the *smallest possible value* of $x$ for each group.
 
-So, we begin by recording $x_{\textrm{min}},$ the smallest possible value of $x$ for each group.
+So, we begin by recording $x_{\text{min}},$ the smallest possible value of $x$ for each group.
 
-Then, we calculate $f\cdot x_{\textrm{min}}$ for each row.
+Then, we calculate $f\cdot x_{\text{min}}$ for each row.
 
 Therefore, the smallest possible value of the mean is
 
@@ -139,9 +139,9 @@ The frequency table above shows the number of values in a dataset that fall into
 
 To estimate the mean from grouped data, we first use the frequency table.
 
-Since we wish to find the ** of the mean, we record $x_{\textrm{max}},$ the largest possible value of $x$ for each group.
+Since we wish to find the ** of the mean, we record $x_{\text{max}},$ the largest possible value of $x$ for each group.
 
-Then, we calculate $f\cdot x_{\textrm{max}}$ for each row.
+Then, we calculate $f\cdot x_{\text{max}}$ for each row.
 
 Therefore, the largest possible value of the mean is
 
@@ -196,7 +196,7 @@ The histograms above show the distribution of two datasets. What is the *largest
 $$
 
 
-\max\left(\textrm{mean}(B) - \textrm{median}(A)\right)
+\max\left(\text{mean}(B) - \text{median}(A)\right)
 
 
 $$
@@ -212,14 +212,14 @@ The difference we wish to find can be written as follows:
 $$
 
 
-\max\left(\textrm{mean}(B)\right) - \min\left(\textrm{median}(A)\right)
+\max\left(\text{mean}(B)\right) - \min\left(\text{median}(A)\right)
 
 
 $$
 
 Let's compute each of these values in turn.
 
-- First, we find the largest possible mean of dataset $B.$ We start by writing down our data set as a frequency table. Since we wish to find the *largest possible value* of the mean, we record $x_{\textrm{max}},$ the *largest* possible value of $x$ for each group. Then, we calculate $f\cdot x_{\textrm{max}}$ for each row. The results are shown below. Value $(x)$ Frequency $(f)$ $x_{\textrm{max}}$ $f\cdot x_{\textrm{max}}$ $80-84$ $2$ $84$ $2\cdot 84 = 168$ $84-88$ $3$ $88$ $3\cdot 88 = 264$ $88-92$ $7$ $92$ $7\cdot 92 = 644$ $92-96$ $5$ $96$ $5\cdot 96 = 480$ $96-100$ $3$ $100$ $3\cdot 100 = 300$ Therefore, the largest possible value of the mean is
+- First, we find the largest possible mean of dataset $B.$ We start by writing down our data set as a frequency table. Since we wish to find the *largest possible value* of the mean, we record $x_{\text{max}},$ the *largest* possible value of $x$ for each group. Then, we calculate $f\cdot x_{\text{max}}$ for each row. The results are shown below. Value $(x)$ Frequency $(f)$ $x_{\text{max}}$ $f\cdot x_{\text{max}}$ $80-84$ $2$ $84$ $2\cdot 84 = 168$ $84-88$ $3$ $88$ $3\cdot 88 = 264$ $88-92$ $7$ $92$ $7\cdot 92 = 644$ $92-96$ $5$ $96$ $5\cdot 96 = 480$ $96-100$ $3$ $100$ $3\cdot 100 = 300$ Therefore, the largest possible value of the mean is
 
 - Next, we compute the smallest possible median of $A{:}$ Since the histogram for dataset $A$ is symmetric, the median must lie in the group $36 - 39.$ Therefore, the *smallest* possible value of the median is
 
@@ -254,14 +254,14 @@ The difference we wish to find can be written as follows:
 $$
 
 
-\min\left(\textrm{mean}(B)\right) - \max\left(\textrm{median}(A)\right)
+\min\left(\text{mean}(B)\right) - \max\left(\text{median}(A)\right)
 
 
 $$
 
 Let's compute each of these values in turn.
 
-- First, we find the smallest possible mean of dataset $B.$ We start by writing down our dataset as a frequency table. Since we wish to find the ** of the mean, we record $x_{\textrm{min}},$ the ** possible value of $x$ for each group. Then, we calculate $f \cdot x_{\textrm{min}}$ for each row. The results are shown below. Value $(x)$ Frequency $(f)$ $x_{\textrm{min}}$ $f \cdot x_{\textrm{min}}$ $55-57$ $4$ $55$ $4\cdot 55 = 220$ $57-59$ $6$ $57$ $6\cdot 57 = 342$ $59-61$ $10$ $59$ $10\cdot 59= 590$ $61-63$ $7$ $61$ $7\cdot 61 = 427$ $63-65$ $3$ $63$ $3\cdot 63 = 189$ Therefore, the smallest possible value of the mean is rounded to three decimal places.
+- First, we find the smallest possible mean of dataset $B.$ We start by writing down our dataset as a frequency table. Since we wish to find the ** of the mean, we record $x_{\text{min}},$ the ** possible value of $x$ for each group. Then, we calculate $f \cdot x_{\text{min}}$ for each row. The results are shown below. Value $(x)$ Frequency $(f)$ $x_{\text{min}}$ $f \cdot x_{\text{min}}$ $55-57$ $4$ $55$ $4\cdot 55 = 220$ $57-59$ $6$ $57$ $6\cdot 57 = 342$ $59-61$ $10$ $59$ $10\cdot 59= 590$ $61-63$ $7$ $61$ $7\cdot 61 = 427$ $63-65$ $3$ $63$ $3\cdot 63 = 189$ Therefore, the smallest possible value of the mean is rounded to three decimal places.
 
 - Next, we compute the largest possible median of $A{:}$ Since the histogram for dataset $A$ is symmetric, the median must lie in the group $24-26$. Therefore, the smallest possible value of the median is
 

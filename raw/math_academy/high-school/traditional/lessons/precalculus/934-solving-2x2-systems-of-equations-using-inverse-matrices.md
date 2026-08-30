@@ -69,7 +69,7 @@ $$
 
 
 
-\begin{aligned}𝐱 & =𝐴^{−1}𝐛 \\ & =[\begin{aligned}1 & −1 \\ 0 & 1\end{aligned}][\begin{aligned}5 \\ 2\end{aligned}] \\ & =[\begin{aligned}3 \\ 2\end{aligned}].\end{aligned}
+\begin{aligned}𝐱 & =𝐴^{−1}𝐛 \\ & =[\begin{matrix}1 & −1 \\ 0 & 1\end{matrix}][\begin{matrix}5 \\ 2\end{matrix}] \\ & =[\begin{matrix}3 \\ 2\end{matrix}].\end{aligned}
 
 
 
@@ -113,7 +113,7 @@ $$
 
 
 
-\begin{aligned}𝐴^{−1} & =\frac{1}{3⋅2−4⋅1}[\begin{aligned}3 & −1 \\ −4 & 2\end{aligned}] \\ & =\frac{1}{2}[\begin{aligned}3 & −1 \\ −4 & 2\end{aligned}].\end{aligned}
+\begin{aligned}𝐴^{−1} & =\frac{1}{3⋅2−4⋅1}[\begin{matrix}3 & −1 \\ −4 & 2\end{matrix}] \\ & =\frac{1}{2}[\begin{matrix}3 & −1 \\ −4 & 2\end{matrix}].\end{aligned}
 
 
 
@@ -125,7 +125,7 @@ $$
 
 
 
-\begin{aligned}𝐱 & =𝐴^{−1}𝐛 \\ & =\frac{1}{2}[\begin{aligned}3 & −1 \\ −4 & 2\end{aligned}][\begin{aligned}2 \\ 6\end{aligned}] \\ & =\frac{1}{2}[\begin{aligned}0 \\ 4\end{aligned}] \\ & =[\begin{aligned}0 \\ 2\end{aligned}]\end{aligned}
+\begin{aligned}𝐱 & =𝐴^{−1}𝐛 \\ & =\frac{1}{2}[\begin{matrix}3 & −1 \\ −4 & 2\end{matrix}][\begin{matrix}2 \\ 6\end{matrix}] \\ & =\frac{1}{2}[\begin{matrix}0 \\ 4\end{matrix}] \\ & =[\begin{matrix}0 \\ 2\end{matrix}]\end{aligned}
 
 
 
@@ -181,7 +181,7 @@ $$
 
 
 
-\begin{aligned}𝐴^{−1} & =\frac{1}{6⋅2−3⋅5}[\begin{aligned}6 & 3 \\ 5 & 2\end{aligned}] \\ & =−\frac{1}{3}[\begin{aligned}6 & 3 \\ 5 & 2\end{aligned}].\end{aligned}
+\begin{aligned}𝐴^{−1} & =\frac{1}{6⋅2−3⋅5}[\begin{matrix}6 & 3 \\ 5 & 2\end{matrix}] \\ & =−\frac{1}{3}[\begin{matrix}6 & 3 \\ 5 & 2\end{matrix}].\end{aligned}
 
 
 
@@ -193,7 +193,7 @@ $$
 
 
 
-\begin{aligned}𝐱 & =𝐴^{−1}𝐛 \\ & =−\frac{1}{3}[\begin{aligned}6 & 3 \\ 5 & 2\end{aligned}][\begin{aligned}5 \\ −8\end{aligned}] \\ & =−\frac{1}{3}[\begin{aligned}6 \\ 9\end{aligned}] \\ & =[\begin{aligned}−2 \\ −3\end{aligned}].\end{aligned}
+\begin{aligned}𝐱 & =𝐴^{−1}𝐛 \\ & =−\frac{1}{3}[\begin{matrix}6 & 3 \\ 5 & 2\end{matrix}][\begin{matrix}5 \\ −8\end{matrix}] \\ & =−\frac{1}{3}[\begin{matrix}6 \\ 9\end{matrix}] \\ & =[\begin{matrix}−2 \\ −3\end{matrix}].\end{aligned}
 
 
 

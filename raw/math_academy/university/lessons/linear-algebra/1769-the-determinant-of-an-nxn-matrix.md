@@ -120,7 +120,7 @@ Now, the cofactor of $d_{23}$ is
 $$
 
 
-\begin{aligned}𝐶_{23} & =(−1)^{2+3}𝑀_{23} \\ & =−𝑀_{23} \\ & =−\begin{aligned}0 & 2 & −6 \\ 6 & 0 & 9 \\ 5 & 4 & 0\end{aligned}.\end{aligned}
+\begin{aligned}𝐶_{23} & =(−1)^{2+3}𝑀_{23} \\ & =−𝑀_{23} \\ & =−\begin{matrix}0 & 2 & −6 \\ 6 & 0 & 9 \\ 5 & 4 & 0\end{matrix}.\end{aligned}
 
 
 $$
@@ -176,7 +176,7 @@ We use the cofactor expansion along the first row:
 $$
 
 
-\begin{aligned}det(𝐴) & =𝑎_{11}𝐶_{11}+𝑎_{12}𝐶_{12}+𝑎_{13}𝐶_{13}+𝑎_{14}𝐶_{14} \\ & =0⋅𝐶_{11}+0⋅𝐶_{12}+2⋅𝐶_{13}+0⋅𝐶_{14} \\ & =2𝐶_{13} \\ & =2⋅\begin{aligned}∗ & ∗ & 2 & ∗ \\ 5 & 1 & ∗ & 0 \\ 1 & 6 & ∗ & −1 \\ −6 & 3 & ∗ & 0\end{aligned} \\ & =2(−1)^{1+3}\begin{aligned}5 & 1 & 0 \\ 1 & 6 & −1 \\ −6 & 3 & 0\end{aligned} \\ & =2(5\begin{aligned}6 & −1 \\ 3 & 0\end{aligned}−1\begin{aligned}1 & −1 \\ −6 & 0\end{aligned}+0\begin{aligned}1 & 6 \\ −6 & 3\end{aligned}) \\ & =2(5(6⋅0+1⋅3)−(1⋅0−(−1)⋅(−6))+0(1⋅3−6⋅(−6))) \\ & =2(15+6+0) \\ & =2⋅21 \\ & =42\end{aligned}
+\begin{aligned}det(𝐴) & =𝑎_{11}𝐶_{11}+𝑎_{12}𝐶_{12}+𝑎_{13}𝐶_{13}+𝑎_{14}𝐶_{14} \\ & =0⋅𝐶_{11}+0⋅𝐶_{12}+2⋅𝐶_{13}+0⋅𝐶_{14} \\ & =2𝐶_{13} \\ & =2⋅\begin{matrix}∗ & ∗ & 2 & ∗ \\ 5 & 1 & ∗ & 0 \\ 1 & 6 & ∗ & −1 \\ −6 & 3 & ∗ & 0\end{matrix} \\ & =2(−1)^{1+3}\begin{matrix}5 & 1 & 0 \\ 1 & 6 & −1 \\ −6 & 3 & 0\end{matrix} \\ & =2(5\begin{matrix}6 & −1 \\ 3 & 0\end{matrix}−1\begin{matrix}1 & −1 \\ −6 & 0\end{matrix}+0\begin{matrix}1 & 6 \\ −6 & 3\end{matrix}) \\ & =2(5(6⋅0+1⋅3)−(1⋅0−(−1)⋅(−6))+0(1⋅3−6⋅(−6))) \\ & =2(15+6+0) \\ & =2⋅21 \\ & =42\end{aligned}
 
 
 $$

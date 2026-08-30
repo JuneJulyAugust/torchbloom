@@ -11,16 +11,16 @@ Topic ID: 1141
 
 ### Introduction
 
-Suppose we want to evaluate $\displaystyle \int x^3e^{x/2} \textrm{d}x.$ We can do it by applying integration by parts three times, but the calculation is pretty long. How can we speed it up?
+Suppose we want to evaluate $\displaystyle \int x^3e^{x/2} \text{d}x.$ We can do it by applying integration by parts three times, but the calculation is pretty long. How can we speed it up?
 
 Multiple applications of integration by parts become quick and easy if we use the **tabular method**.
 
-Let's start by picking our $u$ and $\dfrac{\textrm{d}v}{\textrm{d}x}$ as normal:
+Let's start by picking our $u$ and $\dfrac{\text{d}v}{\text{d}x}$ as normal:
 
 $$
 
 
-u = x^3\,,\quad \dfrac{\textrm{d}v}{\textrm{d}x} = e^{x/2}\,.
+u = x^3\,,\quad \dfrac{\text{d}v}{\text{d}x} = e^{x/2}\,.
 
 
 $$
@@ -32,7 +32,7 @@ To fill in the second row of the table, we differentiate the function in the fir
 $$
 
 
-\dfrac{\textrm{d}}{\textrm{d}x}\left(x^3\right) = 3x^2\,,\quad \int e^{x/2} \textrm{d}x = 2e^{x/2}\,.
+\dfrac{\text{d}}{\text{d}x}\left(x^3\right) = 3x^2\,,\quad \int e^{x/2} \text{d}x = 2e^{x/2}\,.
 
 
 $$
@@ -59,11 +59,11 @@ $$
 
 #### Question
 
-Evaluate $\displaystyle \int (x^4-3x) \cos(x) \textrm{d}x.$
+Evaluate $\displaystyle \int (x^4-3x) \cos(x) \text{d}x.$
 
 #### Explanation
 
-For this integral we choose $u = x^4-3x$ and $\dfrac{\textrm{d}v}{\textrm{d}x} = \cos(x).$ Filling in the table gives the following:
+For this integral we choose $u = x^4-3x$ and $\dfrac{\text{d}v}{\text{d}x} = \cos(x).$ Filling in the table gives the following:
 
 We add up all the terms of the last column to get the answer for our integral.
 
@@ -79,11 +79,11 @@ $$
 
 #### Question
 
-Evaluate $\displaystyle \int (x^2-1)(x+2)^5 \textrm{d}x.$
+Evaluate $\displaystyle \int (x^2-1)(x+2)^5 \text{d}x.$
 
 #### Explanation
 
-For this integral, we choose $u = x^2-1$ and $\dfrac{\textrm{d}v}{\textrm{d}x} =(x+2)^5.$ Filling in our table gives the following:
+For this integral, we choose $u = x^2-1$ and $\dfrac{\text{d}v}{\text{d}x} =(x+2)^5.$ Filling in our table gives the following:
 
 We add up all the terms of the last column to get the answer for our integral.
 

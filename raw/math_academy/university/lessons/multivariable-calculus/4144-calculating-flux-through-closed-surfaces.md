@@ -53,7 +53,7 @@ Consider the vector field $\mathbf{F} = \langle 0, \, x, \, -z^2 \rangle$ and th
 $$
 
 
-\displaystyle \iint\limits_S \mathbf{F} \cdot \mathrm{d}\mathbf{S} = \iint\limits_D \,\boxed{\phantom{AAAAAAA}} \: \textrm{d}A.
+\displaystyle \iint\limits_S \mathbf{F} \cdot \mathrm{d}\mathbf{S} = \iint\limits_D \,\boxed{\phantom{AAAAAAA}} \: \text{d}A.
 
 
 $$
@@ -79,7 +79,7 @@ Therefore, the flux across the entire surface is
 $$
 
 
-\begin{aligned}\underset{𝑆}{∬}𝐅⋅d𝐒 & =\underset{𝑆_{1}}{∬}𝐅⋅d𝐒+\underset{𝑆_{2}}{∬}𝐅⋅d𝐒 \\ & =\underset{𝐷}{∬}\frac{𝑥𝑦}{\sqrt{√4−𝑥^{2}−𝑦^{2}}}−𝑥^{2}−𝑦^{2}+4\,d𝐴.\end{aligned}
+\begin{aligned}\underset{𝑆}{∬}𝐅⋅d𝐒 & =\underset{𝑆_{1}}{∬}𝐅⋅d𝐒+\underset{𝑆_{2}}{∬}𝐅⋅d𝐒 \\ & =\underset{𝐷}{∬}\frac{𝑥𝑦}{\sqrt{4−𝑥^{2}−𝑦^{2}}}−𝑥^{2}−𝑦^{2}+4\,d𝐴.\end{aligned}
 
 
 $$
@@ -93,7 +93,7 @@ Consider the vector field $\mathbf{F} = \langle x, \, y, \, 0 \rangle$ and the c
 $$
 
 
-\displaystyle \iint\limits_S \mathbf{F} \cdot \mathrm{d}\mathbf{S} = \iint\limits_D \,\boxed{\phantom{AAAAAAA}} \: \textrm{d}A.
+\displaystyle \iint\limits_S \mathbf{F} \cdot \mathrm{d}\mathbf{S} = \iint\limits_D \,\boxed{\phantom{AAAAAAA}} \: \text{d}A.
 
 
 $$

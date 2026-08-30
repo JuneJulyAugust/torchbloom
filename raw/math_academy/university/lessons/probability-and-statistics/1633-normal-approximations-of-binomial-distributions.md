@@ -168,7 +168,7 @@ To compute this probability, we transform to a standard normal random variable b
 $$
 
 
-\begin{aligned}𝑃(32.5≤𝑌≤33.5) & =𝑃(\frac{32.5−30}{\sqrt{√12}}≤𝑍≤\frac{33.5−30}{\sqrt{√12}}) \\ & ≈𝑃(0.72≤𝑍≤1.01) \\ & =𝑃(𝑍≤1.01)−𝑃(𝑍<0.72) \\ & =𝑃(𝑍≤1.01)−𝑃(𝑍≤0.72) \\ & =Φ(1.01)−Φ(0.72).\end{aligned}
+\begin{aligned}𝑃(32.5≤𝑌≤33.5) & =𝑃(\frac{32.5−30}{\sqrt{12}}≤𝑍≤\frac{33.5−30}{\sqrt{12}}) \\ & ≈𝑃(0.72≤𝑍≤1.01) \\ & =𝑃(𝑍≤1.01)−𝑃(𝑍<0.72) \\ & =𝑃(𝑍≤1.01)−𝑃(𝑍≤0.72) \\ & =Φ(1.01)−Φ(0.72).\end{aligned}
 
 
 $$
@@ -324,7 +324,7 @@ To compute this probability, we transform to a standard normal random variable b
 $$
 
 
-\begin{aligned}𝑃(69.5≤𝑌≤70.5) & =𝑃(\frac{69.5−66}{\sqrt{√36.96}}≤𝑍≤\frac{70.5−66}{\sqrt{√36.96}}) \\ & ≈𝑃(0.58≤𝑍≤0.74) \\ & =𝑃(𝑍≤0.74)−𝑃(𝑍<0.58) \\ & =𝑃(𝑍≤0.74)−𝑃(𝑍≤0.58) \\ & =Φ(0.74)−Φ(0.58) \\ & =0.7704−0.7190 \\ & =0.0514\end{aligned}
+\begin{aligned}𝑃(69.5≤𝑌≤70.5) & =𝑃(\frac{69.5−66}{\sqrt{36.96}}≤𝑍≤\frac{70.5−66}{\sqrt{36.96}}) \\ & ≈𝑃(0.58≤𝑍≤0.74) \\ & =𝑃(𝑍≤0.74)−𝑃(𝑍<0.58) \\ & =𝑃(𝑍≤0.74)−𝑃(𝑍≤0.58) \\ & =Φ(0.74)−Φ(0.58) \\ & =0.7704−0.7190 \\ & =0.0514\end{aligned}
 
 
 $$
@@ -414,7 +414,7 @@ To compute this probability, we transform to a standard normal random variable b
 $$
 
 
-\begin{aligned}𝑃(29.5≤𝑌<34.5) & =𝑃(\frac{29.5−23.5}{\sqrt{√12.455}}≤𝑍≤\frac{34.5−23.5}{\sqrt{√12.455}}) \\ & ≈𝑃(1.70≤𝑍≤3.12) \\ & =𝑃(𝑍≤3.12)−𝑃(𝑍<1.70) \\ & =𝑃(𝑍≤3.12)−𝑃(𝑍≤1.70) \\ & =Φ(3.12)−Φ(1.70) \\ & =0.9991−0.9554 \\ & =0.0437\end{aligned}
+\begin{aligned}𝑃(29.5≤𝑌<34.5) & =𝑃(\frac{29.5−23.5}{\sqrt{12.455}}≤𝑍≤\frac{34.5−23.5}{\sqrt{12.455}}) \\ & ≈𝑃(1.70≤𝑍≤3.12) \\ & =𝑃(𝑍≤3.12)−𝑃(𝑍<1.70) \\ & =𝑃(𝑍≤3.12)−𝑃(𝑍≤1.70) \\ & =Φ(3.12)−Φ(1.70) \\ & =0.9991−0.9554 \\ & =0.0437\end{aligned}
 
 
 $$
@@ -448,7 +448,7 @@ where $n$ is "sufficiently large," and
 $$
 
 
-\textrm{E}[X_i] = \mu, \qquad \textrm{Var}[X_i] = \sigma^2.
+\text{E}[X_i] = \mu, \qquad \text{Var}[X_i] = \sigma^2.
 
 
 $$
@@ -458,7 +458,7 @@ Now, if $X\sim B(n,p),$ then $X$ can be thought of as a sum of $n$ I.I.D Bernoul
 $$
 
 
-X_i\sim\textrm{Bernoulli}(p),
+X_i\sim\text{Bernoulli}(p),
 
 
 $$
@@ -478,7 +478,7 @@ It can be shown that
 $$
 
 
-\textrm{E}[X_i] = \mu = p, \qquad \textrm{Var}[X_i] = \sigma^2 = p(1-p).
+\text{E}[X_i] = \mu = p, \qquad \text{Var}[X_i] = \sigma^2 = p(1-p).
 
 
 $$

@@ -272,7 +272,7 @@ Now, we solve the inequality $|a_n - L| \lt \varepsilon$ for $n{:}$
 $$
 
 
-\begin{aligned}\frac{7}{3𝑛^{2}−2} & <𝜀 \\ 7 & <𝜀(3𝑛^{2}−2) \\ \frac{7}{𝜀} & <3𝑛^{2}−2 \\ \frac{7}{𝜀}+2 & <3𝑛^{2} \\ \frac{7}{3𝜀}+\frac{2}{3} & <𝑛^{2} \\ 𝑛^{2} & >\frac{2}{3}+\frac{7}{3𝜀} \\ 𝑛 & >\sqrt{√\frac{2}{3}+\frac{7}{3𝜀}}\end{aligned}
+\begin{aligned}\frac{7}{3𝑛^{2}−2} & <𝜀 \\ 7 & <𝜀(3𝑛^{2}−2) \\ \frac{7}{𝜀} & <3𝑛^{2}−2 \\ \frac{7}{𝜀}+2 & <3𝑛^{2} \\ \frac{7}{3𝜀}+\frac{2}{3} & <𝑛^{2} \\ 𝑛^{2} & >\frac{2}{3}+\frac{7}{3𝜀} \\ 𝑛 & >\sqrt{\frac{2}{3}+\frac{7}{3𝜀}}\end{aligned}
 
 
 $$

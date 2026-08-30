@@ -53,7 +53,7 @@ In this case, we must show that
 $$
 
 
-|f| \leq K\cdot 1 \qquad \textrm{for} \qquad 0 < |x| < \delta,
+|f| \leq K\cdot 1 \qquad \text{for} \qquad 0 < |x| < \delta,
 
 
 $$
@@ -63,7 +63,7 @@ i.e.,
 $$
 
 
-{|f| \leq K} \qquad \textrm{for} \qquad {0 < |x| < \delta}.
+{|f| \leq K} \qquad \text{for} \qquad {0 < |x| < \delta}.
 
 
 $$
@@ -111,17 +111,17 @@ We say $f(x)$ is of order $g(x)$ as $x\to a,$ and we write
 $$
 
 
-f(x) = \mathcal O(g(x)) \quad \textrm{as}\quad x\to a
+f(x) = \mathcal O(g(x)) \quad \text{as}\quad x\to a
 
 
 $$
 
-if there exist ${\textrm{positive}}$ constants $K$ and $\delta$ such that
+if there exist ${\text{positive}}$ constants $K$ and $\delta$ such that
 
 $$
 
 
-{|f(x)| \leq K|g(x)|} \quad\textrm{for all}\quad 0 < |x-a| < \delta.
+{|f(x)| \leq K|g(x)|} \quad\text{for all}\quad 0 < |x-a| < \delta.
 
 
 $$
@@ -131,7 +131,7 @@ So, in our case, we need to show that
 $$
 
 
-{|f(x)| \leq K|x|} \quad \textrm{for} \quad {0 < |x| < \delta}.
+{|f(x)| \leq K|x|} \quad \text{for} \quad {0 < |x| < \delta}.
 
 
 $$
@@ -175,7 +175,7 @@ We say $f(x)$ *is of order* $g(x)$ as $x\to \infty,$ and we write
 $$
 
 
-f(x) = \mathcal O(g(x)) \qquad \textrm{as} \qquad x\to \infty
+f(x) = \mathcal O(g(x)) \qquad \text{as} \qquad x\to \infty
 
 
 $$
@@ -185,7 +185,7 @@ if there exist positive constants $K$ and $M$ such that
 $$
 
 
-|f(x)| \leq K|g(x)|\qquad\textrm{for all }\qquad x > M.
+|f(x)| \leq K|g(x)|\qquad\text{for all }\qquad x > M.
 
 
 $$
@@ -209,7 +209,7 @@ Suppose we wish to test whether the following statement is true:
 $$
 
 
-f(x) = \mathcal O(g(x)) \qquad \textrm{as}\qquad x\to a
+f(x) = \mathcal O(g(x)) \qquad \text{as}\qquad x\to a
 
 
 $$
@@ -255,7 +255,7 @@ Suppose we wish to test whether the following statement is true:
 $$
 
 
-f(x) = \mathcal O(g(x)) \quad \textrm{as}\quad x\to a
+f(x) = \mathcal O(g(x)) \quad \text{as}\quad x\to a
 
 
 $$
@@ -324,19 +324,19 @@ If $f(x) = e^{x}+ \sec x,$ then $f = \mathcal O(1)$ as $x\to 0.$
 
 A sketch of a proof of this statement is given below
 
-$\textrm{L1}{:}\; e^{x} = \mathcal O(1)$ as $x\to 0$
+$\text{L1}{:}\; e^{x} = \mathcal O(1)$ as $x\to 0$
 
-$\textrm{L2}{:}\; \sec x = \mathcal O(1)$ as $x\to 0$
+$\text{L2}{:}\; \sec x = \mathcal O(1)$ as $x\to 0$
 
-$\textrm{L3}{:}\; f = \mathcal O(2)$ as $x\to 0$
+$\text{L3}{:}\; f = \mathcal O(2)$ as $x\to 0$
 
-$\textrm{L4}{:}\; f = \mathcal O(1)$ as $x\to 0$
+$\text{L4}{:}\; f = \mathcal O(1)$ as $x\to 0$
 
 Fill in the blanks in the reasoning below that justify each step.
 
-$\quad$ Line $\textrm{L3}$ follows from lines $𝑋𝑋𝑋𝑋𝑋𝑋𝑋𝑋𝑋𝑋$ and the $𝑋𝑋𝑋𝑋𝑋𝑋𝑋$ property.
+$\quad$ Line $\text{L3}$ follows from lines $𝑋𝑋𝑋𝑋𝑋𝑋𝑋𝑋𝑋𝑋$ and the $𝑋𝑋𝑋𝑋𝑋𝑋𝑋$ property.
 
-$\quad$ Line $\textrm{L4}$ follows from line $𝑋𝑋𝑋𝑋𝑋$ and the $𝑋𝑋𝑋𝑋𝑋𝑋𝑋$.
+$\quad$ Line $\text{L4}$ follows from line $𝑋𝑋𝑋𝑋𝑋$ and the $𝑋𝑋𝑋𝑋𝑋𝑋𝑋$.
 
 #### Explanation
 
@@ -354,6 +354,6 @@ Suppose $f(x), g(x), h(x)$ and $k(x)$ are functions and $c$ is a nonzero constan
 
 With that in mind, let us justify each selected step.
 
-- We first consider line $\textrm{L3}.$ From line $\textrm{L1}$ we have and from line $\textrm{L2}$ we have Thus, by lines $\boxed{\text{L1 and L3}}$ and $\boxed{\text{the sum property}},$ we obtain
+- We first consider line $\text{L3}.$ From line $\text{L1}$ we have and from line $\text{L2}$ we have Thus, by lines $\boxed{\text{L1 and L3}}$ and $\boxed{\text{the sum property}},$ we obtain
 
-- Finally, we consider line $\textrm{L4}.$ From line $\boxed{\text{L4}}$ we have Since $2$ is just a constant multiple of $1,$ it follows by $\boxed{\text{the constant multiple property}}$ that
+- Finally, we consider line $\text{L4}.$ From line $\boxed{\text{L4}}$ we have Since $2$ is just a constant multiple of $1,$ it follows by $\boxed{\text{the constant multiple property}}$ that

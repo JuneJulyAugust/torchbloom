@@ -100,7 +100,7 @@ First, we compute the point that corresponds to $t=\ln 2$ on the given trajector
 $$
 
 
-\begin{aligned}𝐱(ln⁡2) & =𝑒^{3(ln⁡2)}[\begin{aligned}1 \\ 1\end{aligned}]+2𝑒^{ln⁡2}[\begin{aligned}1 \\ −1\end{aligned}] \\ & =8[\begin{aligned}1 \\ 1\end{aligned}]+2⋅2[\begin{aligned}1 \\ −1\end{aligned}] \\ & =8[\begin{aligned}1 \\ 1\end{aligned}]+4[\begin{aligned}1 \\ −1\end{aligned}] \\ & =[\begin{aligned}8 \\ 8\end{aligned}]+[\begin{aligned}4 \\ −4\end{aligned}] \\ & =[\begin{aligned}12 \\ 4\end{aligned}]\end{aligned}
+\begin{aligned}𝐱(ln⁡2) & =𝑒^{3(ln⁡2)}[\begin{matrix}1 \\ 1\end{matrix}]+2𝑒^{ln⁡2}[\begin{matrix}1 \\ −1\end{matrix}] \\ & =8[\begin{matrix}1 \\ 1\end{matrix}]+2⋅2[\begin{matrix}1 \\ −1\end{matrix}] \\ & =8[\begin{matrix}1 \\ 1\end{matrix}]+4[\begin{matrix}1 \\ −1\end{matrix}] \\ & =[\begin{matrix}8 \\ 8\end{matrix}]+[\begin{matrix}4 \\ −4\end{matrix}] \\ & =[\begin{matrix}12 \\ 4\end{matrix}]\end{aligned}
 
 
 $$
@@ -110,7 +110,7 @@ Substituting this into the equation of our system, we obtain the tangent vector 
 $$
 
 
-\begin{aligned}𝐱^{′}(ln⁡2) & =[\begin{aligned}2 & 1 \\ 1 & 2\end{aligned}][\begin{aligned}12 \\ 4\end{aligned}] \\ & =[\begin{aligned}2(12)+1(4) \\ 1(12)+2(4)\end{aligned}] \\ & =[\begin{aligned}24+4 \\ 12+8\end{aligned}] \\ & =[\begin{aligned}28 \\ 20\end{aligned}]\end{aligned}
+\begin{aligned}𝐱^{′}(ln⁡2) & =[\begin{matrix}2 & 1 \\ 1 & 2\end{matrix}][\begin{matrix}12 \\ 4\end{matrix}] \\ & =[\begin{matrix}2(12)+1(4) \\ 1(12)+2(4)\end{matrix}] \\ & =[\begin{matrix}24+4 \\ 12+8\end{matrix}] \\ & =[\begin{matrix}28 \\ 20\end{matrix}]\end{aligned}
 
 
 $$

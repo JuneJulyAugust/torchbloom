@@ -57,7 +57,7 @@ To graph this curve, we can start by calculating the value of $x$ for various va
 $$
 
 
-\begin{aligned}𝑦=0 & \,⟶\,𝑥=\frac{1}{2}⋅0−\sqrt{√0}=0 \\ 𝑦=1 & \,⟶\,𝑥=\frac{1}{2}⋅1−\sqrt{√1}=−\frac{1}{2} \\ 𝑦=4 & \,⟶\,𝑥=\frac{1}{2}⋅4−\sqrt{√4}=0 \\ 𝑦=16 & \,⟶\,𝑥=\frac{1}{2}⋅16−\sqrt{√16}=4\end{aligned}
+\begin{aligned}𝑦=0 & \,⟶\,𝑥=\frac{1}{2}⋅0−\sqrt{0}=0 \\ 𝑦=1 & \,⟶\,𝑥=\frac{1}{2}⋅1−\sqrt{1}=−\frac{1}{2} \\ 𝑦=4 & \,⟶\,𝑥=\frac{1}{2}⋅4−\sqrt{4}=0 \\ 𝑦=16 & \,⟶\,𝑥=\frac{1}{2}⋅16−\sqrt{16}=4\end{aligned}
 
 
 $$

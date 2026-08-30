@@ -71,7 +71,7 @@ $$
 
 
 
-\begin{aligned}sin⁡𝑢 & =±\sqrt{√\frac{16}{25}} \\ & =±\frac{4}{5}.\end{aligned}
+\begin{aligned}sin⁡𝑢 & =±\sqrt{\frac{16}{25}} \\ & =±\frac{4}{5}.\end{aligned}
 
 
 
@@ -175,7 +175,7 @@ $$
 
 
 
-\begin{aligned}cos⁡𝑢 & =±\sqrt{√\frac{9}{25}} \\ & =±\frac{3}{5}.\end{aligned}
+\begin{aligned}cos⁡𝑢 & =±\sqrt{\frac{9}{25}} \\ & =±\frac{3}{5}.\end{aligned}
 
 
 
@@ -267,7 +267,7 @@ $$
 
 
 
-\begin{aligned}cos^{2}⁡𝑢 & =1−sin^{2}⁡𝑢 \\ & =1−(−\frac{2}{\sqrt{√5}})^{2} \\ & =1−(\frac{2}{\sqrt{√5}})^{2} \\ & =1−\frac{2^{2}}{(\sqrt{√5})^{2}} \\ & =1−\frac{4}{5} \\ & =\frac{5}{5}−\frac{4}{5} \\ & =\frac{1}{5}.\end{aligned}
+\begin{aligned}cos^{2}⁡𝑢 & =1−sin^{2}⁡𝑢 \\ & =1−(−\frac{2}{\sqrt{5}})^{2} \\ & =1−(\frac{2}{\sqrt{5}})^{2} \\ & =1−\frac{2^{2}}{(\sqrt{5})^{2}} \\ & =1−\frac{4}{5} \\ & =\frac{5}{5}−\frac{4}{5} \\ & =\frac{1}{5}.\end{aligned}
 
 
 
@@ -279,7 +279,7 @@ $$
 
 
 
-\begin{aligned}cos⁡𝑢 & =±\sqrt{√\frac{1}{5}} \\ & =±\frac{1}{\sqrt{√5}}.\end{aligned}
+\begin{aligned}cos⁡𝑢 & =±\sqrt{\frac{1}{5}} \\ & =±\frac{1}{\sqrt{5}}.\end{aligned}
 
 
 
@@ -303,7 +303,7 @@ $$
 
 
 
-\begin{aligned}tan⁡𝑢 & =\frac{sin⁡𝑢}{cos⁡𝑢}=\frac{(−\frac{2}{\sqrt{√5}})}{\sqrt{√5}}=2\end{aligned}
+\begin{aligned}tan⁡𝑢 & =\frac{sin⁡𝑢}{cos⁡𝑢}=\frac{(−\frac{2}{\sqrt{5}})}{\sqrt{5}}=2\end{aligned}
 
 
 

@@ -44,7 +44,7 @@ Some other basic square roots are as follows:
 
 $$
 
-\begin{aligned}\sqrt{√0} & = & \sqrt{√0^{2}} & = & 0 \\ \sqrt{√1} & = & \sqrt{√1^{2}} & = & 1 \\ \sqrt{√4} & = & \sqrt{√2^{2}} & = & 2 \\ \sqrt{√9} & = & \sqrt{√3^{2}} & = & 3 \\ \sqrt{√16} & = & \sqrt{√4^{2}} & = & 4 \\ \sqrt{√25} & = & \sqrt{√5^{2}} & = & 5\end{aligned}
+\begin{aligned}\sqrt{0} & = & \sqrt{0^{2}} & = & 0 \\ \sqrt{1} & = & \sqrt{1^{2}} & = & 1 \\ \sqrt{4} & = & \sqrt{2^{2}} & = & 2 \\ \sqrt{9} & = & \sqrt{3^{2}} & = & 3 \\ \sqrt{16} & = & \sqrt{4^{2}} & = & 4 \\ \sqrt{25} & = & \sqrt{5^{2}} & = & 5\end{aligned}
 
 $$
 
@@ -112,7 +112,7 @@ To work out $\sqrt{36},$ we express $36$ as a perfect square:
 
 $$
 
-\begin{aligned}\sqrt{√36} & = \\ \sqrt{√6⋅6} & = \\ \sqrt{√6^{2}} & = \\ 6 & \end{aligned}
+\begin{aligned}\sqrt{36} & = \\ \sqrt{6⋅6} & = \\ \sqrt{6^{2}} & = \\ 6 & \end{aligned}
 
 $$
 
@@ -152,7 +152,7 @@ So, to work out $\sqrt{\dfrac{9}{64}},$ we express $\dfrac{9}{64}$ as a perfect 
 
 $$
 
-\begin{aligned}\sqrt{√\frac{9}{64}} & = \\ \sqrt{√\frac{3^{2}}{8^{2}}} & = \\ \sqrt{√\frac{3⋅3}{8⋅8}} & = \\ \sqrt{√\frac{3}{8}⋅\frac{3}{8}} & = \\ \sqrt{√(\frac{3}{8})^{2}} & = \\ \frac{3}{8} & \end{aligned}
+\begin{aligned}\sqrt{\frac{9}{64}} & = \\ \sqrt{\frac{3^{2}}{8^{2}}} & = \\ \sqrt{\frac{3⋅3}{8⋅8}} & = \\ \sqrt{\frac{3}{8}⋅\frac{3}{8}} & = \\ \sqrt{(\frac{3}{8})^{2}} & = \\ \frac{3}{8} & \end{aligned}
 
 $$
 

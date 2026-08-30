@@ -81,7 +81,7 @@ Therefore, our Wronskian is
 $$
 
 
-\begin{aligned}𝑊(𝐱_{1},𝐱_{2}) & =\begin{aligned}𝑡^{3} & 𝑡^{3}−5 \\ 2 & 4\end{aligned} \\ & =𝑡^{3}⋅4−(𝑡^{3}−5)⋅2 \\ & =4𝑡^{3}−2𝑡^{3}+10 \\ & =2𝑡^{3}+10.\end{aligned}
+\begin{aligned}𝑊(𝐱_{1},𝐱_{2}) & =\begin{matrix}𝑡^{3} & 𝑡^{3}−5 \\ 2 & 4\end{matrix} \\ & =𝑡^{3}⋅4−(𝑡^{3}−5)⋅2 \\ & =4𝑡^{3}−2𝑡^{3}+10 \\ & =2𝑡^{3}+10.\end{aligned}
 
 
 $$
@@ -133,7 +133,7 @@ In our case, our Wronskian is given by
 $$
 
 
-\begin{aligned}𝑊(𝐱_{1},𝐱_{2}) & =\begin{aligned}−4𝑒^{2𝑡} & 𝑒^{𝑡} \\ 𝑒^{2𝑡} & 2𝑒^{𝑡}\end{aligned} \\ & =(−4𝑒^{2𝑡})⋅(2𝑒^{𝑡})−𝑒^{𝑡}⋅(𝑒^{2𝑡}) \\ & =−8𝑒^{3𝑡}−𝑒^{3𝑡} \\ & =−9𝑒^{3𝑡}\end{aligned}
+\begin{aligned}𝑊(𝐱_{1},𝐱_{2}) & =\begin{matrix}−4𝑒^{2𝑡} & 𝑒^{𝑡} \\ 𝑒^{2𝑡} & 2𝑒^{𝑡}\end{matrix} \\ & =(−4𝑒^{2𝑡})⋅(2𝑒^{𝑡})−𝑒^{𝑡}⋅(𝑒^{2𝑡}) \\ & =−8𝑒^{3𝑡}−𝑒^{3𝑡} \\ & =−9𝑒^{3𝑡}\end{aligned}
 
 
 $$
@@ -193,7 +193,7 @@ Next, we will look at a concrete example applying this test.
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=2𝑥_{1}(𝑡)+𝑥_{2}(𝑡) \\ 𝑥_{′2}^{}(𝑡)=−4𝑥_{1}(𝑡)−2𝑥_{2}(𝑡).\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=2𝑥_{1}(𝑡)+𝑥_{2}(𝑡) \\ 𝑥_{′2}(𝑡)=−4𝑥_{1}(𝑡)−2𝑥_{2}(𝑡).\end{aligned}
 
 
 $$
@@ -259,7 +259,7 @@ Now, consider the set of solutions $\big\{\mathbf{b},\mathbf{c} \big\}.$ Its Wro
 $$
 
 
-\begin{aligned}𝑊(𝐛,𝐜) & =\begin{aligned}2𝑡+1 & 𝑡 \\ −4𝑡 & 1−2𝑡\end{aligned} \\ & =(2𝑡+1)⋅(1−2𝑡)−𝑡⋅(−4𝑡) \\ & =(2𝑡+1)(1−2𝑡)+4𝑡^{2} \\ & =1\end{aligned}
+\begin{aligned}𝑊(𝐛,𝐜) & =\begin{matrix}2𝑡+1 & 𝑡 \\ −4𝑡 & 1−2𝑡\end{matrix} \\ & =(2𝑡+1)⋅(1−2𝑡)−𝑡⋅(−4𝑡) \\ & =(2𝑡+1)(1−2𝑡)+4𝑡^{2} \\ & =1\end{aligned}
 
 
 $$

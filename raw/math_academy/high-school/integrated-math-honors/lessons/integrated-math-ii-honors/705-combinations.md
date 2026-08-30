@@ -90,7 +90,7 @@ Substituting $n=7$ and $r=5,$ we get
 $$
 
 
- \begin{aligned} {}_{7}C_5 &= \dfrac {7!} {(7 - 5)!5!} \\\[5pt] &= \dfrac {7!} {2!5!} \\\[5pt] &= \dfrac {7 \cdot 6 \cdot 5!} {2!5!} \\\[5pt] &= \dfrac {7 \cdot 6 } {2 \cdot 1 } \\\[5pt] & = \dfrac {42}{2} \\\[5pt] &= 21. \end{aligned}
+ \begin{aligned} {}_{7}C_5 &= \dfrac {7!} {(7 - 5)!5!} \\[5pt] &= \dfrac {7!} {2!5!} \\[5pt] &= \dfrac {7 \cdot 6 \cdot 5!} {2!5!} \\[5pt] &= \dfrac {7 \cdot 6 } {2 \cdot 1 } \\[5pt] & = \dfrac {42}{2} \\[5pt] &= 21. \end{aligned}
 
 
 $$
@@ -120,7 +120,7 @@ Substituting $n=12$ and $r=10,$ we get
 $$
 
 
- \begin{aligned} _{12}C_{10} &= \dfrac {12!} {(12 - 10)!10!} \\\[5pt] &= \dfrac {12!} {2!10!} \\\[5pt] &= \dfrac {12 \cdot 11 \cdot 10!} {2!\cdot10!} \\\[5pt] &= \dfrac {12 \cdot 11} {2} \\\[5pt] &= 66. \end{aligned}
+ \begin{aligned} _{12}C_{10} &= \dfrac {12!} {(12 - 10)!10!} \\[5pt] &= \dfrac {12!} {2!10!} \\[5pt] &= \dfrac {12 \cdot 11 \cdot 10!} {2!\cdot10!} \\[5pt] &= \dfrac {12 \cdot 11} {2} \\[5pt] &= 66. \end{aligned}
 
 
 $$

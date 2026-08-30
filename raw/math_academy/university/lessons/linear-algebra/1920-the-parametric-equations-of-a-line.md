@@ -16,7 +16,7 @@ Suppose that we have a straight line passing through the point $P(3,-1,7)$ and t
 $$
 
 
-\begin{aligned}𝐫 & =𝐩+𝑡𝐯 \\ 𝐫 & =\begin{aligned}3 \\ −1 \\ 7\end{aligned}+𝑡\begin{aligned}0 \\ 5 \\ −3\end{aligned},\end{aligned}
+\begin{aligned}𝐫 & =𝐩+𝑡𝐯 \\ 𝐫 & =\begin{matrix}3 \\ −1 \\ 7\end{matrix}+𝑡\begin{matrix}0 \\ 5 \\ −3\end{matrix},\end{aligned}
 
 
 $$
@@ -30,7 +30,7 @@ If we let $\begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned}$ be the position vec
 $$
 
 
-\begin{aligned}𝐫 & =\begin{aligned}3 \\ −1 \\ 7\end{aligned}+𝑡\begin{aligned}0 \\ 5 \\ −3\end{aligned} \\ \begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned} & =\begin{aligned}3 \\ −1 \\ 7\end{aligned}+𝑡\begin{aligned}0 \\ 5 \\ −3\end{aligned} \\ \begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned} & =\begin{aligned}3 \\ −1+5𝑡 \\ 7−3𝑡\end{aligned}.\end{aligned}
+\begin{aligned}𝐫 & =\begin{matrix}3 \\ −1 \\ 7\end{matrix}+𝑡\begin{matrix}0 \\ 5 \\ −3\end{matrix} \\ \begin{matrix}𝑥 \\ 𝑦 \\ 𝑧\end{matrix} & =\begin{matrix}3 \\ −1 \\ 7\end{matrix}+𝑡\begin{matrix}0 \\ 5 \\ −3\end{matrix} \\ \begin{matrix}𝑥 \\ 𝑦 \\ 𝑧\end{matrix} & =\begin{matrix}3 \\ −1+5𝑡 \\ 7−3𝑡\end{matrix}.\end{aligned}
 
 
 $$
@@ -82,7 +82,7 @@ These parametric equations are equivalent to
 $$
 
 
-\begin{aligned}\begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned} & =\begin{aligned}2+2𝑡 \\ 5𝑡 \\ 1−𝑡\end{aligned} \\ \begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned} & =\begin{aligned}2 \\ 0 \\ 1\end{aligned}+\begin{aligned}2𝑡 \\ 5𝑡 \\ −𝑡\end{aligned} \\ \begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned} & =\begin{aligned}2 \\ 0 \\ 1\end{aligned}+𝑡\begin{aligned}2 \\ 5 \\ −1\end{aligned} \\ 𝐫 & =\begin{aligned}2 \\ 0 \\ 1\end{aligned}+𝑡\begin{aligned}2 \\ 5 \\ −1\end{aligned},\end{aligned}
+\begin{aligned}\begin{matrix}𝑥 \\ 𝑦 \\ 𝑧\end{matrix} & =\begin{matrix}2+2𝑡 \\ 5𝑡 \\ 1−𝑡\end{matrix} \\ \begin{matrix}𝑥 \\ 𝑦 \\ 𝑧\end{matrix} & =\begin{matrix}2 \\ 0 \\ 1\end{matrix}+\begin{matrix}2𝑡 \\ 5𝑡 \\ −𝑡\end{matrix} \\ \begin{matrix}𝑥 \\ 𝑦 \\ 𝑧\end{matrix} & =\begin{matrix}2 \\ 0 \\ 1\end{matrix}+𝑡\begin{matrix}2 \\ 5 \\ −1\end{matrix} \\ 𝐫 & =\begin{matrix}2 \\ 0 \\ 1\end{matrix}+𝑡\begin{matrix}2 \\ 5 \\ −1\end{matrix},\end{aligned}
 
 
 $$
@@ -112,7 +112,7 @@ First, let's find the corresponding vector equation:
 $$
 
 
-\begin{aligned}\begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned} & =\begin{aligned}5−𝑡 \\ 3 \\ 1\end{aligned} \\ \begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned} & =\begin{aligned}5 \\ 3 \\ 1\end{aligned}+\begin{aligned}−𝑡 \\ 0 \\ 0\end{aligned} \\ \begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned} & =\begin{aligned}5 \\ 3 \\ 1\end{aligned}+𝑡\begin{aligned}−1 \\ 0 \\ 0\end{aligned} \\ 𝐫 & =\begin{aligned}5 \\ 3 \\ 1\end{aligned}+𝑡\begin{aligned}−1 \\ 0 \\ 0\end{aligned},\end{aligned}
+\begin{aligned}\begin{matrix}𝑥 \\ 𝑦 \\ 𝑧\end{matrix} & =\begin{matrix}5−𝑡 \\ 3 \\ 1\end{matrix} \\ \begin{matrix}𝑥 \\ 𝑦 \\ 𝑧\end{matrix} & =\begin{matrix}5 \\ 3 \\ 1\end{matrix}+\begin{matrix}−𝑡 \\ 0 \\ 0\end{matrix} \\ \begin{matrix}𝑥 \\ 𝑦 \\ 𝑧\end{matrix} & =\begin{matrix}5 \\ 3 \\ 1\end{matrix}+𝑡\begin{matrix}−1 \\ 0 \\ 0\end{matrix} \\ 𝐫 & =\begin{matrix}5 \\ 3 \\ 1\end{matrix}+𝑡\begin{matrix}−1 \\ 0 \\ 0\end{matrix},\end{aligned}
 
 
 $$
@@ -136,7 +136,7 @@ We know that the line passes through the points $P(3,3,-5)$ and $Q(1,0,-1)$. Now
 $$
 
 
-\begin{aligned}𝐯 & =\overset{𝑃𝑄}{} \\ & =\overset{𝑂𝑄}{}−\overset{𝑂𝑃}{} \\ & =\begin{aligned}1 \\ 0 \\ −1\end{aligned}−\begin{aligned}3 \\ 3 \\ −5\end{aligned} \\ & =\begin{aligned}−2 \\ −3 \\ 4\end{aligned}.\end{aligned}
+\begin{aligned}𝐯 & =\overset{𝑃𝑄}{} \\ & =\overset{𝑂𝑄}{}−\overset{𝑂𝑃}{} \\ & =\begin{matrix}1 \\ 0 \\ −1\end{matrix}−\begin{matrix}3 \\ 3 \\ −5\end{matrix} \\ & =\begin{matrix}−2 \\ −3 \\ 4\end{matrix}.\end{aligned}
 
 
 $$
@@ -146,7 +146,7 @@ So, the vector equation of the line is
 $$
 
 
-\begin{aligned}𝐫 & =𝐩+𝑡𝐯 \\ 𝐫 & =\begin{aligned}3 \\ 3 \\ −5\end{aligned}+𝑡\begin{aligned}−2 \\ −3 \\ 4\end{aligned} \\ \begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned} & =\begin{aligned}3 \\ 3 \\ −5\end{aligned}+\begin{aligned}−2𝑡 \\ −3𝑡 \\ 4𝑡\end{aligned} \\ \begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned} & =\begin{aligned}3−2𝑡 \\ 3−3𝑡 \\ −5+4𝑡\end{aligned}\end{aligned}
+\begin{aligned}𝐫 & =𝐩+𝑡𝐯 \\ 𝐫 & =\begin{matrix}3 \\ 3 \\ −5\end{matrix}+𝑡\begin{matrix}−2 \\ −3 \\ 4\end{matrix} \\ \begin{matrix}𝑥 \\ 𝑦 \\ 𝑧\end{matrix} & =\begin{matrix}3 \\ 3 \\ −5\end{matrix}+\begin{matrix}−2𝑡 \\ −3𝑡 \\ 4𝑡\end{matrix} \\ \begin{matrix}𝑥 \\ 𝑦 \\ 𝑧\end{matrix} & =\begin{matrix}3−2𝑡 \\ 3−3𝑡 \\ −5+4𝑡\end{matrix}\end{aligned}
 
 
 $$
@@ -174,7 +174,7 @@ First, we need to find a direction vector that is parallel to the line passing t
 $$
 
 
-\begin{aligned}𝐯 & =\overset{𝑃𝑄}{} \\ & =\overset{𝑂𝑄}{}−\overset{𝑂𝑃}{} \\ & =\begin{aligned}0 \\ 4 \\ −4\end{aligned}−\begin{aligned}1 \\ −5 \\ 3\end{aligned} \\ & =\begin{aligned}−1 \\ 9 \\ −7\end{aligned}\end{aligned}
+\begin{aligned}𝐯 & =\overset{𝑃𝑄}{} \\ & =\overset{𝑂𝑄}{}−\overset{𝑂𝑃}{} \\ & =\begin{matrix}0 \\ 4 \\ −4\end{matrix}−\begin{matrix}1 \\ −5 \\ 3\end{matrix} \\ & =\begin{matrix}−1 \\ 9 \\ −7\end{matrix}\end{aligned}
 
 
 $$
@@ -184,7 +184,7 @@ So, the vector equation of the line is
 $$
 
 
-\begin{aligned}𝐫 & =𝐩+𝑡𝐯 \\ 𝐫 & =\begin{aligned}1 \\ −5 \\ 3\end{aligned}+𝑡\begin{aligned}−1 \\ 9 \\ −7\end{aligned} \\ \begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned} & =\begin{aligned}1 \\ −5 \\ 3\end{aligned}+\begin{aligned}−𝑡 \\ 9𝑡 \\ −7𝑡\end{aligned} \\ \begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned} & =\begin{aligned}1−𝑡 \\ −5+9𝑡 \\ 3−7𝑡\end{aligned}\end{aligned}
+\begin{aligned}𝐫 & =𝐩+𝑡𝐯 \\ 𝐫 & =\begin{matrix}1 \\ −5 \\ 3\end{matrix}+𝑡\begin{matrix}−1 \\ 9 \\ −7\end{matrix} \\ \begin{matrix}𝑥 \\ 𝑦 \\ 𝑧\end{matrix} & =\begin{matrix}1 \\ −5 \\ 3\end{matrix}+\begin{matrix}−𝑡 \\ 9𝑡 \\ −7𝑡\end{matrix} \\ \begin{matrix}𝑥 \\ 𝑦 \\ 𝑧\end{matrix} & =\begin{matrix}1−𝑡 \\ −5+9𝑡 \\ 3−7𝑡\end{matrix}\end{aligned}
 
 
 $$

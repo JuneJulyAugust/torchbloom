@@ -22,7 +22,7 @@ $$
 
 
 
-\textrm{Area} = \textrm{base} \times \textrm{height}
+\text{Area} = \text{base} \times \text{height}
 
 
 
@@ -88,7 +88,7 @@ $$
 
 
 
-\textrm{Area} = \textrm{base} \times \textrm{height}
+\text{Area} = \text{base} \times \text{height}
 
 
 
@@ -112,7 +112,7 @@ $$
 
 
 
-\textrm{Area} = 18 \, \textrm{cm}^2
+\text{Area} = 18 \, \text{cm}^2
 
 
 
@@ -152,7 +152,7 @@ $$
 
 
 
-\textrm{Area} = \textrm{base} \times \textrm{height}
+\text{Area} = \text{base} \times \text{height}
 
 
 
@@ -198,7 +198,7 @@ $$
 
 
 
-\textrm{Area} = \textrm{base} \times \textrm{height}
+\text{Area} = \text{base} \times \text{height}
 
 
 
@@ -222,7 +222,7 @@ $$
 
 
 
-\textrm{Area} = 10 \, \textrm{in}^2
+\text{Area} = 10 \, \text{in}^2
 
 
 
@@ -256,7 +256,7 @@ $$
 
 
 
-\textrm{Area} = \textrm{base} \times \textrm{height}
+\text{Area} = \text{base} \times \text{height}
 
 
 
@@ -280,7 +280,7 @@ $$
 
 
 
-\textrm{base} = 48 \div 4 = 12
+\text{base} = 48 \div 4 = 12
 
 
 
@@ -318,7 +318,7 @@ $$
 
 
 
-\textrm{Area of Parallelogram} = \textrm{Area of Rectangle} = \textrm{base} \times \textrm{height}
+\text{Area of Parallelogram} = \text{Area of Rectangle} = \text{base} \times \text{height}
 
 
 

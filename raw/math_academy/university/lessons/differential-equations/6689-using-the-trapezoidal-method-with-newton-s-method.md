@@ -31,7 +31,7 @@ We begin as usual. In general, the change $\Delta y$ is given by
 $$
 
 
-\begin{aligned}Δ𝑦 & =\frac{1}{2}(𝑦^{′}+𝑦_{′new}^{})⋅Δ𝑥 \\ & =\frac{1}{2}(2𝑥^{2}−𝑦^{4}+2(𝑥_{new})^{2}−(𝑦_{new})^{4})⋅0.5 \\ & =0.5𝑥^{2}−0.25𝑦^{4}+0.5(𝑥_{new})^{2}−0.25(𝑦_{new})^{4}.\end{aligned}
+\begin{aligned}Δ𝑦 & =\frac{1}{2}(𝑦^{′}+𝑦_{′new})⋅Δ𝑥 \\ & =\frac{1}{2}(2𝑥^{2}−𝑦^{4}+2(𝑥_{new})^{2}−(𝑦_{new})^{4})⋅0.5 \\ & =0.5𝑥^{2}−0.25𝑦^{4}+0.5(𝑥_{new})^{2}−0.25(𝑦_{new})^{4}.\end{aligned}
 
 
 $$
@@ -135,7 +135,7 @@ In this example, $\Delta y$ is given by
 $$
 
 
-\begin{aligned}Δ𝑦 & =\frac{1}{2}(𝑦^{′}+𝑦_{′new}^{})⋅Δ𝑥 \\ & =\frac{1}{2}(2𝑦^{2}−\sqrt{√𝑥}+2(𝑦_{new})^{2}−\sqrt{√𝑥_{new}})⋅1 \\ & =𝑦^{2}−\frac{1}{2}\sqrt{√𝑥}+(𝑦_{new})^{2}−\frac{1}{2}\sqrt{√𝑥_{new}}.\end{aligned}
+\begin{aligned}Δ𝑦 & =\frac{1}{2}(𝑦^{′}+𝑦_{′new})⋅Δ𝑥 \\ & =\frac{1}{2}(2𝑦^{2}−\sqrt{𝑥}+2(𝑦_{new})^{2}−\sqrt{𝑥_{new}})⋅1 \\ & =𝑦^{2}−\frac{1}{2}\sqrt{𝑥}+(𝑦_{new})^{2}−\frac{1}{2}\sqrt{𝑥_{new}}.\end{aligned}
 
 
 $$
@@ -145,7 +145,7 @@ Substituting this into $y_\text{new} = y + \Delta y,$ we have
 $$
 
 
-\begin{aligned}𝑦_{new} & =𝑦+Δ𝑦 \\ 𝑦_{new} & =𝑦+𝑦^{2}−\frac{1}{2}\sqrt{√𝑥}+(𝑦_{new})^{2}−\frac{1}{2}\sqrt{√𝑥_{new}}.\end{aligned}
+\begin{aligned}𝑦_{new} & =𝑦+Δ𝑦 \\ 𝑦_{new} & =𝑦+𝑦^{2}−\frac{1}{2}\sqrt{𝑥}+(𝑦_{new})^{2}−\frac{1}{2}\sqrt{𝑥_{new}}.\end{aligned}
 
 
 $$
@@ -185,7 +185,7 @@ Therefore, the function used in the first step is
 $$
 
 
-\begin{aligned}𝑔(𝑦_{new}) & =𝑦_{new}−(𝑦_{new})^{2}−1−1^{2}+\frac{1}{2}\sqrt{√1}+\frac{1}{2}\sqrt{√2} \\ & =𝑦_{new}−(𝑦_{new})^{2}−\frac{3}{2}+\frac{1}{2}\sqrt{√2}.\end{aligned}
+\begin{aligned}𝑔(𝑦_{new}) & =𝑦_{new}−(𝑦_{new})^{2}−1−1^{2}+\frac{1}{2}\sqrt{1}+\frac{1}{2}\sqrt{2} \\ & =𝑦_{new}−(𝑦_{new})^{2}−\frac{3}{2}+\frac{1}{2}\sqrt{2}.\end{aligned}
 
 
 $$
@@ -245,7 +245,7 @@ Now, let's proceed with the trapezoidal method. In general, $\Delta y$ is given 
 $$
 
 
-\begin{aligned}Δ𝑦 & =\frac{1}{2}(𝑦^{′}+𝑦_{′new}^{})⋅Δ𝑥 \\ & =\frac{1}{2}((2−𝑥𝑦^{2})+(2−𝑥_{new}(𝑦_{new})^{2}))⋅1 \\ & =\frac{1}{2}(4−𝑥𝑦^{2}−𝑥_{new}(𝑦_{new})^{2}) \\ & =2−0.5𝑥𝑦^{2}−0.5𝑥_{new}(𝑦_{new})^{2}.\end{aligned}
+\begin{aligned}Δ𝑦 & =\frac{1}{2}(𝑦^{′}+𝑦_{′new})⋅Δ𝑥 \\ & =\frac{1}{2}((2−𝑥𝑦^{2})+(2−𝑥_{new}(𝑦_{new})^{2}))⋅1 \\ & =\frac{1}{2}(4−𝑥𝑦^{2}−𝑥_{new}(𝑦_{new})^{2}) \\ & =2−0.5𝑥𝑦^{2}−0.5𝑥_{new}(𝑦_{new})^{2}.\end{aligned}
 
 
 $$

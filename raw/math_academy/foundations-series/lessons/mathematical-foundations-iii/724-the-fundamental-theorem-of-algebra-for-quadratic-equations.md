@@ -141,11 +141,11 @@ Therefore, $P(x) = x^2 - 10x+25.$
 
 #### Question
 
-The quadratic polynomial $f(z)$ with real coefficients has roots $z_1=3+\textrm{i}$ and $z_2=3-\textrm{i},$ and the coefficient of the quadratic term is $2.$ Find $f(z).$
+The quadratic polynomial $f(z)$ with real coefficients has roots $z_1=3+\text{i}$ and $z_2=3-\text{i},$ and the coefficient of the quadratic term is $2.$ Find $f(z).$
 
 #### Explanation
 
-Since our quadratic polynomial has roots ${\color{black}z_1=3+\textrm{i}}$ and ${\color{black}z_2=3-\textrm{i}},$ and the coefficient of the quadratic term is ${\color{black}a=2},$ we can write the polynomial as follows:
+Since our quadratic polynomial has roots ${\color{black}z_1=3+\text{i}}$ and ${\color{black}z_2=3-\text{i}},$ and the coefficient of the quadratic term is ${\color{black}a=2},$ we can write the polynomial as follows:
 
 $$
 
@@ -187,7 +187,7 @@ $$
 
 $$
 
-Now, since our quadratic equation has roots $u_1=1+ 3\textrm{i}$ and $u_2=1- 3\textrm{i},$ and the coefficient of the quadratic term is $a=1,$ the expression $u^2-2u+10$ can be written as
+Now, since our quadratic equation has roots $u_1=1+ 3\text{i}$ and $u_2=1- 3\text{i},$ and the coefficient of the quadratic term is $a=1,$ the expression $u^2-2u+10$ can be written as
 
 $$
 

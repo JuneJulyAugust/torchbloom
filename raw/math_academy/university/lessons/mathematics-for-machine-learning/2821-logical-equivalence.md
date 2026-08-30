@@ -79,7 +79,7 @@ Our completed table is shown below.
 
 To determine whether $\neg A \land \neg B$ is logically equivalent to $\neg (A \lor B),$ we need to check whether their truth tables are equivalent.
 
-Looking at the last two columns, we see that they are the same $(\textrm{F},\textrm{F},\textrm{F},\textrm{T}).$ Therefore, we conclude that $\neg A \land \neg B$ is logically equivalent to $\neg (A \lor B),$ that is,
+Looking at the last two columns, we see that they are the same $(\text{F},\text{F},\text{F},\text{T}).$ Therefore, we conclude that $\neg A \land \neg B$ is logically equivalent to $\neg (A \lor B),$ that is,
 
 $$
 

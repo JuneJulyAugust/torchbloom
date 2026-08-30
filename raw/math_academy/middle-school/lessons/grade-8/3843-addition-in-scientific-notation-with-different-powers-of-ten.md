@@ -145,7 +145,7 @@ $$
 
 #### Question
 
-Astronomers observe the motion of Mars' two moons, Phobos and Deimos, and use these observations to approximate their masses. The mass of Phobos is approximately $1.07\times 10^{16}\,\textrm{kg},$ while the mass of Deimos is approximately $1.5 \times 10^{15}\,\textrm{kg}.$ What is the total mass of Mars' two moons?
+Astronomers observe the motion of Mars' two moons, Phobos and Deimos, and use these observations to approximate their masses. The mass of Phobos is approximately $1.07\times 10^{16}\,\text{kg},$ while the mass of Deimos is approximately $1.5 \times 10^{15}\,\text{kg}.$ What is the total mass of Mars' two moons?
 
 #### Explanation
 
@@ -179,4 +179,4 @@ $$
 
 $$
 
-Therefore, the total mass of the two moons is $1.22 \times 10^{16} \,\textrm{kg}.$
+Therefore, the total mass of the two moons is $1.22 \times 10^{16} \,\text{kg}.$

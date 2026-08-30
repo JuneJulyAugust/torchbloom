@@ -56,7 +56,7 @@ $$
 
 $$
 
-For example, let's find the approximate circumference of a circle with a diameter of $10\:\textrm{m},$ shown below.
+For example, let's find the approximate circumference of a circle with a diameter of $10\:\text{m},$ shown below.
 
 ![Instructional graphic](../../../lesson-assets/grade-7/topic-520/8b09d9ce6bde721f.png)
 
@@ -86,7 +86,7 @@ $$
 
 $$
 
-Therefore, the circumference is approximately $31.4 \: \textrm{m}.$
+Therefore, the circumference is approximately $31.4 \: \text{m}.$
 
 **Watch out!** Since we used an approximate value for $\pi,$ we get an approximate circumference, not an exact one!
 
@@ -94,7 +94,7 @@ Therefore, the circumference is approximately $31.4 \: \textrm{m}.$
 
 #### Question
 
-Using the approximation of $\pi \approx 3.14,$ find the circumference of a circle with a diameter of $7\:\textrm{cm}.$
+Using the approximation of $\pi \approx 3.14,$ find the circumference of a circle with a diameter of $7\:\text{cm}.$
 
 #### Explanation
 
@@ -124,7 +124,7 @@ $$
 
 $$
 
-Therefore, the circumference is approximately $21.98 \: \textrm{cm}.$
+Therefore, the circumference is approximately $21.98 \: \text{cm}.$
 
 ### Formula for Circumference Using the Radius
 
@@ -152,7 +152,7 @@ C = \pi d = 2\pi r.
 
 $$
 
-For example, let's find the circumference of a circle with a radius of $6\:\textrm{m}.$
+For example, let's find the circumference of a circle with a radius of $6\:\text{m}.$
 
 ![Instructional graphic](../../../lesson-assets/grade-7/topic-520/f2f242dbfed92b91.png)
 
@@ -168,13 +168,13 @@ $$
 
 $$
 
-Therefore, the circumference is approximately $37.68 \: \textrm{m}.$
+Therefore, the circumference is approximately $37.68 \: \text{m}.$
 
 ### Example: Calculating the Circumference of a Circle Given the Radius
 
 #### Question
 
-Using the approximation of $\pi \approx 3.14,$ find the circumference of a circle with a radius of $8 \: \textrm{cm}.$
+Using the approximation of $\pi \approx 3.14,$ find the circumference of a circle with a radius of $8 \: \text{cm}.$
 
 #### Explanation
 
@@ -204,13 +204,13 @@ $$
 
 $$
 
-Therefore, the circumference is approximately $50.24 \: \textrm{cm}.$
+Therefore, the circumference is approximately $50.24 \: \text{cm}.$
 
 ### Solving for Radius or Diameter
 
 We can also solve for the diameter or radius given the circumference of the circle.
 
-For example, using the approximation of $\pi \approx 3.14,$ let's find the radius of a circle with a circumference of $62.8\:\textrm{cm}.$
+For example, using the approximation of $\pi \approx 3.14,$ let's find the radius of a circle with a circumference of $62.8\:\text{cm}.$
 
 The circumference of a circle is
 
@@ -238,13 +238,13 @@ $$
 
 $$
 
-Therefore, the radius is approximately $10 \: \textrm{cm}.$
+Therefore, the radius is approximately $10 \: \text{cm}.$
 
 ### Example: Finding the Radius or Diameter of a Circle Given the Circumference
 
 #### Question
 
-Using the approximation of $\pi \approx 3.14,$ find the diameter of a circle with a circumference of $50.24\:\textrm{cm}.$
+Using the approximation of $\pi \approx 3.14,$ find the diameter of a circle with a circumference of $50.24\:\text{cm}.$
 
 #### Explanation
 
@@ -274,13 +274,13 @@ $$
 
 $$
 
-Therefore, the diameter is approximately $16 \: \textrm{cm}.$
+Therefore, the diameter is approximately $16 \: \text{cm}.$
 
 ### Circumference in Real World Context
 
 Now, let's see an application of the above in a real-world context.
 
-A circular garden has a radius of $11 \: \textrm{ft}.$ A fence is built all the way around the garden.
+A circular garden has a radius of $11 \: \text{ft}.$ A fence is built all the way around the garden.
 
 Using the approximation of $\pi \approx 3.14,$ find the total length of the fence.
 
@@ -298,7 +298,7 @@ $$
 
 where $r$ is the radius.
 
-We are given that the radius of the garden is $r=11 \: \textrm{ft}.$
+We are given that the radius of the garden is $r=11 \: \text{ft}.$
 
 Using that $\pi \approx 3.14,$ we obtain
 
@@ -312,13 +312,13 @@ $$
 
 $$
 
-Therefore, the circumference is approximately $69.08\: \textrm{ft}.$
+Therefore, the circumference is approximately $69.08\: \text{ft}.$
 
 ### Example: Calculating the Circumference of a Circle in Word Problems
 
 #### Question
 
-A circular garden path has a total distance around it of $94.2\:\textrm{m}.$
+A circular garden path has a total distance around it of $94.2\:\text{m}.$
 
 Using the approximation of $\pi \approx 3.14,$ find the diameter of the path.
 
@@ -338,7 +338,7 @@ $$
 
 where $d$ is the diameter.
 
-The total distance around the path corresponds to its circumference, so $C=94.2\:\textrm{m}.$
+The total distance around the path corresponds to its circumference, so $C=94.2\:\text{m}.$
 
 Using that $\pi \approx 3.14,$ we obtain the following equation, which we solve for $d{:}$
 
@@ -352,4 +352,4 @@ $$
 
 $$
 
-Therefore, the diameter is approximately $30 \: \textrm{m}.$
+Therefore, the diameter is approximately $30 \: \text{m}.$

@@ -20,7 +20,7 @@ For example, for the fraction $\dfrac{3}{\sqrt{2}},$ we can remove the square ro
 $$
 
 
-\begin{aligned}\frac{3}{\sqrt{√2}} & = \\ \frac{3}{\sqrt{√2}}⋅\frac{\sqrt{√2}}{\sqrt{√2}} & = \\ \frac{3\sqrt{√2}}{(\sqrt{√2})^{2}} & = \\ \frac{3\sqrt{√2}}{2} & \end{aligned}
+\begin{aligned}\frac{3}{\sqrt{2}} & = \\ \frac{3}{\sqrt{2}}⋅\frac{\sqrt{2}}{\sqrt{2}} & = \\ \frac{3\sqrt{2}}{(\sqrt{2})^{2}} & = \\ \frac{3\sqrt{2}}{2} & \end{aligned}
 
 
 $$
@@ -40,7 +40,7 @@ To remove the radical $\sqrt{5}$ from the denominator, all we need to do is mult
 $$
 
 
-\begin{aligned}\frac{3}{\sqrt{√5}} & = \\ \frac{3}{\sqrt{√5}}⋅\frac{\sqrt{√5}}{\sqrt{√5}} & = \\ \frac{3\sqrt{√5}}{(\sqrt{√5})^{2}} & = \\ \frac{3\sqrt{√5}}{5} & \end{aligned}
+\begin{aligned}\frac{3}{\sqrt{5}} & = \\ \frac{3}{\sqrt{5}}⋅\frac{\sqrt{5}}{\sqrt{5}} & = \\ \frac{3\sqrt{5}}{(\sqrt{5})^{2}} & = \\ \frac{3\sqrt{5}}{5} & \end{aligned}
 
 
 $$
@@ -58,7 +58,7 @@ To remove the radical $\sqrt{5}$ from the denominator, all we need to do is mult
 $$
 
 
-\begin{aligned}\frac{15}{2\sqrt{√5}} & = \\ \frac{15}{2\sqrt{√5}}⋅\frac{\sqrt{√5}}{\sqrt{√5}} & = \\ \frac{15\sqrt{√5}}{2(\sqrt{√5})^{2}} & = \\ \frac{15\sqrt{√5}}{2⋅5} & = \\ \frac{15\sqrt{√5}}{10} & = \\ \frac{3\sqrt{√5}}{2} & \end{aligned}
+\begin{aligned}\frac{15}{2\sqrt{5}} & = \\ \frac{15}{2\sqrt{5}}⋅\frac{\sqrt{5}}{\sqrt{5}} & = \\ \frac{15\sqrt{5}}{2(\sqrt{5})^{2}} & = \\ \frac{15\sqrt{5}}{2⋅5} & = \\ \frac{15\sqrt{5}}{10} & = \\ \frac{3\sqrt{5}}{2} & \end{aligned}
 
 
 $$
@@ -76,7 +76,7 @@ To remove the radical $\sqrt{2}$ from the denominator, all we need to do is mult
 $$
 
 
-\begin{aligned}\frac{\sqrt{√3}}{\sqrt{√2}} & = \\ \frac{\sqrt{√3}}{\sqrt{√2}}⋅\frac{\sqrt{√2}}{\sqrt{√2}} & = \\ \frac{\sqrt{√3}⋅\sqrt{√2}}{(\sqrt{√2})^{2}} & = \\ \frac{\sqrt{√3}⋅\sqrt{√2}}{2} & \end{aligned}
+\begin{aligned}\frac{\sqrt{3}}{\sqrt{2}} & = \\ \frac{\sqrt{3}}{\sqrt{2}}⋅\frac{\sqrt{2}}{\sqrt{2}} & = \\ \frac{\sqrt{3}⋅\sqrt{2}}{(\sqrt{2})^{2}} & = \\ \frac{\sqrt{3}⋅\sqrt{2}}{2} & \end{aligned}
 
 
 $$
@@ -86,7 +86,7 @@ Now, we use the product rule to simplify the numerator:
 $$
 
 
-\begin{aligned}\frac{\sqrt{√3}⋅\sqrt{√2}}{2} & = \\ \frac{\sqrt{√3⋅2}}{2} & = \\ \frac{\sqrt{√6}}{2} & \end{aligned}
+\begin{aligned}\frac{\sqrt{3}⋅\sqrt{2}}{2} & = \\ \frac{\sqrt{3⋅2}}{2} & = \\ \frac{\sqrt{6}}{2} & \end{aligned}
 
 
 $$
@@ -104,7 +104,7 @@ To remove the radical $\sqrt{8}$ from the denominator, all we need to do is mult
 $$
 
 
-\begin{aligned}\frac{\sqrt{√5}}{\sqrt{√8}} & = \\ \frac{\sqrt{√5}}{\sqrt{√8}}⋅\frac{\sqrt{√8}}{\sqrt{√8}} & = \\ \frac{\sqrt{√5}⋅\sqrt{√8}}{(\sqrt{√8})^{2}} & = \\ \frac{\sqrt{√5}⋅\sqrt{√8}}{8} & \end{aligned}
+\begin{aligned}\frac{\sqrt{5}}{\sqrt{8}} & = \\ \frac{\sqrt{5}}{\sqrt{8}}⋅\frac{\sqrt{8}}{\sqrt{8}} & = \\ \frac{\sqrt{5}⋅\sqrt{8}}{(\sqrt{8})^{2}} & = \\ \frac{\sqrt{5}⋅\sqrt{8}}{8} & \end{aligned}
 
 
 $$
@@ -114,7 +114,7 @@ Next, we notice that $8$ has a perfect square factor $(4).$ Therefore, we can re
 $$
 
 
-\begin{aligned}\sqrt{√8} & = \\ \sqrt{√4⋅2} & = \\ \sqrt{√4}⋅\sqrt{√2} & = \\ 2\sqrt{√2} & \end{aligned}
+\begin{aligned}\sqrt{8} & = \\ \sqrt{4⋅2} & = \\ \sqrt{4}⋅\sqrt{2} & = \\ 2\sqrt{2} & \end{aligned}
 
 
 $$
@@ -124,7 +124,7 @@ Finally, we simplify our original fraction as follows:
 $$
 
 
-\begin{aligned}\frac{\sqrt{√5}⋅\sqrt{√8}}{8} & = \\ \frac{\sqrt{√5}⋅2\sqrt{√2}}{8} & = \\ \frac{2⋅\sqrt{√5}⋅\sqrt{√2}}{8} & = \\ \frac{\sqrt{√5}⋅\sqrt{√2}}{4} & = \\ \frac{\sqrt{√5⋅2}}{4} & = \\ \frac{\sqrt{√10}}{4} & \end{aligned}
+\begin{aligned}\frac{\sqrt{5}⋅\sqrt{8}}{8} & = \\ \frac{\sqrt{5}⋅2\sqrt{2}}{8} & = \\ \frac{2⋅\sqrt{5}⋅\sqrt{2}}{8} & = \\ \frac{\sqrt{5}⋅\sqrt{2}}{4} & = \\ \frac{\sqrt{5⋅2}}{4} & = \\ \frac{\sqrt{10}}{4} & \end{aligned}
 
 
 $$

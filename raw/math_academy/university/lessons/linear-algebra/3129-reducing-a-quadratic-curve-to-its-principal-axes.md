@@ -71,7 +71,7 @@ Next, we find the eigenvalues of $A\mathbin{:}$
 $$
 
 
-\begin{aligned}|𝐴−𝜆𝐼| & =0 \\ \begin{aligned}6−𝜆 & 2 \\ 2 & 3−𝜆\end{aligned} & =0 \\ 𝜆^{2}−9𝜆+14 & =0 \\ 𝜆 & =7,\,2\end{aligned}
+\begin{aligned}|𝐴−𝜆𝐼| & =0 \\ \begin{matrix}6−𝜆 & 2 \\ 2 & 3−𝜆\end{matrix} & =0 \\ 𝜆^{2}−9𝜆+14 & =0 \\ 𝜆 & =7,\,2\end{aligned}
 
 
 $$
@@ -105,7 +105,7 @@ Therefore, the curve has the following equation:
 $$
 
 
-\begin{aligned}7𝑦_{21}^{}+2𝑦_{22}^{} & =14 \\ \frac{𝑦_{21}^{}}{(\sqrt{√2})^{2}}+\frac{𝑦_{22}^{}}{(\sqrt{√7})^{2}} & =1\end{aligned}
+\begin{aligned}7𝑦_{21}+2𝑦_{22} & =14 \\ \frac{𝑦_{21}}{(\sqrt{2})^{2}}+\frac{𝑦_{22}}{(\sqrt{7})^{2}} & =1\end{aligned}
 
 
 $$
@@ -163,7 +163,7 @@ Next, we find the eigenvalues of $A\mathbin{:}$
 $$
 
 
-\begin{aligned}|𝐴−𝜆𝐼| & =0 \\ \begin{aligned}6−𝜆 & 4 \\ 4 & −9−𝜆\end{aligned} & =0 \\ 𝜆^{2}+3𝜆−70 & =0 \\ 𝜆 & =7,\,−10\end{aligned}
+\begin{aligned}|𝐴−𝜆𝐼| & =0 \\ \begin{matrix}6−𝜆 & 4 \\ 4 & −9−𝜆\end{matrix} & =0 \\ 𝜆^{2}+3𝜆−70 & =0 \\ 𝜆 & =7,\,−10\end{aligned}
 
 
 $$
@@ -175,7 +175,7 @@ In the new variables, the curve has the following equation:
 $$
 
 
-\begin{aligned}7𝑦_{21}^{}−10𝑦_{22}^{} & =70 \\ \frac{𝑦_{21}^{}}{10}−\frac{𝑦_{22}^{}}{7} & =1 \\ \frac{𝑦_{21}^{}}{(\sqrt{√10})^{2}}−\frac{𝑦_{22}^{}}{(\sqrt{√7})^{2}} & =1\end{aligned}
+\begin{aligned}7𝑦_{21}−10𝑦_{22} & =70 \\ \frac{𝑦_{21}}{10}−\frac{𝑦_{22}}{7} & =1 \\ \frac{𝑦_{21}}{(\sqrt{10})^{2}}−\frac{𝑦_{22}}{(\sqrt{7})^{2}} & =1\end{aligned}
 
 
 $$

@@ -21,18 +21,18 @@ In many practical situations, however, the incoming solution *does* contain some
 
 - the resulting differential equation takes the form of a first-order linear differential equation.
 
-For example, suppose a storage tank initially holds $650\,\textrm{L}$ of water containing $1\,300\,\textrm{g}$ of dissolved chlorine.
+For example, suppose a storage tank initially holds $650\,\text{L}$ of water containing $1\,300\,\text{g}$ of dissolved chlorine.
 
-- A solution containing $20\,\textrm{g/L}$ of dissolved chlorine is pumped into the tank at a rate of $5\,\textrm{L/min}.$
+- A solution containing $20\,\text{g/L}$ of dissolved chlorine is pumped into the tank at a rate of $5\,\text{L/min}.$
 
-- At the same time, the completely mixed water is drained out at a rate of $5\,\textrm{L/min}.$
+- At the same time, the completely mixed water is drained out at a rate of $5\,\text{L/min}.$
 
 To construct the model for the amount of chlorine $Q$ in the tank, we compare the rates of chlorine entering and leaving. The derivative $\dfrac{\mathrm{d}Q}{\mathrm{d}t}$ describes how this amount changes with respect to time $t.$ This is equal to the rate at which chlorine enters the tank minus the rate at which chlorine leaves the tank.
 
 $$
 
 
-\boxed{\dfrac{\mathrm{d}Q}{\mathrm{d}t} = Q'_{\textrm{in}} - Q'_{\textrm{out}}}
+\boxed{\dfrac{\mathrm{d}Q}{\mathrm{d}t} = Q'_{\text{in}} - Q'_{\text{out}}}
 
 
 $$
@@ -46,31 +46,31 @@ The rate of chlorine entering is the concentration times the flow rate:
 $$
 
 
-\begin{aligned}𝑄_{′in}^{} & =(20\,\frac{g}{L})⋅(5\,\frac{L}{min}) \\ & =(20\,\frac{g}{L})⋅(5\,\frac{L}{min}) \\ & =100\,\frac{g}{min}\end{aligned}
+\begin{aligned}𝑄_{′in} & =(20\,\frac{g}{L})⋅(5\,\frac{L}{min}) \\ & =(20\,\frac{g}{L})⋅(5\,\frac{L}{min}) \\ & =100\,\frac{g}{min}\end{aligned}
 
 
 $$
 
 **Step 2**: Calculating the rate at which chlorine exits the tank.
 
-Since the volume remains constant at $650\,\textrm{L},$ the concentration in the tank is $\dfrac{Q}{650}\,\dfrac{\textrm{g}}{\textrm{L}}.$ So, the rate of chlorine exiting is
+Since the volume remains constant at $650\,\text{L},$ the concentration in the tank is $\dfrac{Q}{650}\,\dfrac{\text{g}}{\text{L}}.$ So, the rate of chlorine exiting is
 
 $$
 
 
-\begin{aligned}𝑄_{′out}^{} & =(5\,\frac{L}{min})⋅(\frac{𝑄}{650}\,\frac{g}{L}) \\ & =(5\,\frac{L}{min})⋅(\frac{𝑄}{650}\,\frac{g}{L}) \\ & =\frac{𝑄}{130}\,\frac{g}{min}.\end{aligned}
+\begin{aligned}𝑄_{′out} & =(5\,\frac{L}{min})⋅(\frac{𝑄}{650}\,\frac{g}{L}) \\ & =(5\,\frac{L}{min})⋅(\frac{𝑄}{650}\,\frac{g}{L}) \\ & =\frac{𝑄}{130}\,\frac{g}{min}.\end{aligned}
 
 
 $$
 
 **Step 3**: Calculate the overall rate of change.
 
-The net rate of change $\dfrac{\mathrm{d}Q}{\mathrm{d}t} = Q'_\text{in} - Q'_\text{out}$ is the difference between the rate in and the rate out. Combining this with the initial condition $Q(0) = 1\,300\,\textrm{g},$ we can state the complete initial value problem:
+The net rate of change $\dfrac{\mathrm{d}Q}{\mathrm{d}t} = Q'_\text{in} - Q'_\text{out}$ is the difference between the rate in and the rate out. Combining this with the initial condition $Q(0) = 1\,300\,\text{g},$ we can state the complete initial value problem:
 
 $$
 
 
-\dfrac{\mathrm{d}Q}{\mathrm{d}t} = 100 - \dfrac{1}{130}Q \quad\Longrightarrow\quad \boxed{\dfrac{\mathrm{d}Q}{\mathrm{d}t} + \dfrac{1}{130}Q = 100, \quad Q(0) = 1\,300\,\textrm{g}}
+\dfrac{\mathrm{d}Q}{\mathrm{d}t} = 100 - \dfrac{1}{130}Q \quad\Longrightarrow\quad \boxed{\dfrac{\mathrm{d}Q}{\mathrm{d}t} + \dfrac{1}{130}Q = 100, \quad Q(0) = 1\,300\,\text{g}}
 
 
 $$
@@ -79,7 +79,7 @@ $$
 
 #### Question
 
-A fertilizer tank initially holds $800\,\textrm{L}$ of liquid containing $7\,\textrm{kg}$ of dissolved nutrient. A solution containing $0.01\,\textrm{kg/L}$ of dissolved nutrient is pumped into the tank at a rate of $40\,\textrm{L/min},$ while the completely mixed liquid is drained out at a rate of $40\,\textrm{L/min}.$ Which expression gives the amount of nutrient $Q(t),$ in kilograms, in the tank $t$ minutes after pumping begins?
+A fertilizer tank initially holds $800\,\text{L}$ of liquid containing $7\,\text{kg}$ of dissolved nutrient. A solution containing $0.01\,\text{kg/L}$ of dissolved nutrient is pumped into the tank at a rate of $40\,\text{L/min},$ while the completely mixed liquid is drained out at a rate of $40\,\text{L/min}.$ Which expression gives the amount of nutrient $Q(t),$ in kilograms, in the tank $t$ minutes after pumping begins?
 
 #### Explanation
 
@@ -98,43 +98,43 @@ describes how this amount changes with respect to time $t.$ This is equal to the
 $$
 
 
-\dfrac{\mathrm{d}Q}{\mathrm{d}t} = Q'_{\textrm{in}} - Q'_{\textrm{out}}
+\dfrac{\mathrm{d}Q}{\mathrm{d}t} = Q'_{\text{in}} - Q'_{\text{out}}
 
 
 $$
 
-Note that the units of $\dfrac{\mathrm{d}Q}{\mathrm{d}t}, Q'_{\textrm{in}}$ and $Q'_{\textrm{out}}$ are $\textrm{kg}/\textrm{min}.$ Now, let's compute the required rates of change in steps.
+Note that the units of $\dfrac{\mathrm{d}Q}{\mathrm{d}t}, Q'_{\text{in}}$ and $Q'_{\text{out}}$ are $\text{kg}/\text{min}.$ Now, let's compute the required rates of change in steps.
 
 ****: Calculating the rate at which additives enter the tank.
 
-Note that a feed solution containing $0.01\,\textrm{kg/L}$ of the nutrient enters the tank at a rate of $40\,\textrm{L/min}.$ So, the rate at which the ** enters the tank is
+Note that a feed solution containing $0.01\,\text{kg/L}$ of the nutrient enters the tank at a rate of $40\,\text{L/min}.$ So, the rate at which the ** enters the tank is
 
 $$
 
 
-\begin{aligned}𝑄_{′in}^{} & =(0.01\,\frac{kg}{L})⋅(40\,\frac{L}{min}) \\ & =(0.01\,\frac{kg}{L})⋅(40\,\frac{L}{min}) \\ & =0.4\,\frac{kg}{min}.\end{aligned}
+\begin{aligned}𝑄_{′in} & =(0.01\,\frac{kg}{L})⋅(40\,\frac{L}{min}) \\ & =(0.01\,\frac{kg}{L})⋅(40\,\frac{L}{min}) \\ & =0.4\,\frac{kg}{min}.\end{aligned}
 
 
 $$
 
 ****: Calculating the rate at which additives exit the tank.
 
-Next, note that the rate of flow in equals the rate of flow out, so the volume in the tank remains $800\,\textrm{L}.$ Then, since $Q$ is the amount of nutrient in the tank, the ** of the solution at time $t$ is
+Next, note that the rate of flow in equals the rate of flow out, so the volume in the tank remains $800\,\text{L}.$ Then, since $Q$ is the amount of nutrient in the tank, the ** of the solution at time $t$ is
 
 $$
 
 
-\dfrac{Q}{800}\,\textrm{kg/L}.
+\dfrac{Q}{800}\,\text{kg/L}.
 
 
 $$
 
-Therefore, as the completely mixed liquid leaves at a rate of $40\,\textrm{L/min},$ ** leaves at a rate of
+Therefore, as the completely mixed liquid leaves at a rate of $40\,\text{L/min},$ ** leaves at a rate of
 
 $$
 
 
-\begin{aligned}𝑄_{′out}^{} & =(40\,\frac{L}{min})⋅(\frac{𝑄}{800}\,\frac{kg}{L}) \\ & =(40\,\frac{L}{min})⋅(\frac{𝑄}{800}\,\frac{kg}{L}) \\ & =\frac{40𝑄}{800}\,\frac{kg}{min} \\ & =\frac{𝑄}{20}\,\frac{kg}{min}.\end{aligned}
+\begin{aligned}𝑄_{′out} & =(40\,\frac{L}{min})⋅(\frac{𝑄}{800}\,\frac{kg}{L}) \\ & =(40\,\frac{L}{min})⋅(\frac{𝑄}{800}\,\frac{kg}{L}) \\ & =\frac{40𝑄}{800}\,\frac{kg}{min} \\ & =\frac{𝑄}{20}\,\frac{kg}{min}.\end{aligned}
 
 
 $$
@@ -146,7 +146,7 @@ The rate of change equals the rate of entry minus the rate of exit. Therefore,
 $$
 
 
-\begin{aligned}\frac{d𝑄}{d𝑡} & =𝑄_{′in}^{}−𝑄_{′out}^{} \\ & =0.4−\frac{𝑄}{20}\end{aligned}
+\begin{aligned}\frac{d𝑄}{d𝑡} & =𝑄_{′in}−𝑄_{′out} \\ & =0.4−\frac{𝑄}{20}\end{aligned}
 
 
 $$
@@ -179,7 +179,7 @@ Q(t) = Q_c(t) + Q_p(t) = Ae^{-t/20} + 8.
 
 $$
 
-We're told that the tank initially contains $7\,\textrm{kg}$ of dissolved nutrient. So, we can apply the initial condition $Q(0) = 7,$ and solve for $A{:}$
+We're told that the tank initially contains $7\,\text{kg}$ of dissolved nutrient. So, we can apply the initial condition $Q(0) = 7,$ and solve for $A{:}$
 
 $$
 
@@ -203,7 +203,7 @@ $$
 
 #### Question
 
-A water-treatment holding tank initially holds $700\,\textrm{L}$ of liquid containing $12\,\textrm{kg}$ of dissolved coagulant. A feed solution containing $0.05\,\textrm{kg/L}$ of the coagulant is pumped into the tank at a rate of $30\,\textrm{L/min},$ while the completely mixed liquid is drained out at a rate of $20\,\textrm{L/min}.$ Find, rounded to two decimal places, the amount of coagulant in the tank $8$ minutes after pumping begins.
+A water-treatment holding tank initially holds $700\,\text{L}$ of liquid containing $12\,\text{kg}$ of dissolved coagulant. A feed solution containing $0.05\,\text{kg/L}$ of the coagulant is pumped into the tank at a rate of $30\,\text{L/min},$ while the completely mixed liquid is drained out at a rate of $20\,\text{L/min}.$ Find, rounded to two decimal places, the amount of coagulant in the tank $8$ minutes after pumping begins.
 
 #### Explanation
 
@@ -222,21 +222,21 @@ describes how this amount changes with respect to time $t.$ This is equal to the
 $$
 
 
-\dfrac{\mathrm{d}Q}{\mathrm{d}t} = Q'_{\textrm{in}} - Q'_{\textrm{out}}
+\dfrac{\mathrm{d}Q}{\mathrm{d}t} = Q'_{\text{in}} - Q'_{\text{out}}
 
 
 $$
 
-Note that the units of $\dfrac{\mathrm{d}Q}{\mathrm{d}t}, Q'_{\textrm{in}}$ and $Q'_{\textrm{out}}$ are $\textrm{kg}/\textrm{min}.$ Now, let's compute the required rates of change in steps.
+Note that the units of $\dfrac{\mathrm{d}Q}{\mathrm{d}t}, Q'_{\text{in}}$ and $Q'_{\text{out}}$ are $\text{kg}/\text{min}.$ Now, let's compute the required rates of change in steps.
 
 ****: Calculating the rate at which coagulant enters the tank.
 
-Note that a feed solution containing $0.05\,\textrm{kg/L}$ of the coagulant enters the tank at a rate of $30\,\textrm{L/min}.$ So, the rate at which the ** enters the tank is
+Note that a feed solution containing $0.05\,\text{kg/L}$ of the coagulant enters the tank at a rate of $30\,\text{L/min}.$ So, the rate at which the ** enters the tank is
 
 $$
 
 
-\begin{aligned}𝑄_{′in}^{} & =(0.05\,\frac{kg}{L})⋅(30\,\frac{L}{min}) \\ & =(0.05\,\frac{kg}{L})⋅(30\,\frac{L}{min}) \\ & =1.5\,\frac{kg}{min}.\end{aligned}
+\begin{aligned}𝑄_{′in} & =(0.05\,\frac{kg}{L})⋅(30\,\frac{L}{min}) \\ & =(0.05\,\frac{kg}{L})⋅(30\,\frac{L}{min}) \\ & =1.5\,\frac{kg}{min}.\end{aligned}
 
 
 $$
@@ -245,12 +245,12 @@ $$
 
 To find the rate at which coagulant leaves the tank, we must first determine the volume of liquid in the tank at time $t.$
 
-The tank initially contains $700\,\textrm{L}$ of liquid; a solution enters at $30\,\textrm{L/min}$ and leaves at $20\,\textrm{L/min}.$ As a result, the volume of liquid in the tank after $t$ minutes is
+The tank initially contains $700\,\text{L}$ of liquid; a solution enters at $30\,\text{L/min}$ and leaves at $20\,\text{L/min}.$ As a result, the volume of liquid in the tank after $t$ minutes is
 
 $$
 
 
-700 + 30t - 20t = (700+10t)\,\textrm{L}.
+700 + 30t - 20t = (700+10t)\,\text{L}.
 
 
 $$
@@ -260,17 +260,17 @@ Since $Q$ is the amount of coagulant in the tank, the ** of the mixed solution a
 $$
 
 
-\dfrac{Q}{700+10t}\,\textrm{kg/L}.
+\dfrac{Q}{700+10t}\,\text{kg/L}.
 
 
 $$
 
-Therefore, as the completely mixed liquid leaves at a rate of $20\,\textrm{L/min},$ ** leaves at a rate of
+Therefore, as the completely mixed liquid leaves at a rate of $20\,\text{L/min},$ ** leaves at a rate of
 
 $$
 
 
-\begin{aligned}𝑄_{′out}^{} & =(20\,\frac{L}{min})⋅(\frac{𝑄}{700+10𝑡}\,\frac{kg}{L}) \\ & =(20\,\frac{L}{min})⋅(\frac{𝑄}{700+10𝑡}\,\frac{kg}{L}) \\ & =\frac{20𝑄}{700+10𝑡}\,\frac{kg}{min} \\ & =\frac{2𝑄}{70+𝑡}\,\frac{kg}{min}.\end{aligned}
+\begin{aligned}𝑄_{′out} & =(20\,\frac{L}{min})⋅(\frac{𝑄}{700+10𝑡}\,\frac{kg}{L}) \\ & =(20\,\frac{L}{min})⋅(\frac{𝑄}{700+10𝑡}\,\frac{kg}{L}) \\ & =\frac{20𝑄}{700+10𝑡}\,\frac{kg}{min} \\ & =\frac{2𝑄}{70+𝑡}\,\frac{kg}{min}.\end{aligned}
 
 
 $$
@@ -282,7 +282,7 @@ The rate of change equals the rate of entry minus the rate of exit. Therefore,
 $$
 
 
-\begin{aligned}\frac{d𝑄}{d𝑡} & =𝑄_{′in}^{}−𝑄_{′out}^{} \\ & =1.5−\frac{2𝑄}{70+𝑡}\end{aligned}
+\begin{aligned}\frac{d𝑄}{d𝑡} & =𝑄_{′in}−𝑄_{′out} \\ & =1.5−\frac{2𝑄}{70+𝑡}\end{aligned}
 
 
 $$
@@ -331,7 +331,7 @@ $$
 
 Note that $C$ is a constant of integration.
 
-We're told that the tank initially contains $12\,\textrm{kg}$ of coagulant. So, we can apply the initial condition $Q(0) = 12,$ and solve for $C{:}$
+We're told that the tank initially contains $12\,\text{kg}$ of coagulant. So, we can apply the initial condition $Q(0) = 12,$ and solve for $C{:}$
 
 $$
 
@@ -367,7 +367,7 @@ rounded to two decimal places.
 
 #### Question
 
-A syrup mixing tank in a confectionery factory can hold up to $240\,\textrm{gal}$ of liquid. Initially, it contains $96\,\textrm{gal}$ of syrup solution with $32\,\textrm{lb}$ of dissolved sugar. A more concentrated syrup with concentration $1.5\,\textrm{lb/gal}$ flows into the tank at a rate of $24\,\textrm{gal/min},$ while the completely mixed solution drains out at a rate of $16\,\textrm{gal/min}.$ Rounded to one decimal place, find the amount of sugar in the tank at the moment it begins to overflow.
+A syrup mixing tank in a confectionery factory can hold up to $240\,\text{gal}$ of liquid. Initially, it contains $96\,\text{gal}$ of syrup solution with $32\,\text{lb}$ of dissolved sugar. A more concentrated syrup with concentration $1.5\,\text{lb/gal}$ flows into the tank at a rate of $24\,\text{gal/min},$ while the completely mixed solution drains out at a rate of $16\,\text{gal/min}.$ Rounded to one decimal place, find the amount of sugar in the tank at the moment it begins to overflow.
 
 #### Explanation
 
@@ -386,21 +386,21 @@ describes how this amount changes with respect to time $t,$ in minutes. This is 
 $$
 
 
-\dfrac{\mathrm{d}Q}{\mathrm{d}t} = Q'_{\textrm{in}} - Q'_{\textrm{out}}
+\dfrac{\mathrm{d}Q}{\mathrm{d}t} = Q'_{\text{in}} - Q'_{\text{out}}
 
 
 $$
 
-Note that the units of $\dfrac{\mathrm{d}Q}{\mathrm{d}t}, Q'_{\textrm{in}}$ and $Q'_{\textrm{out}}$ are $\textrm{lb}/\textrm{min}.$ Now, let's compute the required rates of change in steps.
+Note that the units of $\dfrac{\mathrm{d}Q}{\mathrm{d}t}, Q'_{\text{in}}$ and $Q'_{\text{out}}$ are $\text{lb}/\text{min}.$ Now, let's compute the required rates of change in steps.
 
 ****: Calculating the rate at which sugar enters the tank.
 
-First, note that a solution containing $1.5\,\textrm{lb/gal}$ of sugar enters the tank at a rate of $24\,\textrm{gal/min}.$ So, the rate at which the ** enters the tank is
+First, note that a solution containing $1.5\,\text{lb/gal}$ of sugar enters the tank at a rate of $24\,\text{gal/min}.$ So, the rate at which the ** enters the tank is
 
 $$
 
 
-\begin{aligned}𝑄_{′in}^{} & =(1.5\,\frac{lb}{gal})⋅(24\,\frac{gal}{min}) \\ & =(1.5\,\frac{lb}{gal})⋅(24\,\frac{gal}{min}) \\ & =36\,\frac{lb}{min}.\end{aligned}
+\begin{aligned}𝑄_{′in} & =(1.5\,\frac{lb}{gal})⋅(24\,\frac{gal}{min}) \\ & =(1.5\,\frac{lb}{gal})⋅(24\,\frac{gal}{min}) \\ & =36\,\frac{lb}{min}.\end{aligned}
 
 
 $$
@@ -409,12 +409,12 @@ $$
 
 To find the rate at which sugar leaves the tank, we must first determine the volume of solution in the tank at time $t.$
 
-The tank initially contains $96\,\textrm{gal}$ of solution; solution enters at $24\,\textrm{gal/min}$ and mixed solution leaves at $16\,\textrm{gal/min}.$ As a result, the amount of solution in the tank after $t$ minutes is
+The tank initially contains $96\,\text{gal}$ of solution; solution enters at $24\,\text{gal/min}$ and mixed solution leaves at $16\,\text{gal/min}.$ As a result, the amount of solution in the tank after $t$ minutes is
 
 $$
 
 
-V(t) = 96 + 24t - 16t = 8(12+t)\,\textrm{gal}.
+V(t) = 96 + 24t - 16t = 8(12+t)\,\text{gal}.
 
 
 $$
@@ -426,17 +426,17 @@ Since $Q$ is the amount of sugar in the tank, the concentration of the solution 
 $$
 
 
-\dfrac{Q}{8(12 + t)}\,\textrm{lb/gal}.
+\dfrac{Q}{8(12 + t)}\,\text{lb/gal}.
 
 
 $$
 
-Therefore, as the completely mixed solution leaves at a rate of $16\,\textrm{gal/min},$ ** leaves at a rate of
+Therefore, as the completely mixed solution leaves at a rate of $16\,\text{gal/min},$ ** leaves at a rate of
 
 $$
 
 
-\begin{aligned}𝑄_{′out}^{} & =(16\,\frac{gal}{min})⋅(\frac{𝑄}{8(12+𝑡)}\,\frac{lb}{gal}) \\ & =(16\,\frac{gal}{min})⋅(\frac{𝑄}{8(12+𝑡)}\,\frac{lb}{gal}) \\ & =\frac{16𝑄}{8(12+𝑡)}\,\frac{lb}{min} \\ & =\frac{2𝑄}{12+𝑡}\,\frac{lb}{min}.\end{aligned}
+\begin{aligned}𝑄_{′out} & =(16\,\frac{gal}{min})⋅(\frac{𝑄}{8(12+𝑡)}\,\frac{lb}{gal}) \\ & =(16\,\frac{gal}{min})⋅(\frac{𝑄}{8(12+𝑡)}\,\frac{lb}{gal}) \\ & =\frac{16𝑄}{8(12+𝑡)}\,\frac{lb}{min} \\ & =\frac{2𝑄}{12+𝑡}\,\frac{lb}{min}.\end{aligned}
 
 
 $$
@@ -448,7 +448,7 @@ The rate of change equals the rate of entry minus the rate of exit. Therefore,
 $$
 
 
-\begin{aligned}\frac{d𝑄}{d𝑡} & =𝑄_{′in}^{}−𝑄_{′out}^{} \\ & =36−\frac{2𝑄}{12+𝑡}\end{aligned}
+\begin{aligned}\frac{d𝑄}{d𝑡} & =𝑄_{′in}−𝑄_{′out} \\ & =36−\frac{2𝑄}{12+𝑡}\end{aligned}
 
 
 $$
@@ -495,7 +495,7 @@ $$
 
 $$
 
-We're told that the tank initially contains $32\,\textrm{lb}$ of sugar. So, we can apply the initial condition $Q(0) = 32,$ and solve for $C{:}$
+We're told that the tank initially contains $32\,\text{lb}$ of sugar. So, we can apply the initial condition $Q(0) = 32,$ and solve for $C{:}$
 
 $$
 
@@ -515,7 +515,7 @@ $$
 
 $$
 
-Now, let $t_o$ be the time when the tank begins to overflow. The tank has a capacity of $240\,\textrm{gal},$ so we can use the condition $V(t_o) = 240$ to solve for $t_o{:}$
+Now, let $t_o$ be the time when the tank begins to overflow. The tank has a capacity of $240\,\text{gal},$ so we can use the condition $V(t_o) = 240$ to solve for $t_o{:}$
 
 $$
 

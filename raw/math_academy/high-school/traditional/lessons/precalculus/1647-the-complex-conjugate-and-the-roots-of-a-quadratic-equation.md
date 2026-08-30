@@ -14,11 +14,11 @@ Topic ID: 1647
 
 If we know one complex root of a quadratic equation, we can find the other root by taking the complex conjugate. More precisely, we have the following theorem:
 
-*If $z=a+\textrm{i}b$ is a root of a quadratic equation with real coefficients, then the complex conjugate $\overline{z}=a-\textrm{i}b$ is also a root of the quadratic equation.*
+*If $z=a+\text{i}b$ is a root of a quadratic equation with real coefficients, then the complex conjugate $\overline{z}=a-\text{i}b$ is also a root of the quadratic equation.*
 
-For example, suppose we know that $z = 1 + \textrm{i}$ is a root of the quadratic equation $z^2 -2z+2=0.$ Then we can conclude that $\overline{z} = 1-\textrm{i}$ is also a root of the equation!
+For example, suppose we know that $z = 1 + \text{i}$ is a root of the quadratic equation $z^2 -2z+2=0.$ Then we can conclude that $\overline{z} = 1-\text{i}$ is also a root of the equation!
 
-We can check that this is true by substituting $\overline{z} = 1-\textrm{i}$ into the equation as follows:
+We can check that this is true by substituting $\overline{z} = 1-\text{i}$ into the equation as follows:
 
 $$
 
@@ -30,7 +30,7 @@ $$
 
 $$
 
-Furthermore, since a quadratic equation can have at most $2$ distinct roots, the number $z = 1+\textrm{i}$ and its complex conjugate $\overline{z}=1-\textrm{i}$ are the *only* roots of this quadratic equation.
+Furthermore, since a quadratic equation can have at most $2$ distinct roots, the number $z = 1+\text{i}$ and its complex conjugate $\overline{z}=1-\text{i}$ are the *only* roots of this quadratic equation.
 
 **Caution:** The theorem only applies to a quadratic equation which has real coefficients. For example, the theorem does *not* apply to the quadratic equation $z^2 + z + \textrm i = 0$ because the coefficient $\textrm i$ is not a real coefficient.
 
@@ -40,27 +40,27 @@ Furthermore, since a quadratic equation can have at most $2$ distinct roots, the
 
 #### Question
 
-A quadratic equation with real coefficients has a root $x=5+4\textrm{i}.$ What is the other root?
+A quadratic equation with real coefficients has a root $x=5+4\text{i}.$ What is the other root?
 
 #### Explanation
 
-We're given that the quadratic equation has real coefficients and that $x=5+4\textrm{i}$ is a root. Therefore, its complex conjugate $x=5-4\textrm{i}$ is also a root.
+We're given that the quadratic equation has real coefficients and that $x=5+4\text{i}$ is a root. Therefore, its complex conjugate $x=5-4\text{i}$ is also a root.
 
 ### Example: Finding a Quadratic Equation Given an Imaginary Root and Its Leading Coefficient
 
 #### Question
 
-A quadratic equation in the variable $x$ with real coefficients has a root $x=-3\textrm{i}.$ Given that the coefficient of $x^2$ in the equation is $2,$ find the equation.
+A quadratic equation in the variable $x$ with real coefficients has a root $x=-3\text{i}.$ Given that the coefficient of $x^2$ in the equation is $2,$ find the equation.
 
 #### Explanation
 
-Since the quadratic equation has real coefficients and $x=-3\textrm{i}$ is a root, its conjugate $x = 3\textrm{i}$ must also be a root. Therefore, using the zero product property, we can write a quadratic equation with the required roots as follows:
+Since the quadratic equation has real coefficients and $x=-3\text{i}$ is a root, its conjugate $x = 3\text{i}$ must also be a root. Therefore, using the zero product property, we can write a quadratic equation with the required roots as follows:
 
 $$
 
 
 
-(x-3\textrm{i})(x+3\textrm{i})= 0
+(x-3\text{i})(x+3\text{i})= 0
 
 
 
@@ -78,7 +78,7 @@ $$
 
 $$
 
-This equation has roots $x=\pm 3\textrm{i},$ but the coefficient of $x^2$ is not $2.$ Therefore, to find the desired equation, we multiply the equation above by $2.$ This gives
+This equation has roots $x=\pm 3\text{i},$ but the coefficient of $x^2$ is not $2.$ Therefore, to find the desired equation, we multiply the equation above by $2.$ This gives
 
 $$
 
@@ -94,17 +94,17 @@ $$
 
 #### Question
 
-A quadratic equation in the variable $x$ with real coefficients has a root $x=6-8\textrm{i}.$ Given that the coefficient of $x^2$ in the equation is $-1,$ find the equation.
+A quadratic equation in the variable $x$ with real coefficients has a root $x=6-8\text{i}.$ Given that the coefficient of $x^2$ in the equation is $-1,$ find the equation.
 
 #### Explanation
 
-Since the quadratic equation has real coefficients and $x=6-8\textrm{i}$ is a root, its conjugate $x=6+8\textrm{i}$ must also be a root. Therefore, using the zero product property, we can write a quadratic equation with the required roots as follows:
+Since the quadratic equation has real coefficients and $x=6-8\text{i}$ is a root, its conjugate $x=6+8\text{i}$ must also be a root. Therefore, using the zero product property, we can write a quadratic equation with the required roots as follows:
 
 $$
 
 
 
-\Bigl(x-(6-8\textrm{i})\Bigr)\Bigl(x-(6+8\textrm{i})\Bigr) = 0
+\Bigl(x-(6-8\text{i})\Bigr)\Bigl(x-(6+8\text{i})\Bigr) = 0
 
 
 
@@ -122,7 +122,7 @@ $$
 
 $$
 
-This equation has roots $x= 6 \pm 8\textrm{i},$ but the coefficient of $x^2$ is not $-1.$ Therefore, to find the desired equation, we multiply the equation above by $-1.$ This gives
+This equation has roots $x= 6 \pm 8\text{i},$ but the coefficient of $x^2$ is not $-1.$ Therefore, to find the desired equation, we multiply the equation above by $-1.$ This gives
 
 $$
 

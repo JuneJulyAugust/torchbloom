@@ -17,7 +17,7 @@ Recall that the double Integral of the function $f(x,y) = 1$ over a domain $D\su
 $$
 
 
-\textrm{Area}\ \!(D) = \displaystyle \iint\limits_{D} 1 \cdot \textrm d A = \displaystyle \iint\limits_{D} \ \textrm d A
+\text{Area}\ \!(D) = \displaystyle \iint\limits_{D} 1 \cdot \textrm d A = \displaystyle \iint\limits_{D} \ \textrm d A
 
 
 $$
@@ -29,7 +29,7 @@ We have a similar result for triple integrals:
 $$
 
 
-\textrm{Volume}(R) = \iiint\limits_{R} \textrm{d}V.
+\text{Volume}(R) = \iiint\limits_{R} \text{d}V.
 
 
 $$
@@ -55,7 +55,7 @@ Therefore, the volume of $R$ is
 $$
 
 
-\begin{aligned}𝑉 & =\underset{𝑅}{∭}d𝑉 \\ & =∫_{10}^{}∫_{20}^{}∫_{30}^{}d𝑧\,d𝑦\,d𝑥 \\ & =∫_{10}^{}d𝑥⋅∫_{20}^{}d𝑦⋅∫_{30}^{}d𝑧 \\ & =(1−0)⋅(2−0)⋅(3−0) \\ & =6.\end{aligned}
+\begin{aligned}𝑉 & =\underset{𝑅}{∭}d𝑉 \\ & =∫_{10}∫_{20}∫_{30}d𝑧\,d𝑦\,d𝑥 \\ & =∫_{10}d𝑥⋅∫_{20}d𝑦⋅∫_{30}d𝑧 \\ & =(1−0)⋅(2−0)⋅(3−0) \\ & =6.\end{aligned}
 
 
 $$
@@ -95,7 +95,7 @@ Therefore, the volume of $R$ is given by the following triple integral:
 $$
 
 
-\begin{aligned}𝑉 & =\underset{𝑅}{∭}d𝑉 \\ & =∫_{21}^{}∫_{\sqrt{√2𝑦}0}^{}∫_{𝑦𝑧0}^{}\,d𝑥\,d𝑧\,d𝑦 \\ & =∫_{21}^{}∫_{\sqrt{√2𝑦}0}^{}[𝑥]_{𝑥=𝑦𝑧𝑥=0}^{}\,d𝑧\,d𝑦 \\ & =∫_{21}^{}∫_{\sqrt{√2𝑦}0}^{}𝑦𝑧\,d𝑧\,d𝑦 \\ & =∫_{21}^{}𝑦[\frac{𝑧^{2}}{2}]_{𝑧=\sqrt{√2𝑦}𝑧=0}^{}\,d𝑦 \\ & =∫_{21}^{}\frac{𝑦}{2}(\sqrt{√2𝑦})^{2}\,d𝑦 \\ & =∫_{21}^{}𝑦^{2}\,d𝑦 \\ & =[\frac{𝑦^{3}}{3}]_{𝑦=2𝑦=1}^{} \\ & =\frac{1}{3}(8−1)−0 \\ & =\frac{7}{3}\end{aligned}
+\begin{aligned}𝑉 & =\underset{𝑅}{∭}d𝑉 \\ & =∫_{21}∫_{\sqrt{2𝑦}0}^{}∫_{𝑦𝑧0}\,d𝑥\,d𝑧\,d𝑦 \\ & =∫_{21}∫_{\sqrt{2𝑦}0}^{}[𝑥]_{𝑥=𝑦𝑧𝑥=0}\,d𝑧\,d𝑦 \\ & =∫_{21}∫_{\sqrt{2𝑦}0}^{}𝑦𝑧\,d𝑧\,d𝑦 \\ & =∫_{21}𝑦[\frac{𝑧^{2}}{2}]_{𝑧=\sqrt{2𝑦}𝑧=0}^{}\,d𝑦 \\ & =∫_{21}\frac{𝑦}{2}(\sqrt{2𝑦})^{2}\,d𝑦 \\ & =∫_{21}𝑦^{2}\,d𝑦 \\ & =[\frac{𝑦^{3}}{3}]_{𝑦=2𝑦=1} \\ & =\frac{1}{3}(8−1)−0 \\ & =\frac{7}{3}\end{aligned}
 
 
 $$
@@ -153,7 +153,7 @@ Therefore, the volume of $R$ is given by the following triple integral:
 $$
 
 
-\begin{aligned}𝑉 & =\underset{𝑅}{∭}d𝑉 \\ & =∫_{10}^{}∫_{20}^{}∫_{4−𝑥−𝑦0}^{}d𝑧\,d𝑦\,d𝑥 \\ & =∫_{10}^{}∫_{20}^{}[𝑧]_{𝑧=4−𝑥−𝑦𝑧=0}^{}\,d𝑦\,d𝑥 \\ & =∫_{10}^{}∫_{20}^{}(4−𝑥−𝑦)−0\,d𝑦\,d𝑥 \\ & =∫_{10}^{}∫_{20}^{}4−𝑥−𝑦\,d𝑦\,d𝑥 \\ & =∫_{10}^{}[(4−𝑥)𝑦−\frac{𝑦^{2}}{2}]_{𝑦=2𝑦=0}^{}\,d𝑥 \\ & =∫_{10}^{}((4−𝑥)(2)−\frac{2^{2}}{2})−0\,d𝑥 \\ & =∫_{10}^{}6−2𝑥\,d𝑥 \\ & =[6𝑥−𝑥^{2}]_{𝑥=1𝑥=0}^{} \\ & =(6(1)−1^{2})−0 \\ & =5\end{aligned}
+\begin{aligned}𝑉 & =\underset{𝑅}{∭}d𝑉 \\ & =∫_{10}∫_{20}∫_{4−𝑥−𝑦0}d𝑧\,d𝑦\,d𝑥 \\ & =∫_{10}∫_{20}[𝑧]_{𝑧=4−𝑥−𝑦𝑧=0}\,d𝑦\,d𝑥 \\ & =∫_{10}∫_{20}(4−𝑥−𝑦)−0\,d𝑦\,d𝑥 \\ & =∫_{10}∫_{20}4−𝑥−𝑦\,d𝑦\,d𝑥 \\ & =∫_{10}[(4−𝑥)𝑦−\frac{𝑦^{2}}{2}]_{𝑦=2𝑦=0}\,d𝑥 \\ & =∫_{10}((4−𝑥)(2)−\frac{2^{2}}{2})−0\,d𝑥 \\ & =∫_{10}6−2𝑥\,d𝑥 \\ & =[6𝑥−𝑥^{2}]_{𝑥=1𝑥=0} \\ & =(6(1)−1^{2})−0 \\ & =5\end{aligned}
 
 
 $$

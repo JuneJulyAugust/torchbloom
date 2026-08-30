@@ -62,7 +62,7 @@ We can now use this equation to find the amount of time the object takes to cove
 
 #### Question
 
-The frequency $f$, in hertz $(\mathrm{Hz}),$ of the vibration of a violin string varies inversely with its length $L$, in meters $(\textrm m).$ A violin string of length $0.65\,\mathrm{m}$ vibrates at a frequency of $f=320\,\textrm{Hz}.$ What is the constant of variation?
+The frequency $f$, in hertz $(\mathrm{Hz}),$ of the vibration of a violin string varies inversely with its length $L$, in meters $(\textrm m).$ A violin string of length $0.65\,\mathrm{m}$ vibrates at a frequency of $f=320\,\text{Hz}.$ What is the constant of variation?
 
 #### Explanation
 
@@ -78,7 +78,7 @@ $$
 
 where $k$ is the constant of variation.
 
-We are told that when the string length is $L = 0.65\,\textrm{m},$ the frequency of the string is $f = 320\,\textrm{Hz}.$ We can use this information to solve for $k$ as follows:
+We are told that when the string length is $L = 0.65\,\text{m},$ the frequency of the string is $f = 320\,\text{Hz}.$ We can use this information to solve for $k$ as follows:
 
 $$
 
@@ -88,15 +88,15 @@ $$
 
 $$
 
-Finally, since $k = fL,$ we have that the units of $k$ are $\textrm{Hz} \cdot \textrm{m}.$
+Finally, since $k = fL,$ we have that the units of $k$ are $\text{Hz} \cdot \text{m}.$
 
-Therefore, our final answer is $k = 208\,\textrm{Hz} \cdot \textrm{m}.$
+Therefore, our final answer is $k = 208\,\text{Hz} \cdot \text{m}.$
 
 ### Example: Modeling With Inverse Variation
 
 #### Question
 
-The concentration of a solution, measured in moles per liter $(\textrm{mol}/\textrm{L}),$ varies inversely with the volume of the solution, measured in liters $(\textrm{L}).$ When the volume of the solution is $0.25\,\text{L}$, the concentration is $2 \,\textrm{mol}/\textrm{L}.$ Find the concentration when the volume of the solution is $8\,\textrm{L}.$
+The concentration of a solution, measured in moles per liter $(\text{mol}/\text{L}),$ varies inversely with the volume of the solution, measured in liters $(\text{L}).$ When the volume of the solution is $0.25\,\text{L}$, the concentration is $2 \,\text{mol}/\text{L}.$ Find the concentration when the volume of the solution is $8\,\text{L}.$
 
 #### Explanation
 
@@ -112,7 +112,7 @@ $$
 
 where $k$ is the constant of variation.
 
-We are told that when the volume $V = 0.25\,\textrm L,$ the concentration $c=2\,\textrm{mol}/\textrm{L}.$ We can use this information to solve for $k$ as follows:
+We are told that when the volume $V = 0.25\,\textrm L,$ the concentration $c=2\,\text{mol}/\text{L}.$ We can use this information to solve for $k$ as follows:
 
 $$
 
@@ -142,7 +142,7 @@ c = \dfrac{0.5}{8} = 0.0625
 
 $$
 
-Therefore, the concentration when $V=8\,\textrm{L}$ is $c=0.0625 \,\textrm{mol}/\textrm{L}.$
+Therefore, the concentration when $V=8\,\text{L}$ is $c=0.0625 \,\text{mol}/\text{L}.$
 
 ### Inverse Square Laws
 
@@ -184,7 +184,7 @@ $$
 
 where $k$ is the constant of variation.
 
-We are told that $I=0.75\,\mathrm{W}/m^2$ when $r=1.2\,\textrm{m}.$ We can use this information to solve for $k,$ as follows:
+We are told that $I=0.75\,\mathrm{W}/m^2$ when $r=1.2\,\text{m}.$ We can use this information to solve for $k,$ as follows:
 
 $$
 

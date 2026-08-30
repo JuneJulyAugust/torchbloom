@@ -136,7 +136,7 @@ Which of the following is a $3 \times 2$ matrix?
 $$
 
 
-[\begin{aligned}1 & 0 & −5 \\ 0 & 1.1 & \sqrt{√2}\end{aligned}]
+[\begin{aligned}1 & 0 & −5 \\ 0 & 1.1 & \sqrt{2}\end{aligned}]
 
 
 $$

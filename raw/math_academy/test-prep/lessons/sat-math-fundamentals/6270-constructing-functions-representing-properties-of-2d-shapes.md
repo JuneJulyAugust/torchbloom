@@ -298,7 +298,7 @@ Therefore, the function $A$ that represents the area of triangle $T$ is given by
 $$
 
 
-\begin{aligned}𝐴(𝑥) & =\frac{\sqrt{√3}}{4}𝑦^{2} \\ & =\frac{\sqrt{√3}}{4}(𝑥−5)^{2}.\end{aligned}
+\begin{aligned}𝐴(𝑥) & =\frac{\sqrt{3}}{4}𝑦^{2} \\ & =\frac{\sqrt{3}}{4}(𝑥−5)^{2}.\end{aligned}
 
 
 $$

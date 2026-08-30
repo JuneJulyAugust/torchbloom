@@ -97,7 +97,7 @@ approximately follows a chi-square distribution with $\nu$ degrees of freedom, w
 $$
 
 
-\nu = \textrm{number of categories} - \textrm{number of constraints}.
+\nu = \text{number of categories} - \text{number of constraints}.
 
 
 $$
@@ -276,7 +276,7 @@ $$
 
 So, there are $\nu = \boxed{\color{blue}3}$ degrees of freedom.
 
-From the given chi-square table, the critical value for $\nu=3$ at a $5\%$ significance level is $\chi^2_{\textrm{critical}}=7.815,$ and the critical region is
+From the given chi-square table, the critical value for $\nu=3$ at a $5\%$ significance level is $\chi^2_{\text{critical}}=7.815,$ and the critical region is
 
 $$
 

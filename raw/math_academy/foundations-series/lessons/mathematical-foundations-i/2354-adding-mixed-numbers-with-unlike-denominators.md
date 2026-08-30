@@ -207,7 +207,7 @@ Notice that this is an improper fraction. We can convert the fraction $\dfrac{4}
 $$
 
 
-4\div 3 = 1\,\textrm{R}1 = {\color{blue}{1\,\dfrac 1{3}}}
+4\div 3 = 1\,\text{R}1 = {\color{blue}{1\,\dfrac 1{3}}}
 
 
 $$
@@ -275,7 +275,7 @@ Notice that this is an improper fraction. We can convert the fraction $\dfrac{5}
 $$
 
 
-5\div 4 = 1\,\textrm{R}1 = {\color{blue}{1\,\dfrac 1{4}}}
+5\div 4 = 1\,\text{R}1 = {\color{blue}{1\,\dfrac 1{4}}}
 
 
 $$

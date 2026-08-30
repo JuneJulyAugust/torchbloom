@@ -37,7 +37,7 @@ $$
 
 #### Question
 
-The height of a cone is increasing at a rate of $4 \,\textrm{m}/\textrm{s}.$ The radius of the cone is always one-third of its height. At what rate is the cone's volume increasing when its height is $3 \,\textrm{m}?$
+The height of a cone is increasing at a rate of $4 \,\text{m}/\text{s}.$ The radius of the cone is always one-third of its height. At what rate is the cone's volume increasing when its height is $3 \,\text{m}?$
 
 #### Explanation
 
@@ -46,12 +46,12 @@ Let's call $h$ the height of the cone and $r$ the radius of its base. Both of th
 $$
 
 
-\dfrac{\textrm d h}{\textrm d t} = 4\,\textrm{m}/\textrm{s},
+\dfrac{\textrm d h}{\textrm d t} = 4\,\text{m}/\text{s},
 
 
 $$
 
-and we need to find $\dfrac{\textrm d v}{\textrm d t}$ when $h = 3\,\textrm{m}.$
+and we need to find $\dfrac{\textrm d v}{\textrm d t}$ when $h = 3\,\text{m}.$
 
 We need to find a relation between $v$ and the variable for which we know the rate of change, which is $h.$ This is given by the formula for the volume of a cone:
 
@@ -109,7 +109,7 @@ $$
 
 #### Question
 
-The volume of a cone is decreasing at a rate of $\dfrac{1}{32}\pi \, \textrm{m}^3\!/\textrm{hr}.$ The height of the cone is always a quarter of its radius. At what rate is the radius of the base decreasing when the radius is $3 \,\textrm{m}?$
+The volume of a cone is decreasing at a rate of $\dfrac{1}{32}\pi \, \text{m}^3\!/\text{hr}.$ The height of the cone is always a quarter of its radius. At what rate is the radius of the base decreasing when the radius is $3 \,\text{m}?$
 
 #### Explanation
 
@@ -118,12 +118,12 @@ Let's call $h$ the height of the cone and $r$ the radius of its base. Both of th
 $$
 
 
-\dfrac{\textrm d v}{\textrm d t} = -\dfrac{1}{32} \,\textrm{m}^3\!/\textrm{hr},
+\dfrac{\textrm d v}{\textrm d t} = -\dfrac{1}{32} \,\text{m}^3\!/\text{hr},
 
 
 $$
 
-and we need to find $\dfrac{\textrm d r}{\textrm d t}$ when $r = 3 \,\textrm{m}.$
+and we need to find $\dfrac{\textrm d r}{\textrm d t}$ when $r = 3 \,\text{m}.$
 
 We need to find a relation between $v$ and the variable for which we know the rate of change, which is $r.$ This is given by the formula for the volume of a cone:
 
@@ -177,7 +177,7 @@ $$
 
 $$
 
-Therefore, the radius of the base of the cone is decreasing at a rate of $\dfrac{1}{72} \, \textrm{m}/\textrm{hr}.$
+Therefore, the radius of the base of the cone is decreasing at a rate of $\dfrac{1}{72} \, \text{m}/\text{hr}.$
 
 ### Example: Calculating the Rate of Change of Fluid Level Using Similar Solids
 

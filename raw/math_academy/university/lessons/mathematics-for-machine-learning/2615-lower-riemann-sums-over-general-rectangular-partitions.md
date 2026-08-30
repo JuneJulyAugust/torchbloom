@@ -205,7 +205,7 @@ Therefore,
 $$
 
 
-\begin{aligned}𝑚_{𝑖𝑗} & =𝑓(𝑥_{𝑖},𝑦_{𝑗})=10−𝑥_{2𝑖}^{}−𝑦_{2𝑗}^{}.\end{aligned}
+\begin{aligned}𝑚_{𝑖𝑗} & =𝑓(𝑥_{𝑖},𝑦_{𝑗})=10−𝑥_{2𝑖}−𝑦_{2𝑗}.\end{aligned}
 
 
 $$
@@ -217,7 +217,7 @@ Finally, the lower Riemann sum is
 $$
 
 
-\begin{aligned}𝐿(𝑓,𝑃) & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑚}}\underset{\underset{𝑗=1}{∑}}{\overset{}{𝑛}}(10−𝑥_{2𝑖}^{}−𝑦_{2𝑗}^{})Δ𝑥_{𝑖}Δ𝑦_{𝑗}.\end{aligned}
+\begin{aligned}𝐿(𝑓,𝑃) & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑚}}\underset{\underset{𝑗=1}{∑}}{\overset{}{𝑛}}(10−𝑥_{2𝑖}−𝑦_{2𝑗})Δ𝑥_{𝑖}Δ𝑦_{𝑗}.\end{aligned}
 
 
 $$

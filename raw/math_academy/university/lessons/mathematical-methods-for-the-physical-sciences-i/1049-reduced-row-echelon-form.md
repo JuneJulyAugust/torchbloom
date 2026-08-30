@@ -30,7 +30,7 @@ In our case, we convert $M$ to reduced row echelon form as follows:
 $$
 
 
-\begin{aligned}𝑀 & =\begin{aligned}1 & 1 & 1 & 2 \\ 0 & 1 & 1 & −1 \\ 0 & 0 & −2 & 2\end{aligned} & 𝑅_{3} & :=−\frac{1}{2}𝑅_{3} \\ & ∼\begin{aligned}1 & 1 & 1 & 2 \\ 0 & 1 & 1 & −1 \\ 0 & 0 & 1 & −1\end{aligned} & 𝑅_{2} & :=𝑅_{2}+(−1)𝑅_{3} \\ & ∼\begin{aligned}1 & 1 & 1 & 2 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & −1\end{aligned} & 𝑅_{1} & :=𝑅_{1}+(−1)𝑅_{3} \\ & ∼\begin{aligned}1 & 1 & 0 & 3 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & −1\end{aligned} & 𝑅_{1} & :=𝑅_{1}+(−1)𝑅_{2} \\ & ∼\begin{aligned}1 & 0 & 0 & 3 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & −1\end{aligned} & & \end{aligned}
+\begin{aligned}𝑀 & =\begin{matrix}1 & 1 & 1 & 2 \\ 0 & 1 & 1 & −1 \\ 0 & 0 & −2 & 2\end{matrix} & 𝑅_{3} & :=−\frac{1}{2}𝑅_{3} \\ & ∼\begin{matrix}1 & 1 & 1 & 2 \\ 0 & 1 & 1 & −1 \\ 0 & 0 & 1 & −1\end{matrix} & 𝑅_{2} & :=𝑅_{2}+(−1)𝑅_{3} \\ & ∼\begin{matrix}1 & 1 & 1 & 2 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & −1\end{matrix} & 𝑅_{1} & :=𝑅_{1}+(−1)𝑅_{3} \\ & ∼\begin{matrix}1 & 1 & 0 & 3 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & −1\end{matrix} & 𝑅_{1} & :=𝑅_{1}+(−1)𝑅_{2} \\ & ∼\begin{matrix}1 & 0 & 0 & 3 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & −1\end{matrix} & & \end{aligned}
 
 
 $$
@@ -96,7 +96,7 @@ Transforming $M$ into reduced row echelon form, we have
 $$
 
 
-\begin{aligned}𝑀 & =\begin{aligned}1 & −1 & 1 & −3 \\ 0 & 1 & 2 & −7 \\ 0 & 0 & 1 & −4\end{aligned} & 𝑅_{2} & :=𝑅_{2}+(−2)𝑅_{3} \\ & ∼\begin{aligned}1 & −1 & 1 & −3 \\ 0 & 1 & 0 & 1 \\ 0 & 0 & 1 & −4\end{aligned} & 𝑅_{1} & :=𝑅_{1}+(−1)𝑅_{3} \\ & ∼\begin{aligned}1 & −1 & 0 & 1 \\ 0 & 1 & 0 & 1 \\ 0 & 0 & 1 & −4\end{aligned} & 𝑅_{1} & :=𝑅_{1}+𝑅_{2} \\ & ∼\begin{aligned}1 & 0 & 0 & 2 \\ 0 & 1 & 0 & 1 \\ 0 & 0 & 1 & −4\end{aligned}. & & \end{aligned}
+\begin{aligned}𝑀 & =\begin{matrix}1 & −1 & 1 & −3 \\ 0 & 1 & 2 & −7 \\ 0 & 0 & 1 & −4\end{matrix} & 𝑅_{2} & :=𝑅_{2}+(−2)𝑅_{3} \\ & ∼\begin{matrix}1 & −1 & 1 & −3 \\ 0 & 1 & 0 & 1 \\ 0 & 0 & 1 & −4\end{matrix} & 𝑅_{1} & :=𝑅_{1}+(−1)𝑅_{3} \\ & ∼\begin{matrix}1 & −1 & 0 & 1 \\ 0 & 1 & 0 & 1 \\ 0 & 0 & 1 & −4\end{matrix} & 𝑅_{1} & :=𝑅_{1}+𝑅_{2} \\ & ∼\begin{matrix}1 & 0 & 0 & 2 \\ 0 & 1 & 0 & 1 \\ 0 & 0 & 1 & −4\end{matrix}. & & \end{aligned}
 
 
 $$
@@ -146,7 +146,7 @@ Transforming $M$ into reduced row echelon form, we have
 $$
 
 
-\begin{aligned}𝑀 & =\begin{aligned}1 & 1 & −1 & 1 \\ 2 & 1 & 3 & 4 \\ 5 & 4 & 1 & 7\end{aligned} & 𝑅_{2} & :=𝑅_{2}−2𝑅_{1} \\ & ∼\begin{aligned}1 & 1 & −1 & 1 \\ 0 & −1 & 5 & 2 \\ 5 & 4 & 1 & 7\end{aligned} & 𝑅_{3} & :=𝑅_{3}−5𝑅_{1} \\ & ∼\begin{aligned}1 & 1 & −1 & 1 \\ 0 & −1 & 5 & 2 \\ 0 & −1 & 6 & 2\end{aligned} & 𝑅_{2} & :=−𝑅_{2} \\ & ∼\begin{aligned}1 & 1 & −1 & 1 \\ 0 & 1 & −5 & −2 \\ 0 & −1 & 6 & 2\end{aligned} & 𝑅_{3} & :=𝑅_{3}+𝑅_{2} \\ & ∼\begin{aligned}1 & 1 & −1 & 1 \\ 0 & 1 & −5 & −2 \\ 0 & 0 & 1 & 0\end{aligned} & 𝑅_{2} & :=𝑅_{2}+5𝑅_{3} \\ & ∼\begin{aligned}1 & 1 & −1 & 1 \\ 0 & 1 & 0 & −2 \\ 0 & 0 & 1 & 0\end{aligned} & 𝑅_{1} & :=𝑅_{1}+𝑅_{3} \\ & ∼\begin{aligned}1 & 1 & 0 & 1 \\ 0 & 1 & 0 & −2 \\ 0 & 0 & 1 & 0\end{aligned} & 𝑅_{1} & :=𝑅_{1}+(−1)𝑅_{2} \\ & ∼\begin{aligned}1 & 0 & 0 & 3 \\ 0 & 1 & 0 & −2 \\ 0 & 0 & 1 & 0\end{aligned}. & & \end{aligned}
+\begin{aligned}𝑀 & =\begin{matrix}1 & 1 & −1 & 1 \\ 2 & 1 & 3 & 4 \\ 5 & 4 & 1 & 7\end{matrix} & 𝑅_{2} & :=𝑅_{2}−2𝑅_{1} \\ & ∼\begin{matrix}1 & 1 & −1 & 1 \\ 0 & −1 & 5 & 2 \\ 5 & 4 & 1 & 7\end{matrix} & 𝑅_{3} & :=𝑅_{3}−5𝑅_{1} \\ & ∼\begin{matrix}1 & 1 & −1 & 1 \\ 0 & −1 & 5 & 2 \\ 0 & −1 & 6 & 2\end{matrix} & 𝑅_{2} & :=−𝑅_{2} \\ & ∼\begin{matrix}1 & 1 & −1 & 1 \\ 0 & 1 & −5 & −2 \\ 0 & −1 & 6 & 2\end{matrix} & 𝑅_{3} & :=𝑅_{3}+𝑅_{2} \\ & ∼\begin{matrix}1 & 1 & −1 & 1 \\ 0 & 1 & −5 & −2 \\ 0 & 0 & 1 & 0\end{matrix} & 𝑅_{2} & :=𝑅_{2}+5𝑅_{3} \\ & ∼\begin{matrix}1 & 1 & −1 & 1 \\ 0 & 1 & 0 & −2 \\ 0 & 0 & 1 & 0\end{matrix} & 𝑅_{1} & :=𝑅_{1}+𝑅_{3} \\ & ∼\begin{matrix}1 & 1 & 0 & 1 \\ 0 & 1 & 0 & −2 \\ 0 & 0 & 1 & 0\end{matrix} & 𝑅_{1} & :=𝑅_{1}+(−1)𝑅_{2} \\ & ∼\begin{matrix}1 & 0 & 0 & 3 \\ 0 & 1 & 0 & −2 \\ 0 & 0 & 1 & 0\end{matrix}. & & \end{aligned}
 
 
 $$
@@ -214,7 +214,7 @@ Transforming $M$ into reduced row echelon form, we have
 $$
 
 
-\begin{aligned}𝑀 & ∼\begin{aligned}1 & −2 & 0 & 2 \\ 1 & 0 & −4 & 6 \\ −3 & 6 & 0 & −6\end{aligned} & 𝑅_{2} & :=𝑅_{2}+(−1)𝑅_{1} \\ & ∼\begin{aligned}1 & −2 & 0 & 2 \\ 0 & 2 & −4 & 4 \\ −3 & 6 & 0 & −6\end{aligned} & 𝑅_{3} & :=𝑅_{3}+3𝑅_{1} \\ & ∼\begin{aligned}1 & −2 & 0 & 2 \\ 0 & 2 & −4 & 4 \\ 0 & 0 & 0 & 0\end{aligned} & 𝑅_{2} & :=\frac{1}{2}𝑅_{2} \\ & ∼\begin{aligned}1 & −2 & 0 & 2 \\ 0 & 1 & −2 & 2 \\ 0 & 0 & 0 & 0\end{aligned}. & & \end{aligned}
+\begin{aligned}𝑀 & ∼\begin{matrix}1 & −2 & 0 & 2 \\ 1 & 0 & −4 & 6 \\ −3 & 6 & 0 & −6\end{matrix} & 𝑅_{2} & :=𝑅_{2}+(−1)𝑅_{1} \\ & ∼\begin{matrix}1 & −2 & 0 & 2 \\ 0 & 2 & −4 & 4 \\ −3 & 6 & 0 & −6\end{matrix} & 𝑅_{3} & :=𝑅_{3}+3𝑅_{1} \\ & ∼\begin{matrix}1 & −2 & 0 & 2 \\ 0 & 2 & −4 & 4 \\ 0 & 0 & 0 & 0\end{matrix} & 𝑅_{2} & :=\frac{1}{2}𝑅_{2} \\ & ∼\begin{matrix}1 & −2 & 0 & 2 \\ 0 & 1 & −2 & 2 \\ 0 & 0 & 0 & 0\end{matrix}. & & \end{aligned}
 
 
 $$
@@ -224,7 +224,7 @@ In the row echelon form above, we have only two pivots (in the $1$st and $2$nd c
 $$
 
 
-\begin{aligned}𝑀 & ∼\begin{aligned}1 & −2 & 0 & 2 \\ 0 & 1 & −2 & 2 \\ 0 & 0 & 0 & 0\end{aligned} & 𝑅_{1} & :=𝑅_{1}+2𝑅_{2} \\ & ∼\begin{aligned}1 & 0 & −4 & 6 \\ 0 & 1 & −2 & 2 \\ 0 & 0 & 0 & 0\end{aligned}. & & \end{aligned}
+\begin{aligned}𝑀 & ∼\begin{matrix}1 & −2 & 0 & 2 \\ 0 & 1 & −2 & 2 \\ 0 & 0 & 0 & 0\end{matrix} & 𝑅_{1} & :=𝑅_{1}+2𝑅_{2} \\ & ∼\begin{matrix}1 & 0 & −4 & 6 \\ 0 & 1 & −2 & 2 \\ 0 & 0 & 0 & 0\end{matrix}. & & \end{aligned}
 
 
 $$
@@ -260,7 +260,7 @@ In vector form, the solution can be written as
 $$
 
 
-\begin{aligned}\begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned}=\begin{aligned}4𝑧+6 \\ 2𝑧+2 \\ 𝑧\end{aligned},\,𝑧∈(−∞,∞).\end{aligned}
+\begin{aligned}\begin{matrix}𝑥 \\ 𝑦 \\ 𝑧\end{matrix}=\begin{matrix}4𝑧+6 \\ 2𝑧+2 \\ 𝑧\end{matrix},\,𝑧∈(−∞,∞).\end{aligned}
 
 
 $$
@@ -304,7 +304,7 @@ Transforming $M$ to reduced row echelon form, we have
 $$
 
 
-\begin{aligned}𝑀 & ∼\begin{aligned}2 & −6 & 2 & 8 \\ −6 & 18 & −6 & −24 \\ 4 & −12 & 4 & 16\end{aligned} & 𝑅_{1} & :=\frac{1}{2}𝑅_{1} \\ & ∼\begin{aligned}1 & −3 & 1 & 4 \\ −6 & 18 & −6 & −24 \\ 4 & −12 & 4 & 16\end{aligned} & 𝑅_{2} & :=𝑅_{2}+6𝑅_{1} \\ & ∼\begin{aligned}1 & −3 & 1 & 4 \\ 0 & 0 & 0 & 0 \\ 4 & −12 & 4 & 16\end{aligned} & 𝑅_{3} & :=𝑅_{3}+(−4)𝑅_{1} \\ & ∼\begin{aligned}1 & −3 & 1 & 4 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0\end{aligned}. & & \end{aligned}
+\begin{aligned}𝑀 & ∼\begin{matrix}2 & −6 & 2 & 8 \\ −6 & 18 & −6 & −24 \\ 4 & −12 & 4 & 16\end{matrix} & 𝑅_{1} & :=\frac{1}{2}𝑅_{1} \\ & ∼\begin{matrix}1 & −3 & 1 & 4 \\ −6 & 18 & −6 & −24 \\ 4 & −12 & 4 & 16\end{matrix} & 𝑅_{2} & :=𝑅_{2}+6𝑅_{1} \\ & ∼\begin{matrix}1 & −3 & 1 & 4 \\ 0 & 0 & 0 & 0 \\ 4 & −12 & 4 & 16\end{matrix} & 𝑅_{3} & :=𝑅_{3}+(−4)𝑅_{1} \\ & ∼\begin{matrix}1 & −3 & 1 & 4 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0\end{matrix}. & & \end{aligned}
 
 
 $$

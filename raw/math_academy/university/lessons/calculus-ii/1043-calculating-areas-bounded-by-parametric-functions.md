@@ -32,7 +32,7 @@ We know that the area of the curve is given by
 $$
 
 
-A = \int_{a}^{b} y \:\textrm{d}x.
+A = \int_{a}^{b} y \:\text{d}x.
 
 
 $$
@@ -42,7 +42,7 @@ Since our curve is defined parametrically, we need to change the variable of int
 $$
 
 
-A = \int_{t_1}^{t_2} y(t) \dfrac{\textrm{d}x}{\textrm d t}\:\textrm d t.
+A = \int_{t_1}^{t_2} y(t) \dfrac{\text{d}x}{\textrm d t}\:\textrm d t.
 
 
 $$
@@ -62,7 +62,7 @@ Applying the change of variables formula, we have
 $$
 
 
-\begin{aligned}𝐴 & =∫_{𝑡_{2}𝑡_{1}}^{}𝑦(𝑡)\frac{d𝑥}{d𝑡}\,d𝑡 \\ & =∫_{10}^{}(2𝑡−𝑡^{3})⋅3𝑡^{2}\,d𝑡 \\ & =∫_{10}^{}6𝑡^{3}−3𝑡^{5}\,d𝑡 \\ & =6∫_{10}^{}𝑡^{3}\,d𝑡−3∫_{10}^{}𝑡^{5}\,d𝑡 \\ & =6⋅\frac{𝑡^{4}}{4}_{10}^{}−3⋅\frac{𝑡^{6}}{6}_{10}^{} \\ & =6(\frac{1}{4}−0)−3(\frac{1}{6}−0) \\ & =\frac{3}{2}−\frac{1}{2} \\ & =1.\end{aligned}
+\begin{aligned}𝐴 & =∫_{𝑡_{2}𝑡_{1}}^{}𝑦(𝑡)\frac{d𝑥}{d𝑡}\,d𝑡 \\ & =∫_{10}(2𝑡−𝑡^{3})⋅3𝑡^{2}\,d𝑡 \\ & =∫_{10}6𝑡^{3}−3𝑡^{5}\,d𝑡 \\ & =6∫_{10}𝑡^{3}\,d𝑡−3∫_{10}𝑡^{5}\,d𝑡 \\ & =6⋅\frac{𝑡^{4}}{4}_{10}−3⋅\frac{𝑡^{6}}{6}_{10} \\ & =6(\frac{1}{4}−0)−3(\frac{1}{6}−0) \\ & =\frac{3}{2}−\frac{1}{2} \\ & =1.\end{aligned}
 
 
 $$
@@ -86,7 +86,7 @@ is given by the absolute value of the integral
 $$
 
 
-\int_{t_1}^{t_2} y \dfrac{\textrm{d}x}{\textrm{d}t} \:\textrm{d}t.
+\int_{t_1}^{t_2} y \dfrac{\text{d}x}{\text{d}t} \:\text{d}t.
 
 
 $$
@@ -99,7 +99,7 @@ Note the following:
 
 - To ensure that we get an unsigned area, we take the absolute value of the integral.
 
-- In general, care must be taken when asked to compute the area bounded by a parametric curve when $y\dfrac{\textrm{d}x}{\textrm{d}t}$ changes sign over the domain of integration. However, we won't consider that scenario here.
+- In general, care must be taken when asked to compute the area bounded by a parametric curve when $y\dfrac{\text{d}x}{\text{d}t}$ changes sign over the domain of integration. However, we won't consider that scenario here.
 
 Let's see another example.
 
@@ -138,7 +138,7 @@ and the $x$-axis is given by the absolute value of the integral
 $$
 
 
-\int_{t_1}^{t_2} y \dfrac{\textrm{d}x}{\textrm{d}t} \:\textrm{d}t.
+\int_{t_1}^{t_2} y \dfrac{\text{d}x}{\text{d}t} \:\text{d}t.
 
 
 $$
@@ -158,19 +158,19 @@ So, we obtain the integral expression
 $$
 
 
-\begin{aligned}∫_{𝑡_{2}𝑡_{1}}^{}𝑦\frac{d𝑥}{d𝑡}\,d𝑡 & =∫_{\sqrt{√2}0}^{}𝑡^{3}(−2𝑡𝑒^{−𝑡^{2}})d𝑡 \\ & =−2∫_{\sqrt{√2}0}^{}𝑡^{4}𝑒^{−𝑡^{2}}\,d𝑡.\end{aligned}
+\begin{aligned}∫_{𝑡_{2}𝑡_{1}}^{}𝑦\frac{d𝑥}{d𝑡}\,d𝑡 & =∫_{\sqrt{2}0}^{}𝑡^{3}(−2𝑡𝑒^{−𝑡^{2}})d𝑡 \\ & =−2∫_{\sqrt{2}0}^{}𝑡^{4}𝑒^{−𝑡^{2}}\,d𝑡.\end{aligned}
 
 
 $$
 
-Notice that this integral will give us a negative number since $y\dfrac{\textrm{d}x}{\textrm{d}t} \leq 0$ for all $t \in [0, \sqrt{2}].$
+Notice that this integral will give us a negative number since $y\dfrac{\text{d}x}{\text{d}t} \leq 0$ for all $t \in [0, \sqrt{2}].$
 
 Therefore, the area is given by
 
 $$
 
 
-A = -\left( -2 \int_{0}^{\sqrt{2}} t^4 e^{-t^2} \, \textrm{d}t \right) = 2 \int_{0}^{\sqrt{2}} t^4 e^{-t^2} \, \textrm{d}t.
+A = -\left( -2 \int_{0}^{\sqrt{2}} t^4 e^{-t^2} \, \text{d}t \right) = 2 \int_{0}^{\sqrt{2}} t^4 e^{-t^2} \, \text{d}t.
 
 
 $$
@@ -210,7 +210,7 @@ and the $x$-axis is given by the absolute value of the integral
 $$
 
 
-\int_{t_1}^{t_2} y \dfrac{\textrm{d}x}{\textrm{d}t} \:\textrm{d}t.
+\int_{t_1}^{t_2} y \dfrac{\text{d}x}{\text{d}t} \:\text{d}t.
 
 
 $$
@@ -230,19 +230,19 @@ So, we obtain the integral expression
 $$
 
 
-\begin{aligned}∫_{𝑡_{2}𝑡_{1}}^{}𝑦\frac{d𝑥}{d𝑡}\,d𝑡 & =∫_{0−2}^{}(𝑡^{3}−4𝑡)(2𝑡)\,d𝑡 \\ & =2∫_{0−2}^{}𝑡^{2}(𝑡^{2}−4)d𝑡.\end{aligned}
+\begin{aligned}∫_{𝑡_{2}𝑡_{1}}^{}𝑦\frac{d𝑥}{d𝑡}\,d𝑡 & =∫_{0−2}(𝑡^{3}−4𝑡)(2𝑡)\,d𝑡 \\ & =2∫_{0−2}𝑡^{2}(𝑡^{2}−4)d𝑡.\end{aligned}
 
 
 $$
 
-Notice that this integral will give us a negative number since $y\dfrac{\textrm{d}x}{\textrm{d}t} \leq 0$ for all $t \in [-2,0].$
+Notice that this integral will give us a negative number since $y\dfrac{\text{d}x}{\text{d}t} \leq 0$ for all $t \in [-2,0].$
 
 Therefore, the area is
 
 $$
 
 
-\begin{aligned}𝐴 & =−2∫_{0−2}^{}𝑡^{2}(𝑡^{2}−4)d𝑡 \\ & =2∫_{0−2}^{}𝑡^{2}(4−𝑡^{2})d𝑡 \\ & =2∫_{0−2}^{}(4𝑡^{2}−𝑡^{4})d𝑡 \\ & =8∫_{0−2}^{}𝑡^{2}\,d𝑡−2∫_{0−2}^{}𝑡^{4}\,d𝑡 \\ & =8⋅\frac{𝑡^{3}}{3}\,_{0−2}^{}−2⋅\frac{𝑡^{5}}{5}\,_{0−2}^{} \\ & =8(\frac{0^{3}}{3}−\frac{(−2)^{3}}{3})−2(\frac{0^{5}}{5}−\frac{(−2)^{5}}{5}) \\ & =8(\frac{8}{3})−2(\frac{32}{5}) \\ & =\frac{64}{3}−\frac{64}{5} \\ & =\frac{128}{15}.\end{aligned}
+\begin{aligned}𝐴 & =−2∫_{0−2}𝑡^{2}(𝑡^{2}−4)d𝑡 \\ & =2∫_{0−2}𝑡^{2}(4−𝑡^{2})d𝑡 \\ & =2∫_{0−2}(4𝑡^{2}−𝑡^{4})d𝑡 \\ & =8∫_{0−2}𝑡^{2}\,d𝑡−2∫_{0−2}𝑡^{4}\,d𝑡 \\ & =8⋅\frac{𝑡^{3}}{3}\,_{0−2}−2⋅\frac{𝑡^{5}}{5}\,_{0−2} \\ & =8(\frac{0^{3}}{3}−\frac{(−2)^{3}}{3})−2(\frac{0^{5}}{5}−\frac{(−2)^{5}}{5}) \\ & =8(\frac{8}{3})−2(\frac{32}{5}) \\ & =\frac{64}{3}−\frac{64}{5} \\ & =\frac{128}{15}.\end{aligned}
 
 
 $$

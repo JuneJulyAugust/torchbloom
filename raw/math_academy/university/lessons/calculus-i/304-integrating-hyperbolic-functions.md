@@ -12,7 +12,7 @@ Topic ID: 304
 
 ### Introduction
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
 We know that the derivative of the hyperbolic sine is the hyperbolic cosine:
 
@@ -39,7 +39,7 @@ Similarly, by considering the derivative of the hyperbolic cosine, we have
 $$
 
 
-\dfrac{\textrm d }{\textrm d x}(\cosh x) = \sinh{x} \qquad\Rightarrow\qquad \int \sinh x\ \textrm{d}x = \cosh x + C.
+\dfrac{\textrm d }{\textrm d x}(\cosh x) = \sinh{x} \qquad\Rightarrow\qquad \int \sinh x\ \text{d}x = \cosh x + C.
 
 
 $$
@@ -48,9 +48,9 @@ $$
 
 #### Question
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
-Calculate $\displaystyle \int 8\cosh t \,\textrm{d}t.$
+Calculate $\displaystyle \int 8\cosh t \,\text{d}t.$
 
 #### Explanation
 
@@ -59,7 +59,7 @@ Recall that
 $$
 
 
-\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \dfrac{\textrm d}{\textrm d t}(\sinh t) = \cosh{t} \quad\Rightarrow\quad \int \cosh{t} \, \textrm dt = \sinh{t} + C.
+\dfrac{\textrm d}{\textrm d t}(\sinh t) = \cosh{t} \quad\Rightarrow\quad \int \cosh{t} \, \textrm dt = \sinh{t} + C.
 
 
 $$
@@ -76,7 +76,7 @@ $$
 
 ### Integration Using Reciprocal Hyperbolic Functions
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
 By considering the derivatives of the hyperbolic tangent, secant, cosecant, and cotangent, we arrive at the following results:
 
@@ -92,20 +92,20 @@ $$
 
 #### Question
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
-$\displaystyle \int \left(-3\sech x \tanh x\right) \,\textrm{d}x =$
+$\displaystyle \int \left(-3\operatorname{sech} x \tanh x\right) \,\text{d}x =$
 
 #### Explanation
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
 Recall that
 
 $$
 
 
-\dfrac{\textrm d}{\textrm d x}(\sech x) = -\sech{x}\tanh x \quad\Rightarrow\quad \int \sech{x}\tanh{x} \, \textrm dx = -\sech{x} + C.
+\dfrac{\textrm d}{\textrm d x}(\operatorname{sech} x) = -\operatorname{sech}{x}\tanh x \quad\Rightarrow\quad \int \operatorname{sech}{x}\tanh{x} \, \textrm dx = -\operatorname{sech}{x} + C.
 
 
 $$
@@ -124,20 +124,20 @@ $$
 
 #### Question
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
-$\displaystyle \int 6\sech^2 x \,\textrm{d}x =$
+$\displaystyle \int 6\operatorname{sech}^2 x \,\text{d}x =$
 
 #### Explanation
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
 Recall that
 
 $$
 
 
-\dfrac{\textrm d}{\textrm d x}(\tanh x) = \sech^2{x} \quad\Rightarrow\quad \int \sech^2{x} \, \textrm dx = \tanh{x} + C.
+\dfrac{\textrm d}{\textrm d x}(\tanh x) = \operatorname{sech}^2{x} \quad\Rightarrow\quad \int \operatorname{sech}^2{x} \, \textrm dx = \tanh{x} + C.
 
 
 $$
@@ -156,20 +156,20 @@ $$
 
 #### Question
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
-$\displaystyle \int (-8\csch^2 x)\,\textrm{d}x =$
+$\displaystyle \int (-8\operatorname{csch}^2 x)\,\text{d}x =$
 
 #### Explanation
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
 Recall that
 
 $$
 
 
-\dfrac{\textrm d}{\textrm d x}(\coth x) = -\csch^2{x} \quad\Rightarrow\quad \int \csch^2{x} \, \textrm dx = -\coth{x} + C.
+\dfrac{\textrm d}{\textrm d x}(\coth x) = -\operatorname{csch}^2{x} \quad\Rightarrow\quad \int \operatorname{csch}^2{x} \, \textrm dx = -\coth{x} + C.
 
 
 $$

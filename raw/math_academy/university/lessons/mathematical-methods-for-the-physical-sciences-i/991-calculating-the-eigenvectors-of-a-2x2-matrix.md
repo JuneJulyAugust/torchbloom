@@ -58,7 +58,7 @@ In our case, we have
 $$
 
 
-\begin{aligned}𝐴−3𝐼 & =[\begin{aligned}2 & 6 \\ 0 & 3\end{aligned}]−3[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ & =[\begin{aligned}−1 & 6 \\ 0 & 0\end{aligned}].\end{aligned}
+\begin{aligned}𝐴−3𝐼 & =[\begin{matrix}2 & 6 \\ 0 & 3\end{matrix}]−3[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}] \\ & =[\begin{matrix}−1 & 6 \\ 0 & 0\end{matrix}].\end{aligned}
 
 
 $$
@@ -130,7 +130,7 @@ In our case, we have $\,\lambda =1.$ So, we have
 $$
 
 
-\begin{aligned}𝐴−𝜆𝐼 & =[\begin{aligned}2 & 5 \\ −1 & −4\end{aligned}]−[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ & =[\begin{aligned}1 & 5 \\ −1 & −5\end{aligned}].\end{aligned}
+\begin{aligned}𝐴−𝜆𝐼 & =[\begin{matrix}2 & 5 \\ −1 & −4\end{matrix}]−[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}] \\ & =[\begin{matrix}1 & 5 \\ −1 & −5\end{matrix}].\end{aligned}
 
 
 $$
@@ -150,7 +150,7 @@ So, we row-reduce the augmented matrix $M$ to row echelon form using Gaussian el
 $$
 
 
-\begin{aligned}𝑀 & =[\begin{aligned}1 & 5 & 0 \\ −1 & −5 & 0\end{aligned}] & 𝑅_{2}:=𝑅_{2}+𝑅_{1} \\ & ∼[\begin{aligned}1 & 5 & 0 \\ 0 & 0 & 0\end{aligned}] & \end{aligned}
+\begin{aligned}𝑀 & =[\begin{matrix}1 & 5 & 0 \\ −1 & −5 & 0\end{matrix}] & 𝑅_{2}:=𝑅_{2}+𝑅_{1} \\ & ∼[\begin{matrix}1 & 5 & 0 \\ 0 & 0 & 0\end{matrix}] & \end{aligned}
 
 
 $$
@@ -212,7 +212,7 @@ In our case, we have $\,\lambda =2.$ So, we get
 $$
 
 
-\begin{aligned}𝐴−𝜆𝐼 & =[\begin{aligned}7 & −4 \\ 5 & −2\end{aligned}]−2[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ & =[\begin{aligned}5 & −4 \\ 5 & −4\end{aligned}].\end{aligned}
+\begin{aligned}𝐴−𝜆𝐼 & =[\begin{matrix}7 & −4 \\ 5 & −2\end{matrix}]−2[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}] \\ & =[\begin{matrix}5 & −4 \\ 5 & −4\end{matrix}].\end{aligned}
 
 
 $$
@@ -232,7 +232,7 @@ So, we row-reduce the augmented matrix $M$ to row echelon form using Gaussian el
 $$
 
 
-\begin{aligned}𝑀 & =[\begin{aligned}5 & −4 & 0 \\ 5 & −4 & 0\end{aligned}] & 𝑅_{2}:=𝑅_{2}+(−1)𝑅_{1} \\ & ∼[\begin{aligned}5 & −4 & 0 \\ 0 & 0 & 0\end{aligned}] & \end{aligned}
+\begin{aligned}𝑀 & =[\begin{matrix}5 & −4 & 0 \\ 5 & −4 & 0\end{matrix}] & 𝑅_{2}:=𝑅_{2}+(−1)𝑅_{1} \\ & ∼[\begin{matrix}5 & −4 & 0 \\ 0 & 0 & 0\end{matrix}] & \end{aligned}
 
 
 $$
@@ -286,7 +286,7 @@ Note that the eigenspace consists of *all* (not only non-zero) solutions of the 
 $$
 
 
-V_{\color{red}\lambda} = \textrm{Null}(A - {\color{red}\lambda} I).
+V_{\color{red}\lambda} = \text{Null}(A - {\color{red}\lambda} I).
 
 
 $$

@@ -156,7 +156,7 @@ Finally, the limit of $\left\| \mathbf f(t) \right\|$ as $t$ approaches $\infty$
 $$
 
 
-\begin{aligned}\underset{𝑡→∞}{lim}∥𝐟(𝑡)∥ & =\underset{𝑡→∞}{lim}𝐟(𝑡) \\ & =⟨0,\,𝑒^{3},\,−1⟩ \\ & =\sqrt{√0^{2}+(𝑒^{3})^{2}+(−1)^{2}} \\ & =\sqrt{√𝑒^{6}+1}.\end{aligned}
+\begin{aligned}\underset{𝑡→∞}{lim}∥𝐟(𝑡)∥ & =\underset{𝑡→∞}{lim}𝐟(𝑡) \\ & =⟨0,\,𝑒^{3},\,−1⟩ \\ & =\sqrt{0^{2}+(𝑒^{3})^{2}+(−1)^{2}} \\ & =\sqrt{𝑒^{6}+1}.\end{aligned}
 
 
 $$
@@ -170,7 +170,7 @@ Find $\displaystyle \lim_{t \to 0} \big[\mathbf f(t) - 2 \mathbf g(t) \big]$ giv
 $$
 
 
-\begin{aligned}𝐟(𝑡)=\begin{aligned}sin⁡𝑡 \\ 𝑒^{𝑡} \\ 𝑡\end{aligned},\,𝐠(𝑡)=\begin{aligned}cos⁡𝑡 \\ 1 \\ 2𝑡\end{aligned}\end{aligned}
+\begin{aligned}𝐟(𝑡)=\begin{matrix}sin⁡𝑡 \\ 𝑒^{𝑡} \\ 𝑡\end{matrix},\,𝐠(𝑡)=\begin{matrix}cos⁡𝑡 \\ 1 \\ 2𝑡\end{matrix}\end{aligned}
 
 
 $$
@@ -182,7 +182,7 @@ First, we find the limit of each function:
 $$
 
 
-\begin{aligned}\underset{𝑡→0}{lim}𝐟(𝑡)=\begin{aligned}\underset{𝑡→0}{lim}sin⁡𝑡 \\ \underset{𝑡→0}{lim}𝑒^{𝑡} \\ \underset{𝑡→0}{lim}𝑡\end{aligned}=\begin{aligned}sin⁡0 \\ 𝑒^{0} \\ 0\end{aligned}=\begin{aligned}0 \\ 1 \\ 0\end{aligned} \\ \underset{𝑡→0}{lim}𝐠(𝑡)=\begin{aligned}\underset{𝑡→0}{lim}cos⁡𝑡 \\ \underset{𝑡→0}{lim}1 \\ \underset{𝑡→0}{lim}2𝑡\end{aligned}=\begin{aligned}cos⁡0 \\ 1 \\ 2(0)\end{aligned}=\begin{aligned}1 \\ 1 \\ 0\end{aligned}\end{aligned}
+\begin{aligned}\underset{𝑡→0}{lim}𝐟(𝑡)=\begin{matrix}\underset{𝑡→0}{lim}sin⁡𝑡 \\ \underset{𝑡→0}{lim}𝑒^{𝑡} \\ \underset{𝑡→0}{lim}𝑡\end{matrix}=\begin{matrix}sin⁡0 \\ 𝑒^{0} \\ 0\end{matrix}=\begin{matrix}0 \\ 1 \\ 0\end{matrix} \\ \underset{𝑡→0}{lim}𝐠(𝑡)=\begin{matrix}\underset{𝑡→0}{lim}cos⁡𝑡 \\ \underset{𝑡→0}{lim}1 \\ \underset{𝑡→0}{lim}2𝑡\end{matrix}=\begin{matrix}cos⁡0 \\ 1 \\ 2(0)\end{matrix}=\begin{matrix}1 \\ 1 \\ 0\end{matrix}\end{aligned}
 
 
 $$
@@ -192,7 +192,7 @@ Now, we use properties of limits to calculate the final result:
 $$
 
 
-\begin{aligned}\underset{𝑡→0}{lim}[𝐟(𝑡)−2𝐠(𝑡)] & =\underset{𝑡→0}{lim}𝐟(𝑡)−2\underset{𝑡→0}{lim}𝐠(𝑡) \\ & =\begin{aligned}0 \\ 1 \\ 0\end{aligned}−2\begin{aligned}1 \\ 1 \\ 0\end{aligned} \\ & =\begin{aligned}−2 \\ −1 \\ 0\end{aligned}\end{aligned}
+\begin{aligned}\underset{𝑡→0}{lim}[𝐟(𝑡)−2𝐠(𝑡)] & =\underset{𝑡→0}{lim}𝐟(𝑡)−2\underset{𝑡→0}{lim}𝐠(𝑡) \\ & =\begin{matrix}0 \\ 1 \\ 0\end{matrix}−2\begin{matrix}1 \\ 1 \\ 0\end{matrix} \\ & =\begin{matrix}−2 \\ −1 \\ 0\end{matrix}\end{aligned}
 
 
 $$

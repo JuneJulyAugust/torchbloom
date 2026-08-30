@@ -21,7 +21,7 @@ $$
 
 
 
-\textrm{part} = \textrm{percentage} \times \textrm{whole}
+\text{part} = \text{percentage} \times \text{whole}
 
 
 
@@ -35,7 +35,7 @@ $$
 
 
 
-\textrm{part} = 16\% \times 300.
+\text{part} = 16\% \times 300.
 
 
 
@@ -113,7 +113,7 @@ $$
 
 
 
-\textrm{part}= \textrm{percentage}\times \textrm{whole}
+\text{part}= \text{percentage}\times \text{whole}
 
 
 
@@ -191,7 +191,7 @@ $$
 
 
 
-\textrm{part}= \textrm{percentage}\times \textrm{whole}
+\text{part}= \text{percentage}\times \text{whole}
 
 
 
@@ -269,7 +269,7 @@ $$
 
 
 
-\textrm{part}= \textrm{percentage}\times \textrm{whole}
+\text{part}= \text{percentage}\times \text{whole}
 
 
 

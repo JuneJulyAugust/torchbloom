@@ -108,7 +108,7 @@ Therefore, from left to right, the missing numbers are $100$ and $2.$
 
 ![Instructional graphic](../../../lesson-assets/grade-4/topic-3920/bdfb68a26febd973.png)
 
-A $1,971\,\textrm{ft}^3$ load of coal is equally distributed between $3$ hopper wagons. Using the area model above, find how much coal is loaded into each wagon.
+A $1,971\,\text{ft}^3$ load of coal is equally distributed between $3$ hopper wagons. Using the area model above, find how much coal is loaded into each wagon.
 
 #### Explanation
 
@@ -144,4 +144,4 @@ $$
 
 $$
 
-Therefore, each wagon is loaded with $657\,\textrm{ft}^3$ of coal.
+Therefore, each wagon is loaded with $657\,\text{ft}^3$ of coal.

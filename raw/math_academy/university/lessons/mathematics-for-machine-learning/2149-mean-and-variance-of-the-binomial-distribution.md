@@ -27,7 +27,7 @@ It can be shown that the expected value, variance, and standard deviation of a b
 $$
 
 
-\begin{aligned}E[𝑋] & =𝑛𝑝 \\ Var[𝑋] & =𝑛𝑝(1−𝑝) \\ SD[𝑋] & =\sqrt{√𝑛𝑝(1−𝑝)}\end{aligned}
+\begin{aligned}E[𝑋] & =𝑛𝑝 \\ Var[𝑋] & =𝑛𝑝(1−𝑝) \\ SD[𝑋] & =\sqrt{𝑛𝑝(1−𝑝)}\end{aligned}
 
 
 $$
@@ -95,7 +95,7 @@ For a binomial random variable $X,$ the variance is given by
 $$
 
 
-\textrm{Var}[X] = np(1-p),
+\text{Var}[X] = np(1-p),
 
 
 $$
@@ -135,7 +135,7 @@ For a binomial random variable $X,$ the standard deviation is given by
 $$
 
 
-\textrm{SD}[X] = \sqrt{\textrm{Var}[X]}=\sqrt{np(1-p)},
+\text{SD}[X] = \sqrt{\text{Var}[X]}=\sqrt{np(1-p)},
 
 
 $$
@@ -147,7 +147,7 @@ So, the standard deviation of the number of times we get an even number is
 $$
 
 
-\begin{aligned}SD[𝑋] & =\sqrt{√𝑛𝑝(1−𝑝)} \\ & =\sqrt{√8⋅\frac{2}{5}⋅(1−\frac{2}{5})} \\ & =\sqrt{√1.92} \\ & =1.386\end{aligned}
+\begin{aligned}SD[𝑋] & =\sqrt{𝑛𝑝(1−𝑝)} \\ & =\sqrt{8⋅\frac{2}{5}⋅(1−\frac{2}{5})} \\ & =\sqrt{1.92} \\ & =1.386\end{aligned}
 
 
 $$

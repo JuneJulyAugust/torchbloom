@@ -38,7 +38,7 @@ Let's now try this for our example.
 $$
 
 
-\begin{aligned}[𝐴\,|\,𝐼_{3}] & =\begin{aligned}1 & 0 & 0 & 1 & 0 & 0 \\ 0 & 1 & 0 & 0 & 1 & 0 \\ 1 & 0 & 4 & 0 & 0 & 1\end{aligned} & 𝑅_{3} & :=𝑅_{3}+(−1)𝑅_{1} \\ & ∼\begin{aligned}1 & 0 & 0 & 1 & 0 & 0 \\ 0 & 1 & 0 & 0 & 1 & 0 \\ 0 & 0 & 4 & −1 & 0 & 1\end{aligned} & 𝑅_{3} & :=\frac{1}{4}𝑅_{3} \\ & ∼\begin{aligned}1 & 0 & 0 & 1 & 0 & 0 \\ 0 & 1 & 0 & 0 & 1 & 0 \\ 0 & 0 & 1 & −\frac{1}{4} & 0 & \frac{1}{4}\end{aligned}. & & \end{aligned}
+\begin{aligned}[𝐴\,|\,𝐼_{3}] & =\begin{matrix}1 & 0 & 0 & 1 & 0 & 0 \\ 0 & 1 & 0 & 0 & 1 & 0 \\ 1 & 0 & 4 & 0 & 0 & 1\end{matrix} & 𝑅_{3} & :=𝑅_{3}+(−1)𝑅_{1} \\ & ∼\begin{matrix}1 & 0 & 0 & 1 & 0 & 0 \\ 0 & 1 & 0 & 0 & 1 & 0 \\ 0 & 0 & 4 & −1 & 0 & 1\end{matrix} & 𝑅_{3} & :=\frac{1}{4}𝑅_{3} \\ & ∼\begin{matrix}1 & 0 & 0 & 1 & 0 & 0 \\ 0 & 1 & 0 & 0 & 1 & 0 \\ 0 & 0 & 1 & −\frac{1}{4} & 0 & \frac{1}{4}\end{matrix}. & & \end{aligned}
 
 
 $$
@@ -86,7 +86,7 @@ The inverse of the $3 \times 3$ matrix $K$ is found using row operations, as sho
 $$
 
 
-\begin{aligned}[𝐾\,|\,𝐼\,] & =\begin{aligned}1 & 0 & 0 & 1 & 0 & 0 \\ 5 & 3 & 0 & 0 & 1 & 0 \\ 0 & 0 & 1 & 0 & 0 & 1\end{aligned} & 𝑅_{2} & :=𝑅_{2}+(−5)𝑅_{1} \\ & ∼\begin{aligned}1 & 0 & 0 & 1 & 0 & 0 \\ 0 & 3 & 0 & −5 & 1 & 0 \\ 0 & 0 & 1 & 0 & 0 & 1\end{aligned} & 𝑅_{2} & :=___________ \\ & ∼\begin{aligned}1 & 0 & 0 & 𝑎 & 𝑎 & 𝑎 \\ 0 & 1 & 0 & 𝑎 & 𝑎 & 𝑎 \\ 0 & 0 & 1 & 𝑎 & 𝑎 & 𝑎\end{aligned} & & \end{aligned}
+\begin{aligned}[𝐾\,|\,𝐼\,] & =\begin{matrix}1 & 0 & 0 & 1 & 0 & 0 \\ 5 & 3 & 0 & 0 & 1 & 0 \\ 0 & 0 & 1 & 0 & 0 & 1\end{matrix} & 𝑅_{2} & :=𝑅_{2}+(−5)𝑅_{1} \\ & ∼\begin{matrix}1 & 0 & 0 & 1 & 0 & 0 \\ 0 & 3 & 0 & −5 & 1 & 0 \\ 0 & 0 & 1 & 0 & 0 & 1\end{matrix} & 𝑅_{2} & :=\underline{\hspace{3em}} \\ & ∼\begin{matrix}1 & 0 & 0 & 𝑎 & 𝑎 & 𝑎 \\ 0 & 1 & 0 & 𝑎 & 𝑎 & 𝑎 \\ 0 & 0 & 1 & 𝑎 & 𝑎 & 𝑎\end{matrix} & & \end{aligned}
 
 
 $$
@@ -98,7 +98,7 @@ We write down $K$ and the identity matrix $I$ side-by-side (as shown below) and 
 $$
 
 
-\begin{aligned}[𝐾\,|\,𝐼\,] & =\begin{aligned}1 & 0 & 0 & 1 & 0 & 0 \\ 5 & 3 & 0 & 0 & 1 & 0 \\ 0 & 0 & 1 & 0 & 0 & 1\end{aligned} & 𝑅_{2} & :=𝑅_{2}+(−5)𝑅_{1} \\ & ∼\begin{aligned}1 & 0 & 0 & 1 & 0 & 0 \\ 0 & 3 & 0 & −5 & 1 & 0 \\ 0 & 0 & 1 & 0 & 0 & 1\end{aligned} & 𝑅_{2} & :=\frac{1}{3}𝑅_{2} \\ & ∼\begin{aligned}1 & 0 & 0 & 1 & 0 & 0 \\ 0 & 1 & 0 & −\frac{5}{3} & \frac{1}{3} & 0 \\ 0 & 0 & 1 & 0 & 0 & 1\end{aligned} & & \end{aligned}
+\begin{aligned}[𝐾\,|\,𝐼\,] & =\begin{matrix}1 & 0 & 0 & 1 & 0 & 0 \\ 5 & 3 & 0 & 0 & 1 & 0 \\ 0 & 0 & 1 & 0 & 0 & 1\end{matrix} & 𝑅_{2} & :=𝑅_{2}+(−5)𝑅_{1} \\ & ∼\begin{matrix}1 & 0 & 0 & 1 & 0 & 0 \\ 0 & 3 & 0 & −5 & 1 & 0 \\ 0 & 0 & 1 & 0 & 0 & 1\end{matrix} & 𝑅_{2} & :=\frac{1}{3}𝑅_{2} \\ & ∼\begin{matrix}1 & 0 & 0 & 1 & 0 & 0 \\ 0 & 1 & 0 & −\frac{5}{3} & \frac{1}{3} & 0 \\ 0 & 0 & 1 & 0 & 0 & 1\end{matrix} & & \end{aligned}
 
 
 $$
@@ -122,7 +122,7 @@ The inverse of the matrix $H$ is found using row operations, as shown below. Wha
 $$
 
 
-\begin{aligned}[𝐻\,|\,𝐼] & =\begin{aligned}1 & 0 & −1 & 1 & 0 & 0 \\ 0 & 1 & 0 & 0 & 1 & 0 \\ −3 & 0 & 2 & 0 & 0 & 1\end{aligned} & 𝑅_{3} & :=___________ \\ & ∼\begin{aligned}1 & 0 & −1 & 1 & 0 & 0 \\ 0 & 1 & 0 & 0 & 1 & 0 \\ 0 & 0 & −1 & 3 & 0 & 1\end{aligned} & 𝑅_{3} & :=(−1)𝑅_{3} \\ & ∼\begin{aligned}1 & 0 & −1 & 1 & 0 & 0 \\ 0 & 1 & 0 & 0 & 1 & 0 \\ 0 & 0 & 1 & −3 & 0 & −1\end{aligned} & 𝑅_{1} & :=___________ \\ & ∼\begin{aligned}1 & 0 & 0 & −2 & 0 & −1 \\ 0 & 1 & 0 & 0 & 1 & 0 \\ 0 & 0 & 1 & −3 & 0 & −1\end{aligned} & & \end{aligned}
+\begin{aligned}[𝐻\,|\,𝐼] & =\begin{matrix}1 & 0 & −1 & 1 & 0 & 0 \\ 0 & 1 & 0 & 0 & 1 & 0 \\ −3 & 0 & 2 & 0 & 0 & 1\end{matrix} & 𝑅_{3} & :=\underline{\hspace{3em}} \\ & ∼\begin{matrix}1 & 0 & −1 & 1 & 0 & 0 \\ 0 & 1 & 0 & 0 & 1 & 0 \\ 0 & 0 & −1 & 3 & 0 & 1\end{matrix} & 𝑅_{3} & :=(−1)𝑅_{3} \\ & ∼\begin{matrix}1 & 0 & −1 & 1 & 0 & 0 \\ 0 & 1 & 0 & 0 & 1 & 0 \\ 0 & 0 & 1 & −3 & 0 & −1\end{matrix} & 𝑅_{1} & :=\underline{\hspace{3em}} \\ & ∼\begin{matrix}1 & 0 & 0 & −2 & 0 & −1 \\ 0 & 1 & 0 & 0 & 1 & 0 \\ 0 & 0 & 1 & −3 & 0 & −1\end{matrix} & & \end{aligned}
 
 
 $$
@@ -134,7 +134,7 @@ We write down $H$ and the identity matrix $I$ side-by-side (as shown below) and 
 $$
 
 
-\begin{aligned}[𝐻\,|\,𝐼] & =\begin{aligned}1 & 0 & −1 & 1 & 0 & 0 \\ 0 & 1 & 0 & 0 & 1 & 0 \\ −3 & 0 & 2 & 0 & 0 & 1\end{aligned} & 𝑅_{3} & :=𝑅_{3}+3𝑅_{1} \\ & ∼\begin{aligned}1 & 0 & −1 & 1 & 0 & 0 \\ 0 & 1 & 0 & 0 & 1 & 0 \\ 0 & 0 & −1 & 3 & 0 & 1\end{aligned} & 𝑅_{3} & :=(−1)𝑅_{3} \\ & ∼\begin{aligned}1 & 0 & −1 & 1 & 0 & 0 \\ 0 & 1 & 0 & 0 & 1 & 0 \\ 0 & 0 & 1 & −3 & 0 & −1\end{aligned} & 𝑅_{1} & :=𝑅_{1}+𝑅_{3} \\ & ∼\begin{aligned}1 & 0 & 0 & −2 & 0 & −1 \\ 0 & 1 & 0 & 0 & 1 & 0 \\ 0 & 0 & 1 & −3 & 0 & −1\end{aligned} & & \end{aligned}
+\begin{aligned}[𝐻\,|\,𝐼] & =\begin{matrix}1 & 0 & −1 & 1 & 0 & 0 \\ 0 & 1 & 0 & 0 & 1 & 0 \\ −3 & 0 & 2 & 0 & 0 & 1\end{matrix} & 𝑅_{3} & :=𝑅_{3}+3𝑅_{1} \\ & ∼\begin{matrix}1 & 0 & −1 & 1 & 0 & 0 \\ 0 & 1 & 0 & 0 & 1 & 0 \\ 0 & 0 & −1 & 3 & 0 & 1\end{matrix} & 𝑅_{3} & :=(−1)𝑅_{3} \\ & ∼\begin{matrix}1 & 0 & −1 & 1 & 0 & 0 \\ 0 & 1 & 0 & 0 & 1 & 0 \\ 0 & 0 & 1 & −3 & 0 & −1\end{matrix} & 𝑅_{1} & :=𝑅_{1}+𝑅_{3} \\ & ∼\begin{matrix}1 & 0 & 0 & −2 & 0 & −1 \\ 0 & 1 & 0 & 0 & 1 & 0 \\ 0 & 0 & 1 & −3 & 0 & −1\end{matrix} & & \end{aligned}
 
 
 $$

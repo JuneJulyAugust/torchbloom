@@ -11,7 +11,7 @@ Topic ID: 416
 
 ### Introduction
 
-We know that we can use the method of integration by parts to evaluate $\displaystyle \int xe^{4x} \textrm{d}x.$ Now, suppose that we want to calculate $\displaystyle \int x^2e^{4x} \textrm{d}x.$ Can we use integration by parts in this case?
+We know that we can use the method of integration by parts to evaluate $\displaystyle \int xe^{4x} \text{d}x.$ Now, suppose that we want to calculate $\displaystyle \int x^2e^{4x} \text{d}x.$ Can we use integration by parts in this case?
 
 Let's try. We define $u$ and $v$ as follows:
 
@@ -33,7 +33,7 @@ $$
 
 $$
 
-We still don't have an answer, but the problem is reduced to the calculation of a simpler integral $\displaystyle \int xe^{4x} \textrm{d}x.$ To compute this integral, we just need to apply the integration by parts formula again. For this second integral, we take
+We still don't have an answer, but the problem is reduced to the calculation of a simpler integral $\displaystyle \int xe^{4x} \text{d}x.$ To compute this integral, we just need to apply the integration by parts formula again. For this second integral, we take
 
 $$
 
@@ -69,7 +69,7 @@ where $C = -\dfrac{C_1}{2}.$
 
 #### Question
 
-Evaluate the integral $\displaystyle \int_0^1 (t^2+1)e^{2t+1} \, \textrm{d} t.$
+Evaluate the integral $\displaystyle \int_0^1 (t^2+1)e^{2t+1} \, \text{d} t.$
 
 #### Explanation
 
@@ -95,7 +95,7 @@ $$
 
 $$
 
-We use integration by parts once again to evaluate $\displaystyle\int t\,e^{2t+1}\,\textrm{d}t.$ We take
+We use integration by parts once again to evaluate $\displaystyle\int t\,e^{2t+1}\,\text{d}t.$ We take
 
 $$
 
@@ -134,7 +134,7 @@ Finally then, we can work out the definite integral:
 $$
 
 
-\begin{aligned}∫_{10}^{}(𝑡^{2}+1)𝑒^{2𝑡+1}\,d𝑡 & =[\frac{𝑒^{2𝑡+1}}{4}(2𝑡^{2}−2𝑡+3)]_{10}^{} \\ & =(\frac{𝑒^{2(1)+1}}{4}(2(1)^{2}−2(1)+3))−(\frac{𝑒^{2(0)+1}}{4}(2(0)^{2}−2(0)+3)) \\ & =\frac{𝑒^{3}}{4}(2−2+3)−\frac{𝑒}{4}(0−0+3) \\ & =\frac{3𝑒^{3}}{4}−\frac{3𝑒}{4} \\ & =\frac{3𝑒^{3}−3𝑒}{4}\end{aligned}
+\begin{aligned}∫_{10}(𝑡^{2}+1)𝑒^{2𝑡+1}\,d𝑡 & =[\frac{𝑒^{2𝑡+1}}{4}(2𝑡^{2}−2𝑡+3)]_{10} \\ & =(\frac{𝑒^{2(1)+1}}{4}(2(1)^{2}−2(1)+3))−(\frac{𝑒^{2(0)+1}}{4}(2(0)^{2}−2(0)+3)) \\ & =\frac{𝑒^{3}}{4}(2−2+3)−\frac{𝑒}{4}(0−0+3) \\ & =\frac{3𝑒^{3}}{4}−\frac{3𝑒}{4} \\ & =\frac{3𝑒^{3}−3𝑒}{4}\end{aligned}
 
 
 $$
@@ -143,7 +143,7 @@ $$
 
 #### Question
 
-Evaluate the integral $\displaystyle \int x^2\cos(3x) \textrm{d}x.$
+Evaluate the integral $\displaystyle \int x^2\cos(3x) \text{d}x.$
 
 #### Explanation
 
@@ -167,7 +167,7 @@ $$
 
 $$
 
-Again, we use integration by parts to evaluate $\displaystyle \int x\sin(3x) \textrm{d}x.$ We take
+Again, we use integration by parts to evaluate $\displaystyle \int x\sin(3x) \text{d}x.$ We take
 
 $$
 
@@ -203,7 +203,7 @@ where $C = -\dfrac{2C_1}{3}.$
 
 #### Question
 
-Evaluate the integral $\displaystyle \int_1^e 32x^3(\ln x)^2 \textrm{d}x.$
+Evaluate the integral $\displaystyle \int_1^e 32x^3(\ln x)^2 \text{d}x.$
 
 #### Explanation
 
@@ -229,7 +229,7 @@ $$
 
 $$
 
-We use integration by parts once again to evaluate $\displaystyle\int {x^3\ln(x)} \textrm{d}x.$ We take
+We use integration by parts once again to evaluate $\displaystyle\int {x^3\ln(x)} \text{d}x.$ We take
 
 $$
 
@@ -264,7 +264,7 @@ where $C = -4C_1.$ Finally then, we can work out the definite integral:
 $$
 
 
-\begin{aligned}∫_{𝑒1}^{}32𝑥^{3}ln⁡(𝑥)d𝑥 & =𝑥^{4}(8(ln⁡𝑥)^{2}−4ln⁡(𝑥)+1)_{𝑒1}^{} \\ & =[(𝑒)^{4}(8(ln⁡(𝑒))^{2}−4ln⁡(𝑒)+1)]−[(1)^{4}(8(ln⁡(1))^{2}−4ln⁡(1)+1)] \\ & =[𝑒^{4}(8−4+1)]−1 \\ & =5𝑒^{4}−1.\end{aligned}
+\begin{aligned}∫_{𝑒1}32𝑥^{3}ln⁡(𝑥)d𝑥 & =𝑥^{4}(8(ln⁡𝑥)^{2}−4ln⁡(𝑥)+1)_{𝑒1} \\ & =[(𝑒)^{4}(8(ln⁡(𝑒))^{2}−4ln⁡(𝑒)+1)]−[(1)^{4}(8(ln⁡(1))^{2}−4ln⁡(1)+1)] \\ & =[𝑒^{4}(8−4+1)]−1 \\ & =5𝑒^{4}−1.\end{aligned}
 
 
 $$

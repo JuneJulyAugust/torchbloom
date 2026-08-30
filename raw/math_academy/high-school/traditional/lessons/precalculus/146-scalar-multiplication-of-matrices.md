@@ -33,7 +33,7 @@ $$
 
 
 
-\begin{aligned}2𝐴 & =2[\begin{aligned}1 & 3 \\ 2 & 4\end{aligned}] \\ & =[\begin{aligned}2⋅1 & 2⋅3 \\ 2⋅2 & 2⋅4\end{aligned}] \\ & =[\begin{aligned}2 & 6 \\ 4 & 8\end{aligned}]\end{aligned}
+\begin{aligned}2𝐴 & =2[\begin{matrix}1 & 3 \\ 2 & 4\end{matrix}] \\ & =[\begin{matrix}2⋅1 & 2⋅3 \\ 2⋅2 & 2⋅4\end{matrix}] \\ & =[\begin{matrix}2 & 6 \\ 4 & 8\end{matrix}]\end{aligned}
 
 
 
@@ -55,7 +55,7 @@ $$
 
 #### Question
 
-Calculate $-2A$, if $A=\left\lbrack \matrix {2 & -1 \ 4 & 7} \right\rbrack.$
+Calculate $-2A$, if $A=\left\lbrack \begin{matrix}2 & -1 \ 4 & 7\end{matrix} \right\rbrack.$
 
 #### Explanation
 
@@ -65,7 +65,7 @@ $$
 
 
 
-\begin{aligned}−2𝐴 & =−2[\begin{aligned}2 & −1 \\ 4 & 7\end{aligned}] \\ & =[\begin{aligned}−2⋅2 & −2⋅(−1) \\ −2⋅4 & −2⋅7\end{aligned}] \\ & =[\begin{aligned}−4 & 2 \\ −8 & −14\end{aligned}]\end{aligned}
+\begin{aligned}−2𝐴 & =−2[\begin{matrix}2 & −1 \\ 4 & 7\end{matrix}] \\ & =[\begin{matrix}−2⋅2 & −2⋅(−1) \\ −2⋅4 & −2⋅7\end{matrix}] \\ & =[\begin{matrix}−4 & 2 \\ −8 & −14\end{matrix}]\end{aligned}
 
 
 
@@ -75,7 +75,7 @@ $$
 
 #### Question
 
-If $k {A} = \left\lbrack \matrix {1 & 3 & 4 \ 6 & 0 & -2} \right\rbrack,$ where ${A} = \left\lbrack \matrix {2 & 6 & 8 \ 12 & 0 & -4} \right\rbrack$ and $k$ is a scalar, calculate the value of $k.$
+If $k {A} = \left\lbrack \begin{matrix}1 & 3 & 4 \ 6 & 0 & -2\end{matrix} \right\rbrack,$ where ${A} = \left\lbrack \begin{matrix}2 & 6 & 8 \ 12 & 0 & -4\end{matrix} \right\rbrack$ and $k$ is a scalar, calculate the value of $k.$
 
 #### Explanation
 
@@ -85,7 +85,7 @@ $$
 
 
 
-\begin{aligned}𝑘𝐴 & =𝑘⋅[\begin{aligned}2 & 6 & 8 \\ 12 & 0 & −4\end{aligned}] \\ & =[\begin{aligned}2𝑘 & 6𝑘 & 8𝑘 \\ 12𝑘 & 0 & −4𝑘\end{aligned}]\end{aligned}
+\begin{aligned}𝑘𝐴 & =𝑘⋅[\begin{matrix}2 & 6 & 8 \\ 12 & 0 & −4\end{matrix}] \\ & =[\begin{matrix}2𝑘 & 6𝑘 & 8𝑘 \\ 12𝑘 & 0 & −4𝑘\end{matrix}]\end{aligned}
 
 
 
@@ -97,7 +97,7 @@ $$
 
 
 
-\left\lbrack \matrix { 2k & 6k & 8k \ 12k & 0 & -4k } \right\rbrack = \left\lbrack \matrix { 1 & 3 & 4 \ 6 & 0 & -2 } \right\rbrack
+\left\lbrack \begin{matrix} 2k & 6k & 8k \ 12k & 0 & -4k \end{matrix} \right\rbrack = \left\lbrack \begin{matrix} 1 & 3 & 4 \ 6 & 0 & -2 \end{matrix} \right\rbrack
 
 
 
@@ -161,7 +161,7 @@ $$
 
 #### Question
 
-Calculate $2 {A} + \dfrac{1}{2} {B}$, where $[\begin{aligned}1 & 5 \\ 1 & 2\end{aligned}]$ and ${B}= \left\lbrack \matrix {0 & 2 \ 4 & 2} \right\rbrack.$
+Calculate $2 {A} + \dfrac{1}{2} {B}$, where $[\begin{aligned}1 & 5 \\ 1 & 2\end{aligned}]$ and ${B}= \left\lbrack \begin{matrix}0 & 2 \ 4 & 2\end{matrix} \right\rbrack.$
 
 #### Explanation
 
@@ -171,7 +171,7 @@ $$
 
 
 
-\begin{aligned}2𝐴+\frac{1}{2}𝐵 & =2[\begin{aligned}1 & 5 \\ 1 & 2\end{aligned}]+\frac{1}{2}[\begin{aligned}0 & 2 \\ 4 & 2\end{aligned}] \\ & =[\begin{aligned}2⋅1 & 2⋅5 \\ 2⋅1 & 2⋅2\end{aligned}]+\begin{aligned}\frac{1}{2}⋅0 & \frac{1}{2}⋅2 \\ \frac{1}{2}⋅4 & \frac{1}{2}⋅2\end{aligned} \\ & =[\begin{aligned}2 & 10 \\ 2 & 4\end{aligned}]+[\begin{aligned}0 & 1 \\ 2 & 1\end{aligned}] \\ & =[\begin{aligned}2+0 & 10+1 \\ 2+2 & 4+1\end{aligned}] \\ & =[\begin{aligned}2 & 11 \\ 4 & 5\end{aligned}]\end{aligned}
+\begin{aligned}2𝐴+\frac{1}{2}𝐵 & =2[\begin{matrix}1 & 5 \\ 1 & 2\end{matrix}]+\frac{1}{2}[\begin{matrix}0 & 2 \\ 4 & 2\end{matrix}] \\ & =[\begin{matrix}2⋅1 & 2⋅5 \\ 2⋅1 & 2⋅2\end{matrix}]+\begin{matrix}\frac{1}{2}⋅0 & \frac{1}{2}⋅2 \\ \frac{1}{2}⋅4 & \frac{1}{2}⋅2\end{matrix} \\ & =[\begin{matrix}2 & 10 \\ 2 & 4\end{matrix}]+[\begin{matrix}0 & 1 \\ 2 & 1\end{matrix}] \\ & =[\begin{matrix}2+0 & 10+1 \\ 2+2 & 4+1\end{matrix}] \\ & =[\begin{matrix}2 & 11 \\ 4 & 5\end{matrix}]\end{aligned}
 
 
 

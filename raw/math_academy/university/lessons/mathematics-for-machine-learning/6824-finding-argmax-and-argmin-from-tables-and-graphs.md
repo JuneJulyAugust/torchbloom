@@ -64,7 +64,7 @@ The largest output is $5,$ and it occurs at $x=0.$ Therefore,
 $$
 
 
-\max_{x \in S} f(x)=5 \qquad \textrm{and} \qquad \arg\max_{x \in S} f(x)=0.
+\max_{x \in S} f(x)=5 \qquad \text{and} \qquad \arg\max_{x \in S} f(x)=0.
 
 
 $$
@@ -74,7 +74,7 @@ The smallest output is $-1,$ and it occurs at $x=1.$ Therefore,
 $$
 
 
-\min_{x \in S} f(x)=-1 \qquad \textrm{and} \qquad \arg\min_{x \in S} f(x)=1.
+\min_{x \in S} f(x)=-1 \qquad \text{and} \qquad \arg\min_{x \in S} f(x)=1.
 
 
 $$
@@ -124,7 +124,7 @@ From the graph, the highest point has $y$-coordinate $5,$ and it occurs at $x=1.
 $$
 
 
-\max_{x \in S} f(x)=\boxed{5} \qquad \textrm{and} \qquad \arg\max_{x \in S} f(x)=\boxed{1}.
+\max_{x \in S} f(x)=\boxed{5} \qquad \text{and} \qquad \arg\max_{x \in S} f(x)=\boxed{1}.
 
 
 $$
@@ -134,7 +134,7 @@ The lowest point has $y$-coordinate $0,$ and it occurs at $x=4.$ Therefore,
 $$
 
 
-\min_{x \in S} f(x)=\boxed{0} \qquad \textrm{and} \qquad \arg\min_{x \in S} f(x)=\boxed{4}.
+\min_{x \in S} f(x)=\boxed{0} \qquad \text{and} \qquad \arg\min_{x \in S} f(x)=\boxed{4}.
 
 
 $$

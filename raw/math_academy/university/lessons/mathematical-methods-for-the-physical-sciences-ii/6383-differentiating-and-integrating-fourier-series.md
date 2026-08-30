@@ -315,7 +315,7 @@ Now, notice that the function $F$ is continuous on $(-4,4).$ Therefore, the $8$-
 $$
 
 
-\begin{aligned}∫_{𝑥0}^{}(−\frac{3}{4}𝑡^{2})\,d𝑡 & ∼∫_{𝑥0}^{}(−4+\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}\frac{48(−1)^{𝑛+1}}{𝑛^{2}𝜋^{2}}cos⁡(\frac{𝑛𝜋𝑡}{4}))d𝑡 \\ [−\frac{1}{4}𝑡^{3}]_{𝑥0}^{} & ∼[−4𝑡]_{𝑥0}^{}+\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}\frac{48(−1)^{𝑛+1}}{𝑛^{2}𝜋^{2}}⋅[\frac{4}{𝑛𝜋}sin⁡(\frac{𝑛𝜋𝑡}{4})]_{𝑥0}^{} \\ −\frac{1}{4}𝑥^{3} & ∼−4𝑥+\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}\,\frac{192(−1)^{𝑛+1}}{𝑛^{3}𝜋^{3}}⋅sin⁡(\frac{𝑛𝜋𝑥}{4})\end{aligned}
+\begin{aligned}∫_{𝑥0}(−\frac{3}{4}𝑡^{2})\,d𝑡 & ∼∫_{𝑥0}(−4+\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}\frac{48(−1)^{𝑛+1}}{𝑛^{2}𝜋^{2}}cos⁡(\frac{𝑛𝜋𝑡}{4}))d𝑡 \\ [−\frac{1}{4}𝑡^{3}]_{𝑥0} & ∼[−4𝑡]_{𝑥0}+\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}\frac{48(−1)^{𝑛+1}}{𝑛^{2}𝜋^{2}}⋅[\frac{4}{𝑛𝜋}sin⁡(\frac{𝑛𝜋𝑡}{4})]_{𝑥0} \\ −\frac{1}{4}𝑥^{3} & ∼−4𝑥+\underset{\underset{𝑛=1}{∑}}{\overset{}{∞}}\,\frac{192(−1)^{𝑛+1}}{𝑛^{3}𝜋^{3}}⋅sin⁡(\frac{𝑛𝜋𝑥}{4})\end{aligned}
 
 
 $$

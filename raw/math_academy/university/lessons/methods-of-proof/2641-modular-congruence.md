@@ -26,7 +26,7 @@ When two integers $a$ and $b$ have the *same remainder* ${\color{blue}{r}}$ when
 $$
 
 
-a\equiv b\qquad (\textrm{mod}\,n).
+a\equiv b\qquad (\text{mod}\,n).
 
 
 $$
@@ -106,7 +106,7 @@ In general, two integers $a$ and $b$ are congruent modulo $n$ if and only if $n$
 $$
 
 
-a \equiv b \quad (\textrm{mod}\,n) \qquad \Longleftrightarrow \qquad n \mid (a-b)
+a \equiv b \quad (\text{mod}\,n) \qquad \Longleftrightarrow \qquad n \mid (a-b)
 
 
 $$
@@ -115,15 +115,15 @@ We'll prove this result at the end of the lesson.
 
 For example, the following numbers are congruent with respect to the given modulus:
 
-- $6\equiv 1\:(\textrm{mod}\,5)$ because $5\,\mid\, (6-1).$ There is no remainder:
+- $6\equiv 1\:(\text{mod}\,5)$ because $5\,\mid\, (6-1).$ There is no remainder:
 
-- $-2\equiv -8\:(\textrm{mod}\,6)$ because $6\,\mid\, \left((-2)-(-8)\right).$ There is no remainder:
+- $-2\equiv -8\:(\text{mod}\,6)$ because $6\,\mid\, \left((-2)-(-8)\right).$ There is no remainder:
 
 However, the following numbers are not congruent with respect to the given modulus:
 
-- $6\not\equiv 1\:(\textrm{mod}\,4)$ because $4\,\not\mid\, (6-1).$ Note that $(6-1) = 5,$ which is not divisible by $4.$
+- $6\not\equiv 1\:(\text{mod}\,4)$ because $4\,\not\mid\, (6-1).$ Note that $(6-1) = 5,$ which is not divisible by $4.$
 
-- $0\not\equiv 13\:(\textrm{mod}\,12)$ because $12\,\not\mid\, (0-13).$ Note that $(0-13) = -13,$ which is not divisible by $12.$
+- $0\not\equiv 13\:(\text{mod}\,12)$ because $12\,\not\mid\, (0-13).$ Note that $(0-13) = -13,$ which is not divisible by $12.$
 
 ### Example: Identifying Congruent Integers
 
@@ -131,11 +131,11 @@ However, the following numbers are not congruent with respect to the given modul
 
 Which of the following statements are true?
 
-1. $24 \equiv 12 \quad (\textrm{mod}\,3)$
+1. $24 \equiv 12 \quad (\text{mod}\,3)$
 
-2. $17 \equiv 21 \quad (\textrm{mod}\,4)$
+2. $17 \equiv 21 \quad (\text{mod}\,4)$
 
-3. $19 \equiv 12 \quad (\textrm{mod}\,9)$
+3. $19 \equiv 12 \quad (\text{mod}\,9)$
 
 #### Explanation
 
@@ -144,7 +144,7 @@ First, we recall that
 $$
 
 
-a \equiv b \quad (\textrm{mod}\,n) \qquad \Longleftrightarrow \qquad n \mid (a-b).
+a \equiv b \quad (\text{mod}\,n) \qquad \Longleftrightarrow \qquad n \mid (a-b).
 
 
 $$
@@ -167,11 +167,11 @@ Therefore, the correct answer is "I and II only."
 
 Which of the following statements are true?
 
-1. $-11 \equiv -29 \quad (\textrm{mod}\,6)$
+1. $-11 \equiv -29 \quad (\text{mod}\,6)$
 
-2. $90 \equiv 0 \quad (\textrm{mod}\,9)$
+2. $90 \equiv 0 \quad (\text{mod}\,9)$
 
-3. $-10 \equiv 4 \quad (\textrm{mod}\,5)$
+3. $-10 \equiv 4 \quad (\text{mod}\,5)$
 
 #### Explanation
 
@@ -180,7 +180,7 @@ First, we recall that
 $$
 
 
-a \equiv b \quad (\textrm{mod}\,n) \qquad \Longleftrightarrow \qquad n \mid (a-b).
+a \equiv b \quad (\text{mod}\,n) \qquad \Longleftrightarrow \qquad n \mid (a-b).
 
 
 $$
@@ -201,7 +201,7 @@ Therefore, the correct answer is "I and II only."
 
 #### Question
 
-Given that $-7 \equiv 17 \,(\textrm{mod}\,n)$, which of the following could be the value of $n?$
+Given that $-7 \equiv 17 \,(\text{mod}\,n)$, which of the following could be the value of $n?$
 
 1. $n=6$
 
@@ -216,7 +216,7 @@ First, we recall that
 $$
 
 
-a \equiv b \quad (\textrm{mod}\,n) \qquad \Longleftrightarrow \qquad n \mid (a-b).
+a \equiv b \quad (\text{mod}\,n) \qquad \Longleftrightarrow \qquad n \mid (a-b).
 
 
 $$
@@ -242,7 +242,7 @@ Throughout this lesson, we've been using the fact that $a$ is congruent to $b$ m
 $$
 
 
-a \equiv b \quad (\textrm{mod}\,n) \qquad \Longleftrightarrow \qquad n \mid (a-b)
+a \equiv b \quad (\text{mod}\,n) \qquad \Longleftrightarrow \qquad n \mid (a-b)
 
 
 $$
@@ -283,7 +283,7 @@ So, $(a-b)$ is an integer multiple of $n,$ which means that $(a-b)$ is divisible
 
 Conversely, assume that $n \mid (a-b)$. Then there is an integer $k$ such that $a-b= nk.$
 
-Now, by Euclid's division algorithm, there exist unique integers $m$ and $r\in \{0, 1, \dots n-1\}$ such that $b={\color{blue} n}m+\color{red}r.$ Note that this means that $b \, \cong \, r \, \, (\textrm{mod} \, n).$ So, we have
+Now, by Euclid's division algorithm, there exist unique integers $m$ and $r\in \{0, 1, \dots n-1\}$ such that $b={\color{blue} n}m+\color{red}r.$ Note that this means that $b \, \cong \, r \, \, (\text{mod} \, n).$ So, we have
 
 $$
 
@@ -293,6 +293,6 @@ $$
 
 $$
 
-Therefore, $a \, \equiv \, r \, \, (\textrm{mod} \, n)$ and $b \, \equiv \, r \, \, (\textrm{mod} \, n),$ so $a \, \equiv \, b \, \, (\textrm{mod} \, n).$
+Therefore, $a \, \equiv \, r \, \, (\text{mod} \, n)$ and $b \, \equiv \, r \, \, (\text{mod} \, n),$ so $a \, \equiv \, b \, \, (\text{mod} \, n).$
 
 This proves that if $n$ divides $(a-b)$ then $a$ is congruent to $b$ modulo $n.$

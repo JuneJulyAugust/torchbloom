@@ -17,7 +17,7 @@ Given a real interval $D = (a,b)\subset \mathbb R,$ the length of this interval 
 $$
 
 
-\textrm{Length}(D) = \int_a^b \,\textrm d x
+\text{Length}(D) = \int_a^b \,\textrm d x
 
 
 $$
@@ -27,7 +27,7 @@ which we can also write as
 $$
 
 
-\textrm{Length}(D) = \int\limits_D \,\textrm d x.
+\text{Length}(D) = \int\limits_D \,\textrm d x.
 
 
 $$
@@ -37,7 +37,7 @@ Suppose we define an invertible function $u = u(x).$ By the change of variables 
 $$
 
 
-\textrm{Length}(D) = \int\limits_{\Delta} \dfrac{\textrm d x}{\textrm d u}\, \textrm d u.
+\text{Length}(D) = \int\limits_{\Delta} \dfrac{\textrm d x}{\textrm d u}\, \textrm d u.
 
 
 $$
@@ -53,7 +53,7 @@ So, to summarize,
 $$
 
 
-\textrm{Length}(D) = \int\limits_D \,\textrm d x = \int\limits_{\Delta} \dfrac{\textrm d x}{\textrm d u}\, \textrm d u.
+\text{Length}(D) = \int\limits_D \,\textrm d x = \int\limits_{\Delta} \dfrac{\textrm d x}{\textrm d u}\, \textrm d u.
 
 
 $$
@@ -87,7 +87,7 @@ To carry out this process, we apply the **change of variables formula**
 $$
 
 
-\textrm{Area}(D) = \iint\limits_{D} \mathrm d x \mathrm d y = \iint\limits_{\Delta} \left| \dfrac{\partial (x, y)}{\partial (u, v)} \right| \ \mathrm d u \mathrm d v
+\text{Area}(D) = \iint\limits_{D} \mathrm d x \mathrm d y = \iint\limits_{\Delta} \left| \dfrac{\partial (x, y)}{\partial (u, v)} \right| \ \mathrm d u \mathrm d v
 
 
 $$
@@ -107,7 +107,7 @@ Often, the most challenging part is finding a suitable change of variables. The 
 $$
 
 
-u = \textrm{const}_1, \quad u = \textrm{const}_2, \quad v = \textrm{const}_3, \quad v = \textrm{const}_4
+u = \text{const}_1, \quad u = \text{const}_2, \quad v = \text{const}_3, \quad v = \text{const}_4
 
 
 $$
@@ -235,7 +235,7 @@ The Jacobian determinant corresponding to $\mathbf T^{-1}$ is
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑢,𝑣)}{𝜕(𝑥,𝑦)} & =\begin{aligned}\frac{𝜕𝑢}{𝜕𝑥} & \frac{𝜕𝑢}{𝜕𝑦} \\ \frac{𝜕𝑣}{𝜕𝑥} & \frac{𝜕𝑣}{𝜕𝑦}\end{aligned} \\ & =\begin{aligned}−1 & 3 \\ 2 & 1\end{aligned} \\ & =−7.\end{aligned}
+\begin{aligned}\frac{𝜕(𝑢,𝑣)}{𝜕(𝑥,𝑦)} & =\begin{matrix}\frac{𝜕𝑢}{𝜕𝑥} & \frac{𝜕𝑢}{𝜕𝑦} \\ \frac{𝜕𝑣}{𝜕𝑥} & \frac{𝜕𝑣}{𝜕𝑦}\end{matrix} \\ & =\begin{matrix}−1 & 3 \\ 2 & 1\end{matrix} \\ & =−7.\end{aligned}
 
 
 $$
@@ -389,7 +389,7 @@ The Jacobian determinant corresponding to $\mathbf T^{-1}$ is
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑢,𝑣)}{𝜕(𝑥,𝑦)} & =\begin{aligned}\frac{𝜕𝑢}{𝜕𝑥} & \frac{𝜕𝑢}{𝜕𝑦} \\ \frac{𝜕𝑣}{𝜕𝑥} & \frac{𝜕𝑣}{𝜕𝑦}\end{aligned} \\ & =\begin{aligned}−\frac{𝑦^{2}}{𝑥^{2}} & \frac{2𝑦}{𝑥} \\ 𝑦 & 𝑥\end{aligned} \\ & =−\frac{3𝑦^{2}}{𝑥}.\end{aligned}
+\begin{aligned}\frac{𝜕(𝑢,𝑣)}{𝜕(𝑥,𝑦)} & =\begin{matrix}\frac{𝜕𝑢}{𝜕𝑥} & \frac{𝜕𝑢}{𝜕𝑦} \\ \frac{𝜕𝑣}{𝜕𝑥} & \frac{𝜕𝑣}{𝜕𝑦}\end{matrix} \\ & =\begin{matrix}−\frac{𝑦^{2}}{𝑥^{2}} & \frac{2𝑦}{𝑥} \\ 𝑦 & 𝑥\end{matrix} \\ & =−\frac{3𝑦^{2}}{𝑥}.\end{aligned}
 
 
 $$
@@ -415,7 +415,7 @@ We calculate the required area by performing the change of variables:
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}d𝑥d𝑦 & =\underset{Δ}{∬}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)}\,d𝑢d𝑣 \\ & =\underset{Δ}{∬}−\frac{1}{3𝑢}\,d𝑢d𝑣 \\ & =\frac{1}{3}∫_{31}^{}∫_{42}^{}\frac{1}{𝑢}\,d𝑢\,d𝑣 \\ & =\frac{1}{3}∫_{31}^{}\frac{1}{𝑢}\,d𝑢∫_{42}^{}\,d𝑣 \\ & =\frac{1}{3}⋅(ln⁡3−ln⁡1)⋅(4−2) \\ & =\frac{2}{3}ln⁡3.\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}d𝑥d𝑦 & =\underset{Δ}{∬}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)}\,d𝑢d𝑣 \\ & =\underset{Δ}{∬}−\frac{1}{3𝑢}\,d𝑢d𝑣 \\ & =\frac{1}{3}∫_{31}∫_{42}\frac{1}{𝑢}\,d𝑢\,d𝑣 \\ & =\frac{1}{3}∫_{31}\frac{1}{𝑢}\,d𝑢∫_{42}\,d𝑣 \\ & =\frac{1}{3}⋅(ln⁡3−ln⁡1)⋅(4−2) \\ & =\frac{2}{3}ln⁡3.\end{aligned}
 
 
 $$
@@ -545,7 +545,7 @@ The Jacobian determinant corresponding to $\mathbf T^{-1}$ is
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑢,𝑣)}{𝜕(𝑥,𝑦)} & =\begin{aligned}\frac{𝜕𝑢}{𝜕𝑥} & \frac{𝜕𝑢}{𝜕𝑦} \\ \frac{𝜕𝑣}{𝜕𝑥} & \frac{𝜕𝑣}{𝜕𝑦}\end{aligned} \\ & =\begin{aligned}𝑒^{𝑥+𝑦} & 𝑒^{𝑥+𝑦} \\ 𝑒^{𝑥−𝑦} & −𝑒^{𝑥−𝑦}\end{aligned} \\ & =−𝑒^{2𝑥}−𝑒^{2𝑥} \\ & =−2𝑒^{2𝑥}.\end{aligned}
+\begin{aligned}\frac{𝜕(𝑢,𝑣)}{𝜕(𝑥,𝑦)} & =\begin{matrix}\frac{𝜕𝑢}{𝜕𝑥} & \frac{𝜕𝑢}{𝜕𝑦} \\ \frac{𝜕𝑣}{𝜕𝑥} & \frac{𝜕𝑣}{𝜕𝑦}\end{matrix} \\ & =\begin{matrix}𝑒^{𝑥+𝑦} & 𝑒^{𝑥+𝑦} \\ 𝑒^{𝑥−𝑦} & −𝑒^{𝑥−𝑦}\end{matrix} \\ & =−𝑒^{2𝑥}−𝑒^{2𝑥} \\ & =−2𝑒^{2𝑥}.\end{aligned}
 
 
 $$
@@ -571,7 +571,7 @@ We calculate the required area by performing the change of variables:
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}d𝑥d𝑦 & =\underset{Δ}{∬}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)}\,d𝑢d𝑣 \\ & =\underset{Δ}{∬}−\frac{1}{2𝑢𝑣}\,d𝑢d𝑣 \\ & =\frac{1}{2}\underset{Δ}{∬}\frac{1}{𝑢𝑣}\,d𝑢d𝑣 \\ & =\frac{1}{2}∫_{105}^{}\frac{1}{𝑢}\,d𝑢∫_{21}^{}\frac{1}{𝑣}\,d𝑣 \\ & =\frac{1}{2}⋅(ln⁡10−ln⁡5)⋅(ln⁡2−ln⁡1) \\ & =\frac{1}{2}(ln⁡2)^{2}\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}d𝑥d𝑦 & =\underset{Δ}{∬}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)}\,d𝑢d𝑣 \\ & =\underset{Δ}{∬}−\frac{1}{2𝑢𝑣}\,d𝑢d𝑣 \\ & =\frac{1}{2}\underset{Δ}{∬}\frac{1}{𝑢𝑣}\,d𝑢d𝑣 \\ & =\frac{1}{2}∫_{105}\frac{1}{𝑢}\,d𝑢∫_{21}\frac{1}{𝑣}\,d𝑣 \\ & =\frac{1}{2}⋅(ln⁡10−ln⁡5)⋅(ln⁡2−ln⁡1) \\ & =\frac{1}{2}(ln⁡2)^{2}\end{aligned}
 
 
 $$
@@ -677,7 +677,7 @@ To find the intersections of the curves in the $uv$-plane, we solve the followin
 $$
 
 
-\begin{aligned}\begin{aligned}𝑣=𝑢^{2} \\ 𝑣=4\end{aligned}\,⟹\,\begin{aligned}𝑢=±2 \\ 𝑣=4.\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}𝑣=𝑢^{2} \\ 𝑣=4\end{matrix}\,⟹\,\begin{matrix}𝑢=±2 \\ 𝑣=4.\end{matrix}\end{aligned}
 
 
 $$
@@ -705,7 +705,7 @@ The Jacobian determinant corresponding to $\mathbf T^{-1}$ is
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑢,𝑣)}{𝜕(𝑥,𝑦)} & =\begin{aligned}\frac{𝜕𝑢}{𝜕𝑥} & \frac{𝜕𝑢}{𝜕𝑦} \\ \frac{𝜕𝑣}{𝜕𝑥} & \frac{𝜕𝑣}{𝜕𝑦}\end{aligned} \\ & =\begin{aligned}3 & −2 \\ 1 & 1\end{aligned} \\ & =5.\end{aligned}
+\begin{aligned}\frac{𝜕(𝑢,𝑣)}{𝜕(𝑥,𝑦)} & =\begin{matrix}\frac{𝜕𝑢}{𝜕𝑥} & \frac{𝜕𝑢}{𝜕𝑦} \\ \frac{𝜕𝑣}{𝜕𝑥} & \frac{𝜕𝑣}{𝜕𝑦}\end{matrix} \\ & =\begin{matrix}3 & −2 \\ 1 & 1\end{matrix} \\ & =5.\end{aligned}
 
 
 $$
@@ -731,7 +731,7 @@ We calculate the required area by performing the change of variables:
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}d𝑥d𝑦 & =\underset{Δ}{∬}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)}\,d𝑢d𝑣 \\ & =\underset{Δ}{∬}\frac{1}{5}d𝑢d𝑣 \\ & =\frac{1}{5}∫_{2−2}^{}[∫_{4𝑢^{2}}^{}\,d𝑣]d𝑢 \\ & =\frac{1}{5}∫_{2−2}^{}[𝑣]_{4𝑢^{2}}^{}\,d𝑢 \\ & =\frac{1}{5}∫_{2−2}^{}(4−𝑢^{2})\,d𝑢 \\ & =\frac{1}{5}⋅2∫_{20}^{}(4−𝑢^{2})\,d𝑢 \\ & =\frac{2}{5}[4𝑢−\frac{𝑢^{3}}{3}]_{20}^{} \\ & =\frac{2}{5}(8−\frac{8}{3}) \\ & =\frac{2}{5}(\frac{16}{3}) \\ & =\frac{32}{15}\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}d𝑥d𝑦 & =\underset{Δ}{∬}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)}\,d𝑢d𝑣 \\ & =\underset{Δ}{∬}\frac{1}{5}d𝑢d𝑣 \\ & =\frac{1}{5}∫_{2−2}[∫_{4𝑢^{2}}^{}\,d𝑣]d𝑢 \\ & =\frac{1}{5}∫_{2−2}[𝑣]_{4𝑢^{2}}^{}\,d𝑢 \\ & =\frac{1}{5}∫_{2−2}(4−𝑢^{2})\,d𝑢 \\ & =\frac{1}{5}⋅2∫_{20}(4−𝑢^{2})\,d𝑢 \\ & =\frac{2}{5}[4𝑢−\frac{𝑢^{3}}{3}]_{20} \\ & =\frac{2}{5}(8−\frac{8}{3}) \\ & =\frac{2}{5}(\frac{16}{3}) \\ & =\frac{32}{15}\end{aligned}
 
 
 $$

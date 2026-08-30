@@ -262,7 +262,7 @@ Now, computing $A+4I,$ we get
 $$
 
 
-\begin{aligned}𝐴+4𝐼 & =\begin{aligned}−5 & −1 & 0 \\ 2 & −3 & −1 \\ −1 & −1 & −4\end{aligned}+4\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{aligned}=\begin{aligned}−1 & −1 & 0 \\ 2 & 1 & −1 \\ −1 & −1 & 0\end{aligned}.\end{aligned}
+\begin{aligned}𝐴+4𝐼 & =\begin{matrix}−5 & −1 & 0 \\ 2 & −3 & −1 \\ −1 & −1 & −4\end{matrix}+4\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{matrix}=\begin{matrix}−1 & −1 & 0 \\ 2 & 1 & −1 \\ −1 & −1 & 0\end{matrix}.\end{aligned}
 
 
 $$
@@ -272,7 +272,7 @@ So, the matrix equation $(A+4I)\mathbf{v}_3 = \mathbf{v}_2$ is equivalent to the
 $$
 
 
-\begin{aligned}𝑀 & =\begin{aligned}−1 & −1 & 0 & 0 \\ 2 & 1 & −1 & 1 \\ −1 & −1 & 0 & 0\end{aligned} & & \begin{aligned}𝑅_{2}:=𝑅_{2}+2𝑅_{1} \\ 𝑅_{3}:=𝑅_{3}+(−1)𝑅_{1}\end{aligned} \\ & ∼\begin{aligned}−1 & −1 & 0 & 0 \\ 0 & −1 & −1 & 1 \\ 0 & 0 & 0 & 0\end{aligned} & & \end{aligned}
+\begin{aligned}𝑀 & =\begin{matrix}−1 & −1 & 0 & 0 \\ 2 & 1 & −1 & 1 \\ −1 & −1 & 0 & 0\end{matrix} & & \begin{matrix}𝑅_{2}:=𝑅_{2}+2𝑅_{1} \\ 𝑅_{3}:=𝑅_{3}+(−1)𝑅_{1}\end{matrix} \\ & ∼\begin{matrix}−1 & −1 & 0 & 0 \\ 0 & −1 & −1 & 1 \\ 0 & 0 & 0 & 0\end{matrix} & & \end{aligned}
 
 
 $$
@@ -478,7 +478,7 @@ Now, computing $A+4I,$ we get
 $$
 
 
-\begin{aligned}𝐴+4𝐼 & =\begin{aligned}3 & −11 & 10 \\ 0 & −3 & 1 \\ 0 & −1 & −5\end{aligned}+4\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{aligned}=\begin{aligned}7 & −11 & 10 \\ 0 & 1 & 1 \\ 0 & −1 & −1\end{aligned}.\end{aligned}
+\begin{aligned}𝐴+4𝐼 & =\begin{matrix}3 & −11 & 10 \\ 0 & −3 & 1 \\ 0 & −1 & −5\end{matrix}+4\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{matrix}=\begin{matrix}7 & −11 & 10 \\ 0 & 1 & 1 \\ 0 & −1 & −1\end{matrix}.\end{aligned}
 
 
 $$
@@ -488,7 +488,7 @@ So, the matrix equation $(A+4I)\mathbf{v}_2 = \mathbf{v}_1$ is equivalent to the
 $$
 
 
-\begin{aligned}𝑀 & =\begin{aligned}7 & −11 & 10 & 3 \\ 0 & 1 & 1 & 1 \\ 0 & −1 & −1 & −1\end{aligned} & & \begin{aligned}𝑅_{3}:=𝑅_{3}+𝑅_{2}\end{aligned} \\ & ∼\begin{aligned}7 & −11 & 10 & 3 \\ 0 & 1 & 1 & 1 \\ 0 & 0 & 0 & 0\end{aligned} & & \end{aligned}
+\begin{aligned}𝑀 & =\begin{matrix}7 & −11 & 10 & 3 \\ 0 & 1 & 1 & 1 \\ 0 & −1 & −1 & −1\end{matrix} & & \begin{matrix}𝑅_{3}:=𝑅_{3}+𝑅_{2}\end{matrix} \\ & ∼\begin{matrix}7 & −11 & 10 & 3 \\ 0 & 1 & 1 & 1 \\ 0 & 0 & 0 & 0\end{matrix} & & \end{aligned}
 
 
 $$

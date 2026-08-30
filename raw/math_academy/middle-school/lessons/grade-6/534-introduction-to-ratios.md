@@ -23,7 +23,7 @@ $$
 
 
 
-{\color{blue}{\textrm{number of circles}}} : {\color{red}{\textrm{number of triangles}}}
+{\color{blue}{\text{number of circles}}} : {\color{red}{\text{number of triangles}}}
 
 
 
@@ -57,7 +57,7 @@ $$
 
 
 
-\textrm{number of pentagons} : \textrm{total number of shapes}
+\text{number of pentagons} : \text{total number of shapes}
 
 
 
@@ -85,7 +85,7 @@ $$
 
 
 
-\textrm{number of green crates} : \textrm{total number of crates}
+\text{number of green crates} : \text{total number of crates}
 
 
 

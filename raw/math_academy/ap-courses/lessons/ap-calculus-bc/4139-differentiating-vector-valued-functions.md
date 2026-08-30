@@ -113,7 +113,7 @@ To compute the derivative $\mathbf f'\!(t),$ we find the derivative of each comp
 $$
 
 
-\begin{aligned}\frac{d𝐟}{d𝑡} & =\frac{d}{d𝑡}⟨𝑡^{3},\,ln⁡(𝑡+3),\,\sqrt{√𝑡}⟩ \\ & =⟨\frac{d}{d𝑡}(𝑡^{3}),\,\frac{d}{d𝑡}(ln⁡(𝑡+3)),\,\frac{d}{d𝑡}(\sqrt{√𝑡})⟩ \\ & =⟨3𝑡^{2},\,\frac{1}{𝑡+3},\,\frac{1}{2\sqrt{√𝑡}}⟩\end{aligned}
+\begin{aligned}\frac{d𝐟}{d𝑡} & =\frac{d}{d𝑡}⟨𝑡^{3},\,ln⁡(𝑡+3),\,\sqrt{𝑡}⟩ \\ & =⟨\frac{d}{d𝑡}(𝑡^{3}),\,\frac{d}{d𝑡}(ln⁡(𝑡+3)),\,\frac{d}{d𝑡}(\sqrt{𝑡})⟩ \\ & =⟨3𝑡^{2},\,\frac{1}{𝑡+3},\,\frac{1}{2\sqrt{𝑡}}⟩\end{aligned}
 
 
 $$
@@ -141,7 +141,7 @@ Now, to compute $\mathbf f'\left(\dfrac{\pi}4\right),$ we substitute $t=\dfrac{\
 $$
 
 
-\begin{aligned}𝐟^{′}(\frac{𝜋}{4}) & =⟨cos⁡(\frac{𝜋}{4}),\,−sin⁡(\frac{𝜋}{4}),\,1⟩ \\ & =⟨\frac{\sqrt{√2}}{2},\,−\frac{\sqrt{√2}}{2},\,1⟩\end{aligned}
+\begin{aligned}𝐟^{′}(\frac{𝜋}{4}) & =⟨cos⁡(\frac{𝜋}{4}),\,−sin⁡(\frac{𝜋}{4}),\,1⟩ \\ & =⟨\frac{\sqrt{2}}{2},\,−\frac{\sqrt{2}}{2},\,1⟩\end{aligned}
 
 
 $$

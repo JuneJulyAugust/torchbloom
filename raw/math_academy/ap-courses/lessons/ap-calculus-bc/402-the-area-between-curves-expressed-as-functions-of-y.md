@@ -23,7 +23,7 @@ So, the area $A$ of the region is given by
 $$
 
 
-\begin{aligned}𝐴 & =∫_{𝑑𝑐}^{}[\,(right function)−(left function)\,]\,d𝑦.\end{aligned}
+\begin{aligned}𝐴 & =∫_{𝑑𝑐}[\,(right function)−(left function)\,]\,d𝑦.\end{aligned}
 
 
 $$
@@ -43,7 +43,7 @@ The right function is $f(y) = 3-y^2,$ and the left function is $g(y)=-1.$ So the
 $$
 
 
-\begin{aligned}𝐴 & =∫_{2−2}^{}(𝑓(𝑦)−𝑔(𝑦))\,d𝑦 \\ & =∫_{2−2}^{}((3−𝑦^{2})−(−1))\,d𝑦 \\ & =∫_{2−2}^{}(4−𝑦^{2})\,d𝑦\end{aligned}
+\begin{aligned}𝐴 & =∫_{2−2}(𝑓(𝑦)−𝑔(𝑦))\,d𝑦 \\ & =∫_{2−2}((3−𝑦^{2})−(−1))\,d𝑦 \\ & =∫_{2−2}(4−𝑦^{2})\,d𝑦\end{aligned}
 
 
 $$
@@ -83,7 +83,7 @@ Therefore, the integral that gives our area is
 $$
 
 
-\begin{aligned}𝐴 & =∫_{10}^{}[\,(right function)−(left function)\,]\,d𝑦 \\ & =∫_{10}^{}[\,(1−𝑦^{2})−(1−2𝑦+𝑦^{2})\,]\,d𝑦 \\ & =∫_{10}^{}(−2𝑦^{2}+2𝑦)\,d𝑦.\end{aligned}
+\begin{aligned}𝐴 & =∫_{10}[\,(right function)−(left function)\,]\,d𝑦 \\ & =∫_{10}[\,(1−𝑦^{2})−(1−2𝑦+𝑦^{2})\,]\,d𝑦 \\ & =∫_{10}(−2𝑦^{2}+2𝑦)\,d𝑦.\end{aligned}
 
 
 $$
@@ -125,7 +125,7 @@ Therefore, the integral that gives our area is
 $$
 
 
-\begin{aligned}𝐴 & =∫_{𝑑𝑐}^{}[\,(right function)−(left function)\,]\,d𝑦 \\ & =∫_{\sqrt{√2}0}^{}[\,(6−𝑦^{2})−(𝑦^{4})\,]\,d𝑦 \\ & =∫_{\sqrt{√2}0}^{}(−𝑦^{4}−𝑦^{2}+6)\,d𝑦.\end{aligned}
+\begin{aligned}𝐴 & =∫_{𝑑𝑐}[\,(right function)−(left function)\,]\,d𝑦 \\ & =∫_{\sqrt{2}0}^{}[\,(6−𝑦^{2})−(𝑦^{4})\,]\,d𝑦 \\ & =∫_{\sqrt{2}0}^{}(−𝑦^{4}−𝑦^{2}+6)\,d𝑦.\end{aligned}
 
 
 $$
@@ -149,7 +149,7 @@ Now, we want to determine the limits of integration. To do this, we equate the t
 $$
 
 
-\begin{aligned}𝑦^{2} & =9−2𝑦^{2} \\ 3𝑦^{2} & =9 \\ 𝑦^{2} & =3 \\ 𝑦 & =±\sqrt{√3}\end{aligned}
+\begin{aligned}𝑦^{2} & =9−2𝑦^{2} \\ 3𝑦^{2} & =9 \\ 𝑦^{2} & =3 \\ 𝑦 & =±\sqrt{3}\end{aligned}
 
 
 $$
@@ -171,7 +171,7 @@ Therefore, we can find the area as follows:
 $$
 
 
-\begin{aligned}𝐴 & =∫_{\sqrt{√3}−\sqrt{√3}}^{}[\,(right function)−(left function)\,]\,d𝑦 \\ & =∫_{\sqrt{√3}−\sqrt{√3}}^{}[\,(9−2𝑦^{2})−(𝑦^{2})\,]\,d𝑦 \\ & =∫_{\sqrt{√3}−\sqrt{√3}}^{}(9−3𝑦^{2})\,d𝑦 \\ & =9𝑦\,_{\sqrt{√3}−\sqrt{√3}}^{}−𝑦^{3}\,_{\sqrt{√3}−\sqrt{√3}}^{} \\ & =9(\sqrt{√3}−(−\sqrt{√3}))−((\sqrt{√3})^{3}−(−\sqrt{√3})^{3}) \\ & =18\sqrt{√3}−6\sqrt{√3} \\ & =12\sqrt{√3}\end{aligned}
+\begin{aligned}𝐴 & =∫_{\sqrt{3}−\sqrt{3}}^{}[\,(right function)−(left function)\,]\,d𝑦 \\ & =∫_{\sqrt{3}−\sqrt{3}}^{}[\,(9−2𝑦^{2})−(𝑦^{2})\,]\,d𝑦 \\ & =∫_{\sqrt{3}−\sqrt{3}}^{}(9−3𝑦^{2})\,d𝑦 \\ & =9𝑦\,_{\sqrt{3}−\sqrt{3}}^{}−𝑦^{3}\,_{\sqrt{3}−\sqrt{3}}^{} \\ & =9(\sqrt{3}−(−\sqrt{3}))−((\sqrt{3})^{3}−(−\sqrt{3})^{3}) \\ & =18\sqrt{3}−6\sqrt{3} \\ & =12\sqrt{3}\end{aligned}
 
 
 $$

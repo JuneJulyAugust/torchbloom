@@ -20,7 +20,7 @@ We need to do the reverse operation of differentiation, which is integration. So
 $$
 
 
-a(t) = \frac{\textrm{d}v}{\textrm{d}t} \quad\Longrightarrow\quad v(t) = \int a(t)\textrm{d}t.
+a(t) = \frac{\text{d}v}{\text{d}t} \quad\Longrightarrow\quad v(t) = \int a(t)\text{d}t.
 
 
 $$
@@ -61,7 +61,7 @@ Therefore, the velocity $v$ of the particle at time $t$ is $v(t) = \dfrac{4}{3}t
 
 #### Question
 
-A particle moves along a straight line relative to a fixed origin $O$ with acceleration, measured in $\textrm m / \textrm s^2,$ given by the function $a(t) =2e^{-t}+6t^2$, where $t$ is the time in seconds. If the particle has velocity $v=-4 \,\textrm m / \textrm s$ when $t=0 \,\textrm s,$ calculate the speed of the particle at the moment $t=1\,\textrm{s}.$
+A particle moves along a straight line relative to a fixed origin $O$ with acceleration, measured in $\textrm m / \textrm s^2,$ given by the function $a(t) =2e^{-t}+6t^2$, where $t$ is the time in seconds. If the particle has velocity $v=-4 \,\textrm m / \textrm s$ when $t=0 \,\textrm s,$ calculate the speed of the particle at the moment $t=1\,\text{s}.$
 
 #### Explanation
 
@@ -87,7 +87,7 @@ $$
 
 Therefore, the velocity $v$ of the particle at time $t$ is $v(t) = -2 e^{-t}+ 2t^3 -2.$
 
-We evaluate the velocity at time $t=1\,\textrm{s}\mathbin{:}$
+We evaluate the velocity at time $t=1\,\text{s}\mathbin{:}$
 
 $$
 
@@ -97,4 +97,4 @@ $$
 
 $$
 
-Finally, since the speed is equal to $|v(t)|,$ we conclude that the speed of the particle is $\dfrac 2 e\,\textrm{m/s}.$
+Finally, since the speed is equal to $|v(t)|,$ we conclude that the speed of the particle is $\dfrac 2 e\,\text{m/s}.$

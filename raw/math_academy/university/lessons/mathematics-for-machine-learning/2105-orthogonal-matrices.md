@@ -35,7 +35,7 @@ For instance, the matrix
 $$
 
 
-\begin{aligned}\frac{\sqrt{√3}}{2} & −\frac{1}{2} \\ \frac{1}{2} & \frac{\sqrt{√3}}{2}\end{aligned}
+\begin{aligned}\frac{\sqrt{3}}{2} & −\frac{1}{2} \\ \frac{1}{2} & \frac{\sqrt{3}}{2}\end{aligned}
 
 
 $$
@@ -45,7 +45,7 @@ is orthogonal since its columns
 $$
 
 
-\begin{aligned}\frac{\sqrt{√3}}{2} \\ \frac{1}{2}\end{aligned}
+\begin{aligned}\frac{\sqrt{3}}{2} \\ \frac{1}{2}\end{aligned}
 
 
 $$
@@ -85,7 +85,7 @@ Let's see an example of applying this theorem.
 $$
 
 
-\begin{aligned}\frac{1}{\sqrt{√2}} & −\frac{1}{\sqrt{√2}} \\ \frac{1}{\sqrt{√2}} & \frac{1}{\sqrt{√2}}\end{aligned}
+\begin{aligned}\frac{1}{\sqrt{2}} & −\frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}}\end{aligned}
 
 
 $$
@@ -158,7 +158,7 @@ These properties explain why orthogonal matrices are desirable. We can always fi
 
 #### Question
 
-Find the inverse of the orthogonal matrix $\begin{aligned}\frac{1}{\sqrt{√2}} & \frac{1}{\sqrt{√2}} \\ −\frac{1}{\sqrt{√2}} & \frac{1}{\sqrt{√2}}\end{aligned}$
+Find the inverse of the orthogonal matrix $\begin{aligned}\frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}} \\ −\frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}}\end{aligned}$
 
 #### Explanation
 
@@ -169,7 +169,7 @@ Therefore, since $D$ is orthogonal, we have
 $$
 
 
-\begin{aligned}𝐷^{−1} & =𝐷^{𝑇}=\begin{aligned}\frac{1}{\sqrt{√2}} & −\frac{1}{\sqrt{√2}} \\ \frac{1}{\sqrt{√2}} & \frac{1}{\sqrt{√2}}\end{aligned}.\end{aligned}
+\begin{aligned}𝐷^{−1} & =𝐷^{𝑇}=\begin{matrix}\frac{1}{\sqrt{2}} & −\frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}}\end{matrix}.\end{aligned}
 
 
 $$
@@ -195,12 +195,12 @@ Orthogonal matrices also have the following important properties:
 $$
 
 
-\begin{aligned}\frac{2}{\sqrt{√13}} & −\frac{3}{\sqrt{√13}} \\ \frac{3}{\sqrt{√13}} & \frac{2}{\sqrt{√13}}\end{aligned}
+\begin{aligned}\frac{2}{\sqrt{13}} & −\frac{3}{\sqrt{13}} \\ \frac{3}{\sqrt{13}} & \frac{2}{\sqrt{13}}\end{aligned}
 
 
 $$
 
-Find $|\textrm{det}(PQ)|$ given that $P$ is an orthogonal matrix.
+Find $|\text{det}(PQ)|$ given that $P$ is an orthogonal matrix.
 
 #### Explanation
 
@@ -215,7 +215,7 @@ Applying these ideas, we get the following:
 $$
 
 
-\begin{aligned}|det(𝑃𝑄)| & =|det(𝑃)⋅det(𝑄)| \\ & =|(±1)⋅det(𝑄)| \\ & =|±1|⋅|det(𝑄)| \\ & =|det(𝑄)| \\ & =|(−2\sqrt{√3})⋅3\sqrt{√3}−2⋅1| \\ & =|−18−2| \\ & =|−20| \\ & =20\end{aligned}
+\begin{aligned}|det(𝑃𝑄)| & =|det(𝑃)⋅det(𝑄)| \\ & =|(±1)⋅det(𝑄)| \\ & =|±1|⋅|det(𝑄)| \\ & =|det(𝑄)| \\ & =|(−2\sqrt{3})⋅3\sqrt{3}−2⋅1| \\ & =|−18−2| \\ & =|−20| \\ & =20\end{aligned}
 
 
 $$

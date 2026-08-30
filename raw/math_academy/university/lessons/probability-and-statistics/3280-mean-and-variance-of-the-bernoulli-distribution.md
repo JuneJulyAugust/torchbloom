@@ -80,9 +80,9 @@ Betty will pass a trigonometry course if she answers the final question on her e
 
 Let the random variable $X$ represent whether Betty passes the course: $X=1$ if she passes and $X=0$ if she doesn't. We wish to compute $P(X = 1).$
 
-We know that Betty passes if she answers the last question correctly, which happens with probability $p = \dfrac{1}{3}.$ So, we have $X \sim \textrm{Bernoulli} \left(\dfrac{1}{3} \right).$
+We know that Betty passes if she answers the last question correctly, which happens with probability $p = \dfrac{1}{3}.$ So, we have $X \sim \text{Bernoulli} \left(\dfrac{1}{3} \right).$
 
-If $X \sim \textrm{Bernoulli}(p),$ then $X$ has the following probability mass function:
+If $X \sim \text{Bernoulli}(p),$ then $X$ has the following probability mass function:
 
 $$
 
@@ -92,7 +92,7 @@ $$
 
 $$
 
-Here, $X \sim \textrm{Bernoulli} \left(\dfrac{1}{3} \right),$ so the distribution of $X$ in this case is
+Here, $X \sim \text{Bernoulli} \left(\dfrac{1}{3} \right),$ so the distribution of $X$ in this case is
 
 $$
 
@@ -114,17 +114,17 @@ $$
 
 ### Mean and Variance of the Bernoulli Distribution
 
-It can be shown that if $X\sim \textrm{Bernoulli}(p),$ then
+It can be shown that if $X\sim \text{Bernoulli}(p),$ then
 
 $$
 
 
-\textrm{E}[X] = p, \qquad \textrm{Var}[X] = p(1-p).
+\text{E}[X] = p, \qquad \text{Var}[X] = p(1-p).
 
 
 $$
 
-We'll now prove these two results. First, recall that if $X\sim \textrm{Bernoulli}(p),$ then the PMF of $X$ is given by
+We'll now prove these two results. First, recall that if $X\sim \text{Bernoulli}(p),$ then the PMF of $X$ is given by
 
 $$
 
@@ -159,7 +159,7 @@ For the variance, we first recall that
 $$
 
 
-\textrm{Var}[X] = \textrm E[X^2] - \left(\textrm{E}[X]\right)^2.
+\text{Var}[X] = \textrm E[X^2] - \left(\text{E}[X]\right)^2.
 
 
 $$
@@ -182,9 +182,9 @@ George is playing poker with his friends. He wins if he gets a queen from a shuf
 
 #### Explanation
 
-We know that George wins if the first card from the deck is a queen, which happens with probability $p = \dfrac{4}{24} = \dfrac{1}{6}.$ So, we have $X \sim \textrm{Bernoulli} \left(\dfrac{1}{6} \right).$
+We know that George wins if the first card from the deck is a queen, which happens with probability $p = \dfrac{4}{24} = \dfrac{1}{6}.$ So, we have $X \sim \text{Bernoulli} \left(\dfrac{1}{6} \right).$
 
-We wish to compute $\textrm E[X].$ In general, if $X \sim \textrm{Bernoulli}(p),$ then
+We wish to compute $\textrm E[X].$ In general, if $X \sim \text{Bernoulli}(p),$ then
 
 $$
 
@@ -212,14 +212,14 @@ Sarah knows $56\%$ of the emails she receives are spam. Let $X$ represent whethe
 
 #### Explanation
 
-We know that Sarah receives a spam email with probability $p =56\% = 0.56.$ So, we have $X \sim \textrm{Bernoulli} \left(0.56 \right).$
+We know that Sarah receives a spam email with probability $p =56\% = 0.56.$ So, we have $X \sim \text{Bernoulli} \left(0.56 \right).$
 
-We wish to compute $\textrm{SD}[X].$ In general, if $X \sim \textrm{Bernoulli}(p),$ then
+We wish to compute $\text{SD}[X].$ In general, if $X \sim \text{Bernoulli}(p),$ then
 
 $$
 
 
-\textrm{SD}[X] = \sqrt{p(1-p)}.
+\text{SD}[X] = \sqrt{p(1-p)}.
 
 
 $$
@@ -229,7 +229,7 @@ Therefore, in this case, we have
 $$
 
 
-\textrm{SD}[X] = \sqrt{\left(0.56\right)\left(0.44\right)} \approx 0.496
+\text{SD}[X] = \sqrt{\left(0.56\right)\left(0.44\right)} \approx 0.496
 
 
 $$

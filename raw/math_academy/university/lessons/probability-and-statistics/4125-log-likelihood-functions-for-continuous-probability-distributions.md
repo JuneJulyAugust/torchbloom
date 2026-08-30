@@ -235,7 +235,7 @@ First, let's write down the log-density function:
 $$
 
 
-\begin{aligned}ln⁡𝑓(𝑥,𝜃) & =ln⁡(\frac{1}{\sqrt{√2𝜋}}𝑒^{−(𝑥−𝜃)^{2}/2}) \\ & =ln⁡(\frac{1}{\sqrt{√2𝜋}})+ln⁡(𝑒^{−(𝑥−𝜃)^{2}/2}) \\ & =−\frac{1}{2}ln⁡(2𝜋)−\frac{(𝑥−𝜃)^{2}}{2}\end{aligned}
+\begin{aligned}ln⁡𝑓(𝑥,𝜃) & =ln⁡(\frac{1}{\sqrt{2𝜋}}𝑒^{−(𝑥−𝜃)^{2}/2}) \\ & =ln⁡(\frac{1}{\sqrt{2𝜋}})+ln⁡(𝑒^{−(𝑥−𝜃)^{2}/2}) \\ & =−\frac{1}{2}ln⁡(2𝜋)−\frac{(𝑥−𝜃)^{2}}{2}\end{aligned}
 
 
 $$
@@ -245,7 +245,7 @@ Now, we can calculate the log-likelihood function as follows:
 $$
 
 
-\begin{aligned}𝑙(𝜃) & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}(−\frac{1}{2}ln⁡(2𝜋)−\frac{(𝑥_{𝑖}−𝜃)^{2}}{2}) \\ & =−\frac{𝑛}{2}ln⁡(2𝜋)−\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}\frac{(𝑥_{𝑖}−𝜃)^{2}}{2} \\ & =−\frac{𝑛}{2}ln⁡(2𝜋)−\frac{1}{2}(\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{2𝑖}^{}−2𝜃\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{𝑖}+𝑛𝜃^{2})\end{aligned}
+\begin{aligned}𝑙(𝜃) & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}(−\frac{1}{2}ln⁡(2𝜋)−\frac{(𝑥_{𝑖}−𝜃)^{2}}{2}) \\ & =−\frac{𝑛}{2}ln⁡(2𝜋)−\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}\frac{(𝑥_{𝑖}−𝜃)^{2}}{2} \\ & =−\frac{𝑛}{2}ln⁡(2𝜋)−\frac{1}{2}(\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{2𝑖}−2𝜃\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{𝑖}+𝑛𝜃^{2})\end{aligned}
 
 
 $$

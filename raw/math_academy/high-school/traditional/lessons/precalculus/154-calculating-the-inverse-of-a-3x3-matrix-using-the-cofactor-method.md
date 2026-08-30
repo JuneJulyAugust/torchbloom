@@ -99,7 +99,7 @@ $$
 
 
 
-\begin{aligned}det(𝐴)=\begin{aligned}0 & 1 & 2 \\ 1 & 0 & 3 \\ 4 & −3 & 8\end{aligned} & =0\begin{aligned}0 & 3 \\ −3 & 8\end{aligned}−1\begin{aligned}1 & 3 \\ 4 & 8\end{aligned}+2\begin{aligned}1 & 0 \\ 4 & −3\end{aligned} \\ & =0−(8−12)+2(−3−0) \\ & =−2\end{aligned}
+\begin{aligned}det(𝐴)=\begin{matrix}0 & 1 & 2 \\ 1 & 0 & 3 \\ 4 & −3 & 8\end{matrix} & =0\begin{matrix}0 & 3 \\ −3 & 8\end{matrix}−1\begin{matrix}1 & 3 \\ 4 & 8\end{matrix}+2\begin{matrix}1 & 0 \\ 4 & −3\end{matrix} \\ & =0−(8−12)+2(−3−0) \\ & =−2\end{aligned}
 
 
 
@@ -111,7 +111,7 @@ $$
 
 
 
-\begin{aligned}𝑀 & =\begin{aligned}\begin{aligned}0 & 3 \\ −3 & 8\end{aligned} & \begin{aligned}1 & 3 \\ 4 & 8\end{aligned} & \begin{aligned}1 & 0 \\ 4 & −3\end{aligned} \\ \begin{aligned}1 & 2 \\ −3 & 8\end{aligned} & \begin{aligned}0 & 2 \\ 4 & 8\end{aligned} & \begin{aligned}0 & 1 \\ 4 & −3\end{aligned} \\ \begin{aligned}1 & 2 \\ 0 & 3\end{aligned} & \begin{aligned}0 & 2 \\ 1 & 3\end{aligned} & \begin{aligned}0 & 1 \\ 1 & 0\end{aligned}\end{aligned} \\ & =\begin{aligned}9 & −4 & −3 \\ 14 & −8 & −4 \\ 3 & −2 & −1\end{aligned}\end{aligned}
+\begin{aligned}𝑀 & =\begin{matrix}\begin{matrix}0 & 3 \\ −3 & 8\end{matrix} & \begin{matrix}1 & 3 \\ 4 & 8\end{matrix} & \begin{matrix}1 & 0 \\ 4 & −3\end{matrix} \\ \begin{matrix}1 & 2 \\ −3 & 8\end{matrix} & \begin{matrix}0 & 2 \\ 4 & 8\end{matrix} & \begin{matrix}0 & 1 \\ 4 & −3\end{matrix} \\ \begin{matrix}1 & 2 \\ 0 & 3\end{matrix} & \begin{matrix}0 & 2 \\ 1 & 3\end{matrix} & \begin{matrix}0 & 1 \\ 1 & 0\end{matrix}\end{matrix} \\ & =\begin{matrix}9 & −4 & −3 \\ 14 & −8 & −4 \\ 3 & −2 & −1\end{matrix}\end{aligned}
 
 
 
@@ -147,7 +147,7 @@ $$
 
 
 
-\begin{aligned}𝐴^{−1} & =\frac{1}{det(𝐴)}𝐶^{𝑇} \\ & =\frac{1}{−2}\begin{aligned}9 & −14 & 3 \\ 4 & −8 & 2 \\ −3 & 4 & −1\end{aligned} \\ & =−\frac{1}{2}\begin{aligned}9 & −14 & 3 \\ 4 & −8 & 2 \\ −3 & 4 & −1\end{aligned} \\ & =\begin{aligned}−\frac{9}{2} & 7 & −\frac{3}{2} \\ −2 & 4 & −1 \\ \frac{3}{2} & −2 & \frac{1}{2}\end{aligned}\end{aligned}
+\begin{aligned}𝐴^{−1} & =\frac{1}{det(𝐴)}𝐶^{𝑇} \\ & =\frac{1}{−2}\begin{matrix}9 & −14 & 3 \\ 4 & −8 & 2 \\ −3 & 4 & −1\end{matrix} \\ & =−\frac{1}{2}\begin{matrix}9 & −14 & 3 \\ 4 & −8 & 2 \\ −3 & 4 & −1\end{matrix} \\ & =\begin{matrix}−\frac{9}{2} & 7 & −\frac{3}{2} \\ −2 & 4 & −1 \\ \frac{3}{2} & −2 & \frac{1}{2}\end{matrix}\end{aligned}
 
 
 
@@ -197,7 +197,7 @@ $$
 
 
 
-\begin{aligned}det(𝐴)=\begin{aligned}−2 & 3 & −3 \\ 0 & 1 & 0 \\ 1 & −1 & 2\end{aligned} & =−2\begin{aligned}1 & 0 \\ −1 & 2\end{aligned}−3\begin{aligned}0 & 0 \\ 1 & 2\end{aligned}+(−3)\begin{aligned}0 & 1 \\ 1 & −1\end{aligned} \\ & =−2(2−0)−3(0−0)−3(0−1) \\ & =−1\end{aligned}
+\begin{aligned}det(𝐴)=\begin{matrix}−2 & 3 & −3 \\ 0 & 1 & 0 \\ 1 & −1 & 2\end{matrix} & =−2\begin{matrix}1 & 0 \\ −1 & 2\end{matrix}−3\begin{matrix}0 & 0 \\ 1 & 2\end{matrix}+(−3)\begin{matrix}0 & 1 \\ 1 & −1\end{matrix} \\ & =−2(2−0)−3(0−0)−3(0−1) \\ & =−1\end{aligned}
 
 
 
@@ -209,7 +209,7 @@ $$
 
 
 
-\begin{aligned}𝑐_{32} & =(−1)^{3+2}𝑀_{32} \\ & =(−1)^{5}\begin{aligned}−2 & −3 \\ 0 & 0\end{aligned} \\ & =−1⋅(0) \\ & =0.\end{aligned}
+\begin{aligned}𝑐_{32} & =(−1)^{3+2}𝑀_{32} \\ & =(−1)^{5}\begin{matrix}−2 & −3 \\ 0 & 0\end{matrix} \\ & =−1⋅(0) \\ & =0.\end{aligned}
 
 
 
@@ -241,7 +241,7 @@ $$
 
 
 
-\begin{aligned}det(𝐴)=\begin{aligned}3 & 2 & −2 \\ −2 & 𝑘 & 0 \\ −1 & −3 & 3\end{aligned} & =3\begin{aligned}𝑘 & 0 \\ −3 & 3\end{aligned}−2\begin{aligned}−2 & 0 \\ −1 & 3\end{aligned}+(−2)\begin{aligned}−2 & 𝑘 \\ −1 & −3\end{aligned} \\ & =3(3𝑘−0)−2(−6−0)−2(6+𝑘) \\ & =9𝑘+12−12−2𝑘 \\ & =7𝑘.\end{aligned}
+\begin{aligned}det(𝐴)=\begin{matrix}3 & 2 & −2 \\ −2 & 𝑘 & 0 \\ −1 & −3 & 3\end{matrix} & =3\begin{matrix}𝑘 & 0 \\ −3 & 3\end{matrix}−2\begin{matrix}−2 & 0 \\ −1 & 3\end{matrix}+(−2)\begin{matrix}−2 & 𝑘 \\ −1 & −3\end{matrix} \\ & =3(3𝑘−0)−2(−6−0)−2(6+𝑘) \\ & =9𝑘+12−12−2𝑘 \\ & =7𝑘.\end{aligned}
 
 
 
@@ -253,7 +253,7 @@ $$
 
 
 
-\begin{aligned}𝑐_{13} & =(−1)^{1+3}\begin{aligned}−2 & 𝑘 \\ −1 & −3\end{aligned} \\ & =\begin{aligned}−2 & 𝑘 \\ −1 & −3\end{aligned} \\ & =6+𝑘.\end{aligned}
+\begin{aligned}𝑐_{13} & =(−1)^{1+3}\begin{matrix}−2 & 𝑘 \\ −1 & −3\end{matrix} \\ & =\begin{matrix}−2 & 𝑘 \\ −1 & −3\end{matrix} \\ & =6+𝑘.\end{aligned}
 
 
 
@@ -265,7 +265,7 @@ $$
 
 
 
-\begin{aligned}𝑎_{′31}^{} & =\frac{1}{det(𝐴)}𝑐_{13} \\ & =\frac{1}{7𝑘}⋅(6+𝑘) \\ & =\frac{6+𝑘}{7𝑘}.\end{aligned}
+\begin{aligned}𝑎_{′31} & =\frac{1}{det(𝐴)}𝑐_{13} \\ & =\frac{1}{7𝑘}⋅(6+𝑘) \\ & =\frac{6+𝑘}{7𝑘}.\end{aligned}
 
 
 

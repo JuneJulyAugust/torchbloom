@@ -16,7 +16,7 @@ The fundamental theorem of line integrals states that
 $$
 
 
-\int_{C} \nabla f \cdot \textrm{d}\mathbf r = f(\mathbf r(b)) - f(\mathbf r(a))
+\int_{C} \nabla f \cdot \text{d}\mathbf r = f(\mathbf r(b)) - f(\mathbf r(a))
 
 
 $$
@@ -25,7 +25,7 @@ where $C$ is a piecewise-smooth curve $\mathbf r(t)$ for $t\in [a,b],$ and $f$ i
 
 This theorem tells us that the line integral of a conservative vector field $\mathbf{F} = \nabla f$ is determined by the values of $f$ at the endpoints $A$ and $B$ of $C$ only. The integral does *not* depend on the path between $A$ and $B.$
 
-In particular, if $\mathbf F$ is conservative, then we say that $\displaystyle\int_{C} \mathbf F \cdot \textrm{d}\mathbf r$ is **path-independent.**
+In particular, if $\mathbf F$ is conservative, then we say that $\displaystyle\int_{C} \mathbf F \cdot \text{d}\mathbf r$ is **path-independent.**
 
 ### Example: Calculating a Line Integral Over an Arbitrary Path
 
@@ -40,7 +40,7 @@ Let $C$ be a piecewise-smooth curve given by the vector-valued function $\mathbf
 $$
 
 
-\int_{C} \nabla f \cdot \textrm{d}\mathbf r = f(\mathbf r(b)) - f(\mathbf r(a)).
+\int_{C} \nabla f \cdot \text{d}\mathbf r = f(\mathbf r(b)) - f(\mathbf r(a)).
 
 
 $$
@@ -72,7 +72,7 @@ Let $C$ be a piecewise-smooth curve given by the vector-valued function $\mathbf
 $$
 
 
-\int_{C} \nabla f \cdot \textrm{d}\mathbf r = f(\mathbf r(b)) - f(\mathbf r(a)).
+\int_{C} \nabla f \cdot \text{d}\mathbf r = f(\mathbf r(b)) - f(\mathbf r(a)).
 
 
 $$
@@ -134,7 +134,7 @@ Let $C$ be a piecewise-smooth curve given by the vector-valued function $\mathbf
 $$
 
 
-\int_{C} \nabla f \cdot \textrm{d}\mathbf r = f(\mathbf r(b)) - f(\mathbf r(a)).
+\int_{C} \nabla f \cdot \text{d}\mathbf r = f(\mathbf r(b)) - f(\mathbf r(a)).
 
 
 $$

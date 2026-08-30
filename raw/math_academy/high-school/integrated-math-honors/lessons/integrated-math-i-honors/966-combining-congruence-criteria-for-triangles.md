@@ -59,7 +59,7 @@ Now, we have
 $$
 
 
-\underbrace{\angle A \cong \angle D}_{\textrm{Angle}}, \qquad \underbrace{\overline{AB}\cong \overline{DE}}_{\textrm{(included) Side}}, \qquad \underbrace{\angle B \cong \angle E}_{\textrm{Angle}}.
+\underbrace{\angle A \cong \angle D}_{\text{Angle}}, \qquad \underbrace{\overline{AB}\cong \overline{DE}}_{\text{(included) Side}}, \qquad \underbrace{\angle B \cong \angle E}_{\text{Angle}}.
 
 
 $$
@@ -89,7 +89,7 @@ Now, we have
 $$
 
 
-\underbrace{\overline{PR}\cong \overline{PN}}_{\textrm{Side}}\,, \qquad \underbrace{\angle QPR \cong \angle MPN}_{\textrm{(included) Angle}}\,, \qquad \underbrace{\overline{PQ}\cong \overline{PM}}_{\textrm{Side}}\,.
+\underbrace{\overline{PR}\cong \overline{PN}}_{\text{Side}}\,, \qquad \underbrace{\angle QPR \cong \angle MPN}_{\text{(included) Angle}}\,, \qquad \underbrace{\overline{PQ}\cong \overline{PM}}_{\text{Side}}\,.
 
 
 $$
@@ -119,7 +119,7 @@ Next, we have
 $$
 
 
-\underbrace{m\angle{C} = m\angle{D} = 90^\circ}_{\textrm{Right angle}}\,, \qquad \underbrace{\overline{AB} \cong \overline{AB}}_{\textrm{Hypotenuse}}\,, \qquad \underbrace{\overline{BC}\cong \overline{BD}}_{\textrm{Leg}}\,.
+\underbrace{m\angle{C} = m\angle{D} = 90^\circ}_{\text{Right angle}}\,, \qquad \underbrace{\overline{AB} \cong \overline{AB}}_{\text{Hypotenuse}}\,, \qquad \underbrace{\overline{BC}\cong \overline{BD}}_{\text{Leg}}\,.
 
 
 $$

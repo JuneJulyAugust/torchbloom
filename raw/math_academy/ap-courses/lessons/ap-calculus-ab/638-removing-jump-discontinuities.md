@@ -107,7 +107,7 @@ In order for $f(x)$ to be continuous at $x=2,$ we require that
 $$
 
 
-\begin{aligned}\underset{𝑥→2^{−}}{lim}𝑓(𝑥) & =\underset{𝑥→2^{+}}{lim}𝑓(𝑥) \\ (4+𝑎)^{2} & =1 \\ \sqrt{√(𝑎+4)^{2}} & =\sqrt{√1} \\ |𝑎+4| & =1 \\ 𝑎+4 & =±1 \\ 𝑎 & =−4±1 \\ 𝑎 & =−5,−3.\end{aligned}
+\begin{aligned}\underset{𝑥→2^{−}}{lim}𝑓(𝑥) & =\underset{𝑥→2^{+}}{lim}𝑓(𝑥) \\ (4+𝑎)^{2} & =1 \\ \sqrt{(𝑎+4)^{2}} & =\sqrt{1} \\ |𝑎+4| & =1 \\ 𝑎+4 & =±1 \\ 𝑎 & =−4±1 \\ 𝑎 & =−5,−3.\end{aligned}
 
 
 $$
@@ -123,7 +123,7 @@ Given that the function
 $$
 
 
-\begin{aligned}\sqrt{√2𝑏−3𝑥}, & 𝑥≤0 \\ −𝑥+2, & 𝑥>0\end{aligned}
+\begin{aligned}\sqrt{2𝑏−3𝑥}, & 𝑥≤0 \\ −𝑥+2, & 𝑥>0\end{aligned}
 
 
 $$
@@ -137,7 +137,7 @@ At $x=0,$ the left-sided limit is
 $$
 
 
-\begin{aligned}\underset{𝑥→0^{−}}{lim}𝑓(𝑥) & =\underset{𝑥→0^{−}}{lim}\sqrt{√2𝑏−3𝑥} \\ & =\sqrt{√2𝑏−3(0)} \\ & =\sqrt{√2𝑏},\end{aligned}
+\begin{aligned}\underset{𝑥→0^{−}}{lim}𝑓(𝑥) & =\underset{𝑥→0^{−}}{lim}\sqrt{2𝑏−3𝑥} \\ & =\sqrt{2𝑏−3(0)} \\ & =\sqrt{2𝑏},\end{aligned}
 
 
 $$
@@ -157,7 +157,7 @@ In order for $f(x)$ to be continuous at $x=0,$ we require that
 $$
 
 
-\begin{aligned}\underset{𝑥→0^{−}}{lim}𝑓(𝑥) & =\underset{𝑥→0^{+}}{lim}𝑓(𝑥) \\ 2 & =\sqrt{√2𝑏} \\ 4 & =2𝑏 \\ 𝑏 & =2.\end{aligned}
+\begin{aligned}\underset{𝑥→0^{−}}{lim}𝑓(𝑥) & =\underset{𝑥→0^{+}}{lim}𝑓(𝑥) \\ 2 & =\sqrt{2𝑏} \\ 4 & =2𝑏 \\ 𝑏 & =2.\end{aligned}
 
 
 $$

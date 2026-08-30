@@ -32,7 +32,7 @@ For the function graphed above, the left-sided limit is
 $$
 
 
-\lim_\limits{x\rightarrow \,-1^{-}}f(x)=-4
+\lim\limits_{x\rightarrow \,-1^{-}}f(x)=-4
 
 
 $$
@@ -42,17 +42,17 @@ and the right-sided limit is
 $$
 
 
-\lim_\limits{x\rightarrow \,-1^{+}}f(x)=-3 \,.
+\lim\limits_{x\rightarrow \,-1^{+}}f(x)=-3 \,.
 
 
 $$
 
-At the same time, if we consider the point $x=-5,$ we note that the left-sided limit at this point does not exist because the function to the left of $x=-5$ is not defined. If the limit **does not exist**, we usually denote it using the abbreviation $\textrm{DNE}{:}$
+At the same time, if we consider the point $x=-5,$ we note that the left-sided limit at this point does not exist because the function to the left of $x=-5$ is not defined. If the limit **does not exist**, we usually denote it using the abbreviation $\text{DNE}{:}$
 
 $$
 
 
-\lim_\limits{x\rightarrow \,-5^{-}}f(x)=\textrm{DNE}
+\lim\limits_{x\rightarrow \,-5^{-}}f(x)=\text{DNE}
 
 
 $$
@@ -74,7 +74,7 @@ As $x$ approaches $0$ from the **, the function $f(x)$ approaches $1.$ Therefore
 $$
 
 
-\lim_\limits{x\rightarrow \,0^{-}}f(x) = 1 \, .
+\lim\limits_{x\rightarrow \,0^{-}}f(x) = 1 \, .
 
 
 $$
@@ -84,7 +84,7 @@ Likewise, as $x$ approaches $0$ from the **, the function $f(x)$ approaches $1.$
 $$
 
 
-\lim_\limits{x\rightarrow \,0^{+}}f(x) = 1 \, .
+\lim\limits_{x\rightarrow \,0^{+}}f(x) = 1 \, .
 
 
 $$
@@ -94,7 +94,7 @@ In conclusion, we have
 $$
 
 
-\lim_\limits{x\rightarrow \,0^{-}}f(x)=\lim_\limits{x\rightarrow \,0^{+}}f(x)=1 \,.
+\lim\limits_{x\rightarrow \,0^{-}}f(x)=\lim\limits_{x\rightarrow \,0^{+}}f(x)=1 \,.
 
 
 $$
@@ -114,7 +114,7 @@ We see from the graph that, approaching $x=-2$ from the right, the function appr
 $$
 
 
-\lim_\limits{x\rightarrow \,-2^{-}}f(x)=\text{DNE}\,,\quad\lim_\limits{x\rightarrow \,-2^{+}}f(x)=4 \,.
+\lim\limits_{x\rightarrow \,-2^{-}}f(x)=\text{DNE}\,,\quad\lim\limits_{x\rightarrow \,-2^{+}}f(x)=4 \,.
 
 
 $$
@@ -124,7 +124,7 @@ On the other hand, approaching $x=2$ from the left, the function approaches the 
 $$
 
 
-\lim_\limits{x\rightarrow 2^{-}}f(x)=2\,,\quad\lim_\limits{x\rightarrow \,2^{+}}f(x)=\text{DNE} \,.
+\lim\limits_{x\rightarrow 2^{-}}f(x)=2\,,\quad\lim\limits_{x\rightarrow \,2^{+}}f(x)=\text{DNE} \,.
 
 
 $$
@@ -161,11 +161,11 @@ $$
 
 Which of the following statements are true concerning the function $y=f(x)$ whose graph is shown below?
 
-1. $\lim_\limits{x\rightarrow \,0^-}f(x)=\lim_\limits{x\rightarrow \,1^+}f(x)$
+1. $\lim\limits_{x\rightarrow \,0^-}f(x)=\lim\limits_{x\rightarrow \,1^+}f(x)$
 
-2. $\lim_\limits{x\rightarrow \,0^+}f(x)=\lim_\limits{x\rightarrow \,1^+}f(x)$
+2. $\lim\limits_{x\rightarrow \,0^+}f(x)=\lim\limits_{x\rightarrow \,1^+}f(x)$
 
-3. $\lim_\limits{x\rightarrow \,0^+}f(x)=\lim_\limits{x\rightarrow \,1^-}f(x)$
+3. $\lim\limits_{x\rightarrow \,0^+}f(x)=\lim\limits_{x\rightarrow \,1^-}f(x)$
 
 ![Instructional graphic](../../../lesson-assets/mathematical-foundations-ii/topic-472/2e94915113d120b9.png)
 
@@ -178,7 +178,7 @@ Looking at the graph, as $x$ approaches $0$ from the left, the function value $f
 $$
 
 
-\lim_\limits{x\rightarrow \,0^-}f(x)=0, \qquad \lim_\limits{x\rightarrow \,0^+}f(x)=\text{DNE} \, .
+\lim\limits_{x\rightarrow \,0^-}f(x)=0, \qquad \lim\limits_{x\rightarrow \,0^+}f(x)=\text{DNE} \, .
 
 
 $$
@@ -188,17 +188,17 @@ On the other hand, as $x$ approaches $1$ from the left, the function value $f(x)
 $$
 
 
-\lim_\limits{x\rightarrow \,1^-}f(x)=\text{DNE}, \qquad \lim_\limits{x\rightarrow \,1^+}f(x)=0 \, .
+\lim\limits_{x\rightarrow \,1^-}f(x)=\text{DNE}, \qquad \lim\limits_{x\rightarrow \,1^+}f(x)=0 \, .
 
 
 $$
 
 Now, let's look at each statement in turn.
 
-I. $\lim_\limits{x\rightarrow \,0^-}f(x)=\lim_\limits{x\rightarrow \,1^+}f(x)$ becomes $0=0,$ which is true.
+I. $\lim\limits_{x\rightarrow \,0^-}f(x)=\lim\limits_{x\rightarrow \,1^+}f(x)$ becomes $0=0,$ which is true.
 
-II. $\lim_\limits{x\rightarrow \,0^+}f(x)=\lim_\limits{x\rightarrow \,1^+}f(x)$ becomes $\text{DNE}=0,$ which is false.
+II. $\lim\limits_{x\rightarrow \,0^+}f(x)=\lim\limits_{x\rightarrow \,1^+}f(x)$ becomes $\text{DNE}=0,$ which is false.
 
-III. $\lim_\limits{x\rightarrow \,0^+}f(x)=\lim_\limits{x\rightarrow \,1^-}f(x)$ becomes $\text{DNE}=\text{DNE},$ which is false because we can't compare the undefined values.
+III. $\lim\limits_{x\rightarrow \,0^+}f(x)=\lim\limits_{x\rightarrow \,1^-}f(x)$ becomes $\text{DNE}=\text{DNE},$ which is false because we can't compare the undefined values.
 
 Therefore, only statement I is true.

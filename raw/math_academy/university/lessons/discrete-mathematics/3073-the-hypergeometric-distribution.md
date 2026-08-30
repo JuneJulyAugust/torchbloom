@@ -20,7 +20,7 @@ $$
 
 
 
-\stackrel{\color{green}{\checkmark}}{\textrm{blue}},\qquad {\color{black}{\textrm{orange}}},\qquad \stackrel{\color{green}{\checkmark}}{\textrm{blue}}
+\stackrel{\color{green}{\checkmark}}{\text{blue}},\qquad {\color{black}{\text{orange}}},\qquad \stackrel{\color{green}{\checkmark}}{\text{blue}}
 
 
 
@@ -48,7 +48,7 @@ The denominator represents all possible ways to choose $3$ candies from $10,$ wh
 
 To calculate this probability, we proceed as follows:
 
-- **Step 1**: Determine the number of samples of size $3$ containing $2$ blue candies: The number of ways of selecting $2$ blue candies from a total of $4$ in the population is given by The number of ways of selecting $1$ orange candy from a total of $6$ in the population is So, by the *rule of product,* the number of samples of size $3$ with precisely $2$ blue candies is (Note. The symbol $\textrm{#}$ is shorthand for "number").
+- **Step 1**: Determine the number of samples of size $3$ containing $2$ blue candies: The number of ways of selecting $2$ blue candies from a total of $4$ in the population is given by The number of ways of selecting $1$ orange candy from a total of $6$ in the population is So, by the *rule of product,* the number of samples of size $3$ with precisely $2$ blue candies is (Note. The symbol $\text{\#}$ is shorthand for "number").
 
 - **Step 2**: Determine the total number of samples of size $3.$ This is simply the number of ways of selecting $3$ objects from a population of $10.$ This is given by
 
@@ -60,7 +60,7 @@ $$
 
 
 
-X \sim \textrm{Hypergeometric}(N, K, n).
+X \sim \text{Hypergeometric}(N, K, n).
 
 
 
@@ -72,7 +72,7 @@ $$
 
 
 
-X\sim \textrm{Hypergeometric}(10, 4, 3),
+X\sim \text{Hypergeometric}(10, 4, 3),
 
 
 
@@ -122,7 +122,7 @@ $$
 
 
 
-\begin{aligned}𝑃(𝑋=5) & =\frac{# of samples of size 9 with precisely 5 quarters}{# of samples of size 9} \\ & =\frac{(\frac{18}{5})⋅(\frac{12}{4})}{5}.\end{aligned}
+\begin{aligned}𝑃(𝑋=5) & =\frac{\# of samples of size 9 with precisely 5 quarters}{# of samples of size 9} \\ & =\frac{(\frac{18}{5})⋅(\frac{12}{4})}{5}.\end{aligned}
 
 
 
@@ -132,11 +132,11 @@ $$
 
 #### Question
 
-Given that $X \sim \textrm{Hypergeometric}(12, 7, 5),$ compute $P(X = 3).$ Round your answer to $3$ decimal places.
+Given that $X \sim \text{Hypergeometric}(12, 7, 5),$ compute $P(X = 3).$ Round your answer to $3$ decimal places.
 
 #### Explanation
 
-A hypergeometric random variable $X \sim \textrm{Hypergeometric}(N, K, n)$ counts the number of successes in a random sample of size $n,$ drawn without replacement from a population of size $N,$ which contains $K$ items with a successful characteristic.
+A hypergeometric random variable $X \sim \text{Hypergeometric}(N, K, n)$ counts the number of successes in a random sample of size $n,$ drawn without replacement from a population of size $N,$ which contains $K$ items with a successful characteristic.
 
 The probability that a sample of size $5$ contains precisely $3$ successes is given by
 
@@ -172,7 +172,7 @@ $$
 
 
 
-\begin{aligned}𝑃(𝑋=3) & =\frac{# of samples of size 5 with precisely 3 successes}{# of samples of size 5} \\ & =\frac{(\frac{7}{3})⋅(\frac{5}{2})}{3} \\ & =\frac{35⋅10}{792} \\ & ≈0.442.\end{aligned}
+\begin{aligned}𝑃(𝑋=3) & =\frac{\# of samples of size 5 with precisely 3 successes}{# of samples of size 5} \\ & =\frac{(\frac{7}{3})⋅(\frac{5}{2})}{3} \\ & =\frac{35⋅10}{792} \\ & ≈0.442.\end{aligned}
 
 
 
@@ -182,11 +182,11 @@ $$
 
 #### Question
 
-If $X \sim \textrm{Hypergeometric}(16, 7, 5)$ with $X \in \{0,\ldots,5\},$ find $P(X \lt 2)$ rounded to $3$ decimal places.
+If $X \sim \text{Hypergeometric}(16, 7, 5)$ with $X \in \{0,\ldots,5\},$ find $P(X \lt 2)$ rounded to $3$ decimal places.
 
 #### Explanation
 
-A hypergeometric random variable $X \sim \textrm{Hypergeometric}(N, K, n)$ counts the number of successes in a random sample of size $n,$ drawn without replacement from a population of size $N,$ which contains $K$ items with a successful characteristic.
+A hypergeometric random variable $X \sim \text{Hypergeometric}(N, K, n)$ counts the number of successes in a random sample of size $n,$ drawn without replacement from a population of size $N,$ which contains $K$ items with a successful characteristic.
 
 Firstly, since $X \in \{0,\ldots,5\},$ we have
 
@@ -220,7 +220,7 @@ $$
 
 
 
-\begin{aligned}𝑃(𝑋=0) & =\frac{# of samples of size 5 with precisely 0 successes}{# of samples of size 5} \\ & =\frac{# of ways to select 0 successes×# of ways to select 5 failures}{# of samples of size 5} \\ & =\frac{(\frac{7}{0})⋅(\frac{9}{5})}{0}.\end{aligned}
+\begin{aligned}𝑃(𝑋=0) & =\frac{\# of samples of size 5 with precisely 0 successes}{# of samples of size 5} \\ & =\frac{\# of ways to select 0 successes×# of ways to select 5 failures}{# of samples of size 5} \\ & =\frac{(\frac{7}{0})⋅(\frac{9}{5})}{0}.\end{aligned}
 
 
 
@@ -232,7 +232,7 @@ $$
 
 
 
-\begin{aligned}𝑃(𝑋=1) & =\frac{# of samples of size 5 with precisely 1 success}{# of samples of size 5} \\ & =\frac{# of ways to select 1 success×# of ways to select 4 failures}{# of samples of size 5} \\ & =\frac{(\frac{7}{1})⋅(\frac{9}{4})}{1}.\end{aligned}
+\begin{aligned}𝑃(𝑋=1) & =\frac{\# of samples of size 5 with precisely 1 success}{# of samples of size 5} \\ & =\frac{\# of ways to select 1 success×# of ways to select 4 failures}{# of samples of size 5} \\ & =\frac{(\frac{7}{1})⋅(\frac{9}{4})}{1}.\end{aligned}
 
 
 

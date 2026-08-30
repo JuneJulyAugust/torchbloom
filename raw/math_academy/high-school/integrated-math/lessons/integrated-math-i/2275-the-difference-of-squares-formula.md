@@ -30,7 +30,7 @@ $$
 
 
 
-\begin{aligned} ({\color{blue}a} + {\color{red}b})(a - b) &= \\\[5pt] {\color{blue}a}(a - b) + {\color{red}b}(a - b) &= \\\[5pt] a^2 - ab + ab - b^2 &= \\\[5pt] a^2 - b^2 \,& {\color{green}{\checkmark}} \end{aligned}
+\begin{aligned} ({\color{blue}a} + {\color{red}b})(a - b) &= \\[5pt] {\color{blue}a}(a - b) + {\color{red}b}(a - b) &= \\[5pt] a^2 - ab + ab - b^2 &= \\[5pt] a^2 - b^2 \,& {\color{green}{\checkmark}} \end{aligned}
 
 
 
@@ -76,7 +76,7 @@ $$
 
 
 
-\begin{aligned} (x + 3)(x - 3) &= \\\[5pt] x^2 - 3^2 &= \\\[5pt] x^2 - 9. \end{aligned}
+\begin{aligned} (x + 3)(x - 3) &= \\[5pt] x^2 - 3^2 &= \\[5pt] x^2 - 9. \end{aligned}
 
 
 
@@ -108,7 +108,7 @@ $$
 
 
 
-\begin{aligned} (5x - 4)(5x + 4) &= \\\[5pt] (5x)^2 - (4)^2 &= \\\[5pt] 25x^2 - 16. \end{aligned}
+\begin{aligned} (5x - 4)(5x + 4) &= \\[5pt] (5x)^2 - (4)^2 &= \\[5pt] 25x^2 - 16. \end{aligned}
 
 
 
@@ -140,7 +140,7 @@ $$
 
 
 
-\begin{aligned} (6x + y^2)(6x - y^2) &= \\\[5pt] (6x)^2 - \left(y^2\right)^2 &= \\\[5pt] 36x^2 - y^4. \end{aligned}
+\begin{aligned} (6x + y^2)(6x - y^2) &= \\[5pt] (6x)^2 - \left(y^2\right)^2 &= \\[5pt] 36x^2 - y^4. \end{aligned}
 
 
 

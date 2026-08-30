@@ -109,7 +109,7 @@ $$
 
 $$
 
-Since $5 \div 3 = 1 \, \textrm{R} \, 2,$ we can write the answer as a mixed number:
+Since $5 \div 3 = 1 \, \text{R} \, 2,$ we can write the answer as a mixed number:
 
 $$
 

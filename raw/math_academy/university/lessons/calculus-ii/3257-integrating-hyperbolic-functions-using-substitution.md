@@ -12,12 +12,12 @@ Topic ID: 3257
 
 ### Introduction
 
-Consider the integral $\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+Consider the integral $$
 
 $$
 
 
-\int \csch^2(2x+3) \, \textrm{d}x.
+\int \operatorname{csch}^2(2x+3) \, \text{d}x.
 
 
 $$
@@ -27,7 +27,7 @@ As it is, this integral doesn't resemble any of the basic integrals we have enco
 $$
 
 
-\int \csch^2 u \, \textrm{d}u = -\coth u+C.
+\int \operatorname{csch}^2 u \, \text{d}u = -\coth u+C.
 
 
 $$
@@ -39,7 +39,7 @@ So, let $u=2x+3.$ Differentiating, we have
 $$
 
 
-\dfrac{\textrm d u}{\textrm d x} = 2\quad\Longrightarrow\quad \textrm{d}x = \dfrac{1}{2} \, \textrm{d}u.
+\dfrac{\textrm d u}{\textrm d x} = 2\quad\Longrightarrow\quad \text{d}x = \dfrac{1}{2} \, \text{d}u.
 
 
 $$
@@ -58,7 +58,7 @@ $$
 
 #### Question
 
-Evaluate the integral $\displaystyle \newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \int_{-2}^{1} \sinh {\left(2x+1\right)} \, \textrm{d}x.$
+Evaluate the integral $\displaystyle \int_{-2}^{1} \sinh {\left(2x+1\right)} \, \text{d}x.$
 
 #### Explanation
 
@@ -67,7 +67,7 @@ Let $u=2x+1.$ Differentiating, we have
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x} = 2 \quad\Longrightarrow\quad \textrm d x=\dfrac 1 2 \, \textrm d u.
+\dfrac{\text{d}u}{\text{d}x} = 2 \quad\Longrightarrow\quad \textrm d x=\dfrac 1 2 \, \textrm d u.
 
 
 $$
@@ -79,7 +79,7 @@ Using the above, we can write the integral in terms of $u$ and evaluate:
 $$
 
 
-\begin{aligned}∫_{1−2}^{}sinh⁡(2𝑥+1)\,d𝑥 & =∫_{3−3}^{}sinh⁡𝑢⋅\frac{1}{2}\,d𝑢 \\ & =\frac{1}{2}∫_{3−3}^{}sinh⁡𝑢\,d𝑢 \\ & =\frac{1}{2}cosh⁡𝑢_{3−3}^{} \\ & =\frac{1}{2}(cosh⁡3−cosh⁡(−3)) \\ & =\frac{1}{2}(cosh⁡3−cosh⁡3) \\ & =0\end{aligned}
+\begin{aligned}∫_{1−2}sinh⁡(2𝑥+1)\,d𝑥 & =∫_{3−3}sinh⁡𝑢⋅\frac{1}{2}\,d𝑢 \\ & =\frac{1}{2}∫_{3−3}sinh⁡𝑢\,d𝑢 \\ & =\frac{1}{2}cosh⁡𝑢_{3−3} \\ & =\frac{1}{2}(cosh⁡3−cosh⁡(−3)) \\ & =\frac{1}{2}(cosh⁡3−cosh⁡3) \\ & =0\end{aligned}
 
 
 $$
@@ -88,7 +88,7 @@ $$
 
 #### Question
 
-Calculate the integral $\displaystyle \newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \int \csch(3x+1)\coth(3x+1) \, \textrm{d}x.$
+Calculate the integral $\displaystyle \int \operatorname{csch}(3x+1)\coth(3x+1) \, \text{d}x.$
 
 #### Explanation
 
@@ -97,7 +97,7 @@ Let $u=3x+1.$ Differentiating, we have
 $$
 
 
-\dfrac{\textrm d u}{\textrm d x} = 3\quad\Longrightarrow\quad \textrm{d}x =\dfrac{1}{3} \, \textrm{d}u.
+\dfrac{\textrm d u}{\textrm d x} = 3\quad\Longrightarrow\quad \text{d}x =\dfrac{1}{3} \, \text{d}u.
 
 
 $$
@@ -116,7 +116,7 @@ $$
 
 #### Question
 
-Evaluate the integral $\displaystyle \newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} {\int_{-2}^{2} x^2\sinh{x^3}}\, \textrm{d}x.$
+Evaluate the integral $\displaystyle {\int_{-2}^{2} x^2\sinh{x^3}}\, \text{d}x.$
 
 #### Explanation
 
@@ -125,7 +125,7 @@ Let $u=x^3.$ Differentiating, we have
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x}=3x^2\quad\Longrightarrow\quad \dfrac{1}{3}\textrm{d} u = x^2\, \textrm d x.
+\dfrac{\text{d}u}{\text{d}x}=3x^2\quad\Longrightarrow\quad \dfrac{1}{3}\text{d} u = x^2\, \textrm d x.
 
 
 $$
@@ -137,7 +137,7 @@ Using the above, we can write the integral in terms of $u$ and evaluate:
 $$
 
 
-\begin{aligned} \newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \int_{-2}^{2} x^2\sinh{x^3}\, \textrm{d}x &=\int_{-2}^{2} \sinh{x^3}\cdot x^2\,\textrm{d}x\\\[5pt] &=\int_{-8}^{8} \sinh{u}\cdot\dfrac{1}{3}\, \textrm{d}u\\\[5pt] &=\dfrac{1}{3}\cosh u\Big|_{-8}^{8}\\\[5pt] &=\dfrac{1}{3}\left(\cosh{8} - \cosh{(-8)}\right)\\\[5pt] &=\dfrac{1}{3}\left(\cosh{8} - \cosh{8}\right)\\\[5pt] &=\dfrac{1}{3}\cdot 0\\\[5pt] &=0 \end{aligned}
+\begin{aligned} \int_{-2}^{2} x^2\sinh{x^3}\, \text{d}x &=\int_{-2}^{2} \sinh{x^3}\cdot x^2\,\text{d}x\\[5pt] &=\int_{-8}^{8} \sinh{u}\cdot\dfrac{1}{3}\, \text{d}u\\[5pt] &=\dfrac{1}{3}\cosh u\Big|_{-8}^{8}\\[5pt] &=\dfrac{1}{3}\left(\cosh{8} - \cosh{(-8)}\right)\\[5pt] &=\dfrac{1}{3}\left(\cosh{8} - \cosh{8}\right)\\[5pt] &=\dfrac{1}{3}\cdot 0\\[5pt] &=0 \end{aligned}
 
 
 $$
@@ -146,18 +146,18 @@ $$
 
 #### Question
 
-Calculate $\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \displaystyle \int \dfrac{x\sinh{x^2}}{\cosh{x^2}}\, \textrm{d}x.$
+Calculate $\displaystyle \int \dfrac{x\sinh{x^2}}{\cosh{x^2}}\, \text{d}x.$
 
 #### Explanation
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
 Let $u= \cosh{x^2}.$ Differentiating, we have
 
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x} = 2x\sinh{x^2} \quad\Longrightarrow\quad \dfrac{1}{2} \, \textrm{d}u = x\sinh{x^2} \,\textrm{d}x.
+\dfrac{\text{d}u}{\text{d}x} = 2x\sinh{x^2} \quad\Longrightarrow\quad \dfrac{1}{2} \, \text{d}u = x\sinh{x^2} \,\text{d}x.
 
 
 $$
@@ -167,7 +167,7 @@ Using the above, we can write the integral in terms of $u$ and compute it, as fo
 $$
 
 
-\begin{aligned} \newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \displaystyle \int \dfrac{x\sinh{x^2}}{\cosh{x^2}}\, \textrm{d}x &= \int \dfrac{1}{\cosh{x^2}}\cdot x\sinh{x^2}\, \textrm{d}x\\\[5pt] &= \int \dfrac{1}{u}\cdot \dfrac{1}{2} \, \textrm d u \\\[5pt] &= \dfrac{1}{2}\int \dfrac{1}{u}\, \textrm{d}u\\\[5pt] &= \dfrac{1}{2}\ln|u|+C\\\[5pt] &= \dfrac{1}{2}\ln\left(\cosh{x^2}\right)+ C \end{aligned}
+\begin{aligned} \displaystyle \int \dfrac{x\sinh{x^2}}{\cosh{x^2}}\, \text{d}x &= \int \dfrac{1}{\cosh{x^2}}\cdot x\sinh{x^2}\, \text{d}x\\[5pt] &= \int \dfrac{1}{u}\cdot \dfrac{1}{2} \, \textrm d u \\[5pt] &= \dfrac{1}{2}\int \dfrac{1}{u}\, \text{d}u\\[5pt] &= \dfrac{1}{2}\ln|u|+C\\[5pt] &= \dfrac{1}{2}\ln\left(\cosh{x^2}\right)+ C \end{aligned}
 
 
 $$

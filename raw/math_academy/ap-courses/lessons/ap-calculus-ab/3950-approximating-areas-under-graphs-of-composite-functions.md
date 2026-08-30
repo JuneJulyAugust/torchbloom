@@ -23,7 +23,7 @@ Let's use this data to approximate the following integral:
 $$
 
 
-\int_{1}^{5} x^2 \cdot f(x) \,\textrm{d}x
+\int_{1}^{5} x^2 \cdot f(x) \,\text{d}x
 
 
 $$
@@ -43,7 +43,7 @@ Now, our task is to approximate
 $$
 
 
-\int_{1}^{5} g(x) \,\textrm{d}x.
+\int_{1}^{5} g(x) \,\text{d}x.
 
 
 $$
@@ -65,7 +65,7 @@ We can approximate this integral using a left Riemann sum with $4$ equal subinte
 $$
 
 
-\int_{1}^{5} g(x) \,\textrm{d}x \approx (g(1) + g(2) + g(3) + g(4)) \cdot \Delta x
+\int_{1}^{5} g(x) \,\text{d}x \approx (g(1) + g(2) + g(3) + g(4)) \cdot \Delta x
 
 
 $$
@@ -77,7 +77,7 @@ Finally, we obtain the following approximation for our definite integral:
 $$
 
 
-\begin{aligned}A & =∫_{51}^{}𝑔(𝑥)\,d𝑥 \\ & ≈(3+8+9+16)⋅1 \\ & =36⋅1 \\ & =36\end{aligned}
+\begin{aligned}A & =∫_{51}𝑔(𝑥)\,d𝑥 \\ & ≈(3+8+9+16)⋅1 \\ & =36⋅1 \\ & =36\end{aligned}
 
 
 $$
@@ -97,7 +97,7 @@ The area under the curve $y = (x+3) \cdot f(x)$ over the interval $[-2,2]$ is gi
 $$
 
 
-\mathcal{A} = \int_{-2}^{2} (x+3) \cdot f(x) \,\textrm{d}x.
+\mathcal{A} = \int_{-2}^{2} (x+3) \cdot f(x) \,\text{d}x.
 
 
 $$
@@ -119,7 +119,7 @@ We can approximate the integral above using a ** Riemann sum with $4$ equal subi
 $$
 
 
-\int_{-2}^{2} g(x) \,\textrm{d}x \approx (g(-1) + g(0) + g(1) + g(2)) \cdot \Delta x
+\int_{-2}^{2} g(x) \,\text{d}x \approx (g(-1) + g(0) + g(1) + g(2)) \cdot \Delta x
 
 
 $$
@@ -131,7 +131,7 @@ Finally, we obtain the following approximation for our area:
 $$
 
 
-\begin{aligned}A & =∫_{2−2}^{}(𝑥+3)⋅𝑓(𝑥)\,d𝑥 \\ & ≈(8+9+4+10)⋅1 \\ & =31⋅1 \\ & =31\end{aligned}
+\begin{aligned}A & =∫_{2−2}(𝑥+3)⋅𝑓(𝑥)\,d𝑥 \\ & ≈(8+9+4+10)⋅1 \\ & =31⋅1 \\ & =31\end{aligned}
 
 
 $$
@@ -151,7 +151,7 @@ It can be shown that the volume $V$ of this solid of revolution is given by the 
 $$
 
 
-V = \pi \int_{a}^{b} y^2 \:\textrm{d}x = \pi \int_{a}^{b} \left[ f(x) \right]^2 \:\textrm{d}x.
+V = \pi \int_{a}^{b} y^2 \:\text{d}x = \pi \int_{a}^{b} \left[ f(x) \right]^2 \:\text{d}x.
 
 
 $$
@@ -167,7 +167,7 @@ The table below gives the values of a positive, continuous function $f(x)$ over 
 $$
 
 
-V = \pi \int_a^b [f(x)]^2 \,\textrm{d}x.
+V = \pi \int_a^b [f(x)]^2 \,\text{d}x.
 
 
 $$
@@ -179,7 +179,7 @@ Using the hint, the volume of the solid generated when the region bounded by a c
 $$
 
 
-V = \pi \int_1^{9} [f(x)]^2 \,\textrm{d}x.
+V = \pi \int_1^{9} [f(x)]^2 \,\text{d}x.
 
 
 $$
@@ -199,7 +199,7 @@ We can approximate the integral above using a ** Riemann sum with $4$ equal subi
 $$
 
 
-\pi \int_1^{9} g(x) \,\textrm{d}x \approx \pi\cdot (g(1) + g(3) + g(5) + g(7)) \cdot \Delta x
+\pi \int_1^{9} g(x) \,\text{d}x \approx \pi\cdot (g(1) + g(3) + g(5) + g(7)) \cdot \Delta x
 
 
 $$
@@ -211,7 +211,7 @@ Finally, we obtain the following approximation for our volume:
 $$
 
 
-\begin{aligned}𝑉 & =𝜋∫_{91}^{}𝑔(𝑥)\,d𝑥 \\ & ≈𝜋⋅(𝑔(1)+𝑔(3)+𝑔(5)+𝑔(7))⋅Δ𝑥 \\ & =𝜋⋅(1+9+1+0)⋅2 \\ & =𝜋⋅11⋅2 \\ & =22𝜋\end{aligned}
+\begin{aligned}𝑉 & =𝜋∫_{91}𝑔(𝑥)\,d𝑥 \\ & ≈𝜋⋅(𝑔(1)+𝑔(3)+𝑔(5)+𝑔(7))⋅Δ𝑥 \\ & =𝜋⋅(1+9+1+0)⋅2 \\ & =𝜋⋅11⋅2 \\ & =22𝜋\end{aligned}
 
 
 $$
@@ -249,7 +249,7 @@ The table below gives the values of a positive, continuous function $f(x)$ and i
 $$
 
 
-L = \int_a^b \sqrt{1+[f'(x)]^2} \,\textrm{d}x.
+L = \int_a^b \sqrt{1+[f'(x)]^2} \,\text{d}x.
 
 
 $$
@@ -261,7 +261,7 @@ Using the hint, we have that the arc length of a curve $y=f(x)$ between $x=1$ an
 $$
 
 
-L = \int_1^4 \sqrt{1+[f'(x)]^2} \,\textrm{d}x.
+L = \int_1^4 \sqrt{1+[f'(x)]^2} \,\text{d}x.
 
 
 $$
@@ -281,7 +281,7 @@ We can approximate the integral above using a ** Riemann sum with $3$ equal subi
 $$
 
 
-\int_1^4 g(x) \,\textrm{d}x \approx (g(2) + g(3) + g(4) ) \cdot \Delta x
+\int_1^4 g(x) \,\text{d}x \approx (g(2) + g(3) + g(4) ) \cdot \Delta x
 
 
 $$
@@ -293,7 +293,7 @@ Finally, we obtain the following approximation for our arc length:
 $$
 
 
-\begin{aligned}𝐿 & =∫_{41}^{}𝑔(𝑥)\,d𝑥 \\ & ≈(𝑔(2)+𝑔(3)+𝑔(4))⋅Δ𝑥 \\ & =(10+1+2)⋅1 \\ & =13⋅1 \\ & =13\end{aligned}
+\begin{aligned}𝐿 & =∫_{41}𝑔(𝑥)\,d𝑥 \\ & ≈(𝑔(2)+𝑔(3)+𝑔(4))⋅Δ𝑥 \\ & =(10+1+2)⋅1 \\ & =13⋅1 \\ & =13\end{aligned}
 
 
 $$

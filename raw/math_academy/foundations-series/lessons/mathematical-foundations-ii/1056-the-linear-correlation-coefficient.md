@@ -54,7 +54,7 @@ $$
 
 where
 
-- $\textrm{Cov}(x,y)$ is the covariance between $x$ and $y,$ and
+- $\text{Cov}(x,y)$ is the covariance between $x$ and $y,$ and
 
 - $\sigma_x$ and $\sigma_y$ are the standard deviations of $x$ and $y,$ respectively.
 
@@ -63,7 +63,7 @@ For example, consider data sets $x$ and $y$ such that
 $$
 
 
-\textrm{Cov}(x,y)=-9, \qquad \sigma_x=6, \qquad \sigma_y=2.
+\text{Cov}(x,y)=-9, \qquad \sigma_x=6, \qquad \sigma_y=2.
 
 
 $$
@@ -105,12 +105,12 @@ The (population) linear correlation coefficient of the data sets $x=\big\{x_1,x_
 $$
 
 
-\rho(x,y) = \dfrac{\textrm{Cov}(x,y)}{\sigma_x \cdot \sigma_y}
+\rho(x,y) = \dfrac{\text{Cov}(x,y)}{\sigma_x \cdot \sigma_y}
 
 
 $$
 
-where $\textrm{Cov}(x,y)$ is the covariance, and $\sigma_x$ and $\sigma_y$ are the standard deviations of the data sets.
+where $\text{Cov}(x,y)$ is the covariance, and $\sigma_x$ and $\sigma_y$ are the standard deviations of the data sets.
 
 First, we need to compute the covariance:
 
@@ -183,7 +183,7 @@ The linear correlation coefficient $\rho$ of the data sets $x=\big\{x_1,x_2, \ld
 $$
 
 
-\rho(x,y) = \dfrac{\textrm{Cov}(x,y)}{\sigma_x \cdot \sigma_y} = \dfrac{S_{xy}}{\sqrt{S_{xx} \cdot S_{yy}}}.
+\rho(x,y) = \dfrac{\text{Cov}(x,y)}{\sigma_x \cdot \sigma_y} = \dfrac{S_{xy}}{\sqrt{S_{xx} \cdot S_{yy}}}.
 
 
 $$
@@ -213,7 +213,7 @@ Finally, we use the formula:
 $$
 
 
-\begin{aligned}𝜌(𝑥,𝑦) & =\frac{(−5)}{\sqrt{√10}⋅\sqrt{√14}} \\ & ≈−\frac{5}{3.162\,278⋅3.741\,657} \\ & ≈−0.42\end{aligned}
+\begin{aligned}𝜌(𝑥,𝑦) & =\frac{(−5)}{\sqrt{10}⋅\sqrt{14}} \\ & ≈−\frac{5}{3.162\,278⋅3.741\,657} \\ & ≈−0.42\end{aligned}
 
 
 $$
@@ -224,7 +224,7 @@ rounded to $2$ decimal places.
 
 #### Question
 
-A stall selling lemonade is set up at a special four-day summer festival. The stall owner wants to check the strength of the linear correlation between $x,$ the temperature at $12\,\textrm{p.m},$ and $y,$ the number of cups of lemonade sold that day. The data is shown below.
+A stall selling lemonade is set up at a special four-day summer festival. The stall owner wants to check the strength of the linear correlation between $x,$ the temperature at $12\,\text{p.m},$ and $y,$ the number of cups of lemonade sold that day. The data is shown below.
 
 You are given that the means are $\overline{x}=24$ and $\overline{y}=107.$ Which of the following statements are true?
 
@@ -243,7 +243,7 @@ The linear correlation coefficient $\rho$ of the data sets $x=\big\{x_1,x_2, \ld
 $$
 
 
-\rho(x,y) = \dfrac{\textrm{Cov}(x,y)}{\sigma_x \cdot \sigma_y} = \dfrac{S_{xy}}{\sqrt{S_{xx} \cdot S_{yy}}}.
+\rho(x,y) = \dfrac{\text{Cov}(x,y)}{\sigma_x \cdot \sigma_y} = \dfrac{S_{xy}}{\sqrt{S_{xx} \cdot S_{yy}}}.
 
 
 $$
@@ -291,7 +291,7 @@ We have
 $$
 
 
-\textrm{Cov}(x,y) = \dfrac1n \sum\limits_{i=1}^n (x_i-\overline{x})(y_i-\overline{y}) = \dfrac{S_{xy}}{n}.
+\text{Cov}(x,y) = \dfrac1n \sum\limits_{i=1}^n (x_i-\overline{x})(y_i-\overline{y}) = \dfrac{S_{xy}}{n}.
 
 
 $$
@@ -301,7 +301,7 @@ Similarly,
 $$
 
 
-\begin{aligned}𝜎_{𝑥} & =\sqrt{\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}(𝑥_{𝑖}−\overset{𝑥}{})^{2}}=\sqrt{√\frac{𝑆_{𝑥𝑥}}{𝑛}} \\ 𝜎_{𝑦} & =\sqrt{\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}(𝑦_{𝑖}−\overset{𝑦}{–})^{2}}=\sqrt{√\frac{𝑆_{𝑦𝑦}}{𝑛}}.\end{aligned}
+\begin{aligned}𝜎_{𝑥} & =\sqrt{\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}(𝑥_{𝑖}−\overset{𝑥}{})^{2}}=\sqrt{\frac{𝑆_{𝑥𝑥}}{𝑛}} \\ 𝜎_{𝑦} & =\sqrt{\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}(𝑦_{𝑖}−\overset{𝑦}{–})^{2}}=\sqrt{\frac{𝑆_{𝑦𝑦}}{𝑛}}.\end{aligned}
 
 
 $$
@@ -311,7 +311,7 @@ Substituting this into our definition for $\rho,$ we get
 $$
 
 
-\begin{aligned}𝜌 & =\frac{Cov(𝑥,𝑦)}{𝜎_{𝑥}⋅𝜎_{𝑦}} \\ & =\frac{(\frac{𝑆_{𝑥𝑦}}{𝑛})}{𝑛} \\ & =\frac{(\frac{𝑆_{𝑥𝑦}}{𝑛})}{𝑛} \\ & =\frac{(\frac{𝑆_{𝑥𝑦}}{𝑛})}{𝑛} \\ & =\frac{(\frac{𝑆_{𝑥𝑦}}{𝑛})}{𝑛} \\ & =\frac{𝑆_{𝑥𝑦}}{\sqrt{√𝑆_{𝑥𝑥}⋅𝑆_{𝑦𝑦}}}.\end{aligned}
+\begin{aligned}𝜌 & =\frac{Cov(𝑥,𝑦)}{𝜎_{𝑥}⋅𝜎_{𝑦}} \\ & =\frac{(\frac{𝑆_{𝑥𝑦}}{𝑛})}{𝑛} \\ & =\frac{(\frac{𝑆_{𝑥𝑦}}{𝑛})}{𝑛} \\ & =\frac{(\frac{𝑆_{𝑥𝑦}}{𝑛})}{𝑛} \\ & =\frac{(\frac{𝑆_{𝑥𝑦}}{𝑛})}{𝑛} \\ & =\frac{𝑆_{𝑥𝑦}}{\sqrt{𝑆_{𝑥𝑥}⋅𝑆_{𝑦𝑦}}}.\end{aligned}
 
 
 $$

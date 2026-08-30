@@ -27,7 +27,7 @@ $$
 
 $$
 
-If the complex number $z$ satisfies $\textrm{Re}(z) > 0,$ then the gamma function can be defined as the improper integral
+If the complex number $z$ satisfies $\text{Re}(z) > 0,$ then the gamma function can be defined as the improper integral
 
 $$
 
@@ -43,7 +43,7 @@ In this lesson, we will only consider cases where $z$ is a positive real number.
 
 #### Question
 
-Which of the following integrals are equivalent to $\Gamma(z)$ for $\textrm{Re}(z) > 0?$
+Which of the following integrals are equivalent to $\Gamma(z)$ for $\text{Re}(z) > 0?$
 
 1. $\displaystyle \int_0^1 t^{z-1} e^{-t} \, \textrm dt$
 
@@ -58,7 +58,7 @@ First, let's recall the definition of the gamma function:
 $$
 
 
-\Gamma(z) = \int_0^\infty t^{z-1} e^{-t} \, \textrm dt, \qquad \textrm{Re}(z) > 0.
+\Gamma(z) = \int_0^\infty t^{z-1} e^{-t} \, \textrm dt, \qquad \text{Re}(z) > 0.
 
 
 $$
@@ -138,7 +138,7 @@ So, we have the following:
 $$
 
 
-\begin{aligned}Γ(\frac{5}{2}) & =\frac{3}{2}Γ(\frac{3}{2}) \\ & =\frac{3}{2}⋅\frac{1}{2}Γ(\frac{1}{2}) \\ & =\frac{3}{2}⋅\frac{1}{2}\sqrt{√𝜋} \\ & =\frac{3}{4}\sqrt{√𝜋}\end{aligned}
+\begin{aligned}Γ(\frac{5}{2}) & =\frac{3}{2}Γ(\frac{3}{2}) \\ & =\frac{3}{2}⋅\frac{1}{2}Γ(\frac{1}{2}) \\ & =\frac{3}{2}⋅\frac{1}{2}\sqrt{𝜋} \\ & =\frac{3}{4}\sqrt{𝜋}\end{aligned}
 
 
 $$
@@ -160,7 +160,7 @@ The formula comes from applying integration by parts to the integral in the defi
 $$
 
 
-\Gamma(z) = \int_0^\infty t^{z-1} e^{-t} \, \textrm dt, \qquad\textrm{Re}(z) > 0.
+\Gamma(z) = \int_0^\infty t^{z-1} e^{-t} \, \textrm dt, \qquad\text{Re}(z) > 0.
 
 
 $$
@@ -170,7 +170,7 @@ Therefore,
 $$
 
 
-\begin{aligned}Γ(𝑧+1) & =∫_{∞0}^{}𝑡^{𝑧}𝑒^{−𝑡}\,d𝑡 \\ & =−𝑡^{𝑧}𝑒^{−𝑡}_{∞0}^{}−∫_{∞0}^{}−𝑧𝑡^{𝑧−1}𝑒^{−𝑡}\,d𝑡 \\ & =\underset{𝑡→∞}{lim}(−\frac{𝑡^{𝑧}}{𝑒^{𝑡}})−(−\frac{𝑡^{𝑧}}{𝑒^{𝑡}})_{𝑡=0}+∫_{∞0}^{}𝑧𝑡^{𝑧−1}𝑒^{−𝑡}\,d𝑡 \\ & =0−0+𝑧\underset{Γ(𝑧)}{\underset{}{∫_{∞0}^{}𝑡^{𝑧−1}𝑒^{−𝑡}\,d𝑡}} \\ & =𝑧Γ(𝑧)\end{aligned}
+\begin{aligned}Γ(𝑧+1) & =∫_{∞0}𝑡^{𝑧}𝑒^{−𝑡}\,d𝑡 \\ & =−𝑡^{𝑧}𝑒^{−𝑡}_{∞0}−∫_{∞0}−𝑧𝑡^{𝑧−1}𝑒^{−𝑡}\,d𝑡 \\ & =\underset{𝑡→∞}{lim}(−\frac{𝑡^{𝑧}}{𝑒^{𝑡}})−(−\frac{𝑡^{𝑧}}{𝑒^{𝑡}})_{𝑡=0}+∫_{∞0}𝑧𝑡^{𝑧−1}𝑒^{−𝑡}\,d𝑡 \\ & =0−0+𝑧\underset{Γ(𝑧)}{\underset{}{∫_{∞0}𝑡^{𝑧−1}𝑒^{−𝑡}\,d𝑡}} \\ & =𝑧Γ(𝑧)\end{aligned}
 
 
 $$
@@ -214,7 +214,7 @@ Now, let's repeatedly expand out the right-hand side, noticing that most of the 
 $$
 
 
-\begin{aligned}Γ(𝑛+1) & =𝑛Γ(𝑛) \\ & =𝑛⋅\overset{\overset{(𝑛−1)⋅Γ(𝑛−1)}{}}{Γ(𝑛)} \\ & =𝑛⋅(𝑛−1)⋅\overset{\overset{(𝑛−2)⋅Γ(𝑛−2)}{}}{Γ(𝑛−1)} \\ & =… \\ & =\underset{𝑛!}{\underset{}{𝑛⋅(𝑛−1)⋅(𝑛−2)⋅…⋅1}}⋅Γ(1)\end{aligned}
+\begin{aligned}Γ(𝑛+1) & =𝑛Γ(𝑛) \\ & =𝑛⋅\overset{(𝑛−1)⋅Γ(𝑛−1)}{Γ(𝑛)} \\ & =𝑛⋅(𝑛−1)⋅\overset{(𝑛−2)⋅Γ(𝑛−2)}{Γ(𝑛−1)} \\ & =… \\ & =\underset{𝑛!}{\underset{}{𝑛⋅(𝑛−1)⋅(𝑛−2)⋅…⋅1}}⋅Γ(1)\end{aligned}
 
 
 $$

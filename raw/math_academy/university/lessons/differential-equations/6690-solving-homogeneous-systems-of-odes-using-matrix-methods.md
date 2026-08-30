@@ -73,7 +73,7 @@ Therefore, the general solution is
 $$
 
 
-\begin{aligned}𝐱(𝑡) & =Φ_{0}(𝑡)\,𝐜 \\ & =𝑒^{𝐴𝑡}\,𝐜 \\ & =[\begin{aligned}cos⁡(5𝑡) & sin⁡(5𝑡) \\ −sin⁡(5𝑡) & cos⁡(5𝑡)\end{aligned}][\begin{aligned}𝑐_{1} \\ 𝑐_{2}\end{aligned}] \\ & =𝑐_{1}[\begin{aligned}cos⁡(5𝑡) \\ −sin⁡(5𝑡)\end{aligned}]+𝑐_{2}[\begin{aligned}sin⁡(5𝑡) \\ cos⁡(5𝑡)\end{aligned}],\end{aligned}
+\begin{aligned}𝐱(𝑡) & =Φ_{0}(𝑡)\,𝐜 \\ & =𝑒^{𝐴𝑡}\,𝐜 \\ & =[\begin{matrix}cos⁡(5𝑡) & sin⁡(5𝑡) \\ −sin⁡(5𝑡) & cos⁡(5𝑡)\end{matrix}][\begin{matrix}𝑐_{1} \\ 𝑐_{2}\end{matrix}] \\ & =𝑐_{1}[\begin{matrix}cos⁡(5𝑡) \\ −sin⁡(5𝑡)\end{matrix}]+𝑐_{2}[\begin{matrix}sin⁡(5𝑡) \\ cos⁡(5𝑡)\end{matrix}],\end{aligned}
 
 
 $$
@@ -159,7 +159,7 @@ Therefore, the general solution is
 $$
 
 
-\begin{aligned}𝐱(𝑡) & =Φ_{0}(𝑡)\,𝐜 \\ & =𝑒^{𝐴𝑡}\,𝐜 \\ & =[\begin{aligned}𝑒^{−7𝑡} & 𝑡𝑒^{−7𝑡} \\ 0 & 𝑒^{−7𝑡}\end{aligned}][\begin{aligned}𝑐_{1} \\ 𝑐_{2}\end{aligned}] \\ & =𝑐_{1}[\begin{aligned}𝑒^{−7𝑡} \\ 0\end{aligned}]+𝑐_{2}[\begin{aligned}𝑡𝑒^{−7𝑡} \\ 𝑒^{−7𝑡}\end{aligned}] \\ & =𝑐_{1}[\begin{aligned}1 \\ 0\end{aligned}]𝑒^{−7𝑡}+𝑐_{2}[\begin{aligned}𝑡 \\ 1\end{aligned}]𝑒^{−7𝑡},\end{aligned}
+\begin{aligned}𝐱(𝑡) & =Φ_{0}(𝑡)\,𝐜 \\ & =𝑒^{𝐴𝑡}\,𝐜 \\ & =[\begin{matrix}𝑒^{−7𝑡} & 𝑡𝑒^{−7𝑡} \\ 0 & 𝑒^{−7𝑡}\end{matrix}][\begin{matrix}𝑐_{1} \\ 𝑐_{2}\end{matrix}] \\ & =𝑐_{1}[\begin{matrix}𝑒^{−7𝑡} \\ 0\end{matrix}]+𝑐_{2}[\begin{matrix}𝑡𝑒^{−7𝑡} \\ 𝑒^{−7𝑡}\end{matrix}] \\ & =𝑐_{1}[\begin{matrix}1 \\ 0\end{matrix}]𝑒^{−7𝑡}+𝑐_{2}[\begin{matrix}𝑡 \\ 1\end{matrix}]𝑒^{−7𝑡},\end{aligned}
 
 
 $$
@@ -237,7 +237,7 @@ Therefore, the solution is
 $$
 
 
-\begin{aligned}𝐱(𝑡) & =𝑒^{𝐴𝑡}\,𝐱(0) \\ & =[\begin{aligned}𝑒^{7𝑡} & 𝑡𝑒^{7𝑡} \\ 0 & 𝑒^{7𝑡}\end{aligned}][\begin{aligned}3 \\ −2\end{aligned}] \\ & =[\begin{aligned}(3−2𝑡)𝑒^{7𝑡} \\ −2𝑒^{7𝑡}\end{aligned}].\end{aligned}
+\begin{aligned}𝐱(𝑡) & =𝑒^{𝐴𝑡}\,𝐱(0) \\ & =[\begin{matrix}𝑒^{7𝑡} & 𝑡𝑒^{7𝑡} \\ 0 & 𝑒^{7𝑡}\end{matrix}][\begin{matrix}3 \\ −2\end{matrix}] \\ & =[\begin{matrix}(3−2𝑡)𝑒^{7𝑡} \\ −2𝑒^{7𝑡}\end{matrix}].\end{aligned}
 
 
 $$
@@ -299,7 +299,7 @@ Therefore, the solution is
 $$
 
 
-\begin{aligned}𝐱(𝑡) & =𝑒^{𝐴𝑡}\,𝐱(0) \\ & =[\begin{aligned}cos⁡(3𝑡) & sin⁡(3𝑡) \\ −sin⁡(3𝑡) & cos⁡(3𝑡)\end{aligned}][\begin{aligned}2 \\ −1\end{aligned}] \\ & =[\begin{aligned}2cos⁡(3𝑡)−sin⁡(3𝑡) \\ −2sin⁡(3𝑡)−cos⁡(3𝑡)\end{aligned}].\end{aligned}
+\begin{aligned}𝐱(𝑡) & =𝑒^{𝐴𝑡}\,𝐱(0) \\ & =[\begin{matrix}cos⁡(3𝑡) & sin⁡(3𝑡) \\ −sin⁡(3𝑡) & cos⁡(3𝑡)\end{matrix}][\begin{matrix}2 \\ −1\end{matrix}] \\ & =[\begin{matrix}2cos⁡(3𝑡)−sin⁡(3𝑡) \\ −2sin⁡(3𝑡)−cos⁡(3𝑡)\end{matrix}].\end{aligned}
 
 
 $$
@@ -355,7 +355,7 @@ Therefore, the solution to our specific problem (with $t_0=1$) is
 $$
 
 
-\begin{aligned}𝐱(𝑡) & =𝑒^{𝐴(𝑡−1)}\,𝐱(1) \\ & =[\begin{aligned}cos⁡(7(𝑡−1)) & −sin⁡(7(𝑡−1)) \\ sin⁡(7(𝑡−1)) & cos⁡(7(𝑡−1))\end{aligned}][\begin{aligned}0 \\ −4\end{aligned}] \\ & =[\begin{aligned}4sin⁡(7(𝑡−1)) \\ −4cos⁡(7(𝑡−1))\end{aligned}].\end{aligned}
+\begin{aligned}𝐱(𝑡) & =𝑒^{𝐴(𝑡−1)}\,𝐱(1) \\ & =[\begin{matrix}cos⁡(7(𝑡−1)) & −sin⁡(7(𝑡−1)) \\ sin⁡(7(𝑡−1)) & cos⁡(7(𝑡−1))\end{matrix}][\begin{matrix}0 \\ −4\end{matrix}] \\ & =[\begin{matrix}4sin⁡(7(𝑡−1)) \\ −4cos⁡(7(𝑡−1))\end{matrix}].\end{aligned}
 
 
 $$
@@ -447,7 +447,7 @@ Therefore, the solution is
 $$
 
 
-\begin{aligned}𝐱(𝑡) & =𝑒^{𝐴(𝑡−1)}\,𝐱(1) \\ & =[\begin{aligned}cosh⁡(7(𝑡−1)) & sinh⁡(7(𝑡−1)) \\ sinh⁡(7(𝑡−1)) & cosh⁡(7(𝑡−1))\end{aligned}][\begin{aligned}0 \\ 3\end{aligned}] \\ & =[\begin{aligned}3sinh⁡(7(𝑡−1)) \\ 3cosh⁡(7(𝑡−1))\end{aligned}].\end{aligned}
+\begin{aligned}𝐱(𝑡) & =𝑒^{𝐴(𝑡−1)}\,𝐱(1) \\ & =[\begin{matrix}cosh⁡(7(𝑡−1)) & sinh⁡(7(𝑡−1)) \\ sinh⁡(7(𝑡−1)) & cosh⁡(7(𝑡−1))\end{matrix}][\begin{matrix}0 \\ 3\end{matrix}] \\ & =[\begin{matrix}3sinh⁡(7(𝑡−1)) \\ 3cosh⁡(7(𝑡−1))\end{matrix}].\end{aligned}
 
 
 $$
@@ -482,38 +482,38 @@ $$
 
 A derivation of the formula for the solution $\mathbf{x}(t)$ passing through $\mathbf{x}(t_0)$ is presented below.
 
-$\textrm{L1}{:}\;$ Let $\Phi_0(t)=e^{At}$
+$\text{L1}{:}\;$ Let $\Phi_0(t)=e^{At}$
 
-$\textrm{L2}{:}\;$ $\mathbf{x}(t)=\Phi_0(t)\,\mathbf{c}$ for some constant vector $\mathbf{c}$
+$\text{L2}{:}\;$ $\mathbf{x}(t)=\Phi_0(t)\,\mathbf{c}$ for some constant vector $\mathbf{c}$
 
-$\textrm{L3}{:}\;$ $\mathbf{x}(t)=e^{At}\,\mathbf{c}$
+$\text{L3}{:}\;$ $\mathbf{x}(t)=e^{At}\,\mathbf{c}$
 
-$\textrm{L4}{:}\;$ $\mathbf{x}(t_0)=e^{A t_0} \, \mathbf{c}$
+$\text{L4}{:}\;$ $\mathbf{x}(t_0)=e^{A t_0} \, \mathbf{c}$
 
-$\textrm{L5}{:}\;$ $(e^{A t_0})^{-1} \mathbf{x}(t_0)=(e^{At_0})^{-1} e^{A t_0} \, \mathbf{c}$
+$\text{L5}{:}\;$ $(e^{A t_0})^{-1} \mathbf{x}(t_0)=(e^{At_0})^{-1} e^{A t_0} \, \mathbf{c}$
 
-$\textrm{L6}{:}\;$ $\mathbf{c} = e^{-A t_0} \mathbf{x}(t_0) \,$
+$\text{L6}{:}\;$ $\mathbf{c} = e^{-A t_0} \mathbf{x}(t_0) \,$
 
-$\textrm{L7}{:}\;$ $\mathbf{x}(t) = e^{At} e^{-At_0} \mathbf{x}(t_0) \,$
+$\text{L7}{:}\;$ $\mathbf{x}(t) = e^{At} e^{-At_0} \mathbf{x}(t_0) \,$
 
-$\textrm{L8}{:}\;$ $\mathbf{x}(t) = e^{At - At_0} \mathbf{x}(t_0) \,$
+$\text{L8}{:}\;$ $\mathbf{x}(t) = e^{At - At_0} \mathbf{x}(t_0) \,$
 
-$\textrm{L9}{:}\;$ $\mathbf{x}(t) = e^{A(t-t_0)} \mathbf{x}(t_0) \,$
+$\text{L9}{:}\;$ $\mathbf{x}(t) = e^{A(t-t_0)} \mathbf{x}(t_0) \,$
 
 Fill in the blanks to justify each step of the following reasoning.
 
-$\qquad$ Line $\textrm{L5}$ follows from $\textrm{L4}$ by $𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴$
+$\qquad$ Line $\text{L5}$ follows from $\text{L4}$ by $𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴$
 
-$\qquad$ The property of the matrix exponential used in $\textrm{L8}$ is $𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴$
+$\qquad$ The property of the matrix exponential used in $\text{L8}$ is $𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴$
 
-$\qquad$ Line $\textrm{L9}$ follows from $\textrm{L8}$ by the fact that $𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴$
+$\qquad$ Line $\text{L9}$ follows from $\text{L8}$ by the fact that $𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴$
 
 #### Explanation
 
 Let's justify each of the selected steps.
 
-- We first consider lines $\textrm{L4}$ and $\textrm{L5}.$ Starting from $\textrm{L4},$ we multiply both sides on the left by $(e^{At_0})^{-1}$ to get which is line $\textrm{L5}.$ Therefore, $\textrm{L5}$ follows from $\textrm{L4}$ by $(𝑒^{𝐴𝑡_{0}})^{−1}$
+- We first consider lines $\text{L4}$ and $\text{L5}.$ Starting from $\text{L4},$ we multiply both sides on the left by $(e^{At_0})^{-1}$ to get which is line $\text{L5}.$ Therefore, $\text{L5}$ follows from $\text{L4}$ by $(𝑒^{𝐴𝑡_{0}})^{−1}$
 
-- Next, we justify the step $\textrm{L7}$ to $\textrm{L8}.$ Since $At$ and $-At_0$ commute, we may combine exponentials: Substituting this into line $\textrm{L7}$ produces line $\textrm{L8}.$ Hence, the property of the matrix exponential used in $\textrm{L8}$ is $𝑋$
+- Next, we justify the step $\text{L7}$ to $\text{L8}.$ Since $At$ and $-At_0$ commute, we may combine exponentials: Substituting this into line $\text{L7}$ produces line $\text{L8}.$ Hence, the property of the matrix exponential used in $\text{L8}$ is $𝑋$
 
-- Finally, we consider lines $\textrm{L8}$ and $\textrm{L9}.$ Starting from $\textrm{L8},$ we rewrite the exponent using the algebraic identity $At-At_0=A(t-t_0)$ to get which is line $\textrm{L9}.$ Thus, $\textrm{L9}$ follows from $\textrm{L8}$ by the fact that $\boxed{At-At_0=A(t-t_0)\text{for any}t\text{and}t_0}.$
+- Finally, we consider lines $\text{L8}$ and $\text{L9}.$ Starting from $\text{L8},$ we rewrite the exponent using the algebraic identity $At-At_0=A(t-t_0)$ to get which is line $\text{L9}.$ Thus, $\text{L9}$ follows from $\text{L8}$ by the fact that $\boxed{At-At_0=A(t-t_0)\text{for any}t\text{and}t_0}.$

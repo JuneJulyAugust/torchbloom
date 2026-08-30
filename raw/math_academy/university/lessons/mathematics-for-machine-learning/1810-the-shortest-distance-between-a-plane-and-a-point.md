@@ -46,7 +46,7 @@ Therefore, we have
 $$
 
 
-\begin{aligned}𝑑 & =|comp_{𝐧}\,\overset{𝑃𝑄}{}| \\ & =\frac{|\overset{𝑃𝑄}{}⋅𝐧|}{|𝐧|} \\ & =\frac{|(−1)⋅4+3⋅4+3⋅2|}{\sqrt{√4^{2}+4^{2}+2^{2}}} \\ & =\frac{|−4+12+6|}{\sqrt{√16+16+4}} \\ & =\frac{|14|}{\sqrt{√36}} \\ & =\frac{7}{3}.\end{aligned}
+\begin{aligned}𝑑 & =|comp_{𝐧}\,\overset{𝑃𝑄}{}| \\ & =\frac{|\overset{𝑃𝑄}{}⋅𝐧|}{|𝐧|} \\ & =\frac{|(−1)⋅4+3⋅4+3⋅2|}{\sqrt{4^{2}+4^{2}+2^{2}}} \\ & =\frac{|−4+12+6|}{\sqrt{16+16+4}} \\ & =\frac{|14|}{\sqrt{36}} \\ & =\frac{7}{3}.\end{aligned}
 
 
 $$
@@ -66,7 +66,7 @@ Let's pick a point on the plane, for instance, $Q(4,8,2).$ Then
 $$
 
 
-\begin{aligned}\overset{𝑃𝑄}{} & =\begin{aligned}4 \\ 8 \\ 2\end{aligned}−\begin{aligned}5 \\ 2 \\ −2\end{aligned}=\begin{aligned}−1 \\ 6 \\ 4\end{aligned}.\end{aligned}
+\begin{aligned}\overset{𝑃𝑄}{} & =\begin{matrix}4 \\ 8 \\ 2\end{matrix}−\begin{matrix}5 \\ 2 \\ −2\end{matrix}=\begin{matrix}−1 \\ 6 \\ 4\end{matrix}.\end{aligned}
 
 
 $$
@@ -78,7 +78,7 @@ Finally, the shortest distance from the point $P$ to the plane $\Pi$ is the abso
 $$
 
 
-\begin{aligned}𝑑 & =|comp_{𝐧}\,\overset{𝑃𝑄}{}| \\ & =\frac{|\overset{𝑃𝑄}{}⋅𝐧|}{|𝐧|} \\ & =\frac{|(−1)⋅2+6⋅4+4⋅(−4)|}{\sqrt{√2^{2}+4^{2}+(−4)^{2}}} \\ & =\frac{|−2+24−16|}{\sqrt{√4+16+16}} \\ & =\frac{|\,6\,|}{\sqrt{√36}} \\ & =1\end{aligned}
+\begin{aligned}𝑑 & =|comp_{𝐧}\,\overset{𝑃𝑄}{}| \\ & =\frac{|\overset{𝑃𝑄}{}⋅𝐧|}{|𝐧|} \\ & =\frac{|(−1)⋅2+6⋅4+4⋅(−4)|}{\sqrt{2^{2}+4^{2}+(−4)^{2}}} \\ & =\frac{|−2+24−16|}{\sqrt{4+16+16}} \\ & =\frac{|\,6\,|}{\sqrt{36}} \\ & =1\end{aligned}
 
 
 $$
@@ -108,7 +108,7 @@ Finally, the shortest distance from the point $P$ to the plane $\Pi$ is the abso
 $$
 
 
-\begin{aligned}𝑑 & =|comp_{𝐧}\,\overset{𝑃𝑄}{}| \\ & =\frac{|\overset{𝑃𝑄}{}⋅𝐧|}{|𝐧|} \\ & =\frac{|1⋅2+(−1)⋅0+(−3)⋅(−2)|}{\sqrt{√2^{2}+0^{2}+(−2)^{2}}} \\ & =\frac{|2+0+6|}{\sqrt{√4+0+4}} \\ & =\frac{|\,8\,|}{\sqrt{√8}} \\ & =\sqrt{√8} \\ & =2\sqrt{√2}\end{aligned}
+\begin{aligned}𝑑 & =|comp_{𝐧}\,\overset{𝑃𝑄}{}| \\ & =\frac{|\overset{𝑃𝑄}{}⋅𝐧|}{|𝐧|} \\ & =\frac{|1⋅2+(−1)⋅0+(−3)⋅(−2)|}{\sqrt{2^{2}+0^{2}+(−2)^{2}}} \\ & =\frac{|2+0+6|}{\sqrt{4+0+4}} \\ & =\frac{|\,8\,|}{\sqrt{8}} \\ & =\sqrt{8} \\ & =2\sqrt{2}\end{aligned}
 
 
 $$
@@ -150,7 +150,7 @@ Finally, the shortest distance from the point $P$ to the plane $\Pi$ is the abso
 $$
 
 
-\begin{aligned}𝑑 & =|comp_{𝐧}\,\overset{𝑃𝑄}{}| \\ & =\frac{|\overset{𝑃𝑄}{}⋅𝐧|}{|𝐧|} \\ & =\frac{|1⋅2+5⋅1+(−1)⋅(−2)|}{\sqrt{√2^{2}+1^{2}+(−2)^{2}}} \\ & =\frac{|2+5+2|}{\sqrt{√4+1+4}} \\ & =\frac{|\,9\,|}{\sqrt{√9}} \\ & =3\end{aligned}
+\begin{aligned}𝑑 & =|comp_{𝐧}\,\overset{𝑃𝑄}{}| \\ & =\frac{|\overset{𝑃𝑄}{}⋅𝐧|}{|𝐧|} \\ & =\frac{|1⋅2+5⋅1+(−1)⋅(−2)|}{\sqrt{2^{2}+1^{2}+(−2)^{2}}} \\ & =\frac{|2+5+2|}{\sqrt{4+1+4}} \\ & =\frac{|\,9\,|}{\sqrt{9}} \\ & =3\end{aligned}
 
 
 $$

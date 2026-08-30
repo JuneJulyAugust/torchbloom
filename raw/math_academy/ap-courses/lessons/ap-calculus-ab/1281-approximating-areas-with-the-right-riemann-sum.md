@@ -26,7 +26,7 @@ So, we find the area of each rectangle and then add them all together.
 $$
 
 
-\begin{aligned}A & ≈\overset{\overset{\,\overset{\overset{𝑓(2)}{}}{height}\,⋅\,\underset{base}{\underset{}{1}}\,}{}}{1st rectangle}+\overset{\overset{\,\overset{\overset{𝑓(3)}{}}{height}\,⋅\,\underset{base}{\underset{}{1}}\,}{}}{2nd rectangle}+\overset{\overset{\,\overset{\overset{𝑓(4)}{}}{height}\,⋅\,\underset{base}{\underset{}{1}}\,}{}}{3rd rectangle} \\ & =[2^{2}⋅1]+[3^{2}⋅1]+[4^{2}⋅1] \\ & =4+9+16 \\ & =29\end{aligned}
+\begin{aligned}A & ≈\overset{\,\overset{𝑓(2)}{height}\,⋅\,\underset{base}{\underset{}{1}}\,}{}}{1st rectangle}+\overset{\,\overset{𝑓(3)}{height}\,⋅\,\underset{base}{\underset{}{1}}\,}{}}{2nd rectangle}+\overset{\,\overset{𝑓(4)}{height}\,⋅\,\underset{base}{\underset{}{1}}\,}{}}{3rd rectangle} \\ & =[2^{2}⋅1]+[3^{2}⋅1]+[4^{2}⋅1] \\ & =4+9+16 \\ & =29\end{aligned}
 
 
 $$
@@ -142,7 +142,7 @@ Since we are given that $\mathcal A$ must be $12,$ we obtain
 $$
 
 
-\begin{aligned} 2k+10 & =12\\\[5pt] 2k &= 12-10\\\[5pt] k &= \dfrac{2}{2}\\\[5pt] k &= 1. \end{aligned}
+\begin{aligned} 2k+10 & =12\\[5pt] 2k &= 12-10\\[5pt] k &= \dfrac{2}{2}\\[5pt] k &= 1. \end{aligned}
 
 
 $$

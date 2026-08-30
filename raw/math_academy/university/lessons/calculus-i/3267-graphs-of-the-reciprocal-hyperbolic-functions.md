@@ -12,17 +12,17 @@ Topic ID: 3267
 
 ### Introduction
 
-The **hyperbolic secant** is the reciprocal of the hyperbolic cosine: $\newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \newcommand{\cosh}{\mathop{\rm cosh}\nolimits} \newcommand{\sinh}{\mathop{\rm sinh}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits}$
+The **hyperbolic secant** is the reciprocal of the hyperbolic cosine: $$
 
 $$
 
 
-y = \sech{x} = \dfrac{1}{\cosh{x}} = \dfrac{2}{e^x+e^{-x}}
+y = \operatorname{sech}{x} = \dfrac{1}{\cosh{x}} = \dfrac{2}{e^x+e^{-x}}
 
 
 $$
 
-To plot the graph of $y=\sech x,$ we create a table with some values, rounded to the nearest hundredth.
+To plot the graph of $y=\operatorname{sech} x,$ we create a table with some values, rounded to the nearest hundredth.
 
 Plotting these points, we get the following curves:
 
@@ -38,13 +38,13 @@ We can summarize some of the basic properties of hyperbolic secant from its grap
 
 - Its maximum value occurs at $x=0.$
 
-- Its graph is increasing over $(-\infty,0)$ and is decreasing over $(0,\infty).$ Moreover, $\qquad$ $\sech{x} \to 0$ as $x \to \pm\infty.$
+- Its graph is increasing over $(-\infty,0)$ and is decreasing over $(0,\infty).$ Moreover, $\qquad$ $\operatorname{sech}{x} \to 0$ as $x \to \pm\infty.$
 
 ### Example: Identifying the Graph and Properties of the Hyperbolic Secant
 
 #### Question
 
-Which of the following statements are true regarding the function $\newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \newcommand{\cosh}{\mathop{\rm cosh}\nolimits} \newcommand{\sinh}{\mathop{\rm sinh}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits}y=\sech{x}?$
+Which of the following statements are true regarding the function $y=\operatorname{sech}{x}?$
 
 1. The function is increasing over $(0, \infty).$
 
@@ -54,13 +54,13 @@ Which of the following statements are true regarding the function $\newcommand{\
 
 #### Explanation
 
-Let's recall the graph of $\newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \newcommand{\cosh}{\mathop{\rm cosh}\nolimits} \newcommand{\sinh}{\mathop{\rm sinh}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits}y=\sech{x}.$
+Let's recall the graph of $y=\operatorname{sech}{x}.$
 
 ![Instructional graphic](../../../lesson-assets/calculus-i/topic-3267/5315419390680ba3.png)
 
 Let's now examine our statements in turn.
 
-- Statement I is false. The function $y=\sech x$ is decreasing over $(0, \infty).$
+- Statement I is false. The function $y=\operatorname{sech} x$ is decreasing over $(0, \infty).$
 
 - Statement II is false. The function has no vertical asymptotes.
 
@@ -70,17 +70,17 @@ Therefore, none of the statements are true.
 
 ### The Hyperbolic Cosecant Function
 
-The **hyperbolic cosecant** is the reciprocal of the hyperbolic sine: $\newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \newcommand{\cosh}{\mathop{\rm cosh}\nolimits} \newcommand{\sinh}{\mathop{\rm sinh}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits}$
+The **hyperbolic cosecant** is the reciprocal of the hyperbolic sine: $$
 
 $$
 
 
-y = \csch{x} = \dfrac{1}{\sinh{x}} = \dfrac{2}{e^x-e^{-x}}
+y = \operatorname{csch}{x} = \dfrac{1}{\sinh{x}} = \dfrac{2}{e^x-e^{-x}}
 
 
 $$
 
-To plot the graph of $y=\csch x,$ we create a table with some values, rounded to the nearest hundredth.
+To plot the graph of $y=\operatorname{csch} x,$ we create a table with some values, rounded to the nearest hundredth.
 
 Plotting these points, we get the following curves:
 
@@ -94,31 +94,31 @@ We can summarize some of the basic properties of hyperbolic cosecant from its gr
 
 - It has no zeros.
 
-- Its graph is decreasing over the entire domain. Moreover: $\qquad$ $\csch{x} \to 0$ as $x \to \pm\infty$ $\qquad$ $\csch{x} \to -\infty$ as $x \to 0^-$ $\qquad$ $\csch{x} \to \infty$ as $x \to 0^+$
+- Its graph is decreasing over the entire domain. Moreover: $\qquad$ $\operatorname{csch}{x} \to 0$ as $x \to \pm\infty$ $\qquad$ $\operatorname{csch}{x} \to -\infty$ as $x \to 0^-$ $\qquad$ $\operatorname{csch}{x} \to \infty$ as $x \to 0^+$
 
 ### Example: Identifying the Graph and Properties of the Hyperbolic Cosecant
 
 #### Question
 
-Which of the following statements are true regarding the function $\newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \newcommand{\cosh}{\mathop{\rm cosh}\nolimits} \newcommand{\sinh}{\mathop{\rm sinh}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits}y=\csch{x}?$
+Which of the following statements are true regarding the function $y=\operatorname{csch}{x}?$
 
 1. The function has no zeros.
 
-2. $\csch{x} \to -\infty$ as $x \to 0^-.$
+2. $\operatorname{csch}{x} \to -\infty$ as $x \to 0^-.$
 
 3. The function is even.
 
 #### Explanation
 
-Let's recall the graph of $\newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \newcommand{\cosh}{\mathop{\rm cosh}\nolimits} \newcommand{\sinh}{\mathop{\rm sinh}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits}y=\csch{x}.$
+Let's recall the graph of $y=\operatorname{csch}{x}.$
 
 ![Instructional graphic](../../../lesson-assets/calculus-i/topic-3267/160e560f7073b675.png)
 
 Let's now examine our statements in turn.
 
-- Statement I is true. The function $y=\csch{x}$ has no zeros.
+- Statement I is true. The function $y=\operatorname{csch}{x}$ has no zeros.
 
-- Statement II is true. Indeed, we have that $\csch{x} \to -\infty$ as $x \to 0^-.$
+- Statement II is true. Indeed, we have that $\operatorname{csch}{x} \to -\infty$ as $x \to 0^-.$
 
 - Statement III is false. The function is odd (the graph has rotational symmetry of order $2$ about the origin).
 
@@ -131,7 +131,7 @@ The **hyperbolic cotangent** is the reciprocal of the hyperbolic tangent:
 $$
 
 
-\newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \newcommand{\cosh}{\mathop{\rm cosh}\nolimits} \newcommand{\sinh}{\mathop{\rm sinh}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} y = \coth{x} = \dfrac{\cosh{x}}{\sinh{x}} = \dfrac{e^x+e^{-x}}{e^x-e^{-x}}
+y = \coth{x} = \dfrac{\cosh{x}}{\sinh{x}} = \dfrac{e^x+e^{-x}}{e^x-e^{-x}}
 
 
 $$
@@ -154,7 +154,7 @@ We can summarize some of the basic properties of hyperbolic cotangent from its g
 
 #### Question
 
-Which of the following statements are true regarding the function $\newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \newcommand{\cosh}{\mathop{\rm cosh}\nolimits} \newcommand{\sinh}{\mathop{\rm sinh}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits}y=\coth{x}?$
+Which of the following statements are true regarding the function $y=\coth{x}?$
 
 1. The function has a zero at $x=0.$
 
@@ -164,7 +164,7 @@ Which of the following statements are true regarding the function $\newcommand{\
 
 #### Explanation
 
-Let's recall the graph of $\newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \newcommand{\cosh}{\mathop{\rm cosh}\nolimits} \newcommand{\sinh}{\mathop{\rm sinh}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits}y=\coth{x}.$
+Let's recall the graph of $y=\coth{x}.$
 
 ![Instructional graphic](../../../lesson-assets/calculus-i/topic-3267/49c1661574b697c4.png)
 

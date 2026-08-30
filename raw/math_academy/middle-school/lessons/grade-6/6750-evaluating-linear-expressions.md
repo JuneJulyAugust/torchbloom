@@ -146,7 +146,7 @@ $$
 
 $$
 
-Therefore, the temperature after $\dfrac52$ hours is $28\,^\circ\textrm{C}.$
+Therefore, the temperature after $\dfrac52$ hours is $28\,^\circ\text{C}.$
 
 ### Example: Evaluating Linear Expressions: Word Problems
 

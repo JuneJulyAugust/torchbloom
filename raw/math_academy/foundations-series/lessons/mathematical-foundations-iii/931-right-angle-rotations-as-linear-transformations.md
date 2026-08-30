@@ -29,7 +29,7 @@ We can find the images of $\{\mathbf{i},\mathbf{j} \}$ under $\mathbf{R}$ by com
 $$
 
 
-\begin{aligned}𝐢^{′} & =𝐑(𝐢)=[\begin{aligned}−1 & 0 \\ 0 & −1\end{aligned}][\begin{aligned}1 \\ 0\end{aligned}]=[\begin{aligned}−1 \\ 0\end{aligned}]=−𝐢 \\ 𝐣^{′} & =𝐑(𝐣)=[\begin{aligned}−1 & 0 \\ 0 & −1\end{aligned}][\begin{aligned}0 \\ 1\end{aligned}]=[\begin{aligned}0 \\ −1\end{aligned}]=−𝐣\end{aligned}
+\begin{aligned}𝐢^{′} & =𝐑(𝐢)=[\begin{matrix}−1 & 0 \\ 0 & −1\end{matrix}][\begin{matrix}1 \\ 0\end{matrix}]=[\begin{matrix}−1 \\ 0\end{matrix}]=−𝐢 \\ 𝐣^{′} & =𝐑(𝐣)=[\begin{matrix}−1 & 0 \\ 0 & −1\end{matrix}][\begin{matrix}0 \\ 1\end{matrix}]=[\begin{matrix}0 \\ −1\end{matrix}]=−𝐣\end{aligned}
 
 
 $$
@@ -71,7 +71,7 @@ To find the image of $S$ under the action of $\mathbf{R}_{\pi},$ we first create
 $$
 
 
-\begin{aligned}𝑋 & =[\begin{aligned}2 & −3 & 4 \\ −1 & 5 & −3\end{aligned}]\end{aligned}
+\begin{aligned}𝑋 & =[\begin{matrix}2 & −3 & 4 \\ −1 & 5 & −3\end{matrix}]\end{aligned}
 
 
 $$
@@ -81,7 +81,7 @@ Now, we compute the image of $X$ under $\mathbf{R}_{\pi}$ by calculating the mat
 $$
 
 
-\begin{aligned}𝑅𝑋 & =[\begin{aligned}−1 & 0 \\ 0 & −1\end{aligned}][\begin{aligned}2 & −3 & 4 \\ −1 & 5 & −3\end{aligned}] \\ & =[\begin{aligned}−2 & 3 & −4 \\ 1 & −5 & 3\end{aligned}]\end{aligned}
+\begin{aligned}𝑅𝑋 & =[\begin{matrix}−1 & 0 \\ 0 & −1\end{matrix}][\begin{matrix}2 & −3 & 4 \\ −1 & 5 & −3\end{matrix}] \\ & =[\begin{matrix}−2 & 3 & −4 \\ 1 & −5 & 3\end{matrix}]\end{aligned}
 
 
 $$
@@ -109,7 +109,7 @@ As before, we can find the images of $\{\mathbf{i},\mathbf{j} \}$ under $\mathbf
 $$
 
 
-\begin{aligned}𝐢^{′} & =𝐑(𝐢)=[\begin{aligned}0 & −1 \\ 1 & 0\end{aligned}][\begin{aligned}1 \\ 0\end{aligned}]=[\begin{aligned}0 \\ 1\end{aligned}]=𝐣 \\ 𝐣^{′} & =𝐑(𝐣)=[\begin{aligned}0 & −1 \\ 1 & 0\end{aligned}][\begin{aligned}0 \\ 1\end{aligned}]=[\begin{aligned}−1 \\ 0\end{aligned}]=−𝐢\end{aligned}
+\begin{aligned}𝐢^{′} & =𝐑(𝐢)=[\begin{matrix}0 & −1 \\ 1 & 0\end{matrix}][\begin{matrix}1 \\ 0\end{matrix}]=[\begin{matrix}0 \\ 1\end{matrix}]=𝐣 \\ 𝐣^{′} & =𝐑(𝐣)=[\begin{matrix}0 & −1 \\ 1 & 0\end{matrix}][\begin{matrix}0 \\ 1\end{matrix}]=[\begin{matrix}−1 \\ 0\end{matrix}]=−𝐢\end{aligned}
 
 
 $$
@@ -139,7 +139,7 @@ be a matrix of a linear transformation $\mathbf R.$ As usual, we can find the im
 $$
 
 
-\begin{aligned}𝐢^{′} & =𝐑(𝐢)=[\begin{aligned}0 & 1 \\ −1 & 0\end{aligned}][\begin{aligned}1 \\ 0\end{aligned}]=[\begin{aligned}0 \\ −1\end{aligned}]=−𝐣 \\ 𝐣^{′} & =𝐑(𝐣)=[\begin{aligned}0 & 1 \\ −1 & 0\end{aligned}][\begin{aligned}0 \\ 1\end{aligned}]=[\begin{aligned}1 \\ 0\end{aligned}]=𝐢\end{aligned}
+\begin{aligned}𝐢^{′} & =𝐑(𝐢)=[\begin{matrix}0 & 1 \\ −1 & 0\end{matrix}][\begin{matrix}1 \\ 0\end{matrix}]=[\begin{matrix}0 \\ −1\end{matrix}]=−𝐣 \\ 𝐣^{′} & =𝐑(𝐣)=[\begin{matrix}0 & 1 \\ −1 & 0\end{matrix}][\begin{matrix}0 \\ 1\end{matrix}]=[\begin{matrix}1 \\ 0\end{matrix}]=𝐢\end{aligned}
 
 
 $$
@@ -175,7 +175,7 @@ Consider the standard basis $\{\mathbf{i},\mathbf{j} \}$ of the Euclidean plane 
 $$
 
 
-\begin{aligned}𝐢^{′} & =𝐴𝐢=[\begin{aligned}0 & −1 \\ 1 & 0\end{aligned}][\begin{aligned}1 \\ 0\end{aligned}]=[\begin{aligned}0 \\ 1\end{aligned}]=𝐣 \\ 𝐣^{′} & =𝐴𝐣=[\begin{aligned}0 & −1 \\ 1 & 0\end{aligned}][\begin{aligned}0 \\ 1\end{aligned}]=[\begin{aligned}−1 \\ 0\end{aligned}]=−𝐢\end{aligned}
+\begin{aligned}𝐢^{′} & =𝐴𝐢=[\begin{matrix}0 & −1 \\ 1 & 0\end{matrix}][\begin{matrix}1 \\ 0\end{matrix}]=[\begin{matrix}0 \\ 1\end{matrix}]=𝐣 \\ 𝐣^{′} & =𝐴𝐣=[\begin{matrix}0 & −1 \\ 1 & 0\end{matrix}][\begin{matrix}0 \\ 1\end{matrix}]=[\begin{matrix}−1 \\ 0\end{matrix}]=−𝐢\end{aligned}
 
 
 $$
@@ -219,7 +219,7 @@ To find the image of $S$ under the action of $\mathbf{R}_{-90^\circ},$ we first 
 $$
 
 
-\begin{aligned}𝑋 & =[\begin{aligned}−5 & 1 & 3 \\ −1 & 4 & −5\end{aligned}]\end{aligned}
+\begin{aligned}𝑋 & =[\begin{matrix}−5 & 1 & 3 \\ −1 & 4 & −5\end{matrix}]\end{aligned}
 
 
 $$
@@ -229,7 +229,7 @@ Now, we compute the image of $X$ under $\mathbf{R}_{-90^\circ}$ by calculating t
 $$
 
 
-\begin{aligned}𝑅𝑋 & =[\begin{aligned}0 & 1 \\ −1 & 0\end{aligned}][\begin{aligned}−5 & 1 & 3 \\ −1 & 4 & −5\end{aligned}] \\ & =[\begin{aligned}−1 & 4 & −5 \\ 5 & −1 & −3\end{aligned}]\end{aligned}
+\begin{aligned}𝑅𝑋 & =[\begin{matrix}0 & 1 \\ −1 & 0\end{matrix}][\begin{matrix}−5 & 1 & 3 \\ −1 & 4 & −5\end{matrix}] \\ & =[\begin{matrix}−1 & 4 & −5 \\ 5 & −1 & −3\end{matrix}]\end{aligned}
 
 
 $$

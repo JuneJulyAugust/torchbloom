@@ -82,7 +82,7 @@ $$
 
 $$
 
-Let $f(x)$ and $g(x)$ be $2\pi$-periodic extensions of some functions from $x \in [-\pi,\pi)$ to $x \in \mathbb{R}$ with the Fourier series shown above. What are the Fourier constant coefficient, the $3\textrm{rd}$ Fourier sine coefficient, and the $8\textrm{th}$ Fourier cosine coefficient of $-3f(x)+4g(x)$?
+Let $f(x)$ and $g(x)$ be $2\pi$-periodic extensions of some functions from $x \in [-\pi,\pi)$ to $x \in \mathbb{R}$ with the Fourier series shown above. What are the Fourier constant coefficient, the $3\text{rd}$ Fourier sine coefficient, and the $8\text{th}$ Fourier cosine coefficient of $-3f(x)+4g(x)$?
 
 #### Explanation
 

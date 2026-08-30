@@ -90,7 +90,7 @@ We can write this as follows:
 $$
 
 
-\textrm{Lines are parallel}\quad \Longrightarrow\quad \textrm{Corresponding angles are congruent}
+\text{Lines are parallel}\quad \Longrightarrow\quad \text{Corresponding angles are congruent}
 
 
 $$
@@ -138,7 +138,7 @@ We can write this as follows:
 $$
 
 
-\textrm{Corresponding angles are congruent}\quad \Longrightarrow\quad \textrm{Lines are parallel}
+\text{Corresponding angles are congruent}\quad \Longrightarrow\quad \text{Lines are parallel}
 
 
 $$

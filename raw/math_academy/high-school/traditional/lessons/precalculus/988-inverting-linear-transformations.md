@@ -62,7 +62,7 @@ $$
 
 
 
-\begin{aligned}𝑇^{−1}⋅𝑇⋅𝐯 & =𝑇^{−1}⋅[\begin{aligned}2 \\ 6\end{aligned}] \\ 𝐼_{2}⋅𝐯 & =𝑇^{−1}⋅[\begin{aligned}2 \\ 6\end{aligned}] \\ 𝐯 & =𝑇^{−1}⋅[\begin{aligned}2 \\ 6\end{aligned}].\end{aligned}
+\begin{aligned}𝑇^{−1}⋅𝑇⋅𝐯 & =𝑇^{−1}⋅[\begin{matrix}2 \\ 6\end{matrix}] \\ 𝐼_{2}⋅𝐯 & =𝑇^{−1}⋅[\begin{matrix}2 \\ 6\end{matrix}] \\ 𝐯 & =𝑇^{−1}⋅[\begin{matrix}2 \\ 6\end{matrix}].\end{aligned}
 
 
 
@@ -76,7 +76,7 @@ $$
 
 
 
-\begin{aligned}𝑇^{−1} & =\frac{1}{20−16}[\begin{aligned}10 & −4 \\ −4 & 2\end{aligned}] \\ & =\frac{1}{4}[\begin{aligned}10 & −4 \\ −4 & 2\end{aligned}].\end{aligned}
+\begin{aligned}𝑇^{−1} & =\frac{1}{20−16}[\begin{matrix}10 & −4 \\ −4 & 2\end{matrix}] \\ & =\frac{1}{4}[\begin{matrix}10 & −4 \\ −4 & 2\end{matrix}].\end{aligned}
 
 
 
@@ -88,7 +88,7 @@ $$
 
 
 
-\begin{aligned}𝐯 & =𝑇^{−1}⋅[\begin{aligned}2 \\ 6\end{aligned}] \\ & =\frac{1}{4}[\begin{aligned}10 & −4 \\ −4 & 2\end{aligned}][\begin{aligned}2 \\ 6\end{aligned}] \\ & =\frac{1}{4}[\begin{aligned}−4 \\ 4\end{aligned}] \\ & =[\begin{aligned}−1 \\ 1\end{aligned}]\end{aligned}
+\begin{aligned}𝐯 & =𝑇^{−1}⋅[\begin{matrix}2 \\ 6\end{matrix}] \\ & =\frac{1}{4}[\begin{matrix}10 & −4 \\ −4 & 2\end{matrix}][\begin{matrix}2 \\ 6\end{matrix}] \\ & =\frac{1}{4}[\begin{matrix}−4 \\ 4\end{matrix}] \\ & =[\begin{matrix}−1 \\ 1\end{matrix}]\end{aligned}
 
 
 
@@ -100,7 +100,7 @@ $$
 
 
 
-\begin{aligned}𝑇⋅𝐯 & =[\begin{aligned}2 & 4 \\ 4 & 10\end{aligned}][\begin{aligned}−1 \\ 1\end{aligned}] \\ & =[\begin{aligned}2 \\ 6\end{aligned}]\,✓\end{aligned}
+\begin{aligned}𝑇⋅𝐯 & =[\begin{matrix}2 & 4 \\ 4 & 10\end{matrix}][\begin{matrix}−1 \\ 1\end{matrix}] \\ & =[\begin{matrix}2 \\ 6\end{matrix}]\,✓\end{aligned}
 
 
 
@@ -160,7 +160,7 @@ $$
 
 
 
-\begin{aligned}𝑇^{−1}⋅𝑇⋅𝐯 & =𝑇^{−1}⋅[\begin{aligned}1 \\ 4\end{aligned}] \\ 𝐯 & =𝑇^{−1}⋅[\begin{aligned}1 \\ 4\end{aligned}].\end{aligned}
+\begin{aligned}𝑇^{−1}⋅𝑇⋅𝐯 & =𝑇^{−1}⋅[\begin{matrix}1 \\ 4\end{matrix}] \\ 𝐯 & =𝑇^{−1}⋅[\begin{matrix}1 \\ 4\end{matrix}].\end{aligned}
 
 
 
@@ -172,7 +172,7 @@ $$
 
 
 
-\begin{aligned}𝑇^{−1} & =\frac{1}{−15−(−20)}[\begin{aligned}−3 & 2 \\ −10 & 5\end{aligned}] \\ & =\frac{1}{5}[\begin{aligned}−3 & 2 \\ −10 & 5\end{aligned}].\end{aligned}
+\begin{aligned}𝑇^{−1} & =\frac{1}{−15−(−20)}[\begin{matrix}−3 & 2 \\ −10 & 5\end{matrix}] \\ & =\frac{1}{5}[\begin{matrix}−3 & 2 \\ −10 & 5\end{matrix}].\end{aligned}
 
 
 
@@ -184,7 +184,7 @@ $$
 
 
 
-\begin{aligned}𝐯 & =𝑇^{−1}⋅[\begin{aligned}1 \\ 4\end{aligned}] \\ & =\frac{1}{5}[\begin{aligned}−3 & 2 \\ −10 & 5\end{aligned}][\begin{aligned}1 \\ 4\end{aligned}] \\ & =\frac{1}{5}[\begin{aligned}5 \\ 10\end{aligned}] \\ & =[\begin{aligned}1 \\ 2\end{aligned}].\end{aligned}
+\begin{aligned}𝐯 & =𝑇^{−1}⋅[\begin{matrix}1 \\ 4\end{matrix}] \\ & =\frac{1}{5}[\begin{matrix}−3 & 2 \\ −10 & 5\end{matrix}][\begin{matrix}1 \\ 4\end{matrix}] \\ & =\frac{1}{5}[\begin{matrix}5 \\ 10\end{matrix}] \\ & =[\begin{matrix}1 \\ 2\end{matrix}].\end{aligned}
 
 
 
@@ -234,7 +234,7 @@ $$
 
 
 
-\begin{aligned}𝑇⋅𝑋 & =𝑌 \\ 𝑇⋅𝑋 & =[\begin{aligned}4 & 4 & −4 \\ 3 & 10 & −3\end{aligned}].\end{aligned}
+\begin{aligned}𝑇⋅𝑋 & =𝑌 \\ 𝑇⋅𝑋 & =[\begin{matrix}4 & 4 & −4 \\ 3 & 10 & −3\end{matrix}].\end{aligned}
 
 
 
@@ -246,7 +246,7 @@ $$
 
 
 
-\begin{aligned}𝑇^{−1}⋅𝑇⋅𝑋 & =𝑇^{−1}⋅[\begin{aligned}4 & 4 & −4 \\ 3 & 10 & −3\end{aligned}] \\ 𝑋 & =𝑇^{−1}⋅[\begin{aligned}4 & 4 & −4 \\ 3 & 10 & −3\end{aligned}].\end{aligned}
+\begin{aligned}𝑇^{−1}⋅𝑇⋅𝑋 & =𝑇^{−1}⋅[\begin{matrix}4 & 4 & −4 \\ 3 & 10 & −3\end{matrix}] \\ 𝑋 & =𝑇^{−1}⋅[\begin{matrix}4 & 4 & −4 \\ 3 & 10 & −3\end{matrix}].\end{aligned}
 
 
 
@@ -258,7 +258,7 @@ $$
 
 
 
-\begin{aligned}𝑇^{−1} & =\frac{1}{4−(−3)}[\begin{aligned}1 & 1 \\ −3 & 4\end{aligned}] \\ & =\frac{1}{7}[\begin{aligned}1 & 1 \\ −3 & 4\end{aligned}].\end{aligned}
+\begin{aligned}𝑇^{−1} & =\frac{1}{4−(−3)}[\begin{matrix}1 & 1 \\ −3 & 4\end{matrix}] \\ & =\frac{1}{7}[\begin{matrix}1 & 1 \\ −3 & 4\end{matrix}].\end{aligned}
 
 
 
@@ -270,7 +270,7 @@ $$
 
 
 
-\begin{aligned}𝑋 & =𝑇^{−1}⋅[\begin{aligned}4 & 4 & −4 \\ 3 & 10 & −3\end{aligned}] \\ & =\frac{1}{7}[\begin{aligned}1 & 1 \\ −3 & 4\end{aligned}][\begin{aligned}4 & 4 & −4 \\ 3 & 10 & −3\end{aligned}] \\ & =\frac{1}{7}[\begin{aligned}7 & 14 & −7 \\ 0 & 28 & 0\end{aligned}] \\ & =[\begin{aligned}1 & 2 & −1 \\ 0 & 4 & 0\end{aligned}].\end{aligned}
+\begin{aligned}𝑋 & =𝑇^{−1}⋅[\begin{matrix}4 & 4 & −4 \\ 3 & 10 & −3\end{matrix}] \\ & =\frac{1}{7}[\begin{matrix}1 & 1 \\ −3 & 4\end{matrix}][\begin{matrix}4 & 4 & −4 \\ 3 & 10 & −3\end{matrix}] \\ & =\frac{1}{7}[\begin{matrix}7 & 14 & −7 \\ 0 & 28 & 0\end{matrix}] \\ & =[\begin{matrix}1 & 2 & −1 \\ 0 & 4 & 0\end{matrix}].\end{aligned}
 
 
 

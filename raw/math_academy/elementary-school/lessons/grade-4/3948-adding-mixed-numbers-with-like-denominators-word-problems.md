@@ -12,7 +12,7 @@ Topic ID: 3948
 
 ### Introduction
 
-Suppose Linda prepares some fruit juice for a hot summer day. The recipe tells her to mix $2\, \dfrac{1}{5}\,\textrm{L}$ of apple juice with $1\, \dfrac{2}{5}\,\textrm{L}$ of cherry juice. If Linda follows the recipe exactly, how many liters of fruit juice will she get?
+Suppose Linda prepares some fruit juice for a hot summer day. The recipe tells her to mix $2\, \dfrac{1}{5}\,\text{L}$ of apple juice with $1\, \dfrac{2}{5}\,\text{L}$ of cherry juice. If Linda follows the recipe exactly, how many liters of fruit juice will she get?
 
 To find the volume of the fruit juice she will get, we need to calculate the following sum:
 
@@ -42,7 +42,7 @@ $$
 
 $$
 
-Therefore, Linda will get $3\,\dfrac{3}{5}\,\textrm{L}$ of fruit juice.
+Therefore, Linda will get $3\,\dfrac{3}{5}\,\text{L}$ of fruit juice.
 
 ### Example: Adding Mixed Numbers
 
@@ -80,7 +80,7 @@ Therefore, Tom spent $5\,\dfrac{1}{2}$ hours studying.
 
 #### Question
 
-On August $15,$ Natalie collected $10\,\dfrac{7}{8}\,\textrm{kg}$ of tomatoes from her garden. On August $18,$ she picked $3\,\dfrac{5}{8}\,\textrm{kg}$ more tomatoes than on August $15.$ How many kilograms of tomatoes did she pick on August $18?$
+On August $15,$ Natalie collected $10\,\dfrac{7}{8}\,\text{kg}$ of tomatoes from her garden. On August $18,$ she picked $3\,\dfrac{5}{8}\,\text{kg}$ more tomatoes than on August $15.$ How many kilograms of tomatoes did she pick on August $18?$
 
 #### Explanation
 
@@ -106,4 +106,4 @@ $$
 
 $$
 
-Therefore, on August $18,$ Natalie collected $14\,\dfrac{1}{2}\,\textrm{kg}$ of tomatoes from her garden.
+Therefore, on August $18,$ Natalie collected $14\,\dfrac{1}{2}\,\text{kg}$ of tomatoes from her garden.

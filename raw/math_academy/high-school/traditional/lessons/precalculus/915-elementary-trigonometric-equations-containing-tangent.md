@@ -69,7 +69,7 @@ $$
 
 
 
-\begin{aligned}3tan⁡𝑥+3\sqrt{√3} & =0 \\ 3tan⁡𝑥 & =−3\sqrt{√3} \\ tan⁡𝑥 & =−\frac{3\sqrt{√3}}{3} \\ tan⁡𝑥 & =−\sqrt{√3}.\end{aligned}
+\begin{aligned}3tan⁡𝑥+3\sqrt{3} & =0 \\ 3tan⁡𝑥 & =−3\sqrt{3} \\ tan⁡𝑥 & =−\frac{3\sqrt{3}}{3} \\ tan⁡𝑥 & =−\sqrt{3}.\end{aligned}
 
 
 
@@ -81,7 +81,7 @@ $$
 
 
 
-\begin{aligned}𝑥=arctan⁡(−\sqrt{√3})=−60^{∘}\end{aligned}
+\begin{aligned}𝑥=arctan⁡(−\sqrt{3})=−60^{∘}\end{aligned}
 
 
 
@@ -205,7 +205,7 @@ $$
 
 
 
-\begin{aligned}3tan⁡𝑥−\sqrt{√3} & =0 \\ 3tan⁡𝑥 & =\sqrt{√3} \\ tan⁡𝑥 & =\frac{\sqrt{√3}}{3}\end{aligned}
+\begin{aligned}3tan⁡𝑥−\sqrt{3} & =0 \\ 3tan⁡𝑥 & =\sqrt{3} \\ tan⁡𝑥 & =\frac{\sqrt{3}}{3}\end{aligned}
 
 
 
@@ -217,7 +217,7 @@ $$
 
 
 
-\begin{aligned}𝑥=arctan⁡(\frac{\sqrt{√3}}{3})=30^{∘}\end{aligned}
+\begin{aligned}𝑥=arctan⁡(\frac{\sqrt{3}}{3})=30^{∘}\end{aligned}
 
 
 

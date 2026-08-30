@@ -80,7 +80,7 @@ The Laplace transform of $f$ is defined by
 $$
 
 
-\mathcal{L}\{f(t)\} = \int_{0}^{\infty} e^{-st} f(t)\,\textrm{d}t.
+\mathcal{L}\{f(t)\} = \int_{0}^{\infty} e^{-st} f(t)\,\text{d}t.
 
 
 $$
@@ -90,7 +90,7 @@ Replacing $f(t)$ with $f'(t)$ in this definition gives
 $$
 
 
-\mathcal{L}\{f'(t)\} = \int_{0}^{\infty} e^{-st} f'(t)\,\textrm{d}t.
+\mathcal{L}\{f'(t)\} = \int_{0}^{\infty} e^{-st} f'(t)\,\text{d}t.
 
 
 $$
@@ -100,7 +100,7 @@ Writing the improper integral as a limit of proper integrals, we have
 $$
 
 
-\begin{aligned}L{𝑓^{′}(𝑡)} & =∫_{∞0}^{}𝑒^{−𝑠𝑡}𝑓^{′}(𝑡)\,d𝑡 \\ & =\underset{𝑎→∞}{lim}∫_{𝑎0}^{}𝑒^{−𝑠𝑡}𝑓^{′}(𝑡)\,d𝑡.\end{aligned}
+\begin{aligned}L{𝑓^{′}(𝑡)} & =∫_{∞0}𝑒^{−𝑠𝑡}𝑓^{′}(𝑡)\,d𝑡 \\ & =\underset{𝑎→∞}{lim}∫_{𝑎0}𝑒^{−𝑠𝑡}𝑓^{′}(𝑡)\,d𝑡.\end{aligned}
 
 
 $$
@@ -110,7 +110,7 @@ We now apply integration by parts on $[0,a]$, choosing
 $$
 
 
-u = e^{-st}, \qquad \textrm{d}v = f'(t)\,\textrm{d}t.
+u = e^{-st}, \qquad \text{d}v = f'(t)\,\text{d}t.
 
 
 $$
@@ -120,7 +120,7 @@ Then
 $$
 
 
-\textrm{d}u = -s e^{-st}\,\textrm{d}t, \qquad v = f(t).
+\text{d}u = -s e^{-st}\,\text{d}t, \qquad v = f(t).
 
 
 $$
@@ -130,7 +130,7 @@ Using the integration-by-parts formula, we obtain
 $$
 
 
-\begin{aligned}∫_{𝑎0}^{}𝑒^{−𝑠𝑡}𝑓^{′}(𝑡)\,d𝑡 & =𝑒^{−𝑠𝑡}𝑓(𝑡)_{𝑎0}^{}−∫_{𝑎0}^{}(−𝑠𝑒^{−𝑠𝑡})𝑓(𝑡)\,d𝑡 \\ & =𝑒^{−𝑠𝑎}𝑓(𝑎)−𝑓(0)+𝑠∫_{𝑎0}^{}𝑒^{−𝑠𝑡}𝑓(𝑡)\,d𝑡.\end{aligned}
+\begin{aligned}∫_{𝑎0}𝑒^{−𝑠𝑡}𝑓^{′}(𝑡)\,d𝑡 & =𝑒^{−𝑠𝑡}𝑓(𝑡)_{𝑎0}−∫_{𝑎0}(−𝑠𝑒^{−𝑠𝑡})𝑓(𝑡)\,d𝑡 \\ & =𝑒^{−𝑠𝑎}𝑓(𝑎)−𝑓(0)+𝑠∫_{𝑎0}𝑒^{−𝑠𝑡}𝑓(𝑡)\,d𝑡.\end{aligned}
 
 
 $$
@@ -140,7 +140,7 @@ Substituting this into the previous expression gives
 $$
 
 
-\begin{aligned}L{𝑓^{′}(𝑡)} & =\underset{𝑎→∞}{lim}(𝑒^{−𝑠𝑎}𝑓(𝑎)−𝑓(0)+𝑠∫_{𝑎0}^{}𝑒^{−𝑠𝑡}𝑓(𝑡)\,d𝑡) \\ & =𝑠∫_{∞0}^{}𝑒^{−𝑠𝑡}𝑓(𝑡)\,d𝑡−𝑓(0)+\underset{𝑎→∞}{lim}𝑒^{−𝑠𝑎}𝑓(𝑎).\end{aligned}
+\begin{aligned}L{𝑓^{′}(𝑡)} & =\underset{𝑎→∞}{lim}(𝑒^{−𝑠𝑎}𝑓(𝑎)−𝑓(0)+𝑠∫_{𝑎0}𝑒^{−𝑠𝑡}𝑓(𝑡)\,d𝑡) \\ & =𝑠∫_{∞0}𝑒^{−𝑠𝑡}𝑓(𝑡)\,d𝑡−𝑓(0)+\underset{𝑎→∞}{lim}𝑒^{−𝑠𝑎}𝑓(𝑎).\end{aligned}
 
 
 $$

@@ -37,7 +37,7 @@ The **matrix of $\mathbf{T}$ with respect to the bases $\color{blue}\mathcal{B}$
 $$
 
 
-\begin{aligned}[𝐓]_{B|C} & =\begin{aligned}| & | & | \\ [𝐓(𝐛_{1})]_{C} & [𝐓(𝐛_{2})]_{C} & [𝐓(𝐛_{3})]_{C} \\ | & | & |\end{aligned}\end{aligned}
+\begin{aligned}[𝐓]_{B|C} & =\begin{matrix}| & | & | \\ [𝐓(𝐛_{1})]_{C} & [𝐓(𝐛_{2})]_{C} & [𝐓(𝐛_{3})]_{C} \\ | & | & |\end{matrix}\end{aligned}
 
 
 $$
@@ -57,7 +57,7 @@ then
 $$
 
 
-\begin{aligned}[𝐓]_{B|C} & =[\begin{aligned}3 & 10 & −12 \\ 1 & −1 & 0\end{aligned}].\end{aligned}
+\begin{aligned}[𝐓]_{B|C} & =[\begin{matrix}3 & 10 & −12 \\ 1 & −1 & 0\end{matrix}].\end{aligned}
 
 
 $$
@@ -77,7 +77,7 @@ First, we write the images of vectors in $\mathcal{B}$ relative to the basis $\m
 $$
 
 
-\begin{aligned}𝐓(𝐛_{1})=−3𝐜_{1}+5𝐜_{2} & \,⟹\,[𝐓(𝐛_{1})]_{C}=[\begin{aligned}−3 \\ 5\end{aligned}] \\ 𝐓(𝐛_{2})=𝐜_{2}−2𝐜_{1} & \,⟹\,[𝐓(𝐛_{2})]_{C}=[\begin{aligned}−2 \\ 1\end{aligned}] \\ 𝐓(𝐛_{3})=𝐜_{1}+5𝐜_{2} & \,⟹\,[𝐓(𝐛_{3})]_{C}=[\begin{aligned}1 \\ 5\end{aligned}]\end{aligned}
+\begin{aligned}𝐓(𝐛_{1})=−3𝐜_{1}+5𝐜_{2} & \,⟹\,[𝐓(𝐛_{1})]_{C}=[\begin{matrix}−3 \\ 5\end{matrix}] \\ 𝐓(𝐛_{2})=𝐜_{2}−2𝐜_{1} & \,⟹\,[𝐓(𝐛_{2})]_{C}=[\begin{matrix}−2 \\ 1\end{matrix}] \\ 𝐓(𝐛_{3})=𝐜_{1}+5𝐜_{2} & \,⟹\,[𝐓(𝐛_{3})]_{C}=[\begin{matrix}1 \\ 5\end{matrix}]\end{aligned}
 
 
 $$
@@ -135,7 +135,7 @@ We reduce the left-hand side to reduced row echelon form using Gaussian eliminat
 $$
 
 
-\begin{aligned}𝑀 & =[\begin{aligned}−1 & 4 & 1 & −3 & 7 \\ 1 & −3 & 2 & −5 & 1\end{aligned}] & & \begin{aligned}𝑅_{1}:=(−1)𝑅_{1}\end{aligned} \\ & ∼[\begin{aligned}1 & −4 & −1 & 3 & −7 \\ 1 & −3 & 2 & −5 & 1\end{aligned}] & & \begin{aligned}𝑅_{2}:=𝑅_{2}+(−1)𝑅_{1}\end{aligned} \\ & ∼[\begin{aligned}1 & −4 & −1 & 3 & −7 \\ 0 & 1 & 3 & −8 & 8\end{aligned}] & & \begin{aligned}𝑅_{1}:=𝑅_{1}+4𝑅_{2}\end{aligned} \\ & ∼[\begin{aligned}1 & 0 & 11 & −29 & 25 \\ 0 & 1 & 3 & −8 & 8\end{aligned}] & & \end{aligned}
+\begin{aligned}𝑀 & =[\begin{matrix}−1 & 4 & 1 & −3 & 7 \\ 1 & −3 & 2 & −5 & 1\end{matrix}] & & \begin{matrix}𝑅_{1}:=(−1)𝑅_{1}\end{matrix} \\ & ∼[\begin{matrix}1 & −4 & −1 & 3 & −7 \\ 1 & −3 & 2 & −5 & 1\end{matrix}] & & \begin{matrix}𝑅_{2}:=𝑅_{2}+(−1)𝑅_{1}\end{matrix} \\ & ∼[\begin{matrix}1 & −4 & −1 & 3 & −7 \\ 0 & 1 & 3 & −8 & 8\end{matrix}] & & \begin{matrix}𝑅_{1}:=𝑅_{1}+4𝑅_{2}\end{matrix} \\ & ∼[\begin{matrix}1 & 0 & 11 & −29 & 25 \\ 0 & 1 & 3 & −8 & 8\end{matrix}] & & \end{aligned}
 
 
 $$
@@ -177,7 +177,7 @@ then the image of $\mathbf x$ under $\mathbf T$ relative to $\mathcal C$ is give
 $$
 
 
-\begin{aligned}[𝐓(𝐱)]_{C} & =[\begin{aligned}1 & 3 & −2 \\ 1 & 2 & 0\end{aligned}]\begin{aligned}3 \\ 0 \\ 1\end{aligned} \\ & =[\begin{aligned}1 \\ 3\end{aligned}].\end{aligned}
+\begin{aligned}[𝐓(𝐱)]_{C} & =[\begin{matrix}1 & 3 & −2 \\ 1 & 2 & 0\end{matrix}]\begin{matrix}3 \\ 0 \\ 1\end{matrix} \\ & =[\begin{matrix}1 \\ 3\end{matrix}].\end{aligned}
 
 
 $$
@@ -203,7 +203,7 @@ The coordinates of the image of $\mathbf{x}$ under $\mathbf{T}$ relative to the 
 $$
 
 
-\begin{aligned}[𝐓(𝐱)]_{C} & =[𝐓]_{B|C}⋅[𝐱]_{B} \\ & =[\begin{aligned}1 & 4 & −2 \\ 3 & 7 & 1\end{aligned}]\begin{aligned}3 \\ −2 \\ 1\end{aligned} \\ & =[\begin{aligned}−7 \\ −4\end{aligned}]\end{aligned}
+\begin{aligned}[𝐓(𝐱)]_{C} & =[𝐓]_{B|C}⋅[𝐱]_{B} \\ & =[\begin{matrix}1 & 4 & −2 \\ 3 & 7 & 1\end{matrix}]\begin{matrix}3 \\ −2 \\ 1\end{matrix} \\ & =[\begin{matrix}−7 \\ −4\end{matrix}]\end{aligned}
 
 
 $$
@@ -259,7 +259,7 @@ We now row-reduce the corresponding augmented matrix using Gaussian elimination,
 $$
 
 
-\begin{aligned}𝑀 & =[\begin{aligned}1 & −2 & 5 \\ 4 & −5 & 2\end{aligned}] & & \begin{aligned}𝑅_{2}:=𝑅_{2}+(−4)𝑅_{1}\end{aligned} \\ & ∼[\begin{aligned}1 & −2 & 5 \\ 0 & 3 & −18\end{aligned}] & & \begin{aligned}𝑅_{2}:=\frac{1}{3}𝑅_{2}\end{aligned} \\ & ∼[\begin{aligned}1 & −2 & 5 \\ 0 & 1 & −6\end{aligned}] & & \begin{aligned}𝑅_{1}:=𝑅_{1}+2𝑅_{2}\end{aligned} \\ & ∼[\begin{aligned}1 & 0 & −7 \\ 0 & 1 & −6\end{aligned}] & & \end{aligned}
+\begin{aligned}𝑀 & =[\begin{matrix}1 & −2 & 5 \\ 4 & −5 & 2\end{matrix}] & & \begin{matrix}𝑅_{2}:=𝑅_{2}+(−4)𝑅_{1}\end{matrix} \\ & ∼[\begin{matrix}1 & −2 & 5 \\ 0 & 3 & −18\end{matrix}] & & \begin{matrix}𝑅_{2}:=\frac{1}{3}𝑅_{2}\end{matrix} \\ & ∼[\begin{matrix}1 & −2 & 5 \\ 0 & 1 & −6\end{matrix}] & & \begin{matrix}𝑅_{1}:=𝑅_{1}+2𝑅_{2}\end{matrix} \\ & ∼[\begin{matrix}1 & 0 & −7 \\ 0 & 1 & −6\end{matrix}] & & \end{aligned}
 
 
 $$
@@ -271,7 +271,7 @@ Finally, we obtain
 $$
 
 
-\begin{aligned}[𝐓(𝐱)]_{C} & =[𝐓]_{B|C}⋅[𝐱]_{B} \\ & =\begin{aligned}1 & −4 \\ 3 & −2 \\ 0 & 1\end{aligned}[\begin{aligned}−7 \\ −6\end{aligned}] \\ & =\begin{aligned}17 \\ −9 \\ −6\end{aligned}.\end{aligned}
+\begin{aligned}[𝐓(𝐱)]_{C} & =[𝐓]_{B|C}⋅[𝐱]_{B} \\ & =\begin{matrix}1 & −4 \\ 3 & −2 \\ 0 & 1\end{matrix}[\begin{matrix}−7 \\ −6\end{matrix}] \\ & =\begin{matrix}17 \\ −9 \\ −6\end{matrix}.\end{aligned}
 
 
 $$

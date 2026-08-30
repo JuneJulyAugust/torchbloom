@@ -95,7 +95,7 @@ Therefore, the distance between the numbers is
 $$
 
 
-\begin{aligned}|𝑧_{1}−𝑧_{2}| & =|−1−2i| \\ & =\sqrt{√(−1)^{2}+(−2)^{2}} \\ & =\sqrt{√5}.\end{aligned}
+\begin{aligned}|𝑧_{1}−𝑧_{2}| & =|−1−2i| \\ & =\sqrt{(−1)^{2}+(−2)^{2}} \\ & =\sqrt{5}.\end{aligned}
 
 
 $$
@@ -104,7 +104,7 @@ $$
 
 #### Question
 
-What is the distance between the numbers $z_1=12+12\textrm{i}$ and $z_2=-4\textrm{i}$ in the complex plane?
+What is the distance between the numbers $z_1=12+12\text{i}$ and $z_2=-4\text{i}$ in the complex plane?
 
 #### Explanation
 
@@ -125,7 +125,7 @@ Therefore, the distance between the numbers is
 $$
 
 
-\begin{aligned}|12+16i| & =\sqrt{√(12)^{2}+(16)^{2}} \\ & =\sqrt{√400} \\ & =20.\end{aligned}
+\begin{aligned}|12+16i| & =\sqrt{(12)^{2}+(16)^{2}} \\ & =\sqrt{400} \\ & =20.\end{aligned}
 
 
 $$
@@ -176,7 +176,7 @@ Our line segment and its midpoint are shown below.
 
 #### Question
 
-What number corresponds to the midpoint of the line segment that connects the numbers $z_1=2+3\textrm{i}$ and $z_2=-6+3\textrm{i}$ in the complex plane?
+What number corresponds to the midpoint of the line segment that connects the numbers $z_1=2+3\text{i}$ and $z_2=-6+3\text{i}$ in the complex plane?
 
 #### Explanation
 
@@ -258,7 +258,7 @@ Our triangle and its centroid are shown below.
 
 #### Question
 
-Given a triangle in the complex plane with vertices $z_1=-2+3\textrm{i},$ $z_1=5+7\textrm{i},$ and $z_3=3+\textrm{i},$ find the number corresponding to the triangle's centroid.
+Given a triangle in the complex plane with vertices $z_1=-2+3\text{i},$ $z_1=5+7\text{i},$ and $z_3=3+\text{i},$ find the number corresponding to the triangle's centroid.
 
 #### Explanation
 

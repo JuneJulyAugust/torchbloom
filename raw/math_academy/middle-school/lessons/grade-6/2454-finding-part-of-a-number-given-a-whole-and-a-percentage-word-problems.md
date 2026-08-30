@@ -22,7 +22,7 @@ $$
 
 
 
-\textrm{part} = \textrm{percentage} \times \textrm{whole}
+\text{part} = \text{percentage} \times \text{whole}
 
 
 
@@ -102,7 +102,7 @@ $$
 
 
 
-\textrm{part}= \textrm{percentage}\times \textrm{whole}
+\text{part}= \text{percentage}\times \text{whole}
 
 
 
@@ -180,7 +180,7 @@ $$
 
 
 
-\textrm{part}= \textrm{percentage}\times \textrm{whole}
+\text{part}= \text{percentage}\times \text{whole}
 
 
 
@@ -258,7 +258,7 @@ $$
 
 
 
-\textrm{part}= \textrm{percentage}\times \textrm{whole}
+\text{part}= \text{percentage}\times \text{whole}
 
 
 

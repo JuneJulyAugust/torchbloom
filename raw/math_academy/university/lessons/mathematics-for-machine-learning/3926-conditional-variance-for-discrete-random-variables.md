@@ -17,7 +17,7 @@ Suppose that $X$ and $Y$ are discrete random variables, where the conditional ex
 $$
 
 
-\textrm{E}[X\,|\,Y=y] = \mu_{X|y}.
+\text{E}[X\,|\,Y=y] = \mu_{X|y}.
 
 
 $$
@@ -27,31 +27,31 @@ The **conditional variance of $X$ given $Y=y$** is defined as
 $$
 
 
-\textrm{Var}[X\,|\,Y=y] = \textrm{E}\big[(X - \mu_{X|y} \big)^2 \,|\, Y=y].
+\text{Var}[X\,|\,Y=y] = \text{E}\big[(X - \mu_{X|y} \big)^2 \,|\, Y=y].
 
 
 $$
 
-This is similar to the definition of $\textrm{Var}[X]$ in that it represents the average (squared) distance of the random variable $X$ from the mean. The difference here is that the expected values are now dependent on the outcome of $Y.$
+This is similar to the definition of $\text{Var}[X]$ in that it represents the average (squared) distance of the random variable $X$ from the mean. The difference here is that the expected values are now dependent on the outcome of $Y.$
 
-Similarly to the case of $\textrm{Var}[X],$ this often isn't the easiest formula to use in practice. However, it can be shown that the definition of conditional variance is equivalent to
-
-$$
-
-
-\begin{aligned}Var[𝑋\,|\,𝑌=𝑦] & =E[𝑋^{2}\,|\,𝑌=𝑦]−𝜇_{2𝑋|𝑦}^{} \\ & =[\underset{𝑥}{∑}𝑥^{2}\,𝑓_{𝑋|𝑌}(𝑥\,|\,𝑦)]−𝜇_{2𝑋|𝑦}^{},\end{aligned}
-
+Similarly to the case of $\text{Var}[X],$ this often isn't the easiest formula to use in practice. However, it can be shown that the definition of conditional variance is equivalent to
 
 $$
 
-where $f_{X|Y}(x \,|\, y)$ is the conditional PMF of $X$ given $Y.$ Note that these formulas are analogous to those for $\textrm{Var}[X].$
+
+\begin{aligned}Var[𝑋\,|\,𝑌=𝑦] & =E[𝑋^{2}\,|\,𝑌=𝑦]−𝜇_{2𝑋|𝑦} \\ & =[\underset{𝑥}{∑}𝑥^{2}\,𝑓_{𝑋|𝑌}(𝑥\,|\,𝑦)]−𝜇_{2𝑋|𝑦},\end{aligned}
+
+
+$$
+
+where $f_{X|Y}(x \,|\, y)$ is the conditional PMF of $X$ given $Y.$ Note that these formulas are analogous to those for $\text{Var}[X].$
 
 Finally, we have an analogous definition for the conditional variance of $Y$ given $X=x\mathbin{:}$
 
 $$
 
 
-\begin{aligned}Var[𝑌\,|\,𝑋=𝑥] & =E[(𝑌−𝜇_{𝑌|𝑥})^{2}\,|\,𝑋=𝑥] \\ & =E[𝑌^{2}\,|\,𝑋=𝑥]−𝜇_{2𝑌|𝑥}^{} \\ & =[\underset{𝑦}{∑}𝑦^{2}\,𝑓_{𝑌|𝑋}(𝑦\,|\,𝑥)]−𝜇_{2𝑌|𝑥}^{}\end{aligned}
+\begin{aligned}Var[𝑌\,|\,𝑋=𝑥] & =E[(𝑌−𝜇_{𝑌|𝑥})^{2}\,|\,𝑋=𝑥] \\ & =E[𝑌^{2}\,|\,𝑋=𝑥]−𝜇_{2𝑌|𝑥} \\ & =[\underset{𝑦}{∑}𝑦^{2}\,𝑓_{𝑌|𝑋}(𝑦\,|\,𝑥)]−𝜇_{2𝑌|𝑥}\end{aligned}
 
 
 $$
@@ -60,7 +60,7 @@ $$
 
 #### Question
 
-Suppose $X$ and $Y$ are discrete random variables. Find $\textrm{Var}\big[Y \,|\, X=3\big]$ given that the conditional probability mass function $f_{Y|X}(y \,|\, 3)$ is shown in the table above and the corresponding conditional expected value is $\mu_{Y|3} = \dfrac{8}{3}.$
+Suppose $X$ and $Y$ are discrete random variables. Find $\text{Var}\big[Y \,|\, X=3\big]$ given that the conditional probability mass function $f_{Y|X}(y \,|\, 3)$ is shown in the table above and the corresponding conditional expected value is $\mu_{Y|3} = \dfrac{8}{3}.$
 
 #### Explanation
 
@@ -69,7 +69,7 @@ Recall that the conditional variance of $Y$ given $X=x$ is defined by
 $$
 
 
-\begin{aligned}Var[𝑌\,|\,𝑋=𝑥] & =E[(𝑌−𝜇_{𝑌|𝑥})^{2}\,|\,𝑋=𝑥] \\ & =E[𝑌^{2}\,|\,𝑋=𝑥]−𝜇_{2𝑌|𝑥}^{} \\ & =[\underset{𝑦}{∑}𝑦^{2}\,𝑓_{𝑌|𝑋}(𝑦\,|\,𝑥)]−𝜇_{2𝑌|𝑥}^{}.\end{aligned}
+\begin{aligned}Var[𝑌\,|\,𝑋=𝑥] & =E[(𝑌−𝜇_{𝑌|𝑥})^{2}\,|\,𝑋=𝑥] \\ & =E[𝑌^{2}\,|\,𝑋=𝑥]−𝜇_{2𝑌|𝑥} \\ & =[\underset{𝑦}{∑}𝑦^{2}\,𝑓_{𝑌|𝑋}(𝑦\,|\,𝑥)]−𝜇_{2𝑌|𝑥}.\end{aligned}
 
 
 $$
@@ -79,7 +79,7 @@ Therefore, we obtain
 $$
 
 
-\begin{aligned}Var[𝑌\,|\,𝑋=3] & =[\underset{𝑦}{∑}𝑦^{2}\,𝑓_{𝑌|𝑋}(𝑦\,|\,3)]−𝜇_{2𝑌|3}^{} \\ & =[(1)^{2}⋅\frac{1}{3}+(2)^{2}⋅\frac{1}{6}+(4)^{2}⋅\frac{1}{2}]−(\frac{8}{3})^{2} \\ & =\frac{1}{3}+\frac{2}{3}+8−\frac{64}{9} \\ & =\frac{17}{9}.\end{aligned}
+\begin{aligned}Var[𝑌\,|\,𝑋=3] & =[\underset{𝑦}{∑}𝑦^{2}\,𝑓_{𝑌|𝑋}(𝑦\,|\,3)]−𝜇_{2𝑌|3} \\ & =[(1)^{2}⋅\frac{1}{3}+(2)^{2}⋅\frac{1}{6}+(4)^{2}⋅\frac{1}{2}]−(\frac{8}{3})^{2} \\ & =\frac{1}{3}+\frac{2}{3}+8−\frac{64}{9} \\ & =\frac{17}{9}.\end{aligned}
 
 
 $$
@@ -88,7 +88,7 @@ $$
 
 #### Question
 
-Suppose $X$ and $Y$ are discrete random variables. Find $\textrm{Var}\big[Y \,|\, X=1\big]$ given that $X$ and $Y$ have the joint probability mass function $f(x,y)$ shown in the table above and the corresponding conditional expected value is $\mu_{Y|1} = \dfrac{9}{4}.$
+Suppose $X$ and $Y$ are discrete random variables. Find $\text{Var}\big[Y \,|\, X=1\big]$ given that $X$ and $Y$ have the joint probability mass function $f(x,y)$ shown in the table above and the corresponding conditional expected value is $\mu_{Y|1} = \dfrac{9}{4}.$
 
 #### Explanation
 
@@ -97,7 +97,7 @@ Recall that the conditional variance of $Y$ given $X=x$ is defined by
 $$
 
 
-\begin{aligned}Var[𝑌\,|\,𝑋=𝑥] & =E[(𝑌−𝜇_{𝑌|𝑥})^{2}\,|\,𝑋=𝑥] \\ & =E[𝑌^{2}\,|\,𝑋=𝑥]−𝜇_{2𝑌|𝑥}^{} \\ & =[\underset{𝑦}{∑}𝑦^{2}\,𝑓_{𝑌|𝑋}(𝑦\,|\,𝑥)]−𝜇_{2𝑌|𝑥}^{}.\end{aligned}
+\begin{aligned}Var[𝑌\,|\,𝑋=𝑥] & =E[(𝑌−𝜇_{𝑌|𝑥})^{2}\,|\,𝑋=𝑥] \\ & =E[𝑌^{2}\,|\,𝑋=𝑥]−𝜇_{2𝑌|𝑥} \\ & =[\underset{𝑦}{∑}𝑦^{2}\,𝑓_{𝑌|𝑋}(𝑦\,|\,𝑥)]−𝜇_{2𝑌|𝑥}.\end{aligned}
 
 
 $$
@@ -121,7 +121,7 @@ Finally, we obtain
 $$
 
 
-\begin{aligned}Var[𝑌\,|\,𝑋=1] & =[\underset{𝑦}{∑}𝑦^{2}\,𝑓_{𝑌|𝑋}(𝑦\,|\,1)]−𝜇_{2𝑌|1}^{} \\ & =[1^{2}⋅\frac{1}{4}+2^{2}⋅\frac{1}{4}+3^{2}⋅\frac{1}{2}]−(\frac{9}{4})^{2} \\ & =\frac{1}{4}+1+\frac{9}{2}−\frac{81}{16} \\ & =\frac{11}{16}.\end{aligned}
+\begin{aligned}Var[𝑌\,|\,𝑋=1] & =[\underset{𝑦}{∑}𝑦^{2}\,𝑓_{𝑌|𝑋}(𝑦\,|\,1)]−𝜇_{2𝑌|1} \\ & =[1^{2}⋅\frac{1}{4}+2^{2}⋅\frac{1}{4}+3^{2}⋅\frac{1}{2}]−(\frac{9}{4})^{2} \\ & =\frac{1}{4}+1+\frac{9}{2}−\frac{81}{16} \\ & =\frac{11}{16}.\end{aligned}
 
 
 $$
@@ -130,7 +130,7 @@ $$
 
 #### Question
 
-Suppose $X$ and $Y$ are discrete random variables. Find $\textrm{Var}\big[X \,|\, Y=2\big]$ given that the random variables $X$ and $Y$ have the joint probability mass function $f(x,y)$ shown in the table above and the corresponding conditional expected value is $\mu_{X|2}=\dfrac{10}{9}.$
+Suppose $X$ and $Y$ are discrete random variables. Find $\text{Var}\big[X \,|\, Y=2\big]$ given that the random variables $X$ and $Y$ have the joint probability mass function $f(x,y)$ shown in the table above and the corresponding conditional expected value is $\mu_{X|2}=\dfrac{10}{9}.$
 
 #### Explanation
 
@@ -139,7 +139,7 @@ Recall that the conditional variance of $X$ given $Y=y$ is defined by
 $$
 
 
-\begin{aligned}Var[𝑋\,|\,𝑌=𝑦] & =E[(𝑋−𝜇_{𝑋|𝑦})^{2}\,|\,𝑌=𝑦] \\ & =E[𝑋^{2}\,|\,𝑌=𝑦]−𝜇_{2𝑋|𝑦}^{} \\ & =[\underset{𝑥}{∑}𝑥^{2}\,𝑓_{𝑋|𝑌}(𝑥\,|\,𝑦)]−𝜇_{2𝑋|𝑦}^{}.\end{aligned}
+\begin{aligned}Var[𝑋\,|\,𝑌=𝑦] & =E[(𝑋−𝜇_{𝑋|𝑦})^{2}\,|\,𝑌=𝑦] \\ & =E[𝑋^{2}\,|\,𝑌=𝑦]−𝜇_{2𝑋|𝑦} \\ & =[\underset{𝑥}{∑}𝑥^{2}\,𝑓_{𝑋|𝑌}(𝑥\,|\,𝑦)]−𝜇_{2𝑋|𝑦}.\end{aligned}
 
 
 $$
@@ -163,7 +163,7 @@ Finally, we obtain
 $$
 
 
-\begin{aligned}Var[𝑋\,|\,𝑌=2] & =[\underset{𝑥}{∑}𝑥^{2}\,𝑓_{𝑋|𝑌}(𝑥\,|\,2)]−𝜇_{2𝑋|2}^{} \\ & =[1^{2}⋅\frac{8}{9}+2^{2}⋅\frac{1}{9}]−(\frac{10}{9})^{2} \\ & =\frac{8}{9}+\frac{4}{9}−\frac{100}{81} \\ & =\frac{8}{81}.\end{aligned}
+\begin{aligned}Var[𝑋\,|\,𝑌=2] & =[\underset{𝑥}{∑}𝑥^{2}\,𝑓_{𝑋|𝑌}(𝑥\,|\,2)]−𝜇_{2𝑋|2} \\ & =[1^{2}⋅\frac{8}{9}+2^{2}⋅\frac{1}{9}]−(\frac{10}{9})^{2} \\ & =\frac{8}{9}+\frac{4}{9}−\frac{100}{81} \\ & =\frac{8}{81}.\end{aligned}
 
 
 $$

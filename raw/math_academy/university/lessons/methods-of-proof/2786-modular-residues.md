@@ -16,7 +16,7 @@ The **residue** of an integer $a$ modulo $n$ is the *unique* integer $0 \leq r <
 $$
 
 
-a \equiv r \quad (\textrm{mod}\,n).
+a \equiv r \quad (\text{mod}\,n).
 
 
 $$
@@ -38,12 +38,12 @@ All of these statements are true. However, we say that "the residue of $25$ modu
 $$
 
 
-25 \textrm{ mod } 6 = 1.
+25 \text{ mod } 6 = 1.
 
 
 $$
 
-Notice that there are no parentheses around the $\textrm{mod}$. When there are no parentheses, it means that we're treating $\textrm{mod}$ as though it were a type of function. This function takes our integer $25$ as its input and returns the remainder that we get when $25$ is divided by $6.$
+Notice that there are no parentheses around the $\text{mod}$. When there are no parentheses, it means that we're treating $\text{mod}$ as though it were a type of function. This function takes our integer $25$ as its input and returns the remainder that we get when $25$ is divided by $6.$
 
 Similarly,
 
@@ -61,7 +61,7 @@ We'll present two methods of computing residues. Make sure that you understand *
 
 #### Question
 
-What is $26 \textrm{mod} 3?$
+What is $26 \text{mod} 3?$
 
 #### Explanation
 
@@ -70,7 +70,7 @@ The residue of $26$ modulo $3$ is the integer $0 \leq r < 3$ such that
 $$
 
 
-26 \equiv r \quad (\textrm{mod}\,3).
+26 \equiv r \quad (\text{mod}\,3).
 
 
 $$
@@ -79,7 +79,7 @@ $$
 
 To find the residue $r,$ we need to write $26$ as an integer multiple of $3,$ plus the residue $r.$
 
-We note that $26 \equiv 2 \, (\textrm{mod}\,3)$ because
+We note that $26 \equiv 2 \, (\text{mod}\,3)$ because
 
 $$
 
@@ -109,7 +109,7 @@ Therefore, the residue of $26$ modulo $3$ is ${\color{blue}{2}}.$
 
 #### Question
 
-What is $-13 \textrm{mod} 4?$
+What is $-13 \text{mod} 4?$
 
 #### Explanation
 
@@ -118,7 +118,7 @@ The residue of $-13$ modulo $4$ is the integer $0 \leq r < 4$ such that
 $$
 
 
--13 \equiv r \quad (\textrm{mod}\,4).
+-13 \equiv r \quad (\text{mod}\,4).
 
 
 $$
@@ -127,7 +127,7 @@ $$
 
 To find the residue $r,$ we need to write $-13$ as an integer multiple of $4,$ plus the residue $r.$
 
-We note that $-13 \equiv 3 \, (\textrm{mod}\,4)$ because
+We note that $-13 \equiv 3 \, (\text{mod}\,4)$ because
 
 $$
 
@@ -187,23 +187,23 @@ $$
 
 $$
 
-Therefore, the expression $a \: \textrm{mod}\: 10$ returns the last digit of $a$.
+Therefore, the expression $a \: \text{mod}\: 10$ returns the last digit of $a$.
 
 For example,
 
 $$
 
 
-25\,409\,19{\color{blue}3} \: \textrm{mod} \: 10 = {\color{blue}3}.
+25\,409\,19{\color{blue}3} \: \text{mod} \: 10 = {\color{blue}3}.
 
 
 $$
 
 Using similar reasoning,
 
-- the expression $a \: \textrm{mod}\: 100$ returns the last two digits of $a,$ e.g.,
+- the expression $a \: \text{mod}\: 100$ returns the last two digits of $a,$ e.g.,
 
-- the expression $a \: \textrm{mod}\: 1\,000$ returns the last three digits of $a,$ e.g.,
+- the expression $a \: \text{mod}\: 1\,000$ returns the last three digits of $a,$ e.g.,
 
 and so on.
 
@@ -252,7 +252,7 @@ Finally, since $b = 24a+15,$ and
 $$
 
 
-24\equiv 4, \qquad 15\equiv 5 \qquad (\textrm{mod}\,10)
+24\equiv 4, \qquad 15\equiv 5 \qquad (\text{mod}\,10)
 
 
 $$
@@ -272,7 +272,7 @@ Therefore, the expression that gives the last digit of $24a+15$ is the following
 $$
 
 
-(4a+5) \: \textrm{mod}\: 10
+(4a+5) \: \text{mod}\: 10
 
 
 $$

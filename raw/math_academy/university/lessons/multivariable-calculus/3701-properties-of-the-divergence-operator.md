@@ -17,7 +17,7 @@ Recall that if $\mathbf F = P\,\mathbf i + Q\,\mathbf j + R\,\mathbf k$ is a vec
 $$
 
 
-\textrm{div}\,\mathbf F = \nabla\cdot \mathbf F = \dfrac{\partial P}{\partial x} + \dfrac{\partial Q}{\partial y} + \dfrac{\partial R}{\partial z}.
+\text{div}\,\mathbf F = \nabla\cdot \mathbf F = \dfrac{\partial P}{\partial x} + \dfrac{\partial Q}{\partial y} + \dfrac{\partial R}{\partial z}.
 
 
 $$

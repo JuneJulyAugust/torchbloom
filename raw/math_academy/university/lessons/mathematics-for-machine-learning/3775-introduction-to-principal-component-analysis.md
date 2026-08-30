@@ -88,7 +88,7 @@ Using our standardized matrix from the previous slide, where $n=3$:
 $$
 
 
-\begin{aligned}𝐶 & =\frac{1}{3−1}[\begin{aligned}−1 & 0 & 1 \\ −1 & 0 & 1\end{aligned}]\begin{aligned}−1 & −1 \\ 0 & 0 \\ 1 & 1\end{aligned} \\ & =\frac{1}{2}[\begin{aligned}2 & 2 \\ 2 & 2\end{aligned}] \\ & =[\begin{aligned}1 & 1 \\ 1 & 1\end{aligned}]\end{aligned}
+\begin{aligned}𝐶 & =\frac{1}{3−1}[\begin{matrix}−1 & 0 & 1 \\ −1 & 0 & 1\end{matrix}]\begin{matrix}−1 & −1 \\ 0 & 0 \\ 1 & 1\end{matrix} \\ & =\frac{1}{2}[\begin{matrix}2 & 2 \\ 2 & 2\end{matrix}] \\ & =[\begin{matrix}1 & 1 \\ 1 & 1\end{matrix}]\end{aligned}
 
 
 $$
@@ -260,7 +260,7 @@ Applying the change of variables to a single observation $[\begin{aligned}𝑥_{
 $$
 
 
-\begin{aligned}[\begin{aligned}𝑦_{1} & 𝑦_{2}\end{aligned}] & =[\begin{aligned}𝑥_{1} & 𝑥_{2}\end{aligned}]𝑉 \\ & =[\begin{aligned}𝑥_{1} & 𝑥_{2}\end{aligned}][\begin{aligned}0.316 & −0.947 \\ 0.947 & 0.316\end{aligned}] \\ & =[\begin{aligned}0.316𝑥_{1}+0.947𝑥_{2} & −0.947𝑥_{1}+0.316𝑥_{2}\end{aligned}].\end{aligned}
+\begin{aligned}[\begin{matrix}𝑦_{1} & 𝑦_{2}\end{matrix}] & =[\begin{matrix}𝑥_{1} & 𝑥_{2}\end{matrix}]𝑉 \\ & =[\begin{matrix}𝑥_{1} & 𝑥_{2}\end{matrix}][\begin{matrix}0.316 & −0.947 \\ 0.947 & 0.316\end{matrix}] \\ & =[\begin{matrix}0.316𝑥_{1}+0.947𝑥_{2} & −0.947𝑥_{1}+0.316𝑥_{2}\end{matrix}].\end{aligned}
 
 
 $$
@@ -318,7 +318,7 @@ Applying our change of variables to a single observation $[\begin{aligned}𝑥_{
 $$
 
 
-\begin{aligned}[\begin{aligned}𝑦_{1} & 𝑦_{2}\end{aligned}] & =[\begin{aligned}𝑥_{1} & 𝑥_{2}\end{aligned}]𝑉 \\ & =[\begin{aligned}𝑥_{1} & 𝑥_{2}\end{aligned}][\begin{aligned}−0.447 & −0.894 \\ 0.894 & −0.447\end{aligned}] \\ & =[\begin{aligned}−0.447𝑥_{1}+0.894𝑥_{2} & −0.894𝑥_{1}−0.447𝑥_{2}\end{aligned}].\end{aligned}
+\begin{aligned}[\begin{matrix}𝑦_{1} & 𝑦_{2}\end{matrix}] & =[\begin{matrix}𝑥_{1} & 𝑥_{2}\end{matrix}]𝑉 \\ & =[\begin{matrix}𝑥_{1} & 𝑥_{2}\end{matrix}][\begin{matrix}−0.447 & −0.894 \\ 0.894 & −0.447\end{matrix}] \\ & =[\begin{matrix}−0.447𝑥_{1}+0.894𝑥_{2} & −0.894𝑥_{1}−0.447𝑥_{2}\end{matrix}].\end{aligned}
 
 
 $$

@@ -63,7 +63,7 @@ The given matrix $E$ is obtained by taking the second row of $I$ and adding $7$ 
 $$
 
 
-\begin{aligned}𝐼 & =\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{aligned} & 𝑅_{2} & :=𝑅_{2}+7𝑅_{3} \\ & ∼\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 7 \\ 0 & 0 & 1\end{aligned} & & \\ & =𝐸 & & \end{aligned}
+\begin{aligned}𝐼 & =\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{matrix} & 𝑅_{2} & :=𝑅_{2}+7𝑅_{3} \\ & ∼\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 7 \\ 0 & 0 & 1\end{matrix} & & \\ & =𝐸 & & \end{aligned}
 
 
 $$
@@ -85,7 +85,7 @@ To find $E,$ we apply the given row operation to the identity matrix as follows:
 $$
 
 
-\begin{aligned}𝐼 & =\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{aligned} & 𝑅_{2} & :=𝑅_{2}−2𝑅_{1} \\ & ∼\begin{aligned}1 & 0 & 0 \\ −2 & 1 & 0 \\ 0 & 0 & 1\end{aligned} & & \\ & =𝐸 & & \end{aligned}
+\begin{aligned}𝐼 & =\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{matrix} & 𝑅_{2} & :=𝑅_{2}−2𝑅_{1} \\ & ∼\begin{matrix}1 & 0 & 0 \\ −2 & 1 & 0 \\ 0 & 0 & 1\end{matrix} & & \\ & =𝐸 & & \end{aligned}
 
 
 $$

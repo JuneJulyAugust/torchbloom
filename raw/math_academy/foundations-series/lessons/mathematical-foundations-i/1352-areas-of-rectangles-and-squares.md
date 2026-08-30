@@ -13,18 +13,18 @@ Topic ID: 1352
 
 ### Introduction
 
-The **area** of a shape is a measure of how much space is enclosed by a shape on a plane. Let's consider a square with sides of length of $1\,\textrm{in}.$
+The **area** of a shape is a measure of how much space is enclosed by a shape on a plane. Let's consider a square with sides of length of $1\,\text{in}.$
 
 ![Instructional graphic](../../../lesson-assets/mathematical-foundations-i/topic-1352/13b610278de40470.png)
 
-The area of this square is equal to ${\color{red}{1\,\textrm{in}^2}},$ which we say in words as "one square inch."
+The area of this square is equal to ${\color{red}{1\,\text{in}^2}},$ which we say in words as "one square inch."
 
-Similarly, if we have three squares with sides of length $1\,\textrm{cm},$ $1\,\textrm{m},$ and $1\,\textrm{ft}$ respectively, then their respective areas will be
+Similarly, if we have three squares with sides of length $1\,\text{cm},$ $1\,\text{m},$ and $1\,\text{ft}$ respectively, then their respective areas will be
 
 $$
 
 
-1\,\textrm{cm}^2, \qquad 1\,\textrm{m}^2, \qquad 1\,\textrm{ft}^2.
+1\,\text{cm}^2, \qquad 1\,\text{m}^2, \qquad 1\,\text{ft}^2.
 
 
 $$
@@ -35,7 +35,7 @@ Let's now suppose that we would like to compute the area of the square $ABCD,$ s
 
 ![Instructional graphic](../../../lesson-assets/mathematical-foundations-i/topic-1352/9897db21cdf15df4.png)
 
-The length of one side of a grid square is equal to $1\,\textrm{cm}.$ So, the area of one grid square is $1\,\textrm{cm}^2.$
+The length of one side of a grid square is equal to $1\,\text{cm}.$ So, the area of one grid square is $1\,\text{cm}^2.$
 
 Now, we need to find how many grid squares are contained inside $ABCD.$
 
@@ -43,12 +43,12 @@ Now, we need to find how many grid squares are contained inside $ABCD.$
 
 Inside the large blue square, there are $3$ rows containing $3$ grid squares each, so we can fit exactly $3 \times 3 = 3^2 = 9$ grid squares inside $ABCD.$
 
-Each grid square has area $1\,\textrm{cm}^2,$ so the area $\mathcal A$ of $ABCD$ is
+Each grid square has area $1\,\text{cm}^2,$ so the area $\mathcal A$ of $ABCD$ is
 
 $$
 
 
-\mathcal{A} = (3\,\textrm{cm})^2 = 9\,\textrm{cm}^2.
+\mathcal{A} = (3\,\text{cm})^2 = 9\,\text{cm}^2.
 
 
 $$
@@ -83,12 +83,12 @@ $$
 
 $$
 
-Note that each side of a grid cell measures $3\,\textrm{ft},$ and each side of the shaded square covers $4$ grid cells. So, the length of each side of the shaded square is
+Note that each side of a grid cell measures $3\,\text{ft},$ and each side of the shaded square covers $4$ grid cells. So, the length of each side of the shaded square is
 
 $$
 
 
-a = 3 \times 4 = 12 \, \textrm{ft} .
+a = 3 \times 4 = 12 \, \text{ft} .
 
 
 $$
@@ -207,7 +207,7 @@ $$
 
 #### Question
 
-The area of the rectangular field shown below is $2\,400\,\textrm{m}^2.$ What is the value of $x?$
+The area of the rectangular field shown below is $2\,400\,\text{m}^2.$ What is the value of $x?$
 
 ![Instructional graphic](../../../lesson-assets/mathematical-foundations-i/topic-1352/c2eb0d9eb88b6db3.png)
 

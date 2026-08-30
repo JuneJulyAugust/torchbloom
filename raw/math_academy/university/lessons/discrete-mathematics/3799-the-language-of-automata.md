@@ -52,7 +52,7 @@ Notice that the loop at $p,$ labeled with $0$ and $1,$ guarantees that the autom
 
 On the other hand, if the string does not end with $11,$ the automaton can't finish the processing at the final state $r.$
 
-As a result, the automaton accepts all finite strings over $\{0,1\}$ that $\boxed{\color{blue}\textrm{end}}$ with $\boxed{\color{blue}11}.$ All other strings will be rejected.
+As a result, the automaton accepts all finite strings over $\{0,1\}$ that $\boxed{\color{blue}\text{end}}$ with $\boxed{\color{blue}11}.$ All other strings will be rejected.
 
 ### Example: Determining a NFA Defining a Language
 
@@ -108,7 +108,7 @@ First, notice that the loop at $r$ labeled with $0$ and $1$ guarantees that if t
 
 - Now, being at state $s,$ the automaton goes through the remaining symbols in the string staying at state $s.$
 
-As a result, the automaton accepts all finite strings over $\{0,1\}$ that $\boxed{\color{blue}\textrm{start}}$ with $\boxed{\color{blue}00}.$ All other strings will be rejected.
+As a result, the automaton accepts all finite strings over $\{0,1\}$ that $\boxed{\color{blue}\text{start}}$ with $\boxed{\color{blue}00}.$ All other strings will be rejected.
 
 ### Deterministic vs Nondeterministic Automata
 

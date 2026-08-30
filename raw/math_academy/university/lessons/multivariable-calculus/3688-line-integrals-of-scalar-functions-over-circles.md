@@ -17,7 +17,7 @@ Recall that the line integral with respect to arc length of a function $f(x,y)$ 
 $$
 
 
-\int\limits_C f(x, y) \, \textrm{d}s = \int\limits_a^b f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \textrm{d}t,
+\int\limits_C f(x, y) \, \text{d}s = \int\limits_a^b f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \text{d}t,
 
 
 $$
@@ -47,7 +47,7 @@ We will use the formula
 $$
 
 
-\int\limits_C f(x, y) \, \textrm{d}s = \int\limits_a^b f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \textrm{d}t.
+\int\limits_C f(x, y) \, \text{d}s = \int\limits_a^b f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \text{d}t.
 
 
 $$
@@ -67,7 +67,7 @@ Computing $\mathbf{r}'(t)$ and $\| \mathbf{r}'(t) \|,$ we get the following:
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑡) & =\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣 \\ & =\frac{d}{d𝑡}(cos⁡𝑡)𝐢+\frac{d}{d𝑡}(sin⁡𝑡)𝐣 \\ & =−sin⁡𝑡\,𝐢+cos⁡𝑡\,𝐣 \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{√(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}} \\ & =\sqrt{√(−sin⁡𝑡)^{2}+(cos⁡𝑡)^{2}} \\ & =\sqrt{√sin^{2}⁡𝑡+cos^{2}⁡𝑡} \\ & =1\end{aligned}
+\begin{aligned}𝐫^{′}(𝑡) & =\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣 \\ & =\frac{d}{d𝑡}(cos⁡𝑡)𝐢+\frac{d}{d𝑡}(sin⁡𝑡)𝐣 \\ & =−sin⁡𝑡\,𝐢+cos⁡𝑡\,𝐣 \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}} \\ & =\sqrt{(−sin⁡𝑡)^{2}+(cos⁡𝑡)^{2}} \\ & =\sqrt{sin^{2}⁡𝑡+cos^{2}⁡𝑡} \\ & =1\end{aligned}
 
 
 $$
@@ -87,7 +87,7 @@ Therefore, we can write the integral as
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}𝑓(𝑥,𝑦)\,d𝑠 & =∫_{2𝜋0}^{}𝑓(𝐫(𝑡))\,‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{2𝜋0}^{}(cos^{2}⁡𝑡−1)⋅1⋅d𝑡 \\ & =∫_{2𝜋0}^{}cos^{2}⁡𝑡−1\,d𝑡.\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}𝑓(𝑥,𝑦)\,d𝑠 & =∫_{2𝜋0}𝑓(𝐫(𝑡))\,‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{2𝜋0}(cos^{2}⁡𝑡−1)⋅1⋅d𝑡 \\ & =∫_{2𝜋0}cos^{2}⁡𝑡−1\,d𝑡.\end{aligned}
 
 
 $$
@@ -105,7 +105,7 @@ We will use the formula
 $$
 
 
-\int\limits_C f(x, y) \, \textrm{d}s = \int\limits_a^b f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \textrm{d}t.
+\int\limits_C f(x, y) \, \text{d}s = \int\limits_a^b f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \text{d}t.
 
 
 $$
@@ -129,7 +129,7 @@ Computing $\mathbf{r}'(t)$ and $\| \mathbf{r}'(t) \|,$ we get following:
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑡) & =\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣 \\ & =\frac{d}{d𝑡}(2cos⁡𝑡)𝐢+\frac{d}{d𝑡}(2sin⁡𝑡)𝐣 \\ & =−2sin⁡𝑡\,𝐢+2cos⁡𝑡\,𝐣 \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{√(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}} \\ & =\sqrt{√(−2sin⁡𝑡)^{2}+(2cos⁡𝑡)^{2}} \\ & =\sqrt{√4(sin^{2}⁡𝑡+cos^{2}⁡𝑡)} \\ & =2\end{aligned}
+\begin{aligned}𝐫^{′}(𝑡) & =\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣 \\ & =\frac{d}{d𝑡}(2cos⁡𝑡)𝐢+\frac{d}{d𝑡}(2sin⁡𝑡)𝐣 \\ & =−2sin⁡𝑡\,𝐢+2cos⁡𝑡\,𝐣 \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}} \\ & =\sqrt{(−2sin⁡𝑡)^{2}+(2cos⁡𝑡)^{2}} \\ & =\sqrt{4(sin^{2}⁡𝑡+cos^{2}⁡𝑡)} \\ & =2\end{aligned}
 
 
 $$
@@ -149,7 +149,7 @@ Therefore, we can write the integral as
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}(2𝑥+𝑦^{2})\,d𝑠 & =∫_{𝜋𝜋/2}^{}𝑓(𝐫(𝑡))\,‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{𝜋𝜋/2}^{}4(cos⁡𝑡+sin^{2}⁡𝑡)⋅2⋅d𝑡 \\ & =8∫_{𝜋𝜋/2}^{}(cos⁡𝑡+sin^{2}⁡𝑡)\,d𝑡.\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}(2𝑥+𝑦^{2})\,d𝑠 & =∫_{𝜋𝜋/2}𝑓(𝐫(𝑡))\,‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{𝜋𝜋/2}4(cos⁡𝑡+sin^{2}⁡𝑡)⋅2⋅d𝑡 \\ & =8∫_{𝜋𝜋/2}(cos⁡𝑡+sin^{2}⁡𝑡)\,d𝑡.\end{aligned}
 
 
 $$
@@ -167,7 +167,7 @@ We will use the formula
 $$
 
 
-\int\limits_C f(x, y) \, \textrm{d}s = \int\limits_a^b f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \textrm{d}t.
+\int\limits_C f(x, y) \, \text{d}s = \int\limits_a^b f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \text{d}t.
 
 
 $$
@@ -187,7 +187,7 @@ Computing $\mathbf{r}'(t)$ and $\| \mathbf{r}'(t) \|,$ we get the following:
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑡) & =\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣 \\ & =\frac{d}{d𝑡}(2cos⁡𝑡)𝐢+\frac{d}{d𝑡}(2sin⁡𝑡)𝐣 \\ & =−2sin⁡𝑡\,𝐢+2cos⁡𝑡\,𝐣 \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{√(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}} \\ & =\sqrt{√(−2sin⁡𝑡)^{2}+(2cos⁡𝑡)^{2}} \\ & =\sqrt{√4sin^{2}⁡𝑡+4cos^{2}⁡𝑡} \\ & =\sqrt{√4(sin^{2}⁡𝑡+cos^{2}⁡𝑡)} \\ & =2\end{aligned}
+\begin{aligned}𝐫^{′}(𝑡) & =\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣 \\ & =\frac{d}{d𝑡}(2cos⁡𝑡)𝐢+\frac{d}{d𝑡}(2sin⁡𝑡)𝐣 \\ & =−2sin⁡𝑡\,𝐢+2cos⁡𝑡\,𝐣 \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}} \\ & =\sqrt{(−2sin⁡𝑡)^{2}+(2cos⁡𝑡)^{2}} \\ & =\sqrt{4sin^{2}⁡𝑡+4cos^{2}⁡𝑡} \\ & =\sqrt{4(sin^{2}⁡𝑡+cos^{2}⁡𝑡)} \\ & =2\end{aligned}
 
 
 $$
@@ -207,7 +207,7 @@ Therefore, we can write the integral as
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}𝑓(𝑥,𝑦)\,d𝑠 & =∫_{2𝜋0}^{}𝑓(𝐫(𝑡))\,‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{2𝜋0}^{}2cos⁡2𝑡⋅2⋅d𝑡 \\ & =4∫_{2𝜋0}^{}cos⁡2𝑡\,d𝑡.\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}𝑓(𝑥,𝑦)\,d𝑠 & =∫_{2𝜋0}𝑓(𝐫(𝑡))\,‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{2𝜋0}2cos⁡2𝑡⋅2⋅d𝑡 \\ & =4∫_{2𝜋0}cos⁡2𝑡\,d𝑡.\end{aligned}
 
 
 $$
@@ -217,7 +217,7 @@ We can solve this using the substitution $u=2t,$ $\textrm d u=2\,\textrm d t$ as
 $$
 
 
-\begin{aligned}4∫_{2𝜋0}^{}cos⁡2𝑡\,d𝑡 & =2∫_{4𝜋0}^{}cos⁡𝑢\,d𝑢 \\ & =2sin⁡𝑢_{4𝜋0}^{} \\ & =2(0−0) \\ & =0\end{aligned}
+\begin{aligned}4∫_{2𝜋0}cos⁡2𝑡\,d𝑡 & =2∫_{4𝜋0}cos⁡𝑢\,d𝑢 \\ & =2sin⁡𝑢_{4𝜋0} \\ & =2(0−0) \\ & =0\end{aligned}
 
 
 $$

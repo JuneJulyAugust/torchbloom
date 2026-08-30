@@ -31,7 +31,7 @@ $$
 
 
 
-\begin{aligned} \dfrac x 6 &= 4 \\\[5pt] {\color{blue}{6}} \cdot \dfrac x 6 &= {\color{blue}{6}}\cdot 4\\\[5pt] \dfrac{6x}{6} &=24\\\[5pt] \end{aligned}
+\begin{aligned} \dfrac x 6 &= 4 \\[5pt] {\color{blue}{6}} \cdot \dfrac x 6 &= {\color{blue}{6}}\cdot 4\\[5pt] \dfrac{6x}{6} &=24\\[5pt] \end{aligned}
 
 
 
@@ -55,7 +55,7 @@ $$
 
 
 
-\begin{aligned} \dfrac x 6 &=4 \\\[5pt] \dfrac{24}{6} &=4 \\\[5pt] 4 &= 4 \; {\color{green}{\checkmark}} \end{aligned}
+\begin{aligned} \dfrac x 6 &=4 \\[5pt] \dfrac{24}{6} &=4 \\[5pt] 4 &= 4 \; {\color{green}{\checkmark}} \end{aligned}
 
 
 
@@ -75,7 +75,7 @@ $$
 
 
 
- \begin{aligned} \dfrac{q}{4} &=-9\\\[5pt] 4\cdot \dfrac{q}{4} &=4\cdot \left(-9\right) \\\[5pt] \dfrac{4q}{4} &= -36 \end{aligned}
+ \begin{aligned} \dfrac{q}{4} &=-9\\[5pt] 4\cdot \dfrac{q}{4} &=4\cdot \left(-9\right) \\[5pt] \dfrac{4q}{4} &= -36 \end{aligned}
 
 
 
@@ -87,7 +87,7 @@ $$
 
 
 
- \begin{aligned} \dfrac{4q}{4} &= -36 \\\[5pt] \dfrac{4q}{4} &= -36 \\q &=-36 \end{aligned}
+ \begin{aligned} \dfrac{4q}{4} &= -36 \\[5pt] \dfrac{4q}{4} &= -36 \\q &=-36 \end{aligned}
 
 
 
@@ -191,7 +191,7 @@ $$
 
 
 
- \begin{aligned} \dfrac{k}{2} &=-\dfrac{1}{3} \\\[5pt] 2 \cdot \dfrac{k}{2} &=2 \cdot \left( -\dfrac{1}{3} \right) \\\[5pt] \dfrac{2k}{2} &= -\dfrac{2}{3} \\\[5pt] \dfrac{2k}{2} &= -\dfrac{2}{3} \\\[5pt] k &= -\dfrac{2}{3} \end{aligned}
+ \begin{aligned} \dfrac{k}{2} &=-\dfrac{1}{3} \\[5pt] 2 \cdot \dfrac{k}{2} &=2 \cdot \left( -\dfrac{1}{3} \right) \\[5pt] \dfrac{2k}{2} &= -\dfrac{2}{3} \\[5pt] \dfrac{2k}{2} &= -\dfrac{2}{3} \\[5pt] k &= -\dfrac{2}{3} \end{aligned}
 
 
 
@@ -207,7 +207,7 @@ $$
 
 
 
-\begin{aligned} 7x &= 21 \\\[5pt] \dfrac{7x}{{\color{blue}7}} &=\dfrac{21}{{\color{blue}7}} \end{aligned}
+\begin{aligned} 7x &= 21 \\[5pt] \dfrac{7x}{{\color{blue}7}} &=\dfrac{21}{{\color{blue}7}} \end{aligned}
 
 
 
@@ -219,7 +219,7 @@ $$
 
 
 
-\begin{aligned} \dfrac{7x}{{\color{blue}7}} &=\dfrac{21}{{\color{blue}7}}\\\[5pt] \dfrac{7x}{\color{blue}7} &=3 \\\[5pt] x &=3 \end{aligned}
+\begin{aligned} \dfrac{7x}{{\color{blue}7}} &=\dfrac{21}{{\color{blue}7}}\\[5pt] \dfrac{7x}{\color{blue}7} &=3 \\[5pt] x &=3 \end{aligned}
 
 
 
@@ -231,7 +231,7 @@ $$
 
 
 
-\begin{aligned} 7x &=21 \\\[5pt] 7(3) &=21 \\\[5pt] 21 &= 21 \; {\color{green}{\checkmark}} \end{aligned}
+\begin{aligned} 7x &=21 \\[5pt] 7(3) &=21 \\[5pt] 21 &= 21 \; {\color{green}{\checkmark}} \end{aligned}
 
 
 
@@ -275,7 +275,7 @@ $$
 
 
 
- \begin{aligned} -3z &=24 \\\[5pt] \dfrac {-3z} {-3} &= \dfrac {24} {-3} \\\[5pt] \dfrac {-3z} {-3} &= -8 \\\[5pt] z &=-8 \end{aligned}
+ \begin{aligned} -3z &=24 \\[5pt] \dfrac {-3z} {-3} &= \dfrac {24} {-3} \\[5pt] \dfrac {-3z} {-3} &= -8 \\[5pt] z &=-8 \end{aligned}
 
 
 

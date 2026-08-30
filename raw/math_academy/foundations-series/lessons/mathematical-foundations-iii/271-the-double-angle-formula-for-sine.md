@@ -144,7 +144,7 @@ Substituting $x=\dfrac {\pi}{8}$ into the above, we get
 $$
 
 
-\begin{aligned}2sin⁡(\frac{𝜋}{8})cos⁡(\frac{𝜋}{8}) & =sin⁡(2⋅\frac{𝜋}{8}) \\ & =sin⁡(\frac{𝜋}{4}) \\ & =\frac{\sqrt{√2}}{2}.\end{aligned}
+\begin{aligned}2sin⁡(\frac{𝜋}{8})cos⁡(\frac{𝜋}{8}) & =sin⁡(2⋅\frac{𝜋}{8}) \\ & =sin⁡(\frac{𝜋}{4}) \\ & =\frac{\sqrt{2}}{2}.\end{aligned}
 
 
 $$
@@ -164,7 +164,7 @@ Multiplying both sides of the above by $\dfrac 1 2$ gives
 $$
 
 
-\begin{aligned}\frac{1}{2}⋅2sin⁡(\frac{𝜋}{8})cos⁡(\frac{𝜋}{8}) & =\frac{1}{2}⋅\frac{\sqrt{√2}}{2} \\ sin⁡(\frac{𝜋}{8})cos⁡(\frac{𝜋}{8}) & =\frac{\sqrt{√2}}{4}.\end{aligned}
+\begin{aligned}\frac{1}{2}⋅2sin⁡(\frac{𝜋}{8})cos⁡(\frac{𝜋}{8}) & =\frac{1}{2}⋅\frac{\sqrt{2}}{2} \\ sin⁡(\frac{𝜋}{8})cos⁡(\frac{𝜋}{8}) & =\frac{\sqrt{2}}{4}.\end{aligned}
 
 
 $$

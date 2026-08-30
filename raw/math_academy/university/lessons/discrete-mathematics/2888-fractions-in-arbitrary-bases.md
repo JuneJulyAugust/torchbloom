@@ -44,7 +44,7 @@ $$
 
 
 
-\begin{aligned}(1.23)_{4} & =\overset{\overset{1⋅4^{0}}{}}{whole}+\,\overset{\overset{2⋅4^{−1}+3⋅4^{−2}}{}}{fraction} \\ & =1+0.5+0.1875 \\ & =(1.6875)_{10}\end{aligned}
+\begin{aligned}(1.23)_{4} & =\overset{1⋅4^{0}}{}}{whole}+\,\overset{2⋅4^{−1}+3⋅4^{−2}}{}}{fraction} \\ & =1+0.5+0.1875 \\ & =(1.6875)_{10}\end{aligned}
 
 
 
@@ -68,7 +68,7 @@ $$
 
 
 
-\begin{aligned}(56.6)_{8} & =\overset{\overset{5⋅8^{1}+6⋅8^{0}}{}}{whole}+\,\overset{\overset{6⋅8^{−1}}{}}{fraction} \\ & =40+6+0.75 \\ & =(46.75)_{10}\end{aligned}
+\begin{aligned}(56.6)_{8} & =\overset{5⋅8^{1}+6⋅8^{0}}{}}{whole}+\,\overset{6⋅8^{−1}}{}}{fraction} \\ & =40+6+0.75 \\ & =(46.75)_{10}\end{aligned}
 
 
 
@@ -84,7 +84,7 @@ $$
 
 
 
-\begin{aligned}(0.1)_{3} & =\overset{\overset{\,0^{1}}{}}{whole}+\,\overset{\overset{1⋅3^{−1}}{}}{fraction} \\ & =0+\frac{1}{3} \\ & =(\frac{1}{3})_{10} \\ & =(0.333\,333…)_{10}\end{aligned}
+\begin{aligned}(0.1)_{3} & =\overset{\,0^{1}}{}}{whole}+\,\overset{1⋅3^{−1}}{}}{fraction} \\ & =0+\frac{1}{3} \\ & =(\frac{1}{3})_{10} \\ & =(0.333\,333…)_{10}\end{aligned}
 
 
 
@@ -106,7 +106,7 @@ $$
 
 
 
-\begin{aligned}(4.31)_{7} & =\overset{\overset{4⋅7^{0}}{}}{whole}+\,\overset{\overset{3⋅7^{−1}+1⋅7^{−2}}{}}{fraction} \\ & =4+\frac{3}{7}+\frac{1}{49} \\ & =\frac{218}{49}\end{aligned}
+\begin{aligned}(4.31)_{7} & =\overset{4⋅7^{0}}{}}{whole}+\,\overset{3⋅7^{−1}+1⋅7^{−2}}{}}{fraction} \\ & =4+\frac{3}{7}+\frac{1}{49} \\ & =\frac{218}{49}\end{aligned}
 
 
 

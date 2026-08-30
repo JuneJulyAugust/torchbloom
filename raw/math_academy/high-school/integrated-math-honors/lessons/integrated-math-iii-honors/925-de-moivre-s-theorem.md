@@ -17,14 +17,14 @@ Topic ID: 925
 $$
 
 
-\left[ \cos (\varphi) + \textrm{i}\sin(\varphi) \right]^n = \cos(n\varphi) + \textrm{i}\sin{(n\varphi)},
+\left[ \cos (\varphi) + \text{i}\sin(\varphi) \right]^n = \cos(n\varphi) + \text{i}\sin{(n\varphi)},
 
 
 $$
 
 where $n$ is an integer.
 
-For example, let's use De Moivre's theorem to compute $\left[\cos (3\theta) +\textrm{i}\sin(3\theta) \right]^5.$ We get
+For example, let's use De Moivre's theorem to compute $\left[\cos (3\theta) +\text{i}\sin(3\theta) \right]^5.$ We get
 
 $$
 
@@ -38,7 +38,7 @@ $$
 
 #### Question
 
-Simplify the expression $\left[\cos \left(\dfrac{\theta}{10} \right) + \textrm{i}\sin \left(\dfrac{\theta}{10}\right) \right]^4.$
+Simplify the expression $\left[\cos \left(\dfrac{\theta}{10} \right) + \text{i}\sin \left(\dfrac{\theta}{10}\right) \right]^4.$
 
 #### Explanation
 
@@ -47,7 +47,7 @@ De Moivre's Theorem states that
 $$
 
 
-\left[ \cos(\varphi) + \textrm{i}\sin(\varphi) \right]^n = \cos(n\varphi) + \textrm{i}\sin{(n\varphi)}.
+\left[ \cos(\varphi) + \text{i}\sin(\varphi) \right]^n = \cos(n\varphi) + \text{i}\sin{(n\varphi)}.
 
 
 $$
@@ -66,7 +66,7 @@ $$
 
 #### Question
 
-Simplify the expression $\dfrac{1}{\left[\cos (\theta) +\textrm{i}\sin(\theta) \right]^2}.$
+Simplify the expression $\dfrac{1}{\left[\cos (\theta) +\text{i}\sin(\theta) \right]^2}.$
 
 #### Explanation
 
@@ -75,7 +75,7 @@ First, note that
 $$
 
 
-\dfrac{1}{\left[ \cos(\theta) +\textrm{i}\sin(\theta) \right]^2} = \left[ \cos(\theta) +\textrm{i}\sin(\theta) \right]^{-2} .
+\dfrac{1}{\left[ \cos(\theta) +\text{i}\sin(\theta) \right]^2} = \left[ \cos(\theta) +\text{i}\sin(\theta) \right]^{-2} .
 
 
 $$
@@ -85,7 +85,7 @@ De Moivre's Theorem states that
 $$
 
 
-\left[ \cos(\varphi) + \textrm{i}\sin(\varphi) \right]^n = \cos(n\varphi) + \textrm{i}\sin{(n\varphi)}.
+\left[ \cos(\varphi) + \text{i}\sin(\varphi) \right]^n = \cos(n\varphi) + \text{i}\sin{(n\varphi)}.
 
 
 $$
@@ -105,7 +105,7 @@ Finally, using the fact that $\cos(-\varphi) = \cos (\varphi)$ and $\sin(-\varph
 $$
 
 
-\cos(-2\theta) + \textrm{i}\sin(-2\theta) = \cos(2\theta) - \textrm{i}\sin{(2\theta)}.
+\cos(-2\theta) + \text{i}\sin(-2\theta) = \cos(2\theta) - \text{i}\sin{(2\theta)}.
 
 
 $$
@@ -117,7 +117,7 @@ We can also use De Moivre's theorem for an expression with a subtraction:
 $$
 
 
-\left[ \cos (\varphi) - \textrm{i}\sin(\varphi) \right]^n = \cos(n\varphi) - \textrm{i}\sin{(n\varphi)}.
+\left[ \cos (\varphi) - \text{i}\sin(\varphi) \right]^n = \cos(n\varphi) - \text{i}\sin{(n\varphi)}.
 
 
 $$
@@ -146,7 +146,7 @@ $$
 
 #### Question
 
-Simplify the expression $\dfrac{1}{\left[\cos (2\theta) -\textrm{i}\sin (2\theta) \right]^4}.$
+Simplify the expression $\dfrac{1}{\left[\cos (2\theta) -\text{i}\sin (2\theta) \right]^4}.$
 
 #### Explanation
 
@@ -165,7 +165,7 @@ For expressions involving subtraction, De Moivre's theorem states that
 $$
 
 
-\left[ \cos (\varphi) - \textrm{i}\sin(\varphi) \right]^n = \cos(n\varphi) - \textrm{i}\sin{(n\varphi)}.
+\left[ \cos (\varphi) - \text{i}\sin(\varphi) \right]^n = \cos(n\varphi) - \text{i}\sin{(n\varphi)}.
 
 
 $$

@@ -49,7 +49,7 @@ $$
 
 
 
-f(x) \rightarrow {\color{red}{-\infty}} \quad\textrm{as}\quad x \rightarrow -2^-.
+f(x) \rightarrow {\color{red}{-\infty}} \quad\text{as}\quad x \rightarrow -2^-.
 
 
 
@@ -167,7 +167,7 @@ $$
 
 
 
-f(x) \to {\color{blue}{\infty}} \quad \textrm{as}\quad \quad x \to 1.
+f(x) \to {\color{blue}{\infty}} \quad \text{as}\quad \quad x \to 1.
 
 
 

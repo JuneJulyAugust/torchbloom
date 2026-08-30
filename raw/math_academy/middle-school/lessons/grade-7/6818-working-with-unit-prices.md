@@ -131,7 +131,7 @@ $$
 
 
 
-2 \,\textrm{dollars per yard} \quad\rightarrow\quad \dfrac{1}{2} \,\textrm{yards per dollar} .
+2 \,\text{dollars per yard} \quad\rightarrow\quad \dfrac{1}{2} \,\text{yards per dollar} .
 
 
 
@@ -153,7 +153,7 @@ $$
 
 
 
-4 \,\textrm{dollars per liter} \quad\rightarrow\quad \dfrac{1}{4} \,\textrm{liters per dollar}
+4 \,\text{dollars per liter} \quad\rightarrow\quad \dfrac{1}{4} \,\text{liters per dollar}
 
 
 

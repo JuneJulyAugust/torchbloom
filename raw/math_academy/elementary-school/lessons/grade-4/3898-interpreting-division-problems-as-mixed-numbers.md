@@ -51,7 +51,7 @@ $\qquad$ Therefore, we can write
 
 $$
 
-16\div 5 = {\color{blue}{3}}\,\textrm{R}\,{\color{red}{1}}.
+16\div 5 = {\color{blue}{3}}\,\text{R}\,{\color{red}{1}}.
 
 $$
 
@@ -129,7 +129,7 @@ Therefore,
 
 $$
 
-16\div 3 = {\color{blue}{5}}\,\textrm{R}{\color{red}{1}}.
+16\div 3 = {\color{blue}{5}}\,\text{R}{\color{red}{1}}.
 
 $$
 

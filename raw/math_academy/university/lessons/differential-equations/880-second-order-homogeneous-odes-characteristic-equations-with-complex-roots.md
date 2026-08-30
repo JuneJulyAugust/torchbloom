@@ -20,7 +20,7 @@ We will solve the following differential equation:
 $$
 
 
-\frac{\textrm{d}^2 y}{\textrm{d} x^2} + 4y =0.
+\frac{\text{d}^2 y}{\text{d} x^2} + 4y =0.
 
 
 $$
@@ -32,7 +32,7 @@ Assuming a solution of the form $y=e^{\lambda x},$ we find the derivatives:
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x} = \lambda e^{\lambda x}, \qquad \dfrac{\textrm{d}^2y}{\textrm{d}x^2} = \lambda^2 e^{\lambda x}.
+\dfrac{\text{d}y}{\text{d}x} = \lambda e^{\lambda x}, \qquad \dfrac{\text{d}^2y}{\text{d}x^2} = \lambda^2 e^{\lambda x}.
 
 
 $$
@@ -52,7 +52,7 @@ $$
 $$
 
 
-\begin{aligned}𝜆^{2} & =−4 \\ 𝜆 & =±\sqrt{√−4} \\ 𝜆 & =±2i.\end{aligned}
+\begin{aligned}𝜆^{2} & =−4 \\ 𝜆 & =±\sqrt{−4} \\ 𝜆 & =±2i.\end{aligned}
 
 
 $$
@@ -62,7 +62,7 @@ The roots are a *complex conjugate pair*. Since the roots are distinct, the gene
 $$
 
 
-y = Ae^{2\textrm{i}x} + Be^{-2\textrm{i}x}.
+y = Ae^{2\text{i}x} + Be^{-2\text{i}x}.
 
 
 $$
@@ -76,7 +76,7 @@ Recall our solution from the previous slide:
 $$
 
 
-y = Ae^{2\textrm{i}x} + Be^{-2\textrm{i}x}.
+y = Ae^{2\text{i}x} + Be^{-2\text{i}x}.
 
 
 $$
@@ -86,7 +86,7 @@ We use **Euler's formula**, which states
 $$
 
 
-e^{\textrm{i}\theta} = \cos\theta + \textrm{i}\sin\theta,
+e^{\text{i}\theta} = \cos\theta + \text{i}\sin\theta,
 
 
 $$
@@ -106,7 +106,7 @@ Since we are typically solving for a real-world quantity, our final answer must 
 $$
 
 
-P = A+B \quad \text{and} \quad Q = \textrm{i}(A-B).
+P = A+B \quad \text{and} \quad Q = \text{i}(A-B).
 
 
 $$
@@ -152,7 +152,7 @@ In general, if the characteristic equation of a second-order homogeneous ODE has
 $$
 
 
-\lambda = \pm b\textrm{i},
+\lambda = \pm b\text{i},
 
 
 $$
@@ -162,7 +162,7 @@ then the *general solution* is
 $$
 
 
-y(x) = Ae^{\textrm{i} b x} + B e^{-\textrm{i} bx}.
+y(x) = Ae^{\text{i} b x} + B e^{-\text{i} bx}.
 
 
 $$
@@ -177,7 +177,7 @@ y(x) = P \cos bx + Q \sin bx,
 
 $$
 
-where $P = A+B$ and $Q=\textrm{i} (A-B).$
+where $P = A+B$ and $Q=\text{i} (A-B).$
 
 Let's take a look at another example.
 
@@ -190,7 +190,7 @@ Find the general solution to the equation
 $$
 
 
-\frac{\textrm{d}^2 y}{\textrm{d} x^2} + 25y =0.
+\frac{\text{d}^2 y}{\text{d} x^2} + 25y =0.
 
 
 $$
@@ -202,7 +202,7 @@ Assuming $y=e^{\lambda x}$ and differentiating $y$ with respect to $x$ gives
 $$
 
 
-\frac{\textrm{d} y}{\textrm{d} x} = \lambda e^{\lambda x}, \qquad \frac{\textrm{d}^2 y}{\textrm{d} x^2} = \lambda^2 e^{\lambda x} .
+\frac{\text{d} y}{\text{d} x} = \lambda e^{\lambda x}, \qquad \frac{\text{d}^2 y}{\text{d} x^2} = \lambda^2 e^{\lambda x} .
 
 
 $$
@@ -246,7 +246,7 @@ For example, suppose that we want to solve the following differential equation:
 $$
 
 
-\frac{\textrm{d}^2 y}{\textrm{d} x^2} - 6 \frac{\textrm{d} y}{\textrm{d} x} + 18y =0.
+\frac{\text{d}^2 y}{\text{d} x^2} - 6 \frac{\text{d} y}{\text{d} x} + 18y =0.
 
 
 $$
@@ -271,14 +271,14 @@ $$
 
 $$
 
-The two complex roots are $\lambda_1 = 3 + 3\textrm{i}$ and $\lambda_2 = 3 - 3\textrm{i}.$
+The two complex roots are $\lambda_1 = 3 + 3\text{i}$ and $\lambda_2 = 3 - 3\text{i}.$
 
 The general solution is therefore
 
 $$
 
 
-y = Ae^{(3 + 3 \textrm{i})x} + Be^{(3 - 3 \textrm{i})x}.
+y = Ae^{(3 + 3 \text{i})x} + Be^{(3 - 3 \text{i})x}.
 
 
 $$
@@ -292,7 +292,7 @@ Recall that our general solution is
 $$
 
 
-y = Ae^{(3 + 3 \textrm{i})x} + Be^{(3 - 3 \textrm{i})x}.
+y = Ae^{(3 + 3 \text{i})x} + Be^{(3 - 3 \text{i})x}.
 
 
 $$
@@ -302,7 +302,7 @@ Our goal is to simplify this to find the **real-valued general solution**. We ca
 $$
 
 
-e^{\textrm{i}\theta} = \cos{\theta} + \textrm{i}\sin{\theta}.
+e^{\text{i}\theta} = \cos{\theta} + \text{i}\sin{\theta}.
 
 
 $$
@@ -327,7 +327,7 @@ $$
 
 $$
 
-Since $A$ and $B$ are arbitrary constants, we can define new arbitrary constants $P=A+B$ and $Q=\textrm{i}(A-B).$ The general solution becomes:
+Since $A$ and $B$ are arbitrary constants, we can define new arbitrary constants $P=A+B$ and $Q=\text{i}(A-B).$ The general solution becomes:
 
 $$
 
@@ -368,7 +368,7 @@ In general, if the characteristic equation of a second-order homogeneous ODE has
 $$
 
 
-\lambda = a \pm b\textrm{i},
+\lambda = a \pm b\text{i},
 
 
 $$
@@ -378,7 +378,7 @@ then the *general solution* is
 $$
 
 
-y(x) = Ae^{(a+b\textrm{i})x} + B e^{(a-b\textrm{i})x}.
+y(x) = Ae^{(a+b\text{i})x} + B e^{(a-b\text{i})x}.
 
 
 $$
@@ -388,7 +388,7 @@ Using *Euler's formula*, we can expand and group the terms:
 $$
 
 
-y(x) = e^{ax} \left[ (A+B)\cos bx + \textrm{i}(A-B)\sin bx \right].
+y(x) = e^{ax} \left[ (A+B)\cos bx + \text{i}(A-B)\sin bx \right].
 
 
 $$
@@ -403,7 +403,7 @@ y(x) = e^{ax} \left( P \cos bx + Q \sin bx \right)
 
 $$
 
-where $P = A+B$ and $Q=\textrm{i} (A-B).$
+where $P = A+B$ and $Q=\text{i} (A-B).$
 
 Let's take a look at another example
 
@@ -455,7 +455,7 @@ $$
 
 $$
 
-Therefore, $\lambda = - 5 \pm 3\textrm{i}$ are the complex roots of the auxiliary equation.
+Therefore, $\lambda = - 5 \pm 3\text{i}$ are the complex roots of the auxiliary equation.
 
 ### Example: Finding the General Solution When the Characteristic Equation Has Complex Roots
 
@@ -466,7 +466,7 @@ Find the general solution to the equation
 $$
 
 
-\frac{\textrm{d}^2 y}{\textrm{d} x^2} - 4 \frac{\textrm{d} y}{\textrm{d} x} + 20y =0.
+\frac{\text{d}^2 y}{\text{d} x^2} - 4 \frac{\text{d} y}{\text{d} x} + 20y =0.
 
 
 $$
@@ -478,7 +478,7 @@ Assuming $y=e^{\lambda x}$ and differentiating $y$ with respect to $x$ gives
 $$
 
 
-\frac{\textrm{d} y}{\textrm{d} x} = \lambda e^{\lambda x}, \qquad \frac{\textrm{d}^2 y}{\textrm{d} x^2} = \lambda^2 e^{\lambda x} .
+\frac{\text{d} y}{\text{d} x} = \lambda e^{\lambda x}, \qquad \frac{\text{d}^2 y}{\text{d} x^2} = \lambda^2 e^{\lambda x} .
 
 
 $$
@@ -577,7 +577,7 @@ $$
 
 $$
 
-Since $\lambda = 2 \pm 9 \textrm{i}$ are the complex roots of the characteristic equation, the general solution takes the form
+Since $\lambda = 2 \pm 9 \text{i}$ are the complex roots of the characteristic equation, the general solution takes the form
 
 $$
 

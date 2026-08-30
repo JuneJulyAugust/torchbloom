@@ -60,7 +60,7 @@ $$
 
 
 
-\begin{aligned}𝑦=±\frac{5}{\sqrt{√10}}𝑥.\end{aligned}
+\begin{aligned}𝑦=±\frac{5}{\sqrt{10}}𝑥.\end{aligned}
 
 
 
@@ -166,7 +166,7 @@ $$
 
 
 
-y - k = \pm \dfrac{\textrm{constant associated with }y}{\textrm{constant associated with }x} (x - h)
+y - k = \pm \dfrac{\text{constant associated with }y}{\text{constant associated with }x} (x - h)
 
 
 

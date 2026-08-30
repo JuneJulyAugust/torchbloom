@@ -12,32 +12,32 @@ Topic ID: 2545
 
 ### Introduction
 
-When the characteristic equation of a Cauchy-Euler equation has the complex roots $\lambda = a \pm b \textrm{i},$ the general solution is
+When the characteristic equation of a Cauchy-Euler equation has the complex roots $\lambda = a \pm b \text{i},$ the general solution is
 
 $$
 
 
-y(t) = A t^{a + b \textrm{i}} + B t^{a - b \textrm{i}}.
+y(t) = A t^{a + b \text{i}} + B t^{a - b \text{i}}.
 
 
 $$
 
-For example, if the complex roots are $\lambda = 2 \pm 3 \textrm{i},$ then the general solution is
+For example, if the complex roots are $\lambda = 2 \pm 3 \text{i},$ then the general solution is
 
 $$
 
 
-y(t) = A t^{2 + 3 \textrm{i}} + B t^{2 - 3 \textrm{i}}.
+y(t) = A t^{2 + 3 \text{i}} + B t^{2 - 3 \text{i}}.
 
 
 $$
 
-However, we can simplify this form of the general solution even further using Euler's formula. To start, let's focus on $t^{2+3\textrm{i}}$ and separate it into a product:
+However, we can simplify this form of the general solution even further using Euler's formula. To start, let's focus on $t^{2+3\text{i}}$ and separate it into a product:
 
 $$
 
 
-t^{2+3\textrm{i}} = t^{2} t^{3\textrm{i}}
+t^{2+3\text{i}} = t^{2} t^{3\text{i}}
 
 
 $$
@@ -47,7 +47,7 @@ Now, using the rules of logarithms, we have that
 $$
 
 
-t^{3\textrm{i}} = e^{\ln t^{3\textrm{i}} } = e^{3\textrm{i} \ln t}.
+t^{3\text{i}} = e^{\ln t^{3\text{i}} } = e^{3\text{i} \ln t}.
 
 
 $$
@@ -57,7 +57,7 @@ Then, using Euler's formula, we have
 $$
 
 
-e^{3\textrm{i} \ln t} = e^{\textrm{i} \cdot 3 \ln t} = \cos (3 \ln t) + \textrm{i} \sin (3 \ln t).
+e^{3\text{i} \ln t} = e^{\text{i} \cdot 3 \ln t} = \cos (3 \ln t) + \text{i} \sin (3 \ln t).
 
 
 $$
@@ -67,7 +67,7 @@ So, we have that
 $$
 
 
-t^{2+3\textrm{i}} = t^2 \left( \cos (3 \ln t) + \textrm{i} \sin (3 \ln t) \right).
+t^{2+3\text{i}} = t^2 \left( \cos (3 \ln t) + \text{i} \sin (3 \ln t) \right).
 
 
 $$
@@ -102,16 +102,16 @@ y(t) = t^{2} \left( c_1 \cos( 3 \ln{t} ) + c_2 \sin( 3 \ln{t} ) \right),
 
 $$
 
-where $c_1 = A+B$ and $c_2 = \textrm{i}(A-B).$
+where $c_1 = A+B$ and $c_2 = \text{i}(A-B).$
 
 ### The Shortcut for Cauchy-Euler Equations with Complex Roots
 
-In general, if the characteristic equation of a Cauchy-Euler equation has imaginary roots $\lambda = a \pm b\textrm{i},$ then the general solution is
+In general, if the characteristic equation of a Cauchy-Euler equation has imaginary roots $\lambda = a \pm b\text{i},$ then the general solution is
 
 $$
 
 
-y(x) = Ax^{a+b\textrm{i}} + B x^{a-b\textrm{i}}.
+y(x) = Ax^{a+b\text{i}} + B x^{a-b\text{i}}.
 
 
 $$
@@ -126,7 +126,7 @@ y(t) = x^a \left( c_1 \cos(b \ln x) + c_2 \sin(b \ln x) \right)
 
 $$
 
-where $c_1 = A+B$ and $c_2=\textrm{i} (A-B).$
+where $c_1 = A+B$ and $c_2=\text{i} (A-B).$
 
 ### Example: Solving a Cauchy-Euler Equation with Imaginary Roots
 

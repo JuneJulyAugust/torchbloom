@@ -114,7 +114,7 @@ In general, $\dfrac{\textrm d}{\textrm d x}\big(\cdots\big)$ just means that we 
 
 #### Question
 
-Find $\dfrac{\textrm{d}y}{\textrm{d}x}$ when $y=\sqrt{x}.$
+Find $\dfrac{\text{d}y}{\text{d}x}$ when $y=\sqrt{x}.$
 
 #### Explanation
 
@@ -133,7 +133,7 @@ Applying the power rule with $n=\dfrac{1}{2},$ we get
 $$
 
 
-\begin{aligned}\frac{d𝑦}{d𝑥} & =\frac{d}{d𝑥}(𝑥^{1/2}) \\ & =\frac{1}{2}𝑥^{1/2−1} \\ & =\frac{1}{2}𝑥^{−1/2} \\ & =\frac{1}{2\sqrt{√𝑥}}.\end{aligned}
+\begin{aligned}\frac{d𝑦}{d𝑥} & =\frac{d}{d𝑥}(𝑥^{1/2}) \\ & =\frac{1}{2}𝑥^{1/2−1} \\ & =\frac{1}{2}𝑥^{−1/2} \\ & =\frac{1}{2\sqrt{𝑥}}.\end{aligned}
 
 
 $$

@@ -29,7 +29,7 @@ For example, the system
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=−𝑥_{1}(𝑡) \\ 𝑥_{′2}^{}(𝑡)=5𝑥_{2}(𝑡)\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=−𝑥_{1}(𝑡) \\ 𝑥_{′2}(𝑡)=5𝑥_{2}(𝑡)\end{aligned}
 
 
 $$
@@ -39,7 +39,7 @@ is decoupled, while the system
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=𝑥_{2}(𝑡) \\ 𝑥_{′2}^{}(𝑡)=𝑥_{1}(𝑡)−𝑥_{2}(𝑡)\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=𝑥_{2}(𝑡) \\ 𝑥_{′2}(𝑡)=𝑥_{1}(𝑡)−𝑥_{2}(𝑡)\end{aligned}
 
 
 $$
@@ -68,11 +68,11 @@ is decoupled exactly when $A$ is a diagonal matrix. For example:
 
 Which of the following systems of linear ODEs are decoupled?
 
-1. $\begin{aligned}𝑥_{′1}^{}(𝑡)=4𝑥_{1}(𝑡)+2𝑥_{2}(𝑡) \\ 𝑥_{′2}^{}(𝑡)=−𝑥_{1}(𝑡)+6𝑥_{2}(𝑡)\end{aligned}$
+1. $\begin{aligned}𝑥_{′1}(𝑡)=4𝑥_{1}(𝑡)+2𝑥_{2}(𝑡) \\ 𝑥_{′2}(𝑡)=−𝑥_{1}(𝑡)+6𝑥_{2}(𝑡)\end{aligned}$
 
-2. $\begin{aligned}𝑥_{′1}^{}(𝑡)=−3𝑥_{1}(𝑡) \\ 𝑥_{′2}^{}(𝑡)=7𝑥_{2}(𝑡)\end{aligned}$
+2. $\begin{aligned}𝑥_{′1}(𝑡)=−3𝑥_{1}(𝑡) \\ 𝑥_{′2}(𝑡)=7𝑥_{2}(𝑡)\end{aligned}$
 
-3. $\begin{aligned}𝑥_{′1}^{}(𝑡)=5𝑥_{2}(𝑡) \\ 𝑥_{′2}^{}(𝑡)=2𝑥_{1}(𝑡)−𝑥_{2}(𝑡)\end{aligned}$
+3. $\begin{aligned}𝑥_{′1}(𝑡)=5𝑥_{2}(𝑡) \\ 𝑥_{′2}(𝑡)=2𝑥_{1}(𝑡)−𝑥_{2}(𝑡)\end{aligned}$
 
 #### Explanation
 
@@ -105,7 +105,7 @@ Now, let's consider the following decoupled system:
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=3𝑥_{1}(𝑡) \\ 𝑥_{′2}^{}(𝑡)=−5𝑥_{2}(𝑡)\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=3𝑥_{1}(𝑡) \\ 𝑥_{′2}(𝑡)=−5𝑥_{2}(𝑡)\end{aligned}
 
 
 $$
@@ -131,7 +131,7 @@ In general, for a decoupled system
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=𝜆_{1}𝑥_{1}(𝑡) \\ 𝑥_{′2}^{}(𝑡)=𝜆_{2}𝑥_{2}(𝑡)\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=𝜆_{1}𝑥_{1}(𝑡) \\ 𝑥_{′2}(𝑡)=𝜆_{2}𝑥_{2}(𝑡)\end{aligned}
 
 
 $$
@@ -167,7 +167,7 @@ Find the general solution to the system of differential equations given by
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=−6𝑥_{1}(𝑡) \\ 𝑥_{′2}^{}(𝑡)=3𝑥_{2}(𝑡).\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=−6𝑥_{1}(𝑡) \\ 𝑥_{′2}(𝑡)=3𝑥_{2}(𝑡).\end{aligned}
 
 
 $$
@@ -179,7 +179,7 @@ Given a decoupled system of first-order linear ODEs in the form
 $$
 
 
-[\begin{aligned}𝑥_{′1}^{}(𝑡) \\ 𝑥_{′2}^{}(𝑡)\end{aligned}]
+[\begin{aligned}𝑥_{′1}(𝑡) \\ 𝑥_{′2}(𝑡)\end{aligned}]
 
 
 $$
@@ -199,7 +199,7 @@ First, we write our differential equation in matrix form:
 $$
 
 
-[\begin{aligned}𝑥_{′1}^{}(𝑡) \\ 𝑥_{′2}^{}(𝑡)\end{aligned}]
+[\begin{aligned}𝑥_{′1}(𝑡) \\ 𝑥_{′2}(𝑡)\end{aligned}]
 
 
 $$
@@ -223,7 +223,7 @@ Consider the following decoupled system of differential equations:
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=𝑥_{1}(𝑡) \\ 𝑥_{′2}^{}(𝑡)=−𝑥_{2}(𝑡)\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=𝑥_{1}(𝑡) \\ 𝑥_{′2}(𝑡)=−𝑥_{2}(𝑡)\end{aligned}
 
 
 $$
@@ -259,7 +259,7 @@ Then, by substituting $t=0$ into the general solution, we can find specific valu
 $$
 
 
-\begin{aligned}𝐱(0) & =[\begin{aligned}20 \\ 2\,000\end{aligned}] \\ 𝑐_{1}[\begin{aligned}1 \\ 0\end{aligned}]𝑒^{0}+𝑐_{2}[\begin{aligned}0 \\ 1\end{aligned}]𝑒^{0} & =[\begin{aligned}20 \\ 2\,000\end{aligned}] \\ [\begin{aligned}𝑐_{1} \\ 𝑐_{2}\end{aligned}] & =[\begin{aligned}20 \\ 2\,000\end{aligned}]\end{aligned}
+\begin{aligned}𝐱(0) & =[\begin{matrix}20 \\ 2\,000\end{matrix}] \\ 𝑐_{1}[\begin{matrix}1 \\ 0\end{matrix}]𝑒^{0}+𝑐_{2}[\begin{matrix}0 \\ 1\end{matrix}]𝑒^{0} & =[\begin{matrix}20 \\ 2\,000\end{matrix}] \\ [\begin{matrix}𝑐_{1} \\ 𝑐_{2}\end{matrix}] & =[\begin{matrix}20 \\ 2\,000\end{matrix}]\end{aligned}
 
 
 $$
@@ -281,7 +281,7 @@ Finally, we can find how many birds of each type there will be after $t=3$ years
 $$
 
 
-\begin{aligned}𝐱(3) & =20[\begin{aligned}1 \\ 0\end{aligned}]𝑒^{3}+2\,000[\begin{aligned}0 \\ 1\end{aligned}]𝑒^{−3} \\ & =[\begin{aligned}20𝑒^{3} \\ 0\end{aligned}]+[\begin{aligned}0 \\ 2\,000𝑒^{−3}\end{aligned}] \\ & =[\begin{aligned}20𝑒^{3} \\ 2\,000𝑒^{−3}\end{aligned}] \\ & ≈[\begin{aligned}401.7 \\ 99.6\end{aligned}]\end{aligned}
+\begin{aligned}𝐱(3) & =20[\begin{matrix}1 \\ 0\end{matrix}]𝑒^{3}+2\,000[\begin{matrix}0 \\ 1\end{matrix}]𝑒^{−3} \\ & =[\begin{matrix}20𝑒^{3} \\ 0\end{matrix}]+[\begin{matrix}0 \\ 2\,000𝑒^{−3}\end{matrix}] \\ & =[\begin{matrix}20𝑒^{3} \\ 2\,000𝑒^{−3}\end{matrix}] \\ & ≈[\begin{matrix}401.7 \\ 99.6\end{matrix}]\end{aligned}
 
 
 $$
@@ -309,7 +309,7 @@ We have a decoupled system. Therefore, the general solution is given by
 $$
 
 
-\begin{aligned}𝐱(𝑡) & =𝑐_{1}[\begin{aligned}1 \\ 0\end{aligned}]𝑒^{1𝑡}+𝑐_{2}[\begin{aligned}0 \\ 1\end{aligned}]𝑒^{2ln⁡(3)𝑡} \\ & =𝑐_{1}[\begin{aligned}1 \\ 0\end{aligned}]𝑒^{𝑡}+𝑐_{2}[\begin{aligned}0 \\ 1\end{aligned}](𝑒^{ln⁡(9)})^{𝑡} \\ & =𝑐_{1}[\begin{aligned}1 \\ 0\end{aligned}]𝑒^{𝑡}+𝑐_{2}[\begin{aligned}0 \\ 1\end{aligned}]9^{𝑡},\,𝑐_{1},𝑐_{2}∈ℝ.\end{aligned}
+\begin{aligned}𝐱(𝑡) & =𝑐_{1}[\begin{matrix}1 \\ 0\end{matrix}]𝑒^{1𝑡}+𝑐_{2}[\begin{matrix}0 \\ 1\end{matrix}]𝑒^{2ln⁡(3)𝑡} \\ & =𝑐_{1}[\begin{matrix}1 \\ 0\end{matrix}]𝑒^{𝑡}+𝑐_{2}[\begin{matrix}0 \\ 1\end{matrix}](𝑒^{ln⁡(9)})^{𝑡} \\ & =𝑐_{1}[\begin{matrix}1 \\ 0\end{matrix}]𝑒^{𝑡}+𝑐_{2}[\begin{matrix}0 \\ 1\end{matrix}]9^{𝑡},\,𝑐_{1},𝑐_{2}∈ℝ.\end{aligned}
 
 
 $$
@@ -319,7 +319,7 @@ Now, we need to find the values of $c_1$ and $c_2$ using the initial value $\mat
 $$
 
 
-\begin{aligned}𝐱(0) & =𝑐_{1}[\begin{aligned}1 \\ 0\end{aligned}]𝑒^{0}+𝑐_{2}[\begin{aligned}0 \\ 1\end{aligned}]9^{0} \\ [\begin{aligned}2 \\ −1\end{aligned}] & =[\begin{aligned}𝑐_{1} \\ 𝑐_{2}\end{aligned}].\end{aligned}
+\begin{aligned}𝐱(0) & =𝑐_{1}[\begin{matrix}1 \\ 0\end{matrix}]𝑒^{0}+𝑐_{2}[\begin{matrix}0 \\ 1\end{matrix}]9^{0} \\ [\begin{matrix}2 \\ −1\end{matrix}] & =[\begin{matrix}𝑐_{1} \\ 𝑐_{2}\end{matrix}].\end{aligned}
 
 
 $$
@@ -329,7 +329,7 @@ Therefore, the solution to our initial value problem is given by
 $$
 
 
-\begin{aligned}𝐱(𝑡) & =2[\begin{aligned}1 \\ 0\end{aligned}]𝑒^{𝑡}+(−1)[\begin{aligned}0 \\ 1\end{aligned}]9^{𝑡} \\ & =[\begin{aligned}2 \\ 0\end{aligned}]𝑒^{𝑡}+[\begin{aligned}0 \\ −1\end{aligned}]9^{𝑡}.\end{aligned}
+\begin{aligned}𝐱(𝑡) & =2[\begin{matrix}1 \\ 0\end{matrix}]𝑒^{𝑡}+(−1)[\begin{matrix}0 \\ 1\end{matrix}]9^{𝑡} \\ & =[\begin{matrix}2 \\ 0\end{matrix}]𝑒^{𝑡}+[\begin{matrix}0 \\ −1\end{matrix}]9^{𝑡}.\end{aligned}
 
 
 $$

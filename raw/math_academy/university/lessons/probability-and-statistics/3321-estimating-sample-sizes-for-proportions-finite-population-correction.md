@@ -51,7 +51,7 @@ Now, recall that the $[100(1-\alpha)]\%$ confidence interval for $p$ in the case
 $$
 
 
-\widehat{\,p} \pm \overbrace{z_{\alpha/2} \cdot \sqrt{\dfrac{\widehat{\,p}(1-\widehat{\,p})}{n}\cdot \dfrac{N-n}{N-1} }}^{\textrm{margin of error}}
+\widehat{\,p} \pm \overbrace{z_{\alpha/2} \cdot \sqrt{\dfrac{\widehat{\,p}(1-\widehat{\,p})}{n}\cdot \dfrac{N-n}{N-1} }}^{\text{margin of error}}
 
 
 $$
@@ -141,7 +141,7 @@ Given a value $\alpha$ between $0$ and $1,$ the corresponding $[100(1-\alpha)]\%
 $$
 
 
-\widehat{\,p} \pm \overbrace{z_{\alpha/2} \cdot \sqrt{\dfrac{\widehat{\,p}(1-\widehat{\,p})}{n} \cdot \dfrac{N-n}{N-1}}}^{\large \textrm{margin of error}},
+\widehat{\,p} \pm \overbrace{z_{\alpha/2} \cdot \sqrt{\dfrac{\widehat{\,p}(1-\widehat{\,p})}{n} \cdot \dfrac{N-n}{N-1}}}^{\large \text{margin of error}},
 
 
 $$
@@ -225,7 +225,7 @@ into the inequality for $n,$ we obtain
 $$
 
 
-\begin{aligned}𝑚 & =\frac{𝑧_{2𝛼/2}^{}\,\overset{\,𝑝}{ˆ}(1−\overset{\,𝑝}{ˆ})}{𝜀^{2}} \\ & =\frac{(2.576)^{2}\,0.1(1−0.1)}{(0.02)^{2}} \\ & ≈1493.05, \\ 𝑛 & ≥\frac{𝑁𝑚}{𝑁+𝑚−1} \\ & =\frac{630⋅1493.05}{630+1493.05−1} \\ & ≈443.26.\end{aligned}
+\begin{aligned}𝑚 & =\frac{𝑧_{2𝛼/2}\,\overset{\,𝑝}{ˆ}(1−\overset{\,𝑝}{ˆ})}{𝜀^{2}} \\ & =\frac{(2.576)^{2}\,0.1(1−0.1)}{(0.02)^{2}} \\ & ≈1493.05, \\ 𝑛 & ≥\frac{𝑁𝑚}{𝑁+𝑚−1} \\ & =\frac{630⋅1493.05}{630+1493.05−1} \\ & ≈443.26.\end{aligned}
 
 
 $$
@@ -247,7 +247,7 @@ Given a value $\alpha$ between $0$ and $1,$ the corresponding $[100(1-\alpha)]\%
 $$
 
 
-\widehat{\,p} \pm \overbrace{z_{\alpha/2} \cdot \sqrt{\dfrac{\widehat{\,p}(1-\widehat{\,p})}{n} \cdot \dfrac{N-n}{N-1}}}^{\large \textrm{margin of error}},
+\widehat{\,p} \pm \overbrace{z_{\alpha/2} \cdot \sqrt{\dfrac{\widehat{\,p}(1-\widehat{\,p})}{n} \cdot \dfrac{N-n}{N-1}}}^{\large \text{margin of error}},
 
 
 $$
@@ -355,7 +355,7 @@ into the inequality for $n,$ we obtain
 $$
 
 
-\begin{aligned}𝑚 & =\frac{𝑧_{2𝛼/2}^{}\,\overset{\,𝑝}{ˆ}(1−\overset{\,𝑝}{ˆ})}{𝜀^{2}} \\ & =\frac{(1.96)^{2}\,0.25}{(0.06)^{2}} \\ & ≈266.78, \\ 𝑛 & ≥\frac{𝑁𝑚}{𝑁+𝑚−1} \\ & =\frac{900⋅266.78}{900+266.78−1} \\ & ≈205.96.\end{aligned}
+\begin{aligned}𝑚 & =\frac{𝑧_{2𝛼/2}\,\overset{\,𝑝}{ˆ}(1−\overset{\,𝑝}{ˆ})}{𝜀^{2}} \\ & =\frac{(1.96)^{2}\,0.25}{(0.06)^{2}} \\ & ≈266.78, \\ 𝑛 & ≥\frac{𝑁𝑚}{𝑁+𝑚−1} \\ & =\frac{900⋅266.78}{900+266.78−1} \\ & ≈205.96.\end{aligned}
 
 
 $$
@@ -377,7 +377,7 @@ Given a value $\alpha$ between $0$ and $1,$ the corresponding $[100(1-\alpha)]\%
 $$
 
 
-\widehat{\,p} \pm \overbrace{z_{\alpha/2} \cdot \sqrt{\dfrac{\widehat{\,p}(1-\widehat{\,p})}{n} \cdot \dfrac{N-n}{N-1}}}^{\large \textrm{margin of error}},
+\widehat{\,p} \pm \overbrace{z_{\alpha/2} \cdot \sqrt{\dfrac{\widehat{\,p}(1-\widehat{\,p})}{n} \cdot \dfrac{N-n}{N-1}}}^{\large \text{margin of error}},
 
 
 $$
@@ -467,7 +467,7 @@ into the inequality for $n,$ we obtain
 $$
 
 
-\begin{aligned}𝑚 & =\frac{𝑧_{2𝛼/2}^{}\,\overset{\,𝑝}{ˆ}(1−\overset{\,𝑝}{ˆ})}{𝜀^{2}} \\ & =\frac{(2.576)^{2}\,0.3(1−0.3)}{(0.03)^{2}} \\ & ≈1\,548.35, \\ 𝑛 & =\frac{𝑁𝑚}{𝑁+𝑚−1} \\ & ≥\frac{8\,000⋅1\,548.35}{8\,000+1\,548.35−1} \\ & =1297.41.\end{aligned}
+\begin{aligned}𝑚 & =\frac{𝑧_{2𝛼/2}\,\overset{\,𝑝}{ˆ}(1−\overset{\,𝑝}{ˆ})}{𝜀^{2}} \\ & =\frac{(2.576)^{2}\,0.3(1−0.3)}{(0.03)^{2}} \\ & ≈1\,548.35, \\ 𝑛 & =\frac{𝑁𝑚}{𝑁+𝑚−1} \\ & ≥\frac{8\,000⋅1\,548.35}{8\,000+1\,548.35−1} \\ & =1297.41.\end{aligned}
 
 
 $$

@@ -48,11 +48,11 @@ this event is likely.
 
 A spinner is divided into $5$ equal sections. The spinner is spun once, and the color it lands on is recorded. Determine the likelihood of the following events.
 
-$\qquad$Landing on red $\Big($probability $\dfrac{2}{5}\Big)$ is $\boxed{\phantom{\text{unlikely}}}.$
+$\qquad$Landing on red $\Big($probability $\dfrac{2}{5}\Big)$ is $\boxed{\phantom{\mathrm{unlikely}}}.$
 
-$\qquad$Landing on blue or yellow $\Big($probability $\dfrac{3}{5}\Big)$ is $\boxed{\phantom{\text{likely}}}.$
+$\qquad$Landing on blue or yellow $\Big($probability $\dfrac{3}{5}\Big)$ is $\boxed{\phantom{\mathrm{likely}}}.$
 
-$\qquad$Landing on a primary color $\Big($probability $1\Big)$ is $\boxed{\phantom{\text{certain}}}.$
+$\qquad$Landing on a primary color $\Big($probability $1\Big)$ is $\boxed{\phantom{\mathrm{certain}}}.$
 
 #### Explanation
 
@@ -170,11 +170,11 @@ A scientist records how long it takes for a chemical reaction to complete. The e
 
 Based on the experimental probabilities of these results, complete the following statements.
 
-$\qquad$A reaction completing in more than $30$ seconds is $\boxed{\phantom{\text{unlikely}}}.$
+$\qquad$A reaction completing in more than $30$ seconds is $\boxed{\phantom{\mathrm{unlikely}}}.$
 
-$\qquad$A reaction completing in less than $20$ seconds is $\boxed{\phantom{\text{as likely as not}}}.$
+$\qquad$A reaction completing in less than $20$ seconds is $\boxed{\phantom{\mathrm{as likely as not}}}.$
 
-$\qquad$A reaction completing in more than $30$ seconds is $\boxed{\phantom{\text{less likely than}}}$ a reaction completing in less than $20$ seconds.
+$\qquad$A reaction completing in more than $30$ seconds is $\boxed{\phantom{\mathrm{less likely than}}}$ a reaction completing in less than $20$ seconds.
 
 #### Explanation
 

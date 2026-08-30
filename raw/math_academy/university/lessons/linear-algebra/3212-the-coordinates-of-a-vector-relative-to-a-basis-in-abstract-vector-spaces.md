@@ -24,7 +24,7 @@ $$
 
 $$
 
-The set $\mathcal{B}=\big\{A_1, A_2 \big\}$ is a basis of the vector space $V = \textrm{Span}\big\{A_1, A_2 \big\}.$ Now, suppose that the coordinates of the matrix $C$ relative to $\mathcal{B}$ are
+The set $\mathcal{B}=\big\{A_1, A_2 \big\}$ is a basis of the vector space $V = \text{Span}\big\{A_1, A_2 \big\}.$ Now, suppose that the coordinates of the matrix $C$ relative to $\mathcal{B}$ are
 
 $$
 
@@ -36,7 +36,7 @@ $$
 
 Let's find the matrix $C$ using this information.
 
-As usual, any vector in $\textrm{Span}\big\{A_1, A_2 \big\}$ can be written as
+As usual, any vector in $\text{Span}\big\{A_1, A_2 \big\}$ can be written as
 
 $$
 
@@ -63,7 +63,7 @@ Therefore,
 $$
 
 
-\begin{aligned}𝐶 & =2⋅[\begin{aligned}3 & −1 \\ 0 & 5\end{aligned}]+4⋅[\begin{aligned}0 & 3 \\ 2 & −2\end{aligned}] \\ & =[\begin{aligned}6 & −2 \\ 0 & 10\end{aligned}]+[\begin{aligned}0 & 12 \\ 8 & −8\end{aligned}] \\ & =[\begin{aligned}6 & 10 \\ 8 & 2\end{aligned}].\end{aligned}
+\begin{aligned}𝐶 & =2⋅[\begin{matrix}3 & −1 \\ 0 & 5\end{matrix}]+4⋅[\begin{matrix}0 & 3 \\ 2 & −2\end{matrix}] \\ & =[\begin{matrix}6 & −2 \\ 0 & 10\end{matrix}]+[\begin{matrix}0 & 12 \\ 8 & −8\end{matrix}] \\ & =[\begin{matrix}6 & 10 \\ 8 & 2\end{matrix}].\end{aligned}
 
 
 $$
@@ -82,11 +82,11 @@ p_1(t)=3+2t, \qquad p_2(t)=-t+t^2.
 
 $$
 
-Find $p(t)$ given that $\mathcal{B}=\big\{p_1(t), p_2(t) \big\}$ is a basis of $\textrm{Span}\big\{p_1, p_2 \big\},$ and the coordinates of $p(t)$ relative to $\mathcal{B}$ are $[\begin{aligned}4 \\ −3\end{aligned}]$
+Find $p(t)$ given that $\mathcal{B}=\big\{p_1(t), p_2(t) \big\}$ is a basis of $\text{Span}\big\{p_1, p_2 \big\},$ and the coordinates of $p(t)$ relative to $\mathcal{B}$ are $[\begin{aligned}4 \\ −3\end{aligned}]$
 
 #### Explanation
 
-Any vector in $\textrm{Span}\big\{p_1, p_2 \big\}$ can be written as
+Any vector in $\text{Span}\big\{p_1, p_2 \big\}$ can be written as
 
 $$
 
@@ -130,7 +130,7 @@ $$
 
 $$
 
-If $\mathcal B = \{B_1,B_2\}$ is a basis of $\textrm{Span}\{B_1, B_2 \},$ calculate $[\begin{aligned}𝑥_{1} \\ 𝑥_{2}\end{aligned}]$
+If $\mathcal B = \{B_1,B_2\}$ is a basis of $\text{Span}\{B_1, B_2 \},$ calculate $[\begin{aligned}𝑥_{1} \\ 𝑥_{2}\end{aligned}]$
 
 #### Explanation
 
@@ -149,7 +149,7 @@ Substituting the given information into the above equation, we get
 $$
 
 
-\begin{aligned}𝑥_{1}[\begin{aligned}2 & 0 \\ 8 & −4\end{aligned}]+𝑥_{2}[\begin{aligned}−1 & 0 \\ −2 & 1\end{aligned}] & =[\begin{aligned}−5 & 0 \\ −2 & 1\end{aligned}] \\ [\begin{aligned}2𝑥_{1}−𝑥_{2} & 0 \\ 8𝑥_{1}−2𝑥_{2} & −4𝑥_{1}+𝑥_{2}\end{aligned}] & =[\begin{aligned}−5 & 0 \\ −2 & 1\end{aligned}].\end{aligned}
+\begin{aligned}𝑥_{1}[\begin{matrix}2 & 0 \\ 8 & −4\end{matrix}]+𝑥_{2}[\begin{matrix}−1 & 0 \\ −2 & 1\end{matrix}] & =[\begin{matrix}−5 & 0 \\ −2 & 1\end{matrix}] \\ [\begin{matrix}2𝑥_{1}−𝑥_{2} & 0 \\ 8𝑥_{1}−2𝑥_{2} & −4𝑥_{1}+𝑥_{2}\end{matrix}] & =[\begin{matrix}−5 & 0 \\ −2 & 1\end{matrix}].\end{aligned}
 
 
 $$
@@ -179,7 +179,7 @@ Row-reducing the matrix using Gaussian elimination, we obtain the following:
 $$
 
 
-\begin{aligned}𝑀= & \begin{aligned}2 & −1 & −5 \\ 8 & −2 & −2 \\ −4 & 1 & 1\end{aligned} & & \begin{aligned}𝑅_{2}:=𝑅_{2}+(−4)𝑅_{1} \\ 𝑅_{3}:=𝑅_{3}+2𝑅_{1}\end{aligned} \\ ∼ & \begin{aligned}2 & −1 & −5 \\ 0 & 2 & 18 \\ 0 & −1 & −9\end{aligned} & & \end{aligned}
+\begin{aligned}𝑀= & \begin{matrix}2 & −1 & −5 \\ 8 & −2 & −2 \\ −4 & 1 & 1\end{matrix} & & \begin{matrix}𝑅_{2}:=𝑅_{2}+(−4)𝑅_{1} \\ 𝑅_{3}:=𝑅_{3}+2𝑅_{1}\end{matrix} \\ ∼ & \begin{matrix}2 & −1 & −5 \\ 0 & 2 & 18 \\ 0 & −1 & −9\end{matrix} & & \end{aligned}
 
 
 $$
@@ -220,7 +220,7 @@ p_1(t)=5+t^2, \quad p_2(t)=3t-2t^2, \quad q(t)=5-3t+3t^2.
 
 $$
 
-If $\mathcal{B}=\{p_1(t), p_2(t) \}$ is a basis of $\textrm{Span}\big\{p_1(t), p_2(t) \big\},$ find $[q(t)]_{\mathcal{B}}.$
+If $\mathcal{B}=\{p_1(t), p_2(t) \}$ is a basis of $\text{Span}\big\{p_1(t), p_2(t) \big\},$ find $[q(t)]_{\mathcal{B}}.$
 
 #### Explanation
 
@@ -269,7 +269,7 @@ Row-reducing the matrix using Gaussian elimination, we obtain the following:
 $$
 
 
-\begin{aligned}𝑀= & \begin{aligned}5 & 0 & 5 \\ 0 & 3 & −3 \\ 1 & −2 & 3\end{aligned} & 𝑅_{3} & :=𝑅_{3}+(−\frac{1}{5})𝑅_{1} \\ ∼ & \begin{aligned}5 & 0 & 5 \\ 0 & 3 & −3 \\ 0 & −2 & 2\end{aligned} & 𝑅_{3} & :=𝑅_{3}+\frac{2}{3}𝑅_{2} \\ ∼ & \begin{aligned}5 & 0 & 5 \\ 0 & 3 & −3 \\ 0 & 0 & 0\end{aligned} & & \end{aligned}
+\begin{aligned}𝑀= & \begin{matrix}5 & 0 & 5 \\ 0 & 3 & −3 \\ 1 & −2 & 3\end{matrix} & 𝑅_{3} & :=𝑅_{3}+(−\frac{1}{5})𝑅_{1} \\ ∼ & \begin{matrix}5 & 0 & 5 \\ 0 & 3 & −3 \\ 0 & −2 & 2\end{matrix} & 𝑅_{3} & :=𝑅_{3}+\frac{2}{3}𝑅_{2} \\ ∼ & \begin{matrix}5 & 0 & 5 \\ 0 & 3 & −3 \\ 0 & 0 & 0\end{matrix} & & \end{aligned}
 
 
 $$

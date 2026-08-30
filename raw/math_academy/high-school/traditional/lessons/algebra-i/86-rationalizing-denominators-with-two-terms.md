@@ -42,7 +42,7 @@ Now, to rationalize the denominator, we start by multiplying both the numerator 
 $$
 
 
-\begin{aligned}\frac{1}{1+\sqrt{√2}} & = \\ \frac{1}{1+\sqrt{√2}}⋅\frac{1−\sqrt{√2}}{1−\sqrt{√2}} & = \\ \frac{1⋅(1−\sqrt{√2})}{(1+\sqrt{√2})(1−\sqrt{√2})} & = \\ \frac{1−\sqrt{√2}}{(1+\sqrt{√2})(1−\sqrt{√2})} & =\end{aligned}
+\begin{aligned}\frac{1}{1+\sqrt{2}} & = \\ \frac{1}{1+\sqrt{2}}⋅\frac{1−\sqrt{2}}{1−\sqrt{2}} & = \\ \frac{1⋅(1−\sqrt{2})}{(1+\sqrt{2})(1−\sqrt{2})} & = \\ \frac{1−\sqrt{2}}{(1+\sqrt{2})(1−\sqrt{2})} & =\end{aligned}
 
 
 $$
@@ -62,7 +62,7 @@ Applying the difference of squares formula with $a=1, b=\sqrt 2$ to simplify the
 $$
 
 
-\begin{aligned}\frac{1−\sqrt{√2}}{(1+\sqrt{√2})(1−\sqrt{√2})} & = \\ \frac{1−\sqrt{√2}}{1^{2}−(\sqrt{√2})^{2}} & = \\ \frac{1−\sqrt{√2}}{1−2} & = \\ \frac{1−\sqrt{√2}}{−1} & = \\ \sqrt{√2}−1. & \end{aligned}
+\begin{aligned}\frac{1−\sqrt{2}}{(1+\sqrt{2})(1−\sqrt{2})} & = \\ \frac{1−\sqrt{2}}{1^{2}−(\sqrt{2})^{2}} & = \\ \frac{1−\sqrt{2}}{1−2} & = \\ \frac{1−\sqrt{2}}{−1} & = \\ \sqrt{2}−1. & \end{aligned}
 
 
 $$
@@ -82,7 +82,7 @@ Now, to rationalize the denominator, we multiply both the numerator and denomina
 $$
 
 
-\begin{aligned} \dfrac {2}{\sqrt{3} - 1} &= \\\[5pt] \dfrac {2}{\sqrt{3} - 1} \cdot \dfrac {\sqrt{3} + 1} {\sqrt{3} + 1} &= \\\[5pt] \dfrac {2\left(\sqrt 3 + 1\right)} {\left(\sqrt{3}\right)^2 - 1^2} &= \\\[5pt] \dfrac {2\left(\sqrt 3 + 1\right)} {3 - 1} &= \\\[5pt] \dfrac {2\left(\sqrt 3 + 1\right)} {2} &= \\\[5pt] \sqrt 3 + 1 & \end{aligned}
+\begin{aligned} \dfrac {2}{\sqrt{3} - 1} &= \\[5pt] \dfrac {2}{\sqrt{3} - 1} \cdot \dfrac {\sqrt{3} + 1} {\sqrt{3} + 1} &= \\[5pt] \dfrac {2\left(\sqrt 3 + 1\right)} {\left(\sqrt{3}\right)^2 - 1^2} &= \\[5pt] \dfrac {2\left(\sqrt 3 + 1\right)} {3 - 1} &= \\[5pt] \dfrac {2\left(\sqrt 3 + 1\right)} {2} &= \\[5pt] \sqrt 3 + 1 & \end{aligned}
 
 
 $$
@@ -102,7 +102,7 @@ Now, to rationalize the denominator, we multiply both the numerator and denomina
 $$
 
 
-\begin{aligned}\frac{6}{\sqrt{√10}−\sqrt{√6}} & = \\ \frac{6}{\sqrt{√10}−\sqrt{√6}}⋅\frac{\sqrt{√10}+\sqrt{√6}}{\sqrt{√10}+\sqrt{√6}} & = \\ \frac{6(\sqrt{√10}+\sqrt{√6})}{(\sqrt{√10})^{2}−(\sqrt{√6})^{2}} & = \\ \frac{6(\sqrt{√10}+\sqrt{√6})}{10−6} & = \\ \frac{6(\sqrt{√10}+\sqrt{√6})}{4} & = \\ \frac{3(\sqrt{√10}+\sqrt{√6})}{2} & \end{aligned}
+\begin{aligned}\frac{6}{\sqrt{10}−\sqrt{6}} & = \\ \frac{6}{\sqrt{10}−\sqrt{6}}⋅\frac{\sqrt{10}+\sqrt{6}}{\sqrt{10}+\sqrt{6}} & = \\ \frac{6(\sqrt{10}+\sqrt{6})}{(\sqrt{10})^{2}−(\sqrt{6})^{2}} & = \\ \frac{6(\sqrt{10}+\sqrt{6})}{10−6} & = \\ \frac{6(\sqrt{10}+\sqrt{6})}{4} & = \\ \frac{3(\sqrt{10}+\sqrt{6})}{2} & \end{aligned}
 
 
 $$
@@ -122,7 +122,7 @@ Now, to rationalize the denominator, we multiply both the numerator and denomina
 $$
 
 
-\begin{aligned}\frac{2−\sqrt{√2}}{\sqrt{√2}+1} & = \\ \frac{2−\sqrt{√2}}{\sqrt{√2}+1}⋅\frac{\sqrt{√2}−1}{\sqrt{√2}−1} & = \\ \frac{(2−\sqrt{√2})(\sqrt{√2}−1)}{(\sqrt{√2}+1)(\sqrt{√2}−1)} & = \\ \frac{2\sqrt{√2}−2−(\sqrt{√2})^{2}+\sqrt{√2}}{(\sqrt{√2})^{2}−(1)^{2}} & = \\ \frac{2\sqrt{√2}−2−2+\sqrt{√2}}{2−1} & = \\ \frac{2\sqrt{√2}−4+\sqrt{√2}}{1} & = \\ 3\sqrt{√2}−4 & \end{aligned}
+\begin{aligned}\frac{2−\sqrt{2}}{\sqrt{2}+1} & = \\ \frac{2−\sqrt{2}}{\sqrt{2}+1}⋅\frac{\sqrt{2}−1}{\sqrt{2}−1} & = \\ \frac{(2−\sqrt{2})(\sqrt{2}−1)}{(\sqrt{2}+1)(\sqrt{2}−1)} & = \\ \frac{2\sqrt{2}−2−(\sqrt{2})^{2}+\sqrt{2}}{(\sqrt{2})^{2}−(1)^{2}} & = \\ \frac{2\sqrt{2}−2−2+\sqrt{2}}{2−1} & = \\ \frac{2\sqrt{2}−4+\sqrt{2}}{1} & = \\ 3\sqrt{2}−4 & \end{aligned}
 
 
 $$

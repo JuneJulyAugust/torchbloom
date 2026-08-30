@@ -15,33 +15,33 @@ Topic ID: 4198
 
 We determine how much space an object occupies by measuring its **volume**. We use **volume units** to specify an object's volume.
 
-A common metric unit of volume is the **liter,** which we denote using the symbol "$\textrm{L}$." We can use **measuring jugs** like the ones below to measure the volume of a liquid.
+A common metric unit of volume is the **liter,** which we denote using the symbol "$\text{L}$." We can use **measuring jugs** like the ones below to measure the volume of a liquid.
 
 ![Instructional graphic](../../../lesson-assets/grade-4/topic-4198/d3bab975b80eb989.png)
 
-We use **milliliters** to measure smaller volumes. The symbol for milliliters is "$\textrm{mL}.$" The prefix $\textrm m$ stands for **milli,** which means $\dfrac{1}{1\,000}.$ Therefore, $1\,\textrm{mL}$ equals $\dfrac{1}{1\,000}\,\textrm L.$
+We use **milliliters** to measure smaller volumes. The symbol for milliliters is "$\text{mL}.$" The prefix $\textrm m$ stands for **milli,** which means $\dfrac{1}{1\,000}.$ Therefore, $1\,\text{mL}$ equals $\dfrac{1}{1\,000}\,\textrm L.$
 
-Notice that if we add $1\,\textrm{mL}$ to itself $1\,000$ times, we get exactly $1\,\textrm{L}{:}$
-
-$$
-
-\begin{aligned}\overset{\overset{1\,mL+1\,mL+⋯+1\,mL}{}}{1\,000 times} & = \\ \frac{1}{1\,000}\,L+\frac{1}{1\,000}\,L+⋯+\frac{1}{1\,000}\,L & = \\ 1\,000×\frac{1}{1\,000}\,L & = \\ \frac{1\,000×1}{1\,000}\,L & = \\ \frac{1\,000}{1\,000}\,L & = \\ 1\,L & \end{aligned}
+Notice that if we add $1\,\text{mL}$ to itself $1\,000$ times, we get exactly $1\,\text{L}{:}$
 
 $$
 
-Therefore, $1\,000\,\textrm{mL}$ equals $1\,\textrm{L},$ as stated in the diagram.
+\begin{aligned}\overset{1\,mL+1\,mL+⋯+1\,mL}{1\,000 times} & = \\ \frac{1}{1\,000}\,L+\frac{1}{1\,000}\,L+⋯+\frac{1}{1\,000}\,L & = \\ 1\,000×\frac{1}{1\,000}\,L & = \\ \frac{1\,000×1}{1\,000}\,L & = \\ \frac{1\,000}{1\,000}\,L & = \\ 1\,L & \end{aligned}
+
+$$
+
+Therefore, $1\,000\,\text{mL}$ equals $1\,\text{L},$ as stated in the diagram.
 
 ### Example: Metric Units of Volume
 
 #### Question
 
-A large bottle of tempera paint has a volume of $1\,\textrm{L}.$ What is this volume in milliliters?
+A large bottle of tempera paint has a volume of $1\,\text{L}.$ What is this volume in milliliters?
 
 #### Explanation
 
 A table showing the metric units of volume is given below.
 
-So, $1\,\textrm{L}$ is equivalent to $1\,000\,\textrm{mL}.$
+So, $1\,\text{L}$ is equivalent to $1\,000\,\text{mL}.$
 
 ### Customary Units of Volume
 
@@ -81,4 +81,4 @@ A soap dispenser has a volume of $1$ pint. What is this volume in cups?
 
 A table showing the customary units of volume is given below.
 
-So, $1\,\textrm{pint}$ is equivalent to $2\,\textrm{cups}.$
+So, $1\,\text{pint}$ is equivalent to $2\,\text{cups}.$

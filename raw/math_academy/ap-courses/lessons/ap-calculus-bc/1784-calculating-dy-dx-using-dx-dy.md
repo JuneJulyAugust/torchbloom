@@ -110,7 +110,7 @@ First, we differentiate $x(y)$ with respect to $y{:}$
 $$
 
 
-\begin{aligned}\frac{d𝑥}{d𝑦} & =\frac{d}{d𝑦}(𝑦+2𝑦\sqrt{√𝑦}) \\ & =\frac{d}{d𝑦}(𝑦+2𝑦^{3/2}) \\ & =\frac{d}{d𝑦}(𝑦)+2\frac{d}{d𝑦}(𝑦^{3/2}) \\ & =1+2⋅(\frac{3}{2}𝑦^{1/2}) \\ & =1+3𝑦^{1/2} \\ & =1+3\sqrt{√𝑦}\end{aligned}
+\begin{aligned}\frac{d𝑥}{d𝑦} & =\frac{d}{d𝑦}(𝑦+2𝑦\sqrt{𝑦}) \\ & =\frac{d}{d𝑦}(𝑦+2𝑦^{3/2}) \\ & =\frac{d}{d𝑦}(𝑦)+2\frac{d}{d𝑦}(𝑦^{3/2}) \\ & =1+2⋅(\frac{3}{2}𝑦^{1/2}) \\ & =1+3𝑦^{1/2} \\ & =1+3\sqrt{𝑦}\end{aligned}
 
 
 $$
@@ -130,7 +130,7 @@ Finally, substituting the point $(3,1),$ we find
 $$
 
 
-\begin{aligned}\frac{d𝑦}{d𝑥}_{(𝑥,𝑦)=(3,1)} & =\frac{1}{1+3\sqrt{√1}}=\frac{1}{4}.\end{aligned}
+\begin{aligned}\frac{d𝑦}{d𝑥}_{(𝑥,𝑦)=(3,1)} & =\frac{1}{1+3\sqrt{1}}=\frac{1}{4}.\end{aligned}
 
 
 $$

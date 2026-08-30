@@ -18,26 +18,26 @@ Recall that if $X$ is a discrete random variable, the expected value of $X$ is g
 $$
 
 
-\textrm{E}[X] = \sum_{x} x\cdot P(X = x).
+\text{E}[X] = \sum_{x} x\cdot P(X = x).
 
 
 $$
 
-There is an alternative method for computing $\textrm{E}[X],$ which allows us to compute the expected value of a random variable by conditioning on another variable.
+There is an alternative method for computing $\text{E}[X],$ which allows us to compute the expected value of a random variable by conditioning on another variable.
 
-Suppose another discrete random variable $Y$ takes on a set of possible values. If we know $\textrm{E}[X \mid Y = y]$ for each value $y,$ then the **law of total expectation** states
-
-$$
-
-
-\textrm{E}[X] = \sum_{y} \textrm{E}[X \mid Y = y] \cdot P(Y = y).
-
+Suppose another discrete random variable $Y$ takes on a set of possible values. If we know $\text{E}[X \mid Y = y]$ for each value $y,$ then the **law of total expectation** states
 
 $$
 
-Conceptually, this tells us that $\textrm{E}[X]$ is just a weighted average of the conditional expectations $\textrm{E}[X \mid Y = y],$ where each weight is the probability $P(Y = y).$
 
-In many problems, directly computing $\textrm{E}[X]$ from the definition can be difficult. It turns out that breaking $\textrm{E}[X]$ up into conditional pieces often simplifies things. The law of total expectation is especially useful when $X$ depends on an underlying condition $Y,$ and each conditional case is easier to analyze than the full distribution of $X.$
+\text{E}[X] = \sum_{y} \text{E}[X \mid Y = y] \cdot P(Y = y).
+
+
+$$
+
+Conceptually, this tells us that $\text{E}[X]$ is just a weighted average of the conditional expectations $\text{E}[X \mid Y = y],$ where each weight is the probability $P(Y = y).$
+
+In many problems, directly computing $\text{E}[X]$ from the definition can be difficult. It turns out that breaking $\text{E}[X]$ up into conditional pieces often simplifies things. The law of total expectation is especially useful when $X$ depends on an underlying condition $Y,$ and each conditional case is easier to analyze than the full distribution of $X.$
 
 Let’s see how this works in practice with a few examples.
 
@@ -45,27 +45,27 @@ Let’s see how this works in practice with a few examples.
 
 Let $X$ and $Y$ be discrete random variables, where $Y$ takes values $\alpha$ and $\beta$ with probabilities $0.4$ and $0.6,$ respectively. Suppose we are given the following conditional expectations:
 
-- $\textrm{E}[X \mid Y = \alpha] = 7$
+- $\text{E}[X \mid Y = \alpha] = 7$
 
-- $\textrm{E}[X \mid Y = \beta] = 3$
+- $\text{E}[X \mid Y = \beta] = 3$
 
-Let's compute $\textrm{E}[X]$ using the law of total expectation.
+Let's compute $\text{E}[X]$ using the law of total expectation.
 
 The law of total expectation states
 
 $$
 
 
-\textrm{E}[X]= \sum_y \textrm{E} [X \mid Y = y] \cdot P(Y=y).
+\text{E}[X]= \sum_y \text{E} [X \mid Y = y] \cdot P(Y=y).
 
 
 $$
 
 In this problem, $Y$ takes two values:
 
-- $Y = \alpha$ with probability $0.4,$ and $\textrm{E}[X \mid Y = \alpha] = 7$
+- $Y = \alpha$ with probability $0.4,$ and $\text{E}[X \mid Y = \alpha] = 7$
 
-- $Y = \beta$ with probability $0.6,$ and $\textrm{E}[X \mid Y = \beta] = 3$
+- $Y = \beta$ with probability $0.6,$ and $\text{E}[X \mid Y = \beta] = 3$
 
 So, we calculate our expected value as follows:
 
@@ -86,12 +86,12 @@ Let $X$ and $Y$ be discrete random variables, where $Y$ takes values $u,$ $v,$ a
 $$
 
 
-\textrm{E}[X \mid Y=u] = 6, \quad \textrm{E}[X \mid Y=v] = 9, \quad \textrm{E}[X \mid Y=w] = 3.
+\text{E}[X \mid Y=u] = 6, \quad \text{E}[X \mid Y=v] = 9, \quad \text{E}[X \mid Y=w] = 3.
 
 
 $$
 
-What is $\textrm{E}[X]?$
+What is $\text{E}[X]?$
 
 #### Explanation
 
@@ -100,18 +100,18 @@ We are given the conditional expectations of $X$ given different values of anoth
 $$
 
 
-\textrm{E}[X] = \sum_y \textrm{E}[X \mid Y = y] \cdot P(Y = y).
+\text{E}[X] = \sum_y \text{E}[X \mid Y = y] \cdot P(Y = y).
 
 
 $$
 
 In this problem, $Y$ takes three values:
 
-- $Y = u$ with probability $0.2,$ and $\textrm{E}[X \mid Y = u] = 6$
+- $Y = u$ with probability $0.2,$ and $\text{E}[X \mid Y = u] = 6$
 
-- $Y = v$ with probability $0.5,$ and $\textrm{E}[X \mid Y = v] = 9$
+- $Y = v$ with probability $0.5,$ and $\text{E}[X \mid Y = v] = 9$
 
-- $Y = w$ with probability $0.3,$ and $\textrm{E}[X \mid Y = w] = 3$
+- $Y = w$ with probability $0.3,$ and $\text{E}[X \mid Y = w] = 3$
 
 So, we calculate our expected value as follows:
 
@@ -137,9 +137,9 @@ We are asked to compute the expected number of animal sightings the researcher r
 
 Let $X$ be the number of animal sightings in a day, and let $Y$ be the forest to which the researcher is assigned.
 
-- $Y = 1$ with probability $0.7,$ and $\textrm{E}[X \mid Y = 1] = 6.2.$
+- $Y = 1$ with probability $0.7,$ and $\text{E}[X \mid Y = 1] = 6.2.$
 
-- $Y = 2$ with probability $0.3,$ and $\textrm{E}[X \mid Y = 2] = 3.8.$
+- $Y = 2$ with probability $0.3,$ and $\text{E}[X \mid Y = 2] = 3.8.$
 
 So, we calculate our expected value as follows:
 
@@ -158,14 +158,14 @@ We’ve seen that the law of total expectation allows us to compute the expected
 $$
 
 
-\textrm{E}[X] = \textrm{E}[\textrm{E}[X \mid Y]]
+\text{E}[X] = \text{E}[\text{E}[X \mid Y]]
 
 
 $$
 
 At first glance, this may look abstract, so let’s unpack what it means.
 
-The inner term $\textrm{E}[X \mid Y]$ is itself a *random variable*—its value depends on the outcome of $Y.$ The outer expectation then takes the average of that conditional expectation over all possible values of $Y.$
+The inner term $\text{E}[X \mid Y]$ is itself a *random variable*—its value depends on the outcome of $Y.$ The outer expectation then takes the average of that conditional expectation over all possible values of $Y.$
 
 In other words, we are averaging $X$ in two stages:
 
@@ -182,19 +182,19 @@ Let $X$ and $Y$ be discrete random variables, and suppose
 $$
 
 
-\textrm{E}[X \mid Y] = \sqrt{3}\,Y + 1.
+\text{E}[X \mid Y] = \sqrt{3}\,Y + 1.
 
 
 $$
 
-If $\textrm{E}[Y] = \sqrt3,$ let's compute $\textrm{E}[X]$.
+If $\text{E}[Y] = \sqrt3,$ let's compute $\text{E}[X]$.
 
 This is a direct application of the tower property, which states that
 
 $$
 
 
-\textrm{E}[X] = \textrm{E}[\textrm{E}[X \mid Y]].
+\text{E}[X] = \text{E}[\text{E}[X \mid Y]].
 
 
 $$
@@ -204,7 +204,7 @@ So, we substitute the given expression for the inner expectation:
 $$
 
 
-\textrm{E}[X] = \textrm{E}\left[\sqrt{3}\,Y + 1\right]
+\text{E}[X] = \text{E}\left[\sqrt{3}\,Y + 1\right]
 
 
 $$
@@ -214,7 +214,7 @@ Now, we apply the linearity of expectation:
 $$
 
 
-\begin{aligned}E[𝑋] & =E[\sqrt{√3}\,𝑌+1] \\ & =\sqrt{√3}⋅E[𝑌]+E[1] \\ & =\sqrt{√3}⋅\sqrt{√3}+1 \\ & =4\end{aligned}
+\begin{aligned}E[𝑋] & =E[\sqrt{3}\,𝑌+1] \\ & =\sqrt{3}⋅E[𝑌]+E[1] \\ & =\sqrt{3}⋅\sqrt{3}+1 \\ & =4\end{aligned}
 
 
 $$
@@ -223,16 +223,16 @@ $$
 
 #### Question
 
-Let $Y$ be a discrete random variable, and suppose $\textrm{E}[X \mid Y] = 3Y + 2.$ If $\textrm{E}[X] = 20,$ what is $\textrm{E}[Y]?$
+Let $Y$ be a discrete random variable, and suppose $\text{E}[X \mid Y] = 3Y + 2.$ If $\text{E}[X] = 20,$ what is $\text{E}[Y]?$
 
 #### Explanation
 
-We are given an expression for $\textrm{E}[X \mid Y]$ in terms of $Y,$ and the value of $\textrm{E}[X].$ This is a direct application of the tower property, which states that
+We are given an expression for $\text{E}[X \mid Y]$ in terms of $Y,$ and the value of $\text{E}[X].$ This is a direct application of the tower property, which states that
 
 $$
 
 
-\textrm{E}[X] = \textrm{E}[\textrm{E}[X \mid Y]].
+\text{E}[X] = \text{E}[\text{E}[X \mid Y]].
 
 
 $$
@@ -242,7 +242,7 @@ So, we substitute the given expression for the inner expectation, which gives
 $$
 
 
-\textrm{E}[X] = \textrm{E}[3Y + 2].
+\text{E}[X] = \text{E}[3Y + 2].
 
 
 $$
@@ -257,7 +257,7 @@ $$
 
 $$
 
-We are told that $\textrm{E}[X] = 20,$ so we solve this equation as follows:
+We are told that $\text{E}[X] = 20,$ so we solve this equation as follows:
 
 $$
 
@@ -281,12 +281,12 @@ This is a two-step random process: first, a mana level $m$ is chosen uniformly f
 
 - Let $X$ be the cost of the spell selected, uniformly from $1$ to $Y.$
 
-We are asked to compute $\textrm{E}[X].$ Since the distribution of $X$ depends on $Y,$ we apply the tower property:
+We are asked to compute $\text{E}[X].$ Since the distribution of $X$ depends on $Y,$ we apply the tower property:
 
 $$
 
 
-\textrm{E}[X] = \textrm{E}[\textrm{E}[X \mid Y]]
+\text{E}[X] = \text{E}[\text{E}[X \mid Y]]
 
 
 $$
@@ -296,7 +296,7 @@ Given $Y = m,$ the value of $X$ is uniformly distributed on $\{1, 2, \dots, m\},
 $$
 
 
-\textrm{E}[X \mid Y = m] = \frac{m + 1}{2}.
+\text{E}[X \mid Y = m] = \frac{m + 1}{2}.
 
 
 $$
@@ -306,7 +306,7 @@ Therefore,
 $$
 
 
-\textrm{E}[X] = \textrm{E}\left[\frac{1 + Y}{2}\right].
+\text{E}[X] = \text{E}\left[\frac{1 + Y}{2}\right].
 
 
 $$
@@ -326,7 +326,7 @@ Since $Y$ is uniformly distributed on $\{1, 2, \dots, 201\},$ we compute
 $$
 
 
-\textrm{E}[Y] = \frac{1 + 201}{2} = 101.
+\text{E}[Y] = \frac{1 + 201}{2} = 101.
 
 
 $$
@@ -358,7 +358,7 @@ We start with the definition of expectation, given by
 $$
 
 
-\textrm{E}[X] = \sum_x x \cdot P(X = x).
+\text{E}[X] = \sum_x x \cdot P(X = x).
 
 
 $$
@@ -378,7 +378,7 @@ Substituting this expression into the expectation formula, we get
 $$
 
 
-\textrm{E}[X] = \sum_x x \left( P(X = x \mid Y = y_1) \cdot P(Y = y_1) + P(X = x \mid Y = y_2) \cdot P(Y = y_2) \right).
+\text{E}[X] = \sum_x x \left( P(X = x \mid Y = y_1) \cdot P(Y = y_1) + P(X = x \mid Y = y_2) \cdot P(Y = y_2) \right).
 
 
 $$
@@ -388,7 +388,7 @@ We can now distribute the sum across the two terms
 $$
 
 
-\textrm{E}[X] = P(Y = y_1) \cdot \sum_x x \cdot P(X = x \mid Y = y_1) + P(Y = y_2) \cdot \sum_x x \cdot P(X = x \mid Y = y_2).
+\text{E}[X] = P(Y = y_1) \cdot \sum_x x \cdot P(X = x \mid Y = y_1) + P(Y = y_2) \cdot \sum_x x \cdot P(X = x \mid Y = y_2).
 
 
 $$
@@ -408,7 +408,7 @@ So, we conclude that
 $$
 
 
-\boxed{\textrm{E}[X] = \textrm{E}[X \mid Y = y_1] \cdot P(Y = y_1) + \textrm{E}[X \mid Y = y_2] \cdot P(Y = y_2)},
+\boxed{\text{E}[X] = \text{E}[X \mid Y = y_1] \cdot P(Y = y_1) + \text{E}[X \mid Y = y_2] \cdot P(Y = y_2)},
 
 
 $$
@@ -424,7 +424,7 @@ Let $X$ and $Y$ be discrete random variables. Now, we want to prove that the tow
 $$
 
 
-\textrm{E}[X] = \textrm{E}[\textrm{E}[X \mid Y]]
+\text{E}[X] = \text{E}[\text{E}[X \mid Y]]
 
 
 $$
@@ -434,7 +434,7 @@ We start with the definition of expectation
 $$
 
 
-\textrm{E}[X] = \sum_x x \cdot P(X = x).
+\text{E}[X] = \sum_x x \cdot P(X = x).
 
 
 $$
@@ -454,7 +454,7 @@ Substituting this into the expectation formula, we get
 $$
 
 
-\textrm{E}[X] = \sum_x x \left( \sum_{y \in S_Y} P(X = x \mid Y = y) \cdot P(Y = y) \right).
+\text{E}[X] = \sum_x x \left( \sum_{y \in S_Y} P(X = x \mid Y = y) \cdot P(Y = y) \right).
 
 
 $$
@@ -464,17 +464,17 @@ We can now switch the order of summation:
 $$
 
 
-\textrm{E}[X] = \sum_{y \in S_Y} P(Y = y) \cdot \sum_x x \cdot P(X = x \mid Y = y)
+\text{E}[X] = \sum_{y \in S_Y} P(Y = y) \cdot \sum_x x \cdot P(X = x \mid Y = y)
 
 
 $$
 
-Each inner sum is just the conditional expectation $\textrm{E}[X \mid Y = y]{:}$
+Each inner sum is just the conditional expectation $\text{E}[X \mid Y = y]{:}$
 
 $$
 
 
-\sum_x x \cdot P(X = x \mid Y = y) = \textrm{E}[X \mid Y = y]
+\sum_x x \cdot P(X = x \mid Y = y) = \text{E}[X \mid Y = y]
 
 
 $$
@@ -484,17 +484,17 @@ So, we conclude that
 $$
 
 
-\textrm{E}[X] = \sum_{y \in S_Y} \textrm{E}[X \mid Y = y] \cdot P(Y = y).
+\text{E}[X] = \sum_{y \in S_Y} \text{E}[X \mid Y = y] \cdot P(Y = y).
 
 
 $$
 
-But this expression is just the definition of $\textrm{E}[\textrm{E}[X \mid Y]]$ for discrete $Y{:}$
+But this expression is just the definition of $\text{E}[\text{E}[X \mid Y]]$ for discrete $Y{:}$
 
 $$
 
 
-\textrm{E}[\textrm{E}[X \mid Y]] = \sum_{y \in S_Y} \textrm{E}[X \mid Y = y] \cdot P(Y = y)
+\text{E}[\text{E}[X \mid Y]] = \sum_{y \in S_Y} \text{E}[X \mid Y = y] \cdot P(Y = y)
 
 
 $$
@@ -504,7 +504,7 @@ Therefore, we have shown that
 $$
 
 
-\boxed{\textrm{E}[X] = \textrm{E}[\textrm{E}[X \mid Y]]},
+\boxed{\text{E}[X] = \text{E}[\text{E}[X \mid Y]]},
 
 
 $$

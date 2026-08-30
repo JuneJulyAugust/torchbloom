@@ -77,7 +77,7 @@ To factor the left-hand side, we need to find two numbers that multiply to $6$ a
 $$
 
 
-\begin{aligned} x^2 - 5x + 6 &= 0 \\\[5pt] x^2 \underbrace{-3x -2x}_{\large -5x} + 6 &= 0 \\\[5pt] x(x-3) - 2(x-3) &= 0 \\\[5pt] (x - 2)(x -3) &= 0 \end{aligned}
+\begin{aligned} x^2 - 5x + 6 &= 0 \\[5pt] x^2 \underbrace{-3x -2x}_{\large -5x} + 6 &= 0 \\[5pt] x(x-3) - 2(x-3) &= 0 \\[5pt] (x - 2)(x -3) &= 0 \end{aligned}
 
 
 $$

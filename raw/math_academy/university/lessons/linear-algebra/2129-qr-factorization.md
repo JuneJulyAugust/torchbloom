@@ -147,7 +147,7 @@ Now, we calculate the matrix $R\mathbin{:}$
 $$
 
 
-\begin{aligned}𝑅 & =𝑄^{𝑇}𝐴 \\ & =\begin{aligned}0 & \frac{1}{\sqrt{√2}} & −\frac{1}{\sqrt{√2}} \\ \frac{1}{\sqrt{√3}} & \frac{1}{\sqrt{√3}} & \frac{1}{\sqrt{√3}}\end{aligned}\begin{aligned}0 & 1 \\ 1 & 0 \\ −1 & 2\end{aligned} \\ & =[\begin{aligned}\sqrt{√2} & −\sqrt{√2} \\ 0 & \sqrt{√3}\end{aligned}].\end{aligned}
+\begin{aligned}𝑅 & =𝑄^{𝑇}𝐴 \\ & =\begin{matrix}0 & \frac{1}{\sqrt{2}} & −\frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{3}} & \frac{1}{\sqrt{3}} & \frac{1}{\sqrt{3}}\end{matrix}\begin{matrix}0 & 1 \\ 1 & 0 \\ −1 & 2\end{matrix} \\ & =[\begin{matrix}\sqrt{2} & −\sqrt{2} \\ 0 & \sqrt{3}\end{matrix}].\end{aligned}
 
 
 $$
@@ -199,7 +199,7 @@ To see why this is, we can take the transpose of both sides of $A=QR{:}$
 $$
 
 
-\begin{aligned}𝐴 & =𝑄𝑅 \\ 𝐴^{𝑇} & =(𝑄𝑅)^{𝑇} \\ 𝐴^{𝑇} & =𝑅^{𝑇}𝑄^{𝑇} \\ \overset{\overset\begin{aligned}−\,\,\,\, & 𝐚_{1} & \,\,\,\,− \\ −\,\,\,\, & 𝐚_{2} & \,\,\,\,− \\ −\,\,\,\, & 𝐚_{3} & \,\,\,\,−\end{aligned}}{}}{𝐴^{𝑇}} & =\overset{\overset\begin{aligned}2 & 0 & 0 \\ −9 & 3 & 0 \\ 8 & −4 & 4\end{aligned}}{}}{𝑅^{𝑇}}\overset{\overset\begin{aligned}−\,\,\,\, & 𝐪_{1} & \,\,\,\,− \\ −\,\,\,\, & 𝐪_{2} & \,\,\,\,− \\ −\,\,\,\, & 𝐪_{3} & \,\,\,\,−\end{aligned}}{}}{𝑄^{𝑇}}\end{aligned}
+\begin{aligned}𝐴 & =𝑄𝑅 \\ 𝐴^{𝑇} & =(𝑄𝑅)^{𝑇} \\ 𝐴^{𝑇} & =𝑅^{𝑇}𝑄^{𝑇} \\ \overset{\begin{matrix}−\,\,\,\, & 𝐚_{1} & \,\,\,\,− \\ −\,\,\,\, & 𝐚_{2} & \,\,\,\,− \\ −\,\,\,\, & 𝐚_{3} & \,\,\,\,−\end{matrix}}{𝐴^{𝑇}} & =\overset{\begin{matrix}2 & 0 & 0 \\ −9 & 3 & 0 \\ 8 & −4 & 4\end{matrix}}{𝑅^{𝑇}}\overset{\begin{matrix}−\,\,\,\, & 𝐪_{1} & \,\,\,\,− \\ −\,\,\,\, & 𝐪_{2} & \,\,\,\,− \\ −\,\,\,\, & 𝐪_{3} & \,\,\,\,−\end{matrix}}{𝑄^{𝑇}}\end{aligned}
 
 
 $$
@@ -291,7 +291,7 @@ $$
 $$
 
 
-\begin{aligned}𝐪_{1}=\frac{1}{3}\begin{aligned}1 \\ 2 \\ −2\end{aligned},\,𝐪_{2}=\frac{1}{\sqrt{√2}}\begin{aligned}0 \\ 1 \\ 1\end{aligned}.\end{aligned}
+\begin{aligned}𝐪_{1}=\frac{1}{3}\begin{matrix}1 \\ 2 \\ −2\end{matrix},\,𝐪_{2}=\frac{1}{\sqrt{2}}\begin{matrix}0 \\ 1 \\ 1\end{matrix}.\end{aligned}
 
 
 $$
@@ -301,7 +301,7 @@ $$
 $$
 
 
-\begin{aligned}𝑅=[\begin{aligned}6 & 3 \\ 0 & \sqrt{√2}\end{aligned}].\end{aligned}
+\begin{aligned}𝑅=[\begin{matrix}6 & 3 \\ 0 & \sqrt{2}\end{matrix}].\end{aligned}
 
 
 $$
@@ -337,7 +337,7 @@ Since the columns of $A$ are already orthogonal, to construct a matrix $Q,$ we s
 $$
 
 
-\begin{aligned}𝐪_{1} & =\frac{𝐚_{1}}{‖𝐚_{1}‖}=\frac{1}{\sqrt{√2}}\begin{aligned}1 \\ 0 \\ 1\end{aligned} \\ 𝐪_{2} & =\frac{𝐚_{2}}{‖𝐚_{2}‖}=\frac{1}{3}\begin{aligned}−2 \\ 1 \\ 2\end{aligned}\end{aligned}
+\begin{aligned}𝐪_{1} & =\frac{𝐚_{1}}{‖𝐚_{1}‖}=\frac{1}{\sqrt{2}}\begin{matrix}1 \\ 0 \\ 1\end{matrix} \\ 𝐪_{2} & =\frac{𝐚_{2}}{‖𝐚_{2}‖}=\frac{1}{3}\begin{matrix}−2 \\ 1 \\ 2\end{matrix}\end{aligned}
 
 
 $$
@@ -347,7 +347,7 @@ Now, pre-multiplying both sides of $A=QR$ by $Q^T,$ we obtain
 $$
 
 
-\begin{aligned}𝑅 & =𝑄^{𝑇}\,𝐴 \\ & =\begin{aligned}\frac{1}{\sqrt{√2}} & 0 & \frac{1}{\sqrt{√2}} \\ −\frac{2}{3} & \frac{1}{3} & \frac{2}{3}\end{aligned}\begin{aligned}1 & −2 \\ 0 & 1 \\ 1 & 2\end{aligned} \\ & =[\begin{aligned}\sqrt{√2} & 0 \\ 0 & 3\end{aligned}].\end{aligned}
+\begin{aligned}𝑅 & =𝑄^{𝑇}\,𝐴 \\ & =\begin{matrix}\frac{1}{\sqrt{2}} & 0 & \frac{1}{\sqrt{2}} \\ −\frac{2}{3} & \frac{1}{3} & \frac{2}{3}\end{matrix}\begin{matrix}1 & −2 \\ 0 & 1 \\ 1 & 2\end{matrix} \\ & =[\begin{matrix}\sqrt{2} & 0 \\ 0 & 3\end{matrix}].\end{aligned}
 
 
 $$
@@ -382,7 +382,7 @@ Consider the QR factorization of the matrix $A$ shown above. Given that the colu
 
 Let $\mathbf{a}_1,\mathbf{a}_2$ be the columns of $A.$
 
-First, we find an orthonormal basis of $\textrm{Col}(A)=\textrm{Span}\{\mathbf{a}_1,\mathbf{a}_2\}$ using the Gram-Schmidt process.
+First, we find an orthonormal basis of $\text{Col}(A)=\text{Span}\{\mathbf{a}_1,\mathbf{a}_2\}$ using the Gram-Schmidt process.
 
 ****. We set $\begin{aligned}1 \\ 2 \\ 1\end{aligned}$
 
@@ -391,7 +391,7 @@ First, we find an orthonormal basis of $\textrm{Col}(A)=\textrm{Span}\{\mathbf{a
 $$
 
 
-\begin{aligned}𝐯_{2} & =𝐚_{2}−proj_{𝐯_{1}}𝐚_{2} \\ & =𝐚_{2}−\frac{𝐚_{2}⋅𝐯_{1}}{𝐯_{1}⋅𝐯_{1}}𝐯_{1} \\ & =\begin{aligned}3 \\ 3 \\ 3\end{aligned}−\frac{12}{6}\begin{aligned}1 \\ 2 \\ 1\end{aligned} \\ & =\begin{aligned}3 \\ 3 \\ 3\end{aligned}−2\begin{aligned}1 \\ 2 \\ 1\end{aligned} \\ & =\begin{aligned}1 \\ −1 \\ 1\end{aligned}.\end{aligned}
+\begin{aligned}𝐯_{2} & =𝐚_{2}−proj_{𝐯_{1}}𝐚_{2} \\ & =𝐚_{2}−\frac{𝐚_{2}⋅𝐯_{1}}{𝐯_{1}⋅𝐯_{1}}𝐯_{1} \\ & =\begin{matrix}3 \\ 3 \\ 3\end{matrix}−\frac{12}{6}\begin{matrix}1 \\ 2 \\ 1\end{matrix} \\ & =\begin{matrix}3 \\ 3 \\ 3\end{matrix}−2\begin{matrix}1 \\ 2 \\ 1\end{matrix} \\ & =\begin{matrix}1 \\ −1 \\ 1\end{matrix}.\end{aligned}
 
 
 $$
@@ -401,7 +401,7 @@ Next, we normalize $\mathbf{v}_1$ and $\mathbf{v}_2\mathbin{:}$
 $$
 
 
-\begin{aligned}𝐪_{1} & =\frac{𝐯_{1}}{‖𝐯_{1}‖}=\frac{1}{\sqrt{√6}}\begin{aligned}1 \\ 2 \\ 1\end{aligned} \\ 𝐪_{2} & =\frac{𝐯_{2}}{‖𝐯_{2}‖}=\frac{1}{\sqrt{√3}}\begin{aligned}1 \\ −1 \\ 1\end{aligned}\end{aligned}
+\begin{aligned}𝐪_{1} & =\frac{𝐯_{1}}{‖𝐯_{1}‖}=\frac{1}{\sqrt{6}}\begin{matrix}1 \\ 2 \\ 1\end{matrix} \\ 𝐪_{2} & =\frac{𝐯_{2}}{‖𝐯_{2}‖}=\frac{1}{\sqrt{3}}\begin{matrix}1 \\ −1 \\ 1\end{matrix}\end{aligned}
 
 
 $$
@@ -411,7 +411,7 @@ Next, we compute $R\mathbin{:}$
 $$
 
 
-\begin{aligned}𝑅 & =𝑄^{𝑇}\,𝐴 \\ & =\begin{aligned}\frac{1}{\sqrt{√6}} & \frac{2}{\sqrt{√6}} & \frac{1}{\sqrt{√6}} \\ \frac{1}{\sqrt{√3}} & −\frac{1}{\sqrt{√3}} & \frac{1}{\sqrt{√3}}\end{aligned}\begin{aligned}1 & 3 \\ 2 & 3 \\ 1 & 3\end{aligned} \\ & =[\begin{aligned}\sqrt{√6} & 2\sqrt{√6} \\ 0 & \sqrt{√3}\end{aligned}].\end{aligned}
+\begin{aligned}𝑅 & =𝑄^{𝑇}\,𝐴 \\ & =\begin{matrix}\frac{1}{\sqrt{6}} & \frac{2}{\sqrt{6}} & \frac{1}{\sqrt{6}} \\ \frac{1}{\sqrt{3}} & −\frac{1}{\sqrt{3}} & \frac{1}{\sqrt{3}}\end{matrix}\begin{matrix}1 & 3 \\ 2 & 3 \\ 1 & 3\end{matrix} \\ & =[\begin{matrix}\sqrt{6} & 2\sqrt{6} \\ 0 & \sqrt{3}\end{matrix}].\end{aligned}
 
 
 $$

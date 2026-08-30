@@ -30,12 +30,12 @@ Let's use this formula to calculate the volume of the cylinder below:
 
 ![Instructional graphic](../../../../lesson-assets/integrated-math-ii-honors/topic-1144/43d1d550ae838141.png)
 
-For this cylinder, the radius $r = 3\,\textrm{cm}$ and the height $h = 5\,\textrm{cm}.$ Substituting these values into the formula for $V,$ we get
+For this cylinder, the radius $r = 3\,\text{cm}$ and the height $h = 5\,\text{cm}.$ Substituting these values into the formula for $V,$ we get
 
 $$
 
 
-V = \pi (3)^2 (5) = 45\pi\,\textrm{cm}^3.
+V = \pi (3)^2 (5) = 45\pi\,\text{cm}^3.
 
 
 $$
@@ -45,7 +45,7 @@ We often express the volume of a cylinder as a multiple of $\pi.$ However, we ca
 $$
 
 
-V\approx 141.37\,\textrm{cm}^3,
+V\approx 141.37\,\text{cm}^3,
 
 
 $$
@@ -56,7 +56,7 @@ rounded to two decimal places.
 
 #### Question
 
-Calculate the volume of a cylinder given that the circumference of the base is $10\pi \,\textrm{m}$ and the ratio of its height to its radius is $\dfrac{4}{5}.$
+Calculate the volume of a cylinder given that the circumference of the base is $10\pi \,\text{m}$ and the ratio of its height to its radius is $\dfrac{4}{5}.$
 
 #### Explanation
 
@@ -90,12 +90,12 @@ V = \pi r^2h .
 
 $$
 
-Substituting $r = 5\,\textrm{m}$ and $h = 4\,\textrm{m}$ into the formula, we get
+Substituting $r = 5\,\text{m}$ and $h = 4\,\text{m}$ into the formula, we get
 
 $$
 
 
-V = \pi(5)^2(4) = 100\pi\,\textrm{m}^3 .
+V = \pi(5)^2(4) = 100\pi\,\text{m}^3 .
 
 
 $$
@@ -104,7 +104,7 @@ $$
 
 #### Question
 
-Calculate the radius $r$ of the cylinder below given that its volume is $200\pi \,\textrm{mm}^3$ and its height is $2\,\textrm{mm}.$
+Calculate the radius $r$ of the cylinder below given that its volume is $200\pi \,\text{mm}^3$ and its height is $2\,\text{mm}.$
 
 ![Instructional graphic](../../../../lesson-assets/integrated-math-ii-honors/topic-1144/4565da2a259be665.png)
 
@@ -120,7 +120,7 @@ V = \pi r^2h.
 
 $$
 
-Substituting $V = 200\pi \,\textrm{mm}^3$ and $h = 2\,\textrm{mm}$ into the formula and solving for $r,$ we get
+Substituting $V = 200\pi \,\text{mm}^3$ and $h = 2\,\text{mm}$ into the formula and solving for $r,$ we get
 
 $$
 

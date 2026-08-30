@@ -96,7 +96,7 @@ Let's examine the rows of the table with missing parts in turn.
 
 - Consider row 2. From row 1, we have that $BM=CM$ Therefore, $\overline{BM} \cong \overline{CM}$ by the definition of congruent segments.
 
-- Consider row 5. From rows 3 and 4, we have that $AB=6\,\textrm{cm}=AC.$ Therefore, $AB=AC$ by the transitive property of equality.
+- Consider row 5. From rows 3 and 4, we have that $AB=6\,\text{cm}=AC.$ Therefore, $AB=AC$ by the transitive property of equality.
 
 - Consider row 7. Since every segment is congruent with itself, by the reflexive property of congruence, $\overline{AM} \cong \overline{AM}.$
 

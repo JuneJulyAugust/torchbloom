@@ -138,7 +138,7 @@ First, we note that since $X_i\sim U[0,5],$ we have
 $$
 
 
-\begin{aligned}𝑃(𝑋_{𝑖}<2) & =𝑃(0<𝑋_{𝑖}<2) \\ & =∫_{20}^{}𝑓(𝑥)\,d𝑥 \\ & =∫_{20}^{}\frac{1}{5}\,d𝑥 \\ & =\frac{2}{5}−0 \\ & =\frac{2}{5}.\end{aligned}
+\begin{aligned}𝑃(𝑋_{𝑖}<2) & =𝑃(0<𝑋_{𝑖}<2) \\ & =∫_{20}𝑓(𝑥)\,d𝑥 \\ & =∫_{20}\frac{1}{5}\,d𝑥 \\ & =\frac{2}{5}−0 \\ & =\frac{2}{5}.\end{aligned}
 
 
 $$
@@ -206,7 +206,7 @@ The probability that any one $X_i$ is less than $1$ is
 $$
 
 
-\begin{aligned}𝑃(𝑋_{𝑖}<1) & =𝑃(0<𝑋<1) \\ & =∫_{10}^{}𝑓(𝑥)\,d𝑥 \\ & =∫_{10}^{}\frac{𝑥}{2}\,d𝑥 \\ & =[\frac{𝑥^{2}}{4}]_{10}^{} \\ & =\frac{1}{4}.\end{aligned}
+\begin{aligned}𝑃(𝑋_{𝑖}<1) & =𝑃(0<𝑋<1) \\ & =∫_{10}𝑓(𝑥)\,d𝑥 \\ & =∫_{10}\frac{𝑥}{2}\,d𝑥 \\ & =[\frac{𝑥^{2}}{4}]_{10} \\ & =\frac{1}{4}.\end{aligned}
 
 
 $$
@@ -386,7 +386,7 @@ The cumulative distribution function (CDF) of the exponential distribution for $
 $$
 
 
-\begin{aligned}𝐹_{𝑋}(𝑥) & =𝑃(𝑋_{𝑖}≤𝑥) \\ & =∫_{𝑥0}^{}𝑓_{𝑋}(𝑡)\,d𝑡 \\ & =∫_{𝑥0}^{}𝑒^{−𝑡}\,d𝑡 \\ & =1−𝑒^{−𝑥}.\end{aligned}
+\begin{aligned}𝐹_{𝑋}(𝑥) & =𝑃(𝑋_{𝑖}≤𝑥) \\ & =∫_{𝑥0}𝑓_{𝑋}(𝑡)\,d𝑡 \\ & =∫_{𝑥0}𝑒^{−𝑡}\,d𝑡 \\ & =1−𝑒^{−𝑥}.\end{aligned}
 
 
 $$

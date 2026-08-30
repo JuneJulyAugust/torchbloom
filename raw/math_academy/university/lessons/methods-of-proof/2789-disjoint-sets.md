@@ -144,7 +144,7 @@ Therefore, the disjoint union is simply the union:
 $$
 
 
-\begin{aligned}{−1,1,\sqrt{√5}}⊔{𝑣,𝑤} & ={−1,1,\sqrt{√5}}∪{𝑣,𝑤} \\ & ={−1,1,\sqrt{√5},𝑣,𝑤}\end{aligned}
+\begin{aligned}{−1,1,\sqrt{5}}⊔{𝑣,𝑤} & ={−1,1,\sqrt{5}}∪{𝑣,𝑤} \\ & ={−1,1,\sqrt{5},𝑣,𝑤}\end{aligned}
 
 
 $$
@@ -200,7 +200,7 @@ So, for each of our sets, we form the associated set, where each element is tagg
 $$
 
 
-\begin{aligned} & 𝐴_{1} & & \,→\, & & 𝐴_{∗1}^{}={(7,1),(8,1)} \\ & 𝐴_{2} & & \,→\, & & 𝐴_{∗2}^{}={(2,2),(4,2),(8,2)}\end{aligned}
+\begin{aligned} & 𝐴_{1} & & \,→\, & & 𝐴_{∗1}={(7,1),(8,1)} \\ & 𝐴_{2} & & \,→\, & & 𝐴_{∗2}={(2,2),(4,2),(8,2)}\end{aligned}
 
 
 $$
@@ -210,7 +210,7 @@ Now, the disjoint union of our sets is simply the union of the associated tagged
 $$
 
 
-\begin{aligned}𝐴_{1}⊔𝐴_{2} & ={7,8}⊔{2,4,8} \\ & =𝐴_{∗1}^{}∪𝐴_{∗2}^{} \\ & ={(7,1),(8,1)}∪{(2,2),(4,2),(8,2)} \\ & ={(7,1),(8,1),(2,2),(4,2),(8,2)}\end{aligned}
+\begin{aligned}𝐴_{1}⊔𝐴_{2} & ={7,8}⊔{2,4,8} \\ & =𝐴_{∗1}∪𝐴_{∗2} \\ & ={(7,1),(8,1)}∪{(2,2),(4,2),(8,2)} \\ & ={(7,1),(8,1),(2,2),(4,2),(8,2)}\end{aligned}
 
 
 $$

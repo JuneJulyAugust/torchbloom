@@ -114,7 +114,7 @@ $$
 
 
 
-\begin{aligned} \dfrac 3 {2x} + \dfrac y x &= \\\[5pt] \dfrac 3 {2x} + \dfrac 2 2 \cdot \dfrac y x &= \\\[5pt] \dfrac 3 {2x} + \dfrac {2y} {2x} &= \\\[5pt] \dfrac {3 + 2y} {2x} \end{aligned}
+\begin{aligned} \dfrac 3 {2x} + \dfrac y x &= \\[5pt] \dfrac 3 {2x} + \dfrac 2 2 \cdot \dfrac y x &= \\[5pt] \dfrac 3 {2x} + \dfrac {2y} {2x} &= \\[5pt] \dfrac {3 + 2y} {2x} \end{aligned}
 
 
 

@@ -44,7 +44,7 @@ To see why, remember that we have $n$ choices for the first item, $n$ choices fo
 $$
 
 
-\underbrace{n \times n \times \cdots \times n}_{\large k \textrm{ times}} = n^k
+\underbrace{n \times n \times \cdots \times n}_{\large k \text{ times}} = n^k
 
 
 $$

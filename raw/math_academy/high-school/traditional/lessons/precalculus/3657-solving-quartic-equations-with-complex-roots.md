@@ -70,13 +70,13 @@ $$
 
 $$
 
-Therefore, the solutions to our original equation are $x=\pm 1$ and $x=3\pm 2\textrm{i}.$
+Therefore, the solutions to our original equation are $x=\pm 1$ and $x=3\pm 2\text{i}.$
 
 ### Example: Finding All the Roots of a Quartic Equation Given One Complex Root
 
 #### Question
 
-Given that $x=2\textrm{i}$ is a solution to the quartic equation $x^4 + 13 x^2 + 36 = 0$, find all of the solutions.
+Given that $x=2\text{i}$ is a solution to the quartic equation $x^4 + 13 x^2 + 36 = 0$, find all of the solutions.
 
 #### Explanation
 
@@ -88,7 +88,7 @@ $$
 
 
 
-\overline{x_1}=\overline{2\textrm{i}}=-2\text{i}
+\overline{x_1}=\overline{2\text{i}}=-2\text{i}
 
 
 
@@ -134,4 +134,4 @@ $$
 
 $$
 
-Therefore, the roots of our quartic equation are $x=\pm 2\textrm{i}, \, \pm 3 \textrm{i}.$
+Therefore, the roots of our quartic equation are $x=\pm 2\text{i}, \, \pm 3 \text{i}.$

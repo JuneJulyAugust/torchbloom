@@ -18,7 +18,7 @@ For example, suppose we want to compute
 $$
 
 
-\lim_\limits{x\rightarrow 2}f(x)
+\lim\limits_{x\rightarrow 2}f(x)
 
 
 $$
@@ -42,7 +42,7 @@ Both of these limits exist. However, they are *not* the same. Consequently, the 
 $$
 
 
-\lim_\limits{x\rightarrow 2}f(x)=\text{DNE}
+\lim\limits_{x\rightarrow 2}f(x)=\text{DNE}
 
 
 $$
@@ -51,7 +51,7 @@ $$
 
 #### Question
 
-Find $\lim_\limits{x\rightarrow 0}f(x)$ for the function $f(x)$ plotted below.
+Find $\lim\limits_{x\rightarrow 0}f(x)$ for the function $f(x)$ plotted below.
 
 ![Instructional graphic](../../../lesson-assets/ap-calculus-bc/topic-625/b01118db84280e6a.png)
 
@@ -62,7 +62,7 @@ From the graph, we see that as we approach $x=0$ from the left, the $y$ value ap
 $$
 
 
-\lim_\limits{x\rightarrow \,0^{-}}f(x)=2.
+\lim\limits_{x\rightarrow \,0^{-}}f(x)=2.
 
 
 $$
@@ -72,7 +72,7 @@ Similarly, when we approach $x=0$ from the right, the $y$ value again approaches
 $$
 
 
-\lim_\limits{x\rightarrow \,0^{+}}f(x)=2.
+\lim\limits_{x\rightarrow \,0^{+}}f(x)=2.
 
 
 $$
@@ -82,7 +82,7 @@ Since both the left and right-hand limits exist and are equal to $2,$ we conclud
 $$
 
 
-\lim_\limits{x\rightarrow \,0}f(x)=2.
+\lim\limits_{x\rightarrow \,0}f(x)=2.
 
 
 $$
@@ -91,7 +91,7 @@ $$
 
 #### Question
 
-The function $y=f(x)$ is defined on $x\in (1,5].$ Find $\lim_\limits{x\rightarrow \, 1}f(x)$ for the function.
+The function $y=f(x)$ is defined on $x\in (1,5].$ Find $\lim\limits_{x\rightarrow \, 1}f(x)$ for the function.
 
 ![Instructional graphic](../../../lesson-assets/ap-calculus-bc/topic-625/417c4321456980ca.png)
 
@@ -102,7 +102,7 @@ From the graph, we see that it is not possible to approach $x=1$ from the left. 
 $$
 
 
-\lim_\limits{x\rightarrow \,1^{-}}f(x)=\text{DNE}.
+\lim\limits_{x\rightarrow \,1^{-}}f(x)=\text{DNE}.
 
 
 $$
@@ -112,17 +112,17 @@ When we approach $x=1$ from the right, we have
 $$
 
 
-\lim_\limits{x\rightarrow \,1^{+}}f(x)=1.
+\lim\limits_{x\rightarrow \,1^{+}}f(x)=1.
 
 
 $$
 
-Since $\lim_\limits{x\rightarrow 1^-} f(x) \ne \lim_\limits{x\rightarrow 1^+} f(x),$ we conclude that
+Since $\lim\limits_{x\rightarrow 1^-} f(x) \ne \lim\limits_{x\rightarrow 1^+} f(x),$ we conclude that
 
 $$
 
 
-\lim_\limits{x\rightarrow \,1}f(x)=\text{DNE}.
+\lim\limits_{x\rightarrow \,1}f(x)=\text{DNE}.
 
 
 $$
@@ -133,11 +133,11 @@ $$
 
 Which of the following statements are true concerning the function $y=f(x)$ whose graph is shown below?
 
-1. $\lim_\limits{x\rightarrow \,2}f(x)=0$
+1. $\lim\limits_{x\rightarrow \,2}f(x)=0$
 
-2. $\lim_\limits{x\rightarrow \,1}f(x)=\text{DNE}$
+2. $\lim\limits_{x\rightarrow \,1}f(x)=\text{DNE}$
 
-3. $\lim_\limits{x\rightarrow \,-1}f(x)=\lim_\limits{x\rightarrow \,0}f(x)$
+3. $\lim\limits_{x\rightarrow \,-1}f(x)=\lim\limits_{x\rightarrow \,0}f(x)$
 
 ![Instructional graphic](../../../lesson-assets/ap-calculus-bc/topic-625/304a4c994842161d.png)
 
@@ -145,10 +145,10 @@ Which of the following statements are true concerning the function $y=f(x)$ whos
 
 Let's analyze each statement in turn.
 
-- Statement I is true. We see from the graph that $\lim_\limits{x\rightarrow \,2^-}f(x)=\lim_\limits{x\rightarrow \,2^+}f(x)=0$. Consequently, $\lim_\limits{x\rightarrow \,2}f(x)=0.$
+- Statement I is true. We see from the graph that $\lim\limits_{x\rightarrow \,2^-}f(x)=\lim\limits_{x\rightarrow \,2^+}f(x)=0$. Consequently, $\lim\limits_{x\rightarrow \,2}f(x)=0.$
 
-- Statement II is true. When approaching $x=1$ from the left and from the right, we get respectively. Since $\lim_\limits{x\rightarrow \,1^-}f(x)\ne\lim_\limits{x\rightarrow \,1^+}f(x),$ we conclude that $\lim_\limits{x\rightarrow \,1}f(x)=\text{DNE}.$
+- Statement II is true. When approaching $x=1$ from the left and from the right, we get respectively. Since $\lim\limits_{x\rightarrow \,1^-}f(x)\ne\lim\limits_{x\rightarrow \,1^+}f(x),$ we conclude that $\lim\limits_{x\rightarrow \,1}f(x)=\text{DNE}.$
 
-- Statement III is false. Both limits $\lim_\limits{x\rightarrow \,-1}f(x)$ and $\lim_\limits{x\rightarrow \,0}f(x)$ do not exist because the function $f(x)$ is not given in the interval $[-1,0)$. We ** say that the limits are equal because we can't compare the undefined values.
+- Statement III is false. Both limits $\lim\limits_{x\rightarrow \,-1}f(x)$ and $\lim\limits_{x\rightarrow \,0}f(x)$ do not exist because the function $f(x)$ is not given in the interval $[-1,0)$. We ** say that the limits are equal because we can't compare the undefined values.
 
 In conclusion, only statements I and II are true.

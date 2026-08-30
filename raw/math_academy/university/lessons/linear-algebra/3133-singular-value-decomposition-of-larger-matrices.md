@@ -58,7 +58,7 @@ Finally, we construct the matrices $U,$ $\Sigma,$ and $V\mathbin{:}$
 $$
 
 
-\begin{aligned}\frac{1}{\sqrt{√2}} & 0 & −\frac{1}{\sqrt{√2}} \\ 0 & 1 & 0 \\ \frac{1}{\sqrt{√2}} & 0 & \frac{1}{\sqrt{√2}}\end{aligned}
+\begin{aligned}\frac{1}{\sqrt{2}} & 0 & −\frac{1}{\sqrt{2}} \\ 0 & 1 & 0 \\ \frac{1}{\sqrt{2}} & 0 & \frac{1}{\sqrt{2}}\end{aligned}
 
 
 $$
@@ -100,7 +100,7 @@ Finally, we construct the matrix $V\mathbin{:}$
 $$
 
 
-\begin{aligned}−\frac{1}{\sqrt{√2}} & \frac{1}{\sqrt{√2}} \\ \frac{1}{\sqrt{√2}} & \frac{1}{\sqrt{√2}}\end{aligned}
+\begin{aligned}−\frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}}\end{aligned}
 
 
 $$
@@ -162,7 +162,7 @@ Solving this system, which is equivalent to
 $$
 
 
-\begin{aligned}−\frac{1}{\sqrt{√2}}𝑥_{2}+\frac{1}{\sqrt{√2}}𝑥_{3}=0 \\ −\frac{4}{3\sqrt{√2}}𝑥_{1}+\frac{1}{3\sqrt{√2}}𝑥_{2}+\frac{1}{3\sqrt{√2}}𝑥_{3}=0\end{aligned}
+\begin{aligned}−\frac{1}{\sqrt{2}}𝑥_{2}+\frac{1}{\sqrt{2}}𝑥_{3}=0 \\ −\frac{4}{3\sqrt{2}}𝑥_{1}+\frac{1}{3\sqrt{2}}𝑥_{2}+\frac{1}{3\sqrt{2}}𝑥_{3}=0\end{aligned}
 
 
 $$
@@ -182,7 +182,7 @@ Finally, we construct the matrix $U \mathbin{:}$
 $$
 
 
-\begin{aligned}0 & −\frac{4}{3\sqrt{√2}} & \frac{1}{3} \\ −\frac{1}{\sqrt{√2}} & \frac{1}{3\sqrt{√2}} & \frac{2}{3} \\ \frac{1}{\sqrt{√2}} & \frac{1}{3\sqrt{√2}} & \frac{2}{3}\end{aligned}
+\begin{aligned}0 & −\frac{4}{3\sqrt{2}} & \frac{1}{3} \\ −\frac{1}{\sqrt{2}} & \frac{1}{3\sqrt{2}} & \frac{2}{3} \\ \frac{1}{\sqrt{2}} & \frac{1}{3\sqrt{2}} & \frac{2}{3}\end{aligned}
 
 
 $$
@@ -250,7 +250,7 @@ Therefore, we can compute the $1$st column of $U$ as follows:
 $$
 
 
-\begin{aligned}𝐮_{1} & =\frac{1}{𝜎_{1}}𝐴𝐯_{1} \\ & =\frac{1}{\sqrt{√5}}\begin{aligned}1 & 0 \\ 2 & 0 \\ 0 & 0\end{aligned}[\begin{aligned}1 \\ 0\end{aligned}] \\ & =\frac{1}{\sqrt{√5}}\begin{aligned}1 \\ 2 \\ 0\end{aligned} \\ & =\begin{aligned}\frac{1}{\sqrt{√5}} \\ \frac{2}{\sqrt{√5}} \\ 0\end{aligned}\end{aligned}
+\begin{aligned}𝐮_{1} & =\frac{1}{𝜎_{1}}𝐴𝐯_{1} \\ & =\frac{1}{\sqrt{5}}\begin{matrix}1 & 0 \\ 2 & 0 \\ 0 & 0\end{matrix}[\begin{matrix}1 \\ 0\end{matrix}] \\ & =\frac{1}{\sqrt{5}}\begin{matrix}1 \\ 2 \\ 0\end{matrix} \\ & =\begin{matrix}\frac{1}{\sqrt{5}} \\ \frac{2}{\sqrt{5}} \\ 0\end{matrix}\end{aligned}
 
 
 $$
@@ -292,7 +292,7 @@ where $x_2$ and $x_3$ are free variables. Notice that the two linearly independe
 $$
 
 
-\begin{aligned}−\frac{2}{\sqrt{√5}} \\ \frac{1}{\sqrt{√5}} \\ 0\end{aligned}
+\begin{aligned}−\frac{2}{\sqrt{5}} \\ \frac{1}{\sqrt{5}} \\ 0\end{aligned}
 
 
 $$
@@ -302,7 +302,7 @@ Finally, we construct the matrix $U \mathbin{:}$
 $$
 
 
-\begin{aligned}\frac{1}{\sqrt{√5}} & −\frac{2}{\sqrt{√5}} & 0 \\ \frac{2}{\sqrt{√5}} & \frac{1}{\sqrt{√5}} & 0 \\ 0 & 0 & 1\end{aligned}
+\begin{aligned}\frac{1}{\sqrt{5}} & −\frac{2}{\sqrt{5}} & 0 \\ \frac{2}{\sqrt{5}} & \frac{1}{\sqrt{5}} & 0 \\ 0 & 0 & 1\end{aligned}
 
 
 $$
@@ -314,7 +314,7 @@ $$
 $$
 
 
-\begin{aligned}\sqrt{√2} & 0 \\ 1 & 0 \\ −1 & 0\end{aligned}
+\begin{aligned}\sqrt{2} & 0 \\ 1 & 0 \\ −1 & 0\end{aligned}
 
 
 $$
@@ -338,7 +338,7 @@ Therefore, we can compute the $1$st column of $U$ as follows:
 $$
 
 
-\begin{aligned}𝐮_{1} & =\frac{1}{𝜎_{1}}𝐴𝐯_{1} \\ & =\frac{1}{2}\begin{aligned}\sqrt{√2} & 0 \\ 1 & 0 \\ −1 & 0\end{aligned}[\begin{aligned}1 \\ 0\end{aligned}] \\ & =\frac{1}{2}\begin{aligned}\sqrt{√2} \\ 1 \\ −1\end{aligned} \\ & =\begin{aligned}\frac{\sqrt{√2}}{2} \\ \frac{1}{2} \\ −\frac{1}{2}\end{aligned}\end{aligned}
+\begin{aligned}𝐮_{1} & =\frac{1}{𝜎_{1}}𝐴𝐯_{1} \\ & =\frac{1}{2}\begin{matrix}\sqrt{2} & 0 \\ 1 & 0 \\ −1 & 0\end{matrix}[\begin{matrix}1 \\ 0\end{matrix}] \\ & =\frac{1}{2}\begin{matrix}\sqrt{2} \\ 1 \\ −1\end{matrix} \\ & =\begin{matrix}\frac{\sqrt{2}}{2} \\ \frac{1}{2} \\ −\frac{1}{2}\end{matrix}\end{aligned}
 
 
 $$
@@ -370,7 +370,7 @@ we get the general solution
 $$
 
 
-\begin{aligned}𝑥_{1} \\ 𝑥_{2} \\ \sqrt{√2}𝑥_{1}+𝑥_{2}\end{aligned}
+\begin{aligned}𝑥_{1} \\ 𝑥_{2} \\ \sqrt{2}𝑥_{1}+𝑥_{2}\end{aligned}
 
 
 $$
@@ -382,7 +382,7 @@ Notice that the two linearly independent solutions $\mathbf{b}_1$ and $\mathbf{b
 $$
 
 
-\begin{aligned}1 \\ 0 \\ \sqrt{√2}\end{aligned}
+\begin{aligned}1 \\ 0 \\ \sqrt{2}\end{aligned}
 
 
 $$
@@ -392,7 +392,7 @@ Then,
 $$
 
 
-\begin{aligned}𝐜_{2} & =𝐛_{2}−\frac{𝐛_{2}⋅𝐜_{1}}{𝐜_{1}⋅𝐜_{1}}𝐜_{1} \\ & =\begin{aligned}0 \\ 1 \\ 1\end{aligned}−\frac{\sqrt{√2}}{3}\begin{aligned}1 \\ 0 \\ \sqrt{√2}\end{aligned} \\ & =\frac{1}{3}\begin{aligned}−\sqrt{√2} \\ 3 \\ 1\end{aligned}.\end{aligned}
+\begin{aligned}𝐜_{2} & =𝐛_{2}−\frac{𝐛_{2}⋅𝐜_{1}}{𝐜_{1}⋅𝐜_{1}}𝐜_{1} \\ & =\begin{matrix}0 \\ 1 \\ 1\end{matrix}−\frac{\sqrt{2}}{3}\begin{matrix}1 \\ 0 \\ \sqrt{2}\end{matrix} \\ & =\frac{1}{3}\begin{matrix}−\sqrt{2} \\ 3 \\ 1\end{matrix}.\end{aligned}
 
 
 $$
@@ -402,7 +402,7 @@ Finally, normalizing the orthogonal vectors $\mathbf{c}_1$ and $\mathbf{c}_2,$ w
 $$
 
 
-\begin{aligned}\frac{1}{\sqrt{√3}} \\ 0 \\ \frac{\sqrt{√2}}{\sqrt{√3}}\end{aligned}
+\begin{aligned}\frac{1}{\sqrt{3}} \\ 0 \\ \frac{\sqrt{2}}{\sqrt{3}}\end{aligned}
 
 
 $$
@@ -412,7 +412,7 @@ So, the matrix $U$ could be the following:
 $$
 
 
-\begin{aligned}\frac{\sqrt{√2}}{2} & \frac{1}{\sqrt{√3}} & −\frac{\sqrt{√2}}{2\sqrt{√3}} \\ \frac{1}{2} & 0 & \frac{3}{2\sqrt{√3}} \\ −\frac{1}{2} & \frac{\sqrt{√2}}{\sqrt{√3}} & \frac{1}{2\sqrt{√3}}\end{aligned}
+\begin{aligned}\frac{\sqrt{2}}{2} & \frac{1}{\sqrt{3}} & −\frac{\sqrt{2}}{2\sqrt{3}} \\ \frac{1}{2} & 0 & \frac{3}{2\sqrt{3}} \\ −\frac{1}{2} & \frac{\sqrt{2}}{\sqrt{3}} & \frac{1}{2\sqrt{3}}\end{aligned}
 
 
 $$
@@ -460,7 +460,7 @@ Going through our usual process, we find that an SVD for $A^T$ is
 $$
 
 
-\begin{aligned}\frac{1}{\sqrt{√2}} & 0 & −\frac{1}{\sqrt{√2}} & 0 \\ 0 & 0 & 0 & 1 \\ \frac{1}{\sqrt{√2}} & 0 & \frac{1}{\sqrt{√2}} & 0 \\ 0 & 1 & 0 & 0\end{aligned}
+\begin{aligned}\frac{1}{\sqrt{2}} & 0 & −\frac{1}{\sqrt{2}} & 0 \\ 0 & 0 & 0 & 1 \\ \frac{1}{\sqrt{2}} & 0 & \frac{1}{\sqrt{2}} & 0 \\ 0 & 1 & 0 & 0\end{aligned}
 
 
 $$

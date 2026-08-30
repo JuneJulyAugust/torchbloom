@@ -17,15 +17,15 @@ We can use addition, subtraction, and multiplication to solve real-world multist
 
 For example, let's consider the following situation:
 
-*Bob cut $5$ pieces of rope from a larger rope. Each piece measured $8\,\textrm{in}$ long. If the remaining rope measures $20\,\textrm{in},$ how long was the rope before Bob cut it into pieces?*
+*Bob cut $5$ pieces of rope from a larger rope. Each piece measured $8\,\text{in}$ long. If the remaining rope measures $20\,\text{in},$ how long was the rope before Bob cut it into pieces?*
 
 Let's start by writing down the important information:
 
 - There are $5$ pieces.
 
-- Each piece is $8\,\textrm{in}$ long.
+- Each piece is $8\,\text{in}$ long.
 
-- The remaining rope measures ${\color{red}20}\,\textrm{in}.$
+- The remaining rope measures ${\color{red}20}\,\text{in}.$
 
 Let the length of the rope before it was cut be represented by the letter $L.$ This is the number we want to find.
 
@@ -35,9 +35,9 @@ We can visualize this info using the following diagram for the rope:
 
 Now, we can deduce the following:
 
-- There are $5$ pieces of rope, each of which is $8\,\textrm{in}$ long. Therefore, the total amount of rope that Bob cut measured
+- There are $5$ pieces of rope, each of which is $8\,\text{in}$ long. Therefore, the total amount of rope that Bob cut measured
 
-- The total length of the rope before cutting, $L$, equals the total length Bob cut (${\color{blue}{40}}\,\textrm{in}$) plus the remaining rope length (${\color{red}{20}}\,\textrm{in}$). Therefore, the length of the rope before it was cut, in inches, is
+- The total length of the rope before cutting, $L$, equals the total length Bob cut (${\color{blue}{40}}\,\text{in}$) plus the remaining rope length (${\color{red}{20}}\,\text{in}$). Therefore, the length of the rope before it was cut, in inches, is
 
 Calculating the final sum, we get
 
@@ -47,13 +47,13 @@ L = {\color{blue}{40}} + {\color{red}{20}} = 60.
 
 $$
 
-Therefore, the rope was $60\,\textrm{in}$ long before it was cut.
+Therefore, the rope was $60\,\text{in}$ long before it was cut.
 
 ### Example: Solving Problems Involving Multiplication Followed by Addition or Subtraction
 
 #### Question
 
-Olivia wants to pack $8$ toy blocks in a box. Each toy block weighs $42\,\textrm{g}$ and the box weighs $214\,\textrm{g}.$ What is the total weight of the box with the blocks inside?
+Olivia wants to pack $8$ toy blocks in a box. Each toy block weighs $42\,\text{g}$ and the box weighs $214\,\text{g}.$ What is the total weight of the box with the blocks inside?
 
 #### Explanation
 
@@ -61,15 +61,15 @@ Let's start by writing down the important information:
 
 - There are $8$ toy blocks.
 
-- Each toy block weighs $42\,\textrm{g}.$
+- Each toy block weighs $42\,\text{g}.$
 
-- The weight of the box is $214\,\textrm{g}.$
+- The weight of the box is $214\,\text{g}.$
 
 Let $W$ represent the total weight of the box with the blocks inside. This is the number we want to find.
 
-- There are $8$ toy blocks, and each toy block weighs $42\,\textrm{g}.$ Therefore, the total weight of the blocks (in grams) is
+- There are $8$ toy blocks, and each toy block weighs $42\,\text{g}.$ Therefore, the total weight of the blocks (in grams) is
 
-- The total weight, $W$, equals the weight calculated above $({\color{blue} 336}\,\textrm{g})$ plus the weight of the box $({\color{red}214}\,\textrm{g}).$ Therefore, the total weight of the box with the blocks inside (in grams) is
+- The total weight, $W$, equals the weight calculated above $({\color{blue} 336}\,\text{g})$ plus the weight of the box $({\color{red}214}\,\text{g}).$ Therefore, the total weight of the box with the blocks inside (in grams) is
 
 Calculating the final sum, we get
 
@@ -79,13 +79,13 @@ W = 336 + 214 = 550.
 
 $$
 
-Therefore, the total weight of the box with the blocks inside is $550\,\textrm{g}.$
+Therefore, the total weight of the box with the blocks inside is $550\,\text{g}.$
 
 ### Example: Solving Problems Involving Addition or Subtraction Followed by Multiplication
 
 #### Question
 
-On Monday, Nicholas ate $3$ donuts. On Tuesday, he ate $4$ more donuts than on Monday. If each donut weighs $28\,\textrm{g},$ how many grams of donuts did Nicholas eat on Tuesday?
+On Monday, Nicholas ate $3$ donuts. On Tuesday, he ate $4$ more donuts than on Monday. If each donut weighs $28\,\text{g},$ how many grams of donuts did Nicholas eat on Tuesday?
 
 #### Explanation
 
@@ -95,21 +95,21 @@ Let's start by writing down the important information:
 
 - On Tuesday, he ate $4$ more donuts than on Monday.
 
-- Each donut weighs $28\,\textrm{g}.$
+- Each donut weighs $28\,\text{g}.$
 
 Let $W$ be the weight of the donuts Nicholas ate on Tuesday, which is the number we want to find.
 
 - The number of donuts Nicholas ate on Tuesday is $4$ ** than the number of donuts he ate on Monday $(3).$ Therefore, the number of donuts Nicholas ate on Tuesday is
 
-- Nicholas ate ${\color{blue}7}$ donuts on Tuesday, and each donut weighs $28\,\textrm{g}.$ Therefore, the weight of the donuts Nicholas ate on Tuesday (in grams) is
+- Nicholas ate ${\color{blue}7}$ donuts on Tuesday, and each donut weighs $28\,\text{g}.$ Therefore, the weight of the donuts Nicholas ate on Tuesday (in grams) is
 
-Therefore, on Tuesday, Nicholas ate $196\,\textrm{g}$ of donuts.
+Therefore, on Tuesday, Nicholas ate $196\,\text{g}$ of donuts.
 
 ### Example: Solving Problems Involving Two Multiplications With Addition or Subtraction
 
 #### Question
 
-A chemistry teacher has $9$ vials, each containing $21\,\textrm{ml}$ of acid solution. He gives one vial to each of his $8$ students to perform an experiment. Each student uses $10\,\textrm{ml}$ of the acid solution. What is the total amount of acid solution left after the experiment?
+A chemistry teacher has $9$ vials, each containing $21\,\text{ml}$ of acid solution. He gives one vial to each of his $8$ students to perform an experiment. Each student uses $10\,\text{ml}$ of the acid solution. What is the total amount of acid solution left after the experiment?
 
 #### Explanation
 

@@ -46,7 +46,7 @@ Now, we can express the integral as follows:
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}(𝑥+2𝑦)\,d𝐴 & =\underset{\underset{(lower limit)}{∫}}{\overset{}{(upper limit)}}\underset{\underset{(left function)}{∫}}{\overset{}{(right function)}}(𝑥+2𝑦) d𝑥 d𝑦 \\ & =∫_{10}^{}[∫_{𝑒^{𝑦}0}^{}(𝑥+2𝑦) d𝑥] d𝑦\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}(𝑥+2𝑦)\,d𝐴 & =\underset{\underset{(lower limit)}{∫}}{\overset{}{(upper limit)}}\underset{\underset{(left function)}{∫}}{\overset{}{(right function)}}(𝑥+2𝑦) d𝑥 d𝑦 \\ & =∫_{10}[∫_{𝑒^{𝑦}0}^{}(𝑥+2𝑦) d𝑥] d𝑦\end{aligned}
 
 
 $$
@@ -72,7 +72,7 @@ First, let's represent $D$ as a type II region. Writing $y=\sqrt{x-2}$ and $y=1-
 $$
 
 
-\begin{aligned}𝑦=\sqrt{√𝑥−2} & \,⟹\,𝑥=𝑦^{2}+2 \\ 𝑦=1−𝑥 & \,⟹\,𝑥=1−𝑦\end{aligned}
+\begin{aligned}𝑦=\sqrt{𝑥−2} & \,⟹\,𝑥=𝑦^{2}+2 \\ 𝑦=1−𝑥 & \,⟹\,𝑥=1−𝑦\end{aligned}
 
 
 $$
@@ -96,7 +96,7 @@ Therefore, we can express the integral as follows:
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}(𝑥^{2}𝑦+𝑥𝑦^{2})\,d𝐴 & =∫_{10}^{}∫_{𝑦^{2}+21−𝑦}^{}(𝑥^{2}𝑦+𝑥𝑦^{2})\,d𝑥\,d𝑦\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}(𝑥^{2}𝑦+𝑥𝑦^{2})\,d𝐴 & =∫_{10}∫_{𝑦^{2}+21−𝑦}^{}(𝑥^{2}𝑦+𝑥𝑦^{2})\,d𝑥\,d𝑦\end{aligned}
 
 
 $$
@@ -118,7 +118,7 @@ We need to represent $D$ as a type II region. Writing $y=x^2$ and $y=3-2x$ in te
 $$
 
 
-\begin{aligned}𝑦=𝑥^{2} & \,⟹\,𝑥=\sqrt{√𝑦} \\ 𝑦=3−2𝑥 & \,⟹\,𝑥=\frac{3−𝑦}{2}\end{aligned}
+\begin{aligned}𝑦=𝑥^{2} & \,⟹\,𝑥=\sqrt{𝑦} \\ 𝑦=3−2𝑥 & \,⟹\,𝑥=\frac{3−𝑦}{2}\end{aligned}
 
 
 $$
@@ -146,7 +146,7 @@ Therefore, we can express the integral as follows:
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}𝑓(𝑥,𝑦)\,d𝐴 & =∫_{31}^{}∫_{\sqrt{√𝑦}(3−𝑦)/2}^{}𝑓(𝑥,𝑦)\,d𝑥\,d𝑦\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}𝑓(𝑥,𝑦)\,d𝐴 & =∫_{31}∫_{\sqrt{𝑦}(3−𝑦)/2}^{}𝑓(𝑥,𝑦)\,d𝑥\,d𝑦\end{aligned}
 
 
 $$
@@ -182,7 +182,7 @@ First, we evaluate the inner integral by integrating with respect to $x$, treati
 $$
 
 
-\begin{aligned}∫_{10}^{}[∫_{𝑒^{𝑦}0}^{}(𝑥+2) d𝑥]d𝑦 & =∫_{10}^{}[\frac{𝑥^{2}}{2}+2𝑥]_{𝑒^{𝑦}0}^{} d𝑦 \\ & =∫_{10}^{}(\frac{𝑒^{2𝑦}}{2}+2𝑒^{𝑦}) d𝑦\end{aligned}
+\begin{aligned}∫_{10}[∫_{𝑒^{𝑦}0}^{}(𝑥+2) d𝑥]d𝑦 & =∫_{10}[\frac{𝑥^{2}}{2}+2𝑥]_{𝑒^{𝑦}0}^{} d𝑦 \\ & =∫_{10}(\frac{𝑒^{2𝑦}}{2}+2𝑒^{𝑦}) d𝑦\end{aligned}
 
 
 $$
@@ -192,7 +192,7 @@ Then, we integrate with respect to $y\mathbin{:}$
 $$
 
 
-\begin{aligned}∫_{10}^{}(\frac{𝑒^{2𝑦}}{2}+2𝑒^{𝑦}) d𝑦 & =[\frac{𝑒^{2𝑦}}{4}+2𝑒^{𝑦}]_{10}^{} \\ & =\frac{𝑒^{2}}{4}+2𝑒−(\frac{𝑒^{0}}{4}+2𝑒^{0}) \\ & =\frac{1}{4}(𝑒^{2}+8𝑒−9)\end{aligned}
+\begin{aligned}∫_{10}(\frac{𝑒^{2𝑦}}{2}+2𝑒^{𝑦}) d𝑦 & =[\frac{𝑒^{2𝑦}}{4}+2𝑒^{𝑦}]_{10} \\ & =\frac{𝑒^{2}}{4}+2𝑒−(\frac{𝑒^{0}}{4}+2𝑒^{0}) \\ & =\frac{1}{4}(𝑒^{2}+8𝑒−9)\end{aligned}
 
 
 $$
@@ -212,7 +212,7 @@ First, we evaluate the inner integral by integrating with respect to $x$, treati
 $$
 
 
-\begin{aligned}∫_{\sqrt{√2𝜋}\sqrt{√𝜋}}^{}∫_{𝑦^{2}0}^{}\frac{sin⁡𝑦^{2}}{𝑦}\,d𝑥\,d𝑦 & =∫_{\sqrt{√2𝜋}\sqrt{√𝜋}}^{}\frac{sin⁡𝑦^{2}}{𝑦}[∫_{𝑦^{2}0}^{}d𝑥]\,d𝑦 \\ & =∫_{\sqrt{√2𝜋}\sqrt{√𝜋}}^{}\frac{sin⁡𝑦^{2}}{𝑦}[𝑥]_{𝑦^{2}0}^{}\,d𝑦 \\ & =∫_{\sqrt{√2𝜋}\sqrt{√𝜋}}^{}\frac{sin⁡𝑦^{2}}{𝑦}(𝑦^{2}−0)\,d𝑦 \\ & =∫_{\sqrt{√2𝜋}\sqrt{√𝜋}}^{}𝑦\,sin⁡𝑦^{2}\,d𝑦\end{aligned}
+\begin{aligned}∫_{\sqrt{2𝜋}\sqrt{𝜋}}^{}∫_{𝑦^{2}0}^{}\frac{sin⁡𝑦^{2}}{𝑦}\,d𝑥\,d𝑦 & =∫_{\sqrt{2𝜋}\sqrt{𝜋}}^{}\frac{sin⁡𝑦^{2}}{𝑦}[∫_{𝑦^{2}0}^{}d𝑥]\,d𝑦 \\ & =∫_{\sqrt{2𝜋}\sqrt{𝜋}}^{}\frac{sin⁡𝑦^{2}}{𝑦}[𝑥]_{𝑦^{2}0}^{}\,d𝑦 \\ & =∫_{\sqrt{2𝜋}\sqrt{𝜋}}^{}\frac{sin⁡𝑦^{2}}{𝑦}(𝑦^{2}−0)\,d𝑦 \\ & =∫_{\sqrt{2𝜋}\sqrt{𝜋}}^{}𝑦\,sin⁡𝑦^{2}\,d𝑦\end{aligned}
 
 
 $$
@@ -222,7 +222,7 @@ Then, we integrate with respect to $y\mathbin{:}$
 $$
 
 
-\begin{aligned}∫_{\sqrt{√2𝜋}\sqrt{√𝜋}}^{}𝑦sin⁡𝑦^{2}\,d𝑦 & =[−\frac{1}{2}cos⁡𝑦^{2}]_{\sqrt{√2𝜋}\sqrt{√𝜋}}^{} \\ & =−\frac{1}{2}(cos⁡2𝜋−cos⁡𝜋) \\ & =−1\end{aligned}
+\begin{aligned}∫_{\sqrt{2𝜋}\sqrt{𝜋}}^{}𝑦sin⁡𝑦^{2}\,d𝑦 & =[−\frac{1}{2}cos⁡𝑦^{2}]_{\sqrt{2𝜋}\sqrt{𝜋}}^{} \\ & =−\frac{1}{2}(cos⁡2𝜋−cos⁡𝜋) \\ & =−1\end{aligned}
 
 
 $$
@@ -242,7 +242,7 @@ Notice that $D$ is a type II region. Since $x \ge 0,$ we obtain the following eq
 $$
 
 
-\begin{aligned}𝑥^{2}+𝑦^{2}=4 & \,⟹\,𝑥=\sqrt{√4−𝑦^{2}} \\ 𝑥=0 & \,⟹\,𝑥=0\end{aligned}
+\begin{aligned}𝑥^{2}+𝑦^{2}=4 & \,⟹\,𝑥=\sqrt{4−𝑦^{2}} \\ 𝑥=0 & \,⟹\,𝑥=0\end{aligned}
 
 
 $$
@@ -280,7 +280,7 @@ First, we evaluate the inner integral by integrating with respect to $x$, treati
 $$
 
 
-\begin{aligned}∫_{2−1}^{}∫_{\sqrt{√4−𝑦^{2}}0}^{}\,𝑥𝑦^{2}\,d𝑥\,d𝑦 & =∫_{2−1}^{}𝑦^{2}[∫_{\sqrt{√4−𝑦^{2}}0}^{}𝑥\,d𝑥]\,d𝑦 \\ & =∫_{2−1}^{}𝑦^{2}[\frac{𝑥^{2}}{2}]_{\sqrt{√4−𝑦^{2}}0}^{}\,d𝑦 \\ & =∫_{2−1}^{}\frac{𝑦^{2}}{2}(4−𝑦^{2}−0)\,d𝑦 \\ & =∫_{2−1}^{}(2𝑦^{2}−\frac{𝑦^{4}}{2})\,d𝑦\end{aligned}
+\begin{aligned}∫_{2−1}∫_{\sqrt{4−𝑦^{2}}0}^{}\,𝑥𝑦^{2}\,d𝑥\,d𝑦 & =∫_{2−1}𝑦^{2}[∫_{\sqrt{4−𝑦^{2}}0}^{}𝑥\,d𝑥]\,d𝑦 \\ & =∫_{2−1}𝑦^{2}[\frac{𝑥^{2}}{2}]_{\sqrt{4−𝑦^{2}}0}^{}\,d𝑦 \\ & =∫_{2−1}\frac{𝑦^{2}}{2}(4−𝑦^{2}−0)\,d𝑦 \\ & =∫_{2−1}(2𝑦^{2}−\frac{𝑦^{4}}{2})\,d𝑦\end{aligned}
 
 
 $$
@@ -290,7 +290,7 @@ Then, we integrate with respect to $y\mathbin{:}$
 $$
 
 
-\begin{aligned}∫_{2−1}^{}(2𝑦^{2}−\frac{𝑦^{4}}{2})\,d𝑦 & =[\frac{2}{3}𝑦^{3}−\frac{𝑦^{5}}{10}]_{2−1}^{} \\ & =(\frac{16}{3}−\frac{32}{10})−(−\frac{2}{3}+\frac{1}{10}) \\ & =\frac{27}{10}\end{aligned}
+\begin{aligned}∫_{2−1}(2𝑦^{2}−\frac{𝑦^{4}}{2})\,d𝑦 & =[\frac{2}{3}𝑦^{3}−\frac{𝑦^{5}}{10}]_{2−1} \\ & =(\frac{16}{3}−\frac{32}{10})−(−\frac{2}{3}+\frac{1}{10}) \\ & =\frac{27}{10}\end{aligned}
 
 
 $$

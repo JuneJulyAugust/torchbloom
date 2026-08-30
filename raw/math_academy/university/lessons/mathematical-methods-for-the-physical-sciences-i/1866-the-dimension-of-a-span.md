@@ -15,7 +15,7 @@ There is something interesting about the bases of a vector space, summarized in 
 
 If the vector space $V$ has a basis with $n$ vectors, then any basis of $V$ has exactly $n$ vectors.
 
-The number $n$ of vectors in any basis of $V$ is called the **dimension of the space** $V$ and is denoted $\textrm{dim}(V).$
+The number $n$ of vectors in any basis of $V$ is called the **dimension of the space** $V$ and is denoted $\text{dim}(V).$
 
 For example, consider the linear span below:
 
@@ -32,14 +32,14 @@ We know that, in order to find a basis of the span, we start by creating a matri
 $$
 
 
-\begin{aligned}𝑀 & =\,\,[\begin{aligned}3 & −3 & −6 \\ −1 & 1 & 5\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+\frac{1}{3}𝑅_{1} \\ & ∼[\begin{aligned}3 & −3 & −6 \\ 0 & 0 & 3\end{aligned}] & & \end{aligned}
+\begin{aligned}𝑀 & =\,\,[\begin{matrix}3 & −3 & −6 \\ −1 & 1 & 5\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+\frac{1}{3}𝑅_{1} \\ & ∼[\begin{matrix}3 & −3 & −6 \\ 0 & 0 & 3\end{matrix}] & & \end{aligned}
 
 
 $$
 
 We see that the matrix above has two pivot columns: the $1$st and the $3$rd columns. This tells us that $\mathcal{B}=\{\mathbf{v}_1,\mathbf{v}_3 \}$ is a basis of $H.$
 
-Since $\mathcal{B}$ consists of two vectors, *any basis* of $H$ will also have *exactly* two vectors. So, we have $\textrm{dim}(H)=2.$
+Since $\mathcal{B}$ consists of two vectors, *any basis* of $H$ will also have *exactly* two vectors. So, we have $\text{dim}(H)=2.$
 
 ### Finite and Infinite-Dimensional Vector Spaces
 
@@ -74,7 +74,7 @@ We start by creating a matrix whose columns are made up of our vectors, and then
 $$
 
 
-\begin{aligned}\begin{aligned}1 & 1 & 1 \\ 0 & 1 & 1 \\ 0 & 0 & 0\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}1 & 1 & 1 \\ 0 & 1 & 1 \\ 0 & 0 & 0\end{matrix}\end{aligned}
 
 
 $$
@@ -112,7 +112,7 @@ We start by creating a matrix whose columns are made up of our vectors, and then
 $$
 
 
-\begin{aligned}𝑀 & =\,\,\begin{aligned}2 & −1 & 5 \\ −6 & 3 & −15 \\ 4 & −2 & 10\end{aligned} & 𝑅_{2} & :=𝑅_{2}+3𝑅_{1} \\ & ∼\begin{aligned}2 & −1 & 5 \\ 0 & 0 & 0 \\ 4 & −2 & 10\end{aligned} & 𝑅_{3} & :=𝑅_{3}+(−2)𝑅_{1} \\ & ∼\begin{aligned}2 & −1 & 5 \\ 0 & 0 & 0 \\ 0 & 0 & 0\end{aligned} & & \end{aligned}
+\begin{aligned}𝑀 & =\,\,\begin{matrix}2 & −1 & 5 \\ −6 & 3 & −15 \\ 4 & −2 & 10\end{matrix} & 𝑅_{2} & :=𝑅_{2}+3𝑅_{1} \\ & ∼\begin{matrix}2 & −1 & 5 \\ 0 & 0 & 0 \\ 4 & −2 & 10\end{matrix} & 𝑅_{3} & :=𝑅_{3}+(−2)𝑅_{1} \\ & ∼\begin{matrix}2 & −1 & 5 \\ 0 & 0 & 0 \\ 0 & 0 & 0\end{matrix} & & \end{aligned}
 
 
 $$
@@ -186,7 +186,7 @@ Therefore,
 $$
 
 
-\textrm{dim}(\mathbb{R}^n) = n.
+\text{dim}(\mathbb{R}^n) = n.
 
 
 $$

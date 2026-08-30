@@ -19,7 +19,7 @@ For example, suppose we want to evaluate the triple integral
 $$
 
 
-\displaystyle \iiint\limits_R x^2 + y^2 \:\textrm{d}V
+\displaystyle \iiint\limits_R x^2 + y^2 \:\text{d}V
 
 
 $$
@@ -77,7 +77,7 @@ When expressing our integral in cylindrical polar coordinates, we must write
 $$
 
 
-{\color{blue}{\textrm{d}V}} = {\color{blue}r \: \mathrm{d}z \, \mathrm{d}r \, \mathrm{d}\theta}.
+{\color{blue}{\text{d}V}} = {\color{blue}r \: \mathrm{d}z \, \mathrm{d}r \, \mathrm{d}\theta}.
 
 
 $$
@@ -89,7 +89,7 @@ Therefore, using the change of variables formula, we obtain
 $$
 
 
-\begin{aligned}\underset{𝑅}{∭}𝑥^{2}+𝑦^{2}\,d𝑉 & =\underset{Δ}{∭}((𝑟cos⁡𝜃)^{2}+(𝑟sin⁡𝜃)^{2})⋅𝑟\,d𝑧\,d𝑟\,d𝜃 \\ & =\underset{Δ}{∭}𝑟^{2}(cos^{2}⁡𝜃+sin^{2}⁡𝜃)⋅𝑟\,d𝑧\,d𝑟\,d𝜃 \\ & =∫_{2𝜋0}^{}∫_{10}^{}∫_{1−𝑟^{2}0}^{}𝑟^{3}\,d𝑧\,d𝑟\,d𝜃.\end{aligned}
+\begin{aligned}\underset{𝑅}{∭}𝑥^{2}+𝑦^{2}\,d𝑉 & =\underset{Δ}{∭}((𝑟cos⁡𝜃)^{2}+(𝑟sin⁡𝜃)^{2})⋅𝑟\,d𝑧\,d𝑟\,d𝜃 \\ & =\underset{Δ}{∭}𝑟^{2}(cos^{2}⁡𝜃+sin^{2}⁡𝜃)⋅𝑟\,d𝑧\,d𝑟\,d𝜃 \\ & =∫_{2𝜋0}∫_{10}∫_{1−𝑟^{2}0}^{}𝑟^{3}\,d𝑧\,d𝑟\,d𝜃.\end{aligned}
 
 
 $$
@@ -99,7 +99,7 @@ Evaluating this integral using the usual methods, we get
 $$
 
 
-\int_{0}^{2\pi} \int_{0}^{\boxed{\color{black}1}} \int_{0}^{\boxed{\color{black}1 - r^2 }} \boxed{\color{black} r^3} \: \mathrm{d}z \: \textrm{d}r \: \textrm{d}\theta = \dfrac{\pi}{6}
+\int_{0}^{2\pi} \int_{0}^{\boxed{\color{black}1}} \int_{0}^{\boxed{\color{black}1 - r^2 }} \boxed{\color{black} r^3} \: \mathrm{d}z \: \text{d}r \: \text{d}\theta = \dfrac{\pi}{6}
 
 
 $$
@@ -109,7 +109,7 @@ Therefore, we conclude that
 $$
 
 
-\displaystyle \iiint\limits_R x^2 + y^2 \:\textrm{d}V = \dfrac{\pi}{6}.
+\displaystyle \iiint\limits_R x^2 + y^2 \:\text{d}V = \dfrac{\pi}{6}.
 
 
 $$
@@ -123,7 +123,7 @@ The region $R$ is enclosed inside the cylinder $x^2 + y^2 = 4$ for $y \geq 0$ be
 $$
 
 
-\displaystyle \iiint\limits_R y \:\textrm{d}V
+\displaystyle \iiint\limits_R y \:\text{d}V
 
 
 $$
@@ -175,7 +175,7 @@ Therefore, using the change of variables formula, we obtain
 $$
 
 
-\begin{aligned}\underset{𝑅}{∭}𝑦\,d𝑉 & =\underset{Δ}{∭}(𝑟sin⁡𝜃)⋅𝑟\,d𝑧\,d𝑟\,d𝜃 \\ & =∫_{𝜋0}^{}∫_{20}^{}∫_{10−𝑟cos⁡𝜃0}^{}𝑟^{2}sin⁡𝜃\,d𝑧\,d𝑟\,d𝜃.\end{aligned}
+\begin{aligned}\underset{𝑅}{∭}𝑦\,d𝑉 & =\underset{Δ}{∭}(𝑟sin⁡𝜃)⋅𝑟\,d𝑧\,d𝑟\,d𝜃 \\ & =∫_{𝜋0}∫_{20}∫_{10−𝑟cos⁡𝜃0}𝑟^{2}sin⁡𝜃\,d𝑧\,d𝑟\,d𝜃.\end{aligned}
 
 
 $$
@@ -199,7 +199,7 @@ then express the triple integral
 $$
 
 
-\displaystyle \iiint\limits_R \sqrt{x^2 + y^2} \: \textrm{d}V
+\displaystyle \iiint\limits_R \sqrt{x^2 + y^2} \: \text{d}V
 
 
 $$
@@ -265,7 +265,7 @@ Therefore, using the change of variables formula, we obtain
 $$
 
 
-\begin{aligned}\underset{𝑅}{∭}\sqrt{√𝑥^{2}+𝑦^{2}}\,d𝑉 & =\underset{Δ}{∭}\sqrt{√(𝑟cos⁡𝜃)^{2}+(𝑟sin⁡𝜃)^{2}}\,𝑟\,d𝑧\,d𝑟\,d𝜃 \\ & =\underset{Δ}{∭}\sqrt{√𝑟^{2}(cos^{2}⁡𝜃+sin^{2}⁡𝜃)}\,𝑟\,d𝑧\,d𝑟\,d𝜃 \\ & =∫_{𝜋/2−𝜋/2}^{}∫_{2cos⁡𝜃0}^{}∫_{4−𝑟sin⁡𝜃−2}^{}𝑟^{2}\,d𝑧\,d𝑟\,d𝜃.\end{aligned}
+\begin{aligned}\underset{𝑅}{∭}\sqrt{𝑥^{2}+𝑦^{2}}\,d𝑉 & =\underset{Δ}{∭}\sqrt{(𝑟cos⁡𝜃)^{2}+(𝑟sin⁡𝜃)^{2}}\,𝑟\,d𝑧\,d𝑟\,d𝜃 \\ & =\underset{Δ}{∭}\sqrt{𝑟^{2}(cos^{2}⁡𝜃+sin^{2}⁡𝜃)}\,𝑟\,d𝑧\,d𝑟\,d𝜃 \\ & =∫_{𝜋/2−𝜋/2}∫_{2cos⁡𝜃0}∫_{4−𝑟sin⁡𝜃−2}𝑟^{2}\,d𝑧\,d𝑟\,d𝜃.\end{aligned}
 
 
 $$
@@ -279,7 +279,7 @@ Evaluate the triple integral
 $$
 
 
-\displaystyle \iiint\limits_R x+2y \:\textrm{d}V
+\displaystyle \iiint\limits_R x+2y \:\text{d}V
 
 
 $$
@@ -333,7 +333,7 @@ Therefore, using the change of variables formula, we obtain
 $$
 
 
-\begin{aligned}\underset{𝑅}{∭}𝑥+2𝑦\,d𝑉 & =\underset{Δ}{∭}(𝑟cos⁡𝜃+2𝑟sin⁡𝜃)\,𝑟\,d𝑧\,d𝑟\,d𝜃 \\ & =∫_{𝜋/20}^{}∫_{\sqrt{√5}0}^{}∫_{𝑟sin⁡𝜃+3𝑟sin⁡𝜃}^{}𝑟^{2}(cos⁡𝜃+2sin⁡𝜃)\,d𝑧\,d𝑟\,d𝜃 \\ & =∫_{𝜋/20}^{}∫_{\sqrt{√5}0}^{}𝑟^{2}(cos⁡𝜃+2sin⁡𝜃)[𝑧]_{𝑧=𝑟sin⁡𝜃+3𝑧=𝑟sin⁡𝜃}^{}\,d𝑟\,d𝜃 \\ & =∫_{𝜋/20}^{}∫_{\sqrt{√5}0}^{}𝑟^{2}(cos⁡𝜃+2sin⁡𝜃)(𝑟sin⁡𝜃+3−𝑟sin⁡𝜃)\,d𝑟\,d𝜃 \\ & =∫_{𝜋/20}^{}∫_{\sqrt{√5}0}^{}3𝑟^{2}(cos⁡𝜃+2sin⁡𝜃)\,d𝑟\,d𝜃 \\ & =∫_{𝜋/20}^{}[𝑟^{3}(cos⁡𝜃+2sin⁡𝜃)]_{𝑟=\sqrt{√5}𝑟=0}^{}\,d𝜃 \\ & =∫_{𝜋/20}^{}(\sqrt{√5})^{3}(cos⁡𝜃+2sin⁡𝜃)\,d𝜃 \\ & =∫_{𝜋/20}^{}5\sqrt{√5}(cos⁡𝜃+2sin⁡𝜃)\,d𝜃 \\ & =5\sqrt{√5}[sin⁡𝜃−2cos⁡𝜃]_{𝜃=𝜋/2𝜃=0}^{} \\ & =5\sqrt{√5}(1−0)−10\sqrt{√5}(0−1) \\ & =15\sqrt{√5}.\end{aligned}
+\begin{aligned}\underset{𝑅}{∭}𝑥+2𝑦\,d𝑉 & =\underset{Δ}{∭}(𝑟cos⁡𝜃+2𝑟sin⁡𝜃)\,𝑟\,d𝑧\,d𝑟\,d𝜃 \\ & =∫_{𝜋/20}∫_{\sqrt{5}0}^{}∫_{𝑟sin⁡𝜃+3𝑟sin⁡𝜃}𝑟^{2}(cos⁡𝜃+2sin⁡𝜃)\,d𝑧\,d𝑟\,d𝜃 \\ & =∫_{𝜋/20}∫_{\sqrt{5}0}^{}𝑟^{2}(cos⁡𝜃+2sin⁡𝜃)[𝑧]_{𝑧=𝑟sin⁡𝜃+3𝑧=𝑟sin⁡𝜃}\,d𝑟\,d𝜃 \\ & =∫_{𝜋/20}∫_{\sqrt{5}0}^{}𝑟^{2}(cos⁡𝜃+2sin⁡𝜃)(𝑟sin⁡𝜃+3−𝑟sin⁡𝜃)\,d𝑟\,d𝜃 \\ & =∫_{𝜋/20}∫_{\sqrt{5}0}^{}3𝑟^{2}(cos⁡𝜃+2sin⁡𝜃)\,d𝑟\,d𝜃 \\ & =∫_{𝜋/20}[𝑟^{3}(cos⁡𝜃+2sin⁡𝜃)]_{𝑟=\sqrt{5}𝑟=0}^{}\,d𝜃 \\ & =∫_{𝜋/20}(\sqrt{5})^{3}(cos⁡𝜃+2sin⁡𝜃)\,d𝜃 \\ & =∫_{𝜋/20}5\sqrt{5}(cos⁡𝜃+2sin⁡𝜃)\,d𝜃 \\ & =5\sqrt{5}[sin⁡𝜃−2cos⁡𝜃]_{𝜃=𝜋/2𝜃=0} \\ & =5\sqrt{5}(1−0)−10\sqrt{5}(0−1) \\ & =15\sqrt{5}.\end{aligned}
 
 
 $$

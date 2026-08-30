@@ -55,7 +55,7 @@ The volume of this rectangular solid is
 $$
 
 
-m_{11}\cdot \textrm{Area}(R_{11}) = \dfrac14m_{11}.
+m_{11}\cdot \text{Area}(R_{11}) = \dfrac14m_{11}.
 
 
 $$
@@ -105,7 +105,7 @@ The volume of the rectangular solid corresponding to each subregion $R_{ij}$ is 
 $$
 
 
-m_{ij}\cdot \textrm{Area}(R_{ij})
+m_{ij}\cdot \text{Area}(R_{ij})
 
 
 $$
@@ -117,7 +117,7 @@ So in our case, we have
 $$
 
 
-L = m_{11}\cdot \textrm{Area}(R_{11}) + m_{21}\cdot \textrm{Area}(R_{21}) + m_{12}\cdot \textrm{Area}(R_{12}) + m_{22}\cdot \textrm{Area}(R_{22}).
+L = m_{11}\cdot \text{Area}(R_{11}) + m_{21}\cdot \text{Area}(R_{21}) + m_{12}\cdot \text{Area}(R_{12}) + m_{22}\cdot \text{Area}(R_{22}).
 
 
 $$
@@ -127,7 +127,7 @@ Now, notice that
 $$
 
 
-\textrm{Area}(R_{11}) = \textrm{Area}(R_{21}) = 3
+\text{Area}(R_{11}) = \text{Area}(R_{21}) = 3
 
 
 $$
@@ -137,7 +137,7 @@ and
 $$
 
 
-\textrm{Area}(R_{12}) = \textrm{Area}(R_{22}) = 1.
+\text{Area}(R_{12}) = \text{Area}(R_{22}) = 1.
 
 
 $$
@@ -281,14 +281,14 @@ The lower Riemann sum $L(f,P)$ is given by
 $$
 
 
-L(f,P) = m_{11}\cdot\textrm{Area}(R_{11}) + m_{21}\cdot\textrm{Area}(R_{21}) + m_{12}\cdot\textrm{Area}(R_{12}) + m_{22}\cdot\textrm{Area}(R_{22})
+L(f,P) = m_{11}\cdot\text{Area}(R_{11}) + m_{21}\cdot\text{Area}(R_{21}) + m_{12}\cdot\text{Area}(R_{12}) + m_{22}\cdot\text{Area}(R_{22})
 
 
 $$
 
 where $m_{ij}$ is the minimum value of $f$ in each subregion $R_{ij}.$ We pick the ** value of $f$ because we're finding the ** sum.
 
-Taking into account the fact that $\textrm{Area}(R_{ij}) = 1$ for all $4$ subregions, the formula for $L(f,P)$ reduces to
+Taking into account the fact that $\text{Area}(R_{ij}) = 1$ for all $4$ subregions, the formula for $L(f,P)$ reduces to
 
 $$
 
@@ -357,14 +357,14 @@ The lower sum $L(f,P)$ is given by
 $$
 
 
-L(f,P) = m_{11}\cdot\textrm{Area}(R_{11}) + m_{21}\cdot\textrm{Area}(R_{21}) + m_{12}\cdot\textrm{Area}(R_{12}) + m_{22}\cdot\textrm{Area}(R_{22})
+L(f,P) = m_{11}\cdot\text{Area}(R_{11}) + m_{21}\cdot\text{Area}(R_{21}) + m_{12}\cdot\text{Area}(R_{12}) + m_{22}\cdot\text{Area}(R_{22})
 
 
 $$
 
 where $m_{ij}$ is the ** value of $f$ in each subregion $R_{ij}.$ We pick the ** value of $f$ because we're finding the ** sum.
 
-Taking into account the fact that $\textrm{Area}(R_{ij}) = 1$ for all $4$ subregions, the formula for $L(f,P)$ reduces to
+Taking into account the fact that $\text{Area}(R_{ij}) = 1$ for all $4$ subregions, the formula for $L(f,P)$ reduces to
 
 $$
 

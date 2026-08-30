@@ -45,7 +45,7 @@ $$
 
 
 
-\begin{aligned}tan^{2}⁡𝑥 & =\frac{1}{3} \\ tan⁡𝑥 & =±\sqrt{√\frac{1}{3}} \\ tan⁡𝑥 & =±\frac{\sqrt{√3}}{3}.\end{aligned}
+\begin{aligned}tan^{2}⁡𝑥 & =\frac{1}{3} \\ tan⁡𝑥 & =±\sqrt{\frac{1}{3}} \\ tan⁡𝑥 & =±\frac{\sqrt{3}}{3}.\end{aligned}
 
 
 
@@ -99,7 +99,7 @@ $$
 
 
 
-\begin{aligned}tan^{2}⁡𝑥 & =3 \\ tan⁡𝑥 & =±\sqrt{√3}\end{aligned}
+\begin{aligned}tan^{2}⁡𝑥 & =3 \\ tan⁡𝑥 & =±\sqrt{3}\end{aligned}
 
 
 
@@ -161,7 +161,7 @@ $$
 
 
 
-\begin{aligned}cot^{2}⁡𝑥 & =\frac{1}{25} \\ cot⁡𝑥 & =±\sqrt{√\frac{1}{25}} \\ cot⁡𝑥 & =±\frac{1}{5}.\end{aligned}
+\begin{aligned}cot^{2}⁡𝑥 & =\frac{1}{25} \\ cot⁡𝑥 & =±\sqrt{\frac{1}{25}} \\ cot⁡𝑥 & =±\frac{1}{5}.\end{aligned}
 
 
 

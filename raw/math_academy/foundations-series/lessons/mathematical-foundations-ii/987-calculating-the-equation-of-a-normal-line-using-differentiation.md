@@ -34,7 +34,7 @@ Since $y=x^2,$ we have $f(x)=x^2.$ We begin by calculating the derivative of $f(
 $$
 
 
-f'(x) = \dfrac {\textrm{d}}{\textrm{d}x}(x^2)= 2x
+f'(x) = \dfrac {\text{d}}{\text{d}x}(x^2)= 2x
 
 
 $$
@@ -172,7 +172,7 @@ Taking the derivative, we have
 $$
 
 
-\begin{aligned}𝑓^{′}(𝑥) & =\frac{d}{d𝑥}(2\sqrt{√𝑥}−4𝑥) \\ & =\frac{d}{d𝑥}(2𝑥^{1/2}−4𝑥) \\ & =𝑥^{−1/2}−4.\end{aligned}
+\begin{aligned}𝑓^{′}(𝑥) & =\frac{d}{d𝑥}(2\sqrt{𝑥}−4𝑥) \\ & =\frac{d}{d𝑥}(2𝑥^{1/2}−4𝑥) \\ & =𝑥^{−1/2}−4.\end{aligned}
 
 
 $$

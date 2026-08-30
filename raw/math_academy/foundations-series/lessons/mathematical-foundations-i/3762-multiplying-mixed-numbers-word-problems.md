@@ -14,7 +14,7 @@ Topic ID: 3762
 
 Multiplication of mixed fractions occurs regularly in real-life situations.
 
-For example, suppose that a country road is $5 \, \dfrac 12\,\textrm{km}$ long. If $\dfrac 35$ of it is paved with asphalt, how long is the paved part?
+For example, suppose that a country road is $5 \, \dfrac 12\,\text{km}$ long. If $\dfrac 35$ of it is paved with asphalt, how long is the paved part?
 
 To find out the length of the paved part of the road, we need to calculate $5 \, \dfrac{1}{2} \times \dfrac{3}{5}.$
 
@@ -43,12 +43,12 @@ Finally, by converting this fraction to a mixed number, we get
 $$
 
 
-33 \div 10 = 3\,\textrm{R}\,3 = 3\,\dfrac{3}{10}.
+33 \div 10 = 3\,\text{R}\,3 = 3\,\dfrac{3}{10}.
 
 
 $$
 
-So, the paved part of the road is $3\,\dfrac{3}{10}\,\textrm{km}$ long.
+So, the paved part of the road is $3\,\dfrac{3}{10}\,\text{km}$ long.
 
 ### Example: Multiplying Mixed Numbers by Whole Numbers
 
@@ -151,7 +151,7 @@ Finally, by converting this fraction to a mixed number, we get
 $$
 
 
-8\div 5 = 1\,\textrm{R} \, 3 = 1\,\dfrac{3}{5} \, .
+8\div 5 = 1\,\text{R} \, 3 = 1\,\dfrac{3}{5} \, .
 
 
 $$
@@ -162,7 +162,7 @@ So, $1\,\dfrac{3}{5}$ acres would be used to grow corn.
 
 #### Question
 
-A chocolate bar is made with $1\, \dfrac{1}{4}\,\textrm{oz}$ of cocoa. If Casey has $2\, \dfrac{2}{3}$ bars, how many ounces of cocoa did it take to make them?
+A chocolate bar is made with $1\, \dfrac{1}{4}\,\text{oz}$ of cocoa. If Casey has $2\, \dfrac{2}{3}$ bars, how many ounces of cocoa did it take to make them?
 
 #### Explanation
 
@@ -215,9 +215,9 @@ Finally, we write the resulting improper fraction as a mixed number:
 $$
 
 
-\dfrac{10}{3} =3\,\textrm{R}\, 1 = 3 \, \dfrac{1}{3}
+\dfrac{10}{3} =3\,\text{R}\, 1 = 3 \, \dfrac{1}{3}
 
 
 $$
 
-So, it took $3 \, \dfrac{1}{3}\,\textrm{oz}$ of cocoa to make Casey's chocolate bars.
+So, it took $3 \, \dfrac{1}{3}\,\text{oz}$ of cocoa to make Casey's chocolate bars.

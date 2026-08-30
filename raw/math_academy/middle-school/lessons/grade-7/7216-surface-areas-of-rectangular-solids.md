@@ -19,11 +19,11 @@ Let's calculate the surface area of the rectangular prism shown below:
 
 The surface area is made up of 6 faces, as follows:
 
-- the top and bottom faces each have area $4\,\textrm{cm}\times 2\,\textrm{cm} = 8\,\textrm{cm}^2$
+- the top and bottom faces each have area $4\,\text{cm}\times 2\,\text{cm} = 8\,\text{cm}^2$
 
-- the front and back faces each have area $4\,\textrm{cm}\times 3\,\textrm{cm} = 12\,\textrm{cm}^2$
+- the front and back faces each have area $4\,\text{cm}\times 3\,\text{cm} = 12\,\text{cm}^2$
 
-- the left and right faces each have area $2\,\textrm{cm}\times 3\,\textrm{cm} = 6\,\textrm{cm}^2$
+- the left and right faces each have area $2\,\text{cm}\times 3\,\text{cm} = 6\,\text{cm}^2$
 
 Therefore, the total surface area $S$ of the prism is
 
@@ -37,7 +37,7 @@ $$
 
 $$
 
-We conclude that the surface area of the rectangular prism is $52\,\textrm{cm}^2.$
+We conclude that the surface area of the rectangular prism is $52\,\text{cm}^2.$
 
 ### Deriving a General Formula for the Surface Area of a Rectangular Prism
 
@@ -131,7 +131,7 @@ $$
 
 It turns out, we can determine the dimensions of a prism given its surface area and some other dimensions.
 
-For example, let's determine the width of the rectangular solid below, given that its surface area is $100 \: \textrm{ft}^2.$
+For example, let's determine the width of the rectangular solid below, given that its surface area is $100 \: \text{ft}^2.$
 
 ![Instructional graphic](../../../lesson-assets/grade-7/topic-7216/649665bb7788698e.png)
 
@@ -173,13 +173,13 @@ $$
 
 $$
 
-Therefore, the width is $2 \: \textrm{ft}.$
+Therefore, the width is $2 \: \text{ft}.$
 
 ### Example: Finding a Dimension of a Rectangular Solid Given Its Surface Area and Other Dimensions
 
 #### Question
 
-The width and height of a rectangular prism are $5 \, \textrm {cm}$ and $4 \, \textrm{cm},$ respectively, and its surface area is $148 \, \textrm{cm}^2.$ What is the length of the prism?
+The width and height of a rectangular prism are $5 \, \textrm {cm}$ and $4 \, \text{cm},$ respectively, and its surface area is $148 \, \text{cm}^2.$ What is the length of the prism?
 
 #### Explanation
 
@@ -221,7 +221,7 @@ $$
 
 $$
 
-Therefore, the length of the prism is $6 \, \textrm{cm}.$
+Therefore, the length of the prism is $6 \, \text{cm}.$
 
 ### Lateral Surface Areas of Rectangular Solids
 
@@ -275,7 +275,7 @@ $$
 
 
 
-l = 4\: \textrm{mm}, \qquad w=5\: \textrm{mm}, \qquad h=2\: \textrm{mm}
+l = 4\: \text{mm}, \qquad w=5\: \text{mm}, \qquad h=2\: \text{mm}
 
 
 

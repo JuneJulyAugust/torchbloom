@@ -30,7 +30,7 @@ Adding the areas of the two rectangles, we get
 $$
 
 
-\begin{aligned}A & ≈\overset{\overset{\,\overset{\overset{𝑓(1.5)}{}}{height}\,⋅\,\underset{width}{\underset{}{1}}\,}{}}{1st rectangle}+\overset{\overset{\,\overset{\overset{𝑓(2.5)}{}}{height}\,⋅\,\underset{width}{\underset{}{1}}\,}{}}{2nd rectangle} \\ & =[(1+1.5^{2})⋅1]+[(1+2.5^{2})⋅1] \\ & =3.25+7.25 \\ & =10.5.\end{aligned}
+\begin{aligned}A & ≈\overset{\,\overset{𝑓(1.5)}{height}\,⋅\,\underset{width}{\underset{}{1}}\,}{}}{1st rectangle}+\overset{\,\overset{𝑓(2.5)}{height}\,⋅\,\underset{width}{\underset{}{1}}\,}{}}{2nd rectangle} \\ & =[(1+1.5^{2})⋅1]+[(1+2.5^{2})⋅1] \\ & =3.25+7.25 \\ & =10.5.\end{aligned}
 
 
 $$

@@ -95,7 +95,7 @@ which is a standard trigonometric integral. Therefore,
 $$
 
 
-\begin{aligned}∫_{𝜋/30}^{}\frac{sin⁡𝑥}{cos^{2}⁡𝑥}\,d𝑥 & =∫_{𝜋/30}^{}sec⁡𝑥tan⁡𝑥\,d𝑥 \\ & =sec⁡𝑥_{𝜋/30}^{} \\ & =sec⁡(\frac{𝜋}{3})−sec⁡(0) \\ & =2−1 \\ & =1.\end{aligned}
+\begin{aligned}∫_{𝜋/30}\frac{sin⁡𝑥}{cos^{2}⁡𝑥}\,d𝑥 & =∫_{𝜋/30}sec⁡𝑥tan⁡𝑥\,d𝑥 \\ & =sec⁡𝑥_{𝜋/30} \\ & =sec⁡(\frac{𝜋}{3})−sec⁡(0) \\ & =2−1 \\ & =1.\end{aligned}
 
 
 $$
@@ -125,7 +125,7 @@ Let $u=\cos 2x.$ Then
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x}=-2 \sin 2x \quad\Longrightarrow\quad -\dfrac 1 2 \,\textrm d u= \sin 2x \, \textrm d x.
+\dfrac{\text{d}u}{\text{d}x}=-2 \sin 2x \quad\Longrightarrow\quad -\dfrac 1 2 \,\textrm d u= \sin 2x \, \textrm d x.
 
 
 $$

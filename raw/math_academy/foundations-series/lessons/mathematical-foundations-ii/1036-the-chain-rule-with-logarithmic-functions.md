@@ -75,7 +75,7 @@ Differentiating gives
 $$
 
 
-\dfrac{\textrm d f}{\textrm d u} = \dfrac{1}{u},\qquad \dfrac{\textrm{d}u}{\textrm d x} = 2x.
+\dfrac{\textrm d f}{\textrm d u} = \dfrac{1}{u},\qquad \dfrac{\text{d}u}{\textrm d x} = 2x.
 
 
 $$

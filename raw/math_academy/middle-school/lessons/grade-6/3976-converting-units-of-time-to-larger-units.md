@@ -17,13 +17,13 @@ In previous lessons, we explored converting larger units of time to smaller ones
 
 To convert between units of time, we use the following unit conversions:
 
-- $1 \textrm{week} = 7 \,\textrm{days}$
+- $1 \text{week} = 7 \,\text{days}$
 
-- $1 \,\textrm{day} = 24 \,\textrm{hours}$
+- $1 \,\text{day} = 24 \,\text{hours}$
 
-- $1 \,\textrm{hour} = 60 \,\textrm{minutes}$
+- $1 \,\text{hour} = 60 \,\text{minutes}$
 
-- $1 \,\textrm{minute} = 60 \,\textrm{seconds}$
+- $1 \,\text{minute} = 60 \,\text{seconds}$
 
 Time is typically measured using clocks, and we can use clocks to visualize equivalent units of time.
 
@@ -43,7 +43,7 @@ $$
 
 
 
-1\, \textrm{week} = 7 \, \textrm{days}
+1\, \text{week} = 7 \, \text{days}
 
 
 
@@ -55,7 +55,7 @@ $$
 
 
 
-\dfrac{1}{7} \, \textrm{weeks} = 1 \, \textrm{day}
+\dfrac{1}{7} \, \text{weeks} = 1 \, \text{day}
 
 
 
@@ -89,7 +89,7 @@ $$
 
 
 
-1\, \textrm{week} = 7 \, \textrm{days}
+1\, \text{week} = 7 \, \text{days}
 
 
 
@@ -101,7 +101,7 @@ $$
 
 
 
-\dfrac{1}{7} \, \textrm{weeks} = 1 \, \textrm{day}
+\dfrac{1}{7} \, \text{weeks} = 1 \, \text{day}
 
 
 
@@ -135,7 +135,7 @@ $$
 
 
 
-1\, \textrm{hour} = 60 \, \textrm{minutes}
+1\, \text{hour} = 60 \, \text{minutes}
 
 
 
@@ -147,7 +147,7 @@ $$
 
 
 
-\dfrac{1}{60} \, \textrm{hours} = 1 \, \textrm{minute}
+\dfrac{1}{60} \, \text{hours} = 1 \, \text{minute}
 
 
 
@@ -181,7 +181,7 @@ $$
 
 
 
-1\, \textrm{minute} = 60 \, \textrm{seconds}
+1\, \text{minute} = 60 \, \text{seconds}
 
 
 
@@ -193,7 +193,7 @@ $$
 
 
 
-\dfrac{1}{60} \, \textrm{minutes} = 1 \, \textrm{second}
+\dfrac{1}{60} \, \text{minutes} = 1 \, \text{second}
 
 
 

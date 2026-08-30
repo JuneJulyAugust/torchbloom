@@ -63,7 +63,7 @@ and in column vector notation, we have
 $$
 
 
-\begin{aligned}\begin{aligned}7 \\ 3 \\ 5\end{aligned}+\begin{aligned}−2 \\ 5 \\ 3\end{aligned}=\begin{aligned}7+(−2) \\ 3+5 \\ 5+3\end{aligned}=\begin{aligned}5 \\ 8 \\ 8\end{aligned}.\end{aligned}
+\begin{aligned}\begin{matrix}7 \\ 3 \\ 5\end{matrix}+\begin{matrix}−2 \\ 5 \\ 3\end{matrix}=\begin{matrix}7+(−2) \\ 3+5 \\ 5+3\end{matrix}=\begin{matrix}5 \\ 8 \\ 8\end{matrix}.\end{aligned}
 
 
 $$
@@ -85,7 +85,7 @@ and in column vector notation, we have
 $$
 
 
-\begin{aligned}3⋅\begin{aligned}7 \\ 3 \\ 5\end{aligned}=\begin{aligned}3⋅7 \\ 3⋅3 \\ 3⋅5\end{aligned}=\begin{aligned}21 \\ 9 \\ 15\end{aligned}.\end{aligned}
+\begin{aligned}3⋅\begin{matrix}7 \\ 3 \\ 5\end{matrix}=\begin{matrix}3⋅7 \\ 3⋅3 \\ 3⋅5\end{matrix}=\begin{matrix}21 \\ 9 \\ 15\end{matrix}.\end{aligned}
 
 
 $$
@@ -157,7 +157,7 @@ To compute $\mathbf{a}-(\mathbf{b}-\mathbf{c}),$ we just need to perform the req
 $$
 
 
-\begin{aligned}𝐚−(𝐛−𝐜) & =\begin{aligned}3 \\ 1 \\ −2\end{aligned}−\begin{aligned}1 \\ 1 \\ −1\end{aligned}−\begin{aligned}−1 \\ 2 \\ 4\end{aligned} \\ & =\begin{aligned}3 \\ 1 \\ −2\end{aligned}−\begin{aligned}2 \\ −1 \\ −5\end{aligned} \\ & =\begin{aligned}1 \\ 2 \\ 3\end{aligned}\end{aligned}
+\begin{aligned}𝐚−(𝐛−𝐜) & =\begin{matrix}3 \\ 1 \\ −2\end{matrix}−\begin{matrix}1 \\ 1 \\ −1\end{matrix}−\begin{matrix}−1 \\ 2 \\ 4\end{matrix} \\ & =\begin{matrix}3 \\ 1 \\ −2\end{matrix}−\begin{matrix}2 \\ −1 \\ −5\end{matrix} \\ & =\begin{matrix}1 \\ 2 \\ 3\end{matrix}\end{aligned}
 
 
 $$

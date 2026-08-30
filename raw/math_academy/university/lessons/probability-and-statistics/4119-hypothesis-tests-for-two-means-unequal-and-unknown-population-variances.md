@@ -51,7 +51,7 @@ In most practical situations, the population variances $\sigma_x^2$ and $\sigma_
 $$
 
 
-\begin{aligned}𝑇 & =\frac{(\overset{𝑋}{}−\overset{𝑌}{})−(𝜇_{𝑥}−𝜇_{𝑦})}{\sqrt{√\frac{𝑆_{2𝑥}^{}}{𝑛_{𝑥}}+\frac{𝑆_{2𝑦}^{}}{𝑛_{𝑦}}}}\end{aligned}
+\begin{aligned}𝑇 & =\frac{(\overset{𝑋}{}−\overset{𝑌}{})−(𝜇_{𝑥}−𝜇_{𝑦})}{\sqrt{\frac{𝑆_{2𝑥}}{𝑛_{𝑥}}+\frac{𝑆_{2𝑦}}{𝑛_{𝑦}}}}\end{aligned}
 
 
 $$
@@ -129,7 +129,7 @@ Assuming the null hypothesis, i.e. $\mu_x - \mu_y = 0,$ we compute the test stat
 $$
 
 
-\begin{aligned}𝑡 & =\frac{\overset{𝑥}{}−\overset{𝑦}{–}−(𝜇_{𝑥}−𝜇_{𝑦})}{\sqrt{√\frac{𝑠_{2𝑥}^{}}{𝑛_{𝑥}}+\frac{𝑠_{2𝑦}^{}}{𝑛_{𝑦}}}} \\ & =\frac{47−40−(0)}{\sqrt{√\frac{7^{2}}{14}+\frac{8^{2}}{18}}} \\ & ≈2.635\end{aligned}
+\begin{aligned}𝑡 & =\frac{\overset{𝑥}{}−\overset{𝑦}{–}−(𝜇_{𝑥}−𝜇_{𝑦})}{\sqrt{\frac{𝑠_{2𝑥}}{𝑛_{𝑥}}+\frac{𝑠_{2𝑦}}{𝑛_{𝑦}}}} \\ & =\frac{47−40−(0)}{\sqrt{\frac{7^{2}}{14}+\frac{8^{2}}{18}}} \\ & ≈2.635\end{aligned}
 
 
 $$
@@ -152,7 +152,7 @@ Finally, notice that our test statistic $(2.635)$ lies in the critical region, a
 
 ![Instructional graphic](../../../lesson-assets/probability-and-statistics/topic-4119/050a696bcfd39685.png)
 
-So, we reject the null hypothesis $H_0.$ As a result, we conclude that there is $\boxed{\color{blue}\textrm{sufficient}}$ evidence that, at the $10\%$ level of significance, we have $\mu_x > \mu_y.$
+So, we reject the null hypothesis $H_0.$ As a result, we conclude that there is $\boxed{\color{blue}\text{sufficient}}$ evidence that, at the $10\%$ level of significance, we have $\mu_x > \mu_y.$
 
 ### Example: Testing a Hypothesis Given Normal Populations: One-Tailed Tests
 
@@ -209,7 +209,7 @@ Assuming the null hypothesis, i.e. $\mu_x - \mu_y = 0,$ we compute the test stat
 $$
 
 
-\begin{aligned}𝑡 & =\frac{\overset{𝑥}{}−\overset{𝑦}{–}−(𝜇_{𝑥}−𝜇_{𝑦})}{\sqrt{√\frac{𝑠_{2𝑥}^{}}{𝑛_{𝑥}}+\frac{𝑠_{2𝑦}^{}}{𝑛_{𝑦}}}} \\ & =\frac{30−31−(0)}{\sqrt{√\frac{1^{2}}{15}+\frac{3^{2}}{16}}} \\ & ≈−1.261\end{aligned}
+\begin{aligned}𝑡 & =\frac{\overset{𝑥}{}−\overset{𝑦}{–}−(𝜇_{𝑥}−𝜇_{𝑦})}{\sqrt{\frac{𝑠_{2𝑥}}{𝑛_{𝑥}}+\frac{𝑠_{2𝑦}}{𝑛_{𝑦}}}} \\ & =\frac{30−31−(0)}{\sqrt{\frac{1^{2}}{15}+\frac{3^{2}}{16}}} \\ & ≈−1.261\end{aligned}
 
 
 $$
@@ -287,7 +287,7 @@ Assuming the null hypothesis, i.e. $\mu_x - \mu_y = 0,$ we compute the test stat
 $$
 
 
-\begin{aligned}𝑡 & =\frac{\overset{𝑥}{}−\overset{𝑦}{–}−(𝜇_{𝑥}−𝜇_{𝑦})}{\sqrt{√\frac{𝑠_{2𝑥}^{}}{𝑛_{𝑥}}+\frac{𝑠_{2𝑦}^{}}{𝑛_{𝑦}}}} \\ & =\frac{8−9−(0)}{\sqrt{√\frac{0.75^{2}}{15}+\frac{1.2^{2}}{12}}} \\ & ≈−2.520\end{aligned}
+\begin{aligned}𝑡 & =\frac{\overset{𝑥}{}−\overset{𝑦}{–}−(𝜇_{𝑥}−𝜇_{𝑦})}{\sqrt{\frac{𝑠_{2𝑥}}{𝑛_{𝑥}}+\frac{𝑠_{2𝑦}}{𝑛_{𝑦}}}} \\ & =\frac{8−9−(0)}{\sqrt{\frac{0.75^{2}}{15}+\frac{1.2^{2}}{12}}} \\ & ≈−2.520\end{aligned}
 
 
 $$
@@ -373,7 +373,7 @@ Assuming the null hypothesis, i.e. $\mu_x - \mu_y = 0,$ we compute the test stat
 $$
 
 
-\begin{aligned}𝑡 & =\frac{\overset{𝑥}{}−\overset{𝑦}{–}−(𝜇_{𝑥}−𝜇_{𝑦})}{\sqrt{√\frac{𝑠_{2𝑥}^{}}{𝑛_{𝑥}}+\frac{𝑠_{2𝑦}^{}}{𝑛_{𝑦}}}} \\ & =\frac{2.1−3.8−(0)}{\sqrt{√\frac{8^{2}}{42}+\frac{3^{2}}{47}}} \\ & ≈−1.298\end{aligned}
+\begin{aligned}𝑡 & =\frac{\overset{𝑥}{}−\overset{𝑦}{–}−(𝜇_{𝑥}−𝜇_{𝑦})}{\sqrt{\frac{𝑠_{2𝑥}}{𝑛_{𝑥}}+\frac{𝑠_{2𝑦}}{𝑛_{𝑦}}}} \\ & =\frac{2.1−3.8−(0)}{\sqrt{\frac{8^{2}}{42}+\frac{3^{2}}{47}}} \\ & ≈−1.298\end{aligned}
 
 
 $$

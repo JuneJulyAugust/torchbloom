@@ -17,7 +17,7 @@ Suppose that the vector $\mathbf{a}$ has magnitude $7,$ the vector $\mathbf{b}$ 
 $$
 
 
-\begin{aligned}|\,𝐚×𝐛\,| & =|\,𝐚\,||\,𝐛\,|sin⁡𝜃 \\ & =7⋅6⋅sin⁡45^{∘} \\ & =7⋅6⋅\frac{\sqrt{√2}}{2} \\ & =21\sqrt{√2}.\end{aligned}
+\begin{aligned}|\,𝐚×𝐛\,| & =|\,𝐚\,||\,𝐛\,|sin⁡𝜃 \\ & =7⋅6⋅sin⁡45^{∘} \\ & =7⋅6⋅\frac{\sqrt{2}}{2} \\ & =21\sqrt{2}.\end{aligned}
 
 
 $$
@@ -41,7 +41,7 @@ Using the formula, we have
 $$
 
 
-\begin{aligned}𝐚×𝐛 & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 4 & 0 & −3 \\ 5 & −1 & 2\end{aligned} \\ & =\begin{aligned}0 & −3 \\ −1 & 2\end{aligned}𝐢−\begin{aligned}4 & −3 \\ 5 & 2\end{aligned}𝐣+\begin{aligned}4 & 0 \\ 5 & −1\end{aligned}𝐤 \\ & =(0⋅2−(−3)⋅(−1))𝐢−(4⋅2−(−3)⋅5)𝐣+(4⋅(−1)−0⋅5)𝐤 \\ & =−3𝐢−23𝐣−4𝐤 \\ & =⟨−3,−23,−4⟩.\end{aligned}
+\begin{aligned}𝐚×𝐛 & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 4 & 0 & −3 \\ 5 & −1 & 2\end{matrix} \\ & =\begin{matrix}0 & −3 \\ −1 & 2\end{matrix}𝐢−\begin{matrix}4 & −3 \\ 5 & 2\end{matrix}𝐣+\begin{matrix}4 & 0 \\ 5 & −1\end{matrix}𝐤 \\ & =(0⋅2−(−3)⋅(−1))𝐢−(4⋅2−(−3)⋅5)𝐣+(4⋅(−1)−0⋅5)𝐤 \\ & =−3𝐢−23𝐣−4𝐤 \\ & =⟨−3,−23,−4⟩.\end{aligned}
 
 
 $$
@@ -51,7 +51,7 @@ Therefore, the area of the corresponding parallelogram is
 $$
 
 
-\begin{aligned}𝐴 & =|\,𝐚×𝐛\,| \\ & =\sqrt{√(−3)^{2}+(−23)^{2}+(−4)^{2}} \\ & =\sqrt{√554}.\end{aligned}
+\begin{aligned}𝐴 & =|\,𝐚×𝐛\,| \\ & =\sqrt{(−3)^{2}+(−23)^{2}+(−4)^{2}} \\ & =\sqrt{554}.\end{aligned}
 
 
 $$
@@ -89,7 +89,7 @@ Now, using the formula to compute the cross product, we get
 $$
 
 
-\begin{aligned}\overset{𝐴𝐵}{}×\overset{𝐴𝐶}{} & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ −3 & 0 & 3 \\ 0 & 1 & 1\end{aligned} \\ & =\begin{aligned}0 & 3 \\ 1 & 1\end{aligned}𝐢−\begin{aligned}−3 & 3 \\ 0 & 1\end{aligned}𝐣+\begin{aligned}−3 & 0 \\ 0 & 1\end{aligned}𝐤 \\ & =(0⋅1−3⋅1)𝐢−(−3⋅1−3⋅0)𝐣+(−3⋅1−0⋅0)𝐤 \\ & =−3𝐢+3𝐣−3𝐤 \\ & =⟨−3,3,−3⟩.\end{aligned}
+\begin{aligned}\overset{𝐴𝐵}{}×\overset{𝐴𝐶}{} & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ −3 & 0 & 3 \\ 0 & 1 & 1\end{matrix} \\ & =\begin{matrix}0 & 3 \\ 1 & 1\end{matrix}𝐢−\begin{matrix}−3 & 3 \\ 0 & 1\end{matrix}𝐣+\begin{matrix}−3 & 0 \\ 0 & 1\end{matrix}𝐤 \\ & =(0⋅1−3⋅1)𝐢−(−3⋅1−3⋅0)𝐣+(−3⋅1−0⋅0)𝐤 \\ & =−3𝐢+3𝐣−3𝐤 \\ & =⟨−3,3,−3⟩.\end{aligned}
 
 
 $$
@@ -99,7 +99,7 @@ Therefore, the area of the parallelogram spanned by $\overrightarrow{AB}$ and $\
 $$
 
 
-\begin{aligned}𝐴 & =|\overset{𝐴𝐵}{}×\overset{𝐴𝐶}{}| \\ & =\sqrt{√(−3)^{2}+3^{2}+(−3)^{2}} \\ & =3\sqrt{√3}.\end{aligned}
+\begin{aligned}𝐴 & =|\overset{𝐴𝐵}{}×\overset{𝐴𝐶}{}| \\ & =\sqrt{(−3)^{2}+3^{2}+(−3)^{2}} \\ & =3\sqrt{3}.\end{aligned}
 
 
 $$
@@ -159,7 +159,7 @@ Now, we have
 $$
 
 
-\begin{aligned}\overset{𝐴𝐵}{}×\overset{𝐴𝐶}{} & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 2 & 0 & 2 \\ 2 & −2 & 1\end{aligned} \\ & =\begin{aligned}0 & 2 \\ −2 & 1\end{aligned}𝐢−\begin{aligned}2 & 2 \\ 2 & 1\end{aligned}𝐣+\begin{aligned}2 & 0 \\ 2 & −2\end{aligned}𝐤 \\ & =(0⋅1−2⋅(−2))𝐢−(2⋅1−2⋅2)𝐣+(2⋅(−2)−0⋅2)𝐤 \\ & =4𝐢+2𝐣−4𝐤 \\ & =⟨4,2,−4⟩.\end{aligned}
+\begin{aligned}\overset{𝐴𝐵}{}×\overset{𝐴𝐶}{} & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 2 & 0 & 2 \\ 2 & −2 & 1\end{matrix} \\ & =\begin{matrix}0 & 2 \\ −2 & 1\end{matrix}𝐢−\begin{matrix}2 & 2 \\ 2 & 1\end{matrix}𝐣+\begin{matrix}2 & 0 \\ 2 & −2\end{matrix}𝐤 \\ & =(0⋅1−2⋅(−2))𝐢−(2⋅1−2⋅2)𝐣+(2⋅(−2)−0⋅2)𝐤 \\ & =4𝐢+2𝐣−4𝐤 \\ & =⟨4,2,−4⟩.\end{aligned}
 
 
 $$
@@ -169,7 +169,7 @@ Therefore, the area of the parallelogram spanned by $\overrightarrow{AB}$ and $\
 $$
 
 
-\begin{aligned}𝐴 & =|\overset{𝐴𝐵}{}×\overset{𝐴𝐶}{}| \\ & =\sqrt{√4^{2}+2^{2}+(−4)^{2}} \\ & =\sqrt{√36} \\ & =6.\end{aligned}
+\begin{aligned}𝐴 & =|\overset{𝐴𝐵}{}×\overset{𝐴𝐶}{}| \\ & =\sqrt{4^{2}+2^{2}+(−4)^{2}} \\ & =\sqrt{36} \\ & =6.\end{aligned}
 
 
 $$
@@ -189,7 +189,7 @@ Let's also compute $AB$ since it appears in the formula:
 $$
 
 
-\begin{aligned}𝐴𝐵 & =|\overset{𝐴𝐵}{}| \\ & =\sqrt{√2^{2}+0^{2}+2^{2}} \\ & =\sqrt{√8} \\ & =2\sqrt{√2}\end{aligned}
+\begin{aligned}𝐴𝐵 & =|\overset{𝐴𝐵}{}| \\ & =\sqrt{2^{2}+0^{2}+2^{2}} \\ & =\sqrt{8} \\ & =2\sqrt{2}\end{aligned}
 
 
 $$
@@ -199,7 +199,7 @@ Finally, using the formula $A_{\bigtriangleup} = \dfrac{1}{2} CH \cdot AB,$ we g
 $$
 
 
-\begin{aligned}𝐴_{△} & =\frac{1}{2}𝐶𝐻⋅𝐴𝐵 \\ 3 & =\frac{1}{2}𝐶𝐻⋅2\sqrt{√2} \\ 3 & =𝐶𝐻⋅\sqrt{√2} \\ 𝐶𝐻 & =\frac{3}{\sqrt{√2}} \\ 𝐶𝐻 & =\frac{3\sqrt{√2}}{2}.\end{aligned}
+\begin{aligned}𝐴_{△} & =\frac{1}{2}𝐶𝐻⋅𝐴𝐵 \\ 3 & =\frac{1}{2}𝐶𝐻⋅2\sqrt{2} \\ 3 & =𝐶𝐻⋅\sqrt{2} \\ 𝐶𝐻 & =\frac{3}{\sqrt{2}} \\ 𝐶𝐻 & =\frac{3\sqrt{2}}{2}.\end{aligned}
 
 
 $$

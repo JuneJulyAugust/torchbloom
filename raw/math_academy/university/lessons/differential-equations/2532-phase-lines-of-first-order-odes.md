@@ -16,7 +16,7 @@ The **phase line** of an autonomous differential equation
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x} = f(y)
+\dfrac{\text{d}y}{\text{d}x} = f(y)
 
 
 $$
@@ -30,7 +30,7 @@ Let's see a concrete example and construct the phase line for the autonomous dif
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x} = (y+1)(y-1).
+\dfrac{\text{d}y}{\text{d}x} = (y+1)(y-1).
 
 
 $$
@@ -75,7 +75,7 @@ Applying the above recipe, we get the following phase line for our differential 
 
 #### Question
 
-Find the phase line of the differential equation $\dfrac{\textrm{d}y}{\textrm{d}x} = y^2 + 2y.$
+Find the phase line of the differential equation $\dfrac{\text{d}y}{\text{d}x} = y^2 + 2y.$
 
 #### Explanation
 
@@ -122,7 +122,7 @@ Suppose that we know that the autonomous differential equation
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x} = f(y)
+\dfrac{\text{d}y}{\text{d}x} = f(y)
 
 
 $$
@@ -137,7 +137,7 @@ We can interpret the key features of the phase line as follows:
 
 - The solid dots are the **equilibrium solutions**, where From the diagram, the equilibrium solutions are $y=-1$ and $y=2$.
 
-- The arrows show the sign of $\dfrac{\textrm{d}y}{\textrm{d}x} = f(y)$ on the intervals between the equilibrium solutions: On the interval $(-\infty, -1),$ the arrow points down, so the derivative $f(y)$ is *negative*. On the interval $(-1, 2),$ the arrow points up, so the derivative $f(y)$ is *positive*. On the interval $(2, \infty),$ the arrow points up, so the derivative $f(y)$ is *positive*.
+- The arrows show the sign of $\dfrac{\text{d}y}{\text{d}x} = f(y)$ on the intervals between the equilibrium solutions: On the interval $(-\infty, -1),$ the arrow points down, so the derivative $f(y)$ is *negative*. On the interval $(-1, 2),$ the arrow points up, so the derivative $f(y)$ is *positive*. On the interval $(2, \infty),$ the arrow points up, so the derivative $f(y)$ is *positive*.
 
 The graph of a *possible* derivative function $f(y)$ looks as follows.
 
@@ -153,11 +153,11 @@ On the next slide, we will see how we can use the given phase line to identify t
 
 Consider the phase line shown above. Which of the following differential equations could have this phase line?
 
-1. $\dfrac{\textrm{d}y}{\textrm{d}x}= y^2 -4$
+1. $\dfrac{\text{d}y}{\text{d}x}= y^2 -4$
 
-2. $\dfrac{\textrm{d}y}{\textrm{d}x}= 4-y^2$
+2. $\dfrac{\text{d}y}{\text{d}x}= 4-y^2$
 
-3. $\dfrac{\textrm{d}y}{\textrm{d}x}= (y-2)^2$
+3. $\dfrac{\text{d}y}{\text{d}x}= (y-2)^2$
 
 #### Explanation
 
@@ -193,7 +193,7 @@ Therefore, the correct answer is "I only."
 
 #### Question
 
-Consider the differential equation $\dfrac{\textrm{d}y}{\textrm{d}x} = f(y),$ where the graph of $f(y)$ is shown below. What is the phase line corresponding to this differential equation?
+Consider the differential equation $\dfrac{\text{d}y}{\text{d}x} = f(y),$ where the graph of $f(y)$ is shown below. What is the phase line corresponding to this differential equation?
 
 ![Instructional graphic](../../../lesson-assets/differential-equations/topic-2532/6a2596aec3355302.png)
 
@@ -223,7 +223,7 @@ Applying the above recipe, we get the following phase line for our differential 
 
 ### Connection Between Phase Lines and Slope Fields
 
-Below is the slope field for the autonomous differential equation $\dfrac{\textrm{d}y}{\textrm{d}x} = (y+1)(y-1).$
+Below is the slope field for the autonomous differential equation $\dfrac{\text{d}y}{\text{d}x} = (y+1)(y-1).$
 
 ![Instructional graphic](../../../lesson-assets/differential-equations/topic-2532/4ff8b6832315c1f0.png)
 
@@ -238,7 +238,7 @@ The diagram below shows how the slope field for
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x} = \underbrace{(y+1)(y-1)}_{\large f(y)}
+\dfrac{\text{d}y}{\text{d}x} = \underbrace{(y+1)(y-1)}_{\large f(y)}
 
 
 $$
@@ -257,7 +257,7 @@ The direction of the arrows on the phase line is determined by the sign of $f(y)
 
 #### Question
 
-The slope field of the differential equation $\dfrac{\textrm{d}y}{\textrm{d}x}=f(y)$ is shown below. What is the phase line of the given equation?
+The slope field of the differential equation $\dfrac{\text{d}y}{\text{d}x}=f(y)$ is shown below. What is the phase line of the given equation?
 
 ![Instructional graphic](../../../lesson-assets/differential-equations/topic-2532/0cdd49fe07f1a4b1.png)
 

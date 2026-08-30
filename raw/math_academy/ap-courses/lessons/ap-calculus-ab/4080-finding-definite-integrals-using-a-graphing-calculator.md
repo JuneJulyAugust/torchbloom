@@ -67,7 +67,7 @@ The finite area $\mathcal A$ bounded by $f(x)$ and the $x$-axis over the interva
 $$
 
 
-\mathcal{A} = \int_{0}^{\pi} \sqrt{\sin x} \: \textrm{d}x.
+\mathcal{A} = \int_{0}^{\pi} \sqrt{\sin x} \: \text{d}x.
 
 
 $$
@@ -89,7 +89,7 @@ If your calculator uses derivative notation, you should see a prompt that looks 
 $$
 
 
-\int_{\boxed{\,\phantom{0}}}^{\boxed{\,\phantom{0}}} \boxed{\,\phantom{\big|0\big|}} \,\textrm{d}\,{\boxed{\,\phantom{0}}}
+\int_{\boxed{\,\phantom{0}}}^{\boxed{\,\phantom{0}}} \boxed{\,\phantom{\big|0\big|}} \,\text{d}\,{\boxed{\,\phantom{0}}}
 
 
 $$
@@ -102,14 +102,14 @@ In this case, we fill in the empty boxes as follows:
 
 - Navigate the cursor to the next empty box by pressing $\boxed{\color{gray}\,\blacktriangleright\,}.$ Press $\boxed{\color{gray}X,T,\theta,n}$ to enter the variable that we're integrating with respect to. The prompt should now look as follows:
 
-- Finally, press $\boxed{\color{gray}\,\textrm{enter}\,},$ and the calculator will return the numerical value of the integral.
+- Finally, press $\boxed{\color{gray}\,\text{enter}\,},$ and the calculator will return the numerical value of the integral.
 
 Following the above steps, we obtain
 
 $$
 
 
-\int_{0}^{\pi} \sqrt{\sin x} \: \textrm{d}x\approx 2.396
+\int_{0}^{\pi} \sqrt{\sin x} \: \text{d}x\approx 2.396
 
 
 $$
@@ -123,7 +123,7 @@ If your calculator uses function notation, then instead of being presented with
 $$
 
 
-\int_{\boxed{\,\phantom{0}}}^{\boxed{\,\phantom{0}}} \boxed{\,\phantom{\big|0\big|}} \,\textrm{d}\,{\boxed{\,\phantom{0}}}
+\int_{\boxed{\,\phantom{0}}}^{\boxed{\,\phantom{0}}} \boxed{\,\phantom{\big|0\big|}} \,\text{d}\,{\boxed{\,\phantom{0}}}
 
 
 $$
@@ -150,14 +150,14 @@ $$
 
 $$
 
-Once you're done, press $\boxed{\color{gray}\,\textrm{enter}\,}.$
+Once you're done, press $\boxed{\color{gray}\,\text{enter}\,}.$
 
 Following the above steps, we obtain
 
 $$
 
 
-\int_{0}^{\pi} \sqrt{\sin x} \: \textrm{d}x\approx 2.396
+\int_{0}^{\pi} \sqrt{\sin x} \: \text{d}x\approx 2.396
 
 
 $$
@@ -178,7 +178,7 @@ rounded to three decimal places.
 
 #### Question
 
-Use a calculator to compute $\displaystyle\int_{0}^{1} e^{-x^2} \, \textrm{d}x.$ Round your answer to $2$ decimal places.
+Use a calculator to compute $\displaystyle\int_{0}^{1} e^{-x^2} \, \text{d}x.$ Round your answer to $2$ decimal places.
 
 #### Explanation
 
@@ -193,7 +193,7 @@ Evaluating our integral using a calculator, we obtain
 $$
 
 
-\int_{0}^{1} e^{-x^2} \, \textrm{d}x \approx 0.75
+\int_{0}^{1} e^{-x^2} \, \text{d}x \approx 0.75
 
 
 $$
@@ -221,7 +221,7 @@ The finite area $\mathcal A$ bounded by $f(x)$ and the $x$-axes over the interva
 $$
 
 
-\mathcal{A} = \int_{a}^{0} 2x + \sqrt{\cos x} \: \textrm{d}x
+\mathcal{A} = \int_{a}^{0} 2x + \sqrt{\cos x} \: \text{d}x
 
 
 $$
@@ -245,7 +245,7 @@ So, the area $\mathcal A$ is approximately equal to
 $$
 
 
-\int_{-0.472}^{0} 2x + \sqrt{\cos x} \: \textrm{d}x.
+\int_{-0.472}^{0} 2x + \sqrt{\cos x} \: \text{d}x.
 
 
 $$
@@ -255,7 +255,7 @@ Finally, evaluating this integral using our graphing calculator in the usual way
 $$
 
 
-\int_{-0.472}^{0} 2x+\sqrt{\cos x} \, \textrm{d}x \approx 0.240
+\int_{-0.472}^{0} 2x+\sqrt{\cos x} \, \text{d}x \approx 0.240
 
 
 $$
@@ -271,7 +271,7 @@ The integral
 $$
 
 
-\mathcal{A} = \int_{a}^{1.312} f(x) \, \textrm{d}x
+\mathcal{A} = \int_{a}^{1.312} f(x) \, \text{d}x
 
 
 $$
@@ -311,7 +311,7 @@ Finally, we can evaluate the integral with the lower limit $a=-1.034{:}$
 $$
 
 
-\mathcal{A} = \int_{-1.034}^{1.312} f(x) \, \textrm{d}x
+\mathcal{A} = \int_{-1.034}^{1.312} f(x) \, \text{d}x
 
 
 $$
@@ -327,7 +327,7 @@ Evaluating our integral using a calculator, we obtain
 $$
 
 
-\mathcal{A} = \int_{-1.034}^{1.312} f(x) \, \textrm{d}x \approx -3.934,
+\mathcal{A} = \int_{-1.034}^{1.312} f(x) \, \text{d}x \approx -3.934,
 
 
 $$

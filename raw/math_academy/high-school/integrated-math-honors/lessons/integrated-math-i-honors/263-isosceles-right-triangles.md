@@ -34,7 +34,7 @@ So, if an isosceles right triangle has legs of length $a$ and the hypotenuse has
 $$
 
 
-\begin{aligned}ℎ^{2} & =𝑎^{2}+𝑎^{2} \\ ℎ^{2} & =2𝑎^{2} \\ ℎ & =\sqrt{√2𝑎^{2}} \\ ℎ & =\sqrt{√2}⋅𝑎.\end{aligned}
+\begin{aligned}ℎ^{2} & =𝑎^{2}+𝑎^{2} \\ ℎ^{2} & =2𝑎^{2} \\ ℎ & =\sqrt{2𝑎^{2}} \\ ℎ & =\sqrt{2}⋅𝑎.\end{aligned}
 
 
 $$
@@ -78,7 +78,7 @@ Here, we know that the hypotenuse has length $5.$ So, if the length of a leg is 
 $$
 
 
-\begin{aligned}5 & =\sqrt{√2}⋅𝑎 \\ 𝑎 & =\frac{5}{\sqrt{√2}}.\end{aligned}
+\begin{aligned}5 & =\sqrt{2}⋅𝑎 \\ 𝑎 & =\frac{5}{\sqrt{2}}.\end{aligned}
 
 
 $$
@@ -88,7 +88,7 @@ To remove the square root from the denominator, we can multiply both the numerat
 $$
 
 
-\begin{aligned}𝑎 & =\frac{5⋅\sqrt{√2}}{\sqrt{√2}⋅\sqrt{√2}} \\ 𝑎 & =\frac{5\sqrt{√2}}{2}\end{aligned}
+\begin{aligned}𝑎 & =\frac{5⋅\sqrt{2}}{\sqrt{2}⋅\sqrt{2}} \\ 𝑎 & =\frac{5\sqrt{2}}{2}\end{aligned}
 
 
 $$
@@ -130,7 +130,7 @@ Finally, since the perimeter is $p = 26+13\sqrt{2},$ we have
 $$
 
 
-\begin{aligned}𝑝 & =𝐴𝐵+𝐵𝐶+𝐴𝐶 \\ 26+13\sqrt{√2} & =𝑎+𝑎+𝑎\sqrt{√2} \\ 26+13\sqrt{√2} & =2𝑎+𝑎\sqrt{√2} \\ 13(2+\sqrt{√2}) & =𝑎(2+\sqrt{√2}) \\ 13(2+\sqrt{√2}) & =𝑎(2+\sqrt{√2}) \\ 13 & =𝑎.\end{aligned}
+\begin{aligned}𝑝 & =𝐴𝐵+𝐵𝐶+𝐴𝐶 \\ 26+13\sqrt{2} & =𝑎+𝑎+𝑎\sqrt{2} \\ 26+13\sqrt{2} & =2𝑎+𝑎\sqrt{2} \\ 13(2+\sqrt{2}) & =𝑎(2+\sqrt{2}) \\ 13(2+\sqrt{2}) & =𝑎(2+\sqrt{2}) \\ 13 & =𝑎.\end{aligned}
 
 
 $$
@@ -160,7 +160,7 @@ So, for the diagonal, we have
 $$
 
 
-\begin{aligned}𝑐=\sqrt{√2}⋅𝑎.\end{aligned}
+\begin{aligned}𝑐=\sqrt{2}⋅𝑎.\end{aligned}
 
 
 $$
@@ -173,7 +173,7 @@ Find the length of the diagonal $\overline{AC}$ of the square $ABCD$ if the peri
 
 #### Explanation
 
-Since the perimeter is $p=256\,\textrm{mm},$ the length of a single side is
+Since the perimeter is $p=256\,\text{mm},$ the length of a single side is
 
 $$
 
@@ -194,9 +194,9 @@ Here, the length of a leg is $AB=64,$ so the length of the hypotenuse is
 $$
 
 
-AC = \sqrt{2}\cdot AB = \sqrt{2}\cdot 64 = 64\sqrt{2}\,\textrm{mm}.
+AC = \sqrt{2}\cdot AB = \sqrt{2}\cdot 64 = 64\sqrt{2}\,\text{mm}.
 
 
 $$
 
-Therefore, the diagonal of the square $ABCD$ has a length of $AC= 64 \sqrt{2} \, \textrm{mm}.$
+Therefore, the diagonal of the square $ABCD$ has a length of $AC= 64 \sqrt{2} \, \text{mm}.$

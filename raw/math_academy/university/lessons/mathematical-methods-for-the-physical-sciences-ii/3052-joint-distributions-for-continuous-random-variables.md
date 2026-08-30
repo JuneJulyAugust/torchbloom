@@ -19,9 +19,9 @@ A function $f(x,y)$ is a **joint probability density function** (or **joint PDF*
 
 - $f(x,y) \geq 0$ for all $(x,y) \in \mathbb{R}^2$
 
-- $\displaystyle \iint_{\mathbb R^2} f(x,y) \,\textrm{d}x\textrm{d}y = 1$
+- $\displaystyle \iint_{\mathbb R^2} f(x,y) \,\text{d}x\text{d}y = 1$
 
-- $P\left((X,Y)\in A\right) = \displaystyle \iint_{A} f(x,y) \,\textrm{d}x\textrm{d}y,$ where $A$ is a subset of $\mathbb R^2.$
+- $P\left((X,Y)\in A\right) = \displaystyle \iint_{A} f(x,y) \,\text{d}x\text{d}y,$ where $A$ is a subset of $\mathbb R^2.$
 
 There is some nice intuition to these conditions.
 
@@ -81,7 +81,7 @@ To verify that $f(x,y)$ is a valid joint probability density function, we must c
 
 - $f(x,y) \geq 0$ for all $(x,y)\in \mathbb R^2$
 
-- $\displaystyle \iint_{\mathbb R^2} f(x,y) \;\textrm{d}x\textrm{d}y= 1$
+- $\displaystyle \iint_{\mathbb R^2} f(x,y) \;\text{d}x\text{d}y= 1$
 
 First, let's sketch the region $D = \left\{(x,y) \::\: 0\lt x\lt \dfrac{\pi}{2},0\lt y \lt \dfrac{\pi}{2} \right\}.$
 
@@ -125,7 +125,7 @@ To verify that $f(x,y)$ is a valid joint probability density function, we must c
 
 - $f(x,y) \geq 0$ for all $(x,y)\in \mathbb R^2$
 
-- $\displaystyle \iint_{\mathbb R^2} f(x,y) \;\textrm{d}x\,\textrm{d}y= 1$
+- $\displaystyle \iint_{\mathbb R^2} f(x,y) \;\text{d}x\,\text{d}y= 1$
 
 First, let's sketch the region $D = \{(x,y) \::\: 0 \leq x \lt y \}.$
 
@@ -140,7 +140,7 @@ Now, let's check our conditions:
 $$
 
 
-\begin{aligned}∫_{∞0}^{}[∫_{∞𝑥}^{}\frac{𝑐}{(1+𝑥+𝑦)^{3}}\,d𝑦]d𝑥 & =𝑐∫_{∞0}^{}[∫_{∞𝑥}^{}(1+𝑥+𝑦)^{−3}\,d𝑦]d𝑥 \\ & =𝑐∫_{∞0}^{}[−\frac{1}{2}(1+𝑥+𝑦)^{−2}]_{𝑦=∞𝑦=𝑥}^{}\,d𝑥 \\ & =−\frac{𝑐}{2}∫_{∞0}^{}[(1+𝑥+𝑦)^{−2}]_{𝑦=∞𝑦=𝑥}^{}\,d𝑥 \\ & =−\frac{𝑐}{2}∫_{∞0}^{}0−(1+2𝑥)^{−2}\,d𝑥 \\ & =−\frac{𝑐}{2}∫_{∞0}^{}−(1+2𝑥)^{−2}\,d𝑥 \\ & =\frac{𝑐}{2}∫_{∞0}^{}(1+2𝑥)^{−2}\,d𝑥\end{aligned}
+\begin{aligned}∫_{∞0}[∫_{∞𝑥}\frac{𝑐}{(1+𝑥+𝑦)^{3}}\,d𝑦]d𝑥 & =𝑐∫_{∞0}[∫_{∞𝑥}(1+𝑥+𝑦)^{−3}\,d𝑦]d𝑥 \\ & =𝑐∫_{∞0}[−\frac{1}{2}(1+𝑥+𝑦)^{−2}]_{𝑦=∞𝑦=𝑥}\,d𝑥 \\ & =−\frac{𝑐}{2}∫_{∞0}[(1+𝑥+𝑦)^{−2}]_{𝑦=∞𝑦=𝑥}\,d𝑥 \\ & =−\frac{𝑐}{2}∫_{∞0}0−(1+2𝑥)^{−2}\,d𝑥 \\ & =−\frac{𝑐}{2}∫_{∞0}−(1+2𝑥)^{−2}\,d𝑥 \\ & =\frac{𝑐}{2}∫_{∞0}(1+2𝑥)^{−2}\,d𝑥\end{aligned}
 
 
 $$
@@ -150,7 +150,7 @@ Then, we integrate with respect to $x{:}$
 $$
 
 
-\begin{aligned}\frac{𝑐}{2}∫_{∞0}^{}(1+2𝑥)^{−2}\,d𝑥 & =\frac{𝑐}{2}[−\frac{1}{2}(1+2𝑥)^{−1}]_{∞0}^{} \\ & =−\frac{𝑐}{4}[\frac{1}{1+2𝑥}]_{∞0}^{} \\ & =−\frac{𝑐}{4}[0−1] \\ & =\frac{𝑐}{4}\end{aligned}
+\begin{aligned}\frac{𝑐}{2}∫_{∞0}(1+2𝑥)^{−2}\,d𝑥 & =\frac{𝑐}{2}[−\frac{1}{2}(1+2𝑥)^{−1}]_{∞0} \\ & =−\frac{𝑐}{4}[\frac{1}{1+2𝑥}]_{∞0} \\ & =−\frac{𝑐}{4}[0−1] \\ & =\frac{𝑐}{4}\end{aligned}
 
 
 $$
@@ -172,7 +172,7 @@ Suppose that $f(x,y)$ is a joint probability density function for two continuous
 $$
 
 
-P\big( (X,Y) \in A \big) = \iint_A f(x, y) \;\textrm{d}x\textrm{d}y.
+P\big( (X,Y) \in A \big) = \iint_A f(x, y) \;\text{d}x\text{d}y.
 
 
 $$
@@ -192,7 +192,7 @@ then the corresponding probability can be computed as
 $$
 
 
-P(a \leq X \leq b, c \leq Y \leq d) = \int^{d}_{c} \int^{b}_{a} f(x,y) \;\textrm{d}x \: \textrm{d}y = \int^{b}_{a} \int^{d}_{c} f(x,y) \;\textrm{d}y \: \textrm{d}x.
+P(a \leq X \leq b, c \leq Y \leq d) = \int^{d}_{c} \int^{b}_{a} f(x,y) \;\text{d}x \: \text{d}y = \int^{b}_{a} \int^{d}_{c} f(x,y) \;\text{d}y \: \text{d}x.
 
 
 $$

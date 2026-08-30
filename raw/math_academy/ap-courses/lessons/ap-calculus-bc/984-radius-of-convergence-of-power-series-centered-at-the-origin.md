@@ -112,7 +112,7 @@ To apply the ratio test, we define $a_n= \dfrac{x^{n}}{3^n\sqrt{n}}.$ Then, we c
 $$
 
 
-\begin{aligned}𝐿 & =\underset{𝑛→∞}{lim}\frac{𝑎_{𝑛+1}}{𝑎_{𝑛}} \\ & =\underset{𝑛→∞}{lim}\frac{𝑥^{𝑛+1}}{3^{𝑛+1}\sqrt{√𝑛+1}}⋅\frac{3^{𝑛}\sqrt{√𝑛}}{𝑥^{𝑛}} \\ & =\underset{𝑛→∞}{lim}\frac{\sqrt{√𝑛}𝑥}{3\sqrt{√𝑛+1}} \\ & =\frac{|𝑥|}{3}\underset{𝑛→∞}{lim}(\frac{\sqrt{√𝑛}}{\sqrt{√𝑛+1}}) \\ & =\frac{|𝑥|}{3}⋅1 \\ & =\frac{|𝑥|}{3}\end{aligned}
+\begin{aligned}𝐿 & =\underset{𝑛→∞}{lim}\frac{𝑎_{𝑛+1}}{𝑎_{𝑛}} \\ & =\underset{𝑛→∞}{lim}\frac{𝑥^{𝑛+1}}{3^{𝑛+1}\sqrt{𝑛+1}}⋅\frac{3^{𝑛}\sqrt{𝑛}}{𝑥^{𝑛}} \\ & =\underset{𝑛→∞}{lim}\frac{\sqrt{𝑛}𝑥}{3\sqrt{𝑛+1}} \\ & =\frac{|𝑥|}{3}\underset{𝑛→∞}{lim}(\frac{\sqrt{𝑛}}{\sqrt{𝑛+1}}) \\ & =\frac{|𝑥|}{3}⋅1 \\ & =\frac{|𝑥|}{3}\end{aligned}
 
 
 $$

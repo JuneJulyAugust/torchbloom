@@ -169,15 +169,15 @@ For a function to satisfy the conditions of the mean value theorem over the inte
 
 Let's check each function individually.
 
-- The function shown in diagram $\textrm{I}$ is continuous on $[-2,2]$ and differentiable on $(-2,2)$, so it satisfies the conditions of the mean value theorem. Note that the sharp corners at $x=\pm 2$ are not in $(-2,2).$
+- The function shown in diagram $\text{I}$ is continuous on $[-2,2]$ and differentiable on $(-2,2)$, so it satisfies the conditions of the mean value theorem. Note that the sharp corners at $x=\pm 2$ are not in $(-2,2).$
 
-- The function shown in diagram $\textrm{II}$ has a removable discontinuity at $x=-2.$ So it is not continuous on $[-2,2],$ and therefore it does not satisfy the conditions of the mean value theorem.
+- The function shown in diagram $\text{II}$ has a removable discontinuity at $x=-2.$ So it is not continuous on $[-2,2],$ and therefore it does not satisfy the conditions of the mean value theorem.
 
-- The function shown in diagram $\textrm{III}$ is continuous on $[-2,2]$ and differentiable on $(-2,2),$ so it satisfies the conditions of the mean value theorem. Note that although the function has a jump discontinuity at $x=-2,$ it is right-continuous at $x=-2.$
+- The function shown in diagram $\text{III}$ is continuous on $[-2,2]$ and differentiable on $(-2,2),$ so it satisfies the conditions of the mean value theorem. Note that although the function has a jump discontinuity at $x=-2,$ it is right-continuous at $x=-2.$
 
-- The function shown in diagram $\textrm{IV}$ is continuous on $[−2,2]$ but has a vertical tangent at $x=0.$ So, it is not differentiable at $x=0,$ which means it is not differentiable on $(−2,2).$ Therefore, it does not satisfy the conditions of the mean value theorem.
+- The function shown in diagram $\text{IV}$ is continuous on $[−2,2]$ but has a vertical tangent at $x=0.$ So, it is not differentiable at $x=0,$ which means it is not differentiable on $(−2,2).$ Therefore, it does not satisfy the conditions of the mean value theorem.
 
-In conclusion, only diagrams $\textrm{I}$ and $\textrm{III}$ show functions that satisfy the conditions of the mean value theorem over the interval $[-2,2].$
+In conclusion, only diagrams $\text{I}$ and $\text{III}$ show functions that satisfy the conditions of the mean value theorem over the interval $[-2,2].$
 
 ### Example: Identifying Functions That Satisfy the Mean Value Theorem
 

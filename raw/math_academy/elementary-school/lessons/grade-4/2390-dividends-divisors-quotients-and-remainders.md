@@ -115,7 +115,7 @@ Let's consider the following division problem:
 
 $$
 
-39 \div 7 = 5 \: \textrm{R} \: 4
+39 \div 7 = 5 \: \text{R} \: 4
 
 $$
 
@@ -141,7 +141,7 @@ What is the remainder in the division problem below?
 
 $$
 
-32 \div 5 = 6 \: \textrm{R} \: 2
+32 \div 5 = 6 \: \text{R} \: 2
 
 $$
 

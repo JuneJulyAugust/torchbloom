@@ -55,7 +55,7 @@ $$
 
 $$
 
-Therefore, the speed of the cyclist was $3\,\textrm{m/s}.$
+Therefore, the speed of the cyclist was $3\,\text{m/s}.$
 
 ### Example: Cases When the Speed Varies
 
@@ -79,23 +79,23 @@ $$
 
 $$
 
-Therefore, at $t=4,$ the speed of the eagle was $\dfrac12\,\textrm{m/s}.$
+Therefore, at $t=4,$ the speed of the eagle was $\dfrac12\,\text{m/s}.$
 
 ### Example: Sketching a Distance-Time Graph
 
 #### Question
 
-A moving object travels at a speed of $0.25 \, \textrm{m/s}$ during the first four seconds and at $1.75 \, \textrm{m/s}$ after that. Draw the corresponding distance-time graph.
+A moving object travels at a speed of $0.25 \, \text{m/s}$ during the first four seconds and at $1.75 \, \text{m/s}$ after that. Draw the corresponding distance-time graph.
 
 #### Explanation
 
-We start the first line from the point $(0,0).$ Since the speed of the object during the first four seconds was $0.25 \, \textrm{m/s}$, the object covered a distance of $d=0.25\cdot 4 = 1 \, \textrm{m}.$ So, the first line goes from $(0,0)$ to $(4,1).$
+We start the first line from the point $(0,0).$ Since the speed of the object during the first four seconds was $0.25 \, \text{m/s}$, the object covered a distance of $d=0.25\cdot 4 = 1 \, \text{m}.$ So, the first line goes from $(0,0)$ to $(4,1).$
 
 ![Instructional graphic](../../../../lesson-assets/algebra-i/topic-1589/34bba580d2263a0c.png)
 
-We start the second line where the first line left off, at $(4,1).$ The speed of the object is now $1.75 \, \textrm{m/s},$ so if the object travels for one additional second, then it covers an additional distance of $1.75 \textrm{m}.$
+We start the second line where the first line left off, at $(4,1).$ The speed of the object is now $1.75 \, \text{m/s},$ so if the object travels for one additional second, then it covers an additional distance of $1.75 \text{m}.$
 
-The object has now traveled for a total time of $4\textrm{s}+1\textrm{s}=5\textrm{s}$ and covered a total distance of $1\textrm{m}+1.75\textrm{m}=2.75\textrm{m}.$ So, we have another point $(5,2.75).$
+The object has now traveled for a total time of $4\text{s}+1\text{s}=5\text{s}$ and covered a total distance of $1\text{m}+1.75\text{m}=2.75\text{m}.$ So, we have another point $(5,2.75).$
 
 Finally, we draw the line from the point $(4,1)$ through the point $(5,2.75).$
 

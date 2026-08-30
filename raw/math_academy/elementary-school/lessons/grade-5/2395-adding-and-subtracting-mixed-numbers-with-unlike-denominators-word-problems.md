@@ -68,7 +68,7 @@ Therefore, Daniela needs $3\,\dfrac{1}{2}$ yards of fabric to make her costume.
 
 #### Question
 
-Nadia, a construction worker, cuts pieces of wood for her colleagues. She cuts $1\,\dfrac{3}{4}\,\textrm{yd}$ of wood for Louis and $2\,\dfrac{7}{10}\,\textrm{yd}$ of wood for Diana. What is the total length of wood she gave to her two colleagues?
+Nadia, a construction worker, cuts pieces of wood for her colleagues. She cuts $1\,\dfrac{3}{4}\,\text{yd}$ of wood for Louis and $2\,\dfrac{7}{10}\,\text{yd}$ of wood for Diana. What is the total length of wood she gave to her two colleagues?
 
 #### Explanation
 
@@ -100,7 +100,7 @@ We can convert the fraction $\dfrac{29}{20}$ to a mixed number:
 
 $$
 
-29 \div 20 = 1\,\textrm{R}\,9 = {\color{blue}{1\,\dfrac 9{20}}}
+29 \div 20 = 1\,\text{R}\,9 = {\color{blue}{1\,\dfrac 9{20}}}
 
 $$
 
@@ -112,13 +112,13 @@ $$
 
 $$
 
-Therefore, in total, Nadia cut $4\,\dfrac{9}{20}\,\textrm{yd}$ of wood.
+Therefore, in total, Nadia cut $4\,\dfrac{9}{20}\,\text{yd}$ of wood.
 
 ### Example: Subtracting Mixed Numbers With Unlike Denominators
 
 #### Question
 
-Christian used $1\dfrac{3}{4}\,\textrm{L}$ of milk to make pancakes. Before making the pancakes, he had $2\,\dfrac{6}{7}\,\textrm{L}$ of milk. How much milk does he have now?
+Christian used $1\dfrac{3}{4}\,\text{L}$ of milk to make pancakes. Before making the pancakes, he had $2\,\dfrac{6}{7}\,\text{L}$ of milk. How much milk does he have now?
 
 #### Explanation
 
@@ -154,4 +154,4 @@ $$
 
 $$
 
-So, Christian has $1\dfrac{3}{28}\,\textrm{L}$ of milk remaining.
+So, Christian has $1\dfrac{3}{28}\,\text{L}$ of milk remaining.

@@ -278,7 +278,7 @@ So, our confidence interval can be written as follows:
 $$
 
 
-\begin{aligned}((\overset{𝑥}{}−\overset{𝑦}{–})−[margin of error], & \,(\overset{𝑥}{}−\overset{𝑦}{–})+[margin of error]) \\ ((\overset{𝑥}{}−\overset{𝑦}{–})−[t-score]⋅[standard error], & \,(\overset{𝑥}{}−\overset{𝑦}{–})+[t-score]⋅[standard error]) \\ ((\overset{𝑥}{}−\overset{𝑦}{–})−𝑡_{𝜈,𝛼/2}⋅𝑆_{𝑝}⋅\sqrt{√\frac{1}{𝑛_{𝑥}}+\frac{1}{𝑛_{𝑦}}}, & \,(\overset{𝑥}{}−\overset{𝑦}{–})+𝑡_{𝜈,𝛼/2}⋅𝑆_{𝑝}⋅\sqrt{√\frac{1}{𝑛_{𝑥}}+\frac{1}{𝑛_{𝑦}}}\,)\end{aligned}
+\begin{aligned}((\overset{𝑥}{}−\overset{𝑦}{–})−[margin of error], & \,(\overset{𝑥}{}−\overset{𝑦}{–})+[margin of error]) \\ ((\overset{𝑥}{}−\overset{𝑦}{–})−[t-score]⋅[standard error], & \,(\overset{𝑥}{}−\overset{𝑦}{–})+[t-score]⋅[standard error]) \\ ((\overset{𝑥}{}−\overset{𝑦}{–})−𝑡_{𝜈,𝛼/2}⋅𝑆_{𝑝}⋅\sqrt{\frac{1}{𝑛_{𝑥}}+\frac{1}{𝑛_{𝑦}}}, & \,(\overset{𝑥}{}−\overset{𝑦}{–})+𝑡_{𝜈,𝛼/2}⋅𝑆_{𝑝}⋅\sqrt{\frac{1}{𝑛_{𝑥}}+\frac{1}{𝑛_{𝑦}}}\,)\end{aligned}
 
 
 $$

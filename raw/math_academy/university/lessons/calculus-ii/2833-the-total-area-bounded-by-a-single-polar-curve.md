@@ -18,7 +18,7 @@ Suppose that the area of one loop of the polar curve $r=\sin(5\theta)$ (shown ab
 $$
 
 
-A = \dfrac{1}{2} \int_{0}^{\pi/5} \sin^2(5\theta) \:\textrm{d}\theta.
+A = \dfrac{1}{2} \int_{0}^{\pi/5} \sin^2(5\theta) \:\text{d}\theta.
 
 
 $$
@@ -30,7 +30,7 @@ One method is to count the number of petals and multiply the area of one petal b
 $$
 
 
-A_\textrm{total}=5A = \dfrac{5}{2} \int_{0}^{\pi/5} \sin^2(5\theta) \:\textrm{d}\theta.
+A_\text{total}=5A = \dfrac{5}{2} \int_{0}^{\pi/5} \sin^2(5\theta) \:\text{d}\theta.
 
 
 $$
@@ -46,7 +46,7 @@ The area of one loop of the polar curve $r=\sin\left(2\theta+\dfrac{\pi}{4} \rig
 $$
 
 
-A = \dfrac{1}{2} \int_{-\pi/8}^{3\pi/8} \sin^2\left(2\theta+\dfrac{\pi}{4}\right) \:\textrm{d}\theta.
+A = \dfrac{1}{2} \int_{-\pi/8}^{3\pi/8} \sin^2\left(2\theta+\dfrac{\pi}{4}\right) \:\text{d}\theta.
 
 
 $$
@@ -60,7 +60,7 @@ The given polar curve is the polar rose with $2 \cdot 2=4$ petals, and we know t
 $$
 
 
-A = \dfrac{1}{2} \int_{-\pi/8}^{3\pi/8} \sin^2\left(2\theta+\dfrac{\pi}{4}\right) \:\textrm{d}\theta.
+A = \dfrac{1}{2} \int_{-\pi/8}^{3\pi/8} \sin^2\left(2\theta+\dfrac{\pi}{4}\right) \:\text{d}\theta.
 
 
 $$
@@ -70,7 +70,7 @@ Therefore, the total area bounded by the polar curve is
 $$
 
 
-A_{\textrm{total}}=4\cdot A = 2 \int_{-\pi/8}^{3\pi/8} \sin^2\left(2\theta+\dfrac{\pi}{4}\right) \:\textrm{d}\theta.
+A_{\text{total}}=4\cdot A = 2 \int_{-\pi/8}^{3\pi/8} \sin^2\left(2\theta+\dfrac{\pi}{4}\right) \:\text{d}\theta.
 
 
 $$
@@ -114,7 +114,7 @@ Since there are $7$ petals, the total area bounded by the polar curve can be cal
 $$
 
 
-\begin{aligned}𝐴_{total} & =7⋅𝐴_{petal} \\ & =7⋅\frac{1}{2}∫_{𝜋/70}^{}sin^{2}⁡(7𝜃)\,d𝜃 \\ & =\frac{7}{2}⋅\frac{1}{2}∫_{𝜋/70}^{}(1−cos⁡(14𝜃))d𝜃 \\ & =\frac{7}{4}(𝜃−\frac{1}{14}sin⁡(14𝜃))_{𝜋/70}^{} \\ & =\frac{7}{4}[(\frac{𝜋}{7}−\frac{1}{14}sin⁡(2𝜋))−(0−\frac{1}{14}sin⁡(0))] \\ & =\frac{7}{4}(\frac{𝜋}{7}−0) \\ & =\frac{𝜋}{4}\end{aligned}
+\begin{aligned}𝐴_{total} & =7⋅𝐴_{petal} \\ & =7⋅\frac{1}{2}∫_{𝜋/70}sin^{2}⁡(7𝜃)\,d𝜃 \\ & =\frac{7}{2}⋅\frac{1}{2}∫_{𝜋/70}(1−cos⁡(14𝜃))d𝜃 \\ & =\frac{7}{4}(𝜃−\frac{1}{14}sin⁡(14𝜃))_{𝜋/70} \\ & =\frac{7}{4}[(\frac{𝜋}{7}−\frac{1}{14}sin⁡(2𝜋))−(0−\frac{1}{14}sin⁡(0))] \\ & =\frac{7}{4}(\frac{𝜋}{7}−0) \\ & =\frac{𝜋}{4}\end{aligned}
 
 
 $$
@@ -128,7 +128,7 @@ Let's go back to our polar curve $r=\sin(5\theta).$ Recall that the area bounded
 $$
 
 
-A = \dfrac{1}{2} \int_{0}^{\pi/5} \sin^2(5\theta) \:\textrm{d}\theta.
+A = \dfrac{1}{2} \int_{0}^{\pi/5} \sin^2(5\theta) \:\text{d}\theta.
 
 
 $$
@@ -164,7 +164,7 @@ Therefore, we can obtain the total area of the given polar curve if we traverse 
 $$
 
 
-A_\textrm{total} = \dfrac{1}{2} \int_{0}^{\pi} \sin^2(5\theta) \:\textrm{d}\theta
+A_\text{total} = \dfrac{1}{2} \int_{0}^{\pi} \sin^2(5\theta) \:\text{d}\theta
 
 
 $$
@@ -182,7 +182,7 @@ The area of one loop of the polar curve $r=2\cos\left(3\theta-\dfrac{\pi}{4}\rig
 $$
 
 
-A = 2 \displaystyle \int_{-\pi/12}^{\pi/4} \cos^2\left(3\theta-\dfrac{\pi}{4}\right) \:\textrm{d}\theta.
+A = 2 \displaystyle \int_{-\pi/12}^{\pi/4} \cos^2\left(3\theta-\dfrac{\pi}{4}\right) \:\text{d}\theta.
 
 
 $$
@@ -196,7 +196,7 @@ The given polar curve is the polar rose with $3$ petals, and we know that the ar
 $$
 
 
-A = 2 \int_{-\pi/12}^{\pi/4} \cos^2\left(3\theta-\dfrac{\pi}{4}\right) \:\textrm{d}\theta.
+A = 2 \int_{-\pi/12}^{\pi/4} \cos^2\left(3\theta-\dfrac{\pi}{4}\right) \:\text{d}\theta.
 
 
 $$
@@ -246,7 +246,7 @@ Therefore, the total area of the given polar curve can be obtained if the curve 
 $$
 
 
-A_\textrm{total} = 2 \int_{-\pi/12}^{11\pi/12} \cos^2\left(3\theta-\dfrac{\pi}{4}\right) \:\textrm{d}\theta
+A_\text{total} = 2 \int_{-\pi/12}^{11\pi/12} \cos^2\left(3\theta-\dfrac{\pi}{4}\right) \:\text{d}\theta
 
 
 $$

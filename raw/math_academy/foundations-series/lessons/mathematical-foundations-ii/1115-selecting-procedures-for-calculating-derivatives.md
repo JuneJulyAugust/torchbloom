@@ -44,7 +44,7 @@ Differentiating gives
 $$
 
 
-\dfrac{\textrm d y}{\textrm d u} = 4u^3,\qquad \dfrac{\textrm{d}u}{\textrm d v} = -\sin{v},\qquad \dfrac{\textrm{d}v}{\textrm d x} = 2.
+\dfrac{\textrm d y}{\textrm d u} = 4u^3,\qquad \dfrac{\text{d}u}{\textrm d v} = -\sin{v},\qquad \dfrac{\text{d}v}{\textrm d x} = 2.
 
 
 $$
@@ -93,7 +93,7 @@ $$
 
 #### Question
 
-Given that $y =\dfrac{e^{3x}}{2^{x}+1},$ find $\dfrac{\textrm{d}y}{\textrm{d}x}.$
+Given that $y =\dfrac{e^{3x}}{2^{x}+1},$ find $\dfrac{\text{d}y}{\text{d}x}.$
 
 #### Explanation
 
@@ -116,7 +116,7 @@ Now, applying the quotient rule and simplifying, we have
 $$
 
 
-\begin{aligned} \dfrac{\textrm{d}y}{\textrm{d}x} &= \dfrac{u'(x)\cdot v(x) - u(x)\cdot v'(x)}{[v(x)]^2} \\\[5pt] &=\dfrac{3e^{3x} \cdot \left( 2^{x}+1\right) - e^{3x} \cdot \left(2^x \cdot \ln2\right)}{\left(2^{ x}+1 \right)^2}\\\[5pt] &=\dfrac{3e^{3x}2^{x} + 3e^{3x} - e^{3x}2^{x}\ln 2}{\left(2^{ x}+1 \right)^2}\\\[5pt] &=\dfrac{e^{3x} \left( 3(2^{x}) - 2^{x} \ln 2 +3\right)}{\left(2^{x}+1 \right)^2} \end{aligned}
+\begin{aligned} \dfrac{\text{d}y}{\text{d}x} &= \dfrac{u'(x)\cdot v(x) - u(x)\cdot v'(x)}{[v(x)]^2} \\[5pt] &=\dfrac{3e^{3x} \cdot \left( 2^{x}+1\right) - e^{3x} \cdot \left(2^x \cdot \ln2\right)}{\left(2^{ x}+1 \right)^2}\\[5pt] &=\dfrac{3e^{3x}2^{x} + 3e^{3x} - e^{3x}2^{x}\ln 2}{\left(2^{ x}+1 \right)^2}\\[5pt] &=\dfrac{e^{3x} \left( 3(2^{x}) - 2^{x} \ln 2 +3\right)}{\left(2^{x}+1 \right)^2} \end{aligned}
 
 
 $$

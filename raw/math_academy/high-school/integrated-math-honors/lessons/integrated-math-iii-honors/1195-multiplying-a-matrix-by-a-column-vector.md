@@ -72,7 +72,7 @@ We multiply each row in the matrix by the column vector using the dot product. M
 $$
 
 
-\begin{aligned}[\begin{aligned}1 & 3 \\ 7 & −2\end{aligned}][\begin{aligned}2 \\ 5\end{aligned}] & =[\begin{aligned}1⋅2+3⋅5 \\ ∗\end{aligned}]=[\begin{aligned}17 \\ ∗\end{aligned}].\end{aligned}
+\begin{aligned}[\begin{matrix}1 & 3 \\ 7 & −2\end{matrix}][\begin{matrix}2 \\ 5\end{matrix}] & =[\begin{matrix}1⋅2+3⋅5 \\ ∗\end{matrix}]=[\begin{matrix}17 \\ ∗\end{matrix}].\end{aligned}
 
 
 $$
@@ -82,7 +82,7 @@ Multiplying the second row, we get
 $$
 
 
-\begin{aligned}[\begin{aligned}1 & 3 \\ 7 & −2\end{aligned}][\begin{aligned}2 \\ 5\end{aligned}] & =[\begin{aligned}17 \\ 7⋅2+(−2)⋅5\end{aligned}]=[\begin{aligned}17 \\ 4\end{aligned}].\end{aligned}
+\begin{aligned}[\begin{matrix}1 & 3 \\ 7 & −2\end{matrix}][\begin{matrix}2 \\ 5\end{matrix}] & =[\begin{matrix}17 \\ 7⋅2+(−2)⋅5\end{matrix}]=[\begin{matrix}17 \\ 4\end{matrix}].\end{aligned}
 
 
 $$
@@ -102,7 +102,7 @@ We multiply each row in the matrix by the column vector using the dot product:
 $$
 
 
-\begin{aligned}𝐴𝐱 & =\begin{aligned}−3 & 1 & 1 \\ 2 & 0 & 0 \\ −1 & −2 & 5\end{aligned}\begin{aligned}1 \\ −2 \\ 0\end{aligned} \\ & =\begin{aligned}(−3)⋅1+1⋅(−2)+1⋅0 \\ 2⋅1+0⋅(−2)+0⋅0 \\ (−1)⋅1+(−2)⋅(−2)+5⋅0\end{aligned} \\ & =\begin{aligned}−3−2+0 \\ 2+0+0 \\ −1+4+0\end{aligned} \\ & =\begin{aligned}−5 \\ 2 \\ 3\end{aligned}\end{aligned}
+\begin{aligned}𝐴𝐱 & =\begin{matrix}−3 & 1 & 1 \\ 2 & 0 & 0 \\ −1 & −2 & 5\end{matrix}\begin{matrix}1 \\ −2 \\ 0\end{matrix} \\ & =\begin{matrix}(−3)⋅1+1⋅(−2)+1⋅0 \\ 2⋅1+0⋅(−2)+0⋅0 \\ (−1)⋅1+(−2)⋅(−2)+5⋅0\end{matrix} \\ & =\begin{matrix}−3−2+0 \\ 2+0+0 \\ −1+4+0\end{matrix} \\ & =\begin{matrix}−5 \\ 2 \\ 3\end{matrix}\end{aligned}
 
 
 $$
@@ -120,7 +120,7 @@ We multiply each row in the matrix by the column vector using the dot product:
 $$
 
 
-\begin{aligned}𝐴𝐱 & =[\begin{aligned}𝑎 & 𝑐 \\ 𝑏 & 𝑑\end{aligned}][\begin{aligned}3 \\ 2\end{aligned}] \\ & =[\begin{aligned}𝑎⋅3+𝑐⋅2 \\ 𝑏⋅3+𝑑⋅2\end{aligned}] \\ & =[\begin{aligned}3𝑎+2𝑐 \\ 3𝑏+2𝑑\end{aligned}]\end{aligned}
+\begin{aligned}𝐴𝐱 & =[\begin{matrix}𝑎 & 𝑐 \\ 𝑏 & 𝑑\end{matrix}][\begin{matrix}3 \\ 2\end{matrix}] \\ & =[\begin{matrix}𝑎⋅3+𝑐⋅2 \\ 𝑏⋅3+𝑑⋅2\end{matrix}] \\ & =[\begin{matrix}3𝑎+2𝑐 \\ 3𝑏+2𝑑\end{matrix}]\end{aligned}
 
 
 $$
@@ -132,7 +132,7 @@ An alternative, yet equivalent, procedure for multiplying a matrix by a column v
 $$
 
 
-\begin{aligned}𝐴𝐱 & =[\begin{aligned}𝑎 & 𝑐 \\ 𝑏 & 𝑑\end{aligned}][\begin{aligned}3 \\ 2\end{aligned}] \\ & =3[\begin{aligned}𝑎 \\ 𝑏\end{aligned}]+2[\begin{aligned}𝑐 \\ 𝑑\end{aligned}] \\ & =[\begin{aligned}3𝑎 \\ 3𝑏\end{aligned}]+[\begin{aligned}2𝑐 \\ 2𝑑\end{aligned}] \\ & =[\begin{aligned}3𝑎+2𝑐 \\ 3𝑏+2𝑑\end{aligned}]\end{aligned}
+\begin{aligned}𝐴𝐱 & =[\begin{matrix}𝑎 & 𝑐 \\ 𝑏 & 𝑑\end{matrix}][\begin{matrix}3 \\ 2\end{matrix}] \\ & =3[\begin{matrix}𝑎 \\ 𝑏\end{matrix}]+2[\begin{matrix}𝑐 \\ 𝑑\end{matrix}] \\ & =[\begin{matrix}3𝑎 \\ 3𝑏\end{matrix}]+[\begin{matrix}2𝑐 \\ 2𝑑\end{matrix}] \\ & =[\begin{matrix}3𝑎+2𝑐 \\ 3𝑏+2𝑑\end{matrix}]\end{aligned}
 
 
 $$

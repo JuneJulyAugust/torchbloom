@@ -26,7 +26,7 @@ For example, let's calculate the integral
 $$
 
 
-\displaystyle \int_{-5}^4 f(x) \,\textrm{d}x.
+\displaystyle \int_{-5}^4 f(x) \,\text{d}x.
 
 
 $$
@@ -42,7 +42,7 @@ Doing this, we get the following:
 $$
 
 
-\begin{aligned}∫_{4−5}^{}𝑓(𝑥)\,d𝑥 & =∫_{0−5}^{}𝑓(𝑥)\,d𝑥+∫_{40}^{}𝑓(𝑥)\,d𝑥 \\ & =∫_{0−5}^{}𝑥\,d𝑥+∫_{40}^{}5\,d𝑥 \\ & =\frac{1}{2}𝑥^{2}_{0−5}^{}+5𝑥_{40}^{} \\ & =\frac{1}{2}[0^{2}−(−5)^{2}]+5[4−0] \\ & =−\frac{25}{2}+20 \\ & =\frac{15}{2}\end{aligned}
+\begin{aligned}∫_{4−5}𝑓(𝑥)\,d𝑥 & =∫_{0−5}𝑓(𝑥)\,d𝑥+∫_{40}𝑓(𝑥)\,d𝑥 \\ & =∫_{0−5}𝑥\,d𝑥+∫_{40}5\,d𝑥 \\ & =\frac{1}{2}𝑥^{2}_{0−5}+5𝑥_{40} \\ & =\frac{1}{2}[0^{2}−(−5)^{2}]+5[4−0] \\ & =−\frac{25}{2}+20 \\ & =\frac{15}{2}\end{aligned}
 
 
 $$
@@ -51,7 +51,7 @@ $$
 
 #### Question
 
-The function $f(x)$ is defined below. What is the value of $\displaystyle \int_{-2}^5 f(x) \,\textrm{d}x\,?$
+The function $f(x)$ is defined below. What is the value of $\displaystyle \int_{-2}^5 f(x) \,\text{d}x\,?$
 
 $$
 
@@ -68,7 +68,7 @@ By the additive property of the definite integral, we have
 $$
 
 
-\begin{aligned}∫_{5−2}^{}𝑓(𝑥)\,d𝑥 & =∫_{0−2}^{}3\,d𝑥+∫_{50}^{}(2𝑥+3)\,d𝑥 \\ & =3𝑥_{0−2}^{}+(𝑥^{2}+3𝑥)_{50}^{} \\ & =[3(0)−3(−2)]+[(5^{2}+3(5))−(0^{2}+3(0))] \\ & =6+25+15 \\ & =46.\end{aligned}
+\begin{aligned}∫_{5−2}𝑓(𝑥)\,d𝑥 & =∫_{0−2}3\,d𝑥+∫_{50}(2𝑥+3)\,d𝑥 \\ & =3𝑥_{0−2}+(𝑥^{2}+3𝑥)_{50} \\ & =[3(0)−3(−2)]+[(5^{2}+3(5))−(0^{2}+3(0))] \\ & =6+25+15 \\ & =46.\end{aligned}
 
 
 $$
@@ -79,7 +79,7 @@ $$
 
 ![Instructional graphic](../../../lesson-assets/ap-calculus-bc/topic-626/74e14dd95800d9fa.png)
 
-The graph of $y=f(x),$ shown above, consists of two line segments. Find the value of $\displaystyle \int_{0}^{4} f(x)\: \textrm{d}x.$
+The graph of $y=f(x),$ shown above, consists of two line segments. Find the value of $\displaystyle \int_{0}^{4} f(x)\: \text{d}x.$
 
 #### Explanation
 
@@ -88,7 +88,7 @@ The graph consists of two parts: the line segment for $x \in [0,2)$ and the line
 $$
 
 
-\int_{0}^{4} f(x)\: \textrm{d}x = \underbrace{\int_{0}^{2} f(x)\: \textrm{d}x}_{A_1} + \underbrace{\int_{2}^{4} f(x)\: \textrm{d}x}_{-A_2}.
+\int_{0}^{4} f(x)\: \text{d}x = \underbrace{\int_{0}^{2} f(x)\: \text{d}x}_{A_1} + \underbrace{\int_{2}^{4} f(x)\: \text{d}x}_{-A_2}.
 
 
 $$
@@ -102,7 +102,7 @@ Finally, we obtain
 $$
 
 
-\begin{aligned}∫_{40}^{}𝑓(𝑥)\,d𝑥 & =𝐴_{1}−𝐴_{2} \\ & =4−2 \\ & =2.\end{aligned}
+\begin{aligned}∫_{40}𝑓(𝑥)\,d𝑥 & =𝐴_{1}−𝐴_{2} \\ & =4−2 \\ & =2.\end{aligned}
 
 
 $$
@@ -113,7 +113,7 @@ $$
 
 ![Instructional graphic](../../../lesson-assets/ap-calculus-bc/topic-626/a0ec77bbeb2141c6.png)
 
-Given the graph of $y=f(x)$ above, find the value of $\displaystyle \int_{-4}^4 f(x) \,\textrm{d}x.$
+Given the graph of $y=f(x)$ above, find the value of $\displaystyle \int_{-4}^4 f(x) \,\text{d}x.$
 
 #### Explanation
 
@@ -122,7 +122,7 @@ The graph consists of four parts: the arc of a semi-circle for $x\in [-4,0],$ a 
 $$
 
 
-\begin{aligned}∫_{4−4}^{}𝑓(𝑥)\,d𝑥 & =∫_{0−4}^{}𝑓(𝑥)\,d𝑥+∫_{20}^{}𝑓(𝑥)\,d𝑥+∫_{22}^{}𝑓(𝑥)\,d𝑥+∫_{42}^{}𝑓(𝑥)\,d𝑥 \\ & =\underset{𝐴_{1}}{\underset{}{∫_{0−4}^{}𝑓(𝑥)\,d𝑥}}+\underset{−𝐴_{2}}{\underset{}{∫_{20}^{}𝑓(𝑥)\,d𝑥}}+0+\underset{𝐴_{3}}{\underset{}{∫_{42}^{}𝑓(𝑥)\,d𝑥}}.\end{aligned}
+\begin{aligned}∫_{4−4}𝑓(𝑥)\,d𝑥 & =∫_{0−4}𝑓(𝑥)\,d𝑥+∫_{20}𝑓(𝑥)\,d𝑥+∫_{22}𝑓(𝑥)\,d𝑥+∫_{42}𝑓(𝑥)\,d𝑥 \\ & =\underset{𝐴_{1}}{\underset{}{∫_{0−4}𝑓(𝑥)\,d𝑥}}+\underset{−𝐴_{2}}{\underset{}{∫_{20}𝑓(𝑥)\,d𝑥}}+0+\underset{𝐴_{3}}{\underset{}{∫_{42}𝑓(𝑥)\,d𝑥}}.\end{aligned}
 
 
 $$
@@ -138,7 +138,7 @@ Finally,
 $$
 
 
-\begin{aligned}∫_{4−4}^{}𝑓(𝑥)\,d𝑥 & =𝐴_{1}−𝐴_{2}+𝐴_{3} \\ & =2𝜋−2+2 \\ & =2𝜋.\end{aligned}
+\begin{aligned}∫_{4−4}𝑓(𝑥)\,d𝑥 & =𝐴_{1}−𝐴_{2}+𝐴_{3} \\ & =2𝜋−2+2 \\ & =2𝜋.\end{aligned}
 
 
 $$

@@ -55,7 +55,7 @@ $$
 
 
 
-\begin{aligned} \dfrac{1}{5-3x} & = (5-3x)^{-1} \\\[5pt] & = \left(5\left(1-\dfrac{3}{5}x\right)\right)^{-1} \\\[5pt] & = (5)^{-1}\left(1-\dfrac{3}{5}x\right)^{-1} \\\[5pt] & = \dfrac{1}{5}\left(1-\dfrac{3}{5}x\right)^{-1}. \end{aligned}
+\begin{aligned} \dfrac{1}{5-3x} & = (5-3x)^{-1} \\[5pt] & = \left(5\left(1-\dfrac{3}{5}x\right)\right)^{-1} \\[5pt] & = (5)^{-1}\left(1-\dfrac{3}{5}x\right)^{-1} \\[5pt] & = \dfrac{1}{5}\left(1-\dfrac{3}{5}x\right)^{-1}. \end{aligned}
 
 
 
@@ -111,7 +111,7 @@ $$
 
 
 
-\begin{aligned} \dfrac{128}{(4+x)^3} & = 128(4+x)^{-3} \\\[5pt] & = 128\left(4\left(1+\dfrac{1}{4}x\right)\right)^{-3} \\\[5pt] & = 128(4)^{-3}\left(1+\dfrac{1}{4}x\right)^{-3} \\\[5pt] & = \dfrac{128}{64}\left(1+\dfrac{1}{4}x\right)^{-3} \\\[5pt] & = 2\left(1+\dfrac{1}{4}x\right)^{-3} \end{aligned}
+\begin{aligned} \dfrac{128}{(4+x)^3} & = 128(4+x)^{-3} \\[5pt] & = 128\left(4\left(1+\dfrac{1}{4}x\right)\right)^{-3} \\[5pt] & = 128(4)^{-3}\left(1+\dfrac{1}{4}x\right)^{-3} \\[5pt] & = \dfrac{128}{64}\left(1+\dfrac{1}{4}x\right)^{-3} \\[5pt] & = 2\left(1+\dfrac{1}{4}x\right)^{-3} \end{aligned}
 
 
 
@@ -169,7 +169,7 @@ $$
 
 
 
-\begin{aligned} \dfrac{20}{\sqrt{16+64x}} & = \dfrac{20}{(16+64x)^{{1}/{2}}} \\\[5pt] & = 20(16+64x)^{-{1}/{2}} \\\[5pt] & = 20\left(16\left(1+4x\right)\right)^{-{1}/{2}} \\\[5pt] & = 20(16)^{-{1}/{2}}\left(1+4x\right)^{-{1}/{2}} \\\[5pt] & = \dfrac{20}{(16)^{{1}/{2}}}\left(1+4x\right)^{-{1}/{2}} \\\[5pt] & = \dfrac{20}{4}\left(1+4x\right)^{-{1}/{2}} \\\[5pt] & = 5\left(1+4x\right)^{-{1}/{2}} \end{aligned}
+\begin{aligned} \dfrac{20}{\sqrt{16+64x}} & = \dfrac{20}{(16+64x)^{{1}/{2}}} \\[5pt] & = 20(16+64x)^{-{1}/{2}} \\[5pt] & = 20\left(16\left(1+4x\right)\right)^{-{1}/{2}} \\[5pt] & = 20(16)^{-{1}/{2}}\left(1+4x\right)^{-{1}/{2}} \\[5pt] & = \dfrac{20}{(16)^{{1}/{2}}}\left(1+4x\right)^{-{1}/{2}} \\[5pt] & = \dfrac{20}{4}\left(1+4x\right)^{-{1}/{2}} \\[5pt] & = 5\left(1+4x\right)^{-{1}/{2}} \end{aligned}
 
 
 

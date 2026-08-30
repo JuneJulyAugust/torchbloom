@@ -42,7 +42,7 @@ We start with the unit conversion between kilometers and meters:
 
 $$
 
-1\, \textrm{kilometer} = 1,000 \, \textrm{meters}
+1\, \text{kilometer} = 1,000 \, \text{meters}
 
 $$
 
@@ -68,7 +68,7 @@ We start with the unit conversion between meters and centimeters:
 
 $$
 
-1\, \textrm{meter} =100\, \textrm{centimeters}
+1\, \text{meter} =100\, \text{centimeters}
 
 $$
 
@@ -86,7 +86,7 @@ Therefore, $46$ meters equals $4,600$ centimeters.
 
 #### Question
 
-Express $78\,\textrm{cm}$ in millimeters.
+Express $78\,\text{cm}$ in millimeters.
 
 #### Explanation
 
@@ -96,7 +96,7 @@ We start with the unit conversion between centimeters and millimeters:
 
 $$
 
-1 \,\textrm{cm} = 10 \,\textrm{mm}
+1 \,\text{cm} = 10 \,\text{mm}
 
 $$
 
@@ -108,4 +108,4 @@ $$
 
 $$
 
-Therefore, $78\,\textrm{cm}$ equals $780\,\textrm{mm}.$
+Therefore, $78\,\text{cm}$ equals $780\,\text{mm}.$

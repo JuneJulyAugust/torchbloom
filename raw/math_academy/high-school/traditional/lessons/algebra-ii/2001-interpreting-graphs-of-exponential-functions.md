@@ -107,7 +107,7 @@ $$
 
 
 
-P(4) = 100 \cdot 0.9^4 \approx 66\,\textrm{kPa}
+P(4) = 100 \cdot 0.9^4 \approx 66\,\text{kPa}
 
 
 

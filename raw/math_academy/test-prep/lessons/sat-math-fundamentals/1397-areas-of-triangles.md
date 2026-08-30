@@ -118,15 +118,15 @@ $$
 
 #### Question
 
-Consider the triangles $\triangle ABC$ and $\triangle CDE$ shown below. If the area of $\triangle CDE$ is $25 \textrm{cm}^2,$ find the area of $\triangle ABC.$
+Consider the triangles $\triangle ABC$ and $\triangle CDE$ shown below. If the area of $\triangle CDE$ is $25 \text{cm}^2,$ find the area of $\triangle ABC.$
 
 ![Instructional graphic](../../../lesson-assets/sat-math-fundamentals/topic-1397/5171d50dabb5a5b1.png)
 
 #### Explanation
 
-Let's consider $\triangle CDE.$ We can see that $\overline{CD}$ is the height corresponding to the base $\overline{DE}$ and that $DE=10\textrm{cm}.$
+Let's consider $\triangle CDE.$ We can see that $\overline{CD}$ is the height corresponding to the base $\overline{DE}$ and that $DE=10\text{cm}.$
 
-Since the area of $\triangle CDE$ is $25\textrm{cm}^2,$ we get
+Since the area of $\triangle CDE$ is $25\text{cm}^2,$ we get
 
 $$
 

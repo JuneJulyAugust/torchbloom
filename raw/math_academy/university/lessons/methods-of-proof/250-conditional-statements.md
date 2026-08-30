@@ -51,7 +51,7 @@ Let's break this down into cases:
 
 - When $A = \textrm T$ and $B = \textrm F,$ we have
 
-Therefore, if $A$ is true, then $A \Rightarrow B$ is $\boxed{\color{blue}\textrm{sometimes false}}.$
+Therefore, if $A$ is true, then $A \Rightarrow B$ is $\boxed{\color{blue}\text{sometimes false}}.$
 
 The complete truth table for $A\Rightarrow B$ is shown below:
 

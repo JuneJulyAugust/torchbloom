@@ -32,7 +32,7 @@ An analogous result, known as **Green's theorem,** exists for double integrals. 
 $$
 
 
-\iint\limits_D \left(\frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y}\right) \: \textrm{d}A = \oint\limits_{C} P\,\mathrm{d}x + Q\,\mathrm{d}y.
+\iint\limits_D \left(\frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y}\right) \: \text{d}A = \oint\limits_{C} P\,\mathrm{d}x + Q\,\mathrm{d}y.
 
 
 $$
@@ -118,7 +118,7 @@ We will use Green's theorem, which states that
 $$
 
 
-\iint\limits_D \left(\frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y}\right) \: \textrm{d}A = \oint\limits_{C} P\,\mathrm{d}x + Q\,\mathrm{d}y.
+\iint\limits_D \left(\frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y}\right) \: \text{d}A = \oint\limits_{C} P\,\mathrm{d}x + Q\,\mathrm{d}y.
 
 
 $$
@@ -138,7 +138,7 @@ Applying Green's theorem, we obtain
 $$
 
 
-\begin{aligned}\underset{𝐶}{∮}𝑥𝑦^{2}\,d𝑥+2𝑥^{2}𝑦\,d𝑦 & =\underset{𝐷}{∬}(\frac{𝜕𝑄}{𝜕𝑥}−\frac{𝜕𝑃}{𝜕𝑦})\,d𝐴 \\ & =\underset{𝐷}{∬}(4𝑥𝑦−2𝑥𝑦)\,d𝐴 \\ & =∫_{10}^{}∫_{2𝑥0}^{}2𝑥𝑦\,d𝑦\,d𝑥.\end{aligned}
+\begin{aligned}\underset{𝐶}{∮}𝑥𝑦^{2}\,d𝑥+2𝑥^{2}𝑦\,d𝑦 & =\underset{𝐷}{∬}(\frac{𝜕𝑄}{𝜕𝑥}−\frac{𝜕𝑃}{𝜕𝑦})\,d𝐴 \\ & =\underset{𝐷}{∬}(4𝑥𝑦−2𝑥𝑦)\,d𝐴 \\ & =∫_{10}∫_{2𝑥0}2𝑥𝑦\,d𝑦\,d𝑥.\end{aligned}
 
 
 $$
@@ -148,7 +148,7 @@ Calculating this repeated integral using the usual methods, we obtain
 $$
 
 
-\int_0^1 \int _0^{2x} 2xy \,\textrm d{y} \: \textrm{d}x = 1.
+\int_0^1 \int _0^{2x} 2xy \,\textrm d{y} \: \text{d}x = 1.
 
 
 $$
@@ -266,7 +266,7 @@ Therefore, applying Green's Theorem, we get
 $$
 
 
-\begin{aligned}\underset{𝐶}{∮}𝑥sin⁡𝑦\,d𝑥+(𝑥^{2}cos⁡𝑦−𝑦^{2})\,d𝑦 & =\underset{𝐷}{∬}(\frac{𝜕𝑄}{𝜕𝑥}−\frac{𝜕𝑃}{𝜕𝑦})\,d𝐴 \\ & =\underset{𝐷}{∬}(2𝑥cos⁡𝑦−𝑥cos⁡𝑦)\,d𝐴 \\ & =\underset{𝐷}{∬}𝑥cos⁡𝑦\,d𝐴 \\ & =∫_{10}^{}∫_{𝑦−𝑦}^{}𝑥cos⁡𝑦\,d𝑥\,d𝑦\end{aligned}
+\begin{aligned}\underset{𝐶}{∮}𝑥sin⁡𝑦\,d𝑥+(𝑥^{2}cos⁡𝑦−𝑦^{2})\,d𝑦 & =\underset{𝐷}{∬}(\frac{𝜕𝑄}{𝜕𝑥}−\frac{𝜕𝑃}{𝜕𝑦})\,d𝐴 \\ & =\underset{𝐷}{∬}(2𝑥cos⁡𝑦−𝑥cos⁡𝑦)\,d𝐴 \\ & =\underset{𝐷}{∬}𝑥cos⁡𝑦\,d𝐴 \\ & =∫_{10}∫_{𝑦−𝑦}𝑥cos⁡𝑦\,d𝑥\,d𝑦\end{aligned}
 
 
 $$
@@ -318,7 +318,7 @@ Therefore, applying Green's Theorem, we get
 $$
 
 
-\begin{aligned}\underset{𝐶}{∮}4𝑥^{2}𝑦\,d𝑥+2𝑦^{2}\,d𝑦 & =\underset{𝐷}{∬}(\frac{𝜕𝑄}{𝜕𝑥}−\frac{𝜕𝑃}{𝜕𝑦})d𝐴 \\ & =\underset{𝐷}{∬}(0−4𝑥^{2})\,d𝐴 \\ & =∫_{10}^{}∫_{22𝑥}^{}(−4𝑥^{2})\,d𝑦\,d𝑥 \\ & =−4∫_{10}^{}𝑥^{2}[𝑦]_{22𝑥}^{}\,d𝑥 \\ & =−4∫_{10}^{}𝑥^{2}(2−2𝑥)\,d𝑥 \\ & =−8∫_{10}^{}𝑥^{2}(1−𝑥)\,d𝑥 \\ & =−8∫_{10}^{}𝑥^{2}−𝑥^{3}\,d𝑥 \\ & =−8[\frac{𝑥^{3}}{3}−\frac{𝑥^{4}}{4}]_{10}^{} \\ & =−8(\frac{1}{3}−\frac{1}{4}) \\ & =−8⋅\frac{1}{12} \\ & =−\frac{2}{3}.\end{aligned}
+\begin{aligned}\underset{𝐶}{∮}4𝑥^{2}𝑦\,d𝑥+2𝑦^{2}\,d𝑦 & =\underset{𝐷}{∬}(\frac{𝜕𝑄}{𝜕𝑥}−\frac{𝜕𝑃}{𝜕𝑦})d𝐴 \\ & =\underset{𝐷}{∬}(0−4𝑥^{2})\,d𝐴 \\ & =∫_{10}∫_{22𝑥}(−4𝑥^{2})\,d𝑦\,d𝑥 \\ & =−4∫_{10}𝑥^{2}[𝑦]_{22𝑥}\,d𝑥 \\ & =−4∫_{10}𝑥^{2}(2−2𝑥)\,d𝑥 \\ & =−8∫_{10}𝑥^{2}(1−𝑥)\,d𝑥 \\ & =−8∫_{10}𝑥^{2}−𝑥^{3}\,d𝑥 \\ & =−8[\frac{𝑥^{3}}{3}−\frac{𝑥^{4}}{4}]_{10} \\ & =−8(\frac{1}{3}−\frac{1}{4}) \\ & =−8⋅\frac{1}{12} \\ & =−\frac{2}{3}.\end{aligned}
 
 
 $$
@@ -357,7 +357,7 @@ $$
 
 $$
 
-As a result, we can recover the original scalar curl by taking the dot product of $\textrm{curl}\,\mathbf F$ with the vector $\mathbf k\mathbin{:}$
+As a result, we can recover the original scalar curl by taking the dot product of $\text{curl}\,\mathbf F$ with the vector $\mathbf k\mathbin{:}$
 
 $$
 

@@ -19,7 +19,7 @@ For example, let's consider the integral
 $$
 
 
-\int \dfrac{1}{\left(x+3\right)\sqrt{-x^2-6x}} \textrm{d}x.
+\int \dfrac{1}{\left(x+3\right)\sqrt{-x^2-6x}} \text{d}x.
 
 
 $$
@@ -39,7 +39,7 @@ If we plug the above into our integral and collect a factor of $9$ under the squ
 $$
 
 
-\begin{aligned}∫\frac{1}{(𝑥+3)\sqrt{√−𝑥^{2}−6𝑥}}d𝑥 & =∫\frac{1}{(𝑥+3)\sqrt{√9−(𝑥+3)^{2}}}\,d𝑥 \\ & =∫\frac{1}{3(𝑥+3)\sqrt{√1−(\frac{𝑥+3}{3})^{2}}}\,d𝑥 \\ & =\frac{1}{9}∫\frac{1}{(\frac{𝑥+3}{3})\sqrt{√1−(\frac{𝑥+3}{3})^{2}}}\,d𝑥.\end{aligned}
+\begin{aligned}∫\frac{1}{(𝑥+3)\sqrt{−𝑥^{2}−6𝑥}}d𝑥 & =∫\frac{1}{(𝑥+3)\sqrt{9−(𝑥+3)^{2}}}\,d𝑥 \\ & =∫\frac{1}{3(𝑥+3)\sqrt{1−(\frac{𝑥+3}{3})^{2}}}\,d𝑥 \\ & =\frac{1}{9}∫\frac{1}{(\frac{𝑥+3}{3})\sqrt{1−(\frac{𝑥+3}{3})^{2}}}\,d𝑥.\end{aligned}
 
 
 $$
@@ -49,7 +49,7 @@ This now looks more familiar! Let $u = \dfrac {x+3}{3}.$ Then
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x}=\dfrac{1}{3} \quad\Longrightarrow\quad \textrm{d}x = 3\,\textrm{d}u.
+\dfrac{\text{d}u}{\text{d}x}=\dfrac{1}{3} \quad\Longrightarrow\quad \text{d}x = 3\,\text{d}u.
 
 
 $$
@@ -59,17 +59,17 @@ We can now write the integral as
 $$
 
 
-\begin{aligned}∫\frac{1}{(𝑥+3)\sqrt{√−𝑥^{2}−6𝑥}}d𝑥 & =\frac{1}{9}∫\frac{1}{(\frac{𝑥+3}{3})\sqrt{√1−(\frac{𝑥+3}{3})^{2}}}\,d𝑥 \\ & =\frac{1}{9}∫\frac{1}{𝑢\sqrt{√1−𝑢^{2}}}⋅(3\,d𝑢) \\ & =\frac{1}{3}∫\frac{1}{𝑢\sqrt{√1−𝑢^{2}}}\,d𝑢.\end{aligned}
+\begin{aligned}∫\frac{1}{(𝑥+3)\sqrt{−𝑥^{2}−6𝑥}}d𝑥 & =\frac{1}{9}∫\frac{1}{(\frac{𝑥+3}{3})\sqrt{1−(\frac{𝑥+3}{3})^{2}}}\,d𝑥 \\ & =\frac{1}{9}∫\frac{1}{𝑢\sqrt{1−𝑢^{2}}}⋅(3\,d𝑢) \\ & =\frac{1}{3}∫\frac{1}{𝑢\sqrt{1−𝑢^{2}}}\,d𝑢.\end{aligned}
 
 
 $$
 
-This is a basic integral for an inverse reciprocal hyperbolic function, and we can solve it in one step: $\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+This is a basic integral for an inverse reciprocal hyperbolic function, and we can solve it in one step: $$
 
 $$
 
 
-\begin{aligned}\frac{1}{3}∫\frac{1}{𝑢\sqrt{√1−𝑢^{2}}}\,d𝑢 & =−\frac{1}{3}arsech⁡𝑢+𝐶 \\ & =−\frac{1}{3}arsech⁡(\frac{𝑥+3}{3})+𝐶.\end{aligned}
+\begin{aligned}\frac{1}{3}∫\frac{1}{𝑢\sqrt{1−𝑢^{2}}}\,d𝑢 & =−\frac{1}{3}arsech⁡𝑢+𝐶 \\ & =−\frac{1}{3}arsech⁡(\frac{𝑥+3}{3})+𝐶.\end{aligned}
 
 
 $$
@@ -78,7 +78,7 @@ $$
 
 #### Question
 
-Calculate $\displaystyle \int \dfrac{1}{4-(2x-2)^2} \textrm{d}x.$
+Calculate $\displaystyle \int \dfrac{1}{4-(2x-2)^2} \text{d}x.$
 
 #### Explanation
 
@@ -87,7 +87,7 @@ First, we note that
 $$
 
 
-\int \dfrac{1}{4-(2x-2)^2}\textrm{d}x = \int \dfrac{1}{4-4(x-1)^2}\textrm{d}x = \dfrac{1}{4} {\int}\dfrac{1}{ 1 - (x-1)^2 }\textrm{d}x.
+\int \dfrac{1}{4-(2x-2)^2}\text{d}x = \int \dfrac{1}{4-4(x-1)^2}\text{d}x = \dfrac{1}{4} {\int}\dfrac{1}{ 1 - (x-1)^2 }\text{d}x.
 
 
 $$
@@ -97,7 +97,7 @@ Let $u = x-1.$ Then, we have
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x}=1 \quad\Longrightarrow\quad \textrm{d}x = \textrm{d}u.
+\dfrac{\text{d}u}{\text{d}x}=1 \quad\Longrightarrow\quad \text{d}x = \text{d}u.
 
 
 $$
@@ -118,7 +118,7 @@ Note that this result is subject to the condition $\left|{x-1} \right| > 1.$
 
 #### Question
 
-${\displaystyle \int \dfrac{1}{(x-1)\sqrt{2x-x^2}} \textrm{d}x=}$
+${\displaystyle \int \dfrac{1}{(x-1)\sqrt{2x-x^2}} \text{d}x=}$
 
 #### Explanation
 
@@ -127,7 +127,7 @@ First, we complete the square for the argument of the square root in the denomin
 $$
 
 
-\begin{aligned} 2x-x^2 & = -(x^2 - 2x)\\\[5pt] & = -(x^2 - 2\cdot x + 1^2-1^2)\\\[5pt] & = -((x-1)^2 - 1) \\\[5pt] &= 1 - (x-1)^2 \end{aligned}
+\begin{aligned} 2x-x^2 & = -(x^2 - 2x)\\[5pt] & = -(x^2 - 2\cdot x + 1^2-1^2)\\[5pt] & = -((x-1)^2 - 1) \\[5pt] &= 1 - (x-1)^2 \end{aligned}
 
 
 $$
@@ -137,7 +137,7 @@ Substituting the above into the given integral, we get
 $$
 
 
-\int \dfrac{1}{(x-1)\sqrt{2x-x^2}} \textrm{d}x = \int \dfrac{1}{(x-1)\sqrt { 1-(x-1)^2 } } \, \textrm{d}x.
+\int \dfrac{1}{(x-1)\sqrt{2x-x^2}} \text{d}x = \int \dfrac{1}{(x-1)\sqrt { 1-(x-1)^2 } } \, \text{d}x.
 
 
 $$
@@ -147,7 +147,7 @@ Let $u = x-1.$ Then, we have
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x}=1 \quad\Longrightarrow\quad \textrm{d}x = \textrm{d}u.
+\dfrac{\text{d}u}{\text{d}x}=1 \quad\Longrightarrow\quad \text{d}x = \text{d}u.
 
 
 $$
@@ -157,7 +157,7 @@ Therefore,
 $$
 
 
-\begin{aligned}\begin{aligned}∫\frac{1}{(𝑥−1)\sqrt{√2𝑥−𝑥^{2}}}d𝑥 & =∫\frac{1}{(𝑥−1)\sqrt{√1−(𝑥−1)^{2}}}\,d𝑥 \\ & =∫\frac{1}{𝑢\sqrt{√1−𝑢^{2}}}d𝑢 \\ & =−arsech⁡𝑢+𝐶 \\ & =−arsech⁡(𝑥−1)+𝐶.\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}∫\frac{1}{(𝑥−1)\sqrt{2𝑥−𝑥^{2}}}d𝑥 & =∫\frac{1}{(𝑥−1)\sqrt{1−(𝑥−1)^{2}}}\,d𝑥 \\ & =∫\frac{1}{𝑢\sqrt{1−𝑢^{2}}}d𝑢 \\ & =−arsech⁡𝑢+𝐶 \\ & =−arsech⁡(𝑥−1)+𝐶.\end{matrix}\end{aligned}
 
 
 $$
@@ -166,7 +166,7 @@ $$
 
 #### Question
 
-${\displaystyle \int \dfrac{6}{|3x+9|\sqrt{x^2+6x+10}} \textrm{d}x=}$
+${\displaystyle \int \dfrac{6}{|3x+9|\sqrt{x^2+6x+10}} \text{d}x=}$
 
 #### Explanation
 
@@ -185,7 +185,7 @@ Substituting the above into the given integral, we get
 $$
 
 
-\int \dfrac{6}{|3x\!+\!9|\sqrt{x^2\!+\!6x\!+\!10}} \,\textrm{d}x = \int \dfrac{6}{3|x\!+\!3|\sqrt {1\!+\!(x\!+\!3)^2} } \, \textrm{d}x = {2} \int \dfrac{1}{|x\!+\!3|\sqrt{1\!+\!(x\!+\!3)^2}} \, \textrm{d}x.
+\int \dfrac{6}{|3x\!+\!9|\sqrt{x^2\!+\!6x\!+\!10}} \,\text{d}x = \int \dfrac{6}{3|x\!+\!3|\sqrt {1\!+\!(x\!+\!3)^2} } \, \text{d}x = {2} \int \dfrac{1}{|x\!+\!3|\sqrt{1\!+\!(x\!+\!3)^2}} \, \text{d}x.
 
 
 $$
@@ -195,7 +195,7 @@ Let $u = x+3.$ Then, we have
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x}=1 \quad\Longrightarrow\quad \textrm{d}x = \textrm{d}u.
+\dfrac{\text{d}u}{\text{d}x}=1 \quad\Longrightarrow\quad \text{d}x = \text{d}u.
 
 
 $$
@@ -205,7 +205,7 @@ Therefore,
 $$
 
 
-\begin{aligned}\begin{aligned}2∫\frac{1}{|𝑥+3|\sqrt{√1+(𝑥+3)^{2}}}d𝑥 & =2∫\frac{1}{|𝑢|\sqrt{√1+𝑢^{2}}}\,d𝑢 \\ & =−2arcsch⁡𝑢+𝐶 \\ & =−2arcsch⁡(𝑥+3)+𝐶.\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}2∫\frac{1}{|𝑥+3|\sqrt{1+(𝑥+3)^{2}}}d𝑥 & =2∫\frac{1}{|𝑢|\sqrt{1+𝑢^{2}}}\,d𝑢 \\ & =−2arcsch⁡𝑢+𝐶 \\ & =−2arcsch⁡(𝑥+3)+𝐶.\end{matrix}\end{aligned}
 
 
 $$
@@ -214,7 +214,7 @@ $$
 
 #### Question
 
-$\displaystyle \int \dfrac{1}{3-2x-x^2} \textrm{d}x=$
+$\displaystyle \int \dfrac{1}{3-2x-x^2} \text{d}x=$
 
 #### Explanation
 
@@ -223,7 +223,7 @@ First, we complete the square for the denominator:
 $$
 
 
-\begin{aligned} 3-2x-x^2 & = -(x^2 + 2x - 3)\\\[5pt] & = -(x^2 + 2\cdot x +1^2 - 1^2 - 3)\\\[5pt] & = -((x+1)^2 - 4) \\\[5pt] &= 4 - (x+1)^2 \end{aligned}
+\begin{aligned} 3-2x-x^2 & = -(x^2 + 2x - 3)\\[5pt] & = -(x^2 + 2\cdot x +1^2 - 1^2 - 3)\\[5pt] & = -((x+1)^2 - 4) \\[5pt] &= 4 - (x+1)^2 \end{aligned}
 
 
 $$
@@ -233,7 +233,7 @@ Substituting the above into the denominator of our integral, we get
 $$
 
 
-\int \dfrac{1}{3-2x-x^2}\textrm{d}x = \int \dfrac{1}{4-(x+1)^2}\textrm{d}x = \dfrac{1}{4} {\int}\dfrac{1}{ 1 - \left( \frac{1}{2}(x+1)\right)^2 }\textrm{d}x.
+\int \dfrac{1}{3-2x-x^2}\text{d}x = \int \dfrac{1}{4-(x+1)^2}\text{d}x = \dfrac{1}{4} {\int}\dfrac{1}{ 1 - \left( \frac{1}{2}(x+1)\right)^2 }\text{d}x.
 
 
 $$
@@ -243,7 +243,7 @@ Let $u = \dfrac{1}{2}(x+1).$ Then, we have
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x}=\dfrac{1}{2} \quad\Longrightarrow\quad \textrm{d}x = 2\,\textrm{d}u.
+\dfrac{\text{d}u}{\text{d}x}=\dfrac{1}{2} \quad\Longrightarrow\quad \text{d}x = 2\,\text{d}u.
 
 
 $$

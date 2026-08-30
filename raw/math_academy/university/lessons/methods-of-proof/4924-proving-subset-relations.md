@@ -228,7 +228,7 @@ Consider the following sets.
 $$
 
 
-A = \{ x \in \Bbb Z : x \equiv 3 \: \: (\textrm{mod 4})\}, \qquad B = \{ x \in \Bbb Z : x \equiv 1 \: \: (\textrm{mod 2})\}
+A = \{ x \in \Bbb Z : x \equiv 3 \: \: (\text{mod 4})\}, \qquad B = \{ x \in \Bbb Z : x \equiv 1 \: \: (\text{mod 2})\}
 
 
 $$
@@ -272,7 +272,7 @@ Denote $n=1+2m.$ Since $m$ is an integer, $n$ is also an integer. Thus,
 $$
 
 
-x=1+2n\qquad\Leftrightarrow \qquad x\equiv 1\:(\textrm{mod } 2).
+x=1+2n\qquad\Leftrightarrow \qquad x\equiv 1\:(\text{mod } 2).
 
 
 $$

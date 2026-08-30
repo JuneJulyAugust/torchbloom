@@ -93,7 +93,7 @@ approximately follows a chi-square distribution with $\nu$ degrees of freedom, w
 $$
 
 
-\nu = \textrm{number of categories} - \textrm{number of constraints}.
+\nu = \text{number of categories} - \text{number of constraints}.
 
 
 $$
@@ -244,7 +244,7 @@ $$
 
 So, there are $\nu = \boxed{\color{blue}3}$ degrees of freedom.
 
-From the given chi-square table, the critical value for $\nu=3$ at a $5\%$ significance level is $\chi^2_{\textrm{critical}}=7.815,$ and the critical region is
+From the given chi-square table, the critical value for $\nu=3$ at a $5\%$ significance level is $\chi^2_{\text{critical}}=7.815,$ and the critical region is
 
 $$
 
@@ -274,7 +274,7 @@ We're not given the mean $\mu$ nor the variance $\sigma^2,$ so we have to estima
 
 - For the mean, we have the following estimate:
 
-- For the variance, we have where $\widehat{\mu}$ is our estimate for the mean $\mu,$ $\widehat{\sigma}^2$ is our estimate for the variance $\sigma^2,$ $N$ is the total number of observations, $y_i^{\textrm{mid}}$ is the midpoint of an observational class $(a_i, b_i).$
+- For the variance, we have where $\widehat{\mu}$ is our estimate for the mean $\mu,$ $\widehat{\sigma}^2$ is our estimate for the variance $\sigma^2,$ $N$ is the total number of observations, $y_i^{\text{mid}}$ is the midpoint of an observational class $(a_i, b_i).$
 
 Let's compute estimates for the mean and variance in this case:
 
@@ -295,7 +295,7 @@ Our estimate $\widehat{\mu}$ for the mean $\mu$ is
 $$
 
 
-\begin{aligned}\overset{𝜇}{ˆ} & =\frac{1}{𝑁}∑𝑂_{𝑖}⋅𝑦_{mid𝑖}^{} \\ & =\frac{1}{40}(8⋅2+12⋅4+11⋅6+9⋅8) \\ & =5.05.\end{aligned}
+\begin{aligned}\overset{𝜇}{ˆ} & =\frac{1}{𝑁}∑𝑂_{𝑖}⋅𝑦_{mid𝑖} \\ & =\frac{1}{40}(8⋅2+12⋅4+11⋅6+9⋅8) \\ & =5.05.\end{aligned}
 
 
 $$
@@ -305,7 +305,7 @@ Finally, our estimate $\widehat{\sigma}^2$ for the variance $\sigma^2$ is
 $$
 
 
-\begin{aligned}\overset{𝜎}{ˆ}^{2} & =\frac{1}{𝑁−1}∑𝑂_{𝑖}⋅(𝑦_{mid𝑖}^{}−\overset{𝜇}{ˆ})^{2} \\ & =\frac{1}{40−1}(8⋅(2−5.05)^{2}+12⋅(4−5.05)^{2} \\ & =\,\,+11⋅(6−5.05)^{2}+9⋅(8−5.05)^{2}) \\ & =4.51025… \\ & ≈4.5.\end{aligned}
+\begin{aligned}\overset{𝜎}{ˆ}^{2} & =\frac{1}{𝑁−1}∑𝑂_{𝑖}⋅(𝑦_{mid𝑖}−\overset{𝜇}{ˆ})^{2} \\ & =\frac{1}{40−1}(8⋅(2−5.05)^{2}+12⋅(4−5.05)^{2} \\ & =\,\,+11⋅(6−5.05)^{2}+9⋅(8−5.05)^{2}) \\ & =4.51025… \\ & ≈4.5.\end{aligned}
 
 
 $$
@@ -373,7 +373,7 @@ We can find an estimate $\widehat{\mu}$ for the mean $\mu$ as follows:
 $$
 
 
-\begin{aligned}\overset{𝜇}{ˆ} & =\frac{1}{𝑁}∑𝑂_{𝑖}⋅𝑦_{mid𝑖}^{} \\ & =\frac{1}{80}(11⋅3+12⋅7+25⋅11+19⋅15+13⋅19) \\ & =11.55 \\ & ≈11.6\end{aligned}
+\begin{aligned}\overset{𝜇}{ˆ} & =\frac{1}{𝑁}∑𝑂_{𝑖}⋅𝑦_{mid𝑖} \\ & =\frac{1}{80}(11⋅3+12⋅7+25⋅11+19⋅15+13⋅19) \\ & =11.55 \\ & ≈11.6\end{aligned}
 
 
 $$
@@ -383,7 +383,7 @@ We can find an estimate $\widehat{\sigma}^2$ for the variance $\sigma^2$ as foll
 $$
 
 
-\begin{aligned}\overset{𝜎}{ˆ}^{2} & =\frac{1}{𝑁−1}∑𝑂_{𝑖}⋅(𝑦_{mid𝑖}^{}−\overset{𝜇}{ˆ})^{2} \\ & =\frac{1}{80−1}(11⋅(3−11.55)^{2}+12⋅(7−11.55)^{2} \\ & +25⋅(11−11.55)^{2}+19⋅(15−11.55)^{2}+13⋅(19−11.55)^{2}) \\ & =25.4151… \\ & ≈25.4\end{aligned}
+\begin{aligned}\overset{𝜎}{ˆ}^{2} & =\frac{1}{𝑁−1}∑𝑂_{𝑖}⋅(𝑦_{mid𝑖}−\overset{𝜇}{ˆ})^{2} \\ & =\frac{1}{80−1}(11⋅(3−11.55)^{2}+12⋅(7−11.55)^{2} \\ & +25⋅(11−11.55)^{2}+19⋅(15−11.55)^{2}+13⋅(19−11.55)^{2}) \\ & =25.4151… \\ & ≈25.4\end{aligned}
 
 
 $$
@@ -416,4 +416,4 @@ Notice that the test statistic does not lie inside the critical region, as shown
 
 ![Instructional graphic](../../../lesson-assets/probability-and-statistics/topic-3018/79b1694326409977.png)
 
-Therefore, there is $\boxed{\color{blue}\textrm{insufficient}}$ evidence to reject the null hypothesis.
+Therefore, there is $\boxed{\color{blue}\text{insufficient}}$ evidence to reject the null hypothesis.

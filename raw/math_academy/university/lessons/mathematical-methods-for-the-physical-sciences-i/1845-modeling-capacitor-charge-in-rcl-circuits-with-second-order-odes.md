@@ -216,7 +216,7 @@ In an RCL circuit, there are three voltage drops:
 
 - The voltage drop across the capacitor is related to its charge by $q = CV_C.$ Therefore,
 
-- The voltage drop across the inductor is proportional to the rate of change of current, with a constant of proportionality $L = 5\,\textrm{H}.$ Hence,
+- The voltage drop across the inductor is proportional to the rate of change of current, with a constant of proportionality $L = 5\,\text{H}.$ Hence,
 
 Therefore, by Kirchhoff's voltage law ($E=V_R + V_C + V_L$), the differential equation governing the amount of charge $q$ on the capacitor is
 
@@ -250,7 +250,7 @@ Find the differential equation governing the amount of charge $q$ (in coulombs) 
 
 #### Explanation
 
-The diagram shows a series RCL circuit with a source electromotive force (EMF) of $9\cos(3t)\,\textrm{V},$ a resistor of resistance $18\,\Omega,$ a capacitor of capacitance $\dfrac1{48}\,\textrm{F},$ and an inductor of inductance $6\,\textrm{H}.$
+The diagram shows a series RCL circuit with a source electromotive force (EMF) of $9\cos(3t)\,\text{V},$ a resistor of resistance $18\,\Omega,$ a capacitor of capacitance $\dfrac1{48}\,\text{F},$ and an inductor of inductance $6\,\text{H}.$
 
 The current $I,$ measured in amperes, is defined as the rate of flow of charge $q,$ measured in coulombs.
 
@@ -270,7 +270,7 @@ In an RCL circuit, there are three voltage drops:
 
 - The voltage drop across the capacitor is related to its charge by $q = CV_C.$ Therefore,
 
-- The voltage drop across the inductor is proportional to the rate of change of current, with a constant of proportionality $L = 6\,\textrm{H}.$ Hence,
+- The voltage drop across the inductor is proportional to the rate of change of current, with a constant of proportionality $L = 6\,\text{H}.$ Hence,
 
 Therefore, by Kirchhoff's voltage law, the differential equation governing the amount of charge $q$ on the capacitor is
 
@@ -354,7 +354,7 @@ $$
 
 Physically, this represents the state in which the capacitor is fully charged and the current has ceased to flow. The voltage across the capacitor now exactly balances the source voltage.
 
-Therefore, the steady-state charge is $q = \dfrac{3}{8}\,\textrm{C}.$
+Therefore, the steady-state charge is $q = \dfrac{3}{8}\,\text{C}.$
 
 **Note**: In a stable RCL circuit with a *sinusoidal* electromotive force, the steady-state charge is also sinusoidal.
 
@@ -362,7 +362,7 @@ Therefore, the steady-state charge is $q = \dfrac{3}{8}\,\textrm{C}.$
 
 #### Question
 
-A series RCL circuit has a source electromotive force (EMF) of $10\,\textrm{V},$ a resistance of $30\,\Omega,$ a capacitance of $\dfrac{1}{20}\,\textrm{F},$ and an inductance of $L=10\,\textrm{H}.$ Find the steady-state charge for this circuit.
+A series RCL circuit has a source electromotive force (EMF) of $10\,\text{V},$ a resistance of $30\,\Omega,$ a capacitance of $\dfrac{1}{20}\,\text{F},$ and an inductance of $L=10\,\text{H}.$ Find the steady-state charge for this circuit.
 
 **
 
@@ -390,7 +390,7 @@ In an RCL circuit, there are three voltage drops:
 
 - The voltage drop across the capacitor is related to its charge by $q = CV_C.$ Therefore,
 
-- The voltage drop across the inductor is proportional to the rate of change of current, with a constant of proportionality $L = 10\,\textrm{H}.$ Hence,
+- The voltage drop across the inductor is proportional to the rate of change of current, with a constant of proportionality $L = 10\,\text{H}.$ Hence,
 
 Therefore, by Kirchhoff's voltage law, the differential equation governing the amount of charge $q$ on the capacitor is
 
@@ -460,7 +460,7 @@ Find, in coulombs, the amplitude of the steady-state charge for the RCL circuit 
 
 #### Explanation
 
-The diagram shows a series RCL circuit with a source electromotive force (EMF) of $20\sin(4t)\,\textrm{V},$ a resistor of resistance $30\,\Omega,$ a capacitor of capacitance $0.05\,\textrm{F},$ and an inductor of inductance $10\,\textrm{H}.$
+The diagram shows a series RCL circuit with a source electromotive force (EMF) of $20\sin(4t)\,\text{V},$ a resistor of resistance $30\,\Omega,$ a capacitor of capacitance $0.05\,\text{F},$ and an inductor of inductance $10\,\text{H}.$
 
 The current $I,$ measured in amperes, is defined as the rate of flow of charge $q,$ measured in coulombs.
 
@@ -480,7 +480,7 @@ In an RCL circuit, there are three voltage drops:
 
 - The voltage drop across the capacitor is related to its charge by $q = CV_C.$ Therefore,
 
-- The voltage drop across the inductor is proportional to the rate of change of current, with a constant of proportionality $L = 10\,\textrm{H}.$ Hence,
+- The voltage drop across the inductor is proportional to the rate of change of current, with a constant of proportionality $L = 10\,\text{H}.$ Hence,
 
 Therefore, by Kirchhoff's voltage law, the differential equation governing the amount of charge $q$ on the capacitor is
 

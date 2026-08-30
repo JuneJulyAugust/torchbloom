@@ -71,7 +71,7 @@ $$
 
 
 
-\begin{aligned}cos⁡𝑢 & =±\sqrt{√\frac{8}{9}} \\ & =±\frac{2\sqrt{√2}}{3}.\end{aligned}
+\begin{aligned}cos⁡𝑢 & =±\sqrt{\frac{8}{9}} \\ & =±\frac{2\sqrt{2}}{3}.\end{aligned}
 
 
 
@@ -95,7 +95,7 @@ $$
 
 
 
-\begin{aligned} \cos(u - v) &= \cos u \cos v + \sin u \sin v \\\[5pt] &= \left( -\dfrac{2\sqrt{2}}{3} \right) \left(-\dfrac{4}{5}\right) + \left(\dfrac{1}{3}\right) \left(\dfrac{3}{5}\right) \\\[5pt] &= \dfrac{8\sqrt{2}}{15} + \dfrac{3}{15} \\\[5pt] &= \dfrac{8\sqrt{2}+3}{15} \end{aligned}
+\begin{aligned} \cos(u - v) &= \cos u \cos v + \sin u \sin v \\[5pt] &= \left( -\dfrac{2\sqrt{2}}{3} \right) \left(-\dfrac{4}{5}\right) + \left(\dfrac{1}{3}\right) \left(\dfrac{3}{5}\right) \\[5pt] &= \dfrac{8\sqrt{2}}{15} + \dfrac{3}{15} \\[5pt] &= \dfrac{8\sqrt{2}+3}{15} \end{aligned}
 
 
 
@@ -163,7 +163,7 @@ $$
 
 
 
-\begin{aligned}cos⁡𝑣 & =±\sqrt{√\frac{144}{225}} \\ & =±\frac{12}{15}.\end{aligned}
+\begin{aligned}cos⁡𝑣 & =±\sqrt{\frac{144}{225}} \\ & =±\frac{12}{15}.\end{aligned}
 
 
 
@@ -255,7 +255,7 @@ $$
 
 
 
-\begin{aligned}cos⁡𝑢 & =±\sqrt{√\frac{9}{25}} \\ & =±\frac{3}{5}.\end{aligned}
+\begin{aligned}cos⁡𝑢 & =±\sqrt{\frac{9}{25}} \\ & =±\frac{3}{5}.\end{aligned}
 
 
 

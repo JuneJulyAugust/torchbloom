@@ -28,7 +28,7 @@ For example, consider the vector $[\begin{aligned}−5 \\ 12\end{aligned}]$ The 
 $$
 
 
-\begin{aligned}‖𝐱‖ & =\sqrt{√𝑥_{21}^{}+𝑥_{22}^{}} \\ & =\sqrt{√(−5)^{2}+(12)^{2}} \\ & =\sqrt{√25+144} \\ & =\sqrt{√169} \\ & =13.\end{aligned}
+\begin{aligned}‖𝐱‖ & =\sqrt{𝑥_{21}+𝑥_{22}} \\ & =\sqrt{(−5)^{2}+(12)^{2}} \\ & =\sqrt{25+144} \\ & =\sqrt{169} \\ & =13.\end{aligned}
 
 
 $$
@@ -48,7 +48,7 @@ Using the formula for the norm, we have
 $$
 
 
-\begin{aligned}‖𝐱‖ & =\sqrt{√𝑥_{21}^{}+𝑥_{22}^{}+𝑥_{23}^{}} \\ & =\sqrt{√3^{2}+(−4)^{2}+(−5)^{2}} \\ & =\sqrt{√9+16+25} \\ & =\sqrt{√50} \\ & =5\sqrt{√2}.\end{aligned}
+\begin{aligned}‖𝐱‖ & =\sqrt{𝑥_{21}+𝑥_{22}+𝑥_{23}} \\ & =\sqrt{3^{2}+(−4)^{2}+(−5)^{2}} \\ & =\sqrt{9+16+25} \\ & =\sqrt{50} \\ & =5\sqrt{2}.\end{aligned}
 
 
 $$
@@ -80,7 +80,7 @@ Now, we can express the norm in terms of the components:
 $$
 
 
-\begin{aligned}d(𝐱,𝐲) & =‖𝐱−𝐲‖ \\ & =\sqrt{√(𝑥_{1}−𝑦_{1})^{2}+(𝑥_{2}−𝑦_{2})^{2}+⋯+(𝑥_{𝑛}−𝑦_{𝑛})^{2}}\end{aligned}
+\begin{aligned}d(𝐱,𝐲) & =‖𝐱−𝐲‖ \\ & =\sqrt{(𝑥_{1}−𝑦_{1})^{2}+(𝑥_{2}−𝑦_{2})^{2}+⋯+(𝑥_{𝑛}−𝑦_{𝑛})^{2}}\end{aligned}
 
 
 $$
@@ -90,7 +90,7 @@ For example, we can use the formula to find the distance between the vectors $[\
 $$
 
 
-\begin{aligned}d(𝐱,𝐲) & =‖𝐱−𝐲‖ \\ & =\sqrt{√(𝑥_{1}−𝑦_{1})^{2}+(𝑥_{2}−𝑦_{2})^{2}} \\ & =\sqrt{√(1−(−5))^{2}+(4−1)^{2}} \\ & =\sqrt{√6^{2}+3^{2}} \\ & =\sqrt{√45} \\ & =3\sqrt{√5}\end{aligned}
+\begin{aligned}d(𝐱,𝐲) & =‖𝐱−𝐲‖ \\ & =\sqrt{(𝑥_{1}−𝑦_{1})^{2}+(𝑥_{2}−𝑦_{2})^{2}} \\ & =\sqrt{(1−(−5))^{2}+(4−1)^{2}} \\ & =\sqrt{6^{2}+3^{2}} \\ & =\sqrt{45} \\ & =3\sqrt{5}\end{aligned}
 
 
 $$
@@ -108,7 +108,7 @@ Using the formula for the distance, we have
 $$
 
 
-\begin{aligned}d(𝐱,𝐲) & =‖𝐱−𝐲‖ \\ & =\sqrt{√(𝑥_{1}−𝑦_{1})^{2}+(𝑥_{2}−𝑦_{2})^{2}+(𝑥_{3}−𝑦_{3})^{2}} \\ & =\sqrt{√(−1−2)^{2}+(2−0)^{2}+(3−(−1))^{2}} \\ & =\sqrt{√(−3)^{2}+2^{2}+4^{2}} \\ & =\sqrt{√9+4+16} \\ & =\sqrt{√29}.\end{aligned}
+\begin{aligned}d(𝐱,𝐲) & =‖𝐱−𝐲‖ \\ & =\sqrt{(𝑥_{1}−𝑦_{1})^{2}+(𝑥_{2}−𝑦_{2})^{2}+(𝑥_{3}−𝑦_{3})^{2}} \\ & =\sqrt{(−1−2)^{2}+(2−0)^{2}+(3−(−1))^{2}} \\ & =\sqrt{(−3)^{2}+2^{2}+4^{2}} \\ & =\sqrt{9+4+16} \\ & =\sqrt{29}.\end{aligned}
 
 
 $$
@@ -130,7 +130,7 @@ For example, consider the vector $[\begin{aligned}3 \\ 4\end{aligned}]$ To compu
 $$
 
 
-\begin{aligned}‖−2𝐱‖ & =|−2|⋅‖𝐱‖ \\ & =2⋅\sqrt{√𝑥_{21}^{}+𝑥_{22}^{}} \\ & =2⋅\sqrt{√3^{2}+4^{2}} \\ & =2⋅\sqrt{√9+16} \\ & =2⋅\sqrt{√25} \\ & =2⋅5 \\ & =10.\end{aligned}
+\begin{aligned}‖−2𝐱‖ & =|−2|⋅‖𝐱‖ \\ & =2⋅\sqrt{𝑥_{21}+𝑥_{22}} \\ & =2⋅\sqrt{3^{2}+4^{2}} \\ & =2⋅\sqrt{9+16} \\ & =2⋅\sqrt{25} \\ & =2⋅5 \\ & =10.\end{aligned}
 
 
 $$
@@ -150,7 +150,7 @@ Then, computing the norm, we get
 $$
 
 
-\begin{aligned}‖−2𝐱‖ & =\sqrt{√𝑥_{21}^{}+𝑥_{22}^{}} \\ & =\sqrt{√(−6)^{2}+(−8)^{2}} \\ & =\sqrt{√36+64} \\ & =\sqrt{√100} \\ & =10.\,✓\end{aligned}
+\begin{aligned}‖−2𝐱‖ & =\sqrt{𝑥_{21}+𝑥_{22}} \\ & =\sqrt{(−6)^{2}+(−8)^{2}} \\ & =\sqrt{36+64} \\ & =\sqrt{100} \\ & =10.\,✓\end{aligned}
 
 
 $$
@@ -220,7 +220,7 @@ To normalize a vector $\mathbf{x},$ we have to divide the vector by its norm: $\
 $$
 
 
-\begin{aligned}‖𝐱‖ & =\sqrt{√𝑥_{21}^{}+𝑥_{22}^{}} \\ & =\sqrt{√(−8)^{2}+6^{2}} \\ & =\sqrt{√64+36} \\ & =\sqrt{√100} \\ & =10\end{aligned}
+\begin{aligned}‖𝐱‖ & =\sqrt{𝑥_{21}+𝑥_{22}} \\ & =\sqrt{(−8)^{2}+6^{2}} \\ & =\sqrt{64+36} \\ & =\sqrt{100} \\ & =10\end{aligned}
 
 
 $$
@@ -230,7 +230,7 @@ Then, we divide $\mathbf{x}$ by its length:
 $$
 
 
-\begin{aligned}\frac{𝐱}{‖𝐱‖} & =\frac{𝐱}{10} \\ & =\frac{1}{10}𝐱 \\ & =\frac{1}{10}[\begin{aligned}−8 \\ 6\end{aligned}] \\ & =\begin{aligned}\frac{−8}{10} \\ \frac{6}{10}\end{aligned} \\ & =\begin{aligned}−\frac{4}{5} \\ \frac{3}{5}\end{aligned}\end{aligned}
+\begin{aligned}\frac{𝐱}{‖𝐱‖} & =\frac{𝐱}{10} \\ & =\frac{1}{10}𝐱 \\ & =\frac{1}{10}[\begin{matrix}−8 \\ 6\end{matrix}] \\ & =\begin{matrix}\frac{−8}{10} \\ \frac{6}{10}\end{matrix} \\ & =\begin{matrix}−\frac{4}{5} \\ \frac{3}{5}\end{matrix}\end{aligned}
 
 
 $$

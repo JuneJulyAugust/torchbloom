@@ -28,7 +28,7 @@ In this case, the variable $x$ is being *divided* by $6.$ To isolate $x$, we can
 $$
 
 
-\begin{aligned} \dfrac x 6 &= 4 \\\[5pt] {\color{blue}{6}} \cdot \dfrac x 6 &= {\color{blue}{6}}\cdot 4\\\[5pt] \dfrac{6x}{6} &=24\\\[5pt] \end{aligned}
+\begin{aligned} \dfrac x 6 &= 4 \\[5pt] {\color{blue}{6}} \cdot \dfrac x 6 &= {\color{blue}{6}}\cdot 4\\[5pt] \dfrac{6x}{6} &=24\\[5pt] \end{aligned}
 
 
 $$
@@ -48,7 +48,7 @@ Thus, our solution is $x=24.$ Let's check that this solution is correct by plugg
 $$
 
 
-\begin{aligned} \dfrac x 6 &=4 \\\[5pt] \dfrac{24}{6} &=4 \\\[5pt] 4 &= 4 \; {\color{green}{\checkmark}} \end{aligned}
+\begin{aligned} \dfrac x 6 &=4 \\[5pt] \dfrac{24}{6} &=4 \\[5pt] 4 &= 4 \; {\color{green}{\checkmark}} \end{aligned}
 
 
 $$
@@ -66,7 +66,7 @@ In the equation, $q$ is being divided by $4.$ To isolate $q$, we can perform the
 $$
 
 
- \begin{aligned} \dfrac{q}{4} &=-9\\\[5pt] 4\cdot \dfrac{q}{4} &=4\cdot \left(-9\right) \\\[5pt] \dfrac{4q}{4} &= -36 \end{aligned}
+ \begin{aligned} \dfrac{q}{4} &=-9\\[5pt] 4\cdot \dfrac{q}{4} &=4\cdot \left(-9\right) \\[5pt] \dfrac{4q}{4} &= -36 \end{aligned}
 
 
 $$
@@ -76,7 +76,7 @@ Now, we can cancel a common factor of $4$ from both the numerator and denominato
 $$
 
 
- \begin{aligned} \dfrac{4q}{4} &= -36 \\\[5pt] \dfrac{4q}{4} &= -36 \\q &=-36 \end{aligned}
+ \begin{aligned} \dfrac{4q}{4} &= -36 \\[5pt] \dfrac{4q}{4} &= -36 \\q &=-36 \end{aligned}
 
 
 $$
@@ -166,7 +166,7 @@ In the equation above, $k$ is being divided by $2.$ To isolate $k$, we can perfo
 $$
 
 
- \begin{aligned} \dfrac{k}{2} &=-\dfrac{1}{3} \\\[5pt] 2 \cdot \dfrac{k}{2} &=2 \cdot \left( -\dfrac{1}{3} \right) \\\[5pt] \dfrac{2k}{2} &= -\dfrac{2}{3} \\\[5pt] \dfrac{2k}{2} &= -\dfrac{2}{3} \\\[5pt] k &= -\dfrac{2}{3} \end{aligned}
+ \begin{aligned} \dfrac{k}{2} &=-\dfrac{1}{3} \\[5pt] 2 \cdot \dfrac{k}{2} &=2 \cdot \left( -\dfrac{1}{3} \right) \\[5pt] \dfrac{2k}{2} &= -\dfrac{2}{3} \\[5pt] \dfrac{2k}{2} &= -\dfrac{2}{3} \\[5pt] k &= -\dfrac{2}{3} \end{aligned}
 
 
 $$
@@ -180,7 +180,7 @@ In this case, the variable $x$ is being *multiplied* by $7.$ To isolate $x$, we 
 $$
 
 
-\begin{aligned} 7x &= 21 \\\[5pt] \dfrac{7x}{{\color{blue}7}} &=\dfrac{21}{{\color{blue}7}} \end{aligned}
+\begin{aligned} 7x &= 21 \\[5pt] \dfrac{7x}{{\color{blue}7}} &=\dfrac{21}{{\color{blue}7}} \end{aligned}
 
 
 $$
@@ -190,7 +190,7 @@ Now, we can cancel a common factor of $7$ from both the numerator and denominato
 $$
 
 
-\begin{aligned} \dfrac{7x}{{\color{blue}7}} &=\dfrac{21}{{\color{blue}7}}\\\[5pt] \dfrac{7x}{\color{blue}7} &=3 \\\[5pt] x &=3 \end{aligned}
+\begin{aligned} \dfrac{7x}{{\color{blue}7}} &=\dfrac{21}{{\color{blue}7}}\\[5pt] \dfrac{7x}{\color{blue}7} &=3 \\[5pt] x &=3 \end{aligned}
 
 
 $$
@@ -200,7 +200,7 @@ Let's check that our answer is correct by plugging it back into the original equ
 $$
 
 
-\begin{aligned} 7x &=21 \\\[5pt] 7(3) &=21 \\\[5pt] 21 &= 21 \; {\color{green}{\checkmark}} \end{aligned}
+\begin{aligned} 7x &=21 \\[5pt] 7(3) &=21 \\[5pt] 21 &= 21 \; {\color{green}{\checkmark}} \end{aligned}
 
 
 $$
@@ -238,7 +238,7 @@ In this case, the variable $z$ is being ** by $-3.$ To isolate $z$, we can perfo
 $$
 
 
- \begin{aligned} -3z &=24 \\\[5pt] \dfrac {-3z} {-3} &= \dfrac {24} {-3} \\\[5pt] \dfrac {-3z} {-3} &= -8 \\\[5pt] z &=-8 \end{aligned}
+ \begin{aligned} -3z &=24 \\[5pt] \dfrac {-3z} {-3} &= \dfrac {24} {-3} \\[5pt] \dfrac {-3z} {-3} &= -8 \\[5pt] z &=-8 \end{aligned}
 
 
 $$

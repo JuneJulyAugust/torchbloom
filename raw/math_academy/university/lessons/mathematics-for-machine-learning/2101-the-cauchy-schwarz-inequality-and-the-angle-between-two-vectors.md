@@ -29,7 +29,7 @@ For instance, if $[\begin{aligned}3 \\ −4\end{aligned}]$ and $[\begin{aligned}
 $$
 
 
-\begin{aligned}|𝐮⋅𝐯| & ≤‖𝐮‖⋅‖𝐯‖ \\ |3⋅5+(−4)⋅12| & ≤\sqrt{√3^{2}+(−4)^{2}}\sqrt{√5^{2}+12^{2}} \\ |−33| & ≤5⋅13 \\ 33 & ≤65.\,✓\end{aligned}
+\begin{aligned}|𝐮⋅𝐯| & ≤‖𝐮‖⋅‖𝐯‖ \\ |3⋅5+(−4)⋅12| & ≤\sqrt{3^{2}+(−4)^{2}}\sqrt{5^{2}+12^{2}} \\ |−33| & ≤5⋅13 \\ 33 & ≤65.\,✓\end{aligned}
 
 
 $$
@@ -60,7 +60,7 @@ $$
 
 #### Question
 
-Consider the vector $\begin{aligned}1 \\ \sqrt{√𝑘} \\ −2 \\ 1\end{aligned}$ Given that $\mathbf{u}\cdot \mathbf{v}=-12$ and $\Vert \mathbf{v}\Vert =4,$ what is the smallest possible value of $k?$
+Consider the vector $\begin{aligned}1 \\ \sqrt{𝑘} \\ −2 \\ 1\end{aligned}$ Given that $\mathbf{u}\cdot \mathbf{v}=-12$ and $\Vert \mathbf{v}\Vert =4,$ what is the smallest possible value of $k?$
 
 #### Explanation
 
@@ -79,7 +79,7 @@ We are given all the quantities in the inequality above, except for $\Vert \math
 $$
 
 
-\begin{aligned}‖𝐮‖ & =\sqrt{√1^{2}+(\sqrt{√𝑘})^{2}+(−2)^{2}+1^{2}} \\ & =\sqrt{√6+𝑘}\end{aligned}
+\begin{aligned}‖𝐮‖ & =\sqrt{1^{2}+(\sqrt{𝑘})^{2}+(−2)^{2}+1^{2}} \\ & =\sqrt{6+𝑘}\end{aligned}
 
 
 $$
@@ -89,7 +89,7 @@ Now, using the Cauchy-Schwarz inequality, we have
 $$
 
 
-\begin{aligned}|𝐮⋅𝐯| & ≤‖𝐮‖⋅‖𝐯‖ \\ |−12| & ≤\sqrt{√6+𝑘}⋅(4) \\ 12 & ≤4\sqrt{√6+𝑘} \\ 3 & ≤\sqrt{√6+𝑘} \\ 3^{2} & ≤(\sqrt{√6+𝑘})^{2} \\ 9 & ≤6+𝑘 \\ 3 & ≤𝑘.\end{aligned}
+\begin{aligned}|𝐮⋅𝐯| & ≤‖𝐮‖⋅‖𝐯‖ \\ |−12| & ≤\sqrt{6+𝑘}⋅(4) \\ 12 & ≤4\sqrt{6+𝑘} \\ 3 & ≤\sqrt{6+𝑘} \\ 3^{2} & ≤(\sqrt{6+𝑘})^{2} \\ 9 & ≤6+𝑘 \\ 3 & ≤𝑘.\end{aligned}
 
 
 $$
@@ -149,7 +149,7 @@ we have the following:
 $$
 
 
-\begin{aligned}cos⁡𝜃 & =\frac{𝑣_{1}𝑤_{1}+𝑣_{2}𝑤_{2}+𝑣_{3}𝑤_{3}+𝑣_{4}𝑤_{4}}{\sqrt{√𝑣_{21}^{}+𝑣_{22}^{}+𝑣_{23}^{}+𝑣_{24}^{}}\,\sqrt{√𝑤_{21}^{}+𝑤_{22}^{}+𝑤_{23}^{}+𝑤_{24}^{}}} \\ & =\frac{(−1)⋅(−2)+2⋅2+(−4)⋅(−2)+(−2)⋅2}{\sqrt{√(−1)^{2}+2^{2}+(−4)^{2}+(−2)^{2}}\,\sqrt{√(−2)^{2}+2^{2}+(−2)^{2}+2^{2}}} \\ & =\frac{10}{\sqrt{√25}⋅\sqrt{√16}} \\ & =\frac{10}{5⋅4} \\ & =\frac{1}{2}\end{aligned}
+\begin{aligned}cos⁡𝜃 & =\frac{𝑣_{1}𝑤_{1}+𝑣_{2}𝑤_{2}+𝑣_{3}𝑤_{3}+𝑣_{4}𝑤_{4}}{\sqrt{𝑣_{21}+𝑣_{22}+𝑣_{23}+𝑣_{24}}\,\sqrt{𝑤_{21}+𝑤_{22}+𝑤_{23}+𝑤_{24}}} \\ & =\frac{(−1)⋅(−2)+2⋅2+(−4)⋅(−2)+(−2)⋅2}{\sqrt{(−1)^{2}+2^{2}+(−4)^{2}+(−2)^{2}}\,\sqrt{(−2)^{2}+2^{2}+(−2)^{2}+2^{2}}} \\ & =\frac{10}{\sqrt{25}⋅\sqrt{16}} \\ & =\frac{10}{5⋅4} \\ & =\frac{1}{2}\end{aligned}
 
 
 $$
@@ -177,7 +177,7 @@ First, let
 $$
 
 
-\begin{aligned}𝐚=\overset{𝑂𝐴}{}=\begin{aligned}−2 \\ 4 \\ −2 \\ 2\end{aligned},\,𝐛=\overset{𝑂𝐵}{}=\begin{aligned}4 \\ 0 \\ −1 \\ −4\end{aligned}.\end{aligned}
+\begin{aligned}𝐚=\overset{𝑂𝐴}{}=\begin{matrix}−2 \\ 4 \\ −2 \\ 2\end{matrix},\,𝐛=\overset{𝑂𝐵}{}=\begin{matrix}4 \\ 0 \\ −1 \\ −4\end{matrix}.\end{aligned}
 
 
 $$
@@ -187,7 +187,7 @@ Also, let $\theta = m\angle{AOB}$ be the angle between the vectors $\mathbf{a}$ 
 $$
 
 
-\begin{aligned}cos⁡𝜃 & =\frac{𝐚⋅𝐛}{‖𝐚‖\,‖𝐛‖} \\ & =\frac{𝑎_{1}𝑏_{1}+𝑎_{2}𝑏_{2}+𝑎_{3}𝑏_{3}+𝑎_{4}𝑏_{4}}{\sqrt{√𝑎_{21}^{}+𝑎_{22}^{}+𝑎_{23}^{}+𝑎_{24}^{}}\,\sqrt{√𝑏_{21}^{}+𝑏_{22}^{}+𝑏_{23}^{}+𝑏_{24}^{}}} \\ & =\frac{(−2)⋅4+4⋅0+(−2)⋅(−1)+2⋅(−4)}{\sqrt{√(−2)^{2}+4^{2}+(−2)^{2}+2^{2}}\,\sqrt{√4^{2}+0^{2}+(−1)^{2}+(−4)^{2}})} \\ & =\frac{−14}{\sqrt{√28}⋅\sqrt{√33}} \\ & =\frac{−14}{\sqrt{√14}⋅\sqrt{√2}⋅\sqrt{√33}} \\ & =−\frac{\sqrt{√14}}{\sqrt{√2}⋅\sqrt{√33}} \\ & =−\sqrt{√\frac{7}{33}}\end{aligned}
+\begin{aligned}cos⁡𝜃 & =\frac{𝐚⋅𝐛}{‖𝐚‖\,‖𝐛‖} \\ & =\frac{𝑎_{1}𝑏_{1}+𝑎_{2}𝑏_{2}+𝑎_{3}𝑏_{3}+𝑎_{4}𝑏_{4}}{\sqrt{𝑎_{21}+𝑎_{22}+𝑎_{23}+𝑎_{24}}\,\sqrt{𝑏_{21}+𝑏_{22}+𝑏_{23}+𝑏_{24}}} \\ & =\frac{(−2)⋅4+4⋅0+(−2)⋅(−1)+2⋅(−4)}{\sqrt{(−2)^{2}+4^{2}+(−2)^{2}+2^{2}}\,\sqrt{4^{2}+0^{2}+(−1)^{2}+(−4)^{2}})} \\ & =\frac{−14}{\sqrt{28}⋅\sqrt{33}} \\ & =\frac{−14}{\sqrt{14}⋅\sqrt{2}⋅\sqrt{33}} \\ & =−\frac{\sqrt{14}}{\sqrt{2}⋅\sqrt{33}} \\ & =−\sqrt{\frac{7}{33}}\end{aligned}
 
 
 $$
@@ -221,7 +221,7 @@ Since the quadratic is greater than or equal to zero, its discriminant must be l
 $$
 
 
-\begin{aligned}D & ≤0 \\ 𝑏^{2}−4𝑎𝑐 & ≤0 \\ (2(𝐮⋅𝐯))^{2}−4⋅‖𝐮‖^{2}⋅‖𝐯‖^{2} & ≤0 \\ 4(𝐮⋅𝐯)^{2}−4‖𝐮‖^{2}‖𝐯‖^{2} & ≤0 \\ (𝐮⋅𝐯)^{2} & ≤‖𝐮‖^{2}‖𝐯‖^{2} \\ \sqrt{√(𝐮⋅𝐯)^{2}} & ≤\sqrt{√‖𝐮‖^{2}‖𝐯‖^{2}} \\ |𝐮⋅𝐯| & ≤‖𝐮‖‖𝐯‖.\end{aligned}
+\begin{aligned}D & ≤0 \\ 𝑏^{2}−4𝑎𝑐 & ≤0 \\ (2(𝐮⋅𝐯))^{2}−4⋅‖𝐮‖^{2}⋅‖𝐯‖^{2} & ≤0 \\ 4(𝐮⋅𝐯)^{2}−4‖𝐮‖^{2}‖𝐯‖^{2} & ≤0 \\ (𝐮⋅𝐯)^{2} & ≤‖𝐮‖^{2}‖𝐯‖^{2} \\ \sqrt{(𝐮⋅𝐯)^{2}} & ≤\sqrt{‖𝐮‖^{2}‖𝐯‖^{2}} \\ |𝐮⋅𝐯| & ≤‖𝐮‖‖𝐯‖.\end{aligned}
 
 
 $$

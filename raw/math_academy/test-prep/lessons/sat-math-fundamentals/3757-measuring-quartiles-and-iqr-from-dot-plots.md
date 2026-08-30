@@ -87,7 +87,7 @@ So, the lower quartile is
 $$
 
 
-\textrm{lower quartile} = \dfrac{{\color{red}{3}} + {\color{red}{4}}}{2} = 3.5.
+\text{lower quartile} = \dfrac{{\color{red}{3}} + {\color{red}{4}}}{2} = 3.5.
 
 
 $$

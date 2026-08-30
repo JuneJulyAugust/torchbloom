@@ -157,7 +157,7 @@ Therefore, the median is
 
 $$
 
-\textrm{median} = \dfrac{3+3}{2} = \dfrac62 = 3.
+\text{median} = \dfrac{3+3}{2} = \dfrac62 = 3.
 
 $$
 
@@ -187,6 +187,6 @@ Therefore, the median is
 
 $$
 
-\textrm{median} = \dfrac{3+3}{2} = \dfrac62 = 3.
+\text{median} = \dfrac{3+3}{2} = \dfrac62 = 3.
 
 $$

@@ -48,7 +48,7 @@ $$
 $$
 
 
-\begin{aligned}[𝐴\,|\,𝐼_{2}\,] & =[\begin{aligned}1 & 2 & 1 & 0 \\ 3 & 7 & 0 & 1\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+(−3)𝑅_{1} \\ & ∼[\begin{aligned}1 & 2 & 1 & 0 \\ 0 & 1 & −3 & 1\end{aligned}] & 𝑅_{1} & :=𝑅_{1}+(−2)𝑅_{2} \\ & ∼[\begin{aligned}1 & 0 & 7 & −2 \\ 0 & 1 & −3 & 1\end{aligned}] & & \\ & =[\,𝐼\,|\,𝐴^{−1}] & & \end{aligned}
+\begin{aligned}[𝐴\,|\,𝐼_{2}\,] & =[\begin{matrix}1 & 2 & 1 & 0 \\ 3 & 7 & 0 & 1\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+(−3)𝑅_{1} \\ & ∼[\begin{matrix}1 & 2 & 1 & 0 \\ 0 & 1 & −3 & 1\end{matrix}] & 𝑅_{1} & :=𝑅_{1}+(−2)𝑅_{2} \\ & ∼[\begin{matrix}1 & 0 & 7 & −2 \\ 0 & 1 & −3 & 1\end{matrix}] & & \\ & =[\,𝐼\,|\,𝐴^{−1}] & & \end{aligned}
 
 
 $$
@@ -68,7 +68,7 @@ We can easily check our result by computing $AA^{-1}\mathbin{:}$
 $$
 
 
-\begin{aligned}𝐴𝐴^{−1} & =[\begin{aligned}1 & 2 \\ 3 & 7\end{aligned}][\begin{aligned}7 & −2 \\ −3 & 1\end{aligned}]=[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}]\,✓\end{aligned}
+\begin{aligned}𝐴𝐴^{−1} & =[\begin{matrix}1 & 2 \\ 3 & 7\end{matrix}][\begin{matrix}7 & −2 \\ −3 & 1\end{matrix}]=[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}]\,✓\end{aligned}
 
 
 $$
@@ -94,7 +94,7 @@ Let's apply the operations to each of the matrices:
 $$
 
 
-\begin{aligned}𝐴 & =[\begin{aligned}−2 & −1 \\ 1 & 0\end{aligned}] & 𝑅_{1} & ↔𝑅_{2} \\ & ∼[\begin{aligned}1 & 0 \\ −2 & −1\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+(−1)𝑅_{1} \\ & ∼[\begin{aligned}1 & 0 \\ −3 & −1\end{aligned}] & & \\ & ≠𝐼\,× & & \\ 𝐵 & =[\begin{aligned}1 & 1 \\ 1 & 0\end{aligned}] & 𝑅_{1} & ↔𝑅_{2} \\ & ∼[\begin{aligned}1 & 0 \\ 1 & 1\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+(−1)𝑅_{1} \\ & ∼[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] & & \\ & =𝐼\,✓ & & \end{aligned}
+\begin{aligned}𝐴 & =[\begin{matrix}−2 & −1 \\ 1 & 0\end{matrix}] & 𝑅_{1} & ↔𝑅_{2} \\ & ∼[\begin{matrix}1 & 0 \\ −2 & −1\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+(−1)𝑅_{1} \\ & ∼[\begin{matrix}1 & 0 \\ −3 & −1\end{matrix}] & & \\ & ≠𝐼\,× & & \\ 𝐵 & =[\begin{matrix}1 & 1 \\ 1 & 0\end{matrix}] & 𝑅_{1} & ↔𝑅_{2} \\ & ∼[\begin{matrix}1 & 0 \\ 1 & 1\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+(−1)𝑅_{1} \\ & ∼[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}] & & \\ & =𝐼\,✓ & & \end{aligned}
 
 
 $$
@@ -110,7 +110,7 @@ The inverse of the $2\times 2$ matrix $A$ is found using row operations, as show
 $$
 
 
-\begin{aligned}[𝐴\,|\,𝐼\,] & =[\begin{aligned}1 & 1 & 1 & 0 \\ 1 & 2 & 0 & 1\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+(−1)𝑅_{1} \\ & ∼[\begin{aligned}1 & 1 & 1 & 0 \\ 0 & 1 & −1 & 1\end{aligned}] & 𝑅_{1} & :=___________ \\ & ∼[\begin{aligned}1 & 0 & 𝑎 & 𝑎 \\ 0 & 1 & 𝑎 & 𝑎\end{aligned}] & & \end{aligned}
+\begin{aligned}[𝐴\,|\,𝐼\,] & =[\begin{matrix}1 & 1 & 1 & 0 \\ 1 & 2 & 0 & 1\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+(−1)𝑅_{1} \\ & ∼[\begin{matrix}1 & 1 & 1 & 0 \\ 0 & 1 & −1 & 1\end{matrix}] & 𝑅_{1} & :=\underline{\hspace{3em}} \\ & ∼[\begin{matrix}1 & 0 & 𝑎 & 𝑎 \\ 0 & 1 & 𝑎 & 𝑎\end{matrix}] & & \end{aligned}
 
 
 $$
@@ -122,7 +122,7 @@ We write down $A$ and the identity matrix $I$ side-by-side (as shown below) and 
 $$
 
 
-\begin{aligned}[𝐴\,|\,𝐼\,] & =[\begin{aligned}1 & 1 & 1 & 0 \\ 1 & 2 & 0 & 1\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+(−1)𝑅_{1} \\ & ∼[\begin{aligned}1 & 1 & 1 & 0 \\ 0 & 1 & −1 & 1\end{aligned}] & 𝑅_{1} & :=𝑅_{1}+(−1)𝑅_{2} \\ & ∼[\begin{aligned}1 & 0 & 2 & −1 \\ 0 & 1 & −1 & 1\end{aligned}] & & \end{aligned}
+\begin{aligned}[𝐴\,|\,𝐼\,] & =[\begin{matrix}1 & 1 & 1 & 0 \\ 1 & 2 & 0 & 1\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+(−1)𝑅_{1} \\ & ∼[\begin{matrix}1 & 1 & 1 & 0 \\ 0 & 1 & −1 & 1\end{matrix}] & 𝑅_{1} & :=𝑅_{1}+(−1)𝑅_{2} \\ & ∼[\begin{matrix}1 & 0 & 2 & −1 \\ 0 & 1 & −1 & 1\end{matrix}] & & \end{aligned}
 
 
 $$
@@ -146,7 +146,7 @@ The inverse of the matrix $A$ is found using row operations, as shown below. Wha
 $$
 
 
-\begin{aligned}[𝐴\,|\,𝐼\,] & =[\begin{aligned}2 & 6 & 1 & 0 \\ 0 & 1 & 0 & 1\end{aligned}] & & ___________ \\ & ∼[\begin{aligned}1 & 3 & \frac{1}{2} & 0 \\ 0 & 1 & 0 & 1\end{aligned}] & & ___________ \\ & ∼[\begin{aligned}1 & 0 & \frac{1}{2} & −3 \\ 0 & 1 & 0 & 1\end{aligned}] & & \end{aligned}
+\begin{aligned}[𝐴\,|\,𝐼\,] & =[\begin{matrix}2 & 6 & 1 & 0 \\ 0 & 1 & 0 & 1\end{matrix}] & & \underline{\hspace{3em}} \\ & ∼[\begin{matrix}1 & 3 & \frac{1}{2} & 0 \\ 0 & 1 & 0 & 1\end{matrix}] & & \underline{\hspace{3em}} \\ & ∼[\begin{matrix}1 & 0 & \frac{1}{2} & −3 \\ 0 & 1 & 0 & 1\end{matrix}] & & \end{aligned}
 
 
 $$
@@ -158,7 +158,7 @@ We write down $A$ and the identity matrix $I$ side-by-side (as shown below) and 
 $$
 
 
-\begin{aligned}[𝐴\,|\,𝐼\,] & =[\begin{aligned}2 & 6 & 1 & 0 \\ 0 & 1 & 0 & 1\end{aligned}] & 𝑅_{1} & :=\frac{1}{2}𝑅_{1} \\ & ∼[\begin{aligned}1 & 3 & \frac{1}{2} & 0 \\ 0 & 1 & 0 & 1\end{aligned}] & 𝑅_{1} & :=𝑅_{1}+(−3)𝑅_{2} \\ & ∼[\begin{aligned}1 & 0 & \frac{1}{2} & −3 \\ 0 & 1 & 0 & 1\end{aligned}] & & \end{aligned}
+\begin{aligned}[𝐴\,|\,𝐼\,] & =[\begin{matrix}2 & 6 & 1 & 0 \\ 0 & 1 & 0 & 1\end{matrix}] & 𝑅_{1} & :=\frac{1}{2}𝑅_{1} \\ & ∼[\begin{matrix}1 & 3 & \frac{1}{2} & 0 \\ 0 & 1 & 0 & 1\end{matrix}] & 𝑅_{1} & :=𝑅_{1}+(−3)𝑅_{2} \\ & ∼[\begin{matrix}1 & 0 & \frac{1}{2} & −3 \\ 0 & 1 & 0 & 1\end{matrix}] & & \end{aligned}
 
 
 $$

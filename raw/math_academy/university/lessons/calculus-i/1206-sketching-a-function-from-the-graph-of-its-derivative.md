@@ -20,7 +20,7 @@ Recall that the critical points of $y=f(x)$ occur when $f'(x)=0$ or $f'(x)$ does
 $$
 
 
-x=-3\quad \textrm{and} \quad x=1
+x=-3\quad \text{and} \quad x=1
 
 
 $$

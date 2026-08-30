@@ -38,7 +38,7 @@ We start with the unit conversion between yards and feet:
 
 $$
 
-1\, \textrm{yard} =3 \, \textrm{feet}
+1\, \text{yard} =3 \, \text{feet}
 
 $$
 
@@ -68,7 +68,7 @@ Therefore, $14$ yards equals $42$ feet.
 
 #### Question
 
-What is $45 \, \textrm{ft}$ expressed in inches?
+What is $45 \, \text{ft}$ expressed in inches?
 
 #### Explanation
 
@@ -76,7 +76,7 @@ We start with the unit conversion between feet and inches:
 
 $$
 
-1 \,\textrm{ft} = 12 \,\textrm{in}
+1 \,\text{ft} = 12 \,\text{in}
 
 $$
 
@@ -100,4 +100,4 @@ $$
 
 $$
 
-Therefore, $45 \, \textrm{ft}$ equals $540 \, \textrm{in}.$
+Therefore, $45 \, \text{ft}$ equals $540 \, \text{in}.$

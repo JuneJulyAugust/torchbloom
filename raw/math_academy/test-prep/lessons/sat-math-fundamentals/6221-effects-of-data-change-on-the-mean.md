@@ -105,7 +105,7 @@ Therefore, we conclude that
 $$
 
 
-\textrm{mean}(H) > \textrm{mean}(I).
+\text{mean}(H) > \text{mean}(I).
 
 
 $$
@@ -258,7 +258,7 @@ $$
 
 Since the net change is positive, there is an overall net increase. As a result, the overall mean will ** when the data points' values are changed.
 
-Therefore, the mean of dataset P is $\boxed{\textrm{less than}}$ the mean of dataset $Q$ because there is a $\boxed{\textrm{net increase}}$ in the values from dataset $P$ to dataset $Q.$
+Therefore, the mean of dataset P is $\boxed{\text{less than}}$ the mean of dataset $Q$ because there is a $\boxed{\text{net increase}}$ in the values from dataset $P$ to dataset $Q.$
 
 ### Recovering a Sum From the Mean
 

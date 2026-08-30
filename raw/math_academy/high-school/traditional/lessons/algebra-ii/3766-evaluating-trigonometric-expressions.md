@@ -32,7 +32,7 @@ $$
 
 
 
-\begin{aligned}tan^{4}⁡(\frac{𝜋}{3}) & =(tan⁡(\frac{𝜋}{3}))^{4} \\ & =(\sqrt{√3})^{4} \\ & =(\sqrt{√3})^{2}⋅(\sqrt{√3})^{2} \\ & =3⋅3 \\ & =9.\end{aligned}
+\begin{aligned}tan^{4}⁡(\frac{𝜋}{3}) & =(tan⁡(\frac{𝜋}{3}))^{4} \\ & =(\sqrt{3})^{4} \\ & =(\sqrt{3})^{2}⋅(\sqrt{3})^{2} \\ & =3⋅3 \\ & =9.\end{aligned}
 
 
 
@@ -60,7 +60,7 @@ $$
 
 
 
-\begin{aligned}csc⁡240^{∘} & =\frac{1}{sin⁡240^{∘}} \\ & =\frac{1}{(−\frac{\sqrt{√3}}{2})} \\ & =−\frac{2}{\sqrt{√3}}.\end{aligned}
+\begin{aligned}csc⁡240^{∘} & =\frac{1}{sin⁡240^{∘}} \\ & =\frac{1}{(−\frac{\sqrt{3}}{2})} \\ & =−\frac{2}{\sqrt{3}}.\end{aligned}
 
 
 
@@ -72,7 +72,7 @@ $$
 
 
 
-\begin{aligned}sin^{2}⁡(150^{∘})+2csc^{2}⁡(240^{∘}) & =(\frac{1}{2})^{2}+2(−\frac{2}{\sqrt{√3}})^{2} \\ & =\frac{1}{4}+2(\frac{4}{3}) \\ & =\frac{1}{4}+\frac{8}{3} \\ & =\frac{35}{12}\end{aligned}
+\begin{aligned}sin^{2}⁡(150^{∘})+2csc^{2}⁡(240^{∘}) & =(\frac{1}{2})^{2}+2(−\frac{2}{\sqrt{3}})^{2} \\ & =\frac{1}{4}+2(\frac{4}{3}) \\ & =\frac{1}{4}+\frac{8}{3} \\ & =\frac{35}{12}\end{aligned}
 
 
 
@@ -100,7 +100,7 @@ $$
 
 
 
-\begin{aligned}4cos^{2}⁡(\frac{𝜋}{6})−sin⁡(\frac{𝜋}{4}) & =4(\frac{\sqrt{√3}}{2})^{2}−\frac{\sqrt{√2}}{2} \\ & =3−\frac{\sqrt{√2}}{2}\end{aligned}
+\begin{aligned}4cos^{2}⁡(\frac{𝜋}{6})−sin⁡(\frac{𝜋}{4}) & =4(\frac{\sqrt{3}}{2})^{2}−\frac{\sqrt{2}}{2} \\ & =3−\frac{\sqrt{2}}{2}\end{aligned}
 
 
 

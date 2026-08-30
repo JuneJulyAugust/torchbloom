@@ -30,7 +30,7 @@ Suppose that the population $P(t)$ of a particular bacteria grows according to t
 $$
 
 
-\dfrac{\textrm{d}P}{\textrm{d}t} = \dfrac15 P,
+\dfrac{\text{d}P}{\text{d}t} = \dfrac15 P,
 
 
 $$
@@ -116,7 +116,7 @@ The rate at which the amount of medicine in a person’s bloodstream decreases $
 $$
 
 
-\dfrac{\textrm{d}M}{\textrm{d}t} = -0.08M.
+\dfrac{\text{d}M}{\text{d}t} = -0.08M.
 
 
 $$
@@ -130,7 +130,7 @@ We model the amount of medicine using the differential equation
 $$
 
 
-\dfrac{\textrm{d}M}{\textrm{d}t} = -0.08M.
+\dfrac{\text{d}M}{\text{d}t} = -0.08M.
 
 
 $$

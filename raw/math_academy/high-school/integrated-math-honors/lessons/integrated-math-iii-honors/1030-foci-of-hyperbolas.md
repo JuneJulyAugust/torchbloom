@@ -36,7 +36,7 @@ For our hyperbola, we already know that the focal length is $5.$ But let's check
 $$
 
 
-\begin{aligned}𝑐 & =\sqrt{√𝑎^{2}+𝑏^{2}} \\ & =\sqrt{√4^{2}+3^{2}} \\ & =\sqrt{√16+9} \\ & =\sqrt{√25} \\ & =5\,✓\end{aligned}
+\begin{aligned}𝑐 & =\sqrt{𝑎^{2}+𝑏^{2}} \\ & =\sqrt{4^{2}+3^{2}} \\ & =\sqrt{16+9} \\ & =\sqrt{25} \\ & =5\,✓\end{aligned}
 
 
 $$
@@ -110,7 +110,7 @@ Now, computing the focal length, we get
 $$
 
 
-\begin{aligned}𝑐 & =\sqrt{√𝑎^{2}+𝑏^{2}} \\ & =\sqrt{√4^{2}+3^{2}} \\ & =5.\end{aligned}
+\begin{aligned}𝑐 & =\sqrt{𝑎^{2}+𝑏^{2}} \\ & =\sqrt{4^{2}+3^{2}} \\ & =5.\end{aligned}
 
 
 $$
@@ -170,7 +170,7 @@ Now, computing the focal length, we get
 $$
 
 
-\begin{aligned}𝑐 & =\sqrt{√𝑎^{2}+𝑏^{2}} \\ & =\sqrt{√20+16} \\ & =6.\end{aligned}
+\begin{aligned}𝑐 & =\sqrt{𝑎^{2}+𝑏^{2}} \\ & =\sqrt{20+16} \\ & =6.\end{aligned}
 
 
 $$
@@ -250,7 +250,7 @@ Now, computing the focal length, we get
 $$
 
 
-\begin{aligned}𝑐 & =\sqrt{√𝑎^{2}+𝑏^{2}} \\ & =\sqrt{√1+20} \\ & =\sqrt{√21}.\end{aligned}
+\begin{aligned}𝑐 & =\sqrt{𝑎^{2}+𝑏^{2}} \\ & =\sqrt{1+20} \\ & =\sqrt{21}.\end{aligned}
 
 
 $$
@@ -316,7 +316,7 @@ Now, let's compute the distance from the point $P$ to each focus:
 $$
 
 
-\begin{aligned}𝑃𝐹_{1} & =\sqrt{√(−1−(−2))^{2}+(0−\sqrt{√5})^{2}} \\ & =\sqrt{√1^{2}+(−\sqrt{√5})^{2}} \\ & =\sqrt{√1+5} \\ & =\sqrt{√6} \\ 𝑃𝐹_{2} & =\sqrt{√(5−(−2))^{2}+(0−\sqrt{√5})^{2}} \\ & =\sqrt{√(7)^{2}+(−\sqrt{√5})^{2}} \\ & =\sqrt{√49+5} \\ & =\sqrt{√54} \\ & =3\sqrt{√6}\end{aligned}
+\begin{aligned}𝑃𝐹_{1} & =\sqrt{(−1−(−2))^{2}+(0−\sqrt{5})^{2}} \\ & =\sqrt{1^{2}+(−\sqrt{5})^{2}} \\ & =\sqrt{1+5} \\ & =\sqrt{6} \\ 𝑃𝐹_{2} & =\sqrt{(5−(−2))^{2}+(0−\sqrt{5})^{2}} \\ & =\sqrt{(7)^{2}+(−\sqrt{5})^{2}} \\ & =\sqrt{49+5} \\ & =\sqrt{54} \\ & =3\sqrt{6}\end{aligned}
 
 
 $$
@@ -326,7 +326,7 @@ Finally, we have
 $$
 
 
-\begin{aligned}|𝑃𝐹_{1}−𝑃𝐹_{2}|=2𝑎 \\ |\sqrt{√6}−3\sqrt{√6}|=2𝑎 \\ 2\sqrt{√6}=2𝑎 \\ \sqrt{√6}=𝑎.\end{aligned}
+\begin{aligned}|𝑃𝐹_{1}−𝑃𝐹_{2}|=2𝑎 \\ |\sqrt{6}−3\sqrt{6}|=2𝑎 \\ 2\sqrt{6}=2𝑎 \\ \sqrt{6}=𝑎.\end{aligned}
 
 
 $$

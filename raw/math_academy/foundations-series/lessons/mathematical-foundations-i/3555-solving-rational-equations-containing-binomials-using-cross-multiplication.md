@@ -62,7 +62,7 @@ To solve the equation, we move the negative sign onto the numerator of the fract
 $$
 
 
-\begin{aligned} \dfrac{2}{1-2k}&=-\dfrac{4}{3k}\\\[5pt] \dfrac{2}{1-2k}&=\dfrac{-4}{3k}\\\[5pt] 2 \cdot 3k &= (-4) \cdot (1-2k)\\\[5pt] 6k&=-4+8k \end{aligned}
+\begin{aligned} \dfrac{2}{1-2k}&=-\dfrac{4}{3k}\\[5pt] \dfrac{2}{1-2k}&=\dfrac{-4}{3k}\\[5pt] 2 \cdot 3k &= (-4) \cdot (1-2k)\\[5pt] 6k&=-4+8k \end{aligned}
 
 
 $$
@@ -72,7 +72,7 @@ Then, we apply the addition and multiplication principles, as usual:
 $$
 
 
-\begin{aligned} 6k&=-4+8k\\\[5pt] 6k-8k &=-4+8k-8k\\\[5pt] -2k&=-4\\\[5pt] \dfrac{-2k}{-2} &= \dfrac{-4}{-2} \\\[5pt] k &= 2 \end{aligned}
+\begin{aligned} 6k&=-4+8k\\[5pt] 6k-8k &=-4+8k-8k\\[5pt] -2k&=-4\\[5pt] \dfrac{-2k}{-2} &= \dfrac{-4}{-2} \\[5pt] k &= 2 \end{aligned}
 
 
 $$
@@ -94,7 +94,7 @@ To solve the equation, we move the negative sign onto the numerator of the fract
 $$
 
 
-\begin{aligned} -\dfrac{3}{2x}&=\dfrac{2}{x+7}\\\[5pt] \dfrac{-3}{2x}&=\dfrac{2}{x+7}\\\[5pt] (-3) \cdot (x+7) &=2x \cdot (2) \\\[5pt] -3x - 21&= 4x \end{aligned}
+\begin{aligned} -\dfrac{3}{2x}&=\dfrac{2}{x+7}\\[5pt] \dfrac{-3}{2x}&=\dfrac{2}{x+7}\\[5pt] (-3) \cdot (x+7) &=2x \cdot (2) \\[5pt] -3x - 21&= 4x \end{aligned}
 
 
 $$
@@ -104,7 +104,7 @@ Then, we apply the addition and multiplication principles, as usual:
 $$
 
 
-\begin{aligned} -3x - 21&= 4x\\\[5pt] -3x -21 + 3x&=4x + 3x\\\[5pt] -21&=7x\\\[5pt] \dfrac{-21}{7}&=\dfrac{7x}{7} \\\[5pt] -3 &= x \end{aligned}
+\begin{aligned} -3x - 21&= 4x\\[5pt] -3x -21 + 3x&=4x + 3x\\[5pt] -21&=7x\\[5pt] \dfrac{-21}{7}&=\dfrac{7x}{7} \\[5pt] -3 &= x \end{aligned}
 
 
 $$

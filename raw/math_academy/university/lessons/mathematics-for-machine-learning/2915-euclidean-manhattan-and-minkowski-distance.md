@@ -138,7 +138,7 @@ Therefore, we have
 $$
 
 
-\begin{aligned}𝑑_{2}(𝐚,𝐛) & =‖𝐚−𝐛‖_{2} \\ & =\begin{aligned}7 \\ 2 \\ 4\end{aligned}−\begin{aligned}2 \\ 3 \\ 1\end{aligned}_{2} \\ & =\sqrt{√|7−2|^{2}+|2−3|^{2}+|4−1|^{2}} \\ & =\sqrt{√35} \\ & ≈5.916,\end{aligned}
+\begin{aligned}𝑑_{2}(𝐚,𝐛) & =‖𝐚−𝐛‖_{2} \\ & =\begin{matrix}7 \\ 2 \\ 4\end{matrix}−\begin{matrix}2 \\ 3 \\ 1\end{matrix}_{2} \\ & =\sqrt{|7−2|^{2}+|2−3|^{2}+|4−1|^{2}} \\ & =\sqrt{35} \\ & ≈5.916,\end{aligned}
 
 
 $$
@@ -178,7 +178,7 @@ Therefore, we have
 $$
 
 
-\begin{aligned}𝑑_{1}(𝐚,𝐛) & =‖𝐚−𝐛‖_{1} \\ & =\begin{aligned}6 \\ −1 \\ 2\end{aligned}−\begin{aligned}4 \\ −4 \\ 0\end{aligned}_{1} \\ & =|6−4|+|−1−(−4)|+|2−0| \\ & =7.\end{aligned}
+\begin{aligned}𝑑_{1}(𝐚,𝐛) & =‖𝐚−𝐛‖_{1} \\ & =\begin{matrix}6 \\ −1 \\ 2\end{matrix}−\begin{matrix}4 \\ −4 \\ 0\end{matrix}_{1} \\ & =|6−4|+|−1−(−4)|+|2−0| \\ & =7.\end{aligned}
 
 
 $$
@@ -224,7 +224,7 @@ Using the formula, we have
 $$
 
 
-\begin{aligned}𝑑_{5}(𝐚,𝐛) & =‖𝐚−𝐛‖_{5} \\ & =\begin{aligned}1 \\ 2 \\ 3\end{aligned}−\begin{aligned}4 \\ 0 \\ 6\end{aligned}_{5} \\ & =(|1−4|^{5}+|2−0|^{5}+|3−6|^{5})^{1/5} \\ & =(|−3|^{5}+2^{5}+|−3|^{5})^{1/5} \\ & =(243+32+243)^{1/5} \\ & =518^{1/5} \\ & ≈3.490.\end{aligned}
+\begin{aligned}𝑑_{5}(𝐚,𝐛) & =‖𝐚−𝐛‖_{5} \\ & =\begin{matrix}1 \\ 2 \\ 3\end{matrix}−\begin{matrix}4 \\ 0 \\ 6\end{matrix}_{5} \\ & =(|1−4|^{5}+|2−0|^{5}+|3−6|^{5})^{1/5} \\ & =(|−3|^{5}+2^{5}+|−3|^{5})^{1/5} \\ & =(243+32+243)^{1/5} \\ & =518^{1/5} \\ & ≈3.490.\end{aligned}
 
 
 $$
@@ -264,7 +264,7 @@ Therefore, we have
 $$
 
 
-\begin{aligned}𝑑_{4}(𝐚,𝐛) & =‖𝐚−𝐛‖_{4} \\ & =\begin{aligned}6 \\ −3 \\ 2\end{aligned}−\begin{aligned}7 \\ −1 \\ 1\end{aligned}_{4} \\ & =(|6−7|^{4}+|−3−(−1)|^{4}+|2−1|^{4})^{1/4} \\ & =18^{1/4} \\ & ≈2.060,\end{aligned}
+\begin{aligned}𝑑_{4}(𝐚,𝐛) & =‖𝐚−𝐛‖_{4} \\ & =\begin{matrix}6 \\ −3 \\ 2\end{matrix}−\begin{matrix}7 \\ −1 \\ 1\end{matrix}_{4} \\ & =(|6−7|^{4}+|−3−(−1)|^{4}+|2−1|^{4})^{1/4} \\ & =18^{1/4} \\ & ≈2.060,\end{aligned}
 
 
 $$
@@ -390,7 +390,7 @@ Therefore, we have
 $$
 
 
-\begin{aligned}𝑑_{∞}(𝐚,𝐛) & =‖𝐚−𝐛‖_{∞} \\ & =\begin{aligned}−2 \\ 6 \\ −7\end{aligned}−\begin{aligned}8 \\ −9 \\ −9\end{aligned}_{∞} \\ & =max(|−2−8|,|6−(−9)|,|−7−(−9)|) \\ & =max(10,15,2) \\ & =15.\end{aligned}
+\begin{aligned}𝑑_{∞}(𝐚,𝐛) & =‖𝐚−𝐛‖_{∞} \\ & =\begin{matrix}−2 \\ 6 \\ −7\end{matrix}−\begin{matrix}8 \\ −9 \\ −9\end{matrix}_{∞} \\ & =max(|−2−8|,|6−(−9)|,|−7−(−9)|) \\ & =max(10,15,2) \\ & =15.\end{aligned}
 
 
 $$

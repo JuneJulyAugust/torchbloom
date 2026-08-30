@@ -25,7 +25,7 @@ Since both $X$ and $Y$ contain *the same number of data points,* the mean of the
 $$
 
 
-\textrm{mean}(Z) =\dfrac{\textrm{mean}(X)+\textrm{mean}(Y)}{2}
+\text{mean}(Z) =\dfrac{\text{mean}(X)+\text{mean}(Y)}{2}
 
 
 $$
@@ -48,7 +48,7 @@ $$
 
 #### Question
 
-Three delivery drivers, Dana, Eli, and Fiona, each drove for $10$ hours. The average speed of Dana was $55\,\dfrac{\textrm{mi}}{\textrm{h}}$, Eli’s was $65\,\dfrac{\textrm{mi}}{\textrm{h}}$, and Fiona’s was $75\,\dfrac{\textrm{mi}}{\textrm{h}}$. What was their average speed over the $30$ hours combined?
+Three delivery drivers, Dana, Eli, and Fiona, each drove for $10$ hours. The average speed of Dana was $55\,\dfrac{\text{mi}}{\text{h}}$, Eli’s was $65\,\dfrac{\text{mi}}{\text{h}}$, and Fiona’s was $75\,\dfrac{\text{mi}}{\text{h}}$. What was their average speed over the $30$ hours combined?
 
 #### Explanation
 
@@ -64,7 +64,7 @@ $$
 
 $$
 
-Therefore, the average score the $30$ hours is $65\,\dfrac{\textrm{mi}}{\textrm{h}}.$
+Therefore, the average score the $30$ hours is $65\,\dfrac{\text{mi}}{\text{h}}.$
 
 ### Finding a Combined Mean Using a Weighted Average
 
@@ -97,7 +97,7 @@ We compute the combined mean using a so-called **weighted average:**
 $$
 
 
-\textrm{mean}(Z)= \dfrac{n_X \cdot \textrm{mean}(X) + n_Y \cdot \textrm{mean}(Y)}{n_X + n_Y}
+\text{mean}(Z)= \dfrac{n_X \cdot \text{mean}(X) + n_Y \cdot \text{mean}(Y)}{n_X + n_Y}
 
 
 $$
@@ -174,7 +174,7 @@ Suppose we have data sets $A$ and $B,$ and we create a new data set $C$ by combi
 
 - $\text{mean}(C) = 37$ is the mean of the combined data set.
 
-Notice that we do not know $\textrm{mean}(A).$ How can we find this using the information given above?
+Notice that we do not know $\text{mean}(A).$ How can we find this using the information given above?
 
 The total number of data points is
 
@@ -191,7 +191,7 @@ The combined mean is found using a weighted average:
 $$
 
 
-\textrm{mean}(C) = \dfrac{n_A \cdot \textrm{mean}(A) + n_B \cdot \textrm{mean}(B)}{n_A + n_B}
+\text{mean}(C) = \dfrac{n_A \cdot \text{mean}(A) + n_B \cdot \text{mean}(B)}{n_A + n_B}
 
 
 $$
@@ -206,12 +206,12 @@ $$
 
 $$
 
-We wish to solve for $\textrm{mean}(A).$ To do this, we first multiply both sides by $20.$ This gives
+We wish to solve for $\text{mean}(A).$ To do this, we first multiply both sides by $20.$ This gives
 
 $$
 
 
-740 = 4 \cdot \textrm{mean}(A) + 640.
+740 = 4 \cdot \text{mean}(A) + 640.
 
 
 $$
@@ -221,7 +221,7 @@ Then, we subtract $640$ from both sides.
 $$
 
 
-100 = 4 \cdot \textrm{mean}(A)
+100 = 4 \cdot \text{mean}(A)
 
 
 $$
@@ -231,7 +231,7 @@ Finally, we divide both sides by $4{:}$
 $$
 
 
-\textrm{mean}(A) = 25
+\text{mean}(A) = 25
 
 
 $$
@@ -327,7 +327,7 @@ Let $X = \{x_1, \dots, x_n\}$ and $Y = \{y_1, \dots, y_n\}$ each contain $n$ ele
 $$
 
 
-\textrm{mean}(X) = \dfrac{x_1 + x_2 + \cdots + x_n}{n}, \qquad \textrm{mean}(Y) = \dfrac{y_1 + y_2 + \cdots + y_n}{n}.
+\text{mean}(X) = \dfrac{x_1 + x_2 + \cdots + x_n}{n}, \qquad \text{mean}(Y) = \dfrac{y_1 + y_2 + \cdots + y_n}{n}.
 
 
 $$
@@ -337,7 +337,7 @@ The total sum of values in the combined set $Z$ is
 $$
 
 
-\text{sum}(Z) = (x_1 + \cdots + x_n) + (y_1 + \cdots + y_n) = n \cdot \textrm{mean}(X) + n \cdot \textrm{mean}(Y),
+\text{sum}(Z) = (x_1 + \cdots + x_n) + (y_1 + \cdots + y_n) = n \cdot \text{mean}(X) + n \cdot \text{mean}(Y),
 
 
 $$
@@ -369,7 +369,7 @@ Let $X = \{x_1, \dots, x_{n_X}\}$ and $Y = \{y_1, \dots, y_{n_Y}\}$ contain $n_X
 $$
 
 
-\textrm{mean}(X) = \dfrac{x_1 + x_2 + \cdots + x_{n_X}}{n_X}, \qquad \textrm{mean}(Y) = \dfrac{y_1 + y_2 + \cdots + y_{n_Y}}{n_Y}.
+\text{mean}(X) = \dfrac{x_1 + x_2 + \cdots + x_{n_X}}{n_X}, \qquad \text{mean}(Y) = \dfrac{y_1 + y_2 + \cdots + y_{n_Y}}{n_Y}.
 
 
 $$
@@ -379,7 +379,7 @@ The total sum of values in the combined set $Z$ is
 $$
 
 
-\text{sum}(Z) = (x_1 + \cdots + x_{n_X}) + (y_1 + \cdots + y_{n_Y}) = n_X \cdot \textrm{mean}(X) + n_Y \cdot \textrm{mean}(Y),
+\text{sum}(Z) = (x_1 + \cdots + x_{n_X}) + (y_1 + \cdots + y_{n_Y}) = n_X \cdot \text{mean}(X) + n_Y \cdot \text{mean}(Y),
 
 
 $$

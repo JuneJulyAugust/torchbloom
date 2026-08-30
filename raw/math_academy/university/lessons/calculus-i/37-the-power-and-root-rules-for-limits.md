@@ -12,7 +12,7 @@ Topic ID: 37
 
 ### Introduction
 
-The **power rule** states that the limit of a power is the power of the limit. More precisely, if $n$ is any positive integer and $\lim_\limits{x\rightarrow a}f(x)=L,$ then
+The **power rule** states that the limit of a power is the power of the limit. More precisely, if $n$ is any positive integer and $\lim\limits_{x\rightarrow a}f(x)=L,$ then
 
 $$
 
@@ -27,7 +27,7 @@ For example, with the power rule, we can evaluate a limit like
 $$
 
 
-\lim_\limits{x\rightarrow 2}(3x-4)^{8}
+\lim\limits_{x\rightarrow 2}(3x-4)^{8}
 
 
 $$
@@ -46,7 +46,7 @@ $$
 
 #### Question
 
-Calculate $\lim_\limits{x\rightarrow 3}\left[(2x-1)^3(x-2)^9\right].$
+Calculate $\lim\limits_{x\rightarrow 3}\left[(2x-1)^3(x-2)^9\right].$
 
 #### Explanation
 
@@ -55,7 +55,7 @@ Here, we apply the product rule and the power rule to get
 $$
 
 
-\begin{aligned} \lim_\limits{x\rightarrow 3}\left[(2x-1)^3(x-2)^9\right] &= \lim_\limits{x\rightarrow 3}(2x-1)^3\cdot \lim_\limits{x\rightarrow 3}(x-2)^9\\[3pt] &= \left(\lim_\limits{x\rightarrow 3}(2x-1)\right)^3\cdot \left(\lim_\limits{x\rightarrow 3}(x-2)\right)^9\\[3pt] &= (2\cdot 3 -1)^3\cdot (3-2)^9\\[3pt] &= 5^3 \cdot 1^9\\[3pt] & = 125. \end{aligned}
+\begin{aligned} \lim\limits_{x\rightarrow 3}\left[(2x-1)^3(x-2)^9\right] &= \lim\limits_{x\rightarrow 3}(2x-1)^3\cdot \lim\limits_{x\rightarrow 3}(x-2)^9\\[3pt] &= \left(\lim\limits_{x\rightarrow 3}(2x-1)\right)^3\cdot \left(\lim\limits_{x\rightarrow 3}(x-2)\right)^9\\[3pt] &= (2\cdot 3 -1)^3\cdot (3-2)^9\\[3pt] &= 5^3 \cdot 1^9\\[3pt] & = 125. \end{aligned}
 
 
 $$
@@ -64,13 +64,13 @@ $$
 
 #### Question
 
-The figure below shows the graph of $f(x).$ Determine $\lim_\limits{x\rightarrow 2} \left(\dfrac{2-7x}{xf(x)+2}\right)^3.$
+The figure below shows the graph of $f(x).$ Determine $\lim\limits_{x\rightarrow 2} \left(\dfrac{2-7x}{xf(x)+2}\right)^3.$
 
 ![Instructional graphic](../../../lesson-assets/calculus-i/topic-37/73a3ae7334a86ba3.png)
 
 #### Explanation
 
-From the graph, we find $\lim_\limits{x\rightarrow 2} f(x)=3.$ Therefore, using the power rule, we have
+From the graph, we find $\lim\limits_{x\rightarrow 2} f(x)=3.$ Therefore, using the power rule, we have
 
 $$
 
@@ -84,7 +84,7 @@ $$
 
 The **root rule** states that the limit of a root is the root of the limit (provided that the root exists).
 
-More precisely, if $n$ is any positive integer and $\lim_\limits{x\rightarrow a}f(x)=L,$ then
+More precisely, if $n$ is any positive integer and $\lim\limits_{x\rightarrow a}f(x)=L,$ then
 
 $$
 
@@ -99,7 +99,7 @@ For example, with the root rule, we can evaluate a limit like
 $$
 
 
-\lim_\limits{x\rightarrow 2}\sqrt{3x-2}
+\lim\limits_{x\rightarrow 2}\sqrt{3x-2}
 
 
 $$
@@ -109,7 +109,7 @@ by evaluating the limit of the expression within the root and then taking the ro
 $$
 
 
-\begin{aligned}\underset{𝑥→2}{lim}\sqrt{√3𝑥−2} & =\sqrt{√\underset{𝑥→2}{lim}(3𝑥−2)} \\ & =\sqrt{√3⋅2−2} \\ & =\sqrt{√4} \\ & =2\end{aligned}
+\begin{aligned}\underset{𝑥→2}{lim}\sqrt{3𝑥−2} & =\sqrt{\underset{𝑥→2}{lim}(3𝑥−2)} \\ & =\sqrt{3⋅2−2} \\ & =\sqrt{4} \\ & =2\end{aligned}
 
 
 $$
@@ -118,7 +118,7 @@ $$
 
 #### Question
 
-Find $\lim_\limits{x \to 1} \dfrac{\sqrt{x+8}}{x-2}.$
+Find $\lim\limits_{x \to 1} \dfrac{\sqrt{x+8}}{x-2}.$
 
 #### Explanation
 
@@ -127,7 +127,7 @@ Applying the quotient rule, we get
 $$
 
 
-\lim_\limits{x\rightarrow 1} \dfrac{\sqrt{x+8}}{x-2} =\dfrac{\lim_\limits{x\rightarrow 1} \sqrt{x+8}}{\lim_\limits{x\rightarrow 1}(x-2)}.
+\lim\limits_{x\rightarrow 1} \dfrac{\sqrt{x+8}}{x-2} =\dfrac{\lim\limits_{x\rightarrow 1} \sqrt{x+8}}{\lim\limits_{x\rightarrow 1}(x-2)}.
 
 
 $$
@@ -139,7 +139,7 @@ Applying the root rule in the numerator, we have
 $$
 
 
-\begin{aligned}\underset{𝑥→1}{lim}\sqrt{√𝑥+8} & =\sqrt{√\underset{𝑥→1}{lim}(𝑥+8)} \\ & =\sqrt{√1+8} \\ & =\sqrt{√9} \\ & =3.\end{aligned}
+\begin{aligned}\underset{𝑥→1}{lim}\sqrt{𝑥+8} & =\sqrt{\underset{𝑥→1}{lim}(𝑥+8)} \\ & =\sqrt{1+8} \\ & =\sqrt{9} \\ & =3.\end{aligned}
 
 
 $$
@@ -159,19 +159,19 @@ Consequently,
 $$
 
 
-\begin{aligned}\underset{𝑥→1}{lim}\frac{\sqrt{√𝑥+8}}{𝑥−2} & =\frac{3}{(−1)} \\ & =−3\,.\end{aligned}
+\begin{aligned}\underset{𝑥→1}{lim}\frac{\sqrt{𝑥+8}}{𝑥−2} & =\frac{3}{(−1)} \\ & =−3\,.\end{aligned}
 
 
 $$
 
 ### Combining Different Rules
 
-If we combine the power rule and the root rule, then we get the following useful generalization: if $\lim_\limits{x\rightarrow a}f(x)=L,$ then for any fraction $p/q,$ we have
+If we combine the power rule and the root rule, then we get the following useful generalization: if $\lim\limits_{x\rightarrow a}f(x)=L,$ then for any fraction $p/q,$ we have
 
 $$
 
 
-\lim_\limits{x\rightarrow a}\left(f(x)\right)^{p/q} = \left(\lim_\limits{x\rightarrow a} f(x)\right)^{p/q} = L^{p/q}
+\lim\limits_{x\rightarrow a}\left(f(x)\right)^{p/q} = \left(\lim\limits_{x\rightarrow a} f(x)\right)^{p/q} = L^{p/q}
 
 
 $$
@@ -183,7 +183,7 @@ For example, we can evaluate a limit like
 $$
 
 
-\lim_\limits{y\rightarrow 64} y^{-1/6}
+\lim\limits_{y\rightarrow 64} y^{-1/6}
 
 
 $$
@@ -202,7 +202,7 @@ $$
 
 #### Question
 
-Find $\lim_\limits{x\rightarrow -2}\left(\dfrac{f(x)}{x^2-1}\right)^{2/3}$ for the function $f(x)$ plotted below.
+Find $\lim\limits_{x\rightarrow -2}\left(\dfrac{f(x)}{x^2-1}\right)^{2/3}$ for the function $f(x)$ plotted below.
 
 ![Instructional graphic](../../../lesson-assets/calculus-i/topic-37/db2349b3e8f065e2.png)
 
@@ -223,7 +223,7 @@ We find from the graph that the limit of the numerator is
 $$
 
 
-\lim_\limits{x\rightarrow -2} f(x)=1.
+\lim\limits_{x\rightarrow -2} f(x)=1.
 
 
 $$

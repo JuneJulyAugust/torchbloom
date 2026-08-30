@@ -38,7 +38,7 @@ We can evaluate this integral in the usual way:
 $$
 
 
-\begin{aligned}∫_{𝑥0}^{}𝑡^{2}\,d𝑡 & =\frac{1}{3}𝑡^{3}_{𝑥0}^{} \\ & =\frac{1}{3}𝑥^{3}−0 \\ & =\frac{1}{3}𝑥^{3}\end{aligned}
+\begin{aligned}∫_{𝑥0}𝑡^{2}\,d𝑡 & =\frac{1}{3}𝑡^{3}_{𝑥0} \\ & =\frac{1}{3}𝑥^{3}−0 \\ & =\frac{1}{3}𝑥^{3}\end{aligned}
 
 
 $$
@@ -82,7 +82,7 @@ Evaluating $F(x)$ at $x=\pi,$ we get the following definite integral:
 $$
 
 
-F\!\left(\pi\right) = \int_{1}^{\pi} \dfrac{1}{t} \, \textrm{d}t
+F\!\left(\pi\right) = \int_{1}^{\pi} \dfrac{1}{t} \, \text{d}t
 
 
 $$
@@ -92,7 +92,7 @@ Then, computing the definite integral, we get
 $$
 
 
-\begin{aligned}𝐹(𝜋) & =∫_{𝜋1}^{}\frac{1}{𝑡}\,d𝑡 \\ & =ln⁡|𝑡|\,_{𝜋1}^{} \\ & =ln⁡𝜋−ln⁡1 \\ & =ln⁡𝜋.\end{aligned}
+\begin{aligned}𝐹(𝜋) & =∫_{𝜋1}\frac{1}{𝑡}\,d𝑡 \\ & =ln⁡|𝑡|\,_{𝜋1} \\ & =ln⁡𝜋−ln⁡1 \\ & =ln⁡𝜋.\end{aligned}
 
 
 $$
@@ -101,7 +101,7 @@ $$
 
 #### Question
 
-The graph of a function $y = f(x)$ is shown below. Given $\displaystyle g(t)= \int_{-2}^{t} f(x)\, \textrm{d}x,$ determine the value of $g(3).$
+The graph of a function $y = f(x)$ is shown below. Given $\displaystyle g(t)= \int_{-2}^{t} f(x)\, \text{d}x,$ determine the value of $g(3).$
 
 ![Instructional graphic](../../../lesson-assets/mathematical-foundations-iii/topic-333/b806811863109298.png)
 
@@ -112,7 +112,7 @@ Evaluating $g(t)$ at $t=3,$ we get the following definite integral:
 $$
 
 
-g(3) = \int_{-2}^{3} f(x)\, \textrm{d}x
+g(3) = \int_{-2}^{3} f(x)\, \text{d}x
 
 
 $$
@@ -132,7 +132,7 @@ Therefore, we can write the integral as follows:
 $$
 
 
-g(3) = \int_{-2}^{3} f(x) \, \textrm{d}x = \underbrace{\int_{-2}^{0} f(x) \, \textrm{d}x}_{A_1} + \underbrace{\int_{0}^{3} f(x) \, \textrm{d}x}_{A_2}
+g(3) = \int_{-2}^{3} f(x) \, \text{d}x = \underbrace{\int_{-2}^{0} f(x) \, \text{d}x}_{A_1} + \underbrace{\int_{0}^{3} f(x) \, \text{d}x}_{A_2}
 
 
 $$
@@ -148,7 +148,7 @@ Therefore, we obtain
 $$
 
 
-\begin{aligned}𝑔(3) & =∫_{3−2}^{}𝑓(𝑥)\,d𝑥=𝐴_{1}+𝐴_{2}=5+9=14.\end{aligned}
+\begin{aligned}𝑔(3) & =∫_{3−2}𝑓(𝑥)\,d𝑥=𝐴_{1}+𝐴_{2}=5+9=14.\end{aligned}
 
 
 $$
@@ -216,7 +216,7 @@ Substituting the known information and carrying out the necessary integration gi
 $$
 
 
-\begin{aligned}𝐹(𝑇) & =𝐹(0)+∫_{𝑇0}^{}𝑓(𝑡)\,d𝑡 \\ & =100−∫_{𝑇0}^{}𝑡^{1/3}\,d𝑡 \\ & =100−\frac{3𝑡^{4/3}}{4}_{𝑇0}^{} \\ & =100−\frac{3(𝑇)^{4/3}}{4}+\frac{3(0)^{4/3}}{4} \\ & =100−\frac{3}{4}𝑇^{4/3}.\end{aligned}
+\begin{aligned}𝐹(𝑇) & =𝐹(0)+∫_{𝑇0}𝑓(𝑡)\,d𝑡 \\ & =100−∫_{𝑇0}𝑡^{1/3}\,d𝑡 \\ & =100−\frac{3𝑡^{4/3}}{4}_{𝑇0} \\ & =100−\frac{3(𝑇)^{4/3}}{4}+\frac{3(0)^{4/3}}{4} \\ & =100−\frac{3}{4}𝑇^{4/3}.\end{aligned}
 
 
 $$

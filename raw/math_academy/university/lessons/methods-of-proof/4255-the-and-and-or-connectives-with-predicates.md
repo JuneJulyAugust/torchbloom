@@ -110,7 +110,7 @@ So, we can express the sentence as
 $$
 
 
-\underbrace{x \,\textrm{ is positive}\,\textrm{and a multiple of }4 }_{P \land M} \quad \underbrace{\vphantom{p}\textrm{or}}_{\lor} \quad \underbrace{x \vphantom{p}\textrm{ is negative} }_N,
+\underbrace{x \,\text{ is positive}\,\text{and a multiple of }4 }_{P \land M} \quad \underbrace{\vphantom{p}\text{or}}_{\lor} \quad \underbrace{x \vphantom{p}\text{ is negative} }_N,
 
 
 $$

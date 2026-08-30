@@ -70,7 +70,7 @@ and we take a step of size $\Delta x$ using the Runge-Kutta (RK4) method. Fill i
 $$
 
 
-\begin{aligned}Δ𝑦 & =\frac{1}{6}(𝑦^{′}+2𝑦_{′1}^{}+2𝑦_{′2}^{}+𝑦_{′3}^{})⋅Δ𝑥 \\ 𝑦^{′} & =𝑓(𝑥,𝑦) \\ 𝑦_{′1}^{} & =𝑓(𝑥_{1},𝑦_{1})\, where \,(𝑥_{1},𝑦_{1})=(\phantom{(q_0,1,L)},\,𝑦+\frac{1}{2}𝑦^{′}⋅Δ𝑥) \\ 𝑦_{′2}^{} & =𝑓(𝑥_{2},𝑦_{2})\, where \,(𝑥_{2},𝑦_{2})=(𝑥+\frac{1}{2}Δ𝑥,\,\phantom{(q_0,1,L)}) \\ 𝑦_{′3}^{} & =𝑓(𝑥_{3},𝑦_{3})\, where \,(𝑥_{3},𝑦_{3})=(\phantom{(q_0,1,L)},\,𝑦+𝑦_{′2}^{}⋅Δ𝑥)\end{aligned}
+\begin{aligned}Δ𝑦 & =\frac{1}{6}(𝑦^{′}+2𝑦_{′1}+2𝑦_{′2}+𝑦_{′3})⋅Δ𝑥 \\ 𝑦^{′} & =𝑓(𝑥,𝑦) \\ 𝑦_{′1} & =𝑓(𝑥_{1},𝑦_{1})\, where \,(𝑥_{1},𝑦_{1})=(\phantom{(q_0,1,L)},\,𝑦+\frac{1}{2}𝑦^{′}⋅Δ𝑥) \\ 𝑦_{′2} & =𝑓(𝑥_{2},𝑦_{2})\, where \,(𝑥_{2},𝑦_{2})=(𝑥+\frac{1}{2}Δ𝑥,\,\phantom{(q_0,1,L)}) \\ 𝑦_{′3} & =𝑓(𝑥_{3},𝑦_{3})\, where \,(𝑥_{3},𝑦_{3})=(\phantom{(q_0,1,L)},\,𝑦+𝑦_{′2}⋅Δ𝑥)\end{aligned}
 
 
 $$
@@ -103,7 +103,7 @@ where
 
 - $y'_1 = f(x_1, y_1)$ is the estimated slope at $𝑥+\frac{1}{2}Δ𝑥$
 
-- $y'_2 = f(x_2, y_2)$ is the estimated slope at $𝑦+\frac{1}{2}𝑦_{′1}^{}⋅Δ𝑥$
+- $y'_2 = f(x_2, y_2)$ is the estimated slope at $𝑦+\frac{1}{2}𝑦_{′1}⋅Δ𝑥$
 
 - $y'_3 = f(x_3, y_3)$ is the estimated slope at $𝑥+Δ𝑥$
 
@@ -148,7 +148,7 @@ Finally, we compute $\Delta y$ using the Runge-Kutta Method:
 $$
 
 
-\begin{aligned}Δ𝑦 & =\frac{1}{6}(𝑦^{′}+2𝑦_{′1}^{}+2𝑦_{′2}^{}+𝑦_{′3}^{})⋅Δ𝑥 \\ & =\frac{1}{6}(3+2⋅\frac{3}{2}+2⋅3+0)⋅1 \\ & =\frac{1}{6}⋅12 \\ & =2.\end{aligned}
+\begin{aligned}Δ𝑦 & =\frac{1}{6}(𝑦^{′}+2𝑦_{′1}+2𝑦_{′2}+𝑦_{′3})⋅Δ𝑥 \\ & =\frac{1}{6}(3+2⋅\frac{3}{2}+2⋅3+0)⋅1 \\ & =\frac{1}{6}⋅12 \\ & =2.\end{aligned}
 
 
 $$
@@ -226,7 +226,7 @@ We compute $\Delta y$ using the Runge-Kutta method:
 $$
 
 
-\begin{aligned}Δ𝑦 & =\frac{1}{6}(𝑦^{′}+2𝑦_{′1}^{}+2𝑦_{′2}^{}+𝑦_{′3}^{})⋅Δ𝑥 \\ & =\frac{1}{6}(0+2⋅1+2⋅\frac{5}{4}+\frac{13}{4})⋅1 \\ & =\frac{1}{6}(2+\frac{10}{4}+\frac{13}{4}) \\ & =\frac{1}{6}⋅\frac{31}{4} \\ & =\frac{31}{24}.\end{aligned}
+\begin{aligned}Δ𝑦 & =\frac{1}{6}(𝑦^{′}+2𝑦_{′1}+2𝑦_{′2}+𝑦_{′3})⋅Δ𝑥 \\ & =\frac{1}{6}(0+2⋅1+2⋅\frac{5}{4}+\frac{13}{4})⋅1 \\ & =\frac{1}{6}(2+\frac{10}{4}+\frac{13}{4}) \\ & =\frac{1}{6}⋅\frac{31}{4} \\ & =\frac{31}{24}.\end{aligned}
 
 
 $$
@@ -314,7 +314,7 @@ Finally, we compute $\Delta y$ using the Runge-Kutta Method:
 $$
 
 
-\begin{aligned}Δ𝑦 & =\frac{1}{6}(𝑦^{′}+2𝑦_{′1}^{}+2𝑦_{′2}^{}+𝑦_{′3}^{})⋅Δ𝑥 \\ & =\frac{1}{6}(−1+2⋅0+2⋅(−\frac{1}{2})+\frac{1}{2})⋅1 \\ & =\frac{1}{6}(−\frac{3}{2}) \\ & =−\frac{1}{4}.\end{aligned}
+\begin{aligned}Δ𝑦 & =\frac{1}{6}(𝑦^{′}+2𝑦_{′1}+2𝑦_{′2}+𝑦_{′3})⋅Δ𝑥 \\ & =\frac{1}{6}(−1+2⋅0+2⋅(−\frac{1}{2})+\frac{1}{2})⋅1 \\ & =\frac{1}{6}(−\frac{3}{2}) \\ & =−\frac{1}{4}.\end{aligned}
 
 
 $$

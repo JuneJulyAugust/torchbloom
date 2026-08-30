@@ -11,7 +11,7 @@ Topic ID: 85
 
 ### Introduction
 
-The **greatest common factor** (or $\textrm{GCF}$) of $12$ and $18x$ is the largest expression that will divide *both* $12$ and $18x$ with no remainder.
+The **greatest common factor** (or $\text{GCF}$) of $12$ and $18x$ is the largest expression that will divide *both* $12$ and $18x$ with no remainder.
 
 To find the GCF, we list the factors of the coefficients and then identify any variable factors the expressions have in common.
 
@@ -61,7 +61,7 @@ Thus, the greatest common factor of $12$ and $18x$ is $6.$
 
 #### Question
 
-What is $\textrm{GCF}(10k,20)?$
+What is $\text{GCF}(10k,20)?$
 
 #### Explanation
 
@@ -107,7 +107,7 @@ The greatest of these common factors is $10.$
 
 Now we look at the variable factors. Since $20$ has no variable and $10k$ contains $k,$ there are no variable factors in common.
 
-Thus, $\textrm{GCF}(10k,20)=10.$
+Thus, $\text{GCF}(10k,20)=10.$
 
 ### Example: Finding the Greatest Common Factor of Two Variable Expressions
 
@@ -165,7 +165,7 @@ Thus, the greatest common factor of $33p$ and $22p$ is $11p.$
 
 #### Question
 
-Find the $\textrm{GCF}$ of $9a$, $18a,$ and $27a.$
+Find the $\text{GCF}$ of $9a$, $18a,$ and $27a.$
 
 #### Explanation
 
@@ -223,4 +223,4 @@ The greatest of these common factors is $9.$
 
 Now we look at the variable factors. The expressions $9a,$ $18a,$ and $27a$ all contain $a.$
 
-Thus, the $\textrm{GCF}$ of $9a,$ $18a,$ and $27a$ is $9a.$
+Thus, the $\text{GCF}$ of $9a,$ $18a,$ and $27a$ is $9a.$

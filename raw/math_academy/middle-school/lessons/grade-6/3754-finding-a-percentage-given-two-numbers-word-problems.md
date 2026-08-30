@@ -17,7 +17,7 @@ $$
 
 
 
-\textrm{percentage}\times \textrm{whole} = \textrm{part} ,
+\text{percentage}\times \text{whole} = \text{part} ,
 
 
 
@@ -29,7 +29,7 @@ $$
 
 
 
-\textrm{percentage} = \textrm{part} \div \textrm{whole}
+\text{percentage} = \text{part} \div \text{whole}
 
 
 
@@ -47,7 +47,7 @@ $$
 
 
 
-\textrm{percentage} = 54 \div 300 = \dfrac{54}{300}.
+\text{percentage} = 54 \div 300 = \dfrac{54}{300}.
 
 
 
@@ -93,7 +93,7 @@ $$
 
 
 
-\textrm{percentage} = \textrm{part} \div \textrm{whole}
+\text{percentage} = \text{part} \div \text{whole}
 
 
 
@@ -111,7 +111,7 @@ $$
 
 
 
-\textrm{percentage} = 110 \div 200 = \dfrac{110}{200}.
+\text{percentage} = 110 \div 200 = \dfrac{110}{200}.
 
 
 
@@ -157,7 +157,7 @@ $$
 
 
 
-\textrm{percentage} = \textrm{part} \div \textrm{whole}
+\text{percentage} = \text{part} \div \text{whole}
 
 
 
@@ -175,7 +175,7 @@ $$
 
 
 
-\textrm{percentage} = 9 \div 75 = \dfrac{9}{75}.
+\text{percentage} = 9 \div 75 = \dfrac{9}{75}.
 
 
 

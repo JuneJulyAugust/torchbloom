@@ -370,7 +370,7 @@ Since $4$ and $9$ are coprime, their least common multiple is given by
 $$
 
 
-\textrm{lcm}(4,9) = 36.
+\text{lcm}(4,9) = 36.
 
 
 $$

@@ -213,7 +213,7 @@ Finally, we convert this to a mixed number:
 $$
 
 
-27 \div 4 = 6 \, \textrm{R} \, 3 = 6 \, \dfrac{3}{4}
+27 \div 4 = 6 \, \text{R} \, 3 = 6 \, \dfrac{3}{4}
 
 
 $$
@@ -283,7 +283,7 @@ Finally, we convert this to a mixed number:
 $$
 
 
-20 \div 3 = 6 \, \textrm{R} \, 2 = 6 \, \dfrac{2}{3}
+20 \div 3 = 6 \, \text{R} \, 2 = 6 \, \dfrac{2}{3}
 
 
 $$

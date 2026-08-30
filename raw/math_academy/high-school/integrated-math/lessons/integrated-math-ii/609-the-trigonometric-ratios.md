@@ -23,7 +23,7 @@ The three fundamental trigonometric ratios, **sine**, **cosine**, and **tangent*
 $$
 
 
-\begin{aligned} \sin(\theta) &= \dfrac {\text{opposite}} {\text{hypotenuse}}, \\\[5pt] \cos(\theta) &= \dfrac {\text{adjacent}} {\text{hypotenuse}}, \\\[5pt] \tan(\theta) &= \dfrac {\text{opposite}} {\text{adjacent}}. \\\end{aligned}
+\begin{aligned} \sin(\theta) &= \dfrac {\text{opposite}} {\text{hypotenuse}}, \\[5pt] \cos(\theta) &= \dfrac {\text{adjacent}} {\text{hypotenuse}}, \\[5pt] \tan(\theta) &= \dfrac {\text{opposite}} {\text{adjacent}}. \\\end{aligned}
 
 
 $$

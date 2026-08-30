@@ -277,7 +277,7 @@ $$
 
 
 
-\begin{aligned}𝑒 & =\frac{𝑐}{𝑎} \\ & =\frac{\sqrt{√|𝑎^{2}−𝑏^{2}|}}{𝑎} \\ & =\frac{\sqrt{√|9−5|}}{3} \\ & =\frac{\sqrt{√4}}{3} \\ & =\frac{2}{3}.\end{aligned}
+\begin{aligned}𝑒 & =\frac{𝑐}{𝑎} \\ & =\frac{\sqrt{|𝑎^{2}−𝑏^{2}|}}{𝑎} \\ & =\frac{\sqrt{|9−5|}}{3} \\ & =\frac{\sqrt{4}}{3} \\ & =\frac{2}{3}.\end{aligned}
 
 
 
@@ -313,7 +313,7 @@ $$
 
 
 
-\begin{aligned}𝑒 & =\frac{𝑐}{𝑏} \\ & =\frac{\sqrt{√|𝑎^{2}−𝑏^{2}|}}{𝑏} \\ & =\frac{\sqrt{√|3^{2}−5^{2}|}}{5} \\ & =\frac{\sqrt{√|9−25|}}{5} \\ & =\frac{\sqrt{√|−16|}}{5} \\ & =\frac{4}{5}.\end{aligned}
+\begin{aligned}𝑒 & =\frac{𝑐}{𝑏} \\ & =\frac{\sqrt{|𝑎^{2}−𝑏^{2}|}}{𝑏} \\ & =\frac{\sqrt{|3^{2}−5^{2}|}}{5} \\ & =\frac{\sqrt{|9−25|}}{5} \\ & =\frac{\sqrt{|−16|}}{5} \\ & =\frac{4}{5}.\end{aligned}
 
 
 

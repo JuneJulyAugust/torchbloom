@@ -24,7 +24,7 @@ $$
 
 
 
-\begin{aligned}𝑦=\sqrt{√𝑥+4} \\ 𝑦=𝑥−2\end{aligned}
+\begin{aligned}𝑦=\sqrt{𝑥+4} \\ 𝑦=𝑥−2\end{aligned}
 
 
 
@@ -36,7 +36,7 @@ $$
 
 
 
-\begin{aligned}\sqrt{√𝑥+4} & =𝑥−2 \\ 𝑥+4 & =(𝑥−2)^{2} \\ 𝑥+4 & =𝑥^{2}−4𝑥+4 \\ 𝑥^{2}−5𝑥 & =0 \\ 𝑥(𝑥−5) & =0 \\ 𝑥 & =0,5\end{aligned}
+\begin{aligned}\sqrt{𝑥+4} & =𝑥−2 \\ 𝑥+4 & =(𝑥−2)^{2} \\ 𝑥+4 & =𝑥^{2}−4𝑥+4 \\ 𝑥^{2}−5𝑥 & =0 \\ 𝑥(𝑥−5) & =0 \\ 𝑥 & =0,5\end{aligned}
 
 
 
@@ -80,7 +80,7 @@ $$
 
 
 
-\begin{aligned}𝑦=\sqrt{√𝑥−1} \\ 𝑦=𝑥+2\end{aligned}
+\begin{aligned}𝑦=\sqrt{𝑥−1} \\ 𝑦=𝑥+2\end{aligned}
 
 
 
@@ -92,7 +92,7 @@ $$
 
 
 
-\begin{aligned}\sqrt{√𝑥−1} & =𝑥+2 \\ 𝑥−1 & =(𝑥+2)^{2} \\ 𝑥−1 & =𝑥^{2}+4𝑥+4 \\ 𝑥^{2}+3𝑥+5 & =0\end{aligned}
+\begin{aligned}\sqrt{𝑥−1} & =𝑥+2 \\ 𝑥−1 & =(𝑥+2)^{2} \\ 𝑥−1 & =𝑥^{2}+4𝑥+4 \\ 𝑥^{2}+3𝑥+5 & =0\end{aligned}
 
 
 
@@ -104,7 +104,7 @@ $$
 
 
 
-\begin{aligned}𝑥 & =\frac{−3±\sqrt{√3^{2}−4(1)(5)}}{2(1)} \\ & =\frac{−3±\sqrt{√9−20}}{2} \\ & =\frac{−3±\sqrt{√−11}}{2}\end{aligned}
+\begin{aligned}𝑥 & =\frac{−3±\sqrt{3^{2}−4(1)(5)}}{2(1)} \\ & =\frac{−3±\sqrt{9−20}}{2} \\ & =\frac{−3±\sqrt{−11}}{2}\end{aligned}
 
 
 
@@ -130,7 +130,7 @@ $$
 
 
 
-\begin{aligned}𝑦=\sqrt{√𝑥+1} \\ 𝑦=\frac{𝑥}{2}+\frac{1}{2}\end{aligned}
+\begin{aligned}𝑦=\sqrt{𝑥+1} \\ 𝑦=\frac{𝑥}{2}+\frac{1}{2}\end{aligned}
 
 
 
@@ -142,7 +142,7 @@ $$
 
 
 
-\begin{aligned}\sqrt{√𝑥+1} & =\frac{𝑥}{2}+\frac{1}{2} \\ 𝑥+1 & =(\frac{𝑥}{2}+\frac{1}{2})^{2} \\ 𝑥+1 & =\frac{𝑥^{2}}{4}+\frac{𝑥}{2}+\frac{1}{4} \\ 4𝑥+4 & =𝑥^{2}+2𝑥+1 \\ 𝑥^{2}−2𝑥−3 & =0 \\ (𝑥+1)(𝑥−3) & =0 \\ 𝑥 & =−1,3\end{aligned}
+\begin{aligned}\sqrt{𝑥+1} & =\frac{𝑥}{2}+\frac{1}{2} \\ 𝑥+1 & =(\frac{𝑥}{2}+\frac{1}{2})^{2} \\ 𝑥+1 & =\frac{𝑥^{2}}{4}+\frac{𝑥}{2}+\frac{1}{4} \\ 4𝑥+4 & =𝑥^{2}+2𝑥+1 \\ 𝑥^{2}−2𝑥−3 & =0 \\ (𝑥+1)(𝑥−3) & =0 \\ 𝑥 & =−1,3\end{aligned}
 
 
 

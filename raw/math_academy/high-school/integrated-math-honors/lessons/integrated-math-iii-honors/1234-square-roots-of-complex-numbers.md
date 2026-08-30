@@ -50,7 +50,7 @@ Taking the $n$th root of the above expression and applying De Moivre's theorem, 
 $$
 
 
-\begin{aligned}𝑧_{1/𝑛𝑘}^{} & =[cos⁡(\frac{𝜋}{2}+2𝜋𝑘)+isin⁡(\frac{𝜋}{2}+2𝜋𝑘)]^{1/𝑛} \\ & =cos⁡[\frac{1}{𝑛}(\frac{𝜋}{2}+2𝜋𝑘)]+isin⁡[\frac{1}{𝑛}(\frac{𝜋}{2}+2𝜋𝑘)] \\ & =cos⁡(\frac{𝜋}{2𝑛}+\frac{2𝜋𝑘}{𝑛})+isin⁡(\frac{𝜋}{2𝑛}+\frac{2𝜋𝑘}{𝑛}).\end{aligned}
+\begin{aligned}𝑧_{1/𝑛𝑘} & =[cos⁡(\frac{𝜋}{2}+2𝜋𝑘)+isin⁡(\frac{𝜋}{2}+2𝜋𝑘)]^{1/𝑛} \\ & =cos⁡[\frac{1}{𝑛}(\frac{𝜋}{2}+2𝜋𝑘)]+isin⁡[\frac{1}{𝑛}(\frac{𝜋}{2}+2𝜋𝑘)] \\ & =cos⁡(\frac{𝜋}{2𝑛}+\frac{2𝜋𝑘}{𝑛})+isin⁡(\frac{𝜋}{2𝑛}+\frac{2𝜋𝑘}{𝑛}).\end{aligned}
 
 
 $$
@@ -66,7 +66,7 @@ We found that the $n$th roots of $z=\textrm i$ are given by
 $$
 
 
-\begin{aligned}𝑧_{1/𝑛𝑘}^{} & =cos⁡(\frac{𝜋}{2𝑛}+\frac{2𝜋𝑘}{𝑛})+isin⁡(\frac{𝜋}{2𝑛}+\frac{2𝜋𝑘}{𝑛}).\end{aligned}
+\begin{aligned}𝑧_{1/𝑛𝑘} & =cos⁡(\frac{𝜋}{2𝑛}+\frac{2𝜋𝑘}{𝑛})+isin⁡(\frac{𝜋}{2𝑛}+\frac{2𝜋𝑘}{𝑛}).\end{aligned}
 
 
 $$
@@ -86,7 +86,7 @@ Finally, setting $k=0, 1$ gives the square roots:
 $$
 
 
-\begin{aligned}𝑘=0:\,\,𝑧_{1/20}^{} & =cos⁡(\frac{𝜋}{4}+𝜋⋅0)+isin⁡(\frac{𝜋}{4}+𝜋⋅0) \\ & =cos⁡(\frac{𝜋}{4})+isin⁡(\frac{𝜋}{4}) \\ & =\frac{\sqrt{√2}}{2}+i\frac{\sqrt{√2}}{2} \\ 𝑘=1:\,\,𝑧_{1/21}^{} & =cos⁡(\frac{𝜋}{4}+𝜋⋅1)+isin⁡(\frac{𝜋}{4}+𝜋⋅1) \\ & =cos⁡(\frac{5𝜋}{4})+isin⁡(\frac{5𝜋}{4}) \\ & =−\frac{\sqrt{√2}}{2}−i\frac{\sqrt{√2}}{2}\end{aligned}
+\begin{aligned}𝑘=0:\,\,𝑧_{1/20} & =cos⁡(\frac{𝜋}{4}+𝜋⋅0)+isin⁡(\frac{𝜋}{4}+𝜋⋅0) \\ & =cos⁡(\frac{𝜋}{4})+isin⁡(\frac{𝜋}{4}) \\ & =\frac{\sqrt{2}}{2}+i\frac{\sqrt{2}}{2} \\ 𝑘=1:\,\,𝑧_{1/21} & =cos⁡(\frac{𝜋}{4}+𝜋⋅1)+isin⁡(\frac{𝜋}{4}+𝜋⋅1) \\ & =cos⁡(\frac{5𝜋}{4})+isin⁡(\frac{5𝜋}{4}) \\ & =−\frac{\sqrt{2}}{2}−i\frac{\sqrt{2}}{2}\end{aligned}
 
 
 $$
@@ -122,7 +122,7 @@ Using techniques similar to those we've just seen, we can show that the $n$th ro
 $$
 
 
-z_{k}^{1/n} = \sqrt[n]{r}\left[\cos\left(\dfrac{\theta + 2\pi{k}}{n}\right) + \textrm{i}\sin\left(\dfrac{\theta + 2\pi{k}}{n}\right)\right], \qquad k=0, 1, 2,..., n-1.
+z_{k}^{1/n} = \sqrt[n]{r}\left[\cos\left(\dfrac{\theta + 2\pi{k}}{n}\right) + \text{i}\sin\left(\dfrac{\theta + 2\pi{k}}{n}\right)\right], \qquad k=0, 1, 2,..., n-1.
 
 
 $$
@@ -133,12 +133,12 @@ In this lesson, we will focus on computing the *square* roots of numbers. In a f
 
 #### Question
 
-The complex square roots of the number $z = \cos\left(\dfrac{4\pi}{5}\right) + \textrm{i}\sin\left(\dfrac{4\pi}{5}\right)$ are given by
+The complex square roots of the number $z = \cos\left(\dfrac{4\pi}{5}\right) + \text{i}\sin\left(\dfrac{4\pi}{5}\right)$ are given by
 
 $$
 
 
-z_k^{1/2} = \cos\left(\dfrac{2\pi}{\boxed{a}}+\boxed{b}\cdot{k}\right)+\textrm{i}\sin\left(\dfrac{2\pi}{\boxed{a}}+\boxed{b}\cdot{k}\right),
+z_k^{1/2} = \cos\left(\dfrac{2\pi}{\boxed{a}}+\boxed{b}\cdot{k}\right)+\text{i}\sin\left(\dfrac{2\pi}{\boxed{a}}+\boxed{b}\cdot{k}\right),
 
 
 $$
@@ -152,7 +152,7 @@ Any nonzero complex number $z$ has exactly $n$ distinct $n$th roots. Using de Mo
 $$
 
 
-z_{k}^{1/n} = \sqrt[n]{r}\left[\cos\left(\dfrac{\theta + 2\pi{k}}{n}\right) + \textrm{i}\sin\left(\dfrac{\theta + 2\pi{k}}{n}\right)\right],
+z_{k}^{1/n} = \sqrt[n]{r}\left[\cos\left(\dfrac{\theta + 2\pi{k}}{n}\right) + \text{i}\sin\left(\dfrac{\theta + 2\pi{k}}{n}\right)\right],
 
 
 $$
@@ -182,7 +182,7 @@ Substituting these values into the formula, we obtain
 $$
 
 
-\begin{aligned}𝑧_{1/2𝑘}^{} & =\sqrt{√1}cos⁡\frac{\frac{4𝜋}{5}+2𝜋𝑘}{5}+isin⁡\frac{\frac{4𝜋}{5}+2𝜋𝑘}{5} \\ & =cos⁡(\frac{2𝜋}{5}+𝜋⋅𝑘)+isin⁡(\frac{2𝜋}{5}+𝜋⋅𝑘).\end{aligned}
+\begin{aligned}𝑧_{1/2𝑘} & =\sqrt{1}cos⁡\frac{\frac{4𝜋}{5}+2𝜋𝑘}{5}+isin⁡\frac{\frac{4𝜋}{5}+2𝜋𝑘}{5} \\ & =cos⁡(\frac{2𝜋}{5}+𝜋⋅𝑘)+isin⁡(\frac{2𝜋}{5}+𝜋⋅𝑘).\end{aligned}
 
 
 $$
@@ -193,12 +193,12 @@ Therefore, $a={\color{blue}5}$ and $b={\color{red}\pi}.$
 
 #### Question
 
-The complex square roots of the number $z = 9\left[\cos\left(\dfrac{5\pi}{3}\right) + \textrm{i}\sin\left(\dfrac{5\pi}{3}\right)\right]$ are given by
+The complex square roots of the number $z = 9\left[\cos\left(\dfrac{5\pi}{3}\right) + \text{i}\sin\left(\dfrac{5\pi}{3}\right)\right]$ are given by
 
 $$
 
 
-z_k^{1/2} = \boxed{a} \left[ \cos\left(\dfrac{5\pi}{\boxed{b}} + \boxed{c}\cdot{k}\right) + \textrm{i} \sin\left(\dfrac{5\pi}{\boxed{b}} + \boxed{c}\cdot{k}\right) \right],
+z_k^{1/2} = \boxed{a} \left[ \cos\left(\dfrac{5\pi}{\boxed{b}} + \boxed{c}\cdot{k}\right) + \text{i} \sin\left(\dfrac{5\pi}{\boxed{b}} + \boxed{c}\cdot{k}\right) \right],
 
 
 $$
@@ -212,7 +212,7 @@ Any nonzero complex number $z$ has exactly $n$ distinct $n$th roots. Using de Mo
 $$
 
 
-z_{k}^{1/n} = \sqrt[n]{r}\left[\cos\left(\dfrac{\theta + 2\pi{k}}{n}\right) + \textrm{i}\sin\left(\dfrac{\theta + 2\pi{k}}{n}\right)\right],
+z_{k}^{1/n} = \sqrt[n]{r}\left[\cos\left(\dfrac{\theta + 2\pi{k}}{n}\right) + \text{i}\sin\left(\dfrac{\theta + 2\pi{k}}{n}\right)\right],
 
 
 $$
@@ -242,7 +242,7 @@ Substituting these values into the formula, we obtain
 $$
 
 
-\begin{aligned}𝑧_{1/2𝑘}^{} & =\sqrt{√9}cos⁡\frac{\frac{5𝜋}{3}+2𝜋𝑘}{3}+isin⁡\frac{\frac{5𝜋}{3}+2𝜋𝑘}{3} \\ & =3[cos⁡(\frac{5𝜋}{6}+𝜋⋅𝑘)+isin⁡(\frac{5𝜋}{6}+𝜋⋅𝑘)].\end{aligned}
+\begin{aligned}𝑧_{1/2𝑘} & =\sqrt{9}cos⁡\frac{\frac{5𝜋}{3}+2𝜋𝑘}{3}+isin⁡\frac{\frac{5𝜋}{3}+2𝜋𝑘}{3} \\ & =3[cos⁡(\frac{5𝜋}{6}+𝜋⋅𝑘)+isin⁡(\frac{5𝜋}{6}+𝜋⋅𝑘)].\end{aligned}
 
 
 $$
@@ -253,7 +253,7 @@ Therefore, $a = {\color{purple}3},$ $b = {\color{blue}6},$ and $c = {\color{red}
 
 #### Question
 
-Find the square roots of $z=9\left[\cos\left(\dfrac{\pi}{5}\right)+\textrm{i}\sin\left(\dfrac{\pi}{5}\right)\right].$
+Find the square roots of $z=9\left[\cos\left(\dfrac{\pi}{5}\right)+\text{i}\sin\left(\dfrac{\pi}{5}\right)\right].$
 
 #### Explanation
 
@@ -262,7 +262,7 @@ Any nonzero complex number $z$ has exactly $n$ distinct $n$th roots. Using de Mo
 $$
 
 
-z_{k}^{1/n} = \sqrt[n]{r}\left[\cos\left(\dfrac{\theta+2\pi{k}}{n}\right)+\textrm{i}\sin\left(\dfrac{\theta+2\pi{k}}{n}\right)\right],
+z_{k}^{1/n} = \sqrt[n]{r}\left[\cos\left(\dfrac{\theta+2\pi{k}}{n}\right)+\text{i}\sin\left(\dfrac{\theta+2\pi{k}}{n}\right)\right],
 
 
 $$
@@ -292,7 +292,7 @@ Substituting these values into the formula, we obtain
 $$
 
 
-\begin{aligned}𝑧_{1/2𝑘}^{} & =\sqrt{√9}cos⁡\frac{\frac{𝜋}{5}+2𝜋⋅𝑘}{5}+isin⁡\frac{\frac{𝜋}{5}+2𝜋⋅𝑘}{5} \\ & =3[cos⁡(\frac{𝜋}{10}+𝜋⋅𝑘)+isin⁡(\frac{𝜋}{10}+𝜋⋅𝑘)].\end{aligned}
+\begin{aligned}𝑧_{1/2𝑘} & =\sqrt{9}cos⁡\frac{\frac{𝜋}{5}+2𝜋⋅𝑘}{5}+isin⁡\frac{\frac{𝜋}{5}+2𝜋⋅𝑘}{5} \\ & =3[cos⁡(\frac{𝜋}{10}+𝜋⋅𝑘)+isin⁡(\frac{𝜋}{10}+𝜋⋅𝑘)].\end{aligned}
 
 
 $$
@@ -302,7 +302,7 @@ Finally, setting $k=0, 1$ gives the square roots:
 $$
 
 
-\begin{aligned}𝑘=0:\,𝑧_{1/20}^{} & =3[cos⁡(\frac{𝜋}{10}+𝜋⋅0)+isin⁡(\frac{𝜋}{10}+𝜋⋅0)] \\ & =3[cos⁡(\frac{𝜋}{10})+isin⁡(\frac{𝜋}{10})] \\ 𝑘=1:\,𝑧_{1/21}^{} & =3[cos⁡(\frac{𝜋}{10}+𝜋⋅1)+isin⁡(\frac{𝜋}{10}+𝜋⋅1)] \\ & =3[cos⁡(\frac{11𝜋}{10})+isin⁡(\frac{11𝜋}{10})]\end{aligned}
+\begin{aligned}𝑘=0:\,𝑧_{1/20} & =3[cos⁡(\frac{𝜋}{10}+𝜋⋅0)+isin⁡(\frac{𝜋}{10}+𝜋⋅0)] \\ & =3[cos⁡(\frac{𝜋}{10})+isin⁡(\frac{𝜋}{10})] \\ 𝑘=1:\,𝑧_{1/21} & =3[cos⁡(\frac{𝜋}{10}+𝜋⋅1)+isin⁡(\frac{𝜋}{10}+𝜋⋅1)] \\ & =3[cos⁡(\frac{11𝜋}{10})+isin⁡(\frac{11𝜋}{10})]\end{aligned}
 
 
 $$

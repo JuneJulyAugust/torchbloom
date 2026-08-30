@@ -19,7 +19,7 @@ $$
 
 
 
-\textrm{Var}[a] = 0.
+\text{Var}[a] = 0.
 
 
 
@@ -31,7 +31,7 @@ Intuitively, this makes sense. A constant does not vary, so the mean deviation f
 
 #### Question
 
-Calculate $\textrm{Var}[4k^2-1]$ where $k$ is a constant.
+Calculate $\text{Var}[4k^2-1]$ where $k$ is a constant.
 
 #### Explanation
 
@@ -41,7 +41,7 @@ $$
 
 
 
-\textrm{Var}[a] = 0.
+\text{Var}[a] = 0.
 
 
 
@@ -53,7 +53,7 @@ $$
 
 
 
-\textrm{Var}[4k^2-1] = 0.
+\text{Var}[4k^2-1] = 0.
 
 
 
@@ -67,13 +67,13 @@ $$
 
 
 
-\textrm{Var}[aX] = a^2\textrm{Var}[X].
+\text{Var}[aX] = a^2\text{Var}[X].
 
 
 
 $$
 
-So, for example, if we know that $\textrm{Var}[X] = 2,$ then
+So, for example, if we know that $\text{Var}[X] = 2,$ then
 
 $$
 
@@ -103,7 +103,7 @@ $$
 
 
 
-\textrm{Var}[X] = \textrm E [ (X - \textrm E[X])^2 ]
+\text{Var}[X] = \textrm E [ (X - \textrm E[X])^2 ]
 
 
 
@@ -125,7 +125,7 @@ $$
 
 #### Question
 
-The probability distribution of the random variable $X$ is given below. Given that $\textrm E[X] = 2.3,$ calculate $\textrm{Var}[-10X].$
+The probability distribution of the random variable $X$ is given below. Given that $\textrm E[X] = 2.3,$ calculate $\text{Var}[-10X].$
 
 #### Explanation
 
@@ -135,7 +135,7 @@ $$
 
 
 
-\textrm{Var}[aX] = a^2\cdot\textrm{Var}[X].
+\text{Var}[aX] = a^2\cdot\text{Var}[X].
 
 
 
@@ -159,7 +159,7 @@ $$
 
 
 
-\textrm{Var}[X] = \textrm E[X^2] - \textrm E[X]^2
+\text{Var}[X] = \textrm E[X^2] - \textrm E[X]^2
 
 
 
@@ -211,7 +211,7 @@ $$
 
 
 
-\textrm{Var}[aX+b] = a^2\textrm{Var}[X].
+\text{Var}[aX+b] = a^2\text{Var}[X].
 
 
 
@@ -227,7 +227,7 @@ Therefore, when a random variable is scaled by a factor of $a$ and shifted by a 
 
 The fact that shifting a random variable leaves the variance unaltered makes intuitive sense. Shifting all values of $X$ by a fixed amount does not change how far apart those values are from each other.
 
-For example, if we know that $\textrm{Var}[X] = 3,$ then
+For example, if we know that $\text{Var}[X] = 3,$ then
 
 $$
 
@@ -243,7 +243,7 @@ $$
 
 #### Question
 
-If $\textrm{Var}[X] = 10,$ calculate $\textrm{Var}[1-2X].$
+If $\text{Var}[X] = 10,$ calculate $\text{Var}[1-2X].$
 
 #### Explanation
 
@@ -253,7 +253,7 @@ $$
 
 
 
-\textrm{Var}[aX+b] = a^2\cdot\textrm{Var}[X].
+\text{Var}[aX+b] = a^2\cdot\text{Var}[X].
 
 
 
@@ -279,7 +279,7 @@ $$
 
 
 
-\textrm{Var}[aX+b] = a^2\textrm{Var}[X]
+\text{Var}[aX+b] = a^2\text{Var}[X]
 
 
 
@@ -291,7 +291,7 @@ $$
 
 
 
-\textrm{Var}[X] = \textrm E [ (X - \textrm E[X])^2 ].
+\text{Var}[X] = \textrm E [ (X - \textrm E[X])^2 ].
 
 
 

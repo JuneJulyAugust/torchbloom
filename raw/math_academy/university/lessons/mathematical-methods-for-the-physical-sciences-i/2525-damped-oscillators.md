@@ -144,7 +144,7 @@ $$
 
 #### Question
 
-A particle of mass $5\,\textrm{kg}$ is attached to a massless spring. The spring constant associated with the spring is $k = 15\, \textrm{kg/s}^2.$ The particle is also subject to a resistive force that's proportional to the particle's velocity, and has a damping coefficient $c = 10\, \textrm{kg/s}.$ The position of the particle is $y(t)$ (measured in meters), and $t>0$ is the time in seconds. If the particle moves with damped harmonic motion, what is the governing equation?
+A particle of mass $5\,\text{kg}$ is attached to a massless spring. The spring constant associated with the spring is $k = 15\, \text{kg/s}^2.$ The particle is also subject to a resistive force that's proportional to the particle's velocity, and has a damping coefficient $c = 10\, \text{kg/s}.$ The position of the particle is $y(t)$ (measured in meters), and $t>0$ is the time in seconds. If the particle moves with damped harmonic motion, what is the governing equation?
 
 #### Explanation
 
@@ -228,7 +228,7 @@ y_c =e^{-t}\left(A\cos{2t} + B\sin{2t}\right).
 
 $$
 
-From the solution, the value of the angular frequency is $\Omega = 2\,\textrm{s}^{-1}.$
+From the solution, the value of the angular frequency is $\Omega = 2\,\text{s}^{-1}.$
 
 The period of the damped oscillation $T$ is related to the angular frequency as follows:
 
@@ -245,7 +245,7 @@ So, the period is
 $$
 
 
-T = \dfrac{2\pi}{2} = \pi \,\textrm{s}.
+T = \dfrac{2\pi}{2} = \pi \,\text{s}.
 
 
 $$

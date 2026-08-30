@@ -122,7 +122,7 @@ $$
 
 $$
 
-Therefore, $x = 3\,\textrm{cm}$.
+Therefore, $x = 3\,\text{cm}$.
 
 ### The Midpoint Formula
 

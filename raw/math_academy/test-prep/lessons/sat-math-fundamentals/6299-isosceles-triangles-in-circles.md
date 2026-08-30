@@ -163,7 +163,7 @@ We know that the coordinates of $O$ and $P$ are $(a, b)$ and $(a+4, b+\sqrt{18})
 $$
 
 
-\begin{aligned}𝑂𝑃 & =\sqrt{√(𝑥_{2}−𝑥_{1})^{2}+(𝑦_{2}−𝑦_{1})^{2}} \\ & =\sqrt{√(𝑎+4−𝑎)^{2}+(𝑏+\sqrt{√18}−𝑏)^{2}} \\ & =\sqrt{√4^{2}+(\sqrt{√18})^{2}} \\ & =\sqrt{√16+18} \\ & =\sqrt{√34}\end{aligned}
+\begin{aligned}𝑂𝑃 & =\sqrt{(𝑥_{2}−𝑥_{1})^{2}+(𝑦_{2}−𝑦_{1})^{2}} \\ & =\sqrt{(𝑎+4−𝑎)^{2}+(𝑏+\sqrt{18}−𝑏)^{2}} \\ & =\sqrt{4^{2}+(\sqrt{18})^{2}} \\ & =\sqrt{16+18} \\ & =\sqrt{34}\end{aligned}
 
 
 $$
@@ -175,7 +175,7 @@ Finally, $\triangle{POQ}$ is a right triangle because $\angle{POQ}$ is a right a
 $$
 
 
-\begin{aligned}𝑃𝑄^{2} & =𝑂𝑃^{2}+𝑂𝑄^{2} \\ & =𝑂𝑃^{2}+𝑂𝑃^{2} \\ & =2𝑂𝑃^{2} \\ & =2(\sqrt{√34})^{2} \\ & =2(34) \\ & =68.\end{aligned}
+\begin{aligned}𝑃𝑄^{2} & =𝑂𝑃^{2}+𝑂𝑄^{2} \\ & =𝑂𝑃^{2}+𝑂𝑃^{2} \\ & =2𝑂𝑃^{2} \\ & =2(\sqrt{34})^{2} \\ & =2(34) \\ & =68.\end{aligned}
 
 
 $$
@@ -185,7 +185,7 @@ Consequently,
 $$
 
 
-\begin{aligned}𝑃𝑄 & =\sqrt{√68} \\ & =\sqrt{√4⋅17} \\ & =\sqrt{√4}⋅\sqrt{√17} \\ & =2\sqrt{√17}.\end{aligned}
+\begin{aligned}𝑃𝑄 & =\sqrt{68} \\ & =\sqrt{4⋅17} \\ & =\sqrt{4}⋅\sqrt{17} \\ & =2\sqrt{17}.\end{aligned}
 
 
 $$

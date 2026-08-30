@@ -151,7 +151,7 @@ $$
 
 
 
-|x| = -x \quad\textrm{for}\quad x < 0.
+|x| = -x \quad\text{for}\quad x < 0.
 
 
 

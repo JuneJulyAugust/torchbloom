@@ -31,16 +31,16 @@ For example, consider the relation $R$ defined on $A = \big\{1, 2, \ldots, 10 \b
 $$
 
 
-(x,y,z) \in R \qquad \Leftrightarrow \qquad x + y \equiv z \quad (\textrm{mod} \: 4).
+(x,y,z) \in R \qquad \Leftrightarrow \qquad x + y \equiv z \quad (\text{mod} \: 4).
 
 
 $$
 
 Note that, for example,
 
-- $(2,3,9) \in R$ since $2 + 3 \equiv 9 \: (\textrm{mod} \: 4),$ but
+- $(2,3,9) \in R$ since $2 + 3 \equiv 9 \: (\text{mod} \: 4),$ but
 
-- $(1,1,1) \not\in R$ since $1+1 \not\equiv 1 \: (\textrm{mod} \: 4).$
+- $(1,1,1) \not\in R$ since $1+1 \not\equiv 1 \: (\text{mod} \: 4).$
 
 Similar to binary relations, there is no need for the factors of the Cartesian product always to be the same set:
 

@@ -101,7 +101,7 @@ $$
 
 #### Question
 
-A particle of mass $0.25\,\textrm{kg}$ is attached to a massless spring. An external periodic force $F(t) = 3\sin(6t)\,\textrm{N}$ is applied to the particle.
+A particle of mass $0.25\,\text{kg}$ is attached to a massless spring. An external periodic force $F(t) = 3\sin(6t)\,\text{N}$ is applied to the particle.
 
 The position of the particle is $y(t)$ (measured in meters), and $t>0$ is the time in seconds. If the particle moves with forced harmonic motion without damping and the system experiences resonance, what is the spring constant $k?$
 
@@ -166,7 +166,7 @@ Therefore,
 $$
 
 
-k = \dfrac14\omega^2 = \dfrac14\cdot6^2 = 9 \,\textrm{kg/s}^2.
+k = \dfrac14\omega^2 = \dfrac14\cdot6^2 = 9 \,\text{kg/s}^2.
 
 
 $$
@@ -230,7 +230,7 @@ To determine $C$ and $D,$ we first compute derivatives:
 $$
 
 
-\begin{aligned}𝑦_{′𝑝}^{} & =𝐶cos⁡(𝜔𝑡)+𝐷sin⁡(𝜔𝑡)+𝑡(−𝐶𝜔sin⁡(𝜔𝑡)+𝐷𝜔cos⁡(𝜔𝑡)) \\ 𝑦_{″𝑝}^{} & =2(−𝐶𝜔sin⁡(𝜔𝑡)+𝐷𝜔cos⁡(𝜔𝑡))−𝑡𝜔^{2}(𝐶cos⁡(𝜔𝑡)+𝐷sin⁡(𝜔𝑡))\end{aligned}
+\begin{aligned}𝑦_{′𝑝} & =𝐶cos⁡(𝜔𝑡)+𝐷sin⁡(𝜔𝑡)+𝑡(−𝐶𝜔sin⁡(𝜔𝑡)+𝐷𝜔cos⁡(𝜔𝑡)) \\ 𝑦_{″𝑝} & =2(−𝐶𝜔sin⁡(𝜔𝑡)+𝐷𝜔cos⁡(𝜔𝑡))−𝑡𝜔^{2}(𝐶cos⁡(𝜔𝑡)+𝐷sin⁡(𝜔𝑡))\end{aligned}
 
 
 $$
@@ -240,7 +240,7 @@ Substituting into the equation, we have that the $t$-terms cancel out, and we ob
 $$
 
 
-\begin{aligned}𝑦_{″𝑝}^{}+𝜔^{2}𝑦_{𝑝}=2𝜔𝐷cos⁡(𝜔𝑡)−2𝜔𝐶sin⁡(𝜔𝑡).\end{aligned}
+\begin{aligned}𝑦_{″𝑝}+𝜔^{2}𝑦_{𝑝}=2𝜔𝐷cos⁡(𝜔𝑡)−2𝜔𝐶sin⁡(𝜔𝑡).\end{aligned}
 
 
 $$

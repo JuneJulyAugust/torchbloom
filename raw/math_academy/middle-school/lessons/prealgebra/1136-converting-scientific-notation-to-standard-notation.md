@@ -87,7 +87,7 @@ $$
 
 #### Question
 
-Red blood cells are disk-shaped cells that are found in our blood and are responsible for transferring oxygen to different parts of the body. A typical red blood cell has a diameter of around $7 \times 10^{-6}$ $\textrm{m}.$ What is this length in standard notation?
+Red blood cells are disk-shaped cells that are found in our blood and are responsible for transferring oxygen to different parts of the body. A typical red blood cell has a diameter of around $7 \times 10^{-6}$ $\text{m}.$ What is this length in standard notation?
 
 #### Explanation
 
@@ -101,4 +101,4 @@ $$
 
 $$
 
-Therefore, the diameter of a red blood cell is around $0.000\,007$ $\textrm{m}$.
+Therefore, the diameter of a red blood cell is around $0.000\,007$ $\text{m}$.

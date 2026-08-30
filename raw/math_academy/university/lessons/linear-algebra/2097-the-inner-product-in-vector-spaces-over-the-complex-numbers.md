@@ -29,7 +29,7 @@ But for many vectors in $\Bbb C^n,$ such as $[\begin{aligned}i \\ 0\end{aligned}
 $$
 
 
-\begin{aligned}[\begin{aligned}i \\ 0\end{aligned}]⋅[\begin{aligned}i \\ 0\end{aligned}] & =i^{2}+0^{2} \\ & =−1 \\ & <0\,×\end{aligned}
+\begin{aligned}[\begin{matrix}i \\ 0\end{matrix}]⋅[\begin{matrix}i \\ 0\end{matrix}] & =i^{2}+0^{2} \\ & =−1 \\ & <0\,×\end{aligned}
 
 
 $$
@@ -63,7 +63,7 @@ Using the standard Hermitian inner product instead of the dot product, our desir
 $$
 
 
-\begin{aligned}⟨[\begin{aligned}i \\ 0\end{aligned}],[\begin{aligned}i \\ 0\end{aligned}]⟩ & =i⋅\overset{\,i\,}{}+0⋅\overset{\,0\,}{} \\ & =i⋅(−i)+0⋅0 \\ & =1+0 \\ & =1 \\ & ≥0\,✓\end{aligned}
+\begin{aligned}⟨[\begin{matrix}i \\ 0\end{matrix}],[\begin{matrix}i \\ 0\end{matrix}]⟩ & =i⋅\overset{\,i\,}{}+0⋅\overset{\,0\,}{} \\ & =i⋅(−i)+0⋅0 \\ & =1+0 \\ & =1 \\ & ≥0\,✓\end{aligned}
 
 
 $$

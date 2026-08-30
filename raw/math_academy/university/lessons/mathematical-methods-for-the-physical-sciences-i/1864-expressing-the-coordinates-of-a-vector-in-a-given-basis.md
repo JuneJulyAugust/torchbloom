@@ -41,14 +41,14 @@ $$
 
 $$
 
-Also let $H = \textrm{span} \{\mathbf b_1, \mathbf b_2 \},$ and consider the vector $\begin{aligned}8 \\ 4 \\ 0\end{aligned}$
+Also let $H = \text{span} \{\mathbf b_1, \mathbf b_2 \},$ and consider the vector $\begin{aligned}8 \\ 4 \\ 0\end{aligned}$
 
 The vector $\mathbf x$ can be expressed as a unique linear combination of $\mathbf b_1$ and $\mathbf b_2.$ That is to say, there exist *unique coefficients* $\color{red}x_1$ and $\color{blue}x_2$ such that
 
 $$
 
 
-\begin{aligned}𝑥_{1}𝐛_{1}+𝑥_{2}𝐛_{2} & =𝐱 \\ 𝑥_{1}\begin{aligned}2 \\ 0 \\ 0\end{aligned}+𝑥_{2}\begin{aligned}1 \\ 2 \\ 0\end{aligned} & =\begin{aligned}8 \\ 4 \\ 0\end{aligned}.\end{aligned}
+\begin{aligned}𝑥_{1}𝐛_{1}+𝑥_{2}𝐛_{2} & =𝐱 \\ 𝑥_{1}\begin{matrix}2 \\ 0 \\ 0\end{matrix}+𝑥_{2}\begin{matrix}1 \\ 2 \\ 0\end{matrix} & =\begin{matrix}8 \\ 4 \\ 0\end{matrix}.\end{aligned}
 
 
 $$
@@ -91,7 +91,7 @@ which can be visualized as shown below.
 
 #### Question
 
-Find the vector $\mathbf{x}$ if $\,\mathcal{B}=\{\mathbf{b}_1, \mathbf{b}_2 \}$ is a basis of $\textrm{Span}\{\mathbf{b}_1, \mathbf{b}_2 \},$ and
+Find the vector $\mathbf{x}$ if $\,\mathcal{B}=\{\mathbf{b}_1, \mathbf{b}_2 \}$ is a basis of $\text{Span}\{\mathbf{b}_1, \mathbf{b}_2 \},$ and
 
 $$
 
@@ -103,12 +103,12 @@ $$
 
 #### Explanation
 
-We know that any vector in $\textrm{Span}\{\mathbf{b}_1, \mathbf{b}_2 \}$ has the form
+We know that any vector in $\text{Span}\{\mathbf{b}_1, \mathbf{b}_2 \}$ has the form
 
 $$
 
 
-\begin{aligned}𝑥_{1}\begin{aligned}3 \\ −4 \\ 0\end{aligned}+𝑥_{2}\begin{aligned}1 \\ 0 \\ 2\end{aligned}\end{aligned}
+\begin{aligned}𝑥_{1}\begin{matrix}3 \\ −4 \\ 0\end{matrix}+𝑥_{2}\begin{matrix}1 \\ 0 \\ 2\end{matrix}\end{aligned}
 
 
 $$
@@ -118,7 +118,7 @@ where $x_1$ and $x_2$ are the coordinates relative to the basis $\,\mathcal{B}.$
 $$
 
 
-\begin{aligned}𝐱 & =\underset{𝑥_{1}}{\underset{}{(−1)}}\begin{aligned}3 \\ −4 \\ 0\end{aligned}+\underset{𝑥_{2}}{\underset{}{(\,3\,)}}\begin{aligned}1 \\ 0 \\ 2\end{aligned} \\ & =\begin{aligned}−3 \\ 4 \\ 0\end{aligned}+\begin{aligned}3 \\ 0 \\ 6\end{aligned} \\ & =\begin{aligned}0 \\ 4 \\ 6\end{aligned}.\end{aligned}
+\begin{aligned}𝐱 & =\underset{𝑥_{1}}{\underset{}{(−1)}}\begin{matrix}3 \\ −4 \\ 0\end{matrix}+\underset{𝑥_{2}}{\underset{}{(\,3\,)}}\begin{matrix}1 \\ 0 \\ 2\end{matrix} \\ & =\begin{matrix}−3 \\ 4 \\ 0\end{matrix}+\begin{matrix}3 \\ 0 \\ 6\end{matrix} \\ & =\begin{matrix}0 \\ 4 \\ 6\end{matrix}.\end{aligned}
 
 
 $$
@@ -192,7 +192,7 @@ We need to find $x_1$ and $x_2$ such that
 $$
 
 
-\begin{aligned}𝑥_{1}𝐛_{1}+𝑥_{2}𝐛_{2} & =𝐱 \\ 𝑥_{1}\begin{aligned}1 \\ 3 \\ 4\end{aligned}+𝑥_{2}\begin{aligned}3 \\ 5 \\ 0\end{aligned} & =\begin{aligned}−5 \\ −11 \\ −8\end{aligned}.\end{aligned}
+\begin{aligned}𝑥_{1}𝐛_{1}+𝑥_{2}𝐛_{2} & =𝐱 \\ 𝑥_{1}\begin{matrix}1 \\ 3 \\ 4\end{matrix}+𝑥_{2}\begin{matrix}3 \\ 5 \\ 0\end{matrix} & =\begin{matrix}−5 \\ −11 \\ −8\end{matrix}.\end{aligned}
 
 
 $$
@@ -212,7 +212,7 @@ Row-reducing the matrix using Gaussian elimination, we obtain the following:
 $$
 
 
-\begin{aligned}𝑀 & =\begin{aligned}1 & 3 & −5 \\ 3 & 5 & −11 \\ 4 & 0 & −8\end{aligned} & 𝑅_{2} & :=𝑅_{2}+(−3)𝑅_{1} \\ & ∼\begin{aligned}1 & 3 & −5 \\ 0 & −4 & 4 \\ 4 & 0 & −8\end{aligned} & 𝑅_{3} & :=𝑅_{3}+(−4)𝑅_{1} \\ & ∼\begin{aligned}1 & 3 & −5 \\ 0 & −4 & 4 \\ 0 & −12 & 12\end{aligned} & 𝑅_{3} & :=𝑅_{3}+(−3)𝑅_{2} \\ & ∼\begin{aligned}1 & 3 & −5 \\ 0 & −4 & 4 \\ 0 & 0 & 0\end{aligned} & & \end{aligned}
+\begin{aligned}𝑀 & =\begin{matrix}1 & 3 & −5 \\ 3 & 5 & −11 \\ 4 & 0 & −8\end{matrix} & 𝑅_{2} & :=𝑅_{2}+(−3)𝑅_{1} \\ & ∼\begin{matrix}1 & 3 & −5 \\ 0 & −4 & 4 \\ 4 & 0 & −8\end{matrix} & 𝑅_{3} & :=𝑅_{3}+(−4)𝑅_{1} \\ & ∼\begin{matrix}1 & 3 & −5 \\ 0 & −4 & 4 \\ 0 & −12 & 12\end{matrix} & 𝑅_{3} & :=𝑅_{3}+(−3)𝑅_{2} \\ & ∼\begin{matrix}1 & 3 & −5 \\ 0 & −4 & 4 \\ 0 & 0 & 0\end{matrix} & & \end{aligned}
 
 
 $$
@@ -260,7 +260,7 @@ We need to find $x_1,$ $x_2,$ and $x_3$ such that
 $$
 
 
-\begin{aligned}𝑥_{1}𝐛_{𝟏}+𝑥_{2}𝐛_{𝟐}+𝑥_{3}𝐛_{𝟑} & =𝐱 \\ 𝑥_{1}\begin{aligned}1 \\ 0 \\ 1\end{aligned}+𝑥_{2}\begin{aligned}3 \\ −9 \\ 0\end{aligned}+𝑥_{3}\begin{aligned}0 \\ −1 \\ 1\end{aligned} & =\begin{aligned}1 \\ 7 \\ 6\end{aligned}.\end{aligned}
+\begin{aligned}𝑥_{1}𝐛_{𝟏}+𝑥_{2}𝐛_{𝟐}+𝑥_{3}𝐛_{𝟑} & =𝐱 \\ 𝑥_{1}\begin{matrix}1 \\ 0 \\ 1\end{matrix}+𝑥_{2}\begin{matrix}3 \\ −9 \\ 0\end{matrix}+𝑥_{3}\begin{matrix}0 \\ −1 \\ 1\end{matrix} & =\begin{matrix}1 \\ 7 \\ 6\end{matrix}.\end{aligned}
 
 
 $$
@@ -270,7 +270,7 @@ Writing the above system as an augmented matrix $M$ and reducing using Gaussian 
 $$
 
 
-\begin{aligned}𝑀 & =\begin{aligned}1 & 3 & 0 & 1 \\ 0 & −9 & −1 & 7 \\ 1 & 0 & 1 & 6\end{aligned} & 𝑅_{3} & :=𝑅_{3}+(−1)𝑅_{1} \\ & ∼\begin{aligned}1 & 3 & 0 & 1 \\ 0 & −9 & −1 & 7 \\ 0 & −3 & 1 & 5\end{aligned} & 𝑅_{3} & :=𝑅_{3}+(−\frac{1}{3})𝑅_{2} \\ & ∼\begin{aligned}1 & 3 & 0 & 1 \\ 0 & −9 & −1 & 7 \\ 0 & 0 & \frac{4}{3} & \frac{8}{3}\end{aligned} & & \end{aligned}
+\begin{aligned}𝑀 & =\begin{matrix}1 & 3 & 0 & 1 \\ 0 & −9 & −1 & 7 \\ 1 & 0 & 1 & 6\end{matrix} & 𝑅_{3} & :=𝑅_{3}+(−1)𝑅_{1} \\ & ∼\begin{matrix}1 & 3 & 0 & 1 \\ 0 & −9 & −1 & 7 \\ 0 & −3 & 1 & 5\end{matrix} & 𝑅_{3} & :=𝑅_{3}+(−\frac{1}{3})𝑅_{2} \\ & ∼\begin{matrix}1 & 3 & 0 & 1 \\ 0 & −9 & −1 & 7 \\ 0 & 0 & \frac{4}{3} & \frac{8}{3}\end{matrix} & & \end{aligned}
 
 
 $$

@@ -232,7 +232,7 @@ The window settings shown above are as follows:
 
 Let's compute $f'(1)$ directly from the graph. To do this, we follow these steps:
 
-- First, we press $\boxed{\color{gray}\,2\text{nd}\,}$ (or $\boxed{\color{gray}\,\text{shift}\,}$), then $\boxed{\color{gray}\,\text{calc}\,}$ and select the $\boxed{\color{gray}\,\dfrac{\textrm{d}y}{\textrm{d}x}\,}$ option.
+- First, we press $\boxed{\color{gray}\,2\text{nd}\,}$ (or $\boxed{\color{gray}\,\text{shift}\,}$), then $\boxed{\color{gray}\,\text{calc}\,}$ and select the $\boxed{\color{gray}\,\dfrac{\text{d}y}{\text{d}x}\,}$ option.
 
 - Then, we need to enter the point at which to compute the derivative. So, we press $\boxed{\color{gray}X,T,\theta,n},$ type $X=1,$ and then press $\boxed{\color{gray}\,\text{enter}\,}.$
 
@@ -342,7 +342,7 @@ Let's examine our statements in turn.
 
 ![Instructional graphic](../../../lesson-assets/ap-calculus-ab/topic-3213/9e38afd12b1420d1.png)
 
-- Statement II is true. To find the derivative, follow these steps: First, we press $\boxed{\color{gray}\,2\text{nd}\,}$ (or $\boxed{\color{gray}\,\text{shift}\,}$), then $\boxed{\color{gray}\,\text{calc}\,}$ and select the $\boxed{\color{gray}\,\dfrac{\textrm{d}y}{\textrm{d}x}\,}$ option. Then, we need to enter the point at which to compute the derivative. So, we press $\boxed{\color{gray}X,T,\theta,n},$ type $X=3,$ and then press $\boxed{\color{gray}\,\text{enter}\,}.$ Following this process gives Rounding the answer to three decimal places, we conclude that $f'(3) \approx -0.062.$
+- Statement II is true. To find the derivative, follow these steps: First, we press $\boxed{\color{gray}\,2\text{nd}\,}$ (or $\boxed{\color{gray}\,\text{shift}\,}$), then $\boxed{\color{gray}\,\text{calc}\,}$ and select the $\boxed{\color{gray}\,\dfrac{\text{d}y}{\text{d}x}\,}$ option. Then, we need to enter the point at which to compute the derivative. So, we press $\boxed{\color{gray}X,T,\theta,n},$ type $X=3,$ and then press $\boxed{\color{gray}\,\text{enter}\,}.$ Following this process gives Rounding the answer to three decimal places, we conclude that $f'(3) \approx -0.062.$
 
 - Statement III is true. To find the integral, follow these steps: First, we press $\boxed{\color{gray}\,2\text{nd}\,}$ (or $\boxed{\color{gray}\,\text{shift}\,}$), then $\boxed{\color{gray}\,\text{calc}\,}$ and select the $\displaystyle \boxed{\color{gray}\,\int f(x)\,\textrm d x\,}$ option. Then, we select the lower limit. So, we press $\boxed{\color{gray}X,T,\theta,n},$ type $X=2,$ and then press $\boxed{\color{gray}\,\text{enter}\,}.$ Next, we select the upper limit. So, we press $\boxed{\color{gray}X,T,\theta,n},$ type $X=4,$ and then press $\boxed{\color{gray}\,\text{enter}\,}.$ Following this process gives Rounding the answer to three decimal places, we conclude that $\displaystyle\int_{2}^{4} f(x)\,\textrm d x \approx 0.393.$
 

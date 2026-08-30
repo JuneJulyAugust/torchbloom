@@ -48,7 +48,7 @@ The given matrix $E$ is an elementary matrix because it can be obtained from $I$
 $$
 
 
-\begin{aligned}𝐼 & =\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{aligned} & 𝑅_{2} & :=𝑅_{2}+8𝑅_{1} \\ & ∼\begin{aligned}1 & 0 & 0 \\ 8 & 1 & 0 \\ 0 & 0 & 1\end{aligned} & & \\ & =𝐸 & & \end{aligned}
+\begin{aligned}𝐼 & =\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{matrix} & 𝑅_{2} & :=𝑅_{2}+8𝑅_{1} \\ & ∼\begin{matrix}1 & 0 & 0 \\ 8 & 1 & 0 \\ 0 & 0 & 1\end{matrix} & & \\ & =𝐸 & & \end{aligned}
 
 
 $$
@@ -82,7 +82,7 @@ $$
 $$
 
 
-\begin{aligned}[𝐸\,|\,𝐼_{3}] & =\begin{aligned}1 & 0 & 0 & 1 & 0 & 0 \\ 4 & 1 & 0 & 0 & 1 & 0 \\ 0 & 0 & 1 & 0 & 0 & 1\end{aligned} & & 𝑅_{2}:=𝑅_{2}+(−4)𝑅_{1} \\ & ∼\begin{aligned}1 & 0 & 0 & 1 & 0 & 0 \\ 0 & 1 & 0 & −4 & 1 & 0 \\ 0 & 0 & 1 & 0 & 0 & 1\end{aligned} & & \\ & =[𝐼_{3}\,|\,𝐸^{−1}] & & \end{aligned}
+\begin{aligned}[𝐸\,|\,𝐼_{3}] & =\begin{matrix}1 & 0 & 0 & 1 & 0 & 0 \\ 4 & 1 & 0 & 0 & 1 & 0 \\ 0 & 0 & 1 & 0 & 0 & 1\end{matrix} & & 𝑅_{2}:=𝑅_{2}+(−4)𝑅_{1} \\ & ∼\begin{matrix}1 & 0 & 0 & 1 & 0 & 0 \\ 0 & 1 & 0 & −4 & 1 & 0 \\ 0 & 0 & 1 & 0 & 0 & 1\end{matrix} & & \\ & =[𝐼_{3}\,|\,𝐸^{−1}] & & \end{aligned}
 
 
 $$
@@ -114,7 +114,7 @@ We write down $E$ and the identity matrix $I$ side-by-side (as shown below) and 
 $$
 
 
-\begin{aligned}[𝐸\,|\,𝐼\,] & =\begin{aligned}1 & 0 & 0 & 1 & 0 & 0 \\ 0 & 1 & 0 & 0 & 1 & 0 \\ 0 & 0 & −5 & 0 & 0 & 1\end{aligned} & & 𝑅_{3}:=−\frac{1}{5}𝑅_{3} \\ & ∼\begin{aligned}1 & 0 & 0 & 1 & 0 & 0 \\ 0 & 1 & 0 & 0 & 1 & 0 \\ 0 & 0 & 1 & 0 & 0 & −\frac{1}{5}\end{aligned} & & \end{aligned}
+\begin{aligned}[𝐸\,|\,𝐼\,] & =\begin{matrix}1 & 0 & 0 & 1 & 0 & 0 \\ 0 & 1 & 0 & 0 & 1 & 0 \\ 0 & 0 & −5 & 0 & 0 & 1\end{matrix} & & 𝑅_{3}:=−\frac{1}{5}𝑅_{3} \\ & ∼\begin{matrix}1 & 0 & 0 & 1 & 0 & 0 \\ 0 & 1 & 0 & 0 & 1 & 0 \\ 0 & 0 & 1 & 0 & 0 & −\frac{1}{5}\end{matrix} & & \end{aligned}
 
 
 $$
@@ -138,7 +138,7 @@ Find the product $E_{1}^{-1}E_2$, where
 $$
 
 
-\begin{aligned}𝐸_{1}=\begin{aligned}1 & 0 & 0 \\ −11 & 1 & 0 \\ 0 & 0 & 1\end{aligned},\,𝐸_{2} & =\begin{aligned}1 & 0 & −5 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{aligned}.\end{aligned}
+\begin{aligned}𝐸_{1}=\begin{matrix}1 & 0 & 0 \\ −11 & 1 & 0 \\ 0 & 0 & 1\end{matrix},\,𝐸_{2} & =\begin{matrix}1 & 0 & −5 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{matrix}.\end{aligned}
 
 
 $$
@@ -152,7 +152,7 @@ First, we need to find $E_1^{-1}.$ We write down $E_1$ and the identity matrix $
 $$
 
 
-\begin{aligned}[𝐸_{1}\,|\,𝐼\,] & =\begin{aligned}1 & 0 & 0 & 1 & 0 & 0 \\ −11 & 1 & 0 & 0 & 1 & 0 \\ 0 & 0 & 1 & 0 & 0 & 1\end{aligned} & & 𝑅_{2}:=𝑅_{2}+11𝑅_{1} \\ & ∼\begin{aligned}1 & 0 & 0 & 1 & 0 & 0 \\ 0 & 1 & 0 & 11 & 1 & 0 \\ 0 & 0 & 1 & 0 & 0 & 1\end{aligned} & & \end{aligned}
+\begin{aligned}[𝐸_{1}\,|\,𝐼\,] & =\begin{matrix}1 & 0 & 0 & 1 & 0 & 0 \\ −11 & 1 & 0 & 0 & 1 & 0 \\ 0 & 0 & 1 & 0 & 0 & 1\end{matrix} & & 𝑅_{2}:=𝑅_{2}+11𝑅_{1} \\ & ∼\begin{matrix}1 & 0 & 0 & 1 & 0 & 0 \\ 0 & 1 & 0 & 11 & 1 & 0 \\ 0 & 0 & 1 & 0 & 0 & 1\end{matrix} & & \end{aligned}
 
 
 $$

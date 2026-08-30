@@ -16,7 +16,7 @@ If we start with the formula
 $$
 
 
-\textrm{percentage}\times \textrm{whole} = \textrm{part} ,
+\text{percentage}\times \text{whole} = \text{part} ,
 
 
 $$
@@ -26,7 +26,7 @@ we can use the relationship between multiplication and division to write down a 
 $$
 
 
-\textrm{percentage} = \textrm{part} \div \textrm{whole}
+\text{percentage} = \text{part} \div \text{whole}
 
 
 $$
@@ -42,7 +42,7 @@ Substituting our numbers into the above formula, we get
 $$
 
 
-\textrm{percentage} = 54 \div 300 = \dfrac{54}{300}.
+\text{percentage} = 54 \div 300 = \dfrac{54}{300}.
 
 
 $$
@@ -82,7 +82,7 @@ We're given a part and a whole, and we must find a percentage. So, we can use th
 $$
 
 
-\textrm{percentage} = \textrm{part} \div \textrm{whole}
+\text{percentage} = \text{part} \div \text{whole}
 
 
 $$
@@ -98,7 +98,7 @@ Substituting our numbers into the above formula, we get
 $$
 
 
-\textrm{percentage} = 110 \div 200 = \dfrac{110}{200}.
+\text{percentage} = 110 \div 200 = \dfrac{110}{200}.
 
 
 $$
@@ -138,7 +138,7 @@ We're given a part and a whole, and we must find a percentage. So, we can use th
 $$
 
 
-\textrm{percentage} = \textrm{part} \div \textrm{whole}
+\text{percentage} = \text{part} \div \text{whole}
 
 
 $$
@@ -154,7 +154,7 @@ Substituting our numbers into the above formula, we get
 $$
 
 
-\textrm{percentage} = 9 \div 75 = \dfrac{9}{75}.
+\text{percentage} = 9 \div 75 = \dfrac{9}{75}.
 
 
 $$

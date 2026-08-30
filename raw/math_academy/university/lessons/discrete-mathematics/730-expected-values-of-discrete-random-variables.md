@@ -184,7 +184,7 @@ $$
 
 
 
-\begin{aligned} \textrm E[p] &= -1 \cdot f(-1) + 5 \cdot f(5) \\\[5pt] &= -1 \left( \dfrac{4}{5} \right) + 5 \left( \dfrac{1}{5} \right) \\\[5pt] &=-\dfrac{4}{5} + 1 \\[3pt] &=\dfrac{1}{5} \\[3pt] &=0.2 \end{aligned}
+\begin{aligned} \textrm E[p] &= -1 \cdot f(-1) + 5 \cdot f(5) \\[5pt] &= -1 \left( \dfrac{4}{5} \right) + 5 \left( \dfrac{1}{5} \right) \\[5pt] &=-\dfrac{4}{5} + 1 \\[3pt] &=\dfrac{1}{5} \\[3pt] &=0.2 \end{aligned}
 
 
 

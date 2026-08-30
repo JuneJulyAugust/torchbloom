@@ -89,11 +89,11 @@ Consider the weighted graph above. Dijkstra's algorithm for finding the shortest
 
 Complete the blanks in the following statements.
 
-On the next step of the algorithm, we pop the vertex $\boxed{\phantom{\textrm{v_6}}}$ from the head of the priority queue and visit its neighbors $𝑣_{3}$
+On the next step of the algorithm, we pop the vertex $\boxed{\phantom{\mathrm{v_6}}}$ from the head of the priority queue and visit its neighbors $𝑣_{3}$
 
-We set the distance to $\boxed{\phantom{\textrm{odd}}}$ equal to $𝑣_{3}$, and set the previous vertex $\boxed{\phantom{\textrm{odd}}}$.
+We set the distance to $\boxed{\phantom{\mathrm{odd}}}$ equal to $𝑣_{3}$, and set the previous vertex $\boxed{\phantom{\mathrm{odd}}}$.
 
-After sorting, the priority queue is $\boxed{\phantom{\textrm{v_5, v_3, v_1, v_2}}}$.
+After sorting, the priority queue is $\boxed{\phantom{\mathrm{v_5, v_3, v_1, v_2}}}$.
 
 #### Explanation
 

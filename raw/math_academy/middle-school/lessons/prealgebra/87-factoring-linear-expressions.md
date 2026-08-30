@@ -33,7 +33,7 @@ In this case, you would say that $\color{red}4$ was **factored out** of $4a-8b.$
 
 To factor any expression, we just need to follow these two steps:
 
-1. Separate the greatest common factor from each of the terms (ignoring any negative signs). In this case, $\textrm{GCF}(4a,8b) = {\color{red}{4}},$ so:
+1. Separate the greatest common factor from each of the terms (ignoring any negative signs). In this case, $\text{GCF}(4a,8b) = {\color{red}{4}},$ so:
 
 2. Place the common factor in front of the parentheses, leaving whatever remains inside the parentheses:
 
@@ -47,7 +47,7 @@ Factor the following expression: $6a+30.$
 
 We factor in two steps:
 
-1. Separate the greatest common factor from each of the terms. In this case, $\textrm{GCF}(6a,30) = 6,$ so:
+1. Separate the greatest common factor from each of the terms. In this case, $\text{GCF}(6a,30) = 6,$ so:
 
 2. Place the common factor in front of the parentheses, leaving whatever remains inside the parentheses:
 
@@ -83,7 +83,7 @@ $$
 
 Then, we continue factoring in two steps:
 
-1. Separate the greatest common factor from each of the terms. In this case, $\textrm{GCF}(5a,35) = 5,$ so
+1. Separate the greatest common factor from each of the terms. In this case, $\text{GCF}(5a,35) = 5,$ so
 
 2. Place the common factor in front of the parentheses, leaving whatever remains inside the parentheses:
 
@@ -99,7 +99,7 @@ Factor the expression $27a+33b-30.$
 
 We factor in two steps:
 
-1. Separate the greatest common factor from each of the terms (ignoring any negative signs). In this case, $\textrm{GCF}(27a, 33b, 30) = 3,$ so:
+1. Separate the greatest common factor from each of the terms (ignoring any negative signs). In this case, $\text{GCF}(27a, 33b, 30) = 3,$ so:
 
 2. Place the common factor in front of the parentheses, leaving whatever remains inside the parentheses:
 

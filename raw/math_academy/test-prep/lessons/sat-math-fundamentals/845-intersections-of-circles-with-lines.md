@@ -181,7 +181,7 @@ Now, to find the radius of the circle, we compute the distance between the cente
 $$
 
 
-\begin{aligned}𝑟 & =\sqrt{√(0−(−3))^{2}+(8−4)^{2}} \\ & =\sqrt{√3^{2}+4^{2}} \\ & =\sqrt{√25} \\ & =5\end{aligned}
+\begin{aligned}𝑟 & =\sqrt{(0−(−3))^{2}+(8−4)^{2}} \\ & =\sqrt{3^{2}+4^{2}} \\ & =\sqrt{25} \\ & =5\end{aligned}
 
 
 $$

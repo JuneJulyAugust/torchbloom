@@ -78,7 +78,7 @@ $$
 
 
 
-\begin{aligned} 3p &=27 \\\[5pt] \dfrac{3p}{3} &=\dfrac{27}{3} \\\[5pt] \dfrac{3p}{3} &= 9 \\\[5pt] p &=9 \end{aligned}
+\begin{aligned} 3p &=27 \\[5pt] \dfrac{3p}{3} &=\dfrac{27}{3} \\[5pt] \dfrac{3p}{3} &= 9 \\[5pt] p &=9 \end{aligned}
 
 
 
@@ -204,7 +204,7 @@ $$
 
 
 
- \begin{aligned} -\dfrac{z}{3}-\dfrac 1 2 &=\dfrac 7 2\\\[5pt] -\dfrac{z}{3} - \dfrac 1 2+\dfrac 1 2 &= \dfrac 7 2+\dfrac 1 2 \\\[5pt] -\dfrac{z}{3} + 0 &= \dfrac 7 2+\dfrac 1 2 \\\[5pt] -\dfrac{z}{3} &=\dfrac 8 2 \\\[5pt] -\dfrac{z}{3} &=4 \end{aligned}
+ \begin{aligned} -\dfrac{z}{3}-\dfrac 1 2 &=\dfrac 7 2\\[5pt] -\dfrac{z}{3} - \dfrac 1 2+\dfrac 1 2 &= \dfrac 7 2+\dfrac 1 2 \\[5pt] -\dfrac{z}{3} + 0 &= \dfrac 7 2+\dfrac 1 2 \\[5pt] -\dfrac{z}{3} &=\dfrac 8 2 \\[5pt] -\dfrac{z}{3} &=4 \end{aligned}
 
 
 
@@ -216,7 +216,7 @@ $$
 
 
 
- \begin{aligned} -\dfrac{z}{3} &=4 \\(-1) \cdot \left( -\dfrac{z}{3} \right) &= (-1) \cdot 4 \\\[5pt] \dfrac{z}{3} &=-4 \\\[5pt] 3 \cdot \dfrac{z}{3} &= 3 \cdot (-4) \\\[5pt] z &=-12 \end{aligned}
+ \begin{aligned} -\dfrac{z}{3} &=4 \\(-1) \cdot \left( -\dfrac{z}{3} \right) &= (-1) \cdot 4 \\[5pt] \dfrac{z}{3} &=-4 \\[5pt] 3 \cdot \dfrac{z}{3} &= 3 \cdot (-4) \\[5pt] z &=-12 \end{aligned}
 
 
 

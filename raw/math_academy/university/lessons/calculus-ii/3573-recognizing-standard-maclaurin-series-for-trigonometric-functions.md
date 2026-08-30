@@ -48,7 +48,7 @@ Substituting $x=\dfrac{\pi}{3}$ into our Maclaurin expansion gives
 $$
 
 
-\begin{aligned}sin⁡(\frac{𝜋}{3}) & =\frac{𝜋}{3}−\frac{(𝜋/3)^{3}}{3!}+\frac{(𝜋/3)^{5}}{5!}−⋯+\frac{(−1)^{𝑛}(𝜋/3)^{2𝑛+1}}{(2𝑛+1)!}+⋯ \\ \frac{\sqrt{√3}}{2} & =\frac{𝜋}{3}−\frac{(𝜋/3)^{3}}{3!}+\frac{(𝜋/3)^{5}}{5!}−⋯+\frac{(−1)^{𝑛}(𝜋/3)^{2𝑛+1}}{(2𝑛+1)!}+⋯\,.\end{aligned}
+\begin{aligned}sin⁡(\frac{𝜋}{3}) & =\frac{𝜋}{3}−\frac{(𝜋/3)^{3}}{3!}+\frac{(𝜋/3)^{5}}{5!}−⋯+\frac{(−1)^{𝑛}(𝜋/3)^{2𝑛+1}}{(2𝑛+1)!}+⋯ \\ \frac{\sqrt{3}}{2} & =\frac{𝜋}{3}−\frac{(𝜋/3)^{3}}{3!}+\frac{(𝜋/3)^{5}}{5!}−⋯+\frac{(−1)^{𝑛}(𝜋/3)^{2𝑛+1}}{(2𝑛+1)!}+⋯\,.\end{aligned}
 
 
 $$

@@ -46,7 +46,7 @@ Then, our sentence becomes
 $$
 
 
-\underbrace{2 \vphantom{p}\textrm{ is an integer} }_A \quad \underbrace{\vphantom{p}\textrm{and}}_{\land} \quad \underbrace{2 \vphantom{p}\textrm{ is positive} }_B,
+\underbrace{2 \vphantom{p}\text{ is an integer} }_A \quad \underbrace{\vphantom{p}\text{and}}_{\land} \quad \underbrace{2 \vphantom{p}\text{ is positive} }_B,
 
 
 $$
@@ -71,7 +71,7 @@ Write this statement in symbolic form using the following notations:
 
 - $14$
 
-- $\sqrt{√3}$
+- $\sqrt{3}$
 
 #### Explanation
 
@@ -82,7 +82,7 @@ So, the sentence reads
 $$
 
 
-\underbrace{14 \vphantom{p}\textrm{ is divisible by }\vphantom{p} 4 }_S \quad \underbrace{\vphantom{p}\textbf{or}}_{\lor} \quad \underbrace{\sqrt{3} \vphantom{p}\textrm{ is a rational number} }_T,
+\underbrace{14 \vphantom{p}\text{ is divisible by }\vphantom{p} 4 }_S \quad \underbrace{\vphantom{p}\textbf{or}}_{\lor} \quad \underbrace{\sqrt{3} \vphantom{p}\text{ is a rational number} }_T,
 
 
 $$
@@ -118,7 +118,7 @@ So, we can express the sentence as
 $$
 
 
-\underbrace{7 \vphantom{p}\textrm{ is odd} \textbf{ or } \vphantom{p} \vphantom{p}\textrm{ a multiple of } 3}_{P \, \lor \,Q}, \quad \underbrace{\vphantom{p}\textbf{and}}_{\land} \quad \underbrace{3 \vphantom{p}\textrm{ is less than } 7 }_R
+\underbrace{7 \vphantom{p}\text{ is odd} \textbf{ or } \vphantom{p} \vphantom{p}\text{ a multiple of } 3}_{P \, \lor \,Q}, \quad \underbrace{\vphantom{p}\textbf{and}}_{\land} \quad \underbrace{3 \vphantom{p}\text{ is less than } 7 }_R
 
 
 $$
@@ -222,7 +222,7 @@ Consider the following compound statement:
 $$
 
 
-\underbrace{5 \vphantom{p}\textrm{ is prime} }_A \quad \underbrace{\vphantom{p}\textbf{or}}_{\lor} \quad \underbrace{\dfrac13 \in \mathbb{Z}}_B
+\underbrace{5 \vphantom{p}\text{ is prime} }_A \quad \underbrace{\vphantom{p}\textbf{or}}_{\lor} \quad \underbrace{\dfrac13 \in \mathbb{Z}}_B
 
 
 $$
@@ -276,7 +276,7 @@ In our case, $P$ is false, $Q$ is true, and $R$ is false. Therefore, $Q \lor R$ 
 $$
 
 
-\begin{aligned}𝑃∧(𝑄∨𝑅) & ≡false∧\overset{\overset{(true∨false)}{}}{true} \\ & ≡false∧true \\ & ≡false\end{aligned}
+\begin{aligned}𝑃∧(𝑄∨𝑅) & ≡false∧\overset{(true∨false)}{true} \\ & ≡false∧true \\ & ≡false\end{aligned}
 
 
 $$

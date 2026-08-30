@@ -37,7 +37,7 @@ If $S$ is an oriented surface with unit normal vector $\mathbf n,$ and $\mathbf 
 $$
 
 
-\iint\limits_S \mathbf{F} \cdot \textrm{d}\mathbf{S} = \iint\limits_S \mathbf{F} \cdot \mathbf{n} \,\textrm{d}S.
+\iint\limits_S \mathbf{F} \cdot \text{d}\mathbf{S} = \iint\limits_S \mathbf{F} \cdot \mathbf{n} \,\text{d}S.
 
 
 $$
@@ -77,7 +77,7 @@ If $S$ is an oriented surface with unit normal vector $\mathbf n,$ and $\mathbf 
 $$
 
 
-\iint\limits_S \mathbf{F} \cdot \textrm{d}\mathbf{S} = \iint\limits_S \mathbf{F} \cdot \mathbf{n} \,\textrm{d}S.
+\iint\limits_S \mathbf{F} \cdot \text{d}\mathbf{S} = \iint\limits_S \mathbf{F} \cdot \mathbf{n} \,\text{d}S.
 
 
 $$
@@ -93,7 +93,7 @@ Applying a change of variables $(x,y) \to (r,\theta), \textrm d A = r\,\textrm d
 $$
 
 
-\begin{aligned}4\underset{𝐷}{∬}\sqrt{√𝑥^{2}+𝑦^{2}}\,d𝐴 & =4\underset{𝐷}{∬}𝑟⋅𝑟\,d𝑟\,d𝜃 \\ & =4∫_{2𝜋0}^{}∫_{10}^{}𝑟^{2}\,d𝑟\,d𝜃 \\ & =4∫_{2𝜋0}^{}\,d𝜃∫_{10}^{}𝑟^{2}\,d𝑟 \\ & =4⋅2𝜋⋅[\frac{1}{3}𝑟^{3}]_{10}^{} \\ & =8𝜋(\frac{1}{3}) \\ & =\frac{8𝜋}{3}.\end{aligned}
+\begin{aligned}4\underset{𝐷}{∬}\sqrt{𝑥^{2}+𝑦^{2}}\,d𝐴 & =4\underset{𝐷}{∬}𝑟⋅𝑟\,d𝑟\,d𝜃 \\ & =4∫_{2𝜋0}∫_{10}𝑟^{2}\,d𝑟\,d𝜃 \\ & =4∫_{2𝜋0}\,d𝜃∫_{10}𝑟^{2}\,d𝑟 \\ & =4⋅2𝜋⋅[\frac{1}{3}𝑟^{3}]_{10} \\ & =8𝜋(\frac{1}{3}) \\ & =\frac{8𝜋}{3}.\end{aligned}
 
 
 $$
@@ -141,7 +141,7 @@ If $S$ is an oriented surface with unit normal vector $\mathbf n,$ and $\mathbf 
 $$
 
 
-\iint\limits_S \mathbf{F} \cdot \textrm{d}\mathbf{S} = \iint\limits_S \mathbf{F} \cdot \mathbf{n} \,\textrm{d}S.
+\iint\limits_S \mathbf{F} \cdot \text{d}\mathbf{S} = \iint\limits_S \mathbf{F} \cdot \mathbf{n} \,\text{d}S.
 
 
 $$
@@ -219,7 +219,7 @@ Since $P(x,y,z)$ lies on $S,$ we have $x^2 + y^2 + z^2 = r^2.$ Normalizing $\nab
 $$
 
 
-\begin{aligned}𝐧 & =\frac{∇𝑓(𝑥,𝑦,𝑧)}{‖∇𝑓(𝑥,𝑦,𝑧)‖} \\ & =\frac{⟨𝑥,\,𝑦,\,𝑧⟩}{\sqrt{√𝑥^{2}+𝑦^{2}+𝑧^{2}}} \\ & =\frac{⟨𝑥,\,𝑦,\,𝑧⟩}{𝑟}.\end{aligned}
+\begin{aligned}𝐧 & =\frac{∇𝑓(𝑥,𝑦,𝑧)}{‖∇𝑓(𝑥,𝑦,𝑧)‖} \\ & =\frac{⟨𝑥,\,𝑦,\,𝑧⟩}{\sqrt{𝑥^{2}+𝑦^{2}+𝑧^{2}}} \\ & =\frac{⟨𝑥,\,𝑦,\,𝑧⟩}{𝑟}.\end{aligned}
 
 
 $$

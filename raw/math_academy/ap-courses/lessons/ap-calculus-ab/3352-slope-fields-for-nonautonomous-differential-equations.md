@@ -17,7 +17,7 @@ Let's plot the slope field of the differential equation
 $$
 
 
-\dfrac {\textrm{d}y} {\textrm{d}x}=x-y.
+\dfrac {\text{d}y} {\text{d}x}=x-y.
 
 
 $$
@@ -90,7 +90,7 @@ Setting up our points and drawing our line segments, we get the following diagra
 
 #### Question
 
-Consider the differential equation $\dfrac{\textrm{d}y}{\textrm{d}x} = -2xy$ and its slope field. Which of the following statements are true?
+Consider the differential equation $\dfrac{\text{d}y}{\text{d}x} = -2xy$ and its slope field. Which of the following statements are true?
 
 1. At every point in the second quadrant, the slope of the slope field is negative
 
@@ -122,7 +122,7 @@ Therefore, the correct answer is "II and III only."
 
 #### Question
 
-Consider the differential equation $\dfrac{\textrm{d}y}{\textrm{d}x}=(x+1)(y+1)$ and its slope field. Which of the following statements are true?
+Consider the differential equation $\dfrac{\text{d}y}{\text{d}x}=(x+1)(y+1)$ and its slope field. Which of the following statements are true?
 
 1. At every point $(x,y)$ where $x \gt -1$ and $y \gt -1,$ the slope of the slope field is positive
 

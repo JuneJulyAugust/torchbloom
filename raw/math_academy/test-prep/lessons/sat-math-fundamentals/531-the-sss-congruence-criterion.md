@@ -136,7 +136,7 @@ From the diagram, $\triangle RSP$ and $\triangle PQR$ are congruent by SSS (side
 $$
 
 
-\overline{SR} \cong \overline{PQ}\quad \textrm{and} \quad\overline{SP} \cong \overline{QR}
+\overline{SR} \cong \overline{PQ}\quad \text{and} \quad\overline{SP} \cong \overline{QR}
 
 
 $$

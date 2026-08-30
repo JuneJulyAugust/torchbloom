@@ -17,7 +17,7 @@ The **circulation** $\Gamma$ of a three-dimensional vector field $\mathbf F(x,y,
 $$
 
 
-\Gamma = \oint\limits_C \mathbf F \cdot \textrm d\mathbf r = \int_a^b \mathbf F(\mathbf r(t)) \cdot \mathbf r'(t) \; \textrm{d}t.
+\Gamma = \oint\limits_C \mathbf F \cdot \textrm d\mathbf r = \int_a^b \mathbf F(\mathbf r(t)) \cdot \mathbf r'(t) \; \text{d}t.
 
 
 $$
@@ -41,7 +41,7 @@ The circulation $\Gamma$ measures the total work done by a force $\mathbf F$ in 
 $$
 
 
-\Gamma = \oint\limits_C \mathbf F \cdot \textrm{d} \mathbf r = \int_a^b \mathbf F(r(t)) \cdot \mathbf r'(t) \; \textrm{d}t.
+\Gamma = \oint\limits_C \mathbf F \cdot \text{d} \mathbf r = \int_a^b \mathbf F(r(t)) \cdot \mathbf r'(t) \; \text{d}t.
 
 
 $$
@@ -91,7 +91,7 @@ Finally, we evaluate the integral as follows:
 $$
 
 
-\begin{aligned}Γ=\underset{𝐶}{∮}𝐅⋅d𝐫 & =∫_{20}^{}𝐅(𝑟(𝑡))⋅𝐫^{′}(𝑡)\,d𝑡 \\ & =∫_{20}^{}𝜋+4𝑡−6𝑡^{2}+2𝑡^{3}\,d𝑡 \\ & =[𝜋𝑡+2𝑡^{2}−2𝑡^{3}+\frac{1}{2}𝑡^{4}]_{20}^{} \\ & =[2𝜋+8−16+8]−[0] \\ & =2𝜋\end{aligned}
+\begin{aligned}Γ=\underset{𝐶}{∮}𝐅⋅d𝐫 & =∫_{20}𝐅(𝑟(𝑡))⋅𝐫^{′}(𝑡)\,d𝑡 \\ & =∫_{20}𝜋+4𝑡−6𝑡^{2}+2𝑡^{3}\,d𝑡 \\ & =[𝜋𝑡+2𝑡^{2}−2𝑡^{3}+\frac{1}{2}𝑡^{4}]_{20} \\ & =[2𝜋+8−16+8]−[0] \\ & =2𝜋\end{aligned}
 
 
 $$
@@ -115,7 +115,7 @@ and the scalar functions $P$ and $Q$ have continuous partial derivatives in the 
 $$
 
 
-\iint\limits_D \textrm{curl}\,\mathbf{F} \cdot \mathbf{k} \: \textrm{d}A = \oint\limits_{C} \mathbf{F} \cdot \mathrm{d}\mathbf{r}
+\iint\limits_D \text{curl}\,\mathbf{F} \cdot \mathbf{k} \: \text{d}A = \oint\limits_{C} \mathbf{F} \cdot \mathrm{d}\mathbf{r}
 
 
 $$
@@ -161,7 +161,7 @@ We're now ready to state the main result of the lesson:
 $$
 
 
-\iint\limits_S \textrm{curl}\,\mathbf{F} \cdot \textrm{d}\mathbf{S} = \oint\limits_{C} \mathbf{F}\cdot\mathrm{d}\mathbf{r}.
+\iint\limits_S \text{curl}\,\mathbf{F} \cdot \text{d}\mathbf{S} = \oint\limits_{C} \mathbf{F}\cdot\mathrm{d}\mathbf{r}.
 
 
 $$
@@ -174,12 +174,12 @@ Suppose that $\mathbf F$ is a vector field in $\mathbb R^3.$ Stokes' theorem sta
 
 Consider the left-hand side of the above picture, and suppose we have a point $P$ that lies on $S.$
 
-The magnitude of the flux of $\textrm{curl}\,\mathbf F$ through $S$ at $P$ is given by
+The magnitude of the flux of $\text{curl}\,\mathbf F$ through $S$ at $P$ is given by
 
 $$
 
 
-\textrm{curl}\,\mathbf F \cdot \mathbf n.
+\text{curl}\,\mathbf F \cdot \mathbf n.
 
 
 $$
@@ -191,7 +191,7 @@ If we sum (integrate) the flux of the curl through $S$ at every point over the e
 $$
 
 
-\iint\limits_S \textrm{curl}\,\mathbf{F} \cdot \mathbf n\, \textrm{d}S
+\iint\limits_S \text{curl}\,\mathbf{F} \cdot \mathbf n\, \text{d}S
 
 
 $$
@@ -201,7 +201,7 @@ which we usually write as
 $$
 
 
-\iint\limits_S \textrm{curl}\,\mathbf{F} \cdot \textrm{d}\mathbf{S}.
+\iint\limits_S \text{curl}\,\mathbf{F} \cdot \text{d}\mathbf{S}.
 
 
 $$
@@ -223,7 +223,7 @@ Equating the sum of the microscopic curls with the circulation, we have
 $$
 
 
-\iint\limits_S \textrm{curl}\,\mathbf{F} \cdot \textrm{d}\mathbf{S} = \oint\limits_C\mathbf F \cdot \textrm d \mathbf r.
+\iint\limits_S \text{curl}\,\mathbf{F} \cdot \text{d}\mathbf{S} = \oint\limits_C\mathbf F \cdot \textrm d \mathbf r.
 
 
 $$
@@ -237,7 +237,7 @@ We can immediately deduce a remarkable fact. Notice the value of the surface int
 $$
 
 
-\iint\limits_{S_1} \textrm{curl}\,\mathbf{F} \cdot \textrm{d}\mathbf{S} = \iint\limits_{S_2} \textrm{curl}\,\mathbf{F} \cdot \textrm{d}\mathbf{S}
+\iint\limits_{S_1} \text{curl}\,\mathbf{F} \cdot \text{d}\mathbf{S} = \iint\limits_{S_2} \text{curl}\,\mathbf{F} \cdot \text{d}\mathbf{S}
 
 
 $$
@@ -251,7 +251,7 @@ Let $S$ be an oriented piecewise-smooth surface bounded by the closed curve $C$ 
 $$
 
 
-\iint\limits_S \textrm{curl}\,\mathbf{F} \cdot \textrm{d}\mathbf{S}.
+\iint\limits_S \text{curl}\,\mathbf{F} \cdot \text{d}\mathbf{S}.
 
 
 $$
@@ -263,7 +263,7 @@ Let $S$ be an oriented piecewise-smooth surface bounded by a simple, closed, pie
 $$
 
 
-\oint\limits_{C} \mathbf{F}\cdot\mathrm{d}\mathbf{r} = \iint\limits_S \textrm{curl}\,\mathbf{F} \cdot \textrm{d}\mathbf{S}.
+\oint\limits_{C} \mathbf{F}\cdot\mathrm{d}\mathbf{r} = \iint\limits_S \text{curl}\,\mathbf{F} \cdot \text{d}\mathbf{S}.
 
 
 $$
@@ -313,7 +313,7 @@ Finally, we evaluate the integral as follows:
 $$
 
 
-\begin{aligned}\underset{𝑆}{∬}curl\,𝐅⋅d𝐒 & =\underset{𝐶}{∮}𝐅⋅d𝐫 \\ & =∫_{10}^{}𝐅(𝑟(𝑡))⋅𝐫^{′}(𝑡)\,d𝑡 \\ & =∫_{10}^{}(3𝑡−7𝑡^{2}+5𝑡^{3}−2𝑡^{4})\,d𝑡 \\ & =[\frac{3}{2}𝑡^{2}−\frac{7}{3}𝑡^{3}+\frac{5}{4}𝑡^{4}−\frac{2}{5}𝑡^{5}]_{10}^{} \\ & =\frac{3}{2}−\frac{7}{3}+\frac{5}{4}−\frac{2}{5} \\ & =\frac{1}{60}\end{aligned}
+\begin{aligned}\underset{𝑆}{∬}curl\,𝐅⋅d𝐒 & =\underset{𝐶}{∮}𝐅⋅d𝐫 \\ & =∫_{10}𝐅(𝑟(𝑡))⋅𝐫^{′}(𝑡)\,d𝑡 \\ & =∫_{10}(3𝑡−7𝑡^{2}+5𝑡^{3}−2𝑡^{4})\,d𝑡 \\ & =[\frac{3}{2}𝑡^{2}−\frac{7}{3}𝑡^{3}+\frac{5}{4}𝑡^{4}−\frac{2}{5}𝑡^{5}]_{10} \\ & =\frac{3}{2}−\frac{7}{3}+\frac{5}{4}−\frac{2}{5} \\ & =\frac{1}{60}\end{aligned}
 
 
 $$
@@ -339,7 +339,7 @@ Let's use Stokes' theorem to find the circulation of $\mathbf{F}$ along $C$.
 $$
 
 
-\oint\limits_{C} \mathbf{F}\cdot\mathrm{d}\mathbf{r} = \iint\limits_S \textrm{curl}\,\mathbf{F} \cdot \textrm{d}\mathbf{S}
+\oint\limits_{C} \mathbf{F}\cdot\mathrm{d}\mathbf{r} = \iint\limits_S \text{curl}\,\mathbf{F} \cdot \text{d}\mathbf{S}
 
 
 $$
@@ -364,7 +364,7 @@ $$
 
 $$
 
-Next, we substitute the equation $z=g(x,y)$ into expression for $\textrm{curl}\,\mathbf{F}{:}$
+Next, we substitute the equation $z=g(x,y)$ into expression for $\text{curl}\,\mathbf{F}{:}$
 
 $$
 
@@ -393,7 +393,7 @@ Evaluating this integral using the usual methods, we get
 $$
 
 
-2\int_{-1}^{1} \int_{-1}^{1} x^3 + x^2 y + x y^2 + y^3 \: \textrm{d}y \: \textrm{d}x = 0.
+2\int_{-1}^{1} \int_{-1}^{1} x^3 + x^2 y + x y^2 + y^3 \: \text{d}y \: \text{d}x = 0.
 
 
 $$
@@ -413,12 +413,12 @@ $$
 $$
 
 
-\displaystyle \iint\limits_S \textrm{curl}\,\mathbf{F} \cdot \textrm{d}\mathbf{S}
+\displaystyle \iint\limits_S \text{curl}\,\mathbf{F} \cdot \text{d}\mathbf{S}
 
 
 $$
 
-depends only on the circulation of $\mathbf F$ at the boundary of $S.$ Therefore, we could have evaluated our line integral by selecting *any* surface with $C$ as its bounding curve and integrating $\textrm{curl}\,\mathbf F$ over this surface.
+depends only on the circulation of $\mathbf F$ at the boundary of $S.$ Therefore, we could have evaluated our line integral by selecting *any* surface with $C$ as its bounding curve and integrating $\text{curl}\,\mathbf F$ over this surface.
 
 ### Example: Evaluating a Line Integral Using Stokes' Theorem
 
@@ -434,7 +434,7 @@ $$
 
 $$
 
-where $\textrm{curl}\,\mathbf{F} = \langle -xz, \: -yz, \: x+z^2 \rangle,$ and $C$ is the intersection of the paraboloid $z=x^2+y^2$ and the plane $z=1.$ The curve $C$ is oriented counter-clockwise when viewed from above.
+where $\text{curl}\,\mathbf{F} = \langle -xz, \: -yz, \: x+z^2 \rangle,$ and $C$ is the intersection of the paraboloid $z=x^2+y^2$ and the plane $z=1.$ The curve $C$ is oriented counter-clockwise when viewed from above.
 
 #### Explanation
 
@@ -443,7 +443,7 @@ Let $S$ be an oriented piecewise-smooth surface bounded by a simple, closed, pie
 $$
 
 
-\oint\limits_{C} \mathbf{F}\cdot\mathrm{d}\mathbf{r} = \iint\limits_S \textrm{curl}\,\mathbf{F} \cdot \textrm{d}\mathbf{S}.
+\oint\limits_{C} \mathbf{F}\cdot\mathrm{d}\mathbf{r} = \iint\limits_S \text{curl}\,\mathbf{F} \cdot \text{d}\mathbf{S}.
 
 
 $$
@@ -468,7 +468,7 @@ $$
 
 $$
 
-Next, we substitute the equation $z=g(x,y)$ into the expression for $\textrm{curl}\,\mathbf{F}{:}$
+Next, we substitute the equation $z=g(x,y)$ into the expression for $\text{curl}\,\mathbf{F}{:}$
 
 $$
 
@@ -495,7 +495,7 @@ Now, note that the projection of $C$ onto the $xy$-plane is the circle $x^2+y^2=
 $$
 
 
-x = r \cos\theta, \qquad y = r \sin\theta, \qquad \textrm{d}A = r \, \textrm{d}r \textrm{d}\theta,
+x = r \cos\theta, \qquad y = r \sin\theta, \qquad \text{d}A = r \, \text{d}r \text{d}\theta,
 
 
 $$
@@ -505,7 +505,7 @@ we obtain
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}(1+𝑥)\,d𝐴 & =∫_{10}^{}∫_{2𝜋0}^{}(1+𝑟cos⁡𝜃)⋅𝑟\,d𝜃\,d𝑟 \\ & =∫_{10}^{}∫_{2𝜋0}^{}𝑟+𝑟^{2}cos⁡𝜃\,d𝜃\,d𝑟 \\ & =∫_{10}^{}[𝑟𝜃+𝑟^{2}sin⁡𝜃]_{2𝜋0}^{}\,d𝑟 \\ & =∫_{10}^{}2𝜋𝑟\,d𝑟 \\ & =𝜋[𝑟^{2}]_{10}^{} \\ & =𝜋.\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}(1+𝑥)\,d𝐴 & =∫_{10}∫_{2𝜋0}(1+𝑟cos⁡𝜃)⋅𝑟\,d𝜃\,d𝑟 \\ & =∫_{10}∫_{2𝜋0}𝑟+𝑟^{2}cos⁡𝜃\,d𝜃\,d𝑟 \\ & =∫_{10}[𝑟𝜃+𝑟^{2}sin⁡𝜃]_{2𝜋0}\,d𝑟 \\ & =∫_{10}2𝜋𝑟\,d𝑟 \\ & =𝜋[𝑟^{2}]_{10} \\ & =𝜋.\end{aligned}
 
 
 $$

@@ -79,7 +79,7 @@ Now, to compute the PDF $f_Y(y)$ for $-1 \lt y < 3,$ we differentiate $F_Y$ with
 $$
 
 
-\begin{aligned}𝑓_{𝑌}(𝑦) & =𝐹_{′𝑌}^{}(𝑦) \\ & =\frac{1}{2}(𝑦+1)^{−1/2}⋅𝐹_{′𝑋}^{}((𝑦+1)^{1/2})+\frac{1}{2}(𝑦+1)^{−1/2}⋅𝐹_{′𝑋}^{}(−(𝑦+1)^{1/2}) \\ & =\frac{1}{2}(𝑦+1)^{−1/2}⋅𝑓_{𝑋}((𝑦+1)^{1/2})+\frac{1}{2}(𝑦+1)^{−1/2}⋅𝑓_{𝑋}(−(𝑦+1)^{1/2}) \\ & =\frac{1}{2}(𝑦+1)^{−1/2}(𝑓_{𝑋}((𝑦+1)^{1/2})+𝑓_{𝑋}(−(𝑦+1)^{1/2})).\end{aligned}
+\begin{aligned}𝑓_{𝑌}(𝑦) & =𝐹_{′𝑌}(𝑦) \\ & =\frac{1}{2}(𝑦+1)^{−1/2}⋅𝐹_{′𝑋}((𝑦+1)^{1/2})+\frac{1}{2}(𝑦+1)^{−1/2}⋅𝐹_{′𝑋}(−(𝑦+1)^{1/2}) \\ & =\frac{1}{2}(𝑦+1)^{−1/2}⋅𝑓_{𝑋}((𝑦+1)^{1/2})+\frac{1}{2}(𝑦+1)^{−1/2}⋅𝑓_{𝑋}(−(𝑦+1)^{1/2}) \\ & =\frac{1}{2}(𝑦+1)^{−1/2}(𝑓_{𝑋}((𝑦+1)^{1/2})+𝑓_{𝑋}(−(𝑦+1)^{1/2})).\end{aligned}
 
 
 $$
@@ -89,7 +89,7 @@ Applying the definition of $f_X,$ we finally arrive at
 $$
 
 
-\begin{aligned}𝑓_{𝑌}(𝑦) & =\frac{1}{2}(𝑦+1)^{−1/2}(𝑓_{𝑋}((𝑦+1)^{1/2})+𝑓_{𝑋}(−(𝑦+1)^{1/2})) \\ & =\frac{1}{2}(𝑦+1)^{−1/2}(\frac{3}{16}((𝑦+1)^{1/2})^{2}+\frac{3}{16}(−(𝑦+1)^{1/2})^{2}) \\ & =\frac{1}{2}(𝑦+1)^{−1/2}(\frac{3}{16}(𝑦+1)+\frac{3}{16}(𝑦+1)) \\ & =\frac{3}{16}(𝑦+1)^{−1/2}(𝑦+1) \\ & =\frac{3}{16}(𝑦+1)^{1/2} \\ & =\frac{3}{16}\sqrt{√𝑦+1}.\end{aligned}
+\begin{aligned}𝑓_{𝑌}(𝑦) & =\frac{1}{2}(𝑦+1)^{−1/2}(𝑓_{𝑋}((𝑦+1)^{1/2})+𝑓_{𝑋}(−(𝑦+1)^{1/2})) \\ & =\frac{1}{2}(𝑦+1)^{−1/2}(\frac{3}{16}((𝑦+1)^{1/2})^{2}+\frac{3}{16}(−(𝑦+1)^{1/2})^{2}) \\ & =\frac{1}{2}(𝑦+1)^{−1/2}(\frac{3}{16}(𝑦+1)+\frac{3}{16}(𝑦+1)) \\ & =\frac{3}{16}(𝑦+1)^{−1/2}(𝑦+1) \\ & =\frac{3}{16}(𝑦+1)^{1/2} \\ & =\frac{3}{16}\sqrt{𝑦+1}.\end{aligned}
 
 
 $$
@@ -99,7 +99,7 @@ Therefore, the full expression for the PDF of $Y$ is
 $$
 
 
-\begin{aligned}\frac{3}{16}\sqrt{√𝑦+1}, & −1<𝑦<3 \\ 0, & otherwise.\end{aligned}
+\begin{aligned}\frac{3}{16}\sqrt{𝑦+1}, & −1<𝑦<3 \\ 0, & otherwise.\end{aligned}
 
 
 $$
@@ -143,7 +143,7 @@ To compute the PDF $f_Y(y)$ for $0 \leq y < 3,$ we differentiate $F_Y$ with resp
 $$
 
 
-\begin{aligned}𝑓_{𝑌}(𝑦) & =𝐹_{′𝑌}^{}(𝑦) \\ & =𝐹_{′𝑋}^{}(𝑦)−(−1)𝐹_{′𝑋}^{}(−𝑦) \\ & =𝐹_{′𝑋}^{}(𝑦)+𝐹_{′𝑋}^{}(−𝑦) \\ & =𝑓_{𝑋}(𝑦)+𝑓_{𝑋}(−𝑦).\end{aligned}
+\begin{aligned}𝑓_{𝑌}(𝑦) & =𝐹_{′𝑌}(𝑦) \\ & =𝐹_{′𝑋}(𝑦)−(−1)𝐹_{′𝑋}(−𝑦) \\ & =𝐹_{′𝑋}(𝑦)+𝐹_{′𝑋}(−𝑦) \\ & =𝑓_{𝑋}(𝑦)+𝑓_{𝑋}(−𝑦).\end{aligned}
 
 
 $$
@@ -265,7 +265,7 @@ Using the definition of the cumulative distribution of $Y,$ for $1 \leq y \lt 4,
 $$
 
 
-\begin{aligned}𝐹_{𝑌}(𝑦) & =𝑃(𝑌≤𝑦) \\ & =𝑃(𝑋^{2}≤𝑦) \\ & =𝑃(\sqrt{√𝑋^{2}}≤\sqrt{√𝑦}) \\ & =𝑃(|𝑋|≤\sqrt{√𝑦}) \\ & =𝑃(𝑋≤\sqrt{√𝑦}) \\ & =𝐹_{𝑋}(\sqrt{√𝑦}).\end{aligned}
+\begin{aligned}𝐹_{𝑌}(𝑦) & =𝑃(𝑌≤𝑦) \\ & =𝑃(𝑋^{2}≤𝑦) \\ & =𝑃(\sqrt{𝑋^{2}}≤\sqrt{𝑦}) \\ & =𝑃(|𝑋|≤\sqrt{𝑦}) \\ & =𝑃(𝑋≤\sqrt{𝑦}) \\ & =𝐹_{𝑋}(\sqrt{𝑦}).\end{aligned}
 
 
 $$
@@ -277,7 +277,7 @@ To compute the PDF $f_Y(y)$ for $1 \leq y \lt 4,$ we differentiate $F_Y$ with re
 $$
 
 
-\begin{aligned}𝑓_{𝑌}(𝑦) & =𝐹_{′𝑌}^{}(𝑦) \\ & =\frac{1}{2\sqrt{√𝑦}}⋅𝐹_{′𝑋}^{}(\sqrt{√𝑦}) \\ & =\frac{1}{2\sqrt{√𝑦}}⋅𝑓_{𝑋}(\sqrt{√𝑦}).\end{aligned}
+\begin{aligned}𝑓_{𝑌}(𝑦) & =𝐹_{′𝑌}(𝑦) \\ & =\frac{1}{2\sqrt{𝑦}}⋅𝐹_{′𝑋}(\sqrt{𝑦}) \\ & =\frac{1}{2\sqrt{𝑦}}⋅𝑓_{𝑋}(\sqrt{𝑦}).\end{aligned}
 
 
 $$
@@ -287,7 +287,7 @@ Applying the definition of $f_X,$ we finally arrive at
 $$
 
 
-\begin{aligned}𝑓_{𝑌}(𝑦) & =\frac{1}{2\sqrt{√𝑦}}⋅𝑓_{𝑋}(\sqrt{√𝑦}) \\ & =\frac{1}{2\sqrt{√𝑦}}⋅\frac{5}{33}(\sqrt{√𝑦})^{4} \\ & =\frac{1}{2\sqrt{√𝑦}}⋅\frac{5}{33}𝑦^{2} \\ & =\frac{5}{66}\,𝑦^{3/2}.\end{aligned}
+\begin{aligned}𝑓_{𝑌}(𝑦) & =\frac{1}{2\sqrt{𝑦}}⋅𝑓_{𝑋}(\sqrt{𝑦}) \\ & =\frac{1}{2\sqrt{𝑦}}⋅\frac{5}{33}(\sqrt{𝑦})^{4} \\ & =\frac{1}{2\sqrt{𝑦}}⋅\frac{5}{33}𝑦^{2} \\ & =\frac{5}{66}\,𝑦^{3/2}.\end{aligned}
 
 
 $$

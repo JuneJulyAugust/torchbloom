@@ -19,7 +19,7 @@ We can find a percentage part of a number using the following formula:
 
 $$
 
-\textrm{part} = \textrm{percentage} \times \textrm{whole}
+\text{part} = \text{percentage} \times \text{whole}
 
 $$
 
@@ -29,7 +29,7 @@ Here, the whole is $300$ and the percentage is $16 \%.$ So, the part is given by
 
 $$
 
-\textrm{part} = 16\% \times 300.
+\text{part} = 16\% \times 300.
 
 $$
 
@@ -87,7 +87,7 @@ To solve this problem, we can use the following formula:
 
 $$
 
-\textrm{part}= \textrm{percentage}\times \textrm{whole}
+\text{part}= \text{percentage}\times \text{whole}
 
 $$
 
@@ -145,7 +145,7 @@ To solve this problem, we can use the following formula:
 
 $$
 
-\textrm{part}= \textrm{percentage}\times \textrm{whole}
+\text{part}= \text{percentage}\times \text{whole}
 
 $$
 
@@ -203,7 +203,7 @@ To solve this problem, we can use the following formula:
 
 $$
 
-\textrm{part}= \textrm{percentage}\times \textrm{whole}
+\text{part}= \text{percentage}\times \text{whole}
 
 $$
 

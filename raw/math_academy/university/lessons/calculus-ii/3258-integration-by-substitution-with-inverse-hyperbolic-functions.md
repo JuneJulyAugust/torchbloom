@@ -12,12 +12,12 @@ Topic ID: 3258
 
 ### Introduction
 
-Consider the integral $\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+Consider the integral $$
 
 $$
 
 
-\displaystyle \int \dfrac{2}{\sqrt{4x^2-1}} \, \textrm{d}x.
+\displaystyle \int \dfrac{2}{\sqrt{4x^2-1}} \, \text{d}x.
 
 
 $$
@@ -27,7 +27,7 @@ As it is, this integral doesn't resemble any of the basic integrals we have enco
 $$
 
 
-\int \dfrac{2}{\sqrt{4x^2-1}}\,\textrm{d}x = 2 \int \dfrac{1}{\sqrt{\left(2x\right)^2-1}}\textrm{d}x,
+\int \dfrac{2}{\sqrt{4x^2-1}}\,\text{d}x = 2 \int \dfrac{1}{\sqrt{\left(2x\right)^2-1}}\text{d}x,
 
 
 $$
@@ -37,7 +37,7 @@ which becomes very similar to the basic integral for the inverse hyperbolic cosi
 $$
 
 
-\int \frac{1}{\sqrt{u^2-1}}\,\textrm{d}u = \arcosh u+C.
+\int \frac{1}{\sqrt{u^2-1}}\,\text{d}u = \operatorname{arcosh} u+C.
 
 
 $$
@@ -49,7 +49,7 @@ So, let $u=2x.$ Differentiating, we have
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x}=2 \quad\Longrightarrow\quad \textrm{d}x = \dfrac{1}{2} \,\textrm{d}u.
+\dfrac{\text{d}u}{\text{d}x}=2 \quad\Longrightarrow\quad \text{d}x = \dfrac{1}{2} \,\text{d}u.
 
 
 $$
@@ -59,7 +59,7 @@ Using the above, we can write the integral in terms of $u$ and compute it, as fo
 $$
 
 
-\begin{aligned}\begin{aligned}∫\frac{2}{\sqrt{√4𝑥^{2}−1}}\,d𝑥 & =2∫\frac{1}{\sqrt{√(2𝑥)^{2}−1}}\,d𝑥 \\ & =2∫\frac{1}{\sqrt{√𝑢^{2}−1}}\,⋅\frac{1}{2}\,d𝑢 \\ & =∫\frac{1}{\sqrt{√𝑢^{2}−1}}\,d𝑢 \\ & =arcosh⁡𝑢+𝐶 \\ & =arcosh⁡(2𝑥)+𝐶\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}∫\frac{2}{\sqrt{4𝑥^{2}−1}}\,d𝑥 & =2∫\frac{1}{\sqrt{(2𝑥)^{2}−1}}\,d𝑥 \\ & =2∫\frac{1}{\sqrt{𝑢^{2}−1}}\,⋅\frac{1}{2}\,d𝑢 \\ & =∫\frac{1}{\sqrt{𝑢^{2}−1}}\,d𝑢 \\ & =arcosh⁡𝑢+𝐶 \\ & =arcosh⁡(2𝑥)+𝐶\end{matrix}\end{aligned}
 
 
 $$
@@ -68,18 +68,18 @@ $$
 
 #### Question
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \displaystyle \int \dfrac{\pi}{\sqrt{2x^2+1}} \, \textrm{d}x=$
+$\displaystyle \int \dfrac{\pi}{\sqrt{2x^2+1}} \, \text{d}x=$
 
 #### Explanation
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
 This integral resembles the basic integral for the inverse hyperbolic sine,
 
 $$
 
 
-\int \frac{1}{\sqrt{u^2+1}}\,\textrm{d}u = \arsinh u+C.
+\int \frac{1}{\sqrt{u^2+1}}\,\text{d}u = \operatorname{arsinh} u+C.
 
 
 $$
@@ -91,7 +91,7 @@ So, let's substitute $u =\sqrt{2}\,x.$ Differentiating, we get
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x}=\sqrt{2} \quad\Longrightarrow\quad \textrm{d}x = \dfrac{1}{\sqrt{2}} \,\textrm{d}u.
+\dfrac{\text{d}u}{\text{d}x}=\sqrt{2} \quad\Longrightarrow\quad \text{d}x = \dfrac{1}{\sqrt{2}} \,\text{d}u.
 
 
 $$
@@ -101,7 +101,7 @@ Using the above, we can write the integral in terms of $u$ and compute it, as fo
 $$
 
 
-\begin{aligned}\begin{aligned}∫\frac{𝜋}{\sqrt{√2𝑥^{2}+1}}\,d𝑥 & =∫\frac{𝜋}{\sqrt{√(\sqrt{√2}\,𝑥)^{2}+1}}\,d𝑥 \\ & =𝜋∫\frac{1}{\sqrt{√𝑢^{2}+1}}\,⋅(\frac{1}{\sqrt{√2}}\,d𝑢) \\ & =\frac{𝜋}{\sqrt{√2}}∫\frac{1}{\sqrt{√𝑢^{2}+1}}\,d𝑢 \\ & =\frac{𝜋}{\sqrt{√2}}arsinh⁡𝑢+𝐶 \\ & =\frac{𝜋}{\sqrt{√2}}arsinh⁡(\sqrt{√2}\,𝑥)+𝐶\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}∫\frac{𝜋}{\sqrt{2𝑥^{2}+1}}\,d𝑥 & =∫\frac{𝜋}{\sqrt{(\sqrt{2}\,𝑥)^{2}+1}}\,d𝑥 \\ & =𝜋∫\frac{1}{\sqrt{𝑢^{2}+1}}\,⋅(\frac{1}{\sqrt{2}}\,d𝑢) \\ & =\frac{𝜋}{\sqrt{2}}∫\frac{1}{\sqrt{𝑢^{2}+1}}\,d𝑢 \\ & =\frac{𝜋}{\sqrt{2}}arsinh⁡𝑢+𝐶 \\ & =\frac{𝜋}{\sqrt{2}}arsinh⁡(\sqrt{2}\,𝑥)+𝐶\end{matrix}\end{aligned}
 
 
 $$
@@ -110,20 +110,20 @@ $$
 
 #### Question
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
-$\displaystyle \int \dfrac{3}{\sqrt{x^2-4}} \,\textrm{d}x =$
+$\displaystyle \int \dfrac{3}{\sqrt{x^2-4}} \,\text{d}x =$
 
 #### Explanation
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
 Let's rewrite our integral as
 
 $$
 
 
-\int \dfrac{3}{\sqrt{x^2-4}}\,\textrm{d}x = \dfrac{3}{2} \int \dfrac{1}{\sqrt{\left(\frac{x}{2}\right)^2-1}} \, \textrm{d}x.
+\int \dfrac{3}{\sqrt{x^2-4}}\,\text{d}x = \dfrac{3}{2} \int \dfrac{1}{\sqrt{\left(\frac{x}{2}\right)^2-1}} \, \text{d}x.
 
 
 $$
@@ -133,7 +133,7 @@ This integral resembles the basic integral for the inverse hyperbolic cosine,
 $$
 
 
-\int \frac{1}{\sqrt{u^2-1}}\,\textrm{d}u = \arcosh u+C.
+\int \frac{1}{\sqrt{u^2-1}}\,\text{d}u = \operatorname{arcosh} u+C.
 
 
 $$
@@ -145,7 +145,7 @@ So, let's substitute $u = \dfrac x 2.$ Differentiating, we get
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x}= \dfrac{1}{2} \quad\Longrightarrow\quad \textrm{d}x =2\,\textrm{d}u.
+\dfrac{\text{d}u}{\text{d}x}= \dfrac{1}{2} \quad\Longrightarrow\quad \text{d}x =2\,\text{d}u.
 
 
 $$
@@ -155,7 +155,7 @@ Using the above, we can write the integral in terms of $u$ and evaluate it, as f
 $$
 
 
-\begin{aligned}\begin{aligned}∫\frac{3}{\sqrt{√𝑥^{2}−4}}\,d𝑥 & =\frac{3}{2}∫\frac{1}{\sqrt{√(\frac{𝑥}{2})^{2}−1}}\,d𝑥 \\ & =\frac{3}{2}∫\frac{1}{\sqrt{√𝑢^{2}−1}}⋅2\,d𝑢 \\ & =3∫\frac{d𝑢}{\sqrt{√𝑢^{2}−1}} \\ & =3arcosh⁡𝑢+𝐶 \\ & =3arcosh⁡(\frac{𝑥}{2})+𝐶\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}∫\frac{3}{\sqrt{𝑥^{2}−4}}\,d𝑥 & =\frac{3}{2}∫\frac{1}{\sqrt{(\frac{𝑥}{2})^{2}−1}}\,d𝑥 \\ & =\frac{3}{2}∫\frac{1}{\sqrt{𝑢^{2}−1}}⋅2\,d𝑢 \\ & =3∫\frac{d𝑢}{\sqrt{𝑢^{2}−1}} \\ & =3arcosh⁡𝑢+𝐶 \\ & =3arcosh⁡(\frac{𝑥}{2})+𝐶\end{matrix}\end{aligned}
 
 
 $$
@@ -164,20 +164,20 @@ $$
 
 #### Question
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
-$\displaystyle \int \dfrac{10}{1 - 4x^2} \, \textrm{d}x =$
+$\displaystyle \int \dfrac{10}{1 - 4x^2} \, \text{d}x =$
 
 #### Explanation
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
 This integral resembles the basic integral for the inverse hyperbolic tangent,
 
 $$
 
 
-\int \frac{1}{1-u^2} \, \textrm{d}u =\artanh u +C.
+\int \frac{1}{1-u^2} \, \text{d}u =\operatorname{artanh} u +C.
 
 
 $$
@@ -189,7 +189,7 @@ So, let's substitute $u=2x.$ Differentiating, we get
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x}=2\quad\Longrightarrow\quad \dfrac 1 2\,\textrm d u = \textrm d x.
+\dfrac{\text{d}u}{\text{d}x}=2\quad\Longrightarrow\quad \dfrac 1 2\,\textrm d u = \textrm d x.
 
 
 $$
@@ -199,7 +199,7 @@ Using the above, we can write the integral in terms of $u$ and evaluate it, as f
 $$
 
 
-\begin{aligned}\begin{aligned}∫\frac{10}{1−4𝑥^{2}}\,d𝑥 & =10∫\frac{1}{1−(2𝑥)^{2}}\,d𝑥 \\ & =10∫\frac{1}{1−𝑢^{2}}\,⋅\frac{1}{2}\,d𝑢 \\ & =5∫\frac{1}{1−𝑢^{2}}\,d𝑢 \\ & =5artanh⁡𝑢+𝐶 \\ & =5artanh⁡2𝑥+𝐶\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}∫\frac{10}{1−4𝑥^{2}}\,d𝑥 & =10∫\frac{1}{1−(2𝑥)^{2}}\,d𝑥 \\ & =10∫\frac{1}{1−𝑢^{2}}\,⋅\frac{1}{2}\,d𝑢 \\ & =5∫\frac{1}{1−𝑢^{2}}\,d𝑢 \\ & =5artanh⁡𝑢+𝐶 \\ & =5artanh⁡2𝑥+𝐶\end{matrix}\end{aligned}
 
 
 $$
@@ -210,20 +210,20 @@ Note that this result is subject to the condition $\left|2x \right| < 1.$
 
 #### Question
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
-Evaluate the integral $\displaystyle{\int_{4}^{2\sqrt{5}} \dfrac{1}{\sqrt{x^2 - 4}}\, \textrm{d}x}.$
+Evaluate the integral $\displaystyle{\int_{4}^{2\sqrt{5}} \dfrac{1}{\sqrt{x^2 - 4}}\, \text{d}x}.$
 
 #### Explanation
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
 Note that we can rewrite this integral as
 
 $$
 
 
-\int_{4}^{2\sqrt{5}} \dfrac{1}{\sqrt{x^2 - 4}}\, \textrm{d}x = \dfrac{1}{2}\int_{4}^{2\sqrt{5}} \dfrac{1}{\sqrt{\left(\frac {x}{2} \right)^2 - 1}} \, \textrm{d}x.
+\int_{4}^{2\sqrt{5}} \dfrac{1}{\sqrt{x^2 - 4}}\, \text{d}x = \dfrac{1}{2}\int_{4}^{2\sqrt{5}} \dfrac{1}{\sqrt{\left(\frac {x}{2} \right)^2 - 1}} \, \text{d}x.
 
 
 $$
@@ -233,7 +233,7 @@ This integral resembles the basic integral for inverse hyperbolic cosine,
 $$
 
 
-\int \frac{1}{\sqrt{u^2-1}}\, \textrm{d}u = \arcosh{u}+C.
+\int \frac{1}{\sqrt{u^2-1}}\, \text{d}u = \operatorname{arcosh}{u}+C.
 
 
 $$
@@ -245,7 +245,7 @@ So, let's substitute $u = \dfrac {x}{2}.$ Differentiating, we get
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x} = \dfrac{1}{2} \quad\Longrightarrow\quad \textrm{d}x = 2\,\textrm{d}u.
+\dfrac{\text{d}u}{\text{d}x} = \dfrac{1}{2} \quad\Longrightarrow\quad \text{d}x = 2\,\text{d}u.
 
 
 $$

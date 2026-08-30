@@ -106,11 +106,11 @@ $$
 
 $$
 
-The concept of a moment will become important later. In particular, we'll soon see how $\textrm{E}[X^2]$ can be used to compute the **variance** of a random variable.
+The concept of a moment will become important later. In particular, we'll soon see how $\text{E}[X^2]$ can be used to compute the **variance** of a random variable.
 
 Finally, note that $\textrm E[X], \textrm E[X^2], \textrm E[X^3],$ etc. are sometimes referred to as the first, second, and third **raw moments**. This is because it's possible to define other types of moment.
 
-In general, $\textrm{E}[X^n]$ can be called either the $n$th *moment* or $n$th *raw moment*.
+In general, $\text{E}[X^n]$ can be called either the $n$th *moment* or $n$th *raw moment*.
 
 ### Example: Calculating Higher Moments of a Random Variable
 

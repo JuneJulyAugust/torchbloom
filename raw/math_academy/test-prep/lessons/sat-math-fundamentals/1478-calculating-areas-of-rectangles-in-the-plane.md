@@ -125,7 +125,7 @@ To calculate the area of the square, we need to find the length of its side. For
 $$
 
 
-\begin{aligned}𝐵𝐶 & =\sqrt{√(𝑥_{𝐶}−𝑥_{𝐵})^{2}+(𝑦_{𝐶}−𝑦_{𝐵})^{2}} \\ & =\sqrt{√(5−4)^{2}+(1−4)^{2}} \\ & =\sqrt{√1+9} \\ & =\sqrt{√10}\end{aligned}
+\begin{aligned}𝐵𝐶 & =\sqrt{(𝑥_{𝐶}−𝑥_{𝐵})^{2}+(𝑦_{𝐶}−𝑦_{𝐵})^{2}} \\ & =\sqrt{(5−4)^{2}+(1−4)^{2}} \\ & =\sqrt{1+9} \\ & =\sqrt{10}\end{aligned}
 
 
 $$
@@ -153,7 +153,7 @@ Since we are given two consecutive vertices, we find the length of the side $\ov
 $$
 
 
-\begin{aligned}𝐴𝐵 & =\sqrt{√(𝑥_{𝐵}−𝑥_{𝐴})^{2}+(𝑦_{𝐵}−𝑦_{𝐴})^{2}} \\ & =\sqrt{√(9−1)^{2}+(−5−1)^{2}} \\ & =\sqrt{√64+36} \\ & =\sqrt{√100} \\ & =10\end{aligned}
+\begin{aligned}𝐴𝐵 & =\sqrt{(𝑥_{𝐵}−𝑥_{𝐴})^{2}+(𝑦_{𝐵}−𝑦_{𝐴})^{2}} \\ & =\sqrt{(9−1)^{2}+(−5−1)^{2}} \\ & =\sqrt{64+36} \\ & =\sqrt{100} \\ & =10\end{aligned}
 
 
 $$
@@ -191,7 +191,7 @@ We need to calculate the measure of the sides of the square. To do that, we firs
 $$
 
 
-\begin{aligned}𝐴𝐶 & =\sqrt{√(𝑥_{𝐶}−𝑥_{𝐴})^{2}+(𝑦_{𝐶}−𝑦_{𝐴})^{2}} \\ & =\sqrt{√(−1−1)^{2}+(3−2)^{2}} \\ & =\sqrt{√4+1} \\ & =\sqrt{√5}\end{aligned}
+\begin{aligned}𝐴𝐶 & =\sqrt{(𝑥_{𝐶}−𝑥_{𝐴})^{2}+(𝑦_{𝐶}−𝑦_{𝐴})^{2}} \\ & =\sqrt{(−1−1)^{2}+(3−2)^{2}} \\ & =\sqrt{4+1} \\ & =\sqrt{5}\end{aligned}
 
 
 $$
@@ -221,7 +221,7 @@ Therefore, the area of the square is
 $$
 
 
-\begin{aligned}A & =𝑠^{2}=(\frac{\sqrt{√5}}{\sqrt{√2}})^{2}=\frac{5}{2}.\end{aligned}
+\begin{aligned}A & =𝑠^{2}=(\frac{\sqrt{5}}{\sqrt{2}})^{2}=\frac{5}{2}.\end{aligned}
 
 
 $$

@@ -52,7 +52,7 @@ To compute the determinant of the matrix above, it is most convenient to use a L
 $$
 
 
-\begin{aligned}det\begin{aligned}−1 & 2 & 1 & 1 \\ 0 & −1 & 1 & 1 \\ 0 & 2 & 0 & 0 \\ 0 & 1 & 0 & −3\end{aligned} & =\underset{\underset{𝑗=1}{∑}}{\overset{}{𝑛}}𝑎_{3𝑗}𝐶_{3𝑗} \\ & =0⋅𝐶_{31}+2⋅𝐶_{32}+0⋅𝐶_{33}+0⋅𝐶_{34} \\ & =2⋅(−1)^{3+2}⋅\begin{aligned}−1 & 1 & 1 \\ 0 & 1 & 1 \\ 0 & 0 & −3\end{aligned} \\ & =−2⋅\begin{aligned}−1 & 1 & 1 \\ 0 & 1 & 1 \\ 0 & 0 & −3\end{aligned}\end{aligned}
+\begin{aligned}det\begin{matrix}−1 & 2 & 1 & 1 \\ 0 & −1 & 1 & 1 \\ 0 & 2 & 0 & 0 \\ 0 & 1 & 0 & −3\end{matrix} & =\underset{\underset{𝑗=1}{∑}}{\overset{}{𝑛}}𝑎_{3𝑗}𝐶_{3𝑗} \\ & =0⋅𝐶_{31}+2⋅𝐶_{32}+0⋅𝐶_{33}+0⋅𝐶_{34} \\ & =2⋅(−1)^{3+2}⋅\begin{matrix}−1 & 1 & 1 \\ 0 & 1 & 1 \\ 0 & 0 & −3\end{matrix} \\ & =−2⋅\begin{matrix}−1 & 1 & 1 \\ 0 & 1 & 1 \\ 0 & 0 & −3\end{matrix}\end{aligned}
 
 
 $$
@@ -80,7 +80,7 @@ Using a Laplace expansion along the $4$th row, we have
 $$
 
 
-\begin{aligned}\begin{aligned}10 & 2 & −2 & −1 \\ 1 & −2 & 7 & 9 \\ −2 & 1 & −2 & 3 \\ −6 & 0 & 0 & 1\end{aligned} & =(−6)⋅𝐶_{41}+0⋅𝐶_{42}+0⋅𝐶_{43}+1⋅𝐶_{44} \\ & =(−6)⋅(−1)^{4+1}⋅\begin{aligned}2 & −2 & −1 \\ −2 & 7 & 9 \\ 1 & −2 & 3\end{aligned}+1⋅(−1)^{4+4}⋅\begin{aligned}10 & 2 & −2 \\ 1 & −2 & 7 \\ −2 & 1 & −2\end{aligned} \\ & =6⋅\begin{aligned}2 & −2 & −1 \\ −2 & 7 & 9 \\ 1 & −2 & 3\end{aligned}+\begin{aligned}10 & 2 & −2 \\ 1 & −2 & 7 \\ −2 & 1 & −2\end{aligned}.\end{aligned}
+\begin{aligned}\begin{matrix}10 & 2 & −2 & −1 \\ 1 & −2 & 7 & 9 \\ −2 & 1 & −2 & 3 \\ −6 & 0 & 0 & 1\end{matrix} & =(−6)⋅𝐶_{41}+0⋅𝐶_{42}+0⋅𝐶_{43}+1⋅𝐶_{44} \\ & =(−6)⋅(−1)^{4+1}⋅\begin{matrix}2 & −2 & −1 \\ −2 & 7 & 9 \\ 1 & −2 & 3\end{matrix}+1⋅(−1)^{4+4}⋅\begin{matrix}10 & 2 & −2 \\ 1 & −2 & 7 \\ −2 & 1 & −2\end{matrix} \\ & =6⋅\begin{matrix}2 & −2 & −1 \\ −2 & 7 & 9 \\ 1 & −2 & 3\end{matrix}+\begin{matrix}10 & 2 & −2 \\ 1 & −2 & 7 \\ −2 & 1 & −2\end{matrix}.\end{aligned}
 
 
 $$
@@ -108,7 +108,7 @@ The $4$th row of the matrix contains three zeros, more than any other row. So us
 $$
 
 
-\begin{aligned}\begin{aligned}1 & −1 & 0 & 2 \\ 0 & 1 & −4 & 2 \\ 0 & −2 & 3 & 1 \\ 0 & 0 & 0 & −1\end{aligned} & =0⋅𝐶_{41}+0⋅𝐶_{42}+0⋅𝐶_{43}+(−1)⋅𝐶_{44} \\ & =(−1)⋅(−1)^{4+4}⋅\begin{aligned}1 & −1 & 0 \\ 0 & 1 & −4 \\ 0 & −2 & 3\end{aligned} \\ & =−\begin{aligned}1 & −1 & 0 \\ 0 & 1 & −4 \\ 0 & −2 & 3\end{aligned}.\end{aligned}
+\begin{aligned}\begin{matrix}1 & −1 & 0 & 2 \\ 0 & 1 & −4 & 2 \\ 0 & −2 & 3 & 1 \\ 0 & 0 & 0 & −1\end{matrix} & =0⋅𝐶_{41}+0⋅𝐶_{42}+0⋅𝐶_{43}+(−1)⋅𝐶_{44} \\ & =(−1)⋅(−1)^{4+4}⋅\begin{matrix}1 & −1 & 0 \\ 0 & 1 & −4 \\ 0 & −2 & 3\end{matrix} \\ & =−\begin{matrix}1 & −1 & 0 \\ 0 & 1 & −4 \\ 0 & −2 & 3\end{matrix}.\end{aligned}
 
 
 $$
@@ -118,7 +118,7 @@ Now, computing the $3 \times 3$ determinant by applying a Laplace expansion alon
 $$
 
 
-\begin{aligned}\begin{aligned}1 & −1 & 0 \\ 0 & 1 & −4 \\ 0 & −2 & 3\end{aligned} & =1⋅\begin{aligned}1 & −4 \\ −2 & 3\end{aligned}−(−1)⋅\begin{aligned}0 & −4 \\ 0 & 3\end{aligned}+0⋅\begin{aligned}0 & 1 \\ 0 & −2\end{aligned} \\ & =\begin{aligned}1 & −4 \\ −2 & 3\end{aligned}+\begin{aligned}0 & −4 \\ 0 & 3\end{aligned} \\ & =(3−8)+(0−0) \\ & =−5\end{aligned}
+\begin{aligned}\begin{matrix}1 & −1 & 0 \\ 0 & 1 & −4 \\ 0 & −2 & 3\end{matrix} & =1⋅\begin{matrix}1 & −4 \\ −2 & 3\end{matrix}−(−1)⋅\begin{matrix}0 & −4 \\ 0 & 3\end{matrix}+0⋅\begin{matrix}0 & 1 \\ 0 & −2\end{matrix} \\ & =\begin{matrix}1 & −4 \\ −2 & 3\end{matrix}+\begin{matrix}0 & −4 \\ 0 & 3\end{matrix} \\ & =(3−8)+(0−0) \\ & =−5\end{aligned}
 
 
 $$
@@ -172,7 +172,7 @@ Using a Laplace expansion along the $2$nd column, we have
 $$
 
 
-\begin{aligned}\begin{aligned}1 & 0 & −3 & −2 \\ 2 & 3 & −1 & 5 \\ 1 & 0 & 8 & 9 \\ 2 & 0 & 3 & −1\end{aligned} & =0⋅𝐶_{12}+3⋅𝐶_{22}+0⋅𝐶_{32}+0⋅𝐶_{42} \\ & =3⋅(−1)^{2+2}⋅\begin{aligned}1 & −3 & −2 \\ 1 & 8 & 9 \\ 2 & 3 & −1\end{aligned} \\ & =3⋅\begin{aligned}1 & −3 & −2 \\ 1 & 8 & 9 \\ 2 & 3 & −1\end{aligned}.\end{aligned}
+\begin{aligned}\begin{matrix}1 & 0 & −3 & −2 \\ 2 & 3 & −1 & 5 \\ 1 & 0 & 8 & 9 \\ 2 & 0 & 3 & −1\end{matrix} & =0⋅𝐶_{12}+3⋅𝐶_{22}+0⋅𝐶_{32}+0⋅𝐶_{42} \\ & =3⋅(−1)^{2+2}⋅\begin{matrix}1 & −3 & −2 \\ 1 & 8 & 9 \\ 2 & 3 & −1\end{matrix} \\ & =3⋅\begin{matrix}1 & −3 & −2 \\ 1 & 8 & 9 \\ 2 & 3 & −1\end{matrix}.\end{aligned}
 
 
 $$

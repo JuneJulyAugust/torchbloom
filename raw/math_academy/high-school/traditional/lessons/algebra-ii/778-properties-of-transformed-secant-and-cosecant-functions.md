@@ -319,7 +319,7 @@ $$
 
 
 
-y={\color{red}A}\sec\left( {\color{blue}B} x + C\right) +{\color{green}D} \quad \textrm{or} \quad y={\color{red}A}\csc\left( {\color{blue}B} x + C\right) +{\color{green}D},
+y={\color{red}A}\sec\left( {\color{blue}B} x + C\right) +{\color{green}D} \quad \text{or} \quad y={\color{red}A}\csc\left( {\color{blue}B} x + C\right) +{\color{green}D},
 
 
 

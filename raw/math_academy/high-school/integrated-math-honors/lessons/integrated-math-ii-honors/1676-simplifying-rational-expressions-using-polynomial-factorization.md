@@ -51,7 +51,7 @@ The numerator is a difference of squares. If we factor it and then cancel out an
 $$
 
 
- \begin{aligned} \dfrac {x^2 - 9} {(x + 3)(x+2)} & = \\\[5pt] \dfrac {(x + 3)(x - 3)} {(x + 3)(x+2)}&=\\\[5pt] \dfrac {(x + 3)(x - 3)} {(x + 3)(x+2)}&=\\\[5pt] \dfrac {x - 3} {x+2} &. \\\end{aligned}
+ \begin{aligned} \dfrac {x^2 - 9} {(x + 3)(x+2)} & = \\[5pt] \dfrac {(x + 3)(x - 3)} {(x + 3)(x+2)}&=\\[5pt] \dfrac {(x + 3)(x - 3)} {(x + 3)(x+2)}&=\\[5pt] \dfrac {x - 3} {x+2} &. \\\end{aligned}
 
 
 $$
@@ -69,7 +69,7 @@ The numerator can be factored as $x^2+x-6= (x+3)(x-2).$ Cancelling out any commo
 $$
 
 
-\begin{aligned}\begin{aligned}\frac{𝑥^{2}+𝑥−6}{𝑥−2} & = \\ \frac{(𝑥+3)(𝑥−2)}{𝑥−2} & = \\ \frac{(𝑥+3)(𝑥−2)}{(𝑥−2)} & = \\ \frac{𝑥+3}{1} & = \\ 𝑥+3 & .\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}\frac{𝑥^{2}+𝑥−6}{𝑥−2} & = \\ \frac{(𝑥+3)(𝑥−2)}{𝑥−2} & = \\ \frac{(𝑥+3)(𝑥−2)}{(𝑥−2)} & = \\ \frac{𝑥+3}{1} & = \\ 𝑥+3 & .\end{matrix}\end{aligned}
 
 
 $$

@@ -150,7 +150,7 @@ Our final inner product is a generalization of what we saw in the previous examp
 $$
 
 
-\langle x(t), y(t) \rangle = \displaystyle\int_{a}^{b} x(t) y(t) \, \textrm{d}t
+\langle x(t), y(t) \rangle = \displaystyle\int_{a}^{b} x(t) y(t) \, \text{d}t
 
 
 $$
@@ -168,7 +168,7 @@ Let $V=\mathcal{C}\left[0,2\pi\right],$ the vector space of all functions that a
 $$
 
 
-\langle x(t),y(t) \rangle = \displaystyle\int_{0}^{2\pi} x(t) y(t) \, \textrm{d}t.
+\langle x(t),y(t) \rangle = \displaystyle\int_{0}^{2\pi} x(t) y(t) \, \text{d}t.
 
 
 $$
@@ -180,7 +180,7 @@ We need to evaluate
 $$
 
 
-\langle \sin t, \cos t \rangle = \int_{0}^{2\pi}\sin{t} \cos{t} \,\textrm{d}t.
+\langle \sin t, \cos t \rangle = \int_{0}^{2\pi}\sin{t} \cos{t} \,\text{d}t.
 
 
 $$
@@ -190,7 +190,7 @@ We can evaluate this integral using the identity $\sin2t =2\sin t\cos t,$ as fol
 $$
 
 
-\begin{aligned}∫_{2𝜋0}^{}sin⁡𝑡cos⁡𝑡\,d𝑡 & =\frac{1}{2}∫_{2𝜋0}^{}sin⁡2𝑡\,d𝑡 \\ & =−\frac{1}{4}cos⁡2𝑡_{2𝜋0}^{} \\ & =−\frac{1}{4}(cos⁡4𝜋−cos⁡0) \\ & =−\frac{1}{4}(1−1) \\ & =0\end{aligned}
+\begin{aligned}∫_{2𝜋0}sin⁡𝑡cos⁡𝑡\,d𝑡 & =\frac{1}{2}∫_{2𝜋0}sin⁡2𝑡\,d𝑡 \\ & =−\frac{1}{4}cos⁡2𝑡_{2𝜋0} \\ & =−\frac{1}{4}(cos⁡4𝜋−cos⁡0) \\ & =−\frac{1}{4}(1−1) \\ & =0\end{aligned}
 
 
 $$

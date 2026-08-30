@@ -54,7 +54,7 @@ $$
 
 
 
-\begin{aligned}P(A|B)&=\dfrac{P(A\cap B)}{P(B)}\\\[5pt] &=\dfrac{\left(\dfrac{1}{3}\right)}{\left(\dfrac{2}{3}\right)}\\\[5pt] &=\dfrac{1}{2}. \end{aligned}
+\begin{aligned}P(A|B)&=\dfrac{P(A\cap B)}{P(B)}\\[5pt] &=\dfrac{\left(\dfrac{1}{3}\right)}{\left(\dfrac{2}{3}\right)}\\[5pt] &=\dfrac{1}{2}. \end{aligned}
 
 
 

@@ -109,7 +109,7 @@ Therefore, we have the following:
 $$
 
 
-\begin{aligned}\begin{aligned}4𝑥=2𝜆𝑥 \\ 8𝑦=2𝜆𝑦\end{aligned}\,⇒\,\begin{aligned}𝑥(2−𝜆)=0 \\ 𝑦(4−𝜆)=0\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}4𝑥=2𝜆𝑥 \\ 8𝑦=2𝜆𝑦\end{matrix}\,⇒\,\begin{matrix}𝑥(2−𝜆)=0 \\ 𝑦(4−𝜆)=0\end{matrix}\end{aligned}
 
 
 $$
@@ -171,7 +171,7 @@ Notice that we cannot have $\lambda = 0$ since this leads to a contradiction in 
 $$
 
 
-\begin{aligned}\begin{aligned}1=2𝜆𝑥 \\ 1=4𝜆𝑦\end{aligned}\,⇒\,\begin{aligned}𝑥=\frac{1}{2𝜆} \\ 𝑦=\frac{1}{4𝜆}\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}1=2𝜆𝑥 \\ 1=4𝜆𝑦\end{matrix}\,⇒\,\begin{matrix}𝑥=\frac{1}{2𝜆} \\ 𝑦=\frac{1}{4𝜆}\end{matrix}\end{aligned}
 
 
 $$
@@ -247,7 +247,7 @@ Therefore, we have the following:
 $$
 
 
-\begin{aligned}\begin{aligned}2𝑥=2𝜆𝑥 \\ 2𝑦=8𝜆𝑦\end{aligned}\,⇒\,\begin{aligned}𝑥(1−𝜆)=0 \\ 𝑦(4𝜆−1)=0\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}2𝑥=2𝜆𝑥 \\ 2𝑦=8𝜆𝑦\end{matrix}\,⇒\,\begin{matrix}𝑥(1−𝜆)=0 \\ 𝑦(4𝜆−1)=0\end{matrix}\end{aligned}
 
 
 $$

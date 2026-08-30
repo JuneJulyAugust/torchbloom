@@ -22,16 +22,16 @@ The **covariance** between two discrete random variables $X$ and $Y$ is defined 
 $$
 
 
-\textrm{Cov}[X, Y] = \textrm{E}\Big[\left(X - \textrm{E}[X]\right)\left(Y - \textrm{E}[Y]\right) \Big].
+\text{Cov}[X, Y] = \text{E}\Big[\left(X - \text{E}[X]\right)\left(Y - \text{E}[Y]\right) \Big].
 
 
 $$
 
 Let's break this formula down a bit:
 
-- $\left(X - \textrm{E}[X]\right)$ is the deviation of $X$ from its mean
+- $\left(X - \text{E}[X]\right)$ is the deviation of $X$ from its mean
 
-- $\left(Y - \textrm{E}[Y]\right)$ is the deviation of $Y$ from its mean
+- $\left(Y - \text{E}[Y]\right)$ is the deviation of $Y$ from its mean
 
 Therefore, the covariance measures the expected value of the product of these deviations.
 
@@ -40,7 +40,7 @@ The covariance can also be expressed as
 $$
 
 
-\textrm{Cov}[X, Y] =\sum_{(x,y)\in S}(x − \textrm E[X])(y − \textrm E[Y])f(x,y)
+\text{Cov}[X, Y] =\sum_{(x,y)\in S}(x − \textrm E[X])(y − \textrm E[Y])f(x,y)
 
 
 $$
@@ -76,14 +76,14 @@ The covariance of two discrete random variables $X$ and $Y$ with joint support $
 $$
 
 
-\textrm{Cov}[X, Y] = \sum_{(x,y)\in S}(x − \textrm E[X])(y − \textrm E[Y])f(x,y).
+\text{Cov}[X, Y] = \sum_{(x,y)\in S}(x − \textrm E[X])(y − \textrm E[Y])f(x,y).
 
 
 $$
 
 First, let's find the marginal mass functions for $X$ and $Y.$ These are given by the row and column totals, respectively.
 
-We now compute $\textrm{E}[X]$ and $\textrm{E}[Y],$ as follows:
+We now compute $\text{E}[X]$ and $\text{E}[Y],$ as follows:
 
 $$
 
@@ -118,14 +118,14 @@ The covariance of two discrete random variables $X$ and $Y$ with joint support $
 $$
 
 
-\textrm{Cov}[X, Y] = \sum_{(x,y)\in S}(x − \textrm E[X])(y − \textrm E[Y])f(x,y).
+\text{Cov}[X, Y] = \sum_{(x,y)\in S}(x − \textrm E[X])(y − \textrm E[Y])f(x,y).
 
 
 $$
 
 First, let's find the marginal mass functions for $X$ and $Y.$ These are given by the row and column totals, respectively.
 
-We now compute $\textrm{E}[X]$ and $\textrm{E}[Y],$ as follows:
+We now compute $\text{E}[X]$ and $\text{E}[Y],$ as follows:
 
 $$
 
@@ -154,7 +154,7 @@ Indeed, there is. It can be shown that
 $$
 
 
-\textrm{Cov}[X, Y] =\textrm E [XY] − \textrm E [X]\cdot \textrm E [Y].
+\text{Cov}[X, Y] =\textrm E [XY] − \textrm E [X]\cdot \textrm E [Y].
 
 
 $$
@@ -167,7 +167,7 @@ We'll prove this formula at the end of the lesson. But for now, let's get some p
 
 The joint probability mass function $f(x,y)$ for the discrete random variables $X$ and $Y$ is given below.
 
-If $\textrm{E} [X]=2.8$ and $\textrm{E}[Y] = 2.4,$ calculate the covariance of $X$ and $Y.$
+If $\text{E} [X]=2.8$ and $\text{E}[Y] = 2.4,$ calculate the covariance of $X$ and $Y.$
 
 #### Explanation
 
@@ -176,12 +176,12 @@ The covariance of $X$ and $Y$ can be calculated using the formula
 $$
 
 
-\textrm{Cov}[X,Y] = \textrm{E} [XY] - \textrm{E}[X]\cdot \textrm{E}[Y].
+\text{Cov}[X,Y] = \text{E} [XY] - \text{E}[X]\cdot \text{E}[Y].
 
 
 $$
 
-We use the rule of the lazy statistician to find $\textrm{E}[XY]\mathbin{:}$
+We use the rule of the lazy statistician to find $\text{E}[XY]\mathbin{:}$
 
 $$
 
@@ -208,7 +208,7 @@ If $X$ and $Y$ are continuous random variables, the covariance between $X$ and $
 $$
 
 
-\textrm{Cov}[X, Y] =\iint_\limits{\mathbb R^2}(x − \textrm E[X])(y − \textrm E[Y])f(x,y) \, \textrm d x\textrm d y.
+\text{Cov}[X, Y] =\iint\limits_{\mathbb R^2}(x − \textrm E[X])(y − \textrm E[Y])f(x,y) \, \textrm d x\textrm d y.
 
 
 $$
@@ -218,7 +218,7 @@ As is the case with discrete random variables, it's often easier to compute the 
 $$
 
 
-\textrm{Cov}[X,Y] = \textrm{E} [XY] - \textrm{E}[X]\cdot \textrm{E}[Y]
+\text{Cov}[X,Y] = \text{E} [XY] - \text{E}[X]\cdot \text{E}[Y]
 
 
 $$
@@ -233,22 +233,22 @@ $$
 
 $$
 
-To compute the covariance of this distribution, we first use the rule of the lazy statistician to find $\textrm{E}[XY]\mathbin{:}$
+To compute the covariance of this distribution, we first use the rule of the lazy statistician to find $\text{E}[XY]\mathbin{:}$
 
 $$
 
 
-\begin{aligned}E[𝑋𝑌] & =∫_{20}^{}∫_{10}^{}𝑥𝑦𝑓(𝑥,𝑦)\,d𝑥\,d𝑦 \\ & =∫_{20}^{}∫_{10}^{}𝑥𝑦⋅\frac{1}{2}(𝑥+\frac{𝑦}{2})\,d𝑥\,d𝑦 \\ & =∫_{20}^{}\frac{1}{2}𝑦∫_{10}^{}(𝑥^{2}+\frac{1}{2}𝑥𝑦)\,d𝑥\,d𝑦 \\ & =∫_{20}^{}\frac{1}{2}𝑦[\frac{1}{3}𝑥^{3}+\frac{1}{4}𝑥^{2}𝑦]_{𝑥=1𝑥=0}^{}\,d𝑦 \\ & =∫_{20}^{}\frac{1}{2}𝑦[\frac{1}{3}+\frac{1}{4}𝑦]\,d𝑦 \\ & =∫_{20}^{}(\frac{1}{6}𝑦+\frac{1}{8}𝑦^{2})\,d𝑦 \\ & =[\frac{1}{12}𝑦^{2}+\frac{1}{24}𝑦^{3}]_{𝑦=2𝑦=0}^{} \\ & =\frac{1}{12}⋅2^{2}+\frac{1}{24}⋅2^{3} \\ & =\frac{1}{3}+\frac{1}{3} \\ & =\frac{2}{3}.\end{aligned}
+\begin{aligned}E[𝑋𝑌] & =∫_{20}∫_{10}𝑥𝑦𝑓(𝑥,𝑦)\,d𝑥\,d𝑦 \\ & =∫_{20}∫_{10}𝑥𝑦⋅\frac{1}{2}(𝑥+\frac{𝑦}{2})\,d𝑥\,d𝑦 \\ & =∫_{20}\frac{1}{2}𝑦∫_{10}(𝑥^{2}+\frac{1}{2}𝑥𝑦)\,d𝑥\,d𝑦 \\ & =∫_{20}\frac{1}{2}𝑦[\frac{1}{3}𝑥^{3}+\frac{1}{4}𝑥^{2}𝑦]_{𝑥=1𝑥=0}\,d𝑦 \\ & =∫_{20}\frac{1}{2}𝑦[\frac{1}{3}+\frac{1}{4}𝑦]\,d𝑦 \\ & =∫_{20}(\frac{1}{6}𝑦+\frac{1}{8}𝑦^{2})\,d𝑦 \\ & =[\frac{1}{12}𝑦^{2}+\frac{1}{24}𝑦^{3}]_{𝑦=2𝑦=0} \\ & =\frac{1}{12}⋅2^{2}+\frac{1}{24}⋅2^{3} \\ & =\frac{1}{3}+\frac{1}{3} \\ & =\frac{2}{3}.\end{aligned}
 
 
 $$
 
-Using methods discussed in previous lessons, we can compute $\textrm{E}[X]$ and $\textrm{E}[Y]{:}$
+Using methods discussed in previous lessons, we can compute $\text{E}[X]$ and $\text{E}[Y]{:}$
 
 $$
 
 
-\textrm{E}[X] = \dfrac{7}{12}, \qquad \textrm{E}[Y] = \dfrac76
+\text{E}[X] = \dfrac{7}{12}, \qquad \text{E}[Y] = \dfrac76
 
 
 $$
@@ -274,7 +274,7 @@ The random variables $X$ and $Y$ have the joint probability density function
 $$
 
 
-\begin{aligned}\frac{3}{5}\sqrt{√𝑥}\,𝑦, & 0≤𝑥≤1,\,2≤𝑦≤3, \\ 0, & otherwise.\end{aligned}
+\begin{aligned}\frac{3}{5}\sqrt{𝑥}\,𝑦, & 0≤𝑥≤1,\,2≤𝑦≤3, \\ 0, & otherwise.\end{aligned}
 
 
 $$
@@ -305,7 +305,7 @@ $$
 
 where $g(x) =\dfrac{3}{5} \sqrt{x}$ and $h(y) =y.$
 
-Therefore, $X$ and $Y$ are independent, and consequently $\textrm{Cov}[X,Y] = 0.$
+Therefore, $X$ and $Y$ are independent, and consequently $\text{Cov}[X,Y] = 0.$
 
 ### Proof of the Covariance Formula
 
@@ -314,7 +314,7 @@ Let's now prove the following formula:
 $$
 
 
-\textrm{Cov}[X, Y] =\textrm E [XY] − \textrm E[X]\cdot \textrm E[Y]
+\text{Cov}[X, Y] =\textrm E [XY] − \textrm E[X]\cdot \textrm E[Y]
 
 
 $$
@@ -324,7 +324,7 @@ We start with the definition of covariance, given by
 $$
 
 
-\textrm{Cov}[X, Y] =\textrm E\Big[\left(X− \textrm E[X]\right)\left(Y−\textrm E[Y]\right)\Big].
+\text{Cov}[X, Y] =\textrm E\Big[\left(X− \textrm E[X]\right)\left(Y−\textrm E[Y]\right)\Big].
 
 
 $$
@@ -344,12 +344,12 @@ Now, recall that if $a$ and $b$ are constants, then
 $$
 
 
-\textrm E[a]=a, \qquad \textrm{E}[aX + bY] = a\cdot \textrm{E}[X] + b \cdot \textrm{E}[Y].
+\textrm E[a]=a, \qquad \text{E}[aX + bY] = a\cdot \text{E}[X] + b \cdot \text{E}[Y].
 
 
 $$
 
-Since $\textrm{E}[X]$ and are $\textrm{E}[Y]$ are both constants, the covariance formula simplifies as follows:
+Since $\text{E}[X]$ and are $\text{E}[Y]$ are both constants, the covariance formula simplifies as follows:
 
 $$
 

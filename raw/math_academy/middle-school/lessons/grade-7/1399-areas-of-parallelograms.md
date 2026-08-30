@@ -45,15 +45,15 @@ $$
 
 #### Question
 
-The length of a side of a parallelogram is $15\,\textrm{in}$ and the shortest distance from this side to the opposite side is $20\,\textrm{in}.$ What is the area of this parallelogram?
+The length of a side of a parallelogram is $15\,\text{in}$ and the shortest distance from this side to the opposite side is $20\,\text{in}.$ What is the area of this parallelogram?
 
 #### Explanation
 
 From the given information, we have that
 
-- the base of our parallelogram is $b=15\,\textrm{in},$ and
+- the base of our parallelogram is $b=15\,\text{in},$ and
 
-- the corresponding height is $h=20\,\textrm{in}.$
+- the corresponding height is $h=20\,\text{in}.$
 
 ![Instructional graphic](../../../lesson-assets/grade-7/topic-1399/bb35bedbce0152c9.png)
 
@@ -85,7 +85,7 @@ $$
 
 
 
-\dfrac{1}{2} \cdot 1\,\textrm{km}=0.5\,\textrm{km}.
+\dfrac{1}{2} \cdot 1\,\text{km}=0.5\,\text{km}.
 
 
 
@@ -97,7 +97,7 @@ $$
 
 
 
-b = 6 \cdot 0.5 = 3\,\textrm{km}.
+b = 6 \cdot 0.5 = 3\,\text{km}.
 
 
 
@@ -109,7 +109,7 @@ $$
 
 
 
-h= 8 \cdot 0.5 = 4\,\textrm{km}.
+h= 8 \cdot 0.5 = 4\,\text{km}.
 
 
 
@@ -253,7 +253,7 @@ $$
 
 
 
-\textrm{Area of Parallelogram} = \textrm{Area of Rectangle} = \textrm{base} \times \textrm{height} = b \times h
+\text{Area of Parallelogram} = \text{Area of Rectangle} = \text{base} \times \text{height} = b \times h
 
 
 

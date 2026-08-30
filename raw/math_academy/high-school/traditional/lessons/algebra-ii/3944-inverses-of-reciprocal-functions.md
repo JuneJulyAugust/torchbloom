@@ -116,7 +116,7 @@ $$
 
 
 
-\begin{aligned}𝑥 & =\frac{4}{(𝑦−1)^{2}} \\ 𝑥⋅(𝑦−1)^{2} & =4 \\ (𝑦−1)^{2} & =\frac{4}{𝑥} \\ \sqrt{√(𝑦−1)^{2}} & =\sqrt{√\frac{4}{𝑥}} \\ |𝑦−1| & =\frac{2}{\sqrt{√𝑥}} \\ 𝑦−1 & =\frac{2}{\sqrt{√𝑥}} \\ 𝑦 & =\frac{2}{\sqrt{√𝑥}}+1\end{aligned}
+\begin{aligned}𝑥 & =\frac{4}{(𝑦−1)^{2}} \\ 𝑥⋅(𝑦−1)^{2} & =4 \\ (𝑦−1)^{2} & =\frac{4}{𝑥} \\ \sqrt{(𝑦−1)^{2}} & =\sqrt{\frac{4}{𝑥}} \\ |𝑦−1| & =\frac{2}{\sqrt{𝑥}} \\ 𝑦−1 & =\frac{2}{\sqrt{𝑥}} \\ 𝑦 & =\frac{2}{\sqrt{𝑥}}+1\end{aligned}
 
 
 

@@ -36,7 +36,7 @@ $$
 
 When solving problems that involve circles, we often need to use the formula for the area of a circle *and* the formula for the circumference.
 
-For instance, how do we find the area of a circle given that it has a circumference of $C=8\pi\,\textrm{cm}?$
+For instance, how do we find the area of a circle given that it has a circumference of $C=8\pi\,\text{cm}?$
 
 ![Instructional graphic](../../../../lesson-assets/geometry/topic-494/b93f6af2434b3890.png)
 
@@ -66,11 +66,11 @@ $$
 
 ![Instructional graphic](../../../../lesson-assets/geometry/topic-494/b9558f817642e470.png)
 
-The area of the circle above is $81\pi\,\textrm{ft}^2,$ and the length of the arc $\overset{\frown}{AB}$ is $4\pi\,\textrm{ft}.$ What is the measure of $\angle{AOB}?$
+The area of the circle above is $81\pi\,\text{ft}^2,$ and the length of the arc $\overset{\frown}{AB}$ is $4\pi\,\text{ft}.$ What is the measure of $\angle{AOB}?$
 
 #### Explanation
 
-The formula for the area of a circle is $\mathcal{A}=\pi r^2,$ where $r$ is the radius. Using the fact that $\mathcal A = 81\pi\,\textrm{ft}^2,$ we can solve for $r,$ as follows:
+The formula for the area of a circle is $\mathcal{A}=\pi r^2,$ where $r$ is the radius. Using the fact that $\mathcal A = 81\pi\,\text{ft}^2,$ we can solve for $r,$ as follows:
 
 $$
 
@@ -170,7 +170,7 @@ and let $\mathcal{A}$ and $C$ denote the area of the circle and its circumferenc
 
 #### Question
 
-Find the area of the shaded region below given that the radius of the circle is $4\,\textrm{cm}$ and the length of the arc $\overset{\frown}{AB}$ is $\pi\,\textrm{cm}.$
+Find the area of the shaded region below given that the radius of the circle is $4\,\text{cm}$ and the length of the arc $\overset{\frown}{AB}$ is $\pi\,\text{cm}.$
 
 ![Instructional graphic](../../../../lesson-assets/geometry/topic-494/6de09e43eb750407.png)
 
@@ -188,7 +188,7 @@ $$
 
 $$
 
-We're told that the length of the arc $\overset{\frown}{AB}$ is $\pi \,\textrm{cm},$ so the ratio of the length of $\overset{\frown}{AB}$ to the circumference $C$ is
+We're told that the length of the arc $\overset{\frown}{AB}$ is $\pi \,\text{cm},$ so the ratio of the length of $\overset{\frown}{AB}$ to the circumference $C$ is
 
 $$
 
@@ -237,7 +237,7 @@ Now, from the problem statement, we can deduce that the length of the inner radi
 $$
 
 
-HF = 80-60 = 20 \, \textrm{yd}.
+HF = 80-60 = 20 \, \text{yd}.
 
 
 $$
@@ -257,7 +257,7 @@ Similarly, we find the area of the outer sector:
 $$
 
 
-\mathcal{A}_{\textrm{outer}} = \dfrac 1{4} \cdot \pi \cdot 80^2 = 1\, 600\pi \, \textrm{yd}^2
+\mathcal{A}_{\text{outer}} = \dfrac 1{4} \cdot \pi \cdot 80^2 = 1\, 600\pi \, \text{yd}^2
 
 
 $$

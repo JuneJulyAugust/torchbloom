@@ -98,7 +98,7 @@ Find the differential equation governing the current $I$ (in amperes) at time $t
 
 #### Explanation
 
-The circuit is a series RCL circuit with a source electromotive force (EMF) of $6\cos(4t)\,\textrm{V},$ a resistor of resistance $30\,\Omega,$ a capacitor of capacitance $0.002\,\textrm{F},$ and an inductor of inductance $5\,\textrm{H}.$
+The circuit is a series RCL circuit with a source electromotive force (EMF) of $6\cos(4t)\,\text{V},$ a resistor of resistance $30\,\Omega,$ a capacitor of capacitance $0.002\,\text{F},$ and an inductor of inductance $5\,\text{H}.$
 
 The current $I,$ measured in amperes, is defined as the rate of flow of charge $q,$ measured in coulombs.
 
@@ -118,7 +118,7 @@ In an RCL circuit, there are three voltage drops:
 
 - The voltage drop across the capacitor is related to its charge by $q = CV_C.$ Therefore,
 
-- The voltage drop across the inductor is proportional to the rate of change of current, with a constant of proportionality $L=5\,\textrm{H}.$ Hence,
+- The voltage drop across the inductor is proportional to the rate of change of current, with a constant of proportionality $L=5\,\text{H}.$ Hence,
 
 Therefore, by Kirchhoff's voltage law, these values are related by the equation
 
@@ -208,7 +208,7 @@ In the next slide, we'll determine the initial conditions of a differential equa
 
 ### A Worked Example
 
-Suppose a circuit with a constant EMF of $E=8\,\textrm{V},$ resistance of $R=6\,\Omega,$ capacitance of $C=0.25\,\textrm{F},$ and inductance of $L=2\,\textrm{H},$ satisfies Kirchhoff's voltage law equation
+Suppose a circuit with a constant EMF of $E=8\,\text{V},$ resistance of $R=6\,\Omega,$ capacitance of $C=0.25\,\text{F},$ and inductance of $L=2\,\text{H},$ satisfies Kirchhoff's voltage law equation
 
 $$
 
@@ -284,13 +284,13 @@ $$
 
 ![Instructional graphic](../../../lesson-assets/mathematical-methods-for-the-physical-sciences-i/topic-6726/e6182fbb7cb7ac17.png)
 
-Find an equation for the current (in amperes) in the circuit given in the diagram above, expressing your answer in terms of time $t$ (in seconds) only, and given that the initial charge on the capacitor is $\dfrac25\,\textrm{C}$ and the initial current is $\dfrac34\,\textrm{A}.$
+Find an equation for the current (in amperes) in the circuit given in the diagram above, expressing your answer in terms of time $t$ (in seconds) only, and given that the initial charge on the capacitor is $\dfrac25\,\text{C}$ and the initial current is $\dfrac34\,\text{A}.$
 
 **
 
 #### Explanation
 
-The circuit is a series RCL circuit with a source electromotive force (EMF) of $9\,\textrm{V},$ a resistor of resistance $10\,\Omega,$ a capacitor of capacitance $0.25\,\textrm{F},$ and an inductor of inductance $4\,\textrm{H}.$
+The circuit is a series RCL circuit with a source electromotive force (EMF) of $9\,\text{V},$ a resistor of resistance $10\,\Omega,$ a capacitor of capacitance $0.25\,\text{F},$ and an inductor of inductance $4\,\text{H}.$
 
 The current $I,$ measured in amperes, is defined as the rate of flow of charge $q,$ measured in coulombs.
 
@@ -310,7 +310,7 @@ In an RCL circuit, there are three voltage drops:
 
 - The voltage drop across the capacitor is related to its charge by $q = CV_C.$ Therefore,
 
-- The voltage drop across the inductor is proportional to the rate of change of current, with a constant of proportionality $L=4\,\textrm{H}.$ Hence,
+- The voltage drop across the inductor is proportional to the rate of change of current, with a constant of proportionality $L=4\,\text{H}.$ Hence,
 
 Therefore, by Kirchhoff's voltage law, these values are related by the equation
 
@@ -354,7 +354,7 @@ I(t)=Ae^{-2t}+Be^{-t/2}.
 
 $$
 
-We're told that the circuit starts with an initial charge of $\dfrac25\,\textrm{C}$ on the capacitor and an initial current of $\dfrac34\,\textrm{A}.$ Now, solving the Kirchhoff's law equation for $\dfrac{\mathrm{d}I}{\mathrm{d}t},$ we have
+We're told that the circuit starts with an initial charge of $\dfrac25\,\text{C}$ on the capacitor and an initial current of $\dfrac34\,\text{A}.$ Now, solving the Kirchhoff's law equation for $\dfrac{\mathrm{d}I}{\mathrm{d}t},$ we have
 
 $$
 
@@ -412,7 +412,7 @@ Find, in amperes, the amplitude of the steady state current for the RCL circuit 
 
 #### Explanation
 
-The diagram shows a series RCL circuit with a source electromotive force (EMF) of $6\cos(2t)\,\textrm{V},$ a resistor of resistance $8\,\Omega,$ a capacitor of capacitance $0.25\,\textrm{F},$ and an inductor of inductance $4\,\textrm{H}.$
+The diagram shows a series RCL circuit with a source electromotive force (EMF) of $6\cos(2t)\,\text{V},$ a resistor of resistance $8\,\Omega,$ a capacitor of capacitance $0.25\,\text{F},$ and an inductor of inductance $4\,\text{H}.$
 
 The current $I,$ measured in amperes, is defined as the rate of flow of charge $q,$ measured in coulombs.
 
@@ -432,7 +432,7 @@ In an RCL circuit, there are three voltage drops:
 
 - The voltage drop across the capacitor is related to its charge by $q = CV_C.$ Therefore,
 
-- The voltage drop across the inductor is proportional to the rate of change of current, with a constant of proportionality $L=4\,\textrm{H}.$ Hence,
+- The voltage drop across the inductor is proportional to the rate of change of current, with a constant of proportionality $L=4\,\text{H}.$ Hence,
 
 Therefore, by Kirchhoff's voltage law, these values are related by the equation
 

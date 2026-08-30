@@ -141,7 +141,7 @@ Finally, we can evaluate our line integral as follows:
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}𝐅⋅d𝐫 & =∫_{𝜋0}^{}𝐅(𝐫(𝑡))⋅𝐫^{′}(𝑡)\,d𝑡 \\ & =∫_{𝜋0}^{}cos⁡2𝑡\,d𝑡 \\ & =\frac{1}{2}sin⁡2𝑡_{𝜋0}^{} \\ & =\frac{1}{2}(sin⁡2𝜋−sin⁡(0)) \\ & =0\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}𝐅⋅d𝐫 & =∫_{𝜋0}𝐅(𝐫(𝑡))⋅𝐫^{′}(𝑡)\,d𝑡 \\ & =∫_{𝜋0}cos⁡2𝑡\,d𝑡 \\ & =\frac{1}{2}sin⁡2𝑡_{𝜋0} \\ & =\frac{1}{2}(sin⁡2𝜋−sin⁡(0)) \\ & =0\end{aligned}
 
 
 $$
@@ -209,7 +209,7 @@ Finally, we can write the integral as follows:
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}𝐅(𝐫)⋅d𝐫 & =∫_{10}^{}𝐅(𝐫(𝑡))⋅𝐫^{′}(𝑡)\,d𝑡 \\ & =∫_{10}^{}𝑡^{7}\,d𝑡\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}𝐅(𝐫)⋅d𝐫 & =∫_{10}𝐅(𝐫(𝑡))⋅𝐫^{′}(𝑡)\,d𝑡 \\ & =∫_{10}𝑡^{7}\,d𝑡\end{aligned}
 
 
 $$
@@ -277,7 +277,7 @@ Finally, we can evaluate the integral, as follows:
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}𝐅(𝐫)⋅d𝐫 & =∫_{10}^{}𝐟(𝐫(𝑡))⋅𝐫^{′}(𝑡)\,d𝑡 \\ & =∫_{10}^{}(−3𝑡)\,d𝑡 \\ & =−\frac{3}{2}𝑡^{2}\,_{10}^{} \\ & =−\frac{3}{2}−0 \\ & =−\frac{3}{2}\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}𝐅(𝐫)⋅d𝐫 & =∫_{10}𝐟(𝐫(𝑡))⋅𝐫^{′}(𝑡)\,d𝑡 \\ & =∫_{10}(−3𝑡)\,d𝑡 \\ & =−\frac{3}{2}𝑡^{2}\,_{10} \\ & =−\frac{3}{2}−0 \\ & =−\frac{3}{2}\end{aligned}
 
 
 $$
@@ -345,7 +345,7 @@ Finally, we evaluate the integral as follows:
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}𝐅(𝐫)⋅d𝐫 & =∫_{10}^{}𝐅(𝐫(𝑡))⋅𝐫^{′}(𝑡)\,d𝑡 \\ & =∫_{10}^{}(𝑡+2𝑡^{3}+3𝑡^{5})\,d𝑡 \\ & =[\frac{1}{2}𝑡^{2}+\frac{1}{2}𝑡^{4}+\frac{1}{2}𝑡^{6}]_{10}^{} \\ & =\frac{1}{2}+\frac{1}{2}+\frac{1}{2} \\ & =\frac{3}{2}\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}𝐅(𝐫)⋅d𝐫 & =∫_{10}𝐅(𝐫(𝑡))⋅𝐫^{′}(𝑡)\,d𝑡 \\ & =∫_{10}(𝑡+2𝑡^{3}+3𝑡^{5})\,d𝑡 \\ & =[\frac{1}{2}𝑡^{2}+\frac{1}{2}𝑡^{4}+\frac{1}{2}𝑡^{6}]_{10} \\ & =\frac{1}{2}+\frac{1}{2}+\frac{1}{2} \\ & =\frac{3}{2}\end{aligned}
 
 
 $$
@@ -413,7 +413,7 @@ Substituting the above into our expression for $W,$ we arrive at
 $$
 
 
-\begin{aligned}𝑊 & =\underset{𝐶}{∫}𝐅⋅𝐓\,d𝑠 \\ & =∫_{𝑏𝑎}^{}(𝐅(𝐫(𝑡))⋅\frac{𝐫^{′}(𝑡)}{||𝐫^{′}(𝑡)||})||𝐫^{′}(𝑡)||\,d𝑡 \\ & =∫_{𝑏𝑎}^{}𝐅(𝐫(𝑡))⋅𝐫^{′}(𝑡)\,d𝑡.\end{aligned}
+\begin{aligned}𝑊 & =\underset{𝐶}{∫}𝐅⋅𝐓\,d𝑠 \\ & =∫_{𝑏𝑎}(𝐅(𝐫(𝑡))⋅\frac{𝐫^{′}(𝑡)}{||𝐫^{′}(𝑡)||})||𝐫^{′}(𝑡)||\,d𝑡 \\ & =∫_{𝑏𝑎}𝐅(𝐫(𝑡))⋅𝐫^{′}(𝑡)\,d𝑡.\end{aligned}
 
 
 $$

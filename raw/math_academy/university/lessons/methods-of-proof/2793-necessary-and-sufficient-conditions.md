@@ -14,9 +14,9 @@ Topic ID: 2793
 
 ### Introduction
 
-Consider the truth table for $S \Rightarrow N$ below. Note that the implication is true $({\color{blue}\textrm{T}})$ in the $1$st, $3$rd, and $4$th rows.
+Consider the truth table for $S \Rightarrow N$ below. Note that the implication is true $({\color{blue}\text{T}})$ in the $1$st, $3$rd, and $4$th rows.
 
-Of the three rows where the implication is true, $S$ is true $({\color{red}\textrm{T}})$ only in the $1$st row, and $N$ is also true $({\color{red}\textrm{T}})$ in this row.
+Of the three rows where the implication is true, $S$ is true $({\color{red}\text{T}})$ only in the $1$st row, and $N$ is also true $({\color{red}\text{T}})$ in this row.
 
 So, if the implication is true, $S$ being true *guarantees* that $N$ must also be true. Therefore, $S$ is called a **sufficient condition** for $N.$
 
@@ -27,7 +27,7 @@ These ideas can be summarized as follows:
 $$
 
 
-\textbf{S}\textrm{ufficient} \: \Rightarrow \: \textbf{N}\textrm{ecessary}.
+\textbf{S}\text{ufficient} \: \Rightarrow \: \textbf{N}\text{ecessary}.
 
 
 $$
@@ -67,7 +67,7 @@ These ideas can be summarized as follows:
 $$
 
 
-\textbf{S}\textrm{ufficient} \: \Rightarrow \: \textbf{N}\textrm{ecessary}.
+\textbf{S}\text{ufficient} \: \Rightarrow \: \textbf{N}\text{ecessary}.
 
 
 $$
@@ -77,7 +77,7 @@ In our case,
 $$
 
 
-\underbrace{\big( \, A=\overline{B} \, \big)}_{\large\textrm{sufficient}} \: \Rightarrow \: \underbrace{\big( \, A\cap B = \emptyset \, \big)}_{\large\textrm{necessary}}
+\underbrace{\big( \, A=\overline{B} \, \big)}_{\large\text{sufficient}} \: \Rightarrow \: \underbrace{\big( \, A\cap B = \emptyset \, \big)}_{\large\text{necessary}}
 
 
 $$
@@ -119,7 +119,7 @@ These ideas can be summarized as follows:
 $$
 
 
-\textbf{S}\textrm{ufficient} \: \Rightarrow \: \textbf{N}\textrm{ecessary}.
+\textbf{S}\text{ufficient} \: \Rightarrow \: \textbf{N}\text{ecessary}.
 
 
 $$
@@ -173,7 +173,7 @@ These ideas can be summarized as follows:
 $$
 
 
-\textbf{S}\textrm{ufficient} \: \Rightarrow \: \textbf{N}\textrm{ecessary}.
+\textbf{S}\text{ufficient} \: \Rightarrow \: \textbf{N}\text{ecessary}.
 
 
 $$
@@ -275,7 +275,7 @@ In our case, we need to find the conditions that are ** for the given one. In ot
 $$
 
 
-\big( x^2 - x = 0 \big) \: \Rightarrow \: \textrm{Condition}
+\big( x^2 - x = 0 \big) \: \Rightarrow \: \text{Condition}
 
 
 $$
@@ -285,7 +285,7 @@ and
 $$
 
 
-\big( x^2 - x = 0 \big) \: \Leftarrow \: \textrm{Condition}.
+\big( x^2 - x = 0 \big) \: \Leftarrow \: \text{Condition}.
 
 
 $$

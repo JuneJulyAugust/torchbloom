@@ -54,7 +54,7 @@ $$
 
 
 
-\textrm{Area of Triangle} = \dfrac{1}{2} \cdot 48 = 24 \: \text{m}^2.
+\text{Area of Triangle} = \dfrac{1}{2} \cdot 48 = 24 \: \text{m}^2.
 
 
 
@@ -116,7 +116,7 @@ $$
 
 #### Question
 
-A flowerbed in the shape of a right triangle has a base length of $10\,\textrm{ft}$ and a width of $7\,\textrm{ft}.$ What is the area of the flowerbed?
+A flowerbed in the shape of a right triangle has a base length of $10\,\text{ft}$ and a width of $7\,\text{ft}.$ What is the area of the flowerbed?
 
 #### Explanation
 

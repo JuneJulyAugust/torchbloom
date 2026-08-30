@@ -17,7 +17,7 @@ In a previous lesson, we spent some time constructing direct proofs of parity st
 $$
 
 
-n\textrm{ is even} \quad\Rightarrow\quad n^2\textrm{ is even}
+n\text{ is even} \quad\Rightarrow\quad n^2\text{ is even}
 
 
 $$
@@ -302,14 +302,14 @@ Let's see an example.
 
 Let $a \in \mathbb{Z}.$ Prove that if $4 \mid a$ and $15 \mid a,$ then $60 \mid a.$
 
-Since $4$ and $15$ are coprime, we have $\gcd(4,15)=$ $𝐴𝐴𝐴𝐴𝐴_{𝐴𝐴}^{}$.
+Since $4$ and $15$ are coprime, we have $\gcd(4,15)=$ $𝐴𝐴𝐴𝐴𝐴_{𝐴𝐴}$.
 
 By Bézout's identity, there exist integers $u$ and $v$ such that
 
 $$
 
 
-𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴_{𝐴𝐴}^{}
+𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴_{𝐴𝐴}
 
 
 $$
@@ -324,19 +324,19 @@ $$
 
 $$
 
-Since $4\mid a$ and $15\mid a,$ there exist integers $k$ and $m$ such that $𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴_{𝐴𝐴}^{}$.
+Since $4\mid a$ and $15\mid a,$ there exist integers $k$ and $m$ such that $𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴_{𝐴𝐴}$.
 
 Substituting these for $a$ into the left-hand side of the expression above, we obtain
 
 $$
 
 
-𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴_{𝐴𝐴}^{}
+𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴_{𝐴𝐴}
 
 
 $$
 
-Since $um+vk$ is $𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴_{𝐴𝐴}^{}$, we conclude that $60\mid a.$
+Since $um+vk$ is $𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴_{𝐴𝐴}$, we conclude that $60\mid a.$
 
 #### Explanation
 
@@ -421,7 +421,7 @@ By Bézout's identity, there exist integers $u$ and $v$ such that
 $$
 
 
-𝐴𝐴𝐴𝐴𝐴𝐴𝐴_{𝐴𝐴}^{}
+𝐴𝐴𝐴𝐴𝐴𝐴𝐴_{𝐴𝐴}
 
 
 $$
@@ -436,19 +436,19 @@ $$
 
 $$
 
-Since $5\mid a$ and $7\mid a,$ there exist integers $k$ and $m$ such that $𝐴𝐴𝐴𝐴𝐴𝐴𝐴_{𝐴𝐴}^{}$.
+Since $5\mid a$ and $7\mid a,$ there exist integers $k$ and $m$ such that $𝐴𝐴𝐴𝐴𝐴𝐴𝐴_{𝐴𝐴}$.
 
 Substituting these for $a$ into the left-hand side of the expression above, we obtain
 
 $$
 
 
-𝐴𝐴𝐴𝐴𝐴𝐴𝐴_{𝐴𝐴}^{}
+𝐴𝐴𝐴𝐴𝐴𝐴𝐴_{𝐴𝐴}
 
 
 $$
 
-Since $um+vk$ is $𝐴𝐴𝐴𝐴𝐴𝐴𝐴_{𝐴𝐴}^{}$, we conclude that $35\mid a.$
+Since $um+vk$ is $𝐴𝐴𝐴𝐴𝐴𝐴𝐴_{𝐴𝐴}$, we conclude that $35\mid a.$
 
 #### Explanation
 

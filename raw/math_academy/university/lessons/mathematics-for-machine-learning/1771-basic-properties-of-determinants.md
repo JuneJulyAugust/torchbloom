@@ -37,7 +37,7 @@ To quickly compute the determinants of the matrices above, we can use the follow
 
 #### Question
 
-Calculate $\begin{aligned}−2 & 0 & 0 & 0 \\ −4 & 1 & 0 & 0 \\ 1 & 10 & \sqrt{√3} & 0 \\ −3 & 0 & 6 & −2\end{aligned}$
+Calculate $\begin{aligned}−2 & 0 & 0 & 0 \\ −4 & 1 & 0 & 0 \\ 1 & 10 & \sqrt{3} & 0 \\ −3 & 0 & 6 & −2\end{aligned}$
 
 #### Explanation
 
@@ -46,7 +46,7 @@ The determinant of a triangular matrix is equal to the product of the entries on
 $$
 
 
-\begin{aligned}\begin{aligned}−2 & 0 & 0 & 0 \\ −4 & 1 & 0 & 0 \\ 1 & 10 & \sqrt{√3} & 0 \\ −3 & 0 & 6 & −2\end{aligned} & =(−2)⋅1⋅\sqrt{√3}⋅(−2)=4\sqrt{√3}.\end{aligned}
+\begin{aligned}\begin{matrix}−2 & 0 & 0 & 0 \\ −4 & 1 & 0 & 0 \\ 1 & 10 & \sqrt{3} & 0 \\ −3 & 0 & 6 & −2\end{matrix} & =(−2)⋅1⋅\sqrt{3}⋅(−2)=4\sqrt{3}.\end{aligned}
 
 
 $$
@@ -64,7 +64,7 @@ Notice that the $1$st column contains three zeros. So, using Laplace expansion a
 $$
 
 
-\begin{aligned}det(𝐴) & =\begin{aligned}2 & 5 & 5 & 4 \\ 0 & 1 & 0 & 0 \\ 0 & 8 & 2 & 0 \\ 0 & 13 & 19 & −3\end{aligned} \\ & =2⋅(−1)^{1+1}\begin{aligned}1 & 0 & 0 \\ 8 & 2 & 0 \\ 13 & 19 & −3\end{aligned} \\ & =2\begin{aligned}1 & 0 & 0 \\ 8 & 2 & 0 \\ 13 & 19 & −3\end{aligned}.\end{aligned}
+\begin{aligned}det(𝐴) & =\begin{matrix}2 & 5 & 5 & 4 \\ 0 & 1 & 0 & 0 \\ 0 & 8 & 2 & 0 \\ 0 & 13 & 19 & −3\end{matrix} \\ & =2⋅(−1)^{1+1}\begin{matrix}1 & 0 & 0 \\ 8 & 2 & 0 \\ 13 & 19 & −3\end{matrix} \\ & =2\begin{matrix}1 & 0 & 0 \\ 8 & 2 & 0 \\ 13 & 19 & −3\end{matrix}.\end{aligned}
 
 
 $$
@@ -74,7 +74,7 @@ The determinant of a triangular matrix is equal to the product of the entries on
 $$
 
 
-\begin{aligned}\begin{aligned}1 & 0 & 0 \\ 8 & 2 & 0 \\ 13 & 19 & −3\end{aligned} & =1⋅2⋅(−3)=−6.\end{aligned}
+\begin{aligned}\begin{matrix}1 & 0 & 0 \\ 8 & 2 & 0 \\ 13 & 19 & −3\end{matrix} & =1⋅2⋅(−3)=−6.\end{aligned}
 
 
 $$
@@ -150,7 +150,7 @@ Notice that the $2$nd row of the determinant contains three zeros. So, using Lap
 $$
 
 
-\begin{aligned}det(𝑀) & =\begin{aligned}2 & 3 & −2 & 1 \\ 3 & 0 & 0 & 0 \\ −4 & 0 & 1 & 0 \\ 5 & −4 & 2 & 5\end{aligned} \\ & =3⋅(−1)^{2+1}\begin{aligned}3 & −2 & 1 \\ 0 & 1 & 0 \\ −4 & 2 & 5\end{aligned} \\ & =−3\begin{aligned}3 & −2 & 1 \\ 0 & 1 & 0 \\ −4 & 2 & 5\end{aligned}.\end{aligned}
+\begin{aligned}det(𝑀) & =\begin{matrix}2 & 3 & −2 & 1 \\ 3 & 0 & 0 & 0 \\ −4 & 0 & 1 & 0 \\ 5 & −4 & 2 & 5\end{matrix} \\ & =3⋅(−1)^{2+1}\begin{matrix}3 & −2 & 1 \\ 0 & 1 & 0 \\ −4 & 2 & 5\end{matrix} \\ & =−3\begin{matrix}3 & −2 & 1 \\ 0 & 1 & 0 \\ −4 & 2 & 5\end{matrix}.\end{aligned}
 
 
 $$
@@ -160,7 +160,7 @@ Now, notice that the $2$nd row of the $3 \times 3$ determinant contains two zero
 $$
 
 
-\begin{aligned}det(𝑀) & =−3\begin{aligned}3 & −2 & 1 \\ 0 & 1 & 0 \\ −4 & 2 & 5\end{aligned} \\ & =−3⋅1⋅(−1)^{2+2}\begin{aligned}3 & 1 \\ −4 & 5\end{aligned} \\ & =−3\begin{aligned}3 & 1 \\ −4 & 5\end{aligned} \\ & =−3(15+4) \\ & =−57.\end{aligned}
+\begin{aligned}det(𝑀) & =−3\begin{matrix}3 & −2 & 1 \\ 0 & 1 & 0 \\ −4 & 2 & 5\end{matrix} \\ & =−3⋅1⋅(−1)^{2+2}\begin{matrix}3 & 1 \\ −4 & 5\end{matrix} \\ & =−3\begin{matrix}3 & 1 \\ −4 & 5\end{matrix} \\ & =−3(15+4) \\ & =−57.\end{aligned}
 
 
 $$
@@ -181,11 +181,11 @@ $$
 
 Given that $\det(A)=4,$ which of the following statements are true?
 
-1. $\textrm{det}(A^T)=16$
+1. $\text{det}(A^T)=16$
 
-2. $3\textrm{det}(A^T)=12$
+2. $3\text{det}(A^T)=12$
 
-3. $\textrm{det}(A^T)+\textrm{det}(I)=17$
+3. $\text{det}(A^T)+\text{det}(I)=17$
 
 #### Explanation
 
@@ -194,7 +194,7 @@ From the properties of determinants, we know that
 $$
 
 
-\textrm{det}(A^T)=\textrm{det}(A)=4
+\text{det}(A^T)=\text{det}(A)=4
 
 
 $$
@@ -204,7 +204,7 @@ and
 $$
 
 
-\textrm{det}(I)=1.
+\text{det}(I)=1.
 
 
 $$

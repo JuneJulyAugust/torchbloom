@@ -69,7 +69,7 @@ Consequently, $\triangle{OHP}$ is a right triangle, and we can use the Pythagore
 $$
 
 
-\begin{aligned}𝑂𝐻 & =\sqrt{√𝑂𝑃^{2}−𝐻𝑃^{2}} \\ & =\sqrt{√13^{2}−12^{2}} \\ & =\sqrt{√169−144} \\ & =\sqrt{√25} \\ & =5\end{aligned}
+\begin{aligned}𝑂𝐻 & =\sqrt{𝑂𝑃^{2}−𝐻𝑃^{2}} \\ & =\sqrt{13^{2}−12^{2}} \\ & =\sqrt{169−144} \\ & =\sqrt{25} \\ & =5\end{aligned}
 
 
 $$

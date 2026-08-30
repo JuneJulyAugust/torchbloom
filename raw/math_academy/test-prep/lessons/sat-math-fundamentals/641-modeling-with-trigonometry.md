@@ -42,7 +42,7 @@ Now that we're familiar with these ideas, let's put them into practice.
 
 #### Question
 
-An observer is standing $4\,\textrm{km}$ from a launchpad and observes a rocket ascending vertically from the launchpad. At a particular moment, the angle of elevation between the observer and the rocket is $32^\circ.$ What is the altitude of the rocket at that moment? Assume that the ground between the observer and the launch pad is horizontal.
+An observer is standing $4\,\text{km}$ from a launchpad and observes a rocket ascending vertically from the launchpad. At a particular moment, the angle of elevation between the observer and the rocket is $32^\circ.$ What is the altitude of the rocket at that moment? Assume that the ground between the observer and the launch pad is horizontal.
 
 #### Explanation
 
@@ -62,7 +62,7 @@ $$
 
 $$
 
-Therefore, the altitude of the rocket is $2.5\,\textrm{km},$ rounded to the nearest tenth.
+Therefore, the altitude of the rocket is $2.5\,\text{km},$ rounded to the nearest tenth.
 
 ### Example: Calculating the Length of the Hypotenuse of a Right Triangle
 
@@ -72,7 +72,7 @@ The angle of depression from the top of a vertical cliff to a ship below is $34^
 
 #### Explanation
 
-Let $T$ be the top of the cliff, $B$ be the base of the cliff, and $S$ be the ship's location. We are given that $BT = 91\,\textrm{m},$ and that the angle of depression is $34^\circ.$
+Let $T$ be the top of the cliff, $B$ be the base of the cliff, and $S$ be the ship's location. We are given that $BT = 91\,\text{m},$ and that the angle of depression is $34^\circ.$
 
 ![Instructional graphic](../../../lesson-assets/sat-math-fundamentals/topic-641/c3edcf7e473aedcd.png)
 
@@ -90,7 +90,7 @@ $$
 
 $$
 
-Therefore, the distance from the top of the cliff to the ship is approximately $163\,\textrm{m}.$
+Therefore, the distance from the top of the cliff to the ship is approximately $163\,\text{m}.$
 
 ### Example: Calculating the Measure of an Angle in a Right Triangle
 

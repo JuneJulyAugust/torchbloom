@@ -183,7 +183,7 @@ The residual equals the difference between the actual value of the dependent var
 $$
 
 
-\textrm{Residual} = \text{Actual} - \textrm{Estimated}
+\text{Residual} = \text{Actual} - \text{Estimated}
 
 
 $$

@@ -62,7 +62,7 @@ In this case, since $\mathbf{Q}$ is orthogonal, we have
 $$
 
 
-\begin{aligned}‖𝐐(𝐱)‖ & =‖𝐱‖ \\ & =\sqrt{√𝑥_{21}^{}+𝑥_{22}^{}+𝑥_{23}^{}} \\ & =\sqrt{√(−1)^{2}+(−2)^{2}+2^{2}} \\ & =3.\end{aligned}
+\begin{aligned}‖𝐐(𝐱)‖ & =‖𝐱‖ \\ & =\sqrt{𝑥_{21}+𝑥_{22}+𝑥_{23}} \\ & =\sqrt{(−1)^{2}+(−2)^{2}+2^{2}} \\ & =3.\end{aligned}
 
 
 $$
@@ -84,7 +84,7 @@ $$
 $$
 
 
-\begin{aligned}\frac{2\sqrt{√2}}{3} \\ \frac{1}{3}\end{aligned}
+\begin{aligned}\frac{2\sqrt{2}}{3} \\ \frac{1}{3}\end{aligned}
 
 
 $$

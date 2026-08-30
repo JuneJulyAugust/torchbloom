@@ -13,11 +13,11 @@ Topic ID: 1713
 
 ### Introduction
 
-Consider a container which initially holds $V_0\,\textrm{gal}$ of solution containing $a\,\textrm{lb}$ of a substance.
+Consider a container which initially holds $V_0\,\text{gal}$ of solution containing $a\,\text{lb}$ of a substance.
 
-- Another solution, containing $b\,\textrm{lb}$ of the substance per gallon, flows *into* the container at the rate $e\,\textrm{gal}/\textrm{min}.$
+- Another solution, containing $b\,\text{lb}$ of the substance per gallon, flows *into* the container at the rate $e\,\text{gal}/\text{min}.$
 
-- At the same time, the completely mixed solution flows *out* of the container at the rate $f\,\textrm{gal}/\text{min}.$
+- At the same time, the completely mixed solution flows *out* of the container at the rate $f\,\text{gal}/\text{min}.$
 
 ![Instructional graphic](../../../lesson-assets/differential-equations/topic-1713/6a419fe3cd8ccb2a.png)
 
@@ -35,9 +35,9 @@ $$
 
 where:
 
-- $Q'_\text{in}$ is the rate at which the substance *enters* the container. A solution containing $b\,\textrm{lb}/\textrm{gal}$ of the substance enters the container at a rate of $e\,\textrm{gal}/\textrm{min}.$ So, we have
+- $Q'_\text{in}$ is the rate at which the substance *enters* the container. A solution containing $b\,\text{lb}/\text{gal}$ of the substance enters the container at a rate of $e\,\text{gal}/\text{min}.$ So, we have
 
-- $Q'_\text{out}$ is the rate at which the substance *leaves* the container. To determine the rate of exit, we first find the volume of solution in the container at time $t.$ Starting from the initial volume $V_0,$ we add the volume that enters, $et,$ and subtract the volume that leaves, $ft.$ Thus, the volume of solution at time $t$ is Since $Q$ is the mass of substance in the container, the concentration of the solution at time $t$ is So, as the completely mixed solution leaves at a rate of $f\,\textrm{gal}/\textrm{min},$ the substance leaves the container at the rate of
+- $Q'_\text{out}$ is the rate at which the substance *leaves* the container. To determine the rate of exit, we first find the volume of solution in the container at time $t.$ Starting from the initial volume $V_0,$ we add the volume that enters, $et,$ and subtract the volume that leaves, $ft.$ Thus, the volume of solution at time $t$ is Since $Q$ is the mass of substance in the container, the concentration of the solution at time $t$ is So, as the completely mixed solution leaves at a rate of $f\,\text{gal}/\text{min},$ the substance leaves the container at the rate of
 
 Therefore,
 
@@ -53,7 +53,7 @@ Let's see this in a more concrete example.
 
 ### A Worked Example
 
-Suppose that a tank initially holds $450\,\textrm{L}$ of water containing $6\,\textrm{kg}$ of dissolved contaminant. A solution containing no contaminant is pumped into the tank at a rate of $8\,\textrm{L/min},$ while the completely mixed solution leaves the tank at a rate of $8\,\textrm{L/min}.$
+Suppose that a tank initially holds $450\,\text{L}$ of water containing $6\,\text{kg}$ of dissolved contaminant. A solution containing no contaminant is pumped into the tank at a rate of $8\,\text{L/min},$ while the completely mixed solution leaves the tank at a rate of $8\,\text{L/min}.$
 
 Let's find a differential equation that describes the amount of dissolved contaminant $Q,$ in kilograms, in the tank $t$ minutes after the solution begins to be added.
 
@@ -72,21 +72,21 @@ represents the rate at which this amount changes. This is equal to the rate at w
 $$
 
 
-\dfrac{\mathrm{d}Q}{\mathrm{d}t} = Q'_{\textrm{in}} - Q'_{\textrm{out}}
+\dfrac{\mathrm{d}Q}{\mathrm{d}t} = Q'_{\text{in}} - Q'_{\text{out}}
 
 
 $$
 
-Note that the units of $\dfrac{\mathrm{d}Q}{\mathrm{d}t}, Q'_{\textrm{in}}$ and $Q'_{\textrm{out}}$ are $\textrm{kg}/\textrm{min}.$ Now, let's compute the required rates of change in steps.
+Note that the units of $\dfrac{\mathrm{d}Q}{\mathrm{d}t}, Q'_{\text{in}}$ and $Q'_{\text{out}}$ are $\text{kg}/\text{min}.$ Now, let's compute the required rates of change in steps.
 
 **Step 1**: Calculating the rate at which dissolved contaminant enters the tank.
 
-First, note that a solution containing $0\,\textrm{kg/L}$ of dissolved contaminant enters the tank at a rate of $8\,\textrm{L/min}.$ So, the rate at which the *dissolved contaminant* enters the tank is
+First, note that a solution containing $0\,\text{kg/L}$ of dissolved contaminant enters the tank at a rate of $8\,\text{L/min}.$ So, the rate at which the *dissolved contaminant* enters the tank is
 
 $$
 
 
-\begin{aligned}𝑄_{′in}^{} & =(0\,\frac{kg}{L})⋅(8\,\frac{L}{min}) \\ & =(0\,\frac{kg}{L})⋅(8\,\frac{L}{min}) \\ & =0\,\frac{kg}{min}.\end{aligned}
+\begin{aligned}𝑄_{′in} & =(0\,\frac{kg}{L})⋅(8\,\frac{L}{min}) \\ & =(0\,\frac{kg}{L})⋅(8\,\frac{L}{min}) \\ & =0\,\frac{kg}{min}.\end{aligned}
 
 
 $$
@@ -95,18 +95,18 @@ $$
 
 Now, to find the rate at which dissolved contaminant leaves the tank, we must first determine the volume of solution in the tank at time $t.$
 
-- The tank initially contains $450\,\textrm{L}$ of solution.
+- The tank initially contains $450\,\text{L}$ of solution.
 
-- Solution enters the tank at a rate of $8\,\textrm{L/min}.$ So, after $t$ minutes, $8t\,\textrm{L}$ have entered the tank.
+- Solution enters the tank at a rate of $8\,\text{L/min}.$ So, after $t$ minutes, $8t\,\text{L}$ have entered the tank.
 
-- The completely mixed solution leaves the tank at a rate of $8\,\textrm{L/min}.$ So, after $t$ minutes, $8t\,\textrm{L}$ have left the tank.
+- The completely mixed solution leaves the tank at a rate of $8\,\text{L/min}.$ So, after $t$ minutes, $8t\,\text{L}$ have left the tank.
 
 As a result, the volume of solution in the tank after $t$ minutes is
 
 $$
 
 
-450 + 8t - 8t = 450\,\textrm{L}.
+450 + 8t - 8t = 450\,\text{L}.
 
 
 $$
@@ -116,17 +116,17 @@ Since $Q$ is the mass of dissolved contaminant in the tank, the *concentration* 
 $$
 
 
-\dfrac{Q}{450}\,\dfrac{\textrm{kg}}{\textrm{L}}.
+\dfrac{Q}{450}\,\dfrac{\text{kg}}{\text{L}}.
 
 
 $$
 
-Therefore, as the completely mixed solution leaves at a rate of $8\,\textrm{L/min},$ *dissolved contaminant* leaves at a rate of
+Therefore, as the completely mixed solution leaves at a rate of $8\,\text{L/min},$ *dissolved contaminant* leaves at a rate of
 
 $$
 
 
-\begin{aligned}𝑄_{′out}^{} & =(8\,\frac{L}{min})⋅(\frac{𝑄}{450}\,\frac{kg}{L}) \\ & =(8\,\frac{L}{min})⋅(\frac{𝑄}{450}\,\frac{kg}{L}) \\ & =\frac{8𝑄}{450}\,\frac{kg}{min} \\ & =\frac{4𝑄}{225}\,\frac{kg}{min}.\end{aligned}
+\begin{aligned}𝑄_{′out} & =(8\,\frac{L}{min})⋅(\frac{𝑄}{450}\,\frac{kg}{L}) \\ & =(8\,\frac{L}{min})⋅(\frac{𝑄}{450}\,\frac{kg}{L}) \\ & =\frac{8𝑄}{450}\,\frac{kg}{min} \\ & =\frac{4𝑄}{225}\,\frac{kg}{min}.\end{aligned}
 
 
 $$
@@ -138,7 +138,7 @@ Finally, the rate of change equals the rate of entry minus the rate of exit:
 $$
 
 
-\begin{aligned}\frac{d𝑄}{d𝑡} & =𝑄_{′in}^{}−𝑄_{′out}^{} \\ & =0−\frac{4𝑄}{225}\end{aligned}
+\begin{aligned}\frac{d𝑄}{d𝑡} & =𝑄_{′in}−𝑄_{′out} \\ & =0−\frac{4𝑄}{225}\end{aligned}
 
 
 $$
@@ -157,7 +157,7 @@ $$
 
 #### Question
 
-A vat initially holds $360\,\textrm{L}$ of a sugar solution containing $18\,\textrm{kg}$ of sugar. A sugar solution containing $0.30\,\textrm{kg}$ of sugar per liter is poured into the vat at a rate of $18\,\textrm{L/min},$ while the completely mixed solution leaves the vat at a rate of $30\,\textrm{L/min}.$ What differential equation describes the amount of sugar $Q,$ in kilograms, in the vat $t$ minutes after the inflow begins?
+A vat initially holds $360\,\text{L}$ of a sugar solution containing $18\,\text{kg}$ of sugar. A sugar solution containing $0.30\,\text{kg}$ of sugar per liter is poured into the vat at a rate of $18\,\text{L/min},$ while the completely mixed solution leaves the vat at a rate of $30\,\text{L/min}.$ What differential equation describes the amount of sugar $Q,$ in kilograms, in the vat $t$ minutes after the inflow begins?
 
 #### Explanation
 
@@ -176,21 +176,21 @@ describes how this amount changes with respect to time $t,$ in minutes. This is 
 $$
 
 
-\dfrac{\mathrm{d}Q}{\mathrm{d}t} = Q'_{\textrm{in}} - Q'_{\textrm{out}}
+\dfrac{\mathrm{d}Q}{\mathrm{d}t} = Q'_{\text{in}} - Q'_{\text{out}}
 
 
 $$
 
-Note that the units of $\dfrac{\mathrm{d}Q}{\mathrm{d}t}, Q'_{\textrm{in}}$ and $Q'_{\textrm{out}}$ are $\textrm{kg}/\textrm{min}.$ Now, let's compute the required rates of change in steps.
+Note that the units of $\dfrac{\mathrm{d}Q}{\mathrm{d}t}, Q'_{\text{in}}$ and $Q'_{\text{out}}$ are $\text{kg}/\text{min}.$ Now, let's compute the required rates of change in steps.
 
 ****: Calculating the rate at which sugar enters the vat.
 
-First, note that a sugar solution containing $0.30\,\textrm{kg/L}$ of sugar enters the vat at a rate of $18\,\textrm{L/min}.$ So, the rate at which the ** enters the vat is
+First, note that a sugar solution containing $0.30\,\text{kg/L}$ of sugar enters the vat at a rate of $18\,\text{L/min}.$ So, the rate at which the ** enters the vat is
 
 $$
 
 
-\begin{aligned}𝑄_{′in}^{} & =(0.30\,\frac{kg}{L})⋅(18\,\frac{L}{min}) \\ & =(0.30\,\frac{kg}{L})⋅(18\,\frac{L}{min}) \\ & =5.4\,\frac{kg}{min}.\end{aligned}
+\begin{aligned}𝑄_{′in} & =(0.30\,\frac{kg}{L})⋅(18\,\frac{L}{min}) \\ & =(0.30\,\frac{kg}{L})⋅(18\,\frac{L}{min}) \\ & =5.4\,\frac{kg}{min}.\end{aligned}
 
 
 $$
@@ -199,18 +199,18 @@ $$
 
 Now, to find the rate at which sugar leaves the vat, we must first determine the volume of solution in the vat at time $t.$
 
-- The vat initially contains $360\,\textrm{L}$ of solution.
+- The vat initially contains $360\,\text{L}$ of solution.
 
-- Sugar solution enters the vat at a rate of $18\,\textrm{L/min}.$ So, after $t$ minutes, $18t\,\textrm{L}$ have entered the vat.
+- Sugar solution enters the vat at a rate of $18\,\text{L/min}.$ So, after $t$ minutes, $18t\,\text{L}$ have entered the vat.
 
-- The completely mixed solution leaves the vat at a rate of $30\,\textrm{L/min}.$ So, after $t$ minutes, $30t\,\textrm{L}$ have left the vat.
+- The completely mixed solution leaves the vat at a rate of $30\,\text{L/min}.$ So, after $t$ minutes, $30t\,\text{L}$ have left the vat.
 
 As a result, the volume of solution in the vat after $t$ minutes is
 
 $$
 
 
-360 + 18t - 30t = (360-12t)\,\textrm{L}.
+360 + 18t - 30t = (360-12t)\,\text{L}.
 
 
 $$
@@ -220,17 +220,17 @@ Since $Q$ is the mass of sugar in the vat, the ** of the solution at time $t$ is
 $$
 
 
-\dfrac{Q}{360 - 12t}\,\dfrac{\textrm{kg}}{\textrm{L}}.
+\dfrac{Q}{360 - 12t}\,\dfrac{\text{kg}}{\text{L}}.
 
 
 $$
 
-Therefore, as the completely mixed solution leaves at a rate of $30\,\textrm{L/min},$ ** leaves at a rate of
+Therefore, as the completely mixed solution leaves at a rate of $30\,\text{L/min},$ ** leaves at a rate of
 
 $$
 
 
-\begin{aligned}𝑄_{′out}^{} & =(30\,\frac{L}{min})⋅(\frac{𝑄}{360−12𝑡}\,\frac{kg}{L}) \\ & =(30\,\frac{L}{min})⋅(\frac{𝑄}{360−12𝑡}\,\frac{kg}{L}) \\ & =\frac{30𝑄}{360−12𝑡}\,\frac{kg}{min} \\ & =\frac{5𝑄}{60−2𝑡}\,\frac{kg}{min}.\end{aligned}
+\begin{aligned}𝑄_{′out} & =(30\,\frac{L}{min})⋅(\frac{𝑄}{360−12𝑡}\,\frac{kg}{L}) \\ & =(30\,\frac{L}{min})⋅(\frac{𝑄}{360−12𝑡}\,\frac{kg}{L}) \\ & =\frac{30𝑄}{360−12𝑡}\,\frac{kg}{min} \\ & =\frac{5𝑄}{60−2𝑡}\,\frac{kg}{min}.\end{aligned}
 
 
 $$
@@ -242,7 +242,7 @@ Finally, the rate of change equals the rate of entry minus the rate of exit:
 $$
 
 
-\begin{aligned}\frac{d𝑄}{d𝑡} & =𝑄_{′in}^{}−𝑄_{′out}^{} \\ & =5.4−\frac{5𝑄}{60−2𝑡}\end{aligned}
+\begin{aligned}\frac{d𝑄}{d𝑡} & =𝑄_{′in}−𝑄_{′out} \\ & =5.4−\frac{5𝑄}{60−2𝑡}\end{aligned}
 
 
 $$
@@ -259,11 +259,11 @@ $$
 
 ### Solving a Dilution Model Where the Input Has a Concentration of Zero
 
-So far, we have seen that if a container initially holds $V_0\,\textrm{gal}$ of solution containing $a\,\textrm{lb}$ of a substance, and
+So far, we have seen that if a container initially holds $V_0\,\text{gal}$ of solution containing $a\,\text{lb}$ of a substance, and
 
-- a solution with concentration $b\,\textrm{lb}/\textrm{gal}$ flows into the container at the rate $e\,\textrm{gal}/\textrm{min},$ while
+- a solution with concentration $b\,\text{lb}/\text{gal}$ flows into the container at the rate $e\,\text{gal}/\text{min},$ while
 
-- the completely mixed solution flows out at the rate $f\,\textrm{gal}/\text{min},$
+- the completely mixed solution flows out at the rate $f\,\text{gal}/\text{min},$
 
 then the amount $Q(t)$ of the substance in the container satisfies the differential equation
 
@@ -287,7 +287,7 @@ $$
 
 Notice that the right-hand side is negative, meaning the amount of substance in the container decreases over time. We can now solve the differential equation directly by separation of variables.
 
-To demonstrate, consider our previous example: a tank initially holds $450\,\textrm{L}$ of water containing $6\,\textrm{kg}$ of dissolved contaminant, and a solution containing no contaminant is pumped into the tank at a rate of $8\,\textrm{L/min},$ while the completely mixed solution leaves the tank at a rate of $8\,\textrm{L/min}.$
+To demonstrate, consider our previous example: a tank initially holds $450\,\text{L}$ of water containing $6\,\text{kg}$ of dissolved contaminant, and a solution containing no contaminant is pumped into the tank at a rate of $8\,\text{L/min},$ while the completely mixed solution leaves the tank at a rate of $8\,\text{L/min}.$
 
 We found that the amount of dissolved contaminant $Q(t),$ in kilograms, in the tank after $t$ minutes is modeled by the differential equation
 
@@ -311,7 +311,7 @@ $$
 
 Note that $A = \pm e^C$ is a constant of integration.
 
-Finally, since the tank initially contains $6\,\textrm{kg}$ of dissolved contaminant, we can apply the initial condition $Q(0)=6,$ and solve for $A{:}$
+Finally, since the tank initially contains $6\,\text{kg}$ of dissolved contaminant, we can apply the initial condition $Q(0)=6,$ and solve for $A{:}$
 
 $$
 
@@ -335,7 +335,7 @@ $$
 
 #### Question
 
-A reactor initially holds $300\,\textrm{gal}$ of a chemical solution containing $18\,\textrm{lb}$ of dissolved reactant. Pure solvent is pumped into the reactor at a rate of $14\,\textrm{gal/min},$ while the completely mixed chemical solution leaves the reactor at a rate of $14\,\textrm{gal/min}.$ Find, rounded to two decimal places, the amount of reactant in the reactor $25$ minutes after the solvent pumping begins.
+A reactor initially holds $300\,\text{gal}$ of a chemical solution containing $18\,\text{lb}$ of dissolved reactant. Pure solvent is pumped into the reactor at a rate of $14\,\text{gal/min},$ while the completely mixed chemical solution leaves the reactor at a rate of $14\,\text{gal/min}.$ Find, rounded to two decimal places, the amount of reactant in the reactor $25$ minutes after the solvent pumping begins.
 
 #### Explanation
 
@@ -354,21 +354,21 @@ describes how this amount changes with respect to time $t,$ in minutes. This is 
 $$
 
 
-\dfrac{\mathrm{d}Q}{\mathrm{d}t} = Q'_{\textrm{in}} - Q'_{\textrm{out}}
+\dfrac{\mathrm{d}Q}{\mathrm{d}t} = Q'_{\text{in}} - Q'_{\text{out}}
 
 
 $$
 
-Note that the units of $\dfrac{\mathrm{d}Q}{\mathrm{d}t}, Q'_{\textrm{in}}$ and $Q'_{\textrm{out}}$ are $\textrm{lb}/\textrm{min}.$ Now, let's compute the required rates of change in steps.
+Note that the units of $\dfrac{\mathrm{d}Q}{\mathrm{d}t}, Q'_{\text{in}}$ and $Q'_{\text{out}}$ are $\text{lb}/\text{min}.$ Now, let's compute the required rates of change in steps.
 
 ****: Calculating the rate at which reactant enters the reactor.
 
-Note that pure solvent (i.e., a solution containing $0\,\textrm{lb/gal}$ of reactant) enters the reactor at a rate of $14\,\textrm{gal/min}.$ So, the rate at which the ** enters the reactor is
+Note that pure solvent (i.e., a solution containing $0\,\text{lb/gal}$ of reactant) enters the reactor at a rate of $14\,\text{gal/min}.$ So, the rate at which the ** enters the reactor is
 
 $$
 
 
-\begin{aligned}𝑄_{′in}^{} & =(0\,\frac{lb}{gal})⋅(14\,\frac{gal}{min}) \\ & =(0\,\frac{lb}{gal})⋅(14\,\frac{gal}{min}) \\ & =0\,\frac{lb}{min}.\end{aligned}
+\begin{aligned}𝑄_{′in} & =(0\,\frac{lb}{gal})⋅(14\,\frac{gal}{min}) \\ & =(0\,\frac{lb}{gal})⋅(14\,\frac{gal}{min}) \\ & =0\,\frac{lb}{min}.\end{aligned}
 
 
 $$
@@ -377,12 +377,12 @@ $$
 
 To find the rate at which reactant leaves the reactor, we first determine the volume of solution in the reactor at time $t.$
 
-The reactor initially contains $300\,\textrm{gal}$ of chemical solution; solvent enters at $14\,\textrm{gal/min}$ and drains out at $14\,\textrm{gal/min}.$ As a result, the amount of chemical solution in the reactor after $t$ minutes is
+The reactor initially contains $300\,\text{gal}$ of chemical solution; solvent enters at $14\,\text{gal/min}$ and drains out at $14\,\text{gal/min}.$ As a result, the amount of chemical solution in the reactor after $t$ minutes is
 
 $$
 
 
-300 + 14t - 14t = 300\,\textrm{gal}.
+300 + 14t - 14t = 300\,\text{gal}.
 
 
 $$
@@ -392,17 +392,17 @@ Since $Q$ is the amount of reactant in the reactor, the ** of the solution at ti
 $$
 
 
-\dfrac{Q}{300}\,\dfrac{\textrm{lb}}{\textrm{gal}}.
+\dfrac{Q}{300}\,\dfrac{\text{lb}}{\text{gal}}.
 
 
 $$
 
-Therefore, as the completely mixed chemical solution leaves at a rate of $14\,\textrm{gal/min},$ ** leaves at a rate of
+Therefore, as the completely mixed chemical solution leaves at a rate of $14\,\text{gal/min},$ ** leaves at a rate of
 
 $$
 
 
-\begin{aligned}𝑄_{′out}^{} & =(14\,\frac{gal}{min})⋅(\frac{𝑄}{300}\,\frac{lb}{gal}) \\ & =(14\,\frac{gal}{min})⋅(\frac{𝑄}{300}\,\frac{lb}{gal}) \\ & =\frac{14𝑄}{300}\,\frac{lb}{min} \\ & =\frac{7𝑄}{150}\,\frac{lb}{min}.\end{aligned}
+\begin{aligned}𝑄_{′out} & =(14\,\frac{gal}{min})⋅(\frac{𝑄}{300}\,\frac{lb}{gal}) \\ & =(14\,\frac{gal}{min})⋅(\frac{𝑄}{300}\,\frac{lb}{gal}) \\ & =\frac{14𝑄}{300}\,\frac{lb}{min} \\ & =\frac{7𝑄}{150}\,\frac{lb}{min}.\end{aligned}
 
 
 $$
@@ -414,7 +414,7 @@ The rate of change equals the rate of entry minus the rate of exit. Therefore,
 $$
 
 
-\begin{aligned}\frac{d𝑄}{d𝑡} & =𝑄_{′in}^{}−𝑄_{′out}^{} \\ & =0−\frac{7𝑄}{150}\end{aligned}
+\begin{aligned}\frac{d𝑄}{d𝑡} & =𝑄_{′in}−𝑄_{′out} \\ & =0−\frac{7𝑄}{150}\end{aligned}
 
 
 $$
@@ -443,7 +443,7 @@ $$
 
 where $A = \pm e^C$ is a constant of integration.
 
-We're told that the reactor initially contains $18\,\textrm{lb}$ of reactant. So, we can apply the initial condition $Q(0) = 18,$ and solve for $A{:}$
+We're told that the reactor initially contains $18\,\text{lb}$ of reactant. So, we can apply the initial condition $Q(0) = 18,$ and solve for $A{:}$
 
 $$
 
@@ -468,7 +468,7 @@ Finally, the amount of reactant in the reactor $25$ minutes after the solvent is
 $$
 
 
-Q(25) = 18e^{-175/150} \approx 5.61\,\textrm{lb},
+Q(25) = 18e^{-175/150} \approx 5.61\,\text{lb},
 
 
 $$
@@ -501,7 +501,7 @@ Now, let's apply one of these formulas in a concrete example.
 
 #### Question
 
-A $12\,000\,\textrm{mL}$-capacity tank initially holds $8\,000\,\textrm{mL}$ of water containing $320\,\textrm{g}$ of dissolved contaminant. Clean water begins to flow into the tank at a rate of $100\,\textrm{mL/s},$ while the completely mixed water flows out at a rate of $60\,\textrm{mL/s}.$ Find, rounded to two decimal places, the amount of contaminant in the tank at the moment it begins to overflow.
+A $12\,000\,\text{mL}$-capacity tank initially holds $8\,000\,\text{mL}$ of water containing $320\,\text{g}$ of dissolved contaminant. Clean water begins to flow into the tank at a rate of $100\,\text{mL/s},$ while the completely mixed water flows out at a rate of $60\,\text{mL/s}.$ Find, rounded to two decimal places, the amount of contaminant in the tank at the moment it begins to overflow.
 
 #### Explanation
 
@@ -520,21 +520,21 @@ describes how this amount changes with respect to time $t,$ in seconds. This is 
 $$
 
 
-\dfrac{\mathrm{d}Q}{\mathrm{d}t} = Q'_{\textrm{in}} - Q'_{\textrm{out}}
+\dfrac{\mathrm{d}Q}{\mathrm{d}t} = Q'_{\text{in}} - Q'_{\text{out}}
 
 
 $$
 
-Note that the units of $\dfrac{\mathrm{d}Q}{\mathrm{d}t}, Q'_{\textrm{in}}$ and $Q'_{\textrm{out}}$ are $\textrm{g}/\textrm{s}.$ Now, let's compute the required rates of change in steps.
+Note that the units of $\dfrac{\mathrm{d}Q}{\mathrm{d}t}, Q'_{\text{in}}$ and $Q'_{\text{out}}$ are $\text{g}/\text{s}.$ Now, let's compute the required rates of change in steps.
 
 ****: Calculating the rate at which contaminant enters the tank.
 
-First, note that clean water (i.e., water containing $0\,\textrm{g/mL}$ of contaminant) enters the tank at a rate of $100\,\textrm{mL/s}.$ So, the rate at which the ** enters the tank is
+First, note that clean water (i.e., water containing $0\,\text{g/mL}$ of contaminant) enters the tank at a rate of $100\,\text{mL/s}.$ So, the rate at which the ** enters the tank is
 
 $$
 
 
-\begin{aligned}𝑄_{′in}^{} & =(0\,\frac{g}{mL})⋅(100\,\frac{mL}{s}) \\ & =(0\,\frac{g}{mL})⋅(100\,\frac{mL}{s}) \\ & =0\,\frac{g}{s}.\end{aligned}
+\begin{aligned}𝑄_{′in} & =(0\,\frac{g}{mL})⋅(100\,\frac{mL}{s}) \\ & =(0\,\frac{g}{mL})⋅(100\,\frac{mL}{s}) \\ & =0\,\frac{g}{s}.\end{aligned}
 
 
 $$
@@ -543,12 +543,12 @@ $$
 
 To find the rate at which contaminant leaves the tank, we must first determine the volume of water in the tank at time $t.$
 
-The tank initially contains $8\,000\,\textrm{mL}$ of water; clean water enters at $100\,\textrm{mL/s},$ and mixed water leaves at $60\,\textrm{mL/s}.$ As a result, the amount of water in the tank after $t$ seconds is
+The tank initially contains $8\,000\,\text{mL}$ of water; clean water enters at $100\,\text{mL/s},$ and mixed water leaves at $60\,\text{mL/s}.$ As a result, the amount of water in the tank after $t$ seconds is
 
 $$
 
 
-V(t) = 8\,000 + 100t - 60t = 40(200+t)\,\textrm{mL}.
+V(t) = 8\,000 + 100t - 60t = 40(200+t)\,\text{mL}.
 
 
 $$
@@ -560,17 +560,17 @@ Since $Q$ is the amount of contaminant in the tank, the concentration of the wat
 $$
 
 
-\dfrac{Q}{40(200 + t)}\,\dfrac{\textrm{g}}{\textrm{mL}}.
+\dfrac{Q}{40(200 + t)}\,\dfrac{\text{g}}{\text{mL}}.
 
 
 $$
 
-Therefore, as the completely mixed water leaves at a rate of $60\,\textrm{mL/s},$ ** leaves at a rate of
+Therefore, as the completely mixed water leaves at a rate of $60\,\text{mL/s},$ ** leaves at a rate of
 
 $$
 
 
-\begin{aligned}𝑄_{′out}^{} & =(60\,\frac{mL}{s})⋅(\frac{𝑄}{40(200+𝑡)}\,\frac{g}{mL}) \\ & =(60\,\frac{mL}{s})⋅(\frac{𝑄}{40(200+𝑡)}\,\frac{g}{mL}) \\ & =\frac{3𝑄}{2(200+𝑡)}\,\frac{g}{s}.\end{aligned}
+\begin{aligned}𝑄_{′out} & =(60\,\frac{mL}{s})⋅(\frac{𝑄}{40(200+𝑡)}\,\frac{g}{mL}) \\ & =(60\,\frac{mL}{s})⋅(\frac{𝑄}{40(200+𝑡)}\,\frac{g}{mL}) \\ & =\frac{3𝑄}{2(200+𝑡)}\,\frac{g}{s}.\end{aligned}
 
 
 $$
@@ -582,7 +582,7 @@ The rate of change equals the rate of entry minus the rate of exit. Therefore,
 $$
 
 
-\begin{aligned}\frac{d𝑄}{d𝑡} & =𝑄_{′in}^{}−𝑄_{′out}^{} \\ & =0−\frac{3𝑄}{2(200+𝑡)}\end{aligned}
+\begin{aligned}\frac{d𝑄}{d𝑡} & =𝑄_{′in}−𝑄_{′out} \\ & =0−\frac{3𝑄}{2(200+𝑡)}\end{aligned}
 
 
 $$
@@ -611,7 +611,7 @@ $$
 
 where $A = \pm e^C$ is a constant of integration.
 
-We're told that the tank initially contains $320\,\textrm{g}$ of contaminant. So, we can apply the initial condition $Q(0) = 320,$ and solve for $A{:}$
+We're told that the tank initially contains $320\,\text{g}$ of contaminant. So, we can apply the initial condition $Q(0) = 320,$ and solve for $A{:}$
 
 $$
 
@@ -631,7 +631,7 @@ $$
 
 $$
 
-Now, let $t_o$ be the time when the tank begins to overflow. The tank has a capacity of $12\,000\,\textrm{mL},$ so we can use the condition $V(t_o) = 12\,000$ to solve for $t_o{:}$
+Now, let $t_o$ be the time when the tank begins to overflow. The tank has a capacity of $12\,000\,\text{mL},$ so we can use the condition $V(t_o) = 12\,000$ to solve for $t_o{:}$
 
 $$
 

@@ -29,7 +29,7 @@ However, $472$ also represents $472$ ones, because
 
 $$
 
-472 = \underbrace{1 + 1 + 1 + \cdots + 1}_{472\,\textrm{times}}.
+472 = \underbrace{1 + 1 + 1 + \cdots + 1}_{472\,\text{times}}.
 
 $$
 
@@ -81,7 +81,7 @@ Let's now think about the different place value representations of
 
 $$
 
-{\color{blue}{1}}{\color{magenta}{0}} \, \textrm{tens.}
+{\color{blue}{1}}{\color{magenta}{0}} \, \text{tens.}
 
 $$
 
@@ -129,7 +129,7 @@ Since $16 = 10+6,$ we can write $16$ thousands as
 
 $$
 
-10\,\textrm{thousands} + 6\,\textrm{thousands}.
+10\,\text{thousands} + 6\,\text{thousands}.
 
 $$
 
@@ -137,7 +137,7 @@ Now, since $10$ thousands is the same as $1$ ten-thousand, the statement above i
 
 $$
 
-1\,\textrm{ten-thousands} + 6\,\textrm{thousands}.
+1\,\text{ten-thousands} + 6\,\text{thousands}.
 
 $$
 

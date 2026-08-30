@@ -30,7 +30,7 @@ If a random variable $X$ follows a Poisson distribution, we write
 $$
 
 
-X \sim \textrm{Po}(\lambda).
+X \sim \text{Po}(\lambda).
 
 
 $$
@@ -42,7 +42,7 @@ For example, suppose that an average of $\lambda={\color{blue}2}$ buses stop at 
 $$
 
 
-X \sim \textrm{Po}({\color{blue}2}).
+X \sim \text{Po}({\color{blue}2}).
 
 
 $$
@@ -65,11 +65,11 @@ We will learn more about modeling situations using Poisson random variables shor
 
 #### Question
 
-Given $X \sim \textrm{Po}(4),$ compute $P(X = 2),$ rounded to $4$ decimal places.
+Given $X \sim \text{Po}(4),$ compute $P(X = 2),$ rounded to $4$ decimal places.
 
 #### Explanation
 
-If $X \sim \textrm{Po}(\lambda),$ then $X$ has the following probability mass function:
+If $X \sim \text{Po}(\lambda),$ then $X$ has the following probability mass function:
 
 $$
 
@@ -79,7 +79,7 @@ f(x) = \dfrac{\lambda^x e^{-\lambda}}{x!}
 
 $$
 
-Here, $X \sim \textrm{Po}(4),$ so the distribution of $X$ in this case is
+Here, $X \sim \text{Po}(4),$ so the distribution of $X$ in this case is
 
 $$
 
@@ -103,11 +103,11 @@ $$
 
 #### Question
 
-Given $X \sim \textrm{Po}(5),$ compute $P(X < 3),$ rounded to $4$ decimal places.
+Given $X \sim \text{Po}(5),$ compute $P(X < 3),$ rounded to $4$ decimal places.
 
 #### Explanation
 
-If $X \sim \textrm{Po}(\lambda),$ then $X$ has the following probability mass function:
+If $X \sim \text{Po}(\lambda),$ then $X$ has the following probability mass function:
 
 $$
 
@@ -117,7 +117,7 @@ f(x) = \dfrac{\lambda^x e^{-\lambda}}{x!}
 
 $$
 
-Here, $X \sim \textrm{Po}(5),$ so the probability distribution of $X$ in this case is
+Here, $X \sim \text{Po}(5),$ so the probability distribution of $X$ in this case is
 
 $$
 
@@ -141,11 +141,11 @@ $$
 
 #### Question
 
-Given $X \sim \textrm{Po}(3),$ compute $P(2 < X < 5),$ rounded to $4$ decimal places.
+Given $X \sim \text{Po}(3),$ compute $P(2 < X < 5),$ rounded to $4$ decimal places.
 
 #### Explanation
 
-If $X \sim \textrm{Po}(\lambda),$ then $X$ has the following probability mass function:
+If $X \sim \text{Po}(\lambda),$ then $X$ has the following probability mass function:
 
 $$
 
@@ -155,7 +155,7 @@ f(x) = \dfrac{\lambda^x e^{-\lambda}}{x!}
 
 $$
 
-Here, $X \sim \textrm{Po}(3),$ so the probability distribution of $X$ in this case is
+Here, $X \sim \text{Po}(3),$ so the probability distribution of $X$ in this case is
 
 $$
 
@@ -179,11 +179,11 @@ $$
 
 #### Question
 
-Given $X \sim \textrm{Po}(3),$ compute $P(X > 2),$ rounded to $4$ decimal places.
+Given $X \sim \text{Po}(3),$ compute $P(X > 2),$ rounded to $4$ decimal places.
 
 #### Explanation
 
-If $X \sim \textrm{Po}(\lambda),$ then $X$ has the following probability mass function:
+If $X \sim \text{Po}(\lambda),$ then $X$ has the following probability mass function:
 
 $$
 
@@ -193,7 +193,7 @@ f(x) = \dfrac{\lambda^x e^{-\lambda}}{x!}
 
 $$
 
-Here, $X \sim \textrm{Po}(3),$ so the probability distribution of $X$ in this case is
+Here, $X \sim \text{Po}(3),$ so the probability distribution of $X$ in this case is
 
 $$
 

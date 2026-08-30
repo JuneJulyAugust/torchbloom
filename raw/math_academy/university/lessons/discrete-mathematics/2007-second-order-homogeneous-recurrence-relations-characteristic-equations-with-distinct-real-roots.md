@@ -472,7 +472,7 @@ $$
 
 
 
-\begin{aligned}𝜆 & =\frac{1±\sqrt{√(−1)^{2}−4⋅1⋅(−1)}}{2(1)} \\ & =\frac{1±\sqrt{√5}}{2}.\end{aligned}
+\begin{aligned}𝜆 & =\frac{1±\sqrt{(−1)^{2}−4⋅1⋅(−1)}}{2(1)} \\ & =\frac{1±\sqrt{5}}{2}.\end{aligned}
 
 
 

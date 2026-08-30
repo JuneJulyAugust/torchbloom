@@ -40,7 +40,7 @@ The general solution is given by $y(x) = c_1 y_1(x) + c_2 y_2(x).$ Substituting 
 $$
 
 
-[\begin{aligned}\,𝛼_{1}𝑦_{1}(𝑎)+𝛽_{1}𝑦_{′1}^{}(𝑎) & 𝛼_{1}𝑦_{2}(𝑎)+𝛽_{1}𝑦_{′2}^{}(𝑎) \\ 𝛼_{2}𝑦_{1}(𝑏)+𝛽_{2}𝑦_{′1}^{}(𝑏) & 𝛼_{2}𝑦_{2}(𝑏)+𝛽_{2}𝑦_{′2}^{}(𝑏)\end{aligned}]
+[\begin{aligned}\,𝛼_{1}𝑦_{1}(𝑎)+𝛽_{1}𝑦_{′1}(𝑎) & 𝛼_{1}𝑦_{2}(𝑎)+𝛽_{1}𝑦_{′2}(𝑎) \\ 𝛼_{2}𝑦_{1}(𝑏)+𝛽_{2}𝑦_{′1}(𝑏) & 𝛼_{2}𝑦_{2}(𝑏)+𝛽_{2}𝑦_{′2}(𝑏)\end{aligned}]
 
 
 $$
@@ -82,7 +82,7 @@ So, we have $m = \pm 3i,$ and thus the fundamental solutions are
 $$
 
 
-y_1(x) = \cos 3x \qquad\textrm{and}\qquad y_2(x) = \sin 3x.
+y_1(x) = \cos 3x \qquad\text{and}\qquad y_2(x) = \sin 3x.
 
 
 $$
@@ -104,7 +104,7 @@ We define the matrix $A$ using these coefficients and our fundamental solutions:
 $$
 
 
-\begin{aligned}𝐴 & =\begin{aligned}1⋅𝑦_{1}(0)+0⋅𝑦_{′1}^{}(0) & 1⋅𝑦_{2}(0)+0⋅𝑦_{′2}^{}(0) \\ 1⋅𝑦_{1}(\frac{𝜋}{6})+0⋅𝑦_{′1}^{}(\frac{𝜋}{6}) & 1⋅𝑦_{2}(\frac{𝜋}{6})+0⋅𝑦_{′2}^{}(\frac{𝜋}{6})\end{aligned} \\ & =\begin{aligned}cos⁡(0) & sin⁡(0) \\ cos\,(\frac{𝜋}{2}) & sin\,(\frac{𝜋}{2})\end{aligned} \\ & =[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}].\end{aligned}
+\begin{aligned}𝐴 & =\begin{matrix}1⋅𝑦_{1}(0)+0⋅𝑦_{′1}(0) & 1⋅𝑦_{2}(0)+0⋅𝑦_{′2}(0) \\ 1⋅𝑦_{1}(\frac{𝜋}{6})+0⋅𝑦_{′1}(\frac{𝜋}{6}) & 1⋅𝑦_{2}(\frac{𝜋}{6})+0⋅𝑦_{′2}(\frac{𝜋}{6})\end{matrix} \\ & =\begin{matrix}cos⁡(0) & sin⁡(0) \\ cos\,(\frac{𝜋}{2}) & sin\,(\frac{𝜋}{2})\end{matrix} \\ & =[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}].\end{aligned}
 
 
 $$
@@ -140,7 +140,7 @@ Let $y_1(x)$ and $y_2(x)$ be the fundamental solutions, and suppose we define th
 $$
 
 
-[\begin{aligned}𝑦_{′1}^{}(1) & 𝑦_{′2}^{}(1) \\ 𝑦_{′1}^{}(3) & 𝑦_{′2}^{}(3)\end{aligned}]
+[\begin{aligned}𝑦_{′1}(1) & 𝑦_{′2}(1) \\ 𝑦_{′1}(3) & 𝑦_{′2}(3)\end{aligned}]
 
 
 $$
@@ -176,7 +176,7 @@ Now, let's define the following matrix:
 $$
 
 
-[\begin{aligned}𝛼_{1}𝑦_{1}(𝑎)+𝛽_{1}𝑦_{′1}^{}(𝑎) & 𝛼_{1}𝑦_{2}(𝑎)+𝛽_{1}𝑦_{′2}^{}(𝑎) \\ 𝛼_{2}𝑦_{1}(𝑏)+𝛽_{2}𝑦_{′1}^{}(𝑏) & 𝛼_{2}𝑦_{2}(𝑏)+𝛽_{2}𝑦_{′2}^{}(𝑏)\end{aligned}]
+[\begin{aligned}𝛼_{1}𝑦_{1}(𝑎)+𝛽_{1}𝑦_{′1}(𝑎) & 𝛼_{1}𝑦_{2}(𝑎)+𝛽_{1}𝑦_{′2}(𝑎) \\ 𝛼_{2}𝑦_{1}(𝑏)+𝛽_{2}𝑦_{′1}(𝑏) & 𝛼_{2}𝑦_{2}(𝑏)+𝛽_{2}𝑦_{′2}(𝑏)\end{aligned}]
 
 
 $$
@@ -188,7 +188,7 @@ Notice that, in our case, we have Neumann boundary conditions. So, setting $\alp
 $$
 
 
-[\begin{aligned}𝑦_{′1}^{}(1) & 𝑦_{′2}^{}(1) \\ 𝑦_{′1}^{}(3) & 𝑦_{′2}^{}(3)\end{aligned}]
+[\begin{aligned}𝑦_{′1}(1) & 𝑦_{′2}(1) \\ 𝑦_{′1}(3) & 𝑦_{′2}(3)\end{aligned}]
 
 
 $$
@@ -208,7 +208,7 @@ So, we have $m=3$ and $m=-1,$ and so the fundamental solutions are
 $$
 
 
-y_{1}(x)=e^{3x}\;\textrm{and}\;y_{2}(x)=e^{-x}.
+y_{1}(x)=e^{3x}\;\text{and}\;y_{2}(x)=e^{-x}.
 
 
 $$
@@ -228,7 +228,7 @@ Therefore, the matrix $A$ is
 $$
 
 
-\begin{aligned}𝐴 & =[\begin{aligned}3𝑒^{3(1)} & −𝑒^{−1} \\ 3𝑒^{3(3)} & −𝑒^{−3}\end{aligned}] \\ & =[\begin{aligned}3𝑒^{3} & −𝑒^{−1} \\ 3𝑒^{9} & −𝑒^{−3}\end{aligned}],\end{aligned}
+\begin{aligned}𝐴 & =[\begin{matrix}3𝑒^{3(1)} & −𝑒^{−1} \\ 3𝑒^{3(3)} & −𝑒^{−3}\end{matrix}] \\ & =[\begin{matrix}3𝑒^{3} & −𝑒^{−1} \\ 3𝑒^{9} & −𝑒^{−3}\end{matrix}],\end{aligned}
 
 
 $$
@@ -432,7 +432,7 @@ If we define the matrix
 $$
 
 
-[\begin{aligned}\,𝛼_{1}𝑦_{1}(𝑎)+𝛽_{1}𝑦_{′1}^{}(𝑎) & 𝛼_{1}𝑦_{2}(𝑎)+𝛽_{1}𝑦_{′2}^{}(𝑎) \\ 𝛼_{2}𝑦_{1}(𝑏)+𝛽_{2}𝑦_{′1}^{}(𝑏) & 𝛼_{2}𝑦_{2}(𝑏)+𝛽_{2}𝑦_{′2}^{}(𝑏)\end{aligned}]
+[\begin{aligned}\,𝛼_{1}𝑦_{1}(𝑎)+𝛽_{1}𝑦_{′1}(𝑎) & 𝛼_{1}𝑦_{2}(𝑎)+𝛽_{1}𝑦_{′2}(𝑎) \\ 𝛼_{2}𝑦_{1}(𝑏)+𝛽_{2}𝑦_{′1}(𝑏) & 𝛼_{2}𝑦_{2}(𝑏)+𝛽_{2}𝑦_{′2}(𝑏)\end{aligned}]
 
 
 $$
@@ -472,7 +472,7 @@ Thus, we have the following system of equations
 $$
 
 
-\begin{aligned}𝑐_{1}(𝛼_{1}𝑦_{1}(𝑎)+𝛽_{1}𝑦_{′1}^{}(𝑎))+𝑐_{2}(𝛼_{1}𝑦_{2}(𝑎)+𝛽_{1}𝑦_{′2}^{}(𝑎))=0 \\ 𝑐_{1}(𝛼_{2}𝑦_{1}(𝑏)+𝛽_{2}𝑦_{′1}^{}(𝑏))+𝑐_{2}(𝛼_{2}𝑦_{2}(𝑏)+𝛽_{2}𝑦_{′2}^{}(𝑏))=0\end{aligned}
+\begin{aligned}𝑐_{1}(𝛼_{1}𝑦_{1}(𝑎)+𝛽_{1}𝑦_{′1}(𝑎))+𝑐_{2}(𝛼_{1}𝑦_{2}(𝑎)+𝛽_{1}𝑦_{′2}(𝑎))=0 \\ 𝑐_{1}(𝛼_{2}𝑦_{1}(𝑏)+𝛽_{2}𝑦_{′1}(𝑏))+𝑐_{2}(𝛼_{2}𝑦_{2}(𝑏)+𝛽_{2}𝑦_{′2}(𝑏))=0\end{aligned}
 
 
 $$

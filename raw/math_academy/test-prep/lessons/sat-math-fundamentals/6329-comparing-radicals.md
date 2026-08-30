@@ -140,7 +140,7 @@ Now, we apply the product rule for radicals in reverse to express $3\sqrt{6}$ as
 $$
 
 
-\begin{aligned}3\sqrt{√6} & =\sqrt{√3^{2}}⋅\sqrt{√6} \\ & =\sqrt{√9}⋅\sqrt{√6} \\ & =\sqrt{√9⋅6} \\ & =\sqrt{√54}\end{aligned}
+\begin{aligned}3\sqrt{6} & =\sqrt{3^{2}}⋅\sqrt{6} \\ & =\sqrt{9}⋅\sqrt{6} \\ & =\sqrt{9⋅6} \\ & =\sqrt{54}\end{aligned}
 
 
 $$
@@ -180,7 +180,7 @@ First, we use the product rule of radicals in reverse:
 $$
 
 
-\begin{aligned}6\sqrt{√5} & =\sqrt{√6^{2}}⋅\sqrt{√5} \\ & =\sqrt{√36}⋅\sqrt{√5} \\ & =\sqrt{√36⋅5} \\ & =\sqrt{√180} \\ 5\sqrt{√7} & =\sqrt{√5^{2}}⋅\sqrt{√7} \\ & =\sqrt{√25}⋅\sqrt{√7} \\ & =\sqrt{√25⋅7} \\ & =\sqrt{√175}\end{aligned}
+\begin{aligned}6\sqrt{5} & =\sqrt{6^{2}}⋅\sqrt{5} \\ & =\sqrt{36}⋅\sqrt{5} \\ & =\sqrt{36⋅5} \\ & =\sqrt{180} \\ 5\sqrt{7} & =\sqrt{5^{2}}⋅\sqrt{7} \\ & =\sqrt{25}⋅\sqrt{7} \\ & =\sqrt{25⋅7} \\ & =\sqrt{175}\end{aligned}
 
 
 $$
@@ -228,7 +228,7 @@ First, we use the quotient rule of radicals in reverse:
 $$
 
 
-\begin{aligned}\frac{\sqrt{√96}}{4} & =\frac{\sqrt{√96}}{\sqrt{√4^{2}}} \\ & =\frac{\sqrt{√96}}{\sqrt{√16}} \\ & =\sqrt{√\frac{96}{16}} \\ & =\sqrt{√6}\end{aligned}
+\begin{aligned}\frac{\sqrt{96}}{4} & =\frac{\sqrt{96}}{\sqrt{4^{2}}} \\ & =\frac{\sqrt{96}}{\sqrt{16}} \\ & =\sqrt{\frac{96}{16}} \\ & =\sqrt{6}\end{aligned}
 
 
 $$
@@ -264,7 +264,7 @@ First, we use the quotient rule of radicals in reverse:
 $$
 
 
-\begin{aligned}\frac{3}{8}\sqrt{√128} & =\frac{\sqrt{√3^{2}}}{\sqrt{√8^{2}}}⋅\sqrt{√128} \\ & =\frac{\sqrt{√9}⋅\sqrt{√128}}{\sqrt{√64}} \\ & =\sqrt{√\frac{9⋅128}{64}} \\ & =\sqrt{√9⋅\frac{128}{64}} \\ & =\sqrt{√9⋅2} \\ & =\sqrt{√18}\end{aligned}
+\begin{aligned}\frac{3}{8}\sqrt{128} & =\frac{\sqrt{3^{2}}}{\sqrt{8^{2}}}⋅\sqrt{128} \\ & =\frac{\sqrt{9}⋅\sqrt{128}}{\sqrt{64}} \\ & =\sqrt{\frac{9⋅128}{64}} \\ & =\sqrt{9⋅\frac{128}{64}} \\ & =\sqrt{9⋅2} \\ & =\sqrt{18}\end{aligned}
 
 
 $$
@@ -298,7 +298,7 @@ First, we use the quotient rule of radicals in reverse:
 $$
 
 
-\begin{aligned}\frac{12}{\sqrt{√20}} & =\frac{\sqrt{√12^{2}}}{\sqrt{√20}} \\ & =\frac{\sqrt{√144}}{\sqrt{√20}} \\ & =\sqrt{√\frac{144}{20}} \\ & =\sqrt{√\frac{36}{5}}\end{aligned}
+\begin{aligned}\frac{12}{\sqrt{20}} & =\frac{\sqrt{12^{2}}}{\sqrt{20}} \\ & =\frac{\sqrt{144}}{\sqrt{20}} \\ & =\sqrt{\frac{144}{20}} \\ & =\sqrt{\frac{36}{5}}\end{aligned}
 
 
 $$

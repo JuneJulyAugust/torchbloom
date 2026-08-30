@@ -28,7 +28,7 @@ is a set of mutually orthogonal vectors in $V,$ then the **orthogonal projection
 $$
 
 
-S = \textrm{Span}\{ \mathbf{a}_1, \mathbf{a}_2 , \ldots, \mathbf{a}_n \}
+S = \text{Span}\{ \mathbf{a}_1, \mathbf{a}_2 , \ldots, \mathbf{a}_n \}
 
 
 $$
@@ -43,7 +43,7 @@ $$
 
 $$
 
-In other words, the orthogonal projection of $\mathbf{x}$ onto $S$ is the sum of the orthogonal projections of $\mathbf{x}$ onto each one-dimensional subspace $\textrm{Span}\big\{\mathbf{a}_i\}$ for $i=1, 2, \cdots, n.$
+In other words, the orthogonal projection of $\mathbf{x}$ onto $S$ is the sum of the orthogonal projections of $\mathbf{x}$ onto each one-dimensional subspace $\text{Span}\big\{\mathbf{a}_i\}$ for $i=1, 2, \cdots, n.$
 
 Note the following:
 
@@ -78,7 +78,7 @@ Let's find the orthogonal projection of $h(t)$ onto the subspace
 $$
 
 
-S= \textrm{Span}\{f_1(t), f_2(t)\},
+S= \text{Span}\{f_1(t), f_2(t)\},
 
 
 $$
@@ -90,16 +90,16 @@ Since the set $\{f_1(t),f_2(t)\}$ is orthogonal, the orthogonal projection of $h
 $$
 
 
-\textrm{proj}_{S}\,h(t) = \textrm{proj}_{f_1(t)}\,h(t) + \textrm{proj}_{f_2(t)}\,h(t).
+\text{proj}_{S}\,h(t) = \text{proj}_{f_1(t)}\,h(t) + \text{proj}_{f_2(t)}\,h(t).
 
 
 $$
 
 Let's now compute these projections:
 
-- First, we compute the orthogonal projection of $h(t)$ onto $\textrm{Span}\{f_1(t)\}\mathbin{:}$
+- First, we compute the orthogonal projection of $h(t)$ onto $\text{Span}\{f_1(t)\}\mathbin{:}$
 
-- Next, we compute the orthogonal projection of $h(t)$ onto $\textrm{Span}\{f_2(t)\}\mathbin{:}$ Note: We used the fact that the integrand in the numerator is an odd function, so its integral over $[-1,1]$ must be zero.
+- Next, we compute the orthogonal projection of $h(t)$ onto $\text{Span}\{f_2(t)\}\mathbin{:}$ Note: We used the fact that the integrand in the numerator is an odd function, so its integral over $[-1,1]$ must be zero.
 
 Finally, we have
 
@@ -129,12 +129,12 @@ find the orthogonal projection of $p(t)=-5t-3$ onto the subspace spanned by the 
 
 #### Explanation
 
-The orthogonal projection of $p(t)$ onto $\textrm{Span}\{q(t) \}$ is given by
+The orthogonal projection of $p(t)$ onto $\text{Span}\{q(t) \}$ is given by
 
 $$
 
 
-\textrm{proj}_{q(t)}\,p(t) = \dfrac{\langle{p(t),q(t)}\rangle}{\langle{q(t),q(t)}\rangle}\,q(t).
+\text{proj}_{q(t)}\,p(t) = \dfrac{\langle{p(t),q(t)}\rangle}{\langle{q(t),q(t)}\rangle}\,q(t).
 
 
 $$
@@ -193,7 +193,7 @@ f_1(t)=1,\quad f_2(t)=\sin \pi t, \quad g(t)=6t^2
 
 $$
 
-Find the orthogonal projection of $g(t)$ onto $S=\text{Span}\{f_1(t), f_2(t)\}$ given that $f_1(t) \perp f_2(t)$ with respect to the inner product, and that the orthogonal projection of $g(t)$ onto $\textrm{Span}\{f_1(t)\}$ equals $2.$
+Find the orthogonal projection of $g(t)$ onto $S=\text{Span}\{f_1(t), f_2(t)\}$ given that $f_1(t) \perp f_2(t)$ with respect to the inner product, and that the orthogonal projection of $g(t)$ onto $\text{Span}\{f_1(t)\}$ equals $2.$
 
 #### Explanation
 
@@ -202,17 +202,17 @@ Since the set $\{f_1(t),f_2(t)\}$ is orthogonal, the orthogonal projection of $g
 $$
 
 
-\textrm{proj}_{S}\,g(t) = \textrm{proj}_{f_1(t)}\,g(t) + \textrm{proj}_{f_2(t)}\,g(t).
+\text{proj}_{S}\,g(t) = \text{proj}_{f_1(t)}\,g(t) + \text{proj}_{f_2(t)}\,g(t).
 
 
 $$
 
-We are given that $\textrm{proj}_{f_1(t)}\,g(t) = 2,$ so let's now find the orthogonal projection of $g(t)$ onto $\textrm{Span}\{f_2(t)\}.$ This can be computed as
+We are given that $\text{proj}_{f_1(t)}\,g(t) = 2,$ so let's now find the orthogonal projection of $g(t)$ onto $\text{Span}\{f_2(t)\}.$ This can be computed as
 
 $$
 
 
-\textrm{proj}_{f_2(t)}\,g(t) = \dfrac{\langle{g(t),f_2(t)}\rangle}{\langle{f_2(t),f_2(t)}\rangle}\,f_2(t).
+\text{proj}_{f_2(t)}\,g(t) = \dfrac{\langle{g(t),f_2(t)}\rangle}{\langle{f_2(t),f_2(t)}\rangle}\,f_2(t).
 
 
 $$
@@ -222,7 +222,7 @@ In our case, we have
 $$
 
 
-\begin{aligned}⟨𝑔(𝑡),𝑓_{2}(𝑡)⟩ & =∫_{1−1}^{}𝑔(𝑡)𝑓_{2}(𝑡)\,d𝑡 \\ & =∫_{1−1}^{}6𝑡^{2}⋅sin⁡(𝜋𝑡)\,d𝑡 \\ & =∫_{1−1}^{}6𝑡^{2}sin⁡(𝜋𝑡)\,d𝑡.\end{aligned}
+\begin{aligned}⟨𝑔(𝑡),𝑓_{2}(𝑡)⟩ & =∫_{1−1}𝑔(𝑡)𝑓_{2}(𝑡)\,d𝑡 \\ & =∫_{1−1}6𝑡^{2}⋅sin⁡(𝜋𝑡)\,d𝑡 \\ & =∫_{1−1}6𝑡^{2}sin⁡(𝜋𝑡)\,d𝑡.\end{aligned}
 
 
 $$
@@ -242,7 +242,7 @@ Therefore,
 $$
 
 
-\textrm{proj}_{f_2(t)}\,g(t) = \dfrac{0}{\langle{f_2(t),f_2(t)}\rangle} \cdot \sin \pi t = 0.
+\text{proj}_{f_2(t)}\,g(t) = \dfrac{0}{\langle{f_2(t),f_2(t)}\rangle} \cdot \sin \pi t = 0.
 
 
 $$
@@ -264,7 +264,7 @@ Suppose that $V$ is a vector space equipped with an inner product $\left\langle\
 $$
 
 
-\begin{aligned}𝑑 & =‖𝐯−𝐰‖=\sqrt{√⟨𝐯−𝐰,𝐯−𝐰⟩}.\end{aligned}
+\begin{aligned}𝑑 & =‖𝐯−𝐰‖=\sqrt{⟨𝐯−𝐰,𝐯−𝐰⟩}.\end{aligned}
 
 
 $$
@@ -284,7 +284,7 @@ The distance between the functions $f(t)=4t$ and $g(t)=t+1$ with respect to the 
 $$
 
 
-\begin{aligned}𝑑 & =‖𝑓(𝑡)−𝑔(𝑡)‖ \\ & =‖4𝑡−(𝑡+1)‖ \\ & =‖3𝑡−1‖ \\ & =\sqrt{√⟨3𝑡−1,3𝑡−1⟩} \\ & =\sqrt{√∫_{10}^{}(3𝑡−1)^{2}\,d𝑡} \\ & =\sqrt{√\frac{1}{9}⋅(3𝑡−1)^{3}_{10}^{}} \\ & =\sqrt{√\frac{1}{9}⋅[(8)−(−1)]} \\ & =\sqrt{√\frac{1}{9}⋅9} \\ & =\sqrt{√1} \\ & =1.\end{aligned}
+\begin{aligned}𝑑 & =‖𝑓(𝑡)−𝑔(𝑡)‖ \\ & =‖4𝑡−(𝑡+1)‖ \\ & =‖3𝑡−1‖ \\ & =\sqrt{⟨3𝑡−1,3𝑡−1⟩} \\ & =\sqrt{∫_{10}(3𝑡−1)^{2}\,d𝑡} \\ & =\sqrt{\frac{1}{9}⋅(3𝑡−1)^{3}_{10}} \\ & =\sqrt{\frac{1}{9}⋅[(8)−(−1)]} \\ & =\sqrt{\frac{1}{9}⋅9} \\ & =\sqrt{1} \\ & =1.\end{aligned}
 
 
 $$
@@ -304,7 +304,7 @@ and a vector $\mathbf x \in V,$ the **distance between $\mathbf{x}$ and the subs
 $$
 
 
-S=\textrm{Span}\{ \mathbf{a}_1,\mathbf{a}_2, \ldots, \mathbf{a}_n \}
+S=\text{Span}\{ \mathbf{a}_1,\mathbf{a}_2, \ldots, \mathbf{a}_n \}
 
 
 $$
@@ -337,7 +337,7 @@ find the distance between $p(t) = 4t + 2$ and the subspace spanned by $q(t) = t$
 
 #### Explanation
 
-The orthogonal projection of $p(t)$ onto $\textrm{Span}\{q(t) \}$ is given by
+The orthogonal projection of $p(t)$ onto $\text{Span}\{q(t) \}$ is given by
 
 $$
 
@@ -352,7 +352,7 @@ The distance between $p(t) = 4t + 2$ and the subspace spanned by $q(t) = t$ with
 $$
 
 
-\begin{aligned}𝑑 & =‖𝑝(𝑡)−proj_{𝑞(𝑡)}\,𝑝(𝑡)‖ \\ & =‖(4𝑡+2)−6𝑡‖ \\ & =‖−2𝑡+2‖ \\ & =\sqrt{√⟨−2𝑡+2, −2𝑡+2⟩}.\end{aligned}
+\begin{aligned}𝑑 & =‖𝑝(𝑡)−proj_{𝑞(𝑡)}\,𝑝(𝑡)‖ \\ & =‖(4𝑡+2)−6𝑡‖ \\ & =‖−2𝑡+2‖ \\ & =\sqrt{⟨−2𝑡+2, −2𝑡+2⟩}.\end{aligned}
 
 
 $$
@@ -371,12 +371,12 @@ Therefore, the distance is $d = \sqrt{4} = 2.$
 
 ### The Intuition Behind Orthogonal Projections in Inner Product Spaces
 
-The orthogonal projection of a vector $\mathbf{x}\in V$ onto $\textrm{Span}\{\mathbf{a}\}$ (or simply onto a vector $\mathbf{a}$) is the vector $\text{proj}_{\mathbf{a}}\,\mathbf{x}\in \textrm{Span}\{\mathbf{a}\}$ that is "closest" to $\mathbf{x}$ with respect to the distance defined by the inner product.
+The orthogonal projection of a vector $\mathbf{x}\in V$ onto $\text{Span}\{\mathbf{a}\}$ (or simply onto a vector $\mathbf{a}$) is the vector $\text{proj}_{\mathbf{a}}\,\mathbf{x}\in \text{Span}\{\mathbf{a}\}$ that is "closest" to $\mathbf{x}$ with respect to the distance defined by the inner product.
 
 Although we've considered abstract vector spaces with any possible inner product in this lesson, we can still visualize this situation with the following diagram:
 
 ![Instructional graphic](../../../lesson-assets/linear-algebra/topic-2126/c2f5a73fbb9bbe75.png)
 
-As shown in the diagram, the projection of $\mathbf{x}$ onto $\textrm{Span}\{\mathbf{a}\}$ is the vector $\text{proj}_{\mathbf{a}}\,\mathbf{x}$ such that $\mathbf{x} - \text{proj}_{\mathbf{a}}\,\mathbf{x}$ is orthogonal to $\textrm{Span}\{\mathbf{a}\}.$
+As shown in the diagram, the projection of $\mathbf{x}$ onto $\text{Span}\{\mathbf{a}\}$ is the vector $\text{proj}_{\mathbf{a}}\,\mathbf{x}$ such that $\mathbf{x} - \text{proj}_{\mathbf{a}}\,\mathbf{x}$ is orthogonal to $\text{Span}\{\mathbf{a}\}.$
 
-Furthermore, $\| \mathbf{x} - \text{proj}_{\mathbf{a}}\,\mathbf{x} \|$ will be the smallest possible distance (with respect to our inner product) from $\mathbf{x}$ to any vector in $\textrm{Span}\{\mathbf{a}\}.$
+Furthermore, $\| \mathbf{x} - \text{proj}_{\mathbf{a}}\,\mathbf{x} \|$ will be the smallest possible distance (with respect to our inner product) from $\mathbf{x}$ to any vector in $\text{Span}\{\mathbf{a}\}.$

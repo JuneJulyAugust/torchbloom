@@ -44,7 +44,7 @@ First, we find the unit vector $\mathbf{u}$ in the direction of $\mathbf{v} \mat
 $$
 
 
-\begin{aligned}‖𝐯‖ & =\sqrt{√1^{2}+1^{2}}=\sqrt{√2} \\ 𝐮 & =\frac{𝐯}{‖𝐯‖}=\frac{1}{\sqrt{√2}}(𝐢+𝐣)\end{aligned}
+\begin{aligned}‖𝐯‖ & =\sqrt{1^{2}+1^{2}}=\sqrt{2} \\ 𝐮 & =\frac{𝐯}{‖𝐯‖}=\frac{1}{\sqrt{2}}(𝐢+𝐣)\end{aligned}
 
 
 $$
@@ -64,7 +64,7 @@ Therefore, the directional derivative is
 $$
 
 
-\begin{aligned}𝑓_{′𝐮}^{}(1,2) & =∇\,𝑓(1,2)⋅𝐮 \\ & =(2\,𝐢+4\,𝐣)⋅(\frac{1}{\sqrt{√2}}𝐢+\frac{1}{\sqrt{√2}}𝐣) \\ & =\frac{2⋅1+4⋅1}{\sqrt{√2}} \\ & =\frac{6}{\sqrt{√2}} \\ & =3\sqrt{√2}.\end{aligned}
+\begin{aligned}𝑓_{′𝐮}(1,2) & =∇\,𝑓(1,2)⋅𝐮 \\ & =(2\,𝐢+4\,𝐣)⋅(\frac{1}{\sqrt{2}}𝐢+\frac{1}{\sqrt{2}}𝐣) \\ & =\frac{2⋅1+4⋅1}{\sqrt{2}} \\ & =\frac{6}{\sqrt{2}} \\ & =3\sqrt{2}.\end{aligned}
 
 
 $$
@@ -94,7 +94,7 @@ First, we find the direction vector and the corresponding unit vector:
 $$
 
 
-\begin{aligned}\overset{𝐴𝐵}{} & =⟨1,4⟩−⟨0,1⟩ \\ & =⟨1,3⟩ \\ 𝐮 & =\frac{\overset{𝐴𝐵}{}}{‖\overset{𝐴𝐵}{}‖} \\ & =\frac{1}{\sqrt{√1^{2}+3^{2}}}⟨1,3⟩ \\ & =\frac{1}{\sqrt{√10}}⟨1,3⟩\end{aligned}
+\begin{aligned}\overset{𝐴𝐵}{} & =⟨1,4⟩−⟨0,1⟩ \\ & =⟨1,3⟩ \\ 𝐮 & =\frac{\overset{𝐴𝐵}{‖\overset{𝐴𝐵}{}‖} \\ & =\frac{1}{\sqrt{1^{2}+3^{2}}}⟨1,3⟩ \\ & =\frac{1}{\sqrt{10}}⟨1,3⟩\end{aligned}
 
 
 $$
@@ -114,7 +114,7 @@ Therefore, the directional derivative is
 $$
 
 
-\begin{aligned}𝑔_{′𝐮}^{}(0,1) & =∇𝑔(0,1)⋅𝐮 \\ & =⟨4,0⟩⋅⟨\frac{1}{\sqrt{√10}},\frac{3}{\sqrt{√10}}⟩ \\ & =\frac{4}{\sqrt{√10}} \\ & =\frac{4\sqrt{√10}}{10} \\ & =\frac{2\sqrt{√10}}{5}.\end{aligned}
+\begin{aligned}𝑔_{′𝐮}(0,1) & =∇𝑔(0,1)⋅𝐮 \\ & =⟨4,0⟩⋅⟨\frac{1}{\sqrt{10}},\frac{3}{\sqrt{10}}⟩ \\ & =\frac{4}{\sqrt{10}} \\ & =\frac{4\sqrt{10}}{10} \\ & =\frac{2\sqrt{10}}{5}.\end{aligned}
 
 
 $$
@@ -174,7 +174,7 @@ For a surface $z = f(x,y),$ the partial derivative $f_x(x_0,y_0)$ gives us the r
 $$
 
 
-\begin{aligned}𝑓_{′𝐢}^{}(𝑥_{0},𝑦_{0}) & =∇(𝑥_{0},𝑦_{0})⋅⟨1,0⟩ \\ & =⟨𝑓_{𝑥}(𝑥_{0},𝑦_{0}),𝑓_{𝑦}(𝑥_{0},𝑦_{0})⟩⋅⟨1,0⟩ \\ & =𝑓_{𝑥}(𝑥_{0},𝑦_{0}).\end{aligned}
+\begin{aligned}𝑓_{′𝐢}(𝑥_{0},𝑦_{0}) & =∇(𝑥_{0},𝑦_{0})⋅⟨1,0⟩ \\ & =⟨𝑓_{𝑥}(𝑥_{0},𝑦_{0}),𝑓_{𝑦}(𝑥_{0},𝑦_{0})⟩⋅⟨1,0⟩ \\ & =𝑓_{𝑥}(𝑥_{0},𝑦_{0}).\end{aligned}
 
 
 $$
@@ -184,7 +184,7 @@ Similarly,
 $$
 
 
-\begin{aligned}𝑓_{′𝐣}^{}(𝑥_{0},𝑦_{0}) & =∇(𝑥_{0},𝑦_{0})⋅⟨0,1⟩ \\ & =⟨𝑓_{𝑥}(𝑥_{0},𝑦_{0}),𝑓_{𝑦}(𝑥_{0},𝑦_{0})⟩⋅⟨0,1⟩ \\ & =𝑓_{𝑦}(𝑥_{0},𝑦_{0}).\end{aligned}
+\begin{aligned}𝑓_{′𝐣}(𝑥_{0},𝑦_{0}) & =∇(𝑥_{0},𝑦_{0})⋅⟨0,1⟩ \\ & =⟨𝑓_{𝑥}(𝑥_{0},𝑦_{0}),𝑓_{𝑦}(𝑥_{0},𝑦_{0})⟩⋅⟨0,1⟩ \\ & =𝑓_{𝑦}(𝑥_{0},𝑦_{0}).\end{aligned}
 
 
 $$
@@ -214,7 +214,7 @@ Therefore, the directional derivative is
 $$
 
 
-\begin{aligned}𝑓_{′𝐮}^{}(𝑥_{0},𝑦_{0}) & =∇\,𝑓(𝑥_{0},𝑦_{0})⋅\frac{∇\,𝑓(𝑥_{0},𝑦_{0})}{‖∇\,𝑓(𝑥_{0},𝑦_{0})‖} \\ & =\frac{∇\,𝑓(𝑥_{0},𝑦_{0})⋅∇\,𝑓(𝑥_{0},𝑦_{0})}{‖∇\,𝑓(𝑥_{0},𝑦_{0})‖} \\ & =\frac{‖∇\,𝑓(𝑥_{0},𝑦_{0})‖^{2}}{‖∇\,𝑓(𝑥_{0},𝑦_{0})‖} \\ & =‖∇\,𝑓(𝑥_{0},𝑦_{0})‖.\end{aligned}
+\begin{aligned}𝑓_{′𝐮}(𝑥_{0},𝑦_{0}) & =∇\,𝑓(𝑥_{0},𝑦_{0})⋅\frac{∇\,𝑓(𝑥_{0},𝑦_{0})}{‖∇\,𝑓(𝑥_{0},𝑦_{0})‖} \\ & =\frac{∇\,𝑓(𝑥_{0},𝑦_{0})⋅∇\,𝑓(𝑥_{0},𝑦_{0})}{‖∇\,𝑓(𝑥_{0},𝑦_{0})‖} \\ & =\frac{‖∇\,𝑓(𝑥_{0},𝑦_{0})‖^{2}}{‖∇\,𝑓(𝑥_{0},𝑦_{0})‖} \\ & =‖∇\,𝑓(𝑥_{0},𝑦_{0})‖.\end{aligned}
 
 
 $$
@@ -238,7 +238,7 @@ In our case, we compute $\nabla g(x,y)$ and evaluate it at the point $\left(\dfr
 $$
 
 
-\begin{aligned}∇𝑔(𝑥,𝑦) & =⟨\frac{𝜕}{𝜕𝑥}(ln⁡(\sqrt{√𝑥𝑦^{3}})),\,\frac{𝜕}{𝜕𝑦}(ln⁡(\sqrt{√𝑥𝑦^{3}}))⟩ \\ & =⟨\frac{1}{\sqrt{√𝑥𝑦^{3}}}⋅\frac{𝑦^{3}}{2\sqrt{√𝑥𝑦^{3}}},\,\frac{1}{\sqrt{√𝑥𝑦^{3}}}⋅\frac{3𝑥𝑦^{2}}{2\sqrt{√𝑥𝑦^{3}}}⟩ \\ & =⟨\frac{1}{2𝑥},\,\frac{3}{2𝑦}⟩ \\ ∇𝑔(\frac{1}{2},\frac{3}{2}) & =⟨\frac{1}{2⋅(\frac{1}{2})},\frac{3}{2⋅(\frac{3}{2})}⟩ \\ & =⟨1,1⟩\end{aligned}
+\begin{aligned}∇𝑔(𝑥,𝑦) & =⟨\frac{𝜕}{𝜕𝑥}(ln⁡(\sqrt{𝑥𝑦^{3}})),\,\frac{𝜕}{𝜕𝑦}(ln⁡(\sqrt{𝑥𝑦^{3}}))⟩ \\ & =⟨\frac{1}{\sqrt{𝑥𝑦^{3}}}⋅\frac{𝑦^{3}}{2\sqrt{𝑥𝑦^{3}}},\,\frac{1}{\sqrt{𝑥𝑦^{3}}}⋅\frac{3𝑥𝑦^{2}}{2\sqrt{𝑥𝑦^{3}}}⟩ \\ & =⟨\frac{1}{2𝑥},\,\frac{3}{2𝑦}⟩ \\ ∇𝑔(\frac{1}{2},\frac{3}{2}) & =⟨\frac{1}{2⋅(\frac{1}{2})},\frac{3}{2⋅(\frac{3}{2})}⟩ \\ & =⟨1,1⟩\end{aligned}
 
 
 $$
@@ -248,7 +248,7 @@ Finally, the rate of change of $g(x,y)$ at the point $\left(\dfrac 12, \dfrac 32
 $$
 
 
-\begin{aligned}∇𝑔(\frac{1}{2},\frac{3}{2}) & =∥⟨1,1⟩∥ \\ & =\sqrt{√1^{2}+1^{2}} \\ & =\sqrt{√2}.\end{aligned}
+\begin{aligned}∇𝑔(\frac{1}{2},\frac{3}{2}) & =∥⟨1,1⟩∥ \\ & =\sqrt{1^{2}+1^{2}} \\ & =\sqrt{2}.\end{aligned}
 
 
 $$
@@ -286,7 +286,7 @@ Recall that $\langle f_x (x_0,y_0), f_y(x_0,y_0), -1\rangle$ is known to be a no
 $$
 
 
-\begin{aligned} \langle u_1, u_2, f'_{\mathbf u}\rangle \cdot \langle f_x (x_0,y_0), f_y(x_0,y_0), -1\rangle &=0 \\\[5pt] u_1 f_x (x_0,y_0) + u_2 f_y (x_0,y_0) - f'_{\mathbf u} &=0 \\\[5pt] f'_{\mathbf u} = \nabla f (x_0,y_0) \cdot \mathbf u. \end{aligned}
+\begin{aligned} \langle u_1, u_2, f'_{\mathbf u}\rangle \cdot \langle f_x (x_0,y_0), f_y(x_0,y_0), -1\rangle &=0 \\[5pt] u_1 f_x (x_0,y_0) + u_2 f_y (x_0,y_0) - f'_{\mathbf u} &=0 \\[5pt] f'_{\mathbf u} = \nabla f (x_0,y_0) \cdot \mathbf u. \end{aligned}
 
 
 $$

@@ -28,7 +28,7 @@ Therefore, we can find the slant height using the Pythagorean theorem, as follow
 $$
 
 
-\begin{aligned}𝑙 & =\sqrt{√(35)^{2}+(12)^{2}} \\ & =\sqrt{√1225+144} \\ & =\sqrt{√1369} \\ & =37\,cm\end{aligned}
+\begin{aligned}𝑙 & =\sqrt{(35)^{2}+(12)^{2}} \\ & =\sqrt{1225+144} \\ & =\sqrt{1369} \\ & =37\,cm\end{aligned}
 
 
 $$
@@ -51,7 +51,7 @@ $$
 
 #### Question
 
-Calculate the slant height of a right cone whose base radius and height are $8 \: \textrm{in}$ and $15 \: \textrm{in},$ respectively.
+Calculate the slant height of a right cone whose base radius and height are $8 \: \text{in}$ and $15 \: \text{in},$ respectively.
 
 #### Explanation
 
@@ -59,14 +59,14 @@ Let $r,$ $h,$ and $l$ denote the cone's base radius, height, and slant height, r
 
 ![Instructional graphic](../../../../lesson-assets/integrated-math-ii/topic-1778/d6224627355a6da2.png)
 
-In our case, $r=8\,\textrm{in}, h = 15\,\textrm{in},$ and $l$ is to be found.
+In our case, $r=8\,\text{in}, h = 15\,\text{in},$ and $l$ is to be found.
 
 We can find the slant height $l$ of the cone using the Pythagorean theorem on the right triangle shown above, as follows:
 
 $$
 
 
-\begin{aligned}𝑙 & =\sqrt{√ℎ^{2}+𝑟^{2}} \\ & =\sqrt{√(15)^{2}+(8)^{2}} \\ & =\sqrt{√225+64} \\ & =\sqrt{√289} \\ & =17\,in\end{aligned}
+\begin{aligned}𝑙 & =\sqrt{ℎ^{2}+𝑟^{2}} \\ & =\sqrt{(15)^{2}+(8)^{2}} \\ & =\sqrt{225+64} \\ & =\sqrt{289} \\ & =17\,in\end{aligned}
 
 
 $$
@@ -85,7 +85,7 @@ Let $r,$ $h,$ and $l$ denote the cone's base radius, height, and slant height, r
 
 ![Instructional graphic](../../../../lesson-assets/integrated-math-ii/topic-1778/8894156dfeb7d2c8.png)
 
-In our case, $l = 50\,\textrm{cm},$ and $r$ and $h$ are to be found. Additionally, we're given that $C=28 \pi\, \text{cm},$ where $C$ is the circumference of the base.
+In our case, $l = 50\,\text{cm},$ and $r$ and $h$ are to be found. Additionally, we're given that $C=28 \pi\, \text{cm},$ where $C$ is the circumference of the base.
 
 The circumference of the base is given by the formula
 
@@ -97,7 +97,7 @@ C = 2 \pi r.
 
 $$
 
-Substitutuing $C = 28 \pi \: \textrm{cm}$ into the above formula, we can solve for $r,$ as follows:
+Substitutuing $C = 28 \pi \: \text{cm}$ into the above formula, we can solve for $r,$ as follows:
 
 $$
 
@@ -112,7 +112,7 @@ Now, we can find the height $h$ of the cone using the Pythagorean theorem in the
 $$
 
 
-\begin{aligned}ℎ & =\sqrt{√𝑙^{2}−𝑟^{2}} \\ & =\sqrt{√(50)^{2}−(14)^{2}} \\ & =\sqrt{√2500−196} \\ & =\sqrt{√2304} \\ & =48\,cm\end{aligned}
+\begin{aligned}ℎ & =\sqrt{𝑙^{2}−𝑟^{2}} \\ & =\sqrt{(50)^{2}−(14)^{2}} \\ & =\sqrt{2500−196} \\ & =\sqrt{2304} \\ & =48\,cm\end{aligned}
 
 
 $$
@@ -121,7 +121,7 @@ $$
 
 #### Question
 
-The height of a particular right cone is $\dfrac 43$ times the radius of its base. If the volume of the cone is $12 \pi \: \textrm{in}^3,$ what is the slant height of the cone?
+The height of a particular right cone is $\dfrac 43$ times the radius of its base. If the volume of the cone is $12 \pi \: \text{in}^3,$ what is the slant height of the cone?
 
 #### Explanation
 
@@ -147,7 +147,7 @@ V = \dfrac{1}{3} \pi r^2 h.
 
 $$
 
-Substituting $V = 12 \pi \: \textrm{in}^3$ and $h=\dfrac 43 r$ into the formula, we can solve for $r,$ as follows:
+Substituting $V = 12 \pi \: \text{in}^3$ and $h=\dfrac 43 r$ into the formula, we can solve for $r,$ as follows:
 
 $$
 
@@ -162,7 +162,7 @@ Hence,
 $$
 
 
-h = \dfrac 43r = \dfrac 43 \cdot 3 = 4 \: \textrm{in}.
+h = \dfrac 43r = \dfrac 43 \cdot 3 = 4 \: \text{in}.
 
 
 $$
@@ -174,7 +174,7 @@ Now, we can find the slant height $l$ of the cone using the Pythagorean theorem 
 $$
 
 
-\begin{aligned}𝑙 & =\sqrt{√ℎ^{2}+𝑟^{2}} \\ & =\sqrt{√4^{2}+3^{2}} \\ & =\sqrt{√16+9} \\ & =\sqrt{√25} \\ & =5\,in\end{aligned}
+\begin{aligned}𝑙 & =\sqrt{ℎ^{2}+𝑟^{2}} \\ & =\sqrt{4^{2}+3^{2}} \\ & =\sqrt{16+9} \\ & =\sqrt{25} \\ & =5\,in\end{aligned}
 
 
 $$

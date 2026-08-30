@@ -51,7 +51,7 @@ We can extend this idea to any number of random variables. For example, for any 
 $$
 
 
-\textrm{E}[a_1X_1+a_2X_2+\cdots+ a_nX_n]= a_1\textrm E[X_1]+a_2\textrm E[X_2]+\cdots +a_n\textrm{E}[X_n],
+\text{E}[a_1X_1+a_2X_2+\cdots+ a_nX_n]= a_1\textrm E[X_1]+a_2\textrm E[X_2]+\cdots +a_n\text{E}[X_n],
 
 
 $$
@@ -61,7 +61,7 @@ or more concisely,
 $$
 
 
-\textrm{E}\left[\sum_{i=1}^n a_i X_i\right] =\sum_{i=1}^n a_i \textrm E[X_i].
+\text{E}\left[\sum_{i=1}^n a_i X_i\right] =\sum_{i=1}^n a_i \textrm E[X_i].
 
 
 $$
@@ -155,7 +155,7 @@ The expected value of the product of two *independent* random variables is equal
 $$
 
 
-\textrm{E}[X\cdot Y] = \textrm E[X]\cdot \textrm E[Y].
+\text{E}[X\cdot Y] = \textrm E[X]\cdot \textrm E[Y].
 
 
 $$
@@ -187,7 +187,7 @@ or more concisely,
 $$
 
 
-\textrm{E}\left[ \prod_{i=1}^n X_i\right] = \prod_{i=1}^n \textrm E[X_i],
+\text{E}\left[ \prod_{i=1}^n X_i\right] = \prod_{i=1}^n \textrm E[X_i],
 
 
 $$

@@ -246,7 +246,7 @@ $$
 
 
 
-s = B^a= (g^b)^a = g^{ab} \qquad (\textrm{mod }p),
+s = B^a= (g^b)^a = g^{ab} \qquad (\text{mod }p),
 
 
 
@@ -258,7 +258,7 @@ $$
 
 
 
-s = A^b= (g^a)^b = g^{ab}\qquad (\textrm{mod }p).
+s = A^b= (g^a)^b = g^{ab}\qquad (\text{mod }p).
 
 
 

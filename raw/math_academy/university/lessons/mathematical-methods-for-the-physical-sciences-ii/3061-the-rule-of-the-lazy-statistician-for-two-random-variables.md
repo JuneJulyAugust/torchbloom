@@ -17,7 +17,7 @@ Recall that if $X$ is a discrete random variable with support $S_X,$ and $Y = r(
 $$
 
 
-\textrm{E}[Y] = \sum_{x \in S_X}r(x) \, f_X(x).
+\text{E}[Y] = \sum_{x \in S_X}r(x) \, f_X(x).
 
 
 $$
@@ -27,7 +27,7 @@ Now suppose that $W = r(X,Y)$ is a function of two discrete random variables $X$
 $$
 
 
-\textrm{E}[W] =\textrm{E}\big[r(X,Y)\big]=\sum_{(x,y)\in S}r(x,y) \, f(x,y),
+\text{E}[W] =\text{E}\big[r(X,Y)\big]=\sum_{(x,y)\in S}r(x,y) \, f(x,y),
 
 
 $$
@@ -36,7 +36,7 @@ where $f(x,y)$ is the joint probability mass function of $X$ and $Y.$
 
 The rule of the lazy statistician for two random variables is a helpful rule for two reasons:
 
-- Firstly, it allows us to compute $\textrm{E}[W]$ without needing to find the PMF of $W.$ This turns out to be very useful indeed.
+- Firstly, it allows us to compute $\text{E}[W]$ without needing to find the PMF of $W.$ This turns out to be very useful indeed.
 
 - Secondly, we can use this rule to prove many useful properties of random variables. For example, it can be used to prove that We'll prove some useful results using our rule at the end of this lesson.
 
@@ -44,7 +44,7 @@ The rule of the lazy statistician for two random variables is a helpful rule for
 
 #### Question
 
-The joint probability mass function $f(x,y)$ for the discrete random variables $X$ and $Y$ is given in the table below. Find $\textrm{E}\big[X+2Y \big].$
+The joint probability mass function $f(x,y)$ for the discrete random variables $X$ and $Y$ is given in the table below. Find $\text{E}\big[X+2Y \big].$
 
 #### Explanation
 
@@ -53,7 +53,7 @@ Suppose $X$ and $Y$ are discrete random variables with supports $S_X$ and $S_Y,$
 $$
 
 
-\textrm{E}\big[r(X,Y)\big]=\sum_{(x,y)\in S}r(x,y) \, f(x,y).
+\text{E}\big[r(X,Y)\big]=\sum_{(x,y)\in S}r(x,y) \, f(x,y).
 
 
 $$
@@ -85,7 +85,7 @@ Suppose $X$ and $Y$ are continuous random variables, and $f(x,y)$ is their joint
 $$
 
 
-\textrm{E}\big[r(X,Y)] = \iint_{\mathbb{R}^2} r(x,y) \, f(x,y) \: \textrm{d}x \textrm{d}y.
+\text{E}\big[r(X,Y)] = \iint_{\mathbb{R}^2} r(x,y) \, f(x,y) \: \text{d}x \text{d}y.
 
 
 $$
@@ -96,7 +96,7 @@ The rule of the lazy statistician for two random variables is especially useful 
 
 #### Question
 
-Find $\textrm{E}\big[2X+Y\big],$ given that random variables $X$ and $Y$ have the joint probability density function
+Find $\text{E}\big[2X+Y\big],$ given that random variables $X$ and $Y$ have the joint probability density function
 
 $$
 
@@ -113,7 +113,7 @@ Suppose $X$ and $Y$ are continuous random variables, and $f(x,y)$ is their joint
 $$
 
 
-\textrm{E}\big[r(X,Y)] = \iint_{\mathbb{R}^2} r(x,y) \, f(x,y) \: \textrm{d}x \textrm{d}y.
+\text{E}\big[r(X,Y)] = \iint_{\mathbb{R}^2} r(x,y) \, f(x,y) \: \text{d}x \text{d}y.
 
 
 $$
@@ -135,7 +135,7 @@ Therefore, we obtain
 $$
 
 
-\begin{aligned}E[2𝑋+𝑌] & =∬_{ℝ^{2}}(2𝑥+𝑦)\,𝑓(𝑥,𝑦)\,d𝑥d𝑦 \\ & =∬_{𝐷}(2𝑥+𝑦)\,𝑓(𝑥,𝑦)\,d𝑥d𝑦 \\ & =∫_{20}^{}∫_{10}^{}(2𝑥+𝑦)⋅𝑥\,d𝑥\,d𝑦 \\ & =∫_{20}^{}[∫_{10}^{}(2𝑥^{2}+𝑥𝑦)\,d𝑥\,]d𝑦 \\ & =∫_{20}^{}[\frac{2𝑥^{3}}{3}+\frac{𝑥^{2}𝑦}{2}]_{𝑥=1𝑥=0}^{}\,d𝑦 \\ & =∫_{20}^{}(\frac{2}{3}+\frac{𝑦}{2})\,d𝑦 \\ & =[\frac{2}{3}𝑦+\frac{𝑦^{2}}{4}]_{20}^{} \\ & =\frac{7}{3}.\end{aligned}
+\begin{aligned}E[2𝑋+𝑌] & =∬_{ℝ^{2}}(2𝑥+𝑦)\,𝑓(𝑥,𝑦)\,d𝑥d𝑦 \\ & =∬_{𝐷}(2𝑥+𝑦)\,𝑓(𝑥,𝑦)\,d𝑥d𝑦 \\ & =∫_{20}∫_{10}(2𝑥+𝑦)⋅𝑥\,d𝑥\,d𝑦 \\ & =∫_{20}[∫_{10}(2𝑥^{2}+𝑥𝑦)\,d𝑥\,]d𝑦 \\ & =∫_{20}[\frac{2𝑥^{3}}{3}+\frac{𝑥^{2}𝑦}{2}]_{𝑥=1𝑥=0}\,d𝑦 \\ & =∫_{20}(\frac{2}{3}+\frac{𝑦}{2})\,d𝑦 \\ & =[\frac{2}{3}𝑦+\frac{𝑦^{2}}{4}]_{20} \\ & =\frac{7}{3}.\end{aligned}
 
 
 $$
@@ -144,7 +144,7 @@ $$
 
 #### Question
 
-Find $\textrm{E}\left[e^{X+Y} \right],$ given that random variables $X$ and $Y$ have the joint probability density function
+Find $\text{E}\left[e^{X+Y} \right],$ given that random variables $X$ and $Y$ have the joint probability density function
 
 $$
 
@@ -161,7 +161,7 @@ Suppose $X$ and $Y$ are continuous random variables, and $f(x,y)$ is their joint
 $$
 
 
-\textrm{E}\big[r(X,Y)] = \iint_{\mathbb{R}^2} r(x,y) \, f(x,y) \: \textrm{d}x \textrm{d}y.
+\text{E}\big[r(X,Y)] = \iint_{\mathbb{R}^2} r(x,y) \, f(x,y) \: \text{d}x \text{d}y.
 
 
 $$
@@ -185,7 +185,7 @@ Therefore, we obtain
 $$
 
 
-\begin{aligned}E[𝑒^{𝑋+𝑌}] & =∬_{ℝ^{2}}𝑒^{𝑥+𝑦}\,𝑓(𝑥,𝑦)\,d𝑥d𝑦 \\ & =∬_{𝐷}𝑒^{𝑥+𝑦}\,𝑓(𝑥,𝑦)\,d𝑥d𝑦 \\ & =∫_{20}^{}∫_{𝑥0}^{}𝑒^{𝑥+𝑦}⋅\frac{1}{2}\,d𝑦\,d𝑥 \\ & =\frac{1}{2}∫_{20}^{}∫_{𝑥0}^{}𝑒^{𝑥+𝑦}\,d𝑦\,d𝑥 \\ & =\frac{1}{2}∫_{20}^{}[𝑒^{𝑥+𝑦}]_{𝑦=𝑥𝑦=0}^{}\,d𝑥 \\ & =\frac{1}{2}∫_{20}^{}(𝑒^{2𝑥}−𝑒^{𝑥})\,d𝑥 \\ & =\frac{1}{2}[\frac{1}{2}𝑒^{2𝑥}−𝑒^{𝑥}]_{𝑥=2𝑥=0}^{} \\ & =\frac{1}{2}[(\frac{1}{2}𝑒^{4}−𝑒^{2})−(\frac{1}{2}−1)] \\ & =\frac{1}{2}[(\frac{1}{2}𝑒^{4}−𝑒^{2}+\frac{1}{2})] \\ & =\frac{1}{2}[(\frac{1}{2}𝑒^{4}−\frac{2}{2}𝑒^{2}+\frac{1}{2})] \\ & =\frac{1}{4}(𝑒^{4}−2𝑒^{2}+1) \\ & =\frac{1}{4}(𝑒^{2}−1)^{2}.\end{aligned}
+\begin{aligned}E[𝑒^{𝑋+𝑌}] & =∬_{ℝ^{2}}𝑒^{𝑥+𝑦}\,𝑓(𝑥,𝑦)\,d𝑥d𝑦 \\ & =∬_{𝐷}𝑒^{𝑥+𝑦}\,𝑓(𝑥,𝑦)\,d𝑥d𝑦 \\ & =∫_{20}∫_{𝑥0}𝑒^{𝑥+𝑦}⋅\frac{1}{2}\,d𝑦\,d𝑥 \\ & =\frac{1}{2}∫_{20}∫_{𝑥0}𝑒^{𝑥+𝑦}\,d𝑦\,d𝑥 \\ & =\frac{1}{2}∫_{20}[𝑒^{𝑥+𝑦}]_{𝑦=𝑥𝑦=0}\,d𝑥 \\ & =\frac{1}{2}∫_{20}(𝑒^{2𝑥}−𝑒^{𝑥})\,d𝑥 \\ & =\frac{1}{2}[\frac{1}{2}𝑒^{2𝑥}−𝑒^{𝑥}]_{𝑥=2𝑥=0} \\ & =\frac{1}{2}[(\frac{1}{2}𝑒^{4}−𝑒^{2})−(\frac{1}{2}−1)] \\ & =\frac{1}{2}[(\frac{1}{2}𝑒^{4}−𝑒^{2}+\frac{1}{2})] \\ & =\frac{1}{2}[(\frac{1}{2}𝑒^{4}−\frac{2}{2}𝑒^{2}+\frac{1}{2})] \\ & =\frac{1}{4}(𝑒^{4}−2𝑒^{2}+1) \\ & =\frac{1}{4}(𝑒^{2}−1)^{2}.\end{aligned}
 
 
 $$
@@ -197,7 +197,7 @@ Let's prove that for continuous random variables $X$ and $Y,$ we have
 $$
 
 
-\textrm{E}[X+Y] = \textrm{E}[X] + \textrm{E}[Y].
+\text{E}[X+Y] = \text{E}[X] + \text{E}[Y].
 
 
 $$
@@ -207,7 +207,7 @@ Let $r(x, y) = x+y.$ By the rule of the lazy statistician, we have
 $$
 
 
-\begin{aligned}E[𝑋+𝑌] & =E[𝑟(𝑋,𝑌)] \\ & =\underset{ℝ^{}}{∬}(𝑥+𝑦)𝑓(𝑥,𝑦)\,d𝑥d𝑦 \\ & =\underset{ℝ^{}}{∬}𝑥𝑓(𝑥,𝑦)\,d𝑥d𝑦+\underset{ℝ^{}}{∬}𝑦𝑓(𝑥,𝑦)\,d𝑥d𝑦 \\ & =∫_{∞−∞}^{}∫_{∞−∞}^{}𝑥𝑓(𝑥,𝑦)\,d𝑥\,d𝑦+∫_{∞−∞}^{}∫_{∞−∞}^{}𝑦𝑓(𝑥,𝑦)\,d𝑥\,d𝑦.\end{aligned}
+\begin{aligned}E[𝑋+𝑌] & =E[𝑟(𝑋,𝑌)] \\ & =\underset{ℝ^{}}{∬}(𝑥+𝑦)𝑓(𝑥,𝑦)\,d𝑥d𝑦 \\ & =\underset{ℝ^{}}{∬}𝑥𝑓(𝑥,𝑦)\,d𝑥d𝑦+\underset{ℝ^{}}{∬}𝑦𝑓(𝑥,𝑦)\,d𝑥d𝑦 \\ & =∫_{∞−∞}∫_{∞−∞}𝑥𝑓(𝑥,𝑦)\,d𝑥\,d𝑦+∫_{∞−∞}∫_{∞−∞}𝑦𝑓(𝑥,𝑦)\,d𝑥\,d𝑦.\end{aligned}
 
 
 $$
@@ -217,7 +217,7 @@ Now, since the integration domain is rectangular, we can swap the order of integ
 $$
 
 
-\begin{aligned}E[𝑋+𝑌] & =∫_{∞−∞}^{}∫_{∞−∞}^{}𝑥𝑓(𝑥,𝑦)\,d𝑦\,d𝑥+∫_{∞−∞}^{}∫_{∞−∞}^{}𝑦𝑓(𝑥,𝑦)\,d𝑥\,d𝑦 \\ & =∫_{∞−∞}^{}𝑥∫_{∞−∞}^{}𝑓(𝑥,𝑦)\,d𝑦\,d𝑥+∫_{∞−∞}^{}𝑦∫_{∞−∞}^{}𝑓(𝑥,𝑦)\,d𝑥\,d𝑦 \\ & =∫_{∞−∞}^{}𝑥𝑓_{𝑋}(𝑥)\,d𝑥+∫_{∞−∞}^{}𝑦𝑓_{𝑌}(𝑦)\,d𝑦 \\ & =E[𝑋]+E[𝑌]\end{aligned}
+\begin{aligned}E[𝑋+𝑌] & =∫_{∞−∞}∫_{∞−∞}𝑥𝑓(𝑥,𝑦)\,d𝑦\,d𝑥+∫_{∞−∞}∫_{∞−∞}𝑦𝑓(𝑥,𝑦)\,d𝑥\,d𝑦 \\ & =∫_{∞−∞}𝑥∫_{∞−∞}𝑓(𝑥,𝑦)\,d𝑦\,d𝑥+∫_{∞−∞}𝑦∫_{∞−∞}𝑓(𝑥,𝑦)\,d𝑥\,d𝑦 \\ & =∫_{∞−∞}𝑥𝑓_{𝑋}(𝑥)\,d𝑥+∫_{∞−∞}𝑦𝑓_{𝑌}(𝑦)\,d𝑦 \\ & =E[𝑋]+E[𝑌]\end{aligned}
 
 
 $$
@@ -241,7 +241,7 @@ Let's prove that for continuous *independent* random variables $X$ and $Y,$ we h
 $$
 
 
-\textrm{E}[XY] = \textrm{E}[X] \cdot \textrm{E}[Y].
+\text{E}[XY] = \text{E}[X] \cdot \text{E}[Y].
 
 
 $$
@@ -261,7 +261,7 @@ Now, since $X$ and $Y$ are independent by assumption, we have $f(x,y) = f_X(x)\c
 $$
 
 
-\begin{aligned}E[𝑋𝑌] & =\underset{ℝ^{}}{∬}𝑥𝑦𝑓(𝑥,𝑦)\,d𝑥d𝑦 \\ & =\underset{ℝ^{}}{∬}𝑥𝑦𝑓_{𝑋}(𝑥)𝑓_{𝑌}(𝑦)\,d𝑥d𝑦 \\ & =∫_{∞−∞}^{}∫_{∞−∞}^{}𝑥𝑦𝑓_{𝑋}(𝑥)𝑓_{𝑌}(𝑦)\,d𝑥\,d𝑦 \\ & =∫_{∞−∞}^{}𝑥𝑓_{𝑋}(𝑥)\,d𝑥⋅∫_{∞−∞}^{}𝑦𝑓_{𝑌}(𝑦)\,d𝑦 \\ & =E[𝑋]⋅E[𝑌]\end{aligned}
+\begin{aligned}E[𝑋𝑌] & =\underset{ℝ^{}}{∬}𝑥𝑦𝑓(𝑥,𝑦)\,d𝑥d𝑦 \\ & =\underset{ℝ^{}}{∬}𝑥𝑦𝑓_{𝑋}(𝑥)𝑓_{𝑌}(𝑦)\,d𝑥d𝑦 \\ & =∫_{∞−∞}∫_{∞−∞}𝑥𝑦𝑓_{𝑋}(𝑥)𝑓_{𝑌}(𝑦)\,d𝑥\,d𝑦 \\ & =∫_{∞−∞}𝑥𝑓_{𝑋}(𝑥)\,d𝑥⋅∫_{∞−∞}𝑦𝑓_{𝑌}(𝑦)\,d𝑦 \\ & =E[𝑋]⋅E[𝑌]\end{aligned}
 
 
 $$

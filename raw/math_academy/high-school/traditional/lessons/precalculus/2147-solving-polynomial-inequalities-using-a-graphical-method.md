@@ -28,7 +28,7 @@ $$
 
 
 
-(-\infty, -3] \quad \textrm{and}\quad [-1,2].
+(-\infty, -3] \quad \text{and}\quad [-1,2].
 
 
 

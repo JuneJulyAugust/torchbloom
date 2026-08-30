@@ -96,7 +96,7 @@ $$
 
 
 
-\begin{aligned}(10.0101)_{2} & =\overset{\overset{1⋅2^{1}+1⋅2^{0}}{}}{whole}+\,\overset{\overset{1⋅2^{−1}+1⋅2^{−2}+0⋅2^{−3}+1⋅2^{−4}}{}}{fraction} \\ & =2+1+0.5+0.25+0+0.0625 \\ & =(3.8125)_{10}\end{aligned}
+\begin{aligned}(10.0101)_{2} & =\overset{1⋅2^{1}+1⋅2^{0}}{}}{whole}+\,\overset{1⋅2^{−1}+1⋅2^{−2}+0⋅2^{−3}+1⋅2^{−4}}{}}{fraction} \\ & =2+1+0.5+0.25+0+0.0625 \\ & =(3.8125)_{10}\end{aligned}
 
 
 
@@ -168,7 +168,7 @@ $$
 
 
 
-\begin{aligned}3.25 & =\overset{\overset{3}{}}{whole}+\overset{\overset{0.25}{}}{fraction} \\ & =2^{1}+2^{0}+2^{−2} \\ & =\underset{whole}{\underset{}{1⋅2^{1}+1⋅2^{0}}}+\underset{fraction}{\underset{}{0⋅2^{−1}+1⋅2^{−2}}}\end{aligned}
+\begin{aligned}3.25 & =\overset{3}{whole}+\overset{0.25}{fraction} \\ & =2^{1}+2^{0}+2^{−2} \\ & =\underset{whole}{\underset{}{1⋅2^{1}+1⋅2^{0}}}+\underset{fraction}{\underset{}{0⋅2^{−1}+1⋅2^{−2}}}\end{aligned}
 
 
 

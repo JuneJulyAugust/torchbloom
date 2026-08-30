@@ -73,7 +73,7 @@ $$
 
 
 
-\begin{aligned}{{6+2-1}\choose{6}} &={{7}\choose{6}}\\\[5pt] &= \dfrac{7!}{6!(7-6)!} \\\[5pt] &= \dfrac{7!}{6! \cdot 1!} \\\[5pt] &=7. \end{aligned}
+\begin{aligned}{{6+2-1}\choose{6}} &={{7}\choose{6}}\\[5pt] &= \dfrac{7!}{6!(7-6)!} \\[5pt] &= \dfrac{7!}{6! \cdot 1!} \\[5pt] &=7. \end{aligned}
 
 
 
@@ -107,7 +107,7 @@ $$
 
 
 
-\begin{aligned}{{5+3-1}\choose{5}} &={{7}\choose{5}}\\\[5pt] &= \dfrac{7!}{5!(7-5)!} \\\[5pt] &= \dfrac{7!}{5! \cdot 2!} \\\[5pt] &=21. \end{aligned}
+\begin{aligned}{{5+3-1}\choose{5}} &={{7}\choose{5}}\\[5pt] &= \dfrac{7!}{5!(7-5)!} \\[5pt] &= \dfrac{7!}{5! \cdot 2!} \\[5pt] &=21. \end{aligned}
 
 
 
@@ -143,7 +143,7 @@ $$
 
 
 
-\begin{aligned}{{4+8-1}\choose{4}} &={{11}\choose{4}}\\\[5pt] &= \dfrac{11!}{4!(11-4)!} \\\[5pt] &= \dfrac{11!}{4! \cdot 7!} \\\[5pt] &=330. \end{aligned}
+\begin{aligned}{{4+8-1}\choose{4}} &={{11}\choose{4}}\\[5pt] &= \dfrac{11!}{4!(11-4)!} \\[5pt] &= \dfrac{11!}{4! \cdot 7!} \\[5pt] &=330. \end{aligned}
 
 
 

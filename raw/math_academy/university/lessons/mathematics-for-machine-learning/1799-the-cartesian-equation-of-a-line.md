@@ -32,7 +32,7 @@ Substituting $\begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned}$ into the equatio
 $$
 
 
-\begin{aligned}\begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned} & =\begin{aligned}3 \\ −2 \\ 5\end{aligned}+𝑡\begin{aligned}6 \\ 5 \\ −1\end{aligned} \\ \begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned} & =\begin{aligned}3+6𝑡 \\ −2+5𝑡 \\ 5−𝑡\end{aligned}.\end{aligned}
+\begin{aligned}\begin{matrix}𝑥 \\ 𝑦 \\ 𝑧\end{matrix} & =\begin{matrix}3 \\ −2 \\ 5\end{matrix}+𝑡\begin{matrix}6 \\ 5 \\ −1\end{matrix} \\ \begin{matrix}𝑥 \\ 𝑦 \\ 𝑧\end{matrix} & =\begin{matrix}3+6𝑡 \\ −2+5𝑡 \\ 5−𝑡\end{matrix}.\end{aligned}
 
 
 $$
@@ -124,7 +124,7 @@ we find that our line passes through the point $P(0,-3,2)$ and is parallel to $\
 $$
 
 
-\begin{aligned}𝐫 & =𝐩+𝑡𝐯 \\ 𝐫 & =\begin{aligned}0 \\ −3 \\ 2\end{aligned}+𝑡\begin{aligned}5 \\ 3 \\ 1\end{aligned},\,𝑡∈(−∞,∞).\end{aligned}
+\begin{aligned}𝐫 & =𝐩+𝑡𝐯 \\ 𝐫 & =\begin{matrix}0 \\ −3 \\ 2\end{matrix}+𝑡\begin{matrix}5 \\ 3 \\ 1\end{matrix},\,𝑡∈(−∞,∞).\end{aligned}
 
 
 $$
@@ -152,7 +152,7 @@ First, let's find the corresponding vector equation as follows:
 $$
 
 
-\begin{aligned}\begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned} & =\begin{aligned}1−2𝑡 \\ 4𝑡 \\ −2+3𝑡\end{aligned} \\ \begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned} & =\begin{aligned}1 \\ 0 \\ −2\end{aligned}+\begin{aligned}−2𝑡 \\ 4𝑡 \\ 3𝑡\end{aligned} \\ \begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned} & =\begin{aligned}1 \\ 0 \\ −2\end{aligned}+𝑡\begin{aligned}−2 \\ 4 \\ 3\end{aligned} \\ 𝐫 & =\begin{aligned}1 \\ 0 \\ −2\end{aligned}+𝑡\begin{aligned}−2 \\ 4 \\ 3\end{aligned},\end{aligned}
+\begin{aligned}\begin{matrix}𝑥 \\ 𝑦 \\ 𝑧\end{matrix} & =\begin{matrix}1−2𝑡 \\ 4𝑡 \\ −2+3𝑡\end{matrix} \\ \begin{matrix}𝑥 \\ 𝑦 \\ 𝑧\end{matrix} & =\begin{matrix}1 \\ 0 \\ −2\end{matrix}+\begin{matrix}−2𝑡 \\ 4𝑡 \\ 3𝑡\end{matrix} \\ \begin{matrix}𝑥 \\ 𝑦 \\ 𝑧\end{matrix} & =\begin{matrix}1 \\ 0 \\ −2\end{matrix}+𝑡\begin{matrix}−2 \\ 4 \\ 3\end{matrix} \\ 𝐫 & =\begin{matrix}1 \\ 0 \\ −2\end{matrix}+𝑡\begin{matrix}−2 \\ 4 \\ 3\end{matrix},\end{aligned}
 
 
 $$

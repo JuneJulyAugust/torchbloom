@@ -81,7 +81,7 @@ So, we begin as follows:
 $$
 
 
-2 \mid a \qquad\textrm{and}\qquad 4 \not\mid a.
+2 \mid a \qquad\text{and}\qquad 4 \not\mid a.
 
 
 $$
@@ -93,7 +93,7 @@ Finding a counterexample is sometimes a nontrivial task, but we only need one. I
 $$
 
 
-2 \mid 2 \qquad\textrm{and}\qquad 4 \not\mid 2.
+2 \mid 2 \qquad\text{and}\qquad 4 \not\mid 2.
 
 
 $$
@@ -117,7 +117,7 @@ Counterexample:
 $$
 
 
-2 \mid a \qquad\textrm{and}\qquad 4 \not\mid a.
+2 \mid a \qquad\text{and}\qquad 4 \not\mid a.
 
 
 $$
@@ -127,7 +127,7 @@ $$
 $$
 
 
-2 \mid 2 \qquad\textrm{and}\qquad 4 \not\mid 2.
+2 \mid 2 \qquad\text{and}\qquad 4 \not\mid 2.
 
 
 $$
@@ -140,14 +140,14 @@ $$
 
 Consider the following false statement.
 
-If $2a \equiv 2b \: (\textrm{mod}\:4),$ then $a \equiv b \: (\textrm{mod}\:4)$ for any $a,b \in \mathbb{Z}.$
+If $2a \equiv 2b \: (\text{mod}\:4),$ then $a \equiv b \: (\text{mod}\:4)$ for any $a,b \in \mathbb{Z}.$
 
 A counterexample for the above statement would be a pair of integers $a$ and $b$ such that
 
 $$
 
 
-\boxed{\phantom{RRR} }\, (\textrm{mod}\:4) \qquad\textrm{and}\qquad \boxed{\phantom{RRR} }\, (\textrm{mod}\:4).
+\boxed{\phantom{RRR} }\, (\text{mod}\:4) \qquad\text{and}\qquad \boxed{\phantom{RRR} }\, (\text{mod}\:4).
 
 
 $$
@@ -158,9 +158,9 @@ Find the missing expressions.
 
 By denoting $P(a)$ and $Q(a)$ as
 
-- $P(a,b){:} \quad 2a \equiv 2b \: (\textrm{mod}\:4)$
+- $P(a,b){:} \quad 2a \equiv 2b \: (\text{mod}\:4)$
 
-- $Q(a,b){:} \quad a \equiv b \: (\textrm{mod}\:4)$
+- $Q(a,b){:} \quad a \equiv b \: (\text{mod}\:4)$
 
 our statement can be written as
 
@@ -193,7 +193,7 @@ A counterexample for the above statement would be a pair of integers $a$ and $b$
 $$
 
 
-\boxed{\color{blue}2a \equiv 2b} \: (\textrm{mod}\:4) \qquad\textrm{and}\qquad \boxed{\color{blue}a \not\equiv b} \: (\textrm{mod}\:4).
+\boxed{\color{blue}2a \equiv 2b} \: (\text{mod}\:4) \qquad\text{and}\qquad \boxed{\color{blue}a \not\equiv b} \: (\text{mod}\:4).
 
 
 $$
@@ -243,7 +243,7 @@ To disprove a universal statement, it's sufficient to find a counterexample. In 
 $$
 
 
-4 \mid a \qquad\textrm{and}\qquad 6 \mid a \qquad\textrm{and}\qquad 24 \not\mid a.
+4 \mid a \qquad\text{and}\qquad 6 \mid a \qquad\text{and}\qquad 24 \not\mid a.
 
 
 $$
@@ -255,7 +255,7 @@ Let's choose $a =12.$ Then, we have that
 $$
 
 
-4 \mid 12 \qquad\textrm{and}\qquad 6 \mid 12 \qquad\textrm{and}\qquad 24 \not\mid 12.
+4 \mid 12 \qquad\text{and}\qquad 6 \mid 12 \qquad\text{and}\qquad 24 \not\mid 12.
 
 
 $$
@@ -270,15 +270,15 @@ So, $a=12$ is our counterexample. Therefore, the given statement is false.
 
 Disprove the following statement:
 
-For any $a,b \in \mathbb{Z},$ if $3a \equiv 3b \: (\textrm{mod}\:6),$ then $a \equiv b \: (\textrm{mod}\:6).$
+For any $a,b \in \mathbb{Z},$ if $3a \equiv 3b \: (\text{mod}\:6),$ then $a \equiv b \: (\text{mod}\:6).$
 
 #### Explanation
 
 By denoting $P(a,b)$ and $Q(a,b)$ as
 
-- $P(a,b){:} \quad 3a \equiv 3b \: (\textrm{mod}\:6)$
+- $P(a,b){:} \quad 3a \equiv 3b \: (\text{mod}\:6)$
 
-- $Q(a,b){:} \quad a \equiv b \: (\textrm{mod}\:6)$
+- $Q(a,b){:} \quad a \equiv b \: (\text{mod}\:6)$
 
 our statement can be written as
 
@@ -307,7 +307,7 @@ To disprove a universal statement, it's sufficient to find a counterexample. In 
 $$
 
 
-3a \equiv 3b \: (\textrm{mod}\:6) \qquad\textrm{and}\qquad a \not\equiv b\: (\textrm{mod}\:6).
+3a \equiv 3b \: (\text{mod}\:6) \qquad\text{and}\qquad a \not\equiv b\: (\text{mod}\:6).
 
 
 $$
@@ -333,7 +333,7 @@ Hence, we have that
 $$
 
 
-\underbrace{0}_{3a} \equiv \underbrace{6}_{3b} \: (\textrm{mod}\:6) \qquad\textrm{and}\qquad \underbrace{0}_{a} \not\equiv \underbrace{2}_{b} \: (\textrm{mod}\:6).
+\underbrace{0}_{3a} \equiv \underbrace{6}_{3b} \: (\text{mod}\:6) \qquad\text{and}\qquad \underbrace{0}_{a} \not\equiv \underbrace{2}_{b} \: (\text{mod}\:6).
 
 
 $$

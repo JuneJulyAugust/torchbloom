@@ -18,7 +18,7 @@ Suppose we want to evaluate the following repeated integral:
 $$
 
 
-\int_0^1\int_{x^2}^{1} \int_{0}^{1}\,\dfrac{e^{y}}{\sqrt{y}}\,\textrm{d}z\, \textrm{d}y\, \textrm{d}x
+\int_0^1\int_{x^2}^{1} \int_{0}^{1}\,\dfrac{e^{y}}{\sqrt{y}}\,\text{d}z\, \text{d}y\, \text{d}x
 
 
 $$
@@ -37,12 +37,12 @@ as illustrated below.
 
 ![Instructional graphic](../../../lesson-assets/multivariable-calculus/topic-2056/625db8c62456b0de.png)
 
-The expression '$\,\textrm{d}z\, \textrm{d}y\, \textrm{d}x$' means we should integrate first with respect to $z,$ then with respect to $y,$ and lastly with respect to $x.$ Let's see what happens when we attempt to integrate in this order:
+The expression '$\,\text{d}z\, \text{d}y\, \text{d}x$' means we should integrate first with respect to $z,$ then with respect to $y,$ and lastly with respect to $x.$ Let's see what happens when we attempt to integrate in this order:
 
 $$
 
 
-\begin{aligned}∫_{10}^{}∫_{1𝑥^{2}}^{}∫_{10}^{}\,\frac{𝑒^{𝑦}}{\sqrt{√𝑦}}\,d𝑧\,d𝑦\,d𝑥 & =∫_{10}^{}∫_{1𝑥^{2}}^{}\,\frac{𝑒^{𝑦}}{\sqrt{√𝑦}}[∫_{10}^{}\,d𝑧]d𝑦\,d𝑥 \\ & =∫_{10}^{}∫_{1𝑥^{2}}^{}\,\frac{𝑒^{𝑦}}{\sqrt{√𝑦}}⋅[𝑧]_{10}^{}\,d𝑦\,d𝑥 \\ & =∫_{10}^{}∫_{1𝑥^{2}}^{}\,\frac{𝑒^{𝑦}}{\sqrt{√𝑦}}\,d𝑦\,d𝑥\end{aligned}
+\begin{aligned}∫_{10}∫_{1𝑥^{2}}^{}∫_{10}\,\frac{𝑒^{𝑦}}{\sqrt{𝑦}}\,d𝑧\,d𝑦\,d𝑥 & =∫_{10}∫_{1𝑥^{2}}^{}\,\frac{𝑒^{𝑦}}{\sqrt{𝑦}}[∫_{10}\,d𝑧]d𝑦\,d𝑥 \\ & =∫_{10}∫_{1𝑥^{2}}^{}\,\frac{𝑒^{𝑦}}{\sqrt{𝑦}}⋅[𝑧]_{10}\,d𝑦\,d𝑥 \\ & =∫_{10}∫_{1𝑥^{2}}^{}\,\frac{𝑒^{𝑦}}{\sqrt{𝑦}}\,d𝑦\,d𝑥\end{aligned}
 
 
 $$
@@ -72,7 +72,7 @@ Therefore, we can evaluate this integral by keeping the inner integral the same 
 $$
 
 
-\begin{aligned}∫_{10}^{}∫_{1𝑥^{2}}^{}∫_{10}^{}\,\frac{𝑒^{𝑦}}{\sqrt{√𝑦}}\,d𝑧\,d𝑦\,d𝑥 & =∫_{10}^{}∫_{\sqrt{√𝑦}0}^{}∫_{10}^{}\,\frac{𝑒^{𝑦}}{\sqrt{√𝑦}}\,d𝑧\,d𝑥\,d𝑦\end{aligned}
+\begin{aligned}∫_{10}∫_{1𝑥^{2}}^{}∫_{10}\,\frac{𝑒^{𝑦}}{\sqrt{𝑦}}\,d𝑧\,d𝑦\,d𝑥 & =∫_{10}∫_{\sqrt{𝑦}0}^{}∫_{10}\,\frac{𝑒^{𝑦}}{\sqrt{𝑦}}\,d𝑧\,d𝑥\,d𝑦\end{aligned}
 
 
 $$
@@ -82,7 +82,7 @@ Now, we evaluate this integral.
 $$
 
 
-\begin{aligned}∫_{10}^{}∫_{\sqrt{√𝑦}0}^{}∫_{10}^{}\,\frac{𝑒^{𝑦}}{\sqrt{√𝑦}}\,d𝑧\,d𝑥\,d𝑦 & =∫_{10}^{}∫_{\sqrt{√𝑦}0}^{}\,\frac{𝑒^{𝑦}}{\sqrt{√𝑦}}[∫_{10}^{}\,d𝑧]d𝑥\,d𝑦 \\ & =∫_{10}^{}∫_{\sqrt{√𝑦}0}^{}\,\frac{𝑒^{𝑦}}{\sqrt{√𝑦}}[𝑧]_{10}^{}d𝑥\,d𝑦 \\ & =∫_{10}^{}∫_{\sqrt{√𝑦}0}^{}\,\frac{𝑒^{𝑦}}{\sqrt{√𝑦}}\,d𝑥\,d𝑦 \\ & =∫_{10}^{}\,\frac{𝑒^{𝑦}}{\sqrt{√𝑦}}[∫_{\sqrt{√𝑦}0}^{}d𝑥]d𝑦 \\ & =∫_{10}^{}\,\frac{𝑒^{𝑦}}{\sqrt{√𝑦}}⋅[𝑥]_{\sqrt{√𝑦}0}^{}\,d𝑦 \\ & =∫_{10}^{}\,\frac{𝑒^{𝑦}}{\sqrt{√𝑦}}⋅\sqrt{√𝑦}\,d𝑦 \\ & =∫_{10}^{}\,𝑒^{𝑦}\,d𝑦 \\ & =𝑒^{𝑦}_{10}^{} \\ & =𝑒−1\end{aligned}
+\begin{aligned}∫_{10}∫_{\sqrt{𝑦}0}^{}∫_{10}\,\frac{𝑒^{𝑦}}{\sqrt{𝑦}}\,d𝑧\,d𝑥\,d𝑦 & =∫_{10}∫_{\sqrt{𝑦}0}^{}\,\frac{𝑒^{𝑦}}{\sqrt{𝑦}}[∫_{10}\,d𝑧]d𝑥\,d𝑦 \\ & =∫_{10}∫_{\sqrt{𝑦}0}^{}\,\frac{𝑒^{𝑦}}{\sqrt{𝑦}}[𝑧]_{10}d𝑥\,d𝑦 \\ & =∫_{10}∫_{\sqrt{𝑦}0}^{}\,\frac{𝑒^{𝑦}}{\sqrt{𝑦}}\,d𝑥\,d𝑦 \\ & =∫_{10}\,\frac{𝑒^{𝑦}}{\sqrt{𝑦}}[∫_{\sqrt{𝑦}0}^{}d𝑥]d𝑦 \\ & =∫_{10}\,\frac{𝑒^{𝑦}}{\sqrt{𝑦}}⋅[𝑥]_{\sqrt{𝑦}0}^{}\,d𝑦 \\ & =∫_{10}\,\frac{𝑒^{𝑦}}{\sqrt{𝑦}}⋅\sqrt{𝑦}\,d𝑦 \\ & =∫_{10}\,𝑒^{𝑦}\,d𝑦 \\ & =𝑒^{𝑦}_{10} \\ & =𝑒−1\end{aligned}
 
 
 $$
@@ -96,7 +96,7 @@ Note the following:
 $$
 
 
-\%\begin{aligned} \%\int_0^1\int_0^1\int_{{x}}^{1} \,6z e^{zy^2}\,\textrm{d}y\, \textrm{d}x\, \, \textrm{d}z &= \int_0^1\int_0^1\int_{{0}}^{y} \,6z e^{zy^2}\,\textrm{d}x\, \textrm{d}y\, \, \textrm{d}z\\\%&= \int_0^1\int_0^1 \,6z e^{zy^2} \left[x\right]_{{0}}^{y}\, \textrm{d}y\, \, \textrm{d}z\\\%&= \int_0^1\int_0^1 \,6z ye^{zy^2} \, \textrm{d}y\, \, \textrm{d}z\\\%&= \int_0^1 \, 3 \left[e^{zy^2}\right]_0^1 \, \, \textrm{d}z\\\%&= \int_0^1 \, 3 \left(e^z-1\right) \, \textrm{d}z\\\%&= 3e-6.\end{aligned}
+\%\begin{aligned} \%\int_0^1\int_0^1\int_{{x}}^{1} \,6z e^{zy^2}\,\text{d}y\, \text{d}x\, \, \text{d}z &= \int_0^1\int_0^1\int_{{0}}^{y} \,6z e^{zy^2}\,\text{d}x\, \text{d}y\, \, \text{d}z\\\%&= \int_0^1\int_0^1 \,6z e^{zy^2} \left[x\right]_{{0}}^{y}\, \text{d}y\, \, \text{d}z\\\%&= \int_0^1\int_0^1 \,6z ye^{zy^2} \, \text{d}y\, \, \text{d}z\\\%&= \int_0^1 \, 3 \left[e^{zy^2}\right]_0^1 \, \, \text{d}z\\\%&= \int_0^1 \, 3 \left(e^z-1\right) \, \text{d}z\\\%&= 3e-6.\end{aligned}
 
 
 $$
@@ -112,7 +112,7 @@ The triple integral of $f(x,y,z)$ over the region $R$ (shown above) can be expre
 $$
 
 
-\iiint\limits_R f(x,y,z) \:\textrm{d}V = \int_0^1\int_{\sqrt{z}}^1\int_0^{y^2-z} f(x,y,z) \:\textrm{d}x\:\textrm{d}y\:\textrm{d}z
+\iiint\limits_R f(x,y,z) \:\text{d}V = \int_0^1\int_{\sqrt{z}}^1\int_0^{y^2-z} f(x,y,z) \:\text{d}x\:\text{d}y\:\text{d}z
 
 
 $$
@@ -136,7 +136,7 @@ We wish to rewrite our triple integral as follows:
 $$
 
 
-\iiint\limits_R f(x,y,z) \:\textrm{d}V = \int_a^b\int_{v_1(y)}^{v_2(y)}\int_{u_1(y,z)}^{u_2(y,z)} f(x,y,z) \:\textrm{d}x\:\textrm{d}z\:\textrm{d}y
+\iiint\limits_R f(x,y,z) \:\text{d}V = \int_a^b\int_{v_1(y)}^{v_2(y)}\int_{u_1(y,z)}^{u_2(y,z)} f(x,y,z) \:\text{d}x\:\text{d}z\:\text{d}y
 
 
 $$
@@ -146,7 +146,7 @@ Since both repeated integrals first integrate with respect to $x,$ the $x$-limit
 $$
 
 
-\iiint\limits_R f(x,y,z) \:\textrm{d}V = \int_a^b\int_{v_1(y)}^{v_2(y)}\int_0^{y^2-z} f(x,y,z) \:\textrm{d}x\:\textrm{d}z\:\textrm{d}y
+\iiint\limits_R f(x,y,z) \:\text{d}V = \int_a^b\int_{v_1(y)}^{v_2(y)}\int_0^{y^2-z} f(x,y,z) \:\text{d}x\:\text{d}z\:\text{d}y
 
 
 $$
@@ -165,7 +165,7 @@ D = \big\{ (y,z) \: : \: 0 \leq z \leq 1, \:\: \sqrt{z} \leq y \leq 1 \big\}
 
 $$
 
-To change the order of integration from $\textrm{d}x\:\textrm{d}y\:\textrm{d}z$ to $\textrm{d}x\:\textrm{d}z\:\textrm{d}y,$ we write $D$ as a type I region.
+To change the order of integration from $\text{d}x\:\text{d}y\:\text{d}z$ to $\text{d}x\:\text{d}z\:\text{d}y,$ we write $D$ as a type I region.
 
 Notice that the top boundary of the region, written in the form $z=z(y),$ is
 
@@ -206,7 +206,7 @@ Therefore, by swapping the order of integration, we obtain
 $$
 
 
-\iiint\limits_R f(x,y,z) \:\textrm{d}V = \int_0^1 \int_{0}^{y^2} \int_0^{y^2-z} f(x,y,z) \:\textrm{d}x\:\textrm{d}z\:\textrm{d}y.
+\iiint\limits_R f(x,y,z) \:\text{d}V = \int_0^1 \int_{0}^{y^2} \int_0^{y^2-z} f(x,y,z) \:\text{d}x\:\text{d}z\:\text{d}y.
 
 
 $$
@@ -220,7 +220,7 @@ By changing the order of integration in the following repeated integrals so that
 $$
 
 
-\displaystyle \int_{-1}^0 \int_{y^2}^{1} \int_{x-1}^{y^2} f(x,y,z) \:\textrm{d}z\:\textrm{d}x\:\textrm{d}y + \int_0^1 \int_{y}^{1} \int_{x-1}^{y^2} f(x,y,z) \:\textrm{d}z\:\textrm{d}x\:\textrm{d}y
+\displaystyle \int_{-1}^0 \int_{y^2}^{1} \int_{x-1}^{y^2} f(x,y,z) \:\text{d}z\:\text{d}x\:\text{d}y + \int_0^1 \int_{y}^{1} \int_{x-1}^{y^2} f(x,y,z) \:\text{d}z\:\text{d}x\:\text{d}y
 
 
 $$
@@ -232,7 +232,7 @@ We wish to find the limits of integration such that our integral can be expresse
 $$
 
 
-\int_a^b \int_{v_1(x)}^{v_2(x)} \int_{u_1(x,y)}^{u_2(x,y)} f(x,y,z) \:\textrm{d}z\:\textrm{d}y\:\textrm{d}x.
+\int_a^b \int_{v_1(x)}^{v_2(x)} \int_{u_1(x,y)}^{u_2(x,y)} f(x,y,z) \:\text{d}z\:\text{d}y\:\text{d}x.
 
 
 $$
@@ -252,7 +252,7 @@ Since all repeated integrals first integrate with respect to $z,$ the $z$-limits
 $$
 
 
-\int_a^b \int_{v_1(x)}^{v_2(x)} \int_{x-1}^{y^2} f(x,y,z) \:\textrm{d}z\:\textrm{d}y\:\textrm{d}x
+\int_a^b \int_{v_1(x)}^{v_2(x)} \int_{x-1}^{y^2} f(x,y,z) \:\text{d}z\:\text{d}y\:\text{d}x
 
 
 $$
@@ -271,7 +271,7 @@ D = \left\{ (x,y) \: : \: -1 \leq y \leq 0, \quad y^2 \leq x \leq 1 \right\} \:\
 
 $$
 
-To change the order of integration from $\textrm{d}z\:\textrm{d}x\:\textrm{d}y$ to $\textrm{d}z\:\textrm{d}y\:\textrm{d}x,$ we write $D$ as a type I region.
+To change the order of integration from $\text{d}z\:\text{d}x\:\text{d}y$ to $\text{d}z\:\text{d}y\:\text{d}x,$ we write $D$ as a type I region.
 
 Notice that the lower boundary of the region, written in the form $y=y(x),$ is
 
@@ -312,7 +312,7 @@ Therefore, by swapping the order of integration, we obtain
 $$
 
 
-\int_0^{\boxed{1}} \int_{\boxed{-\sqrt{x}}}^{\boxed{x}} \int_{x-1}^{y^2} f(x,y,z) \:\textrm{d}z\:\textrm{d}y\:\textrm{d}x.
+\int_0^{\boxed{1}} \int_{\boxed{-\sqrt{x}}}^{\boxed{x}} \int_{x-1}^{y^2} f(x,y,z) \:\text{d}z\:\text{d}y\:\text{d}x.
 
 
 $$
@@ -321,7 +321,7 @@ $$
 
 #### Question
 
-Evaluate $\displaystyle \int_{0}^{1} \int_{y}^{1} \int_{0}^{y} 3e^{x^3} \: \textrm{d}z \: \textrm{d}x \: \textrm{d}y.$
+Evaluate $\displaystyle \int_{0}^{1} \int_{y}^{1} \int_{0}^{y} 3e^{x^3} \: \text{d}z \: \text{d}x \: \text{d}y.$
 
 **
 
@@ -332,7 +332,7 @@ We wish to find the limits of integration such that our integral can be expresse
 $$
 
 
-\int_{a}^{b} \int_{v_1(x)}^{v_2(x)} \int_{u_1(x,y)}^{u_2(x,y)} 3e^{x^3} \:\textrm{d}z \: \textrm{d}y \: \textrm{d}x.
+\int_{a}^{b} \int_{v_1(x)}^{v_2(x)} \int_{u_1(x,y)}^{u_2(x,y)} 3e^{x^3} \:\text{d}z \: \text{d}y \: \text{d}x.
 
 
 $$
@@ -352,7 +352,7 @@ Since all repeated integrals first integrate with respect to $z,$ the $z$-limits
 $$
 
 
-\int_{a}^{b} \int_{v_1(x)}^{v_2(x)} \int_{0}^{y} 3e^{x^3} \:\textrm{d}z \: \textrm{d}y \: \textrm{d}x
+\int_{a}^{b} \int_{v_1(x)}^{v_2(x)} \int_{0}^{y} 3e^{x^3} \:\text{d}z \: \text{d}y \: \text{d}x
 
 
 $$
@@ -371,7 +371,7 @@ D = \left\{ (x,y) \::\: 0 \leq y \leq 1, \quad y \leq x \leq 1 \right\}
 
 $$
 
-To change the order of integration from $\textrm{d}z \: \textrm{d}x \: \textrm{d}y$ to $\textrm{d}z \: \textrm{d}y \: \textrm{d}x,$ we write $D$ as a type I region.
+To change the order of integration from $\text{d}z \: \text{d}x \: \text{d}y$ to $\text{d}z \: \text{d}y \: \text{d}x,$ we write $D$ as a type I region.
 
 Notice that the top boundary of the region, written in the form $y = y(x),$ is
 
@@ -412,7 +412,7 @@ Therefore, by swapping the order of integration, we obtain
 $$
 
 
-\begin{aligned}∫_{10}^{}∫_{1𝑦}^{}∫_{𝑦0}^{}3𝑒^{𝑥^{3}}\,d𝑧\,d𝑥\,d𝑦 & =∫_{10}^{}∫_{𝑥0}^{}∫_{𝑦0}^{}3𝑒^{𝑥^{3}}\,d𝑧\,d𝑦\,d𝑥 \\ & =∫_{10}^{}∫_{𝑥0}^{}3𝑒^{𝑥^{3}}[∫_{𝑦0}^{}d𝑧]d𝑦\,d𝑥 \\ & =∫_{10}^{}∫_{𝑥0}^{}3𝑒^{𝑥^{3}}[𝑧]_{𝑦0}^{}\,d𝑦\,d𝑥 \\ & =∫_{10}^{}∫_{𝑥0}^{}3𝑦𝑒^{𝑥^{3}}\,d𝑦\,d𝑥 \\ & =∫_{10}^{}3𝑒^{𝑥^{3}}[∫_{𝑥0}^{}𝑦\,d𝑦]d𝑥 \\ & =∫_{10}^{}3𝑒^{𝑥^{3}}[\frac{1}{2}𝑦^{2}]_{𝑥0}^{}\,d𝑥 \\ & =∫_{10}^{}\frac{3}{2}𝑥^{2}𝑒^{𝑥^{3}}\,d𝑥 \\ & =\frac{1}{2}[𝑒^{𝑥^{3}}]_{10}^{} \\ & =\frac{1}{2}(𝑒−1).\end{aligned}
+\begin{aligned}∫_{10}∫_{1𝑦}∫_{𝑦0}3𝑒^{𝑥^{3}}\,d𝑧\,d𝑥\,d𝑦 & =∫_{10}∫_{𝑥0}∫_{𝑦0}3𝑒^{𝑥^{3}}\,d𝑧\,d𝑦\,d𝑥 \\ & =∫_{10}∫_{𝑥0}3𝑒^{𝑥^{3}}[∫_{𝑦0}d𝑧]d𝑦\,d𝑥 \\ & =∫_{10}∫_{𝑥0}3𝑒^{𝑥^{3}}[𝑧]_{𝑦0}\,d𝑦\,d𝑥 \\ & =∫_{10}∫_{𝑥0}3𝑦𝑒^{𝑥^{3}}\,d𝑦\,d𝑥 \\ & =∫_{10}3𝑒^{𝑥^{3}}[∫_{𝑥0}𝑦\,d𝑦]d𝑥 \\ & =∫_{10}3𝑒^{𝑥^{3}}[\frac{1}{2}𝑦^{2}]_{𝑥0}\,d𝑥 \\ & =∫_{10}\frac{3}{2}𝑥^{2}𝑒^{𝑥^{3}}\,d𝑥 \\ & =\frac{1}{2}[𝑒^{𝑥^{3}}]_{10} \\ & =\frac{1}{2}(𝑒−1).\end{aligned}
 
 
 $$

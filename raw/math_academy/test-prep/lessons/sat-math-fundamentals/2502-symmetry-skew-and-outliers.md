@@ -95,7 +95,7 @@ Also, when a distribution is perfectly symmetric, *the mean and the median are e
 $$
 
 
-\textrm{median} = 40.
+\text{median} = 40.
 
 
 $$
@@ -123,7 +123,7 @@ To calculate the mean (midpoint) of this distribution, we find the mean of the t
 $$
 
 
-\textrm{mean} = \dfrac{55+20}{2} = \dfrac{75}{2} = 37.5.
+\text{mean} = \dfrac{55+20}{2} = \dfrac{75}{2} = 37.5.
 
 
 $$

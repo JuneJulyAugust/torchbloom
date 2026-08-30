@@ -93,7 +93,7 @@ Substituting $X$ and $\mathbf{y}$ into the formula above and simplifying, we get
 $$
 
 
-\begin{aligned}\overset{𝜷}{^}=\begin{aligned}22.5 \\ −9 \\ 2\end{aligned}.\end{aligned}
+\begin{aligned}\hat{𝜷}=\begin{matrix}22.5 \\ −9 \\ 2\end{matrix}.\end{aligned}
 
 
 $$
@@ -199,7 +199,7 @@ that best fits the data can be found as the least-squares solution ${\hat{\bolds
 $$
 
 
-\begin{aligned}\overset{\overset\begin{aligned}1 & 2 & 2^{2} & 2^{3} \\ 1 & 3 & 3^{2} & 3^{3} \\ 1 & 4 & 4^{2} & 4^{3} \\ 1 & 5 & 5^{2} & 5^{3} \\ 1 & 6 & 6^{2} & 6^{3}\end{aligned}}{}}{𝑋}\overset{\overset\begin{aligned}𝛽_{0} \\ 𝛽_{1} \\ 𝛽_{2} \\ 𝛽_{3}\end{aligned}}{}}{𝜷} & =\overset{\overset\begin{aligned}40 \\ 70 \\ 120 \\ 100 \\ 80\end{aligned}}{}}{𝐲},\end{aligned}
+\begin{aligned}\overset{\begin{matrix}1 & 2 & 2^{2} & 2^{3} \\ 1 & 3 & 3^{2} & 3^{3} \\ 1 & 4 & 4^{2} & 4^{3} \\ 1 & 5 & 5^{2} & 5^{3} \\ 1 & 6 & 6^{2} & 6^{3}\end{matrix}}{𝑋}\overset{\begin{matrix}𝛽_{0} \\ 𝛽_{1} \\ 𝛽_{2} \\ 𝛽_{3}\end{matrix}}{𝜷} & =\overset{\begin{matrix}40 \\ 70 \\ 120 \\ 100 \\ 80\end{matrix}}{𝐲},\end{aligned}
 
 
 $$
@@ -285,7 +285,7 @@ that best fits the data can be found as the least-squares solution ${\hat{\bolds
 $$
 
 
-\begin{aligned}\overset{\overset\begin{aligned}1 & 1^{2} & 1^{3} \\ 1 & 2^{2} & 2^{3} \\ 1 & 3^{2} & 3^{3} \\ 1 & 4^{2} & 4^{3} \\ 1 & 5^{2} & 5^{3}\end{aligned}}{}}{𝑋}\overset{\overset\begin{aligned}𝛽_{0} \\ 𝛽_{2} \\ 𝛽_{3}\end{aligned}}{}}{𝜷} & =\overset{\overset\begin{aligned}6 \\ 3 \\ 2 \\ 4 \\ 6\end{aligned}}{}}{𝐲},\end{aligned}
+\begin{aligned}\overset{\begin{matrix}1 & 1^{2} & 1^{3} \\ 1 & 2^{2} & 2^{3} \\ 1 & 3^{2} & 3^{3} \\ 1 & 4^{2} & 4^{3} \\ 1 & 5^{2} & 5^{3}\end{matrix}}{𝑋}\overset{\begin{matrix}𝛽_{0} \\ 𝛽_{2} \\ 𝛽_{3}\end{matrix}}{𝜷} & =\overset{\begin{matrix}6 \\ 3 \\ 2 \\ 4 \\ 6\end{matrix}}{𝐲},\end{aligned}
 
 
 $$

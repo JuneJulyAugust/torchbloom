@@ -208,7 +208,7 @@ The value of $AB$ is not given, but we can calculate it using the Pythagorean th
 $$
 
 
-\begin{aligned}𝐴𝐵 & =\sqrt{√𝐴𝐷^{2}+𝐵𝐷^{2}} \\ & =\sqrt{√(\sqrt{√11})^{2}+5^{2}} \\ & =\sqrt{√11+25} \\ & =\sqrt{√36} \\ & =6\end{aligned}
+\begin{aligned}𝐴𝐵 & =\sqrt{𝐴𝐷^{2}+𝐵𝐷^{2}} \\ & =\sqrt{(\sqrt{11})^{2}+5^{2}} \\ & =\sqrt{11+25} \\ & =\sqrt{36} \\ & =6\end{aligned}
 
 
 $$

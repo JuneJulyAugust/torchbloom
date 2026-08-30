@@ -29,7 +29,7 @@ Now suppose that $C$ is a *closed* curve. The **circulation** of $\mathbf{F}$ al
 $$
 
 
-\Gamma = \oint\limits_C \mathbf F \cdot \textrm d\mathbf r = \int_a^b \mathbf F(r(t)) \cdot \mathbf r'(t) \; \textrm{d}t.
+\Gamma = \oint\limits_C \mathbf F \cdot \textrm d\mathbf r = \int_a^b \mathbf F(r(t)) \cdot \mathbf r'(t) \; \text{d}t.
 
 
 $$
@@ -67,7 +67,7 @@ The circulation $\Gamma$ measures the total work done by a force $\mathbf F$ in 
 $$
 
 
-\Gamma = \oint\limits_C \mathbf F \cdot \textrm{d} \mathbf r = \int_a^b \mathbf F(r(t)) \cdot \mathbf r'(t) \; \textrm{d}t.
+\Gamma = \oint\limits_C \mathbf F \cdot \text{d} \mathbf r = \int_a^b \mathbf F(r(t)) \cdot \mathbf r'(t) \; \text{d}t.
 
 
 $$
@@ -109,7 +109,7 @@ The circulation $\Gamma$ measures the total work done by a force $\mathbf F$ in 
 $$
 
 
-\Gamma = \oint\limits_C \mathbf F \cdot \textrm{d} \mathbf r = \int_a^b \mathbf F(r(t)) \cdot \mathbf r'(t) \; \textrm{d}t.
+\Gamma = \oint\limits_C \mathbf F \cdot \text{d} \mathbf r = \int_a^b \mathbf F(r(t)) \cdot \mathbf r'(t) \; \text{d}t.
 
 
 $$
@@ -159,7 +159,7 @@ Finally, we evaluate the integral as follows:
 $$
 
 
-\begin{aligned}Γ=\underset{𝐶}{∮}𝐅⋅d𝐫 & =∫_{2𝜋0}^{}𝐅(𝑟(𝑡))⋅𝐫^{′}(𝑡)\,d𝑡 \\ & =∫_{2𝜋0}^{}\,d𝑡 \\ & =2𝜋.\end{aligned}
+\begin{aligned}Γ=\underset{𝐶}{∮}𝐅⋅d𝐫 & =∫_{2𝜋0}𝐅(𝑟(𝑡))⋅𝐫^{′}(𝑡)\,d𝑡 \\ & =∫_{2𝜋0}\,d𝑡 \\ & =2𝜋.\end{aligned}
 
 
 $$
@@ -171,7 +171,7 @@ The fundamental theorem of line integrals states that
 $$
 
 
-\int_{C} \nabla f \cdot \textrm{d}\mathbf r = f(\mathbf r(b)) - f(\mathbf r(a))
+\int_{C} \nabla f \cdot \text{d}\mathbf r = f(\mathbf r(b)) - f(\mathbf r(a))
 
 
 $$
@@ -183,7 +183,7 @@ Now, if $C$ is a closed path that's traversed once, then $\mathbf r(a) = \mathbf
 $$
 
 
-\Gamma = \oint_{C} \nabla f \cdot \textrm{d}\mathbf r = 0.
+\Gamma = \oint_{C} \nabla f \cdot \text{d}\mathbf r = 0.
 
 
 $$
@@ -209,7 +209,7 @@ If $\mathbf F$ is a conservative vector field on $\mathbb R^2,$ then the circula
 $$
 
 
-\Gamma = \oint\limits_C \mathbf F \cdot \textrm{d} \mathbf r = 0.
+\Gamma = \oint\limits_C \mathbf F \cdot \text{d} \mathbf r = 0.
 
 
 $$

@@ -16,7 +16,7 @@ For any two integers $a$ and $b,$ there exist integers $u$ and $v$ such that
 $$
 
 
-au+bv= \textrm{gcd}(a,b).
+au+bv= \text{gcd}(a,b).
 
 
 $$
@@ -25,23 +25,23 @@ This is known as **Bézout's identity**.
 
 To find the integers $u$ and $v,$ we can use the **extended Euclidean algorithm**, which involves the following three steps:
 
-1. Carry out the Euclidean algorithm to find $\textrm{gcd}(a,b).$
+1. Carry out the Euclidean algorithm to find $\text{gcd}(a,b).$
 
 2. Solve for the remainder at each step, up to (and including) the step where the greatest common divisor appeared as a remainder.
 
-3. Back-substitute the remainders to reach the equation $au+bv= \textrm{gcd}(a,b).$
+3. Back-substitute the remainders to reach the equation $au+bv= \text{gcd}(a,b).$
 
 For example, let's use the extended Euclidean algorithm to find integers $u$ and $v$ such that
 
 $$
 
 
-48u+18v= \textrm{gcd}(48,18).
+48u+18v= \text{gcd}(48,18).
 
 
 $$
 
-- **Step 1:** First, we carry out the Euclidean algorithm to find $\textrm{gcd}(48,18).$ So, we find that $\text{gcd}(48,18) =6.$
+- **Step 1:** First, we carry out the Euclidean algorithm to find $\text{gcd}(48,18).$ So, we find that $\text{gcd}(48,18) =6.$
 
 - **Step 2:** We solve for the remainder (the rightmost term) at each step, up to (and including) the step where the greatest common divisor appeared as an integer.
 
@@ -62,7 +62,7 @@ We will use the extended Euclidean algorithm. First, we apply the forward reduct
 $$
 
 
-\begin{aligned}\begin{aligned}30 & = & 8⋅3 & + & 6 \\ & ↙ & & ↙ & \\ 8 & = & 6⋅1 & + & 2 \\ & ↙ & & ↙ & \\ 6 & = & 2⋅3 & + & 0\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}30 & = & 8⋅3 & + & 6 \\ & ↙ & & ↙ & \\ 8 & = & 6⋅1 & + & 2 \\ & ↙ & & ↙ & \\ 6 & = & 2⋅3 & + & 0\end{matrix}\end{aligned}
 
 
 $$
@@ -114,7 +114,7 @@ We will use the extended Euclidean algorithm. First, we apply the forward reduct
 $$
 
 
-\begin{aligned}\begin{aligned}36 & = & 19⋅1 & + & 17 \\ & ↙ & & ↙ & \\ 19 & = & 17⋅1 & + & 2 \\ & ↙ & & ↙ & \\ 17 & = & 2⋅8 & + & 1\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}36 & = & 19⋅1 & + & 17 \\ & ↙ & & ↙ & \\ 19 & = & 17⋅1 & + & 2 \\ & ↙ & & ↙ & \\ 17 & = & 2⋅8 & + & 1\end{matrix}\end{aligned}
 
 
 $$
@@ -168,17 +168,17 @@ Throughout this lesson we've made use of **Bézout's identity**, which states th
 $$
 
 
-au+bv= \textrm{gcd}(a,b).
+au+bv= \text{gcd}(a,b).
 
 
 $$
 
-It can also be shown that any integer combination of $a$ and $b$ is also a multiple of $\textrm{gcd}(a,b).$ In other words, for *any* integers $u'$ and $v',$ we have
+It can also be shown that any integer combination of $a$ and $b$ is also a multiple of $\text{gcd}(a,b).$ In other words, for *any* integers $u'$ and $v',$ we have
 
 $$
 
 
-\textrm{gcd}(a,b) \mid (au'+bv')
+\text{gcd}(a,b) \mid (au'+bv')
 
 
 $$
@@ -193,6 +193,6 @@ $$
 
 $$
 
-contains *all* the multiples of $\textrm{gcd}(a,b).$
+contains *all* the multiples of $\text{gcd}(a,b).$
 
 We'll make use of these results in future lessons.

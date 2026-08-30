@@ -136,7 +136,7 @@ Assuming the null hypothesis, i.e., $\mu=0,$ we compute the test statistic:
 $$
 
 
-\begin{aligned}𝑧 & =\frac{\overset{𝑑}{–}−𝜇}{𝜎/\sqrt{√𝑛}} \\ & =\frac{3.2−0}{3.5/\sqrt{√5}} \\ & ≈2.044\end{aligned}
+\begin{aligned}𝑧 & =\frac{\overset{𝑑}{–}−𝜇}{𝜎/\sqrt{𝑛}} \\ & =\frac{3.2−0}{3.5/\sqrt{5}} \\ & ≈2.044\end{aligned}
 
 
 $$
@@ -159,7 +159,7 @@ Finally, notice that our test statistic ($2.044$) lies outside the critical regi
 
 ![Instructional graphic](../../../lesson-assets/probability-and-statistics/topic-3312/0da5209988d75c84.png)
 
-So, we do not reject the null hypothesis $H_0.$ As a result, we conclude that there is $\boxed{\color{blue}\textrm{insufficient}}$ evidence that, at the $1\%$ level of significance, we have $\mu \gt 0.$
+So, we do not reject the null hypothesis $H_0.$ As a result, we conclude that there is $\boxed{\color{blue}\text{insufficient}}$ evidence that, at the $1\%$ level of significance, we have $\mu \gt 0.$
 
 Let's take a look at an example involving a large sample.
 
@@ -234,7 +234,7 @@ Assuming the null hypothesis, i.e., $\mu=0,$ we compute the test statistic:
 $$
 
 
-\begin{aligned}𝑧 & =\frac{\overset{𝑑}{–}−𝜇}{𝜎/\sqrt{√𝑛}} \\ & =\frac{−1−0}{2.5/\sqrt{√65}} \\ & ≈−3.225\end{aligned}
+\begin{aligned}𝑧 & =\frac{\overset{𝑑}{–}−𝜇}{𝜎/\sqrt{𝑛}} \\ & =\frac{−1−0}{2.5/\sqrt{65}} \\ & ≈−3.225\end{aligned}
 
 
 $$
@@ -257,7 +257,7 @@ Our test statistic ($-3.225$) lies in the critical region, as shown below.
 
 So, we reject the null hypothesis $H_0.$ As a result, we conclude the following:
 
-$\qquad$ There is $\boxed{\color{blue}\textrm{sufficient}}$ evidence that, at the $5\%$ level of significance, we have $\mu \lt 0.$
+$\qquad$ There is $\boxed{\color{blue}\text{sufficient}}$ evidence that, at the $5\%$ level of significance, we have $\mu \lt 0.$
 
 ### Example: Hypothesis Tests for Means of Paired-Samples: Two-Tailed Tests
 
@@ -330,7 +330,7 @@ Assuming the null hypothesis, i.e., $\mu=0,$ we compute the test statistic:
 $$
 
 
-\begin{aligned}𝑧 & =\frac{\overset{𝑑}{–}−𝜇}{𝜎/\sqrt{√𝑛}} \\ & =\frac{−0.45−0}{2.6/\sqrt{√49}} \\ & ≈−1.212\end{aligned}
+\begin{aligned}𝑧 & =\frac{\overset{𝑑}{–}−𝜇}{𝜎/\sqrt{𝑛}} \\ & =\frac{−0.45−0}{2.6/\sqrt{49}} \\ & ≈−1.212\end{aligned}
 
 
 $$
@@ -342,7 +342,7 @@ Since we are considering both tails, our critical region is
 $$
 
 
-Z \leq \boxed{\color{blue}-1.960} \qquad \textrm{or} \qquad Z \geq \boxed{\color{blue}1.960}.
+Z \leq \boxed{\color{blue}-1.960} \qquad \text{or} \qquad Z \geq \boxed{\color{blue}1.960}.
 
 
 $$
@@ -353,7 +353,7 @@ Our test statistic ($-1.212$) lies outside the critical region, as shown below.
 
 So, we do not reject the null hypothesis $H_0.$ As a result, we conclude the following:
 
-$\qquad$ There is $\boxed{\color{blue}\textrm{insufficient}}$ evidence that, at the $5\%$ level of significance, we have $\mu \neq 0.$
+$\qquad$ There is $\boxed{\color{blue}\text{insufficient}}$ evidence that, at the $5\%$ level of significance, we have $\mu \neq 0.$
 
 ### Example: Hypothesis Tests for Means of Paired-Samples: Applications
 
@@ -432,7 +432,7 @@ Assuming the null hypothesis, i.e., $\mu=0,$ we compute the test statistic:
 $$
 
 
-\begin{aligned}𝑧 & =\frac{\overset{𝑑}{–}−𝜇}{𝜎/\sqrt{√𝑛}} \\ & =\frac{0.4}{1.1/\sqrt{√42}} \\ & ≈2.357\end{aligned}
+\begin{aligned}𝑧 & =\frac{\overset{𝑑}{–}−𝜇}{𝜎/\sqrt{𝑛}} \\ & =\frac{0.4}{1.1/\sqrt{42}} \\ & ≈2.357\end{aligned}
 
 
 $$
@@ -444,7 +444,7 @@ Since the alternative hypothesis is $\mu \neq 0,$ we must consider the two tails
 $$
 
 
-Z \leq \boxed{\color{blue}-1.960} \qquad \textrm{or} \qquad Z \geq \boxed{\color{blue}1.960}.
+Z \leq \boxed{\color{blue}-1.960} \qquad \text{or} \qquad Z \geq \boxed{\color{blue}1.960}.
 
 
 $$
@@ -453,4 +453,4 @@ Our test statistic ($2.357$) lies in the critical region, as shown below.
 
 ![Instructional graphic](../../../lesson-assets/probability-and-statistics/topic-3312/bb077bfbe14c3830.png)
 
-At the $5\%$ level of significance, there is $\boxed{\color{blue}\textrm{sufficient}}$ evidence that the anxiety levels before and after participating in the anxiety treatment program are different.
+At the $5\%$ level of significance, there is $\boxed{\color{blue}\text{sufficient}}$ evidence that the anxiety levels before and after participating in the anxiety treatment program are different.

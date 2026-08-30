@@ -29,7 +29,7 @@ $$
 
 where $r$ is the radius of the base, $h$ is the height of the cone, and $\pi\approx 3.141\,59.$
 
-In our case, we have $r=2\,\textrm{cm}$ and $h=4\,\textrm{cm}.$ Substituting these values into the formula, we get
+In our case, we have $r=2\,\text{cm}$ and $h=4\,\text{cm}.$ Substituting these values into the formula, we get
 
 $$
 
@@ -44,7 +44,7 @@ We often express the volume of a cone as a multiple of $\pi.$ However, we can ge
 $$
 
 
-V\approx 16.76\: \textrm{cm}^3
+V\approx 16.76\: \text{cm}^3
 
 
 $$
@@ -55,7 +55,7 @@ rounded to two decimal places.
 
 #### Question
 
-The base radius of a right cone is $3 \, \textrm{cm}$ and its height is $5 \, \textrm{cm}.$ Calculate the volume of the cone.
+The base radius of a right cone is $3 \, \text{cm}$ and its height is $5 \, \text{cm}.$ Calculate the volume of the cone.
 
 #### Explanation
 
@@ -71,12 +71,12 @@ $$
 
 where $r$ is the radius of the base and $h$ is the height of the cone.
 
-Substituting $r = 3\,\textrm{cm}$ and $h = 5\,\textrm{cm}$ into the formula, we get
+Substituting $r = 3\,\text{cm}$ and $h = 5\,\text{cm}$ into the formula, we get
 
 $$
 
 
-V = \dfrac 1 3 \pi (3)^2 (5) = 15\pi \, \textrm{cm}^3.
+V = \dfrac 1 3 \pi (3)^2 (5) = 15\pi \, \text{cm}^3.
 
 
 $$
@@ -87,7 +87,7 @@ $$
 
 ![Instructional graphic](../../../../lesson-assets/integrated-math-ii-honors/topic-1145/8d0506a75e21ecfe.png)
 
-The volume of the right cone shown above is $189 \pi \, \textrm{in}^3.$ What is the radius of the base of the cone?
+The volume of the right cone shown above is $189 \pi \, \text{in}^3.$ What is the radius of the base of the cone?
 
 #### Explanation
 
@@ -123,13 +123,13 @@ $$
 
 $$
 
-Therefore, the radius of the base of the cone is $9 \, \textrm{cm}.$
+Therefore, the radius of the base of the cone is $9 \, \text{cm}.$
 
 ### Example: Calculating a Dimension of a Cone Given Its Volume and a Proportional Relationship
 
 #### Question
 
-The volume of a right cone is $144\pi \, \textrm{in}^3,$ and the radius of its base is four times its height. Find the height of the cone.
+The volume of a right cone is $144\pi \, \text{in}^3,$ and the radius of its base is four times its height. Find the height of the cone.
 
 #### Explanation
 
@@ -167,4 +167,4 @@ $$
 
 $$
 
-Therefore, the height of the cone is $3 \, \textrm{in}.$
+Therefore, the height of the cone is $3 \, \text{in}.$

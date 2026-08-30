@@ -20,7 +20,7 @@ Therefore, to find the position $x(t)$ of a particle given its velocity $v(t),$ 
 $$
 
 
-v(t) = \frac{\textrm{d}x}{\textrm{d}t} \quad\Rightarrow\quad x(t) = \int v(t) \, \textrm{d}t.
+v(t) = \frac{\text{d}x}{\text{d}t} \quad\Rightarrow\quad x(t) = \int v(t) \, \text{d}t.
 
 
 $$

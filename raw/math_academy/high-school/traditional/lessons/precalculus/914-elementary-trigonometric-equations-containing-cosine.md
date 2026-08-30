@@ -69,7 +69,7 @@ $$
 
 
 
-\begin{aligned}2cos⁡𝑥+\sqrt{√2} & =0 \\ 2cos⁡𝑥 & =−\sqrt{√2} \\ cos⁡𝑥 & =−\frac{\sqrt{√2}}{2}\end{aligned}
+\begin{aligned}2cos⁡𝑥+\sqrt{2} & =0 \\ 2cos⁡𝑥 & =−\sqrt{2} \\ cos⁡𝑥 & =−\frac{\sqrt{2}}{2}\end{aligned}
 
 
 
@@ -81,7 +81,7 @@ $$
 
 
 
-\begin{aligned}𝑥=arccos⁡(−\frac{\sqrt{√2}}{2})=\frac{3𝜋}{4}\end{aligned}
+\begin{aligned}𝑥=arccos⁡(−\frac{\sqrt{2}}{2})=\frac{3𝜋}{4}\end{aligned}
 
 
 
@@ -221,7 +221,7 @@ $$
 
 
 
-\begin{aligned}2cos⁡𝑥+\sqrt{√2} & =0 \\ 2cos⁡𝑥 & =−\sqrt{√2} \\ cos⁡𝑥 & =−\frac{\sqrt{√2}}{2}\end{aligned}
+\begin{aligned}2cos⁡𝑥+\sqrt{2} & =0 \\ 2cos⁡𝑥 & =−\sqrt{2} \\ cos⁡𝑥 & =−\frac{\sqrt{2}}{2}\end{aligned}
 
 
 
@@ -233,7 +233,7 @@ $$
 
 
 
-\begin{aligned}𝑥=arccos⁡(−\frac{\sqrt{√2}}{2})=135^{∘}\end{aligned}
+\begin{aligned}𝑥=arccos⁡(−\frac{\sqrt{2}}{2})=135^{∘}\end{aligned}
 
 
 

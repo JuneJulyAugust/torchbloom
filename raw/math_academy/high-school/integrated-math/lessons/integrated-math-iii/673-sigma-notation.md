@@ -92,7 +92,7 @@ The sum takes integer values of $n$ from $2$ to $4.$ So, we compute the terms fo
 $$
 
 
-\begin{aligned}\displaystyle\sum_{n=2}^{4}(2n-3)&= \overbrace{\big(2(2)-3\big)}^{\large n\,=\,2}+\overbrace{\big(2(3)-3\big)}^{\large n\,=\,3}+\overbrace{\big(2(4)-3\big)}^{\large n\,=\,4} \[-5pt] &=(4-3)+(6-3)+(8-3)\\\[5pt] &=1+3+5 \end{aligned}
+\begin{aligned}\displaystyle\sum_{n=2}^{4}(2n-3)&= \overbrace{\big(2(2)-3\big)}^{\large n\,=\,2}+\overbrace{\big(2(3)-3\big)}^{\large n\,=\,3}+\overbrace{\big(2(4)-3\big)}^{\large n\,=\,4} \\[-5pt] &=(4-3)+(6-3)+(8-3)\\[5pt] &=1+3+5 \end{aligned}
 
 
 $$

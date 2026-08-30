@@ -164,7 +164,7 @@ $$
 
 
 
-\begin{aligned}𝑓(𝑥)=\begin{aligned}\frac{2}{5}, & 𝑥=0 \\ −\frac{1}{5}, & 𝑥=1 \\ \frac{4}{5}, & 𝑥=2\end{aligned}\,𝑔(𝑥)=\begin{aligned}\frac{2}{5}, & 𝑥=0 \\ \frac{3}{10}, & 𝑥=1\end{aligned}\,ℎ(𝑥)=\begin{aligned}\frac{3}{10}, & 𝑥=0 \\ \frac{1}{2}, & 𝑥=1 \\ \frac{1}{5}, & 𝑥=2\end{aligned}\,\end{aligned}
+\begin{aligned}𝑓(𝑥)=\begin{matrix}\frac{2}{5}, & 𝑥=0 \\ −\frac{1}{5}, & 𝑥=1 \\ \frac{4}{5}, & 𝑥=2\end{matrix}\,𝑔(𝑥)=\begin{matrix}\frac{2}{5}, & 𝑥=0 \\ \frac{3}{10}, & 𝑥=1\end{matrix}\,ℎ(𝑥)=\begin{matrix}\frac{3}{10}, & 𝑥=0 \\ \frac{1}{2}, & 𝑥=1 \\ \frac{1}{5}, & 𝑥=2\end{matrix}\,\end{aligned}
 
 
 

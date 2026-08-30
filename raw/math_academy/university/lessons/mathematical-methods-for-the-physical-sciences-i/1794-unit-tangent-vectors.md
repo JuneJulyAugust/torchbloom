@@ -63,7 +63,7 @@ Next, we calculate the magnitude of $\mathbf r'(t)\mathbin{:}$
 $$
 
 
-\begin{aligned}‖𝐫^{′}(𝑡)‖ & =|3sin⁡𝑡cos⁡𝑡|\sqrt{√sin^{2}⁡𝑡+(−cos⁡𝑡)^{2}} \\ & =|3sin⁡𝑡cos⁡𝑡|\sqrt{√sin^{2}⁡𝑡+cos^{2}⁡𝑡} \\ & =|3sin⁡𝑡cos⁡𝑡|\sqrt{√1} \\ & =3sin⁡𝑡cos⁡𝑡\end{aligned}
+\begin{aligned}‖𝐫^{′}(𝑡)‖ & =|3sin⁡𝑡cos⁡𝑡|\sqrt{sin^{2}⁡𝑡+(−cos⁡𝑡)^{2}} \\ & =|3sin⁡𝑡cos⁡𝑡|\sqrt{sin^{2}⁡𝑡+cos^{2}⁡𝑡} \\ & =|3sin⁡𝑡cos⁡𝑡|\sqrt{1} \\ & =3sin⁡𝑡cos⁡𝑡\end{aligned}
 
 
 $$
@@ -133,7 +133,7 @@ Now, we calculate the magnitude of $\mathbf r'(0)\mathbin{:}$
 $$
 
 
-\begin{aligned}𝐫^{′}(0) & =\sqrt{√(3)^{2}+(−3)^{2}+(0)^{2}} \\ & =\sqrt{√2⋅3^{2}} \\ & =3\sqrt{√2}\end{aligned}
+\begin{aligned}𝐫^{′}(0) & =\sqrt{(3)^{2}+(−3)^{2}+(0)^{2}} \\ & =\sqrt{2⋅3^{2}} \\ & =3\sqrt{2}\end{aligned}
 
 
 $$
@@ -143,7 +143,7 @@ Finally, we normalize $\mathbf r'(0)\mathbin{:}$
 $$
 
 
-\begin{aligned}𝐓(0) & =\frac{𝐫^{′}(0)}{∥𝐫^{′}(0)∥} \\ & =\frac{1}{3\sqrt{√2}}(3\,𝐢−3\,𝐣) \\ & =\frac{1}{\sqrt{√2}}(𝐢−𝐣) \\ & =\frac{\sqrt{√2}}{2}(𝐢−𝐣)\end{aligned}
+\begin{aligned}𝐓(0) & =\frac{𝐫^{′}(0)}{∥𝐫^{′}(0)∥} \\ & =\frac{1}{3\sqrt{2}}(3\,𝐢−3\,𝐣) \\ & =\frac{1}{\sqrt{2}}(𝐢−𝐣) \\ & =\frac{\sqrt{2}}{2}(𝐢−𝐣)\end{aligned}
 
 
 $$

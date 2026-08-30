@@ -54,7 +54,7 @@ Therefore, $\theta_1 = 0, \theta_2 = \dfrac\pi 3,$ and the area of the first pet
 $$
 
 
-\begin{aligned}A & =\frac{1}{2}∫_{𝜋/30}^{}sin^{2}⁡(3𝜃)\,d𝜃 \\ & =\frac{1}{4}∫_{𝜋/30}^{}(1−cos⁡(6𝜃))\,d𝜃 \\ & =\frac{1}{4}(𝜃_{𝜋/30}^{}−\frac{1}{6}sin⁡(6𝜃)_{𝜋/30}^{}) \\ & =\frac{1}{4}(\frac{𝜋}{3}+0) \\ & =\frac{𝜋}{12}\,.\end{aligned}
+\begin{aligned}A & =\frac{1}{2}∫_{𝜋/30}sin^{2}⁡(3𝜃)\,d𝜃 \\ & =\frac{1}{4}∫_{𝜋/30}(1−cos⁡(6𝜃))\,d𝜃 \\ & =\frac{1}{4}(𝜃_{𝜋/30}−\frac{1}{6}sin⁡(6𝜃)_{𝜋/30}) \\ & =\frac{1}{4}(\frac{𝜋}{3}+0) \\ & =\frac{𝜋}{12}\,.\end{aligned}
 
 
 $$
@@ -74,7 +74,7 @@ The area bounded by a polar curve is given by
 $$
 
 
-A = \dfrac{1}{2} \int_{\theta_1}^{\theta_2} r^2(\theta) \: \textrm{d}\theta .
+A = \dfrac{1}{2} \int_{\theta_1}^{\theta_2} r^2(\theta) \: \text{d}\theta .
 
 
 $$
@@ -118,7 +118,7 @@ Therefore, our expression for the area is given by
 $$
 
 
-A = \dfrac{1}{2} \int_{0}^{\pi/5} \sin^2(5\theta) \: \textrm{d}\theta.
+A = \dfrac{1}{2} \int_{0}^{\pi/5} \sin^2(5\theta) \: \text{d}\theta.
 
 
 $$
@@ -164,7 +164,7 @@ The area bounded by a polar curve is given by
 $$
 
 
-A = \dfrac{1}{2} \int_{\theta_1}^{\theta_2} r^2(\theta) \: \textrm{d}\theta .
+A = \dfrac{1}{2} \int_{\theta_1}^{\theta_2} r^2(\theta) \: \text{d}\theta .
 
 
 $$
@@ -174,7 +174,7 @@ Since $r(\theta) = \sqrt{2}\cos(6\theta)$, we obtain
 $$
 
 
-\begin{aligned}𝐴 & =\frac{1}{2}∫_{𝜃_{2}𝜃_{1}}^{}(\sqrt{√2}cos⁡(6𝜃))^{2}\,d𝜃 \\ & =∫_{𝜃_{2}𝜃_{1}}^{}cos^{2}⁡(6𝜃)\,d𝜃.\end{aligned}
+\begin{aligned}𝐴 & =\frac{1}{2}∫_{𝜃_{2}𝜃_{1}}^{}(\sqrt{2}cos⁡(6𝜃))^{2}\,d𝜃 \\ & =∫_{𝜃_{2}𝜃_{1}}^{}cos^{2}⁡(6𝜃)\,d𝜃.\end{aligned}
 
 
 $$
@@ -210,7 +210,7 @@ Therefore, our expression for the area is given by
 $$
 
 
-\int_{-\pi/12}^{\pi/12} \cos^2(6\theta) \: \textrm{d}\theta.
+\int_{-\pi/12}^{\pi/12} \cos^2(6\theta) \: \text{d}\theta.
 
 
 $$
@@ -230,7 +230,7 @@ The area bounded by a polar curve is given by
 $$
 
 
-A = \dfrac{1}{2} \int_{\theta_1}^{\theta_2} r^2(\theta) \: \textrm{d}\theta .
+A = \dfrac{1}{2} \int_{\theta_1}^{\theta_2} r^2(\theta) \: \text{d}\theta .
 
 
 $$
@@ -240,7 +240,7 @@ Since $r(\theta) = 1+\sqrt{2}\cos\left(2\theta+\dfrac{\pi}{2}\right)$, we obtain
 $$
 
 
-\begin{aligned}𝐴 & =\frac{1}{2}∫_{𝜃_{2}𝜃_{1}}^{}(1+\sqrt{√2}cos⁡(2𝜃+\frac{𝜋}{2}))^{2}\,d𝜃\end{aligned}
+\begin{aligned}𝐴 & =\frac{1}{2}∫_{𝜃_{2}𝜃_{1}}^{}(1+\sqrt{2}cos⁡(2𝜃+\frac{𝜋}{2}))^{2}\,d𝜃\end{aligned}
 
 
 $$
@@ -252,7 +252,7 @@ The curve bounding the region crosses itself at the origin. Therefore, we want t
 $$
 
 
-\begin{aligned}1+\sqrt{√2}cos⁡(2𝜃+\frac{𝜋}{2}) & =0 \\ cos⁡(2𝜃+\frac{𝜋}{2}) & =−\frac{1}{\sqrt{√2}}.\end{aligned}
+\begin{aligned}1+\sqrt{2}cos⁡(2𝜃+\frac{𝜋}{2}) & =0 \\ cos⁡(2𝜃+\frac{𝜋}{2}) & =−\frac{1}{\sqrt{2}}.\end{aligned}
 
 
 $$
@@ -286,7 +286,7 @@ Therefore, our expression for the area is given by
 $$
 
 
-\displaystyle \dfrac{1}{2}\int_{-5\pi/8}^{\pi/8} \left( 1+\sqrt{2}\cos\left(2\theta+\dfrac{\pi}{2}\right)\right)^2 \: \textrm{d}\theta.
+\displaystyle \dfrac{1}{2}\int_{-5\pi/8}^{\pi/8} \left( 1+\sqrt{2}\cos\left(2\theta+\dfrac{\pi}{2}\right)\right)^2 \: \text{d}\theta.
 
 
 $$

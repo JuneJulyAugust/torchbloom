@@ -201,7 +201,7 @@ $$
 
 
 
-1,2 \in S\quad \textrm{and}\quad 3,4,5 \notin S
+1,2 \in S\quad \text{and}\quad 3,4,5 \notin S
 
 
 

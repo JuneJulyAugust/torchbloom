@@ -25,7 +25,7 @@ is in expanded form because it is the same as
 
 $$
 
-{\color{blue}{2}}\:\textrm{hundreds} + {\color{red}{7}}\:\textrm{tens} + {\color{magenta}{5}}\:\textrm{ones}.
+{\color{blue}{2}}\:\text{hundreds} + {\color{red}{7}}\:\text{tens} + {\color{magenta}{5}}\:\text{ones}.
 
 $$
 
@@ -41,7 +41,7 @@ is also in expanded form because it is the same as
 
 $$
 
-{\color{purple}{6}}\:\textrm{thousands} + {\color{blue}{0}}\:\textrm{hundreds} + {\color{red}{7}}\:\textrm{tens} + {\color{magenta}{6}}\:\textrm{ones}.
+{\color{purple}{6}}\:\text{thousands} + {\color{blue}{0}}\:\text{hundreds} + {\color{red}{7}}\:\text{tens} + {\color{magenta}{6}}\:\text{ones}.
 
 $$
 
@@ -73,7 +73,7 @@ A four-digit whole number is in expanded form when it is written as follows:
 
 $$
 
-\textrm{thousands} +\textrm{hundreds} + \textrm{tens} + \textrm{ones}
+\text{thousands} +\text{hundreds} + \text{tens} + \text{ones}
 
 $$
 
@@ -105,7 +105,7 @@ A three-digit whole number is in expanded form when it is written as a sum of ex
 
 $$
 
-\textrm{hundreds} + \textrm{tens} + \textrm{ones}
+\text{hundreds} + \text{tens} + \text{ones}
 
 $$
 

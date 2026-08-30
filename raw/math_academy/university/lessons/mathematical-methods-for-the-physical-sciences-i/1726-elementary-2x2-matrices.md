@@ -34,7 +34,7 @@ $$
 
 #### Question
 
-Is $\begin{aligned}𝐸=[\begin{aligned}1 & 0 \\ −5 & 1\end{aligned}]\end{aligned}$ an elementary matrix?
+Is $\begin{aligned}𝐸=[\begin{matrix}1 & 0 \\ −5 & 1\end{matrix}]\end{aligned}$ an elementary matrix?
 
 #### Explanation
 
@@ -45,7 +45,7 @@ The given matrix $E$ is an elementary matrix because it can be obtained from $I_
 $$
 
 
-\begin{aligned}𝐼_{2} & =[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+(−5)𝑅_{1} \\ & ∼[\begin{aligned}1 & 0 \\ −5 & 1\end{aligned}] & & \\ & =𝐸 & & \end{aligned}
+\begin{aligned}𝐼_{2} & =[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+(−5)𝑅_{1} \\ & ∼[\begin{matrix}1 & 0 \\ −5 & 1\end{matrix}] & & \\ & =𝐸 & & \end{aligned}
 
 
 $$
@@ -79,7 +79,7 @@ $$
 $$
 
 
-\begin{aligned}[𝐸\,|\,𝐼_{2}] & =[\begin{aligned}1 & 0 & 1 & 0 \\ 4 & 1 & 0 & 1\end{aligned}] & & 𝑅_{2}:=𝑅_{2}+(−4)𝑅_{1} \\ & ∼[\begin{aligned}1 & 0 & 1 & 0 \\ 0 & 1 & −4 & 1\end{aligned}] & & \\ & =[𝐼_{2}\,|\,𝐸^{−1}] & & \end{aligned}
+\begin{aligned}[𝐸\,|\,𝐼_{2}] & =[\begin{matrix}1 & 0 & 1 & 0 \\ 4 & 1 & 0 & 1\end{matrix}] & & 𝑅_{2}:=𝑅_{2}+(−4)𝑅_{1} \\ & ∼[\begin{matrix}1 & 0 & 1 & 0 \\ 0 & 1 & −4 & 1\end{matrix}] & & \\ & =[𝐼_{2}\,|\,𝐸^{−1}] & & \end{aligned}
 
 
 $$
@@ -109,7 +109,7 @@ We write down $E$ and the identity matrix $I$ side-by-side (as shown below) and 
 $$
 
 
-\begin{aligned}[𝐸\,|\,𝐼\,] & =\begin{aligned}1 & 0 & 1 & 0 \\ 0 & \frac{2}{5} & 0 & 1\end{aligned} & & 𝑅_{2}:=\frac{5}{2}𝑅_{2} \\ & ∼\begin{aligned}1 & 0 & 1 & 0 \\ 0 & 1 & 0 & \frac{5}{2}\end{aligned} & & \end{aligned}
+\begin{aligned}[𝐸\,|\,𝐼\,] & =\begin{matrix}1 & 0 & 1 & 0 \\ 0 & \frac{2}{5} & 0 & 1\end{matrix} & & 𝑅_{2}:=\frac{5}{2}𝑅_{2} \\ & ∼\begin{matrix}1 & 0 & 1 & 0 \\ 0 & 1 & 0 & \frac{5}{2}\end{matrix} & & \end{aligned}
 
 
 $$
@@ -139,7 +139,7 @@ First, we need to find $E_2^{-1}.$ We write down $E_2$ and the identity matrix $
 $$
 
 
-\begin{aligned}[𝐸_{2}\,|\,𝐼\,] & =[\begin{aligned}1 & −2 & 1 & 0 \\ 0 & 1 & 0 & 1\end{aligned}] & & 𝑅_{1}:=𝑅_{1}+2𝑅_{2} \\ & ∼[\begin{aligned}1 & 0 & 1 & 2 \\ 0 & 1 & 0 & 1\end{aligned}] & & \end{aligned}
+\begin{aligned}[𝐸_{2}\,|\,𝐼\,] & =[\begin{matrix}1 & −2 & 1 & 0 \\ 0 & 1 & 0 & 1\end{matrix}] & & 𝑅_{1}:=𝑅_{1}+2𝑅_{2} \\ & ∼[\begin{matrix}1 & 0 & 1 & 2 \\ 0 & 1 & 0 & 1\end{matrix}] & & \end{aligned}
 
 
 $$

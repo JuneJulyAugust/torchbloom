@@ -136,7 +136,7 @@ In our case, the gradient is
 $$
 
 
-\begin{aligned}∇𝑓(𝐱) & =\begin{aligned}\frac{𝜕}{𝜕𝑥}(𝑥^{2}𝑦−2𝑥𝑦^{2}+𝑥^{3}−4𝑥) \\ \frac{𝜕}{𝜕𝑦}(𝑥^{2}𝑦−2𝑥𝑦^{2}+𝑥^{3}−4𝑥)\end{aligned} \\ & =[\begin{aligned}2𝑥𝑦−2𝑦^{2}+3𝑥^{2}−4 \\ 𝑥^{2}−4𝑥𝑦\end{aligned}],\end{aligned}
+\begin{aligned}∇𝑓(𝐱) & =\begin{matrix}\frac{𝜕}{𝜕𝑥}(𝑥^{2}𝑦−2𝑥𝑦^{2}+𝑥^{3}−4𝑥) \\ \frac{𝜕}{𝜕𝑦}(𝑥^{2}𝑦−2𝑥𝑦^{2}+𝑥^{3}−4𝑥)\end{matrix} \\ & =[\begin{matrix}2𝑥𝑦−2𝑦^{2}+3𝑥^{2}−4 \\ 𝑥^{2}−4𝑥𝑦\end{matrix}],\end{aligned}
 
 
 $$
@@ -146,7 +146,7 @@ and the Hessian is
 $$
 
 
-\begin{aligned}𝐻_{𝑓}(𝐱) & =\begin{aligned}\frac{𝜕}{𝜕𝑥}(2𝑥𝑦−2𝑦^{2}+3𝑥^{2}−4) & \frac{𝜕}{𝜕𝑥}(𝑥^{2}−4𝑥𝑦) \\ \frac{𝜕}{𝜕𝑦}(2𝑥𝑦−2𝑦^{2}+3𝑥^{2}−4) & \frac{𝜕}{𝜕𝑦}(𝑥^{2}−4𝑥𝑦)\end{aligned} \\ & =[\begin{aligned}2𝑦+6𝑥 & 2𝑥−4𝑦 \\ 2𝑥−4𝑦 & −4𝑥\end{aligned}].\end{aligned}
+\begin{aligned}𝐻_{𝑓}(𝐱) & =\begin{matrix}\frac{𝜕}{𝜕𝑥}(2𝑥𝑦−2𝑦^{2}+3𝑥^{2}−4) & \frac{𝜕}{𝜕𝑥}(𝑥^{2}−4𝑥𝑦) \\ \frac{𝜕}{𝜕𝑦}(2𝑥𝑦−2𝑦^{2}+3𝑥^{2}−4) & \frac{𝜕}{𝜕𝑦}(𝑥^{2}−4𝑥𝑦)\end{matrix} \\ & =[\begin{matrix}2𝑦+6𝑥 & 2𝑥−4𝑦 \\ 2𝑥−4𝑦 & −4𝑥\end{matrix}].\end{aligned}
 
 
 $$
@@ -166,7 +166,7 @@ Starting with $[\begin{aligned}1 \\ 1\end{aligned}]$ we have
 $$
 
 
-\begin{aligned}𝐱_{1} & =𝐱_{0}−[\begin{aligned}2𝑦+6𝑥 & 2𝑥−4𝑦 \\ 2𝑥−4𝑦 & −4𝑥\end{aligned}]_{−1𝐱_{0}}^{}[\begin{aligned}2𝑥𝑦−2𝑦^{2}+3𝑥^{2}−4 \\ 𝑥^{2}−4𝑥𝑦\end{aligned}]_{𝐱_{0}} \\ & =[\begin{aligned}1 \\ 1\end{aligned}]−[\begin{aligned}2(1)+6(1) & 2(1)−4(1) \\ 2(1)−4(1) & −4(1)\end{aligned}]^{−1}[\begin{aligned}2(1)(1)−2(1)^{2}+3(1)^{2}−4 \\ (1)^{2}−4(1)(1)\end{aligned}] \\ & =[\begin{aligned}1 \\ 1\end{aligned}]−[\begin{aligned}8 & −2 \\ −2 & −4\end{aligned}]^{−1}[\begin{aligned}−1 \\ −3\end{aligned}] \\ & =[\begin{aligned}1 \\ 1\end{aligned}]−\frac{1}{(8)⋅(−4)−(−2)⋅(−2)}[\begin{aligned}−4 & 2 \\ 2 & 8\end{aligned}][\begin{aligned}−1 \\ −3\end{aligned}] \\ & =[\begin{aligned}1 \\ 1\end{aligned}]−\frac{1}{−36}[\begin{aligned}−2 \\ −26\end{aligned}] \\ & =[\begin{aligned}1 \\ 1\end{aligned}]+\begin{aligned}−\frac{1}{18} \\ −\frac{13}{18}\end{aligned} \\ & =\begin{aligned}\frac{17}{18} \\ \frac{5}{18}\end{aligned}.\end{aligned}
+\begin{aligned}𝐱_{1} & =𝐱_{0}−[\begin{matrix}2𝑦+6𝑥 & 2𝑥−4𝑦 \\ 2𝑥−4𝑦 & −4𝑥\end{matrix}]_{−1𝐱_{0}}^{}[\begin{matrix}2𝑥𝑦−2𝑦^{2}+3𝑥^{2}−4 \\ 𝑥^{2}−4𝑥𝑦\end{matrix}]_{𝐱_{0}} \\ & =[\begin{matrix}1 \\ 1\end{matrix}]−[\begin{matrix}2(1)+6(1) & 2(1)−4(1) \\ 2(1)−4(1) & −4(1)\end{matrix}]^{−1}[\begin{matrix}2(1)(1)−2(1)^{2}+3(1)^{2}−4 \\ (1)^{2}−4(1)(1)\end{matrix}] \\ & =[\begin{matrix}1 \\ 1\end{matrix}]−[\begin{matrix}8 & −2 \\ −2 & −4\end{matrix}]^{−1}[\begin{matrix}−1 \\ −3\end{matrix}] \\ & =[\begin{matrix}1 \\ 1\end{matrix}]−\frac{1}{(8)⋅(−4)−(−2)⋅(−2)}[\begin{matrix}−4 & 2 \\ 2 & 8\end{matrix}][\begin{matrix}−1 \\ −3\end{matrix}] \\ & =[\begin{matrix}1 \\ 1\end{matrix}]−\frac{1}{−36}[\begin{matrix}−2 \\ −26\end{matrix}] \\ & =[\begin{matrix}1 \\ 1\end{matrix}]+\begin{matrix}−\frac{1}{18} \\ −\frac{13}{18}\end{matrix} \\ & =\begin{matrix}\frac{17}{18} \\ \frac{5}{18}\end{matrix}.\end{aligned}
 
 
 $$
@@ -206,7 +206,7 @@ In our case, the gradient is
 $$
 
 
-\begin{aligned}∇𝑓(𝐱) & =\begin{aligned}\frac{𝜕}{𝜕𝑥}(2𝑥^{2}𝑦−2𝑥^{2}+3𝑥𝑦^{2}+3𝑥𝑦+1) \\ \frac{𝜕}{𝜕𝑦}(2𝑥^{2}𝑦−2𝑥^{2}+3𝑥𝑦^{2}+3𝑥𝑦+1)\end{aligned} \\ & =[\begin{aligned}4𝑥𝑦−4𝑥+3𝑦^{2}+3𝑦 \\ 2𝑥^{2}+6𝑥𝑦+3𝑥\end{aligned}],\end{aligned}
+\begin{aligned}∇𝑓(𝐱) & =\begin{matrix}\frac{𝜕}{𝜕𝑥}(2𝑥^{2}𝑦−2𝑥^{2}+3𝑥𝑦^{2}+3𝑥𝑦+1) \\ \frac{𝜕}{𝜕𝑦}(2𝑥^{2}𝑦−2𝑥^{2}+3𝑥𝑦^{2}+3𝑥𝑦+1)\end{matrix} \\ & =[\begin{matrix}4𝑥𝑦−4𝑥+3𝑦^{2}+3𝑦 \\ 2𝑥^{2}+6𝑥𝑦+3𝑥\end{matrix}],\end{aligned}
 
 
 $$
@@ -216,7 +216,7 @@ and the Hessian is
 $$
 
 
-\begin{aligned}𝐻_{𝑓}(𝐱) & =\begin{aligned}\frac{𝜕}{𝜕𝑥}(4𝑥𝑦−4𝑥+3𝑦^{2}+3𝑦) & \frac{𝜕}{𝜕𝑥}(2𝑥^{2}+6𝑥𝑦+3𝑥) \\ \frac{𝜕}{𝜕𝑦}(4𝑥𝑦−4𝑥+3𝑦^{2}+3𝑦) & \frac{𝜕}{𝜕𝑦}(2𝑥^{2}+6𝑥𝑦+3𝑥)\end{aligned} \\ & =[\begin{aligned}4𝑦−4 & 4𝑥+6𝑦+3 \\ 4𝑥+6𝑦+3 & 6𝑥\end{aligned}].\end{aligned}
+\begin{aligned}𝐻_{𝑓}(𝐱) & =\begin{matrix}\frac{𝜕}{𝜕𝑥}(4𝑥𝑦−4𝑥+3𝑦^{2}+3𝑦) & \frac{𝜕}{𝜕𝑥}(2𝑥^{2}+6𝑥𝑦+3𝑥) \\ \frac{𝜕}{𝜕𝑦}(4𝑥𝑦−4𝑥+3𝑦^{2}+3𝑦) & \frac{𝜕}{𝜕𝑦}(2𝑥^{2}+6𝑥𝑦+3𝑥)\end{matrix} \\ & =[\begin{matrix}4𝑦−4 & 4𝑥+6𝑦+3 \\ 4𝑥+6𝑦+3 & 6𝑥\end{matrix}].\end{aligned}
 
 
 $$
@@ -236,7 +236,7 @@ Starting with $[\begin{aligned}1 \\ 1\end{aligned}]$ we have
 $$
 
 
-\begin{aligned}𝐱_{1} & =𝐱_{0}−[\begin{aligned}4𝑦−4 & 4𝑥+6𝑦+3 \\ 4𝑥+6𝑦+3 & 6𝑥\end{aligned}]_{−1𝐱_{0}}^{}[\begin{aligned}4𝑥𝑦−4𝑥+3𝑦^{2}+3𝑦 \\ 2𝑥^{2}+6𝑥𝑦+3𝑥\end{aligned}]_{𝐱_{0}} \\ & =[\begin{aligned}1 \\ 1\end{aligned}]−[\begin{aligned}4(1)−4 & 4(1)+6(1)+3 \\ 4(1)+6(1)+3 & 6(1)\end{aligned}]^{−1}[\begin{aligned}4(1)(1)−4(1)+3(1)^{2}+3(1) \\ 2(1)^{2}+6(1)(1)+3(1)\end{aligned}] \\ & =[\begin{aligned}1 \\ 1\end{aligned}]−[\begin{aligned}0 & 13 \\ 13 & 6\end{aligned}]^{−1}[\begin{aligned}6 \\ 11\end{aligned}] \\ & =[\begin{aligned}1 \\ 1\end{aligned}]−\frac{1}{0⋅6−13⋅13}[\begin{aligned}6 & −13 \\ −13 & 0\end{aligned}][\begin{aligned}6 \\ 11\end{aligned}] \\ & =[\begin{aligned}1 \\ 1\end{aligned}]+\frac{1}{169}[\begin{aligned}−107 \\ −78\end{aligned}] \\ & ≈[\begin{aligned}0.367 \\ 0.538\end{aligned}].\end{aligned}
+\begin{aligned}𝐱_{1} & =𝐱_{0}−[\begin{matrix}4𝑦−4 & 4𝑥+6𝑦+3 \\ 4𝑥+6𝑦+3 & 6𝑥\end{matrix}]_{−1𝐱_{0}}^{}[\begin{matrix}4𝑥𝑦−4𝑥+3𝑦^{2}+3𝑦 \\ 2𝑥^{2}+6𝑥𝑦+3𝑥\end{matrix}]_{𝐱_{0}} \\ & =[\begin{matrix}1 \\ 1\end{matrix}]−[\begin{matrix}4(1)−4 & 4(1)+6(1)+3 \\ 4(1)+6(1)+3 & 6(1)\end{matrix}]^{−1}[\begin{matrix}4(1)(1)−4(1)+3(1)^{2}+3(1) \\ 2(1)^{2}+6(1)(1)+3(1)\end{matrix}] \\ & =[\begin{matrix}1 \\ 1\end{matrix}]−[\begin{matrix}0 & 13 \\ 13 & 6\end{matrix}]^{−1}[\begin{matrix}6 \\ 11\end{matrix}] \\ & =[\begin{matrix}1 \\ 1\end{matrix}]−\frac{1}{0⋅6−13⋅13}[\begin{matrix}6 & −13 \\ −13 & 0\end{matrix}][\begin{matrix}6 \\ 11\end{matrix}] \\ & =[\begin{matrix}1 \\ 1\end{matrix}]+\frac{1}{169}[\begin{matrix}−107 \\ −78\end{matrix}] \\ & ≈[\begin{matrix}0.367 \\ 0.538\end{matrix}].\end{aligned}
 
 
 $$
@@ -276,7 +276,7 @@ In our case, the gradient is
 $$
 
 
-\begin{aligned}∇𝑓(𝐱) & =\begin{aligned}\frac{𝜕}{𝜕𝑥}(𝑥^{3}+𝑦^{3}−3𝑥−6𝑦+9) \\ \frac{𝜕}{𝜕𝑦}(𝑥^{3}+𝑦^{3}−3𝑥−6𝑦+9)\end{aligned} \\ & =[\begin{aligned}3𝑥^{2}−3 \\ 3𝑦^{2}−6\end{aligned}],\end{aligned}
+\begin{aligned}∇𝑓(𝐱) & =\begin{matrix}\frac{𝜕}{𝜕𝑥}(𝑥^{3}+𝑦^{3}−3𝑥−6𝑦+9) \\ \frac{𝜕}{𝜕𝑦}(𝑥^{3}+𝑦^{3}−3𝑥−6𝑦+9)\end{matrix} \\ & =[\begin{matrix}3𝑥^{2}−3 \\ 3𝑦^{2}−6\end{matrix}],\end{aligned}
 
 
 $$
@@ -286,7 +286,7 @@ and the Hessian is
 $$
 
 
-\begin{aligned}𝐻_{𝑓}(𝐱) & =\begin{aligned}\frac{𝜕}{𝜕𝑥}(3𝑥^{2}−3) & \frac{𝜕}{𝜕𝑥}(3𝑦^{2}−6) \\ \frac{𝜕}{𝜕𝑦}(3𝑥^{2}−3) & \frac{𝜕}{𝜕𝑦}(3𝑦^{2}−6)\end{aligned} \\ & =[\begin{aligned}6𝑥 & 0 \\ 0 & 6𝑦\end{aligned}].\end{aligned}
+\begin{aligned}𝐻_{𝑓}(𝐱) & =\begin{matrix}\frac{𝜕}{𝜕𝑥}(3𝑥^{2}−3) & \frac{𝜕}{𝜕𝑥}(3𝑦^{2}−6) \\ \frac{𝜕}{𝜕𝑦}(3𝑥^{2}−3) & \frac{𝜕}{𝜕𝑦}(3𝑦^{2}−6)\end{matrix} \\ & =[\begin{matrix}6𝑥 & 0 \\ 0 & 6𝑦\end{matrix}].\end{aligned}
 
 
 $$
@@ -306,7 +306,7 @@ For the second iteration, we have
 $$
 
 
-\begin{aligned}𝐱_{2} & =𝐱_{1}−[\begin{aligned}6𝑥 & 0 \\ 0 & 6𝑦\end{aligned}]_{−1𝐱_{1}}^{}[\begin{aligned}3𝑥^{2}−3 \\ 3𝑦^{2}−6\end{aligned}]_{𝐱_{1}} \\ & =[\begin{aligned}1 \\ 1.5\end{aligned}]−[\begin{aligned}6(1) & 0 \\ 0 & 6(1.5)\end{aligned}]^{−1}[\begin{aligned}3(1)^{2}−3 \\ 3(1.5)^{2}−6\end{aligned}] \\ & =[\begin{aligned}1 \\ 1.5\end{aligned}]−[\begin{aligned}6 & 0 \\ 0 & 9\end{aligned}]^{−1}[\begin{aligned}0 \\ 0.75\end{aligned}] \\ & =[\begin{aligned}1 \\ 1.5\end{aligned}]−\frac{1}{6⋅9−0⋅0}[\begin{aligned}9 & 0 \\ 0 & 6\end{aligned}][\begin{aligned}0 \\ 0.75\end{aligned}] \\ & =[\begin{aligned}1 \\ 1.5\end{aligned}]−\frac{1}{54}[\begin{aligned}0 \\ 4.5\end{aligned}] \\ & ≈\begin{aligned}1 \\ 1.417\end{aligned}.\end{aligned}
+\begin{aligned}𝐱_{2} & =𝐱_{1}−[\begin{matrix}6𝑥 & 0 \\ 0 & 6𝑦\end{matrix}]_{−1𝐱_{1}}^{}[\begin{matrix}3𝑥^{2}−3 \\ 3𝑦^{2}−6\end{matrix}]_{𝐱_{1}} \\ & =[\begin{matrix}1 \\ 1.5\end{matrix}]−[\begin{matrix}6(1) & 0 \\ 0 & 6(1.5)\end{matrix}]^{−1}[\begin{matrix}3(1)^{2}−3 \\ 3(1.5)^{2}−6\end{matrix}] \\ & =[\begin{matrix}1 \\ 1.5\end{matrix}]−[\begin{matrix}6 & 0 \\ 0 & 9\end{matrix}]^{−1}[\begin{matrix}0 \\ 0.75\end{matrix}] \\ & =[\begin{matrix}1 \\ 1.5\end{matrix}]−\frac{1}{6⋅9−0⋅0}[\begin{matrix}9 & 0 \\ 0 & 6\end{matrix}][\begin{matrix}0 \\ 0.75\end{matrix}] \\ & =[\begin{matrix}1 \\ 1.5\end{matrix}]−\frac{1}{54}[\begin{matrix}0 \\ 4.5\end{matrix}] \\ & ≈\begin{matrix}1 \\ 1.417\end{matrix}.\end{aligned}
 
 
 $$
@@ -404,7 +404,7 @@ In our case, the gradient is
 $$
 
 
-\begin{aligned}∇𝑓(𝐱) & =\begin{aligned}\frac{𝜕}{𝜕𝑥}(𝑥^{2}𝑦−2𝑥𝑦^{2}+𝑥^{3}−4𝑥) \\ \frac{𝜕}{𝜕𝑦}(𝑥^{2}𝑦−2𝑥𝑦^{2}+𝑥^{3}−4𝑥)\end{aligned} \\ & =[\begin{aligned}2𝑥𝑦−2𝑦^{2}+3𝑥^{2}−4 \\ 𝑥^{2}−4𝑥𝑦\end{aligned}],\end{aligned}
+\begin{aligned}∇𝑓(𝐱) & =\begin{matrix}\frac{𝜕}{𝜕𝑥}(𝑥^{2}𝑦−2𝑥𝑦^{2}+𝑥^{3}−4𝑥) \\ \frac{𝜕}{𝜕𝑦}(𝑥^{2}𝑦−2𝑥𝑦^{2}+𝑥^{3}−4𝑥)\end{matrix} \\ & =[\begin{matrix}2𝑥𝑦−2𝑦^{2}+3𝑥^{2}−4 \\ 𝑥^{2}−4𝑥𝑦\end{matrix}],\end{aligned}
 
 
 $$
@@ -414,7 +414,7 @@ and the Hessian is
 $$
 
 
-\begin{aligned}𝐻_{𝑓}(𝐱) & =\begin{aligned}\frac{𝜕}{𝜕𝑥}(2𝑥𝑦−2𝑦^{2}+3𝑥^{2}−4) & \frac{𝜕}{𝜕𝑥}(𝑥^{2}−4𝑥𝑦) \\ \frac{𝜕}{𝜕𝑦}(2𝑥𝑦−2𝑦^{2}+3𝑥^{2}−4) & \frac{𝜕}{𝜕𝑦}(𝑥^{2}−4𝑥𝑦)\end{aligned} \\ & =[\begin{aligned}2𝑦+6𝑥 & 2𝑥−4𝑦 \\ 2𝑥−4𝑦 & −4𝑥\end{aligned}].\end{aligned}
+\begin{aligned}𝐻_{𝑓}(𝐱) & =\begin{matrix}\frac{𝜕}{𝜕𝑥}(2𝑥𝑦−2𝑦^{2}+3𝑥^{2}−4) & \frac{𝜕}{𝜕𝑥}(𝑥^{2}−4𝑥𝑦) \\ \frac{𝜕}{𝜕𝑦}(2𝑥𝑦−2𝑦^{2}+3𝑥^{2}−4) & \frac{𝜕}{𝜕𝑦}(𝑥^{2}−4𝑥𝑦)\end{matrix} \\ & =[\begin{matrix}2𝑦+6𝑥 & 2𝑥−4𝑦 \\ 2𝑥−4𝑦 & −4𝑥\end{matrix}].\end{aligned}
 
 
 $$
@@ -434,7 +434,7 @@ Starting with $[\begin{aligned}1 \\ 1\end{aligned}]$ we have
 $$
 
 
-\begin{aligned}[\begin{aligned}2𝑦+6𝑥 & 2𝑥−4𝑦 \\ 2𝑥−4𝑦 & −4𝑥\end{aligned}]_{𝐱_{0}}(𝐱_{1}−𝐱_{0}) & =−[\begin{aligned}2𝑥𝑦−2𝑦^{2}+3𝑥^{2}−4 \\ 𝑥^{2}−4𝑥𝑦\end{aligned}]_{𝐱_{0}} \\ [\begin{aligned}2(1)+6(1) & 2(1)−4(1) \\ 2(1)−4(1) & −4(1)\end{aligned}](𝐱_{1}−𝐱_{0}) & =−[\begin{aligned}2(1)(1)−2(1)^{2}+3(1)^{2}−4 \\ (1)^{2}−4(1)(1)\end{aligned}] \\ [\begin{aligned}8 & −2 \\ −2 & −4\end{aligned}](𝐱_{1}−𝐱_{0}) & =[\begin{aligned}1 \\ 3\end{aligned}].\end{aligned}
+\begin{aligned}[\begin{matrix}2𝑦+6𝑥 & 2𝑥−4𝑦 \\ 2𝑥−4𝑦 & −4𝑥\end{matrix}]_{𝐱_{0}}(𝐱_{1}−𝐱_{0}) & =−[\begin{matrix}2𝑥𝑦−2𝑦^{2}+3𝑥^{2}−4 \\ 𝑥^{2}−4𝑥𝑦\end{matrix}]_{𝐱_{0}} \\ [\begin{matrix}2(1)+6(1) & 2(1)−4(1) \\ 2(1)−4(1) & −4(1)\end{matrix}](𝐱_{1}−𝐱_{0}) & =−[\begin{matrix}2(1)(1)−2(1)^{2}+3(1)^{2}−4 \\ (1)^{2}−4(1)(1)\end{matrix}] \\ [\begin{matrix}8 & −2 \\ −2 & −4\end{matrix}](𝐱_{1}−𝐱_{0}) & =[\begin{matrix}1 \\ 3\end{matrix}].\end{aligned}
 
 
 $$
@@ -444,7 +444,7 @@ Solving this system of equations, we get $[\begin{aligned}−1/18 \\ −13/18\en
 $$
 
 
-\begin{aligned}𝐱_{1} & =𝐱_{0}+\begin{aligned}−\frac{1}{18} \\ −\frac{13}{18}\end{aligned} \\ & =[\begin{aligned}1 \\ 1\end{aligned}]+\begin{aligned}−\frac{1}{18} \\ −\frac{13}{18}\end{aligned} \\ & =\begin{aligned}\frac{17}{18} \\ \frac{5}{18}\end{aligned}.\end{aligned}
+\begin{aligned}𝐱_{1} & =𝐱_{0}+\begin{matrix}−\frac{1}{18} \\ −\frac{13}{18}\end{matrix} \\ & =[\begin{matrix}1 \\ 1\end{matrix}]+\begin{matrix}−\frac{1}{18} \\ −\frac{13}{18}\end{matrix} \\ & =\begin{matrix}\frac{17}{18} \\ \frac{5}{18}\end{matrix}.\end{aligned}
 
 
 $$
@@ -496,7 +496,7 @@ In our case, the gradient is
 $$
 
 
-\begin{aligned}∇𝑓(𝐱) & =\begin{aligned}\frac{𝜕}{𝜕𝑥}(𝑥𝑦^{2}+3𝑥^{2}−𝑥𝑦−𝑥) \\ \frac{𝜕}{𝜕𝑦}(𝑥𝑦^{2}+3𝑥^{2}−𝑥𝑦−𝑥)\end{aligned} \\ & =[\begin{aligned}𝑦^{2}+6𝑥−𝑦−1 \\ 2𝑥𝑦−𝑥\end{aligned}],\end{aligned}
+\begin{aligned}∇𝑓(𝐱) & =\begin{matrix}\frac{𝜕}{𝜕𝑥}(𝑥𝑦^{2}+3𝑥^{2}−𝑥𝑦−𝑥) \\ \frac{𝜕}{𝜕𝑦}(𝑥𝑦^{2}+3𝑥^{2}−𝑥𝑦−𝑥)\end{matrix} \\ & =[\begin{matrix}𝑦^{2}+6𝑥−𝑦−1 \\ 2𝑥𝑦−𝑥\end{matrix}],\end{aligned}
 
 
 $$
@@ -506,7 +506,7 @@ and the Hessian is
 $$
 
 
-\begin{aligned}𝐻_{𝑓}(𝐱) & =\begin{aligned}\frac{𝜕}{𝜕𝑥}(𝑦^{2}+6𝑥−𝑦−1) & \frac{𝜕}{𝜕𝑥}(2𝑥𝑦−𝑥) \\ \frac{𝜕}{𝜕𝑦}(𝑦^{2}+6𝑥−𝑦−1) & \frac{𝜕}{𝜕𝑦}(2𝑥𝑦−𝑥)\end{aligned} \\ & =[\begin{aligned}6 & 2𝑦−1 \\ 2𝑦−1 & 2𝑥\end{aligned}].\end{aligned}
+\begin{aligned}𝐻_{𝑓}(𝐱) & =\begin{matrix}\frac{𝜕}{𝜕𝑥}(𝑦^{2}+6𝑥−𝑦−1) & \frac{𝜕}{𝜕𝑥}(2𝑥𝑦−𝑥) \\ \frac{𝜕}{𝜕𝑦}(𝑦^{2}+6𝑥−𝑦−1) & \frac{𝜕}{𝜕𝑦}(2𝑥𝑦−𝑥)\end{matrix} \\ & =[\begin{matrix}6 & 2𝑦−1 \\ 2𝑦−1 & 2𝑥\end{matrix}].\end{aligned}
 
 
 $$
@@ -526,7 +526,7 @@ Starting with $[\begin{aligned}1 \\ 1\end{aligned}]$ we have
 $$
 
 
-\begin{aligned}[\begin{aligned}6 & 2𝑦−1 \\ 2𝑦−1 & 2𝑥\end{aligned}]_{𝐱_{0}}(𝐱_{1}−𝐱_{0}) & =−[\begin{aligned}𝑦^{2}+6𝑥−𝑦−1 \\ 2𝑥𝑦−𝑥\end{aligned}]_{𝐱_{0}} \\ [\begin{aligned}6 & 2(1)−1 \\ 2(1)−1 & 2(1)\end{aligned}](𝐱_{1}−𝐱_{0}) & =−[\begin{aligned}(1)^{2}+6(1)−(1)−1 \\ 2(1)(1)−1\end{aligned}] \\ [\begin{aligned}6 & 1 \\ 1 & 2\end{aligned}](𝐱_{1}−𝐱_{0}) & =[\begin{aligned}−5 \\ −1\end{aligned}].\end{aligned}
+\begin{aligned}[\begin{matrix}6 & 2𝑦−1 \\ 2𝑦−1 & 2𝑥\end{matrix}]_{𝐱_{0}}(𝐱_{1}−𝐱_{0}) & =−[\begin{matrix}𝑦^{2}+6𝑥−𝑦−1 \\ 2𝑥𝑦−𝑥\end{matrix}]_{𝐱_{0}} \\ [\begin{matrix}6 & 2(1)−1 \\ 2(1)−1 & 2(1)\end{matrix}](𝐱_{1}−𝐱_{0}) & =−[\begin{matrix}(1)^{2}+6(1)−(1)−1 \\ 2(1)(1)−1\end{matrix}] \\ [\begin{matrix}6 & 1 \\ 1 & 2\end{matrix}](𝐱_{1}−𝐱_{0}) & =[\begin{matrix}−5 \\ −1\end{matrix}].\end{aligned}
 
 
 $$
@@ -536,7 +536,7 @@ Solving this system of equations, we get $[\begin{aligned}−9/11 \\ −1/11\end
 $$
 
 
-\begin{aligned}𝐱_{1} & =𝐱_{0}+[\begin{aligned}−9/11 \\ −1/11\end{aligned}] \\ & =[\begin{aligned}1 \\ 1\end{aligned}]+[\begin{aligned}−9/11 \\ −1/11\end{aligned}] \\ & ≈[\begin{aligned}0.182 \\ 0.909\end{aligned}].\end{aligned}
+\begin{aligned}𝐱_{1} & =𝐱_{0}+[\begin{matrix}−9/11 \\ −1/11\end{matrix}] \\ & =[\begin{matrix}1 \\ 1\end{matrix}]+[\begin{matrix}−9/11 \\ −1/11\end{matrix}] \\ & ≈[\begin{matrix}0.182 \\ 0.909\end{matrix}].\end{aligned}
 
 
 $$

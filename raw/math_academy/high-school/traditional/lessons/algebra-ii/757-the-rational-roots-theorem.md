@@ -21,7 +21,7 @@ $$
 
 
 
-\pm \dfrac{\textrm{factor of the constant term}}{\textrm{factor of the leading coefficient}}.
+\pm \dfrac{\text{factor of the constant term}}{\text{factor of the leading coefficient}}.
 
 
 
@@ -99,7 +99,7 @@ $$
 
 
 
-\pm \dfrac{\textrm{factor of the constant term}}{\textrm{factor of the leading coefficient}}.
+\pm \dfrac{\text{factor of the constant term}}{\text{factor of the leading coefficient}}.
 
 
 
@@ -111,7 +111,7 @@ $$
 
 
 
-\pm \dfrac{\textrm{factor of }{-6}}{\textrm{factor of }9}.
+\pm \dfrac{\text{factor of }{-6}}{\text{factor of }9}.
 
 
 
@@ -139,7 +139,7 @@ $$
 
 
 
-\pm \dfrac{\textrm{factor of the constant term}}{\textrm{factor of the leading coefficient}}.
+\pm \dfrac{\text{factor of the constant term}}{\text{factor of the leading coefficient}}.
 
 
 
@@ -151,7 +151,7 @@ $$
 
 
 
-\pm \dfrac{\textrm{factor of }{15}}{\textrm{factor of }12}.
+\pm \dfrac{\text{factor of }{15}}{\text{factor of }12}.
 
 
 
@@ -173,7 +173,7 @@ $$
 
 
 
-\pm \dfrac{\textrm{factor of the constant term}}{\textrm{factor of the leading coefficient}}.
+\pm \dfrac{\text{factor of the constant term}}{\text{factor of the leading coefficient}}.
 
 
 
@@ -237,7 +237,7 @@ $$
 
 
 
-\pm \dfrac{\textrm{factor of the constant term}}{\textrm{factor of the leading coefficient}}.
+\pm \dfrac{\text{factor of the constant term}}{\text{factor of the leading coefficient}}.
 
 
 
@@ -249,7 +249,7 @@ $$
 
 
 
-\pm \dfrac{\textrm{factor of }{4}}{\textrm{factor of }1}.
+\pm \dfrac{\text{factor of }{4}}{\text{factor of }1}.
 
 
 

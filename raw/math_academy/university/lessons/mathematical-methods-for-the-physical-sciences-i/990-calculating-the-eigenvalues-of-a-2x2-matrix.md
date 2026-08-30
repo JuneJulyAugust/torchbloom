@@ -24,7 +24,7 @@ $$
 
 $$
 
-The final equation above tells us that there should be at least one non-zero vector $\mathbf{\color{blue}v}$ that lies in $\textrm{Null}(A-\lambda I)$, the null space of the matrix $A-\lambda I.$ As a result, the invertible matrix theorem tells us that the matrix $\, A-\lambda I \,$ must be singular, meaning $\det(A-\lambda I) = 0.$
+The final equation above tells us that there should be at least one non-zero vector $\mathbf{\color{blue}v}$ that lies in $\text{Null}(A-\lambda I)$, the null space of the matrix $A-\lambda I.$ As a result, the invertible matrix theorem tells us that the matrix $\, A-\lambda I \,$ must be singular, meaning $\det(A-\lambda I) = 0.$
 
 We've reduced the problem to finding the values of $\lambda$ that satisfy the equation
 
@@ -43,7 +43,7 @@ First, we write down the matrix $A-\lambda I\mathbin{:}$
 $$
 
 
-\begin{aligned}𝐴\,−\,𝜆𝐼 & =[\begin{aligned}2 & 5 \\ −1 & −4\end{aligned}]\,−\,𝜆[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ & =[\begin{aligned}2\,−\,𝜆 & 5 \\ −1 & −4\,−\,𝜆\end{aligned}]\end{aligned}
+\begin{aligned}𝐴\,−\,𝜆𝐼 & =[\begin{matrix}2 & 5 \\ −1 & −4\end{matrix}]\,−\,𝜆[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}] \\ & =[\begin{matrix}2\,−\,𝜆 & 5 \\ −1 & −4\,−\,𝜆\end{matrix}]\end{aligned}
 
 
 $$
@@ -53,7 +53,7 @@ Then, we solve the characteristic equation $\det(A-\lambda I) = 0\mathbin{:}$
 $$
 
 
-\begin{aligned}det(𝐴−𝜆𝐼) & =0 \\ \begin{aligned}2−𝜆 & 5 \\ −1 & −4−𝜆\end{aligned} & =0 \\ (2−𝜆)(−4−𝜆)−5⋅(−1) & =0 \\ −8−2𝜆+4𝜆+𝜆^{2}+5 & =0 \\ 𝜆^{2}+2𝜆−3 & =0 \\ (𝜆+3)(𝜆−1) & =0\end{aligned}
+\begin{aligned}det(𝐴−𝜆𝐼) & =0 \\ \begin{matrix}2−𝜆 & 5 \\ −1 & −4−𝜆\end{matrix} & =0 \\ (2−𝜆)(−4−𝜆)−5⋅(−1) & =0 \\ −8−2𝜆+4𝜆+𝜆^{2}+5 & =0 \\ 𝜆^{2}+2𝜆−3 & =0 \\ (𝜆+3)(𝜆−1) & =0\end{aligned}
 
 
 $$
@@ -83,7 +83,7 @@ Then, the characteristic equation is
 $$
 
 
-\begin{aligned}det(𝐴−𝜆𝐼) & =0 \\ \begin{aligned}2−𝜆 & 4 \\ 3 & 2−𝜆\end{aligned} & =0 \\ (2−𝜆)(2−𝜆)−4⋅3 & =0 \\ 4−4𝜆+𝜆^{2}−12 & =0 \\ 𝜆^{2}−4𝜆−8 & =0.\end{aligned}
+\begin{aligned}det(𝐴−𝜆𝐼) & =0 \\ \begin{matrix}2−𝜆 & 4 \\ 3 & 2−𝜆\end{matrix} & =0 \\ (2−𝜆)(2−𝜆)−4⋅3 & =0 \\ 4−4𝜆+𝜆^{2}−12 & =0 \\ 𝜆^{2}−4𝜆−8 & =0.\end{aligned}
 
 
 $$
@@ -121,7 +121,7 @@ Now, let's find and solve the characteristic equation $\det(A-\lambda I) = 0\mat
 $$
 
 
-\begin{aligned}det(𝐴−𝜆𝐼) & =0 \\ \begin{aligned}10−𝜆 & 3 \\ 6 & 7−𝜆\end{aligned} & =0 \\ (10−𝜆)(7−𝜆)−3⋅6 & =0 \\ 70−7𝜆−10𝜆+𝜆^{2}−18 & =0 \\ 𝜆^{2}−17𝜆+52 & =0\end{aligned}
+\begin{aligned}det(𝐴−𝜆𝐼) & =0 \\ \begin{matrix}10−𝜆 & 3 \\ 6 & 7−𝜆\end{matrix} & =0 \\ (10−𝜆)(7−𝜆)−3⋅6 & =0 \\ 70−7𝜆−10𝜆+𝜆^{2}−18 & =0 \\ 𝜆^{2}−17𝜆+52 & =0\end{aligned}
 
 
 $$
@@ -131,7 +131,7 @@ Using the quadratic formula, we obtain
 $$
 
 
-\begin{aligned}𝜆 & =\frac{17±\sqrt{√(−17)^{2}−4⋅1⋅52}}{2⋅1} \\ & =\frac{17±\sqrt{√81}}{2} \\ & =\frac{17±9}{2} \\ & =13,4.\end{aligned}
+\begin{aligned}𝜆 & =\frac{17±\sqrt{(−17)^{2}−4⋅1⋅52}}{2⋅1} \\ & =\frac{17±\sqrt{81}}{2} \\ & =\frac{17±9}{2} \\ & =13,4.\end{aligned}
 
 
 $$
@@ -161,7 +161,7 @@ Now, let's find and solve the characteristic equation $\det(B-\lambda I) = 0\mat
 $$
 
 
-\begin{aligned}det(𝐵−𝜆𝐼) & =0 \\ \begin{aligned}4−𝜆 & 0 \\ 0 & 4−𝜆\end{aligned} & =0 \\ (4−𝜆)(4−𝜆)−0⋅0 & =0 \\ (𝜆−4)^{2} & =0\end{aligned}
+\begin{aligned}det(𝐵−𝜆𝐼) & =0 \\ \begin{matrix}4−𝜆 & 0 \\ 0 & 4−𝜆\end{matrix} & =0 \\ (4−𝜆)(4−𝜆)−0⋅0 & =0 \\ (𝜆−4)^{2} & =0\end{aligned}
 
 
 $$
@@ -174,7 +174,7 @@ Therefore, the matrix $B$ has only one eigenvalue $\lambda=4,$ which is a double
 
 #### Question
 
-Find all real eigenvalues of the matrix $[\begin{aligned}3 & 0 \\ 9 & −2\sqrt{√3}\end{aligned}]$
+Find all real eigenvalues of the matrix $[\begin{aligned}3 & 0 \\ 9 & −2\sqrt{3}\end{aligned}]$
 
 #### Explanation
 
@@ -183,7 +183,7 @@ Let's start by writing the matrix $A - \lambda I \mathbin{:}$
 $$
 
 
-[\begin{aligned}3−𝜆 & 0 \\ 9 & −2\sqrt{√3}−𝜆\end{aligned}]
+[\begin{aligned}3−𝜆 & 0 \\ 9 & −2\sqrt{3}−𝜆\end{aligned}]
 
 
 $$
@@ -193,7 +193,7 @@ Now, let's find and solve the characteristic equation $\det (A - \lambda I) = 0\
 $$
 
 
-\begin{aligned}det(𝐴−𝜆𝐼) & =0 \\ \begin{aligned}3−𝜆 & 0 \\ 9 & −2\sqrt{√3}−𝜆\end{aligned} & =0 \\ (3−𝜆)(−2\sqrt{√3}−𝜆)−9⋅0 & =0 \\ (𝜆−3)(𝜆+2\sqrt{√3}) & =0\end{aligned}
+\begin{aligned}det(𝐴−𝜆𝐼) & =0 \\ \begin{matrix}3−𝜆 & 0 \\ 9 & −2\sqrt{3}−𝜆\end{matrix} & =0 \\ (3−𝜆)(−2\sqrt{3}−𝜆)−9⋅0 & =0 \\ (𝜆−3)(𝜆+2\sqrt{3}) & =0\end{aligned}
 
 
 $$
@@ -205,7 +205,7 @@ If we look again at the matrix
 $$
 
 
-[\begin{aligned}3 & 0 \\ 9 & −2\sqrt{√3}\end{aligned}]
+[\begin{aligned}3 & 0 \\ 9 & −2\sqrt{3}\end{aligned}]
 
 
 $$

@@ -43,7 +43,7 @@ $$
 
 
 
-\begin{aligned}𝐚×𝐛 & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 2 & −1 & 5 \\ −1 & 4 & 2\end{aligned} \\ & =\begin{aligned}−1 & 5 \\ 4 & 2\end{aligned}𝐢−\begin{aligned}2 & 5 \\ −1 & 2\end{aligned}𝐣+\begin{aligned}2 & −1 \\ −1 & 4\end{aligned}𝐤 \\ & =((−1)⋅2−5⋅4)𝐢−(2⋅2−5⋅(−1))𝐣+(2⋅4−(−1)⋅(−1))𝐤 \\ & =−22𝐢−9𝐣+7𝐤 \\ & =⟨−22,−9,7⟩\end{aligned}
+\begin{aligned}𝐚×𝐛 & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 2 & −1 & 5 \\ −1 & 4 & 2\end{matrix} \\ & =\begin{matrix}−1 & 5 \\ 4 & 2\end{matrix}𝐢−\begin{matrix}2 & 5 \\ −1 & 2\end{matrix}𝐣+\begin{matrix}2 & −1 \\ −1 & 4\end{matrix}𝐤 \\ & =((−1)⋅2−5⋅4)𝐢−(2⋅2−5⋅(−1))𝐣+(2⋅4−(−1)⋅(−1))𝐤 \\ & =−22𝐢−9𝐣+7𝐤 \\ & =⟨−22,−9,7⟩\end{aligned}
 
 
 
@@ -63,7 +63,7 @@ $$
 
 
 
-\begin{aligned}𝐚×𝐛 & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 3 & −4 & 1 \\ −7 & 0 & 2\end{aligned} \\ & =\begin{aligned}−4 & 1 \\ 0 & 2\end{aligned}𝐢−\begin{aligned}3 & 1 \\ −7 & 2\end{aligned}𝐣+\begin{aligned}3 & −4 \\ −7 & 0\end{aligned}𝐤 \\ & =((−4)⋅2−1⋅0)𝐢−(3⋅2−1⋅(−7))𝐣+(3⋅0−(−4)⋅(−7))𝐤 \\ & =−8𝐢−13𝐣−28𝐤 \\ & =⟨−8,−13,−28⟩.\end{aligned}
+\begin{aligned}𝐚×𝐛 & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 3 & −4 & 1 \\ −7 & 0 & 2\end{matrix} \\ & =\begin{matrix}−4 & 1 \\ 0 & 2\end{matrix}𝐢−\begin{matrix}3 & 1 \\ −7 & 2\end{matrix}𝐣+\begin{matrix}3 & −4 \\ −7 & 0\end{matrix}𝐤 \\ & =((−4)⋅2−1⋅0)𝐢−(3⋅2−1⋅(−7))𝐣+(3⋅0−(−4)⋅(−7))𝐤 \\ & =−8𝐢−13𝐣−28𝐤 \\ & =⟨−8,−13,−28⟩.\end{aligned}
 
 
 
@@ -83,7 +83,7 @@ $$
 
 
 
-\begin{aligned}𝐚×𝐛 & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 3 & 1 & 2𝑥 \\ 0 & 1 & 𝑥\end{aligned} \\ & =\begin{aligned}1 & 2𝑥 \\ 1 & 𝑥\end{aligned}𝐢−\begin{aligned}3 & 2𝑥 \\ 0 & 𝑥\end{aligned}𝐣+\begin{aligned}3 & 1 \\ 0 & 1\end{aligned}𝐤 \\ & =−𝑥𝐢−3𝑥𝐣+3𝐤 \\ & =⟨−𝑥,−3𝑥,3⟩.\end{aligned}
+\begin{aligned}𝐚×𝐛 & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 3 & 1 & 2𝑥 \\ 0 & 1 & 𝑥\end{matrix} \\ & =\begin{matrix}1 & 2𝑥 \\ 1 & 𝑥\end{matrix}𝐢−\begin{matrix}3 & 2𝑥 \\ 0 & 𝑥\end{matrix}𝐣+\begin{matrix}3 & 1 \\ 0 & 1\end{matrix}𝐤 \\ & =−𝑥𝐢−3𝑥𝐣+3𝐤 \\ & =⟨−𝑥,−3𝑥,3⟩.\end{aligned}
 
 
 
@@ -95,7 +95,7 @@ $$
 
 
 
-\begin{aligned}|\,𝐚×𝐛\,| & =\sqrt{√(−𝑥)^{2}+(−3𝑥)^{2}+3^{2}} \\ & =\sqrt{√10𝑥^{2}+9}.\end{aligned}
+\begin{aligned}|\,𝐚×𝐛\,| & =\sqrt{(−𝑥)^{2}+(−3𝑥)^{2}+3^{2}} \\ & =\sqrt{10𝑥^{2}+9}.\end{aligned}
 
 
 
@@ -107,7 +107,7 @@ $$
 
 
 
-\begin{aligned} & |\,𝐚×𝐛\,|=\sqrt{√19} \\ & \sqrt{√10𝑥^{2}+9}=\sqrt{√19} \\ & 10𝑥^{2}+9=19 \\ & 10𝑥^{2}=10 \\ & 𝑥^{2}=1\end{aligned}
+\begin{aligned} & |\,𝐚×𝐛\,|=\sqrt{19} \\ & \sqrt{10𝑥^{2}+9}=\sqrt{19} \\ & 10𝑥^{2}+9=19 \\ & 10𝑥^{2}=10 \\ & 𝑥^{2}=1\end{aligned}
 
 
 
@@ -123,7 +123,7 @@ $$
 
 
 
-\begin{aligned}𝐚×𝐛 & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 𝑎_{1} & 𝑎_{2} & 𝑎_{3} \\ 𝑏_{1} & 𝑏_{2} & 𝑏_{3}\end{aligned} \\ & =\begin{aligned}𝑎_{2} & 𝑎_{3} \\ 𝑏_{2} & 𝑏_{3}\end{aligned}𝐢−\begin{aligned}𝑎_{1} & 𝑎_{3} \\ 𝑏_{1} & 𝑏_{3}\end{aligned}𝐣+\begin{aligned}𝑎_{1} & 𝑎_{2} \\ 𝑏_{1} & 𝑏_{2}\end{aligned}𝐤 \\ & =(𝑎_{2}𝑏_{3}−𝑎_{3}𝑏_{2})𝐢−(𝑎_{1}𝑏_{3}−𝑎_{3}𝑏_{1})𝐣+(𝑎_{1}𝑏_{2}−𝑎_{2}𝑏_{1})𝐤\end{aligned}
+\begin{aligned}𝐚×𝐛 & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 𝑎_{1} & 𝑎_{2} & 𝑎_{3} \\ 𝑏_{1} & 𝑏_{2} & 𝑏_{3}\end{matrix} \\ & =\begin{matrix}𝑎_{2} & 𝑎_{3} \\ 𝑏_{2} & 𝑏_{3}\end{matrix}𝐢−\begin{matrix}𝑎_{1} & 𝑎_{3} \\ 𝑏_{1} & 𝑏_{3}\end{matrix}𝐣+\begin{matrix}𝑎_{1} & 𝑎_{2} \\ 𝑏_{1} & 𝑏_{2}\end{matrix}𝐤 \\ & =(𝑎_{2}𝑏_{3}−𝑎_{3}𝑏_{2})𝐢−(𝑎_{1}𝑏_{3}−𝑎_{3}𝑏_{1})𝐣+(𝑎_{1}𝑏_{2}−𝑎_{2}𝑏_{1})𝐤\end{aligned}
 
 
 

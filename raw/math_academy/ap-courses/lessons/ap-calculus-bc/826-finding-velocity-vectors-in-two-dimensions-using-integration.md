@@ -20,7 +20,7 @@ To find $\mathbf{v}(t)$ we need to do the reverse of differentiation, so we inte
 $$
 
 
-\mathbf{a}(t) = \frac{\textrm{d}\mathbf{v}}{\textrm{d}t} \quad\Longrightarrow\quad \mathbf{v}(t) = \int \mathbf{a}(t)\,\textrm{d}t
+\mathbf{a}(t) = \frac{\text{d}\mathbf{v}}{\text{d}t} \quad\Longrightarrow\quad \mathbf{v}(t) = \int \mathbf{a}(t)\,\text{d}t
 
 
 $$

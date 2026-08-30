@@ -12,7 +12,7 @@ Topic ID: 1534
 
 ### Introduction
 
-Suppose we toss a ball vertically upwards with initial velocity $u=24.5\,\textrm{m/s},$ as shown below. How do we determine the ball's height after $1$ second?
+Suppose we toss a ball vertically upwards with initial velocity $u=24.5\,\text{m/s},$ as shown below. How do we determine the ball's height after $1$ second?
 
 ![Instructional graphic](../../../../lesson-assets/integrated-math-ii-honors/topic-1534/1bc81a898a3234cc.png)
 
@@ -34,7 +34,7 @@ Let's recall what each variable represents:
 
 - $t$ is time, measured in seconds.
 
-- $g=-9.8\,\textrm{m/s}^2$ is the acceleration due to gravity.
+- $g=-9.8\,\text{m/s}^2$ is the acceleration due to gravity.
 
 **Important**: In this situation, we take the constant $g$ to be *negative* because the ball moves *against* gravity. In other words, the ball travels upward, yet gravity is trying to pull the ball back down to Earth.
 
@@ -48,13 +48,13 @@ $$
 
 $$
 
-Therefore, after one second, the ball is $19.6\,\textrm{m}$ above the ground.
+Therefore, after one second, the ball is $19.6\,\text{m}$ above the ground.
 
 ### Example: Upwards Vertical Motion: Solving for Displacement
 
 #### Question
 
-A cannonball is shot straight up from a platform $5 \, \textrm{m}$ above the ground with an initial velocity of $22 \, \textrm{m/s}.$ How high above the ground is the cannonball after $3$ seconds?
+A cannonball is shot straight up from a platform $5 \, \text{m}$ above the ground with an initial velocity of $22 \, \text{m/s}.$ How high above the ground is the cannonball after $3$ seconds?
 
 #### Explanation
 
@@ -72,11 +72,11 @@ where $s$ is the displacement, measured from the starting position in the direct
 
 Let's summarize the information we have:
 
-- The initial velocity of the cannonball is $u=22\,\textrm{m/s}.$
+- The initial velocity of the cannonball is $u=22\,\text{m/s}.$
 
-- The cannonball is moving for $t=3\,\textrm{s}.$
+- The cannonball is moving for $t=3\,\text{s}.$
 
-- The acceleration due to gravity is $g=-9.8\,\textrm{m/s}^2.$ Notice that $g$ is ** since the cannonball's motion acts ** gravity.
+- The acceleration due to gravity is $g=-9.8\,\text{m/s}^2.$ Notice that $g$ is ** since the cannonball's motion acts ** gravity.
 
 Substituting these values into the formula, we obtain the following:
 
@@ -88,25 +88,25 @@ $$
 
 $$
 
-Therefore, after $3$ seconds the cannonball is $21.9\,\textrm{m}$ above the platform.
+Therefore, after $3$ seconds the cannonball is $21.9\,\text{m}$ above the platform.
 
-Finally, we add the height of the $5\,\textrm{m}$ platform:
-
-$$
-
-
-5 + 21.9 = 26.9 \,\textrm{m}
-
+Finally, we add the height of the $5\,\text{m}$ platform:
 
 $$
 
-Therefore, after $3$ seconds, the cannonball is $26.9\,\textrm{m}$ above the ground.
+
+5 + 21.9 = 26.9 \,\text{m}
+
+
+$$
+
+Therefore, after $3$ seconds, the cannonball is $26.9\,\text{m}$ above the ground.
 
 ### Example: Upwards Vertical Motion: Solving for an Initial Velocity
 
 #### Question
 
-An object is projected vertically upwards, attaining a height of $40 \, \textrm{m}$ in $2\,\textrm{s}.$ What was the initial velocity of the object?
+An object is projected vertically upwards, attaining a height of $40 \, \text{m}$ in $2\,\text{s}.$ What was the initial velocity of the object?
 
 #### Explanation
 
@@ -124,11 +124,11 @@ where $s$ is the displacement, measured from the starting position in the direct
 
 Let's summarize the information we have:
 
-- The object is moving for $t=2\,\textrm{s}.$
+- The object is moving for $t=2\,\text{s}.$
 
-- The displacement of the object is $s=40\, \textrm{m}.$
+- The displacement of the object is $s=40\, \text{m}.$
 
-- The acceleration due to gravity is $g=-9.8\,\textrm{m/s}^2.$ Notice that $g$ is ** since the object's motion acts ** gravity.
+- The acceleration due to gravity is $g=-9.8\,\text{m/s}^2.$ Notice that $g$ is ** since the object's motion acts ** gravity.
 
 Substituting these values into the formula and solving for $u,$ we obtain the following:
 
@@ -140,13 +140,13 @@ $$
 
 $$
 
-Therefore, the initial velocity of the object was $29.8\,\textrm{m/s}.$
+Therefore, the initial velocity of the object was $29.8\,\text{m/s}.$
 
 ### Example: Calculating the Maximum Height of an Object
 
 #### Question
 
-A marble is projected vertically upward with an initial velocity of $15.7 \, \textrm{m/s}.$ Find the maximum height reached by the marble. Round your answer to one decimal place.
+A marble is projected vertically upward with an initial velocity of $15.7 \, \text{m/s}.$ Find the maximum height reached by the marble. Round your answer to one decimal place.
 
 #### Explanation
 
@@ -164,9 +164,9 @@ where $s$ is the displacement, measured from the starting position in the direct
 
 Let's summarize the information we have:
 
-- The initial velocity of the marble is $u=15.7\,\textrm{m/s}.$
+- The initial velocity of the marble is $u=15.7\,\text{m/s}.$
 
-- The acceleration due to gravity is $g=-9.8\,\textrm{m/s}^2.$ Notice that $g$ is ** since the marble's motion acts ** gravity.
+- The acceleration due to gravity is $g=-9.8\,\text{m/s}^2.$ Notice that $g$ is ** since the marble's motion acts ** gravity.
 
 Substituting these values into the formula, we obtain the following:
 
@@ -212,4 +212,4 @@ $$
 
 $$
 
-Therefore, the marble reached a maximum height of $12.6\,\textrm{m}$ in $1.6\,\textrm{s}.$
+Therefore, the marble reached a maximum height of $12.6\,\text{m}$ in $1.6\,\text{s}.$

@@ -88,7 +88,7 @@ First, we find $|A|$ using a Laplace expansion across the $3$rd row:
 $$
 
 
-\begin{aligned}|𝐴| & =\begin{aligned}2 & 14 & −1 \\ 7 & −6 & −6 \\ 0 & −3 & 0\end{aligned} \\ & =−3(−1)^{3+2}\begin{aligned}2 & −1 \\ 7 & −6\end{aligned} \\ & =3⋅(−12+7) \\ & =−15\end{aligned}
+\begin{aligned}|𝐴| & =\begin{matrix}2 & 14 & −1 \\ 7 & −6 & −6 \\ 0 & −3 & 0\end{matrix} \\ & =−3(−1)^{3+2}\begin{matrix}2 & −1 \\ 7 & −6\end{matrix} \\ & =3⋅(−12+7) \\ & =−15\end{aligned}
 
 
 $$
@@ -110,7 +110,7 @@ One final important property of the determinant is that it is **linear in each r
 $$
 
 
-\begin{aligned} & det\begin{aligned}⋮ & ⋮ & … & ⋮ \\ ◻_{1}+△_{1} & ◻_{2}+△_{2} & … & ◻_{𝑛}+△_{𝑛} \\ ⋮ & ⋮ & … & ⋮\end{aligned} \\ & \,\,=det\begin{aligned}⋮ & ⋮ & … & ⋮ \\ ◻_{1} & ◻_{2} & … & ◻_{𝑛} \\ ⋮ & ⋮ & … & ⋮\end{aligned}+det\begin{aligned}⋮ & ⋮ & … & ⋮ \\ △_{1} & △_{2} & … & △_{𝑛} \\ ⋮ & ⋮ & … & ⋮\end{aligned}.\end{aligned}
+\begin{aligned} & det\begin{matrix}⋮ & ⋮ & … & ⋮ \\ ◻_{1}+△_{1} & ◻_{2}+△_{2} & … & ◻_{𝑛}+△_{𝑛} \\ ⋮ & ⋮ & … & ⋮\end{matrix} \\ & \,\,=det\begin{matrix}⋮ & ⋮ & … & ⋮ \\ ◻_{1} & ◻_{2} & … & ◻_{𝑛} \\ ⋮ & ⋮ & … & ⋮\end{matrix}+det\begin{matrix}⋮ & ⋮ & … & ⋮ \\ △_{1} & △_{2} & … & △_{𝑛} \\ ⋮ & ⋮ & … & ⋮\end{matrix}.\end{aligned}
 
 
 $$
@@ -120,7 +120,7 @@ For instance, it's easy to check that
 $$
 
 
-\begin{aligned}\overset{\overset{det[\begin{aligned}1 & 2 \\ 3 & 4\end{aligned}]}{}}{−2} & =det[\begin{aligned}1 & 2 \\ 0+3 & 4+0\end{aligned}] \\ & =\underset{4}{\underset{}{det[\begin{aligned}1 & 2 \\ 0 & 4\end{aligned}]}}+\underset{−6}{\underset{}{det[\begin{aligned}1 & 2 \\ 3 & 0\end{aligned}]}}.\end{aligned}
+\begin{aligned}\overset{det[\begin{matrix}1 & 2 \\ 3 & 4\end{matrix}]}{}}{−2} & =det[\begin{matrix}1 & 2 \\ 0+3 & 4+0\end{matrix}] \\ & =\underset{4}{\underset{}{det[\begin{matrix}1 & 2 \\ 0 & 4\end{matrix}]}}+\underset{−6}{\underset{}{det[\begin{matrix}1 & 2 \\ 3 & 0\end{matrix}]}}.\end{aligned}
 
 
 $$
@@ -130,7 +130,7 @@ Note that this property also holds for columns:
 $$
 
 
-\begin{aligned}det\begin{aligned}⋯ & ◻_{1}+△_{1} & ⋯ \\ ⋯ & ◻_{2}+△_{2} & ⋯ \\ ⋮ & ⋮ & ⋮ \\ ⋯ & ◻_{𝑛}+△_{𝑛} & ⋯\end{aligned}=det\begin{aligned}⋯ & ◻_{1} & ⋯ \\ ⋯ & ◻_{2} & ⋯ \\ ⋮ & ⋮ & ⋮ \\ ⋯ & ◻_{𝑛} & ⋯\end{aligned}+det\begin{aligned}⋯ & △_{1} & ⋯ \\ ⋯ & △_{2} & ⋯ \\ ⋮ & ⋮ & ⋮ \\ ⋯ & △_{𝑛} & ⋯\end{aligned}\end{aligned}
+\begin{aligned}det\begin{matrix}⋯ & ◻_{1}+△_{1} & ⋯ \\ ⋯ & ◻_{2}+△_{2} & ⋯ \\ ⋮ & ⋮ & ⋮ \\ ⋯ & ◻_{𝑛}+△_{𝑛} & ⋯\end{matrix}=det\begin{matrix}⋯ & ◻_{1} & ⋯ \\ ⋯ & ◻_{2} & ⋯ \\ ⋮ & ⋮ & ⋮ \\ ⋯ & ◻_{𝑛} & ⋯\end{matrix}+det\begin{matrix}⋯ & △_{1} & ⋯ \\ ⋯ & △_{2} & ⋯ \\ ⋮ & ⋮ & ⋮ \\ ⋯ & △_{𝑛} & ⋯\end{matrix}\end{aligned}
 
 
 $$
@@ -140,7 +140,7 @@ For example, we have that
 $$
 
 
-\begin{aligned}\overset{\overset{det[\begin{aligned}1 & 2 \\ 3 & 4\end{aligned}]}{}}{−2} & =det[\begin{aligned}1+0 & 2 \\ 0+3 & 4\end{aligned}] \\ & =\underset{4}{\underset{}{det[\begin{aligned}1 & 2 \\ 0 & 4\end{aligned}]}}+\underset{−6}{\underset{}{det[\begin{aligned}0 & 2 \\ 3 & 4\end{aligned}]}}.\end{aligned}
+\begin{aligned}\overset{det[\begin{matrix}1 & 2 \\ 3 & 4\end{matrix}]}{}}{−2} & =det[\begin{matrix}1+0 & 2 \\ 0+3 & 4\end{matrix}] \\ & =\underset{4}{\underset{}{det[\begin{matrix}1 & 2 \\ 0 & 4\end{matrix}]}}+\underset{−6}{\underset{}{det[\begin{matrix}0 & 2 \\ 3 & 4\end{matrix}]}}.\end{aligned}
 
 
 $$
@@ -158,7 +158,7 @@ We "factor out" the given determinant from the determinant we would like to find
 $$
 
 
-\begin{aligned}\begin{aligned}𝑎 & 𝑏 & 𝑐+1 \\ 1 & 2 & 3 \\ 1 & 1 & 2\end{aligned} & =\begin{aligned}𝑎+0 & 𝑏+0 & 𝑐+1 \\ 1 & 2 & 3 \\ 1 & 1 & 2\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}𝑎 & 𝑏 & 𝑐+1 \\ 1 & 2 & 3 \\ 1 & 1 & 2\end{matrix} & =\begin{matrix}𝑎+0 & 𝑏+0 & 𝑐+1 \\ 1 & 2 & 3 \\ 1 & 1 & 2\end{matrix}\end{aligned}
 
 
 $$
@@ -168,7 +168,7 @@ Now, using the linearity property of determinants and expanding the second deter
 $$
 
 
-\begin{aligned}\begin{aligned}𝑎+0 & 𝑏+0 & 𝑐+1 \\ 1 & 2 & 3 \\ 1 & 1 & 2\end{aligned} & =\underset{−10}{\underset{}\begin{aligned}𝑎 & 𝑏 & 𝑐 \\ 1 & 2 & 3 \\ 1 & 1 & 2\end{aligned}}}+\begin{aligned}0 & 0 & 1 \\ 1 & 2 & 3 \\ 1 & 1 & 2\end{aligned} \\ & =−10+1(−1)^{1+3}\begin{aligned}1 & 2 \\ 1 & 1\end{aligned} \\ & =−10−1 \\ & =−11.\end{aligned}
+\begin{aligned}\begin{matrix}𝑎+0 & 𝑏+0 & 𝑐+1 \\ 1 & 2 & 3 \\ 1 & 1 & 2\end{matrix} & =\underset{−10}{\begin{matrix}𝑎 & 𝑏 & 𝑐 \\ 1 & 2 & 3 \\ 1 & 1 & 2\end{matrix}}+\begin{matrix}0 & 0 & 1 \\ 1 & 2 & 3 \\ 1 & 1 & 2\end{matrix} \\ & =−10+1(−1)^{1+3}\begin{matrix}1 & 2 \\ 1 & 1\end{matrix} \\ & =−10−1 \\ & =−11.\end{aligned}
 
 
 $$

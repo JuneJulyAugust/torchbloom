@@ -173,7 +173,7 @@ Therefore, we get
 $$
 
 
-\begin{aligned}𝑥 & =6^{1/2} \\ 𝑥 & =\sqrt{√6}.\end{aligned}
+\begin{aligned}𝑥 & =6^{1/2} \\ 𝑥 & =\sqrt{6}.\end{aligned}
 
 
 $$

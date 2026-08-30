@@ -19,7 +19,7 @@ For example, consider the affine transformation $\mathbf T:\Bbb R^2 \to \Bbb R^2
 $$
 
 
-\begin{aligned}[\begin{aligned}𝑥 \\ 𝑦\end{aligned}] & =\underset{𝐴}{\underset{}{[\begin{aligned}1 & 1 \\ −1 & 1\end{aligned}]}}⋅\underset{𝐮}{\underset{}{[\begin{aligned}𝑢 \\ 𝑣\end{aligned}]}}+\underset{𝐛}{\underset{}{[\begin{aligned}−1 \\ 1\end{aligned}]}}.\end{aligned}
+\begin{aligned}[\begin{matrix}𝑥 \\ 𝑦\end{matrix}] & =\underset{𝐴}{\underset{}{[\begin{matrix}1 & 1 \\ −1 & 1\end{matrix}]}}⋅\underset{𝐮}{\underset{}{[\begin{matrix}𝑢 \\ 𝑣\end{matrix}]}}+\underset{𝐛}{\underset{}{[\begin{matrix}−1 \\ 1\end{matrix}]}}.\end{aligned}
 
 
 $$
@@ -33,7 +33,7 @@ We can find the image of $P$ under the action of $\mathbf T$ by substituting $\m
 $$
 
 
-\begin{aligned}𝐓(𝑃) & =𝐴𝐩+𝐛 \\ & =[\begin{aligned}1 & 1 \\ −1 & 1\end{aligned}][\begin{aligned}−1 \\ 1\end{aligned}]+[\begin{aligned}−1 \\ 1\end{aligned}] \\ & =[\begin{aligned}0 \\ 2\end{aligned}]+[\begin{aligned}−1 \\ 1\end{aligned}] \\ & =[\begin{aligned}−1 \\ 3\end{aligned}]\end{aligned}
+\begin{aligned}𝐓(𝑃) & =𝐴𝐩+𝐛 \\ & =[\begin{matrix}1 & 1 \\ −1 & 1\end{matrix}][\begin{matrix}−1 \\ 1\end{matrix}]+[\begin{matrix}−1 \\ 1\end{matrix}] \\ & =[\begin{matrix}0 \\ 2\end{matrix}]+[\begin{matrix}−1 \\ 1\end{matrix}] \\ & =[\begin{matrix}−1 \\ 3\end{matrix}]\end{aligned}
 
 
 $$
@@ -83,7 +83,7 @@ Notice that we can express the given transformation as
 $$
 
 
-\begin{aligned}[\begin{aligned}𝑥 \\ 𝑦\end{aligned}] & =[\begin{aligned}𝑢−𝑣+7 \\ 𝑢+𝑣+1\end{aligned}] \\ & =[\begin{aligned}𝑢−𝑣 \\ 𝑢+𝑣\end{aligned}]+[\begin{aligned}7 \\ 1\end{aligned}] \\ & =\underset{𝐴}{\underset{}{[\begin{aligned}1 & −1 \\ 1 & 1\end{aligned}]}}⋅\underset{𝐮}{\underset{}{[\begin{aligned}𝑢 \\ 𝑣\end{aligned}]}}+\underset{𝐛}{\underset{}{[\begin{aligned}7 \\ 1\end{aligned}]}}.\end{aligned}
+\begin{aligned}[\begin{matrix}𝑥 \\ 𝑦\end{matrix}] & =[\begin{matrix}𝑢−𝑣+7 \\ 𝑢+𝑣+1\end{matrix}] \\ & =[\begin{matrix}𝑢−𝑣 \\ 𝑢+𝑣\end{matrix}]+[\begin{matrix}7 \\ 1\end{matrix}] \\ & =\underset{𝐴}{\underset{}{[\begin{matrix}1 & −1 \\ 1 & 1\end{matrix}]}}⋅\underset{𝐮}{\underset{}{[\begin{matrix}𝑢 \\ 𝑣\end{matrix}]}}+\underset{𝐛}{\underset{}{[\begin{matrix}7 \\ 1\end{matrix}]}}.\end{aligned}
 
 
 $$
@@ -101,7 +101,7 @@ The image of $\mathbf u$ under $\mathbf T$ is given by $A\mathbf u + \mathbf b.$
 $$
 
 
-\begin{aligned}𝐴𝑈+𝐵 & =[\begin{aligned}1 & −1 \\ 1 & 1\end{aligned}][\begin{aligned}−5 & −5 \\ 2 & 5\end{aligned}]+[\begin{aligned}7 & 7 \\ 1 & 1\end{aligned}] \\ & =[\begin{aligned}−7 & −10 \\ −3 & 0\end{aligned}]+[\begin{aligned}7 & 7 \\ 1 & 1\end{aligned}] \\ & =[\begin{aligned}0 & −3 \\ −2 & 1\end{aligned}].\end{aligned}
+\begin{aligned}𝐴𝑈+𝐵 & =[\begin{matrix}1 & −1 \\ 1 & 1\end{matrix}][\begin{matrix}−5 & −5 \\ 2 & 5\end{matrix}]+[\begin{matrix}7 & 7 \\ 1 & 1\end{matrix}] \\ & =[\begin{matrix}−7 & −10 \\ −3 & 0\end{matrix}]+[\begin{matrix}7 & 7 \\ 1 & 1\end{matrix}] \\ & =[\begin{matrix}0 & −3 \\ −2 & 1\end{matrix}].\end{aligned}
 
 
 $$
@@ -123,7 +123,7 @@ Let the affine transformation $\mathbf T$ be defined as
 $$
 
 
-\begin{aligned}[\begin{aligned}𝑥 \\ 𝑦\end{aligned}] & =\underset{𝐴}{\underset{}{[\begin{aligned}0 & 1 \\ 1 & 0\end{aligned}]}}⋅\underset{𝐮}{\underset{}{[\begin{aligned}𝑢 \\ 𝑣\end{aligned}]}}+\underset{𝐛}{\underset{}{[\begin{aligned}1 \\ −1\end{aligned}]}}.\end{aligned}
+\begin{aligned}[\begin{matrix}𝑥 \\ 𝑦\end{matrix}] & =\underset{𝐴}{\underset{}{[\begin{matrix}0 & 1 \\ 1 & 0\end{matrix}]}}⋅\underset{𝐮}{\underset{}{[\begin{matrix}𝑢 \\ 𝑣\end{matrix}]}}+\underset{𝐛}{\underset{}{[\begin{matrix}1 \\ −1\end{matrix}]}}.\end{aligned}
 
 
 $$
@@ -139,7 +139,7 @@ The image of $\mathbf u$ under $T$ is given by $A\mathbf u + \mathbf b.$ So, by 
 $$
 
 
-\begin{aligned}𝐴𝑈+𝐵 & =[\begin{aligned}0 & 1 \\ 1 & 0\end{aligned}][\begin{aligned}0 & 1 & 0 \\ 0 & 0 & 1\end{aligned}]+[\begin{aligned}1 & 1 & 1 \\ −1 & −1 & −1\end{aligned}] \\ & =[\begin{aligned}0 & 0 & 1 \\ 0 & 1 & 0\end{aligned}]+[\begin{aligned}1 & 1 & 1 \\ −1 & −1 & −1\end{aligned}] \\ & =[\begin{aligned}1 & 1 & 2 \\ −1 & 0 & −1\end{aligned}].\end{aligned}
+\begin{aligned}𝐴𝑈+𝐵 & =[\begin{matrix}0 & 1 \\ 1 & 0\end{matrix}][\begin{matrix}0 & 1 & 0 \\ 0 & 0 & 1\end{matrix}]+[\begin{matrix}1 & 1 & 1 \\ −1 & −1 & −1\end{matrix}] \\ & =[\begin{matrix}0 & 0 & 1 \\ 0 & 1 & 0\end{matrix}]+[\begin{matrix}1 & 1 & 1 \\ −1 & −1 & −1\end{matrix}] \\ & =[\begin{matrix}1 & 1 & 2 \\ −1 & 0 & −1\end{matrix}].\end{aligned}
 
 
 $$
@@ -251,7 +251,7 @@ Notice that we can express the given transformation as
 $$
 
 
-\begin{aligned}[\begin{aligned}𝑥 \\ 𝑦\end{aligned}] & =[\begin{aligned}𝑢−𝑣+1 \\ 𝑢+𝑣\end{aligned}] \\ & =[\begin{aligned}𝑢−𝑣 \\ 𝑢+𝑣\end{aligned}]+[\begin{aligned}1 \\ 0\end{aligned}] \\ & =\underset{𝐴}{\underset{}{[\begin{aligned}1 & −1 \\ 1 & 1\end{aligned}]}}⋅\underset{𝐮}{\underset{}{[\begin{aligned}𝑢 \\ 𝑣\end{aligned}]}}+\underset{𝐛}{\underset{}{[\begin{aligned}1 \\ 0\end{aligned}]}}\end{aligned}
+\begin{aligned}[\begin{matrix}𝑥 \\ 𝑦\end{matrix}] & =[\begin{matrix}𝑢−𝑣+1 \\ 𝑢+𝑣\end{matrix}] \\ & =[\begin{matrix}𝑢−𝑣 \\ 𝑢+𝑣\end{matrix}]+[\begin{matrix}1 \\ 0\end{matrix}] \\ & =\underset{𝐴}{\underset{}{[\begin{matrix}1 & −1 \\ 1 & 1\end{matrix}]}}⋅\underset{𝐮}{\underset{}{[\begin{matrix}𝑢 \\ 𝑣\end{matrix}]}}+\underset{𝐛}{\underset{}{[\begin{matrix}1 \\ 0\end{matrix}]}}\end{aligned}
 
 
 $$
@@ -271,7 +271,7 @@ The image of $\mathbf u$ under $T$ is given by $A\mathbf u + \mathbf b.$ So, by 
 $$
 
 
-\begin{aligned}𝐴𝑈+𝐵 & =[\begin{aligned}1 & −1 \\ 1 & 1\end{aligned}][\begin{aligned}−1 & 1 & 1 & −1 \\ −1 & −1 & 1 & 1\end{aligned}]+[\begin{aligned}1 & 1 & 1 & 1 \\ 0 & 0 & 0 & 0\end{aligned}] \\ & =[\begin{aligned}0 & 2 & 0 & −2 \\ −2 & 0 & 2 & 0\end{aligned}]+[\begin{aligned}1 & 1 & 1 & 1 \\ 0 & 0 & 0 & 0\end{aligned}] \\ & =[\begin{aligned}1 & 3 & 1 & −1 \\ −2 & 0 & 2 & 0\end{aligned}].\end{aligned}
+\begin{aligned}𝐴𝑈+𝐵 & =[\begin{matrix}1 & −1 \\ 1 & 1\end{matrix}][\begin{matrix}−1 & 1 & 1 & −1 \\ −1 & −1 & 1 & 1\end{matrix}]+[\begin{matrix}1 & 1 & 1 & 1 \\ 0 & 0 & 0 & 0\end{matrix}] \\ & =[\begin{matrix}0 & 2 & 0 & −2 \\ −2 & 0 & 2 & 0\end{matrix}]+[\begin{matrix}1 & 1 & 1 & 1 \\ 0 & 0 & 0 & 0\end{matrix}] \\ & =[\begin{matrix}1 & 3 & 1 & −1 \\ −2 & 0 & 2 & 0\end{matrix}].\end{aligned}
 
 
 $$
@@ -363,7 +363,7 @@ For example, consider the affine transformation $\mathbf T:\mathbb R^2\rightarro
 $$
 
 
-\begin{aligned}[\begin{aligned}𝑥 \\ 𝑦\end{aligned}] & =\underset{𝐴}{\underset{}{[\begin{aligned}0 & 1 \\ 1 & 0\end{aligned}]}}⋅\underset{𝐮}{\underset{}{[\begin{aligned}𝑢 \\ 𝑣\end{aligned}]}}+\underset{𝐛}{\underset{}{[\begin{aligned}1 \\ −1\end{aligned}]}}.\end{aligned}
+\begin{aligned}[\begin{matrix}𝑥 \\ 𝑦\end{matrix}] & =\underset{𝐴}{\underset{}{[\begin{matrix}0 & 1 \\ 1 & 0\end{matrix}]}}⋅\underset{𝐮}{\underset{}{[\begin{matrix}𝑢 \\ 𝑣\end{matrix}]}}+\underset{𝐛}{\underset{}{[\begin{matrix}1 \\ −1\end{matrix}]}}.\end{aligned}
 
 
 $$
@@ -427,7 +427,7 @@ Notice that the given transformation can be expressed as
 $$
 
 
-\begin{aligned}[\begin{aligned}𝑥 \\ 𝑦\end{aligned}] & =[\begin{aligned}3𝑢+4 \\ 4𝑣−2𝑢\end{aligned}] \\ & =[\begin{aligned}3𝑢 \\ −2𝑢+4𝑣\end{aligned}]+[\begin{aligned}4 \\ 0\end{aligned}] \\ & =\underset{𝐴}{\underset{}{[\begin{aligned}3 & 0 \\ −2 & 4\end{aligned}]}}⋅\underset{𝐮}{\underset{}{[\begin{aligned}𝑢 \\ 𝑣\end{aligned}]}}+\underset{𝐛}{\underset{}{[\begin{aligned}4 \\ 0\end{aligned}]}}\end{aligned}
+\begin{aligned}[\begin{matrix}𝑥 \\ 𝑦\end{matrix}] & =[\begin{matrix}3𝑢+4 \\ 4𝑣−2𝑢\end{matrix}] \\ & =[\begin{matrix}3𝑢 \\ −2𝑢+4𝑣\end{matrix}]+[\begin{matrix}4 \\ 0\end{matrix}] \\ & =\underset{𝐴}{\underset{}{[\begin{matrix}3 & 0 \\ −2 & 4\end{matrix}]}}⋅\underset{𝐮}{\underset{}{[\begin{matrix}𝑢 \\ 𝑣\end{matrix}]}}+\underset{𝐛}{\underset{}{[\begin{matrix}4 \\ 0\end{matrix}]}}\end{aligned}
 
 
 $$

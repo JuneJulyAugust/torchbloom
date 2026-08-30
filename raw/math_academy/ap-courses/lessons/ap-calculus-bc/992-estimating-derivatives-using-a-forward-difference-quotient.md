@@ -129,7 +129,7 @@ $$
 
 $$
 
-So at $t=0.1$ the velocity is approximately $40\, \textrm{ft}/\textrm{s}.$
+So at $t=0.1$ the velocity is approximately $40\, \text{ft}/\text{s}.$
 
 ### Example: Estimating a Derivative From a Graph Using a Forward Difference Approximation: Word Problem
 
@@ -161,4 +161,4 @@ $$
 
 $$
 
-So, after $1$ hour, the tank is leaking oil at a rate of approximately $1\,\textrm{liter}/ \textrm{hour}.$
+So, after $1$ hour, the tank is leaking oil at a rate of approximately $1\,\text{liter}/ \text{hour}.$

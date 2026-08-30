@@ -26,7 +26,7 @@ we square both sides. Remember that squaring is the opposite of the square root,
 $$
 
 
-\begin{aligned}(\sqrt{√𝑥+1})^{2} & =3^{2} \\ 𝑥+1 & =9.\end{aligned}
+\begin{aligned}(\sqrt{𝑥+1})^{2} & =3^{2} \\ 𝑥+1 & =9.\end{aligned}
 
 
 $$
@@ -46,7 +46,7 @@ Let's check the result by plugging it into the original equation:
 $$
 
 
-\begin{aligned}\sqrt{√(8)+1} & \overset{=}{?}3 \\ \sqrt{√9} & \overset{=}{?}3 \\ 3 & =3\,\,✓\end{aligned}
+\begin{aligned}\sqrt{(8)+1} & \overset{=}{?}3 \\ \sqrt{9} & \overset{=}{?}3 \\ 3 & =3\,\,✓\end{aligned}
 
 
 $$
@@ -68,7 +68,7 @@ Squaring both sides of the equation, we get
 $$
 
 
-\begin{aligned}\sqrt{√2𝑥−6} & =2 \\ (\sqrt{√2𝑥−6})^{2} & =2^{2} \\ 2𝑥−6 & =4 \\ 2𝑥 & =10 \\ 𝑥 & =5.\end{aligned}
+\begin{aligned}\sqrt{2𝑥−6} & =2 \\ (\sqrt{2𝑥−6})^{2} & =2^{2} \\ 2𝑥−6 & =4 \\ 2𝑥 & =10 \\ 𝑥 & =5.\end{aligned}
 
 
 $$
@@ -78,7 +78,7 @@ Let's check the result by plugging it into the original equation:
 $$
 
 
-\begin{aligned}\sqrt{√2(5)−6} & \overset{=}{?}2 \\ \sqrt{√4} & \overset{=}{?}2 \\ 2 & =2\,\,✓\end{aligned}
+\begin{aligned}\sqrt{2(5)−6} & \overset{=}{?}2 \\ \sqrt{4} & \overset{=}{?}2 \\ 2 & =2\,\,✓\end{aligned}
 
 
 $$
@@ -106,7 +106,7 @@ We could also determine that there is no solution by using the same process as u
 $$
 
 
-\begin{aligned}\sqrt{√3−𝑥} & =−2 \\ (\sqrt{√3−𝑥})^{2} & =(−2)^{2} \\ 3−𝑥 & =4 \\ 𝑥 & =−1.\end{aligned}
+\begin{aligned}\sqrt{3−𝑥} & =−2 \\ (\sqrt{3−𝑥})^{2} & =(−2)^{2} \\ 3−𝑥 & =4 \\ 𝑥 & =−1.\end{aligned}
 
 
 $$
@@ -116,7 +116,7 @@ However, when we plug this result into the original equation, we get a false sta
 $$
 
 
-\begin{aligned}\sqrt{√3−(−1)} & \overset{=}{?}−2 \\ \sqrt{√4} & \overset{=}{?}−2 \\ 2 & ≠−2\,\,×\end{aligned}
+\begin{aligned}\sqrt{3−(−1)} & \overset{=}{?}−2 \\ \sqrt{4} & \overset{=}{?}−2 \\ 2 & ≠−2\,\,×\end{aligned}
 
 
 $$
@@ -158,7 +158,7 @@ First, we isolate the square root by adding $2$ to both sides:
 $$
 
 
-\begin{aligned}\sqrt{√𝑥^{2}−5𝑥+8}−2 & =0 \\ \sqrt{√𝑥^{2}−5𝑥+8} & =2\end{aligned}
+\begin{aligned}\sqrt{𝑥^{2}−5𝑥+8}−2 & =0 \\ \sqrt{𝑥^{2}−5𝑥+8} & =2\end{aligned}
 
 
 $$
@@ -168,7 +168,7 @@ Now that the square root is isolated, we can proceed as usual. Squaring both sid
 $$
 
 
-\begin{aligned}(\sqrt{√𝑥^{2}−5𝑥+8})^{2} & =(2)^{2} \\ 𝑥^{2}−5𝑥+8 & =4 \\ 𝑥^{2}−5𝑥+4 & =0 \\ 𝑥^{2}−4𝑥−𝑥+4 & =0 \\ (𝑥−4)(𝑥−1) & =0 \\ 𝑥=4,1. & \end{aligned}
+\begin{aligned}(\sqrt{𝑥^{2}−5𝑥+8})^{2} & =(2)^{2} \\ 𝑥^{2}−5𝑥+8 & =4 \\ 𝑥^{2}−5𝑥+4 & =0 \\ 𝑥^{2}−4𝑥−𝑥+4 & =0 \\ (𝑥−4)(𝑥−1) & =0 \\ 𝑥=4,1. & \end{aligned}
 
 
 $$
@@ -200,7 +200,7 @@ we raise both sides to the power of $2.$ This allows us to get rid of the radica
 $$
 
 
-\begin{aligned}(\sqrt{√2𝑥−1})^{2} & =(𝑥)^{2} \\ 2𝑥−1 & =𝑥^{2} \\ 𝑥^{2}−2𝑥+1 & =0 \\ (𝑥−1)^{2} & =0 \\ 𝑥 & =1\end{aligned}
+\begin{aligned}(\sqrt{2𝑥−1})^{2} & =(𝑥)^{2} \\ 2𝑥−1 & =𝑥^{2} \\ 𝑥^{2}−2𝑥+1 & =0 \\ (𝑥−1)^{2} & =0 \\ 𝑥 & =1\end{aligned}
 
 
 $$
@@ -212,7 +212,7 @@ Here, we check that the obtained value $x=1$ is actually a solution of the origi
 $$
 
 
-\begin{aligned}\sqrt{√2(1)−1} & \overset{=}{?}(1) \\ \sqrt{√1} & \overset{=1}{?} \\ 1 & =1\,✓\end{aligned}
+\begin{aligned}\sqrt{2(1)−1} & \overset{=}{?}(1) \\ \sqrt{1} & \overset{=1}{?} \\ 1 & =1\,✓\end{aligned}
 
 
 $$
@@ -232,7 +232,7 @@ To solve the equation $\sqrt{x+10} = x-2,$ we raise both sides to the power of $
 $$
 
 
-\begin{aligned}\sqrt{√𝑥+10} & =𝑥−2 \\ (\sqrt{√𝑥+10})^{2} & =(𝑥−2)^{2} \\ 𝑥+10 & =𝑥^{2}−4𝑥+4 \\ 𝑥^{2}−5𝑥−6 & =0 \\ 𝑥^{2}−6𝑥+𝑥−6 & =0 \\ (𝑥+1)(𝑥−6) & =0 \\ 𝑥 & =−1,6\end{aligned}
+\begin{aligned}\sqrt{𝑥+10} & =𝑥−2 \\ (\sqrt{𝑥+10})^{2} & =(𝑥−2)^{2} \\ 𝑥+10 & =𝑥^{2}−4𝑥+4 \\ 𝑥^{2}−5𝑥−6 & =0 \\ 𝑥^{2}−6𝑥+𝑥−6 & =0 \\ (𝑥+1)(𝑥−6) & =0 \\ 𝑥 & =−1,6\end{aligned}
 
 
 $$

@@ -51,7 +51,7 @@ Consider the solution curves of the differential equation
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x} =(y + x)^3.
+\dfrac{\text{d}y}{\text{d}x} =(y + x)^3.
 
 
 $$
@@ -89,12 +89,12 @@ The function $y=f(x)$ satisfies the differential equation
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x} = 4y - e^{3x}.
+\dfrac{\text{d}y}{\text{d}x} = 4y - e^{3x}.
 
 
 $$
 
-Given that the point $P(0,1)$ lies on the graph of the function, evaluate $\dfrac{\textrm{d}^2y}{\textrm{d}x^2}$ at $P.$
+Given that the point $P(0,1)$ lies on the graph of the function, evaluate $\dfrac{\text{d}^2y}{\text{d}x^2}$ at $P.$
 
 #### Explanation
 
@@ -137,7 +137,7 @@ The function $y=f(x)$ satisfies the differential equation
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x} = x^2 - 4 - y.
+\dfrac{\text{d}y}{\text{d}x} = x^2 - 4 - y.
 
 
 $$

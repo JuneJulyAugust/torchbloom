@@ -12,7 +12,7 @@ Topic ID: 2128
 
 ### Introduction
 
-Consider the subspace $V=\textrm{Span}\{\mathbf{a}_1,\mathbf{a}_2,\mathbf{a}_3\},$ where
+Consider the subspace $V=\text{Span}\{\mathbf{a}_1,\mathbf{a}_2,\mathbf{a}_3\},$ where
 
 $$
 
@@ -30,7 +30,7 @@ Good news is that we can extend the **Gram-Schmidt process**. Since the first tw
 
 **Step 2**: We set $\begin{aligned}1 \\ 1 \\ −1\end{aligned}$
 
-**Step 3**. Next, let $S=\textrm{Span}(\mathbf{a}_1,\mathbf{a}_2).$ We find ${\color{blue}\mathbf{v}_3}$ using the formula
+**Step 3**. Next, let $S=\text{Span}(\mathbf{a}_1,\mathbf{a}_2).$ We find ${\color{blue}\mathbf{v}_3}$ using the formula
 
 $$
 
@@ -47,7 +47,7 @@ Notice that $\color{blue}\mathbf{v}_3$ is written as a linear combination of $\m
 $$
 
 
-\textrm{Span}\{\mathbf{a}_1,\mathbf{a}_2,\mathbf{a}_3\} = V = \textrm{Span}\{ {\color{blue}\mathbf{v}_1}, {\color{blue}\mathbf{v}_2}, {\color{blue}\mathbf{v}_3} \}.
+\text{Span}\{\mathbf{a}_1,\mathbf{a}_2,\mathbf{a}_3\} = V = \text{Span}\{ {\color{blue}\mathbf{v}_1}, {\color{blue}\mathbf{v}_2}, {\color{blue}\mathbf{v}_3} \}.
 
 
 $$
@@ -57,7 +57,7 @@ Applying the formula for $\mathbf{v}_3$ in our case gives
 $$
 
 
-\begin{aligned}𝐯_{3} & =\begin{aligned}1 \\ −1 \\ 3\end{aligned}−(\frac{2}{2})\begin{aligned}1 \\ −1 \\ 0\end{aligned}−(−\frac{3}{3})\begin{aligned}1 \\ 1 \\ −1\end{aligned} \\ & =\begin{aligned}1 \\ −1 \\ 3\end{aligned}−\begin{aligned}1 \\ −1 \\ 0\end{aligned}+\begin{aligned}1 \\ 1 \\ −1\end{aligned} \\ & =\begin{aligned}1 \\ 1 \\ 2\end{aligned}.\end{aligned}
+\begin{aligned}𝐯_{3} & =\begin{matrix}1 \\ −1 \\ 3\end{matrix}−(\frac{2}{2})\begin{matrix}1 \\ −1 \\ 0\end{matrix}−(−\frac{3}{3})\begin{matrix}1 \\ 1 \\ −1\end{matrix} \\ & =\begin{matrix}1 \\ −1 \\ 3\end{matrix}−\begin{matrix}1 \\ −1 \\ 0\end{matrix}+\begin{matrix}1 \\ 1 \\ −1\end{matrix} \\ & =\begin{matrix}1 \\ 1 \\ 2\end{matrix}.\end{aligned}
 
 
 $$
@@ -78,7 +78,7 @@ $$
 
 $$
 
-Suppose that $V = \textrm{Span}\{\mathbf a_1, \mathbf a_2, \mathbf a_3\}.$ Given that $\mathcal B = \{\mathbf a_1, \mathbf a_2, \mathbf b\}$ is an orthogonal basis for $V, \mathbf{a}_1 \perp \mathbf{a}_2,$ and that $\mathcal B$ is derived from $V$ using the Gram-Schmidt process, what is the value of $\dfrac{c}{a}?$
+Suppose that $V = \text{Span}\{\mathbf a_1, \mathbf a_2, \mathbf a_3\}.$ Given that $\mathcal B = \{\mathbf a_1, \mathbf a_2, \mathbf b\}$ is an orthogonal basis for $V, \mathbf{a}_1 \perp \mathbf{a}_2,$ and that $\mathcal B$ is derived from $V$ using the Gram-Schmidt process, what is the value of $\dfrac{c}{a}?$
 
 #### Explanation
 
@@ -103,7 +103,7 @@ Applying the formula for $\mathbf{v}_3$ in our case gives
 $$
 
 
-\begin{aligned}𝐯_{3} & =\begin{aligned}−1 \\ 0 \\ −2 \\ 1\end{aligned}−(−\frac{2}{4})\begin{aligned}1 \\ 1 \\ 1 \\ 1\end{aligned}−\frac{0}{4}\begin{aligned}1 \\ 1 \\ −1 \\ −1\end{aligned} \\ & =\begin{aligned}−1 \\ 0 \\ −2 \\ 1\end{aligned}+\frac{1}{2}\begin{aligned}1 \\ 1 \\ 1 \\ 1\end{aligned}−0\begin{aligned}1 \\ 1 \\ −1 \\ −1\end{aligned} \\ & =\frac{1}{2}2\begin{aligned}−1 \\ 0 \\ −2 \\ 1\end{aligned}+\begin{aligned}1 \\ 1 \\ 1 \\ 1\end{aligned} \\ & =\begin{aligned}−\frac{1}{2} \\ \frac{1}{2} \\ −\frac{3}{2} \\ \frac{3}{2}\end{aligned}.\end{aligned}
+\begin{aligned}𝐯_{3} & =\begin{matrix}−1 \\ 0 \\ −2 \\ 1\end{matrix}−(−\frac{2}{4})\begin{matrix}1 \\ 1 \\ 1 \\ 1\end{matrix}−\frac{0}{4}\begin{matrix}1 \\ 1 \\ −1 \\ −1\end{matrix} \\ & =\begin{matrix}−1 \\ 0 \\ −2 \\ 1\end{matrix}+\frac{1}{2}\begin{matrix}1 \\ 1 \\ 1 \\ 1\end{matrix}−0\begin{matrix}1 \\ 1 \\ −1 \\ −1\end{matrix} \\ & =\frac{1}{2}2\begin{matrix}−1 \\ 0 \\ −2 \\ 1\end{matrix}+\begin{matrix}1 \\ 1 \\ 1 \\ 1\end{matrix} \\ & =\begin{matrix}−\frac{1}{2} \\ \frac{1}{2} \\ −\frac{3}{2} \\ \frac{3}{2}\end{matrix}.\end{aligned}
 
 
 $$
@@ -122,7 +122,7 @@ $$
 
 $$
 
-Consider the subspace $V=\textrm{Col}(A)$ spanned by the columns $\mathbf{a}_1,\mathbf{a}_2,\mathbf{a}_3$ of the matrix $A,$ and an **** basis $\mathcal{B}$ of $\textrm{Col}(A),$ shown above. Given that $\mathbf{a}_1 \perp \mathbf{a}_2,$ and that $\mathcal B$ is derived from $V$ using the Gram-Schmidt process, what is the value of $|\,d\,|?$
+Consider the subspace $V=\text{Col}(A)$ spanned by the columns $\mathbf{a}_1,\mathbf{a}_2,\mathbf{a}_3$ of the matrix $A,$ and an **** basis $\mathcal{B}$ of $\text{Col}(A),$ shown above. Given that $\mathbf{a}_1 \perp \mathbf{a}_2,$ and that $\mathcal B$ is derived from $V$ using the Gram-Schmidt process, what is the value of $|\,d\,|?$
 
 #### Explanation
 
@@ -147,7 +147,7 @@ Applying the formula for $\mathbf{v}_3$ in our case gives
 $$
 
 
-\begin{aligned}𝐯_{3} & =\begin{aligned}2 \\ 0 \\ 6 \\ 0\end{aligned}−\frac{10}{10}\begin{aligned}2 \\ −1 \\ 1 \\ 2\end{aligned}−\frac{20}{20}\begin{aligned}1 \\ 3 \\ 3 \\ −1\end{aligned} \\ & =\begin{aligned}2 \\ 0 \\ 6 \\ 0\end{aligned}−\begin{aligned}2 \\ −1 \\ 1 \\ 2\end{aligned}−\begin{aligned}1 \\ 3 \\ 3 \\ −1\end{aligned} \\ & =\begin{aligned}−1 \\ −2 \\ 2 \\ −1\end{aligned}.\end{aligned}
+\begin{aligned}𝐯_{3} & =\begin{matrix}2 \\ 0 \\ 6 \\ 0\end{matrix}−\frac{10}{10}\begin{matrix}2 \\ −1 \\ 1 \\ 2\end{matrix}−\frac{20}{20}\begin{matrix}1 \\ 3 \\ 3 \\ −1\end{matrix} \\ & =\begin{matrix}2 \\ 0 \\ 6 \\ 0\end{matrix}−\begin{matrix}2 \\ −1 \\ 1 \\ 2\end{matrix}−\begin{matrix}1 \\ 3 \\ 3 \\ −1\end{matrix} \\ & =\begin{matrix}−1 \\ −2 \\ 2 \\ −1\end{matrix}.\end{aligned}
 
 
 $$
@@ -157,7 +157,7 @@ Now, we normalize $\mathbf{v}_3$ dividing it by $\|\mathbf{v}_3\| = \sqrt{10}\ma
 $$
 
 
-\begin{aligned}𝐮_{3} & =\frac{𝐯_{3}}{‖𝐯_{3}‖}=\frac{1}{\sqrt{√10}}\begin{aligned}−1 \\ −2 \\ 2 \\ −1\end{aligned}=\begin{aligned}−\frac{\sqrt{√10}}{10} \\ −\frac{\sqrt{√10}}{5} \\ \frac{\sqrt{√10}}{5} \\ −\frac{\sqrt{√10}}{10}\end{aligned}.\end{aligned}
+\begin{aligned}𝐮_{3} & =\frac{𝐯_{3}}{‖𝐯_{3}‖}=\frac{1}{\sqrt{10}}\begin{matrix}−1 \\ −2 \\ 2 \\ −1\end{matrix}=\begin{matrix}−\frac{\sqrt{10}}{10} \\ −\frac{\sqrt{10}}{5} \\ \frac{\sqrt{10}}{5} \\ −\frac{\sqrt{10}}{10}\end{matrix}.\end{aligned}
 
 
 $$
@@ -196,7 +196,7 @@ $$
 
 $$
 
-Suppose that $V = \textrm{Span}\{\mathbf a_1, \mathbf a_2, \mathbf a_3\}.$ Given that $\mathcal B$ is an orthogonal basis for $V,$ and that $\mathcal B$ is derived from $V$ using the Gram-Schmidt process, what is the value of $\dfrac{b}{c}?$
+Suppose that $V = \text{Span}\{\mathbf a_1, \mathbf a_2, \mathbf a_3\}.$ Given that $\mathcal B$ is an orthogonal basis for $V,$ and that $\mathcal B$ is derived from $V$ using the Gram-Schmidt process, what is the value of $\dfrac{b}{c}?$
 
 #### Explanation
 
@@ -209,17 +209,17 @@ We find an orthogonal basis $\mathcal B$ of $V$ using the Gram-Schmidt process, 
 $$
 
 
-\begin{aligned}𝐯_{2} & =𝐚_{2}−proj_{𝐯_{1}}𝐚_{2} \\ & =𝐚_{2}−\frac{𝐚_{2}⋅𝐯_{1}}{𝐯_{1}⋅𝐯_{1}}𝐯_{1} \\ & =\begin{aligned}1 \\ 2 \\ 2\end{aligned}−\frac{3}{3}\begin{aligned}−1 \\ 1 \\ 1\end{aligned} \\ & =\begin{aligned}2 \\ 1 \\ 1\end{aligned}.\end{aligned}
+\begin{aligned}𝐯_{2} & =𝐚_{2}−proj_{𝐯_{1}}𝐚_{2} \\ & =𝐚_{2}−\frac{𝐚_{2}⋅𝐯_{1}}{𝐯_{1}⋅𝐯_{1}}𝐯_{1} \\ & =\begin{matrix}1 \\ 2 \\ 2\end{matrix}−\frac{3}{3}\begin{matrix}−1 \\ 1 \\ 1\end{matrix} \\ & =\begin{matrix}2 \\ 1 \\ 1\end{matrix}.\end{aligned}
 
 
 $$
 
-**** We find the vector $\mathbf{v}_3$ orthogonal to $\textrm{Span}\{\mathbf{v}_1,\mathbf{v}_2 \}$ using the usual formula:
+**** We find the vector $\mathbf{v}_3$ orthogonal to $\text{Span}\{\mathbf{v}_1,\mathbf{v}_2 \}$ using the usual formula:
 
 $$
 
 
-\begin{aligned}𝐯_{3} & =𝐚_{3}−proj_{𝐯_{1}}\,𝐚_{3}−proj_{𝐯_{2}}\,𝐚_{3} \\ & =𝐚_{3}−\frac{𝐚_{3}⋅𝐯_{1}}{𝐯_{1}⋅𝐯_{1}}𝐯_{1}−\frac{𝐚_{3}⋅𝐯_{2}}{𝐯_{2}⋅𝐯_{2}}𝐯_{2} \\ & =\begin{aligned}2 \\ 1 \\ −2\end{aligned}−(−\frac{3}{3})\begin{aligned}−1 \\ 1 \\ 1\end{aligned}−\frac{3}{6}\begin{aligned}2 \\ 1 \\ 1\end{aligned} \\ & =\begin{aligned}2 \\ 1 \\ −2\end{aligned}+\begin{aligned}−1 \\ 1 \\ 1\end{aligned}−\frac{1}{2}\begin{aligned}2 \\ 1 \\ 1\end{aligned} \\ & =\frac{1}{2}2\begin{aligned}2 \\ 1 \\ −2\end{aligned}+2\begin{aligned}−1 \\ 1 \\ 1\end{aligned}−\begin{aligned}2 \\ 1 \\ 1\end{aligned} \\ & =\begin{aligned}0 \\ \frac{3}{2} \\ −\frac{3}{2}\end{aligned}.\end{aligned}
+\begin{aligned}𝐯_{3} & =𝐚_{3}−proj_{𝐯_{1}}\,𝐚_{3}−proj_{𝐯_{2}}\,𝐚_{3} \\ & =𝐚_{3}−\frac{𝐚_{3}⋅𝐯_{1}}{𝐯_{1}⋅𝐯_{1}}𝐯_{1}−\frac{𝐚_{3}⋅𝐯_{2}}{𝐯_{2}⋅𝐯_{2}}𝐯_{2} \\ & =\begin{matrix}2 \\ 1 \\ −2\end{matrix}−(−\frac{3}{3})\begin{matrix}−1 \\ 1 \\ 1\end{matrix}−\frac{3}{6}\begin{matrix}2 \\ 1 \\ 1\end{matrix} \\ & =\begin{matrix}2 \\ 1 \\ −2\end{matrix}+\begin{matrix}−1 \\ 1 \\ 1\end{matrix}−\frac{1}{2}\begin{matrix}2 \\ 1 \\ 1\end{matrix} \\ & =\frac{1}{2}2\begin{matrix}2 \\ 1 \\ −2\end{matrix}+2\begin{matrix}−1 \\ 1 \\ 1\end{matrix}−\begin{matrix}2 \\ 1 \\ 1\end{matrix} \\ & =\begin{matrix}0 \\ \frac{3}{2} \\ −\frac{3}{2}\end{matrix}.\end{aligned}
 
 
 $$

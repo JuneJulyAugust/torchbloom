@@ -92,7 +92,7 @@ Therefore, the graph after the first iteration of the algorithm will be as follo
 
 ![Instructional graphic](../../../lesson-assets/discrete-mathematics/topic-5551/2033e3bd94fe3b68.png)
 
-So, the correct answer is graph $\textrm{II}.$
+So, the correct answer is graph $\text{II}.$
 
 ### Example: Constructing a Topological Ordering Using Kahn's Algorithm
 

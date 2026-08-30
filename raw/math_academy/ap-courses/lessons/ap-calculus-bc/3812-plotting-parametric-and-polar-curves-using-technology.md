@@ -109,7 +109,7 @@ Plot this curve on a graphing calculator for $x \in [-5,-5]$ and $y \in [-4,4].$
 
 #### Explanation
 
-To plot a parametric curve on most graphing calculators, we press the $\boxed{\color{gray}\textrm{MODE}}$ button and select $\boxed{\color{gray}\textrm{PAR}}$ or $\boxed{\color{gray}\textrm{PARAMETRIC}}.$ You may also need to press $\boxed{\color{gray}\textrm{2nd}}$ or $\boxed{\color{gray}\textrm{SHIFT}}$ to access the menu.
+To plot a parametric curve on most graphing calculators, we press the $\boxed{\color{gray}\text{MODE}}$ button and select $\boxed{\color{gray}\text{PAR}}$ or $\boxed{\color{gray}\text{PARAMETRIC}}.$ You may also need to press $\boxed{\color{gray}\text{2nd}}$ or $\boxed{\color{gray}\text{SHIFT}}$ to access the menu.
 
 To plot the function, we press $\boxed{\color{gray}\,y=\,}$ and enter the function definition as follows:
 
@@ -215,7 +215,7 @@ Which of the following gives a plot of this curve for $x\in [-2.5,2.5]$ and $y\i
 
 #### Explanation
 
-To plot a polar curve on most graphing calculators, we press the $\boxed{\color{gray}\textrm{MODE}}$ button and select $\boxed{\color{gray}\textrm{POL}}$ or $\boxed{\color{gray}\textrm{POLAR}}.$ You may also need to press $\boxed{\color{gray}\textrm{2nd}}$ or $\boxed{\color{gray}\textrm{SHIFT}}$ to access the menu.
+To plot a polar curve on most graphing calculators, we press the $\boxed{\color{gray}\text{MODE}}$ button and select $\boxed{\color{gray}\text{POL}}$ or $\boxed{\color{gray}\text{POLAR}}.$ You may also need to press $\boxed{\color{gray}\text{2nd}}$ or $\boxed{\color{gray}\text{SHIFT}}$ to access the menu.
 
 To plot the function, we press $\boxed{\color{gray}\,y=\,}$ and enter the function definition as follows:
 

@@ -85,7 +85,7 @@ For instance, consider the vectors $[\begin{aligned}6 \\ 0\end{aligned}]$ and $[
 $$
 
 
-\begin{aligned}‖𝐮+𝐯‖ & ≤‖𝐮‖+‖𝐯‖ \\ \sqrt{√(6+2)^{2}+(0+4)^{2}} & ≤\sqrt{√6^{2}+0^{2}}+\sqrt{√2^{2}+4^{2}} \\ \sqrt{√64+16} & ≤\sqrt{√36}+\sqrt{√4+16} \\ \sqrt{√80} & ≤6+\sqrt{√20} \\ 4\sqrt{√5} & ≤6+2\sqrt{√5} \\ 8.9… & ≤10.4…\,✓\end{aligned}
+\begin{aligned}‖𝐮+𝐯‖ & ≤‖𝐮‖+‖𝐯‖ \\ \sqrt{(6+2)^{2}+(0+4)^{2}} & ≤\sqrt{6^{2}+0^{2}}+\sqrt{2^{2}+4^{2}} \\ \sqrt{64+16} & ≤\sqrt{36}+\sqrt{4+16} \\ \sqrt{80} & ≤6+\sqrt{20} \\ 4\sqrt{5} & ≤6+2\sqrt{5} \\ 8.9… & ≤10.4…\,✓\end{aligned}
 
 
 $$

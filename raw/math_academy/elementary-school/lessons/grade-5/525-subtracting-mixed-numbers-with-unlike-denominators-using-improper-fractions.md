@@ -236,7 +236,7 @@ Finally, we convert back to a mixed number:
 
 $$
 
-\dfrac{15}{8} = 1 \, \textrm{R} \, 7 = 1 \, \dfrac{7}{8}
+\dfrac{15}{8} = 1 \, \text{R} \, 7 = 1 \, \dfrac{7}{8}
 
 $$
 
@@ -304,6 +304,6 @@ Finally, we convert back to a mixed number:
 
 $$
 
-\dfrac{21}{8} = 2 \, \textrm{R} \, 5 = 2 \, \dfrac{5}{8}
+\dfrac{21}{8} = 2 \, \text{R} \, 5 = 2 \, \dfrac{5}{8}
 
 $$

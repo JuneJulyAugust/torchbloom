@@ -14,7 +14,7 @@ Topic ID: 2026
 
 ### Introduction
 
-Suppose we have two point masses $A$ and $B$ of mass $20\,\textrm{kg}$ and $40\,\textrm{kg},$ respectively, connected by a rigid, massless rod of length $1\,\textrm{m}$, as shown below.
+Suppose we have two point masses $A$ and $B$ of mass $20\,\text{kg}$ and $40\,\text{kg},$ respectively, connected by a rigid, massless rod of length $1\,\text{m}$, as shown below.
 
 ![Instructional graphic](../../../lesson-assets/multivariable-calculus/topic-2026/b66440fd54e7a50e.png)
 
@@ -36,7 +36,7 @@ Note the following:
 
 - Loosely speaking, moment describes the amount of *turning effect* produced by a mass about a point (usually the tip of the fulcrum).
 
-- For masses measured in kilograms and distances in meters, the units of a moment are $\textrm{kg}\cdot\textrm m.$
+- For masses measured in kilograms and distances in meters, the units of a moment are $\text{kg}\cdot\textrm m.$
 
 - Moment is a *vector* quantity. A moment is either *positive* (representing *clockwise* induced motion) or *negative* (for *counterclockwise* motion). A moment's sign (positive/clockwise or negative/counterclockwise) is determined by the direction the rod would rotate if the corresponding mass were the only mass in the system.
 
@@ -64,7 +64,7 @@ $$
 
 $$
 
-Using the fact that the rod has length $1\,\textrm{m},$ we have
+Using the fact that the rod has length $1\,\text{m},$ we have
 
 $$
 
@@ -128,9 +128,9 @@ as shown below.
 
 Let's write down the moment of each mass about the fulcrum:
 
-- The moment of mass $A$ equals $-m \cdot 5 = -5m\,\textrm{lb}\cdot\textrm{ft}$ (negative since the motion induced by this mass would be counterclockwise).
+- The moment of mass $A$ equals $-m \cdot 5 = -5m\,\text{lb}\cdot\text{ft}$ (negative since the motion induced by this mass would be counterclockwise).
 
-- The moment of mass $B$ equals $10 \cdot 4 = 40\,\textrm{lb}\cdot\textrm{ft}$ (positive since the motion induced by this mass would be clockwise).
+- The moment of mass $B$ equals $10 \cdot 4 = 40\,\text{lb}\cdot\text{ft}$ (positive since the motion induced by this mass would be clockwise).
 
 The ** tells us that for the two masses to balance perfectly, the sum of the moments must equal zero.
 
@@ -190,13 +190,13 @@ $$
 
 $$
 
-Therefore, the total moment of the system is $2\,\textrm{kg} \cdot \textrm{m}.$
+Therefore, the total moment of the system is $2\,\text{kg} \cdot \text{m}.$
 
 ### Example: Sums of Moments for Masses Distributed Along the X-Axis
 
 #### Question
 
-Consider the collection of point masses $m_1=1\,\textrm{kg},$ $m_2=2\,\textrm{kg},$ $m_3=3\,\textrm{kg},$ and $m_4=3\,\textrm{kg}$ located at $x_1=-1\,\textrm{m},$ $x_2 = 1\,\textrm{m},$ $x_3 = 3\,\textrm{m},$ and $x_4 = 5 \, \textrm{m},$ respectively, along the $x$-axis. Find the total moment of this system about the origin.
+Consider the collection of point masses $m_1=1\,\text{kg},$ $m_2=2\,\text{kg},$ $m_3=3\,\text{kg},$ and $m_4=3\,\text{kg}$ located at $x_1=-1\,\text{m},$ $x_2 = 1\,\text{m},$ $x_3 = 3\,\text{m},$ and $x_4 = 5 \, \text{m},$ respectively, along the $x$-axis. Find the total moment of this system about the origin.
 
 #### Explanation
 
@@ -230,7 +230,7 @@ $$
 
 $$
 
-Therefore, the total moment of the system is $25\,\textrm{kg} \cdot \textrm{m}.$
+Therefore, the total moment of the system is $25\,\text{kg} \cdot \text{m}.$
 
 ### Center of Mass
 

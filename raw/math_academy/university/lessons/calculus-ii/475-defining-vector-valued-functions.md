@@ -189,7 +189,7 @@ Evaluating the function at $t=4,$ we get
 $$
 
 
-\begin{aligned}𝐫(4) & =⟨2−4,\,2\sqrt{√4},\,4−1⟩ \\ & =⟨−2,\,4,\,3⟩.\end{aligned}
+\begin{aligned}𝐫(4) & =⟨2−4,\,2\sqrt{4},\,4−1⟩ \\ & =⟨−2,\,4,\,3⟩.\end{aligned}
 
 
 $$
@@ -199,7 +199,7 @@ Computing the magnitude of this vector, we obtain
 $$
 
 
-\begin{aligned}|𝐫(4)| & =\sqrt{√(−2)^{2}+(4)^{2}+(3)^{2}} \\ & =\sqrt{√4+16+9} \\ & =\sqrt{√29}.\end{aligned}
+\begin{aligned}|𝐫(4)| & =\sqrt{(−2)^{2}+(4)^{2}+(3)^{2}} \\ & =\sqrt{4+16+9} \\ & =\sqrt{29}.\end{aligned}
 
 
 $$

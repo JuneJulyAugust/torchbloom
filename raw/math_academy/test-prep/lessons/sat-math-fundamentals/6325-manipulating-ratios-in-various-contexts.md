@@ -55,14 +55,14 @@ Let's see a concrete example.
 
 ### A Concrete Example
 
-Suppose a garden hose releases $1{,}260\,\textrm{L}$ of water in $14$ minutes at a constant rate, and we want to know how many liters are released in $5$ minutes at this rate.
+Suppose a garden hose releases $1{,}260\,\text{L}$ of water in $14$ minutes at a constant rate, and we want to know how many liters are released in $5$ minutes at this rate.
 
 To solve this, we first set up a ratio. In this case, the ratio of volume released to time is
 
 $$
 
 
-1{,}260\,\textrm{L} \:\mathbin{:}\: 14\,\textrm{min}.
+1{,}260\,\text{L} \:\mathbin{:}\: 14\,\text{min}.
 
 
 $$
@@ -78,7 +78,7 @@ Dividing the above ratio by $14,$ we have
 $$
 
 
-\dfrac{1260}{14}\,\textrm{L} \:\mathbin{:}\: 1\,\textrm{min}
+\dfrac{1260}{14}\,\text{L} \:\mathbin{:}\: 1\,\text{min}
 
 
 $$
@@ -88,7 +88,7 @@ which simplifies as
 $$
 
 
-90\,\textrm{L} \:\mathbin{:}\: 1\,\textrm{min}.
+90\,\text{L} \:\mathbin{:}\: 1\,\text{min}.
 
 
 $$
@@ -100,7 +100,7 @@ Finally, multiplying this ratio by $5,$ we have
 $$
 
 
-5\cdot 90\,\textrm{L} \:\mathbin{:}\: 5\cdot 1\,\textrm{min}
+5\cdot 90\,\text{L} \:\mathbin{:}\: 5\cdot 1\,\text{min}
 
 
 $$
@@ -110,18 +110,18 @@ which gives
 $$
 
 
-450\,\textrm{L} \:\mathbin{:}\: 5\,\textrm{min}.
+450\,\text{L} \:\mathbin{:}\: 5\,\text{min}.
 
 
 $$
 
-Therefore, in $5$ minutes, the hose releases $450\,\textrm{L}$ of water.
+Therefore, in $5$ minutes, the hose releases $450\,\text{L}$ of water.
 
 ### Example: Determining a Rate Using Equivalent Ratios
 
 #### Question
 
-A paint sprayer applies $132c\,\textrm{mL}$ of paint in $8d$ minutes at a constant rate. Which expression represents the number of milliliters applied in $3d$ minutes at this rate?
+A paint sprayer applies $132c\,\text{mL}$ of paint in $8d$ minutes at a constant rate. Which expression represents the number of milliliters applied in $3d$ minutes at this rate?
 
 #### Explanation
 
@@ -130,7 +130,7 @@ The ratio of volume of paint applied to the number of minutes is given by
 $$
 
 
-132c\,\textrm{mL} \:\mathbin{:}\: 8d\,\textrm{min}
+132c\,\text{mL} \:\mathbin{:}\: 8d\,\text{min}
 
 
 $$
@@ -146,7 +146,7 @@ Dividing the above ratio by $8d,$ we have
 $$
 
 
-\dfrac{132c}{8d}\,\textrm{mL} \:\mathbin{:}\: 1\,\textrm{min}
+\dfrac{132c}{8d}\,\text{mL} \:\mathbin{:}\: 1\,\text{min}
 
 
 $$
@@ -158,7 +158,7 @@ Finally, multiplying this ratio by $3d,$ we have
 $$
 
 
-3d\cdot \dfrac{132c}{8d}\,\textrm{mL} \:\mathbin{:}\: 3d\cdot 1\,\textrm{min}
+3d\cdot \dfrac{132c}{8d}\,\text{mL} \:\mathbin{:}\: 3d\cdot 1\,\text{min}
 
 
 $$
@@ -173,7 +173,7 @@ $$
 
 $$
 
-Therefore, in $3d$ minutes, the sprayer applies $\dfrac{99c}{2}\,\textrm{mL}$ of paint.
+Therefore, in $3d$ minutes, the sprayer applies $\dfrac{99c}{2}\,\text{mL}$ of paint.
 
 ### Maintaining Fixed Ratios in Similar Polygons
 
@@ -317,7 +317,7 @@ $$
 
 $$
 
-Therefore, when the width increases by $14$ units, the length must $\boxed{\textrm{increase}}$ by $\boxed{21}$ units.
+Therefore, when the width increases by $14$ units, the length must $\boxed{\text{increase}}$ by $\boxed{21}$ units.
 
 ### Circle Problems
 
@@ -340,7 +340,7 @@ We use the ratio of an arc length to its proportion of a full turn to solve diff
 $$
 
 
-\textrm{arc length} \:\mathbin{:}\: \textrm{proportion of a full turn}
+\text{arc length} \:\mathbin{:}\: \text{proportion of a full turn}
 
 
 $$
@@ -410,7 +410,7 @@ We'll solve this problem by considering the following ratio:
 $$
 
 
-\textrm{arc length} \:\mathbin{:}\: \textrm{proportion of a full turn}
+\text{arc length} \:\mathbin{:}\: \text{proportion of a full turn}
 
 
 $$
@@ -496,7 +496,7 @@ We'll solve this problem by considering the following ratio:
 $$
 
 
-\textrm{arc length} \:\mathbin{:}\: \textrm{proportion of a full turn}
+\text{arc length} \:\mathbin{:}\: \text{proportion of a full turn}
 
 
 $$

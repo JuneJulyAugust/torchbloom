@@ -18,7 +18,7 @@ The **slope** of a line, denoted $m,$ measures how steep the line is. It is give
 
 $$
 
-m = \dfrac{\color{red}{\textrm{rise}}}{\color{blue}{\textrm{run}}}
+m = \dfrac{\color{red}{\text{rise}}}{\color{blue}{\text{run}}}
 
 $$
 
@@ -30,7 +30,7 @@ Moving from $(1, 3)$ to $(3, 7)$, the line rises *vertically* by $\color{red}4$ 
 
 $$
 
-m = \dfrac{\color{red}{\textrm{rise}}}{\color{blue}{\textrm{run}}} = \dfrac{\color{red}{4}}{\color{blue}{2}} = 2.
+m = \dfrac{\color{red}{\text{rise}}}{\color{blue}{\text{run}}} = \dfrac{\color{red}{4}}{\color{blue}{2}} = 2.
 
 $$
 

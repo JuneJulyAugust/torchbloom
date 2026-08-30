@@ -68,7 +68,7 @@ For a given curve $y=f(x),$ the derivative can be represented using several diff
 $$
 
 
-f'(x),\qquad y'(x), \qquad \dfrac{\textrm{d}f}{\textrm{d}x}, \qquad \dfrac{\textrm{d}y}{\textrm{d}x}.
+f'(x),\qquad y'(x), \qquad \dfrac{\text{d}f}{\text{d}x}, \qquad \dfrac{\text{d}y}{\text{d}x}.
 
 
 $$
@@ -81,7 +81,7 @@ In words, the term $y'(x)$ is said like
 
 - "$y$ dash."
 
-The term $\dfrac{\textrm{d}y}{\textrm{d}x}$ is said like "dee $y$ by dee $x$."
+The term $\dfrac{\text{d}y}{\text{d}x}$ is said like "dee $y$ by dee $x$."
 
 The important thing to remember is that they all represent the same thing, the derivative.
 
@@ -89,7 +89,7 @@ The important thing to remember is that they all represent the same thing, the d
 
 #### Question
 
-Given $y =x^2,$ calculate $\dfrac{\textrm{d}y}{\textrm{d}x}$ using the limit of a difference quotient.
+Given $y =x^2,$ calculate $\dfrac{\text{d}y}{\text{d}x}$ using the limit of a difference quotient.
 
 #### Explanation
 

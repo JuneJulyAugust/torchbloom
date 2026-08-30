@@ -120,7 +120,7 @@ Therefore, the corresponding Jacobian determinant is
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)} & =\begin{aligned}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣}\end{aligned} \\ & =\begin{aligned}4𝑢 & −6𝑣 \\ −1 & 1\end{aligned} \\ & =4𝑢⋅1−(−6𝑣)⋅(−1) \\ & =4𝑢−6𝑣.\end{aligned}
+\begin{aligned}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)} & =\begin{matrix}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣}\end{matrix} \\ & =\begin{matrix}4𝑢 & −6𝑣 \\ −1 & 1\end{matrix} \\ & =4𝑢⋅1−(−6𝑣)⋅(−1) \\ & =4𝑢−6𝑣.\end{aligned}
 
 
 $$
@@ -170,7 +170,7 @@ the Jacobian determinant of $\mathbf T,$ denoted $\dfrac{\partial (x, y)}{\parti
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)} & =\begin{aligned}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣}\end{aligned}.\end{aligned}
+\begin{aligned}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)} & =\begin{matrix}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣}\end{matrix}.\end{aligned}
 
 
 $$
@@ -202,7 +202,7 @@ Therefore, the corresponding Jacobian determinant is
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)} & =\begin{aligned}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣}\end{aligned} \\ & =\begin{aligned}2𝑢 & −2𝑣 \\ \,\,1\, & \,\,\,\,1\end{aligned} \\ & =2(𝑢+𝑣).\end{aligned}
+\begin{aligned}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)} & =\begin{matrix}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣}\end{matrix} \\ & =\begin{matrix}2𝑢 & −2𝑣 \\ \,\,1\, & \,\,\,\,1\end{matrix} \\ & =2(𝑢+𝑣).\end{aligned}
 
 
 $$
@@ -274,7 +274,7 @@ the Jacobian determinant of $\mathbf T,$ denoted $\dfrac{\partial (x, y)}{\parti
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)} & =\begin{aligned}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣}\end{aligned}.\end{aligned}
+\begin{aligned}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)} & =\begin{matrix}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣}\end{matrix}.\end{aligned}
 
 
 $$
@@ -302,7 +302,7 @@ Therefore, the corresponding Jacobian determinant is
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑢,𝑣)}{𝜕(𝑥,𝑦)} & =\begin{aligned}\frac{𝜕𝑢}{𝜕𝑥} & \frac{𝜕𝑢}{𝜕𝑦} \\ \frac{𝜕𝑣}{𝜕𝑥} & \frac{𝜕𝑣}{𝜕𝑦}\end{aligned} \\ & =\begin{aligned}𝑒^{𝑥+𝑦} & 𝑒^{𝑥+𝑦} \\ 𝑒^{𝑥−𝑦} & −𝑒^{𝑥−𝑦}\end{aligned} \\ & =𝑒^{𝑥+𝑦}⋅(−𝑒^{𝑥−𝑦})−𝑒^{𝑥+𝑦}⋅𝑒^{𝑥−𝑦} \\ & =−𝑒^{𝑥+𝑦}⋅𝑒^{𝑥−𝑦}−𝑒^{𝑥+𝑦}⋅𝑒^{𝑥−𝑦} \\ & =−2⋅𝑒^{𝑥+𝑦}⋅𝑒^{𝑥−𝑦} \\ & =−2𝑢𝑣.\end{aligned}
+\begin{aligned}\frac{𝜕(𝑢,𝑣)}{𝜕(𝑥,𝑦)} & =\begin{matrix}\frac{𝜕𝑢}{𝜕𝑥} & \frac{𝜕𝑢}{𝜕𝑦} \\ \frac{𝜕𝑣}{𝜕𝑥} & \frac{𝜕𝑣}{𝜕𝑦}\end{matrix} \\ & =\begin{matrix}𝑒^{𝑥+𝑦} & 𝑒^{𝑥+𝑦} \\ 𝑒^{𝑥−𝑦} & −𝑒^{𝑥−𝑦}\end{matrix} \\ & =𝑒^{𝑥+𝑦}⋅(−𝑒^{𝑥−𝑦})−𝑒^{𝑥+𝑦}⋅𝑒^{𝑥−𝑦} \\ & =−𝑒^{𝑥+𝑦}⋅𝑒^{𝑥−𝑦}−𝑒^{𝑥+𝑦}⋅𝑒^{𝑥−𝑦} \\ & =−2⋅𝑒^{𝑥+𝑦}⋅𝑒^{𝑥−𝑦} \\ & =−2𝑢𝑣.\end{aligned}
 
 
 $$

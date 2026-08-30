@@ -38,14 +38,14 @@ A helium balloon loses $20$ grams of helium every second. What differential equa
 
 #### Explanation
 
-If the mass of the balloon is $M$ grams, then the rate of change of the mass is $\dfrac{\textrm{d}M}{\textrm{d}t},$ where $t$ is the time in seconds.
+If the mass of the balloon is $M$ grams, then the rate of change of the mass is $\dfrac{\text{d}M}{\text{d}t},$ where $t$ is the time in seconds.
 
 Since $20$ grams are lost every second, the rate of change of the balloon's mass is given by the differential equation
 
 $$
 
 
-\dfrac{\textrm{d}M}{\textrm{d}t}=-20.
+\dfrac{\text{d}M}{\text{d}t}=-20.
 
 
 $$

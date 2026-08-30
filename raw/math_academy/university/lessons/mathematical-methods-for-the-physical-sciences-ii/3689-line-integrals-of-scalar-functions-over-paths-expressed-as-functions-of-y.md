@@ -97,7 +97,7 @@ Computing $\mathbf{r}'(t)$ and $\| \mathbf{r}'(t) \|,$ we get the following:
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑡) & =\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣 \\ & =\frac{d}{d𝑡}(𝑡^{2})𝐢+\frac{d}{d𝑡}(𝑡)𝐣 \\ & =2𝑡\,𝐢+𝐣 \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{√(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}} \\ & =\sqrt{√(2𝑡)^{2}+1^{2}} \\ & =\sqrt{√4𝑡^{2}+1}\end{aligned}
+\begin{aligned}𝐫^{′}(𝑡) & =\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣 \\ & =\frac{d}{d𝑡}(𝑡^{2})𝐢+\frac{d}{d𝑡}(𝑡)𝐣 \\ & =2𝑡\,𝐢+𝐣 \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}} \\ & =\sqrt{(2𝑡)^{2}+1^{2}} \\ & =\sqrt{4𝑡^{2}+1}\end{aligned}
 
 
 $$
@@ -117,7 +117,7 @@ Therefore, we can write the integral as
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}\frac{𝑥}{𝑦}\,d𝑠 & =∫_{31}^{}𝑓(𝐫(𝑡))\,‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{31}^{}𝑡\sqrt{√4𝑡^{2}+1}\,d𝑡.\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}\frac{𝑥}{𝑦}\,d𝑠 & =∫_{31}𝑓(𝐫(𝑡))\,‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{31}𝑡\sqrt{4𝑡^{2}+1}\,d𝑡.\end{aligned}
 
 
 $$
@@ -128,7 +128,7 @@ $$
 
 ![Instructional graphic](../../../lesson-assets/mathematical-methods-for-the-physical-sciences-ii/topic-3689/704282d6f833a4a1.png)
 
-Evaluate the line integral $\displaystyle \int\limits_{C} y^3e^{-x} \: \textrm{d}s,$ where $C$ is the section of the curve $x = \ln{y}$ from $(0, 1)$ to $\left(\dfrac32\ln 2, 2\sqrt{2}\right),$ as shown above.
+Evaluate the line integral $\displaystyle \int\limits_{C} y^3e^{-x} \: \text{d}s,$ where $C$ is the section of the curve $x = \ln{y}$ from $(0, 1)$ to $\left(\dfrac32\ln 2, 2\sqrt{2}\right),$ as shown above.
 
 #### Explanation
 
@@ -159,7 +159,7 @@ Computing $\mathbf{r}'(t)$ and $\| \mathbf{r}'(t) \|,$ we get the following:
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑡) & =\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣 \\ & =\frac{d}{d𝑡}(ln⁡𝑡)𝐢+\frac{d}{d𝑡}(𝑡)𝐣 \\ & =\frac{1}{𝑡}\,𝐢+𝐣 \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{√(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}} \\ & =\sqrt{√(\frac{1}{𝑡})^{2}+1^{2}} \\ & =\sqrt{√\frac{1}{𝑡^{2}}+1} \\ & =\sqrt{√\frac{𝑡^{2}+1}{𝑡^{2}}} \\ & =\frac{\sqrt{√𝑡^{2}+1}}{|𝑡|} \\ & =\frac{\sqrt{√𝑡^{2}+1}}{𝑡}\end{aligned}
+\begin{aligned}𝐫^{′}(𝑡) & =\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣 \\ & =\frac{d}{d𝑡}(ln⁡𝑡)𝐢+\frac{d}{d𝑡}(𝑡)𝐣 \\ & =\frac{1}{𝑡}\,𝐢+𝐣 \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}} \\ & =\sqrt{(\frac{1}{𝑡})^{2}+1^{2}} \\ & =\sqrt{\frac{1}{𝑡^{2}}+1} \\ & =\sqrt{\frac{𝑡^{2}+1}{𝑡^{2}}} \\ & =\frac{\sqrt{𝑡^{2}+1}}{|𝑡|} \\ & =\frac{\sqrt{𝑡^{2}+1}}{𝑡}\end{aligned}
 
 
 $$
@@ -179,17 +179,17 @@ Therefore, we can write the integral as
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}𝑦^{3}𝑒^{−𝑥}\,d𝑠 & =∫_{2\sqrt{√2}1}^{}𝑓(𝐫(𝑡))\,‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{2\sqrt{√2}1}^{}𝑡^{2}⋅\frac{\sqrt{√𝑡^{2}+1}}{𝑡}\,d𝑡 \\ & =∫_{2\sqrt{√2}1}^{}𝑡\sqrt{√𝑡^{2}+1}\,d𝑡.\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}𝑦^{3}𝑒^{−𝑥}\,d𝑠 & =∫_{2\sqrt{2}1}^{}𝑓(𝐫(𝑡))\,‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{2\sqrt{2}1}^{}𝑡^{2}⋅\frac{\sqrt{𝑡^{2}+1}}{𝑡}\,d𝑡 \\ & =∫_{2\sqrt{2}1}^{}𝑡\sqrt{𝑡^{2}+1}\,d𝑡.\end{aligned}
 
 
 $$
 
-Finally, we evaluate the integral using the substitution $u = t^2 + 1,$ $\textrm{d}u = 2t \, \textrm{d}t$ as follows:
+Finally, we evaluate the integral using the substitution $u = t^2 + 1,$ $\text{d}u = 2t \, \text{d}t$ as follows:
 
 $$
 
 
-\begin{aligned}∫_{2\sqrt{√2}1}^{}𝑡\sqrt{√𝑡^{2}+1}\,d𝑡 & =∫_{92}^{}\sqrt{√𝑢}⋅\frac{1}{2}\,d𝑢 \\ & =\frac{1}{2}⋅\frac{2}{3}\sqrt{√𝑢^{3}}\,_{92}^{} \\ & =\frac{1}{3}[\sqrt{√9^{3}}−\sqrt{√2^{3}}] \\ & =\frac{27−2\sqrt{√2}}{3}\end{aligned}
+\begin{aligned}∫_{2\sqrt{2}1}^{}𝑡\sqrt{𝑡^{2}+1}\,d𝑡 & =∫_{92}\sqrt{𝑢}⋅\frac{1}{2}\,d𝑢 \\ & =\frac{1}{2}⋅\frac{2}{3}\sqrt{𝑢^{3}}\,_{92} \\ & =\frac{1}{3}[\sqrt{9^{3}}−\sqrt{2^{3}}] \\ & =\frac{27−2\sqrt{2}}{3}\end{aligned}
 
 
 $$

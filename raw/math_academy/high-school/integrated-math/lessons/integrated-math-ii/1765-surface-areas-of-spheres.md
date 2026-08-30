@@ -13,7 +13,7 @@ Topic ID: 1765
 
 ### Introduction
 
-Given a sphere with radius $r=4\:\textrm{cm},$ how do we calculate its surface area?
+Given a sphere with radius $r=4\:\text{cm},$ how do we calculate its surface area?
 
 ![Instructional graphic](../../../../lesson-assets/integrated-math-ii/topic-1765/1c25d3daa695dd62.png)
 
@@ -29,12 +29,12 @@ $$
 
 where $r$ is the radius of the sphere.
 
-Substituting $r=4\:\textrm{cm}$ into the formula, we obtain
+Substituting $r=4\:\text{cm}$ into the formula, we obtain
 
 $$
 
 
-S = 4 \pi (4)^2 = 64\pi \:\textrm{cm}^2.
+S = 4 \pi (4)^2 = 64\pi \:\text{cm}^2.
 
 
 $$
@@ -44,7 +44,7 @@ We often express the surface area of a sphere as a multiple of $\pi.$ We can als
 $$
 
 
-S \approx 201.06 \:\textrm{cm}^2
+S \approx 201.06 \:\text{cm}^2
 
 
 $$
@@ -55,7 +55,7 @@ rounded to two decimal places.
 
 #### Question
 
-A sphere has a diameter of $3 \: \textrm{in}.$ Find the surface area of the sphere.
+A sphere has a diameter of $3 \: \text{in}.$ Find the surface area of the sphere.
 
 #### Explanation
 
@@ -71,12 +71,12 @@ $$
 
 where $r$ is the radius of the sphere.
 
-Substituting $r=\dfrac{3}{2} \: \textrm{in}$ into the formula, we obtain
+Substituting $r=\dfrac{3}{2} \: \text{in}$ into the formula, we obtain
 
 $$
 
 
-S = 4 \pi \left(\dfrac {3} {2} \right)^2 = 9\pi \: \textrm{in}^2.
+S = 4 \pi \left(\dfrac {3} {2} \right)^2 = 9\pi \: \text{in}^2.
 
 
 $$
@@ -85,7 +85,7 @@ $$
 
 #### Question
 
-Calculate the radius of a sphere given that its surface area is $50\pi \: \textrm{cm}^2.$
+Calculate the radius of a sphere given that its surface area is $50\pi \: \text{cm}^2.$
 
 ![Instructional graphic](../../../../lesson-assets/integrated-math-ii/topic-1765/7671a6ba34b5230b.png)
 
@@ -103,12 +103,12 @@ $$
 
 where $r$ is the radius of the sphere.
 
-Substituting $S=50\pi \: \textrm{cm}^2$ into the formula, we can solve for $r$ as follows:
+Substituting $S=50\pi \: \text{cm}^2$ into the formula, we can solve for $r$ as follows:
 
 $$
 
 
-\begin{aligned}𝑆 & =4𝜋𝑟^{2} \\ 50𝜋 & =4𝜋𝑟^{2} \\ \frac{50𝜋}{4𝜋} & =𝑟^{2} \\ 𝑟^{2} & =\frac{25}{2} \\ 𝑟 & =\sqrt{√\frac{25}{2}} \\ & =\frac{5}{\sqrt{√2}} \\ & =\frac{5\sqrt{√2}}{2}\,cm\end{aligned}
+\begin{aligned}𝑆 & =4𝜋𝑟^{2} \\ 50𝜋 & =4𝜋𝑟^{2} \\ \frac{50𝜋}{4𝜋} & =𝑟^{2} \\ 𝑟^{2} & =\frac{25}{2} \\ 𝑟 & =\sqrt{\frac{25}{2}} \\ & =\frac{5}{\sqrt{2}} \\ & =\frac{5\sqrt{2}}{2}\,cm\end{aligned}
 
 
 $$
@@ -117,7 +117,7 @@ $$
 
 #### Question
 
-The volume of the sphere is $\dfrac{500}{3}\pi \: \textrm{in}^3.$ Calculate the surface area of the sphere.
+The volume of the sphere is $\dfrac{500}{3}\pi \: \text{in}^3.$ Calculate the surface area of the sphere.
 
 #### Explanation
 
@@ -133,7 +133,7 @@ $$
 
 where $r$ is the radius of the sphere.
 
-Substituting $V=\dfrac{500}{3}\pi \: \textrm{in}^3$ into the formula, we can solve for $r$ as follows:
+Substituting $V=\dfrac{500}{3}\pi \: \text{in}^3$ into the formula, we can solve for $r$ as follows:
 
 $$
 

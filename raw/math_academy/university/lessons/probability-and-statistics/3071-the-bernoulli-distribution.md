@@ -67,11 +67,11 @@ $$
 
 #### Question
 
-Given that $X \sim \textrm{Bernoulli}(0.55),$ compute $P(X = 1).$
+Given that $X \sim \text{Bernoulli}(0.55),$ compute $P(X = 1).$
 
 #### Explanation
 
-If $X \sim \textrm{Bernoulli}(p),$ then $X$ has the following probability mass function:
+If $X \sim \text{Bernoulli}(p),$ then $X$ has the following probability mass function:
 
 $$
 
@@ -81,7 +81,7 @@ $$
 
 $$
 
-Here, $X \sim \textrm{Bernoulli}(0.55),$ so the distribution of $X$ in this case is
+Here, $X \sim \text{Bernoulli}(0.55),$ so the distribution of $X$ in this case is
 
 $$
 
@@ -105,11 +105,11 @@ $$
 
 #### Question
 
-Given that $X \sim \textrm{Bernoulli}(0.65),$ compute $P(X = 0).$
+Given that $X \sim \text{Bernoulli}(0.65),$ compute $P(X = 0).$
 
 #### Explanation
 
-If $X \sim \textrm{Bernoulli}(p),$ then $X$ has the following probability mass function:
+If $X \sim \text{Bernoulli}(p),$ then $X$ has the following probability mass function:
 
 $$
 
@@ -119,7 +119,7 @@ $$
 
 $$
 
-Here, $X \sim \textrm{Bernoulli}(0.65),$ so the distribution of $X$ in this case is
+Here, $X \sim \text{Bernoulli}(0.65),$ so the distribution of $X$ in this case is
 
 $$
 
@@ -143,7 +143,7 @@ $$
 
 #### Question
 
-Given that $X\sim \textrm{Bernoulli}(0.7)$ and $Y \sim \textrm{Bernoulli}(0.6)$ are independent, calculate $P(X=1 \, \cap \, Y=1).$
+Given that $X\sim \text{Bernoulli}(0.7)$ and $Y \sim \text{Bernoulli}(0.6)$ are independent, calculate $P(X=1 \, \cap \, Y=1).$
 
 #### Explanation
 
@@ -157,7 +157,7 @@ $$
 
 $$
 
-Now, since $X\sim \textrm{Bernoulli}(0.7),$ we have
+Now, since $X\sim \text{Bernoulli}(0.7),$ we have
 
 $$
 
@@ -167,7 +167,7 @@ P(X=1) = 0.7, \quad P(X=0) = 0.3,
 
 $$
 
-and since $Y \sim \textrm{Bernoulli}(0.6),$ we have
+and since $Y \sim \text{Bernoulli}(0.6),$ we have
 
 $$
 
@@ -191,7 +191,7 @@ $$
 
 #### Question
 
-Given that $X\sim \textrm{Bernoulli}(0.3)$ and $Y \sim \textrm{Bernoulli}(0.7)$ are independent, calculate $P(X=0 \, \cup \, Y=0).$
+Given that $X\sim \text{Bernoulli}(0.3)$ and $Y \sim \text{Bernoulli}(0.7)$ are independent, calculate $P(X=0 \, \cup \, Y=0).$
 
 #### Explanation
 
@@ -225,7 +225,7 @@ $$
 
 $$
 
-Now, since $X\sim \textrm{Bernoulli}(0.3),$ we have
+Now, since $X\sim \text{Bernoulli}(0.3),$ we have
 
 $$
 
@@ -235,7 +235,7 @@ P(X=1) = 0.3, \quad P(X=0) = 0.7,
 
 $$
 
-and since $Y \sim \textrm{Bernoulli}(0.7),$ we have
+and since $Y \sim \text{Bernoulli}(0.7),$ we have
 
 $$
 

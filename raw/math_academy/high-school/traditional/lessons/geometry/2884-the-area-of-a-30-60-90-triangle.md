@@ -21,7 +21,7 @@ Therefore, if we know the length of a leg of a $30^\circ$-$60^\circ$-$90^\circ$ 
 $$
 
 
-\begin{aligned}𝐴 & =\frac{1}{2}⋅𝑏⋅ℎ \\ & =\frac{1}{2}⋅𝑠⋅\sqrt{√3}⋅𝑠 \\ & =\frac{\sqrt{√3}}{2}𝑠^{2}.\end{aligned}
+\begin{aligned}𝐴 & =\frac{1}{2}⋅𝑏⋅ℎ \\ & =\frac{1}{2}⋅𝑠⋅\sqrt{3}⋅𝑠 \\ & =\frac{\sqrt{3}}{2}𝑠^{2}.\end{aligned}
 
 
 $$
@@ -49,7 +49,7 @@ In our case, the shortest side has length $s=12,$ so the area is given by
 $$
 
 
-\begin{aligned}A & =\frac{\sqrt{√3}}{2}⋅12^{2} \\ & =\frac{\sqrt{√3}}{2}⋅144 \\ & =72\sqrt{√3}.\end{aligned}
+\begin{aligned}A & =\frac{\sqrt{3}}{2}⋅12^{2} \\ & =\frac{\sqrt{3}}{2}⋅144 \\ & =72\sqrt{3}.\end{aligned}
 
 
 $$
@@ -77,7 +77,7 @@ In our case, the area is $\mathcal A = 23 \sqrt{3},$ so we can substitute this i
 $$
 
 
-\begin{aligned}23\sqrt{√3} & =\frac{\sqrt{√3}}{2}𝑠^{2} \\ 23 & =\frac{1}{2}𝑠^{2} \\ 46 & =𝑠^{2} \\ 𝑠 & =\sqrt{√46}\end{aligned}
+\begin{aligned}23\sqrt{3} & =\frac{\sqrt{3}}{2}𝑠^{2} \\ 23 & =\frac{1}{2}𝑠^{2} \\ 46 & =𝑠^{2} \\ 𝑠 & =\sqrt{46}\end{aligned}
 
 
 $$
@@ -109,7 +109,7 @@ Now, we can use the formula for the area of a $30^\circ$-$60^\circ$-$90^\circ$ t
 $$
 
 
-\begin{aligned}A & =\frac{\sqrt{√3}}{2}𝑠^{2} \\ & =\frac{\sqrt{√3}}{2}⋅5^{2} \\ & =\frac{\sqrt{√3}}{2}⋅25 \\ & =\frac{25\sqrt{√3}}{2}\end{aligned}
+\begin{aligned}A & =\frac{\sqrt{3}}{2}𝑠^{2} \\ & =\frac{\sqrt{3}}{2}⋅5^{2} \\ & =\frac{\sqrt{3}}{2}⋅25 \\ & =\frac{25\sqrt{3}}{2}\end{aligned}
 
 
 $$
@@ -141,7 +141,7 @@ In our case, the area is $\mathcal A =26 \sqrt{3},$ so we can substitute this in
 $$
 
 
-\begin{aligned}26\sqrt{√3} & =\frac{\sqrt{√3}}{2}𝑠^{2} \\ 52 & =𝑠^{2} \\ 𝑠 & =\sqrt{√52} \\ 𝑠 & =2\sqrt{√13}\end{aligned}
+\begin{aligned}26\sqrt{3} & =\frac{\sqrt{3}}{2}𝑠^{2} \\ 52 & =𝑠^{2} \\ 𝑠 & =\sqrt{52} \\ 𝑠 & =2\sqrt{13}\end{aligned}
 
 
 $$
@@ -151,7 +151,7 @@ In a $30^\circ$-$60^\circ$-$90^\circ,$ the length of the longer leg is $\sqrt 3$
 $$
 
 
-\begin{aligned}\sqrt{√3}⋅𝑠 & =\sqrt{√3}⋅2\sqrt{√13} \\ & =2\sqrt{√39}.\end{aligned}
+\begin{aligned}\sqrt{3}⋅𝑠 & =\sqrt{3}⋅2\sqrt{13} \\ & =2\sqrt{39}.\end{aligned}
 
 
 $$

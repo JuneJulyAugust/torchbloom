@@ -26,7 +26,7 @@ $$
 
 where $D$ is the distance covered, and $T$ is the time taken.
 
-For example, if a car travels a distance of $600\,\textrm{m}$ within a time of $30\,\textrm{s},$ at constant speed, then we can find the speed of the car using the formula as follows:
+For example, if a car travels a distance of $600\,\text{m}$ within a time of $30\,\text{s},$ at constant speed, then we can find the speed of the car using the formula as follows:
 
 $$
 
@@ -46,7 +46,7 @@ $$
 
 $$
 
-So, the speed of the car is $20\,\textrm{m}/\textrm{s}.$ When the unit has a quotient like this, we say "meters *per* second."
+So, the speed of the car is $20\,\text{m}/\text{s}.$ When the unit has a quotient like this, we say "meters *per* second."
 
 ### Example: Finding Units When There Is No Cancellation
 
@@ -76,7 +76,7 @@ $$
 
 $$
 
-Therefore the appropriate unit is $\dfrac{\textrm{m}}{\textrm{s}^2}.$ Here, we ignore the unitless constant $2$ since it does not affect the units.
+Therefore the appropriate unit is $\dfrac{\text{m}}{\text{s}^2}.$ Here, we ignore the unitless constant $2$ since it does not affect the units.
 
 ### Example: Finding Units When There Is Cancellation
 
@@ -92,7 +92,7 @@ f = \dfrac{v}{l},
 
 $$
 
-where $v$ represents the velocity of the wave in $\dfrac{\textrm{m}}{\textrm{s}},$ while $l$ represents the length of the wave in meters. Find an appropriate measurement unit for frequency.
+where $v$ represents the velocity of the wave in $\dfrac{\text{m}}{\text{s}},$ while $l$ represents the length of the wave in meters. Find an appropriate measurement unit for frequency.
 
 #### Explanation
 
@@ -106,7 +106,7 @@ $$
 
 $$
 
-Thus, the unit of frequency is $\dfrac{1}{\textrm{s}}.$
+Thus, the unit of frequency is $\dfrac{1}{\text{s}}.$
 
 ### Formulas With Non-Standard Units
 
@@ -126,9 +126,9 @@ where $f$ is the number of friends that person has, and $s$ is the number of sib
 
 If we want to find the unit of popularity, then we need to substitute the units for the number of friends ($f$) and the number of siblings ($s$) into the formula.
 
-- The units for the number of friends is '$\textrm{friends}$' since we say 'I have $5$ friends'.
+- The units for the number of friends is '$\text{friends}$' since we say 'I have $5$ friends'.
 
-- Similarly, the units for the number of siblings is '$\textrm{siblings}.$'
+- Similarly, the units for the number of siblings is '$\text{siblings}.$'
 
 Substituting these units into the formula, we get
 
@@ -140,7 +140,7 @@ $$
 
 $$
 
-Therefore the appropriate unit is $\dfrac{\textrm{friends}}{\textrm{siblings}}$, or "friends per sibling." Here we ignore the constant $2$ since it does not affect the units.
+Therefore the appropriate unit is $\dfrac{\text{friends}}{\text{siblings}}$, or "friends per sibling." Here we ignore the constant $2$ since it does not affect the units.
 
 ### Example: Dividing Nonstandard Units
 
@@ -164,4 +164,4 @@ In words, what is the appropriate measurement unit for $P?$
 
 We are solving for measurement units, so we can ignore the quantities $115$ and $20\,000.$ They do not matter if we are just solving for units.
 
-Since $N$ represents $\textrm{eggs}$ and $C$ represents $\textrm{chickens},$ the appropriate measurement unit for $P=\dfrac{N}{C}$ is $\dfrac{\textrm{eggs}}{\textrm{chickens}}.$ In words, this is "eggs per chicken."
+Since $N$ represents $\text{eggs}$ and $C$ represents $\text{chickens},$ the appropriate measurement unit for $P=\dfrac{N}{C}$ is $\dfrac{\text{eggs}}{\text{chickens}}.$ In words, this is "eggs per chicken."

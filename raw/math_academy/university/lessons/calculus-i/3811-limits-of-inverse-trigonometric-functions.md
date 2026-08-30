@@ -76,7 +76,7 @@ We can use the algebra of limits to evaluate expressions involving inverse trigo
 
 #### Question
 
-Evaluate $\lim_\limits{x \to 0} \dfrac{\arccos(x) -\pi}{x-\pi}.$
+Evaluate $\lim\limits_{x \to 0} \dfrac{\arccos(x) -\pi}{x-\pi}.$
 
 #### Explanation
 
@@ -105,7 +105,7 @@ For example, let's consider the following limit:
 $$
 
 
-\lim_\limits{x \to \, \infty} \dfrac{2}{\pi}\arctan \left(x-\pi\right)
+\lim\limits_{x \to \, \infty} \dfrac{2}{\pi}\arctan \left(x-\pi\right)
 
 
 $$
@@ -140,7 +140,7 @@ Limits at infinity involving the inverse sine and cosine functions usually do no
 
 #### Question
 
-What is the value of $\lim_\limits{x \to \, \infty} \arccos(x-1)?$
+What is the value of $\lim\limits_{x \to \, \infty} \arccos(x-1)?$
 
 #### Explanation
 
@@ -150,13 +150,13 @@ First, let's sketch the graph of $y = \arccos(x-1){:}$
 
 The domain of $\arccos(x-1)$ is $x \in [0,2].$ This means that $\arccos(x-1)$ is undefined outside this interval.
 
-Therefore, $\lim_\limits{x \to \, \infty} \arccos(x-1)$ is undefined.
+Therefore, $\lim\limits_{x \to \, \infty} \arccos(x-1)$ is undefined.
 
 ### Example: Finding a Limit Involving Trigonometric Functions and Their Inverses
 
 #### Question
 
-Compute the value of $\lim_\limits{x \to \, \infty}\cos\left(\dfrac{2}{3}\arctan \left(2x+1\right)\right).$
+Compute the value of $\lim\limits_{x \to \, \infty}\cos\left(\dfrac{2}{3}\arctan \left(2x+1\right)\right).$
 
 #### Explanation
 

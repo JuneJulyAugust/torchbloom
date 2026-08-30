@@ -229,12 +229,12 @@ First, we find the coordinates of the point by substituting $t=\dfrac{\pi}{4}$ i
 $$
 
 
-\begin{aligned}𝑥 & =2cos⁡(\frac{𝜋}{4})+sin⁡(2⋅\frac{𝜋}{4}) \\ & =2⋅\frac{\sqrt{√2}}{2}+sin⁡(\frac{𝜋}{2}) \\ & =\sqrt{√2}+1, \\ & \\ 𝑦 & =cos⁡(\frac{𝜋}{4})−2sin⁡(2⋅\frac{𝜋}{4}) \\ & =\frac{\sqrt{√2}}{2}−2sin⁡(\frac{𝜋}{2}) \\ & =\frac{\sqrt{√2}}{2}−2(1) \\ & =\frac{\sqrt{√2}}{2}−2.\end{aligned}
+\begin{aligned}𝑥 & =2cos⁡(\frac{𝜋}{4})+sin⁡(2⋅\frac{𝜋}{4}) \\ & =2⋅\frac{\sqrt{2}}{2}+sin⁡(\frac{𝜋}{2}) \\ & =\sqrt{2}+1, \\ & \\ 𝑦 & =cos⁡(\frac{𝜋}{4})−2sin⁡(2⋅\frac{𝜋}{4}) \\ & =\frac{\sqrt{2}}{2}−2sin⁡(\frac{𝜋}{2}) \\ & =\frac{\sqrt{2}}{2}−2(1) \\ & =\frac{\sqrt{2}}{2}−2.\end{aligned}
 
 
 $$
 
-So we're looking to find the equation of the normal at the point $\left(\sqrt{2}+1,\dfrac{\sqrt{2}}{2} -2\right).$ For this, we need to find $\dfrac{\textrm{d}y}{\textrm{d}x},$ which means we first need to find the derivatives of $x$ and $y,$ as follows:
+So we're looking to find the equation of the normal at the point $\left(\sqrt{2}+1,\dfrac{\sqrt{2}}{2} -2\right).$ For this, we need to find $\dfrac{\text{d}y}{\text{d}x},$ which means we first need to find the derivatives of $x$ and $y,$ as follows:
 
 $$
 
@@ -259,7 +259,7 @@ At the point where $t=\dfrac{\pi}{4},$ the slope $m$ of the tangent line is give
 $$
 
 
-\begin{aligned}𝑚 & =\frac{d𝑦}{d𝑥}_{𝑡=𝜋/4} \\ & =−\frac{sin⁡(\frac{𝜋}{4})+4cos⁡(\frac{𝜋}{2})}{4} \\ & =−\frac{\frac{1}{2}\sqrt{√2}+4(0)}{2} \\ & =\frac{1}{2}.\end{aligned}
+\begin{aligned}𝑚 & =\frac{d𝑦}{d𝑥}_{𝑡=𝜋/4} \\ & =−\frac{sin⁡(\frac{𝜋}{4})+4cos⁡(\frac{𝜋}{2})}{4} \\ & =−\frac{\frac{1}{2}\sqrt{2}+4(0)}{2} \\ & =\frac{1}{2}.\end{aligned}
 
 
 $$
@@ -299,7 +299,7 @@ and we get
 $$
 
 
-\begin{aligned}𝑦−(\frac{\sqrt{√2}}{2}−2) & =−2(𝑥−(\sqrt{√2}+1)) \\ 𝑦−\frac{\sqrt{√2}}{2}+2 & =−2𝑥+2\sqrt{√2}+2 \\ 𝑦+2𝑥 & =\frac{5\sqrt{√2}}{2}.\end{aligned}
+\begin{aligned}𝑦−(\frac{\sqrt{2}}{2}−2) & =−2(𝑥−(\sqrt{2}+1)) \\ 𝑦−\frac{\sqrt{2}}{2}+2 & =−2𝑥+2\sqrt{2}+2 \\ 𝑦+2𝑥 & =\frac{5\sqrt{2}}{2}.\end{aligned}
 
 
 $$

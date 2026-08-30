@@ -20,7 +20,7 @@ To see how, we first recall that the flux of $\mathbf{F}(x,y) = P(x,y)\,\mathbf 
 $$
 
 
-\oint\limits_C \mathbf F \cdot \mathbf{n} \: \textrm{d}s= \oint\limits_C P\, \textrm{d}y -Q\, \textrm{d}x
+\oint\limits_C \mathbf F \cdot \mathbf{n} \: \text{d}s= \oint\limits_C P\, \text{d}y -Q\, \text{d}x
 
 
 $$
@@ -42,7 +42,7 @@ As a result, we've obtained the **Green's theorem in flux form**, which we resta
 $$
 
 
-\oint\limits_C \mathbf F \cdot \mathbf{n} \: \textrm{d}s = \iint\limits_D \left(\dfrac{\partial P }{\partial x} +\dfrac{\partial Q}{\partial y}\right)\textrm d A
+\oint\limits_C \mathbf F \cdot \mathbf{n} \: \text{d}s = \iint\limits_D \left(\dfrac{\partial P }{\partial x} +\dfrac{\partial Q}{\partial y}\right)\textrm d A
 
 
 $$
@@ -52,7 +52,7 @@ Now, recall that the divergence of $\mathbf F$ is given by
 $$
 
 
-\textrm{div}\,\mathbf F = \dfrac{\partial P }{\partial x} + \dfrac{\partial Q }{\partial y}.
+\text{div}\,\mathbf F = \dfrac{\partial P }{\partial x} + \dfrac{\partial Q }{\partial y}.
 
 
 $$
@@ -62,7 +62,7 @@ Therefore, we can also write Green's theorem in flux form as
 $$
 
 
-\oint\limits_C \mathbf F \cdot \mathbf{n} \: \textrm{d}s = \iint\limits_D \textrm{div}\,\mathbf F\,\textrm{d}A.
+\oint\limits_C \mathbf F \cdot \mathbf{n} \: \text{d}s = \iint\limits_D \text{div}\,\mathbf F\,\text{d}A.
 
 
 $$
@@ -92,7 +92,7 @@ Recall that the divergence (i.e., the microscopic flux) of $\mathbf F$ at a poin
 $$
 
 
-\textrm{div}\,\mathbf F = \nabla \cdot \mathbf F = \dfrac{\partial P }{\partial x} + \dfrac{\partial Q }{\partial y}.
+\text{div}\,\mathbf F = \nabla \cdot \mathbf F = \dfrac{\partial P }{\partial x} + \dfrac{\partial Q }{\partial y}.
 
 
 $$
@@ -146,7 +146,7 @@ Let $C$ be a positively oriented, piecewise-smooth, simple closed curve in the p
 $$
 
 
-\oint\limits_C \mathbf F\cdot\mathbf n\,\textrm d s = \iint\limits_D \textrm{div}\,\mathbf F\,\textrm{d}A,
+\oint\limits_C \mathbf F\cdot\mathbf n\,\textrm d s = \iint\limits_D \text{div}\,\mathbf F\,\text{d}A,
 
 
 $$
@@ -156,7 +156,7 @@ which is equivalent to
 $$
 
 
-\oint\limits_C P \,\mathrm{d}y - Q \, \mathrm{d}x = \iint\limits_D \left( \dfrac{\partial P}{\partial x} + \dfrac{\partial Q}{\partial y} \right) \,\textrm{d}A.
+\oint\limits_C P \,\mathrm{d}y - Q \, \mathrm{d}x = \iint\limits_D \left( \dfrac{\partial P}{\partial x} + \dfrac{\partial Q}{\partial y} \right) \,\text{d}A.
 
 
 $$
@@ -190,7 +190,7 @@ Therefore, applying Green's theorem in flux form, we get
 $$
 
 
-\begin{aligned}\underset{𝐶}{∮}𝑃\,d𝑦−𝑄\,d𝑥 & =\underset{𝐷}{∬}(\frac{𝜕𝑃}{𝜕𝑥}+\frac{𝜕𝑄}{𝜕𝑦})d𝐴 \\ & =\underset{𝐷}{∬}(14𝑥𝑦^{6}+3𝑥^{2})+(−14𝑥𝑦^{6}+4𝑥^{2})\,d𝐴 \\ & =∫_{1−1}^{}∫_{0−3}^{}7𝑥^{2}\,d𝑦\,d𝑥.\end{aligned}
+\begin{aligned}\underset{𝐶}{∮}𝑃\,d𝑦−𝑄\,d𝑥 & =\underset{𝐷}{∬}(\frac{𝜕𝑃}{𝜕𝑥}+\frac{𝜕𝑄}{𝜕𝑦})d𝐴 \\ & =\underset{𝐷}{∬}(14𝑥𝑦^{6}+3𝑥^{2})+(−14𝑥𝑦^{6}+4𝑥^{2})\,d𝐴 \\ & =∫_{1−1}∫_{0−3}7𝑥^{2}\,d𝑦\,d𝑥.\end{aligned}
 
 
 $$
@@ -218,7 +218,7 @@ Let $C$ be a positively oriented, piecewise-smooth, simple closed curve in the p
 $$
 
 
-\oint\limits_C \mathbf F\cdot\mathbf n\,\textrm d s = \iint\limits_D \textrm{div}\,\mathbf F\,\textrm{d}A,
+\oint\limits_C \mathbf F\cdot\mathbf n\,\textrm d s = \iint\limits_D \text{div}\,\mathbf F\,\text{d}A,
 
 
 $$
@@ -228,7 +228,7 @@ which is equivalent to
 $$
 
 
-\oint\limits_C P \,\mathrm{d}y - Q \, \mathrm{d}x = \iint\limits_D \left( \dfrac{\partial P}{\partial x} + \dfrac{\partial Q}{\partial y} \right) \,\textrm{d}A.
+\oint\limits_C P \,\mathrm{d}y - Q \, \mathrm{d}x = \iint\limits_D \left( \dfrac{\partial P}{\partial x} + \dfrac{\partial Q}{\partial y} \right) \,\text{d}A.
 
 
 $$
@@ -262,7 +262,7 @@ Therefore, applying Green's theorem in flux form, we get
 $$
 
 
-\begin{aligned}\underset{𝐶}{∮}𝐅⋅𝐧\,d𝑠 & =\underset{𝐶}{∮}𝑃\,d𝑦−𝑄\,d𝑥 \\ & =\underset{𝐷}{∬}(\frac{𝜕𝑃}{𝜕𝑥}+\frac{𝜕𝑄}{𝜕𝑦})d𝐴 \\ & =\underset{𝐷}{∬}(−1+2𝑥)\,d𝐴 \\ & =∫_{1−1}^{}∫_{20}^{}(2𝑥−1)\,d𝑥\,d𝑦 \\ & =∫_{1−1}^{}(𝑥^{2}−𝑥)\,_{20}^{}\,d𝑦 \\ & =∫_{1−1}^{}(2^{2}−2)\,d𝑦 \\ & =∫_{1−1}^{}2\,d𝑦 \\ & =2𝑦\,_{1−1}^{} \\ & =2(1)−2(−1) \\ & =4.\end{aligned}
+\begin{aligned}\underset{𝐶}{∮}𝐅⋅𝐧\,d𝑠 & =\underset{𝐶}{∮}𝑃\,d𝑦−𝑄\,d𝑥 \\ & =\underset{𝐷}{∬}(\frac{𝜕𝑃}{𝜕𝑥}+\frac{𝜕𝑄}{𝜕𝑦})d𝐴 \\ & =\underset{𝐷}{∬}(−1+2𝑥)\,d𝐴 \\ & =∫_{1−1}∫_{20}(2𝑥−1)\,d𝑥\,d𝑦 \\ & =∫_{1−1}(𝑥^{2}−𝑥)\,_{20}\,d𝑦 \\ & =∫_{1−1}(2^{2}−2)\,d𝑦 \\ & =∫_{1−1}2\,d𝑦 \\ & =2𝑦\,_{1−1} \\ & =2(1)−2(−1) \\ & =4.\end{aligned}
 
 
 $$
@@ -290,7 +290,7 @@ Let $C$ be a positively oriented, piecewise-smooth, simple closed curve in the p
 $$
 
 
-\oint\limits_C \mathbf F\cdot\mathbf n\,\textrm d s = \iint\limits_D \textrm{div}\,\mathbf F\,\textrm{d}A,
+\oint\limits_C \mathbf F\cdot\mathbf n\,\textrm d s = \iint\limits_D \text{div}\,\mathbf F\,\text{d}A,
 
 
 $$
@@ -300,7 +300,7 @@ which is equivalent to
 $$
 
 
-\oint\limits_C P \,\mathrm{d}y - Q \, \mathrm{d}x = \iint\limits_D \left( \dfrac{\partial P}{\partial x} + \dfrac{\partial Q}{\partial y} \right) \,\textrm{d}A.
+\oint\limits_C P \,\mathrm{d}y - Q \, \mathrm{d}x = \iint\limits_D \left( \dfrac{\partial P}{\partial x} + \dfrac{\partial Q}{\partial y} \right) \,\text{d}A.
 
 
 $$
@@ -334,7 +334,7 @@ Therefore, applying Green's theorem in flux form, we get
 $$
 
 
-\begin{aligned}\underset{𝐶}{∮}𝐅⋅𝐧\,d𝑠 & =\underset{𝐶}{∮}𝑃\,d𝑦−𝑄\,d𝑥 \\ & =\underset{𝐷}{∬}(\frac{𝜕𝑃}{𝜕𝑥}+\frac{𝜕𝑄}{𝜕𝑦})d𝐴 \\ & =\underset{𝐷}{∬}(−3𝑦^{2}+1)\,d𝐴 \\ & =∫_{20}^{}∫_{𝑦−𝑦}^{}(−3𝑦^{2}+1)\,d𝑥\,d𝑦 \\ & =∫_{20}^{}(−3𝑦^{2}+1)[𝑥]_{𝑦−𝑦}^{}\,d𝑦 \\ & =∫_{20}^{}(−3𝑦^{2}+1)(𝑦−(−𝑦))\,d𝑦 \\ & =∫_{20}^{}(−3𝑦^{2}+1)⋅2𝑦\,d𝑦 \\ & =∫_{20}^{}(−6𝑦^{3}+2𝑦)\,d𝑦 \\ & =[−6⋅\frac{𝑦^{4}}{4}+2⋅\frac{𝑦^{2}}{2}]_{20}^{} \\ & =[−\frac{3𝑦^{4}}{2}+𝑦^{2}]_{20}^{} \\ & =(−24+4)−0 \\ & =−20.\end{aligned}
+\begin{aligned}\underset{𝐶}{∮}𝐅⋅𝐧\,d𝑠 & =\underset{𝐶}{∮}𝑃\,d𝑦−𝑄\,d𝑥 \\ & =\underset{𝐷}{∬}(\frac{𝜕𝑃}{𝜕𝑥}+\frac{𝜕𝑄}{𝜕𝑦})d𝐴 \\ & =\underset{𝐷}{∬}(−3𝑦^{2}+1)\,d𝐴 \\ & =∫_{20}∫_{𝑦−𝑦}(−3𝑦^{2}+1)\,d𝑥\,d𝑦 \\ & =∫_{20}(−3𝑦^{2}+1)[𝑥]_{𝑦−𝑦}\,d𝑦 \\ & =∫_{20}(−3𝑦^{2}+1)(𝑦−(−𝑦))\,d𝑦 \\ & =∫_{20}(−3𝑦^{2}+1)⋅2𝑦\,d𝑦 \\ & =∫_{20}(−6𝑦^{3}+2𝑦)\,d𝑦 \\ & =[−6⋅\frac{𝑦^{4}}{4}+2⋅\frac{𝑦^{2}}{2}]_{20} \\ & =[−\frac{3𝑦^{4}}{2}+𝑦^{2}]_{20} \\ & =(−24+4)−0 \\ & =−20.\end{aligned}
 
 
 $$

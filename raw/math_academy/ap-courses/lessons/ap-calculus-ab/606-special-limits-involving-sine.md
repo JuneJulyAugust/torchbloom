@@ -17,7 +17,7 @@ Consider the limit
 $$
 
 
-\lim_\limits{x \to 0} \dfrac{\sin x}{x}.
+\lim\limits_{x \to 0} \dfrac{\sin x}{x}.
 
 
 $$
@@ -41,7 +41,7 @@ While $y = \dfrac{\sin{x}}{x}$ is undefined at $x=0,$ it does appear from the gr
 $$
 
 
-\lim_\limits{x \to 0} \dfrac{\sin x}{x}=1.
+\lim\limits_{x \to 0} \dfrac{\sin x}{x}=1.
 
 
 $$
@@ -94,7 +94,7 @@ $$
 
 #### Question
 
-Evaluate $\lim_\limits{\theta \to 0}\: \dfrac{\theta \cot \theta}{4 \cos^2 \theta}.$
+Evaluate $\lim\limits_{\theta \to 0}\: \dfrac{\theta \cot \theta}{4 \cos^2 \theta}.$
 
 #### Explanation
 

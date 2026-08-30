@@ -40,7 +40,7 @@ The sum of all the shells will approximate the total volume we want. This approx
 $$
 
 
-\begin{aligned}𝑉 & =2𝜋∫_{𝑏𝑎}^{}𝑥𝑦\,d𝑥 \\ & =2𝜋∫_{𝑏𝑎}^{}𝑥\,𝑓(𝑥)\,d𝑥.\end{aligned}
+\begin{aligned}𝑉 & =2𝜋∫_{𝑏𝑎}𝑥𝑦\,d𝑥 \\ & =2𝜋∫_{𝑏𝑎}𝑥\,𝑓(𝑥)\,d𝑥.\end{aligned}
 
 
 $$
@@ -70,7 +70,7 @@ Using the shell method, the volume of the solid can be found as follows:
 $$
 
 
-\begin{aligned}𝑉 & =2𝜋∫_{𝑏𝑎}^{}𝑥\,𝑓(𝑥)\,d𝑥 \\ & =2𝜋∫_{20}^{}𝑥(2𝑥^{3}−8𝑥^{2}+8𝑥)\,d𝑥 \\ & =2𝜋∫_{20}^{}2𝑥^{4}−8𝑥^{3}+8𝑥^{2}\,d𝑥 \\ & =4𝜋∫_{20}^{}𝑥^{4}−4𝑥^{3}+4𝑥^{2}\,d𝑥 \\ & =4𝜋(\frac{𝑥^{5}}{5}−𝑥^{4}+\frac{4𝑥^{3}}{3})_{20}^{} \\ & =4𝜋[(\frac{2^{5}}{5}−2^{4}+\frac{4⋅2^{3}}{3})−0] \\ & =4𝜋[(\frac{2^{5}}{5}−\frac{2^{5}}{2}+\frac{2^{5}}{3})−0] \\ & =4𝜋⋅2^{5}(\frac{1}{5}−\frac{1}{2}+\frac{1}{3}) \\ & =4𝜋⋅32(\frac{1}{5}−\frac{1}{2}+\frac{1}{3}) \\ & =\frac{64𝜋}{15}\end{aligned}
+\begin{aligned}𝑉 & =2𝜋∫_{𝑏𝑎}𝑥\,𝑓(𝑥)\,d𝑥 \\ & =2𝜋∫_{20}𝑥(2𝑥^{3}−8𝑥^{2}+8𝑥)\,d𝑥 \\ & =2𝜋∫_{20}2𝑥^{4}−8𝑥^{3}+8𝑥^{2}\,d𝑥 \\ & =4𝜋∫_{20}𝑥^{4}−4𝑥^{3}+4𝑥^{2}\,d𝑥 \\ & =4𝜋(\frac{𝑥^{5}}{5}−𝑥^{4}+\frac{4𝑥^{3}}{3})_{20} \\ & =4𝜋[(\frac{2^{5}}{5}−2^{4}+\frac{4⋅2^{3}}{3})−0] \\ & =4𝜋[(\frac{2^{5}}{5}−\frac{2^{5}}{2}+\frac{2^{5}}{3})−0] \\ & =4𝜋⋅2^{5}(\frac{1}{5}−\frac{1}{2}+\frac{1}{3}) \\ & =4𝜋⋅32(\frac{1}{5}−\frac{1}{2}+\frac{1}{3}) \\ & =\frac{64𝜋}{15}\end{aligned}
 
 
 $$
@@ -86,7 +86,7 @@ To find the volume of the solid generated when this region is rotated $2\pi$ rad
 $$
 
 
-\begin{aligned}𝑉 & =2𝜋∫_{𝑏𝑎}^{}𝑥([upper]−[lower])\,d𝑥 \\ & =2𝜋∫_{𝑏𝑎}^{}𝑥([𝑓(𝑥)]−[𝑔(𝑥)])d𝑥\end{aligned}
+\begin{aligned}𝑉 & =2𝜋∫_{𝑏𝑎}𝑥([upper]−[lower])\,d𝑥 \\ & =2𝜋∫_{𝑏𝑎}𝑥([𝑓(𝑥)]−[𝑔(𝑥)])d𝑥\end{aligned}
 
 
 $$
@@ -128,7 +128,7 @@ Therefore, using the shell method, the volume of the solid can be calculated as 
 $$
 
 
-\begin{aligned}𝑉 & =2𝜋∫_{𝑏𝑎}^{}𝑥([upper]−[lower])\,d𝑥 \\ & =2𝜋∫_{20}^{}𝑥([3𝑥−𝑥^{2}]−[\frac{1}{2}𝑥^{2}])d𝑥 \\ & =2𝜋∫_{20}^{}𝑥(3𝑥−\frac{3}{2}𝑥^{2})d𝑥 \\ & =6𝜋∫_{20}^{}𝑥(𝑥−\frac{1}{2}𝑥^{2})d𝑥 \\ & =6𝜋∫_{20}^{}𝑥(\frac{2𝑥}{2}−\frac{1}{2}𝑥^{2})d𝑥 \\ & =3𝜋∫_{20}^{}𝑥(2𝑥−𝑥^{2})d𝑥 \\ & =3𝜋∫_{20}^{}(2𝑥^{2}−𝑥^{3})d𝑥 \\ & =3𝜋(\frac{2𝑥^{3}}{3}−\frac{𝑥^{4}}{4})_{20}^{} \\ & =3𝜋[(\frac{16}{3}−\frac{16}{4})−0] \\ & =4𝜋\end{aligned}
+\begin{aligned}𝑉 & =2𝜋∫_{𝑏𝑎}𝑥([upper]−[lower])\,d𝑥 \\ & =2𝜋∫_{20}𝑥([3𝑥−𝑥^{2}]−[\frac{1}{2}𝑥^{2}])d𝑥 \\ & =2𝜋∫_{20}𝑥(3𝑥−\frac{3}{2}𝑥^{2})d𝑥 \\ & =6𝜋∫_{20}𝑥(𝑥−\frac{1}{2}𝑥^{2})d𝑥 \\ & =6𝜋∫_{20}𝑥(\frac{2𝑥}{2}−\frac{1}{2}𝑥^{2})d𝑥 \\ & =3𝜋∫_{20}𝑥(2𝑥−𝑥^{2})d𝑥 \\ & =3𝜋∫_{20}(2𝑥^{2}−𝑥^{3})d𝑥 \\ & =3𝜋(\frac{2𝑥^{3}}{3}−\frac{𝑥^{4}}{4})_{20} \\ & =3𝜋[(\frac{16}{3}−\frac{16}{4})−0] \\ & =4𝜋\end{aligned}
 
 
 $$
@@ -146,7 +146,7 @@ According to the shell method, the volume $V$ is given by the following straight
 $$
 
 
-\begin{aligned}𝑉 & =2𝜋∫_{10}^{}𝑥𝑓(𝑥)\,d𝑥 \\ & =2𝜋∫_{10}^{}𝑥(2𝑥−2𝑥^{2})\,d𝑥 \\ & =2𝜋∫_{10}^{}2𝑥^{2}−2𝑥^{3}\,d𝑥\end{aligned}
+\begin{aligned}𝑉 & =2𝜋∫_{10}𝑥𝑓(𝑥)\,d𝑥 \\ & =2𝜋∫_{10}𝑥(2𝑥−2𝑥^{2})\,d𝑥 \\ & =2𝜋∫_{10}2𝑥^{2}−2𝑥^{3}\,d𝑥\end{aligned}
 
 
 $$
@@ -158,7 +158,7 @@ To determine the volume using the disc method, we would first have to express ou
 $$
 
 
-\begin{aligned}𝑥=\frac{1}{2}+\frac{1}{2}\sqrt{√1−2𝑦},\, & 𝑥≥\frac{1}{2} \\ 𝑥=\frac{1}{2}−\frac{1}{2}\sqrt{√1−2𝑦},\, & 𝑥<\frac{1}{2}\end{aligned}
+\begin{aligned}𝑥=\frac{1}{2}+\frac{1}{2}\sqrt{1−2𝑦},\, & 𝑥≥\frac{1}{2} \\ 𝑥=\frac{1}{2}−\frac{1}{2}\sqrt{1−2𝑦},\, & 𝑥<\frac{1}{2}\end{aligned}
 
 
 $$
@@ -170,7 +170,7 @@ The required volume equals the difference between the volumes generated when the
 $$
 
 
-V = \pi \int_{0}^{1/2} \left( \left[ \dfrac{1}{2}+\dfrac{1}{2}\sqrt{1-2y} \right]^2 - \left[ \dfrac{1}{2}-\dfrac{1}{2}\sqrt{1-2y} \right]^2 \right) \textrm{d}y.
+V = \pi \int_{0}^{1/2} \left( \left[ \dfrac{1}{2}+\dfrac{1}{2}\sqrt{1-2y} \right]^2 - \left[ \dfrac{1}{2}-\dfrac{1}{2}\sqrt{1-2y} \right]^2 \right) \text{d}y.
 
 
 $$

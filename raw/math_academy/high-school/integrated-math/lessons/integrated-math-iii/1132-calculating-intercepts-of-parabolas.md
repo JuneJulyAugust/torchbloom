@@ -32,7 +32,7 @@ On the other hand, to find the $x$-intercepts (shown as the points $B$ and $C$ i
 $$
 
 
-\begin{aligned}(𝑥−1)^{2} & =\frac{1}{2}(𝑦+3) \\ (𝑥−1)^{2} & =\frac{1}{2}(0+3) \\ (𝑥−1)^{2} & =\frac{3}{2} \\ 𝑥−1 & =±\sqrt{√\frac{3}{2}} \\ 𝑥 & =1±\sqrt{√\frac{3}{2}}.\end{aligned}
+\begin{aligned}(𝑥−1)^{2} & =\frac{1}{2}(𝑦+3) \\ (𝑥−1)^{2} & =\frac{1}{2}(0+3) \\ (𝑥−1)^{2} & =\frac{3}{2} \\ 𝑥−1 & =±\sqrt{\frac{3}{2}} \\ 𝑥 & =1±\sqrt{\frac{3}{2}}.\end{aligned}
 
 
 $$
@@ -242,7 +242,7 @@ When the parabola intersects the $y$-axis, we must have $x= 0.$ So, we substitut
 $$
 
 
-\begin{aligned}(𝑦+4)^{2} & =−2(0−7) \\ (𝑦+4)^{2} & =14 \\ 𝑦+4 & =±\sqrt{√14} \\ 𝑦 & =−4±\sqrt{√14}\end{aligned}
+\begin{aligned}(𝑦+4)^{2} & =−2(0−7) \\ (𝑦+4)^{2} & =14 \\ 𝑦+4 & =±\sqrt{14} \\ 𝑦 & =−4±\sqrt{14}\end{aligned}
 
 
 $$

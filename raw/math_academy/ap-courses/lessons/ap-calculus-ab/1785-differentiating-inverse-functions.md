@@ -43,12 +43,12 @@ $$
 
 $$
 
-To find $\dfrac{\textrm{d}y}{\textrm{d}x},$ we take the reciprocal of $\dfrac{\textrm{d}x}{\textrm{d}y}\mathbin{:}$
+To find $\dfrac{\text{d}y}{\text{d}x},$ we take the reciprocal of $\dfrac{\text{d}x}{\text{d}y}\mathbin{:}$
 
 $$
 
 
-\dfrac{\textrm{d}x}{\textrm{d}y} = 2y + 2 \quad \Rightarrow \quad \dfrac{\textrm{d}y}{\textrm{d}x}=\dfrac{1}{2y+2}
+\dfrac{\text{d}x}{\text{d}y} = 2y + 2 \quad \Rightarrow \quad \dfrac{\text{d}y}{\text{d}x}=\dfrac{1}{2y+2}
 
 
 $$

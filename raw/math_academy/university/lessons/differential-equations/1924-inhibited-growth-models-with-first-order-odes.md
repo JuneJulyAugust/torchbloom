@@ -24,7 +24,7 @@ An inhibited growth equation has the form
 $$
 
 
-\dfrac{\textrm{d}P}{\textrm{d}t} = r(a-P),
+\dfrac{\text{d}P}{\text{d}t} = r(a-P),
 
 
 $$
@@ -34,7 +34,7 @@ and an inhibited growth initial value problem has the form
 $$
 
 
-\dfrac{\textrm{d}P}{\textrm{d}t} = r(a-P), \qquad P(0) = P_0
+\dfrac{\text{d}P}{\text{d}t} = r(a-P), \qquad P(0) = P_0
 
 
 $$
@@ -52,7 +52,7 @@ Inhibited growth models can be written in expanded form. To identify an expanded
 $$
 
 
-\dfrac{\textrm{d}P}{\textrm{d}t} = 60-12P,
+\dfrac{\text{d}P}{\text{d}t} = 60-12P,
 
 
 $$
@@ -62,7 +62,7 @@ $$
 $$
 
 
-\dfrac{\textrm{d}P}{\textrm{d}t} = 12(5-P).
+\dfrac{\text{d}P}{\text{d}t} = 12(5-P).
 
 
 $$
@@ -245,7 +245,7 @@ $$
 
 where $a$ is the maximum fish population the lake can support, and $k > 0$ is a constant of proportionality.
 
-In our case, $a = 200 \textrm{fish},$ and we have
+In our case, $a = 200 \text{fish},$ and we have
 
 $$
 

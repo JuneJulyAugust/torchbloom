@@ -53,11 +53,11 @@ Given the triangle below, find the length of $\overline{NO}$ rounded to one deci
 
 For an angle $\theta$ in a right triangle, the trigonometric ratios are as follows:
 
-- $\sin\theta = \dfrac{\textrm{opposite leg}}{\textrm{hypotenuse}}$
+- $\sin\theta = \dfrac{\text{opposite leg}}{\text{hypotenuse}}$
 
-- $\cos\theta = \dfrac{\textrm{adjacent leg}}{\textrm{hypotenuse}}$
+- $\cos\theta = \dfrac{\text{adjacent leg}}{\text{hypotenuse}}$
 
-- $\tan\theta = \dfrac{\textrm{opposite leg}}{\textrm{adjacent leg}}$
+- $\tan\theta = \dfrac{\text{opposite leg}}{\text{adjacent leg}}$
 
 First, notice that we are given the length of the leg $\overline{MO}$ opposite the given angle $\angle{N}$ and wish to find the length of the hypotenuse $\overline{NO}.$
 
@@ -95,11 +95,11 @@ Given the triangle below, find the length of $\overline{MN}$ rounded to one deci
 
 For an angle $\theta$ in a right triangle, the trigonometric ratios are as follows:
 
-- $\sin\theta = \dfrac{\textrm{opposite leg}}{\textrm{hypotenuse}}$
+- $\sin\theta = \dfrac{\text{opposite leg}}{\text{hypotenuse}}$
 
-- $\cos\theta = \dfrac{\textrm{adjacent leg}}{\textrm{hypotenuse}}$
+- $\cos\theta = \dfrac{\text{adjacent leg}}{\text{hypotenuse}}$
 
-- $\tan\theta = \dfrac{\textrm{opposite leg}}{\textrm{adjacent leg}}$
+- $\tan\theta = \dfrac{\text{opposite leg}}{\text{adjacent leg}}$
 
 First, note that we are given the length of the hypotenuse $\overline{NO}$ and wish to find the length of the leg $\overline{MN}$ adjacent to the given angle $\angle{N}.$
 
@@ -137,11 +137,11 @@ Given the triangle below, find the length of $\overline{BC}$ in terms of $\theta
 
 For an angle $\theta$ in a right triangle, the trigonometric ratios are as follows:
 
-- $\sin\theta = \dfrac{\textrm{opposite leg}}{\textrm{hypotenuse}}$
+- $\sin\theta = \dfrac{\text{opposite leg}}{\text{hypotenuse}}$
 
-- $\cos\theta = \dfrac{\textrm{adjacent leg}}{\textrm{hypotenuse}}$
+- $\cos\theta = \dfrac{\text{adjacent leg}}{\text{hypotenuse}}$
 
-- $\tan\theta = \dfrac{\textrm{opposite leg}}{\textrm{adjacent leg}}$
+- $\tan\theta = \dfrac{\text{opposite leg}}{\text{adjacent leg}}$
 
 Notice that we are given the length of the leg $\overline{AB}$ adjacent to the given angle $\angle A$ and wish to find the length of the leg $\overline{BC}$ opposite $\angle A.$
 

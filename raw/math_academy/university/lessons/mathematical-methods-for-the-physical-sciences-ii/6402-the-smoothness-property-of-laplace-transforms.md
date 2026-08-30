@@ -555,25 +555,25 @@ $$
 
 A proof of this statement is given below.
 
-$\textrm{L1}{:}\:$ $F(s) = \displaystyle \int_0^\infty e^{-st} f(t)\,\textrm{d}t$ exists for $s > a.$
+$\text{L1}{:}\:$ $F(s) = \displaystyle \int_0^\infty e^{-st} f(t)\,\text{d}t$ exists for $s > a.$
 
-$\textrm{L2}{:}\:$ $F''(s) = \displaystyle \frac{\textrm{d}^2}{\textrm{d}s^2}\int_0^\infty e^{-st} f(t)\,\textrm{d}t$
+$\text{L2}{:}\:$ $F''(s) = \displaystyle \frac{\text{d}^2}{\text{d}s^2}\int_0^\infty e^{-st} f(t)\,\text{d}t$
 
-$\textrm{L3}{:}\:$ $F''(s) = \displaystyle \int_0^\infty \frac{\partial^2}{\partial s^2}\big(e^{-st} f(t)\big)\,\textrm{d}t$
+$\text{L3}{:}\:$ $F''(s) = \displaystyle \int_0^\infty \frac{\partial^2}{\partial s^2}\big(e^{-st} f(t)\big)\,\text{d}t$
 
-$\textrm{L4}{:}\:$ $\displaystyle \frac{\partial^2}{\partial s^2}\big(e^{-st} f(t)\big) = t^2 e^{-st} f(t)$
+$\text{L4}{:}\:$ $\displaystyle \frac{\partial^2}{\partial s^2}\big(e^{-st} f(t)\big) = t^2 e^{-st} f(t)$
 
-$\textrm{L5}{:}\:$ $F''(s) = \displaystyle \int_0^\infty t^2 e^{-st} f(t)\,\textrm{d}t$
+$\text{L5}{:}\:$ $F''(s) = \displaystyle \int_0^\infty t^2 e^{-st} f(t)\,\text{d}t$
 
-$\textrm{L6}{:}\:$ $F''(s) = \mathcal{L}\{t^2\cdot f(t)\}$
+$\text{L6}{:}\:$ $F''(s) = \mathcal{L}\{t^2\cdot f(t)\}$
 
 Explain the reasoning behind:
 
-- How line $\textrm{L2}$ follows from line $\textrm{L1}.$
+- How line $\text{L2}$ follows from line $\text{L1}.$
 
-- How line $\textrm{L4}$ follows from its preceding line.
+- How line $\text{L4}$ follows from its preceding line.
 
-- How line $\textrm{L6}$ follows from $\textrm{L5}.$
+- How line $\text{L6}$ follows from $\text{L5}.$
 
 #### Explanation
 
@@ -603,11 +603,11 @@ We're asked to prove the smoothness property in the case $n = 2.$
 
 With that in mind, let's examine each statement in turn.
 
-- We first consider line $\textrm{L2}.$ From line $\textrm{L1}$ we know that By the definition of the second derivative with respect to $s,$ we get which is exactly the statement in line $\textrm{L2}.$
+- We first consider line $\text{L2}.$ From line $\text{L1}$ we know that By the definition of the second derivative with respect to $s,$ we get which is exactly the statement in line $\text{L2}.$
 
-- We now consider line $\textrm{L4}.$ The function $f(t)$ does not depend on $s$, so Thus line $\textrm{L4}$ follows from the chain rule.
+- We now consider line $\text{L4}.$ The function $f(t)$ does not depend on $s$, so Thus line $\text{L4}$ follows from the chain rule.
 
-- Finally, we consider line $\textrm{L6}.$ By the definition of the Laplace transform, Comparing this with the integral in line $\textrm{L5}$, we see that which is exactly the expression in line $\textrm{L6}.$
+- Finally, we consider line $\text{L6}.$ By the definition of the Laplace transform, Comparing this with the integral in line $\text{L5}$, we see that which is exactly the expression in line $\text{L6}.$
 
 ### Updated Table of Laplace Transforms
 

@@ -40,7 +40,7 @@ Here, we need the adjacent side, and we know the opposite side. So, we should us
 $$
 
 
-\begin{aligned}tan⁡(𝐵) & =\frac{𝐴𝐶}{𝐵𝐶} \\ tan⁡30^{∘} & =\frac{3}{𝐵𝐶} \\ \frac{\sqrt{√3}}{3} & =\frac{3}{𝐵𝐶} \\ 𝐵𝐶\sqrt{√3} & =9 \\ 𝐵𝐶 & =\frac{9}{\sqrt{√3}} \\ 𝐵𝐶 & =3\sqrt{√3}\,cm.\end{aligned}
+\begin{aligned}tan⁡(𝐵) & =\frac{𝐴𝐶}{𝐵𝐶} \\ tan⁡30^{∘} & =\frac{3}{𝐵𝐶} \\ \frac{\sqrt{3}}{3} & =\frac{3}{𝐵𝐶} \\ 𝐵𝐶\sqrt{3} & =9 \\ 𝐵𝐶 & =\frac{9}{\sqrt{3}} \\ 𝐵𝐶 & =3\sqrt{3}\,cm.\end{aligned}
 
 
 $$
@@ -52,7 +52,7 @@ Now that we know both sides of the triangle, we can just apply the formula as us
 $$
 
 
-\begin{aligned}A & =\frac{1}{2}𝐴𝐶⋅𝐵𝐶 \\ & =\frac{1}{2}⋅3⋅3\sqrt{√3} \\ & =\frac{9\sqrt{√3}}{2}\,cm^{2}.\end{aligned}
+\begin{aligned}A & =\frac{1}{2}𝐴𝐶⋅𝐵𝐶 \\ & =\frac{1}{2}⋅3⋅3\sqrt{3} \\ & =\frac{9\sqrt{3}}{2}\,cm^{2}.\end{aligned}
 
 
 $$
@@ -82,7 +82,7 @@ Notice that relative to the given angle $\angle B,$ we have the length of the op
 $$
 
 
-\begin{aligned}tan⁡(𝑚∠𝐵) & =\frac{𝐴𝐶}{𝐵𝐶} \\ tan⁡(60^{∘}) & =\frac{9}{𝐵𝐶} \\ \sqrt{√3} & =\frac{9}{𝐵𝐶} \\ \sqrt{√3}𝐵𝐶 & =9 \\ 𝐵𝐶 & =\frac{9}{\sqrt{√3}} \\ & =\frac{9\sqrt{√3}}{3} \\ & =3\sqrt{√3}\end{aligned}
+\begin{aligned}tan⁡(𝑚∠𝐵) & =\frac{𝐴𝐶}{𝐵𝐶} \\ tan⁡(60^{∘}) & =\frac{9}{𝐵𝐶} \\ \sqrt{3} & =\frac{9}{𝐵𝐶} \\ \sqrt{3}𝐵𝐶 & =9 \\ 𝐵𝐶 & =\frac{9}{\sqrt{3}} \\ & =\frac{9\sqrt{3}}{3} \\ & =3\sqrt{3}\end{aligned}
 
 
 $$
@@ -92,7 +92,7 @@ Therefore, the area of $\triangle{ABC}$ is
 $$
 
 
-\begin{aligned}A & =\frac{1}{2}⋅9⋅(3\sqrt{√3}) \\ & =\frac{27\sqrt{√3}}{2}.\end{aligned}
+\begin{aligned}A & =\frac{1}{2}⋅9⋅(3\sqrt{3}) \\ & =\frac{27\sqrt{3}}{2}.\end{aligned}
 
 
 $$
@@ -182,7 +182,7 @@ Now, we can use the Pythagorean theorem to find the missing side $AC\mathbin{:}$
 $$
 
 
-\begin{aligned}𝐴𝐶 & =\sqrt{√𝐴𝐵^{2}−𝐵𝐶^{2}} \\ & =\sqrt{√15^{2}−5^{2}} \\ & =\sqrt{√225−25} \\ & =\sqrt{√200} \\ & =10\sqrt{√2}\end{aligned}
+\begin{aligned}𝐴𝐶 & =\sqrt{𝐴𝐵^{2}−𝐵𝐶^{2}} \\ & =\sqrt{15^{2}−5^{2}} \\ & =\sqrt{225−25} \\ & =\sqrt{200} \\ & =10\sqrt{2}\end{aligned}
 
 
 $$
@@ -192,7 +192,7 @@ Therefore, the area of $\triangle{ABC}$ is
 $$
 
 
-\begin{aligned}A & =\frac{1}{2}𝐴𝐶⋅𝐵𝐶 \\ & =\frac{1}{2}⋅10\sqrt{√2}⋅5 \\ & =25\sqrt{√2}.\end{aligned}
+\begin{aligned}A & =\frac{1}{2}𝐴𝐶⋅𝐵𝐶 \\ & =\frac{1}{2}⋅10\sqrt{2}⋅5 \\ & =25\sqrt{2}.\end{aligned}
 
 
 $$

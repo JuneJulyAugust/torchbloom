@@ -28,7 +28,7 @@ Computing $\mathbf T(\mathbf i),$ we get
 $$
 
 
-\begin{aligned}𝐓(𝐢) & =𝐓[\begin{aligned}1 \\ 0\end{aligned}] \\ & =[\begin{aligned}2⋅1−1⋅0 \\ 1+3⋅0\end{aligned}] \\ & =[\begin{aligned}2 \\ 1\end{aligned}].\end{aligned}
+\begin{aligned}𝐓(𝐢) & =𝐓[\begin{matrix}1 \\ 0\end{matrix}] \\ & =[\begin{matrix}2⋅1−1⋅0 \\ 1+3⋅0\end{matrix}] \\ & =[\begin{matrix}2 \\ 1\end{matrix}].\end{aligned}
 
 
 $$
@@ -38,7 +38,7 @@ Computing $\mathbf T(\mathbf j),$ we get
 $$
 
 
-\begin{aligned}𝐓(𝐣) & =𝐓[\begin{aligned}0 \\ 1\end{aligned}] \\ & =[\begin{aligned}2⋅0−1⋅1 \\ 0+3⋅1\end{aligned}] \\ & =[\begin{aligned}−1 \\ 3\end{aligned}].\end{aligned}
+\begin{aligned}𝐓(𝐣) & =𝐓[\begin{matrix}0 \\ 1\end{matrix}] \\ & =[\begin{matrix}2⋅0−1⋅1 \\ 0+3⋅1\end{matrix}] \\ & =[\begin{matrix}−1 \\ 3\end{matrix}].\end{aligned}
 
 
 $$
@@ -126,7 +126,7 @@ Therefore, we have the following:
 $$
 
 
-\begin{aligned}𝐓(𝐢) & =𝐓[\begin{aligned}1 \\ 0\end{aligned}]=[\begin{aligned}−1 \\ 8\end{aligned}] \\ 𝐓(𝐣) & =𝐓[\begin{aligned}0 \\ 1\end{aligned}]=[\begin{aligned}5 \\ 3\end{aligned}]\end{aligned}
+\begin{aligned}𝐓(𝐢) & =𝐓[\begin{matrix}1 \\ 0\end{matrix}]=[\begin{matrix}−1 \\ 8\end{matrix}] \\ 𝐓(𝐣) & =𝐓[\begin{matrix}0 \\ 1\end{matrix}]=[\begin{matrix}5 \\ 3\end{matrix}]\end{aligned}
 
 
 $$
@@ -138,7 +138,7 @@ We can find the images of the vectors in the standard basis $\{\mathbf{i}, \math
 $$
 
 
-\begin{aligned}𝐓(𝐢) & =𝑇⋅𝐢=[\begin{aligned}−1 & 5 \\ 8 & 3\end{aligned}][\begin{aligned}1 \\ 0\end{aligned}]=[\begin{aligned}−1 \\ 8\end{aligned}] \\ 𝐓(𝐣) & =𝑇⋅𝐣=[\begin{aligned}−1 & 5 \\ 8 & 3\end{aligned}][\begin{aligned}0 \\ 1\end{aligned}]=[\begin{aligned}5 \\ 3\end{aligned}]\end{aligned}
+\begin{aligned}𝐓(𝐢) & =𝑇⋅𝐢=[\begin{matrix}−1 & 5 \\ 8 & 3\end{matrix}][\begin{matrix}1 \\ 0\end{matrix}]=[\begin{matrix}−1 \\ 8\end{matrix}] \\ 𝐓(𝐣) & =𝑇⋅𝐣=[\begin{matrix}−1 & 5 \\ 8 & 3\end{matrix}][\begin{matrix}0 \\ 1\end{matrix}]=[\begin{matrix}5 \\ 3\end{matrix}]\end{aligned}
 
 
 $$

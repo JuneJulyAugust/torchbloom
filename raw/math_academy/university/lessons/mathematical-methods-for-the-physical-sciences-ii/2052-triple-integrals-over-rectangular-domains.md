@@ -63,7 +63,7 @@ can be evaluated using the repeated integral
 $$
 
 
-\int_a^b\int_c^d\int_e^f f(x,y,z) \: \mathrm{d}z\,\textrm{d} y\,\textrm{d} x.
+\int_a^b\int_c^d\int_e^f f(x,y,z) \: \mathrm{d}z\,\text{d} y\,\text{d} x.
 
 
 $$
@@ -107,7 +107,7 @@ First, we write our triple integral as a repeated integral. Let's integrate firs
 $$
 
 
-\int_0^2 \int_0^2 \int_0^1 x+ y +z \: \textrm{d}x\, \textrm{d}y\, \textrm{d}z
+\int_0^2 \int_0^2 \int_0^1 x+ y +z \: \text{d}x\, \text{d}y\, \text{d}z
 
 
 $$
@@ -117,7 +117,7 @@ Applying the sum rule, we get
 $$
 
 
-\begin{aligned}=∫_{20}^{}∫_{20}^{}∫_{10}^{}𝑥\,d𝑥\,d𝑦\,d𝑧+∫_{20}^{}∫_{20}^{}∫_{10}^{}𝑦\,d𝑥\,d𝑦\,d𝑧+∫_{20}^{}∫_{20}^{}∫_{10}^{}𝑧\,d𝑥\,d𝑦\,d𝑧.\end{aligned}
+\begin{aligned}=∫_{20}∫_{20}∫_{10}𝑥\,d𝑥\,d𝑦\,d𝑧+∫_{20}∫_{20}∫_{10}𝑦\,d𝑥\,d𝑦\,d𝑧+∫_{20}∫_{20}∫_{10}𝑧\,d𝑥\,d𝑦\,d𝑧.\end{aligned}
 
 
 $$
@@ -127,7 +127,7 @@ Since $R$ is rectangular, we can apply the product rule, which gives
 $$
 
 
-\begin{aligned}∫_{10}^{}𝑥\,d𝑥∫_{20}^{}\,d𝑦\,∫_{20}^{}\,d𝑧+∫_{10}^{}\,d𝑥∫_{20}^{}𝑦\,d𝑦\,∫_{20}^{}\,d𝑧+∫_{10}^{}\,d𝑥∫_{20}^{}\,d𝑦\,∫_{20}^{}𝑧\,d𝑧.\end{aligned}
+\begin{aligned}∫_{10}𝑥\,d𝑥∫_{20}\,d𝑦\,∫_{20}\,d𝑧+∫_{10}\,d𝑥∫_{20}𝑦\,d𝑦\,∫_{20}\,d𝑧+∫_{10}\,d𝑥∫_{20}\,d𝑦\,∫_{20}𝑧\,d𝑧.\end{aligned}
 
 
 $$
@@ -159,7 +159,7 @@ Express the triple integral
 $$
 
 
-\displaystyle \iiint\limits_{R} (x+y+z)^2 \: \textrm{d}V
+\displaystyle \iiint\limits_{R} (x+y+z)^2 \: \text{d}V
 
 
 $$
@@ -179,7 +179,7 @@ as a repeated integral of the form
 $$
 
 
-\displaystyle \int_a^b \int_c^d \int_e^f \ldots \: \textrm{d}y\: \textrm{d}z\: \textrm{d}x .
+\displaystyle \int_a^b \int_c^d \int_e^f \ldots \: \text{d}y\: \text{d}z\: \text{d}x .
 
 
 $$
@@ -191,7 +191,7 @@ Given the limits for $x,y,$ and $z,$ we can express our triple integral as a rep
 $$
 
 
-\begin{aligned}\underset{𝑅}{∭}(𝑥+𝑦+𝑧)^{2}\,d𝑉 & =∫_{10}^{}∫_{20}^{}∫_{2−1}^{}(𝑥+𝑦+𝑧)^{2}\,\,d𝑦\,d𝑧\,d𝑥\end{aligned}
+\begin{aligned}\underset{𝑅}{∭}(𝑥+𝑦+𝑧)^{2}\,d𝑉 & =∫_{10}∫_{20}∫_{2−1}(𝑥+𝑦+𝑧)^{2}\,\,d𝑦\,d𝑧\,d𝑥\end{aligned}
 
 
 $$
@@ -205,7 +205,7 @@ Evaluate the triple integral
 $$
 
 
-\displaystyle \iiint\limits_{R} y \cos{x} \sin{z} \: \textrm{d}V
+\displaystyle \iiint\limits_{R} y \cos{x} \sin{z} \: \text{d}V
 
 
 $$
@@ -219,7 +219,7 @@ First, we express our triple integral as a repeated integral:
 $$
 
 
-\begin{aligned}\underset{𝑅}{∭}𝑦cos⁡𝑥sin⁡𝑧\,d𝑉 & =∫_{𝜋0}^{}∫_{10}^{}∫_{𝜋/20}^{}𝑦cos⁡𝑥sin⁡𝑧\,d𝑥\,d𝑦\,d𝑧\end{aligned}
+\begin{aligned}\underset{𝑅}{∭}𝑦cos⁡𝑥sin⁡𝑧\,d𝑉 & =∫_{𝜋0}∫_{10}∫_{𝜋/20}𝑦cos⁡𝑥sin⁡𝑧\,d𝑥\,d𝑦\,d𝑧\end{aligned}
 
 
 $$
@@ -229,7 +229,7 @@ Since the domain of integration $R = \left[0,\pi/2\right]\times[0,1]\times\left[
 $$
 
 
-\begin{aligned}∫_{𝜋/20}^{}cos⁡𝑥\,d𝑥\,∫_{10}^{}𝑦\,d𝑦\,∫_{𝜋0}^{}sin⁡𝑧\,d𝑧\end{aligned}
+\begin{aligned}∫_{𝜋/20}cos⁡𝑥\,d𝑥\,∫_{10}𝑦\,d𝑦\,∫_{𝜋0}sin⁡𝑧\,d𝑧\end{aligned}
 
 
 $$
@@ -239,7 +239,7 @@ Evaluating each integral separately, we get
 $$
 
 
-\begin{aligned}∫_{𝜋/20}^{}cos⁡𝑥\,d𝑥\,∫_{10}^{}𝑦\,d𝑦\,∫_{𝜋0}^{}sin⁡𝑧\,d𝑧 & =[sin⁡𝑥]_{𝜋/20}^{}⋅[\frac{𝑦^{2}}{2}]_{10}^{}⋅[−cos⁡𝑧]_{𝜋0}^{} \\ & =(1−0)⋅(\frac{1}{2}−0)⋅(1−(−1)) \\ & =1⋅\frac{1}{2}⋅2 \\ & =1.\end{aligned}
+\begin{aligned}∫_{𝜋/20}cos⁡𝑥\,d𝑥\,∫_{10}𝑦\,d𝑦\,∫_{𝜋0}sin⁡𝑧\,d𝑧 & =[sin⁡𝑥]_{𝜋/20}⋅[\frac{𝑦^{2}}{2}]_{10}⋅[−cos⁡𝑧]_{𝜋0} \\ & =(1−0)⋅(\frac{1}{2}−0)⋅(1−(−1)) \\ & =1⋅\frac{1}{2}⋅2 \\ & =1.\end{aligned}
 
 
 $$
@@ -267,7 +267,7 @@ First, we express our triple integral as a repeated integral:
 $$
 
 
-\displaystyle \iiint \limits_{R} z-xy \: \textrm{d}V = \int_{-1}^{1} \int_{0}^{2} \int_{1}^{3} z-xy \: \mathrm{d}z \: \mathrm{d}x \: \mathrm{d}y
+\displaystyle \iiint \limits_{R} z-xy \: \text{d}V = \int_{-1}^{1} \int_{0}^{2} \int_{1}^{3} z-xy \: \mathrm{d}z \: \mathrm{d}x \: \mathrm{d}y
 
 
 $$
@@ -279,7 +279,7 @@ First, we evaluate the inner integral with respect to $z,$ treating $x$ and $y$ 
 $$
 
 
-\begin{aligned}∫_{1−1}^{}∫_{20}^{}∫_{31}^{}𝑧−𝑥𝑦\,d𝑧\,d𝑥\,d𝑦 & =∫_{1−1}^{}∫_{20}^{}[∫_{31}^{}𝑧−𝑥𝑦\,d𝑧]d𝑥\,d𝑦 \\ & =∫_{1−1}^{}∫_{20}^{}[\frac{1}{2}𝑧^{2}−𝑥𝑦𝑧]_{𝑧=3𝑧=1}^{}\,d𝑥\,d𝑦 \\ & =∫_{1−1}^{}∫_{20}^{}\frac{1}{2}(9−1)−𝑥𝑦(3−1)\,d𝑥\,d𝑦 \\ & =∫_{1−1}^{}∫_{20}^{}4−2𝑥𝑦\,d𝑥\,d𝑦\end{aligned}
+\begin{aligned}∫_{1−1}∫_{20}∫_{31}𝑧−𝑥𝑦\,d𝑧\,d𝑥\,d𝑦 & =∫_{1−1}∫_{20}[∫_{31}𝑧−𝑥𝑦\,d𝑧]d𝑥\,d𝑦 \\ & =∫_{1−1}∫_{20}[\frac{1}{2}𝑧^{2}−𝑥𝑦𝑧]_{𝑧=3𝑧=1}\,d𝑥\,d𝑦 \\ & =∫_{1−1}∫_{20}\frac{1}{2}(9−1)−𝑥𝑦(3−1)\,d𝑥\,d𝑦 \\ & =∫_{1−1}∫_{20}4−2𝑥𝑦\,d𝑥\,d𝑦\end{aligned}
 
 
 $$
@@ -289,7 +289,7 @@ Next, we evaluate the inner integral with respect to $x,$ treating $y$ as a cons
 $$
 
 
-\begin{aligned}∫_{1−1}^{}∫_{20}^{}4−2𝑥𝑦\,d𝑥\,d𝑦 & =∫_{1−1}^{}[∫_{20}^{}4−2𝑦𝑥\,d𝑥]d𝑦 \\ & =∫_{1−1}^{}[4𝑥−𝑦𝑥^{2}]_{𝑥=2𝑥=0}^{}\,d𝑦 \\ & =∫_{1−1}^{}4(2−0)−𝑦(2^{2}−0)\,d𝑦 \\ & =∫_{1−1}^{}8−4𝑦\,d𝑦\end{aligned}
+\begin{aligned}∫_{1−1}∫_{20}4−2𝑥𝑦\,d𝑥\,d𝑦 & =∫_{1−1}[∫_{20}4−2𝑦𝑥\,d𝑥]d𝑦 \\ & =∫_{1−1}[4𝑥−𝑦𝑥^{2}]_{𝑥=2𝑥=0}\,d𝑦 \\ & =∫_{1−1}4(2−0)−𝑦(2^{2}−0)\,d𝑦 \\ & =∫_{1−1}8−4𝑦\,d𝑦\end{aligned}
 
 
 $$
@@ -299,7 +299,7 @@ Finally, we integrate with respect to $y{:}$
 $$
 
 
-\begin{aligned}∫_{1−1}^{}8−4𝑦\,d𝑦 & =[8𝑦−2𝑦^{2}]_{𝑦=1𝑦=−1}^{} \\ & =8(1−(−1))−2(1^{2}−(−1)^{2}) \\ & =8⋅2−2(1−1) \\ & =16−0 \\ & =16\end{aligned}
+\begin{aligned}∫_{1−1}8−4𝑦\,d𝑦 & =[8𝑦−2𝑦^{2}]_{𝑦=1𝑦=−1} \\ & =8(1−(−1))−2(1^{2}−(−1)^{2}) \\ & =8⋅2−2(1−1) \\ & =16−0 \\ & =16\end{aligned}
 
 
 $$

@@ -19,7 +19,7 @@ According to the **constant factor rule**, we can just take the constant factor 
 $$
 
 
-\int 5 x^2\, \textrm{d}x = 5\cdot \int x^2 \,\textrm{d}x
+\int 5 x^2\, \text{d}x = 5\cdot \int x^2 \,\text{d}x
 
 
 $$
@@ -39,7 +39,7 @@ We can use this trick in general. Whenever the integrand is a function $f(x)$ mu
 $$
 
 
-\int k f(x)\, \textrm{d}x = k \int f(x) \,\textrm{d}x.
+\int k f(x)\, \text{d}x = k \int f(x) \,\text{d}x.
 
 
 $$

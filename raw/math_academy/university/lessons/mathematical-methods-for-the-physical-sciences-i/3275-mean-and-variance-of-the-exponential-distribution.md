@@ -18,7 +18,7 @@ Suppose that $X$ is an exponential random variable with rate parameter $\lambda 
 $$
 
 
-X\sim \textrm{Exp}(\lambda)
+X\sim \text{Exp}(\lambda)
 
 
 $$
@@ -88,7 +88,7 @@ Finally, applying the by-parts formula, we get
 $$
 
 
-\begin{aligned}E[𝑋] & =∫_{∞0}^{}𝜆𝑥𝑒^{−𝜆𝑥}\,d𝑥 \\ & =[−𝑥𝑒^{−𝜆𝑥}]_{∞0}^{}+∫_{∞0}^{}𝑒^{−𝜆𝑥}\,d𝑥 \\ & =[−𝑥𝑒^{−𝜆𝑥}]_{∞0}^{}−[\frac{𝑒^{−𝜆𝑥}}{𝜆}]_{∞0}^{} \\ & =\frac{1}{𝜆}.\end{aligned}
+\begin{aligned}E[𝑋] & =∫_{∞0}𝜆𝑥𝑒^{−𝜆𝑥}\,d𝑥 \\ & =[−𝑥𝑒^{−𝜆𝑥}]_{∞0}+∫_{∞0}𝑒^{−𝜆𝑥}\,d𝑥 \\ & =[−𝑥𝑒^{−𝜆𝑥}]_{∞0}−[\frac{𝑒^{−𝜆𝑥}}{𝜆}]_{∞0} \\ & =\frac{1}{𝜆}.\end{aligned}
 
 
 $$
@@ -97,11 +97,11 @@ $$
 
 #### Question
 
-Given that $X\sim \textrm{Exp}\left(\dfrac{\sqrt 3}{3}\right),$ what is $\textrm{E}[X]?$
+Given that $X\sim \text{Exp}\left(\dfrac{\sqrt 3}{3}\right),$ what is $\text{E}[X]?$
 
 #### Explanation
 
-If $X \sim \textrm{Exp}({\lambda})$ is an exponential random variable, then
+If $X \sim \text{Exp}({\lambda})$ is an exponential random variable, then
 
 $$
 
@@ -111,7 +111,7 @@ $$
 
 $$
 
-Therefore, for our random variable $X \sim \textrm{Exp}\left(\dfrac{\sqrt 3}{3}\right),$ we have the following expected value:
+Therefore, for our random variable $X \sim \text{Exp}\left(\dfrac{\sqrt 3}{3}\right),$ we have the following expected value:
 
 $$
 
@@ -125,26 +125,26 @@ $$
 
 #### Question
 
-The time $X,$ in hours, between two customers ordering a chocolate muffin at a pastry shop can be modeled as an exponential random variable $X\sim \textrm{Exp}(6).$ If a customer has just ordered a chocolate muffin, what is the average time, in minutes, until the next customer orders a chocolate muffin?
+The time $X,$ in hours, between two customers ordering a chocolate muffin at a pastry shop can be modeled as an exponential random variable $X\sim \text{Exp}(6).$ If a customer has just ordered a chocolate muffin, what is the average time, in minutes, until the next customer orders a chocolate muffin?
 
 #### Explanation
 
-Recall that if $X \sim \textrm{Exp}({\lambda})$ is an exponential random variable, then
+Recall that if $X \sim \text{Exp}({\lambda})$ is an exponential random variable, then
 
 $$
 
 
-\textrm{E}[X] = \dfrac{1}{\lambda}.
+\text{E}[X] = \dfrac{1}{\lambda}.
 
 
 $$
 
-We're given that $X \sim \textrm{Exp}\left(6\right).$ Therefore, $\lambda = 6,$ which means that $6$ customers order a chocolate muffin each hour. Hence,
+We're given that $X \sim \text{Exp}\left(6\right).$ Therefore, $\lambda = 6,$ which means that $6$ customers order a chocolate muffin each hour. Hence,
 
 $$
 
 
-\textrm E[X] =\dfrac{1}{6}\, \textrm{h} = 10 \, \textrm{min}.
+\textrm E[X] =\dfrac{1}{6}\, \text{h} = 10 \, \text{min}.
 
 
 $$
@@ -153,7 +153,7 @@ Therefore, the average time until the next customer orders a chocolate muffin is
 
 ### Proof of the Variance Formula
 
-If the random variable $X\sim \textrm{Exp}(\lambda),$ then the variance of $X$ is given by
+If the random variable $X\sim \text{Exp}(\lambda),$ then the variance of $X$ is given by
 
 $$
 
@@ -168,7 +168,7 @@ To prove this, we first recall that
 $$
 
 
-\textrm{Var}[X] = \textrm E[X^2] - \left(\textrm E[X]\right)^2.
+\text{Var}[X] = \textrm E[X^2] - \left(\textrm E[X]\right)^2.
 
 
 $$
@@ -228,7 +228,7 @@ Applying the by-parts formula, we get
 $$
 
 
-\begin{aligned}E[𝑋^{2}] & =∫_{∞0}^{}𝜆𝑥^{2}𝑒^{−𝜆𝑥}\,d𝑥 \\ & =[−𝑥^{2}𝑒^{−𝜆𝑥}]_{∞0}^{}+2∫_{∞0}^{}𝑥𝑒^{−𝜆𝑥} \\ & =0+2∫_{∞0}^{}𝑥𝑒^{−𝜆𝑥} \\ & =2∫_{∞0}^{}𝑥𝑒^{−𝜆𝑥}.\end{aligned}
+\begin{aligned}E[𝑋^{2}] & =∫_{∞0}𝜆𝑥^{2}𝑒^{−𝜆𝑥}\,d𝑥 \\ & =[−𝑥^{2}𝑒^{−𝜆𝑥}]_{∞0}+2∫_{∞0}𝑥𝑒^{−𝜆𝑥} \\ & =0+2∫_{∞0}𝑥𝑒^{−𝜆𝑥} \\ & =2∫_{∞0}𝑥𝑒^{−𝜆𝑥}.\end{aligned}
 
 
 $$
@@ -238,7 +238,7 @@ Notice that we can express this integral in terms of $\textrm E[X]$ (and therefo
 $$
 
 
-\begin{aligned}E[𝑋^{2}] & =2∫_{∞0}^{}𝑥𝑒^{−𝜆𝑥} \\ & =\frac{2}{𝜆}∫_{∞0}^{}𝜆𝑥𝑒^{−𝜆𝑥} \\ & =\frac{2}{𝜆}⋅E[𝑋] \\ & =\frac{2}{𝜆}⋅\frac{1}{𝜆} \\ & =\frac{2}{𝜆^{2}}\end{aligned}
+\begin{aligned}E[𝑋^{2}] & =2∫_{∞0}𝑥𝑒^{−𝜆𝑥} \\ & =\frac{2}{𝜆}∫_{∞0}𝜆𝑥𝑒^{−𝜆𝑥} \\ & =\frac{2}{𝜆}⋅E[𝑋] \\ & =\frac{2}{𝜆}⋅\frac{1}{𝜆} \\ & =\frac{2}{𝜆^{2}}\end{aligned}
 
 
 $$
@@ -259,21 +259,21 @@ as required.
 
 #### Question
 
-Given that $X\sim \textrm{Exp}\left(0.1\right),$ what is $\textrm{SD}[X]?$
+Given that $X\sim \text{Exp}\left(0.1\right),$ what is $\text{SD}[X]?$
 
 #### Explanation
 
-If $X \sim \textrm{Exp}(\lambda)$ is an exponential random variable, then
+If $X \sim \text{Exp}(\lambda)$ is an exponential random variable, then
 
 $$
 
 
-\textrm{SD}[X] = \sqrt{\textrm{Var}[X]} = \dfrac{1}{\lambda}.
+\text{SD}[X] = \sqrt{\text{Var}[X]} = \dfrac{1}{\lambda}.
 
 
 $$
 
-Therefore, for our random variable $X \sim \textrm{Exp}\left(0.1\right),$ we have the following standard deviation:
+Therefore, for our random variable $X \sim \text{Exp}\left(0.1\right),$ we have the following standard deviation:
 
 $$
 

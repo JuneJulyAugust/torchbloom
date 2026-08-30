@@ -29,7 +29,7 @@ The quadratic approximation is called the **second-degree Taylor polynomial** $P
 $$
 
 
-P_2(x) = \underbrace{f(a) + f'(a)(x-a)}_{\text{linear approximation}} + \underbrace{\dfrac{1}{2}f''(a)(x-a)^2}_{\textrm{new quadratic term}}.
+P_2(x) = \underbrace{f(a) + f'(a)(x-a)}_{\text{linear approximation}} + \underbrace{\dfrac{1}{2}f''(a)(x-a)^2}_{\text{new quadratic term}}.
 
 
 $$

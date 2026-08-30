@@ -22,7 +22,7 @@ We can express the ratio of the number of circles to the number of triangles as 
 $$
 
 
-{\color{blue}{\textrm{number of circles}}} : {\color{red}{\textrm{number of triangles}}}
+{\color{blue}{\text{number of circles}}} : {\color{red}{\text{number of triangles}}}
 
 
 $$
@@ -54,7 +54,7 @@ We can express the ratio of the number of pentagons to the total number of shape
 $$
 
 
-\textrm{number of pentagons} : \textrm{total number of shapes}
+\text{number of pentagons} : \text{total number of shapes}
 
 
 $$
@@ -80,7 +80,7 @@ We can express the ratio of the number of green crates to the total number of cr
 $$
 
 
-\textrm{number of green crates} : \textrm{total number of crates}
+\text{number of green crates} : \text{total number of crates}
 
 
 $$

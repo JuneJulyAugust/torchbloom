@@ -42,7 +42,7 @@ As a result,
 $$
 
 
-\begin{aligned}𝑄(𝐱) & =2𝑥_{21}^{}+4𝑥_{22}^{} \\ & ≤4𝑥_{21}^{}+4𝑥_{22}^{} \\ & =4(𝑥_{21}^{}+𝑥_{22}^{}).\end{aligned}
+\begin{aligned}𝑄(𝐱) & =2𝑥_{21}+4𝑥_{22} \\ & ≤4𝑥_{21}+4𝑥_{22} \\ & =4(𝑥_{21}+𝑥_{22}).\end{aligned}
 
 
 $$
@@ -52,7 +52,7 @@ Now, recall that $\| \mathbf{x} \| = 1$ is equivalent to $x_1^2 + x_2^2 =1.$ So,
 $$
 
 
-\begin{aligned}4(𝑥_{21}^{}+𝑥_{22}^{})=4(1)=4,\end{aligned}
+\begin{aligned}4(𝑥_{21}+𝑥_{22})=4(1)=4,\end{aligned}
 
 
 $$
@@ -74,7 +74,7 @@ Indeed, we can. Setting $[\begin{aligned}0 & 1\end{aligned}]$ we get
 $$
 
 
-\begin{aligned}𝑄(𝐱) & =2𝑥_{21}^{}+4𝑥_{22}^{} \\ & =2(0)^{2}+4(1)^{2} \\ & =4.\end{aligned}
+\begin{aligned}𝑄(𝐱) & =2𝑥_{21}+4𝑥_{22} \\ & =2(0)^{2}+4(1)^{2} \\ & =4.\end{aligned}
 
 
 $$
@@ -108,7 +108,7 @@ As a result,
 $$
 
 
-\begin{aligned}𝑄(𝐱) & =2𝑥_{21}^{}−5𝑥_{22}^{}+3𝑥_{23}^{} \\ & ≤3𝑥_{21}^{}+3𝑥_{22}^{}+3𝑥_{23}^{} \\ & =3(𝑥_{21}^{}+𝑥_{22}^{}+𝑥_{23}^{}).\end{aligned}
+\begin{aligned}𝑄(𝐱) & =2𝑥_{21}−5𝑥_{22}+3𝑥_{23} \\ & ≤3𝑥_{21}+3𝑥_{22}+3𝑥_{23} \\ & =3(𝑥_{21}+𝑥_{22}+𝑥_{23}).\end{aligned}
 
 
 $$
@@ -118,7 +118,7 @@ Now, recall that $\| \mathbf{x} \| = 1$ is equivalent to $x_1^2 + x_2^2 + x_3^2 
 $$
 
 
-\begin{aligned}3(𝑥_{21}^{}+𝑥_{22}^{}+𝑥_{23}^{})=3(1)=3,\end{aligned}
+\begin{aligned}3(𝑥_{21}+𝑥_{22}+𝑥_{23})=3(1)=3,\end{aligned}
 
 
 $$
@@ -132,7 +132,7 @@ Notice that when $[\begin{aligned}0 & 0 & 1\end{aligned}]$ we get
 $$
 
 
-\begin{aligned}𝑄(𝐱) & =2𝑥_{21}^{}−5𝑥_{22}^{}+3𝑥_{23}^{} \\ & =2(0)^{2}−5(0)^{2}+3(1)^{2} \\ & =3.\end{aligned}
+\begin{aligned}𝑄(𝐱) & =2𝑥_{21}−5𝑥_{22}+3𝑥_{23} \\ & =2(0)^{2}−5(0)^{2}+3(1)^{2} \\ & =3.\end{aligned}
 
 
 $$
@@ -162,7 +162,7 @@ As a result,
 $$
 
 
-\begin{aligned}𝑄(𝐱) & =5𝑥_{21}^{}−4𝑥_{22}^{}−6𝑥_{23}^{} \\ & ≥−6𝑥_{21}^{}−6𝑥_{22}^{}−6𝑥_{23}^{} \\ & =−6(𝑥_{21}^{}+𝑥_{22}^{}+𝑥_{23}^{}).\end{aligned}
+\begin{aligned}𝑄(𝐱) & =5𝑥_{21}−4𝑥_{22}−6𝑥_{23} \\ & ≥−6𝑥_{21}−6𝑥_{22}−6𝑥_{23} \\ & =−6(𝑥_{21}+𝑥_{22}+𝑥_{23}).\end{aligned}
 
 
 $$
@@ -172,7 +172,7 @@ Now, recall that $\| \mathbf{x} \| = 1$ is equivalent to $x_1^2 + x_2^2 + x_3^2 
 $$
 
 
-\begin{aligned}−6(𝑥_{21}^{}+𝑥_{22}^{}+𝑥_{23}^{})=−6(1)=−6.\end{aligned}
+\begin{aligned}−6(𝑥_{21}+𝑥_{22}+𝑥_{23})=−6(1)=−6.\end{aligned}
 
 
 $$
@@ -186,7 +186,7 @@ Notice that when $[\begin{aligned}0 & 0 & 1\end{aligned}]$ we get
 $$
 
 
-\begin{aligned}𝑄(𝐱) & =5𝑥_{21}^{}−4𝑥_{22}^{}−6𝑥_{23}^{} \\ & =5(0)^{2}−4(0)^{2}−6(1)^{2} \\ & =−6.\end{aligned}
+\begin{aligned}𝑄(𝐱) & =5𝑥_{21}−4𝑥_{22}−6𝑥_{23} \\ & =5(0)^{2}−4(0)^{2}−6(1)^{2} \\ & =−6.\end{aligned}
 
 
 $$
@@ -199,9 +199,9 @@ We can find a quadratic form's maximum and minimum values even when it contains 
 
 *Let $A$ be the matrix corresponding to our quadratic form $Q(\mathbf x)\mathbin{:}$*
 
-- *The maximum value of $Q(\mathbf{x}),$ when $\| \mathbf{x} \|=1,$ is equal to the largest eigenvalue of $A{:}$* *The maximum is attained on the corresponding unit eigenvector $\mathbf{u}_{\textrm{max}}.$*
+- *The maximum value of $Q(\mathbf{x}),$ when $\| \mathbf{x} \|=1,$ is equal to the largest eigenvalue of $A{:}$* *The maximum is attained on the corresponding unit eigenvector $\mathbf{u}_{\text{max}}.$*
 
-- *The minimum value of $Q(\mathbf{x}),$ when $\| \mathbf{x} \|=1,$ is equal to the smallest eigenvalue of $A{:}$* *The minimum is attained on the corresponding unit eigenvector $\mathbf{u}_{\textrm{min}}.$*
+- *The minimum value of $Q(\mathbf{x}),$ when $\| \mathbf{x} \|=1,$ is equal to the smallest eigenvalue of $A{:}$* *The minimum is attained on the corresponding unit eigenvector $\mathbf{u}_{\text{min}}.$*
 
 Suppose we are given the quadratic form
 
@@ -213,7 +213,7 @@ Q(\mathbf{x})=4x_1^2-2x_1x_2+4x_2^2.
 
 $$
 
-How can we find a unit vector $\mathbf{u}_{\textrm{max}}$ at which the maximum of $Q(\mathbf{x})$ is attained?
+How can we find a unit vector $\mathbf{u}_{\text{max}}$ at which the maximum of $Q(\mathbf{x})$ is attained?
 
 First, we write down the matrix of our quadratic form:
 
@@ -230,7 +230,7 @@ Now, we need to calculate the eigenvalues of the matrix $A\mathbin{:}$
 $$
 
 
-\begin{aligned}|𝐴−𝜆𝐼| & =0 \\ \begin{aligned}4−𝜆 & −1 \\ −1 & 4−𝜆\end{aligned} & =0 \\ (4−𝜆)(4−𝜆)−1 & =0 \\ 𝜆^{2}−8𝜆+15 & =0 \\ (𝜆−5)(𝜆−3) & =0 \\ 𝜆 & =5,\,3\end{aligned}
+\begin{aligned}|𝐴−𝜆𝐼| & =0 \\ \begin{matrix}4−𝜆 & −1 \\ −1 & 4−𝜆\end{matrix} & =0 \\ (4−𝜆)(4−𝜆)−1 & =0 \\ 𝜆^{2}−8𝜆+15 & =0 \\ (𝜆−5)(𝜆−3) & =0 \\ 𝜆 & =5,\,3\end{aligned}
 
 
 $$
@@ -240,17 +240,17 @@ Therefore, we have
 $$
 
 
-\max \{ Q(\mathbf{x}) \: | \: \| \mathbf{x} \|=1 \} = \lambda_{\textrm{max}} = 5.
+\max \{ Q(\mathbf{x}) \: | \: \| \mathbf{x} \|=1 \} = \lambda_{\text{max}} = 5.
 
 
 $$
 
-To find $\mathbf{u}_{\textrm{max}},$ we need a unit eigenvector that corresponds to the eigenvalue $\lambda_{\textrm{max}}=5.$ We start by computing $(A-5I)\mathbin{:}$
+To find $\mathbf{u}_{\text{max}},$ we need a unit eigenvector that corresponds to the eigenvalue $\lambda_{\text{max}}=5.$ We start by computing $(A-5I)\mathbin{:}$
 
 $$
 
 
-\begin{aligned}𝐴−5𝐼 & =[\begin{aligned}4 & −1 \\ −1 & 4\end{aligned}]−5[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}]=[\begin{aligned}−1 & −1 \\ −1 & −1\end{aligned}]\end{aligned}
+\begin{aligned}𝐴−5𝐼 & =[\begin{matrix}4 & −1 \\ −1 & 4\end{matrix}]−5[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}]=[\begin{matrix}−1 & −1 \\ −1 & −1\end{matrix}]\end{aligned}
 
 
 $$
@@ -296,7 +296,7 @@ Now, we need to calculate the eigenvalues of the matrix $A\mathbin{:}$
 $$
 
 
-\begin{aligned}|𝐴−𝜆𝐼| & =0 \\ \begin{aligned}1−𝜆 & 0 & 0 \\ 0 & −2−𝜆 & 1 \\ 0 & 1 & −2−𝜆\end{aligned} & =0 \\ (1−𝜆)\begin{aligned}−2−𝜆 & 1 \\ 1 & −2−𝜆\end{aligned} & =0 \\ (1−𝜆)((−2−𝜆)(−2−𝜆)−1) & =0 \\ (1−𝜆)(𝜆^{2}+4𝜆+3) & =0 \\ (1−𝜆)(𝜆+3)(𝜆+1) & =0 \\ 𝜆 & =1,\,−1,\,−3\end{aligned}
+\begin{aligned}|𝐴−𝜆𝐼| & =0 \\ \begin{matrix}1−𝜆 & 0 & 0 \\ 0 & −2−𝜆 & 1 \\ 0 & 1 & −2−𝜆\end{matrix} & =0 \\ (1−𝜆)\begin{matrix}−2−𝜆 & 1 \\ 1 & −2−𝜆\end{matrix} & =0 \\ (1−𝜆)((−2−𝜆)(−2−𝜆)−1) & =0 \\ (1−𝜆)(𝜆^{2}+4𝜆+3) & =0 \\ (1−𝜆)(𝜆+3)(𝜆+1) & =0 \\ 𝜆 & =1,\,−1,\,−3\end{aligned}
 
 
 $$

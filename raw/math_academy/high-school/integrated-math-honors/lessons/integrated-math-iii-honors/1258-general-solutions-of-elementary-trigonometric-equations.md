@@ -81,7 +81,7 @@ First, we rearrange the equation and isolate $\cos x \mathbin{:}$
 $$
 
 
-\begin{aligned}2cos⁡𝑥+\sqrt{√2} & =0 \\ 2cos⁡𝑥 & =−\sqrt{√2} \\ cos⁡𝑥 & =−\frac{\sqrt{√2}}{2}\end{aligned}
+\begin{aligned}2cos⁡𝑥+\sqrt{2} & =0 \\ 2cos⁡𝑥 & =−\sqrt{2} \\ cos⁡𝑥 & =−\frac{\sqrt{2}}{2}\end{aligned}
 
 
 $$
@@ -133,7 +133,7 @@ First, we rearrange the equation and isolate $\csc x \mathbin{:}$
 $$
 
 
-\begin{aligned}3csc⁡𝑥+2\sqrt{√3} & =0 \\ 3csc⁡𝑥 & =−2\sqrt{√3} \\ csc⁡𝑥 & =−\frac{2\sqrt{√3}}{3}\end{aligned}
+\begin{aligned}3csc⁡𝑥+2\sqrt{3} & =0 \\ 3csc⁡𝑥 & =−2\sqrt{3} \\ csc⁡𝑥 & =−\frac{2\sqrt{3}}{3}\end{aligned}
 
 
 $$
@@ -153,7 +153,7 @@ Now, we find the principal value:
 $$
 
 
-\begin{aligned}𝑥_{1}=arcsin⁡(−\frac{\sqrt{√3}}{2})=\frac{5𝜋}{3}\end{aligned}
+\begin{aligned}𝑥_{1}=arcsin⁡(−\frac{\sqrt{3}}{2})=\frac{5𝜋}{3}\end{aligned}
 
 
 $$
@@ -285,7 +285,7 @@ Recall that $\sec{x} = \dfrac{1}{\cos{x}}.$ Therefore, the given equation is equ
 $$
 
 
-\begin{aligned}\frac{1}{cos⁡𝑥} & =\sqrt{√2} \\ cos⁡𝑥 & =\frac{1}{\sqrt{√2}} \\ & =\frac{\sqrt{√2}}{2}.\end{aligned}
+\begin{aligned}\frac{1}{cos⁡𝑥} & =\sqrt{2} \\ cos⁡𝑥 & =\frac{1}{\sqrt{2}} \\ & =\frac{\sqrt{2}}{2}.\end{aligned}
 
 
 $$

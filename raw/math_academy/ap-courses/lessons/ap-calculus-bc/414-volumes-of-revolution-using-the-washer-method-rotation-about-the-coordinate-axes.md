@@ -25,7 +25,7 @@ To find the volume of the solid generated when the region bounded by the outer c
 $$
 
 
-V = \pi \int_{a}^{b} \Big( \big[ \underbrace{f(x)}_\text{outer} \big]^2 - \big[ \underbrace{g(x)}_\text{inner} \big]^2 \Big) \:\textrm{d}x.
+V = \pi \int_{a}^{b} \Big( \big[ \underbrace{f(x)}_\text{outer} \big]^2 - \big[ \underbrace{g(x)}_\text{inner} \big]^2 \Big) \:\text{d}x.
 
 
 $$
@@ -51,7 +51,7 @@ In our case, the outer curve is $f(x)=\sqrt{x}$ and the inner curve is $g(x) = \
 $$
 
 
-\begin{aligned}𝑉=𝜋∫_{20}^{}(\sqrt{√𝑥})^{2}−(\frac{1}{2}𝑥)^{2}d𝑥.\end{aligned}
+\begin{aligned}𝑉=𝜋∫_{20}(\sqrt{𝑥})^{2}−(\frac{1}{2}𝑥)^{2}d𝑥.\end{aligned}
 
 
 $$
@@ -61,7 +61,7 @@ which simplifies to
 $$
 
 
-\begin{aligned}𝑉=𝜋∫_{20}^{}(𝑥−\frac{𝑥^{2}}{4})d𝑥.\end{aligned}
+\begin{aligned}𝑉=𝜋∫_{20}(𝑥−\frac{𝑥^{2}}{4})d𝑥.\end{aligned}
 
 
 $$
@@ -71,7 +71,7 @@ Evaluating this integral gives
 $$
 
 
-\begin{aligned}𝑉 & =𝜋(∫_{20}^{}𝑥\,d𝑥−\frac{1}{4}∫_{20}^{}𝑥^{2}\,d𝑥) \\ & =𝜋(\frac{𝑥^{2}}{2}_{20}^{}−\frac{1}{4}⋅\frac{𝑥^{3}}{3}_{20}^{}) \\ & =𝜋((\frac{4}{2}−0)−\frac{1}{4}(\frac{8}{3}−0)) \\ & =𝜋(2−\frac{2}{3}) \\ & =\frac{4𝜋}{3}.\end{aligned}
+\begin{aligned}𝑉 & =𝜋(∫_{20}𝑥\,d𝑥−\frac{1}{4}∫_{20}𝑥^{2}\,d𝑥) \\ & =𝜋(\frac{𝑥^{2}}{2}_{20}−\frac{1}{4}⋅\frac{𝑥^{3}}{3}_{20}) \\ & =𝜋((\frac{4}{2}−0)−\frac{1}{4}(\frac{8}{3}−0)) \\ & =𝜋(2−\frac{2}{3}) \\ & =\frac{4𝜋}{3}.\end{aligned}
 
 
 $$
@@ -95,7 +95,7 @@ First, we determine the limits of integration. To do that, we find the intersect
 $$
 
 
-\begin{aligned}𝑓(𝑥) & =𝑔(𝑥) \\ \sqrt{√𝑥} & =𝑥^{3} \\ 𝑥 & =𝑥^{6} \\ 𝑥^{6}−𝑥 & =0 \\ 𝑥(𝑥^{5}−1) & =0\end{aligned}
+\begin{aligned}𝑓(𝑥) & =𝑔(𝑥) \\ \sqrt{𝑥} & =𝑥^{3} \\ 𝑥 & =𝑥^{6} \\ 𝑥^{6}−𝑥 & =0 \\ 𝑥(𝑥^{5}−1) & =0\end{aligned}
 
 
 $$
@@ -117,7 +117,7 @@ Therefore, the integral that gives our volume is
 $$
 
 
-\begin{aligned}𝑉 & =𝜋∫_{𝑏𝑎}^{}([outer]^{2}−[inner]^{2})d𝑥 \\ & =𝜋∫_{10}^{}([\sqrt{√𝑥}]^{2}−[𝑥^{3}]^{2})d𝑥 \\ & =𝜋∫_{10}^{}(𝑥−𝑥^{6})\,d𝑥.\end{aligned}
+\begin{aligned}𝑉 & =𝜋∫_{𝑏𝑎}([outer]^{2}−[inner]^{2})d𝑥 \\ & =𝜋∫_{10}([\sqrt{𝑥}]^{2}−[𝑥^{3}]^{2})d𝑥 \\ & =𝜋∫_{10}(𝑥−𝑥^{6})\,d𝑥.\end{aligned}
 
 
 $$
@@ -161,7 +161,7 @@ Therefore, the volume is given by
 $$
 
 
-\begin{aligned}𝑉 & =𝜋∫_{𝑏𝑎}^{}([outer]^{2}−[inner]^{2})d𝑥 \\ & =𝜋∫_{10}^{}([𝑥^{2}]^{2}−[𝑥^{5}]^{2})d𝑥 \\ & =𝜋∫_{10}^{}(𝑥^{4}−𝑥^{10})d𝑥 \\ & =𝜋(\frac{𝑥^{5}}{5}−\frac{𝑥^{11}}{11})_{10}^{} \\ & =𝜋[(\frac{1}{5}−\frac{1}{11})−0] \\ & =\frac{6𝜋}{55}.\end{aligned}
+\begin{aligned}𝑉 & =𝜋∫_{𝑏𝑎}([outer]^{2}−[inner]^{2})d𝑥 \\ & =𝜋∫_{10}([𝑥^{2}]^{2}−[𝑥^{5}]^{2})d𝑥 \\ & =𝜋∫_{10}(𝑥^{4}−𝑥^{10})d𝑥 \\ & =𝜋(\frac{𝑥^{5}}{5}−\frac{𝑥^{11}}{11})_{10} \\ & =𝜋[(\frac{1}{5}−\frac{1}{11})−0] \\ & =\frac{6𝜋}{55}.\end{aligned}
 
 
 $$
@@ -243,7 +243,7 @@ Therefore, the integral that gives our volume is
 $$
 
 
-\begin{aligned}𝑉 & =𝜋∫_{𝑏𝑎}^{}([outer]^{2}−[inner]^{2})d𝑦 \\ & =𝜋∫_{0−1}^{}([\sqrt[√𝑦]{3}]^{2}−[𝑦]^{2})d𝑦 \\ & =𝜋∫_{0−1}^{}(\sqrt[√𝑦^{2}]{3}−𝑦^{2})d𝑦.\end{aligned}
+\begin{aligned}𝑉 & =𝜋∫_{𝑏𝑎}([outer]^{2}−[inner]^{2})d𝑦 \\ & =𝜋∫_{0−1}([\sqrt[√𝑦]{3}]^{2}−[𝑦]^{2})d𝑦 \\ & =𝜋∫_{0−1}(\sqrt[√𝑦^{2}]{3}−𝑦^{2})d𝑦.\end{aligned}
 
 
 $$
@@ -275,7 +275,7 @@ Therefore, the integral that gives our volume is
 $$
 
 
-\begin{aligned}𝑉 & =𝜋∫_{𝑑𝑐}^{}([outer]^{2}−[inner]^{2})\,d𝑦 \\ & =𝜋∫_{1−1}^{}([\sqrt{√4−𝑦^{2}}]^{2}−1^{2})d𝑦 \\ & =𝜋∫_{1−1}^{}(3−𝑦^{2})d𝑦 \\ & =2𝜋∫_{10}^{}(3−𝑦^{2})d𝑦 \\ & =2𝜋(3𝑦−\frac{𝑦^{3}}{3})_{10}^{} \\ & =2𝜋(3−\frac{1}{3}−0) \\ & =\frac{16𝜋}{3}.\end{aligned}
+\begin{aligned}𝑉 & =𝜋∫_{𝑑𝑐}([outer]^{2}−[inner]^{2})\,d𝑦 \\ & =𝜋∫_{1−1}([\sqrt{4−𝑦^{2}}]^{2}−1^{2})d𝑦 \\ & =𝜋∫_{1−1}(3−𝑦^{2})d𝑦 \\ & =2𝜋∫_{10}(3−𝑦^{2})d𝑦 \\ & =2𝜋(3𝑦−\frac{𝑦^{3}}{3})_{10} \\ & =2𝜋(3−\frac{1}{3}−0) \\ & =\frac{16𝜋}{3}.\end{aligned}
 
 
 $$

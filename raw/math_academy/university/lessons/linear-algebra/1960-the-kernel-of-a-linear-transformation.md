@@ -19,7 +19,7 @@ The **kernel** of a linear transformation is the set of vectors that map to the 
 $$
 
 
-\textrm{Ker}(\mathbf{T}) = \left\{ \;\mathbf{u} \;| \; \mathbf{T}(\mathbf{u}) = \mathbf{0} \right\}.
+\text{Ker}(\mathbf{T}) = \left\{ \;\mathbf{u} \;| \; \mathbf{T}(\mathbf{u}) = \mathbf{0} \right\}.
 
 
 $$
@@ -55,7 +55,7 @@ Therefore, we need to compute $\mathbf{T}(\mathbf{v}_i)$ for each vector $\mathb
 $$
 
 
-\begin{aligned}𝐓(𝐯_{1}) & =𝐓([\begin{aligned}2 \\ 1\end{aligned}])=[\begin{aligned}0 \\ 0\end{aligned}] \\ 𝐓(𝐯_{2}) & =𝐓([\begin{aligned}3 \\ 1\end{aligned}])=[\begin{aligned}2 \\ −3\end{aligned}] \\ 𝐓(𝐯_{3}) & =𝐓([\begin{aligned}2 \\ 3\end{aligned}])=[\begin{aligned}−8 \\ 12\end{aligned}]\end{aligned}
+\begin{aligned}𝐓(𝐯_{1}) & =𝐓([\begin{matrix}2 \\ 1\end{matrix}])=[\begin{matrix}0 \\ 0\end{matrix}] \\ 𝐓(𝐯_{2}) & =𝐓([\begin{matrix}3 \\ 1\end{matrix}])=[\begin{matrix}2 \\ −3\end{matrix}] \\ 𝐓(𝐯_{3}) & =𝐓([\begin{matrix}2 \\ 3\end{matrix}])=[\begin{matrix}−8 \\ 12\end{matrix}]\end{aligned}
 
 
 $$
@@ -66,7 +66,7 @@ Since $\,\mathbf{T}(\mathbf{v}_1)=\mathbf{0},$ we conclude that, of the given ve
 
 #### Question
 
-Consider the linear transformation $\begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned}$ and the vector $\begin{aligned}𝑘 \\ 2 \\ 6\end{aligned}$ Find the value of $\,k\,$ such that $\,\mathbf{u}\in\textrm{Ker}(\mathbf{T}).$
+Consider the linear transformation $\begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned}$ and the vector $\begin{aligned}𝑘 \\ 2 \\ 6\end{aligned}$ Find the value of $\,k\,$ such that $\,\mathbf{u}\in\text{Ker}(\mathbf{T}).$
 
 #### Explanation
 
@@ -77,7 +77,7 @@ So, we need to solve the following equation:
 $$
 
 
-\begin{aligned}𝐓(𝐮) & =𝟎 \\ \begin{aligned}3⋅𝑘+12⋅2−3⋅6 \\ −2⋅𝑘+4⋅2−2⋅6 \\ 6⋅𝑘−3⋅2+3⋅6\end{aligned} & =\begin{aligned}0 \\ 0 \\ 0\end{aligned} \\ \begin{aligned}3𝑘+6 \\ −2𝑘−4 \\ 6𝑘+12\end{aligned} & =\begin{aligned}0 \\ 0 \\ 0\end{aligned}\end{aligned}
+\begin{aligned}𝐓(𝐮) & =𝟎 \\ \begin{matrix}3⋅𝑘+12⋅2−3⋅6 \\ −2⋅𝑘+4⋅2−2⋅6 \\ 6⋅𝑘−3⋅2+3⋅6\end{matrix} & =\begin{matrix}0 \\ 0 \\ 0\end{matrix} \\ \begin{matrix}3𝑘+6 \\ −2𝑘−4 \\ 6𝑘+12\end{matrix} & =\begin{matrix}0 \\ 0 \\ 0\end{matrix}\end{aligned}
 
 
 $$
@@ -103,7 +103,7 @@ First, remember that if $T$ is the standard matrix of $\mathbf{T},$ then
 $$
 
 
-\textrm{Ker}(\mathbf{T}) = \textrm{Null}(T) = \left\{ \;\mathbf{x} \;|\; T\mathbf{x}=\mathbf{0} \right\}.
+\text{Ker}(\mathbf{T}) = \text{Null}(T) = \left\{ \;\mathbf{x} \;|\; T\mathbf{x}=\mathbf{0} \right\}.
 
 
 $$
@@ -114,7 +114,7 @@ Therefore, to find all the vectors in the kernel of a linear transformation, we 
 
 #### Question
 
-Consider the linear transformation $[\begin{aligned}𝑥 \\ 𝑦\end{aligned}]$ Find $\textrm{Ker}(\mathbf{T}).$
+Consider the linear transformation $[\begin{aligned}𝑥 \\ 𝑦\end{aligned}]$ Find $\text{Ker}(\mathbf{T}).$
 
 #### Explanation
 
@@ -127,7 +127,7 @@ Setting $[\begin{aligned}𝑥 \\ 𝑦\end{aligned}]$ we then need to solve the e
 $$
 
 
-\begin{aligned}𝑇 & =[\begin{aligned}2 & 4 \\ 3 & 6\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+(−\frac{3}{2})𝑅_{1} \\ & ∼[\begin{aligned}2 & 4 \\ 0 & 0\end{aligned}] & & \end{aligned}
+\begin{aligned}𝑇 & =[\begin{matrix}2 & 4 \\ 3 & 6\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+(−\frac{3}{2})𝑅_{1} \\ & ∼[\begin{matrix}2 & 4 \\ 0 & 0\end{matrix}] & & \end{aligned}
 
 
 $$
@@ -153,7 +153,7 @@ The **nullity** of a linear transformation $\mathbf{T}$ is the dimension of its 
 $$
 
 
-\text{nullity}(\mathbf{T}) = \dim(\textrm{Ker}(\mathbf{T})) = \text{nullity}(T).
+\text{nullity}(\mathbf{T}) = \dim(\text{Ker}(\mathbf{T})) = \text{nullity}(T).
 
 
 $$
@@ -164,7 +164,7 @@ To compute the dimension of the kernel of $\mathbf{T},$ we just have to reduce t
 
 #### Question
 
-Given the linear transformation $\begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned}$ find $\,\textrm{nullity}(\mathbf{T}).$
+Given the linear transformation $\begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned}$ find $\,\text{nullity}(\mathbf{T}).$
 
 #### Explanation
 
@@ -178,14 +178,14 @@ $$
 
 $$
 
-Recall that $\textrm{nullity}(\mathbf{T}) = \textrm{nullity}(T) = \textrm{dim}(\textrm{Null}(T)).$
+Recall that $\text{nullity}(\mathbf{T}) = \text{nullity}(T) = \text{dim}(\text{Null}(T)).$
 
-In order to find $\textrm{dim}(\textrm{Null}(T)),$ we reduce $T$ to row echelon form, as follows:
+In order to find $\text{dim}(\text{Null}(T)),$ we reduce $T$ to row echelon form, as follows:
 
 $$
 
 
-\begin{aligned}𝑇 & =\begin{aligned}2 & 4 & 0 \\ 4 & 10 & −1 \\ −6 & −12 & 1\end{aligned} & 𝑅_{2} & :=𝑅_{2}+(−2)𝑅_{1} \\ & ∼\begin{aligned}2 & 4 & 0 \\ 0 & 2 & −1 \\ −6 & −12 & 1\end{aligned} & 𝑅_{3} & :=𝑅_{3}+3𝑅_{1} \\ & ∼\begin{aligned}2 & 4 & 0 \\ 0 & 2 & −1 \\ 0 & 0 & 1\end{aligned} & & \end{aligned}
+\begin{aligned}𝑇 & =\begin{matrix}2 & 4 & 0 \\ 4 & 10 & −1 \\ −6 & −12 & 1\end{matrix} & 𝑅_{2} & :=𝑅_{2}+(−2)𝑅_{1} \\ & ∼\begin{matrix}2 & 4 & 0 \\ 0 & 2 & −1 \\ −6 & −12 & 1\end{matrix} & 𝑅_{3} & :=𝑅_{3}+3𝑅_{1} \\ & ∼\begin{matrix}2 & 4 & 0 \\ 0 & 2 & −1 \\ 0 & 0 & 1\end{matrix} & & \end{aligned}
 
 
 $$
@@ -195,7 +195,7 @@ The reduced matrix above has no non-pivot columns. Therefore,
 $$
 
 
-\textrm{nullity}(\mathbf{T})=\textrm{dim}(\textrm{Null}(T))=0.
+\text{nullity}(\mathbf{T})=\text{dim}(\text{Null}(T))=0.
 
 
 $$

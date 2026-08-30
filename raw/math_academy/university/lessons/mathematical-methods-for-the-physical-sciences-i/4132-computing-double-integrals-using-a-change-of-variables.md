@@ -150,7 +150,7 @@ The Jacobian determinant corresponding to $\mathbf T^{-1}$ is
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑢,𝑣)}{𝜕(𝑥,𝑦)} & =\begin{aligned}\frac{𝜕𝑢}{𝜕𝑥} & \frac{𝜕𝑢}{𝜕𝑦} \\ \frac{𝜕𝑣}{𝜕𝑥} & \frac{𝜕𝑣}{𝜕𝑦}\end{aligned} \\ & =\begin{aligned}4 & 2 \\ −1 & 1\end{aligned} \\ & =6.\end{aligned}
+\begin{aligned}\frac{𝜕(𝑢,𝑣)}{𝜕(𝑥,𝑦)} & =\begin{matrix}\frac{𝜕𝑢}{𝜕𝑥} & \frac{𝜕𝑢}{𝜕𝑦} \\ \frac{𝜕𝑣}{𝜕𝑥} & \frac{𝜕𝑣}{𝜕𝑦}\end{matrix} \\ & =\begin{matrix}4 & 2 \\ −1 & 1\end{matrix} \\ & =6.\end{aligned}
 
 
 $$
@@ -196,7 +196,7 @@ Performing the change of variables, we obtain
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}sin⁡(3(𝑥+𝑦))\,d𝑥\,d𝑦 & =\underset{Δ}{∬}sin⁡(3(\frac{𝑢−2𝑣}{6}+\frac{𝑢+4𝑣}{6}))\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)}d𝑢\,d𝑣 \\ & =\underset{Δ}{∬}sin⁡(3(\frac{2𝑢+2𝑣}{6}))\frac{1}{6}d𝑢\,d𝑣 \\ & =\frac{1}{6}∫_{30}^{}∫_{2−2}^{}sin\,(𝑢+𝑣)\,d𝑢\,d𝑣.\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}sin⁡(3(𝑥+𝑦))\,d𝑥\,d𝑦 & =\underset{Δ}{∬}sin⁡(3(\frac{𝑢−2𝑣}{6}+\frac{𝑢+4𝑣}{6}))\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)}d𝑢\,d𝑣 \\ & =\underset{Δ}{∬}sin⁡(3(\frac{2𝑢+2𝑣}{6}))\frac{1}{6}d𝑢\,d𝑣 \\ & =\frac{1}{6}∫_{30}∫_{2−2}sin\,(𝑢+𝑣)\,d𝑢\,d𝑣.\end{aligned}
 
 
 $$
@@ -296,7 +296,7 @@ The Jacobian determinant corresponding to $\mathbf T^{-1}$ is
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑢,𝑣)}{𝜕(𝑥,𝑦)} & =\begin{aligned}\frac{𝜕𝑢}{𝜕𝑥} & \frac{𝜕𝑢}{𝜕𝑦} \\ \frac{𝜕𝑣}{𝜕𝑥} & \frac{𝜕𝑣}{𝜕𝑦}\end{aligned} \\ & =\begin{aligned}−1 & 1 \\ 1 & 1\end{aligned} \\ & =−2.\end{aligned}
+\begin{aligned}\frac{𝜕(𝑢,𝑣)}{𝜕(𝑥,𝑦)} & =\begin{matrix}\frac{𝜕𝑢}{𝜕𝑥} & \frac{𝜕𝑢}{𝜕𝑦} \\ \frac{𝜕𝑣}{𝜕𝑥} & \frac{𝜕𝑣}{𝜕𝑦}\end{matrix} \\ & =\begin{matrix}−1 & 1 \\ 1 & 1\end{matrix} \\ & =−2.\end{aligned}
 
 
 $$
@@ -320,7 +320,7 @@ Performing the change of variables, we obtain
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}\frac{𝑦−𝑥}{𝑥+𝑦}\,d𝑥d𝑦 & =\underset{Δ}{∬}\frac{𝑢}{𝑣}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)}d𝑢d𝑣 \\ & =\underset{Δ}{∬}\frac{𝑢}{𝑣}\,−\frac{1}{2}d𝑢d𝑣 \\ & =\frac{1}{2}∫_{41}^{}[∫_{10}^{}\frac{𝑢}{𝑣}\,d𝑢]d𝑣 \\ & =\frac{1}{2}∫_{41}^{}\frac{1}{𝑣}[∫_{10}^{}𝑢\,d𝑢]d𝑣 \\ & =\frac{1}{2}∫_{41}^{}\frac{1}{𝑣}[\frac{𝑢^{2}}{2}]_{10}^{}\,d𝑣 \\ & =\frac{1}{4}∫_{41}^{}\frac{1}{𝑣}\,d𝑣 \\ & =\frac{1}{4}ln⁡|𝑣|\,_{41}^{} \\ & =\frac{1}{4}(ln⁡4−ln⁡1) \\ & =\frac{1}{2}\,ln⁡2.\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}\frac{𝑦−𝑥}{𝑥+𝑦}\,d𝑥d𝑦 & =\underset{Δ}{∬}\frac{𝑢}{𝑣}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)}d𝑢d𝑣 \\ & =\underset{Δ}{∬}\frac{𝑢}{𝑣}\,−\frac{1}{2}d𝑢d𝑣 \\ & =\frac{1}{2}∫_{41}[∫_{10}\frac{𝑢}{𝑣}\,d𝑢]d𝑣 \\ & =\frac{1}{2}∫_{41}\frac{1}{𝑣}[∫_{10}𝑢\,d𝑢]d𝑣 \\ & =\frac{1}{2}∫_{41}\frac{1}{𝑣}[\frac{𝑢^{2}}{2}]_{10}\,d𝑣 \\ & =\frac{1}{4}∫_{41}\frac{1}{𝑣}\,d𝑣 \\ & =\frac{1}{4}ln⁡|𝑣|\,_{41} \\ & =\frac{1}{4}(ln⁡4−ln⁡1) \\ & =\frac{1}{2}\,ln⁡2.\end{aligned}
 
 
 $$
@@ -432,7 +432,7 @@ The Jacobian determinant corresponding to $\mathbf T^{-1}$ is
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑢,𝑣)}{𝜕(𝑥,𝑦)} & =\begin{aligned}\frac{𝜕𝑢}{𝜕𝑥} & \frac{𝜕𝑢}{𝜕𝑦} \\ \frac{𝜕𝑣}{𝜕𝑥} & \frac{𝜕𝑣}{𝜕𝑦}\end{aligned} \\ & =\begin{aligned}2 & 1 \\ 0 & 1\end{aligned} \\ & =2.\end{aligned}
+\begin{aligned}\frac{𝜕(𝑢,𝑣)}{𝜕(𝑥,𝑦)} & =\begin{matrix}\frac{𝜕𝑢}{𝜕𝑥} & \frac{𝜕𝑢}{𝜕𝑦} \\ \frac{𝜕𝑣}{𝜕𝑥} & \frac{𝜕𝑣}{𝜕𝑦}\end{matrix} \\ & =\begin{matrix}2 & 1 \\ 0 & 1\end{matrix} \\ & =2.\end{aligned}
 
 
 $$
@@ -456,7 +456,7 @@ Performing the change of variables, we obtain
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}(2𝑥+𝑦)𝑦^{2}\,d𝑥d𝑦 & =\underset{Δ}{∬}𝑢𝑣^{2}\,\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)}\,d𝑢d𝑣 \\ & =\underset{Δ}{∬}𝑢𝑣^{2}\,\frac{1}{2}\,d𝑢d𝑣 \\ & =\frac{1}{2}∫_{30}^{}∫_{53}^{}𝑢𝑣^{2}\,d𝑢\,d𝑣 \\ & =\frac{1}{2}∫_{30}^{}𝑣^{2}\,d𝑣∫_{53}^{}𝑢\,d𝑢 \\ & =\frac{1}{2}⋅[\frac{1}{3}𝑣^{3}]_{30}^{}⋅[\frac{1}{2}𝑢^{2}]_{53}^{}\,d𝑣 \\ & =\frac{1}{2}⋅9⋅8 \\ & =36.\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}(2𝑥+𝑦)𝑦^{2}\,d𝑥d𝑦 & =\underset{Δ}{∬}𝑢𝑣^{2}\,\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)}\,d𝑢d𝑣 \\ & =\underset{Δ}{∬}𝑢𝑣^{2}\,\frac{1}{2}\,d𝑢d𝑣 \\ & =\frac{1}{2}∫_{30}∫_{53}𝑢𝑣^{2}\,d𝑢\,d𝑣 \\ & =\frac{1}{2}∫_{30}𝑣^{2}\,d𝑣∫_{53}𝑢\,d𝑢 \\ & =\frac{1}{2}⋅[\frac{1}{3}𝑣^{3}]_{30}⋅[\frac{1}{2}𝑢^{2}]_{53}\,d𝑣 \\ & =\frac{1}{2}⋅9⋅8 \\ & =36.\end{aligned}
 
 
 $$

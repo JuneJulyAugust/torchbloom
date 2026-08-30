@@ -23,7 +23,7 @@ $$
 
 
 
-\dfrac{\textrm{units of }y}{\textrm{units of }x} = \dfrac{\textrm{dollars}}{\textrm{liters}},
+\dfrac{\text{units of }y}{\text{units of }x} = \dfrac{\text{dollars}}{\text{liters}},
 
 
 
@@ -37,7 +37,7 @@ $$
 
 
 
-m = \dfrac{y_1-y_0}{x_1-x_0} = \dfrac{2 \textrm{ dollars}-0\textrm{ dollars}}{8\textrm{ liters}-0\textrm{ liters}} = \dfrac{2\textrm{ dollars}}{8\textrm{ liters}} = 0.25 \textrm{ dollars/liter}.
+m = \dfrac{y_1-y_0}{x_1-x_0} = \dfrac{2 \text{ dollars}-0\text{ dollars}}{8\text{ liters}-0\text{ liters}} = \dfrac{2\text{ dollars}}{8\text{ liters}} = 0.25 \text{ dollars/liter}.
 
 
 
@@ -63,7 +63,7 @@ $$
 
 
 
-\dfrac{\textrm{Points}}{\textrm{Correct answers}},
+\dfrac{\text{Points}}{\text{Correct answers}},
 
 
 
@@ -101,7 +101,7 @@ $$
 
 
 
-\dfrac{\textrm{liters}}{\textrm{hour}},
+\dfrac{\text{liters}}{\text{hour}},
 
 
 
@@ -143,7 +143,7 @@ $$
 
 
 
-\dfrac{\textrm{dollars}}{\textrm{hours}},
+\dfrac{\text{dollars}}{\text{hours}},
 
 
 
@@ -169,7 +169,7 @@ So, the cost of renting a tennis court is $ 10.00$ plus $ 15.00$ per hour.
 
 #### Question
 
-James is $20$ kilometers away from the gym. He jogs in the opposite direction to the gym at a constant speed of $12\,\textrm{km/h}.$ Sketch a graph that describes how far from the gym James will be after $x$ hours.
+James is $20$ kilometers away from the gym. He jogs in the opposite direction to the gym at a constant speed of $12\,\text{km/h}.$ Sketch a graph that describes how far from the gym James will be after $x$ hours.
 
 #### Explanation
 
@@ -189,7 +189,7 @@ where $y$ is the total distance, and $x$ represents the time in hours. We fill i
 
 - At the beginning (when $x=0$), James is $20$ kilometers away from the gym. So, our graph will pass through the point $(0,20).$ This means that the $y$-intercept is $b=20.$
 
-- Since James runs at a constant speed of $12\,\textrm{km/h}$, the slope must be $m=12.$
+- Since James runs at a constant speed of $12\,\text{km/h}$, the slope must be $m=12.$
 
 Substituting the values from above, we get the equation
 

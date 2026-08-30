@@ -30,7 +30,7 @@ We see that both $A$ and $B$ are $2\times 2$ matrices, so we can add them. The s
 $$
 
 
-\begin{aligned}𝐴+𝐵 & =[\begin{aligned}1 & 3 \\ 2 & 4\end{aligned}]+[\begin{aligned}1 & 0 \\ 0 & −1\end{aligned}] \\ & =[\begin{aligned}1+1 & 3+0 \\ 2+0 & 4+(−1)\end{aligned}] \\ & =[\begin{aligned}2 & 3 \\ 2 & 3\end{aligned}].\end{aligned}
+\begin{aligned}𝐴+𝐵 & =[\begin{matrix}1 & 3 \\ 2 & 4\end{matrix}]+[\begin{matrix}1 & 0 \\ 0 & −1\end{matrix}] \\ & =[\begin{matrix}1+1 & 3+0 \\ 2+0 & 4+(−1)\end{matrix}] \\ & =[\begin{matrix}2 & 3 \\ 2 & 3\end{matrix}].\end{aligned}
 
 
 $$
@@ -58,7 +58,7 @@ We add the corresponding entries:
 $$
 
 
-\begin{aligned}𝐴+𝐵 & =[\begin{aligned}1 & −5 \\ −2 & 3\end{aligned}]+[\begin{aligned}−10 & 2 \\ 2 & −4\end{aligned}] \\ & =[\begin{aligned}1−10 & −5+2 \\ −2+2 & 3−4\end{aligned}] \\ & =[\begin{aligned}−9 & −3 \\ 0 & −1\end{aligned}]\end{aligned}
+\begin{aligned}𝐴+𝐵 & =[\begin{matrix}1 & −5 \\ −2 & 3\end{matrix}]+[\begin{matrix}−10 & 2 \\ 2 & −4\end{matrix}] \\ & =[\begin{matrix}1−10 & −5+2 \\ −2+2 & 3−4\end{matrix}] \\ & =[\begin{matrix}−9 & −3 \\ 0 & −1\end{matrix}]\end{aligned}
 
 
 $$
@@ -84,7 +84,7 @@ We add the corresponding entries:
 $$
 
 
-\begin{aligned}𝐴+𝐵 & =[\begin{aligned}1 & 3 & 1 & 0 \\ 2 & 4 & −1 & 2\end{aligned}]+[\begin{aligned}−2 & −3 & 1 & 1 \\ 1 & −2 & 3 & 1\end{aligned}] \\ & =[\begin{aligned}1+(−2) & 3+(−3) & 1+1 & 0+1 \\ 2+1 & 4+(−2) & −1+3 & 2+1\end{aligned}] \\ & =[\begin{aligned}−1 & 0 & 2 & 1 \\ 3 & 2 & 2 & 3\end{aligned}]\end{aligned}
+\begin{aligned}𝐴+𝐵 & =[\begin{matrix}1 & 3 & 1 & 0 \\ 2 & 4 & −1 & 2\end{matrix}]+[\begin{matrix}−2 & −3 & 1 & 1 \\ 1 & −2 & 3 & 1\end{matrix}] \\ & =[\begin{matrix}1+(−2) & 3+(−3) & 1+1 & 0+1 \\ 2+1 & 4+(−2) & −1+3 & 2+1\end{matrix}] \\ & =[\begin{matrix}−1 & 0 & 2 & 1 \\ 3 & 2 & 2 & 3\end{matrix}]\end{aligned}
 
 
 $$
@@ -108,7 +108,7 @@ We see that both $A$ and $B$ are $2\times 2$ matrices, so, we can subtract them.
 $$
 
 
-\begin{aligned}𝐴−𝐵 & =[\begin{aligned}1 & 3 \\ 2 & 4\end{aligned}]−[\begin{aligned}1 & 0 \\ 0 & −1\end{aligned}] \\ & =[\begin{aligned}1−1 & 3−0 \\ 2−0 & 4−(−1)\end{aligned}] \\ & =[\begin{aligned}0 & 3 \\ 2 & 5\end{aligned}].\end{aligned}
+\begin{aligned}𝐴−𝐵 & =[\begin{matrix}1 & 3 \\ 2 & 4\end{matrix}]−[\begin{matrix}1 & 0 \\ 0 & −1\end{matrix}] \\ & =[\begin{matrix}1−1 & 3−0 \\ 2−0 & 4−(−1)\end{matrix}] \\ & =[\begin{matrix}0 & 3 \\ 2 & 5\end{matrix}].\end{aligned}
 
 
 $$
@@ -136,7 +136,7 @@ We subtract the corresponding entries:
 $$
 
 
-\begin{aligned}𝐴−𝐵 & =\begin{aligned}2 & −1 \\ −1 & 0 \\ 3 & 2\end{aligned}−\begin{aligned}0 & −1 \\ 2 & −1 \\ −1 & 3\end{aligned} \\ & =\begin{aligned}2−0 & −1−(−1) \\ −1−2 & 0−(−1) \\ 3−(−1) & 2−3\end{aligned} \\ & =\begin{aligned}2 & 0 \\ −3 & 1 \\ 4 & −1\end{aligned}\end{aligned}
+\begin{aligned}𝐴−𝐵 & =\begin{matrix}2 & −1 \\ −1 & 0 \\ 3 & 2\end{matrix}−\begin{matrix}0 & −1 \\ 2 & −1 \\ −1 & 3\end{matrix} \\ & =\begin{matrix}2−0 & −1−(−1) \\ −1−2 & 0−(−1) \\ 3−(−1) & 2−3\end{matrix} \\ & =\begin{matrix}2 & 0 \\ −3 & 1 \\ 4 & −1\end{matrix}\end{aligned}
 
 
 $$

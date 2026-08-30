@@ -54,7 +54,7 @@ $$
 
 
 
-|x+1| = x+1 \qquad \textrm{and}\qquad |x+1| = -(x+1)
+|x+1| = x+1 \qquad \text{and}\qquad |x+1| = -(x+1)
 
 
 

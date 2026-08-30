@@ -88,7 +88,7 @@ $$
 
 
 
-\begin{aligned}𝐚⋅𝐛 & =|\,𝐚\,|⋅|\,𝐛\,|⋅cos⁡𝜃 \\ & =4⋅3⋅cos⁡150^{∘} \\ & =4⋅3⋅(−\frac{\sqrt{√3}}{2}) \\ & =−6\sqrt{√3}\end{aligned}
+\begin{aligned}𝐚⋅𝐛 & =|\,𝐚\,|⋅|\,𝐛\,|⋅cos⁡𝜃 \\ & =4⋅3⋅cos⁡150^{∘} \\ & =4⋅3⋅(−\frac{\sqrt{3}}{2}) \\ & =−6\sqrt{3}\end{aligned}
 
 
 
@@ -178,7 +178,7 @@ $$
 
 
 
-\begin{aligned}𝐚⋅𝐛 & =|\,𝐚\,|⋅|\,𝐛\,|⋅cos⁡𝜃 \\ & =13\sqrt{√17}⋅146⋅cos⁡(\frac{𝜋}{2}) \\ & =13\sqrt{√17}⋅146⋅0 \\ & =0\end{aligned}
+\begin{aligned}𝐚⋅𝐛 & =|\,𝐚\,|⋅|\,𝐛\,|⋅cos⁡𝜃 \\ & =13\sqrt{17}⋅146⋅cos⁡(\frac{𝜋}{2}) \\ & =13\sqrt{17}⋅146⋅0 \\ & =0\end{aligned}
 
 
 

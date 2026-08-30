@@ -228,11 +228,11 @@ Using a benchmark of $\dfrac12,$ determine which of the following symbols could 
 
 Let's compare each fraction to $\dfrac12\mathbin{:}$
 
-- The fraction $\dfrac {\color{red}{2}} {\color{blue}{3}}$ is ** $\dfrac 1 2$ because ${\color{red}{2}}$ is ** ${\color{blue}{3}}\div 2 = 1\,\textrm{R}1 = 1\,\dfrac12.$
+- The fraction $\dfrac {\color{red}{2}} {\color{blue}{3}}$ is ** $\dfrac 1 2$ because ${\color{red}{2}}$ is ** ${\color{blue}{3}}\div 2 = 1\,\text{R}1 = 1\,\dfrac12.$
 
 ![Instructional graphic](../../../lesson-assets/grade-4/topic-3936/8588dbed4868e937.png)
 
-- The fraction $\dfrac{\color{red}{4}} {\color{blue}{9}}$ is ** $\dfrac 1 2$ because ${\color{red}{4}}$ is ** ${\color{blue}{9}}\div 2 = 4\,\textrm{R}1 = 4\,\dfrac{1}{2}.$
+- The fraction $\dfrac{\color{red}{4}} {\color{blue}{9}}$ is ** $\dfrac 1 2$ because ${\color{red}{4}}$ is ** ${\color{blue}{9}}\div 2 = 4\,\text{R}1 = 4\,\dfrac{1}{2}.$
 
 ![Instructional graphic](../../../lesson-assets/grade-4/topic-3936/2e9d668b6d3d6b3c.png)
 

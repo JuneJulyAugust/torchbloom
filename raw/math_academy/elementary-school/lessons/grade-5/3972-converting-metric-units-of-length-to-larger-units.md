@@ -36,7 +36,7 @@ Suppose we want to convert $420$ millimeters to centimeters. We start with the u
 
 $$
 
-1 \,\textrm{cm} = 10 \,\textrm{mm}
+1 \,\text{cm} = 10 \,\text{mm}
 
 $$
 
@@ -44,11 +44,11 @@ Since we are converting *from* millimeters *to* centimeters, we divide both side
 
 $$
 
-\dfrac{1}{10} \,\textrm{cm} = 1 \,\textrm{mm}
+\dfrac{1}{10} \,\text{cm} = 1 \,\text{mm}
 
 $$
 
-The right-hand side reads $1\,\textrm{mm},$ and we want to know how many centimeters are in $\color{blue}420$ millimeters. So, we multiply *both* sides of this equation by ${\color{blue}{420}}.$
+The right-hand side reads $1\,\text{mm},$ and we want to know how many centimeters are in $\color{blue}420$ millimeters. So, we multiply *both* sides of this equation by ${\color{blue}{420}}.$
 
 $$
 
@@ -62,7 +62,7 @@ Therefore, $420$ millimeters equals $42$ centimeters.
 
 #### Question
 
-What is $14\,\textrm{mm}$ in centimeters?
+What is $14\,\text{mm}$ in centimeters?
 
 #### Explanation
 
@@ -72,7 +72,7 @@ We start with the unit conversion between centimeters and millimeters:
 
 $$
 
-1 \,\textrm{cm} = 10 \,\textrm{mm}
+1 \,\text{cm} = 10 \,\text{mm}
 
 $$
 
@@ -80,7 +80,7 @@ Since we are converting from millimeters to centimeters, we divide both sides of
 
 $$
 
-\dfrac{1}{10} \,\textrm{cm} = 1 \,\textrm{mm}
+\dfrac{1}{10} \,\text{cm} = 1 \,\text{mm}
 
 $$
 
@@ -92,7 +92,7 @@ $$
 
 $$
 
-Therefore, $14\,\textrm{mm}$ equals $1.4\,\textrm{cm}.$
+Therefore, $14\,\text{mm}$ equals $1.4\,\text{cm}.$
 
 ### Example: Converting Centimeters to Meters
 
@@ -106,7 +106,7 @@ We start with the unit conversion between meters and centimeters:
 
 $$
 
-1 \,\textrm{m} = 100 \,\textrm{cm}
+1 \,\text{m} = 100 \,\text{cm}
 
 $$
 
@@ -114,7 +114,7 @@ Since we are converting from centimeters to meters, we divide both sides of the 
 
 $$
 
-\dfrac{1}{100} \,\textrm{m} = 1 \,\textrm{cm}
+\dfrac{1}{100} \,\text{m} = 1 \,\text{cm}
 
 $$
 
@@ -126,7 +126,7 @@ $$
 
 $$
 
-Therefore, $363\,\textrm{cm}$ equals $3.63\,\textrm{m}.$
+Therefore, $363\,\text{cm}$ equals $3.63\,\text{m}.$
 
 ### Example: Converting Meters to Kilometers
 
@@ -140,7 +140,7 @@ We start with the unit conversion between kilometers and meters:
 
 $$
 
-1 \,\textrm{km} = 1,000 \,\textrm{m}
+1 \,\text{km} = 1,000 \,\text{m}
 
 $$
 
@@ -148,7 +148,7 @@ Since we are converting from meters to kilometers, we divide both sides of the a
 
 $$
 
-\dfrac{1}{1,000} \,\textrm{km} = 1 \,\textrm{m}
+\dfrac{1}{1,000} \,\text{km} = 1 \,\text{m}
 
 $$
 

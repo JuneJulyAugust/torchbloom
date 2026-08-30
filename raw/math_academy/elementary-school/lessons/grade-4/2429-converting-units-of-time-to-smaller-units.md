@@ -44,7 +44,7 @@ We start with the unit conversion between weeks and days:
 
 $$
 
-1 \,\textrm{week} = 7 \,\textrm{days}
+1 \,\text{week} = 7 \,\text{days}
 
 $$
 
@@ -72,7 +72,7 @@ We start with the unit conversion between days and hours:
 
 $$
 
-1 \, \textrm{day} = 24 \, \textrm{hours}
+1 \, \text{day} = 24 \, \text{hours}
 
 $$
 
@@ -112,7 +112,7 @@ We start with the unit conversion between hours and minutes:
 
 $$
 
-1 \, \textrm{hour} = 60 \, \textrm{minutes}
+1 \, \text{hour} = 60 \, \text{minutes}
 
 $$
 
@@ -132,7 +132,7 @@ So, the estimated flight duration is $420$ minutes.
 
 #### Question
 
-Express $9 \, \textrm{min}$ in seconds.
+Express $9 \, \text{min}$ in seconds.
 
 #### Explanation
 
@@ -140,7 +140,7 @@ We start with the unit conversion between minutes and seconds:
 
 $$
 
-1 \, \textrm{min} = 60 \, \textrm{s}
+1 \, \text{min} = 60 \, \text{s}
 
 $$
 
@@ -152,4 +152,4 @@ $$
 
 $$
 
-Therefore, $9 \, \textrm{min}$ is equal to $540 \, \textrm{s}.$
+Therefore, $9 \, \text{min}$ is equal to $540 \, \text{s}.$

@@ -268,7 +268,7 @@ Notice that our equation can't be solved for either of the two variables using i
 $$
 
 
-\begin{aligned}\begin{aligned}7 & = & 2⋅3 & + & 1 \\ & ↙ & & ↙ & \\ 2 & = & 1⋅2 & + & 0\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}7 & = & 2⋅3 & + & 1 \\ & ↙ & & ↙ & \\ 2 & = & 1⋅2 & + & 0\end{matrix}\end{aligned}
 
 
 $$

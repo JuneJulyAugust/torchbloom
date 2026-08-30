@@ -38,7 +38,7 @@ As before, the least-squares solution can be found by solving the corresponding 
 $$
 
 
-\begin{aligned}𝐴^{𝑇}\,𝐴\overset{𝐱}{^} & =𝐴^{𝑇}𝐛.\end{aligned}
+\begin{aligned}𝐴^{𝑇}\,𝐴\hat{𝐱} & =𝐴^{𝑇}𝐛.\end{aligned}
 
 
 $$
@@ -58,7 +58,7 @@ To solve the normal equation in this case, we proceed as follows:
 $$
 
 
-\begin{aligned}𝐴^{𝑇}\,𝐴\overset{𝐱}{^} & =𝐴^{𝑇}𝐛 \\ [\begin{aligned}1 & −2 \\ −4 & 8\end{aligned}][\begin{aligned}1 & −4 \\ −2 & 8\end{aligned}][\begin{aligned}𝑥_{1} \\ 𝑥_{2}\end{aligned}] & =[\begin{aligned}1 & −2 \\ −4 & 8\end{aligned}][\begin{aligned}1 \\ 3\end{aligned}] \\ [\begin{aligned}5 & −20 \\ −20 & 80\end{aligned}][\begin{aligned}𝑥_{1} \\ 𝑥_{2}\end{aligned}] & =[\begin{aligned}−5 \\ 20\end{aligned}]\end{aligned}
+\begin{aligned}𝐴^{𝑇}\,𝐴\hat{𝐱} & =𝐴^{𝑇}𝐛 \\ [\begin{matrix}1 & −2 \\ −4 & 8\end{matrix}][\begin{matrix}1 & −4 \\ −2 & 8\end{matrix}][\begin{matrix}𝑥_{1} \\ 𝑥_{2}\end{matrix}] & =[\begin{matrix}1 & −2 \\ −4 & 8\end{matrix}][\begin{matrix}1 \\ 3\end{matrix}] \\ [\begin{matrix}5 & −20 \\ −20 & 80\end{matrix}][\begin{matrix}𝑥_{1} \\ 𝑥_{2}\end{matrix}] & =[\begin{matrix}−5 \\ 20\end{matrix}]\end{aligned}
 
 
 $$
@@ -108,7 +108,7 @@ The normal equation corresponding to $A\mathbf{x}=\mathbf{b}$ is given by
 $$
 
 
-\begin{aligned}𝐴^{𝑇}\,𝐴𝐱 & =𝐴^{𝑇}𝐛 \\ \begin{aligned}4 & 8 \\ −3 & −6 \\ −1 & −2\end{aligned}[\begin{aligned}4 & −3 & −1 \\ 8 & −6 & −2\end{aligned}]𝐱 & =\begin{aligned}4 & 8 \\ −3 & −6 \\ −1 & −2\end{aligned}[\begin{aligned}4 \\ 2\end{aligned}] \\ \begin{aligned}80 & −60 & −20 \\ −60 & 45 & 15 \\ −20 & 15 & 5\end{aligned}𝐱 & =\begin{aligned}32 \\ −24 \\ −8\end{aligned}.\end{aligned}
+\begin{aligned}𝐴^{𝑇}\,𝐴𝐱 & =𝐴^{𝑇}𝐛 \\ \begin{matrix}4 & 8 \\ −3 & −6 \\ −1 & −2\end{matrix}[\begin{matrix}4 & −3 & −1 \\ 8 & −6 & −2\end{matrix}]𝐱 & =\begin{matrix}4 & 8 \\ −3 & −6 \\ −1 & −2\end{matrix}[\begin{matrix}4 \\ 2\end{matrix}] \\ \begin{matrix}80 & −60 & −20 \\ −60 & 45 & 15 \\ −20 & 15 & 5\end{matrix}𝐱 & =\begin{matrix}32 \\ −24 \\ −8\end{matrix}.\end{aligned}
 
 
 $$
@@ -154,7 +154,7 @@ Notice that the columns of $A$ are linearly dependent. So first, let's write dow
 $$
 
 
-\begin{aligned}[\begin{aligned}1 & −1 & 2 \\ −3 & 3 & −6\end{aligned}]\begin{aligned}1 & −3 \\ −1 & 3 \\ 2 & −6\end{aligned}[\begin{aligned}𝑥_{1} \\ 𝑥_{2}\end{aligned}] & =[\begin{aligned}1 & −1 & 2 \\ −3 & 3 & −6\end{aligned}]\begin{aligned}1 \\ 3 \\ −1\end{aligned} \\ [\begin{aligned}6 & −18 \\ −18 & 54\end{aligned}][\begin{aligned}𝑥_{1} \\ 𝑥_{2}\end{aligned}] & =[\begin{aligned}−4 \\ 12\end{aligned}]\end{aligned}
+\begin{aligned}[\begin{matrix}1 & −1 & 2 \\ −3 & 3 & −6\end{matrix}]\begin{matrix}1 & −3 \\ −1 & 3 \\ 2 & −6\end{matrix}[\begin{matrix}𝑥_{1} \\ 𝑥_{2}\end{matrix}] & =[\begin{matrix}1 & −1 & 2 \\ −3 & 3 & −6\end{matrix}]\begin{matrix}1 \\ 3 \\ −1\end{matrix} \\ [\begin{matrix}6 & −18 \\ −18 & 54\end{matrix}][\begin{matrix}𝑥_{1} \\ 𝑥_{2}\end{matrix}] & =[\begin{matrix}−4 \\ 12\end{matrix}]\end{aligned}
 
 
 $$
@@ -164,7 +164,7 @@ Now, we solve the system corresponding to the above matrix equation using Gaussi
 $$
 
 
-\begin{aligned}𝑀 & =[\begin{aligned}6 & −18 & −4 \\ −18 & 54 & 12\end{aligned}] & 𝑅_{2}:=𝑅_{2}+3𝑅_{1} \\ & ∼[\begin{aligned}6 & −18 & −4 \\ 0 & 0 & 0\end{aligned}] & \end{aligned}
+\begin{aligned}𝑀 & =[\begin{matrix}6 & −18 & −4 \\ −18 & 54 & 12\end{matrix}] & 𝑅_{2}:=𝑅_{2}+3𝑅_{1} \\ & ∼[\begin{matrix}6 & −18 & −4 \\ 0 & 0 & 0\end{matrix}] & \end{aligned}
 
 
 $$
@@ -230,7 +230,7 @@ Notice that the columns of $A$ are linearly dependent. So first, let's write dow
 $$
 
 
-\begin{aligned}[\begin{aligned}−1 & 2 & −2 \\ 4 & −8 & 8\end{aligned}]\begin{aligned}−1 & 4 \\ 2 & −8 \\ −2 & 8\end{aligned}[\begin{aligned}𝑥_{1} \\ 𝑥_{2}\end{aligned}] & =[\begin{aligned}−1 & 2 & −2 \\ 4 & −8 & 8\end{aligned}]\begin{aligned}1 \\ 1 \\ −1\end{aligned} \\ [\begin{aligned}9 & −36 \\ −36 & 144\end{aligned}][\begin{aligned}𝑥_{1} \\ 𝑥_{2}\end{aligned}] & =[\begin{aligned}3 \\ −12\end{aligned}]\end{aligned}
+\begin{aligned}[\begin{matrix}−1 & 2 & −2 \\ 4 & −8 & 8\end{matrix}]\begin{matrix}−1 & 4 \\ 2 & −8 \\ −2 & 8\end{matrix}[\begin{matrix}𝑥_{1} \\ 𝑥_{2}\end{matrix}] & =[\begin{matrix}−1 & 2 & −2 \\ 4 & −8 & 8\end{matrix}]\begin{matrix}1 \\ 1 \\ −1\end{matrix} \\ [\begin{matrix}9 & −36 \\ −36 & 144\end{matrix}][\begin{matrix}𝑥_{1} \\ 𝑥_{2}\end{matrix}] & =[\begin{matrix}3 \\ −12\end{matrix}]\end{aligned}
 
 
 $$
@@ -240,7 +240,7 @@ Now, we solve the system corresponding to the final matrix equation using Gaussi
 $$
 
 
-\begin{aligned}𝑀 & =[\begin{aligned}9 & −36 & 3 \\ −36 & 144 & −12\end{aligned}] & & \begin{aligned}𝑅_{2}:=𝑅_{2}+4𝑅_{1}\end{aligned} \\ & ∼[\begin{aligned}9 & −36 & 3 \\ 0 & 0 & 0\end{aligned}] & & \end{aligned}
+\begin{aligned}𝑀 & =[\begin{matrix}9 & −36 & 3 \\ −36 & 144 & −12\end{matrix}] & & \begin{matrix}𝑅_{2}:=𝑅_{2}+4𝑅_{1}\end{matrix} \\ & ∼[\begin{matrix}9 & −36 & 3 \\ 0 & 0 & 0\end{matrix}] & & \end{aligned}
 
 
 $$

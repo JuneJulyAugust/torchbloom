@@ -26,9 +26,9 @@ $$
 
 where $\mathbf{r}_0$ is the position of the particle when $t=0$ (i.e., the **initial position**).
 
-Notice that the term $\mathbf u t$ on the right-hand has units of $\textrm{speed} \cdot \textrm{time},$ so we can think of this formula as being analogous to $\textrm{distance} = \textrm{speed} \cdot \textrm{time}.$
+Notice that the term $\mathbf u t$ on the right-hand has units of $\text{speed} \cdot \text{time},$ so we can think of this formula as being analogous to $\text{distance} = \text{speed} \cdot \text{time}.$
 
-Suppose a particle moves with a constant velocity of $(3\mathbf{i} + 2\mathbf{j}) \: \textrm{m/s},$ and its initial position is $(\mathbf{i} + 2\mathbf{j}) \: \textrm{m}.$ A sketch of this situation is shown below.
+Suppose a particle moves with a constant velocity of $(3\mathbf{i} + 2\mathbf{j}) \: \text{m/s},$ and its initial position is $(\mathbf{i} + 2\mathbf{j}) \: \text{m}.$ A sketch of this situation is shown below.
 
 ![Instructional graphic](../../../../lesson-assets/precalculus/topic-3767/960c0b963ea7831e.png)
 
@@ -44,7 +44,7 @@ $$
 
 $$
 
-Therefore, the position vector of the particle after $t = 2 \: \textrm{s}$ is
+Therefore, the position vector of the particle after $t = 2 \: \text{s}$ is
 
 $$
 
@@ -66,7 +66,7 @@ Notice the distance covered by the particle equals $2 |\mathbf{u}|$ because the 
 
 #### Question
 
-A particle starts moving from the point with position vector $(3\mathbf{j} - \mathbf{i}) \: \textrm{mi}$ with a constant velocity of $(\mathbf{i} - \mathbf{j}) \: \textrm{mi/h}.$ Find the position vector of the particle after $2$ hours.
+A particle starts moving from the point with position vector $(3\mathbf{j} - \mathbf{i}) \: \text{mi}$ with a constant velocity of $(\mathbf{i} - \mathbf{j}) \: \text{mi/h}.$ Find the position vector of the particle after $2$ hours.
 
 #### Explanation
 
@@ -96,7 +96,7 @@ $$
 
 $$
 
-Therefore, the position vector of the particle after $t = 2 \: \textrm{h}$ is
+Therefore, the position vector of the particle after $t = 2 \: \text{h}$ is
 
 $$
 
@@ -136,7 +136,7 @@ $$
 
 where $\mathbf{r}_0$ is the initial position of the particle and $\mathbf{u}$ is its initial velocity.
 
-For example, suppose a particle starts moving from the point with position vector $(2\mathbf{i} + 2\mathbf{j}) \: \textrm{m}$ with acceleration of $(-\mathbf{i} + \mathbf{j})\,\textrm{m/s}^2$ and an initial velocity of $(3\mathbf{i} +\mathbf{j}) \: \textrm{m/s}.$ What will be the position vector of the particle after $2$ seconds?
+For example, suppose a particle starts moving from the point with position vector $(2\mathbf{i} + 2\mathbf{j}) \: \text{m}$ with acceleration of $(-\mathbf{i} + \mathbf{j})\,\text{m/s}^2$ and an initial velocity of $(3\mathbf{i} +\mathbf{j}) \: \text{m/s}.$ What will be the position vector of the particle after $2$ seconds?
 
 ![Instructional graphic](../../../../lesson-assets/precalculus/topic-3767/f951312c8798e331.png)
 
@@ -152,7 +152,7 @@ $$
 
 $$
 
-Therefore, the position vector of the particle after $t = 2 \, \textrm{s}$ is
+Therefore, the position vector of the particle after $t = 2 \, \text{s}$ is
 
 $$
 
@@ -174,7 +174,7 @@ So, the particle is located at the point $(6,6)$ after $2$ seconds, as shown bel
 
 #### Question
 
-A particle starts moving from the point with position vector $(4\mathbf{i} - \mathbf{j})\,\textrm{cm}$ with an acceleration of $(\mathbf{i} + 3\mathbf{j}) \, \textrm{cm/min}^2$ and an initial velocity of $(\mathbf{i} + \mathbf{j}) \: \textrm{cm/min}.$ Find the position vector of the particle after $4$ minutes.
+A particle starts moving from the point with position vector $(4\mathbf{i} - \mathbf{j})\,\text{cm}$ with an acceleration of $(\mathbf{i} + 3\mathbf{j}) \, \text{cm/min}^2$ and an initial velocity of $(\mathbf{i} + \mathbf{j}) \: \text{cm/min}.$ Find the position vector of the particle after $4$ minutes.
 
 #### Explanation
 
@@ -204,7 +204,7 @@ $$
 
 $$
 
-Therefore, the position vector of the particle after $t = 4 \, \textrm{min}$ is
+Therefore, the position vector of the particle after $t = 4 \, \text{min}$ is
 
 $$
 
@@ -220,7 +220,7 @@ $$
 
 #### Question
 
-A particle moves from the origin with an acceleration of $(\mathbf{i} +\mathbf{j}) \, \textrm{cm/s}^2$ and an initial velocity of $(-\mathbf{i}-2\mathbf{j}) \: \textrm{cm/s}.$ Find the distance from the particle to the origin after $6$ seconds.
+A particle moves from the origin with an acceleration of $(\mathbf{i} +\mathbf{j}) \, \text{cm/s}^2$ and an initial velocity of $(-\mathbf{i}-2\mathbf{j}) \: \text{cm/s}.$ Find the distance from the particle to the origin after $6$ seconds.
 
 #### Explanation
 
@@ -250,7 +250,7 @@ $$
 
 $$
 
-Therefore, the position vector of the particle after $t = 6 \, \textrm{s}$ is
+Therefore, the position vector of the particle after $t = 6 \, \text{s}$ is
 
 $$
 
@@ -268,7 +268,7 @@ $$
 
 
 
-\begin{aligned}|𝐫| & =|12𝐢+6𝐣| \\ & =\sqrt{√12^{2}+6^{2}} \\ & =\sqrt{√144+36} \\ & =\sqrt{√180} \\ & =6\sqrt{√5}\,cm.\end{aligned}
+\begin{aligned}|𝐫| & =|12𝐢+6𝐣| \\ & =\sqrt{12^{2}+6^{2}} \\ & =\sqrt{144+36} \\ & =\sqrt{180} \\ & =6\sqrt{5}\,cm.\end{aligned}
 
 
 

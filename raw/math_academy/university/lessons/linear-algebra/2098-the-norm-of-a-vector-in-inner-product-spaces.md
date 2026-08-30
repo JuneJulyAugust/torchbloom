@@ -21,7 +21,7 @@ The **norm** of a vector $\mathbf v\in V$ in an inner product space is defined a
 $$
 
 
-\begin{aligned}‖𝐯‖=\sqrt{√⟨𝐯,𝐯⟩}.\end{aligned}
+\begin{aligned}‖𝐯‖=\sqrt{⟨𝐯,𝐯⟩}.\end{aligned}
 
 
 $$
@@ -63,7 +63,7 @@ Computing $\|\mathbf{v}\|$ using our definition, we get
 $$
 
 
-\begin{aligned}‖𝐯‖ & =\sqrt{√⟨𝐯,𝐯⟩} \\ & =\sqrt{√3⋅(1⋅1)+2⋅(2⋅2)+2⋅(1⋅1)} \\ & =\sqrt{√3+8+2} \\ & =\sqrt{√13}.\end{aligned}
+\begin{aligned}‖𝐯‖ & =\sqrt{⟨𝐯,𝐯⟩} \\ & =\sqrt{3⋅(1⋅1)+2⋅(2⋅2)+2⋅(1⋅1)} \\ & =\sqrt{3+8+2} \\ & =\sqrt{13}.\end{aligned}
 
 
 $$
@@ -81,7 +81,7 @@ The norm of a vector $\mathbf v$ with respect to an inner product $\langle \cdot
 $$
 
 
-\begin{aligned}‖𝐯‖=\sqrt{√⟨𝐯,𝐯⟩}.\end{aligned}
+\begin{aligned}‖𝐯‖=\sqrt{⟨𝐯,𝐯⟩}.\end{aligned}
 
 
 $$
@@ -91,7 +91,7 @@ Computing $\|\mathbf{v}\|$ using our definition, we get
 $$
 
 
-\begin{aligned}‖𝐯‖ & =\sqrt{√⟨𝐯,𝐯⟩} \\ & =\sqrt{√2⋅(3⋅3)+2⋅2+3⋅(1⋅1)} \\ & =\sqrt{√18+4+3} \\ & =\sqrt{√25} \\ & =5.\end{aligned}
+\begin{aligned}‖𝐯‖ & =\sqrt{⟨𝐯,𝐯⟩} \\ & =\sqrt{2⋅(3⋅3)+2⋅2+3⋅(1⋅1)} \\ & =\sqrt{18+4+3} \\ & =\sqrt{25} \\ & =5.\end{aligned}
 
 
 $$
@@ -119,7 +119,7 @@ The norm of a vector $p(t)$ with respect to an inner product $\langle \cdot, \cd
 $$
 
 
-\begin{aligned}‖𝑝(𝑡)‖=\sqrt{√⟨𝑝(𝑡),𝑝(𝑡)⟩}.\end{aligned}
+\begin{aligned}‖𝑝(𝑡)‖=\sqrt{⟨𝑝(𝑡),𝑝(𝑡)⟩}.\end{aligned}
 
 
 $$
@@ -139,7 +139,7 @@ Computing $\|p(t)\|$ using our definition, we get
 $$
 
 
-\begin{aligned}‖𝑝(𝑡)‖ & =\sqrt{√⟨𝑝(𝑡),𝑝(𝑡)⟩} \\ & =\sqrt{√𝑝(1)𝑝(1)+𝑝(2)𝑝(2)+𝑝(3)𝑝(3)} \\ & =\sqrt{√[𝑝(1)]^{2}+[𝑝(2)]^{2}+[𝑝(3)]^{2}} \\ & =\sqrt{√(0)^{2}+(−3)^{2}+(−8)^{2}} \\ & =\sqrt{√0+9+64} \\ & =\sqrt{√73}.\end{aligned}
+\begin{aligned}‖𝑝(𝑡)‖ & =\sqrt{⟨𝑝(𝑡),𝑝(𝑡)⟩} \\ & =\sqrt{𝑝(1)𝑝(1)+𝑝(2)𝑝(2)+𝑝(3)𝑝(3)} \\ & =\sqrt{[𝑝(1)]^{2}+[𝑝(2)]^{2}+[𝑝(3)]^{2}} \\ & =\sqrt{(0)^{2}+(−3)^{2}+(−8)^{2}} \\ & =\sqrt{0+9+64} \\ & =\sqrt{73}.\end{aligned}
 
 
 $$
@@ -153,7 +153,7 @@ Let $V=\mathcal{C}\left[0,1\right]$ be the vector space of all functions that ar
 $$
 
 
-\langle x(t),y(t) \rangle = \displaystyle\int_{0}^{1} x(t) y(t) \, \textrm{d}t.
+\langle x(t),y(t) \rangle = \displaystyle\int_{0}^{1} x(t) y(t) \, \text{d}t.
 
 
 $$
@@ -177,7 +177,7 @@ Computing the inner product using our definition, we get
 $$
 
 
-\begin{aligned}⟨𝑓(𝑡),𝑓(𝑡)⟩ & =∫_{10}^{}(𝑓(𝑡))^{2}\,d𝑡 \\ & =∫_{10}^{}(2𝑡−1)^{2}\,d𝑡 \\ & =∫_{10}^{}(4𝑡^{2}−4𝑡+1)\,d𝑡 \\ & =(\frac{4𝑡^{3}}{3}−2𝑡^{2}+𝑡)_{10}^{} \\ & =\frac{4}{3}−2+1 \\ & =\frac{1}{3}\end{aligned}
+\begin{aligned}⟨𝑓(𝑡),𝑓(𝑡)⟩ & =∫_{10}(𝑓(𝑡))^{2}\,d𝑡 \\ & =∫_{10}(2𝑡−1)^{2}\,d𝑡 \\ & =∫_{10}(4𝑡^{2}−4𝑡+1)\,d𝑡 \\ & =(\frac{4𝑡^{3}}{3}−2𝑡^{2}+𝑡)_{10} \\ & =\frac{4}{3}−2+1 \\ & =\frac{1}{3}\end{aligned}
 
 
 $$
@@ -223,7 +223,7 @@ The norm of a vector $\mathbf v$ with respect to an inner product $\langle \cdot
 $$
 
 
-\begin{aligned}‖𝐯‖=\sqrt{√⟨𝐯,𝐯⟩}.\end{aligned}
+\begin{aligned}‖𝐯‖=\sqrt{⟨𝐯,𝐯⟩}.\end{aligned}
 
 
 $$
@@ -243,7 +243,7 @@ Therefore,
 $$
 
 
-\begin{aligned}‖𝐯‖ & =\sqrt{√15}.\end{aligned}
+\begin{aligned}‖𝐯‖ & =\sqrt{15}.\end{aligned}
 
 
 $$
@@ -253,7 +253,7 @@ To normalize the vector $\mathbf v$, we divide $\mathbf v$ by its norm $\|\mathb
 $$
 
 
-\begin{aligned}𝐮 & =\frac{𝐯}{‖𝐯‖} \\ & =\frac{1}{\sqrt{√15}}\begin{aligned}2 \\ 1 \\ 2\end{aligned} \\ & =\frac{\sqrt{√15}}{15}\begin{aligned}2 \\ 1 \\ 2\end{aligned}\end{aligned}
+\begin{aligned}𝐮 & =\frac{𝐯}{‖𝐯‖} \\ & =\frac{1}{\sqrt{15}}\begin{matrix}2 \\ 1 \\ 2\end{matrix} \\ & =\frac{\sqrt{15}}{15}\begin{matrix}2 \\ 1 \\ 2\end{matrix}\end{aligned}
 
 
 $$
@@ -267,7 +267,7 @@ Let $V=\mathcal{C}\left[0,\pi\right]$ be the vector space of all functions that 
 $$
 
 
-\langle x(t),y(t) \rangle = \displaystyle\int_{0}^{\pi} x(t) y(t) \, \textrm{d}t.
+\langle x(t),y(t) \rangle = \displaystyle\int_{0}^{\pi} x(t) y(t) \, \text{d}t.
 
 
 $$
@@ -291,7 +291,7 @@ Computing the inner product using our definition, we get
 $$
 
 
-\begin{aligned}⟨𝑓(𝑡),𝑓(𝑡)⟩ & =∫_{𝜋0}^{}(3𝑡)^{2}\,d𝑡 \\ & =∫_{𝜋0}^{}9𝑡^{2}\,d𝑡 \\ & =3𝑡^{3}\,_{𝜋0}^{} \\ & =3𝜋^{3}\end{aligned}
+\begin{aligned}⟨𝑓(𝑡),𝑓(𝑡)⟩ & =∫_{𝜋0}(3𝑡)^{2}\,d𝑡 \\ & =∫_{𝜋0}9𝑡^{2}\,d𝑡 \\ & =3𝑡^{3}\,_{𝜋0} \\ & =3𝜋^{3}\end{aligned}
 
 
 $$
@@ -311,7 +311,7 @@ To normalize the vector $f(t),$ we divide $f(t)$ by its norm $\| f(t) \| \mathbi
 $$
 
 
-\begin{aligned}𝑢(𝑡) & =\frac{𝑓(𝑡)}{‖𝑓(𝑡)‖} \\ & =\frac{1}{𝜋\sqrt{√3𝜋}}⋅3𝑡 \\ & =\frac{𝑡\sqrt{√3}}{𝜋\sqrt{√𝜋}}\end{aligned}
+\begin{aligned}𝑢(𝑡) & =\frac{𝑓(𝑡)}{‖𝑓(𝑡)‖} \\ & =\frac{1}{𝜋\sqrt{3𝜋}}⋅3𝑡 \\ & =\frac{𝑡\sqrt{3}}{𝜋\sqrt{𝜋}}\end{aligned}
 
 
 $$

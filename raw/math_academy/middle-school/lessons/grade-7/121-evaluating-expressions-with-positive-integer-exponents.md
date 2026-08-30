@@ -177,7 +177,7 @@ $$
 
 
 
-\begin{aligned}(\overset{\overset{5÷(−2)^{2}}{}}{\frac{5}{4}})×(−\frac{4}{5}) & = \\ \frac{5}{4}×(−\frac{4}{5}) & = \\ −\frac{5}{4}×\frac{4}{5} & = \\ −\frac{5×4}{4×5} & = \\ −\frac{5×4}{4×5} & = \\ −1 & \end{aligned}
+\begin{aligned}(\overset{5÷(−2)^{2}}{}}{\frac{5}{4}})×(−\frac{4}{5}) & = \\ \frac{5}{4}×(−\frac{4}{5}) & = \\ −\frac{5}{4}×\frac{4}{5} & = \\ −\frac{5×4}{4×5} & = \\ −\frac{5×4}{4×5} & = \\ −1 & \end{aligned}
 
 
 

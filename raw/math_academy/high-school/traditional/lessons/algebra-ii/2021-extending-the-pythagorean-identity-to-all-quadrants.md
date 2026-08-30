@@ -38,7 +38,7 @@ $$
 
 
 
-\begin{aligned} x^2+y^2&=1\\\[5pt] \left(\dfrac{3}{7}\right)^2+y^2&=1\\\[5pt] \dfrac{9}{49}+y^2&=1\\\[5pt] y^2&= 1-\dfrac{9}{49}\\\[5pt] y^2&= \dfrac{40}{49}\\\[5pt] y&= \sqrt{\dfrac{40}{49}}\\\[5pt] y &= \pm \dfrac{2\sqrt{10}}{7} \end{aligned}
+\begin{aligned} x^2+y^2&=1\\[5pt] \left(\dfrac{3}{7}\right)^2+y^2&=1\\[5pt] \dfrac{9}{49}+y^2&=1\\[5pt] y^2&= 1-\dfrac{9}{49}\\[5pt] y^2&= \dfrac{40}{49}\\[5pt] y&= \sqrt{\dfrac{40}{49}}\\[5pt] y &= \pm \dfrac{2\sqrt{10}}{7} \end{aligned}
 
 
 
@@ -72,7 +72,7 @@ $$
 
 
 
-\begin{aligned}𝑥^{2}+𝑦^{2} & =1 \\ 𝑥^{2}+(\frac{\sqrt{√2}}{2})^{2} & =1 \\ 𝑥^{2}+\frac{1}{2} & =1 \\ 𝑥^{2} & =1−\frac{1}{2} \\ 𝑥^{2} & =\frac{1}{2} \\ 𝑥 & =±\sqrt{√\frac{1}{2}} \\ 𝑥 & =±\frac{\sqrt{√2}}{2}.\end{aligned}
+\begin{aligned}𝑥^{2}+𝑦^{2} & =1 \\ 𝑥^{2}+(\frac{\sqrt{2}}{2})^{2} & =1 \\ 𝑥^{2}+\frac{1}{2} & =1 \\ 𝑥^{2} & =1−\frac{1}{2} \\ 𝑥^{2} & =\frac{1}{2} \\ 𝑥 & =±\sqrt{\frac{1}{2}} \\ 𝑥 & =±\frac{\sqrt{2}}{2}.\end{aligned}
 
 
 
@@ -138,7 +138,7 @@ $$
 
 
 
-\begin{aligned}sin^{2}⁡𝜃+cos^{2}⁡𝜃 & =1 \\ cos^{2}⁡𝜃 & =1−sin^{2}⁡𝜃 \\ cos⁡𝜃 & =±\sqrt{√1−sin^{2}⁡𝜃}\end{aligned}
+\begin{aligned}sin^{2}⁡𝜃+cos^{2}⁡𝜃 & =1 \\ cos^{2}⁡𝜃 & =1−sin^{2}⁡𝜃 \\ cos⁡𝜃 & =±\sqrt{1−sin^{2}⁡𝜃}\end{aligned}
 
 
 
@@ -150,7 +150,7 @@ $$
 
 
 
-\begin{aligned}cos⁡𝜃 & =±\sqrt{√1−(−\frac{3}{4})^{2}} \\ & =±\sqrt{√1−\frac{9}{16}} \\ & =±\sqrt{√\frac{7}{16}} \\ & =±\frac{\sqrt{√7}}{4}.\end{aligned}
+\begin{aligned}cos⁡𝜃 & =±\sqrt{1−(−\frac{3}{4})^{2}} \\ & =±\sqrt{1−\frac{9}{16}} \\ & =±\sqrt{\frac{7}{16}} \\ & =±\frac{\sqrt{7}}{4}.\end{aligned}
 
 
 
@@ -174,7 +174,7 @@ $$
 
 
 
-\begin{aligned}sin^{2}⁡𝜃+cos^{2}⁡𝜃 & =1 \\ cos^{2}⁡𝜃 & =1−sin^{2}⁡𝜃 \\ cos⁡𝜃 & =±\sqrt{√1−sin^{2}⁡𝜃}\end{aligned}
+\begin{aligned}sin^{2}⁡𝜃+cos^{2}⁡𝜃 & =1 \\ cos^{2}⁡𝜃 & =1−sin^{2}⁡𝜃 \\ cos⁡𝜃 & =±\sqrt{1−sin^{2}⁡𝜃}\end{aligned}
 
 
 
@@ -186,7 +186,7 @@ $$
 
 
 
-\begin{aligned}cos⁡𝜃 & =±\sqrt{1−(−\frac{\sqrt{√3}}{2})^{2}} \\ & =±\sqrt{√1−\frac{3}{4}} \\ & =±\sqrt{√\frac{1}{4}} \\ & =±\frac{1}{2}.\end{aligned}
+\begin{aligned}cos⁡𝜃 & =±\sqrt{1−(−\frac{\sqrt{3}}{2})^{2}} \\ & =±\sqrt{1−\frac{3}{4}} \\ & =±\sqrt{\frac{1}{4}} \\ & =±\frac{1}{2}.\end{aligned}
 
 
 
@@ -234,7 +234,7 @@ $$
 
 
 
-\begin{aligned}sin^{2}⁡𝜃+cos^{2}⁡𝜃 & =1 \\ sin^{2}⁡𝜃 & =1−cos^{2}⁡𝜃 \\ sin⁡𝜃 & =±\sqrt{√1−cos^{2}⁡𝜃}\end{aligned}
+\begin{aligned}sin^{2}⁡𝜃+cos^{2}⁡𝜃 & =1 \\ sin^{2}⁡𝜃 & =1−cos^{2}⁡𝜃 \\ sin⁡𝜃 & =±\sqrt{1−cos^{2}⁡𝜃}\end{aligned}
 
 
 
@@ -246,7 +246,7 @@ $$
 
 
 
-\begin{aligned}sin⁡𝜃 & =±\sqrt{1−(−\frac{\sqrt{√3}}{2})^{2}} \\ & =±\sqrt{√1−\frac{3}{4}} \\ & =±\sqrt{√\frac{1}{4}} \\ & =±\frac{1}{2}.\end{aligned}
+\begin{aligned}sin⁡𝜃 & =±\sqrt{1−(−\frac{\sqrt{3}}{2})^{2}} \\ & =±\sqrt{1−\frac{3}{4}} \\ & =±\sqrt{\frac{1}{4}} \\ & =±\frac{1}{2}.\end{aligned}
 
 
 

@@ -111,7 +111,7 @@ First, we recall that if $S$ is an oriented surface with unit normal vector $\ma
 $$
 
 
-\iint\limits_S \mathbf{F} \cdot \textrm{d}\mathbf{S} = \iint\limits_S \mathbf{F} \cdot \mathbf{n} \,\textrm{d}S.
+\iint\limits_S \mathbf{F} \cdot \text{d}\mathbf{S} = \iint\limits_S \mathbf{F} \cdot \mathbf{n} \,\text{d}S.
 
 
 $$
@@ -121,7 +121,7 @@ Calculating the dot product, we have
 $$
 
 
-\begin{aligned}𝐅⋅𝐧 & =⟨𝑥𝑧+𝑦,\,𝑥^{2},\,2𝑦−𝑧^{2}⟩⋅\frac{1}{\sqrt{√5}}⟨2,\,0,\,−1⟩ \\ & =\frac{1}{\sqrt{√5}}⟨𝑥𝑧+𝑦,\,𝑥^{2},\,2𝑦−𝑧^{2}⟩⋅⟨2,\,0,\,−1⟩ \\ & =\frac{1}{\sqrt{√5}}((𝑥𝑧+𝑦)⋅2+𝑥^{2}⋅0+(2𝑦−𝑧^{2})⋅(−1)) \\ & =\frac{1}{\sqrt{√5}}(2𝑥𝑧+2𝑦−2𝑦+𝑧^{2}) \\ & =\frac{2𝑥𝑧+𝑧^{2}}{\sqrt{√5}}.\end{aligned}
+\begin{aligned}𝐅⋅𝐧 & =⟨𝑥𝑧+𝑦,\,𝑥^{2},\,2𝑦−𝑧^{2}⟩⋅\frac{1}{\sqrt{5}}⟨2,\,0,\,−1⟩ \\ & =\frac{1}{\sqrt{5}}⟨𝑥𝑧+𝑦,\,𝑥^{2},\,2𝑦−𝑧^{2}⟩⋅⟨2,\,0,\,−1⟩ \\ & =\frac{1}{\sqrt{5}}((𝑥𝑧+𝑦)⋅2+𝑥^{2}⋅0+(2𝑦−𝑧^{2})⋅(−1)) \\ & =\frac{1}{\sqrt{5}}(2𝑥𝑧+2𝑦−2𝑦+𝑧^{2}) \\ & =\frac{2𝑥𝑧+𝑧^{2}}{\sqrt{5}}.\end{aligned}
 
 
 $$
@@ -131,7 +131,7 @@ Therefore, the surface integral representing the flux of $\mathbf F$ across $S$ 
 $$
 
 
-\begin{aligned}\underset{𝑆}{∬}𝐅⋅d𝐒 & =\underset{𝑆}{∬}𝐅⋅𝐧\,d𝑆 \\ & =\underset{𝑆}{∬}\frac{2𝑥𝑧+𝑧^{2}}{\sqrt{√5}}\,d𝑆 \\ & =\frac{1}{\sqrt{√5}}\underset{𝑆}{∬}2𝑥𝑧+𝑧^{2}\,d𝑆\end{aligned}
+\begin{aligned}\underset{𝑆}{∬}𝐅⋅d𝐒 & =\underset{𝑆}{∬}𝐅⋅𝐧\,d𝑆 \\ & =\underset{𝑆}{∬}\frac{2𝑥𝑧+𝑧^{2}}{\sqrt{5}}\,d𝑆 \\ & =\frac{1}{\sqrt{5}}\underset{𝑆}{∬}2𝑥𝑧+𝑧^{2}\,d𝑆\end{aligned}
 
 
 $$
@@ -171,7 +171,7 @@ If $S$ is an oriented surface with unit normal vector $\mathbf n,$ and $\mathbf 
 $$
 
 
-\iint\limits_S \mathbf{F} \cdot \textrm{d}\mathbf{S} = \iint\limits_S \mathbf{F} \cdot \mathbf{n} \,\textrm{d}S.
+\iint\limits_S \mathbf{F} \cdot \text{d}\mathbf{S} = \iint\limits_S \mathbf{F} \cdot \mathbf{n} \,\text{d}S.
 
 
 $$
@@ -181,7 +181,7 @@ To compute the above dot product, we must normalize the vector $\widetilde{\math
 $$
 
 
-\begin{aligned}𝐧 & =\frac{\overset{𝐧}{˜}}{‖\overset{𝐧}{˜}‖} \\ & =\frac{⟨𝑧,\,−𝑦,\,−𝑥⟩}{\sqrt{√(𝑧)^{2}+(−𝑦)^{2}+(−𝑥)^{2}}} \\ & =\frac{⟨𝑧,\,−𝑦,\,−𝑥⟩}{\sqrt{√𝑧^{2}+𝑦^{2}+𝑥^{2}}} \\ & =\frac{⟨𝑧,\,−𝑦,\,−𝑥⟩}{\sqrt{√𝑥^{2}+𝑦^{2}+𝑧^{2}}}.\end{aligned}
+\begin{aligned}𝐧 & =\frac{\overset{𝐧}{˜}}{‖\overset{𝐧}{˜}‖} \\ & =\frac{⟨𝑧,\,−𝑦,\,−𝑥⟩}{\sqrt{(𝑧)^{2}+(−𝑦)^{2}+(−𝑥)^{2}}} \\ & =\frac{⟨𝑧,\,−𝑦,\,−𝑥⟩}{\sqrt{𝑧^{2}+𝑦^{2}+𝑥^{2}}} \\ & =\frac{⟨𝑧,\,−𝑦,\,−𝑥⟩}{\sqrt{𝑥^{2}+𝑦^{2}+𝑧^{2}}}.\end{aligned}
 
 
 $$
@@ -191,7 +191,7 @@ Calculating the dot product, we have
 $$
 
 
-\begin{aligned}𝐅⋅𝐧 & =⟨𝑥,\,2𝑧,\,𝑧−𝑦⟩⋅\frac{⟨𝑧,\,−𝑦,\,−𝑥⟩}{\sqrt{√𝑥^{2}+𝑦^{2}+𝑧^{2}}} \\ & =\frac{⟨𝑥,\,2𝑧,\,𝑧−𝑦⟩⋅⟨𝑧,\,−𝑦,\,−𝑥⟩}{\sqrt{√𝑥^{2}+𝑦^{2}+𝑧^{2}}} \\ & =\frac{𝑥𝑧−2𝑦𝑧−𝑥(𝑧−𝑦)}{\sqrt{√𝑥^{2}+𝑦^{2}+𝑧^{2}}} \\ & =\frac{𝑥𝑦−2𝑦𝑧}{\sqrt{√𝑥^{2}+𝑦^{2}+𝑧^{2}}}.\end{aligned}
+\begin{aligned}𝐅⋅𝐧 & =⟨𝑥,\,2𝑧,\,𝑧−𝑦⟩⋅\frac{⟨𝑧,\,−𝑦,\,−𝑥⟩}{\sqrt{𝑥^{2}+𝑦^{2}+𝑧^{2}}} \\ & =\frac{⟨𝑥,\,2𝑧,\,𝑧−𝑦⟩⋅⟨𝑧,\,−𝑦,\,−𝑥⟩}{\sqrt{𝑥^{2}+𝑦^{2}+𝑧^{2}}} \\ & =\frac{𝑥𝑧−2𝑦𝑧−𝑥(𝑧−𝑦)}{\sqrt{𝑥^{2}+𝑦^{2}+𝑧^{2}}} \\ & =\frac{𝑥𝑦−2𝑦𝑧}{\sqrt{𝑥^{2}+𝑦^{2}+𝑧^{2}}}.\end{aligned}
 
 
 $$
@@ -201,7 +201,7 @@ Therefore, the flux can be written as
 $$
 
 
-\begin{aligned}\underset{𝑆}{∬}𝐅⋅d𝐒 & =\underset{𝑆}{∬}𝐅⋅𝐧\,d𝑆 \\ & =\underset{𝑆}{∬}\,\frac{𝑥𝑦−2𝑦𝑧}{\sqrt{√𝑥^{2}+𝑦^{2}+𝑧^{2}}}\,d𝑆.\end{aligned}
+\begin{aligned}\underset{𝑆}{∬}𝐅⋅d𝐒 & =\underset{𝑆}{∬}𝐅⋅𝐧\,d𝑆 \\ & =\underset{𝑆}{∬}\,\frac{𝑥𝑦−2𝑦𝑧}{\sqrt{𝑥^{2}+𝑦^{2}+𝑧^{2}}}\,d𝑆.\end{aligned}
 
 
 $$
@@ -215,7 +215,7 @@ The magnitude of the fundamental vector product is given by
 $$
 
 
-\begin{aligned}||𝐫_{𝑥}×𝐫_{𝑦}|| & =\sqrt{√1+(\frac{𝜕𝑧}{𝜕𝑥})^{2}+(\frac{𝜕𝑧}{𝜕𝑦})^{2}} \\ & =\sqrt{√1+(\frac{𝜕𝑘}{𝜕𝑥})^{2}+(\frac{𝜕𝑘}{𝜕𝑦})^{2}} \\ & =\sqrt{√1+0^{2}+0^{2}} \\ & =\sqrt{√1} \\ & =1.\end{aligned}
+\begin{aligned}||𝐫_{𝑥}×𝐫_{𝑦}|| & =\sqrt{1+(\frac{𝜕𝑧}{𝜕𝑥})^{2}+(\frac{𝜕𝑧}{𝜕𝑦})^{2}} \\ & =\sqrt{1+(\frac{𝜕𝑘}{𝜕𝑥})^{2}+(\frac{𝜕𝑘}{𝜕𝑦})^{2}} \\ & =\sqrt{1+0^{2}+0^{2}} \\ & =\sqrt{1} \\ & =1.\end{aligned}
 
 
 $$
@@ -257,7 +257,7 @@ If $S$ is an oriented surface with unit normal vector $\mathbf n,$ and $\mathbf 
 $$
 
 
-\iint\limits_S \mathbf{F} \cdot \textrm{d}\mathbf{S} = \iint\limits_S \mathbf{F} \cdot \mathbf{n} \,\textrm{d}S.
+\iint\limits_S \mathbf{F} \cdot \text{d}\mathbf{S} = \iint\limits_S \mathbf{F} \cdot \mathbf{n} \,\text{d}S.
 
 
 $$
@@ -287,7 +287,7 @@ Therefore, we can calculate the flux of $\mathbf F$ across $S$ as follows:
 $$
 
 
-\begin{aligned}\underset{𝑆}{∬}𝐅⋅d𝐒 & =\underset{𝑆}{∬}𝐅⋅𝐧\,d𝑆 \\ & =\underset{𝑆}{∬}(−4𝑥𝑦)\,d𝑆 \\ & =\underset{𝐷}{∬}(−4𝑥𝑦)\,d𝐴 \\ & =∫_{10}^{}∫_{10}^{}(−4𝑥𝑦)\,d𝑥\,d𝑦 \\ & =−∫_{10}^{}2𝑦\,d𝑦∫_{10}^{}2𝑥\,d𝑥 \\ & =−[𝑦^{2}]_{10}^{}⋅[𝑥^{2}]_{10}^{} \\ & =−1\end{aligned}
+\begin{aligned}\underset{𝑆}{∬}𝐅⋅d𝐒 & =\underset{𝑆}{∬}𝐅⋅𝐧\,d𝑆 \\ & =\underset{𝑆}{∬}(−4𝑥𝑦)\,d𝑆 \\ & =\underset{𝐷}{∬}(−4𝑥𝑦)\,d𝐴 \\ & =∫_{10}∫_{10}(−4𝑥𝑦)\,d𝑥\,d𝑦 \\ & =−∫_{10}2𝑦\,d𝑦∫_{10}2𝑥\,d𝑥 \\ & =−[𝑦^{2}]_{10}⋅[𝑥^{2}]_{10} \\ & =−1\end{aligned}
 
 
 $$
@@ -296,14 +296,14 @@ $$
 
 If we wish to find the flux through a tilted plane, we should first calculate the unit normal vector to this plane.
 
-For example, consider the vector field $\mathbf F(x,y,z) = \langle x,\: 1-x+y,\: 2y+8\rangle$ and a finite region $S$ of the plane $z=2x+2y-1$ such that $\textrm{Area}(S) = 2.$ Assume that we need to find the flux of $\mathbf F$ through $S$ with respect to the upward-pointing unit normal vector $\mathbf n.$
+For example, consider the vector field $\mathbf F(x,y,z) = \langle x,\: 1-x+y,\: 2y+8\rangle$ and a finite region $S$ of the plane $z=2x+2y-1$ such that $\text{Area}(S) = 2.$ Assume that we need to find the flux of $\mathbf F$ through $S$ with respect to the upward-pointing unit normal vector $\mathbf n.$
 
 If $S$ is an oriented surface with unit normal vector $\mathbf n,$ and $\mathbf F$ is a continuous vector field, then the flux of $\mathbf F$ across $S$ measured with respect to $\mathbf n$ is given by
 
 $$
 
 
-\iint\limits_S \mathbf{F} \cdot \textrm{d}\mathbf{S} = \iint\limits_S \mathbf{F} \cdot \mathbf{n} \,\textrm{d}S.
+\iint\limits_S \mathbf{F} \cdot \text{d}\mathbf{S} = \iint\limits_S \mathbf{F} \cdot \mathbf{n} \,\text{d}S.
 
 
 $$
@@ -313,7 +313,7 @@ Notice that our surface $z = 2x+2y-1$ can be written using the dot product as
 $$
 
 
-\langle x,\: y,\: z\rangle \cdot \underbrace{\langle -2,\: -2, \: 1\rangle}_{\widetilde{\mathbf n}} = -1, \quad \textrm{or}\quad \langle x,\: y,\: z\rangle \cdot \underbrace{\langle 2,\: 2, \: -1\rangle}_{-\widetilde{\mathbf n}}= 1.
+\langle x,\: y,\: z\rangle \cdot \underbrace{\langle -2,\: -2, \: 1\rangle}_{\widetilde{\mathbf n}} = -1, \quad \text{or}\quad \langle x,\: y,\: z\rangle \cdot \underbrace{\langle 2,\: 2, \: -1\rangle}_{-\widetilde{\mathbf n}}= 1.
 
 
 $$
@@ -333,7 +333,7 @@ Normalizing this vector, we get
 $$
 
 
-\begin{aligned}𝐧 & =\frac{\overset{𝐧}{˜}}{‖\overset{𝐧}{˜}‖} \\ & =\frac{⟨−2,\,−2,\,1⟩}{\sqrt{√(−2)^{2}+(−2)^{2}+1^{2}}} \\ & =\frac{1}{3}⟨−2,\,−2,\,1⟩.\end{aligned}
+\begin{aligned}𝐧 & =\frac{\overset{𝐧}{˜}}{‖\overset{𝐧}{˜}‖} \\ & =\frac{⟨−2,\,−2,\,1⟩}{\sqrt{(−2)^{2}+(−2)^{2}+1^{2}}} \\ & =\frac{1}{3}⟨−2,\,−2,\,1⟩.\end{aligned}
 
 
 $$
@@ -373,7 +373,7 @@ If $S$ is an oriented surface with unit normal vector $\mathbf n,$ and $\mathbf 
 $$
 
 
-\iint\limits_S \mathbf{F} \cdot \textrm{d}\mathbf{S} = \iint\limits_S \mathbf{F} \cdot \mathbf{n} \,\textrm{d}S.
+\iint\limits_S \mathbf{F} \cdot \text{d}\mathbf{S} = \iint\limits_S \mathbf{F} \cdot \mathbf{n} \,\text{d}S.
 
 
 $$
@@ -383,7 +383,7 @@ Notice that our surface $z = 2x+2y$ can be written using the dot product as
 $$
 
 
-\langle x,\: y,\: z\rangle \cdot \underbrace{\langle -2,\: -2, \: 1\rangle}_{\widetilde{\mathbf n}} = 0, \quad \textrm{or}\quad \langle x,\: y,\: z\rangle \cdot \underbrace{\langle 2,\: 2, \: -1\rangle}_{-\widetilde{\mathbf n}}= 0.
+\langle x,\: y,\: z\rangle \cdot \underbrace{\langle -2,\: -2, \: 1\rangle}_{\widetilde{\mathbf n}} = 0, \quad \text{or}\quad \langle x,\: y,\: z\rangle \cdot \underbrace{\langle 2,\: 2, \: -1\rangle}_{-\widetilde{\mathbf n}}= 0.
 
 
 $$
@@ -403,7 +403,7 @@ Normalizing this vector, we get
 $$
 
 
-\begin{aligned}𝐧 & =\frac{\overset{𝐧}{˜}}{‖\overset{𝐧}{˜}‖} \\ & =\frac{⟨−2,\,−2,\,1⟩}{\sqrt{√(−2)^{2}+(−2)^{2}+1^{2}}} \\ & =\frac{1}{3}⟨−2,\,−2,\,1⟩.\end{aligned}
+\begin{aligned}𝐧 & =\frac{\overset{𝐧}{˜}}{‖\overset{𝐧}{˜}‖} \\ & =\frac{⟨−2,\,−2,\,1⟩}{\sqrt{(−2)^{2}+(−2)^{2}+1^{2}}} \\ & =\frac{1}{3}⟨−2,\,−2,\,1⟩.\end{aligned}
 
 
 $$
@@ -423,7 +423,7 @@ Therefore, we can calculate the flux of $\mathbf F$ across $S$ as follows:
 $$
 
 
-\begin{aligned}\underset{𝑆}{∬}𝐅⋅d𝐒 & =\underset{𝑆}{∬}𝐅⋅𝐧\,d𝑆 \\ & =\underset{𝑆}{∬}\frac{2}{3}𝑥\,d𝑆 \\ & =\underset{𝐷}{∬}\frac{2}{3}𝑥⋅||𝐫_{𝑥}×𝐫_{𝑦}||\,d𝐴 \\ & =\underset{𝐷}{∬}\frac{2}{3}𝑥⋅3\,d𝐴 \\ & =\underset{𝐷}{∬}\frac{2}{3}𝑥⋅3\,d𝐴 \\ & =\underset{𝐷}{∬}2𝑥\,d𝐴 \\ & =∫_{10}^{}∫_{20}^{}2𝑥\,d𝑥\,d𝑦 \\ & =∫_{10}^{}\,d𝑦⋅∫_{20}^{}2𝑥\,d𝑥 \\ & =[𝑦]_{10}^{}⋅[𝑥^{2}]_{20}^{} \\ & =1⋅4 \\ & =4\end{aligned}
+\begin{aligned}\underset{𝑆}{∬}𝐅⋅d𝐒 & =\underset{𝑆}{∬}𝐅⋅𝐧\,d𝑆 \\ & =\underset{𝑆}{∬}\frac{2}{3}𝑥\,d𝑆 \\ & =\underset{𝐷}{∬}\frac{2}{3}𝑥⋅||𝐫_{𝑥}×𝐫_{𝑦}||\,d𝐴 \\ & =\underset{𝐷}{∬}\frac{2}{3}𝑥⋅3\,d𝐴 \\ & =\underset{𝐷}{∬}\frac{2}{3}𝑥⋅3\,d𝐴 \\ & =\underset{𝐷}{∬}2𝑥\,d𝐴 \\ & =∫_{10}∫_{20}2𝑥\,d𝑥\,d𝑦 \\ & =∫_{10}\,d𝑦⋅∫_{20}2𝑥\,d𝑥 \\ & =[𝑦]_{10}⋅[𝑥^{2}]_{20} \\ & =1⋅4 \\ & =4\end{aligned}
 
 
 $$

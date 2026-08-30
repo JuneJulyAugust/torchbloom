@@ -16,7 +16,7 @@ Given a matrix $A$ with eigenvalue $\lambda,$ a generalized eigenvector of rank 
 $$
 
 
-(A - \lambda I)^k \mathbf{v} = \mathbf{0} \quad \textrm{and} \quad (A - \lambda I)^{k-1} \mathbf{v} \neq \mathbf{0}.
+(A - \lambda I)^k \mathbf{v} = \mathbf{0} \quad \text{and} \quad (A - \lambda I)^{k-1} \mathbf{v} \neq \mathbf{0}.
 
 
 $$
@@ -40,7 +40,7 @@ To find a generalized eigenvector of rank $2$ corresponding to $\lambda = -3,$ w
 $$
 
 
-(A + 3I)^2 \mathbf{v} = \mathbf{0} \quad \textrm{and} \quad (A +3I)^{} \mathbf{v} \neq \mathbf{0}.
+(A + 3I)^2 \mathbf{v} = \mathbf{0} \quad \text{and} \quad (A +3I)^{} \mathbf{v} \neq \mathbf{0}.
 
 
 $$
@@ -88,7 +88,7 @@ Given a matrix $A$ with eigenvalue $\lambda,$ a generalized eigenvector of rank 
 $$
 
 
-(A - \lambda I)^k \mathbf{v} = \mathbf{0} \quad \textrm{and} \quad (A - \lambda I)^{k-1} \mathbf{v} \neq \mathbf{0}.
+(A - \lambda I)^k \mathbf{v} = \mathbf{0} \quad \text{and} \quad (A - \lambda I)^{k-1} \mathbf{v} \neq \mathbf{0}.
 
 
 $$
@@ -98,7 +98,7 @@ To find a generalized eigenvector of rank $2$ corresponding to $\lambda = 4,$ we
 $$
 
 
-(A -4I)^2 \mathbf{v} = \mathbf{0} \quad \textrm{and} \quad (A -4I) \mathbf{v} \neq \mathbf{0}.
+(A -4I)^2 \mathbf{v} = \mathbf{0} \quad \text{and} \quad (A -4I) \mathbf{v} \neq \mathbf{0}.
 
 
 $$
@@ -134,7 +134,7 @@ Given that $\lambda = 3$ is an eigenvalue of $A,$ and that this eigenvalue has c
 $$
 
 
-\begin{aligned}(𝐴−3𝐼)^{2}=\begin{aligned}0 & 0 & 0 \\ 0 & 4 & 0 \\ 0 & 0 & 0\end{aligned}\end{aligned}
+\begin{aligned}(𝐴−3𝐼)^{2}=\begin{matrix}0 & 0 & 0 \\ 0 & 4 & 0 \\ 0 & 0 & 0\end{matrix}\end{aligned}
 
 
 $$
@@ -146,7 +146,7 @@ Given a matrix $A$ with eigenvalue $\lambda,$ a generalized eigenvector of rank 
 $$
 
 
-(A - \lambda I)^k \mathbf{v} = \mathbf{0} \quad \textrm{and} \quad (A - \lambda I)^{k-1} \mathbf{v} \neq \mathbf{0}.
+(A - \lambda I)^k \mathbf{v} = \mathbf{0} \quad \text{and} \quad (A - \lambda I)^{k-1} \mathbf{v} \neq \mathbf{0}.
 
 
 $$
@@ -156,7 +156,7 @@ To find a generalized eigenvector of rank $2$ corresponding to $\lambda = 3,$ we
 $$
 
 
-(A -3I)^2 \mathbf{v} = \mathbf{0} \quad \textrm{and} \quad (A -3I) \mathbf{v} \neq \mathbf{0}.
+(A -3I)^2 \mathbf{v} = \mathbf{0} \quad \text{and} \quad (A -3I) \mathbf{v} \neq \mathbf{0}.
 
 
 $$
@@ -192,7 +192,7 @@ Given that $\lambda = 3$ is an eigenvalue of $A,$ and that this eigenvalue has c
 $$
 
 
-\begin{aligned}(𝐴−3𝐼)^{2}=\begin{aligned}0 & 0 & 6 & 4 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & −2 \\ 0 & 0 & 0 & 1\end{aligned},\,(𝐴−3𝐼)^{3}=\begin{aligned}0 & 0 & 0 & 8 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 2 \\ 0 & 0 & 0 & −1\end{aligned}\end{aligned}
+\begin{aligned}(𝐴−3𝐼)^{2}=\begin{matrix}0 & 0 & 6 & 4 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & −2 \\ 0 & 0 & 0 & 1\end{matrix},\,(𝐴−3𝐼)^{3}=\begin{matrix}0 & 0 & 0 & 8 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 2 \\ 0 & 0 & 0 & −1\end{matrix}\end{aligned}
 
 
 $$
@@ -204,7 +204,7 @@ Given a matrix $A$ with eigenvalue $\lambda,$ a generalized eigenvector of rank 
 $$
 
 
-(A - \lambda I)^k \mathbf{v} = \mathbf{0} \quad \textrm{and} \quad (A - \lambda I)^{k-1} \mathbf{v} \neq \mathbf{0}.
+(A - \lambda I)^k \mathbf{v} = \mathbf{0} \quad \text{and} \quad (A - \lambda I)^{k-1} \mathbf{v} \neq \mathbf{0}.
 
 
 $$
@@ -214,7 +214,7 @@ To find a generalized eigenvector of rank $3$ corresponding to $\lambda = 3,$ we
 $$
 
 
-(A - 3I)^3 \mathbf{v} = \mathbf{0} \quad \textrm{and} \quad (A - 3I)^2 \mathbf{v} \neq \mathbf{0}.
+(A - 3I)^3 \mathbf{v} = \mathbf{0} \quad \text{and} \quad (A - 3I)^2 \mathbf{v} \neq \mathbf{0}.
 
 
 $$

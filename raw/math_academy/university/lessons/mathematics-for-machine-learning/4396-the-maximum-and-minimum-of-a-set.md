@@ -50,7 +50,7 @@ Note that $-\sqrt{5} \approx -2.236.$ Therefore:
 $$
 
 
-\begin{aligned}min(𝐴) & =min{2,\,−\sqrt{√5},\,3,\,−1}=−\sqrt{√5} \\ max(𝐴) & =max{2,\,−\sqrt{√5},\,3,\,−1}=3\end{aligned}
+\begin{aligned}min(𝐴) & =min{2,\,−\sqrt{5},\,3,\,−1}=−\sqrt{5} \\ max(𝐴) & =max{2,\,−\sqrt{5},\,3,\,−1}=3\end{aligned}
 
 
 $$

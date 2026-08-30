@@ -52,7 +52,7 @@ Substituting these values into the formula above and using the power of the prod
 $$
 
 
-\begin{aligned}𝑋𝑍^{2} & =(10\sqrt{√31})^{2}+(24\sqrt{√31})^{2} \\ & =10^{2}⋅(\sqrt{√31})^{2}+24^{2}⋅(\sqrt{√31})^{2} \\ & =100⋅31+576⋅31\end{aligned}
+\begin{aligned}𝑋𝑍^{2} & =(10\sqrt{31})^{2}+(24\sqrt{31})^{2} \\ & =10^{2}⋅(\sqrt{31})^{2}+24^{2}⋅(\sqrt{31})^{2} \\ & =100⋅31+576⋅31\end{aligned}
 
 
 $$
@@ -82,7 +82,7 @@ Finally, taking the square root and using the product rule for radicals, we get
 $$
 
 
-\begin{aligned}𝑋𝑍 & =\sqrt{√676⋅31} \\ & =\sqrt{√676}⋅\sqrt{√31} \\ & =26\sqrt{√31}.\end{aligned}
+\begin{aligned}𝑋𝑍 & =\sqrt{676⋅31} \\ & =\sqrt{676}⋅\sqrt{31} \\ & =26\sqrt{31}.\end{aligned}
 
 
 $$
@@ -94,7 +94,7 @@ In our example above, this would give
 $$
 
 
-\begin{aligned}𝑋𝑍^{2} & =(10\sqrt{√31})^{2}+(24\sqrt{√31})^{2} \\ & =10^{2}⋅(\sqrt{√31})^{2}+24^{2}⋅(\sqrt{√31})^{2} \\ & =100⋅31+576⋅31 \\ & =3,100+17,856 \\ & =20,956.\end{aligned}
+\begin{aligned}𝑋𝑍^{2} & =(10\sqrt{31})^{2}+(24\sqrt{31})^{2} \\ & =10^{2}⋅(\sqrt{31})^{2}+24^{2}⋅(\sqrt{31})^{2} \\ & =100⋅31+576⋅31 \\ & =3,100+17,856 \\ & =20,956.\end{aligned}
 
 
 $$
@@ -138,7 +138,7 @@ We are given $XZ = 5\sqrt{38}$ and $XY = 3\sqrt{38}.$ Substituting these values 
 $$
 
 
-\begin{aligned}𝑋𝑍^{2} & =𝑋𝑌^{2}+𝑌𝑍^{2} \\ 𝑌𝑍^{2} & =𝑋𝑍^{2}−𝑋𝑌^{2} \\ & =(5\sqrt{√38})^{2}−(3\sqrt{√38})^{2} \\ & =25⋅38−9⋅38 \\ & =(25−9)⋅38 \\ & =16⋅38.\end{aligned}
+\begin{aligned}𝑋𝑍^{2} & =𝑋𝑌^{2}+𝑌𝑍^{2} \\ 𝑌𝑍^{2} & =𝑋𝑍^{2}−𝑋𝑌^{2} \\ & =(5\sqrt{38})^{2}−(3\sqrt{38})^{2} \\ & =25⋅38−9⋅38 \\ & =(25−9)⋅38 \\ & =16⋅38.\end{aligned}
 
 
 $$
@@ -148,7 +148,7 @@ Finally, taking the square root and using the product rule for radicals, we get
 $$
 
 
-\begin{aligned}𝑌𝑍 & =\sqrt{√16⋅38} \\ & =\sqrt{√16}⋅\sqrt{√38} \\ & =4\sqrt{√38}.\end{aligned}
+\begin{aligned}𝑌𝑍 & =\sqrt{16⋅38} \\ & =\sqrt{16}⋅\sqrt{38} \\ & =4\sqrt{38}.\end{aligned}
 
 
 $$
@@ -157,7 +157,7 @@ $$
 
 #### Question
 
-An isosceles right triangle has a side of length $10\sqrt{14}\,\textrm{mm}$ and another side of length $\sqrt{700}\,\textrm{mm}.$ In square millimeters, what is the area of the triangle?
+An isosceles right triangle has a side of length $10\sqrt{14}\,\text{mm}$ and another side of length $\sqrt{700}\,\text{mm}.$ In square millimeters, what is the area of the triangle?
 
 #### Explanation
 
@@ -166,7 +166,7 @@ To determine which side is the hypotenuse (i.e., the longest side), we rewrite t
 $$
 
 
-\begin{aligned}10\sqrt{√14} & =\sqrt{√100}⋅\sqrt{√14} \\ & =\sqrt{√100⋅14} \\ & =\sqrt{√1400}\end{aligned}
+\begin{aligned}10\sqrt{14} & =\sqrt{100}⋅\sqrt{14} \\ & =\sqrt{100⋅14} \\ & =\sqrt{1400}\end{aligned}
 
 
 $$
@@ -198,12 +198,12 @@ where $s$ is a leg. Substituting the values, we obtain
 $$
 
 
-\begin{aligned}A & =\frac{1}{2}⋅(\sqrt{√700})^{2} \\ & =\frac{1}{2}⋅700 \\ & =\frac{700}{2} \\ & =350.\end{aligned}
+\begin{aligned}A & =\frac{1}{2}⋅(\sqrt{700})^{2} \\ & =\frac{1}{2}⋅700 \\ & =\frac{700}{2} \\ & =350.\end{aligned}
 
 
 $$
 
-Therefore, the area of the triangle is ${350}\,\textrm{mm}^2.$
+Therefore, the area of the triangle is ${350}\,\text{mm}^2.$
 
 ### Example: Finding Areas of a Right Triangles by Comparing Radicals
 
@@ -218,7 +218,7 @@ To determine which side is the hypotenuse (i.e., the longest side), we rewrite t
 $$
 
 
-\begin{aligned}\frac{3\sqrt{√14}}{\sqrt{√2}} & =\frac{\sqrt{√9}⋅\sqrt{√14}}{\sqrt{√2}} \\ & =\sqrt{√\frac{9⋅14}{2}} \\ & =\sqrt{√63} \\ \frac{\sqrt{√84}}{2} & =\frac{\sqrt{√84}}{\sqrt{√4}} \\ & =\sqrt{√\frac{84}{4}} \\ & =\sqrt{√21}\end{aligned}
+\begin{aligned}\frac{3\sqrt{14}}{\sqrt{2}} & =\frac{\sqrt{9}⋅\sqrt{14}}{\sqrt{2}} \\ & =\sqrt{\frac{9⋅14}{2}} \\ & =\sqrt{63} \\ \frac{\sqrt{84}}{2} & =\frac{\sqrt{84}}{\sqrt{4}} \\ & =\sqrt{\frac{84}{4}} \\ & =\sqrt{21}\end{aligned}
 
 
 $$
@@ -250,7 +250,7 @@ where $a$ and $b$ are the legs. Substituting the values, we obtain
 $$
 
 
-\begin{aligned}A & =\frac{1}{2}⋅\sqrt{√21}⋅\sqrt{√42} \\ & =\frac{1}{2}⋅\sqrt{√21⋅42} \\ & =\frac{1}{2}⋅\sqrt{√882} \\ & =\frac{1}{2}⋅\sqrt{√441⋅2} \\ & =\frac{1}{2}⋅\sqrt{√441}⋅\sqrt{√2} \\ & =\frac{1}{2}⋅21⋅\sqrt{√2} \\ & =\frac{21\sqrt{√2}}{2}.\end{aligned}
+\begin{aligned}A & =\frac{1}{2}⋅\sqrt{21}⋅\sqrt{42} \\ & =\frac{1}{2}⋅\sqrt{21⋅42} \\ & =\frac{1}{2}⋅\sqrt{882} \\ & =\frac{1}{2}⋅\sqrt{441⋅2} \\ & =\frac{1}{2}⋅\sqrt{441}⋅\sqrt{2} \\ & =\frac{1}{2}⋅21⋅\sqrt{2} \\ & =\frac{21\sqrt{2}}{2}.\end{aligned}
 
 
 $$

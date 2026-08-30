@@ -13,7 +13,7 @@ Topic ID: 296
 
 Derivatives naturally occur in many real-world situations, so it's essential to know their units of measurement. The key is to remember that the derivative represents a rate of change.
 
-For instance, suppose that the temperature of a pizza $t$ minutes after coming out of a hot oven is $T(t)$ degrees Fahrenheit. What are the units of $\dfrac{\textrm{d}T}{\textrm{d}t}?$
+For instance, suppose that the temperature of a pizza $t$ minutes after coming out of a hot oven is $T(t)$ degrees Fahrenheit. What are the units of $\dfrac{\text{d}T}{\text{d}t}?$
 
 First, we have that the temperature $T(t)$ is measured in degrees Fahrenheit and the time $t$ is measured in minutes.
 
@@ -25,7 +25,7 @@ $$
 
 $$
 
-The derivative $\dfrac{\textrm{d}\color{black}T}{\textrm{d}\color{black}t}$ measures a change in ${\color{black}T}$ over a change in ${\color{black}t}.$ So, it represents a ratio of the units:
+The derivative $\dfrac{\text{d}\color{black}T}{\text{d}\color{black}t}$ measures a change in ${\color{black}T}$ over a change in ${\color{black}t}.$ So, it represents a ratio of the units:
 
 $$
 
@@ -35,13 +35,13 @@ $$
 
 $$
 
-Therefore, $\dfrac{\textrm{d}\color{black}T}{\textrm{d}\color{black}t}$ is measured in "degrees Fahrenheit per minute", or $^\circ \textrm F / \textrm {min}.$
+Therefore, $\dfrac{\text{d}\color{black}T}{\text{d}\color{black}t}$ is measured in "degrees Fahrenheit per minute", or $^\circ \textrm F / \textrm {min}.$
 
 ### Example: Determining the Units of a Derivative
 
 #### Question
 
-A rocket is at a distance of $r(t)$ meters from the ground $t$ seconds after it is launched. What are the units of $\dfrac{\textrm{d}r}{\textrm{d}t}?$
+A rocket is at a distance of $r(t)$ meters from the ground $t$ seconds after it is launched. What are the units of $\dfrac{\text{d}r}{\text{d}t}?$
 
 #### Explanation
 
@@ -55,7 +55,7 @@ $$
 
 $$
 
-The derivative $\dfrac{\textrm{d}r}{\textrm{d}t}$ measures a change in $r(t)$ over a change in $t.$ So, it represents a ratio of the units:
+The derivative $\dfrac{\text{d}r}{\text{d}t}$ measures a change in $r(t)$ over a change in $t.$ So, it represents a ratio of the units:
 
 $$
 
@@ -65,7 +65,7 @@ $$
 
 $$
 
-Therefore, $\dfrac{\textrm{d}r}{\textrm{d}t}$ is measured in "meters per second".
+Therefore, $\dfrac{\text{d}r}{\text{d}t}$ is measured in "meters per second".
 
 ### Example: Interpreting the Derivative of a Function
 
@@ -82,7 +82,7 @@ The function $V(r)$ gives the volume of a sphere with radius $r.$ So
 $$
 
 
-V'(r) = \dfrac{\textrm{d}V}{\textrm{d}r} = \dfrac{\textrm{Change in }V}{\textrm{Change in }r}.
+V'(r) = \dfrac{\text{d}V}{\text{d}r} = \dfrac{\text{Change in }V}{\text{Change in }r}.
 
 
 $$
@@ -109,7 +109,7 @@ Therefore, $B'(30) = 2\,000$ means:
 
 On a particular day, the rate $E$ at which tourists enter a small country can be modeled as $E(t) = 50\cdot 3^{0.2t}$ tourists per hour, where $t$ is the time, in hours, after midnight. The rate at which tourists leave the country can be modeled as $L(t)=100\cdot 2^{0.2t}$ tourists per hour, where $t$ is also the time in hours after midnight.
 
-What is the rate of change in the number of tourists in the country at $10\text{:}00\,\textrm{am}?$
+What is the rate of change in the number of tourists in the country at $10\text{:}00\,\text{am}?$
 
 #### Explanation
 
@@ -123,7 +123,7 @@ E(t)-L(t).
 
 $$
 
-Since $10\text{:}00\,\textrm{am}$ is ten hours after midnight, we have $t=10.$ Substituting $t=10,$ the rate of change in the number of tourists in the country at $10\text{:}00\,\textrm{am}$ is
+Since $10\text{:}00\,\text{am}$ is ten hours after midnight, we have $t=10.$ Substituting $t=10,$ the rate of change in the number of tourists in the country at $10\text{:}00\,\text{am}$ is
 
 $$
 
@@ -133,7 +133,7 @@ $$
 
 $$
 
-Therefore, the rate of change in the number of tourists in the country at $10\text{:}00\,\textrm{am}$ is $50$ tourists per hour.
+Therefore, the rate of change in the number of tourists in the country at $10\text{:}00\,\text{am}$ is $50$ tourists per hour.
 
 ### Example: Relating a Derivative to a Rate of Change
 
@@ -156,7 +156,7 @@ The function $N(t)$ gives the number of people inside the convention $t$ minutes
 $$
 
 
-N'(t) = \dfrac{\textrm{d}N(t)}{\textrm{d}t} = \dfrac{\textrm{Change in }N}{\textrm{Change in }t}.
+N'(t) = \dfrac{\text{d}N(t)}{\text{d}t} = \dfrac{\text{Change in }N}{\text{Change in }t}.
 
 
 $$

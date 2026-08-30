@@ -341,7 +341,7 @@ Therefore, a confidence interval for the population standard deviation is the fo
 
 #### Question
 
-A sample of $30$ high school students was surveyed on the number of hours they spent playing video games last week. The sample standard deviation was $2.56\, \textrm{h}.$ Assuming the number of hours playing video games is normally distributed among the population under consideration, find a $95\%$ confidence interval for the population standard deviation corresponding to all students in this school.
+A sample of $30$ high school students was surveyed on the number of hours they spent playing video games last week. The sample standard deviation was $2.56\, \text{h}.$ Assuming the number of hours playing video games is normally distributed among the population under consideration, find a $95\%$ confidence interval for the population standard deviation corresponding to all students in this school.
 
 **
 
@@ -392,7 +392,7 @@ In our case,
 $$
 
 
-n = 30, \qquad s = 2.56\, \textrm{h}.
+n = 30, \qquad s = 2.56\, \text{h}.
 
 
 $$
@@ -430,7 +430,7 @@ Therefore, a $95\%$ confidence interval for the population standard deviation $\
 $$
 
 
-\begin{aligned}(\frac{2.56⋅\sqrt{√30−1}}{\sqrt{√45.722}},\frac{2.56⋅\sqrt{√30−1}}{\sqrt{√16.047}})=(2.039, & \,3.441)\end{aligned}
+\begin{aligned}(\frac{2.56⋅\sqrt{30−1}}{\sqrt{45.722}},\frac{2.56⋅\sqrt{30−1}}{\sqrt{16.047}})=(2.039, & \,3.441)\end{aligned}
 
 
 $$

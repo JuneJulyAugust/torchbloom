@@ -20,7 +20,7 @@ $$
 
 
 
-\begin{aligned}𝐢^{′} & =𝐓(𝐢)=[\begin{aligned}2 & 0 \\ 0 & 1\end{aligned}][\begin{aligned}1 \\ 0\end{aligned}]=[\begin{aligned}2 \\ 0\end{aligned}]=2𝐢 \\ 𝐣^{′} & =𝐓(𝐣)=[\begin{aligned}2 & 0 \\ 0 & 1\end{aligned}][\begin{aligned}0 \\ 1\end{aligned}]=[\begin{aligned}0 \\ 1\end{aligned}]=𝐣\end{aligned}
+\begin{aligned}𝐢^{′} & =𝐓(𝐢)=[\begin{matrix}2 & 0 \\ 0 & 1\end{matrix}][\begin{matrix}1 \\ 0\end{matrix}]=[\begin{matrix}2 \\ 0\end{matrix}]=2𝐢 \\ 𝐣^{′} & =𝐓(𝐣)=[\begin{matrix}2 & 0 \\ 0 & 1\end{matrix}][\begin{matrix}0 \\ 1\end{matrix}]=[\begin{matrix}0 \\ 1\end{matrix}]=𝐣\end{aligned}
 
 
 
@@ -52,7 +52,7 @@ $$
 
 
 
-\begin{aligned}𝐢^{′} & =𝐓(𝐢)=[\begin{aligned}1 & 0 \\ 0 & 2\end{aligned}][\begin{aligned}1 \\ 0\end{aligned}]=[\begin{aligned}1 \\ 0\end{aligned}]=𝐢 \\ 𝐣^{′} & =𝐓(𝐣)=[\begin{aligned}1 & 0 \\ 0 & 2\end{aligned}][\begin{aligned}0 \\ 1\end{aligned}]=[\begin{aligned}0 \\ 2\end{aligned}]=2𝐣\end{aligned}
+\begin{aligned}𝐢^{′} & =𝐓(𝐢)=[\begin{matrix}1 & 0 \\ 0 & 2\end{matrix}][\begin{matrix}1 \\ 0\end{matrix}]=[\begin{matrix}1 \\ 0\end{matrix}]=𝐢 \\ 𝐣^{′} & =𝐓(𝐣)=[\begin{matrix}1 & 0 \\ 0 & 2\end{matrix}][\begin{matrix}0 \\ 1\end{matrix}]=[\begin{matrix}0 \\ 2\end{matrix}]=2𝐣\end{aligned}
 
 
 
@@ -116,7 +116,7 @@ $$
 
 
 
-\begin{aligned}𝐢^{′} & =𝐓(𝐢)=[\begin{aligned}1 & 0.5 \\ 0 & 1\end{aligned}][\begin{aligned}1 \\ 0\end{aligned}]=[\begin{aligned}1 \\ 0\end{aligned}]=𝐢 \\ 𝐣^{′} & =𝐓(𝐣)=[\begin{aligned}1 & 0.5 \\ 0 & 1\end{aligned}][\begin{aligned}0 \\ 1\end{aligned}]=[\begin{aligned}0.5 \\ 1\end{aligned}]=0.5𝐢+𝐣\end{aligned}
+\begin{aligned}𝐢^{′} & =𝐓(𝐢)=[\begin{matrix}1 & 0.5 \\ 0 & 1\end{matrix}][\begin{matrix}1 \\ 0\end{matrix}]=[\begin{matrix}1 \\ 0\end{matrix}]=𝐢 \\ 𝐣^{′} & =𝐓(𝐣)=[\begin{matrix}1 & 0.5 \\ 0 & 1\end{matrix}][\begin{matrix}0 \\ 1\end{matrix}]=[\begin{matrix}0.5 \\ 1\end{matrix}]=0.5𝐢+𝐣\end{aligned}
 
 
 
@@ -148,7 +148,7 @@ $$
 
 
 
-\begin{aligned}𝐢^{′} & =𝐓(𝐢)=[\begin{aligned}1 & 0 \\ 0.5 & 1\end{aligned}][\begin{aligned}1 \\ 0\end{aligned}]=[\begin{aligned}1 \\ 0.5\end{aligned}]=𝐢+0.5𝐣 \\ 𝐣^{′} & =𝐓(𝐣)=[\begin{aligned}1 & 0 \\ 0.5 & 1\end{aligned}][\begin{aligned}0 \\ 1\end{aligned}]=[\begin{aligned}0 \\ 1\end{aligned}]=𝐣\end{aligned}
+\begin{aligned}𝐢^{′} & =𝐓(𝐢)=[\begin{matrix}1 & 0 \\ 0.5 & 1\end{matrix}][\begin{matrix}1 \\ 0\end{matrix}]=[\begin{matrix}1 \\ 0.5\end{matrix}]=𝐢+0.5𝐣 \\ 𝐣^{′} & =𝐓(𝐣)=[\begin{matrix}1 & 0 \\ 0.5 & 1\end{matrix}][\begin{matrix}0 \\ 1\end{matrix}]=[\begin{matrix}0 \\ 1\end{matrix}]=𝐣\end{aligned}
 
 
 
@@ -204,7 +204,7 @@ $$
 
 
 
-\begin{aligned}𝐓(𝐢) & =[\begin{aligned}1 & 2 \\ 0 & 1\end{aligned}][\begin{aligned}1 \\ 0\end{aligned}]=[\begin{aligned}1 \\ 0\end{aligned}]=𝐢 \\ 𝐓(𝐣) & =[\begin{aligned}1 & 2 \\ 0 & 1\end{aligned}][\begin{aligned}0 \\ 1\end{aligned}]=[\begin{aligned}2 \\ 1\end{aligned}]=2𝐢+𝐣\end{aligned}
+\begin{aligned}𝐓(𝐢) & =[\begin{matrix}1 & 2 \\ 0 & 1\end{matrix}][\begin{matrix}1 \\ 0\end{matrix}]=[\begin{matrix}1 \\ 0\end{matrix}]=𝐢 \\ 𝐓(𝐣) & =[\begin{matrix}1 & 2 \\ 0 & 1\end{matrix}][\begin{matrix}0 \\ 1\end{matrix}]=[\begin{matrix}2 \\ 1\end{matrix}]=2𝐢+𝐣\end{aligned}
 
 
 
@@ -234,7 +234,7 @@ $$
 
 
 
-\begin{aligned}𝐓([\begin{aligned}0 \\ 0\end{aligned}]) & =[\begin{aligned}1 & 0 \\ −1 & 1\end{aligned}][\begin{aligned}0 \\ 0\end{aligned}]=[\begin{aligned}0 \\ 0\end{aligned}] \\ 𝐓([\begin{aligned}2 \\ 0\end{aligned}]) & =[\begin{aligned}1 & 0 \\ −1 & 1\end{aligned}][\begin{aligned}2 \\ 0\end{aligned}]=[\begin{aligned}2 \\ −2\end{aligned}] \\ 𝐓([\begin{aligned}2 \\ 2\end{aligned}]) & =[\begin{aligned}1 & 0 \\ −1 & 1\end{aligned}][\begin{aligned}2 \\ 2\end{aligned}]=[\begin{aligned}2 \\ 0\end{aligned}] \\ 𝐓([\begin{aligned}0 \\ 2\end{aligned}]) & =[\begin{aligned}1 & 0 \\ −1 & 1\end{aligned}][\begin{aligned}0 \\ 2\end{aligned}]=[\begin{aligned}0 \\ 2\end{aligned}]\end{aligned}
+\begin{aligned}𝐓([\begin{matrix}0 \\ 0\end{matrix}]) & =[\begin{matrix}1 & 0 \\ −1 & 1\end{matrix}][\begin{matrix}0 \\ 0\end{matrix}]=[\begin{matrix}0 \\ 0\end{matrix}] \\ 𝐓([\begin{matrix}2 \\ 0\end{matrix}]) & =[\begin{matrix}1 & 0 \\ −1 & 1\end{matrix}][\begin{matrix}2 \\ 0\end{matrix}]=[\begin{matrix}2 \\ −2\end{matrix}] \\ 𝐓([\begin{matrix}2 \\ 2\end{matrix}]) & =[\begin{matrix}1 & 0 \\ −1 & 1\end{matrix}][\begin{matrix}2 \\ 2\end{matrix}]=[\begin{matrix}2 \\ 0\end{matrix}] \\ 𝐓([\begin{matrix}0 \\ 2\end{matrix}]) & =[\begin{matrix}1 & 0 \\ −1 & 1\end{matrix}][\begin{matrix}0 \\ 2\end{matrix}]=[\begin{matrix}0 \\ 2\end{matrix}]\end{aligned}
 
 
 

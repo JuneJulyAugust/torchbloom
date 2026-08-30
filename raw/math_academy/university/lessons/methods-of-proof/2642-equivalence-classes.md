@@ -181,7 +181,7 @@ $$
 
 #### Question
 
-Consider the equivalence relation $\sim$ on the set $A = \{0, 1, 2, \ldots, 9\},$ defined by $a \sim b$ if $\textrm{i}^a = \textrm{i}^b,$ where $\textrm{i}$ is the imaginary unit in $\mathbb{C}.$ How many distinct equivalence classes does $\sim$ partition $A$ into?
+Consider the equivalence relation $\sim$ on the set $A = \{0, 1, 2, \ldots, 9\},$ defined by $a \sim b$ if $\text{i}^a = \text{i}^b,$ where $\text{i}$ is the imaginary unit in $\mathbb{C}.$ How many distinct equivalence classes does $\sim$ partition $A$ into?
 
 #### Explanation
 

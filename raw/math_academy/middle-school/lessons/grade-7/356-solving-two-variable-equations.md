@@ -57,7 +57,7 @@ $$
 
 
 
-\begin{aligned}  4x &= y \\\[5pt] \dfrac {4x} {4} &= \dfrac y 4 \\\[5pt] \dfrac {{4}x} {4} &= \dfrac y 4 \\\[5pt] x &= \dfrac y4 \end{aligned}
+\begin{aligned}  4x &= y \\[5pt] \dfrac {4x} {4} &= \dfrac y 4 \\[5pt] \dfrac {{4}x} {4} &= \dfrac y 4 \\[5pt] x &= \dfrac y4 \end{aligned}
 
 
 

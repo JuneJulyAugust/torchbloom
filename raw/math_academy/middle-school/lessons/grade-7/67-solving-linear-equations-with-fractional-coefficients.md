@@ -32,7 +32,7 @@ $$
 
 
 
-\begin{aligned} \dfrac{2}{3}x &= 8 \\\[5pt] {\color{blue}{3}}\cdot \dfrac{2}{3}x &={\color{blue}{3}}\cdot 8 \\\[5pt] \color{blue}{3} \cdot \dfrac{2}{3}x &={\color{blue}{3}}\cdot 8 \\2x &=24 \end{aligned}
+\begin{aligned} \dfrac{2}{3}x &= 8 \\[5pt] {\color{blue}{3}}\cdot \dfrac{2}{3}x &={\color{blue}{3}}\cdot 8 \\[5pt] \color{blue}{3} \cdot \dfrac{2}{3}x &={\color{blue}{3}}\cdot 8 \\2x &=24 \end{aligned}
 
 
 
@@ -44,7 +44,7 @@ $$
 
 
 
-\begin{aligned} 2x &=24\\\[5pt] \dfrac{2x}{{\color{red}{2}}} &=\dfrac{24}{{\color{red}{2}}} \\\[5pt] \dfrac{2x}{\color{red}{2}} &=\dfrac{24}{{\color{red}{2}}} \\x &=12 \end{aligned}
+\begin{aligned} 2x &=24\\[5pt] \dfrac{2x}{{\color{red}{2}}} &=\dfrac{24}{{\color{red}{2}}} \\[5pt] \dfrac{2x}{\color{red}{2}} &=\dfrac{24}{{\color{red}{2}}} \\x &=12 \end{aligned}
 
 
 
@@ -104,7 +104,7 @@ $$
 
 
 
- \begin{aligned} \dfrac{2}{5}x &= 6 \\\[5pt] \underbrace{ {\color{blue}{\dfrac 5 2}} \cdot \dfrac{2}{5} }_{\large =\, 1} x &= {\color{blue}{\dfrac 5 2}} \cdot 6 \\\[5pt] 1 x &= \dfrac{5\cdot 6}{2} \\\[5pt] x &= \dfrac{30}{2} \\\[5pt] x &= 15 \end{aligned}
+ \begin{aligned} \dfrac{2}{5}x &= 6 \\[5pt] \underbrace{ {\color{blue}{\dfrac 5 2}} \cdot \dfrac{2}{5} }_{\large =\, 1} x &= {\color{blue}{\dfrac 5 2}} \cdot 6 \\[5pt] 1 x &= \dfrac{5\cdot 6}{2} \\[5pt] x &= \dfrac{30}{2} \\[5pt] x &= 15 \end{aligned}
 
 
 
@@ -136,7 +136,7 @@ $$
 
 
 
-\begin{aligned}\begin{aligned}−\frac{3}{2}𝑡 & =24 \\ −\frac{2}{3}⋅(−\frac{3}{2}𝑡) & =−\frac{2}{3}⋅24 \\ 1𝑡 & =−\frac{2}{3}⋅3⋅8 \\ 𝑡 & =−16.\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}−\frac{3}{2}𝑡 & =24 \\ −\frac{2}{3}⋅(−\frac{3}{2}𝑡) & =−\frac{2}{3}⋅24 \\ 1𝑡 & =−\frac{2}{3}⋅3⋅8 \\ 𝑡 & =−16.\end{matrix}\end{aligned}
 
 
 
@@ -156,7 +156,7 @@ $$
 
 
 
-\begin{aligned} \dfrac{3x}{4}-5 &=-8\\\[5pt] \dfrac{3x}{4}-5+5 &=-8+5\\\[5pt] \dfrac{3x}{4}+0 &=-3 \\\[5pt] \dfrac{3x}{4} &=-3 \end{aligned}
+\begin{aligned} \dfrac{3x}{4}-5 &=-8\\[5pt] \dfrac{3x}{4}-5+5 &=-8+5\\[5pt] \dfrac{3x}{4}+0 &=-3 \\[5pt] \dfrac{3x}{4} &=-3 \end{aligned}
 
 
 
@@ -168,7 +168,7 @@ $$
 
 
 
-\begin{aligned} \dfrac{3}{4}x &=-3 \\\[5pt] \dfrac{4}{3} \cdot \dfrac{3}{4}x &= \dfrac{4}{3} \cdot (-3) \\\[5pt] 1 x &= - \dfrac{4}{3 } \cdot 3 \\\[5pt] x &= -4. \end{aligned}
+\begin{aligned} \dfrac{3}{4}x &=-3 \\[5pt] \dfrac{4}{3} \cdot \dfrac{3}{4}x &= \dfrac{4}{3} \cdot (-3) \\[5pt] 1 x &= - \dfrac{4}{3 } \cdot 3 \\[5pt] x &= -4. \end{aligned}
 
 
 

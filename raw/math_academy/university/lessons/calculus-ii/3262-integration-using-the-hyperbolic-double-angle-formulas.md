@@ -20,14 +20,14 @@ Osborn's rule states that to convert a trigonometric identity to a corresponding
 
 - for any product of two trigonometric sines, change the sign of the corresponding product of hyperbolic sines.
 
-$\newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\sinh}{\mathop{\rm sinh}\nolimits} \newcommand{\cosh}{\mathop{\rm cosh}\nolimits} \newcommand{\tanh}{\mathop{\rm tanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
 For example, let's consider the following integral:
 
 $$
 
 
-\displaystyle{\int} \sinh x \cosh x \, \textrm{d}x
+\displaystyle{\int} \sinh x \cosh x \, \text{d}x
 
 
 $$
@@ -37,7 +37,7 @@ Notice that the corresponding trigonometric integral is
 $$
 
 
-\displaystyle{\int} \sin x \cos x \, \textrm{d}x.
+\displaystyle{\int} \sin x \cos x \, \text{d}x.
 
 
 $$
@@ -86,7 +86,7 @@ $$
 
 #### Question
 
-Calculate $\displaystyle \int 4\sinh 2x \cosh 2x \, \textrm{d}x.$
+Calculate $\displaystyle \int 4\sinh 2x \cosh 2x \, \text{d}x.$
 
 #### Explanation
 
@@ -144,7 +144,7 @@ $$
 
 #### Question
 
-Calculate $\displaystyle \int \cosh^2{x} + \sinh^2{x}\ \, \textrm{d}x.$
+Calculate $\displaystyle \int \cosh^2{x} + \sinh^2{x}\ \, \text{d}x.$
 
 #### Explanation
 
@@ -182,7 +182,7 @@ $$
 
 #### Question
 
-Calculate $\displaystyle \int 2\cosh^2 x \, \textrm{d}x.$
+Calculate $\displaystyle \int 2\cosh^2 x \, \text{d}x.$
 
 #### Explanation
 
@@ -230,7 +230,7 @@ $$
 
 #### Question
 
-Evaluate $\displaystyle \int_{0}^{\ln 2} 8\sinh^2{x} \, \textrm{d}x.$
+Evaluate $\displaystyle \int_{0}^{\ln 2} 8\sinh^2{x} \, \text{d}x.$
 
 #### Explanation
 
@@ -269,7 +269,7 @@ We can now integrate as follows:
 $$
 
 
-\begin{aligned}∫_{ln⁡20}^{}8sinh^{2}⁡𝑥\,d𝑥 & =∫_{ln⁡20}^{}8⋅\frac{1}{2}(cosh⁡2𝑥−1)\,d𝑥 \\ & =∫_{ln⁡20}^{}4cosh⁡2𝑥−4\,d𝑥 \\ & =(2sinh⁡2𝑥−4𝑥)\,_{ln⁡20}^{} \\ & =(2sinh⁡(2ln⁡2)−4ln⁡2)−(2sinh⁡0−4⋅0) \\ & =2⋅\frac{𝑒^{2ln⁡2}−𝑒^{−2ln⁡2}}{2}−4ln⁡2 \\ & =(2^{2}−2^{−2})−4ln⁡2 \\ & =\frac{15}{4}−4ln⁡2\end{aligned}
+\begin{aligned}∫_{ln⁡20}8sinh^{2}⁡𝑥\,d𝑥 & =∫_{ln⁡20}8⋅\frac{1}{2}(cosh⁡2𝑥−1)\,d𝑥 \\ & =∫_{ln⁡20}4cosh⁡2𝑥−4\,d𝑥 \\ & =(2sinh⁡2𝑥−4𝑥)\,_{ln⁡20} \\ & =(2sinh⁡(2ln⁡2)−4ln⁡2)−(2sinh⁡0−4⋅0) \\ & =2⋅\frac{𝑒^{2ln⁡2}−𝑒^{−2ln⁡2}}{2}−4ln⁡2 \\ & =(2^{2}−2^{−2})−4ln⁡2 \\ & =\frac{15}{4}−4ln⁡2\end{aligned}
 
 
 $$

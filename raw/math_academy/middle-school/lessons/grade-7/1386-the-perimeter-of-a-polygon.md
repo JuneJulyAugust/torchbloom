@@ -104,7 +104,7 @@ $$
 
 $$
 
-Finally, since the perimeter is a large quantity of $\textrm{mm},$ we will convert to $\textrm{cm}\mathbin{:}$
+Finally, since the perimeter is a large quantity of $\text{mm},$ we will convert to $\text{cm}\mathbin{:}$
 
 $$
 

@@ -66,7 +66,7 @@ Computing the focal length, we get
 $$
 
 
-\begin{aligned}𝑐 & =\sqrt{√𝑎^{2}+𝑏^{2}} \\ & =\sqrt{√4^{2}+3^{2}} \\ & =\sqrt{√25} \\ & =5.\end{aligned}
+\begin{aligned}𝑐 & =\sqrt{𝑎^{2}+𝑏^{2}} \\ & =\sqrt{4^{2}+3^{2}} \\ & =\sqrt{25} \\ & =5.\end{aligned}
 
 
 $$
@@ -132,7 +132,7 @@ Now, computing the focal length, we get
 $$
 
 
-\begin{aligned}𝑐 & =\sqrt{√𝑎^{2}+𝑏^{2}} \\ & =\sqrt{√25+9} \\ & =\sqrt{√34}.\end{aligned}
+\begin{aligned}𝑐 & =\sqrt{𝑎^{2}+𝑏^{2}} \\ & =\sqrt{25+9} \\ & =\sqrt{34}.\end{aligned}
 
 
 $$
@@ -142,7 +142,7 @@ Therefore, the equations of the directrices are the following:
 $$
 
 
-\begin{aligned}𝑥 & =ℎ±\frac{𝑎^{2}}{𝑐} \\ 𝑥 & =0±\frac{5^{2}}{\sqrt{√34}} \\ 𝑥 & =±\frac{25}{\sqrt{√34}}\end{aligned}
+\begin{aligned}𝑥 & =ℎ±\frac{𝑎^{2}}{𝑐} \\ 𝑥 & =0±\frac{5^{2}}{\sqrt{34}} \\ 𝑥 & =±\frac{25}{\sqrt{34}}\end{aligned}
 
 
 $$
@@ -200,7 +200,7 @@ Computing the focal length, we get
 $$
 
 
-\begin{aligned}𝑐 & =\sqrt{√𝑎^{2}+𝑏^{2}} \\ & =\sqrt{√(\sqrt{√6})^{2}+(\sqrt{√3})^{2}} \\ & =\sqrt{√9} \\ & =3.\end{aligned}
+\begin{aligned}𝑐 & =\sqrt{𝑎^{2}+𝑏^{2}} \\ & =\sqrt{(\sqrt{6})^{2}+(\sqrt{3})^{2}} \\ & =\sqrt{9} \\ & =3.\end{aligned}
 
 
 $$
@@ -210,7 +210,7 @@ Therefore, the equations of the directrices are:
 $$
 
 
-\begin{aligned}𝑦 & =𝑘±\frac{𝑎^{2}}{𝑐} \\ 𝑦 & =−1±\frac{(\sqrt{√6})^{2}}{3} \\ 𝑦 & =−1±\frac{6}{3} \\ 𝑦 & =−1±2 \\ 𝑦 & =−3,\,1\end{aligned}
+\begin{aligned}𝑦 & =𝑘±\frac{𝑎^{2}}{𝑐} \\ 𝑦 & =−1±\frac{(\sqrt{6})^{2}}{3} \\ 𝑦 & =−1±\frac{6}{3} \\ 𝑦 & =−1±2 \\ 𝑦 & =−3,\,1\end{aligned}
 
 
 $$
@@ -264,7 +264,7 @@ Now, computing the focal length, we get
 $$
 
 
-\begin{aligned}𝑐 & =\sqrt{√𝑎^{2}+𝑏^{2}} \\ & =\sqrt{√28+21} \\ & =\sqrt{√49} \\ & =7.\end{aligned}
+\begin{aligned}𝑐 & =\sqrt{𝑎^{2}+𝑏^{2}} \\ & =\sqrt{28+21} \\ & =\sqrt{49} \\ & =7.\end{aligned}
 
 
 $$

@@ -63,7 +63,7 @@ In our cases, we have a $2 \times 2$ system. We are also given that the two line
 $$
 
 
-\begin{aligned}𝐱_{1}(𝑡) & =[\begin{aligned}4 \\ 0\end{aligned}]𝑒^{5𝑡}=[\begin{aligned}4𝑒^{5𝑡} \\ 0\end{aligned}] \\ 𝐱_{2}(𝑡) & =[\begin{aligned}4𝑡 \\ 4\end{aligned}]𝑒^{5𝑡}=[\begin{aligned}4𝑡𝑒^{5𝑡} \\ 4𝑒^{5𝑡}\end{aligned}]\end{aligned}
+\begin{aligned}𝐱_{1}(𝑡) & =[\begin{matrix}4 \\ 0\end{matrix}]𝑒^{5𝑡}=[\begin{matrix}4𝑒^{5𝑡} \\ 0\end{matrix}] \\ 𝐱_{2}(𝑡) & =[\begin{matrix}4𝑡 \\ 4\end{matrix}]𝑒^{5𝑡}=[\begin{matrix}4𝑡𝑒^{5𝑡} \\ 4𝑒^{5𝑡}\end{matrix}]\end{aligned}
 
 
 $$
@@ -112,37 +112,37 @@ Consider the system $\mathbf{x}'(t) = A \mathbf{x}(t),$ where $A$ is a constant 
 
 **
 
-$\textrm{L1}{:}\;$ Let $\Phi(t) = \big[\mathbf{x}_1(t), \: \mathbf{x}_2(t) \big]$
+$\text{L1}{:}\;$ Let $\Phi(t) = \big[\mathbf{x}_1(t), \: \mathbf{x}_2(t) \big]$
 
-$\textrm{L2}{:}\;$ $\mathbf{x}_1'(t) = A \mathbf{x}_1(t)$
+$\text{L2}{:}\;$ $\mathbf{x}_1'(t) = A \mathbf{x}_1(t)$
 
-$\textrm{L3}{:}\;$ $\mathbf{x}_2'(t) = A \mathbf{x}_2(t)$
+$\text{L3}{:}\;$ $\mathbf{x}_2'(t) = A \mathbf{x}_2(t)$
 
-$\textrm{L4}{:}\;$ $\Phi'(t) = \big[\mathbf{x}_1'(t), \: \mathbf{x}_2'(t) \big]$
+$\text{L4}{:}\;$ $\Phi'(t) = \big[\mathbf{x}_1'(t), \: \mathbf{x}_2'(t) \big]$
 
-$\textrm{L5}{:}\;$ $\Phi'(t) = \big[A \mathbf{x}_1(t), \: A \mathbf{x}_2(t) \big]$
+$\text{L5}{:}\;$ $\Phi'(t) = \big[A \mathbf{x}_1(t), \: A \mathbf{x}_2(t) \big]$
 
-$\textrm{L6}{:}\;$ $\Phi'(t) = A \big[\mathbf{x}_1(t), \: \mathbf{x}_2(t) \big]$
+$\text{L6}{:}\;$ $\Phi'(t) = A \big[\mathbf{x}_1(t), \: \mathbf{x}_2(t) \big]$
 
-$\textrm{L7}{:}\;$ $\Phi'(t) = A \Phi(t)$
+$\text{L7}{:}\;$ $\Phi'(t) = A \Phi(t)$
 
 Select the correct options in the following reasoning.
 
-$\quad$ Line $\textrm{L2}$ follows from the fact that $𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴$.
+$\quad$ Line $\text{L2}$ follows from the fact that $𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴$.
 
-$\quad$ Line $\textrm{L6}$ follows from line $\textrm{L5}$ by $𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴$.
+$\quad$ Line $\text{L6}$ follows from line $\text{L5}$ by $𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴$.
 
-$\quad$ Line $\textrm{L7}$ follows from line $\textrm{L6}$ and substitution from line $𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴$.
+$\quad$ Line $\text{L7}$ follows from line $\text{L6}$ and substitution from line $𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴$.
 
 #### Explanation
 
 Let's justify each of the selected steps.
 
-- We first consider line $\textrm{L2}.$ Since $\Phi(t)$ is a fundamental matrix, its columns $\mathbf{x}_1(t)$ and $\mathbf{x}_2(t)$ are linearly independent solutions of the homogeneous system $\mathbf{x}'(t) = A \mathbf{x}(t).$ This means that each column satisfies the differential equation. In particular, Therefore, $\textrm{L2}$ follows from the fact that $\mathbf{x}_1$ is a solution of the system.
+- We first consider line $\text{L2}.$ Since $\Phi(t)$ is a fundamental matrix, its columns $\mathbf{x}_1(t)$ and $\mathbf{x}_2(t)$ are linearly independent solutions of the homogeneous system $\mathbf{x}'(t) = A \mathbf{x}(t).$ This means that each column satisfies the differential equation. In particular, Therefore, $\text{L2}$ follows from the fact that $\mathbf{x}_1$ is a solution of the system.
 
-- Next, we consider lines $\textrm{L5}$ and $\textrm{L6}.$ We now factor the matrix $A$ on the left: Therefore, $\textrm{L6}$ follows from $\textrm{L5}$ by factoring out $A$ on the left.
+- Next, we consider lines $\text{L5}$ and $\text{L6}.$ We now factor the matrix $A$ on the left: Therefore, $\text{L6}$ follows from $\text{L5}$ by factoring out $A$ on the left.
 
-- Finally, we consider lines $\textrm{L6}$ and $\textrm{L7}.$ From $\textrm{L6}$ we have $\Phi'(t)=A\big[\mathbf{x}_1(t),\:\mathbf{x}_2(t)\big].$ Using $\Phi(t)=\big[\mathbf{x}_1(t),\:\mathbf{x}_2(t)\big]$ from $\textrm{L1},$ we substitute to obtain $\Phi'(t)=A\Phi(t).$ Thus, $\textrm{L7}$ follows from $\textrm{L6}$ by substitution from $L1.$
+- Finally, we consider lines $\text{L6}$ and $\text{L7}.$ From $\text{L6}$ we have $\Phi'(t)=A\big[\mathbf{x}_1(t),\:\mathbf{x}_2(t)\big].$ Using $\Phi(t)=\big[\mathbf{x}_1(t),\:\mathbf{x}_2(t)\big]$ from $\text{L1},$ we substitute to obtain $\Phi'(t)=A\Phi(t).$ Thus, $\text{L7}$ follows from $\text{L6}$ by substitution from $L1.$
 
 ### Fundamental Matrices and Matrix Exponentials
 
@@ -227,7 +227,7 @@ We have a square matrix of dimension $n=2.$ Thus,
 $$
 
 
-\begin{aligned}𝑒^{𝐴𝑡} & =𝛼_{1}𝐴𝑡+𝛼_{0}𝐼 \\ & =𝛼_{1}[\begin{aligned}0 & −7 \\ 7 & 0\end{aligned}]𝑡+𝛼_{0}[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ & =[\begin{aligned}𝛼_{0} & −7𝛼_{1}𝑡 \\ 7𝛼_{1}𝑡 & 𝛼_{0}\end{aligned}].\end{aligned}
+\begin{aligned}𝑒^{𝐴𝑡} & =𝛼_{1}𝐴𝑡+𝛼_{0}𝐼 \\ & =𝛼_{1}[\begin{matrix}0 & −7 \\ 7 & 0\end{matrix}]𝑡+𝛼_{0}[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}] \\ & =[\begin{matrix}𝛼_{0} & −7𝛼_{1}𝑡 \\ 7𝛼_{1}𝑡 & 𝛼_{0}\end{matrix}].\end{aligned}
 
 
 $$
@@ -239,7 +239,7 @@ Consider the polynomial $r(\lambda) = \alpha_1 \lambda + \alpha_0.$ The eigenval
 $$
 
 
-\lambda_1 = 7\textrm{i}t, \qquad \lambda_2 = -7\textrm{i}t,
+\lambda_1 = 7\text{i}t, \qquad \lambda_2 = -7\text{i}t,
 
 
 $$
@@ -259,7 +259,7 @@ Now, we equate the real and imaginary parts, and solve for $\alpha_1$ and $\alph
 $$
 
 
-\begin{aligned}\begin{aligned}𝛼_{0}=cos⁡(7𝑡) \\ 7𝛼_{1}𝑡=sin⁡(7𝑡)\end{aligned}\,⇒\,\begin{aligned}𝛼_{0}=cos⁡(7𝑡) \\ 𝛼_{1}=\frac{1}{7𝑡}sin⁡(7𝑡)\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}𝛼_{0}=cos⁡(7𝑡) \\ 7𝛼_{1}𝑡=sin⁡(7𝑡)\end{matrix}\,⇒\,\begin{matrix}𝛼_{0}=cos⁡(7𝑡) \\ 𝛼_{1}=\frac{1}{7𝑡}sin⁡(7𝑡)\end{matrix}\end{aligned}
 
 
 $$

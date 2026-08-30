@@ -17,7 +17,7 @@ Suppose that we want to calculate an integral like
 $$
 
 
-\displaystyle \int \dfrac{1}{2x+1} \, \textrm{d}x.
+\displaystyle \int \dfrac{1}{2x+1} \, \text{d}x.
 
 
 $$
@@ -68,7 +68,7 @@ $$
 
 #### Question
 
-Calculate $\displaystyle{\int \dfrac{3}{5x+2}\textrm{d}x}.$
+Calculate $\displaystyle{\int \dfrac{3}{5x+2}\text{d}x}.$
 
 #### Explanation
 
@@ -96,7 +96,7 @@ $$
 
 #### Question
 
-Calculate $\displaystyle{\int \dfrac{1}{1+2x}\textrm{d}x},$ writing your final answer as a single function.
+Calculate $\displaystyle{\int \dfrac{1}{1+2x}\text{d}x},$ writing your final answer as a single function.
 
 #### Explanation
 
@@ -135,7 +135,7 @@ So, we finally conclude that
 $$
 
 
-\int \dfrac{1}{1+2x}\textrm{d}x = \dfrac 1 2 \ln \left(K |1+2x|\right).
+\int \dfrac{1}{1+2x}\text{d}x = \dfrac 1 2 \ln \left(K |1+2x|\right).
 
 
 $$

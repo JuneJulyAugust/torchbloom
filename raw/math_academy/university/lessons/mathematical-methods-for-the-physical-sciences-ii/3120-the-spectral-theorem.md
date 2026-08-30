@@ -107,7 +107,7 @@ First, let's normalize our eigenvectors:
 $$
 
 
-\begin{aligned}𝐮_{1} & =\frac{𝐯_{1}}{‖𝐯_{1}‖}=\frac{1}{\sqrt{√10}}[\begin{aligned}1 \\ 3\end{aligned}] \\ 𝐮_{2} & =\frac{𝐯_{2}}{‖𝐯_{2}‖}=\frac{1}{\sqrt{√10}}[\begin{aligned}3 \\ −1\end{aligned}]\end{aligned}
+\begin{aligned}𝐮_{1} & =\frac{𝐯_{1}}{‖𝐯_{1}‖}=\frac{1}{\sqrt{10}}[\begin{matrix}1 \\ 3\end{matrix}] \\ 𝐮_{2} & =\frac{𝐯_{2}}{‖𝐯_{2}‖}=\frac{1}{\sqrt{10}}[\begin{matrix}3 \\ −1\end{matrix}]\end{aligned}
 
 
 $$
@@ -117,7 +117,7 @@ Therefore, the spectral decomposition of $A$ is
 $$
 
 
-\begin{aligned}𝐴 & =𝜆_{1}𝐮_{1}𝐮_{𝑇1}^{}+𝜆_{2}𝐮_{2}𝐮_{𝑇2}^{} \\ & =6⋅\frac{1}{\sqrt{√10}}[\begin{aligned}1 \\ 3\end{aligned}]⋅\frac{1}{\sqrt{√10}}[\begin{aligned}1 & 3\end{aligned}]+(−4)⋅\frac{1}{\sqrt{√10}}[\begin{aligned}3 \\ −1\end{aligned}]⋅\frac{1}{\sqrt{√10}}[\begin{aligned}3 & −1\end{aligned}] \\ & =6⋅\frac{1}{10}[\begin{aligned}1 \\ 3\end{aligned}]⋅[\begin{aligned}1 & 3\end{aligned}]+(−4)⋅\frac{1}{10}[\begin{aligned}3 \\ −1\end{aligned}]⋅[\begin{aligned}3 & −1\end{aligned}] \\ & =\underset{𝜆_{1}}{\underset{}{6}}⋅\underset{𝐮_{1}𝐮_{𝑇1}^{}}{\underset{}\begin{aligned}\frac{1}{10} & \frac{3}{10} \\ \frac{3}{10} & \frac{9}{10}\end{aligned}}}+\underset{𝜆_{2}}{\underset{}{(−4)}}⋅\underset{𝐮_{2}𝐮_{𝑇2}^{}}{\underset{}\begin{aligned}\frac{9}{10} & −\frac{3}{10} \\ −\frac{3}{10} & \frac{1}{10}\end{aligned}}}.\end{aligned}
+\begin{aligned}𝐴 & =𝜆_{1}𝐮_{1}𝐮_{𝑇1}+𝜆_{2}𝐮_{2}𝐮_{𝑇2} \\ & =6⋅\frac{1}{\sqrt{10}}[\begin{matrix}1 \\ 3\end{matrix}]⋅\frac{1}{\sqrt{10}}[\begin{matrix}1 & 3\end{matrix}]+(−4)⋅\frac{1}{\sqrt{10}}[\begin{matrix}3 \\ −1\end{matrix}]⋅\frac{1}{\sqrt{10}}[\begin{matrix}3 & −1\end{matrix}] \\ & =6⋅\frac{1}{10}[\begin{matrix}1 \\ 3\end{matrix}]⋅[\begin{matrix}1 & 3\end{matrix}]+(−4)⋅\frac{1}{10}[\begin{matrix}3 \\ −1\end{matrix}]⋅[\begin{matrix}3 & −1\end{matrix}] \\ & =\underset{𝜆_{1}}{\underset{}{6}}⋅\underset{𝐮_{1}𝐮_{𝑇1}}{\begin{matrix}\frac{1}{10} & \frac{3}{10} \\ \frac{3}{10} & \frac{9}{10}\end{matrix}}+\underset{𝜆_{2}}{\underset{}{(−4)}}⋅\underset{𝐮_{2}𝐮_{𝑇2}}{\begin{matrix}\frac{9}{10} & −\frac{3}{10} \\ −\frac{3}{10} & \frac{1}{10}\end{matrix}}.\end{aligned}
 
 
 $$
@@ -153,7 +153,7 @@ First, let's normalize our eigenvectors:
 $$
 
 
-\begin{aligned}𝐮_{1} & =\frac{𝐯_{1}}{‖𝐯_{1}‖}=\frac{1}{\sqrt{√13}}[\begin{aligned}2 \\ 3\end{aligned}] \\ 𝐮_{2} & =\frac{𝐯_{2}}{‖𝐯_{2}‖}=\frac{1}{\sqrt{√13}}[\begin{aligned}−3 \\ 2\end{aligned}]\end{aligned}
+\begin{aligned}𝐮_{1} & =\frac{𝐯_{1}}{‖𝐯_{1}‖}=\frac{1}{\sqrt{13}}[\begin{matrix}2 \\ 3\end{matrix}] \\ 𝐮_{2} & =\frac{𝐯_{2}}{‖𝐯_{2}‖}=\frac{1}{\sqrt{13}}[\begin{matrix}−3 \\ 2\end{matrix}]\end{aligned}
 
 
 $$
@@ -163,7 +163,7 @@ Therefore, we have
 $$
 
 
-\begin{aligned}𝐴 & =𝜆_{1}𝐮_{1}𝐮_{𝑇1}^{}+𝜆_{2}𝐮_{2}𝐮_{𝑇2}^{} \\ & =6⋅\frac{1}{\sqrt{√13}}[\begin{aligned}2 \\ 3\end{aligned}]⋅\frac{1}{\sqrt{√13}}[\begin{aligned}2 & 3\end{aligned}]+(−7)⋅\frac{1}{\sqrt{√13}}[\begin{aligned}−3 \\ 2\end{aligned}]⋅\frac{1}{\sqrt{√13}}[\begin{aligned}−3 & 2\end{aligned}] \\ & =6⋅\frac{1}{13}[\begin{aligned}2 \\ 3\end{aligned}][\begin{aligned}2 & 3\end{aligned}]+(−7)⋅\frac{1}{13}[\begin{aligned}−3 \\ 2\end{aligned}][\begin{aligned}−3 & 2\end{aligned}] \\ & =\frac{1}{13}(6⋅[\begin{aligned}2 \\ 3\end{aligned}][\begin{aligned}2 & 3\end{aligned}]+(−7)⋅[\begin{aligned}−3 \\ 2\end{aligned}][\begin{aligned}−3 & 2\end{aligned}]) \\ & =\frac{1}{13}(6⋅[\begin{aligned}4 & 6 \\ 6 & 9\end{aligned}]+(−7)⋅[\begin{aligned}9 & −6 \\ −6 & 4\end{aligned}]) \\ & =\frac{1}{13}[\begin{aligned}−39 & 78 \\ 78 & 26\end{aligned}] \\ & =[\begin{aligned}−3 & 6 \\ 6 & 2\end{aligned}].\end{aligned}
+\begin{aligned}𝐴 & =𝜆_{1}𝐮_{1}𝐮_{𝑇1}+𝜆_{2}𝐮_{2}𝐮_{𝑇2} \\ & =6⋅\frac{1}{\sqrt{13}}[\begin{matrix}2 \\ 3\end{matrix}]⋅\frac{1}{\sqrt{13}}[\begin{matrix}2 & 3\end{matrix}]+(−7)⋅\frac{1}{\sqrt{13}}[\begin{matrix}−3 \\ 2\end{matrix}]⋅\frac{1}{\sqrt{13}}[\begin{matrix}−3 & 2\end{matrix}] \\ & =6⋅\frac{1}{13}[\begin{matrix}2 \\ 3\end{matrix}][\begin{matrix}2 & 3\end{matrix}]+(−7)⋅\frac{1}{13}[\begin{matrix}−3 \\ 2\end{matrix}][\begin{matrix}−3 & 2\end{matrix}] \\ & =\frac{1}{13}(6⋅[\begin{matrix}2 \\ 3\end{matrix}][\begin{matrix}2 & 3\end{matrix}]+(−7)⋅[\begin{matrix}−3 \\ 2\end{matrix}][\begin{matrix}−3 & 2\end{matrix}]) \\ & =\frac{1}{13}(6⋅[\begin{matrix}4 & 6 \\ 6 & 9\end{matrix}]+(−7)⋅[\begin{matrix}9 & −6 \\ −6 & 4\end{matrix}]) \\ & =\frac{1}{13}[\begin{matrix}−39 & 78 \\ 78 & 26\end{matrix}] \\ & =[\begin{matrix}−3 & 6 \\ 6 & 2\end{matrix}].\end{aligned}
 
 
 $$
@@ -195,7 +195,7 @@ First, we need to find an eigenvector that corresponds to $\lambda=-1.$ Computin
 $$
 
 
-\begin{aligned}𝐴−(−1)𝐼 & =[\begin{aligned}3 & −2 \\ −2 & 0\end{aligned}]−(−1)[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}]=[\begin{aligned}4 & −2 \\ −2 & 1\end{aligned}].\end{aligned}
+\begin{aligned}𝐴−(−1)𝐼 & =[\begin{matrix}3 & −2 \\ −2 & 0\end{matrix}]−(−1)[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}]=[\begin{matrix}4 & −2 \\ −2 & 1\end{matrix}].\end{aligned}
 
 
 $$
@@ -205,7 +205,7 @@ So, we have a system of linear equations with the augmented matrix $M$ which we 
 $$
 
 
-\begin{aligned}𝑀 & =[\begin{aligned}4 & −2 & 0 \\ −2 & 1 & 0\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+\frac{1}{2}𝑅_{1} \\ & ∼[\begin{aligned}4 & −2 & 0 \\ 0 & 0 & 0\end{aligned}] & & \end{aligned}
+\begin{aligned}𝑀 & =[\begin{matrix}4 & −2 & 0 \\ −2 & 1 & 0\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+\frac{1}{2}𝑅_{1} \\ & ∼[\begin{matrix}4 & −2 & 0 \\ 0 & 0 & 0\end{matrix}] & & \end{aligned}
 
 
 $$
@@ -245,7 +245,7 @@ Finally, the required orthogonal projection matrix is given by
 $$
 
 
-\begin{aligned}𝐮⋅𝐮^{𝑇} & =\frac{1}{\sqrt{√5}}[\begin{aligned}1 \\ 2\end{aligned}]⋅\frac{1}{\sqrt{√5}}[\begin{aligned}1 & 2\end{aligned}] \\ & =\frac{1}{5}[\begin{aligned}1 \\ 2\end{aligned}]⋅[\begin{aligned}1 & 2\end{aligned}] \\ & =\frac{1}{5}[\begin{aligned}1 & 2 \\ 2 & 4\end{aligned}].\end{aligned}
+\begin{aligned}𝐮⋅𝐮^{𝑇} & =\frac{1}{\sqrt{5}}[\begin{matrix}1 \\ 2\end{matrix}]⋅\frac{1}{\sqrt{5}}[\begin{matrix}1 & 2\end{matrix}] \\ & =\frac{1}{5}[\begin{matrix}1 \\ 2\end{matrix}]⋅[\begin{matrix}1 & 2\end{matrix}] \\ & =\frac{1}{5}[\begin{matrix}1 & 2 \\ 2 & 4\end{matrix}].\end{aligned}
 
 
 $$

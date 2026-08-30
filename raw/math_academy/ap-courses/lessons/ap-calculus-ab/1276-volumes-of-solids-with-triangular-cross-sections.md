@@ -34,7 +34,7 @@ Then, the base of the cross-section is
 $$
 
 
-\begin{aligned}𝑎 & =|𝑦|=\sqrt{√9−𝑥^{2}}.\end{aligned}
+\begin{aligned}𝑎 & =|𝑦|=\sqrt{9−𝑥^{2}}.\end{aligned}
 
 
 $$
@@ -54,7 +54,7 @@ So, the expression for the area of the cross-section is
 $$
 
 
-\begin{aligned}𝐴(𝑥) & =\frac{\sqrt{√3}}{4}𝑎^{2} \\ & =\frac{\sqrt{√3}}{4}(\sqrt{√9−𝑥^{2}})^{2} \\ & =\frac{\sqrt{√3}}{4}(9−𝑥^{2}).\end{aligned}
+\begin{aligned}𝐴(𝑥) & =\frac{\sqrt{3}}{4}𝑎^{2} \\ & =\frac{\sqrt{3}}{4}(\sqrt{9−𝑥^{2}})^{2} \\ & =\frac{\sqrt{3}}{4}(9−𝑥^{2}).\end{aligned}
 
 
 $$
@@ -64,7 +64,7 @@ We can now write the volume of the solid, as follows:
 $$
 
 
-\begin{aligned}𝑉 & =∫_{𝑏𝑎}^{}𝐴(𝑥)\,d𝑥 \\ & =\frac{\sqrt{√3}}{4}∫_{30}^{}(9−𝑥^{2})d𝑥\end{aligned}
+\begin{aligned}𝑉 & =∫_{𝑏𝑎}𝐴(𝑥)\,d𝑥 \\ & =\frac{\sqrt{3}}{4}∫_{30}(9−𝑥^{2})d𝑥\end{aligned}
 
 
 $$
@@ -78,7 +78,7 @@ Recall that the area $A$ of a triangle is given by
 $$
 
 
-A = \dfrac12 \cdot \textrm{base} \cdot \textrm{height}.
+A = \dfrac12 \cdot \text{base} \cdot \text{height}.
 
 
 $$
@@ -142,7 +142,7 @@ So, the expression for the area of the cross-section is
 $$
 
 
-\begin{aligned}𝐴(𝑥) & =\frac{1}{4}𝑐^{2} \\ & =\frac{1}{4}(\sqrt{√−𝑥})^{2} \\ & =−\frac{1}{4}𝑥.\end{aligned}
+\begin{aligned}𝐴(𝑥) & =\frac{1}{4}𝑐^{2} \\ & =\frac{1}{4}(\sqrt{−𝑥})^{2} \\ & =−\frac{1}{4}𝑥.\end{aligned}
 
 
 $$
@@ -152,7 +152,7 @@ We can now calculate the volume of the solid, as follows:
 $$
 
 
-\begin{aligned}𝑉 & =∫_{𝑏𝑎}^{}𝐴(𝑥)\,d𝑥 \\ & =∫_{−1−3}^{}(−\frac{1}{4}𝑥)d𝑥 \\ & =−\frac{1}{4}∫_{−1−3}^{}𝑥\,d𝑥 \\ & =−\frac{1}{4}⋅\frac{𝑥^{2}}{2}_{−1−3}^{} \\ & =−\frac{1}{4}(\frac{(−1)^{2}}{2}−\frac{(−3)^{2}}{2}) \\ & =1\end{aligned}
+\begin{aligned}𝑉 & =∫_{𝑏𝑎}𝐴(𝑥)\,d𝑥 \\ & =∫_{−1−3}(−\frac{1}{4}𝑥)d𝑥 \\ & =−\frac{1}{4}∫_{−1−3}𝑥\,d𝑥 \\ & =−\frac{1}{4}⋅\frac{𝑥^{2}}{2}_{−1−3} \\ & =−\frac{1}{4}(\frac{(−1)^{2}}{2}−\frac{(−3)^{2}}{2}) \\ & =1\end{aligned}
 
 
 $$
@@ -210,7 +210,7 @@ So, the expression for the area of the cross-section is
 $$
 
 
-\begin{aligned}𝐴(𝑥) & =\frac{\sqrt{√3}}{4}𝑎^{2} \\ & =\frac{\sqrt{√3}}{4}(2|1−𝑥^{2}|)^{2} \\ & =\sqrt{√3}(1−2𝑥^{2}+𝑥^{4}).\end{aligned}
+\begin{aligned}𝐴(𝑥) & =\frac{\sqrt{3}}{4}𝑎^{2} \\ & =\frac{\sqrt{3}}{4}(2|1−𝑥^{2}|)^{2} \\ & =\sqrt{3}(1−2𝑥^{2}+𝑥^{4}).\end{aligned}
 
 
 $$
@@ -220,7 +220,7 @@ We can now write the volume of the solid, as follows:
 $$
 
 
-\begin{aligned}𝑉 & =∫_{𝑏𝑎}^{}𝐴(𝑥)\,d𝑥 \\ & =\sqrt{√3}∫_{1−1}^{}(1−2𝑥^{2}+𝑥^{4})d𝑥\end{aligned}
+\begin{aligned}𝑉 & =∫_{𝑏𝑎}𝐴(𝑥)\,d𝑥 \\ & =\sqrt{3}∫_{1−1}(1−2𝑥^{2}+𝑥^{4})d𝑥\end{aligned}
 
 
 $$
@@ -248,7 +248,7 @@ Then, the base of the cross-section is
 $$
 
 
-\begin{aligned}𝑏 & =|𝑥|=\sqrt{√2−𝑦^{2}}.\end{aligned}
+\begin{aligned}𝑏 & =|𝑥|=\sqrt{2−𝑦^{2}}.\end{aligned}
 
 
 $$
@@ -268,7 +268,7 @@ So, the expression for the area of the cross-section is
 $$
 
 
-\begin{aligned}𝐴(𝑦) & =\frac{1}{2}𝑏^{2} \\ & =\frac{1}{2}(\sqrt{√2−𝑦^{2}})^{2} \\ & =\frac{1}{2}(2−𝑦^{2}).\end{aligned}
+\begin{aligned}𝐴(𝑦) & =\frac{1}{2}𝑏^{2} \\ & =\frac{1}{2}(\sqrt{2−𝑦^{2}})^{2} \\ & =\frac{1}{2}(2−𝑦^{2}).\end{aligned}
 
 
 $$
@@ -278,7 +278,7 @@ We can now write the volume of the solid as an integral, as follows:
 $$
 
 
-\begin{aligned}𝑉 & =∫_{𝑑𝑐}^{}𝐴(𝑦)\,d𝑦 \\ & =\frac{1}{2}∫_{\sqrt{√2}0}^{}(2−𝑦^{2})\,d𝑦\end{aligned}
+\begin{aligned}𝑉 & =∫_{𝑑𝑐}𝐴(𝑦)\,d𝑦 \\ & =\frac{1}{2}∫_{\sqrt{2}0}^{}(2−𝑦^{2})\,d𝑦\end{aligned}
 
 
 $$
@@ -304,7 +304,7 @@ Then the base of the cross-section is
 $$
 
 
-\begin{aligned}𝑐 & =|𝑥|=\sqrt{√4−2𝑦^{2}}=\sqrt{√4−2𝑦^{2}}.\end{aligned}
+\begin{aligned}𝑐 & =|𝑥|=\sqrt{4−2𝑦^{2}}=\sqrt{4−2𝑦^{2}}.\end{aligned}
 
 
 $$
@@ -324,7 +324,7 @@ So, the expression for the area of the cross-section is
 $$
 
 
-\begin{aligned}𝐴(𝑦) & =\frac{1}{4}𝑐^{2} \\ & =\frac{1}{4}(\sqrt{√4−2𝑦^{2}})^{2} \\ & =\frac{1}{4}(4−2𝑦^{2}) \\ & =1−\frac{𝑦^{2}}{2}.\end{aligned}
+\begin{aligned}𝐴(𝑦) & =\frac{1}{4}𝑐^{2} \\ & =\frac{1}{4}(\sqrt{4−2𝑦^{2}})^{2} \\ & =\frac{1}{4}(4−2𝑦^{2}) \\ & =1−\frac{𝑦^{2}}{2}.\end{aligned}
 
 
 $$
@@ -334,7 +334,7 @@ We can now write the volume of the solid, as follows:
 $$
 
 
-\begin{aligned}𝑉 & =∫_{𝑑𝑐}^{}𝐴(𝑦)\,d𝑦 \\ & =∫_{\sqrt{√2}0}^{}(1−\frac{𝑦^{2}}{2})d𝑦\end{aligned}
+\begin{aligned}𝑉 & =∫_{𝑑𝑐}𝐴(𝑦)\,d𝑦 \\ & =∫_{\sqrt{2}0}^{}(1−\frac{𝑦^{2}}{2})d𝑦\end{aligned}
 
 
 $$
@@ -356,7 +356,7 @@ First, we determine the limits of integration. To do that, we find the intersect
 $$
 
 
-\begin{aligned}𝑓(𝑦) & =𝑔(𝑦) \\ \sqrt{√𝑦} & =𝑦 \\ \sqrt{√𝑦}−𝑦 & =0 \\ \sqrt{√𝑦}(1−\sqrt{√𝑦}) & =0.\end{aligned}
+\begin{aligned}𝑓(𝑦) & =𝑔(𝑦) \\ \sqrt{𝑦} & =𝑦 \\ \sqrt{𝑦}−𝑦 & =0 \\ \sqrt{𝑦}(1−\sqrt{𝑦}) & =0.\end{aligned}
 
 
 $$
@@ -372,7 +372,7 @@ Then the base of the cross-section is
 $$
 
 
-\begin{aligned}𝑏 & =|𝑓(𝑦)−𝑔(𝑦)| \\ & =|\sqrt{√𝑦}−𝑦|.\end{aligned}
+\begin{aligned}𝑏 & =|𝑓(𝑦)−𝑔(𝑦)| \\ & =|\sqrt{𝑦}−𝑦|.\end{aligned}
 
 
 $$
@@ -392,7 +392,7 @@ So, the expression for the area of the cross-section is
 $$
 
 
-\begin{aligned}𝐴(𝑦) & =\frac{1}{2}𝑏^{2} \\ & =\frac{1}{2}|\sqrt{√𝑦}−𝑦|^{2} \\ & =\frac{1}{2}(𝑦−2𝑦^{3/2}+𝑦^{2}).\end{aligned}
+\begin{aligned}𝐴(𝑦) & =\frac{1}{2}𝑏^{2} \\ & =\frac{1}{2}|\sqrt{𝑦}−𝑦|^{2} \\ & =\frac{1}{2}(𝑦−2𝑦^{3/2}+𝑦^{2}).\end{aligned}
 
 
 $$
@@ -402,7 +402,7 @@ We can now calculate the volume of the solid, as follows:
 $$
 
 
-\begin{aligned}𝑉 & =∫_{𝑑𝑐}^{}𝐴(𝑦)\,d𝑦 \\ & =\frac{1}{2}∫_{10}^{}(𝑦−2𝑦^{3/2}+𝑦^{2})\,d𝑦 \\ & =\frac{1}{2}[\frac{𝑦^{2}}{2}−\frac{4}{5}𝑦^{5/2}+\frac{𝑦^{3}}{3}]_{10}^{} \\ & =\frac{1}{2}(\frac{1}{2}−\frac{4}{5}+\frac{1}{3})−0 \\ & =\frac{1}{2}⋅\frac{1}{30} \\ & =\frac{1}{60}\end{aligned}
+\begin{aligned}𝑉 & =∫_{𝑑𝑐}𝐴(𝑦)\,d𝑦 \\ & =\frac{1}{2}∫_{10}(𝑦−2𝑦^{3/2}+𝑦^{2})\,d𝑦 \\ & =\frac{1}{2}[\frac{𝑦^{2}}{2}−\frac{4}{5}𝑦^{5/2}+\frac{𝑦^{3}}{3}]_{10} \\ & =\frac{1}{2}(\frac{1}{2}−\frac{4}{5}+\frac{1}{3})−0 \\ & =\frac{1}{2}⋅\frac{1}{30} \\ & =\frac{1}{60}\end{aligned}
 
 
 $$
@@ -415,4 +415,4 @@ Here, we derive the three useful triangle formulas that we have used throughout 
 
 ![Instructional graphic](../../../lesson-assets/ap-calculus-ab/topic-1276/ea57f3dc09816360.png)
 
-- For an isosceles right triangle with leg $b$ and hypotenuse $c,$ the area $A$ of the triangle is This is a straightforward application of the formula for the area of a triangle. Clearly, we have $\textrm{base} = \textrm{height} = b,$ and therefore, the formula follows immediately. We also have the formula To see why this is true, recall that, for an isosceles right triangle, the base $b$ and hypotenuse $c$ are related by the equation $c = \sqrt 2 b.$ Now, substituting for $b$ into the formula $A=\dfrac12 b^2,$ we get
+- For an isosceles right triangle with leg $b$ and hypotenuse $c,$ the area $A$ of the triangle is This is a straightforward application of the formula for the area of a triangle. Clearly, we have $\text{base} = \text{height} = b,$ and therefore, the formula follows immediately. We also have the formula To see why this is true, recall that, for an isosceles right triangle, the base $b$ and hypotenuse $c$ are related by the equation $c = \sqrt 2 b.$ Now, substituting for $b$ into the formula $A=\dfrac12 b^2,$ we get

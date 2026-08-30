@@ -296,7 +296,7 @@ More generally, we may use the following formula when computing the degrees of f
 $$
 
 
-\nu = \textrm{number of categories} - \textrm{number of constraints}
+\nu = \text{number of categories} - \text{number of constraints}
 
 
 $$
@@ -321,7 +321,7 @@ We also have the following:
 
 - Since we want to know whether the test statistic exceeds a certain threshold, the chi-square goodness-of-fit test is *always right-tailed*.
 
-Using a chi-square table, the critical value for $\nu=5$ at a $5\%$ significance level is $\chi^2_{\textrm{critical}}=11.070,$ and the critical region is
+Using a chi-square table, the critical value for $\nu=5$ at a $5\%$ significance level is $\chi^2_{\text{critical}}=11.070,$ and the critical region is
 
 $$
 
@@ -335,7 +335,7 @@ as shown below.
 
 ![Instructional graphic](../../../lesson-assets/probability-and-statistics/topic-3014/14bd6614d08914d3.png)
 
-Our test statistic $(3.4)$ does not lie inside the critical region. Therefore, there is $\boxed{\color{blue}\textrm{insufficient}}$ evidence to reject the null hypothesis.
+Our test statistic $(3.4)$ does not lie inside the critical region. Therefore, there is $\boxed{\color{blue}\text{insufficient}}$ evidence to reject the null hypothesis.
 
 In other words, we have no evidence to suggest that the die is biased.
 
@@ -429,7 +429,7 @@ $$
 
 So, there are $\nu = \boxed{\color{blue}2}$ degrees of freedom.
 
-From the given chi-square table, the critical value for $\nu=2$ at a $1\%$ significance level is $\chi^2_{\textrm{critical}}=9.210,$ and the critical region is
+From the given chi-square table, the critical value for $\nu=2$ at a $1\%$ significance level is $\chi^2_{\text{critical}}=9.210,$ and the critical region is
 
 $$
 
@@ -443,4 +443,4 @@ as shown below.
 
 ![Instructional graphic](../../../lesson-assets/probability-and-statistics/topic-3014/bd50969c20c57a8f.png)
 
-Our test statistic $(9.76)$ lies inside the critical region. Therefore, there is $\boxed{\color{blue}\textrm{sufficient}}$ evidence to reject the null hypothesis.
+Our test statistic $(9.76)$ lies inside the critical region. Therefore, there is $\boxed{\color{blue}\text{sufficient}}$ evidence to reject the null hypothesis.

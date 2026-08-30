@@ -196,7 +196,7 @@ $$
 
 #### Question
 
-If the area of the trapezoid $ABCD$ is $38\,\textrm{ft}^2,$ what is the area of the triangle $\triangle BCE?$
+If the area of the trapezoid $ABCD$ is $38\,\text{ft}^2,$ what is the area of the triangle $\triangle BCE?$
 
 ![Instructional graphic](../../../lesson-assets/grade-7/topic-1353/61d37aabb5bfc751.png)
 
@@ -254,7 +254,7 @@ $$
 
 
 
-\textrm{Area of Parallelogram} = \textrm{base} \times \textrm{height} = (a+b) \times h.
+\text{Area of Parallelogram} = \text{base} \times \text{height} = (a+b) \times h.
 
 
 
@@ -266,7 +266,7 @@ $$
 
 
 
-\textrm{Area of Trapezoid} = \dfrac{\textrm{Area of Parallelogram}}{2} = \dfrac{(a+b) \cdot h}{2}
+\text{Area of Trapezoid} = \dfrac{\text{Area of Parallelogram}}{2} = \dfrac{(a+b) \cdot h}{2}
 
 
 

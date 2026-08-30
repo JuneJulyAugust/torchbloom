@@ -28,7 +28,7 @@ If a random variable $X$ follows an exponential distribution, we write
 $$
 
 
-X\sim \textrm{Exp}(\lambda).
+X\sim \text{Exp}(\lambda).
 
 
 $$
@@ -39,7 +39,7 @@ The exponential distribution models the amount of continuous space or time betwe
 
 #### Question
 
-Given that the random variable $X\sim \textrm{Exp}\left(1\right),$ calculate $P\left(X < 2\right).$ Round your final answer to four decimal places.
+Given that the random variable $X\sim \text{Exp}\left(1\right),$ calculate $P\left(X < 2\right).$ Round your final answer to four decimal places.
 
 #### Explanation
 
@@ -58,7 +58,7 @@ We're given that
 $$
 
 
-X\sim \textrm{Exp} \left( 1 \right).
+X\sim \text{Exp} \left( 1 \right).
 
 
 $$
@@ -78,7 +78,7 @@ Therefore, we can calculate $P\left(X < 2\right)$ as follows:
 $$
 
 
-\begin{aligned}𝑃(𝑋<2) & =∫_{20}^{}𝑓(𝑥)\,d𝑥 \\ & =∫_{20}^{}𝑒^{−𝑥}\,d𝑥 \\ & =−𝑒^{−𝑥}_{20}^{} \\ & =−𝑒^{−2}+𝑒^{0} \\ & ≈0.8647\end{aligned}
+\begin{aligned}𝑃(𝑋<2) & =∫_{20}𝑓(𝑥)\,d𝑥 \\ & =∫_{20}𝑒^{−𝑥}\,d𝑥 \\ & =−𝑒^{−𝑥}_{20} \\ & =−𝑒^{−2}+𝑒^{0} \\ & ≈0.8647\end{aligned}
 
 
 $$
@@ -87,7 +87,7 @@ $$
 
 #### Question
 
-Given that the random variable $X\sim \textrm{Exp}\left(\dfrac 23\right),$ calculate $P\left(X \geq 3\right).$ Round your final answer to four decimal places.
+Given that the random variable $X\sim \text{Exp}\left(\dfrac 23\right),$ calculate $P\left(X \geq 3\right).$ Round your final answer to four decimal places.
 
 #### Explanation
 
@@ -106,7 +106,7 @@ We're given that
 $$
 
 
-X\sim \textrm{Exp} \left( \dfrac 23 \right).
+X\sim \text{Exp} \left( \dfrac 23 \right).
 
 
 $$
@@ -126,7 +126,7 @@ Therefore, we can calculate $P\left(X \geq 3\right)$ as follows:
 $$
 
 
-\begin{aligned}𝑃(𝑋≥3) & =∫_{∞3}^{}𝑓(𝑥)\,d𝑥 \\ & =∫_{∞3}^{}\frac{2}{3}𝑒^{−2𝑥/3}\,d𝑥 \\ & =−𝑒^{−2𝑥/3}_{∞3}^{} \\ & =𝑒^{−2} \\ & ≈0.1353\end{aligned}
+\begin{aligned}𝑃(𝑋≥3) & =∫_{∞3}𝑓(𝑥)\,d𝑥 \\ & =∫_{∞3}\frac{2}{3}𝑒^{−2𝑥/3}\,d𝑥 \\ & =−𝑒^{−2𝑥/3}_{∞3} \\ & =𝑒^{−2} \\ & ≈0.1353\end{aligned}
 
 
 $$
@@ -135,7 +135,7 @@ $$
 
 #### Question
 
-Given that the random variable $X\sim \textrm{Exp}\left(2\right),$ calculate $P\left(\dfrac 12 < X < 2\right).$ Round your final answer to four decimal places.
+Given that the random variable $X\sim \text{Exp}\left(2\right),$ calculate $P\left(\dfrac 12 < X < 2\right).$ Round your final answer to four decimal places.
 
 #### Explanation
 
@@ -154,7 +154,7 @@ We're given that
 $$
 
 
-X\sim \textrm{Exp} \left( 2 \right).
+X\sim \text{Exp} \left( 2 \right).
 
 
 $$
@@ -174,7 +174,7 @@ Therefore, we can calculate $P\left(\dfrac 12 < X < 2\right)$ as follows:
 $$
 
 
-\begin{aligned}𝑃(\frac{1}{2}<𝑋<2) & =∫_{21/2}^{}𝑓(𝑥)\,d𝑥 \\ & =∫_{21/2}^{}2𝑒^{−2𝑥}\,d𝑥 \\ & =−𝑒^{−2𝑥}_{21/2}^{} \\ & =−𝑒^{−4}+𝑒^{−1} \\ & ≈0.3496\end{aligned}
+\begin{aligned}𝑃(\frac{1}{2}<𝑋<2) & =∫_{21/2}𝑓(𝑥)\,d𝑥 \\ & =∫_{21/2}2𝑒^{−2𝑥}\,d𝑥 \\ & =−𝑒^{−2𝑥}_{21/2} \\ & =−𝑒^{−4}+𝑒^{−1} \\ & ≈0.3496\end{aligned}
 
 
 $$
@@ -228,7 +228,7 @@ Next, let's recall how to calculate $P(X > a)$ for some $a>0{:}$
 $$
 
 
-\begin{aligned}𝑃(𝑋>𝑎) & =1−𝑃(𝑋<𝑎) \\ & =1−∫_{𝑎0}^{}𝜆𝑒^{−𝜆𝑥}\,d𝑥 \\ & =1+𝑒^{−𝜆𝑥}_{𝑎0}^{} \\ & =1+𝑒^{−𝜆𝑎}−𝑒^{0} \\ & =𝑒^{−𝜆𝑎}.\end{aligned}
+\begin{aligned}𝑃(𝑋>𝑎) & =1−𝑃(𝑋<𝑎) \\ & =1−∫_{𝑎0}𝜆𝑒^{−𝜆𝑥}\,d𝑥 \\ & =1+𝑒^{−𝜆𝑥}_{𝑎0} \\ & =1+𝑒^{−𝜆𝑎}−𝑒^{0} \\ & =𝑒^{−𝜆𝑎}.\end{aligned}
 
 
 $$
@@ -261,7 +261,7 @@ We'll discuss how the memoryless property is used for mathematical modeling in f
 
 ### A Worked Example
 
-Given that the random variable $X\sim \textrm{Exp}(2),$ let's calculate the following probability:
+Given that the random variable $X\sim \text{Exp}(2),$ let's calculate the following probability:
 
 $$
 
@@ -315,7 +315,7 @@ $$
 
 #### Question
 
-Given that the random variable $X\sim \textrm{Exp}\left(4\right),$ calculate $P\left(X \leq 7 \, \bigg |\, X > 5\right).$
+Given that the random variable $X\sim \text{Exp}\left(4\right),$ calculate $P\left(X \leq 7 \, \bigg |\, X > 5\right).$
 
 #### Explanation
 

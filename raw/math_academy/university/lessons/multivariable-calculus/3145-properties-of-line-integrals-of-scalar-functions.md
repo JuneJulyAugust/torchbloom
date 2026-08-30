@@ -17,7 +17,7 @@ In this lesson, we discuss some properties of line integrals of scalar functions
 $$
 
 
-\displaystyle\int\limits_C f(x, y) \, \textrm{d}s,
+\displaystyle\int\limits_C f(x, y) \, \text{d}s,
 
 
 $$
@@ -29,7 +29,7 @@ Firstly, by setting $f(x,y) = 1,$ we can write our line integral as
 $$
 
 
-\displaystyle\int\limits_C \, \textrm{d}s.
+\displaystyle\int\limits_C \, \text{d}s.
 
 
 $$
@@ -45,7 +45,7 @@ In this case, the arc length of $C$ is given by the length of the hypotenuse of 
 $$
 
 
-\displaystyle\int\limits_C \, \textrm{d}s = \sqrt{4^2+3^2} = 5.
+\displaystyle\int\limits_C \, \text{d}s = \sqrt{4^2+3^2} = 5.
 
 
 $$
@@ -97,7 +97,7 @@ Let's once again consider the line integral with respect to arc length of $f(x,y
 $$
 
 
-\displaystyle\int\limits_C f(x, y) \, \textrm{d}s
+\displaystyle\int\limits_C f(x, y) \, \text{d}s
 
 
 $$
@@ -185,7 +185,7 @@ Let's once again consider the line integral with respect to arc length of $f(x,y
 $$
 
 
-\displaystyle\int\limits_C f(x, y) \, \textrm{d}s
+\displaystyle\int\limits_C f(x, y) \, \text{d}s
 
 
 $$

@@ -141,7 +141,7 @@ So, our confidence interval can be written as follows:
 $$
 
 
-\begin{aligned}(\overset{\,𝑝}{ˆ}−[margin of error], & \,\overset{\,𝑝}{ˆ}+[margin of error]) \\ (\overset{\,𝑝}{ˆ}−[z-score]⋅[standard error], & \,\overset{\,𝑝}{ˆ}+[z-score]⋅[standard error]) \\ (\overset{\,𝑝}{ˆ}−𝑧_{𝛼/2}⋅\sqrt{√\frac{\overset{\,𝑝}{ˆ}(1−\overset{\,𝑝}{ˆ})}{𝑛}}, & \,\overset{\,𝑝}{ˆ}+𝑧_{𝛼/2}⋅\sqrt{√\frac{\overset{\,𝑝}{ˆ}(1−\overset{\,𝑝}{ˆ})}{𝑛}})\end{aligned}
+\begin{aligned}(\overset{\,𝑝}{ˆ}−[margin of error], & \,\overset{\,𝑝}{ˆ}+[margin of error]) \\ (\overset{\,𝑝}{ˆ}−[z-score]⋅[standard error], & \,\overset{\,𝑝}{ˆ}+[z-score]⋅[standard error]) \\ (\overset{\,𝑝}{ˆ}−𝑧_{𝛼/2}⋅\sqrt{\frac{\overset{\,𝑝}{ˆ}(1−\overset{\,𝑝}{ˆ})}{𝑛}}, & \,\overset{\,𝑝}{ˆ}+𝑧_{𝛼/2}⋅\sqrt{\frac{\overset{\,𝑝}{ˆ}(1−\overset{\,𝑝}{ˆ})}{𝑛}})\end{aligned}
 
 
 $$
@@ -223,7 +223,7 @@ Therefore, a $90\%$ confidence interval for the population proportion $p$ is the
 $$
 
 
-\begin{aligned} & 0.64±1.645⋅\sqrt{√\frac{0.64(1−0.64)}{100}} \\ & 0.64±0.079\end{aligned}
+\begin{aligned} & 0.64±1.645⋅\sqrt{\frac{0.64(1−0.64)}{100}} \\ & 0.64±0.079\end{aligned}
 
 
 $$
@@ -313,7 +313,7 @@ Therefore, a $95\%$ confidence interval for the population proportion $p$ is the
 $$
 
 
-\begin{aligned} & 0.52±1.96⋅\sqrt{√\frac{0.52(1−0.52)}{1\,500}} \\ & 0.52±0.025\end{aligned}
+\begin{aligned} & 0.52±1.96⋅\sqrt{\frac{0.52(1−0.52)}{1\,500}} \\ & 0.52±0.025\end{aligned}
 
 
 $$

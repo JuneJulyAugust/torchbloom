@@ -42,7 +42,7 @@ The arc length of a curve $y=f(x)$ between $x=a$ and $x=b$ can be found using th
 $$
 
 
-L = \int _a^b \sqrt{1 + [f'(x)]^2} \, \textrm{d}x.
+L = \int _a^b \sqrt{1 + [f'(x)]^2} \, \text{d}x.
 
 
 $$
@@ -64,7 +64,7 @@ Substituting $f'(x) = -\dfrac{1}{\sqrt{1-x^2}}$ into the arc length formula, we 
 $$
 
 
-\begin{aligned}𝐿 & =∫_{1/20}^{}\sqrt{√1+[𝑓^{′}(𝑥)]^{2}}\,d𝑥 \\ & =∫_{1/20}^{}\sqrt{√1+\frac{1}{1−𝑥^{2}}}\,d𝑥 \\ & =∫_{1/20}^{}\sqrt{√\frac{1−𝑥^{2}+1}{1−𝑥^{2}}}\,d𝑥 \\ & =∫_{1/20}^{}\sqrt{√\frac{2−𝑥^{2}}{1−𝑥^{2}}}\,d𝑥\,.\end{aligned}
+\begin{aligned}𝐿 & =∫_{1/20}\sqrt{1+[𝑓^{′}(𝑥)]^{2}}\,d𝑥 \\ & =∫_{1/20}\sqrt{1+\frac{1}{1−𝑥^{2}}}\,d𝑥 \\ & =∫_{1/20}\sqrt{\frac{1−𝑥^{2}+1}{1−𝑥^{2}}}\,d𝑥 \\ & =∫_{1/20}\sqrt{\frac{2−𝑥^{2}}{1−𝑥^{2}}}\,d𝑥\,.\end{aligned}
 
 
 $$
@@ -84,7 +84,7 @@ The arc length of a curve $y=f(x)$ between $x=a$ and $x=b$ can be found using th
 $$
 
 
-L = \int _a^b \sqrt{1 + [f'(x)]^2} \, \textrm{d}x.
+L = \int _a^b \sqrt{1 + [f'(x)]^2} \, \text{d}x.
 
 
 $$
@@ -106,7 +106,7 @@ Now, let's compute $\sqrt {1 + [f'(x)]^2}\mathbin{:}$
 $$
 
 
-\begin{aligned}\sqrt{√1+[𝑓^{′}(𝑥)]^{2}} & =\sqrt{√1+[\frac{3}{2}𝑥^{1/2}]^{2}} \\ & =\sqrt{√1+\frac{9}{4}𝑥} \\ & =\sqrt{√\frac{4+9𝑥}{4}} \\ & =\sqrt{√\frac{1}{4}(4+9𝑥)} \\ & =\sqrt{√\frac{1}{4}}\sqrt{√4+9𝑥} \\ & =\frac{1}{2}\sqrt{√4+9𝑥}\end{aligned}
+\begin{aligned}\sqrt{1+[𝑓^{′}(𝑥)]^{2}} & =\sqrt{1+[\frac{3}{2}𝑥^{1/2}]^{2}} \\ & =\sqrt{1+\frac{9}{4}𝑥} \\ & =\sqrt{\frac{4+9𝑥}{4}} \\ & =\sqrt{\frac{1}{4}(4+9𝑥)} \\ & =\sqrt{\frac{1}{4}}\sqrt{4+9𝑥} \\ & =\frac{1}{2}\sqrt{4+9𝑥}\end{aligned}
 
 
 $$
@@ -116,12 +116,12 @@ Substituting $\sqrt {1 + [f'(x)]^2} = \dfrac{1}{2}\sqrt{4 + 9x}$ to the formula 
 $$
 
 
-\begin{aligned}𝐿 & =∫_{𝑏𝑎}^{}\sqrt{√1+[𝑓^{′}(𝑥)]^{2}}\,d𝑥 \\ & =\frac{1}{2}∫_{\frac{4}{3}0}^{}\sqrt{√4+9𝑥}\,d𝑥.\end{aligned}
+\begin{aligned}𝐿 & =∫_{𝑏𝑎}\sqrt{1+[𝑓^{′}(𝑥)]^{2}}\,d𝑥 \\ & =\frac{1}{2}∫_{\frac{4}{3}0}^{}\sqrt{4+9𝑥}\,d𝑥.\end{aligned}
 
 
 $$
 
-We evaluate this integral using the substitution $u= 4+9x.$ Then, $\textrm{d}x = \dfrac{1}{9}\textrm{d}u.$
+We evaluate this integral using the substitution $u= 4+9x.$ Then, $\text{d}x = \dfrac{1}{9}\text{d}u.$
 
 We also need to compute new limits:
 
@@ -138,7 +138,7 @@ Therefore, we get
 $$
 
 
-\begin{aligned}𝐿 & =\frac{1}{2}∫_{\frac{4}{3}0}^{}\sqrt{√4+9𝑥}\,d𝑥 \\ & =\frac{1}{2}∫_{164}^{}\sqrt{√𝑢}⋅\frac{1}{9}\,d𝑢 \\ & =\frac{1}{18}∫_{164}^{}𝑢^{\frac{1}{2}}\,d𝑢 \\ & =\frac{1}{18}[\frac{2}{3}𝑢^{\frac{3}{2}}]_{164}^{} \\ & =\frac{1}{18}⋅\frac{2}{3}[𝑢^{\frac{3}{2}}]_{164}^{} \\ & =\frac{1}{27}([(16)^{\frac{3}{2}}]−[(4)^{\frac{3}{2}}]) \\ & =\frac{1}{27}([64]−[8]) \\ & =\frac{56}{27}.\end{aligned}
+\begin{aligned}𝐿 & =\frac{1}{2}∫_{\frac{4}{3}0}^{}\sqrt{4+9𝑥}\,d𝑥 \\ & =\frac{1}{2}∫_{164}\sqrt{𝑢}⋅\frac{1}{9}\,d𝑢 \\ & =\frac{1}{18}∫_{164}𝑢^{\frac{1}{2}}\,d𝑢 \\ & =\frac{1}{18}[\frac{2}{3}𝑢^{\frac{3}{2}}]_{164} \\ & =\frac{1}{18}⋅\frac{2}{3}[𝑢^{\frac{3}{2}}]_{164} \\ & =\frac{1}{27}([(16)^{\frac{3}{2}}]−[(4)^{\frac{3}{2}}]) \\ & =\frac{1}{27}([64]−[8]) \\ & =\frac{56}{27}.\end{aligned}
 
 
 $$
@@ -147,7 +147,7 @@ $$
 
 #### Question
 
-The length of a curve $y=f(x)$ is given by ${\displaystyle \int_{5}^{6}} \sqrt{1+\dfrac {x^2}{x^2-16}} \,\textrm{d}x.$ Which of the following could be an equation for this curve?
+The length of a curve $y=f(x)$ is given by ${\displaystyle \int_{5}^{6}} \sqrt{1+\dfrac {x^2}{x^2-16}} \,\text{d}x.$ Which of the following could be an equation for this curve?
 
 1. $y= \dfrac{1}{\sqrt{x^2-16}}$
 
@@ -162,7 +162,7 @@ The arc length of a curve $y=f(x)$ between $x=a$ and $x=b$ can be found using th
 $$
 
 
-L = \int _a^b \sqrt{1 + [f'(x)]^2} \, \textrm{d}x.
+L = \int _a^b \sqrt{1 + [f'(x)]^2} \, \text{d}x.
 
 
 $$
@@ -172,7 +172,7 @@ We're given that
 $$
 
 
-L=\int_{5}^{6} \sqrt{1+\dfrac {x^2}{x^2-16}} \,\textrm{d}x.
+L=\int_{5}^{6} \sqrt{1+\dfrac {x^2}{x^2-16}} \,\text{d}x.
 
 
 $$
@@ -192,7 +192,7 @@ Integrating the above equation with respect to $x,$ we get
 $$
 
 
-\begin{aligned}𝑓(𝑥) & =±∫\frac{𝑥}{\sqrt{√𝑥^{2}−16}} d𝑥 \\ & =±\sqrt{√𝑥^{2}−16}+𝐶.\end{aligned}
+\begin{aligned}𝑓(𝑥) & =±∫\frac{𝑥}{\sqrt{𝑥^{2}−16}} d𝑥 \\ & =±\sqrt{𝑥^{2}−16}+𝐶.\end{aligned}
 
 
 $$
@@ -226,7 +226,7 @@ To approximate the length $\Delta{s}$ we apply the Pythagorean theorem, as follo
 $$
 
 
-\begin{aligned}Δ𝑠≈\sqrt{√(Δ𝑥)^{2}+(Δ𝑦)^{2}}=\sqrt{√1+(\frac{Δ𝑦}{Δ𝑥})^{2}}⋅Δ𝑥\end{aligned}
+\begin{aligned}Δ𝑠≈\sqrt{(Δ𝑥)^{2}+(Δ𝑦)^{2}}=\sqrt{1+(\frac{Δ𝑦}{Δ𝑥})^{2}}⋅Δ𝑥\end{aligned}
 
 
 $$
@@ -246,7 +246,7 @@ We then take the limit as $\Delta x, \Delta y \rightarrow 0.$ As we do this, we 
 $$
 
 
-\begin{aligned}d𝑠 & =\sqrt{√1+(\frac{d𝑦}{d𝑥})^{2}}\,d𝑥=\sqrt{√1+[𝑓^{′}(𝑥)]^{2}}\,d𝑥\end{aligned}
+\begin{aligned}d𝑠 & =\sqrt{1+(\frac{d𝑦}{d𝑥})^{2}}\,d𝑥=\sqrt{1+[𝑓^{′}(𝑥)]^{2}}\,d𝑥\end{aligned}
 
 
 $$
@@ -256,7 +256,7 @@ the sum becomes a definite integral, and our approximation approaches the exact 
 $$
 
 
-\begin{aligned}𝐿 & =∫d𝑠 \\ & =∫_{𝑏𝑎}^{}\sqrt{√1+(\frac{d𝑦}{d𝑥})^{2}}\,d𝑥 \\ & =∫_{𝑏𝑎}^{}\sqrt{√1+[𝑓^{′}(𝑥)]^{2}}\,d𝑥\end{aligned}
+\begin{aligned}𝐿 & =∫d𝑠 \\ & =∫_{𝑏𝑎}\sqrt{1+(\frac{d𝑦}{d𝑥})^{2}}\,d𝑥 \\ & =∫_{𝑏𝑎}\sqrt{1+[𝑓^{′}(𝑥)]^{2}}\,d𝑥\end{aligned}
 
 
 $$

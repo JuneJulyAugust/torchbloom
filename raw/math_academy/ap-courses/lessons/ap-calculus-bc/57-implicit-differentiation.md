@@ -41,7 +41,7 @@ Now we solve the equation for as follows:
 
 #### Question
 
-Given $xy+y^2=x^2,$ find $\dfrac{\textrm{d}y}{\textrm{d}x}.$
+Given $xy+y^2=x^2,$ find $\dfrac{\text{d}y}{\text{d}x}.$
 
 #### Explanation
 
@@ -57,7 +57,7 @@ $$
 
 $$
 
-Now we solve the equation for $\dfrac{\textrm{d}y}{\textrm{d}x},$ as follows:
+Now we solve the equation for $\dfrac{\text{d}y}{\text{d}x},$ as follows:
 
 $$
 
@@ -92,7 +92,7 @@ Therefore, the slope of the tangent at the point $\left(1,\,2 \right)$ is given 
 $$
 
 
-\begin{aligned} m &=\left(\dfrac{\textrm{d}y}{\textrm{d}x}\right)_{\left(1,\,2 \right)}\\\[5pt] &=\left(\dfrac{4x-y}{x+2y}\right)_{\left(1,\,2 \right)}\\\[5pt] &=\dfrac{4\cdot 1-2}{1+2\cdot 2}\\\[5pt] &=\dfrac{2}{5} \, . \end{aligned}
+\begin{aligned} m &=\left(\dfrac{\text{d}y}{\text{d}x}\right)_{\left(1,\,2 \right)}\\[5pt] &=\left(\dfrac{4x-y}{x+2y}\right)_{\left(1,\,2 \right)}\\[5pt] &=\dfrac{4\cdot 1-2}{1+2\cdot 2}\\[5pt] &=\dfrac{2}{5} \, . \end{aligned}
 
 
 $$
@@ -122,7 +122,7 @@ To find the slope of the tangent line, we will calculate the derivative using im
 $$
 
 
-\begin{aligned} \dfrac{\textrm{d}}{\textrm{d}x} (x^2-2x+ y^2+4y) &=\dfrac{\textrm{d}}{\textrm{d}x} (5)\\\[5pt] \dfrac{\textrm{d}}{\textrm{d}x} (x^2)-\dfrac{\textrm{d}}{\textrm{d}x} (2x)+\dfrac{\textrm{d}}{\textrm{d}x} (y^2)+\dfrac{\textrm{d}}{\textrm{d}x} (4y)&=\dfrac{\textrm{d}}{\textrm{d}x} (5)\\\[5pt] 2x-2+2y\dfrac{\textrm{d}y}{\textrm{d}x}+4\dfrac{\textrm{d}y}{\textrm{d}x}&=0\\\[5pt] (2y+4)\dfrac{\textrm{d}y}{\textrm{d}x}&=2-2x\\\[5pt] \dfrac{\textrm{d}y}{\textrm{d}x} &=\dfrac{2-2x}{2y+4} \end{aligned}
+\begin{aligned} \dfrac{\text{d}}{\text{d}x} (x^2-2x+ y^2+4y) &=\dfrac{\text{d}}{\text{d}x} (5)\\[5pt] \dfrac{\text{d}}{\text{d}x} (x^2)-\dfrac{\text{d}}{\text{d}x} (2x)+\dfrac{\text{d}}{\text{d}x} (y^2)+\dfrac{\text{d}}{\text{d}x} (4y)&=\dfrac{\text{d}}{\text{d}x} (5)\\[5pt] 2x-2+2y\dfrac{\text{d}y}{\text{d}x}+4\dfrac{\text{d}y}{\text{d}x}&=0\\[5pt] (2y+4)\dfrac{\text{d}y}{\text{d}x}&=2-2x\\[5pt] \dfrac{\text{d}y}{\text{d}x} &=\dfrac{2-2x}{2y+4} \end{aligned}
 
 
 $$
@@ -132,7 +132,7 @@ So, the slope of the tangent at the point $\left(0,\,-5 \right)$ is
 $$
 
 
-\begin{aligned} m &=\left(\dfrac{\textrm{d}y}{\textrm{d}x}\right)_{\left(0,\,-5 \right)}\\\[5pt] &=\left(\dfrac{2-2x}{2y+4}\right)_{\left(0,\,-5 \right)}\\\[5pt] &=\dfrac{2-2\cdot 0}{2\cdot (-5)+4}\\\[5pt] &=\dfrac{2}{-6}\\\[5pt] &=-\dfrac{1}{3} \, . \end{aligned}
+\begin{aligned} m &=\left(\dfrac{\text{d}y}{\text{d}x}\right)_{\left(0,\,-5 \right)}\\[5pt] &=\left(\dfrac{2-2x}{2y+4}\right)_{\left(0,\,-5 \right)}\\[5pt] &=\dfrac{2-2\cdot 0}{2\cdot (-5)+4}\\[5pt] &=\dfrac{2}{-6}\\[5pt] &=-\dfrac{1}{3} \, . \end{aligned}
 
 
 $$
@@ -142,7 +142,7 @@ Therefore, the slope of the normal line is $m'=-\dfrac{1}{m}=3.$ We can write th
 $$
 
 
-\begin{aligned} y-y_1 &=m'\left(x-x_1 \right)\\\[5pt] y+5 &=3\left(x-0 \right)\\\[5pt] y&=3x-5 \end{aligned}
+\begin{aligned} y-y_1 &=m'\left(x-x_1 \right)\\[5pt] y+5 &=3\left(x-0 \right)\\[5pt] y&=3x-5 \end{aligned}
 
 
 $$
@@ -152,7 +152,7 @@ Now, we just need to find where this normal line intersects the $x$-axis. At the
 $$
 
 
-\begin{aligned} y&=3x-5\\\[5pt] 0&=3x-5\\\[5pt] x&=\dfrac{5}{3} \end{aligned}
+\begin{aligned} y&=3x-5\\[5pt] 0&=3x-5\\[5pt] x&=\dfrac{5}{3} \end{aligned}
 
 
 $$

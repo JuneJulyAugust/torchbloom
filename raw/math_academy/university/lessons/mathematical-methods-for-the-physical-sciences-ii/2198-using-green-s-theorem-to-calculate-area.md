@@ -128,7 +128,7 @@ So we can calculate our line integral as follows:
 $$
 
 
-\begin{aligned}−\underset{𝐶}{∮}𝑦\,d𝑥 & =−∫_{2𝜋0}^{}sin⁡𝑡⋅(−2sin⁡𝑡)\,d𝑡 \\ & =∫_{2𝜋0}^{}2sin^{2}⁡𝑡\,d𝑡 \\ & =∫_{2𝜋0}^{}2(\frac{1−cos⁡2𝑡}{2})\,d𝑡 \\ & =∫_{2𝜋0}^{}1−cos⁡2𝑡\,d𝑡 \\ & =[𝑡−\frac{1}{2}sin⁡2𝑡]_{2𝜋0}^{} \\ & =2𝜋\end{aligned}
+\begin{aligned}−\underset{𝐶}{∮}𝑦\,d𝑥 & =−∫_{2𝜋0}sin⁡𝑡⋅(−2sin⁡𝑡)\,d𝑡 \\ & =∫_{2𝜋0}2sin^{2}⁡𝑡\,d𝑡 \\ & =∫_{2𝜋0}2(\frac{1−cos⁡2𝑡}{2})\,d𝑡 \\ & =∫_{2𝜋0}1−cos⁡2𝑡\,d𝑡 \\ & =[𝑡−\frac{1}{2}sin⁡2𝑡]_{2𝜋0} \\ & =2𝜋\end{aligned}
 
 
 $$
@@ -138,7 +138,7 @@ Therefore, we conclude that
 $$
 
 
-\textrm{Area}(D) =2\pi.
+\text{Area}(D) =2\pi.
 
 
 $$
@@ -160,7 +160,7 @@ then the area of $D$ is given by
 $$
 
 
-\textrm{Area}(D) = \oint\limits_C \mathbf F\cdot \textrm d \mathbf r = \oint\limits_C P \: \text{d}x + Q \: \text{d}y.
+\text{Area}(D) = \oint\limits_C \mathbf F\cdot \textrm d \mathbf r = \oint\limits_C P \: \text{d}x + Q \: \text{d}y.
 
 
 $$
@@ -170,7 +170,7 @@ Now, if $C$ is *negatively* oriented, then
 $$
 
 
-\textrm{Area}(D) = -\oint\limits_C \mathbf F\cdot \textrm d \mathbf r = -\oint\limits_C P \: \text{d}x + Q \: \text{d}y.
+\text{Area}(D) = -\oint\limits_C \mathbf F\cdot \textrm d \mathbf r = -\oint\limits_C P \: \text{d}x + Q \: \text{d}y.
 
 
 $$
@@ -298,7 +298,7 @@ Therefore, we can write our line integral as
 $$
 
 
-\begin{aligned}\underset{𝐶}{∮}𝑦\,d𝑥 & =∫_{2𝜋0}^{}2cos⁡𝑡⋅2cos⁡𝑡\,d𝑡 \\ & =∫_{2𝜋0}^{}4cos^{2}⁡𝑡\,d𝑡.\end{aligned}
+\begin{aligned}\underset{𝐶}{∮}𝑦\,d𝑥 & =∫_{2𝜋0}2cos⁡𝑡⋅2cos⁡𝑡\,d𝑡 \\ & =∫_{2𝜋0}4cos^{2}⁡𝑡\,d𝑡.\end{aligned}
 
 
 $$
@@ -358,7 +358,7 @@ The derivatives of $\mathbf r_1(t)$ and $\mathbf r_2(t)$ are as follows:
 $$
 
 
-\begin{aligned}𝐶_{1}:\, & 𝐫_{′1}^{}(𝑡)=−8𝑡^{3}\,𝐢+3𝑡^{2}\,𝐣 \\ 𝐶_{2}:\, & 𝐫_{′2}^{}(𝑡)=−𝐣\end{aligned}
+\begin{aligned}𝐶_{1}:\, & 𝐫_{′1}(𝑡)=−8𝑡^{3}\,𝐢+3𝑡^{2}\,𝐣 \\ 𝐶_{2}:\, & 𝐫_{′2}(𝑡)=−𝐣\end{aligned}
 
 
 $$
@@ -368,7 +368,7 @@ Therefore, we can write our line integral as
 $$
 
 
-\begin{aligned}−\underset{𝐶}{∮}𝑦\,d𝑥 & =−\underset{𝐶_{1}∪𝐶_{2}}{∮}𝑦\,d𝑥 \\ & =−\underset{𝐶_{1}}{∮}𝑦\,d𝑥−\underset{𝐶_{2}}{∮}𝑦\,d𝑥 \\ & =−∫_{1−1}^{}𝑡^{3}⋅(−8𝑡^{3})\,d𝑡−∫_{1−1}^{}(−𝑡)⋅0\,d𝑡 \\ & =8∫_{1−1}^{}𝑡^{6}\,d𝑡+0 \\ & =8[\frac{𝑡^{7}}{7}]_{1−1}^{} \\ & =8⋅\frac{2}{7} \\ & =\frac{16}{7}.\end{aligned}
+\begin{aligned}−\underset{𝐶}{∮}𝑦\,d𝑥 & =−\underset{𝐶_{1}∪𝐶_{2}}{∮}𝑦\,d𝑥 \\ & =−\underset{𝐶_{1}}{∮}𝑦\,d𝑥−\underset{𝐶_{2}}{∮}𝑦\,d𝑥 \\ & =−∫_{1−1}𝑡^{3}⋅(−8𝑡^{3})\,d𝑡−∫_{1−1}(−𝑡)⋅0\,d𝑡 \\ & =8∫_{1−1}𝑡^{6}\,d𝑡+0 \\ & =8[\frac{𝑡^{7}}{7}]_{1−1} \\ & =8⋅\frac{2}{7} \\ & =\frac{16}{7}.\end{aligned}
 
 
 $$

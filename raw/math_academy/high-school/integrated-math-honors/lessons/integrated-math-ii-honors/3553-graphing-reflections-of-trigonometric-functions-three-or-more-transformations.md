@@ -51,12 +51,12 @@ Identify the equation that generated the graph above.
 
 ![Instructional graphic](../../../../lesson-assets/integrated-math-ii-honors/topic-3553/57f1365f2f58779c.png)
 
-From the graph, we see that the maximum value is $y_{\textrm{max}} = 4$ and the minimum value is $y_{\textrm{min}} =-2.$ Therefore, the amplitude is
+From the graph, we see that the maximum value is $y_{\text{max}} = 4$ and the minimum value is $y_{\text{min}} =-2.$ Therefore, the amplitude is
 
 $$
 
 
-A = \dfrac{y_{\textrm{max}} - y_{\textrm{min}}}{2} = \dfrac{4-(-2)}{2} = 3.
+A = \dfrac{y_{\text{max}} - y_{\text{min}}}{2} = \dfrac{4-(-2)}{2} = 3.
 
 
 $$
@@ -85,12 +85,12 @@ Identify the equation that generated the graph above.
 
 ![Instructional graphic](../../../../lesson-assets/integrated-math-ii-honors/topic-3553/6514aa58f0478014.png)
 
-From the graph, we see that the maximum value is $y_{\textrm{max}} = 4$ and the minimum value is $y_{\textrm{min}} = 0.$ Therefore, the amplitude is
+From the graph, we see that the maximum value is $y_{\text{max}} = 4$ and the minimum value is $y_{\text{min}} = 0.$ Therefore, the amplitude is
 
 $$
 
 
-A = \dfrac{y_{\textrm{max}} - y_{\textrm{min}}}{2} = \dfrac{4-0}{2} = 2 .
+A = \dfrac{y_{\text{max}} - y_{\text{min}}}{2} = \dfrac{4-0}{2} = 2 .
 
 
 $$

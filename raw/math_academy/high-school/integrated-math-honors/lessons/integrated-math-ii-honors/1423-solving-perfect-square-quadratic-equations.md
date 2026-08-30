@@ -28,7 +28,7 @@ Notice that the left-hand side is a perfect square and the right-hand side is a 
 $$
 
 
-\underbrace{(x+1)^2}_{\large\color{blue}\textrm{perfect square}} = \overbrace{\!\!\!\!\!4\!\!\!\!\!}^{\large\color{red}\textrm{constant}} \!\!\!\!\!
+\underbrace{(x+1)^2}_{\large\color{blue}\text{perfect square}} = \overbrace{\!\!\!\!\!4\!\!\!\!\!}^{\large\color{red}\text{constant}} \!\!\!\!\!
 
 
 $$
@@ -38,7 +38,7 @@ In this case, we can solve the equation using the square root method. First, we 
 $$
 
 
-\begin{aligned}(𝑥+1)^{2} & =4 \\ \sqrt{√(𝑥+1)^{2}} & =\sqrt{√4} \\ |𝑥+1| & =2\end{aligned}
+\begin{aligned}(𝑥+1)^{2} & =4 \\ \sqrt{(𝑥+1)^{2}} & =\sqrt{4} \\ |𝑥+1| & =2\end{aligned}
 
 
 $$
@@ -78,7 +78,7 @@ We solve the equation using the square root method:
 $$
 
 
-\begin{aligned}(3𝑦+2)^{2} & =4 \\ \sqrt{√(3𝑦+2)^{2}} & =\sqrt{√4} \\ |3𝑦+2| & =2 \\ 3𝑦+2 & =±2 \\ 3𝑦 & =−2±2 \\ 𝑦 & =\frac{−2±2}{3}\end{aligned}
+\begin{aligned}(3𝑦+2)^{2} & =4 \\ \sqrt{(3𝑦+2)^{2}} & =\sqrt{4} \\ |3𝑦+2| & =2 \\ 3𝑦+2 & =±2 \\ 3𝑦 & =−2±2 \\ 𝑦 & =\frac{−2±2}{3}\end{aligned}
 
 
 $$
@@ -118,7 +118,7 @@ Then, we solve the equation using the square root method:
 $$
 
 
-\begin{aligned}\sqrt{√(3𝑥−6)^{2}} & =\sqrt{√5} \\ |3𝑥−6| & =\sqrt{√5} \\ 3𝑥−6 & =±\sqrt{√5} \\ 3𝑥 & =6±\sqrt{√5} \\ 𝑥 & =\frac{6±\sqrt{√5}}{3} \\ 𝑥 & =\frac{6}{3}±\frac{\sqrt{√5}}{3} \\ 𝑥 & =2±\frac{\sqrt{√5}}{3}\end{aligned}
+\begin{aligned}\sqrt{(3𝑥−6)^{2}} & =\sqrt{5} \\ |3𝑥−6| & =\sqrt{5} \\ 3𝑥−6 & =±\sqrt{5} \\ 3𝑥 & =6±\sqrt{5} \\ 𝑥 & =\frac{6±\sqrt{5}}{3} \\ 𝑥 & =\frac{6}{3}±\frac{\sqrt{5}}{3} \\ 𝑥 & =2±\frac{\sqrt{5}}{3}\end{aligned}
 
 
 $$
@@ -128,7 +128,7 @@ The two solutions are
 $$
 
 
-x= 2 + \dfrac{\sqrt{5}}{3}\quad \textrm{and}\quad x= 2 - \dfrac{\sqrt{5}}{3}.
+x= 2 + \dfrac{\sqrt{5}}{3}\quad \text{and}\quad x= 2 - \dfrac{\sqrt{5}}{3}.
 
 
 $$
@@ -166,7 +166,7 @@ From here, we solve the equation using the square root method:
 $$
 
 
-\begin{aligned}\sqrt{√(𝑡−5)^{2}} & =\sqrt{√121} \\ |𝑡−5| & =11 \\ 𝑡−5 & =±11 \\ 𝑡 & =5±11\end{aligned}
+\begin{aligned}\sqrt{(𝑡−5)^{2}} & =\sqrt{121} \\ |𝑡−5| & =11 \\ 𝑡−5 & =±11 \\ 𝑡 & =5±11\end{aligned}
 
 
 $$

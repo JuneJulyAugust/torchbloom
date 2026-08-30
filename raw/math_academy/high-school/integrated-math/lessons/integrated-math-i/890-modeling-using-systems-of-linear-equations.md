@@ -251,15 +251,15 @@ We conclude that Ryan has $ 21.$
 
 #### Question
 
-A fiberglass rod has a length of $164\,\textrm{cm}.$ It is cut into two unequal pieces. Four times the longer piece is $26\,\textrm{cm}$ longer than five times the length of the shorter piece. What is the length of the shorter piece?
+A fiberglass rod has a length of $164\,\text{cm}.$ It is cut into two unequal pieces. Four times the longer piece is $26\,\text{cm}$ longer than five times the length of the shorter piece. What is the length of the shorter piece?
 
 #### Explanation
 
 Let $x$ be the length of the longer piece and let $y$ be the length of the shorter piece.
 
-- Four times the longer is $26\,\textrm{cm}$ more than five times the shorter gives $4x=5y+26.$
+- Four times the longer is $26\,\text{cm}$ more than five times the shorter gives $4x=5y+26.$
 
-- The total length is $164\,\textrm{cm},$ so $x+y=164.$
+- The total length is $164\,\text{cm},$ so $x+y=164.$
 
 Putting these equations together, we have the following system of equations:
 
@@ -297,4 +297,4 @@ $$
 
 $$
 
-Therefore, the length of the shorter piece is $70\,\textrm{cm}.$
+Therefore, the length of the shorter piece is $70\,\text{cm}.$

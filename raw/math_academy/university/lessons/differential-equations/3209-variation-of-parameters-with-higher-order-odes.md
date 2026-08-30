@@ -78,7 +78,7 @@ where $g(x)$ is the forcing term, $W(x)$ is the Wronskian of $y_1,y_2,y_3,$ and
 $$
 
 
-\begin{aligned}𝑊_{1}(𝑥)=\begin{aligned}𝑦_{2} & 𝑦_{3} \\ 𝑦_{′2}^{} & 𝑦_{′3}^{}\end{aligned},\,𝑊_{2}(𝑥)=\begin{aligned}𝑦_{1} & 𝑦_{3} \\ 𝑦_{′1}^{} & 𝑦_{′3}^{}\end{aligned},\,𝑊_{3}(𝑥)=\begin{aligned}𝑦_{1} & 𝑦_{2} \\ 𝑦_{′1}^{} & 𝑦_{′2}^{}\end{aligned}.\end{aligned}
+\begin{aligned}𝑊_{1}(𝑥)=\begin{matrix}𝑦_{2} & 𝑦_{3} \\ 𝑦_{′2} & 𝑦_{′3}\end{matrix},\,𝑊_{2}(𝑥)=\begin{matrix}𝑦_{1} & 𝑦_{3} \\ 𝑦_{′1} & 𝑦_{′3}\end{matrix},\,𝑊_{3}(𝑥)=\begin{matrix}𝑦_{1} & 𝑦_{2} \\ 𝑦_{′1} & 𝑦_{′2}\end{matrix}.\end{aligned}
 
 
 $$
@@ -98,7 +98,7 @@ First, let's verify that the fundamental solutions $y_1,$ $y_2,$ and $y_3$ are i
 $$
 
 
-\begin{aligned}𝑊(𝑥) & =𝑊(𝑦_{1},𝑦_{2},𝑦_{3}) \\ & =\begin{aligned}𝑒^{−2𝑥} & 𝑒^{𝑥} & 𝑒^{4𝑥} \\ −2𝑒^{−2𝑥} & 𝑒^{𝑥} & 4𝑒^{4𝑥} \\ 4𝑒^{−2𝑥} & 𝑒^{𝑥} & 16𝑒^{4𝑥}\end{aligned} \\ & =(𝑒^{−2𝑥}⋅𝑒^{𝑥}⋅𝑒^{4𝑥})\begin{aligned}1 & 1 & 1 \\ −2 & 1 & 4 \\ 4 & 1 & 16\end{aligned} \\ & =𝑒^{3𝑥}[1(16−4)−1(−32−16)+1(−2−4)] \\ & =𝑒^{3𝑥}(12+48−6) \\ & =54𝑒^{3𝑥}\end{aligned}
+\begin{aligned}𝑊(𝑥) & =𝑊(𝑦_{1},𝑦_{2},𝑦_{3}) \\ & =\begin{matrix}𝑒^{−2𝑥} & 𝑒^{𝑥} & 𝑒^{4𝑥} \\ −2𝑒^{−2𝑥} & 𝑒^{𝑥} & 4𝑒^{4𝑥} \\ 4𝑒^{−2𝑥} & 𝑒^{𝑥} & 16𝑒^{4𝑥}\end{matrix} \\ & =(𝑒^{−2𝑥}⋅𝑒^{𝑥}⋅𝑒^{4𝑥})\begin{matrix}1 & 1 & 1 \\ −2 & 1 & 4 \\ 4 & 1 & 16\end{matrix} \\ & =𝑒^{3𝑥}[1(16−4)−1(−32−16)+1(−2−4)] \\ & =𝑒^{3𝑥}(12+48−6) \\ & =54𝑒^{3𝑥}\end{aligned}
 
 
 $$
@@ -110,7 +110,7 @@ Now, to find $u_1,$ we compute the determinant
 $$
 
 
-\begin{aligned}𝑊_{1}(𝑥) & =𝑊_{1}(𝑦_{2},𝑦_{3}) \\ & =\begin{aligned}𝑦_{2} & 𝑦_{3} \\ 𝑦_{′2}^{} & 𝑦_{′3}^{}\end{aligned} \\ & =\begin{aligned}𝑒^{𝑥} & 𝑒^{4𝑥} \\ 𝑒^{𝑥} & 4𝑒^{4𝑥}\end{aligned} \\ & =4𝑒^{5𝑥}−𝑒^{5𝑥} \\ & =3𝑒^{5𝑥}.\end{aligned}
+\begin{aligned}𝑊_{1}(𝑥) & =𝑊_{1}(𝑦_{2},𝑦_{3}) \\ & =\begin{matrix}𝑦_{2} & 𝑦_{3} \\ 𝑦_{′2} & 𝑦_{′3}\end{matrix} \\ & =\begin{matrix}𝑒^{𝑥} & 𝑒^{4𝑥} \\ 𝑒^{𝑥} & 4𝑒^{4𝑥}\end{matrix} \\ & =4𝑒^{5𝑥}−𝑒^{5𝑥} \\ & =3𝑒^{5𝑥}.\end{aligned}
 
 
 $$
@@ -166,7 +166,7 @@ where $g(x)$ is the forcing term, $W(x)$ is the Wronskian of $y_1,y_2,y_3,$ and
 $$
 
 
-\begin{aligned}𝑊_{1}(𝑥)=\begin{aligned}𝑦_{2} & 𝑦_{3} \\ 𝑦_{′2}^{} & 𝑦_{′3}^{}\end{aligned},\,𝑊_{2}(𝑥)=\begin{aligned}𝑦_{1} & 𝑦_{3} \\ 𝑦_{′1}^{} & 𝑦_{′3}^{}\end{aligned},\,𝑊_{3}(𝑥)=\begin{aligned}𝑦_{1} & 𝑦_{2} \\ 𝑦_{′1}^{} & 𝑦_{′2}^{}\end{aligned}.\end{aligned}
+\begin{aligned}𝑊_{1}(𝑥)=\begin{matrix}𝑦_{2} & 𝑦_{3} \\ 𝑦_{′2} & 𝑦_{′3}\end{matrix},\,𝑊_{2}(𝑥)=\begin{matrix}𝑦_{1} & 𝑦_{3} \\ 𝑦_{′1} & 𝑦_{′3}\end{matrix},\,𝑊_{3}(𝑥)=\begin{matrix}𝑦_{1} & 𝑦_{2} \\ 𝑦_{′1} & 𝑦_{′2}\end{matrix}.\end{aligned}
 
 
 $$
@@ -186,7 +186,7 @@ First, let's verify that the fundamental solutions $y_1,$ $y_2,$ and $y_3$ are i
 $$
 
 
-\begin{aligned}𝑊(𝑥) & =𝑊(𝑦_{1},𝑦_{2},𝑦_{3}) \\ & =\begin{aligned}1 & cos⁡(2𝑥) & sin⁡(2𝑥) \\ 0 & −2sin⁡(2𝑥) & 2cos⁡(2𝑥) \\ 0 & −4cos⁡(2𝑥) & −4sin⁡(2𝑥)\end{aligned} \\ & =1⋅\begin{aligned}−2sin⁡(2𝑥) & 2cos⁡(2𝑥) \\ −4cos⁡(2𝑥) & −4sin⁡(2𝑥)\end{aligned} \\ & =8sin^{2}⁡(2𝑥)+8cos^{2}⁡(2𝑥) \\ & =8.\end{aligned}
+\begin{aligned}𝑊(𝑥) & =𝑊(𝑦_{1},𝑦_{2},𝑦_{3}) \\ & =\begin{matrix}1 & cos⁡(2𝑥) & sin⁡(2𝑥) \\ 0 & −2sin⁡(2𝑥) & 2cos⁡(2𝑥) \\ 0 & −4cos⁡(2𝑥) & −4sin⁡(2𝑥)\end{matrix} \\ & =1⋅\begin{matrix}−2sin⁡(2𝑥) & 2cos⁡(2𝑥) \\ −4cos⁡(2𝑥) & −4sin⁡(2𝑥)\end{matrix} \\ & =8sin^{2}⁡(2𝑥)+8cos^{2}⁡(2𝑥) \\ & =8.\end{aligned}
 
 
 $$
@@ -198,7 +198,7 @@ Now, to find $u_3,$ we compute the determinant $W_3(x)$:
 $$
 
 
-\begin{aligned}𝑊_{3}(𝑥) & =\begin{aligned}𝑦_{1} & 𝑦_{2} \\ 𝑦_{′1}^{} & 𝑦_{′2}^{}\end{aligned} \\ & =\begin{aligned}1 & cos⁡(2𝑥) \\ 0 & −2sin⁡(2𝑥)\end{aligned} \\ & =−2sin⁡(2𝑥).\end{aligned}
+\begin{aligned}𝑊_{3}(𝑥) & =\begin{matrix}𝑦_{1} & 𝑦_{2} \\ 𝑦_{′1} & 𝑦_{′2}\end{matrix} \\ & =\begin{matrix}1 & cos⁡(2𝑥) \\ 0 & −2sin⁡(2𝑥)\end{matrix} \\ & =−2sin⁡(2𝑥).\end{aligned}
 
 
 $$
@@ -274,7 +274,7 @@ where
 $$
 
 
-\begin{aligned}𝑦_{1} & 𝑦_{2} & ⋯ & 𝑦_{𝑛} \\ 𝑦_{′1}^{} & 𝑦_{′2}^{} & ⋯ & 𝑦_{′𝑛}^{} \\ ⋮ & ⋮ & ⋱ & ⋮ \\ 𝑦_{(𝑛−2)1}^{} & 𝑦_{(𝑛−2)2}^{} & ⋯ & 𝑦_{(𝑛−2)𝑛}^{} \\ 𝑦_{(𝑛−1)1}^{} & 𝑦_{(𝑛−1)2}^{} & ⋯ & 𝑦_{(𝑛−1)𝑛}^{}\end{aligned}
+\begin{aligned}𝑦_{1} & 𝑦_{2} & ⋯ & 𝑦_{𝑛} \\ 𝑦_{′1} & 𝑦_{′2} & ⋯ & 𝑦_{′𝑛} \\ ⋮ & ⋮ & ⋱ & ⋮ \\ 𝑦_{(𝑛−2)1} & 𝑦_{(𝑛−2)2} & ⋯ & 𝑦_{(𝑛−2)𝑛} \\ 𝑦_{(𝑛−1)1} & 𝑦_{(𝑛−1)2} & ⋯ & 𝑦_{(𝑛−1)𝑛}\end{aligned}
 
 
 $$

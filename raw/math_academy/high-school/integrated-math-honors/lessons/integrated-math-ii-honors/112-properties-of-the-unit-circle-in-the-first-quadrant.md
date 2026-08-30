@@ -61,7 +61,7 @@ We're given that $\theta=45^\circ$ at the point $P.$ Therefore, we have
 $$
 
 
-\begin{aligned}𝑥 & =cos⁡45^{∘}=\frac{\sqrt{√2}}{2}, \\ 𝑦 & =sin⁡45^{∘}=\frac{\sqrt{√2}}{2}.\end{aligned}
+\begin{aligned}𝑥 & =cos⁡45^{∘}=\frac{\sqrt{2}}{2}, \\ 𝑦 & =sin⁡45^{∘}=\frac{\sqrt{2}}{2}.\end{aligned}
 
 
 $$

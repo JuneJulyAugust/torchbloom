@@ -12,7 +12,7 @@ Topic ID: 1404
 
 ### Introduction
 
-Let $O$ be a point on the plane. Let's consider all the points on the plane whose distance to $O$ is equal to $5\,\textrm{cm}.$
+Let $O$ be a point on the plane. Let's consider all the points on the plane whose distance to $O$ is equal to $5\,\text{cm}.$
 
 ![Instructional graphic](../../../../lesson-assets/integrated-math-i-honors/topic-1404/a3ed360e670ae910.png)
 
@@ -22,7 +22,7 @@ The collection of all such points defines a geometrical shape which is called a 
 
 - The distance from $O$ to any point on the circle is called the **radius**.
 
-In our diagram above, the radius is $r={\color{black}5\,\textrm{cm}}.$
+In our diagram above, the radius is $r={\color{black}5\,\text{cm}}.$
 
 ### Example: Calculating the Length of a Line Segment With Endpoints on a Circle and Passing Through the Center
 

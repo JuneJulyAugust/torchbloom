@@ -71,7 +71,7 @@ We start finding the determinant of the coefficients matrix:
 $$
 
 
-\begin{aligned}𝐷=\begin{aligned}4 & 2 & 1 \\ 0 & 2 & 3 \\ −8 & 1 & 6\end{aligned} & =4⋅\begin{aligned}2 & 3 \\ 1 & 6\end{aligned}−2⋅\begin{aligned}0 & 3 \\ −8 & 6\end{aligned}+1⋅\begin{aligned}0 & 2 \\ −8 & 1\end{aligned} \\ & =4(12−3)−2(0+24)+(0+16) \\ & =36−48+16 \\ & =4\end{aligned}
+\begin{aligned}𝐷=\begin{matrix}4 & 2 & 1 \\ 0 & 2 & 3 \\ −8 & 1 & 6\end{matrix} & =4⋅\begin{matrix}2 & 3 \\ 1 & 6\end{matrix}−2⋅\begin{matrix}0 & 3 \\ −8 & 6\end{matrix}+1⋅\begin{matrix}0 & 2 \\ −8 & 1\end{matrix} \\ & =4(12−3)−2(0+24)+(0+16) \\ & =36−48+16 \\ & =4\end{aligned}
 
 
 $$
@@ -173,7 +173,7 @@ We start by finding the determinant of the coefficients matrix:
 $$
 
 
-\begin{aligned}𝐷=\begin{aligned}1 & −1 & 3 \\ 4 & 0 & −2 \\ 3 & 1 & −1\end{aligned} & =1⋅\begin{aligned}0 & −2 \\ 1 & −1\end{aligned}−(−1)⋅\begin{aligned}4 & −2 \\ 3 & −1\end{aligned}+3⋅\begin{aligned}4 & 0 \\ 3 & 1\end{aligned} \\ & =(0−(−2))+(−4+6)+3(4−0) \\ & =2+2+12 \\ & =16\end{aligned}
+\begin{aligned}𝐷=\begin{matrix}1 & −1 & 3 \\ 4 & 0 & −2 \\ 3 & 1 & −1\end{matrix} & =1⋅\begin{matrix}0 & −2 \\ 1 & −1\end{matrix}−(−1)⋅\begin{matrix}4 & −2 \\ 3 & −1\end{matrix}+3⋅\begin{matrix}4 & 0 \\ 3 & 1\end{matrix} \\ & =(0−(−2))+(−4+6)+3(4−0) \\ & =2+2+12 \\ & =16\end{aligned}
 
 
 $$
@@ -183,7 +183,7 @@ Now, to find $D_z,$ we take the coefficients matrix, replace the ** column by th
 $$
 
 
-\begin{aligned}𝐷_{𝑧}=\begin{aligned}1 & −1 & −1 \\ 4 & 0 & 1 \\ 3 & 1 & −2\end{aligned} & =1⋅\begin{aligned}0 & 1 \\ 1 & −2\end{aligned}−(−1)⋅\begin{aligned}4 & 1 \\ 3 & −2\end{aligned}+(−1)⋅\begin{aligned}4 & 0 \\ 3 & 1\end{aligned} \\ & =(0−1)+(−8−3)−(4−0) \\ & =−1−11−4 \\ & =−16\end{aligned}
+\begin{aligned}𝐷_{𝑧}=\begin{matrix}1 & −1 & −1 \\ 4 & 0 & 1 \\ 3 & 1 & −2\end{matrix} & =1⋅\begin{matrix}0 & 1 \\ 1 & −2\end{matrix}−(−1)⋅\begin{matrix}4 & 1 \\ 3 & −2\end{matrix}+(−1)⋅\begin{matrix}4 & 0 \\ 3 & 1\end{matrix} \\ & =(0−1)+(−8−3)−(4−0) \\ & =−1−11−4 \\ & =−16\end{aligned}
 
 
 $$
@@ -219,7 +219,7 @@ First, let's find the determinant of the coefficients matrix:
 $$
 
 
-\begin{aligned}𝐷=\begin{aligned}1 & 2 & −1 \\ 𝑘 & 3 & −2 \\ 3 & −1 & 2\end{aligned} & =1⋅\begin{aligned}3 & −2 \\ −1 & 2\end{aligned}−2⋅\begin{aligned}𝑘 & −2 \\ 3 & 2\end{aligned}+(−1)⋅\begin{aligned}𝑘 & 3 \\ 3 & −1\end{aligned} \\ & =(6−2)−2(2𝑘+6)−(−𝑘−9) \\ & =4−4𝑘−12+𝑘+9 \\ & =1−3𝑘\end{aligned}
+\begin{aligned}𝐷=\begin{matrix}1 & 2 & −1 \\ 𝑘 & 3 & −2 \\ 3 & −1 & 2\end{matrix} & =1⋅\begin{matrix}3 & −2 \\ −1 & 2\end{matrix}−2⋅\begin{matrix}𝑘 & −2 \\ 3 & 2\end{matrix}+(−1)⋅\begin{matrix}𝑘 & 3 \\ 3 & −1\end{matrix} \\ & =(6−2)−2(2𝑘+6)−(−𝑘−9) \\ & =4−4𝑘−12+𝑘+9 \\ & =1−3𝑘\end{aligned}
 
 
 $$
@@ -229,7 +229,7 @@ According to Cramer's rule, the value of $x$ is given by $x = \dfrac{D_x}{D},$ w
 $$
 
 
-\begin{aligned}𝐷_{𝑥}=\begin{aligned}−1 & 2 & −1 \\ 1 & 3 & −2 \\ 3 & −1 & 2\end{aligned} & =(−1)⋅\begin{aligned}3 & −2 \\ −1 & 2\end{aligned}−2⋅\begin{aligned}1 & −2 \\ 3 & 2\end{aligned}+(−1)⋅\begin{aligned}1 & 3 \\ 3 & −1\end{aligned} \\ & =−(6−2)−2(2+6)−(−1−9) \\ & =−4−16+10 \\ & =−10.\end{aligned}
+\begin{aligned}𝐷_{𝑥}=\begin{matrix}−1 & 2 & −1 \\ 1 & 3 & −2 \\ 3 & −1 & 2\end{matrix} & =(−1)⋅\begin{matrix}3 & −2 \\ −1 & 2\end{matrix}−2⋅\begin{matrix}1 & −2 \\ 3 & 2\end{matrix}+(−1)⋅\begin{matrix}1 & 3 \\ 3 & −1\end{matrix} \\ & =−(6−2)−2(2+6)−(−1−9) \\ & =−4−16+10 \\ & =−10.\end{aligned}
 
 
 $$

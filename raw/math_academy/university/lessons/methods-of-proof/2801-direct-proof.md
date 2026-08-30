@@ -106,11 +106,11 @@ $5n+4$ ** $n$ **
 
 A proof schema is outlined below. Fill in the missing entries.
 
-Let $n$ be an $\boxed{\phantom{\textrm{odd}}}$ integer. Then, $n=\boxed{\phantom{2a+1}}$ for some integer $a.$
+Let $n$ be an $\boxed{\phantom{\mathrm{odd}}}$ integer. Then, $n=\boxed{\phantom{2a+1}}$ for some integer $a.$
 
-Substituting $\boxed{\phantom{n=2a+1}}$ into the expression $5n+4$, we can show that $5n+4=\boxed{\phantom{2b+1}},$ where $b$ is $\boxed{\phantom{\textrm{an integer}}}.$
+Substituting $\boxed{\phantom{n=2a+1}}$ into the expression $5n+4$, we can show that $5n+4=\boxed{\phantom{2b+1}},$ where $b$ is $\boxed{\phantom{\mathrm{an integer}}}.$
 
-Therefore, since $5n+4$ $\boxed{\phantom{\textrm{is one more than}}}$ a multiple of $2,$ we conclude that $5n+4$ is $\boxed{\phantom{\textrm{odd}}}.$
+Therefore, since $5n+4$ $\boxed{\phantom{\mathrm{is one more than}}}$ a multiple of $2,$ we conclude that $5n+4$ is $\boxed{\phantom{\mathrm{odd}}}.$
 
 #### Explanation
 
@@ -175,7 +175,7 @@ Now, if we define another integer $b=3a+1$ (highlighted above), we have that $3n
 $$
 
 
-\begin{aligned}3𝑛+2 & =2\overset{\overset{(3𝑎+1)}{}}{𝑏} \\ & =2𝑏\end{aligned}
+\begin{aligned}3𝑛+2 & =2\overset{(3𝑎+1)}{𝑏} \\ & =2𝑏\end{aligned}
 
 
 $$

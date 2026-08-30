@@ -15,23 +15,23 @@ Topic ID: 236
 
 The most popular measurement system within the scientific community is the **metric system**. Within the metric system, the most common units of measurement are called **base units**.
 
-The base unit of length is the **meter,** which we denote using the symbol "$\textrm{m}$." Lengths are measured using **meter sticks** like the one below.
+The base unit of length is the **meter,** which we denote using the symbol "$\text{m}$." Lengths are measured using **meter sticks** like the one below.
 
 ![Instructional graphic](../../../lesson-assets/mathematical-foundations-i/topic-236/23eb5c24f89d190b.png)
 
 It's convenient to define new units of measurement from the base unit. The most common variations for length units are shown below:
 
-Let's give some examples of each unit, going from the largest unit $(\textrm{km})$ to the smallest $(\textrm{mm})$:
+Let's give some examples of each unit, going from the largest unit $(\text{km})$ to the smallest $(\text{mm})$:
 
-- The world's tallest building is the Burj Khalifa in Dubai. Its height is approximately $1\,\textrm{km}.$
+- The world's tallest building is the Burj Khalifa in Dubai. Its height is approximately $1\,\text{km}.$
 
-- The length of one large stride is approximately $1\,\textrm{m}.$
+- The length of one large stride is approximately $1\,\text{m}.$
 
-- The width of a standard paperclip is around $1\,\textrm{cm}.$
+- The width of a standard paperclip is around $1\,\text{cm}.$
 
-- The thickness of a credit card is around $1\,\textrm{mm}.$
+- The thickness of a credit card is around $1\,\text{mm}.$
 
-**Important**: Each metric symbol of length ends in "$\textrm{m}$", the base unit.
+**Important**: Each metric symbol of length ends in "$\text{m}$", the base unit.
 
 ### Example: Identifying Metric Units of Length
 
@@ -49,7 +49,7 @@ Suppose we want to measure the length of the Golden Gate Bridge (California, USA
 
 A table showing the metric units of length is given below.
 
-Therefore, from the given options, the only unit of length is $\textrm{km}.$
+Therefore, from the given options, the only unit of length is $\text{km}.$
 
 ### The Prefix System for Metric Units
 
@@ -59,23 +59,23 @@ Let's recall the table that relates metric units of length.
 
 The prefix rules are as follows:
 
-- The prefix "$\textrm k$" stands for **kilo**, which means $1\,000$. Therefore, $1\,\textrm{km} = 1\,000\,\textrm{m}.$
+- The prefix "$\textrm k$" stands for **kilo**, which means $1\,000$. Therefore, $1\,\text{km} = 1\,000\,\text{m}.$
 
-- The prefix "$\textrm c$" stands for **centi**, which means $\dfrac{1}{100}$. Therefore, $1\,\textrm{cm} = \dfrac{1}{100}\,\textrm{m}.$ Notice that if we add $1\,\textrm{cm}$ to itself $100$ times, we get exactly $1\,\textrm{m}{:}$ Therefore, $100\,\textrm{cm}$ equals $1\,\textrm{m},$ as stated in the table.
+- The prefix "$\textrm c$" stands for **centi**, which means $\dfrac{1}{100}$. Therefore, $1\,\text{cm} = \dfrac{1}{100}\,\text{m}.$ Notice that if we add $1\,\text{cm}$ to itself $100$ times, we get exactly $1\,\text{m}{:}$ Therefore, $100\,\text{cm}$ equals $1\,\text{m},$ as stated in the table.
 
-- The prefix "$\textrm m$" stands for **milli**, which means $\dfrac{1}{1\,000}$. Therefore, $1\,\textrm{mm} = \dfrac{1}{1,000}\,\textrm{m}.$ This means that $1\,000\,\textrm{mm}$ equals $1\,\textrm{m},$ as shown in the table.
+- The prefix "$\textrm m$" stands for **milli**, which means $\dfrac{1}{1\,000}$. Therefore, $1\,\text{mm} = \dfrac{1}{1,000}\,\text{m}.$ This means that $1\,000\,\text{mm}$ equals $1\,\text{m},$ as shown in the table.
 
 ### Example: Stating Length Conversions in Metric Units
 
 #### Question
 
-A window is $1 \, \textrm{m}$ wide. What is this length in centimeters?
+A window is $1 \, \text{m}$ wide. What is this length in centimeters?
 
 #### Explanation
 
 A table showing the metric units of length is given below.
 
-So, $1 \, \textrm{m}$ is equivalent to $100 \, \textrm{cm}.$
+So, $1 \, \text{m}$ is equivalent to $100 \, \text{cm}.$
 
 ### Customary Units of Length
 
@@ -83,15 +83,15 @@ Another way to measure length is to use **customary units**. The most common cus
 
 A table showing some of the most common customary units of length is shown below.
 
-Let's give some examples of each unit, going from the largest unit $(\textrm{mi})$ to the smallest $(\textrm{in})$:
+Let's give some examples of each unit, going from the largest unit $(\text{mi})$ to the smallest $(\text{in})$:
 
-- Four loops around a standard running track is approximately $1\,\textrm{mi}.$
+- Four loops around a standard running track is approximately $1\,\text{mi}.$
 
-- The length of one large stride is approximately $1\,\textrm{yd}.$
+- The length of one large stride is approximately $1\,\text{yd}.$
 
-- The length of an adult's foot is approximately $1\,\textrm{ft}.$
+- The length of an adult's foot is approximately $1\,\text{ft}.$
 
-- The length of an adult's thumb tip is around $1\,\textrm{in}.$
+- The length of an adult's thumb tip is around $1\,\text{in}.$
 
 Customary units are not standard in the scientific community. However, they are commonly used in the United States and other countries.
 
@@ -101,26 +101,26 @@ Customary units are not standard in the scientific community. However, they are 
 
 Suppose we want to measure the length of a smartphone screen. Which of the following customary units could we use?
 
-1. $\textrm{oz}$
+1. $\text{oz}$
 
-2. $\textrm{in}$
+2. $\text{in}$
 
-3. $\textrm{s}$
+3. $\text{s}$
 
 #### Explanation
 
 A table showing the customary units of length is given below.
 
-Therefore, from the given options, the only unit of length is $\textrm{in}.$
+Therefore, from the given options, the only unit of length is $\text{in}.$
 
 ### Example: Stating Length Conversions in Customary Units
 
 #### Question
 
-The length of a certain canal in Venice is $1\,\textrm{mi}.$ What is its length in yards?
+The length of a certain canal in Venice is $1\,\text{mi}.$ What is its length in yards?
 
 #### Explanation
 
 A table showing the customary units of length is given below.
 
-So, $1\,\textrm{mi}$ is equivalent to $1760\,\textrm{yd}.$
+So, $1\,\text{mi}$ is equivalent to $1760\,\text{yd}.$

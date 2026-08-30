@@ -36,7 +36,7 @@ Recall that the $n$th roots of $z$ are given by
 $$
 
 
-z_{k}^{1/n} = \sqrt[n]{r}\left[\cos\left(\dfrac{\theta + 2\pi{k}}{n}\right) + \textrm{i}\sin\left(\dfrac{\theta + 2\pi{k}}{n}\right)\right], \qquad k=0, 1, 2,..., n-1.
+z_{k}^{1/n} = \sqrt[n]{r}\left[\cos\left(\dfrac{\theta + 2\pi{k}}{n}\right) + \text{i}\sin\left(\dfrac{\theta + 2\pi{k}}{n}\right)\right], \qquad k=0, 1, 2,..., n-1.
 
 
 $$
@@ -47,12 +47,12 @@ We've seen how to compute the square roots of complex numbers. In this lesson, w
 
 #### Question
 
-The complex $6$th roots of the number $z=\cos\left(\dfrac{3\pi}{2}\right)+\textrm{i}\sin\left(\dfrac{3\pi}{2}\right)$ are given by
+The complex $6$th roots of the number $z=\cos\left(\dfrac{3\pi}{2}\right)+\text{i}\sin\left(\dfrac{3\pi}{2}\right)$ are given by
 
 $$
 
 
-z_k^{1/6} = \cos\left(\dfrac{\pi}{\boxed{a}}+\boxed{b}\cdot{k}\right)+\textrm{i}\sin\left(\dfrac{\pi}{\boxed{a}}+\boxed{b}\cdot{k}\right),
+z_k^{1/6} = \cos\left(\dfrac{\pi}{\boxed{a}}+\boxed{b}\cdot{k}\right)+\text{i}\sin\left(\dfrac{\pi}{\boxed{a}}+\boxed{b}\cdot{k}\right),
 
 
 $$
@@ -66,7 +66,7 @@ Any nonzero complex number $z$ has exactly $n$ distinct $n$th roots. Using de Mo
 $$
 
 
-z_{k}^{1/n} = \sqrt[n]{r}\left[\cos\left(\dfrac{\theta+2\pi{k}}{n}\right)+\textrm{i}\sin\left(\dfrac{\theta+2\pi{k}}{n}\right)\right],
+z_{k}^{1/n} = \sqrt[n]{r}\left[\cos\left(\dfrac{\theta+2\pi{k}}{n}\right)+\text{i}\sin\left(\dfrac{\theta+2\pi{k}}{n}\right)\right],
 
 
 $$
@@ -96,7 +96,7 @@ Substituting these values into the formula, we obtain
 $$
 
 
-\begin{aligned}𝑧_{1/6𝑘}^{} & =\sqrt[√1]{6}cos⁡\frac{\frac{3𝜋}{2}+2𝜋𝑘}{2}+isin⁡\frac{\frac{3𝜋}{2}+2𝜋𝑘}{2} \\ & =cos⁡(\frac{𝜋}{4}+\frac{𝜋}{3}⋅𝑘)+isin⁡(\frac{𝜋}{4}+\frac{𝜋}{3}⋅𝑘).\end{aligned}
+\begin{aligned}𝑧_{1/6𝑘} & =\sqrt[√1]{6}cos⁡\frac{\frac{3𝜋}{2}+2𝜋𝑘}{2}+isin⁡\frac{\frac{3𝜋}{2}+2𝜋𝑘}{2} \\ & =cos⁡(\frac{𝜋}{4}+\frac{𝜋}{3}⋅𝑘)+isin⁡(\frac{𝜋}{4}+\frac{𝜋}{3}⋅𝑘).\end{aligned}
 
 
 $$
@@ -107,12 +107,12 @@ Therefore, $a={\color{blue}4}$ and $b={\color{red}\dfrac{\pi}{3}}.$
 
 #### Question
 
-The complex $4$th roots of the number $z=256\left[\cos\left(\dfrac{\pi}{2}\right)+\textrm{i}\sin\left(\dfrac{\pi}{2}\right)\right]$ are given by
+The complex $4$th roots of the number $z=256\left[\cos\left(\dfrac{\pi}{2}\right)+\text{i}\sin\left(\dfrac{\pi}{2}\right)\right]$ are given by
 
 $$
 
 
-z_k^{1/4} = \boxed{a} \left[ \cos\left(\dfrac{\pi}{\boxed{b}}+\boxed{c}\cdot{k}\right)+ \textrm{i} \sin\left(\dfrac{\pi}{\boxed{b}}+\boxed{c}\cdot{k}\right) \right],
+z_k^{1/4} = \boxed{a} \left[ \cos\left(\dfrac{\pi}{\boxed{b}}+\boxed{c}\cdot{k}\right)+ \text{i} \sin\left(\dfrac{\pi}{\boxed{b}}+\boxed{c}\cdot{k}\right) \right],
 
 
 $$
@@ -126,7 +126,7 @@ Any nonzero complex number $z$ has exactly $n$ distinct $n$th roots. Using de Mo
 $$
 
 
-z_{k}^{1/n} = \sqrt[n]{r}\left[\cos\left(\dfrac{\theta+2\pi{k}}{n}\right)+\textrm{i}\sin\left(\dfrac{\theta+2\pi{k}}{n}\right)\right],
+z_{k}^{1/n} = \sqrt[n]{r}\left[\cos\left(\dfrac{\theta+2\pi{k}}{n}\right)+\text{i}\sin\left(\dfrac{\theta+2\pi{k}}{n}\right)\right],
 
 
 $$
@@ -156,7 +156,7 @@ Substituting these values into the formula, we obtain
 $$
 
 
-\begin{aligned}𝑧_{1/4𝑘}^{} & =\sqrt[√256]{4}cos⁡\frac{\frac{𝜋}{2}+2𝜋𝑘}{2}+isin⁡\frac{\frac{𝜋}{2}+2𝜋𝑘}{2} \\ & =4[cos⁡(\frac{𝜋}{8}+\frac{𝜋}{2}⋅𝑘)+isin⁡(\frac{𝜋}{8}+\frac{𝜋}{2}⋅𝑘)].\end{aligned}
+\begin{aligned}𝑧_{1/4𝑘} & =\sqrt[√256]{4}cos⁡\frac{\frac{𝜋}{2}+2𝜋𝑘}{2}+isin⁡\frac{\frac{𝜋}{2}+2𝜋𝑘}{2} \\ & =4[cos⁡(\frac{𝜋}{8}+\frac{𝜋}{2}⋅𝑘)+isin⁡(\frac{𝜋}{8}+\frac{𝜋}{2}⋅𝑘)].\end{aligned}
 
 
 $$
@@ -167,12 +167,12 @@ Therefore, $a={\color{purple}4},$ $b={\color{blue}8},$ and $c={\color{red}\dfrac
 
 #### Question
 
-The fourth roots of the number $z=\cos\left(\dfrac{\pi}{3}\right)+\textrm{i}\sin\left(\dfrac{\pi}{3}\right)$ are as follows:
+The fourth roots of the number $z=\cos\left(\dfrac{\pi}{3}\right)+\text{i}\sin\left(\dfrac{\pi}{3}\right)$ are as follows:
 
 $$
 
 
-\begin{aligned}𝑧_{1/40}^{}=cos⁡𝜙_{0}+isin⁡𝜙_{0} \\ 𝑧_{1/41}^{}=cos⁡𝜙_{1}+isin⁡𝜙_{1} \\ 𝑧_{1/42}^{}=cos⁡𝜙_{2}+isin⁡𝜙_{2} \\ 𝑧_{1/43}^{}=cos⁡𝜙_{3}+isin⁡𝜙_{3}\end{aligned}
+\begin{aligned}𝑧_{1/40}=cos⁡𝜙_{0}+isin⁡𝜙_{0} \\ 𝑧_{1/41}=cos⁡𝜙_{1}+isin⁡𝜙_{1} \\ 𝑧_{1/42}=cos⁡𝜙_{2}+isin⁡𝜙_{2} \\ 𝑧_{1/43}=cos⁡𝜙_{3}+isin⁡𝜙_{3}\end{aligned}
 
 
 $$
@@ -186,7 +186,7 @@ Any nonzero complex number $z$ has exactly $n$ distinct $n$th roots. Using de Mo
 $$
 
 
-z_{k}^{1/n} = \sqrt[n]{r}\left[\cos\left(\dfrac{\theta+2\pi{k}}{n}\right)+\textrm{i}\sin\left(\dfrac{\theta+2\pi{k}}{n}\right)\right],
+z_{k}^{1/n} = \sqrt[n]{r}\left[\cos\left(\dfrac{\theta+2\pi{k}}{n}\right)+\text{i}\sin\left(\dfrac{\theta+2\pi{k}}{n}\right)\right],
 
 
 $$
@@ -216,7 +216,7 @@ Substituting these values into the formula, we obtain
 $$
 
 
-\begin{aligned}𝑧_{1/4𝑘}^{} & =\sqrt[√1]{3}cos⁡\frac{\frac{𝜋}{3}+2𝜋⋅𝑘}{3}+isin⁡\frac{\frac{𝜋}{3}+2𝜋⋅𝑘}{3} \\ & =[cos⁡(\frac{𝜋}{12}+\frac{2𝜋⋅𝑘}{4})+isin⁡(\frac{𝜋}{12}+\frac{2𝜋⋅𝑘}{4})] \\ & =[cos⁡(\frac{𝜋}{12}+\frac{𝜋⋅𝑘}{2})+isin⁡(\frac{𝜋}{12}+\frac{𝜋⋅𝑘}{2})].\end{aligned}
+\begin{aligned}𝑧_{1/4𝑘} & =\sqrt[√1]{3}cos⁡\frac{\frac{𝜋}{3}+2𝜋⋅𝑘}{3}+isin⁡\frac{\frac{𝜋}{3}+2𝜋⋅𝑘}{3} \\ & =[cos⁡(\frac{𝜋}{12}+\frac{2𝜋⋅𝑘}{4})+isin⁡(\frac{𝜋}{12}+\frac{2𝜋⋅𝑘}{4})] \\ & =[cos⁡(\frac{𝜋}{12}+\frac{𝜋⋅𝑘}{2})+isin⁡(\frac{𝜋}{12}+\frac{𝜋⋅𝑘}{2})].\end{aligned}
 
 
 $$
@@ -226,7 +226,7 @@ Finally, setting $k=0, 1, 2,3$ gives the required roots:
 $$
 
 
-\begin{aligned}𝑘=0:\,𝑧_{1/40}^{} & =[cos⁡(\frac{𝜋}{12}+\frac{𝜋⋅0}{2})+isin⁡(\frac{𝜋}{12}+\frac{𝜋⋅0}{2})] \\ & =cos⁡(\frac{𝜋}{12})+isin⁡(\frac{𝜋}{12}) \\ 𝑘=1:\,𝑧_{1/41}^{} & =[cos⁡(\frac{𝜋}{12}+\frac{𝜋⋅1}{2})+isin⁡(\frac{𝜋}{12}+\frac{𝜋⋅1}{2})] \\ & =cos⁡(\frac{7𝜋}{12})+isin⁡(\frac{7𝜋}{12}) \\ 𝑘=2:\,𝑧_{1/42}^{} & =[cos⁡(\frac{𝜋}{12}+\frac{𝜋⋅2}{2})+isin⁡(\frac{𝜋}{12}+\frac{𝜋⋅2}{2})] \\ & =cos⁡(\frac{13𝜋}{12})+isin⁡(\frac{13𝜋}{12}) \\ 𝑘=3:\,𝑧_{1/43}^{} & =[cos⁡(\frac{𝜋}{12}+\frac{𝜋⋅3}{2})+isin⁡(\frac{𝜋}{12}+\frac{𝜋⋅3}{2})] \\ & =cos⁡(\frac{19𝜋}{12})+isin⁡(\frac{19𝜋}{12})\end{aligned}
+\begin{aligned}𝑘=0:\,𝑧_{1/40} & =[cos⁡(\frac{𝜋}{12}+\frac{𝜋⋅0}{2})+isin⁡(\frac{𝜋}{12}+\frac{𝜋⋅0}{2})] \\ & =cos⁡(\frac{𝜋}{12})+isin⁡(\frac{𝜋}{12}) \\ 𝑘=1:\,𝑧_{1/41} & =[cos⁡(\frac{𝜋}{12}+\frac{𝜋⋅1}{2})+isin⁡(\frac{𝜋}{12}+\frac{𝜋⋅1}{2})] \\ & =cos⁡(\frac{7𝜋}{12})+isin⁡(\frac{7𝜋}{12}) \\ 𝑘=2:\,𝑧_{1/42} & =[cos⁡(\frac{𝜋}{12}+\frac{𝜋⋅2}{2})+isin⁡(\frac{𝜋}{12}+\frac{𝜋⋅2}{2})] \\ & =cos⁡(\frac{13𝜋}{12})+isin⁡(\frac{13𝜋}{12}) \\ 𝑘=3:\,𝑧_{1/43} & =[cos⁡(\frac{𝜋}{12}+\frac{𝜋⋅3}{2})+isin⁡(\frac{𝜋}{12}+\frac{𝜋⋅3}{2})] \\ & =cos⁡(\frac{19𝜋}{12})+isin⁡(\frac{19𝜋}{12})\end{aligned}
 
 
 $$

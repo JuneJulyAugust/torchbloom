@@ -89,7 +89,7 @@ Therefore, the constant of proportionality (including its unit) is $v = 6\, \tex
 
 #### Question
 
-The force $F,$ measured in $\text{kg}\, \text m / \text s^2$, applied to a motorcycle varies directly with its acceleration $a,$ measured in $\textrm{m}/\textrm{s}^2.$ When the acceleration of the motorcycle is $a=5\,\textrm{m}/\textrm{s}^2,$ the force is $F=2\,000\,\text{kg}\, \text m / \text s^2.$ What is the constant of variation?
+The force $F,$ measured in $\text{kg}\, \text m / \text s^2$, applied to a motorcycle varies directly with its acceleration $a,$ measured in $\text{m}/\text{s}^2.$ When the acceleration of the motorcycle is $a=5\,\text{m}/\text{s}^2,$ the force is $F=2\,000\,\text{kg}\, \text m / \text s^2.$ What is the constant of variation?
 
 #### Explanation
 
@@ -105,7 +105,7 @@ $$
 
 where $k$ is the constant of variation.
 
-We are told that when the acceleration is $a=5\, \textrm{m}/\,\textrm{s}^2,$ the force is $F=2\,000\,\text{kg}\, \text m / \text s^2.$ We can use this information to solve for $k,$ as follows:
+We are told that when the acceleration is $a=5\, \text{m}/\,\text{s}^2,$ the force is $F=2\,000\,\text{kg}\, \text m / \text s^2.$ We can use this information to solve for $k,$ as follows:
 
 $$
 
@@ -125,13 +125,13 @@ $$
 
 $$
 
-Therefore, our final answer is $k = 400\,\textrm{kg}.$
+Therefore, our final answer is $k = 400\,\text{kg}.$
 
 ### Example: Modeling With Direct Variation
 
 #### Question
 
-The stretch $s,$ measured in centimeters $(\textrm{cm}),$ of a loaded spring varies directly with the load $l,$ measured in grams $(\mathrm{g}).$ When the load is $l=8\,\mathrm{g},$ the stretch is $s=9.6\,\mathrm{cm}.$ Find the load when the stretch is $s=7.2\,\mathrm{cm}.$
+The stretch $s,$ measured in centimeters $(\text{cm}),$ of a loaded spring varies directly with the load $l,$ measured in grams $(\mathrm{g}).$ When the load is $l=8\,\mathrm{g},$ the stretch is $s=9.6\,\mathrm{cm}.$ Find the load when the stretch is $s=7.2\,\mathrm{cm}.$
 
 #### Explanation
 
@@ -177,7 +177,7 @@ $$
 
 $$
 
-Therefore, the load when $s=7.2\,\mathrm{cm}$ is $l=6 \,\textrm{g}.$
+Therefore, the load when $s=7.2\,\mathrm{cm}$ is $l=6 \,\text{g}.$
 
 ### Variations With Second Powers
 
@@ -225,7 +225,7 @@ $$
 
 where $k$ is the constant of variation.
 
-We are told that $F=4\,\textrm{N}$ when $L=0.1\,\textrm m.$ We can use this information to solve for $k,$ as follows:
+We are told that $F=4\,\text{N}$ when $L=0.1\,\textrm m.$ We can use this information to solve for $k,$ as follows:
 
 $$
 

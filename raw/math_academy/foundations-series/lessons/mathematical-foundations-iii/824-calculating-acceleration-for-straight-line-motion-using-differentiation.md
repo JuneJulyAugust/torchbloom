@@ -20,7 +20,7 @@ The **acceleration** $a(t)$ is defined as the derivative of the velocity $v(t)$ 
 $$
 
 
-a(t) = \frac{\textrm{d}v}{\textrm{d}t}.
+a(t) = \frac{\text{d}v}{\text{d}t}.
 
 
 $$
@@ -104,14 +104,14 @@ The acceleration of a particle is defined as
 $$
 
 
-a(t) = \frac{\textrm{d}v}{\textrm{d}t},
+a(t) = \frac{\text{d}v}{\text{d}t},
 
 
 $$
 
 but where does this definition come from?
 
-Suppose that you are riding a bike with a constant acceleration. This means that your velocity increases (or decreases) at a constant rate. For example, if you start from stationary ($v=0$) and after $10\,\textrm{s}$ your velocity is $v=5\,\textrm{m/s}$, the acceleration is given by the change of velocity with time:
+Suppose that you are riding a bike with a constant acceleration. This means that your velocity increases (or decreases) at a constant rate. For example, if you start from stationary ($v=0$) and after $10\,\text{s}$ your velocity is $v=5\,\text{m/s}$, the acceleration is given by the change of velocity with time:
 
 $$
 

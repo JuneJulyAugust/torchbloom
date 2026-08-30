@@ -16,7 +16,7 @@ Remember that the exponential function $e^x$ has the special property that the d
 $$
 
 
-\frac{\textrm{d}}{\textrm d x} \left(e^ x\right) = e^ x.
+\frac{\text{d}}{\textrm d x} \left(e^ x\right) = e^ x.
 
 
 $$
@@ -56,7 +56,7 @@ Remember that if $a$ is a positive real number, then the derivative of $a^x$ is 
 $$
 
 
-\frac{\textrm{d}}{\textrm d x}\left( a^ x\right) = a^ x \ln a.
+\frac{\text{d}}{\textrm d x}\left( a^ x\right) = a^ x \ln a.
 
 
 $$
@@ -104,7 +104,7 @@ First, we factor out the constant $-6.$ Then, we integrate the exponential funct
 $$
 
 
-\begin{aligned} \int (-6)7^x \, \textrm d x &= -6\int 7^x\,\textrm{d}x\\&=-6 \cdot \dfrac{7^x}{\ln 7} + C. \end{aligned}
+\begin{aligned} \int (-6)7^x \, \textrm d x &= -6\int 7^x\,\text{d}x\\&=-6 \cdot \dfrac{7^x}{\ln 7} + C. \end{aligned}
 
 
 $$
@@ -122,7 +122,7 @@ Here, we combine the sum rule and our exponential rules to get
 $$
 
 
-\begin{aligned} \displaystyle \int 5 \cdot 9^x +3 e^x \, \textrm d x &= \displaystyle 5\int 9^x \, \textrm{d}x+ 3 \displaystyle \int e^x \, \textrm{d}x\\&= 5\cdot \dfrac{9^x}{\ln 9} + 3 e^x +C. \end{aligned}
+\begin{aligned} \displaystyle \int 5 \cdot 9^x +3 e^x \, \textrm d x &= \displaystyle 5\int 9^x \, \text{d}x+ 3 \displaystyle \int e^x \, \text{d}x\\&= 5\cdot \dfrac{9^x}{\ln 9} + 3 e^x +C. \end{aligned}
 
 
 $$

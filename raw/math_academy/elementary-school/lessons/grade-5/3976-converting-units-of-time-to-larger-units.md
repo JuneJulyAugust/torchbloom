@@ -17,13 +17,13 @@ In previous lessons, we explored converting larger units of time to smaller ones
 
 To convert between units of time, we use the following unit conversions:
 
-- $1 \textrm{week} = 7 \,\textrm{days}$
+- $1 \text{week} = 7 \,\text{days}$
 
-- $1 \,\textrm{day} = 24 \,\textrm{hours}$
+- $1 \,\text{day} = 24 \,\text{hours}$
 
-- $1 \,\textrm{hour} = 60 \,\textrm{minutes}$
+- $1 \,\text{hour} = 60 \,\text{minutes}$
 
-- $1 \,\textrm{minute} = 60 \,\textrm{seconds}$
+- $1 \,\text{minute} = 60 \,\text{seconds}$
 
 Time is typically measured using clocks, and we can use clocks to visualize equivalent units of time.
 
@@ -41,7 +41,7 @@ We start with the unit conversion between weeks and days:
 
 $$
 
-1\, \textrm{week} = 7 \, \textrm{days}
+1\, \text{week} = 7 \, \text{days}
 
 $$
 
@@ -49,7 +49,7 @@ Since we wish to convert *from* days *to* weeks, we divide both sides by $7$ and
 
 $$
 
-\dfrac{1}{7} \, \textrm{weeks} = 1 \, \textrm{day}
+\dfrac{1}{7} \, \text{weeks} = 1 \, \text{day}
 
 $$
 
@@ -75,7 +75,7 @@ We start with the unit conversion between weeks and days:
 
 $$
 
-1\, \textrm{week} = 7 \, \textrm{days}
+1\, \text{week} = 7 \, \text{days}
 
 $$
 
@@ -83,7 +83,7 @@ Now, we divide both sides by $7$ and obtain the following:
 
 $$
 
-\dfrac{1}{7} \, \textrm{weeks} = 1 \, \textrm{day}
+\dfrac{1}{7} \, \text{weeks} = 1 \, \text{day}
 
 $$
 
@@ -109,7 +109,7 @@ We start with the unit conversion between hours and minutes:
 
 $$
 
-1\, \textrm{hour} = 60 \, \textrm{minutes}
+1\, \text{hour} = 60 \, \text{minutes}
 
 $$
 
@@ -117,7 +117,7 @@ Now, we divide both sides by $60$ and obtain the following:
 
 $$
 
-\dfrac{1}{60} \, \textrm{hours} = 1 \, \textrm{minute}
+\dfrac{1}{60} \, \text{hours} = 1 \, \text{minute}
 
 $$
 
@@ -143,7 +143,7 @@ We start with the unit conversion between minutes and seconds:
 
 $$
 
-1\, \textrm{minute} = 60 \, \textrm{seconds}
+1\, \text{minute} = 60 \, \text{seconds}
 
 $$
 
@@ -151,7 +151,7 @@ Now, we divide both sides by $60$ and obtain the following:
 
 $$
 
-\dfrac{1}{60} \, \textrm{minutes} = 1 \, \textrm{second}
+\dfrac{1}{60} \, \text{minutes} = 1 \, \text{second}
 
 $$
 

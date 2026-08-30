@@ -63,7 +63,7 @@ then
 $$
 
 
-\begin{aligned}𝐼^{′}(𝑡) & =\frac{d}{d𝑡}∫_{10}^{}𝑒^{−𝑡𝑥}\,d𝑥 \\ & =∫_{10}^{}\frac{𝜕}{𝜕𝑡}(𝑒^{−𝑡𝑥})\,d𝑥 \\ & =∫_{10}^{}−𝑥𝑒^{−𝑡𝑥}\,d𝑥.\end{aligned}
+\begin{aligned}𝐼^{′}(𝑡) & =\frac{d}{d𝑡}∫_{10}𝑒^{−𝑡𝑥}\,d𝑥 \\ & =∫_{10}\frac{𝜕}{𝜕𝑡}(𝑒^{−𝑡𝑥})\,d𝑥 \\ & =∫_{10}−𝑥𝑒^{−𝑡𝑥}\,d𝑥.\end{aligned}
 
 
 $$
@@ -77,7 +77,7 @@ Now, given that
 $$
 
 
-\displaystyle I(t)=\int_{-1}^{1} (3x-t^2)^2\,\textrm{d}x,
+\displaystyle I(t)=\int_{-1}^{1} (3x-t^2)^2\,\text{d}x,
 
 
 $$
@@ -89,7 +89,7 @@ Recall that if $f(x,t)$ is continuous on $R = [a,b]\times [c,d]$ and $\dfrac{\pa
 $$
 
 
-I(t) = \int_{a}^b f(x,t)\,\textrm{d} x
+I(t) = \int_{a}^b f(x,t)\,\text{d} x
 
 
 $$
@@ -99,7 +99,7 @@ is differentiable on $(c,d),$ and
 $$
 
 
-I'(t) = \dfrac{\textrm d}{\textrm d t}\int_{a}^b f(x,t)\,\textrm{d} x = \int_{a}^b \dfrac{\partial f}{\partial t}(x,t)\,\textrm{d} x.
+I'(t) = \dfrac{\textrm d}{\textrm d t}\int_{a}^b f(x,t)\,\text{d} x = \int_{a}^b \dfrac{\partial f}{\partial t}(x,t)\,\text{d} x.
 
 
 $$
@@ -109,7 +109,7 @@ We wish to compute $I'(t),$ where
 $$
 
 
-I(t)=\int_{-1}^{1} (3x-t^2)^2\,\textrm{d}x.
+I(t)=\int_{-1}^{1} (3x-t^2)^2\,\text{d}x.
 
 
 $$
@@ -119,7 +119,7 @@ Differentiating under the integral sign, we get
 $$
 
 
-I'(t) = \int_{-1}^{1} \frac{\partial}{\partial t}\Bigl[(3x-t^2)^2\Bigr]\,\textrm{d}x.
+I'(t) = \int_{-1}^{1} \frac{\partial}{\partial t}\Bigl[(3x-t^2)^2\Bigr]\,\text{d}x.
 
 
 $$
@@ -139,7 +139,7 @@ Substituting this back into our integral, we get
 $$
 
 
-\begin{aligned}𝐼^{′}(𝑡) & =∫_{1−1}^{}−4𝑡(3𝑥−𝑡^{2})\,d𝑥 \\ & =−4𝑡∫_{1−1}^{}(3𝑥−𝑡^{2})\,d𝑥.\end{aligned}
+\begin{aligned}𝐼^{′}(𝑡) & =∫_{1−1}−4𝑡(3𝑥−𝑡^{2})\,d𝑥 \\ & =−4𝑡∫_{1−1}(3𝑥−𝑡^{2})\,d𝑥.\end{aligned}
 
 
 $$
@@ -149,7 +149,7 @@ Finally, let's evaluate the remaining integral:
 $$
 
 
-\begin{aligned}∫_{1−1}^{}(3𝑥−𝑡^{2})\,d𝑥 & =∫_{1−1}^{}3𝑥\,d𝑥−∫_{1−1}^{}𝑡^{2}\,d𝑥 \\ & =\frac{3𝑥^{2}}{2}_{1−1}^{}−𝑡^{2}𝑥_{1−1}^{} \\ & =0−2𝑡^{2} \\ & =−2𝑡^{2}.\end{aligned}
+\begin{aligned}∫_{1−1}(3𝑥−𝑡^{2})\,d𝑥 & =∫_{1−1}3𝑥\,d𝑥−∫_{1−1}𝑡^{2}\,d𝑥 \\ & =\frac{3𝑥^{2}}{2}_{1−1}−𝑡^{2}𝑥_{1−1} \\ & =0−2𝑡^{2} \\ & =−2𝑡^{2}.\end{aligned}
 
 
 $$
@@ -168,7 +168,7 @@ $$
 
 #### Question
 
-Given that $\displaystyle J(t)=\int_{0}^{1} (\cos t+2x)^2\, \textrm{d}x,$ calculate $J'(t)$ for $t\in\mathbb R$ by differentiating under the integral sign.
+Given that $\displaystyle J(t)=\int_{0}^{1} (\cos t+2x)^2\, \text{d}x,$ calculate $J'(t)$ for $t\in\mathbb R$ by differentiating under the integral sign.
 
 #### Explanation
 
@@ -177,7 +177,7 @@ Suppose $f(x,t)$ is continuous on $R = [a,b]\times [c,d]$ and $\dfrac{\partial f
 $$
 
 
-F(t) = \int_{a}^b f(x,t)\,\textrm{d} x
+F(t) = \int_{a}^b f(x,t)\,\text{d} x
 
 
 $$
@@ -187,7 +187,7 @@ is differentiable on $(c,d),$ and
 $$
 
 
-F'(t) = \dfrac{\textrm d}{\textrm d t}\int_{a}^b f(x,t)\,\textrm{d} x = \int_{a}^b \dfrac{\partial f}{\partial t}(x,t)\,\textrm{d} x.
+F'(t) = \dfrac{\textrm d}{\textrm d t}\int_{a}^b f(x,t)\,\text{d} x = \int_{a}^b \dfrac{\partial f}{\partial t}(x,t)\,\text{d} x.
 
 
 $$
@@ -199,7 +199,7 @@ We wish to compute $J'(t),$ where
 $$
 
 
-J(t)=\int_{0}^{1} (\cos t+2x)^2\, \textrm{d}x.
+J(t)=\int_{0}^{1} (\cos t+2x)^2\, \text{d}x.
 
 
 $$
@@ -209,7 +209,7 @@ Differentiating under the integral sign, we get
 $$
 
 
-J'(t) = \int_{0}^{1} \frac{\partial}{\partial t}\Bigl[(\cos t+2x)^2\Bigr]\,\textrm{d}x.
+J'(t) = \int_{0}^{1} \frac{\partial}{\partial t}\Bigl[(\cos t+2x)^2\Bigr]\,\text{d}x.
 
 
 $$
@@ -229,7 +229,7 @@ Substituting this back into our integral, we get
 $$
 
 
-\begin{aligned}𝐽^{′}(𝑡) & =∫_{10}^{}−2(cos⁡𝑡+2𝑥)sin⁡𝑡\,d𝑥 \\ & =−2sin⁡𝑡∫_{10}^{}(cos⁡𝑡+2𝑥)\,d𝑥.\end{aligned}
+\begin{aligned}𝐽^{′}(𝑡) & =∫_{10}−2(cos⁡𝑡+2𝑥)sin⁡𝑡\,d𝑥 \\ & =−2sin⁡𝑡∫_{10}(cos⁡𝑡+2𝑥)\,d𝑥.\end{aligned}
 
 
 $$
@@ -239,7 +239,7 @@ Finally, let's evaluate the remaining integral:
 $$
 
 
-\begin{aligned}∫_{10}^{}(cos⁡𝑡+2𝑥)\,d𝑥 & =cos⁡𝑡⋅𝑥_{10}^{}+𝑥^{2}_{10}^{} \\ & =cos⁡𝑡+1\end{aligned}
+\begin{aligned}∫_{10}(cos⁡𝑡+2𝑥)\,d𝑥 & =cos⁡𝑡⋅𝑥_{10}+𝑥^{2}_{10} \\ & =cos⁡𝑡+1\end{aligned}
 
 
 $$
@@ -261,7 +261,7 @@ Consider the function
 $$
 
 
-F(t) = \int_{a}^b f(x,t)\,\textrm{d} x, \qquad t \in [c,d].
+F(t) = \int_{a}^b f(x,t)\,\text{d} x, \qquad t \in [c,d].
 
 
 $$
@@ -271,7 +271,7 @@ Then, *differentiation under the integral sign* applies, meaning
 $$
 
 
-F'(t) = \int_{a}^b \frac{\partial f}{\partial t}(x,t)\,\textrm{d} x,
+F'(t) = \int_{a}^b \frac{\partial f}{\partial t}(x,t)\,\text{d} x,
 
 
 $$
@@ -287,7 +287,7 @@ For example, suppose we wish to compute $I'(t),$ where
 $$
 
 
-I(t)=\int_{0}^{1} (2x+t^3)^2 \, \textrm{d}x, \qquad t \in [0,5].
+I(t)=\int_{0}^{1} (2x+t^3)^2 \, \text{d}x, \qquad t \in [0,5].
 
 
 $$
@@ -305,7 +305,7 @@ Thus, the operation is valid. We obtain
 $$
 
 
-I'(t) = \int_{0}^{1} 6(2x+t^3)t^2 \, \textrm{d}x.
+I'(t) = \int_{0}^{1} 6(2x+t^3)t^2 \, \text{d}x.
 
 
 $$
@@ -316,11 +316,11 @@ $$
 
 For which of the following functions is it valid to differentiate under the integral sign?
 
-1. $\displaystyle F_1(t) = \int_0^1 t\cos x\,\textrm{d} x, \quad t \in \mathbb R$
+1. $\displaystyle F_1(t) = \int_0^1 t\cos x\,\text{d} x, \quad t \in \mathbb R$
 
-2. $\displaystyle F_2(t) = \int_0^1 \dfrac{1}{\sqrt{|x - t|}}\,\textrm{d} x, \quad t \in (0,1)$
+2. $\displaystyle F_2(t) = \int_0^1 \dfrac{1}{\sqrt{|x - t|}}\,\text{d} x, \quad t \in (0,1)$
 
-3. $\displaystyle F_3(t) = \int_0^1 \dfrac{1}{1 + (x - t)^2}\,\textrm{d} x, \quad t \in [0,1]$
+3. $\displaystyle F_3(t) = \int_0^1 \dfrac{1}{1 + (x - t)^2}\,\text{d} x, \quad t \in [0,1]$
 
 #### Explanation
 
@@ -329,7 +329,7 @@ Suppose $f(x,t)$ is continuous on $R = [a,b]\times [c,d]$ and $\dfrac{\partial f
 $$
 
 
-F(t) = \int_{a}^b f(x,t)\,\textrm{d} x
+F(t) = \int_{a}^b f(x,t)\,\text{d} x
 
 
 $$
@@ -339,7 +339,7 @@ is differentiable on $(c,d),$ and
 $$
 
 
-F'(t) = \dfrac{\textrm d}{\textrm d t}\int_{a}^b f(x,t)\,\textrm{d} x = \int_{a}^b \dfrac{\partial f}{\partial t}(x,t)\,\textrm{d} x.
+F'(t) = \dfrac{\textrm d}{\textrm d t}\int_{a}^b f(x,t)\,\text{d} x = \int_{a}^b \dfrac{\partial f}{\partial t}(x,t)\,\text{d} x.
 
 
 $$

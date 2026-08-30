@@ -59,7 +59,7 @@ Express the compound statement above in symbolic form given the following:
 
 - $\frac{1}{2}$
 
-- $\sqrt{√2}$
+- $\sqrt{2}$
 
 #### Explanation
 

@@ -352,7 +352,7 @@ Let's write down the formal statement that we wish to prove:
 $$
 
 
-\underbrace{3n+1\textrm{ is even}}_{P}\quad\Rightarrow\quad \underbrace{n\textrm{ is odd}}_{Q}
+\underbrace{3n+1\text{ is even}}_{P}\quad\Rightarrow\quad \underbrace{n\text{ is odd}}_{Q}
 
 
 $$
@@ -361,7 +361,7 @@ To prove that $P\Rightarrow Q$ is true, we assume $P$ and $\lnot Q$ are both tru
 
 We start by assuming that $3n+1$ is even and $n$ is even.
 
-Assume for a contradiction that $3n+1$ is $\boxed{\color{blue}\textrm{even}}$ and $n$ is $\boxed{\color{blue}\textrm{even}}.$
+Assume for a contradiction that $3n+1$ is $\boxed{\color{blue}\text{even}}$ and $n$ is $\boxed{\color{blue}\text{even}}.$
 
 Then, $n=\boxed{\color{blue}2a}$ for some integer $a.$
 
@@ -371,11 +371,11 @@ Substituting $n=\boxed{\color{blue}2a}$ into the expression $3n+1$ implies that 
 
 This gives our contradiction.
 
-But this is a $\boxed{\color{blue}\textrm{contradiction}}$ since $3n+1$ is $\boxed{\color{blue}\textrm{even}}$ by assumption.
+But this is a $\boxed{\color{blue}\text{contradiction}}$ since $3n+1$ is $\boxed{\color{blue}\text{even}}$ by assumption.
 
 Therefore, the assumption that $\lnot Q$ is true was incorrect, which means that $Q$ is true.
 
-Therefore, we conclude that if $3n+1$ is even, then $n$ is is $\boxed{\color{blue}\textrm{odd}}.$
+Therefore, we conclude that if $3n+1$ is even, then $n$ is is $\boxed{\color{blue}\text{odd}}.$
 
 ### Example: Proving Parity Statements
 
@@ -390,7 +390,7 @@ Let's write down the formal statement that we wish to prove:
 $$
 
 
-\underbrace{n^4-1\textrm{ is even}}_{P}\quad\Rightarrow\quad \underbrace{n\textrm{ is odd}}_{Q}
+\underbrace{n^4-1\text{ is even}}_{P}\quad\Rightarrow\quad \underbrace{n\text{ is odd}}_{Q}
 
 
 $$

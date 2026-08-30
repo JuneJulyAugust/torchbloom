@@ -17,7 +17,7 @@ Suppose that we have $10$ stamps worth $\color{blue}3$ cents each and $4$ stamps
 $$
 
 
-\underbrace{ \hspace{.25cm} \color{blue}3 \text{ cents} \hspace{.25cm} }_{\large\color{blue}\textrm{value}} \times \overbrace{10}^{\large\textrm{quantity}} + \underbrace{\hspace{.25cm} \color{blue}5 \text{ cents} \hspace{.25cm} }_{\large\color{blue}\textrm{value}} \times \overbrace{4}^{\large\textrm{quantity}} = 50 \text{ cents}
+\underbrace{ \hspace{.25cm} \color{blue}3 \text{ cents} \hspace{.25cm} }_{\large\color{blue}\text{value}} \times \overbrace{10}^{\large\text{quantity}} + \underbrace{\hspace{.25cm} \color{blue}5 \text{ cents} \hspace{.25cm} }_{\large\color{blue}\text{value}} \times \overbrace{4}^{\large\text{quantity}} = 50 \text{ cents}
 
 
 $$
@@ -29,7 +29,7 @@ For example, if we have $a$ stamps worth $3$ cents each and $b$ stamps worth $5$
 $$
 
 
-\underbrace{\color{blue}3}_{\large\color{blue}\textrm{value}} \times \overbrace{a}^{\large\textrm{quantity}} + \underbrace{\color{blue}5}_{\large\color{blue}\textrm{value}} \times \overbrace{b}^{\large\textrm{quantity}} = 80
+\underbrace{\color{blue}3}_{\large\color{blue}\text{value}} \times \overbrace{a}^{\large\text{quantity}} + \underbrace{\color{blue}5}_{\large\color{blue}\text{value}} \times \overbrace{b}^{\large\text{quantity}} = 80
 
 
 $$

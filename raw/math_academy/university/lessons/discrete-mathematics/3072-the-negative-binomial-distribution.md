@@ -92,7 +92,7 @@ $$
 
 
 
-X \sim \textrm{NB}(r, p).
+X \sim \text{NB}(r, p).
 
 
 
@@ -104,11 +104,11 @@ Finally, notice that if we set $r=1$ (so the number of trials terminates after t
 
 #### Question
 
-Given that $X \sim \textrm{NB}(3, 0.8),$ compute $P(X = 7),$ rounded to $4$ decimal places.
+Given that $X \sim \text{NB}(3, 0.8),$ compute $P(X = 7),$ rounded to $4$ decimal places.
 
 #### Explanation
 
-For a negative binomial random variable $X \sim \textrm{NB}(r, p),$ we have the following probability distribution:
+For a negative binomial random variable $X \sim \text{NB}(r, p),$ we have the following probability distribution:
 
 $$
 
@@ -120,7 +120,7 @@ $$
 
 $$
 
-Here, $X \sim \textrm{NB}(3, 0.8),$ so the distribution of $X$ in this case is
+Here, $X \sim \text{NB}(3, 0.8),$ so the distribution of $X$ in this case is
 
 $$
 
@@ -150,11 +150,11 @@ rounded to $4$ decimal places.
 
 #### Question
 
-Given $X \sim \textrm{NB}(6, 0.28),$ compute $P(X < 9),$ rounded to $4$ decimal places.
+Given $X \sim \text{NB}(6, 0.28),$ compute $P(X < 9),$ rounded to $4$ decimal places.
 
 #### Explanation
 
-For a negative binomial random variable $X \sim \textrm{NB}(r, p),$ we have the following probability distribution:
+For a negative binomial random variable $X \sim \text{NB}(r, p),$ we have the following probability distribution:
 
 $$
 
@@ -166,7 +166,7 @@ $$
 
 $$
 
-Here, $X \sim \textrm{NB}(6, 0.28),$ so the distribution of $X$ in this case is
+Here, $X \sim \text{NB}(6, 0.28),$ so the distribution of $X$ in this case is
 
 $$
 
@@ -196,11 +196,11 @@ rounded to $4$ decimal places.
 
 #### Question
 
-Given $X \sim \textrm{NB}(11, 0.6),$ compute $P(12< X < 16),$ rounded to $4$ decimal places.
+Given $X \sim \text{NB}(11, 0.6),$ compute $P(12< X < 16),$ rounded to $4$ decimal places.
 
 #### Explanation
 
-For a negative binomial random variable $X \sim \textrm{NB}(r, p),$ we have the following probability distribution:
+For a negative binomial random variable $X \sim \text{NB}(r, p),$ we have the following probability distribution:
 
 $$
 
@@ -212,7 +212,7 @@ $$
 
 $$
 
-Here, $X \sim \textrm{NB}(11, 0.6),$ so the distribution of $X$ in this case is
+Here, $X \sim \text{NB}(11, 0.6),$ so the distribution of $X$ in this case is
 
 $$
 
@@ -242,11 +242,11 @@ rounded to $4$ decimal places.
 
 #### Question
 
-Given $X \sim \textrm{NB}(14, 0.65),$ compute $P(X \geq 16),$ rounded to $4$ decimal places.
+Given $X \sim \text{NB}(14, 0.65),$ compute $P(X \geq 16),$ rounded to $4$ decimal places.
 
 #### Explanation
 
-For a negative binomial random variable $X \sim \textrm{NB}(r, p),$ we have the following probability distribution:
+For a negative binomial random variable $X \sim \text{NB}(r, p),$ we have the following probability distribution:
 
 $$
 
@@ -258,7 +258,7 @@ $$
 
 $$
 
-Here, $X \sim \textrm{NB}(14,0.65),$ so the distribution of $X$ in this case is
+Here, $X \sim \text{NB}(14,0.65),$ so the distribution of $X$ in this case is
 
 $$
 

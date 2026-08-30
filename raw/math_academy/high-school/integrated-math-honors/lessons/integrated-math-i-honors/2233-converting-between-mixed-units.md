@@ -21,32 +21,32 @@ For instance, the speed of sound is approximately $0.34$ kilometers per second. 
 
 **Step 1: Create a conversion formula.**
 
-We are given the units $\dfrac{\textrm{km}}{\textrm{s}},$ and we want to convert this into $\dfrac{\textrm{m}}{\textrm{s}}.$ To figure out what we need to multiply by, we can set up an equation to help us:
+We are given the units $\dfrac{\text{km}}{\text{s}},$ and we want to convert this into $\dfrac{\text{m}}{\text{s}}.$ To figure out what we need to multiply by, we can set up an equation to help us:
 
 $$
 
 
-\dfrac{\textrm{km}}{s}\cdot\, \dfrac{?}{?} = \dfrac{\textrm{m}}{\textrm{s}}
+\dfrac{\text{km}}{s}\cdot\, \dfrac{?}{?} = \dfrac{\text{m}}{\text{s}}
 
 
 $$
 
-We want to replace $\textrm{km}$ with $\textrm{m}.$ To get rid of $\textrm{km},$ we can put $\textrm{km}$ in the denominator so that it cancels out:
+We want to replace $\text{km}$ with $\text{m}.$ To get rid of $\text{km},$ we can put $\text{km}$ in the denominator so that it cancels out:
 
 $$
 
 
- \dfrac{\textrm{km} }{s}\cdot \dfrac{?}{ \textrm{km}  } = \dfrac{\textrm{m}}{\textrm{s}}
+ \dfrac{\text{km} }{s}\cdot \dfrac{?}{ \text{km}  } = \dfrac{\text{m}}{\text{s}}
 
 
 $$
 
-Then, to introduce $\textrm{m},$ we can put $\textrm{m}$ in the numerator:
+Then, to introduce $\text{m},$ we can put $\text{m}$ in the numerator:
 
 $$
 
 
- \dfrac{\textrm{km} }{s}\cdot \dfrac{\textrm{m} }{ \textrm{km}  } = \dfrac{\textrm{m}}{\textrm{s}}
+ \dfrac{\text{km} }{s}\cdot \dfrac{\text{m} }{ \text{km}  } = \dfrac{\text{m}}{\text{s}}
 
 
 $$
@@ -56,7 +56,7 @@ So, our conversion formula is
 $$
 
 
-\dfrac{\textrm{km}}{s}\cdot \dfrac{\textrm{m} }{\textrm{km} } = \dfrac{\textrm{m}}{\textrm{s}}.
+\dfrac{\text{km}}{s}\cdot \dfrac{\text{m} }{\text{km} } = \dfrac{\text{m}}{\text{s}}.
 
 
 $$
@@ -65,7 +65,7 @@ $$
 
 Now that we have our conversion formula, we need to determine the correct numbers to use, and apply it.
 
-- The speed that we wish to convert is $0.34 \, \dfrac{\textrm{km}}{\textrm{s}}.$
+- The speed that we wish to convert is $0.34 \, \dfrac{\text{km}}{\text{s}}.$
 
 - There are $1\,000$ meters per kilometer.
 
@@ -89,22 +89,22 @@ A guitar string, made of carbon steel, has a linear mass density of $3\,950$ mil
 
 #### Explanation
 
-We are given the units $\dfrac{\textrm{mg}}{\textrm{m}},$ and we want to convert this into $\dfrac{\textrm{g}}{\textrm{m}}.$ To figure out what we need to multiply by, we can set up an equation to help us:
+We are given the units $\dfrac{\text{mg}}{\text{m}},$ and we want to convert this into $\dfrac{\text{g}}{\text{m}}.$ To figure out what we need to multiply by, we can set up an equation to help us:
 
 $$
 
 
-\dfrac{\textrm{mg}}{\textrm{m}}\cdot\, \dfrac{?}{?} = \dfrac{\textrm{g}}{\textrm{m}}
+\dfrac{\text{mg}}{\text{m}}\cdot\, \dfrac{?}{?} = \dfrac{\text{g}}{\text{m}}
 
 
 $$
 
-We want to replace $\textrm{mg}$ with $\textrm{g}.$ To get rid of $\textrm{mg},$ we can put $\textrm{mg}$ in the denominator so that it cancels out. To introduce $\textrm{g},$ we can put $\textrm{g}$ in the numerator.
+We want to replace $\text{mg}$ with $\text{g}.$ To get rid of $\text{mg},$ we can put $\text{mg}$ in the denominator so that it cancels out. To introduce $\text{g},$ we can put $\text{g}$ in the numerator.
 
 $$
 
 
- \dfrac{\textrm{mg} }{\textrm{m}}\cdot \dfrac{\textrm{g} }{ \textrm{mg}  } = \dfrac{\textrm{g}}{\textrm{m}}
+ \dfrac{\text{mg} }{\text{m}}\cdot \dfrac{\text{g} }{ \text{mg}  } = \dfrac{\text{g}}{\text{m}}
 
 
 $$
@@ -114,14 +114,14 @@ So, our conversion formula is
 $$
 
 
- \dfrac{\textrm{mg} }{\textrm{m}}\cdot \dfrac{\textrm{g} }{ \textrm{mg} } = \dfrac{\textrm{g}}{\textrm{m}}.
+ \dfrac{\text{mg} }{\text{m}}\cdot \dfrac{\text{g} }{ \text{mg} } = \dfrac{\text{g}}{\text{m}}.
 
 
 $$
 
 Now that we have our conversion formula, we need to determine the correct numbers to use, and apply it.
 
-- The density given in the problem statement is $3\,950 \, \dfrac{\textrm{mg}}{\textrm{m}}.$
+- The density given in the problem statement is $3\,950 \, \dfrac{\text{mg}}{\text{m}}.$
 
 - There are $1\,000$ milligrams per gram. Taking the reciprocal, there are $\dfrac{1}{1\,000}$ grams per milligram.
 
@@ -135,7 +135,7 @@ $$
 
 $$
 
-Thus, the linear mass density of the string is $3.95\,\textrm{g}/\textrm{m}.$
+Thus, the linear mass density of the string is $3.95\,\text{g}/\text{m}.$
 
 ### Example: Performing a Unit Conversion: Converting a Denominator
 
@@ -145,22 +145,22 @@ Sand runs through a sand timer at a rate of $120$ grams per minute. What is this
 
 #### Explanation
 
-We are given the units $\dfrac{\textrm{g}}{\textrm{min}},$ and we want to convert this into $\dfrac{\textrm{g}}{\textrm{s}}.$ To figure out what we need to multiply by, we can set up an equation to help us:
+We are given the units $\dfrac{\text{g}}{\text{min}},$ and we want to convert this into $\dfrac{\text{g}}{\text{s}}.$ To figure out what we need to multiply by, we can set up an equation to help us:
 
 $$
 
 
-\dfrac{\textrm{g}}{\textrm{min}}\cdot\, \dfrac{?}{?} = \dfrac{\textrm{g}}{\textrm{s}}
+\dfrac{\text{g}}{\text{min}}\cdot\, \dfrac{?}{?} = \dfrac{\text{g}}{\text{s}}
 
 
 $$
 
-We want to replace $\textrm{min}$ with $\textrm{s}.$ To get rid of $\textrm{min},$ we can put $\textrm{min}$ in the numerator so that it cancels out. To introduce $\textrm{s},$ we can put $\textrm{s}$ in the denominator.
+We want to replace $\text{min}$ with $\text{s}.$ To get rid of $\text{min},$ we can put $\text{min}$ in the numerator so that it cancels out. To introduce $\text{s},$ we can put $\text{s}$ in the denominator.
 
 $$
 
 
- \dfrac{\textrm{g} }{ \textrm{min}}\cdot \dfrac{  \textrm{min}  }{ \textrm{s} } = \dfrac{\textrm{g}}{\textrm{s}}
+ \dfrac{\text{g} }{ \text{min}}\cdot \dfrac{  \text{min}  }{ \text{s} } = \dfrac{\text{g}}{\text{s}}
 
 
 $$
@@ -170,14 +170,14 @@ Therefore, our conversion formula is
 $$
 
 
-\dfrac{\textrm{g} }{ \textrm{min}}\cdot \dfrac{ \textrm{min} }{ \textrm{s} } = \dfrac{\textrm{g}}{\textrm{s}}.
+\dfrac{\text{g} }{ \text{min}}\cdot \dfrac{ \text{min} }{ \text{s} } = \dfrac{\text{g}}{\text{s}}.
 
 
 $$
 
 Now that we have our conversion formula, we need to determine the correct numbers to use, and apply it.
 
-- The rate given in the problem statement is $120 \, \dfrac{\textrm{g}}{\textrm{min}}.$
+- The rate given in the problem statement is $120 \, \dfrac{\text{g}}{\text{min}}.$
 
 - There are $60$ seconds per minute. Taking the reciprocal, there are $\dfrac{1}{60}$ minutes per second.
 
@@ -191,7 +191,7 @@ $$
 
 $$
 
-Thus, the sand runs through the sand timer at a rate of $2 \,\textrm{g}/\textrm{s}.$
+Thus, the sand runs through the sand timer at a rate of $2 \,\text{g}/\text{s}.$
 
 ### Example: Performing a Unit Conversion: Converting a Numerator and a Denominator
 
@@ -201,32 +201,32 @@ A peregrine falcon can reach a speed of $360$ kilometers per hour during flight 
 
 #### Explanation
 
-We are given the units $\dfrac{\textrm{km}}{\textrm{hour}},$ and we want to convert this into $\dfrac{\textrm{m}}{\textrm{s}}.$ We're converting two units instead of just one, so we're going to have to multiply by two conversion factors:
+We are given the units $\dfrac{\text{km}}{\text{hour}},$ and we want to convert this into $\dfrac{\text{m}}{\text{s}}.$ We're converting two units instead of just one, so we're going to have to multiply by two conversion factors:
 
 $$
 
 
-\dfrac{\textrm{km}}{\textrm{hour}}\cdot \,\dfrac{?}{?} \cdot \,\dfrac{?}{?} = \dfrac{\textrm{m}}{\textrm{s}}
+\dfrac{\text{km}}{\text{hour}}\cdot \,\dfrac{?}{?} \cdot \,\dfrac{?}{?} = \dfrac{\text{m}}{\text{s}}
 
 
 $$
 
-One of the conversion factors should change $\textrm{km}$ to $\textrm{m}.$
+One of the conversion factors should change $\text{km}$ to $\text{m}.$
 
 $$
 
 
-\dfrac{\color{blue}\textrm{km} }{\textrm{hour}}\cdot \dfrac{\textrm{m}}{\color{blue}\textrm{km} } \cdot \,\dfrac{?}{?} = \dfrac{\textrm{m}}{\textrm{s}}
+\dfrac{\color{blue}\text{km} }{\text{hour}}\cdot \dfrac{\text{m}}{\color{blue}\text{km} } \cdot \,\dfrac{?}{?} = \dfrac{\text{m}}{\text{s}}
 
 
 $$
 
-The other conversion factor should change $\textrm{hour}$ into $\textrm{s}.$
+The other conversion factor should change $\text{hour}$ into $\text{s}.$
 
 $$
 
 
-\dfrac{\color{blue}\textrm{km} }{ \color{red}\textrm{hour} }\cdot \dfrac{\textrm{m}}{\color{blue}\textrm{km} } \cdot \dfrac{ \color{red}\textrm{hour} }{ \textrm{s} } = \dfrac{\textrm{m}}{\textrm{s}}
+\dfrac{\color{blue}\text{km} }{ \color{red}\text{hour} }\cdot \dfrac{\text{m}}{\color{blue}\text{km} } \cdot \dfrac{ \color{red}\text{hour} }{ \text{s} } = \dfrac{\text{m}}{\text{s}}
 
 
 $$
@@ -236,14 +236,14 @@ So, our conversion formula is
 $$
 
 
-\dfrac{\color{black}\textrm{km} }{ \color{black}\textrm{hour} }\cdot \dfrac{\textrm{m}}{\color{black}\textrm{km} } \cdot \dfrac{ \color{black}\textrm{hour} }{ \textrm{s} } = \dfrac{\textrm{m}}{\textrm{s}}
+\dfrac{\color{black}\text{km} }{ \color{black}\text{hour} }\cdot \dfrac{\text{m}}{\color{black}\text{km} } \cdot \dfrac{ \color{black}\text{hour} }{ \text{s} } = \dfrac{\text{m}}{\text{s}}
 
 
 $$
 
 Now that we have our conversion formula, we need to determine the correct numbers to use, and apply it.
 
-- The rate given in the problem statement is $360 \, \dfrac{\textrm{km}}{\textrm{hour}}.$
+- The rate given in the problem statement is $360 \, \dfrac{\text{km}}{\text{hour}}.$
 
 - There are $1\,000$ meters per kilometer.
 

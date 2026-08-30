@@ -62,7 +62,7 @@ To compute a percentage change, we use the following formula:
 $$
 
 
-\textrm{percentage change} = \dfrac{|\textrm{new value} - \textrm{original value}|}{\textrm{original value}} \times 100\%
+\text{percentage change} = \dfrac{|\text{new value} - \text{original value}|}{\text{original value}} \times 100\%
 
 
 $$
@@ -75,9 +75,9 @@ Note the following:
 
 Now, in our situation, we have the following information:
 
-- $\textrm{new value} = 12$
+- $\text{new value} = 12$
 
-- $\textrm{original value} = 10$
+- $\text{original value} = 10$
 
 So, to compute the percentage change, we use the given formula as follows:
 
@@ -102,16 +102,16 @@ A school had $50$ students in its initial year. The following year, it had $80$ 
 $$
 
 
-\textrm{percentage change} = \dfrac{|\textrm{new value} - \textrm{original value}|}{\textrm{original value}} \times 100\%.
+\text{percentage change} = \dfrac{|\text{new value} - \text{original value}|}{\text{original value}} \times 100\%.
 
 
 $$
 
 We have the following information:
 
-- $\textrm{new value} = 80$ students
+- $\text{new value} = 80$ students
 
-- $\textrm{original value} = 50$ students
+- $\text{original value} = 50$ students
 
 Substituting these values into our formula, we get
 
@@ -138,16 +138,16 @@ We will use the formula
 $$
 
 
-\textrm{percentage change} = \dfrac{|\textrm{new value} - \textrm{original value}|}{\textrm{original value}} \times 100\%.
+\text{percentage change} = \dfrac{|\text{new value} - \text{original value}|}{\text{original value}} \times 100\%.
 
 
 $$
 
 Let $x$ be the original value. Then, we have the following information:
 
-- $\textrm{new value} = 4x$
+- $\text{new value} = 4x$
 
-- $\textrm{original value} = x$
+- $\text{original value} = x$
 
 Substituting these values into our formula, we get
 
@@ -174,16 +174,16 @@ We will use the formula
 $$
 
 
-\textrm{percentage change} = \dfrac{|\textrm{new value} - \textrm{original value}|}{\textrm{original value}} \times 100\%.
+\text{percentage change} = \dfrac{|\text{new value} - \text{original value}|}{\text{original value}} \times 100\%.
 
 
 $$
 
 We have the following information:
 
-- $\textrm{new value} = 15$ muffins
+- $\text{new value} = 15$ muffins
 
-- $\textrm{original value} = 24$ muffins
+- $\text{original value} = 24$ muffins
 
 Substituting these values into our formula, we get
 
@@ -206,7 +206,7 @@ For example, if a real estate agent estimates that a house is worth $180\,000$ b
 $$
 
 
-\textrm{error} = 180\,000 - 150\,000 = 30\,000.
+\text{error} = 180\,000 - 150\,000 = 30\,000.
 
 
 $$
@@ -220,7 +220,7 @@ To resolve this, it's often more helpful to compute the **percentage error**. Th
 $$
 
 
-\textrm{percentage error} = \dfrac{|\textrm{estimate} - \textrm{exact value}|}{\textrm{exact value}} \times 100\%.
+\text{percentage error} = \dfrac{|\text{estimate} - \text{exact value}|}{\text{exact value}} \times 100\%.
 
 
 $$
@@ -252,16 +252,16 @@ We will use the formula
 $$
 
 
-\textrm{percentage error} = \dfrac{|\textrm{estimate} - \textrm{exact value}|}{\textrm{exact value}} \times 100\%.
+\text{percentage error} = \dfrac{|\text{estimate} - \text{exact value}|}{\text{exact value}} \times 100\%.
 
 
 $$
 
 We have the following information:
 
-- $\textrm{estimate} = 27$ weeks
+- $\text{estimate} = 27$ weeks
 
-- $\textrm{exact value} = 20$ weeks
+- $\text{exact value} = 20$ weeks
 
 Substituting these values into our formula, we get
 

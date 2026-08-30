@@ -27,7 +27,7 @@ If $X$ and $Y$ are continuous random variables with the joint probability densit
 $$
 
 
-F(x,y)=\int^y_{-\infty}\int^x_{-\infty} f(u,v)\; \textrm{d}u\textrm{d}v.
+F(x,y)=\int^y_{-\infty}\int^x_{-\infty} f(u,v)\; \text{d}u\text{d}v.
 
 
 $$
@@ -171,7 +171,7 @@ Therefore, for $x \geq 1$ and $y \geq 1,$ the joint CDF for our random variables
 $$
 
 
-\begin{aligned}𝐹(𝑥,𝑦) & =𝐹_{𝑋}(𝑥)⋅𝐹_{𝑌}(𝑦) \\ & =(1−\frac{1}{𝑥})(1−\frac{1}{\sqrt{√𝑦^{3}}}) \\ & =1−\frac{1}{𝑥}−\frac{1}{\sqrt{√𝑦^{3}}}+\frac{1}{𝑥\sqrt{√𝑦^{3}}}.\end{aligned}
+\begin{aligned}𝐹(𝑥,𝑦) & =𝐹_{𝑋}(𝑥)⋅𝐹_{𝑌}(𝑦) \\ & =(1−\frac{1}{𝑥})(1−\frac{1}{\sqrt{𝑦^{3}}}) \\ & =1−\frac{1}{𝑥}−\frac{1}{\sqrt{𝑦^{3}}}+\frac{1}{𝑥\sqrt{𝑦^{3}}}.\end{aligned}
 
 
 $$
@@ -181,7 +181,7 @@ Therefore, the full expression for the joint CDF is
 $$
 
 
-\begin{aligned}1−\frac{1}{𝑥}−\frac{1}{\sqrt{√𝑦^{3}}}+\frac{1}{𝑥\sqrt{√𝑦^{3}}}, & 𝑥≥1,\,𝑦≥1 \\ 0, & otherwise.\end{aligned}
+\begin{aligned}1−\frac{1}{𝑥}−\frac{1}{\sqrt{𝑦^{3}}}+\frac{1}{𝑥\sqrt{𝑦^{3}}}, & 𝑥≥1,\,𝑦≥1 \\ 0, & otherwise.\end{aligned}
 
 
 $$

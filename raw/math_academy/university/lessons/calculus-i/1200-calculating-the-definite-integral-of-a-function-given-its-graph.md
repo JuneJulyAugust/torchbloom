@@ -14,7 +14,7 @@ Topic ID: 1200
 
 ### Introduction
 
-Suppose we are given the graph of the function $y=f(x)$ defined on the interval $[-2,2]$ as shown below. How can we calculate the integral $\displaystyle \int_{-2}^{2} f(x)\: \textrm{d}x?$
+Suppose we are given the graph of the function $y=f(x)$ defined on the interval $[-2,2]$ as shown below. How can we calculate the integral $\displaystyle \int_{-2}^{2} f(x)\: \text{d}x?$
 
 ![Instructional graphic](../../../lesson-assets/calculus-i/topic-1200/9869a189cac1d277.png)
 
@@ -23,7 +23,7 @@ First, we notice that the graph consists of two parts: the line segment for $x \
 $$
 
 
-\int_{-2}^{2} f(x)\: \textrm{d}x = \underbrace{\int_{-2}^{0} f(x)\: \textrm{d}x}_{A_1} + \underbrace{\int_{0}^{2} f(x)\: \textrm{d}x}_{A_2}
+\int_{-2}^{2} f(x)\: \text{d}x = \underbrace{\int_{-2}^{0} f(x)\: \text{d}x}_{A_1} + \underbrace{\int_{0}^{2} f(x)\: \text{d}x}_{A_2}
 
 
 $$
@@ -57,7 +57,7 @@ So, we obtain
 $$
 
 
-\begin{aligned}∫_{2−2}^{}𝑓(𝑥)\,d𝑥 & =𝐴_{1}+𝐴_{2} \\ & =3+2 \\ & =5.\end{aligned}
+\begin{aligned}∫_{2−2}𝑓(𝑥)\,d𝑥 & =𝐴_{1}+𝐴_{2} \\ & =3+2 \\ & =5.\end{aligned}
 
 
 $$
@@ -66,7 +66,7 @@ $$
 
 #### Question
 
-Consider the graph of the function $y=f(x),$ shown below. It consists of three line segments. Find the value of $\displaystyle \int_{0}^{4} f(x)\: \textrm{d}x.$
+Consider the graph of the function $y=f(x),$ shown below. It consists of three line segments. Find the value of $\displaystyle \int_{0}^{4} f(x)\: \text{d}x.$
 
 ![Instructional graphic](../../../lesson-assets/calculus-i/topic-1200/1a01a8f36136db38.png)
 
@@ -77,7 +77,7 @@ The graph consists of $3$ parts: the line segment for $x \in [0,2],$ the line se
 $$
 
 
-\int_{0}^{4} f(x)\: \textrm{d}x = \underbrace{\int_{0}^{2} f(x)\: \textrm{d}x}_{A_1} + \underbrace{\int_{2}^{3} f(x)\: \textrm{d}x}_{A_2} + \underbrace{\int_{3}^{4} f(x)\: \textrm{d}x}_{-A_3}
+\int_{0}^{4} f(x)\: \text{d}x = \underbrace{\int_{0}^{2} f(x)\: \text{d}x}_{A_1} + \underbrace{\int_{2}^{3} f(x)\: \text{d}x}_{A_2} + \underbrace{\int_{3}^{4} f(x)\: \text{d}x}_{-A_3}
 
 
 $$
@@ -117,7 +117,7 @@ Since the region lies below the $x$-axis, we have
 $$
 
 
-\int_{3}^{4} f(x)\: \textrm{d}x = -A_3 = -\dfrac{1}{2}.
+\int_{3}^{4} f(x)\: \text{d}x = -A_3 = -\dfrac{1}{2}.
 
 
 $$
@@ -127,7 +127,7 @@ Therefore, we obtain
 $$
 
 
-\begin{aligned}∫_{40}^{}𝑓(𝑥)\,d𝑥 & =𝐴_{1}+𝐴_{2}−𝐴_{3} \\ & =5+\frac{3}{2}−\frac{1}{2} \\ & =6.\end{aligned}
+\begin{aligned}∫_{40}𝑓(𝑥)\,d𝑥 & =𝐴_{1}+𝐴_{2}−𝐴_{3} \\ & =5+\frac{3}{2}−\frac{1}{2} \\ & =6.\end{aligned}
 
 
 $$
@@ -136,7 +136,7 @@ $$
 
 #### Question
 
-Consider the graph of the function $y=f(x),$ shown below. It consists of one line segment, an arc of a quarter-circle centered at $(-3,0)$ with radius $1,$ and an arc of a quarter-circle centered at $(0,0)$ with radius $2.$ Find the value of $\displaystyle \int_{-3}^{2} f(x)\: \textrm{d}x.$
+Consider the graph of the function $y=f(x),$ shown below. It consists of one line segment, an arc of a quarter-circle centered at $(-3,0)$ with radius $1,$ and an arc of a quarter-circle centered at $(0,0)$ with radius $2.$ Find the value of $\displaystyle \int_{-3}^{2} f(x)\: \text{d}x.$
 
 ![Instructional graphic](../../../lesson-assets/calculus-i/topic-1200/e33949bbea91b034.png)
 
@@ -147,7 +147,7 @@ The graph consists of $3$ parts: the arc of a quarter-circle for $x \in [-3,-2],
 $$
 
 
-\int_{-3}^{2} f(x)\: \textrm{d}x = \underbrace{\int_{-3}^{-2} f(x)\: \textrm{d}x}_{-A_1} + \underbrace{\int_{-2}^{0} f(x)\: \textrm{d}x}_{A_2} + \underbrace{\int_{0}^{2} f(x)\: \textrm{d}x}_{A_3}
+\int_{-3}^{2} f(x)\: \text{d}x = \underbrace{\int_{-3}^{-2} f(x)\: \text{d}x}_{-A_1} + \underbrace{\int_{-2}^{0} f(x)\: \text{d}x}_{A_2} + \underbrace{\int_{0}^{2} f(x)\: \text{d}x}_{A_3}
 
 
 $$
@@ -167,7 +167,7 @@ Since the region lies below the $x$-axis, we have
 $$
 
 
-\int_{-3}^{-2} f(x)\: \textrm{d}x = -A_1 = -\dfrac{\pi}{4}.
+\int_{-3}^{-2} f(x)\: \text{d}x = -A_1 = -\dfrac{\pi}{4}.
 
 
 $$
@@ -197,7 +197,7 @@ Therefore, we obtain
 $$
 
 
-\begin{aligned}∫_{4−3}^{}𝑓(𝑥)\,d𝑥 & =−𝐴_{1}+𝐴_{2}+𝐴_{3} \\ & =−\frac{𝜋}{4}+2+𝜋 \\ & =2+\frac{3𝜋}{4}.\end{aligned}
+\begin{aligned}∫_{4−3}𝑓(𝑥)\,d𝑥 & =−𝐴_{1}+𝐴_{2}+𝐴_{3} \\ & =−\frac{𝜋}{4}+2+𝜋 \\ & =2+\frac{3𝜋}{4}.\end{aligned}
 
 
 $$

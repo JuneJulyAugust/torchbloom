@@ -52,7 +52,7 @@ We carry out the integration as follows:
 $$
 
 
-\begin{aligned}𝑀 & =∫_{100}^{}(0.2+0.05𝑥)\,d𝑥 \\ & =0.2𝑥\,_{100}^{}+0.05⋅\frac{𝑥^{2}}{2}\,_{100}^{} \\ & =0.2(10−0)+0.05(50−0) \\ & =2+2.5 \\ & =4.5\end{aligned}
+\begin{aligned}𝑀 & =∫_{100}(0.2+0.05𝑥)\,d𝑥 \\ & =0.2𝑥\,_{100}+0.05⋅\frac{𝑥^{2}}{2}\,_{100} \\ & =0.2(10−0)+0.05(50−0) \\ & =2+2.5 \\ & =4.5\end{aligned}
 
 
 $$
@@ -74,7 +74,7 @@ The mass of a single vertical column measuring
 $$
 
 
-\underbrace{1\,\textrm{ft}^2}_{\textrm{cross section}} \times \:\: \underbrace{100\, \textrm{ft}}_{\textrm{height}}
+\underbrace{1\,\text{ft}^2}_{\text{cross section}} \times \:\: \underbrace{100\, \text{ft}}_{\text{height}}
 
 
 $$
@@ -89,7 +89,7 @@ $$
 
 $$
 
-However, since we want the mass of $5$ vertical columns (since that will give a cross-section of $5\,\textrm{ft}^2),$ we need to multiply the above integral by $5.$ So the required mass is given by
+However, since we want the mass of $5$ vertical columns (since that will give a cross-section of $5\,\text{ft}^2),$ we need to multiply the above integral by $5.$ So the required mass is given by
 
 $$
 
@@ -104,7 +104,7 @@ Carrying out the integration, we obtain
 $$
 
 
-\begin{aligned}𝑀 & =5∫_{1000}^{}40𝑒^{−0.5𝑑}\,dℎ \\ & =200∫_{1000}^{}𝑒^{−0.5𝑑}\,dℎ \\ & =200[−\frac{1}{0.5}⋅𝑒^{−0.5𝑑}]_{1000}^{} \\ & =−400\,𝑒^{−0.5𝑑}\,_{1000}^{} \\ & =−400(𝑒^{−50}−1) \\ & =400(1−𝑒^{−50}).\end{aligned}
+\begin{aligned}𝑀 & =5∫_{1000}40𝑒^{−0.5𝑑}\,dℎ \\ & =200∫_{1000}𝑒^{−0.5𝑑}\,dℎ \\ & =200[−\frac{1}{0.5}⋅𝑒^{−0.5𝑑}]_{1000} \\ & =−400\,𝑒^{−0.5𝑑}\,_{1000} \\ & =−400(𝑒^{−50}−1) \\ & =400(1−𝑒^{−50}).\end{aligned}
 
 
 $$
@@ -138,7 +138,7 @@ The mass of a single vertical column measuring
 $$
 
 
-\underbrace{1\,\textrm{m}^2}_{\textrm{cross section}} \times \:\: \underbrace{30\, \textrm{m}}_{\textrm{height}}
+\underbrace{1\,\text{m}^2}_{\text{cross section}} \times \:\: \underbrace{30\, \text{m}}_{\text{height}}
 
 
 $$
@@ -153,7 +153,7 @@ $$
 
 $$
 
-However, since we want the mass of $4$ vertical columns (since that will give a cross-section of $4\,\textrm{m}^2),$ we need to multiply the above integral by $4.$ So the required mass is given by
+However, since we want the mass of $4$ vertical columns (since that will give a cross-section of $4\,\text{m}^2),$ we need to multiply the above integral by $4.$ So the required mass is given by
 
 $$
 
@@ -168,7 +168,7 @@ Therefore, we obtain
 $$
 
 
-\begin{aligned}𝑀 & =4∫_{300}^{}𝑐(ℎ)\,dℎ \\ & =4(∫_{200}^{}𝑐(ℎ)\,dℎ+∫_{3020}^{}𝑐(ℎ)\,dℎ) \\ & =4[∫_{200}^{}(30−ℎ)dℎ+∫_{3020}^{}10\,𝑒^{2−0.1ℎ}\,dℎ] \\ & =4∫_{200}^{}(30−ℎ)dℎ+40∫_{3020}^{}𝑒^{2−0.1ℎ}\,dℎ.\end{aligned}
+\begin{aligned}𝑀 & =4∫_{300}𝑐(ℎ)\,dℎ \\ & =4(∫_{200}𝑐(ℎ)\,dℎ+∫_{3020}𝑐(ℎ)\,dℎ) \\ & =4[∫_{200}(30−ℎ)dℎ+∫_{3020}10\,𝑒^{2−0.1ℎ}\,dℎ] \\ & =4∫_{200}(30−ℎ)dℎ+40∫_{3020}𝑒^{2−0.1ℎ}\,dℎ.\end{aligned}
 
 
 $$
@@ -192,7 +192,7 @@ Here, $A(h)$ is the density function for the volume of the solid because the acc
 $$
 
 
-\begin{aligned}𝑉 & =∫_{100}^{}𝐴(ℎ)\,dℎ \\ & =∫_{100}^{}(2+2ℎ)\,dℎ \\ & =(2ℎ+ℎ^{2})_{100}^{} \\ & =(2(10)+(10)^{2})−0 \\ & =120\,cm^{3}\end{aligned}
+\begin{aligned}𝑉 & =∫_{100}𝐴(ℎ)\,dℎ \\ & =∫_{100}(2+2ℎ)\,dℎ \\ & =(2ℎ+ℎ^{2})_{100} \\ & =(2(10)+(10)^{2})−0 \\ & =120\,cm^{3}\end{aligned}
 
 
 $$
@@ -220,7 +220,7 @@ Here, $A(h)$ is the density function for the volume of the tank because the accu
 $$
 
 
-\begin{aligned}𝑉 & =∫_{150}^{}𝐴(ℎ)\,dℎ \\ & =∫_{150}^{}3𝑒^{−0.2ℎ}\,dℎ \\ & =3⋅−\frac{1}{0.2}⋅[𝑒^{−0.2ℎ}]_{150}^{} \\ & =−15\,𝑒^{−0.2ℎ}_{150}^{} \\ & =15(1−𝑒^{−3}).\end{aligned}
+\begin{aligned}𝑉 & =∫_{150}𝐴(ℎ)\,dℎ \\ & =∫_{150}3𝑒^{−0.2ℎ}\,dℎ \\ & =3⋅−\frac{1}{0.2}⋅[𝑒^{−0.2ℎ}]_{150} \\ & =−15\,𝑒^{−0.2ℎ}_{150} \\ & =15(1−𝑒^{−3}).\end{aligned}
 
 
 $$

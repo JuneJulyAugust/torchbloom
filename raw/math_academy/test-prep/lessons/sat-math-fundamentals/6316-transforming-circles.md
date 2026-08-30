@@ -33,7 +33,7 @@ For each point on circle $\text{T},$ we must add $3$ to each $y$-coordinate to g
 $$
 
 
-y_{\textrm{new}} = y + 3.
+y_{\text{new}} = y + 3.
 
 
 $$
@@ -43,7 +43,7 @@ This equation is equivalent to
 $$
 
 
-y = y_{\textrm{new}} - 3.
+y = y_{\text{new}} - 3.
 
 
 $$
@@ -58,7 +58,7 @@ $$
 
 $$
 
-Dropping the $\textrm{new}$ suffix, we get
+Dropping the $\text{new}$ suffix, we get
 
 $$
 
@@ -116,7 +116,7 @@ $$
 
 $$
 
-Dropping the $\textrm{new}$ suffix, we get
+Dropping the $\text{new}$ suffix, we get
 
 $$
 
@@ -174,7 +174,7 @@ $$
 
 $$
 
-Dropping the $\textrm{new}$ suffix, we get
+Dropping the $\text{new}$ suffix, we get
 
 $$
 
@@ -227,7 +227,7 @@ For each point on circle $\text{R},$ we must subtract $2$ from each $x$-coordina
 $$
 
 
-x_{\textrm{new}} = x - 2.
+x_{\text{new}} = x - 2.
 
 
 $$
@@ -237,7 +237,7 @@ This equation is equivalent to
 $$
 
 
-x = x_{\textrm{new}} + 2.
+x = x_{\text{new}} + 2.
 
 
 $$
@@ -252,7 +252,7 @@ $$
 
 $$
 
-Dropping the $\textrm{new}$ suffix, we get
+Dropping the $\text{new}$ suffix, we get
 
 $$
 

@@ -29,7 +29,7 @@ which has the complex eigenvalue
 $$
 
 
-\lambda=1-2\textrm{i}={\color{blue}1}+({\color{red}-2})\textrm{i}
+\lambda=1-2\text{i}={\color{blue}1}+({\color{red}-2})\text{i}
 
 
 $$
@@ -79,7 +79,7 @@ Let's check that this is true in this case:
 $$
 
 
-\begin{aligned}𝑃𝐶𝑃^{−1} & =[\begin{aligned}2 & −1 \\ −1 & 1\end{aligned}][\begin{aligned}1 & −2 \\ 2 & 1\end{aligned}][\begin{aligned}2 & −1 \\ −1 & 1\end{aligned}]^{−1} \\ & =[\begin{aligned}0 & −5 \\ 1 & 3\end{aligned}][\begin{aligned}1 & 1 \\ 1 & 2\end{aligned}] \\ & =[\begin{aligned}−5 & −10 \\ 4 & 7\end{aligned}] \\ & =𝐴\,✓\end{aligned}
+\begin{aligned}𝑃𝐶𝑃^{−1} & =[\begin{matrix}2 & −1 \\ −1 & 1\end{matrix}][\begin{matrix}1 & −2 \\ 2 & 1\end{matrix}][\begin{matrix}2 & −1 \\ −1 & 1\end{matrix}]^{−1} \\ & =[\begin{matrix}0 & −5 \\ 1 & 3\end{matrix}][\begin{matrix}1 & 1 \\ 1 & 2\end{matrix}] \\ & =[\begin{matrix}−5 & −10 \\ 4 & 7\end{matrix}] \\ & =𝐴\,✓\end{aligned}
 
 
 $$
@@ -146,7 +146,7 @@ $$
 
 and $\mathbf{v}$ is an eigenvector of $A$ corresponding to the complex eigenvalue $\lambda.$
 
-- From the matrix $[\begin{aligned}3 & −1 \\ −(−1) & 3\end{aligned}]$ we deduce that $\textrm{Re}(\lambda)={\color{blue}3}$ and $\textrm{Im}(\lambda) = {\color{red}-1}.$ So, our eigenvalue is
+- From the matrix $[\begin{aligned}3 & −1 \\ −(−1) & 3\end{aligned}]$ we deduce that $\text{Re}(\lambda)={\color{blue}3}$ and $\text{Im}(\lambda) = {\color{red}-1}.$ So, our eigenvalue is
 
 - From the matrix $[\begin{aligned}1 & −1 \\ 1 & 0\end{aligned}]$ we deduce that our corresponding eigenvector is
 
@@ -174,7 +174,7 @@ $$
 
 $$
 
-Consider the vector $\mathbf{v}$ and the rotation-scaling matrix $C$ shown above. Given that $\mathbf{v}$ is an eigenvector of a $2 \times 2$ matrix $A$ corresponding to the eigenvalue $\lambda=-1-4\textrm{i},$ find a matrix $P$ such that $A=PCP^{-1}.$
+Consider the vector $\mathbf{v}$ and the rotation-scaling matrix $C$ shown above. Given that $\mathbf{v}$ is an eigenvector of a $2 \times 2$ matrix $A$ corresponding to the eigenvalue $\lambda=-1-4\text{i},$ find a matrix $P$ such that $A=PCP^{-1}.$
 
 #### Explanation
 
@@ -205,7 +205,7 @@ Next, we can find the real and imaginary parts of our eigenvector:
 $$
 
 
-\begin{aligned}𝐯 & =[\begin{aligned}1 \\ 1+2i\end{aligned}]=\underset{Re(𝐯)}{\underset{}{[\begin{aligned}1 \\ 1\end{aligned}]}}+i\underset{Im(𝐯)}{\underset{}{[\begin{aligned}0 \\ 2\end{aligned}]}}\end{aligned}
+\begin{aligned}𝐯 & =[\begin{matrix}1 \\ 1+2i\end{matrix}]=\underset{Re(𝐯)}{\underset{}{[\begin{matrix}1 \\ 1\end{matrix}]}}+i\underset{Im(𝐯)}{\underset{}{[\begin{matrix}0 \\ 2\end{matrix}]}}\end{aligned}
 
 
 $$
@@ -215,7 +215,7 @@ Finally, we can now construct $P\mathbin{:}$
 $$
 
 
-\begin{aligned}𝑃 & =\begin{aligned}| & | \\ Re(𝐯) & Im(𝐯) \\ | & |\end{aligned}=[\begin{aligned}1 & 0 \\ 1 & 2\end{aligned}]\end{aligned}
+\begin{aligned}𝑃 & =\begin{matrix}| & | \\ Re(𝐯) & Im(𝐯) \\ | & |\end{matrix}=[\begin{matrix}1 & 0 \\ 1 & 2\end{matrix}]\end{aligned}
 
 
 $$
@@ -232,7 +232,7 @@ $$
 
 $$
 
-Consider the vector $\mathbf{v}$ and the rotation-scaling matrix $C$ shown above. Given that $\mathbf{v}$ is an eigenvector of a $2 \times 2$ matrix $A$ corresponding to the eigenvalue $\lambda=2+4\textrm{i},$ find a matrix $P$ such that $A=PCP^{-1}.$
+Consider the vector $\mathbf{v}$ and the rotation-scaling matrix $C$ shown above. Given that $\mathbf{v}$ is an eigenvector of a $2 \times 2$ matrix $A$ corresponding to the eigenvalue $\lambda=2+4\text{i},$ find a matrix $P$ such that $A=PCP^{-1}.$
 
 #### Explanation
 
@@ -268,14 +268,14 @@ $$
 
 $$
 
-So, our rotation-scaling matrix $C$ corresponds to the eigenvalue $\overline{\lambda}=2-4\textrm{i},$ the complex conjugate of $\lambda.$ Hence, to construct the matrix $P,$ we use the eigenvector $\overline{\mathbf{v}},$ the complex conjugate of $\mathbf{v}.$
+So, our rotation-scaling matrix $C$ corresponds to the eigenvalue $\overline{\lambda}=2-4\text{i},$ the complex conjugate of $\lambda.$ Hence, to construct the matrix $P,$ we use the eigenvector $\overline{\mathbf{v}},$ the complex conjugate of $\mathbf{v}.$
 
 Next, we find the real and imaginary parts of our eigenvector:
 
 $$
 
 
-\begin{aligned}\overset{𝐯}{} & =[\begin{aligned}2i \\ 7\end{aligned}]=\underset{Re(\overset{𝐯}{})}{\underset{}{[\begin{aligned}0 \\ 7\end{aligned}]}}+i\underset{Im(\overset{𝐯}{})}{\underset{}{[\begin{aligned}2 \\ 0\end{aligned}]}}\end{aligned}
+\begin{aligned}\overset{𝐯}{} & =[\begin{matrix}2i \\ 7\end{matrix}]=\underset{Re(\overset{𝐯}{})}{\underset{}{[\begin{matrix}0 \\ 7\end{matrix}]}}+i\underset{Im(\overset{𝐯}{})}{\underset{}{[\begin{matrix}2 \\ 0\end{matrix}]}}\end{aligned}
 
 
 $$
@@ -285,7 +285,7 @@ Finally, we can now construct $P\mathbin{:}$
 $$
 
 
-\begin{aligned}𝑃 & =\begin{aligned}| & | \\ Re(\overset{𝐯}{}) & Im(\overset{𝐯}{}) \\ | & |\end{aligned}=[\begin{aligned}0 & 2 \\ 7 & 0\end{aligned}].\end{aligned}
+\begin{aligned}𝑃 & =\begin{matrix}| & | \\ Re(\overset{𝐯}{}) & Im(\overset{𝐯}{}) \\ | & |\end{matrix}=[\begin{matrix}0 & 2 \\ 7 & 0\end{matrix}].\end{aligned}
 
 
 $$
@@ -302,7 +302,7 @@ $$
 
 $$
 
-Consider the matrices shown above. Given that $A$ has the complex eigenvalue $\lambda=-2+6\textrm{i},$ and that $A=PCP^{-1}$ where $C$ is a rotation-scaling matrix, find the matrix $P.$
+Consider the matrices shown above. Given that $A$ has the complex eigenvalue $\lambda=-2+6\text{i},$ and that $A=PCP^{-1}$ where $C$ is a rotation-scaling matrix, find the matrix $P.$
 
 #### Explanation
 
@@ -318,7 +318,7 @@ $$
 
 and $\mathbf{v}$ is an eigenvector of $A$ corresponding to the complex eigenvalue $\lambda.$
 
-Since we are given the eigenvalue $\lambda=-2+6\textrm{i},$ we can immediately construct the rotation-scaling matrix:
+Since we are given the eigenvalue $\lambda=-2+6\text{i},$ we can immediately construct the rotation-scaling matrix:
 
 $$
 
@@ -338,12 +338,12 @@ $$
 
 $$
 
-In our case, we have $\,\lambda_1 =-2+6\textrm{i},$ and
+In our case, we have $\,\lambda_1 =-2+6\text{i},$ and
 
 $$
 
 
-\begin{aligned}𝐴−𝜆𝐼 & =[\begin{aligned}1 & −5 \\ 9 & −5\end{aligned}]−[\begin{aligned}−2+6i & 0 \\ 0 & −2+6i\end{aligned}] \\ & =[\begin{aligned}3−6i & −5 \\ 9 & −3−6i\end{aligned}].\end{aligned}
+\begin{aligned}𝐴−𝜆𝐼 & =[\begin{matrix}1 & −5 \\ 9 & −5\end{matrix}]−[\begin{matrix}−2+6i & 0 \\ 0 & −2+6i\end{matrix}] \\ & =[\begin{matrix}3−6i & −5 \\ 9 & −3−6i\end{matrix}].\end{aligned}
 
 
 $$
@@ -363,7 +363,7 @@ Since the matrix $A-\lambda I$ is singular, the system above must have a non-zer
 $$
 
 
-x_1=\dfrac 1 3(1+2\textrm{i})x_2.
+x_1=\dfrac 1 3(1+2\text{i})x_2.
 
 
 $$
@@ -393,7 +393,7 @@ Therefore, we can construct the matrix $P$ as follows:
 $$
 
 
-\begin{aligned}𝑃=\begin{aligned}| & | \\ Re(𝐯) & Im(𝐯) \\ | & |\end{aligned}=[\begin{aligned}1 & 2 \\ 3 & 0\end{aligned}].\end{aligned}
+\begin{aligned}𝑃=\begin{matrix}| & | \\ Re(𝐯) & Im(𝐯) \\ | & |\end{matrix}=[\begin{matrix}1 & 2 \\ 3 & 0\end{matrix}].\end{aligned}
 
 
 $$
@@ -415,7 +415,7 @@ For example, let's consider the matrix $A,$ given by
 $$
 
 
-[\begin{aligned}\sqrt{√3}+1 & −2 \\ 1 & \sqrt{√3}−1\end{aligned}]
+[\begin{aligned}\sqrt{3}+1 & −2 \\ 1 & \sqrt{3}−1\end{aligned}]
 
 
 $$

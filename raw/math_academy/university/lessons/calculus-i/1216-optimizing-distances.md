@@ -192,7 +192,7 @@ Computing this quantity, we get
 $$
 
 
-\begin{aligned}𝑑 & =\sqrt{√𝑆(−\frac{1}{2})} \\ & =\sqrt{√2(−\frac{1}{2})^{2}+2(−\frac{1}{2})+5} \\ & =\sqrt{√\frac{9}{2}} \\ & =\frac{3\sqrt{√2}}{2}.\end{aligned}
+\begin{aligned}𝑑 & =\sqrt{𝑆(−\frac{1}{2})} \\ & =\sqrt{2(−\frac{1}{2})^{2}+2(−\frac{1}{2})+5} \\ & =\sqrt{\frac{9}{2}} \\ & =\frac{3\sqrt{2}}{2}.\end{aligned}
 
 
 $$

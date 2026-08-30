@@ -63,13 +63,13 @@ Note that negative values of $H$ mean the nut is under the mud.
 
 We can obtain the following information from the graph:
 
-- The midline is given by the line $H=10.$ This means the center of the wheel is located $10\:\textrm{cm}$ above the ground.
+- The midline is given by the line $H=10.$ This means the center of the wheel is located $10\:\text{cm}$ above the ground.
 
-- The nut reaches a distance of $35 \: \textrm{cm}$ above the ground at its highest point and $15 \: \textrm{cm}$ into the mud at its lowest point.
+- The nut reaches a distance of $35 \: \text{cm}$ above the ground at its highest point and $15 \: \text{cm}$ into the mud at its lowest point.
 
-- The amplitude is $35-10 = 25 \: \textrm{cm},$ and it represents the distance from the nut to the center of the wheel.
+- The amplitude is $35-10 = 25 \: \text{cm},$ and it represents the distance from the nut to the center of the wheel.
 
-- The period is $5 - 1 = 4 \: \textrm{s},$ and it tells us that the wheel makes one full rotation every $4$ seconds.
+- The period is $5 - 1 = 4 \: \text{s},$ and it tells us that the wheel makes one full rotation every $4$ seconds.
 
 ![Instructional graphic](../../../../lesson-assets/integrated-math-ii-honors/topic-2566/dbf0bd1d141a700a.png)
 
@@ -98,7 +98,7 @@ From the graph, we see that the distance between the peaks (i.e., the period) is
 $$
 
 
-\textrm{period} = 2.5 - 0.5 = 2\,\textrm{seconds}.
+\text{period} = 2.5 - 0.5 = 2\,\text{seconds}.
 
 
 $$
@@ -139,7 +139,7 @@ We'll answer each part of the question in turn.
 
 - For the first part, we are interested in the time difference between the highest and lowest tides (i.e., ** the period of the function). Now, we have So, the period is The time between the lowest and highest tides is ** the period. Therefore, it takes $6$ hours for the tide to transition from its lowest to highest level.
 
-- For the second part, we're interested in the maximum value of the function. This is given by the amplitude plus the midline. Now, we have Therefore, Therefore, the maximum height of the tide is $14\,\textrm{ft}.$
+- For the second part, we're interested in the maximum value of the function. This is given by the amplitude plus the midline. Now, we have Therefore, Therefore, the maximum height of the tide is $14\,\text{ft}.$
 
 ### Example: Interpreting a Sine Function
 
@@ -188,7 +188,7 @@ Therefore, we conclude that the altitude difference is equal to
 $$
 
 
-2\cdot {\color{black}8} = 16\,\textrm{km}.
+2\cdot {\color{black}8} = 16\,\text{km}.
 
 
 $$

@@ -13,7 +13,7 @@ Topic ID: 1037
 
 ### Introduction
 
-How can we calculate $\displaystyle{\int} \left(3\sin^2 x + 3\cos^2 x\right) \, \textrm{d}x?$
+How can we calculate $\displaystyle{\int} \left(3\sin^2 x + 3\cos^2 x\right) \, \text{d}x?$
 
 We can compute integrals like this using the Pythagorean trigonometric identity,
 
@@ -30,7 +30,7 @@ So, we evaluate our integral as follows:
 $$
 
 
-\begin{aligned} \int \left(3\sin^2 x+ 3\cos^2 x\right ) \, \textrm{d}x &= \int 3(\underbrace{\sin^2 x +\cos^2 x }_1 )\, \textrm{d}x\\&=\int 3(1) \, \textrm{d}x\\&=\int 3 \, \textrm{d}x\\&=3x+C \end{aligned}
+\begin{aligned} \int \left(3\sin^2 x+ 3\cos^2 x\right ) \, \text{d}x &= \int 3(\underbrace{\sin^2 x +\cos^2 x }_1 )\, \text{d}x\\&=\int 3(1) \, \text{d}x\\&=\int 3 \, \text{d}x\\&=3x+C \end{aligned}
 
 
 $$
@@ -41,7 +41,7 @@ Let's look at some more examples.
 
 #### Question
 
-Calculate the integral $\displaystyle\int \dfrac{1}{1-\sin^2 x}\,\textrm{d}x.$
+Calculate the integral $\displaystyle\int \dfrac{1}{1-\sin^2 x}\,\text{d}x.$
 
 #### Explanation
 
@@ -93,7 +93,7 @@ are also called Pythagorean trigonometric identities. They can be used to solve 
 
 #### Question
 
-Calculate $\, \displaystyle{\int} \tan^2 x \, \textrm{d}x.$
+Calculate $\, \displaystyle{\int} \tan^2 x \, \text{d}x.$
 
 #### Explanation
 
@@ -122,7 +122,7 @@ Using the above, we compute the given integral as follows:
 $$
 
 
-\begin{aligned} \int \tan^2 x \, \textrm{d}x&=\int \left(\sec^2 x -1\right ) \, \textrm{d}x\\&=\tan x -x+C. \end{aligned}
+\begin{aligned} \int \tan^2 x \, \text{d}x&=\int \left(\sec^2 x -1\right ) \, \text{d}x\\&=\tan x -x+C. \end{aligned}
 
 
 $$
@@ -131,7 +131,7 @@ $$
 
 #### Question
 
-Calculate the integral $\displaystyle{\int} \left(5\cot^2 x -x^2\right) \, \textrm{d}x.$
+Calculate the integral $\displaystyle{\int} \left(5\cot^2 x -x^2\right) \, \text{d}x.$
 
 #### Explanation
 
@@ -150,7 +150,7 @@ Substituting this into our integral gives
 $$
 
 
-\begin{aligned} \int \left(5\cot^2 x -x^2\right) \, \textrm{d}x&=\int \bigg(5\left(\csc^2 x -1 \right) -x^2\bigg) \, \textrm{d}x\\&=\int \left(5\csc^2 x -5 -x^2\right ) \, \textrm{d}x\\&=-5\cot x -5x-\dfrac{x^3}{3}+C. \end{aligned}
+\begin{aligned} \int \left(5\cot^2 x -x^2\right) \, \text{d}x&=\int \bigg(5\left(\csc^2 x -1 \right) -x^2\bigg) \, \text{d}x\\&=\int \left(5\csc^2 x -5 -x^2\right ) \, \text{d}x\\&=-5\cot x -5x-\dfrac{x^3}{3}+C. \end{aligned}
 
 
 $$
@@ -159,7 +159,7 @@ $$
 
 #### Question
 
-Calculate $\displaystyle{\int} 2\tan^2 (3x) \, \textrm{d} x.$
+Calculate $\displaystyle{\int} 2\tan^2 (3x) \, \text{d} x.$
 
 #### Explanation
 
@@ -178,7 +178,7 @@ Substituting the above into our integral gives
 $$
 
 
-\begin{aligned} \int 2\tan^2 (3x) \, \textrm{d}x&= 2\int \tan^2 (3x) \, \textrm{d}x\\&= 2\int \left(\sec^2 (3x) -1\right ) \, \textrm{d}x\\&= 2\left(\int \sec^2 (3x)\, \textrm{d}x -\int1 \, \textrm{d}x\right)\\&= 2\left( \dfrac{1}{3}\tan (3x) -x\right)+C\\&= \dfrac{2}{3}\tan (3x) -2x+C. \end{aligned}
+\begin{aligned} \int 2\tan^2 (3x) \, \text{d}x&= 2\int \tan^2 (3x) \, \text{d}x\\&= 2\int \left(\sec^2 (3x) -1\right ) \, \text{d}x\\&= 2\left(\int \sec^2 (3x)\, \text{d}x -\int1 \, \text{d}x\right)\\&= 2\left( \dfrac{1}{3}\tan (3x) -x\right)+C\\&= \dfrac{2}{3}\tan (3x) -2x+C. \end{aligned}
 
 
 $$

@@ -184,7 +184,7 @@ First, we find $u^{-1}(y)$ as follows:
 $$
 
 
-\begin{aligned}𝑢(𝑦) & =\sqrt{√𝑦} \\ 𝑦 & =\sqrt{√𝑢^{−1}(𝑦)} \\ 𝑢^{−1}(𝑦) & =𝑦^{2}\end{aligned}
+\begin{aligned}𝑢(𝑦) & =\sqrt{𝑦} \\ 𝑦 & =\sqrt{𝑢^{−1}(𝑦)} \\ 𝑢^{−1}(𝑦) & =𝑦^{2}\end{aligned}
 
 
 $$

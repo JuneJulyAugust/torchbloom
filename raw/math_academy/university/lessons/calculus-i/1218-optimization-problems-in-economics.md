@@ -111,7 +111,7 @@ $$
 
 $$
 
-The quantity $x\cdot (\textrm{cost per unit})$ is sometimes called the **variable cost** since it is the part of the cost function $C(x)$ that is dependent on the number of units $x$ produced by the company.
+The quantity $x\cdot (\text{cost per unit})$ is sometimes called the **variable cost** since it is the part of the cost function $C(x)$ that is dependent on the number of units $x$ produced by the company.
 
 Finally, if we know the revenue function $R(x)$ and the cost function $C(x),$ then the profit function $P(x)$ is given by
 

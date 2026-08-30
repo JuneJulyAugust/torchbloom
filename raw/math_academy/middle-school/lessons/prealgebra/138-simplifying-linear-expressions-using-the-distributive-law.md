@@ -74,7 +74,7 @@ First, we distribute the $(-4)$ over each of the terms in parentheses.
 
 $$
 
-\begin{aligned}\begin{aligned}(−4)(8𝑥+7𝑦)+30𝑦 & = \\ (−4)⋅8𝑥+(−4)⋅7𝑦+30𝑦 & = \\ (−32𝑥)+(−28𝑦)+30𝑦 & = \\ −32𝑥−28𝑦+30𝑦 & \end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}(−4)(8𝑥+7𝑦)+30𝑦 & = \\ (−4)⋅8𝑥+(−4)⋅7𝑦+30𝑦 & = \\ (−32𝑥)+(−28𝑦)+30𝑦 & = \\ −32𝑥−28𝑦+30𝑦 & \end{matrix}\end{aligned}
 
 $$
 
@@ -82,7 +82,7 @@ Then, we collect like terms.
 
 $$
 
-\begin{aligned}\begin{aligned}−32𝑥−28𝑦+30𝑦 & = \\ −32𝑥+(−28𝑦+30𝑦) & = \\ −32𝑥+2𝑦 & \end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}−32𝑥−28𝑦+30𝑦 & = \\ −32𝑥+(−28𝑦+30𝑦) & = \\ −32𝑥+2𝑦 & \end{matrix}\end{aligned}
 
 $$
 

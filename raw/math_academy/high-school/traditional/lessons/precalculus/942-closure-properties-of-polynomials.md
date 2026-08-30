@@ -142,7 +142,7 @@ $$
 
 
 
-\textrm{deg}(P) = {\color{blue}4}, \qquad \textrm{deg}(Q) = {\color{red}3}.
+\text{deg}(P) = {\color{blue}4}, \qquad \text{deg}(Q) = {\color{red}3}.
 
 
 
@@ -176,7 +176,7 @@ $$
 
 
 
-\textrm{deg}(P \cdot Q) = \textrm{deg}(P) + \textrm{deg}(Q)
+\text{deg}(P \cdot Q) = \text{deg}(P) + \text{deg}(Q)
 
 
 
@@ -208,21 +208,21 @@ $$
 
 
 
-\textrm{deg}(P \pm Q) = \max \big\{ \textrm{deg}(P), \textrm{deg}(Q) \big\},
+\text{deg}(P \pm Q) = \max \big\{ \text{deg}(P), \text{deg}(Q) \big\},
 
 
 
 $$
 
-where the $\textrm{max}$ function simply returns the largest element of the set.
+where the $\text{max}$ function simply returns the largest element of the set.
 
-For example, suppose that $\textrm{deg}(P) = 5$ and $\textrm{deg}(Q) = 2.$ Then,
+For example, suppose that $\text{deg}(P) = 5$ and $\text{deg}(Q) = 2.$ Then,
 
 $$
 
 
 
-\textrm{deg}(P + Q) = \max \big\{ 5, 2 \big\} = 5.
+\text{deg}(P + Q) = \max \big\{ 5, 2 \big\} = 5.
 
 
 
@@ -238,7 +238,7 @@ $$
 
 
 
-\textrm{deg}(P) = \textrm{deg}(Q) = n.
+\text{deg}(P) = \text{deg}(Q) = n.
 
 
 
@@ -250,7 +250,7 @@ $$
 
 
 
-0 \leq \textrm{deg}(P \pm Q) \leq n
+0 \leq \text{deg}(P \pm Q) \leq n
 
 
 

@@ -113,7 +113,7 @@ Next, we compute $\Delta y_p$ using the predictor equation:
 $$
 
 
-\begin{aligned}Δ𝑦_{𝑝} & =\frac{1}{2}(3𝑦^{′}−𝑦_{′−1}^{})⋅Δ𝑥 \\ & =\frac{1}{2}(3⋅(\frac{1}{2})−(−2))⋅\frac{1}{2} \\ & =\frac{1}{4}⋅\frac{7}{2} \\ & =\frac{7}{8}\end{aligned}
+\begin{aligned}Δ𝑦_{𝑝} & =\frac{1}{2}(3𝑦^{′}−𝑦_{′−1})⋅Δ𝑥 \\ & =\frac{1}{2}(3⋅(\frac{1}{2})−(−2))⋅\frac{1}{2} \\ & =\frac{1}{4}⋅\frac{7}{2} \\ & =\frac{7}{8}\end{aligned}
 
 
 $$
@@ -211,7 +211,7 @@ Next, we compute $\Delta y_p$ using the predictor equation:
 $$
 
 
-\begin{aligned}Δ𝑦_{𝑝} & =\frac{1}{2}(3𝑦^{′}−𝑦_{′−1}^{})⋅Δ𝑥 \\ & =\frac{1}{2}(3⋅1−1)⋅\frac{1}{4} \\ & =\frac{1}{8}⋅2 \\ & =\frac{1}{4}\end{aligned}
+\begin{aligned}Δ𝑦_{𝑝} & =\frac{1}{2}(3𝑦^{′}−𝑦_{′−1})⋅Δ𝑥 \\ & =\frac{1}{2}(3⋅1−1)⋅\frac{1}{4} \\ & =\frac{1}{8}⋅2 \\ & =\frac{1}{4}\end{aligned}
 
 
 $$
@@ -247,7 +247,7 @@ the **$2$-Step Adams-Bashforth-Moulton** (**ABM $2$-step**) **Method** with step
 $$
 
 
-\begin{aligned}Predictor & : & Δ𝑦_{𝑝} & =\frac{1}{2}(3𝑦^{′}−𝑦_{′−1}^{})⋅Δ𝑥, \\ Corrector & : & Δ𝑦 & =\frac{1}{12}(5𝑦_{′𝑝}^{}+8𝑦^{′}−𝑦_{′−1}^{})⋅Δ𝑥,\end{aligned}
+\begin{aligned}Predictor & : & Δ𝑦_{𝑝} & =\frac{1}{2}(3𝑦^{′}−𝑦_{′−1})⋅Δ𝑥, \\ Corrector & : & Δ𝑦 & =\frac{1}{12}(5𝑦_{′𝑝}+8𝑦^{′}−𝑦_{′−1})⋅Δ𝑥,\end{aligned}
 
 
 $$
@@ -285,7 +285,7 @@ Now, the slope at the point $(x_\text{new},y_p) = \left(\dfrac12+\dfrac12, \dfra
 $$
 
 
-\begin{aligned}𝑦_{′𝑝}^{} & =4𝑥_{new}−2𝑦_{𝑝} \\ & =4⋅1−2⋅\frac{13}{8} \\ & =\frac{3}{4}.\end{aligned}
+\begin{aligned}𝑦_{′𝑝} & =4𝑥_{new}−2𝑦_{𝑝} \\ & =4⋅1−2⋅\frac{13}{8} \\ & =\frac{3}{4}.\end{aligned}
 
 
 $$
@@ -303,7 +303,7 @@ Finally, we compute $\Delta y$ using the corrector equation:
 $$
 
 
-\begin{aligned}Δ𝑦 & =\frac{1}{12}(5𝑦_{′𝑝}^{}+8𝑦^{′}−𝑦_{′−1}^{})⋅Δ𝑥 \\ & =\frac{1}{12}(5⋅\frac{3}{4}+8⋅\frac{1}{2}−(−2))⋅\frac{1}{2} \\ & =\frac{1}{24}⋅\frac{39}{4} \\ & =\frac{13}{32}\end{aligned}
+\begin{aligned}Δ𝑦 & =\frac{1}{12}(5𝑦_{′𝑝}+8𝑦^{′}−𝑦_{′−1})⋅Δ𝑥 \\ & =\frac{1}{12}(5⋅\frac{3}{4}+8⋅\frac{1}{2}−(−2))⋅\frac{1}{2} \\ & =\frac{1}{24}⋅\frac{39}{4} \\ & =\frac{13}{32}\end{aligned}
 
 
 $$
@@ -369,7 +369,7 @@ the $2$-step Adams-Bashforth-Moulton (ABM2) method with step size $\Delta x$ is 
 $$
 
 
-\begin{aligned}Predictor & : & Δ𝑦_{𝑝} & =\frac{1}{2}(3𝑦^{′}−𝑦_{′−1}^{})⋅Δ𝑥, \\ Corrector & : & Δ𝑦 & =\frac{1}{12}(5𝑦_{′𝑝}^{}+8𝑦^{′}−𝑦_{′−1}^{})⋅Δ𝑥,\end{aligned}
+\begin{aligned}Predictor & : & Δ𝑦_{𝑝} & =\frac{1}{2}(3𝑦^{′}−𝑦_{′−1})⋅Δ𝑥, \\ Corrector & : & Δ𝑦 & =\frac{1}{12}(5𝑦_{′𝑝}+8𝑦^{′}−𝑦_{′−1})⋅Δ𝑥,\end{aligned}
 
 
 $$
@@ -395,7 +395,7 @@ Now, we compute $\Delta y$ using the corrector equation:
 $$
 
 
-\begin{aligned}Δ𝑦 & =\frac{1}{12}(5𝑦_{′𝑝}^{}+8𝑦^{′}−𝑦_{′−1}^{})⋅Δ𝑥 \\ & =\frac{1}{12}(5⋅(−1)+8⋅(−1)−(−1))⋅\frac{1}{4} \\ & =\frac{1}{48}⋅(−12) \\ & =−\frac{1}{4}\end{aligned}
+\begin{aligned}Δ𝑦 & =\frac{1}{12}(5𝑦_{′𝑝}+8𝑦^{′}−𝑦_{′−1})⋅Δ𝑥 \\ & =\frac{1}{12}(5⋅(−1)+8⋅(−1)−(−1))⋅\frac{1}{4} \\ & =\frac{1}{48}⋅(−12) \\ & =−\frac{1}{4}\end{aligned}
 
 
 $$
@@ -447,7 +447,7 @@ the $2$-Step Adams-Bashforth-Moulton (ABM2) method with step size $\Delta x$ is 
 $$
 
 
-\begin{aligned}Predictor & : & Δ𝑦_{𝑝} & =\frac{1}{2}(3𝑦^{′}−𝑦_{′−1}^{})⋅Δ𝑥, \\ Corrector & : & Δ𝑦 & =\frac{1}{12}(5𝑦_{′𝑝}^{}+8𝑦^{′}−𝑦_{′−1}^{})⋅Δ𝑥,\end{aligned}
+\begin{aligned}Predictor & : & Δ𝑦_{𝑝} & =\frac{1}{2}(3𝑦^{′}−𝑦_{′−1})⋅Δ𝑥, \\ Corrector & : & Δ𝑦 & =\frac{1}{12}(5𝑦_{′𝑝}+8𝑦^{′}−𝑦_{′−1})⋅Δ𝑥,\end{aligned}
 
 
 $$
@@ -491,7 +491,7 @@ Next, we compute $\Delta y_p$ using the predictor equation:
 $$
 
 
-\begin{aligned}Δ𝑦_{𝑝} & =\frac{1}{2}(3𝑦^{′}−𝑦_{′−1}^{})⋅Δ𝑥 \\ & =\frac{1}{2}(3⋅(−\frac{1}{4})−1)⋅1 \\ & =−\frac{7}{8}\end{aligned}
+\begin{aligned}Δ𝑦_{𝑝} & =\frac{1}{2}(3𝑦^{′}−𝑦_{′−1})⋅Δ𝑥 \\ & =\frac{1}{2}(3⋅(−\frac{1}{4})−1)⋅1 \\ & =−\frac{7}{8}\end{aligned}
 
 
 $$
@@ -515,7 +515,7 @@ Hence, the slope at this predicted point is
 $$
 
 
-\begin{aligned}𝑦_{′𝑝}^{} & =−𝑥_{new}−𝑦_{𝑝} \\ & =−1−(−\frac{5}{8}) \\ & =−\frac{3}{8}.\end{aligned}
+\begin{aligned}𝑦_{′𝑝} & =−𝑥_{new}−𝑦_{𝑝} \\ & =−1−(−\frac{5}{8}) \\ & =−\frac{3}{8}.\end{aligned}
 
 
 $$
@@ -527,7 +527,7 @@ Finally, we compute $\Delta y$ using the corrector equation:
 $$
 
 
-\begin{aligned}Δ𝑦 & =\frac{1}{12}(5𝑦_{′𝑝}^{}+8𝑦^{′}−𝑦_{′−1}^{})⋅Δ𝑥 \\ & =\frac{1}{12}(5⋅(−\frac{3}{8})+8⋅(−\frac{1}{4})−1)⋅1 \\ & =\frac{1}{12}⋅(−\frac{39}{8}) \\ & =−\frac{13}{32}\end{aligned}
+\begin{aligned}Δ𝑦 & =\frac{1}{12}(5𝑦_{′𝑝}+8𝑦^{′}−𝑦_{′−1})⋅Δ𝑥 \\ & =\frac{1}{12}(5⋅(−\frac{3}{8})+8⋅(−\frac{1}{4})−1)⋅1 \\ & =\frac{1}{12}⋅(−\frac{39}{8}) \\ & =−\frac{13}{32}\end{aligned}
 
 
 $$
@@ -603,7 +603,7 @@ the $2$-Step Adams-Bashforth-Moulton (ABM $2$-step) Method with step size $\Delt
 $$
 
 
-\begin{aligned}Predictor & : & Δ𝑦_{𝑝} & =\frac{1}{2}(3𝑦^{′}−𝑦_{′−1}^{})⋅Δ𝑥, \\ Corrector & : & Δ𝑦 & =\frac{1}{12}(5𝑦_{′𝑝}^{}+8𝑦^{′}−𝑦_{′−1}^{})⋅Δ𝑥,\end{aligned}
+\begin{aligned}Predictor & : & Δ𝑦_{𝑝} & =\frac{1}{2}(3𝑦^{′}−𝑦_{′−1})⋅Δ𝑥, \\ Corrector & : & Δ𝑦 & =\frac{1}{12}(5𝑦_{′𝑝}+8𝑦^{′}−𝑦_{′−1})⋅Δ𝑥,\end{aligned}
 
 
 $$
@@ -641,7 +641,7 @@ Next, we compute $\Delta y_p$ using the predictor equation:
 $$
 
 
-\begin{aligned}Δ𝑦_{𝑝} & =\frac{1}{2}(3𝑦^{′}−𝑦_{′−1}^{})⋅Δ𝑥 \\ & =\frac{1}{2}(3⋅1−2)⋅1 \\ & =\frac{1}{2}.\end{aligned}
+\begin{aligned}Δ𝑦_{𝑝} & =\frac{1}{2}(3𝑦^{′}−𝑦_{′−1})⋅Δ𝑥 \\ & =\frac{1}{2}(3⋅1−2)⋅1 \\ & =\frac{1}{2}.\end{aligned}
 
 
 $$
@@ -665,7 +665,7 @@ Hence, the slope at this predicted point is
 $$
 
 
-\begin{aligned}𝑦_{′𝑝}^{} & =𝑥_{new}−2𝑦_{𝑝}+6 \\ & =2−2⋅\frac{7}{2}+6 \\ & =1.\end{aligned}
+\begin{aligned}𝑦_{′𝑝} & =𝑥_{new}−2𝑦_{𝑝}+6 \\ & =2−2⋅\frac{7}{2}+6 \\ & =1.\end{aligned}
 
 
 $$
@@ -677,7 +677,7 @@ Finally, we compute $\Delta y$ using the corrector equation:
 $$
 
 
-\begin{aligned}Δ𝑦 & =\frac{1}{12}(5𝑦_{′𝑝}^{}+8𝑦^{′}−𝑦_{′−1}^{})⋅Δ𝑥 \\ & =\frac{1}{12}(5⋅1+8⋅1−2)⋅1 \\ & =\frac{1}{12}⋅11 \\ & =\frac{11}{12}.\end{aligned}
+\begin{aligned}Δ𝑦 & =\frac{1}{12}(5𝑦_{′𝑝}+8𝑦^{′}−𝑦_{′−1})⋅Δ𝑥 \\ & =\frac{1}{12}(5⋅1+8⋅1−2)⋅1 \\ & =\frac{1}{12}⋅11 \\ & =\frac{11}{12}.\end{aligned}
 
 
 $$
@@ -765,7 +765,7 @@ Since we have two known values, the simplest reasonable approximation to $g(\the
 $$
 
 
-\begin{aligned}𝑝(𝜃) & =𝑦^{′}+\frac{𝑦^{′}−𝑦_{′−1}^{}}{0−(−1)}(𝜃−0) \\ & =𝑦^{′}+(𝑦^{′}−𝑦_{′−1}^{})𝜃.\end{aligned}
+\begin{aligned}𝑝(𝜃) & =𝑦^{′}+\frac{𝑦^{′}−𝑦_{′−1}}{0−(−1)}(𝜃−0) \\ & =𝑦^{′}+(𝑦^{′}−𝑦_{′−1})𝜃.\end{aligned}
 
 
 $$
@@ -775,7 +775,7 @@ Finally, by integrating this approximation, we obtain
 $$
 
 
-\begin{aligned}∫_{10}^{}𝑝(𝜃)\,d𝜃 & =∫_{10}^{}(𝑦^{′}+(𝑦^{′}−𝑦_{′−1}^{})𝜃)\,d𝜃 \\ & =(𝑦^{′}𝜃+\frac{1}{2}(𝑦^{′}−𝑦_{′−1}^{})𝜃^{2})_{𝜃\,=\,1𝜃\,=\,0}^{} \\ & =𝑦^{′}+\frac{1}{2}(𝑦^{′}−𝑦_{′−1}^{})−0 \\ & =\frac{1}{2}(3𝑦^{′}−𝑦_{′−1}^{}).\end{aligned}
+\begin{aligned}∫_{10}𝑝(𝜃)\,d𝜃 & =∫_{10}(𝑦^{′}+(𝑦^{′}−𝑦_{′−1})𝜃)\,d𝜃 \\ & =(𝑦^{′}𝜃+\frac{1}{2}(𝑦^{′}−𝑦_{′−1})𝜃^{2})_{𝜃\,=\,1𝜃\,=\,0} \\ & =𝑦^{′}+\frac{1}{2}(𝑦^{′}−𝑦_{′−1})−0 \\ & =\frac{1}{2}(3𝑦^{′}−𝑦_{′−1}).\end{aligned}
 
 
 $$
@@ -785,7 +785,7 @@ Therefore, the approximation of the increment in $y$ is
 $$
 
 
-\begin{aligned}Δ𝑦=∫_{10}^{}𝑔(𝜃)\,d𝜃⋅Δ𝑥≈∫_{10}^{}𝑝(𝜃)\,d𝜃⋅Δ𝑥=\frac{1}{2}(3𝑦^{′}−𝑦_{′−1}^{})⋅Δ𝑥.\end{aligned}
+\begin{aligned}Δ𝑦=∫_{10}𝑔(𝜃)\,d𝜃⋅Δ𝑥≈∫_{10}𝑝(𝜃)\,d𝜃⋅Δ𝑥=\frac{1}{2}(3𝑦^{′}−𝑦_{′−1})⋅Δ𝑥.\end{aligned}
 
 
 $$
@@ -881,7 +881,7 @@ Let $q(\theta)$ be the quadratic that passes through these three points. After s
 $$
 
 
-\begin{aligned}𝑞(𝜃) & =\frac{1}{2}𝜃(𝜃+1)𝑦_{′𝑝}^{}−(𝜃−1)(𝜃+1)𝑦^{′}+\frac{1}{2}𝜃(𝜃−1)𝑦_{′−1}^{} \\ & =\frac{1}{2}(𝜃^{2}+𝜃)𝑦_{′𝑝}^{}−(𝜃^{2}−1)𝑦^{′}+\frac{1}{2}(𝜃^{2}−𝜃)𝑦_{′−1}^{}.\end{aligned}
+\begin{aligned}𝑞(𝜃) & =\frac{1}{2}𝜃(𝜃+1)𝑦_{′𝑝}−(𝜃−1)(𝜃+1)𝑦^{′}+\frac{1}{2}𝜃(𝜃−1)𝑦_{′−1} \\ & =\frac{1}{2}(𝜃^{2}+𝜃)𝑦_{′𝑝}−(𝜃^{2}−1)𝑦^{′}+\frac{1}{2}(𝜃^{2}−𝜃)𝑦_{′−1}.\end{aligned}
 
 
 $$
@@ -891,7 +891,7 @@ Now, we integrate this approximation from $0$ to $1{:}$
 $$
 
 
-\begin{aligned}∫_{10}^{}𝑞(𝜃)\,d𝜃 & =∫_{10}^{}(\frac{1}{2}(𝜃^{2}+𝜃)𝑦_{′𝑝}^{}−(𝜃^{2}−1)𝑦^{′}+\frac{1}{2}(𝜃^{2}−𝜃)𝑦_{′−1}^{})\,d𝜃 \\ & =\frac{1}{2}(\frac{1}{3}+\frac{1}{2})𝑦_{′𝑝}^{}−(\frac{1}{3}−1)𝑦^{′}+\frac{1}{2}(\frac{1}{3}−\frac{1}{2})𝑦_{′−1}^{}−0 \\ & =\frac{5}{12}𝑦_{′𝑝}^{}+\frac{2}{3}𝑦^{′}−\frac{1}{12}𝑦_{′−1}^{} \\ & =\frac{1}{12}(5𝑦_{′𝑝}^{}+8𝑦^{′}−𝑦_{′−1}^{})\end{aligned}
+\begin{aligned}∫_{10}𝑞(𝜃)\,d𝜃 & =∫_{10}(\frac{1}{2}(𝜃^{2}+𝜃)𝑦_{′𝑝}−(𝜃^{2}−1)𝑦^{′}+\frac{1}{2}(𝜃^{2}−𝜃)𝑦_{′−1})\,d𝜃 \\ & =\frac{1}{2}(\frac{1}{3}+\frac{1}{2})𝑦_{′𝑝}−(\frac{1}{3}−1)𝑦^{′}+\frac{1}{2}(\frac{1}{3}−\frac{1}{2})𝑦_{′−1}−0 \\ & =\frac{5}{12}𝑦_{′𝑝}+\frac{2}{3}𝑦^{′}−\frac{1}{12}𝑦_{′−1} \\ & =\frac{1}{12}(5𝑦_{′𝑝}+8𝑦^{′}−𝑦_{′−1})\end{aligned}
 
 
 $$
@@ -911,7 +911,7 @@ It is this approximation that we use as the AM2 corrector. Putting it together, 
 $$
 
 
-\begin{aligned}Predictor & : & Δ𝑦_{𝑝} & =\frac{1}{2}(3𝑦^{′}−𝑦_{′−1}^{})⋅Δ𝑥 \\ Corrector & : & Δ𝑦 & =\frac{1}{12}(5𝑦_{′𝑝}^{}+8𝑦^{′}−𝑦_{′−1}^{})⋅Δ𝑥\end{aligned}
+\begin{aligned}Predictor & : & Δ𝑦_{𝑝} & =\frac{1}{2}(3𝑦^{′}−𝑦_{′−1})⋅Δ𝑥 \\ Corrector & : & Δ𝑦 & =\frac{1}{12}(5𝑦_{′𝑝}+8𝑦^{′}−𝑦_{′−1})⋅Δ𝑥\end{aligned}
 
 
 $$

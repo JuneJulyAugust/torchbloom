@@ -47,7 +47,7 @@ The corresponding volume is given by
 $$
 
 
-\begin{aligned}𝑉_{outer} & =𝜋∫_{10}^{}[\,(upper)−(lower)\,]^{2}\,d𝑥 \\ & =𝜋∫_{10}^{}[\,(𝑥)−(−1)\,]^{2}\,d𝑥 \\ & =𝜋∫_{10}^{}[𝑥+1]^{2}\,d𝑥.\end{aligned}
+\begin{aligned}𝑉_{outer} & =𝜋∫_{10}[\,(upper)−(lower)\,]^{2}\,d𝑥 \\ & =𝜋∫_{10}[\,(𝑥)−(−1)\,]^{2}\,d𝑥 \\ & =𝜋∫_{10}[𝑥+1]^{2}\,d𝑥.\end{aligned}
 
 
 $$
@@ -59,7 +59,7 @@ The corresponding volume is given by
 $$
 
 
-\begin{aligned}𝑉_{inner} & =𝜋∫_{10}^{}[\,(upper)−(lower)\,]^{2}\,d𝑥 \\ & =𝜋∫_{10}^{}[\,(𝑥^{4})−(−1)\,]^{2}\,d𝑥 \\ & =𝜋∫_{10}^{}[𝑥^{4}+1]^{2}\,d𝑥.\end{aligned}
+\begin{aligned}𝑉_{inner} & =𝜋∫_{10}[\,(upper)−(lower)\,]^{2}\,d𝑥 \\ & =𝜋∫_{10}[\,(𝑥^{4})−(−1)\,]^{2}\,d𝑥 \\ & =𝜋∫_{10}[𝑥^{4}+1]^{2}\,d𝑥.\end{aligned}
 
 
 $$
@@ -93,7 +93,7 @@ The corresponding volume is given by
 $$
 
 
-\begin{aligned}𝑉_{outer} & =𝜋∫_{0−1}^{}[\,(upper)−(lower)\,]^{2}\,d𝑥 \\ & =𝜋∫_{0−1}^{}[\,(3)−(2𝑥^{2})\,]^{2}\,d𝑥 \\ & =𝜋∫_{0−1}^{}[3−2𝑥^{2}]^{2}\,d𝑥.\end{aligned}
+\begin{aligned}𝑉_{outer} & =𝜋∫_{0−1}[\,(upper)−(lower)\,]^{2}\,d𝑥 \\ & =𝜋∫_{0−1}[\,(3)−(2𝑥^{2})\,]^{2}\,d𝑥 \\ & =𝜋∫_{0−1}[3−2𝑥^{2}]^{2}\,d𝑥.\end{aligned}
 
 
 $$
@@ -107,7 +107,7 @@ The corresponding volume is given by
 $$
 
 
-\begin{aligned}𝑉_{inner} & =𝜋∫_{0−1}^{}[\,(upper)−(lower)\,]^{2}\,d𝑥 \\ & =𝜋∫_{0−1}^{}[\,(3)−(−2𝑥)\,]^{2}\,d𝑥 \\ & =𝜋∫_{0−1}^{}[3+2𝑥]^{2}\,d𝑥.\end{aligned}
+\begin{aligned}𝑉_{inner} & =𝜋∫_{0−1}[\,(upper)−(lower)\,]^{2}\,d𝑥 \\ & =𝜋∫_{0−1}[\,(3)−(−2𝑥)\,]^{2}\,d𝑥 \\ & =𝜋∫_{0−1}[3+2𝑥]^{2}\,d𝑥.\end{aligned}
 
 
 $$
@@ -155,7 +155,7 @@ The corresponding volume is given by
 $$
 
 
-\begin{aligned}𝑉_{outer} & =𝜋∫_{10}^{}[\,(upper)−(lower)\,]^{2}\,d𝑥 \\ & =𝜋∫_{10}^{}[\,(1)−(𝑥)\,]^{2}\,d𝑥 \\ & =𝜋∫_{10}^{}[1−𝑥]^{2}\,d𝑥.\end{aligned}
+\begin{aligned}𝑉_{outer} & =𝜋∫_{10}[\,(upper)−(lower)\,]^{2}\,d𝑥 \\ & =𝜋∫_{10}[\,(1)−(𝑥)\,]^{2}\,d𝑥 \\ & =𝜋∫_{10}[1−𝑥]^{2}\,d𝑥.\end{aligned}
 
 
 $$
@@ -175,7 +175,7 @@ First, since we are rotating about a vertical line, we need to solve the equatio
 $$
 
 
-\begin{aligned}𝑦=\frac{𝑥}{2} & \,⟹\,𝑥=2𝑦 \\ 𝑦=\sqrt{√𝑥} & \,⟹\,𝑥=𝑦^{2}\end{aligned}
+\begin{aligned}𝑦=\frac{𝑥}{2} & \,⟹\,𝑥=2𝑦 \\ 𝑦=\sqrt{𝑥} & \,⟹\,𝑥=𝑦^{2}\end{aligned}
 
 
 $$
@@ -211,7 +211,7 @@ The corresponding volume is given by
 $$
 
 
-\begin{aligned}𝑉_{outer} & =𝜋∫_{20}^{}[\,(right)−(left)\,]^{2}\,d𝑦 \\ & =𝜋∫_{20}^{}[\,(2𝑦)−(−2)\,]^{2}\,d𝑦 \\ & =𝜋∫_{20}^{}[2𝑦+2]^{2}\,d𝑦.\end{aligned}
+\begin{aligned}𝑉_{outer} & =𝜋∫_{20}[\,(right)−(left)\,]^{2}\,d𝑦 \\ & =𝜋∫_{20}[\,(2𝑦)−(−2)\,]^{2}\,d𝑦 \\ & =𝜋∫_{20}[2𝑦+2]^{2}\,d𝑦.\end{aligned}
 
 
 $$
@@ -223,7 +223,7 @@ The corresponding volume is given by
 $$
 
 
-\begin{aligned}𝑉_{inner} & =𝜋∫_{20}^{}[\,(right)−(left)\,]^{2}\,d𝑦 \\ & =𝜋∫_{20}^{}[\,(𝑦^{2})−(−2)\,]^{2}\,d𝑦 \\ & =𝜋∫_{20}^{}[𝑦^{2}+2]^{2}\,d𝑦.\end{aligned}
+\begin{aligned}𝑉_{inner} & =𝜋∫_{20}[\,(right)−(left)\,]^{2}\,d𝑦 \\ & =𝜋∫_{20}[\,(𝑦^{2})−(−2)\,]^{2}\,d𝑦 \\ & =𝜋∫_{20}[𝑦^{2}+2]^{2}\,d𝑦.\end{aligned}
 
 
 $$
@@ -271,7 +271,7 @@ The corresponding volume is given by
 $$
 
 
-\begin{aligned}𝑉_{outer} & =𝜋∫_{10}^{}[\,(right)−(left)\,]^{2}\,d𝑦 \\ & =𝜋∫_{10}^{}[\,(1)−(−𝑦)\,]^{2}\,d𝑦 \\ & =𝜋∫_{10}^{}[1+𝑦]^{2}\,d𝑦.\end{aligned}
+\begin{aligned}𝑉_{outer} & =𝜋∫_{10}[\,(right)−(left)\,]^{2}\,d𝑦 \\ & =𝜋∫_{10}[\,(1)−(−𝑦)\,]^{2}\,d𝑦 \\ & =𝜋∫_{10}[1+𝑦]^{2}\,d𝑦.\end{aligned}
 
 
 $$

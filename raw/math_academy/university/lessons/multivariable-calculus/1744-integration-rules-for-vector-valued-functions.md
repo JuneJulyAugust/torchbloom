@@ -20,7 +20,7 @@ Suppose that $\mathbf f(t)$ and $\mathbf g(t)$ are vector-valued functions that 
 $$
 
 
-\begin{aligned}∫_{𝑏𝑎}^{}(𝐟(𝑡)+𝐠(𝑡))d𝑡=∫_{𝑏𝑎}^{}𝐟(𝑡)\,d𝑡\,+\,∫_{𝑏𝑎}^{}𝐠(𝑡)\,d𝑡\, & vector addition rule \\ ∫_{𝑏𝑎}^{}𝛼\,𝐟(𝑡)\,d𝑡=𝛼\,∫_{𝑏𝑎}^{}𝐟(𝑡)\,d𝑡\, & scalar constant multiple rule\end{aligned}
+\begin{aligned}∫_{𝑏𝑎}(𝐟(𝑡)+𝐠(𝑡))d𝑡=∫_{𝑏𝑎}𝐟(𝑡)\,d𝑡\,+\,∫_{𝑏𝑎}𝐠(𝑡)\,d𝑡\, & vector addition rule \\ ∫_{𝑏𝑎}𝛼\,𝐟(𝑡)\,d𝑡=𝛼\,∫_{𝑏𝑎}𝐟(𝑡)\,d𝑡\, & scalar constant multiple rule\end{aligned}
 
 
 $$
@@ -41,7 +41,7 @@ where $C_1, \, C_2, \, C_3, \, C_4$ are arbitrary real constants and ${\mathbf C
 
 #### Question
 
-Calculate $\displaystyle{\int_0^2} [3 \mathbf f(t)+\mathbf g(t)] \,\textrm{d}t$ given that $\displaystyle{\int_0^2} \mathbf f(t)\,\textrm{d}t=\left\langle 16, \: 2,\: -2\right\rangle$ and $\displaystyle{\int_0^2}\mathbf g(t)\,\textrm{d}t=\left\langle 2,-4,2\right\rangle.$
+Calculate $\displaystyle{\int_0^2} [3 \mathbf f(t)+\mathbf g(t)] \,\text{d}t$ given that $\displaystyle{\int_0^2} \mathbf f(t)\,\text{d}t=\left\langle 16, \: 2,\: -2\right\rangle$ and $\displaystyle{\int_0^2}\mathbf g(t)\,\text{d}t=\left\langle 2,-4,2\right\rangle.$
 
 #### Explanation
 
@@ -60,7 +60,7 @@ Therefore,
 $$
 
 
-\begin{aligned}∫_{20}^{}[3𝐟(𝑡)+𝐠(𝑡)]\,d𝑡 & =3∫_{20}^{}𝐟(𝑡)\,d𝑡+∫_{20}^{}𝐠(𝑡)\,d𝑡 \\ & =3⟨16,\,2,\,−2⟩+⟨2,\,−4,\,2⟩ \\ & =⟨48,\,6,\,−6⟩+⟨2,\,−4,\,2⟩ \\ & =⟨50,2,−4⟩.\end{aligned}
+\begin{aligned}∫_{20}[3𝐟(𝑡)+𝐠(𝑡)]\,d𝑡 & =3∫_{20}𝐟(𝑡)\,d𝑡+∫_{20}𝐠(𝑡)\,d𝑡 \\ & =3⟨16,\,2,\,−2⟩+⟨2,\,−4,\,2⟩ \\ & =⟨48,\,6,\,−6⟩+⟨2,\,−4,\,2⟩ \\ & =⟨50,2,−4⟩.\end{aligned}
 
 
 $$
@@ -72,7 +72,7 @@ Given a vector-valued function $\mathbf f(t)$ that is continuous on a closed int
 $$
 
 
-\begin{aligned}∫_{𝑎𝑏}^{}𝐟(𝑡)\,d𝑡=−∫_{𝑏𝑎}^{}𝐟(𝑡)\,d𝑡\end{aligned}
+\begin{aligned}∫_{𝑎𝑏}𝐟(𝑡)\,d𝑡=−∫_{𝑏𝑎}𝐟(𝑡)\,d𝑡\end{aligned}
 
 
 $$
@@ -81,7 +81,7 @@ $$
 
 #### Question
 
-Calculate $\displaystyle\int_0^2\mathbf f(t) + \langle 1,\:-1,\:1\rangle\,\textrm{d}t$ given that $\displaystyle\int_2^0\mathbf f(t) \,\textrm{d}t= \left\langle -3, \: 2, \: 1 \right\rangle.$
+Calculate $\displaystyle\int_0^2\mathbf f(t) + \langle 1,\:-1,\:1\rangle\,\text{d}t$ given that $\displaystyle\int_2^0\mathbf f(t) \,\text{d}t= \left\langle -3, \: 2, \: 1 \right\rangle.$
 
 #### Explanation
 
@@ -90,7 +90,7 @@ Let's reverse the limits of integration on the known result:
 $$
 
 
-\begin{aligned}∫_{20}^{}𝐟(𝑡)\,d𝑡 & =−∫_{02}^{}𝐟(𝑡)\,d𝑡 \\ & =−⟨−3,\,2,\,1⟩ \\ & =⟨3,\,−2,\,−1⟩.\end{aligned}
+\begin{aligned}∫_{20}𝐟(𝑡)\,d𝑡 & =−∫_{02}𝐟(𝑡)\,d𝑡 \\ & =−⟨−3,\,2,\,1⟩ \\ & =⟨3,\,−2,\,−1⟩.\end{aligned}
 
 
 $$
@@ -100,7 +100,7 @@ Therefore, applying the vector addition rule, we get
 $$
 
 
-\begin{aligned}∫_{20}^{}𝐟(𝑡)+⟨1,\,−1,\,1⟩\,d𝑡 & =∫_{20}^{}𝐟(𝑡)\,d𝑡+∫_{20}^{}⟨1,\,−1,\,1⟩\,d𝑡 \\ & =⟨3,\,−2,\,−1⟩+⟨𝑡,\,−𝑡,\,𝑡⟩_{20}^{} \\ & =⟨3,\,−2,\,−1⟩+⟨2,\,−2,\,2⟩ \\ & =⟨5,\,−4,\,1⟩.\end{aligned}
+\begin{aligned}∫_{20}𝐟(𝑡)+⟨1,\,−1,\,1⟩\,d𝑡 & =∫_{20}𝐟(𝑡)\,d𝑡+∫_{20}⟨1,\,−1,\,1⟩\,d𝑡 \\ & =⟨3,\,−2,\,−1⟩+⟨𝑡,\,−𝑡,\,𝑡⟩_{20} \\ & =⟨3,\,−2,\,−1⟩+⟨2,\,−2,\,2⟩ \\ & =⟨5,\,−4,\,1⟩.\end{aligned}
 
 
 $$
@@ -112,7 +112,7 @@ Given a vector-valued function $\mathbf f(t)$ that is continuous on a closed int
 $$
 
 
-\begin{aligned}∫_{𝑏𝑎}^{}𝐟(𝑡)\,d𝑡=∫_{𝑝𝑎}^{}𝐟(𝑡)\,d𝑡+∫_{𝑏𝑝}^{}𝐟(𝑡)\,d𝑡\end{aligned}
+\begin{aligned}∫_{𝑏𝑎}𝐟(𝑡)\,d𝑡=∫_{𝑝𝑎}𝐟(𝑡)\,d𝑡+∫_{𝑏𝑝}𝐟(𝑡)\,d𝑡\end{aligned}
 
 
 $$
@@ -121,7 +121,7 @@ $$
 
 #### Question
 
-Calculate $\displaystyle\int_{-1}^0\mathbf f(t)\,\textrm{d}t$ given that $\displaystyle\int_0^1\mathbf f(t)\,\textrm{d}t= \left\langle \dfrac{3}{2}, \: 1, \: 3 \right\rangle$ and $\displaystyle\int_{-1}^1\mathbf f(t)\,\textrm{d}t=\left\langle 0, \: 2, \: 6 \right\rangle.$
+Calculate $\displaystyle\int_{-1}^0\mathbf f(t)\,\text{d}t$ given that $\displaystyle\int_0^1\mathbf f(t)\,\text{d}t= \left\langle \dfrac{3}{2}, \: 1, \: 3 \right\rangle$ and $\displaystyle\int_{-1}^1\mathbf f(t)\,\text{d}t=\left\langle 0, \: 2, \: 6 \right\rangle.$
 
 #### Explanation
 
@@ -130,7 +130,7 @@ Using the adjacent intervals, we get
 $$
 
 
-\int_{-1}^1\mathbf f(t)\,\textrm{d}t=\int_{-1}^0\mathbf f(t)\,\textrm{d}t+\int_0^1\mathbf f(t)\,\textrm{d}t .
+\int_{-1}^1\mathbf f(t)\,\text{d}t=\int_{-1}^0\mathbf f(t)\,\text{d}t+\int_0^1\mathbf f(t)\,\text{d}t .
 
 
 $$
@@ -140,7 +140,7 @@ We can rearrange the above as follows:
 $$
 
 
-\int_{-1}^0\mathbf f(t)\,\textrm{d}t = \int_{-1}^1\mathbf f(t)\,\textrm{d}t - \int_0^1\mathbf f(t)\,\textrm{d}t
+\int_{-1}^0\mathbf f(t)\,\text{d}t = \int_{-1}^1\mathbf f(t)\,\text{d}t - \int_0^1\mathbf f(t)\,\text{d}t
 
 
 $$
@@ -150,7 +150,7 @@ Finally, using the given information, we get
 $$
 
 
-\begin{aligned}∫_{0−1}^{}𝐟(𝑡)\,d𝑡 & =∫_{1−1}^{}𝐟(𝑡)\,d𝑡−∫_{10}^{}𝐟(𝑡)\,d𝑡 \\ & =⟨0,\,2,\,6⟩−⟨\frac{3}{2},\,1,\,3⟩ \\ & =⟨−\frac{3}{2},\,1,\,3⟩.\end{aligned}
+\begin{aligned}∫_{0−1}𝐟(𝑡)\,d𝑡 & =∫_{1−1}𝐟(𝑡)\,d𝑡−∫_{10}𝐟(𝑡)\,d𝑡 \\ & =⟨0,\,2,\,6⟩−⟨\frac{3}{2},\,1,\,3⟩ \\ & =⟨−\frac{3}{2},\,1,\,3⟩.\end{aligned}
 
 
 $$
@@ -162,7 +162,7 @@ Suppose that $\mathbf f(t)$ is a vector-valued function that is continuous on a 
 $$
 
 
-\begin{aligned}∫_{𝑏𝑎}^{}[𝐜⋅𝐟(𝑡)]d𝑡=𝐜⋅(∫_{𝑏𝑎}^{}𝐟(𝑡)\,d𝑡)\, & dot product rule \\ ∫_{𝑏𝑎}^{}[𝐜×𝐟(𝑡)]d𝑡=𝐜×∫_{𝑏𝑎}^{}𝐟(𝑡)\,d𝑡\, & cross product rule\end{aligned}
+\begin{aligned}∫_{𝑏𝑎}[𝐜⋅𝐟(𝑡)]d𝑡=𝐜⋅(∫_{𝑏𝑎}𝐟(𝑡)\,d𝑡)\, & dot product rule \\ ∫_{𝑏𝑎}[𝐜×𝐟(𝑡)]d𝑡=𝐜×∫_{𝑏𝑎}𝐟(𝑡)\,d𝑡\, & cross product rule\end{aligned}
 
 
 $$
@@ -190,7 +190,7 @@ Applying the cross-product rule, we have
 $$
 
 
-\begin{aligned}∫_{10}^{}𝐜×𝐟(𝑡)\,d𝑡 & =𝐜×∫_{10}^{}𝐟(𝑡)\,d𝑡 \\ & =(𝐣−𝐤)×(𝐢−3\,𝐣−4\,𝐤) \\ & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 0 & 1 & −1 \\ 1 & −3 & −4\end{aligned} \\ & =\begin{aligned}1 & −1 \\ −3 & −4\end{aligned}𝐢−\begin{aligned}0 & −1 \\ 1 & −4\end{aligned}𝐣+\begin{aligned}0 & 1 \\ 1 & −3\end{aligned}𝐤 \\ & =(−4−3)𝐢−(0+1)𝐣+(0−1)𝐤 \\ & =−7\,𝐢−\,𝐣−\,𝐤.\end{aligned}
+\begin{aligned}∫_{10}𝐜×𝐟(𝑡)\,d𝑡 & =𝐜×∫_{10}𝐟(𝑡)\,d𝑡 \\ & =(𝐣−𝐤)×(𝐢−3\,𝐣−4\,𝐤) \\ & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 0 & 1 & −1 \\ 1 & −3 & −4\end{matrix} \\ & =\begin{matrix}1 & −1 \\ −3 & −4\end{matrix}𝐢−\begin{matrix}0 & −1 \\ 1 & −4\end{matrix}𝐣+\begin{matrix}0 & 1 \\ 1 & −3\end{matrix}𝐤 \\ & =(−4−3)𝐢−(0+1)𝐣+(0−1)𝐤 \\ & =−7\,𝐢−\,𝐣−\,𝐤.\end{aligned}
 
 
 $$

@@ -25,7 +25,7 @@ To find the volume of the solid generated when the region bounded by a curve $y=
 $$
 
 
-V = \pi \int_{a}^{b} y^2 \:\textrm{d}x = \pi \int_{a}^{b} \left[ f(x) \right]^2 \:\textrm{d}x
+V = \pi \int_{a}^{b} y^2 \:\text{d}x = \pi \int_{a}^{b} \left[ f(x) \right]^2 \:\text{d}x
 
 
 $$
@@ -61,7 +61,7 @@ Evaluating this integral gives
 $$
 
 
-\begin{aligned}𝑉 & =𝜋⋅\frac{𝑥^{2}}{2}_{20}^{} \\ & =𝜋(\frac{2^{2}}{2}−\frac{0^{2}}{2}) \\ & =2𝜋.\end{aligned}
+\begin{aligned}𝑉 & =𝜋⋅\frac{𝑥^{2}}{2}_{20} \\ & =𝜋(\frac{2^{2}}{2}−\frac{0^{2}}{2}) \\ & =2𝜋.\end{aligned}
 
 
 $$
@@ -83,7 +83,7 @@ The volume of the solid generated when the region bounded by a curve $y=f(x),$ t
 $$
 
 
-V = \pi \int_a^b \left[ f(x) \right]^2 \textrm{d}x.
+V = \pi \int_a^b \left[ f(x) \right]^2 \text{d}x.
 
 
 $$
@@ -107,7 +107,7 @@ Finally, the volume can be found as follows:
 $$
 
 
-\begin{aligned}𝑉 & =𝜋∫_{𝑏𝑎}^{}[𝑓(𝑥)]^{2}d𝑥 \\ & =𝜋∫_{20}^{}(2𝑥−𝑥^{2})^{2}d𝑥 \\ & =𝜋∫_{20}^{}(4𝑥^{2}−4𝑥^{3}+𝑥^{4})\,d𝑥\end{aligned}
+\begin{aligned}𝑉 & =𝜋∫_{𝑏𝑎}[𝑓(𝑥)]^{2}d𝑥 \\ & =𝜋∫_{20}(2𝑥−𝑥^{2})^{2}d𝑥 \\ & =𝜋∫_{20}(4𝑥^{2}−4𝑥^{3}+𝑥^{4})\,d𝑥\end{aligned}
 
 
 $$
@@ -127,7 +127,7 @@ The volume of the solid generated when the region bounded by a curve $y=f(x),$ t
 $$
 
 
-V = \pi \int_a^b \left[ f(x) \right]^2 \textrm{d}x.
+V = \pi \int_a^b \left[ f(x) \right]^2 \text{d}x.
 
 
 $$
@@ -139,7 +139,7 @@ Therefore, the volume can be found as follows:
 $$
 
 
-\begin{aligned}𝑉 & =𝜋∫_{𝑏𝑎}^{}[𝑓(𝑥)]^{2}d𝑥 \\ & =𝜋∫_{10}^{}(4−𝑥^{2})^{2}d𝑥 \\ & =𝜋∫_{10}^{}(16−8𝑥^{2}+𝑥^{4})\,d𝑥 \\ & =𝜋(16∫_{10}^{}d𝑥−8∫_{10}^{}𝑥^{2}\,d𝑥+∫_{10}^{}𝑥^{4}\,d𝑥) \\ & =𝜋(16𝑥\,_{10}^{}−8⋅\frac{𝑥^{3}}{3}_{10}^{}+\frac{𝑥^{5}}{5}_{10}^{}) \\ & =𝜋(16(1−0)−8(\frac{1}{3}−0)+(\frac{1}{5}−0)) \\ & =𝜋(16−\frac{8}{3}+\frac{1}{5}) \\ & =\frac{203𝜋}{15}\end{aligned}
+\begin{aligned}𝑉 & =𝜋∫_{𝑏𝑎}[𝑓(𝑥)]^{2}d𝑥 \\ & =𝜋∫_{10}(4−𝑥^{2})^{2}d𝑥 \\ & =𝜋∫_{10}(16−8𝑥^{2}+𝑥^{4})\,d𝑥 \\ & =𝜋(16∫_{10}d𝑥−8∫_{10}𝑥^{2}\,d𝑥+∫_{10}𝑥^{4}\,d𝑥) \\ & =𝜋(16𝑥\,_{10}−8⋅\frac{𝑥^{3}}{3}_{10}+\frac{𝑥^{5}}{5}_{10}) \\ & =𝜋(16(1−0)−8(\frac{1}{3}−0)+(\frac{1}{5}−0)) \\ & =𝜋(16−\frac{8}{3}+\frac{1}{5}) \\ & =\frac{203𝜋}{15}\end{aligned}
 
 
 $$
@@ -173,7 +173,7 @@ Finally, we need to integrate this expression. Therefore, to find the volume of 
 $$
 
 
-V = \pi \int_{c}^{d} \left[ g(y) \right]^2 \:\textrm{d}y
+V = \pi \int_{c}^{d} \left[ g(y) \right]^2 \:\text{d}y
 
 
 $$
@@ -183,7 +183,7 @@ In our example above, we have $x=y^2,$ so the volume is given by
 $$
 
 
-\begin{aligned}𝑉 & =∫_{10}^{}[𝑦^{2}]^{2}\,d𝑦=𝜋∫_{10}^{}𝑦^{4}\,d𝑦.\end{aligned}
+\begin{aligned}𝑉 & =∫_{10}[𝑦^{2}]^{2}\,d𝑦=𝜋∫_{10}𝑦^{4}\,d𝑦.\end{aligned}
 
 
 $$
@@ -193,7 +193,7 @@ Evaluating this integral gives
 $$
 
 
-\begin{aligned}𝑉 & =𝜋∫_{10}^{}𝑦^{4}\,d𝑦 \\ & =𝜋⋅\frac{𝑦^{5}}{5}_{10}^{} \\ & =𝜋(\frac{1}{5}−0) \\ & =\frac{𝜋}{5}.\end{aligned}
+\begin{aligned}𝑉 & =𝜋∫_{10}𝑦^{4}\,d𝑦 \\ & =𝜋⋅\frac{𝑦^{5}}{5}_{10} \\ & =𝜋(\frac{1}{5}−0) \\ & =\frac{𝜋}{5}.\end{aligned}
 
 
 $$
@@ -213,7 +213,7 @@ The volume of the solid generated when the region bounded by a curve $x=g(y),$ t
 $$
 
 
-V = \pi \int_{c}^{d} [ g(y) ]^2 \textrm{d}y.
+V = \pi \int_{c}^{d} [ g(y) ]^2 \text{d}y.
 
 
 $$
@@ -237,7 +237,7 @@ Finally, the volume can be found as follows:
 $$
 
 
-\begin{aligned}𝑉 & =𝜋∫_{𝑑𝑐}^{}[𝑔(𝑦)]^{2}d𝑦 \\ & =𝜋∫_{10}^{}(2𝑦^{3})^{2}d𝑦 \\ & =4𝜋∫_{10}^{}𝑦^{6}\,d𝑦\end{aligned}
+\begin{aligned}𝑉 & =𝜋∫_{𝑑𝑐}[𝑔(𝑦)]^{2}d𝑦 \\ & =𝜋∫_{10}(2𝑦^{3})^{2}d𝑦 \\ & =4𝜋∫_{10}𝑦^{6}\,d𝑦\end{aligned}
 
 
 $$
@@ -257,7 +257,7 @@ The volume of the solid generated when the region bounded by a curve $x=g(y),$ t
 $$
 
 
-V = \pi \int_{c}^{d} [ g(y) ]^2 \textrm{d}y.
+V = \pi \int_{c}^{d} [ g(y) ]^2 \text{d}y.
 
 
 $$
@@ -281,7 +281,7 @@ Finally, the volume can be found as follows:
 $$
 
 
-\begin{aligned}𝑉 & =𝜋∫_{𝑑𝑐}^{}[𝑔(𝑦)]^{2}d𝑦 \\ & =𝜋∫_{\sqrt{√2}−\sqrt{√2}}^{}(2−𝑦^{2})^{2}d𝑦 \\ & =𝜋∫_{\sqrt{√2}−\sqrt{√2}}^{}(4−4𝑦^{2}+𝑦^{4})\,d𝑦 \\ & =2𝜋∫_{\sqrt{√2}0}^{}(4−4𝑦^{2}+𝑦^{4})\,d𝑦 \\ & =2𝜋[4𝑦−\frac{4}{3}𝑦^{3}+\frac{1}{5}𝑦^{5}]_{\sqrt{√2}0}^{} \\ & =2𝜋([4(\sqrt{√2})−\frac{4}{3}(\sqrt{√2})^{3}+\frac{1}{5}(\sqrt{√2})^{5}]−[0]) \\ & =2𝜋(4\sqrt{√2}−\frac{8\sqrt{√2}}{3}+\frac{4\sqrt{√2}}{5}) \\ & =2𝜋(\frac{32\sqrt{√2}}{15}) \\ & =\frac{64𝜋\sqrt{√2}}{15}\end{aligned}
+\begin{aligned}𝑉 & =𝜋∫_{𝑑𝑐}[𝑔(𝑦)]^{2}d𝑦 \\ & =𝜋∫_{\sqrt{2}−\sqrt{2}}^{}(2−𝑦^{2})^{2}d𝑦 \\ & =𝜋∫_{\sqrt{2}−\sqrt{2}}^{}(4−4𝑦^{2}+𝑦^{4})\,d𝑦 \\ & =2𝜋∫_{\sqrt{2}0}^{}(4−4𝑦^{2}+𝑦^{4})\,d𝑦 \\ & =2𝜋[4𝑦−\frac{4}{3}𝑦^{3}+\frac{1}{5}𝑦^{5}]_{\sqrt{2}0}^{} \\ & =2𝜋([4(\sqrt{2})−\frac{4}{3}(\sqrt{2})^{3}+\frac{1}{5}(\sqrt{2})^{5}]−[0]) \\ & =2𝜋(4\sqrt{2}−\frac{8\sqrt{2}}{3}+\frac{4\sqrt{2}}{5}) \\ & =2𝜋(\frac{32\sqrt{2}}{15}) \\ & =\frac{64𝜋\sqrt{2}}{15}\end{aligned}
 
 
 $$
@@ -291,7 +291,7 @@ $$
 $$
 
 
-\displaystyle \pi\int_{-\sqrt 2}^\sqrt 2 [g(y)]^2\,\textrm d y = 2\pi\int_{0}^\sqrt 2 [g(y)]^2\,\textrm d y.
+\displaystyle \pi\int_{-\sqrt 2}^{\sqrt 2} [g(y)]^2\,\textrm d y = 2\pi\int_{0}^{\sqrt 2} [g(y)]^2\,\textrm d y.
 
 
 $$

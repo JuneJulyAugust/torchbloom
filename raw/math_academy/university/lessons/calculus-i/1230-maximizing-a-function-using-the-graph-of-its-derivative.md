@@ -82,7 +82,7 @@ Using the given information and the fundamental theorem of calculus, we have the
 $$
 
 
-\begin{aligned}𝑓(−2) & =3 \\ 𝑓(3) & =𝑓(−2)+∫_{3−2}^{}𝑓^{′}(𝑡)\,d𝑡 \\ & =3+(−10) \\ & =−7.\end{aligned}
+\begin{aligned}𝑓(−2) & =3 \\ 𝑓(3) & =𝑓(−2)+∫_{3−2}𝑓^{′}(𝑡)\,d𝑡 \\ & =3+(−10) \\ & =−7.\end{aligned}
 
 
 $$
@@ -124,7 +124,7 @@ Using the given information and the fundamental theorem of calculus, we have the
 $$
 
 
-\begin{aligned}𝑓(0) & =1 \\ 𝑓(4) & =𝑓(0)+∫_{40}^{}𝑓^{′}(𝑥)\,d𝑥 \\ & =1+6 \\ & =7 \\ 𝑓(6) & =𝑓(0)+∫_{60}^{}𝑓^{′}(𝑥)\,d𝑥 \\ & =1+6−2 \\ & =5\end{aligned}
+\begin{aligned}𝑓(0) & =1 \\ 𝑓(4) & =𝑓(0)+∫_{40}𝑓^{′}(𝑥)\,d𝑥 \\ & =1+6 \\ & =7 \\ 𝑓(6) & =𝑓(0)+∫_{60}𝑓^{′}(𝑥)\,d𝑥 \\ & =1+6−2 \\ & =5\end{aligned}
 
 
 $$
@@ -170,7 +170,7 @@ Using the given information and the fundamental theorem of calculus, we have the
 $$
 
 
-\begin{aligned}𝑓(1) & =−2 \\ 𝑓(2) & =𝑓(1)+∫_{21}^{}𝑓^{′}(𝑥)\,d𝑥 \\ & =−2+\frac{3}{2} \\ & =−\frac{1}{2} \\ 𝑓(4) & =𝑓(1)+∫_{41}^{}𝑓^{′}(𝑥)\,d𝑥 \\ & =−2+\frac{3}{2}−1 \\ & =−\frac{3}{2} \\ 𝑓(5) & =𝑓(1)+∫_{51}^{}𝑓^{′}(𝑥)\,d𝑥 \\ & =−2+\frac{3}{2}−1+\frac{1}{2} \\ & =−1\end{aligned}
+\begin{aligned}𝑓(1) & =−2 \\ 𝑓(2) & =𝑓(1)+∫_{21}𝑓^{′}(𝑥)\,d𝑥 \\ & =−2+\frac{3}{2} \\ & =−\frac{1}{2} \\ 𝑓(4) & =𝑓(1)+∫_{41}𝑓^{′}(𝑥)\,d𝑥 \\ & =−2+\frac{3}{2}−1 \\ & =−\frac{3}{2} \\ 𝑓(5) & =𝑓(1)+∫_{51}𝑓^{′}(𝑥)\,d𝑥 \\ & =−2+\frac{3}{2}−1+\frac{1}{2} \\ & =−1\end{aligned}
 
 
 $$

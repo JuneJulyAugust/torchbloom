@@ -63,7 +63,7 @@ Therefore, we can express the integral as follows:
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}(𝑥+𝑦)\,d𝐴 & =∫_{20}^{}∫_{\sqrt{√4−𝑥^{2}}0}^{}(𝑥+𝑦)\,d𝑦\,d𝑥\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}(𝑥+𝑦)\,d𝐴 & =∫_{20}∫_{\sqrt{4−𝑥^{2}}0}^{}(𝑥+𝑦)\,d𝑦\,d𝑥\end{aligned}
 
 
 $$
@@ -103,7 +103,7 @@ Therefore, we can express the integral as follows:
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}𝑓(𝑥,𝑦)\,d𝐴 & =∫_{\sqrt{√3}0}^{}∫_{3𝑥𝑥^{3}}^{}𝑓(𝑥,𝑦) d𝑦\,d𝑥 \\ & =∫_{\sqrt{√3}0}^{}[∫_{3𝑥𝑥^{3}}^{}𝑓(𝑥,𝑦) d𝑦]d𝑥\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}𝑓(𝑥,𝑦)\,d𝐴 & =∫_{\sqrt{3}0}^{}∫_{3𝑥𝑥^{3}}^{}𝑓(𝑥,𝑦) d𝑦\,d𝑥 \\ & =∫_{\sqrt{3}0}^{}[∫_{3𝑥𝑥^{3}}^{}𝑓(𝑥,𝑦) d𝑦]d𝑥\end{aligned}
 
 
 $$
@@ -139,7 +139,7 @@ First, we evaluate the inner integral by integrating with respect to $y,$ treati
 $$
 
 
-\begin{aligned}∫_{10}^{}[∫_{2𝑥𝑥}^{}(𝑥−2𝑦) d𝑦]\,d𝑥 & =∫_{10}^{}[𝑥𝑦−𝑦^{2}]_{2𝑥𝑥}^{} d𝑥 \\ & =∫_{10}^{}[𝑥⋅(2𝑥)−(2𝑥)^{2}]−[𝑥⋅(𝑥)−(𝑥)^{2}]d𝑥 \\ & =∫_{10}^{}[2𝑥^{2}−4𝑥^{2}]−[𝑥^{2}−𝑥^{2}]d𝑥 \\ & =∫_{10}^{}−2𝑥^{2}\,d𝑥 \\ & =−2∫_{10}^{}𝑥^{2}\,d𝑥\end{aligned}
+\begin{aligned}∫_{10}[∫_{2𝑥𝑥}(𝑥−2𝑦) d𝑦]\,d𝑥 & =∫_{10}[𝑥𝑦−𝑦^{2}]_{2𝑥𝑥} d𝑥 \\ & =∫_{10}[𝑥⋅(2𝑥)−(2𝑥)^{2}]−[𝑥⋅(𝑥)−(𝑥)^{2}]d𝑥 \\ & =∫_{10}[2𝑥^{2}−4𝑥^{2}]−[𝑥^{2}−𝑥^{2}]d𝑥 \\ & =∫_{10}−2𝑥^{2}\,d𝑥 \\ & =−2∫_{10}𝑥^{2}\,d𝑥\end{aligned}
 
 
 $$
@@ -149,7 +149,7 @@ Then, we integrate with respect to $x\mathbin{:}$
 $$
 
 
-\begin{aligned}−2∫_{10}^{}𝑥^{2}\,d𝑥 & =−2[\frac{𝑥^{3}}{3}]_{10}^{} \\ & =−\frac{2}{3}[𝑥^{3}]_{10}^{} \\ & =−\frac{2}{3}[1^{3}−0^{3}] \\ & =−\frac{2}{3}\end{aligned}
+\begin{aligned}−2∫_{10}𝑥^{2}\,d𝑥 & =−2[\frac{𝑥^{3}}{3}]_{10} \\ & =−\frac{2}{3}[𝑥^{3}]_{10} \\ & =−\frac{2}{3}[1^{3}−0^{3}] \\ & =−\frac{2}{3}\end{aligned}
 
 
 $$
@@ -158,7 +158,7 @@ $$
 
 #### Question
 
-Calculate $\displaystyle \int_0^1 \int_0^x x^2y \,\textrm{d}y \,\textrm{d}x.$
+Calculate $\displaystyle \int_0^1 \int_0^x x^2y \,\text{d}y \,\text{d}x.$
 
 #### Explanation
 
@@ -169,7 +169,7 @@ First, we evaluate the inner integral by integrating with respect to $y$, treati
 $$
 
 
-\begin{aligned}∫_{10}^{}∫_{𝑥0}^{}𝑥^{2}𝑦\,d𝑦\,d𝑥 & =∫_{10}^{}𝑥^{2}[∫_{𝑥0}^{}𝑦\,d𝑦]\,d𝑥 \\ & =∫_{10}^{}𝑥^{2}[\frac{𝑦^{2}}{2}]_{𝑥0}^{}\,d𝑥 \\ & =∫_{10}^{}𝑥^{2}(\frac{𝑥^{2}}{2}−0)\,d𝑥 \\ & =\frac{1}{2}∫_{10}^{}𝑥^{4}\,d𝑥\end{aligned}
+\begin{aligned}∫_{10}∫_{𝑥0}𝑥^{2}𝑦\,d𝑦\,d𝑥 & =∫_{10}𝑥^{2}[∫_{𝑥0}𝑦\,d𝑦]\,d𝑥 \\ & =∫_{10}𝑥^{2}[\frac{𝑦^{2}}{2}]_{𝑥0}\,d𝑥 \\ & =∫_{10}𝑥^{2}(\frac{𝑥^{2}}{2}−0)\,d𝑥 \\ & =\frac{1}{2}∫_{10}𝑥^{4}\,d𝑥\end{aligned}
 
 
 $$
@@ -179,7 +179,7 @@ Then, we integrate with respect to $x\mathbin{:}$
 $$
 
 
-\begin{aligned}\frac{1}{2}∫_{10}^{}𝑥^{4}\,d𝑥 & =\frac{1}{2}[\frac{𝑥^{5}}{5}]_{10}^{} \\ & =\frac{1}{2}(\frac{1}{5}−0) \\ & =\frac{1}{10}\end{aligned}
+\begin{aligned}\frac{1}{2}∫_{10}𝑥^{4}\,d𝑥 & =\frac{1}{2}[\frac{𝑥^{5}}{5}]_{10} \\ & =\frac{1}{2}(\frac{1}{5}−0) \\ & =\frac{1}{10}\end{aligned}
 
 
 $$
@@ -239,7 +239,7 @@ First, we evaluate the inner integral by integrating with respect to $y$, treati
 $$
 
 
-\begin{aligned}∫_{2−2}^{}∫_{0−\sqrt{√4−𝑥^{2}}}^{}𝑥𝑦\,d𝑦\,d𝑥 & =∫_{2−2}^{}𝑥[∫_{0−\sqrt{√4−𝑥^{2}}}^{}𝑦\,d𝑦]d𝑥 \\ & =∫_{2−2}^{}𝑥[\frac{𝑦^{2}}{2}]_{0−\sqrt{√4−𝑥^{2}}}^{}\,d𝑥 \\ & =\frac{1}{2}∫_{2−2}^{}𝑥(0−(−\sqrt{√4−𝑥^{2}})^{2})\,d𝑥 \\ & =\frac{1}{2}∫_{2−2}^{}𝑥(−(4−𝑥^{2}))\,d𝑥 \\ & =\frac{1}{2}∫_{2−2}^{}𝑥(𝑥^{2}−4)\,d𝑥 \\ & =\frac{1}{2}∫_{2−2}^{}(𝑥^{3}−4𝑥)\,d𝑥\end{aligned}
+\begin{aligned}∫_{2−2}∫_{0−\sqrt{4−𝑥^{2}}}^{}𝑥𝑦\,d𝑦\,d𝑥 & =∫_{2−2}𝑥[∫_{0−\sqrt{4−𝑥^{2}}}^{}𝑦\,d𝑦]d𝑥 \\ & =∫_{2−2}𝑥[\frac{𝑦^{2}}{2}]_{0−\sqrt{4−𝑥^{2}}}^{}\,d𝑥 \\ & =\frac{1}{2}∫_{2−2}𝑥(0−(−\sqrt{4−𝑥^{2}})^{2})\,d𝑥 \\ & =\frac{1}{2}∫_{2−2}𝑥(−(4−𝑥^{2}))\,d𝑥 \\ & =\frac{1}{2}∫_{2−2}𝑥(𝑥^{2}−4)\,d𝑥 \\ & =\frac{1}{2}∫_{2−2}(𝑥^{3}−4𝑥)\,d𝑥\end{aligned}
 
 
 $$
@@ -249,7 +249,7 @@ Then, we integrate with respect to $x\mathbin{:}$
 $$
 
 
-\begin{aligned}\frac{1}{2}∫_{2−2}^{}(𝑥^{3}−4𝑥)\,d𝑥 & =\frac{1}{2}[\frac{𝑥^{4}}{4}−2𝑥^{2}]_{2−2}^{} \\ & =\frac{1}{2}((4−8)−(4−8)) \\ & =\frac{1}{2}⋅0 \\ & =0\end{aligned}
+\begin{aligned}\frac{1}{2}∫_{2−2}(𝑥^{3}−4𝑥)\,d𝑥 & =\frac{1}{2}[\frac{𝑥^{4}}{4}−2𝑥^{2}]_{2−2} \\ & =\frac{1}{2}((4−8)−(4−8)) \\ & =\frac{1}{2}⋅0 \\ & =0\end{aligned}
 
 
 $$

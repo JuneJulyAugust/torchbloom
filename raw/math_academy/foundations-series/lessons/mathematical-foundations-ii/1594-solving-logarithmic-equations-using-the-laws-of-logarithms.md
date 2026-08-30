@@ -147,7 +147,7 @@ Next, we exponentiate both sides of the equation, and we get
 $$
 
 
-\begin{aligned}𝑒^{ln⁡(4𝑥^{2})} & =𝑒^{0} \\ 4𝑥^{2} & =1 \\ 𝑥^{2} & =\frac{1}{4} \\ 𝑥 & =±\sqrt{√\frac{1}{4}} \\ 𝑥 & =±\frac{1}{2}.\end{aligned}
+\begin{aligned}𝑒^{ln⁡(4𝑥^{2})} & =𝑒^{0} \\ 4𝑥^{2} & =1 \\ 𝑥^{2} & =\frac{1}{4} \\ 𝑥 & =±\sqrt{\frac{1}{4}} \\ 𝑥 & =±\frac{1}{2}.\end{aligned}
 
 
 $$

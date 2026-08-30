@@ -168,17 +168,17 @@ So, to determine non-injectivity, we need to show that there exists $x_1,x_2$ su
 $$
 
 
-x_1 \neq x_2 \qquad\textrm{and}\qquad f(x_1) = f(x_2).
+x_1 \neq x_2 \qquad\text{and}\qquad f(x_1) = f(x_2).
 
 
 $$
 
-In our case, the non-injectivity of $f$ means that $\boxed{\color{blue}\textrm{there exist}}$ at least two values $x_1$ and $x_2$ such that
+In our case, the non-injectivity of $f$ means that $\boxed{\color{blue}\text{there exist}}$ at least two values $x_1$ and $x_2$ such that
 
 $$
 
 
-\boxed{\color{blue}x_1 \neq x_2} \qquad \boxed{\color{blue}\textrm{and}} \qquad \boxed{\color{blue}3x_1^2+1 = 3x_2^2+1}.
+\boxed{\color{blue}x_1 \neq x_2} \qquad \boxed{\color{blue}\text{and}} \qquad \boxed{\color{blue}3x_1^2+1 = 3x_2^2+1}.
 
 
 $$
@@ -232,7 +232,7 @@ Since two pairs are equal if and only if their respective components are equal, 
 $$
 
 
-\begin{aligned}\begin{aligned}\frac{1}{2}(𝑧_{1}+\overset{𝑧_{1}}{})=\frac{1}{2}(𝑧_{2}+\overset{𝑧_{2}}{}) \\ \frac{i}{2}(\overset{𝑧_{1}}{}−𝑧_{1})=\frac{i}{2}(\overset{𝑧_{2}}{}−𝑧_{2})\end{aligned}\, & ⇒\,\begin{aligned}𝑧_{1}+\overset{𝑧_{1}}{}=𝑧_{2}+\overset{𝑧_{2}}{} \\ \overset{𝑧_{1}}{}−𝑧_{1}=\overset{𝑧_{2}}{}−𝑧_{2}\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}\frac{1}{2}(𝑧_{1}+\overset{𝑧_{1}}{})=\frac{1}{2}(𝑧_{2}+\overset{𝑧_{2}}{}) \\ \frac{i}{2}(\overset{𝑧_{1}}{}−𝑧_{1})=\frac{i}{2}(\overset{𝑧_{2}}{}−𝑧_{2})\end{matrix}\, & ⇒\,\begin{matrix}𝑧_{1}+\overset{𝑧_{1}}{}=𝑧_{2}+\overset{𝑧_{2}}{} \\ \overset{𝑧_{1}}{}−𝑧_{1}=\overset{𝑧_{2}}{}−𝑧_{2}\end{matrix}\end{aligned}
 
 
 $$
@@ -242,7 +242,7 @@ To solve this system, recall the following properties of the complex conjugate:
 $$
 
 
-z_1+\overline{z_1} = 2\cdot \textrm{Re}(z_1), \qquad z_1-\overline{z_1} = 2\textrm{i}\cdot \textrm{Im}(z_1)
+z_1+\overline{z_1} = 2\cdot \text{Re}(z_1), \qquad z_1-\overline{z_1} = 2\text{i}\cdot \text{Im}(z_1)
 
 
 $$
@@ -252,7 +252,7 @@ Therefore, our system reduces to
 $$
 
 
-\begin{aligned}\begin{aligned}2⋅Re(𝑧_{1})=2⋅Re(𝑧_{2}) \\ −2i⋅Im(𝑧_{1})=−2i⋅Im(𝑧_{2})\end{aligned}\, & ⇒\,\begin{aligned}Re(𝑧_{1})=Re(𝑧_{2}) \\ Im(𝑧_{1})=Im(𝑧_{2})\end{aligned}\, & ⇒\,𝑧_{1}=𝑧_{2}\end{aligned}
+\begin{aligned}\begin{matrix}2⋅Re(𝑧_{1})=2⋅Re(𝑧_{2}) \\ −2i⋅Im(𝑧_{1})=−2i⋅Im(𝑧_{2})\end{matrix}\, & ⇒\,\begin{matrix}Re(𝑧_{1})=Re(𝑧_{2}) \\ Im(𝑧_{1})=Im(𝑧_{2})\end{matrix}\, & ⇒\,𝑧_{1}=𝑧_{2}\end{aligned}
 
 
 $$
@@ -312,7 +312,7 @@ In other words, we need to show that there exists $x_1,x_2$ such that
 $$
 
 
-x_1 \neq x_2 \qquad\textrm{and}\qquad f(x_1) = f(x_2).
+x_1 \neq x_2 \qquad\text{and}\qquad f(x_1) = f(x_2).
 
 
 $$

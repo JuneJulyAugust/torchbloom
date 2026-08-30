@@ -44,7 +44,7 @@ Consider the point $(x,y(x),0)$ that lies on the curve $y=y(x)$ in the $xy$-plan
 
 ![Instructional graphic](../../../lesson-assets/mathematical-methods-for-the-physical-sciences-ii/topic-3372/8a4858a11f6d5bf8.png)
 
-In the diagram above, the pair $(\textrm{circle}_1,\textrm{circle}_2)$ denotes any parametrization of a circle of radius $y(x)$ with parameter $x.$
+In the diagram above, the pair $(\text{circle}_1,\text{circle}_2)$ denotes any parametrization of a circle of radius $y(x)$ with parameter $x.$
 
 In general, given a curve $y=y(x)\geq 0$ for $x \in [a,b]$ that is rotated $2\pi$ radians about the $x$-axis, the corresponding surface of revolution can be parametrized as
 
@@ -130,7 +130,7 @@ Consider the point $(x(y),y,0)$ that lies on the curve $x=x(y)\geq 0$ for $y\in 
 
 ![Instructional graphic](../../../lesson-assets/mathematical-methods-for-the-physical-sciences-ii/topic-3372/62229e909187c8c9.png)
 
-The pair $(\textrm{circle}_1,\textrm{circle}_2)$ denotes any parametrization of a circle of radius $x(y)$ with parameter $y.$
+The pair $(\text{circle}_1,\text{circle}_2)$ denotes any parametrization of a circle of radius $x(y)$ with parameter $y.$
 
 Using arguments similar to those seen earlier, the corresponding surface of revolution can be parametrized as
 
@@ -263,7 +263,7 @@ We now compute the tangent vectors to the grid curves:
 $$
 
 
-\begin{aligned}𝐫_{′𝑥}^{} & =⟨\frac{𝜕𝑥}{𝜕𝑥},\,\frac{𝜕𝑦}{𝜕𝑥},\,\frac{𝜕𝑧}{𝜕𝑥}⟩=⟨1,\,𝑓^{′}cos⁡𝜃,\,𝑓^{′}sin⁡𝜃⟩ \\ 𝐫_{′𝜃}^{} & =⟨\frac{𝜕𝑥}{𝜕𝜃},\,\frac{𝜕𝑦}{𝜕𝜃},\,\frac{𝜕𝑧}{𝜕𝜃}⟩=⟨0,\,−𝑓sin⁡𝜃,\,𝑓cos⁡𝜃⟩\end{aligned}
+\begin{aligned}𝐫_{′𝑥} & =⟨\frac{𝜕𝑥}{𝜕𝑥},\,\frac{𝜕𝑦}{𝜕𝑥},\,\frac{𝜕𝑧}{𝜕𝑥}⟩=⟨1,\,𝑓^{′}cos⁡𝜃,\,𝑓^{′}sin⁡𝜃⟩ \\ 𝐫_{′𝜃} & =⟨\frac{𝜕𝑥}{𝜕𝜃},\,\frac{𝜕𝑦}{𝜕𝜃},\,\frac{𝜕𝑧}{𝜕𝜃}⟩=⟨0,\,−𝑓sin⁡𝜃,\,𝑓cos⁡𝜃⟩\end{aligned}
 
 
 $$
@@ -273,7 +273,7 @@ Next, the fundamental vector product is
 $$
 
 
-\begin{aligned}𝐫_{′𝑥}^{}×𝐫_{′𝜃}^{} & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 1 & 𝑓^{′}cos⁡𝜃 & 𝑓^{′}sin⁡𝜃 \\ 0 & −𝑓sin⁡𝜃 & 𝑓cos⁡𝜃\end{aligned} \\ & =⟨\begin{aligned}𝑓^{′}cos⁡𝜃 & 𝑓^{′}sin⁡𝜃 \\ −𝑓sin⁡𝜃 & 𝑓cos⁡𝜃\end{aligned},\,−\begin{aligned}1 & 𝑓^{′}sin⁡𝜃 \\ 0 & 𝑓cos⁡𝜃\end{aligned},\,\begin{aligned}1 & 𝑓^{′}cos⁡𝜃 \\ 0 & −𝑓sin⁡𝜃\end{aligned}⟩ \\ & =⟨𝑓𝑓^{′}cos^{2}⁡𝜃+𝑓𝑓^{′}sin^{2}⁡𝜃,\,−𝑓cos⁡𝜃,\,−𝑓sin⁡𝜃⟩ \\ & =⟨𝑓𝑓^{′},\,−𝑓cos⁡𝜃,\,−𝑓sin⁡𝜃⟩.\end{aligned}
+\begin{aligned}𝐫_{′𝑥}×𝐫_{′𝜃} & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 1 & 𝑓^{′}cos⁡𝜃 & 𝑓^{′}sin⁡𝜃 \\ 0 & −𝑓sin⁡𝜃 & 𝑓cos⁡𝜃\end{matrix} \\ & =⟨\begin{matrix}𝑓^{′}cos⁡𝜃 & 𝑓^{′}sin⁡𝜃 \\ −𝑓sin⁡𝜃 & 𝑓cos⁡𝜃\end{matrix},\,−\begin{matrix}1 & 𝑓^{′}sin⁡𝜃 \\ 0 & 𝑓cos⁡𝜃\end{matrix},\,\begin{matrix}1 & 𝑓^{′}cos⁡𝜃 \\ 0 & −𝑓sin⁡𝜃\end{matrix}⟩ \\ & =⟨𝑓𝑓^{′}cos^{2}⁡𝜃+𝑓𝑓^{′}sin^{2}⁡𝜃,\,−𝑓cos⁡𝜃,\,−𝑓sin⁡𝜃⟩ \\ & =⟨𝑓𝑓^{′},\,−𝑓cos⁡𝜃,\,−𝑓sin⁡𝜃⟩.\end{aligned}
 
 
 $$
@@ -283,7 +283,7 @@ Since $f=e^{x/2},$ we obtain $f' = \dfrac12 e^{x/2}.$ So, finally, we conclude t
 $$
 
 
-\begin{aligned}𝐫_{′𝑥}^{}×𝐫_{′𝜃}^{}=⟨\frac{1}{2}𝑒^{𝑥},\,−𝑒^{𝑥/2}cos⁡𝜃,\,−𝑒^{𝑥/2}sin⁡𝜃⟩.\end{aligned}
+\begin{aligned}𝐫_{′𝑥}×𝐫_{′𝜃}=⟨\frac{1}{2}𝑒^{𝑥},\,−𝑒^{𝑥/2}cos⁡𝜃,\,−𝑒^{𝑥/2}sin⁡𝜃⟩.\end{aligned}
 
 
 $$
@@ -307,7 +307,7 @@ defined over a region $D$ in the $uv$-plane, then the surface area of $S$ is giv
 $$
 
 
-\iint\limits_{S} \: \textrm{d}S = \iint\limits_{D} \| \mathbf{r}'_ u \times \mathbf{r}'_v \| \: \textrm{d}A,
+\iint\limits_{S} \: \text{d}S = \iint\limits_{D} \| \mathbf{r}'_ u \times \mathbf{r}'_v \| \: \text{d}A,
 
 
 $$
@@ -349,7 +349,7 @@ We now compute the tangent vectors to the grid curves:
 $$
 
 
-\begin{aligned}𝐫_{′𝑧}^{} & =⟨\frac{𝜕𝑥}{𝜕𝑧},\,\frac{𝜕𝑦}{𝜕𝑧},\,\frac{𝜕𝑧}{𝜕𝑧}⟩=⟨𝑓^{′}cos⁡𝜃,\,𝑓^{′}sin⁡𝜃,\,1⟩ \\ 𝐫_{′𝜃}^{} & =⟨\frac{𝜕𝑥}{𝜕𝜃},\,\frac{𝜕𝑦}{𝜕𝜃},\,\frac{𝜕𝑧}{𝜕𝜃}⟩=⟨−𝑓sin⁡𝜃,\,𝑓cos⁡𝜃,\,0⟩\end{aligned}
+\begin{aligned}𝐫_{′𝑧} & =⟨\frac{𝜕𝑥}{𝜕𝑧},\,\frac{𝜕𝑦}{𝜕𝑧},\,\frac{𝜕𝑧}{𝜕𝑧}⟩=⟨𝑓^{′}cos⁡𝜃,\,𝑓^{′}sin⁡𝜃,\,1⟩ \\ 𝐫_{′𝜃} & =⟨\frac{𝜕𝑥}{𝜕𝜃},\,\frac{𝜕𝑦}{𝜕𝜃},\,\frac{𝜕𝑧}{𝜕𝜃}⟩=⟨−𝑓sin⁡𝜃,\,𝑓cos⁡𝜃,\,0⟩\end{aligned}
 
 
 $$
@@ -359,7 +359,7 @@ Next, the fundamental vector product is
 $$
 
 
-\begin{aligned}𝐫_{′𝑧}^{}×𝐫_{′𝜃}^{} & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 𝑓^{′}cos⁡𝜃 & 𝑓^{′}sin⁡𝜃 & 1 \\ −𝑓sin⁡𝜃 & 𝑓cos⁡𝜃 & 0\end{aligned} \\ & =⟨\begin{aligned}𝑓^{′}sin⁡𝜃 & 1 \\ 𝑓cos⁡𝜃 & 0\end{aligned},\,−\begin{aligned}𝑓^{′}cos⁡𝜃 & 1 \\ −𝑓sin⁡𝜃 & 0\end{aligned},\,\begin{aligned}𝑓^{′}cos⁡𝜃 & 𝑓^{′}sin⁡𝜃 \\ −𝑓sin⁡𝜃 & 𝑓cos⁡𝜃\end{aligned}⟩ \\ & =⟨−𝑓cos⁡𝜃,\,−𝑓sin⁡𝜃,\,𝑓^{′}𝑓cos^{2}⁡𝜃+𝑓^{′}𝑓sin^{2}⁡𝜃⟩ \\ & =⟨−𝑓cos⁡𝜃,\,−𝑓sin⁡𝜃,\,𝑓^{′}𝑓⟩.\end{aligned}
+\begin{aligned}𝐫_{′𝑧}×𝐫_{′𝜃} & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 𝑓^{′}cos⁡𝜃 & 𝑓^{′}sin⁡𝜃 & 1 \\ −𝑓sin⁡𝜃 & 𝑓cos⁡𝜃 & 0\end{matrix} \\ & =⟨\begin{matrix}𝑓^{′}sin⁡𝜃 & 1 \\ 𝑓cos⁡𝜃 & 0\end{matrix},\,−\begin{matrix}𝑓^{′}cos⁡𝜃 & 1 \\ −𝑓sin⁡𝜃 & 0\end{matrix},\,\begin{matrix}𝑓^{′}cos⁡𝜃 & 𝑓^{′}sin⁡𝜃 \\ −𝑓sin⁡𝜃 & 𝑓cos⁡𝜃\end{matrix}⟩ \\ & =⟨−𝑓cos⁡𝜃,\,−𝑓sin⁡𝜃,\,𝑓^{′}𝑓cos^{2}⁡𝜃+𝑓^{′}𝑓sin^{2}⁡𝜃⟩ \\ & =⟨−𝑓cos⁡𝜃,\,−𝑓sin⁡𝜃,\,𝑓^{′}𝑓⟩.\end{aligned}
 
 
 $$
@@ -369,7 +369,7 @@ and
 $$
 
 
-\begin{aligned}𝐫_{′𝑧}^{}×𝐫_{′𝜃}^{} & =\sqrt{√(−𝑓cos⁡𝜃)^{2}+(−𝑓sin⁡𝜃)^{2}+(𝑓^{′}𝑓)^{2}} \\ & =\sqrt{√𝑓^{2}(cos^{2}⁡𝜃+sin^{2}⁡𝜃)+𝑓^{2}(𝑓^{′})^{2}} \\ & =\sqrt{√𝑓^{2}+𝑓^{2}(𝑓^{′})^{2}} \\ & =𝑓\sqrt{√1+(𝑓^{′})^{2}}.\end{aligned}
+\begin{aligned}𝐫_{′𝑧}×𝐫_{′𝜃} & =\sqrt{(−𝑓cos⁡𝜃)^{2}+(−𝑓sin⁡𝜃)^{2}+(𝑓^{′}𝑓)^{2}} \\ & =\sqrt{𝑓^{2}(cos^{2}⁡𝜃+sin^{2}⁡𝜃)+𝑓^{2}(𝑓^{′})^{2}} \\ & =\sqrt{𝑓^{2}+𝑓^{2}(𝑓^{′})^{2}} \\ & =𝑓\sqrt{1+(𝑓^{′})^{2}}.\end{aligned}
 
 
 $$
@@ -379,7 +379,7 @@ Therefore, the surface area is
 $$
 
 
-\begin{aligned}𝐴 & =\underset{𝑆}{∬}\,d𝑆 \\ & =\underset{𝐷}{∬}𝐫_{′𝑧}^{}×𝐫_{′𝜃}^{}d𝑧\,d𝜃 \\ & =\underset{𝐷}{∬}𝑓\sqrt{√1+(𝑓^{′})^{2}}\,d𝑧\,d𝜃 \\ & =∫_{𝜋0}^{}𝑓\sqrt{√1+(𝑓^{′})^{2}}∫_{2𝜋0}^{}\,d𝜃\,d𝑧 \\ & =∫_{𝜋0}^{}𝑓\sqrt{√1+(𝑓^{′})^{2}}⋅𝜃\,_{2𝜋0}^{}\,d𝑧 \\ & =2𝜋∫_{𝜋0}^{}𝑓\sqrt{√1+(𝑓^{′})^{2}}\,d𝑧.\end{aligned}
+\begin{aligned}𝐴 & =\underset{𝑆}{∬}\,d𝑆 \\ & =\underset{𝐷}{∬}𝐫_{′𝑧}×𝐫_{′𝜃}d𝑧\,d𝜃 \\ & =\underset{𝐷}{∬}𝑓\sqrt{1+(𝑓^{′})^{2}}\,d𝑧\,d𝜃 \\ & =∫_{𝜋0}𝑓\sqrt{1+(𝑓^{′})^{2}}∫_{2𝜋0}\,d𝜃\,d𝑧 \\ & =∫_{𝜋0}𝑓\sqrt{1+(𝑓^{′})^{2}}⋅𝜃\,_{2𝜋0}\,d𝑧 \\ & =2𝜋∫_{𝜋0}𝑓\sqrt{1+(𝑓^{′})^{2}}\,d𝑧.\end{aligned}
 
 
 $$
@@ -389,7 +389,7 @@ Since $f(z)=\sin z,$ we obtain $f'(z) = \cos z.$ So, finally, we conclude that o
 $$
 
 
-\begin{aligned}2𝜋∫_{𝜋0}^{}𝑓\sqrt{√1+(𝑓^{′})^{2}}\,d𝑧 & =2𝜋∫_{𝜋0}^{}sin⁡𝑧\sqrt{√1+(cos⁡𝑧)^{2}}\,d𝑧 \\ & =2𝜋∫_{𝜋0}^{}sin⁡𝑧\sqrt{√1+cos^{2}⁡𝑧}\,d𝑧.\end{aligned}
+\begin{aligned}2𝜋∫_{𝜋0}𝑓\sqrt{1+(𝑓^{′})^{2}}\,d𝑧 & =2𝜋∫_{𝜋0}sin⁡𝑧\sqrt{1+(cos⁡𝑧)^{2}}\,d𝑧 \\ & =2𝜋∫_{𝜋0}sin⁡𝑧\sqrt{1+cos^{2}⁡𝑧}\,d𝑧.\end{aligned}
 
 
 $$

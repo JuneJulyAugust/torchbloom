@@ -148,7 +148,7 @@ Multiplying the above inequality by $-3$ and then adding $7,$ we get
 $$
 
 
-\begin{aligned}\sqrt{√5𝑥−2} & ≥0 \\ −3\sqrt{√5𝑥−2} & ≤0 \\ −3\sqrt{√5𝑥−2}+7 & ≤7.\end{aligned}
+\begin{aligned}\sqrt{5𝑥−2} & ≥0 \\ −3\sqrt{5𝑥−2} & ≤0 \\ −3\sqrt{5𝑥−2}+7 & ≤7.\end{aligned}
 
 
 $$
@@ -198,7 +198,7 @@ Multiplying the above inequality by $2$ and then adding $2,$ we get
 $$
 
 
-\begin{aligned}\sqrt{√𝑥−2} & ≥0 \\ 2\sqrt{√𝑥−2} & ≥0 \\ 2\sqrt{√𝑥−2}+2 & ≥2.\end{aligned}
+\begin{aligned}\sqrt{𝑥−2} & ≥0 \\ 2\sqrt{𝑥−2} & ≥0 \\ 2\sqrt{𝑥−2}+2 & ≥2.\end{aligned}
 
 
 $$
@@ -232,7 +232,7 @@ We solve this equation by making $x$ the subject, as follows:
 $$
 
 
-\begin{aligned}\sqrt{√2𝑥+1}+5 & =0 \\ \sqrt{√2𝑥+1} & =−5\end{aligned}
+\begin{aligned}\sqrt{2𝑥+1}+5 & =0 \\ \sqrt{2𝑥+1} & =−5\end{aligned}
 
 
 $$
@@ -264,7 +264,7 @@ We solve this equation by making $x$ the subject, as follows:
 $$
 
 
-\begin{aligned}\sqrt{√6𝑥+7}−5 & =0 \\ \sqrt{√6𝑥+7} & =5 \\ (\sqrt{√6𝑥+7})^{2} & =5^{2} \\ 6𝑥+7 & =25 \\ 6𝑥 & =18 \\ 𝑥 & =3\end{aligned}
+\begin{aligned}\sqrt{6𝑥+7}−5 & =0 \\ \sqrt{6𝑥+7} & =5 \\ (\sqrt{6𝑥+7})^{2} & =5^{2} \\ 6𝑥+7 & =25 \\ 6𝑥 & =18 \\ 𝑥 & =3\end{aligned}
 
 
 $$
@@ -274,7 +274,7 @@ Finally, we must check the answer by substituting it back into the initial equat
 $$
 
 
-\begin{aligned}\sqrt{√6⋅3+7}−5 & =0 \\ \sqrt{√25} & =5 \\ 5 & =5\,✓\end{aligned}
+\begin{aligned}\sqrt{6⋅3+7}−5 & =0 \\ \sqrt{25} & =5 \\ 5 & =5\,✓\end{aligned}
 
 
 $$

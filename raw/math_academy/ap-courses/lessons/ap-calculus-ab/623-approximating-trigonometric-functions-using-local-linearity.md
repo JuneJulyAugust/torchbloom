@@ -44,7 +44,7 @@ and computing the derivative, we get
 $$
 
 
-f'(x) = \dfrac{\textrm{d}}{\textrm{d}x}(\sin x) = \cos x,
+f'(x) = \dfrac{\text{d}}{\text{d}x}(\sin x) = \cos x,
 
 
 $$
@@ -64,7 +64,7 @@ Finally, we obtain
 $$
 
 
-\begin{aligned}𝐿(𝑥) & =𝑓(\frac{𝜋}{3})+𝑓^{′}(\frac{𝜋}{3})(𝑥−\frac{𝜋}{3}) \\ & =\frac{\sqrt{√3}}{2}+\frac{1}{2}(𝑥−\frac{𝜋}{3}) \\ & =\frac{\sqrt{√3}}{2}+\frac{1}{2}𝑥−\frac{𝜋}{6} \\ & =\frac{1}{2}𝑥+\frac{3\sqrt{√3}−𝜋}{6}.\end{aligned}
+\begin{aligned}𝐿(𝑥) & =𝑓(\frac{𝜋}{3})+𝑓^{′}(\frac{𝜋}{3})(𝑥−\frac{𝜋}{3}) \\ & =\frac{\sqrt{3}}{2}+\frac{1}{2}(𝑥−\frac{𝜋}{3}) \\ & =\frac{\sqrt{3}}{2}+\frac{1}{2}𝑥−\frac{𝜋}{6} \\ & =\frac{1}{2}𝑥+\frac{3\sqrt{3}−𝜋}{6}.\end{aligned}
 
 
 $$
@@ -116,7 +116,7 @@ Now, computing the derivative, we have
 $$
 
 
-f'(x) = \dfrac{\textrm{d}}{\textrm{d}x}(\tan x) = \sec^2 x,
+f'(x) = \dfrac{\text{d}}{\text{d}x}(\tan x) = \sec^2 x,
 
 
 $$
@@ -264,7 +264,7 @@ Now, computing the derivative, we have
 $$
 
 
-f'(x) = \dfrac{\textrm{d}}{\textrm{d}x}(\cos x) = -\sin x,
+f'(x) = \dfrac{\text{d}}{\text{d}x}(\cos x) = -\sin x,
 
 
 $$

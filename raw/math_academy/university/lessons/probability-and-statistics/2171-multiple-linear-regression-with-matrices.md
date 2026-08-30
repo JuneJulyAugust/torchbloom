@@ -44,7 +44,7 @@ This system can be expressed in matrix notation as
 $$
 
 
-\begin{aligned}\overset{\overset\begin{aligned}1 & 1 & 2 \\ 1 & 2 & 3 \\ 1 & 3 & 4 \\ 1 & 4 & 6\end{aligned}}{}}{𝑋}\overset{\overset\begin{aligned}𝛽_{0} \\ 𝛽_{1} \\ 𝛽_{2}\end{aligned}}{}}{𝜷} & =\overset{\overset\begin{aligned}6 \\ 15 \\ 18 \\ 24\end{aligned}}{}}{𝐲}.\end{aligned}
+\begin{aligned}\overset{\begin{matrix}1 & 1 & 2 \\ 1 & 2 & 3 \\ 1 & 3 & 4 \\ 1 & 4 & 6\end{matrix}}{𝑋}\overset{\begin{matrix}𝛽_{0} \\ 𝛽_{1} \\ 𝛽_{2}\end{matrix}}{𝜷} & =\overset{\begin{matrix}6 \\ 15 \\ 18 \\ 24\end{matrix}}{𝐲}.\end{aligned}
 
 
 $$
@@ -92,7 +92,7 @@ Substituting $X$ and $\mathbf{y}$ into the formula above and simplifying, we get
 $$
 
 
-\begin{aligned}\overset{𝜷}{^}=\begin{aligned}2 \\ 7 \\ −1\end{aligned}.\end{aligned}
+\begin{aligned}\hat{𝜷}=\begin{matrix}2 \\ 7 \\ −1\end{matrix}.\end{aligned}
 
 
 $$
@@ -154,7 +154,7 @@ that best fits the data can be found as the least-squares solution ${\hat{\bolds
 $$
 
 
-\begin{aligned}\overset{\overset\begin{aligned}1 & 1 & 7 \\ 1 & 2 & 6.5 \\ 1 & 3 & 6 \\ 1 & 4 & 5 \\ 1 & 5 & 3\end{aligned}}{}}{𝑋}\overset{\overset\begin{aligned}𝛽_{0} \\ 𝛽_{1} \\ 𝛽_{2}\end{aligned}}{}}{𝜷} & =\overset{\overset\begin{aligned}1 \\ 2 \\ 5 \\ 9 \\ 15\end{aligned}}{}}{𝐲},\end{aligned}
+\begin{aligned}\overset{\begin{matrix}1 & 1 & 7 \\ 1 & 2 & 6.5 \\ 1 & 3 & 6 \\ 1 & 4 & 5 \\ 1 & 5 & 3\end{matrix}}{𝑋}\overset{\begin{matrix}𝛽_{0} \\ 𝛽_{1} \\ 𝛽_{2}\end{matrix}}{𝜷} & =\overset{\begin{matrix}1 \\ 2 \\ 5 \\ 9 \\ 15\end{matrix}}{𝐲},\end{aligned}
 
 
 $$
@@ -196,7 +196,7 @@ Substituting the values of $x_1$ and $x_2$ into the regression equation and equa
 $$
 
 
-\begin{aligned}\overset{\overset\begin{aligned}1 & 2 \\ 2 & 3 \\ 3 & 4 \\ 4 & 6\end{aligned}}{}}{𝑋}\overset{\overset{[\begin{aligned}𝛽_{1} \\ 𝛽_{2}\end{aligned}]}{}}{𝜷} & =\overset{\overset\begin{aligned}6 \\ 15 \\ 18 \\ 24\end{aligned}}{}}{𝐲}\end{aligned}
+\begin{aligned}\overset{\begin{matrix}1 & 2 \\ 2 & 3 \\ 3 & 4 \\ 4 & 6\end{matrix}}{𝑋}\overset{[\begin{matrix}𝛽_{1} \\ 𝛽_{2}\end{matrix}]}{}}{𝜷} & =\overset{\begin{matrix}6 \\ 15 \\ 18 \\ 24\end{matrix}}{𝐲}\end{aligned}
 
 
 $$
@@ -238,7 +238,7 @@ that best fits the data can be found as the least-squares solution ${\hat{\bolds
 $$
 
 
-\begin{aligned}\overset{\overset\begin{aligned}1 & −8 & 8 \\ 2 & −2 & 6 \\ 3 & 6 & 4 \\ 4 & 15 & 2\end{aligned}}{}}{𝑋}\overset{\overset\begin{aligned}𝛽_{1} \\ 𝛽_{2} \\ 𝛽_{3}\end{aligned}}{}}{𝜷} & =\overset{\overset\begin{aligned}10 \\ 20 \\ 40 \\ 60\end{aligned}}{}}{𝐲},\end{aligned}
+\begin{aligned}\overset{\begin{matrix}1 & −8 & 8 \\ 2 & −2 & 6 \\ 3 & 6 & 4 \\ 4 & 15 & 2\end{matrix}}{𝑋}\overset{\begin{matrix}𝛽_{1} \\ 𝛽_{2} \\ 𝛽_{3}\end{matrix}}{𝜷} & =\overset{\begin{matrix}10 \\ 20 \\ 40 \\ 60\end{matrix}}{𝐲},\end{aligned}
 
 
 $$

@@ -29,7 +29,7 @@ This function returns the greatest integer less than or equal to $x,$ where $x\i
 $$
 
 
-\lfloor x \rfloor=n \quad \textrm{where}\quad n \leq x < n+1, \quad n\in\mathbb Z
+\lfloor x \rfloor=n \quad \text{where}\quad n \leq x < n+1, \quad n\in\mathbb Z
 
 
 $$
@@ -171,7 +171,7 @@ This function returns the smallest integer greater than or equal to $x.$ The dom
 $$
 
 
-\lceil x \rceil =n \quad \textrm{where}\quad n-1 < x \leq n, \quad n\in\mathbb Z
+\lceil x \rceil =n \quad \text{where}\quad n-1 < x \leq n, \quad n\in\mathbb Z
 
 
 $$

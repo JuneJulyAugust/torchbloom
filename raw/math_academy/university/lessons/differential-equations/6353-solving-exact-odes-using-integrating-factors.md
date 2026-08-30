@@ -16,7 +16,7 @@ Sometimes, we might be asked to analyze a first-order ODE expressed in different
 $$
 
 
-M(x,y)\,\textrm{d}x + N(x,y)\,\textrm{d}y = 0
+M(x,y)\,\text{d}x + N(x,y)\,\text{d}y = 0
 
 
 $$
@@ -38,7 +38,7 @@ Now, suppose we have the *inexact* equation
 $$
 
 
-P(x,y)\,\textrm{d}x + Q(x,y)\,\textrm{d}y = 0.
+P(x,y)\,\text{d}x + Q(x,y)\,\text{d}y = 0.
 
 
 $$
@@ -86,7 +86,7 @@ Consider the differential equation
 $$
 
 
-y\,\textrm{d}x + xy\,\textrm{d}y = 0.
+y\,\text{d}x + xy\,\text{d}y = 0.
 
 
 $$
@@ -128,7 +128,7 @@ Multiplying the original equation by $I(x,y),$ we obtain
 $$
 
 
-\dfrac{e^{y}}{y}\Big[y\,\textrm{d}x + xy\,\textrm{d}y\Big]=0,
+\dfrac{e^{y}}{y}\Big[y\,\text{d}x + xy\,\text{d}y\Big]=0,
 
 
 $$
@@ -138,7 +138,7 @@ which simplifies to
 $$
 
 
-e^{y}\,\textrm{d}x + xe^{y}\,\textrm{d}y=0.
+e^{y}\,\text{d}x + xe^{y}\,\text{d}y=0.
 
 
 $$
@@ -176,7 +176,7 @@ Show that $I(x) = \dfrac{1}{xy^3}$ is an integrating factor of the equation
 $$
 
 
-(x^2y-y^3) \,\textrm{d}x - x^{3} \,\textrm{d}y = 0
+(x^2y-y^3) \,\text{d}x - x^{3} \,\text{d}y = 0
 
 
 $$
@@ -188,7 +188,7 @@ A function $I(x,y)$ is an integrating factor for the differential equation
 $$
 
 
-P(x,y) \,\textrm{d} x+Q(x,y)\,\textrm{d}y=0,
+P(x,y) \,\text{d} x+Q(x,y)\,\text{d}y=0,
 
 
 $$
@@ -198,7 +198,7 @@ if the following equation is exact:
 $$
 
 
-I(x,y)[P(x,y) \,\textrm{d} x+Q(x,y)\,\textrm{d}y] = 0
+I(x,y)[P(x,y) \,\text{d} x+Q(x,y)\,\text{d}y] = 0
 
 
 $$
@@ -218,7 +218,7 @@ Recall that a differential equation of the form
 $$
 
 
-P(x,y)\, \textrm{d}x +Q(x,y)\, \textrm{d}y = 0
+P(x,y)\, \text{d}x +Q(x,y)\, \text{d}y = 0
 
 
 $$
@@ -324,7 +324,7 @@ For a differential equation of the form
 $$
 
 
-P(x,y) \,\textrm{d} x+Q(x,y)\,\textrm{d}y=0,
+P(x,y) \,\text{d} x+Q(x,y)\,\text{d}y=0,
 
 
 $$
@@ -356,7 +356,7 @@ First, we rewrite our equation in differential form:
 $$
 
 
-(3x - 4y) \;\textrm{d}x + (x) \;\textrm{d} y =0
+(3x - 4y) \;\text{d}x + (x) \;\text{d} y =0
 
 
 $$
@@ -406,7 +406,7 @@ and by multiplying our differential equation by the integrating factor, we have
 $$
 
 
-I(x) \cdot \left((3x - 4y) \;\textrm{d}x + x\;\textrm{d} y\right) = I(x)\cdot 0
+I(x) \cdot \left((3x - 4y) \;\text{d}x + x\;\text{d} y\right) = I(x)\cdot 0
 
 
 $$
@@ -416,7 +416,7 @@ which simplifies as
 $$
 
 
-x^{-5} \cdot \left((3x - 4y) \;\textrm{d}x + x\;\textrm{d} y\right) = 0.
+x^{-5} \cdot \left((3x - 4y) \;\text{d}x + x\;\text{d} y\right) = 0.
 
 
 $$
@@ -466,7 +466,7 @@ Find an integrating factor for the following differential equation.
 $$
 
 
-y^2 \; \textrm{d}x + xy \; \textrm{d}y = 0, \qquad y > 0
+y^2 \; \text{d}x + xy \; \text{d}y = 0, \qquad y > 0
 
 
 $$
@@ -478,7 +478,7 @@ For a differential equation of the form
 $$
 
 
-P(x,y) \,\textrm{d} x+Q(x,y)\,\textrm{d}y=0,
+P(x,y) \,\text{d} x+Q(x,y)\,\text{d}y=0,
 
 
 $$
@@ -550,7 +550,7 @@ and by multiplying our differential equation by the integrating factor, we have
 $$
 
 
-I(y)\cdot \left(y^2 \; \textrm{d}x + xy\; \textrm{d}y \right) = I(y)\cdot 0
+I(y)\cdot \left(y^2 \; \text{d}x + xy\; \text{d}y \right) = I(y)\cdot 0
 
 
 $$
@@ -560,7 +560,7 @@ which simplifies as
 $$
 
 
-\boxed{y^{-1}\left(y^2 \; \textrm{d}x + xy \; \textrm{d}y \right) = 0}.
+\boxed{y^{-1}\left(y^2 \; \text{d}x + xy \; \text{d}y \right) = 0}.
 
 
 $$
@@ -574,7 +574,7 @@ Consider the inexact differential equation
 $$
 
 
-\left(x + y^2\right)\,\textrm{d}x + \left(xy + \frac{2}{x}\right)\,\textrm{d}y = 0.
+\left(x + y^2\right)\,\text{d}x + \left(xy + \frac{2}{x}\right)\,\text{d}y = 0.
 
 
 $$
@@ -608,7 +608,7 @@ For a differential equation of the form
 $$
 
 
-P(x,y)\,\textrm{d}x+Q(x,y)\,\textrm{d}y=0,
+P(x,y)\,\text{d}x+Q(x,y)\,\text{d}y=0,
 
 
 $$
@@ -628,7 +628,7 @@ where $g(x)$ is independent of $y,$ then an integrating factor for the equation 
 $$
 
 
-I(x)=\exp\left(\int g(x)\,\textrm{d}x\right)
+I(x)=\exp\left(\int g(x)\,\text{d}x\right)
 
 
 $$

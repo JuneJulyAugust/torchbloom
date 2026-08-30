@@ -13,12 +13,12 @@ Topic ID: 3856
 
 ### Introduction
 
-To compute the expected value of a discrete random variable $X$ given a joint mass function $f(x,y),$ we must first find its marginal mass function $f_X.$ Once the marginal mass function is known, we can then compute $\textrm{E}[X]$ using the formula
+To compute the expected value of a discrete random variable $X$ given a joint mass function $f(x,y),$ we must first find its marginal mass function $f_X.$ Once the marginal mass function is known, we can then compute $\text{E}[X]$ using the formula
 
 $$
 
 
-\textrm{E}[X] = \sum\limits_{i=1}^n x_i \, f_X(x_i).
+\text{E}[X] = \sum\limits_{i=1}^n x_i \, f_X(x_i).
 
 
 $$
@@ -39,13 +39,13 @@ $$
 
 $$
 
-Therefore, we conclude that $\textrm{E}[X] = 1.8.$
+Therefore, we conclude that $\text{E}[X] = 1.8.$
 
 ### Example: Finding the Expected Value of a Discrete Random Variable From a Joint Distribution
 
 #### Question
 
-Given the joint probability distribution for two discrete random variables $X$ and $Y$ below, find $\textrm{E}[4X-3Y].$
+Given the joint probability distribution for two discrete random variables $X$ and $Y$ below, find $\text{E}[4X-3Y].$
 
 #### Explanation
 
@@ -83,12 +83,12 @@ $$
 
 ### Continuous Random Variables
 
-To compute the expected value of a *continuous* random variable $X$ given a joint density function $f(x,y),$ we must first find its marginal density function $f_X.$ Once the marginal density function is known, we can then compute $\textrm{E}[X]$ using the formula
+To compute the expected value of a *continuous* random variable $X$ given a joint density function $f(x,y),$ we must first find its marginal density function $f_X.$ Once the marginal density function is known, we can then compute $\text{E}[X]$ using the formula
 
 $$
 
 
-\textrm{E}[X] = \int_{-\infty}^\infty x \cdot f_X(x)\,\textrm d x.
+\text{E}[X] = \int_{-\infty}^\infty x \cdot f_X(x)\,\textrm d x.
 
 
 $$
@@ -118,7 +118,7 @@ The marginal density function for $Y$ when $y \geq 1$ is
 $$
 
 
-\begin{aligned}𝑓_{𝑌}(𝑦) & =∫_{∞1}^{}\frac{4}{𝑥^{3}𝑦^{3}}\,d𝑥 \\ & =\frac{4}{𝑦^{3}}\underset{𝑏→∞}{lim}∫_{𝑏1}^{}\frac{1}{𝑥^{3}}\,d𝑥 \\ & =\frac{4}{𝑦^{3}}\underset{𝑏→∞}{lim}[−\frac{1}{2𝑥^{2}}]_{𝑏1}^{} \\ & =\frac{4}{𝑦^{3}}\underset{𝑏→∞}{lim}(\frac{1}{2}−\frac{1}{2𝑏^{2}}) \\ & =\frac{4}{𝑦^{3}}(\frac{1}{2}−0) \\ & =\frac{2}{𝑦^{3}}.\end{aligned}
+\begin{aligned}𝑓_{𝑌}(𝑦) & =∫_{∞1}\frac{4}{𝑥^{3}𝑦^{3}}\,d𝑥 \\ & =\frac{4}{𝑦^{3}}\underset{𝑏→∞}{lim}∫_{𝑏1}\frac{1}{𝑥^{3}}\,d𝑥 \\ & =\frac{4}{𝑦^{3}}\underset{𝑏→∞}{lim}[−\frac{1}{2𝑥^{2}}]_{𝑏1} \\ & =\frac{4}{𝑦^{3}}\underset{𝑏→∞}{lim}(\frac{1}{2}−\frac{1}{2𝑏^{2}}) \\ & =\frac{4}{𝑦^{3}}(\frac{1}{2}−0) \\ & =\frac{2}{𝑦^{3}}.\end{aligned}
 
 
 $$
@@ -138,7 +138,7 @@ Finally, the expected value of $Y$ is
 $$
 
 
-\begin{aligned}E[𝑌] & =∫_{∞−∞}^{}𝑦⋅𝑓_{𝑌}(𝑦)\,d𝑦 \\ & =∫_{∞1}^{}𝑦⋅\frac{2}{𝑦^{3}}\,d𝑦 \\ & =2\underset{𝑏→∞}{lim}∫_{𝑏1}^{}\frac{1}{𝑦^{2}}\,d𝑦 \\ & =2\underset{𝑏→∞}{lim}[−\frac{1}{𝑦}]_{𝑏1}^{} \\ & =2\underset{𝑏→∞}{lim}(1−\frac{1}{𝑏}) \\ & =2.\end{aligned}
+\begin{aligned}E[𝑌] & =∫_{∞−∞}𝑦⋅𝑓_{𝑌}(𝑦)\,d𝑦 \\ & =∫_{∞1}𝑦⋅\frac{2}{𝑦^{3}}\,d𝑦 \\ & =2\underset{𝑏→∞}{lim}∫_{𝑏1}\frac{1}{𝑦^{2}}\,d𝑦 \\ & =2\underset{𝑏→∞}{lim}[−\frac{1}{𝑦}]_{𝑏1} \\ & =2\underset{𝑏→∞}{lim}(1−\frac{1}{𝑏}) \\ & =2.\end{aligned}
 
 
 $$

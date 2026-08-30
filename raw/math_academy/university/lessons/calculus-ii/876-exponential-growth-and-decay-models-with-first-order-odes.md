@@ -55,7 +55,7 @@ Suppose that the population $P(t)$ of a town after $t$ years can be modeled by t
 $$
 
 
-\dfrac {\textrm{d}P} {\textrm{d}t} = 0.02P.
+\dfrac {\text{d}P} {\text{d}t} = 0.02P.
 
 
 $$

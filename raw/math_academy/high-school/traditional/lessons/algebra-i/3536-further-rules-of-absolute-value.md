@@ -134,7 +134,7 @@ If a variable is known to be negative, then the absolute value changes it to pos
 $$
 
 
-|x| = -x \quad\textrm{for}\quad x < 0.
+|x| = -x \quad\text{for}\quad x < 0.
 
 
 $$

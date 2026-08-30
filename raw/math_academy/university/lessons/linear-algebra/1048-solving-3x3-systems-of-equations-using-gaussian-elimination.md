@@ -28,7 +28,7 @@ Our goal is to create a descending "staircase" of $1$'s with $0$'s below, and we
 $$
 
 
-\begin{aligned}𝑀 & ∼\begin{aligned}1 & −1 & 1 & 6 \\ 0 & 1 & −3 & −13 \\ −1 & −1 & −1 & −4\end{aligned} & 𝑅_{3} & :=𝑅_{3}+𝑅_{1} \\ & ∼\begin{aligned}1 & −1 & 1 & 6 \\ 0 & 1 & −3 & −13 \\ 0 & −2 & 0 & 2\end{aligned} & 𝑅_{3} & :=𝑅_{3}+2𝑅_{2} \\ & ∼\begin{aligned}1 & −1 & 1 & 6 \\ 0 & 1 & −3 & −13 \\ 0 & 0 & −6 & −24\end{aligned} & 𝑅_{3} & :=−\frac{1}{6}𝑅_{3} \\ & ∼\begin{aligned}1 & −1 & 1 & 6 \\ 0 & 1 & −3 & −13 \\ 0 & 0 & 1 & 4\end{aligned}. & & \end{aligned}
+\begin{aligned}𝑀 & ∼\begin{matrix}1 & −1 & 1 & 6 \\ 0 & 1 & −3 & −13 \\ −1 & −1 & −1 & −4\end{matrix} & 𝑅_{3} & :=𝑅_{3}+𝑅_{1} \\ & ∼\begin{matrix}1 & −1 & 1 & 6 \\ 0 & 1 & −3 & −13 \\ 0 & −2 & 0 & 2\end{matrix} & 𝑅_{3} & :=𝑅_{3}+2𝑅_{2} \\ & ∼\begin{matrix}1 & −1 & 1 & 6 \\ 0 & 1 & −3 & −13 \\ 0 & 0 & −6 & −24\end{matrix} & 𝑅_{3} & :=−\frac{1}{6}𝑅_{3} \\ & ∼\begin{matrix}1 & −1 & 1 & 6 \\ 0 & 1 & −3 & −13 \\ 0 & 0 & 1 & 4\end{matrix}. & & \end{aligned}
 
 
 $$
@@ -98,7 +98,7 @@ Reducing $M$ to row echelon form, we have
 $$
 
 
-\begin{aligned}𝑀 & ∼\begin{aligned}1 & −1 & 1 & 1 \\ 0 & 1 & 1 & −2 \\ −1 & 2 & 1 & −1\end{aligned} & 𝑅_{3} & :=𝑅_{3}+𝑅_{1} \\ & ∼\begin{aligned}1 & −1 & 1 & 1 \\ 0 & 1 & 1 & −2 \\ 0 & 1 & 2 & 0\end{aligned} & 𝑅_{3} & :=𝑅_{3}+(−1)𝑅_{2} \\ & ∼\begin{aligned}1 & −1 & 1 & 1 \\ 0 & 1 & 1 & −2 \\ 0 & 0 & 1 & 2\end{aligned}. & & \end{aligned}
+\begin{aligned}𝑀 & ∼\begin{matrix}1 & −1 & 1 & 1 \\ 0 & 1 & 1 & −2 \\ −1 & 2 & 1 & −1\end{matrix} & 𝑅_{3} & :=𝑅_{3}+𝑅_{1} \\ & ∼\begin{matrix}1 & −1 & 1 & 1 \\ 0 & 1 & 1 & −2 \\ 0 & 1 & 2 & 0\end{matrix} & 𝑅_{3} & :=𝑅_{3}+(−1)𝑅_{2} \\ & ∼\begin{matrix}1 & −1 & 1 & 1 \\ 0 & 1 & 1 & −2 \\ 0 & 0 & 1 & 2\end{matrix}. & & \end{aligned}
 
 
 $$
@@ -168,7 +168,7 @@ Reducing $M$ to row echelon form, we have
 $$
 
 
-\begin{aligned}𝑀 & ∼\begin{aligned}1 & 1 & 1 & −2 \\ 1 & 1 & 2 & −1 \\ 1 & 2 & 1 & 1\end{aligned} & 𝑅_{2} & :=𝑅_{2}+(−1)𝑅_{1} \\ & ∼\begin{aligned}1 & 1 & 1 & −2 \\ 0 & 0 & 1 & 1 \\ 1 & 2 & 1 & 1\end{aligned} & 𝑅_{3} & :=𝑅_{3}+(−1)𝑅_{1} \\ & ∼\begin{aligned}1 & 1 & 1 & −2 \\ 0 & 0 & 1 & 1 \\ 0 & 1 & 0 & 3\end{aligned}. & & \end{aligned}
+\begin{aligned}𝑀 & ∼\begin{matrix}1 & 1 & 1 & −2 \\ 1 & 1 & 2 & −1 \\ 1 & 2 & 1 & 1\end{matrix} & 𝑅_{2} & :=𝑅_{2}+(−1)𝑅_{1} \\ & ∼\begin{matrix}1 & 1 & 1 & −2 \\ 0 & 0 & 1 & 1 \\ 1 & 2 & 1 & 1\end{matrix} & 𝑅_{3} & :=𝑅_{3}+(−1)𝑅_{1} \\ & ∼\begin{matrix}1 & 1 & 1 & −2 \\ 0 & 0 & 1 & 1 \\ 0 & 1 & 0 & 3\end{matrix}. & & \end{aligned}
 
 
 $$
@@ -178,7 +178,7 @@ Note that we get $a_{22}=0.$ Therefore, we swap the $2$nd and $3$rd rows:
 $$
 
 
-\begin{aligned}𝑀 & ∼\begin{aligned}1 & 1 & 1 & −2 \\ 0 & 0 & 1 & 1 \\ 0 & 1 & 0 & 3\end{aligned} & 𝑅_{2} & ↔𝑅_{3} \\ & ∼\begin{aligned}1 & 1 & 1 & −2 \\ 0 & 1 & 0 & 3 \\ 0 & 0 & 1 & 1\end{aligned} & & \end{aligned}
+\begin{aligned}𝑀 & ∼\begin{matrix}1 & 1 & 1 & −2 \\ 0 & 0 & 1 & 1 \\ 0 & 1 & 0 & 3\end{matrix} & 𝑅_{2} & ↔𝑅_{3} \\ & ∼\begin{matrix}1 & 1 & 1 & −2 \\ 0 & 1 & 0 & 3 \\ 0 & 0 & 1 & 1\end{matrix} & & \end{aligned}
 
 
 $$

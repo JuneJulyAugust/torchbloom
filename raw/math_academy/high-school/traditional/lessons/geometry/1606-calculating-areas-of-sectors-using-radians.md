@@ -13,7 +13,7 @@ Topic ID: 1606
 
 ### Introduction
 
-A sector of a circle of radius $3\,\textrm{cm}$ and its corresponding central angle measuring $\theta=\dfrac{\pi}{3}$ radians are shown below. How can we calculate the area of the circular sector?
+A sector of a circle of radius $3\,\text{cm}$ and its corresponding central angle measuring $\theta=\dfrac{\pi}{3}$ radians are shown below. How can we calculate the area of the circular sector?
 
 ![Instructional graphic](../../../../lesson-assets/geometry/topic-1606/1619ebd8305e4b1d.png)
 
@@ -45,13 +45,13 @@ $$
 
 #### Question
 
-The diagram below shows a sector of a circle of radius $2 \, \textrm{cm}.$ Given that $m\angle COD = \dfrac{3\pi}{4}$ radians, find the area of the sector $COD.$
+The diagram below shows a sector of a circle of radius $2 \, \text{cm}.$ Given that $m\angle COD = \dfrac{3\pi}{4}$ radians, find the area of the sector $COD.$
 
 ![Instructional graphic](../../../../lesson-assets/geometry/topic-1606/e66bcea17aa207f8.png)
 
 #### Explanation
 
-Here, we have the central angle $\theta = \dfrac{3\pi}{4}$ and radius $r = 2 \, \textrm{cm}.$
+Here, we have the central angle $\theta = \dfrac{3\pi}{4}$ and radius $r = 2 \, \text{cm}.$
 
 To find the area of the sector, we use the formula $\mathcal{A} = \dfrac{r^2 \theta}{2}.$ Substituting the known values into this formula gives
 
@@ -67,13 +67,13 @@ $$
 
 #### Question
 
-The area of the circular sector below is $\dfrac{5}{6}\pi\textrm{cm}^2.$ What is the measure of its central angle $\theta,$ in radians, if the radius $r$ of the circle is $2\,\textrm{cm}?$
+The area of the circular sector below is $\dfrac{5}{6}\pi\text{cm}^2.$ What is the measure of its central angle $\theta,$ in radians, if the radius $r$ of the circle is $2\,\text{cm}?$
 
 ![Instructional graphic](../../../../lesson-assets/geometry/topic-1606/851ee53a1883f1b2.png)
 
 #### Explanation
 
-Here, we are given that the area of the sector is $\mathcal{A}=\dfrac{5}{6}\textrm{cm}^2$ and the radius is $r=2\,\textrm{cm}.$
+Here, we are given that the area of the sector is $\mathcal{A}=\dfrac{5}{6}\text{cm}^2$ and the radius is $r=2\,\text{cm}.$
 
 Rearranging the formula for the area of a sector, we have
 
@@ -99,13 +99,13 @@ $$
 
 #### Question
 
-The area of the circular sector shown below is $6\pi\,\textrm{m}^2.$ If the measure of the central angle corresponding to the major arc is $\dfrac{4}{3}\pi$ radians, what is the radius of the circle?
+The area of the circular sector shown below is $6\pi\,\text{m}^2.$ If the measure of the central angle corresponding to the major arc is $\dfrac{4}{3}\pi$ radians, what is the radius of the circle?
 
 ![Instructional graphic](../../../../lesson-assets/geometry/topic-1606/ff3e88916d9a04c2.png)
 
 #### Explanation
 
-Here, we are given that the area of the sector is $\mathcal{A}=6\pi\,\textrm{m}^2$ and the central angle is $\theta=\dfrac{4}{3}\pi$ radians.
+Here, we are given that the area of the sector is $\mathcal{A}=6\pi\,\text{m}^2$ and the central angle is $\theta=\dfrac{4}{3}\pi$ radians.
 
 Rearranging the formula for the area of a sector, we have
 
@@ -132,7 +132,7 @@ Finally,
 $$
 
 
-r=\sqrt{9} = 3\,\textrm{m}.
+r=\sqrt{9} = 3\,\text{m}.
 
 
 $$

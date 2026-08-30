@@ -74,7 +74,7 @@ b=a k.
 
 $$
 
-Therefore, $3 \mid 18$ is equivalent to the statement that there exists $\boxed{\color{blue}\textrm{an integer}}$ $k$ such that $\boxed{\color{blue}18 = 3k}.$
+Therefore, $3 \mid 18$ is equivalent to the statement that there exists $\boxed{\color{blue}\text{an integer}}$ $k$ such that $\boxed{\color{blue}18 = 3k}.$
 
 ### Non-Divisibility
 
@@ -132,7 +132,7 @@ b \neq a k.
 
 $$
 
-Therefore, $5 \not\mid 16$ is equivalent to the statement that for $\boxed{\color{blue}\textrm{any}}$ $\boxed{\color{blue}\textrm{integer}}$ $k,$ we have $\boxed{\color{blue}16 \neq 5k}.$
+Therefore, $5 \not\mid 16$ is equivalent to the statement that for $\boxed{\color{blue}\text{any}}$ $\boxed{\color{blue}\text{integer}}$ $k,$ we have $\boxed{\color{blue}16 \neq 5k}.$
 
 ### Example: Inferring Divisibility in Algebraic Expressions
 

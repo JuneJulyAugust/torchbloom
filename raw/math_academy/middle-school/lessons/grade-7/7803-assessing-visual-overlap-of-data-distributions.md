@@ -54,7 +54,7 @@ When two distributions have the same spread but different centers, we say that o
 
 Two groups, $\text{C}$ and $\text{D},$ record the number of miles they walk each week. Their distances are shown on the dot plots above. Complete the following sentence.
 
-$\quad$Since the median distance of Group $\text{D}$ is to the $\boxed{\phantom{\text{right}}}$ of the median distance of Group $\text{C}$, we conclude that Group $\text{D}$ has a $\boxed{\phantom{\text{greater}}}$ median distance.
+$\quad$Since the median distance of Group $\text{D}$ is to the $\boxed{\phantom{\mathrm{right}}}$ of the median distance of Group $\text{C}$, we conclude that Group $\text{D}$ has a $\boxed{\phantom{\mathrm{greater}}}$ median distance.
 
 #### Explanation
 

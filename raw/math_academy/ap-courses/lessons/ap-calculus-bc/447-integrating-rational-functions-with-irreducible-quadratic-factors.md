@@ -78,7 +78,7 @@ We now integrate this function term by term, adding the constant of integration 
 $$
 
 
-\begin{aligned} \int \dfrac{4x^2 - 6}{(x-3)(x^2+1)} \, \textrm{d}x & = \int \left(\dfrac{3}{x-3} + \dfrac{x+3}{x^2 + 1}\right) \textrm{d}x \\\[5pt] & = 3\int\dfrac{1}{x-3}\,\textrm{d}x + \int \dfrac{x}{x^2+1}\,\textrm d x + 3\int \dfrac{1}{x^2 + 1} \, \textrm{d}x \end{aligned}
+\begin{aligned} \int \dfrac{4x^2 - 6}{(x-3)(x^2+1)} \, \text{d}x & = \int \left(\dfrac{3}{x-3} + \dfrac{x+3}{x^2 + 1}\right) \text{d}x \\[5pt] & = 3\int\dfrac{1}{x-3}\,\text{d}x + \int \dfrac{x}{x^2+1}\,\textrm d x + 3\int \dfrac{1}{x^2 + 1} \, \text{d}x \end{aligned}
 
 
 $$
@@ -88,27 +88,27 @@ For the first integral, we get
 $$
 
 
-\int \dfrac{1}{x-3} \textrm{d}x = \ln|x-3|.
+\int \dfrac{1}{x-3} \text{d}x = \ln|x-3|.
 
 
 $$
 
-For the second integral, we use the substitution $x^2 + 1 = u.$ Then, $2x\,\textrm{d}x=\textrm{d}u,$ and we get
+For the second integral, we use the substitution $x^2 + 1 = u.$ Then, $2x\,\text{d}x=\text{d}u,$ and we get
 
 $$
 
 
-\begin{aligned} \int \dfrac{x}{x^2+1}\,\textrm{d}x & = \int \left(\dfrac{1}{u}\right) \dfrac{\textrm d u}{2} \\\[5pt] &= \dfrac{1}{2}\ln \vert u\vert \\\[5pt] &= \dfrac{1}{2}\ln \vert x^2 + 1\vert \\\[5pt] & = \dfrac{1}{2}\ln \left(x^2+1\right). \end{aligned}
+\begin{aligned} \int \dfrac{x}{x^2+1}\,\text{d}x & = \int \left(\dfrac{1}{u}\right) \dfrac{\textrm d u}{2} \\[5pt] &= \dfrac{1}{2}\ln \vert u\vert \\[5pt] &= \dfrac{1}{2}\ln \vert x^2 + 1\vert \\[5pt] & = \dfrac{1}{2}\ln \left(x^2+1\right). \end{aligned}
 
 
 $$
 
-Finally, for the third integral, we use the fact that $\displaystyle \int \dfrac{1}{x^2 + a^2} \, \textrm{d}x = \dfrac{1}{a}\arctan\left(\dfrac{x}{a}\right),$ which results in
+Finally, for the third integral, we use the fact that $\displaystyle \int \dfrac{1}{x^2 + a^2} \, \text{d}x = \dfrac{1}{a}\arctan\left(\dfrac{x}{a}\right),$ which results in
 
 $$
 
 
-\int \dfrac{1}{x^2+1}\,\textrm{d}x = \arctan{x}.
+\int \dfrac{1}{x^2+1}\,\text{d}x = \arctan{x}.
 
 
 $$
@@ -127,7 +127,7 @@ $$
 
 #### Question
 
-Calculate $\displaystyle \int \dfrac{2x+3}{(x^2+4)(x-1)} \, \textrm{d}x.$
+Calculate $\displaystyle \int \dfrac{2x+3}{(x^2+4)(x-1)} \, \text{d}x.$
 
 #### Explanation
 
@@ -171,7 +171,7 @@ $$
 
 $$
 
-For the first integral, we use the substitution $u = x^2+4.$ Then $2x\,\textrm{d}x=\textrm{d}u,$ and we get
+For the first integral, we use the substitution $u = x^2+4.$ Then $2x\,\text{d}x=\text{d}u,$ and we get
 
 $$
 
@@ -181,7 +181,7 @@ $$
 
 $$
 
-For the second integral, we use the fact that $\displaystyle \int \dfrac{1}{x^2+a^2} \, \textrm{d}x = \dfrac{1}{a}\arctan\left(\dfrac{x}{a}\right),$ which results in
+For the second integral, we use the fact that $\displaystyle \int \dfrac{1}{x^2+a^2} \, \text{d}x = \dfrac{1}{a}\arctan\left(\dfrac{x}{a}\right),$ which results in
 
 $$
 
@@ -215,7 +215,7 @@ $$
 
 #### Question
 
-Evaluate $\displaystyle \int \dfrac{4x^2-x}{(x^2+x+1)(x-2)} \, \textrm{d}x.$
+Evaluate $\displaystyle \int \dfrac{4x^2-x}{(x^2+x+1)(x-2)} \, \text{d}x.$
 
 #### Explanation
 
@@ -269,7 +269,7 @@ $$
 
 $$
 
-For the first integral, we use the substitution $u = x^2+x+1.$ Then $(2x+1) \, \textrm{d}x=\textrm{d}u,$ and we get
+For the first integral, we use the substitution $u = x^2+x+1.$ Then $(2x+1) \, \text{d}x=\text{d}u,$ and we get
 
 $$
 

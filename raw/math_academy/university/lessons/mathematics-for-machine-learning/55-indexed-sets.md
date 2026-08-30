@@ -68,7 +68,7 @@ To write down, say, the elements of $B_{\color{blue}\sqrt{5}},$ we substitute $x
 $$
 
 
-\begin{aligned}𝐵_{\sqrt{√5}} & =[0,\,(\sqrt{√5})^{2}) \\ & =[0,5)\end{aligned}
+\begin{aligned}𝐵_{\sqrt{5}} & =[0,\,(\sqrt{5})^{2}) \\ & =[0,5)\end{aligned}
 
 
 $$
@@ -100,7 +100,7 @@ The **union** of a family of indexed sets is the set containing all elements bel
 $$
 
 
-\bigcup_{i \in I} A_i = \big\{ x\in U \: : \: x \in A_i \:\:\textrm{for at least one } A_i,\:\: i \in I \big\}
+\bigcup_{i \in I} A_i = \big\{ x\in U \: : \: x \in A_i \:\:\text{for at least one } A_i,\:\: i \in I \big\}
 
 
 $$
@@ -150,7 +150,7 @@ Thus, using the fact that $A\subseteq B$ and $B\subseteq A$ if and only if $A=B,
 $$
 
 
-\begin{aligned}\underset{𝑖∈ℕ}{⋃}𝑋_{𝑖} & =\overset{\overset{{−1,0,1}}{}}{𝑋_{1}}∪\overset{\overset{{−2,0,2}}{}}{𝑋_{2}}∪\overset{\overset{{−3,0,3}}{}}{𝑋_{3}}∪⋯=ℤ\end{aligned}
+\begin{aligned}\underset{𝑖∈ℕ}{⋃}𝑋_{𝑖} & =\overset{{−1,0,1}}{}}{𝑋_{1}}∪\overset{{−2,0,2}}{}}{𝑋_{2}}∪\overset{{−3,0,3}}{}}{𝑋_{3}}∪⋯=ℤ\end{aligned}
 
 
 $$
@@ -172,7 +172,7 @@ Similarly, the **intersection** of a family of indexed sets $\{A_i\}_{i\in I}$ c
 $$
 
 
-\bigcap_{i \in I} A_i = \big\{ x\in U \: : \: x \in A_i \:\:\textrm{for all } A_i,\:\: i \in I \big\}
+\bigcap_{i \in I} A_i = \big\{ x\in U \: : \: x \in A_i \:\:\text{for all } A_i,\:\: i \in I \big\}
 
 
 $$
@@ -250,7 +250,7 @@ The union of a family of indexed sets is the set containing all elements belongi
 $$
 
 
-\bigcup_{i \in I} A_i = \big\{ x\in U \: : \: x \in A_i \:\:\textrm{for at least one } A_i,\:\: i \in I \big\}
+\bigcup_{i \in I} A_i = \big\{ x\in U \: : \: x \in A_i \:\:\text{for at least one } A_i,\:\: i \in I \big\}
 
 
 $$
@@ -280,7 +280,7 @@ The intersection of a family of indexed sets $\{A_i\}_{i\in I}$ contains all ele
 $$
 
 
-\bigcap_{i \in I} A_i = \big\{ x\in U \: : \: x \in A_i \:\:\textrm{for all } A_i,\:\: i \in I \big\}
+\bigcap_{i \in I} A_i = \big\{ x\in U \: : \: x \in A_i \:\:\text{for all } A_i,\:\: i \in I \big\}
 
 
 $$

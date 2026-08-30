@@ -16,7 +16,7 @@ Let's prove the following statement using a direct proof:
 $$
 
 
-\textrm{If } \underbrace{m \textrm{ is even and } n \textrm{ is odd,}}_{P(m,n)} \:\textrm{ then }\: \underbrace{m + 2n \textrm{ is even}.}_{Q(m,n)}
+\text{If } \underbrace{m \text{ is even and } n \text{ is odd,}}_{P(m,n)} \:\text{ then }\: \underbrace{m + 2n \text{ is even}.}_{Q(m,n)}
 
 
 $$
@@ -292,7 +292,7 @@ In this case, we need to show the following:
 $$
 
 
-m \textrm{ is odd and } n \textrm{ is even } \Rightarrow m - n \textrm{ is odd}.
+m \text{ is odd and } n \text{ is even } \Rightarrow m - n \text{ is odd}.
 
 
 $$

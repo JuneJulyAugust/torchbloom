@@ -24,7 +24,7 @@ We can multiply these two numbers to find the total amount of the mixed-in part:
 $$
 
 
-\textrm{part} = \textrm{percentage} \times \textrm{total}
+\text{part} = \text{percentage} \times \text{total}
 
 
 $$
@@ -44,7 +44,7 @@ We will use the following formula:
 $$
 
 
-\textrm{part} = \textrm{percentage} \times \textrm{total}
+\text{part} = \text{percentage} \times \text{total}
 
 
 $$
@@ -98,7 +98,7 @@ We will use the following formula:
 $$
 
 
-\textrm{part} = \textrm{percentage} \times \textrm{total}
+\text{part} = \text{percentage} \times \text{total}
 
 
 $$

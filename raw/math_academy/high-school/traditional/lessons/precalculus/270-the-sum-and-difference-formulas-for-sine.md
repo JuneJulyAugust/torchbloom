@@ -45,7 +45,7 @@ $$
 
 
 
-\begin{aligned}sin⁡75^{∘} & =sin⁡(45^{∘}+30^{∘}) \\ & =sin⁡45^{∘}cos⁡30^{∘}+cos⁡45^{∘}sin⁡30^{∘} \\ & =\frac{\sqrt{√2}}{2}⋅\frac{\sqrt{√3}}{2}+\frac{\sqrt{√2}}{2}⋅\frac{1}{2} \\ & =\frac{\sqrt{√6}+\sqrt{√2}}{4}\end{aligned}
+\begin{aligned}sin⁡75^{∘} & =sin⁡(45^{∘}+30^{∘}) \\ & =sin⁡45^{∘}cos⁡30^{∘}+cos⁡45^{∘}sin⁡30^{∘} \\ & =\frac{\sqrt{2}}{2}⋅\frac{\sqrt{3}}{2}+\frac{\sqrt{2}}{2}⋅\frac{1}{2} \\ & =\frac{\sqrt{6}+\sqrt{2}}{4}\end{aligned}
 
 
 
@@ -93,7 +93,7 @@ $$
 
 
 
-\begin{aligned}sin⁡(\frac{𝜋}{12}) & =sin⁡(\frac{𝜋}{3}−\frac{𝜋}{4}) \\ & =sin⁡(\frac{𝜋}{3})cos⁡(\frac{𝜋}{4})−cos⁡(\frac{𝜋}{3})sin⁡(\frac{𝜋}{4}) \\ & =\frac{\sqrt{√3}}{2}⋅\frac{\sqrt{√2}}{2}−\frac{1}{2}⋅\frac{\sqrt{√2}}{2} \\ & =\frac{\sqrt{√6}−\sqrt{√2}}{4}.\end{aligned}
+\begin{aligned}sin⁡(\frac{𝜋}{12}) & =sin⁡(\frac{𝜋}{3}−\frac{𝜋}{4}) \\ & =sin⁡(\frac{𝜋}{3})cos⁡(\frac{𝜋}{4})−cos⁡(\frac{𝜋}{3})sin⁡(\frac{𝜋}{4}) \\ & =\frac{\sqrt{3}}{2}⋅\frac{\sqrt{2}}{2}−\frac{1}{2}⋅\frac{\sqrt{2}}{2} \\ & =\frac{\sqrt{6}−\sqrt{2}}{4}.\end{aligned}
 
 
 
@@ -125,7 +125,7 @@ $$
 
 
 
-\begin{aligned}sin⁡(𝑥−30^{∘}) & =sin⁡𝑥cos⁡30^{∘}−cos⁡𝑥sin⁡30^{∘} \\ & =sin⁡𝑥⋅(\frac{\sqrt{√3}}{2})−cos⁡𝑥⋅(\frac{1}{2}) \\ & =\frac{\sqrt{√3}sin⁡𝑥}{2}−\frac{cos⁡𝑥}{2} \\ & =\frac{\sqrt{√3}sin⁡𝑥−cos⁡𝑥}{2}.\end{aligned}
+\begin{aligned}sin⁡(𝑥−30^{∘}) & =sin⁡𝑥cos⁡30^{∘}−cos⁡𝑥sin⁡30^{∘} \\ & =sin⁡𝑥⋅(\frac{\sqrt{3}}{2})−cos⁡𝑥⋅(\frac{1}{2}) \\ & =\frac{\sqrt{3}sin⁡𝑥}{2}−\frac{cos⁡𝑥}{2} \\ & =\frac{\sqrt{3}sin⁡𝑥−cos⁡𝑥}{2}.\end{aligned}
 
 
 
@@ -157,7 +157,7 @@ $$
 
 
 
-\begin{aligned}sin⁡(𝑥+\frac{𝜋}{6}) & =sin⁡𝑥cos⁡(\frac{𝜋}{6})+cos⁡𝑥sin⁡(\frac{𝜋}{6}) \\ & =sin⁡𝑥⋅(\frac{\sqrt{√3}}{2})+cos⁡𝑥⋅(\frac{1}{2}) \\ & =\frac{\sqrt{√3}sin⁡𝑥}{2}+\frac{cos⁡𝑥}{2} \\ & =\frac{\sqrt{√3}sin⁡𝑥+cos⁡𝑥}{2}.\end{aligned}
+\begin{aligned}sin⁡(𝑥+\frac{𝜋}{6}) & =sin⁡𝑥cos⁡(\frac{𝜋}{6})+cos⁡𝑥sin⁡(\frac{𝜋}{6}) \\ & =sin⁡𝑥⋅(\frac{\sqrt{3}}{2})+cos⁡𝑥⋅(\frac{1}{2}) \\ & =\frac{\sqrt{3}sin⁡𝑥}{2}+\frac{cos⁡𝑥}{2} \\ & =\frac{\sqrt{3}sin⁡𝑥+cos⁡𝑥}{2}.\end{aligned}
 
 
 

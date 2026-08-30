@@ -15,7 +15,7 @@ Topic ID: 1648
 
 In this lesson, we will learn how to find the area and perimeter of parts of circles, such as quarter circles, semicircles, and three-quarter circles.
 
-For example, consider the quarter circle with a radius of $8\:\textrm{in}$ below. Let's find its area.
+For example, consider the quarter circle with a radius of $8\:\text{in}$ below. Let's find its area.
 
 ![Instructional graphic](../../../lesson-assets/grade-7/topic-1648/f1cea05226cba2b5.png)
 
@@ -57,7 +57,7 @@ $$
 
 $$
 
-Therefore, the area is approximately $50.24 \: \textrm{in}^2.$
+Therefore, the area is approximately $50.24 \: \text{in}^2.$
 
 Let see another example.
 
@@ -67,7 +67,7 @@ Let see another example.
 
 ![Instructional graphic](../../../lesson-assets/grade-7/topic-1648/44340cce2d962622.png)
 
-What is the area of the semicircle with a radius of $9\:\textrm{cm}?$ Use the approximation $\pi \approx 3.14.$
+What is the area of the semicircle with a radius of $9\:\text{cm}?$ Use the approximation $\pi \approx 3.14.$
 
 #### Explanation
 
@@ -109,13 +109,13 @@ $$
 
 $$
 
-Therefore, the area is approximately $127.17 \: \textrm{cm}^2.$
+Therefore, the area is approximately $127.17 \: \text{cm}^2.$
 
 ### Perimeters of Circle's Parts
 
 Given a part of a circle (quarter circle, semicircle, or three-quarter circle), we can also compute its perimeter.
 
-For example, what is the perimeter of the semicircle with a radius of $10\:\textrm{cm}?$
+For example, what is the perimeter of the semicircle with a radius of $10\:\text{cm}?$
 
 ![Instructional graphic](../../../lesson-assets/grade-7/topic-1648/000ce0c3675c2e2b.png)
 
@@ -173,7 +173,7 @@ $$
 
 $$
 
-Therefore, the perimeter is approximately $51.4 \: \textrm{cm}.$
+Therefore, the perimeter is approximately $51.4 \: \text{cm}.$
 
 ### Example: Computing the Perimeter of a Part of a Circle
 
@@ -181,7 +181,7 @@ Therefore, the perimeter is approximately $51.4 \: \textrm{cm}.$
 
 ![Instructional graphic](../../../lesson-assets/grade-7/topic-1648/7e6177c483fd7c7a.png)
 
-What is the perimeter of the three-quarter circle with a radius of $8\:\textrm{cm}?$ Use the approximation $\pi \approx 3.14.$
+What is the perimeter of the three-quarter circle with a radius of $8\:\text{cm}?$ Use the approximation $\pi \approx 3.14.$
 
 #### Explanation
 
@@ -239,13 +239,13 @@ $$
 
 $$
 
-Therefore, the perimeter is approximately $53.68 \: \textrm{cm}.$
+Therefore, the perimeter is approximately $53.68 \: \text{cm}.$
 
 ### Areas and Perimeters of Parts of a Circle in Context
 
 Now, let's see an application of the above in a real-world context.
 
-A circular garden is divided into four equal sections, and only one section is planted with flowers. The radius of the garden is $8\:\textrm{m}.$
+A circular garden is divided into four equal sections, and only one section is planted with flowers. The radius of the garden is $8\:\text{m}.$
 
 ![Instructional graphic](../../../lesson-assets/grade-7/topic-1648/fb304aa4c233a5cb.png)
 
@@ -289,13 +289,13 @@ $$
 
 $$
 
-Therefore, the area is approximately $50.24 \: \textrm{m}^2.$
+Therefore, the area is approximately $50.24 \: \text{m}^2.$
 
 ### Example: Solving Word Problems Involving Parts of Circles
 
 #### Question
 
-A semicircular patio has a radius of $10\:\textrm{ft}.$
+A semicircular patio has a radius of $10\:\text{ft}.$
 
 Using the approximation $\pi \approx 3.14,$ what is the area of the patio?
 
@@ -339,4 +339,4 @@ $$
 
 $$
 
-Therefore, the area is approximately $157 \: \textrm{ft}^2.$
+Therefore, the area is approximately $157 \: \text{ft}^2.$

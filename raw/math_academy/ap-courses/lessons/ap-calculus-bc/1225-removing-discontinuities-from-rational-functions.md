@@ -86,7 +86,7 @@ Now we can compute the limit at $x=-1,$ and get
 $$
 
 
-\lim_\limits{x\to -1} g(x) = \lim_\limits{x\to -1} \left(\dfrac{x^2-x+1}{k}\right) = \dfrac{3}{k}.
+\lim\limits_{x\to -1} g(x) = \lim\limits_{x\to -1} \left(\dfrac{x^2-x+1}{k}\right) = \dfrac{3}{k}.
 
 
 $$

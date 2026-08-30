@@ -125,7 +125,7 @@ Finally, we write the resulting improper fraction as a mixed number:
 
 $$
 
-\dfrac{20}{3} =6\,\textrm{R} 2 = 6\,\dfrac 2 {3}
+\dfrac{20}{3} =6\,\text{R} 2 = 6\,\dfrac 2 {3}
 
 $$
 
@@ -247,6 +247,6 @@ Finally, we convert our result to a mixed number:
 
 $$
 
-\dfrac73 = 2\,\textrm{R}\,1 = 2\,\dfrac13
+\dfrac73 = 2\,\text{R}\,1 = 2\,\dfrac13
 
 $$

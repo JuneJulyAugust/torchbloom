@@ -42,7 +42,7 @@ Therefore, Luisa's bank balance at the end of the day on Tuesday was $-\ 77.45.$
 
 #### Question
 
-Nazareth is doing an experiment in her Chemistry class. She heated a liquid whose initial temperature was $-5.6^{\circ} \, \textrm{C}.$ After several minutes, the temperature of the liquid rose by $4.7^{\circ} \, \textrm{C},$ at which point she decided to end the experiment. What was the final temperature of the liquid?
+Nazareth is doing an experiment in her Chemistry class. She heated a liquid whose initial temperature was $-5.6^{\circ} \, \text{C}.$ After several minutes, the temperature of the liquid rose by $4.7^{\circ} \, \text{C},$ at which point she decided to end the experiment. What was the final temperature of the liquid?
 
 #### Explanation
 
@@ -50,11 +50,11 @@ To determine the final temperature of the liquid, we add the change in temperatu
 
 $$
 
--5.6^{\circ}\,\textrm{C} + 4.7^{\circ}\,\textrm{C} = -0.9^{\circ}\,\textrm{C}.
+-5.6^{\circ}\,\text{C} + 4.7^{\circ}\,\text{C} = -0.9^{\circ}\,\text{C}.
 
 $$
 
-Therefore, the temperature of the liquid at the end of the experiment was $-0.9^{\circ}\,\textrm{C}.$
+Therefore, the temperature of the liquid at the end of the experiment was $-0.9^{\circ}\,\text{C}.$
 
 ### Example: Subtracting a Negative Number
 
@@ -68,7 +68,7 @@ To calculate the difference between the elevations of both cities, we must calcu
 
 $$
 
-83.2 - (-52.5) = 83.2 + 52.5 = 135.7 \, \textrm{ft}.
+83.2 - (-52.5) = 83.2 + 52.5 = 135.7 \, \text{ft}.
 
 $$
 
@@ -76,24 +76,24 @@ $$
 
 #### Question
 
-In Chicago, the average temperature in December is $-1.5^{\circ} \, \textrm{C}.$ Then in January, the average temperature decreases by $3.5^{\circ} \, \textrm{C}$ compared to December. Finally, in February, the average temperature increases by $2.6^{\circ} \, \textrm{C}$ compared to the previous month. What is Chicago's average temperature in February?
+In Chicago, the average temperature in December is $-1.5^{\circ} \, \text{C}.$ Then in January, the average temperature decreases by $3.5^{\circ} \, \text{C}$ compared to December. Finally, in February, the average temperature increases by $2.6^{\circ} \, \text{C}$ compared to the previous month. What is Chicago's average temperature in February?
 
 #### Explanation
 
-First, we must determine the temperature in Chicago during the month of January. Since we are told that the temperature ** on average $3.5^{\circ} \, \textrm{C}$ compared to December, we ** the variation in temperature from the average temperature in December. This gives
+First, we must determine the temperature in Chicago during the month of January. Since we are told that the temperature ** on average $3.5^{\circ} \, \text{C}$ compared to December, we ** the variation in temperature from the average temperature in December. This gives
 
 $$
 
--1.5^{\circ} \, \textrm{C} - 3.5^{\circ} \, \textrm{C} = -5.0^{\circ} \, \textrm{C}.
+-1.5^{\circ} \, \text{C} - 3.5^{\circ} \, \text{C} = -5.0^{\circ} \, \text{C}.
 
 $$
 
-Now we must determine the temperature during the month of February. Since we are told that the temperature ** on average $2.6^{\circ} \, \textrm{C}$ compared to January, we ** the variation in temperature to the average temperature of January. This gives
+Now we must determine the temperature during the month of February. Since we are told that the temperature ** on average $2.6^{\circ} \, \text{C}$ compared to January, we ** the variation in temperature to the average temperature of January. This gives
 
 $$
 
--5.0^{\circ} \, \textrm{C} + 2.6^{\circ} \, \textrm{C} = -2.4^{\circ} \, \textrm{C}.
+-5.0^{\circ} \, \text{C} + 2.6^{\circ} \, \text{C} = -2.4^{\circ} \, \text{C}.
 
 $$
 
-Therefore, the average temperature in Chicago in the month of February is $-2.4^{\circ} \, \textrm{C}.$
+Therefore, the average temperature in Chicago in the month of February is $-2.4^{\circ} \, \text{C}.$

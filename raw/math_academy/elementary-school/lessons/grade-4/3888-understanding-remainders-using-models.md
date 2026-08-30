@@ -33,7 +33,7 @@ We write the solution to our division problem as follows:
 
 $$
 
-23 \div 5 = {\color{blue}4} \, \textrm{R} \, {\color{red}3}
+23 \div 5 = {\color{blue}4} \, \text{R} \, {\color{red}3}
 
 $$
 
@@ -75,7 +75,7 @@ Therefore,
 
 $$
 
-25 \div 6 = {\color{blue}4} \, \textrm{R} \, {\color{red}1}.
+25 \div 6 = {\color{blue}4} \, \text{R} \, {\color{red}1}.
 
 $$
 
@@ -105,7 +105,7 @@ Therefore, we can write the solution to this division problem as
 
 $$
 
-12 \div 3 = {\color{blue}4} \, \textrm{R} \, {\color{red}0}.
+12 \div 3 = {\color{blue}4} \, \text{R} \, {\color{red}0}.
 
 $$
 
@@ -147,7 +147,7 @@ Therefore, $35 \div 7 = 5,$ which can be written as
 
 $$
 
-35 \div 7 = {\color{blue}5} \, \textrm{R} \, {\color{red}0}.
+35 \div 7 = {\color{blue}5} \, \text{R} \, {\color{red}0}.
 
 $$
 
@@ -181,6 +181,6 @@ Therefore,
 
 $$
 
-17 \div 5 = {\color{blue}3} \, \textrm{R} \, {\color{red}2}.
+17 \div 5 = {\color{blue}3} \, \text{R} \, {\color{red}2}.
 
 $$

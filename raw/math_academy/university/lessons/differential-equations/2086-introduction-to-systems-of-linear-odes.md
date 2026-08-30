@@ -19,7 +19,7 @@ A **first-order linear system of differential equations** with two dependent var
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=𝑎(𝑡)𝑥_{1}(𝑡)+𝑏(𝑡)𝑥_{2}(𝑡)+𝑓(𝑡) \\ 𝑥_{′2}^{}(𝑡)=𝑐(𝑡)𝑥_{1}(𝑡)+𝑑(𝑡)𝑥_{2}(𝑡)+𝑔(𝑡)\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=𝑎(𝑡)𝑥_{1}(𝑡)+𝑏(𝑡)𝑥_{2}(𝑡)+𝑓(𝑡) \\ 𝑥_{′2}(𝑡)=𝑐(𝑡)𝑥_{1}(𝑡)+𝑑(𝑡)𝑥_{2}(𝑡)+𝑔(𝑡)\end{aligned}
 
 
 $$
@@ -35,7 +35,7 @@ For example,
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=ln⁡(𝑡)𝑥_{2}(𝑡) \\ 𝑥_{′2}^{}(𝑡)=−2𝑡𝑥_{1}(𝑡)+𝑥_{2}(𝑡)+5𝑡^{2}+1\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=ln⁡(𝑡)𝑥_{2}(𝑡) \\ 𝑥_{′2}(𝑡)=−2𝑡𝑥_{1}(𝑡)+𝑥_{2}(𝑡)+5𝑡^{2}+1\end{aligned}
 
 
 $$
@@ -45,7 +45,7 @@ is a first-order linear system of ODEs since it can be written in the standard f
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=0⋅𝑥_{1}(𝑡)+ln⁡(𝑡)⋅𝑥_{2}(𝑡)+0 \\ 𝑥_{′2}^{}(𝑡)=−2𝑡⋅𝑥_{1}(𝑡)+1⋅𝑥_{2}(𝑡)+(5𝑡^{2}+1)\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=0⋅𝑥_{1}(𝑡)+ln⁡(𝑡)⋅𝑥_{2}(𝑡)+0 \\ 𝑥_{′2}(𝑡)=−2𝑡⋅𝑥_{1}(𝑡)+1⋅𝑥_{2}(𝑡)+(5𝑡^{2}+1)\end{aligned}
 
 
 $$
@@ -65,7 +65,7 @@ On the other hand,
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=ln⁡(𝑥_{1}(𝑡))+𝑥_{2}(𝑡) \\ 𝑥_{′2}^{}(𝑡)=𝑡𝑥_{1}(𝑡)−𝑡^{2}𝑥_{2}(𝑡)+sin⁡(𝑡)\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=ln⁡(𝑥_{1}(𝑡))+𝑥_{2}(𝑡) \\ 𝑥_{′2}(𝑡)=𝑡𝑥_{1}(𝑡)−𝑡^{2}𝑥_{2}(𝑡)+sin⁡(𝑡)\end{aligned}
 
 
 $$
@@ -83,7 +83,7 @@ Which of the following systems of differential equations are linear?
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=\frac{1}{2}𝑥_{21}^{}(𝑡)+5𝑥_{2}(𝑡) \\ 𝑥_{′2}^{}(𝑡)=\sqrt{√5}𝑥_{1}(𝑡)+3sin⁡(𝑥_{2}(𝑡))\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=\frac{1}{2}𝑥_{21}(𝑡)+5𝑥_{2}(𝑡) \\ 𝑥_{′2}(𝑡)=\sqrt{5}𝑥_{1}(𝑡)+3sin⁡(𝑥_{2}(𝑡))\end{aligned}
 
 
 $$
@@ -95,7 +95,7 @@ A first-order linear system of differential equations with two dependent variabl
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=𝑎(𝑡)𝑥_{1}(𝑡)+𝑏(𝑡)𝑥_{2}(𝑡)+𝑓(𝑡) \\ 𝑥_{′2}^{}(𝑡)=𝑐(𝑡)𝑥_{1}(𝑡)+𝑑(𝑡)𝑥_{2}(𝑡)+𝑔(𝑡)\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=𝑎(𝑡)𝑥_{1}(𝑡)+𝑏(𝑡)𝑥_{2}(𝑡)+𝑓(𝑡) \\ 𝑥_{′2}(𝑡)=𝑐(𝑡)𝑥_{1}(𝑡)+𝑑(𝑡)𝑥_{2}(𝑡)+𝑔(𝑡)\end{aligned}
 
 
 $$
@@ -131,7 +131,7 @@ For example, the system
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=2𝑥_{1}(𝑡)−2𝑥_{2}(𝑡)+4 \\ 𝑥_{′2}^{}(𝑡)=−𝑥_{1}(𝑡)+3𝑥_{2}(𝑡)−𝑡^{2}\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=2𝑥_{1}(𝑡)−2𝑥_{2}(𝑡)+4 \\ 𝑥_{′2}(𝑡)=−𝑥_{1}(𝑡)+3𝑥_{2}(𝑡)−𝑡^{2}\end{aligned}
 
 
 $$
@@ -141,7 +141,7 @@ can be written as
 $$
 
 
-[\begin{aligned}𝑥_{′1}^{}(𝑡) \\ 𝑥_{′2}^{}(𝑡)\end{aligned}]
+[\begin{aligned}𝑥_{′1}(𝑡) \\ 𝑥_{′2}(𝑡)\end{aligned}]
 
 
 $$
@@ -157,7 +157,7 @@ If the following system of differential equations is written in the form $\mathb
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)+3𝑥_{1}(𝑡)−4𝑥_{2}(𝑡)=0 \\ 𝑥_{′2}^{}(𝑡)−\sqrt{√2}𝑥_{1}(𝑡)+2𝑥_{2}(𝑡)=0\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)+3𝑥_{1}(𝑡)−4𝑥_{2}(𝑡)=0 \\ 𝑥_{′2}(𝑡)−\sqrt{2}𝑥_{1}(𝑡)+2𝑥_{2}(𝑡)=0\end{aligned}
 
 
 $$
@@ -169,7 +169,7 @@ A first-order linear system of differential equations with two dependent variabl
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=𝑎(𝑡)𝑥_{1}(𝑡)+𝑏(𝑡)𝑥_{2}(𝑡)+𝑓(𝑡) \\ 𝑥_{′2}^{}(𝑡)=𝑐(𝑡)𝑥_{1}(𝑡)+𝑑(𝑡)𝑥_{2}(𝑡)+𝑔(𝑡)\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=𝑎(𝑡)𝑥_{1}(𝑡)+𝑏(𝑡)𝑥_{2}(𝑡)+𝑓(𝑡) \\ 𝑥_{′2}(𝑡)=𝑐(𝑡)𝑥_{1}(𝑡)+𝑑(𝑡)𝑥_{2}(𝑡)+𝑔(𝑡)\end{aligned}
 
 
 $$
@@ -195,7 +195,7 @@ We have the following system.
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)+3𝑥_{1}(𝑡)−4𝑥_{2}(𝑡)=0 \\ 𝑥_{′2}^{}(𝑡)−\sqrt{√2}𝑥_{1}(𝑡)+2𝑥_{2}(𝑡)=0\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)+3𝑥_{1}(𝑡)−4𝑥_{2}(𝑡)=0 \\ 𝑥_{′2}(𝑡)−\sqrt{2}𝑥_{1}(𝑡)+2𝑥_{2}(𝑡)=0\end{aligned}
 
 
 $$
@@ -205,7 +205,7 @@ Writing our system in standard form, we get the following:
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=−3𝑥_{1}(𝑡)+4𝑥_{2}(𝑡) \\ 𝑥_{′2}^{}(𝑡)=\sqrt{√2}𝑥_{1}(𝑡)−2𝑥_{2}(𝑡).\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=−3𝑥_{1}(𝑡)+4𝑥_{2}(𝑡) \\ 𝑥_{′2}(𝑡)=\sqrt{2}𝑥_{1}(𝑡)−2𝑥_{2}(𝑡).\end{aligned}
 
 
 $$
@@ -215,7 +215,7 @@ So, we can rewrite our system in matrix form as follows:
 $$
 
 
-[\begin{aligned}−3 & 4 \\ \sqrt{√2} & −2\end{aligned}]
+[\begin{aligned}−3 & 4 \\ \sqrt{2} & −2\end{aligned}]
 
 
 $$
@@ -225,7 +225,7 @@ Therefore, we have
 $$
 
 
-[\begin{aligned}−3 & 4 \\ \sqrt{√2} & −2\end{aligned}]
+[\begin{aligned}−3 & 4 \\ \sqrt{2} & −2\end{aligned}]
 
 
 $$
@@ -237,7 +237,7 @@ Recall that a first-order linear system of differential equations with two depen
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=𝑎(𝑡)𝑥_{1}(𝑡)+𝑏(𝑡)𝑥_{2}(𝑡)+𝑓(𝑡) \\ 𝑥_{′2}^{}(𝑡)=𝑐(𝑡)𝑥_{1}(𝑡)+𝑑(𝑡)𝑥_{2}(𝑡)+𝑔(𝑡)\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=𝑎(𝑡)𝑥_{1}(𝑡)+𝑏(𝑡)𝑥_{2}(𝑡)+𝑓(𝑡) \\ 𝑥_{′2}(𝑡)=𝑐(𝑡)𝑥_{1}(𝑡)+𝑑(𝑡)𝑥_{2}(𝑡)+𝑔(𝑡)\end{aligned}
 
 
 $$
@@ -268,11 +268,11 @@ For example:
 
 Which of the following systems are homogeneous?
 
-1. $\begin{aligned}𝑥_{′1}^{}(𝑡)=−2𝑥_{1}(𝑡)+3𝑥_{2}(𝑡) \\ 𝑥_{′2}^{}(𝑡)=6𝑥_{1}(𝑡)+𝑥_{2}(𝑡)\end{aligned}$
+1. $\begin{aligned}𝑥_{′1}(𝑡)=−2𝑥_{1}(𝑡)+3𝑥_{2}(𝑡) \\ 𝑥_{′2}(𝑡)=6𝑥_{1}(𝑡)+𝑥_{2}(𝑡)\end{aligned}$
 
-2. $\begin{aligned}𝑥_{′1}^{}(𝑡)=𝑥_{1}(𝑡)+𝑡^{3} \\ 𝑥_{′2}^{}(𝑡)=−𝑥_{2}(𝑡)+1\end{aligned}$
+2. $\begin{aligned}𝑥_{′1}(𝑡)=𝑥_{1}(𝑡)+𝑡^{3} \\ 𝑥_{′2}(𝑡)=−𝑥_{2}(𝑡)+1\end{aligned}$
 
-3. $\begin{aligned}𝑥_{′1}^{}(𝑡)=5𝑥_{1}(𝑡)−𝑥_{2}(𝑡) \\ 𝑥_{′2}^{}(𝑡)=−2𝑥_{1}(𝑡)+4𝑥_{2}(𝑡)\end{aligned}$
+3. $\begin{aligned}𝑥_{′1}(𝑡)=5𝑥_{1}(𝑡)−𝑥_{2}(𝑡) \\ 𝑥_{′2}(𝑡)=−2𝑥_{1}(𝑡)+4𝑥_{2}(𝑡)\end{aligned}$
 
 #### Explanation
 
@@ -281,7 +281,7 @@ Recall that a first-order linear system of differential equations with two depen
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=𝑎(𝑡)𝑥_{1}(𝑡)+𝑏(𝑡)𝑥_{2}(𝑡)+𝑓(𝑡) \\ 𝑥_{′2}^{}(𝑡)=𝑐(𝑡)𝑥_{1}(𝑡)+𝑑(𝑡)𝑥_{2}(𝑡)+𝑔(𝑡).\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=𝑎(𝑡)𝑥_{1}(𝑡)+𝑏(𝑡)𝑥_{2}(𝑡)+𝑓(𝑡) \\ 𝑥_{′2}(𝑡)=𝑐(𝑡)𝑥_{1}(𝑡)+𝑑(𝑡)𝑥_{2}(𝑡)+𝑔(𝑡).\end{aligned}
 
 
 $$
@@ -325,7 +325,7 @@ is the vector $[\begin{aligned}2𝑒^{𝑡} \\ 𝑒^{𝑡}\end{aligned}]$ We can
 $$
 
 
-\begin{aligned}𝐱^{′}(𝑡) & =[\begin{aligned}2 & −2 \\ −1 & 3\end{aligned}]𝐱(𝑡) \\ [\begin{aligned}(2𝑒^{𝑡})^{′} \\ (𝑒^{𝑡})^{′}\end{aligned}] & =[\begin{aligned}2 & −2 \\ −1 & 3\end{aligned}][\begin{aligned}2𝑒^{𝑡} \\ 𝑒^{𝑡}\end{aligned}] \\ [\begin{aligned}2𝑒^{𝑡} \\ 𝑒^{𝑡}\end{aligned}] & =[\begin{aligned}2⋅(2𝑒^{𝑡})+(−2)⋅(𝑒^{𝑡}) \\ (−1)⋅(2𝑒^{𝑡})+3⋅(𝑒^{𝑡})\end{aligned}] \\ [\begin{aligned}2𝑒^{𝑡} \\ 𝑒^{𝑡}\end{aligned}] & =[\begin{aligned}4𝑒^{𝑡}−2𝑒^{𝑡} \\ −2𝑒^{𝑡}+3𝑒^{𝑡}\end{aligned}] \\ [\begin{aligned}2𝑒^{𝑡} \\ 𝑒^{𝑡}\end{aligned}] & =[\begin{aligned}2𝑒^{𝑡} \\ 𝑒^{𝑡}\end{aligned}]\,✓\end{aligned}
+\begin{aligned}𝐱^{′}(𝑡) & =[\begin{matrix}2 & −2 \\ −1 & 3\end{matrix}]𝐱(𝑡) \\ [\begin{matrix}(2𝑒^{𝑡})^{′} \\ (𝑒^{𝑡})^{′}\end{matrix}] & =[\begin{matrix}2 & −2 \\ −1 & 3\end{matrix}][\begin{matrix}2𝑒^{𝑡} \\ 𝑒^{𝑡}\end{matrix}] \\ [\begin{matrix}2𝑒^{𝑡} \\ 𝑒^{𝑡}\end{matrix}] & =[\begin{matrix}2⋅(2𝑒^{𝑡})+(−2)⋅(𝑒^{𝑡}) \\ (−1)⋅(2𝑒^{𝑡})+3⋅(𝑒^{𝑡})\end{matrix}] \\ [\begin{matrix}2𝑒^{𝑡} \\ 𝑒^{𝑡}\end{matrix}] & =[\begin{matrix}4𝑒^{𝑡}−2𝑒^{𝑡} \\ −2𝑒^{𝑡}+3𝑒^{𝑡}\end{matrix}] \\ [\begin{matrix}2𝑒^{𝑡} \\ 𝑒^{𝑡}\end{matrix}] & =[\begin{matrix}2𝑒^{𝑡} \\ 𝑒^{𝑡}\end{matrix}]\,✓\end{aligned}
 
 
 $$
@@ -353,7 +353,7 @@ For $\mathbf{x}_1(t),$ we have
 $$
 
 
-\begin{aligned}[\begin{aligned}(3𝑒^{5𝑡})^{′} \\ (5𝑒^{−3𝑡})^{′}\end{aligned}] & =[\begin{aligned}5 & 0 \\ 0 & −3\end{aligned}][\begin{aligned}3𝑒^{5𝑡} \\ 5𝑒^{−3𝑡}\end{aligned}] \\ [\begin{aligned}15𝑒^{5𝑡} \\ −15𝑒^{−3𝑡}\end{aligned}] & =[\begin{aligned}5 & 0 \\ 0 & −3\end{aligned}][\begin{aligned}3𝑒^{5𝑡} \\ 5𝑒^{−3𝑡}\end{aligned}] \\ [\begin{aligned}15𝑒^{5𝑡} \\ −15𝑒^{−3𝑡}\end{aligned}] & =[\begin{aligned}15𝑒^{5𝑡} \\ −15𝑒^{−3𝑡}\end{aligned}].\,✓\end{aligned}
+\begin{aligned}[\begin{matrix}(3𝑒^{5𝑡})^{′} \\ (5𝑒^{−3𝑡})^{′}\end{matrix}] & =[\begin{matrix}5 & 0 \\ 0 & −3\end{matrix}][\begin{matrix}3𝑒^{5𝑡} \\ 5𝑒^{−3𝑡}\end{matrix}] \\ [\begin{matrix}15𝑒^{5𝑡} \\ −15𝑒^{−3𝑡}\end{matrix}] & =[\begin{matrix}5 & 0 \\ 0 & −3\end{matrix}][\begin{matrix}3𝑒^{5𝑡} \\ 5𝑒^{−3𝑡}\end{matrix}] \\ [\begin{matrix}15𝑒^{5𝑡} \\ −15𝑒^{−3𝑡}\end{matrix}] & =[\begin{matrix}15𝑒^{5𝑡} \\ −15𝑒^{−3𝑡}\end{matrix}].\,✓\end{aligned}
 
 
 $$
@@ -363,7 +363,7 @@ Now, for $\mathbf{x}_2(t),$ we get
 $$
 
 
-\begin{aligned}[\begin{aligned}(𝑡+5)^{′} \\ (𝑡^{2}−3)^{′}\end{aligned}] & =[\begin{aligned}5 & 0 \\ 0 & −3\end{aligned}][\begin{aligned}𝑡+5 \\ 𝑡^{2}−3\end{aligned}] \\ [\begin{aligned}1 \\ 2𝑡\end{aligned}] & =[\begin{aligned}5 & 0 \\ 0 & −3\end{aligned}][\begin{aligned}𝑡+5 \\ 𝑡^{2}−3\end{aligned}] \\ [\begin{aligned}1 \\ 2𝑡\end{aligned}] & ≠[\begin{aligned}5𝑡+25 \\ −3𝑡^{2}+9\end{aligned}].\,×\end{aligned}
+\begin{aligned}[\begin{matrix}(𝑡+5)^{′} \\ (𝑡^{2}−3)^{′}\end{matrix}] & =[\begin{matrix}5 & 0 \\ 0 & −3\end{matrix}][\begin{matrix}𝑡+5 \\ 𝑡^{2}−3\end{matrix}] \\ [\begin{matrix}1 \\ 2𝑡\end{matrix}] & =[\begin{matrix}5 & 0 \\ 0 & −3\end{matrix}][\begin{matrix}𝑡+5 \\ 𝑡^{2}−3\end{matrix}] \\ [\begin{matrix}1 \\ 2𝑡\end{matrix}] & ≠[\begin{matrix}5𝑡+25 \\ −3𝑡^{2}+9\end{matrix}].\,×\end{aligned}
 
 
 $$
@@ -373,7 +373,7 @@ Finally, for $\mathbf{x}_3(t),$ we obtain
 $$
 
 
-\begin{aligned}[\begin{aligned}(5𝑒^{𝑡})^{′} \\ (−3𝑒^{𝑡})^{′}\end{aligned}] & =[\begin{aligned}5 & 0 \\ 0 & −3\end{aligned}][\begin{aligned}5𝑒^{𝑡} \\ −3𝑒^{𝑡}\end{aligned}] \\ [\begin{aligned}5𝑒^{𝑡} \\ −3𝑒^{𝑡}\end{aligned}] & =[\begin{aligned}5 & 0 \\ 0 & −3\end{aligned}][\begin{aligned}5𝑒^{𝑡} \\ −3𝑒^{𝑡}\end{aligned}] \\ [\begin{aligned}5𝑒^{𝑡} \\ −3𝑒^{𝑡}\end{aligned}] & =[\begin{aligned}25𝑒^{𝑡} \\ 9𝑒^{𝑡}\end{aligned}].\,×\end{aligned}
+\begin{aligned}[\begin{matrix}(5𝑒^{𝑡})^{′} \\ (−3𝑒^{𝑡})^{′}\end{matrix}] & =[\begin{matrix}5 & 0 \\ 0 & −3\end{matrix}][\begin{matrix}5𝑒^{𝑡} \\ −3𝑒^{𝑡}\end{matrix}] \\ [\begin{matrix}5𝑒^{𝑡} \\ −3𝑒^{𝑡}\end{matrix}] & =[\begin{matrix}5 & 0 \\ 0 & −3\end{matrix}][\begin{matrix}5𝑒^{𝑡} \\ −3𝑒^{𝑡}\end{matrix}] \\ [\begin{matrix}5𝑒^{𝑡} \\ −3𝑒^{𝑡}\end{matrix}] & =[\begin{matrix}25𝑒^{𝑡} \\ 9𝑒^{𝑡}\end{matrix}].\,×\end{aligned}
 
 
 $$

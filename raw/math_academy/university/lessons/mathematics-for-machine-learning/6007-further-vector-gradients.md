@@ -61,7 +61,7 @@ First, we compute the product $\mathbf{A} \mathbf{x}$, which gives us an $n\time
 $$
 
 
-\begin{aligned}𝐀𝐱 & =\begin{aligned}𝑎_{11} & 𝑎_{12} & ⋯ & 𝑎_{1𝑛} \\ 𝑎_{21} & 𝑎_{22} & ⋯ & 𝑎_{2𝑛} \\ ⋮ & ⋮ & ⋱ & ⋮ \\ 𝑎_{𝑛1} & 𝑎_{𝑛2} & ⋯ & 𝑎_{𝑛𝑛}\end{aligned}⋅\begin{aligned}𝑥_{1} \\ 𝑥_{2} \\ ⋮ \\ 𝑥_{𝑛}\end{aligned} \\ & =\begin{aligned}𝑎_{11}𝑥_{1}+𝑎_{12}𝑥_{2}+⋯+𝑎_{1𝑛}𝑥_{𝑛} \\ 𝑎_{21}𝑥_{1}+𝑎_{22}𝑥_{2}+⋯+𝑎_{2𝑛}𝑥_{𝑛} \\ ⋮ \\ 𝑎_{𝑛1}𝑥_{1}+𝑎_{𝑛2}𝑥_{2}+⋯+𝑎_{𝑛𝑛}𝑥_{𝑛}\end{aligned} \\ & =\begin{aligned}\underset{\underset{𝑗=1}{∑}}{\overset{}{𝑛}}𝑎_{1𝑗}𝑥_{𝑗} \\ \underset{\underset{𝑗=1}{∑}}{\overset{}{𝑛}}𝑎_{2𝑗}𝑥_{𝑗} \\ ⋮ \\ \underset{\underset{𝑗=1}{∑}}{\overset{}{𝑛}}𝑎_{𝑛𝑗}𝑥_{𝑗}\end{aligned}.\end{aligned}
+\begin{aligned}𝐀𝐱 & =\begin{matrix}𝑎_{11} & 𝑎_{12} & ⋯ & 𝑎_{1𝑛} \\ 𝑎_{21} & 𝑎_{22} & ⋯ & 𝑎_{2𝑛} \\ ⋮ & ⋮ & ⋱ & ⋮ \\ 𝑎_{𝑛1} & 𝑎_{𝑛2} & ⋯ & 𝑎_{𝑛𝑛}\end{matrix}⋅\begin{matrix}𝑥_{1} \\ 𝑥_{2} \\ ⋮ \\ 𝑥_{𝑛}\end{matrix} \\ & =\begin{matrix}𝑎_{11}𝑥_{1}+𝑎_{12}𝑥_{2}+⋯+𝑎_{1𝑛}𝑥_{𝑛} \\ 𝑎_{21}𝑥_{1}+𝑎_{22}𝑥_{2}+⋯+𝑎_{2𝑛}𝑥_{𝑛} \\ ⋮ \\ 𝑎_{𝑛1}𝑥_{1}+𝑎_{𝑛2}𝑥_{2}+⋯+𝑎_{𝑛𝑛}𝑥_{𝑛}\end{matrix} \\ & =\begin{matrix}\underset{\underset{𝑗=1}{∑}}{\overset{}{𝑛}}𝑎_{1𝑗}𝑥_{𝑗} \\ \underset{\underset{𝑗=1}{∑}}{\overset{}{𝑛}}𝑎_{2𝑗}𝑥_{𝑗} \\ ⋮ \\ \underset{\underset{𝑗=1}{∑}}{\overset{}{𝑛}}𝑎_{𝑛𝑗}𝑥_{𝑗}\end{matrix}.\end{aligned}
 
 
 $$
@@ -147,7 +147,7 @@ We can now compute our derivative term by term in a structured way. Differentiat
 $$
 
 
-\begin{aligned}\frac{𝜕𝑓}{𝜕𝑥_{𝑘}} & =\frac{𝜕}{𝜕𝑥_{𝑘}}[\underset{𝑖≠𝑘}{∑}\underset{𝑗≠𝑘}{∑}𝐴_{𝑖𝑗}𝑥_{𝑖}𝑥_{𝑗}+\underset{𝑖≠𝑘}{∑}𝐴_{𝑖𝑘}𝑥_{𝑖}𝑥_{𝑘}+\underset{𝑗≠𝑘}{∑}𝐴_{𝑘𝑗}𝑥_{𝑘}𝑥_{𝑗}+𝐴_{𝑘𝑘}𝑥_{2𝑘}^{}] \\ & =\underset{𝑖≠𝑘}{∑}𝐴_{𝑖𝑘}𝑥_{𝑖}+\underset{𝑗≠𝑘}{∑}𝐴_{𝑘𝑗}𝑥_{𝑗}+2𝐴_{𝑘𝑘}𝑥_{𝑘} \\ & =(\underset{𝑖≠𝑘}{∑}𝐴_{𝑖𝑘}𝑥_{𝑖})+𝐴_{𝑘𝑘}𝑥_{𝑘}+(\underset{𝑗≠𝑘}{∑}𝐴_{𝑘𝑗}𝑥_{𝑗})+𝐴_{𝑘𝑘}𝑥_{𝑘} \\ & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝐴_{𝑖𝑘}𝑥_{𝑖}+\underset{\underset{𝑗=1}{∑}}{\overset{}{𝑛}}𝐴_{𝑘𝑗}𝑥_{𝑗} \\ & =(𝐴^{𝑇}𝐱)_{𝑘}+(𝐴𝐱)_{𝑘}.\end{aligned}
+\begin{aligned}\frac{𝜕𝑓}{𝜕𝑥_{𝑘}} & =\frac{𝜕}{𝜕𝑥_{𝑘}}[\underset{𝑖≠𝑘}{∑}\underset{𝑗≠𝑘}{∑}𝐴_{𝑖𝑗}𝑥_{𝑖}𝑥_{𝑗}+\underset{𝑖≠𝑘}{∑}𝐴_{𝑖𝑘}𝑥_{𝑖}𝑥_{𝑘}+\underset{𝑗≠𝑘}{∑}𝐴_{𝑘𝑗}𝑥_{𝑘}𝑥_{𝑗}+𝐴_{𝑘𝑘}𝑥_{2𝑘}] \\ & =\underset{𝑖≠𝑘}{∑}𝐴_{𝑖𝑘}𝑥_{𝑖}+\underset{𝑗≠𝑘}{∑}𝐴_{𝑘𝑗}𝑥_{𝑗}+2𝐴_{𝑘𝑘}𝑥_{𝑘} \\ & =(\underset{𝑖≠𝑘}{∑}𝐴_{𝑖𝑘}𝑥_{𝑖})+𝐴_{𝑘𝑘}𝑥_{𝑘}+(\underset{𝑗≠𝑘}{∑}𝐴_{𝑘𝑗}𝑥_{𝑗})+𝐴_{𝑘𝑘}𝑥_{𝑘} \\ & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝐴_{𝑖𝑘}𝑥_{𝑖}+\underset{\underset{𝑗=1}{∑}}{\overset{}{𝑛}}𝐴_{𝑘𝑗}𝑥_{𝑗} \\ & =(𝐴^{𝑇}𝐱)_{𝑘}+(𝐴𝐱)_{𝑘}.\end{aligned}
 
 
 $$
@@ -271,7 +271,7 @@ which gives
 $$
 
 
-\begin{aligned}𝐴^{𝑇}+𝐴 & =[\begin{aligned}1 & 1 \\ −1 & 1\end{aligned}]+[\begin{aligned}1 & −1 \\ 1 & 1\end{aligned}] \\ & =[\begin{aligned}2 & 0 \\ 0 & 2\end{aligned}].\end{aligned}
+\begin{aligned}𝐴^{𝑇}+𝐴 & =[\begin{matrix}1 & 1 \\ −1 & 1\end{matrix}]+[\begin{matrix}1 & −1 \\ 1 & 1\end{matrix}] \\ & =[\begin{matrix}2 & 0 \\ 0 & 2\end{matrix}].\end{aligned}
 
 
 $$
@@ -281,7 +281,7 @@ Now, compute the gradient at $[\begin{aligned}−1 \\ −1\end{aligned}]$
 $$
 
 
-\begin{aligned}∇_{𝐱}𝑓(𝐱) & =(𝐴^{𝑇}+𝐴)𝐱 \\ & =[\begin{aligned}2 & 0 \\ 0 & 2\end{aligned}][\begin{aligned}−1 \\ −1\end{aligned}] \\ & =[\begin{aligned}−2+0 \\ 0−2\end{aligned}] \\ & =[\begin{aligned}−2 \\ −2\end{aligned}]\end{aligned}
+\begin{aligned}∇_{𝐱}𝑓(𝐱) & =(𝐴^{𝑇}+𝐴)𝐱 \\ & =[\begin{matrix}2 & 0 \\ 0 & 2\end{matrix}][\begin{matrix}−1 \\ −1\end{matrix}] \\ & =[\begin{matrix}−2+0 \\ 0−2\end{matrix}] \\ & =[\begin{matrix}−2 \\ −2\end{matrix}]\end{aligned}
 
 
 $$
@@ -303,7 +303,7 @@ To do this, we need to apply the chain rule. The chain rule for total derivative
 $$
 
 
-\underbrace{\frac{\textrm{d} f}{\textrm{d} \mathbf{x}}}_{1 \times n} = \underbrace{\frac{\textrm{d} f}{\textrm{d} \mathbf{y}}}_{1 \times q} \cdot \underbrace{\frac{\textrm{d} \mathbf{y}}{\textrm{d} \mathbf{x}}}_{q \times n}.
+\underbrace{\frac{\text{d} f}{\text{d} \mathbf{x}}}_{1 \times n} = \underbrace{\frac{\text{d} f}{\text{d} \mathbf{y}}}_{1 \times q} \cdot \underbrace{\frac{\text{d} \mathbf{y}}{\text{d} \mathbf{x}}}_{q \times n}.
 
 
 $$
@@ -313,7 +313,7 @@ Now, recall that the gradient of a scalar function is the transpose of the total
 $$
 
 
-\underbrace{\nabla_{\mathbf{x}} f}_{n \times 1} = \left( \frac{\textrm{d} f}{\textrm{d} \mathbf{x}} \right)^T
+\underbrace{\nabla_{\mathbf{x}} f}_{n \times 1} = \left( \frac{\text{d} f}{\text{d} \mathbf{x}} \right)^T
 
 
 $$
@@ -333,7 +333,7 @@ So, the gradient chain rule is
 $$
 
 
-\nabla_{\mathbf{x}} f = \left( \frac{\textrm{d} \mathbf{y}}{\textrm{d} \mathbf{x}} \right)^T \cdot \nabla_{\mathbf{y}} f.
+\nabla_{\mathbf{x}} f = \left( \frac{\text{d} \mathbf{y}}{\text{d} \mathbf{x}} \right)^T \cdot \nabla_{\mathbf{y}} f.
 
 
 $$
@@ -365,7 +365,7 @@ Let $\mathbf{y} = \mathbf{A}\mathbf{x} - \mathbf{b}.$ Then, $L(\mathbf{x}) = \df
 $$
 
 
-\nabla_{\mathbf{x}} L = \left(\dfrac{\textrm{d}L}{\textrm{d}\mathbf{x}}\right)^T = \left(\dfrac{\textrm{d}\mathbf{y}}{\textrm{d}\mathbf{x}}\right)^T \cdot \left(\dfrac{\textrm{d}L}{\textrm{d}\mathbf{y}}\right)^T.
+\nabla_{\mathbf{x}} L = \left(\dfrac{\text{d}L}{\text{d}\mathbf{x}}\right)^T = \left(\dfrac{\text{d}\mathbf{y}}{\text{d}\mathbf{x}}\right)^T \cdot \left(\dfrac{\text{d}L}{\text{d}\mathbf{y}}\right)^T.
 
 
 $$
@@ -375,7 +375,7 @@ Now, since
 $$
 
 
-\dfrac{\textrm{d}}{\textrm{d}\mathbf{y}}\left(\dfrac{1}{2}\mathbf{y}^T\mathbf{y}\right) = \mathbf{y}^T \qquad\text{and}\qquad \dfrac{\textrm{d}\mathbf{y}}{\textrm{d}\mathbf{x}} = \dfrac{\textrm{d}}{\textrm{d}\mathbf{x}} (\mathbf{A}\mathbf{x} - \mathbf{b}) = \mathbf{A},
+\dfrac{\text{d}}{\text{d}\mathbf{y}}\left(\dfrac{1}{2}\mathbf{y}^T\mathbf{y}\right) = \mathbf{y}^T \qquad\text{and}\qquad \dfrac{\text{d}\mathbf{y}}{\text{d}\mathbf{x}} = \dfrac{\text{d}}{\text{d}\mathbf{x}} (\mathbf{A}\mathbf{x} - \mathbf{b}) = \mathbf{A},
 
 
 $$
@@ -395,7 +395,7 @@ Evaluating at $\begin{aligned}2 \\ 4 \\ 1\end{aligned}$, we get
 $$
 
 
-\begin{aligned}∇_{𝐱}𝐿 & =𝐀^{𝑇}𝐲 \\ & =𝐀^{𝑇}(𝐀𝐱−𝐛) \\ & =[\begin{aligned}3 & 1 & 2 \\ 0 & 5 & 4\end{aligned}]^{𝑇}[\begin{aligned}3 & 1 & 2 \\ 0 & 5 & 4\end{aligned}]⋅\begin{aligned}2 \\ 4 \\ 1\end{aligned}−[\begin{aligned}6 \\ 9\end{aligned}] \\ & =\begin{aligned}3 & 0 \\ 1 & 5 \\ 2 & 4\end{aligned}([\begin{aligned}12 \\ 24\end{aligned}]−[\begin{aligned}6 \\ 9\end{aligned}]) \\ & =\begin{aligned}3 & 0 \\ 1 & 5 \\ 2 & 4\end{aligned}[\begin{aligned}6 \\ 15\end{aligned}] \\ & =\begin{aligned}18 \\ 81 \\ 72\end{aligned}.\end{aligned}
+\begin{aligned}∇_{𝐱}𝐿 & =𝐀^{𝑇}𝐲 \\ & =𝐀^{𝑇}(𝐀𝐱−𝐛) \\ & =[\begin{matrix}3 & 1 & 2 \\ 0 & 5 & 4\end{matrix}]^{𝑇}[\begin{matrix}3 & 1 & 2 \\ 0 & 5 & 4\end{matrix}]⋅\begin{matrix}2 \\ 4 \\ 1\end{matrix}−[\begin{matrix}6 \\ 9\end{matrix}] \\ & =\begin{matrix}3 & 0 \\ 1 & 5 \\ 2 & 4\end{matrix}([\begin{matrix}12 \\ 24\end{matrix}]−[\begin{matrix}6 \\ 9\end{matrix}]) \\ & =\begin{matrix}3 & 0 \\ 1 & 5 \\ 2 & 4\end{matrix}[\begin{matrix}6 \\ 15\end{matrix}] \\ & =\begin{matrix}18 \\ 81 \\ 72\end{matrix}.\end{aligned}
 
 
 $$

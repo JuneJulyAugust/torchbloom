@@ -59,7 +59,7 @@ In our case, the legs have length $s=2 \sqrt{7},$ so the area is given by
 $$
 
 
-\begin{aligned}A & =\frac{1}{2}⋅(2\sqrt{√7})^{2} \\ & =\frac{1}{2}⋅4⋅7 \\ & =14.\end{aligned}
+\begin{aligned}A & =\frac{1}{2}⋅(2\sqrt{7})^{2} \\ & =\frac{1}{2}⋅4⋅7 \\ & =14.\end{aligned}
 
 
 $$
@@ -87,7 +87,7 @@ We can solve for $s$ in terms of $\mathcal A$ as follows:
 $$
 
 
-\begin{aligned}\frac{1}{2}𝑠^{2} & =A \\ 𝑠^{2} & =2A \\ 𝑠 & =\sqrt{√2A}\end{aligned}
+\begin{aligned}\frac{1}{2}𝑠^{2} & =A \\ 𝑠^{2} & =2A \\ 𝑠 & =\sqrt{2A}\end{aligned}
 
 
 $$
@@ -97,7 +97,7 @@ In our case, the area is $\mathcal A=16,$ so the length of a leg is given by
 $$
 
 
-\begin{aligned}𝑠 & =\sqrt{√2⋅16} \\ & =\sqrt{√2}⋅\sqrt{√16} \\ & =4\sqrt{√2}.\end{aligned}
+\begin{aligned}𝑠 & =\sqrt{2⋅16} \\ & =\sqrt{2}⋅\sqrt{16} \\ & =4\sqrt{2}.\end{aligned}
 
 
 $$
@@ -117,7 +117,7 @@ So, the area of the $45^\circ$-$45^\circ$-$90^\circ$ triangle shown above is giv
 $$
 
 
-\begin{aligned}𝐴 & =\frac{1}{2}(\frac{𝑑}{\sqrt{√2}})^{2} \\ & =\frac{1}{2}⋅\frac{𝑑^{2}}{2} \\ & =\frac{1}{4}𝑑^{2}.\end{aligned}
+\begin{aligned}𝐴 & =\frac{1}{2}(\frac{𝑑}{\sqrt{2}})^{2} \\ & =\frac{1}{2}⋅\frac{𝑑^{2}}{2} \\ & =\frac{1}{4}𝑑^{2}.\end{aligned}
 
 
 $$
@@ -155,7 +155,7 @@ In our case, the hypotenuse has length $d=\sqrt{3},$ so the area is given by
 $$
 
 
-\begin{aligned}A & =\frac{1}{4}⋅(\sqrt{√3})^{2} \\ & =\frac{1}{4}⋅3 \\ & =\frac{3}{4}.\end{aligned}
+\begin{aligned}A & =\frac{1}{4}⋅(\sqrt{3})^{2} \\ & =\frac{1}{4}⋅3 \\ & =\frac{3}{4}.\end{aligned}
 
 
 $$
@@ -183,7 +183,7 @@ We can solve for $d$ in terms of $\mathcal A$ as follows:
 $$
 
 
-\begin{aligned}\frac{1}{4}𝑑^{2} & =A \\ 𝑑^{2} & =4A \\ 𝑑 & =\sqrt{√4A} \\ 𝑑 & =2\sqrt{√A}\end{aligned}
+\begin{aligned}\frac{1}{4}𝑑^{2} & =A \\ 𝑑^{2} & =4A \\ 𝑑 & =\sqrt{4A} \\ 𝑑 & =2\sqrt{A}\end{aligned}
 
 
 $$
@@ -193,7 +193,7 @@ In our case, the area is $\mathcal A=16,$ so the length of the hypotenuse is giv
 $$
 
 
-\begin{aligned}𝑑 & =2\sqrt{√16} \\ & =2⋅4 \\ & =8.\end{aligned}
+\begin{aligned}𝑑 & =2\sqrt{16} \\ & =2⋅4 \\ & =8.\end{aligned}
 
 
 $$

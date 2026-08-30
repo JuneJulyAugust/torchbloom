@@ -103,7 +103,7 @@ $$
 
 
 
-P = \dfrac{\textrm{area of the smaller region}}{\textrm{area of the sample space}}.
+P = \dfrac{\text{area of the smaller region}}{\text{area of the sample space}}.
 
 
 
@@ -125,7 +125,7 @@ $$
 
 
 
-\mathcal{A}_{\textrm{total}}=\pi r^2,
+\mathcal{A}_{\text{total}}=\pi r^2,
 
 
 
@@ -139,7 +139,7 @@ $$
 
 
 
-\mathcal{A}_{\textrm{sector}}=\dfrac{40^{\circ}}{360^{\circ}}\,\pi r^2=\dfrac{1}{9}\,\pi r^2.
+\mathcal{A}_{\text{sector}}=\dfrac{40^{\circ}}{360^{\circ}}\,\pi r^2=\dfrac{1}{9}\,\pi r^2.
 
 
 
@@ -161,7 +161,7 @@ $$
 
 #### Question
 
-A rectangle with dimensions $5\,\textrm{in}\times 20\,\textrm{in}$ contains a triangle that has a base of length $20\,\textrm{in}$ and a height of $5\,\textrm{in},$ as shown below. A dart is aimed at the rectangle. Assuming that the dart lands on a random position inside the rectangle, what is the probability of the dart hitting the triangle?
+A rectangle with dimensions $5\,\text{in}\times 20\,\text{in}$ contains a triangle that has a base of length $20\,\text{in}$ and a height of $5\,\text{in},$ as shown below. A dart is aimed at the rectangle. Assuming that the dart lands on a random position inside the rectangle, what is the probability of the dart hitting the triangle?
 
 ![Instructional graphic](../../../../lesson-assets/precalculus/topic-710/8cf38bba9390210f.png)
 
@@ -173,7 +173,7 @@ $$
 
 
 
-\mathcal{A}_{\textrm{rectangle}} = 5 \cdot 20 = 100\,\textrm{in}^2.
+\mathcal{A}_{\text{rectangle}} = 5 \cdot 20 = 100\,\text{in}^2.
 
 
 
@@ -185,7 +185,7 @@ $$
 
 
 
-\mathcal{A}_{\textrm{triangle}} = \dfrac{1}{2} \cdot 20 \cdot 5 = 50\,\textrm{in}^2.
+\mathcal{A}_{\text{triangle}} = \dfrac{1}{2} \cdot 20 \cdot 5 = 50\,\text{in}^2.
 
 
 
@@ -219,7 +219,7 @@ $$
 
 
 
-\mathcal{A}_{\textrm{square}} = 4^2 = 16.
+\mathcal{A}_{\text{square}} = 4^2 = 16.
 
 
 
@@ -231,7 +231,7 @@ $$
 
 
 
-\mathcal{A}_{\textrm{circle}} = \pi \cdot 2^2 = 4\pi.
+\mathcal{A}_{\text{circle}} = \pi \cdot 2^2 = 4\pi.
 
 
 

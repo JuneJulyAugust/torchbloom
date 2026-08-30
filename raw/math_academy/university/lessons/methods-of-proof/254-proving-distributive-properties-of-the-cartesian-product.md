@@ -169,41 +169,41 @@ Given that $A,$ $B,$ and $C$ are sets, $(A \cup B) \times C \subseteq (A \times 
 
 A proof of this statement is given below.
 
-$\textrm{L1}{:}\:$ Let $(x, y) \in (A \cup B) \times C.$
+$\text{L1}{:}\:$ Let $(x, y) \in (A \cup B) \times C.$
 
-$\textrm{L2}{:}\:$ Then, $x \in A \cup B$ and $y \in C.$
+$\text{L2}{:}\:$ Then, $x \in A \cup B$ and $y \in C.$
 
-$\textrm{L3}{:}\:$ In turn, $x \in A$ or $x \in B.$
+$\text{L3}{:}\:$ In turn, $x \in A$ or $x \in B.$
 
-$\textrm{L4}{:}\:$ **** Let $x \in A.$
+$\text{L4}{:}\:$ **** Let $x \in A.$
 
-$\textrm{L5}{:}\:$ Then, $(x,y) \in A \times C.$
+$\text{L5}{:}\:$ Then, $(x,y) \in A \times C.$
 
-$\textrm{L6}{:}\:$ **** Let $x \in B.$
+$\text{L6}{:}\:$ **** Let $x \in B.$
 
-$\textrm{L7}{:}\:$ Then, $(x,y) \in B \times C.$
+$\text{L7}{:}\:$ Then, $(x,y) \in B \times C.$
 
-$\textrm{L8}{:}\:$ Therefore, $(x,y) \in (A \times C) \cup (B \times C).$
+$\text{L8}{:}\:$ Therefore, $(x,y) \in (A \times C) \cup (B \times C).$
 
-$\textrm{L9}{:}\:$ Thus, $(A \cup B) \times C \subseteq (A \times C) \cup (B \times C).$
+$\text{L9}{:}\:$ Thus, $(A \cup B) \times C \subseteq (A \times C) \cup (B \times C).$
 
 Complete the following reasoning.
 
-- Line $\textrm{L2}$ follows from line $\textrm{L1}$ by the definition of $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.$
+- Line $\text{L2}$ follows from line $\text{L1}$ by the definition of $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.$
 
-- Line $\textrm{L3}$ follows from $00000000$ in line $\textrm{L2}$ by the definition of $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.$
+- Line $\text{L3}$ follows from $00000000$ in line $\text{L2}$ by the definition of $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.$
 
-- Line $\textrm{L9}$ follows from line $\textrm{L1}$ and $\textrm{L8}$ by the definition of $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.$
+- Line $\text{L9}$ follows from line $\text{L1}$ and $\text{L8}$ by the definition of $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.$
 
 #### Explanation
 
 Let's examine each statement in turn.
 
-- We first consider $\textrm{L1}$ and $\textrm{L2}.$ We have the following equivalence: Therefore, $\textrm{L2}$ follows from $\textrm{L1}$ by the definition of $\boxed{\textrm{the Cartesian product of sets}}.$
+- We first consider $\text{L1}$ and $\text{L2}.$ We have the following equivalence: Therefore, $\text{L2}$ follows from $\text{L1}$ by the definition of $\boxed{\text{the Cartesian product of sets}}.$
 
-- Next consider $\textrm{L2}$ and $\textrm{L3}.$ We have the following equivalence: Therefore, $\textrm{L3}$ follows from $\boxed{x \in A \cup B}$ in $\textrm{L2}$ by the definition of $\boxed{\textrm{the union of sets}}.$
+- Next consider $\text{L2}$ and $\text{L3}.$ We have the following equivalence: Therefore, $\text{L3}$ follows from $\boxed{x \in A \cup B}$ in $\text{L2}$ by the definition of $\boxed{\text{the union of sets}}.$
 
-- Finally, we consider $\textrm{L1}, \textrm{L8},$ and $\textrm{L9}.$ Since $(x, y) \in (A \cup B) \times C$ implies $(x,y) \in (A \times C) \cup (B \times C),$ we have that $(A \cup B) \times C \subseteq (A \times C) \cup (B \times C).$ Therefore, line $\textrm{L9}$ follows from line $\textrm{L1}$ and $\textrm{L8}$ by the definition of $\boxed{\textrm{subsets}}.$
+- Finally, we consider $\text{L1}, \text{L8},$ and $\text{L9}.$ Since $(x, y) \in (A \cup B) \times C$ implies $(x,y) \in (A \times C) \cup (B \times C),$ we have that $(A \cup B) \times C \subseteq (A \times C) \cup (B \times C).$ Therefore, line $\text{L9}$ follows from line $\text{L1}$ and $\text{L8}$ by the definition of $\boxed{\text{subsets}}.$
 
 ### Example: Proving the Distributive Properties of the Cartesian Product
 

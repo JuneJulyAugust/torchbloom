@@ -78,7 +78,7 @@ Therefore, using sigma notation, the midpoint Riemann sum can be expressed as
 $$
 
 
-\begin{aligned}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑚}}𝑓(𝑥_{∗𝑖}^{})Δ𝑥 & =\underset{\underset{𝑖=1}{∑}}{\overset{}{4}}𝑓(𝑥_{∗𝑖}^{})Δ𝑥 \\ & =\underset{\underset{𝑖=1}{∑}}{\overset{}{4}}𝑓(0+(𝑖−\frac{1}{2})⋅1)⋅1 \\ & =\underset{\underset{𝑖=1}{∑}}{\overset{}{4}}𝑓(𝑖−\frac{1}{2}) \\ & =\underset{\underset{𝑖=1}{∑}}{\overset{}{4}}\sqrt{√𝑖−\frac{1}{2}}\,.\end{aligned}
+\begin{aligned}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑚}}𝑓(𝑥_{∗𝑖})Δ𝑥 & =\underset{\underset{𝑖=1}{∑}}{\overset{}{4}}𝑓(𝑥_{∗𝑖})Δ𝑥 \\ & =\underset{\underset{𝑖=1}{∑}}{\overset{}{4}}𝑓(0+(𝑖−\frac{1}{2})⋅1)⋅1 \\ & =\underset{\underset{𝑖=1}{∑}}{\overset{}{4}}𝑓(𝑖−\frac{1}{2}) \\ & =\underset{\underset{𝑖=1}{∑}}{\overset{}{4}}\sqrt{𝑖−\frac{1}{2}}\,.\end{aligned}
 
 
 $$
@@ -118,7 +118,7 @@ Therefore, using sigma notation, we can express the midpoint Riemann sum as
 $$
 
 
-\begin{aligned}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑚}}𝑓(𝑥_{∗𝑖}^{})Δ𝑥 & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑚}}𝑓(0+(𝑖−\frac{1}{2})⋅\frac{2}{𝑚})⋅\frac{2}{𝑚} \\ & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑚}}\frac{2}{𝑚}⋅𝑓(\frac{2𝑖−1}{𝑚}) \\ & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑚}}\frac{2}{𝑚}⋅(\frac{2𝑖−1}{𝑚}+1) \\ & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑚}}\frac{2}{𝑚}⋅(\frac{2𝑖−1+𝑚}{𝑚}) \\ & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑚}}\frac{4𝑖−2+2𝑚}{𝑚^{2}}.\end{aligned}
+\begin{aligned}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑚}}𝑓(𝑥_{∗𝑖})Δ𝑥 & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑚}}𝑓(0+(𝑖−\frac{1}{2})⋅\frac{2}{𝑚})⋅\frac{2}{𝑚} \\ & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑚}}\frac{2}{𝑚}⋅𝑓(\frac{2𝑖−1}{𝑚}) \\ & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑚}}\frac{2}{𝑚}⋅(\frac{2𝑖−1}{𝑚}+1) \\ & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑚}}\frac{2}{𝑚}⋅(\frac{2𝑖−1+𝑚}{𝑚}) \\ & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑚}}\frac{4𝑖−2+2𝑚}{𝑚^{2}}.\end{aligned}
 
 
 $$

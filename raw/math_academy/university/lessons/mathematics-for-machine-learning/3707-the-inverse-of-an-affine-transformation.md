@@ -138,7 +138,7 @@ We start by calculating the inverse of $A{:}$
 $$
 
 
-\begin{aligned}𝐴^{−1} & =\frac{1}{1}[\begin{aligned}−2 & 3 \\ −1 & 1\end{aligned}] \\ & =[\begin{aligned}−2 & 3 \\ −1 & 1\end{aligned}]\end{aligned}
+\begin{aligned}𝐴^{−1} & =\frac{1}{1}[\begin{matrix}−2 & 3 \\ −1 & 1\end{matrix}] \\ & =[\begin{matrix}−2 & 3 \\ −1 & 1\end{matrix}]\end{aligned}
 
 
 $$
@@ -148,7 +148,7 @@ Therefore, the matrix form of the inverse affine transformation $\mathbf{T}^{-1}
 $$
 
 
-\begin{aligned}\underset{𝐮}{\underset{}{[\begin{aligned}𝑢 \\ 𝑣\end{aligned}]}} & =\underset{𝐴^{−1}}{\underset{}{[\begin{aligned}−2 & 3 \\ −1 & 1\end{aligned}]}}⋅(\underset{𝐱}{\underset{}{[\begin{aligned}𝑥 \\ 𝑦\end{aligned}]}}−\underset{𝐛}{\underset{}{[\begin{aligned}2 \\ 3\end{aligned}]}}) \\ & =[\begin{aligned}−2 & 3 \\ −1 & 1\end{aligned}][\begin{aligned}𝑥 \\ 𝑦\end{aligned}]−[\begin{aligned}−2 & 3 \\ −1 & 1\end{aligned}][\begin{aligned}2 \\ 3\end{aligned}] \\ & =[\begin{aligned}−2 & 3 \\ −1 & 1\end{aligned}][\begin{aligned}𝑥 \\ 𝑦\end{aligned}]−[\begin{aligned}5 \\ 1\end{aligned}] \\ & =[\begin{aligned}−2 & 3 \\ −1 & 1\end{aligned}][\begin{aligned}𝑥 \\ 𝑦\end{aligned}]+[\begin{aligned}−5 \\ −1\end{aligned}].\end{aligned}
+\begin{aligned}\underset{𝐮}{\underset{}{[\begin{matrix}𝑢 \\ 𝑣\end{matrix}]}} & =\underset{𝐴^{−1}}{\underset{}{[\begin{matrix}−2 & 3 \\ −1 & 1\end{matrix}]}}⋅(\underset{𝐱}{\underset{}{[\begin{matrix}𝑥 \\ 𝑦\end{matrix}]}}−\underset{𝐛}{\underset{}{[\begin{matrix}2 \\ 3\end{matrix}]}}) \\ & =[\begin{matrix}−2 & 3 \\ −1 & 1\end{matrix}][\begin{matrix}𝑥 \\ 𝑦\end{matrix}]−[\begin{matrix}−2 & 3 \\ −1 & 1\end{matrix}][\begin{matrix}2 \\ 3\end{matrix}] \\ & =[\begin{matrix}−2 & 3 \\ −1 & 1\end{matrix}][\begin{matrix}𝑥 \\ 𝑦\end{matrix}]−[\begin{matrix}5 \\ 1\end{matrix}] \\ & =[\begin{matrix}−2 & 3 \\ −1 & 1\end{matrix}][\begin{matrix}𝑥 \\ 𝑦\end{matrix}]+[\begin{matrix}−5 \\ −1\end{matrix}].\end{aligned}
 
 
 $$
@@ -216,7 +216,7 @@ Next, we calculate the inverse of $A{:}$
 $$
 
 
-\begin{aligned}𝐴^{−1} & =\frac{1}{(−4)⋅7−(−9)⋅3}[\begin{aligned}7 & 9 \\ −3 & −4\end{aligned}] \\ & =\frac{1}{−1}[\begin{aligned}7 & 9 \\ −3 & −4\end{aligned}] \\ & =[\begin{aligned}−7 & −9 \\ 3 & 4\end{aligned}]\end{aligned}
+\begin{aligned}𝐴^{−1} & =\frac{1}{(−4)⋅7−(−9)⋅3}[\begin{matrix}7 & 9 \\ −3 & −4\end{matrix}] \\ & =\frac{1}{−1}[\begin{matrix}7 & 9 \\ −3 & −4\end{matrix}] \\ & =[\begin{matrix}−7 & −9 \\ 3 & 4\end{matrix}]\end{aligned}
 
 
 $$
@@ -226,7 +226,7 @@ Therefore, the inverse transformation $\mathbf{T}^{-1}$ is
 $$
 
 
-\begin{aligned}\underset{𝐮}{\underset{}{[\begin{aligned}𝑢 \\ 𝑣\end{aligned}]}} & =\underset{𝐴^{−1}}{\underset{}{[\begin{aligned}−7 & −9 \\ 3 & 4\end{aligned}]}}⋅(\underset{𝐱}{\underset{}{[\begin{aligned}𝑥 \\ 𝑦\end{aligned}]}}−\underset{𝐛}{\underset{}{[\begin{aligned}5 \\ −3\end{aligned}]}}) \\ & =[\begin{aligned}−7 & −9 \\ 3 & 4\end{aligned}][\begin{aligned}𝑥 \\ 𝑦\end{aligned}]−[\begin{aligned}−7 & −9 \\ 3 & 4\end{aligned}][\begin{aligned}5 \\ −3\end{aligned}] \\ & =[\begin{aligned}−7 & −9 \\ 3 & 4\end{aligned}][\begin{aligned}𝑥 \\ 𝑦\end{aligned}]−[\begin{aligned}−8 \\ 3\end{aligned}] \\ & =[\begin{aligned}−7 & −9 \\ 3 & 4\end{aligned}][\begin{aligned}𝑥 \\ 𝑦\end{aligned}]+[\begin{aligned}8 \\ −3\end{aligned}].\end{aligned}
+\begin{aligned}\underset{𝐮}{\underset{}{[\begin{matrix}𝑢 \\ 𝑣\end{matrix}]}} & =\underset{𝐴^{−1}}{\underset{}{[\begin{matrix}−7 & −9 \\ 3 & 4\end{matrix}]}}⋅(\underset{𝐱}{\underset{}{[\begin{matrix}𝑥 \\ 𝑦\end{matrix}]}}−\underset{𝐛}{\underset{}{[\begin{matrix}5 \\ −3\end{matrix}]}}) \\ & =[\begin{matrix}−7 & −9 \\ 3 & 4\end{matrix}][\begin{matrix}𝑥 \\ 𝑦\end{matrix}]−[\begin{matrix}−7 & −9 \\ 3 & 4\end{matrix}][\begin{matrix}5 \\ −3\end{matrix}] \\ & =[\begin{matrix}−7 & −9 \\ 3 & 4\end{matrix}][\begin{matrix}𝑥 \\ 𝑦\end{matrix}]−[\begin{matrix}−8 \\ 3\end{matrix}] \\ & =[\begin{matrix}−7 & −9 \\ 3 & 4\end{matrix}][\begin{matrix}𝑥 \\ 𝑦\end{matrix}]+[\begin{matrix}8 \\ −3\end{matrix}].\end{aligned}
 
 
 $$
@@ -296,7 +296,7 @@ So, writing our transformation in matrix form, we have
 $$
 
 
-\begin{aligned}[\begin{aligned}𝑥 \\ 𝑦\end{aligned}] & =[\begin{aligned}𝑢−𝑣+2 \\ 4𝑢−5𝑣+9\end{aligned}] \\ & =[\begin{aligned}𝑢−𝑣 \\ 4𝑢−5𝑣\end{aligned}]+[\begin{aligned}2 \\ 9\end{aligned}] \\ & =\underset{𝐴}{\underset{}{[\begin{aligned}1 & −1 \\ 4 & −5\end{aligned}]}}⋅\underset{𝐮}{\underset{}{[\begin{aligned}𝑢 \\ 𝑣\end{aligned}]}}+\underset{𝐛}{\underset{}{[\begin{aligned}2 \\ 9\end{aligned}]}}.\end{aligned}
+\begin{aligned}[\begin{matrix}𝑥 \\ 𝑦\end{matrix}] & =[\begin{matrix}𝑢−𝑣+2 \\ 4𝑢−5𝑣+9\end{matrix}] \\ & =[\begin{matrix}𝑢−𝑣 \\ 4𝑢−5𝑣\end{matrix}]+[\begin{matrix}2 \\ 9\end{matrix}] \\ & =\underset{𝐴}{\underset{}{[\begin{matrix}1 & −1 \\ 4 & −5\end{matrix}]}}⋅\underset{𝐮}{\underset{}{[\begin{matrix}𝑢 \\ 𝑣\end{matrix}]}}+\underset{𝐛}{\underset{}{[\begin{matrix}2 \\ 9\end{matrix}]}}.\end{aligned}
 
 
 $$
@@ -306,7 +306,7 @@ Next, we calculate the inverse of $A{:}$
 $$
 
 
-\begin{aligned}𝐴^{−1} & =\frac{1}{1⋅(−5)−(−1)⋅4}[\begin{aligned}−5 & 1 \\ −4 & 1\end{aligned}] \\ & =\frac{1}{−1}[\begin{aligned}−5 & 1 \\ −4 & 1\end{aligned}] \\ & =[\begin{aligned}5 & −1 \\ 4 & −1\end{aligned}]\end{aligned}
+\begin{aligned}𝐴^{−1} & =\frac{1}{1⋅(−5)−(−1)⋅4}[\begin{matrix}−5 & 1 \\ −4 & 1\end{matrix}] \\ & =\frac{1}{−1}[\begin{matrix}−5 & 1 \\ −4 & 1\end{matrix}] \\ & =[\begin{matrix}5 & −1 \\ 4 & −1\end{matrix}]\end{aligned}
 
 
 $$
@@ -316,7 +316,7 @@ Therefore, the inverse transformation $\mathbf{T}^{-1}$ is
 $$
 
 
-\begin{aligned}\underset{𝐮}{\underset{}{[\begin{aligned}𝑢 \\ 𝑣\end{aligned}]}} & =\underset{𝐴^{−1}}{\underset{}{[\begin{aligned}5 & −1 \\ 4 & −1\end{aligned}]}}⋅(\underset{𝐱}{\underset{}{[\begin{aligned}𝑥 \\ 𝑦\end{aligned}]}}−\underset{𝐛}{\underset{}{[\begin{aligned}2 \\ 9\end{aligned}]}}) \\ & =[\begin{aligned}5 & −1 \\ 4 & −1\end{aligned}][\begin{aligned}𝑥−2 \\ 𝑦−9\end{aligned}] \\ & =[\begin{aligned}5⋅(𝑥−2)+(−1)⋅(𝑦−9) \\ 4⋅(𝑥−2)+(−1)⋅(𝑦−9)\end{aligned}] \\ & =[\begin{aligned}5𝑥−𝑦−1 \\ 4𝑥−𝑦+1\end{aligned}].\end{aligned}
+\begin{aligned}\underset{𝐮}{\underset{}{[\begin{matrix}𝑢 \\ 𝑣\end{matrix}]}} & =\underset{𝐴^{−1}}{\underset{}{[\begin{matrix}5 & −1 \\ 4 & −1\end{matrix}]}}⋅(\underset{𝐱}{\underset{}{[\begin{matrix}𝑥 \\ 𝑦\end{matrix}]}}−\underset{𝐛}{\underset{}{[\begin{matrix}2 \\ 9\end{matrix}]}}) \\ & =[\begin{matrix}5 & −1 \\ 4 & −1\end{matrix}][\begin{matrix}𝑥−2 \\ 𝑦−9\end{matrix}] \\ & =[\begin{matrix}5⋅(𝑥−2)+(−1)⋅(𝑦−9) \\ 4⋅(𝑥−2)+(−1)⋅(𝑦−9)\end{matrix}] \\ & =[\begin{matrix}5𝑥−𝑦−1 \\ 4𝑥−𝑦+1\end{matrix}].\end{aligned}
 
 
 $$
@@ -430,7 +430,7 @@ Computing the determinant of $A,$ we obtain
 $$
 
 
-\begin{aligned}det(𝑇) & =\begin{aligned}2 & 1 \\ 4 & 2\end{aligned} \\ & =2⋅2−4⋅1 \\ & =0.\end{aligned}
+\begin{aligned}det(𝑇) & =\begin{matrix}2 & 1 \\ 4 & 2\end{matrix} \\ & =2⋅2−4⋅1 \\ & =0.\end{aligned}
 
 
 $$

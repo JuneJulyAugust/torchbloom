@@ -38,7 +38,7 @@ Next, we compute $\mathbf v \cdot \mathbf a$ and $||\mathbf v||\mathbin{:}$
 $$
 
 
-\begin{aligned}𝐯⋅𝐚 & =⟨𝑡,\,𝑡^{2},\,𝑡^{3}⟩⋅⟨1,\,2𝑡,\,3𝑡^{2}⟩ \\ & =𝑡+2𝑡^{3}+3𝑡^{5}, \\ ||𝐯|| & =\sqrt{√(𝑡)^{2}+(𝑡^{2})^{2}+(𝑡^{3})^{2}} \\ & =\sqrt{√𝑡^{2}+𝑡^{4}+𝑡^{6}}.\end{aligned}
+\begin{aligned}𝐯⋅𝐚 & =⟨𝑡,\,𝑡^{2},\,𝑡^{3}⟩⋅⟨1,\,2𝑡,\,3𝑡^{2}⟩ \\ & =𝑡+2𝑡^{3}+3𝑡^{5}, \\ ||𝐯|| & =\sqrt{(𝑡)^{2}+(𝑡^{2})^{2}+(𝑡^{3})^{2}} \\ & =\sqrt{𝑡^{2}+𝑡^{4}+𝑡^{6}}.\end{aligned}
 
 
 $$
@@ -48,7 +48,7 @@ Finally, calculating the tangential component of the acceleration, we get
 $$
 
 
-\begin{aligned}𝑎_{𝑇} & =\frac{𝐯⋅𝐚}{||𝐯||} \\ & =\frac{𝑡+2𝑡^{3}+3𝑡^{5}}{\sqrt{√𝑡^{2}+𝑡^{4}+𝑡^{6}}}.\end{aligned}
+\begin{aligned}𝑎_{𝑇} & =\frac{𝐯⋅𝐚}{||𝐯||} \\ & =\frac{𝑡+2𝑡^{3}+3𝑡^{5}}{\sqrt{𝑡^{2}+𝑡^{4}+𝑡^{6}}}.\end{aligned}
 
 
 $$
@@ -76,7 +76,7 @@ First, we need to compute the acceleration vector by differentiating the velocit
 $$
 
 
-\begin{aligned}𝐚 & =⟨\frac{d}{d𝑡}(1),\,\frac{d}{d𝑡}(\sqrt{√2}𝑡),\,\frac{d}{d𝑡}(−𝑡^{2})⟩ \\ & =⟨0,\,\sqrt{√2},\,−2𝑡⟩\end{aligned}
+\begin{aligned}𝐚 & =⟨\frac{d}{d𝑡}(1),\,\frac{d}{d𝑡}(\sqrt{2}𝑡),\,\frac{d}{d𝑡}(−𝑡^{2})⟩ \\ & =⟨0,\,\sqrt{2},\,−2𝑡⟩\end{aligned}
 
 
 $$
@@ -86,7 +86,7 @@ Next, we compute $\mathbf v \cdot \mathbf a$ and $||\mathbf v||\mathbin{:}$
 $$
 
 
-\begin{aligned}𝐯⋅𝐚 & =⟨1,\,\sqrt{√2}𝑡,\,−𝑡^{2}⟩⋅⟨0,\,\sqrt{√2},\,−2𝑡⟩ \\ & =2𝑡+2𝑡^{3} \\ & =2𝑡(𝑡^{2}+1), \\ ||𝐯|| & =\sqrt{√(1)^{2}+(\sqrt{√2}𝑡)^{2}+(−𝑡^{2})^{2}} \\ & =\sqrt{√𝑡^{4}+2𝑡^{2}+1} \\ & =\sqrt{√(𝑡^{2}+1)^{2}} \\ & =𝑡^{2}+1.\end{aligned}
+\begin{aligned}𝐯⋅𝐚 & =⟨1,\,\sqrt{2}𝑡,\,−𝑡^{2}⟩⋅⟨0,\,\sqrt{2},\,−2𝑡⟩ \\ & =2𝑡+2𝑡^{3} \\ & =2𝑡(𝑡^{2}+1), \\ ||𝐯|| & =\sqrt{(1)^{2}+(\sqrt{2}𝑡)^{2}+(−𝑡^{2})^{2}} \\ & =\sqrt{𝑡^{4}+2𝑡^{2}+1} \\ & =\sqrt{(𝑡^{2}+1)^{2}} \\ & =𝑡^{2}+1.\end{aligned}
 
 
 $$
@@ -134,7 +134,7 @@ Next, we compute $\mathbf v \times \mathbf a{:}$
 $$
 
 
-\begin{aligned}𝐯×𝐚 & =⟨−4,\,cos⁡(2𝑡),\,sin⁡(2𝑡)⟩×⟨0,\,−2sin⁡(2𝑡),\,2cos⁡(2𝑡)⟩ \\ & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ −4 & cos⁡(2𝑡) & sin⁡(2𝑡) \\ 0 & −2sin⁡(2𝑡) & 2cos⁡(2𝑡)\end{aligned} \\ & = \begin{aligned}cos⁡(2𝑡) & sin⁡(2𝑡) \\ −2sin⁡(2𝑡) & 2cos⁡(2𝑡)\end{aligned}\,𝐢−\begin{aligned}−4 & sin⁡(2𝑡) \\ 0 & 2cos⁡(2𝑡)\end{aligned}\,𝐣+\begin{aligned}−4 & cos⁡(2𝑡) \\ 0 & −2sin⁡(2𝑡)\end{aligned}\,𝐤 \\ & =⟨2cos^{2}⁡(2𝑡)+2sin^{2}⁡(2𝑡),8cos⁡(2𝑡),8sin⁡(2𝑡)⟩ \\ & =⟨2,8cos⁡(2𝑡),8sin⁡(2𝑡)⟩\end{aligned}
+\begin{aligned}𝐯×𝐚 & =⟨−4,\,cos⁡(2𝑡),\,sin⁡(2𝑡)⟩×⟨0,\,−2sin⁡(2𝑡),\,2cos⁡(2𝑡)⟩ \\ & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ −4 & cos⁡(2𝑡) & sin⁡(2𝑡) \\ 0 & −2sin⁡(2𝑡) & 2cos⁡(2𝑡)\end{matrix} \\ & = \begin{matrix}cos⁡(2𝑡) & sin⁡(2𝑡) \\ −2sin⁡(2𝑡) & 2cos⁡(2𝑡)\end{matrix}\,𝐢−\begin{matrix}−4 & sin⁡(2𝑡) \\ 0 & 2cos⁡(2𝑡)\end{matrix}\,𝐣+\begin{matrix}−4 & cos⁡(2𝑡) \\ 0 & −2sin⁡(2𝑡)\end{matrix}\,𝐤 \\ & =⟨2cos^{2}⁡(2𝑡)+2sin^{2}⁡(2𝑡),8cos⁡(2𝑡),8sin⁡(2𝑡)⟩ \\ & =⟨2,8cos⁡(2𝑡),8sin⁡(2𝑡)⟩\end{aligned}
 
 
 $$
@@ -144,7 +144,7 @@ Now, we compute $||\mathbf v||$ and $||\mathbf v \times \mathbf a||\mathbin{:}$
 $$
 
 
-\begin{aligned}||𝐯|| & =\sqrt{√(−4)^{2}+(cos⁡(2𝑡))^{2}+(sin⁡(2𝑡))^{2}} \\ & =\sqrt{√16+cos^{2}⁡(2𝑡)+sin^{2}⁡(2𝑡)} \\ & =\sqrt{√16+1} \\ & =\sqrt{√17}, \\ ||𝐯×𝐚|| & =\sqrt{√(2)^{2}+(8cos⁡(2𝑡))^{2}+(8sin⁡(2𝑡))^{2}} \\ & =\sqrt{√4+64cos^{2}⁡(2𝑡)+64sin^{2}⁡(2𝑡)} \\ & =\sqrt{√4+64(cos^{2}⁡(2𝑡)+sin^{2}⁡(2𝑡))} \\ & =\sqrt{√4+64} \\ & =\sqrt{√68} \\ & =2\sqrt{√17}\end{aligned}
+\begin{aligned}||𝐯|| & =\sqrt{(−4)^{2}+(cos⁡(2𝑡))^{2}+(sin⁡(2𝑡))^{2}} \\ & =\sqrt{16+cos^{2}⁡(2𝑡)+sin^{2}⁡(2𝑡)} \\ & =\sqrt{16+1} \\ & =\sqrt{17}, \\ ||𝐯×𝐚|| & =\sqrt{(2)^{2}+(8cos⁡(2𝑡))^{2}+(8sin⁡(2𝑡))^{2}} \\ & =\sqrt{4+64cos^{2}⁡(2𝑡)+64sin^{2}⁡(2𝑡)} \\ & =\sqrt{4+64(cos^{2}⁡(2𝑡)+sin^{2}⁡(2𝑡))} \\ & =\sqrt{4+64} \\ & =\sqrt{68} \\ & =2\sqrt{17}\end{aligned}
 
 
 $$
@@ -154,7 +154,7 @@ Finally, we calculate the normal component of the acceleration, and we get
 $$
 
 
-\begin{aligned}𝑎_{𝑁} & =\frac{||𝐯×𝐚||}{||𝐯||} \\ & =\frac{2\sqrt{√17}}{\sqrt{√17}} \\ & =2.\end{aligned}
+\begin{aligned}𝑎_{𝑁} & =\frac{||𝐯×𝐚||}{||𝐯||} \\ & =\frac{2\sqrt{17}}{\sqrt{17}} \\ & =2.\end{aligned}
 
 
 $$
@@ -202,7 +202,7 @@ Then, we compute $\mathbf v(0) \cdot \mathbf a(0)$ and $||\mathbf v(0)||\mathbin
 $$
 
 
-\begin{aligned}𝐯(0)⋅𝐚(0) & =⟨2,\,−1,\,0⟩⋅⟨4,\,1,\,0⟩ \\ & =7, \\ ||𝐯(0)|| & =\sqrt{√(2)^{2}+(−1)^{2}+(0)^{2}} \\ & =\sqrt{√5}\end{aligned}
+\begin{aligned}𝐯(0)⋅𝐚(0) & =⟨2,\,−1,\,0⟩⋅⟨4,\,1,\,0⟩ \\ & =7, \\ ||𝐯(0)|| & =\sqrt{(2)^{2}+(−1)^{2}+(0)^{2}} \\ & =\sqrt{5}\end{aligned}
 
 
 $$
@@ -212,12 +212,12 @@ Finally, we calculate the tangential component of the acceleration at $t=0,$ and
 $$
 
 
-\begin{aligned}𝑎_{𝑇} & =\frac{𝐯(0)⋅𝐚(0)}{||𝐯(0)||} \\ & =\frac{7}{\sqrt{√5}} \\ & =\frac{7\sqrt{√5}}{5}.\end{aligned}
+\begin{aligned}𝑎_{𝑇} & =\frac{𝐯(0)⋅𝐚(0)}{||𝐯(0)||} \\ & =\frac{7}{\sqrt{5}} \\ & =\frac{7\sqrt{5}}{5}.\end{aligned}
 
 
 $$
 
-Therefore, the tangential component of the acceleration is $\dfrac{7\sqrt{5}}{5} \, \textrm{ms}^{-2}.$
+Therefore, the tangential component of the acceleration is $\dfrac{7\sqrt{5}}{5} \, \text{ms}^{-2}.$
 
 ### Explanation of the Components of Acceleration
 
@@ -236,7 +236,7 @@ Recall that the unit tangent vector is given by
 $$
 
 
-\mathbf T = \dfrac{\dfrac{\textrm{d}\mathbf r}{\textrm{d}t}}{\left\Vert\dfrac{\textrm{d}\mathbf r}{\textrm{d}t}\right\Vert} = \dfrac{\mathbf{v}}{||\mathbf{v}||}.
+\mathbf T = \dfrac{\dfrac{\text{d}\mathbf r}{\text{d}t}}{\left\Vert\dfrac{\text{d}\mathbf r}{\text{d}t}\right\Vert} = \dfrac{\mathbf{v}}{||\mathbf{v}||}.
 
 
 $$
@@ -256,7 +256,7 @@ Differentiating gives
 $$
 
 
-\mathbf{a} = \dfrac{\textrm{d}}{\textrm{d}t}(||\mathbf{v}||)\mathbf T + ||\mathbf{v}||\dfrac{\textrm{d}\mathbf T}{\textrm{d}t}.
+\mathbf{a} = \dfrac{\text{d}}{\text{d}t}(||\mathbf{v}||)\mathbf T + ||\mathbf{v}||\dfrac{\text{d}\mathbf T}{\text{d}t}.
 
 
 $$
@@ -266,7 +266,7 @@ Now, from the definition of the normal vector $\mathbf{N}$, notice that
 $$
 
 
-\dfrac{\textrm{d}\mathbf T}{\textrm{d}t} = \left\Vert\dfrac{\textrm{d}\mathbf T}{\textrm{d}t}\right\Vert\mathbf N = \kappa ||\mathbf{v}||\mathbf N,
+\dfrac{\text{d}\mathbf T}{\text{d}t} = \left\Vert\dfrac{\text{d}\mathbf T}{\text{d}t}\right\Vert\mathbf N = \kappa ||\mathbf{v}||\mathbf N,
 
 
 $$

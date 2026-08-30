@@ -71,7 +71,7 @@ Applying the formula, we get
 $$
 
 
-\begin{aligned}\frac{Δ𝑓}{Δ𝑥} & =\frac{𝑓(𝑏)−𝑓(𝑎)}{𝑏−𝑎} \\ & =\frac{𝑓(6)−𝑓(0)}{6} \\ & =\frac{2\sqrt{√6}+1−(2\sqrt{√0}+1)}{6} \\ & =\frac{2\sqrt{√6}}{6} \\ & =\frac{\sqrt{√6}}{3}.\end{aligned}
+\begin{aligned}\frac{Δ𝑓}{Δ𝑥} & =\frac{𝑓(𝑏)−𝑓(𝑎)}{𝑏−𝑎} \\ & =\frac{𝑓(6)−𝑓(0)}{6} \\ & =\frac{2\sqrt{6}+1−(2\sqrt{0}+1)}{6} \\ & =\frac{2\sqrt{6}}{6} \\ & =\frac{\sqrt{6}}{3}.\end{aligned}
 
 
 $$

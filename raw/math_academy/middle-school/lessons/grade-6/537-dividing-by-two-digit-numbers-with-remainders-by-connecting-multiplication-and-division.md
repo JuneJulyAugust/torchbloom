@@ -42,7 +42,7 @@ $$
 
 $$
 
-Therefore, ${47}\div {13} = {\color{blue}3}\,\textrm{R}\,{\color{red}8}.$
+Therefore, ${47}\div {13} = {\color{blue}3}\,\text{R}\,{\color{red}8}.$
 
 ### Example: Dividing a Two-Digit Number by a Two-Digit Number
 
@@ -78,7 +78,7 @@ $$
 
 $$
 
-Therefore, $99 \div 14 = {\color{blue}{7}}\,\textrm{R}\,{\color{red}{1}}.$
+Therefore, $99 \div 14 = {\color{blue}{7}}\,\text{R}\,{\color{red}{1}}.$
 
 ### Example: Dividing a Three-Digit Number by a Two-Digit Number
 

@@ -110,18 +110,18 @@ Then, Bayes' theorem gives the following:
 $$
 
 
-{\color{blue}{P(\textrm{has disease} \,|\, \textrm{patient is } 65+)}} = {\color{purple}{P(\textrm{has disease})}} \cdot \dfrac{P(\textrm{patient is } 65+ \,|\, \textrm{has disease})}{P({\textrm{patient is } 65+})}
+{\color{blue}{P(\text{has disease} \,|\, \text{patient is } 65+)}} = {\color{purple}{P(\text{has disease})}} \cdot \dfrac{P(\text{patient is } 65+ \,|\, \text{has disease})}{P({\text{patient is } 65+})}
 
 
 $$
 
 Let's introduce some new terminology:
 
-- ${\color{purple}{P(\textrm{has disease})}}$ is called the **prior.** It tells us the probability that a randomly selected patient has the disease *without considering any other factors*.
+- ${\color{purple}{P(\text{has disease})}}$ is called the **prior.** It tells us the probability that a randomly selected patient has the disease *without considering any other factors*.
 
-- ${\color{blue}{P(\textrm{has disease} \,|\, \textrm{patient is} 65+)}}$ is called the **posterior**. It tells us the probability that a randomly selected patient has the disease *taking into consideration* that they are $65$ or older.
+- ${\color{blue}{P(\text{has disease} \,|\, \text{patient is} 65+)}}$ is called the **posterior**. It tells us the probability that a randomly selected patient has the disease *taking into consideration* that they are $65$ or older.
 
-- $P(\textrm{patient is} 65+ \,|\, \textrm{has disease})$ is called the **likelihood.** It tells us the proportion of infected people that are $65$ or older. This quantity could be established by taking a random sample from the population of infected people and computing the ratio of those that are $65$ or older.
+- $P(\text{patient is} 65+ \,|\, \text{has disease})$ is called the **likelihood.** It tells us the proportion of infected people that are $65$ or older. This quantity could be established by taking a random sample from the population of infected people and computing the ratio of those that are $65$ or older.
 
 Therefore, Bayes' theorem allows us to update the hypothesis (the patient has the disease), taking into account information about the patient (they are $65$ or older), making use of existing available evidence (an estimate of the proportion of infected people that are $65$ or older).
 

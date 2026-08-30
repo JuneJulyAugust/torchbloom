@@ -55,12 +55,12 @@ $$
 
 $$
 
-**Step 3.** Now, we solve for $\dfrac {\textrm{d}y}{\textrm{d}x}.$ This gives
+**Step 3.** Now, we solve for $\dfrac {\text{d}y}{\text{d}x}.$ This gives
 
 $$
 
 
-\dfrac {\textrm{d}y}{\textrm{d}x} = y\left( \ln x + 1 \right).
+\dfrac {\text{d}y}{\text{d}x} = y\left( \ln x + 1 \right).
 
 
 $$
@@ -70,7 +70,7 @@ $$
 $$
 
 
-\dfrac {\textrm{d}y}{\textrm{d}x} = x^x \left( \ln x + 1 \right)
+\dfrac {\text{d}y}{\text{d}x} = x^x \left( \ln x + 1 \right)
 
 
 $$
@@ -173,7 +173,7 @@ $$
 
 $$
 
-Now, we solve for $\dfrac {\textrm{d}y}{\textrm{d}x}{:}$
+Now, we solve for $\dfrac {\text{d}y}{\text{d}x}{:}$
 
 $$
 

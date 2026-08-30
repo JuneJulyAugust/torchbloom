@@ -17,7 +17,7 @@ Consider the integral
 $$
 
 
-\int \dfrac{1}{\sqrt{1-4x^2}} \, \textrm{d}x.
+\int \dfrac{1}{\sqrt{1-4x^2}} \, \text{d}x.
 
 
 $$
@@ -27,7 +27,7 @@ This integral, apart from the coefficient of $4$ in the denominator, resembles t
 $$
 
 
-\int \frac{1}{\sqrt{1-u^2}}\textrm{d}u = \arcsin(u)+C.
+\int \frac{1}{\sqrt{1-u^2}}\text{d}u = \arcsin(u)+C.
 
 
 $$
@@ -39,7 +39,7 @@ So, let's substitute $u=2x.$ Differentiating, we get
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x}=2\quad\Longrightarrow\quad \dfrac 1 2 \textrm d u = \textrm d x.
+\dfrac{\text{d}u}{\text{d}x}=2\quad\Longrightarrow\quad \dfrac 1 2 \textrm d u = \textrm d x.
 
 
 $$
@@ -49,7 +49,7 @@ We can now write the integral in terms of $u,$ and evaluate:
 $$
 
 
-\begin{aligned}∫\frac{1}{\sqrt{√1−4𝑥^{2}}}\,d𝑥 & =∫\frac{1}{\sqrt{√1−(2𝑥)^{2}}}\,d𝑥 \\ & =∫\frac{1}{\sqrt{√1−𝑢^{2}}}⋅\frac{1}{2}\,d𝑢 \\ & =\frac{1}{2}∫\frac{1}{\sqrt{√1−𝑢^{2}}}\,d𝑢 \\ & =\frac{1}{2}arcsin⁡(𝑢)+𝐶 \\ & =\frac{1}{2}arcsin⁡(2𝑥)+𝐶.\end{aligned}
+\begin{aligned}∫\frac{1}{\sqrt{1−4𝑥^{2}}}\,d𝑥 & =∫\frac{1}{\sqrt{1−(2𝑥)^{2}}}\,d𝑥 \\ & =∫\frac{1}{\sqrt{1−𝑢^{2}}}⋅\frac{1}{2}\,d𝑢 \\ & =\frac{1}{2}∫\frac{1}{\sqrt{1−𝑢^{2}}}\,d𝑢 \\ & =\frac{1}{2}arcsin⁡(𝑢)+𝐶 \\ & =\frac{1}{2}arcsin⁡(2𝑥)+𝐶.\end{aligned}
 
 
 $$
@@ -61,7 +61,7 @@ We can often use this trick whenever we see an integral that closely resembles a
 $$
 
 
-\begin{aligned}\frac{d}{d𝑥}[\frac{1}{2}arcsin⁡(2𝑥)+𝐶] & =\frac{1}{2}⋅\frac{d}{d𝑥}[arcsin⁡(2𝑥)]+\frac{d}{d𝑥}(𝐶) \\ & =\frac{1}{2}⋅\frac{1}{\sqrt{√1−(2𝑥)^{2}}}⋅\frac{d}{d𝑥}(2𝑥)+0 \\ & =\frac{1}{2}⋅\frac{1}{\sqrt{√1−4𝑥^{2}}}⋅2 \\ & =\frac{1}{\sqrt{√1−4𝑥^{2}}}\,✓\end{aligned}
+\begin{aligned}\frac{d}{d𝑥}[\frac{1}{2}arcsin⁡(2𝑥)+𝐶] & =\frac{1}{2}⋅\frac{d}{d𝑥}[arcsin⁡(2𝑥)]+\frac{d}{d𝑥}(𝐶) \\ & =\frac{1}{2}⋅\frac{1}{\sqrt{1−(2𝑥)^{2}}}⋅\frac{d}{d𝑥}(2𝑥)+0 \\ & =\frac{1}{2}⋅\frac{1}{\sqrt{1−4𝑥^{2}}}⋅2 \\ & =\frac{1}{\sqrt{1−4𝑥^{2}}}\,✓\end{aligned}
 
 
 $$
@@ -70,7 +70,7 @@ $$
 
 #### Question
 
-Calculate the integral $\displaystyle \int \dfrac{9}{4\sqrt{1-9x^2}} \, \textrm{d}x.$
+Calculate the integral $\displaystyle \int \dfrac{9}{4\sqrt{1-9x^2}} \, \text{d}x.$
 
 #### Explanation
 
@@ -79,7 +79,7 @@ This integral resembles the basic integral for inverse sine,
 $$
 
 
-\int \frac{1}{\sqrt{1-u^2}}\textrm{d}u = \arcsin(u)+C.
+\int \frac{1}{\sqrt{1-u^2}}\text{d}u = \arcsin(u)+C.
 
 
 $$
@@ -91,7 +91,7 @@ So, let's substitute $u=3x.$ Differentiating, we get
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x}=3\quad\Longrightarrow\quad \dfrac 1 3 \,\textrm d u=\textrm d x.
+\dfrac{\text{d}u}{\text{d}x}=3\quad\Longrightarrow\quad \dfrac 1 3 \,\textrm d u=\textrm d x.
 
 
 $$
@@ -101,7 +101,7 @@ We can now write the integral in terms of $u,$ and evaluate:
 $$
 
 
-\begin{aligned}\begin{aligned}∫\frac{9}{4\sqrt{√1−9𝑥^{2}}}\,d𝑥 & =\frac{9}{4}∫\frac{1}{\sqrt{√1−(3𝑥)^{2}}}\,\,d𝑥 \\ & =\frac{9}{4}∫\frac{1}{\sqrt{√1−𝑢^{2}}}⋅\frac{1}{3}d𝑢 \\ & =\frac{9}{12}∫\frac{1}{\sqrt{√1−𝑢^{2}}}\,d𝑢 \\ & =\frac{3}{4}⋅arcsin⁡𝑢+𝐶 \\ & =\frac{3}{4}arcsin⁡3𝑥+𝐶\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}∫\frac{9}{4\sqrt{1−9𝑥^{2}}}\,d𝑥 & =\frac{9}{4}∫\frac{1}{\sqrt{1−(3𝑥)^{2}}}\,\,d𝑥 \\ & =\frac{9}{4}∫\frac{1}{\sqrt{1−𝑢^{2}}}⋅\frac{1}{3}d𝑢 \\ & =\frac{9}{12}∫\frac{1}{\sqrt{1−𝑢^{2}}}\,d𝑢 \\ & =\frac{3}{4}⋅arcsin⁡𝑢+𝐶 \\ & =\frac{3}{4}arcsin⁡3𝑥+𝐶\end{matrix}\end{aligned}
 
 
 $$
@@ -110,7 +110,7 @@ $$
 
 #### Question
 
-Calculate the integral $\displaystyle{\int \dfrac{3}{2 + 50x^2} \, \textrm{d}x}.$
+Calculate the integral $\displaystyle{\int \dfrac{3}{2 + 50x^2} \, \text{d}x}.$
 
 #### Explanation
 
@@ -119,7 +119,7 @@ Note that we can rewrite this integral as
 $$
 
 
-\int \dfrac{3}{2 + 50x^2} \, \textrm{d}x = \int \dfrac{3}{2(1 + 25x^2)} = \dfrac 3 2 \int \dfrac{1}{1+25x^2}\,\textrm d x.
+\int \dfrac{3}{2 + 50x^2} \, \text{d}x = \int \dfrac{3}{2(1 + 25x^2)} = \dfrac 3 2 \int \dfrac{1}{1+25x^2}\,\textrm d x.
 
 
 $$
@@ -129,7 +129,7 @@ This integral resembles the basic integral for inverse tangent,
 $$
 
 
-\int \frac{1}{1+u^2}\textrm{d}u =\arctan u +C.
+\int \frac{1}{1+u^2}\text{d}u =\arctan u +C.
 
 
 $$
@@ -141,7 +141,7 @@ So, let's substitute $u=5x.$ Differentiating, we get
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x}=5\quad\Longrightarrow\quad \dfrac 1 5\,\textrm d u = \textrm d x.
+\dfrac{\text{d}u}{\text{d}x}=5\quad\Longrightarrow\quad \dfrac 1 5\,\textrm d u = \textrm d x.
 
 
 $$
@@ -151,7 +151,7 @@ We can now write the integral in terms of $u,$ and evaluate:
 $$
 
 
-\begin{aligned}\begin{aligned}∫\frac{3}{2+50𝑥^{2}}\,d𝑥 & =\frac{3}{2}∫\frac{1}{1+25𝑥^{2}}\,d𝑥 \\ & =\frac{3}{2}∫\frac{1}{1+(5𝑥)^{2}}\,d𝑥 \\ & =\frac{3}{2}∫\frac{1}{1+𝑢^{2}}\,\,⋅\frac{1}{5}\,d𝑢 \\ & =\frac{3}{10}∫\frac{1}{1+𝑢^{2}}\,d𝑢 \\ & =\frac{3}{10}⋅arctan⁡𝑢+𝐶 \\ & =\frac{3}{10}arctan⁡5𝑥+𝐶\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}∫\frac{3}{2+50𝑥^{2}}\,d𝑥 & =\frac{3}{2}∫\frac{1}{1+25𝑥^{2}}\,d𝑥 \\ & =\frac{3}{2}∫\frac{1}{1+(5𝑥)^{2}}\,d𝑥 \\ & =\frac{3}{2}∫\frac{1}{1+𝑢^{2}}\,\,⋅\frac{1}{5}\,d𝑢 \\ & =\frac{3}{10}∫\frac{1}{1+𝑢^{2}}\,d𝑢 \\ & =\frac{3}{10}⋅arctan⁡𝑢+𝐶 \\ & =\frac{3}{10}arctan⁡5𝑥+𝐶\end{matrix}\end{aligned}
 
 
 $$
@@ -160,16 +160,16 @@ $$
 
 #### Question
 
-${\displaystyle \int \dfrac{5\, \textrm{d}x}{|5x|\sqrt{(5x)^2-1}} =}$
+${\displaystyle \int \dfrac{5\, \text{d}x}{|5x|\sqrt{(5x)^2-1}} =}$
 
 #### Explanation
 
-This resembles the basic integral for $\textrm{arcsec},$
+This resembles the basic integral for $\text{arcsec},$
 
 $$
 
 
-\int \frac{1}{|u|\sqrt{u^2-1}} \textrm{d}u = \textrm{arcsec}(u)+C.
+\int \frac{1}{|u|\sqrt{u^2-1}} \text{d}u = \text{arcsec}(u)+C.
 
 
 $$
@@ -179,7 +179,7 @@ Let $u = 5x.$ Then
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x}=5 \quad\Longrightarrow\quad 5\,\textrm{d}x = \textrm{d}u.
+\dfrac{\text{d}u}{\text{d}x}=5 \quad\Longrightarrow\quad 5\,\text{d}x = \text{d}u.
 
 
 $$
@@ -189,7 +189,7 @@ Therefore,
 $$
 
 
-\begin{aligned}\begin{aligned}∫\frac{5\,d𝑥}{|5𝑥|\sqrt{√(5𝑥)^{2}−1}} & =∫\frac{d𝑢}{|𝑢|\sqrt{√𝑢^{2}−1}} \\ & =arcsec(𝑢)+𝐶 \\ & =arcsec(5𝑥)+𝐶.\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}∫\frac{5\,d𝑥}{|5𝑥|\sqrt{(5𝑥)^{2}−1}} & =∫\frac{d𝑢}{|𝑢|\sqrt{𝑢^{2}−1}} \\ & =arcsec(𝑢)+𝐶 \\ & =arcsec(5𝑥)+𝐶.\end{matrix}\end{aligned}
 
 
 $$
@@ -198,7 +198,7 @@ $$
 
 #### Question
 
-Evaluate the integral $\displaystyle{\int_{0}^{\sqrt 2} \dfrac{1}{2+x^2}\, \textrm{d}x}.$
+Evaluate the integral $\displaystyle{\int_{0}^{\sqrt 2} \dfrac{1}{2+x^2}\, \text{d}x}.$
 
 #### Explanation
 
@@ -207,7 +207,7 @@ First, we rewrite the integral as
 $$
 
 
-\begin{aligned}∫_{\sqrt{√2}0}^{}\frac{1}{2+𝑥^{2}}\,d𝑥 & =∫_{\sqrt{√2}0}^{}\frac{1}{2(1+𝑥^{2}/2)}\,d𝑥 \\ & =∫_{\sqrt{√2}0}^{}\frac{1}{2(1+(𝑥/\sqrt{√2})^{2})}\,d𝑥 \\ & =\frac{1}{2}∫_{\sqrt{√2}0}^{}\frac{1}{1+(𝑥/\sqrt{√2})^{2}}\,d𝑥.\end{aligned}
+\begin{aligned}∫_{\sqrt{2}0}^{}\frac{1}{2+𝑥^{2}}\,d𝑥 & =∫_{\sqrt{2}0}^{}\frac{1}{2(1+𝑥^{2}/2)}\,d𝑥 \\ & =∫_{\sqrt{2}0}^{}\frac{1}{2(1+(𝑥/\sqrt{2})^{2})}\,d𝑥 \\ & =\frac{1}{2}∫_{\sqrt{2}0}^{}\frac{1}{1+(𝑥/\sqrt{2})^{2}}\,d𝑥.\end{aligned}
 
 
 $$
@@ -239,7 +239,7 @@ Using the above, we can now write the integral in terms of $u,$ and evaluate:
 $$
 
 
-\begin{aligned}∫_{\sqrt{√2}0}^{}\frac{1}{2+𝑥^{2}}\,d𝑥 & =\frac{1}{2}∫_{10}^{}\frac{1}{1+𝑢^{2}}\,⋅\sqrt{√2}\,d𝑢 \\ & =\frac{\sqrt{√2}}{2}∫_{10}^{}\frac{1}{1+𝑢^{2}}\,d𝑢 \\ & =\frac{\sqrt{√2}}{2}arctan⁡𝑢|_{10}^{} \\ & =\frac{\sqrt{√2}}{2}(arctan⁡1−arctan⁡0) \\ & =\frac{\sqrt{√2}}{2}(\frac{𝜋}{4}−0) \\ & =\frac{𝜋\sqrt{√2}}{8}\end{aligned}
+\begin{aligned}∫_{\sqrt{2}0}^{}\frac{1}{2+𝑥^{2}}\,d𝑥 & =\frac{1}{2}∫_{10}\frac{1}{1+𝑢^{2}}\,⋅\sqrt{2}\,d𝑢 \\ & =\frac{\sqrt{2}}{2}∫_{10}\frac{1}{1+𝑢^{2}}\,d𝑢 \\ & =\frac{\sqrt{2}}{2}arctan⁡𝑢|_{10} \\ & =\frac{\sqrt{2}}{2}(arctan⁡1−arctan⁡0) \\ & =\frac{\sqrt{2}}{2}(\frac{𝜋}{4}−0) \\ & =\frac{𝜋\sqrt{2}}{8}\end{aligned}
 
 
 $$
@@ -253,7 +253,7 @@ Although you can always solve these integrals by going through the substitution 
 $$
 
 
-\begin{aligned}∫\frac{1}{\sqrt{√1−(𝑎𝑥)^{2}}}\,d𝑥 & =\frac{1}{𝑎}arcsin⁡(𝑎𝑥)+𝐶 \\ ∫\frac{1}{\sqrt{√𝑎^{2}−𝑥^{2}}}\,d𝑥 & =arcsin⁡(\frac{𝑥}{𝑎})+𝐶 \\ ∫\frac{1}{1+(𝑎𝑥)^{2}}\,d𝑥 & =\frac{1}{𝑎}arctan⁡(𝑎𝑥)+𝐶 \\ ∫\frac{1}{𝑎^{2}+𝑥^{2}}\,d𝑥 & =\frac{1}{𝑎}arctan⁡(\frac{𝑥}{𝑎})+𝐶 \\ ∫\frac{1}{|𝑎𝑥|\sqrt{√(𝑎𝑥)^{2}−1}}\,d𝑥 & =\frac{1}{𝑎}arcsec(𝑎𝑥)+𝐶\end{aligned}
+\begin{aligned}∫\frac{1}{\sqrt{1−(𝑎𝑥)^{2}}}\,d𝑥 & =\frac{1}{𝑎}arcsin⁡(𝑎𝑥)+𝐶 \\ ∫\frac{1}{\sqrt{𝑎^{2}−𝑥^{2}}}\,d𝑥 & =arcsin⁡(\frac{𝑥}{𝑎})+𝐶 \\ ∫\frac{1}{1+(𝑎𝑥)^{2}}\,d𝑥 & =\frac{1}{𝑎}arctan⁡(𝑎𝑥)+𝐶 \\ ∫\frac{1}{𝑎^{2}+𝑥^{2}}\,d𝑥 & =\frac{1}{𝑎}arctan⁡(\frac{𝑥}{𝑎})+𝐶 \\ ∫\frac{1}{|𝑎𝑥|\sqrt{(𝑎𝑥)^{2}−1}}\,d𝑥 & =\frac{1}{𝑎}arcsec(𝑎𝑥)+𝐶\end{aligned}
 
 
 $$

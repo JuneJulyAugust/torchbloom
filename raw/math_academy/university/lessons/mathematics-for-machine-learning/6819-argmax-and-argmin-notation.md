@@ -168,7 +168,7 @@ This maximum occurs at both $x=-1$ and $x=2.$ Therefore,
 $$
 
 
-\max_{x \in S} f(x)=\boxed{4} \qquad \textrm{and} \qquad \arg\max_{x \in S} f(x)=\boxed{\{-1,2\}}.
+\max_{x \in S} f(x)=\boxed{4} \qquad \text{and} \qquad \arg\max_{x \in S} f(x)=\boxed{\{-1,2\}}.
 
 
 $$

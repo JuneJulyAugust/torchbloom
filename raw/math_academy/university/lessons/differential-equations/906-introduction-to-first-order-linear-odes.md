@@ -134,7 +134,7 @@ Write the following first-order linear ODE in standard form.
 $$
 
 
-\dfrac {\textrm{d}y} {\textrm{d}x} + y\sin x - \cos x =0
+\dfrac {\text{d}y} {\text{d}x} + y\sin x - \cos x =0
 
 
 $$
@@ -146,7 +146,7 @@ A first-order linear ODE is in standard form if it is written as
 $$
 
 
-\dfrac {\textrm{d}y} {\textrm{d}x} + P(x)y = Q(x).
+\dfrac {\text{d}y} {\text{d}x} + P(x)y = Q(x).
 
 
 $$
@@ -172,7 +172,7 @@ Determine whether the following equation is a first-order linear ODE:
 $$
 
 
-x^2\dfrac {\textrm{d}y} {\textrm{d}x} + \sin(2x)y = e^x.
+x^2\dfrac {\text{d}y} {\text{d}x} + \sin(2x)y = e^x.
 
 
 $$
@@ -184,7 +184,7 @@ We attempt to write the equation in the standard form
 $$
 
 
-\dfrac {\textrm{d}y} {\textrm{d}x} + P(x)y = Q(x) \,.
+\dfrac {\text{d}y} {\text{d}x} + P(x)y = Q(x) \,.
 
 
 $$

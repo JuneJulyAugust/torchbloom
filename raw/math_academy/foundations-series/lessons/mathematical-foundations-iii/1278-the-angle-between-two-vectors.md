@@ -42,7 +42,7 @@ and the magnitudes of $\mathbf{a}$ and $\mathbf{b}$ are
 $$
 
 
-\begin{aligned}|\,𝐚\,| & =\sqrt{√𝑎_{2𝑥}^{}+𝑎_{2𝑦}^{}+𝑎_{2𝑧}^{}} \\ & =\sqrt{√1^{2}+(−2)^{2}+2^{2}} \\ & =3, \\ |\,𝐛\,| & =\sqrt{√𝑏_{2𝑥}^{}+𝑏_{2𝑦}^{}+𝑏_{2𝑧}^{}} \\ & =\sqrt{√3^{2}+0^{2}+(−1)^{2}} \\ & =\sqrt{√10}.\end{aligned}
+\begin{aligned}|\,𝐚\,| & =\sqrt{𝑎_{2𝑥}+𝑎_{2𝑦}+𝑎_{2𝑧}} \\ & =\sqrt{1^{2}+(−2)^{2}+2^{2}} \\ & =3, \\ |\,𝐛\,| & =\sqrt{𝑏_{2𝑥}+𝑏_{2𝑦}+𝑏_{2𝑧}} \\ & =\sqrt{3^{2}+0^{2}+(−1)^{2}} \\ & =\sqrt{10}.\end{aligned}
 
 
 $$
@@ -70,7 +70,7 @@ Rearranging the dot product formula, we have:
 $$
 
 
-\begin{aligned}cos⁡𝜃 & =\frac{𝐚⋅𝐛}{|\,𝐚\,||\,𝐛\,|} \\ & =\frac{𝑎_{𝑥}𝑏_{𝑥}+𝑎_{𝑦}𝑏_{𝑦}+𝑎_{𝑧}𝑏_{𝑧}}{\sqrt{√𝑎_{2𝑥}^{}+𝑎_{2𝑦}^{}+𝑎_{2𝑧}^{}}\sqrt{√𝑏_{2𝑥}^{}+𝑏_{2𝑦}^{}+𝑏_{2𝑧}^{}}} \\ & =\frac{2⋅1+(−1)⋅5+1⋅(−2)}{\sqrt{√2^{2}+(−1)^{2}+1^{2}}\sqrt{√1^{2}+5^{2}+(−2)^{2}}} \\ & =\frac{−5}{\sqrt{√6}⋅\sqrt{√30}} \\ & =\frac{−5}{\sqrt{√6}⋅\sqrt{√6}⋅\sqrt{√5}} \\ & =−\frac{\sqrt{√5}}{6}\end{aligned}
+\begin{aligned}cos⁡𝜃 & =\frac{𝐚⋅𝐛}{|\,𝐚\,||\,𝐛\,|} \\ & =\frac{𝑎_{𝑥}𝑏_{𝑥}+𝑎_{𝑦}𝑏_{𝑦}+𝑎_{𝑧}𝑏_{𝑧}}{\sqrt{𝑎_{2𝑥}+𝑎_{2𝑦}+𝑎_{2𝑧}}\sqrt{𝑏_{2𝑥}+𝑏_{2𝑦}+𝑏_{2𝑧}}} \\ & =\frac{2⋅1+(−1)⋅5+1⋅(−2)}{\sqrt{2^{2}+(−1)^{2}+1^{2}}\sqrt{1^{2}+5^{2}+(−2)^{2}}} \\ & =\frac{−5}{\sqrt{6}⋅\sqrt{30}} \\ & =\frac{−5}{\sqrt{6}⋅\sqrt{6}⋅\sqrt{5}} \\ & =−\frac{\sqrt{5}}{6}\end{aligned}
 
 
 $$
@@ -122,7 +122,7 @@ Now, the cosine of the angle between $\overrightarrow{AB}$ and $\overrightarrow{
 $$
 
 
-\begin{aligned}cos⁡𝜃 & =\frac{\overset{𝐴𝐵}{}⋅\overset{𝐴𝐶}{}}{|\overset{𝐴𝐵}{}||\overset{𝐴𝐶}{}|} \\ & =\frac{−3⋅3+1⋅2+1⋅6}{\sqrt{√(−3)^{2}+1^{2}+1^{2}}\sqrt{√3^{2}+2^{2}+6^{2}}} \\ & =\frac{−1}{\sqrt{√11}\sqrt{√49}} \\ & =−\frac{1}{7\sqrt{√11}}.\end{aligned}
+\begin{aligned}cos⁡𝜃 & =\frac{\overset{𝐴𝐵}{}⋅\overset{𝐴𝐶}{|\overset{𝐴𝐵}{}||\overset{𝐴𝐶}{}|} \\ & =\frac{−3⋅3+1⋅2+1⋅6}{\sqrt{(−3)^{2}+1^{2}+1^{2}}\sqrt{3^{2}+2^{2}+6^{2}}} \\ & =\frac{−1}{\sqrt{11}\sqrt{49}} \\ & =−\frac{1}{7\sqrt{11}}.\end{aligned}
 
 
 $$
@@ -170,7 +170,7 @@ Now, the cosine of the angle between $\mathbf{a}$ and $\mathbf{b}$ is
 $$
 
 
-\begin{aligned}cos⁡𝜃 & =\frac{𝐚⋅𝐛}{|\,𝐚\,||\,𝐛\,|} \\ & =\frac{𝑎_{𝑥}𝑏_{𝑥}+𝑎_{𝑦}𝑏_{𝑦}}{\sqrt{√𝑎_{2𝑥}^{}+𝑎_{2𝑦}^{}}\sqrt{√𝑏_{2𝑥}^{}+𝑏_{2𝑦}^{}}} \\ & =\frac{−4}{\sqrt{√(−1)^{2}+(−2)^{2}}⋅\sqrt{√6^{2}+(−1)^{2}}} \\ & =−\frac{4}{\sqrt{√5}⋅\sqrt{√37}} \\ & =−\frac{4}{\sqrt{√185}}.\end{aligned}
+\begin{aligned}cos⁡𝜃 & =\frac{𝐚⋅𝐛}{|\,𝐚\,||\,𝐛\,|} \\ & =\frac{𝑎_{𝑥}𝑏_{𝑥}+𝑎_{𝑦}𝑏_{𝑦}}{\sqrt{𝑎_{2𝑥}+𝑎_{2𝑦}}\sqrt{𝑏_{2𝑥}+𝑏_{2𝑦}}} \\ & =\frac{−4}{\sqrt{(−1)^{2}+(−2)^{2}}⋅\sqrt{6^{2}+(−1)^{2}}} \\ & =−\frac{4}{\sqrt{5}⋅\sqrt{37}} \\ & =−\frac{4}{\sqrt{185}}.\end{aligned}
 
 
 $$

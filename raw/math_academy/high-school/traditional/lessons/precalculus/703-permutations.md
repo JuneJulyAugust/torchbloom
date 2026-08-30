@@ -118,7 +118,7 @@ $$
 
 
 
- \begin{aligned} {}_{11}P_2 &= \dfrac {11!} {(11 - 2)!} \\\[5pt] &= \dfrac {11!}{9!} \\\[5pt] &= \dfrac {11 \cdot 10 \cdot 9!} {9!} \\\[5pt] &= 11 \cdot 10 \\\[5pt] &= 110. \end{aligned}
+ \begin{aligned} {}_{11}P_2 &= \dfrac {11!} {(11 - 2)!} \\[5pt] &= \dfrac {11!}{9!} \\[5pt] &= \dfrac {11 \cdot 10 \cdot 9!} {9!} \\[5pt] &= 11 \cdot 10 \\[5pt] &= 110. \end{aligned}
 
 
 

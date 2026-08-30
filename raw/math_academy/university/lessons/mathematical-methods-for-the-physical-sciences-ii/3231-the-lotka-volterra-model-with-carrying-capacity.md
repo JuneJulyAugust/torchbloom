@@ -469,7 +469,7 @@ To find the eigenvalues of the Jacobian matrix, we write down the characteristic
 $$
 
 
-\begin{aligned}\begin{aligned}−2.5−𝜆 & −0.5 \\ 5 & −𝜆\end{aligned} & =0 \\ (−2.5−𝜆)(−𝜆)−5(−0.5) & =0 \\ 𝜆(2.5+𝜆)+2.5 & =0 \\ 𝜆^{2}+2.5𝜆+2.5 & =0\end{aligned}
+\begin{aligned}\begin{matrix}−2.5−𝜆 & −0.5 \\ 5 & −𝜆\end{matrix} & =0 \\ (−2.5−𝜆)(−𝜆)−5(−0.5) & =0 \\ 𝜆(2.5+𝜆)+2.5 & =0 \\ 𝜆^{2}+2.5𝜆+2.5 & =0\end{aligned}
 
 
 $$

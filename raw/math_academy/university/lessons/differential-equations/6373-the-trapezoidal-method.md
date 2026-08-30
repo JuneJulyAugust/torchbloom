@@ -62,7 +62,7 @@ Like the implicit Euler method, the trapezoidal method is an implicit numerical 
 $$
 
 
-\begin{aligned}𝑦_{new} & =𝑦+Δ𝑦 \\ 𝑦_{new} & =𝑦+\frac{1}{2}(𝑦^{′}+𝑦_{′new}^{})⋅Δ𝑥 \\ 𝑦_{new} & =𝑦+\frac{1}{2}(𝑓(𝑥,𝑦)+𝑓(𝑥_{new},𝑦_{new}))⋅Δ𝑥,\end{aligned}
+\begin{aligned}𝑦_{new} & =𝑦+Δ𝑦 \\ 𝑦_{new} & =𝑦+\frac{1}{2}(𝑦^{′}+𝑦_{′new})⋅Δ𝑥 \\ 𝑦_{new} & =𝑦+\frac{1}{2}(𝑓(𝑥,𝑦)+𝑓(𝑥_{new},𝑦_{new}))⋅Δ𝑥,\end{aligned}
 
 
 $$
@@ -112,7 +112,7 @@ Then, in general, the change $\Delta y$ for our ODE is given by
 $$
 
 
-\begin{aligned}Δ𝑦 & =\frac{1}{2}(𝑦^{′}+𝑦_{′new}^{})⋅Δ𝑥 \\ & =\frac{1}{2}(𝑥+𝑦+1+(𝑥_{new}+𝑦_{new}+1))⋅1 \\ & =\frac{1}{2}(𝑥+𝑥_{new}+𝑦+𝑦_{new}+2).\end{aligned}
+\begin{aligned}Δ𝑦 & =\frac{1}{2}(𝑦^{′}+𝑦_{′new})⋅Δ𝑥 \\ & =\frac{1}{2}(𝑥+𝑦+1+(𝑥_{new}+𝑦_{new}+1))⋅1 \\ & =\frac{1}{2}(𝑥+𝑥_{new}+𝑦+𝑦_{new}+2).\end{aligned}
 
 
 $$
@@ -196,7 +196,7 @@ In this example, $\Delta y$ is given by
 $$
 
 
-\begin{aligned}Δ𝑦 & =\frac{1}{2}(𝑦^{′}+𝑦_{′new}^{})⋅Δ𝑥 \\ & =\frac{1}{2}(3𝑥^{2}−2𝑦+(3(𝑥_{new})^{2}−2𝑦_{new}))⋅4 \\ & =6𝑥^{2}+6𝑥_{2new}^{}−4𝑦−4𝑦_{new}.\end{aligned}
+\begin{aligned}Δ𝑦 & =\frac{1}{2}(𝑦^{′}+𝑦_{′new})⋅Δ𝑥 \\ & =\frac{1}{2}(3𝑥^{2}−2𝑦+(3(𝑥_{new})^{2}−2𝑦_{new}))⋅4 \\ & =6𝑥^{2}+6𝑥_{2new}−4𝑦−4𝑦_{new}.\end{aligned}
 
 
 $$
@@ -206,7 +206,7 @@ We substitute this into $y_\text{new} = y + \Delta y{:}$
 $$
 
 
-\begin{aligned}𝑦_{new} & =𝑦+Δ𝑦 \\ 𝑦_{new} & =𝑦+6𝑥^{2}+6𝑥_{2new}^{}−4𝑦−4𝑦_{new} \\ 𝑦_{new} & =6𝑥^{2}+6(𝑥_{new})^{2}−3𝑦−4𝑦_{new}\end{aligned}
+\begin{aligned}𝑦_{new} & =𝑦+Δ𝑦 \\ 𝑦_{new} & =𝑦+6𝑥^{2}+6𝑥_{2new}−4𝑦−4𝑦_{new} \\ 𝑦_{new} & =6𝑥^{2}+6(𝑥_{new})^{2}−3𝑦−4𝑦_{new}\end{aligned}
 
 
 $$
@@ -276,7 +276,7 @@ Now, let's proceed with the trapezoidal method. In general, $\Delta y$ is given 
 $$
 
 
-\begin{aligned}Δ𝑦 & =\frac{1}{2}(𝑦^{′}+𝑦_{′new}^{})⋅Δ𝑥 \\ & =\frac{1}{2}(2𝑥−𝑦+(2𝑥_{new}−𝑦_{new}))⋅\frac{1}{3} \\ & =\frac{1}{6}(2𝑥−𝑦+2𝑥_{new}−𝑦_{new}) \\ & =\frac{1}{6}(2𝑥−𝑦+2𝑥_{new})−\frac{1}{6}𝑦_{new}.\end{aligned}
+\begin{aligned}Δ𝑦 & =\frac{1}{2}(𝑦^{′}+𝑦_{′new})⋅Δ𝑥 \\ & =\frac{1}{2}(2𝑥−𝑦+(2𝑥_{new}−𝑦_{new}))⋅\frac{1}{3} \\ & =\frac{1}{6}(2𝑥−𝑦+2𝑥_{new}−𝑦_{new}) \\ & =\frac{1}{6}(2𝑥−𝑦+2𝑥_{new})−\frac{1}{6}𝑦_{new}.\end{aligned}
 
 
 $$
@@ -410,7 +410,7 @@ Now, let's proceed with the trapezoidal method. In general, $\Delta y$ is given 
 $$
 
 
-\begin{aligned}Δ𝑦 & =\frac{1}{2}(𝑦^{′}+𝑦_{′new}^{})⋅Δ𝑥 \\ & =\frac{1}{2}((4𝑥−𝑦)+(4𝑥_{new}−𝑦_{new}))⋅1 \\ & =\frac{1}{2}(4𝑥+4𝑥_{new}−𝑦)−\frac{1}{2}𝑦_{new}.\end{aligned}
+\begin{aligned}Δ𝑦 & =\frac{1}{2}(𝑦^{′}+𝑦_{′new})⋅Δ𝑥 \\ & =\frac{1}{2}((4𝑥−𝑦)+(4𝑥_{new}−𝑦_{new}))⋅1 \\ & =\frac{1}{2}(4𝑥+4𝑥_{new}−𝑦)−\frac{1}{2}𝑦_{new}.\end{aligned}
 
 
 $$

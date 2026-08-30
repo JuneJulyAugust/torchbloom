@@ -66,7 +66,7 @@ To find the matrix $J,$ we first find the eigenvalues of the matrix $A$ by solvi
 $$
 
 
-\begin{aligned}\begin{aligned}5−𝜆 & 4 \\ 2 & −2−𝜆\end{aligned} & =0 \\ (5−𝜆)(−2−𝜆)−4⋅2 & =0 \\ 𝜆^{2}−3𝜆−18 & =0 \\ (𝜆−6)(𝜆+3) & =0\end{aligned}
+\begin{aligned}\begin{matrix}5−𝜆 & 4 \\ 2 & −2−𝜆\end{matrix} & =0 \\ (5−𝜆)(−2−𝜆)−4⋅2 & =0 \\ 𝜆^{2}−3𝜆−18 & =0 \\ (𝜆−6)(𝜆+3) & =0\end{aligned}
 
 
 $$
@@ -148,7 +148,7 @@ We first find the eigenvalues of $A$ by solving $\det(A-\lambda I)=0{:}$
 $$
 
 
-\begin{aligned}\begin{aligned}5−𝜆 & 4 \\ −1 & 1−𝜆\end{aligned} & =0 \\ (5−𝜆)(1−𝜆)−4⋅(−1) & =0 \\ 𝜆^{2}−6𝜆+9 & =0 \\ (𝜆−3)(𝜆−3) & =0\end{aligned}
+\begin{aligned}\begin{matrix}5−𝜆 & 4 \\ −1 & 1−𝜆\end{matrix} & =0 \\ (5−𝜆)(1−𝜆)−4⋅(−1) & =0 \\ 𝜆^{2}−6𝜆+9 & =0 \\ (𝜆−3)(𝜆−3) & =0\end{aligned}
 
 
 $$
@@ -194,7 +194,7 @@ To find the matrix $J,$ we first find the eigenvalues of the matrix $A$ by solvi
 $$
 
 
-\begin{aligned}\begin{aligned}2−𝜆 & 3 \\ −3 & −4−𝜆\end{aligned} & =0 \\ (2−𝜆)(−4−𝜆)−3⋅(−3) & =0 \\ 𝜆^{2}+2𝜆+1 & =0 \\ (𝜆+1)(𝜆+1) & =0\end{aligned}
+\begin{aligned}\begin{matrix}2−𝜆 & 3 \\ −3 & −4−𝜆\end{matrix} & =0 \\ (2−𝜆)(−4−𝜆)−3⋅(−3) & =0 \\ 𝜆^{2}+2𝜆+1 & =0 \\ (𝜆+1)(𝜆+1) & =0\end{aligned}
 
 
 $$

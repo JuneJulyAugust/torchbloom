@@ -45,7 +45,7 @@ Since $f(x)$ is odd and $\sin(nx)$ is odd for any $n \geq 1,$ then $f(x)\sin(nx)
 $$
 
 
-\begin{aligned}𝑏_{𝑛} & =\frac{1}{𝜋}∫_{𝜋−𝜋}^{}𝑓(𝑥)sin⁡(𝑛𝑥)\,d𝑥 \\ & =\frac{1}{𝜋}⋅2∫_{𝜋0}^{}𝑓(𝑥)sin⁡(𝑛𝑥)\,d𝑥 \\ & =\frac{2}{𝜋}∫_{𝜋0}^{}𝑓(𝑥)sin⁡(𝑛𝑥)\,d𝑥\end{aligned}
+\begin{aligned}𝑏_{𝑛} & =\frac{1}{𝜋}∫_{𝜋−𝜋}𝑓(𝑥)sin⁡(𝑛𝑥)\,d𝑥 \\ & =\frac{1}{𝜋}⋅2∫_{𝜋0}𝑓(𝑥)sin⁡(𝑛𝑥)\,d𝑥 \\ & =\frac{2}{𝜋}∫_{𝜋0}𝑓(𝑥)sin⁡(𝑛𝑥)\,d𝑥\end{aligned}
 
 
 $$
@@ -107,7 +107,7 @@ Let $F(x)=4x$ for $x\in[0,\pi).$ Find the missing parts in the Fourier sine seri
 $$
 
 
-𝐴𝐴𝐴𝐴𝐴_{𝐴𝐴}^{}
+𝐴𝐴𝐴𝐴𝐴_{𝐴𝐴}
 
 
 $$
@@ -149,7 +149,7 @@ Thus, we obtain
 $$
 
 
-\begin{aligned}𝑏_{𝑛} & =\frac{8}{𝜋}(𝑢𝑣\,_{𝜋0}^{}−∫_{𝜋0}^{}𝑣𝑢^{′}\,d𝑥) \\ & =\frac{8}{𝜋}(−\frac{1}{𝑛}[𝑥cos⁡(𝑛𝑥)]_{𝜋0}^{}+\frac{1}{𝑛}∫_{𝜋0}^{}cos⁡(𝑛𝑥)\,d𝑥) \\ & =−\frac{8}{𝑛𝜋}((𝜋⋅cos⁡(𝑛𝜋)−0⋅cos⁡(0))−\frac{1}{𝑛}[sin⁡(𝑛𝑥)]_{𝜋0}^{}) \\ & =−\frac{8}{𝑛𝜋}(𝜋cos⁡(𝑛𝜋)−\frac{1}{𝑛}(sin⁡(𝑛𝜋)−sin⁡(0))) \\ & =−\frac{8cos⁡(𝑛𝜋)}{𝑛}.\end{aligned}
+\begin{aligned}𝑏_{𝑛} & =\frac{8}{𝜋}(𝑢𝑣\,_{𝜋0}−∫_{𝜋0}𝑣𝑢^{′}\,d𝑥) \\ & =\frac{8}{𝜋}(−\frac{1}{𝑛}[𝑥cos⁡(𝑛𝑥)]_{𝜋0}+\frac{1}{𝑛}∫_{𝜋0}cos⁡(𝑛𝑥)\,d𝑥) \\ & =−\frac{8}{𝑛𝜋}((𝜋⋅cos⁡(𝑛𝜋)−0⋅cos⁡(0))−\frac{1}{𝑛}[sin⁡(𝑛𝑥)]_{𝜋0}) \\ & =−\frac{8}{𝑛𝜋}(𝜋cos⁡(𝑛𝜋)−\frac{1}{𝑛}(sin⁡(𝑛𝜋)−sin⁡(0))) \\ & =−\frac{8cos⁡(𝑛𝜋)}{𝑛}.\end{aligned}
 
 
 $$

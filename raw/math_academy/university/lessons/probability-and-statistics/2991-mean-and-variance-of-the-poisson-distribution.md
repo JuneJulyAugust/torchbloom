@@ -17,7 +17,7 @@ Suppose that the random variable $X$ has a Poisson distribution with a rate para
 $$
 
 
-X \sim \textrm{Po}(\lambda)
+X \sim \text{Po}(\lambda)
 
 
 $$
@@ -27,19 +27,19 @@ The expected value and variance of a Poisson random variable $X$ both equal ${\c
 $$
 
 
-\textrm E[X] =\textrm{Var}[X] = {\color{blue}\lambda}.
+\textrm E[X] =\text{Var}[X] = {\color{blue}\lambda}.
 
 
 $$
 
 We'll justify the formula for the mean at the end of the lesson.
 
-For example, if $X \sim \textrm{Po}({\color{blue}5}),$ then
+For example, if $X \sim \text{Po}({\color{blue}5}),$ then
 
 $$
 
 
-\textrm E[X] = \textrm{Var}[X]={\color{blue}5}.
+\textrm E[X] = \text{Var}[X]={\color{blue}5}.
 
 
 $$
@@ -52,7 +52,7 @@ The number of patients a cardiologist sees weekly can be modeled using a Poisson
 
 #### Explanation
 
-If $X \sim \textrm{Po}({\lambda})$ is a Poisson random variable, then
+If $X \sim \text{Po}({\lambda})$ is a Poisson random variable, then
 
 $$
 
@@ -62,12 +62,12 @@ $$
 
 $$
 
-We are told that the number of patients $X$ seen weekly can be modeled as a Poisson random variable $X \sim \textrm{Po}(30).$ Therefore,
+We are told that the number of patients $X$ seen weekly can be modeled as a Poisson random variable $X \sim \text{Po}(30).$ Therefore,
 
 $$
 
 
-\textrm{E}[ X ] = \lambda = 30.
+\text{E}[ X ] = \lambda = 30.
 
 
 $$
@@ -78,45 +78,45 @@ Finally, the expected number of patients seen annually by the cardiologist equal
 
 #### Question
 
-Given that $X \sim \textrm{Po}\left(\dfrac{20}{9}\right)\!,$ what is $\textrm{SD}[X]?$
+Given that $X \sim \text{Po}\left(\dfrac{20}{9}\right)\!,$ what is $\text{SD}[X]?$
 
 #### Explanation
 
-If $X\sim \textrm{Po}\left(\lambda\right)$ is a Poisson random variable, then
+If $X\sim \text{Po}\left(\lambda\right)$ is a Poisson random variable, then
 
 $$
 
 
-\textrm{SD}[X] = \sqrt{\textrm{Var}[X]} = \sqrt{\lambda}.
+\text{SD}[X] = \sqrt{\text{Var}[X]} = \sqrt{\lambda}.
 
 
 $$
 
-Therefore, for our random variable $X\sim \textrm{Po}\left(\dfrac{20}{9}\right)\!,$ we have the following standard deviation:
+Therefore, for our random variable $X\sim \text{Po}\left(\dfrac{20}{9}\right)\!,$ we have the following standard deviation:
 
 $$
 
 
-\begin{aligned}SD[𝑋] & =\sqrt{√Var[𝑋]} \\ & =\sqrt{√\frac{20}{9}} \\ & =\frac{\sqrt{√20}}{\sqrt{√9}} \\ & =\frac{2\sqrt{√5}}{3}\end{aligned}
+\begin{aligned}SD[𝑋] & =\sqrt{Var[𝑋]} \\ & =\sqrt{\frac{20}{9}} \\ & =\frac{\sqrt{20}}{\sqrt{9}} \\ & =\frac{2\sqrt{5}}{3}\end{aligned}
 
 
 $$
 
 ### Justification for the Mean
 
-Throughout this lesson, we've used the fact that if $X\sim \textrm{Po}(\lambda),$ then
+Throughout this lesson, we've used the fact that if $X\sim \text{Po}(\lambda),$ then
 
 $$
 
 
-\textrm{E}[X] = \lambda.
+\text{E}[X] = \lambda.
 
 
 $$
 
 Let's now justify this rule.
 
-First, recall that if $X\sim \textrm{Po}(\lambda),$ then the PMF of $X$ is given by
+First, recall that if $X\sim \text{Po}(\lambda),$ then the PMF of $X$ is given by
 
 $$
 

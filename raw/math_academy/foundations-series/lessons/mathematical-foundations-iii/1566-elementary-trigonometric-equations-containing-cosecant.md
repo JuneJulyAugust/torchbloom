@@ -22,12 +22,12 @@ $$
 
 $$
 
-Most calculators don't have an $\textrm{arccsc}$ button, so we can't get a principal value immediately. However, by rewriting the equation in terms of $\sin x,$ we can get a principal value:
+Most calculators don't have an $\text{arccsc}$ button, so we can't get a principal value immediately. However, by rewriting the equation in terms of $\sin x,$ we can get a principal value:
 
 $$
 
 
-\begin{aligned}csc⁡𝑥 & =\sqrt{√2} \\ \frac{1}{sin⁡𝑥} & =\sqrt{√2} \\ sin⁡𝑥 & =\frac{1}{\sqrt{√2}}\end{aligned}
+\begin{aligned}csc⁡𝑥 & =\sqrt{2} \\ \frac{1}{sin⁡𝑥} & =\sqrt{2} \\ sin⁡𝑥 & =\frac{1}{\sqrt{2}}\end{aligned}
 
 
 $$

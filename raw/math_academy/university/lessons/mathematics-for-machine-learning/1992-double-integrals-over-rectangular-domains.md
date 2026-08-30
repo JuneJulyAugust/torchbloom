@@ -31,7 +31,7 @@ To evaluate this integral, we first integrate with respect to the inner variable
 $$
 
 
-\begin{aligned}∫_{10}^{}[∫_{10}^{}𝑦𝑒^{𝑥𝑦}\,d𝑥]\,d𝑦.\end{aligned}
+\begin{aligned}∫_{10}[∫_{10}𝑦𝑒^{𝑥𝑦}\,d𝑥]\,d𝑦.\end{aligned}
 
 
 $$
@@ -41,7 +41,7 @@ We now carry out the integration. First, we integrate with respect to $x,$ *trea
 $$
 
 
-\begin{aligned}∫_{10}^{}[∫_{10}^{}𝑦𝑒^{𝑥𝑦}\,d𝑥]\,d𝑦 & =∫_{10}^{}[\frac{𝑦𝑒^{𝑥𝑦}}{𝑦}]_{10}^{}\,d𝑦 \\ & =∫_{10}^{}[𝑒^{𝑥𝑦}]_{10}^{}\,d𝑦 \\ & =∫_{10}^{}𝑒^{𝑦}−𝑒^{0}\,d𝑦 \\ & =∫_{10}^{}𝑒^{𝑦}−1\,d𝑦.\end{aligned}
+\begin{aligned}∫_{10}[∫_{10}𝑦𝑒^{𝑥𝑦}\,d𝑥]\,d𝑦 & =∫_{10}[\frac{𝑦𝑒^{𝑥𝑦}}{𝑦}]_{10}\,d𝑦 \\ & =∫_{10}[𝑒^{𝑥𝑦}]_{10}\,d𝑦 \\ & =∫_{10}𝑒^{𝑦}−𝑒^{0}\,d𝑦 \\ & =∫_{10}𝑒^{𝑦}−1\,d𝑦.\end{aligned}
 
 
 $$
@@ -51,7 +51,7 @@ Finally, we integrate with respect to $y\mathbin{:}$
 $$
 
 
-\begin{aligned}∫_{10}^{}𝑒^{𝑦}−1\,d𝑦 & =[𝑒^{𝑦}−𝑦]_{10}^{} \\ & =[𝑒−1]−[1−0] \\ & =𝑒−2.\end{aligned}
+\begin{aligned}∫_{10}𝑒^{𝑦}−1\,d𝑦 & =[𝑒^{𝑦}−𝑦]_{10} \\ & =[𝑒−1]−[1−0] \\ & =𝑒−2.\end{aligned}
 
 
 $$
@@ -70,7 +70,7 @@ $$
 
 #### Question
 
-Evaluate the repeated integral $\displaystyle \int_{2}^{4} \int_{0}^{2} \dfrac{x^3}{y^2} \, \textrm{d}x \, \textrm{d}y.$
+Evaluate the repeated integral $\displaystyle \int_{2}^{4} \int_{0}^{2} \dfrac{x^3}{y^2} \, \text{d}x \, \text{d}y.$
 
 #### Explanation
 
@@ -79,7 +79,7 @@ First, we evaluate the inner integral by integrating with respect to $x$, treati
 $$
 
 
-\begin{aligned}∫_{42}^{}[∫_{20}^{}\frac{𝑥^{3}}{𝑦^{2}}\,d𝑥]d𝑦 & =∫_{42}^{}\frac{1}{𝑦^{2}}[\frac{𝑥^{4}}{4}]_{20}^{}\,d𝑦 \\ & =∫_{42}^{}\frac{1}{𝑦^{2}}(\frac{2^{4}}{4}−\frac{0^{4}}{4})d𝑦 \\ & =∫_{42}^{}\frac{4}{𝑦^{2}}\,d𝑦 \\ & =4∫_{42}^{}\frac{1}{𝑦^{2}}\,d𝑦\end{aligned}
+\begin{aligned}∫_{42}[∫_{20}\frac{𝑥^{3}}{𝑦^{2}}\,d𝑥]d𝑦 & =∫_{42}\frac{1}{𝑦^{2}}[\frac{𝑥^{4}}{4}]_{20}\,d𝑦 \\ & =∫_{42}\frac{1}{𝑦^{2}}(\frac{2^{4}}{4}−\frac{0^{4}}{4})d𝑦 \\ & =∫_{42}\frac{4}{𝑦^{2}}\,d𝑦 \\ & =4∫_{42}\frac{1}{𝑦^{2}}\,d𝑦\end{aligned}
 
 
 $$
@@ -89,7 +89,7 @@ Then, we integrate with respect to $y\mathbin{:}$
 $$
 
 
-\begin{aligned}4∫_{42}^{}\frac{1}{𝑦^{2}}\,d𝑦 & =4[−\frac{1}{𝑦}]_{42}^{} \\ & =4(−\frac{1}{4}−(−\frac{1}{2})) \\ & =4⋅\frac{1}{4} \\ & =1\end{aligned}
+\begin{aligned}4∫_{42}\frac{1}{𝑦^{2}}\,d𝑦 & =4[−\frac{1}{𝑦}]_{42} \\ & =4(−\frac{1}{4}−(−\frac{1}{2})) \\ & =4⋅\frac{1}{4} \\ & =1\end{aligned}
 
 
 $$
@@ -157,7 +157,7 @@ First, we express our double integral as a repeated integral:
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}\frac{𝑦}{𝑥^{2}}\,d𝐴 & =∫_{30}^{}[∫_{42}^{}\frac{𝑦}{𝑥^{2}}\,d𝑥]d𝑦\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}\frac{𝑦}{𝑥^{2}}\,d𝐴 & =∫_{30}[∫_{42}\frac{𝑦}{𝑥^{2}}\,d𝑥]d𝑦\end{aligned}
 
 
 $$
@@ -167,7 +167,7 @@ Now, we evaluate the inner integral by integrating with respect to $x$, treating
 $$
 
 
-\begin{aligned}∫_{30}^{}[∫_{42}^{}\frac{𝑦}{𝑥^{2}}\,d𝑥]d𝑦 & =∫_{30}^{}[−\frac{𝑦}{𝑥}]_{42}^{}d𝑦 \\ & =∫_{30}^{}(−\frac{𝑦}{4}−(−\frac{𝑦}{2}))\,d𝑦 \\ & =∫_{30}^{}\frac{𝑦}{4}\,d𝑦\end{aligned}
+\begin{aligned}∫_{30}[∫_{42}\frac{𝑦}{𝑥^{2}}\,d𝑥]d𝑦 & =∫_{30}[−\frac{𝑦}{𝑥}]_{42}d𝑦 \\ & =∫_{30}(−\frac{𝑦}{4}−(−\frac{𝑦}{2}))\,d𝑦 \\ & =∫_{30}\frac{𝑦}{4}\,d𝑦\end{aligned}
 
 
 $$
@@ -177,7 +177,7 @@ Finally, we integrate with respect to $y\mathbin{:}$
 $$
 
 
-\begin{aligned}∫_{30}^{}\frac{𝑦}{4}\,d𝑦 & =[\frac{𝑦^{2}}{8}]_{30}^{} \\ & =\frac{3^{2}}{8}−\frac{0^{2}}{8} \\ & =\frac{9}{8}\end{aligned}
+\begin{aligned}∫_{30}\frac{𝑦}{4}\,d𝑦 & =[\frac{𝑦^{2}}{8}]_{30} \\ & =\frac{3^{2}}{8}−\frac{0^{2}}{8} \\ & =\frac{9}{8}\end{aligned}
 
 
 $$
@@ -251,7 +251,7 @@ then
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}𝑓(𝑥,𝑦)\,d𝐴 & =∫_{𝑑𝑐}^{}∫_{𝑏𝑎}^{}𝑓(𝑥,𝑦) d𝑥\,d𝑦 \\ & =∫_{𝑏𝑎}^{}∫_{𝑑𝑐}^{}𝑓(𝑥,𝑦) d𝑦\,d𝑥\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}𝑓(𝑥,𝑦)\,d𝐴 & =∫_{𝑑𝑐}∫_{𝑏𝑎}𝑓(𝑥,𝑦) d𝑥\,d𝑦 \\ & =∫_{𝑏𝑎}∫_{𝑑𝑐}𝑓(𝑥,𝑦) d𝑦\,d𝑥\end{aligned}
 
 
 $$
@@ -281,7 +281,7 @@ Therefore,
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}𝑒^{\sqrt{√𝑥𝑦}}\,d𝐴 & =∫_{10}^{}[∫_{20}^{}𝑒^{\sqrt{√𝑥𝑦}}\,d𝑥]d𝑦.\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}𝑒^{\sqrt{𝑥𝑦}}\,d𝐴 & =∫_{10}[∫_{20}𝑒^{\sqrt{𝑥𝑦}}\,d𝑥]d𝑦.\end{aligned}
 
 
 $$

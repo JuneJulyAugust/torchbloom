@@ -61,7 +61,7 @@ So, if we substitute these into our quadratic form expression, we get:
 $$
 
 
-\begin{aligned}𝑄(𝐱) & =𝑥_{21}^{}−8𝑥_{1}𝑥_{2}+𝑥_{22}^{} \\ & =(2𝑦_{1}−𝑦_{2})^{2}+8(2𝑦_{1}−𝑦_{2})𝑦_{2}+(−𝑦_{2})^{2} \\ & =4𝑦_{21}^{}−4𝑦_{1}𝑦_{2}+𝑦_{22}^{}+16𝑦_{1}𝑦_{2}−8𝑦_{22}^{}+𝑦_{22}^{} \\ & =4𝑦_{21}^{}+12𝑦_{1}𝑦_{2}−6𝑦_{22}^{}\end{aligned}
+\begin{aligned}𝑄(𝐱) & =𝑥_{21}−8𝑥_{1}𝑥_{2}+𝑥_{22} \\ & =(2𝑦_{1}−𝑦_{2})^{2}+8(2𝑦_{1}−𝑦_{2})𝑦_{2}+(−𝑦_{2})^{2} \\ & =4𝑦_{21}−4𝑦_{1}𝑦_{2}+𝑦_{22}+16𝑦_{1}𝑦_{2}−8𝑦_{22}+𝑦_{22} \\ & =4𝑦_{21}+12𝑦_{1}𝑦_{2}−6𝑦_{22}\end{aligned}
 
 
 $$
@@ -109,7 +109,7 @@ Now, we substitute these into our quadratic form expression:
 $$
 
 
-\begin{aligned}𝑄(𝐱) & =𝑥_{21}^{}−𝑥_{22}^{} \\ & =(𝑦_{1}−𝑦_{2})^{2}−(2𝑦_{2})^{2} \\ & =𝑦_{21}^{}−2𝑦_{1}𝑦_{2}+𝑦_{22}^{}−4𝑦_{22}^{} \\ & =𝑦_{21}^{}−2𝑦_{1}𝑦_{2}−3𝑦_{22}^{}\end{aligned}
+\begin{aligned}𝑄(𝐱) & =𝑥_{21}−𝑥_{22} \\ & =(𝑦_{1}−𝑦_{2})^{2}−(2𝑦_{2})^{2} \\ & =𝑦_{21}−2𝑦_{1}𝑦_{2}+𝑦_{22}−4𝑦_{22} \\ & =𝑦_{21}−2𝑦_{1}𝑦_{2}−3𝑦_{22}\end{aligned}
 
 
 $$
@@ -167,7 +167,7 @@ Now, we substitute these into our quadratic form expression:
 $$
 
 
-\begin{aligned}𝑄(𝐱) & =𝑥_{1}𝑥_{2}+2𝑥_{22}^{} \\ & =(−𝑦_{2})(−𝑦_{1}−2𝑦_{2})+2(−𝑦_{1}−2𝑦_{2})^{2} \\ & =𝑦_{2}𝑦_{1}+2𝑦_{22}^{}+2𝑦_{21}^{}+8𝑦_{1}𝑦_{2}+8𝑦_{22}^{} \\ & =2𝑦_{21}^{}+9𝑦_{1}𝑦_{2}+10𝑦_{22}^{}\end{aligned}
+\begin{aligned}𝑄(𝐱) & =𝑥_{1}𝑥_{2}+2𝑥_{22} \\ & =(−𝑦_{2})(−𝑦_{1}−2𝑦_{2})+2(−𝑦_{1}−2𝑦_{2})^{2} \\ & =𝑦_{2}𝑦_{1}+2𝑦_{22}+2𝑦_{21}+8𝑦_{1}𝑦_{2}+8𝑦_{22} \\ & =2𝑦_{21}+9𝑦_{1}𝑦_{2}+10𝑦_{22}\end{aligned}
 
 
 $$
@@ -257,7 +257,7 @@ which means that the matrix of our form in the new basis is
 $$
 
 
-\begin{aligned}𝑃^{𝑇}\,𝐴𝑃 & =[\begin{aligned}−1 & 2 \\ −1 & 1\end{aligned}]^{𝑇}[\begin{aligned}1 & −2 \\ −2 & 0\end{aligned}][\begin{aligned}−1 & 2 \\ −1 & 1\end{aligned}] \\ & =[\begin{aligned}−1 & −1 \\ 2 & 1\end{aligned}][\begin{aligned}1 & −2 \\ −2 & 0\end{aligned}][\begin{aligned}−1 & 2 \\ −1 & 1\end{aligned}] \\ & =[\begin{aligned}1 & 2 \\ 0 & −4\end{aligned}][\begin{aligned}−1 & 2 \\ −1 & 1\end{aligned}] \\ & =[\begin{aligned}−3 & 4 \\ 4 & −4\end{aligned}]\end{aligned}
+\begin{aligned}𝑃^{𝑇}\,𝐴𝑃 & =[\begin{matrix}−1 & 2 \\ −1 & 1\end{matrix}]^{𝑇}[\begin{matrix}1 & −2 \\ −2 & 0\end{matrix}][\begin{matrix}−1 & 2 \\ −1 & 1\end{matrix}] \\ & =[\begin{matrix}−1 & −1 \\ 2 & 1\end{matrix}][\begin{matrix}1 & −2 \\ −2 & 0\end{matrix}][\begin{matrix}−1 & 2 \\ −1 & 1\end{matrix}] \\ & =[\begin{matrix}1 & 2 \\ 0 & −4\end{matrix}][\begin{matrix}−1 & 2 \\ −1 & 1\end{matrix}] \\ & =[\begin{matrix}−3 & 4 \\ 4 & −4\end{matrix}]\end{aligned}
 
 
 $$

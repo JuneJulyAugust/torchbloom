@@ -14,7 +14,7 @@ Topic ID: 928
 
 Using De Moivre's theorem, it's possible to express any integer power of $\cos\theta$ or $\sin\theta$ in terms of single powers of $\cos\theta, \cos2\theta, \ldots$ for cosine, or $\sin\theta, \sin2\theta, \ldots$ for sine. The key is to use the so-called **power-reducing formulas**.
 
-Let $z=\cos\theta + \textrm{i}\sin\theta.$ Then, we have the following:
+Let $z=\cos\theta + \text{i}\sin\theta.$ Then, we have the following:
 
 - The **power-reducing formula for cosine** is
 
@@ -26,7 +26,7 @@ At the end of this lesson, we will walk through how to derive the formulas from 
 
 Let's use the power-reduction formula for cosine to express $\cos^4\theta$ in terms of $\cos\theta, \cos2\theta,\ldots,$ etc.
 
-Let $z = \cos\theta + \textrm{i}\sin\theta.$ We start with the power-reducing formulas for cosine:
+Let $z = \cos\theta + \text{i}\sin\theta.$ We start with the power-reducing formulas for cosine:
 
 $$
 
@@ -94,7 +94,7 @@ Find the value of the constant $B$ in the trigonometric identity $\cos^3\theta =
 
 #### Explanation
 
-Let $z = \cos\theta + \textrm{i}\sin\theta.$ We start with the following identities:
+Let $z = \cos\theta + \text{i}\sin\theta.$ We start with the following identities:
 
 $$
 
@@ -164,7 +164,7 @@ Find the value of the constant $A$ in the trigonometric identity $\sin^5\theta =
 
 #### Explanation
 
-Let $z = \cos\theta + \textrm{i}\sin\theta.$ We start with the following identities:
+Let $z = \cos\theta + \text{i}\sin\theta.$ We start with the following identities:
 
 $$
 
@@ -182,7 +182,7 @@ $$
 
 
 
-\left(z - \dfrac{1}{z}\right)^5 = (2\textrm{i}\sin\theta)^5 \%=32\textrm{i}^5\sin^5\theta =32\textrm{i}\sin^5\theta \,.
+\left(z - \dfrac{1}{z}\right)^5 = (2\text{i}\sin\theta)^5 \%=32\text{i}^5\sin^5\theta =32\text{i}\sin^5\theta \,.
 
 
 
@@ -200,19 +200,19 @@ $$
 
 $$
 
-By equating $32\textrm{i} \sin^5 \theta$ with the above, we get
+By equating $32\text{i} \sin^5 \theta$ with the above, we get
 
 $$
 
 
 
-32\textrm{i}\sin^5\theta = 2\textrm{i}\sin5\theta - 10\textrm{i}\sin3\theta + 20\textrm{i}\sin\theta.
+32\text{i}\sin^5\theta = 2\text{i}\sin5\theta - 10\text{i}\sin3\theta + 20\text{i}\sin\theta.
 
 
 
 $$
 
-Finally, we divide both sides of the equation by $32\textrm{i},$ which gives
+Finally, we divide both sides of the equation by $32\text{i},$ which gives
 
 $$
 
@@ -246,7 +246,7 @@ where $A, B$ and $C$ are constants, find the value of $A.$
 
 #### Explanation
 
-Let $z = \cos\theta + \textrm{i}\sin\theta.$ We start with the following identities:
+Let $z = \cos\theta + \text{i}\sin\theta.$ We start with the following identities:
 
 $$
 
@@ -264,7 +264,7 @@ $$
 
 
 
-\left(z - \frac{1}{z}\right)^4 = (2\textrm{i}\sin\theta)^4 \%=16\textrm{i}^4\sin^4\theta =16\sin^4\theta .
+\left(z - \frac{1}{z}\right)^4 = (2\text{i}\sin\theta)^4 \%=16\text{i}^4\sin^4\theta =16\sin^4\theta .
 
 
 
@@ -312,7 +312,7 @@ Therefore, $A=\dfrac{1}{8}.$
 
 Now that we've had some practice using the power-reducing formulas, let's see where they come from.
 
-First, let $z = \cos \theta + \textrm{i} \sin \theta.$ Using De Moivre's theorem, we have
+First, let $z = \cos \theta + \text{i} \sin \theta.$ Using De Moivre's theorem, we have
 
 $$
 
@@ -342,7 +342,7 @@ $$
 
 
 
-\begin{aligned}(𝑧^{𝑛}+\frac{1}{𝑧^{𝑛}}) & =\overset{\overset{[cos⁡(𝑛𝜃)+isin⁡(𝑛𝜃)]}{}}{𝑧^{𝑛}}+\overset{\overset{[cos⁡(𝑛𝜃)−isin⁡(𝑛𝜃)]}{}}{\frac{1}{𝑧^{𝑛}}} \\ & =2cos⁡(𝑛𝜃),\end{aligned}
+\begin{aligned}(𝑧^{𝑛}+\frac{1}{𝑧^{𝑛}}) & =\overset{[cos⁡(𝑛𝜃)+isin⁡(𝑛𝜃)]}{𝑧^{𝑛}}+\overset{[cos⁡(𝑛𝜃)−isin⁡(𝑛𝜃)]}{\frac{1}{𝑧^{𝑛}}} \\ & =2cos⁡(𝑛𝜃),\end{aligned}
 
 
 
@@ -354,7 +354,7 @@ $$
 
 
 
-\begin{aligned}(𝑧^{𝑛}−\frac{1}{𝑧^{𝑛}}) & =\overset{\overset{[cos⁡(𝑛𝜃)+isin⁡(𝑛𝜃)]}{}}{𝑧^{𝑛}}−\overset{\overset{[cos⁡(𝑛𝜃)−isin⁡(𝑛𝜃)]}{}}{\frac{1}{𝑧^{𝑛}}} \\ & =2isin⁡(𝑛𝜃).\end{aligned}
+\begin{aligned}(𝑧^{𝑛}−\frac{1}{𝑧^{𝑛}}) & =\overset{[cos⁡(𝑛𝜃)+isin⁡(𝑛𝜃)]}{𝑧^{𝑛}}−\overset{[cos⁡(𝑛𝜃)−isin⁡(𝑛𝜃)]}{\frac{1}{𝑧^{𝑛}}} \\ & =2isin⁡(𝑛𝜃).\end{aligned}
 
 
 

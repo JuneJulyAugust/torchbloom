@@ -45,7 +45,7 @@ is an affine transformation because it can be expressed in the form $\mathbf x =
 $$
 
 
-\begin{aligned}[\begin{aligned}𝑥 \\ 𝑦\end{aligned}] & =[\begin{aligned}𝑢−𝑣+1 \\ 2𝑢+𝑣−3\end{aligned}] \\ & =[\begin{aligned}𝑢−𝑣 \\ 2𝑢+𝑣\end{aligned}]+[\begin{aligned}1 \\ −3\end{aligned}] \\ & =\underset{𝐴}{\underset{}{[\begin{aligned}1 & −1 \\ 2 & 1\end{aligned}]}}⋅\underset{𝐮}{\underset{}{[\begin{aligned}𝑢 \\ 𝑣\end{aligned}]}}+\underset{𝐛}{\underset{}{[\begin{aligned}1 \\ −3\end{aligned}]}}\end{aligned}
+\begin{aligned}[\begin{matrix}𝑥 \\ 𝑦\end{matrix}] & =[\begin{matrix}𝑢−𝑣+1 \\ 2𝑢+𝑣−3\end{matrix}] \\ & =[\begin{matrix}𝑢−𝑣 \\ 2𝑢+𝑣\end{matrix}]+[\begin{matrix}1 \\ −3\end{matrix}] \\ & =\underset{𝐴}{\underset{}{[\begin{matrix}1 & −1 \\ 2 & 1\end{matrix}]}}⋅\underset{𝐮}{\underset{}{[\begin{matrix}𝑢 \\ 𝑣\end{matrix}]}}+\underset{𝐛}{\underset{}{[\begin{matrix}1 \\ −3\end{matrix}]}}\end{aligned}
 
 
 $$
@@ -147,7 +147,7 @@ We can carry out the matrix operations using the matrix form, as follows:
 $$
 
 
-\begin{aligned}[\begin{aligned}𝑥 \\ 𝑦\end{aligned}] & =\overset{\overset{[\begin{aligned}3 & −1 \\ 1 & −5\end{aligned}]}{}}{𝐴}⋅\overset{\overset{[\begin{aligned}𝑢 \\ 𝑣\end{aligned}]}{}}{𝐮}+\overset{\overset{[\begin{aligned}1 \\ 0\end{aligned}]}{}}{𝐛} \\ & =[\begin{aligned}3𝑢−𝑣 \\ 𝑢−5𝑣\end{aligned}]+[\begin{aligned}1 \\ 0\end{aligned}] \\ & =[\begin{aligned}3𝑢−𝑣+1 \\ 𝑢−5𝑣\end{aligned}]\end{aligned}
+\begin{aligned}[\begin{matrix}𝑥 \\ 𝑦\end{matrix}] & =\overset{[\begin{matrix}3 & −1 \\ 1 & −5\end{matrix}]}{}}{𝐴}⋅\overset{[\begin{matrix}𝑢 \\ 𝑣\end{matrix}]}{}}{𝐮}+\overset{[\begin{matrix}1 \\ 0\end{matrix}]}{}}{𝐛} \\ & =[\begin{matrix}3𝑢−𝑣 \\ 𝑢−5𝑣\end{matrix}]+[\begin{matrix}1 \\ 0\end{matrix}] \\ & =[\begin{matrix}3𝑢−𝑣+1 \\ 𝑢−5𝑣\end{matrix}]\end{aligned}
 
 
 $$
@@ -225,7 +225,7 @@ Separating the constants and expressing the linear part as a product, we get
 $$
 
 
-\begin{aligned}[\begin{aligned}𝑥 \\ 𝑦\end{aligned}] & =[\begin{aligned}5𝑢+𝑣−6 \\ 2𝑢+4𝑣\end{aligned}] \\ & =[\begin{aligned}5𝑢+𝑣 \\ 2𝑢+4𝑣\end{aligned}]+[\begin{aligned}−6 \\ 0\end{aligned}] \\ & =\underset{𝐴}{\underset{}{[\begin{aligned}5 & 1 \\ 2 & 4\end{aligned}]}}⋅\underset{𝐮}{\underset{}{[\begin{aligned}𝑢 \\ 𝑣\end{aligned}]}}+\underset{𝐛}{\underset{}{[\begin{aligned}−6 \\ 0\end{aligned}]}}.\end{aligned}
+\begin{aligned}[\begin{matrix}𝑥 \\ 𝑦\end{matrix}] & =[\begin{matrix}5𝑢+𝑣−6 \\ 2𝑢+4𝑣\end{matrix}] \\ & =[\begin{matrix}5𝑢+𝑣 \\ 2𝑢+4𝑣\end{matrix}]+[\begin{matrix}−6 \\ 0\end{matrix}] \\ & =\underset{𝐴}{\underset{}{[\begin{matrix}5 & 1 \\ 2 & 4\end{matrix}]}}⋅\underset{𝐮}{\underset{}{[\begin{matrix}𝑢 \\ 𝑣\end{matrix}]}}+\underset{𝐛}{\underset{}{[\begin{matrix}−6 \\ 0\end{matrix}]}}.\end{aligned}
 
 
 $$

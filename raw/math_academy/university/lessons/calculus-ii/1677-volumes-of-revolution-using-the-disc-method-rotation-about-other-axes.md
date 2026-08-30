@@ -25,7 +25,7 @@ We can find the volume using the disc method:
 $$
 
 
-V = \pi \int_{a}^{b} \left[ r(x) \right]^2 \:\textrm{d}x
+V = \pi \int_{a}^{b} \left[ r(x) \right]^2 \:\text{d}x
 
 
 $$
@@ -43,7 +43,7 @@ To find an expression for the radius, we can take the difference between the upp
 $$
 
 
-\begin{aligned}𝑟(𝑥) & =(upper function)−(lower function) \\ & =(\sqrt{√𝑥})−(1) \\ & =\sqrt{√𝑥}−1.\end{aligned}
+\begin{aligned}𝑟(𝑥) & =(upper function)−(lower function) \\ & =(\sqrt{𝑥})−(1) \\ & =\sqrt{𝑥}−1.\end{aligned}
 
 
 $$
@@ -53,7 +53,7 @@ Finally, we can express the volume as the following integral:
 $$
 
 
-\begin{aligned}𝑉 & =𝜋∫_{31}^{}(\sqrt{√𝑥}−1)^{2}\,d𝑥.\end{aligned}
+\begin{aligned}𝑉 & =𝜋∫_{31}(\sqrt{𝑥}−1)^{2}\,d𝑥.\end{aligned}
 
 
 $$
@@ -85,7 +85,7 @@ Therefore, the integral that gives our volume is
 $$
 
 
-\begin{aligned}𝑉 & =𝜋∫_{31}^{}[\,(upper function)−(lower function)\,]^{2}\,d𝑥 \\ & =𝜋∫_{31}^{}[\,(\frac{3}{2}𝑥+\frac{1}{2})−(1)\,]^{2}\,d𝑥 \\ & =𝜋∫_{31}^{}(\frac{3}{2}𝑥−\frac{1}{2})^{2}\,d𝑥.\end{aligned}
+\begin{aligned}𝑉 & =𝜋∫_{31}[\,(upper function)−(lower function)\,]^{2}\,d𝑥 \\ & =𝜋∫_{31}[\,(\frac{3}{2}𝑥+\frac{1}{2})−(1)\,]^{2}\,d𝑥 \\ & =𝜋∫_{31}(\frac{3}{2}𝑥−\frac{1}{2})^{2}\,d𝑥.\end{aligned}
 
 
 $$
@@ -117,7 +117,7 @@ Therefore, the integral that gives our volume is
 $$
 
 
-\begin{aligned} V &= \pi \int_{0}^{1} \big[\: \left({\color{blue}\textrm{upper function}}\right) - \left({\color{brown}\textrm{lower function}}\right) \:\big]^2\,\textrm{d}x \\\[5pt] &= \pi \int_{0}^{1} \left[\: {\color{blue}x^2 }- \left({\color{brown}-1} \right)\:\right]^2\,\textrm{d}x \\\[5pt] &= \pi\int_{0}^{1} (x^2+1)^2 \, \textrm{d}x \\\[5pt] &= \pi\int_{0}^{1} (x^4+2x^2+1) \, \textrm{d}x \\\[5pt] &= \pi \left(\dfrac{x^5}{5}+\dfrac{2x^3}{3}+x \right) \Bigg|_{0}^{1} \\\[5pt] &= \pi \left( \left[ \dfrac{1}{5}+\dfrac{2}{3}+1 \right] - 0 \right) \\\[5pt] &= \dfrac{28 \pi}{15}. \end{aligned}
+\begin{aligned} V &= \pi \int_{0}^{1} \big[\: \left({\color{blue}\text{upper function}}\right) - \left({\color{brown}\text{lower function}}\right) \:\big]^2\,\text{d}x \\[5pt] &= \pi \int_{0}^{1} \left[\: {\color{blue}x^2 }- \left({\color{brown}-1} \right)\:\right]^2\,\text{d}x \\[5pt] &= \pi\int_{0}^{1} (x^2+1)^2 \, \text{d}x \\[5pt] &= \pi\int_{0}^{1} (x^4+2x^2+1) \, \text{d}x \\[5pt] &= \pi \left(\dfrac{x^5}{5}+\dfrac{2x^3}{3}+x \right) \Bigg|_{0}^{1} \\[5pt] &= \pi \left( \left[ \dfrac{1}{5}+\dfrac{2}{3}+1 \right] - 0 \right) \\[5pt] &= \dfrac{28 \pi}{15}. \end{aligned}
 
 
 $$
@@ -137,7 +137,7 @@ To find the volume of this solid, we can use the disc method, as usual:
 $$
 
 
-V = \pi \int_{c}^{d} \left[ r(y) \right]^2 \:\textrm{d}y
+V = \pi \int_{c}^{d} \left[ r(y) \right]^2 \:\text{d}y
 
 
 $$
@@ -157,7 +157,7 @@ So, the radius is given by
 $$
 
 
-\begin{aligned}𝑟(𝑦) & =(right function)−(left function) \\ & =(\sqrt{√𝑦})−(1) \\ & =\sqrt{√𝑦}−1\,.\end{aligned}
+\begin{aligned}𝑟(𝑦) & =(right function)−(left function) \\ & =(\sqrt{𝑦})−(1) \\ & =\sqrt{𝑦}−1\,.\end{aligned}
 
 
 $$
@@ -167,7 +167,7 @@ Therefore, the volume is represented by the integral
 $$
 
 
-V = \pi \int_1^4 \left( \sqrt{y} - 1 \right)^2 \,\textrm{d}y \, .
+V = \pi \int_1^4 \left( \sqrt{y} - 1 \right)^2 \,\text{d}y \, .
 
 
 $$
@@ -209,7 +209,7 @@ Therefore, the integral that gives our volume is
 $$
 
 
-\begin{aligned}𝑉 & =𝜋∫_{10}^{}[\,(right function)−(left function)\,]^{2}\,d𝑦 \\ & =𝜋∫_{10}^{}[\,(𝑦^{3}+1)−(1)\,]^{2}\,d𝑦 \\ & =𝜋∫_{10}^{}(𝑦^{3})^{2}d𝑦 \\ & =𝜋∫_{10}^{}𝑦^{6}d𝑦.\end{aligned}
+\begin{aligned}𝑉 & =𝜋∫_{10}[\,(right function)−(left function)\,]^{2}\,d𝑦 \\ & =𝜋∫_{10}[\,(𝑦^{3}+1)−(1)\,]^{2}\,d𝑦 \\ & =𝜋∫_{10}(𝑦^{3})^{2}d𝑦 \\ & =𝜋∫_{10}𝑦^{6}d𝑦.\end{aligned}
 
 
 $$
@@ -229,7 +229,7 @@ We want to determine the limits of integration. To do so, we find the intersecti
 $$
 
 
-\begin{aligned}\sqrt{√𝑦} & =2 \\ 𝑦 & =4\end{aligned}
+\begin{aligned}\sqrt{𝑦} & =2 \\ 𝑦 & =4\end{aligned}
 
 
 $$
@@ -251,7 +251,7 @@ Therefore, the integral that gives our volume is
 $$
 
 
-\begin{aligned}𝑉 & =𝜋∫_{40}^{}[\,(right function)−(left function)\,]^{2}\,d𝑦 \\ & =𝜋∫_{40}^{}[\,(2)−(\sqrt{√𝑦})\,]^{2}\,d𝑦 \\ & =𝜋∫_{40}^{}[2−\sqrt{√𝑦}]^{2}d𝑦 \\ & =𝜋∫_{40}^{}(4−4\sqrt{√𝑦}+𝑦)d𝑦 \\ & =𝜋[4𝑦−\frac{8}{3}𝑦^{3/2}+\frac{𝑦^{2}}{2}]_{40}^{} \\ & =𝜋[(4(4)−\frac{8}{3}(4)^{3/2}+\frac{(4)^{2}}{2})−(0)] \\ & =𝜋[16−\frac{64}{3}+8] \\ & =\frac{8𝜋}{3}.\end{aligned}
+\begin{aligned}𝑉 & =𝜋∫_{40}[\,(right function)−(left function)\,]^{2}\,d𝑦 \\ & =𝜋∫_{40}[\,(2)−(\sqrt{𝑦})\,]^{2}\,d𝑦 \\ & =𝜋∫_{40}[2−\sqrt{𝑦}]^{2}d𝑦 \\ & =𝜋∫_{40}(4−4\sqrt{𝑦}+𝑦)d𝑦 \\ & =𝜋[4𝑦−\frac{8}{3}𝑦^{3/2}+\frac{𝑦^{2}}{2}]_{40} \\ & =𝜋[(4(4)−\frac{8}{3}(4)^{3/2}+\frac{(4)^{2}}{2})−(0)] \\ & =𝜋[16−\frac{64}{3}+8] \\ & =\frac{8𝜋}{3}.\end{aligned}
 
 
 $$

@@ -30,7 +30,7 @@ Starting from the definition of the Laplace transform,
 $$
 
 
-\begin{aligned}L{𝑒^{𝑎𝑡}𝑓(𝑡)} & =∫_{∞0}^{}𝑒^{−𝑠𝑡}\,𝑒^{𝑎𝑡}\,𝑓(𝑡)\,d𝑡 \\ & =∫_{∞0}^{}𝑒^{−(𝑠−𝑎)𝑡}\,𝑓(𝑡)\,d𝑡.\end{aligned}
+\begin{aligned}L{𝑒^{𝑎𝑡}𝑓(𝑡)} & =∫_{∞0}𝑒^{−𝑠𝑡}\,𝑒^{𝑎𝑡}\,𝑓(𝑡)\,d𝑡 \\ & =∫_{∞0}𝑒^{−(𝑠−𝑎)𝑡}\,𝑓(𝑡)\,d𝑡.\end{aligned}
 
 
 $$
@@ -40,7 +40,7 @@ Now recall that
 $$
 
 
-F(s)=\int_0^{\infty} e^{-st}\,f(t)\,\textrm{d}t, \qquad s>s_0.
+F(s)=\int_0^{\infty} e^{-st}\,f(t)\,\text{d}t, \qquad s>s_0.
 
 
 $$
@@ -50,7 +50,7 @@ Comparing the two integrals, we see that
 $$
 
 
-\int_0^{\infty} e^{-(s-a)t}\,f(t)\,\textrm{d}t =F(s-a).
+\int_0^{\infty} e^{-(s-a)t}\,f(t)\,\text{d}t =F(s-a).
 
 
 $$
@@ -334,17 +334,17 @@ Starting from the definition of the Laplace transform, we have
 $$
 
 
-\begin{aligned}L{𝑒^{−7𝑡}𝑓(𝑡)} & =∫_{∞0}^{}𝑒^{−𝑠𝑡}⋅𝑒^{−7𝑡}\,𝑓(𝑡)\,d𝑡 \\ & =∫_{∞0}^{}𝑒^{−(𝑠+7)𝑡}\,𝑓(𝑡)\,d𝑡\end{aligned}
+\begin{aligned}L{𝑒^{−7𝑡}𝑓(𝑡)} & =∫_{∞0}𝑒^{−𝑠𝑡}⋅𝑒^{−7𝑡}\,𝑓(𝑡)\,d𝑡 \\ & =∫_{∞0}𝑒^{−(𝑠+7)𝑡}\,𝑓(𝑡)\,d𝑡\end{aligned}
 
 
 $$
 
-Now, recall that $\displaystyle F(s) = \int_0^{\infty} e^{-st} \, f(t)\, \textrm{d}t,$ where $s > s_0.$ Therefore,
+Now, recall that $\displaystyle F(s) = \int_0^{\infty} e^{-st} \, f(t)\, \text{d}t,$ where $s > s_0.$ Therefore,
 
 $$
 
 
-\int_0^{\infty} e^{-(s+7)t} \, f(t)\, \textrm{d}t = F(s+7),
+\int_0^{\infty} e^{-(s+7)t} \, f(t)\, \text{d}t = F(s+7),
 
 
 $$

@@ -12,7 +12,7 @@ Topic ID: 1203
 
 ### Introduction
 
-The region $\textrm{R},$ shown below, is the area under the graph of $f(x) = 2x+1$ over the interval $[1,3].$ What is the height of the rectangle defined over the same interval that has the same area as $\textrm{R}?$
+The region $\text{R},$ shown below, is the area under the graph of $f(x) = 2x+1$ over the interval $[1,3].$ What is the height of the rectangle defined over the same interval that has the same area as $\text{R}?$
 
 ![Instructional graphic](../../../lesson-assets/ap-calculus-ab/topic-1203/d19771df3f76b9a4.png)
 
@@ -21,7 +21,7 @@ Using the formula for the area of a trapezoid, we have that
 $$
 
 
-\begin{aligned} \textrm{Area}\,(\textrm{R}) = \dfrac{1}{2}(3+7)(3-1)= 10.\end{aligned}
+\begin{aligned} \text{Area}\,(\text{R}) = \dfrac{1}{2}(3+7)(3-1)= 10.\end{aligned}
 
 
 $$
@@ -71,7 +71,7 @@ Applying the mean value theorem for integrals, we have
 $$
 
 
-\begin{aligned} f(c) (b-a) & = \int_a^b f(x) \, \textrm dx \\\[5pt] f(c) & = \dfrac {1}{b-a} \int_a^b f(x) \, \textrm dx \\\[5pt] & = \dfrac {1}{3-0} \int_0^3 (x^2-2x+2) \, \textrm dx \\\[5pt] & = \left . \dfrac {1}{3} \cdot \left[\dfrac{x^3}{3} -x^2 +2x\right] \right|_0^3 \\\[5pt] & = \dfrac {1}{3} \cdot \left[ \left(\dfrac{3^3}{3} -3^2 +2\cdot3\right) - \left(\dfrac{0^3}{3} -0^2 +2\cdot0\right)\right] \\\[5pt] & = \dfrac {1}{3}\cdot6 \\\[5pt] & = 2. \end{aligned}
+\begin{aligned} f(c) (b-a) & = \int_a^b f(x) \, \textrm dx \\[5pt] f(c) & = \dfrac {1}{b-a} \int_a^b f(x) \, \textrm dx \\[5pt] & = \dfrac {1}{3-0} \int_0^3 (x^2-2x+2) \, \textrm dx \\[5pt] & = \left . \dfrac {1}{3} \cdot \left[\dfrac{x^3}{3} -x^2 +2x\right] \right|_0^3 \\[5pt] & = \dfrac {1}{3} \cdot \left[ \left(\dfrac{3^3}{3} -3^2 +2\cdot3\right) - \left(\dfrac{0^3}{3} -0^2 +2\cdot0\right)\right] \\[5pt] & = \dfrac {1}{3}\cdot6 \\[5pt] & = 2. \end{aligned}
 
 
 $$
@@ -93,7 +93,7 @@ The **average value** of a continuous function on a closed interval $[a,b]$ is g
 $$
 
 
-f_\textrm{avg} = \dfrac{1}{b-a}\int_a^b f(x) \: \textrm{d}x.
+f_\text{avg} = \dfrac{1}{b-a}\int_a^b f(x) \: \text{d}x.
 
 
 $$
@@ -111,7 +111,7 @@ Applying the average value formula, we find that the average value of the functi
 $$
 
 
-\begin{aligned}𝑓_{avg} & =\frac{1}{𝑏−𝑎}\,∫_{𝑏𝑎}^{}𝑓(𝑥)\,d𝑥 \\ & =\frac{1}{4−(−2)}∫_{4−2}^{}𝑥−2\,d𝑥 \\ & =\frac{1}{6}(\frac{𝑥^{2}}{2}−2𝑥)_{4−2}^{} \\ & =\frac{1}{6}[(\frac{4^{2}}{2}−2(4))−(\frac{(−2)^{2}}{2}−2(−2))] \\ & =\frac{1}{6}[(8−8)−(2+4)] \\ & =\frac{1}{6}(0−6) \\ & =−1.\end{aligned}
+\begin{aligned}𝑓_{avg} & =\frac{1}{𝑏−𝑎}\,∫_{𝑏𝑎}𝑓(𝑥)\,d𝑥 \\ & =\frac{1}{4−(−2)}∫_{4−2}𝑥−2\,d𝑥 \\ & =\frac{1}{6}(\frac{𝑥^{2}}{2}−2𝑥)_{4−2} \\ & =\frac{1}{6}[(\frac{4^{2}}{2}−2(4))−(\frac{(−2)^{2}}{2}−2(−2))] \\ & =\frac{1}{6}[(8−8)−(2+4)] \\ & =\frac{1}{6}(0−6) \\ & =−1.\end{aligned}
 
 
 $$
@@ -129,7 +129,7 @@ To solve for $c,$ we apply the average value formula:
 $$
 
 
-\begin{aligned}𝑔_{avg} & =\frac{1}{𝑏−𝑎}\,∫_{𝑏𝑎}^{}𝑔(𝑥)\,d𝑥 \\ 3 & =\frac{1}{𝑐−0}\,∫_{𝑐0}^{}3𝑥\,d𝑥 \\ 3 & =\frac{1}{𝑐}(\frac{3𝑥^{2}}{2})_{𝑐0}^{} \\ 3 & =\frac{1}{𝑐}(\frac{3𝑐^{2}}{2}−0) \\ 3 & =\frac{3𝑐}{2} \\ 𝑐 & =2\end{aligned}
+\begin{aligned}𝑔_{avg} & =\frac{1}{𝑏−𝑎}\,∫_{𝑏𝑎}𝑔(𝑥)\,d𝑥 \\ 3 & =\frac{1}{𝑐−0}\,∫_{𝑐0}3𝑥\,d𝑥 \\ 3 & =\frac{1}{𝑐}(\frac{3𝑥^{2}}{2})_{𝑐0} \\ 3 & =\frac{1}{𝑐}(\frac{3𝑐^{2}}{2}−0) \\ 3 & =\frac{3𝑐}{2} \\ 𝑐 & =2\end{aligned}
 
 
 $$
@@ -149,7 +149,7 @@ The average value of a function on a given interval is
 $$
 
 
-f_\textrm{avg} = \dfrac{1}{b-a}\int_a^b f(x) \: \textrm{d}x.
+f_\text{avg} = \dfrac{1}{b-a}\int_a^b f(x) \: \text{d}x.
 
 
 $$
@@ -159,7 +159,7 @@ Here, we see that
 $$
 
 
-\int_{1}^{6} f(x)\: \textrm{d}x = -5 + 2 = -3.
+\int_{1}^{6} f(x)\: \text{d}x = -5 + 2 = -3.
 
 
 $$
@@ -169,7 +169,7 @@ So, applying the average value formula, we find that the average value is
 $$
 
 
-\begin{aligned}𝑓_{avg} & =\frac{1}{𝑏−𝑎}∫_{𝑏𝑎}^{}𝑓(𝑥)\,d𝑥 \\ & =\frac{1}{6−1}⋅(−3) \\ & =−\frac{3}{5}.\end{aligned}
+\begin{aligned}𝑓_{avg} & =\frac{1}{𝑏−𝑎}∫_{𝑏𝑎}𝑓(𝑥)\,d𝑥 \\ & =\frac{1}{6−1}⋅(−3) \\ & =−\frac{3}{5}.\end{aligned}
 
 
 $$

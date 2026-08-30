@@ -56,7 +56,7 @@ To start, we want to make $0$ at the position $a_{{\color{blue}2}{\color{red}1}}
 $$
 
 
-\begin{aligned}𝐴 & =\begin{aligned}2 & 1 & 1 \\ 6 & 1 & 1 \\ 4 & 6 & 0\end{aligned} & 𝑅_{2} & :=𝑅_{2}+(−3)𝑅_{1} \\ & ∼\begin{aligned}2 & 1 & 1 \\ 0 & −2 & −2 \\ 4 & 6 & 0\end{aligned} & & \end{aligned}
+\begin{aligned}𝐴 & =\begin{matrix}2 & 1 & 1 \\ 6 & 1 & 1 \\ 4 & 6 & 0\end{matrix} & 𝑅_{2} & :=𝑅_{2}+(−3)𝑅_{1} \\ & ∼\begin{matrix}2 & 1 & 1 \\ 0 & −2 & −2 \\ 4 & 6 & 0\end{matrix} & & \end{aligned}
 
 
 $$
@@ -66,7 +66,7 @@ Now, here's the trick. We take the factor $\color{purple}-3$ that we multiplied 
 $$
 
 
-\begin{aligned}𝐴 & ∼\begin{aligned}2 & 1 & 1 \\ \,3\, & −2 & −2 \\ 4 & 6 & 0\end{aligned}.\,\,(∗)\end{aligned}
+\begin{aligned}𝐴 & ∼\begin{matrix}2 & 1 & 1 \\ \,3\, & −2 & −2 \\ 4 & 6 & 0\end{matrix}.\,\,(∗)\end{aligned}
 
 
 $$
@@ -86,7 +86,7 @@ We want to make $0$ at the position $a_{{\color{blue}3}{\color{red}1}}.$ To do t
 $$
 
 
-\begin{aligned}𝐴 & ∼\begin{aligned}2 & 1 & 1 \\ \,3\, & −2 & −2 \\ 4 & 6 & 0\end{aligned} & 𝑅_{3} & :=𝑅_{3}+(−2)𝑅_{1} \\ & ∼\begin{aligned}2 & 1 & 1 \\ \,3\, & −2 & −2 \\ \,2\, & 4 & −2\end{aligned} & & \end{aligned}
+\begin{aligned}𝐴 & ∼\begin{matrix}2 & 1 & 1 \\ \,3\, & −2 & −2 \\ 4 & 6 & 0\end{matrix} & 𝑅_{3} & :=𝑅_{3}+(−2)𝑅_{1} \\ & ∼\begin{matrix}2 & 1 & 1 \\ \,3\, & −2 & −2 \\ \,2\, & 4 & −2\end{matrix} & & \end{aligned}
 
 
 $$
@@ -96,7 +96,7 @@ Finally, we want to make $0$ at the position $a_{{\color{blue}3}{\color{red}2}}.
 $$
 
 
-\begin{aligned}𝐴 & =\begin{aligned}2 & 1 & 1 \\ \,3\, & −2 & −2 \\ \,2\, & 4 & −2\end{aligned} & 𝑅_{3} & :=𝑅_{3}+2𝑅_{2} \\ & ∼\begin{aligned}2 & 1 & 1 \\ \,3\, & −2 & −2 \\ \,2\, & −2 & −6\end{aligned} & & \end{aligned}
+\begin{aligned}𝐴 & =\begin{matrix}2 & 1 & 1 \\ \,3\, & −2 & −2 \\ \,2\, & 4 & −2\end{matrix} & 𝑅_{3} & :=𝑅_{3}+2𝑅_{2} \\ & ∼\begin{matrix}2 & 1 & 1 \\ \,3\, & −2 & −2 \\ \,2\, & −2 & −6\end{matrix} & & \end{aligned}
 
 
 $$
@@ -130,7 +130,7 @@ The matrix $U$ in the LU decomposition is obtained from the original matrix $A$ 
 $$
 
 
-\begin{aligned}𝐴 & =\begin{aligned}1 & −5 & 6 \\ 4 & −9 & 8 \\ 6 & −8 & 10\end{aligned} & 𝑅_{2} & :=𝑅_{2}+(−4)𝑅_{1} \\ & ∼\begin{aligned}1 & −5 & 6 \\ 0 & 11 & −16 \\ 6 & −8 & 10\end{aligned} & 𝑅_{3} & :=𝑅_{3}+(−6)𝑅_{1} \\ & ∼\begin{aligned}1 & −5 & 6 \\ 0 & 11 & −16 \\ 0 & 22 & −26\end{aligned} & 𝑅_{3} & :=𝑅_{3}+(−2)𝑅_{2} \\ & ∼\begin{aligned}1 & −5 & 6 \\ 0 & 11 & −16 \\ 0 & 0 & 6\end{aligned} & & \end{aligned}
+\begin{aligned}𝐴 & =\begin{matrix}1 & −5 & 6 \\ 4 & −9 & 8 \\ 6 & −8 & 10\end{matrix} & 𝑅_{2} & :=𝑅_{2}+(−4)𝑅_{1} \\ & ∼\begin{matrix}1 & −5 & 6 \\ 0 & 11 & −16 \\ 6 & −8 & 10\end{matrix} & 𝑅_{3} & :=𝑅_{3}+(−6)𝑅_{1} \\ & ∼\begin{matrix}1 & −5 & 6 \\ 0 & 11 & −16 \\ 0 & 22 & −26\end{matrix} & 𝑅_{3} & :=𝑅_{3}+(−2)𝑅_{2} \\ & ∼\begin{matrix}1 & −5 & 6 \\ 0 & 11 & −16 \\ 0 & 0 & 6\end{matrix} & & \end{aligned}
 
 
 $$
@@ -158,7 +158,7 @@ We want to make $0$ at the position $a_{{\color{blue}3}{\color{red}1}}$ using Ga
 $$
 
 
-\begin{aligned}𝐴 & =\begin{aligned}1 & 2 & −3 \\ 2 & −6 & 1 \\ 4 & 8 & −10\end{aligned} & 𝑅_{3} & :=𝑅_{3}+(−4)𝑅_{1} \\ & ∼\begin{aligned}1 & 2 & −3 \\ 2 & −6 & 1 \\ 0 & 0 & 2\end{aligned} & & \end{aligned}
+\begin{aligned}𝐴 & =\begin{matrix}1 & 2 & −3 \\ 2 & −6 & 1 \\ 4 & 8 & −10\end{matrix} & 𝑅_{3} & :=𝑅_{3}+(−4)𝑅_{1} \\ & ∼\begin{matrix}1 & 2 & −3 \\ 2 & −6 & 1 \\ 0 & 0 & 2\end{matrix} & & \end{aligned}
 
 
 $$
@@ -196,7 +196,7 @@ We reduce the matrix $A$ to row echelon form to obtain the matrix $U,$ as usual.
 $$
 
 
-\begin{aligned}𝐴 & =\begin{aligned}2 & 7 & 1 \\ −6 & 3 & −12 \\ −4 & 10 & 1\end{aligned} & 𝑅_{2} & :=𝑅_{2}+3𝑅_{1} \\ & ∼\begin{aligned}2 & 7 & 1 \\ −3 & 24 & −9 \\ −4 & 10 & 1\end{aligned} & 𝑅_{3} & :=𝑅_{3}+2𝑅_{1} \\ & ∼\begin{aligned}2 & 7 & 1 \\ −3 & 24 & −9 \\ −2 & 24 & 3\end{aligned} & 𝑅_{3} & :=𝑅_{3}+(−1)𝑅_{2} \\ & ∼\begin{aligned}2 & 7 & 1 \\ −3 & 24 & −9 \\ −2 & \,1\, & 12\end{aligned} & & \end{aligned}
+\begin{aligned}𝐴 & =\begin{matrix}2 & 7 & 1 \\ −6 & 3 & −12 \\ −4 & 10 & 1\end{matrix} & 𝑅_{2} & :=𝑅_{2}+3𝑅_{1} \\ & ∼\begin{matrix}2 & 7 & 1 \\ −3 & 24 & −9 \\ −4 & 10 & 1\end{matrix} & 𝑅_{3} & :=𝑅_{3}+2𝑅_{1} \\ & ∼\begin{matrix}2 & 7 & 1 \\ −3 & 24 & −9 \\ −2 & 24 & 3\end{matrix} & 𝑅_{3} & :=𝑅_{3}+(−1)𝑅_{2} \\ & ∼\begin{matrix}2 & 7 & 1 \\ −3 & 24 & −9 \\ −2 & \,1\, & 12\end{matrix} & & \end{aligned}
 
 
 $$
@@ -244,7 +244,7 @@ We reduce the matrix $A$ to row echelon form to obtain the matrix $U,$ as usual.
 $$
 
 
-\begin{aligned}𝐴 & =\begin{aligned}6 & 6 & −6 & 8 \\ 0 & −2 & 0 & −3 \\ −6 & −6 & 9 & −7 \\ 0 & 4 & 6 & 9\end{aligned} & 𝑅_{3} & :=𝑅_{3}+1𝑅_{1} \\ & ∼\begin{aligned}6 & 6 & −6 & 8 \\ 0 & −2 & 0 & −3 \\ −1 & 0 & 3 & 1 \\ 0 & 4 & 6 & 9\end{aligned} & 𝑅_{4} & :=𝑅_{4}+2𝑅_{2} \\ & ∼\begin{aligned}6 & 6 & −6 & 8 \\ 0 & −2 & 0 & −3 \\ −1 & 0 & 3 & 1 \\ 0 & −2 & 6 & 3\end{aligned} & 𝑅_{4} & :=𝑅_{4}+(−2)𝑅_{3} \\ & ∼\begin{aligned}6 & 6 & −6 & 8 \\ 0 & −2 & 0 & −3 \\ −1 & 0 & 3 & 1 \\ 0 & −2 & \,2\, & 1\end{aligned} & & \end{aligned}
+\begin{aligned}𝐴 & =\begin{matrix}6 & 6 & −6 & 8 \\ 0 & −2 & 0 & −3 \\ −6 & −6 & 9 & −7 \\ 0 & 4 & 6 & 9\end{matrix} & 𝑅_{3} & :=𝑅_{3}+1𝑅_{1} \\ & ∼\begin{matrix}6 & 6 & −6 & 8 \\ 0 & −2 & 0 & −3 \\ −1 & 0 & 3 & 1 \\ 0 & 4 & 6 & 9\end{matrix} & 𝑅_{4} & :=𝑅_{4}+2𝑅_{2} \\ & ∼\begin{matrix}6 & 6 & −6 & 8 \\ 0 & −2 & 0 & −3 \\ −1 & 0 & 3 & 1 \\ 0 & −2 & 6 & 3\end{matrix} & 𝑅_{4} & :=𝑅_{4}+(−2)𝑅_{3} \\ & ∼\begin{matrix}6 & 6 & −6 & 8 \\ 0 & −2 & 0 & −3 \\ −1 & 0 & 3 & 1 \\ 0 & −2 & \,2\, & 1\end{matrix} & & \end{aligned}
 
 
 $$

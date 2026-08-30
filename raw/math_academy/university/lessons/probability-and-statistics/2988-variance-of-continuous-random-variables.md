@@ -29,7 +29,7 @@ In practice, though, it's easier to use the following formula:
 $$
 
 
-\textrm{Var}[X] = \textrm E [X^2] - \textrm E[X]^2
+\text{Var}[X] = \textrm E [X^2] - \textrm E[X]^2
 
 
 $$
@@ -49,7 +49,7 @@ First, we compute $\textrm E[X]{:}$
 $$
 
 
-\begin{aligned}E[𝑋] & =∫_{31}^{}𝑥⋅\frac{𝑥}{4}\,d𝑥 \\ & =∫_{31}^{}\frac{𝑥^{2}}{4}\,d𝑥 \\ & =\frac{𝑥^{3}}{12}_{31}^{} \\ & =\frac{13}{6}\end{aligned}
+\begin{aligned}E[𝑋] & =∫_{31}𝑥⋅\frac{𝑥}{4}\,d𝑥 \\ & =∫_{31}\frac{𝑥^{2}}{4}\,d𝑥 \\ & =\frac{𝑥^{3}}{12}_{31} \\ & =\frac{13}{6}\end{aligned}
 
 
 $$
@@ -59,7 +59,7 @@ Then, we compute $\textrm E[X^2]{:}$
 $$
 
 
-\begin{aligned}E[𝑋^{2}] & =∫_{31}^{}𝑥^{2}⋅\frac{𝑥}{4}\,d𝑥 \\ & =∫_{31}^{}\frac{𝑥^{3}}{4}\,d𝑥 \\ & =\frac{𝑥^{4}}{16}_{31}^{} \\ & =5\end{aligned}
+\begin{aligned}E[𝑋^{2}] & =∫_{31}𝑥^{2}⋅\frac{𝑥}{4}\,d𝑥 \\ & =∫_{31}\frac{𝑥^{3}}{4}\,d𝑥 \\ & =\frac{𝑥^{4}}{16}_{31} \\ & =5\end{aligned}
 
 
 $$
@@ -78,7 +78,7 @@ $$
 
 #### Question
 
-The continuous random variable $X$ has the probability density function $f(x)$ stated below. Given that $\textrm E[X] = \dfrac {10}{3},$ compute $\textrm{Var}[X].$
+The continuous random variable $X$ has the probability density function $f(x)$ stated below. Given that $\textrm E[X] = \dfrac {10}{3},$ compute $\text{Var}[X].$
 
 $$
 
@@ -95,7 +95,7 @@ For a continuous random variable $X$ with probability density function $f(x)$ de
 $$
 
 
-\textrm{Var}[X] = \textrm E [X^2] - \textrm E[X]^2
+\text{Var}[X] = \textrm E [X^2] - \textrm E[X]^2
 
 
 $$
@@ -105,7 +105,7 @@ We compute $\textrm E[X^2],$ as follows:
 $$
 
 
-\begin{aligned}E[𝑋^{2}] & =∫_{43}^{}𝑥^{2}⋅(8−2𝑥)\,d𝑥 \\ & =∫_{43}^{}(8𝑥^{2}−2𝑥^{3})\,d𝑥 \\ & =(\frac{8𝑥^{3}}{3}−\frac{𝑥^{4}}{2})_{43}^{} \\ & =\frac{67}{6}\end{aligned}
+\begin{aligned}E[𝑋^{2}] & =∫_{43}𝑥^{2}⋅(8−2𝑥)\,d𝑥 \\ & =∫_{43}(8𝑥^{2}−2𝑥^{3})\,d𝑥 \\ & =(\frac{8𝑥^{3}}{3}−\frac{𝑥^{4}}{2})_{43} \\ & =\frac{67}{6}\end{aligned}
 
 
 $$
@@ -124,7 +124,7 @@ $$
 
 #### Question
 
-The continuous random variable $X$ has the probability density function given below. Given that $\textrm E[X]\approx 1.791\,67,$ compute $\textrm{Var}[X].$ Round your answer to $2$ decimal places.
+The continuous random variable $X$ has the probability density function given below. Given that $\textrm E[X]\approx 1.791\,67,$ compute $\text{Var}[X].$ Round your answer to $2$ decimal places.
 
 $$
 
@@ -141,7 +141,7 @@ For a continuous random variable $X$ with probability density function $f(x)$ de
 $$
 
 
-\textrm{Var}[X] = \textrm E [X^2] - \textrm E[X]^2
+\text{Var}[X] = \textrm E [X^2] - \textrm E[X]^2
 
 
 $$
@@ -151,7 +151,7 @@ We compute $\textrm E[X^2]$ as follows:
 $$
 
 
-\begin{aligned}E[𝑋^{2}] & =∫_{30}^{}𝑥^{2}⋅𝑓(𝑥)\,d𝑥 \\ & =∫_{20}^{}𝑥^{2}⋅𝑓(𝑥)\,d𝑥+∫_{32}^{}𝑥^{2}⋅𝑓(𝑥)\,d𝑥 \\ & =∫_{20}^{}𝑥^{2}⋅\frac{1}{4}\,d𝑥+∫_{32}^{}𝑥^{2}⋅(\frac{𝑥}{2}−\frac{3}{4})\,d𝑥 \\ & =∫_{20}^{}\frac{𝑥^{2}}{4}\,d𝑥+∫_{32}^{}(\frac{𝑥^{3}}{2}−\frac{3𝑥^{2}}{4})\,d𝑥 \\ & =\frac{𝑥^{3}}{12}_{20}^{}+(\frac{𝑥^{4}}{8}−\frac{𝑥^{3}}{4})_{32}^{} \\ & ≈4.041\,67\end{aligned}
+\begin{aligned}E[𝑋^{2}] & =∫_{30}𝑥^{2}⋅𝑓(𝑥)\,d𝑥 \\ & =∫_{20}𝑥^{2}⋅𝑓(𝑥)\,d𝑥+∫_{32}𝑥^{2}⋅𝑓(𝑥)\,d𝑥 \\ & =∫_{20}𝑥^{2}⋅\frac{1}{4}\,d𝑥+∫_{32}𝑥^{2}⋅(\frac{𝑥}{2}−\frac{3}{4})\,d𝑥 \\ & =∫_{20}\frac{𝑥^{2}}{4}\,d𝑥+∫_{32}(\frac{𝑥^{3}}{2}−\frac{3𝑥^{2}}{4})\,d𝑥 \\ & =\frac{𝑥^{3}}{12}_{20}+(\frac{𝑥^{4}}{8}−\frac{𝑥^{3}}{4})_{32} \\ & ≈4.041\,67\end{aligned}
 
 
 $$

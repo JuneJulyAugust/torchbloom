@@ -28,7 +28,7 @@ Notice that the coefficient of $y$ in the first equation is $1,$ and the coeffic
 $$
 
 
-\begin{aligned}\begin{aligned}𝑥+𝑦 & =1 \\ 5𝑥−𝑦 & =11 \\ (𝑥+5𝑥) & =(1+11) \\ 6𝑥 & =12 \\ 𝑥 & =2\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}𝑥+𝑦 & =1 \\ 5𝑥−𝑦 & =11 \\ (𝑥+5𝑥) & =(1+11) \\ 6𝑥 & =12 \\ 𝑥 & =2\end{matrix}\end{aligned}
 
 
 $$
@@ -38,7 +38,7 @@ So, the solution must have $x=2.$ However, we still need to find $y.$ To do this
 $$
 
 
-\begin{aligned}\begin{aligned}𝑥+𝑦 & =1 \\ (2)+𝑦 & =1 \\ 𝑦 & =−1\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}𝑥+𝑦 & =1 \\ (2)+𝑦 & =1 \\ 𝑦 & =−1\end{matrix}\end{aligned}
 
 
 $$
@@ -154,7 +154,7 @@ Then, we add the two resulting equations together. This eliminates the variable 
 $$
 
 
-\begin{aligned}\begin{aligned}𝑥+2𝑦 & =1 \\ −𝑥+𝑦 & =2 \\ (2𝑦+𝑦) & =(1+2) \\ 3𝑦 & =3 \\ 𝑦 & =1\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}𝑥+2𝑦 & =1 \\ −𝑥+𝑦 & =2 \\ (2𝑦+𝑦) & =(1+2) \\ 3𝑦 & =3 \\ 𝑦 & =1\end{matrix}\end{aligned}
 
 
 $$
@@ -164,7 +164,7 @@ So, the solution must have $y=1.$ However, we still need to find $x.$ To do this
 $$
 
 
-\begin{aligned}\begin{aligned}𝑥−𝑦 & =−2 \\ 𝑥−(1) & =−2 \\ 𝑥 & =−1\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}𝑥−𝑦 & =−2 \\ 𝑥−(1) & =−2 \\ 𝑥 & =−1\end{matrix}\end{aligned}
 
 
 $$
@@ -212,7 +212,7 @@ $$
 $$
 
 
- \begin{aligned} 2x + 2y & = 6\\\[5pt] 6x - 2y & = -2\\\[5pt] \hline (2x + 6x) &= (6 - 2)\\\[5pt] {\color{red}8x} &= 4 \end{aligned}
+ \begin{aligned} 2x + 2y & = 6\\[5pt] 6x - 2y & = -2\\[5pt] \hline (2x + 6x) &= (6 - 2)\\[5pt] {\color{red}8x} &= 4 \end{aligned}
 
 
 $$
@@ -260,7 +260,7 @@ $$
 $$
 
 
- \begin{aligned} 3x - 2y & = 9\\\[5pt] -3x + 9y & = 12\\\[5pt] \hline (9y - 2y) & = (9 + 12)\\\[5pt] {\color{red}7y} & = 21\\\[5pt] y & = 3 \end{aligned}
+ \begin{aligned} 3x - 2y & = 9\\[5pt] -3x + 9y & = 12\\[5pt] \hline (9y - 2y) & = (9 + 12)\\[5pt] {\color{red}7y} & = 21\\[5pt] y & = 3 \end{aligned}
 
 
 $$

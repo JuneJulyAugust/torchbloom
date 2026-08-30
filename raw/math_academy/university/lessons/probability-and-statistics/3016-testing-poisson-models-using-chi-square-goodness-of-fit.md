@@ -15,9 +15,9 @@ In this lesson, we'll learn how to conduct chi-square goodness-of-fit tests to d
 
 First, let's remind ourselves of some basic facts.
 
-- Given a random variable $X \sim \textrm{Po}(\lambda)$, the probability mass function of $X$ is given by where $\lambda > 0$ is the average rate of occurrence.
+- Given a random variable $X \sim \text{Po}(\lambda)$, the probability mass function of $X$ is given by where $\lambda > 0$ is the average rate of occurrence.
 
-- Given a random sample of size $N$ drawn from $X \sim \textrm{Po}(\lambda)$, the expected frequency of the outcome $X = x$ is given by
+- Given a random sample of size $N$ drawn from $X \sim \text{Po}(\lambda)$, the expected frequency of the outcome $X = x$ is given by
 
 Let's get some practice at computing expected values using the Poisson distribution.
 
@@ -92,7 +92,7 @@ Notice we're not given the rate parameter $\lambda.$ Therefore, we must estimate
 $$
 
 
-\begin{aligned}\overset{𝜆}{^} & =\frac{total number of events}{total number of observations} \\ & =\frac{∑(𝑦_{𝑖}⋅𝑂_{𝑖})}{𝑁},\end{aligned}
+\begin{aligned}\hat{𝜆} & =\frac{total number of events}{total number of observations} \\ & =\frac{∑(𝑦_{𝑖}⋅𝑂_{𝑖})}{𝑁},\end{aligned}
 
 
 $$
@@ -114,7 +114,7 @@ So, in our case, we have
 $$
 
 
-\begin{aligned}\overset{𝜆}{^} & =\frac{0⋅10+1⋅15+2⋅22+3⋅13}{60} \\ & ≈1.63.\end{aligned}
+\begin{aligned}\hat{𝜆} & =\frac{0⋅10+1⋅15+2⋅22+3⋅13}{60} \\ & ≈1.63.\end{aligned}
 
 
 $$
@@ -152,7 +152,7 @@ We can calculate an estimator for $\lambda,$ which we denote as $\hat \lambda,$ 
 $$
 
 
-\begin{aligned}\overset{𝜆}{^} & =\frac{total number of events}{total number of observations} \\ & =\frac{∑(𝑦_{𝑖}⋅𝑂_{𝑖})}{𝑁},\end{aligned}
+\begin{aligned}\hat{𝜆} & =\frac{total number of events}{total number of observations} \\ & =\frac{∑(𝑦_{𝑖}⋅𝑂_{𝑖})}{𝑁},\end{aligned}
 
 
 $$
@@ -162,7 +162,7 @@ where $O_i$ is the observed frequency for the $i$th observation, $N$ is the numb
 $$
 
 
-\begin{aligned}\overset{𝜆}{^} & =\frac{0⋅30+1⋅27+2⋅10+3⋅3}{70} \\ & =0.8.\end{aligned}
+\begin{aligned}\hat{𝜆} & =\frac{0⋅30+1⋅27+2⋅10+3⋅3}{70} \\ & =0.8.\end{aligned}
 
 
 $$
@@ -194,7 +194,7 @@ approximately follows a chi-square distribution with $\nu$ degrees of freedom, w
 $$
 
 
-\nu = \textrm{number of categories} - \textrm{number of constraints}.
+\nu = \text{number of categories} - \text{number of constraints}.
 
 
 $$
@@ -260,7 +260,7 @@ We can calculate an estimate for $\lambda,$ which we denote as $\hat \lambda,$ a
 $$
 
 
-\begin{aligned}\overset{𝜆}{^} & =\frac{total number of events}{total number of observations} \\ & =\frac{∑(𝑦_{𝑖}⋅𝑂_{𝑖})}{𝑁},\end{aligned}
+\begin{aligned}\hat{𝜆} & =\frac{total number of events}{total number of observations} \\ & =\frac{∑(𝑦_{𝑖}⋅𝑂_{𝑖})}{𝑁},\end{aligned}
 
 
 $$
@@ -270,7 +270,7 @@ where $O_i$ is the observed frequency for the $i$th observation, and $N$ is the 
 $$
 
 
-\begin{aligned}\overset{𝜆}{^} & =\frac{0⋅6+1⋅12+2⋅18+3⋅14}{50} \\ & =1.8.\end{aligned}
+\begin{aligned}\hat{𝜆} & =\frac{0⋅6+1⋅12+2⋅18+3⋅14}{50} \\ & =1.8.\end{aligned}
 
 
 $$
@@ -335,7 +335,7 @@ $$
 
 So, there are $\nu = \boxed{\color{blue}3}$ degrees of freedom.
 
-From the given chi-square table, the critical value for $\nu=3$ at a $1\%$ significance level is $\chi^2_{\textrm{critical}}=11.345,$ and the critical region is
+From the given chi-square table, the critical value for $\nu=3$ at a $1\%$ significance level is $\chi^2_{\text{critical}}=11.345,$ and the critical region is
 
 $$
 
@@ -418,7 +418,7 @@ We can calculate an estimator for $\lambda,$ which we denote as $\hat \lambda,$ 
 $$
 
 
-\begin{aligned}\overset{𝜆}{^} & =\frac{total number of events}{total number of observations} \\ & =\frac{∑(𝑦_{𝑖}⋅𝑂_{𝑖})}{𝑁},\end{aligned}
+\begin{aligned}\hat{𝜆} & =\frac{total number of events}{total number of observations} \\ & =\frac{∑(𝑦_{𝑖}⋅𝑂_{𝑖})}{𝑁},\end{aligned}
 
 
 $$
@@ -428,7 +428,7 @@ where $O_i$ is the observed frequency for the $i$th observation, $N$ is the numb
 $$
 
 
-\begin{aligned}\overset{𝜆}{^} & =\frac{0⋅20+1⋅12+2⋅8}{40} \\ & =0.7.\end{aligned}
+\begin{aligned}\hat{𝜆} & =\frac{0⋅20+1⋅12+2⋅8}{40} \\ & =0.7.\end{aligned}
 
 
 $$
@@ -497,7 +497,7 @@ $$
 
 So, there is $\nu = \boxed{\color{blue}1}$ degree of freedom.
 
-From the given chi-square table, the critical value for $\nu = 1$ at a $10\%$ significance level is $\chi^2_{\textrm{critical}} = 2.706,$ and the critical region is
+From the given chi-square table, the critical value for $\nu = 1$ at a $10\%$ significance level is $\chi^2_{\text{critical}} = 2.706,$ and the critical region is
 
 $$
 

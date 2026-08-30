@@ -114,7 +114,7 @@ Similarly, pre-multiplying a vector $\mathbf{x} \in \mathbb{R}^m$ by $A^T$ gives
 $$
 
 
-\begin{aligned}| & | & ⋯ & | \\ 𝑎_{𝑇1}^{} & 𝑎_{𝑇2}^{} & ⋯ & 𝑎_{𝑇𝑚}^{} \\ | & | & ⋯ & |\end{aligned}
+\begin{aligned}| & | & ⋯ & | \\ 𝑎_{𝑇1} & 𝑎_{𝑇2} & ⋯ & 𝑎_{𝑇𝑚} \\ | & | & ⋯ & |\end{aligned}
 
 
 $$

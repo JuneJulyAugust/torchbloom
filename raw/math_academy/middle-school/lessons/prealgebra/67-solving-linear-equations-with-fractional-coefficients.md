@@ -102,7 +102,7 @@ This gives
 
 $$
 
-\begin{aligned}\begin{aligned}−\frac{3}{2}𝑡 & =24 \\ −\frac{2}{3}⋅(−\frac{3}{2}𝑡) & =−\frac{2}{3}⋅24 \\ 1𝑡 & =−\frac{2}{3}⋅3⋅8 \\ 𝑡 & =−16.\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}−\frac{3}{2}𝑡 & =24 \\ −\frac{2}{3}⋅(−\frac{3}{2}𝑡) & =−\frac{2}{3}⋅24 \\ 1𝑡 & =−\frac{2}{3}⋅3⋅8 \\ 𝑡 & =−16.\end{matrix}\end{aligned}
 
 $$
 

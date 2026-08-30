@@ -215,7 +215,7 @@ Find an equation of the plane that passes through the point $Q(\sqrt{2},0,-5)$ a
 $$
 
 
-\begin{aligned}𝑥=3 \\ 𝑦=−1+\sqrt{√3}𝑡 \\ 𝑧=5−𝑡.\end{aligned}
+\begin{aligned}𝑥=3 \\ 𝑦=−1+\sqrt{3}𝑡 \\ 𝑧=5−𝑡.\end{aligned}
 
 
 $$
@@ -227,7 +227,7 @@ Note that the position vector of $Q$ is $\mathbf{q}=\langle \sqrt{2},0,-5 \rangl
 $$
 
 
-\begin{aligned}𝑥=3 \\ 𝑦=−1+\sqrt{√3}𝑡 \\ 𝑧=5−𝑡\end{aligned}
+\begin{aligned}𝑥=3 \\ 𝑦=−1+\sqrt{3}𝑡 \\ 𝑧=5−𝑡\end{aligned}
 
 
 $$
@@ -247,7 +247,7 @@ Therefore, the equation of the plane is given by
 $$
 
 
-\begin{aligned}(𝐫−𝐪)⋅𝐧 & =0 \\ 𝐫⋅𝐧−𝐪⋅𝐧 & =0 \\ 𝐫⋅𝐧 & =𝐪⋅𝐧 \\ 𝐫⋅⟨0,\sqrt{√3},−1⟩ & =⟨\sqrt{√2},0,−5⟩⋅⟨0,\sqrt{√3},−1⟩ \\ 𝐫⋅⟨0,\sqrt{√3},−1⟩ & =5.\end{aligned}
+\begin{aligned}(𝐫−𝐪)⋅𝐧 & =0 \\ 𝐫⋅𝐧−𝐪⋅𝐧 & =0 \\ 𝐫⋅𝐧 & =𝐪⋅𝐧 \\ 𝐫⋅⟨0,\sqrt{3},−1⟩ & =⟨\sqrt{2},0,−5⟩⋅⟨0,\sqrt{3},−1⟩ \\ 𝐫⋅⟨0,\sqrt{3},−1⟩ & =5.\end{aligned}
 
 
 $$

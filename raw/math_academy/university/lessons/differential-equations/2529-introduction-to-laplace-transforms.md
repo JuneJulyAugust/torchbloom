@@ -67,7 +67,7 @@ For the function $f(t)=2,$ we have
 $$
 
 
-\begin{aligned}𝐹(𝑠)=∫_{∞0}^{}2𝑒^{−𝑠𝑡}d𝑡.\end{aligned}
+\begin{aligned}𝐹(𝑠)=∫_{∞0}2𝑒^{−𝑠𝑡}d𝑡.\end{aligned}
 
 
 $$
@@ -77,7 +77,7 @@ We calculate our integral as follows:
 $$
 
 
-\begin{aligned}𝐹(𝑠) & =∫_{∞0}^{}2𝑒^{−𝑠𝑡}d𝑡 \\ & =2\underset{𝑎→∞}{lim}∫_{𝑎0}^{}𝑒^{−𝑠𝑡}d𝑡\end{aligned}
+\begin{aligned}𝐹(𝑠) & =∫_{∞0}2𝑒^{−𝑠𝑡}d𝑡 \\ & =2\underset{𝑎→∞}{lim}∫_{𝑎0}𝑒^{−𝑠𝑡}d𝑡\end{aligned}
 
 
 $$
@@ -90,11 +90,11 @@ To evaluate the last integral, we must consider whether $s \neq 0$ or $s = 0.$
 
 Therefore:
 
-- For $s = 0,$ we have that $\displaystyle \int_{0}^{\infty} 2e^{-st} \textrm{d} t$ is divergent
+- For $s = 0,$ we have that $\displaystyle \int_{0}^{\infty} 2e^{-st} \text{d} t$ is divergent
 
-- For $s > 0,$ we have that $\displaystyle \int_{0}^{\infty} 2e^{-st} \textrm{d} t$ is convergent
+- For $s > 0,$ we have that $\displaystyle \int_{0}^{\infty} 2e^{-st} \text{d} t$ is convergent
 
-- For $s < 0,$ we have that $\displaystyle \int_{0}^{\infty} 2e^{-st} \textrm{d} t$ is divergent
+- For $s < 0,$ we have that $\displaystyle \int_{0}^{\infty} 2e^{-st} \text{d} t$ is divergent
 
 Evaluating our integral for $s > 0,$ we have
 
@@ -217,7 +217,7 @@ For the function $f(t)=e^{-2t},$ we have
 $$
 
 
-\begin{aligned}𝐹(𝑠) & =∫_{∞0}^{}𝑒^{−𝑠𝑡}⋅𝑒^{−2𝑡}d𝑡 \\ & =∫_{∞0}^{}𝑒^{−𝑠𝑡−2𝑡}d𝑡 \\ & =∫_{∞0}^{}𝑒^{(−2−𝑠)𝑡}d𝑡.\end{aligned}
+\begin{aligned}𝐹(𝑠) & =∫_{∞0}𝑒^{−𝑠𝑡}⋅𝑒^{−2𝑡}d𝑡 \\ & =∫_{∞0}𝑒^{−𝑠𝑡−2𝑡}d𝑡 \\ & =∫_{∞0}𝑒^{(−2−𝑠)𝑡}d𝑡.\end{aligned}
 
 
 $$
@@ -227,7 +227,7 @@ We calculate our integral as follows:
 $$
 
 
-\begin{aligned}𝐹(𝑠) & =∫_{∞0}^{}𝑒^{(−2−𝑠)𝑡}d𝑡 \\ & =\underset{𝑎→∞}{lim}∫_{𝑎0}^{}𝑒^{(−2−𝑠)𝑡}d𝑡\end{aligned}
+\begin{aligned}𝐹(𝑠) & =∫_{∞0}𝑒^{(−2−𝑠)𝑡}d𝑡 \\ & =\underset{𝑎→∞}{lim}∫_{𝑎0}𝑒^{(−2−𝑠)𝑡}d𝑡\end{aligned}
 
 
 $$
@@ -313,7 +313,7 @@ We apply the definition of the Laplace transform:
 $$
 
 
-\begin{aligned}L{𝑓(𝑡)} & =𝐹(𝑠)=∫_{∞0}^{}𝑒^{−𝑠𝑡}𝑓(𝑡)d𝑡\end{aligned}
+\begin{aligned}L{𝑓(𝑡)} & =𝐹(𝑠)=∫_{∞0}𝑒^{−𝑠𝑡}𝑓(𝑡)d𝑡\end{aligned}
 
 
 $$
@@ -323,7 +323,7 @@ For the function $f(t)=e^{2\textrm i t},$ we have
 $$
 
 
-\begin{aligned}𝐹(𝑠) & =∫_{∞0}^{}𝑒^{−𝑠𝑡}𝑒^{2i𝑡}d𝑡=∫_{∞0}^{}𝑒^{(2i−𝑠)𝑡}d𝑡.\end{aligned}
+\begin{aligned}𝐹(𝑠) & =∫_{∞0}𝑒^{−𝑠𝑡}𝑒^{2i𝑡}d𝑡=∫_{∞0}𝑒^{(2i−𝑠)𝑡}d𝑡.\end{aligned}
 
 
 $$
@@ -333,7 +333,7 @@ Evaluating in the usual way, we have
 $$
 
 
-\begin{aligned}𝐹(𝑠) & =∫_{∞0}^{}𝑒^{(2i−𝑠)𝑡}d𝑡 \\ & =\underset{𝑎→∞}{lim}∫_{𝑎0}^{}𝑒^{(2i−𝑠)𝑡}d𝑡 \\ & =\underset{𝑎→∞}{lim}(\frac{1}{2i−𝑠}𝑒^{(2i−𝑠)𝑡})_{𝑎0}^{} \\ & =\frac{1}{2i−𝑠}(\underset{𝑎→∞}{lim}𝑒^{(2i−𝑠)𝑎}−1) \\ & =\frac{1}{𝑠−2i}(1−\underset{𝑎→∞}{lim}𝑒^{(2i−𝑠)𝑎}) \\ & =\frac{1}{𝑠−2i}−\frac{1}{𝑠−2i}(\underset{𝑎→∞}{lim}𝑒^{−𝑠𝑎}⋅𝑒^{2i𝑎}).\end{aligned}
+\begin{aligned}𝐹(𝑠) & =∫_{∞0}𝑒^{(2i−𝑠)𝑡}d𝑡 \\ & =\underset{𝑎→∞}{lim}∫_{𝑎0}𝑒^{(2i−𝑠)𝑡}d𝑡 \\ & =\underset{𝑎→∞}{lim}(\frac{1}{2i−𝑠}𝑒^{(2i−𝑠)𝑡})_{𝑎0} \\ & =\frac{1}{2i−𝑠}(\underset{𝑎→∞}{lim}𝑒^{(2i−𝑠)𝑎}−1) \\ & =\frac{1}{𝑠−2i}(1−\underset{𝑎→∞}{lim}𝑒^{(2i−𝑠)𝑎}) \\ & =\frac{1}{𝑠−2i}−\frac{1}{𝑠−2i}(\underset{𝑎→∞}{lim}𝑒^{−𝑠𝑎}⋅𝑒^{2i𝑎}).\end{aligned}
 
 
 $$
@@ -417,7 +417,7 @@ Equivalently, $f(t)$ is of exponential order $a$ if
 $$
 
 
-f(t)=\mathcal O\left(e^{at}\right)\textrm{ as }t\to\infty.
+f(t)=\mathcal O\left(e^{at}\right)\text{ as }t\to\infty.
 
 
 $$

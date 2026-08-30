@@ -14,7 +14,7 @@ Topic ID: 2025
 
 The **mass density function** $\lambda (x,y)$ of a two-dimensional shape describes how its mass is distributed across the shape.
 
-More precisely, $\lambda(x,y)$ tells us the *mass per unit area* at any point $(x,y)$ on the shape. The units of $\lambda$ are usually $\textrm{kg}/\textrm{m}^2.$
+More precisely, $\lambda(x,y)$ tells us the *mass per unit area* at any point $(x,y)$ on the shape. The units of $\lambda$ are usually $\text{kg}/\text{m}^2.$
 
 Suppose we want to determine the total mass of the semi-circular metal plate $D$ with mass density function $\lambda(x,y),$ shown below.
 
@@ -35,7 +35,7 @@ By summing all contributions to the mass made by each small rectangle and taking
 $$
 
 
-M = \iint \limits_{D} \lambda(x,y) \, \textrm{d}A.
+M = \iint \limits_{D} \lambda(x,y) \, \text{d}A.
 
 
 $$
@@ -46,7 +46,7 @@ Note that since mass is never negative, we must have $\lambda \geq 0$ for $\lamb
 
 We can also use density functions to describe the distribution of electric charge across a metallic plate.
 
-The distribution of electric charge is given by its **charge density function,** denoted $\rho(x,y).$ The units of $\rho$ are $\textrm{C}/\textrm{m}^2,$ where $\textrm C$ is the standard unit of electric charge, known as the **coulomb**.
+The distribution of electric charge is given by its **charge density function,** denoted $\rho(x,y).$ The units of $\rho$ are $\text{C}/\text{m}^2,$ where $\textrm C$ is the standard unit of electric charge, known as the **coulomb**.
 
 In general, the total electric charge $Q$ of a two-dimensional region $D$ with the charge density function $\rho(x,y)$ is given by
 
@@ -83,7 +83,7 @@ First, we express our double integral as a repeated integral:
 $$
 
 
-\iint\limits_{D} (4 - 3y^2 + 2x) \:\textrm{d}A = \int_{0}^2 \left[ \int_{0}^1 (4 - 3y^2 + 2x) \:\textrm{d}x \right] \textrm{d}y
+\iint\limits_{D} (4 - 3y^2 + 2x) \:\text{d}A = \int_{0}^2 \left[ \int_{0}^1 (4 - 3y^2 + 2x) \:\text{d}x \right] \text{d}y
 
 
 $$
@@ -93,7 +93,7 @@ Now, we evaluate the inner integral by integrating with respect to $x$, treating
 $$
 
 
-\begin{aligned}∫_{20}^{}[∫_{10}^{}(4−3𝑦^{2}+2𝑥)\,d𝑥]d𝑦 & =∫_{20}^{}[4𝑥−3𝑦^{2}𝑥+𝑥^{2}]_{10}^{}\,d𝑦 \\ & =∫_{20}^{}[(4(1)−3𝑦^{2}(1)+(1)^{2})−(4(0)−3𝑦^{2}(0)−(0)^{2})]d𝑦 \\ & =∫_{20}^{}(5−3𝑦^{2})\,d𝑦\end{aligned}
+\begin{aligned}∫_{20}[∫_{10}(4−3𝑦^{2}+2𝑥)\,d𝑥]d𝑦 & =∫_{20}[4𝑥−3𝑦^{2}𝑥+𝑥^{2}]_{10}\,d𝑦 \\ & =∫_{20}[(4(1)−3𝑦^{2}(1)+(1)^{2})−(4(0)−3𝑦^{2}(0)−(0)^{2})]d𝑦 \\ & =∫_{20}(5−3𝑦^{2})\,d𝑦\end{aligned}
 
 
 $$
@@ -103,7 +103,7 @@ Finally, we integrate with respect to $y{:}$
 $$
 
 
-\begin{aligned}∫_{20}^{}(5−3𝑦^{2})\,d𝑦 & =[5𝑦−𝑦^{3}]_{20}^{} \\ & =(5(2)−(2)^{3})−(5(0)−(0)^{3}) \\ & =(10−8)−0 \\ & =2\end{aligned}
+\begin{aligned}∫_{20}(5−3𝑦^{2})\,d𝑦 & =[5𝑦−𝑦^{3}]_{20} \\ & =(5(2)−(2)^{3})−(5(0)−(0)^{3}) \\ & =(10−8)−0 \\ & =2\end{aligned}
 
 
 $$
@@ -155,7 +155,7 @@ The total charge $Q$ of an object occupying the region $D$ with charge density $
 $$
 
 
-Q = \iint\limits_{D} \dfrac{4x}{\sqrt{x^2+y^2}} \,\textrm{d}A.
+Q = \iint\limits_{D} \dfrac{4x}{\sqrt{x^2+y^2}} \,\text{d}A.
 
 
 $$
@@ -205,7 +205,7 @@ Therefore, we obtain
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}\frac{4𝑥}{\sqrt{√𝑥^{2}+𝑦^{2}}}\,d𝐴 & =\underset{Δ}{∬}\frac{4𝑟cos⁡𝜃}{\sqrt{√𝑟^{2}cos^{2}⁡𝜃+𝑟^{2}sin^{2}⁡𝜃}}\,𝑟\,d𝑟d𝜃 \\ & =∫_{3𝜋/2𝜋}^{}∫_{30}^{}4𝑟cos⁡𝜃\,d𝑟\,d𝜃 \\ & =∫_{3𝜋/2𝜋}^{}4cos⁡𝜃[∫_{30}^{}𝑟\,d𝑟]\,d𝜃 \\ & =∫_{3𝜋/2𝜋}^{}4cos⁡𝜃[\frac{𝑟^{2}}{2}]_{30}^{}\,d𝜃 \\ & =∫_{3𝜋/2𝜋}^{}4cos⁡𝜃(\frac{9}{2}−0)\,d𝜃 \\ & =18∫_{3𝜋/2𝜋}^{}cos⁡𝜃\,d𝜃 \\ & =18[sin⁡𝜃]_{3𝜋/2𝜋}^{} \\ & =18[−1−0] \\ & =−18.\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}\frac{4𝑥}{\sqrt{𝑥^{2}+𝑦^{2}}}\,d𝐴 & =\underset{Δ}{∬}\frac{4𝑟cos⁡𝜃}{\sqrt{𝑟^{2}cos^{2}⁡𝜃+𝑟^{2}sin^{2}⁡𝜃}}\,𝑟\,d𝑟d𝜃 \\ & =∫_{3𝜋/2𝜋}∫_{30}4𝑟cos⁡𝜃\,d𝑟\,d𝜃 \\ & =∫_{3𝜋/2𝜋}4cos⁡𝜃[∫_{30}𝑟\,d𝑟]\,d𝜃 \\ & =∫_{3𝜋/2𝜋}4cos⁡𝜃[\frac{𝑟^{2}}{2}]_{30}\,d𝜃 \\ & =∫_{3𝜋/2𝜋}4cos⁡𝜃(\frac{9}{2}−0)\,d𝜃 \\ & =18∫_{3𝜋/2𝜋}cos⁡𝜃\,d𝜃 \\ & =18[sin⁡𝜃]_{3𝜋/2𝜋} \\ & =18[−1−0] \\ & =−18.\end{aligned}
 
 
 $$

@@ -45,7 +45,7 @@ S_L = 2\pi r\cdot h = 2\pi r h.
 
 $$
 
-For example, if the radius of a cylinder is $r=3 \,\textrm{cm}$ and its height is $h=5\,\textrm{cm},$ the lateral surface area will be
+For example, if the radius of a cylinder is $r=3 \,\text{cm}$ and its height is $h=5\,\text{cm},$ the lateral surface area will be
 
 $$
 
@@ -59,7 +59,7 @@ $$
 
 #### Question
 
-The radius of the base of a right cylinder is $3 \: \textrm{m}$ and its height is $6 \: \textrm{m}.$ Find the lateral surface area of the cylinder.
+The radius of the base of a right cylinder is $3 \: \text{m}$ and its height is $6 \: \text{m}.$ Find the lateral surface area of the cylinder.
 
 #### Explanation
 
@@ -75,7 +75,7 @@ $$
 
 where $r$ is the radius and $h$ is the height of the cylinder.
 
-Substituting $r=3 \,\textrm{m}$ and $h=6 \,\textrm{m}$ into the formula, we get
+Substituting $r=3 \,\text{m}$ and $h=6 \,\text{m}$ into the formula, we get
 
 $$
 
@@ -127,7 +127,7 @@ $$
 
 where $r$ is the radius and $h$ is the height of the cylinder.
 
-Substituting $r=3 \,\textrm{in}$ and $h=9\,\textrm{in}$ into the formula, we get
+Substituting $r=3 \,\text{in}$ and $h=9\,\text{in}$ into the formula, we get
 
 $$
 
@@ -141,7 +141,7 @@ $$
 
 #### Question
 
-The lateral surface area of a cylinder is $900\pi \: \textrm{in}^2$ and the ratio of its height to its radius is $2.$ Calculate the radius of the cylinder.
+The lateral surface area of a cylinder is $900\pi \: \text{in}^2$ and the ratio of its height to its radius is $2.$ Calculate the radius of the cylinder.
 
 #### Explanation
 

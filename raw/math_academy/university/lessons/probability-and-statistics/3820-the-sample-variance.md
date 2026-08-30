@@ -28,7 +28,7 @@ is an *unbiased* estimator of $\mu,$ which means that
 $$
 
 
-\textrm{E}[\overline{X}] = \mu.
+\text{E}[\overline{X}] = \mu.
 
 
 $$
@@ -52,7 +52,7 @@ is an *unbiased* estimator for $\sigma^2.$ However, it can be shown that it is a
 $$
 
 
-\textrm{E}\left[\dfrac{1}{n} \sum_{i=1}^n \left( X_i - \overline{X} \right)^2\right] \neq \sigma^2.
+\text{E}\left[\dfrac{1}{n} \sum_{i=1}^n \left( X_i - \overline{X} \right)^2\right] \neq \sigma^2.
 
 
 $$
@@ -132,7 +132,7 @@ We're given that $\displaystyle\sum_{i=1}^{81} \left(x_i - \overline{x} \right)^
 $$
 
 
-\begin{aligned}\overset{𝜎}{^}^{2} & =𝑠^{2} \\ & =\frac{1}{𝑛−1}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}(𝑥_{𝑖}−\overset{𝑥}{})^{2} \\ & =\frac{1}{81−1}⋅180 \\ & =\frac{1}{80}⋅180 \\ & =2.25.\end{aligned}
+\begin{aligned}\hat{𝜎}^{2} & =𝑠^{2} \\ & =\frac{1}{𝑛−1}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}(𝑥_{𝑖}−\overset{𝑥}{})^{2} \\ & =\frac{1}{81−1}⋅180 \\ & =\frac{1}{80}⋅180 \\ & =2.25.\end{aligned}
 
 
 $$
@@ -198,7 +198,7 @@ Therefore, an unbiased estimate of the population variance is
 $$
 
 
-\begin{aligned}\overset{𝜎}{^}^{2} & =𝑠^{2} \\ & =\frac{𝑛}{𝑛−1}[\overset{𝑥^{2}}{}−(\overset{𝑥}{})^{2}] \\ & =\frac{9}{9−1}⋅4 \\ & =\frac{36}{8} \\ & =4.5.\end{aligned}
+\begin{aligned}\hat{𝜎}^{2} & =𝑠^{2} \\ & =\frac{𝑛}{𝑛−1}[\overset{𝑥^{2}}{}−(\overset{𝑥}{})^{2}] \\ & =\frac{9}{9−1}⋅4 \\ & =\frac{36}{8} \\ & =4.5.\end{aligned}
 
 
 $$
@@ -268,7 +268,7 @@ Finally, the sample variance is
 $$
 
 
-\begin{aligned}\overset{𝜎}{^}^{2} & =𝑠^{2} \\ & =\frac{𝑛}{𝑛−1}[\overset{𝑥^{2}}{}−(\overset{𝑥}{})^{2}] \\ & =\frac{5}{5−1}⋅2 \\ & =2.5.\end{aligned}
+\begin{aligned}\hat{𝜎}^{2} & =𝑠^{2} \\ & =\frac{𝑛}{𝑛−1}[\overset{𝑥^{2}}{}−(\overset{𝑥}{})^{2}] \\ & =\frac{5}{5−1}⋅2 \\ & =2.5.\end{aligned}
 
 
 $$
@@ -302,7 +302,7 @@ Expanding the parentheses and distributing the summation, we have
 $$
 
 
-\begin{aligned}𝑆^{2} & =\frac{1}{𝑛−1}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}(𝑋_{2𝑖}^{}−2𝑋_{𝑖}\overset{𝑋}{}+(\overset{𝑋}{})^{2}) \\ & =\frac{1}{𝑛−1}[\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑋_{2𝑖}^{}−\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}2𝑋_{𝑖}\overset{𝑋}{}+\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}(\overset{𝑋}{})^{2}] \\ & =\frac{1}{𝑛−1}[\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑋_{2𝑖}^{}−2\overset{𝑋}{}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑋_{𝑖}+(\overset{𝑋}{})^{2}⋅\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}1].\end{aligned}
+\begin{aligned}𝑆^{2} & =\frac{1}{𝑛−1}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}(𝑋_{2𝑖}−2𝑋_{𝑖}\overset{𝑋}{}+(\overset{𝑋}{})^{2}) \\ & =\frac{1}{𝑛−1}[\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑋_{2𝑖}−\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}2𝑋_{𝑖}\overset{𝑋}{}+\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}(\overset{𝑋}{})^{2}] \\ & =\frac{1}{𝑛−1}[\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑋_{2𝑖}−2\overset{𝑋}{}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑋_{𝑖}+(\overset{𝑋}{})^{2}⋅\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}1].\end{aligned}
 
 
 $$
@@ -313,14 +313,14 @@ We now consider each sum separately:
 
 - $\displaystyle\sum_{i=1}^n X_i = n\cdot \overline{X}$ follows directly from the definition of the mean of $X$
 
-- $\displaystyle\sum_{i=1}^n 1 = \underbrace{1+1+\cdots+1}_{n\, \textrm{times}} = n$
+- $\displaystyle\sum_{i=1}^n 1 = \underbrace{1+1+\cdots+1}_{n\, \text{times}} = n$
 
 Therefore,
 
 $$
 
 
-\begin{aligned}𝑆^{2} & =\frac{1}{𝑛−1}[\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑋_{2𝑖}^{}−2\overset{𝑋}{}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑋_{𝑖}+(\overset{𝑋}{})^{2}⋅\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}1] \\ & =\frac{1}{𝑛−1}[𝑛⋅\overset{𝑋^{2}}{}−2\overset{𝑋}{}⋅𝑛⋅\overset{𝑋}{}+(\overset{𝑋}{})^{2}⋅𝑛] \\ & =\frac{𝑛}{𝑛−1}[\overset{𝑋^{2}}{}−2(\overset{𝑋}{})^{2}+(\overset{𝑋}{})^{2}] \\ & =\frac{𝑛}{𝑛−1}[\overset{𝑋^{2}}{}−(\overset{𝑋}{})^{2}],\end{aligned}
+\begin{aligned}𝑆^{2} & =\frac{1}{𝑛−1}[\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑋_{2𝑖}−2\overset{𝑋}{}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑋_{𝑖}+(\overset{𝑋}{})^{2}⋅\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}1] \\ & =\frac{1}{𝑛−1}[𝑛⋅\overset{𝑋^{2}}{}−2\overset{𝑋}{}⋅𝑛⋅\overset{𝑋}{}+(\overset{𝑋}{})^{2}⋅𝑛] \\ & =\frac{𝑛}{𝑛−1}[\overset{𝑋^{2}}{}−2(\overset{𝑋}{})^{2}+(\overset{𝑋}{})^{2}] \\ & =\frac{𝑛}{𝑛−1}[\overset{𝑋^{2}}{}−(\overset{𝑋}{})^{2}],\end{aligned}
 
 
 $$
@@ -344,7 +344,7 @@ We will now prove that $S^2$ is an unbiased estimator of $\sigma^2,$ that is,
 $$
 
 
-\textrm{E}\left[S^2\right] = \sigma^2.
+\text{E}\left[S^2\right] = \sigma^2.
 
 
 $$

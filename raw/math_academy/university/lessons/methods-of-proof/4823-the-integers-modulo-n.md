@@ -34,7 +34,7 @@ $$
 
 The set of integers modulo $n$ is special because we can perform arithmetic with its elements.
 
-- The addition of "integers" (classes) in $\mathbb Z_n$ is defined as For example, in $\mathbb Z_4,$ we have Recall that we can pick any element of a residue class as its representative. Since $[\, 5 \,] = [\, 1 \,]$ because $5\equiv 1\, (\textrm{mod} \: 4),$ we can write our answer as
+- The addition of "integers" (classes) in $\mathbb Z_n$ is defined as For example, in $\mathbb Z_4,$ we have Recall that we can pick any element of a residue class as its representative. Since $[\, 5 \,] = [\, 1 \,]$ because $5\equiv 1\, (\text{mod} \: 4),$ we can write our answer as
 
 - The subtraction of integers in $\mathbb Z_n$ is defined as For example, in $\mathbb Z_4,$ we have Since $[\, -1 \,] = [\, 3 \,]$ we can write our answer as
 
@@ -106,7 +106,7 @@ $$
 
 $$
 
-Since $[\, 6 \,] = [\, 2 \,]$ because $6 \: \textrm{mod} \: 4 \equiv 2,$ we can express our result as
+Since $[\, 6 \,] = [\, 2 \,]$ because $6 \: \text{mod} \: 4 \equiv 2,$ we can express our result as
 
 $$
 

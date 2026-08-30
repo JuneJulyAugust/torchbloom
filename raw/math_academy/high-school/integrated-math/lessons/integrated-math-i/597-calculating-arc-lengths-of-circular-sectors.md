@@ -35,7 +35,7 @@ $$
 
 
 
-C = 2\pi\cdot 3\,\textrm{cm} = 6\pi\,\textrm{cm}.
+C = 2\pi\cdot 3\,\text{cm} = 6\pi\,\text{cm}.
 
 
 
@@ -61,7 +61,7 @@ rounded to three decimal places.
 
 ![Instructional graphic](../../../../lesson-assets/integrated-math-i/topic-597/e8e6d3c767e510a7.png)
 
-Find the length of the arc $\overset{\frown}{AB}$ given that the radius $r$ of the circle is $3\,\textrm{ft}.$
+Find the length of the arc $\overset{\frown}{AB}$ given that the radius $r$ of the circle is $3\,\text{ft}.$
 
 #### Explanation
 
@@ -89,7 +89,7 @@ $$
 
 $$
 
-and using the fact that $C=2\pi r$ and $r=3\,\textrm{ft},$ we can calculate the length of $\overset{\frown}{AB}$ as follows:
+and using the fact that $C=2\pi r$ and $r=3\,\text{ft},$ we can calculate the length of $\overset{\frown}{AB}$ as follows:
 
 $$
 
@@ -101,7 +101,7 @@ $$
 
 $$
 
-Therefore, the length of the arc $\overset{\frown}{AB}$ is $2\pi \,\textrm{ft}.$
+Therefore, the length of the arc $\overset{\frown}{AB}$ is $2\pi \,\text{ft}.$
 
 ### Example: Calculating the Radius of a Circular Sector Given Its Arc Length
 
@@ -155,7 +155,7 @@ Therefore, the radius of the circle is $r = 9\,\mathrm{cm}.$
 
 #### Question
 
-In the figure below, the radius $r$ of the circle is $\dfrac{3}{4}\,\textrm{in}$ and the length of the arc $\overset{\frown}{AB}$ is $\dfrac{\pi}{3}\,\textrm{in}.$ Find the measure of the angle $\angle AOB.$
+In the figure below, the radius $r$ of the circle is $\dfrac{3}{4}\,\text{in}$ and the length of the arc $\overset{\frown}{AB}$ is $\dfrac{\pi}{3}\,\text{in}.$ Find the measure of the angle $\angle AOB.$
 
 ![Instructional graphic](../../../../lesson-assets/integrated-math-i/topic-597/875d407780d4cd9b.png)
 
@@ -167,7 +167,7 @@ $$
 
 
 
-C=2\pi r = 2 \pi \cdot \dfrac 34 = \dfrac{3 \pi}2 \,\textrm{in}.
+C=2\pi r = 2 \pi \cdot \dfrac 34 = \dfrac{3 \pi}2 \,\text{in}.
 
 
 

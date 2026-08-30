@@ -39,7 +39,7 @@ Finally, since acceleration is the derivative of velocity,, we obtain
 
 ### A Worked Example
 
-Suppose a supply drone of mass $3\,\textrm{kg}$ descends vertically. Let $v(t)$ be the drone's velocity, in meters per second, $t\geq 0$ seconds after the descent begins, with downward taken as the positive direction.
+Suppose a supply drone of mass $3\,\text{kg}$ descends vertically. Let $v(t)$ be the drone's velocity, in meters per second, $t\geq 0$ seconds after the descent begins, with downward taken as the positive direction.
 
 Assuming air resistance is negligible, and the only force acting on the drone is its weight due to gravity $g,$ let's find the differential equation that models the velocity.
 
@@ -87,9 +87,9 @@ $$
 
 #### Question
 
-A cryogenic sample container of mass $31\,\textrm{kg}$ is launched vertically downward with an initial velocity of $2.9\,\textrm{m/s}.$ Let $v(t)$ be the container's velocity, in meters per second, $t \geq 0$ seconds after release, with downward taken as the positive direction. The air resistance acting on the container is negligible, and the only other force acting on it is its weight due to gravity.
+A cryogenic sample container of mass $31\,\text{kg}$ is launched vertically downward with an initial velocity of $2.9\,\text{m/s}.$ Let $v(t)$ be the container's velocity, in meters per second, $t \geq 0$ seconds after release, with downward taken as the positive direction. The air resistance acting on the container is negligible, and the only other force acting on it is its weight due to gravity.
 
-What is the velocity of the container after $7$ seconds? Assume that acceleration due to gravity is $g = 9.8\,\textrm{m/s}^2.$
+What is the velocity of the container after $7$ seconds? Assume that acceleration due to gravity is $g = 9.8\,\text{m/s}^2.$
 
 #### Explanation
 
@@ -143,7 +143,7 @@ $$
 
 $$
 
-Note that $C$ is a constant of integration. We're told that the initial velocity of the container is $2.9\,\textrm{m/s}.$ So, we apply the initial condition $v(0) = 2.9,$ and solve for $C{:}$
+Note that $C$ is a constant of integration. We're told that the initial velocity of the container is $2.9\,\text{m/s}.$ So, we apply the initial condition $v(0) = 2.9,$ and solve for $C{:}$
 
 $$
 
@@ -168,7 +168,7 @@ Finally, the velocity after $7$ seconds is
 $$
 
 
-v(7) = 9.8\cdot7 + 2.9 = 71.5 \,\textrm{m/s}.
+v(7) = 9.8\cdot7 + 2.9 = 71.5 \,\text{m/s}.
 
 
 $$
@@ -217,9 +217,9 @@ $$
 
 #### Question
 
-A geological sampler of mass $15\,\textrm{kg}$ falls vertically downward. Let $v(t)$ be the sampler's velocity, in meters per second, $t \geq 0$ seconds after the descent began, with downward taken as the positive direction. The air resistance on the sampler is proportional to its velocity with a constant of proportionality $k > 0$ and acts in the direction opposite to motion. At a particular moment during the fall, the sampler’s velocity is $9\,\textrm{m/s}$ and instantaneous acceleration is $7.4\,\textrm{m/s}^2.$
+A geological sampler of mass $15\,\text{kg}$ falls vertically downward. Let $v(t)$ be the sampler's velocity, in meters per second, $t \geq 0$ seconds after the descent began, with downward taken as the positive direction. The air resistance on the sampler is proportional to its velocity with a constant of proportionality $k > 0$ and acts in the direction opposite to motion. At a particular moment during the fall, the sampler’s velocity is $9\,\text{m/s}$ and instantaneous acceleration is $7.4\,\text{m/s}^2.$
 
-Find the constant of proportionality $k,$ and the differential equation that best models the velocity. Assume the acceleration due to gravity is $g = 9.8\,\textrm{m/s}^2,$ and the only forces acting on the sampler are weight due to gravity and drag.
+Find the constant of proportionality $k,$ and the differential equation that best models the velocity. Assume the acceleration due to gravity is $g = 9.8\,\text{m/s}^2,$ and the only forces acting on the sampler are weight due to gravity and drag.
 
 $\quad$ The constant of proportionality is $k=$ $(𝑞_{0},1,𝐿)$ $(𝑞_{0},1,𝐿)$
 
@@ -273,7 +273,7 @@ $$
 
 $$
 
-Now, we're given that, at a particular moment, the body's velocity is $9\,\textrm{m/s}$ and instantaneous acceleration is $7.4\,\textrm{m/s}^2.$ So, substituting $v=9, g = 9.8,$ and $\dfrac{\mathrm{d}v}{\mathrm{d}t} = 7.4$ into our model, we can solve for $k{:}$
+Now, we're given that, at a particular moment, the body's velocity is $9\,\text{m/s}$ and instantaneous acceleration is $7.4\,\text{m/s}^2.$ So, substituting $v=9, g = 9.8,$ and $\dfrac{\mathrm{d}v}{\mathrm{d}t} = 7.4$ into our model, we can solve for $k{:}$
 
 $$
 
@@ -297,7 +297,7 @@ $$
 
 #### Question
 
-A supply container of mass $32\,\textrm{kg}$ is launched downward with an initial velocity of $7\,\textrm{m/s}$ and continues to fall vertically. Let $v(t)$ be the container's velocity, in meters per second, $t \geq 0$ seconds after launch, with downward taken as the positive direction. The air resistance on the container is proportional to its velocity and acts in the direction opposite to motion. At a particular moment during the fall, the container’s velocity is $8\,\textrm{m/s}$ and its instantaneous acceleration is $7.8\,\textrm{m/s}^2.$ Assume the acceleration due to gravity is $g = 9.8\,\textrm{m/s}^2,$ and the only forces acting on the container are the weight due to gravity and drag.
+A supply container of mass $32\,\text{kg}$ is launched downward with an initial velocity of $7\,\text{m/s}$ and continues to fall vertically. Let $v(t)$ be the container's velocity, in meters per second, $t \geq 0$ seconds after launch, with downward taken as the positive direction. The air resistance on the container is proportional to its velocity and acts in the direction opposite to motion. At a particular moment during the fall, the container’s velocity is $8\,\text{m/s}$ and its instantaneous acceleration is $7.8\,\text{m/s}^2.$ Assume the acceleration due to gravity is $g = 9.8\,\text{m/s}^2,$ and the only forces acting on the container are the weight due to gravity and drag.
 
 Find the equation for the velocity $v(t),$ expressing your answer in terms of $\bf t$ ****
 
@@ -308,7 +308,7 @@ First, note that only two forces act on the body: the force due to gravity, give
 $$
 
 
-w = mg = 32\cdot9.8 = 313.6\,\textrm{N},
+w = mg = 32\cdot9.8 = 313.6\,\text{N},
 
 
 $$
@@ -343,12 +343,12 @@ $$
 
 $$
 
-We're told that, at a particular moment, the body’s velocity is $8\,\textrm{m/s}$ and its instantaneous acceleration is $7.8\,\textrm{m/s}^2.$ Substituting these values into the ODE, we can solve for $k{:}$
+We're told that, at a particular moment, the body’s velocity is $8\,\text{m/s}$ and its instantaneous acceleration is $7.8\,\text{m/s}^2.$ Substituting these values into the ODE, we can solve for $k{:}$
 
 $$
 
 
-7.8 + \dfrac{k}{32}\cdot 8 = 9.8 \quad\Longrightarrow\quad k = 8\,\textrm{kg/s}
+7.8 + \dfrac{k}{32}\cdot 8 = 9.8 \quad\Longrightarrow\quad k = 8\,\text{kg/s}
 
 
 $$
@@ -379,7 +379,7 @@ v(t) = v_c(t) + v_p(t) = Ae^{-t/4} + \dfrac{196}{5}.
 
 $$
 
-We're told that the body is launched downward with an initial velocity of $7\,\textrm{m/s}.$ So, we can apply the initial condition $v(0) = 7,$ and solve for $A{:}$
+We're told that the body is launched downward with an initial velocity of $7\,\text{m/s}.$ So, we can apply the initial condition $v(0) = 7,$ and solve for $A{:}$
 
 $$
 
@@ -423,9 +423,9 @@ v_\text{term} = \dfrac{mg}{k}.
 
 $$
 
-For example, suppose a sealed electronics crate of mass $44\,\textrm{kg}$ falls vertically downward. Let $v$ be its velocity, with downward taken as the positive direction. The air resistance on the crate is proportional to its velocity with a constant of proportionality $k=8\,\textrm{kg/s}$ and acts opposite to the direction of motion.
+For example, suppose a sealed electronics crate of mass $44\,\text{kg}$ falls vertically downward. Let $v$ be its velocity, with downward taken as the positive direction. The air resistance on the crate is proportional to its velocity with a constant of proportionality $k=8\,\text{kg/s}$ and acts opposite to the direction of motion.
 
-Assuming that the acceleration due to gravity is $g = 9.8\,\textrm{m/s}^2,$ and the only forces acting on the crate are the weight due to gravity and drag, what is the terminal velocity $v_\text{term}$ of the crate?
+Assuming that the acceleration due to gravity is $g = 9.8\,\text{m/s}^2,$ and the only forces acting on the crate are the weight due to gravity and drag, what is the terminal velocity $v_\text{term}$ of the crate?
 
 Recall that at terminal velocity (a constant), acceleration is zero, so by $F=ma,$ the resultant force is zero.
 
@@ -455,15 +455,15 @@ $$
 
 $$
 
-Therefore, the terminal velocity of the crate is $v_\text{term} = 53.9\,\textrm{m/s}.$
+Therefore, the terminal velocity of the crate is $v_\text{term} = 53.9\,\text{m/s}.$
 
 ### Example: Finding a Terminal Velocity
 
 #### Question
 
-A sensor pod of mass $20\,\textrm{kg}$ falls vertically downward. Let $v$ be its velocity, with downward taken as the positive direction. The air resistance on the pod is proportional to its velocity and acts in the opposite direction to the motion. At a particular moment during the fall, the pod’s velocity is $8\,\textrm{m/s}$ and its instantaneous acceleration is $6.3\,\textrm{m/s}^2.$
+A sensor pod of mass $20\,\text{kg}$ falls vertically downward. Let $v$ be its velocity, with downward taken as the positive direction. The air resistance on the pod is proportional to its velocity and acts in the opposite direction to the motion. At a particular moment during the fall, the pod’s velocity is $8\,\text{m/s}$ and its instantaneous acceleration is $6.3\,\text{m/s}^2.$
 
-What is the terminal velocity $v_\text{term}$ of the pod? Assume the acceleration due to gravity is $g = 9.8\,\textrm{m/s}^2,$ and the only forces acting on the pod are the weight due to gravity and drag.
+What is the terminal velocity $v_\text{term}$ of the pod? Assume the acceleration due to gravity is $g = 9.8\,\text{m/s}^2,$ and the only forces acting on the pod are the weight due to gravity and drag.
 
 #### Explanation
 
@@ -474,7 +474,7 @@ First, note that only two forces act on the pod: the force due to gravity, given
 $$
 
 
-w = mg = 20\cdot9.8 = 196\,\textrm{N},
+w = mg = 20\cdot9.8 = 196\,\text{N},
 
 
 $$
@@ -509,7 +509,7 @@ $$
 
 $$
 
-We're told that, at a particular moment, the pod’s velocity is $8\,\textrm{m/s}$ and its instantaneous acceleration is $6.3\,\textrm{m/s}^2.$ Substituting these values into the above, we can solve for $k{:}$
+We're told that, at a particular moment, the pod’s velocity is $8\,\text{m/s}$ and its instantaneous acceleration is $6.3\,\text{m/s}^2.$ Substituting these values into the above, we can solve for $k{:}$
 
 $$
 
@@ -539,4 +539,4 @@ $$
 
 $$
 
-Therefore, the terminal velocity of the pod is $v_\text{term} = 22.4\,\textrm{m/s}.$
+Therefore, the terminal velocity of the pod is $v_\text{term} = 22.4\,\text{m/s}.$

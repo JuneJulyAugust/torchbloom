@@ -55,7 +55,7 @@ $$
 
 #### Question
 
-The velocity vector $\mathbf{v} = \langle u, v \rangle,$ measured in $\textrm{m}/\textrm s,$ of a particle $P$ at time $t$ seconds, is given by
+The velocity vector $\mathbf{v} = \langle u, v \rangle,$ measured in $\text{m}/\textrm s,$ of a particle $P$ at time $t$ seconds, is given by
 
 $$
 
@@ -94,7 +94,7 @@ Finally, to find the magnitude of the acceleration, we compute $|\mathbf a(1)|\m
 $$
 
 
-\begin{aligned}|𝐚(1)| & =|⟨2,6⟩| \\ & =\sqrt{√2^{2}+6^{2}} \\ & =\sqrt{√40} \\ & =2\sqrt{√10}\,m/s^{2}.\end{aligned}
+\begin{aligned}|𝐚(1)| & =|⟨2,6⟩| \\ & =\sqrt{2^{2}+6^{2}} \\ & =\sqrt{40} \\ & =2\sqrt{10}\,m/s^{2}.\end{aligned}
 
 
 $$
@@ -190,7 +190,7 @@ Finally, to find the magnitude of the acceleration, we compute $|\mathbf a(0)|\m
 $$
 
 
-\begin{aligned}|𝐚(0)| & =|⟨−2,\,2⟩| \\ & =\sqrt{√(−2)^{2}+2^{2}} \\ & =\sqrt{√8} \\ & =2\sqrt{√2}\,m/s^{2}\end{aligned}
+\begin{aligned}|𝐚(0)| & =|⟨−2,\,2⟩| \\ & =\sqrt{(−2)^{2}+2^{2}} \\ & =\sqrt{8} \\ & =2\sqrt{2}\,m/s^{2}\end{aligned}
 
 
 $$

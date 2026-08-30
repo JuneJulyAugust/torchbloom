@@ -29,7 +29,7 @@ In general, we say that a second-order ODE has **exponential forcing** if $f(x)$
 $$
 
 
-\frac{\textrm{d}^2 y}{\textrm{d} x^2} + 5\frac{\textrm{d} y}{\textrm{d} x} + 6y =10 e ^ {2x}
+\frac{\text{d}^2 y}{\text{d} x^2} + 5\frac{\text{d} y}{\text{d} x} + 6y =10 e ^ {2x}
 
 
 $$
@@ -63,7 +63,7 @@ Let's solve the following second-order ODE with exponential forcing:
 $$
 
 
-\frac{\textrm{d}^2 y}{\textrm{d} x^2} + 5\frac{\textrm{d} y}{\textrm{d} x} + 6y =10 e ^ {2x}
+\frac{\text{d}^2 y}{\text{d} x^2} + 5\frac{\text{d} y}{\text{d} x} + 6y =10 e ^ {2x}
 
 
 $$
@@ -105,7 +105,7 @@ Calculating the first and second derivatives of $y_p,$ we get
 $$
 
 
-\frac{\textrm{d}y_p}{\textrm{d}x} = 2 \alpha e ^{2x}, \quad \frac{\textrm{d}^2y_p}{\textrm{d}x^2} = 4 \alpha e ^{2x}.
+\frac{\text{d}y_p}{\text{d}x} = 2 \alpha e ^{2x}, \quad \frac{\text{d}^2y_p}{\text{d}x^2} = 4 \alpha e ^{2x}.
 
 
 $$
@@ -149,7 +149,7 @@ Find the general solution to the equation
 $$
 
 
-\frac{\textrm{d}^2 y}{\textrm{d} x^2} + \frac{\textrm{d} y}{\textrm{d} x} - 2y = 20 e ^ {3x}.
+\frac{\text{d}^2 y}{\text{d} x^2} + \frac{\text{d} y}{\text{d} x} - 2y = 20 e ^ {3x}.
 
 
 $$
@@ -183,7 +183,7 @@ Calculating the first and second derivatives of $y_p,$ we get
 $$
 
 
-\frac{\textrm{d}y_p}{\textrm{d}x} = 3 \alpha e ^{3x}, \quad \frac{\textrm{d}^2y_p}{\textrm{d}x^2} = 9 \alpha e ^{3x}.
+\frac{\text{d}y_p}{\text{d}x} = 3 \alpha e ^{3x}, \quad \frac{\text{d}^2y_p}{\text{d}x^2} = 9 \alpha e ^{3x}.
 
 
 $$
@@ -235,7 +235,7 @@ For example, let's find the solution to the following ODE:
 $$
 
 
-\frac{\textrm{d}^2 y}{\textrm{d} x^2} + 5\frac{\textrm{d} y}{\textrm{d} x} + 6y =3 e ^ {-2x}
+\frac{\text{d}^2 y}{\text{d} x^2} + 5\frac{\text{d} y}{\text{d} x} + 6y =3 e ^ {-2x}
 
 
 $$
@@ -363,7 +363,7 @@ For example, let's find the solution to the following ODE:
 $$
 
 
-\frac{\textrm{d}^2 y}{\textrm{d} x^2} - 12\frac{\textrm{d} y}{\textrm{d} x} + 36y = e ^{6x}
+\frac{\text{d}^2 y}{\text{d} x^2} - 12\frac{\text{d} y}{\text{d} x} + 36y = e ^{6x}
 
 
 $$
@@ -459,7 +459,7 @@ Find the general solution to the equation
 $$
 
 
-\frac{\textrm{d}^2 y}{\textrm{d} x^2} - 6\frac{\textrm{d} y}{\textrm{d} x} + 9y = e ^{3x}.
+\frac{\text{d}^2 y}{\text{d} x^2} - 6\frac{\text{d} y}{\text{d} x} + 9y = e ^{3x}.
 
 
 $$
@@ -537,7 +537,7 @@ Given that the differential equation
 $$
 
 
-\frac{\textrm{d}^2 y}{\textrm{d} x^2} - 6\frac{\textrm{d} y}{\textrm{d} x} + 9y = e ^{3x}
+\frac{\text{d}^2 y}{\text{d} x^2} - 6\frac{\text{d} y}{\text{d} x} + 9y = e ^{3x}
 
 
 $$
@@ -557,7 +557,7 @@ solve the initial value problem
 $$
 
 
-\frac{\textrm{d}^2 y}{\textrm{d} x^2} - 6\frac{\textrm{d} y}{\textrm{d} x} + 9y = e ^{3x}, \qquad y(0) = 2 , \ \ y'(0) = 1.
+\frac{\text{d}^2 y}{\text{d} x^2} - 6\frac{\text{d} y}{\text{d} x} + 9y = e ^{3x}, \qquad y(0) = 2 , \ \ y'(0) = 1.
 
 
 $$

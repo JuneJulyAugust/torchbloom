@@ -293,7 +293,7 @@ $$
 
 
 
-\dfrac{13}{6} =2\,\textrm{R} 1 = 2\,\dfrac 1 {6}
+\dfrac{13}{6} =2\,\text{R} 1 = 2\,\dfrac 1 {6}
 
 
 

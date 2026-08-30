@@ -262,7 +262,7 @@ To find the eigenvalues, we write down the characteristic equation:
 $$
 
 
-\begin{aligned}\begin{aligned}−𝜆 & −\frac{𝑏𝑐}{𝑑} \\ \frac{𝑎𝑑}{𝑏} & −𝜆\end{aligned} & =0 \\ (−𝜆)⋅(−𝜆)−(−\frac{𝑏𝑐}{𝑑})⋅\frac{𝑎𝑑}{𝑏} & =0 \\ 𝜆^{2}+𝑎𝑐 & =0\end{aligned}
+\begin{aligned}\begin{matrix}−𝜆 & −\frac{𝑏𝑐}{𝑑} \\ \frac{𝑎𝑑}{𝑏} & −𝜆\end{matrix} & =0 \\ (−𝜆)⋅(−𝜆)−(−\frac{𝑏𝑐}{𝑑})⋅\frac{𝑎𝑑}{𝑏} & =0 \\ 𝜆^{2}+𝑎𝑐 & =0\end{aligned}
 
 
 $$
@@ -348,7 +348,7 @@ To find the eigenvalues of the Jacobian matrix, we write down the characteristic
 $$
 
 
-\begin{aligned}\begin{aligned}−𝜆 & 0.1 \\ −4 & −𝜆\end{aligned} & =0 \\ (−𝜆)(−𝜆)−(−4)⋅0.1 & =0 \\ 𝜆^{2}+0.4 & =0\end{aligned}
+\begin{aligned}\begin{matrix}−𝜆 & 0.1 \\ −4 & −𝜆\end{matrix} & =0 \\ (−𝜆)(−𝜆)−(−4)⋅0.1 & =0 \\ 𝜆^{2}+0.4 & =0\end{aligned}
 
 
 $$

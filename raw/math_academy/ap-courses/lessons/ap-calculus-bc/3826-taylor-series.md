@@ -104,7 +104,7 @@ So, the Taylor series is
 $$
 
 
-\begin{aligned}\sqrt{√𝑥} & =3+\frac{1}{6}(𝑥−9)+\frac{1}{2}(−\frac{1}{108})(𝑥−9)^{2}+⋯ \\ & =3+\frac{1}{6}(𝑥−9)−\frac{1}{216}(𝑥−9)^{2}+⋯.\end{aligned}
+\begin{aligned}\sqrt{𝑥} & =3+\frac{1}{6}(𝑥−9)+\frac{1}{2}(−\frac{1}{108})(𝑥−9)^{2}+⋯ \\ & =3+\frac{1}{6}(𝑥−9)−\frac{1}{216}(𝑥−9)^{2}+⋯.\end{aligned}
 
 
 $$
@@ -114,7 +114,7 @@ We substitute $x = 9.1$ into the above to approximate $\sqrt{9.1}.$ We get
 $$
 
 
-\begin{aligned}\sqrt{√9.1} & ≈3+\frac{1}{6}(9.1−9)−\frac{1}{216}(9.1−9)^{2} \\ & ≈3+\frac{1}{6}(0.1)−\frac{1}{216}(0.1)^{2} \\ & =3.016\,620,\end{aligned}
+\begin{aligned}\sqrt{9.1} & ≈3+\frac{1}{6}(9.1−9)−\frac{1}{216}(9.1−9)^{2} \\ & ≈3+\frac{1}{6}(0.1)−\frac{1}{216}(0.1)^{2} \\ & =3.016\,620,\end{aligned}
 
 
 $$

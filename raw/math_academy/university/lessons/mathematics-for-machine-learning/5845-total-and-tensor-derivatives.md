@@ -73,7 +73,7 @@ $$
 
 $$
 
-where the dot denotes matrix multiplication. What is the shape of the total derivative $\dfrac{\textrm{d} \mathbf{f}}{\textrm{d} \mathbf{x}}?$
+where the dot denotes matrix multiplication. What is the shape of the total derivative $\dfrac{\text{d} \mathbf{f}}{\text{d} \mathbf{x}}?$
 
 #### Explanation
 
@@ -109,7 +109,7 @@ $$
 
 $$
 
-Suppose we want to compute the total derivative $\dfrac{\textrm{d} \mathbf{f}}{\textrm{d} \mathbf{x}}$ at the point $[\begin{aligned}1 \\ 2\end{aligned}]$.
+Suppose we want to compute the total derivative $\dfrac{\text{d} \mathbf{f}}{\text{d} \mathbf{x}}$ at the point $[\begin{aligned}1 \\ 2\end{aligned}]$.
 
 The total derivative of a vector-valued function $\mathbf{f}: \mathbb{R}^{n} \rightarrow \mathbb{R}^m$ with respect to a vector $\mathbf{x} \in \mathbb{R}^n$ is the $m \times n$ matrix
 
@@ -146,7 +146,7 @@ So, the total derivative is
 $$
 
 
-\begin{aligned}\,\,\,\frac{d𝐟}{d𝐱} & =\begin{aligned}\frac{𝜕𝑓_{1}}{𝜕𝑥_{1}} & \frac{𝜕𝑓_{1}}{𝜕𝑥_{2}} \\ \frac{𝜕𝑓_{2}}{𝜕𝑥_{1}} & \frac{𝜕𝑓_{2}}{𝜕𝑥_{2}} \\ \frac{𝜕𝑓_{3}}{𝜕𝑥_{1}} & \frac{𝜕𝑓_{3}}{𝜕𝑥_{2}}\end{aligned} \\ & =\begin{aligned}3 & 0 \\ 1 & −1 \\ 0 & 2\end{aligned}.\end{aligned}
+\begin{aligned}\,\,\,\frac{d𝐟}{d𝐱} & =\begin{matrix}\frac{𝜕𝑓_{1}}{𝜕𝑥_{1}} & \frac{𝜕𝑓_{1}}{𝜕𝑥_{2}} \\ \frac{𝜕𝑓_{2}}{𝜕𝑥_{1}} & \frac{𝜕𝑓_{2}}{𝜕𝑥_{2}} \\ \frac{𝜕𝑓_{3}}{𝜕𝑥_{1}} & \frac{𝜕𝑓_{3}}{𝜕𝑥_{2}}\end{matrix} \\ & =\begin{matrix}3 & 0 \\ 1 & −1 \\ 0 & 2\end{matrix}.\end{aligned}
 
 
 $$
@@ -195,7 +195,7 @@ $$
 
 $$
 
-What is $\dfrac{\textrm{d} \mathbf{f}}{\textrm{d} \mathbf{x}},$ the total derivative of $\mathbf{f}$ with respect to $\mathbf{x}$ at $\begin{aligned}1 \\ 2 \\ 3 \\ 4\end{aligned}$
+What is $\dfrac{\text{d} \mathbf{f}}{\text{d} \mathbf{x}},$ the total derivative of $\mathbf{f}$ with respect to $\mathbf{x}$ at $\begin{aligned}1 \\ 2 \\ 3 \\ 4\end{aligned}$
 
 #### Explanation
 
@@ -224,7 +224,7 @@ From here, we have $f_1(\mathbf{x}) = x_1 + 2x_2 + 4x_3 + 8x_4$ and $f_2(\mathbf
 $$
 
 
-\begin{aligned}\,\,\,\frac{d𝐟}{d𝐱} & =\begin{aligned}\frac{𝜕𝑓_{1}}{𝜕𝑥_{1}} & \frac{𝜕𝑓_{1}}{𝜕𝑥_{2}} & \frac{𝜕𝑓_{1}}{𝜕𝑥_{3}} & \frac{𝜕𝑓_{1}}{𝜕𝑥_{4}} \\ \frac{𝜕𝑓_{2}}{𝜕𝑥_{1}} & \frac{𝜕𝑓_{2}}{𝜕𝑥_{2}} & \frac{𝜕𝑓_{2}}{𝜕𝑥_{3}} & \frac{𝜕𝑓_{2}}{𝜕𝑥_{4}}\end{aligned} \\ & =[\begin{aligned}1 & 2 & 4 & 8 \\ 1 & 3 & 9 & 27\end{aligned}].\end{aligned}
+\begin{aligned}\,\,\,\frac{d𝐟}{d𝐱} & =\begin{matrix}\frac{𝜕𝑓_{1}}{𝜕𝑥_{1}} & \frac{𝜕𝑓_{1}}{𝜕𝑥_{2}} & \frac{𝜕𝑓_{1}}{𝜕𝑥_{3}} & \frac{𝜕𝑓_{1}}{𝜕𝑥_{4}} \\ \frac{𝜕𝑓_{2}}{𝜕𝑥_{1}} & \frac{𝜕𝑓_{2}}{𝜕𝑥_{2}} & \frac{𝜕𝑓_{2}}{𝜕𝑥_{3}} & \frac{𝜕𝑓_{2}}{𝜕𝑥_{4}}\end{matrix} \\ & =[\begin{matrix}1 & 2 & 4 & 8 \\ 1 & 3 & 9 & 27\end{matrix}].\end{aligned}
 
 
 $$
@@ -252,7 +252,7 @@ Since the input $\mathbf{A}$ varies along two dimensions (rows and columns), and
 $$
 
 
-\dfrac{\textrm{d}\mathbf{f}}{\textrm{d}\mathbf{A}}
+\dfrac{\text{d}\mathbf{f}}{\text{d}\mathbf{A}}
 
 
 $$
@@ -292,7 +292,7 @@ You've probably realized by now that working with 3-tensors directly is cumberso
 $$
 
 
-\left( \dfrac{\textrm{d}\mathbf{f}}{\textrm{d}\mathbf{A}} \right)_{i, j, k} = \dfrac{\partial f_i}{\partial a_{jk}}
+\left( \dfrac{\text{d}\mathbf{f}}{\text{d}\mathbf{A}} \right)_{i, j, k} = \dfrac{\partial f_i}{\partial a_{jk}}
 
 
 $$

@@ -40,7 +40,7 @@ First, we rewrite $32y$ as the product $16 \cdot 2y,$ which contains a perfect s
 $$
 
 
-\begin{aligned} \sqrt{32y}&=\\\[5pt] \sqrt{16 \cdot 2y}&=\\\[5pt] \sqrt{4^2 \cdot 2y}& \end{aligned}
+\begin{aligned} \sqrt{32y}&=\\[5pt] \sqrt{16 \cdot 2y}&=\\[5pt] \sqrt{4^2 \cdot 2y}& \end{aligned}
 
 
 $$

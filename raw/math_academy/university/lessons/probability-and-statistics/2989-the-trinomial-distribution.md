@@ -18,7 +18,7 @@ Suppose there are $3$ red, $2$ green, and $5$ blue balls in a box. Let's conside
 $$
 
 
-P(\textrm{red}) = \dfrac{3}{10}, \qquad P(\textrm{green}) = \dfrac{2}{10}, \qquad P(\textrm{blue}) = \dfrac{5}{10}.
+P(\text{red}) = \dfrac{3}{10}, \qquad P(\text{green}) = \dfrac{2}{10}, \qquad P(\text{blue}) = \dfrac{5}{10}.
 
 
 $$
@@ -28,7 +28,7 @@ Suppose we draw $5$ balls and get the following sequence:
 $$
 
 
-\textrm{red},\qquad \textrm{green}, \qquad \textrm{green}, \qquad \textrm{blue}, \qquad \textrm{blue}.
+\text{red},\qquad \text{green}, \qquad \text{green}, \qquad \text{blue}, \qquad \text{blue}.
 
 
 $$
@@ -104,12 +104,12 @@ follows a **trinomial distribution** with parameters $n$ and $p=(p_1,p_2,p_3),$ 
 $$
 
 
-X \sim \textrm{Trinomial}(n, (p_1,p_2,p_3)).
+X \sim \text{Trinomial}(n, (p_1,p_2,p_3)).
 
 
 $$
 
-The **trinomial probability mass function** of $X\sim \textrm{Trinomial}(n, (p_1,p_2,p_3))$ is given by
+The **trinomial probability mass function** of $X\sim \text{Trinomial}(n, (p_1,p_2,p_3))$ is given by
 
 $$
 
@@ -145,7 +145,7 @@ with $p_1+p_2+p_3=1.$ This follows from the fact that $X_1$ is the number of "su
 
 #### Question
 
-Given that $X \sim \textrm{Trinomial}(8, \mathbf{p})$ where $\mathbf{p}=(p_1,0.2,0.4),$ find $P(X_1=4, X_3=2).$
+Given that $X \sim \text{Trinomial}(8, \mathbf{p})$ where $\mathbf{p}=(p_1,0.2,0.4),$ find $P(X_1=4, X_3=2).$
 
 #### Explanation
 
@@ -207,7 +207,7 @@ rounded to $4$ decimal places.
 
 #### Question
 
-Given $X \sim\textrm{Trinomial}(5, \mathbf{p})$ where $\mathbf{p}=(0.4,0.5,0.1),$ compute $P(1 \leq X_1 < 3, X_2=1).$
+Given $X \sim\text{Trinomial}(5, \mathbf{p})$ where $\mathbf{p}=(0.4,0.5,0.1),$ compute $P(1 \leq X_1 < 3, X_2=1).$
 
 #### Explanation
 

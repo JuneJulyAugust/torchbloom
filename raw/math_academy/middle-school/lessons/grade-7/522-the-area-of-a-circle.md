@@ -25,7 +25,7 @@ $$
 
 $$
 
-To demonstrate, let's find the area of a circle that has a radius of $3\textrm{cm}.$
+To demonstrate, let's find the area of a circle that has a radius of $3\text{cm}.$
 
 ![Instructional graphic](../../../lesson-assets/grade-7/topic-522/1306a937f9459397.png)
 
@@ -45,7 +45,7 @@ $$
 
 #### Question
 
-Using the approximation of $\pi \approx 3.14,$ find the area of a circle with a radius of $9\:\textrm{cm}.$
+Using the approximation of $\pi \approx 3.14,$ find the area of a circle with a radius of $9\:\text{cm}.$
 
 #### Explanation
 
@@ -75,13 +75,13 @@ $$
 
 $$
 
-Therefore, the area is approximately $254.34 \: \textrm{cm}^2.$
+Therefore, the area is approximately $254.34 \: \text{cm}^2.$
 
 ### Formula for the Area Given the Diameter
 
 We can also find the area of a circle given its diameter.
 
-For example, using the approximation of $\pi \approx 3.14,$ let's find the area of a circle with a diameter of $8\:\textrm{yd},$ shown below.
+For example, using the approximation of $\pi \approx 3.14,$ let's find the area of a circle with a diameter of $8\:\text{yd},$ shown below.
 
 ![Instructional graphic](../../../lesson-assets/grade-7/topic-522/db1a801133d4a004.png)
 
@@ -105,7 +105,7 @@ $$
 
 
 
-r=\dfrac{8}{2}=4 \: \textrm{yd}.
+r=\dfrac{8}{2}=4 \: \text{yd}.
 
 
 
@@ -123,13 +123,13 @@ $$
 
 $$
 
-Therefore, the area is approximately $50.24 \: \textrm{yd}^2.$
+Therefore, the area is approximately $50.24 \: \text{yd}^2.$
 
 ### Example: Calculating the Area of a Circle Given the Diameter
 
 #### Question
 
-Using the approximation of $\pi \approx 3.14,$ find the area of a circle with a diameter of $14\:\textrm{cm}.$
+Using the approximation of $\pi \approx 3.14,$ find the area of a circle with a diameter of $14\:\text{cm}.$
 
 #### Explanation
 
@@ -153,7 +153,7 @@ $$
 
 
 
-r=\dfrac{14}{2}=7 \: \textrm{cm}.
+r=\dfrac{14}{2}=7 \: \text{cm}.
 
 
 
@@ -171,13 +171,13 @@ $$
 
 $$
 
-Therefore, the area is approximately $153.86 \: \textrm{cm}^2.$
+Therefore, the area is approximately $153.86 \: \text{cm}^2.$
 
 ### Area of a Circle in Real World Context
 
 Now, let's see an application of the above in a real-world context.
 
-Suppose a circular garden has a radius of $12\:\textrm{ft}.$ Let's find the area of the garden.
+Suppose a circular garden has a radius of $12\:\text{ft}.$ Let's find the area of the garden.
 
 Recall that the area of a circle is given by
 
@@ -193,7 +193,7 @@ $$
 
 where $r$ is the radius.
 
-We are given that the radius of the garden is $r=12\:\textrm{ft}.$
+We are given that the radius of the garden is $r=12\:\text{ft}.$
 
 Using $\pi \approx 3.14,$ we have
 
@@ -207,13 +207,13 @@ $$
 
 $$
 
-Therefore, the area is approximately $452.16 \: \textrm{ft}^2.$
+Therefore, the area is approximately $452.16 \: \text{ft}^2.$
 
 ### Example: Calculating the Area of a Circle in Word Problems
 
 #### Question
 
-A circular trampoline has a diameter of $16\:\textrm{ft}.$
+A circular trampoline has a diameter of $16\:\text{ft}.$
 
 Using the approximation of $\pi \approx 3.14,$ find the area of the trampoline.
 
@@ -233,7 +233,7 @@ $$
 
 where $r$ is the radius.
 
-We are given that the diameter of the trampoline is $d=16\:\textrm{ft}.$
+We are given that the diameter of the trampoline is $d=16\:\text{ft}.$
 
 The radius of a circle is half the diameter. So, the radius of our circle is
 
@@ -241,7 +241,7 @@ $$
 
 
 
-r=\dfrac{16}{2}=8 \: \textrm{ft}.
+r=\dfrac{16}{2}=8 \: \text{ft}.
 
 
 
@@ -259,7 +259,7 @@ $$
 
 $$
 
-Therefore, the area is approximately $200.96 \: \textrm{ft}^2.$
+Therefore, the area is approximately $200.96 \: \text{ft}^2.$
 
 ### Relationship Between the Circumference and Area of a Circle
 

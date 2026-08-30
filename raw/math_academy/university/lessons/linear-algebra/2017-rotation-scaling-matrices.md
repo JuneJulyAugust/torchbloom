@@ -29,7 +29,7 @@ We can find the images of $\{\mathbf{i},\mathbf{j} \}$ under $\mathbf{A}$ by com
 $$
 
 
-\begin{aligned}𝐢^{′} & =𝐴(𝐢)=[\begin{aligned}1 & −2 \\ 2 & 1\end{aligned}][\begin{aligned}1 \\ 0\end{aligned}]=[\begin{aligned}1 \\ 2\end{aligned}]=𝐢+2\,𝐣 \\ 𝐣^{′} & =𝐴(𝐣)=[\begin{aligned}1 & −2 \\ 2 & 1\end{aligned}][\begin{aligned}0 \\ 1\end{aligned}]=[\begin{aligned}−2 \\ 1\end{aligned}]=−2\,𝐢+𝐣\end{aligned}
+\begin{aligned}𝐢^{′} & =𝐴(𝐢)=[\begin{matrix}1 & −2 \\ 2 & 1\end{matrix}][\begin{matrix}1 \\ 0\end{matrix}]=[\begin{matrix}1 \\ 2\end{matrix}]=𝐢+2\,𝐣 \\ 𝐣^{′} & =𝐴(𝐣)=[\begin{matrix}1 & −2 \\ 2 & 1\end{matrix}][\begin{matrix}0 \\ 1\end{matrix}]=[\begin{matrix}−2 \\ 1\end{matrix}]=−2\,𝐢+𝐣\end{aligned}
 
 
 $$
@@ -181,7 +181,7 @@ According to the diagram, $r=\dfrac{1}{2}$ and $\theta=\dfrac{\pi}{3}.$ Therefor
 $$
 
 
-\begin{aligned}𝐴 & =[\begin{aligned}𝑟 & 0 \\ 0 & 𝑟\end{aligned}][\begin{aligned}cos⁡𝜃 & −sin⁡𝜃 \\ sin⁡𝜃 & cos⁡𝜃\end{aligned}] \\ & =\begin{aligned}\frac{1}{2} & 0 \\ 0 & \frac{1}{2}\end{aligned}\begin{aligned}\frac{1}{2} & −\frac{\sqrt{√3}}{2} \\ \frac{\sqrt{√3}}{2} & \frac{1}{2}\end{aligned} \\ & =\begin{aligned}\frac{1}{4} & −\frac{\sqrt{√3}}{4} \\ \frac{\sqrt{√3}}{4} & \frac{1}{4}\end{aligned}.\end{aligned}
+\begin{aligned}𝐴 & =[\begin{matrix}𝑟 & 0 \\ 0 & 𝑟\end{matrix}][\begin{matrix}cos⁡𝜃 & −sin⁡𝜃 \\ sin⁡𝜃 & cos⁡𝜃\end{matrix}] \\ & =\begin{matrix}\frac{1}{2} & 0 \\ 0 & \frac{1}{2}\end{matrix}\begin{matrix}\frac{1}{2} & −\frac{\sqrt{3}}{2} \\ \frac{\sqrt{3}}{2} & \frac{1}{2}\end{matrix} \\ & =\begin{matrix}\frac{1}{4} & −\frac{\sqrt{3}}{4} \\ \frac{\sqrt{3}}{4} & \frac{1}{4}\end{matrix}.\end{aligned}
 
 
 $$
@@ -225,7 +225,7 @@ From this, we can find the scale factor and angle of rotation of a rotation-scal
 $$
 
 
-{\color{blue}a} = {\color{blue}r\cos\theta}, \quad \textrm{and}\quad {\color{red}b} = {\color{red}r\sin\theta}.
+{\color{blue}a} = {\color{blue}r\cos\theta}, \quad \text{and}\quad {\color{red}b} = {\color{red}r\sin\theta}.
 
 
 $$
@@ -255,7 +255,7 @@ Similarly, to find the rotation angle $\theta$ in terms of $a$ and $b,$ we start
 $$
 
 
-{\color{blue}a} = {\color{blue}r\cos\theta}, \quad \textrm{and}\quad {\color{red}b} = {\color{red}r\sin\theta}.
+{\color{blue}a} = {\color{blue}r\cos\theta}, \quad \text{and}\quad {\color{red}b} = {\color{red}r\sin\theta}.
 
 
 $$
@@ -281,7 +281,7 @@ Let $\mathbf{v}$ be a non-zero vector from $\mathbb{R}^2$ and let $A$ be the rot
 $$
 
 
-[\begin{aligned}−2\sqrt{√2} & −2\sqrt{√2} \\ 2\sqrt{√2} & −2\sqrt{√2}\end{aligned}]
+[\begin{aligned}−2\sqrt{2} & −2\sqrt{2} \\ 2\sqrt{2} & −2\sqrt{2}\end{aligned}]
 
 
 $$
@@ -297,7 +297,7 @@ We can find the scale factor using the following formula:
 $$
 
 
-\begin{aligned}𝑟 & =\sqrt{√det(𝐴)} \\ & =\sqrt{√(2\sqrt{√2})^{2}+(2\sqrt{√2})^{2}} \\ & =\sqrt{√8+8} \\ & =\sqrt{√16} \\ & =4\end{aligned}
+\begin{aligned}𝑟 & =\sqrt{det(𝐴)} \\ & =\sqrt{(2\sqrt{2})^{2}+(2\sqrt{2})^{2}} \\ & =\sqrt{8+8} \\ & =\sqrt{16} \\ & =4\end{aligned}
 
 
 $$
@@ -307,7 +307,7 @@ We can now represent $A$ as a product of a rotation and a scaling matrix, as fol
 $$
 
 
-\begin{aligned}𝐴 & =4\begin{aligned}−\frac{\sqrt{√2}}{2} & −\frac{\sqrt{√2}}{2} \\ \frac{\sqrt{√2}}{2} & −\frac{\sqrt{√2}}{2}\end{aligned} \\ & =[\begin{aligned}4 & 0 \\ 0 & 4\end{aligned}]\begin{aligned}−\frac{\sqrt{√2}}{2} & −\frac{\sqrt{√2}}{2} \\ \frac{\sqrt{√2}}{2} & −\frac{\sqrt{√2}}{2}\end{aligned} \\ & =[\begin{aligned}𝑟 & 0 \\ 0 & 𝑟\end{aligned}][\begin{aligned}cos⁡𝜃 & −sin⁡𝜃 \\ sin⁡𝜃 & cos⁡𝜃\end{aligned}]\end{aligned}
+\begin{aligned}𝐴 & =4\begin{matrix}−\frac{\sqrt{2}}{2} & −\frac{\sqrt{2}}{2} \\ \frac{\sqrt{2}}{2} & −\frac{\sqrt{2}}{2}\end{matrix} \\ & =[\begin{matrix}4 & 0 \\ 0 & 4\end{matrix}]\begin{matrix}−\frac{\sqrt{2}}{2} & −\frac{\sqrt{2}}{2} \\ \frac{\sqrt{2}}{2} & −\frac{\sqrt{2}}{2}\end{matrix} \\ & =[\begin{matrix}𝑟 & 0 \\ 0 & 𝑟\end{matrix}][\begin{matrix}cos⁡𝜃 & −sin⁡𝜃 \\ sin⁡𝜃 & cos⁡𝜃\end{matrix}]\end{aligned}
 
 
 $$
@@ -317,7 +317,7 @@ Therefore, we obtain that
 $$
 
 
-\begin{aligned}cos⁡𝜃=−\frac{\sqrt{√2}}{2} \\ sin⁡𝜃=\frac{\sqrt{√2}}{2}\end{aligned}
+\begin{aligned}cos⁡𝜃=−\frac{\sqrt{2}}{2} \\ sin⁡𝜃=\frac{\sqrt{2}}{2}\end{aligned}
 
 
 $$
@@ -335,7 +335,7 @@ Consider the vector $\mathbf{v}$ shown above. Sketch the vector $A\mathbf{v}$ gi
 $$
 
 
-\begin{aligned}−\frac{\sqrt{√3}}{2} & −\frac{3}{2} \\ \frac{3}{2} & −\frac{\sqrt{√3}}{2}\end{aligned}
+\begin{aligned}−\frac{\sqrt{3}}{2} & −\frac{3}{2} \\ \frac{3}{2} & −\frac{\sqrt{3}}{2}\end{aligned}
 
 
 $$
@@ -349,7 +349,7 @@ We can find the scale factor using the following formula:
 $$
 
 
-\begin{aligned}𝑟 & =\sqrt{√det(𝐴)} \\ & =\sqrt{(\frac{\sqrt{√3}}{2})^{2}+(\frac{3}{2})^{2}} \\ & =\sqrt{√\frac{3}{4}+\frac{9}{4}} \\ & =\sqrt{√\frac{12}{4}} \\ & =\sqrt{√3}\end{aligned}
+\begin{aligned}𝑟 & =\sqrt{det(𝐴)} \\ & =\sqrt{(\frac{\sqrt{3}}{2})^{2}+(\frac{3}{2})^{2}} \\ & =\sqrt{\frac{3}{4}+\frac{9}{4}} \\ & =\sqrt{\frac{12}{4}} \\ & =\sqrt{3}\end{aligned}
 
 
 $$
@@ -359,7 +359,7 @@ Now, we can represent $A$ as a product of a rotation and a scaling matrix, as fo
 $$
 
 
-\begin{aligned}𝐴 & =\sqrt{√3}\begin{aligned}−\frac{1}{2} & −\frac{\sqrt{√3}}{2} \\ \frac{\sqrt{√3}}{2} & −\frac{1}{2}\end{aligned} \\ & =[\begin{aligned}\sqrt{√3} & 0 \\ 0 & \sqrt{√3}\end{aligned}]\begin{aligned}−\frac{1}{2} & −\frac{\sqrt{√3}}{2} \\ \frac{\sqrt{√3}}{2} & −\frac{1}{2}\end{aligned} \\ & =[\begin{aligned}𝑟 & 0 \\ 0 & 𝑟\end{aligned}][\begin{aligned}cos⁡𝜃 & −sin⁡𝜃 \\ sin⁡𝜃 & cos⁡𝜃\end{aligned}]\end{aligned}
+\begin{aligned}𝐴 & =\sqrt{3}\begin{matrix}−\frac{1}{2} & −\frac{\sqrt{3}}{2} \\ \frac{\sqrt{3}}{2} & −\frac{1}{2}\end{matrix} \\ & =[\begin{matrix}\sqrt{3} & 0 \\ 0 & \sqrt{3}\end{matrix}]\begin{matrix}−\frac{1}{2} & −\frac{\sqrt{3}}{2} \\ \frac{\sqrt{3}}{2} & −\frac{1}{2}\end{matrix} \\ & =[\begin{matrix}𝑟 & 0 \\ 0 & 𝑟\end{matrix}][\begin{matrix}cos⁡𝜃 & −sin⁡𝜃 \\ sin⁡𝜃 & cos⁡𝜃\end{matrix}]\end{aligned}
 
 
 $$
@@ -369,7 +369,7 @@ Hence, we obtain that
 $$
 
 
-\begin{aligned}cos⁡𝜃=−\frac{1}{2} \\ sin⁡𝜃=\frac{\sqrt{√3}}{2}\end{aligned}
+\begin{aligned}cos⁡𝜃=−\frac{1}{2} \\ sin⁡𝜃=\frac{\sqrt{3}}{2}\end{aligned}
 
 
 $$

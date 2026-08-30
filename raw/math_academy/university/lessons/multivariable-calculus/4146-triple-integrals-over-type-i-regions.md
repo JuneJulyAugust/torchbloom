@@ -58,7 +58,7 @@ Therefore, our original triple integral is defined as
 $$
 
 
-\iiint\limits_{R} 4xyz \, \textrm{d}V = \iiint\limits_{R'} f(x,y,z) \, \textrm{d}V.
+\iiint\limits_{R} 4xyz \, \text{d}V = \iiint\limits_{R'} f(x,y,z) \, \text{d}V.
 
 
 $$
@@ -118,7 +118,7 @@ We start by writing down our triple integral as a **mixed integral**, as follows
 $$
 
 
-\displaystyle \iiint \limits_{R} 4xyz \: \textrm{d}V = \iint\limits_D \left[ \int_{0}^{3-x-y} 4xyz \: \mathrm{d}z \right] \mathrm{d}A
+\displaystyle \iiint \limits_{R} 4xyz \: \text{d}V = \iint\limits_D \left[ \int_{0}^{3-x-y} 4xyz \: \mathrm{d}z \right] \mathrm{d}A
 
 
 $$
@@ -172,7 +172,7 @@ Find the missing limits in the repeated integral
 $$
 
 
-\displaystyle \iiint \limits_{R} f(x,y,z) \: \textrm{d}V = \int_{\ast}^{\ast} \int_{\ast}^{\ast} \int_{\ast}^{\ast} f(x,y,z) \: \mathrm{d}z \: \mathrm{d}x \: \mathrm{d}y,
+\displaystyle \iiint \limits_{R} f(x,y,z) \: \text{d}V = \int_{\ast}^{\ast} \int_{\ast}^{\ast} \int_{\ast}^{\ast} f(x,y,z) \: \mathrm{d}z \: \mathrm{d}x \: \mathrm{d}y,
 
 
 $$
@@ -228,7 +228,7 @@ Therefore, our triple integral can be written as
 $$
 
 
-\displaystyle \iiint \limits_{R} f(x,y,z) \: \textrm{d}V = \iint\limits_{D} \left[ \int_{-1}^{x^2+y^2+1} f(x,y,z) \: \mathrm{d}z \right] \mathrm{d}A.
+\displaystyle \iiint \limits_{R} f(x,y,z) \: \text{d}V = \iint\limits_{D} \left[ \int_{-1}^{x^2+y^2+1} f(x,y,z) \: \mathrm{d}z \right] \mathrm{d}A.
 
 
 $$
@@ -248,7 +248,7 @@ Therefore, by expressing the double integral over $D$ as a repeated integral, we
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}[∫_{𝑥^{2}+𝑦^{2}+1−1}^{}𝑓(𝑥,𝑦,𝑧)\,d𝑧]d𝐴 & =∫_{10}^{}∫_{1𝑦^{2}}^{}[∫_{𝑥^{2}+𝑦^{2}+1−1}^{}𝑓(𝑥,𝑦,𝑧)\,d𝑧]d𝑥\,d𝑦 \\ & =∫_{10}^{}∫_{1𝑦^{2}}^{}∫_{𝑥^{2}+𝑦^{2}+1−1}^{}𝑓(𝑥,𝑦,𝑧)\,d𝑧\,d𝑥\,d𝑦.\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}[∫_{𝑥^{2}+𝑦^{2}+1−1}^{}𝑓(𝑥,𝑦,𝑧)\,d𝑧]d𝐴 & =∫_{10}∫_{1𝑦^{2}}^{}[∫_{𝑥^{2}+𝑦^{2}+1−1}^{}𝑓(𝑥,𝑦,𝑧)\,d𝑧]d𝑥\,d𝑦 \\ & =∫_{10}∫_{1𝑦^{2}}^{}∫_{𝑥^{2}+𝑦^{2}+1−1}^{}𝑓(𝑥,𝑦,𝑧)\,d𝑧\,d𝑥\,d𝑦.\end{aligned}
 
 
 $$
@@ -284,7 +284,7 @@ First, we evaluate the inner integral with respect to $z,$ treating $x$ and $y$ 
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}[∫_{𝑥𝑦0}^{}\frac{24}{𝑥}\,d𝑧]d𝐴 & =\underset{𝐷}{∬}\frac{24}{𝑥}[𝑧]_{𝑧=𝑥𝑦𝑧=0}^{}\,d𝐴 \\ & =\underset{𝐷}{∬}\frac{24}{𝑥}(𝑥𝑦−0)\,d𝐴 \\ & =\underset{𝐷}{∬}24𝑦\,d𝐴\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}[∫_{𝑥𝑦0}\frac{24}{𝑥}\,d𝑧]d𝐴 & =\underset{𝐷}{∬}\frac{24}{𝑥}[𝑧]_{𝑧=𝑥𝑦𝑧=0}\,d𝐴 \\ & =\underset{𝐷}{∬}\frac{24}{𝑥}(𝑥𝑦−0)\,d𝐴 \\ & =\underset{𝐷}{∬}24𝑦\,d𝐴\end{aligned}
 
 
 $$
@@ -294,7 +294,7 @@ Next, we evaluate the double integral:
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}24𝑦\,d𝐴 & =∫_{31}^{}∫_{𝑥1}^{}24𝑦\,d𝑦\,d𝑥 \\ & =∫_{31}^{}[∫_{𝑥1}^{}24𝑦\,d𝑦]d𝑥 \\ & =∫_{31}^{}[12𝑦^{2}]_{𝑦=𝑥𝑦=1}^{}d𝑥 \\ & =∫_{31}^{}12(𝑥^{2}−1)\,d𝑥 \\ & =12∫_{31}^{}𝑥^{2}−1\,d𝑥 \\ & =12[\frac{1}{3}𝑥^{3}−𝑥]_{𝑥=3𝑥=1}^{} \\ & =12(\frac{1}{3}(27−1)−(3−1)) \\ & =80\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}24𝑦\,d𝐴 & =∫_{31}∫_{𝑥1}24𝑦\,d𝑦\,d𝑥 \\ & =∫_{31}[∫_{𝑥1}24𝑦\,d𝑦]d𝑥 \\ & =∫_{31}[12𝑦^{2}]_{𝑦=𝑥𝑦=1}d𝑥 \\ & =∫_{31}12(𝑥^{2}−1)\,d𝑥 \\ & =12∫_{31}𝑥^{2}−1\,d𝑥 \\ & =12[\frac{1}{3}𝑥^{3}−𝑥]_{𝑥=3𝑥=1} \\ & =12(\frac{1}{3}(27−1)−(3−1)) \\ & =80\end{aligned}
 
 
 $$
@@ -332,7 +332,7 @@ Writing down our triple integral as a mixed integral, we obtain
 $$
 
 
-\displaystyle \iiint \limits_{R} 6y \, \textrm{d}V = \iint\limits_{D} \left[ \int_{0}^{3+y-x} 6y \, \mathrm{d}z \right] \mathrm{d}A.
+\displaystyle \iiint \limits_{R} 6y \, \text{d}V = \iint\limits_{D} \left[ \int_{0}^{3+y-x} 6y \, \mathrm{d}z \right] \mathrm{d}A.
 
 
 $$
@@ -342,7 +342,7 @@ First, we evaluate the inner integral with respect to $z,$ treating $x$ and $y$ 
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}[∫_{3+𝑦−𝑥0}^{}6𝑦\,d𝑧]d𝐴 & =\underset{𝐷}{∬}[6𝑦𝑧]_{𝑧=3+𝑦−𝑥𝑧=0}^{}\,d𝐴 \\ & =\underset{𝐷}{∬}6𝑦(3+𝑦−𝑥)\,d𝐴\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}[∫_{3+𝑦−𝑥0}6𝑦\,d𝑧]d𝐴 & =\underset{𝐷}{∬}[6𝑦𝑧]_{𝑧=3+𝑦−𝑥𝑧=0}\,d𝐴 \\ & =\underset{𝐷}{∬}6𝑦(3+𝑦−𝑥)\,d𝐴\end{aligned}
 
 
 $$
@@ -356,7 +356,7 @@ We can evaluate our double integral as follows:
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}6𝑦(3+𝑦−𝑥)\,d𝐴 & =∫_{20}^{}∫_{0𝑥−2}^{}6𝑦(3+𝑦−𝑥)\,d𝑦\,d𝑥 \\ & =∫_{20}^{}[∫_{0𝑥−2}^{}18𝑦+6𝑦^{2}−6𝑥𝑦\,d𝑦]d𝑥 \\ & =∫_{20}^{}[9𝑦^{2}+2𝑦^{3}−3𝑥𝑦^{2}]_{𝑦=0𝑦=𝑥−2}^{}d𝑥 \\ & =∫_{20}^{}0−9(𝑥−2)^{2}−2(𝑥−2)^{3}+3𝑥(𝑥−2)^{2}\,d𝑥 \\ & =∫_{20}^{}(𝑥−2)^{2}(𝑥−5)\,d𝑥 \\ & =∫_{20}^{}𝑥^{3}−9𝑥^{2}+24𝑥−20\,d𝑥 \\ & =[\frac{1}{4}𝑥^{4}−3𝑥^{3}+12𝑥^{2}−20𝑥]_{𝑥=2𝑥=0}^{} \\ & =(4−24+48−40)−0 \\ & =−12\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}6𝑦(3+𝑦−𝑥)\,d𝐴 & =∫_{20}∫_{0𝑥−2}6𝑦(3+𝑦−𝑥)\,d𝑦\,d𝑥 \\ & =∫_{20}[∫_{0𝑥−2}18𝑦+6𝑦^{2}−6𝑥𝑦\,d𝑦]d𝑥 \\ & =∫_{20}[9𝑦^{2}+2𝑦^{3}−3𝑥𝑦^{2}]_{𝑦=0𝑦=𝑥−2}d𝑥 \\ & =∫_{20}0−9(𝑥−2)^{2}−2(𝑥−2)^{3}+3𝑥(𝑥−2)^{2}\,d𝑥 \\ & =∫_{20}(𝑥−2)^{2}(𝑥−5)\,d𝑥 \\ & =∫_{20}𝑥^{3}−9𝑥^{2}+24𝑥−20\,d𝑥 \\ & =[\frac{1}{4}𝑥^{4}−3𝑥^{3}+12𝑥^{2}−20𝑥]_{𝑥=2𝑥=0} \\ & =(4−24+48−40)−0 \\ & =−12\end{aligned}
 
 
 $$
@@ -390,7 +390,7 @@ Notice that the projection of $R$ onto the $xy$-plane is a type I plane region. 
 $$
 
 
-\displaystyle \iiint \limits_{R} f(x,y,z)\: \textrm{d}V = \int_{\color{red}a}^{\color{red}b} \int_{\color{blue}v_1(x)}^{\color{blue}v_2(x)} \int_{\color{purple}u_1(x,y)}^{\color{purple}u_2(x,y)} f(x,y,z)\: \mathrm{d}z \: \mathrm{d}y \: \mathrm{d}x.
+\displaystyle \iiint \limits_{R} f(x,y,z)\: \text{d}V = \int_{\color{red}a}^{\color{red}b} \int_{\color{blue}v_1(x)}^{\color{blue}v_2(x)} \int_{\color{purple}u_1(x,y)}^{\color{purple}u_2(x,y)} f(x,y,z)\: \mathrm{d}z \: \mathrm{d}y \: \mathrm{d}x.
 
 
 $$
@@ -448,7 +448,7 @@ As a result, by writing down our triple integral as a repeated integral, we obta
 $$
 
 
-\displaystyle \iiint \limits_{R} 4 \: \textrm{d}V = \int_{0}^{1} \int_{0}^{1} \int_{0}^{2-x+2y} 4 \: \mathrm{d}z \: \mathrm{d}y \: \mathrm{d}x.
+\displaystyle \iiint \limits_{R} 4 \: \text{d}V = \int_{0}^{1} \int_{0}^{1} \int_{0}^{2-x+2y} 4 \: \mathrm{d}z \: \mathrm{d}y \: \mathrm{d}x.
 
 
 $$
@@ -458,7 +458,7 @@ First, we evaluate the inner integral with respect to $z$, treating $x$ and $y$ 
 $$
 
 
-\begin{aligned}∫_{10}^{}∫_{10}^{}∫_{2−𝑥+2𝑦0}^{}4\,d𝑧\,d𝑦\,d𝑥 & =∫_{10}^{}∫_{10}^{}[∫_{2−𝑥+2𝑦0}^{}4\,d𝑧]d𝑦\,d𝑥 \\ & =∫_{10}^{}∫_{10}^{}[4𝑧]_{𝑧=2−𝑥+2𝑦𝑧=0}^{}\,d𝑦\,d𝑥 \\ & =∫_{10}^{}∫_{10}^{}4(2−𝑥+2𝑦)\,d𝑦\,d𝑥 \\ & =∫_{10}^{}∫_{10}^{}8−4𝑥+8𝑦\,d𝑦\,d𝑥\end{aligned}
+\begin{aligned}∫_{10}∫_{10}∫_{2−𝑥+2𝑦0}4\,d𝑧\,d𝑦\,d𝑥 & =∫_{10}∫_{10}[∫_{2−𝑥+2𝑦0}4\,d𝑧]d𝑦\,d𝑥 \\ & =∫_{10}∫_{10}[4𝑧]_{𝑧=2−𝑥+2𝑦𝑧=0}\,d𝑦\,d𝑥 \\ & =∫_{10}∫_{10}4(2−𝑥+2𝑦)\,d𝑦\,d𝑥 \\ & =∫_{10}∫_{10}8−4𝑥+8𝑦\,d𝑦\,d𝑥\end{aligned}
 
 
 $$
@@ -468,7 +468,7 @@ Next, we evaluate the inner integral with respect to $y$, treating $x$ as a cons
 $$
 
 
-\begin{aligned}∫_{10}^{}∫_{10}^{}8−4𝑥+8𝑦\,d𝑦\,d𝑥 & =∫_{10}^{}[∫_{10}^{}(8−4𝑥)+8𝑦\,d𝑦]d𝑥 \\ & =∫_{10}^{}[(8−4𝑥)𝑦+4𝑦^{2}]_{𝑦=1𝑦=0}^{}\,d𝑥 \\ & =∫_{10}^{}8−4𝑥+4\,d𝑥 \\ & =∫_{10}^{}12−4𝑥\,d𝑥\end{aligned}
+\begin{aligned}∫_{10}∫_{10}8−4𝑥+8𝑦\,d𝑦\,d𝑥 & =∫_{10}[∫_{10}(8−4𝑥)+8𝑦\,d𝑦]d𝑥 \\ & =∫_{10}[(8−4𝑥)𝑦+4𝑦^{2}]_{𝑦=1𝑦=0}\,d𝑥 \\ & =∫_{10}8−4𝑥+4\,d𝑥 \\ & =∫_{10}12−4𝑥\,d𝑥\end{aligned}
 
 
 $$
@@ -478,7 +478,7 @@ Finally, we integrate with respect to $x{:}$
 $$
 
 
-\begin{aligned}∫_{10}^{}12−4𝑥\,d𝑥 & =[12𝑥−2𝑥^{2}]_{𝑥=1𝑥=0}^{} \\ & =(12−2)−0 \\ & =10.\end{aligned}
+\begin{aligned}∫_{10}12−4𝑥\,d𝑥 & =[12𝑥−2𝑥^{2}]_{𝑥=1𝑥=0} \\ & =(12−2)−0 \\ & =10.\end{aligned}
 
 
 $$

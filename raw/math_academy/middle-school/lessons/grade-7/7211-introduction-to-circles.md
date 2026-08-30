@@ -12,7 +12,7 @@ Topic ID: 7211
 
 ### Introduction
 
-Let $O$ be a point on the plane. Let's consider all the points on the plane whose distance to $O$ is equal to $5\,\textrm{cm}.$
+Let $O$ be a point on the plane. Let's consider all the points on the plane whose distance to $O$ is equal to $5\,\text{cm}.$
 
 ![Instructional graphic](../../../lesson-assets/grade-7/topic-7211/4bcc90743e913469.png)
 
@@ -22,7 +22,7 @@ The collection of all such points defines a geometrical shape which is called a 
 
 - The distance from $O$ to any point on the circle is called the **radius**.
 
-In our diagram above, the radius is $r=5\,\textrm{cm}.$
+In our diagram above, the radius is $r=5\,\text{cm}.$
 
 ### Diameter of a Circle
 

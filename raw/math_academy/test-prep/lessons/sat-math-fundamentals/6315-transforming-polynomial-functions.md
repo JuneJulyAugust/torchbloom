@@ -45,7 +45,7 @@ Recall that to shift the curve $y = f(x)$ by $2$ units to the *right*, we *add* 
 $$
 
 
-x_{\textrm{new}} = x + 2.
+x_{\text{new}} = x + 2.
 
 
 $$
@@ -55,7 +55,7 @@ This equation is equivalent to
 $$
 
 
-x = x_{\textrm{new}} - 2.
+x = x_{\text{new}} - 2.
 
 
 $$
@@ -70,7 +70,7 @@ $$
 
 $$
 
-Dropping the $\textrm{new}$ suffix, we get
+Dropping the $\text{new}$ suffix, we get
 
 $$
 
@@ -133,7 +133,7 @@ For each point on the curve $y = f(x),$ we must subtract $2$ from each $x$-coord
 $$
 
 
-x_{\textrm{new}} = x - 2.
+x_{\text{new}} = x - 2.
 
 
 $$
@@ -143,7 +143,7 @@ This equation is equivalent to
 $$
 
 
-x = x_{\textrm{new}} + 2.
+x = x_{\text{new}} + 2.
 
 
 $$
@@ -158,7 +158,7 @@ $$
 
 $$
 
-Dropping the $\textrm{new}$ suffix, we get
+Dropping the $\text{new}$ suffix, we get
 
 $$
 

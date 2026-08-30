@@ -35,22 +35,22 @@ where
 
 We will study the relationship between these statistics and the sample variance in this topic.
 
-First, we need to define a new statistic: **The total sum of squares,** denotes $\textrm{SST},$ is the sum of squared deviations from the grand mean, measured over *all* observations:
+First, we need to define a new statistic: **The total sum of squares,** denotes $\text{SST},$ is the sum of squared deviations from the grand mean, measured over *all* observations:
 
 $$
 
 
-\textrm{SST} = \sum_{k=1}^K\sum_{j=1}^{n_k} (x_{jk} - \overline{x})^2
+\text{SST} = \sum_{k=1}^K\sum_{j=1}^{n_k} (x_{jk} - \overline{x})^2
 
 
 $$
 
-Now, notice that $\textrm{SST}$ is simply the sum of squares in the formula for the sample variance measured over all groups:
+Now, notice that $\text{SST}$ is simply the sum of squares in the formula for the sample variance measured over all groups:
 
 $$
 
 
-\textrm{SST} = (n-1)s^2,
+\text{SST} = (n-1)s^2,
 
 
 $$
@@ -62,7 +62,7 @@ It can be shown that
 $$
 
 
-\textrm{SST} = \text{SSW} + \text{SSB}
+\text{SST} = \text{SSW} + \text{SSB}
 
 
 $$
@@ -101,18 +101,18 @@ $$
 
 where
 
-- $\textrm{SSW}$ is the sum of squares within groups,
+- $\text{SSW}$ is the sum of squares within groups,
 
-- $\textrm{SSB}$ is the sum of squares between groups,
+- $\text{SSB}$ is the sum of squares between groups,
 
-- $\textrm{SST}$ is the total sum of squares.
+- $\text{SST}$ is the total sum of squares.
 
 Moreover, since
 
 $$
 
 
-s^2 = \dfrac{1}{n-1}\cdot \textrm{SST}\qquad\Longrightarrow\qquad (n-1)s^2 = \textrm{SST}
+s^2 = \dfrac{1}{n-1}\cdot \text{SST}\qquad\Longrightarrow\qquad (n-1)s^2 = \text{SST}
 
 
 $$
@@ -185,9 +185,9 @@ To confirm this, we would typically conduct a so-called **ANOVA test.** However,
 
 In general, as a rule of thumb:
 
-- If $\dfrac{\textrm{SSB}}{\textrm{SST}} \geq 40\%,$ this suggests there may be *high* between-group variability.
+- If $\dfrac{\text{SSB}}{\text{SST}} \geq 40\%,$ this suggests there may be *high* between-group variability.
 
-- If $\dfrac{\textrm{SSB}}{\textrm{SST}} < 40\%,$ this suggests there may be *low* between-group variability.
+- If $\dfrac{\text{SSB}}{\text{SST}} < 40\%,$ this suggests there may be *low* between-group variability.
 
 Remember, this is just a rule of thumb. We can precisely characterize this using an ANOVA test, which we'll study in a future lesson.
 
@@ -199,13 +199,13 @@ A botanist wants to determine if there is a significant difference in the effect
 
 Select the correct options to make the following statements true.
 
-$\qquad$ The ratio $\dfrac{\textrm{SSW}}{\textrm{SST}}$ is approximately $\boxed{\phantom{10kkk}}.$
+$\qquad$ The ratio $\dfrac{\text{SSW}}{\text{SST}}$ is approximately $\boxed{\phantom{10kkk}}.$
 
 $\qquad$ This suggests the between-group variability is $\boxed{\phantom{10KKKKKK}}.$
 
 #### Explanation
 
-The sum of squares within groups $(\textrm{SSW})$ and sum of squares between groups $(\textrm{SSB})$ are given by
+The sum of squares within groups $(\text{SSW})$ and sum of squares between groups $(\text{SSB})$ are given by
 
 $$
 
@@ -297,7 +297,7 @@ Now, let's now examine our statements:
 
 - Computing the given ratio, we have
 
-- We're interested in determining the between-group variability. First, recall that and therefore Therefore, Since a low proportion of the variability is ** groups, relatively high variability is attributable to differences ** the group means. In other words, this suggests the between-group variability is $\boxed{\color{blue}\textrm{low}}.$
+- We're interested in determining the between-group variability. First, recall that and therefore Therefore, Since a low proportion of the variability is ** groups, relatively high variability is attributable to differences ** the group means. In other words, this suggests the between-group variability is $\boxed{\color{blue}\text{low}}.$
 
 ### Degrees of Freedom
 
@@ -305,13 +305,13 @@ We now introduce the concept of **degrees of freedom** associated with our sums 
 
 The degrees of freedom of a statistic is the number of independent data points used in its calculation, which is equal to the total number of data points appearing in its formula minus the number of constraints (or relationships) imposed on the data.
 
-Let's discuss the number of degrees of freedom of our statistics $\textrm{SST},$ $\textrm{SSB},$ and $\textrm{SSW}{:}$
+Let's discuss the number of degrees of freedom of our statistics $\text{SST},$ $\text{SSB},$ and $\text{SSW}{:}$
 
-- The formula for $\textrm{SST}$ involves $n$ data points: However, the sample mean $\overline{x}$ introduces a constraint on the data. If all but one data point and the sample mean are known, the final data point can be determined. So, only $n-1$ data points are independent. Therefore, for the total sum of squares $(\textrm{SST}),$ the number of degrees of freedom is given by
+- The formula for $\text{SST}$ involves $n$ data points: However, the sample mean $\overline{x}$ introduces a constraint on the data. If all but one data point and the sample mean are known, the final data point can be determined. So, only $n-1$ data points are independent. Therefore, for the total sum of squares $(\text{SST}),$ the number of degrees of freedom is given by
 
-- The formula for $\textrm{SSB}$ involves $K$ data points (the groups' sample means): However, as for $\text{SST},$ the sample mean $\overline{x}$ introduces a constraint on the data. If all but one group mean and the grand sample mean are known, the missing group mean can be determined. So, only $K-1$ group means are independent. Therefore, for the total sum of squares between the groups $(\textrm{SSB}),$ the number of degrees of freedom is given by
+- The formula for $\text{SSB}$ involves $K$ data points (the groups' sample means): However, as for $\text{SST},$ the sample mean $\overline{x}$ introduces a constraint on the data. If all but one group mean and the grand sample mean are known, the missing group mean can be determined. So, only $K-1$ group means are independent. Therefore, for the total sum of squares between the groups $(\text{SSB}),$ the number of degrees of freedom is given by
 
-- The formula for $\textrm{SSW}$ involves $n$ data points: However, each group mean $\overline{x}_k$ introduces a constraint on the data. If all but one data point and the group mean are known within a single group, the missing data point can be determined. This happens for all groups. So, only $n-K$ data points are independent. Therefore, for the total sum of squares within the groups $(\textrm{SSW}),$ the number of degrees of freedom is given by
+- The formula for $\text{SSW}$ involves $n$ data points: However, each group mean $\overline{x}_k$ introduces a constraint on the data. If all but one data point and the group mean are known within a single group, the missing data point can be determined. This happens for all groups. So, only $n-K$ data points are independent. Therefore, for the total sum of squares within the groups $(\text{SSW}),$ the number of degrees of freedom is given by
 
 Finally, note that
 
@@ -327,7 +327,7 @@ $$
 
 #### Question
 
-Consider a sample containing $n=100$ elements partitioned into $K = 8$ groups. Determine the number of degrees of freedom $\textrm{SST}, \textrm{SSB},$ and $\textrm{SSW}.$
+Consider a sample containing $n=100$ elements partitioned into $K = 8$ groups. Determine the number of degrees of freedom $\text{SST}, \text{SSB},$ and $\text{SSW}.$
 
 #### Explanation
 
@@ -339,11 +339,11 @@ We have a sample with the following information:
 
 Let's calculate the degrees of freedom for each of the sums of squares:
 
-- For the total sum of squares $(\textrm{SST}),$ the number of degrees of freedom is given by
+- For the total sum of squares $(\text{SST}),$ the number of degrees of freedom is given by
 
-- For the total sum of squares between the groups $(\textrm{SSB}),$ the number of degrees of freedom is given by
+- For the total sum of squares between the groups $(\text{SSB}),$ the number of degrees of freedom is given by
 
-- For the total sum of squares within the groups $(\textrm{SSW}),$ the number of degrees of freedom is given by
+- For the total sum of squares within the groups $(\text{SSW}),$ the number of degrees of freedom is given by
 
 Note that $df_T = df_B + df_W.$
 
@@ -351,9 +351,9 @@ Note that $df_T = df_B + df_W.$
 
 We now define the following statistics:
 
-- The **mean sum of squares between groups** $(\textrm{MSB})$ is given by
+- The **mean sum of squares between groups** $(\text{MSB})$ is given by
 
-- The **mean sum of squares within groups** $(\textrm{MSW})$ is given by
+- The **mean sum of squares within groups** $(\text{MSW})$ is given by
 
 By dividing our statistics $\text{SSB}$ and $\text{SSW}$ by their respective degrees of freedom, we obtain two measures of the average variation per independent data point.
 
@@ -367,7 +367,7 @@ What is the mean sum of squares within groups (MSW) for this sample?
 
 #### Explanation
 
-The sum of squares within groups $(\textrm{SSW})$ is given by
+The sum of squares within groups $(\text{SSW})$ is given by
 
 $$
 
@@ -407,17 +407,17 @@ $$
 
 $$
 
-The mean sum of squares within the groups $(\textrm{MSW})$ is given by
+The mean sum of squares within the groups $(\text{MSW})$ is given by
 
 $$
 
 
-\textrm{MSW} = \dfrac{\textrm{SSW}}{df_W} = \dfrac{\textrm{SSW}}{n-K},
+\text{MSW} = \dfrac{\text{SSW}}{df_W} = \dfrac{\text{SSW}}{n-K},
 
 
 $$
 
-where $df_W = n-K$ is the number of degrees of freedom for $\textrm{SSW},$ and $n$ is the total number of elements in our sample.
+where $df_W = n-K$ is the number of degrees of freedom for $\text{SSW},$ and $n$ is the total number of elements in our sample.
 
 Since there are $3$ groups, we have $K=3,$ and we can compute SSW as follows:
 
@@ -444,7 +444,7 @@ Therefore,
 $$
 
 
-\textrm{MSW} = \dfrac{1397.4}{140-3} = 10.2\,\textrm{gallons}^2.
+\text{MSW} = \dfrac{1397.4}{140-3} = 10.2\,\text{gallons}^2.
 
 
 $$
@@ -466,7 +466,7 @@ Let's consider $\text{SST}{:}$
 $$
 
 
-\textrm{SST} = \sum_{k=1}^K\sum_{j=1}^{n_k} (x_{jk} - \overline{x})^2
+\text{SST} = \sum_{k=1}^K\sum_{j=1}^{n_k} (x_{jk} - \overline{x})^2
 
 
 $$

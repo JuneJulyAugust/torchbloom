@@ -174,7 +174,7 @@ $$
 
 
 
-\begin{aligned} \dfrac{5}{(1+2x)^2} & = 5\left[ 1+(-2)(2x)+\dfrac{(-2)(-2-1)(2x)^2}{2!} + \cdots \right] \\\[5pt] & = 5\left[ 1 - 4x +\dfrac{(-2)(-3)(4)x^2}{2} + \cdots \right] \\\[5pt] & = 5\left[ 1 - 4x + 12x^2 + \cdots \right] \\\[5pt] & = 5 - 20x + 60x^2 + \cdots . \end{aligned}
+\begin{aligned} \dfrac{5}{(1+2x)^2} & = 5\left[ 1+(-2)(2x)+\dfrac{(-2)(-2-1)(2x)^2}{2!} + \cdots \right] \\[5pt] & = 5\left[ 1 - 4x +\dfrac{(-2)(-3)(4)x^2}{2} + \cdots \right] \\[5pt] & = 5\left[ 1 - 4x + 12x^2 + \cdots \right] \\[5pt] & = 5 - 20x + 60x^2 + \cdots . \end{aligned}
 
 
 
@@ -218,7 +218,7 @@ $$
 
 
 
-\begin{aligned} \dfrac{1}{\sqrt{1+4x}} & = 1+\left(-\dfrac{1}{2}\right)(4x)+\dfrac{\left(-\dfrac{1}{2}\right)\left(-\dfrac{1}{2}-1\right)(4x)^2}{2!} + \cdots \\\[5pt] & = 1 - 2x +\dfrac{\left(-\dfrac{1}{2}\right)\left(-\dfrac{3}{2}\right)16x^2}{2} + \cdots \\\[5pt] & = 1 - 2x + 6x^2 + \cdots . \end{aligned}
+\begin{aligned} \dfrac{1}{\sqrt{1+4x}} & = 1+\left(-\dfrac{1}{2}\right)(4x)+\dfrac{\left(-\dfrac{1}{2}\right)\left(-\dfrac{1}{2}-1\right)(4x)^2}{2!} + \cdots \\[5pt] & = 1 - 2x +\dfrac{\left(-\dfrac{1}{2}\right)\left(-\dfrac{3}{2}\right)16x^2}{2} + \cdots \\[5pt] & = 1 - 2x + 6x^2 + \cdots . \end{aligned}
 
 
 

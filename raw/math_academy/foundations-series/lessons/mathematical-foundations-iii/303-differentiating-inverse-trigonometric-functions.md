@@ -58,7 +58,7 @@ Now, if we plug the last expression into our derivative of $y,$ we get the deriv
 $$
 
 
-\begin{aligned}\frac{d𝑦}{d𝑥}=\frac{1}{cos⁡𝑦}=\frac{1}{\sqrt{√1−𝑥^{2}}}.\end{aligned}
+\begin{aligned}\frac{d𝑦}{d𝑥}=\frac{1}{cos⁡𝑦}=\frac{1}{\sqrt{1−𝑥^{2}}}.\end{aligned}
 
 
 $$
@@ -68,7 +68,7 @@ We can use the same technique to find the derivatives of $\arccos x$ and $\arcta
 $$
 
 
-\begin{aligned}\frac{d}{d𝑥}(arcsin⁡𝑥) & =\frac{1}{\sqrt{√1−𝑥^{2}}} \\ \frac{d}{d𝑥}(arccos⁡𝑥) & =−\frac{1}{\sqrt{√1−𝑥^{2}}} \\ \frac{d}{d𝑥}(arctan⁡𝑥) & =\frac{1}{1+𝑥^{2}}\end{aligned}
+\begin{aligned}\frac{d}{d𝑥}(arcsin⁡𝑥) & =\frac{1}{\sqrt{1−𝑥^{2}}} \\ \frac{d}{d𝑥}(arccos⁡𝑥) & =−\frac{1}{\sqrt{1−𝑥^{2}}} \\ \frac{d}{d𝑥}(arctan⁡𝑥) & =\frac{1}{1+𝑥^{2}}\end{aligned}
 
 
 $$
@@ -92,7 +92,7 @@ The formula for the derivative of arcsine is
 $$
 
 
-\frac{\textrm{d}}{\textrm{d}x}(\arcsin x) = \dfrac{1}{\sqrt{1-x^2}}.
+\frac{\text{d}}{\text{d}x}(\arcsin x) = \dfrac{1}{\sqrt{1-x^2}}.
 
 
 $$
@@ -102,7 +102,7 @@ Using the chain rule and the formula above, we get
 $$
 
 
-\begin{aligned}𝑓^{′}(𝑥) & =\frac{d}{d𝑥}(5arcsin⁡(3𝑥^{2})) \\ & =5⋅\frac{1}{\sqrt{√1−(3𝑥^{2})^{2}}}⋅\frac{d}{d𝑥}(3𝑥^{2}) \\ & =\frac{5}{\sqrt{√1−9𝑥^{4}}}⋅(6𝑥) \\ & =\frac{30𝑥}{\sqrt{√1−9𝑥^{4}}}.\end{aligned}
+\begin{aligned}𝑓^{′}(𝑥) & =\frac{d}{d𝑥}(5arcsin⁡(3𝑥^{2})) \\ & =5⋅\frac{1}{\sqrt{1−(3𝑥^{2})^{2}}}⋅\frac{d}{d𝑥}(3𝑥^{2}) \\ & =\frac{5}{\sqrt{1−9𝑥^{4}}}⋅(6𝑥) \\ & =\frac{30𝑥}{\sqrt{1−9𝑥^{4}}}.\end{aligned}
 
 
 $$
@@ -111,7 +111,7 @@ $$
 
 #### Question
 
-Calculate $\dfrac{\textrm{d}y}{\textrm{d}x},$ if $y = \arccos (5-8x).$
+Calculate $\dfrac{\text{d}y}{\text{d}x},$ if $y = \arccos (5-8x).$
 
 #### Explanation
 
@@ -120,7 +120,7 @@ The formula for the derivative of arccosine is
 $$
 
 
-\frac{\textrm{d}}{\textrm{d}x}(\arccos x) = -\dfrac{1}{\sqrt{1-x^2}}.
+\frac{\text{d}}{\text{d}x}(\arccos x) = -\dfrac{1}{\sqrt{1-x^2}}.
 
 
 $$
@@ -130,7 +130,7 @@ Using the chain rule and the formula above, we get
 $$
 
 
-\begin{aligned}\frac{d𝑦}{d𝑥} & =\frac{d}{d𝑥}(arccos⁡(5−8𝑥)) \\ & =−\frac{1}{\sqrt{√1−(5−8𝑥)^{2}}}⋅\frac{d}{d𝑥}(5−8𝑥) \\ & =−\frac{1}{\sqrt{√1−(25−80𝑥+64𝑥^{2})}}⋅(−8) \\ & =\frac{8}{\sqrt{√80𝑥−24−64𝑥^{2}}} \\ & =\frac{8}{\sqrt{√4(20𝑥−6−16𝑥^{2})}} \\ & =\frac{8}{2\sqrt{√20𝑥−6−16𝑥^{2}}} \\ & =\frac{4}{\sqrt{√20𝑥−6−16𝑥^{2}}}.\end{aligned}
+\begin{aligned}\frac{d𝑦}{d𝑥} & =\frac{d}{d𝑥}(arccos⁡(5−8𝑥)) \\ & =−\frac{1}{\sqrt{1−(5−8𝑥)^{2}}}⋅\frac{d}{d𝑥}(5−8𝑥) \\ & =−\frac{1}{\sqrt{1−(25−80𝑥+64𝑥^{2})}}⋅(−8) \\ & =\frac{8}{\sqrt{80𝑥−24−64𝑥^{2}}} \\ & =\frac{8}{\sqrt{4(20𝑥−6−16𝑥^{2})}} \\ & =\frac{8}{2\sqrt{20𝑥−6−16𝑥^{2}}} \\ & =\frac{4}{\sqrt{20𝑥−6−16𝑥^{2}}}.\end{aligned}
 
 
 $$
@@ -148,7 +148,7 @@ The formula for the derivative of arctangent is
 $$
 
 
-\frac{\textrm{d}}{\textrm{d}x}(\arctan x) = \dfrac{1}{1+x^2}.
+\frac{\text{d}}{\text{d}x}(\arctan x) = \dfrac{1}{1+x^2}.
 
 
 $$
@@ -167,7 +167,7 @@ $$
 
 #### Question
 
-If $y= x \arccos x,$ calculate $\dfrac{\textrm{d}y}{\textrm{d}x}.$
+If $y= x \arccos x,$ calculate $\dfrac{\text{d}y}{\text{d}x}.$
 
 #### Explanation
 
@@ -176,7 +176,7 @@ Applying the product rule and using the formula for the derivative of $\arccos x
 $$
 
 
-\begin{aligned}\frac{d}{d𝑥}(𝑥arccos⁡𝑥) & =𝑥⋅\frac{d}{d𝑥}(arccos⁡𝑥)+arccos⁡𝑥\frac{d}{d𝑥}(𝑥) \\ & =𝑥⋅(−\frac{1}{\sqrt{√1−𝑥^{2}}})+arccos⁡𝑥⋅1 \\ & =−\frac{𝑥}{\sqrt{√1−𝑥^{2}}}+arccos⁡𝑥.\end{aligned}
+\begin{aligned}\frac{d}{d𝑥}(𝑥arccos⁡𝑥) & =𝑥⋅\frac{d}{d𝑥}(arccos⁡𝑥)+arccos⁡𝑥\frac{d}{d𝑥}(𝑥) \\ & =𝑥⋅(−\frac{1}{\sqrt{1−𝑥^{2}}})+arccos⁡𝑥⋅1 \\ & =−\frac{𝑥}{\sqrt{1−𝑥^{2}}}+arccos⁡𝑥.\end{aligned}
 
 
 $$

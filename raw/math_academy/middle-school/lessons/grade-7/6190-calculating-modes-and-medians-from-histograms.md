@@ -145,7 +145,7 @@ $$
 
 
 
-\dfrac{17+1}{2}=\dfrac{18}{2}=9\textrm{th}
+\dfrac{17+1}{2}=\dfrac{18}{2}=9\text{th}
 
 
 

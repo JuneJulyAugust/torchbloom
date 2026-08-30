@@ -310,7 +310,7 @@ $$
 
 
 
-65 \times 30 = 1,950\,\,\textrm{dollars}.
+65 \times 30 = 1,950\,\,\text{dollars}.
 
 
 
@@ -322,7 +322,7 @@ $$
 
 
 
-50(g - 30)\,\,\textrm{dollars}.
+50(g - 30)\,\,\text{dollars}.
 
 
 

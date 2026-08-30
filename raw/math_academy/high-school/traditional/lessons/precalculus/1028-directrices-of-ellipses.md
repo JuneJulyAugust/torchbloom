@@ -66,7 +66,7 @@ $$
 
 
 
-\begin{aligned}𝑐 & =\sqrt{√|𝑎^{2}−𝑏^{2}|} \\ & =\sqrt{√|4^{2}−3^{2}|} \\ & =\sqrt{√7}.\end{aligned}
+\begin{aligned}𝑐 & =\sqrt{|𝑎^{2}−𝑏^{2}|} \\ & =\sqrt{|4^{2}−3^{2}|} \\ & =\sqrt{7}.\end{aligned}
 
 
 
@@ -78,7 +78,7 @@ $$
 
 
 
-\begin{aligned}𝑥 & =ℎ±\frac{𝑎^{2}}{𝑐} \\ 𝑥 & =2±\frac{4^{2}}{\sqrt{√7}} \\ 𝑥 & =2±\frac{16}{\sqrt{√7}}\end{aligned}
+\begin{aligned}𝑥 & =ℎ±\frac{𝑎^{2}}{𝑐} \\ 𝑥 & =2±\frac{4^{2}}{\sqrt{7}} \\ 𝑥 & =2±\frac{16}{\sqrt{7}}\end{aligned}
 
 
 
@@ -142,7 +142,7 @@ $$
 
 
 
-\begin{aligned}𝑐 & =\sqrt{√|𝑎^{2}−𝑏^{2}|} \\ & =\sqrt{√|16−4|} \\ & =\sqrt{√12} \\ & =2\sqrt{√3}.\end{aligned}
+\begin{aligned}𝑐 & =\sqrt{|𝑎^{2}−𝑏^{2}|} \\ & =\sqrt{|16−4|} \\ & =\sqrt{12} \\ & =2\sqrt{3}.\end{aligned}
 
 
 
@@ -154,7 +154,7 @@ $$
 
 
 
-\begin{aligned}𝑥 & =ℎ±\frac{𝑎^{2}}{𝑐} \\ 𝑥 & =3±\frac{16}{2\sqrt{√3}} \\ 𝑥 & =3±\frac{8}{\sqrt{√3}}\end{aligned}
+\begin{aligned}𝑥 & =ℎ±\frac{𝑎^{2}}{𝑐} \\ 𝑥 & =3±\frac{16}{2\sqrt{3}} \\ 𝑥 & =3±\frac{8}{\sqrt{3}}\end{aligned}
 
 
 
@@ -212,7 +212,7 @@ $$
 
 
 
-\begin{aligned}𝑐 & =\sqrt{√|𝑎^{2}−𝑏^{2}|} \\ & =\sqrt{√|2^{2}−6^{2}|} \\ & =\sqrt{√32} \\ & =4\sqrt{√2}.\end{aligned}
+\begin{aligned}𝑐 & =\sqrt{|𝑎^{2}−𝑏^{2}|} \\ & =\sqrt{|2^{2}−6^{2}|} \\ & =\sqrt{32} \\ & =4\sqrt{2}.\end{aligned}
 
 
 
@@ -224,7 +224,7 @@ $$
 
 
 
-\begin{aligned}𝑦 & =𝑘±\frac{𝑏^{2}}{𝑐} \\ 𝑦 & =−4±\frac{6^{2}}{4\sqrt{√2}} \\ 𝑦 & =−4±\frac{36}{4\sqrt{√2}} \\ 𝑦 & =−4±\frac{9}{\sqrt{√2}}\end{aligned}
+\begin{aligned}𝑦 & =𝑘±\frac{𝑏^{2}}{𝑐} \\ 𝑦 & =−4±\frac{6^{2}}{4\sqrt{2}} \\ 𝑦 & =−4±\frac{36}{4\sqrt{2}} \\ 𝑦 & =−4±\frac{9}{\sqrt{2}}\end{aligned}
 
 
 
@@ -286,7 +286,7 @@ $$
 
 
 
-\begin{aligned}𝑐 & =\sqrt{√|𝑎^{2}−𝑏^{2}|} \\ & =\sqrt{√|16−36|} \\ & =\sqrt{√20} \\ & =2\sqrt{√5}.\end{aligned}
+\begin{aligned}𝑐 & =\sqrt{|𝑎^{2}−𝑏^{2}|} \\ & =\sqrt{|16−36|} \\ & =\sqrt{20} \\ & =2\sqrt{5}.\end{aligned}
 
 
 
@@ -298,7 +298,7 @@ $$
 
 
 
-\begin{aligned}𝑦 & =𝑘±\frac{𝑏^{2}}{𝑐} \\ 𝑦 & =1±\frac{36}{2\sqrt{√5}} \\ 𝑦 & =1±\frac{18}{\sqrt{√5}}\end{aligned}
+\begin{aligned}𝑦 & =𝑘±\frac{𝑏^{2}}{𝑐} \\ 𝑦 & =1±\frac{36}{2\sqrt{5}} \\ 𝑦 & =1±\frac{18}{\sqrt{5}}\end{aligned}
 
 
 

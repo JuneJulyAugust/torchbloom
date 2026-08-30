@@ -39,7 +39,7 @@ Now, to rationalize the denominator, we multiply both the numerator and denomina
 $$
 
 
-\begin{aligned}\frac{1}{1+\sqrt{√𝑥}} & = \\ \frac{1}{1+\sqrt{√𝑥}}⋅\frac{1−\sqrt{√𝑥}}{1−\sqrt{√𝑥}} & = \\ \frac{1−\sqrt{√𝑥}}{(1+\sqrt{√𝑥})(1−\sqrt{√𝑥})} & = \\ \frac{1−\sqrt{√𝑥}}{1^{2}−(\sqrt{√𝑥})^{2}} & = \\ \frac{1−\sqrt{√𝑥}}{1−𝑥} & \end{aligned}
+\begin{aligned}\frac{1}{1+\sqrt{𝑥}} & = \\ \frac{1}{1+\sqrt{𝑥}}⋅\frac{1−\sqrt{𝑥}}{1−\sqrt{𝑥}} & = \\ \frac{1−\sqrt{𝑥}}{(1+\sqrt{𝑥})(1−\sqrt{𝑥})} & = \\ \frac{1−\sqrt{𝑥}}{1^{2}−(\sqrt{𝑥})^{2}} & = \\ \frac{1−\sqrt{𝑥}}{1−𝑥} & \end{aligned}
 
 
 $$
@@ -59,7 +59,7 @@ Now, to rationalize the denominator, we multiply both the numerator and denomina
 $$
 
 
-\begin{aligned}\frac{1}{3−\sqrt{√𝑎}} & = \\ \frac{1}{3−\sqrt{√𝑎}}⋅\frac{3+\sqrt{√𝑎}}{3+\sqrt{√𝑎}} & = \\ \frac{3+\sqrt{√𝑎}}{(3−\sqrt{√𝑎})(3+\sqrt{√𝑎})} & = \\ \frac{3+\sqrt{√𝑎}}{3^{2}−(\sqrt{√𝑎})^{2}} & = \\ \frac{3+\sqrt{√𝑎}}{9−𝑎} & \end{aligned}
+\begin{aligned}\frac{1}{3−\sqrt{𝑎}} & = \\ \frac{1}{3−\sqrt{𝑎}}⋅\frac{3+\sqrt{𝑎}}{3+\sqrt{𝑎}} & = \\ \frac{3+\sqrt{𝑎}}{(3−\sqrt{𝑎})(3+\sqrt{𝑎})} & = \\ \frac{3+\sqrt{𝑎}}{3^{2}−(\sqrt{𝑎})^{2}} & = \\ \frac{3+\sqrt{𝑎}}{9−𝑎} & \end{aligned}
 
 
 $$
@@ -79,7 +79,7 @@ Now, to rationalize the denominator, we multiply both the numerator and denomina
 $$
 
 
-\begin{aligned} \dfrac {x} {\sqrt{x+1}+1} &= \\\[5pt] \dfrac {x} {\sqrt{x+1}+1}\cdot \dfrac{\sqrt{x+1}-1}{\sqrt{x+1}-1} &= \\\[5pt] \dfrac {x(\sqrt{x+1}-1)} {(\sqrt{x+1}+1)(\sqrt{x+1}-1)} &= \\\[5pt] \dfrac {x(\sqrt{x+1}-1)} {(\sqrt{x+1})^2-1^2} &= \\\[5pt] \dfrac {x(\sqrt{x+1}-1)} {x+1-1} &= \\\[5pt] \dfrac {x(\sqrt{x+1}-1)} {x}&=\\\[5pt] \sqrt{x+1}-1 \end{aligned}
+\begin{aligned} \dfrac {x} {\sqrt{x+1}+1} &= \\[5pt] \dfrac {x} {\sqrt{x+1}+1}\cdot \dfrac{\sqrt{x+1}-1}{\sqrt{x+1}-1} &= \\[5pt] \dfrac {x(\sqrt{x+1}-1)} {(\sqrt{x+1}+1)(\sqrt{x+1}-1)} &= \\[5pt] \dfrac {x(\sqrt{x+1}-1)} {(\sqrt{x+1})^2-1^2} &= \\[5pt] \dfrac {x(\sqrt{x+1}-1)} {x+1-1} &= \\[5pt] \dfrac {x(\sqrt{x+1}-1)} {x}&=\\[5pt] \sqrt{x+1}-1 \end{aligned}
 
 
 $$
@@ -99,7 +99,7 @@ Now, to rationalize the denominator, we multiply both the numerator and denomina
 $$
 
 
-\begin{aligned} \dfrac{x}{\sqrt{2}-\sqrt{x}} &= \\\[5pt] \dfrac{x}{\sqrt{2}-\sqrt{x}} \cdot \dfrac{\sqrt{2}+\sqrt{x}}{\sqrt{2}+\sqrt{x}} &= \\\[5pt] \dfrac{x(\sqrt{2}+\sqrt{x}) }{(\sqrt{2}-\sqrt{x})(\sqrt{2}+\sqrt{x})} &= \\\[5pt] \dfrac{x(\sqrt{2}+\sqrt{x}) }{(\sqrt{2})^2-(\sqrt{x})^2} &= \\\[5pt] \dfrac{x(\sqrt{2}+\sqrt{x}) }{2-x} \end{aligned}
+\begin{aligned} \dfrac{x}{\sqrt{2}-\sqrt{x}} &= \\[5pt] \dfrac{x}{\sqrt{2}-\sqrt{x}} \cdot \dfrac{\sqrt{2}+\sqrt{x}}{\sqrt{2}+\sqrt{x}} &= \\[5pt] \dfrac{x(\sqrt{2}+\sqrt{x}) }{(\sqrt{2}-\sqrt{x})(\sqrt{2}+\sqrt{x})} &= \\[5pt] \dfrac{x(\sqrt{2}+\sqrt{x}) }{(\sqrt{2})^2-(\sqrt{x})^2} &= \\[5pt] \dfrac{x(\sqrt{2}+\sqrt{x}) }{2-x} \end{aligned}
 
 
 $$

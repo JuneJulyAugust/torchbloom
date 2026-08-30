@@ -17,7 +17,7 @@ $$
 
 
 
-5^{\color{blue}7} = \underbrace{5\cdot 5\cdot 5\cdot 5\cdot 5\cdot 5 \cdot 5}_{\large{\color{blue}7} \textrm{ copies of } 5}.
+5^{\color{blue}7} = \underbrace{5\cdot 5\cdot 5\cdot 5\cdot 5\cdot 5 \cdot 5}_{\large{\color{blue}7} \text{ copies of } 5}.
 
 
 
@@ -51,7 +51,7 @@ $$
 
 
 
-\underbrace{7 \times 7 \times 7 \times 7 \times 7\times 7}_{\large{\color{blue}6} \textrm{ copies of } 7} = 7^{\color{blue}6}.
+\underbrace{7 \times 7 \times 7 \times 7 \times 7\times 7}_{\large{\color{blue}6} \text{ copies of } 7} = 7^{\color{blue}6}.
 
 
 

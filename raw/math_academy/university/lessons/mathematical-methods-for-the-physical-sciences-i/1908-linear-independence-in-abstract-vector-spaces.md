@@ -85,7 +85,7 @@ Now, we consider the corresponding augmented matrix and reduce it to row echelon
 $$
 
 
-\begin{aligned}𝑀 & =[\begin{aligned}1 & −4 & −3 & 0 \\ 1 & −2 & −2 & 0\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+(−1)𝑅_{1} \\ & ∼[\begin{aligned}1 & −4 & −3 & 0 \\ 0 & 2 & 1 & 0\end{aligned}]. & & \end{aligned}
+\begin{aligned}𝑀 & =[\begin{matrix}1 & −4 & −3 & 0 \\ 1 & −2 & −2 & 0\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+(−1)𝑅_{1} \\ & ∼[\begin{matrix}1 & −4 & −3 & 0 \\ 0 & 2 & 1 & 0\end{matrix}]. & & \end{aligned}
 
 
 $$
@@ -165,7 +165,7 @@ Substituting the matrices $A$ and $B$ into the above equation, we obtain
 $$
 
 
-\begin{aligned}𝑥_{1}[\begin{aligned}1 & 0 \\ −2 & 4\end{aligned}]+𝑥_{2}[\begin{aligned}3 & 5 \\ 2 & −6\end{aligned}] & =[\begin{aligned}0 & 0 \\ 0 & 0\end{aligned}] \\ [\begin{aligned}𝑥_{1} & 0 \\ −2𝑥_{1} & 4𝑥_{1}\end{aligned}]+[\begin{aligned}3𝑥_{2} & 5𝑥_{2} \\ 2𝑥_{2} & −6𝑥_{2}\end{aligned}] & =[\begin{aligned}0 & 0 \\ 0 & 0\end{aligned}] \\ [\begin{aligned}𝑥_{1}+3𝑥_{2} & 5𝑥_{2} \\ −2𝑥_{1}+2𝑥_{2} & 4𝑥_{1}−6𝑥_{2}\end{aligned}] & =[\begin{aligned}0 & 0 \\ 0 & 0\end{aligned}].\end{aligned}
+\begin{aligned}𝑥_{1}[\begin{matrix}1 & 0 \\ −2 & 4\end{matrix}]+𝑥_{2}[\begin{matrix}3 & 5 \\ 2 & −6\end{matrix}] & =[\begin{matrix}0 & 0 \\ 0 & 0\end{matrix}] \\ [\begin{matrix}𝑥_{1} & 0 \\ −2𝑥_{1} & 4𝑥_{1}\end{matrix}]+[\begin{matrix}3𝑥_{2} & 5𝑥_{2} \\ 2𝑥_{2} & −6𝑥_{2}\end{matrix}] & =[\begin{matrix}0 & 0 \\ 0 & 0\end{matrix}] \\ [\begin{matrix}𝑥_{1}+3𝑥_{2} & 5𝑥_{2} \\ −2𝑥_{1}+2𝑥_{2} & 4𝑥_{1}−6𝑥_{2}\end{matrix}] & =[\begin{matrix}0 & 0 \\ 0 & 0\end{matrix}].\end{aligned}
 
 
 $$
@@ -185,7 +185,7 @@ Now, we consider the corresponding augmented matrix and reduce it to row echelon
 $$
 
 
-\begin{aligned}𝑀 & =\begin{aligned}1 & 3 & 0 \\ 0 & 5 & 0 \\ −2 & 2 & 0 \\ 4 & −6 & 0\end{aligned} & & \begin{aligned}𝑅_{3}:=𝑅_{3}+2𝑅_{1} \\ 𝑅_{4}:=𝑅_{4}+(−4)𝑅_{1}\end{aligned} \\ & ∼\begin{aligned}1 & 3 & 0 \\ 0 & 5 & 0 \\ 0 & 8 & 0 \\ 0 & −18 & 0\end{aligned} & & \begin{aligned}𝑅_{3}:=𝑅_{3}+(−\frac{8}{5})𝑅_{2} \\ 𝑅_{4}:=𝑅_{4}+\frac{18}{5}𝑅_{2}\end{aligned} \\ & ∼\begin{aligned}1 & 3 & 0 \\ 0 & 5 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0\end{aligned} & & \end{aligned}
+\begin{aligned}𝑀 & =\begin{matrix}1 & 3 & 0 \\ 0 & 5 & 0 \\ −2 & 2 & 0 \\ 4 & −6 & 0\end{matrix} & & \begin{matrix}𝑅_{3}:=𝑅_{3}+2𝑅_{1} \\ 𝑅_{4}:=𝑅_{4}+(−4)𝑅_{1}\end{matrix} \\ & ∼\begin{matrix}1 & 3 & 0 \\ 0 & 5 & 0 \\ 0 & 8 & 0 \\ 0 & −18 & 0\end{matrix} & & \begin{matrix}𝑅_{3}:=𝑅_{3}+(−\frac{8}{5})𝑅_{2} \\ 𝑅_{4}:=𝑅_{4}+\frac{18}{5}𝑅_{2}\end{matrix} \\ & ∼\begin{matrix}1 & 3 & 0 \\ 0 & 5 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0\end{matrix} & & \end{aligned}
 
 
 $$

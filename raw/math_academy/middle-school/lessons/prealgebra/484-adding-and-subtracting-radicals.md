@@ -27,7 +27,7 @@ We can simplify our expression by combining the two radicals, as follows:
 
 $$
 
-\begin{aligned}2\sqrt{√5}+4\sqrt{√5} & = \\ (2+4)\sqrt{√5} & = \\ 6\sqrt{√5} & \end{aligned}
+\begin{aligned}2\sqrt{5}+4\sqrt{5} & = \\ (2+4)\sqrt{5} & = \\ 6\sqrt{5} & \end{aligned}
 
 $$
 
@@ -35,7 +35,7 @@ Similarly,
 
 $$
 
-\begin{aligned}2\sqrt{√7}−\sqrt{√7} & = \\ 2\sqrt{√7}−1⋅\sqrt{√7} & = \\ (2−1)\sqrt{√7} & = \\ 1⋅\sqrt{√7} & = \\ \sqrt{√7}. & \end{aligned}
+\begin{aligned}2\sqrt{7}−\sqrt{7} & = \\ 2\sqrt{7}−1⋅\sqrt{7} & = \\ (2−1)\sqrt{7} & = \\ 1⋅\sqrt{7} & = \\ \sqrt{7}. & \end{aligned}
 
 $$
 
@@ -61,7 +61,7 @@ We can combine the two $\sqrt{3}$ terms together, as follows:
 
 $$
 
-\begin{aligned}8\sqrt{√3}−5\sqrt{√3}+\sqrt{√5} & = \\ (8−5)\sqrt{√3}+\sqrt{√5} & = \\ 3\sqrt{√3}+\sqrt{√5} & \end{aligned}
+\begin{aligned}8\sqrt{3}−5\sqrt{3}+\sqrt{5} & = \\ (8−5)\sqrt{3}+\sqrt{5} & = \\ 3\sqrt{3}+\sqrt{5} & \end{aligned}
 
 $$
 
@@ -91,7 +91,7 @@ First, we use the product rule for radicals to simplify $\sqrt{80},$ as follows:
 
 $$
 
-\begin{aligned}\sqrt{√80} & =\sqrt{√16⋅5}=\sqrt{√16}⋅\sqrt{√5}=4\sqrt{√5} & \end{aligned}
+\begin{aligned}\sqrt{80} & =\sqrt{16⋅5}=\sqrt{16}⋅\sqrt{5}=4\sqrt{5} & \end{aligned}
 
 $$
 
@@ -99,7 +99,7 @@ As a result,
 
 $$
 
-\begin{aligned}3\sqrt{√80}−8\sqrt{√5} & = \\ 3(4\sqrt{√5})−8\sqrt{√5} & = \\ 12\sqrt{√5}−8\sqrt{√5}. & \end{aligned}
+\begin{aligned}3\sqrt{80}−8\sqrt{5} & = \\ 3(4\sqrt{5})−8\sqrt{5} & = \\ 12\sqrt{5}−8\sqrt{5}. & \end{aligned}
 
 $$
 
@@ -107,7 +107,7 @@ Now, we can combine the two $\sqrt{5}$ terms together:
 
 $$
 
-\begin{aligned}12\sqrt{√5}−8\sqrt{√5} & = \\ (12−8)\sqrt{√5} & = \\ 4\sqrt{√5} & \end{aligned}
+\begin{aligned}12\sqrt{5}−8\sqrt{5} & = \\ (12−8)\sqrt{5} & = \\ 4\sqrt{5} & \end{aligned}
 
 $$
 
@@ -171,7 +171,7 @@ As a result, we have
 
 $$
 
-\begin{aligned}2\sqrt[√5]{3}+5\sqrt{√10}−3\sqrt[√40]{3} & = \\ 2\sqrt[√5]{3}+5\sqrt{√10}−3(2\sqrt[√5]{3}) & = \\ 2\sqrt[√5]{3}+5\sqrt{√10}−6\sqrt[√5]{3}. & \end{aligned}
+\begin{aligned}2\sqrt[√5]{3}+5\sqrt{10}−3\sqrt[√40]{3} & = \\ 2\sqrt[√5]{3}+5\sqrt{10}−3(2\sqrt[√5]{3}) & = \\ 2\sqrt[√5]{3}+5\sqrt{10}−6\sqrt[√5]{3}. & \end{aligned}
 
 $$
 
@@ -179,6 +179,6 @@ Now, we can combine the two $\sqrt[3]{5}$ terms together:
 
 $$
 
-\begin{aligned}2\sqrt[√5]{3}+5\sqrt{√10}−6\sqrt[√5]{3} & = \\ 5\sqrt{√10}+(2\sqrt[√5]{3}−6\sqrt[√5]{3}) & = \\ 5\sqrt{√10}+(2−6)\sqrt[√5]{3} & = \\ 5\sqrt{√10}−4\sqrt[√5]{3} & \end{aligned}
+\begin{aligned}2\sqrt[√5]{3}+5\sqrt{10}−6\sqrt[√5]{3} & = \\ 5\sqrt{10}+(2\sqrt[√5]{3}−6\sqrt[√5]{3}) & = \\ 5\sqrt{10}+(2−6)\sqrt[√5]{3} & = \\ 5\sqrt{10}−4\sqrt[√5]{3} & \end{aligned}
 
 $$

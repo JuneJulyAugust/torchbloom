@@ -142,7 +142,7 @@ We now solve $L\mathbf{y} = \mathbf{b}.$ Writing this equation in matrix form, w
 $$
 
 
-\begin{aligned}[\begin{aligned}1 & 0 \\ 15 & 1\end{aligned}][\begin{aligned}𝑦_{1} \\ 𝑦_{2}\end{aligned}] & =[\begin{aligned}5 \\ 66\end{aligned}].\end{aligned}
+\begin{aligned}[\begin{matrix}1 & 0 \\ 15 & 1\end{matrix}][\begin{matrix}𝑦_{1} \\ 𝑦_{2}\end{matrix}] & =[\begin{matrix}5 \\ 66\end{matrix}].\end{aligned}
 
 
 $$

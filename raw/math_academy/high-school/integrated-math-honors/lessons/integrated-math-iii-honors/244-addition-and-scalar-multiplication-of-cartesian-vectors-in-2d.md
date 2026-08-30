@@ -92,7 +92,7 @@ and in column vector notation, we have
 $$
 
 
-\begin{aligned}[\begin{aligned}2 \\ 5\end{aligned}]+[\begin{aligned}−3 \\ 7\end{aligned}] & =[\begin{aligned}2+(−3) \\ 5+7\end{aligned}]=[\begin{aligned}−1 \\ 12\end{aligned}].\end{aligned}
+\begin{aligned}[\begin{matrix}2 \\ 5\end{matrix}]+[\begin{matrix}−3 \\ 7\end{matrix}] & =[\begin{matrix}2+(−3) \\ 5+7\end{matrix}]=[\begin{matrix}−1 \\ 12\end{matrix}].\end{aligned}
 
 
 $$
@@ -114,7 +114,7 @@ and in column vector notation, we have
 $$
 
 
-\begin{aligned}−5⋅[\begin{aligned}2 \\ 5\end{aligned}] & =[\begin{aligned}(−5)⋅2 \\ (−5)⋅5\end{aligned}]=[\begin{aligned}−10 \\ −25\end{aligned}].\end{aligned}
+\begin{aligned}−5⋅[\begin{matrix}2 \\ 5\end{matrix}] & =[\begin{matrix}(−5)⋅2 \\ (−5)⋅5\end{matrix}]=[\begin{matrix}−10 \\ −25\end{matrix}].\end{aligned}
 
 
 $$
@@ -150,7 +150,7 @@ To compute the result, we just need to perform the required operations with each
 $$
 
 
-\begin{aligned}2𝐚−(𝐛−5𝐜) & =2⋅[\begin{aligned}1 \\ −5\end{aligned}]−([\begin{aligned}2 \\ 4\end{aligned}]−5⋅[\begin{aligned}−3 \\ 7\end{aligned}]) \\ & =[\begin{aligned}2 \\ −10\end{aligned}]−([\begin{aligned}2 \\ 4\end{aligned}]−[\begin{aligned}−15 \\ 35\end{aligned}]) \\ & =[\begin{aligned}2 \\ −10\end{aligned}]−[\begin{aligned}17 \\ −31\end{aligned}] \\ & =[\begin{aligned}−15 \\ 21\end{aligned}]\end{aligned}
+\begin{aligned}2𝐚−(𝐛−5𝐜) & =2⋅[\begin{matrix}1 \\ −5\end{matrix}]−([\begin{matrix}2 \\ 4\end{matrix}]−5⋅[\begin{matrix}−3 \\ 7\end{matrix}]) \\ & =[\begin{matrix}2 \\ −10\end{matrix}]−([\begin{matrix}2 \\ 4\end{matrix}]−[\begin{matrix}−15 \\ 35\end{matrix}]) \\ & =[\begin{matrix}2 \\ −10\end{matrix}]−[\begin{matrix}17 \\ −31\end{matrix}] \\ & =[\begin{matrix}−15 \\ 21\end{matrix}]\end{aligned}
 
 
 $$

@@ -120,7 +120,7 @@ Using Leibniz notation, the quotient rule is expressed as follows:
 $$
 
 
-\dfrac{\textrm{d}}{\textrm{d}x}\left (\dfrac u v\right) = \dfrac {v \dfrac {\textrm{d}u} {\textrm{d}x} - u \dfrac{\textrm{d}v}{\textrm{d}x}}{v^2}
+\dfrac{\text{d}}{\text{d}x}\left (\dfrac u v\right) = \dfrac {v \dfrac {\text{d}u} {\text{d}x} - u \dfrac{\text{d}v}{\text{d}x}}{v^2}
 
 
 $$
@@ -129,7 +129,7 @@ $$
 
 #### Question
 
-Given that $y=\dfrac{1}{3x+7},$ find $\dfrac{\textrm{d}y}{\textrm{d}x}.$
+Given that $y=\dfrac{1}{3x+7},$ find $\dfrac{\text{d}y}{\text{d}x}.$
 
 #### Explanation
 
@@ -148,7 +148,7 @@ Using the quotient rule, we get
 $$
 
 
-\begin{aligned} \dfrac{\textrm{d}y}{\textrm{d}x} & = \dfrac{ v\dfrac{\textrm{d}u}{\textrm{d}x}-u\dfrac{\textrm{d}v}{\textrm{d}x}}{v^2}\\& = \dfrac{ \left( 3x+7 \right ) \cdot 0 -1\cdot 3}{\left( 3x+7\right)^2}\\& = -\dfrac{3}{\left( 3x+7\right)^2}. \end{aligned}
+\begin{aligned} \dfrac{\text{d}y}{\text{d}x} & = \dfrac{ v\dfrac{\text{d}u}{\text{d}x}-u\dfrac{\text{d}v}{\text{d}x}}{v^2}\\& = \dfrac{ \left( 3x+7 \right ) \cdot 0 -1\cdot 3}{\left( 3x+7\right)^2}\\& = -\dfrac{3}{\left( 3x+7\right)^2}. \end{aligned}
 
 
 $$

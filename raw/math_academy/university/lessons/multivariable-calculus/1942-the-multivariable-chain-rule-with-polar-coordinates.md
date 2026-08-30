@@ -146,7 +146,7 @@ We can use a similar procedure to write $f_y$ in terms of functions of $r$ and $
 $$
 
 
-\begin{aligned} \dfrac {\partial f}{\partial x} &= \dfrac {\partial f}{\partial r} \cos \theta -\dfrac{1}{r} \dfrac {\partial f}{\partial \theta}\sin \theta\[1ex] \dfrac {\partial f}{\partial y} &= \dfrac {\partial f}{\partial r} \sin \theta + \dfrac{1}{r} \dfrac {\partial f}{\partial \theta}\cos \theta \end{aligned}
+\begin{aligned} \dfrac {\partial f}{\partial x} &= \dfrac {\partial f}{\partial r} \cos \theta -\dfrac{1}{r} \dfrac {\partial f}{\partial \theta}\sin \theta\\[1ex] \dfrac {\partial f}{\partial y} &= \dfrac {\partial f}{\partial r} \sin \theta + \dfrac{1}{r} \dfrac {\partial f}{\partial \theta}\cos \theta \end{aligned}
 
 
 $$

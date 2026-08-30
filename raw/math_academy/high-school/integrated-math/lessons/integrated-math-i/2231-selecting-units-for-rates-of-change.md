@@ -23,7 +23,7 @@ $$
 
 
 
-\dfrac{\color{blue}\textrm{what we measure the change of}}{\color{red}\textrm{what we change}}
+\dfrac{\color{blue}\text{what we measure the change of}}{\color{red}\text{what we change}}
 
 
 
@@ -37,7 +37,7 @@ $$
 
 
 
-\dfrac{\color{blue}\textrm{customers}}{\color{red}\textrm{day}},
+\dfrac{\color{blue}\text{customers}}{\color{red}\text{day}},
 
 
 
@@ -59,13 +59,13 @@ $$
 
 
 
-\dfrac{\textrm{unit of volume}}{\textrm{unit of time}}.
+\dfrac{\text{unit of volume}}{\text{unit of time}}.
 
 
 
 $$
 
-Some examples of appropriate units include $\dfrac{\textrm{liters}}{\textrm{hour}},$ $\dfrac{\textrm{m}^3}{\textrm{min}},$ and $\dfrac{\textrm{cm}^3}{\textrm{s}}.$
+Some examples of appropriate units include $\dfrac{\text{liters}}{\text{hour}},$ $\dfrac{\text{m}^3}{\text{min}},$ and $\dfrac{\text{cm}^3}{\text{s}}.$
 
 ### Example: Choosing Appropriate Units When Base Units Are Required
 
@@ -81,19 +81,19 @@ $$
 
 
 
-\dfrac{\textrm{unit of mass}}{\textrm{unit of volume}}.
+\dfrac{\text{unit of mass}}{\text{unit of volume}}.
 
 
 
 $$
 
-The base unit for mass is $\textrm{kg},$ and the base unit for volume is $\textrm{m}^3.$ Therefore, the units of density are
+The base unit for mass is $\text{kg},$ and the base unit for volume is $\text{m}^3.$ Therefore, the units of density are
 
 $$
 
 
 
-\dfrac{\textrm{kg}}{\textrm{m}^3},
+\dfrac{\text{kg}}{\text{m}^3},
 
 
 

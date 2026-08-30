@@ -29,7 +29,7 @@ $$
 
 
 
-\begin{aligned}9\,\overset{\overset{−\,(−}{}}{+}\,4) & = \\ 9\,+\,4 & = \\ 13 & .\end{aligned}
+\begin{aligned}9\,\overset{−\,(−}{+}\,4) & = \\ 9\,+\,4 & = \\ 13 & .\end{aligned}
 
 
 

@@ -82,7 +82,7 @@ The Argand diagram above shows the roots of a quartic polynomial $f(x).$ Find $f
 
 #### Explanation
 
-From the diagram, we see that $f(x)$ has roots ${x_1=-2},$ ${x_2=3},$ and ${x_{3,4}=1 \pm 3\textrm{i}}.$ Additionally, we're given that the coefficient of the quartic term is ${a=1}.$ Therefore, we can write the polynomial as follows:
+From the diagram, we see that $f(x)$ has roots ${x_1=-2},$ ${x_2=3},$ and ${x_{3,4}=1 \pm 3\text{i}}.$ Additionally, we're given that the coefficient of the quartic term is ${a=1}.$ Therefore, we can write the polynomial as follows:
 
 $$
 

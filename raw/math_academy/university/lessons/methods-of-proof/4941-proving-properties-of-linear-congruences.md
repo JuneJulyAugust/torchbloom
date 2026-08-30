@@ -190,19 +190,19 @@ Let's once again consider the linear congruence
 $$
 
 
-ax\equiv b \quad (\textrm{mod } n)
+ax\equiv b \quad (\text{mod } n)
 
 
 $$
 
-where $a, b\in\mathbb Z, n\in \mathbb N,$ and $\textrm{gcd}(a,n) = 1.$
+where $a, b\in\mathbb Z, n\in \mathbb N,$ and $\text{gcd}(a,n) = 1.$
 
 We've proved that this congruence has a solution, and this solution is given by
 
 $$
 
 
-x_1 \equiv a^{-1}\cdot b \quad (\textrm{mod } n)
+x_1 \equiv a^{-1}\cdot b \quad (\text{mod } n)
 
 
 $$
@@ -232,7 +232,7 @@ Let's assume for a contradiction that the solution $x_1$ is not unique. This mea
 $$
 
 
-x_1 \not\equiv x_2 \: (\textrm{mod}\:n) \qquad\textrm{and}\qquad ax_2 \equiv b \: (\textrm{mod}\:n).
+x_1 \not\equiv x_2 \: (\text{mod}\:n) \qquad\text{and}\qquad ax_2 \equiv b \: (\text{mod}\:n).
 
 
 $$
@@ -266,7 +266,7 @@ By subtracting the two congruences for $x_1$ and $x_2,$ we obtain
 $$
 
 
-a(x_1-x_2) \equiv 0 \: (\textrm{mod}\:n).
+a(x_1-x_2) \equiv 0 \: (\text{mod}\:n).
 
 
 $$
@@ -278,7 +278,7 @@ Since $\text{gcd}(a,n)=1,$ we can apply the division property of congruences to 
 $$
 
 
-x_1-x_2 \equiv 0 \: (\textrm{mod}\:n) \qquad\Leftrightarrow\qquad x_1 \equiv x_2 \: (\textrm{mod}\:n),
+x_1-x_2 \equiv 0 \: (\text{mod}\:n) \qquad\Leftrightarrow\qquad x_1 \equiv x_2 \: (\text{mod}\:n),
 
 
 $$
@@ -342,7 +342,7 @@ Let's assume for a contradiction that the solution $x_1$ is not unique. This mea
 $$
 
 
-x_1 \not\equiv x_2 \: (\textrm{mod}\:n) \qquad\textrm{and}\qquad ax_2 \equiv b \: (\textrm{mod}\:n).
+x_1 \not\equiv x_2 \: (\text{mod}\:n) \qquad\text{and}\qquad ax_2 \equiv b \: (\text{mod}\:n).
 
 
 $$
@@ -352,7 +352,7 @@ By subtracting the two congruences for $x_1$ and $x_2,$ we obtain
 $$
 
 
-a(x_1-x_2) \equiv 0 \: (\textrm{mod}\:n).
+a(x_1-x_2) \equiv 0 \: (\text{mod}\:n).
 
 
 $$
@@ -362,7 +362,7 @@ Since $\text{gcd}(a,n)=1,$ we can apply the division property of congruences to 
 $$
 
 
-x_1-x_2 \equiv 0 \: (\textrm{mod}\:n) \qquad\Leftrightarrow\qquad x_1 \equiv x_2 \: (\textrm{mod}\:n),
+x_1-x_2 \equiv 0 \: (\text{mod}\:n) \qquad\Leftrightarrow\qquad x_1 \equiv x_2 \: (\text{mod}\:n),
 
 
 $$
@@ -547,7 +547,7 @@ $$
 
 Now, we need to show that the solutions found are all distinct:
 
-These values form distinct solutions, meaning they are mutually non-congruent modulo $n.$ Indeed, if $i$ and $j$ are indices from $\{1,2,\ldots, k-1\}$ and $i \neq j,$ then, by assuming for a contradiction that $x_i \equiv x_j \: (\textrm{mod}\:n),$ we get the following:
+These values form distinct solutions, meaning they are mutually non-congruent modulo $n.$ Indeed, if $i$ and $j$ are indices from $\{1,2,\ldots, k-1\}$ and $i \neq j,$ then, by assuming for a contradiction that $x_i \equiv x_j \: (\text{mod}\:n),$ we get the following:
 
 $$
 
@@ -637,7 +637,7 @@ $$
 
 These values form distinct solutions, meaning they are mutually non-congruent modulo $n.$
 
-Indeed, if $i$ and $j$ are indices from $\{1,2,\ldots, k-1\}$ and $i \neq j,$ then, by assuming for a contradiction that $x_i \equiv x_j \: (\textrm{mod}\:n),$ we get the following:
+Indeed, if $i$ and $j$ are indices from $\{1,2,\ldots, k-1\}$ and $i \neq j,$ then, by assuming for a contradiction that $x_i \equiv x_j \: (\text{mod}\:n),$ we get the following:
 
 $$
 

@@ -76,7 +76,7 @@ $$
 
 ### Using Leibniz Notation
 
-We can also express the second derivative using $\dfrac{\textrm{d}}{\textrm{d} x}$ notation, also known as Leibniz notation. If we have a function $f(x),$ then the second derivative $f''(x)$ can be written as
+We can also express the second derivative using $\dfrac{\text{d}}{\text{d} x}$ notation, also known as Leibniz notation. If we have a function $f(x),$ then the second derivative $f''(x)$ can be written as
 
 $$
 
@@ -101,7 +101,7 @@ Computing the first derivative, we get
 $$
 
 
-\begin{aligned}\frac{d𝑦}{d𝑥} & =\frac{d}{d𝑥}(3𝑥^{4}+5𝑥+\sqrt{√𝑥}) \\ & =\frac{d}{d𝑥}(3𝑥^{4}+5𝑥+𝑥^{1/2}) \\ & =3(4)𝑥^{3}+5+\frac{1}{2}𝑥^{−1/2} \\ & =12𝑥^{3}+5+\frac{1}{2}𝑥^{−1/2}.\end{aligned}
+\begin{aligned}\frac{d𝑦}{d𝑥} & =\frac{d}{d𝑥}(3𝑥^{4}+5𝑥+\sqrt{𝑥}) \\ & =\frac{d}{d𝑥}(3𝑥^{4}+5𝑥+𝑥^{1/2}) \\ & =3(4)𝑥^{3}+5+\frac{1}{2}𝑥^{−1/2} \\ & =12𝑥^{3}+5+\frac{1}{2}𝑥^{−1/2}.\end{aligned}
 
 
 $$

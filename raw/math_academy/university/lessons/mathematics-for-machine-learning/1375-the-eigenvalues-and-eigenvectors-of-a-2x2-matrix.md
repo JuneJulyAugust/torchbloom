@@ -28,7 +28,7 @@ For example, consider the matrix $[\begin{aligned}2 & 2 \\ 2 & −1\end{aligned}
 $$
 
 
-\begin{aligned}𝐴𝐯 & =[\begin{aligned}2 & 2 \\ 2 & −1\end{aligned}]⋅[\begin{aligned}1 \\ −2\end{aligned}] \\ & =[\begin{aligned}−2 \\ 4\end{aligned}] \\ & =(−2)⋅[\begin{aligned}1 \\ −2\end{aligned}] \\ & =−2𝐯.\end{aligned}
+\begin{aligned}𝐴𝐯 & =[\begin{matrix}2 & 2 \\ 2 & −1\end{matrix}]⋅[\begin{matrix}1 \\ −2\end{matrix}] \\ & =[\begin{matrix}−2 \\ 4\end{matrix}] \\ & =(−2)⋅[\begin{matrix}1 \\ −2\end{matrix}] \\ & =−2𝐯.\end{aligned}
 
 
 $$
@@ -54,7 +54,7 @@ The eigenvectors of $A$ are the non-zero vectors $\mathbf{v}$ such that $A\mathb
 $$
 
 
-\begin{aligned}𝐴𝐯 & =[\begin{aligned}1 & 3 \\ 3 & 1\end{aligned}][\begin{aligned}1 \\ 1\end{aligned}] \\ & =[\begin{aligned}4 \\ 4\end{aligned}] \\ & =4⋅[\begin{aligned}1 \\ 1\end{aligned}] \\ & =4𝐯.\end{aligned}
+\begin{aligned}𝐴𝐯 & =[\begin{matrix}1 & 3 \\ 3 & 1\end{matrix}][\begin{matrix}1 \\ 1\end{matrix}] \\ & =[\begin{matrix}4 \\ 4\end{matrix}] \\ & =4⋅[\begin{matrix}1 \\ 1\end{matrix}] \\ & =4𝐯.\end{aligned}
 
 
 $$
@@ -120,7 +120,7 @@ Remember that the eigenvectors of $A$ are the non-zero vectors $\mathbf{v}$ such
 $$
 
 
-\begin{aligned}𝐴𝐯 & =𝜆𝐯 \\ [\begin{aligned}2 & 1 \\ 1 & 2\end{aligned}][\begin{aligned}1 \\ 2𝑐\end{aligned}] & =6𝑐[\begin{aligned}1 \\ 2𝑐\end{aligned}] \\ [\begin{aligned}2+2𝑐 \\ 1+4𝑐\end{aligned}] & =[\begin{aligned}6𝑐 \\ 12𝑐^{2}\end{aligned}].\end{aligned}
+\begin{aligned}𝐴𝐯 & =𝜆𝐯 \\ [\begin{matrix}2 & 1 \\ 1 & 2\end{matrix}][\begin{matrix}1 \\ 2𝑐\end{matrix}] & =6𝑐[\begin{matrix}1 \\ 2𝑐\end{matrix}] \\ [\begin{matrix}2+2𝑐 \\ 1+4𝑐\end{matrix}] & =[\begin{matrix}6𝑐 \\ 12𝑐^{2}\end{matrix}].\end{aligned}
 
 
 $$

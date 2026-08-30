@@ -17,7 +17,7 @@ Suppose we wish to prove the following statement:
 $$
 
 
-\underbrace{4a \not\equiv 4b \: (\textrm{mod} \: 9)}_{P} \quad\Rightarrow\quad \underbrace{a \not\equiv b \: (\textrm{mod} \: 9)}_{Q}
+\underbrace{4a \not\equiv 4b \: (\text{mod} \: 9)}_{P} \quad\Rightarrow\quad \underbrace{a \not\equiv b \: (\text{mod} \: 9)}_{Q}
 
 
 $$
@@ -33,7 +33,7 @@ So, the contrapositive form of our statement is
 $$
 
 
-\underbrace{\lnot \Big( a \not\equiv b \: (\textrm{mod} \: 9) \Big)}_{\lnot \, Q} \quad\Rightarrow\quad \underbrace{\lnot \Big( 4a \not\equiv 4b \: (\textrm{mod} \: 9) \Big)}_{\lnot \, P},
+\underbrace{\lnot \Big( a \not\equiv b \: (\text{mod} \: 9) \Big)}_{\lnot \, Q} \quad\Rightarrow\quad \underbrace{\lnot \Big( 4a \not\equiv 4b \: (\text{mod} \: 9) \Big)}_{\lnot \, P},
 
 
 $$
@@ -43,7 +43,7 @@ which is equivalent to
 $$
 
 
-a \equiv b \: (\textrm{mod} \: 9) \quad\Rightarrow\quad 4a \equiv 4b \: (\textrm{mod} \: 9).
+a \equiv b \: (\text{mod} \: 9) \quad\Rightarrow\quad 4a \equiv 4b \: (\text{mod} \: 9).
 
 
 $$
@@ -56,14 +56,14 @@ Now, since the implication and its contrapositive are logically equivalent, inst
 
 Suppose we wish to construct a direct proof of the following statement using the contrapositive:
 
-$7a \not\equiv 7b \: (\textrm{mod} \: 9)$ if $a \not\equiv b \: (\textrm{mod} \: 9).$
+$7a \not\equiv 7b \: (\text{mod} \: 9)$ if $a \not\equiv b \: (\text{mod} \: 9).$
 
 To do this, we need to prove the following equivalent proposition.
 
 $$
 
 
-\boxed{\phantom{fvvbbvvnn} } {\phantom{}} \: (\textrm{mod} \: 9) \quad\Rightarrow\quad \boxed{\phantom{vvbbvvnn} } {\phantom{}} \: (\textrm{mod} \: 9)
+\boxed{\phantom{fvvbbvvnn} } {\phantom{}} \: (\text{mod} \: 9) \quad\Rightarrow\quad \boxed{\phantom{vvbbvvnn} } {\phantom{}} \: (\text{mod} \: 9)
 
 
 $$
@@ -79,7 +79,7 @@ In this case, we have the statement
 $$
 
 
-\underbrace{a \not\equiv b \: (\textrm{mod} \: 9)}_{P} \quad\Rightarrow\quad \underbrace{7a \not\equiv 7b \: (\textrm{mod} \: 9)}_{Q}.
+\underbrace{a \not\equiv b \: (\text{mod} \: 9)}_{P} \quad\Rightarrow\quad \underbrace{7a \not\equiv 7b \: (\text{mod} \: 9)}_{Q}.
 
 
 $$
@@ -89,7 +89,7 @@ The contrapositive form of this statement is
 $$
 
 
-\underbrace{\lnot \Big( 7a \not\equiv 7b \: (\textrm{mod} \: 9) \Big)}_{\lnot \, Q} \quad\Rightarrow\quad \underbrace{\lnot \Big( a \not\equiv b \: (\textrm{mod} \: 9) \Big)}_{\lnot \, P},
+\underbrace{\lnot \Big( 7a \not\equiv 7b \: (\text{mod} \: 9) \Big)}_{\lnot \, Q} \quad\Rightarrow\quad \underbrace{\lnot \Big( a \not\equiv b \: (\text{mod} \: 9) \Big)}_{\lnot \, P},
 
 
 $$
@@ -99,7 +99,7 @@ which is equivalent to
 $$
 
 
-\boxed{\color{blue}7a \equiv 7b} \: (\textrm{mod} \: 9) \quad\Rightarrow\quad \boxed{\color{blue}a \equiv b} \: (\textrm{mod} \: 9).
+\boxed{\color{blue}7a \equiv 7b} \: (\text{mod} \: 9) \quad\Rightarrow\quad \boxed{\color{blue}a \equiv b} \: (\text{mod} \: 9).
 
 
 $$
@@ -110,7 +110,7 @@ $$
 
 Let $a$ and $b$ be integers. Prove, using the contrapositive, that
 
-if $a+7 \not\equiv b+7 \: (\textrm{mod} \: 10),$ then $a \not\equiv b \: (\textrm{mod} \: 10).$
+if $a+7 \not\equiv b+7 \: (\text{mod} \: 10),$ then $a \not\equiv b \: (\text{mod} \: 10).$
 
 #### Explanation
 
@@ -121,7 +121,7 @@ In this case, we need to show that
 $$
 
 
-\underbrace{a+7 \not\equiv b+7 \: (\textrm{mod} \: 10)}_{P} \quad\Rightarrow\quad \underbrace{a \not\equiv b \: (\textrm{mod} \: 10)}_{Q}.
+\underbrace{a+7 \not\equiv b+7 \: (\text{mod} \: 10)}_{P} \quad\Rightarrow\quad \underbrace{a \not\equiv b \: (\text{mod} \: 10)}_{Q}.
 
 
 $$
@@ -131,7 +131,7 @@ The contrapositive of the statement is
 $$
 
 
-\underbrace{\lnot \Big( a \not\equiv b \: (\textrm{mod} \: 10) \Big)}_{\lnot \, Q} \quad\Rightarrow\quad \underbrace{\lnot \Big( a+7 \not\equiv b+7 \: (\textrm{mod} \: 10) \Big)}_{\lnot \, P},
+\underbrace{\lnot \Big( a \not\equiv b \: (\text{mod} \: 10) \Big)}_{\lnot \, Q} \quad\Rightarrow\quad \underbrace{\lnot \Big( a+7 \not\equiv b+7 \: (\text{mod} \: 10) \Big)}_{\lnot \, P},
 
 
 $$
@@ -141,7 +141,7 @@ which is equivalent to
 $$
 
 
-a \equiv b \: (\textrm{mod} \: 10) \quad\Rightarrow\quad a+7 \equiv b+7 \: (\textrm{mod} \: 10).
+a \equiv b \: (\text{mod} \: 10) \quad\Rightarrow\quad a+7 \equiv b+7 \: (\text{mod} \: 10).
 
 
 $$
@@ -153,7 +153,7 @@ The contrapositive of the statement is
 $$
 
 
-a \equiv b \: (\textrm{mod} \: 10) \quad\Rightarrow\quad a+7 \equiv b+7 \: (\textrm{mod} \: 10).
+a \equiv b \: (\text{mod} \: 10) \quad\Rightarrow\quad a+7 \equiv b+7 \: (\text{mod} \: 10).
 
 
 $$
@@ -165,14 +165,14 @@ We start by using the definition of congruence modulo $n.$ Recall that
 $$
 
 
-a \equiv b \: (\textrm{mod} \: n) \quad\Leftrightarrow\quad n \mid (a-b) \quad\Leftrightarrow\quad a-b = nk
+a \equiv b \: (\text{mod} \: n) \quad\Leftrightarrow\quad n \mid (a-b) \quad\Leftrightarrow\quad a-b = nk
 
 
 $$
 
 for some integer $k.$ So, we can reason as follows:
 
-Since $a \equiv b \: (\textrm{mod} \: 10),$ by the definition of modular congruence,
+Since $a \equiv b \: (\text{mod} \: 10),$ by the definition of modular congruence,
 
 $$
 
@@ -203,7 +203,7 @@ Therefore, according to the definition of modular congruence, we have
 $$
 
 
-a+7 \equiv b+7 \: (\textrm{mod} \: 10).
+a+7 \equiv b+7 \: (\text{mod} \: 10).
 
 
 $$
@@ -214,7 +214,7 @@ By proving the contrapositive, we proved the initial statement, as required.
 
 #### Question
 
-Let $a$ and $b$ be integers. Prove that if $a \not\equiv b \: (\textrm{mod} \: 3),$ then $4a \not\equiv 4b \: (\textrm{mod} \: 12).$
+Let $a$ and $b$ be integers. Prove that if $a \not\equiv b \: (\text{mod} \: 3),$ then $4a \not\equiv 4b \: (\text{mod} \: 12).$
 
 #### Explanation
 
@@ -225,7 +225,7 @@ In this case, we need to show that
 $$
 
 
-\underbrace{a \not\equiv b \: (\textrm{mod} \: 3)}_{P} \quad\Rightarrow\quad \underbrace{4a \not\equiv 4b \: (\textrm{mod} \: 12)}_{Q}.
+\underbrace{a \not\equiv b \: (\text{mod} \: 3)}_{P} \quad\Rightarrow\quad \underbrace{4a \not\equiv 4b \: (\text{mod} \: 12)}_{Q}.
 
 
 $$
@@ -235,7 +235,7 @@ The contrapositive of the statement is
 $$
 
 
-\underbrace{\lnot \Big( 4a \not\equiv 4b \: (\textrm{mod} \: 12) \Big)}_{\lnot \, Q} \quad\Rightarrow\quad \underbrace{\lnot \Big( a \not\equiv b \: (\textrm{mod} \: 3) \Big)}_{\lnot \, P},
+\underbrace{\lnot \Big( 4a \not\equiv 4b \: (\text{mod} \: 12) \Big)}_{\lnot \, Q} \quad\Rightarrow\quad \underbrace{\lnot \Big( a \not\equiv b \: (\text{mod} \: 3) \Big)}_{\lnot \, P},
 
 
 $$
@@ -245,7 +245,7 @@ which is equivalent to
 $$
 
 
-4a \equiv 4b \: (\textrm{mod} \: 12) \quad\Rightarrow\quad a \equiv b \: (\textrm{mod} \: 3).
+4a \equiv 4b \: (\text{mod} \: 12) \quad\Rightarrow\quad a \equiv b \: (\text{mod} \: 3).
 
 
 $$
@@ -257,7 +257,7 @@ The contrapositive of the given statement is
 $$
 
 
-4a \equiv 4b \: (\textrm{mod} \: 12) \quad\Rightarrow\quad a \equiv b \: (\textrm{mod} \: 3).
+4a \equiv 4b \: (\text{mod} \: 12) \quad\Rightarrow\quad a \equiv b \: (\text{mod} \: 3).
 
 
 $$
@@ -269,7 +269,7 @@ We start by using the definition of modular congruence. Recall that
 $$
 
 
-a \equiv b \: (\textrm{mod} \: n) \quad\Leftrightarrow\quad n \mid (a-b) \quad\Leftrightarrow\quad a-b = nk
+a \equiv b \: (\text{mod} \: n) \quad\Leftrightarrow\quad n \mid (a-b) \quad\Leftrightarrow\quad a-b = nk
 
 
 $$
@@ -327,7 +327,7 @@ Therefore, according to the definition of modular congruence, we have
 $$
 
 
-a \equiv b \: (\textrm{mod} \: 3).
+a \equiv b \: (\text{mod} \: 3).
 
 
 $$

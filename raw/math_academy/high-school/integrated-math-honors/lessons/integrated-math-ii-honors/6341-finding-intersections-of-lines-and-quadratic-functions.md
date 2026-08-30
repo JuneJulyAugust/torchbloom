@@ -224,7 +224,7 @@ Now, we solve this equation using the quadratic formula with $a=1,\, b=-2,$ and 
 $$
 
 
-\begin{aligned}𝑥 & =\frac{−(−2)±\sqrt{√(−2)^{2}−4(1)(3−2𝑘)}}{2(1)} \\ & =\frac{2±\sqrt{√4−12+8𝑘}}{2} \\ & =\frac{2±\sqrt{√8𝑘−8}}{2}\end{aligned}
+\begin{aligned}𝑥 & =\frac{−(−2)±\sqrt{(−2)^{2}−4(1)(3−2𝑘)}}{2(1)} \\ & =\frac{2±\sqrt{4−12+8𝑘}}{2} \\ & =\frac{2±\sqrt{8𝑘−8}}{2}\end{aligned}
 
 
 $$

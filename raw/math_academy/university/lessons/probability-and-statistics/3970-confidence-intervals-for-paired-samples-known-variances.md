@@ -133,7 +133,7 @@ Let's see an example.
 
 #### Question
 
-A scientist is studying the effect of a new negative catalyst on $n=45$ chemical reactions. Suppose that $x_1,x_2,\ldots,x_{45}$ are the reaction times observed without the catalyst and $y_1,y_2,\ldots,y_{45}$ are the reaction times obtained with the catalyst. It is known that the differences $X_i - Y_i$ between the reaction times without and with the catalyst are I.I.D. random variables with population variance $\sigma^2=(22\,\textrm{min})^2.$ You're given that the sample means of these samples are $\overline x=36\,\textrm{min}$ and $\overline y=30\,\textrm{min}.$
+A scientist is studying the effect of a new negative catalyst on $n=45$ chemical reactions. Suppose that $x_1,x_2,\ldots,x_{45}$ are the reaction times observed without the catalyst and $y_1,y_2,\ldots,y_{45}$ are the reaction times obtained with the catalyst. It is known that the differences $X_i - Y_i$ between the reaction times without and with the catalyst are I.I.D. random variables with population variance $\sigma^2=(22\,\text{min})^2.$ You're given that the sample means of these samples are $\overline x=36\,\text{min}$ and $\overline y=30\,\text{min}.$
 
 Find a $95\%$ confidence interval for the population mean of $X_i-Y_i$ and interpret the result.
 
@@ -218,7 +218,7 @@ Consider the random variable
 $$
 
 
-\begin{aligned}𝑍 & =\frac{(\overset{𝑋}{}−\overset{𝑌}{})−𝜇}{\frac{𝜎}{\sqrt{√𝑛}}} \\ & =\frac{(\overset{𝑋}{}−\overset{𝑌}{})−𝜇}{(\frac{\sqrt{√3}}{\sqrt{√27}})} \\ & =\frac{(\overset{𝑋}{}−\overset{𝑌}{})−𝜇}{(\frac{1}{3})},\end{aligned}
+\begin{aligned}𝑍 & =\frac{(\overset{𝑋}{}−\overset{𝑌}{})−𝜇}{\frac{𝜎}{\sqrt{𝑛}}} \\ & =\frac{(\overset{𝑋}{}−\overset{𝑌}{})−𝜇}{(\frac{\sqrt{3}}{\sqrt{27}})} \\ & =\frac{(\overset{𝑋}{}−\overset{𝑌}{})−𝜇}{(\frac{1}{3})},\end{aligned}
 
 
 $$
@@ -336,7 +336,7 @@ Consider the random variable
 $$
 
 
-\begin{aligned}𝑍 & =\frac{(\overset{𝑋}{}−\overset{𝑌}{})−𝜇}{\frac{𝜎}{\sqrt{√𝑛}}} \\ & =\frac{(\overset{𝑋}{}−\overset{𝑌}{})−𝜇}{(\frac{\sqrt{√3}}{\sqrt{√27}})} \\ & =\frac{(\overset{𝑋}{}−\overset{𝑌}{})−𝜇}{(\frac{1}{3})},\end{aligned}
+\begin{aligned}𝑍 & =\frac{(\overset{𝑋}{}−\overset{𝑌}{})−𝜇}{\frac{𝜎}{\sqrt{𝑛}}} \\ & =\frac{(\overset{𝑋}{}−\overset{𝑌}{})−𝜇}{(\frac{\sqrt{3}}{\sqrt{27}})} \\ & =\frac{(\overset{𝑋}{}−\overset{𝑌}{})−𝜇}{(\frac{1}{3})},\end{aligned}
 
 
 $$

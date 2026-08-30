@@ -117,7 +117,7 @@ Setting the $x$-coordinates equal to each other and the $y$-coordinates equal to
 $$
 
 
-\begin{aligned}\begin{aligned}4=\frac{1+𝑎}{2} \\ 2=\frac{1+𝑏}{2}\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}4=\frac{1+𝑎}{2} \\ 2=\frac{1+𝑏}{2}\end{matrix}\end{aligned}
 
 
 $$
@@ -127,7 +127,7 @@ Multiplying both sides of the equations by $2,$ we have:
 $$
 
 
-\begin{aligned}\begin{aligned}8=1+𝑎 \\ 4=1+𝑏\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}8=1+𝑎 \\ 4=1+𝑏\end{matrix}\end{aligned}
 
 
 $$
@@ -137,7 +137,7 @@ Finally, we solve both equations independently:
 $$
 
 
-\begin{aligned}\begin{aligned}𝑎=8−1=7 \\ 𝑏=4−1=3.\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}𝑎=8−1=7 \\ 𝑏=4−1=3.\end{matrix}\end{aligned}
 
 
 $$
@@ -171,7 +171,7 @@ Equating the corresponding $x$- and $y$-coordinates in the equation above gives 
 $$
 
 
-\begin{aligned}\begin{aligned}−2=\frac{−1+𝑥}{2} \\ 7=\frac{3+𝑦}{2}\end{aligned}\,⇒\,\begin{aligned}𝑥=−3 \\ 𝑦=11.\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}−2=\frac{−1+𝑥}{2} \\ 7=\frac{3+𝑦}{2}\end{matrix}\,⇒\,\begin{matrix}𝑥=−3 \\ 𝑦=11.\end{matrix}\end{aligned}
 
 
 $$

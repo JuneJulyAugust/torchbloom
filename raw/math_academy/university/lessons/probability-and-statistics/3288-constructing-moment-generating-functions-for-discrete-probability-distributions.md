@@ -80,7 +80,7 @@ which is finite for every $t \in \mathbb{R}.$
 
 #### Question
 
-Find the moment-generating function $M(t)$ of $X\sim \textrm{Po}(2).$
+Find the moment-generating function $M(t)$ of $X\sim \text{Po}(2).$
 
 #### Explanation
 
@@ -96,7 +96,7 @@ $$
 
 where $S$ is the support of $X,$ and $f(x)$ is its probability mass function.
 
-Given that $X\sim \textrm{Po}(2),$ we have the following probability mass function:
+Given that $X\sim \text{Po}(2),$ we have the following probability mass function:
 
 $$
 
@@ -204,7 +204,7 @@ which is finite for every $t\in\mathbb R.$
 
 #### Question
 
-Find the moment-generating function $M(t)$ of $X\sim \textrm{Geom}(0.1).$
+Find the moment-generating function $M(t)$ of $X\sim \text{Geom}(0.1).$
 
 #### Explanation
 
@@ -220,7 +220,7 @@ $$
 
 where $S$ is the support of $X,$ and $f(x)$ is its probability mass function.
 
-Given that $X\sim \textrm{Geom}(0.1),$ we have the following probability mass function:
+Given that $X\sim \text{Geom}(0.1),$ we have the following probability mass function:
 
 $$
 
@@ -268,8 +268,8 @@ The table below gives the moment-generating functions $M(t)$ of some common disc
 
 We can make a few observations from this table:
 
-- Notice the similarity between the MGFs of the Bernoulli and binomial random variables. This is reflective of the relationship between the distributions: $\textrm{Bernoulli}(p)$ gives the probability of success after one Bernoulli trial, whereas $B(n,p)$ gives the probability of $x$ successes after $n$ Bernoulli trials.
+- Notice the similarity between the MGFs of the Bernoulli and binomial random variables. This is reflective of the relationship between the distributions: $\text{Bernoulli}(p)$ gives the probability of success after one Bernoulli trial, whereas $B(n,p)$ gives the probability of $x$ successes after $n$ Bernoulli trials.
 
-- Similarly, there is a similarity between the MGFs of the geometric and negative binomial distributions. Again, this is reflective of the relationship between the distributions: $\textrm{Geom}(p)$ gives the number of Bernoulli trials until the first success, whereas $\textrm{NB}(r,p)$ models the number of Bernoulli trials until the $r$th success.
+- Similarly, there is a similarity between the MGFs of the geometric and negative binomial distributions. Again, this is reflective of the relationship between the distributions: $\text{Geom}(p)$ gives the number of Bernoulli trials until the first success, whereas $\text{NB}(r,p)$ models the number of Bernoulli trials until the $r$th success.
 
 In a future lesson, we will discuss the precise relationships between these MGF pairs.

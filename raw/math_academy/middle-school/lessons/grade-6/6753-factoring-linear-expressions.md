@@ -22,7 +22,7 @@ A common situation is when two terms share a greatest common factor (GCF). To fa
 
 To demonstrate, let's factor the expression $32x + 12.$
 
-1. First, find the greatest common factor: $\textrm{GCF}(32x,12)=4.$ Since $32x = 4 \cdot 8x$ and $12 = 4\cdot 3,$ we separate that factor from each term as follows:
+1. First, find the greatest common factor: $\text{GCF}(32x,12)=4.$ Since $32x = 4 \cdot 8x$ and $12 = 4\cdot 3,$ we separate that factor from each term as follows:
 
 2. Now the factor $4$ is common to both terms, so we place it in front of the parentheses:
 
@@ -38,7 +38,7 @@ $32x+12=$
 
 We factor in two steps:
 
-1. Separate the greatest common factor from each of the terms. In this case, $\textrm{GCF}(32x, 12) = 4,$ so
+1. Separate the greatest common factor from each of the terms. In this case, $\text{GCF}(32x, 12) = 4,$ so
 
 2. Place the common factor in front of the parentheses, leaving whatever remains inside the parentheses:
 
@@ -54,7 +54,7 @@ $63x-36=$
 
 We factor in two steps:
 
-1. Separate the greatest common factor from each of the terms (ignoring any negative signs). In this case, $\textrm{GCF}(63x,36) = 9,$ so:
+1. Separate the greatest common factor from each of the terms (ignoring any negative signs). In this case, $\text{GCF}(63x,36) = 9,$ so:
 
 2. Place the common factor in front of the parentheses, leaving whatever remains inside the parentheses:
 
@@ -70,7 +70,7 @@ $4x+20y-12=$
 
 We factor in two steps:
 
-1. Separate the greatest common factor from each of the terms (ignoring any negative signs). In this case, $\textrm{GCF}(4x,20y,12) = 4,$ so
+1. Separate the greatest common factor from each of the terms (ignoring any negative signs). In this case, $\text{GCF}(4x,20y,12) = 4,$ so
 
 2. Place the common factor in front of the parentheses, leaving whatever remains inside the parentheses:
 

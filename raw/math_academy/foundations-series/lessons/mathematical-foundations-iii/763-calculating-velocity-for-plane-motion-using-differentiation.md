@@ -36,7 +36,7 @@ The particle's velocity vector is then given by the derivative of its position v
 $$
 
 
-\mathbf{v} = \frac{\textrm{d}\mathbf{r}}{\textrm{d}t} = \left\langle \frac{\textrm{d}x}{\textrm{d}t},\frac{\textrm{d}y}{\textrm{d}t} \right\rangle.
+\mathbf{v} = \frac{\text{d}\mathbf{r}}{\text{d}t} = \left\langle \frac{\text{d}x}{\text{d}t},\frac{\text{d}y}{\text{d}t} \right\rangle.
 
 
 $$
@@ -126,7 +126,7 @@ then its speed is given by the magnitude $|\mathbf{v}|,$ as follows:
 $$
 
 
-|\mathbf{v}| = \sqrt{ u^2 + v^2} = \sqrt{\left(\frac{\textrm{d}x}{\textrm{d}t}\right)^2 + \left(\frac{\textrm{d}y}{\textrm{d}t}\right)^2}
+|\mathbf{v}| = \sqrt{ u^2 + v^2} = \sqrt{\left(\frac{\text{d}x}{\text{d}t}\right)^2 + \left(\frac{\text{d}y}{\text{d}t}\right)^2}
 
 
 $$
@@ -174,7 +174,7 @@ To find the speed at $t=2$ we calculate the magnitude of $\mathbf{v}(2),$ and we
 $$
 
 
-\begin{aligned}|𝐯(2)| & =\sqrt{√24^{2}+24^{2}} \\ & =\sqrt{√2(24^{2})} \\ & =24\sqrt{√2}.\end{aligned}
+\begin{aligned}|𝐯(2)| & =\sqrt{24^{2}+24^{2}} \\ & =\sqrt{2(24^{2})} \\ & =24\sqrt{2}.\end{aligned}
 
 
 $$
@@ -193,7 +193,7 @@ $$
 
 $$
 
-Therefore, to find the times when a particle is stationary, we need to solve $\dfrac{\textrm{d}x}{\textrm{d}t} = 0$ and $\dfrac{\textrm{d}y}{\textrm{d}t} = 0$ simultaneously.
+Therefore, to find the times when a particle is stationary, we need to solve $\dfrac{\text{d}x}{\text{d}t} = 0$ and $\dfrac{\text{d}y}{\text{d}t} = 0$ simultaneously.
 
 ### Example: Calculating the Times at Which a Particle Is Stationary
 

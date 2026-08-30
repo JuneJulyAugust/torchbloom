@@ -19,7 +19,7 @@ For example, suppose we throw a die and define a "success" as the event of getti
 $$
 
 
-P(\textrm{six}) = \dfrac16, \qquad P(\textrm{not six}) = \dfrac56
+P(\text{six}) = \dfrac16, \qquad P(\text{not six}) = \dfrac56
 
 
 $$
@@ -69,7 +69,7 @@ If a random variable $X$ follows a geometric distribution, we say it is a geomet
 $$
 
 
-X\sim \textrm{Geom}(p).
+X\sim \text{Geom}(p).
 
 
 $$
@@ -81,7 +81,7 @@ Let $X$ be the number of times a fair die is thrown until we get a six. Since we
 $$
 
 
-X\sim \textrm{Geom}\left(\dfrac16\right).
+X\sim \text{Geom}\left(\dfrac16\right).
 
 
 $$
@@ -102,11 +102,11 @@ which agrees with our previous result.
 
 #### Question
 
-Given $X \sim \textrm{Geom}\left(\dfrac{2}{3}\right),$ compute $P(X = 3).$
+Given $X \sim \text{Geom}\left(\dfrac{2}{3}\right),$ compute $P(X = 3).$
 
 #### Explanation
 
-If $X \sim \textrm{Geom}(p),$ then $X$ has the following probability mass function:
+If $X \sim \text{Geom}(p),$ then $X$ has the following probability mass function:
 
 $$
 
@@ -116,7 +116,7 @@ $$
 
 $$
 
-Here, $X \sim \textrm{Geom}\left(\dfrac{2}{3}\right),$ so the distribution of $X$ in this case is
+Here, $X \sim \text{Geom}\left(\dfrac{2}{3}\right),$ so the distribution of $X$ in this case is
 
 $$
 
@@ -140,11 +140,11 @@ $$
 
 #### Question
 
-Given $X \sim \textrm{Geom}\left(\dfrac 37\right),$ compute $P(X < 5).$
+Given $X \sim \text{Geom}\left(\dfrac 37\right),$ compute $P(X < 5).$
 
 #### Explanation
 
-If $X \sim \textrm{Geom}(p),$ then $X$ has the following probability mass function:
+If $X \sim \text{Geom}(p),$ then $X$ has the following probability mass function:
 
 $$
 
@@ -154,7 +154,7 @@ $$
 
 $$
 
-Here, $X \sim \textrm{Geom}\left(\dfrac 37\right),$ so the distribution of $X$ in this case is
+Here, $X \sim \text{Geom}\left(\dfrac 37\right),$ so the distribution of $X$ in this case is
 
 $$
 
@@ -180,11 +180,11 @@ to $3$ decimal places.
 
 #### Question
 
-Given that $X \sim \textrm{Geom}\left(\dfrac 15\right),$ compute $P(2 \leq X \leq 3).$
+Given that $X \sim \text{Geom}\left(\dfrac 15\right),$ compute $P(2 \leq X \leq 3).$
 
 #### Explanation
 
-If $X \sim \textrm{Geom}(p),$ then $X$ has the following probability mass function:
+If $X \sim \text{Geom}(p),$ then $X$ has the following probability mass function:
 
 $$
 
@@ -194,7 +194,7 @@ $$
 
 $$
 
-Here, $X \sim \textrm{Geom}\left(\dfrac 15\right),$ so the distribution of $X$ in this case is
+Here, $X \sim \text{Geom}\left(\dfrac 15\right),$ so the distribution of $X$ in this case is
 
 $$
 
@@ -218,11 +218,11 @@ $$
 
 #### Question
 
-Given $X \sim \textrm{Geom}\left(\dfrac 56\right),$ compute $P(X > 2).$
+Given $X \sim \text{Geom}\left(\dfrac 56\right),$ compute $P(X > 2).$
 
 #### Explanation
 
-If $X \sim \textrm{Geom}(p),$ then $X$ has the following probability mass function:
+If $X \sim \text{Geom}(p),$ then $X$ has the following probability mass function:
 
 $$
 
@@ -232,7 +232,7 @@ $$
 
 $$
 
-Here, $X \sim \textrm{Geom}\left(\dfrac 56\right),$ so the distribution of $X$ in this case is
+Here, $X \sim \text{Geom}\left(\dfrac 56\right),$ so the distribution of $X$ in this case is
 
 $$
 
@@ -276,7 +276,7 @@ $$
 
 You might be wondering where the geometric distribution gets its name. The answer is that the probability mass function forms a geometric sequence!
 
-Suppose that $X\sim \textrm{Geom}(p).$ Then, the probability mass function for this geometric distribution is
+Suppose that $X\sim \text{Geom}(p).$ Then, the probability mass function for this geometric distribution is
 
 $$
 

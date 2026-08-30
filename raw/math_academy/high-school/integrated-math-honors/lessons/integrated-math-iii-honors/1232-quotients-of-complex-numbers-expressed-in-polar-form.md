@@ -11,7 +11,7 @@ Topic ID: 1232
 
 ### Introduction
 
-To compute the quotient of two complex numbers $z_1 = {\color{blue}r_1} \left[\cos({\color{blue}\theta_1}) + \textrm{i} \sin({\color{blue}\theta_1}) \right]$ and $z_2 = {\color{red}r_2} \left[\cos({\color{red}\theta_2}) + \textrm{i} \sin({\color{red}\theta_2}) \right]$ expressed in polar form, we can use the following formula:
+To compute the quotient of two complex numbers $z_1 = {\color{blue}r_1} \left[\cos({\color{blue}\theta_1}) + \text{i} \sin({\color{blue}\theta_1}) \right]$ and $z_2 = {\color{red}r_2} \left[\cos({\color{red}\theta_2}) + \text{i} \sin({\color{red}\theta_2}) \right]$ expressed in polar form, we can use the following formula:
 
 $$
 
@@ -46,7 +46,7 @@ By evaluating the sine and cosine, we can get the expression in Cartesian form:
 $$
 
 
-\begin{aligned}\frac{𝑧_{1}}{𝑧_{2}} & =2[(\frac{1}{2})+i(\frac{\sqrt{√3}}{2})] \\ & =1+\sqrt{√3}\,i\end{aligned}
+\begin{aligned}\frac{𝑧_{1}}{𝑧_{2}} & =2[(\frac{1}{2})+i(\frac{\sqrt{3}}{2})] \\ & =1+\sqrt{3}\,i\end{aligned}
 
 
 $$
@@ -57,7 +57,7 @@ $$
 
 #### Question
 
-If $z_1=2\left[\cos \left(\dfrac{5\pi}{6} \right) +\textrm{i}\sin \left(\dfrac{5\pi}{6} \right) \right]$ and $z_2=4\left[\cos \left(\dfrac{\pi}{2} \right) +\textrm{i}\sin \left(\dfrac{\pi}{2} \right) \right],$ find the quotient $\dfrac{z_1}{z_2}.$
+If $z_1=2\left[\cos \left(\dfrac{5\pi}{6} \right) +\text{i}\sin \left(\dfrac{5\pi}{6} \right) \right]$ and $z_2=4\left[\cos \left(\dfrac{\pi}{2} \right) +\text{i}\sin \left(\dfrac{\pi}{2} \right) \right],$ find the quotient $\dfrac{z_1}{z_2}.$
 
 #### Explanation
 
@@ -86,7 +86,7 @@ By evaluating the sine and cosine, we can get the expression in Cartesian form:
 $$
 
 
-\begin{aligned}\frac{𝑧_{1}}{𝑧_{2}} & =\frac{1}{2}[\frac{1}{2}+i(\frac{\sqrt{√3}}{2})] \\ & =\frac{1}{4}+\frac{\sqrt{√3}}{4}i\end{aligned}
+\begin{aligned}\frac{𝑧_{1}}{𝑧_{2}} & =\frac{1}{2}[\frac{1}{2}+i(\frac{\sqrt{3}}{2})] \\ & =\frac{1}{4}+\frac{\sqrt{3}}{4}i\end{aligned}
 
 
 $$
@@ -95,7 +95,7 @@ $$
 
 #### Question
 
-Calculate the quotient $\dfrac{z_1}{z_2}$ given that $z_1=6\left[\cos \left(\dfrac{\pi}{12} \right) +\textrm{i}\sin \left(\dfrac{\pi}{12}\right) \right]$ and $z_2=4\left[\cos\left(-\dfrac{\pi}{6}\right)+\textrm{i}\sin\left(-\dfrac{\pi}{6}\right)\right].$
+Calculate the quotient $\dfrac{z_1}{z_2}$ given that $z_1=6\left[\cos \left(\dfrac{\pi}{12} \right) +\text{i}\sin \left(\dfrac{\pi}{12}\right) \right]$ and $z_2=4\left[\cos\left(-\dfrac{\pi}{6}\right)+\text{i}\sin\left(-\dfrac{\pi}{6}\right)\right].$
 
 #### Explanation
 
@@ -124,14 +124,14 @@ By evaluating the sine and cosine, we can get the expression in Cartesian form:
 $$
 
 
-\begin{aligned}\frac{𝑧_{1}}{𝑧_{2}} & =\frac{3}{2}[\frac{\sqrt{√2}}{2}+i(\frac{\sqrt{√2}}{2})] \\ & =\frac{3\sqrt{√2}}{4}+\frac{3\sqrt{√2}}{4}i\end{aligned}
+\begin{aligned}\frac{𝑧_{1}}{𝑧_{2}} & =\frac{3}{2}[\frac{\sqrt{2}}{2}+i(\frac{\sqrt{2}}{2})] \\ & =\frac{3\sqrt{2}}{4}+\frac{3\sqrt{2}}{4}i\end{aligned}
 
 
 $$
 
 ### Justification for the Formula
 
-To compute the quotient of two complex numbers $z_1 = r_1 \left[\cos(\theta_1) + \textrm{i} \sin(\theta_1) \right]$ and $z_2 = r_2 \left[\cos(\theta_2) + \textrm{i} \sin(\theta_2) \right]$ expressed in polar form, we have been using the following formula:
+To compute the quotient of two complex numbers $z_1 = r_1 \left[\cos(\theta_1) + \text{i} \sin(\theta_1) \right]$ and $z_2 = r_2 \left[\cos(\theta_2) + \text{i} \sin(\theta_2) \right]$ expressed in polar form, we have been using the following formula:
 
 $$
 
@@ -146,7 +146,7 @@ To see why the formula works, let's compute the quotient manually:
 $$
 
 
-\begin{aligned}\frac{𝑧_{1}}{𝑧_{2}} & =\frac{𝑟_{1}[cos⁡(𝜃_{1})+isin⁡(𝜃_{1})]}{𝑟_{2}[cos⁡(𝜃_{2})+isin⁡(𝜃_{2})]} \\ & =\frac{𝑟_{1}}{𝑟_{2}}⋅\frac{cos⁡(𝜃_{1})+isin⁡(𝜃_{1})}{cos⁡(𝜃_{2})+isin⁡(𝜃_{2})}⋅\frac{cos⁡(𝜃_{2})−isin⁡(𝜃_{2})}{cos⁡(𝜃_{2})−isin⁡(𝜃_{2})} \\ & =\frac{𝑟_{1}}{𝑟_{2}}⋅\frac{\overset{\overset{[cos⁡(𝜃_{1})cos⁡(𝜃_{2})+sin⁡(𝜃_{1})sin⁡(𝜃_{2})]}{}}{cos⁡(𝜃_{1}−𝜃_{2})}+i\overset{\overset{[sin⁡(𝜃_{1})cos⁡(𝜃_{2})−cos⁡(𝜃_{1})sin⁡(𝜃_{2})]}{}}{sin⁡(𝜃_{1}−𝜃_{2})}}{cos^{2}⁡(𝜃_{2})+sin^{2}⁡(𝜃_{2})} \\ & =\frac{𝑟_{1}}{𝑟_{2}}⋅\frac{cos⁡(𝜃_{1}−𝜃_{2})+isin⁡(𝜃_{1}−𝜃_{2})}{1} \\ & =\frac{𝑟_{1}}{𝑟_{2}}[cos⁡(𝜃_{1}−𝜃_{2})+isin⁡(𝜃_{1}−𝜃_{2})]\end{aligned}
+\begin{aligned}\frac{𝑧_{1}}{𝑧_{2}} & =\frac{𝑟_{1}[cos⁡(𝜃_{1})+isin⁡(𝜃_{1})]}{𝑟_{2}[cos⁡(𝜃_{2})+isin⁡(𝜃_{2})]} \\ & =\frac{𝑟_{1}}{𝑟_{2}}⋅\frac{cos⁡(𝜃_{1})+isin⁡(𝜃_{1})}{cos⁡(𝜃_{2})+isin⁡(𝜃_{2})}⋅\frac{cos⁡(𝜃_{2})−isin⁡(𝜃_{2})}{cos⁡(𝜃_{2})−isin⁡(𝜃_{2})} \\ & =\frac{𝑟_{1}}{𝑟_{2}}⋅\frac{\overset{[cos⁡(𝜃_{1})cos⁡(𝜃_{2})+sin⁡(𝜃_{1})sin⁡(𝜃_{2})]}{}}{cos⁡(𝜃_{1}−𝜃_{2})}+i\overset{[sin⁡(𝜃_{1})cos⁡(𝜃_{2})−cos⁡(𝜃_{1})sin⁡(𝜃_{2})]}{}}{sin⁡(𝜃_{1}−𝜃_{2})}}{cos^{2}⁡(𝜃_{2})+sin^{2}⁡(𝜃_{2})} \\ & =\frac{𝑟_{1}}{𝑟_{2}}⋅\frac{cos⁡(𝜃_{1}−𝜃_{2})+isin⁡(𝜃_{1}−𝜃_{2})}{1} \\ & =\frac{𝑟_{1}}{𝑟_{2}}[cos⁡(𝜃_{1}−𝜃_{2})+isin⁡(𝜃_{1}−𝜃_{2})]\end{aligned}
 
 
 $$

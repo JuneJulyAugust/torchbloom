@@ -212,7 +212,7 @@ Then we have
 $$
 
 
-\begin{aligned}∫_{∞1}^{}\frac{1}{𝑥}\,d𝑥 & =\underset{𝑏→∞}{lim}[ln⁡𝑥]_{𝑏1}^{} \\ & =\underset{𝑏→∞}{lim}(ln⁡𝑏−ln⁡1) \\ & =∞,\end{aligned}
+\begin{aligned}∫_{∞1}\frac{1}{𝑥}\,d𝑥 & =\underset{𝑏→∞}{lim}[ln⁡𝑥]_{𝑏1} \\ & =\underset{𝑏→∞}{lim}(ln⁡𝑏−ln⁡1) \\ & =∞,\end{aligned}
 
 
 $$
@@ -250,7 +250,7 @@ On the other hand, if $p \neq 1,$ then we have
 $$
 
 
-\begin{aligned}∫_{∞1}^{}\frac{1}{𝑥^{𝑝}}\,d𝑥 & =\underset{𝑏→∞}{lim}∫_{𝑏1}^{}𝑥^{−𝑝}\,d𝑥 \\ & =\underset{𝑏→∞}{lim}[\frac{𝑥^{−𝑝+1}}{−𝑝+1}]_{𝑏1}^{} \\ & =\underset{𝑏→∞}{lim}[\frac{1}{(1−𝑝)𝑥^{𝑝−1}}]_{𝑏1}^{} \\ & =\underset{𝑏→∞}{lim}(\frac{1}{(1−𝑝)𝑏^{𝑝−1}}−\frac{1}{(1−𝑝)}) \\ & =\frac{1}{1−𝑝}\underset{𝑏→∞}{lim}[\frac{1}{𝑏^{𝑝−1}}]−\frac{1}{(1−𝑝)},\end{aligned}
+\begin{aligned}∫_{∞1}\frac{1}{𝑥^{𝑝}}\,d𝑥 & =\underset{𝑏→∞}{lim}∫_{𝑏1}𝑥^{−𝑝}\,d𝑥 \\ & =\underset{𝑏→∞}{lim}[\frac{𝑥^{−𝑝+1}}{−𝑝+1}]_{𝑏1} \\ & =\underset{𝑏→∞}{lim}[\frac{1}{(1−𝑝)𝑥^{𝑝−1}}]_{𝑏1} \\ & =\underset{𝑏→∞}{lim}(\frac{1}{(1−𝑝)𝑏^{𝑝−1}}−\frac{1}{(1−𝑝)}) \\ & =\frac{1}{1−𝑝}\underset{𝑏→∞}{lim}[\frac{1}{𝑏^{𝑝−1}}]−\frac{1}{(1−𝑝)},\end{aligned}
 
 
 $$

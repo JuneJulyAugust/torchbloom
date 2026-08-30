@@ -45,7 +45,7 @@ $$
 
 
 
-\begin{aligned}𝑇𝐱 & =[\begin{aligned}−2 & 1 \\ 0 & −2\end{aligned}][\begin{aligned}1 \\ 1\end{aligned}] \\ & =[\begin{aligned}−1 \\ −2\end{aligned}]\end{aligned}
+\begin{aligned}𝑇𝐱 & =[\begin{matrix}−2 & 1 \\ 0 & −2\end{matrix}][\begin{matrix}1 \\ 1\end{matrix}] \\ & =[\begin{matrix}−1 \\ −2\end{matrix}]\end{aligned}
 
 
 
@@ -91,7 +91,7 @@ $$
 
 
 
-\begin{aligned}𝑇𝐱 & =[\begin{aligned}3 & 1 \\ −4 & −1\end{aligned}][\begin{aligned}2 \\ −3\end{aligned}] \\ & =[\begin{aligned}3 \\ −5\end{aligned}].\end{aligned}
+\begin{aligned}𝑇𝐱 & =[\begin{matrix}3 & 1 \\ −4 & −1\end{matrix}][\begin{matrix}2 \\ −3\end{matrix}] \\ & =[\begin{matrix}3 \\ −5\end{matrix}].\end{aligned}
 
 
 
@@ -165,7 +165,7 @@ $$
 
 
 
-\begin{aligned}𝑇𝑋 & =[\begin{aligned}−1 & 0 \\ 3 & 1\end{aligned}][\begin{aligned}0 & 1 \\ −2 & 1\end{aligned}] \\ & =[\begin{aligned}0 & −1 \\ −2 & 4\end{aligned}]\end{aligned}
+\begin{aligned}𝑇𝑋 & =[\begin{matrix}−1 & 0 \\ 3 & 1\end{matrix}][\begin{matrix}0 & 1 \\ −2 & 1\end{matrix}] \\ & =[\begin{matrix}0 & −1 \\ −2 & 4\end{matrix}]\end{aligned}
 
 
 
@@ -237,7 +237,7 @@ $$
 
 
 
-\begin{aligned}𝑇𝑋 & =[\begin{aligned}−3 & 1 \\ −1 & 2\end{aligned}][\begin{aligned}0 & 1 \\ −3 & 2\end{aligned}] \\ & =[\begin{aligned}−3 & −1 \\ −6 & 3\end{aligned}]\end{aligned}
+\begin{aligned}𝑇𝑋 & =[\begin{matrix}−3 & 1 \\ −1 & 2\end{matrix}][\begin{matrix}0 & 1 \\ −3 & 2\end{matrix}] \\ & =[\begin{matrix}−3 & −1 \\ −6 & 3\end{matrix}]\end{aligned}
 
 
 

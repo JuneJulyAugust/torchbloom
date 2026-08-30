@@ -35,12 +35,12 @@ To calculate this area, we use a theorem known as the **fundamental theorem of c
 $$
 
 
-\int_a^b f(x)\,\textrm{d}x = F(b) - F(a).
+\int_a^b f(x)\,\text{d}x = F(b) - F(a).
 
 
 $$
 
-So how do we use this to calculate our definite integral $\displaystyle \int_1^2 x^2\,\textrm{d}x?$ We just need to follow a few steps:
+So how do we use this to calculate our definite integral $\displaystyle \int_1^2 x^2\,\text{d}x?$ We just need to follow a few steps:
 
 **Step 1**: Find the *indefinite* integral (also known as the antiderivative) of the function using the power rule. We can ignore the constant of integration.
 
@@ -67,7 +67,7 @@ $$
 $$
 
 
-\begin{aligned}∫_{21}^{}𝑥^{2}\,d𝑥 & =\frac{(2)^{3}}{3}−\frac{(1)^{3}}{3} \\ & =\frac{8}{3}−\frac{1}{3} \\ & =\frac{7}{3}.\end{aligned}
+\begin{aligned}∫_{21}𝑥^{2}\,d𝑥 & =\frac{(2)^{3}}{3}−\frac{(1)^{3}}{3} \\ & =\frac{8}{3}−\frac{1}{3} \\ & =\frac{7}{3}.\end{aligned}
 
 
 $$
@@ -77,7 +77,7 @@ Therefore, we conclude that
 $$
 
 
-\int_1^2 f(x)\,\textrm{d}x = \dfrac73.
+\int_1^2 f(x)\,\text{d}x = \dfrac73.
 
 
 $$
@@ -95,7 +95,7 @@ Taking the antiderivative and evaluating the difference at the bounds, we get
 $$
 
 
-\begin{aligned}∫_{40}^{}𝑥\,d𝑥 & =\frac{𝑥^{1+1}}{1+1}_{40}^{} \\ & =\frac{𝑥^{2}}{2}_{40}^{} \\ & =\frac{4^{2}}{2}−\frac{0^{2}}{2} \\ & =\frac{16}{2} \\ & =8.\end{aligned}
+\begin{aligned}∫_{40}𝑥\,d𝑥 & =\frac{𝑥^{1+1}}{1+1}_{40} \\ & =\frac{𝑥^{2}}{2}_{40} \\ & =\frac{4^{2}}{2}−\frac{0^{2}}{2} \\ & =\frac{16}{2} \\ & =8.\end{aligned}
 
 
 $$
@@ -113,7 +113,7 @@ Taking the antiderivative and evaluating the difference at the bounds, we get
 $$
 
 
-\begin{aligned}∫_{21}^{}\frac{1}{𝑥^{3}}\,d𝑥 & =∫_{21}^{}𝑥^{−3}\,d𝑥 \\ & =\frac{𝑥^{−3+1}}{−3+1}_{21}^{} \\ & =−\frac{𝑥^{−2}}{2}_{21}^{} \\ & =−\frac{1}{2}(2^{−2}−1^{−2}) \\ & =−\frac{1}{2}(\frac{1}{4}−1) \\ & =−\frac{1}{2}(−\frac{3}{4}) \\ & =\frac{3}{8}.\end{aligned}
+\begin{aligned}∫_{21}\frac{1}{𝑥^{3}}\,d𝑥 & =∫_{21}𝑥^{−3}\,d𝑥 \\ & =\frac{𝑥^{−3+1}}{−3+1}_{21} \\ & =−\frac{𝑥^{−2}}{2}_{21} \\ & =−\frac{1}{2}(2^{−2}−1^{−2}) \\ & =−\frac{1}{2}(\frac{1}{4}−1) \\ & =−\frac{1}{2}(−\frac{3}{4}) \\ & =\frac{3}{8}.\end{aligned}
 
 
 $$
@@ -131,7 +131,7 @@ Taking the antiderivative and evaluating the difference at the bounds, we get
 $$
 
 
-\begin{aligned}∫_{41}^{}\sqrt{√𝑥}\,d𝑥 & =∫_{41}^{}𝑥^{1/2}\,d𝑥 \\ & =\frac{2}{3}𝑥^{3/2}_{41}^{} \\ & =\frac{2}{3}(4^{3/2}−1^{3/2}) \\ & =\frac{2}{3}(\sqrt{√64}−1) \\ & =\frac{2}{3}(8−1) \\ & =\frac{14}{3}.\end{aligned}
+\begin{aligned}∫_{41}\sqrt{𝑥}\,d𝑥 & =∫_{41}𝑥^{1/2}\,d𝑥 \\ & =\frac{2}{3}𝑥^{3/2}_{41} \\ & =\frac{2}{3}(4^{3/2}−1^{3/2}) \\ & =\frac{2}{3}(\sqrt{64}−1) \\ & =\frac{2}{3}(8−1) \\ & =\frac{14}{3}.\end{aligned}
 
 
 $$

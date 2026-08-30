@@ -152,7 +152,7 @@ In any neighborhood of a saddle point $\mathbf a,$ there are points $\mathbf{x}$
 $$
 
 
-f(\mathbf{x}) - f(\mathbf a) >0 \quad \textrm{and} \quad f(\mathbf{x}') - f(\mathbf a) <0.
+f(\mathbf{x}) - f(\mathbf a) >0 \quad \text{and} \quad f(\mathbf{x}') - f(\mathbf a) <0.
 
 
 $$

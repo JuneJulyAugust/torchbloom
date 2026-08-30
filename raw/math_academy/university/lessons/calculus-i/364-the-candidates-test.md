@@ -98,7 +98,7 @@ and solving $f'(x)=0,$ we get
 $$
 
 
-\begin{aligned}4𝑥^{3}−12𝑥 & =0 \\ 4𝑥(𝑥^{2}−3) & =0 \\ 4𝑥(𝑥+\sqrt{√3})(𝑥−\sqrt{√3}) & =0 \\ 𝑥 & =0,±\sqrt{√3}.\end{aligned}
+\begin{aligned}4𝑥^{3}−12𝑥 & =0 \\ 4𝑥(𝑥^{2}−3) & =0 \\ 4𝑥(𝑥+\sqrt{3})(𝑥−\sqrt{3}) & =0 \\ 𝑥 & =0,±\sqrt{3}.\end{aligned}
 
 
 $$
@@ -112,7 +112,7 @@ Finally, we evaluate $f$ at the critical points:
 $$
 
 
-\begin{aligned} f(-1) & = (-1)^4 - 6(-1)^2 = -5\\\[5pt] f(0) & = (0)^4 - 6(0)^2 = 0\\\[5pt] f(\sqrt 3) & = (\sqrt 3)^4 - 6(\sqrt 3)^2 = -9\\\[5pt] f(3) & = (3)^4 - 6(3)^2 = 27 \\\end{aligned}
+\begin{aligned} f(-1) & = (-1)^4 - 6(-1)^2 = -5\\[5pt] f(0) & = (0)^4 - 6(0)^2 = 0\\[5pt] f(\sqrt 3) & = (\sqrt 3)^4 - 6(\sqrt 3)^2 = -9\\[5pt] f(3) & = (3)^4 - 6(3)^2 = 27 \\\end{aligned}
 
 
 $$

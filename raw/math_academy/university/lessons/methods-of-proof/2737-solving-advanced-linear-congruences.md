@@ -60,7 +60,7 @@ $$
 
 $$
 
-Therefore, the solutions are $x\equiv 2, 5$ only $(\textrm{mod}\:6).$
+Therefore, the solutions are $x\equiv 2, 5$ only $(\text{mod}\:6).$
 
 ### Determining the Number of Solutions of a Linear Congruence
 
@@ -74,11 +74,11 @@ ax \equiv b \qquad (\text{mod}\:n)
 
 $$
 
-all depends on $\textrm{gcd}(a,n)\mathbin{:}$
+all depends on $\text{gcd}(a,n)\mathbin{:}$
 
-- If $\textrm{gcd}(a,n) \not\mid b,$ then the congruence has no solutions.
+- If $\text{gcd}(a,n) \not\mid b,$ then the congruence has no solutions.
 
-- If $\textrm{gcd}(a,n) \: | \:b,$ then the congruence has exactly $\textrm{gcd}(a,n)$ solutions in the interval $0 \leq x \leq n-1.$
+- If $\text{gcd}(a,n) \: | \:b,$ then the congruence has exactly $\text{gcd}(a,n)$ solutions in the interval $0 \leq x \leq n-1.$
 
 We can summarize these rules using a flow chart, as shown below.
 
@@ -136,7 +136,7 @@ Recall the following facts regarding the congruence $ax \equiv b \:(\text{mod}\:
 
 - The congruence has no solutions modulo $n$ if and only if
 
-- The congruence has $\textrm{gcd}(a,n)$ solutions modulo $n$ if and only if
+- The congruence has $\text{gcd}(a,n)$ solutions modulo $n$ if and only if
 
 With that in mind, let's examine our congruences.
 
@@ -160,7 +160,7 @@ ax \equiv b \qquad (\text{mod}\:n)
 
 $$
 
-In cases where $\textrm{gcd}(a,n) > 1$ and $\textrm{gcd}(a,n) \mid b,$ it's possible to reduce the congruence to a simpler congruence with a unique solution. However, the solution to the simpler congruence is only *part* of the solution to the original congruence. An extra step is needed to find the complete solution.
+In cases where $\text{gcd}(a,n) > 1$ and $\text{gcd}(a,n) \mid b,$ it's possible to reduce the congruence to a simpler congruence with a unique solution. However, the solution to the simpler congruence is only *part* of the solution to the original congruence. An extra step is needed to find the complete solution.
 
 To demonstrate, let's find all the solutions to the following congruence:
 
@@ -252,7 +252,7 @@ $$
 
 This means our congruence has a unique solution modulo $5.$
 
-To find the solution, we need to multiply both sides of the equation by the multiplicative inverse of $2\,(\textrm{mod}\:5).$ To find the inverse of $2\,(\textrm{mod}\:5),$ we compute the exponents of $2\,(\textrm{mod}\:5)$ until we get a result of $1 \,(\textrm{mod}\:5)\mathbin{:}$
+To find the solution, we need to multiply both sides of the equation by the multiplicative inverse of $2\,(\text{mod}\:5).$ To find the inverse of $2\,(\text{mod}\:5),$ we compute the exponents of $2\,(\text{mod}\:5)$ until we get a result of $1 \,(\text{mod}\:5)\mathbin{:}$
 
 $$
 
@@ -262,7 +262,7 @@ $$
 
 $$
 
-So, $2 \cdot 3 \equiv 1 \:(\textrm{mod}\:5),$ which means that $3$ is the multiplicative inverse of $2$ (modulo $5$).
+So, $2 \cdot 3 \equiv 1 \:(\text{mod}\:5),$ which means that $3$ is the multiplicative inverse of $2$ (modulo $5$).
 
 Now, multiplying both sides of our congruence by $3,$ we get the following:
 
@@ -342,14 +342,14 @@ $$
 
 So, our congruence has a unique solution modulo $149.$
 
-To find the solution, we must multiply both sides of the equation by the multiplicative inverse of $25\,(\textrm{mod}\:149).$ To find the inverse of $25\,(\textrm{mod}\:149),$ we apply the extended Euclidean algorithm.
+To find the solution, we must multiply both sides of the equation by the multiplicative inverse of $25\,(\text{mod}\:149).$ To find the inverse of $25\,(\text{mod}\:149),$ we apply the extended Euclidean algorithm.
 
 First, we apply the forward reduction:
 
 $$
 
 
-\begin{aligned}\begin{aligned}149 & = & 25⋅5 & + & 24\, & ⇔ & \,24 & = & 149−25⋅5 \\ & ↙ & & ↙ & & & & & \\ 25 & = & 24⋅1 & + & 1\, & ⇔ & \,1 & = & 25−24⋅1 \\ & ↙ & & ↙ & & & & & \\ 24 & = & 24⋅1 & + & 0\, & ⇔ & \,0 & = & 14−14⋅1\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}149 & = & 25⋅5 & + & 24\, & ⇔ & \,24 & = & 149−25⋅5 \\ & ↙ & & ↙ & & & & & \\ 25 & = & 24⋅1 & + & 1\, & ⇔ & \,1 & = & 25−24⋅1 \\ & ↙ & & ↙ & & & & & \\ 24 & = & 24⋅1 & + & 0\, & ⇔ & \,0 & = & 14−14⋅1\end{matrix}\end{aligned}
 
 
 $$

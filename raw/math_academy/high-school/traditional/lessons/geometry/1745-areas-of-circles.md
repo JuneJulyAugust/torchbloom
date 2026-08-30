@@ -23,7 +23,7 @@ $$
 
 $$
 
-To demonstrate, let's find the area of a circle that has a radius of $3\textrm{cm}.$
+To demonstrate, let's find the area of a circle that has a radius of $3\text{cm}.$
 
 ![Instructional graphic](../../../../lesson-assets/geometry/topic-1745/d49a08591ad1e5e0.png)
 
@@ -60,7 +60,7 @@ Substituting the radius $r=\sqrt 2,$ we have
 $$
 
 
-\begin{aligned}A & =𝜋𝑟^{2} \\ & =𝜋⋅(\sqrt{√2})^{2} \\ & =𝜋⋅2 \\ & =2𝜋.\end{aligned}
+\begin{aligned}A & =𝜋𝑟^{2} \\ & =𝜋⋅(\sqrt{2})^{2} \\ & =𝜋⋅2 \\ & =2𝜋.\end{aligned}
 
 
 $$
@@ -91,7 +91,7 @@ $$
 
 #### Question
 
-Given that the area of a circle is $22\pi\,\textrm{cm}^2,$ what is its radius?
+Given that the area of a circle is $22\pi\,\text{cm}^2,$ what is its radius?
 
 #### Explanation
 
@@ -100,7 +100,7 @@ The formula for the area of a circle is $\mathcal{A}=\pi r^2$, where $r$ is the 
 $$
 
 
-\begin{aligned}A & =𝜋𝑟^{2} \\ 22𝜋 & =𝜋𝑟^{2} \\ 22𝜋 & =𝜋𝑟^{2} \\ 𝑟^{2} & =22 \\ 𝑟 & =\sqrt{√22}\,cm.\end{aligned}
+\begin{aligned}A & =𝜋𝑟^{2} \\ 22𝜋 & =𝜋𝑟^{2} \\ 22𝜋 & =𝜋𝑟^{2} \\ 𝑟^{2} & =22 \\ 𝑟 & =\sqrt{22}\,cm.\end{aligned}
 
 
 $$
@@ -109,7 +109,7 @@ $$
 
 #### Question
 
-The window in the attic of Mary's house has the shape of a quarter circle, as shown below. If the area of ​​the window is $\dfrac{\pi}{2}\,\textrm{m}^2,$ what is the diameter of the corresponding circle?
+The window in the attic of Mary's house has the shape of a quarter circle, as shown below. If the area of ​​the window is $\dfrac{\pi}{2}\,\text{m}^2,$ what is the diameter of the corresponding circle?
 
 ![Instructional graphic](../../../../lesson-assets/geometry/topic-1745/2735577cdec983c8.png)
 
@@ -120,7 +120,7 @@ The area of the circle is four times the area of the quarter section. So,
 $$
 
 
-\mathcal{A}=4\cdot \dfrac{\pi}{2} =2\pi\,\textrm{m}^2.
+\mathcal{A}=4\cdot \dfrac{\pi}{2} =2\pi\,\text{m}^2.
 
 
 $$
@@ -130,7 +130,7 @@ The formula for the area of a circle is $\mathcal{A}=\pi r^2$, where $r$ is the 
 $$
 
 
-\begin{aligned}A & =𝜋𝑟^{2} \\ 2𝜋 & =𝜋𝑟^{2} \\ 2𝜋 & =𝜋𝑟^{2} \\ 2 & =𝑟^{2} \\ 𝑟 & =\sqrt{√2}\,m.\end{aligned}
+\begin{aligned}A & =𝜋𝑟^{2} \\ 2𝜋 & =𝜋𝑟^{2} \\ 2𝜋 & =𝜋𝑟^{2} \\ 2 & =𝑟^{2} \\ 𝑟 & =\sqrt{2}\,m.\end{aligned}
 
 
 $$
@@ -140,7 +140,7 @@ Finally, the diameter is
 $$
 
 
-d=2\cdot r= 2\cdot \sqrt{2}=2\sqrt{2}\,\textrm{m} .
+d=2\cdot r= 2\cdot \sqrt{2}=2\sqrt{2}\,\text{m} .
 
 
 $$

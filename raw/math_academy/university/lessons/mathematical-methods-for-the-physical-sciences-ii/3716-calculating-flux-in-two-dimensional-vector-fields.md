@@ -17,7 +17,7 @@ Let $\mathbf F = P\,\mathbf i + Q\,\mathbf j$ be a vector field on $\mathbb R^2$
 $$
 
 
-\oint\limits_C \mathbf F \cdot \mathbf{n} \: \textrm{d}s.
+\oint\limits_C \mathbf F \cdot \mathbf{n} \: \text{d}s.
 
 
 $$
@@ -29,7 +29,7 @@ In practice, we often use the following alternative formula to calculate the flu
 $$
 
 
-\oint\limits_C \mathbf F \cdot \mathbf{n} \: \textrm{d}s = \oint\limits_C P\,\textrm{d}y- Q\,\textrm{d}x
+\oint\limits_C \mathbf F \cdot \mathbf{n} \: \text{d}s = \oint\limits_C P\,\text{d}y- Q\,\text{d}x
 
 
 $$
@@ -51,7 +51,7 @@ If $\mathbf{F} = P\,\mathbf i + Q\,\mathbf j$ is a vector field and $C$ is a pie
 $$
 
 
-\oint\limits_C \mathbf F \cdot \mathbf{n} \: \textrm{d}s = \oint\limits_{C}P\,\textrm d y - Q\,\textrm d x,
+\oint\limits_C \mathbf F \cdot \mathbf{n} \: \text{d}s = \oint\limits_{C}P\,\textrm d y - Q\,\textrm d x,
 
 
 $$
@@ -93,7 +93,7 @@ Finally, we evaluate the integral as follows:
 $$
 
 
-\begin{aligned}\underset{𝐶}{∮}𝐅⋅𝐧\,d𝑠 & =\underset{𝐶}{∮}𝑃\,d𝑦−𝑄\,d𝑥 \\ & =∫_{2𝜋0}^{}(𝑃⋅\frac{d𝑦}{d𝑡}−𝑄⋅\frac{d𝑥}{d𝑡})d𝑡 \\ & =∫_{2𝜋0}^{}(4(sin⁡𝑡−cos⁡𝑡))⋅(4cos⁡𝑡)−(−4(cos⁡𝑡+sin⁡𝑡))⋅(−4sin⁡𝑡)\,d𝑡 \\ & =16∫_{2𝜋0}^{}sin⁡𝑡cos⁡𝑡−cos^{2}⁡𝑡−sin⁡𝑡cos⁡𝑡−sin^{2}⁡𝑡\,d𝑡 \\ & =16∫_{2𝜋0}^{}(−1)\,d𝑡 \\ & =−16𝑡_{2𝜋0}^{} \\ & =−16(2𝜋−0) \\ & =−32𝜋\end{aligned}
+\begin{aligned}\underset{𝐶}{∮}𝐅⋅𝐧\,d𝑠 & =\underset{𝐶}{∮}𝑃\,d𝑦−𝑄\,d𝑥 \\ & =∫_{2𝜋0}(𝑃⋅\frac{d𝑦}{d𝑡}−𝑄⋅\frac{d𝑥}{d𝑡})d𝑡 \\ & =∫_{2𝜋0}(4(sin⁡𝑡−cos⁡𝑡))⋅(4cos⁡𝑡)−(−4(cos⁡𝑡+sin⁡𝑡))⋅(−4sin⁡𝑡)\,d𝑡 \\ & =16∫_{2𝜋0}sin⁡𝑡cos⁡𝑡−cos^{2}⁡𝑡−sin⁡𝑡cos⁡𝑡−sin^{2}⁡𝑡\,d𝑡 \\ & =16∫_{2𝜋0}(−1)\,d𝑡 \\ & =−16𝑡_{2𝜋0} \\ & =−16(2𝜋−0) \\ & =−32𝜋\end{aligned}
 
 
 $$
@@ -111,7 +111,7 @@ If $\mathbf{F} = P\,\mathbf i + Q\,\mathbf j$ is a vector field and $C$ is a pie
 $$
 
 
-\oint\limits_C \mathbf F \cdot \mathbf{n} \: \textrm{d}s = \oint\limits_{C}P\,\textrm d y - Q\,\textrm d x,
+\oint\limits_C \mathbf F \cdot \mathbf{n} \: \text{d}s = \oint\limits_{C}P\,\textrm d y - Q\,\textrm d x,
 
 
 $$
@@ -173,7 +173,7 @@ Finally, we evaluate the integral using the substitution $u=\cos t, \textrm d u 
 $$
 
 
-\begin{aligned}\underset{𝐶}{∮}𝐅⋅𝐧\,d𝑠 & =\underset{𝐶}{∮}𝑃\,d𝑦−𝑄\,d𝑥 \\ & =∫_{2𝜋0}^{}(𝑃⋅\frac{d𝑦}{d𝑡}−𝑄⋅\frac{d𝑥}{d𝑡})d𝑡 \\ & =∫_{2𝜋0}^{}(3sin⁡𝑡cos⁡𝑡)⋅(3cos⁡𝑡)−(cos^{2}⁡𝑡)⋅(−sin⁡𝑡)\,d𝑡 \\ & =∫_{2𝜋0}^{}9sin⁡𝑡cos^{2}⁡𝑡+sin⁡𝑡cos^{2}⁡𝑡\,d𝑡 \\ & =∫_{2𝜋0}^{}10sin⁡𝑡cos^{2}⁡𝑡\,d𝑡 \\ & =−∫_{11}^{}10𝑢^{2}\,d𝑢 \\ & =0\end{aligned}
+\begin{aligned}\underset{𝐶}{∮}𝐅⋅𝐧\,d𝑠 & =\underset{𝐶}{∮}𝑃\,d𝑦−𝑄\,d𝑥 \\ & =∫_{2𝜋0}(𝑃⋅\frac{d𝑦}{d𝑡}−𝑄⋅\frac{d𝑥}{d𝑡})d𝑡 \\ & =∫_{2𝜋0}(3sin⁡𝑡cos⁡𝑡)⋅(3cos⁡𝑡)−(cos^{2}⁡𝑡)⋅(−sin⁡𝑡)\,d𝑡 \\ & =∫_{2𝜋0}9sin⁡𝑡cos^{2}⁡𝑡+sin⁡𝑡cos^{2}⁡𝑡\,d𝑡 \\ & =∫_{2𝜋0}10sin⁡𝑡cos^{2}⁡𝑡\,d𝑡 \\ & =−∫_{11}10𝑢^{2}\,d𝑢 \\ & =0\end{aligned}
 
 
 $$
@@ -201,7 +201,7 @@ Finally, to calculate the flux of $\mathbf{F}$ across a non-closed curve $C,$ we
 $$
 
 
-\int\limits_C \mathbf F \cdot \mathbf{n} \: \textrm{d}s = \int\limits_{C}P\,\textrm d y - Q\,\textrm d x.
+\int\limits_C \mathbf F \cdot \mathbf{n} \: \text{d}s = \int\limits_{C}P\,\textrm d y - Q\,\textrm d x.
 
 
 $$
@@ -223,7 +223,7 @@ If $\mathbf{F} = P\,\mathbf i + Q\,\mathbf j$ is a vector field and $C$ is a pie
 $$
 
 
-\int\limits_C \mathbf F \cdot \mathbf{n} \: \textrm{d}s = \int\limits_{C}P\,\textrm d y - Q\,\textrm d x.
+\int\limits_C \mathbf F \cdot \mathbf{n} \: \text{d}s = \int\limits_{C}P\,\textrm d y - Q\,\textrm d x.
 
 
 $$
@@ -273,7 +273,7 @@ Finally, we evaluate the integral as follows:
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}𝐅⋅𝐧\,d𝑠 & =\underset{𝐶}{∫}𝑃\,d𝑦−𝑄\,d𝑥 \\ & =∫_{40}^{}(𝑃⋅\frac{d𝑦}{d𝑡}−𝑄⋅\frac{d𝑥}{d𝑡})d𝑡 \\ & =∫_{40}^{}(−2)⋅(\frac{𝑡}{2})−(𝑡)⋅(1)\,d𝑡 \\ & =∫_{40}^{}−2𝑡\,d𝑡 \\ & =−𝑡^{2}_{40}^{} \\ & =−16−0 \\ & =−16\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}𝐅⋅𝐧\,d𝑠 & =\underset{𝐶}{∫}𝑃\,d𝑦−𝑄\,d𝑥 \\ & =∫_{40}(𝑃⋅\frac{d𝑦}{d𝑡}−𝑄⋅\frac{d𝑥}{d𝑡})d𝑡 \\ & =∫_{40}(−2)⋅(\frac{𝑡}{2})−(𝑡)⋅(1)\,d𝑡 \\ & =∫_{40}−2𝑡\,d𝑡 \\ & =−𝑡^{2}_{40} \\ & =−16−0 \\ & =−16\end{aligned}
 
 
 $$
@@ -285,7 +285,7 @@ Let's now derive the following formula for the flux:
 $$
 
 
-\oint\limits_C \mathbf F \cdot \mathbf{n} \: \textrm{d}s = \oint\limits_C P\,\textrm{d}y- Q\,\textrm{d}x
+\oint\limits_C \mathbf F \cdot \mathbf{n} \: \text{d}s = \oint\limits_C P\,\text{d}y- Q\,\text{d}x
 
 
 $$

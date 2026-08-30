@@ -120,7 +120,7 @@ Given the vector $[\begin{aligned}𝑥 \\ 𝑦\end{aligned}]$ we have
 $$
 
 
-\begin{aligned}\begin{aligned}−8 & −5 \\ −3 & −6 \\ −4 & 5\end{aligned}⋅[\begin{aligned}𝑥 \\ 𝑦\end{aligned}] & =\begin{aligned}−8𝑥−5𝑦 \\ −3𝑥−6𝑦 \\ −4𝑥+5𝑦\end{aligned} \\ & =\begin{aligned}−5𝑦−8𝑥 \\ −3𝑥−6𝑦 \\ 5𝑦−4𝑥\end{aligned}.\end{aligned}
+\begin{aligned}\begin{matrix}−8 & −5 \\ −3 & −6 \\ −4 & 5\end{matrix}⋅[\begin{matrix}𝑥 \\ 𝑦\end{matrix}] & =\begin{matrix}−8𝑥−5𝑦 \\ −3𝑥−6𝑦 \\ −4𝑥+5𝑦\end{matrix} \\ & =\begin{matrix}−5𝑦−8𝑥 \\ −3𝑥−6𝑦 \\ 5𝑦−4𝑥\end{matrix}.\end{aligned}
 
 
 $$
@@ -158,7 +158,7 @@ Using the fact that $\,\mathbf{T}(\mathbf{v})=T\cdot \mathbf{v},$ we get
 $$
 
 
-\begin{aligned}𝐓(𝐯) & =𝑇⋅𝐯 \\ & =[\begin{aligned}1 & −1 & 2 \\ 3 & 0 & 1\end{aligned}]⋅\begin{aligned}2 \\ 3 \\ 1\end{aligned} \\ & =[\begin{aligned}1 \\ 7\end{aligned}].\end{aligned}
+\begin{aligned}𝐓(𝐯) & =𝑇⋅𝐯 \\ & =[\begin{matrix}1 & −1 & 2 \\ 3 & 0 & 1\end{matrix}]⋅\begin{matrix}2 \\ 3 \\ 1\end{matrix} \\ & =[\begin{matrix}1 \\ 7\end{matrix}].\end{aligned}
 
 
 $$

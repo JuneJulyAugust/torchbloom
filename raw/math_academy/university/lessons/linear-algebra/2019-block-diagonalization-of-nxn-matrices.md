@@ -125,7 +125,7 @@ $$
 
 Notice that swapping the blocks on the main diagonal of $B$ will result in switching the corresponding columns in $P.$
 
-- From our block diagonal matrix we deduce the complex eigenvalues are ${\color{blue}\lambda_{1,2}=1 \pm 3\textrm{i}}$ and the real eigenvalue is ${\color{red}\lambda_3=-3}.$
+- From our block diagonal matrix we deduce the complex eigenvalues are ${\color{blue}\lambda_{1,2}=1 \pm 3\text{i}}$ and the real eigenvalue is ${\color{red}\lambda_3=-3}.$
 
 - From our matrix we deduce that the complex and real eigenvectors are
 
@@ -162,7 +162,7 @@ To compute the eigenvalues of $A,$ we solve the characteristic equation as follo
 $$
 
 
-\begin{aligned}det(𝐴−𝜆𝐼) & =0 \\ \begin{aligned}−2−𝜆 & 0 & 1 \\ 3 & −1−𝜆 & 5 \\ −1 & 0 & −2−𝜆\end{aligned} & =0 \\ (−1−𝜆)((−2−𝜆)^{2}−1(−1)) & =0 \\ (−1−𝜆)(𝜆^{2}+4𝜆+5) & =0\end{aligned}
+\begin{aligned}det(𝐴−𝜆𝐼) & =0 \\ \begin{matrix}−2−𝜆 & 0 & 1 \\ 3 & −1−𝜆 & 5 \\ −1 & 0 & −2−𝜆\end{matrix} & =0 \\ (−1−𝜆)((−2−𝜆)^{2}−1(−1)) & =0 \\ (−1−𝜆)(𝜆^{2}+4𝜆+5) & =0\end{aligned}
 
 
 $$
@@ -172,7 +172,7 @@ So, the real eigenvalue is $\lambda_1={\color{red}-1}.$ Now, using the quadratic
 $$
 
 
-\begin{aligned}𝜆_{2,3} & =\frac{−4±\sqrt{√(4)^{2}−4⋅1⋅5}}{2} \\ & =\frac{−4±\sqrt{√−4}}{2} \\ & =\frac{−4±2i}{2} \\ & =−2±i.\end{aligned}
+\begin{aligned}𝜆_{2,3} & =\frac{−4±\sqrt{(4)^{2}−4⋅1⋅5}}{2} \\ & =\frac{−4±\sqrt{−4}}{2} \\ & =\frac{−4±2i}{2} \\ & =−2±i.\end{aligned}
 
 
 $$
@@ -201,7 +201,7 @@ $$
 
 $$
 
-The vectors $\mathbf{v}_1$ and $\mathbf{v}_2$ are the eigenvectors of a matrix $A$ corresponding to the eigenvalues $\lambda_1=2$ and $\lambda_2=1-\textrm{i},$ respectively. Given that $A=PBP^{-1},$ find the matrix $P.$
+The vectors $\mathbf{v}_1$ and $\mathbf{v}_2$ are the eigenvectors of a matrix $A$ corresponding to the eigenvalues $\lambda_1=2$ and $\lambda_2=1-\text{i},$ respectively. Given that $A=PBP^{-1},$ find the matrix $P.$
 
 #### Explanation
 
@@ -255,7 +255,7 @@ where the blocks of $B$ are either:
 
 - $2\!\times\! 2$ blocks containing the rotation-scaling matrices corresponding to the complex (not real) eigenvalues of $A.$
 
-The columns of $P$ form bases of the eigenspaces for the real eigenvectors, or come in the pairs $\left(\textrm{Re}(\mathbf{v}), \textrm{Im}(\mathbf{v})\right)$ for the non-real eigenvectors.
+The columns of $P$ form bases of the eigenspaces for the real eigenvectors, or come in the pairs $\left(\text{Re}(\mathbf{v}), \text{Im}(\mathbf{v})\right)$ for the non-real eigenvectors.
 
 Let's see an example of block diagonalization for higher-dimensional matrices.
 
@@ -273,7 +273,7 @@ $$
 
 $$
 
-The vectors $\mathbf{v}_1$ and $\mathbf{v}_3$ are the eigenvectors of a matrix $A$ corresponding to the eigenvalues $\lambda_1=7 + 4\textrm{i}$ and $\lambda_3=-3 + 2\textrm{i},$ respectively. Given that $A=PBP^{-1},$ find a possible matrix $P.$
+The vectors $\mathbf{v}_1$ and $\mathbf{v}_3$ are the eigenvectors of a matrix $A$ corresponding to the eigenvalues $\lambda_1=7 + 4\text{i}$ and $\lambda_3=-3 + 2\text{i},$ respectively. Given that $A=PBP^{-1},$ find a possible matrix $P.$
 
 #### Explanation
 

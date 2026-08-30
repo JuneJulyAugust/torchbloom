@@ -39,7 +39,7 @@ Generally, the $k$th theoretical moment, denoted $\mu_k,$ is defined as
 $$
 
 
-\mu_k = \textrm{E}[X_i^k] = \sum_{x\in S} x^k \cdot p(x).
+\mu_k = \text{E}[X_i^k] = \sum_{x\in S} x^k \cdot p(x).
 
 
 $$
@@ -95,7 +95,7 @@ To find the **method of moments estimator** for some population parameters, we e
 $$
 
 
-\textrm{E}[X_i] = M_1, \qquad \textrm{E}[X_i^2] = M_2, \qquad \textrm{E}[X_i^3] = M_3, \qquad \ldots
+\text{E}[X_i] = M_1, \qquad \text{E}[X_i^2] = M_2, \qquad \text{E}[X_i^3] = M_3, \qquad \ldots
 
 
 $$
@@ -221,7 +221,7 @@ The variables $X_i$ follow a Bernoulli distribution. Therefore,
 $$
 
 
-\textrm{E}[X_i] = \theta, \qquad \textrm{Var}[X_i] = \theta(1-\theta).
+\text{E}[X_i] = \theta, \qquad \text{Var}[X_i] = \theta(1-\theta).
 
 
 $$
@@ -231,7 +231,7 @@ We also have
 $$
 
 
-\textrm{Var}[X_i] = \textrm{E}[X^2_i] - \left(\textrm{E}[X_i]\right)^2.
+\text{Var}[X_i] = \text{E}[X^2_i] - \left(\text{E}[X_i]\right)^2.
 
 
 $$
@@ -241,7 +241,7 @@ Therefore, we can calculate the second theoretical moment as follows:
 $$
 
 
-\begin{aligned}E[𝑋_{2𝑖}^{}] & =Var[𝑋_{𝑖}]+(E[𝑋_{𝑖}])^{2} \\ & =𝜃(1−𝜃)+𝜃^{2} \\ & =𝜃−𝜃^{2}+𝜃^{2} \\ & =𝜃\end{aligned}
+\begin{aligned}E[𝑋_{2𝑖}] & =Var[𝑋_{𝑖}]+(E[𝑋_{𝑖}])^{2} \\ & =𝜃(1−𝜃)+𝜃^{2} \\ & =𝜃−𝜃^{2}+𝜃^{2} \\ & =𝜃\end{aligned}
 
 
 $$
@@ -260,7 +260,7 @@ $$
 
 #### Question
 
-Suppose $X_1,X_2,\ldots,X_{12}$ is an I.I.D. random sample with $X_i\sim \textrm{Po}(\theta)$ and unknown rate parameter $\theta.$ For a particular sample $x_1, x_2, \ldots, x_{12},$ you're given that
+Suppose $X_1,X_2,\ldots,X_{12}$ is an I.I.D. random sample with $X_i\sim \text{Po}(\theta)$ and unknown rate parameter $\theta.$ For a particular sample $x_1, x_2, \ldots, x_{12},$ you're given that
 
 $$
 
@@ -311,7 +311,7 @@ The variables $X_i$ follow a Poisson distribution. Therefore,
 $$
 
 
-\textrm{E}[X_i] = \theta, \qquad \textrm{Var}[X_i] = \theta.
+\text{E}[X_i] = \theta, \qquad \text{Var}[X_i] = \theta.
 
 
 $$
@@ -321,7 +321,7 @@ We also have
 $$
 
 
-\textrm{Var}[X_i] = \textrm{E}[X^2_i] - \left(\textrm{E}[X_i]\right)^2.
+\text{Var}[X_i] = \text{E}[X^2_i] - \left(\text{E}[X_i]\right)^2.
 
 
 $$
@@ -331,7 +331,7 @@ Therefore, we can calculate the second theoretical moment as follows:
 $$
 
 
-\begin{aligned}E[𝑋_{2𝑖}^{}] & =Var[𝑋_{𝑖}]+(E[𝑋_{𝑖}])^{2} \\ & =𝜃+𝜃^{2}\end{aligned}
+\begin{aligned}E[𝑋_{2𝑖}] & =Var[𝑋_{𝑖}]+(E[𝑋_{𝑖}])^{2} \\ & =𝜃+𝜃^{2}\end{aligned}
 
 
 $$
@@ -351,7 +351,7 @@ Then, we solve for $\widehat{\theta}_{MM}{:}$
 $$
 
 
-\begin{aligned}\overset{𝜃}{ˆ}_{2𝑀𝑀}^{}+\overset{𝜃}{ˆ}_{𝑀𝑀} & =30 \\ \overset{𝜃}{ˆ}_{2𝑀𝑀}^{}+\overset{𝜃}{ˆ}_{𝑀𝑀}−30 & =0 \\ (\overset{𝜃}{ˆ}_{𝑀𝑀}+6)(\overset{𝜃}{ˆ}_{𝑀𝑀}−5) & =0\end{aligned}
+\begin{aligned}\overset{𝜃}{ˆ}_{2𝑀𝑀}+\overset{𝜃}{ˆ}_{𝑀𝑀} & =30 \\ \overset{𝜃}{ˆ}_{2𝑀𝑀}+\overset{𝜃}{ˆ}_{𝑀𝑀}−30 & =0 \\ (\overset{𝜃}{ˆ}_{𝑀𝑀}+6)(\overset{𝜃}{ˆ}_{𝑀𝑀}−5) & =0\end{aligned}
 
 
 $$
@@ -431,7 +431,7 @@ We are given that the variables $X_i$ follow a Geometric distribution. Therefore
 $$
 
 
-\textrm{E}[X_i] = \dfrac{1}{\theta}, \qquad \textrm{Var}[X_i] = \dfrac{1-\theta}{\theta^2}.
+\text{E}[X_i] = \dfrac{1}{\theta}, \qquad \text{Var}[X_i] = \dfrac{1-\theta}{\theta^2}.
 
 
 $$
@@ -441,7 +441,7 @@ We also have
 $$
 
 
-\textrm{Var}[X_i] = \textrm{E}[X^2_i] - \left(\textrm{E}[X_i]\right)^2.
+\text{Var}[X_i] = \text{E}[X^2_i] - \left(\text{E}[X_i]\right)^2.
 
 
 $$
@@ -451,7 +451,7 @@ Therefore, we can calculate the second theoretical moment as follows:
 $$
 
 
-\begin{aligned}E[𝑋_{2𝑖}^{}] & =Var[𝑋_{𝑖}]+(E[𝑋_{𝑖}])^{2} \\ & =\frac{1−𝜃}{𝜃^{2}}+\frac{1}{𝜃^{2}} \\ & =\frac{2−𝜃}{𝜃^{2}}\end{aligned}
+\begin{aligned}E[𝑋_{2𝑖}] & =Var[𝑋_{𝑖}]+(E[𝑋_{𝑖}])^{2} \\ & =\frac{1−𝜃}{𝜃^{2}}+\frac{1}{𝜃^{2}} \\ & =\frac{2−𝜃}{𝜃^{2}}\end{aligned}
 
 
 $$
@@ -471,7 +471,7 @@ Then, we solve for $\widehat{\theta}_{MM}{:}$
 $$
 
 
-\begin{aligned}\frac{2−\overset{𝜃}{ˆ}_{𝑀𝑀}}{\overset{𝜃}{ˆ}_{2𝑀𝑀}^{}} & =2 \\ 2−\overset{𝜃}{ˆ}_{𝑀𝑀} & =2\overset{𝜃}{ˆ}_{2𝑀𝑀}^{} \\ 2\overset{𝜃}{ˆ}_{2𝑀𝑀}^{}+\overset{𝜃}{ˆ}_{𝑀𝑀}−2 & =0 \\ \overset{𝜃}{ˆ}_{𝑀𝑀} & =\frac{−1±\sqrt{√1^{2}−4(2)(−2)}}{2⋅2}\end{aligned}
+\begin{aligned}\frac{2−\overset{𝜃}{ˆ}_{𝑀𝑀}}{\overset{𝜃}{ˆ}_{2𝑀𝑀}} & =2 \\ 2−\overset{𝜃}{ˆ}_{𝑀𝑀} & =2\overset{𝜃}{ˆ}_{2𝑀𝑀} \\ 2\overset{𝜃}{ˆ}_{2𝑀𝑀}+\overset{𝜃}{ˆ}_{𝑀𝑀}−2 & =0 \\ \overset{𝜃}{ˆ}_{𝑀𝑀} & =\frac{−1±\sqrt{1^{2}−4(2)(−2)}}{2⋅2}\end{aligned}
 
 
 $$
@@ -551,7 +551,7 @@ We are given that the variables $X_i$ follow an Exponential distribution. Theref
 $$
 
 
-\textrm{E}[X_i] = \dfrac{1}{\theta}.
+\text{E}[X_i] = \dfrac{1}{\theta}.
 
 
 $$
@@ -585,7 +585,7 @@ The $k$th theoretical moment, denoted $\mu_k,$ is defined as
 $$
 
 
-\mu_k = \textrm{E}[X_i^k] = \sum_{x\in S} x^k \cdot p(x)
+\mu_k = \text{E}[X_i^k] = \sum_{x\in S} x^k \cdot p(x)
 
 
 $$
@@ -615,7 +615,7 @@ We can show this is true using the properties of expectation:
 $$
 
 
-\begin{aligned}E[𝑀_{𝑘}] & =E[\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑋_{𝑘𝑖}^{}] \\ & =\frac{1}{𝑛}⋅E[\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑋_{𝑘𝑖}^{}] \\ & =\frac{1}{𝑛}⋅(E[𝑋_{𝑘1}^{}]+𝐸[𝑋_{𝑘2}^{}]+⋯+𝐸[𝑋_{𝑘𝑛}^{}]) \\ & =\frac{1}{𝑛}⋅\underset{𝑛 times}{\underset{}{(𝜇_{𝑘}+𝜇_{𝑘}+⋯+𝜇_{𝑘})}} \\ & =\frac{1}{𝑛}⋅𝑛𝜇_{𝑘} \\ & =𝜇_{𝑘}\end{aligned}
+\begin{aligned}E[𝑀_{𝑘}] & =E[\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑋_{𝑘𝑖}] \\ & =\frac{1}{𝑛}⋅E[\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑋_{𝑘𝑖}] \\ & =\frac{1}{𝑛}⋅(E[𝑋_{𝑘1}]+𝐸[𝑋_{𝑘2}]+⋯+𝐸[𝑋_{𝑘𝑛}]) \\ & =\frac{1}{𝑛}⋅\underset{𝑛 times}{\underset{}{(𝜇_{𝑘}+𝜇_{𝑘}+⋯+𝜇_{𝑘})}} \\ & =\frac{1}{𝑛}⋅𝑛𝜇_{𝑘} \\ & =𝜇_{𝑘}\end{aligned}
 
 
 $$
@@ -631,7 +631,7 @@ The law of large numbers states that as the sample size $n$ becomes larger and l
 $$
 
 
-\overline{X} \to \mu_1 \quad \textrm{as}\quad n\to\infty
+\overline{X} \to \mu_1 \quad \text{as}\quad n\to\infty
 
 
 $$
@@ -643,12 +643,12 @@ First, recall that if the population mean and variance are $\mu_1$ and $\sigma^2
 $$
 
 
-\textrm E[\overline X] = \mu_1, \qquad \textrm{Var}[\overline X] = \dfrac{\sigma^2}{n}.
+\textrm E[\overline X] = \mu_1, \qquad \text{Var}[\overline X] = \dfrac{\sigma^2}{n}.
 
 
 $$
 
-Now, as $n\to\infty,$ we have that $\textrm{Var}[\overline X] \to 0$ since the denominator increases without bound.
+Now, as $n\to\infty,$ we have that $\text{Var}[\overline X] \to 0$ since the denominator increases without bound.
 
 We can visualize what happens to $\overline{X}$ as $n\to\infty$ by conducting the following experiment:
 
@@ -709,7 +709,7 @@ Thus, by the law of large numbers,
 $$
 
 
-N_1 \to \textrm E[Y_i] \quad \textrm{as}\quad n\to\infty
+N_1 \to \textrm E[Y_i] \quad \text{as}\quad n\to\infty
 
 
 $$
@@ -719,7 +719,7 @@ and writing this in terms of $X_i,$ we get
 $$
 
 
-\dfrac{1}{n}\sum_{i=1}^n X_i^2 \to \textrm E[X_i^2] \quad \textrm{as}\quad n\to\infty.
+\dfrac{1}{n}\sum_{i=1}^n X_i^2 \to \textrm E[X_i^2] \quad \text{as}\quad n\to\infty.
 
 
 $$
@@ -729,7 +729,7 @@ In other words,
 $$
 
 
-M_2 \to \mu_2 \quad \textrm{as}\quad n\to\infty.
+M_2 \to \mu_2 \quad \text{as}\quad n\to\infty.
 
 
 $$

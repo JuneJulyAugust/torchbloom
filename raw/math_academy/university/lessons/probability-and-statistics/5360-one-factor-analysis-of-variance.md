@@ -166,7 +166,7 @@ Also, recall that
 $$
 
 
-\textrm{SST} = \sum_{k=1}^K\sum_{j=1}^{n_k} (X_{jk} - \overline{X})^2, \qquad \text{SSW} = \sum_{k=1}^K \sum_{j=1}^{n_k} (X_{jk} - \overline{X}_k)^2, \qquad \text{SSB} = \sum_{k=1}^K n_k (\overline{X}_k - \overline{X})^2.
+\text{SST} = \sum_{k=1}^K\sum_{j=1}^{n_k} (X_{jk} - \overline{X})^2, \qquad \text{SSW} = \sum_{k=1}^K \sum_{j=1}^{n_k} (X_{jk} - \overline{X}_k)^2, \qquad \text{SSB} = \sum_{k=1}^K n_k (\overline{X}_k - \overline{X})^2.
 
 
 $$
@@ -186,7 +186,7 @@ We can use this result to find the distribution of $\text{SST}/\sigma^2.$ Since
 $$
 
 
-\textrm{SST} = (n-1)S^2
+\text{SST} = (n-1)S^2
 
 
 $$
@@ -196,7 +196,7 @@ it follows that
 $$
 
 
-\dfrac{\textrm{SST}}{\sigma^2} = \dfrac{(n-1)S^2}{\sigma^2}\sim \chi^2(n-1).
+\dfrac{\text{SST}}{\sigma^2} = \dfrac{(n-1)S^2}{\sigma^2}\sim \chi^2(n-1).
 
 
 $$
@@ -263,9 +263,9 @@ We conduct the test as follows:
 
 - Since this is a hypothesis test, we must choose an appropriate significance level. So, let's choose
 
-- Since we want to know whether the test statistic exceeds a certain threshold, the one factor ANOVA test is *always right-tailed*. Using a Fisher's $F$-distribution table, the critical value for $\nu_1=4,$ $\nu_2=75$ at a $5\%$ significance level is $f_{\textrm{critical}}=2.494,$ and the critical region is as shown below.
+- Since we want to know whether the test statistic exceeds a certain threshold, the one factor ANOVA test is *always right-tailed*. Using a Fisher's $F$-distribution table, the critical value for $\nu_1=4,$ $\nu_2=75$ at a $5\%$ significance level is $f_{\text{critical}}=2.494,$ and the critical region is as shown below.
 
-Our test statistic $(8.857)$ lies inside the critical region. Therefore, there is $\boxed{\color{blue}\textrm{sufficient}}$ evidence to reject the null hypothesis.
+Our test statistic $(8.857)$ lies inside the critical region. Therefore, there is $\boxed{\color{blue}\text{sufficient}}$ evidence to reject the null hypothesis.
 
 In other words, the population means varies by group.
 
@@ -275,15 +275,15 @@ In other words, the population means varies by group.
 
 The marketing team of an advertising agency evaluates the effectiveness of three different online advertising strategies: Strategy A, Strategy B, and Strategy C. The customer engagement times for each strategy are assumed to follow a normal distribution with respective means $\mu_1,$ $\mu_2,$ and $\mu_3,$ all having the same variance $\sigma^2.$ The team conducts a hypothesis test at a $10\%$ significance level to test the hypothesis $\mu_1=\mu_2=\mu_3,$ against the alternative hypothesis that at least one mean differs from the others.
 
-Independent random samples are conducted with $15$ customers engaged by Strategy A, $20$ customers engaged by Strategy B, and $24$ customers engaged by Strategy C. It is found that $\textrm{SSB}=42\,\textrm{min}^2$ and $\textrm{SSW}=308\,\textrm{min}^2.$
+Independent random samples are conducted with $15$ customers engaged by Strategy A, $20$ customers engaged by Strategy B, and $24$ customers engaged by Strategy C. It is found that $\text{SSB}=42\,\text{min}^2$ and $\text{SSW}=308\,\text{min}^2.$
 
 The table below gives the values of $x$ that satisfy $P(X\gt x) = 10\%,$ where $X\sim F(\nu_1, \nu_2).$
 
 Using this information, fill in the following missing entries.
 
-- The $F$-ratio for this test is approximately $\boxed{\phantom{\textrm{3.818}}}.$
+- The $F$-ratio for this test is approximately $\boxed{\phantom{\mathrm{3.818}}}.$
 
-- At the $10\%$ level of significance, there is $\boxed{\phantom{\textrm{sufficient}}}$ evidence that at least one mean differs from the others.
+- At the $10\%$ level of significance, there is $\boxed{\phantom{\mathrm{sufficient}}}$ evidence that at least one mean differs from the others.
 
 #### Explanation
 
@@ -314,7 +314,7 @@ Furthermore, recall that
 $$
 
 
-\textrm{MSB} = \dfrac{\textrm{SSB}}{df_B}, \qquad \textrm{MSW} = \dfrac{\textrm{SSW}}{df_W}
+\text{MSB} = \dfrac{\text{SSB}}{df_B}, \qquad \text{MSW} = \dfrac{\text{SSW}}{df_W}
 
 
 $$
@@ -356,7 +356,7 @@ Therefore, we have that $W\sim F(2,56),$ and
 $$
 
 
-\textrm{MSB} = \dfrac{42}{2} = 21, \qquad \textrm{MSW} = \dfrac{308}{56} = 5.5.
+\text{MSB} = \dfrac{42}{2} = 21, \qquad \text{MSW} = \dfrac{308}{56} = 5.5.
 
 
 $$

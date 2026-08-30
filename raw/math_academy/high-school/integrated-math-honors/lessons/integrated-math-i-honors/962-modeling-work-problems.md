@@ -28,7 +28,7 @@ For example, suppose an employee washes cars at a rate of $3$ cars per hour, and
 
 More generally, if an employee washes cars at a rate of $3$ cars per hour and works for $t$ hours, then they wash a total of $3t$ cars. The number $3t$ represents the total output of the employee's work.
 
-It's important to remember that the units of rate and time must match for the formula to apply. In this case, the units of $\textrm{rate}$ and $\textrm{time}$ are "cars per hour" and "hours," respectively.
+It's important to remember that the units of rate and time must match for the formula to apply. In this case, the units of $\text{rate}$ and $\text{time}$ are "cars per hour" and "hours," respectively.
 
 We can use these ideas to model situations where two people or machines work at different rates. Let's see an example.
 

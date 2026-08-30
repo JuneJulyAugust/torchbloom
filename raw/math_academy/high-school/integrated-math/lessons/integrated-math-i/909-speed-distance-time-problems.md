@@ -51,15 +51,15 @@ So, the cars drive past each other after about $3.2$ hours.
 
 #### Question
 
-John and Mary leave their office simultaneously, heading directly away from each other. If John is walking at $7\,\textrm{km/hr}$ and Mary walks at $5\,\textrm{km/hr}$, how long will it take for them to be $3\,\textrm{km}$ apart?
+John and Mary leave their office simultaneously, heading directly away from each other. If John is walking at $7\,\text{km/hr}$ and Mary walks at $5\,\text{km/hr}$, how long will it take for them to be $3\,\text{km}$ apart?
 
 #### Explanation
 
-Let $T$ be the time it takes for John and Mary to be $3\,\textrm{km}$ apart.
+Let $T$ be the time it takes for John and Mary to be $3\,\text{km}$ apart.
 
 We fill in a speed-time-distance table:
 
-After $T$ hours, they will have traveled a combined distance of $3\,\textrm{km}$. Therefore, we can set the sum of the distances equal to $3$ and solve for time:
+After $T$ hours, they will have traveled a combined distance of $3\,\text{km}$. Therefore, we can set the sum of the distances equal to $3$ and solve for time:
 
 $$
 
@@ -71,7 +71,7 @@ $$
 
 $$
 
-It will take $\dfrac{1}{4}$ hours for John and Mary to be $3\,\textrm{km}$ apart. If we convert this time to minutes, we get
+It will take $\dfrac{1}{4}$ hours for John and Mary to be $3\,\text{km}$ apart. If we convert this time to minutes, we get
 
 $$
 
@@ -83,7 +83,7 @@ $$
 
 $$
 
-Therefore, it will take $15$ minutes for them to be $3\,\textrm{km}$ apart.
+Therefore, it will take $15$ minutes for them to be $3\,\text{km}$ apart.
 
 ### Example: Modeling Two Objects Traveling in Opposite Directions and Different Start Times
 

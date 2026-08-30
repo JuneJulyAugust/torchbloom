@@ -34,7 +34,7 @@ Notice that the probability density of the continuous uniform distribution on $[
 $$
 
 
-\begin{aligned}∫_{𝑏𝑎}^{}\frac{1}{𝑏−𝑎}\,d𝑥 & =\frac{𝑥}{𝑏−𝑎}_{𝑏𝑎}^{} \\ & =\frac{𝑏−𝑎}{𝑏−𝑎} \\ & =1\,✓\end{aligned}
+\begin{aligned}∫_{𝑏𝑎}\frac{1}{𝑏−𝑎}\,d𝑥 & =\frac{𝑥}{𝑏−𝑎}_{𝑏𝑎} \\ & =\frac{𝑏−𝑎}{𝑏−𝑎} \\ & =1\,✓\end{aligned}
 
 
 $$
@@ -84,7 +84,7 @@ So, we have
 $$
 
 
-\begin{aligned}𝑃(𝑋≤7) & =𝑃(0≤𝑋≤7) \\ & =∫_{70}^{}𝑓(𝑥)\,d𝑥 \\ & =∫_{70}^{}\frac{1}{10}\,d𝑥 \\ & =\frac{7−0}{10} \\ & =\frac{7}{10}.\end{aligned}
+\begin{aligned}𝑃(𝑋≤7) & =𝑃(0≤𝑋≤7) \\ & =∫_{70}𝑓(𝑥)\,d𝑥 \\ & =∫_{70}\frac{1}{10}\,d𝑥 \\ & =\frac{7−0}{10} \\ & =\frac{7}{10}.\end{aligned}
 
 
 $$
@@ -122,7 +122,7 @@ So, we have
 $$
 
 
-\begin{aligned}𝑃(0<𝑋<3) & =𝑃(0<𝑋<3) \\ & =∫_{30}^{}𝑓(𝑥)\,d𝑥 \\ & =∫_{30}^{}\frac{1}{5}\,d𝑥 \\ & =\frac{3−0}{5} \\ & =\frac{3}{5}.\end{aligned}
+\begin{aligned}𝑃(0<𝑋<3) & =𝑃(0<𝑋<3) \\ & =∫_{30}𝑓(𝑥)\,d𝑥 \\ & =∫_{30}\frac{1}{5}\,d𝑥 \\ & =\frac{3−0}{5} \\ & =\frac{3}{5}.\end{aligned}
 
 
 $$
@@ -160,7 +160,7 @@ So, we have
 $$
 
 
-\begin{aligned}𝑃(𝑌≥10) & =𝑃(10≤𝑌≤16) \\ & =∫_{1610}^{}𝑓(𝑦)\,d𝑦 \\ & =∫_{1610}^{}\frac{1}{15}\,d𝑦 \\ & =\frac{16−10}{15} \\ & =\frac{6}{15} \\ & =\frac{2}{5}.\end{aligned}
+\begin{aligned}𝑃(𝑌≥10) & =𝑃(10≤𝑌≤16) \\ & =∫_{1610}𝑓(𝑦)\,d𝑦 \\ & =∫_{1610}\frac{1}{15}\,d𝑦 \\ & =\frac{16−10}{15} \\ & =\frac{6}{15} \\ & =\frac{2}{5}.\end{aligned}
 
 
 $$

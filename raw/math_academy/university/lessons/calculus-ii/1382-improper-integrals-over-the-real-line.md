@@ -18,7 +18,7 @@ Consider an improper integral in which both the left and right endpoints are unb
 $$
 
 
-\int_{-\infty}^{\infty} f(x) \, \textrm{d}x
+\int_{-\infty}^{\infty} f(x) \, \text{d}x
 
 
 $$
@@ -28,7 +28,7 @@ If the integrand $f(x)$ is continuous on $(-\infty, \infty),$ then we can break 
 $$
 
 
-\int_{-\infty}^{\infty} f(x) \, \textrm{d}x = \int_{-\infty}^{0} f(x) \, \textrm{d}x + \int_{0}^{\infty} f(x) \, \textrm{d}x
+\int_{-\infty}^{\infty} f(x) \, \text{d}x = \int_{-\infty}^{0} f(x) \, \text{d}x + \int_{0}^{\infty} f(x) \, \text{d}x
 
 
 $$
@@ -56,7 +56,7 @@ Suppose we have an improper integral in which both the left and right endpoints 
 $$
 
 
-\int_{-\infty}^{\infty} f(x) \, \textrm{d}x
+\int_{-\infty}^{\infty} f(x) \, \text{d}x
 
 
 $$
@@ -66,7 +66,7 @@ If the integrand $f(x)$ is continuous on $(-\infty, \infty),$ then we can break 
 $$
 
 
-\int_{-\infty}^{\infty} f(x) \, \textrm{d}x = \int_{-\infty}^{0} f(x) \, \textrm{d}x + \int_{0}^{\infty} f(x) \, \textrm{d}x
+\int_{-\infty}^{\infty} f(x) \, \text{d}x = \int_{-\infty}^{0} f(x) \, \text{d}x + \int_{0}^{\infty} f(x) \, \text{d}x
 
 
 $$
@@ -92,7 +92,7 @@ Computing the definite integral of a function over the entire real line requires
 $$
 
 
-\int_{-\infty}^{\infty} f(x) \, \textrm{d}x = \int_{-\infty}^{0} f(x) \, \textrm{d}x + \int_{0}^{\infty} f(x) \, \textrm{d}x
+\int_{-\infty}^{\infty} f(x) \, \text{d}x = \int_{-\infty}^{0} f(x) \, \text{d}x + \int_{0}^{\infty} f(x) \, \text{d}x
 
 
 $$
@@ -107,7 +107,7 @@ Evaluating two improper integrals can be quite time-consuming. However, we can s
 
 #### Question
 
-Evaluate $\displaystyle \int_{-\infty}^{\infty} \dfrac{1}{x^2+1} \, \textrm{d}x.$
+Evaluate $\displaystyle \int_{-\infty}^{\infty} \dfrac{1}{x^2+1} \, \text{d}x.$
 
 #### Explanation
 
@@ -116,7 +116,7 @@ We break up the integral as follows:
 $$
 
 
-\int_{-\infty}^{\infty} \dfrac{1}{x^2+1} \, \textrm{d}x = \int_{-\infty}^{0} \dfrac{1}{x^2+1} \, \textrm{d}x + \int_{0}^{\infty} \dfrac{1}{x^2+1} \, \textrm{d}x.
+\int_{-\infty}^{\infty} \dfrac{1}{x^2+1} \, \text{d}x = \int_{-\infty}^{0} \dfrac{1}{x^2+1} \, \text{d}x + \int_{0}^{\infty} \dfrac{1}{x^2+1} \, \text{d}x.
 
 
 $$
@@ -126,7 +126,7 @@ Evaluating the first of these integrals, we get
 $$
 
 
-\begin{aligned} \int_{-\infty}^0 \dfrac {1}{x^2+1} \,\textrm{d}x &= \lim_{a \to -\infty} \int_{a}^0 \dfrac {1}{x^2+1} \,\textrm{d}x\\\[5pt] & = \lim_{a \to -\infty}\left( \arctan (x) \Big|_a^0 \right) \\\[5pt] & = \lim_{a \to -\infty} \left[\arctan \left( 0 \right) - \arctan \left( a \right) \right] \\\[5pt] & = 0 - \lim_{a \to -\infty} \arctan \left( a \right) \\\[5pt] &= - \left(-\dfrac \pi 2 \right)\\\[5pt] & = \dfrac{\pi}{2}. \end{aligned}
+\begin{aligned} \int_{-\infty}^0 \dfrac {1}{x^2+1} \,\text{d}x &= \lim_{a \to -\infty} \int_{a}^0 \dfrac {1}{x^2+1} \,\text{d}x\\[5pt] & = \lim_{a \to -\infty}\left( \arctan (x) \Big|_a^0 \right) \\[5pt] & = \lim_{a \to -\infty} \left[\arctan \left( 0 \right) - \arctan \left( a \right) \right] \\[5pt] & = 0 - \lim_{a \to -\infty} \arctan \left( a \right) \\[5pt] &= - \left(-\dfrac \pi 2 \right)\\[5pt] & = \dfrac{\pi}{2}. \end{aligned}
 
 
 $$
@@ -136,7 +136,7 @@ Now, notice that the integrand is an **** function (i.e., it is symmetrical abou
 $$
 
 
-\int_{0}^\infty \dfrac {1}{x^2+1} \,\textrm{d}x =\dfrac{\pi}{2}.
+\int_{0}^\infty \dfrac {1}{x^2+1} \,\text{d}x =\dfrac{\pi}{2}.
 
 
 $$
@@ -146,7 +146,7 @@ Therefore, since both improper integrals exist, we conclude that
 $$
 
 
-\begin{aligned} \int_{-\infty}^{\infty} \dfrac{1}{x^2+1} \, \textrm{d}x &= \int_{-\infty}^{0} \dfrac{1}{x^2+1} \, \textrm{d}x + \int_{0}^{\infty} \dfrac{1}{x^2+1} \, \textrm{d}x\\\[5pt] &=\dfrac{\pi}{2}+ \dfrac{\pi}{2}\\\[5pt] &= \pi.\end{aligned}
+\begin{aligned} \int_{-\infty}^{\infty} \dfrac{1}{x^2+1} \, \text{d}x &= \int_{-\infty}^{0} \dfrac{1}{x^2+1} \, \text{d}x + \int_{0}^{\infty} \dfrac{1}{x^2+1} \, \text{d}x\\[5pt] &=\dfrac{\pi}{2}+ \dfrac{\pi}{2}\\[5pt] &= \pi.\end{aligned}
 
 
 $$
@@ -168,7 +168,7 @@ In this case, we must calculate the improper integral
 $$
 
 
-\displaystyle \int_{-\infty}^{\infty} \dfrac{9}{4x^2+1}\,\textrm{d}x.
+\displaystyle \int_{-\infty}^{\infty} \dfrac{9}{4x^2+1}\,\text{d}x.
 
 
 $$
@@ -178,7 +178,7 @@ As usual, we break up the integral as follows:
 $$
 
 
-\displaystyle \int_{-\infty}^{\infty} \dfrac{9}{4x^2+1}\,\textrm{d}x = \displaystyle \int_{-\infty}^{0} \dfrac{9}{4x^2+1}\,\textrm{d}x + \displaystyle \int_{0}^{\infty} \dfrac{9}{4x^2+1}\,\textrm{d}x
+\displaystyle \int_{-\infty}^{\infty} \dfrac{9}{4x^2+1}\,\text{d}x = \displaystyle \int_{-\infty}^{0} \dfrac{9}{4x^2+1}\,\text{d}x + \displaystyle \int_{0}^{\infty} \dfrac{9}{4x^2+1}\,\text{d}x
 
 
 $$
@@ -188,7 +188,7 @@ Evaluating the first of these integrals, we get
 $$
 
 
-\begin{aligned} \int_{-\infty}^0 \dfrac {9}{4x^2+1} \,\textrm{d}x & = 9\lim_{a \to -\infty}\left( \left[\dfrac{1}{2}\arctan \left(2x \right) \right]_a^0 \right) \\\[5pt] & = \dfrac{9}{2} \lim_{a \to -\infty} \left[\arctan \left( 0 \right) - \arctan \left( 2a \right) \right] \\\[5pt] & = 0 - \dfrac{9}{2}\lim_{a \to -\infty} \arctan \left( 2a \right) \\\[5pt] & = -\dfrac{9}{2} \left(-\dfrac \pi 2 \right)\\\[5pt] & = \dfrac{9\pi}{4}. \end{aligned}
+\begin{aligned} \int_{-\infty}^0 \dfrac {9}{4x^2+1} \,\text{d}x & = 9\lim_{a \to -\infty}\left( \left[\dfrac{1}{2}\arctan \left(2x \right) \right]_a^0 \right) \\[5pt] & = \dfrac{9}{2} \lim_{a \to -\infty} \left[\arctan \left( 0 \right) - \arctan \left( 2a \right) \right] \\[5pt] & = 0 - \dfrac{9}{2}\lim_{a \to -\infty} \arctan \left( 2a \right) \\[5pt] & = -\dfrac{9}{2} \left(-\dfrac \pi 2 \right)\\[5pt] & = \dfrac{9\pi}{4}. \end{aligned}
 
 
 $$
@@ -198,7 +198,7 @@ Now, notice that the integrand is an **** function. Therefore, we can immediatel
 $$
 
 
-\displaystyle \int_{0}^\infty\dfrac {9}{4x^2+1} \,\textrm{d}x = \dfrac{9\pi}{4}.
+\displaystyle \int_{0}^\infty\dfrac {9}{4x^2+1} \,\text{d}x = \dfrac{9\pi}{4}.
 
 
 $$
@@ -208,7 +208,7 @@ Therefore, since both improper integrals exist, we conclude that
 $$
 
 
-\int_{-\infty}^{\infty} \dfrac{9}{4x^2+1}\,\textrm{d}x = \dfrac{9\pi}{4}+ \dfrac{9\pi}{4}= \dfrac{9\pi}{2} .
+\int_{-\infty}^{\infty} \dfrac{9}{4x^2+1}\,\text{d}x = \dfrac{9\pi}{4}+ \dfrac{9\pi}{4}= \dfrac{9\pi}{2} .
 
 
 $$

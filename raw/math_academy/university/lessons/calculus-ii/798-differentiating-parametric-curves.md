@@ -28,7 +28,7 @@ If we plot the curve, it looks as follows:
 
 ![Instructional graphic](../../../lesson-assets/calculus-ii/topic-798/ee97def43a084ae4.png)
 
-If we're given a parametric curve, how do we calculate $\dfrac{\textrm{d}y}{\textrm{d}x}?$ The answer is to use the chain rule.
+If we're given a parametric curve, how do we calculate $\dfrac{\text{d}y}{\text{d}x}?$ The answer is to use the chain rule.
 
 The chain rule states that
 

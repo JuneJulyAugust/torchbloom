@@ -15,7 +15,7 @@ Topic ID: 1274
 
 It is often more convenient to use polar coordinates to determine the points of intersection of two curves. This is especially true if we are dealing with two circles.
 
-Suppose, for example, that we are given the circles ${\color{}r=\sqrt2\, {\sin{\theta}}}\,$ and $\, {\color{}r=1},$ as shown in the figure below. How do we determine the polar coordinates of the points of intersection of these two curves?
+Suppose, for example, that we are given the circles ${r=\sqrt2\, {\sin{\theta}}}\,$ and $\, {r=1},$ as shown in the figure below. How do we determine the polar coordinates of the points of intersection of these two curves?
 
 ![Instructional graphic](../../../../lesson-assets/integrated-math-iii-honors/topic-1274/5e1245f3b09a346e.png)
 
@@ -24,7 +24,7 @@ To determine the polar coordinates of the intersection points, we must solve the
 $$
 
 
-\begin{aligned}𝑟=\sqrt{√2} \,sin⁡𝜃 \\ 𝑟=1\end{aligned}
+\begin{aligned}𝑟=\sqrt{2} \,sin⁡𝜃 \\ 𝑟=1\end{aligned}
 
 
 $$
@@ -34,7 +34,7 @@ So, we begin by setting the equations equal to each other and solving for $\thet
 $$
 
 
-\begin{aligned}\sqrt{√2} \,sin⁡𝜃 & =1 \\ sin⁡𝜃 & =\frac{1}{\sqrt{√2}} \\ & =\frac{\sqrt{√2}}{2}.\end{aligned}
+\begin{aligned}\sqrt{2} \,sin⁡𝜃 & =1 \\ sin⁡𝜃 & =\frac{1}{\sqrt{2}} \\ & =\frac{\sqrt{2}}{2}.\end{aligned}
 
 
 $$
@@ -54,7 +54,7 @@ Also, notice that $r=1$ at both intersection points. Therefore, the polar coordi
 $$
 
 
-(r,\theta)=\bigg(1, \dfrac{\pi}{4}\bigg)\qquad \textrm{and} \qquad(r,\theta)=\bigg(1, \dfrac{3\pi}{4}\bigg).
+(r,\theta)=\bigg(1, \dfrac{\pi}{4}\bigg)\qquad \text{and} \qquad(r,\theta)=\bigg(1, \dfrac{3\pi}{4}\bigg).
 
 
 $$
@@ -94,7 +94,7 @@ To find the second point of intersection, we set the equations of the curves equ
 $$
 
 
-\begin{aligned}4\sqrt{√3}sin⁡𝜃 & =4cos⁡𝜃 \\ \frac{sin⁡𝜃}{cos⁡𝜃} & =\frac{4}{4\sqrt{√3}} \\ tan⁡𝜃 & =\frac{1}{\sqrt{√3}}\end{aligned}
+\begin{aligned}4\sqrt{3}sin⁡𝜃 & =4cos⁡𝜃 \\ \frac{sin⁡𝜃}{cos⁡𝜃} & =\frac{4}{4\sqrt{3}} \\ tan⁡𝜃 & =\frac{1}{\sqrt{3}}\end{aligned}
 
 
 $$
@@ -106,7 +106,7 @@ Now, we use the equation $r=4\cos \theta$ to find the $r$-coordinate of the poin
 $$
 
 
-\begin{aligned}𝑟 & =4cos⁡(\frac{𝜋}{6}) \\ & =4⋅\frac{\sqrt{√3}}{2} \\ & =2\sqrt{√3}\end{aligned}
+\begin{aligned}𝑟 & =4cos⁡(\frac{𝜋}{6}) \\ & =4⋅\frac{\sqrt{3}}{2} \\ & =2\sqrt{3}\end{aligned}
 
 
 $$
@@ -138,7 +138,7 @@ We begin by setting the equations equal to each other and solving for $\theta.$ 
 $$
 
 
-\begin{aligned} 3+3\cos \theta & = 4\\\[5pt] 3\cos \theta & = 1 \\[3pt] \cos \theta & = \dfrac 1 3. \end{aligned}
+\begin{aligned} 3+3\cos \theta & = 4\\[5pt] 3\cos \theta & = 1 \\[3pt] \cos \theta & = \dfrac 1 3. \end{aligned}
 
 
 $$
@@ -152,7 +152,7 @@ Therefore, the polar coordinates of the points of intersection are
 $$
 
 
-(r,\theta)=\left(4 , 70.5 \, ^\circ \right)\qquad \textrm{and} \qquad (r,\theta)=\left(4 , 289.5 \, ^\circ\right).
+(r,\theta)=\left(4 , 70.5 \, ^\circ \right)\qquad \text{and} \qquad (r,\theta)=\left(4 , 289.5 \, ^\circ\right).
 
 
 $$

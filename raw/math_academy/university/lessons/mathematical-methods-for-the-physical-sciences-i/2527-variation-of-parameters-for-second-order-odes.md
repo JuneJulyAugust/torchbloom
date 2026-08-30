@@ -50,7 +50,7 @@ which can be written as
 $$
 
 
-y_c(x) = A e^{-\int p(x) \, \textrm{d}x},
+y_c(x) = A e^{-\int p(x) \, \text{d}x},
 
 
 $$
@@ -62,7 +62,7 @@ As we've seen, to seek a particular solution $y_p(x)$ using variation of paramet
 $$
 
 
-y_p(x) = u(x) e^{-\int p(x)\,\textrm{d}x}
+y_p(x) = u(x) e^{-\int p(x)\,\text{d}x}
 
 
 $$
@@ -76,7 +76,7 @@ Before we dive into the second-order case, suppose we denote the function $y_1$ 
 $$
 
 
-y_1 = e^{-\int p(x)\,\textrm{d}x}.
+y_1 = e^{-\int p(x)\,\text{d}x}.
 
 
 $$
@@ -190,7 +190,7 @@ To help with this issue, we will seek a solution that satisfies the following co
 $$
 
 
-\begin{aligned}𝑦_{′𝑝}^{} & =𝑢_{1}𝑦_{′1}^{}+𝑢_{2}𝑦_{′2}^{}\end{aligned}
+\begin{aligned}𝑦_{′𝑝} & =𝑢_{1}𝑦_{′1}+𝑢_{2}𝑦_{′2}\end{aligned}
 
 
 $$
@@ -226,7 +226,7 @@ Using variation of parameters, we seek functions $u_1(x)$ and $u_2(x)$ such that
 $$
 
 
-\begin{aligned}𝑦_{𝑝} & =𝑢_{1}𝑦_{1}+𝑢_{2}𝑦_{2} \\ 𝑦_{′𝑝}^{} & =𝑢_{1}𝑦_{′1}^{}+𝑢_{2}𝑦_{′2}^{}.\end{aligned}
+\begin{aligned}𝑦_{𝑝} & =𝑢_{1}𝑦_{1}+𝑢_{2}𝑦_{2} \\ 𝑦_{′𝑝} & =𝑢_{1}𝑦_{′1}+𝑢_{2}𝑦_{′2}.\end{aligned}
 
 
 $$
@@ -356,7 +356,7 @@ Next, we substitute $y = y_p$ and $y' = y_p'$ into the differential equation, as
 $$
 
 
-\begin{aligned}𝑦^{″}+5𝑦^{′}−6𝑦 & =𝑝(𝑥) \\ (𝑦_{′𝑝}^{})^{′}+5𝑦_{′𝑝}^{}−6𝑦_{𝑝} & =𝑝(𝑥)\end{aligned}
+\begin{aligned}𝑦^{″}+5𝑦^{′}−6𝑦 & =𝑝(𝑥) \\ (𝑦_{′𝑝})^{′}+5𝑦_{′𝑝}−6𝑦_{𝑝} & =𝑝(𝑥)\end{aligned}
 
 
 $$
@@ -366,7 +366,7 @@ Using our expressions for $y_p$ and $y_p',$ we have:
 $$
 
 
-\begin{aligned}(𝑢_{1}(𝑒^{𝑥})^{′}+𝑢_{2}(𝑒^{−6𝑥})^{′})^{′}+5(𝑢_{1}(𝑒^{𝑥})^{′}+𝑢_{2}(𝑒^{−6𝑥})^{′})−6(𝑢_{1}𝑒^{𝑥}+𝑢_{2}𝑒^{−6𝑥}) & =𝑝(𝑥) \\ (𝑢_{1}𝑒^{𝑥}−6𝑢_{2}𝑒^{−6𝑥})^{′}+5𝑢_{1}𝑒^{𝑥}−30𝑢_{2}𝑒^{−6𝑥}−6𝑢_{1}𝑒^{𝑥}−6𝑢_{2}𝑒^{−6𝑥} & =𝑝(𝑥) \\ 𝑢_{′1}^{}𝑒^{𝑥}+𝑢_{1}𝑒^{𝑥}−6𝑢_{′2}^{}𝑒^{−6𝑥}+36𝑢_{2}𝑒^{−6𝑥} & \\ \,+5𝑢_{1}𝑒^{𝑥}−30𝑢_{2}𝑒^{−6𝑥}−6𝑢_{1}𝑒^{𝑥}−6𝑢_{2}𝑒^{−6𝑥} & =𝑝(𝑥)\end{aligned}
+\begin{aligned}(𝑢_{1}(𝑒^{𝑥})^{′}+𝑢_{2}(𝑒^{−6𝑥})^{′})^{′}+5(𝑢_{1}(𝑒^{𝑥})^{′}+𝑢_{2}(𝑒^{−6𝑥})^{′})−6(𝑢_{1}𝑒^{𝑥}+𝑢_{2}𝑒^{−6𝑥}) & =𝑝(𝑥) \\ (𝑢_{1}𝑒^{𝑥}−6𝑢_{2}𝑒^{−6𝑥})^{′}+5𝑢_{1}𝑒^{𝑥}−30𝑢_{2}𝑒^{−6𝑥}−6𝑢_{1}𝑒^{𝑥}−6𝑢_{2}𝑒^{−6𝑥} & =𝑝(𝑥) \\ 𝑢_{′1}𝑒^{𝑥}+𝑢_{1}𝑒^{𝑥}−6𝑢_{′2}𝑒^{−6𝑥}+36𝑢_{2}𝑒^{−6𝑥} & \\ \,+5𝑢_{1}𝑒^{𝑥}−30𝑢_{2}𝑒^{−6𝑥}−6𝑢_{1}𝑒^{𝑥}−6𝑢_{2}𝑒^{−6𝑥} & =𝑝(𝑥)\end{aligned}
 
 
 $$
@@ -376,7 +376,7 @@ Next, we group all terms proportional to $u_1$ and $u_2{:}$
 $$
 
 
-\begin{aligned}𝑢_{1}\underset{0}{\underset{}{(𝑒^{𝑥}+5𝑒^{𝑥}−6𝑒^{𝑥})}}+𝑢_{2}\underset{0}{\underset{}{(36𝑒^{−6𝑥}−30𝑒^{−6𝑥}−6𝑒^{−6𝑥})}}+𝑢_{′1}^{}𝑒^{𝑥}−6𝑢_{′2}^{}𝑒^{−6𝑥}=𝑝(𝑥)\end{aligned}
+\begin{aligned}𝑢_{1}\underset{0}{\underset{}{(𝑒^{𝑥}+5𝑒^{𝑥}−6𝑒^{𝑥})}}+𝑢_{2}\underset{0}{\underset{}{(36𝑒^{−6𝑥}−30𝑒^{−6𝑥}−6𝑒^{−6𝑥})}}+𝑢_{′1}𝑒^{𝑥}−6𝑢_{′2}𝑒^{−6𝑥}=𝑝(𝑥)\end{aligned}
 
 
 $$
@@ -474,7 +474,7 @@ Differentiating $y_p$ with respect to $x$ using the product rule, we obtain
 $$
 
 
-\begin{aligned}𝑦_{′𝑝}^{} & =(𝑢_{1}𝑒^{2𝑥}+𝑢_{2}𝑒^{−3𝑥})^{′} \\ & =(𝑢_{1}𝑒^{2𝑥})^{′}+(𝑢_{2}𝑒^{−3𝑥})^{′} \\ & =𝑢_{′1}^{}𝑒^{2𝑥}+𝑢_{1}(𝑒^{2𝑥})^{′}+𝑢_{′2}^{}𝑒^{−3𝑥}+𝑢_{2}(𝑒^{−3𝑥})^{′} \\ & =𝑢_{′1}^{}𝑒^{2𝑥}+2𝑢_{1}𝑒^{2𝑥}+𝑢_{′2}^{}𝑒^{−3𝑥}−3𝑢_{2}𝑒^{−3𝑥}.\end{aligned}
+\begin{aligned}𝑦_{′𝑝} & =(𝑢_{1}𝑒^{2𝑥}+𝑢_{2}𝑒^{−3𝑥})^{′} \\ & =(𝑢_{1}𝑒^{2𝑥})^{′}+(𝑢_{2}𝑒^{−3𝑥})^{′} \\ & =𝑢_{′1}𝑒^{2𝑥}+𝑢_{1}(𝑒^{2𝑥})^{′}+𝑢_{′2}𝑒^{−3𝑥}+𝑢_{2}(𝑒^{−3𝑥})^{′} \\ & =𝑢_{′1}𝑒^{2𝑥}+2𝑢_{1}𝑒^{2𝑥}+𝑢_{′2}𝑒^{−3𝑥}−3𝑢_{2}𝑒^{−3𝑥}.\end{aligned}
 
 
 $$
@@ -484,7 +484,7 @@ Finally, we equate our two expressions for $y_p',$ and simplify:
 $$
 
 
-\begin{aligned}𝑢_{′1}^{}𝑒^{2𝑥}+2𝑢_{1}𝑒^{2𝑥}+𝑢_{′2}^{}𝑒^{−3𝑥}−3𝑢_{2}𝑒^{−3𝑥} & =𝑢_{1}(𝑒^{2𝑥})^{′}+𝑢_{2}(𝑒^{−3𝑥})^{′} \\ 𝑢_{′1}^{}𝑒^{2𝑥}+2𝑢_{1}𝑒^{2𝑥}+𝑢_{′2}^{}𝑒^{−3𝑥}−3𝑢_{2}𝑒^{−3𝑥} & =2𝑢_{1}𝑒^{2𝑥}−3𝑢_{2}𝑒^{−3𝑥} \\ 𝑢_{′1}^{}𝑒^{2𝑥}+2𝑢_{1}𝑒^{2𝑥}+𝑢_{′2}^{}𝑒^{−3𝑥}−3𝑢_{2}𝑒^{−3𝑥} & =2𝑢_{1}𝑒^{2𝑥}−3𝑢_{2}𝑒^{−3𝑥}\end{aligned}
+\begin{aligned}𝑢_{′1}𝑒^{2𝑥}+2𝑢_{1}𝑒^{2𝑥}+𝑢_{′2}𝑒^{−3𝑥}−3𝑢_{2}𝑒^{−3𝑥} & =𝑢_{1}(𝑒^{2𝑥})^{′}+𝑢_{2}(𝑒^{−3𝑥})^{′} \\ 𝑢_{′1}𝑒^{2𝑥}+2𝑢_{1}𝑒^{2𝑥}+𝑢_{′2}𝑒^{−3𝑥}−3𝑢_{2}𝑒^{−3𝑥} & =2𝑢_{1}𝑒^{2𝑥}−3𝑢_{2}𝑒^{−3𝑥} \\ 𝑢_{′1}𝑒^{2𝑥}+2𝑢_{1}𝑒^{2𝑥}+𝑢_{′2}𝑒^{−3𝑥}−3𝑢_{2}𝑒^{−3𝑥} & =2𝑢_{1}𝑒^{2𝑥}−3𝑢_{2}𝑒^{−3𝑥}\end{aligned}
 
 
 $$
@@ -618,7 +618,7 @@ Differentiating $y_p$ with respect to $x$ using the product rule, we obtain
 $$
 
 
-\begin{aligned}𝑦_{′𝑝}^{} & =(𝑢_{1}sin⁡(4𝑥)+𝑢_{2}cos⁡(4𝑥))^{′} \\ & =(𝑢_{1}sin⁡(4𝑥))^{′}+(𝑢_{2}cos⁡(4𝑥))^{′} \\ & =𝑢_{′1}^{}sin⁡(4𝑥)+𝑢_{1}(sin⁡(4𝑥))^{′}+𝑢_{′2}^{}cos⁡(4𝑥)+𝑢_{2}(cos⁡(4𝑥))^{′} \\ & =𝑢_{′1}^{}sin⁡(4𝑥)+4𝑢_{1}cos⁡(4𝑥)+𝑢_{′2}^{}cos⁡(4𝑥)−4𝑢_{2}sin⁡(4𝑥).\end{aligned}
+\begin{aligned}𝑦_{′𝑝} & =(𝑢_{1}sin⁡(4𝑥)+𝑢_{2}cos⁡(4𝑥))^{′} \\ & =(𝑢_{1}sin⁡(4𝑥))^{′}+(𝑢_{2}cos⁡(4𝑥))^{′} \\ & =𝑢_{′1}sin⁡(4𝑥)+𝑢_{1}(sin⁡(4𝑥))^{′}+𝑢_{′2}cos⁡(4𝑥)+𝑢_{2}(cos⁡(4𝑥))^{′} \\ & =𝑢_{′1}sin⁡(4𝑥)+4𝑢_{1}cos⁡(4𝑥)+𝑢_{′2}cos⁡(4𝑥)−4𝑢_{2}sin⁡(4𝑥).\end{aligned}
 
 
 $$
@@ -628,7 +628,7 @@ Finally, we equate our two expressions for $y_p',$ and simplify:
 $$
 
 
-\begin{aligned}𝑢_{′1}^{}sin⁡(4𝑥)+4𝑢_{1}cos⁡(4𝑥)+𝑢_{′2}^{}cos⁡(4𝑥)−4𝑢_{2}sin⁡(4𝑥) & =𝑢_{1}(sin⁡(4𝑥))^{′}+𝑢_{2}(cos⁡(4𝑥))^{′} \\ 𝑢_{′1}^{}sin⁡(4𝑥)+4𝑢_{1}cos⁡(4𝑥)+𝑢_{′2}^{}cos⁡(4𝑥)−4𝑢_{2}sin⁡(4𝑥) & =4𝑢_{1}cos⁡(4𝑥)−4𝑢_{2}sin⁡(4𝑥) \\ 𝑢_{′1}^{}sin⁡(4𝑥)+4𝑢_{1}cos⁡(4𝑥)+𝑢_{′2}^{}cos⁡(4𝑥)−4𝑢_{2}sin⁡(4𝑥) & =4𝑢_{1}cos⁡(4𝑥)−4𝑢_{2}sin⁡(4𝑥)\end{aligned}
+\begin{aligned}𝑢_{′1}sin⁡(4𝑥)+4𝑢_{1}cos⁡(4𝑥)+𝑢_{′2}cos⁡(4𝑥)−4𝑢_{2}sin⁡(4𝑥) & =𝑢_{1}(sin⁡(4𝑥))^{′}+𝑢_{2}(cos⁡(4𝑥))^{′} \\ 𝑢_{′1}sin⁡(4𝑥)+4𝑢_{1}cos⁡(4𝑥)+𝑢_{′2}cos⁡(4𝑥)−4𝑢_{2}sin⁡(4𝑥) & =4𝑢_{1}cos⁡(4𝑥)−4𝑢_{2}sin⁡(4𝑥) \\ 𝑢_{′1}sin⁡(4𝑥)+4𝑢_{1}cos⁡(4𝑥)+𝑢_{′2}cos⁡(4𝑥)−4𝑢_{2}sin⁡(4𝑥) & =4𝑢_{1}cos⁡(4𝑥)−4𝑢_{2}sin⁡(4𝑥)\end{aligned}
 
 
 $$
@@ -676,7 +676,7 @@ subject to the standard constraints:
 $$
 
 
-\begin{aligned}\begin{aligned}𝑢_{′1}^{}𝑦_{′1}^{}+𝑢_{′2}^{}𝑦_{′2}^{}=4𝑒^{2𝑥} \\ 𝑢_{′1}^{}𝑦_{1}+𝑢_{′2}^{}𝑦_{2}=0\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}𝑢_{′1}𝑦_{′1}+𝑢_{′2}𝑦_{′2}=4𝑒^{2𝑥} \\ 𝑢_{′1}𝑦_{1}+𝑢_{′2}𝑦_{2}=0\end{matrix}\end{aligned}
 
 
 $$
@@ -686,7 +686,7 @@ First, let's verify that the fundamental solutions $y_1$ and $y_2$ are independe
 $$
 
 
-\begin{aligned}𝑊(𝑦_{1},𝑦_{2}) & =\begin{aligned}𝑦_{1} & 𝑦_{2} \\ 𝑦_{′1}^{} & 𝑦_{′2}^{}\end{aligned} \\ & =𝑦_{1}𝑦_{′2}^{}−𝑦_{′1}^{}𝑦_{2} \\ & =(𝑒^{2𝑥})(𝑒^{−2𝑥})^{′}−(𝑒^{2𝑥})^{′}(𝑒^{−2𝑥}) \\ & =(𝑒^{2𝑥})(−2𝑒^{−2𝑥})−(2𝑒^{2𝑥})(𝑒^{−2𝑥}) \\ & =−2−2 \\ & =−4 \\ & ≠0\end{aligned}
+\begin{aligned}𝑊(𝑦_{1},𝑦_{2}) & =\begin{matrix}𝑦_{1} & 𝑦_{2} \\ 𝑦_{′1} & 𝑦_{′2}\end{matrix} \\ & =𝑦_{1}𝑦_{′2}−𝑦_{′1}𝑦_{2} \\ & =(𝑒^{2𝑥})(𝑒^{−2𝑥})^{′}−(𝑒^{2𝑥})^{′}(𝑒^{−2𝑥}) \\ & =(𝑒^{2𝑥})(−2𝑒^{−2𝑥})−(2𝑒^{2𝑥})(𝑒^{−2𝑥}) \\ & =−2−2 \\ & =−4 \\ & ≠0\end{aligned}
 
 
 $$
@@ -698,7 +698,7 @@ Substituting $y_1, y_2$ and their derivatives into our constraints gives the sys
 $$
 
 
-\begin{aligned}\begin{aligned}𝑢_{′1}^{}(𝑒^{2𝑥})^{′}+𝑢_{′2}^{}(𝑒^{−2𝑥})^{′}=4𝑒^{2𝑥} \\ 𝑢_{′1}^{}𝑒^{2𝑥}+𝑢_{′2}^{}𝑒^{−2𝑥}=0\end{aligned}\,⟹\,\begin{aligned}2𝑢_{′1}^{}𝑒^{2𝑥}−2𝑢_{′2}^{}𝑒^{−2𝑥}=4𝑒^{2𝑥} \\ 𝑢_{′1}^{}𝑒^{2𝑥}+𝑢_{′2}^{}𝑒^{−2𝑥}=0\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}𝑢_{′1}(𝑒^{2𝑥})^{′}+𝑢_{′2}(𝑒^{−2𝑥})^{′}=4𝑒^{2𝑥} \\ 𝑢_{′1}𝑒^{2𝑥}+𝑢_{′2}𝑒^{−2𝑥}=0\end{matrix}\,⟹\,\begin{matrix}2𝑢_{′1}𝑒^{2𝑥}−2𝑢_{′2}𝑒^{−2𝑥}=4𝑒^{2𝑥} \\ 𝑢_{′1}𝑒^{2𝑥}+𝑢_{′2}𝑒^{−2𝑥}=0\end{matrix}\end{aligned}
 
 
 $$
@@ -718,7 +718,7 @@ Substituting this into the first equation, we get
 $$
 
 
-\begin{aligned}2𝑢_{′1}^{}𝑒^{2𝑥}−2𝑢_{′2}^{}𝑒^{−2𝑥} & =4𝑒^{2𝑥} \\ 2𝑢_{′1}^{}𝑒^{2𝑥}−2(−𝑢_{′1}^{}𝑒^{4𝑥})𝑒^{−2𝑥} & =4𝑒^{2𝑥} \\ 2𝑢_{′1}^{}𝑒^{2𝑥}+2𝑢_{′1}^{}𝑒^{2𝑥} & =4𝑒^{2𝑥} \\ 4𝑢_{′1}^{}𝑒^{2𝑥} & =4𝑒^{2𝑥} \\ 𝑢_{′1}^{} & =1.\end{aligned}
+\begin{aligned}2𝑢_{′1}𝑒^{2𝑥}−2𝑢_{′2}𝑒^{−2𝑥} & =4𝑒^{2𝑥} \\ 2𝑢_{′1}𝑒^{2𝑥}−2(−𝑢_{′1}𝑒^{4𝑥})𝑒^{−2𝑥} & =4𝑒^{2𝑥} \\ 2𝑢_{′1}𝑒^{2𝑥}+2𝑢_{′1}𝑒^{2𝑥} & =4𝑒^{2𝑥} \\ 4𝑢_{′1}𝑒^{2𝑥} & =4𝑒^{2𝑥} \\ 𝑢_{′1} & =1.\end{aligned}
 
 
 $$
@@ -738,7 +738,7 @@ Next, we integrate $u_1'$ and $u_2'$ with respect to $x$ (taking constants as $0
 $$
 
 
-\begin{aligned}𝑢_{1} & =∫𝑢_{′1}^{}\,d𝑥=∫1\,d𝑥=𝑥, \\ 𝑢_{2} & =∫𝑢_{′2}^{}\,d𝑥=∫−𝑒^{4𝑥}\,d𝑥=−\frac{1}{4}𝑒^{4𝑥}\end{aligned}
+\begin{aligned}𝑢_{1} & =∫𝑢_{′1}\,d𝑥=∫1\,d𝑥=𝑥, \\ 𝑢_{2} & =∫𝑢_{′2}\,d𝑥=∫−𝑒^{4𝑥}\,d𝑥=−\frac{1}{4}𝑒^{4𝑥}\end{aligned}
 
 
 $$
@@ -806,7 +806,7 @@ that satisfies the following constraints:
 $$
 
 
-\begin{aligned}\begin{aligned}𝑢_{′1}^{}𝑦_{′1}^{}+𝑢_{′2}^{}𝑦_{′2}^{}=6cos⁡𝑥 \\ 𝑢_{′1}^{}𝑦_{1}+𝑢_{′2}^{}𝑦_{2}=0\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}𝑢_{′1}𝑦_{′1}+𝑢_{′2}𝑦_{′2}=6cos⁡𝑥 \\ 𝑢_{′1}𝑦_{1}+𝑢_{′2}𝑦_{2}=0\end{matrix}\end{aligned}
 
 
 $$
@@ -830,7 +830,7 @@ First, let's verify that the fundamental solutions $y_1$ and $y_2$ are independe
 $$
 
 
-\begin{aligned}𝑊(𝑦_{1},𝑦_{2}) & =\begin{aligned}𝑦_{1} & 𝑦_{2} \\ 𝑦_{′1}^{} & 𝑦_{′2}^{}\end{aligned} \\ & =𝑦_{1}𝑦_{′2}^{}−𝑦_{′1}^{}𝑦_{2} \\ & =(cos⁡(3𝑥))(sin⁡(3𝑥))^{′}−(cos⁡(3𝑥))^{′}(sin⁡(3𝑥)) \\ & =(cos⁡(3𝑥))(3cos⁡(3𝑥))−(−3sin⁡(3𝑥))(sin⁡(3𝑥)) \\ & =3cos^{2}⁡(3𝑥)+3sin^{2}⁡(3𝑥) \\ & =3≠0\end{aligned}
+\begin{aligned}𝑊(𝑦_{1},𝑦_{2}) & =\begin{matrix}𝑦_{1} & 𝑦_{2} \\ 𝑦_{′1} & 𝑦_{′2}\end{matrix} \\ & =𝑦_{1}𝑦_{′2}−𝑦_{′1}𝑦_{2} \\ & =(cos⁡(3𝑥))(sin⁡(3𝑥))^{′}−(cos⁡(3𝑥))^{′}(sin⁡(3𝑥)) \\ & =(cos⁡(3𝑥))(3cos⁡(3𝑥))−(−3sin⁡(3𝑥))(sin⁡(3𝑥)) \\ & =3cos^{2}⁡(3𝑥)+3sin^{2}⁡(3𝑥) \\ & =3≠0\end{aligned}
 
 
 $$
@@ -842,7 +842,7 @@ Now, we have the following constraints:
 $$
 
 
-\begin{aligned}\begin{aligned}𝑢_{′1}^{}(cos⁡(3𝑥))^{′}+𝑢_{′2}^{}(sin⁡(3𝑥))^{′}=6cos⁡𝑥 \\ 𝑢_{′1}^{}cos⁡(3𝑥)+𝑢_{′2}^{}sin⁡(3𝑥)=0\end{aligned}\,⟹\,\begin{aligned}−3𝑢_{′1}^{}sin⁡(3𝑥)+3𝑢_{′2}^{}cos⁡(3𝑥)=6cos⁡𝑥 \\ 𝑢_{′1}^{}cos⁡(3𝑥)+𝑢_{′2}^{}sin⁡(3𝑥)=0\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}𝑢_{′1}(cos⁡(3𝑥))^{′}+𝑢_{′2}(sin⁡(3𝑥))^{′}=6cos⁡𝑥 \\ 𝑢_{′1}cos⁡(3𝑥)+𝑢_{′2}sin⁡(3𝑥)=0\end{matrix}\,⟹\,\begin{matrix}−3𝑢_{′1}sin⁡(3𝑥)+3𝑢_{′2}cos⁡(3𝑥)=6cos⁡𝑥 \\ 𝑢_{′1}cos⁡(3𝑥)+𝑢_{′2}sin⁡(3𝑥)=0\end{matrix}\end{aligned}
 
 
 $$
@@ -862,7 +862,7 @@ Substituting this into the first equation, we get
 $$
 
 
-\begin{aligned}−3𝑢_{′1}^{}sin⁡(3𝑥)+3𝑢_{′2}^{}cos⁡(3𝑥) & =6cos⁡𝑥 \\ −3(−\frac{𝑢_{′2}^{}sin⁡(3𝑥)}{cos⁡(3𝑥)})sin⁡(3𝑥)+3𝑢_{′2}^{}cos⁡(3𝑥) & =6cos⁡𝑥 \\ 3𝑢_{′2}^{}\frac{sin^{2}⁡(3𝑥)}{cos⁡(3𝑥)}+3𝑢_{′2}^{}cos⁡(3𝑥) & =6cos⁡𝑥 \\ 3𝑢_{′2}^{}\frac{sin^{2}⁡(3𝑥)+cos^{2}⁡(3𝑥)}{cos⁡(3𝑥)} & =6cos⁡𝑥 \\ 3𝑢_{′2}^{}\frac{1}{cos⁡(3𝑥)} & =6cos⁡𝑥 \\ 𝑢_{′2}^{} & =2cos⁡𝑥cos⁡(3𝑥).\end{aligned}
+\begin{aligned}−3𝑢_{′1}sin⁡(3𝑥)+3𝑢_{′2}cos⁡(3𝑥) & =6cos⁡𝑥 \\ −3(−\frac{𝑢_{′2}sin⁡(3𝑥)}{cos⁡(3𝑥)})sin⁡(3𝑥)+3𝑢_{′2}cos⁡(3𝑥) & =6cos⁡𝑥 \\ 3𝑢_{′2}\frac{sin^{2}⁡(3𝑥)}{cos⁡(3𝑥)}+3𝑢_{′2}cos⁡(3𝑥) & =6cos⁡𝑥 \\ 3𝑢_{′2}\frac{sin^{2}⁡(3𝑥)+cos^{2}⁡(3𝑥)}{cos⁡(3𝑥)} & =6cos⁡𝑥 \\ 3𝑢_{′2}\frac{1}{cos⁡(3𝑥)} & =6cos⁡𝑥 \\ 𝑢_{′2} & =2cos⁡𝑥cos⁡(3𝑥).\end{aligned}
 
 
 $$
@@ -872,7 +872,7 @@ Integrating both sides with respect to $x,$ we have
 $$
 
 
-\begin{aligned}∫𝑢_{′2}^{}\,d𝑥 & =∫2cos⁡𝑥cos⁡(3𝑥)\,d𝑥 \\ 𝑢_{2} & =∫2cos⁡𝑥cos⁡(3𝑥)\,d𝑥.\end{aligned}
+\begin{aligned}∫𝑢_{′2}\,d𝑥 & =∫2cos⁡𝑥cos⁡(3𝑥)\,d𝑥 \\ 𝑢_{2} & =∫2cos⁡𝑥cos⁡(3𝑥)\,d𝑥.\end{aligned}
 
 
 $$

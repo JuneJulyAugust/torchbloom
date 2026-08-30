@@ -40,7 +40,7 @@ To determine the desired probability, we must find the fraction of participants 
 $$
 
 
-\begin{aligned}\,\,\,\,\,\,𝑃(Exercised≥60\,|\,Exercised≥40) & = \\ \frac{# participants who exercised at least 40 and at least 60}{# participants who exercised at least 40} & = \\ \frac{# participants who exercised at least 60}{# participants who exercised at least 40} & \end{aligned}
+\begin{aligned}\,\,\,\,\,\,𝑃(Exercised≥60\,|\,Exercised≥40) & = \\ \frac{\# participants who exercised at least 40 and at least 60}{# participants who exercised at least 40} & = \\ \frac{\# participants who exercised at least 60}{# participants who exercised at least 40} & \end{aligned}
 
 
 $$
@@ -90,7 +90,7 @@ To determine the desired probability, we must find the fraction of orders betwee
 $$
 
 
-\begin{aligned}\,\,\,\,\,\,\,\,\,\,\,\,\,\,\, 𝑃(50≤Value≤75\,|\,25 & ≤Value≤100) \\ & =\frac{# orders between 25 and 100 and between 50 and 75}{# orders between 25 and 100} \\ & =\frac{# orders between 50 and 75}{# orders between 25 and 100}\end{aligned}
+\begin{aligned}\,\,\,\,\,\,\,\,\,\,\,\,\,\,\, 𝑃(50≤Value≤75\,|\,25 & ≤Value≤100) \\ & =\frac{\# orders between 25 and 100 and between 50 and 75}{# orders between 25 and 100} \\ & =\frac{\# orders between 50 and 75}{# orders between 25 and 100}\end{aligned}
 
 
 $$
@@ -150,7 +150,7 @@ To determine the desired probability, we must find the fraction of adults withou
 $$
 
 
-P(\text{No card} \: | \: \text{Adult}) = \dfrac{\text{# Adults without a card}}{\text{# Adults}}
+P(\text{No card} \: | \: \text{Adult}) = \dfrac{\text{\# Adults without a card}}{\text{\# Adults}}
 
 
 $$
@@ -180,7 +180,7 @@ To determine the desired probability, we must find the fraction of employees who
 $$
 
 
-\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\! P(\text{Full-Time or Contract} \: | \: \text{Managers}) = \dfrac{\text{# Managers working full-time or contract}}{\text{# Managers}}
+\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\! P(\text{Full-Time or Contract} \: | \: \text{Managers}) = \dfrac{\text{\# Managers working full-time or contract}}{\text{\# Managers}}
 
 
 $$
@@ -220,7 +220,7 @@ To determine the desired probability, we must find the fraction of couples who a
 $$
 
 
-\!\!\!\!\!\!\!\!\!\!\!\!\!\! P(\text{Concerts or Sports} \: | \: \text{Couples}) = \dfrac{\text{# Couples attending concerts or sports}}{\text{# Couples}}
+\!\!\!\!\!\!\!\!\!\!\!\!\!\! P(\text{Concerts or Sports} \: | \: \text{Couples}) = \dfrac{\text{\# Couples attending concerts or sports}}{\text{\# Couples}}
 
 
 $$
@@ -282,7 +282,7 @@ This probability is the fraction of vegetarians among those who prefer conventio
 $$
 
 
-P(\text{Vegetarian} \: | \: \text{Conventional}) = \dfrac{\text{# Vegetarians who prefer conventional food}}{\text{# People who prefer conventional food}}
+P(\text{Vegetarian} \: | \: \text{Conventional}) = \dfrac{\text{\# Vegetarians who prefer conventional food}}{\text{\# People who prefer conventional food}}
 
 
 $$

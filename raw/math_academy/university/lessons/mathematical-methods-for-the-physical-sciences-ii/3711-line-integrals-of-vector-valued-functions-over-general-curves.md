@@ -43,7 +43,7 @@ Often, the trickiest part is finding a parameterization for $C.$ In this lesson,
 
 #### Question
 
-Evaluate $\displaystyle \int\limits_{C} \mathbf{F} \cdot \textrm{d}\mathbf{r},$ where $\mathbf F(x, y) =(1-y)^2\,\mathbf{i} + x\,\mathbf{j}$ and $C$ is the line segment traversed from the point $A(0, 2)$ to the point $B(1,0).$
+Evaluate $\displaystyle \int\limits_{C} \mathbf{F} \cdot \text{d}\mathbf{r},$ where $\mathbf F(x, y) =(1-y)^2\,\mathbf{i} + x\,\mathbf{j}$ and $C$ is the line segment traversed from the point $A(0, 2)$ to the point $B(1,0).$
 
 #### Explanation
 
@@ -52,7 +52,7 @@ We will use the formula
 $$
 
 
-\int\limits_C \mathbf{F} \cdot \textrm{d}\mathbf{r} = \int_a^b \mathbf{F}(\mathbf{r}(t)) \cdot \mathbf{r}'(t) \,\textrm{d}t.
+\int\limits_C \mathbf{F} \cdot \text{d}\mathbf{r} = \int_a^b \mathbf{F}(\mathbf{r}(t)) \cdot \mathbf{r}'(t) \,\text{d}t.
 
 
 $$
@@ -112,7 +112,7 @@ Finally, we evaluate the integral, as follows:
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}𝐅⋅d𝐫 & =∫_{10}^{}𝐅(𝐫(𝑡))⋅𝐫^{′}(𝑡)\,d𝑡 \\ & =∫_{10}^{}4𝑡^{2}−6𝑡+1\,d𝑡 \\ & =(\frac{4}{3}𝑡^{3}−3𝑡^{2}+𝑡)_{10}^{} \\ & =(\frac{4}{3}−3+1)−0 \\ & =−\frac{2}{3}\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}𝐅⋅d𝐫 & =∫_{10}𝐅(𝐫(𝑡))⋅𝐫^{′}(𝑡)\,d𝑡 \\ & =∫_{10}4𝑡^{2}−6𝑡+1\,d𝑡 \\ & =(\frac{4}{3}𝑡^{3}−3𝑡^{2}+𝑡)_{10} \\ & =(\frac{4}{3}−3+1)−0 \\ & =−\frac{2}{3}\end{aligned}
 
 
 $$
@@ -121,7 +121,7 @@ $$
 
 #### Question
 
-Evaluate $\displaystyle \int\limits_{C} \mathbf{F} \cdot \textrm{d}\mathbf{r},$ where $\mathbf F(x, y) = y\,\mathbf{i} + x\,\mathbf{j}$ and $C$ is the curve $y^3 = x-5$ traversed from the point $A(5,0)$ to the point $B(6,1).$
+Evaluate $\displaystyle \int\limits_{C} \mathbf{F} \cdot \text{d}\mathbf{r},$ where $\mathbf F(x, y) = y\,\mathbf{i} + x\,\mathbf{j}$ and $C$ is the curve $y^3 = x-5$ traversed from the point $A(5,0)$ to the point $B(6,1).$
 
 #### Explanation
 
@@ -130,7 +130,7 @@ We will use the formula
 $$
 
 
-\int\limits_C \mathbf{F} \cdot \textrm{d}\mathbf{r} = \int_a^b \mathbf{F}(\mathbf{r}(t)) \cdot \mathbf{r}'(t) \,\textrm{d}t.
+\int\limits_C \mathbf{F} \cdot \text{d}\mathbf{r} = \int_a^b \mathbf{F}(\mathbf{r}(t)) \cdot \mathbf{r}'(t) \,\text{d}t.
 
 
 $$
@@ -200,7 +200,7 @@ Finally, we evaluate the integral, as follows:
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}𝐅⋅d𝐫 & =∫_{10}^{}𝐅(𝐫(𝑡))⋅𝐫^{′}(𝑡)\,d𝑡 \\ & =∫_{10}^{}4𝑡^{3}+5\,d𝑡 \\ & =[𝑡^{4}+5𝑡]_{10}^{} \\ & =1+5−0 \\ & =6\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}𝐅⋅d𝐫 & =∫_{10}𝐅(𝐫(𝑡))⋅𝐫^{′}(𝑡)\,d𝑡 \\ & =∫_{10}4𝑡^{3}+5\,d𝑡 \\ & =[𝑡^{4}+5𝑡]_{10} \\ & =1+5−0 \\ & =6\end{aligned}
 
 
 $$
@@ -209,7 +209,7 @@ $$
 
 #### Question
 
-Evaluate $\displaystyle \oint\limits_{C} \mathbf{F}(\mathbf{r}) \cdot \textrm{d}\mathbf{r},$ where $\mathbf F(x, y) = y\,\mathbf{i} + x\,\mathbf{j}$ and $C$ is a circle of radius $1$ centered at the origin, traversed once in the counterclockwise direction.
+Evaluate $\displaystyle \oint\limits_{C} \mathbf{F}(\mathbf{r}) \cdot \text{d}\mathbf{r},$ where $\mathbf F(x, y) = y\,\mathbf{i} + x\,\mathbf{j}$ and $C$ is a circle of radius $1$ centered at the origin, traversed once in the counterclockwise direction.
 
 #### Explanation
 
@@ -220,7 +220,7 @@ We will use the formula
 $$
 
 
-\oint\limits_C \mathbf{F} \cdot \textrm{d}\mathbf{r} = \int_a^b \mathbf{F}(\mathbf{r}(t)) \cdot \mathbf{r}'(t) \,\textrm{d}t.
+\oint\limits_C \mathbf{F} \cdot \text{d}\mathbf{r} = \int_a^b \mathbf{F}(\mathbf{r}(t)) \cdot \mathbf{r}'(t) \,\text{d}t.
 
 
 $$
@@ -280,7 +280,7 @@ Finally, we can evaluate the integral, as follows:
 $$
 
 
-\begin{aligned}\underset{𝐶}{∮}𝐅(𝐫)⋅d𝐫 & =∫_{2𝜋0}^{}𝐅(𝐫(𝑡))⋅𝐫^{′}(𝑡)\,d𝑡 \\ & =∫_{2𝜋0}^{}cos⁡2𝑡\,d𝑡 \\ & =[\frac{1}{2}sin⁡2𝑡]_{2𝜋0}^{} \\ & =\frac{1}{2}sin⁡4𝜋−\frac{1}{2}sin⁡(0) \\ & =0.\end{aligned}
+\begin{aligned}\underset{𝐶}{∮}𝐅(𝐫)⋅d𝐫 & =∫_{2𝜋0}𝐅(𝐫(𝑡))⋅𝐫^{′}(𝑡)\,d𝑡 \\ & =∫_{2𝜋0}cos⁡2𝑡\,d𝑡 \\ & =[\frac{1}{2}sin⁡2𝑡]_{2𝜋0} \\ & =\frac{1}{2}sin⁡4𝜋−\frac{1}{2}sin⁡(0) \\ & =0.\end{aligned}
 
 
 $$

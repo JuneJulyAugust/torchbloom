@@ -205,7 +205,7 @@ $$
 
 
 
-5x + 2 \lt -3 \qquad \textrm{or} \qquad 5x + 2 \gt 3
+5x + 2 \lt -3 \qquad \text{or} \qquad 5x + 2 \gt 3
 
 
 
@@ -229,7 +229,7 @@ $$
 
 
 
-x \lt -1 \quad \textrm{or} \quad x \gt \dfrac{1}{5}.
+x \lt -1 \quad \text{or} \quad x \gt \dfrac{1}{5}.
 
 
 

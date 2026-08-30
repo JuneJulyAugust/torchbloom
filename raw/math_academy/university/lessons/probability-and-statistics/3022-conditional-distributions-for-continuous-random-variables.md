@@ -153,7 +153,7 @@ Using the formula for the marginal density function for $Y,$ we have
 $$
 
 
-\begin{aligned}𝑓_{𝑌}(𝑦) & =∫_{∞−∞}^{}𝑓(𝑥,𝑦)\,d𝑥 \\ & =∫_{10}^{}(𝑥+𝑦)\,d𝑥 \\ & =[\frac{𝑥^{2}}{2}+𝑥𝑦]_{𝑥=1𝑥=0}^{} \\ & =\frac{1}{2}+𝑦−0 \\ & =\frac{2𝑦+1}{2}.\end{aligned}
+\begin{aligned}𝑓_{𝑌}(𝑦) & =∫_{∞−∞}𝑓(𝑥,𝑦)\,d𝑥 \\ & =∫_{10}(𝑥+𝑦)\,d𝑥 \\ & =[\frac{𝑥^{2}}{2}+𝑥𝑦]_{𝑥=1𝑥=0} \\ & =\frac{1}{2}+𝑦−0 \\ & =\frac{2𝑦+1}{2}.\end{aligned}
 
 
 $$
@@ -215,7 +215,7 @@ Let $X$ and $Y$ be two continuous random variables with the following joint prob
 $$
 
 
-\begin{aligned}8𝑥^{2}𝑦, & \,0<𝑥≤1,\,0≤𝑦≤\sqrt{√𝑥} \\ 0, & \,otherwise\end{aligned}
+\begin{aligned}8𝑥^{2}𝑦, & \,0<𝑥≤1,\,0≤𝑦≤\sqrt{𝑥} \\ 0, & \,otherwise\end{aligned}
 
 
 $$
@@ -229,7 +229,7 @@ Recall that
 $$
 
 
-P(Y \in A \,|\, X = x) = \int_A f_{Y \,|\, X} (y \,|\, x) \, \textrm{d}y,
+P(Y \in A \,|\, X = x) = \int_A f_{Y \,|\, X} (y \,|\, x) \, \text{d}y,
 
 
 $$
@@ -241,7 +241,7 @@ Using the formula for the marginal density function for $X,$ we have
 $$
 
 
-\begin{aligned}𝑓_{𝑋}(𝑥) & =∫_{∞−∞}^{}𝑓(𝑥,𝑦)\,d𝑦 \\ & =∫_{\sqrt{√𝑥}0}^{}8𝑥^{2}𝑦\,d𝑦 \\ & =8𝑥^{2}∫_{\sqrt{√𝑥}0}^{}𝑦\,d𝑦 \\ & =8𝑥^{2}[\frac{1}{2}𝑦^{2}]_{\sqrt{√𝑥}0}^{} \\ & =4𝑥^{2}(\sqrt{√𝑥})^{2}−0 \\ & =4𝑥^{3}.\end{aligned}
+\begin{aligned}𝑓_{𝑋}(𝑥) & =∫_{∞−∞}𝑓(𝑥,𝑦)\,d𝑦 \\ & =∫_{\sqrt{𝑥}0}^{}8𝑥^{2}𝑦\,d𝑦 \\ & =8𝑥^{2}∫_{\sqrt{𝑥}0}^{}𝑦\,d𝑦 \\ & =8𝑥^{2}[\frac{1}{2}𝑦^{2}]_{\sqrt{𝑥}0}^{} \\ & =4𝑥^{2}(\sqrt{𝑥})^{2}−0 \\ & =4𝑥^{3}.\end{aligned}
 
 
 $$
@@ -289,7 +289,7 @@ Therefore, the conditional probability density function is the following:
 $$
 
 
-\begin{aligned}\frac{2𝑦}{𝑥}, & \,0<𝑥≤1,\,0≤𝑦≤\sqrt{√𝑥} \\ 0, & \,otherwise\end{aligned}
+\begin{aligned}\frac{2𝑦}{𝑥}, & \,0<𝑥≤1,\,0≤𝑦≤\sqrt{𝑥} \\ 0, & \,otherwise\end{aligned}
 
 
 $$
@@ -299,7 +299,7 @@ Finally, we compute our probability:
 $$
 
 
-\begin{aligned}𝑃(𝑌<\frac{1}{2}\,\,𝑋=1) & =∫_{1/20}^{}𝑓_{𝑌\,|\,𝑋}(𝑦\,\,𝑥=1)d𝑦 \\ & =∫_{1/20}^{}\frac{2𝑦}{1}d𝑦 \\ & =∫_{1/20}^{}2𝑦\,d𝑦 \\ & =[𝑦^{2}]_{1/20}^{} \\ & =\frac{1}{4}−0 \\ & =\frac{1}{4}.\end{aligned}
+\begin{aligned}𝑃(𝑌<\frac{1}{2}\,\,𝑋=1) & =∫_{1/20}𝑓_{𝑌\,|\,𝑋}(𝑦\,\,𝑥=1)d𝑦 \\ & =∫_{1/20}\frac{2𝑦}{1}d𝑦 \\ & =∫_{1/20}2𝑦\,d𝑦 \\ & =[𝑦^{2}]_{1/20} \\ & =\frac{1}{4}−0 \\ & =\frac{1}{4}.\end{aligned}
 
 
 $$

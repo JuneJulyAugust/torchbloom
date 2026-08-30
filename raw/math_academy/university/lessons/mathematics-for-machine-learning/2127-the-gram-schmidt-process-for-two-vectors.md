@@ -15,7 +15,7 @@ Topic ID: 2127
 
 The **Gram-Schmidt process** is an algorithm that we can use to construct an *orthogonal* basis if we are given a non-orthogonal basis to start with.
 
-For example, consider the basis $\{\mathbf{a}_1, \mathbf{a}_2 \}$ for the subspace $V=\textrm{Span} \{\mathbf{a}_1, \mathbf{a}_2 \},$ where
+For example, consider the basis $\{\mathbf{a}_1, \mathbf{a}_2 \}$ for the subspace $V=\text{Span} \{\mathbf{a}_1, \mathbf{a}_2 \},$ where
 
 $$
 
@@ -33,12 +33,12 @@ We can use the above basis to construct an *orthogonal* basis for the given $2$-
 
 After applying the Gram-Schmidt process, we get the set $\mathcal{B}=\{{\color{blue}\mathbf{v}_1}, {\color{blue}\mathbf{v}_2}\},$ which is an orthogonal basis for $V.$
 
-So, in our example, we start by setting $[\begin{aligned}1 \\ −1\end{aligned}]$ Then, we find the vector $\mathbf{v}_2$ that's orthogonal to $\textrm{Span}\{\mathbf{v}_1\}$ as follows:
+So, in our example, we start by setting $[\begin{aligned}1 \\ −1\end{aligned}]$ Then, we find the vector $\mathbf{v}_2$ that's orthogonal to $\text{Span}\{\mathbf{v}_1\}$ as follows:
 
 $$
 
 
-\begin{aligned}𝐯_{2} & =𝐚_{2}−\frac{𝐚_{2}⋅𝐯_{1}}{𝐯_{1}⋅𝐯_{1}}𝐯_{1} \\ & =𝐚_{2}−\frac{4⋅1+6⋅(−1)}{1^{2}+(−1)^{2}}𝐯_{1} \\ & =[\begin{aligned}4 \\ 6\end{aligned}]−(−1)⋅[\begin{aligned}1 \\ −1\end{aligned}] \\ & =[\begin{aligned}5 \\ 5\end{aligned}]\end{aligned}
+\begin{aligned}𝐯_{2} & =𝐚_{2}−\frac{𝐚_{2}⋅𝐯_{1}}{𝐯_{1}⋅𝐯_{1}}𝐯_{1} \\ & =𝐚_{2}−\frac{4⋅1+6⋅(−1)}{1^{2}+(−1)^{2}}𝐯_{1} \\ & =[\begin{matrix}4 \\ 6\end{matrix}]−(−1)⋅[\begin{matrix}1 \\ −1\end{matrix}] \\ & =[\begin{matrix}5 \\ 5\end{matrix}]\end{aligned}
 
 
 $$
@@ -103,9 +103,9 @@ $$
 
 $$
 
-is an orthogonal basis for $\textrm{Span} \{\mathbf{v}_1, \mathbf{v}_2 \}.$
+is an orthogonal basis for $\text{Span} \{\mathbf{v}_1, \mathbf{v}_2 \}.$
 
-Since the vector $\mathbf{v}_2$ lies in $\textrm{Span} \{\mathbf{v}_1, \mathbf{v}_2 \}$ and $\mathbf{v}_1 \perp \mathbf{v}_2,$ the vector $3\mathbf{v}_2$ also lies in $\textrm{Span} \{\mathbf{v}_1, \mathbf{v}_2 \}$ and $\mathbf{v}_1 \perp 3\mathbf{v}_2.$ Therefore, taking
+Since the vector $\mathbf{v}_2$ lies in $\text{Span} \{\mathbf{v}_1, \mathbf{v}_2 \}$ and $\mathbf{v}_1 \perp \mathbf{v}_2,$ the vector $3\mathbf{v}_2$ also lies in $\text{Span} \{\mathbf{v}_1, \mathbf{v}_2 \}$ and $\mathbf{v}_1 \perp 3\mathbf{v}_2.$ Therefore, taking
 
 $$
 
@@ -115,7 +115,7 @@ $$
 
 $$
 
-instead of $\mathbf{v}_2,$ we again obtain an orthogonal basis for $\textrm{Span} \{\mathbf{v}_1, \mathbf{v}_2 \}\mathbin{:}$
+instead of $\mathbf{v}_2,$ we again obtain an orthogonal basis for $\text{Span} \{\mathbf{v}_1, \mathbf{v}_2 \}\mathbin{:}$
 
 $$
 
@@ -131,7 +131,7 @@ But this time, the second vector in the basis looks slightly nicer and is probab
 
 #### Question
 
-Consider the subspace $\textrm{Col}(A)$ and an orthogonal basis $\mathcal B$ of $\textrm{Col}(A),$ where $A$ and $\mathcal B$ are given below. Given that $\mathcal B$ is derived from $\textrm{Col}(A)$ using the Gram-Schmidt process, what is the value of $\dfrac{c}{a}?$
+Consider the subspace $\text{Col}(A)$ and an orthogonal basis $\mathcal B$ of $\text{Col}(A),$ where $A$ and $\mathcal B$ are given below. Given that $\mathcal B$ is derived from $\text{Col}(A)$ using the Gram-Schmidt process, what is the value of $\dfrac{c}{a}?$
 
 $$
 
@@ -143,7 +143,7 @@ $$
 
 #### Explanation
 
-Recall that $\textrm{Col}(A)$ is the span of the columns of $A.$
+Recall that $\text{Col}(A)$ is the span of the columns of $A.$
 
 First, let's denote
 
@@ -161,7 +161,7 @@ We proceed to find an orthogonal basis using the Gram-Schmidt process, as follow
 
 - ****: Next, we find $\mathbf{v}_2$, by using the formula Applying the formula for $\mathbf v_2$ in our case gives
 
-Therefore, $\begin{aligned}1 \\ −2 \\ 2\end{aligned}$ is an orthogonal basis for $\textrm{Col}(A).$
+Therefore, $\begin{aligned}1 \\ −2 \\ 2\end{aligned}$ is an orthogonal basis for $\text{Col}(A).$
 
 Finally, $a=-4,$ $c=-1,$ and
 

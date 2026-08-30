@@ -177,7 +177,7 @@ $$
 
 
 
-f(x)\to 2 \quad \textrm{as}\quad x\to -\infty.
+f(x)\to 2 \quad \text{as}\quad x\to -\infty.
 
 
 

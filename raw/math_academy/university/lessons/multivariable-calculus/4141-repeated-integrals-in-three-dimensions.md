@@ -19,7 +19,7 @@ For example, let's consider the repeated integral below:
 $$
 
 
-\int_{1}^2 \int_0^2 \int_0^1 x(y+z)^2 \:\textrm{d}z\:\textrm{d}y\:\textrm{d}x
+\int_{1}^2 \int_0^2 \int_0^1 x(y+z)^2 \:\text{d}z\:\text{d}y\:\text{d}x
 
 
 $$
@@ -31,7 +31,7 @@ We can write the first step more explicitly as
 $$
 
 
-\%\int_{1}^2 \int_0^2 \int_0^1 x(y+z)^2 \:\textrm{d}z\:\textrm{d}y\:\textrm{d}x= \int_{1}^2 \int_0^2 \left[ \int_0^1 x(y+z)^2 \:\textrm{d}z\right] \textrm{d}y\:\textrm{d}x. \%= \int_{1}^2 \left[ \int_0^2 \left[ \int_0^1 x(y+z)^2 \:\textrm{d}z \right] \textrm{d}y \right] \textrm{d}x.
+\%\int_{1}^2 \int_0^2 \int_0^1 x(y+z)^2 \:\text{d}z\:\text{d}y\:\text{d}x= \int_{1}^2 \int_0^2 \left[ \int_0^1 x(y+z)^2 \:\text{d}z\right] \text{d}y\:\text{d}x. \%= \int_{1}^2 \left[ \int_0^2 \left[ \int_0^1 x(y+z)^2 \:\text{d}z \right] \text{d}y \right] \text{d}x.
 
 
 $$
@@ -41,7 +41,7 @@ We now carry out the integration. First, we integrate the inner integral by inte
 $$
 
 
-\begin{aligned}∫_{21}^{}∫_{20}^{}[∫_{10}^{}𝑥(𝑦+𝑧)^{2}\,d𝑧]d𝑦\,d𝑥 & =∫_{21}^{}∫_{20}^{}𝑥[\frac{(𝑦+𝑧)^{3}}{3}]_{𝑧=1𝑧=0}^{}\,d𝑦\,d𝑥 \\ & =∫_{21}^{}∫_{20}^{}𝑥(\frac{(𝑦+1)^{3}}{3}−\frac{𝑦^{3}}{3})d𝑦\,d𝑥 \\ & =∫_{21}^{}∫_{20}^{}\frac{1}{3}𝑥((𝑦+1)^{3}−𝑦^{3})d𝑦\,d𝑥 \\ & =\frac{1}{3}∫_{21}^{}∫_{20}^{}𝑥((𝑦+1)^{3}−𝑦^{3})d𝑦\,d𝑥\end{aligned}
+\begin{aligned}∫_{21}∫_{20}[∫_{10}𝑥(𝑦+𝑧)^{2}\,d𝑧]d𝑦\,d𝑥 & =∫_{21}∫_{20}𝑥[\frac{(𝑦+𝑧)^{3}}{3}]_{𝑧=1𝑧=0}\,d𝑦\,d𝑥 \\ & =∫_{21}∫_{20}𝑥(\frac{(𝑦+1)^{3}}{3}−\frac{𝑦^{3}}{3})d𝑦\,d𝑥 \\ & =∫_{21}∫_{20}\frac{1}{3}𝑥((𝑦+1)^{3}−𝑦^{3})d𝑦\,d𝑥 \\ & =\frac{1}{3}∫_{21}∫_{20}𝑥((𝑦+1)^{3}−𝑦^{3})d𝑦\,d𝑥\end{aligned}
 
 
 $$
@@ -51,7 +51,7 @@ The next step is to integrate with respect to $y,$ which we can write more expli
 $$
 
 
-\dfrac13 \int_{1}^2 \left[ \int_0^2x \left( (y+1)^3 - y^3 \right) \textrm{d}y \right] \textrm{d}x.
+\dfrac13 \int_{1}^2 \left[ \int_0^2x \left( (y+1)^3 - y^3 \right) \text{d}y \right] \text{d}x.
 
 
 $$
@@ -61,7 +61,7 @@ Evaluating the inner integral by integrating with respect to $y,$ *treating $x$ 
 $$
 
 
-\begin{aligned}\frac{1}{3}∫_{21}^{}[∫_{20}^{}𝑥((𝑦+1)^{3}−𝑦^{3})d𝑦]d𝑥 & =\frac{1}{3}∫_{21}^{}𝑥[(\frac{(𝑦+1)^{4}}{4}−\frac{𝑦^{4}}{4})]_{𝑦=2𝑦=0}^{}\,d𝑥 \\ & =\frac{1}{3}∫_{21}^{}𝑥[(\frac{81}{4}−\frac{16}{4})−(\frac{1}{4}−0)]d𝑥 \\ & =\frac{1}{3}∫_{21}^{}𝑥⋅(\frac{64}{4})\,d𝑥 \\ & =\frac{1}{3}∫_{21}^{}16𝑥\,d𝑥.\end{aligned}
+\begin{aligned}\frac{1}{3}∫_{21}[∫_{20}𝑥((𝑦+1)^{3}−𝑦^{3})d𝑦]d𝑥 & =\frac{1}{3}∫_{21}𝑥[(\frac{(𝑦+1)^{4}}{4}−\frac{𝑦^{4}}{4})]_{𝑦=2𝑦=0}\,d𝑥 \\ & =\frac{1}{3}∫_{21}𝑥[(\frac{81}{4}−\frac{16}{4})−(\frac{1}{4}−0)]d𝑥 \\ & =\frac{1}{3}∫_{21}𝑥⋅(\frac{64}{4})\,d𝑥 \\ & =\frac{1}{3}∫_{21}16𝑥\,d𝑥.\end{aligned}
 
 
 $$
@@ -71,7 +71,7 @@ Finally, we integrate with respect to $x{:}$
 $$
 
 
-\begin{aligned}\frac{1}{3}∫_{21}^{}16𝑥\,d𝑥 & =\frac{1}{3}[8𝑥^{2}]_{𝑥=2𝑥=1}^{} \\ & =\frac{1}{3}(32−8) \\ & =\frac{1}{3}⋅24 \\ & =8\end{aligned}
+\begin{aligned}\frac{1}{3}∫_{21}16𝑥\,d𝑥 & =\frac{1}{3}[8𝑥^{2}]_{𝑥=2𝑥=1} \\ & =\frac{1}{3}(32−8) \\ & =\frac{1}{3}⋅24 \\ & =8\end{aligned}
 
 
 $$
@@ -81,7 +81,7 @@ Therefore, we conclude that
 $$
 
 
-\int_{1}^2 \int_0^2 \int_0^1 x(y+z)^2 \:\textrm{d}z\:\textrm{d}y\:\textrm{d}x = 8.
+\int_{1}^2 \int_0^2 \int_0^1 x(y+z)^2 \:\text{d}z\:\text{d}y\:\text{d}x = 8.
 
 
 $$
@@ -99,7 +99,7 @@ First, we evaluate the inner integral by integrating with respect to $z$, treati
 $$
 
 
-\begin{aligned}∫_{21}^{}∫_{2−1}^{}∫_{10}^{}𝑥^{2}𝑦+𝑥𝑧^{2}\,d𝑧\,d𝑥\,d𝑦 & =∫_{21}^{}∫_{2−1}^{}[∫_{10}^{}𝑥^{2}𝑦+𝑥𝑧^{2}\,d𝑧]d𝑥\,d𝑦 \\ & =∫_{21}^{}∫_{2−1}^{}[𝑥^{2}𝑦𝑧+\frac{𝑥𝑧^{3}}{3}]_{𝑧=1𝑧=0}^{}\,d𝑥\,d𝑦 \\ & =∫_{21}^{}∫_{2−1}^{}𝑥^{2}𝑦(1−0)+𝑥(\frac{1}{3}−0)\,d𝑥\,d𝑦 \\ & =∫_{21}^{}∫_{2−1}^{}𝑥^{2}𝑦+\frac{1}{3}𝑥\,d𝑥\,d𝑦\end{aligned}
+\begin{aligned}∫_{21}∫_{2−1}∫_{10}𝑥^{2}𝑦+𝑥𝑧^{2}\,d𝑧\,d𝑥\,d𝑦 & =∫_{21}∫_{2−1}[∫_{10}𝑥^{2}𝑦+𝑥𝑧^{2}\,d𝑧]d𝑥\,d𝑦 \\ & =∫_{21}∫_{2−1}[𝑥^{2}𝑦𝑧+\frac{𝑥𝑧^{3}}{3}]_{𝑧=1𝑧=0}\,d𝑥\,d𝑦 \\ & =∫_{21}∫_{2−1}𝑥^{2}𝑦(1−0)+𝑥(\frac{1}{3}−0)\,d𝑥\,d𝑦 \\ & =∫_{21}∫_{2−1}𝑥^{2}𝑦+\frac{1}{3}𝑥\,d𝑥\,d𝑦\end{aligned}
 
 
 $$
@@ -109,7 +109,7 @@ Next, we evaluate the inner integral by integrating with respect to $x$, treatin
 $$
 
 
-\begin{aligned}∫_{21}^{}∫_{2−1}^{}𝑥^{2}𝑦+\frac{1}{3}𝑥\,d𝑥\,d𝑦 & =∫_{21}^{}[∫_{2−1}^{}𝑥^{2}𝑦+\frac{1}{3}𝑥\,d𝑥]d𝑦 \\ & =∫_{21}^{}[\frac{1}{3}𝑥^{3}𝑦+\frac{1}{6}𝑥^{2}]_{𝑥=2𝑥=−1}^{}\,d𝑦 \\ & =∫_{21}^{}\frac{1}{3}𝑦(2^{3}−(−1)^{3})+\frac{1}{6}(2^{2}−(−1)^{2}))\,d𝑦 \\ & =∫_{21}^{}3𝑦+\frac{1}{2}\,d𝑦\end{aligned}
+\begin{aligned}∫_{21}∫_{2−1}𝑥^{2}𝑦+\frac{1}{3}𝑥\,d𝑥\,d𝑦 & =∫_{21}[∫_{2−1}𝑥^{2}𝑦+\frac{1}{3}𝑥\,d𝑥]d𝑦 \\ & =∫_{21}[\frac{1}{3}𝑥^{3}𝑦+\frac{1}{6}𝑥^{2}]_{𝑥=2𝑥=−1}\,d𝑦 \\ & =∫_{21}\frac{1}{3}𝑦(2^{3}−(−1)^{3})+\frac{1}{6}(2^{2}−(−1)^{2}))\,d𝑦 \\ & =∫_{21}3𝑦+\frac{1}{2}\,d𝑦\end{aligned}
 
 
 $$
@@ -119,7 +119,7 @@ Finally, we integrate with respect to $y{:}$
 $$
 
 
-\begin{aligned}∫_{21}^{}3𝑦+\frac{1}{2}\,d𝑥 & =[\frac{3𝑦^{2}}{2}+\frac{𝑦}{2}]_{𝑦=2𝑦=1}^{} \\ & =(6+1)−(\frac{3}{2}+\frac{1}{2}) \\ & =5\end{aligned}
+\begin{aligned}∫_{21}3𝑦+\frac{1}{2}\,d𝑥 & =[\frac{3𝑦^{2}}{2}+\frac{𝑦}{2}]_{𝑦=2𝑦=1} \\ & =(6+1)−(\frac{3}{2}+\frac{1}{2}) \\ & =5\end{aligned}
 
 
 $$
@@ -137,7 +137,7 @@ First, we evaluate the inner integral by integrating with respect to $z,$ treati
 $$
 
 
-\begin{aligned}∫_{20}^{}∫_{𝑥0}^{}∫_{3−𝑥−𝑦0}^{}𝑥\,d𝑧\,d𝑦\,d𝑥 & =∫_{20}^{}∫_{𝑥0}^{}[∫_{3−𝑥−𝑦0}^{}𝑥\,d𝑧]d𝑦\,d𝑥 \\ & =∫_{20}^{}∫_{𝑥0}^{}𝑥⋅[𝑧]_{𝑧=3−𝑥−𝑦𝑧=0}^{}\,d𝑦\,d𝑥 \\ & =∫_{20}^{}∫_{𝑥0}^{}𝑥(3−𝑥−𝑦)\,d𝑦\,d𝑥 \\ & =∫_{20}^{}∫_{𝑥0}^{}3𝑥−𝑥^{2}−𝑥𝑦\,d𝑦\,d𝑥\end{aligned}
+\begin{aligned}∫_{20}∫_{𝑥0}∫_{3−𝑥−𝑦0}𝑥\,d𝑧\,d𝑦\,d𝑥 & =∫_{20}∫_{𝑥0}[∫_{3−𝑥−𝑦0}𝑥\,d𝑧]d𝑦\,d𝑥 \\ & =∫_{20}∫_{𝑥0}𝑥⋅[𝑧]_{𝑧=3−𝑥−𝑦𝑧=0}\,d𝑦\,d𝑥 \\ & =∫_{20}∫_{𝑥0}𝑥(3−𝑥−𝑦)\,d𝑦\,d𝑥 \\ & =∫_{20}∫_{𝑥0}3𝑥−𝑥^{2}−𝑥𝑦\,d𝑦\,d𝑥\end{aligned}
 
 
 $$
@@ -147,7 +147,7 @@ Next, we evaluate the inner integral by integrating with respect to $y,$ treatin
 $$
 
 
-\begin{aligned}∫_{20}^{}∫_{𝑥0}^{}3𝑥−𝑥^{2}−𝑥𝑦\,d𝑦\,d𝑥 & =∫_{20}^{}[∫_{𝑥0}^{}3𝑥−𝑥^{2}−𝑥𝑦\,d𝑦]d𝑥 \\ & =∫_{20}^{}[(3𝑥−𝑥^{2})𝑦−\frac{1}{2}𝑥𝑦^{2}]_{𝑦=𝑥𝑦=0}^{}\,d𝑥 \\ & =∫_{20}^{}(3𝑥−𝑥^{2})(𝑥−0)−\frac{1}{2}𝑥(𝑥^{2}−0)\,d𝑥 \\ & =∫_{20}^{}3𝑥^{2}−𝑥^{3}−\frac{1}{2}𝑥^{3}\,d𝑥 \\ & =∫_{20}^{}3𝑥^{2}−\frac{3}{2}𝑥^{3}\,d𝑥\end{aligned}
+\begin{aligned}∫_{20}∫_{𝑥0}3𝑥−𝑥^{2}−𝑥𝑦\,d𝑦\,d𝑥 & =∫_{20}[∫_{𝑥0}3𝑥−𝑥^{2}−𝑥𝑦\,d𝑦]d𝑥 \\ & =∫_{20}[(3𝑥−𝑥^{2})𝑦−\frac{1}{2}𝑥𝑦^{2}]_{𝑦=𝑥𝑦=0}\,d𝑥 \\ & =∫_{20}(3𝑥−𝑥^{2})(𝑥−0)−\frac{1}{2}𝑥(𝑥^{2}−0)\,d𝑥 \\ & =∫_{20}3𝑥^{2}−𝑥^{3}−\frac{1}{2}𝑥^{3}\,d𝑥 \\ & =∫_{20}3𝑥^{2}−\frac{3}{2}𝑥^{3}\,d𝑥\end{aligned}
 
 
 $$
@@ -157,7 +157,7 @@ Finally, we integrate with respect to $x{:}$
 $$
 
 
-\begin{aligned}∫_{20}^{}3𝑥^{2}−\frac{3}{2}𝑥^{3}\,d𝑥 & =[𝑥^{3}−\frac{3}{8}𝑥^{4}]_{𝑥=2𝑥=0}^{} \\ & =8−6 \\ & =2\end{aligned}
+\begin{aligned}∫_{20}3𝑥^{2}−\frac{3}{2}𝑥^{3}\,d𝑥 & =[𝑥^{3}−\frac{3}{8}𝑥^{4}]_{𝑥=2𝑥=0} \\ & =8−6 \\ & =2\end{aligned}
 
 
 $$
@@ -183,7 +183,7 @@ Then, we can write the integral
 $$
 
 
-\displaystyle \int_{a}^{b} \int_{\alpha(x)}^{\beta(x)} \int_{\gamma(x,y)}^{\psi(x,y)} f(x,y,z) + g(x,y,z) \:\textrm{d}z\:\textrm{d}y\:\textrm{d}x
+\displaystyle \int_{a}^{b} \int_{\alpha(x)}^{\beta(x)} \int_{\gamma(x,y)}^{\psi(x,y)} f(x,y,z) + g(x,y,z) \:\text{d}z\:\text{d}y\:\text{d}x
 
 
 $$
@@ -193,7 +193,7 @@ as
 $$
 
 
-\int_{a}^{b} \int_{\alpha(x)}^{\beta(x)} \int_{\gamma(x,y)}^{\psi(x,y)} f(x,y,z) \:\textrm{d}z\:\textrm{d}y\:\textrm{d}x + \int_{a}^{b} \int_{\alpha(x)}^{\beta(x)} \int_{\gamma(x,y)}^{\psi(x,y)} g(x,y,z) \:\textrm{d}z\:\textrm{d}y\:\textrm{d}x.
+\int_{a}^{b} \int_{\alpha(x)}^{\beta(x)} \int_{\gamma(x,y)}^{\psi(x,y)} f(x,y,z) \:\text{d}z\:\text{d}y\:\text{d}x + \int_{a}^{b} \int_{\alpha(x)}^{\beta(x)} \int_{\gamma(x,y)}^{\psi(x,y)} g(x,y,z) \:\text{d}z\:\text{d}y\:\text{d}x.
 
 
 $$
@@ -205,7 +205,7 @@ Suppose that $f(x)$ is continuous on $[a,b],$ $g(y)$ is continuous on $[\alpha,\
 $$
 
 
-\int_{a}^{b} \int_{\alpha}^{\beta} \int_{\gamma}^{\psi} f(x) \cdot g(y) \cdot h(z) \:\textrm{d}z\:\textrm{d}y\:\textrm{d}x = \left( \int_{a}^{b} f(x) \:\textrm{d}x \right) \left( \int_{\alpha}^{\beta} g(y) \:\textrm{d}y \right) \left( \int_{\gamma}^{\psi} h(z) \:\textrm{d}z \right).
+\int_{a}^{b} \int_{\alpha}^{\beta} \int_{\gamma}^{\psi} f(x) \cdot g(y) \cdot h(z) \:\text{d}z\:\text{d}y\:\text{d}x = \left( \int_{a}^{b} f(x) \:\text{d}x \right) \left( \int_{\alpha}^{\beta} g(y) \:\text{d}y \right) \left( \int_{\gamma}^{\psi} h(z) \:\text{d}z \right).
 
 
 $$
@@ -217,7 +217,7 @@ Let's evaluate the following repeated integral using the rules we just discussed
 $$
 
 
-\displaystyle \int_{-1}^{1} \int_{0}^{1} \int_{0}^{2} (x+y+z) \: \textrm{d}x \: \textrm{d}y \: \textrm{d}z
+\displaystyle \int_{-1}^{1} \int_{0}^{1} \int_{0}^{2} (x+y+z) \: \text{d}x \: \text{d}y \: \text{d}z
 
 
 $$
@@ -227,7 +227,7 @@ First, we apply the sum rule:
 $$
 
 
-\int_{-1}^{1} \int_{0}^{1} \int_{0}^{2} x \: \textrm{d}x \: \textrm{d}y \: \textrm{d}z + \int_{-1}^{1} \int_{0}^{1} \int_{0}^{2} y \: \textrm{d}x \: \textrm{d}y \: \textrm{d}z + \int_{-1}^{1} \int_{0}^{1} \int_{0}^{2} z \: \textrm{d}x \: \textrm{d}y \: \textrm{d}z
+\int_{-1}^{1} \int_{0}^{1} \int_{0}^{2} x \: \text{d}x \: \text{d}y \: \text{d}z + \int_{-1}^{1} \int_{0}^{1} \int_{0}^{2} y \: \text{d}x \: \text{d}y \: \text{d}z + \int_{-1}^{1} \int_{0}^{1} \int_{0}^{2} z \: \text{d}x \: \text{d}y \: \text{d}z
 
 
 $$
@@ -237,7 +237,7 @@ Now, notice that the domain of integration $R = [0,2] \times [0,1] \times [-1,1]
 $$
 
 
-\int_{0}^{2} x \, \textrm{d}x \int_{0}^{1} \textrm{d}y \int_{-1}^{1} \textrm{d}z + \int_{0}^{2} \textrm{d}x \int_{0}^{1} y \, \textrm{d}y \int_{-1}^{1} \textrm{d}z + \int_{0}^{2} \textrm{d}x \int_{0}^{1} \textrm{d}y \int_{-1}^{1} z \, \textrm{d}z
+\int_{0}^{2} x \, \text{d}x \int_{0}^{1} \text{d}y \int_{-1}^{1} \text{d}z + \int_{0}^{2} \text{d}x \int_{0}^{1} y \, \text{d}y \int_{-1}^{1} \text{d}z + \int_{0}^{2} \text{d}x \int_{0}^{1} \text{d}y \int_{-1}^{1} z \, \text{d}z
 
 
 $$
@@ -255,7 +255,7 @@ Therefore, we conclude that
 $$
 
 
-\begin{aligned}∫_{1−1}^{}∫_{10}^{}∫_{20}^{}(𝑥+𝑦+𝑧)\,d𝑥\,d𝑦\,d𝑧=4+2+0=6\end{aligned}
+\begin{aligned}∫_{1−1}∫_{10}∫_{20}(𝑥+𝑦+𝑧)\,d𝑥\,d𝑦\,d𝑧=4+2+0=6\end{aligned}
 
 
 $$
@@ -264,7 +264,7 @@ $$
 
 #### Question
 
-Evaluate $\displaystyle \int_{1}^{2}\int_{0}^{\pi/2} \int_{1}^{4} \dfrac{\sin{y}}{x} \: \textrm{d}z \: \textrm{d}y \: \textrm{d}x.$
+Evaluate $\displaystyle \int_{1}^{2}\int_{0}^{\pi/2} \int_{1}^{4} \dfrac{\sin{y}}{x} \: \text{d}z \: \text{d}y \: \text{d}x.$
 
 #### Explanation
 
@@ -273,7 +273,7 @@ Since the domain of integration $R = [1,2] \times \left[0,\pi/2\right] \times [1
 $$
 
 
-\begin{aligned}∫_{21}^{}∫_{𝜋/20}^{}∫_{41}^{}\frac{sin⁡𝑦}{𝑥}\,d𝑧\,d𝑦\,d𝑥 & =∫_{21}^{}\frac{d𝑥}{𝑥}∫_{𝜋/20}^{}sin⁡𝑦\,d𝑦∫_{41}^{}d𝑧\end{aligned}
+\begin{aligned}∫_{21}∫_{𝜋/20}∫_{41}\frac{sin⁡𝑦}{𝑥}\,d𝑧\,d𝑦\,d𝑥 & =∫_{21}\frac{d𝑥}{𝑥}∫_{𝜋/20}sin⁡𝑦\,d𝑦∫_{41}d𝑧\end{aligned}
 
 
 $$
@@ -283,7 +283,7 @@ Evaluating each integral separately, we get
 $$
 
 
-\begin{aligned}∫_{21}^{}\frac{1}{𝑥}\,d𝑥∫_{𝜋/20}^{}sin⁡𝑦\,d𝑦\,∫_{41}^{}d𝑧 & =[ln⁡|𝑥|]_{21}^{}⋅[−cos⁡𝑦]_{𝜋/20}^{}⋅(4−1) \\ & =(ln⁡2−ln⁡1)⋅(−cos⁡(\frac{𝜋}{2})+cos⁡(0))⋅3 \\ & =(ln⁡2−0)⋅(0+1)⋅3 \\ & =3ln⁡2.\end{aligned}
+\begin{aligned}∫_{21}\frac{1}{𝑥}\,d𝑥∫_{𝜋/20}sin⁡𝑦\,d𝑦\,∫_{41}d𝑧 & =[ln⁡|𝑥|]_{21}⋅[−cos⁡𝑦]_{𝜋/20}⋅(4−1) \\ & =(ln⁡2−ln⁡1)⋅(−cos⁡(\frac{𝜋}{2})+cos⁡(0))⋅3 \\ & =(ln⁡2−0)⋅(0+1)⋅3 \\ & =3ln⁡2.\end{aligned}
 
 
 $$
@@ -293,7 +293,7 @@ Therefore, we conclude that
 $$
 
 
-\int_{1}^{2}\int_{0}^{\pi/2} \int_{1}^{4} \dfrac{\sin{y}}{x} \: \textrm{d}z \: \textrm{d}y \: \textrm{d}x = 3\ln 2.
+\int_{1}^{2}\int_{0}^{\pi/2} \int_{1}^{4} \dfrac{\sin{y}}{x} \: \text{d}z \: \text{d}y \: \text{d}x = 3\ln 2.
 
 
 $$

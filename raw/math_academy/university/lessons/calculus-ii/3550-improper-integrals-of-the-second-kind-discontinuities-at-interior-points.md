@@ -48,7 +48,7 @@ Let's evaluate $I_1\mathbin{:}$
 $$
 
 
-\begin{aligned}∫_{21}^{}\frac{1}{𝑥−2}\,d𝑥 & =\underset{𝑎→2^{−}}{lim}∫_{𝑎1}^{}\frac{1}{𝑥−2}\,d𝑥 \\ & =\underset{𝑎→2^{−}}{lim}ln⁡|𝑥−2|\,_{𝑎1}^{} \\ & =\underset{𝑎→2^{−}}{lim}(ln⁡|𝑎−2|−ln⁡|1−2|) \\ & =\underset{𝑎→2^{−}}{lim}(ln⁡|𝑎−2|−0) \\ & =\underset{𝑎→2^{−}}{lim}(ln⁡|𝑎−2|) \\ & =−∞.\end{aligned}
+\begin{aligned}∫_{21}\frac{1}{𝑥−2}\,d𝑥 & =\underset{𝑎→2^{−}}{lim}∫_{𝑎1}\frac{1}{𝑥−2}\,d𝑥 \\ & =\underset{𝑎→2^{−}}{lim}ln⁡|𝑥−2|\,_{𝑎1} \\ & =\underset{𝑎→2^{−}}{lim}(ln⁡|𝑎−2|−ln⁡|1−2|) \\ & =\underset{𝑎→2^{−}}{lim}(ln⁡|𝑎−2|−0) \\ & =\underset{𝑎→2^{−}}{lim}(ln⁡|𝑎−2|) \\ & =−∞.\end{aligned}
 
 
 $$
@@ -95,7 +95,7 @@ In conclusion, statements I, II, and III are all true.
 
 #### Question
 
-Find the value of $\displaystyle\int_{-2}^2\frac{1}{\sqrt[3]{x-1}}\textrm{d}x.$
+Find the value of $\displaystyle\int_{-2}^2\frac{1}{\sqrt[3]{x-1}}\text{d}x.$
 
 #### Explanation
 
@@ -104,7 +104,7 @@ Notice that the denominator of the integrand vanishes at $x=1.$ Therefore, to ev
 $$
 
 
-\begin{aligned}∫_{2−2}^{}\frac{1}{\sqrt[√𝑥−1]{3}}d𝑥 & =\underset{𝐼_{1}}{\underset{}{∫_{1−2}^{}\frac{1}{\sqrt[√𝑥−1]{3}}d𝑥}}+\underset{𝐼_{2}}{\underset{}{∫_{21}^{}\frac{1}{\sqrt[√𝑥−1]{3}}d𝑥}}\end{aligned}
+\begin{aligned}∫_{2−2}\frac{1}{\sqrt[√𝑥−1]{3}}d𝑥 & =\underset{𝐼_{1}}{\underset{}{∫_{1−2}\frac{1}{\sqrt[√𝑥−1]{3}}d𝑥}}+\underset{𝐼_{2}}{\underset{}{∫_{21}\frac{1}{\sqrt[√𝑥−1]{3}}d𝑥}}\end{aligned}
 
 
 $$
@@ -114,7 +114,7 @@ Let's evaluate the first integral. Using the substitution $u = x-1,$ we get
 $$
 
 
-\begin{aligned}𝐼_{1} & =∫_{1−2}^{}\frac{1}{\sqrt[√𝑥−1]{3}}d𝑥 \\ & =∫_{0−3}^{}\frac{1}{\sqrt[√𝑢]{3}}d𝑢 \\ & =\underset{𝑎→0^{−}}{lim}∫_{𝑎−3}^{}𝑢^{−1/3}d𝑢 \\ & =\underset{𝑎→0^{−}}{lim}[\frac{3}{2}𝑢^{2/3}]_{𝑎−3}^{} \\ & =\underset{𝑎→0^{−}}{lim}\frac{3}{2}[𝑎^{2/3}−(−3)^{2/3}] \\ & =\frac{3}{2}[(0)^{2/3}−\sqrt[√(−3)^{2}]{3}] \\ & =−\frac{3}{2}\sqrt[√9]{3}.\end{aligned}
+\begin{aligned}𝐼_{1} & =∫_{1−2}\frac{1}{\sqrt[√𝑥−1]{3}}d𝑥 \\ & =∫_{0−3}\frac{1}{\sqrt[√𝑢]{3}}d𝑢 \\ & =\underset{𝑎→0^{−}}{lim}∫_{𝑎−3}𝑢^{−1/3}d𝑢 \\ & =\underset{𝑎→0^{−}}{lim}[\frac{3}{2}𝑢^{2/3}]_{𝑎−3} \\ & =\underset{𝑎→0^{−}}{lim}\frac{3}{2}[𝑎^{2/3}−(−3)^{2/3}] \\ & =\frac{3}{2}[(0)^{2/3}−\sqrt[√(−3)^{2}]{3}] \\ & =−\frac{3}{2}\sqrt[√9]{3}.\end{aligned}
 
 
 $$
@@ -124,7 +124,7 @@ Similarly, for $I_2,$ we have
 $$
 
 
-\begin{aligned}𝐼_{2} & =∫_{21}^{}\frac{1}{\sqrt[√𝑥−1]{3}}d𝑥 \\ & =∫_{10}^{}\frac{1}{\sqrt[√𝑢]{3}}d𝑢 \\ & =\underset{𝑎→0^{+}}{lim}∫_{1𝑎}^{}𝑢^{−1/3}d𝑢 \\ & =\underset{𝑎→0^{+}}{lim}[\frac{3}{2}𝑢^{2/3}]_{1𝑎}^{} \\ & =\underset{𝑎→0^{+}}{lim}\frac{3}{2}[1^{2/3}−𝑎^{2/3}] \\ & =\frac{3}{2}[1−0] \\ & =\frac{3}{2}.\end{aligned}
+\begin{aligned}𝐼_{2} & =∫_{21}\frac{1}{\sqrt[√𝑥−1]{3}}d𝑥 \\ & =∫_{10}\frac{1}{\sqrt[√𝑢]{3}}d𝑢 \\ & =\underset{𝑎→0^{+}}{lim}∫_{1𝑎}𝑢^{−1/3}d𝑢 \\ & =\underset{𝑎→0^{+}}{lim}[\frac{3}{2}𝑢^{2/3}]_{1𝑎} \\ & =\underset{𝑎→0^{+}}{lim}\frac{3}{2}[1^{2/3}−𝑎^{2/3}] \\ & =\frac{3}{2}[1−0] \\ & =\frac{3}{2}.\end{aligned}
 
 
 $$
@@ -134,7 +134,7 @@ Therefore,
 $$
 
 
-\begin{aligned}∫_{2−2}^{}\frac{1}{\sqrt[√𝑥−1]{3}}d𝑥 & =𝐼_{1}+𝐼_{2} \\ & =−\frac{3}{2}\sqrt[√9]{3}+\frac{3}{2} \\ & =\frac{3}{2}(1−\sqrt[√9]{3}).\end{aligned}
+\begin{aligned}∫_{2−2}\frac{1}{\sqrt[√𝑥−1]{3}}d𝑥 & =𝐼_{1}+𝐼_{2} \\ & =−\frac{3}{2}\sqrt[√9]{3}+\frac{3}{2} \\ & =\frac{3}{2}(1−\sqrt[√9]{3}).\end{aligned}
 
 
 $$

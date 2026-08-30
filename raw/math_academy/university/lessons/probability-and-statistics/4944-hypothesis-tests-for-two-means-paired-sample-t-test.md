@@ -145,7 +145,7 @@ Assuming the null hypothesis, i.e., $\mu=0,$ we compute the test statistic:
 $$
 
 
-\begin{aligned}𝑡 & =\frac{\overset{𝑑}{–}−𝜇}{𝑠/\sqrt{√𝑛}} \\ & =\frac{−3.6−0}{\sqrt{√12.3}/\sqrt{√5}} \\ & ≈−2.295\end{aligned}
+\begin{aligned}𝑡 & =\frac{\overset{𝑑}{–}−𝜇}{𝑠/\sqrt{𝑛}} \\ & =\frac{−3.6−0}{\sqrt{12.3}/\sqrt{5}} \\ & ≈−2.295\end{aligned}
 
 
 $$
@@ -166,7 +166,7 @@ Our test statistic ($-2.295$) lies in the critical region, as shown below.
 
 So, we reject the null hypothesis $H_0.$ As a result, we conclude the following:
 
-$\qquad$ There is $\boxed{\color{blue}\textrm{sufficient}}$ evidence that, at the $5\%$ level of significance, we have $\mu \lt 0.$
+$\qquad$ There is $\boxed{\color{blue}\text{sufficient}}$ evidence that, at the $5\%$ level of significance, we have $\mu \lt 0.$
 
 ### Example: Hypothesis Tests for Means of Paired-Samples: Two-Tailed Tests
 
@@ -223,7 +223,7 @@ Assuming the null hypothesis, i.e., $\mu=0,$ we compute the test statistic:
 $$
 
 
-\begin{aligned}𝑡 & =\frac{\overset{𝑑}{–}−𝜇}{𝑠/\sqrt{√𝑛}} \\ & =\frac{1.8−0}{6/\sqrt{√64}} \\ & =2.4\end{aligned}
+\begin{aligned}𝑡 & =\frac{\overset{𝑑}{–}−𝜇}{𝑠/\sqrt{𝑛}} \\ & =\frac{1.8−0}{6/\sqrt{64}} \\ & =2.4\end{aligned}
 
 
 $$
@@ -233,7 +233,7 @@ According to the table, the $10\%$ two-tailed critical value for $k=64-1=63$ deg
 $$
 
 
-T \leq \boxed{\color{blue}-1.669} \qquad \textrm{or} \qquad T \geq \boxed{\color{blue}1.669}.
+T \leq \boxed{\color{blue}-1.669} \qquad \text{or} \qquad T \geq \boxed{\color{blue}1.669}.
 
 
 $$
@@ -244,7 +244,7 @@ Our test statistic ($2.4$) lies in the critical region, as shown below.
 
 So, we reject the null hypothesis $H_0.$ As a result, we conclude the following:
 
-$\qquad$ There is $\boxed{\color{blue}\textrm{sufficient}}$ evidence that, at the $10\%$ level of significance, we have $\mu \neq 0.$
+$\qquad$ There is $\boxed{\color{blue}\text{sufficient}}$ evidence that, at the $10\%$ level of significance, we have $\mu \neq 0.$
 
 ### Example: Hypothesis Tests for Means of Paired-Samples: Applications
 
@@ -313,7 +313,7 @@ Next, we compute our point estimate of $s^2$ of $\sigma^2$ (remember to divide b
 $$
 
 
-\begin{aligned}𝑠 & =\sqrt{√\frac{(−4−(−5))^{2}+(−4−(−5))^{2}+(−5−(−5))^{2}+(−12−(−5))^{2}+(0−(−5))^{2}}{4}} \\ & =\sqrt{√19}\end{aligned}
+\begin{aligned}𝑠 & =\sqrt{\frac{(−4−(−5))^{2}+(−4−(−5))^{2}+(−5−(−5))^{2}+(−12−(−5))^{2}+(0−(−5))^{2}}{4}} \\ & =\sqrt{19}\end{aligned}
 
 
 $$
@@ -323,7 +323,7 @@ Assuming the null hypothesis, i.e., $\mu=0,$ we compute the test statistic:
 $$
 
 
-\begin{aligned}𝑡 & =\frac{\overset{𝑑}{–}−𝜇}{𝑠/\sqrt{√𝑛}} \\ & =\frac{−5−0}{\sqrt{√19}/\sqrt{√5}} \\ & ≈−2.565\end{aligned}
+\begin{aligned}𝑡 & =\frac{\overset{𝑑}{–}−𝜇}{𝑠/\sqrt{𝑛}} \\ & =\frac{−5−0}{\sqrt{19}/\sqrt{5}} \\ & ≈−2.565\end{aligned}
 
 
 $$
@@ -342,4 +342,4 @@ Our test statistic ($-2.689$) lies in the critical region, as shown below.
 
 ![Instructional graphic](../../../lesson-assets/probability-and-statistics/topic-4944/720ab94309fd62a5.png)
 
-There is $\boxed{\color{blue}\textrm{sufficient}}$ evidence that, at the $5\%$ level of significance, we have that the contestants' times slowed the more cookies they ate.
+There is $\boxed{\color{blue}\text{sufficient}}$ evidence that, at the $5\%$ level of significance, we have that the contestants' times slowed the more cookies they ate.

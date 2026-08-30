@@ -137,12 +137,12 @@ Recall that Bézout’s identity states that for any two integers $a$ and $b,$ t
 $$
 
 
-au+bv= \textrm{gcd}(a,b)
+au+bv= \text{gcd}(a,b)
 
 
 $$
 
-where $\textrm{gcd}(a,b)$ is the greatest common divisor of $a$ and $b.$
+where $\text{gcd}(a,b)$ is the greatest common divisor of $a$ and $b.$
 
 With that in mind, let's prove this statement.
 

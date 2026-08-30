@@ -134,7 +134,7 @@ Recall that the alternating series test states that if $a_n$ is a positive, decr
 $$
 
 
-\sum_{n=1}^{\infty} (-1)^n a_n \qquad\textrm{and}\qquad \sum_{n=1}^{\infty} (-1)^{n+1} a_n
+\sum_{n=1}^{\infty} (-1)^n a_n \qquad\text{and}\qquad \sum_{n=1}^{\infty} (-1)^{n+1} a_n
 
 
 $$
@@ -156,7 +156,7 @@ is positive, decreasing, and $a_n\to0$ as $n\to\infty$ for $p>0,$ the alternatin
 $$
 
 
-\sum_{n=1}^{\infty} \dfrac{(-1)^n}{n^p} \qquad\textrm{and}\qquad \sum_{n=1}^{\infty} \dfrac{(-1)^{n+1}}{n^p}
+\sum_{n=1}^{\infty} \dfrac{(-1)^n}{n^p} \qquad\text{and}\qquad \sum_{n=1}^{\infty} \dfrac{(-1)^{n+1}}{n^p}
 
 
 $$

@@ -42,7 +42,7 @@ Additionally, we can see from the graph that the limits at infinity are
 $$
 
 
-\lim_{x\to \infty} |x| = \infty \qquad \textrm{and}\qquad \lim_{x\to -\infty} |x| = \infty.
+\lim_{x\to \infty} |x| = \infty \qquad \text{and}\qquad \lim_{x\to -\infty} |x| = \infty.
 
 
 $$
@@ -51,7 +51,7 @@ $$
 
 #### Question
 
-Find $\lim_\limits{x \to (-2)^+} \dfrac{15x}{|x^3+x|}.$
+Find $\lim\limits_{x \to (-2)^+} \dfrac{15x}{|x^3+x|}.$
 
 #### Explanation
 
@@ -93,7 +93,7 @@ As we will see in the following examples, it is sometimes helpful to use all of 
 
 #### Question
 
-Find $\lim_\limits{x \to 0^-} \dfrac{\sqrt{x^2}}{x}.$
+Find $\lim\limits_{x \to 0^-} \dfrac{\sqrt{x^2}}{x}.$
 
 #### Explanation
 
@@ -102,7 +102,7 @@ First, recall that $\sqrt{x^2} = |x|.$ Therefore, we can rewrite the limit as
 $$
 
 
-\lim_\limits{x \to 0^-} \dfrac{|x|}{x}.
+\lim\limits_{x \to 0^-} \dfrac{|x|}{x}.
 
 
 $$
@@ -134,7 +134,7 @@ Finally, we conclude that
 $$
 
 
-\lim_\limits{x \to 0^-} \dfrac{\sqrt{x^2}}{x} = -1.
+\lim\limits_{x \to 0^-} \dfrac{\sqrt{x^2}}{x} = -1.
 
 
 $$
@@ -143,7 +143,7 @@ $$
 
 #### Question
 
-Evaluate $\lim_\limits{x \rightarrow 1^+}\dfrac{|x-1|}{\sqrt{x-1}}.$
+Evaluate $\lim\limits_{x \rightarrow 1^+}\dfrac{|x-1|}{\sqrt{x-1}}.$
 
 #### Explanation
 
@@ -152,7 +152,7 @@ First, let's attempt to evaluate this limit by direct substitution. Substituting
 $$
 
 
-\begin{aligned}\underset{𝑥→1^{+}}{lim}\frac{|𝑥−1|}{\sqrt{√𝑥−1}} & =\frac{|1−1|}{\sqrt{√1−1}} \\ & =\frac{|0|}{0} \\ & =\frac{0}{0}\end{aligned}
+\begin{aligned}\underset{𝑥→1^{+}}{lim}\frac{|𝑥−1|}{\sqrt{𝑥−1}} & =\frac{|1−1|}{\sqrt{1−1}} \\ & =\frac{|0|}{0} \\ & =\frac{0}{0}\end{aligned}
 
 
 $$
@@ -164,7 +164,7 @@ Notice, however, that we only require the right-sided limit, i.e., $x\to1^{+}.$ 
 $$
 
 
-\begin{aligned}\underset{𝑥→1^{+}}{lim}\frac{|𝑥−1|}{\sqrt{√𝑥−1}} & =\underset{𝑥→1^{+}}{lim}\frac{𝑥−1}{\sqrt{√𝑥−1}}\end{aligned}
+\begin{aligned}\underset{𝑥→1^{+}}{lim}\frac{|𝑥−1|}{\sqrt{𝑥−1}} & =\underset{𝑥→1^{+}}{lim}\frac{𝑥−1}{\sqrt{𝑥−1}}\end{aligned}
 
 
 $$
@@ -174,7 +174,7 @@ Direct substitution into the above still gives an indeterminate form $\dfrac 0 0
 $$
 
 
-\begin{aligned}\underset{𝑥→1^{+}}{lim}\frac{𝑥−1}{\sqrt{√𝑥−1}} & =\underset{𝑥→1^{+}}{lim}\frac{𝑥−1}{\sqrt{√𝑥−1}}⋅\frac{\sqrt{√𝑥−1}}{\sqrt{√𝑥−1}} \\ & =\underset{𝑥→1^{+}}{lim}\frac{(𝑥−1)\sqrt{√𝑥−1}}{𝑥−1} \\ & =\underset{𝑥→1^{+}}{lim}\frac{(𝑥−1)\sqrt{√𝑥−1}}{𝑥−1} \\ & =\underset{𝑥→1^{+}}{lim}\frac{\sqrt{√𝑥−1}}{1} \\ & =\underset{𝑥→1^{+}}{lim}\sqrt{√𝑥−1} \\ & =\sqrt{√1−1} \\ & =\sqrt{√0} \\ & =0\end{aligned}
+\begin{aligned}\underset{𝑥→1^{+}}{lim}\frac{𝑥−1}{\sqrt{𝑥−1}} & =\underset{𝑥→1^{+}}{lim}\frac{𝑥−1}{\sqrt{𝑥−1}}⋅\frac{\sqrt{𝑥−1}}{\sqrt{𝑥−1}} \\ & =\underset{𝑥→1^{+}}{lim}\frac{(𝑥−1)\sqrt{𝑥−1}}{𝑥−1} \\ & =\underset{𝑥→1^{+}}{lim}\frac{(𝑥−1)\sqrt{𝑥−1}}{𝑥−1} \\ & =\underset{𝑥→1^{+}}{lim}\frac{\sqrt{𝑥−1}}{1} \\ & =\underset{𝑥→1^{+}}{lim}\sqrt{𝑥−1} \\ & =\sqrt{1−1} \\ & =\sqrt{0} \\ & =0\end{aligned}
 
 
 $$
@@ -183,7 +183,7 @@ $$
 
 #### Question
 
-Determine $\lim_\limits{x \to 2^-} \dfrac {\vert x^2 - 4 \vert} {x - 2}.$
+Determine $\lim\limits_{x \to 2^-} \dfrac {\vert x^2 - 4 \vert} {x - 2}.$
 
 #### Explanation
 
@@ -204,7 +204,7 @@ To evaluate the limit, we factor the numerator and rewrite the limit, as follows
 $$
 
 
-\begin{aligned} \lim_{x \to 2^-} \dfrac {\vert x^2 - 4 \vert} {x - 2} &=\lim_{x \to 2^-} \dfrac {\vert (x+2)(x-2) \vert} {x - 2}\\\[5pt] &=\lim_{x \to 2^-} \dfrac {\vert x+2\vert \cdot \vert x-2 \vert} {x - 2}\\\[5pt] \end{aligned}
+\begin{aligned} \lim_{x \to 2^-} \dfrac {\vert x^2 - 4 \vert} {x - 2} &=\lim_{x \to 2^-} \dfrac {\vert (x+2)(x-2) \vert} {x - 2}\\[5pt] &=\lim_{x \to 2^-} \dfrac {\vert x+2\vert \cdot \vert x-2 \vert} {x - 2}\\[5pt] \end{aligned}
 
 
 $$
@@ -230,7 +230,7 @@ Finally, we conclude that
 $$
 
 
-\lim_\limits{x \to 2^-} \dfrac {\vert x^2 - 4 \vert} {x - 2} = -4.
+\lim\limits_{x \to 2^-} \dfrac {\vert x^2 - 4 \vert} {x - 2} = -4.
 
 
 $$

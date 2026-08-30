@@ -116,7 +116,7 @@ we just need to multiply by the reciprocal of the divisor:
 $$
 
 
- \begin{aligned} \dfrac {2a^2(1+b)} {3b} \div \dfrac{1+b}{5b^2}&=\\\[5pt] \dfrac {2a^2(1+b)} {3b} \cdot \dfrac {5b^2} {1+b}&=\\\[5pt] \dfrac {2a^2(1+b)} {3b} \cdot \dfrac {5b^{2}} {1+b}&=\\\[5pt] \dfrac {10a^2b} {3} \end{aligned}
+ \begin{aligned} \dfrac {2a^2(1+b)} {3b} \div \dfrac{1+b}{5b^2}&=\\[5pt] \dfrac {2a^2(1+b)} {3b} \cdot \dfrac {5b^2} {1+b}&=\\[5pt] \dfrac {2a^2(1+b)} {3b} \cdot \dfrac {5b^{2}} {1+b}&=\\[5pt] \dfrac {10a^2b} {3} \end{aligned}
 
 
 $$

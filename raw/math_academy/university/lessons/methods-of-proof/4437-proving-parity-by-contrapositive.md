@@ -536,7 +536,7 @@ To prove $P \Rightarrow Q,$ it suffices to prove the contrapositive $\neg Q \Rig
 $$
 
 
-\neg\left(m \textrm{ is even and } n \textrm{ is odd} \right) \Rightarrow \neg\left((m-1)n^2\textrm{ is odd}\right)
+\neg\left(m \text{ is even and } n \text{ is odd} \right) \Rightarrow \neg\left((m-1)n^2\text{ is odd}\right)
 
 
 $$
@@ -546,7 +546,7 @@ Negating the right-hand-side of our implication is straightforward:
 $$
 
 
-\neg\left(m \textrm{ is even and } n \textrm{ is odd} \right) \Rightarrow (m-1)n^2 \textrm{ is even}
+\neg\left(m \text{ is even and } n \text{ is odd} \right) \Rightarrow (m-1)n^2 \text{ is even}
 
 
 $$

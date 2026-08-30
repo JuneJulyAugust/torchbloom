@@ -40,7 +40,7 @@ such that for any $\begin{aligned}𝑥_{1} \\ 𝑥_{2} \\ ⋮ \\ 𝑥_{𝑛}\end
 $$
 
 
-\begin{aligned}𝑓(𝐱) & =𝐚𝐱 \\ & =[\begin{aligned}𝑎_{1} & 𝑎_{2} & ⋯ & 𝑎_{𝑛}\end{aligned}]⋅\begin{aligned}𝑥_{1} \\ 𝑥_{2} \\ ⋮ \\ 𝑥_{𝑛}\end{aligned} \\ & =𝑎_{1}𝑥_{1}+𝑎_{2}𝑥_{2}+…+𝑎_{𝑛}𝑥_{𝑛}.\end{aligned}
+\begin{aligned}𝑓(𝐱) & =𝐚𝐱 \\ & =[\begin{matrix}𝑎_{1} & 𝑎_{2} & ⋯ & 𝑎_{𝑛}\end{matrix}]⋅\begin{matrix}𝑥_{1} \\ 𝑥_{2} \\ ⋮ \\ 𝑥_{𝑛}\end{matrix} \\ & =𝑎_{1}𝑥_{1}+𝑎_{2}𝑥_{2}+…+𝑎_{𝑛}𝑥_{𝑛}.\end{aligned}
 
 
 $$
@@ -52,7 +52,7 @@ Suppose we want to evaluate $f(\mathbf{x})$ at $[\begin{aligned}\,1 \\ \,\,−1\
 $$
 
 
-\begin{aligned}𝑓(𝐱) & =𝐚𝐱 \\ & =[\begin{aligned}3 & −2\end{aligned}]⋅[\begin{aligned}\,1 \\ \,\,−1\end{aligned}] \\ & =3⋅1+(−2)⋅(−1) \\ & =3+2 \\ & =5.\end{aligned}
+\begin{aligned}𝑓(𝐱) & =𝐚𝐱 \\ & =[\begin{matrix}3 & −2\end{matrix}]⋅[\begin{matrix}\,1 \\ \,\,−1\end{matrix}] \\ & =3⋅1+(−2)⋅(−1) \\ & =3+2 \\ & =5.\end{aligned}
 
 
 $$
@@ -70,7 +70,7 @@ Substituting $\begin{aligned}−5 \\ 8 \\ 5\end{aligned}$ we obtain
 $$
 
 
-\begin{aligned}𝑓(𝐱) & =𝐚𝐱 \\ & =[\begin{aligned}3 & 0 & 4\end{aligned}]⋅\begin{aligned}−5 \\ 8 \\ 5\end{aligned} \\ & =3⋅(−5)+0⋅8+4⋅5 \\ & =−15+0+20 \\ & =5.\end{aligned}
+\begin{aligned}𝑓(𝐱) & =𝐚𝐱 \\ & =[\begin{matrix}3 & 0 & 4\end{matrix}]⋅\begin{matrix}−5 \\ 8 \\ 5\end{matrix} \\ & =3⋅(−5)+0⋅8+4⋅5 \\ & =−15+0+20 \\ & =5.\end{aligned}
 
 
 $$
@@ -92,7 +92,7 @@ Suppose, for example, that $[\begin{aligned}1 & 2 \\ 3 & 4\end{aligned}]$ To eva
 $$
 
 
-\begin{aligned}𝐵(𝐱,𝐲) & =𝐱^{𝑇}\,𝐴𝐲 \\ & =[\begin{aligned}1 & 2\end{aligned}][\begin{aligned}1 & 2 \\ 3 & 4\end{aligned}][\begin{aligned}−1 \\ 1\end{aligned}] \\ & =[\begin{aligned}7 & 10\end{aligned}][\begin{aligned}−1 \\ 1\end{aligned}] \\ & =3.\end{aligned}
+\begin{aligned}𝐵(𝐱,𝐲) & =𝐱^{𝑇}\,𝐴𝐲 \\ & =[\begin{matrix}1 & 2\end{matrix}][\begin{matrix}1 & 2 \\ 3 & 4\end{matrix}][\begin{matrix}−1 \\ 1\end{matrix}] \\ & =[\begin{matrix}7 & 10\end{matrix}][\begin{matrix}−1 \\ 1\end{matrix}] \\ & =3.\end{aligned}
 
 
 $$
@@ -112,7 +112,7 @@ we proceed as follows:
 $$
 
 
-\begin{aligned}𝐵(𝐱,𝐲) & =𝐱^{𝑇}\,𝐴𝐲 \\ & =[\begin{aligned}𝑥_{1} & 𝑥_{2}\end{aligned}][\begin{aligned}1 & 2 \\ 3 & 4\end{aligned}][\begin{aligned}𝑦_{1} \\ 𝑦_{2}\end{aligned}] \\ & =[\begin{aligned}𝑥_{1} & 𝑥_{2}\end{aligned}][\begin{aligned}𝑦_{1}+2𝑦_{2} \\ 3𝑦_{1}+4𝑦_{2}\end{aligned}] \\ & =𝑥_{1}(𝑦_{1}+2𝑦_{2})+𝑥_{2}(3𝑦_{1}+4𝑦_{2}) \\ & =𝑥_{1}𝑦_{1}+2𝑥_{1}𝑦_{2}+3𝑥_{2}𝑦_{1}+4𝑥_{2}𝑦_{2}\end{aligned}
+\begin{aligned}𝐵(𝐱,𝐲) & =𝐱^{𝑇}\,𝐴𝐲 \\ & =[\begin{matrix}𝑥_{1} & 𝑥_{2}\end{matrix}][\begin{matrix}1 & 2 \\ 3 & 4\end{matrix}][\begin{matrix}𝑦_{1} \\ 𝑦_{2}\end{matrix}] \\ & =[\begin{matrix}𝑥_{1} & 𝑥_{2}\end{matrix}][\begin{matrix}𝑦_{1}+2𝑦_{2} \\ 3𝑦_{1}+4𝑦_{2}\end{matrix}] \\ & =𝑥_{1}(𝑦_{1}+2𝑦_{2})+𝑥_{2}(3𝑦_{1}+4𝑦_{2}) \\ & =𝑥_{1}𝑦_{1}+2𝑥_{1}𝑦_{2}+3𝑥_{2}𝑦_{1}+4𝑥_{2}𝑦_{2}\end{aligned}
 
 
 $$

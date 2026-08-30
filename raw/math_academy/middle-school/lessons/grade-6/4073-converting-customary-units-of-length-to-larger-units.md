@@ -16,9 +16,9 @@ In previous lessons, we explored converting larger customary units of length to 
 
 To convert between customary units of length, we use the following unit conversions:
 
-- $1 \,\textrm{yd} = 3 \,\textrm{ft}$
+- $1 \,\text{yd} = 3 \,\text{ft}$
 
-- $1 \,\textrm{ft} = 12 \,\textrm{in}$
+- $1 \,\text{ft} = 12 \,\text{in}$
 
 We can visualize equivalent units of length using measuring devices. For example, the instrument below shows the equivalence between $1$ foot and $12$ inches.
 
@@ -36,7 +36,7 @@ $$
 
 
 
-1 \,\textrm{yd} = 3 \,\textrm{ft}
+1 \,\text{yd} = 3 \,\text{ft}
 
 
 
@@ -48,13 +48,13 @@ $$
 
 
 
-\dfrac{1}{3} \,\textrm{yd} = 1 \,\textrm{ft}
+\dfrac{1}{3} \,\text{yd} = 1 \,\text{ft}
 
 
 
 $$
 
-The right-hand side reads $1\,\textrm{ft},$ and we want to know how many yards are in $\color{blue}34$ feet. So, we multiply *both* sides of this equation by ${\color{blue}{34}}.$
+The right-hand side reads $1\,\text{ft},$ and we want to know how many yards are in $\color{blue}34$ feet. So, we multiply *both* sides of this equation by ${\color{blue}{34}}.$
 
 $$
 
@@ -66,7 +66,7 @@ $$
 
 $$
 
-Therefore, $34\,\textrm{ft}$ equals $11\,\dfrac13\,\textrm{yd}.$
+Therefore, $34\,\text{ft}$ equals $11\,\dfrac13\,\text{yd}.$
 
 Sometimes we need to use long division when converting between different units. Let's see an example.
 
@@ -84,7 +84,7 @@ $$
 
 
 
-1 \,\textrm{yd} = 3 \,\textrm{ft}
+1 \,\text{yd} = 3 \,\text{ft}
 
 
 
@@ -96,7 +96,7 @@ $$
 
 
 
-\dfrac13 \,\textrm{yd} = 1 \,\textrm{ft}
+\dfrac13 \,\text{yd} = 1 \,\text{ft}
 
 
 
@@ -116,7 +116,7 @@ $$
 
 Finally, we simplify this fraction by interpreting $\dfrac{63}{3}$ as the division $63 \div 3.$ We can calculate this using long division:
 
-Therefore, $63\,\textrm{ft}$ equals $21\,\textrm{yd}.$
+Therefore, $63\,\text{ft}$ equals $21\,\text{yd}.$
 
 ### Example: Converting Lengths From Inches to Feet
 
@@ -132,7 +132,7 @@ $$
 
 
 
-1 \,\textrm{ft} = 12 \,\textrm{in}
+1 \,\text{ft} = 12 \,\text{in}
 
 
 
@@ -144,7 +144,7 @@ $$
 
 
 
-\dfrac{1}{12} \,\textrm{ft} = 1 \,\textrm{in}
+\dfrac{1}{12} \,\text{ft} = 1 \,\text{in}
 
 
 
@@ -162,4 +162,4 @@ $$
 
 $$
 
-Therefore, $40\,\textrm{in}$ equals $3\,\dfrac13\,\textrm{ft}.$
+Therefore, $40\,\text{in}$ equals $3\,\dfrac13\,\text{ft}.$

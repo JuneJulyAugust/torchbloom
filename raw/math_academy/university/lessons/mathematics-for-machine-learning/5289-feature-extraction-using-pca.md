@@ -68,7 +68,7 @@ There is an equivalent way to compute $Z$ using the SVD. Starting from $X = U\Si
 $$
 
 
-\begin{aligned}𝑍 & =𝑋𝑉_{𝑘} \\ & =𝑈Σ𝑉^{𝑇}𝑉_{𝑘} \\ & =𝑈Σ[\begin{aligned}𝐼_{𝑘} \\ 0\end{aligned}] \\ & =𝑈[\begin{aligned}Σ_{𝑘} \\ 0\end{aligned}] \\ & =𝑈_{𝑘}Σ_{𝑘},\end{aligned}
+\begin{aligned}𝑍 & =𝑋𝑉_{𝑘} \\ & =𝑈Σ𝑉^{𝑇}𝑉_{𝑘} \\ & =𝑈Σ[\begin{matrix}𝐼_{𝑘} \\ 0\end{matrix}] \\ & =𝑈[\begin{matrix}Σ_{𝑘} \\ 0\end{matrix}] \\ & =𝑈_{𝑘}Σ_{𝑘},\end{aligned}
 
 
 $$
@@ -98,7 +98,7 @@ where the data has been standardized (the mean of each feature is $0$ and the st
 $$
 
 
-\begin{aligned}𝑈 & =\begin{aligned}−0.689 & −0.424 & 0.495 & 0.318 \\ 0.143 & −0.241 & −0.524 & 0.804 \\ 0.695 & −0.188 & 0.650 & 0.244 \\ −0.149 & 0.853 & 0.241 & 0.439\end{aligned} \\ Σ & =\begin{aligned}2.075 & 0 \\ 0 & 1.294 \\ 0 & 0 \\ 0 & 0\end{aligned} \\ 𝑉 & =[\begin{aligned}−0.709 & −0.706 \\ 0.706 & −0.709\end{aligned}]\end{aligned}
+\begin{aligned}𝑈 & =\begin{matrix}−0.689 & −0.424 & 0.495 & 0.318 \\ 0.143 & −0.241 & −0.524 & 0.804 \\ 0.695 & −0.188 & 0.650 & 0.244 \\ −0.149 & 0.853 & 0.241 & 0.439\end{matrix} \\ Σ & =\begin{matrix}2.075 & 0 \\ 0 & 1.294 \\ 0 & 0 \\ 0 & 0\end{matrix} \\ 𝑉 & =[\begin{matrix}−0.709 & −0.706 \\ 0.706 & −0.709\end{matrix}]\end{aligned}
 
 
 $$
@@ -134,7 +134,7 @@ To obtain the one-dimensional version of the data, we project $X$ onto $v_1$ by 
 $$
 
 
-\begin{aligned}𝑋𝑣_{1} & =\begin{aligned}1.40 & −0.62 \\ 0.01 & 0.43 \\ −0.85 & 1.19 \\ −0.56 & −1.00\end{aligned}[\begin{aligned}−0.709 \\ 0.706\end{aligned}] \\ & =\begin{aligned}−1.43 \\ 0.30 \\ 1.44 \\ −0.31\end{aligned}.\end{aligned}
+\begin{aligned}𝑋𝑣_{1} & =\begin{matrix}1.40 & −0.62 \\ 0.01 & 0.43 \\ −0.85 & 1.19 \\ −0.56 & −1.00\end{matrix}[\begin{matrix}−0.709 \\ 0.706\end{matrix}] \\ & =\begin{matrix}−1.43 \\ 0.30 \\ 1.44 \\ −0.31\end{matrix}.\end{aligned}
 
 
 $$
@@ -144,7 +144,7 @@ Equivalently, we can compute this projection using $u_1 \sigma_1,$ where $u_1$ i
 $$
 
 
-\begin{aligned}𝑋𝑣_{1} & =𝑈Σ𝑉^{𝑇}𝑣_{1}=𝑈Σ[\begin{aligned}1 \\ 0\end{aligned}]=𝑈\begin{aligned}𝜎_{1} \\ 0 \\ 0 \\ 0\end{aligned}=𝑢_{1}𝜎_{1}.\end{aligned}
+\begin{aligned}𝑋𝑣_{1} & =𝑈Σ𝑉^{𝑇}𝑣_{1}=𝑈Σ[\begin{matrix}1 \\ 0\end{matrix}]=𝑈\begin{matrix}𝜎_{1} \\ 0 \\ 0 \\ 0\end{matrix}=𝑢_{1}𝜎_{1}.\end{aligned}
 
 
 $$
@@ -206,7 +206,7 @@ where the data has been standardized (the mean of each feature is $0$ and the st
 $$
 
 
-\begin{aligned}𝑈 & =\begin{aligned}−0.75 & 0.177 & 0.014 & 0.637 & −0.004 \\ 0.275 & −0.054 & −0.847 & 0.36 & 0.274 \\ −0.213 & −0.653 & 0.171 & −0.068 & 0.703 \\ 0.542 & −0.181 & 0.459 & 0.678 & −0.05 \\ 0.15 & 0.711 & 0.206 & −0.022 & 0.655\end{aligned} \\ Σ & =\begin{aligned}2.272 & 0 & 0 \\ 0 & 2.031 & 0 \\ 0 & 0 & 1.659 \\ 0 & 0 & 0 \\ 0 & 0 & 0\end{aligned} \\ 𝑉 & =\begin{aligned}0.724 & 0.019 & 0.69 \\ 0.422 & 0.779 & −0.464 \\ 0.546 & −0.627 & −0.555\end{aligned}\end{aligned}
+\begin{aligned}𝑈 & =\begin{matrix}−0.75 & 0.177 & 0.014 & 0.637 & −0.004 \\ 0.275 & −0.054 & −0.847 & 0.36 & 0.274 \\ −0.213 & −0.653 & 0.171 & −0.068 & 0.703 \\ 0.542 & −0.181 & 0.459 & 0.678 & −0.05 \\ 0.15 & 0.711 & 0.206 & −0.022 & 0.655\end{matrix} \\ Σ & =\begin{matrix}2.272 & 0 & 0 \\ 0 & 2.031 & 0 \\ 0 & 0 & 1.659 \\ 0 & 0 & 0 \\ 0 & 0 & 0\end{matrix} \\ 𝑉 & =\begin{matrix}0.724 & 0.019 & 0.69 \\ 0.422 & 0.779 & −0.464 \\ 0.546 & −0.627 & −0.555\end{matrix}\end{aligned}
 
 
 $$
@@ -312,7 +312,7 @@ The SVD of the standardized data matrix is
 $$
 
 
-\begin{aligned}𝑋_{std} & =𝑈Σ𝑉^{𝑇},\,where \\ 𝑈 & =\begin{aligned}−0.688 & 0.370 & −0.421 & 0.197 & 0.417 \\ 0.160 & 0.258 & 0.226 & 0.910 & −0.168 \\ 0.642 & 0.396 & −0.101 & −0.081 & 0.644 \\ 0.147 & −0.753 & −0.451 & 0.353 & 0.289 \\ −0.260 & −0.271 & 0.747 & 0.038 & 0.547\end{aligned}, \\ Σ & =\begin{aligned}2.825 & 0 & 0 \\ 0 & 1.939 & 0 \\ 0 & 0 & 0.543 \\ 0 & 0 & 0 \\ 0 & 0 & 0\end{aligned}, \\ 𝑉 & =\begin{aligned}0.607 & 0.503 & −0.615 \\ −0.383 & 0.864 & 0.327 \\ −0.696 & −0.037 & −0.717\end{aligned}.\end{aligned}
+\begin{aligned}𝑋_{std} & =𝑈Σ𝑉^{𝑇},\,where \\ 𝑈 & =\begin{matrix}−0.688 & 0.370 & −0.421 & 0.197 & 0.417 \\ 0.160 & 0.258 & 0.226 & 0.910 & −0.168 \\ 0.642 & 0.396 & −0.101 & −0.081 & 0.644 \\ 0.147 & −0.753 & −0.451 & 0.353 & 0.289 \\ −0.260 & −0.271 & 0.747 & 0.038 & 0.547\end{matrix}, \\ Σ & =\begin{matrix}2.825 & 0 & 0 \\ 0 & 1.939 & 0 \\ 0 & 0 & 0.543 \\ 0 & 0 & 0 \\ 0 & 0 & 0\end{matrix}, \\ 𝑉 & =\begin{matrix}0.607 & 0.503 & −0.615 \\ −0.383 & 0.864 & 0.327 \\ −0.696 & −0.037 & −0.717\end{matrix}.\end{aligned}
 
 
 $$

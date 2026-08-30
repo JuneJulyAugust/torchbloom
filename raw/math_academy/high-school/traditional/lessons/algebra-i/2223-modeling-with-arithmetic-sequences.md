@@ -14,13 +14,13 @@ Topic ID: 2223
 
 Arithmetic sequences are used to model quantities that increase or decrease by a fixed amount over a specified interval.
 
-For example, suppose we drop a small metal ball into a lake. We observe that the ball's depth is $3\,\textrm{ft}$ after $1$ second, $7\,\textrm{ft}$ after $2$ seconds, $11\,\textrm{ft}$ after $3$ seconds, and so on. What will be the ball's depth after $12$ seconds if this trend continues?
+For example, suppose we drop a small metal ball into a lake. We observe that the ball's depth is $3\,\text{ft}$ after $1$ second, $7\,\text{ft}$ after $2$ seconds, $11\,\text{ft}$ after $3$ seconds, and so on. What will be the ball's depth after $12$ seconds if this trend continues?
 
 Let's start by drawing a diagram.
 
 ![Instructional graphic](../../../../lesson-assets/algebra-i/topic-2223/70c50ab13b6c0b13.png)
 
-Notice that the ball's depth increases by a *fixed* amount of $4\,\textrm{ft}$ every second. Therefore, the ball's depth after $n$ seconds can be modeled as an arithmetic sequence.
+Notice that the ball's depth increases by a *fixed* amount of $4\,\text{ft}$ every second. Therefore, the ball's depth after $n$ seconds can be modeled as an arithmetic sequence.
 
 For this arithmetic sequence, the first term and common difference respectively are given by
 
@@ -130,7 +130,7 @@ Therefore, Matt's car consumes $3$ liters of fuel per lap.
 
 #### Question
 
-John decides to start a cycling training plan. On the first day, he rides $2\,\textrm{km},$ on the second day he rides $5\,\textrm{km},$ and on the third day, he rides $8\,\textrm{km}.$ If this trend continues, on which day will he ride $29\,\textrm{km}?$
+John decides to start a cycling training plan. On the first day, he rides $2\,\text{km},$ on the second day he rides $5\,\text{km},$ and on the third day, he rides $8\,\text{km}.$ If this trend continues, on which day will he ride $29\,\text{km}?$
 
 #### Explanation
 
@@ -146,7 +146,7 @@ $$
 
 $$
 
-To find the day that John will ride $29\,\textrm{km},$ we calculate the value of $n$ such that $a_n=29\mathbin{:}$
+To find the day that John will ride $29\,\text{km},$ we calculate the value of $n$ such that $a_n=29\mathbin{:}$
 
 $$
 
@@ -156,4 +156,4 @@ $$
 
 $$
 
-Therefore, John will ride $29\,\textrm{km}$ on the $10$th day.
+Therefore, John will ride $29\,\text{km}$ on the $10$th day.

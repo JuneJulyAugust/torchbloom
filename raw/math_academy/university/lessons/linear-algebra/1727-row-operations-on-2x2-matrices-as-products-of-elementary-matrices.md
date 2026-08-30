@@ -40,7 +40,7 @@ This may seem almost too easy. But it's true! And we can verify it by computing 
 $$
 
 
-\begin{aligned}𝐸𝐴 & =[\begin{aligned}0 & 1 \\ 1 & 0\end{aligned}][\begin{aligned}3 & 4 \\ 8 & 6\end{aligned}] \\ & =[\begin{aligned}8 & 6 \\ 3 & 4\end{aligned}]\end{aligned}
+\begin{aligned}𝐸𝐴 & =[\begin{matrix}0 & 1 \\ 1 & 0\end{matrix}][\begin{matrix}3 & 4 \\ 8 & 6\end{matrix}] \\ & =[\begin{matrix}8 & 6 \\ 3 & 4\end{matrix}]\end{aligned}
 
 
 $$
@@ -52,7 +52,7 @@ So, we say that $E \cdot A$ is equivalent to applying to $A$ the elementary row 
 $$
 
 
-\begin{aligned}𝐴𝐸 & =[\begin{aligned}3 & 4 \\ 8 & 6\end{aligned}][\begin{aligned}0 & 1 \\ 1 & 0\end{aligned}] \\ & =[\begin{aligned}4 & 3 \\ 6 & 8\end{aligned}]\end{aligned}
+\begin{aligned}𝐴𝐸 & =[\begin{matrix}3 & 4 \\ 8 & 6\end{matrix}][\begin{matrix}0 & 1 \\ 1 & 0\end{matrix}] \\ & =[\begin{matrix}4 & 3 \\ 6 & 8\end{matrix}]\end{aligned}
 
 
 $$
@@ -70,7 +70,7 @@ The matrix $E$ is obtained by taking the identity matrix and replacing the secon
 $$
 
 
-\begin{aligned}𝐼 & =[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] & 𝑅_{2} & :=5𝑅_{1}+𝑅_{2} \\ & ∼[\begin{aligned}1 & 0 \\ 5 & 1\end{aligned}] & & \\ & =𝐸 & & \end{aligned}
+\begin{aligned}𝐼 & =[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}] & 𝑅_{2} & :=5𝑅_{1}+𝑅_{2} \\ & ∼[\begin{matrix}1 & 0 \\ 5 & 1\end{matrix}] & & \\ & =𝐸 & & \end{aligned}
 
 
 $$
@@ -92,7 +92,7 @@ To find $E,$ we apply the given row operation to the identity matrix as follows:
 $$
 
 
-\begin{aligned}𝐼 & =[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] & 𝑅_{1} & :=𝑅_{1}−𝑅_{2} \\ & ∼[\begin{aligned}1 & −1 \\ 0 & 1\end{aligned}] & & \\ & =𝐸 & & \end{aligned}
+\begin{aligned}𝐼 & =[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}] & 𝑅_{1} & :=𝑅_{1}−𝑅_{2} \\ & ∼[\begin{matrix}1 & −1 \\ 0 & 1\end{matrix}] & & \\ & =𝐸 & & \end{aligned}
 
 
 $$

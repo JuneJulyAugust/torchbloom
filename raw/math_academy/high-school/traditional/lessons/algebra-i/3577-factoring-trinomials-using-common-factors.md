@@ -28,7 +28,7 @@ However, notice that all the terms have a common factor of $8.$ If we first fact
 $$
 
 
-\begin{aligned} 8x^2 + 24x + 16 &= \\\[5pt] 8(x^2 + 3x + 2) \end{aligned}
+\begin{aligned} 8x^2 + 24x + 16 &= \\[5pt] 8(x^2 + 3x + 2) \end{aligned}
 
 
 $$
@@ -122,7 +122,7 @@ Therefore, our original expression factors as follows:
 $$
 
 
-\begin{aligned} 3\left(x^2-7x+10\right)&=\\\[5pt] 3(x-5)(x-2) \end{aligned}
+\begin{aligned} 3\left(x^2-7x+10\right)&=\\[5pt] 3(x-5)(x-2) \end{aligned}
 
 
 $$
@@ -172,7 +172,7 @@ Using the factor pair identified in the previous step, write the linear term as 
 $$
 
 
-\begin{aligned} -2\left(x^2+11x+24\right)&=\\\[5pt] -2\left(x^2+3x+8x+24\right)&=\\\[5pt] -2\left((x^2+3x)+(8x+24)\right)&=\\\[5pt] -2\Bigl(x(x+3)+8(x+3)\Bigr)&=\\\[5pt] -2(x+8)(x+3) \end{aligned}
+\begin{aligned} -2\left(x^2+11x+24\right)&=\\[5pt] -2\left(x^2+3x+8x+24\right)&=\\[5pt] -2\left((x^2+3x)+(8x+24)\right)&=\\[5pt] -2\Bigl(x(x+3)+8(x+3)\Bigr)&=\\[5pt] -2(x+8)(x+3) \end{aligned}
 
 
 $$

@@ -267,7 +267,7 @@ $$
 
 $$
 
-Thus, we have the eigenvalues $\lambda_1 = -\dfrac19 \textrm{and} \lambda_2 = \dfrac1{18}.$
+Thus, we have the eigenvalues $\lambda_1 = -\dfrac19 \text{and} \lambda_2 = \dfrac1{18}.$
 
 Finally, we find the eigenfunction corresponding to each eigenvalue:
 
@@ -275,7 +275,7 @@ Finally, we find the eigenfunction corresponding to each eigenvalue:
 
 - For $\lambda_2 = \dfrac1{18},$ we have and substituting $\lambda_2$ into we get where $B$ is a free parameter. Thus, the eigenfunction corresponding to this eigenvalue is where we have set $C = B.$
 
-So, the eigenfunctions corresponding to $\lambda_1$ and $\lambda_2,$ respectively, are $Bxe^{-x} \textrm{and} Ce^{x/2}(x-3).$
+So, the eigenfunctions corresponding to $\lambda_1$ and $\lambda_2,$ respectively, are $Bxe^{-x} \text{and} Ce^{x/2}(x-3).$
 
 ### Trigonometric Eigenfunctions
 

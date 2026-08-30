@@ -51,12 +51,12 @@ To find the remaining two roots, we solve $x^2-2x+4 = 0$ by completing the squar
 $$
 
 
-\begin{aligned}𝑥^{2}−2𝑥+4 & =0 \\ 𝑥^{2}−2𝑥+1+3 & =0 \\ (𝑥−1)^{2}+3 & =0 \\ (𝑥−1)^{2} & =−3 \\ (𝑥−1)^{2} & =(\sqrt{√3}i)^{2} \\ 𝑥−1 & =±\sqrt{√3}i \\ 𝑥 & =1±\sqrt{√3}i\end{aligned}
+\begin{aligned}𝑥^{2}−2𝑥+4 & =0 \\ 𝑥^{2}−2𝑥+1+3 & =0 \\ (𝑥−1)^{2}+3 & =0 \\ (𝑥−1)^{2} & =−3 \\ (𝑥−1)^{2} & =(\sqrt{3}i)^{2} \\ 𝑥−1 & =±\sqrt{3}i \\ 𝑥 & =1±\sqrt{3}i\end{aligned}
 
 
 $$
 
-Therefore, the solutions to our original equation are $x=-2, \, 1\pm \sqrt3\textrm{i}.$
+Therefore, the solutions to our original equation are $x=-2, \, 1\pm \sqrt3\text{i}.$
 
 ### Example: Finding the Roots of a Cubic Equation With Complex Roots Given One Complex Root
 
@@ -73,7 +73,7 @@ Since $f(x)$ has real coefficients and $x_1=1+3\text{i}$ is a root of $f(x),$ th
 $$
 
 
-\overline{x_1}=\overline{1+3\textrm{i}}=1-3\text{i}
+\overline{x_1}=\overline{1+3\text{i}}=1-3\text{i}
 
 
 $$
@@ -112,4 +112,4 @@ $$
 
 $$
 
-Therefore, the roots are $x=1, 1 \pm 3\textrm{i}.$
+Therefore, the roots are $x=1, 1 \pm 3\text{i}.$

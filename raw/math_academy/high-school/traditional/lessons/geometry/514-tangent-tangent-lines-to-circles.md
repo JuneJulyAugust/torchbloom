@@ -103,7 +103,7 @@ First, notice that
 $$
 
 
-CA_1 = CB - BA_1 = 12 - 5 = 7\,\textrm{cm}.
+CA_1 = CB - BA_1 = 12 - 5 = 7\,\text{cm}.
 
 
 $$
@@ -146,7 +146,7 @@ $$
 
 ![Instructional graphic](../../../../lesson-assets/geometry/topic-514/758e18467b080c57.png)
 
-In the picture above, $\overset{\longleftrightarrow}{BC}$ and $\overset{\longleftrightarrow}{BD}$ are tangents to the circle at $C$ and $D,$ respectively. If $OD=3\,\textrm{cm},$ what is the value of $OB?$
+In the picture above, $\overset{\longleftrightarrow}{BC}$ and $\overset{\longleftrightarrow}{BD}$ are tangents to the circle at $C$ and $D,$ respectively. If $OD=3\,\text{cm},$ what is the value of $OB?$
 
 #### Explanation
 
@@ -175,7 +175,7 @@ So $\triangle{ODB}$ is a right $30^\circ$-$60^\circ$-$90^\circ$ triangle, and th
 $$
 
 
-OB = 2 \cdot OD = 2 \cdot 3 = 6 \,\textrm{cm}.
+OB = 2 \cdot OD = 2 \cdot 3 = 6 \,\text{cm}.
 
 
 $$

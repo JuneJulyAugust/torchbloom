@@ -65,14 +65,14 @@ In the figure, $x$ is the man's distance from the lamp, while $y$ is the length 
 $$
 
 
-\dfrac{\textrm{d}x}{\textrm{d}t} = 2.4\,\textrm{m/s}.
+\dfrac{\text{d}x}{\text{d}t} = 2.4\,\text{m/s}.
 
 
 $$
 
 Notice that the man's velocity is ** because he is walking away from the lamp, and therefore, the distance between him and the lamp ** with time.
 
-Since we want to calculate $\dfrac{\textrm{d}y}{\textrm{d}t},$ we need to find a relation between $x$ and $y.$ Since the two triangles are similar, the ratios between the corresponding sides are equal, and we have
+Since we want to calculate $\dfrac{\text{d}y}{\text{d}t},$ we need to find a relation between $x$ and $y.$ Since the two triangles are similar, the ratios between the corresponding sides are equal, and we have
 
 $$
 
@@ -92,7 +92,7 @@ $$
 
 $$
 
-Finally, substituting $\dfrac{\textrm{d}x}{\textrm{d}t} =2.4\,\textrm{m/s}$ into the above gives
+Finally, substituting $\dfrac{\text{d}x}{\text{d}t} =2.4\,\text{m/s}$ into the above gives
 
 $$
 
@@ -102,7 +102,7 @@ $$
 
 $$
 
-Therefore, the length of the man's shadow increases at a rate of $0.8\,\textrm{m/s}.$
+Therefore, the length of the man's shadow increases at a rate of $0.8\,\text{m/s}.$
 
 ### Example: Calculating the Rate of Change of a Shadow's Length Using Similar Triangles and Negative Rates
 
@@ -121,14 +121,14 @@ In the figure, $x$ is the woman's distance from the lamp, while $y$ is the lengt
 $$
 
 
-\dfrac{\textrm{d}x}{\textrm{d}t} = -1.5\,\textrm{m/s}.
+\dfrac{\text{d}x}{\text{d}t} = -1.5\,\text{m/s}.
 
 
 $$
 
 Notice that the woman's velocity is ** because she is walking ** the lamp, and therefore the distance between her and the lamp ** with time.
 
-Since we want to calculate $\dfrac{\textrm{d}y}{\textrm{d}t},$ we need to find a relation between $x$ and $y.$ Since the two triangles are similar, the ratios between the corresponding sides are equal, and we have
+Since we want to calculate $\dfrac{\text{d}y}{\text{d}t},$ we need to find a relation between $x$ and $y.$ Since the two triangles are similar, the ratios between the corresponding sides are equal, and we have
 
 $$
 
@@ -148,14 +148,14 @@ $$
 
 $$
 
-Finally, substituting $\dfrac{\textrm{d}x}{\textrm{d}t} = -1.5\,\textrm{m/s}$ into the above gives
+Finally, substituting $\dfrac{\text{d}x}{\text{d}t} = -1.5\,\text{m/s}$ into the above gives
 
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}t} = \dfrac13 \cdot (-1.5) = -0.5\,\textrm{m/s}.
+\dfrac{\text{d}y}{\text{d}t} = \dfrac13 \cdot (-1.5) = -0.5\,\text{m/s}.
 
 
 $$
 
-Therefore, the length of the woman's shadow is decreasing at $0.5\,\textrm{m/s}.$
+Therefore, the length of the woman's shadow is decreasing at $0.5\,\text{m/s}.$

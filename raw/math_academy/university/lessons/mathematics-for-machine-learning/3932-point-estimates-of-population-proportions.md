@@ -28,7 +28,7 @@ In other words,
 $$
 
 
-X_i \sim \textrm{Bernoulli}(p).
+X_i \sim \text{Bernoulli}(p).
 
 
 $$
@@ -48,7 +48,7 @@ where $B(n,p)$ denotes a binomial distribution, and
 $$
 
 
-\textrm{E}[X] = np, \qquad \textrm{Var}[X] = np(1-p).
+\text{E}[X] = np, \qquad \text{Var}[X] = np(1-p).
 
 
 $$
@@ -80,7 +80,7 @@ where
 $$
 
 
-\textrm{E}[\widehat{\,p}] = p, \qquad \textrm{Var}[\widehat{\,p}] = \dfrac{p(1-p)}{n}.
+\text{E}[\widehat{\,p}] = p, \qquad \text{Var}[\widehat{\,p}] = \dfrac{p(1-p)}{n}.
 
 
 $$
@@ -95,7 +95,7 @@ $$
 
 $$
 
-Finally, since we usually don't know $p,$ we can use a particular estimate to approximate $\textrm{E}[{\widehat{\,p}}]$ and $\textrm{Var}[\widehat{\,p}].$
+Finally, since we usually don't know $p,$ we can use a particular estimate to approximate $\text{E}[{\widehat{\,p}}]$ and $\text{Var}[\widehat{\,p}].$
 
 **Watch out!** In this lesson, $N$ denotes the size of a population, while $N(\cdot,\cdot)$ denotes the normal distribution.
 
@@ -240,7 +240,7 @@ The probability we wish to find is $P(\widehat{\,p} > 0.5).$ So, we convert $\wi
 $$
 
 
-\begin{aligned}𝑃(\overset{\,𝑝}{ˆ}>0.5) & =𝑃(𝑍>\frac{0.5−0.42}{\sqrt{√0.0029}}) \\ & ≈𝑃(𝑍>1.49) \\ & =1−𝑃(𝑍<1.49) \\ & =1−Φ(1.49).\end{aligned}
+\begin{aligned}𝑃(\overset{\,𝑝}{ˆ}>0.5) & =𝑃(𝑍>\frac{0.5−0.42}{\sqrt{0.0029}}) \\ & ≈𝑃(𝑍>1.49) \\ & =1−𝑃(𝑍<1.49) \\ & =1−Φ(1.49).\end{aligned}
 
 
 $$
@@ -340,7 +340,7 @@ Hence, the probability we wish to find is $P(0.5 \leq \widehat{\,p} \leq 0.75).$
 $$
 
 
-\begin{aligned}𝑃(0.5≤\overset{\,𝑝}{ˆ}≤0.75) & =𝑃(\frac{0.5−0.64}{\sqrt{√0.0018}}≤𝑍≤\frac{0.75−0.64}{\sqrt{√0.0018}}) \\ & ≈𝑃(−3.30≤𝑍≤2.59) \\ & =𝑃(𝑍≤2.59)−𝑃(𝑍≤−3.30) \\ & =Φ(2.59)−Φ(−3.30)\end{aligned}
+\begin{aligned}𝑃(0.5≤\overset{\,𝑝}{ˆ}≤0.75) & =𝑃(\frac{0.5−0.64}{\sqrt{0.0018}}≤𝑍≤\frac{0.75−0.64}{\sqrt{0.0018}}) \\ & ≈𝑃(−3.30≤𝑍≤2.59) \\ & =𝑃(𝑍≤2.59)−𝑃(𝑍≤−3.30) \\ & =Φ(2.59)−Φ(−3.30)\end{aligned}
 
 
 $$

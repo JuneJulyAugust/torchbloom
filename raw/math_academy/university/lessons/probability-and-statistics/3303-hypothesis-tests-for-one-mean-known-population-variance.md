@@ -115,7 +115,7 @@ Assuming the null hypothesis is true, i.e., $\mu=69,$ and that $\sigma=14,$ we c
 $$
 
 
-\begin{aligned}𝑧 & =\frac{\overset{𝑥}{}−𝜇}{𝜎/\sqrt{√𝑛}} \\ & =\frac{75−69}{14/\sqrt{√30}} \\ & =2.347\end{aligned}
+\begin{aligned}𝑧 & =\frac{\overset{𝑥}{}−𝜇}{𝜎/\sqrt{𝑛}} \\ & =\frac{75−69}{14/\sqrt{30}} \\ & =2.347\end{aligned}
 
 
 $$
@@ -207,7 +207,7 @@ Assuming the null hypothesis, i.e., $\mu=18,$ we compute the test statistic:
 $$
 
 
-\begin{aligned}𝑧 & =\frac{\overset{𝑥}{}−𝜇}{𝜎/\sqrt{√𝑛}} \\ & =\frac{17−18}{7/\sqrt{√45}} \\ & ≈−0.958\end{aligned}
+\begin{aligned}𝑧 & =\frac{\overset{𝑥}{}−𝜇}{𝜎/\sqrt{𝑛}} \\ & =\frac{17−18}{7/\sqrt{45}} \\ & ≈−0.958\end{aligned}
 
 
 $$
@@ -291,7 +291,7 @@ Assuming the null hypothesis, i.e., $\mu=26,$ we compute the test statistic:
 $$
 
 
-\begin{aligned}𝑧 & =\frac{\overset{𝑥}{}−𝜇}{𝜎/\sqrt{√𝑛}} \\ & =\frac{25−26}{12/\sqrt{√50}} \\ & ≈−0.589\end{aligned}
+\begin{aligned}𝑧 & =\frac{\overset{𝑥}{}−𝜇}{𝜎/\sqrt{𝑛}} \\ & =\frac{25−26}{12/\sqrt{50}} \\ & ≈−0.589\end{aligned}
 
 
 $$
@@ -387,7 +387,7 @@ Assuming the null hypothesis, i.e., $\mu = 10,$ we compute the test statistic:
 $$
 
 
-\begin{aligned}𝑧 & =\frac{\overset{𝑥}{}−𝜇}{𝜎/\sqrt{√𝑛}} \\ & =\frac{9−10}{7/\sqrt{√250}} \\ & ≈−2.259\end{aligned}
+\begin{aligned}𝑧 & =\frac{\overset{𝑥}{}−𝜇}{𝜎/\sqrt{𝑛}} \\ & =\frac{9−10}{7/\sqrt{250}} \\ & ≈−2.259\end{aligned}
 
 
 $$
@@ -404,15 +404,15 @@ Therefore, the correct answer is "III only."
 
 #### Question
 
-The manufacturer claims that the weight of a particular chocolate bar has population mean $\mu = 50 \, \textrm{g}$ and population standard deviation of $\sigma = 5 \, \textrm{g}.$ An inspector selected $150$ bars of chocolate and found that their mean weight is $49.3 \, \textrm{g}.$ They wish to carry out a hypothesis test to determine whether there is sufficient evidence to challenge the manufacturer's claim.
+The manufacturer claims that the weight of a particular chocolate bar has population mean $\mu = 50 \, \text{g}$ and population standard deviation of $\sigma = 5 \, \text{g}.$ An inspector selected $150$ bars of chocolate and found that their mean weight is $49.3 \, \text{g}.$ They wish to carry out a hypothesis test to determine whether there is sufficient evidence to challenge the manufacturer's claim.
 
-By carrying out a hypothesis test at a $5\%$ significance level to determine whether there is sufficient evidence that the population mean $\mu$ does not equal $50 \, \textrm{g},$ determine which of the following statements are true:
+By carrying out a hypothesis test at a $5\%$ significance level to determine whether there is sufficient evidence that the population mean $\mu$ does not equal $50 \, \text{g},$ determine which of the following statements are true:
 
 1. The critical region for the test statistic is approximately $Z \leq -1.645$ or $Z \geq 1.645.$
 
-2. At the $5\%$ level of significance, there is **** evidence that $\mu \neq 50 \, \textrm{g}$
+2. At the $5\%$ level of significance, there is **** evidence that $\mu \neq 50 \, \text{g}$
 
-3. At the $5\%$ level of significance, there is **** evidence that $\mu \neq 50 \, \textrm{g}$
+3. At the $5\%$ level of significance, there is **** evidence that $\mu \neq 50 \, \text{g}$
 
 **
 
@@ -459,7 +459,7 @@ Also, we have
 $$
 
 
-\overline{x} = 49.3 \, \textrm{g} \qquad n = 150, \qquad \sigma = 5 \, \textrm{g}.
+\overline{x} = 49.3 \, \text{g} \qquad n = 150, \qquad \sigma = 5 \, \text{g}.
 
 
 $$
@@ -469,7 +469,7 @@ Assuming the null hypothesis, i.e., $\mu=50,$ we compute the test statistic:
 $$
 
 
-\begin{aligned}𝑧 & =\frac{\overset{𝑥}{}−𝜇}{𝜎/\sqrt{√𝑛}} \\ & =\frac{49.3−50}{5/\sqrt{√150}} \\ & =−1.715\end{aligned}
+\begin{aligned}𝑧 & =\frac{\overset{𝑥}{}−𝜇}{𝜎/\sqrt{𝑛}} \\ & =\frac{49.3−50}{5/\sqrt{150}} \\ & =−1.715\end{aligned}
 
 
 $$

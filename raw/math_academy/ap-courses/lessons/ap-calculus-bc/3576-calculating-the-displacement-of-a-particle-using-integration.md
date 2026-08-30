@@ -47,7 +47,7 @@ To summarize, the total displacement of a particle over the time interval $t \in
 $$
 
 
-\begin{aligned}𝑑 & =∫_{𝑏𝑎}^{}𝑣(𝑡)\,d𝑡\end{aligned}
+\begin{aligned}𝑑 & =∫_{𝑏𝑎}𝑣(𝑡)\,d𝑡\end{aligned}
 
 
 $$
@@ -67,7 +67,7 @@ Let $d$ be the total displacement. Then, we have
 $$
 
 
-\begin{aligned}𝑑 & =∫_{31}^{}(2𝑡+3𝑡^{2})\,d𝑡 \\ & =(𝑡^{2}+𝑡^{3})_{31}^{} \\ & =[3^{2}+3^{3}]−[1^{2}+1^{3}] \\ & =[9+27]−[1+1] \\ & =36−2 \\ & =34.\end{aligned}
+\begin{aligned}𝑑 & =∫_{31}(2𝑡+3𝑡^{2})\,d𝑡 \\ & =(𝑡^{2}+𝑡^{3})_{31} \\ & =[3^{2}+3^{3}]−[1^{2}+1^{3}] \\ & =[9+27]−[1+1] \\ & =36−2 \\ & =34.\end{aligned}
 
 
 $$
@@ -87,7 +87,7 @@ The position of the particle at $t=4$ is equal to its position at $t=2$ plus the
 $$
 
 
-x(4) = x(2) + \int_2^4 v(t)\,\textrm{d}t
+x(4) = x(2) + \int_2^4 v(t)\,\text{d}t
 
 
 $$
@@ -97,7 +97,7 @@ Carrying out the computations, we get
 $$
 
 
-\begin{aligned}𝑥(4) & =−20+∫_{42}^{}(6𝑡^{2}+4𝑡)\,dt \\ & =−20+[2𝑡^{3}+2𝑡^{2}]_{42}^{} \\ & =−20+([2(4)^{3}+2(4)^{2}]−[2(2)^{3}+2(2)^{2}]) \\ & =−20+([128+32]−[16+8]) \\ & =−20+(160−24) \\ & =−20+136 \\ & =116.\end{aligned}
+\begin{aligned}𝑥(4) & =−20+∫_{42}(6𝑡^{2}+4𝑡)\,dt \\ & =−20+[2𝑡^{3}+2𝑡^{2}]_{42} \\ & =−20+([2(4)^{3}+2(4)^{2}]−[2(2)^{3}+2(2)^{2}]) \\ & =−20+([128+32]−[16+8]) \\ & =−20+(160−24) \\ & =−20+136 \\ & =116.\end{aligned}
 
 
 $$

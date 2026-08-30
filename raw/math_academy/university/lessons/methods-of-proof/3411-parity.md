@@ -44,7 +44,7 @@ An integer is even if it is a multiple of $2.$ And, since every integer is a mul
 $$
 
 
-{\color{red}{2}}\times {\color{blue}{\textrm{some other integer}}}.
+{\color{red}{2}}\times {\color{blue}{\text{some other integer}}}.
 
 
 $$
@@ -166,7 +166,7 @@ Notice that every odd integer can be expressed as
 $$
 
 
-{\color{red}{2}}\times {\color{blue}{\textrm{some other integer}}} + 1.
+{\color{red}{2}}\times {\color{blue}{\text{some other integer}}} + 1.
 
 
 $$
@@ -287,7 +287,7 @@ Now, note the following regarding the expression $4m^2+2m-1{:}$
 
 Therefore, we complete our argument as follows:
 
-The number $n$ is $\boxed{\color{blue}\textrm{odd}}$ since
+The number $n$ is $\boxed{\color{blue}\text{odd}}$ since
 
 $$
 
@@ -317,7 +317,7 @@ Now, note the following regarding the expression $2pq - 4q + 5 {:}$
 
 Therefore, we complete our argument as follows:
 
-The number $n$ is $\boxed{\color{blue}\textrm{odd}}$ since
+The number $n$ is $\boxed{\color{blue}\text{odd}}$ since
 
 $$
 

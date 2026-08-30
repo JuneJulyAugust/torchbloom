@@ -177,7 +177,7 @@ Now, we rewrite the given limit using the algebra of limits, as follows:
 $$
 
 
-\begin{aligned}\underset{𝑛→∞}{lim}(1+\frac{𝑥}{𝑛})^{−𝑛/2} & =\underset{𝑛→∞}{lim}[(1+\frac{𝑥}{𝑛})^{𝑛}]^{−1/2} \\ & =[\underset{𝑛→∞}{lim}(1+\frac{𝑥}{𝑛})^{𝑛}]^{−1/2} \\ & =(𝑒^{𝑥})^{−1/2} \\ & =\sqrt{√\frac{1}{𝑒^{𝑥}}}\end{aligned}
+\begin{aligned}\underset{𝑛→∞}{lim}(1+\frac{𝑥}{𝑛})^{−𝑛/2} & =\underset{𝑛→∞}{lim}[(1+\frac{𝑥}{𝑛})^{𝑛}]^{−1/2} \\ & =[\underset{𝑛→∞}{lim}(1+\frac{𝑥}{𝑛})^{𝑛}]^{−1/2} \\ & =(𝑒^{𝑥})^{−1/2} \\ & =\sqrt{\frac{1}{𝑒^{𝑥}}}\end{aligned}
 
 
 $$

@@ -17,7 +17,7 @@ A binary relation $R$ defined on a set $A$ is **transitive** if, for all $x,y,z 
 $$
 
 
-({\color{blue}x},\boxed{y}) \in R \quad\textrm{and}\quad (\boxed{y},{\color{blue}z}) \in R \qquad\Longrightarrow\quad ({\color{blue}x},{\color{blue}z}) \in R.
+({\color{blue}x},\boxed{y}) \in R \quad\text{and}\quad (\boxed{y},{\color{blue}z}) \in R \qquad\Longrightarrow\quad ({\color{blue}x},{\color{blue}z}) \in R.
 
 
 $$
@@ -35,7 +35,7 @@ Notice from the definition of a transitive relation that if the first ordered pa
 $$
 
 
-(y,y) \in R \quad\textrm{and}\quad (y,z) \in R \qquad\Longrightarrow\quad (y,z) \in R
+(y,y) \in R \quad\text{and}\quad (y,z) \in R \qquad\Longrightarrow\quad (y,z) \in R
 
 
 $$
@@ -47,7 +47,7 @@ Similarly, if the second ordered pair is $(y,y),$ we have
 $$
 
 
-(x,y) \in R \quad\textrm{and}\quad (y,y) \in R \qquad\Longrightarrow\quad (x,y) \in R
+(x,y) \in R \quad\text{and}\quad (y,y) \in R \qquad\Longrightarrow\quad (x,y) \in R
 
 
 $$
@@ -81,7 +81,7 @@ A binary relation $R$ defined on a set $A$ is ** if, for all $x,y,z \in A,$ we h
 $$
 
 
-(x,y) \in R \quad\textrm{and}\quad (y,z) \in R \qquad\Longrightarrow\quad (x,z) \in R.
+(x,y) \in R \quad\text{and}\quad (y,z) \in R \qquad\Longrightarrow\quad (x,z) \in R.
 
 
 $$
@@ -101,7 +101,7 @@ So, for all $x,y,z \in A,$ we have
 $$
 
 
-(x,y) \in R \quad\textrm{and}\quad (y,z) \in R \qquad\Longrightarrow\quad (x,z) \in R.
+(x,y) \in R \quad\text{and}\quad (y,z) \in R \qquad\Longrightarrow\quad (x,z) \in R.
 
 
 $$
@@ -141,7 +141,7 @@ A binary relation $R$ defined on a set $A$ is ** if, for all $x,y,z \in A,$ we h
 $$
 
 
-(x,y) \in R \quad\textrm{and}\quad (y,z) \in R \qquad\Longrightarrow\quad (x,z) \in R.
+(x,y) \in R \quad\text{and}\quad (y,z) \in R \qquad\Longrightarrow\quad (x,z) \in R.
 
 
 $$
@@ -207,7 +207,7 @@ A binary relation $R$ defined on a set $A$ is ** if, for all $x,y,z \in A,$ we h
 $$
 
 
-(x,y) \in R \quad\textrm{and}\quad (y,z) \in R \qquad\Longrightarrow\quad (x,z) \in R.
+(x,y) \in R \quad\text{and}\quad (y,z) \in R \qquad\Longrightarrow\quad (x,z) \in R.
 
 
 $$
@@ -247,7 +247,7 @@ A binary relation $R$ defined on a set $A$ is ** if, for all $x,y,z \in A,$ we h
 $$
 
 
-(x,y) \in R \quad\textrm{and}\quad (y,z) \in R \qquad\Longrightarrow\quad (x,z) \in R.
+(x,y) \in R \quad\text{and}\quad (y,z) \in R \qquad\Longrightarrow\quad (x,z) \in R.
 
 
 $$

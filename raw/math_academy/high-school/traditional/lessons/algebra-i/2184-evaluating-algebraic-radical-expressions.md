@@ -20,7 +20,7 @@ To evaluate this expression at the given value, we replace $x$ with $9$ in the g
 $$
 
 
-\begin{aligned}\sqrt{√𝑥}+3 & = \\ \sqrt{√9}+3 & = \\ \sqrt{√3^{2}}+3 & = \\ 3+3 & = \\ 6 & \end{aligned}
+\begin{aligned}\sqrt{𝑥}+3 & = \\ \sqrt{9}+3 & = \\ \sqrt{3^{2}}+3 & = \\ 3+3 & = \\ 6 & \end{aligned}
 
 
 $$
@@ -42,7 +42,7 @@ We replace $x$ with $16$ in the given expression, and simplify:
 $$
 
 
-\begin{aligned}\sqrt{√𝑥}+2𝑥−1 & = \\ \sqrt{√16}+2⋅16−1 & = \\ \sqrt{√4^{2}}+32−1 & = \\ 4+32−1 & = \\ 35 & \end{aligned}
+\begin{aligned}\sqrt{𝑥}+2𝑥−1 & = \\ \sqrt{16}+2⋅16−1 & = \\ \sqrt{4^{2}}+32−1 & = \\ 4+32−1 & = \\ 35 & \end{aligned}
 
 
 $$
@@ -60,7 +60,7 @@ We replace $x$ with $3$ in the given expression, and simplify:
 $$
 
 
-\begin{aligned}\sqrt{√3𝑥−1} & = \\ \sqrt{√3⋅3−1} & = \\ \sqrt{√9−1} & = \\ \sqrt{√8} & \end{aligned}
+\begin{aligned}\sqrt{3𝑥−1} & = \\ \sqrt{3⋅3−1} & = \\ \sqrt{9−1} & = \\ \sqrt{8} & \end{aligned}
 
 
 $$
@@ -70,7 +70,7 @@ We can simplify even further using the product rule:
 $$
 
 
-\begin{aligned}\sqrt{√8} & = \\ \sqrt{√4⋅2} & = \\ \sqrt{√2^{2}⋅2} & = \\ \sqrt{√2^{2}}⋅\sqrt{√2} & = \\ 2\sqrt{√2} & \end{aligned}
+\begin{aligned}\sqrt{8} & = \\ \sqrt{4⋅2} & = \\ \sqrt{2^{2}⋅2} & = \\ \sqrt{2^{2}}⋅\sqrt{2} & = \\ 2\sqrt{2} & \end{aligned}
 
 
 $$
@@ -88,7 +88,7 @@ We replace $x$ with $5$ in the given expression, and simplify:
 $$
 
 
-\begin{aligned}𝑓(5) & =\frac{\sqrt{√9(5)+3}}{\sqrt{√(5)−2}} \\ & =\frac{\sqrt{√48}}{\sqrt{√3}} \\ & =\sqrt{√\frac{48}{3}} \\ & =\sqrt{√16} \\ & =\sqrt{√4^{2}} \\ & =4\end{aligned}
+\begin{aligned}𝑓(5) & =\frac{\sqrt{9(5)+3}}{\sqrt{(5)−2}} \\ & =\frac{\sqrt{48}}{\sqrt{3}} \\ & =\sqrt{\frac{48}{3}} \\ & =\sqrt{16} \\ & =\sqrt{4^{2}} \\ & =4\end{aligned}
 
 
 $$

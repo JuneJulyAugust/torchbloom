@@ -33,12 +33,12 @@ $$
 
 where $A$ is the area of the base, and $h$ is the height.
 
-For example, suppose the base area of a pyramid is $12 \, \textrm{in}^2$ and its altitude is $4 \, \textrm{in}.$ Substituting
+For example, suppose the base area of a pyramid is $12 \, \text{in}^2$ and its altitude is $4 \, \text{in}.$ Substituting
 
 $$
 
 
-A=12\,\textrm{in}^2, \qquad h=4\,\textrm{in}
+A=12\,\text{in}^2, \qquad h=4\,\text{in}
 
 
 $$
@@ -75,7 +75,7 @@ $$
 
 where $A$ is the area of the base and $h$ is the altitude of the pyramid.
 
-Substituting $A=15\,\textrm{cm}^2$ and $h=7\,\textrm{cm}$ into the formula, we get
+Substituting $A=15\,\text{cm}^2$ and $h=7\,\text{cm}$ into the formula, we get
 
 $$
 
@@ -89,7 +89,7 @@ $$
 
 #### Question
 
-Consider the pyramid $SBCD$ below, where $\triangle{BCD}$ is the base and $\overline{SH}$ is the altitude. Find the volume of the pyramid given that $BD=9\,\textrm{in},$ $CL=7\,\textrm{in},$ and $SH=8\,\textrm{in}.$
+Consider the pyramid $SBCD$ below, where $\triangle{BCD}$ is the base and $\overline{SH}$ is the altitude. Find the volume of the pyramid given that $BD=9\,\text{in},$ $CL=7\,\text{in},$ and $SH=8\,\text{in}.$
 
 ![Instructional graphic](../../../../lesson-assets/integrated-math-ii-honors/topic-1035/2467a3179451fd7b.png)
 
@@ -113,7 +113,7 @@ Now, notice the following:
 
 - The line segment $\overline{CL}$ is the height of $\triangle{BCD}$ corresponding to the side $\overline{BD}.$ So, we compute the area of $\triangle{BCD}$ as
 
-Finally, substituting $A= \dfrac{63}{2}\,\textrm{in}^2$ and $h=8\,\textrm{in}$ into the formula, we get
+Finally, substituting $A= \dfrac{63}{2}\,\text{in}^2$ and $h=8\,\text{in}$ into the formula, we get
 
 $$
 
@@ -127,7 +127,7 @@ $$
 
 #### Question
 
-Consider the pyramid $SBCD$ below, where $\triangle{BCD}$ is the base and $\overline{SH}$ is the altitude. Find $SH$ given that the volume of the pyramid is $385 \, \textrm{cm}^3,$ $BH = 10 \, \textrm{cm},$ and $CD=21\,\textrm{cm}.$
+Consider the pyramid $SBCD$ below, where $\triangle{BCD}$ is the base and $\overline{SH}$ is the altitude. Find $SH$ given that the volume of the pyramid is $385 \, \text{cm}^3,$ $BH = 10 \, \text{cm},$ and $CD=21\,\text{cm}.$
 
 ![Instructional graphic](../../../../lesson-assets/integrated-math-ii-honors/topic-1035/0ffa507ec57e16f1.png)
 
@@ -160,7 +160,7 @@ Next, we substitute
 $$
 
 
-V = 385 \, \textrm{cm}^3, \qquad A = 105 \, \textrm{cm}^2
+V = 385 \, \text{cm}^3, \qquad A = 105 \, \text{cm}^2
 
 
 $$
@@ -175,7 +175,7 @@ $$
 
 $$
 
-Therefore, $SH=h=11 \, \textrm{cm}.$
+Therefore, $SH=h=11 \, \text{cm}.$
 
 ### Example: Finding the Volume of a Pyramid Using the Pythagorean Theorem
 
@@ -206,7 +206,7 @@ Notice that $\triangle{SHL}$ is a right triangle, and
 $$
 
 
-HL = \dfrac{24}{2} = 12 \, \textrm{in}.
+HL = \dfrac{24}{2} = 12 \, \text{in}.
 
 
 $$
@@ -226,7 +226,7 @@ The area of the base is given by
 $$
 
 
-A = 24^2 = 576 \, \textrm{in}^2.
+A = 24^2 = 576 \, \text{in}^2.
 
 
 $$
@@ -236,7 +236,7 @@ Therefore, the volume is
 $$
 
 
-V = \dfrac{1}{3}(576)(9)= 1\,728 \, \textrm{in}^3.
+V = \dfrac{1}{3}(576)(9)= 1\,728 \, \text{in}^3.
 
 
 $$

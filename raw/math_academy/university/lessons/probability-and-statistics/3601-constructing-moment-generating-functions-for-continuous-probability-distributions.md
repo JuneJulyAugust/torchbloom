@@ -75,7 +75,7 @@ Therefore,
 $$
 
 
-\begin{aligned}𝑀(𝑡) & =∫_{∞−∞}^{}𝑓(𝑥)𝑒^{𝑡𝑥}d𝑥 \\ & =∫_{30}^{}\frac{1}{3}𝑒^{𝑡𝑥}d𝑥 \\ & =\frac{1}{3}⋅\frac{𝑒^{𝑡𝑥}}{𝑡}_{30}^{} \\ & =\frac{1}{3}⋅(\frac{𝑒^{3𝑡}}{𝑡}−\frac{1}{𝑡}) \\ & =\frac{𝑒^{3𝑡}−1}{3𝑡}.\end{aligned}
+\begin{aligned}𝑀(𝑡) & =∫_{∞−∞}𝑓(𝑥)𝑒^{𝑡𝑥}d𝑥 \\ & =∫_{30}\frac{1}{3}𝑒^{𝑡𝑥}d𝑥 \\ & =\frac{1}{3}⋅\frac{𝑒^{𝑡𝑥}}{𝑡}_{30} \\ & =\frac{1}{3}⋅(\frac{𝑒^{3𝑡}}{𝑡}−\frac{1}{𝑡}) \\ & =\frac{𝑒^{3𝑡}−1}{3𝑡}.\end{aligned}
 
 
 $$
@@ -117,7 +117,7 @@ Therefore,
 $$
 
 
-\begin{aligned}𝑀(𝑡) & =∫_{∞−∞}^{}𝑓(𝑥)𝑒^{𝑡𝑥}d𝑥 \\ & =∫_{∞0}^{}5𝑒^{−5𝑥}𝑒^{𝑡𝑥}\,d𝑥 \\ & =∫_{∞0}^{}5𝑒^{(𝑡−5)𝑥}\,d𝑥.\end{aligned}
+\begin{aligned}𝑀(𝑡) & =∫_{∞−∞}𝑓(𝑥)𝑒^{𝑡𝑥}d𝑥 \\ & =∫_{∞0}5𝑒^{−5𝑥}𝑒^{𝑡𝑥}\,d𝑥 \\ & =∫_{∞0}5𝑒^{(𝑡−5)𝑥}\,d𝑥.\end{aligned}
 
 
 $$
@@ -197,7 +197,7 @@ Therefore,
 $$
 
 
-\begin{aligned}𝑀(𝑡) & =∫_{∞−∞}^{}𝑓(𝑥)𝑒^{𝑡𝑥}\,d𝑥 \\ & =∫_{∞−∞}^{}\frac{1}{\sqrt{√2𝜋}}𝑒^{−𝑥^{2}/2}⋅𝑒^{𝑡𝑥}\,d𝑥 \\ & =\frac{1}{\sqrt{√2𝜋}}∫_{∞−∞}^{}𝑒^{−𝑥^{2}/2+𝑡𝑥}\,d𝑥.\end{aligned}
+\begin{aligned}𝑀(𝑡) & =∫_{∞−∞}𝑓(𝑥)𝑒^{𝑡𝑥}\,d𝑥 \\ & =∫_{∞−∞}\frac{1}{\sqrt{2𝜋}}𝑒^{−𝑥^{2}/2}⋅𝑒^{𝑡𝑥}\,d𝑥 \\ & =\frac{1}{\sqrt{2𝜋}}∫_{∞−∞}𝑒^{−𝑥^{2}/2+𝑡𝑥}\,d𝑥.\end{aligned}
 
 
 $$
@@ -217,7 +217,7 @@ Substituting the above result in our integral, we get
 $$
 
 
-\begin{aligned}𝑀(𝑡) & =\frac{1}{\sqrt{√2𝜋}}∫_{∞−∞}^{}𝑒^{−𝑥^{2}/2+𝑡𝑥}\,d𝑥 \\ & =\frac{𝑒^{𝑡^{2}/2}}{\sqrt{√2𝜋}}∫_{∞−∞}^{}𝑒^{−(𝑥−𝑡)^{2}/2}\,d𝑥.\end{aligned}
+\begin{aligned}𝑀(𝑡) & =\frac{1}{\sqrt{2𝜋}}∫_{∞−∞}𝑒^{−𝑥^{2}/2+𝑡𝑥}\,d𝑥 \\ & =\frac{𝑒^{𝑡^{2}/2}}{\sqrt{2𝜋}}∫_{∞−∞}𝑒^{−(𝑥−𝑡)^{2}/2}\,d𝑥.\end{aligned}
 
 
 $$
@@ -247,7 +247,7 @@ Therefore,
 $$
 
 
-\begin{aligned}𝑀(𝑡) & =\frac{𝑒^{𝑡^{2}/2}}{\sqrt{√2𝜋}}∫_{∞−∞}^{}𝑒^{−(𝑥−𝑡)^{2}/2}\,d𝑥 \\ & =\frac{𝑒^{𝑡^{2}/2}}{\sqrt{√2𝜋}}⋅\sqrt{√2𝜋} \\ & =𝑒^{𝑡^{2}/2}.\end{aligned}
+\begin{aligned}𝑀(𝑡) & =\frac{𝑒^{𝑡^{2}/2}}{\sqrt{2𝜋}}∫_{∞−∞}𝑒^{−(𝑥−𝑡)^{2}/2}\,d𝑥 \\ & =\frac{𝑒^{𝑡^{2}/2}}{\sqrt{2𝜋}}⋅\sqrt{2𝜋} \\ & =𝑒^{𝑡^{2}/2}.\end{aligned}
 
 
 $$
@@ -309,7 +309,7 @@ Therefore,
 $$
 
 
-\begin{aligned}𝑀(𝑡) & =∫_{∞−∞}^{}𝑓(𝑥)𝑒^{𝑡𝑥}\,d𝑥 \\ & =∫_{∞0}^{}\frac{𝑥⋅𝑒^{−𝑥/2}}{4⋅Γ(2)}⋅𝑒^{𝑡𝑥}\,d𝑥 \\ & =\frac{1}{4⋅Γ(2)}∫_{∞0}^{}𝑥⋅𝑒^{𝑡𝑥−𝑥/2}\,d𝑥 \\ & =\frac{1}{4⋅Γ(2)}∫_{∞0}^{}𝑥⋅𝑒^{𝑥(𝑡−1/2)}\,d𝑥\end{aligned}
+\begin{aligned}𝑀(𝑡) & =∫_{∞−∞}𝑓(𝑥)𝑒^{𝑡𝑥}\,d𝑥 \\ & =∫_{∞0}\frac{𝑥⋅𝑒^{−𝑥/2}}{4⋅Γ(2)}⋅𝑒^{𝑡𝑥}\,d𝑥 \\ & =\frac{1}{4⋅Γ(2)}∫_{∞0}𝑥⋅𝑒^{𝑡𝑥−𝑥/2}\,d𝑥 \\ & =\frac{1}{4⋅Γ(2)}∫_{∞0}𝑥⋅𝑒^{𝑥(𝑡−1/2)}\,d𝑥\end{aligned}
 
 
 $$
@@ -327,7 +327,7 @@ Therefore,
 $$
 
 
-\begin{aligned}𝑀(𝑡) & =\frac{1}{4⋅Γ(2)}∫_{∞0}^{}𝑥⋅𝑒^{𝑥(𝑡−1/2)}\,d𝑥 \\ & =\frac{1}{4⋅Γ(2)}⋅\frac{1}{(1/2−𝑡)^{2}}⋅Γ(2) \\ & =\frac{1}{4⋅Γ(2)}⋅\frac{1}{(1/2−𝑡)^{2}}⋅Γ(2) \\ & =\frac{1}{2^{2}}⋅\frac{1}{(1/2−𝑡)^{2}} \\ & =\frac{1}{(1−2𝑡)^{2}}\,for\,𝑡<\frac{1}{2},\end{aligned}
+\begin{aligned}𝑀(𝑡) & =\frac{1}{4⋅Γ(2)}∫_{∞0}𝑥⋅𝑒^{𝑥(𝑡−1/2)}\,d𝑥 \\ & =\frac{1}{4⋅Γ(2)}⋅\frac{1}{(1/2−𝑡)^{2}}⋅Γ(2) \\ & =\frac{1}{4⋅Γ(2)}⋅\frac{1}{(1/2−𝑡)^{2}}⋅Γ(2) \\ & =\frac{1}{2^{2}}⋅\frac{1}{(1/2−𝑡)^{2}} \\ & =\frac{1}{(1−2𝑡)^{2}}\,for\,𝑡<\frac{1}{2},\end{aligned}
 
 
 $$
@@ -342,4 +342,4 @@ From here, we can make some observations:
 
 - At the beginning of this lesson, we proved the formula for a continuous uniform random variable $X\sim U[a,b]$ for some specific values of $a$ and $b,$ where we assumed $t\neq 0.$ However, when $t=0,$ we have
 
-- Notice the similarity between the MGFs of the exponential and gamma random variables. This is reflective of the relationship between the distributions: $\textrm{Exp}(\lambda)$ gives the total time until the next event occurs in a Poisson process, while $\Gamma(\alpha, \lambda)$ gives the total time for $\alpha$ events to occur. In a future lesson, we will discuss the precise relationship between these two MGFs.
+- Notice the similarity between the MGFs of the exponential and gamma random variables. This is reflective of the relationship between the distributions: $\text{Exp}(\lambda)$ gives the total time until the next event occurs in a Poisson process, while $\Gamma(\alpha, \lambda)$ gives the total time for $\alpha$ events to occur. In a future lesson, we will discuss the precise relationship between these two MGFs.

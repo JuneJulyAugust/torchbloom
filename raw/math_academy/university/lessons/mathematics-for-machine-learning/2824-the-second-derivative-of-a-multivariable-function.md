@@ -50,7 +50,7 @@ To calculate the **second derivative** of $f,$ we simply apply the definition of
 $$
 
 
-\begin{aligned}\frac{𝜕^{2}𝑓}{𝜕𝑥_{21}^{}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{1}𝜕𝑥_{2}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{1}𝜕𝑥_{𝑛}} \\ \frac{𝜕^{2}𝑓}{𝜕𝑥_{2}𝜕𝑥_{1}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{22}^{}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{2}𝜕𝑥_{𝑛}} \\ ⋮ & ⋮ & ⋮ & ⋮ \\ \frac{𝜕^{2}𝑓}{𝜕𝑥_{𝑛}𝜕𝑥_{1}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{𝑛}𝜕𝑥_{2}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{2𝑛}^{}}\end{aligned}
+\begin{aligned}\frac{𝜕^{2}𝑓}{𝜕𝑥_{21}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{1}𝜕𝑥_{2}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{1}𝜕𝑥_{𝑛}} \\ \frac{𝜕^{2}𝑓}{𝜕𝑥_{2}𝜕𝑥_{1}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{22}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{2}𝜕𝑥_{𝑛}} \\ ⋮ & ⋮ & ⋮ & ⋮ \\ \frac{𝜕^{2}𝑓}{𝜕𝑥_{𝑛}𝜕𝑥_{1}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{𝑛}𝜕𝑥_{2}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{2𝑛}}\end{aligned}
 
 
 $$
@@ -104,7 +104,7 @@ the second derivative of $f$ is given by the $n\times n$ matrix
 $$
 
 
-\begin{aligned}\frac{𝜕^{2}𝑓}{𝜕𝑥_{21}^{}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{1}𝜕𝑥_{2}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{1}𝜕𝑥_{𝑛}} \\ \frac{𝜕^{2}𝑓}{𝜕𝑥_{2}𝜕𝑥_{1}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{22}^{}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{2}𝜕𝑥_{𝑛}} \\ ⋮ & ⋮ & ⋮ & ⋮ \\ \frac{𝜕^{2}𝑓}{𝜕𝑥_{𝑛}𝜕𝑥_{1}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{𝑛}𝜕𝑥_{2}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{2𝑛}^{}}\end{aligned}
+\begin{aligned}\frac{𝜕^{2}𝑓}{𝜕𝑥_{21}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{1}𝜕𝑥_{2}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{1}𝜕𝑥_{𝑛}} \\ \frac{𝜕^{2}𝑓}{𝜕𝑥_{2}𝜕𝑥_{1}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{22}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{2}𝜕𝑥_{𝑛}} \\ ⋮ & ⋮ & ⋮ & ⋮ \\ \frac{𝜕^{2}𝑓}{𝜕𝑥_{𝑛}𝜕𝑥_{1}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{𝑛}𝜕𝑥_{2}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{2𝑛}}\end{aligned}
 
 
 $$
@@ -144,7 +144,7 @@ So, the second derivative is
 $$
 
 
-\begin{aligned}𝒇^{″}(𝑥,𝑦) & =[\begin{aligned}−𝑒^{𝑦}sin⁡𝑥 & 𝑒^{𝑦}cos⁡𝑥 \\ 𝑒^{𝑦}cos⁡𝑥 & 𝑒^{𝑦}sin⁡𝑥\end{aligned}].\end{aligned}
+\begin{aligned}𝒇^{″}(𝑥,𝑦) & =[\begin{matrix}−𝑒^{𝑦}sin⁡𝑥 & 𝑒^{𝑦}cos⁡𝑥 \\ 𝑒^{𝑦}cos⁡𝑥 & 𝑒^{𝑦}sin⁡𝑥\end{matrix}].\end{aligned}
 
 
 $$
@@ -182,7 +182,7 @@ the second derivative of $f$ is given by the $n\times n$ matrix
 $$
 
 
-\begin{aligned}\frac{𝜕^{2}𝑓}{𝜕𝑥_{21}^{}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{1}𝜕𝑥_{2}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{1}𝜕𝑥_{𝑛}} \\ \frac{𝜕^{2}𝑓}{𝜕𝑥_{2}𝜕𝑥_{1}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{22}^{}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{2}𝜕𝑥_{𝑛}} \\ ⋮ & ⋮ & ⋮ & ⋮ \\ \frac{𝜕^{2}𝑓}{𝜕𝑥_{𝑛}𝜕𝑥_{1}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{𝑛}𝜕𝑥_{2}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{2𝑛}^{}}\end{aligned}
+\begin{aligned}\frac{𝜕^{2}𝑓}{𝜕𝑥_{21}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{1}𝜕𝑥_{2}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{1}𝜕𝑥_{𝑛}} \\ \frac{𝜕^{2}𝑓}{𝜕𝑥_{2}𝜕𝑥_{1}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{22}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{2}𝜕𝑥_{𝑛}} \\ ⋮ & ⋮ & ⋮ & ⋮ \\ \frac{𝜕^{2}𝑓}{𝜕𝑥_{𝑛}𝜕𝑥_{1}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{𝑛}𝜕𝑥_{2}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{2𝑛}}\end{aligned}
 
 
 $$
@@ -202,7 +202,7 @@ First, we compute the first derivative of $f(x,y),$ as follows:
 $$
 
 
-\begin{aligned}𝒇^{′}(𝑥,𝑦) & =[\begin{aligned}\frac{𝜕𝑓}{𝜕𝑥} & \frac{𝜕𝑓}{𝜕𝑦}\end{aligned}] \\ & =[\begin{aligned}\frac{𝜕}{𝜕𝑥}(𝑥^{2}𝑒^{𝑦}) & \frac{𝜕}{𝜕𝑦}(𝑥^{2}𝑒^{𝑦})\end{aligned}] \\ & =[\begin{aligned}2𝑥𝑒^{𝑦} & 𝑥^{2}𝑒^{𝑦}\end{aligned}]\end{aligned}
+\begin{aligned}𝒇^{′}(𝑥,𝑦) & =[\begin{matrix}\frac{𝜕𝑓}{𝜕𝑥} & \frac{𝜕𝑓}{𝜕𝑦}\end{matrix}] \\ & =[\begin{matrix}\frac{𝜕}{𝜕𝑥}(𝑥^{2}𝑒^{𝑦}) & \frac{𝜕}{𝜕𝑦}(𝑥^{2}𝑒^{𝑦})\end{matrix}] \\ & =[\begin{matrix}2𝑥𝑒^{𝑦} & 𝑥^{2}𝑒^{𝑦}\end{matrix}]\end{aligned}
 
 
 $$
@@ -222,7 +222,7 @@ So, the second derivative is
 $$
 
 
-\begin{aligned}𝒇^{″}(𝑥,𝑦) & =[\begin{aligned}2 \,𝑒^{𝑦} & 2𝑥 \,𝑒^{𝑦} \\ 2𝑥 \,𝑒^{𝑦} & 𝑥^{2}𝑒^{𝑦}\end{aligned}].\end{aligned}
+\begin{aligned}𝒇^{″}(𝑥,𝑦) & =[\begin{matrix}2 \,𝑒^{𝑦} & 2𝑥 \,𝑒^{𝑦} \\ 2𝑥 \,𝑒^{𝑦} & 𝑥^{2}𝑒^{𝑦}\end{matrix}].\end{aligned}
 
 
 $$
@@ -232,7 +232,7 @@ Finally, we evaluate this matrix at $\left(1,0\right).$ This gives
 $$
 
 
-\begin{aligned}𝒇^{″}(1,0)=[\begin{aligned}2 & 2 \\ 2 & 1\end{aligned}].\end{aligned}
+\begin{aligned}𝒇^{″}(1,0)=[\begin{matrix}2 & 2 \\ 2 & 1\end{matrix}].\end{aligned}
 
 
 $$
@@ -260,7 +260,7 @@ the second derivative of $f$ is given by the $n\times n$ matrix
 $$
 
 
-\begin{aligned}\frac{𝜕^{2}𝑓}{𝜕𝑥_{21}^{}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{1}𝜕𝑥_{2}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{1}𝜕𝑥_{𝑛}} \\ \frac{𝜕^{2}𝑓}{𝜕𝑥_{2}𝜕𝑥_{1}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{22}^{}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{2}𝜕𝑥_{𝑛}} \\ ⋮ & ⋮ & ⋮ & ⋮ \\ \frac{𝜕^{2}𝑓}{𝜕𝑥_{𝑛}𝜕𝑥_{1}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{𝑛}𝜕𝑥_{2}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{2𝑛}^{}}\end{aligned}
+\begin{aligned}\frac{𝜕^{2}𝑓}{𝜕𝑥_{21}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{1}𝜕𝑥_{2}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{1}𝜕𝑥_{𝑛}} \\ \frac{𝜕^{2}𝑓}{𝜕𝑥_{2}𝜕𝑥_{1}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{22}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{2}𝜕𝑥_{𝑛}} \\ ⋮ & ⋮ & ⋮ & ⋮ \\ \frac{𝜕^{2}𝑓}{𝜕𝑥_{𝑛}𝜕𝑥_{1}} & \frac{𝜕^{2}𝑓}{𝜕𝑥_{𝑛}𝜕𝑥_{2}} & ⋯ & \frac{𝜕^{2}𝑓}{𝜕𝑥_{2𝑛}}\end{aligned}
 
 
 $$
@@ -310,7 +310,7 @@ So, the second derivative is
 $$
 
 
-\begin{aligned}𝒇^{″}(𝑥,𝑦) & =\begin{aligned}\frac{𝜕^{2}𝑓}{𝜕𝑥^{2}} & \frac{𝜕^{2}𝑓}{𝜕𝑥𝜕𝑦} \\ \frac{𝜕^{2}𝑓}{𝜕𝑦𝜕𝑥} & \frac{𝜕^{2}𝑓}{𝜕𝑦^{2}}\end{aligned}=\begin{aligned}0 & \frac{1}{𝑦} \\ \frac{1}{𝑦} & −\frac{𝑥}{𝑦^{2}}\end{aligned}.\end{aligned}
+\begin{aligned}𝒇^{″}(𝑥,𝑦) & =\begin{matrix}\frac{𝜕^{2}𝑓}{𝜕𝑥^{2}} & \frac{𝜕^{2}𝑓}{𝜕𝑥𝜕𝑦} \\ \frac{𝜕^{2}𝑓}{𝜕𝑦𝜕𝑥} & \frac{𝜕^{2}𝑓}{𝜕𝑦^{2}}\end{matrix}=\begin{matrix}0 & \frac{1}{𝑦} \\ \frac{1}{𝑦} & −\frac{𝑥}{𝑦^{2}}\end{matrix}.\end{aligned}
 
 
 $$
@@ -320,7 +320,7 @@ Evaluating the second derivative at $(0,1),$ we obtain
 $$
 
 
-\begin{aligned}𝒇^{″}(0,1)=[\begin{aligned}0 & 1 \\ 1 & 0\end{aligned}].\end{aligned}
+\begin{aligned}𝒇^{″}(0,1)=[\begin{matrix}0 & 1 \\ 1 & 0\end{matrix}].\end{aligned}
 
 
 $$

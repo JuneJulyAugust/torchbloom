@@ -87,35 +87,35 @@ Given that $U$ is a universal set and $A \subseteq U,$ we have $A \cup \overline
 
 A proof that $U \subseteq A \cup \overline{A}$ is given below.
 
-$\textrm{L1}{:}\:$ Let $x \in U.$ So, we have two cases:
+$\text{L1}{:}\:$ Let $x \in U.$ So, we have two cases:
 
-$\textrm{L2}{:}\:$ **** $x \in A.$ Then $x \in A \cup \overline{A}.$
+$\text{L2}{:}\:$ **** $x \in A.$ Then $x \in A \cup \overline{A}.$
 
-$\textrm{L3}{:}\:$ **** $x \not\in A.$ This implies that $x \in \overline{A}.$
+$\text{L3}{:}\:$ **** $x \not\in A.$ This implies that $x \in \overline{A}.$
 
-$\textrm{L4}{:}\:$ Therefore, $x \in A \cup \overline{A}.$
+$\text{L4}{:}\:$ Therefore, $x \in A \cup \overline{A}.$
 
-$\textrm{L5}{:}\:$ In both cases, $x \in A \cup \overline{A}.$
+$\text{L5}{:}\:$ In both cases, $x \in A \cup \overline{A}.$
 
-$\textrm{L6}{:}\:$ Thus, $U \subseteq A \cup \overline{A}.$
+$\text{L6}{:}\:$ Thus, $U \subseteq A \cup \overline{A}.$
 
 Complete the missing entries in the following reasoning.
 
-- Line $\textrm{L2}$ is true due to the properties of the $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\,$.
+- Line $\text{L2}$ is true due to the properties of the $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\,$.
 
-- Line $\textrm{L3}$ is true by the the definition of the $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\,$.
+- Line $\text{L3}$ is true by the the definition of the $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\,$.
 
-- Line $\textrm{L6}$ follows from $\textrm{L1}$ and $\textrm{L5}$ by the definition of the $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\,$.
+- Line $\text{L6}$ follows from $\text{L1}$ and $\text{L5}$ by the definition of the $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\,$.
 
 #### Explanation
 
 Let's examine each statement in turn. Assume $X$ and $Y$ are subsets of a universal set $U.$
 
-- First, we consider line $\textrm{L2}.$ According to the properties of the union of sets, we have the following implication: Therefore, line $\textrm{L2}$ is true due to the properties of the $\boxed{\color{blue}\text{union of sets}}.$
+- First, we consider line $\text{L2}.$ According to the properties of the union of sets, we have the following implication: Therefore, line $\text{L2}$ is true due to the properties of the $\boxed{\color{blue}\text{union of sets}}.$
 
-- Next, we consider line $\textrm{L3}.$ According to the definition of the set complement, we have the following equivalence: Therefore, line $\textrm{L3}$ is true by the definition of the $\boxed{\color{blue}\text{set complement}}.$
+- Next, we consider line $\text{L3}.$ According to the definition of the set complement, we have the following equivalence: Therefore, line $\text{L3}$ is true by the definition of the $\boxed{\color{blue}\text{set complement}}.$
 
-- Finally, we consider lines $\textrm{L1},$ $\textrm{L5},$ and $\textrm{L6}.$ According to the definition of the subset, we have the following equivalence: Therefore, $\textrm{L6}$ follows from $\textrm{L1}$ and $\textrm{L5}$ by the definition of the $\boxed{\color{blue}\textrm{subset}}.$
+- Finally, we consider lines $\text{L1},$ $\text{L5},$ and $\text{L6}.$ According to the definition of the subset, we have the following equivalence: Therefore, $\text{L6}$ follows from $\text{L1}$ and $\text{L5}$ by the definition of the $\boxed{\color{blue}\text{subset}}.$
 
 ### Proof Using Chains of Biconditional Statements
 
@@ -225,35 +225,35 @@ Given that $U$ is a universal set and $A \subseteq U,$ we have $(A \cap B) \cap 
 
 A proof of this statement is given below.
 
-$\textrm{L1}{:}\:$ $x \in (A \cap B) \cap C$
+$\text{L1}{:}\:$ $x \in (A \cap B) \cap C$
 
-$\textrm{L2}{:}\:$ $\Leftrightarrow (x\in A \cap B) \land (x \in C)$
+$\text{L2}{:}\:$ $\Leftrightarrow (x\in A \cap B) \land (x \in C)$
 
-$\textrm{L3}{:}\:$ $\Leftrightarrow ((x \in A) \land (x\in B))\land (x\in C)$
+$\text{L3}{:}\:$ $\Leftrightarrow ((x \in A) \land (x\in B))\land (x\in C)$
 
-$\textrm{L4}{:}\:$ $\Leftrightarrow (x\in A) \land ((x \in B) \land (x\in C))$
+$\text{L4}{:}\:$ $\Leftrightarrow (x\in A) \land ((x \in B) \land (x\in C))$
 
-$\textrm{L5}{:}\:$ $\Leftrightarrow (x\in A)\land(x \in (B \cap C))$
+$\text{L5}{:}\:$ $\Leftrightarrow (x\in A)\land(x \in (B \cap C))$
 
-$\textrm{L6}{:}\:$ $\Leftrightarrow x \in A \cap (B \cap C)$
+$\text{L6}{:}\:$ $\Leftrightarrow x \in A \cap (B \cap C)$
 
 Complete the missing entries in the following reasoning.
 
-- Line $\textrm{L2}$ is equivalent to line $\textrm{L1}$ by $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\,$.
+- Line $\text{L2}$ is equivalent to line $\text{L1}$ by $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\,$.
 
-- Line $\textrm{L4}$ is equivalent to line $\textrm{L3}$ by the law of $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\,$.
+- Line $\text{L4}$ is equivalent to line $\text{L3}$ by the law of $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\,$.
 
-- Line $\textrm{L6}$ is equivalent to line $\textrm{L5}$ by the definition of $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\,$.
+- Line $\text{L6}$ is equivalent to line $\text{L5}$ by the definition of $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\,$.
 
 #### Explanation
 
 Let's examine each statement in turn. Assume $X,$ $Y$ and $Z$ are subsets of a universal set $U,$ and $P$ is a statement.
 
-- First, we consider lines $\textrm{L1}$ and $\textrm{L2}.$ According to the definition of the intersection of sets, we have the following equivalence: Therefore, line $\textrm{L2}$ is equivalent to line $\textrm{L1}$ by the $\boxed{\color{blue}\text{definition of the intersection of sets}}.$
+- First, we consider lines $\text{L1}$ and $\text{L2}.$ According to the definition of the intersection of sets, we have the following equivalence: Therefore, line $\text{L2}$ is equivalent to line $\text{L1}$ by the $\boxed{\color{blue}\text{definition of the intersection of sets}}.$
 
-- Next, we consider lines $\textrm{L3}$ and $\textrm{L4}.$ According to the law of associativity for conjunctions, we have the following equivalence: Therefore, line $\textrm{L4}$ is equivalent to line $\textrm{L3}$ by the law of $\boxed{\color{blue}\text{associativity for conjunctions}}.$
+- Next, we consider lines $\text{L3}$ and $\text{L4}.$ According to the law of associativity for conjunctions, we have the following equivalence: Therefore, line $\text{L4}$ is equivalent to line $\text{L3}$ by the law of $\boxed{\color{blue}\text{associativity for conjunctions}}.$
 
-- Finally, we consider lines $\textrm{L5}$ and $\textrm{L6}.$ According to the definition of the intersection of sets, we have the following equivalence: Therefore, line $\textrm{L6}$ is equivalent to line $\textrm{L5}$ by the definition of $\boxed{\color{blue}\text{the intersection of sets}}.$
+- Finally, we consider lines $\text{L5}$ and $\text{L6}.$ According to the definition of the intersection of sets, we have the following equivalence: Therefore, line $\text{L6}$ is equivalent to line $\text{L5}$ by the definition of $\boxed{\color{blue}\text{the intersection of sets}}.$
 
 ### Proof by Contradiction
 
@@ -304,7 +304,7 @@ We can now use the definition of the Cartesian product of two sets.
 $$
 
 
-x \in \emptyset \quad \textrm{and} \quad y \in A.
+x \in \emptyset \quad \text{and} \quad y \in A.
 
 
 $$
@@ -330,7 +330,7 @@ Proof:
 $$
 
 
-x \in \emptyset \quad \textrm{and} \quad y \in A.
+x \in \emptyset \quad \text{and} \quad y \in A.
 
 
 $$
@@ -376,7 +376,7 @@ As a result, by the definition of the intersection of sets, we have
 $$
 
 
-x \in \emptyset \quad \textrm{and}\quad x \in \emptyset,
+x \in \emptyset \quad \text{and}\quad x \in \emptyset,
 
 
 $$

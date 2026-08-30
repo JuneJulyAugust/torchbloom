@@ -41,7 +41,7 @@ For example, the ODE below has sinusoidal forcing:
 $$
 
 
-\frac{\textrm{d}^2 y}{\textrm{d} x^2} + \frac{\textrm{d} y}{\textrm{d} x} - 2y= 2 \cos 2 x
+\frac{\text{d}^2 y}{\text{d} x^2} + \frac{\text{d} y}{\text{d} x} - 2y= 2 \cos 2 x
 
 
 $$
@@ -75,7 +75,7 @@ Let's solve the following second-order ODE with sinusoidal forcing:
 $$
 
 
-\frac{\textrm{d}^2 y}{\textrm{d} x^2} + \frac{\textrm{d} y}{\textrm{d} x} - 2y= 2 \cos 2 x
+\frac{\text{d}^2 y}{\text{d} x^2} + \frac{\text{d} y}{\text{d} x} - 2y= 2 \cos 2 x
 
 
 $$
@@ -137,7 +137,7 @@ The corresponding terms on both sides should have the same coefficients. Equatin
 $$
 
 
-\begin{aligned}\begin{aligned}2𝛽−6𝛼=2 \\ −6𝛽−2𝛼=0\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}2𝛽−6𝛼=2 \\ −6𝛽−2𝛼=0\end{matrix}\end{aligned}
 
 
 $$
@@ -233,7 +233,7 @@ For example, let's find the solution to the following ODE:
 $$
 
 
-\frac{\textrm{d}^2 y}{\textrm{d} x^2} + y= 4 \cos x.
+\frac{\text{d}^2 y}{\text{d} x^2} + y= 4 \cos x.
 
 
 $$
@@ -248,7 +248,7 @@ $$
 
 $$
 
-so $\lambda = \textrm{i}$ or $\lambda = -\textrm{i}.$ Consequently, the complimentary solution is
+so $\lambda = \text{i}$ or $\lambda = -\text{i}.$ Consequently, the complimentary solution is
 
 $$
 
@@ -295,7 +295,7 @@ Equating the coefficients, we get the following system of equations:
 $$
 
 
-\begin{aligned}\begin{aligned}2𝛽=4\, & (equating the coefficients of\,\,cos⁡𝑥) \\ −2𝛼=0\, & (equating the coefficients of\,\,sin⁡𝑥)\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}2𝛽=4\, & (equating the coefficients of\,\,cos⁡𝑥) \\ −2𝛼=0\, & (equating the coefficients of\,\,sin⁡𝑥)\end{matrix}\end{aligned}
 
 
 $$
@@ -331,14 +331,14 @@ Find the general solution to the equation
 $$
 
 
-\frac{\textrm{d}^2 y}{\textrm{d} x^2} + 4y = 4\sin 2x.
+\frac{\text{d}^2 y}{\text{d} x^2} + 4y = 4\sin 2x.
 
 
 $$
 
 #### Explanation
 
-First, we find the complementary solution by solving the associated homogeneous ODE. The characteristic equation has roots $\lambda = \pm 2 \textrm{i},$ so the complementary solution is
+First, we find the complementary solution by solving the associated homogeneous ODE. The characteristic equation has roots $\lambda = \pm 2 \text{i},$ so the complementary solution is
 
 $$
 
@@ -387,7 +387,7 @@ Equating the coefficients, we get the following system of equations:
 $$
 
 
-\begin{aligned}\begin{aligned}4𝛽=0\, & (equating the coefficients of\,\,cos⁡2𝑥) \\ −4𝛼=4\, & (equating the coefficients of\,\,sin⁡2𝑥)\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}4𝛽=0\, & (equating the coefficients of\,\,cos⁡2𝑥) \\ −4𝛼=4\, & (equating the coefficients of\,\,sin⁡2𝑥)\end{matrix}\end{aligned}
 
 
 $$
@@ -423,7 +423,7 @@ Given that the differential equation
 $$
 
 
-\frac{\textrm{d}^2 y}{\textrm{d} x^2} + 4y = 4\sin 2x
+\frac{\text{d}^2 y}{\text{d} x^2} + 4y = 4\sin 2x
 
 
 $$
@@ -443,7 +443,7 @@ solve the initial value problem
 $$
 
 
-\frac{\textrm{d}^2 y}{\textrm{d} x^2} + 4y = 4\sin 2x, \qquad y(0) = 2 , \ \ y'(0) = -3.
+\frac{\text{d}^2 y}{\text{d} x^2} + 4y = 4\sin 2x, \qquad y(0) = 2 , \ \ y'(0) = -3.
 
 
 $$

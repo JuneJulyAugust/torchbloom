@@ -53,7 +53,7 @@ Let's use our calculator to approximate the following derivative at $x=1{:}$
 $$
 
 
-\dfrac{\textrm{d}}{\textrm{d}x}\left( \dfrac{\sin x}{x^2 + 1} \right)
+\dfrac{\text{d}}{\text{d}x}\left( \dfrac{\sin x}{x^2 + 1} \right)
 
 
 $$
@@ -62,7 +62,7 @@ Since the function we want to differentiate contains trigonometric functions, yo
 
 We bring up the derivative option on most calculators in one of the following ways:
 
-1. Using the $\boxed{\color{gray}\,\dfrac{\textrm{d}}{\textrm{d}x}\boxed{\phantom{00}}\,}$ button. You may need to press the $\boxed{\color{gray}\,2\text{nd}\,}$ (or $\boxed{\color{gray}\,\text{shift}\,}$) button first.
+1. Using the $\boxed{\color{gray}\,\dfrac{\text{d}}{\text{d}x}\boxed{\phantom{00}}\,}$ button. You may need to press the $\boxed{\color{gray}\,2\text{nd}\,}$ (or $\boxed{\color{gray}\,\text{shift}\,}$) button first.
 
 2. Using the $\boxed{\color{gray}\,\text{math}\,}$ (or $\boxed{\color{gray}\,\text{calc}\,}$) button and selecting the "derivative" option. Note that this might be called $\boxed{\color{gray}\,\text{nDeriv}\,}$ or similar.
 
@@ -75,7 +75,7 @@ If your calculator uses derivative notation, you should see a prompt that looks 
 $$
 
 
-\dfrac{\textrm{d}}{\textrm{d}\boxed{\phantom{\,0\,}}}\Big(\boxed{\phantom{00\big|}}\Big)\Bigg|_{\boxed{\phantom{\,0\,}}=\boxed{\phantom{\,0\,}}}
+\dfrac{\text{d}}{\text{d}\boxed{\phantom{\,0\,}}}\Big(\boxed{\phantom{00\big|}}\Big)\Bigg|_{\boxed{\phantom{\,0\,}}=\boxed{\phantom{\,0\,}}}
 
 
 $$
@@ -88,14 +88,14 @@ In this case, we fill in the empty boxes as follows:
 
 - Navigate the cursor to the last empty box by pressing $\boxed{\color{gray}\,\blacktriangleright\,}$ and then press $\boxed{\color{gray}\,1\,}$ to enter the value $x=1.$ The prompt should now look as follows:
 
-- Finally, press $\boxed{\color{gray}\,\textrm{enter}\,},$ and the calculator will return the numerical value of the derivative.
+- Finally, press $\boxed{\color{gray}\,\text{enter}\,},$ and the calculator will return the numerical value of the derivative.
 
 Following the above steps, we obtain
 
 $$
 
 
-\dfrac{\textrm{d}}{\textrm{d}x}\left.\left( \dfrac{\sin x}{x^2 + 1} \right) \right|_{x=1} = -0.150\,584
+\dfrac{\text{d}}{\text{d}x}\left.\left( \dfrac{\sin x}{x^2 + 1} \right) \right|_{x=1} = -0.150\,584
 
 
 $$
@@ -109,7 +109,7 @@ If your calculator uses function notation, then instead of being presented with
 $$
 
 
-\dfrac{\textrm{d}}{\textrm{d}\boxed{\phantom{\,0\,}}}\Big(\boxed{\phantom{00\big|}}\Big)\Bigg|_{\boxed{\phantom{\,0\,}}=\boxed{\phantom{\,0\,}}}
+\dfrac{\text{d}}{\text{d}\boxed{\phantom{\,0\,}}}\Big(\boxed{\phantom{00\big|}}\Big)\Bigg|_{\boxed{\phantom{\,0\,}}=\boxed{\phantom{\,0\,}}}
 
 
 $$
@@ -136,14 +136,14 @@ $$
 
 $$
 
-Finally, press $\boxed{\color{gray}\,\textrm{enter}\,}$ or $\boxed{\color{gray}\,=\,}$ to return the numerical value of the derivative.
+Finally, press $\boxed{\color{gray}\,\text{enter}\,}$ or $\boxed{\color{gray}\,=\,}$ to return the numerical value of the derivative.
 
 Following the above steps, we obtain
 
 $$
 
 
-\dfrac{\textrm{d}}{\textrm{d}x}\left.\left( \dfrac{\sin x}{x^2 + 1} \right) \right|_{x=1} = -0.150\,584
+\dfrac{\text{d}}{\text{d}x}\left.\left( \dfrac{\sin x}{x^2 + 1} \right) \right|_{x=1} = -0.150\,584
 
 
 $$
@@ -164,7 +164,7 @@ rounded to six decimal places.
 
 #### Question
 
-Evaluate $\dfrac{\textrm{d}}{\textrm{d}x}\left(x^3 \sqrt{\sin x + 1} \right)$ at $x=1.6.$
+Evaluate $\dfrac{\text{d}}{\text{d}x}\left(x^3 \sqrt{\sin x + 1} \right)$ at $x=1.6.$
 
 #### Explanation
 
@@ -172,7 +172,7 @@ First, we need to make sure that the calculator is in $\boxed{\color{gray}\,\tex
 
 We bring up the derivative option on most calculators in one of the following ways:
 
-- Using the $\boxed{\color{gray}\,\dfrac{\textrm{d}}{\textrm{d}x}\boxed{\phantom{00}}\,}$ button. You may need to press the $\boxed{\color{gray}\,2\text{nd}\,}$ (or $\boxed{\color{gray}\,\text{shift}\,}$) button first.
+- Using the $\boxed{\color{gray}\,\dfrac{\text{d}}{\text{d}x}\boxed{\phantom{00}}\,}$ button. You may need to press the $\boxed{\color{gray}\,2\text{nd}\,}$ (or $\boxed{\color{gray}\,\text{shift}\,}$) button first.
 
 - Press the $\boxed{\color{gray}\,\text{math}\,}$ (or $\boxed{\color{gray}\,\text{calc}\,}$) button and choose the derivative option. Note that this might be called $\boxed{\color{gray}\,\text{nDeriv}\,}$ or similar.
 
@@ -181,7 +181,7 @@ Evaluating this using a calculator, we obtain
 $$
 
 
-\dfrac{\textrm{d}}{\textrm{d}x}\left.\left( x^3 \sqrt{\sin x + 1} \right) \right|_{x=1.6} \approx 10.818
+\dfrac{\text{d}}{\text{d}x}\left.\left( x^3 \sqrt{\sin x + 1} \right) \right|_{x=1.6} \approx 10.818
 
 
 $$
@@ -236,7 +236,7 @@ The slope of the tangent line is the derivative of $f(x)$ at $x=0.7.$
 
 We bring up the derivative option on most calculators in one of the following ways:
 
-- Using the $\boxed{\color{gray}\,\dfrac{\textrm{d}}{\textrm{d}x}\boxed{\phantom{00}}\,}$ button. You may need to press the $\boxed{\color{gray}\,2\text{nd}\,}$ (or $\boxed{\color{gray}\,\text{shift}\,}$) button first.
+- Using the $\boxed{\color{gray}\,\dfrac{\text{d}}{\text{d}x}\boxed{\phantom{00}}\,}$ button. You may need to press the $\boxed{\color{gray}\,2\text{nd}\,}$ (or $\boxed{\color{gray}\,\text{shift}\,}$) button first.
 
 - Press the $\boxed{\color{gray}\,\text{math}\,}$ (or $\boxed{\color{gray}\,\text{calc}\,}$) button and choose the derivative option. Note that this might be called $\boxed{\color{gray}\,\text{nDeriv}\,}$ or similar.
 
@@ -245,7 +245,7 @@ Evaluating the derivative using a calculator, we obtain
 $$
 
 
-f'\left(0.7\right) = \left. \dfrac{\textrm{d}}{\textrm{d}x} \left( \sin\left( 1 + \dfrac{1}{\ln x} \right) \right) \right|_{x=0.7} \approx 2.591\,5
+f'\left(0.7\right) = \left. \dfrac{\text{d}}{\text{d}x} \left( \sin\left( 1 + \dfrac{1}{\ln x} \right) \right) \right|_{x=0.7} \approx 2.591\,5
 
 
 $$
@@ -306,7 +306,7 @@ The slope of the normal line is the negative reciprocal of the derivative of $f(
 
 We bring up the derivative option on most calculators in one of the following ways:
 
-- Using the $\boxed{\color{gray}\,\dfrac{\textrm{d}}{\textrm{d}x}\boxed{\phantom{00}}\,}$ button. You may need to press the $\boxed{\color{gray}\,2\text{nd}\,}$ (or $\boxed{\color{gray}\,\text{shift}\,}$) button first.
+- Using the $\boxed{\color{gray}\,\dfrac{\text{d}}{\text{d}x}\boxed{\phantom{00}}\,}$ button. You may need to press the $\boxed{\color{gray}\,2\text{nd}\,}$ (or $\boxed{\color{gray}\,\text{shift}\,}$) button first.
 
 - Press the $\boxed{\color{gray}\,\text{math}\,}$ (or $\boxed{\color{gray}\,\text{calc}\,}$) button and choose the derivative option. Note that this might be called $\boxed{\color{gray}\,\text{nDeriv}\,}$ or similar.
 
@@ -315,7 +315,7 @@ Evaluating the derivative using a calculator, we obtain
 $$
 
 
-f'(2) = \left. \dfrac{\textrm{d}}{\textrm{d}x} \left(\dfrac{\ln(x^2+8)}{x^2+1} \right) \right|_{x=2} \approx -0.330\, 9
+f'(2) = \left. \dfrac{\text{d}}{\text{d}x} \left(\dfrac{\ln(x^2+8)}{x^2+1} \right) \right|_{x=2} \approx -0.330\, 9
 
 
 $$

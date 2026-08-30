@@ -57,7 +57,7 @@ We start by proving the base case, $P(1).$ To do this, we substitute $n=1$ into 
 $$
 
 
-\begin{aligned}[\begin{aligned}1 & 2 \\ 0 & 1\end{aligned}]^{1}=[\begin{aligned}1 & 2 \\ 0 & 1\end{aligned}],\end{aligned}
+\begin{aligned}[\begin{matrix}1 & 2 \\ 0 & 1\end{matrix}]^{1}=[\begin{matrix}1 & 2 \\ 0 & 1\end{matrix}],\end{aligned}
 
 
 $$
@@ -67,7 +67,7 @@ and for the right-hand side, we have
 $$
 
 
-\begin{aligned}[\begin{aligned}1 & 2(1) \\ 0 & 1\end{aligned}]=[\begin{aligned}1 & 2 \\ 0 & 1\end{aligned}].\end{aligned}
+\begin{aligned}[\begin{matrix}1 & 2(1) \\ 0 & 1\end{matrix}]=[\begin{matrix}1 & 2 \\ 0 & 1\end{matrix}].\end{aligned}
 
 
 $$
@@ -117,7 +117,7 @@ We write
 $$
 
 
-\begin{aligned}[\begin{aligned}1 & 2 \\ 0 & 1\end{aligned}]^{𝑘+1} & =[\begin{aligned}1 & 2 \\ 0 & 1\end{aligned}]^{𝑘}⋅[\begin{aligned}1 & 2 \\ 0 & 1\end{aligned}].\end{aligned}
+\begin{aligned}[\begin{matrix}1 & 2 \\ 0 & 1\end{matrix}]^{𝑘+1} & =[\begin{matrix}1 & 2 \\ 0 & 1\end{matrix}]^{𝑘}⋅[\begin{matrix}1 & 2 \\ 0 & 1\end{matrix}].\end{aligned}
 
 
 $$
@@ -127,7 +127,7 @@ By the inductive hypothesis, we have
 $$
 
 
-\begin{aligned}[\begin{aligned}1 & 2 \\ 0 & 1\end{aligned}]^{𝑘}⋅[\begin{aligned}1 & 2 \\ 0 & 1\end{aligned}] & =[\begin{aligned}1 & 2𝑘 \\ 0 & 1\end{aligned}]⋅[\begin{aligned}1 & 2 \\ 0 & 1\end{aligned}] \\ & =[\begin{aligned}1 & 2+2𝑘 \\ 0 & 1\end{aligned}] \\ & =[\begin{aligned}1 & 2(𝑘+1) \\ 0 & 1\end{aligned}],\end{aligned}
+\begin{aligned}[\begin{matrix}1 & 2 \\ 0 & 1\end{matrix}]^{𝑘}⋅[\begin{matrix}1 & 2 \\ 0 & 1\end{matrix}] & =[\begin{matrix}1 & 2𝑘 \\ 0 & 1\end{matrix}]⋅[\begin{matrix}1 & 2 \\ 0 & 1\end{matrix}] \\ & =[\begin{matrix}1 & 2+2𝑘 \\ 0 & 1\end{matrix}] \\ & =[\begin{matrix}1 & 2(𝑘+1) \\ 0 & 1\end{matrix}],\end{aligned}
 
 
 $$
@@ -291,7 +291,7 @@ We proceed using induction on $n.$
 $$
 
 
-\begin{aligned}[\begin{aligned}1 & 0 \\ 3 & 4\end{aligned}]^{1}=[\begin{aligned}1 & 0 \\ 3 & 4\end{aligned}],\end{aligned}
+\begin{aligned}[\begin{matrix}1 & 0 \\ 3 & 4\end{matrix}]^{1}=[\begin{matrix}1 & 0 \\ 3 & 4\end{matrix}],\end{aligned}
 
 
 $$
@@ -301,7 +301,7 @@ and for the right-hand side, we have
 $$
 
 
-\begin{aligned}[\begin{aligned}1 & 0 \\ 4^{1}−1 & 4^{1}\end{aligned}]=[\begin{aligned}1 & 0 \\ 3 & 4\end{aligned}].\end{aligned}
+\begin{aligned}[\begin{matrix}1 & 0 \\ 4^{1}−1 & 4^{1}\end{matrix}]=[\begin{matrix}1 & 0 \\ 3 & 4\end{matrix}].\end{aligned}
 
 
 $$
@@ -351,7 +351,7 @@ We write
 $$
 
 
-\begin{aligned}[\begin{aligned}1 & 0 \\ 3 & 4\end{aligned}]^{𝑘+1} & =[\begin{aligned}1 & 0 \\ 3 & 4\end{aligned}]^{𝑘}⋅[\begin{aligned}1 & 0 \\ 3 & 4\end{aligned}].\end{aligned}
+\begin{aligned}[\begin{matrix}1 & 0 \\ 3 & 4\end{matrix}]^{𝑘+1} & =[\begin{matrix}1 & 0 \\ 3 & 4\end{matrix}]^{𝑘}⋅[\begin{matrix}1 & 0 \\ 3 & 4\end{matrix}].\end{aligned}
 
 
 $$
@@ -361,7 +361,7 @@ By the inductive hypothesis, we have
 $$
 
 
-\begin{aligned}[\begin{aligned}1 & 0 \\ 3 & 4\end{aligned}]^{𝑘}⋅[\begin{aligned}1 & 0 \\ 3 & 4\end{aligned}] & =[\begin{aligned}1 & 0 \\ 4^{𝑘}−1 & 4^{𝑘}\end{aligned}]⋅[\begin{aligned}1 & 0 \\ 3 & 4\end{aligned}] \\ & =[\begin{aligned}1 & 0 \\ 4^{𝑘}−1+3⋅4^{𝑘} & 4⋅4^{𝑘}\end{aligned}] \\ & =[\begin{aligned}1 & 0 \\ 4⋅4^{𝑘}−1 & 4⋅4^{𝑘}\end{aligned}] \\ & =[\begin{aligned}1 & 0 \\ 4^{𝑘+1}−1 & 4^{𝑘+1}\end{aligned}],\end{aligned}
+\begin{aligned}[\begin{matrix}1 & 0 \\ 3 & 4\end{matrix}]^{𝑘}⋅[\begin{matrix}1 & 0 \\ 3 & 4\end{matrix}] & =[\begin{matrix}1 & 0 \\ 4^{𝑘}−1 & 4^{𝑘}\end{matrix}]⋅[\begin{matrix}1 & 0 \\ 3 & 4\end{matrix}] \\ & =[\begin{matrix}1 & 0 \\ 4^{𝑘}−1+3⋅4^{𝑘} & 4⋅4^{𝑘}\end{matrix}] \\ & =[\begin{matrix}1 & 0 \\ 4⋅4^{𝑘}−1 & 4⋅4^{𝑘}\end{matrix}] \\ & =[\begin{matrix}1 & 0 \\ 4^{𝑘+1}−1 & 4^{𝑘+1}\end{matrix}],\end{aligned}
 
 
 $$

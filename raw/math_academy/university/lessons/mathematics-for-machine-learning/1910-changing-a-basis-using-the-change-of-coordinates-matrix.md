@@ -44,7 +44,7 @@ Let $\mathbf{v} \in V$ and $[\begin{aligned}2 \\ 2\end{aligned}]$ Then we can ea
 $$
 
 
-\begin{aligned}[\,𝐯\,]_{C} & =\overset{\overset{[\begin{aligned}−1 & 2 \\ 2 & 1\end{aligned}]}{}}{𝑃_{B→C}}⋅\overset{\overset{[\begin{aligned}2 \\ 2\end{aligned}]}{}}{[𝐯]_{B}} \\ & =[\begin{aligned}2 \\ 6\end{aligned}]\end{aligned}
+\begin{aligned}[\,𝐯\,]_{C} & =\overset{[\begin{matrix}−1 & 2 \\ 2 & 1\end{matrix}]}{}}{𝑃_{B→C}}⋅\overset{[\begin{matrix}2 \\ 2\end{matrix}]}{}}{[𝐯]_{B}} \\ & =[\begin{matrix}2 \\ 6\end{matrix}]\end{aligned}
 
 
 $$
@@ -76,7 +76,7 @@ Also, remember that the change-of-coordinates matrix from $\color{blue}\mathcal{
 $$
 
 
-P_{\small{\color{red}\mathcal{C}}\to{\color{blue}\mathcal{B}}} = P_{\small{\color{blue}\mathcal{B}}\to{\color{red}\mathcal{C}}}^{-1} \quad\textrm{and}\quad P_{\small{\color{blue}\mathcal{B}}\to{\color{red}\mathcal{C}}} = P_{\small{\color{red}\mathcal{C}}\to{\color{blue}\mathcal{B}}}^{-1}
+P_{\small{\color{red}\mathcal{C}}\to{\color{blue}\mathcal{B}}} = P_{\small{\color{blue}\mathcal{B}}\to{\color{red}\mathcal{C}}}^{-1} \quad\text{and}\quad P_{\small{\color{blue}\mathcal{B}}\to{\color{red}\mathcal{C}}} = P_{\small{\color{red}\mathcal{C}}\to{\color{blue}\mathcal{B}}}^{-1}
 
 
 $$
@@ -102,7 +102,7 @@ Given the coordinates of $\mathbf{x}$ relative to $\mathcal{B}$ and the change-o
 $$
 
 
-\begin{aligned}[\,𝐱\,]_{C} & =𝑃_{B→C}[\,𝐱\,]_{B} \\ & =[\begin{aligned}−3 & 6 \\ 5 & −8\end{aligned}][\begin{aligned}5 \\ 3\end{aligned}] \\ & =[\begin{aligned}3 \\ 1\end{aligned}]\end{aligned}
+\begin{aligned}[\,𝐱\,]_{C} & =𝑃_{B→C}[\,𝐱\,]_{B} \\ & =[\begin{matrix}−3 & 6 \\ 5 & −8\end{matrix}][\begin{matrix}5 \\ 3\end{matrix}] \\ & =[\begin{matrix}3 \\ 1\end{matrix}]\end{aligned}
 
 
 $$
@@ -138,7 +138,7 @@ First, we need to find the change-of-coordinates matrix $P_{\small\mathcal{C}\to
 $$
 
 
-\begin{aligned}𝑃_{C→B} & =𝑃_{−1B→C}^{} \\ & =[\begin{aligned}−4 & 3 \\ 6 & −4\end{aligned}]^{−1} \\ & =\frac{1}{(−4)(−4)−6⋅3}[\begin{aligned}−4 & −3 \\ −6 & −4\end{aligned}] \\ & =\begin{aligned}2 & \frac{3}{2} \\ 3 & 2\end{aligned}\end{aligned}
+\begin{aligned}𝑃_{C→B} & =𝑃_{−1B→C} \\ & =[\begin{matrix}−4 & 3 \\ 6 & −4\end{matrix}]^{−1} \\ & =\frac{1}{(−4)(−4)−6⋅3}[\begin{matrix}−4 & −3 \\ −6 & −4\end{matrix}] \\ & =\begin{matrix}2 & \frac{3}{2} \\ 3 & 2\end{matrix}\end{aligned}
 
 
 $$
@@ -158,7 +158,7 @@ Now, we compute $[\,\mathbf{x}\,]_{\mathcal{B}}\mathbin{:}$
 $$
 
 
-\begin{aligned}[\,𝐱\,]_{B} & =𝑃_{C→B}[\,𝐱\,]_{C} \\ & =\begin{aligned}2 & \frac{3}{2} \\ 3 & 2\end{aligned}[\begin{aligned}2 \\ −6\end{aligned}] \\ & =[\begin{aligned}−5 \\ −6\end{aligned}]\end{aligned}
+\begin{aligned}[\,𝐱\,]_{B} & =𝑃_{C→B}[\,𝐱\,]_{C} \\ & =\begin{matrix}2 & \frac{3}{2} \\ 3 & 2\end{matrix}[\begin{matrix}2 \\ −6\end{matrix}] \\ & =[\begin{matrix}−5 \\ −6\end{matrix}]\end{aligned}
 
 
 $$
@@ -204,7 +204,7 @@ Now, we need to find the change-of-coordinates matrix $P_{\small\mathcal{S}\to\m
 $$
 
 
-\begin{aligned}𝑃_{S→B} & =𝑃_{−1B→S}^{} \\ & =[\begin{aligned}1 & 3 \\ 3 & 10\end{aligned}]^{−1} \\ & =\frac{1}{1⋅10−3⋅3}[\begin{aligned}10 & −3 \\ −3 & 1\end{aligned}] \\ & =[\begin{aligned}10 & −3 \\ −3 & 1\end{aligned}]\end{aligned}
+\begin{aligned}𝑃_{S→B} & =𝑃_{−1B→S} \\ & =[\begin{matrix}1 & 3 \\ 3 & 10\end{matrix}]^{−1} \\ & =\frac{1}{1⋅10−3⋅3}[\begin{matrix}10 & −3 \\ −3 & 1\end{matrix}] \\ & =[\begin{matrix}10 & −3 \\ −3 & 1\end{matrix}]\end{aligned}
 
 
 $$
@@ -214,7 +214,7 @@ Finally, we compute $[\,\mathbf{x}\,]_{\mathcal{B}}\mathbin{:}$
 $$
 
 
-\begin{aligned}[\,𝐱\,]_{B} & =𝑃_{S→B}[\,𝐱\,]_{S} \\ & =[\begin{aligned}10 & −3 \\ −3 & 1\end{aligned}][\begin{aligned}1 \\ 5\end{aligned}] \\ & =[\begin{aligned}−5 \\ 2\end{aligned}]\end{aligned}
+\begin{aligned}[\,𝐱\,]_{B} & =𝑃_{S→B}[\,𝐱\,]_{S} \\ & =[\begin{matrix}10 & −3 \\ −3 & 1\end{matrix}][\begin{matrix}1 \\ 5\end{matrix}] \\ & =[\begin{matrix}−5 \\ 2\end{matrix}]\end{aligned}
 
 
 $$
@@ -242,7 +242,7 @@ Reducing the left-hand side to reduced row-echelon form using Gaussian eliminati
 $$
 
 
-\begin{aligned}𝑀 & ∼[\begin{aligned}1 & 0 & 𝑥_{1} & 𝑦_{1} \\ 0 & 1 & 𝑥_{2} & 𝑦_{2}\end{aligned}],\end{aligned}
+\begin{aligned}𝑀 & ∼[\begin{matrix}1 & 0 & 𝑥_{1} & 𝑦_{1} \\ 0 & 1 & 𝑥_{2} & 𝑦_{2}\end{matrix}],\end{aligned}
 
 
 $$
@@ -284,7 +284,7 @@ Reducing the left-hand side to reduced row-echelon form using Gaussian eliminati
 $$
 
 
-\begin{aligned}𝑀 & =[\begin{aligned}1 & 2 & 1 & 1 \\ 6 & 13 & 1 & −1\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+(−6)𝑅_{1} \\ & ∼[\begin{aligned}1 & 2 & 1 & 1 \\ 0 & 1 & −5 & −7\end{aligned}] & 𝑅_{1} & :=𝑅_{1}+(−2)𝑅_{2} \\ & ∼[\begin{aligned}1 & 0 & 11 & 15 \\ 0 & 1 & −5 & −7\end{aligned}]. & & \end{aligned}
+\begin{aligned}𝑀 & =[\begin{matrix}1 & 2 & 1 & 1 \\ 6 & 13 & 1 & −1\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+(−6)𝑅_{1} \\ & ∼[\begin{matrix}1 & 2 & 1 & 1 \\ 0 & 1 & −5 & −7\end{matrix}] & 𝑅_{1} & :=𝑅_{1}+(−2)𝑅_{2} \\ & ∼[\begin{matrix}1 & 0 & 11 & 15 \\ 0 & 1 & −5 & −7\end{matrix}]. & & \end{aligned}
 
 
 $$
@@ -304,7 +304,7 @@ Finally, we compute $[\,\mathbf{x}\,]_{\mathcal{C}}\mathbin{:}$
 $$
 
 
-\begin{aligned}[\,𝐱\,]_{C} & =𝑃_{B→C}[\,𝐱\,]_{B} \\ & =[\begin{aligned}11 & 15 \\ −5 & −7\end{aligned}][\begin{aligned}−2 \\ 1\end{aligned}] \\ & =[\begin{aligned}−7 \\ 3\end{aligned}]\end{aligned}
+\begin{aligned}[\,𝐱\,]_{C} & =𝑃_{B→C}[\,𝐱\,]_{B} \\ & =[\begin{matrix}11 & 15 \\ −5 & −7\end{matrix}][\begin{matrix}−2 \\ 1\end{matrix}] \\ & =[\begin{matrix}−7 \\ 3\end{matrix}]\end{aligned}
 
 
 $$

@@ -74,7 +74,7 @@ $$
 
 
 
-\begin{aligned} & & \begin{aligned} \\ 1\end{aligned} & & & & \\ & & & 1 & 0 & 1 & 0 \\ & + & & 1 & 1 & 0 & 1 \\ & & 1 & 0 & 1 & 1 & 1\end{aligned}
+\begin{aligned} & & \begin{matrix} \\ 1\end{matrix} & & & & \\ & & & 1 & 0 & 1 & 0 \\ & + & & 1 & 1 & 0 & 1 \\ & & 1 & 0 & 1 & 1 & 1\end{aligned}
 
 
 
@@ -122,7 +122,7 @@ $$
 
 
 
-\begin{aligned} & & & & \begin{aligned} \\ 1\end{aligned} & \begin{aligned} \\ 1\end{aligned} & \begin{aligned} \\ 1\end{aligned} & & \\ & & & & & 1 & 1 & 1 & 0 \\ & + & & 1 & 0 & 0 & 0 & 1 & 0 \\ & & & 1 & 1 & 0 & 0 & 0 & 0\end{aligned}
+\begin{aligned} & & & & \begin{matrix} \\ 1\end{matrix} & \begin{matrix} \\ 1\end{matrix} & \begin{matrix} \\ 1\end{matrix} & & \\ & & & & & 1 & 1 & 1 & 0 \\ & + & & 1 & 0 & 0 & 0 & 1 & 0 \\ & & & 1 & 1 & 0 & 0 & 0 & 0\end{aligned}
 
 
 
@@ -182,7 +182,7 @@ $$
 
 
 
-\begin{aligned} & & & \begin{aligned} \\ 0\end{aligned} & \begin{aligned} \\ 10\end{aligned} & \\ & 1 & 0 & 1 & 0 & 0 \\ − & & 1 & 1 & 0 & 1 \\ & & & & & \end{aligned}
+\begin{aligned} & & & \begin{matrix} \\ 0\end{matrix} & \begin{matrix} \\ 10\end{matrix} & \\ & 1 & 0 & 1 & 0 & 0 \\ − & & 1 & 1 & 0 & 1 \\ & & & & & \end{aligned}
 
 
 
@@ -194,7 +194,7 @@ $$
 
 
 
-\begin{aligned} & & & \begin{aligned} \\ 0\end{aligned} & \begin{aligned} \\ 1\end{aligned} & \begin{aligned} \\ 10\end{aligned} \\ & 1 & 0 & 1 & 0 & 0 \\ − & & 1 & 1 & 0 & 1 \\ & & & & & \end{aligned}
+\begin{aligned} & & & \begin{matrix} \\ 0\end{matrix} & \begin{matrix} \\ 1\end{matrix} & \begin{matrix} \\ 10\end{matrix} \\ & 1 & 0 & 1 & 0 & 0 \\ − & & 1 & 1 & 0 & 1 \\ & & & & & \end{aligned}
 
 
 
@@ -206,7 +206,7 @@ $$
 
 
 
-\begin{aligned} & & & \begin{aligned} \\ 0\end{aligned} & \begin{aligned} \\ 1\end{aligned} & \begin{aligned} \\ 10\end{aligned} \\ & 1 & 0 & 1 & 0 & 0 \\ − & & 1 & 1 & 0 & 1 \\ & & & & 1 & 1\end{aligned}
+\begin{aligned} & & & \begin{matrix} \\ 0\end{matrix} & \begin{matrix} \\ 1\end{matrix} & \begin{matrix} \\ 10\end{matrix} \\ & 1 & 0 & 1 & 0 & 0 \\ − & & 1 & 1 & 0 & 1 \\ & & & & 1 & 1\end{aligned}
 
 
 
@@ -218,7 +218,7 @@ $$
 
 
 
-\begin{aligned} & & & \begin{aligned} \\ 0\end{aligned} & \begin{aligned} \\ 1\end{aligned} & \begin{aligned} \\ 10\end{aligned} \\ & 1 & 0 & 1 & 0 & 0 \\ − & & 1 & 1 & 0 & 1 \\ & & & & 1 & 1\end{aligned}
+\begin{aligned} & & & \begin{matrix} \\ 0\end{matrix} & \begin{matrix} \\ 1\end{matrix} & \begin{matrix} \\ 10\end{matrix} \\ & 1 & 0 & 1 & 0 & 0 \\ − & & 1 & 1 & 0 & 1 \\ & & & & 1 & 1\end{aligned}
 
 
 
@@ -232,7 +232,7 @@ $$
 
 
 
-\begin{aligned} & \begin{aligned} \\ 0\end{aligned} & \begin{aligned} \\ 10\end{aligned} & \begin{aligned} \\ 0\end{aligned} & \begin{aligned} \\ 1\end{aligned} & \begin{aligned} \\ 10\end{aligned} \\ & 1 & 0 & 1 & 0 & 0 \\ − & & 1 & 1 & 0 & 1 \\ & & & & 1 & 1\end{aligned}
+\begin{aligned} & \begin{matrix} \\ 0\end{matrix} & \begin{matrix} \\ 10\end{matrix} & \begin{matrix} \\ 0\end{matrix} & \begin{matrix} \\ 1\end{matrix} & \begin{matrix} \\ 10\end{matrix} \\ & 1 & 0 & 1 & 0 & 0 \\ − & & 1 & 1 & 0 & 1 \\ & & & & 1 & 1\end{aligned}
 
 
 
@@ -244,7 +244,7 @@ $$
 
 
 
-\begin{aligned} & \begin{aligned} \\ 0\end{aligned} & \begin{aligned} \\ 1\end{aligned} & \begin{aligned} \\ 10\end{aligned} & \begin{aligned} \\ 1\end{aligned} & \begin{aligned} \\ 10\end{aligned} \\ & 1 & 0 & 1 & 0 & 0 \\ − & & 1 & 1 & 0 & 1 \\ & & & & 1 & 1\end{aligned}
+\begin{aligned} & \begin{matrix} \\ 0\end{matrix} & \begin{matrix} \\ 1\end{matrix} & \begin{matrix} \\ 10\end{matrix} & \begin{matrix} \\ 1\end{matrix} & \begin{matrix} \\ 10\end{matrix} \\ & 1 & 0 & 1 & 0 & 0 \\ − & & 1 & 1 & 0 & 1 \\ & & & & 1 & 1\end{aligned}
 
 
 
@@ -256,7 +256,7 @@ $$
 
 
 
-\begin{aligned} & \begin{aligned} \\ 0\end{aligned} & \begin{aligned} \\ 1\end{aligned} & \begin{aligned} \\ 10\end{aligned} & \begin{aligned} \\ 1\end{aligned} & \begin{aligned} \\ 10\end{aligned} \\ & 1 & 0 & 1 & 0 & 0 \\ − & & 1 & 1 & 0 & 1 \\ & 0 & 0 & 1 & 1 & 1\end{aligned}
+\begin{aligned} & \begin{matrix} \\ 0\end{matrix} & \begin{matrix} \\ 1\end{matrix} & \begin{matrix} \\ 10\end{matrix} & \begin{matrix} \\ 1\end{matrix} & \begin{matrix} \\ 10\end{matrix} \\ & 1 & 0 & 1 & 0 & 0 \\ − & & 1 & 1 & 0 & 1 \\ & 0 & 0 & 1 & 1 & 1\end{aligned}
 
 
 
@@ -302,7 +302,7 @@ $$
 
 
 
-\begin{aligned} & & \begin{aligned} \\ 0\end{aligned} & \begin{aligned} \\ 1\end{aligned} & \begin{aligned} \\ 1\end{aligned} & \begin{aligned} \\ 10\end{aligned} & \begin{aligned}\end{aligned} & \begin{aligned}\end{aligned} \\ & & 1 & 0 & 0 & 0 & 1 & 1 \\ & − & & & 1 & 1 & 0 & 0 \\ & & & 1 & 0 & 1 & 1 & 1\end{aligned}
+\begin{aligned} & & \begin{matrix} \\ 0\end{matrix} & \begin{matrix} \\ 1\end{matrix} & \begin{matrix} \\ 1\end{matrix} & \begin{matrix} \\ 10\end{matrix} & \begin{matrix}\end{matrix} & \begin{matrix}\end{matrix} \\ & & 1 & 0 & 0 & 0 & 1 & 1 \\ & − & & & 1 & 1 & 0 & 0 \\ & & & 1 & 0 & 1 & 1 & 1\end{aligned}
 
 
 

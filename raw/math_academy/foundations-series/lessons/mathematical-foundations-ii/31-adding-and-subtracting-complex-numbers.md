@@ -28,7 +28,7 @@ In general, we write
 $$
 
 
-(a + b\textrm{i}) + (c + d\textrm{i}) = (a + c) + (b + d)\textrm{i}.
+(a + b\text{i}) + (c + d\text{i}) = (a + c) + (b + d)\text{i}.
 
 
 $$
@@ -48,7 +48,7 @@ In general, we write
 $$
 
 
-(a + b\textrm{i}) - (c + d\textrm{i}) = (a - c) + (b - d)\textrm{i}.
+(a + b\text{i}) - (c + d\text{i}) = (a - c) + (b - d)\text{i}.
 
 
 $$
@@ -57,7 +57,7 @@ $$
 
 #### Question
 
-Evaluate $(4 + 3\,\textrm{i}) + (1 + 5\,\textrm{i}).$
+Evaluate $(4 + 3\,\text{i}) + (1 + 5\,\text{i}).$
 
 #### Explanation
 
@@ -77,7 +77,7 @@ $$
 
 #### Question
 
-Find the value of $(5 + 4\,\textrm{i}) - (1 + 2\,\textrm{i}).$
+Find the value of $(5 + 4\,\text{i}) - (1 + 2\,\text{i}).$
 
 #### Explanation
 
@@ -106,7 +106,7 @@ First, we simplify the two complex numbers:
 $$
 
 
-\begin{aligned}(\frac{1}{2}+\sqrt{√−9})+(3−\sqrt{√−16}) & =(\frac{1}{2}+3\,i)+(3−4\,i)\end{aligned}
+\begin{aligned}(\frac{1}{2}+\sqrt{−9})+(3−\sqrt{−16}) & =(\frac{1}{2}+3\,i)+(3−4\,i)\end{aligned}
 
 
 $$
@@ -125,13 +125,13 @@ $$
 
 #### Question
 
-Find the value of $5\,\textrm{i} - 8\,\textrm{i}.$
+Find the value of $5\,\text{i} - 8\,\text{i}.$
 
 #### Explanation
 
 To subtract two complex numbers, we just subtract the real parts and subtract the imaginary parts separately.
 
-In this case, $5\,\textrm{i}$ and $8\,\textrm{i}$ are purely imaginary numbers. Therefore, we only need to subtract their imaginary parts, as follows:
+In this case, $5\,\text{i}$ and $8\,\text{i}$ are purely imaginary numbers. Therefore, we only need to subtract their imaginary parts, as follows:
 
 $$
 

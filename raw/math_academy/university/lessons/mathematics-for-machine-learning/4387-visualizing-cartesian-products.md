@@ -357,7 +357,7 @@ Recall that the union of a family of indexed sets consists of those elements tha
 $$
 
 
-\bigcup_{i \in I} A_i = \big\{ x \: : \: x \in A_k \:\:\textrm{for at least one}\:\: k \in I \big\}
+\bigcup_{i \in I} A_i = \big\{ x \: : \: x \in A_k \:\:\text{for at least one}\:\: k \in I \big\}
 
 
 $$
@@ -407,7 +407,7 @@ Recall that the intersection of a family of indexed sets consists of those eleme
 $$
 
 
-\bigcap_{i \in I} A_i = \big\{ x \: : \: x \in A_k \:\:\textrm{for all}\:\: k \in I \big\}
+\bigcap_{i \in I} A_i = \big\{ x \: : \: x \in A_k \:\:\text{for all}\:\: k \in I \big\}
 
 
 $$

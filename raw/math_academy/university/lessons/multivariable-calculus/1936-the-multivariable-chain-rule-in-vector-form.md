@@ -33,14 +33,14 @@ $$
 
 $$
 
-as input. How do we calculate $\dfrac{\textrm{d}}{\textrm{d}t}\left[f(\mathbf{r}(t))\right]?$
+as input. How do we calculate $\dfrac{\text{d}}{\text{d}t}\left[f(\mathbf{r}(t))\right]?$
 
 To do this, we use the **multivariable chain rule in vector form**, which states
 
 $$
 
 
-\dfrac{\textrm{d}}{\textrm{d}t}\left[f(\mathbf{r}(t))\right] = \nabla f(\mathbf{r}(t))\cdot \mathbf{r}'(t).
+\dfrac{\text{d}}{\text{d}t}\left[f(\mathbf{r}(t))\right] = \nabla f(\mathbf{r}(t))\cdot \mathbf{r}'(t).
 
 
 $$
@@ -360,7 +360,7 @@ Therefore, the rate of change of $f$ along the curve $\mathbf{r}(t)$ at $t=\dfra
 $$
 
 
-\begin{aligned}\frac{d}{d𝑡}[𝑓(𝐫(\frac{𝜋}{4}))] & =4sin⁡(\frac{𝜋}{4})cos⁡(\frac{𝜋}{4})−1 \\ & =4⋅\frac{\sqrt{√2}}{2}⋅\frac{\sqrt{√2}}{2}−1 \\ & =1.\end{aligned}
+\begin{aligned}\frac{d}{d𝑡}[𝑓(𝐫(\frac{𝜋}{4}))] & =4sin⁡(\frac{𝜋}{4})cos⁡(\frac{𝜋}{4})−1 \\ & =4⋅\frac{\sqrt{2}}{2}⋅\frac{\sqrt{2}}{2}−1 \\ & =1.\end{aligned}
 
 
 $$
@@ -372,7 +372,7 @@ The chain rule for a function $f(\mathbf{r}),$ where $\mathbf{r}(t) = \left\lang
 $$
 
 
-\dfrac{\textrm{d}f}{\textrm{d}t} = \nabla f(\mathbf{r}(t)) \cdot \mathbf{r}'(t)
+\dfrac{\text{d}f}{\text{d}t} = \nabla f(\mathbf{r}(t)) \cdot \mathbf{r}'(t)
 
 
 $$

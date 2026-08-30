@@ -26,7 +26,7 @@ Let's discuss each highlighted part:
 
 - The sentence defines a quantity known as the *volume flux* of a fluid.
 
-- Volume flux is *defined* as the *product* of the *area of the surface* (in $\textrm{mm}^2$) and the *velocity of the fluid* (in $\textrm{mm/s}$).
+- Volume flux is *defined* as the *product* of the *area of the surface* (in $\text{mm}^2$) and the *velocity of the fluid* (in $\text{mm/s}$).
 
 Our goal is simply to write down a formula that represents this sentence. It's important to note that a deep understanding of what volume flux is and its importance is not necessary for this purpose.
 
@@ -187,7 +187,7 @@ We can check that the formula looks correct by comparing the units on each side 
 $$
 
 
-\underbrace{\textrm{microamperes per square meter}}_{\textrm{units of } J} = \underbrace{\dfrac{\textrm{microamperes}}{\textrm{square meters}}}_{\textrm{units of } I/A}
+\underbrace{\text{microamperes per square meter}}_{\text{units of } J} = \underbrace{\dfrac{\text{microamperes}}{\text{square meters}}}_{\text{units of } I/A}
 
 
 $$
@@ -247,7 +247,7 @@ We can check that the formula looks correct by comparing the units on each side 
 $$
 
 
-\underbrace{\textrm{webers per square meter}}_{\textrm{units of } B} = \underbrace{\dfrac{\textrm{webers}}{\textrm{square meters}}}_{\textrm{units of } \Phi/A}
+\underbrace{\text{webers per square meter}}_{\text{units of } B} = \underbrace{\dfrac{\text{webers}}{\text{square meters}}}_{\text{units of } \Phi/A}
 
 
 $$
@@ -275,7 +275,7 @@ Multiplying both sides by $7$, we find
 $$
 
 
-\Phi = 10 \cdot 7 = 70\,\,\textrm{webers}.
+\Phi = 10 \cdot 7 = 70\,\,\text{webers}.
 
 
 $$
@@ -321,7 +321,7 @@ We can check that the formula looks correct by comparing the units:
 $$
 
 
-\underbrace{\textrm{webers}}_{\textrm{units of } \Phi} = \underbrace{(\textrm{webers per square meter})(\textrm{square meters})}_{\textrm{units of } B \cdot A}
+\underbrace{\text{webers}}_{\text{units of } \Phi} = \underbrace{(\text{webers per square meter})(\text{square meters})}_{\text{units of } B \cdot A}
 
 
 $$

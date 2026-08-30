@@ -37,7 +37,7 @@ $$
 
 
 
-\begin{aligned} \underbrace{ \left\lbrack \matrix { -2 & 2 & 1 \\1 & -1 & 3 } \right\rbrack}_{A} \underbrace{ \left\lbrack \matrix { -5 & 2 \\2 & -2 \\-4 & 1 } \right\rbrack}_{B} &= \underbrace{ \left\lbrack \matrix { \ast & \ast \\\ast & \ast } \right\rbrack }_{C} \end{aligned}
+\begin{aligned} \underbrace{ \left\lbrack \begin{matrix} -2 & 2 & 1 \\1 & -1 & 3 \end{matrix} \right\rbrack}_{A} \underbrace{ \left\lbrack \begin{matrix} -5 & 2 \\2 & -2 \\-4 & 1 \end{matrix} \right\rbrack}_{B} &= \underbrace{ \left\lbrack \begin{matrix} \ast & \ast \\\ast & \ast \end{matrix} \right\rbrack }_{C} \end{aligned}
 
 
 
@@ -51,7 +51,7 @@ $$
 
 
 
-\begin{aligned} \left\lbrack \matrix { \color{blue}-2 & \color{blue}2 & \color{blue}1 \\\color{lightgray}1 & \color{lightgray}-1 & \color{lightgray}3 } \right\rbrack \left\lbrack \matrix { \color{red}-5 & \color{lightgray}2 \\\color{red}2 & \color{lightgray}-2 \\\color{red}-4 & \color{lightgray}1 } \right\rbrack \% &= \% \left\lbrack \% \matrix { \% ({\color{blue}{-2}}) \cdot ({\color{red}{-5}}) + {\color{blue}{2}} \cdot {\color{red}{2}} + {\color{blue}{1}} \cdot ({\color{red}{-4}}) & \ast \\\% \ast & \ast \% } \% \right\rbrack = \left\lbrack \matrix { \boxed{10} & \ast \\\ast & \ast } \right\rbrack, && \quad \boxed{10} = ({\color{blue}{-2}}) \cdot ({\color{red}{-5}}) + {\color{blue}{2}} \cdot {\color{red}{2}} + {\color{blue}{1}} \cdot ({\color{red}{-4}}) \end{aligned}
+\begin{aligned} \left\lbrack \begin{matrix} \color{blue}-2 & \color{blue}2 & \color{blue}1 \\\color{lightgray}1 & \color{lightgray}-1 & \color{lightgray}3 \end{matrix} \right\rbrack \left\lbrack \begin{matrix} \color{red}-5 & \color{lightgray}2 \\\color{red}2 & \color{lightgray}-2 \\\color{red}-4 & \color{lightgray}1 \end{matrix} \right\rbrack \% &= \% \left\lbrack \% \begin{matrix} \% ({\color{blue}{-2}}) \cdot ({\color{red}{-5}}) + {\color{blue}{2}} \cdot {\color{red}{2}} + {\color{blue}{1}} \cdot ({\color{red}{-4}}) & \ast \\\% \ast & \ast \% \end{matrix} \% \right\rbrack = \left\lbrack \begin{matrix} \boxed{10} & \ast \\\ast & \ast \end{matrix} \right\rbrack, && \quad \boxed{10} = ({\color{blue}{-2}}) \cdot ({\color{red}{-5}}) + {\color{blue}{2}} \cdot {\color{red}{2}} + {\color{blue}{1}} \cdot ({\color{red}{-4}}) \end{aligned}
 
 
 
@@ -63,7 +63,7 @@ $$
 
 
 
-\begin{aligned} \left\lbrack \matrix { \color{blue}-2 & \color{blue}2 & \color{blue}1 \\\color{lightgray}1 & \color{lightgray}-1 & \color{lightgray}3 } \right\rbrack \left\lbrack \matrix { \color{lightgray}-5 & \color{red}2 \\\color{lightgray}2 & \color{red}-2 \\\color{lightgray}-4 & \color{red}1 } \right\rbrack \% &= \% \left\lbrack \% \matrix { \% 10 & ({\color{blue}{-2}}) \cdot {\color{red}{2}} + {\color{blue}{2}} \cdot ({\color{red}{-2}}) + {\color{blue}{1}} \cdot {\color{red}{1}} \\\% \ast & \ast \% } \% \right\rbrack = \left\lbrack \matrix { 10 & \boxed{-7} \\\ast & \ast } \right\rbrack, && \quad \boxed{-7} = ({\color{blue}{-2}}) \cdot {\color{red}{2}} + {\color{blue}{2}} \cdot ({\color{red}{-2}}) + {\color{blue}{1}} \cdot {\color{red}{1}} \end{aligned}
+\begin{aligned} \left\lbrack \begin{matrix} \color{blue}-2 & \color{blue}2 & \color{blue}1 \\\color{lightgray}1 & \color{lightgray}-1 & \color{lightgray}3 \end{matrix} \right\rbrack \left\lbrack \begin{matrix} \color{lightgray}-5 & \color{red}2 \\\color{lightgray}2 & \color{red}-2 \\\color{lightgray}-4 & \color{red}1 \end{matrix} \right\rbrack \% &= \% \left\lbrack \% \begin{matrix} \% 10 & ({\color{blue}{-2}}) \cdot {\color{red}{2}} + {\color{blue}{2}} \cdot ({\color{red}{-2}}) + {\color{blue}{1}} \cdot {\color{red}{1}} \\\% \ast & \ast \% \end{matrix} \% \right\rbrack = \left\lbrack \begin{matrix} 10 & \boxed{-7} \\\ast & \ast \end{matrix} \right\rbrack, && \quad \boxed{-7} = ({\color{blue}{-2}}) \cdot {\color{red}{2}} + {\color{blue}{2}} \cdot ({\color{red}{-2}}) + {\color{blue}{1}} \cdot {\color{red}{1}} \end{aligned}
 
 
 
@@ -75,7 +75,7 @@ $$
 
 
 
-\begin{aligned} \left\lbrack \matrix { \color{lightgray}-2 & \color{lightgray}2 & \color{lightgray}1 \\\color{blue}1 & \color{blue}-1 & \color{blue}3 } \right\rbrack \left\lbrack \matrix { \color{red}-5 & \color{lightgray}2 \\\color{red}2 & \color{lightgray}-2 \\\color{red}-4 & \color{lightgray}1 } \right\rbrack \% &= \% \left\lbrack \% \matrix { \% 10 & -7 \\\% {\color{blue}{1}} \cdot ({\color{red}{-5}}) + ({\color{blue}{-1}}) \cdot {\color{red}{2}} + {\color{blue}{3}} \cdot ({\color{red}{-4}}) & \ast \% } \% \right\rbrack = \left\lbrack \matrix { 10 & -7 \\\boxed{-19} & \ast } \right\rbrack, && \quad \boxed{-19} = {\color{blue}{1}} \cdot ({\color{red}{-5}}) + ({\color{blue}{-1}}) \cdot {\color{red}{2}} + {\color{blue}{3}} \cdot ({\color{red}{-4}}) \end{aligned}
+\begin{aligned} \left\lbrack \begin{matrix} \color{lightgray}-2 & \color{lightgray}2 & \color{lightgray}1 \\\color{blue}1 & \color{blue}-1 & \color{blue}3 \end{matrix} \right\rbrack \left\lbrack \begin{matrix} \color{red}-5 & \color{lightgray}2 \\\color{red}2 & \color{lightgray}-2 \\\color{red}-4 & \color{lightgray}1 \end{matrix} \right\rbrack \% &= \% \left\lbrack \% \begin{matrix} \% 10 & -7 \\\% {\color{blue}{1}} \cdot ({\color{red}{-5}}) + ({\color{blue}{-1}}) \cdot {\color{red}{2}} + {\color{blue}{3}} \cdot ({\color{red}{-4}}) & \ast \% \end{matrix} \% \right\rbrack = \left\lbrack \begin{matrix} 10 & -7 \\\boxed{-19} & \ast \end{matrix} \right\rbrack, && \quad \boxed{-19} = {\color{blue}{1}} \cdot ({\color{red}{-5}}) + ({\color{blue}{-1}}) \cdot {\color{red}{2}} + {\color{blue}{3}} \cdot ({\color{red}{-4}}) \end{aligned}
 
 
 
@@ -87,7 +87,7 @@ $$
 
 
 
-\begin{aligned} \left\lbrack \matrix { \color{lightgray}-2 & \color{lightgray}2 & \color{lightgray}1 \\\color{blue}1 & \color{blue}-1 & \color{blue}3 } \right\rbrack \left\lbrack \matrix { \color{lightgray}-5 & \color{red}2 \\\color{lightgray}2 & \color{red}-2 \\\color{lightgray}-4 & \color{red}1 } \right\rbrack \% &= \% \left\lbrack \% \matrix { \% 10 & -7 \\\% -19 & {\color{blue}{1}} \cdot {\color{red}{2}} + ({\color{blue}{-1}}) \cdot ({\color{red}{-2}}) + {\color{blue}{3}} \cdot {\color{red}{1}} \% } \% \right\rbrack = \left\lbrack \matrix { 10 & -7 \\-19 & \boxed{7} } \right\rbrack, && \quad \boxed{7} = {\color{blue}{1}} \cdot {\color{red}{2}} + ({\color{blue}{-1}}) \cdot ({\color{red}{-2}}) + {\color{blue}{3}} \cdot {\color{red}{1}} \end{aligned}
+\begin{aligned} \left\lbrack \begin{matrix} \color{lightgray}-2 & \color{lightgray}2 & \color{lightgray}1 \\\color{blue}1 & \color{blue}-1 & \color{blue}3 \end{matrix} \right\rbrack \left\lbrack \begin{matrix} \color{lightgray}-5 & \color{red}2 \\\color{lightgray}2 & \color{red}-2 \\\color{lightgray}-4 & \color{red}1 \end{matrix} \right\rbrack \% &= \% \left\lbrack \% \begin{matrix} \% 10 & -7 \\\% -19 & {\color{blue}{1}} \cdot {\color{red}{2}} + ({\color{blue}{-1}}) \cdot ({\color{red}{-2}}) + {\color{blue}{3}} \cdot {\color{red}{1}} \% \end{matrix} \% \right\rbrack = \left\lbrack \begin{matrix} 10 & -7 \\-19 & \boxed{7} \end{matrix} \right\rbrack, && \quad \boxed{7} = {\color{blue}{1}} \cdot {\color{red}{2}} + ({\color{blue}{-1}}) \cdot ({\color{red}{-2}}) + {\color{blue}{3}} \cdot {\color{red}{1}} \end{aligned}
 
 
 
@@ -123,7 +123,7 @@ $$
 
 
 
-\begin{aligned} & [\begin{aligned}1 & −2 & 0 \\ 2 & 1 & 1\end{aligned}]\begin{aligned}0 & 1 \\ 2 & 0 \\ −3 & 2\end{aligned}=[\begin{aligned}−4 & ∗ \\ ∗ & ∗\end{aligned}], & & \,−4=1⋅0+(−2)⋅2+0⋅(−3) \\ & [\begin{aligned}1 & −2 & 0 \\ 2 & 1 & 1\end{aligned}]\begin{aligned}0 & 1 \\ 2 & 0 \\ −3 & 2\end{aligned}=[\begin{aligned}−4 & 1 \\ ∗ & ∗\end{aligned}], & & \,1=1⋅1+(−2)⋅0+0⋅2 \\ & [\begin{aligned}1 & −2 & 0 \\ 2 & 1 & 1\end{aligned}]\begin{aligned}0 & 1 \\ 2 & 0 \\ −3 & 2\end{aligned}=[\begin{aligned}−4 & 1 \\ −1 & ∗\end{aligned}], & & \,−1=2⋅0+1⋅2+1⋅(−3) \\ & [\begin{aligned}1 & −2 & 0 \\ 2 & 1 & 1\end{aligned}]\begin{aligned}0 & 1 \\ 2 & 0 \\ −3 & 2\end{aligned}=[\begin{aligned}−4 & 1 \\ −1 & 4\end{aligned}], & & \,4=2⋅1+1⋅0+1⋅2\end{aligned}
+\begin{aligned} & [\begin{matrix}1 & −2 & 0 \\ 2 & 1 & 1\end{matrix}]\begin{matrix}0 & 1 \\ 2 & 0 \\ −3 & 2\end{matrix}=[\begin{matrix}−4 & ∗ \\ ∗ & ∗\end{matrix}], & & \,−4=1⋅0+(−2)⋅2+0⋅(−3) \\ & [\begin{matrix}1 & −2 & 0 \\ 2 & 1 & 1\end{matrix}]\begin{matrix}0 & 1 \\ 2 & 0 \\ −3 & 2\end{matrix}=[\begin{matrix}−4 & 1 \\ ∗ & ∗\end{matrix}], & & \,1=1⋅1+(−2)⋅0+0⋅2 \\ & [\begin{matrix}1 & −2 & 0 \\ 2 & 1 & 1\end{matrix}]\begin{matrix}0 & 1 \\ 2 & 0 \\ −3 & 2\end{matrix}=[\begin{matrix}−4 & 1 \\ −1 & ∗\end{matrix}], & & \,−1=2⋅0+1⋅2+1⋅(−3) \\ & [\begin{matrix}1 & −2 & 0 \\ 2 & 1 & 1\end{matrix}]\begin{matrix}0 & 1 \\ 2 & 0 \\ −3 & 2\end{matrix}=[\begin{matrix}−4 & 1 \\ −1 & 4\end{matrix}], & & \,4=2⋅1+1⋅0+1⋅2\end{aligned}
 
 
 
@@ -155,7 +155,7 @@ $$
 
 
 
-\begin{aligned}𝑐_{32} & =\begin{aligned}1 & 2 \\ −2 & 0 \\ 1 & 2\end{aligned}[\begin{aligned}3 & 4 & −1 \\ 1 & −2 & 2\end{aligned}] \\ & =[\begin{aligned}1 & 2\end{aligned}][\begin{aligned}4 \\ −2\end{aligned}] \\ & =1⋅4+2⋅(−2) \\ & =4−4 \\ & =0.\end{aligned}
+\begin{aligned}𝑐_{32} & =\begin{matrix}1 & 2 \\ −2 & 0 \\ 1 & 2\end{matrix}[\begin{matrix}3 & 4 & −1 \\ 1 & −2 & 2\end{matrix}] \\ & =[\begin{matrix}1 & 2\end{matrix}][\begin{matrix}4 \\ −2\end{matrix}] \\ & =1⋅4+2⋅(−2) \\ & =4−4 \\ & =0.\end{aligned}
 
 
 
@@ -165,7 +165,7 @@ $$
 
 #### Question
 
-Compute the product $\left\lbrack \matrix {-1 \ 0 \ -2} \right\rbrack \left\lbrack \matrix {2 & -5} \right\rbrack.$
+Compute the product $\left\lbrack \begin{matrix}-1 \ 0 \ -2\end{matrix} \right\rbrack \left\lbrack \begin{matrix}2 & -5\end{matrix} \right\rbrack.$
 
 #### Explanation
 
@@ -189,7 +189,7 @@ $$
 
 
 
-\begin{aligned} \left\lbrack \matrix { -1 \\0 \\-2 } \right\rbrack \left\lbrack \matrix { 2 & -5 } \right\rbrack &= \left\lbrack \matrix { (-1)\cdot 2 & (-1)\cdot (-5) \\0\cdot 2 & 0\cdot (-5)\\(-2)\cdot 2 & (-2)\cdot (-5) } \right\rbrack \\\[5pt] &= \left\lbrack \matrix { -2 & 5 \\0 & 0 \\-4 & 10 } \right\rbrack \end{aligned}
+\begin{aligned} \left\lbrack \begin{matrix} -1 \\0 \\-2 \end{matrix} \right\rbrack \left\lbrack \begin{matrix} 2 & -5 \end{matrix} \right\rbrack &= \left\lbrack \begin{matrix} (-1)\cdot 2 & (-1)\cdot (-5) \\0\cdot 2 & 0\cdot (-5)\\(-2)\cdot 2 & (-2)\cdot (-5) \end{matrix} \right\rbrack \\[5pt] &= \left\lbrack \begin{matrix} -2 & 5 \\0 & 0 \\-4 & 10 \end{matrix} \right\rbrack \end{aligned}
 
 
 

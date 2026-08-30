@@ -31,13 +31,13 @@ $$
 
 where
 
-- $F$ is the magnitude of the gravitational force between the objects, measured in Newtons ($\textrm{N}$),
+- $F$ is the magnitude of the gravitational force between the objects, measured in Newtons ($\text{N}$),
 
-- $G \approx 6.674\times10^{-11}\,\textrm{m}^3/(\textrm{kg}\cdot\textrm{s}^2)$ is the Newtonian **constant of gravitation**,
+- $G \approx 6.674\times10^{-11}\,\text{m}^3/(\text{kg}\cdot\text{s}^2)$ is the Newtonian **constant of gravitation**,
 
-- $m_1$ and $m_2$ are the masses of the objects, measured in $\textrm{kg},$ and
+- $m_1$ and $m_2$ are the masses of the objects, measured in $\text{kg},$ and
 
-- $r$ is the distance between their centers of mass, measured in $\textrm{m}.$
+- $r$ is the distance between their centers of mass, measured in $\text{m}.$
 
 The force acts along the line connecting the two centers of mass, and each object pulls on the other with the same magnitude.
 
@@ -53,7 +53,7 @@ Let's see some examples.
 
 #### Question
 
-The Sun has a mass of $(1.99\times10^{30})\,\textrm{kg}$ and Mars has a mass of $(6.42\times10^{23})\,\textrm{kg}.$ The average distance between the centers of the Sun and Mars is $(2.28\times10^{11})\,\textrm{m}.$ According to Newton's law of universal gravitation, what is the magnitude of the gravitational force between the Sun and Mars? Write your answer in scientific notation, rounding to **** where appropriate. Assume the Newtonian constant of gravitation is $G = (6.67\times10^{-11})\,\textrm{m}^3/(\textrm{kg}\cdot\textrm{s}^2).$
+The Sun has a mass of $(1.99\times10^{30})\,\text{kg}$ and Mars has a mass of $(6.42\times10^{23})\,\text{kg}.$ The average distance between the centers of the Sun and Mars is $(2.28\times10^{11})\,\text{m}.$ According to Newton's law of universal gravitation, what is the magnitude of the gravitational force between the Sun and Mars? Write your answer in scientific notation, rounding to **** where appropriate. Assume the Newtonian constant of gravitation is $G = (6.67\times10^{-11})\,\text{m}^3/(\text{kg}\cdot\text{s}^2).$
 
 #### Explanation
 
@@ -69,13 +69,13 @@ $$
 
 where
 
-- $F$ is the gravitational force between the objects, measured in Newtons $(\textrm{N}),$
+- $F$ is the gravitational force between the objects, measured in Newtons $(\text{N}),$
 
-- $G = (6.67\times10^{-11})\,\textrm{m}^3/(\textrm{kg}\cdot\textrm{s}^2)$ is the Newtonian constant of gravitation,
+- $G = (6.67\times10^{-11})\,\text{m}^3/(\text{kg}\cdot\text{s}^2)$ is the Newtonian constant of gravitation,
 
-- $m_1$ and $m_2$ are the masses of the objects, measured in $\textrm{kg},$ and
+- $m_1$ and $m_2$ are the masses of the objects, measured in $\text{kg},$ and
 
-- $r$ is the distance between their centers of mass, measured in $\textrm{m}.$
+- $r$ is the distance between their centers of mass, measured in $\text{m}.$
 
 Let $m_1$ be the mass of the Sun and $m_2$ be the mass of Mars. Then, substituting in the known values, we get
 
@@ -87,13 +87,13 @@ $$
 
 $$
 
-Therefore, rounded to three significant figures, the gravitational force between the Sun and Mars is $\Big(1.64 \times 10^{21}\Big) \,\textrm{N}.$
+Therefore, rounded to three significant figures, the gravitational force between the Sun and Mars is $\Big(1.64 \times 10^{21}\Big) \,\text{N}.$
 
 ### Example: Calculating the Mass of an Object
 
 #### Question
 
-The centers of two objects are separated by a distance of $(3.0\times10^3)\,\textrm{m}$ and the magnitude of the gravitational force between them is $(3.0\times10^{-4})\,\textrm{N}.$ If one object has mass $(2.0\times10^5)\,\textrm{kg},$ then according to Newton's law of universal gravitation, what is the mass of the other object? Write your answer in scientific notation, rounding to **** where appropriate. Assume the Newtonian constant of gravitation is $G = (6.67\times10^{-11})\,\textrm{m}^3/(\textrm{kg}\cdot\textrm{s}^2).$
+The centers of two objects are separated by a distance of $(3.0\times10^3)\,\text{m}$ and the magnitude of the gravitational force between them is $(3.0\times10^{-4})\,\text{N}.$ If one object has mass $(2.0\times10^5)\,\text{kg},$ then according to Newton's law of universal gravitation, what is the mass of the other object? Write your answer in scientific notation, rounding to **** where appropriate. Assume the Newtonian constant of gravitation is $G = (6.67\times10^{-11})\,\text{m}^3/(\text{kg}\cdot\text{s}^2).$
 
 #### Explanation
 
@@ -109,13 +109,13 @@ $$
 
 where
 
-- $F$ is the gravitational force between the objects, measured in Newtons $(\textrm{N}),$
+- $F$ is the gravitational force between the objects, measured in Newtons $(\text{N}),$
 
-- $G = (6.67\times10^{-11})\,\textrm{m}^3/(\textrm{kg}\cdot\textrm{s}^2)$ is the Newtonian constant of gravitation,
+- $G = (6.67\times10^{-11})\,\text{m}^3/(\text{kg}\cdot\text{s}^2)$ is the Newtonian constant of gravitation,
 
-- $m_1$ and $m_2$ are the masses of the objects, measured in $\textrm{kg},$ and
+- $m_1$ and $m_2$ are the masses of the objects, measured in $\text{kg},$ and
 
-- $r$ is the distance between their centers of mass, measured in $\textrm{m}.$
+- $r$ is the distance between their centers of mass, measured in $\text{m}.$
 
 Let $m_2$ be the unknown mass. First, let's rearrange the formula to make $m_2$ the subject:
 
@@ -137,13 +137,13 @@ $$
 
 $$
 
-Therefore, rounded to two significant figures, the mass of the other object is $\Big(2.0 \times 10^{8}\Big) \,\textrm{kg}.$
+Therefore, rounded to two significant figures, the mass of the other object is $\Big(2.0 \times 10^{8}\Big) \,\text{kg}.$
 
 ### Example: Calculating the Distance Between Two Objects
 
 #### Question
 
-Earth has a mass of $(5.97\times10^{24})\,\textrm{kg}$ and the Moon has a mass of $(7.35\times10^{22})\,\textrm{kg}.$ The magnitude of the gravitational force between them is $(1.98\times10^{20})\,\textrm{N}.$ According to Newton's law of universal gravitation, what is the distance between the centers of mass of Earth and the Moon? Write your answer in scientific notation, rounding to **** where appropriate. Assume the Newtonian constant of gravitation is $G = (6.67\times10^{-11})\,\textrm{m}^3/(\textrm{kg}\cdot\textrm{s}^2).$
+Earth has a mass of $(5.97\times10^{24})\,\text{kg}$ and the Moon has a mass of $(7.35\times10^{22})\,\text{kg}.$ The magnitude of the gravitational force between them is $(1.98\times10^{20})\,\text{N}.$ According to Newton's law of universal gravitation, what is the distance between the centers of mass of Earth and the Moon? Write your answer in scientific notation, rounding to **** where appropriate. Assume the Newtonian constant of gravitation is $G = (6.67\times10^{-11})\,\text{m}^3/(\text{kg}\cdot\text{s}^2).$
 
 #### Explanation
 
@@ -159,20 +159,20 @@ $$
 
 where
 
-- $F$ is the gravitational force between the objects, measured in Newtons $(\textrm{N}),$
+- $F$ is the gravitational force between the objects, measured in Newtons $(\text{N}),$
 
-- $G = (6.67\times10^{-11})\,\textrm{m}^3/(\textrm{kg}\cdot\textrm{s}^2)$ is the Newtonian constant of gravitation,
+- $G = (6.67\times10^{-11})\,\text{m}^3/(\text{kg}\cdot\text{s}^2)$ is the Newtonian constant of gravitation,
 
-- $m_1$ and $m_2$ are the masses of the objects, measured in $\textrm{kg},$ and
+- $m_1$ and $m_2$ are the masses of the objects, measured in $\text{kg},$ and
 
-- $r$ is the distance between their centers of mass, measured in $\textrm{m}.$
+- $r$ is the distance between their centers of mass, measured in $\text{m}.$
 
 First, let's rearrange the formula to make $r$ the subject:
 
 $$
 
 
-\begin{aligned}𝐹 & =𝐺\frac{𝑚_{1}𝑚_{2}}{𝑟^{2}} \\ 𝑟^{2} & =𝐺\frac{𝑚_{1}𝑚_{2}}{𝐹} \\ 𝑟 & =\sqrt{√𝐺\frac{𝑚_{1}𝑚_{2}}{𝐹}}\end{aligned}
+\begin{aligned}𝐹 & =𝐺\frac{𝑚_{1}𝑚_{2}}{𝑟^{2}} \\ 𝑟^{2} & =𝐺\frac{𝑚_{1}𝑚_{2}}{𝐹} \\ 𝑟 & =\sqrt{𝐺\frac{𝑚_{1}𝑚_{2}}{𝐹}}\end{aligned}
 
 
 $$
@@ -192,9 +192,9 @@ Finally, taking the square root, we get
 $$
 
 
-\begin{aligned}𝑟 & =\sqrt{√14.7816…×10^{16}} \\ & =\sqrt{√14.7816…}×\sqrt{√10^{16}} \\ & =(3.8446…)×10^{8}.\end{aligned}
+\begin{aligned}𝑟 & =\sqrt{14.7816…×10^{16}} \\ & =\sqrt{14.7816…}×\sqrt{10^{16}} \\ & =(3.8446…)×10^{8}.\end{aligned}
 
 
 $$
 
-Therefore, rounded to three significant figures, the distance between Earth and the Moon is $\Big(3.84 \times 10^{8}\Big) \,\textrm{m}.$
+Therefore, rounded to three significant figures, the distance between Earth and the Moon is $\Big(3.84 \times 10^{8}\Big) \,\text{m}.$

@@ -70,7 +70,7 @@ Now, we solve the inequality $|a_n| < \varepsilon$ for $n{:}$
 $$
 
 
-\begin{aligned}\frac{1}{𝑛^{2}} & <𝜀 \\ 1 & <𝜀𝑛^{2} \\ \frac{1}{𝜀} & <𝑛^{2} \\ \frac{1}{\sqrt{√𝜀}} & <𝑛 \\ 𝑛 & >\frac{1}{\sqrt{√𝜀}}\end{aligned}
+\begin{aligned}\frac{1}{𝑛^{2}} & <𝜀 \\ 1 & <𝜀𝑛^{2} \\ \frac{1}{𝜀} & <𝑛^{2} \\ \frac{1}{\sqrt{𝜀}} & <𝑛 \\ 𝑛 & >\frac{1}{\sqrt{𝜀}}\end{aligned}
 
 
 $$
@@ -120,7 +120,7 @@ Now, we solve the inequality $|a_n| < \varepsilon$ for $n$:
 $$
 
 
-\begin{aligned}\frac{1}{\sqrt{√𝑛}} & <𝜀 \\ 1 & <𝜀\sqrt{√𝑛} \\ 1 & <𝑛𝜀^{2} \\ \frac{1}{𝜀^{2}} & <𝑛 \\ 𝑛 & >\frac{1}{𝜀^{2}}\end{aligned}
+\begin{aligned}\frac{1}{\sqrt{𝑛}} & <𝜀 \\ 1 & <𝜀\sqrt{𝑛} \\ 1 & <𝑛𝜀^{2} \\ \frac{1}{𝜀^{2}} & <𝑛 \\ 𝑛 & >\frac{1}{𝜀^{2}}\end{aligned}
 
 
 $$
@@ -254,7 +254,7 @@ With that in mind, we show that $\varepsilon$ is an upper bound of $|a_n|$ for $
 $$
 
 
-\begin{aligned}\frac{1}{𝑛^{2}} & =\frac{1}{𝑛^{2}} \\ & <\frac{1}{(1/\sqrt{√𝜀})^{2}} \\ & =\frac{1}{1/𝜀} \\ & =𝜀\end{aligned}
+\begin{aligned}\frac{1}{𝑛^{2}} & =\frac{1}{𝑛^{2}} \\ & <\frac{1}{(1/\sqrt{𝜀})^{2}} \\ & =\frac{1}{1/𝜀} \\ & =𝜀\end{aligned}
 
 
 $$
@@ -288,7 +288,7 @@ $$
 $$
 
 
-\begin{aligned}\frac{1}{𝑛^{2}} & =\frac{1}{𝑛^{2}} \\ & <\frac{1}{(1/\sqrt{√𝜀})^{2}} \\ & =𝜀\end{aligned}
+\begin{aligned}\frac{1}{𝑛^{2}} & =\frac{1}{𝑛^{2}} \\ & <\frac{1}{(1/\sqrt{𝜀})^{2}} \\ & =𝜀\end{aligned}
 
 
 $$
@@ -370,7 +370,7 @@ Solving this inequality for $n,$ we get
 $$
 
 
-\begin{aligned}\frac{1}{\sqrt{√𝑛}} & <𝜀 \\ 1 & <𝜀\sqrt{√𝑛} \\ 1 & <𝑛𝜀^{2} \\ \frac{1}{𝜀^{2}} & <𝑛 \\ 𝑛 & >\frac{1}{𝜀^{2}}\end{aligned}
+\begin{aligned}\frac{1}{\sqrt{𝑛}} & <𝜀 \\ 1 & <𝜀\sqrt{𝑛} \\ 1 & <𝑛𝜀^{2} \\ \frac{1}{𝜀^{2}} & <𝑛 \\ 𝑛 & >\frac{1}{𝜀^{2}}\end{aligned}
 
 
 $$
@@ -388,7 +388,7 @@ Then, for any natural number $n \geq N,$ we have
 $$
 
 
-\begin{aligned}\frac{1}{\sqrt{√𝑛}} & =\frac{1}{\sqrt{√𝑛}} \\ & <\frac{1}{\sqrt{√1/𝜀^{2}}} \\ & =𝜀.\end{aligned}
+\begin{aligned}\frac{1}{\sqrt{𝑛}} & =\frac{1}{\sqrt{𝑛}} \\ & <\frac{1}{\sqrt{1/𝜀^{2}}} \\ & =𝜀.\end{aligned}
 
 
 $$

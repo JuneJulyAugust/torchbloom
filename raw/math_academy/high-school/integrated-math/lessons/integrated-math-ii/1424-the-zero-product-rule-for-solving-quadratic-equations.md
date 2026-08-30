@@ -41,7 +41,7 @@ Applying the zero product rule, we get
 $$
 
 
-2x-1=0\qquad \textrm{or}\qquad 5x+3=0.
+2x-1=0\qquad \text{or}\qquad 5x+3=0.
 
 
 $$
@@ -71,7 +71,7 @@ Applying the zero product rule, we get
 $$
 
 
-x = 0\qquad \textrm{or}\qquad x-16=0.
+x = 0\qquad \text{or}\qquad x-16=0.
 
 
 $$

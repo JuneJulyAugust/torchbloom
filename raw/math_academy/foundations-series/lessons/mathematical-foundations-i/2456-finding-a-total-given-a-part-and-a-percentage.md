@@ -17,7 +17,7 @@ To find a part given a percent and whole, we can use the following formula:
 $$
 
 
-\textrm{percent} \times \textrm{whole} = \textrm{part}
+\text{percent} \times \text{whole} = \text{part}
 
 
 $$
@@ -27,7 +27,7 @@ However, we sometimes want to find a whole given a part and a percent. To do thi
 $$
 
 
-\textrm{whole} = \textrm{part} \div \textrm{percent}
+\text{whole} = \text{part} \div \text{percent}
 
 
 $$
@@ -81,7 +81,7 @@ To do this, we can use the following formula:
 $$
 
 
-\textrm{whole} = \textrm{part} \div \textrm{percentage}
+\text{whole} = \text{part} \div \text{percentage}
 
 
 $$
@@ -121,7 +121,7 @@ To do this, we can use the following formula:
 $$
 
 
-\textrm{whole} = \textrm{part} \div \textrm{percentage}
+\text{whole} = \text{part} \div \text{percentage}
 
 
 $$
@@ -163,7 +163,7 @@ To find the whole, we can use the following formula:
 $$
 
 
-\textrm{whole} = \textrm{part} \div \textrm{percentage}
+\text{whole} = \text{part} \div \text{percentage}
 
 
 $$

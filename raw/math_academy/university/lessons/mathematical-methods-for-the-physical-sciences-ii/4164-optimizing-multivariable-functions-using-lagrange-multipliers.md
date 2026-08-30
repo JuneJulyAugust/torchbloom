@@ -63,7 +63,7 @@ Therefore, we have the following system of equations:
 $$
 
 
-\begin{aligned}\begin{aligned}4𝑥=2𝜆𝑥 \\ 8𝑦=2𝜆𝑦\end{aligned}\,⇒\,\begin{aligned}𝑥(2−𝜆)=0 \\ 𝑦(4−𝜆)=0\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}4𝑥=2𝜆𝑥 \\ 8𝑦=2𝜆𝑦\end{matrix}\,⇒\,\begin{matrix}𝑥(2−𝜆)=0 \\ 𝑦(4−𝜆)=0\end{matrix}\end{aligned}
 
 
 $$
@@ -139,7 +139,7 @@ Therefore, we have the following:
 $$
 
 
-\begin{aligned}\begin{aligned}2𝑥=4𝜆𝑥 \\ 1=6𝜆𝑦\end{aligned}\,⇒\,\begin{aligned}𝑥(1−2𝜆)=0 \\ 𝜆𝑦=\frac{1}{6}\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}2𝑥=4𝜆𝑥 \\ 1=6𝜆𝑦\end{matrix}\,⇒\,\begin{matrix}𝑥(1−2𝜆)=0 \\ 𝜆𝑦=\frac{1}{6}\end{matrix}\end{aligned}
 
 
 $$
@@ -213,7 +213,7 @@ Therefore, we have the following:
 $$
 
 
-\begin{aligned}\begin{aligned}6𝑥=6𝜆𝑥 \\ −2𝑦=4𝜆𝑦\end{aligned}\,⇒\,\begin{aligned}𝑥(1−𝜆)=0 \\ 𝑦(2𝜆+1)=0\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}6𝑥=6𝜆𝑥 \\ −2𝑦=4𝜆𝑦\end{matrix}\,⇒\,\begin{matrix}𝑥(1−𝜆)=0 \\ 𝑦(2𝜆+1)=0\end{matrix}\end{aligned}
 
 
 $$

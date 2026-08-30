@@ -12,12 +12,12 @@ Topic ID: 334
 
 ### Introduction
 
-We know how to calculate $\displaystyle\int x^5 \, \textrm{d}x.$ But suppose that we want to calculate an integral like
+We know how to calculate $\displaystyle\int x^5 \, \text{d}x.$ But suppose that we want to calculate an integral like
 
 $$
 
 
-\int (2x+1)^5 \, \textrm{d}x.
+\int (2x+1)^5 \, \text{d}x.
 
 
 $$
@@ -31,7 +31,7 @@ First, we let $u=2x+1.$ Differentiating both sides with respect to $x$ gives
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x} = 2,
+\dfrac{\text{d}u}{\text{d}x} = 2,
 
 
 $$
@@ -41,7 +41,7 @@ and if we treat $\dfrac{\textrm d u}{\textrm d x}$ like a fraction, we can get t
 $$
 
 
-\textrm{d} x = \dfrac 1 2 \textrm d u.
+\text{d} x = \dfrac 1 2 \textrm d u.
 
 
 $$
@@ -80,7 +80,7 @@ $$
 
 #### Question
 
-Calculate $\displaystyle\int (3x+1)^3 \, \textrm{d}x.$
+Calculate $\displaystyle\int (3x+1)^3 \, \text{d}x.$
 
 #### Explanation
 
@@ -118,7 +118,7 @@ $$
 
 #### Question
 
-Calculate $\displaystyle\int \dfrac{2}{(1-x)^3} \, \textrm{d}x.$
+Calculate $\displaystyle\int \dfrac{2}{(1-x)^3} \, \text{d}x.$
 
 #### Explanation
 
@@ -127,7 +127,7 @@ First, we rewrite the integral as
 $$
 
 
-\displaystyle\int 2(1-x)^{-3} \, \textrm{d}x .
+\displaystyle\int 2(1-x)^{-3} \, \text{d}x .
 
 
 $$
@@ -195,7 +195,7 @@ We now write our integral in terms of $u,$ calculate the integral as normal, and
 $$
 
 
-\begin{aligned}∫(1−5𝑥)^{1/2}\,d𝑥 & =∫𝑢^{1/2}⋅(−\frac{1}{5})\,d𝑢 \\ & =−\frac{1}{5}∫𝑢^{1/2}\,d𝑢 \\ & =−\frac{1}{5}⋅\frac{2}{3}𝑢^{3/2}+𝐶 \\ & =−\frac{2}{15}𝑢^{3/2}+𝐶 \\ & =−\frac{2}{15}(1−5𝑥)^{3/2}+𝐶 \\ & =−\frac{2}{15}\sqrt{√(1−5𝑥)^{3}}+𝐶\end{aligned}
+\begin{aligned}∫(1−5𝑥)^{1/2}\,d𝑥 & =∫𝑢^{1/2}⋅(−\frac{1}{5})\,d𝑢 \\ & =−\frac{1}{5}∫𝑢^{1/2}\,d𝑢 \\ & =−\frac{1}{5}⋅\frac{2}{3}𝑢^{3/2}+𝐶 \\ & =−\frac{2}{15}𝑢^{3/2}+𝐶 \\ & =−\frac{2}{15}(1−5𝑥)^{3/2}+𝐶 \\ & =−\frac{2}{15}\sqrt{(1−5𝑥)^{3}}+𝐶\end{aligned}
 
 
 $$
@@ -205,7 +205,7 @@ Let's double-check that our result is correct. If we differentiate the result, t
 $$
 
 
-\begin{aligned}\frac{d}{d𝑥}[−\frac{2}{15}\sqrt{√(1−5𝑥)^{3}}+𝐶] & =−\frac{2}{15}⋅\frac{d}{d𝑥}[\sqrt{√(1−5𝑥)^{3}}]+\frac{d}{d𝑥}(𝐶) \\ & =−\frac{2}{15}⋅\frac{d}{d𝑥}[(1−5𝑥)^{3/2}]+\frac{d}{d𝑥}(𝐶) \\ & =−\frac{2}{15}⋅\frac{3}{2}(1−5𝑥)^{1/2}⋅\frac{d}{d𝑥}(1−5𝑥)+0 \\ & =−\frac{1}{5}(1−5𝑥)^{1/2}⋅(−5) \\ & =(1−5𝑥)^{1/2}\,✓\end{aligned}
+\begin{aligned}\frac{d}{d𝑥}[−\frac{2}{15}\sqrt{(1−5𝑥)^{3}}+𝐶] & =−\frac{2}{15}⋅\frac{d}{d𝑥}[\sqrt{(1−5𝑥)^{3}}]+\frac{d}{d𝑥}(𝐶) \\ & =−\frac{2}{15}⋅\frac{d}{d𝑥}[(1−5𝑥)^{3/2}]+\frac{d}{d𝑥}(𝐶) \\ & =−\frac{2}{15}⋅\frac{3}{2}(1−5𝑥)^{1/2}⋅\frac{d}{d𝑥}(1−5𝑥)+0 \\ & =−\frac{1}{5}(1−5𝑥)^{1/2}⋅(−5) \\ & =(1−5𝑥)^{1/2}\,✓\end{aligned}
 
 
 $$

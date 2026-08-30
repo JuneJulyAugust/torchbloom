@@ -19,7 +19,7 @@ For example, suppose we want to evaluate the triple integral
 $$
 
 
-\displaystyle \iiint\limits_R \left(x^2 + y^2 + z^2\right)^{3/2} \: \textrm{d}V
+\displaystyle \iiint\limits_R \left(x^2 + y^2 + z^2\right)^{3/2} \: \text{d}V
 
 
 $$
@@ -103,7 +103,7 @@ Therefore, using the change of variables formula, we obtain
 $$
 
 
-\begin{aligned}\underset{𝑅}{∭}(𝑥^{2}+𝑦^{2}+𝑧^{2})^{3/2}\,d𝑉 & =\underset{Δ}{∭}𝜌^{3}⋅𝜌^{2}sin⁡𝜙\,d𝜌\,d𝜃\,d𝜙 \\ & =∫_{𝜋0}^{}∫_{2𝜋0}^{}∫_{10}^{}𝜌^{5}sin⁡𝜙\,d𝜌\,d𝜃\,d𝜙 \\ & =∫_{𝜋0}^{}sin⁡𝜙\,d𝜙⋅∫_{2𝜋0}^{}d𝜃⋅∫_{10}^{}𝜌^{5}\,d𝜌 \\ & =[−cos⁡𝜙]_{𝜙=𝜋𝜙=0}^{}⋅[𝜃]_{𝜃=2𝜋𝜃=0}^{}⋅[\frac{1}{6}𝜌^{6}]_{𝜌=1𝜌=0}^{}\,d𝜌 \\ & =−(−1−1)⋅(2𝜋−0)⋅\frac{1}{6}(1−0) \\ & =2⋅2𝜋⋅\frac{1}{6} \\ & =\frac{2𝜋}{3}.\end{aligned}
+\begin{aligned}\underset{𝑅}{∭}(𝑥^{2}+𝑦^{2}+𝑧^{2})^{3/2}\,d𝑉 & =\underset{Δ}{∭}𝜌^{3}⋅𝜌^{2}sin⁡𝜙\,d𝜌\,d𝜃\,d𝜙 \\ & =∫_{𝜋0}∫_{2𝜋0}∫_{10}𝜌^{5}sin⁡𝜙\,d𝜌\,d𝜃\,d𝜙 \\ & =∫_{𝜋0}sin⁡𝜙\,d𝜙⋅∫_{2𝜋0}d𝜃⋅∫_{10}𝜌^{5}\,d𝜌 \\ & =[−cos⁡𝜙]_{𝜙=𝜋𝜙=0}⋅[𝜃]_{𝜃=2𝜋𝜃=0}⋅[\frac{1}{6}𝜌^{6}]_{𝜌=1𝜌=0}\,d𝜌 \\ & =−(−1−1)⋅(2𝜋−0)⋅\frac{1}{6}(1−0) \\ & =2⋅2𝜋⋅\frac{1}{6} \\ & =\frac{2𝜋}{3}.\end{aligned}
 
 
 $$
@@ -117,7 +117,7 @@ The region $R$ is enclosed inside the sphere $x^2+y^2+z^2=4.$ Express the follow
 $$
 
 
-\displaystyle \iiint\limits_R (y-z)\sqrt{x^2+y^2+z^2} \:\textrm{d}V
+\displaystyle \iiint\limits_R (y-z)\sqrt{x^2+y^2+z^2} \:\text{d}V
 
 
 $$
@@ -169,7 +169,7 @@ Therefore, using the change of variables formula, we obtain
 $$
 
 
-\begin{aligned}\underset{𝑅}{∭}(𝑦−𝑧)\sqrt{√𝑥^{2}+𝑦^{2}+𝑧^{2}}\,d𝑉 & =\underset{Δ}{∭}𝜌^{2}(sin⁡𝜃sin⁡𝜙−cos⁡𝜙)⋅𝜌^{2}sin⁡𝜙\,d𝜌\,d𝜃\,d𝜙 \\ & =∫_{𝜋0}^{}∫_{2𝜋0}^{}∫_{20}^{}𝜌^{4}sin⁡𝜙(sin⁡𝜃sin⁡𝜙−cos⁡𝜙)\,d𝜌\,d𝜃\,d𝜙.\end{aligned}
+\begin{aligned}\underset{𝑅}{∭}(𝑦−𝑧)\sqrt{𝑥^{2}+𝑦^{2}+𝑧^{2}}\,d𝑉 & =\underset{Δ}{∭}𝜌^{2}(sin⁡𝜃sin⁡𝜙−cos⁡𝜙)⋅𝜌^{2}sin⁡𝜙\,d𝜌\,d𝜃\,d𝜙 \\ & =∫_{𝜋0}∫_{2𝜋0}∫_{20}𝜌^{4}sin⁡𝜙(sin⁡𝜃sin⁡𝜙−cos⁡𝜙)\,d𝜌\,d𝜃\,d𝜙.\end{aligned}
 
 
 $$
@@ -183,7 +183,7 @@ The region $R$ is enclosed inside the sphere $x^2+y^2+z^2=4$ for $y \leq 0.$ Exp
 $$
 
 
-\displaystyle \iiint\limits_R \dfrac{1}{x^2+y^2+z^2} \:\textrm{d}V
+\displaystyle \iiint\limits_R \dfrac{1}{x^2+y^2+z^2} \:\text{d}V
 
 
 $$
@@ -239,7 +239,7 @@ Therefore, using the change of variables formula, we obtain
 $$
 
 
-\begin{aligned}\underset{𝑅}{∭}\frac{1}{𝑥^{2}+𝑦^{2}+𝑧^{2}}\,d𝑉 & =\underset{Δ}{∭}\frac{1}{𝜌^{2}}⋅𝜌^{2}sin⁡𝜙\,d𝜌\,d𝜃\,d𝜙 \\ & =∫_{𝜋0}^{}∫_{2𝜋𝜋}^{}∫_{20}^{}sin⁡𝜙\,d𝜌\,d𝜃\,d𝜙.\end{aligned}
+\begin{aligned}\underset{𝑅}{∭}\frac{1}{𝑥^{2}+𝑦^{2}+𝑧^{2}}\,d𝑉 & =\underset{Δ}{∭}\frac{1}{𝜌^{2}}⋅𝜌^{2}sin⁡𝜙\,d𝜌\,d𝜃\,d𝜙 \\ & =∫_{𝜋0}∫_{2𝜋𝜋}∫_{20}sin⁡𝜙\,d𝜌\,d𝜃\,d𝜙.\end{aligned}
 
 
 $$
@@ -255,7 +255,7 @@ The region $R$ is enclosed inside the sphere $x^2+y^2+z^2=10x$ for $y \leq 0$ an
 $$
 
 
-\iiint\limits_R \dfrac{1}{\sqrt{x^2+y^2+z^2}} \:\textrm{d}V
+\iiint\limits_R \dfrac{1}{\sqrt{x^2+y^2+z^2}} \:\text{d}V
 
 
 $$
@@ -323,7 +323,7 @@ Therefore, using the change of variables formula, we obtain
 $$
 
 
-\begin{aligned}\underset{𝑅}{∭}\frac{1}{\sqrt{√𝑥^{2}+𝑦^{2}+𝑧^{2}}}\,d𝑉 & =\underset{Δ}{∭}\frac{1}{𝜌}⋅𝜌^{2}sin⁡𝜙\,d𝜌\,d𝜃\,d𝜙 \\ & =∫_{𝜋𝜋/2}^{}∫_{2𝜋3𝜋/2}^{}∫_{10cos⁡𝜃sin⁡𝜙0}^{}\,\,\,\,\,\,\,\,\,\,\,𝜌sin⁡𝜙\,d𝜌\,d𝜃\,d𝜙.\end{aligned}
+\begin{aligned}\underset{𝑅}{∭}\frac{1}{\sqrt{𝑥^{2}+𝑦^{2}+𝑧^{2}}}\,d𝑉 & =\underset{Δ}{∭}\frac{1}{𝜌}⋅𝜌^{2}sin⁡𝜙\,d𝜌\,d𝜃\,d𝜙 \\ & =∫_{𝜋𝜋/2}∫_{2𝜋3𝜋/2}∫_{10cos⁡𝜃sin⁡𝜙0}\,\,\,\,\,\,\,\,\,\,\,𝜌sin⁡𝜙\,d𝜌\,d𝜃\,d𝜙.\end{aligned}
 
 
 $$
@@ -339,7 +339,7 @@ Evaluate the triple integral
 $$
 
 
-\displaystyle \iiint\limits_R 2z\sqrt{x^2 + y^2 + z^2} \:\textrm{d}V
+\displaystyle \iiint\limits_R 2z\sqrt{x^2 + y^2 + z^2} \:\text{d}V
 
 
 $$
@@ -397,7 +397,7 @@ Therefore, using the change of variables formula, we obtain
 $$
 
 
-\begin{aligned}\underset{𝑅}{∭}2𝑧\sqrt{√𝑥^{2}+𝑦^{2}+𝑧^{2}}\,d𝑉 & =\underset{Δ}{∭}2𝜌^{2}cos⁡𝜙⋅𝜌^{2}sin⁡𝜙\,d𝜌\,d𝜃\,d𝜙 \\ & =∫_{𝜋0}^{}∫_{2𝜋𝜋}^{}∫_{30}^{}𝜌^{4}sin⁡2𝜙\,d𝜌\,d𝜃\,d𝜙 \\ & =∫_{𝜋0}^{}sin⁡2𝜙\,d𝜙⋅∫_{2𝜋𝜋}^{}d𝜃⋅∫_{30}^{}𝜌^{4}\,d𝜌 \\ & =[−\frac{1}{2}cos⁡2𝜙]_{𝜙=𝜋𝜙=0}^{}⋅[𝜃]_{𝜃=2𝜋𝜃=𝜋}^{}⋅[\frac{1}{5}𝜌^{5}]_{𝜌=3𝜌=0}^{} \\ & =−\frac{1}{2}(1−1)⋅(2𝜋−𝜋)⋅\frac{1}{5}(243−0) \\ & =0⋅𝜋⋅\frac{243}{5} \\ & =0\end{aligned}
+\begin{aligned}\underset{𝑅}{∭}2𝑧\sqrt{𝑥^{2}+𝑦^{2}+𝑧^{2}}\,d𝑉 & =\underset{Δ}{∭}2𝜌^{2}cos⁡𝜙⋅𝜌^{2}sin⁡𝜙\,d𝜌\,d𝜃\,d𝜙 \\ & =∫_{𝜋0}∫_{2𝜋𝜋}∫_{30}𝜌^{4}sin⁡2𝜙\,d𝜌\,d𝜃\,d𝜙 \\ & =∫_{𝜋0}sin⁡2𝜙\,d𝜙⋅∫_{2𝜋𝜋}d𝜃⋅∫_{30}𝜌^{4}\,d𝜌 \\ & =[−\frac{1}{2}cos⁡2𝜙]_{𝜙=𝜋𝜙=0}⋅[𝜃]_{𝜃=2𝜋𝜃=𝜋}⋅[\frac{1}{5}𝜌^{5}]_{𝜌=3𝜌=0} \\ & =−\frac{1}{2}(1−1)⋅(2𝜋−𝜋)⋅\frac{1}{5}(243−0) \\ & =0⋅𝜋⋅\frac{243}{5} \\ & =0\end{aligned}
 
 
 $$
@@ -441,7 +441,7 @@ Therefore, the corresponding Jacobian determinant is
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑥,𝑦,𝑧)}{𝜕(𝜌,𝜃,𝜙)} & =\begin{aligned}cos⁡𝜃sin⁡𝜙 & −𝜌sin⁡𝜃sin⁡𝜙 & 𝜌cos⁡𝜃cos⁡𝜙 \\ sin⁡𝜃sin⁡𝜙 & 𝜌cos⁡𝜃sin⁡𝜙 & 𝜌sin⁡𝜃cos⁡𝜙 \\ cos⁡𝜙 & 0 & −𝜌sin⁡𝜙\end{aligned} \\ & =cos⁡𝜙\begin{aligned}−𝜌sin⁡𝜃sin⁡𝜙 & 𝜌cos⁡𝜃cos⁡𝜙 \\ 𝜌cos⁡𝜃sin⁡𝜙 & 𝜌sin⁡𝜃cos⁡𝜙\end{aligned}−𝜌sin⁡𝜙\begin{aligned}cos⁡𝜃sin⁡𝜙 & −𝜌sin⁡𝜃sin⁡𝜙 \\ sin⁡𝜃sin⁡𝜙 & 𝜌cos⁡𝜃sin⁡𝜙\end{aligned} \\ & =cos⁡𝜙⋅(−𝜌^{2}sin⁡𝜙cos⁡𝜙(sin^{2}⁡𝜃+cos^{2}⁡𝜃))−𝜌sin⁡𝜙⋅𝜌sin^{2}⁡𝜙⋅(cos^{2}⁡𝜃+sin^{2}⁡𝜃) \\ & =−𝜌^{2}sin⁡𝜙cos^{2}⁡𝜙−𝜌^{2}sin⁡𝜙sin^{2}⁡𝜙 \\ & =−𝜌^{2}sin⁡𝜙(cos^{2}⁡𝜙+sin^{2}⁡𝜙) \\ & =−𝜌^{2}sin⁡𝜙.\end{aligned}
+\begin{aligned}\frac{𝜕(𝑥,𝑦,𝑧)}{𝜕(𝜌,𝜃,𝜙)} & =\begin{matrix}cos⁡𝜃sin⁡𝜙 & −𝜌sin⁡𝜃sin⁡𝜙 & 𝜌cos⁡𝜃cos⁡𝜙 \\ sin⁡𝜃sin⁡𝜙 & 𝜌cos⁡𝜃sin⁡𝜙 & 𝜌sin⁡𝜃cos⁡𝜙 \\ cos⁡𝜙 & 0 & −𝜌sin⁡𝜙\end{matrix} \\ & =cos⁡𝜙\begin{matrix}−𝜌sin⁡𝜃sin⁡𝜙 & 𝜌cos⁡𝜃cos⁡𝜙 \\ 𝜌cos⁡𝜃sin⁡𝜙 & 𝜌sin⁡𝜃cos⁡𝜙\end{matrix}−𝜌sin⁡𝜙\begin{matrix}cos⁡𝜃sin⁡𝜙 & −𝜌sin⁡𝜃sin⁡𝜙 \\ sin⁡𝜃sin⁡𝜙 & 𝜌cos⁡𝜃sin⁡𝜙\end{matrix} \\ & =cos⁡𝜙⋅(−𝜌^{2}sin⁡𝜙cos⁡𝜙(sin^{2}⁡𝜃+cos^{2}⁡𝜃))−𝜌sin⁡𝜙⋅𝜌sin^{2}⁡𝜙⋅(cos^{2}⁡𝜃+sin^{2}⁡𝜃) \\ & =−𝜌^{2}sin⁡𝜙cos^{2}⁡𝜙−𝜌^{2}sin⁡𝜙sin^{2}⁡𝜙 \\ & =−𝜌^{2}sin⁡𝜙(cos^{2}⁡𝜙+sin^{2}⁡𝜙) \\ & =−𝜌^{2}sin⁡𝜙.\end{aligned}
 
 
 $$
@@ -557,7 +557,7 @@ As we increase the number of subregions, the size of $\Delta\rho,$ $\Delta\theta
 $$
 
 
-\textrm{d}V = \rho^2 \sin\phi \:\textrm{d}\rho\:\textrm{d}\theta\:\textrm{d}\phi.
+\text{d}V = \rho^2 \sin\phi \:\text{d}\rho\:\text{d}\theta\:\text{d}\phi.
 
 
 $$
@@ -567,7 +567,7 @@ Therefore, we conclude that if $f(\rho,\theta,\phi)$ is continuous on a spherica
 $$
 
 
-\iiint\limits_{R} f(\rho,\theta,\phi) \:\textrm{d}V = \iiint\limits_{R} f(\rho,\theta,\phi) \rho^2 \sin\phi \:\textrm{d}\rho\:\textrm{d}\theta\:\textrm{d}\phi = \int_{\gamma}^{\psi}\int_{\alpha}^{\beta}\int_{a}^{b} f(\rho,\theta,\phi) \rho^2 \sin\phi \:\textrm{d}\rho\:\textrm{d}\theta\:\textrm{d}\phi.
+\iiint\limits_{R} f(\rho,\theta,\phi) \:\text{d}V = \iiint\limits_{R} f(\rho,\theta,\phi) \rho^2 \sin\phi \:\text{d}\rho\:\text{d}\theta\:\text{d}\phi = \int_{\gamma}^{\psi}\int_{\alpha}^{\beta}\int_{a}^{b} f(\rho,\theta,\phi) \rho^2 \sin\phi \:\text{d}\rho\:\text{d}\theta\:\text{d}\phi.
 
 
 $$

@@ -108,7 +108,7 @@ $$
 
 
 
-\begin{aligned} \cos 2{x} &= 1-2\sin^2{x} \\\[5pt] &= 1-2\left(-\dfrac{2}{\sqrt{6}}\right)^2\\\[5pt] &= 1-2\cdot\dfrac{4}{6}\\\[5pt] &= 1-\dfrac{4}{3}\\\[5pt] &= -\dfrac{1}{3}. \end{aligned}
+\begin{aligned} \cos 2{x} &= 1-2\sin^2{x} \\[5pt] &= 1-2\left(-\dfrac{2}{\sqrt{6}}\right)^2\\[5pt] &= 1-2\cdot\dfrac{4}{6}\\[5pt] &= 1-\dfrac{4}{3}\\[5pt] &= -\dfrac{1}{3}. \end{aligned}
 
 
 
@@ -128,7 +128,7 @@ $$
 
 
 
-\begin{aligned}cos⁡𝑥 & =\frac{1}{sec⁡𝑥} \\ & =\frac{1}{(\frac{\sqrt{√6}}{2})} \\ & =\frac{2}{\sqrt{√6}} \\ & =\frac{\sqrt{√6}}{3}\end{aligned}
+\begin{aligned}cos⁡𝑥 & =\frac{1}{sec⁡𝑥} \\ & =\frac{1}{(\frac{\sqrt{6}}{2})} \\ & =\frac{2}{\sqrt{6}} \\ & =\frac{\sqrt{6}}{3}\end{aligned}
 
 
 
@@ -152,7 +152,7 @@ $$
 
 
 
-\begin{aligned}cos⁡2𝑥 & =2cos^{2}⁡𝑥−1 \\ & =2(\frac{\sqrt{√6}}{3})^{2}−1 \\ & =\frac{4}{3}−1 \\ & =\frac{1}{3}.\end{aligned}
+\begin{aligned}cos⁡2𝑥 & =2cos^{2}⁡𝑥−1 \\ & =2(\frac{\sqrt{6}}{3})^{2}−1 \\ & =\frac{4}{3}−1 \\ & =\frac{1}{3}.\end{aligned}
 
 
 
@@ -184,7 +184,7 @@ $$
 
 
 
-\begin{aligned}cos⁡𝑥+sin⁡𝑥=\frac{\sqrt{√2}}{3} \\ cos⁡𝑥−sin⁡𝑥=−\frac{4}{3}\end{aligned}
+\begin{aligned}cos⁡𝑥+sin⁡𝑥=\frac{\sqrt{2}}{3} \\ cos⁡𝑥−sin⁡𝑥=−\frac{4}{3}\end{aligned}
 
 
 
@@ -196,7 +196,7 @@ $$
 
 
 
-\begin{aligned}(cos⁡𝑥+sin⁡𝑥)(cos⁡𝑥−sin⁡𝑥) & =(\frac{\sqrt{√2}}{3})⋅(−\frac{4}{3}) \\ cos^{2}⁡𝑥−sin^{2}⁡𝑥 & =−\frac{4\sqrt{√2}}{9} \\ cos⁡2𝑥 & =−\frac{4\sqrt{√2}}{9}.\end{aligned}
+\begin{aligned}(cos⁡𝑥+sin⁡𝑥)(cos⁡𝑥−sin⁡𝑥) & =(\frac{\sqrt{2}}{3})⋅(−\frac{4}{3}) \\ cos^{2}⁡𝑥−sin^{2}⁡𝑥 & =−\frac{4\sqrt{2}}{9} \\ cos⁡2𝑥 & =−\frac{4\sqrt{2}}{9}.\end{aligned}
 
 
 

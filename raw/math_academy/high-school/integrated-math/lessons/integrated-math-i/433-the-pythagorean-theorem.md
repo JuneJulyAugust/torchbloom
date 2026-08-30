@@ -52,7 +52,7 @@ $$
 
 
 
-\begin{aligned}𝑐^{2} & =𝑎^{2}+𝑏^{2} \\ 𝑐 & =\sqrt{√𝑎^{2}+𝑏^{2}}.\end{aligned}
+\begin{aligned}𝑐^{2} & =𝑎^{2}+𝑏^{2} \\ 𝑐 & =\sqrt{𝑎^{2}+𝑏^{2}}.\end{aligned}
 
 
 
@@ -64,7 +64,7 @@ $$
 
 
 
-\begin{aligned}𝑐 & =\sqrt{√(8)^{2}+(6)^{2}} \\ & =\sqrt{√64+36} \\ & =\sqrt{√100} \\ & =10.\end{aligned}
+\begin{aligned}𝑐 & =\sqrt{(8)^{2}+(6)^{2}} \\ & =\sqrt{64+36} \\ & =\sqrt{100} \\ & =10.\end{aligned}
 
 
 
@@ -86,7 +86,7 @@ $$
 
 
 
-\begin{aligned}𝑐^{2} & =𝑎^{2}+𝑏^{2} \\ 𝑐 & =\sqrt{√𝑎^{2}+𝑏^{2}}.\end{aligned}
+\begin{aligned}𝑐^{2} & =𝑎^{2}+𝑏^{2} \\ 𝑐 & =\sqrt{𝑎^{2}+𝑏^{2}}.\end{aligned}
 
 
 
@@ -98,7 +98,7 @@ $$
 
 
 
-\begin{aligned}𝑐 & =\sqrt{√(5)^{2}+(12)^{2}} \\ & =\sqrt{√25+144} \\ & =\sqrt{√169} \\ & =13.\end{aligned}
+\begin{aligned}𝑐 & =\sqrt{(5)^{2}+(12)^{2}} \\ & =\sqrt{25+144} \\ & =\sqrt{169} \\ & =13.\end{aligned}
 
 
 
@@ -122,7 +122,7 @@ $$
 
 
 
-\begin{aligned}𝑐^{2} & =𝑎^{2}+𝑏^{2} \\ 𝑎^{2} & =𝑐^{2}−𝑏^{2} \\ 𝑎 & =\sqrt{√𝑐^{2}−𝑏^{2}}.\end{aligned}
+\begin{aligned}𝑐^{2} & =𝑎^{2}+𝑏^{2} \\ 𝑎^{2} & =𝑐^{2}−𝑏^{2} \\ 𝑎 & =\sqrt{𝑐^{2}−𝑏^{2}}.\end{aligned}
 
 
 
@@ -134,7 +134,7 @@ $$
 
 
 
-\begin{aligned}𝑎 & =\sqrt{√(15)^{2}−(9)^{2}} \\ & =\sqrt{√225−81} \\ & =\sqrt{√144} \\ & =12.\end{aligned}
+\begin{aligned}𝑎 & =\sqrt{(15)^{2}−(9)^{2}} \\ & =\sqrt{225−81} \\ & =\sqrt{144} \\ & =12.\end{aligned}
 
 
 

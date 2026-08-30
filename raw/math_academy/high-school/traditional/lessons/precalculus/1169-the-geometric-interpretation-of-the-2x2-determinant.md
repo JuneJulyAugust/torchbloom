@@ -34,7 +34,7 @@ $$
 
 
 
-\begin{aligned}det(𝑀) & =\begin{aligned}1 & 2 \\ 3 & −1\end{aligned} \\ & =1⋅(−1)−2⋅3 \\ & =−7\end{aligned}
+\begin{aligned}det(𝑀) & =\begin{matrix}1 & 2 \\ 3 & −1\end{matrix} \\ & =1⋅(−1)−2⋅3 \\ & =−7\end{aligned}
 
 
 
@@ -78,7 +78,7 @@ $$
 
 
 
-\begin{aligned}det(𝑀) & =\begin{aligned}1 & 3 \\ 2 & −3\end{aligned} \\ & =1⋅(−3)−3⋅2 \\ & =−9\end{aligned}
+\begin{aligned}det(𝑀) & =\begin{matrix}1 & 3 \\ 2 & −3\end{matrix} \\ & =1⋅(−3)−3⋅2 \\ & =−9\end{aligned}
 
 
 
@@ -122,7 +122,7 @@ $$
 
 
 
-\begin{aligned}det(𝑀) & =\begin{aligned}1 & 2 \\ 1 & 2\end{aligned} \\ & =1⋅2−2⋅1 \\ & =0\end{aligned}
+\begin{aligned}det(𝑀) & =\begin{matrix}1 & 2 \\ 1 & 2\end{matrix} \\ & =1⋅2−2⋅1 \\ & =0\end{aligned}
 
 
 
@@ -154,7 +154,7 @@ $$
 
 
 
-\begin{aligned}det(𝑀) & =\begin{aligned}3 & 6 \\ −2 & −4\end{aligned} \\ & =3⋅(−4)−6⋅(−2) \\ & =0\end{aligned}
+\begin{aligned}det(𝑀) & =\begin{matrix}3 & 6 \\ −2 & −4\end{matrix} \\ & =3⋅(−4)−6⋅(−2) \\ & =0\end{aligned}
 
 
 

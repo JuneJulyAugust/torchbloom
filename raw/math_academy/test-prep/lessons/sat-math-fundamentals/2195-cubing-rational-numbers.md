@@ -110,7 +110,7 @@ To work out $\left(-13\right)^3,$ we multiply $-13$ by itself and then multiply 
 $$
 
 
-\begin{aligned}(−13)^{3} & =\overset{\overset{(−13)⋅(−13)}{}}{169}⋅(−13) \\ & =169⋅(−13) \\ & =−2\,197\end{aligned}
+\begin{aligned}(−13)^{3} & =\overset{(−13)⋅(−13)}{169}⋅(−13) \\ & =169⋅(−13) \\ & =−2\,197\end{aligned}
 
 
 $$
@@ -146,7 +146,7 @@ To work out $\left(-0.5\right)^3,$ we multiply $-0.5$ by itself and then multipl
 $$
 
 
-\begin{aligned}(−0.5)^{3} & =\overset{\overset{(−0.5)⋅(−0.5)}{}}{0.25}⋅(−0.5) \\ & =0.25⋅(−0.5) \\ & =−0.125\end{aligned}
+\begin{aligned}(−0.5)^{3} & =\overset{(−0.5)⋅(−0.5)}{0.25}⋅(−0.5) \\ & =0.25⋅(−0.5) \\ & =−0.125\end{aligned}
 
 
 $$

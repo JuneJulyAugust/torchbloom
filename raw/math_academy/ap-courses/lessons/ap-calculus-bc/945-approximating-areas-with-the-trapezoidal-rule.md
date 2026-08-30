@@ -240,4 +240,4 @@ $$
 
 $$
 
-Therefore, the total distance covered during the $2$-hour journey is approximately $70\,\textrm{miles}.$
+Therefore, the total distance covered during the $2$-hour journey is approximately $70\,\text{miles}.$

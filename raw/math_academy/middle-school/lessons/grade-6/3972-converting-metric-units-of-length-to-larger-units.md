@@ -38,7 +38,7 @@ $$
 
 
 
-1 \,\textrm{cm} = 10 \,\textrm{mm}
+1 \,\text{cm} = 10 \,\text{mm}
 
 
 
@@ -50,13 +50,13 @@ $$
 
 
 
-\dfrac{1}{10} \,\textrm{cm} = 1 \,\textrm{mm}
+\dfrac{1}{10} \,\text{cm} = 1 \,\text{mm}
 
 
 
 $$
 
-The right-hand side reads $1\,\textrm{mm},$ and we want to know how many centimeters are in $\color{blue}420$ millimeters. So, we multiply *both* sides of this equation by ${\color{blue}{420}}.$
+The right-hand side reads $1\,\text{mm},$ and we want to know how many centimeters are in $\color{blue}420$ millimeters. So, we multiply *both* sides of this equation by ${\color{blue}{420}}.$
 
 $$
 
@@ -74,7 +74,7 @@ Therefore, $420$ millimeters equals $42$ centimeters.
 
 #### Question
 
-What is $14\,\textrm{mm}$ in centimeters?
+What is $14\,\text{mm}$ in centimeters?
 
 #### Explanation
 
@@ -86,7 +86,7 @@ $$
 
 
 
-1 \,\textrm{cm} = 10 \,\textrm{mm}
+1 \,\text{cm} = 10 \,\text{mm}
 
 
 
@@ -98,7 +98,7 @@ $$
 
 
 
-\dfrac{1}{10} \,\textrm{cm} = 1 \,\textrm{mm}
+\dfrac{1}{10} \,\text{cm} = 1 \,\text{mm}
 
 
 
@@ -116,7 +116,7 @@ $$
 
 $$
 
-Therefore, $14\,\textrm{mm}$ equals $1.4\,\textrm{cm}.$
+Therefore, $14\,\text{mm}$ equals $1.4\,\text{cm}.$
 
 ### Example: Converting Centimeters to Meters
 
@@ -132,7 +132,7 @@ $$
 
 
 
-1 \,\textrm{m} = 100 \,\textrm{cm}
+1 \,\text{m} = 100 \,\text{cm}
 
 
 
@@ -144,7 +144,7 @@ $$
 
 
 
-\dfrac{1}{100} \,\textrm{m} = 1 \,\textrm{cm}
+\dfrac{1}{100} \,\text{m} = 1 \,\text{cm}
 
 
 
@@ -162,7 +162,7 @@ $$
 
 $$
 
-Therefore, $363\,\textrm{cm}$ equals $3.63\,\textrm{m}.$
+Therefore, $363\,\text{cm}$ equals $3.63\,\text{m}.$
 
 ### Example: Converting Meters to Kilometers
 
@@ -178,7 +178,7 @@ $$
 
 
 
-1 \,\textrm{km} = 1,000 \,\textrm{m}
+1 \,\text{km} = 1,000 \,\text{m}
 
 
 
@@ -190,7 +190,7 @@ $$
 
 
 
-\dfrac{1}{1,000} \,\textrm{km} = 1 \,\textrm{m}
+\dfrac{1}{1,000} \,\text{km} = 1 \,\text{m}
 
 
 

@@ -50,7 +50,7 @@ Calculating $\dfrac{\textrm d y}{\textrm d x}$ at $P$ is straightforward. First,
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x} = 8x + 1,
+\dfrac{\text{d}y}{\text{d}x} = 8x + 1,
 
 
 $$
@@ -60,7 +60,7 @@ and then plugging in $x=2$ gives
 $$
 
 
-\left.\dfrac{\textrm{d}y}{\textrm{d}x}\right|_P = 8(2)+1 = 17.
+\left.\dfrac{\text{d}y}{\text{d}x}\right|_P = 8(2)+1 = 17.
 
 
 $$
@@ -70,7 +70,7 @@ Finally, we take the reciprocal:
 $$
 
 
-\left.\dfrac{\textrm{d}y}{\textrm{d}x}\right|_{P'}= \dfrac{1}{17}
+\left.\dfrac{\text{d}y}{\text{d}x}\right|_{P'}= \dfrac{1}{17}
 
 
 $$
@@ -104,7 +104,7 @@ The formula for the derivative of the inverse function is
 $$
 
 
-\begin{aligned}\begin{aligned}(𝑓^{−1})^{′}(𝑥) & =\frac{1}{𝑓^{′}(𝑓^{−1}(𝑥))}.\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}(𝑓^{−1})^{′}(𝑥) & =\frac{1}{𝑓^{′}(𝑓^{−1}(𝑥))}.\end{matrix}\end{aligned}
 
 
 $$
@@ -114,7 +114,7 @@ Evaluating at $x=0,$ we have
 $$
 
 
-\begin{aligned}\begin{aligned}(𝑓^{−1})^{′}(0) & =\frac{1}{𝑓^{′}(𝑓^{−1}(0))} \\ & =\frac{1}{𝑓^{′}(2)} \\ & =\frac{1}{(−\frac{3}{2})} \\ & =−\frac{2}{3}.\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}(𝑓^{−1})^{′}(0) & =\frac{1}{𝑓^{′}(𝑓^{−1}(0))} \\ & =\frac{1}{𝑓^{′}(2)} \\ & =\frac{1}{(−\frac{3}{2})} \\ & =−\frac{2}{3}.\end{matrix}\end{aligned}
 
 
 $$
@@ -132,7 +132,7 @@ We start by calculating the derivative of $f$ at the point $(-1, -5).$
 $$
 
 
-\begin{aligned}\begin{aligned}𝑓(𝑥) & =\frac{2−3𝑥}{4+5𝑥} \\ 𝑓^{′}(𝑥) & =−\frac{22}{(4+5𝑥)^{2}} \\ 𝑓^{′}(−1) & =−22\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}𝑓(𝑥) & =\frac{2−3𝑥}{4+5𝑥} \\ 𝑓^{′}(𝑥) & =−\frac{22}{(4+5𝑥)^{2}} \\ 𝑓^{′}(−1) & =−22\end{matrix}\end{aligned}
 
 
 $$
@@ -144,7 +144,7 @@ Furthermore, the slopes of the tangents to the two respective points are recipro
 $$
 
 
-\begin{aligned}\begin{aligned}(𝑓^{−1})^{′}(−5) & =\frac{1}{𝑓^{′}(𝑓^{−1}(−5))} \\ & =\frac{1}{𝑓^{′}(−1)} \\ & =\frac{1}{(−22)} \\ & =−\frac{1}{22}.\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}(𝑓^{−1})^{′}(−5) & =\frac{1}{𝑓^{′}(𝑓^{−1}(−5))} \\ & =\frac{1}{𝑓^{′}(−1)} \\ & =\frac{1}{(−22)} \\ & =−\frac{1}{22}.\end{matrix}\end{aligned}
 
 
 $$

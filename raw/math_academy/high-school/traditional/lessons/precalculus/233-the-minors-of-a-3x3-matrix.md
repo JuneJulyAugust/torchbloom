@@ -62,7 +62,7 @@ $$
 
 
 
-\begin{aligned}\begin{aligned}5 & 7 \\ 8 & 4\end{aligned} & =5⋅4−7⋅8 \\ & =20−56 \\ & =−36\end{aligned}
+\begin{aligned}\begin{matrix}5 & 7 \\ 8 & 4\end{matrix} & =5⋅4−7⋅8 \\ & =20−56 \\ & =−36\end{aligned}
 
 
 
@@ -104,7 +104,7 @@ $$
 
 
 
-\begin{aligned}det[\begin{aligned}1 & 5 \\ 7 & 2\end{aligned}] & =\begin{aligned}1 & 5 \\ 7 & 2\end{aligned} \\ & =1⋅2−5⋅7 \\ & =2−35 \\ & =−33.\end{aligned}
+\begin{aligned}det[\begin{matrix}1 & 5 \\ 7 & 2\end{matrix}] & =\begin{matrix}1 & 5 \\ 7 & 2\end{matrix} \\ & =1⋅2−5⋅7 \\ & =2−35 \\ & =−33.\end{aligned}
 
 
 
@@ -146,7 +146,7 @@ $$
 
 
 
-\begin{aligned}det[\begin{aligned}7𝑥 & −3𝑦 \\ −𝑦 & 5\end{aligned}] & =\begin{aligned}7𝑥 & −3𝑦 \\ −𝑦 & 5\end{aligned} \\ & =7𝑥⋅5−(−3𝑦)⋅(−𝑦) \\ & =35𝑥−3𝑦^{2}\end{aligned}
+\begin{aligned}det[\begin{matrix}7𝑥 & −3𝑦 \\ −𝑦 & 5\end{matrix}] & =\begin{matrix}7𝑥 & −3𝑦 \\ −𝑦 & 5\end{matrix} \\ & =7𝑥⋅5−(−3𝑦)⋅(−𝑦) \\ & =35𝑥−3𝑦^{2}\end{aligned}
 
 
 
@@ -188,7 +188,7 @@ $$
 
 
 
-\begin{aligned}det[\begin{aligned}𝑘 & 3 \\ −1 & 2𝑘\end{aligned}] & =\begin{aligned}𝑘 & 3 \\ −1 & 2𝑘\end{aligned} \\ & =𝑘⋅2𝑘−3⋅(−1) \\ & =2𝑘^{2}+3.\end{aligned}
+\begin{aligned}det[\begin{matrix}𝑘 & 3 \\ −1 & 2𝑘\end{matrix}] & =\begin{matrix}𝑘 & 3 \\ −1 & 2𝑘\end{matrix} \\ & =𝑘⋅2𝑘−3⋅(−1) \\ & =2𝑘^{2}+3.\end{aligned}
 
 
 

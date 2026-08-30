@@ -21,7 +21,7 @@ $$
 
 
 
-\textrm{Area} = \dfrac{1}{2} \cdot b \cdot h,
+\text{Area} = \dfrac{1}{2} \cdot b \cdot h,
 
 
 
@@ -41,7 +41,7 @@ $$
 
 
 
-\textrm{base} = 7 \: \text{ft}, \qquad \textrm{height} = 3 \: \text{ft}.
+\text{base} = 7 \: \text{ft}, \qquad \text{height} = 3 \: \text{ft}.
 
 
 
@@ -111,7 +111,7 @@ $$
 
 
 
-\textrm{Area} = \dfrac{1}{2} \times \textrm{base} \times \textrm{height}.
+\text{Area} = \dfrac{1}{2} \times \text{base} \times \text{height}.
 
 
 
@@ -135,7 +135,7 @@ $$
 
 
 
-\textrm{Area} = 24 \, \textrm{m}^2.
+\text{Area} = 24 \, \text{m}^2.
 
 
 
@@ -169,7 +169,7 @@ $$
 
 
 
-\textrm{Area} = \dfrac{1}{2} \times \textrm{base} \times \textrm{height}
+\text{Area} = \dfrac{1}{2} \times \text{base} \times \text{height}
 
 
 
@@ -193,7 +193,7 @@ $$
 
 
 
-\textrm{base} = 30 \div 4 = \dfrac{30}{4} = \dfrac{15}{2}.
+\text{base} = 30 \div 4 = \dfrac{30}{4} = \dfrac{15}{2}.
 
 
 
@@ -205,7 +205,7 @@ $$
 
 
 
-\textrm{base} = \dfrac{15}{2}\, \textrm{m}.
+\text{base} = \dfrac{15}{2}\, \text{m}.
 
 
 

@@ -96,11 +96,11 @@ Next, let's see an example with division by a fraction, which is very similar to
 
 #### Question
 
-A store clerk wants to split $2 \,\dfrac{2}{5}\,\textrm{lb}$ of candy into several $\dfrac{3}{10}\,\textrm{lb}$ packages. How many of these packages will he make?
+A store clerk wants to split $2 \,\dfrac{2}{5}\,\text{lb}$ of candy into several $\dfrac{3}{10}\,\text{lb}$ packages. How many of these packages will he make?
 
 #### Explanation
 
-To find out the number of $\dfrac{3}{10}\,\textrm{lb}$ packages the clerk will make, we need to divide $2 \,\dfrac{2}{5}$ by $\dfrac{3}{10}.$
+To find out the number of $\dfrac{3}{10}\,\text{lb}$ packages the clerk will make, we need to divide $2 \,\dfrac{2}{5}$ by $\dfrac{3}{10}.$
 
 First, we express $2 \,\dfrac{2}{5}$ as an improper fraction:
 
@@ -190,7 +190,7 @@ $$
 
 $$
 
-Therefore, the store clerk will make $8$ packages, each containing $\dfrac{3}{10}\,\textrm{lb}$ of candy.
+Therefore, the store clerk will make $8$ packages, each containing $\dfrac{3}{10}\,\text{lb}$ of candy.
 
 ### Example: Dividing a Whole Number by a Mixed Number in Context
 
@@ -366,7 +366,7 @@ Therefore, the width of the board is $\dfrac{64}{81}\,\text{m}.$
 
 #### Question
 
-Joe, the school carpenter, needs to split a $10 \dfrac 12\,\textrm{ft}$ wooden slat into several $1 \dfrac 18\,\textrm{ft}$ pieces. How many complete pieces will he get?
+Joe, the school carpenter, needs to split a $10 \dfrac 12\,\text{ft}$ wooden slat into several $1 \dfrac 18\,\text{ft}$ pieces. How many complete pieces will he get?
 
 #### Explanation
 
@@ -476,10 +476,10 @@ $$
 
 
 
-28 \div 3 = 9 \,\textrm{R}\,1 = 9 \,\dfrac{1}{3}
+28 \div 3 = 9 \,\text{R}\,1 = 9 \,\dfrac{1}{3}
 
 
 
 $$
 
-Therefore, Joe will get $9$ complete $1 \,\dfrac{1}{8}\,\textrm{ft}$ pieces.
+Therefore, Joe will get $9$ complete $1 \,\dfrac{1}{8}\,\text{ft}$ pieces.

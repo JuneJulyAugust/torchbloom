@@ -41,7 +41,7 @@ A = (2x+12)(2x+9)
 
 $$
 
-We're told that the area of the flowerbed with the border is $208\,\textrm{m}^2.$ Therefore, we have the following equation:
+We're told that the area of the flowerbed with the border is $208\,\text{m}^2.$ Therefore, we have the following equation:
 
 $$
 
@@ -76,7 +76,7 @@ Substituting these values into the formula, we get
 $$
 
 
-\begin{aligned}𝑥 & =\frac{−21±\sqrt{√21^{2}−4⋅2⋅(−50)}}{2⋅2} \\ & =\frac{−21±\sqrt{√441+499}}{4} \\ & =\frac{−21±\sqrt{√841}}{4} \\ & =\frac{−21±29}{4},\end{aligned}
+\begin{aligned}𝑥 & =\frac{−21±\sqrt{21^{2}−4⋅2⋅(−50)}}{2⋅2} \\ & =\frac{−21±\sqrt{441+499}}{4} \\ & =\frac{−21±\sqrt{841}}{4} \\ & =\frac{−21±29}{4},\end{aligned}
 
 
 $$
@@ -178,7 +178,7 @@ Substituting into the formula, we get
 $$
 
 
-\begin{aligned}𝑥 & =\frac{−11±\sqrt{√11^{2}−4⋅1⋅(−12)}}{2⋅1} \\ & =\frac{−11±\sqrt{√121+48}}{2} \\ & =\frac{−11±\sqrt{√169}}{2} \\ & =\frac{−11±13}{2}.\end{aligned}
+\begin{aligned}𝑥 & =\frac{−11±\sqrt{11^{2}−4⋅1⋅(−12)}}{2⋅1} \\ & =\frac{−11±\sqrt{121+48}}{2} \\ & =\frac{−11±\sqrt{169}}{2} \\ & =\frac{−11±13}{2}.\end{aligned}
 
 
 $$
@@ -224,7 +224,7 @@ Since we have a perfect square on the left-hand side, we can solve this equation
 $$
 
 
-\begin{aligned}(12−𝑥)^{2} & =25 \\ \sqrt{√(12−𝑥)^{2}} & =\sqrt{√25} \\ |12−𝑥| & =5\end{aligned}
+\begin{aligned}(12−𝑥)^{2} & =25 \\ \sqrt{(12−𝑥)^{2}} & =\sqrt{25} \\ |12−𝑥| & =5\end{aligned}
 
 
 $$

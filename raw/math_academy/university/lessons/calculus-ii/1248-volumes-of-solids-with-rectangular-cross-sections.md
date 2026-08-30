@@ -24,7 +24,7 @@ If we are given the expression $A(x)$ for the area of each cross-section, then w
 $$
 
 
-V = \int_{c}^{d} A(x)\:\textrm{d}x.
+V = \int_{c}^{d} A(x)\:\text{d}x.
 
 
 $$
@@ -42,7 +42,7 @@ Then the base of the cross-section is
 $$
 
 
-\begin{aligned}𝑏 & =|𝑦| \\ & =−\sqrt{√4−𝑥^{2}} \\ & =\sqrt{√4−𝑥^{2}}.\end{aligned}
+\begin{aligned}𝑏 & =|𝑦| \\ & =−\sqrt{4−𝑥^{2}} \\ & =\sqrt{4−𝑥^{2}}.\end{aligned}
 
 
 $$
@@ -62,7 +62,7 @@ So, the expression for the area of the cross-section is
 $$
 
 
-\begin{aligned}𝐴(𝑥) & =\frac{1}{2}𝑏^{2} \\ & =\frac{1}{2}(\sqrt{√4−𝑥^{2}})^{2} \\ & =\frac{1}{2}(4−𝑥^{2}).\end{aligned}
+\begin{aligned}𝐴(𝑥) & =\frac{1}{2}𝑏^{2} \\ & =\frac{1}{2}(\sqrt{4−𝑥^{2}})^{2} \\ & =\frac{1}{2}(4−𝑥^{2}).\end{aligned}
 
 
 $$
@@ -72,7 +72,7 @@ We can now calculate the volume of the solid using the following integral:
 $$
 
 
-\begin{aligned}𝑉 & =∫_{𝑑𝑐}^{}𝐴(𝑥)\,d𝑥 \\ & =\frac{1}{2}∫_{2−2}^{}(4−𝑥^{2})\,d𝑥\end{aligned}
+\begin{aligned}𝑉 & =∫_{𝑑𝑐}𝐴(𝑥)\,d𝑥 \\ & =\frac{1}{2}∫_{2−2}(4−𝑥^{2})\,d𝑥\end{aligned}
 
 
 $$
@@ -116,7 +116,7 @@ We can now calculate the volume of the solid, as follows:
 $$
 
 
-\begin{aligned}𝑉 & =∫_{𝑑𝑐}^{}𝐴(𝑥)\,d𝑥 \\ & =∫_{10}^{}2(𝑥−1)^{2}\,d𝑥 \\ & =2∫_{10}^{}(𝑥−1)^{2}\,d𝑥 \\ & =2∫_{10}^{}𝑥^{2}−2𝑥+1\,d𝑥 \\ & =2[\frac{𝑥^{3}}{3}−𝑥^{2}+𝑥]_{10}^{} \\ & =2([\frac{(1)^{3}}{3}−(1)^{2}+(1)]−[\frac{(0)^{3}}{3}−(0)^{2}+(0)]) \\ & =2(\frac{1}{3}−0) \\ & =\frac{2}{3}.\end{aligned}
+\begin{aligned}𝑉 & =∫_{𝑑𝑐}𝐴(𝑥)\,d𝑥 \\ & =∫_{10}2(𝑥−1)^{2}\,d𝑥 \\ & =2∫_{10}(𝑥−1)^{2}\,d𝑥 \\ & =2∫_{10}𝑥^{2}−2𝑥+1\,d𝑥 \\ & =2[\frac{𝑥^{3}}{3}−𝑥^{2}+𝑥]_{10} \\ & =2([\frac{(1)^{3}}{3}−(1)^{2}+(1)]−[\frac{(0)^{3}}{3}−(0)^{2}+(0)]) \\ & =2(\frac{1}{3}−0) \\ & =\frac{2}{3}.\end{aligned}
 
 
 $$
@@ -174,7 +174,7 @@ We can now calculate the volume of the solid using the following integral.
 $$
 
 
-\begin{aligned}𝑉 & =∫_{𝑑𝑐}^{}𝐴(𝑥)\,d𝑥 \\ & =3∫_{41}^{}(\frac{16}{𝑥^{2}}−\frac{8}{𝑥}+1)d𝑥\end{aligned}
+\begin{aligned}𝑉 & =∫_{𝑑𝑐}𝐴(𝑥)\,d𝑥 \\ & =3∫_{41}(\frac{16}{𝑥^{2}}−\frac{8}{𝑥}+1)d𝑥\end{aligned}
 
 
 $$
@@ -196,7 +196,7 @@ If we are given the expression $A(y)$ for the area of each cross-section, then w
 $$
 
 
-V = \int_{c}^{d} A(y)\:\textrm{d}y.
+V = \int_{c}^{d} A(y)\:\text{d}y.
 
 
 $$
@@ -234,7 +234,7 @@ We can now calculate the volume of the solid using the following integral:
 $$
 
 
-\begin{aligned}𝑉 & =∫_{𝑑𝑐}^{}𝐴(𝑦)\,d𝑦 \\ & =3∫_{0−1}^{}(𝑦+1)^{2}d𝑦\end{aligned}
+\begin{aligned}𝑉 & =∫_{𝑑𝑐}𝐴(𝑦)\,d𝑦 \\ & =3∫_{0−1}(𝑦+1)^{2}d𝑦\end{aligned}
 
 
 $$
@@ -258,7 +258,7 @@ Then, the base of the rectangle (cross-section) is
 $$
 
 
-\begin{aligned}𝑏 & =|𝑥|=\sqrt{√3+𝑦}.\end{aligned}
+\begin{aligned}𝑏 & =|𝑥|=\sqrt{3+𝑦}.\end{aligned}
 
 
 $$
@@ -268,7 +268,7 @@ The area of the rectangle is $A = bh.$ So, since we have $h=2b,$ the expression 
 $$
 
 
-\begin{aligned}𝐴(𝑦) & =𝑏ℎ \\ & =2𝑏^{2} \\ & =2(\sqrt{√3+𝑦})^{2} \\ & =2(3+𝑦).\end{aligned}
+\begin{aligned}𝐴(𝑦) & =𝑏ℎ \\ & =2𝑏^{2} \\ & =2(\sqrt{3+𝑦})^{2} \\ & =2(3+𝑦).\end{aligned}
 
 
 $$
@@ -278,7 +278,7 @@ We can now calculate the volume of the solid, as follows:
 $$
 
 
-\begin{aligned}𝑉 & =∫_{𝑑𝑐}^{}𝐴(𝑦)\,d𝑦 \\ & =∫_{0−2}^{}2(3+𝑦)\,d𝑦 \\ & =∫_{0−2}^{}(6+2𝑦)\,d𝑦 \\ & =∫_{0−2}^{}6\,d𝑦+∫_{0−2}^{}2𝑦\,d𝑦 \\ & =6𝑦\,_{0−2}^{}+𝑦^{2}\,_{0−2}^{} \\ & =6(0−(−2))+(0−4) \\ & =12−4 \\ & =8\end{aligned}
+\begin{aligned}𝑉 & =∫_{𝑑𝑐}𝐴(𝑦)\,d𝑦 \\ & =∫_{0−2}2(3+𝑦)\,d𝑦 \\ & =∫_{0−2}(6+2𝑦)\,d𝑦 \\ & =∫_{0−2}6\,d𝑦+∫_{0−2}2𝑦\,d𝑦 \\ & =6𝑦\,_{0−2}+𝑦^{2}\,_{0−2} \\ & =6(0−(−2))+(0−4) \\ & =12−4 \\ & =8\end{aligned}
 
 
 $$
@@ -336,7 +336,7 @@ We can now calculate the volume of the solid using the following integral:
 $$
 
 
-\begin{aligned}𝑉 & =∫_{𝑑𝑐}^{}𝐴(𝑦)\,d𝑦 \\ & =\frac{1}{2}∫_{1−1}^{}(1−𝑦^{4})^{2}d𝑦.\end{aligned}
+\begin{aligned}𝑉 & =∫_{𝑑𝑐}𝐴(𝑦)\,d𝑦 \\ & =\frac{1}{2}∫_{1−1}(1−𝑦^{4})^{2}d𝑦.\end{aligned}
 
 
 $$

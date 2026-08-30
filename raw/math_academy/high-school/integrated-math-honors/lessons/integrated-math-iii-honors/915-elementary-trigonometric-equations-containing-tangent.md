@@ -62,7 +62,7 @@ First, we rearrange the equation and isolate $\tan x \mathbin{:}$
 $$
 
 
-\begin{aligned}3tan⁡𝑥+3\sqrt{√3} & =0 \\ 3tan⁡𝑥 & =−3\sqrt{√3} \\ tan⁡𝑥 & =−\frac{3\sqrt{√3}}{3} \\ tan⁡𝑥 & =−\sqrt{√3}.\end{aligned}
+\begin{aligned}3tan⁡𝑥+3\sqrt{3} & =0 \\ 3tan⁡𝑥 & =−3\sqrt{3} \\ tan⁡𝑥 & =−\frac{3\sqrt{3}}{3} \\ tan⁡𝑥 & =−\sqrt{3}.\end{aligned}
 
 
 $$
@@ -72,7 +72,7 @@ Next, we find the principal value:
 $$
 
 
-\begin{aligned}𝑥=arctan⁡(−\sqrt{√3})=−60^{∘}\end{aligned}
+\begin{aligned}𝑥=arctan⁡(−\sqrt{3})=−60^{∘}\end{aligned}
 
 
 $$
@@ -180,7 +180,7 @@ First, we rearrange the equation, isolating $\tan x \mathbin{:}$
 $$
 
 
-\begin{aligned}3tan⁡𝑥−\sqrt{√3} & =0 \\ 3tan⁡𝑥 & =\sqrt{√3} \\ tan⁡𝑥 & =\frac{\sqrt{√3}}{3}\end{aligned}
+\begin{aligned}3tan⁡𝑥−\sqrt{3} & =0 \\ 3tan⁡𝑥 & =\sqrt{3} \\ tan⁡𝑥 & =\frac{\sqrt{3}}{3}\end{aligned}
 
 
 $$
@@ -190,7 +190,7 @@ Now, we find the principal value:
 $$
 
 
-\begin{aligned}𝑥=arctan⁡(\frac{\sqrt{√3}}{3})=30^{∘}\end{aligned}
+\begin{aligned}𝑥=arctan⁡(\frac{\sqrt{3}}{3})=30^{∘}\end{aligned}
 
 
 $$

@@ -16,7 +16,7 @@ Let's consider the following piecewise function:
 $$
 
 
-\begin{aligned}𝑓(𝑥)=\begin{aligned}2^{𝑥} & \,𝑥<0 \\ \sqrt{√𝑥+1} & \,𝑥≥0\end{aligned}\end{aligned}
+\begin{aligned}𝑓(𝑥)=\begin{matrix}2^{𝑥} & \,𝑥<0 \\ \sqrt{𝑥+1} & \,𝑥≥0\end{matrix}\end{aligned}
 
 
 $$

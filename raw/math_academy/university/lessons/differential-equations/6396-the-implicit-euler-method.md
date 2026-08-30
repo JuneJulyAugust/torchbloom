@@ -52,7 +52,7 @@ Well, since $y_\text{new}$ is found by adding $\Delta y$ to $y,$ we have
 $$
 
 
-\begin{aligned}𝑦_{new} & =𝑦+Δ𝑦 \\ 𝑦_{new} & =𝑦+𝑦_{′new}^{}⋅Δ𝑥 \\ 𝑦_{new} & =𝑦+𝑓(𝑥_{new},𝑦_{new})⋅Δ𝑥.\end{aligned}
+\begin{aligned}𝑦_{new} & =𝑦+Δ𝑦 \\ 𝑦_{new} & =𝑦+𝑦_{′new}⋅Δ𝑥 \\ 𝑦_{new} & =𝑦+𝑓(𝑥_{new},𝑦_{new})⋅Δ𝑥.\end{aligned}
 
 
 $$
@@ -102,7 +102,7 @@ Then, in general, the change $\Delta y$ for our ODE is given by
 $$
 
 
-\begin{aligned}Δ𝑦 & =𝑦_{′new}^{}⋅Δ𝑥 \\ & =(𝑥_{new}−𝑦_{new}+4)⋅1 \\ & =𝑥_{new}−𝑦_{new}+4.\end{aligned}
+\begin{aligned}Δ𝑦 & =𝑦_{′new}⋅Δ𝑥 \\ & =(𝑥_{new}−𝑦_{new}+4)⋅1 \\ & =𝑥_{new}−𝑦_{new}+4.\end{aligned}
 
 
 $$
@@ -178,7 +178,7 @@ In general, $\Delta y$ is given by
 $$
 
 
-\begin{aligned}Δ𝑦 & =𝑦_{′new}^{}⋅Δ𝑥 \\ & =(2𝑥_{2new}^{}+3𝑥_{new}𝑦_{new})⋅1 \\ & =2𝑥_{2new}^{}+3𝑥_{new}𝑦_{new}.\end{aligned}
+\begin{aligned}Δ𝑦 & =𝑦_{′new}⋅Δ𝑥 \\ & =(2𝑥_{2new}+3𝑥_{new}𝑦_{new})⋅1 \\ & =2𝑥_{2new}+3𝑥_{new}𝑦_{new}.\end{aligned}
 
 
 $$
@@ -188,7 +188,7 @@ We substitute this into $y_\text{new} = y + \Delta y$ and solve for the general 
 $$
 
 
-\begin{aligned}𝑦_{new} & =𝑦+Δ𝑦 \\ 𝑦_{new} & =𝑦+2𝑥_{2new}^{}+3𝑥_{new}𝑦_{new} \\ 𝑦_{new}−3𝑥_{new}𝑦_{new} & =𝑦+2𝑥_{2new}^{} \\ 𝑦_{new}(1−3𝑥_{new}) & =𝑦+2𝑥_{2new}^{} \\ 𝑦_{new} & =\frac{𝑦+2𝑥_{2new}^{}}{1−3𝑥_{new}}\end{aligned}
+\begin{aligned}𝑦_{new} & =𝑦+Δ𝑦 \\ 𝑦_{new} & =𝑦+2𝑥_{2new}+3𝑥_{new}𝑦_{new} \\ 𝑦_{new}−3𝑥_{new}𝑦_{new} & =𝑦+2𝑥_{2new} \\ 𝑦_{new}(1−3𝑥_{new}) & =𝑦+2𝑥_{2new} \\ 𝑦_{new} & =\frac{𝑦+2𝑥_{2new}}{1−3𝑥_{new}}\end{aligned}
 
 
 $$
@@ -248,7 +248,7 @@ Now, let's proceed with the implicit Euler method. In our case,
 $$
 
 
-\begin{aligned}Δ𝑦 & =𝑦_{′new}^{}⋅Δ𝑥 \\ & =(𝑥_{2new}^{}𝑦_{new}+𝑒^{𝑥_{new}})⋅\frac{1}{2} \\ & =\frac{1}{2}(𝑥_{2new}^{}𝑦_{new}+𝑒^{𝑥_{new}}).\end{aligned}
+\begin{aligned}Δ𝑦 & =𝑦_{′new}⋅Δ𝑥 \\ & =(𝑥_{2new}𝑦_{new}+𝑒^{𝑥_{new}})⋅\frac{1}{2} \\ & =\frac{1}{2}(𝑥_{2new}𝑦_{new}+𝑒^{𝑥_{new}}).\end{aligned}
 
 
 $$
@@ -258,7 +258,7 @@ We substitute this into $y_\text{new} = y + \Delta y$ and solve for the general 
 $$
 
 
-\begin{aligned}𝑦_{new} & =𝑦+Δ𝑦 \\ 𝑦_{new} & =𝑦+\frac{1}{2}(𝑥_{2new}^{}𝑦_{new}+𝑒^{𝑥_{new}})\end{aligned}
+\begin{aligned}𝑦_{new} & =𝑦+Δ𝑦 \\ 𝑦_{new} & =𝑦+\frac{1}{2}(𝑥_{2new}𝑦_{new}+𝑒^{𝑥_{new}})\end{aligned}
 
 
 $$
@@ -268,7 +268,7 @@ which gives
 $$
 
 
-\begin{aligned}𝑦_{new}−\frac{1}{2}𝑥_{2new}^{}𝑦_{new} & =𝑦+\frac{1}{2}𝑒^{𝑥_{new}} \\ (1−\frac{1}{2}𝑥_{2new}^{})𝑦_{new} & =𝑦+\frac{1}{2}𝑒^{𝑥_{new}} \\ 𝑦_{new} & =\frac{𝑦+\frac{1}{2}𝑒^{𝑥_{new}}}{2}.\end{aligned}
+\begin{aligned}𝑦_{new}−\frac{1}{2}𝑥_{2new}𝑦_{new} & =𝑦+\frac{1}{2}𝑒^{𝑥_{new}} \\ (1−\frac{1}{2}𝑥_{2new})𝑦_{new} & =𝑦+\frac{1}{2}𝑒^{𝑥_{new}} \\ 𝑦_{new} & =\frac{𝑦+\frac{1}{2}𝑒^{𝑥_{new}}}{2}.\end{aligned}
 
 
 $$
@@ -278,7 +278,7 @@ Now, in the first step, the new $x$ value is $x_\text{new} = x + \Delta x = 0 + 
 $$
 
 
-\begin{aligned}𝑦_{new} & =\frac{𝑦+\frac{1}{2}𝑒^{𝑥_{new}}}{2} \\ & =\frac{−1+\frac{1}{2}𝑒^{1/2}}{2} \\ & =\frac{4(\sqrt{√𝑒}−2)}{7}.\end{aligned}
+\begin{aligned}𝑦_{new} & =\frac{𝑦+\frac{1}{2}𝑒^{𝑥_{new}}}{2} \\ & =\frac{−1+\frac{1}{2}𝑒^{1/2}}{2} \\ & =\frac{4(\sqrt{𝑒}−2)}{7}.\end{aligned}
 
 
 $$
@@ -382,7 +382,7 @@ Now, let's proceed with the implicit Euler method. In general, $\Delta y$ is giv
 $$
 
 
-\begin{aligned}Δ𝑦 & =𝑦_{′new}^{}⋅Δ𝑥 \\ & =(4(𝑥_{new})^{2}−𝑦_{new})⋅\frac{1}{2} \\ & =2(𝑥_{new})^{2}−\frac{1}{2}𝑦_{new}.\end{aligned}
+\begin{aligned}Δ𝑦 & =𝑦_{′new}⋅Δ𝑥 \\ & =(4(𝑥_{new})^{2}−𝑦_{new})⋅\frac{1}{2} \\ & =2(𝑥_{new})^{2}−\frac{1}{2}𝑦_{new}.\end{aligned}
 
 
 $$

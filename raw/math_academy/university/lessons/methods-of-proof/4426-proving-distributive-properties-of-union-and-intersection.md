@@ -88,35 +88,35 @@ $$
 
 A proof of this statement is given below.
 
-$\textrm{L1}{:}\:$ $x \in (A \cup B) \cap (A \cup C)$
+$\text{L1}{:}\:$ $x \in (A \cup B) \cap (A \cup C)$
 
-$\textrm{L2}{:}\:$ $\Rightarrow(x \in A\cup B)\land (x \in A \cup C)$
+$\text{L2}{:}\:$ $\Rightarrow(x \in A\cup B)\land (x \in A \cup C)$
 
-$\textrm{L3}{:}\:$ $\Rightarrow((x \in A)\lor (x\in B))\land ((x \in A) \lor (x \in C))$
+$\text{L3}{:}\:$ $\Rightarrow((x \in A)\lor (x\in B))\land ((x \in A) \lor (x \in C))$
 
-$\textrm{L4}{:}\:$ $\Rightarrow(x \in A) \lor ((x \in B) \land (x \in C))$
+$\text{L4}{:}\:$ $\Rightarrow(x \in A) \lor ((x \in B) \land (x \in C))$
 
-$\textrm{L5}{:}\:$ $\Rightarrow (x \in A) \lor (x \in B\cap C)$
+$\text{L5}{:}\:$ $\Rightarrow (x \in A) \lor (x \in B\cap C)$
 
-$\textrm{L6}{:}\:$ $\Rightarrow x \in A \cup (B \cap C)$
+$\text{L6}{:}\:$ $\Rightarrow x \in A \cup (B \cap C)$
 
 What words are missing from the reasoning below?
 
-- Line $\textrm{L2}$ follows from line $\textrm{L1}$ by the definition of $\:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.$
+- Line $\text{L2}$ follows from line $\text{L1}$ by the definition of $\:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.$
 
-- Line $\textrm{L4}$ follows from line $\textrm{L3}$ by the definition of $\:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.$
+- Line $\text{L4}$ follows from line $\text{L3}$ by the definition of $\:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.$
 
-- Line $\textrm{L6}$ follows from line $\textrm{L5}$ by the definition of $\:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.$
+- Line $\text{L6}$ follows from line $\text{L5}$ by the definition of $\:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.$
 
 #### Explanation
 
 Let's examine each statement in turn. Assume that $X$ and $Y$ are sets, and $P, Q,$ and $R$ are statements.
 
-- We first consider lines $\textrm{L1}$ and $\textrm{L2}.$ We have the following equivalence: Therefore, $\textrm{L2}$ follows from $\textrm{L1}$ by the definition of the $\boxed{\color{blue}\textrm{the intersection of sets}}.$
+- We first consider lines $\text{L1}$ and $\text{L2}.$ We have the following equivalence: Therefore, $\text{L2}$ follows from $\text{L1}$ by the definition of the $\boxed{\color{blue}\text{the intersection of sets}}.$
 
-- Next, we consider lines $\textrm{L3}$ and $\textrm{L4}.$ The distributive law (disjunctions over conjunctions) states: Therefore, $\textrm{L4}$ follows from $\textrm{L3}$ by $\boxed{\color{blue}\textrm{the distributive law}}.$
+- Next, we consider lines $\text{L3}$ and $\text{L4}.$ The distributive law (disjunctions over conjunctions) states: Therefore, $\text{L4}$ follows from $\text{L3}$ by $\boxed{\color{blue}\text{the distributive law}}.$
 
-- Finally, we consider lines $\textrm{L5}$ and $\textrm{L6}.$ We have the following equivalence: Therefore, $\textrm{L6}$ follows from $\textrm{L5}$ by the definition of the $\boxed{\color{blue}\textrm{the union of sets}}.$
+- Finally, we consider lines $\text{L5}$ and $\text{L6}.$ We have the following equivalence: Therefore, $\text{L6}$ follows from $\text{L5}$ by the definition of the $\boxed{\color{blue}\text{the union of sets}}.$
 
 ### Proof by Cases
 
@@ -242,41 +242,41 @@ Given that $A,$ $B,$ and $C$ are sets, $(A \cap B) \cup (A \cap C) \subseteq A \
 
 A proof of this statement is given below.
 
-$\textrm{L1}:$ Let $x \in (A \cap B) \cup (A \cap C).$
+$\text{L1}:$ Let $x \in (A \cap B) \cup (A \cap C).$
 
-$\textrm{L2}:$ Then, $x \in A \cap B$ or $x \in A \cap C.$
+$\text{L2}:$ Then, $x \in A \cap B$ or $x \in A \cap C.$
 
-$\textrm{L3}:$ **** $x \in A \cap B$
+$\text{L3}:$ **** $x \in A \cap B$
 
-$\textrm{L4}:$ $\Rightarrow x \in A \,\text{and} \, x \in B$
+$\text{L4}:$ $\Rightarrow x \in A \,\text{and} \, x \in B$
 
-$\textrm{L5}:$ $\Rightarrow x \in A \,\text{and} x \in B \cup C$
+$\text{L5}:$ $\Rightarrow x \in A \,\text{and} x \in B \cup C$
 
-$\textrm{L6}:$ $\Rightarrow A \cap (B \cup C).$
+$\text{L6}:$ $\Rightarrow A \cap (B \cup C).$
 
-$\textrm{L7}:$ **** Similarly, if $x \in A \cap C,$ then $x \in A \,\text{and} x \in B \cup C \Rightarrow x\in A \cap (B \cup C).$
+$\text{L7}:$ **** Similarly, if $x \in A \cap C,$ then $x \in A \,\text{and} x \in B \cup C \Rightarrow x\in A \cap (B \cup C).$
 
-$\textrm{L8}:$ In both cases, $x \in A \cap (B \cup C).$
+$\text{L8}:$ In both cases, $x \in A \cap (B \cup C).$
 
-$\textrm{L9}:$ Therefore, $(A \cap B) \cup (A \cap C) \subseteq A \cap (B \cup C).$
+$\text{L9}:$ Therefore, $(A \cap B) \cup (A \cap C) \subseteq A \cap (B \cup C).$
 
 Select the correct options in the following reasoning.
 
-- Line $\textrm{L2}$ follows from line $\textrm{L1}$ by the definition of $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.$
+- Line $\text{L2}$ follows from line $\text{L1}$ by the definition of $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.$
 
-- Line $\textrm{L4}$ follows from line $\textrm{L3}$ by the definition of $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.$
+- Line $\text{L4}$ follows from line $\text{L3}$ by the definition of $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.$
 
-- Line $\textrm{L5}$ follows from line $\textrm{L4}$ due to the fact that $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_$ for any sets $X$ and $Y.$
+- Line $\text{L5}$ follows from line $\text{L4}$ due to the fact that $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_$ for any sets $X$ and $Y.$
 
 #### Explanation
 
 Let's examine each statement in turn. Assume $X$ and $Y$ are sets.
 
-- First, we consider lines $\textrm{L1}$ and $\textrm{L2}.$ We have the following equivalence: Therefore, line $\textrm{L2}$ follows from line $\textrm{L1}$ by the definition of $\boxed{\color{blue}\text{the union of sets}}.$
+- First, we consider lines $\text{L1}$ and $\text{L2}.$ We have the following equivalence: Therefore, line $\text{L2}$ follows from line $\text{L1}$ by the definition of $\boxed{\color{blue}\text{the union of sets}}.$
 
-- Next, we consider lines $\textrm{L3}$ and $\textrm{L4}.$ We have the following equivalence: Therefore, line $\textrm{L4}$ follows from line $\textrm{L3}$ by the definition of $\boxed{\color{blue}\text{the intersection of sets}}.$
+- Next, we consider lines $\text{L3}$ and $\text{L4}.$ We have the following equivalence: Therefore, line $\text{L4}$ follows from line $\text{L3}$ by the definition of $\boxed{\color{blue}\text{the intersection of sets}}.$
 
-- Finally, we consider lines $\textrm{L4}$ and $\textrm{L5}.$ Since and $x \in B,$ it follows that $x\in B \cup C.$ Therefore, $\textrm{L5}$ follows from line $\textrm{L4}$ due to the fact that $\boxed{\color{blue}X\subseteq X\cup Y}$ for any sets $X$ and $Y.$
+- Finally, we consider lines $\text{L4}$ and $\text{L5}.$ Since and $x \in B,$ it follows that $x\in B \cup C.$ Therefore, $\text{L5}$ follows from line $\text{L4}$ due to the fact that $\boxed{\color{blue}X\subseteq X\cup Y}$ for any sets $X$ and $Y.$
 
 ### A Summary of Proof Strategies
 

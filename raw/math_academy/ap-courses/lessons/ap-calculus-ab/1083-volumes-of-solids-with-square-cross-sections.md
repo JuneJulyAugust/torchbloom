@@ -34,7 +34,7 @@ If we are given the formula $A(x)$ for the area of the region determined by each
 $$
 
 
-V = \int_{a}^{b} A(x)\:\textrm{d}x
+V = \int_{a}^{b} A(x)\:\text{d}x
 
 
 $$
@@ -72,7 +72,7 @@ Finallly, we calculate the volume $V$, as follows:
 $$
 
 
-\begin{aligned}𝑉 & =∫_{𝑏𝑎}^{}𝐴(𝑥)\,d𝑥 \\ & =∫_{20}^{}(𝑥^{2}−4𝑥+4)d𝑥 \\ & =∫_{20}^{}𝑥^{2}\,d𝑥−4∫_{20}^{}𝑥\,d𝑥+4∫_{20}^{}\,d𝑥 \\ & =\frac{𝑥^{3}}{3}_{20}^{}−4⋅\frac{𝑥^{2}}{2}_{20}^{}+4𝑥_{20}^{} \\ & =(\frac{8}{3}−0)−4(\frac{4}{2}−0)+4(2−0) \\ & =\frac{8}{3}\end{aligned}
+\begin{aligned}𝑉 & =∫_{𝑏𝑎}𝐴(𝑥)\,d𝑥 \\ & =∫_{20}(𝑥^{2}−4𝑥+4)d𝑥 \\ & =∫_{20}𝑥^{2}\,d𝑥−4∫_{20}𝑥\,d𝑥+4∫_{20}\,d𝑥 \\ & =\frac{𝑥^{3}}{3}_{20}−4⋅\frac{𝑥^{2}}{2}_{20}+4𝑥_{20} \\ & =(\frac{8}{3}−0)−4(\frac{4}{2}−0)+4(2−0) \\ & =\frac{8}{3}\end{aligned}
 
 
 $$
@@ -98,7 +98,7 @@ The length $l$ of a side of the square (cross-section) is
 $$
 
 
-\begin{aligned}𝑙=|𝑦|=−\sqrt{√4−𝑥^{2}}=\sqrt{√4−𝑥^{2}}.\end{aligned}
+\begin{aligned}𝑙=|𝑦|=−\sqrt{4−𝑥^{2}}=\sqrt{4−𝑥^{2}}.\end{aligned}
 
 
 $$
@@ -108,7 +108,7 @@ The area of a square is $A = l^2.$ So, the expression for the area of the cross-
 $$
 
 
-\begin{aligned}𝐴(𝑥) & =𝑙^{2} \\ & =(\sqrt{√4−𝑥^{2}})^{2} \\ & =4−𝑥^{2}.\end{aligned}
+\begin{aligned}𝐴(𝑥) & =𝑙^{2} \\ & =(\sqrt{4−𝑥^{2}})^{2} \\ & =4−𝑥^{2}.\end{aligned}
 
 
 $$
@@ -118,7 +118,7 @@ We can now calculate the volume $V$, as follows:
 $$
 
 
-\begin{aligned}𝑉 & =∫_{𝑏𝑎}^{}𝐴(𝑥)\,d𝑥 \\ & =∫_{2−2}^{}(4−𝑥^{2})\,d𝑥 \\ & =2∫_{20}^{}(4−𝑥^{2})d𝑥 \\ & =2(4𝑥−\frac{𝑥^{3}}{3})_{20}^{} \\ & =2([8−\frac{8}{3}]−0) \\ & =\frac{32}{3}\end{aligned}
+\begin{aligned}𝑉 & =∫_{𝑏𝑎}𝐴(𝑥)\,d𝑥 \\ & =∫_{2−2}(4−𝑥^{2})\,d𝑥 \\ & =2∫_{20}(4−𝑥^{2})d𝑥 \\ & =2(4𝑥−\frac{𝑥^{3}}{3})_{20} \\ & =2([8−\frac{8}{3}]−0) \\ & =\frac{32}{3}\end{aligned}
 
 
 $$
@@ -176,7 +176,7 @@ Finally, we can calculate the volume $V$ using the following integral:
 $$
 
 
-\begin{aligned}𝑉 & =∫_{𝑏𝑎}^{}𝐴(𝑥)\,d𝑥 \\ & =∫_{2−2}^{}(16−8𝑥^{2}+𝑥^{4})\,d𝑥\end{aligned}
+\begin{aligned}𝑉 & =∫_{𝑏𝑎}𝐴(𝑥)\,d𝑥 \\ & =∫_{2−2}(16−8𝑥^{2}+𝑥^{4})\,d𝑥\end{aligned}
 
 
 $$
@@ -198,7 +198,7 @@ If we are given the formula $A(y)$ for the region determined by each cross-secti
 $$
 
 
-V = \int_{c}^{d} A(y)\:\textrm{d}y
+V = \int_{c}^{d} A(y)\:\text{d}y
 
 
 $$
@@ -216,7 +216,7 @@ The length $l$ of a side of the square (cross-section) is
 $$
 
 
-\begin{aligned}𝑙 & =|𝑥| \\ & =−\sqrt{√1−𝑦^{2}} \\ & =\sqrt{√1−𝑦^{2}}.\end{aligned}
+\begin{aligned}𝑙 & =|𝑥| \\ & =−\sqrt{1−𝑦^{2}} \\ & =\sqrt{1−𝑦^{2}}.\end{aligned}
 
 
 $$
@@ -226,7 +226,7 @@ The area of a square is $A = l^2.$ So, the expression for the area of the cross-
 $$
 
 
-\begin{aligned}𝐴(𝑦) & =𝑙^{2} \\ & =(\sqrt{√1−𝑦^{2}})^{2} \\ & =1−𝑦^{2}.\end{aligned}
+\begin{aligned}𝐴(𝑦) & =𝑙^{2} \\ & =(\sqrt{1−𝑦^{2}})^{2} \\ & =1−𝑦^{2}.\end{aligned}
 
 
 $$
@@ -236,7 +236,7 @@ Finally, we can calculate the volume $V,$ as follows:
 $$
 
 
-\begin{aligned}𝑉 & =∫_{𝑑𝑐}^{}𝐴(𝑦)\,d𝑦 \\ & =∫_{0−1}^{}(1−𝑦^{2})d𝑦 \\ & =∫_{0−1}^{}\,d𝑦−∫_{0−1}^{}𝑦^{2}\,d𝑦 \\ & =𝑦_{0−1}^{}−\frac{𝑦^{3}}{3}_{0−1}^{} \\ & =(0−(−1))−(0−\frac{(−1)^{3}}{3}) \\ & =\frac{2}{3}\end{aligned}
+\begin{aligned}𝑉 & =∫_{𝑑𝑐}𝐴(𝑦)\,d𝑦 \\ & =∫_{0−1}(1−𝑦^{2})d𝑦 \\ & =∫_{0−1}\,d𝑦−∫_{0−1}𝑦^{2}\,d𝑦 \\ & =𝑦_{0−1}−\frac{𝑦^{3}}{3}_{0−1} \\ & =(0−(−1))−(0−\frac{(−1)^{3}}{3}) \\ & =\frac{2}{3}\end{aligned}
 
 
 $$
@@ -280,7 +280,7 @@ Finally, we can calculate the volume $V,$ as follows:
 $$
 
 
-\begin{aligned}𝑉 & =∫_{𝑑𝑐}^{}𝐴(𝑦)\,d𝑦 \\ & =∫_{1−1}^{}(1−2𝑦^{2}+𝑦^{4})d𝑦 \\ & =(𝑦−\frac{2𝑦^{3}}{3}+\frac{𝑦^{5}}{5})_{1−1}^{} \\ & =(1−\frac{2}{3}+\frac{1}{5})−(−1+\frac{2}{3}−\frac{1}{5}) \\ & =\frac{8}{15}−(−\frac{8}{15}) \\ & =\frac{16}{15}\end{aligned}
+\begin{aligned}𝑉 & =∫_{𝑑𝑐}𝐴(𝑦)\,d𝑦 \\ & =∫_{1−1}(1−2𝑦^{2}+𝑦^{4})d𝑦 \\ & =(𝑦−\frac{2𝑦^{3}}{3}+\frac{𝑦^{5}}{5})_{1−1} \\ & =(1−\frac{2}{3}+\frac{1}{5})−(−1+\frac{2}{3}−\frac{1}{5}) \\ & =\frac{8}{15}−(−\frac{8}{15}) \\ & =\frac{16}{15}\end{aligned}
 
 
 $$
@@ -326,7 +326,7 @@ We can now calculate the volume $V$ using the following integral:
 $$
 
 
-\begin{aligned}𝑉 & =∫_{𝑑𝑐}^{}𝐴(𝑦)\,d𝑦 \\ & =∫_{20}^{}4(𝑦^{4}−4𝑦^{3}+4𝑦^{2})d𝑦 \\ & =4∫_{20}^{}(𝑦^{4}−4𝑦^{3}+4𝑦^{2})d𝑦\end{aligned}
+\begin{aligned}𝑉 & =∫_{𝑑𝑐}𝐴(𝑦)\,d𝑦 \\ & =∫_{20}4(𝑦^{4}−4𝑦^{3}+4𝑦^{2})d𝑦 \\ & =4∫_{20}(𝑦^{4}−4𝑦^{3}+4𝑦^{2})d𝑦\end{aligned}
 
 
 $$

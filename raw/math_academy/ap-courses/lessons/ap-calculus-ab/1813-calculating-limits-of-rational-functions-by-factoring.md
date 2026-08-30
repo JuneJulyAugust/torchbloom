@@ -42,7 +42,7 @@ However, if we simplify the fraction before evaluating the limit, we obtain a mo
 $$
 
 
- \begin{aligned} \dfrac{x^3-2x}{x^2+4x} & = \dfrac{x(x^2-2)}{x(x+4)}\\\[5pt] & = \dfrac{x(x^2-2)}{x(x+4)}\\\[5pt] &= \dfrac{x^2-2}{x+4} \end{aligned}
+ \begin{aligned} \dfrac{x^3-2x}{x^2+4x} & = \dfrac{x(x^2-2)}{x(x+4)}\\[5pt] & = \dfrac{x(x^2-2)}{x(x+4)}\\[5pt] &= \dfrac{x^2-2}{x+4} \end{aligned}
 
 
 $$
@@ -61,7 +61,7 @@ $$
 
 #### Question
 
-Evaluate $\lim_\limits{x\rightarrow -3}\dfrac{x^2-9}{x+3}.$
+Evaluate $\lim\limits_{x\rightarrow -3}\dfrac{x^2-9}{x+3}.$
 
 #### Explanation
 
@@ -70,7 +70,7 @@ If we attempt to evaluate the limit, we get an indeterminate form:
 $$
 
 
-\begin{aligned} \lim_\limits{x\rightarrow -3}\dfrac{x^2-9}{x+3} = \dfrac{(-3)^2-9}{(-3)+3} = \dfrac{0}{0} \end{aligned}
+\begin{aligned} \lim\limits_{x\rightarrow -3}\dfrac{x^2-9}{x+3} = \dfrac{(-3)^2-9}{(-3)+3} = \dfrac{0}{0} \end{aligned}
 
 
 $$
@@ -99,7 +99,7 @@ $$
 
 #### Question
 
-Evaluate $\lim_\limits{x\rightarrow 6}\dfrac{x^2-6x}{x^2-x-30}.$
+Evaluate $\lim\limits_{x\rightarrow 6}\dfrac{x^2-6x}{x^2-x-30}.$
 
 #### Explanation
 
@@ -108,7 +108,7 @@ If we attempt to evaluate the limit, we get an indeterminate form:
 $$
 
 
-\begin{aligned} \lim_\limits{x\rightarrow 6}\dfrac{x^2-6x}{x^2-x-30} = \dfrac{6^2-6\cdot 6}{6^2-6-30} = \dfrac{0}{0} \end{aligned}
+\begin{aligned} \lim\limits_{x\rightarrow 6}\dfrac{x^2-6x}{x^2-x-30} = \dfrac{6^2-6\cdot 6}{6^2-6-30} = \dfrac{0}{0} \end{aligned}
 
 
 $$
@@ -137,7 +137,7 @@ $$
 
 #### Question
 
-Evaluate $\lim_\limits{x\rightarrow 1}\dfrac{x^3-2x^2+x}{x-1}.$
+Evaluate $\lim\limits_{x\rightarrow 1}\dfrac{x^3-2x^2+x}{x-1}.$
 
 #### Explanation
 
@@ -146,7 +146,7 @@ If we attempt to evaluate the limit, we get an indeterminate form:
 $$
 
 
-\begin{aligned} \lim_\limits{x\rightarrow 1}\dfrac{x^3-2x^2+x}{x-1} = \dfrac{1^3-2(1)^2+1}{1-1} = \dfrac{0}{0} \end{aligned}
+\begin{aligned} \lim\limits_{x\rightarrow 1}\dfrac{x^3-2x^2+x}{x-1} = \dfrac{1^3-2(1)^2+1}{1-1} = \dfrac{0}{0} \end{aligned}
 
 
 $$

@@ -65,7 +65,7 @@ $$
 
 
 
-\begin{aligned}𝐚⋅(𝐛×𝐜) & =\begin{aligned}−1 & −7 & 0 \\ −8 & 2 & 4 \\ 2 & −3 & 1\end{aligned} \\ & =(−1)⋅\begin{aligned}2 & 4 \\ −3 & 1\end{aligned}−(−7)⋅\begin{aligned}−8 & 4 \\ 2 & 1\end{aligned}+0⋅\begin{aligned}−8 & 2 \\ 2 & −3\end{aligned} \\ & =−(2+12)+7(−8−8)+0 \\ & =−14−112 \\ & =−126\end{aligned}
+\begin{aligned}𝐚⋅(𝐛×𝐜) & =\begin{matrix}−1 & −7 & 0 \\ −8 & 2 & 4 \\ 2 & −3 & 1\end{matrix} \\ & =(−1)⋅\begin{matrix}2 & 4 \\ −3 & 1\end{matrix}−(−7)⋅\begin{matrix}−8 & 4 \\ 2 & 1\end{matrix}+0⋅\begin{matrix}−8 & 2 \\ 2 & −3\end{matrix} \\ & =−(2+12)+7(−8−8)+0 \\ & =−14−112 \\ & =−126\end{aligned}
 
 
 
@@ -143,7 +143,7 @@ $$
 
 
 
-\begin{aligned}\overset{𝐴𝑆}{}⋅(\overset{𝐴𝐵}{}×\overset{𝐴𝐷}{}) & =\begin{aligned}6 & 1 & 1 \\ 0 & 2 & 0 \\ 0 & 0 & 2\end{aligned} \\ & =6⋅\begin{aligned}2 & 0 \\ 0 & 2\end{aligned}−1⋅\begin{aligned}0 & 0 \\ 0 & 2\end{aligned}+1⋅\begin{aligned}0 & 2 \\ 0 & 0\end{aligned} \\ & =6(4−0)−(0−0)+(0−0) \\ & =24−0+0 \\ & =24\end{aligned}
+\begin{aligned}\overset{𝐴𝑆}{}⋅(\overset{𝐴𝐵}{}×\overset{𝐴𝐷}{}) & =\begin{matrix}6 & 1 & 1 \\ 0 & 2 & 0 \\ 0 & 0 & 2\end{matrix} \\ & =6⋅\begin{matrix}2 & 0 \\ 0 & 2\end{matrix}−1⋅\begin{matrix}0 & 0 \\ 0 & 2\end{matrix}+1⋅\begin{matrix}0 & 2 \\ 0 & 0\end{matrix} \\ & =6(4−0)−(0−0)+(0−0) \\ & =24−0+0 \\ & =24\end{aligned}
 
 
 
@@ -221,7 +221,7 @@ $$
 
 
 
-\begin{aligned}\overset{𝐴𝑆}{}⋅(\overset{𝐴𝐵}{}×\overset{𝐴𝐷}{}) & =\begin{aligned}−2 & 1 & 3 \\ 3 & −1 & 2 \\ −2 & 4 & 1\end{aligned} \\ & =(−2)⋅\begin{aligned}−1 & 2 \\ 4 & 1\end{aligned}−1⋅\begin{aligned}3 & 2 \\ −2 & 1\end{aligned}+3⋅\begin{aligned}3 & −1 \\ −2 & 4\end{aligned} \\ & =(−2)(−1−8)−1(3−(−4))+3(12−2) \\ & =18−7+30 \\ & =41\end{aligned}
+\begin{aligned}\overset{𝐴𝑆}{}⋅(\overset{𝐴𝐵}{}×\overset{𝐴𝐷}{}) & =\begin{matrix}−2 & 1 & 3 \\ 3 & −1 & 2 \\ −2 & 4 & 1\end{matrix} \\ & =(−2)⋅\begin{matrix}−1 & 2 \\ 4 & 1\end{matrix}−1⋅\begin{matrix}3 & 2 \\ −2 & 1\end{matrix}+3⋅\begin{matrix}3 & −1 \\ −2 & 4\end{matrix} \\ & =(−2)(−1−8)−1(3−(−4))+3(12−2) \\ & =18−7+30 \\ & =41\end{aligned}
 
 
 
@@ -289,7 +289,7 @@ $$
 
 
 
-\begin{aligned}\overset{𝐴𝐵}{}⋅(\overset{𝐴𝐶}{}×\overset{𝐴𝐷}{}) & =\begin{aligned}3 & 0 & 3 \\ 3 & 1 & 3 \\ 2 & −1 & 1\end{aligned} \\ & =3⋅\begin{aligned}1 & 3 \\ −1 & 1\end{aligned}−0⋅\begin{aligned}3 & 3 \\ 2 & 1\end{aligned}+3⋅\begin{aligned}3 & 1 \\ 2 & −1\end{aligned} \\ & =3(1+3)−0+3(−3−2) \\ & =12−0−15 \\ & =−3\end{aligned}
+\begin{aligned}\overset{𝐴𝐵}{}⋅(\overset{𝐴𝐶}{}×\overset{𝐴𝐷}{}) & =\begin{matrix}3 & 0 & 3 \\ 3 & 1 & 3 \\ 2 & −1 & 1\end{matrix} \\ & =3⋅\begin{matrix}1 & 3 \\ −1 & 1\end{matrix}−0⋅\begin{matrix}3 & 3 \\ 2 & 1\end{matrix}+3⋅\begin{matrix}3 & 1 \\ 2 & −1\end{matrix} \\ & =3(1+3)−0+3(−3−2) \\ & =12−0−15 \\ & =−3\end{aligned}
 
 
 

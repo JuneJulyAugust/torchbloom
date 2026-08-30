@@ -72,7 +72,7 @@ Differentiating $z(x)$ using the chain rule, we get
 $$
 
 
-\dfrac{\textrm{d}z}{\textrm{d}x} = -y^{-2} \,\dfrac{\textrm{d}y}{\textrm{d}x} \qquad\Longrightarrow\qquad y^{-2}\dfrac{\textrm{d}y}{\textrm{d}x} = -\,\dfrac{\textrm{d}z}{\textrm{d}x}.
+\dfrac{\text{d}z}{\text{d}x} = -y^{-2} \,\dfrac{\text{d}y}{\text{d}x} \qquad\Longrightarrow\qquad y^{-2}\dfrac{\text{d}y}{\text{d}x} = -\,\dfrac{\text{d}z}{\text{d}x}.
 
 
 $$
@@ -82,7 +82,7 @@ Therefore, the original equation can be written in terms of $z(x)$ as follows:
 $$
 
 
--\,\dfrac{\textrm{d}z}{\textrm{d}x} +z = x
+-\,\dfrac{\text{d}z}{\text{d}x} +z = x
 
 
 $$
@@ -92,7 +92,7 @@ Writing the above in standard form, we get
 $$
 
 
-\dfrac{\textrm{d}z}{\textrm{d}x} -z=-x.
+\dfrac{\text{d}z}{\text{d}x} -z=-x.
 
 
 $$
@@ -198,7 +198,7 @@ Differentiating $z(x)$ using the chain rule, we get
 $$
 
 
-\dfrac{\textrm{d}z}{\textrm{d}x} = \dfrac{3}{2}y^{1/2} \,\dfrac{\textrm{d}y}{\textrm{d}x} \quad\Longrightarrow\quad y^{1/2}\dfrac{\textrm{d}y}{\textrm{d}x} = \dfrac{2}{3}\,\dfrac{\textrm{d}z}{\textrm{d}x}.
+\dfrac{\text{d}z}{\text{d}x} = \dfrac{3}{2}y^{1/2} \,\dfrac{\text{d}y}{\text{d}x} \quad\Longrightarrow\quad y^{1/2}\dfrac{\text{d}y}{\text{d}x} = \dfrac{2}{3}\,\dfrac{\text{d}z}{\text{d}x}.
 
 
 $$
@@ -208,7 +208,7 @@ Therefore, equation $(\ast)$ can be written as a linear equation in $z(x)$ as fo
 $$
 
 
-\dfrac{2}{3}\,\dfrac{\textrm{d}z}{\textrm{d}x} + x^3\,z = 1
+\dfrac{2}{3}\,\dfrac{\text{d}z}{\text{d}x} + x^3\,z = 1
 
 
 $$
@@ -218,7 +218,7 @@ Finally, we write the above equation in standard form, which gives
 $$
 
 
-\dfrac{\textrm{d}z}{\textrm{d}x} + \dfrac{3}{2}x^3z = \dfrac{3}{2}.
+\dfrac{\text{d}z}{\text{d}x} + \dfrac{3}{2}x^3z = \dfrac{3}{2}.
 
 
 $$
@@ -234,7 +234,7 @@ Find the general solution to the differential equation
 $$
 
 
-\dfrac {\textrm{d}y} {\textrm{d}x} + \dfrac{y}{x} = \dfrac{x^2}{y} .
+\dfrac {\text{d}y} {\text{d}x} + \dfrac{y}{x} = \dfrac{x^2}{y} .
 
 
 $$
@@ -286,7 +286,7 @@ Differentiating $z(x)$ using the chain rule, we get
 $$
 
 
-\dfrac{\textrm{d}z}{\textrm{d}x} = 2y \,\dfrac{\textrm{d}y}{\textrm{d}x} \quad\Longrightarrow\quad y\dfrac{\textrm{d}y}{\textrm{d}x} = \dfrac{1}{2}\,\dfrac{\textrm{d}z}{\textrm{d}x}.
+\dfrac{\text{d}z}{\text{d}x} = 2y \,\dfrac{\text{d}y}{\text{d}x} \quad\Longrightarrow\quad y\dfrac{\text{d}y}{\text{d}x} = \dfrac{1}{2}\,\dfrac{\text{d}z}{\text{d}x}.
 
 
 $$
@@ -296,7 +296,7 @@ Therefore, the original equation can be written in terms of $z(x)$ as follows:
 $$
 
 
-\dfrac{1}{2}\,\dfrac{\textrm{d}z}{\textrm{d}x} + \dfrac{1}{x}z = x^2
+\dfrac{1}{2}\,\dfrac{\text{d}z}{\text{d}x} + \dfrac{1}{x}z = x^2
 
 
 $$
@@ -306,7 +306,7 @@ This differential equation is linear, so we can use the method of integrating fa
 $$
 
 
-\dfrac{\textrm{d}z}{\textrm{d}x} + \dfrac{2}{x} z =2x^2
+\dfrac{\text{d}z}{\text{d}x} + \dfrac{2}{x} z =2x^2
 
 
 $$
@@ -316,7 +316,7 @@ The above equation is in the standard form
 $$
 
 
-\frac{\textrm{d}z}{\textrm{d}x} + P(x)z = Q(x)
+\frac{\text{d}z}{\text{d}x} + P(x)z = Q(x)
 
 
 $$

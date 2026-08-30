@@ -11,7 +11,7 @@ Topic ID: 345
 
 ### Introduction
 
-Suppose that we have a $10\,\textrm{ft}$ ladder that is leaning against the wall. A man is pushing the bottom of the ladder towards the wall at a rate of $1\textrm{ft}/\textrm{s}.$ How fast is the top of the ladder sliding up the wall when the bottom is at a distance of $8\,\textrm{ft}$ from the wall?
+Suppose that we have a $10\,\text{ft}$ ladder that is leaning against the wall. A man is pushing the bottom of the ladder towards the wall at a rate of $1\text{ft}/\text{s}.$ How fast is the top of the ladder sliding up the wall when the bottom is at a distance of $8\,\text{ft}$ from the wall?
 
 To solve this and similar problems, we can follow the four steps below.
 
@@ -31,7 +31,7 @@ From the diagram, we see that $x,$ $y,$ and $z$ form a right triangle.
 
 **Step 2:** Use the Pythagorean theorem to find the missing side.
 
-At the particular moment in question we have $x = 8\textrm{ft}$ and $z=10\textrm{ft}.$ So, we can find $y$ at this moment using the Pythagorean theorem:
+At the particular moment in question we have $x = 8\text{ft}$ and $z=10\text{ft}.$ So, we can find $y$ at this moment using the Pythagorean theorem:
 
 $$
 
@@ -43,7 +43,7 @@ $$
 
 **Step 3:** Identify the variables that change with time.
 
-- The distance of the ladder from the wall ($x$) changes with time at a rate of $1\textrm{ft}/\textrm{s},$ which can be written as The rate $\dfrac{\textrm d x}{\textrm d t}$ is the velocity of the bottom of the ladder. It is negative because the ladder moves towards the wall (so $x$ becomes smaller with time).
+- The distance of the ladder from the wall ($x$) changes with time at a rate of $1\text{ft}/\text{s},$ which can be written as The rate $\dfrac{\textrm d x}{\textrm d t}$ is the velocity of the bottom of the ladder. It is negative because the ladder moves towards the wall (so $x$ becomes smaller with time).
 
 - The length of the ladder ($z$) is fixed and doesn't change with time, so
 
@@ -71,13 +71,13 @@ $$
 
 $$
 
-So, the ladder slides up the wall at a rate of approx $1.33 \textrm{ft}/\textrm{s}$ when the bottom is at a distance of $8\,\textrm{ft}$ from the wall.
+So, the ladder slides up the wall at a rate of approx $1.33 \text{ft}/\text{s}$ when the bottom is at a distance of $8\,\text{ft}$ from the wall.
 
 ### Example: Calculating the Rate of Change of a Leg Using the Pythagorean Theorem
 
 #### Question
 
-A $15\,\textrm{ft}$ ladder is leaning against a wall. If the top of the ladder is sliding down at a rate of $1\textrm{ft}/\textrm{s},$ how fast is the bottom of the ladder moving away from the wall when the top of the ladder is $9\,\textrm{ft}$ from the ground?
+A $15\,\text{ft}$ ladder is leaning against a wall. If the top of the ladder is sliding down at a rate of $1\text{ft}/\text{s},$ how fast is the bottom of the ladder moving away from the wall when the top of the ladder is $9\,\text{ft}$ from the ground?
 
 #### Explanation
 
@@ -95,7 +95,7 @@ In the diagram,
 
 As shown in the diagram, $x,$ $y,$ and $z$ form a right triangle with $z$ as the hypotenuse. We wish to find the rate of change of $x,$ which is $\dfrac{\textrm d x}{\textrm d t}.$
 
-We know that $y = 9\,\textrm{ft}$ and $z=15\,\textrm{ft}.$ We can find $x$ using the Pythagorean theorem, as follows:
+We know that $y = 9\,\text{ft}$ and $z=15\,\text{ft}.$ We can find $x$ using the Pythagorean theorem, as follows:
 
 $$
 
@@ -107,7 +107,7 @@ $$
 
 We also know that:
 
-- $\dfrac{\textrm d y}{\textrm d t} = -1\,\textrm{ft}/\textrm{s},$
+- $\dfrac{\textrm d y}{\textrm d t} = -1\,\text{ft}/\text{s},$
 
 - Note that the length of the ladder remains the same, so $\dfrac{\textrm d z}{\textrm d t} = 0.$
 
@@ -127,7 +127,7 @@ Therefore, the ladder is sliding away at a rate of $0.75\text{ft}/\text{s}.$
 
 #### Question
 
-A rocket is launched vertically and is being tracked by a radar station which is located on the ground $8\,\textrm{km}$ from the launch site. If the speed of the rocket is $1700\,\textrm{km}/\textrm{h}$ when it is $15\,\textrm{km}$ from the ground, how fast is the distance between the radar station and the rocket increasing?
+A rocket is launched vertically and is being tracked by a radar station which is located on the ground $8\,\text{km}$ from the launch site. If the speed of the rocket is $1700\,\text{km}/\text{h}$ when it is $15\,\text{km}$ from the ground, how fast is the distance between the radar station and the rocket increasing?
 
 #### Explanation
 
@@ -145,7 +145,7 @@ In the diagram,
 
 As shown in the diagram, $x,$ $y,$ and $z$ form a right triangle with $z$ as the hypotenuse. We wish to find the rate of change of $z,$ which is $\dfrac{\textrm d z}{\textrm d t}.$
 
-We know that $y = 15\,\textrm{km}$ and $x=8\,\textrm{km}.$ We can find $z$ using the Pythagorean theorem, as follows:
+We know that $y = 15\,\text{km}$ and $x=8\,\text{km}.$ We can find $z$ using the Pythagorean theorem, as follows:
 
 $$
 
@@ -157,7 +157,7 @@ $$
 
 We also know that:
 
-- $\dfrac{\textrm d y}{\textrm d t} = 1700\,\textrm{km}/\textrm{h}$ when $y=15,$
+- $\dfrac{\textrm d y}{\textrm d t} = 1700\,\text{km}/\text{h}$ when $y=15,$
 
 - the distance between the radar station and the launch site ($x$) remains the same, so $\dfrac{\textrm d x}{\textrm d t}=0.$
 
@@ -171,4 +171,4 @@ $$
 
 $$
 
-Therefore, the distance between the radar station and the rocket is increasing at a rate of $1500\,\textrm{km}/\textrm{h}$ when the rocket is $15\,\textrm{km}$ from the ground.
+Therefore, the distance between the radar station and the rocket is increasing at a rate of $1500\,\text{km}/\text{h}$ when the rocket is $15\,\text{km}$ from the ground.

@@ -20,7 +20,7 @@ To solve this problem, we can use the following formula:
 
 $$
 
-\textrm{part} = \textrm{percentage} \times \textrm{whole}
+\text{part} = \text{percentage} \times \text{whole}
 
 $$
 
@@ -80,7 +80,7 @@ To solve this problem, we can use the following formula:
 
 $$
 
-\textrm{part}= \textrm{percentage}\times \textrm{whole}
+\text{part}= \text{percentage}\times \text{whole}
 
 $$
 
@@ -138,7 +138,7 @@ To solve this problem, we can use the following formula:
 
 $$
 
-\textrm{part}= \textrm{percentage}\times \textrm{whole}
+\text{part}= \text{percentage}\times \text{whole}
 
 $$
 
@@ -196,7 +196,7 @@ To solve this problem, we can use the following formula:
 
 $$
 
-\textrm{part}= \textrm{percentage}\times \textrm{whole}
+\text{part}= \text{percentage}\times \text{whole}
 
 $$
 

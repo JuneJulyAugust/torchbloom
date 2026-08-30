@@ -31,13 +31,13 @@ $$
 
 First, note that $x=0$ cannot be a solution because it would make the denominators equal zero.
 
-Now, let's multiply both sides of the equation by the least common denominator. The equation has the denominators $2x^2,$ $2x,$ and $x,$ so the least common multiple (or $\textrm{LCM}$) of the denominators is
+Now, let's multiply both sides of the equation by the least common denominator. The equation has the denominators $2x^2,$ $2x,$ and $x,$ so the least common multiple (or $\text{LCM}$) of the denominators is
 
 $$
 
 
 
-\textrm{LCM}(2x^2, 2x, x) = {\color{black}2x^2}.
+\text{LCM}(2x^2, 2x, x) = {\color{black}2x^2}.
 
 
 
@@ -109,13 +109,13 @@ Solve for $x$ where $3 - \dfrac{10x+7}{8x} = \dfrac{6x-3}{2x}.$
 
 First, note that $x=0$ cannot be a solution since division by $0$ is undefined.
 
-Now, let's multiply both sides of the equation by the least common denominator. The equation has the denominators $8x$ and $2x,$ so the least common multiple (or $\textrm{LCM}$) of the denominators is
+Now, let's multiply both sides of the equation by the least common denominator. The equation has the denominators $8x$ and $2x,$ so the least common multiple (or $\text{LCM}$) of the denominators is
 
 $$
 
 
 
-\textrm{LCM}(8x,2x) = 8x.
+\text{LCM}(8x,2x) = 8x.
 
 
 
@@ -159,13 +159,13 @@ Solve for $x$ where $\dfrac{1+x}{x} + \dfrac{5+x}{6x} = \dfrac{1-x}{3x}?$
 
 First, note that $x = 0$ cannot be a solution since division by $0$ is undefined.
 
-Now, let's multiply both sides of the equation by the least common denominator. The equation has the denominators $x, 6x,$ and $3x,$ so the the least common multiple (or $\textrm{LCM}$) of the denominators is
+Now, let's multiply both sides of the equation by the least common denominator. The equation has the denominators $x, 6x,$ and $3x,$ so the the least common multiple (or $\text{LCM}$) of the denominators is
 
 $$
 
 
 
-\textrm{LCM}(x, 6x, 3x) = 6x.
+\text{LCM}(x, 6x, 3x) = 6x.
 
 
 
@@ -209,13 +209,13 @@ Solve for $a$ where $\dfrac{2a -5}{3a^2} + \dfrac{1}{a} = \dfrac{a-1}{2a^2}.$
 
 First, note that $a = 0$ cannot be a solution since division by $0$ is undefined.
 
-Now, let's multiply both sides of the equation by the least common denominator. The equation has the denominators $3a^2,$ $a,$ and $2a^2,$ so the least common multiple (or $\textrm{LCM}$) of the denominators is
+Now, let's multiply both sides of the equation by the least common denominator. The equation has the denominators $3a^2,$ $a,$ and $2a^2,$ so the least common multiple (or $\text{LCM}$) of the denominators is
 
 $$
 
 
 
-\textrm{LCM}(3a^2, a, 2a^2) = 6a^2.
+\text{LCM}(3a^2, a, 2a^2) = 6a^2.
 
 
 

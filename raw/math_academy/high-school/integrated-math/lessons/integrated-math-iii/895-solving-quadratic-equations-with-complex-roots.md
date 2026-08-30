@@ -39,12 +39,12 @@ This means that the quadratic equation has no real solutions. However, if we all
 $$
 
 
-\begin{aligned}𝑥 & =\frac{−𝑏±\sqrt{√𝑏^{2}−4𝑎𝑐}}{2𝑎} \\ & =\frac{−(−2)±\sqrt{√(−2)^{2}−4(1)(2)}}{2⋅1} \\ & =\frac{2±\sqrt{√−4}}{2} \\ & =\frac{2±2i}{2} \\ & =1±i\end{aligned}
+\begin{aligned}𝑥 & =\frac{−𝑏±\sqrt{𝑏^{2}−4𝑎𝑐}}{2𝑎} \\ & =\frac{−(−2)±\sqrt{(−2)^{2}−4(1)(2)}}{2⋅1} \\ & =\frac{2±\sqrt{−4}}{2} \\ & =\frac{2±2i}{2} \\ & =1±i\end{aligned}
 
 
 $$
 
-Therefore, the equation $x^2 -2x +2=0$ has two solutions, $x=1+\textrm{i}$ and $x=1-\textrm{i}.$
+Therefore, the equation $x^2 -2x +2=0$ has two solutions, $x=1+\text{i}$ and $x=1-\text{i}.$
 
 ### Example: Solving a Quadratic Equation With Complex Roots Using the Quadratic Formula
 
@@ -69,12 +69,12 @@ In this case, the coefficients are $a=1, b=-4,$ and $c=5.$ Substituting these va
 $$
 
 
-\begin{aligned}𝑥 & =\frac{−(−4)±\sqrt{√(−4)^{2}−4(1)(5)}}{2(1)} \\ & =\frac{4±\sqrt{√16−20}}{2} \\ & =\frac{4±\sqrt{√−4}}{2} \\ & =\frac{4±2\,i}{2} \\ & =2±i.\end{aligned}
+\begin{aligned}𝑥 & =\frac{−(−4)±\sqrt{(−4)^{2}−4(1)(5)}}{2(1)} \\ & =\frac{4±\sqrt{16−20}}{2} \\ & =\frac{4±\sqrt{−4}}{2} \\ & =\frac{4±2\,i}{2} \\ & =2±i.\end{aligned}
 
 
 $$
 
-Therefore, the equation has two solutions, $x=2+\textrm{i}$ and $x=2-\textrm{i}.$
+Therefore, the equation has two solutions, $x=2+\text{i}$ and $x=2-\text{i}.$
 
 ### Example: Rearranging and Solving a Quadratic Equation With Complex Roots
 
@@ -109,12 +109,12 @@ In this case, the coefficients are $a=4, b=-4,$ and $c=13.$ Substituting these v
 $$
 
 
-\begin{aligned}𝑥 & =\frac{−(−4)±\sqrt{√(−4)^{2}−4(4)(13)}}{2(4)} \\ & =\frac{4±\sqrt{√16−208}}{8} \\ & =\frac{4±\sqrt{√−192}}{8} \\ & =\frac{4±8\sqrt{√−3}}{8} \\ & =\frac{4±8\sqrt{√3}\,i}{8} \\ & =\frac{1}{2}±\sqrt{√3}\,i\end{aligned}
+\begin{aligned}𝑥 & =\frac{−(−4)±\sqrt{(−4)^{2}−4(4)(13)}}{2(4)} \\ & =\frac{4±\sqrt{16−208}}{8} \\ & =\frac{4±\sqrt{−192}}{8} \\ & =\frac{4±8\sqrt{−3}}{8} \\ & =\frac{4±8\sqrt{3}\,i}{8} \\ & =\frac{1}{2}±\sqrt{3}\,i\end{aligned}
 
 
 $$
 
-Therefore, the equation has two solutions, $x=\dfrac{1}{2}+ \sqrt{3} \, \textrm{i}$ and $x=\dfrac{1}{2}- \sqrt{3} \, \textrm{i}.$
+Therefore, the equation has two solutions, $x=\dfrac{1}{2}+ \sqrt{3} \, \text{i}$ and $x=\dfrac{1}{2}- \sqrt{3} \, \text{i}.$
 
 ### Solving a Quadratic Equation With Complex Roots by Completing the Square
 
@@ -127,7 +127,7 @@ The left-hand side is a perfect square. Therefore, we can solve the equation as 
 $$
 
 
-\begin{aligned}(𝑥−2)^{2} & =−16 \\ 𝑥−2 & =±\sqrt{√−16} \\ 𝑥−2 & =±4i \\ 𝑥 & =2±4i\end{aligned}
+\begin{aligned}(𝑥−2)^{2} & =−16 \\ 𝑥−2 & =±\sqrt{−16} \\ 𝑥−2 & =±4i \\ 𝑥 & =2±4i\end{aligned}
 
 
 $$
@@ -169,9 +169,9 @@ Finally, we solve the equation using the square root method:
 $$
 
 
-\begin{aligned}(𝑥+4)^{2} & =−64 \\ 𝑥+4 & =±\sqrt{√−64} \\ 𝑥+4 & =±8\,i \\ 𝑥 & =−4±8\,i\end{aligned}
+\begin{aligned}(𝑥+4)^{2} & =−64 \\ 𝑥+4 & =±\sqrt{−64} \\ 𝑥+4 & =±8\,i \\ 𝑥 & =−4±8\,i\end{aligned}
 
 
 $$
 
-Therefore, the equation has two solutions, $x=-4+8\,\textrm{i}$ and $x=-4-8\,\textrm{i}.$
+Therefore, the equation has two solutions, $x=-4+8\,\text{i}$ and $x=-4-8\,\text{i}.$

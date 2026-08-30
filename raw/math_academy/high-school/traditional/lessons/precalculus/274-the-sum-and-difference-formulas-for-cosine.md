@@ -47,7 +47,7 @@ $$
 
 
 
-\begin{aligned}cos⁡105^{∘} & =cos⁡(45^{∘}+60^{∘}) \\ & =cos⁡45^{∘}⋅cos⁡60−sin⁡45^{∘}⋅sin⁡60 \\ & =\frac{\sqrt{√2}}{2}⋅\frac{1}{2}−\frac{\sqrt{√2}}{2}⋅\frac{\sqrt{√3}}{2} \\ & =\frac{\sqrt{√2}}{4}−\frac{\sqrt{√6}}{4} \\ & =\frac{\sqrt{√2}−\sqrt{√6}}{4}\end{aligned}
+\begin{aligned}cos⁡105^{∘} & =cos⁡(45^{∘}+60^{∘}) \\ & =cos⁡45^{∘}⋅cos⁡60−sin⁡45^{∘}⋅sin⁡60 \\ & =\frac{\sqrt{2}}{2}⋅\frac{1}{2}−\frac{\sqrt{2}}{2}⋅\frac{\sqrt{3}}{2} \\ & =\frac{\sqrt{2}}{4}−\frac{\sqrt{6}}{4} \\ & =\frac{\sqrt{2}−\sqrt{6}}{4}\end{aligned}
 
 
 
@@ -81,7 +81,7 @@ $$
 
 
 
-\begin{aligned}cos⁡(−\frac{𝜋}{12}) & =cos⁡(\frac{𝜋}{6}−\frac{𝜋}{4}) \\ & =cos⁡(\frac{𝜋}{6})cos⁡(\frac{𝜋}{4})+sin⁡(\frac{𝜋}{6})sin⁡(\frac{𝜋}{4}) \\ & =\frac{\sqrt{√3}}{2}⋅\frac{\sqrt{√2}}{2}+\frac{1}{2}⋅\frac{\sqrt{√2}}{2} \\ & =\frac{\sqrt{√6}}{4}+\frac{\sqrt{√2}}{4} \\ & =\frac{\sqrt{√6}+\sqrt{√2}}{4}.\end{aligned}
+\begin{aligned}cos⁡(−\frac{𝜋}{12}) & =cos⁡(\frac{𝜋}{6}−\frac{𝜋}{4}) \\ & =cos⁡(\frac{𝜋}{6})cos⁡(\frac{𝜋}{4})+sin⁡(\frac{𝜋}{6})sin⁡(\frac{𝜋}{4}) \\ & =\frac{\sqrt{3}}{2}⋅\frac{\sqrt{2}}{2}+\frac{1}{2}⋅\frac{\sqrt{2}}{2} \\ & =\frac{\sqrt{6}}{4}+\frac{\sqrt{2}}{4} \\ & =\frac{\sqrt{6}+\sqrt{2}}{4}.\end{aligned}
 
 
 
@@ -113,7 +113,7 @@ $$
 
 
 
-\begin{aligned}cos⁡(𝑥−60^{∘}) & =cos⁡𝑥cos⁡60^{∘}+sin⁡𝑥sin⁡60^{∘} \\ & =cos⁡𝑥⋅\frac{1}{2}+sin⁡𝑥⋅\frac{\sqrt{√3}}{2} \\ & =\frac{cos⁡𝑥}{2}+\frac{\sqrt{√3}sin⁡𝑥}{2} \\ & =\frac{cos⁡𝑥+\sqrt{√3}sin⁡𝑥}{2}.\end{aligned}
+\begin{aligned}cos⁡(𝑥−60^{∘}) & =cos⁡𝑥cos⁡60^{∘}+sin⁡𝑥sin⁡60^{∘} \\ & =cos⁡𝑥⋅\frac{1}{2}+sin⁡𝑥⋅\frac{\sqrt{3}}{2} \\ & =\frac{cos⁡𝑥}{2}+\frac{\sqrt{3}sin⁡𝑥}{2} \\ & =\frac{cos⁡𝑥+\sqrt{3}sin⁡𝑥}{2}.\end{aligned}
 
 
 

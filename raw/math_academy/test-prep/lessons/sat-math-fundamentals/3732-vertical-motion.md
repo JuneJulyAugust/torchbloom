@@ -11,7 +11,7 @@ Topic ID: 3732
 
 ### Introduction
 
-Suppose we toss a ball from the ground vertically upward with an initial velocity of $u = 24.5\,\textrm{m/s}.$ How long will it take for the ball to hit the ground?
+Suppose we toss a ball from the ground vertically upward with an initial velocity of $u = 24.5\,\text{m/s}.$ How long will it take for the ball to hit the ground?
 
 ![Instructional graphic](../../../lesson-assets/sat-math-fundamentals/topic-3732/60adfc202640afa4.png)
 
@@ -33,11 +33,11 @@ Let's recall what each variable represents:
 
 - $t$ is time, measured in seconds.
 
-- $g=-9.8\,\textrm{m/s}^2$ is the acceleration due to gravity.
+- $g=-9.8\,\text{m/s}^2$ is the acceleration due to gravity.
 
 We take the constant $g$ to be *negative* because the initial motion of the ball moves *against* gravity. Also, note that we can use this value of $g$ even though the ball falls back to earth after reaching its maximum height.
 
-When the ball returns to the starting position, its displacement is $s=0 \, \textrm{m}.$ Substituting this along with the initial velocity $u = 24.5 \, \textrm{m/s}$ into the equation for $s,$ we get
+When the ball returns to the starting position, its displacement is $s=0 \, \text{m}.$ Substituting this along with the initial velocity $u = 24.5 \, \text{m/s}$ into the equation for $s,$ we get
 
 $$
 
@@ -69,15 +69,15 @@ $$
 
 We have two solutions, $t=0$ and $t=5$ seconds:
 
-- The solution $t=0$ tells us what we already knew: that the ball was at the starting position $s=0\,\textrm{m}$ when $t=0\,\textrm{s}.$
+- The solution $t=0$ tells us what we already knew: that the ball was at the starting position $s=0\,\text{m}$ when $t=0\,\text{s}.$
 
-- The solution $t=5$ tells us that the ball hits the ground after $5\,\textrm{s}.$
+- The solution $t=5$ tells us that the ball hits the ground after $5\,\text{s}.$
 
 ### Example: Finding the Time Taken for an Object To Reach a Particular Height
 
 #### Question
 
-At $t=0,$ an object is projected vertically upward with a velocity of $34.3 \, \textrm{m/s}.$ Find the values of $t$ where the object is at a height of $49\, \textrm{m}$ above its initial position.
+At $t=0,$ an object is projected vertically upward with a velocity of $34.3 \, \text{m/s}.$ Find the values of $t$ where the object is at a height of $49\, \text{m}$ above its initial position.
 
 **
 
@@ -97,11 +97,11 @@ where $s$ is the displacement, measured from the starting position in the direct
 
 Let's summarize the information we have:
 
-- The displacement of the object is $s = 49 \, \textrm{m}.$
+- The displacement of the object is $s = 49 \, \text{m}.$
 
-- The initial velocity of the object is $u=34.3 \, \textrm{m/s}.$
+- The initial velocity of the object is $u=34.3 \, \text{m/s}.$
 
-- The acceleration due to gravity is $g=-9.8\,\textrm{m/s}^2.$ Notice that $g$ is ** since the initial motion of the object acts ** gravity.
+- The acceleration due to gravity is $g=-9.8\,\text{m/s}^2.$ Notice that $g$ is ** since the initial motion of the object acts ** gravity.
 
 Substituting these values into the formula and solving for $t,$ we obtain the following:
 
@@ -113,17 +113,17 @@ $$
 
 $$
 
-Notice that both solutions are positive. Therefore, the object is at the height of $49 \, \textrm{m}$ when
+Notice that both solutions are positive. Therefore, the object is at the height of $49 \, \text{m}$ when
 
-- $t = 2 \, \textrm{s}$ (on its way up), and
+- $t = 2 \, \text{s}$ (on its way up), and
 
-- $t = 5 \, \textrm{s}$ (on its way down).
+- $t = 5 \, \text{s}$ (on its way down).
 
 ### Example: Calculating an Initial Velocity
 
 #### Question
 
-A dart is fired vertically upward with an initial velocity of $63 \, \textrm{m/s}.$ Then, after $2$ seconds, a second dart is fired in the same direction. After $4$ seconds of its motion, the second dart catches up with the first one. What was the initial velocity of the second dart?
+A dart is fired vertically upward with an initial velocity of $63 \, \text{m/s}.$ Then, after $2$ seconds, a second dart is fired in the same direction. After $4$ seconds of its motion, the second dart catches up with the first one. What was the initial velocity of the second dart?
 
 **
 
@@ -141,11 +141,11 @@ $$
 
 where $s$ is the displacement, measured from the starting position in the direction of the initial motion, $u$ is the initial velocity, $t$ is the time since the beginning of the motion, and $g$ is the acceleration due to gravity.
 
-- Let's summarize the information for the first dart: The initial velocity of the first dart is $u_1=63\,\textrm{m/s}.$ The first dart is in motion for $t_1 = 2 +4 = 6 \, \textrm{s}.$ The acceleration due to gravity is $g=-9.8\,\textrm{m/s}^2.$ Notice that $g$ is ** since the initial motion of the first dart acts ** gravity. Substituting these values into the formula, we can find the displacement of the first dart:
+- Let's summarize the information for the first dart: The initial velocity of the first dart is $u_1=63\,\text{m/s}.$ The first dart is in motion for $t_1 = 2 +4 = 6 \, \text{s}.$ The acceleration due to gravity is $g=-9.8\,\text{m/s}^2.$ Notice that $g$ is ** since the initial motion of the first dart acts ** gravity. Substituting these values into the formula, we can find the displacement of the first dart:
 
-- Let's now summarize the information for the second dart: The second dart is in motion for $t_2=4\,\textrm{s}.$ The second dart covers a distance of $s_2=s_1=201.6 \, \textrm{m},$ the same as the first one. The acceleration due to gravity is $g=-9.8\,\textrm{m/s}^2.$ Notice that $g$ is ** since the initial motion of the second dart acts ** gravity. Substituting these values into the formula and solving for $u_2$ (the initial velocity of the second dart), we obtain the following:
+- Let's now summarize the information for the second dart: The second dart is in motion for $t_2=4\,\text{s}.$ The second dart covers a distance of $s_2=s_1=201.6 \, \text{m},$ the same as the first one. The acceleration due to gravity is $g=-9.8\,\text{m/s}^2.$ Notice that $g$ is ** since the initial motion of the second dart acts ** gravity. Substituting these values into the formula and solving for $u_2$ (the initial velocity of the second dart), we obtain the following:
 
-Therefore, the initial velocity of the second dart was $70 \, \textrm{m/s}.$
+Therefore, the initial velocity of the second dart was $70 \, \text{m/s}.$
 
 ### Example: Calculating a Distance
 
@@ -171,9 +171,9 @@ where $s$ is the displacement, measured from the starting position in the direct
 
 We need to find the height $s$ of the cliff.
 
-- Let's summarize the information for the stone: The initial velocity of the stone is $u_1 = 0\,\textrm{m/s}.$ The acceleration due to gravity is $g = 9.8\,\textrm{m/s}^2.$ Let $t_1$ denote the time it took for the stone to reach the ground. Substituting these values into the formula, we can express the distance covered by the stone (i.e., the height of the cliff) as
+- Let's summarize the information for the stone: The initial velocity of the stone is $u_1 = 0\,\text{m/s}.$ The acceleration due to gravity is $g = 9.8\,\text{m/s}^2.$ Let $t_1$ denote the time it took for the stone to reach the ground. Substituting these values into the formula, we can express the distance covered by the stone (i.e., the height of the cliff) as
 
-- Let's now summarize the information for the ball: The initial velocity of the ball is $u_2 = 23.52 \, \textrm{m/s}.$ The acceleration due to gravity is $g = 9.8\,\textrm{m/s}^2.$ Let $t_2$ denote the time it took for the ball to reach the ground.
+- Let's now summarize the information for the ball: The initial velocity of the ball is $u_2 = 23.52 \, \text{m/s}.$ The acceleration due to gravity is $g = 9.8\,\text{m/s}^2.$ Let $t_2$ denote the time it took for the ball to reach the ground.
 
 Substituting these values into the formula, we can express the distance covered by the ball as
 
@@ -197,14 +197,14 @@ $$
 
 $$
 
-As a result, $t_1 = 5 + 2 = 7 \, \textrm{s}.$
+As a result, $t_1 = 5 + 2 = 7 \, \text{s}.$
 
-Finally, by substituting $t_1=7\,\textrm{s}$ into the first equation for $s,$ we find that the height of the cliff is
+Finally, by substituting $t_1=7\,\text{s}$ into the first equation for $s,$ we find that the height of the cliff is
 
 $$
 
 
-s = 4.9(7)^2 = 240.1 \, \textrm{m}.
+s = 4.9(7)^2 = 240.1 \, \text{m}.
 
 
 $$

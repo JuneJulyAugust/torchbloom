@@ -20,7 +20,7 @@ To find the volume of the solid generated when this region is rotated $2\pi$ rad
 $$
 
 
-\begin{aligned}𝑉 & =2𝜋∫_{𝑑𝑐}^{}𝑦([right]−[left])\,d𝑦 \\ & =2𝜋∫_{𝑑𝑐}^{}𝑦([𝑓(𝑦)]−[𝑔(𝑦)])d𝑦\end{aligned}
+\begin{aligned}𝑉 & =2𝜋∫_{𝑑𝑐}𝑦([right]−[left])\,d𝑦 \\ & =2𝜋∫_{𝑑𝑐}𝑦([𝑓(𝑦)]−[𝑔(𝑦)])d𝑦\end{aligned}
 
 
 $$
@@ -64,7 +64,7 @@ Therefore, using the shell method, the volume of the solid can be expressed as f
 $$
 
 
-\begin{aligned}𝑉 & =2𝜋∫_{𝑑𝑐}^{}𝑦([right]−[left])\,d𝑦 \\ & =2𝜋∫_{10}^{}𝑦([2−𝑦^{2}]−[𝑦])d𝑦 \\ & =2𝜋∫_{10}^{}𝑦(2−𝑦−𝑦^{2})d𝑦\end{aligned}
+\begin{aligned}𝑉 & =2𝜋∫_{𝑑𝑐}𝑦([right]−[left])\,d𝑦 \\ & =2𝜋∫_{10}𝑦([2−𝑦^{2}]−[𝑦])d𝑦 \\ & =2𝜋∫_{10}𝑦(2−𝑦−𝑦^{2})d𝑦\end{aligned}
 
 
 $$
@@ -108,7 +108,7 @@ Therefore, using the shell method, the volume of the solid can be found as follo
 $$
 
 
-\begin{aligned}𝑉 & =2𝜋∫_{𝑑𝑐}^{}𝑦([right]−[left])\,d𝑦 \\ & =2𝜋∫_{20}^{}𝑦([3𝑦−𝑦^{2}]−[𝑦])d𝑦 \\ & =2𝜋∫_{20}^{}𝑦(2𝑦−𝑦^{2})d𝑦 \\ & =2𝜋∫_{20}^{}(2𝑦^{2}−𝑦^{3})d𝑦 \\ & =2𝜋(2∫_{20}^{}𝑦^{2}\,d𝑦−∫_{20}^{}𝑦^{3}d𝑦) \\ & =2𝜋(2⋅\frac{𝑦^{3}}{3}_{20}^{}−\frac{𝑦^{4}}{4}_{20}^{}) \\ & =2𝜋(2(\frac{8}{3}−0)−(\frac{16}{4}−0)) \\ & =2𝜋(\frac{16}{3}−4) \\ & =\frac{8𝜋}{3}\end{aligned}
+\begin{aligned}𝑉 & =2𝜋∫_{𝑑𝑐}𝑦([right]−[left])\,d𝑦 \\ & =2𝜋∫_{20}𝑦([3𝑦−𝑦^{2}]−[𝑦])d𝑦 \\ & =2𝜋∫_{20}𝑦(2𝑦−𝑦^{2})d𝑦 \\ & =2𝜋∫_{20}(2𝑦^{2}−𝑦^{3})d𝑦 \\ & =2𝜋(2∫_{20}𝑦^{2}\,d𝑦−∫_{20}𝑦^{3}d𝑦) \\ & =2𝜋(2⋅\frac{𝑦^{3}}{3}_{20}−\frac{𝑦^{4}}{4}_{20}) \\ & =2𝜋(2(\frac{8}{3}−0)−(\frac{16}{4}−0)) \\ & =2𝜋(\frac{16}{3}−4) \\ & =\frac{8𝜋}{3}\end{aligned}
 
 
 $$

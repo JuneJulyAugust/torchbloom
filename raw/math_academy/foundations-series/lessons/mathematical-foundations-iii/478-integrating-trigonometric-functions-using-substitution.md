@@ -57,7 +57,7 @@ $$
 
 #### Question
 
-Calculate the integral $\displaystyle\int 2 \sin {\left(\dfrac x 3\right)} \, \textrm{d}x.$
+Calculate the integral $\displaystyle\int 2 \sin {\left(\dfrac x 3\right)} \, \text{d}x.$
 
 #### Explanation
 
@@ -85,7 +85,7 @@ $$
 
 #### Question
 
-Calculate the integral $\displaystyle\int 5 \csc {\left(6x+\dfrac \pi 3\right)} \cot {\left(6x+\dfrac \pi 3\right)} \, \textrm{d}x.$
+Calculate the integral $\displaystyle\int 5 \csc {\left(6x+\dfrac \pi 3\right)} \cot {\left(6x+\dfrac \pi 3\right)} \, \text{d}x.$
 
 #### Explanation
 
@@ -130,7 +130,7 @@ So, let $u=x^2.$ Differentiating gives
 $$
 
 
-\dfrac{\textrm{d} u}{\textrm{d}x } = 2x \quad\Longrightarrow\quad \textrm d u = 2x\,\textrm d x.
+\dfrac{\text{d} u}{\text{d}x } = 2x \quad\Longrightarrow\quad \textrm d u = 2x\,\textrm d x.
 
 
 $$
@@ -158,7 +158,7 @@ Let $u = x^3 - \dfrac{\pi}{6}.$ Differentiating, we have
 $$
 
 
-\dfrac{\textrm{d} u}{\textrm{d}x } = 3x^2 \quad\Longrightarrow\quad \dfrac 1 3 \textrm d u = x^2\,\textrm d x.
+\dfrac{\text{d} u}{\text{d}x } = 3x^2 \quad\Longrightarrow\quad \dfrac 1 3 \textrm d u = x^2\,\textrm d x.
 
 
 $$
@@ -196,7 +196,7 @@ So, let $u = 1+\tan^2 x.$ Differentiating, we have
 $$
 
 
-\dfrac{\textrm{d} u}{\textrm{d}x } = 2\tan x\sec^2 x \quad\Longrightarrow\quad \dfrac 1 2 \textrm d u = \tan x\sec^2 x\,\textrm d x.
+\dfrac{\text{d} u}{\text{d}x } = 2\tan x\sec^2 x \quad\Longrightarrow\quad \dfrac 1 2 \textrm d u = \tan x\sec^2 x\,\textrm d x.
 
 
 $$
@@ -208,7 +208,7 @@ We now substitute and evaluate, as follows:
 $$
 
 
-\begin{aligned}∫_{𝜋/40}^{}\frac{tan⁡𝑥sec^{2}⁡𝑥}{1+tan^{2}⁡𝑥}\,d𝑥 & =∫_{𝜋/40}^{}\frac{1}{1+tan^{2}⁡𝑥}⋅tan⁡𝑥sec^{2}⁡𝑥\,d𝑥 \\ & =∫_{21}^{}\frac{1}{𝑢}⋅\frac{1}{2}\,d𝑢 \\ & =\frac{1}{2}∫_{21}^{}\frac{1}{𝑢}\,d𝑢 \\ & =\frac{1}{2}(ln⁡2−ln⁡1) \\ & =\frac{1}{2}ln⁡2\end{aligned}
+\begin{aligned}∫_{𝜋/40}\frac{tan⁡𝑥sec^{2}⁡𝑥}{1+tan^{2}⁡𝑥}\,d𝑥 & =∫_{𝜋/40}\frac{1}{1+tan^{2}⁡𝑥}⋅tan⁡𝑥sec^{2}⁡𝑥\,d𝑥 \\ & =∫_{21}\frac{1}{𝑢}⋅\frac{1}{2}\,d𝑢 \\ & =\frac{1}{2}∫_{21}\frac{1}{𝑢}\,d𝑢 \\ & =\frac{1}{2}(ln⁡2−ln⁡1) \\ & =\frac{1}{2}ln⁡2\end{aligned}
 
 
 $$

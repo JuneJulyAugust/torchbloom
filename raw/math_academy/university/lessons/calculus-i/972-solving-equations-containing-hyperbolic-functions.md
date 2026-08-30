@@ -91,7 +91,7 @@ We can solve this equation using the quadratic formula as follows:
 $$
 
 
-\begin{aligned}𝑦 & =\frac{−(−3)±\sqrt{√(−3)^{2}−4⋅1⋅1}}{2⋅1} \\ 𝑦 & =\frac{3±\sqrt{√9−4}}{2} \\ 𝑦 & =\frac{3±\sqrt{√5}}{2} \\ 𝑒^{𝑥} & =\frac{3±\sqrt{√5}}{2}\end{aligned}
+\begin{aligned}𝑦 & =\frac{−(−3)±\sqrt{(−3)^{2}−4⋅1⋅1}}{2⋅1} \\ 𝑦 & =\frac{3±\sqrt{9−4}}{2} \\ 𝑦 & =\frac{3±\sqrt{5}}{2} \\ 𝑒^{𝑥} & =\frac{3±\sqrt{5}}{2}\end{aligned}
 
 
 $$

@@ -30,7 +30,7 @@ Let $u=x^2.$ Differentiating gives
 $$
 
 
-\dfrac{\textrm{d} u}{\textrm{d}x } = 2x \quad\Longrightarrow\quad \textrm d u = 2x\,\textrm d x.
+\dfrac{\text{d} u}{\text{d}x } = 2x \quad\Longrightarrow\quad \textrm d u = 2x\,\textrm d x.
 
 
 $$
@@ -49,7 +49,7 @@ $$
 
 #### Question
 
-Calculate $\displaystyle{\int x^2 e^{x^3+1}\, \textrm{d}x}.$
+Calculate $\displaystyle{\int x^2 e^{x^3+1}\, \text{d}x}.$
 
 #### Explanation
 
@@ -58,7 +58,7 @@ Let's introduce the new variable $u = x^3+1.$ Differentiating gives
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x}= 3x^2\quad\Longrightarrow\quad\dfrac 1 3 \textrm{d}u = x^2 \, \textrm{d}x.
+\dfrac{\text{d}u}{\text{d}x}= 3x^2\quad\Longrightarrow\quad\dfrac 1 3 \text{d}u = x^2 \, \text{d}x.
 
 
 $$
@@ -77,7 +77,7 @@ $$
 
 #### Question
 
-Calculate $\displaystyle \int x^3\,{3^{1-x^4}} \, \textrm{d}x.$
+Calculate $\displaystyle \int x^3\,{3^{1-x^4}} \, \text{d}x.$
 
 #### Explanation
 
@@ -86,7 +86,7 @@ Let's introduce the new variable $u= 1-x^4.$ Differentiating gives
 $$
 
 
-\dfrac{ \textrm{d}u}{ \textrm{d}x} = -4x^3\quad\Longrightarrow\quad x^3 \, \textrm{d}x = -\dfrac{1}{4} \textrm{d}u.
+\dfrac{ \text{d}u}{ \text{d}x} = -4x^3\quad\Longrightarrow\quad x^3 \, \text{d}x = -\dfrac{1}{4} \text{d}u.
 
 
 $$
@@ -96,7 +96,7 @@ Therefore,
 $$
 
 
-\begin{aligned} \int {x^3\,{3^{1-x^4}} }\, \textrm{d}x &=\int {{3^{1-x^4}}\cdot x^3 }\, \textrm{d}x \\\[5pt] &= \int {3^{u}} \cdot \left(-\dfrac{1}{4}\right) \textrm{d}u\\\[5pt] &= -\dfrac{1}{4}\int {3^{u}} \textrm{d}u\\\[5pt] &= -\dfrac{1}{4}\cdot\dfrac{3^{u}}{\ln 3} + C\\\[5pt] &= -\dfrac{3^{1-x^4}}{4\ln 3}+ C. \end{aligned}
+\begin{aligned} \int {x^3\,{3^{1-x^4}} }\, \text{d}x &=\int {{3^{1-x^4}}\cdot x^3 }\, \text{d}x \\[5pt] &= \int {3^{u}} \cdot \left(-\dfrac{1}{4}\right) \text{d}u\\[5pt] &= -\dfrac{1}{4}\int {3^{u}} \text{d}u\\[5pt] &= -\dfrac{1}{4}\cdot\dfrac{3^{u}}{\ln 3} + C\\[5pt] &= -\dfrac{3^{1-x^4}}{4\ln 3}+ C. \end{aligned}
 
 
 $$
@@ -105,7 +105,7 @@ $$
 
 #### Question
 
-Calculate $\displaystyle \int \dfrac {e^{2x}} {e^{2x} + 1} \, \textrm{d}x.$
+Calculate $\displaystyle \int \dfrac {e^{2x}} {e^{2x} + 1} \, \text{d}x.$
 
 #### Explanation
 
@@ -114,7 +114,7 @@ Notice that the numerator is proportional to the derivative of the denominator. 
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x}= 2e^{2x}\quad\Longrightarrow\quad \dfrac{1}{2}\, \textrm{d}u = e^{2x} \, \textrm{d}x.
+\dfrac{\text{d}u}{\text{d}x}= 2e^{2x}\quad\Longrightarrow\quad \dfrac{1}{2}\, \text{d}u = e^{2x} \, \text{d}x.
 
 
 $$
@@ -138,7 +138,7 @@ Let's evaluate the following definite integral:
 $$
 
 
-\displaystyle{\int_{0}^{3} xe^{x^{2}}\, \textrm{d}x}
+\displaystyle{\int_{0}^{3} xe^{x^{2}}\, \text{d}x}
 
 
 $$
@@ -152,7 +152,7 @@ Let's introduce the new variable $u = x^2.$ Differentiating gives
 $$
 
 
-\dfrac{\textrm{d}u}{ \textrm{d}x} = 2x \qquad\Longrightarrow\qquad \dfrac{1}{2}\textrm{d}u = x \, \textrm{d}x.
+\dfrac{\text{d}u}{ \text{d}x} = 2x \qquad\Longrightarrow\qquad \dfrac{1}{2}\text{d}u = x \, \text{d}x.
 
 
 $$
@@ -166,7 +166,7 @@ We create a table below to change our limits of integration from $x$ to $u{:}$
 $$
 
 
-\begin{aligned}∫_{30}^{}𝑥𝑒^{𝑥^{2}}\,d𝑥 & =∫_{30}^{}𝑒^{𝑥^{2}}⋅𝑥\,d𝑥 \\ & =∫_{90}^{}𝑒^{𝑢}⋅\frac{1}{2}\,d𝑢 \\ & =\frac{1}{2}∫_{90}^{}𝑒^{𝑢}\,d𝑢 \\ & =\frac{1}{2}𝑒^{𝑢}\,_{90}^{} \\ & =\frac{1}{2}(𝑒^{9}−𝑒^{0}) \\ & =\frac{𝑒^{9}−1}{2}.\end{aligned}
+\begin{aligned}∫_{30}𝑥𝑒^{𝑥^{2}}\,d𝑥 & =∫_{30}𝑒^{𝑥^{2}}⋅𝑥\,d𝑥 \\ & =∫_{90}𝑒^{𝑢}⋅\frac{1}{2}\,d𝑢 \\ & =\frac{1}{2}∫_{90}𝑒^{𝑢}\,d𝑢 \\ & =\frac{1}{2}𝑒^{𝑢}\,_{90} \\ & =\frac{1}{2}(𝑒^{9}−𝑒^{0}) \\ & =\frac{𝑒^{9}−1}{2}.\end{aligned}
 
 
 $$
@@ -175,7 +175,7 @@ $$
 
 #### Question
 
-Evaluate the integral $\displaystyle{\int_{0}^{\sqrt {\ln 4}} 16xe^{-2x^2}\, \textrm{d}x}$.
+Evaluate the integral $\displaystyle{\int_{0}^{\sqrt {\ln 4}} 16xe^{-2x^2}\, \text{d}x}$.
 
 #### Explanation
 
@@ -184,7 +184,7 @@ Let's introduce the new variable $u=-2x^2.$ Differentiating gives
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x}=-4x \qquad\Longrightarrow\qquad -4 \, \textrm{d}u=16x \, \textrm{d}x.
+\dfrac{\text{d}u}{\text{d}x}=-4x \qquad\Longrightarrow\qquad -4 \, \text{d}u=16x \, \text{d}x.
 
 
 $$
@@ -196,7 +196,7 @@ Therefore, we get
 $$
 
 
-\begin{aligned}∫_{\sqrt{√ln⁡4}0}^{}16𝑥𝑒^{−2𝑥^{2}}\,d𝑥 & =∫_{\sqrt{√ln⁡4}0}^{}𝑒^{−2𝑥^{2}}⋅16𝑥\,d𝑥 \\ & =∫_{−2ln⁡40}^{}𝑒^{𝑢}⋅(−4\,d𝑢) \\ & =−4∫_{−2ln⁡40}^{}𝑒^{𝑢}\,d𝑢 \\ & =−4𝑒^{𝑢}\,_{−2ln⁡40}^{} \\ & =−4(𝑒^{−2ln⁡4}−𝑒^{0}) \\ & =−4(\frac{1}{16}−1) \\ & =4(\frac{15}{16}) \\ & =\frac{15}{4}.\end{aligned}
+\begin{aligned}∫_{\sqrt{ln⁡4}0}^{}16𝑥𝑒^{−2𝑥^{2}}\,d𝑥 & =∫_{\sqrt{ln⁡4}0}^{}𝑒^{−2𝑥^{2}}⋅16𝑥\,d𝑥 \\ & =∫_{−2ln⁡40}𝑒^{𝑢}⋅(−4\,d𝑢) \\ & =−4∫_{−2ln⁡40}𝑒^{𝑢}\,d𝑢 \\ & =−4𝑒^{𝑢}\,_{−2ln⁡40} \\ & =−4(𝑒^{−2ln⁡4}−𝑒^{0}) \\ & =−4(\frac{1}{16}−1) \\ & =4(\frac{15}{16}) \\ & =\frac{15}{4}.\end{aligned}
 
 
 $$

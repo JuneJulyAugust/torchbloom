@@ -57,7 +57,7 @@ For the point $P(3,4),$ for example, we have that the distance from the origin i
 $$
 
 
-\begin{aligned}𝑟 & =\sqrt{√3^{2}+4^{2}} \\ & =\sqrt{√9+16} \\ & =5,\end{aligned}
+\begin{aligned}𝑟 & =\sqrt{3^{2}+4^{2}} \\ & =\sqrt{9+16} \\ & =5,\end{aligned}
 
 
 $$
@@ -147,7 +147,7 @@ For the reference angle, we get
 $$
 
 
-\begin{aligned} \theta_R &= \left|\arctan\left(\dfrac y x\right)\right|\\\[5pt] &= \left|\arctan\left(\dfrac {-5}{-5}\right)\right|\\\[5pt] &= \left|\arctan(1)\right|\\\[5pt] &= \left|\dfrac{\pi}{4}\right|\\\[5pt] &=\dfrac\pi 4. \end{aligned}
+\begin{aligned} \theta_R &= \left|\arctan\left(\dfrac y x\right)\right|\\[5pt] &= \left|\arctan\left(\dfrac {-5}{-5}\right)\right|\\[5pt] &= \left|\arctan(1)\right|\\[5pt] &= \left|\dfrac{\pi}{4}\right|\\[5pt] &=\dfrac\pi 4. \end{aligned}
 
 
 $$

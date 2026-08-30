@@ -44,7 +44,7 @@ $$
 
 
 
-\textrm{E}[X] = \dfrac{a+b}{2}.
+\text{E}[X] = \dfrac{a+b}{2}.
 
 
 
@@ -56,7 +56,7 @@ $$
 
 
 
-\textrm{Var}[X] = \dfrac{|S|^2-1}{12}.
+\text{Var}[X] = \dfrac{|S|^2-1}{12}.
 
 
 
@@ -108,7 +108,7 @@ A fair die has sides labeled with numbers $4$ through $15.$ What is the variance
 
 #### Explanation
 
-Let $X$ represent the number the die lands on. From the problem statement, we know that $X \sim U \{4, 5, \ldots, 15 \},$ and we wish to compute $\textrm{Var}[X].$
+Let $X$ represent the number the die lands on. From the problem statement, we know that $X \sim U \{4, 5, \ldots, 15 \},$ and we wish to compute $\text{Var}[X].$
 
 In general, if $X \sim U \{a, a + 1, \ldots, b\},$ then the variance of $X$ is
 
@@ -116,7 +116,7 @@ $$
 
 
 
-\textrm{Var}[X] = \dfrac{|S|^2-1}{12}
+\text{Var}[X] = \dfrac{|S|^2-1}{12}
 
 
 
@@ -142,7 +142,7 @@ $$
 
 
 
-\textrm{Var}[X] = \dfrac{12^2 - 1}{12} = \dfrac{143}{12}
+\text{Var}[X] = \dfrac{12^2 - 1}{12} = \dfrac{143}{12}
 
 
 
@@ -158,7 +158,7 @@ $$
 
 
 
-\textrm{E}[X] = \dfrac{a+b}{2}.
+\text{E}[X] = \dfrac{a+b}{2}.
 
 
 
@@ -210,7 +210,7 @@ $$
 
 
 
-\textrm{Var}[X] = \dfrac{|S|^2-1}{12}.
+\text{Var}[X] = \dfrac{|S|^2-1}{12}.
 
 
 
@@ -234,13 +234,13 @@ $$
 
 
 
-\textrm{Var}[X + c] = \textrm{Var}[X]
+\text{Var}[X + c] = \text{Var}[X]
 
 
 
 $$
 
-By the definition of $\textrm{E}[X^2],$ we have
+By the definition of $\text{E}[X^2],$ we have
 
 $$
 
@@ -282,7 +282,7 @@ $$
 
 
 
-\textrm{Var}[X] = \textrm{E}[X^2] - \left(\textrm{E}[X]\right)^2, \qquad \textrm {E}[X] = \dfrac{1+|S|}{2}
+\text{Var}[X] = \text{E}[X^2] - \left(\text{E}[X]\right)^2, \qquad \textrm {E}[X] = \dfrac{1+|S|}{2}
 
 
 

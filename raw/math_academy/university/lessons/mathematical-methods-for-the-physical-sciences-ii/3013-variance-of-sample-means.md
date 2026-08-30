@@ -29,7 +29,7 @@ The sample mean is a random variable whose probability distribution (also called
 $$
 
 
-\textrm{E}[\overline{X}] = \mu
+\text{E}[\overline{X}] = \mu
 
 
 $$
@@ -51,7 +51,7 @@ To summarize, we have the following important result:
 $$
 
 
-\textrm{Var}[\overline{X}] = \dfrac{\sigma^2}{n}
+\text{Var}[\overline{X}] = \dfrac{\sigma^2}{n}
 
 
 $$
@@ -62,7 +62,7 @@ It should be noted that we don't yet know the sampling distribution of $\overlin
 
 #### Question
 
-A sample $X_1, X_2$ of two pills is drawn from a population. The population has pills of two different active ingredient concentrations, $30\,\textrm{mg/ml}$ and $\textrm{15}\,\textrm{mg/ml},$ distributed in the ratio $1:2.$ Calculate $\textrm{Var}[\overline{X}].$
+A sample $X_1, X_2$ of two pills is drawn from a population. The population has pills of two different active ingredient concentrations, $30\,\text{mg/ml}$ and $\text{15}\,\text{mg/ml},$ distributed in the ratio $1:2.$ Calculate $\text{Var}[\overline{X}].$
 
 #### Explanation
 
@@ -71,17 +71,17 @@ If $X_1, X_2, \ldots, X_{n}$ is a sample of size $n$ from a population with popu
 $$
 
 
-\textrm{E}[\overline{X}] = \mu, \qquad \textrm{Var}[\overline{X}] = \dfrac{\sigma^2}{n}.
+\text{E}[\overline{X}] = \mu, \qquad \text{Var}[\overline{X}] = \dfrac{\sigma^2}{n}.
 
 
 $$
 
-We're told that the pills in the population have concentrations of $30\,\textrm{mg/ml}$ and $15\,\textrm{mg/ml},$ and these are distributed in the ratio $1:2.$ Therefore, to compute the population mean and variance, we can consider a population consisting of $1+2 = 3$ pills with only the following concentrations:
+We're told that the pills in the population have concentrations of $30\,\text{mg/ml}$ and $15\,\text{mg/ml},$ and these are distributed in the ratio $1:2.$ Therefore, to compute the population mean and variance, we can consider a population consisting of $1+2 = 3$ pills with only the following concentrations:
 
 $$
 
 
-30\,\textrm{mg/ml}, \qquad 15\,\textrm{mg/ml}, \qquad 15\,\textrm{mg/ml}.
+30\,\text{mg/ml}, \qquad 15\,\text{mg/ml}, \qquad 15\,\text{mg/ml}.
 
 
 $$
@@ -101,7 +101,7 @@ and the population variance is
 $$
 
 
-\begin{aligned}𝜎^{2} & =\frac{1}{3}\underset{𝑖}{∑}𝑥_{2𝑖}^{}−𝜇^{2} \\ & =\frac{1}{3}(30^{2}+2⋅15^{2})−20^{2} \\ & =\frac{1}{3}(900+450)−400 \\ & =\frac{1}{3}⋅1\,350−400 \\ & =450−400 \\ & =50\,(mg/ml)^{2}.\end{aligned}
+\begin{aligned}𝜎^{2} & =\frac{1}{3}\underset{𝑖}{∑}𝑥_{2𝑖}−𝜇^{2} \\ & =\frac{1}{3}(30^{2}+2⋅15^{2})−20^{2} \\ & =\frac{1}{3}(900+450)−400 \\ & =\frac{1}{3}⋅1\,350−400 \\ & =450−400 \\ & =50\,(mg/ml)^{2}.\end{aligned}
 
 
 $$
@@ -111,19 +111,19 @@ Finally, since the sample size $n=2,$ we have
 $$
 
 
-\textrm{Var}[\overline{X}] =\dfrac{\sigma^2}{n} = \dfrac{50}{2} = 25\,(\textrm{mg/ml})^2.
+\text{Var}[\overline{X}] =\dfrac{\sigma^2}{n} = \dfrac{50}{2} = 25\,(\text{mg/ml})^2.
 
 
 $$
 
 ### The Standard Error
 
-The standard deviation of the sample mean is called the **standard error** of the sample mean and is denoted $\textrm{SE}[\overline{X}]\mathbin{:}$
+The standard deviation of the sample mean is called the **standard error** of the sample mean and is denoted $\text{SE}[\overline{X}]\mathbin{:}$
 
 $$
 
 
-\textrm{SE}[\overline{X}] = \sqrt{\textrm{Var}[\overline{X}]}
+\text{SE}[\overline{X}] = \sqrt{\text{Var}[\overline{X}]}
 
 
 $$
@@ -133,7 +133,7 @@ So, if we have a random sample of size $n$ drawn from a population with mean $\m
 $$
 
 
-\textrm{SE}[\overline{X}] = \sqrt{\dfrac{\sigma^2}{n}} = \dfrac{\sigma}{\sqrt n}.
+\text{SE}[\overline{X}] = \sqrt{\dfrac{\sigma^2}{n}} = \dfrac{\sigma}{\sqrt n}.
 
 
 $$
@@ -151,7 +151,7 @@ If $X_1, X_2, \ldots, X_{n}$ is a sample of size $n$ from a population with popu
 $$
 
 
-\textrm{E}[\overline{X}] = \mu, \qquad \textrm{Var}[\overline{X}] = \dfrac{\sigma^2}{n},
+\text{E}[\overline{X}] = \mu, \qquad \text{Var}[\overline{X}] = \dfrac{\sigma^2}{n},
 
 
 $$
@@ -161,7 +161,7 @@ and the standard error is given by
 $$
 
 
-\textrm{SE}[\overline{X}] = \sqrt{\textrm{Var}[\overline{X}]} = \dfrac{\sigma}{\sqrt n}.
+\text{SE}[\overline{X}] = \sqrt{\text{Var}[\overline{X}]} = \dfrac{\sigma}{\sqrt n}.
 
 
 $$
@@ -181,7 +181,7 @@ Therefore,
 $$
 
 
-\textrm{SE}[\overline{X}] = \sqrt{0.02} \approx 0.14 .
+\text{SE}[\overline{X}] = \sqrt{0.02} \approx 0.14 .
 
 
 $$
@@ -205,7 +205,7 @@ However, it should be noted that selecting a single observation $X_i$ to represe
 $$
 
 
-\textrm{E}[X_i] = \mu, \qquad 1\leq i\leq n.
+\text{E}[X_i] = \mu, \qquad 1\leq i\leq n.
 
 
 $$
@@ -217,12 +217,12 @@ As the sample size $n$ becomes larger and larger, the variance and standard erro
 $$
 
 
-\textrm{Var}[\overline{X}] = \dfrac{\sigma^2}{n} \to 0, \qquad \textrm{SE}[\overline{X}] = \dfrac{\sigma}{\sqrt{n}} \to 0.
+\text{Var}[\overline{X}] = \dfrac{\sigma^2}{n} \to 0, \qquad \text{SE}[\overline{X}] = \dfrac{\sigma}{\sqrt{n}} \to 0.
 
 
 $$
 
-So, when the sample size $n$ is large, there is less variance in the sampling distribution of $\overline{X}.$ Therefore, the larger the sample, the more likely it is that $\overline{X}$ will give good estimates for $\mu.$ The individual sample elements do not have this property since $\textrm{Var}[X_i] = \sigma^2.$
+So, when the sample size $n$ is large, there is less variance in the sampling distribution of $\overline{X}.$ Therefore, the larger the sample, the more likely it is that $\overline{X}$ will give good estimates for $\mu.$ The individual sample elements do not have this property since $\text{Var}[X_i] = \sigma^2.$
 
 The key takeaway is that the sample mean $\overline{X}$ becomes a better estimator for the corresponding population mean $\mu$ as the sample size $n$ increases.
 
@@ -230,7 +230,7 @@ The key takeaway is that the sample mean $\overline{X}$ becomes a better estimat
 
 #### Question
 
-A sample $X_1, X_2, \ldots, X_{n}$ of $n$ coconuts is drawn from a population. The population has coconuts of two different weights, $1.5\,\textrm{lb}$ and $2\,\textrm{lb},$ distributed in the ratio $2:3.$ Determine the smallest sample size required to give a standard error of less than $0.02\,\textrm{lb}.$
+A sample $X_1, X_2, \ldots, X_{n}$ of $n$ coconuts is drawn from a population. The population has coconuts of two different weights, $1.5\,\text{lb}$ and $2\,\text{lb},$ distributed in the ratio $2:3.$ Determine the smallest sample size required to give a standard error of less than $0.02\,\text{lb}.$
 
 #### Explanation
 
@@ -239,7 +239,7 @@ If $X_1, X_2, \ldots, X_{n}$ is a sample of size $n$ from a population with popu
 $$
 
 
-\textrm{E}[\overline{X}] = \mu, \qquad \textrm{Var}[\overline{X}] = \dfrac{\sigma^2}{n},
+\text{E}[\overline{X}] = \mu, \qquad \text{Var}[\overline{X}] = \dfrac{\sigma^2}{n},
 
 
 $$
@@ -249,17 +249,17 @@ and the standard error is given by
 $$
 
 
-\textrm{SE}[\overline{X}] = \sqrt{\textrm{Var}[\overline{X}]} = \dfrac{\sigma}{\sqrt n}.
+\text{SE}[\overline{X}] = \sqrt{\text{Var}[\overline{X}]} = \dfrac{\sigma}{\sqrt n}.
 
 
 $$
 
-We're told that the coconuts in the population have weights $1.5\,\textrm{lb}$ and $2\,\textrm{lb},$ and these are distributed in the ratio $2:3.$ Therefore, to compute the population's mean and variance, we can consider a population consisting of $2+3 = 5$ coconuts with only the following weights:
+We're told that the coconuts in the population have weights $1.5\,\text{lb}$ and $2\,\text{lb},$ and these are distributed in the ratio $2:3.$ Therefore, to compute the population's mean and variance, we can consider a population consisting of $2+3 = 5$ coconuts with only the following weights:
 
 $$
 
 
-1.5\,\textrm{lb}, \qquad 1.5\,\textrm{lb}, \qquad 2\,\textrm{lb}, \qquad 2\,\textrm{lb}, \qquad 2\,\textrm{lb}.
+1.5\,\text{lb}, \qquad 1.5\,\text{lb}, \qquad 2\,\text{lb}, \qquad 2\,\text{lb}, \qquad 2\,\text{lb}.
 
 
 $$
@@ -279,7 +279,7 @@ and the population variance is
 $$
 
 
-\begin{aligned}𝜎^{2} & =\frac{1}{5}\underset{𝑖}{∑}𝑥_{2𝑖}^{}−𝜇^{2} \\ & =\frac{1}{5}(2⋅1.5^{2}+3⋅2^{2})−1.8^{2} \\ & =\frac{1}{5}(16.5)−3.24 \\ & =3.3−3.24 \\ & =0.06\,lb^{2}.\end{aligned}
+\begin{aligned}𝜎^{2} & =\frac{1}{5}\underset{𝑖}{∑}𝑥_{2𝑖}−𝜇^{2} \\ & =\frac{1}{5}(2⋅1.5^{2}+3⋅2^{2})−1.8^{2} \\ & =\frac{1}{5}(16.5)−3.24 \\ & =3.3−3.24 \\ & =0.06\,lb^{2}.\end{aligned}
 
 
 $$
@@ -289,17 +289,17 @@ Thus, the population standard deviation is $\sigma= \sqrt{0.06},$ and we have th
 $$
 
 
-\textrm{SE}[\overline{X}] = \sqrt{\dfrac{0.06}{ n}}.
+\text{SE}[\overline{X}] = \sqrt{\dfrac{0.06}{ n}}.
 
 
 $$
 
-We require that the standard error is less than $0.02\,\textrm{lb}.$ Therefore
+We require that the standard error is less than $0.02\,\text{lb}.$ Therefore
 
 $$
 
 
-\begin{aligned}\sqrt{√\frac{0.06}{𝑛}} & <0.02 \\ \frac{\sqrt{√0.06}}{\sqrt{√𝑛}} & <0.02 \\ \sqrt{√𝑛} & >\frac{\sqrt{√0.06}}{0.02} \\ \sqrt{√𝑛} & >\sqrt{√\frac{0.06}{0.02^{2}}} \\ \sqrt{√𝑛} & >\sqrt{√\frac{0.06}{0.0004}} \\ \sqrt{√𝑛} & >\sqrt{√150} \\ 𝑛 & >150.\end{aligned}
+\begin{aligned}\sqrt{\frac{0.06}{𝑛}} & <0.02 \\ \frac{\sqrt{0.06}}{\sqrt{𝑛}} & <0.02 \\ \sqrt{𝑛} & >\frac{\sqrt{0.06}}{0.02} \\ \sqrt{𝑛} & >\sqrt{\frac{0.06}{0.02^{2}}} \\ \sqrt{𝑛} & >\sqrt{\frac{0.06}{0.0004}} \\ \sqrt{𝑛} & >\sqrt{150} \\ 𝑛 & >150.\end{aligned}
 
 
 $$

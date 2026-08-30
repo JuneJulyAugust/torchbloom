@@ -88,7 +88,7 @@ First, we solve the inequality $a_n > M$ for $n{:}$
 $$
 
 
-\begin{aligned}2\sqrt{√𝑛} & >𝑀 \\ \sqrt{√𝑛} & >\frac{𝑀}{2} \\ 𝑛 & >(\frac{𝑀}{2})^{2} \\ 𝑛 & >\frac{𝑀^{2}}{4}\end{aligned}
+\begin{aligned}2\sqrt{𝑛} & >𝑀 \\ \sqrt{𝑛} & >\frac{𝑀}{2} \\ 𝑛 & >(\frac{𝑀}{2})^{2} \\ 𝑛 & >\frac{𝑀^{2}}{4}\end{aligned}
 
 
 $$
@@ -266,7 +266,7 @@ With that in mind, we'll find the lower bound for the sequence's $n$th term:
 $$
 
 
-\begin{aligned}2\sqrt{√𝑛} & >2\sqrt{√\frac{𝑀^{2}}{4}} \\ & =2⋅\frac{𝑀}{2} \\ & =𝑀.\end{aligned}
+\begin{aligned}2\sqrt{𝑛} & >2\sqrt{\frac{𝑀^{2}}{4}} \\ & =2⋅\frac{𝑀}{2} \\ & =𝑀.\end{aligned}
 
 
 $$
@@ -300,7 +300,7 @@ $$
 $$
 
 
-\begin{aligned}2\sqrt{√𝑛} & >2\sqrt{√\frac{𝑀^{2}}{4}} \\ & =𝑀.\end{aligned}
+\begin{aligned}2\sqrt{𝑛} & >2\sqrt{\frac{𝑀^{2}}{4}} \\ & =𝑀.\end{aligned}
 
 
 $$
@@ -372,7 +372,7 @@ So, we solve the inequality $4-n^2 < M$ for $n \geq 3{:}$
 $$
 
 
-\begin{aligned}4−𝑛^{2} & <𝑀 \\ −𝑛^{2} & <𝑀−4 \\ 𝑛^{2} & >4−𝑀 \\ 𝑛 & >\sqrt{√4−𝑀}\end{aligned}
+\begin{aligned}4−𝑛^{2} & <𝑀 \\ −𝑛^{2} & <𝑀−4 \\ 𝑛^{2} & >4−𝑀 \\ 𝑛 & >\sqrt{4−𝑀}\end{aligned}
 
 
 $$
@@ -384,7 +384,7 @@ Notice that, since $M < 0,$ we have that
 $$
 
 
-\begin{aligned}\sqrt{√4−𝑀}>\sqrt{√4}=2\end{aligned}
+\begin{aligned}\sqrt{4−𝑀}>\sqrt{4}=2\end{aligned}
 
 
 $$
@@ -410,7 +410,7 @@ Then, for any natural number $n \geq N,$ we have
 $$
 
 
-\begin{aligned}𝑎_{𝑛} & =4−𝑛^{2} \\ & <4−(\sqrt{√4−𝑀})^{2} \\ & <4−4+𝑀 \\ & =𝑀.\end{aligned}
+\begin{aligned}𝑎_{𝑛} & =4−𝑛^{2} \\ & <4−(\sqrt{4−𝑀})^{2} \\ & <4−4+𝑀 \\ & =𝑀.\end{aligned}
 
 
 $$

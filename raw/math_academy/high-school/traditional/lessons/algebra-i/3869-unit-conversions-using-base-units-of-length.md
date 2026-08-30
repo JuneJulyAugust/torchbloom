@@ -15,21 +15,21 @@ Topic ID: 3869
 
 We can manipulate units the same way as variables, which often provides a convenient way to solve problems. One type of problem where units can help is converting between different units of measurement.
 
-For example, let's use units to convert $0.6\,\textrm{km}$ into meters. We start by recalling the conversion table for length units.
+For example, let's use units to convert $0.6\,\text{km}$ into meters. We start by recalling the conversion table for length units.
 
-Since we're converting from kilometers to meters, we need a conversion between these two units. According to our table, there are $1000\,\textrm m$ per $\textrm{km}.$ We can write this ratio as a fraction as follows:
+Since we're converting from kilometers to meters, we need a conversion between these two units. According to our table, there are $1000\,\textrm m$ per $\text{km}.$ We can write this ratio as a fraction as follows:
 
 $$
 
 
-\dfrac{1\,000\,\textrm m}{\textrm{km}}
+\dfrac{1\,000\,\textrm m}{\text{km}}
 
 
 $$
 
 This is our **conversion factor.** It's important to write the conversion factor with the units included.
 
-Now, multiplying $0.6\,\textrm{km}$ by our conversion factor, we get
+Now, multiplying $0.6\,\text{km}$ by our conversion factor, we get
 
 $$
 
@@ -39,39 +39,39 @@ $$
 
 $$
 
-Therefore, $0.6\,\textrm{km}$ is equivalent to $600\,\textrm m.$
+Therefore, $0.6\,\text{km}$ is equivalent to $600\,\textrm m.$
 
 Note the following:
 
 - When multiplying by the conversion factor, the units we want to remove should *always* cancel, and the units we wish to keep should *always* remain. If this isn't the case, we've made a mistake somewhere.
 
-- We can think of the conversion factor as equivalent to the number $1,$ and multiplying a quantity by $1$ doesn't change it. Therefore, multiplying $0.6\,\textrm{km}$ by the conversion factor doesn't change the *size* of the quantity, though it does change the units.
+- We can think of the conversion factor as equivalent to the number $1,$ and multiplying a quantity by $1$ doesn't change it. Therefore, multiplying $0.6\,\text{km}$ by the conversion factor doesn't change the *size* of the quantity, though it does change the units.
 
-Finally, notice that, in this example, we've converted from a "larger" unit of length $(\textrm{km})$ to a smaller one $(\textrm{m}).$ We'll see how to use units to convert from smaller units of length to larger units later in this lesson.
+Finally, notice that, in this example, we've converted from a "larger" unit of length $(\text{km})$ to a smaller one $(\text{m}).$ We'll see how to use units to convert from smaller units of length to larger units later in this lesson.
 
 ### Example: Converting From Kilometers to Meters
 
 #### Question
 
-What is $15\,\textrm{km}$ expressed in $\textrm{m}?$
+What is $15\,\text{km}$ expressed in $\text{m}?$
 
 #### Explanation
 
 We start by recalling the conversion table for units of length.
 
-There are $1\,000\,\textrm{m}$ per $\textrm{km},$ which we can write as follows:
+There are $1\,000\,\text{m}$ per $\text{km},$ which we can write as follows:
 
 $$
 
 
-\dfrac{1\,000\,\textrm m}{\textrm{km}}
+\dfrac{1\,000\,\textrm m}{\text{km}}
 
 
 $$
 
 This is our conversion factor.
 
-Now, multiplying $15\,\textrm{km}$ by our conversion factor, we get
+Now, multiplying $15\,\text{km}$ by our conversion factor, we get
 
 $$
 
@@ -81,31 +81,31 @@ $$
 
 $$
 
-Therefore, $15\,\textrm{km}$ is equivalent to $15\,000\,\textrm m.$
+Therefore, $15\,\text{km}$ is equivalent to $15\,000\,\textrm m.$
 
 ### Example: Converting From Meters to Centimeters or Millimeters
 
 #### Question
 
-What is $4.5\,\textrm{cm}$ expressed in $\textrm{mm}?$
+What is $4.5\,\text{cm}$ expressed in $\text{mm}?$
 
 #### Explanation
 
 We start by recalling the conversion table for units of length.
 
-There are $10\,\textrm{mm}$ per $\textrm{cm},$ which we can write as follows:
+There are $10\,\text{mm}$ per $\text{cm},$ which we can write as follows:
 
 $$
 
 
-\dfrac{10\,\textrm{mm}}{\textrm{cm}}
+\dfrac{10\,\text{mm}}{\text{cm}}
 
 
 $$
 
 This is our conversion factor.
 
-Now, multiplying $4.5\,\textrm{cm}$ by our conversion factor, we get
+Now, multiplying $4.5\,\text{cm}$ by our conversion factor, we get
 
 $$
 
@@ -115,37 +115,37 @@ $$
 
 $$
 
-Therefore, $4.5\,\textrm{cm}$ is equivalent to $45 \,\textrm{mm}.$
+Therefore, $4.5\,\text{cm}$ is equivalent to $45 \,\text{mm}.$
 
 ### Using Reciprocals to Convert From Smaller Units to Larger Units
 
 We've seen how to use units to convert from larger units of length to smaller ones. Let's now learn how to convert from smaller units to larger ones.
 
-For example, suppose we want to convert $12\,\textrm{mm}$ into meters. We start by recalling the conversion table for units of length.
+For example, suppose we want to convert $12\,\text{mm}$ into meters. We start by recalling the conversion table for units of length.
 
-There are $1\,000\,\textrm{mm}$ per $\textrm{m},$ which we can write as follows:
-
-$$
-
-
-\dfrac{1\,000\,\textrm{mm}}{\textrm{m}}
-
-
-$$
-
-However, since we're converting from a smaller unit of length $(\textrm{mm})$ to a larger one $(\textrm{m}),$ we need to multiply $12\,\textrm{mm}$ by the *reciprocal* of the above:
+There are $1\,000\,\text{mm}$ per $\text{m},$ which we can write as follows:
 
 $$
 
 
-\dfrac{\textrm{m}}{1\,000\,\textrm{mm}}
+\dfrac{1\,000\,\text{mm}}{\text{m}}
+
+
+$$
+
+However, since we're converting from a smaller unit of length $(\text{mm})$ to a larger one $(\text{m}),$ we need to multiply $12\,\text{mm}$ by the *reciprocal* of the above:
+
+$$
+
+
+\dfrac{\text{m}}{1\,000\,\text{mm}}
 
 
 $$
 
 This is our conversion factor.
 
-Now, multiplying $12\,\textrm{mm}$ by our conversion factor, we get
+Now, multiplying $12\,\text{mm}$ by our conversion factor, we get
 
 $$
 
@@ -155,11 +155,11 @@ $$
 
 $$
 
-Therefore, $12\,\textrm{mm}$ is equivalent to $0.012\,\textrm{m}.$
+Therefore, $12\,\text{mm}$ is equivalent to $0.012\,\text{m}.$
 
 Note the following:
 
-- When we say that meters are a "larger unit of length" than millimeters, this simply means that $1\,\textrm m$ is a longer distance than $1\,\textrm{mm}.$
+- When we say that meters are a "larger unit of length" than millimeters, this simply means that $1\,\textrm m$ is a longer distance than $1\,\text{mm}.$
 
 - If you forget to take the reciprocal to find the conversion factor, the units will not cancel when you multiply. This indicates that a mistake has occurred. In such cases, it's best to double-check that you're using the correct conversion factor.
 
@@ -167,35 +167,35 @@ Note the following:
 
 #### Question
 
-What is $1\,800\,\textrm{m}$ expressed in $\textrm{km}?$
+What is $1\,800\,\text{m}$ expressed in $\text{km}?$
 
 #### Explanation
 
 We start by recalling the conversion table for units of length.
 
-There are $1\,000\,\textrm{m}$ per $\textrm{km},$ which we can write as follows:
+There are $1\,000\,\text{m}$ per $\text{km},$ which we can write as follows:
 
 $$
 
 
-\dfrac{1\,000\,\textrm m}{\textrm{km}}
+\dfrac{1\,000\,\textrm m}{\text{km}}
 
 
 $$
 
-However, since we're converting from a smaller unit of length $(\textrm{m})$ to a larger one $(\textrm{km}),$ we need to multiply $1\,800\,\textrm{m}$ by the reciprocal of the above:
+However, since we're converting from a smaller unit of length $(\text{m})$ to a larger one $(\text{km}),$ we need to multiply $1\,800\,\text{m}$ by the reciprocal of the above:
 
 $$
 
 
-\dfrac{\textrm{km}}{1\,000\,\textrm m}
+\dfrac{\text{km}}{1\,000\,\textrm m}
 
 
 $$
 
 This is our conversion factor.
 
-Now, multiplying $1\,800\,\textrm{m}$ by our conversion factor, we get
+Now, multiplying $1\,800\,\text{m}$ by our conversion factor, we get
 
 $$
 
@@ -205,41 +205,41 @@ $$
 
 $$
 
-Therefore, $1\,800\,\textrm{m}$ is equivalent to $1.8\,\textrm{km}.$
+Therefore, $1\,800\,\text{m}$ is equivalent to $1.8\,\text{km}.$
 
 ### Example: Converting Other Small Units of Length to Larger Units
 
 #### Question
 
-What is $4\,000\,\textrm{cm}$ expressed in $\textrm{m}?$
+What is $4\,000\,\text{cm}$ expressed in $\text{m}?$
 
 #### Explanation
 
 We start by recalling the conversion table for units of length.
 
-There are $100\,\textrm{cm}$ per $\textrm{m},$ which we can write as follows:
+There are $100\,\text{cm}$ per $\text{m},$ which we can write as follows:
 
 $$
 
 
-\dfrac{100\,\textrm{cm}}{\textrm{m}}
+\dfrac{100\,\text{cm}}{\text{m}}
 
 
 $$
 
-However, since we're converting from a smaller unit of length $(\textrm{cm})$ to a larger one $(\textrm{m}),$ we need to multiply $4\,000\,\textrm{cm}$ by the reciprocal of the above:
+However, since we're converting from a smaller unit of length $(\text{cm})$ to a larger one $(\text{m}),$ we need to multiply $4\,000\,\text{cm}$ by the reciprocal of the above:
 
 $$
 
 
-\dfrac{\textrm{m}}{100\,\textrm{cm}}
+\dfrac{\text{m}}{100\,\text{cm}}
 
 
 $$
 
 This is our conversion factor.
 
-Now, multiplying $4\,000\,\textrm{cm}$ by our conversion factor, we get
+Now, multiplying $4\,000\,\text{cm}$ by our conversion factor, we get
 
 $$
 
@@ -249,4 +249,4 @@ $$
 
 $$
 
-Therefore, $4\,000\,\textrm{cm}$ is equivalent to $40\,\textrm{m}.$
+Therefore, $4\,000\,\text{cm}$ is equivalent to $40\,\text{m}.$

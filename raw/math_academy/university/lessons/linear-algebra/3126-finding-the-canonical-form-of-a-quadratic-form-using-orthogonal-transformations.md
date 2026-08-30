@@ -73,7 +73,7 @@ To find the coefficients of the canonical form, we need to calculate the eigenva
 $$
 
 
-\begin{aligned}|𝐴−𝜆𝐼| & =0 \\ \begin{aligned}1−𝜆 & 2 \\ 2 & 1−𝜆\end{aligned} & =0 \\ (1−𝜆)(1−𝜆)−4 & =0 \\ 𝜆^{2}−2𝜆−3 & =0 \\ (𝜆+1)(𝜆−3) & =0 \\ 𝜆 & =3,\,−1\end{aligned}
+\begin{aligned}|𝐴−𝜆𝐼| & =0 \\ \begin{matrix}1−𝜆 & 2 \\ 2 & 1−𝜆\end{matrix} & =0 \\ (1−𝜆)(1−𝜆)−4 & =0 \\ 𝜆^{2}−2𝜆−3 & =0 \\ (𝜆+1)(𝜆−3) & =0 \\ 𝜆 & =3,\,−1\end{aligned}
 
 
 $$
@@ -123,7 +123,7 @@ To find the coefficients of the canonical form, we need to calculate the eigenva
 $$
 
 
-\begin{aligned}|𝐴−𝜆𝐼| & =0 \\ \begin{aligned}1−𝜆 & 2 & 0 \\ 2 & 1−𝜆 & 0 \\ 0 & 0 & 2−𝜆\end{aligned} & =0 \\ (2−𝜆)\begin{aligned}1−𝜆 & 2 \\ 2 & 1−𝜆\end{aligned} & =0 \\ (2−𝜆)((1−𝜆)(1−𝜆)−4) & =0 \\ (2−𝜆)(𝜆^{2}−2𝜆−3) & =0 \\ (2−𝜆)(𝜆−3)(𝜆+1) & =0 \\ 𝜆 & =3,\,2,\,−1\end{aligned}
+\begin{aligned}|𝐴−𝜆𝐼| & =0 \\ \begin{matrix}1−𝜆 & 2 & 0 \\ 2 & 1−𝜆 & 0 \\ 0 & 0 & 2−𝜆\end{matrix} & =0 \\ (2−𝜆)\begin{matrix}1−𝜆 & 2 \\ 2 & 1−𝜆\end{matrix} & =0 \\ (2−𝜆)((1−𝜆)(1−𝜆)−4) & =0 \\ (2−𝜆)(𝜆^{2}−2𝜆−3) & =0 \\ (2−𝜆)(𝜆−3)(𝜆+1) & =0 \\ 𝜆 & =3,\,2,\,−1\end{aligned}
 
 
 $$
@@ -173,7 +173,7 @@ To find the coefficients of the canonical form, we need to calculate the eigenva
 $$
 
 
-\begin{aligned}|𝐴−𝜆𝐼| & =0 \\ \begin{aligned}2−𝜆 & −1 \\ −1 & 2−𝜆\end{aligned} & =0 \\ 𝜆^{2}−4𝜆+3 & =0 \\ 𝜆 & =3,\,1\end{aligned}
+\begin{aligned}|𝐴−𝜆𝐼| & =0 \\ \begin{matrix}2−𝜆 & −1 \\ −1 & 2−𝜆\end{matrix} & =0 \\ 𝜆^{2}−4𝜆+3 & =0 \\ 𝜆 & =3,\,1\end{aligned}
 
 
 $$
@@ -229,7 +229,7 @@ Finally, we construct the orthogonal matrix $P$ in the usual way, and this gives
 $$
 
 
-\begin{aligned}0 & 0 & 1 \\ \frac{1}{\sqrt{√2}} & −\frac{1}{\sqrt{√2}} & 0 \\ \frac{1}{\sqrt{√2}} & \frac{1}{\sqrt{√2}} & 0\end{aligned}
+\begin{aligned}0 & 0 & 1 \\ \frac{1}{\sqrt{2}} & −\frac{1}{\sqrt{2}} & 0 \\ \frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}} & 0\end{aligned}
 
 
 $$

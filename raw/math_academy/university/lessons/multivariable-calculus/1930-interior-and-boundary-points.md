@@ -63,14 +63,14 @@ From here, we can deduce the following:
 
 - The point $x=1$ is also *not* an interior point of $S$ since there is no neighborhood of $x=1$ that is *fully* contained inside $S.$
 
-The set containing all interior points of a set $S$ is called the **interior** of $S,$ and is denoted $\textrm{int}\,S.$
+The set containing all interior points of a set $S$ is called the **interior** of $S,$ and is denoted $\text{int}\,S.$
 
 For the set $[0,1),$ its interior is given by
 
 $$
 
 
-\textrm{int}\,S = (0,1).
+\text{int}\,S = (0,1).
 
 
 $$

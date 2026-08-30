@@ -47,7 +47,7 @@ Since the left and right-sided limits both evaluate to $9,$ we conclude that $\l
 
 #### Question
 
-Find $\lim_\limits{x\rightarrow (-1/2)} x^3.$
+Find $\lim\limits_{x\rightarrow (-1/2)} x^3.$
 
 #### Explanation
 
@@ -63,22 +63,22 @@ $$
 
 ### The Limit of a Constant Function
 
-For any constant function $f(x)=c,$ the limit $\lim_\limits{x\rightarrow a} c$ will match the value of the constant:
+For any constant function $f(x)=c,$ the limit $\lim\limits_{x\rightarrow a} c$ will match the value of the constant:
 
 $$
 
 
-\lim_\limits{x\rightarrow a} c=c \,.
+\lim\limits_{x\rightarrow a} c=c \,.
 
 
 $$
 
-For example, the limit $\lim_\limits{x\rightarrow 2} 1$ is just the value of the constant, $1\mathbin{:}$
+For example, the limit $\lim\limits_{x\rightarrow 2} 1$ is just the value of the constant, $1\mathbin{:}$
 
 $$
 
 
-\lim_\limits{x\rightarrow 2} 1 = 1
+\lim\limits_{x\rightarrow 2} 1 = 1
 
 
 $$
@@ -99,7 +99,7 @@ Since the left and right-sided limits both evaluate to $1,$ we conclude that $\l
 
 #### Question
 
-Evaluate $\lim_\limits{x\,\rightarrow \,-4} \sqrt{7}.$
+Evaluate $\lim\limits_{x\,\rightarrow \,-4} \sqrt{7}.$
 
 #### Explanation
 
@@ -108,29 +108,29 @@ As $x$ approaches $-4,$ the function $f(x)=\sqrt 7$ remains equal to $\sqrt{7}.$
 $$
 
 
-\lim_\limits{x\,\rightarrow\, -4} \sqrt{7}=\sqrt{7}.
+\lim\limits_{x\,\rightarrow\, -4} \sqrt{7}=\sqrt{7}.
 
 
 $$
 
 ### The Constant Rule for Limits
 
-The **constant rule for limits** states that if $c$ is a constant, and $\lim_\limits{x\rightarrow a}f(x)=L,$ then
+The **constant rule for limits** states that if $c$ is a constant, and $\lim\limits_{x\rightarrow a}f(x)=L,$ then
 
 $$
 
 
-\lim_\limits{x\rightarrow a}c\cdot f(x) = c\cdot \lim_\limits{x\rightarrow a}f(x)=c\cdot L .
+\lim\limits_{x\rightarrow a}c\cdot f(x) = c\cdot \lim\limits_{x\rightarrow a}f(x)=c\cdot L .
 
 
 $$
 
-For example, to compute $\lim_\limits{x\rightarrow 2}5x^3,$ we just factor the constant $5$ out of the limit and then substitute:
+For example, to compute $\lim\limits_{x\rightarrow 2}5x^3,$ we just factor the constant $5$ out of the limit and then substitute:
 
 $$
 
 
-\begin{aligned} \lim_\limits{x\rightarrow 2}{\color{blue}5}x^3 &= {\color{blue}5} \lim_\limits{x\rightarrow 2}x^3 \\\[5pt] &= {\color{blue}5}\cdot 2^3 \\\[5pt] &= 40 \end{aligned}
+\begin{aligned} \lim\limits_{x\rightarrow 2}{\color{blue}5}x^3 &= {\color{blue}5} \lim\limits_{x\rightarrow 2}x^3 \\[5pt] &= {\color{blue}5}\cdot 2^3 \\[5pt] &= 40 \end{aligned}
 
 
 $$
@@ -171,13 +171,13 @@ $$
 
 #### Question
 
-The figure below shows the graph of $y=f(x).$ Evaluate $\lim_\limits{x \rightarrow \,0} \Bigl(-2.5f(x)\Bigr).$
+The figure below shows the graph of $y=f(x).$ Evaluate $\lim\limits_{x \rightarrow \,0} \Bigl(-2.5f(x)\Bigr).$
 
 ![Instructional graphic](../../../lesson-assets/mathematical-foundations-ii/topic-1716/b833ce80f4a1eb01.png)
 
 #### Explanation
 
-From the graph we get that $\lim_\limits{x\to 0}f(x)=2.$ Therefore,
+From the graph we get that $\lim\limits_{x\to 0}f(x)=2.$ Therefore,
 
 $$
 

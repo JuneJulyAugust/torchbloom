@@ -16,7 +16,7 @@ Suppose that $X$ is a random variable. We know that the variance of $X$ can be e
 $$
 
 
-\textrm{Var}[X] = \textrm{E}[X^2] - \textrm{E}[X]^2
+\text{Var}[X] = \text{E}[X^2] - \text{E}[X]^2
 
 
 $$
@@ -36,7 +36,7 @@ we can express the variance of $X$ in terms of derivatives of the MGF evaluated 
 $$
 
 
-\textrm{Var}[X] =M''(0) - [M'(0)]^2
+\text{Var}[X] =M''(0) - [M'(0)]^2
 
 
 $$
@@ -95,7 +95,7 @@ $$
 
 $$
 
-compute $\textrm{Var}[X].$
+compute $\text{Var}[X].$
 
 #### Explanation
 
@@ -163,7 +163,7 @@ $$
 
 $$
 
-compute $\textrm{SD}[X].$
+compute $\text{SD}[X].$
 
 #### Explanation
 
@@ -172,7 +172,7 @@ We use the following identity:
 $$
 
 
-\begin{aligned}SD[𝑋] & =\sqrt{√Var[𝑋]} \\ & =\sqrt{√E[𝑋^{2}]−E[𝑋]^{2}} \\ & =\sqrt{√𝑀^{″}(0)−[𝑀^{′}(0)]^{2}}\end{aligned}
+\begin{aligned}SD[𝑋] & =\sqrt{Var[𝑋]} \\ & =\sqrt{E[𝑋^{2}]−E[𝑋]^{2}} \\ & =\sqrt{𝑀^{″}(0)−[𝑀^{′}(0)]^{2}}\end{aligned}
 
 
 $$
@@ -202,7 +202,7 @@ Finally,
 $$
 
 
-\begin{aligned}SD[𝑋] & =\sqrt{√𝑀^{″}(0)−[𝑀^{′}(0)]^{2}} \\ & =\sqrt{√\frac{1}{5}−(\frac{1}{5})^{2}} \\ & =\sqrt{√\frac{4}{25}} \\ & =\frac{2}{5}.\end{aligned}
+\begin{aligned}SD[𝑋] & =\sqrt{𝑀^{″}(0)−[𝑀^{′}(0)]^{2}} \\ & =\sqrt{\frac{1}{5}−(\frac{1}{5})^{2}} \\ & =\sqrt{\frac{4}{25}} \\ & =\frac{2}{5}.\end{aligned}
 
 
 $$

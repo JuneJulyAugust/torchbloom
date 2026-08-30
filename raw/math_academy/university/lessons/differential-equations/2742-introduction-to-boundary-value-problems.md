@@ -243,8 +243,8 @@ A boundary value problem is homogeneous if the differential equation is homogene
 
 With that in mind, let's consider each statement:
 
-- The governing differential equation is Since the right-hand side $f(x) \equiv 0,$ the equation is $\textrm{homogeneous}.$
+- The governing differential equation is Since the right-hand side $f(x) \equiv 0,$ the equation is $\text{homogeneous}.$
 
-- The boundary conditions are These are $\textrm{Dirichlet}$ boundary conditions, and since the right-hand sides are not zero for both, they are $\textrm{inhomogeneous}.$
+- The boundary conditions are These are $\text{Dirichlet}$ boundary conditions, and since the right-hand sides are not zero for both, they are $\text{inhomogeneous}.$
 
-- Since the governing equation is homogeneous, yet the boundary conditions are inhomogeneous, the BVP is $\textrm{inhomogeneous}.$
+- Since the governing equation is homogeneous, yet the boundary conditions are inhomogeneous, the BVP is $\text{inhomogeneous}.$

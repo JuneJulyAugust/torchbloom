@@ -24,7 +24,7 @@ For any *finite* real number $a$ we have
 $$
 
 
-\lim_\limits{x\to a}\sin x=\sin (a) \qquad\text{and}\qquad\lim_\limits{x\to a}\cos x=\cos (a).
+\lim\limits_{x\to a}\sin x=\sin (a) \qquad\text{and}\qquad\lim\limits_{x\to a}\cos x=\cos (a).
 
 
 $$
@@ -44,7 +44,7 @@ However, the limits at infinity do not exist. As $x$ approaches $\infty$ or $-\i
 $$
 
 
-\lim_\limits{x\to \pm \infty} \sin x=\text{DNE}\qquad\text{and}\qquad \lim_\limits{x\to \pm \infty} \cos x=\text{DNE}.
+\lim\limits_{x\to \pm \infty} \sin x=\text{DNE}\qquad\text{and}\qquad \lim\limits_{x\to \pm \infty} \cos x=\text{DNE}.
 
 
 $$
@@ -53,7 +53,7 @@ $$
 
 #### Question
 
-Calculate $\lim_\limits{x\to \pi/8} \left(1 + 2\sin \left(2x\right) \right)^2.$
+Calculate $\lim\limits_{x\to \pi/8} \left(1 + 2\sin \left(2x\right) \right)^2.$
 
 #### Explanation
 
@@ -62,7 +62,7 @@ Substituting $x=\dfrac{\pi}{8}$ directly into the limit, we have
 $$
 
 
-\begin{aligned}\underset{𝑥→𝜋/8}{lim}(1+2sin⁡(2𝑥))^{2} & =(1+2sin⁡(2⋅\frac{𝜋}{8}))^{2} \\ & =(1+2sin⁡(\frac{𝜋}{4}))^{2} \\ & =(1+2⋅\frac{\sqrt{√2}}{2})^{2} \\ & =(1+\sqrt{√2})^{2} \\ & =1^{2}+2⋅1⋅\sqrt{√2}+(\sqrt{√2})^{2} \\ & =1+2\sqrt{√2}+2 \\ & =3+2\sqrt{√2}.\end{aligned}
+\begin{aligned}\underset{𝑥→𝜋/8}{lim}(1+2sin⁡(2𝑥))^{2} & =(1+2sin⁡(2⋅\frac{𝜋}{8}))^{2} \\ & =(1+2sin⁡(\frac{𝜋}{4}))^{2} \\ & =(1+2⋅\frac{\sqrt{2}}{2})^{2} \\ & =(1+\sqrt{2})^{2} \\ & =1^{2}+2⋅1⋅\sqrt{2}+(\sqrt{2})^{2} \\ & =1+2\sqrt{2}+2 \\ & =3+2\sqrt{2}.\end{aligned}
 
 
 $$
@@ -71,7 +71,7 @@ $$
 
 #### Question
 
-Calculate $\lim_\limits{x \rightarrow \infty} \sin\left(2x\right).$
+Calculate $\lim\limits_{x \rightarrow \infty} \sin\left(2x\right).$
 
 #### Explanation
 
@@ -100,7 +100,7 @@ Note that $\tan x$ is not defined at the vertical asymptotes $x= \dfrac{\pi}{2} 
 $$
 
 
-\lim_\limits{x \to a} \tan (x)=\tan\left(a\right),\qquad a\neq \dfrac{\pi}{2} + n\pi,
+\lim\limits_{x \to a} \tan (x)=\tan\left(a\right),\qquad a\neq \dfrac{\pi}{2} + n\pi,
 
 
 $$
@@ -110,7 +110,7 @@ For example,
 $$
 
 
-\begin{aligned}\underset{𝑥→𝜋/6}{lim}tan⁡(𝑥)=tan⁡(\frac{𝜋}{6})=\frac{\sqrt{√3}}{3}.\end{aligned}
+\begin{aligned}\underset{𝑥→𝜋/6}{lim}tan⁡(𝑥)=tan⁡(\frac{𝜋}{6})=\frac{\sqrt{3}}{3}.\end{aligned}
 
 
 $$
@@ -120,7 +120,7 @@ However, the limits at infinity do not exist. As $x$ approaches $\infty$ or $-\i
 $$
 
 
-\lim_\limits{x\to \pm \infty} \tan x=\text{DNE} .
+\lim\limits_{x\to \pm \infty} \tan x=\text{DNE} .
 
 
 $$
@@ -129,7 +129,7 @@ $$
 
 #### Question
 
-Find $\lim_\limits{x \to \sqrt{\pi}/2}\tan\left(2x^2-\dfrac{\pi}{4}\right).$
+Find $\lim\limits_{x \to \sqrt{\pi}/2}\tan\left(2x^2-\dfrac{\pi}{4}\right).$
 
 #### Explanation
 
@@ -138,7 +138,7 @@ Substituting $x=\dfrac{\sqrt \pi}{2}$ directly into the limit, we have
 $$
 
 
-\begin{aligned}\underset{𝑥→\sqrt{√𝜋}/2}{lim}tan⁡(2𝑥^{2}−\frac{𝜋}{4}) & =tan⁡(2(\frac{\sqrt{√𝜋}}{2})^{2}−\frac{𝜋}{4}) \\ & =tan⁡(2(\frac{𝜋}{4})−\frac{𝜋}{4}) \\ & =tan⁡(\frac{𝜋}{2}−\frac{𝜋}{4}) \\ & =tan⁡(\frac{𝜋}{4}) \\ & =1.\end{aligned}
+\begin{aligned}\underset{𝑥→\sqrt{𝜋}/2}{lim}tan⁡(2𝑥^{2}−\frac{𝜋}{4}) & =tan⁡(2(\frac{\sqrt{𝜋}}{2})^{2}−\frac{𝜋}{4}) \\ & =tan⁡(2(\frac{𝜋}{4})−\frac{𝜋}{4}) \\ & =tan⁡(\frac{𝜋}{2}−\frac{𝜋}{4}) \\ & =tan⁡(\frac{𝜋}{4}) \\ & =1.\end{aligned}
 
 
 $$
@@ -154,7 +154,7 @@ As we can see from the graph, $x = \pm \dfrac{\pi}{2}, \pm \dfrac{3\pi}{2}, \ldo
 $$
 
 
-\lim_\limits{x\to \pi/2^{-}}\tan(x)=\infty,\qquad \lim_\limits{x\to \pi/2^{+}}\tan(x)=-\infty.
+\lim\limits_{x\to \pi/2^{-}}\tan(x)=\infty,\qquad \lim\limits_{x\to \pi/2^{+}}\tan(x)=-\infty.
 
 
 $$
@@ -164,7 +164,7 @@ Since the left and right-sided limits are not equal, we have
 $$
 
 
-\lim_\limits{x\to \pi/2}\tan(x)=\textrm{DNE}.
+\lim\limits_{x\to \pi/2}\tan(x)=\text{DNE}.
 
 
 $$
@@ -174,7 +174,7 @@ In general, at any vertical asymptote $x= \dfrac{\pi}{2} + n\pi$ where $n$ is an
 $$
 
 
-\lim_\limits{x\to \pi/2+n\pi}\tan(x)=\textrm{DNE}.
+\lim\limits_{x\to \pi/2+n\pi}\tan(x)=\text{DNE}.
 
 
 $$
@@ -183,7 +183,7 @@ $$
 
 #### Question
 
-Evaluate $\lim_\limits {x \to (-\pi/6)^{-}} \tan\left(x-\dfrac\pi 3 \right).$
+Evaluate $\lim\limits_{x \to (-\pi/6)^{-}} \tan\left(x-\dfrac\pi 3 \right).$
 
 #### Explanation
 
@@ -208,7 +208,7 @@ We see that as $x$ approaches $-\dfrac\pi 6$ from the left, the values of $y=\ta
 $$
 
 
-\lim_\limits {x \to (-\pi/6)^{-}} \tan\left(x-\dfrac\pi 3 \right)= \infty.
+\lim\limits_{x \to (-\pi/6)^{-}} \tan\left(x-\dfrac\pi 3 \right)= \infty.
 
 
 $$

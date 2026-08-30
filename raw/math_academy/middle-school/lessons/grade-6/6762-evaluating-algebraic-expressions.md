@@ -125,11 +125,11 @@ When evaluating expressions in real-world contexts, always remember to
 
 #### Question
 
-The amount of paint (in liters) used to cover a wall is given by the expression $\dfrac12w^2+\dfrac34,$ where $w$ is the width of the wall in meters. How much paint is used when the width of the wall is $\dfrac54\,\textrm{m}?$
+The amount of paint (in liters) used to cover a wall is given by the expression $\dfrac12w^2+\dfrac34,$ where $w$ is the width of the wall in meters. How much paint is used when the width of the wall is $\dfrac54\,\text{m}?$
 
 #### Explanation
 
-To determine how much paint is used when the width of the wall is $\dfrac54\,\textrm{m},$ we evaluate the expression at $w=\dfrac54.$
+To determine how much paint is used when the width of the wall is $\dfrac54\,\text{m},$ we evaluate the expression at $w=\dfrac54.$
 
 First, replacing $w$ with $\dfrac54$ in the expression, we obtain
 
@@ -155,4 +155,4 @@ $$
 
 $$
 
-Therefore, the amount of paint used is $\dfrac{49}{32}\,\textrm{L}.$
+Therefore, the amount of paint used is $\dfrac{49}{32}\,\text{L}.$

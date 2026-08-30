@@ -26,7 +26,7 @@ To illustrate, let's solve the following ODE:
 $$
 
 
-\frac{\textrm{d}^2 y}{\textrm{d} x^2} - 6\frac{\textrm{d} y}{\textrm{d} x} + 9y =0.
+\frac{\text{d}^2 y}{\text{d} x^2} - 6\frac{\text{d} y}{\text{d} x} + 9y =0.
 
 
 $$
@@ -120,7 +120,7 @@ Find the general solution to the equation
 $$
 
 
-\frac{\textrm{d}^2 y}{\textrm{d} t^2} - 12\frac{\textrm{d} y}{\textrm{d} t} + 36y =0.
+\frac{\text{d}^2 y}{\text{d} t^2} - 12\frac{\text{d} y}{\text{d} t} + 36y =0.
 
 
 $$
@@ -132,7 +132,7 @@ Assuming $y=e^{\lambda t}$ and differentiating $y$ with respect to $t$ gives
 $$
 
 
-\frac{\textrm{d} y}{\textrm{d} t}= \lambda e^{\lambda t},\qquad \frac{\textrm{d}^2 y}{\textrm{d} t^2}= \lambda^2 e^{\lambda t}.
+\frac{\text{d} y}{\text{d} t}= \lambda e^{\lambda t},\qquad \frac{\text{d}^2 y}{\text{d} t^2}= \lambda^2 e^{\lambda t}.
 
 
 $$

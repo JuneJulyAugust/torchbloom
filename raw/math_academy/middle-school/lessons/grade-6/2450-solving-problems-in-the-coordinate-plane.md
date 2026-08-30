@@ -29,7 +29,7 @@ $$
 
 
 
-6 \times 1 \,\textrm{km} = 6 \,\textrm{km}
+6 \times 1 \,\text{km} = 6 \,\text{km}
 
 
 
@@ -57,7 +57,7 @@ $$
 
 
 
-6 \times 1 \,\textrm{km} = 6 \,\textrm{km}.
+6 \times 1 \,\text{km} = 6 \,\text{km}.
 
 
 
@@ -87,7 +87,7 @@ $$
 
 
 
-8 \times 1 \,\textrm{km} = 8 \,\textrm{km}.
+8 \times 1 \,\text{km} = 8 \,\text{km}.
 
 
 
@@ -111,7 +111,7 @@ $$
 
 
 
-8 \times 1 \,\textrm{km} = 8 \,\textrm{km}.
+8 \times 1 \,\text{km} = 8 \,\text{km}.
 
 
 
@@ -195,6 +195,6 @@ Plotting the coordinates from the table on the map, we get:
 
 ![Instructional graphic](../../../lesson-assets/grade-6/topic-2450/9f93bdfdc2174eb4.png)
 
-In the interval from $7\!\mathbin{:}\!02$ am to $7\!\mathbin{:}\!03$ am, Orlando traveled $60$ units. Since one unit corresponds to $1$ meter, then Orlando traveled $60 \, \textrm{m}.$
+In the interval from $7\!\mathbin{:}\!02$ am to $7\!\mathbin{:}\!03$ am, Orlando traveled $60$ units. Since one unit corresponds to $1$ meter, then Orlando traveled $60 \, \text{m}.$
 
 Therefore, Orlando traveled at a speed of $60$ meters per minute during this time period.

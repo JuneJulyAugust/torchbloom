@@ -35,7 +35,7 @@ The total kinetic energy of the system is obtained by adding the energies of all
 $$
 
 
-\begin{aligned}Total KE & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}\frac{1}{2}𝑚_{𝑖}𝑟_{2𝑖}^{}𝜔^{2} \\ & =\frac{1}{2}𝜔^{2}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑚_{𝑖}𝑟_{2𝑖}^{}.\end{aligned}
+\begin{aligned}Total KE & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}\frac{1}{2}𝑚_{𝑖}𝑟_{2𝑖}𝜔^{2} \\ & =\frac{1}{2}𝜔^{2}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑚_{𝑖}𝑟_{2𝑖}.\end{aligned}
 
 
 $$
@@ -93,7 +93,7 @@ Suppose the function $r(x,y)$ gives the distance of each point $(x,y) \in D$ fro
 $$
 
 
-\begin{aligned}𝐼 & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑚}}\underset{\underset{𝑗=1}{∑}}{\overset{}{𝑛}}𝑚_{𝑖}[𝑟(𝑥_{∗𝑖𝑗}^{},𝑦_{∗𝑖𝑗}^{})]^{2} \\ & ≈\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑚}}\underset{\underset{𝑗=1}{∑}}{\overset{}{𝑛}}(𝜆(𝑥_{∗𝑖𝑗}^{},𝑦_{∗𝑖𝑗}^{})⋅Δ𝐴)[𝑟(𝑥_{∗𝑖𝑗}^{},𝑦_{∗𝑖𝑗}^{})]^{2} \\ & ≈\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑚}}\underset{\underset{𝑗=1}{∑}}{\overset{}{𝑛}}𝜆(𝑥_{∗𝑖𝑗}^{},𝑦_{∗𝑖𝑗}^{})[𝑟(𝑥_{∗𝑖𝑗}^{},𝑦_{∗𝑖𝑗}^{})]^{2}Δ𝐴.\end{aligned}
+\begin{aligned}𝐼 & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑚}}\underset{\underset{𝑗=1}{∑}}{\overset{}{𝑛}}𝑚_{𝑖}[𝑟(𝑥_{∗𝑖𝑗},𝑦_{∗𝑖𝑗})]^{2} \\ & ≈\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑚}}\underset{\underset{𝑗=1}{∑}}{\overset{}{𝑛}}(𝜆(𝑥_{∗𝑖𝑗},𝑦_{∗𝑖𝑗})⋅Δ𝐴)[𝑟(𝑥_{∗𝑖𝑗},𝑦_{∗𝑖𝑗})]^{2} \\ & ≈\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑚}}\underset{\underset{𝑗=1}{∑}}{\overset{}{𝑛}}𝜆(𝑥_{∗𝑖𝑗},𝑦_{∗𝑖𝑗})[𝑟(𝑥_{∗𝑖𝑗},𝑦_{∗𝑖𝑗})]^{2}Δ𝐴.\end{aligned}
 
 
 $$
@@ -103,7 +103,7 @@ Finally, taking the limit as the length and width of the boxes tend to zero, we 
 $$
 
 
-I = \lim\limits_{m,n\to \infty} \sum\limits_{i=1}^m \sum\limits_{j=1}^n \lambda(x_{ij}^*, y_{ij}^*) [r(x_{ij}^*, y_{ij}^*)]^2 \Delta A = \iint\limits_D \lambda(x,y) [r(x,y)]^2 \:\textrm{d}A.
+I = \lim\limits_{m,n\to \infty} \sum\limits_{i=1}^m \sum\limits_{j=1}^n \lambda(x_{ij}^*, y_{ij}^*) [r(x_{ij}^*, y_{ij}^*)]^2 \Delta A = \iint\limits_D \lambda(x,y) [r(x,y)]^2 \:\text{d}A.
 
 
 $$
@@ -113,7 +113,7 @@ Therefore, the moment of inertia about a fixed axis $L$ of a plane lamina occupy
 $$
 
 
-I_L = \iint\limits_D \lambda(x,y) [r(x,y)]^2 \:\textrm{d}A,
+I_L = \iint\limits_D \lambda(x,y) [r(x,y)]^2 \:\text{d}A,
 
 
 $$
@@ -181,7 +181,7 @@ Using the formula for $I_x,$ we get
 $$
 
 
-\begin{aligned}𝐼_{𝑥} & =\underset{𝐷}{∬}𝑦^{2}𝜆(𝑥,𝑦)\,d𝐴 \\ & =∫_{10}^{}∫_{1𝑥^{2}}^{}𝑦^{2}⋅4𝑥𝑦\,d𝑦\,d𝑥 \\ & =∫_{10}^{}[∫_{1𝑥^{2}}^{}4𝑥𝑦^{3}\,d𝑦]d𝑥 \\ & =∫_{10}^{}[𝑥𝑦^{4}]_{𝑦=1𝑦=𝑥^{2}}^{}\,d𝑥 \\ & =∫_{10}^{}𝑥(1−𝑥^{8})d𝑥 \\ & =∫_{10}^{}𝑥−𝑥^{9}\,d𝑥 \\ & =[\frac{𝑥^{2}}{2}−\frac{𝑥^{10}}{10}]_{10}^{} \\ & =\frac{1}{2}−\frac{1}{10} \\ & =\frac{2}{5}.\end{aligned}
+\begin{aligned}𝐼_{𝑥} & =\underset{𝐷}{∬}𝑦^{2}𝜆(𝑥,𝑦)\,d𝐴 \\ & =∫_{10}∫_{1𝑥^{2}}^{}𝑦^{2}⋅4𝑥𝑦\,d𝑦\,d𝑥 \\ & =∫_{10}[∫_{1𝑥^{2}}^{}4𝑥𝑦^{3}\,d𝑦]d𝑥 \\ & =∫_{10}[𝑥𝑦^{4}]_{𝑦=1𝑦=𝑥^{2}}^{}\,d𝑥 \\ & =∫_{10}𝑥(1−𝑥^{8})d𝑥 \\ & =∫_{10}𝑥−𝑥^{9}\,d𝑥 \\ & =[\frac{𝑥^{2}}{2}−\frac{𝑥^{10}}{10}]_{10} \\ & =\frac{1}{2}−\frac{1}{10} \\ & =\frac{2}{5}.\end{aligned}
 
 
 $$
@@ -309,7 +309,7 @@ Therefore, the moment of inertia about the $y$-axis is
 $$
 
 
-\begin{aligned}𝐼_{𝑦} & =\underset{𝐷}{∬}𝜆(𝑟,𝜃)⋅𝑟^{3}cos^{2}⁡𝜃\,d𝑟\,d𝜃 \\ & =∫_{𝜋/4𝜋/6}^{}∫_{21}^{}\frac{1}{𝑟^{2}cos^{2}⁡𝜃}⋅𝑟^{3}cos^{2}⁡𝜃\,d𝑟\,d𝜃 \\ & =∫_{𝜋/4𝜋/6}^{}∫_{21}^{}𝑟\,d𝑟\,d𝜃 \\ & =(∫_{21}^{}𝑟\,d𝑟)(∫_{𝜋/4𝜋/6}^{}d𝜃) \\ & =\frac{1}{2}𝑟^{2}\,_{21}^{}⋅𝜃\,_{𝜋/4𝜋/6}^{} \\ & =\frac{1}{2}(4−1)⋅(\frac{𝜋}{4}−\frac{𝜋}{6}) \\ & =\frac{1}{2}⋅3⋅\frac{𝜋}{12} \\ & =\frac{𝜋}{8}.\end{aligned}
+\begin{aligned}𝐼_{𝑦} & =\underset{𝐷}{∬}𝜆(𝑟,𝜃)⋅𝑟^{3}cos^{2}⁡𝜃\,d𝑟\,d𝜃 \\ & =∫_{𝜋/4𝜋/6}∫_{21}\frac{1}{𝑟^{2}cos^{2}⁡𝜃}⋅𝑟^{3}cos^{2}⁡𝜃\,d𝑟\,d𝜃 \\ & =∫_{𝜋/4𝜋/6}∫_{21}𝑟\,d𝑟\,d𝜃 \\ & =(∫_{21}𝑟\,d𝑟)(∫_{𝜋/4𝜋/6}d𝜃) \\ & =\frac{1}{2}𝑟^{2}\,_{21}⋅𝜃\,_{𝜋/4𝜋/6} \\ & =\frac{1}{2}(4−1)⋅(\frac{𝜋}{4}−\frac{𝜋}{6}) \\ & =\frac{1}{2}⋅3⋅\frac{𝜋}{12} \\ & =\frac{𝜋}{8}.\end{aligned}
 
 
 $$

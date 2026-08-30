@@ -19,7 +19,7 @@ Consider an **inhomogeneous** linear system of ordinary differential equations i
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=𝑎_{11}𝑥_{1}(𝑡)+𝑎_{12}𝑥_{2}(𝑡)+𝑓_{1}(𝑡) \\ 𝑥_{′2}^{}(𝑡)=𝑎_{21}𝑥_{1}(𝑡)+𝑎_{22}𝑥_{2}(𝑡)+𝑓_{2}(𝑡)\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=𝑎_{11}𝑥_{1}(𝑡)+𝑎_{12}𝑥_{2}(𝑡)+𝑓_{1}(𝑡) \\ 𝑥_{′2}(𝑡)=𝑎_{21}𝑥_{1}(𝑡)+𝑎_{22}𝑥_{2}(𝑡)+𝑓_{2}(𝑡)\end{aligned}
 
 
 $$
@@ -51,7 +51,7 @@ For example, let's write down the system of linear ODEs below in matrix form.
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=4𝑥_{1}(𝑡)+2𝑥_{2}(𝑡)+8𝑒^{3𝑡} \\ 𝑥_{′2}^{}(𝑡)=−3𝑥_{1}(𝑡)+5𝑥_{2}(𝑡)+10𝑒^{4𝑡}\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=4𝑥_{1}(𝑡)+2𝑥_{2}(𝑡)+8𝑒^{3𝑡} \\ 𝑥_{′2}(𝑡)=−3𝑥_{1}(𝑡)+5𝑥_{2}(𝑡)+10𝑒^{4𝑡}\end{aligned}
 
 
 $$
@@ -61,7 +61,7 @@ First, let's rewrite our system, highlighting the coefficients:
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=4⋅𝑥_{1}(𝑡)+2⋅𝑥_{2}(𝑡)+𝑒^{3𝑡}⋅8+𝑒^{4𝑡}⋅0 \\ 𝑥_{′2}^{}(𝑡)=(−3)⋅𝑥_{1}(𝑡)+5⋅𝑥_{2}(𝑡)+𝑒^{3𝑡}⋅0+𝑒^{4𝑡}⋅10\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=4⋅𝑥_{1}(𝑡)+2⋅𝑥_{2}(𝑡)+𝑒^{3𝑡}⋅8+𝑒^{4𝑡}⋅0 \\ 𝑥_{′2}(𝑡)=(−3)⋅𝑥_{1}(𝑡)+5⋅𝑥_{2}(𝑡)+𝑒^{3𝑡}⋅0+𝑒^{4𝑡}⋅10\end{aligned}
 
 
 $$
@@ -85,7 +85,7 @@ where $[\begin{aligned}𝑥_{1}(𝑡) \\ 𝑥_{2}(𝑡)\end{aligned}]$
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=−2𝑥_{1}(𝑡)−𝑥_{2}(𝑡)+4𝑡^{2}+𝑡−2 \\ 𝑥_{′2}^{}(𝑡)=3𝑥_{1}(𝑡)−𝑡^{2}+5𝑡+6\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=−2𝑥_{1}(𝑡)−𝑥_{2}(𝑡)+4𝑡^{2}+𝑡−2 \\ 𝑥_{′2}(𝑡)=3𝑥_{1}(𝑡)−𝑡^{2}+5𝑡+6\end{aligned}
 
 
 $$
@@ -99,7 +99,7 @@ First, let's rewrite our system, highlighting the coefficients:
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=(−2)⋅𝑥_{1}(𝑡)+(−1)⋅𝑥_{2}(𝑡)+4⋅𝑡^{2}+1⋅𝑡+(−2) \\ 𝑥_{′2}^{}(𝑡)=3⋅𝑥_{1}(𝑡)+0⋅𝑥_{2}(𝑡)+(−1)⋅𝑡^{2}+5⋅𝑡+6\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=(−2)⋅𝑥_{1}(𝑡)+(−1)⋅𝑥_{2}(𝑡)+4⋅𝑡^{2}+1⋅𝑡+(−2) \\ 𝑥_{′2}(𝑡)=3⋅𝑥_{1}(𝑡)+0⋅𝑥_{2}(𝑡)+(−1)⋅𝑡^{2}+5⋅𝑡+6\end{aligned}
 
 
 $$
@@ -155,7 +155,7 @@ Indeed, notice that
 $$
 
 
-\begin{aligned}(𝐱_{𝑐}+𝐱_{𝑝})^{′} & =𝐱_{′𝑐}^{}+𝐱_{′𝑝}^{} \\ & =(𝐴𝐱_{𝑐})+(𝐴𝐱_{𝑝}+𝐠(𝑡)) \\ & =𝐴𝐱_{𝑐}+𝐴𝐱_{𝑝}+𝐠(𝑡) \\ & =𝐴(𝐱_{𝑐}+𝐱_{𝑝})+𝐠(𝑡).\end{aligned}
+\begin{aligned}(𝐱_{𝑐}+𝐱_{𝑝})^{′} & =𝐱_{′𝑐}+𝐱_{′𝑝} \\ & =(𝐴𝐱_{𝑐})+(𝐴𝐱_{𝑝}+𝐠(𝑡)) \\ & =𝐴𝐱_{𝑐}+𝐴𝐱_{𝑝}+𝐠(𝑡) \\ & =𝐴(𝐱_{𝑐}+𝐱_{𝑝})+𝐠(𝑡).\end{aligned}
 
 
 $$
@@ -169,7 +169,7 @@ By definition, we know that $\mathbf{y}_p' = A\mathbf{y}_p + \mathbf{g}(t)$ and 
 $$
 
 
-\begin{aligned}𝐰^{′} & =(𝐲_{𝑝}−𝐱_{𝑝})^{′} \\ & =𝐲_{′𝑝}^{}−𝐱_{′𝑝}^{} \\ & =(𝐴𝐲_{𝑝}+𝐠(𝑡))−(𝐴𝐱_{𝑝}+𝐠(𝑡)) \\ & =𝐴𝐲_{𝑝}−𝐴𝐱_{𝑝} \\ & =𝐴(𝐲_{𝑝}−𝐱_{𝑝}) \\ & =𝐴𝐰\end{aligned}
+\begin{aligned}𝐰^{′} & =(𝐲_{𝑝}−𝐱_{𝑝})^{′} \\ & =𝐲_{′𝑝}−𝐱_{′𝑝} \\ & =(𝐴𝐲_{𝑝}+𝐠(𝑡))−(𝐴𝐱_{𝑝}+𝐠(𝑡)) \\ & =𝐴𝐲_{𝑝}−𝐴𝐱_{𝑝} \\ & =𝐴(𝐲_{𝑝}−𝐱_{𝑝}) \\ & =𝐴𝐰\end{aligned}
 
 
 $$
@@ -355,7 +355,7 @@ To find the unknown constants, we substitute $\mathbf{x}_p$ and $\mathbf{x}'_p$ 
 $$
 
 
-\begin{aligned}7𝑒^{7𝑡}[\begin{aligned}𝑎 \\ 𝑏\end{aligned}] & =[\begin{aligned}3 & 1 \\ 0 & 1\end{aligned}]⋅𝑒^{7𝑡}[\begin{aligned}𝑎 \\ 𝑏\end{aligned}]+𝑒^{7𝑡}[\begin{aligned}−1 \\ −3\end{aligned}] \\ 7[\begin{aligned}𝑎 \\ 𝑏\end{aligned}] & =[\begin{aligned}3 & 1 \\ 0 & 1\end{aligned}]⋅[\begin{aligned}𝑎 \\ 𝑏\end{aligned}]+[\begin{aligned}−1 \\ −3\end{aligned}] \\ [\begin{aligned}7𝑎 \\ 7𝑏\end{aligned}] & =[\begin{aligned}3𝑎+𝑏 \\ 𝑏\end{aligned}]+[\begin{aligned}−1 \\ −3\end{aligned}] \\ [\begin{aligned}7𝑎 \\ 7𝑏\end{aligned}] & =[\begin{aligned}3𝑎+𝑏−1 \\ 𝑏−3\end{aligned}]\end{aligned}
+\begin{aligned}7𝑒^{7𝑡}[\begin{matrix}𝑎 \\ 𝑏\end{matrix}] & =[\begin{matrix}3 & 1 \\ 0 & 1\end{matrix}]⋅𝑒^{7𝑡}[\begin{matrix}𝑎 \\ 𝑏\end{matrix}]+𝑒^{7𝑡}[\begin{matrix}−1 \\ −3\end{matrix}] \\ 7[\begin{matrix}𝑎 \\ 𝑏\end{matrix}] & =[\begin{matrix}3 & 1 \\ 0 & 1\end{matrix}]⋅[\begin{matrix}𝑎 \\ 𝑏\end{matrix}]+[\begin{matrix}−1 \\ −3\end{matrix}] \\ [\begin{matrix}7𝑎 \\ 7𝑏\end{matrix}] & =[\begin{matrix}3𝑎+𝑏 \\ 𝑏\end{matrix}]+[\begin{matrix}−1 \\ −3\end{matrix}] \\ [\begin{matrix}7𝑎 \\ 7𝑏\end{matrix}] & =[\begin{matrix}3𝑎+𝑏−1 \\ 𝑏−3\end{matrix}]\end{aligned}
 
 
 $$
@@ -451,7 +451,7 @@ Next, we find the values of $c_1$ and $c_2.$ Substituting $t = 0$ into the gener
 $$
 
 
-\begin{aligned}𝐱(0) & =[\begin{aligned}6 \\ 1\end{aligned}] \\ 𝑐_{1}[\begin{aligned}𝑒^{0} \\ 0\end{aligned}]+𝑐_{2}[\begin{aligned}0⋅𝑒^{0} \\ 𝑒^{0}\end{aligned}]+[\begin{aligned}0^{2}−0+4 \\ −0^{2}+2\end{aligned}] & =[\begin{aligned}6 \\ 1\end{aligned}] \\ 𝑐_{1}[\begin{aligned}1 \\ 0\end{aligned}]+𝑐_{2}[\begin{aligned}0 \\ 1\end{aligned}]+[\begin{aligned}4 \\ 2\end{aligned}] & =[\begin{aligned}6 \\ 1\end{aligned}] \\ [\begin{aligned}𝑐_{1}+4 \\ 𝑐_{2}+2\end{aligned}] & =[\begin{aligned}6 \\ 1\end{aligned}]\end{aligned}
+\begin{aligned}𝐱(0) & =[\begin{matrix}6 \\ 1\end{matrix}] \\ 𝑐_{1}[\begin{matrix}𝑒^{0} \\ 0\end{matrix}]+𝑐_{2}[\begin{matrix}0⋅𝑒^{0} \\ 𝑒^{0}\end{matrix}]+[\begin{matrix}0^{2}−0+4 \\ −0^{2}+2\end{matrix}] & =[\begin{matrix}6 \\ 1\end{matrix}] \\ 𝑐_{1}[\begin{matrix}1 \\ 0\end{matrix}]+𝑐_{2}[\begin{matrix}0 \\ 1\end{matrix}]+[\begin{matrix}4 \\ 2\end{matrix}] & =[\begin{matrix}6 \\ 1\end{matrix}] \\ [\begin{matrix}𝑐_{1}+4 \\ 𝑐_{2}+2\end{matrix}] & =[\begin{matrix}6 \\ 1\end{matrix}]\end{aligned}
 
 
 $$

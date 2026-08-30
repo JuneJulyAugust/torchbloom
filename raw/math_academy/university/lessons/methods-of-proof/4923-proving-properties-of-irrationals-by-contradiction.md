@@ -29,7 +29,7 @@ First, we write down the formal statement $P$ that we wish to prove:
 $$
 
 
-\phantom{\lnot}\:\: P{:} \quad 2\sqrt{3} \: \textrm{is irrational}
+\phantom{\lnot}\:\: P{:} \quad 2\sqrt{3} \: \text{is irrational}
 
 
 $$
@@ -39,7 +39,7 @@ To prove that $P$ is true, we assume that $\lnot P$ is true and show this leads 
 $$
 
 
-\lnot P{:} \quad 2\sqrt{3} \: \textrm{is rational}
+\lnot P{:} \quad 2\sqrt{3} \: \text{is rational}
 
 
 $$
@@ -59,7 +59,7 @@ The idea is to rewrite this equation to give a radical $(\sqrt 3)$ on one side a
 $$
 
 
-\begin{aligned}2\sqrt{√3} & =\frac{𝑎}{𝑏} \\ \sqrt{√3} & =\frac{𝑎}{\underset{𝑐}{\underset{}{2𝑏}}}.\end{aligned}
+\begin{aligned}2\sqrt{3} & =\frac{𝑎}{𝑏} \\ \sqrt{3} & =\frac{𝑎}{\underset{𝑐}{\underset{}{2𝑏}}}.\end{aligned}
 
 
 $$
@@ -73,7 +73,7 @@ Now, if we define the integer $c=2b$ (highlighted above), we have that $\sqrt{3}
 $$
 
 
-\begin{aligned}\sqrt{√3}=\frac{𝑎}{𝑐},\end{aligned}
+\begin{aligned}\sqrt{3}=\frac{𝑎}{𝑐},\end{aligned}
 
 
 $$
@@ -105,7 +105,7 @@ Proof:
 $$
 
 
-\begin{aligned}2\sqrt{√3} & =\frac{𝑎}{𝑏} \\ \sqrt{√3} & =\frac{𝑎}{\underset{𝑐}{\underset{}{2𝑏}}}.\end{aligned}
+\begin{aligned}2\sqrt{3} & =\frac{𝑎}{𝑏} \\ \sqrt{3} & =\frac{𝑎}{\underset{𝑐}{\underset{}{2𝑏}}}.\end{aligned}
 
 
 $$
@@ -117,7 +117,7 @@ $$
 $$
 
 
-\begin{aligned}\sqrt{√3}=\frac{𝑎}{𝑐},\end{aligned}
+\begin{aligned}\sqrt{3}=\frac{𝑎}{𝑐},\end{aligned}
 
 
 $$
@@ -161,7 +161,7 @@ To isolate a single radical on one side, we first square both sides:
 $$
 
 
-\begin{aligned}(\sqrt{√3}−\sqrt{√2})^{2} & =(\frac{𝑎}{𝑏})^{2} \\ (\sqrt{√3})^{2}−2⋅\sqrt{√3}⋅\sqrt{√2}+(\sqrt{√2})^{2} & =\frac{𝑎^{2}}{𝑏^{2}} \\ 3−2⋅\sqrt{√3⋅2}+2 & =\frac{𝑎^{2}}{𝑏^{2}} \\ 5−2⋅\sqrt{√6} & =\frac{𝑎^{2}}{𝑏^{2}}\end{aligned}
+\begin{aligned}(\sqrt{3}−\sqrt{2})^{2} & =(\frac{𝑎}{𝑏})^{2} \\ (\sqrt{3})^{2}−2⋅\sqrt{3}⋅\sqrt{2}+(\sqrt{2})^{2} & =\frac{𝑎^{2}}{𝑏^{2}} \\ 3−2⋅\sqrt{3⋅2}+2 & =\frac{𝑎^{2}}{𝑏^{2}} \\ 5−2⋅\sqrt{6} & =\frac{𝑎^{2}}{𝑏^{2}}\end{aligned}
 
 
 $$
@@ -173,7 +173,7 @@ Isolating the radical, we get:
 $$
 
 
-\begin{aligned}−2⋅\sqrt{√6} & =\frac{𝑎^{2}}{𝑏^{2}}−5 \\ 2⋅\sqrt{√6} & =5−\frac{𝑎^{2}}{𝑏^{2}} \\ \sqrt{√6} & =\frac{5}{2}−\frac{𝑎^{2}}{2𝑏^{2}}\end{aligned}
+\begin{aligned}−2⋅\sqrt{6} & =\frac{𝑎^{2}}{𝑏^{2}}−5 \\ 2⋅\sqrt{6} & =5−\frac{𝑎^{2}}{𝑏^{2}} \\ \sqrt{6} & =\frac{5}{2}−\frac{𝑎^{2}}{2𝑏^{2}}\end{aligned}
 
 
 $$
@@ -183,7 +183,7 @@ Putting the terms on the right-hand side over a common denominator, we get
 $$
 
 
-\begin{aligned}\sqrt{√6} & =\frac{5𝑏^{2}}{2𝑏^{2}}−\frac{𝑎^{2}}{2𝑏^{2}} \\ & =\frac{5𝑏^{2}−𝑎^{2}}{2𝑏^{2}}.\end{aligned}
+\begin{aligned}\sqrt{6} & =\frac{5𝑏^{2}}{2𝑏^{2}}−\frac{𝑎^{2}}{2𝑏^{2}} \\ & =\frac{5𝑏^{2}−𝑎^{2}}{2𝑏^{2}}.\end{aligned}
 
 
 $$
@@ -237,7 +237,7 @@ Let's write down the formal statement $P$ that we wish to prove:
 $$
 
 
-P{:} \quad \sqrt{3}-\sqrt{2} \: \textrm{is irrational}
+P{:} \quad \sqrt{3}-\sqrt{2} \: \text{is irrational}
 
 
 $$
@@ -247,14 +247,14 @@ To prove that $P$ is true, we assume that $\lnot P$ is true and show this leads 
 $$
 
 
-\lnot P{:} \quad \sqrt{3}-\sqrt{2} \: \textrm{is rational}
+\lnot P{:} \quad \sqrt{3}-\sqrt{2} \: \text{is rational}
 
 
 $$
 
 Since we're assuming $\sqrt{3}-\sqrt{2}$ is rational, we can express it as the ratio of two non-zero integers:
 
-Assume for a contradiction that $\sqrt{3}-\sqrt{2}$ $\boxed{\color{blue}\textrm{is}}$ rational.
+Assume for a contradiction that $\sqrt{3}-\sqrt{2}$ $\boxed{\color{blue}\text{is}}$ rational.
 
 Then, we have that
 
@@ -270,15 +270,15 @@ where $a$ and $b$ are non-zero integers.
 
 The idea is to square both sides of the equation, leaving $\sqrt{6}$ on one side and a fraction on the other.
 
-By isolating $\sqrt{6}$ in the above equation, we obtain that $\sqrt{6}$ can be written as a ratio of two integers, which means that $\sqrt{6}$ is $\boxed{\color{blue}\textrm{rational}}.$
+By isolating $\sqrt{6}$ in the above equation, we obtain that $\sqrt{6}$ can be written as a ratio of two integers, which means that $\sqrt{6}$ is $\boxed{\color{blue}\text{rational}}.$
 
 This gives us our contradiction.
 
-But this is a $\boxed{\color{blue}\textrm{contradiction}}$ since $\sqrt{6}$ is $\boxed{\color{blue}\textrm{not rational}}.$
+But this is a $\boxed{\color{blue}\text{contradiction}}$ since $\sqrt{6}$ is $\boxed{\color{blue}\text{not rational}}.$
 
 Therefore, the assumption that $\lnot P$ is true was incorrect, which means that $P$ is true.
 
-Therefore, we conclude that $\sqrt{3}-\sqrt{2}$ $\boxed{\color{blue}\textrm{is not}}$ rational.
+Therefore, we conclude that $\sqrt{3}-\sqrt{2}$ $\boxed{\color{blue}\text{is not}}$ rational.
 
 ### Example: Proving Irrationality of Products and Quotients
 
@@ -293,7 +293,7 @@ Let's write down the formal statement $P$ that we wish to prove:
 $$
 
 
-P{:} \quad \dfrac{\sqrt{3}}{2} \: \textrm{is irrational}
+P{:} \quad \dfrac{\sqrt{3}}{2} \: \text{is irrational}
 
 
 $$
@@ -303,7 +303,7 @@ To prove that $P$ is true, we assume that $\lnot P$ is true and show this leads 
 $$
 
 
-\lnot P{:} \quad \dfrac{\sqrt{3}}{2} \: \textrm{is rational}
+\lnot P{:} \quad \dfrac{\sqrt{3}}{2} \: \text{is rational}
 
 
 $$
@@ -323,7 +323,7 @@ So, we have
 $$
 
 
-\begin{aligned}\frac{\sqrt{√3}}{2} & =\frac{𝑎}{𝑏} \\ \sqrt{√3} & =\frac{\overset{\overset{2𝑎}{}}{𝑐}}{𝑏}.\end{aligned}
+\begin{aligned}\frac{\sqrt{3}}{2} & =\frac{𝑎}{𝑏} \\ \sqrt{3} & =\frac{\overset{2𝑎}{𝑐}}{𝑏}.\end{aligned}
 
 
 $$
@@ -337,7 +337,7 @@ Therefore, we have
 $$
 
 
-\begin{aligned}\sqrt{√3}=\frac{𝑐}{𝑏},\end{aligned}
+\begin{aligned}\sqrt{3}=\frac{𝑐}{𝑏},\end{aligned}
 
 
 $$
@@ -363,7 +363,7 @@ Let's write down the formal statement $P$ that we wish to prove:
 $$
 
 
-P{:} \quad 3-\sqrt{2} \: \textrm{is irrational}
+P{:} \quad 3-\sqrt{2} \: \text{is irrational}
 
 
 $$
@@ -373,7 +373,7 @@ To prove that $P$ is true, we assume that $\lnot P$ is true and show this leads 
 $$
 
 
-\lnot P{:} \quad 3-\sqrt{2} \: \textrm{is rational}
+\lnot P{:} \quad 3-\sqrt{2} \: \text{is rational}
 
 
 $$
@@ -393,7 +393,7 @@ So, we have
 $$
 
 
-\begin{aligned}3−\sqrt{√2} & =\frac{𝑎}{𝑏} \\ −\sqrt{√2} & =\frac{𝑎}{𝑏}−3 \\ \sqrt{√2} & =3−\frac{𝑎}{𝑏} \\ \sqrt{√2} & =\frac{3𝑏}{𝑏}−\frac{𝑎}{𝑏} \\ \sqrt{√2} & =\overset{\overset{\frac{3𝑏−𝑎}{𝑏}}{}}{𝑐}\end{aligned}
+\begin{aligned}3−\sqrt{2} & =\frac{𝑎}{𝑏} \\ −\sqrt{2} & =\frac{𝑎}{𝑏}−3 \\ \sqrt{2} & =3−\frac{𝑎}{𝑏} \\ \sqrt{2} & =\frac{3𝑏}{𝑏}−\frac{𝑎}{𝑏} \\ \sqrt{2} & =\overset{\frac{3𝑏−𝑎}{𝑏}}{}}{𝑐}\end{aligned}
 
 
 $$
@@ -407,7 +407,7 @@ Therefore, we have
 $$
 
 
-\begin{aligned}\sqrt{√2}=\frac{𝑐}{𝑏},\end{aligned}
+\begin{aligned}\sqrt{2}=\frac{𝑐}{𝑏},\end{aligned}
 
 
 $$

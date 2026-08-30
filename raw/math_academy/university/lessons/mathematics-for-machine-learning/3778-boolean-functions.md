@@ -54,7 +54,7 @@ Let $f$ be the Boolean function of three variables defined as
 $$
 
 
-\ f(x_1,x_2,x_3) = (x_1 + x_2 + x_3) \: \textrm{mod} \: 2.
+\ f(x_1,x_2,x_3) = (x_1 + x_2 + x_3) \: \text{mod} \: 2.
 
 
 $$
@@ -147,13 +147,13 @@ Each combination of our Boolean variables can be uniquely represented by a tuple
 
 We first need to determine the number of rows in a table to find the number of possible tables.
 
-Now, each coordinate of the tuple can have one of $\boxed{\color{blue}2}$ possible values. Thus, by the combinatorial rule of $\boxed{\color{blue}\textrm{product}},$ there are $\boxed{\color{blue}2^{3}}$ possible tuples in total.
+Now, each coordinate of the tuple can have one of $\boxed{\color{blue}2}$ possible values. Thus, by the combinatorial rule of $\boxed{\color{blue}\text{product}},$ there are $\boxed{\color{blue}2^{3}}$ possible tuples in total.
 
 Notice that the number of tuples was computed as ${2 \cdot 2 \cdot 2}= 2^{3}.$
 
 Finally, we find the number of possible tables.
 
-As a result, our table has $\boxed{\color{blue}2^{3}}$ rows. Here, each row contains one of $\boxed{\color{blue}2}$ possible function values. Therefore, by the combinatorial rule of $\boxed{\color{blue}\textrm{product}},$ there are $\boxed{\color{blue}2^{2^3}}$ possible functions in total.
+As a result, our table has $\boxed{\color{blue}2^{3}}$ rows. Here, each row contains one of $\boxed{\color{blue}2}$ possible function values. Therefore, by the combinatorial rule of $\boxed{\color{blue}\text{product}},$ there are $\boxed{\color{blue}2^{2^3}}$ possible functions in total.
 
 Notice that the number of tuples was computed as $2^{3}$
 
@@ -187,7 +187,7 @@ Which of the following boolean functions are equivalent to $f?$
 
 2. $g_2(x_1,x_2) = \min\{x_1,x_2\}$
 
-3. $g_3(x_1,x_2) = (x_1 + x_2) \: \textrm{mod} \: 2$
+3. $g_3(x_1,x_2) = (x_1 + x_2) \: \text{mod} \: 2$
 
 **
 

@@ -123,11 +123,11 @@ A **loop** is an edge that is incident to a single vertex. For example, in the i
 
 Given the directed graph above, complete the blanks to make the following statements true.
 
-- $e_4$ is incident on $\boxed{\phantom{\textrm{v_3}}}$
+- $e_4$ is incident on $\boxed{\phantom{\mathrm{v_3}}}$
 
-- $v_2$ is $\boxed{\phantom{\textrm{a vertex}}}$ of the graph.
+- $v_2$ is $\boxed{\phantom{\mathrm{a vertex}}}$ of the graph.
 
-- $e_2$ and $e_1$ are $\boxed{\phantom{\textrm{parallel}}}$ edges.
+- $e_2$ and $e_1$ are $\boxed{\phantom{\mathrm{parallel}}}$ edges.
 
 #### Explanation
 
@@ -141,9 +141,9 @@ With that in mind, we select the following options in our statements:
 
 $e_4$ is incident on $\boxed{\color{blue}v_3}.$
 
-$v_2$ is $\boxed{\color{blue}\textrm{a vertex}}$ of the graph.
+$v_2$ is $\boxed{\color{blue}\text{a vertex}}$ of the graph.
 
-$e_2$ and $e_1$ are $\boxed{\color{blue}\textrm{parallel}}$ edges.
+$e_2$ and $e_1$ are $\boxed{\color{blue}\text{parallel}}$ edges.
 
 ### Multigraphs and Simple Graphs
 

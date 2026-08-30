@@ -22,7 +22,7 @@ So, we can compute the velocity by taking the derivative of $x(t)$ with respect 
 $$
 
 
-v(t) = \frac{\textrm{d}x}{\textrm{d}t}
+v(t) = \frac{\text{d}x}{\text{d}t}
 
 
 $$
@@ -53,7 +53,7 @@ $$
 
 Let's build some more intuition for why velocity is defined as the derivative of position.
 
-If a car is moving at a constant velocity, and it travels a distance of $\Delta x=100\,\textrm{m}$ in a time interval $\Delta t=10\,\textrm{s},$ then we know that its velocity is given by
+If a car is moving at a constant velocity, and it travels a distance of $\Delta x=100\,\text{m}$ in a time interval $\Delta t=10\,\text{s},$ then we know that its velocity is given by
 
 $$
 
@@ -105,7 +105,7 @@ $$
 
 $$
 
-Therefore, the velocity of the particle is $19\,\textrm{m/s}.$
+Therefore, the velocity of the particle is $19\,\text{m/s}.$
 
 ### Speed vs Velocity
 
@@ -113,7 +113,7 @@ Therefore, the velocity of the particle is $19\,\textrm{m/s}.$
 
 **Speed**, however, is a scalar quantity with no direction. It is the magnitude of the velocity, given by $|v|$. The speed is always positive or zero, and is never negative.
 
-For example, if a particle moving along the $x$-axis has a velocity of $-2 \, \textrm{m/s},$ then it is moving left (in the negative direction) with a speed of $|{-2}|=2 \, \textrm{m/s}.$
+For example, if a particle moving along the $x$-axis has a velocity of $-2 \, \text{m/s},$ then it is moving left (in the negative direction) with a speed of $|{-2}|=2 \, \text{m/s}.$
 
 The reason why we take the absolute value when computing speed is that speed is directionless (unlike velocity, which can be positive or negative depending on the direction of motion).
 
@@ -133,7 +133,7 @@ s(t) = t^2 - 36t,\quad t\geq 0.
 
 $$
 
-Calculate the speed of the particle when $t=1\,\textrm{s}$.
+Calculate the speed of the particle when $t=1\,\text{s}$.
 
 #### Explanation
 
@@ -157,4 +157,4 @@ v(1) = 2(1) - 36 = -34.
 
 $$
 
-Therefore, the speed is $|{-34}| = 34\, \textrm{m/s}.$
+Therefore, the speed is $|{-34}| = 34\, \text{m/s}.$

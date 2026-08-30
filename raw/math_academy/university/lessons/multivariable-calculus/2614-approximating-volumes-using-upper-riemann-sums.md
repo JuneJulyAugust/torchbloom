@@ -55,7 +55,7 @@ The volume of this rectangular solid is
 $$
 
 
-M_{11}\cdot \textrm{Area}(R_{11}) = \dfrac14M_{11}.
+M_{11}\cdot \text{Area}(R_{11}) = \dfrac14M_{11}.
 
 
 $$
@@ -107,7 +107,7 @@ The volume of the rectangular solid corresponding to each subregion $R_{ij}$ is 
 $$
 
 
-M_{ij}\cdot \textrm{Area}(R_{ij}).
+M_{ij}\cdot \text{Area}(R_{ij}).
 
 
 $$
@@ -119,7 +119,7 @@ So in our case, we have
 $$
 
 
-U = M_{11}\cdot \textrm{Area}(R_{11}) + M_{21}\cdot \textrm{Area}(R_{21}).
+U = M_{11}\cdot \text{Area}(R_{11}) + M_{21}\cdot \text{Area}(R_{21}).
 
 
 $$
@@ -129,7 +129,7 @@ Now, notice that
 $$
 
 
-\textrm{Area}(R_{11}) = 8
+\text{Area}(R_{11}) = 8
 
 
 $$
@@ -139,7 +139,7 @@ and
 $$
 
 
-\textrm{Area}(R_{21}) = 4.
+\text{Area}(R_{21}) = 4.
 
 
 $$
@@ -283,14 +283,14 @@ The upper sum $U(f,P)$ is given by
 $$
 
 
-U(f,P) = M_{11}\cdot\textrm{Area}(R_{11}) + M_{21}\cdot\textrm{Area}(R_{21}) + M_{12}\cdot\textrm{Area}(R_{12}) + M_{22}\cdot\textrm{Area}(R_{22}),
+U(f,P) = M_{11}\cdot\text{Area}(R_{11}) + M_{21}\cdot\text{Area}(R_{21}) + M_{12}\cdot\text{Area}(R_{12}) + M_{22}\cdot\text{Area}(R_{22}),
 
 
 $$
 
 where $M_{ij}$ is the ** value of $f$ in each subregion $R_{ij}.$ We pick the ** value of $f$ because we're finding the ** sum.
 
-Taking into account the fact that $\textrm{Area}(R_{ij})=4$ for all $4$ regions, the formula for $U(f,P)$ reduces to
+Taking into account the fact that $\text{Area}(R_{ij})=4$ for all $4$ regions, the formula for $U(f,P)$ reduces to
 
 $$
 
@@ -359,14 +359,14 @@ The upper sum $U(f,P)$ is given by
 $$
 
 
-U(f,P) = M_{11}\cdot\textrm{Area}(R_{11}) + M_{21}\cdot\textrm{Area}(R_{21}) + M_{12}\cdot\textrm{Area}(R_{12}) + M_{22}\cdot\textrm{Area}(R_{22}),
+U(f,P) = M_{11}\cdot\text{Area}(R_{11}) + M_{21}\cdot\text{Area}(R_{21}) + M_{12}\cdot\text{Area}(R_{12}) + M_{22}\cdot\text{Area}(R_{22}),
 
 
 $$
 
 where $M_{ij}$ is the ** value of $f$ in each subregion $R_{ij}.$ We pick the ** value of $f$ because we're finding the ** sum,
 
-Taking into account the fact that $\textrm{Area}(R_{ij})=1$ for all $4$ subregions, the formula for $U(f,P)$ reduces to
+Taking into account the fact that $\text{Area}(R_{ij})=1$ for all $4$ subregions, the formula for $U(f,P)$ reduces to
 
 $$
 

@@ -13,7 +13,7 @@ Topic ID: 1038
 
 ### Introduction
 
-How can we calculate $\displaystyle{\int} \sin x \cos x \, \textrm{d}x?$
+How can we calculate $\displaystyle{\int} \sin x \cos x \, \text{d}x?$
 
 Notice that we have the product of sine and cosine with the same argument $(x).$ In such cases, we can use the double-angle formula for sine to solve the integral.
 
@@ -42,7 +42,7 @@ Plugging this into our integral, we get
 $$
 
 
-\begin{aligned} \int \sin x \cos x \, \textrm{d}x&=\int \dfrac{1}{2}\sin {2x} \, \textrm{d}x\\\[5pt] &=\dfrac{1}{2} \int \sin {2x} \, \textrm{d}x\\\[5pt] &=\dfrac{1}{2} \left( -\dfrac{1}{2} \cos {2x}\right )+C \\\[5pt] &=-\dfrac{1}{4} \cos {2x}+C. \end{aligned}
+\begin{aligned} \int \sin x \cos x \, \text{d}x&=\int \dfrac{1}{2}\sin {2x} \, \text{d}x\\[5pt] &=\dfrac{1}{2} \int \sin {2x} \, \text{d}x\\[5pt] &=\dfrac{1}{2} \left( -\dfrac{1}{2} \cos {2x}\right )+C \\[5pt] &=-\dfrac{1}{4} \cos {2x}+C. \end{aligned}
 
 
 $$
@@ -52,7 +52,7 @@ In general, we can use the double-angle formula for sine to solve any integral t
 $$
 
 
-\int \sin\left(ax+b\right)\cos(ax+b)\,\textrm{d}x.
+\int \sin\left(ax+b\right)\cos(ax+b)\,\text{d}x.
 
 
 $$
@@ -63,7 +63,7 @@ Let's take a look at another example.
 
 #### Question
 
-Calculate $\displaystyle{{\int}} \sin \left(\dfrac{x}{2} \right)\cos \left(\dfrac{x}{2}\right)\, \textrm{d}x.$
+Calculate $\displaystyle{{\int}} \sin \left(\dfrac{x}{2} \right)\cos \left(\dfrac{x}{2}\right)\, \text{d}x.$
 
 #### Explanation
 
@@ -82,7 +82,7 @@ Letting $\theta= \dfrac{x}{2},$ we get
 $$
 
 
-\begin{aligned} \dfrac{1}{2} \sin \left(2\cdot \dfrac{x}{2} \right) &= \sin \left(\dfrac{x}{2} \right)\cos\left( \dfrac{x}{2}\right)\\\[5pt] \dfrac{1}{2}\sin x &= \sin \left( \dfrac{x}{2}\right) \cos \left(\dfrac{x}{2}\right). \end{aligned}
+\begin{aligned} \dfrac{1}{2} \sin \left(2\cdot \dfrac{x}{2} \right) &= \sin \left(\dfrac{x}{2} \right)\cos\left( \dfrac{x}{2}\right)\\[5pt] \dfrac{1}{2}\sin x &= \sin \left( \dfrac{x}{2}\right) \cos \left(\dfrac{x}{2}\right). \end{aligned}
 
 
 $$
@@ -92,7 +92,7 @@ Therefore,
 $$
 
 
-\begin{aligned} \int \sin \left(\dfrac{x}{2}\right) \cos \left(\dfrac{x}{2}\right) \, \textrm{d}x&=\int \dfrac{1}{2}\sin {x} \, \textrm{d}x\\\[5pt] &=\dfrac{1}{2} \int \sin {x} \, \textrm{d}x\\\[5pt] &=\dfrac{1}{2} \left( - \cos {x}\right )+C \\\[5pt] &=-\dfrac{1}{2} \cos {x}+C. \end{aligned}
+\begin{aligned} \int \sin \left(\dfrac{x}{2}\right) \cos \left(\dfrac{x}{2}\right) \, \text{d}x&=\int \dfrac{1}{2}\sin {x} \, \text{d}x\\[5pt] &=\dfrac{1}{2} \int \sin {x} \, \text{d}x\\[5pt] &=\dfrac{1}{2} \left( - \cos {x}\right )+C \\[5pt] &=-\dfrac{1}{2} \cos {x}+C. \end{aligned}
 
 
 $$
@@ -115,7 +115,7 @@ We can use the double-angle formulas for cosine to integrate $\sin^2{x}$ and $\c
 
 #### Question
 
-Calculate $\displaystyle{\int} \left(\cos^2 3x - \sin^2 3x\right) \, \textrm{d}x.$
+Calculate $\displaystyle{\int} \left(\cos^2 3x - \sin^2 3x\right) \, \text{d}x.$
 
 #### Explanation
 
@@ -144,7 +144,7 @@ and therefore,
 $$
 
 
-\begin{aligned} {\int} \left(\cos^2 3x - \sin^2 3x\right ) \, \textrm{d}x&=\int \cos 6x\, \textrm{d}x\\&=\dfrac{1}{6}\sin6x+ C.\\\end{aligned}
+\begin{aligned} {\int} \left(\cos^2 3x - \sin^2 3x\right ) \, \text{d}x&=\int \cos 6x\, \text{d}x\\&=\dfrac{1}{6}\sin6x+ C.\\\end{aligned}
 
 
 $$
@@ -153,7 +153,7 @@ $$
 
 #### Question
 
-Calculate $\displaystyle{\int} \cos^2 x \, \textrm{d}x.$
+Calculate $\displaystyle{\int} \cos^2 x \, \text{d}x.$
 
 #### Explanation
 
@@ -182,7 +182,7 @@ Substituting this into our integral, we get
 $$
 
 
-\begin{aligned} \int \cos^2 x \, \textrm{d}x&=\int \dfrac{1}{2} \left(\cos 2x +1 \right) \, \textrm{d}x\\\[5pt] &=\dfrac{1}{2}\int ( \cos {2x} +1) \textrm{d}x\\\[5pt] &= \dfrac{1}{2}\left(\dfrac{1}{2}\sin {2x} +x\right) + C\\\[5pt] &= \dfrac{1}{4}\sin {2x} +\dfrac{1}{2}x + C. \end{aligned}
+\begin{aligned} \int \cos^2 x \, \text{d}x&=\int \dfrac{1}{2} \left(\cos 2x +1 \right) \, \text{d}x\\[5pt] &=\dfrac{1}{2}\int ( \cos {2x} +1) \text{d}x\\[5pt] &= \dfrac{1}{2}\left(\dfrac{1}{2}\sin {2x} +x\right) + C\\[5pt] &= \dfrac{1}{4}\sin {2x} +\dfrac{1}{2}x + C. \end{aligned}
 
 
 $$
@@ -191,7 +191,7 @@ $$
 
 #### Question
 
-Calculate $\displaystyle{\int} \sin^2(3x) \, \textrm{d}x.$
+Calculate $\displaystyle{\int} \sin^2(3x) \, \text{d}x.$
 
 #### Explanation
 

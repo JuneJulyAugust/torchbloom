@@ -18,7 +18,7 @@ The exponential function $f(x) = e^x$ has the special property that its derivati
 $$
 
 
-\dfrac{\textrm{d}}{ \textrm{d} x}\left( e^x \right)= e^x
+\dfrac{\text{d}}{ \text{d} x}\left( e^x \right)= e^x
 
 
 $$
@@ -44,7 +44,7 @@ Using the addition rule, then, we have
 $$
 
 
-\begin{aligned} f'(x) &= \dfrac{\textrm{d}}{\textrm{d}x}\left(3e^x + \ln 3\right)\\&= \dfrac{\textrm{d}}{\textrm{d}x}\left( 3e^x\right) + \dfrac{\textrm{d}}{\textrm{d}x}\left( \ln 3 \right)\\&= 3\dfrac{\textrm{d}}{\textrm{d}x}\left(e^x\right) + 0\\&= 3 e^x. \end{aligned}
+\begin{aligned} f'(x) &= \dfrac{\text{d}}{\text{d}x}\left(3e^x + \ln 3\right)\\&= \dfrac{\text{d}}{\text{d}x}\left( 3e^x\right) + \dfrac{\text{d}}{\text{d}x}\left( \ln 3 \right)\\&= 3\dfrac{\text{d}}{\text{d}x}\left(e^x\right) + 0\\&= 3 e^x. \end{aligned}
 
 
 $$
@@ -62,7 +62,7 @@ Using the addition and the power rules, we get
 $$
 
 
-\begin{aligned} f'(x) &= \dfrac{\textrm{d}}{\textrm{d}x}\left(4e^x+3x^{4} - x^2 \right)\\&= \dfrac{\textrm{d}}{\textrm{d}x}\left(4e^x\right)+\dfrac{\textrm{d}}{\textrm{d}x}\left(3x^{4}\right) -\dfrac{\textrm{d}}{\textrm{d}x}\left(x^{2}\right) \\&= 4\dfrac{\textrm{d}}{\textrm{d}x}\left(e^x\right)+3\dfrac{\textrm{d}}{\textrm{d}x}\left(x^{4}\right) - 2x \\&= 4 e^x+ 3 \cdot 4x^{3} - 2x \\&= 4 e^x+ 12x^{3} - 2x. \end{aligned}
+\begin{aligned} f'(x) &= \dfrac{\text{d}}{\text{d}x}\left(4e^x+3x^{4} - x^2 \right)\\&= \dfrac{\text{d}}{\text{d}x}\left(4e^x\right)+\dfrac{\text{d}}{\text{d}x}\left(3x^{4}\right) -\dfrac{\text{d}}{\text{d}x}\left(x^{2}\right) \\&= 4\dfrac{\text{d}}{\text{d}x}\left(e^x\right)+3\dfrac{\text{d}}{\text{d}x}\left(x^{4}\right) - 2x \\&= 4 e^x+ 3 \cdot 4x^{3} - 2x \\&= 4 e^x+ 12x^{3} - 2x. \end{aligned}
 
 
 $$
@@ -74,7 +74,7 @@ If we replace the base $e$ of an exponential function by any other positive numb
 $$
 
 
-\dfrac{\textrm{d}}{ \textrm{d} x}\left( a^x \right)= a^x \ln a
+\dfrac{\text{d}}{ \text{d} x}\left( a^x \right)= a^x \ln a
 
 
 $$
@@ -86,7 +86,7 @@ Note that since $\ln e =1$, our first formula is a particular case of this one!
 $$
 
 
-\dfrac{\textrm{d}}{ \textrm{d} x}\left( e^x \right)= e^x \ln e = e^x \cdot 1 = e^x
+\dfrac{\text{d}}{ \text{d} x}\left( e^x \right)= e^x \ln e = e^x \cdot 1 = e^x
 
 
 $$
@@ -104,7 +104,7 @@ Applying the formula, we get
 $$
 
 
-\begin{aligned} f'(x) &= \dfrac{\textrm{d}}{\textrm{d}x}\left(3 \cdot 2^x\right) \\&= 3 \cdot \dfrac{\textrm{d}}{\textrm{d}x}\left(2^x\right) \\&= 3 \cdot 2^{x}\ln(2) \\&= 3 \ln(2) \cdot 2^{x}. \end{aligned}
+\begin{aligned} f'(x) &= \dfrac{\text{d}}{\text{d}x}\left(3 \cdot 2^x\right) \\&= 3 \cdot \dfrac{\text{d}}{\text{d}x}\left(2^x\right) \\&= 3 \cdot 2^{x}\ln(2) \\&= 3 \ln(2) \cdot 2^{x}. \end{aligned}
 
 
 $$

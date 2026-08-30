@@ -41,7 +41,7 @@ Taking the square root on both sides of the equation, we have
 $$
 
 
-\begin{aligned}cos^{2}⁡𝑥 & =\frac{3}{4} \\ cos⁡𝑥 & =±\sqrt{√\frac{3}{4}} \\ cos⁡𝑥 & =±\frac{\sqrt{√3}}{2}.\end{aligned}
+\begin{aligned}cos^{2}⁡𝑥 & =\frac{3}{4} \\ cos⁡𝑥 & =±\sqrt{\frac{3}{4}} \\ cos⁡𝑥 & =±\frac{\sqrt{3}}{2}.\end{aligned}
 
 
 $$
@@ -53,7 +53,7 @@ Our equations are
 $$
 
 
-\cos{x} = -\dfrac{\sqrt3}{2} \qquad \textrm{and}\qquad \cos{x} = \dfrac{\sqrt3}{2}.
+\cos{x} = -\dfrac{\sqrt3}{2} \qquad \text{and}\qquad \cos{x} = \dfrac{\sqrt3}{2}.
 
 
 $$
@@ -89,7 +89,7 @@ Taking the square root of both sides of the equation, we have
 $$
 
 
-\begin{aligned}cos^{2}⁡𝑥 & =\frac{1}{9} \\ cos⁡𝑥 & =±\sqrt{√\frac{1}{9}} \\ cos⁡𝑥 & =±\frac{1}{3}.\end{aligned}
+\begin{aligned}cos^{2}⁡𝑥 & =\frac{1}{9} \\ cos⁡𝑥 & =±\sqrt{\frac{1}{9}} \\ cos⁡𝑥 & =±\frac{1}{3}.\end{aligned}
 
 
 $$
@@ -145,7 +145,7 @@ Taking the square root on both sides of the equation, we have
 $$
 
 
-\begin{aligned}sin^{2}⁡(𝑥) & =\frac{3}{4} \\ sin⁡(𝑥) & =±\sqrt{√\frac{3}{4}} \\ sin⁡(𝑥) & =±\frac{\sqrt{√3}}{2}.\end{aligned}
+\begin{aligned}sin^{2}⁡(𝑥) & =\frac{3}{4} \\ sin⁡(𝑥) & =±\sqrt{\frac{3}{4}} \\ sin⁡(𝑥) & =±\frac{\sqrt{3}}{2}.\end{aligned}
 
 
 $$

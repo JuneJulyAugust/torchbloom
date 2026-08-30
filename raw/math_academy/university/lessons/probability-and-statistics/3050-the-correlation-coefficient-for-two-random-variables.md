@@ -12,14 +12,14 @@ Topic ID: 3050
 
 ### Introduction
 
-Let $X$ and $Y$ be two random variables with covariance $\textrm{Cov}[X, Y]$ and standard deviations $\textrm {SD}[X]$ and $\textrm {SD}[Y].$
+Let $X$ and $Y$ be two random variables with covariance $\text{Cov}[X, Y]$ and standard deviations $\textrm {SD}[X]$ and $\textrm {SD}[Y].$
 
 The **correlation coefficient of $X$ and $Y,$** also known as the **Pearson correlation coefficient**, is denoted $\rho$ (the Greek letter "rho") and is defined as
 
 $$
 
 
-\rho = \dfrac{\textrm{Cov}[X, Y] }{\textrm {SD}[X]\cdot \textrm {SD}[Y]}.
+\rho = \dfrac{\text{Cov}[X, Y] }{\textrm {SD}[X]\cdot \textrm {SD}[Y]}.
 
 
 $$
@@ -40,7 +40,7 @@ Let's get some practice computing the correlation coefficient.
 
 #### Question
 
-The variances of the random variables $X$ and $Y$ are $25$ and $36,$ respectively. Given that $\textrm{Cov}[X,Y] = 18,$ find the correlation coefficient of $X$ and $Y.$
+The variances of the random variables $X$ and $Y$ are $25$ and $36,$ respectively. Given that $\text{Cov}[X,Y] = 18,$ find the correlation coefficient of $X$ and $Y.$
 
 #### Explanation
 
@@ -49,14 +49,14 @@ Recall that the correlation coefficient of the random variables $X$ and $Y$ is d
 $$
 
 
-\rho = \dfrac{\textrm{Cov}[X, Y] }{\textrm {SD}[X] \cdot \textrm {SD}[Y]},
+\rho = \dfrac{\text{Cov}[X, Y] }{\textrm {SD}[X] \cdot \textrm {SD}[Y]},
 
 
 $$
 
 where
 
-- $\textrm{Cov}[X, Y]$ is the covariance, and
+- $\text{Cov}[X, Y]$ is the covariance, and
 
 - $\textrm {SD}[X]$ and $\textrm {SD}[Y]$ are the standard deviations of $X$ and $Y.$
 
@@ -65,7 +65,7 @@ In our case, we have
 $$
 
 
-\begin{aligned}SD[𝑋] & =\sqrt{√Var[𝑋]}=\sqrt{√25}=5, \\ SD[𝑋] & =\sqrt{√Var[𝑌]}=\sqrt{√36}=6.\end{aligned}
+\begin{aligned}SD[𝑋] & =\sqrt{Var[𝑋]}=\sqrt{25}=5, \\ SD[𝑋] & =\sqrt{Var[𝑌]}=\sqrt{36}=6.\end{aligned}
 
 
 $$
@@ -103,14 +103,14 @@ Recall that the correlation coefficient of random variables $X$ and $Y$ is defin
 $$
 
 
-\rho = \dfrac{\textrm{Cov}[X, Y] }{\textrm {SD}[X] \cdot \textrm {SD}[Y]},
+\rho = \dfrac{\text{Cov}[X, Y] }{\textrm {SD}[X] \cdot \textrm {SD}[Y]},
 
 
 $$
 
 where
 
-- $\textrm{Cov}[X, Y]$ is the covariance, and
+- $\text{Cov}[X, Y]$ is the covariance, and
 
 - $\textrm {SD}[X]$ and $\textrm {SD}[Y]$ are the standard deviations of $X$ and $Y.$
 
@@ -177,14 +177,14 @@ Recall that the correlation coefficient of the random variables $X$ and $Y$ is d
 $$
 
 
-\rho = \dfrac{\textrm{Cov}[X, Y] }{\textrm {SD}[X] \cdot \textrm {SD}[Y]},
+\rho = \dfrac{\text{Cov}[X, Y] }{\textrm {SD}[X] \cdot \textrm {SD}[Y]},
 
 
 $$
 
 where
 
-- $\textrm{Cov}[X, Y]$ is the covariance, and
+- $\text{Cov}[X, Y]$ is the covariance, and
 
 - $\textrm {SD}[X]$ and $\textrm {SD}[Y]$ are the standard deviations of $X$ and $Y.$
 
@@ -193,7 +193,7 @@ First, by applying the rule of the lazy statistician, we have
 $$
 
 
-\begin{aligned}E[𝑋𝑌] & =∬_{ℝ^{2}}𝑥𝑦\,𝑓(𝑥,𝑦)\,d𝑥d𝑦 \\ & =∫_{10}^{}[∫_{𝑥0}^{}𝑥𝑦⋅2(𝑥+𝑦)\,d𝑦]d𝑥 \\ & =∫_{10}^{}[∫_{𝑥0}^{}(2𝑥^{2}𝑦+2𝑥𝑦^{2})\,d𝑦]d𝑥 \\ & =∫_{10}^{}[𝑥^{2}𝑦^{2}+\frac{2}{3}𝑥𝑦^{3}]_{𝑦=𝑥𝑦=0}^{}d𝑥 \\ & =∫_{10}^{}(𝑥^{4}+\frac{2}{3}𝑥^{4})\,d𝑥 \\ & =∫_{10}^{}\frac{5}{3}𝑥^{4}\,d𝑥 \\ & =[\frac{1}{3}𝑥^{5}]_{10}^{} \\ & =\frac{1}{3}.\end{aligned}
+\begin{aligned}E[𝑋𝑌] & =∬_{ℝ^{2}}𝑥𝑦\,𝑓(𝑥,𝑦)\,d𝑥d𝑦 \\ & =∫_{10}[∫_{𝑥0}𝑥𝑦⋅2(𝑥+𝑦)\,d𝑦]d𝑥 \\ & =∫_{10}[∫_{𝑥0}(2𝑥^{2}𝑦+2𝑥𝑦^{2})\,d𝑦]d𝑥 \\ & =∫_{10}[𝑥^{2}𝑦^{2}+\frac{2}{3}𝑥𝑦^{3}]_{𝑦=𝑥𝑦=0}d𝑥 \\ & =∫_{10}(𝑥^{4}+\frac{2}{3}𝑥^{4})\,d𝑥 \\ & =∫_{10}\frac{5}{3}𝑥^{4}\,d𝑥 \\ & =[\frac{1}{3}𝑥^{5}]_{10} \\ & =\frac{1}{3}.\end{aligned}
 
 
 $$

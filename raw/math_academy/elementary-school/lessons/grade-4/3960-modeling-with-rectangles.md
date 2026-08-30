@@ -18,9 +18,9 @@ Consider a rectangle shown below.
 
 From the diagram, we note the following:
 
-- The *width* of the rectangle is $8 \, \textrm{m}.$
+- The *width* of the rectangle is $8 \, \text{m}.$
 
-- The *area* of the rectangle is $48 \, \textrm{m}^2.$ The area units $(\textrm{m}^2)$ are called **square meters.**
+- The *area* of the rectangle is $48 \, \text{m}^2.$ The area units $(\text{m}^2)$ are called **square meters.**
 
 How do we use this information to determine the *length* of this rectangle?
 
@@ -32,11 +32,11 @@ Now, remember that the area of a rectangle is given by the formula
 
 $$
 
-{\color{red}{\textrm{Area}}} = \textrm{Length} \times {\color{blue}{\textrm{Width}}}.
+{\color{red}{\text{Area}}} = \text{Length} \times {\color{blue}{\text{Width}}}.
 
 $$
 
-In our example, the area is ${\color{red}{48}} \, \textrm{m}^2,$ the length is $x\,\textrm{m},$ and the width is ${\color{blue}{8}} \, \textrm{m}.$ Substituting these values into the equation above, we obtain
+In our example, the area is ${\color{red}{48}} \, \text{m}^2,$ the length is $x\,\text{m},$ and the width is ${\color{blue}{8}} \, \text{m}.$ Substituting these values into the equation above, we obtain
 
 $$
 
@@ -52,7 +52,7 @@ $$
 
 $$
 
-Therefore, the rectangle's length is $6 \, \textrm{m}.$
+Therefore, the rectangle's length is $6 \, \text{m}.$
 
 ### Example: Finding an Equation for a Rectangle’s Area With an Unknown Factor
 
@@ -60,7 +60,7 @@ Therefore, the rectangle's length is $6 \, \textrm{m}.$
 
 ![Instructional graphic](../../../lesson-assets/grade-4/topic-3960/3a070d75c3080ee7.png)
 
-The area of a rectangle is $28 \, \textrm{cm}^2$ and its length is $7 \, \textrm{cm}.$ If $x$ denotes the unknown width of the rectangle, what equation can be used to find that width?
+The area of a rectangle is $28 \, \text{cm}^2$ and its length is $7 \, \text{cm}.$ If $x$ denotes the unknown width of the rectangle, what equation can be used to find that width?
 
 **
 
@@ -70,11 +70,11 @@ Remember that the area of a rectangle is given by
 
 $$
 
-\textrm{Area} = \textrm{Length} \times \textrm{Width}.
+\text{Area} = \text{Length} \times \text{Width}.
 
 $$
 
-In our example, the area is $28 \, \textrm{cm}^2,$ the length is $7 \, \textrm{cm},$ and the width is $x\, \textrm{cm}.$
+In our example, the area is $28 \, \text{cm}^2,$ the length is $7 \, \text{cm},$ and the width is $x\, \text{cm}.$
 
 ![Instructional graphic](../../../lesson-assets/grade-4/topic-3960/833448b6364fd2a2.png)
 
@@ -90,7 +90,7 @@ Notice that we can swap the factors on the right-hand side. Therefore, there are
 
 $$
 
-28 = 7 \times x \qquad\textrm{or}\qquad 28 = x \times 7
+28 = 7 \times x \qquad\text{or}\qquad 28 = x \times 7
 
 $$
 
@@ -100,7 +100,7 @@ $$
 
 ![Instructional graphic](../../../lesson-assets/grade-4/topic-3960/ab642cfb9c49f38e.png)
 
-The area of a rectangle is $30 \, \textrm{m}^2$ and its width is $6 \, \textrm{m}.$ What is the length of the rectangle?
+The area of a rectangle is $30 \, \text{m}^2$ and its width is $6 \, \text{m}.$ What is the length of the rectangle?
 
 **
 
@@ -110,11 +110,11 @@ Remember that the area of a rectangle is given by
 
 $$
 
-\textrm{Area} = \textrm{Length} \times \textrm{Width}.
+\text{Area} = \text{Length} \times \text{Width}.
 
 $$
 
-In our example, the area is $30 \, \textrm{m}^2$ and the width is $6 \, \textrm{m}.$ Let's denote the unknown length as $x.$
+In our example, the area is $30 \, \text{m}^2$ and the width is $6 \, \text{m}.$ Let's denote the unknown length as $x.$
 
 ![Instructional graphic](../../../lesson-assets/grade-4/topic-3960/335ee55ab3ea8354.png)
 
@@ -134,7 +134,7 @@ $$
 
 $$
 
-Therefore, the rectangle's length is $5 \, \textrm{m}.$
+Therefore, the rectangle's length is $5 \, \text{m}.$
 
 ### Perimeters of Rectangles
 
@@ -146,11 +146,11 @@ Let's compute the perimeter of the rectangle shown below.
 
 Note the following:
 
-- The rectangle's *length* is ${\color{red}{6}}\,\textrm{m}.$
+- The rectangle's *length* is ${\color{red}{6}}\,\text{m}.$
 
-- The rectangle's *width* is ${\color{blue}{8}}\,\textrm{m}.$
+- The rectangle's *width* is ${\color{blue}{8}}\,\text{m}.$
 
-Now, notice that the rectangle has $2$ sides of length ${\color{red}{6}}\,\textrm{m},$ and $2$ sides of length ${\color{blue}{8}}\,\textrm{m}.$ Therefore, the perimeter of the rectangle, in meters, is given by
+Now, notice that the rectangle has $2$ sides of length ${\color{red}{6}}\,\text{m},$ and $2$ sides of length ${\color{blue}{8}}\,\text{m}.$ Therefore, the perimeter of the rectangle, in meters, is given by
 
 $$
 
@@ -158,7 +158,7 @@ $$
 
 $$
 
-Therefore, the perimeter of the rectangle is $28\,\textrm{m}.$
+Therefore, the perimeter of the rectangle is $28\,\text{m}.$
 
 Sometimes, we might know the perimeter of a rectangle, and we need to use this to determine the rectangle's length or width. Let's see an example.
 
@@ -166,13 +166,13 @@ Sometimes, we might know the perimeter of a rectangle, and we need to use this t
 
 #### Question
 
-The perimeter of a rectangle is $18 \, \textrm{cm}$ and its width is $3 \, \textrm{cm}.$ Which of the following options gives the length of the rectangle?
+The perimeter of a rectangle is $18 \, \text{cm}$ and its width is $3 \, \text{cm}.$ Which of the following options gives the length of the rectangle?
 
-1. $4 \, \textrm{cm}$
+1. $4 \, \text{cm}$
 
-2. $5 \, \textrm{cm}$
+2. $5 \, \text{cm}$
 
-3. $6 \, \textrm{cm}$
+3. $6 \, \text{cm}$
 
 #### Explanation
 
@@ -180,11 +180,11 @@ Remember that the perimeter of a rectangle is given by
 
 $$
 
-\textrm{Perimeter} = 2 \times \textrm{Length} + 2 \times \textrm{Width}.
+\text{Perimeter} = 2 \times \text{Length} + 2 \times \text{Width}.
 
 $$
 
-In our example, the perimeter is $18 \, \textrm{cm}$ and the width is $3 \, \textrm{cm}.$ Let's denote the unknown length as $x.$
+In our example, the perimeter is $18 \, \text{cm}$ and the width is $3 \, \text{cm}.$ Let's denote the unknown length as $x.$
 
 ![Instructional graphic](../../../lesson-assets/grade-4/topic-3960/43f42f1ef42b6896.png)
 
@@ -212,7 +212,7 @@ $$
 
 $$
 
-Therefore, the rectangle's length is $6 \, \textrm{cm}.$
+Therefore, the rectangle's length is $6 \, \text{cm}.$
 
 ****: The symbol $\neq$ means "is not equal to."
 
@@ -220,13 +220,13 @@ Therefore, the rectangle's length is $6 \, \textrm{cm}.$
 
 #### Question
 
-The perimeter of a rectangular laptop screen is $42 \, \textrm{in},$ and its length is $12 \, \textrm{in}.$ Which of the following gives the width of the laptop screen?
+The perimeter of a rectangular laptop screen is $42 \, \text{in},$ and its length is $12 \, \text{in}.$ Which of the following gives the width of the laptop screen?
 
-1. $7\, \textrm{in}$
+1. $7\, \text{in}$
 
-2. $8 \, \textrm{in}$
+2. $8 \, \text{in}$
 
-3. $9 \, \textrm{in}$
+3. $9 \, \text{in}$
 
 #### Explanation
 
@@ -234,11 +234,11 @@ Remember that the perimeter of a rectangle is given by
 
 $$
 
-\textrm{Perimeter} = 2 \times \textrm{Length} + 2 \times \textrm{Width}.
+\text{Perimeter} = 2 \times \text{Length} + 2 \times \text{Width}.
 
 $$
 
-In our example, the perimeter is $42 \, \textrm{in}$ and the length is $12 \, \textrm{in}.$ Let's denote the unknown width as $x.$
+In our example, the perimeter is $42 \, \text{in}$ and the length is $12 \, \text{in}.$ Let's denote the unknown width as $x.$
 
 Substituting the known values into the equation above, we obtain
 
@@ -264,4 +264,4 @@ $$
 
 $$
 
-Therefore, the laptop screen's width is $9 \, \textrm{in}.$
+Therefore, the laptop screen's width is $9 \, \text{in}.$

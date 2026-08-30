@@ -144,7 +144,7 @@ Now we can substitute the given information $\dfrac{\textrm d r}{\textrm d t}=\s
 $$
 
 
-\begin{aligned}\frac{d𝑟}{d𝑡} & =\frac{d𝜃}{d𝑡}⋅cos⁡𝜃 \\ \sqrt{√2} & =\frac{d𝜃}{d𝑡}⋅cos⁡(\frac{𝜋}{4}) \\ \sqrt{√2} & =\frac{d𝜃}{d𝑡}⋅\frac{\sqrt{√2}}{2} \\ \frac{d𝜃}{d𝑡} & =\sqrt{√2}⋅\frac{2}{\sqrt{√2}} \\ \frac{d𝜃}{d𝑡} & =2.\end{aligned}
+\begin{aligned}\frac{d𝑟}{d𝑡} & =\frac{d𝜃}{d𝑡}⋅cos⁡𝜃 \\ \sqrt{2} & =\frac{d𝜃}{d𝑡}⋅cos⁡(\frac{𝜋}{4}) \\ \sqrt{2} & =\frac{d𝜃}{d𝑡}⋅\frac{\sqrt{2}}{2} \\ \frac{d𝜃}{d𝑡} & =\sqrt{2}⋅\frac{2}{\sqrt{2}} \\ \frac{d𝜃}{d𝑡} & =2.\end{aligned}
 
 
 $$
@@ -153,7 +153,7 @@ $$
 
 #### Question
 
-A particle $P$ is moving along the curve $y=x+e^x$ such that the $x$-coordinate of $P$ is changing at the rate of $2 \,\textrm{cm}/\textrm{s}.$ Find the rate of change of the $y$-coordinate when $x=5\,\textrm{cm}.$
+A particle $P$ is moving along the curve $y=x+e^x$ such that the $x$-coordinate of $P$ is changing at the rate of $2 \,\text{cm}/\text{s}.$ Find the rate of change of the $y$-coordinate when $x=5\,\text{cm}.$
 
 #### Explanation
 
@@ -167,7 +167,7 @@ $$
 
 $$
 
-Now, we can substitute the given information $\dfrac{\textrm d x}{\textrm d t}=2 \,\textrm{cm}/\textrm{s}$ and $x=5$ and get
+Now, we can substitute the given information $\dfrac{\textrm d x}{\textrm d t}=2 \,\text{cm}/\text{s}$ and $x=5$ and get
 
 $$
 

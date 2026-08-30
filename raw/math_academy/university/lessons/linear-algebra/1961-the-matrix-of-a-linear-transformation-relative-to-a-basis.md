@@ -135,7 +135,7 @@ The image of $[\mathbf{x}]_{\mathcal{B}}$ relative to the basis $\mathcal{B}$ un
 $$
 
 
-\begin{aligned}[𝐓(𝐱)]_{B} & =[𝐓]_{B}[𝐱]_{B} \\ & =[\begin{aligned}3 & 1 \\ −2 & 5\end{aligned}][\begin{aligned}−3 \\ 2\end{aligned}] \\ & =[\begin{aligned}−7 \\ 16\end{aligned}].\end{aligned}
+\begin{aligned}[𝐓(𝐱)]_{B} & =[𝐓]_{B}[𝐱]_{B} \\ & =[\begin{matrix}3 & 1 \\ −2 & 5\end{matrix}][\begin{matrix}−3 \\ 2\end{matrix}] \\ & =[\begin{matrix}−7 \\ 16\end{matrix}].\end{aligned}
 
 
 $$
@@ -261,7 +261,7 @@ Now, we reduce the left-hand side to reduced row echelon form using Gaussian eli
 $$
 
 
-\begin{aligned}𝑀 & =[\begin{aligned}1 & 1 & 5 & 3 \\ −1 & 1 & −4 & −7\end{aligned}] & & \begin{aligned}𝑅_{2}:=𝑅_{2}+𝑅_{1}\end{aligned} \\ & ∼[\begin{aligned}1 & 1 & 5 & 3 \\ 0 & 2 & 1 & −4\end{aligned}] & & \begin{aligned}𝑅_{2}:=\frac{1}{2}𝑅_{2}\end{aligned} \\ & ∼\begin{aligned}1 & 1 & 5 & 3 \\ 0 & 1 & \frac{1}{2} & −2\end{aligned} & & \begin{aligned}𝑅_{1}:=𝑅_{1}−𝑅_{2}\end{aligned} \\ & ∼\begin{aligned}1 & 0 & \frac{9}{2} & 5 \\ 0 & 1 & \frac{1}{2} & −2\end{aligned} & & \end{aligned}
+\begin{aligned}𝑀 & =[\begin{matrix}1 & 1 & 5 & 3 \\ −1 & 1 & −4 & −7\end{matrix}] & & \begin{matrix}𝑅_{2}:=𝑅_{2}+𝑅_{1}\end{matrix} \\ & ∼[\begin{matrix}1 & 1 & 5 & 3 \\ 0 & 2 & 1 & −4\end{matrix}] & & \begin{matrix}𝑅_{2}:=\frac{1}{2}𝑅_{2}\end{matrix} \\ & ∼\begin{matrix}1 & 1 & 5 & 3 \\ 0 & 1 & \frac{1}{2} & −2\end{matrix} & & \begin{matrix}𝑅_{1}:=𝑅_{1}−𝑅_{2}\end{matrix} \\ & ∼\begin{matrix}1 & 0 & \frac{9}{2} & 5 \\ 0 & 1 & \frac{1}{2} & −2\end{matrix} & & \end{aligned}
 
 
 $$
@@ -319,7 +319,7 @@ Now, we reduce the left-hand side to reduced row echelon form using Gaussian eli
 $$
 
 
-\begin{aligned}𝑀 & =\begin{aligned}1 & −3 & 0 & −9 & 7 & 10 \\ 0 & 1 & −3 & 0 & −2 & −10 \\ 0 & 0 & 4 & 4 & 0 & 8\end{aligned} & & \begin{aligned}𝑅_{3}:=\frac{1}{4}𝑅_{3}\end{aligned} \\ & ∼\begin{aligned}1 & −3 & 0 & −9 & 7 & 10 \\ 0 & 1 & −3 & 0 & −2 & −10 \\ 0 & 0 & 1 & 1 & 0 & 2\end{aligned} & & \begin{aligned}𝑅_{2}:=𝑅_{2}+3𝑅_{3}\end{aligned} \\ & ∼\begin{aligned}1 & −3 & 0 & −9 & 7 & 10 \\ 0 & 1 & 0 & 3 & −2 & −4 \\ 0 & 0 & 1 & 1 & 0 & 2\end{aligned} & & \begin{aligned}𝑅_{1}:=𝑅_{1}+3𝑅_{2}\end{aligned} \\ & ∼\begin{aligned}1 & 0 & 0 & 0 & 1 & −2 \\ 0 & 1 & 0 & 3 & −2 & −4 \\ 0 & 0 & 1 & 1 & 0 & 2\end{aligned} & & \end{aligned}
+\begin{aligned}𝑀 & =\begin{matrix}1 & −3 & 0 & −9 & 7 & 10 \\ 0 & 1 & −3 & 0 & −2 & −10 \\ 0 & 0 & 4 & 4 & 0 & 8\end{matrix} & & \begin{matrix}𝑅_{3}:=\frac{1}{4}𝑅_{3}\end{matrix} \\ & ∼\begin{matrix}1 & −3 & 0 & −9 & 7 & 10 \\ 0 & 1 & −3 & 0 & −2 & −10 \\ 0 & 0 & 1 & 1 & 0 & 2\end{matrix} & & \begin{matrix}𝑅_{2}:=𝑅_{2}+3𝑅_{3}\end{matrix} \\ & ∼\begin{matrix}1 & −3 & 0 & −9 & 7 & 10 \\ 0 & 1 & 0 & 3 & −2 & −4 \\ 0 & 0 & 1 & 1 & 0 & 2\end{matrix} & & \begin{matrix}𝑅_{1}:=𝑅_{1}+3𝑅_{2}\end{matrix} \\ & ∼\begin{matrix}1 & 0 & 0 & 0 & 1 & −2 \\ 0 & 1 & 0 & 3 & −2 & −4 \\ 0 & 0 & 1 & 1 & 0 & 2\end{matrix} & & \end{aligned}
 
 
 $$

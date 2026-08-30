@@ -27,7 +27,7 @@ Now, using the Pythagorean theorem, we obtain
 $$
 
 
-\begin{aligned}𝑑 & =\sqrt{√𝑤^{2}+ℎ^{2}} \\ & =\sqrt{√3^{2}+7^{2}} \\ & =\sqrt{√9+49} \\ & =\sqrt{√58}\,cm.\end{aligned}
+\begin{aligned}𝑑 & =\sqrt{𝑤^{2}+ℎ^{2}} \\ & =\sqrt{3^{2}+7^{2}} \\ & =\sqrt{9+49} \\ & =\sqrt{58}\,cm.\end{aligned}
 
 
 $$
@@ -69,7 +69,7 @@ Now, using the Pythagorean theorem, we obtain
 $$
 
 
-\begin{aligned}𝑑 & =\sqrt{√𝑙^{2}+ℎ^{2}} \\ & =\sqrt{√2^{2}+4^{2}} \\ & =\sqrt{√4+16} \\ & =\sqrt{√20} \\ & =2\sqrt{√5}\,cm.\end{aligned}
+\begin{aligned}𝑑 & =\sqrt{𝑙^{2}+ℎ^{2}} \\ & =\sqrt{2^{2}+4^{2}} \\ & =\sqrt{4+16} \\ & =\sqrt{20} \\ & =2\sqrt{5}\,cm.\end{aligned}
 
 
 $$
@@ -78,7 +78,7 @@ $$
 
 A **diagonal** of a rectangular solid is any line segment that joins two opposite vertices. It is the longest line segment that we can draw inside the solid.
 
-The diagram below shows a rectangular solid with length $l=12\,\textrm{cm},$ width $w=4\,\textrm{cm},$ and height $h=3\,\textrm{cm}.$ Let's denote the length of the diagonal as $d.$
+The diagram below shows a rectangular solid with length $l=12\,\text{cm},$ width $w=4\,\text{cm},$ and height $h=3\,\text{cm}.$ Let's denote the length of the diagonal as $d.$
 
 ![Instructional graphic](../../../../lesson-assets/integrated-math-ii/topic-1752/e2e7b9e9389c0169.png)
 
@@ -99,7 +99,7 @@ Applying our formula, we get
 $$
 
 
-\begin{aligned}𝑑 & =\sqrt{√12^{2}+4^{2}+3^{2}} \\ & =\sqrt{√144+16+9} \\ & =\sqrt{√169} \\ & =13\,cm.\end{aligned}
+\begin{aligned}𝑑 & =\sqrt{12^{2}+4^{2}+3^{2}} \\ & =\sqrt{144+16+9} \\ & =\sqrt{169} \\ & =13\,cm.\end{aligned}
 
 
 $$
@@ -112,7 +112,7 @@ Finally, note that there are precisely $4$ diagonals for every rectangular solid
 
 #### Question
 
-A rectangular prism is $6\,\textrm{in}$ long, $2\,\textrm{in}$ wide, and $4\,\textrm{in}$ high. What is the length of a diagonal of the solid?
+A rectangular prism is $6\,\text{in}$ long, $2\,\text{in}$ wide, and $4\,\text{in}$ high. What is the length of a diagonal of the solid?
 
 #### Explanation
 
@@ -137,7 +137,7 @@ Substituting the values
 $$
 
 
-l=6\,\textrm{in}, \qquad w=2\,\textrm{in}, \qquad h=4\,\textrm{in}
+l=6\,\text{in}, \qquad w=2\,\text{in}, \qquad h=4\,\text{in}
 
 
 $$
@@ -147,7 +147,7 @@ into the formula for $d,$ we get
 $$
 
 
-\begin{aligned}𝑑 & =\sqrt{√6^{2}+2^{2}+4^{2}} \\ & =\sqrt{√36+4+16} \\ & =\sqrt{√56} \\ & =2\sqrt{√14}\,in.\end{aligned}
+\begin{aligned}𝑑 & =\sqrt{6^{2}+2^{2}+4^{2}} \\ & =\sqrt{36+4+16} \\ & =\sqrt{56} \\ & =2\sqrt{14}\,in.\end{aligned}
 
 
 $$
@@ -179,7 +179,7 @@ Substituting the values
 $$
 
 
-d = \sqrt{14}, \qquad l=3\,\textrm{m}, \qquad w=1\,\textrm{m}
+d = \sqrt{14}, \qquad l=3\,\text{m}, \qquad w=1\,\text{m}
 
 
 $$
@@ -189,7 +189,7 @@ into the formula for $d,$ we get
 $$
 
 
-\begin{aligned}\sqrt{√14} & =\sqrt{√3^{2}+1^{2}+ℎ^{2}} \\ & =\sqrt{√9+1+ℎ^{2}} \\ & =\sqrt{√10+ℎ^{2}}.\end{aligned}
+\begin{aligned}\sqrt{14} & =\sqrt{3^{2}+1^{2}+ℎ^{2}} \\ & =\sqrt{9+1+ℎ^{2}} \\ & =\sqrt{10+ℎ^{2}}.\end{aligned}
 
 
 $$
@@ -199,7 +199,7 @@ Therefore, solving for $h,$ we get the following:
 $$
 
 
-\begin{aligned}(\sqrt{√14})^{2} & =(\sqrt{√10+ℎ^{2}})^{2} \\ 14 & =10+ℎ^{2} \\ 4 & =ℎ^{2} \\ ℎ & =2.\end{aligned}
+\begin{aligned}(\sqrt{14})^{2} & =(\sqrt{10+ℎ^{2}})^{2} \\ 14 & =10+ℎ^{2} \\ 4 & =ℎ^{2} \\ ℎ & =2.\end{aligned}
 
 
 $$
@@ -239,7 +239,7 @@ Next, notice that $\triangle{ACG}$ is a right triangle with legs $AC$ and $CG$ a
 $$
 
 
-\begin{aligned}𝑑 & =\sqrt{√𝐴𝐶^{2}+𝐶𝐺^{2}} \\ & =\sqrt{√(𝑙^{2}+𝑤^{2})+ℎ^{2}} \\ & =\sqrt{√𝑙^{2}+𝑤^{2}+ℎ^{2}}.\end{aligned}
+\begin{aligned}𝑑 & =\sqrt{𝐴𝐶^{2}+𝐶𝐺^{2}} \\ & =\sqrt{(𝑙^{2}+𝑤^{2})+ℎ^{2}} \\ & =\sqrt{𝑙^{2}+𝑤^{2}+ℎ^{2}}.\end{aligned}
 
 
 $$

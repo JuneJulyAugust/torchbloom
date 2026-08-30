@@ -206,13 +206,13 @@ X = \sum\limits_{i=1}^{n} X_i
 
 $$
 
-where $X_i \sim \textrm{Bernoulli}(p).$
+where $X_i \sim \text{Bernoulli}(p).$
 
 Since the $X_i$'s take the value $1$ if the $i$th element has the characteristic or $0$ if the $i$th element doesn't have the characteristic, the statistic $X$ can be used to count the number of elements with the characteristic. In other words, $X$ represents the number of sample elements with the characteristic.
 
 We wish to determine the sampling distribution of $X.$ Note the following:
 
-- Each $X_i$ can be modeled as a Bernoulli random variable, i.e., $X_i\sim \textrm{Bernoulli}(p).$
+- Each $X_i$ can be modeled as a Bernoulli random variable, i.e., $X_i\sim \text{Bernoulli}(p).$
 
 - Since we're assuming that $N\gg n,$ it follows that $X_1, X_2, \ldots, X_n$ are (approximately) *independent and identically distributed* (I.I.D) Bernoulli random variables.
 
@@ -235,7 +235,7 @@ Finally, using the formulas for the mean and variance of a Binomial random varia
 $$
 
 
-\textrm{E}[X] = np, \qquad \textrm{Var}[X] = np(1-p)
+\text{E}[X] = np, \qquad \text{Var}[X] = np(1-p)
 
 
 $$
@@ -264,7 +264,7 @@ $$
 
 $$
 
-find approximate values of $\textrm{E}[X]$ and $\textrm{Var}[X].$
+find approximate values of $\text{E}[X]$ and $\text{Var}[X].$
 
 **
 
@@ -285,7 +285,7 @@ Now, provided that $N \gg n,$ the random variables $X_i$ can be considered indep
 $$
 
 
-X_i\sim \textrm{Bernoulli}(p) \qquad 1\leq i\leq n
+X_i\sim \text{Bernoulli}(p) \qquad 1\leq i\leq n
 
 
 $$
@@ -307,7 +307,7 @@ can be approximated as a binomial random variable $X\approx B(n,p),$ where
 $$
 
 
-\textrm{E}[X] = np, \qquad \textrm{Var}[X] = np(1-p).
+\text{E}[X] = np, \qquad \text{Var}[X] = np(1-p).
 
 
 $$
@@ -381,7 +381,7 @@ Let's calculate the mean and variance of $\widehat{\,p}.$ First, recall that
 $$
 
 
-\textrm{E}[X] = np, \qquad \textrm{Var}[X] = np(1-p).
+\text{E}[X] = np, \qquad \text{Var}[X] = np(1-p).
 
 
 $$
@@ -411,7 +411,7 @@ To summarize, we have the following important results:
 $$
 
 
-\textrm{E}[\widehat{\,p}] = p, \qquad \textrm{Var}[\widehat{\,p}] = \dfrac{p(1-p)}{n}
+\text{E}[\widehat{\,p}] = p, \qquad \text{Var}[\widehat{\,p}] = \dfrac{p(1-p)}{n}
 
 
 $$
@@ -420,12 +420,12 @@ It should be noted that we don't yet know the sampling distribution of $\widehat
 
 ### The Standard Error
 
-The standard deviation of $\widehat{\,p}$ is called the **standard error** of $\widehat{\,p}$ and is denoted $\textrm{SE}[\widehat{\,p}]\mathbin{:}$
+The standard deviation of $\widehat{\,p}$ is called the **standard error** of $\widehat{\,p}$ and is denoted $\text{SE}[\widehat{\,p}]\mathbin{:}$
 
 $$
 
 
-\textrm{SE}[\widehat{\,p}] = \sqrt{\textrm{Var}[\widehat{\,p}]} = \sqrt{\dfrac{p(1-p)}{n}}
+\text{SE}[\widehat{\,p}] = \sqrt{\text{Var}[\widehat{\,p}]} = \sqrt{\dfrac{p(1-p)}{n}}
 
 
 $$
@@ -435,12 +435,12 @@ If $p$ is unknown, we can replace it with its estimate $\widehat{\,p}$ in the st
 $$
 
 
-\widehat{\textrm{SE}}[\widehat{\,p}] = \sqrt{\dfrac{\widehat{\,p}(1-\widehat{\,p})}{n}}
+\widehat{\text{SE}}[\widehat{\,p}] = \sqrt{\dfrac{\widehat{\,p}(1-\widehat{\,p})}{n}}
 
 
 $$
 
-Note that we have written $\widehat{\textrm{SE}}[\widehat{\,p}]$ to denote that the above expression is an estimate of $\textrm{SE}[\widehat{\,p}].$
+Note that we have written $\widehat{\text{SE}}[\widehat{\,p}]$ to denote that the above expression is an estimate of $\text{SE}[\widehat{\,p}].$
 
 ### Example: Mean and Variance of Sample Proportions
 
@@ -479,7 +479,7 @@ where $p$ is the proportion of the population that have the characteristic, and
 $$
 
 
-\textrm{E}[X] = np, \qquad \textrm{Var}[X] = np(1-p).
+\text{E}[X] = np, \qquad \text{Var}[X] = np(1-p).
 
 
 $$
@@ -499,7 +499,7 @@ Using the properties of expectation and variance, it is straightforward to show 
 $$
 
 
-\textrm{E}[\widehat{\,p} ] = p, \qquad \textrm{Var}[\widehat{\,p} ] = \dfrac{p(1-p)}{n}.
+\text{E}[\widehat{\,p} ] = p, \qquad \text{Var}[\widehat{\,p} ] = \dfrac{p(1-p)}{n}.
 
 
 $$

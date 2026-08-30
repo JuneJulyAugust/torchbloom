@@ -62,7 +62,7 @@ Therefore, applying the integral identity above, we have for $s>\dfrac{1}{2},$
 $$
 
 
-\begin{aligned}L{𝑔(𝑡)} & =L\,{∫_{𝑡0}^{}𝑒^{𝜏/2}\,d𝜏} \\ & =\frac{𝐹(𝑠)}{𝑠} \\ & =\frac{1}{𝑠\,(𝑠−\frac{1}{2})} \\ & =\frac{2}{𝑠(2𝑠−1)}.\end{aligned}
+\begin{aligned}L{𝑔(𝑡)} & =L\,{∫_{𝑡0}𝑒^{𝜏/2}\,d𝜏} \\ & =\frac{𝐹(𝑠)}{𝑠} \\ & =\frac{1}{𝑠\,(𝑠−\frac{1}{2})} \\ & =\frac{2}{𝑠(2𝑠−1)}.\end{aligned}
 
 
 $$
@@ -90,7 +90,7 @@ exists for all $s>a$, and we have the **Integration Property**:
 $$
 
 
-\mathcal L\!\left\{\int_0^t f(\tau)\,\textrm{d}\tau\right\} = \frac{F(s)}{s}, \qquad s>a.
+\mathcal L\!\left\{\int_0^t f(\tau)\,\text{d}\tau\right\} = \frac{F(s)}{s}, \qquad s>a.
 
 
 $$
@@ -110,7 +110,7 @@ Given that $\mathcal{L}\{\cos(\omega t)\} = \dfrac{s}{s^2+\omega^2}$ for $s>0,$ 
 $$
 
 
-\displaystyle g(t)= \int_{0}^{t} \cos\big(\pi\tau\big) \, \textrm{d}\tau, \quad s>0.
+\displaystyle g(t)= \int_{0}^{t} \cos\big(\pi\tau\big) \, \text{d}\tau, \quad s>0.
 
 
 $$
@@ -142,7 +142,7 @@ Therefore, applying the integral identity above, we have that for $s > 0,$
 $$
 
 
-\begin{aligned}L{𝑔(𝑡)} & =L{∫_{𝑡0}^{}cos⁡(𝜋𝜏)\,d𝜏} \\ & =\frac{𝐹(𝑠)}{𝑠} \\ & =\frac{1}{𝑠^{2}+𝜋^{2}}.\end{aligned}
+\begin{aligned}L{𝑔(𝑡)} & =L{∫_{𝑡0}cos⁡(𝜋𝜏)\,d𝜏} \\ & =\frac{𝐹(𝑠)}{𝑠} \\ & =\frac{1}{𝑠^{2}+𝜋^{2}}.\end{aligned}
 
 
 $$
@@ -210,7 +210,7 @@ Using the property above in reverse, we obtain
 $$
 
 
-\begin{aligned}L^{−1}{𝐺(𝑠)} & =L^{−1}{\frac{𝐹(𝑠)}{𝑠}} \\ & =∫_{𝑡0}^{}𝑓(𝜏)\,d𝜏 \\ & =∫_{𝑡0}^{}𝑒^{𝜏}\,d𝜏 \\ & =𝑒^{𝜏}\,_{𝑡0}^{} \\ & =𝑒^{𝑡}−1.\end{aligned}
+\begin{aligned}L^{−1}{𝐺(𝑠)} & =L^{−1}{\frac{𝐹(𝑠)}{𝑠}} \\ & =∫_{𝑡0}𝑓(𝜏)\,d𝜏 \\ & =∫_{𝑡0}𝑒^{𝜏}\,d𝜏 \\ & =𝑒^{𝜏}\,_{𝑡0} \\ & =𝑒^{𝑡}−1.\end{aligned}
 
 
 $$
@@ -236,7 +236,7 @@ Let $A(t)$ be the anti-derivative of $f(t)$ such that $A'(t) = f(t)$ and $A(0) =
 $$
 
 
-\begin{aligned}∫_{𝑡0}^{}𝑓(𝜏)\,𝑑𝜏 & =𝐴(𝜏)\,_{𝑡0}^{} \\ & =𝐴(𝑡)−𝐴(0) \\ & =𝐴(𝑡).\end{aligned}
+\begin{aligned}∫_{𝑡0}𝑓(𝜏)\,𝑑𝜏 & =𝐴(𝜏)\,_{𝑡0} \\ & =𝐴(𝑡)−𝐴(0) \\ & =𝐴(𝑡).\end{aligned}
 
 
 $$
@@ -246,7 +246,7 @@ By definition of the Laplace transform, we can write
 $$
 
 
-\begin{aligned}L{∫_{𝑡0}^{}𝑓(𝜏)\,d𝜏} & =L{𝐴(𝑡)}=∫_{∞0}^{}𝑒^{−𝑠𝑡}𝐴(𝑡)\,d𝑡.\end{aligned}
+\begin{aligned}L{∫_{𝑡0}𝑓(𝜏)\,d𝜏} & =L{𝐴(𝑡)}=∫_{∞0}𝑒^{−𝑠𝑡}𝐴(𝑡)\,d𝑡.\end{aligned}
 
 
 $$
@@ -266,7 +266,7 @@ Substituting into the integration by parts formula, we get
 $$
 
 
-\begin{aligned}∫_{∞0}^{}𝑒^{−𝑠𝑡}𝐴(𝑡)\,d𝑡 & =𝐴(𝑡)(−\frac{1}{𝑠}𝑒^{−𝑠𝑡})\,_{∞0}^{}−∫_{∞0}^{}(−\frac{1}{𝑠}𝑒^{−𝑠𝑡})𝐴^{′}(𝑡)\,d𝑡.\end{aligned}
+\begin{aligned}∫_{∞0}𝑒^{−𝑠𝑡}𝐴(𝑡)\,d𝑡 & =𝐴(𝑡)(−\frac{1}{𝑠}𝑒^{−𝑠𝑡})\,_{∞0}−∫_{∞0}(−\frac{1}{𝑠}𝑒^{−𝑠𝑡})𝐴^{′}(𝑡)\,d𝑡.\end{aligned}
 
 
 $$
@@ -286,7 +286,7 @@ Finally, using that $A'(t) = f(t),$ we obtain
 $$
 
 
-\begin{aligned}\frac{1}{𝑠}∫_{∞0}^{}𝑒^{−𝑠𝑡}𝐴^{′}(𝑡)\,d𝑡 & =\frac{1}{𝑠}∫_{∞0}^{}𝑒^{−𝑠𝑡}𝑓(𝑡)\,d𝑡 \\ & =\frac{1}{𝑠}⋅𝐹(𝑠) \\ & =\frac{𝐹(𝑠)}{𝑠}.\end{aligned}
+\begin{aligned}\frac{1}{𝑠}∫_{∞0}𝑒^{−𝑠𝑡}𝐴^{′}(𝑡)\,d𝑡 & =\frac{1}{𝑠}∫_{∞0}𝑒^{−𝑠𝑡}𝑓(𝑡)\,d𝑡 \\ & =\frac{1}{𝑠}⋅𝐹(𝑠) \\ & =\frac{𝐹(𝑠)}{𝑠}.\end{aligned}
 
 
 $$

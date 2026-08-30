@@ -14,11 +14,11 @@ Topic ID: 1814
 
 Until now, all limits of the form $\lim\limits_{x \to a} f(x)$ that we have encountered have evaluated to either a finite number or $\text{DNE}.$ However, there is another possibility: the limit could be *infinite*!
 
-For example, consider the function $f(x)$ whose graph is shown below. This function has a vertical asymptote at $x=1,$ and the function value $f(x)$ grows without bound as $x$ approaches the asymptote $x=1.$ What is the limit $\lim_\limits{x\to 1} f(x)$?
+For example, consider the function $f(x)$ whose graph is shown below. This function has a vertical asymptote at $x=1,$ and the function value $f(x)$ grows without bound as $x$ approaches the asymptote $x=1.$ What is the limit $\lim\limits_{x\to 1} f(x)$?
 
 ![Instructional graphic](../../../lesson-assets/mathematical-foundations-ii/topic-1814/d16a3e3530ebf1cd.png)
 
-Remember that in order for computing any limit, in this case, $\lim_\limits{x\to 1} f(x),$ we have to compute the left and right-sided limits separately and ensure that they match up.
+Remember that in order for computing any limit, in this case, $\lim\limits_{x\to 1} f(x),$ we have to compute the left and right-sided limits separately and ensure that they match up.
 
 - **Left-sided limit:** As we approach $x=1$ (the vertical asymptote) from the left side of the graph, the function $f(x)$ increases without bound, approaching $\infty.$ We conclude that
 
@@ -29,7 +29,7 @@ We see that both the left and right limits exist and are equal to $\infty\mathbi
 $$
 
 
-\lim_\limits{x\to 1^-} f(x) = \lim_\limits{x\to 1^+} f(x) = \infty
+\lim\limits_{x\to 1^-} f(x) = \lim\limits_{x\to 1^+} f(x) = \infty
 
 
 $$
@@ -39,7 +39,7 @@ As a result, the overall limit is also equal to $\infty\mathbin{:}$
 $$
 
 
-\lim_\limits{x\to 1} f(x) = \infty
+\lim\limits_{x\to 1} f(x) = \infty
 
 
 $$
@@ -48,7 +48,7 @@ $$
 
 #### Question
 
-The figure below shows the graph of $f(x).$ Evaluate $\lim_\limits{x \to \,4} f(x).$
+The figure below shows the graph of $f(x).$ Evaluate $\lim\limits_{x \to \,4} f(x).$
 
 ![Instructional graphic](../../../lesson-assets/mathematical-foundations-ii/topic-1814/106de0fadbd5f713.png)
 
@@ -59,7 +59,7 @@ We see from the graph that as $x$ approaches $4$ from the left, the function $f(
 $$
 
 
-\lim_\limits{x\rightarrow 4^-} f(x) = -\infty \, .
+\lim\limits_{x\rightarrow 4^-} f(x) = -\infty \, .
 
 
 $$
@@ -69,7 +69,7 @@ Likewise, as $x$ approaches $4$ from the right, the function $f(x)$ again approa
 $$
 
 
-\lim_\limits{x\rightarrow 4^+} f(x) = -\infty \, .
+\lim\limits_{x\rightarrow 4^+} f(x) = -\infty \, .
 
 
 $$
@@ -79,7 +79,7 @@ Consequently,
 $$
 
 
-\lim_\limits{x\rightarrow 4} f(x)=-\infty \, .
+\lim\limits_{x\rightarrow 4} f(x)=-\infty \, .
 
 
 $$
@@ -88,7 +88,7 @@ $$
 
 #### Question
 
-The figure below shows the graph of $f(x).$ What is $\lim_\limits{x \to \,-\,4} f(x)?$
+The figure below shows the graph of $f(x).$ What is $\lim\limits_{x \to \,-\,4} f(x)?$
 
 ![Instructional graphic](../../../lesson-assets/mathematical-foundations-ii/topic-1814/b3da1f3955d263fa.png)
 
@@ -99,7 +99,7 @@ As $x$ approaches $-4$ from the right, the function value $f(x)$ grows to infini
 $$
 
 
-\lim_\limits{x\to -4^+} f(x)=\infty.
+\lim\limits_{x\to -4^+} f(x)=\infty.
 
 
 $$
@@ -109,7 +109,7 @@ However, the function $f(x)$ is not defined for $x<-4,$ and consequently we cann
 $$
 
 
-\lim_\limits{x\to -4^-} f(x)=\text{DNE},
+\lim\limits_{x\to -4^-} f(x)=\text{DNE},
 
 
 $$
@@ -119,7 +119,7 @@ and therefore
 $$
 
 
-\lim_\limits{x\to -4} f(x)=\text{DNE}.
+\lim\limits_{x\to -4} f(x)=\text{DNE}.
 
 
 $$

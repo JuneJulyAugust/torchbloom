@@ -47,7 +47,7 @@ The data set now contains $6$ data points. Therefore, the median of this new dat
 $$
 
 
-\textrm{median} = \dfrac{2+2}{2} = 2.
+\text{median} = \dfrac{2+2}{2} = 2.
 
 
 $$
@@ -83,7 +83,7 @@ The data set now contains $6$ data points. Therefore, the median of this new dat
 $$
 
 
-\textrm{median} = \dfrac{3+4}{2} = 3.5.
+\text{median} = \dfrac{3+4}{2} = 3.5.
 
 
 $$
@@ -158,7 +158,7 @@ Now, we compare the medians.
 
 - Since dataset $B$ has an even number of data points ($10$ in total), the median is the average of the two middle values (the ${\color{blue}5}$th and ${\color{blue}6}$th, respectively). Hence, the median of dataset $B$ is $\dfrac{10+10}{2}=10.$
 
-Therefore, in conclusion, the mean of dataset $A$ is $\boxed{\textrm{greater than}}$ the mean of dataset $B,$ and the median of dataset $A$ is $\boxed{\textrm{equal to}}$ the median of dataset $B.$
+Therefore, in conclusion, the mean of dataset $A$ is $\boxed{\text{greater than}}$ the mean of dataset $B,$ and the median of dataset $A$ is $\boxed{\text{equal to}}$ the median of dataset $B.$
 
 ### Comparing the Statistics of Symmetric and Near-Symmetric Datasets
 

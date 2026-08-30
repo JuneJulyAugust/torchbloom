@@ -23,7 +23,7 @@ For example, suppose we're given the following information:
 
 - The length of each side of $\triangle MNO$ is $6$ times the length of the corresponding side of $\triangle JKL.$
 
-- The area of $\triangle JKL$ is $10\,\textrm{ft}^2.$
+- The area of $\triangle JKL$ is $10\,\text{ft}^2.$
 
 Let's use this information to find the area of $\triangle MNO.$
 
@@ -57,7 +57,7 @@ $$
 
 $$
 
-Solving for $\mathcal{A}_{MNO}$ and substituting in $\mathcal{A}_{JKL} = 10\,\textrm{ft}^2,$ we get
+Solving for $\mathcal{A}_{MNO}$ and substituting in $\mathcal{A}_{JKL} = 10\,\text{ft}^2,$ we get
 
 $$
 
@@ -119,7 +119,7 @@ times larger than the area of $R.$
 
 #### Question
 
-A teacher builds a scale foam model of a classroom. The actual classroom has an area of $1{,}120\,\textrm{ft}^2.$ The length of each side of the model classroom is $\dfrac{1}{20}$ times the length of the corresponding side of the actual classroom. What is the area of the model classroom?
+A teacher builds a scale foam model of a classroom. The actual classroom has an area of $1{,}120\,\text{ft}^2.$ The length of each side of the model classroom is $\dfrac{1}{20}$ times the length of the corresponding side of the actual classroom. What is the area of the model classroom?
 
 #### Explanation
 
@@ -139,7 +139,7 @@ $$
 
 $$
 
-Solving for $\mathcal{A}_{\text{model}}$ and substituting in $\mathcal{A}_{\text{actual}}=1{,}120\,\textrm{ft}^2,$ we get
+Solving for $\mathcal{A}_{\text{model}}$ and substituting in $\mathcal{A}_{\text{actual}}=1{,}120\,\text{ft}^2,$ we get
 
 $$
 
@@ -213,7 +213,7 @@ $$
 
 ![Instructional graphic](../../../lesson-assets/sat-math-fundamentals/topic-6309/7f2a2d464531838b.png)
 
-The diagram above shows two circles, where point $V$ and the center of each circle lie on $\overline{UW}.$ The ratio of $UV$ to $VW$ is $9\mathbin{:}1.$ If the area of the smaller circle is $81\,\textrm{cm}^2,$ what is the area of the shaded region?
+The diagram above shows two circles, where point $V$ and the center of each circle lie on $\overline{UW}.$ The ratio of $UV$ to $VW$ is $9\mathbin{:}1.$ If the area of the smaller circle is $81\,\text{cm}^2,$ what is the area of the shaded region?
 
 #### Explanation
 
@@ -243,7 +243,7 @@ $$
 
 $$
 
-Solving for $\mathcal{A}_{\text{larger}}$ and substituting in $\mathcal{A}_{\text{smaller}} = 81\,\textrm{cm}^2,$ we get
+Solving for $\mathcal{A}_{\text{larger}}$ and substituting in $\mathcal{A}_{\text{smaller}} = 81\,\text{cm}^2,$ we get
 
 $$
 

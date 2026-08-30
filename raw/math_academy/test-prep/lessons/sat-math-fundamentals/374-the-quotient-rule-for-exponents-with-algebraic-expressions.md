@@ -115,7 +115,7 @@ First we apply the quotient rule, subtracting exponents in the fraction:
 $$
 
 
-\begin{aligned}\begin{aligned}\frac{𝑝^{7}}{𝑝^{2}}⋅𝑝^{3} & = \\ 𝑝^{(7−2)}⋅𝑝^{3} & = \\ 𝑝^{5}⋅𝑝^{3} & \end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}\frac{𝑝^{7}}{𝑝^{2}}⋅𝑝^{3} & = \\ 𝑝^{(7−2)}⋅𝑝^{3} & = \\ 𝑝^{5}⋅𝑝^{3} & \end{matrix}\end{aligned}
 
 
 $$
@@ -125,7 +125,7 @@ Then we apply the product rule, adding exponents in the product:
 $$
 
 
-\begin{aligned}\begin{aligned}𝑝^{5}⋅𝑝^{3} & = \\ 𝑝^{(5+3)} & = \\ 𝑝^{8} & \end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}𝑝^{5}⋅𝑝^{3} & = \\ 𝑝^{(5+3)} & = \\ 𝑝^{8} & \end{matrix}\end{aligned}
 
 
 $$
@@ -135,7 +135,7 @@ Therefore,
 $$
 
 
-\begin{aligned}\begin{aligned}\frac{𝑝^{7}}{𝑝^{2}}⋅𝑝^{3}=𝑝^{8}.\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}\frac{𝑝^{7}}{𝑝^{2}}⋅𝑝^{3}=𝑝^{8}.\end{matrix}\end{aligned}
 
 
 $$

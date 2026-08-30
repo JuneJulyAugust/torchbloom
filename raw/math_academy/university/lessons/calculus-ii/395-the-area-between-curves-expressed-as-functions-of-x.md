@@ -20,7 +20,7 @@ The area $A$ of the region is given by
 $$
 
 
-A = \int_{-1}^{1} \left[\, \left(\color{brown}{\textrm{upper function}}\right) - \left(\color{blue}{\textrm{lower function}}\right) \,\right] \,\textrm{d}x.
+A = \int_{-1}^{1} \left[\, \left(\color{brown}{\text{upper function}}\right) - \left(\color{blue}{\text{lower function}}\right) \,\right] \,\text{d}x.
 
 
 $$
@@ -30,7 +30,7 @@ So in our case, the area is expressed as
 $$
 
 
-A = \int_{-1}^{1} \big[ ({\color{brown}{1}}) - ({\color{blue}{x^2}}) \big]\,\textrm{d}x = \int_{-1}^{1} (1-x^2)\,\textrm{d}x.
+A = \int_{-1}^{1} \big[ ({\color{brown}{1}}) - ({\color{blue}{x^2}}) \big]\,\text{d}x = \int_{-1}^{1} (1-x^2)\,\text{d}x.
 
 
 $$
@@ -40,7 +40,7 @@ Now that the integral has been written down correctly, we can evaluate it using 
 $$
 
 
-\begin{aligned}𝐴 & =∫_{1−1}^{}(1−𝑥^{2})\,d𝑥 \\ & =[𝑥−\frac{𝑥^{3}}{3}]_{1−1}^{} \\ & =[1−\frac{1}{3}]−[−1−\frac{(−1)^{3}}{3}] \\ & =\frac{2}{3}−[−\frac{2}{3}] \\ & =\frac{4}{3}\end{aligned}
+\begin{aligned}𝐴 & =∫_{1−1}(1−𝑥^{2})\,d𝑥 \\ & =[𝑥−\frac{𝑥^{3}}{3}]_{1−1} \\ & =[1−\frac{1}{3}]−[−1−\frac{(−1)^{3}}{3}] \\ & =\frac{2}{3}−[−\frac{2}{3}] \\ & =\frac{4}{3}\end{aligned}
 
 
 $$
@@ -88,7 +88,7 @@ Therefore, the integral that gives our area is
 $$
 
 
-\begin{aligned}𝐴 & =∫_{10}^{}[\,(upper function)−(lower function)\,]\,d𝑥 \\ & =∫_{10}^{}[\,(\sqrt{√𝑥})−(𝑥^{2})\,]\,d𝑥 \\ & =∫_{10}^{}(\sqrt{√𝑥}−𝑥^{2})\,d𝑥.\end{aligned}
+\begin{aligned}𝐴 & =∫_{10}[\,(upper function)−(lower function)\,]\,d𝑥 \\ & =∫_{10}[\,(\sqrt{𝑥})−(𝑥^{2})\,]\,d𝑥 \\ & =∫_{10}(\sqrt{𝑥}−𝑥^{2})\,d𝑥.\end{aligned}
 
 
 $$
@@ -134,7 +134,7 @@ Therefore, the integral that gives our area is
 $$
 
 
-\begin{aligned}𝐴 & =∫_{2−2}^{}[\,(upper function)−(lower function)\,]\,d𝑥 \\ & =∫_{2−2}^{}[\,(𝑥+9)−(𝑥^{2}+𝑥+5)\,]\,d𝑥 \\ & =∫_{2−2}^{}(4−𝑥^{2})\,d𝑥.\end{aligned}
+\begin{aligned}𝐴 & =∫_{2−2}[\,(upper function)−(lower function)\,]\,d𝑥 \\ & =∫_{2−2}[\,(𝑥+9)−(𝑥^{2}+𝑥+5)\,]\,d𝑥 \\ & =∫_{2−2}(4−𝑥^{2})\,d𝑥.\end{aligned}
 
 
 $$
@@ -176,7 +176,7 @@ Therefore, we can find the area as follows:
 $$
 
 
-\begin{aligned}𝐴 & =∫_{20}^{}[\,(upper function)−(lower function)\,]\,d𝑥 \\ & =∫_{20}^{}[\,(2)−(𝑥^{2}−2𝑥+2)\,]\,d𝑥 \\ & =∫_{20}^{}(−𝑥^{2}+2𝑥)\,d𝑥 \\ & =∫_{20}^{}(2𝑥−𝑥^{2})\,d𝑥 \\ & =(𝑥^{2}−\frac{1}{3}𝑥^{3})_{20}^{} \\ & =(2^{2}−\frac{1}{3}⋅2^{3})−(0−0) \\ & =(4−\frac{8}{3})−0 \\ & =\frac{4}{3}\end{aligned}
+\begin{aligned}𝐴 & =∫_{20}[\,(upper function)−(lower function)\,]\,d𝑥 \\ & =∫_{20}[\,(2)−(𝑥^{2}−2𝑥+2)\,]\,d𝑥 \\ & =∫_{20}(−𝑥^{2}+2𝑥)\,d𝑥 \\ & =∫_{20}(2𝑥−𝑥^{2})\,d𝑥 \\ & =(𝑥^{2}−\frac{1}{3}𝑥^{3})_{20} \\ & =(2^{2}−\frac{1}{3}⋅2^{3})−(0−0) \\ & =(4−\frac{8}{3})−0 \\ & =\frac{4}{3}\end{aligned}
 
 
 $$
@@ -188,7 +188,7 @@ Lastly, let's discuss why the area formula works.
 $$
 
 
-A = \int_{a}^{b}\left(\color{brown}{\textrm{upper function}}\right) - \left(\color{blue}{\textrm{lower function}}\right)\,\textrm{d}x
+A = \int_{a}^{b}\left(\color{brown}{\text{upper function}}\right) - \left(\color{blue}{\text{lower function}}\right)\,\text{d}x
 
 
 $$
@@ -216,7 +216,7 @@ The sum over all the rectangles will approximate the total area $A$ that we want
 $$
 
 
-\begin{aligned}𝐴=∫_{𝑏𝑎}^{}(𝑓(𝑥)−𝑔(𝑥))\,d𝑥\end{aligned}
+\begin{aligned}𝐴=∫_{𝑏𝑎}(𝑓(𝑥)−𝑔(𝑥))\,d𝑥\end{aligned}
 
 
 $$

@@ -135,7 +135,7 @@ We now convert this to a mixed number:
 $$
 
 
-27\div 4 = 6\,\textrm{R} 3 = 6\,\dfrac{3}{4}
+27\div 4 = 6\,\text{R} 3 = 6\,\dfrac{3}{4}
 
 
 $$

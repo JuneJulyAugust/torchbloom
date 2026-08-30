@@ -43,7 +43,7 @@ Since the samples are independent, by the properties of expectation and variance
 $$
 
 
-\textrm E [\widehat{\,p}_1 - \widehat{\,p}_2] = p_1 - p_2, \qquad \textrm{Var} [\widehat{\,p}_1 - \widehat{\,p}_2] = \dfrac{p_1(1-p_1)}{n_1} + \dfrac{p_2(1-p_2)}{n_2}.
+\textrm E [\widehat{\,p}_1 - \widehat{\,p}_2] = p_1 - p_2, \qquad \text{Var} [\widehat{\,p}_1 - \widehat{\,p}_2] = \dfrac{p_1(1-p_1)}{n_1} + \dfrac{p_2(1-p_2)}{n_2}.
 
 
 $$
@@ -205,7 +205,7 @@ Therefore, a $98\%$ confidence interval for the difference of the population pro
 $$
 
 
-\begin{aligned}(0.52−0.5)±2.326⋅\sqrt{√\frac{0.52(1−0.52)}{75}+\frac{0.5(1−0.5)}{62}}\end{aligned}
+\begin{aligned}(0.52−0.5)±2.326⋅\sqrt{\frac{0.52(1−0.52)}{75}+\frac{0.5(1−0.5)}{62}}\end{aligned}
 
 
 $$

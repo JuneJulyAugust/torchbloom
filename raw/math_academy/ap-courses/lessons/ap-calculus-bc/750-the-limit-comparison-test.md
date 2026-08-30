@@ -287,7 +287,7 @@ Computing the limit of the ratio, we get
 $$
 
 
-\begin{aligned}𝐿 & =\underset{𝑛→∞}{lim}\frac{𝑎_{𝑛}}{𝑏_{𝑛}} \\ & =\underset{𝑛→∞}{lim}(\frac{\sqrt[√𝑛^{2}]{3}}{3𝑛+4}÷\frac{1}{\sqrt{√𝑛}}) \\ & =\underset{𝑛→∞}{lim}(\frac{\sqrt[√𝑛^{2}]{3}}{3𝑛+4}⋅\sqrt{√𝑛}) \\ & =\underset{𝑛→∞}{lim}(\frac{𝑛^{2/3}}{3𝑛+4}⋅𝑛^{1/2}) \\ & =\underset{𝑛→∞}{lim}(\frac{𝑛^{7/6}}{3𝑛+4}) \\ & =\underset{𝑛→∞}{lim}(\frac{𝑛^{1/6}}{3+4/𝑛}) \\ & =\frac{∞}{3+0} \\ & =∞.\end{aligned}
+\begin{aligned}𝐿 & =\underset{𝑛→∞}{lim}\frac{𝑎_{𝑛}}{𝑏_{𝑛}} \\ & =\underset{𝑛→∞}{lim}(\frac{\sqrt[√𝑛^{2}]{3}}{3𝑛+4}÷\frac{1}{\sqrt{𝑛}}) \\ & =\underset{𝑛→∞}{lim}(\frac{\sqrt[√𝑛^{2}]{3}}{3𝑛+4}⋅\sqrt{𝑛}) \\ & =\underset{𝑛→∞}{lim}(\frac{𝑛^{2/3}}{3𝑛+4}⋅𝑛^{1/2}) \\ & =\underset{𝑛→∞}{lim}(\frac{𝑛^{7/6}}{3𝑛+4}) \\ & =\underset{𝑛→∞}{lim}(\frac{𝑛^{1/6}}{3+4/𝑛}) \\ & =\frac{∞}{3+0} \\ & =∞.\end{aligned}
 
 
 $$

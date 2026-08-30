@@ -38,7 +38,7 @@ From the original diagram, we have that
 $$
 
 
-{\color{blue}{\overrightarrow{PQ}}} = \mathbf{a} \qquad\textrm{and}\qquad {\color{blue}{\overrightarrow{QR}}} = -\mathbf{b}.
+{\color{blue}{\overrightarrow{PQ}}} = \mathbf{a} \qquad\text{and}\qquad {\color{blue}{\overrightarrow{QR}}} = -\mathbf{b}.
 
 
 $$

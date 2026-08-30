@@ -73,7 +73,7 @@ $$
 
 where $r$ is the radius of the base and $l$ is the slant height of the cone.
 
-Substituting $r=5\,\textrm{in}$ and $l=10\,\textrm{in}$ into the formula, we get
+Substituting $r=5\,\text{in}$ and $l=10\,\text{in}$ into the formula, we get
 
 $$
 
@@ -89,7 +89,7 @@ $$
 
 ![Instructional graphic](../../../../lesson-assets/integrated-math-ii/topic-1763/832725be4e419700.png)
 
-The surface area of the right cone above is $39 \pi \: \textrm{in}^2.$ What is the slant height of the cone?
+The surface area of the right cone above is $39 \pi \: \text{in}^2.$ What is the slant height of the cone?
 
 #### Explanation
 
@@ -129,7 +129,7 @@ $$
 
 #### Question
 
-The height of a right cone is $\sqrt7 \: \textrm{in}$ and the radius of its base is $3 \: \textrm{in}.$ Find the surface area of the cone.
+The height of a right cone is $\sqrt7 \: \text{in}$ and the radius of its base is $3 \: \text{in}.$ Find the surface area of the cone.
 
 #### Explanation
 
@@ -139,14 +139,14 @@ First, let's sketch a typical right cone and label its key features.
 
 Here, $r$ is the radius of the base, $l$ is the slant height, and $h$ is the height of the cone.
 
-In our case, we have $r=3\:\textrm{in}$ and $h = \sqrt7 \: \textrm{in}.$
+In our case, we have $r=3\:\text{in}$ and $h = \sqrt7 \: \text{in}.$
 
 Using the Pythagorean theorem in the right triangle above, we obtain
 
 $$
 
 
-\begin{aligned}𝑙 & =\sqrt{√ℎ^{2}+𝑟^{2}} \\ & =\sqrt{√(\sqrt{√7})^{2}+(3)^{2}} \\ & =\sqrt{√7+9} \\ & =\sqrt{√16} \\ & =4.\end{aligned}
+\begin{aligned}𝑙 & =\sqrt{ℎ^{2}+𝑟^{2}} \\ & =\sqrt{(\sqrt{7})^{2}+(3)^{2}} \\ & =\sqrt{7+9} \\ & =\sqrt{16} \\ & =4.\end{aligned}
 
 
 $$

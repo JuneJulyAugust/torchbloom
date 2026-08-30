@@ -29,25 +29,25 @@ A set $V$ equipped with vector addition and scalar multiplication forms a **vect
 
 #### Axioms of Vector Addition ($+$)
 
-- $\color{black}\textrm{[A1]}$: $\color{blue}\mathbf{x}+\mathbf{y} = \mathbf{y}+\mathbf{x}$ for any $\mathbf{x}, \mathbf{y} \in V$; vector addition is **commutative**.
+- $\color{black}\text{[A1]}$: $\color{blue}\mathbf{x}+\mathbf{y} = \mathbf{y}+\mathbf{x}$ for any $\mathbf{x}, \mathbf{y} \in V$; vector addition is **commutative**.
 
-- $\color{black}\textrm{[A2]}$: $\color{blue}(\mathbf{x}+\mathbf{y})+\mathbf{z} = \mathbf{x}+(\mathbf{y}+\mathbf{z})$ for any $\mathbf{x}, \mathbf{y}, \mathbf{z} \in V$; vectors addition is **associative**.
+- $\color{black}\text{[A2]}$: $\color{blue}(\mathbf{x}+\mathbf{y})+\mathbf{z} = \mathbf{x}+(\mathbf{y}+\mathbf{z})$ for any $\mathbf{x}, \mathbf{y}, \mathbf{z} \in V$; vectors addition is **associative**.
 
-- $\color{black}\textrm{[A3]}$: There exists a **zero-vector** $\mathbf{0}$ such that $\color{blue}\mathbf{x} + \mathbf{0} = \mathbf{x}$.
+- $\color{black}\text{[A3]}$: There exists a **zero-vector** $\mathbf{0}$ such that $\color{blue}\mathbf{x} + \mathbf{0} = \mathbf{x}$.
 
-- $\color{black}\textrm{[A4]}$: For every $\mathbf{x} \in V,$ there exists $-\mathbf{x} \in V$ such that $\color{blue}\mathbf{x} + (-\mathbf{x}) = \mathbf{0}$; $-\mathbf{x}$ is called the **negative** of $\mathbf{x}$.
+- $\color{black}\text{[A4]}$: For every $\mathbf{x} \in V,$ there exists $-\mathbf{x} \in V$ such that $\color{blue}\mathbf{x} + (-\mathbf{x}) = \mathbf{0}$; $-\mathbf{x}$ is called the **negative** of $\mathbf{x}$.
 
 #### Axioms of Scalar Multiplication ($\cdot$)
 
-- $\color{black}\textrm{[A5]}$: $\color{blue}1 \cdot \mathbf{x} = \mathbf{x}$ for any $\mathbf{x} \in V$; multiplying by $1$ does not change a vector.
+- $\color{black}\text{[A5]}$: $\color{blue}1 \cdot \mathbf{x} = \mathbf{x}$ for any $\mathbf{x} \in V$; multiplying by $1$ does not change a vector.
 
-- $\color{black}\textrm{[A6]}$: $\color{blue}\alpha (\beta \mathbf{x}) = (\alpha\beta) \mathbf{x}$ for any numbers $\alpha,\beta \in \mathbb{R}$ and any vector $\mathbf{x} \in V$.
+- $\color{black}\text{[A6]}$: $\color{blue}\alpha (\beta \mathbf{x}) = (\alpha\beta) \mathbf{x}$ for any numbers $\alpha,\beta \in \mathbb{R}$ and any vector $\mathbf{x} \in V$.
 
 #### Axioms Connecting Vector Addition and Scalar Multiplication (the Distributive Laws)
 
-- $\color{black}\textrm{[A7]}$: $\color{blue}(\alpha + \beta)\mathbf{x} = \alpha \mathbf{x} + \beta \mathbf{x}$ for any numbers $\alpha,\beta \in \mathbb{R}$ and any vector $\mathbf{x} \in V$.
+- $\color{black}\text{[A7]}$: $\color{blue}(\alpha + \beta)\mathbf{x} = \alpha \mathbf{x} + \beta \mathbf{x}$ for any numbers $\alpha,\beta \in \mathbb{R}$ and any vector $\mathbf{x} \in V$.
 
-- $\color{black}\textrm{[A8]}$: $\color{blue}\alpha (\mathbf{x} + \mathbf{y}) = \alpha \mathbf{x} + \alpha \mathbf{y}$ for any number $\alpha \in \mathbb{R}$ and any vectors $\mathbf{x}, \mathbf{y} \in V$.
+- $\color{black}\text{[A8]}$: $\color{blue}\alpha (\mathbf{x} + \mathbf{y}) = \alpha \mathbf{x} + \alpha \mathbf{y}$ for any number $\alpha \in \mathbb{R}$ and any vectors $\mathbf{x}, \mathbf{y} \in V$.
 
 So, a vector space is simply a collective term for all kinds of sets equipped with addition and scalar multiplication, where these operations satisfy this particular list of axioms (which are similar to the properties of these operations in $\mathbb{R}^n$).
 
@@ -118,7 +118,7 @@ From top to bottom, fill in the blanks and hence complete the proof of the follo
 $$
 
 
-\begin{aligned}𝐰+𝐰 & =𝐰 & & [\,given\,] \\ (𝐰+𝐰)+(−𝐰) & =𝐰+(−𝐰) & & [\,add -\mathbf{w} to both sides\,] \\ 𝐰+(𝐰+(−𝐰)) & =𝐰+(−𝐰) & & [\,axiom __\,\,] \\ 𝐰+𝟎 & =𝟎 & & [\,axiom A4\,] \\ 𝐰 & =𝟎 & & [\,axiom __\,\,]\end{aligned}
+\begin{aligned}𝐰+𝐰 & =𝐰 & & [\,given\,] \\ (𝐰+𝐰)+(−𝐰) & =𝐰+(−𝐰) & & [\,add -\mathbf{w} to both sides\,] \\ 𝐰+(𝐰+(−𝐰)) & =𝐰+(−𝐰) & & [\,axiom \underline{\hspace{3em}}\,\,] \\ 𝐰+𝟎 & =𝟎 & & [\,axiom A4\,] \\ 𝐰 & =𝟎 & & [\,axiom \underline{\hspace{3em}}\,\,]\end{aligned}
 
 
 $$

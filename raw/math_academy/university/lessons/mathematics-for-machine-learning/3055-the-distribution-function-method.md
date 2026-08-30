@@ -70,7 +70,7 @@ Now, to compute the PDF $f_Y(y)$ for $y > 1,$ we differentiate $F_Y$ with respec
 $$
 
 
-\begin{aligned}𝑓_{𝑌}(𝑦) & =𝐹_{′𝑌}^{}(𝑦) \\ & =\frac{d}{d𝑦}(𝐹_{𝑋}(\frac{𝑦−1}{2})) \\ & =\frac{d}{d𝑦}(\frac{𝑦−1}{2})⋅𝐹_{′𝑋}^{}(\frac{𝑦−1}{2}) \\ & =\frac{1}{2}⋅𝐹_{′𝑋}^{}(\frac{𝑦−1}{2}) \\ & =\frac{1}{2}⋅𝑓_{𝑋}(\frac{𝑦−1}{2}).\end{aligned}
+\begin{aligned}𝑓_{𝑌}(𝑦) & =𝐹_{′𝑌}(𝑦) \\ & =\frac{d}{d𝑦}(𝐹_{𝑋}(\frac{𝑦−1}{2})) \\ & =\frac{d}{d𝑦}(\frac{𝑦−1}{2})⋅𝐹_{′𝑋}(\frac{𝑦−1}{2}) \\ & =\frac{1}{2}⋅𝐹_{′𝑋}(\frac{𝑦−1}{2}) \\ & =\frac{1}{2}⋅𝑓_{𝑋}(\frac{𝑦−1}{2}).\end{aligned}
 
 
 $$
@@ -90,7 +90,7 @@ Therefore, the full expression for the PDF of $Y$ is
 $$
 
 
-\begin{aligned}𝑓_{𝑌}(𝑦) & =\begin{aligned}\frac{1}{2}𝑒^{(1−𝑦)/2}, & \,𝑦>1 \\ 0, & \,otherwise.\end{aligned}\end{aligned}
+\begin{aligned}𝑓_{𝑌}(𝑦) & =\begin{matrix}\frac{1}{2}𝑒^{(1−𝑦)/2}, & \,𝑦>1 \\ 0, & \,otherwise.\end{matrix}\end{aligned}
 
 
 $$
@@ -140,7 +140,7 @@ To compute the PDF $f_Y(y)$ for $-2 \lt y \lt 1,$ we differentiate $F_Y$ with re
 $$
 
 
-\begin{aligned}𝑓_{𝑌}(𝑦) & =𝐹_{′𝑌}^{}(𝑦) \\ & =0−(−\frac{1}{3})⋅𝐹_{′𝑋}^{}(\frac{1−𝑦}{3}) \\ & =\frac{1}{3}⋅𝑓_{𝑋}(\frac{1−𝑦}{3}).\end{aligned}
+\begin{aligned}𝑓_{𝑌}(𝑦) & =𝐹_{′𝑌}(𝑦) \\ & =0−(−\frac{1}{3})⋅𝐹_{′𝑋}(\frac{1−𝑦}{3}) \\ & =\frac{1}{3}⋅𝑓_{𝑋}(\frac{1−𝑦}{3}).\end{aligned}
 
 
 $$
@@ -208,7 +208,7 @@ To compute the PDF $f_Y(y)$ for $0 \lt y \lt 8,$ we differentiate $F_Y$ with res
 $$
 
 
-\begin{aligned}𝑓_{𝑌}(𝑦) & =𝐹_{′𝑌}^{}(𝑦) \\ & =0−(−\frac{1}{3𝑦^{2/3}})⋅𝐹_{′𝑋}^{}(2−𝑦^{1/3}) \\ & =\frac{1}{3𝑦^{2/3}}⋅𝑓_{𝑋}(2−𝑦^{1/3}).\end{aligned}
+\begin{aligned}𝑓_{𝑌}(𝑦) & =𝐹_{′𝑌}(𝑦) \\ & =0−(−\frac{1}{3𝑦^{2/3}})⋅𝐹_{′𝑋}(2−𝑦^{1/3}) \\ & =\frac{1}{3𝑦^{2/3}}⋅𝑓_{𝑋}(2−𝑦^{1/3}).\end{aligned}
 
 
 $$

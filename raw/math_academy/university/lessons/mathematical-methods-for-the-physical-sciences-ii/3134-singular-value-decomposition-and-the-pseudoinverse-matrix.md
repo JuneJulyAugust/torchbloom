@@ -103,7 +103,7 @@ we calculate its pseudoinverse as follows:
 $$
 
 
-\begin{aligned}𝐴^{+} & =[\begin{aligned}3 & 0 & 0 \\ 0 & 4 & 0\end{aligned}]^{+} \\ & =\begin{aligned}3^{−1} & 0 \\ 0 & 4^{−1} \\ 0 & 0\end{aligned} \\ & =\begin{aligned}1/3 & 0 \\ 0 & 1/4 \\ 0 & 0\end{aligned} \\ & =\frac{1}{12}\begin{aligned}4 & 0 \\ 0 & 3 \\ 0 & 0\end{aligned}\end{aligned}
+\begin{aligned}𝐴^{+} & =[\begin{matrix}3 & 0 & 0 \\ 0 & 4 & 0\end{matrix}]^{+} \\ & =\begin{matrix}3^{−1} & 0 \\ 0 & 4^{−1} \\ 0 & 0\end{matrix} \\ & =\begin{matrix}1/3 & 0 \\ 0 & 1/4 \\ 0 & 0\end{matrix} \\ & =\frac{1}{12}\begin{matrix}4 & 0 \\ 0 & 3 \\ 0 & 0\end{matrix}\end{aligned}
 
 
 $$
@@ -143,7 +143,7 @@ Therefore, we obtain
 $$
 
 
-\begin{aligned}𝐴^{+} & =\begin{aligned}6 & 0 \\ 0 & 4 \\ 0 & 0\end{aligned}^{+} \\ & =[\begin{aligned}6^{−1} & \,\,\,0 & 0 \\ \,\,0 & \,4^{−1} & 0\end{aligned}] \\ & =\frac{1}{12}[\begin{aligned}2 & 0 & 0 \\ 0 & 3 & 0\end{aligned}].\end{aligned}
+\begin{aligned}𝐴^{+} & =\begin{matrix}6 & 0 \\ 0 & 4 \\ 0 & 0\end{matrix}^{+} \\ & =[\begin{matrix}6^{−1} & \,\,\,0 & 0 \\ \,\,0 & \,4^{−1} & 0\end{matrix}] \\ & =\frac{1}{12}[\begin{matrix}2 & 0 & 0 \\ 0 & 3 & 0\end{matrix}].\end{aligned}
 
 
 $$
@@ -217,7 +217,7 @@ Therefore, we have
 $$
 
 
-\begin{aligned}𝐴^{+} & =𝑉\,Σ^{+}\,𝑈^{𝑇} \\ & =[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}]⋅\frac{1}{5}[\begin{aligned}1 & 0 & 0 \\ 0 & 0 & 0\end{aligned}]⋅\frac{1}{5}\begin{aligned}4 & 3 & 0 \\ −3 & 4 & 0 \\ 0 & 0 & 5\end{aligned} \\ & =\frac{1}{25}[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}]⋅[\begin{aligned}1 & 0 & 0 \\ 0 & 0 & 0\end{aligned}]⋅\begin{aligned}4 & 3 & 0 \\ −3 & 4 & 0 \\ 0 & 0 & 5\end{aligned} \\ & =\frac{1}{25}[\begin{aligned}1 & 0 & 0 \\ 0 & 0 & 0\end{aligned}]⋅\begin{aligned}4 & 3 & 0 \\ −3 & 4 & 0 \\ 0 & 0 & 5\end{aligned} \\ & =\frac{1}{25}[\begin{aligned}4 & 3 & 0 \\ 0 & 0 & 0\end{aligned}].\end{aligned}
+\begin{aligned}𝐴^{+} & =𝑉\,Σ^{+}\,𝑈^{𝑇} \\ & =[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}]⋅\frac{1}{5}[\begin{matrix}1 & 0 & 0 \\ 0 & 0 & 0\end{matrix}]⋅\frac{1}{5}\begin{matrix}4 & 3 & 0 \\ −3 & 4 & 0 \\ 0 & 0 & 5\end{matrix} \\ & =\frac{1}{25}[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}]⋅[\begin{matrix}1 & 0 & 0 \\ 0 & 0 & 0\end{matrix}]⋅\begin{matrix}4 & 3 & 0 \\ −3 & 4 & 0 \\ 0 & 0 & 5\end{matrix} \\ & =\frac{1}{25}[\begin{matrix}1 & 0 & 0 \\ 0 & 0 & 0\end{matrix}]⋅\begin{matrix}4 & 3 & 0 \\ −3 & 4 & 0 \\ 0 & 0 & 5\end{matrix} \\ & =\frac{1}{25}[\begin{matrix}4 & 3 & 0 \\ 0 & 0 & 0\end{matrix}].\end{aligned}
 
 
 $$
@@ -347,7 +347,7 @@ Therefore, we have
 $$
 
 
-\begin{aligned}𝐴^{+} & =𝑉_{𝑟}\,Σ_{+𝑟}^{}\,𝑈_{𝑇𝑟}^{} \\ & =\frac{1}{5}[\begin{aligned}4 \\ 3\end{aligned}]⋅\frac{1}{2}[\begin{aligned}1\end{aligned}]⋅\frac{1}{5}[\begin{aligned}3 & 4 & 0\end{aligned}] \\ & =\frac{1}{50}[\begin{aligned}4 \\ 3\end{aligned}]⋅[\begin{aligned}1\end{aligned}]⋅[\begin{aligned}3 & 4 & 0\end{aligned}] \\ & =\frac{1}{50}[\begin{aligned}4 \\ 3\end{aligned}]⋅[\begin{aligned}3 & 4 & 0\end{aligned}] \\ & =\frac{1}{50}[\begin{aligned}12 & 16 & 0 \\ 9 & 12 & 0\end{aligned}].\end{aligned}
+\begin{aligned}𝐴^{+} & =𝑉_{𝑟}\,Σ_{+𝑟}\,𝑈_{𝑇𝑟} \\ & =\frac{1}{5}[\begin{matrix}4 \\ 3\end{matrix}]⋅\frac{1}{2}[\begin{matrix}1\end{matrix}]⋅\frac{1}{5}[\begin{matrix}3 & 4 & 0\end{matrix}] \\ & =\frac{1}{50}[\begin{matrix}4 \\ 3\end{matrix}]⋅[\begin{matrix}1\end{matrix}]⋅[\begin{matrix}3 & 4 & 0\end{matrix}] \\ & =\frac{1}{50}[\begin{matrix}4 \\ 3\end{matrix}]⋅[\begin{matrix}3 & 4 & 0\end{matrix}] \\ & =\frac{1}{50}[\begin{matrix}12 & 16 & 0 \\ 9 & 12 & 0\end{matrix}].\end{aligned}
 
 
 $$

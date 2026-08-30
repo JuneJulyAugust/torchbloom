@@ -16,9 +16,6 @@ Topic ID: 1831
 $$
 
 
-\newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \newcommand{\cosh}{\mathop{\rm cosh}\nolimits} \newcommand{\sinh}{\mathop{\rm sinh}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits}
-
-
 $$
 
 Suppose we want to plot the graph of the function $y= \sinh x.$ To do this, we start with the definition:
@@ -55,7 +52,7 @@ The key features of the graph are as follows:
 
 #### Question
 
-Which of the following statements are true regarding the function $\newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \newcommand{\cosh}{\mathop{\rm cosh}\nolimits} \newcommand{\sinh}{\mathop{\rm sinh}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} y=\sinh{x}?$
+Which of the following statements are true regarding the function $y=\sinh{x}?$
 
 1. The function is the average of $y=e^x$ and $y=e^{-x}.$
 
@@ -65,7 +62,7 @@ Which of the following statements are true regarding the function $\newcommand{\
 
 #### Explanation
 
-Let's recall the graph of $\newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \newcommand{\cosh}{\mathop{\rm cosh}\nolimits} \newcommand{\sinh}{\mathop{\rm sinh}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} y=\sinh{x}.$
+Let's recall the graph of $y=\sinh{x}.$
 
 ![Instructional graphic](../../../lesson-assets/calculus-i/topic-1831/2986c2b55a7c185e.png)
 
@@ -86,7 +83,7 @@ Let's now plot the graph of the hyperbolic cosine. As before, we start with the 
 $$
 
 
-\newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \newcommand{\cosh}{\mathop{\rm cosh}\nolimits} \newcommand{\sinh}{\mathop{\rm sinh}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} y= \cosh x = \dfrac{e^x+e^{-x}}{2}
+y= \cosh x = \dfrac{e^x+e^{-x}}{2}
 
 
 $$
@@ -117,7 +114,7 @@ The key features of the graph are as follows:
 
 #### Question
 
-Which of the following statements are true regarding the function $\newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \newcommand{\cosh}{\mathop{\rm cosh}\nolimits} \newcommand{\sinh}{\mathop{\rm sinh}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} y=\cosh{x}?$
+Which of the following statements are true regarding the function $y=\cosh{x}?$
 
 1. The domain of the function is $[0, \infty).$
 
@@ -127,7 +124,7 @@ Which of the following statements are true regarding the function $\newcommand{\
 
 #### Explanation
 
-Let's recall the graph of $\newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \newcommand{\cosh}{\mathop{\rm cosh}\nolimits} \newcommand{\sinh}{\mathop{\rm sinh}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} y=\cosh{x}.$
+Let's recall the graph of $y=\cosh{x}.$
 
 ![Instructional graphic](../../../lesson-assets/calculus-i/topic-1831/3d19c45599913c3b.png)
 
@@ -143,7 +140,7 @@ Therefore, the correct answer is "II and III only."
 
 ### The Graph of the Hyperbolic Tangent
 
-Finally, let's plot the graph of the function $\newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \newcommand{\cosh}{\mathop{\rm cosh}\nolimits} \newcommand{\sinh}{\mathop{\rm sinh}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} y= \tanh x.$
+Finally, let's plot the graph of the function $y= \tanh x.$
 
 We start with the definition:
 
@@ -177,7 +174,7 @@ The key features of the graph are as follows:
 
 #### Question
 
-Which of the following statements are true regarding the function $\newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \newcommand{\cosh}{\mathop{\rm cosh}\nolimits} \newcommand{\sinh}{\mathop{\rm sinh}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} y=\tanh{x}?$
+Which of the following statements are true regarding the function $y=\tanh{x}?$
 
 1. $\tanh{x} \to 1$ as $x \to \infty.$
 
@@ -187,7 +184,7 @@ Which of the following statements are true regarding the function $\newcommand{\
 
 #### Explanation
 
-Let's recall the graph of $\newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits} \newcommand{\cosh}{\mathop{\rm cosh}\nolimits} \newcommand{\sinh}{\mathop{\rm sinh}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} y=\tanh{x}.$
+Let's recall the graph of $y=\tanh{x}.$
 
 ![Instructional graphic](../../../lesson-assets/calculus-i/topic-1831/27e6d8524e276bad.png)
 

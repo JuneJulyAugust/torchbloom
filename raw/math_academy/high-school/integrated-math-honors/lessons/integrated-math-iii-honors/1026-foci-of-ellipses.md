@@ -34,7 +34,7 @@ For our ellipse, we already know that the focal length is $4.$ But let's check t
 $$
 
 
-\begin{aligned}𝑐 & =\sqrt{√|𝑎^{2}−𝑏^{2}|} \\ & =\sqrt{√|(5)^{2}−(3)^{2}|} \\ & =\sqrt{√|25−9|} \\ & =\sqrt{√16} \\ & =4\,✓\end{aligned}
+\begin{aligned}𝑐 & =\sqrt{|𝑎^{2}−𝑏^{2}|} \\ & =\sqrt{|(5)^{2}−(3)^{2}|} \\ & =\sqrt{|25−9|} \\ & =\sqrt{16} \\ & =4\,✓\end{aligned}
 
 
 $$
@@ -92,7 +92,7 @@ From the diagram we see that $(h,k) = (0,1),$ $a = 4,$ and $b = 2.$ Therefore, w
 $$
 
 
-\begin{aligned}𝑐 & =\sqrt{√|𝑎^{2}−𝑏^{2}|} \\ & =\sqrt{√|4^{2}−2^{2}|} \\ & =\sqrt{√|16−4|} \\ & =\sqrt{√|12|} \\ & =\sqrt{√12} \\ & =2\sqrt{√3}.\end{aligned}
+\begin{aligned}𝑐 & =\sqrt{|𝑎^{2}−𝑏^{2}|} \\ & =\sqrt{|4^{2}−2^{2}|} \\ & =\sqrt{|16−4|} \\ & =\sqrt{|12|} \\ & =\sqrt{12} \\ & =2\sqrt{3}.\end{aligned}
 
 
 $$
@@ -134,7 +134,7 @@ Therefore, we have
 $$
 
 
-\begin{aligned}𝑐 & =\sqrt{√|𝑎^{2}−𝑏^{2}|} \\ & =\sqrt{√|25−9|} \\ & =\sqrt{√|16|} \\ & =\sqrt{√16} \\ & =4.\end{aligned}
+\begin{aligned}𝑐 & =\sqrt{|𝑎^{2}−𝑏^{2}|} \\ & =\sqrt{|25−9|} \\ & =\sqrt{|16|} \\ & =\sqrt{16} \\ & =4.\end{aligned}
 
 
 $$
@@ -186,7 +186,7 @@ Therefore, we have
 $$
 
 
-\begin{aligned}𝑐 & =\sqrt{√|𝑎^{2}−𝑏^{2}|} \\ & =\sqrt{√|16−32|} \\ & =\sqrt{√|−16|} \\ & =\sqrt{√16} \\ & =4.\end{aligned}
+\begin{aligned}𝑐 & =\sqrt{|𝑎^{2}−𝑏^{2}|} \\ & =\sqrt{|16−32|} \\ & =\sqrt{|−16|} \\ & =\sqrt{16} \\ & =4.\end{aligned}
 
 
 $$
@@ -244,7 +244,7 @@ Now, let's compute the distance from the point $P$ to each focus:
 $$
 
 
-\begin{aligned}|𝑃𝐹_{1}| & =\sqrt{√(4−(−5))^{2}+(3−0)^{2}} \\ & =\sqrt{√9^{2}+3^{2}} \\ & =\sqrt{√81+9} \\ & =\sqrt{√90} \\ & =3\sqrt{√10} \\ & \\ |𝑃𝐹_{2}| & =\sqrt{√(4−5)^{2}+(3−0)^{2}} \\ & =\sqrt{√(−1)^{2}+3^{2}} \\ & =\sqrt{√1+9} \\ & =\sqrt{√10}\end{aligned}
+\begin{aligned}|𝑃𝐹_{1}| & =\sqrt{(4−(−5))^{2}+(3−0)^{2}} \\ & =\sqrt{9^{2}+3^{2}} \\ & =\sqrt{81+9} \\ & =\sqrt{90} \\ & =3\sqrt{10} \\ & \\ |𝑃𝐹_{2}| & =\sqrt{(4−5)^{2}+(3−0)^{2}} \\ & =\sqrt{(−1)^{2}+3^{2}} \\ & =\sqrt{1+9} \\ & =\sqrt{10}\end{aligned}
 
 
 $$
@@ -254,7 +254,7 @@ Finally, we have
 $$
 
 
-\begin{aligned}|𝑃𝐹_{1}|+|𝑃𝐹_{2}|=2𝑎 \\ 3\sqrt{√10}+\sqrt{√10}=2𝑎 \\ 4\sqrt{√10}=2𝑎 \\ 2\sqrt{√10}=𝑎.\end{aligned}
+\begin{aligned}|𝑃𝐹_{1}|+|𝑃𝐹_{2}|=2𝑎 \\ 3\sqrt{10}+\sqrt{10}=2𝑎 \\ 4\sqrt{10}=2𝑎 \\ 2\sqrt{10}=𝑎.\end{aligned}
 
 
 $$

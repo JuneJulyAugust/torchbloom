@@ -48,7 +48,7 @@ The local authority wants to determine whether the state vectors settle down to 
 $$
 
 
-\begin{aligned}𝐱_{1} & =𝑃𝐱_{0}=[\begin{aligned}0.667 \\ 0.333\end{aligned}] \\ 𝐱_{2} & =𝑃𝐱_{1}=[\begin{aligned}0.636\,97 \\ 0.363\,03\end{aligned}] \\ 𝐱_{3} & =𝑃𝐱_{2}=[\begin{aligned}0.609\,64 \\ 0.390\,36\end{aligned}] \\ & =⋮ \\ 𝐱_{100} & =𝑃𝐱_{99}=[\begin{aligned}0.333\,363 \\ 0.666\,637\end{aligned}]≈\begin{aligned}\frac{1}{3} \\ \frac{2}{3}\end{aligned} \\ 𝐱_{101} & =𝑃𝐱_{100}=[\begin{aligned}0.333\,36 \\ 0.666\,64\end{aligned}]≈\begin{aligned}\frac{1}{3} \\ \frac{2}{3}\end{aligned}\end{aligned}
+\begin{aligned}𝐱_{1} & =𝑃𝐱_{0}=[\begin{matrix}0.667 \\ 0.333\end{matrix}] \\ 𝐱_{2} & =𝑃𝐱_{1}=[\begin{matrix}0.636\,97 \\ 0.363\,03\end{matrix}] \\ 𝐱_{3} & =𝑃𝐱_{2}=[\begin{matrix}0.609\,64 \\ 0.390\,36\end{matrix}] \\ & =⋮ \\ 𝐱_{100} & =𝑃𝐱_{99}=[\begin{matrix}0.333\,363 \\ 0.666\,637\end{matrix}]≈\begin{matrix}\frac{1}{3} \\ \frac{2}{3}\end{matrix} \\ 𝐱_{101} & =𝑃𝐱_{100}=[\begin{matrix}0.333\,36 \\ 0.666\,64\end{matrix}]≈\begin{matrix}\frac{1}{3} \\ \frac{2}{3}\end{matrix}\end{aligned}
 
 
 $$
@@ -68,7 +68,7 @@ Furthermore, computing $\mathbf x_{102}, \mathbf{x}_{103}, \ldots$ all give vect
 $$
 
 
-x_k \rightarrow \mathbf q \quad\textrm{as}\quad k\to\infty.
+x_k \rightarrow \mathbf q \quad\text{as}\quad k\to\infty.
 
 
 $$
@@ -124,7 +124,7 @@ we compute the matrix product $P\mathbf q\mathbin:$
 $$
 
 
-\begin{aligned}𝑃𝐪 & =[\begin{aligned}0.94 & 0.03 \\ 0.06 & 0.97\end{aligned}]⋅\begin{aligned}\frac{1}{3} \\ \frac{2}{3}\end{aligned} \\ & =\frac{1}{3}⋅[\begin{aligned}0.94 & 0.03 \\ 0.06 & 0.97\end{aligned}]⋅[\begin{aligned}1 \\ 2\end{aligned}] \\ & =\frac{1}{3}⋅[\begin{aligned}0.94+2⋅0.03 \\ 0.06+2⋅0.97\end{aligned}] \\ & =\frac{1}{3}⋅[\begin{aligned}1 \\ 2\end{aligned}] \\ & =\begin{aligned}\frac{1}{3} \\ \frac{2}{3}\end{aligned} \\ & =𝐪\,✓\end{aligned}
+\begin{aligned}𝑃𝐪 & =[\begin{matrix}0.94 & 0.03 \\ 0.06 & 0.97\end{matrix}]⋅\begin{matrix}\frac{1}{3} \\ \frac{2}{3}\end{matrix} \\ & =\frac{1}{3}⋅[\begin{matrix}0.94 & 0.03 \\ 0.06 & 0.97\end{matrix}]⋅[\begin{matrix}1 \\ 2\end{matrix}] \\ & =\frac{1}{3}⋅[\begin{matrix}0.94+2⋅0.03 \\ 0.06+2⋅0.97\end{matrix}] \\ & =\frac{1}{3}⋅[\begin{matrix}1 \\ 2\end{matrix}] \\ & =\begin{matrix}\frac{1}{3} \\ \frac{2}{3}\end{matrix} \\ & =𝐪\,✓\end{aligned}
 
 
 $$
@@ -214,7 +214,7 @@ Then, to solve $(P-I)\mathbf{q} = \mathbf{0},$ we reduce the augmented matrix $M
 $$
 
 
-\begin{aligned}𝑀 & =[\begin{aligned}−0.75 & 0.5 & 0 \\ 0.75 & −0.5 & 0\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+𝑅_{1} \\ & ∼[\begin{aligned}−0.75 & 0.5 & 0 \\ 0 & 0 & 0\end{aligned}] & & \end{aligned}
+\begin{aligned}𝑀 & =[\begin{matrix}−0.75 & 0.5 & 0 \\ 0.75 & −0.5 & 0\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+𝑅_{1} \\ & ∼[\begin{matrix}−0.75 & 0.5 & 0 \\ 0 & 0 & 0\end{matrix}] & & \end{aligned}
 
 
 $$
@@ -322,7 +322,7 @@ So, the matrix equation $(P-I)\mathbf{q} = \mathbf{0}$ is equivalent to the syst
 $$
 
 
-\begin{aligned}𝑀 & =[\begin{aligned}−0.1 & 0.8 & 0 \\ 0.1 & −0.8 & 0\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+𝑅_{1} \\ & ∼[\begin{aligned}−0.1 & 0.8 & 0 \\ 0 & 0 & 0\end{aligned}] & & \end{aligned}
+\begin{aligned}𝑀 & =[\begin{matrix}−0.1 & 0.8 & 0 \\ 0.1 & −0.8 & 0\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+𝑅_{1} \\ & ∼[\begin{matrix}−0.1 & 0.8 & 0 \\ 0 & 0 & 0\end{matrix}] & & \end{aligned}
 
 
 $$
@@ -418,7 +418,7 @@ The matrix equation $(P-I)\mathbf{q} = \mathbf{0}$ is equivalent to the system o
 $$
 
 
-\begin{aligned}𝑀 & =\begin{aligned}−0.9 & 0.3 & 0.5 & 0 \\ 0.2 & −0.7 & 0.1 & 0 \\ 0.7 & 0.4 & −0.6 & 0\end{aligned} & & \begin{aligned}𝑅_{1}:=20𝑅_{1} \\ 𝑅_{2}:=10𝑅_{2} \\ 𝑅_{3}:=20𝑅_{3}\end{aligned} \\ & ∼\begin{aligned}−18 & 6 & 10 & 0 \\ 2 & −7 & 1 & 0 \\ 14 & 8 & −12 & 0\end{aligned} & & \begin{aligned}𝑅_{2}↔𝑅_{1}\end{aligned} \\ & ∼\begin{aligned}2 & −7 & 1 & 0 \\ −18 & 6 & 10 & 0 \\ 14 & 8 & −12 & 0\end{aligned} & & \begin{aligned}𝑅_{2}:=𝑅_{2}+9𝑅_{1} \\ 𝑅_{3}:=𝑅_{3}−7𝑅_{1}\end{aligned} \\ & ∼\begin{aligned}2 & −7 & 1 & 0 \\ 0 & −57 & 19 & 0 \\ 0 & 57 & −19 & 0\end{aligned} & & \begin{aligned}𝑅_{3}:=𝑅_{3}+𝑅_{2}\end{aligned} \\ & ∼\begin{aligned}2 & −7 & 1 & 0 \\ 0 & −57 & 19 & 0 \\ 0 & 0 & 0 & 0\end{aligned} & & \end{aligned}
+\begin{aligned}𝑀 & =\begin{matrix}−0.9 & 0.3 & 0.5 & 0 \\ 0.2 & −0.7 & 0.1 & 0 \\ 0.7 & 0.4 & −0.6 & 0\end{matrix} & & \begin{matrix}𝑅_{1}:=20𝑅_{1} \\ 𝑅_{2}:=10𝑅_{2} \\ 𝑅_{3}:=20𝑅_{3}\end{matrix} \\ & ∼\begin{matrix}−18 & 6 & 10 & 0 \\ 2 & −7 & 1 & 0 \\ 14 & 8 & −12 & 0\end{matrix} & & \begin{matrix}𝑅_{2}↔𝑅_{1}\end{matrix} \\ & ∼\begin{matrix}2 & −7 & 1 & 0 \\ −18 & 6 & 10 & 0 \\ 14 & 8 & −12 & 0\end{matrix} & & \begin{matrix}𝑅_{2}:=𝑅_{2}+9𝑅_{1} \\ 𝑅_{3}:=𝑅_{3}−7𝑅_{1}\end{matrix} \\ & ∼\begin{matrix}2 & −7 & 1 & 0 \\ 0 & −57 & 19 & 0 \\ 0 & 57 & −19 & 0\end{matrix} & & \begin{matrix}𝑅_{3}:=𝑅_{3}+𝑅_{2}\end{matrix} \\ & ∼\begin{matrix}2 & −7 & 1 & 0 \\ 0 & −57 & 19 & 0 \\ 0 & 0 & 0 & 0\end{matrix} & & \end{aligned}
 
 
 $$

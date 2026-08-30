@@ -51,7 +51,7 @@ Calculating this integral using the usual methods, we get
 $$
 
 
-\begin{aligned}∫_{∞0}^{}𝑒^{−𝑥}\,d𝑥 & =[−𝑒^{−𝑥}]_{∞0}^{} \\ & =[−𝑒^{−∞}]−[−𝑒^{0}] \\ & =0−(−1) \\ & =1.\end{aligned}
+\begin{aligned}∫_{∞0}𝑒^{−𝑥}\,d𝑥 & =[−𝑒^{−𝑥}]_{∞0} \\ & =[−𝑒^{−∞}]−[−𝑒^{0}] \\ & =0−(−1) \\ & =1.\end{aligned}
 
 
 $$
@@ -76,7 +76,7 @@ Given the function $f(x)$ above, which of the following statements are true?
 
 1. $f(x) \geq 0$ for all $x \geq 3$
 
-2. $\displaystyle \int_{3}^{\infty} f(x) \,\textrm{d}x = 1$
+2. $\displaystyle \int_{3}^{\infty} f(x) \,\text{d}x = 1$
 
 3. $f(x)$ is a valid probability density function
 
@@ -135,7 +135,7 @@ Computing the integral on the left-hand side, we get
 $$
 
 
-\begin{aligned}∫_{∞0}^{}\frac{𝑘}{(4𝑥+1)^{3}}\,d𝑥 & =−[\frac{𝑘}{8(4𝑥+1)^{2}}]_{∞0}^{} \\ & =\frac{𝑘}{8}.\end{aligned}
+\begin{aligned}∫_{∞0}\frac{𝑘}{(4𝑥+1)^{3}}\,d𝑥 & =−[\frac{𝑘}{8(4𝑥+1)^{2}}]_{∞0} \\ & =\frac{𝑘}{8}.\end{aligned}
 
 
 $$
@@ -181,7 +181,7 @@ So, in our case, we have
 $$
 
 
-\begin{aligned}𝑃(𝑋>8) & =𝑃(8<𝑋<∞) \\ & =∫_{∞8}^{}𝑓(𝑥)\,d𝑥 \\ & =∫_{∞8}^{}5𝑒^{−5𝑥}\,d𝑥 \\ & =[−𝑒^{−5𝑥}]_{∞8}^{} \\ & =𝑒^{−40}.\end{aligned}
+\begin{aligned}𝑃(𝑋>8) & =𝑃(8<𝑋<∞) \\ & =∫_{∞8}𝑓(𝑥)\,d𝑥 \\ & =∫_{∞8}5𝑒^{−5𝑥}\,d𝑥 \\ & =[−𝑒^{−5𝑥}]_{∞8} \\ & =𝑒^{−40}.\end{aligned}
 
 
 $$

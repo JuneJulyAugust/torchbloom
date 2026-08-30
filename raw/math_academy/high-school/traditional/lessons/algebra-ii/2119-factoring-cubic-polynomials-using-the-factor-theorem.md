@@ -312,7 +312,7 @@ $$
 
 
 
-x+1 = 0\qquad \textrm{and}\qquad x^2 - 2x - 2 = 0.
+x+1 = 0\qquad \text{and}\qquad x^2 - 2x - 2 = 0.
 
 
 

@@ -16,7 +16,7 @@ At first sight, the integral
 $$
 
 
-\displaystyle \int x \sqrt{x+2} \,\textrm{d}x
+\displaystyle \int x \sqrt{x+2} \,\text{d}x
 
 
 $$
@@ -48,7 +48,7 @@ Substituting into our integral, we get
 $$
 
 
-\int x \sqrt{x+2} \,\textrm{d}x=\int x \sqrt{u} \,\textrm{d}u.
+\int x \sqrt{x+2} \,\text{d}x=\int x \sqrt{u} \,\text{d}u.
 
 
 $$
@@ -68,7 +68,7 @@ and using this, the integral becomes
 $$
 
 
-\begin{aligned}∫𝑥\sqrt{√𝑢}\,d𝑢= & ∫(𝑢−2)\sqrt{√𝑢}\,d𝑢 \\ & =∫(𝑢−2)𝑢^{1/2}\,d𝑢.\end{aligned}
+\begin{aligned}∫𝑥\sqrt{𝑢}\,d𝑢= & ∫(𝑢−2)\sqrt{𝑢}\,d𝑢 \\ & =∫(𝑢−2)𝑢^{1/2}\,d𝑢.\end{aligned}
 
 
 $$
@@ -88,7 +88,7 @@ For the final step, we substitute $u=x+2,$ and we get
 $$
 
 
-\begin{aligned}∫𝑥\sqrt{√𝑥+2}\,d𝑥 & =\frac{2}{5}(𝑥+2)^{5/2}−\frac{4}{3}(𝑥+2)^{3/2}+𝐶 \\ & =\frac{2}{5}\sqrt{√(𝑥+2)^{5}}−\frac{4}{3}\sqrt{√(𝑥+2)^{3}}+𝐶.\end{aligned}
+\begin{aligned}∫𝑥\sqrt{𝑥+2}\,d𝑥 & =\frac{2}{5}(𝑥+2)^{5/2}−\frac{4}{3}(𝑥+2)^{3/2}+𝐶 \\ & =\frac{2}{5}\sqrt{(𝑥+2)^{5}}−\frac{4}{3}\sqrt{(𝑥+2)^{3}}+𝐶.\end{aligned}
 
 
 $$
@@ -97,7 +97,7 @@ $$
 
 #### Question
 
-Calculate $\displaystyle \int x^3\sqrt{x^2 + 1}\, \textrm{d}x.$
+Calculate $\displaystyle \int x^3\sqrt{x^2 + 1}\, \text{d}x.$
 
 #### Explanation
 
@@ -116,7 +116,7 @@ We can now solve the integral in terms of $u,$ and then express our final answer
 $$
 
 
-\begin{aligned}∫𝑥^{3}\sqrt{√𝑥^{2}+1}\,d𝑥 & =∫𝑥^{2}⋅𝑥\sqrt{√𝑥^{2}+1}\,d𝑥 \\ & =∫𝑥^{2}\sqrt{√𝑥^{2}+1}\,⋅𝑥\,d𝑥 \\ & =∫\overset{\overset{𝑥^{2}}{}}{𝑢−1}\sqrt{√𝑥^{2}+1}⋅\overset{\overset{𝑥\,d𝑥}{}}{\frac{1}{2}d𝑢} \\ & =∫(𝑢−1)\sqrt{√𝑢}⋅\frac{1}{2}\,d𝑢 \\ & =\frac{1}{2}∫(𝑢−1)𝑢^{1/2}\,d𝑢 \\ & =\frac{1}{2}∫(𝑢^{3/2}−𝑢^{1/2})\,d𝑢 \\ & =\frac{1}{2}(\frac{2}{5}𝑢^{5/2}−\frac{2}{3}𝑢^{3/2})+𝐶 \\ & =\frac{1}{5}(𝑥^{2}+1)^{5/2}−\frac{1}{3}(𝑥^{2}+1)^{3/2}+𝐶 \\ & =\frac{1}{5}\sqrt{√(𝑥^{2}+1)^{5}}−\frac{1}{3}\sqrt{√(𝑥^{2}+1)^{3}}+𝐶\end{aligned}
+\begin{aligned}∫𝑥^{3}\sqrt{𝑥^{2}+1}\,d𝑥 & =∫𝑥^{2}⋅𝑥\sqrt{𝑥^{2}+1}\,d𝑥 \\ & =∫𝑥^{2}\sqrt{𝑥^{2}+1}\,⋅𝑥\,d𝑥 \\ & =∫\overset{𝑥^{2}}{}}{𝑢−1}\sqrt{𝑥^{2}+1}⋅\overset{𝑥\,d𝑥}{\frac{1}{2}d𝑢} \\ & =∫(𝑢−1)\sqrt{𝑢}⋅\frac{1}{2}\,d𝑢 \\ & =\frac{1}{2}∫(𝑢−1)𝑢^{1/2}\,d𝑢 \\ & =\frac{1}{2}∫(𝑢^{3/2}−𝑢^{1/2})\,d𝑢 \\ & =\frac{1}{2}(\frac{2}{5}𝑢^{5/2}−\frac{2}{3}𝑢^{3/2})+𝐶 \\ & =\frac{1}{5}(𝑥^{2}+1)^{5/2}−\frac{1}{3}(𝑥^{2}+1)^{3/2}+𝐶 \\ & =\frac{1}{5}\sqrt{(𝑥^{2}+1)^{5}}−\frac{1}{3}\sqrt{(𝑥^{2}+1)^{3}}+𝐶\end{aligned}
 
 
 $$
@@ -148,7 +148,7 @@ We can now solve the integral using our new variable $u,$ remembering to use the
 $$
 
 
-\begin{aligned}∫_{1/20}^{}𝑥(1−2𝑥)^{5}\,d𝑥 & =∫_{01}^{}\frac{1}{2}⋅(1−𝑢)⋅𝑢^{5}⋅(−\frac{1}{2})\,d𝑢 \\ & =−\frac{1}{4}∫_{01}^{}(1−𝑢)⋅𝑢^{5}\,d𝑢 \\ & =−\frac{1}{4}∫_{01}^{}(𝑢^{5}−𝑢^{6})\,d𝑢 \\ & =−\frac{1}{4}(\frac{1}{6}𝑢^{6}−\frac{1}{7}𝑢^{7})_{01}^{} \\ & =−\frac{1}{4}([0−0]−[\frac{1}{6}−\frac{1}{7}]) \\ & =−\frac{1}{4}(−\frac{1}{42}) \\ & =\frac{1}{168}\end{aligned}
+\begin{aligned}∫_{1/20}𝑥(1−2𝑥)^{5}\,d𝑥 & =∫_{01}\frac{1}{2}⋅(1−𝑢)⋅𝑢^{5}⋅(−\frac{1}{2})\,d𝑢 \\ & =−\frac{1}{4}∫_{01}(1−𝑢)⋅𝑢^{5}\,d𝑢 \\ & =−\frac{1}{4}∫_{01}(𝑢^{5}−𝑢^{6})\,d𝑢 \\ & =−\frac{1}{4}(\frac{1}{6}𝑢^{6}−\frac{1}{7}𝑢^{7})_{01} \\ & =−\frac{1}{4}([0−0]−[\frac{1}{6}−\frac{1}{7}]) \\ & =−\frac{1}{4}(−\frac{1}{42}) \\ & =\frac{1}{168}\end{aligned}
 
 
 $$

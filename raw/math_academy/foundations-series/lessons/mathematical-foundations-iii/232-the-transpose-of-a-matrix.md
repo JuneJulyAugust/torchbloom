@@ -18,7 +18,7 @@ For example, the transpose of the $2 \times 3$ matrix ${X}$ is the following $3 
 $$
 
 
-{X} = \left\lbrack \matrix { {\color{red}7} & {\color{red}2} & {\color{red}-4} \ {\color{blue}-3} & {\color{blue}1} & {\color{blue}0} } \right\rbrack \qquad\implies\qquad {X}^T = \left\lbrack \matrix { {\color{red}7} & {\color{blue}-3} \ {\color{red}2} & {\color{blue}1} \ {\color{red}-4} & {\color{blue}0} } \right\rbrack
+{X} = \left\lbrack \begin{matrix} {\color{red}7} & {\color{red}2} & {\color{red}-4} \ {\color{blue}-3} & {\color{blue}1} & {\color{blue}0} \end{matrix} \right\rbrack \qquad\implies\qquad {X}^T = \left\lbrack \begin{matrix} {\color{red}7} & {\color{blue}-3} \ {\color{red}2} & {\color{blue}1} \ {\color{red}-4} & {\color{blue}0} \end{matrix} \right\rbrack
 
 
 $$
@@ -34,7 +34,7 @@ Also, notice that the transpose of a column vector is a row vector:
 $$
 
 
-{A} = \left\lbrack \matrix { 5 \ 4 \ 2 } \right\rbrack \qquad \implies\qquad {A}^T = \left\lbrack \matrix { 5 & 4 & 2 } \right\rbrack
+{A} = \left\lbrack \begin{matrix} 5 \ 4 \ 2 \end{matrix} \right\rbrack \qquad \implies\qquad {A}^T = \left\lbrack \begin{matrix} 5 & 4 & 2 \end{matrix} \right\rbrack
 
 
 $$
@@ -44,7 +44,7 @@ Similarly, the transpose of a row vector is a column vector:
 $$
 
 
-{B} = \left\lbrack \matrix { 8 & -10 & 0 & 6 } \right\rbrack \qquad\implies\qquad {B}^T = \left\lbrack \matrix { 8 \ -10 \ 0 \ 6 } \right\rbrack
+{B} = \left\lbrack \begin{matrix} 8 & -10 & 0 & 6 \end{matrix} \right\rbrack \qquad\implies\qquad {B}^T = \left\lbrack \begin{matrix} 8 \ -10 \ 0 \ 6 \end{matrix} \right\rbrack
 
 
 $$
@@ -71,7 +71,7 @@ $$
 
 #### Question
 
-If ${A} = \left\lbrack \matrix {5 & -1 & 0 \} \right\rbrack,$ then what is ${A^T}?$
+If ${A} = \left\lbrack \begin{matrix}5 & -1 & 0 \\end{matrix} \right\rbrack,$ then what is ${A^T}?$
 
 #### Explanation
 
@@ -82,7 +82,7 @@ Here, there is just a single row, so it becomes a single column:
 $$
 
 
-{A}^T = \left\lbrack \matrix { 5 \ -1 \ 0 \ } \right\rbrack
+{A}^T = \left\lbrack \begin{matrix} 5 \ -1 \ 0 \ \end{matrix} \right\rbrack
 
 
 $$
@@ -91,7 +91,7 @@ $$
 
 #### Question
 
-Consider the matrix ${B} = \left\lbrack \matrix {1 & 2 & 4 & 2\ 4 & 4 & 1 & 1\ 3 & -3 & 0 & -1} \right\rbrack.$ What are the dimensions of ${B}^T?$
+Consider the matrix ${B} = \left\lbrack \begin{matrix}1 & 2 & 4 & 2\ 4 & 4 & 1 & 1\ 3 & -3 & 0 & -1\end{matrix} \right\rbrack.$ What are the dimensions of ${B}^T?$
 
 #### Explanation
 
@@ -108,7 +108,7 @@ Geometrically, when a matrix is transposed, the diagonal elements (those with $i
 $$
 
 
-{A} = \left\lbrack \matrix { \color{red}{3} & \color{blue}{7} \ 1 & \color{red}{6} } \right\rbrack \qquad \implies\qquad {A}^T = \left\lbrack \matrix { \color{red}{3} & 1 \ \color{blue}{7} & \color{red}{6} } \right\rbrack.
+{A} = \left\lbrack \begin{matrix} \color{red}{3} & \color{blue}{7} \ 1 & \color{red}{6} \end{matrix} \right\rbrack \qquad \implies\qquad {A}^T = \left\lbrack \begin{matrix} \color{red}{3} & 1 \ \color{blue}{7} & \color{red}{6} \end{matrix} \right\rbrack.
 
 
 $$
@@ -128,7 +128,7 @@ This happens because, in the first transpose, we swap the rows of $A$ for the co
 $$
 
 
-{A} = \left\lbrack \matrix { \color{red}{3} & \color{blue}{7} \ 1 & \color{red}{6} } \right\rbrack \quad \implies\quad {A}^T = \left\lbrack \matrix { \color{red}{3} & 1 \ \color{blue}{7} & \color{red}{6} } \right\rbrack \quad \implies\quad \left( {A}^T\right)^T = \left\lbrack \matrix { \color{red}{3} & \color{blue}{7} \ 1 & \color{red}{6} } \right\rbrack =A.
+{A} = \left\lbrack \begin{matrix} \color{red}{3} & \color{blue}{7} \ 1 & \color{red}{6} \end{matrix} \right\rbrack \quad \implies\quad {A}^T = \left\lbrack \begin{matrix} \color{red}{3} & 1 \ \color{blue}{7} & \color{red}{6} \end{matrix} \right\rbrack \quad \implies\quad \left( {A}^T\right)^T = \left\lbrack \begin{matrix} \color{red}{3} & \color{blue}{7} \ 1 & \color{red}{6} \end{matrix} \right\rbrack =A.
 
 
 $$

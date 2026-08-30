@@ -16,7 +16,7 @@ To calculate the area $A$ bounded by a curve $y=y(x),$ the $x$-axis, and the ver
 $$
 
 
-A = \int_{a}^{b} y(x) \:\textrm{d}x.
+A = \int_{a}^{b} y(x) \:\text{d}x.
 
 
 $$
@@ -38,7 +38,7 @@ To find the area, we just need to compute the corresponding definite integral:
 $$
 
 
-\begin{aligned}𝐴 & =∫_{𝑏𝑎}^{}𝑦(𝑥)\,d𝑥 \\ & =∫_{20}^{}(𝑥^{2}−2𝑥+2)\,d𝑥 \\ & =∫_{20}^{}𝑥^{2}\,d𝑥−2∫_{20}^{}𝑥\,d𝑥+2∫_{20}^{}\,d𝑥 \\ & =\frac{𝑥^{3}}{3}_{20}^{}−2⋅\frac{𝑥^{2}}{2}_{20}^{}+2𝑥_{20}^{} \\ & =(\frac{8}{3}−0)−2(2−0)+2(2−0) \\ & =\frac{8}{3}−4+4 \\ & =\frac{8}{3}.\end{aligned}
+\begin{aligned}𝐴 & =∫_{𝑏𝑎}𝑦(𝑥)\,d𝑥 \\ & =∫_{20}(𝑥^{2}−2𝑥+2)\,d𝑥 \\ & =∫_{20}𝑥^{2}\,d𝑥−2∫_{20}𝑥\,d𝑥+2∫_{20}\,d𝑥 \\ & =\frac{𝑥^{3}}{3}_{20}−2⋅\frac{𝑥^{2}}{2}_{20}+2𝑥_{20} \\ & =(\frac{8}{3}−0)−2(2−0)+2(2−0) \\ & =\frac{8}{3}−4+4 \\ & =\frac{8}{3}.\end{aligned}
 
 
 $$
@@ -82,7 +82,7 @@ We want the area between the curve $y=x^2-1$ and the $x$-axis, from $x=-1$ to $x
 $$
 
 
-\begin{aligned}𝐴 & =∫_{𝑏𝑎}^{}𝑦(𝑥)\,d𝑥 \\ & =∫_{1−1}^{}(𝑥^{2}−1)\,d𝑥 \\ & =∫_{1−1}^{}𝑥^{2}\,d𝑥−∫_{1−1}^{}\,d𝑥 \\ & =\frac{𝑥^{3}}{3}_{1−1}^{}−𝑥_{1−1}^{} \\ & =(\frac{1}{3}−(−\frac{1}{3}))−(1−(−1)) \\ & =\frac{2}{3}−2 \\ & =−\frac{4}{3}.\end{aligned}
+\begin{aligned}𝐴 & =∫_{𝑏𝑎}𝑦(𝑥)\,d𝑥 \\ & =∫_{1−1}(𝑥^{2}−1)\,d𝑥 \\ & =∫_{1−1}𝑥^{2}\,d𝑥−∫_{1−1}\,d𝑥 \\ & =\frac{𝑥^{3}}{3}_{1−1}−𝑥_{1−1} \\ & =(\frac{1}{3}−(−\frac{1}{3}))−(1−(−1)) \\ & =\frac{2}{3}−2 \\ & =−\frac{4}{3}.\end{aligned}
 
 
 $$

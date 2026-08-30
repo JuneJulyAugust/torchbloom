@@ -138,7 +138,7 @@ We must first compute the estimates $s_1^2$ and $s_2^2{:}$
 $$
 
 
-\begin{aligned}𝑠_{21}^{} & =\frac{𝑛_{1}}{𝑛_{1}−1}(\overset{𝑥^{2}}{}−\overset{𝑥}{}^{2}) \\ & =\frac{10}{10−1}(\frac{548}{10}−(\frac{72}{10})^{2}) \\ & ≈3.2889 \\ 𝑠_{22}^{} & =\frac{𝑛_{2}}{𝑛_{2}−1}(\overset{𝑦^{2}}{}−\overset{𝑦}{–}^{2}) \\ & =\frac{10}{10−1}(\frac{1020}{10}−(\frac{100}{10})^{2}) \\ & ≈2.2222\end{aligned}
+\begin{aligned}𝑠_{21} & =\frac{𝑛_{1}}{𝑛_{1}−1}(\overset{𝑥^{2}}{}−\overset{𝑥}{}^{2}) \\ & =\frac{10}{10−1}(\frac{548}{10}−(\frac{72}{10})^{2}) \\ & ≈3.2889 \\ 𝑠_{22} & =\frac{𝑛_{2}}{𝑛_{2}−1}(\overset{𝑦^{2}}{}−\overset{𝑦}{–}^{2}) \\ & =\frac{10}{10−1}(\frac{1020}{10}−(\frac{100}{10})^{2}) \\ & ≈2.2222\end{aligned}
 
 
 $$
@@ -148,7 +148,7 @@ Therefore, our estimate for the pooled variance is
 $$
 
 
-s_p^2 = \dfrac{s_1^2+s_2^2}{2} \approx\dfrac{ 3.2889 + 2.222}{2} \approx 2.8\,\textrm{min}^2.
+s_p^2 = \dfrac{s_1^2+s_2^2}{2} \approx\dfrac{ 3.2889 + 2.222}{2} \approx 2.8\,\text{min}^2.
 
 
 $$
@@ -192,7 +192,7 @@ We must first compute the estimates $s_1^2$ and $s_2^2{:}$
 $$
 
 
-\begin{aligned}𝑠_{21}^{} & =\frac{𝑛_{1}}{𝑛_{1}−1}(\overset{𝑥^{2}}{}−\overset{𝑥}{}^{2}) \\ & =\frac{9}{9−1}(\frac{100.99}{9}−(\frac{29.90}{9})^{2}) \\ & ≈0.206\,9 \\ 𝑠_{22}^{} & =\frac{𝑛_{2}}{𝑛_{2}−1}(\overset{𝑦^{2}}{}−\overset{𝑦}{–}^{2}) \\ & =\frac{7}{7−1}(\frac{89.59}{7}−(\frac{24.7}{7})^{2}) \\ & ≈0.405\,7\end{aligned}
+\begin{aligned}𝑠_{21} & =\frac{𝑛_{1}}{𝑛_{1}−1}(\overset{𝑥^{2}}{}−\overset{𝑥}{}^{2}) \\ & =\frac{9}{9−1}(\frac{100.99}{9}−(\frac{29.90}{9})^{2}) \\ & ≈0.206\,9 \\ 𝑠_{22} & =\frac{𝑛_{2}}{𝑛_{2}−1}(\overset{𝑦^{2}}{}−\overset{𝑦}{–}^{2}) \\ & =\frac{7}{7−1}(\frac{89.59}{7}−(\frac{24.7}{7})^{2}) \\ & ≈0.405\,7\end{aligned}
 
 
 $$
@@ -202,7 +202,7 @@ Therefore, our estimate for the pooled variance is
 $$
 
 
-\begin{aligned}𝑠_{2𝑝}^{} & =\frac{(9−1)⋅0.206\,9+(7−1)⋅0.405\,7}{9+7−2} \\ & =\frac{4.089\,4}{14} \\ & ≈0.3\,kg^{2}\end{aligned}
+\begin{aligned}𝑠_{2𝑝} & =\frac{(9−1)⋅0.206\,9+(7−1)⋅0.405\,7}{9+7−2} \\ & =\frac{4.089\,4}{14} \\ & ≈0.3\,kg^{2}\end{aligned}
 
 
 $$
@@ -232,7 +232,7 @@ Note that when $N=2,$ we get our formula of the pooled variance for two samples:
 $$
 
 
-\begin{aligned}𝑆_{2𝑝}^{} & =\frac{\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑁}}(𝑛_{𝑖}−1)𝑆_{2𝑖}^{}}{(\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑁}}𝑛_{𝑖})−𝑁} \\ & =\frac{\underset{\underset{𝑖=1}{∑}}{\overset{}{2}}(𝑛_{𝑖}−1)𝑆_{2𝑖}^{}}{(\underset{\underset{𝑖=1}{∑}}{\overset{}{2}}𝑛_{𝑖})−2} \\ & =\frac{(𝑛_{1}−1)𝑆_{21}^{}+(𝑛_{2}−1)𝑆_{22}^{}}{𝑛_{1}+𝑛_{2}−2}\end{aligned}
+\begin{aligned}𝑆_{2𝑝} & =\frac{\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑁}}(𝑛_{𝑖}−1)𝑆_{2𝑖}}{(\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑁}}𝑛_{𝑖})−𝑁} \\ & =\frac{\underset{\underset{𝑖=1}{∑}}{\overset{}{2}}(𝑛_{𝑖}−1)𝑆_{2𝑖}}{(\underset{\underset{𝑖=1}{∑}}{\overset{}{2}}𝑛_{𝑖})−2} \\ & =\frac{(𝑛_{1}−1)𝑆_{21}+(𝑛_{2}−1)𝑆_{22}}{𝑛_{1}+𝑛_{2}−2}\end{aligned}
 
 
 $$
@@ -268,7 +268,7 @@ Therefore, by substituting the given values in the formula, we get
 $$
 
 
-\begin{aligned}𝑠_{2𝑝}^{} & =\frac{(10−1)(7.2)+(12−1)(8.4)+(18−1)(8.0)+(20−1)(8.1)}{10+12+18+20−4} \\ & =\frac{64.8+92.4+136+153.9}{56} \\ & =\frac{447.1}{56} \\ & ≈7.98,\end{aligned}
+\begin{aligned}𝑠_{2𝑝} & =\frac{(10−1)(7.2)+(12−1)(8.4)+(18−1)(8.0)+(20−1)(8.1)}{10+12+18+20−4} \\ & =\frac{64.8+92.4+136+153.9}{56} \\ & =\frac{447.1}{56} \\ & ≈7.98,\end{aligned}
 
 
 $$
@@ -318,7 +318,7 @@ Using this property, we can factor the denominator of our expression outside the
 $$
 
 
-\begin{aligned}E[𝑆_{2𝑝}^{}] & =E[\frac{(𝑛_{1}−1)𝑆_{21}^{}+(𝑛_{2}−1)𝑆_{22}^{}}{𝑛_{1}+𝑛_{2}−2}] \\ & =\frac{E[(𝑛_{1}−1)𝑆_{21}^{}+(𝑛_{2}−1)𝑆_{22}^{}]}{𝑛_{1}+𝑛_{2}−2} \\ & =\frac{(𝑛_{1}−1)⋅E[𝑆_{21}^{}]+(𝑛_{2}−1)⋅E[𝑆_{22}^{}]}{𝑛_{1}+𝑛_{2}−2}\end{aligned}
+\begin{aligned}E[𝑆_{2𝑝}] & =E[\frac{(𝑛_{1}−1)𝑆_{21}+(𝑛_{2}−1)𝑆_{22}}{𝑛_{1}+𝑛_{2}−2}] \\ & =\frac{E[(𝑛_{1}−1)𝑆_{21}+(𝑛_{2}−1)𝑆_{22}]}{𝑛_{1}+𝑛_{2}−2} \\ & =\frac{(𝑛_{1}−1)⋅E[𝑆_{21}]+(𝑛_{2}−1)⋅E[𝑆_{22}]}{𝑛_{1}+𝑛_{2}−2}\end{aligned}
 
 
 $$
@@ -330,7 +330,7 @@ We substitute $\mathrm E[S_1^2]$ and $\mathrm E[S_2^2]$ with $\sigma^2$ and get
 $$
 
 
-\begin{aligned}E[𝑆_{2𝑝}^{}] & =\frac{(𝑛_{1}−1)E[𝑆_{21}^{}]+(𝑛_{2}−1)E[𝑆_{22}^{}]}{𝑛_{1}+𝑛_{2}−2} \\ & =\frac{(𝑛_{1}−1)𝜎^{2}+(𝑛_{2}−1)𝜎^{2}}{𝑛_{1}+𝑛_{2}−2} \\ & =\frac{(𝑛_{1}+𝑛_{2}−2)𝜎^{2}}{𝑛_{1}+𝑛_{2}−2} \\ & =𝜎^{2}.\end{aligned}
+\begin{aligned}E[𝑆_{2𝑝}] & =\frac{(𝑛_{1}−1)E[𝑆_{21}]+(𝑛_{2}−1)E[𝑆_{22}]}{𝑛_{1}+𝑛_{2}−2} \\ & =\frac{(𝑛_{1}−1)𝜎^{2}+(𝑛_{2}−1)𝜎^{2}}{𝑛_{1}+𝑛_{2}−2} \\ & =\frac{(𝑛_{1}+𝑛_{2}−2)𝜎^{2}}{𝑛_{1}+𝑛_{2}−2} \\ & =𝜎^{2}.\end{aligned}
 
 
 $$

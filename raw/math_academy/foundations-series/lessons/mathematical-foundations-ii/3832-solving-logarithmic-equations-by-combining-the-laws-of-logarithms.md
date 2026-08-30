@@ -173,7 +173,7 @@ First, we apply the power rule to the ** term to make the coefficient in front o
 $$
 
 
-\begin{aligned}2log_{3}⁡(\sqrt{√2}𝑥)−log_{3}⁡(𝑥−1) & =log_{3}⁡(3𝑥) \\ log_{3}⁡(\sqrt{√2}𝑥)^{2}−log_{3}⁡(𝑥−1) & =log_{3}⁡(3𝑥) \\ log_{3}⁡(2𝑥^{2})−log_{3}⁡(𝑥−1) & =log_{3}⁡(3𝑥)\end{aligned}
+\begin{aligned}2log_{3}⁡(\sqrt{2}𝑥)−log_{3}⁡(𝑥−1) & =log_{3}⁡(3𝑥) \\ log_{3}⁡(\sqrt{2}𝑥)^{2}−log_{3}⁡(𝑥−1) & =log_{3}⁡(3𝑥) \\ log_{3}⁡(2𝑥^{2})−log_{3}⁡(𝑥−1) & =log_{3}⁡(3𝑥)\end{aligned}
 
 
 $$

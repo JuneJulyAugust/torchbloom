@@ -12,7 +12,7 @@ Topic ID: 368
 
 ### Introduction
 
-Suppose that the lengths of the sides of a square are growing at a **rate** of $2\,\textrm{cm}$ every second, as shown below.
+Suppose that the lengths of the sides of a square are growing at a **rate** of $2\,\text{cm}$ every second, as shown below.
 
 ![Instructional graphic](../../../lesson-assets/calculus-i/topic-368/f87994a965dd5745.png)
 
@@ -46,7 +46,7 @@ $$
 
 $$
 
-We're told that $x$ grows at a **rate** of $2\,\textrm{cm/s},$ so we have
+We're told that $x$ grows at a **rate** of $2\,\text{cm/s},$ so we have
 
 $$
 
@@ -75,7 +75,7 @@ For example, to work out the rate of change of area when $t=2$ seconds, we subst
 $$
 
 
-\dfrac{\textrm d A}{\textrm d t} = 4(4) = 16\,\textrm{cm}^2/\textrm{s}.
+\dfrac{\textrm d A}{\textrm d t} = 4(4) = 16\,\text{cm}^2/\text{s}.
 
 
 $$
@@ -304,7 +304,7 @@ $$
 
 $$
 
-We're told that $h$ increases at a rate of $12\,\textrm{mm/min},$ so
+We're told that $h$ increases at a rate of $12\,\text{mm/min},$ so
 
 $$
 
@@ -314,7 +314,7 @@ $$
 
 $$
 
-Also, we want to compute the rate of change of the area when the diagonal has length $h=6.$ Substituting this information into our expression for $\dfrac{\textrm{d}A}{\textrm d t},$ we get
+Also, we want to compute the rate of change of the area when the diagonal has length $h=6.$ Substituting this information into our expression for $\dfrac{\text{d}A}{\textrm d t},$ we get
 
 $$
 

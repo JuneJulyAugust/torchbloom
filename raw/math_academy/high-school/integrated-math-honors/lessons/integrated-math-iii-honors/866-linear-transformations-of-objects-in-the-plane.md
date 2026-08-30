@@ -89,7 +89,7 @@ Now, we compute the image of $X$ under the action of $\mathbf T$ by calculating 
 $$
 
 
-\begin{aligned}𝑇𝑋 & =[\begin{aligned}2 & 3 \\ 1 & −1\end{aligned}][\begin{aligned}2 & −1 \\ −1 & 1\end{aligned}] \\ & =[\begin{aligned}1 & 1 \\ 3 & −2\end{aligned}]\end{aligned}
+\begin{aligned}𝑇𝑋 & =[\begin{matrix}2 & 3 \\ 1 & −1\end{matrix}][\begin{matrix}2 & −1 \\ −1 & 1\end{matrix}] \\ & =[\begin{matrix}1 & 1 \\ 3 & −2\end{matrix}]\end{aligned}
 
 
 $$
@@ -133,7 +133,7 @@ Now, we compute the image of $X$ under the action of $\mathbf T$ by calculating 
 $$
 
 
-\begin{aligned}𝑇𝑋 & =[\begin{aligned}1 & −1 \\ 0 & −2\end{aligned}][\begin{aligned}−1 & 0 & 2 \\ 2 & 0 & 1\end{aligned}] \\ & =[\begin{aligned}−3 & 0 & 1 \\ −4 & 0 & −2\end{aligned}].\end{aligned}
+\begin{aligned}𝑇𝑋 & =[\begin{matrix}1 & −1 \\ 0 & −2\end{matrix}][\begin{matrix}−1 & 0 & 2 \\ 2 & 0 & 1\end{matrix}] \\ & =[\begin{matrix}−3 & 0 & 1 \\ −4 & 0 & −2\end{matrix}].\end{aligned}
 
 
 $$

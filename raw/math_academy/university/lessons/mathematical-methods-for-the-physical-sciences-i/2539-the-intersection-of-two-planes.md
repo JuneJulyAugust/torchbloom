@@ -26,7 +26,7 @@ In our case, we have
 $$
 
 
-\begin{aligned}𝐯 & =𝐧_{1}×𝐧_{2} \\ & =⟨2,\,−1,\,1⟩×⟨−1,\,1,\,−1⟩ \\ & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 2 & −1 & 1 \\ −1 & 1 & −1\end{aligned} \\ & =𝐣+𝐤 \\ & =⟨0,1,1⟩.\end{aligned}
+\begin{aligned}𝐯 & =𝐧_{1}×𝐧_{2} \\ & =⟨2,\,−1,\,1⟩×⟨−1,\,1,\,−1⟩ \\ & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 2 & −1 & 1 \\ −1 & 1 & −1\end{matrix} \\ & =𝐣+𝐤 \\ & =⟨0,1,1⟩.\end{aligned}
 
 
 $$
@@ -58,7 +58,7 @@ To find a direction vector for the line, we calculate the cross product of these
 $$
 
 
-\begin{aligned}𝐯 & =𝐧_{1}×𝐧_{2} \\ & =⟨2,4,0⟩×⟨0,3,−2⟩ \\ & =\begin{aligned}\,𝐢 & \,𝐣 & \,𝐤\, \\ \,2 & \,4 & \,0\, \\ \,0 & \,3 & \,\,\,−2\,\end{aligned} \\ & =−8𝐢+4𝐣+6𝐤 \\ & =⟨−8,4,6⟩\end{aligned}
+\begin{aligned}𝐯 & =𝐧_{1}×𝐧_{2} \\ & =⟨2,4,0⟩×⟨0,3,−2⟩ \\ & =\begin{matrix}\,𝐢 & \,𝐣 & \,𝐤\, \\ \,2 & \,4 & \,0\, \\ \,0 & \,3 & \,\,\,−2\,\end{matrix} \\ & =−8𝐢+4𝐣+6𝐤 \\ & =⟨−8,4,6⟩\end{aligned}
 
 
 $$
@@ -114,7 +114,7 @@ To find a direction vector for the line, we calculate the cross product of these
 $$
 
 
-\begin{aligned}𝐧_{1}×𝐧_{2} & =⟨1,2,4⟩×⟨2,4,2⟩ \\ & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 1 & 2 & 4 \\ 2 & 4 & 2\end{aligned} \\ & =−12𝐢+6𝐣 \\ & =⟨−12,6,0⟩\end{aligned}
+\begin{aligned}𝐧_{1}×𝐧_{2} & =⟨1,2,4⟩×⟨2,4,2⟩ \\ & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 1 & 2 & 4 \\ 2 & 4 & 2\end{matrix} \\ & =−12𝐢+6𝐣 \\ & =⟨−12,6,0⟩\end{aligned}
 
 
 $$

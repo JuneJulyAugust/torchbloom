@@ -36,7 +36,7 @@ $$
 
 $$
 
-To find a basis of $U = \textrm{Span} \{{\color{blue}\mathbf{a}_1}, {\color{blue}\mathbf{a}_2}, {\color{red}\mathbf{a}_3} \},$ we can start with $\{{\color{blue}\mathbf{a}_1}, {\color{blue}\mathbf{a}_2}, {\color{red}\mathbf{a}_3} \},$ but we need to remove any "redundant" vectors that can be written as a linear combination of other vectors in the set. In this case, we remove ${\color{red}\mathbf{a}_3}$ because it can be written as a linear combination of $\color{blue}\mathbf{a}_1$ and ${\color{blue}\mathbf{a}_2}.$
+To find a basis of $U = \text{Span} \{{\color{blue}\mathbf{a}_1}, {\color{blue}\mathbf{a}_2}, {\color{red}\mathbf{a}_3} \},$ we can start with $\{{\color{blue}\mathbf{a}_1}, {\color{blue}\mathbf{a}_2}, {\color{red}\mathbf{a}_3} \},$ but we need to remove any "redundant" vectors that can be written as a linear combination of other vectors in the set. In this case, we remove ${\color{red}\mathbf{a}_3}$ because it can be written as a linear combination of $\color{blue}\mathbf{a}_1$ and ${\color{blue}\mathbf{a}_2}.$
 
 We are left with the set
 
@@ -53,7 +53,7 @@ These two vectors are linearly independent (since they are not parallel), and re
 $$
 
 
-U = \textrm{Span} \{ {\color{blue}\mathbf{a}_1}, {\color{blue}\mathbf{a}_2}, {\color{red}\mathbf{a}_3} \} = \textrm{Span} \{ {\color{blue}\mathbf{a}_1}, {\color{blue}\mathbf{a}_2} \}.
+U = \text{Span} \{ {\color{blue}\mathbf{a}_1}, {\color{blue}\mathbf{a}_2}, {\color{red}\mathbf{a}_3} \} = \text{Span} \{ {\color{blue}\mathbf{a}_1}, {\color{blue}\mathbf{a}_2} \}.
 
 
 $$
@@ -82,13 +82,13 @@ $$
 
 which shows that $\mathbf{b}$ can actually be written as a linear combination of only two vectors, ${\color{blue}\mathbf{a}_1}$ and ${\color{blue}\mathbf{a}_2}.$
 
-Therefore, we can conclude that the set $\{{\color{blue}\mathbf{a}_1}, {\color{blue}\mathbf{a}_2} \}$ spans the subspace $U = \textrm{Span} \{{\color{blue}\mathbf{a}_1}, {\color{blue}\mathbf{a}_2}, {\color{red}\mathbf{a}_3} \}.$
+Therefore, we can conclude that the set $\{{\color{blue}\mathbf{a}_1}, {\color{blue}\mathbf{a}_2} \}$ spans the subspace $U = \text{Span} \{{\color{blue}\mathbf{a}_1}, {\color{blue}\mathbf{a}_2}, {\color{red}\mathbf{a}_3} \}.$
 
 ### Example: Finding a Basis of the Space Spanned by a Set of Vectors Using Inspection
 
 #### Question
 
-Consider the vectors $[\begin{aligned}2 \\ 3\end{aligned}]$ and $[\begin{aligned}1 \\ 1\end{aligned}]$ Find a basis of $S=\textrm{Span}\{\mathbf{a}_1,\mathbf{a}_2,\mathbf{a}_3 \}$ by inspection.
+Consider the vectors $[\begin{aligned}2 \\ 3\end{aligned}]$ and $[\begin{aligned}1 \\ 1\end{aligned}]$ Find a basis of $S=\text{Span}\{\mathbf{a}_1,\mathbf{a}_2,\mathbf{a}_3 \}$ by inspection.
 
 #### Explanation
 
@@ -104,7 +104,7 @@ $$
 
 $$
 
-Consequently, the vector $\mathbf{a}_2$ can be removed from $\textrm{Span}\{\mathbf{a}_1,\mathbf{a}_2,\mathbf{a}_3 \}$ without changing the span. So $S = \textrm{Span}\{\mathbf{a}_1,\mathbf{a}_2,\mathbf{a}_3 \}$ is spanned by just $\{\mathbf{a}_1,\mathbf{a}_3\}.$
+Consequently, the vector $\mathbf{a}_2$ can be removed from $\text{Span}\{\mathbf{a}_1,\mathbf{a}_2,\mathbf{a}_3 \}$ without changing the span. So $S = \text{Span}\{\mathbf{a}_1,\mathbf{a}_2,\mathbf{a}_3 \}$ is spanned by just $\{\mathbf{a}_1,\mathbf{a}_3\}.$
 
 Lastly, note that $\mathbf{a}_1$ and $\mathbf{a}_3$ are linearly independent since they are not parallel. So the set $\{\mathbf{a}_1,\mathbf{a}_3\}$ is a linearly independent set that spans $S.$
 
@@ -135,7 +135,7 @@ To find a subset of linearly independent vectors, we can put the vectors in a ma
 $$
 
 
-\begin{aligned} & =\,\,[\begin{aligned}1 & −1 & −1 \\ −2 & 3 & 7\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+2𝑅_{1} \\ & ∼[\begin{aligned}1 & −1 & −1 \\ 0 & 1 & 5\end{aligned}] & 𝑅_{1} & :=𝑅_{1}+𝑅_{2} \\ & ∼[\begin{aligned}1 & 0 & 4 \\ 0 & 1 & 5\end{aligned}] & & \end{aligned}
+\begin{aligned} & =\,\,[\begin{matrix}1 & −1 & −1 \\ −2 & 3 & 7\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+2𝑅_{1} \\ & ∼[\begin{matrix}1 & −1 & −1 \\ 0 & 1 & 5\end{matrix}] & 𝑅_{1} & :=𝑅_{1}+𝑅_{2} \\ & ∼[\begin{matrix}1 & 0 & 4 \\ 0 & 1 & 5\end{matrix}] & & \end{aligned}
 
 
 $$
@@ -158,7 +158,7 @@ $$
 
 #### Question
 
-Consider the vectors $[\begin{aligned}5 \\ 2\end{aligned}]$ $[\begin{aligned}10 \\ 4\end{aligned}]$ and $[\begin{aligned}15 \\ 5\end{aligned}]$ Find a basis of $S=\textrm{Span}\{\mathbf{a}_1,\mathbf{a}_2,\mathbf{a}_3 \}.$
+Consider the vectors $[\begin{aligned}5 \\ 2\end{aligned}]$ $[\begin{aligned}10 \\ 4\end{aligned}]$ and $[\begin{aligned}15 \\ 5\end{aligned}]$ Find a basis of $S=\text{Span}\{\mathbf{a}_1,\mathbf{a}_2,\mathbf{a}_3 \}.$
 
 #### Explanation
 
@@ -167,7 +167,7 @@ We need to find a subset of linearly independent vectors. So, we start by creati
 $$
 
 
-\begin{aligned}𝑀 & =\,\,[\begin{aligned}5 & 10 & 15 \\ 2 & 4 & 5\end{aligned}] & 𝑅_{1} & :=\frac{1}{5}𝑅_{1} \\ & ∼[\begin{aligned}1 & 2 & 3 \\ 2 & 4 & 5\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+(−2)𝑅_{1} \\ & ∼[\begin{aligned}1 & 2 & 3 \\ 0 & 0 & −1\end{aligned}] & & \end{aligned}
+\begin{aligned}𝑀 & =\,\,[\begin{matrix}5 & 10 & 15 \\ 2 & 4 & 5\end{matrix}] & 𝑅_{1} & :=\frac{1}{5}𝑅_{1} \\ & ∼[\begin{matrix}1 & 2 & 3 \\ 2 & 4 & 5\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+(−2)𝑅_{1} \\ & ∼[\begin{matrix}1 & 2 & 3 \\ 0 & 0 & −1\end{matrix}] & & \end{aligned}
 
 
 $$
@@ -256,7 +256,7 @@ $$
 
 #### Question
 
-The vectors $\mathbf{a}_1,$ $\mathbf{a}_2,$ $\mathbf{a}_3,$ and $\mathbf{a}_4$ are given below. Determine whether $\mathcal{B} = \{\mathbf{a}_1, \mathbf{a}_2, \mathbf{a}_3 \}$ is a basis of $\textrm{Span}\{\mathbf{a}_1,\mathbf{a}_2,\mathbf{a}_3, \mathbf{a}_4 \}.$ If that is the case, find $x_1 + x_2 + x_3,$ where $\mathbf{a}_4=x_1\mathbf{a}_1+x_2\mathbf{a}_2+x_3\mathbf{a}_3.$
+The vectors $\mathbf{a}_1,$ $\mathbf{a}_2,$ $\mathbf{a}_3,$ and $\mathbf{a}_4$ are given below. Determine whether $\mathcal{B} = \{\mathbf{a}_1, \mathbf{a}_2, \mathbf{a}_3 \}$ is a basis of $\text{Span}\{\mathbf{a}_1,\mathbf{a}_2,\mathbf{a}_3, \mathbf{a}_4 \}.$ If that is the case, find $x_1 + x_2 + x_3,$ where $\mathbf{a}_4=x_1\mathbf{a}_1+x_2\mathbf{a}_2+x_3\mathbf{a}_3.$
 
 $$
 
@@ -268,7 +268,7 @@ $$
 
 #### Explanation
 
-We want to determine if $\mathcal{B}$ is indeed a basis of $\textrm{Span}\{\mathbf{a}_1,\mathbf{a}_2,\mathbf{a}_3,\mathbf{a}_4 \}.$ So, we want to find $x_1, x_2, x_3 \in \mathbb{R}$ such that
+We want to determine if $\mathcal{B}$ is indeed a basis of $\text{Span}\{\mathbf{a}_1,\mathbf{a}_2,\mathbf{a}_3,\mathbf{a}_4 \}.$ So, we want to find $x_1, x_2, x_3 \in \mathbb{R}$ such that
 
 $$
 
@@ -293,12 +293,12 @@ Now, we reduce the augmented matrix of the system to reduced row echelon form (R
 $$
 
 
-\begin{aligned}𝐴 & =\,\,\begin{aligned}1 & 0 & 1 & 2 \\ −1 & 1 & −1 & −2 \\ −3 & 0 & −2 & 1\end{aligned} & 𝑅_{2} & :=𝑅_{2}+𝑅_{1} \\ & ∼\begin{aligned}1 & 0 & 1 & 2 \\ 0 & 1 & 0 & 0 \\ −3 & 0 & −2 & 1\end{aligned} & 𝑅_{3} & :=𝑅_{3}+3𝑅_{1} \\ & ∼\begin{aligned}1 & 0 & 1 & 2 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 7\end{aligned} & 𝑅_{1} & :=𝑅_{1}+(−1)𝑅_{3} \\ & ∼\begin{aligned}1 & 0 & 0 & −5 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 7\end{aligned} & & \end{aligned}
+\begin{aligned}𝐴 & =\,\,\begin{matrix}1 & 0 & 1 & 2 \\ −1 & 1 & −1 & −2 \\ −3 & 0 & −2 & 1\end{matrix} & 𝑅_{2} & :=𝑅_{2}+𝑅_{1} \\ & ∼\begin{matrix}1 & 0 & 1 & 2 \\ 0 & 1 & 0 & 0 \\ −3 & 0 & −2 & 1\end{matrix} & 𝑅_{3} & :=𝑅_{3}+3𝑅_{1} \\ & ∼\begin{matrix}1 & 0 & 1 & 2 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 7\end{matrix} & 𝑅_{1} & :=𝑅_{1}+(−1)𝑅_{3} \\ & ∼\begin{matrix}1 & 0 & 0 & −5 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 7\end{matrix} & & \end{aligned}
 
 
 $$
 
-From the reduced matrix above, we see that the pivot columns are the $1$st, $2$nd, and $3$rd columns. So, $\mathcal{B}$ is indeed a basis of $\textrm{Span}\{\mathbf{a}_1,\mathbf{a}_2,\mathbf{a}_3,\mathbf{a}_4 \}.$ Also, the matrix tells us that $x_1=-5,$ $x_2=0,$ and $x_3=7,$ meaning that
+From the reduced matrix above, we see that the pivot columns are the $1$st, $2$nd, and $3$rd columns. So, $\mathcal{B}$ is indeed a basis of $\text{Span}\{\mathbf{a}_1,\mathbf{a}_2,\mathbf{a}_3,\mathbf{a}_4 \}.$ Also, the matrix tells us that $x_1=-5,$ $x_2=0,$ and $x_3=7,$ meaning that
 
 $$
 

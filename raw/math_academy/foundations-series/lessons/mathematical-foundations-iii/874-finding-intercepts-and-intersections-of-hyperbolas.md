@@ -41,7 +41,7 @@ To find the $x$-intercepts of the hyperbola, we substitute $y=0$ into the equati
 $$
 
 
-\begin{aligned}\frac{(𝑥+1)^{2}}{10}−\frac{𝑦^{2}}{25} & =1 \\ \frac{(𝑥+1)^{2}}{10}−\frac{0^{2}}{25} & =1 \\ \frac{(𝑥+1)^{2}}{10} & =1 \\ (𝑥+1)^{2} & =10 \\ 𝑥+1 & =±\sqrt{√10} \\ 𝑥 & =−1±\sqrt{√10}\end{aligned}
+\begin{aligned}\frac{(𝑥+1)^{2}}{10}−\frac{𝑦^{2}}{25} & =1 \\ \frac{(𝑥+1)^{2}}{10}−\frac{0^{2}}{25} & =1 \\ \frac{(𝑥+1)^{2}}{10} & =1 \\ (𝑥+1)^{2} & =10 \\ 𝑥+1 & =±\sqrt{10} \\ 𝑥 & =−1±\sqrt{10}\end{aligned}
 
 
 $$

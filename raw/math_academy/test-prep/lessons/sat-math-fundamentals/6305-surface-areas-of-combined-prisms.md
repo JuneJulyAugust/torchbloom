@@ -51,7 +51,7 @@ This means that the surface areas of both cubes (before joining) is
 $$
 
 
-2S = 2\cdot 6 = 12\,\textrm{m}^2.
+2S = 2\cdot 6 = 12\,\text{m}^2.
 
 
 $$
@@ -61,7 +61,7 @@ When the two cubes are glued together at their square faces, *one face from each
 $$
 
 
-2s^2=2(1)^2 = 2\,\textrm{m}^2.
+2s^2=2(1)^2 = 2\,\text{m}^2.
 
 
 $$
@@ -109,7 +109,7 @@ This means that the surface areas of both cubes (before joining) is
 $$
 
 
-2S = 2\cdot 96 = 192\,\textrm{m}^2.
+2S = 2\cdot 96 = 192\,\text{m}^2.
 
 
 $$
@@ -119,7 +119,7 @@ When the two cubes are glued together at their square faces, one face from each 
 $$
 
 
-2s^2=2(4)^2 = 32\,\textrm{m}^2.
+2s^2=2(4)^2 = 32\,\text{m}^2.
 
 
 $$

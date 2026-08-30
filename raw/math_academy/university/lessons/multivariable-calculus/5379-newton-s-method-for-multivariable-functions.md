@@ -42,7 +42,7 @@ The multivariable version of Newton’s method updates our guess using the formu
 $$
 
 
-\mathbf{x}_{n+1} = \mathbf{x}_n - [J_\boldsymbol{f}(\mathbf{x}_n)]^{-1} \boldsymbol{f}(\mathbf{x}_n),
+\mathbf{x}_{n+1} = \mathbf{x}_n - [J_{\boldsymbol{f}}(\mathbf{x}_n)]^{-1} \boldsymbol{f}(\mathbf{x}_n),
 
 
 $$
@@ -82,19 +82,19 @@ The Newton-Raphson method of finding the zeros of a multivariable function $\bol
 $$
 
 
-\mathbf{x}_{n+1} = \mathbf{x}_n - [J_\boldsymbol{f}(\mathbf{x}_n)]^{-1} \boldsymbol{f}(\mathbf{x}_n),
+\mathbf{x}_{n+1} = \mathbf{x}_n - [J_{\boldsymbol{f}}(\mathbf{x}_n)]^{-1} \boldsymbol{f}(\mathbf{x}_n),
 
 
 $$
 
-where $J_\boldsymbol{f}(\mathbf{x}_n)$ is the Jacobian of $\boldsymbol f$ evaluated at $\mathbf{x}_n.$
+where $J_{\boldsymbol{f}}(\mathbf{x}_n)$ is the Jacobian of $\boldsymbol f$ evaluated at $\mathbf{x}_n.$
 
 In our case, the Jacobian is
 
 $$
 
 
-\begin{aligned}𝐽_{𝒇}(𝐱) & =\begin{aligned}\frac{𝜕}{𝜕𝑥}(𝑥^{4}−𝑦^{2}+5) & \frac{𝜕}{𝜕𝑦}(𝑥^{4}−𝑦^{2}+5) \\ \frac{𝜕}{𝜕𝑥}(𝑥^{2}−𝑦^{3}+1) & \frac{𝜕}{𝜕𝑦}(𝑥^{2}−𝑦^{3}+1)\end{aligned} \\ & =[\begin{aligned}4𝑥^{3} & −2𝑦 \\ 2𝑥 & −3𝑦^{2}\end{aligned}].\end{aligned}
+\begin{aligned}𝐽_{𝒇}(𝐱) & =\begin{matrix}\frac{𝜕}{𝜕𝑥}(𝑥^{4}−𝑦^{2}+5) & \frac{𝜕}{𝜕𝑦}(𝑥^{4}−𝑦^{2}+5) \\ \frac{𝜕}{𝜕𝑥}(𝑥^{2}−𝑦^{3}+1) & \frac{𝜕}{𝜕𝑦}(𝑥^{2}−𝑦^{3}+1)\end{matrix} \\ & =[\begin{matrix}4𝑥^{3} & −2𝑦 \\ 2𝑥 & −3𝑦^{2}\end{matrix}].\end{aligned}
 
 
 $$
@@ -114,7 +114,7 @@ Starting with $[\begin{aligned}1 \\ 1\end{aligned}]$ we have
 $$
 
 
-\begin{aligned}𝐱_{1} & =𝐱_{0}−[\begin{aligned}4𝑥^{3} & −2𝑦 \\ 2𝑥 & −3𝑦^{2}\end{aligned}]_{−1𝐱_{0}}^{}[\begin{aligned}𝑥^{4}−𝑦^{2}+5 \\ 𝑥^{2}−𝑦^{3}+1\end{aligned}]_{𝐱_{0}} \\ & =[\begin{aligned}1 \\ 1\end{aligned}]−[\begin{aligned}4(1)^{3} & −2(1) \\ 2(1) & −3(1)^{2}\end{aligned}]^{−1}[\begin{aligned}(1)^{4}−(1)^{2}+5 \\ (1)^{2}−(1)^{3}+1\end{aligned}] \\ & =[\begin{aligned}1 \\ 1\end{aligned}]−[\begin{aligned}4 & −2 \\ 2 & −3\end{aligned}]^{−1}[\begin{aligned}5 \\ 1\end{aligned}] \\ & =[\begin{aligned}1 \\ 1\end{aligned}]−\frac{1}{4⋅(−3)−(−2)⋅2}[\begin{aligned}−3 & 2 \\ −2 & 4\end{aligned}][\begin{aligned}5 \\ 1\end{aligned}] \\ & =[\begin{aligned}1 \\ 1\end{aligned}]+\frac{1}{8}[\begin{aligned}−13 \\ −6\end{aligned}] \\ & =[\begin{aligned}−0.625 \\ 0.25\end{aligned}].\end{aligned}
+\begin{aligned}𝐱_{1} & =𝐱_{0}−[\begin{matrix}4𝑥^{3} & −2𝑦 \\ 2𝑥 & −3𝑦^{2}\end{matrix}]_{−1𝐱_{0}}^{}[\begin{matrix}𝑥^{4}−𝑦^{2}+5 \\ 𝑥^{2}−𝑦^{3}+1\end{matrix}]_{𝐱_{0}} \\ & =[\begin{matrix}1 \\ 1\end{matrix}]−[\begin{matrix}4(1)^{3} & −2(1) \\ 2(1) & −3(1)^{2}\end{matrix}]^{−1}[\begin{matrix}(1)^{4}−(1)^{2}+5 \\ (1)^{2}−(1)^{3}+1\end{matrix}] \\ & =[\begin{matrix}1 \\ 1\end{matrix}]−[\begin{matrix}4 & −2 \\ 2 & −3\end{matrix}]^{−1}[\begin{matrix}5 \\ 1\end{matrix}] \\ & =[\begin{matrix}1 \\ 1\end{matrix}]−\frac{1}{4⋅(−3)−(−2)⋅2}[\begin{matrix}−3 & 2 \\ −2 & 4\end{matrix}][\begin{matrix}5 \\ 1\end{matrix}] \\ & =[\begin{matrix}1 \\ 1\end{matrix}]+\frac{1}{8}[\begin{matrix}−13 \\ −6\end{matrix}] \\ & =[\begin{matrix}−0.625 \\ 0.25\end{matrix}].\end{aligned}
 
 
 $$
@@ -142,19 +142,19 @@ The Newton-Raphson method of finding the zeros of a multivariable function $\bol
 $$
 
 
-\mathbf{x}_{n+1} = \mathbf{x}_n - [J_\boldsymbol{f}(\mathbf{x}_n)]^{-1} \boldsymbol{f}(\mathbf{x}_n),
+\mathbf{x}_{n+1} = \mathbf{x}_n - [J_{\boldsymbol{f}}(\mathbf{x}_n)]^{-1} \boldsymbol{f}(\mathbf{x}_n),
 
 
 $$
 
-where $J_\boldsymbol{f}(\mathbf{x}_n)$ is the Jacobian of $\boldsymbol f$ evaluated at $\mathbf{x}_n.$
+where $J_{\boldsymbol{f}}(\mathbf{x}_n)$ is the Jacobian of $\boldsymbol f$ evaluated at $\mathbf{x}_n.$
 
 In our case, the Jacobian is
 
 $$
 
 
-\begin{aligned}𝐽_{𝒇}(𝐱) & =\begin{aligned}\frac{𝜕}{𝜕𝑥}(𝑥^{2}𝑦−𝑥−2) & \frac{𝜕}{𝜕𝑦}(𝑥^{2}𝑦−𝑥−2) \\ \frac{𝜕}{𝜕𝑥}(𝑥𝑦^{2}−𝑦+1) & \frac{𝜕}{𝜕𝑦}(𝑥𝑦^{2}−𝑦+1)\end{aligned} \\ & =[\begin{aligned}2𝑥𝑦−1 & 𝑥^{2} \\ 𝑦^{2} & 2𝑥𝑦−1\end{aligned}].\end{aligned}
+\begin{aligned}𝐽_{𝒇}(𝐱) & =\begin{matrix}\frac{𝜕}{𝜕𝑥}(𝑥^{2}𝑦−𝑥−2) & \frac{𝜕}{𝜕𝑦}(𝑥^{2}𝑦−𝑥−2) \\ \frac{𝜕}{𝜕𝑥}(𝑥𝑦^{2}−𝑦+1) & \frac{𝜕}{𝜕𝑦}(𝑥𝑦^{2}−𝑦+1)\end{matrix} \\ & =[\begin{matrix}2𝑥𝑦−1 & 𝑥^{2} \\ 𝑦^{2} & 2𝑥𝑦−1\end{matrix}].\end{aligned}
 
 
 $$
@@ -174,7 +174,7 @@ Starting with $[\begin{aligned}1 \\ 2\end{aligned}]$ we have
 $$
 
 
-\begin{aligned}𝐱_{1} & =𝐱_{0}−[\begin{aligned}2𝑥𝑦−1 & 𝑥^{2} \\ 𝑦^{2} & 2𝑥𝑦−1\end{aligned}]_{−1𝐱_{0}}^{}[\begin{aligned}𝑥^{2}𝑦−𝑥−2 \\ 𝑥𝑦^{2}−𝑦+1\end{aligned}]_{𝐱_{0}} \\ & =[\begin{aligned}1 \\ 2\end{aligned}]−[\begin{aligned}2(1)(2)−1 & (1)^{2} \\ (2)^{2} & 2(1)(2)−1\end{aligned}]^{−1}[\begin{aligned}(1)^{2}(2)−1−2 \\ 1(2)^{2}−2+1\end{aligned}] \\ & =[\begin{aligned}1 \\ 2\end{aligned}]−[\begin{aligned}3 & 1 \\ 4 & 3\end{aligned}]^{−1}[\begin{aligned}−1 \\ 3\end{aligned}] \\ & =[\begin{aligned}1 \\ 2\end{aligned}]−\frac{1}{3⋅3−4⋅1}[\begin{aligned}3 & −1 \\ −4 & 3\end{aligned}][\begin{aligned}−1 \\ 3\end{aligned}] \\ & =[\begin{aligned}1 \\ 2\end{aligned}]−\frac{1}{5}[\begin{aligned}−6 \\ 13\end{aligned}] \\ & =\begin{aligned}\frac{11}{5} \\ −\frac{3}{5}\end{aligned} \\ & =[\begin{aligned}2.2 \\ −0.6\end{aligned}].\end{aligned}
+\begin{aligned}𝐱_{1} & =𝐱_{0}−[\begin{matrix}2𝑥𝑦−1 & 𝑥^{2} \\ 𝑦^{2} & 2𝑥𝑦−1\end{matrix}]_{−1𝐱_{0}}^{}[\begin{matrix}𝑥^{2}𝑦−𝑥−2 \\ 𝑥𝑦^{2}−𝑦+1\end{matrix}]_{𝐱_{0}} \\ & =[\begin{matrix}1 \\ 2\end{matrix}]−[\begin{matrix}2(1)(2)−1 & (1)^{2} \\ (2)^{2} & 2(1)(2)−1\end{matrix}]^{−1}[\begin{matrix}(1)^{2}(2)−1−2 \\ 1(2)^{2}−2+1\end{matrix}] \\ & =[\begin{matrix}1 \\ 2\end{matrix}]−[\begin{matrix}3 & 1 \\ 4 & 3\end{matrix}]^{−1}[\begin{matrix}−1 \\ 3\end{matrix}] \\ & =[\begin{matrix}1 \\ 2\end{matrix}]−\frac{1}{3⋅3−4⋅1}[\begin{matrix}3 & −1 \\ −4 & 3\end{matrix}][\begin{matrix}−1 \\ 3\end{matrix}] \\ & =[\begin{matrix}1 \\ 2\end{matrix}]−\frac{1}{5}[\begin{matrix}−6 \\ 13\end{matrix}] \\ & =\begin{matrix}\frac{11}{5} \\ −\frac{3}{5}\end{matrix} \\ & =[\begin{matrix}2.2 \\ −0.6\end{matrix}].\end{aligned}
 
 
 $$
@@ -202,19 +202,19 @@ The Newton-Raphson method of finding the zeros of a multivariable function $\bol
 $$
 
 
-\mathbf{x}_{n+1} = \mathbf{x}_n - [J_\boldsymbol{f}(\mathbf{x}_n)]^{-1} \boldsymbol{f}(\mathbf{x}_n),
+\mathbf{x}_{n+1} = \mathbf{x}_n - [J_{\boldsymbol{f}}(\mathbf{x}_n)]^{-1} \boldsymbol{f}(\mathbf{x}_n),
 
 
 $$
 
-where $J_\boldsymbol{f}(\mathbf{x}_n)$ is the Jacobian of $\boldsymbol f$ evaluated at $\mathbf{x}_n.$
+where $J_{\boldsymbol{f}}(\mathbf{x}_n)$ is the Jacobian of $\boldsymbol f$ evaluated at $\mathbf{x}_n.$
 
 In our case, the Jacobian is
 
 $$
 
 
-\begin{aligned}𝐽_{𝒇}(𝐱) & =\begin{aligned}\frac{𝜕}{𝜕𝑥}(𝑥^{2}+𝑦−4) & \frac{𝜕}{𝜕𝑦}(𝑥^{2}+𝑦−4) \\ \frac{𝜕}{𝜕𝑥}(𝑥+𝑦^{2}−3) & \frac{𝜕}{𝜕𝑦}(𝑥+𝑦^{2}−3)\end{aligned} \\ & =[\begin{aligned}2𝑥 & 1 \\ 1 & 2𝑦\end{aligned}].\end{aligned}
+\begin{aligned}𝐽_{𝒇}(𝐱) & =\begin{matrix}\frac{𝜕}{𝜕𝑥}(𝑥^{2}+𝑦−4) & \frac{𝜕}{𝜕𝑦}(𝑥^{2}+𝑦−4) \\ \frac{𝜕}{𝜕𝑥}(𝑥+𝑦^{2}−3) & \frac{𝜕}{𝜕𝑦}(𝑥+𝑦^{2}−3)\end{matrix} \\ & =[\begin{matrix}2𝑥 & 1 \\ 1 & 2𝑦\end{matrix}].\end{aligned}
 
 
 $$
@@ -234,7 +234,7 @@ For the second iteration, we have
 $$
 
 
-\begin{aligned}𝐱_{2} & =𝐱_{1}−[\begin{aligned}2𝑥 & 1 \\ 1 & 2𝑦\end{aligned}]_{−1𝐱_{1}}^{}[\begin{aligned}𝑥^{2}+𝑦−4 \\ 𝑥+𝑦^{2}−3\end{aligned}]_{𝐱_{1}} \\ & =[\begin{aligned}3 \\ −1\end{aligned}]−[\begin{aligned}2(3) & 1 \\ 1 & 2(−1)\end{aligned}]^{−1}[\begin{aligned}3^{2}+(−1)−4 \\ 3+(−1)^{2}−3\end{aligned}] \\ & =[\begin{aligned}3 \\ −1\end{aligned}]−[\begin{aligned}6 & 1 \\ 1 & −2\end{aligned}]^{−1}[\begin{aligned}4 \\ 1\end{aligned}] \\ & =[\begin{aligned}3 \\ −1\end{aligned}]−\frac{1}{6⋅(−2)−1⋅1}[\begin{aligned}−2 & −1 \\ −1 & 6\end{aligned}][\begin{aligned}4 \\ 1\end{aligned}] \\ & =[\begin{aligned}3 \\ −1\end{aligned}]+\frac{1}{13}[\begin{aligned}−9 \\ 2\end{aligned}] \\ & =\begin{aligned}\frac{30}{13} \\ −\frac{11}{13}\end{aligned} \\ & ≈[\begin{aligned}2.308 \\ −0.846\end{aligned}],\end{aligned}
+\begin{aligned}𝐱_{2} & =𝐱_{1}−[\begin{matrix}2𝑥 & 1 \\ 1 & 2𝑦\end{matrix}]_{−1𝐱_{1}}^{}[\begin{matrix}𝑥^{2}+𝑦−4 \\ 𝑥+𝑦^{2}−3\end{matrix}]_{𝐱_{1}} \\ & =[\begin{matrix}3 \\ −1\end{matrix}]−[\begin{matrix}2(3) & 1 \\ 1 & 2(−1)\end{matrix}]^{−1}[\begin{matrix}3^{2}+(−1)−4 \\ 3+(−1)^{2}−3\end{matrix}] \\ & =[\begin{matrix}3 \\ −1\end{matrix}]−[\begin{matrix}6 & 1 \\ 1 & −2\end{matrix}]^{−1}[\begin{matrix}4 \\ 1\end{matrix}] \\ & =[\begin{matrix}3 \\ −1\end{matrix}]−\frac{1}{6⋅(−2)−1⋅1}[\begin{matrix}−2 & −1 \\ −1 & 6\end{matrix}][\begin{matrix}4 \\ 1\end{matrix}] \\ & =[\begin{matrix}3 \\ −1\end{matrix}]+\frac{1}{13}[\begin{matrix}−9 \\ 2\end{matrix}] \\ & =\begin{matrix}\frac{30}{13} \\ −\frac{11}{13}\end{matrix} \\ & ≈[\begin{matrix}2.308 \\ −0.846\end{matrix}],\end{aligned}
 
 
 $$
@@ -310,19 +310,19 @@ The Newton-Raphson method of finding the zeros of a multivariable function $\bol
 $$
 
 
-\mathbf{x}_{n+1} = \mathbf{x}_n - [J_\boldsymbol{f}(\mathbf{x}_n)]^{-1} \boldsymbol{f}(\mathbf{x}_n),
+\mathbf{x}_{n+1} = \mathbf{x}_n - [J_{\boldsymbol{f}}(\mathbf{x}_n)]^{-1} \boldsymbol{f}(\mathbf{x}_n),
 
 
 $$
 
-where $J_\boldsymbol{f}(\mathbf{x}_n)$ is the Jacobian of $\boldsymbol f$ evaluated at $\mathbf{x}_n.$
+where $J_{\boldsymbol{f}}(\mathbf{x}_n)$ is the Jacobian of $\boldsymbol f$ evaluated at $\mathbf{x}_n.$
 
 Equivalently, at each iteration, the above equation can be re-written as
 
 $$
 
 
-J_\boldsymbol{f}(\mathbf{x}_n)(\mathbf{x}_{n+1}-\mathbf{x}_n) = -\boldsymbol{f}(\mathbf{x}_n).
+J_{\boldsymbol{f}}(\mathbf{x}_n)(\mathbf{x}_{n+1}-\mathbf{x}_n) = -\boldsymbol{f}(\mathbf{x}_n).
 
 
 $$
@@ -332,7 +332,7 @@ In our case, the Jacobian is
 $$
 
 
-\begin{aligned}𝐽_{𝒇}(𝐱) & =\begin{aligned}\frac{𝜕}{𝜕𝑥}(𝑥^{4}−𝑦^{2}+5) & \frac{𝜕}{𝜕𝑦}(𝑥^{4}−𝑦^{2}+5) \\ \frac{𝜕}{𝜕𝑥}(𝑥^{2}−𝑦^{3}+1) & \frac{𝜕}{𝜕𝑦}(𝑥^{2}−𝑦^{3}+1)\end{aligned} \\ & =[\begin{aligned}4𝑥^{3} & −2𝑦 \\ 2𝑥 & −3𝑦^{2}\end{aligned}].\end{aligned}
+\begin{aligned}𝐽_{𝒇}(𝐱) & =\begin{matrix}\frac{𝜕}{𝜕𝑥}(𝑥^{4}−𝑦^{2}+5) & \frac{𝜕}{𝜕𝑦}(𝑥^{4}−𝑦^{2}+5) \\ \frac{𝜕}{𝜕𝑥}(𝑥^{2}−𝑦^{3}+1) & \frac{𝜕}{𝜕𝑦}(𝑥^{2}−𝑦^{3}+1)\end{matrix} \\ & =[\begin{matrix}4𝑥^{3} & −2𝑦 \\ 2𝑥 & −3𝑦^{2}\end{matrix}].\end{aligned}
 
 
 $$
@@ -352,7 +352,7 @@ Starting with $[\begin{aligned}1 \\ 1\end{aligned}]$ we have
 $$
 
 
-\begin{aligned}[\begin{aligned}4𝑥^{3} & −2𝑦 \\ 2𝑥 & −3𝑦^{2}\end{aligned}]_{𝐱_{0}}(𝐱_{1}−𝐱_{0}) & =−[\begin{aligned}𝑥^{4}−𝑦^{2}+5 \\ 𝑥^{2}−𝑦^{3}+1\end{aligned}]_{𝐱_{0}} \\ [\begin{aligned}4(1)^{3} & −2(1) \\ 2(1) & −3(1)^{2}\end{aligned}](𝐱_{1}−𝐱_{0}) & =−[\begin{aligned}(1)^{4}−(1)^{2}+5 \\ (1)^{2}−(1)^{3}+1\end{aligned}] \\ [\begin{aligned}4 & −2 \\ 2 & −3\end{aligned}](𝐱_{1}−𝐱_{0}) & =[\begin{aligned}−5 \\ −1\end{aligned}].\end{aligned}
+\begin{aligned}[\begin{matrix}4𝑥^{3} & −2𝑦 \\ 2𝑥 & −3𝑦^{2}\end{matrix}]_{𝐱_{0}}(𝐱_{1}−𝐱_{0}) & =−[\begin{matrix}𝑥^{4}−𝑦^{2}+5 \\ 𝑥^{2}−𝑦^{3}+1\end{matrix}]_{𝐱_{0}} \\ [\begin{matrix}4(1)^{3} & −2(1) \\ 2(1) & −3(1)^{2}\end{matrix}](𝐱_{1}−𝐱_{0}) & =−[\begin{matrix}(1)^{4}−(1)^{2}+5 \\ (1)^{2}−(1)^{3}+1\end{matrix}] \\ [\begin{matrix}4 & −2 \\ 2 & −3\end{matrix}](𝐱_{1}−𝐱_{0}) & =[\begin{matrix}−5 \\ −1\end{matrix}].\end{aligned}
 
 
 $$
@@ -422,7 +422,7 @@ Hence, our updated approximation of the root is given by
 $$
 
 
-\begin{aligned}𝐱_{1} & =𝐱_{0}+[\begin{aligned}−1.625 \\ −0.75\end{aligned}] \\ & =[\begin{aligned}1 \\ 1\end{aligned}]+[\begin{aligned}−1.625 \\ −0.75\end{aligned}] \\ & =[\begin{aligned}−0.625 \\ 0.25\end{aligned}].\end{aligned}
+\begin{aligned}𝐱_{1} & =𝐱_{0}+[\begin{matrix}−1.625 \\ −0.75\end{matrix}] \\ & =[\begin{matrix}1 \\ 1\end{matrix}]+[\begin{matrix}−1.625 \\ −0.75\end{matrix}] \\ & =[\begin{matrix}−0.625 \\ 0.25\end{matrix}].\end{aligned}
 
 
 $$
@@ -450,19 +450,19 @@ The Newton-Raphson method of finding the zeros of a multivariable function $\bol
 $$
 
 
-\mathbf{x}_{n+1} = \mathbf{x}_n - [J_\boldsymbol{f}(\mathbf{x}_n)]^{-1} \boldsymbol{f}(\mathbf{x}_n),
+\mathbf{x}_{n+1} = \mathbf{x}_n - [J_{\boldsymbol{f}}(\mathbf{x}_n)]^{-1} \boldsymbol{f}(\mathbf{x}_n),
 
 
 $$
 
-where $J_\boldsymbol{f}(\mathbf{x}_n)$ is the Jacobian of $\boldsymbol f$ evaluated at $\mathbf{x}_n.$
+where $J_{\boldsymbol{f}}(\mathbf{x}_n)$ is the Jacobian of $\boldsymbol f$ evaluated at $\mathbf{x}_n.$
 
 Equivalently, at each iteration, the above equation can be re-written as
 
 $$
 
 
-J_\boldsymbol{f}(\mathbf{x}_n)(\mathbf{x}_{n+1}-\mathbf{x}_n) = -\boldsymbol{f}(\mathbf{x}_n).
+J_{\boldsymbol{f}}(\mathbf{x}_n)(\mathbf{x}_{n+1}-\mathbf{x}_n) = -\boldsymbol{f}(\mathbf{x}_n).
 
 
 $$
@@ -472,7 +472,7 @@ In our case, the Jacobian is
 $$
 
 
-\begin{aligned}𝐽_{𝒇}(𝐱) & =\begin{aligned}\frac{𝜕}{𝜕𝑥}(𝑥^{2}−𝑦^{2}) & \frac{𝜕}{𝜕𝑦}(𝑥^{2}−𝑦^{2}) \\ \frac{𝜕}{𝜕𝑥}(2𝑥𝑦−1) & \frac{𝜕}{𝜕𝑦}(2𝑥𝑦−1)\end{aligned} \\ & =[\begin{aligned}2𝑥 & −2𝑦 \\ 2𝑦 & 2𝑥\end{aligned}].\end{aligned}
+\begin{aligned}𝐽_{𝒇}(𝐱) & =\begin{matrix}\frac{𝜕}{𝜕𝑥}(𝑥^{2}−𝑦^{2}) & \frac{𝜕}{𝜕𝑦}(𝑥^{2}−𝑦^{2}) \\ \frac{𝜕}{𝜕𝑥}(2𝑥𝑦−1) & \frac{𝜕}{𝜕𝑦}(2𝑥𝑦−1)\end{matrix} \\ & =[\begin{matrix}2𝑥 & −2𝑦 \\ 2𝑦 & 2𝑥\end{matrix}].\end{aligned}
 
 
 $$
@@ -492,7 +492,7 @@ Starting with $[\begin{aligned}1 \\ 1\end{aligned}]$ we have
 $$
 
 
-\begin{aligned}[\begin{aligned}2𝑥 & −2𝑦 \\ 2𝑦 & 2𝑥\end{aligned}]_{𝐱_{0}}(𝐱_{1}−𝐱_{0}) & =−[\begin{aligned}𝑥^{2}−𝑦^{2} \\ 2𝑥𝑦−1\end{aligned}]_{𝐱_{0}} \\ [\begin{aligned}2(1) & −2(1) \\ 2(1) & 2(1)\end{aligned}](𝐱_{1}−𝐱_{0}) & =−[\begin{aligned}(1)^{2}−(1)^{2} \\ 2(1)(1)−1\end{aligned}] \\ [\begin{aligned}2 & −2 \\ 2 & 2\end{aligned}](𝐱_{1}−𝐱_{0}) & =[\begin{aligned}0 \\ −1\end{aligned}].\end{aligned}
+\begin{aligned}[\begin{matrix}2𝑥 & −2𝑦 \\ 2𝑦 & 2𝑥\end{matrix}]_{𝐱_{0}}(𝐱_{1}−𝐱_{0}) & =−[\begin{matrix}𝑥^{2}−𝑦^{2} \\ 2𝑥𝑦−1\end{matrix}]_{𝐱_{0}} \\ [\begin{matrix}2(1) & −2(1) \\ 2(1) & 2(1)\end{matrix}](𝐱_{1}−𝐱_{0}) & =−[\begin{matrix}(1)^{2}−(1)^{2} \\ 2(1)(1)−1\end{matrix}] \\ [\begin{matrix}2 & −2 \\ 2 & 2\end{matrix}](𝐱_{1}−𝐱_{0}) & =[\begin{matrix}0 \\ −1\end{matrix}].\end{aligned}
 
 
 $$
@@ -502,7 +502,7 @@ Solving this system of equations, we get $[\begin{aligned}−0.25 \\ −0.25\end
 $$
 
 
-\begin{aligned}𝐱_{1} & =𝐱_{0}+[\begin{aligned}−0.25 \\ −0.25\end{aligned}] \\ & =[\begin{aligned}1 \\ 1\end{aligned}]+[\begin{aligned}−0.25 \\ −0.25\end{aligned}] \\ & =[\begin{aligned}0.75 \\ 0.75\end{aligned}].\end{aligned}
+\begin{aligned}𝐱_{1} & =𝐱_{0}+[\begin{matrix}−0.25 \\ −0.25\end{matrix}] \\ & =[\begin{matrix}1 \\ 1\end{matrix}]+[\begin{matrix}−0.25 \\ −0.25\end{matrix}] \\ & =[\begin{matrix}0.75 \\ 0.75\end{matrix}].\end{aligned}
 
 
 $$

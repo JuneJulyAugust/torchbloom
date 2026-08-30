@@ -285,7 +285,7 @@ Now we substitute $a_1 = {\color{blue}-1}$ and $d={\color{red}3}$ into the formu
 $$
 
 
-\begin{aligned} a_n &= a_1+(n-1)d \\\[5pt] &= {\color{blue}-1} + (n - 1)({\color{red}3}) \\\[5pt] & =-1 + 3n - 3 \\\[5pt] &=3n - 4 \end{aligned}
+\begin{aligned} a_n &= a_1+(n-1)d \\[5pt] &= {\color{blue}-1} + (n - 1)({\color{red}3}) \\[5pt] & =-1 + 3n - 3 \\[5pt] &=3n - 4 \end{aligned}
 
 
 $$
@@ -353,7 +353,7 @@ Now we substitute $f(1) = {\color{blue}3}$ and $d={\color{red}-5}$ into the form
 $$
 
 
-\begin{aligned} f(n)&= f(1)+(n-1)d \\\[5pt] &= {\color{blue}3} + (n - 1)({\color{red}-5}) \\\[5pt] & =3 - 5n + 5 \\\[5pt] &=8 - 5n \end{aligned}
+\begin{aligned} f(n)&= f(1)+(n-1)d \\[5pt] &= {\color{blue}3} + (n - 1)({\color{red}-5}) \\[5pt] & =3 - 5n + 5 \\[5pt] &=8 - 5n \end{aligned}
 
 
 $$

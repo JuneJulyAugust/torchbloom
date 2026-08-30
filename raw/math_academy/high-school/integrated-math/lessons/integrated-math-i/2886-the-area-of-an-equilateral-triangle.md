@@ -24,7 +24,7 @@ $$
 
 
 
-\begin{aligned}𝐴 & =\frac{1}{2}⋅𝑠⋅\frac{\sqrt{√3}}{2}𝑠 \\ & =\frac{\sqrt{√3}}{4}𝑠^{2}.\end{aligned}
+\begin{aligned}𝐴 & =\frac{1}{2}⋅𝑠⋅\frac{\sqrt{3}}{2}𝑠 \\ & =\frac{\sqrt{3}}{4}𝑠^{2}.\end{aligned}
 
 
 
@@ -60,7 +60,7 @@ $$
 
 
 
-\begin{aligned}A & =\frac{\sqrt{√3}}{4}⋅8^{2} \\ & =\frac{\sqrt{√3}}{4}⋅64 \\ & =16\sqrt{√3}.\end{aligned}
+\begin{aligned}A & =\frac{\sqrt{3}}{4}⋅8^{2} \\ & =\frac{\sqrt{3}}{4}⋅64 \\ & =16\sqrt{3}.\end{aligned}
 
 
 
@@ -104,7 +104,7 @@ $$
 
 
 
-\begin{aligned}A & =\frac{\sqrt{√3}}{4}⋅4^{2} \\ & =\frac{\sqrt{√3}}{4}⋅16 \\ & =4\sqrt{√3}.\end{aligned}
+\begin{aligned}A & =\frac{\sqrt{3}}{4}⋅4^{2} \\ & =\frac{\sqrt{3}}{4}⋅16 \\ & =4\sqrt{3}.\end{aligned}
 
 
 
@@ -140,7 +140,7 @@ $$
 
 
 
-\begin{aligned}6\sqrt{√3} & =\frac{\sqrt{√3}}{4}𝑠^{2} \\ 6 & =\frac{1}{4}𝑠^{2} \\ 24 & =𝑠^{2} \\ 𝑠 & =\sqrt{√24} \\ 𝑠 & =2\sqrt{√6}\end{aligned}
+\begin{aligned}6\sqrt{3} & =\frac{\sqrt{3}}{4}𝑠^{2} \\ 6 & =\frac{1}{4}𝑠^{2} \\ 24 & =𝑠^{2} \\ 𝑠 & =\sqrt{24} \\ 𝑠 & =2\sqrt{6}\end{aligned}
 
 
 
@@ -174,7 +174,7 @@ $$
 
 
 
-\begin{aligned}9\sqrt{√3} & =\frac{\sqrt{√3}}{4}𝑠^{2} \\ 9 & =\frac{1}{4}𝑠^{2} \\ 36 & =𝑠^{2} \\ 𝑠 & =\sqrt{√36} \\ 𝑠 & =6\end{aligned}
+\begin{aligned}9\sqrt{3} & =\frac{\sqrt{3}}{4}𝑠^{2} \\ 9 & =\frac{1}{4}𝑠^{2} \\ 36 & =𝑠^{2} \\ 𝑠 & =\sqrt{36} \\ 𝑠 & =6\end{aligned}
 
 
 

@@ -14,7 +14,7 @@ Topic ID: 3285
 
 Recall that the *negative binomial distribution* is a discrete probability distribution used to model the number of independent Bernoulli trials, each with probability $p$ of success, needed to get $r$ successes.
 
-If a random variable $X$ follows a negative binomial distribution, we write $X \sim \textrm{NB}(r, p).$ The PMF of $X$ is
+If a random variable $X$ follows a negative binomial distribution, we write $X \sim \text{NB}(r, p).$ The PMF of $X$ is
 
 $$
 
@@ -42,7 +42,7 @@ $$
 
 
 
-X \sim \textrm{NB}\left(2, \dfrac{1}{2}\right).
+X \sim \text{NB}\left(2, \dfrac{1}{2}\right).
 
 
 
@@ -104,9 +104,9 @@ A fair spinner with $3$ regions, red, blue, and yellow, is spun until it lands o
 
 #### Explanation
 
-Let $X$ represent the number of times we must spin the spinner until the $2$nd red is obtained. Spinning a spinner and recording whether it lands on red is a Bernoulli trial. We wish to find the number of trials needed until we reach $2$ successes. So, we can model $X$ using the negative binomial distribution: $X \sim \textrm{NB}\left(2, \dfrac13\right).$
+Let $X$ represent the number of times we must spin the spinner until the $2$nd red is obtained. Spinning a spinner and recording whether it lands on red is a Bernoulli trial. We wish to find the number of trials needed until we reach $2$ successes. So, we can model $X$ using the negative binomial distribution: $X \sim \text{NB}\left(2, \dfrac13\right).$
 
-In general, if $X \sim \textrm{NB}(r, p),$ then $X$ has the following probability density function:
+In general, if $X \sim \text{NB}(r, p),$ then $X$ has the following probability density function:
 
 $$
 
@@ -118,7 +118,7 @@ $$
 
 $$
 
-Here, $X \sim \textrm{NB}\left(2, \dfrac13\right),$ so the distribution of $X$ in this case is
+Here, $X \sim \text{NB}\left(2, \dfrac13\right),$ so the distribution of $X$ in this case is
 
 $$
 
@@ -150,9 +150,9 @@ A fair spinner with $4$ regions, orange, red, blue, and yellow, is spun until it
 
 #### Explanation
 
-Let $X$ represent the number of spins until the spinner lands on red for the $2$nd time. Recording whether the spinner lands on red is a Bernoulli trial. We wish to find the number of trials until we reach $2$ successes. So, we can model $X$ using the negative binomial distribution: $X \sim \textrm{NB}\left(2, 0.25\right).$
+Let $X$ represent the number of spins until the spinner lands on red for the $2$nd time. Recording whether the spinner lands on red is a Bernoulli trial. We wish to find the number of trials until we reach $2$ successes. So, we can model $X$ using the negative binomial distribution: $X \sim \text{NB}\left(2, 0.25\right).$
 
-In general, if $X \sim \textrm{NB}(r, p),$ then $X$ has the following probability density function:
+In general, if $X \sim \text{NB}(r, p),$ then $X$ has the following probability density function:
 
 $$
 
@@ -164,7 +164,7 @@ $$
 
 $$
 
-Here, $X \sim \textrm{NB}\left(2, 0.25\right),$ so the distribution of $X$ in this case is
+Here, $X \sim \text{NB}\left(2, 0.25\right),$ so the distribution of $X$ in this case is
 
 $$
 

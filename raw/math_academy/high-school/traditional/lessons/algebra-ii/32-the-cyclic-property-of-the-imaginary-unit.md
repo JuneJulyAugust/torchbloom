@@ -12,7 +12,7 @@ Topic ID: 32
 
 ### Introduction
 
-Let's compute the first few powers of $\textrm{i},$ where $\textrm{i} = \sqrt{-1}\mathbin{:}$
+Let's compute the first few powers of $\text{i},$ where $\text{i} = \sqrt{-1}\mathbin{:}$
 
 $$
 
@@ -24,17 +24,17 @@ $$
 
 $$
 
-We can use these results to evaluate expressions containing powers of $\textrm{i}.$ Let's take a look at some examples.
+We can use these results to evaluate expressions containing powers of $\text{i}.$ Let's take a look at some examples.
 
 ### Example: Raising i to a Small Positive Integer Power
 
 #### Question
 
-What is the value of $4\textrm{i}^3?$
+What is the value of $4\text{i}^3?$
 
 #### Explanation
 
-Let's recall the first few powers of $\textrm{i},$ where $\textrm{i} = \sqrt{-1}\mathbin{:}$
+Let's recall the first few powers of $\text{i},$ where $\text{i} = \sqrt{-1}\mathbin{:}$
 
 $$
 
@@ -60,7 +60,7 @@ $$
 
 ### The Cyclic Nature of Powers of i
 
-Let's remind ourselves of the first few powers of $\textrm{i}\mathbin{:}$
+Let's remind ourselves of the first few powers of $\text{i}\mathbin{:}$
 
 $$
 
@@ -72,35 +72,35 @@ $$
 
 $$
 
-At the fourth power, we return to the value of $1,$ which can also be written as $\textrm{i}^0 = 1.$ This means that if we continue to increase the powers, we would cycle through the same four values once again, as shown below.
+At the fourth power, we return to the value of $1,$ which can also be written as $\text{i}^0 = 1.$ This means that if we continue to increase the powers, we would cycle through the same four values once again, as shown below.
 
 ![Instructional graphic](../../../../lesson-assets/algebra-ii/topic-32/f8a63747bb175fce.png)
 
-So, for $\textrm{i}^5$ through $\textrm{i}^8,$ the exact same pattern repeats. Remembering that $\textrm{i}^4 = 1,$ we have
+So, for $\text{i}^5$ through $\text{i}^8,$ the exact same pattern repeats. Remembering that $\text{i}^4 = 1,$ we have
 
 $$
 
 
 
-\begin{aligned} \textrm{i}^5&=\textrm{i}^4 \cdot \textrm{i} &= \textrm{i}\\\[5pt] \textrm{i}^6&=\textrm{i}^4 \cdot \textrm{i}^2 &=-1\\\[5pt] \textrm{i}^7&=\textrm{i}^4 \cdot \textrm{i}^3 &= -\textrm{i} \\\[5pt] \textrm{i}^8&=\textrm{i}^4 \cdot \textrm{i}^4 &= 1 . \end{aligned}
+\begin{aligned} \text{i}^5&=\text{i}^4 \cdot \text{i} &= \text{i}\\[5pt] \text{i}^6&=\text{i}^4 \cdot \text{i}^2 &=-1\\[5pt] \text{i}^7&=\text{i}^4 \cdot \text{i}^3 &= -\text{i} \\[5pt] \text{i}^8&=\text{i}^4 \cdot \text{i}^4 &= 1 . \end{aligned}
 
 
 
 $$
 
-Similarly, for $\textrm{i}^9$ through to $\textrm{i}^{12},$ the pattern repeats again:
+Similarly, for $\text{i}^9$ through to $\text{i}^{12},$ the pattern repeats again:
 
 $$
 
 
 
-\begin{aligned} \textrm{i}^9&=(\textrm{i}^4)^2 \cdot \textrm{i} &= \textrm{i}\\\[5pt] \textrm{i}^{10}&=(\textrm{i}^4)^2 \cdot \textrm{i}^2 &=-1\\\[5pt] \textrm{i}^{11}&=(\textrm{i}^4)^2 \cdot \textrm{i}^3 &= -\textrm{i} \\\[5pt] \textrm{i}^{12}&=(\textrm{i}^4)^2 \cdot \textrm{i}^4 &= 1 \end{aligned}
+\begin{aligned} \text{i}^9&=(\text{i}^4)^2 \cdot \text{i} &= \text{i}\\[5pt] \text{i}^{10}&=(\text{i}^4)^2 \cdot \text{i}^2 &=-1\\[5pt] \text{i}^{11}&=(\text{i}^4)^2 \cdot \text{i}^3 &= -\text{i} \\[5pt] \text{i}^{12}&=(\text{i}^4)^2 \cdot \text{i}^4 &= 1 \end{aligned}
 
 
 
 $$
 
-Therefore, to simplify a higher integer power of $\textrm{i},$ we *divide the power by $4$ and raise $\textrm{i}$ to the remainder*.
+Therefore, to simplify a higher integer power of $\text{i},$ we *divide the power by $4$ and raise $\text{i}$ to the remainder*.
 
 Let's see this idea in action.
 
@@ -108,11 +108,11 @@ Let's see this idea in action.
 
 #### Question
 
-Simplify $\textrm{i}^{15}.$
+Simplify $\text{i}^{15}.$
 
 #### Explanation
 
-To find the value of $\textrm{i}$ to some positive integer power $n$, we divide $n$ by $4$ and raise $\textrm{i}$ to the remainder.
+To find the value of $\text{i}$ to some positive integer power $n$, we divide $n$ by $4$ and raise $\text{i}$ to the remainder.
 
 In our case, we have $n=15.$ Dividing the power by $4,$ we get
 
@@ -120,7 +120,7 @@ $$
 
 
 
-15\div 4 = 3\,\textrm{R} \color{blue}{3}.
+15\div 4 = 3\,\text{R} \color{blue}{3}.
 
 
 
@@ -132,7 +132,7 @@ $$
 
 
 
-\textrm{i}^{15} = \textrm{i}^{\color{blue}{3}} = -\textrm{i}.
+\text{i}^{15} = \text{i}^{\color{blue}{3}} = -\text{i}.
 
 
 
@@ -142,7 +142,7 @@ $$
 
 #### Question
 
-If $a = \textrm{i}^9$ and $b = \textrm{i}^{7},$ then $ab =$
+If $a = \text{i}^9$ and $b = \text{i}^{7},$ then $ab =$
 
 #### Explanation
 
@@ -152,13 +152,13 @@ $$
 
 
 
-ab =\textrm{i}^9\cdot\textrm{i}^7 = \textrm{i}^{9+7} = \textrm{i}^{16}.
+ab =\text{i}^9\cdot\text{i}^7 = \text{i}^{9+7} = \text{i}^{16}.
 
 
 
 $$
 
-To find the value of $\textrm{i}$ raised to some positive integer power $n,$ we divide $n$ by $4$ and raise $\textrm{i}$ to the remainder.
+To find the value of $\text{i}$ raised to some positive integer power $n,$ we divide $n$ by $4$ and raise $\text{i}$ to the remainder.
 
 In our case, we have $n=16.$ Dividing the power by $4,$ we get
 
@@ -166,7 +166,7 @@ $$
 
 
 
-16\div 4 = 4\,\textrm{R} \color{blue}{0}.
+16\div 4 = 4\,\text{R} \color{blue}{0}.
 
 
 
@@ -178,7 +178,7 @@ $$
 
 
 
-\textrm{i}^{16} = \textrm{i}^{\color{blue}{0}} =1.
+\text{i}^{16} = \text{i}^{\color{blue}{0}} =1.
 
 
 
@@ -188,7 +188,7 @@ $$
 
 #### Question
 
-Find the value of $\textrm{i}^{-2}.$
+Find the value of $\text{i}^{-2}.$
 
 #### Explanation
 
@@ -198,19 +198,19 @@ $$
 
 
 
-\textrm{i}^{-2}=\dfrac{1}{\textrm{i}^2}.
+\text{i}^{-2}=\dfrac{1}{\text{i}^2}.
 
 
 
 $$
 
-We now recall that $\textrm{i}^2 = -1.$ Therefore,
+We now recall that $\text{i}^2 = -1.$ Therefore,
 
 $$
 
 
 
-\dfrac{1}{\textrm{i}^2} = \dfrac{1}{(-1)} = -1.
+\dfrac{1}{\text{i}^2} = \dfrac{1}{(-1)} = -1.
 
 
 

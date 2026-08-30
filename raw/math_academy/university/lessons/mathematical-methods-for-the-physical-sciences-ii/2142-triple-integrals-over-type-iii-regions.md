@@ -66,7 +66,7 @@ To evaluate our triple integral, we start by expressing it as a mixed integral:
 $$
 
 
-\iiint\limits_R 2xz \:\textrm{d}V = \iint\limits_D \left[ \int_{0}^{6-x-z} 2xz \:\textrm{d}y \right] \textrm{d}A
+\iiint\limits_R 2xz \:\text{d}V = \iint\limits_D \left[ \int_{0}^{6-x-z} 2xz \:\text{d}y \right] \text{d}A
 
 
 $$
@@ -86,7 +86,7 @@ and therefore, our mixed integral can be written as the following repeating inte
 $$
 
 
-\iint\limits_D \left[ \int_0^{6-x-z} 2xz \:\textrm{d}y \right] \textrm{d}A = \int_{0}^{3} \int_{0}^{1} \int_{0}^{6-x-z} 2xz \:\textrm{d}y\:\textrm{d}z\:\textrm{d}x
+\iint\limits_D \left[ \int_0^{6-x-z} 2xz \:\text{d}y \right] \text{d}A = \int_{0}^{3} \int_{0}^{1} \int_{0}^{6-x-z} 2xz \:\text{d}y\:\text{d}z\:\text{d}x
 
 
 $$
@@ -96,7 +96,7 @@ Evaluating this using the usual methods, we get
 $$
 
 
-\int_{0}^{3} \int_{0}^{1} \int_{0}^{6-x-z} 2xz \:\textrm{d}y\:\textrm{d}z\:\textrm{d}x = 15.
+\int_{0}^{3} \int_{0}^{1} \int_{0}^{6-x-z} 2xz \:\text{d}y\:\text{d}z\:\text{d}x = 15.
 
 
 $$
@@ -106,7 +106,7 @@ Therefore, we conclude that
 $$
 
 
-\iiint\limits_R 2xz \:\textrm{d}V = 15.
+\iiint\limits_R 2xz \:\text{d}V = 15.
 
 
 $$
@@ -120,7 +120,7 @@ Find the missing limits in the repeated integral below
 $$
 
 
-\displaystyle \iiint \limits_{R} f(x,y,z) \: \textrm{d}V = \int_{\ast}^{\ast} \int_{\ast}^{\ast} \int_{\ast}^{\ast} f(x,y,z) \: \mathrm{d}y \: \mathrm{d}z \: \mathrm{d}x
+\displaystyle \iiint \limits_{R} f(x,y,z) \: \text{d}V = \int_{\ast}^{\ast} \int_{\ast}^{\ast} \int_{\ast}^{\ast} f(x,y,z) \: \mathrm{d}y \: \mathrm{d}z \: \mathrm{d}x
 
 
 $$
@@ -176,7 +176,7 @@ Therefore, our triple integral can be written as
 $$
 
 
-\displaystyle \iiint \limits_{S} f(x,y,z) \: \textrm{d}V = \iint\limits_{D} \left[ \int_{0}^{z+xz} f(x,y,z) \: \mathrm{d}y \right] \mathrm{d}A.
+\displaystyle \iiint \limits_{S} f(x,y,z) \: \text{d}V = \iint\limits_{D} \left[ \int_{0}^{z+xz} f(x,y,z) \: \mathrm{d}y \right] \mathrm{d}A.
 
 
 $$
@@ -196,7 +196,7 @@ Therefore, by expressing the double integral over $D$ as a repeated integral, we
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}[∫_{𝑧+𝑥𝑧0}^{}𝑓(𝑥,𝑦,𝑧)\,d𝑦]d𝐴 & =∫_{3−3}^{}∫_{2𝑥+2𝑥}^{}[∫_{𝑧+𝑥𝑧0}^{}𝑓(𝑥,𝑦,𝑧)\,d𝑦]d𝑧\,d𝑥 \\ & =∫_{3−3}^{}∫_{2𝑥+2𝑥}^{}∫_{𝑧+𝑥𝑧0}^{}𝑓(𝑥,𝑦,𝑧)\,d𝑦\,d𝑧\,d𝑥.\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}[∫_{𝑧+𝑥𝑧0}𝑓(𝑥,𝑦,𝑧)\,d𝑦]d𝐴 & =∫_{3−3}∫_{2𝑥+2𝑥}[∫_{𝑧+𝑥𝑧0}𝑓(𝑥,𝑦,𝑧)\,d𝑦]d𝑧\,d𝑥 \\ & =∫_{3−3}∫_{2𝑥+2𝑥}∫_{𝑧+𝑥𝑧0}𝑓(𝑥,𝑦,𝑧)\,d𝑦\,d𝑧\,d𝑥.\end{aligned}
 
 
 $$
@@ -224,7 +224,7 @@ First, we evaluate the inner integral with respect to $y,$ treating $x$ and $z$ 
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}[∫_{\sqrt{√𝑥}0}^{}2𝑦\,d𝑦]d𝐴 & =\underset{𝐷}{∬}[𝑦^{2}]_{𝑦=\sqrt{√𝑥}𝑦=0}^{}\,d𝐴 \\ & =\underset{𝐷}{∬}𝑥\,d𝐴\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}[∫_{\sqrt{𝑥}0}^{}2𝑦\,d𝑦]d𝐴 & =\underset{𝐷}{∬}[𝑦^{2}]_{𝑦=\sqrt{𝑥}𝑦=0}^{}\,d𝐴 \\ & =\underset{𝐷}{∬}𝑥\,d𝐴\end{aligned}
 
 
 $$
@@ -238,7 +238,7 @@ Therefore, to evaluate our double integral as a repeated integral over this regi
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}𝑥\,d𝐴 & =∫_{10}^{}∫_{𝑥0}^{}𝑥\,d𝑧\,d𝑥 \\ & =∫_{10}^{}𝑥[𝑧]_{𝑧=𝑥𝑧=0}^{}\,d𝑥 \\ & =∫_{10}^{}𝑥^{2}\,d𝑥 \\ & =[\frac{1}{3}𝑥^{3}]_{𝑥=1𝑥=0}^{} \\ & =\frac{1}{3}−0 \\ & =\frac{1}{3}\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}𝑥\,d𝐴 & =∫_{10}∫_{𝑥0}𝑥\,d𝑧\,d𝑥 \\ & =∫_{10}𝑥[𝑧]_{𝑧=𝑥𝑧=0}\,d𝑥 \\ & =∫_{10}𝑥^{2}\,d𝑥 \\ & =[\frac{1}{3}𝑥^{3}]_{𝑥=1𝑥=0} \\ & =\frac{1}{3}−0 \\ & =\frac{1}{3}\end{aligned}
 
 
 $$
@@ -276,7 +276,7 @@ Writing down our triple integral as a mixed integral, we obtain
 $$
 
 
-\displaystyle \iiint \limits_{R} 8xy \, \textrm{d}V = \iint\limits_D \left[ \int_{0}^{\sqrt{x}} 8xy\: \mathrm{d}y \right ] \mathrm{d}A.
+\displaystyle \iiint \limits_{R} 8xy \, \text{d}V = \iint\limits_D \left[ \int_{0}^{\sqrt{x}} 8xy\: \mathrm{d}y \right ] \mathrm{d}A.
 
 
 $$
@@ -286,7 +286,7 @@ First, we evaluate the inner integral with respect to $y,$ treating $x$ and $z$ 
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}[∫_{\sqrt{√𝑥}0}^{}8𝑥𝑦\,d𝑦]d𝐴 & =\underset{𝐷}{∬}4𝑥[𝑦^{2}]_{𝑦=\sqrt{√𝑥}𝑦=0}^{}\,d𝐴 \\ & =\underset{𝐷}{∬}4𝑥(𝑥−0)\,d𝐴 \\ & =\underset{𝐷}{∬}4𝑥^{2}\,d𝐴\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}[∫_{\sqrt{𝑥}0}^{}8𝑥𝑦\,d𝑦]d𝐴 & =\underset{𝐷}{∬}4𝑥[𝑦^{2}]_{𝑦=\sqrt{𝑥}𝑦=0}^{}\,d𝐴 \\ & =\underset{𝐷}{∬}4𝑥(𝑥−0)\,d𝐴 \\ & =\underset{𝐷}{∬}4𝑥^{2}\,d𝐴\end{aligned}
 
 
 $$
@@ -300,7 +300,7 @@ We can evaluate our double integral as follows:
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}4𝑥^{2}\,d𝐴 & =∫_{10}^{}∫_{𝑥0}^{}4𝑥^{2}\,d𝑧\,d𝑥 \\ & =∫_{10}^{}4𝑥^{2}[𝑧]_{𝑧=𝑥𝑧=0}^{}\,d𝑥 \\ & =∫_{10}^{}4𝑥^{2}(𝑥−0)\,d𝑥 \\ & =∫_{10}^{}4𝑥^{3}\,d𝑥 \\ & =[𝑥^{4}]_{𝑥=1𝑥=0}^{} \\ & =1^{4}−0 \\ & =1\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}4𝑥^{2}\,d𝐴 & =∫_{10}∫_{𝑥0}4𝑥^{2}\,d𝑧\,d𝑥 \\ & =∫_{10}4𝑥^{2}[𝑧]_{𝑧=𝑥𝑧=0}\,d𝑥 \\ & =∫_{10}4𝑥^{2}(𝑥−0)\,d𝑥 \\ & =∫_{10}4𝑥^{3}\,d𝑥 \\ & =[𝑥^{4}]_{𝑥=1𝑥=0} \\ & =1^{4}−0 \\ & =1\end{aligned}
 
 
 $$
@@ -334,7 +334,7 @@ Notice that the projection of $R$ onto the $xz$-plane is a type II plane region.
 $$
 
 
-\iiint\limits_R f(x,y,z) \:\textrm{d}V = \int_{\color{red}a}^{\color{red}b} \int_{\color{blue}v_1(x)}^{\color{blue}v_2(x)} \int_{\color{purple}u_1(x,z)}^{\color{purple}u_2(x,z)} f(x,y,z) \:\textrm{d}y\:\textrm{d}z\:\textrm{d}x
+\iiint\limits_R f(x,y,z) \:\text{d}V = \int_{\color{red}a}^{\color{red}b} \int_{\color{blue}v_1(x)}^{\color{blue}v_2(x)} \int_{\color{purple}u_1(x,z)}^{\color{purple}u_2(x,z)} f(x,y,z) \:\text{d}y\:\text{d}z\:\text{d}x
 
 
 $$
@@ -392,7 +392,7 @@ As a result, by writing down our triple integral as a repeated integral, we obta
 $$
 
 
-\displaystyle \iiint \limits_{R} 36z^2 \: \textrm{d}V = \int_{0}^{1} \int_{0}^{1} \int_{0}^{5-x-z} 36z^2 \: \mathrm{d}y \: \mathrm{d}z \: \mathrm{d}x.
+\displaystyle \iiint \limits_{R} 36z^2 \: \text{d}V = \int_{0}^{1} \int_{0}^{1} \int_{0}^{5-x-z} 36z^2 \: \mathrm{d}y \: \mathrm{d}z \: \mathrm{d}x.
 
 
 $$
@@ -402,7 +402,7 @@ First, we evaluate the inner integral with respect to $y$, treating $x$ and $z$ 
 $$
 
 
-\begin{aligned}∫_{10}^{}∫_{10}^{}∫_{5−𝑥−𝑧0}^{}36𝑧^{2}\,d𝑦\,d𝑧\,d𝑥 & =∫_{10}^{}∫_{10}^{}[∫_{5−𝑥−𝑧0}^{}36𝑧^{2}\,d𝑦]d𝑧\,d𝑥 \\ & =∫_{10}^{}∫_{10}^{}36𝑧^{2}[𝑦]_{𝑦=5−𝑥−𝑧𝑦=0}^{}\,d𝑧\,d𝑥 \\ & =∫_{10}^{}∫_{10}^{}36𝑧^{2}(5−𝑥−𝑧)\,d𝑧\,d𝑥 \\ & =∫_{10}^{}∫_{10}^{}(180𝑧^{2}−36𝑥𝑧^{2}−36𝑧^{3})\,d𝑧\,d𝑥\end{aligned}
+\begin{aligned}∫_{10}∫_{10}∫_{5−𝑥−𝑧0}36𝑧^{2}\,d𝑦\,d𝑧\,d𝑥 & =∫_{10}∫_{10}[∫_{5−𝑥−𝑧0}36𝑧^{2}\,d𝑦]d𝑧\,d𝑥 \\ & =∫_{10}∫_{10}36𝑧^{2}[𝑦]_{𝑦=5−𝑥−𝑧𝑦=0}\,d𝑧\,d𝑥 \\ & =∫_{10}∫_{10}36𝑧^{2}(5−𝑥−𝑧)\,d𝑧\,d𝑥 \\ & =∫_{10}∫_{10}(180𝑧^{2}−36𝑥𝑧^{2}−36𝑧^{3})\,d𝑧\,d𝑥\end{aligned}
 
 
 $$
@@ -412,7 +412,7 @@ Next, we evaluate the inner integral with respect to $z$, treating $x$ as a cons
 $$
 
 
-\begin{aligned}∫_{10}^{}∫_{10}^{}(180𝑧^{2}−36𝑥𝑧^{2}−36𝑧^{3})\,d𝑧\,d𝑥 & =∫_{10}^{}[∫_{10}^{}(180𝑧^{2}−36𝑥𝑧^{2}−36𝑧^{3})\,d𝑧]d𝑥 \\ & =∫_{10}^{}[60𝑧^{3}−12𝑥𝑧^{3}−9𝑧^{4}]_{𝑧=1𝑧=0}^{}\,d𝑥 \\ & =∫_{10}^{}(51−12𝑥)\,d𝑥\end{aligned}
+\begin{aligned}∫_{10}∫_{10}(180𝑧^{2}−36𝑥𝑧^{2}−36𝑧^{3})\,d𝑧\,d𝑥 & =∫_{10}[∫_{10}(180𝑧^{2}−36𝑥𝑧^{2}−36𝑧^{3})\,d𝑧]d𝑥 \\ & =∫_{10}[60𝑧^{3}−12𝑥𝑧^{3}−9𝑧^{4}]_{𝑧=1𝑧=0}\,d𝑥 \\ & =∫_{10}(51−12𝑥)\,d𝑥\end{aligned}
 
 
 $$
@@ -422,7 +422,7 @@ Finally, we integrate with respect to $x{:}$
 $$
 
 
-\begin{aligned}∫_{10}^{}(51−12𝑥)\,d𝑥 & =[51𝑥−6𝑥^{2}]_{𝑥=1𝑥=0}^{} \\ & =(51(1)−6(1)^{2})−0 \\ & =45\end{aligned}
+\begin{aligned}∫_{10}(51−12𝑥)\,d𝑥 & =[51𝑥−6𝑥^{2}]_{𝑥=1𝑥=0} \\ & =(51(1)−6(1)^{2})−0 \\ & =45\end{aligned}
 
 
 $$

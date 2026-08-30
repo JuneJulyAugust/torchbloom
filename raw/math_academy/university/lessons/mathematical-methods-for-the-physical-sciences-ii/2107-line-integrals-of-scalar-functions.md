@@ -13,9 +13,9 @@ Topic ID: 2107
 
 ### Introduction
 
-A **line integral** $\displaystyle\int\limits_C f(x, y) \, \textrm{d}s$ is similar to a definite integral, but for a function of multiple variables along a general path $C.$
+A **line integral** $\displaystyle\int\limits_C f(x, y) \, \text{d}s$ is similar to a definite integral, but for a function of multiple variables along a general path $C.$
 
-To understand the intuition behind line integrals, remember that the definite integral $\displaystyle\int_a^b f(x)\,\textrm{d}x$ can be interpreted as the (signed) area bounded between the function $y=f(x)$ and the $x$-axis between $x=a$ and $x=b,$ as shown below.
+To understand the intuition behind line integrals, remember that the definite integral $\displaystyle\int_a^b f(x)\,\text{d}x$ can be interpreted as the (signed) area bounded between the function $y=f(x)$ and the $x$-axis between $x=a$ and $x=b,$ as shown below.
 
 ![Instructional graphic](../../../lesson-assets/mathematical-methods-for-the-physical-sciences-ii/topic-2107/be7d20f710b1e0f1.png)
 
@@ -39,9 +39,9 @@ Let $f(x,y)= 3 - \sin (2xy).$ If we sum the areas of the thin rectangles that ar
 
 ![Instructional graphic](../../../lesson-assets/mathematical-methods-for-the-physical-sciences-ii/topic-2107/e329500a66ca4819.png)
 
-This signed area is equal to the line integral $\displaystyle\int\limits_C f(x, y) \, \textrm{d}s.$
+This signed area is equal to the line integral $\displaystyle\int\limits_C f(x, y) \, \text{d}s.$
 
-Finally, we sometimes call $\displaystyle\int\limits_C f(x, y) \, \textrm{d}s$ the line integral of $f$ **with respect to arc length.** Other types of line integral are possible, as we'll see soon.
+Finally, we sometimes call $\displaystyle\int\limits_C f(x, y) \, \text{d}s$ the line integral of $f$ **with respect to arc length.** Other types of line integral are possible, as we'll see soon.
 
 ### The General Formula
 
@@ -60,7 +60,7 @@ Now let $f(x,y)$ be a continuous function that is defined everywhere on $C.$ The
 $$
 
 
-\displaystyle\int\limits_C f(x, y) \, \textrm{d}s,
+\displaystyle\int\limits_C f(x, y) \, \text{d}s,
 
 
 $$
@@ -70,7 +70,7 @@ can be calculated using the formula
 $$
 
 
-\int\limits_C f(x, y) \, \textrm{d}s = \int\limits_a^b f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \textrm{d}t.
+\int\limits_C f(x, y) \, \text{d}s = \int\limits_a^b f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \text{d}t.
 
 
 $$
@@ -80,7 +80,7 @@ The line integral formula extends to functions of $n$ variables. For example, fo
 $$
 
 
-\int\limits_C f(x, y,z) \, \textrm{d}s = \int\limits_a^b f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \textrm{d}t.
+\int\limits_C f(x, y,z) \, \text{d}s = \int\limits_a^b f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \text{d}t.
 
 
 $$
@@ -91,7 +91,7 @@ We'll go through the details of where this formula comes from at the end of the 
 
 #### Question
 
-Find an integral that is equivalent to $\displaystyle\int\limits_C xy^3 \, \textrm{d}s,$ where $C$ is the curve parametrized by $\mathbf r(t)= \left \langle \cos t, \sin t \right\rangle$ for $t \in \left(0, \dfrac{\pi}{2}\right).$
+Find an integral that is equivalent to $\displaystyle\int\limits_C xy^3 \, \text{d}s,$ where $C$ is the curve parametrized by $\mathbf r(t)= \left \langle \cos t, \sin t \right\rangle$ for $t \in \left(0, \dfrac{\pi}{2}\right).$
 
 #### Explanation
 
@@ -102,7 +102,7 @@ The path of integration is shown above. We will use the formula
 $$
 
 
-\int\limits_C f(x, y) \, \textrm{d}s = \int\limits_a^b f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \textrm{d}t.
+\int\limits_C f(x, y) \, \text{d}s = \int\limits_a^b f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \text{d}t.
 
 
 $$
@@ -122,7 +122,7 @@ Computing $\mathbf{r}'(t)$ and $\| \mathbf{r}'(t) \|,$ we get
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑡) & =\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣 \\ & =\frac{d}{d𝑡}(cos⁡𝑡)𝐢+\frac{d}{d𝑡}(sin⁡𝑡)𝐣 \\ & =−sin⁡𝑡\,𝐢+cos⁡𝑡\,𝐣 \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{√(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}} \\ & =\sqrt{√(−sin⁡𝑡)^{2}+(cos⁡𝑡)^{2}} \\ & =\sqrt{√sin^{2}⁡𝑡+cos^{2}⁡𝑡} \\ & =1.\end{aligned}
+\begin{aligned}𝐫^{′}(𝑡) & =\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣 \\ & =\frac{d}{d𝑡}(cos⁡𝑡)𝐢+\frac{d}{d𝑡}(sin⁡𝑡)𝐣 \\ & =−sin⁡𝑡\,𝐢+cos⁡𝑡\,𝐣 \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}} \\ & =\sqrt{(−sin⁡𝑡)^{2}+(cos⁡𝑡)^{2}} \\ & =\sqrt{sin^{2}⁡𝑡+cos^{2}⁡𝑡} \\ & =1.\end{aligned}
 
 
 $$
@@ -132,7 +132,7 @@ Therefore, we can write the integral as
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}𝑥𝑦^{3}\,d𝑠 & =∫_{𝑏𝑎}^{}𝑓(𝐫(𝑡))\,‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{𝜋/20}^{}sin^{3}⁡𝑡cos⁡𝑡⋅1\,d𝑡 \\ & =∫_{𝜋/20}^{}sin^{3}⁡𝑡cos⁡𝑡\,d𝑡.\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}𝑥𝑦^{3}\,d𝑠 & =∫_{𝑏𝑎}𝑓(𝐫(𝑡))\,‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{𝜋/20}sin^{3}⁡𝑡cos⁡𝑡⋅1\,d𝑡 \\ & =∫_{𝜋/20}sin^{3}⁡𝑡cos⁡𝑡\,d𝑡.\end{aligned}
 
 
 $$
@@ -142,7 +142,7 @@ So, we conclude that
 $$
 
 
-\int\limits_C xy^3 \, \textrm{d}s = \int^{\pi/2}_{0} \sin^3 t \cos t \, \textrm{d}t .
+\int\limits_C xy^3 \, \text{d}s = \int^{\pi/2}_{0} \sin^3 t \cos t \, \text{d}t .
 
 
 $$
@@ -151,7 +151,7 @@ $$
 
 #### Question
 
-Evaluate the integral $\displaystyle\int\limits_{C}xy\,\textrm{d}s,$ where $C$ is the curve parametrized by $\mathbf{r}(t) = 3t\,\mathbf{i}+4t\,\mathbf{j}\,$ for $0\leq t\leq 1.$
+Evaluate the integral $\displaystyle\int\limits_{C}xy\,\text{d}s,$ where $C$ is the curve parametrized by $\mathbf{r}(t) = 3t\,\mathbf{i}+4t\,\mathbf{j}\,$ for $0\leq t\leq 1.$
 
 #### Explanation
 
@@ -160,7 +160,7 @@ To calculate the line integral, we will use the formula
 $$
 
 
-\int\limits_C f(x, y) \, \textrm{d}s = \int\limits_a^b f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \textrm{d}t.
+\int\limits_C f(x, y) \, \text{d}s = \int\limits_a^b f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \text{d}t.
 
 
 $$
@@ -172,7 +172,7 @@ Computing $\mathbf{r}'(t)$ and $\| \mathbf{r}'(t) \|,$ we get the following:
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑡) & =\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣 \\ & =\frac{d}{d𝑡}(3𝑡)𝐢+\frac{d}{d𝑡}(4𝑡)𝐣 \\ & =3\,𝐢+4\,𝐣 \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{√(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}} \\ & =\sqrt{√3^{2}+4^{2}} \\ & =\sqrt{√5^{2}} \\ & =5\end{aligned}
+\begin{aligned}𝐫^{′}(𝑡) & =\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣 \\ & =\frac{d}{d𝑡}(3𝑡)𝐢+\frac{d}{d𝑡}(4𝑡)𝐣 \\ & =3\,𝐢+4\,𝐣 \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}} \\ & =\sqrt{3^{2}+4^{2}} \\ & =\sqrt{5^{2}} \\ & =5\end{aligned}
 
 
 $$
@@ -192,7 +192,7 @@ Therefore, we can write the integral as
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}𝑥𝑦\,d𝑠 & =∫_{10}^{}𝑓(𝐫(𝑡))\,‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{10}^{}12𝑡^{2}⋅5\,d𝑡 \\ & =60∫_{10}^{}𝑡^{2}\,d𝑡 \\ & =60[\frac{𝑡^{3}}{3}]_{10}^{} \\ & =20[𝑡^{3}]_{10}^{} \\ & =20.\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}𝑥𝑦\,d𝑠 & =∫_{10}𝑓(𝐫(𝑡))\,‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{10}12𝑡^{2}⋅5\,d𝑡 \\ & =60∫_{10}𝑡^{2}\,d𝑡 \\ & =60[\frac{𝑡^{3}}{3}]_{10} \\ & =20[𝑡^{3}]_{10} \\ & =20.\end{aligned}
 
 
 $$
@@ -210,7 +210,7 @@ To calculate the line integral, we will use the formula
 $$
 
 
-\int\limits_C f(x, y) \, \textrm{d}s = \int\limits_a^b f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \textrm{d}t.
+\int\limits_C f(x, y) \, \text{d}s = \int\limits_a^b f(\mathbf r(t)) \, \| \mathbf r'(t) \| \, \text{d}t.
 
 
 $$
@@ -222,7 +222,7 @@ Computing $\mathbf{r}'(t)$ and $\| \mathbf{r}'(t) \|,$ we get the following:
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑡) & =\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣+\frac{d𝑧}{d𝑡}\,𝐤 \\ & =\frac{d}{d𝑡}(𝑡^{2})\,𝐢+\frac{d}{d𝑡}(𝑡)\,𝐣+\frac{d}{d𝑡}(1)\,𝐤 \\ & =2𝑡\,𝐢+1\,𝐣+0\,𝐤 \\ & =2𝑡\,𝐢+𝐣 \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{√(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}+(\frac{d𝑧}{d𝑡})^{2}} \\ & =\sqrt{√(2𝑡)^{2}+1^{2}+0^{2}} \\ & =\sqrt{√4𝑡^{2}+1}\end{aligned}
+\begin{aligned}𝐫^{′}(𝑡) & =\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣+\frac{d𝑧}{d𝑡}\,𝐤 \\ & =\frac{d}{d𝑡}(𝑡^{2})\,𝐢+\frac{d}{d𝑡}(𝑡)\,𝐣+\frac{d}{d𝑡}(1)\,𝐤 \\ & =2𝑡\,𝐢+1\,𝐣+0\,𝐤 \\ & =2𝑡\,𝐢+𝐣 \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{(\frac{d𝑥}{d𝑡})^{2}+(\frac{d𝑦}{d𝑡})^{2}+(\frac{d𝑧}{d𝑡})^{2}} \\ & =\sqrt{(2𝑡)^{2}+1^{2}+0^{2}} \\ & =\sqrt{4𝑡^{2}+1}\end{aligned}
 
 
 $$
@@ -242,7 +242,7 @@ Therefore, we can write the integral as
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}𝑓(𝑥,𝑦)\,d𝑠 & =∫_{\sqrt{√2}0}^{}𝑓(𝐫(𝑡))\,‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{\sqrt{√2}0}^{}𝑡\sqrt{√4𝑡^{2}+1}\,d𝑡.\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}𝑓(𝑥,𝑦)\,d𝑠 & =∫_{\sqrt{2}0}^{}𝑓(𝐫(𝑡))\,‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{\sqrt{2}0}^{}𝑡\sqrt{4𝑡^{2}+1}\,d𝑡.\end{aligned}
 
 
 $$
@@ -252,7 +252,7 @@ We can solve this using the substitution $u= 4t^2+1,$ $\textrm d u=8t\,\textrm d
 $$
 
 
-\begin{aligned}∫_{\sqrt{√2}0}^{}𝑡\sqrt{√4𝑡^{2}+1}\,d𝑡 & =∫_{91}^{}\frac{1}{8}𝑢^{1/2}d𝑢 \\ & =\frac{1}{8}⋅\frac{2}{3}𝑢^{3/2}_{91}^{} \\ & =\frac{1}{12}[9^{3/2}−1^{3/2}] \\ & =\frac{1}{12}[27−1] \\ & =\frac{1}{12}⋅26 \\ & =\frac{13}{6}\end{aligned}
+\begin{aligned}∫_{\sqrt{2}0}^{}𝑡\sqrt{4𝑡^{2}+1}\,d𝑡 & =∫_{91}\frac{1}{8}𝑢^{1/2}d𝑢 \\ & =\frac{1}{8}⋅\frac{2}{3}𝑢^{3/2}_{91} \\ & =\frac{1}{12}[9^{3/2}−1^{3/2}] \\ & =\frac{1}{12}[27−1] \\ & =\frac{1}{12}⋅26 \\ & =\frac{13}{6}\end{aligned}
 
 
 $$
@@ -264,7 +264,7 @@ We wish to derive the formula
 $$
 
 
-\int\limits_C f(x,y) \, \textrm{d}s =\int_{a}^{b} f(\mathbf r(t)) \| \mathbf r'(t) \| \, \textrm{d}t.
+\int\limits_C f(x,y) \, \text{d}s =\int_{a}^{b} f(\mathbf r(t)) \| \mathbf r'(t) \| \, \text{d}t.
 
 
 $$
@@ -326,7 +326,7 @@ $$
 $$
 
 
-\int\limits_C f(x,y) \, \textrm{d}s \approx \sum_{k=1}^{n} f(\mathbf r(c_k)) \| \mathbf{r}'(c_k) \| \Delta t_k.
+\int\limits_C f(x,y) \, \text{d}s \approx \sum_{k=1}^{n} f(\mathbf r(c_k)) \| \mathbf{r}'(c_k) \| \Delta t_k.
 
 
 $$
@@ -336,7 +336,7 @@ $$
 $$
 
 
-\int\limits_C f(x,y) \, \textrm{d}s =\lim_{n\to\infty }\sum_{k=1}^{n} f(\mathbf r(c_k)) \| \mathbf{r}'(c_k) \| \Delta t_k = \int_{a}^{b} f(\mathbf r(t)) \| \mathbf r'(t) \| \, \textrm{d}t
+\int\limits_C f(x,y) \, \text{d}s =\lim_{n\to\infty }\sum_{k=1}^{n} f(\mathbf r(c_k)) \| \mathbf{r}'(c_k) \| \Delta t_k = \int_{a}^{b} f(\mathbf r(t)) \| \mathbf r'(t) \| \, \text{d}t
 
 
 $$

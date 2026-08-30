@@ -82,7 +82,7 @@ We rearrange the terms so that the like terms, $6a$ and $-2a$, are together.
 
 $$
 
-\begin{aligned} 6a+1-2a &= \\[5pt] \underbrace{6a-2a}_{a \textrm{ terms}}+ 1 & \end{aligned}
+\begin{aligned} 6a+1-2a &= \\[5pt] \underbrace{6a-2a}_{a \text{ terms}}+ 1 & \end{aligned}
 
 $$
 
@@ -106,7 +106,7 @@ First, we group the like terms.
 
 $$
 
-\begin{aligned} 2.5x+2y-x+1.5y &= \\[5pt] \underbrace{2.5x-x}_{x \textrm{ terms}}+\underbrace{2y+1.5y}_{y \textrm{ terms}} & \end{aligned}
+\begin{aligned} 2.5x+2y-x+1.5y &= \\[5pt] \underbrace{2.5x-x}_{x \text{ terms}}+\underbrace{2y+1.5y}_{y \text{ terms}} & \end{aligned}
 
 $$
 

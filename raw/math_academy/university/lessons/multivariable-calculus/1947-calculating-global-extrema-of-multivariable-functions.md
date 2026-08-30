@@ -43,7 +43,7 @@ The derivative exists at each point inside $D,$ and it equals zero when
 $$
 
 
-\begin{aligned}\begin{aligned}2𝑥𝑒^{𝑥^{2}−𝑦^{2}}=0 \\ −2𝑦𝑒^{𝑥^{2}−𝑦^{2}}=0\end{aligned}\,⟹\,\begin{aligned}𝑥=0 \\ 𝑦=0.\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}2𝑥𝑒^{𝑥^{2}−𝑦^{2}}=0 \\ −2𝑦𝑒^{𝑥^{2}−𝑦^{2}}=0\end{matrix}\,⟹\,\begin{matrix}𝑥=0 \\ 𝑦=0.\end{matrix}\end{aligned}
 
 
 $$
@@ -293,7 +293,7 @@ The derivative exists at each point inside $D,$ and it equals zero when
 $$
 
 
-\begin{aligned}\begin{aligned}2𝑥−2=0 \\ 2𝑦=0\end{aligned}\,⟹\,\begin{aligned}𝑥=1 \\ 𝑦=0.\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}2𝑥−2=0 \\ 2𝑦=0\end{matrix}\,⟹\,\begin{matrix}𝑥=1 \\ 𝑦=0.\end{matrix}\end{aligned}
 
 
 $$

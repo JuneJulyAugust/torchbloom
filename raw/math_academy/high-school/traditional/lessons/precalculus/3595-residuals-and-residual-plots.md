@@ -73,7 +73,7 @@ $$
 
 $$
 
-The residual tells us that the linear model *overestimates* the true volume of ice cream sales by $10$ when the outside temperature is $82^\circ\,\textrm{F}.$
+The residual tells us that the linear model *overestimates* the true volume of ice cream sales by $10$ when the outside temperature is $82^\circ\,\text{F}.$
 
 ### Example: Computing Residuals Using the Regression Line Equation
 
@@ -101,7 +101,7 @@ $$
 
 
 
-\textrm{Residual} = \text{Actual} - \textrm{Estimated}
+\text{Residual} = \text{Actual} - \text{Estimated}
 
 
 
@@ -147,7 +147,7 @@ $$
 
 
 
-\textrm{Residual} = \text{Actual} - \textrm{Estimated}
+\text{Residual} = \text{Actual} - \text{Estimated}
 
 
 
@@ -237,7 +237,7 @@ The residual plot above was constructed after fitting a linear regression model 
 
 Let's examine the statements in turn.
 
-- Statement I is true. The residual equals the actual value minus the estimated value: From the plot, the residual at $x=4$ is positive. So, we have that $\text{Actual} > \textrm{Estimated},$ and therefore the model underestimates this data point.
+- Statement I is true. The residual equals the actual value minus the estimated value: From the plot, the residual at $x=4$ is positive. So, we have that $\text{Actual} > \text{Estimated},$ and therefore the model underestimates this data point.
 
 - Statement II is false. The plot shows the residuals tend to decrease as $x$ increases. So, there is a trend, as shown below.
 

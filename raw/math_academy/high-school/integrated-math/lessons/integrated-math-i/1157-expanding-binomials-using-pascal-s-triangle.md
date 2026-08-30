@@ -248,7 +248,7 @@ $$
 
 
 
-\begin{aligned} (2z + 1)^4 &=\mathbf{1}a^4 + \mathbf{4}a^3b + \mathbf{6}a^2b^2 + \mathbf{4}ab^3 + \mathbf{1}b^4\\\[5pt] &=\mathbf{1}(2z)^4(1)^0 + \mathbf{4}(2z)^3(1)^1 + \mathbf{6}(2z)^2(1)^2 + \mathbf{4}(2z)^1(1)^3 + \mathbf{1}(2z)^0(1)^4\\\[5pt] &=(2z)^4 + 4(2z)^3 + 6(2z)^2 + 4(2z) +1\\\[5pt] &=16z^4 + 32z^3 + 24z^2 + 8z + 1 \end{aligned}
+\begin{aligned} (2z + 1)^4 &=\mathbf{1}a^4 + \mathbf{4}a^3b + \mathbf{6}a^2b^2 + \mathbf{4}ab^3 + \mathbf{1}b^4\\[5pt] &=\mathbf{1}(2z)^4(1)^0 + \mathbf{4}(2z)^3(1)^1 + \mathbf{6}(2z)^2(1)^2 + \mathbf{4}(2z)^1(1)^3 + \mathbf{1}(2z)^0(1)^4\\[5pt] &=(2z)^4 + 4(2z)^3 + 6(2z)^2 + 4(2z) +1\\[5pt] &=16z^4 + 32z^3 + 24z^2 + 8z + 1 \end{aligned}
 
 
 
@@ -292,7 +292,7 @@ $$
 
 
 
-\begin{aligned} (3x - y)^4 &=\mathbf{1}a^4 + \mathbf{4}a^3b + \mathbf{6}a^2b^2 + \mathbf{4}ab^3 + \mathbf{1}b^4\\\[5pt] &= \mathbf{1}(3x)^4(-y)^0 + \mathbf{4}(3x)^3(-y)^1 + \mathbf{6}(3x)^2(-y)^2 + \mathbf{4}(3x)^1(-y)^3 + \mathbf{1}(3x)^0(-y)^4\\\[5pt] &= \mathbf{1}\left(81x^4\right)(1) + \mathbf{4}\left(27x^3\right)(-y) + \mathbf{6}\left(9x^2\right)(y^2) + \mathbf{4}(3x)(-y^3) + \mathbf{1}(1)(y^4) \\\[5pt] &= 81x^4 - 108x^3y + 54x^2y^2 - 12xy^3 + y^4. \end{aligned}
+\begin{aligned} (3x - y)^4 &=\mathbf{1}a^4 + \mathbf{4}a^3b + \mathbf{6}a^2b^2 + \mathbf{4}ab^3 + \mathbf{1}b^4\\[5pt] &= \mathbf{1}(3x)^4(-y)^0 + \mathbf{4}(3x)^3(-y)^1 + \mathbf{6}(3x)^2(-y)^2 + \mathbf{4}(3x)^1(-y)^3 + \mathbf{1}(3x)^0(-y)^4\\[5pt] &= \mathbf{1}\left(81x^4\right)(1) + \mathbf{4}\left(27x^3\right)(-y) + \mathbf{6}\left(9x^2\right)(y^2) + \mathbf{4}(3x)(-y^3) + \mathbf{1}(1)(y^4) \\[5pt] &= 81x^4 - 108x^3y + 54x^2y^2 - 12xy^3 + y^4. \end{aligned}
 
 
 

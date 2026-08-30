@@ -98,7 +98,7 @@ Therefore, using the fact that $\sec\theta = \dfrac{1}{\cos\theta},$ we have
 $$
 
 
-\begin{aligned}sec⁡(150^{∘}) & =\frac{1}{cos⁡(150^{∘})} \\ & =\frac{1}{(−\frac{\sqrt{√3}}{2})} \\ & =−\frac{2}{\sqrt{√3}} \\ & =−\frac{2\sqrt{√3}}{3}.\end{aligned}
+\begin{aligned}sec⁡(150^{∘}) & =\frac{1}{cos⁡(150^{∘})} \\ & =\frac{1}{(−\frac{\sqrt{3}}{2})} \\ & =−\frac{2}{\sqrt{3}} \\ & =−\frac{2\sqrt{3}}{3}.\end{aligned}
 
 
 $$
@@ -140,7 +140,7 @@ Therefore, using the fact that $\tan\theta = \dfrac{\sin\theta}{\cos\theta},$ we
 $$
 
 
-\begin{aligned}tan⁡(−\frac{7𝜋}{4}) & =tan⁡(\frac{𝜋}{4}) \\ & =\frac{sin⁡(\frac{𝜋}{4})}{4} \\ & =\frac{(\frac{\sqrt{√2}}{2})}{2} \\ & =1.\end{aligned}
+\begin{aligned}tan⁡(−\frac{7𝜋}{4}) & =tan⁡(\frac{𝜋}{4}) \\ & =\frac{sin⁡(\frac{𝜋}{4})}{4} \\ & =\frac{(\frac{\sqrt{2}}{2})}{2} \\ & =1.\end{aligned}
 
 
 $$

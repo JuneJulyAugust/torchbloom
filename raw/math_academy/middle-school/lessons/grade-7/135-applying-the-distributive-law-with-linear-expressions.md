@@ -89,7 +89,7 @@ $$
 
 
 
-\begin{aligned} (2y+7) \cdot (-3)&=\\\[5pt] 2y\cdot(-3)+7\cdot(-3)&=\\\[5pt] (-6y) + (-21)&=\\\[5pt] -6y-21 \end{aligned}
+\begin{aligned} (2y+7) \cdot (-3)&=\\[5pt] 2y\cdot(-3)+7\cdot(-3)&=\\[5pt] (-6y) + (-21)&=\\[5pt] -6y-21 \end{aligned}
 
 
 

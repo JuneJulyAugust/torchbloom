@@ -36,12 +36,12 @@ Therefore, $\triangle{VWY}$ is a $30^\circ$-$60^\circ$-$90^\circ$ triangle whose
 $$
 
 
-VY = 2 \cdot WV = 2 \cdot 8 = 16 \,\textrm{m}.
+VY = 2 \cdot WV = 2 \cdot 8 = 16 \,\text{m}.
 
 
 $$
 
-Finally, we conclude that the diameter of the circle is $16 \,\textrm{m}.$
+Finally, we conclude that the diameter of the circle is $16 \,\text{m}.$
 
 ### Example: Finding a Radius or Diameter of a Circle Given an Inscribed Special Right Triangle
 
@@ -70,12 +70,12 @@ Hence, $\triangle{ABC}$ is a $30^\circ$-$60^\circ$-$90^\circ$ triangle whose lon
 $$
 
 
-\begin{aligned}𝐵𝐶 & =2⋅\frac{𝐴𝐵}{\sqrt{√3}} \\ & =2⋅\frac{5}{\sqrt{√3}} \\ & =\frac{10}{\sqrt{√3}} \\ & =\frac{10}{\sqrt{√3}}⋅\frac{\sqrt{√3}}{\sqrt{√3}} \\ & =\frac{10\sqrt{√3}}{3}.\end{aligned}
+\begin{aligned}𝐵𝐶 & =2⋅\frac{𝐴𝐵}{\sqrt{3}} \\ & =2⋅\frac{5}{\sqrt{3}} \\ & =\frac{10}{\sqrt{3}} \\ & =\frac{10}{\sqrt{3}}⋅\frac{\sqrt{3}}{\sqrt{3}} \\ & =\frac{10\sqrt{3}}{3}.\end{aligned}
 
 
 $$
 
-Finally, the radius of the circle is $OB=\dfrac12\cdot BC = \dfrac{5\sqrt 3}{3} \,\textrm{cm}.$
+Finally, the radius of the circle is $OB=\dfrac12\cdot BC = \dfrac{5\sqrt 3}{3} \,\text{cm}.$
 
 ### Example: Finding an Angle in an Inscribed Quadrilateral
 

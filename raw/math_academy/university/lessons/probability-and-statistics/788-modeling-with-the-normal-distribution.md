@@ -100,7 +100,7 @@ In conclusion, the probability that a randomly selected newborn baby weighs more
 
 #### Question
 
-The average duration (in minutes) of the episodes of a popular podcast is $43\,\textrm{min}.$ Additionally, $20\%$ of the episodes have a duration of less than $38$ minutes. Assuming that the duration of a randomly selected episode is normally distributed, find the standard deviation of the episode durations, rounded to the nearest minute.
+The average duration (in minutes) of the episodes of a popular podcast is $43\,\text{min}.$ Additionally, $20\%$ of the episodes have a duration of less than $38$ minutes. Assuming that the duration of a randomly selected episode is normally distributed, find the standard deviation of the episode durations, rounded to the nearest minute.
 
 **
 

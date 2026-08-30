@@ -176,7 +176,7 @@ Therefore, we have the following system:
 $$
 
 
-\begin{aligned}\begin{aligned}1=𝜆+2𝜇𝑥 \\ −1=𝜆 \\ −1=𝜆+2𝜇𝑧\end{aligned}\,⇒\,\begin{aligned}𝑥=\frac{1}{𝜇} \\ 𝜆=−1 \\ 𝜇𝑧=0\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}1=𝜆+2𝜇𝑥 \\ −1=𝜆 \\ −1=𝜆+2𝜇𝑧\end{matrix}\,⇒\,\begin{matrix}𝑥=\frac{1}{𝜇} \\ 𝜆=−1 \\ 𝜇𝑧=0\end{matrix}\end{aligned}
 
 
 $$

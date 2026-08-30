@@ -60,7 +60,7 @@ Therefore, this week, Bethany has to work a further $7\,\dfrac13\,\rm{hr}$.
 
 #### Question
 
-Jane and Ricky picked some raspberries. Jane picked $8\,\dfrac{7}{8}\,\textrm{kg}$ of raspberries, and Ricky picked $2\,\dfrac{5}{8}\,\textrm{kg}$ less than Jane. How many kilograms of raspberries did Ricky pick?
+Jane and Ricky picked some raspberries. Jane picked $8\,\dfrac{7}{8}\,\text{kg}$ of raspberries, and Ricky picked $2\,\dfrac{5}{8}\,\text{kg}$ less than Jane. How many kilograms of raspberries did Ricky pick?
 
 #### Explanation
 
@@ -86,7 +86,7 @@ $$
 
 $$
 
-Therefore, Ricky picked $6\,\dfrac{1}{4}\,\textrm{kg}$ of raspberries.
+Therefore, Ricky picked $6\,\dfrac{1}{4}\,\text{kg}$ of raspberries.
 
 ### Subtracting Mixed Numbers Using Improper Fractions
 
@@ -132,7 +132,7 @@ Finally, we convert it back to a mixed number:
 
 $$
 
-23 \div 5 = 4\,\textrm{R}3
+23 \div 5 = 4\,\text{R}3
 
 $$
 
@@ -142,7 +142,7 @@ Therefore, Bethany has to work a further $4\,\dfrac35\,\rm{hr}.$
 
 #### Question
 
-At the beginning of the day, a grocery store had $25\,\dfrac{1}{6}\,\textrm{kg}$ of sugar for sale. If $14\,\dfrac{5}{6}\,\textrm{kg}$ of sugar were sold during the day, how much sugar is left?
+At the beginning of the day, a grocery store had $25\,\dfrac{1}{6}\,\text{kg}$ of sugar for sale. If $14\,\dfrac{5}{6}\,\text{kg}$ of sugar were sold during the day, how much sugar is left?
 
 #### Explanation
 
@@ -174,8 +174,8 @@ Finally, we convert it back to a mixed number:
 
 $$
 
-31 \div 3 = 10\,\textrm{R}1
+31 \div 3 = 10\,\text{R}1
 
 $$
 
-Therefore, there is $10\,\dfrac{1}{3}\,\textrm{kg}$ of sugar left.
+Therefore, there is $10\,\dfrac{1}{3}\,\text{kg}$ of sugar left.

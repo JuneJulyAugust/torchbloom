@@ -70,7 +70,7 @@ Differentiating $z(x)$ using the chain rule, we get
 $$
 
 
-\dfrac{\textrm{d}z}{\textrm{d}x} = 3 - \,\dfrac{\textrm{d}y}{\textrm{d}x} \quad \Rightarrow\quad \dfrac{\textrm{d}y}{\textrm{d}x} = 3 - \,\dfrac{\textrm{d}z}{\textrm{d}x}
+\dfrac{\text{d}z}{\text{d}x} = 3 - \,\dfrac{\text{d}y}{\text{d}x} \quad \Rightarrow\quad \dfrac{\text{d}y}{\text{d}x} = 3 - \,\dfrac{\text{d}z}{\text{d}x}
 
 
 $$
@@ -80,7 +80,7 @@ Therefore, we can write our equation in terms of $z$ as
 $$
 
 
-3 - \,\dfrac{\textrm{d}z}{\textrm{d}x} = z^2,
+3 - \,\dfrac{\text{d}z}{\text{d}x} = z^2,
 
 
 $$
@@ -90,7 +90,7 @@ which simplifies to
 $$
 
 
-\dfrac{\textrm{d}z}{\textrm{d}x} = 3-z^2.
+\dfrac{\text{d}z}{\text{d}x} = 3-z^2.
 
 
 $$
@@ -106,7 +106,7 @@ Consider the differential equation
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x} = 2xy - x^2 - y^2.
+\dfrac{\text{d}y}{\text{d}x} = 2xy - x^2 - y^2.
 
 
 $$
@@ -140,7 +140,7 @@ Differentiating $z(x)$ using the chain rule, we get
 $$
 
 
-\dfrac{\textrm{d}z}{\textrm{d}x} = 1 - \dfrac{\textrm{d}y}{\textrm{d}x} \quad \Longrightarrow\quad \dfrac{\textrm{d}y}{\textrm{d}x} = 1 - \dfrac{\textrm{d}z}{\textrm{d}x}.
+\dfrac{\text{d}z}{\text{d}x} = 1 - \dfrac{\text{d}y}{\text{d}x} \quad \Longrightarrow\quad \dfrac{\text{d}y}{\text{d}x} = 1 - \dfrac{\text{d}z}{\text{d}x}.
 
 
 $$
@@ -160,7 +160,7 @@ Expressing this equation in the form $z'(x) = f(z),$ we get
 $$
 
 
-\dfrac{\textrm{d}z}{\textrm{d}x} = z^2 + 1.
+\dfrac{\text{d}z}{\text{d}x} = z^2 + 1.
 
 
 $$
@@ -176,7 +176,7 @@ Consider the differential equation
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x} = \dfrac{1 - x - y}{x + y}.
+\dfrac{\text{d}y}{\text{d}x} = \dfrac{1 - x - y}{x + y}.
 
 
 $$
@@ -220,7 +220,7 @@ Differentiating $z(x)$ using the chain rule, we get
 $$
 
 
-\dfrac{\textrm{d}z}{\textrm{d}x} = 1 + \dfrac{\textrm{d}y}{\textrm{d}x} \quad\Longrightarrow\quad \dfrac{\textrm{d}y}{\textrm{d}x} = \dfrac{\textrm{d}z}{\textrm{d}x} - 1.
+\dfrac{\text{d}z}{\text{d}x} = 1 + \dfrac{\text{d}y}{\text{d}x} \quad\Longrightarrow\quad \dfrac{\text{d}y}{\text{d}x} = \dfrac{\text{d}z}{\text{d}x} - 1.
 
 
 $$
@@ -240,7 +240,7 @@ Expressing this equation in the form $z'(x) = f(z)$ gives
 $$
 
 
-\dfrac{\textrm{d}z}{\textrm{d}x} = \dfrac{1}{z}.
+\dfrac{\text{d}z}{\text{d}x} = \dfrac{1}{z}.
 
 
 $$

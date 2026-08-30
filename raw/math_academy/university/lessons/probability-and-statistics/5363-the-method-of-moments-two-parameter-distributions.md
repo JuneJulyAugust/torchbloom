@@ -33,7 +33,7 @@ The $k$th theoretical moment is defined as
 $$
 
 
-\mu_k = \textrm{E}[X_i^k] = \sum_{x\in S} x^k \cdot p(x).
+\mu_k = \text{E}[X_i^k] = \sum_{x\in S} x^k \cdot p(x).
 
 
 $$
@@ -53,7 +53,7 @@ To find the method of moments estimator for some population parameter, we equate
 $$
 
 
-\textrm{E}[X_i] = M_1, \qquad \textrm{E}[X_i^2] = M_2, \qquad \textrm{E}[X_i^3] = M_3, \qquad \ldots
+\text{E}[X_i] = M_1, \qquad \text{E}[X_i^2] = M_2, \qquad \text{E}[X_i^3] = M_3, \qquad \ldots
 
 
 $$
@@ -115,7 +115,7 @@ We are given that the variables follow a uniform distribution $U(a,b).$ Therefor
 $$
 
 
-\textrm{E}[X_i] = \dfrac{a+b}{2}, \qquad \textrm{Var}[X_i] = \dfrac{(b-a)^2}{12}.
+\text{E}[X_i] = \dfrac{a+b}{2}, \qquad \text{Var}[X_i] = \dfrac{(b-a)^2}{12}.
 
 
 $$
@@ -125,7 +125,7 @@ We also have
 $$
 
 
-\textrm{Var}[X_i] = \textrm{E}[X^2_i] - \left(\textrm{E}[X_i]\right)^2.
+\text{Var}[X_i] = \text{E}[X^2_i] - \left(\text{E}[X_i]\right)^2.
 
 
 $$
@@ -135,7 +135,7 @@ Therefore, we can calculate the second theoretical moment as follows:
 $$
 
 
-\begin{aligned}E[𝑋_{2𝑖}^{}] & =Var[𝑋_{𝑖}]+(E[𝑋_{𝑖}])^{2} \\ & =\frac{((𝜃+6)−𝜃)^{2}}{12}+(\frac{𝜃+(𝜃+6)}{2})^{2} \\ & =\frac{36}{12}+(𝜃+3)^{2} \\ & =3+𝜃^{2}+6𝜃+9 \\ & =𝜃^{2}+6𝜃+12.\end{aligned}
+\begin{aligned}E[𝑋_{2𝑖}] & =Var[𝑋_{𝑖}]+(E[𝑋_{𝑖}])^{2} \\ & =\frac{((𝜃+6)−𝜃)^{2}}{12}+(\frac{𝜃+(𝜃+6)}{2})^{2} \\ & =\frac{36}{12}+(𝜃+3)^{2} \\ & =3+𝜃^{2}+6𝜃+9 \\ & =𝜃^{2}+6𝜃+12.\end{aligned}
 
 
 $$
@@ -145,7 +145,7 @@ Now, equating the sample and theoretical second moments and using the estimator 
 $$
 
 
-\begin{aligned}\overset{𝜃}{ˆ}_{2𝑀𝑀}^{}+6\overset{𝜃}{ˆ}_{𝑀𝑀}+12 & =28.\end{aligned}
+\begin{aligned}\overset{𝜃}{ˆ}_{2𝑀𝑀}+6\overset{𝜃}{ˆ}_{𝑀𝑀}+12 & =28.\end{aligned}
 
 
 $$
@@ -155,7 +155,7 @@ Then, we solve for $\widehat\theta_{MM}{:}$
 $$
 
 
-\begin{aligned}\overset{𝜃}{ˆ}_{2𝑀𝑀}^{}+6\overset{𝜃}{ˆ}_{𝑀𝑀}+12 & =28 \\ \overset{𝜃}{ˆ}_{2𝑀𝑀}^{}+6\overset{𝜃}{ˆ}_{𝑀𝑀}−16 & =0 \\ (\overset{𝜃}{ˆ}_{𝑀𝑀}+8)(\overset{𝜃}{ˆ}_{𝑀𝑀}−2) & =0\end{aligned}
+\begin{aligned}\overset{𝜃}{ˆ}_{2𝑀𝑀}+6\overset{𝜃}{ˆ}_{𝑀𝑀}+12 & =28 \\ \overset{𝜃}{ˆ}_{2𝑀𝑀}+6\overset{𝜃}{ˆ}_{𝑀𝑀}−16 & =0 \\ (\overset{𝜃}{ˆ}_{𝑀𝑀}+8)(\overset{𝜃}{ˆ}_{𝑀𝑀}−2) & =0\end{aligned}
 
 
 $$
@@ -235,7 +235,7 @@ We are given that the variables follow a binomial distribution $B(m,\theta)$ The
 $$
 
 
-\textrm{E}[X_i] = m\theta, \qquad \textrm{Var}[X_i] = m\theta (1-\theta).
+\text{E}[X_i] = m\theta, \qquad \text{Var}[X_i] = m\theta (1-\theta).
 
 
 $$
@@ -245,7 +245,7 @@ We also have
 $$
 
 
-\textrm{Var}[X_i] = \textrm{E}[X^2_i] - \left(\textrm{E}[X_i]\right)^2.
+\text{Var}[X_i] = \text{E}[X^2_i] - \left(\text{E}[X_i]\right)^2.
 
 
 $$
@@ -255,7 +255,7 @@ Therefore, we can calculate the second theoretical moment as follows:
 $$
 
 
-\begin{aligned}E[𝑋_{2𝑖}^{}] & =Var[𝑋_{𝑖}]+(E[𝑋_{𝑖}])^{2} \\ & =𝑚𝜃(1−𝜃)+𝑚^{2}𝜃^{2} \\ & =3𝜃(1−𝜃)+3^{2}𝜃^{2} \\ & =3𝜃−3𝜃^{2}+9𝜃^{2} \\ & =6𝜃^{2}+3𝜃.\end{aligned}
+\begin{aligned}E[𝑋_{2𝑖}] & =Var[𝑋_{𝑖}]+(E[𝑋_{𝑖}])^{2} \\ & =𝑚𝜃(1−𝜃)+𝑚^{2}𝜃^{2} \\ & =3𝜃(1−𝜃)+3^{2}𝜃^{2} \\ & =3𝜃−3𝜃^{2}+9𝜃^{2} \\ & =6𝜃^{2}+3𝜃.\end{aligned}
 
 
 $$
@@ -265,7 +265,7 @@ Now, equating the sample and theoretical second moments and using the estimator 
 $$
 
 
-\begin{aligned}6\overset{𝜃}{ˆ}_{2𝑀𝑀}^{}+3\overset{𝜃}{ˆ}_{𝑀𝑀}=\frac{5}{3} & \\ 18\overset{𝜃}{ˆ}_{2𝑀𝑀}^{}+9\overset{𝜃}{ˆ}_{𝑀𝑀}−5 & =0.\end{aligned}
+\begin{aligned}6\overset{𝜃}{ˆ}_{2𝑀𝑀}+3\overset{𝜃}{ˆ}_{𝑀𝑀}=\frac{5}{3} & \\ 18\overset{𝜃}{ˆ}_{2𝑀𝑀}+9\overset{𝜃}{ˆ}_{𝑀𝑀}−5 & =0.\end{aligned}
 
 
 $$
@@ -275,7 +275,7 @@ Then, we solve for $\widehat{\theta}_{MM}{:}$
 $$
 
 
-\begin{aligned}\overset{𝜃}{ˆ}_{𝑀𝑀} & =\frac{−9±\sqrt{√9^{2}−4(18)(−5)}}{2(18)} \\ \overset{𝜃}{ˆ}_{𝑀𝑀} & =\frac{−3±7}{12}\end{aligned}
+\begin{aligned}\overset{𝜃}{ˆ}_{𝑀𝑀} & =\frac{−9±\sqrt{9^{2}−4(18)(−5)}}{2(18)} \\ \overset{𝜃}{ˆ}_{𝑀𝑀} & =\frac{−3±7}{12}\end{aligned}
 
 
 $$
@@ -345,7 +345,7 @@ We are given the sum of the values in the sample and the sum of squares. So, we 
 $$
 
 
-\begin{aligned}𝑚_{1} & =\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{𝑖}=\frac{70}{10}=7 \\ 𝑚_{2} & =\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{2𝑖}^{}=\frac{550}{10}=55\end{aligned}
+\begin{aligned}𝑚_{1} & =\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{𝑖}=\frac{70}{10}=7 \\ 𝑚_{2} & =\frac{1}{𝑛}\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{2𝑖}=\frac{550}{10}=55\end{aligned}
 
 
 $$
@@ -355,7 +355,7 @@ We are given that the variables $X_i$ follow a normal distribution. Therefore:
 $$
 
 
-\begin{aligned}E[𝑋_{𝑖}] & =𝜇 \\ E[𝑋_{2𝑖}^{}] & =Var[𝑋_{𝑖}]+(E[𝑋_{𝑖}])^{2}=𝜎^{2}+𝜇^{2}\end{aligned}
+\begin{aligned}E[𝑋_{𝑖}] & =𝜇 \\ E[𝑋_{2𝑖}] & =Var[𝑋_{𝑖}]+(E[𝑋_{𝑖}])^{2}=𝜎^{2}+𝜇^{2}\end{aligned}
 
 
 $$
@@ -365,7 +365,7 @@ Now, equating the sample and theoretical first and second moments, using the est
 $$
 
 
-\begin{aligned}\overset{𝜇}{ˆ}_{𝑀𝑀} & =7, \\ \overset{𝜎^{2}}{ˆ}_{𝑀𝑀}+\overset{𝜇}{ˆ}_{2𝑀𝑀}^{} & =55 \\ \overset{𝜎^{2}}{ˆ}_{𝑀𝑀}+7^{2} & =55 \\ \overset{𝜎^{2}}{ˆ}_{𝑀𝑀} & =6.\end{aligned}
+\begin{aligned}\overset{𝜇}{ˆ}_{𝑀𝑀} & =7, \\ \overset{𝜎^{2}}{ˆ}_{𝑀𝑀}+\overset{𝜇}{ˆ}_{2𝑀𝑀} & =55 \\ \overset{𝜎^{2}}{ˆ}_{𝑀𝑀}+7^{2} & =55 \\ \overset{𝜎^{2}}{ˆ}_{𝑀𝑀} & =6.\end{aligned}
 
 
 $$

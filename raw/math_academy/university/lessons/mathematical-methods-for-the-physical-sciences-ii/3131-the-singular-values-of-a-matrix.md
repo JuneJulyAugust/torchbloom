@@ -63,7 +63,7 @@ In our case, we have
 $$
 
 
-\begin{aligned}𝐴^{𝑇}\,𝐴 & =[\begin{aligned}1 & 3 \\ −3 & −1\end{aligned}]^{𝑇}[\begin{aligned}1 & 3 \\ −3 & −1\end{aligned}] \\ & =[\begin{aligned}1 & −3 \\ 3 & −1\end{aligned}][\begin{aligned}1 & 3 \\ −3 & −1\end{aligned}] \\ & =[\begin{aligned}10 & 6 \\ 6 & 10\end{aligned}].\end{aligned}
+\begin{aligned}𝐴^{𝑇}\,𝐴 & =[\begin{matrix}1 & 3 \\ −3 & −1\end{matrix}]^{𝑇}[\begin{matrix}1 & 3 \\ −3 & −1\end{matrix}] \\ & =[\begin{matrix}1 & −3 \\ 3 & −1\end{matrix}][\begin{matrix}1 & 3 \\ −3 & −1\end{matrix}] \\ & =[\begin{matrix}10 & 6 \\ 6 & 10\end{matrix}].\end{aligned}
 
 
 $$
@@ -73,7 +73,7 @@ Next, we calculate the eigenvalues of the matrix $A^TA\mathbin{:}$
 $$
 
 
-\begin{aligned}|𝐴^{𝑇}𝐴−𝜆𝐼| & =0 \\ \begin{aligned}10−𝜆 & 6 \\ 6 & 10−𝜆\end{aligned} & =0 \\ (10−𝜆)^{2}−36 & =0 \\ (10−𝜆)^{2} & =36 \\ 10−𝜆 & =±6 \\ 𝜆 & =4,\,16\end{aligned}
+\begin{aligned}|𝐴^{𝑇}𝐴−𝜆𝐼| & =0 \\ \begin{matrix}10−𝜆 & 6 \\ 6 & 10−𝜆\end{matrix} & =0 \\ (10−𝜆)^{2}−36 & =0 \\ (10−𝜆)^{2} & =36 \\ 10−𝜆 & =±6 \\ 𝜆 & =4,\,16\end{aligned}
 
 
 $$
@@ -209,7 +209,7 @@ The singular values of $A$ are
 $$
 
 
-\begin{aligned}𝜎_{1} & =\sqrt{√𝜆_{1}}=\sqrt{√16}=4, \\ 𝜎_{2} & =\sqrt{√𝜆_{2}}=\sqrt{√4}=2.\end{aligned}
+\begin{aligned}𝜎_{1} & =\sqrt{𝜆_{1}}=\sqrt{16}=4, \\ 𝜎_{2} & =\sqrt{𝜆_{2}}=\sqrt{4}=2.\end{aligned}
 
 
 $$

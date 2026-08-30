@@ -79,7 +79,7 @@ Therefore, the curvature at $t =1$ is
 $$
 
 
-\begin{aligned}𝜅(1) & =\frac{1}{2(1^{2}+1)^{3/2}} \\ & =\frac{1}{4\sqrt{√2}} \\ & =\frac{\sqrt{√2}}{8}.\end{aligned}
+\begin{aligned}𝜅(1) & =\frac{1}{2(1^{2}+1)^{3/2}} \\ & =\frac{1}{4\sqrt{2}} \\ & =\frac{\sqrt{2}}{8}.\end{aligned}
 
 
 $$
@@ -137,7 +137,7 @@ Substituting these into the formula for the signed curvature, we get:
 $$
 
 
-\begin{aligned}𝑘(𝑡) & =\frac{1⋅(−sin⁡𝑡)−0⋅cos⁡𝑡}{(1^{2}+(cos⁡𝑡)^{2})^{3/2}} \\ & =\frac{−sin⁡𝑡}{(1+cos^{2}⁡𝑡)^{3/2}} \\ & =\frac{−sin⁡𝑡}{\sqrt{√(1+cos^{2}⁡𝑡)^{3}}}\end{aligned}
+\begin{aligned}𝑘(𝑡) & =\frac{1⋅(−sin⁡𝑡)−0⋅cos⁡𝑡}{(1^{2}+(cos⁡𝑡)^{2})^{3/2}} \\ & =\frac{−sin⁡𝑡}{(1+cos^{2}⁡𝑡)^{3/2}} \\ & =\frac{−sin⁡𝑡}{\sqrt{(1+cos^{2}⁡𝑡)^{3}}}\end{aligned}
 
 
 $$
@@ -323,7 +323,7 @@ Therefore, the curvature at $x=-1$ is
 $$
 
 
-\begin{aligned}𝜅(−1) & =\frac{|6(−1)|}{(1+9(−1)^{4})^{3/2}} \\ & =\frac{|−6|}{(1+9)^{3/2}} \\ & =\frac{6}{10^{3/2}} \\ & =\frac{6}{10\sqrt{√10}} \\ & =\frac{3\sqrt{√10}}{50}.\end{aligned}
+\begin{aligned}𝜅(−1) & =\frac{|6(−1)|}{(1+9(−1)^{4})^{3/2}} \\ & =\frac{|−6|}{(1+9)^{3/2}} \\ & =\frac{6}{10^{3/2}} \\ & =\frac{6}{10\sqrt{10}} \\ & =\frac{3\sqrt{10}}{50}.\end{aligned}
 
 
 $$
@@ -375,7 +375,7 @@ Substituting these expressions into our cross-product formula, we find that the 
 $$
 
 
-\begin{aligned}𝜅(𝑡) & =\frac{‖𝐫^{′}(𝑡)×𝐫^{″}(𝑡)‖}{‖𝐫^{′}(𝑡)‖^{3}} \\ & =\frac{‖⟨𝑥^{′}(𝑡),𝑦^{′}(𝑡),0⟩×⟨𝑥^{″}(𝑡),𝑦^{″}(𝑡),0⟩‖}{‖⟨𝑥^{′}(𝑡),𝑦^{′}(𝑡)⟩‖^{3}} \\ & =\frac{‖⟨0,0,𝑥^{′}(𝑡)𝑦^{″}(𝑡)−𝑦^{′}(𝑡)𝑥^{″}(𝑡)⟩‖}{(\sqrt{√𝑥^{′}(𝑡)^{2}+𝑦^{′}(𝑡)^{2}})^{3}} \\ & =\frac{|𝑥^{′}(𝑡)𝑦^{″}(𝑡)−𝑦^{′}(𝑡)𝑥^{″}(𝑡)|}{(𝑥^{′}(𝑡)^{2}+𝑦^{′}(𝑡)^{2})^{3/2}}.\end{aligned}
+\begin{aligned}𝜅(𝑡) & =\frac{‖𝐫^{′}(𝑡)×𝐫^{″}(𝑡)‖}{‖𝐫^{′}(𝑡)‖^{3}} \\ & =\frac{‖⟨𝑥^{′}(𝑡),𝑦^{′}(𝑡),0⟩×⟨𝑥^{″}(𝑡),𝑦^{″}(𝑡),0⟩‖}{‖⟨𝑥^{′}(𝑡),𝑦^{′}(𝑡)⟩‖^{3}} \\ & =\frac{‖⟨0,0,𝑥^{′}(𝑡)𝑦^{″}(𝑡)−𝑦^{′}(𝑡)𝑥^{″}(𝑡)⟩‖}{(\sqrt{𝑥^{′}(𝑡)^{2}+𝑦^{′}(𝑡)^{2}})^{3}} \\ & =\frac{|𝑥^{′}(𝑡)𝑦^{″}(𝑡)−𝑦^{′}(𝑡)𝑥^{″}(𝑡)|}{(𝑥^{′}(𝑡)^{2}+𝑦^{′}(𝑡)^{2})^{3/2}}.\end{aligned}
 
 
 $$

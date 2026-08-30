@@ -28,7 +28,7 @@ To solve the system, we can reduce $M$ to row echelon form using Gaussian elimin
 $$
 
 
-\begin{aligned}𝑀 & ∼\begin{aligned}1 & −1 & 1 & 2 \\ 2 & −1 & −1 & −1 \\ 0 & 2 & −6 & −10\end{aligned} & 𝑅_{2} & :=𝑅_{2}+(−2)𝑅_{1} \\ & ∼\begin{aligned}1 & −1 & 1 & 2 \\ 0 & 1 & −3 & −5 \\ 0 & 2 & −6 & −10\end{aligned} & 𝑅_{3} & :=𝑅_{3}+(−2)𝑅_{2} \\ & ∼\begin{aligned}1 & −1 & 1 & 2 \\ 0 & 1 & −3 & −5 \\ 0 & 0 & 0 & 0\end{aligned}. & & \end{aligned}
+\begin{aligned}𝑀 & ∼\begin{matrix}1 & −1 & 1 & 2 \\ 2 & −1 & −1 & −1 \\ 0 & 2 & −6 & −10\end{matrix} & 𝑅_{2} & :=𝑅_{2}+(−2)𝑅_{1} \\ & ∼\begin{matrix}1 & −1 & 1 & 2 \\ 0 & 1 & −3 & −5 \\ 0 & 2 & −6 & −10\end{matrix} & 𝑅_{3} & :=𝑅_{3}+(−2)𝑅_{2} \\ & ∼\begin{matrix}1 & −1 & 1 & 2 \\ 0 & 1 & −3 & −5 \\ 0 & 0 & 0 & 0\end{matrix}. & & \end{aligned}
 
 
 $$
@@ -144,7 +144,7 @@ Reducing $M$ to echelon form, we have
 $$
 
 
-\begin{aligned}𝑀 & ∼\begin{aligned}1 & 1 & 3 & 1 \\ 1 & 1 & 1 & −1 \\ 1 & 1 & 5 & 3\end{aligned} & 𝑅_{2} & :=𝑅_{2}+(−1)𝑅_{1} \\ & ∼\begin{aligned}1 & 1 & 3 & 1 \\ 0 & 0 & −2 & −2 \\ 1 & 1 & 5 & 3\end{aligned} & 𝑅_{3} & :=𝑅_{3}+(−1)𝑅_{1} \\ & ∼\begin{aligned}1 & 1 & 3 & 1 \\ 0 & 0 & −2 & −2 \\ 0 & 0 & 2 & 2\end{aligned} & 𝑅_{3} & :=𝑅_{3}+𝑅_{2} \\ & ∼\begin{aligned}1 & 1 & 3 & 1 \\ 0 & 0 & −2 & −2 \\ 0 & 0 & 0 & 0\end{aligned} & 𝑅_{2} & :=−\frac{1}{2}𝑅_{2} \\ & ∼\begin{aligned}1 & 1 & 3 & 1 \\ 0 & 0 & 1 & 1 \\ 0 & 0 & 0 & 0\end{aligned}. & & \end{aligned}
+\begin{aligned}𝑀 & ∼\begin{matrix}1 & 1 & 3 & 1 \\ 1 & 1 & 1 & −1 \\ 1 & 1 & 5 & 3\end{matrix} & 𝑅_{2} & :=𝑅_{2}+(−1)𝑅_{1} \\ & ∼\begin{matrix}1 & 1 & 3 & 1 \\ 0 & 0 & −2 & −2 \\ 1 & 1 & 5 & 3\end{matrix} & 𝑅_{3} & :=𝑅_{3}+(−1)𝑅_{1} \\ & ∼\begin{matrix}1 & 1 & 3 & 1 \\ 0 & 0 & −2 & −2 \\ 0 & 0 & 2 & 2\end{matrix} & 𝑅_{3} & :=𝑅_{3}+𝑅_{2} \\ & ∼\begin{matrix}1 & 1 & 3 & 1 \\ 0 & 0 & −2 & −2 \\ 0 & 0 & 0 & 0\end{matrix} & 𝑅_{2} & :=−\frac{1}{2}𝑅_{2} \\ & ∼\begin{matrix}1 & 1 & 3 & 1 \\ 0 & 0 & 1 & 1 \\ 0 & 0 & 0 & 0\end{matrix}. & & \end{aligned}
 
 
 $$
@@ -198,7 +198,7 @@ In vector form, the solution can be written as
 $$
 
 
-\begin{aligned}\begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned}=\begin{aligned}−2−𝑦 \\ 𝑦 \\ 1\end{aligned}=\begin{aligned}−2 \\ 0 \\ 1\end{aligned}+𝑦\begin{aligned}−1 \\ 1 \\ 0\end{aligned},\,𝑦∈(−∞,∞).\end{aligned}
+\begin{aligned}\begin{matrix}𝑥 \\ 𝑦 \\ 𝑧\end{matrix}=\begin{matrix}−2−𝑦 \\ 𝑦 \\ 1\end{matrix}=\begin{matrix}−2 \\ 0 \\ 1\end{matrix}+𝑦\begin{matrix}−1 \\ 1 \\ 0\end{matrix},\,𝑦∈(−∞,∞).\end{aligned}
 
 
 $$
@@ -226,7 +226,7 @@ Reducing $M$ to echelon form, we have
 $$
 
 
-\begin{aligned}𝑀 & ∼\begin{aligned}1 & 1 & 3 & 1 \\ −2 & −2 & −6 & −2 \\ 3 & 3 & 9 & 3\end{aligned} & 𝑅_{2} & :=𝑅_{2}+2𝑅_{1} \\ & ∼\begin{aligned}1 & 1 & 3 & 1 \\ 0 & 0 & 0 & 0 \\ 3 & 3 & 9 & 3\end{aligned} & 𝑅_{3} & :=𝑅_{3}+(−3)𝑅_{1} \\ & ∼\begin{aligned}1 & 1 & 3 & 1 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0\end{aligned}. & & \end{aligned}
+\begin{aligned}𝑀 & ∼\begin{matrix}1 & 1 & 3 & 1 \\ −2 & −2 & −6 & −2 \\ 3 & 3 & 9 & 3\end{matrix} & 𝑅_{2} & :=𝑅_{2}+2𝑅_{1} \\ & ∼\begin{matrix}1 & 1 & 3 & 1 \\ 0 & 0 & 0 & 0 \\ 3 & 3 & 9 & 3\end{matrix} & 𝑅_{3} & :=𝑅_{3}+(−3)𝑅_{1} \\ & ∼\begin{matrix}1 & 1 & 3 & 1 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0\end{matrix}. & & \end{aligned}
 
 
 $$
@@ -278,7 +278,7 @@ In vector form, the solution can be written as
 $$
 
 
-\begin{aligned}\begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned}=\begin{aligned}1−𝑦−3𝑧 \\ 𝑦 \\ 𝑧\end{aligned}=\begin{aligned}1 \\ 0 \\ 0\end{aligned}+𝑦\begin{aligned}−1 \\ 1 \\ 0\end{aligned}+𝑧\begin{aligned}−3 \\ 0 \\ 1\end{aligned},\,𝑦,𝑧∈(−∞,∞).\end{aligned}
+\begin{aligned}\begin{matrix}𝑥 \\ 𝑦 \\ 𝑧\end{matrix}=\begin{matrix}1−𝑦−3𝑧 \\ 𝑦 \\ 𝑧\end{matrix}=\begin{matrix}1 \\ 0 \\ 0\end{matrix}+𝑦\begin{matrix}−1 \\ 1 \\ 0\end{matrix}+𝑧\begin{matrix}−3 \\ 0 \\ 1\end{matrix},\,𝑦,𝑧∈(−∞,∞).\end{aligned}
 
 
 $$
@@ -308,7 +308,7 @@ Reducing $M$ to echelon form, we have
 $$
 
 
-\begin{aligned}𝑀 & ∼\begin{aligned}1 & −2 & −6 & 7 \\ 1 & 1 & 0 & 19 \\ 1 & −3 & −8 & 6\end{aligned} & 𝑅_{2} & :=𝑅_{2}−𝑅_{1} \\ & ∼\begin{aligned}1 & −2 & −6 & 7 \\ 0 & 3 & 6 & 12 \\ 1 & −3 & −8 & 6\end{aligned} & 𝑅_{3} & :=𝑅_{3}−𝑅_{1} \\ & ∼\begin{aligned}1 & −2 & −6 & 7 \\ 0 & 3 & 6 & 12 \\ 0 & −1 & −2 & −1\end{aligned} & 𝑅_{2} & :=\frac{1}{3}𝑅_{2} \\ & ∼\begin{aligned}1 & −2 & −6 & 7 \\ 0 & 1 & 2 & 4 \\ 0 & −1 & −2 & −1\end{aligned} & 𝑅_{3} & :=𝑅_{3}+𝑅_{2} \\ & ∼\begin{aligned}1 & −2 & −6 & 7 \\ 0 & 1 & 2 & 4 \\ 0 & 0 & 0 & 3\end{aligned}. & & \end{aligned}
+\begin{aligned}𝑀 & ∼\begin{matrix}1 & −2 & −6 & 7 \\ 1 & 1 & 0 & 19 \\ 1 & −3 & −8 & 6\end{matrix} & 𝑅_{2} & :=𝑅_{2}−𝑅_{1} \\ & ∼\begin{matrix}1 & −2 & −6 & 7 \\ 0 & 3 & 6 & 12 \\ 1 & −3 & −8 & 6\end{matrix} & 𝑅_{3} & :=𝑅_{3}−𝑅_{1} \\ & ∼\begin{matrix}1 & −2 & −6 & 7 \\ 0 & 3 & 6 & 12 \\ 0 & −1 & −2 & −1\end{matrix} & 𝑅_{2} & :=\frac{1}{3}𝑅_{2} \\ & ∼\begin{matrix}1 & −2 & −6 & 7 \\ 0 & 1 & 2 & 4 \\ 0 & −1 & −2 & −1\end{matrix} & 𝑅_{3} & :=𝑅_{3}+𝑅_{2} \\ & ∼\begin{matrix}1 & −2 & −6 & 7 \\ 0 & 1 & 2 & 4 \\ 0 & 0 & 0 & 3\end{matrix}. & & \end{aligned}
 
 
 $$

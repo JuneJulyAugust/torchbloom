@@ -65,7 +65,7 @@ This means that $\color{blue}3$ beads will be left over after Olivia has finishe
 
 #### Question
 
-Dorothy has $19\,\textrm{kg}$ of potatoes she would like to pack into bags. One bag holds a maximum of $5\,\textrm{kg}$ of potatoes. How many bags will Dorothy fill completely if all but one are filled?
+Dorothy has $19\,\text{kg}$ of potatoes she would like to pack into bags. One bag holds a maximum of $5\,\text{kg}$ of potatoes. How many bags will Dorothy fill completely if all but one are filled?
 
 #### Explanation
 
@@ -77,7 +77,7 @@ $$
 
 $$
 
-This means that Dorothy will fill $\color{blue}3$ bags, and she will need one more bag for the extra ${\color{red}4}\,\textrm{kg}$ of potatoes.
+This means that Dorothy will fill $\color{blue}3$ bags, and she will need one more bag for the extra ${\color{red}4}\,\text{kg}$ of potatoes.
 
 Therefore, Dorothy will fill ${\color{blue}3}$ bags completely.
 

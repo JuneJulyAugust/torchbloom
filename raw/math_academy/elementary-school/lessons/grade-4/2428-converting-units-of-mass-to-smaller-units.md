@@ -22,11 +22,11 @@ To convert between customary units of mass, we use the following unit conversion
 
 We can think of unit conversions of mass concretely by picturing a set of weighing scales.
 
-For example, if we placed a $1\,\textrm{lb}$ mass on one scale and sixteen $1\,\textrm{oz}$ masses on the other, the scales would balance perfectly.
+For example, if we placed a $1\,\text{lb}$ mass on one scale and sixteen $1\,\text{oz}$ masses on the other, the scales would balance perfectly.
 
 ![Instructional graphic](../../../lesson-assets/grade-4/topic-2428/81d402ade4316215.png)
 
-Similarly, we can picture a set of weighing scales showing the equivalence between $1$ ton and $2,000\,\textrm{lb}.$
+Similarly, we can picture a set of weighing scales showing the equivalence between $1$ ton and $2,000\,\text{lb}.$
 
 ![Instructional graphic](../../../lesson-assets/grade-4/topic-2428/33936a8a892aa8f5.png)
 
@@ -44,11 +44,11 @@ We start with the unit conversion between tons and pounds:
 
 $$
 
-1\, \textrm{ton} =2,000\, \textrm{lb}
+1\, \text{ton} =2,000\, \text{lb}
 
 $$
 
-Remember that $\textrm{lb}$ is the unit symbol for pounds.
+Remember that $\text{lb}$ is the unit symbol for pounds.
 
 We want to figure out how many pounds are in ${\color{blue}{24}}$ tons. So, we multiply ** sides of the above equation by ${\color{blue}{24}}{:}$
 
@@ -58,13 +58,13 @@ $$
 
 $$
 
-Therefore, $24$ tons is equal to $48,000\,\textrm{lb}.$
+Therefore, $24$ tons is equal to $48,000\,\text{lb}.$
 
 ### Example: Converting Masses From Pounds to Ounces
 
 #### Question
 
-Luis wants to lose $26\,\textrm{lb}$ in weight over the next twelve months. How much is this in ounces?
+Luis wants to lose $26\,\text{lb}$ in weight over the next twelve months. How much is this in ounces?
 
 #### Explanation
 
@@ -72,7 +72,7 @@ We start with the unit conversion between pounds and ounces:
 
 $$
 
-1 \,\textrm{lb}=16 \,\textrm{oz}
+1 \,\text{lb}=16 \,\text{oz}
 
 $$
 
@@ -96,7 +96,7 @@ $$
 
 $$
 
-Therefore, $26\,\textrm{lb}$ is equivalent to $416\,\textrm{oz}.$
+Therefore, $26\,\text{lb}$ is equivalent to $416\,\text{oz}.$
 
 ### Converting Between Metric Units of Weight
 
@@ -112,7 +112,7 @@ We start with the unit conversion between kilograms and grams:
 
 $$
 
-1\, \textrm{kilogram} =1,000\, \textrm{grams}
+1\, \text{kilogram} =1,000\, \text{grams}
 
 $$
 
@@ -130,7 +130,7 @@ Therefore, $17$ kilograms equals $17,000$ grams.
 
 #### Question
 
-The weight of a watermelon is $8\,\textrm{kg}.$ How much is this in grams?
+The weight of a watermelon is $8\,\text{kg}.$ How much is this in grams?
 
 #### Explanation
 
@@ -138,7 +138,7 @@ We start with the unit conversion between kilograms and grams:
 
 $$
 
-1 \,\textrm{kg}=1,000 \,\textrm{g}
+1 \,\text{kg}=1,000 \,\text{g}
 
 $$
 
@@ -150,13 +150,13 @@ $$
 
 $$
 
-Therefore, the weight of the watermelon is $8,000\,\textrm{g}.$
+Therefore, the weight of the watermelon is $8,000\,\text{g}.$
 
 ### Example: Converting Masses From Grams to Milligrams
 
 #### Question
 
-How many milligrams are in $40\,\textrm{g}?$
+How many milligrams are in $40\,\text{g}?$
 
 #### Explanation
 
@@ -166,7 +166,7 @@ We start with the unit conversion between grams and milligrams:
 
 $$
 
-1\, \textrm{g} =1,000\, \textrm{mg}
+1\, \text{g} =1,000\, \text{mg}
 
 $$
 
@@ -178,4 +178,4 @@ $$
 
 $$
 
-Therefore, $40\,\textrm{g}$ equals $40,000\, \textrm{mg}.$
+Therefore, $40\,\text{g}$ equals $40,000\, \text{mg}.$

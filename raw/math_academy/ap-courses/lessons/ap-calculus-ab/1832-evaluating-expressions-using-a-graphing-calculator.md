@@ -85,7 +85,7 @@ We're now ready to enter this expression into a calculator. To do so, we note th
 
 - Your calculator will have special $\boxed{\color{gray}\,(\,}$ and $\boxed{\color{gray}\,)\,}$ buttons for left and right parentheses.
 
-- Scientific and graphing calculators usually have special $\boxed{\color{gray}\,e\,}$ and $\boxed{\color{gray}\,\pi\,}$ buttons. You may need to press $\boxed{\color{gray}\textrm{2nd}}$ or $\boxed{\color{gray}\textrm{SHIFT}}$ to access these.
+- Scientific and graphing calculators usually have special $\boxed{\color{gray}\,e\,}$ and $\boxed{\color{gray}\,\pi\,}$ buttons. You may need to press $\boxed{\color{gray}\text{2nd}}$ or $\boxed{\color{gray}\text{SHIFT}}$ to access these.
 
 Evaluating this using a calculator, we obtain
 
@@ -127,7 +127,7 @@ We're now ready to enter this expression into a calculator. To do so, we note th
 
 - Your calculator will have special $\boxed{\color{gray}\,(\,}$ and $\boxed{\color{gray}\,)\,}$ buttons for left and right parentheses.
 
-- Scientific and graphing calculators usually have special $\boxed{\color{gray}\,e\,}$ and $\boxed{\color{gray}\,\pi\,}$ buttons. You may need to press $\boxed{\color{gray}\textrm{2nd}}$ or $\boxed{\color{gray}\textrm{SHIFT}}$ to access these.
+- Scientific and graphing calculators usually have special $\boxed{\color{gray}\,e\,}$ and $\boxed{\color{gray}\,\pi\,}$ buttons. You may need to press $\boxed{\color{gray}\text{2nd}}$ or $\boxed{\color{gray}\text{SHIFT}}$ to access these.
 
 Notice the parentheses in the expression above.
 
@@ -161,7 +161,7 @@ $$
 
 To evaluate this expression using a calculator, we note the following:
 
-- To raise a number to a power, you need to use the $\boxed{\color{gray}\,\wedge\,}$ button. On some calculators, this might be an $\boxed{\color{gray}\,x^y\,}$ button, or similar. You may need to press $\boxed{\color{gray}\textrm{2nd}}$ or $\boxed{\color{gray}\textrm{SHIFT}}$ to access this.
+- To raise a number to a power, you need to use the $\boxed{\color{gray}\,\wedge\,}$ button. On some calculators, this might be an $\boxed{\color{gray}\,x^y\,}$ button, or similar. You may need to press $\boxed{\color{gray}\text{2nd}}$ or $\boxed{\color{gray}\text{SHIFT}}$ to access this.
 
 - The first number in the exponent is $-1,$ so we use the "negative sign" button $\boxed{\color{gray}(-)}$ when entering this number.
 
@@ -213,9 +213,9 @@ Note the following:
 
 - Calculators usually have a special "negative sign" button $\boxed{\color{gray}(-)}$ for negative numbers. This is not the "subtract" button.
 
-- Scientific and graphing calculators usually have a $\boxed{\color{gray}\,\pi\,}$ button for $\pi.$ You may also need to press $\boxed{\color{gray}\textrm{2nd}}$ or $\boxed{\color{gray}\textrm{SHIFT}}$ to access it.
+- Scientific and graphing calculators usually have a $\boxed{\color{gray}\,\pi\,}$ button for $\pi.$ You may also need to press $\boxed{\color{gray}\text{2nd}}$ or $\boxed{\color{gray}\text{SHIFT}}$ to access it.
 
-- To raise a number to a power, you need to use the $\boxed{\color{gray}\,\wedge\,}$ button or the $\boxed{\color{gray}\,x^y\,}$ button (or similar). Again, you may need to press $\boxed{\color{gray}\textrm{2nd}}$ or $\boxed{\color{gray}\textrm{SHIFT}}$ to access it, and you may need to enclose the exponent in parentheses.
+- To raise a number to a power, you need to use the $\boxed{\color{gray}\,\wedge\,}$ button or the $\boxed{\color{gray}\,x^y\,}$ button (or similar). Again, you may need to press $\boxed{\color{gray}\text{2nd}}$ or $\boxed{\color{gray}\text{SHIFT}}$ to access it, and you may need to enclose the exponent in parentheses.
 
 Evaluating this using a calculator, we obtain
 
@@ -307,7 +307,7 @@ Note the following:
 
 - An alternative way to compute the numerical value of a radical is to rewrite the expression as a fractional exponent and then use the exponent button.
 
-- Remember that to raise a number to an exponent, you need to use the $\boxed{\color{gray}\,\wedge\,}$ button or the $\boxed{\color{gray}\,x^y\,}$ button (or similar). You may also need to press $\boxed{\color{gray}\textrm{2nd}}$ or $\boxed{\color{gray}\textrm{SHIFT}}$ to access it, and you may need to enclose the exponent in parentheses.
+- Remember that to raise a number to an exponent, you need to use the $\boxed{\color{gray}\,\wedge\,}$ button or the $\boxed{\color{gray}\,x^y\,}$ button (or similar). You may also need to press $\boxed{\color{gray}\text{2nd}}$ or $\boxed{\color{gray}\text{SHIFT}}$ to access it, and you may need to enclose the exponent in parentheses.
 
 Our expression can be written using exponents as follows:
 
@@ -347,13 +347,13 @@ $$
 
 There is a "degree sign" $({}^\circ)$ next to the argument $\pi.$ This means we must ensure that our calculator is in **degrees mode**.
 
-A calculator is in degrees mode if $\boxed{\textrm{DEG}},$ $\boxed{\textrm{DEGREE}},$ or $\boxed{\textrm{D}}$ is shown somewhere on the calculator's display. If you cannot see this, you must first put your calculator into degrees mode.
+A calculator is in degrees mode if $\boxed{\text{DEG}},$ $\boxed{\text{DEGREE}},$ or $\boxed{\text{D}}$ is shown somewhere on the calculator's display. If you cannot see this, you must first put your calculator into degrees mode.
 
 We can usually put a calculator in degrees mode in one of the following ways:
 
-- On scientific calculators, you can usually access degrees mode by pressing $\boxed{\color{gray}\textrm{DRG}}$ or $\boxed{\color{gray}\textrm{MODE}}$ and selecting $\boxed{\color{gray}\textrm{DEG}}$ from the menu. You may also need to press $\boxed{\color{gray}\textrm{2nd}}$ or $\boxed{\color{gray}\textrm{SHIFT}}$ to access the menu.
+- On scientific calculators, you can usually access degrees mode by pressing $\boxed{\color{gray}\text{DRG}}$ or $\boxed{\color{gray}\text{MODE}}$ and selecting $\boxed{\color{gray}\text{DEG}}$ from the menu. You may also need to press $\boxed{\color{gray}\text{2nd}}$ or $\boxed{\color{gray}\text{SHIFT}}$ to access the menu.
 
-- On graphing calculators, you can usually access degrees mode by pressing $\boxed{\color{gray}\textrm{MODE}}$ and selecting $\boxed{\color{gray}\textrm{DEGREE}}$ from the menu.
+- On graphing calculators, you can usually access degrees mode by pressing $\boxed{\color{gray}\text{MODE}}$ and selecting $\boxed{\color{gray}\text{DEGREE}}$ from the menu.
 
 If neither of these techniques works, your calculator's manual will show you how. Or, you can search online for a video specific to your calculator model.
 
@@ -383,13 +383,13 @@ $$
 
 In this case, there is no "degree sign" $({}^\circ)$ next to the argument $13.$ This means we must evaluate this trigonometric expression with our calculator in **radians mode**.
 
-A calculator is in radians mode if $\boxed{\textrm{RAD}},$ $\boxed{\textrm{RADIAN}},$ or $\boxed{\textrm{R}}$ is shown somewhere on the calculator's display. If you cannot see this, you must first put your calculator into radians mode.
+A calculator is in radians mode if $\boxed{\text{RAD}},$ $\boxed{\text{RADIAN}},$ or $\boxed{\text{R}}$ is shown somewhere on the calculator's display. If you cannot see this, you must first put your calculator into radians mode.
 
 We can usually put a calculator in radians mode in one of the following ways:
 
-- On scientific calculators, you can usually access radians mode by pressing $\boxed{\color{gray}\textrm{DRG}}$ or $\boxed{\color{gray}\textrm{MODE}}$ and selecting $\boxed{\color{gray}\textrm{RAD}}$ from the menu. You may also need to press $\boxed{\color{gray}\textrm{2nd}}$ or $\boxed{\color{gray}\textrm{SHIFT}}$ to access the menu.
+- On scientific calculators, you can usually access radians mode by pressing $\boxed{\color{gray}\text{DRG}}$ or $\boxed{\color{gray}\text{MODE}}$ and selecting $\boxed{\color{gray}\text{RAD}}$ from the menu. You may also need to press $\boxed{\color{gray}\text{2nd}}$ or $\boxed{\color{gray}\text{SHIFT}}$ to access the menu.
 
-- On graphing calculators, you can usually access radians mode by pressing $\boxed{\color{gray}\textrm{MODE}}$ and selecting $\boxed{\color{gray}\textrm{RADIAN}}$ from the menu.
+- On graphing calculators, you can usually access radians mode by pressing $\boxed{\color{gray}\text{MODE}}$ and selecting $\boxed{\color{gray}\text{RADIAN}}$ from the menu.
 
 If neither of these techniques works, consult your calculator's manual or check for video explanations.
 
@@ -417,11 +417,11 @@ Recall that we always round to $3$ decimal places unless stated otherwise.
 
 Note the following:
 
-- Since there is no "degree sign" $({}^\circ)$ next to the $135,$ we're required to evaluate this trigonometric expression using radians. So, make sure that your calculator is in $\boxed{\color{gray}\textrm{RAD}}$ (radians) mode.
+- Since there is no "degree sign" $({}^\circ)$ next to the $135,$ we're required to evaluate this trigonometric expression using radians. So, make sure that your calculator is in $\boxed{\color{gray}\text{RAD}}$ (radians) mode.
 
-- On scientific calculators, you can usually access radians mode by pressing $\boxed{\color{gray}\textrm{DRG}}$ or $\boxed{\color{gray}\textrm{MODE}}$ and selecting $\boxed{\color{gray}\textrm{RAD}}$ from the menu. You may also need to press $\boxed{\color{gray}\textrm{2nd}}$ or $\boxed{\color{gray}\textrm{SHIFT}}$ to access the menu.
+- On scientific calculators, you can usually access radians mode by pressing $\boxed{\color{gray}\text{DRG}}$ or $\boxed{\color{gray}\text{MODE}}$ and selecting $\boxed{\color{gray}\text{RAD}}$ from the menu. You may also need to press $\boxed{\color{gray}\text{2nd}}$ or $\boxed{\color{gray}\text{SHIFT}}$ to access the menu.
 
-- On graphing calculators, you can usually access radians mode by pressing $\boxed{\color{gray}\textrm{MODE}}$ and selecting $\boxed{\color{gray}\textrm{RADIAN}}$ from the menu.
+- On graphing calculators, you can usually access radians mode by pressing $\boxed{\color{gray}\text{MODE}}$ and selecting $\boxed{\color{gray}\text{RADIAN}}$ from the menu.
 
 Evaluating this using a calculator, we obtain
 

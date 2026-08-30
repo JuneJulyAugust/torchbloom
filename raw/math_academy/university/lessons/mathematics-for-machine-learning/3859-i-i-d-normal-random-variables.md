@@ -118,7 +118,7 @@ We wish to compute the probability $P(10\leq Y \leq 14).$ We first convert $Y$ i
 $$
 
 
-\begin{aligned}𝑃(10≤𝑌≤14) & =𝑃(\frac{10−12}{\sqrt{√54}}≤𝑍≤\frac{14−12}{\sqrt{√54}}) \\ & =𝑃(−\frac{2}{\sqrt{√54}}≤𝑍≤\frac{2}{\sqrt{√54}}) \\ & =𝑃(−0.27≤𝑍≤0.27) \\ & =Φ(0.27)−Φ(−0.27) \\ & =Φ(0.27)−(1−Φ(0.27)) \\ & =2Φ(0.27)−1\end{aligned}
+\begin{aligned}𝑃(10≤𝑌≤14) & =𝑃(\frac{10−12}{\sqrt{54}}≤𝑍≤\frac{14−12}{\sqrt{54}}) \\ & =𝑃(−\frac{2}{\sqrt{54}}≤𝑍≤\frac{2}{\sqrt{54}}) \\ & =𝑃(−0.27≤𝑍≤0.27) \\ & =Φ(0.27)−Φ(−0.27) \\ & =Φ(0.27)−(1−Φ(0.27)) \\ & =2Φ(0.27)−1\end{aligned}
 
 
 $$
@@ -208,7 +208,7 @@ In order to find $P(W > 3\,000),$ we convert $W$ to a standard normal random var
 $$
 
 
-\begin{aligned}𝑃(𝑊>3\,000) & =𝑃(𝑍>\frac{3\,000−3\,050}{\sqrt{√504}}) \\ & ≈𝑃(𝑍>−2.23) \\ & =𝑃(𝑍<2.23) \\ & =Φ(2.23)\end{aligned}
+\begin{aligned}𝑃(𝑊>3\,000) & =𝑃(𝑍>\frac{3\,000−3\,050}{\sqrt{504}}) \\ & ≈𝑃(𝑍>−2.23) \\ & =𝑃(𝑍<2.23) \\ & =Φ(2.23)\end{aligned}
 
 
 $$

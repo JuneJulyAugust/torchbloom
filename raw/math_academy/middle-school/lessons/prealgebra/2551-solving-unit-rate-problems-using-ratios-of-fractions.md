@@ -80,7 +80,7 @@ Finally, we write the resulting improper fraction as a mixed number:
 
 $$
 
-\dfrac{32}{3} = 10 \, \textrm{R} 2 = 10 \, \dfrac{2}{3}
+\dfrac{32}{3} = 10 \, \text{R} 2 = 10 \, \dfrac{2}{3}
 
 $$
 
@@ -124,7 +124,7 @@ Finally, we write the resulting improper fraction as a mixed number:
 
 $$
 
-\dfrac{7}{5} = 1 \, \textrm{R} 2 = 1 \, \dfrac{2}{5}
+\dfrac{7}{5} = 1 \, \text{R} 2 = 1 \, \dfrac{2}{5}
 
 $$
 
@@ -168,7 +168,7 @@ Finally, we write the resulting improper fraction as a mixed number:
 
 $$
 
-\dfrac{5}{2} = 2 \, \textrm{R} 1 = 2 \, \dfrac{1}{2}
+\dfrac{5}{2} = 2 \, \text{R} 1 = 2 \, \dfrac{1}{2}
 
 $$
 

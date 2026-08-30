@@ -83,7 +83,7 @@ Consider the following initial value problem.
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}t} + 4y = 2t-1, \qquad y(0)=0.
+\dfrac{\text{d}y}{\text{d}t} + 4y = 2t-1, \qquad y(0)=0.
 
 
 $$
@@ -283,7 +283,7 @@ Consider the following initial value problem.
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}t} + 4y = 3e^{-t}, \qquad y(0)=2
+\dfrac{\text{d}y}{\text{d}t} + 4y = 3e^{-t}, \qquad y(0)=2
 
 
 $$
@@ -295,7 +295,7 @@ Let $Y(s) = \mathcal L \{y(t)\}.$ Taking the Laplace transform of both sides of 
 $$
 
 
-𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴_{𝐴𝐴}^{}
+𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴_{𝐴𝐴}
 
 
 $$
@@ -305,7 +305,7 @@ The partial fraction decomposition of $Y$ is
 $$
 
 
-𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴_{𝐴𝐴}^{}
+𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴_{𝐴𝐴}
 
 
 $$
@@ -315,7 +315,7 @@ Therefore, the solution to the initial value problem is
 $$
 
 
-𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴_{𝐴𝐴}^{}
+𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴_{𝐴𝐴}
 
 
 $$
@@ -505,7 +505,7 @@ Consider the following initial value problem.
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}t} - 2y = -5\sin t, \qquad y(0)=1
+\dfrac{\text{d}y}{\text{d}t} - 2y = -5\sin t, \qquad y(0)=1
 
 
 $$
@@ -525,7 +525,7 @@ Let $Y(s) = \mathcal L \{y(t)\}.$ Taking the Laplace transform of both sides of 
 $$
 
 
-𝐴𝐴𝐴𝐴𝐴_{𝐴𝐴}^{}𝐴𝐴
+𝐴𝐴𝐴𝐴𝐴_{𝐴𝐴}𝐴𝐴
 
 
 $$
@@ -535,7 +535,7 @@ The partial fraction decomposition of $Y$ is
 $$
 
 
-𝐴𝐴𝐴𝐴𝐴_{𝐴𝐴}^{}𝐴𝐴
+𝐴𝐴𝐴𝐴𝐴_{𝐴𝐴}𝐴𝐴
 
 
 $$
@@ -545,7 +545,7 @@ Therefore, the solution to the initial value problem is
 $$
 
 
-𝐴𝐴𝐴𝐴𝐴_{𝐴𝐴}^{}𝐴𝐴
+𝐴𝐴𝐴𝐴𝐴_{𝐴𝐴}𝐴𝐴
 
 
 $$

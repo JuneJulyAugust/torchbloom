@@ -245,7 +245,7 @@ $\qquad$The expected number of times the spinner lands on blue in $180$ spins is
 
 $\qquad$The experimental probability of landing on blue is $\boxed{\phantom{\dfrac{1}{10}}}.$
 
-$\qquad$The difference between the model and the results may be explained by $\boxed{\phantom{\text{the model being incorrect}}}$ due to $\boxed{\phantom{\text{bias}}}.$
+$\qquad$The difference between the model and the results may be explained by $\boxed{\phantom{\mathrm{the model being incorrect}}}$ due to $\boxed{\phantom{\mathrm{bias}}}.$
 
 #### Explanation
 

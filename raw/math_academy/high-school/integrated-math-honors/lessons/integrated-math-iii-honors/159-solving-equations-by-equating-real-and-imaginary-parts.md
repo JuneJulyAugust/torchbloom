@@ -18,12 +18,12 @@ For example, suppose we're given the equation
 $$
 
 
-2 + 9 \textrm{i} = 2x + 3y \textrm{i}.
+2 + 9 \text{i} = 2x + 3y \text{i}.
 
 
 $$
 
-The real part of $2 + 9 \textrm{i}$ is $2,$ and the real part of $2x + 3y \textrm{i}$ is $2x.$ Equating the real parts, we get
+The real part of $2 + 9 \text{i}$ is $2,$ and the real part of $2x + 3y \text{i}$ is $2x.$ Equating the real parts, we get
 
 $$
 
@@ -33,7 +33,7 @@ $$
 
 $$
 
-The imaginary part of $2 + 9 \textrm{i}$ is $9,$ and the imaginary part of $2x + 3y \textrm{i}$ is $3y.$ Equating the imaginary parts, we get
+The imaginary part of $2 + 9 \text{i}$ is $9,$ and the imaginary part of $2x + 3y \text{i}$ is $3y.$ Equating the imaginary parts, we get
 
 $$
 
@@ -49,7 +49,7 @@ Therefore, $x=1$ and $y=3.$
 
 #### Question
 
-Given that $3+2\textrm{i} = a + \textrm{i}b,$ calculate the value of $a$ and the value of $b.$
+Given that $3+2\text{i} = a + \text{i}b,$ calculate the value of $a$ and the value of $b.$
 
 #### Explanation
 
@@ -79,11 +79,11 @@ Therefore, $a=3$ and $b=2.$
 
 #### Question
 
-Given that $2 - 3 \textrm{i} = \dfrac{p - 2q \textrm{i}}{1 + 2 \textrm{i}},$ calculate $p$ and $q.$
+Given that $2 - 3 \text{i} = \dfrac{p - 2q \text{i}}{1 + 2 \text{i}},$ calculate $p$ and $q.$
 
 #### Explanation
 
-First, we multiply both sides of the equation by $1+2\textrm{i}$ to get rid of the fraction and isolate the variables:
+First, we multiply both sides of the equation by $1+2\text{i}$ to get rid of the fraction and isolate the variables:
 
 $$
 
@@ -105,11 +105,11 @@ Therefore, $p=8$ and $q = -\dfrac{1}{2}.$
 
 #### Question
 
-Given that $3+5\textrm{i} = (p+\textrm{i}q)(1+\textrm{i}),$ calculate $p$ and $q.$
+Given that $3+5\text{i} = (p+\text{i}q)(1+\text{i}),$ calculate $p$ and $q.$
 
 #### Explanation
 
-First, we divide both sides of the equation by $1+\textrm{i}$ to isolate the variables:
+First, we divide both sides of the equation by $1+\text{i}$ to isolate the variables:
 
 $$
 

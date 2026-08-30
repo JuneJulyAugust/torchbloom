@@ -21,7 +21,7 @@ In general, the area of the region bounded by a polar curve $r=r(\theta)$ and th
 $$
 
 
-A = \dfrac{1}{2} \int_{\theta_1}^{\theta_2} r^2 \:\textrm{d}\theta.
+A = \dfrac{1}{2} \int_{\theta_1}^{\theta_2} r^2 \:\text{d}\theta.
 
 
 $$
@@ -31,7 +31,7 @@ Therefore, the area of the half-circle above can be obtained as follows:
 $$
 
 
-\begin{aligned}𝐴 & =\frac{1}{2}∫_{𝜋/20}^{}(3cos⁡𝜃)^{2}\,d𝜃 \\ & =\frac{9}{2}∫_{𝜋/20}^{}cos^{2}⁡𝜃\,d𝜃 \\ & =\frac{9}{2}∫_{𝜋/20}^{}\frac{1}{2}(1+cos⁡(2𝜃))\,d𝜃 \\ & =\frac{9}{4}(𝜃_{𝜋/20}^{}+\frac{1}{2}sin⁡(2𝜃)_{𝜋/20}^{}) \\ & =\frac{9}{4}(\frac{𝜋}{2}+0) \\ & =\frac{9𝜋}{8}\end{aligned}
+\begin{aligned}𝐴 & =\frac{1}{2}∫_{𝜋/20}(3cos⁡𝜃)^{2}\,d𝜃 \\ & =\frac{9}{2}∫_{𝜋/20}cos^{2}⁡𝜃\,d𝜃 \\ & =\frac{9}{2}∫_{𝜋/20}\frac{1}{2}(1+cos⁡(2𝜃))\,d𝜃 \\ & =\frac{9}{4}(𝜃_{𝜋/20}+\frac{1}{2}sin⁡(2𝜃)_{𝜋/20}) \\ & =\frac{9}{4}(\frac{𝜋}{2}+0) \\ & =\frac{9𝜋}{8}\end{aligned}
 
 
 $$
@@ -51,7 +51,7 @@ The area bounded by a polar curve is given by
 $$
 
 
-A = \dfrac{1}{2} \int_{\theta_1}^{\theta_2} r^2(\theta) \, \textrm{d}\theta \,.
+A = \dfrac{1}{2} \int_{\theta_1}^{\theta_2} r^2(\theta) \, \text{d}\theta \,.
 
 
 $$
@@ -61,7 +61,7 @@ When $r(\theta) = \cos(3\theta),$ $\theta_1=-\dfrac{\pi}{6},$ and $\theta_2=\dfr
 $$
 
 
-\begin{aligned}𝐴 & =\frac{1}{2}∫_{𝜃_{2}𝜃_{1}}^{}𝑟^{2}\,d𝜃 \\ & =\frac{1}{2}∫_{𝜋/6−𝜋/6}^{}cos^{2}⁡(3𝜃)\,d𝜃 \\ & =\frac{1}{4}∫_{𝜋/6−𝜋/6}^{}(1+cos⁡(6𝜃))\,d𝜃 \\ & =\frac{1}{4}(𝜃_{𝜋/6−𝜋/6}^{}+\frac{1}{6}sin⁡(6𝜃)_{𝜋/6−𝜋/6}^{}) \\ & =\frac{1}{4}((\frac{𝜋}{6}−(−\frac{𝜋}{6}))+\frac{1}{6}(sin⁡𝜋−sin⁡(−𝜋))) \\ & =\frac{1}{4}(\frac{𝜋}{3}+0) \\ & =\frac{𝜋}{12}.\end{aligned}
+\begin{aligned}𝐴 & =\frac{1}{2}∫_{𝜃_{2}𝜃_{1}}^{}𝑟^{2}\,d𝜃 \\ & =\frac{1}{2}∫_{𝜋/6−𝜋/6}cos^{2}⁡(3𝜃)\,d𝜃 \\ & =\frac{1}{4}∫_{𝜋/6−𝜋/6}(1+cos⁡(6𝜃))\,d𝜃 \\ & =\frac{1}{4}(𝜃_{𝜋/6−𝜋/6}+\frac{1}{6}sin⁡(6𝜃)_{𝜋/6−𝜋/6}) \\ & =\frac{1}{4}((\frac{𝜋}{6}−(−\frac{𝜋}{6}))+\frac{1}{6}(sin⁡𝜋−sin⁡(−𝜋))) \\ & =\frac{1}{4}(\frac{𝜋}{3}+0) \\ & =\frac{𝜋}{12}.\end{aligned}
 
 
 $$
@@ -81,7 +81,7 @@ The area bounded by a polar curve is given by
 $$
 
 
-A = \dfrac{1}{2} \int_{\theta_1}^{\theta_2} r^2(\theta) \, \textrm{d}\theta \,.
+A = \dfrac{1}{2} \int_{\theta_1}^{\theta_2} r^2(\theta) \, \text{d}\theta \,.
 
 
 $$
@@ -91,7 +91,7 @@ When $r(\theta) = 1+2\cos(\theta),$ $\theta_1=\dfrac{2\pi}{3},$ and $\theta_2=\d
 $$
 
 
-\begin{aligned}𝐴 & =\frac{1}{2}∫_{𝜃_{2}𝜃_{1}}^{}𝑟^{2}\,d𝜃 \\ & =\frac{1}{2}∫_{4𝜋/32𝜋/3}^{}(1+2cos⁡(𝜃))^{2}\,d𝜃 \\ & =\frac{1}{2}∫_{4𝜋/32𝜋/3}^{}(1+4cos⁡𝜃+4cos^{2}⁡𝜃)\,d𝜃 \\ & =\frac{1}{2}(𝜃\,_{4𝜋/32𝜋/3}^{}+4sin⁡𝜃\,_{4𝜋/32𝜋/3}^{}+4⋅\frac{1}{2}∫_{4𝜋/32𝜋/3}^{}(1+cos⁡(2𝜃))\,d𝜃) \\ & =\frac{1}{2}(𝜃\,_{4𝜋/32𝜋/3}^{}+4sin⁡𝜃\,_{4𝜋/32𝜋/3}^{}+2𝜃\,_{4𝜋/32𝜋/3}^{}+sin⁡(2𝜃)\,_{4𝜋/32𝜋/3}^{}) \\ & =\frac{1}{2}(3𝜃\,_{4𝜋/32𝜋/3}^{}+4sin⁡𝜃\,_{4𝜋/32𝜋/3}^{}+sin⁡(2𝜃)\,_{4𝜋/32𝜋/3}^{}) \\ & =\frac{1}{2}(2𝜋−4\sqrt{√3}+\sqrt{√3}) \\ & =\frac{1}{2}(2𝜋−3\sqrt{√3}).\end{aligned}
+\begin{aligned}𝐴 & =\frac{1}{2}∫_{𝜃_{2}𝜃_{1}}^{}𝑟^{2}\,d𝜃 \\ & =\frac{1}{2}∫_{4𝜋/32𝜋/3}(1+2cos⁡(𝜃))^{2}\,d𝜃 \\ & =\frac{1}{2}∫_{4𝜋/32𝜋/3}(1+4cos⁡𝜃+4cos^{2}⁡𝜃)\,d𝜃 \\ & =\frac{1}{2}(𝜃\,_{4𝜋/32𝜋/3}+4sin⁡𝜃\,_{4𝜋/32𝜋/3}+4⋅\frac{1}{2}∫_{4𝜋/32𝜋/3}(1+cos⁡(2𝜃))\,d𝜃) \\ & =\frac{1}{2}(𝜃\,_{4𝜋/32𝜋/3}+4sin⁡𝜃\,_{4𝜋/32𝜋/3}+2𝜃\,_{4𝜋/32𝜋/3}+sin⁡(2𝜃)\,_{4𝜋/32𝜋/3}) \\ & =\frac{1}{2}(3𝜃\,_{4𝜋/32𝜋/3}+4sin⁡𝜃\,_{4𝜋/32𝜋/3}+sin⁡(2𝜃)\,_{4𝜋/32𝜋/3}) \\ & =\frac{1}{2}(2𝜋−4\sqrt{3}+\sqrt{3}) \\ & =\frac{1}{2}(2𝜋−3\sqrt{3}).\end{aligned}
 
 
 $$
@@ -111,7 +111,7 @@ The area bounded by a polar curve is given by
 $$
 
 
-A = \dfrac{1}{2} \int_{\theta_1}^{\theta_2} r^2(\theta) \, \textrm{d}\theta \,.
+A = \dfrac{1}{2} \int_{\theta_1}^{\theta_2} r^2(\theta) \, \text{d}\theta \,.
 
 
 $$
@@ -121,7 +121,7 @@ When $r(\theta) = 2\sin\theta + 2\cos\theta,$ $\theta_1=\dfrac{\pi}{2},$ and $\t
 $$
 
 
-\begin{aligned}𝐴 & =\frac{1}{2}∫_{𝜃_{2}𝜃_{1}}^{}𝑟^{2}\,d𝜃 \\ & =\frac{1}{2}∫_{3𝜋/4𝜋/2}^{}(2sin⁡𝜃+2cos⁡𝜃)^{2}\,d𝜃 \\ & =\frac{1}{2}∫_{3𝜋/4𝜋/2}^{}(4sin^{2}⁡𝜃+8sin⁡𝜃cos⁡𝜃+4cos^{2}⁡𝜃)\,d𝜃 \\ & =\frac{1}{2}∫_{3𝜋/4𝜋/2}^{}(4+8sin⁡𝜃cos⁡𝜃)\,d𝜃 \\ & =\frac{4}{2}∫_{3𝜋/4𝜋/2}^{}(1+sin⁡(2𝜃))\,d𝜃 \\ & =2(𝜃\,_{3𝜋/4𝜋/2}^{}−\frac{cos⁡(2𝜃)}{2}\,_{3𝜋/4𝜋/2}^{}) \\ & =2𝜃\,_{3𝜋/4𝜋/2}^{}−cos⁡(2𝜃)\,_{3𝜋/4𝜋/2}^{} \\ & =2(\frac{3𝜋}{4}−\frac{𝜋}{2})−(cos⁡(\frac{3𝜋}{2})−cos⁡(𝜋)) \\ & =\frac{𝜋}{2}−1 \\ & =\frac{𝜋−2}{2}.\end{aligned}
+\begin{aligned}𝐴 & =\frac{1}{2}∫_{𝜃_{2}𝜃_{1}}^{}𝑟^{2}\,d𝜃 \\ & =\frac{1}{2}∫_{3𝜋/4𝜋/2}(2sin⁡𝜃+2cos⁡𝜃)^{2}\,d𝜃 \\ & =\frac{1}{2}∫_{3𝜋/4𝜋/2}(4sin^{2}⁡𝜃+8sin⁡𝜃cos⁡𝜃+4cos^{2}⁡𝜃)\,d𝜃 \\ & =\frac{1}{2}∫_{3𝜋/4𝜋/2}(4+8sin⁡𝜃cos⁡𝜃)\,d𝜃 \\ & =\frac{4}{2}∫_{3𝜋/4𝜋/2}(1+sin⁡(2𝜃))\,d𝜃 \\ & =2(𝜃\,_{3𝜋/4𝜋/2}−\frac{cos⁡(2𝜃)}{2}\,_{3𝜋/4𝜋/2}) \\ & =2𝜃\,_{3𝜋/4𝜋/2}−cos⁡(2𝜃)\,_{3𝜋/4𝜋/2} \\ & =2(\frac{3𝜋}{4}−\frac{𝜋}{2})−(cos⁡(\frac{3𝜋}{2})−cos⁡(𝜋)) \\ & =\frac{𝜋}{2}−1 \\ & =\frac{𝜋−2}{2}.\end{aligned}
 
 
 $$
@@ -133,7 +133,7 @@ We've been using the following formula for the area of the region bounded by a p
 $$
 
 
-A = \dfrac{1}{2} \int_{\theta_1}^{\theta_2} r^2 \:\textrm{d}\theta
+A = \dfrac{1}{2} \int_{\theta_1}^{\theta_2} r^2 \:\text{d}\theta
 
 
 $$

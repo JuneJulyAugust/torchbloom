@@ -125,7 +125,7 @@ Now, we express the set operations as logical operations and simplify (if possib
 $$
 
 
-\begin{aligned}𝑥∈\overset{𝐴∖\overset{𝐵}{}}{}\, & ⇔\,𝑥∉𝐴∖\overset{𝐵}{} \\ \, & ⇔\,¬(𝑥∈𝐴∖\overset{𝐵}{}) \\ \, & ⇔\,¬((𝑥∈𝐴)∧(𝑥∉\overset{𝐵}{})) \\ \, & ⇔\,¬((𝑥∈𝐴)∧(𝑥∈𝐵)) \\ \, & ⇔\,¬(𝑥∈𝐴)∨¬(𝑥∈𝐵) \\ \, & ⇔\,(𝑥∉𝐴)∨(𝑥∉𝐵) \\ \, & ⇔\,𝑥∉𝐴∨𝑥∉𝐵\end{aligned}
+\begin{aligned}𝑥∈\overset{𝐴∖\overset{𝐵}{}\, & ⇔\,𝑥∉𝐴∖\overset{𝐵}{} \\ \, & ⇔\,¬(𝑥∈𝐴∖\overset{𝐵}{}) \\ \, & ⇔\,¬((𝑥∈𝐴)∧(𝑥∉\overset{𝐵}{})) \\ \, & ⇔\,¬((𝑥∈𝐴)∧(𝑥∈𝐵)) \\ \, & ⇔\,¬(𝑥∈𝐴)∨¬(𝑥∈𝐵) \\ \, & ⇔\,(𝑥∉𝐴)∨(𝑥∉𝐵) \\ \, & ⇔\,𝑥∉𝐴∨𝑥∉𝐵\end{aligned}
 
 
 $$

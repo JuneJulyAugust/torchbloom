@@ -59,7 +59,7 @@ $$
 
 The reason is that the second solution, $\mathbf x_2(t),$ doesn't provide any new information. For a real matrix $A,$ the complex eigenvalues and eigenvectors come in *conjugate pairs*, which means $\mathbf x_2(t)$ is simply the complex conjugate of $\mathbf x_1(t).$
 
-Since $\mathbf x_2(t) = \mathbf w_1 (t) - \textrm{i} \, \mathbf w_2(t),$ it is also a linear combination of the real and imaginary parts of $\mathbf x_1(t).$
+Since $\mathbf x_2(t) = \mathbf w_1 (t) - \text{i} \, \mathbf w_2(t),$ it is also a linear combination of the real and imaginary parts of $\mathbf x_1(t).$
 
 To build our general solution, we just need two *linearly independent* real solutions. The key facts are the following:
 
@@ -99,11 +99,11 @@ $$
 
 We need to find the eigenvalues and associated eigenvectors of the matrix $[\begin{aligned}1 & −1 \\ 2 & −1\end{aligned}]$
 
-We are given the eigenvalue $\lambda_1 = \textrm{i}$ and the corresponding eigenvector $[\begin{aligned}1+i \\ 2\end{aligned}]$
+We are given the eigenvalue $\lambda_1 = \text{i}$ and the corresponding eigenvector $[\begin{aligned}1+i \\ 2\end{aligned}]$
 
 **** The eigenvector corresponding to the second eigenvalue $\lambda_2 = \overline{\lambda}_1$ is $\mathbf{v}_2 = \overline{\mathbf{v}}_1.$ But we do not require this eigenvector for solving our system.
 
-The solution that we obtain for the eigenvalue $\lambda_1 = \textrm{i}$ and its associated eigenvector is
+The solution that we obtain for the eigenvalue $\lambda_1 = \text{i}$ and its associated eigenvector is
 
 $$
 
@@ -118,7 +118,7 @@ We now express this as a real function. Using Euler's formula, we obtain
 $$
 
 
-\begin{aligned}𝐱_{1}(𝑡) & =[\begin{aligned}1+i \\ 2\end{aligned}]𝑒^{i𝑡} \\ & =[\begin{aligned}1+i \\ 2\end{aligned}]⋅(cos⁡𝑡+isin⁡𝑡) \\ & =[\begin{aligned}cos⁡𝑡+isin⁡𝑡+icos⁡𝑡−sin⁡𝑡 \\ 2cos⁡𝑡+2isin⁡𝑡\end{aligned}] \\ & =[\begin{aligned}(cos⁡𝑡−sin⁡𝑡)+i(cos⁡𝑡+sin⁡𝑡) \\ 2cos⁡𝑡+2isin⁡𝑡\end{aligned}] \\ & =[\begin{aligned}cos⁡𝑡−sin⁡𝑡 \\ 2cos⁡𝑡\end{aligned}]+i[\begin{aligned}cos⁡𝑡+sin⁡𝑡 \\ 2sin⁡𝑡\end{aligned}] \\ & =𝐰_{1}(𝑡)+i𝐰_{2}(𝑡).\end{aligned}
+\begin{aligned}𝐱_{1}(𝑡) & =[\begin{matrix}1+i \\ 2\end{matrix}]𝑒^{i𝑡} \\ & =[\begin{matrix}1+i \\ 2\end{matrix}]⋅(cos⁡𝑡+isin⁡𝑡) \\ & =[\begin{matrix}cos⁡𝑡+isin⁡𝑡+icos⁡𝑡−sin⁡𝑡 \\ 2cos⁡𝑡+2isin⁡𝑡\end{matrix}] \\ & =[\begin{matrix}(cos⁡𝑡−sin⁡𝑡)+i(cos⁡𝑡+sin⁡𝑡) \\ 2cos⁡𝑡+2isin⁡𝑡\end{matrix}] \\ & =[\begin{matrix}cos⁡𝑡−sin⁡𝑡 \\ 2cos⁡𝑡\end{matrix}]+i[\begin{matrix}cos⁡𝑡+sin⁡𝑡 \\ 2sin⁡𝑡\end{matrix}] \\ & =𝐰_{1}(𝑡)+i𝐰_{2}(𝑡).\end{aligned}
 
 
 $$
@@ -128,7 +128,7 @@ The vectors $\mathbf w_1$ and $\mathbf w_2$ are linearly independent. Therefore,
 $$
 
 
-\begin{aligned}𝐱(𝑡) & =𝑐_{1}𝐰_{1}(𝑡)+𝑐_{2}𝐰_{2}(𝑡) \\ & =𝑐_{1}[\begin{aligned}cos⁡𝑡−sin⁡𝑡 \\ 2cos⁡𝑡\end{aligned}]+𝑐_{2}[\begin{aligned}cos⁡𝑡+sin⁡𝑡 \\ 2sin⁡𝑡\end{aligned}].\end{aligned}
+\begin{aligned}𝐱(𝑡) & =𝑐_{1}𝐰_{1}(𝑡)+𝑐_{2}𝐰_{2}(𝑡) \\ & =𝑐_{1}[\begin{matrix}cos⁡𝑡−sin⁡𝑡 \\ 2cos⁡𝑡\end{matrix}]+𝑐_{2}[\begin{matrix}cos⁡𝑡+sin⁡𝑡 \\ 2sin⁡𝑡\end{matrix}].\end{aligned}
 
 
 $$
@@ -155,11 +155,11 @@ $$
 
 We need to find the eigenvalues and associated eigenvectors of the matrix $[\begin{aligned}2 & −4 \\ 2 & −2\end{aligned}]$
 
-We are given the eigenvalue $\lambda_1 = 2\textrm{i}$ and the corresponding eigenvector $[\begin{aligned}1+i \\ 1\end{aligned}]$
+We are given the eigenvalue $\lambda_1 = 2\text{i}$ and the corresponding eigenvector $[\begin{aligned}1+i \\ 1\end{aligned}]$
 
 **** The eigenvector corresponding to the second eigenvalue $\lambda_2 = \overline{\lambda}_1$ is $\mathbf{v}_2 = \overline{\mathbf{v}}_1.$ But we do not require this eigenvector for solving our system.
 
-The solution that we obtain for the eigenvalue $\lambda_1 = 2\textrm{i}$ and its associated eigenvector is
+The solution that we obtain for the eigenvalue $\lambda_1 = 2\text{i}$ and its associated eigenvector is
 
 $$
 
@@ -174,7 +174,7 @@ We now express this as a real function. Using Euler's formula, we obtain
 $$
 
 
-\begin{aligned}𝐱_{1}(𝑡) & =[\begin{aligned}1+i \\ 1\end{aligned}]𝑒^{2i𝑡} \\ & =[\begin{aligned}1+i \\ 1\end{aligned}](cos⁡(2𝑡)+isin⁡(2𝑡)) \\ & =[\begin{aligned}cos⁡(2𝑡)+isin⁡(2𝑡)+icos⁡(2𝑡)−sin⁡(2𝑡) \\ cos⁡(2𝑡)+isin⁡(2𝑡)\end{aligned}] \\ & =[\begin{aligned}(cos⁡(2𝑡)−sin⁡(2𝑡))+i(cos⁡(2𝑡)+sin⁡(2𝑡)) \\ cos⁡(2𝑡)+isin⁡(2𝑡)\end{aligned}] \\ & =[\begin{aligned}cos⁡(2𝑡)−sin⁡(2𝑡) \\ cos⁡(2𝑡)\end{aligned}]+i[\begin{aligned}cos⁡(2𝑡)+sin⁡(2𝑡) \\ sin⁡(2𝑡)\end{aligned}] \\ & =𝐰_{1}(𝑡)+i𝐰_{2}(𝑡).\end{aligned}
+\begin{aligned}𝐱_{1}(𝑡) & =[\begin{matrix}1+i \\ 1\end{matrix}]𝑒^{2i𝑡} \\ & =[\begin{matrix}1+i \\ 1\end{matrix}](cos⁡(2𝑡)+isin⁡(2𝑡)) \\ & =[\begin{matrix}cos⁡(2𝑡)+isin⁡(2𝑡)+icos⁡(2𝑡)−sin⁡(2𝑡) \\ cos⁡(2𝑡)+isin⁡(2𝑡)\end{matrix}] \\ & =[\begin{matrix}(cos⁡(2𝑡)−sin⁡(2𝑡))+i(cos⁡(2𝑡)+sin⁡(2𝑡)) \\ cos⁡(2𝑡)+isin⁡(2𝑡)\end{matrix}] \\ & =[\begin{matrix}cos⁡(2𝑡)−sin⁡(2𝑡) \\ cos⁡(2𝑡)\end{matrix}]+i[\begin{matrix}cos⁡(2𝑡)+sin⁡(2𝑡) \\ sin⁡(2𝑡)\end{matrix}] \\ & =𝐰_{1}(𝑡)+i𝐰_{2}(𝑡).\end{aligned}
 
 
 $$
@@ -184,7 +184,7 @@ The vectors $\mathbf w_1$ and $\mathbf w_2$ are linearly independent. Therefore,
 $$
 
 
-\begin{aligned}𝐱(𝑡) & =𝑐_{1}𝐰_{1}(𝑡)+𝑐_{2}𝐰_{2}(𝑡) \\ & =𝑐_{1}[\begin{aligned}cos⁡(2𝑡)−sin⁡(2𝑡) \\ cos⁡(2𝑡)\end{aligned}]+𝑐_{2}[\begin{aligned}cos⁡(2𝑡)+sin⁡(2𝑡) \\ sin⁡(2𝑡)\end{aligned}].\end{aligned}
+\begin{aligned}𝐱(𝑡) & =𝑐_{1}𝐰_{1}(𝑡)+𝑐_{2}𝐰_{2}(𝑡) \\ & =𝑐_{1}[\begin{matrix}cos⁡(2𝑡)−sin⁡(2𝑡) \\ cos⁡(2𝑡)\end{matrix}]+𝑐_{2}[\begin{matrix}cos⁡(2𝑡)+sin⁡(2𝑡) \\ sin⁡(2𝑡)\end{matrix}].\end{aligned}
 
 
 $$
@@ -194,7 +194,7 @@ Now, we need to find the values of $c_1$ and $c_2$ using the initial condition $
 $$
 
 
-\begin{aligned}𝐱(0) & =𝑐_{1}[\begin{aligned}1 \\ 1\end{aligned}]+𝑐_{2}[\begin{aligned}1 \\ 0\end{aligned}] \\ [\begin{aligned}−1 \\ 1\end{aligned}] & =[\begin{aligned}𝑐_{1}+𝑐_{2} \\ 𝑐_{1}\end{aligned}] \\ [\begin{aligned}𝑐_{1} \\ 𝑐_{2}\end{aligned}] & =[\begin{aligned}1 \\ −2\end{aligned}].\end{aligned}
+\begin{aligned}𝐱(0) & =𝑐_{1}[\begin{matrix}1 \\ 1\end{matrix}]+𝑐_{2}[\begin{matrix}1 \\ 0\end{matrix}] \\ [\begin{matrix}−1 \\ 1\end{matrix}] & =[\begin{matrix}𝑐_{1}+𝑐_{2} \\ 𝑐_{1}\end{matrix}] \\ [\begin{matrix}𝑐_{1} \\ 𝑐_{2}\end{matrix}] & =[\begin{matrix}1 \\ −2\end{matrix}].\end{aligned}
 
 
 $$
@@ -204,7 +204,7 @@ Finally, the solution to our initial value problem is given by
 $$
 
 
-\begin{aligned}𝐱(𝑡) & =1[\begin{aligned}cos⁡(2𝑡)−sin⁡(2𝑡) \\ cos⁡(2𝑡)\end{aligned}]−2[\begin{aligned}cos⁡(2𝑡)+sin⁡(2𝑡) \\ sin⁡(2𝑡)\end{aligned}] \\ & =[\begin{aligned}−cos⁡(2𝑡)−3sin⁡(2𝑡) \\ cos⁡(2𝑡)−2sin⁡(2𝑡)\end{aligned}].\end{aligned}
+\begin{aligned}𝐱(𝑡) & =1[\begin{matrix}cos⁡(2𝑡)−sin⁡(2𝑡) \\ cos⁡(2𝑡)\end{matrix}]−2[\begin{matrix}cos⁡(2𝑡)+sin⁡(2𝑡) \\ sin⁡(2𝑡)\end{matrix}] \\ & =[\begin{matrix}−cos⁡(2𝑡)−3sin⁡(2𝑡) \\ cos⁡(2𝑡)−2sin⁡(2𝑡)\end{matrix}].\end{aligned}
 
 
 $$
@@ -237,9 +237,9 @@ $$
 
 We need to find the eigenvalues and associated eigenvectors of the matrix $[\begin{aligned}1 & −1 \\ 1 & 1\end{aligned}]$
 
-We are given that the eigenvalue is $\lambda_1=1+\textrm{i}.$
+We are given that the eigenvalue is $\lambda_1=1+\text{i}.$
 
-Let's go through the process of finding the eigenvectors. For $\lambda_1 =1+\textrm{i},$ we get
+Let's go through the process of finding the eigenvectors. For $\lambda_1 =1+\text{i},$ we get
 
 $$
 
@@ -253,7 +253,7 @@ So, we get an eigenvector $[\begin{aligned}i \\ 1\end{aligned}]$
 
 **** The eigenvector corresponding to the second eigenvalue $\lambda_2 = \overline{\lambda}_1$ is $\mathbf{v}_2 = \overline{\mathbf{v}}_1.$ But we do not require this eigenvector for solving our system.
 
-The solution that we obtain for the eigenvalue $\lambda_1 = 1+\textrm{i}$ and its associated eigenvector is
+The solution that we obtain for the eigenvalue $\lambda_1 = 1+\text{i}$ and its associated eigenvector is
 
 $$
 
@@ -268,7 +268,7 @@ We now separate this solution into its real and imaginary parts. Using Euler's f
 $$
 
 
-\begin{aligned}𝐱_{1}(𝑡) & =[\begin{aligned}i \\ 1\end{aligned}]𝑒^{(1+i)𝑡} \\ & =[\begin{aligned}i \\ 1\end{aligned}]𝑒^{𝑡}(cos⁡𝑡+isin⁡𝑡) \\ & =[\begin{aligned}i(𝑒^{𝑡}cos⁡𝑡)−𝑒^{𝑡}sin⁡𝑡 \\ 𝑒^{𝑡}cos⁡𝑡+i(𝑒^{𝑡}sin⁡𝑡)\end{aligned}] \\ & =[\begin{aligned}−sin⁡𝑡 \\ cos⁡𝑡\end{aligned}]𝑒^{𝑡}+i[\begin{aligned}cos⁡𝑡 \\ sin⁡𝑡\end{aligned}]𝑒^{𝑡} \\ & =𝐰_{1}(𝑡)+i𝐰_{2}(𝑡).\end{aligned}
+\begin{aligned}𝐱_{1}(𝑡) & =[\begin{matrix}i \\ 1\end{matrix}]𝑒^{(1+i)𝑡} \\ & =[\begin{matrix}i \\ 1\end{matrix}]𝑒^{𝑡}(cos⁡𝑡+isin⁡𝑡) \\ & =[\begin{matrix}i(𝑒^{𝑡}cos⁡𝑡)−𝑒^{𝑡}sin⁡𝑡 \\ 𝑒^{𝑡}cos⁡𝑡+i(𝑒^{𝑡}sin⁡𝑡)\end{matrix}] \\ & =[\begin{matrix}−sin⁡𝑡 \\ cos⁡𝑡\end{matrix}]𝑒^{𝑡}+i[\begin{matrix}cos⁡𝑡 \\ sin⁡𝑡\end{matrix}]𝑒^{𝑡} \\ & =𝐰_{1}(𝑡)+i𝐰_{2}(𝑡).\end{aligned}
 
 
 $$
@@ -278,7 +278,7 @@ The vectors $\mathbf w_1$ and $\mathbf w_2$ are linearly independent. Therefore,
 $$
 
 
-\begin{aligned}𝐱(𝑡) & =𝑐_{1}𝐰_{1}(𝑡)+𝑐_{2}𝐰_{2}(𝑡) \\ & =𝑐_{1}[\begin{aligned}−sin⁡𝑡 \\ cos⁡𝑡\end{aligned}]𝑒^{𝑡}+𝑐_{2}[\begin{aligned}cos⁡𝑡 \\ sin⁡𝑡\end{aligned}]𝑒^{𝑡}.\end{aligned}
+\begin{aligned}𝐱(𝑡) & =𝑐_{1}𝐰_{1}(𝑡)+𝑐_{2}𝐰_{2}(𝑡) \\ & =𝑐_{1}[\begin{matrix}−sin⁡𝑡 \\ cos⁡𝑡\end{matrix}]𝑒^{𝑡}+𝑐_{2}[\begin{matrix}cos⁡𝑡 \\ sin⁡𝑡\end{matrix}]𝑒^{𝑡}.\end{aligned}
 
 
 $$
@@ -305,9 +305,9 @@ $$
 
 We need to find the eigenvalues and associated eigenvectors of the matrix $[\begin{aligned}3 & −1 \\ 1 & 3\end{aligned}]$
 
-We are given that the eigenvalue is $\lambda_1=3+\textrm{i}.$
+We are given that the eigenvalue is $\lambda_1=3+\text{i}.$
 
-Let's go through the process of finding the eigenvectors. For $\lambda_1 =3+\textrm{i},$ we get
+Let's go through the process of finding the eigenvectors. For $\lambda_1 =3+\text{i},$ we get
 
 $$
 
@@ -321,7 +321,7 @@ So, we get an eigenvector $[\begin{aligned}i \\ 1\end{aligned}]$
 
 **** The eigenvector corresponding to the second eigenvalue $\lambda_2 = \overline{\lambda}_1$ is $\mathbf{v}_2 = \overline{\mathbf{v}}_1.$ But we do not require this eigenvector for solving our system.
 
-The solution that we obtain for the eigenvalue $\lambda_1 = 3 + \textrm{i}$ and its associated eigenvector is
+The solution that we obtain for the eigenvalue $\lambda_1 = 3 + \text{i}$ and its associated eigenvector is
 
 $$
 
@@ -336,7 +336,7 @@ We now express this as a real function. Using Euler's formula, we obtain
 $$
 
 
-\begin{aligned}𝐱_{1}(𝑡) & =[\begin{aligned}i \\ 1\end{aligned}]𝑒^{(3+i)𝑡} \\ & =[\begin{aligned}i \\ 1\end{aligned}]𝑒^{3𝑡}(cos⁡𝑡+isin⁡𝑡) \\ & =[\begin{aligned}i(𝑒^{3𝑡}cos⁡𝑡)−𝑒^{3𝑡}sin⁡𝑡 \\ 𝑒^{3𝑡}cos⁡𝑡+i(𝑒^{3𝑡}sin⁡𝑡)\end{aligned}] \\ & =[\begin{aligned}−sin⁡𝑡 \\ cos⁡𝑡\end{aligned}]𝑒^{3𝑡}+i[\begin{aligned}cos⁡𝑡 \\ sin⁡𝑡\end{aligned}]𝑒^{3𝑡} \\ & =𝐰_{1}(𝑡)+i𝐰_{2}(𝑡).\end{aligned}
+\begin{aligned}𝐱_{1}(𝑡) & =[\begin{matrix}i \\ 1\end{matrix}]𝑒^{(3+i)𝑡} \\ & =[\begin{matrix}i \\ 1\end{matrix}]𝑒^{3𝑡}(cos⁡𝑡+isin⁡𝑡) \\ & =[\begin{matrix}i(𝑒^{3𝑡}cos⁡𝑡)−𝑒^{3𝑡}sin⁡𝑡 \\ 𝑒^{3𝑡}cos⁡𝑡+i(𝑒^{3𝑡}sin⁡𝑡)\end{matrix}] \\ & =[\begin{matrix}−sin⁡𝑡 \\ cos⁡𝑡\end{matrix}]𝑒^{3𝑡}+i[\begin{matrix}cos⁡𝑡 \\ sin⁡𝑡\end{matrix}]𝑒^{3𝑡} \\ & =𝐰_{1}(𝑡)+i𝐰_{2}(𝑡).\end{aligned}
 
 
 $$
@@ -346,7 +346,7 @@ The vectors $\mathbf w_1$ and $\mathbf w_2$ are linearly independent. Therefore,
 $$
 
 
-\begin{aligned}𝐱(𝑡) & =𝑐_{1}𝐰_{1}(𝑡)+𝑐_{2}𝐰_{2}(𝑡) \\ & =𝑐_{1}[\begin{aligned}−sin⁡𝑡 \\ cos⁡𝑡\end{aligned}]𝑒^{3𝑡}+𝑐_{2}[\begin{aligned}cos⁡𝑡 \\ sin⁡𝑡\end{aligned}]𝑒^{3𝑡}.\end{aligned}
+\begin{aligned}𝐱(𝑡) & =𝑐_{1}𝐰_{1}(𝑡)+𝑐_{2}𝐰_{2}(𝑡) \\ & =𝑐_{1}[\begin{matrix}−sin⁡𝑡 \\ cos⁡𝑡\end{matrix}]𝑒^{3𝑡}+𝑐_{2}[\begin{matrix}cos⁡𝑡 \\ sin⁡𝑡\end{matrix}]𝑒^{3𝑡}.\end{aligned}
 
 
 $$
@@ -356,7 +356,7 @@ Now, we need to find the values of $c_1$ and $c_2$ using the initial condition $
 $$
 
 
-\begin{aligned}𝐱(0) & =𝑐_{1}[\begin{aligned}0 \\ 1\end{aligned}]+𝑐_{2}[\begin{aligned}1 \\ 0\end{aligned}] \\ [\begin{aligned}−3 \\ 1\end{aligned}] & =[\begin{aligned}𝑐_{2} \\ 𝑐_{1}\end{aligned}].\end{aligned}
+\begin{aligned}𝐱(0) & =𝑐_{1}[\begin{matrix}0 \\ 1\end{matrix}]+𝑐_{2}[\begin{matrix}1 \\ 0\end{matrix}] \\ [\begin{matrix}−3 \\ 1\end{matrix}] & =[\begin{matrix}𝑐_{2} \\ 𝑐_{1}\end{matrix}].\end{aligned}
 
 
 $$
@@ -366,7 +366,7 @@ Finally, the solution to our initial value problem is given by
 $$
 
 
-\begin{aligned}𝐱(𝑡) & =1[\begin{aligned}−sin⁡𝑡 \\ cos⁡𝑡\end{aligned}]𝑒^{3𝑡}−3[\begin{aligned}cos⁡𝑡 \\ sin⁡𝑡\end{aligned}]𝑒^{3𝑡} \\ & =[\begin{aligned}−sin⁡𝑡−3cos⁡𝑡 \\ cos⁡𝑡−3sin⁡𝑡\end{aligned}]𝑒^{3𝑡}.\end{aligned}
+\begin{aligned}𝐱(𝑡) & =1[\begin{matrix}−sin⁡𝑡 \\ cos⁡𝑡\end{matrix}]𝑒^{3𝑡}−3[\begin{matrix}cos⁡𝑡 \\ sin⁡𝑡\end{matrix}]𝑒^{3𝑡} \\ & =[\begin{matrix}−sin⁡𝑡−3cos⁡𝑡 \\ cos⁡𝑡−3sin⁡𝑡\end{matrix}]𝑒^{3𝑡}.\end{aligned}
 
 
 $$

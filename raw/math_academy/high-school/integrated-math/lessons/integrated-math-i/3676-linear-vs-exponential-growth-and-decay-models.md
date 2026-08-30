@@ -15,11 +15,11 @@ Topic ID: 3676
 
 In everyday life, some quantities vary linearly while others vary exponentially.
 
-For example, suppose that Dominic collects rainwater in a flask during a storm. He measures the total amount of water in the flask every hour. The flask started with $2\,\textrm{mm}$ of rainwater, and he noticed that the volume of water in the flask increases by $10\,\textrm{mm}$ every hour. If $R(t)$ is a function that gives the amount of rainwater after $t$ hours, is $R(t)$ linear or exponential?
+For example, suppose that Dominic collects rainwater in a flask during a storm. He measures the total amount of water in the flask every hour. The flask started with $2\,\text{mm}$ of rainwater, and he noticed that the volume of water in the flask increases by $10\,\text{mm}$ every hour. If $R(t)$ is a function that gives the amount of rainwater after $t$ hours, is $R(t)$ linear or exponential?
 
 To solve this problem, we write down the amount of water in the flask every hour and try to spot a pattern:
 
-- The initial amount of rainwater in the flask was $2\,\textrm{mm}.$
+- The initial amount of rainwater in the flask was $2\,\text{mm}.$
 
 - After $1$ hour, there will be $2+10$ millimeters of water in the flask.
 
@@ -171,7 +171,7 @@ Which of the following quantities change linearly and which vary exponentially?
 
 2. The number of squirrels living in a natural reserve if the population increases by $2\%$ every year.
 
-3. The amount of pizza dough left in a restaurant kitchen if $2\,\textrm{kg}$ of dough is consumed every hour.
+3. The amount of pizza dough left in a restaurant kitchen if $2\,\text{kg}$ of dough is consumed every hour.
 
 #### Explanation
 
@@ -181,6 +181,6 @@ Let's look at each situation in turn.
 
 - Quantity II changes exponentially. Let $S(t)$ be the number of squirrels after $t$ years. Since $S(t)$ increases by $2\%$ every year, we have that where $S_0$ is the initial number of squirrels. Therefore, $S(t)$ grows exponentially with a growth rate of $1.02.$
 
-- Quantity III changes linearly. Let $P(t)$ be the amount of dough left in the kitchen after $t$ hours (in kilograms). Since $P$ decreases by a fixed amount of $2\,\textrm{kg}$ every hour, we have that where $P_0$ is the initial amount of pizza dough. Therefore, $P(t)$ decreases linearly with a common difference of $-2.$
+- Quantity III changes linearly. Let $P(t)$ be the amount of dough left in the kitchen after $t$ hours (in kilograms). Since $P$ decreases by a fixed amount of $2\,\text{kg}$ every hour, we have that where $P_0$ is the initial amount of pizza dough. Therefore, $P(t)$ decreases linearly with a common difference of $-2.$
 
 So, I and III change linearly, while II changes exponentially.

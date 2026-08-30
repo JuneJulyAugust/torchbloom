@@ -41,7 +41,7 @@ In the diagram:
 
 - $\Delta x,$ the **extension** of the spring, measured in meters, equals the change in the spring's length: We often use the symbol $\Delta$ to denote a *change* in some quantity.
 
-According to **Hooke’s law**, the force $F$ exerted on a spring, measured in newtons $(\textrm{N}),$ is proportional to its extension.
+According to **Hooke’s law**, the force $F$ exerted on a spring, measured in newtons $(\text{N}),$ is proportional to its extension.
 
 $$
 
@@ -58,7 +58,7 @@ Notice that the units on both sides of Hooke's law are the same:
 $$
 
 
-\underbrace{\textrm{newtons}}_{\textrm{units of } F} = \underbrace{(\textrm{newtons per meter})(\textrm{meters})}_{\textrm{units of } k \cdot \Delta x}
+\underbrace{\text{newtons}}_{\text{units of } F} = \underbrace{(\text{newtons per meter})(\text{meters})}_{\text{units of } k \cdot \Delta x}
 
 
 $$
@@ -98,7 +98,7 @@ So, the extension of the spring is
 $$
 
 
-\Delta x = 0.80 - 0.55 = 0.25 \,\textrm{m}.
+\Delta x = 0.80 - 0.55 = 0.25 \,\text{m}.
 
 
 $$
@@ -164,7 +164,7 @@ We can check that the formula looks correct by comparing the units:
 $$
 
 
-\underbrace{\textrm{newtons}}_{\textrm{units of } F} = \underbrace{(\textrm{newtons per meter})(\textrm{meters})}_{\textrm{units of } k \cdot \Delta x}
+\underbrace{\text{newtons}}_{\text{units of } F} = \underbrace{(\text{newtons per meter})(\text{meters})}_{\text{units of } k \cdot \Delta x}
 
 
 $$
@@ -217,7 +217,7 @@ So, the stretched length of the spring is $0.71$ meters.
 
 Energy is required whenever we raise the temperature of a substance.
 
-Suppose we heat a sample of a substance so that its temperature rises from $T_{\textrm{initial}}$ degrees Celsius to $T_{\textrm{final}}$ degrees Celsius, as shown in the diagram.
+Suppose we heat a sample of a substance so that its temperature rises from $T_{\text{initial}}$ degrees Celsius to $T_{\text{final}}$ degrees Celsius, as shown in the diagram.
 
 The amount of energy $Q$ (measured in joules, or $\textrm J$) required to raise the temperature of a substance is proportional to the product of its mass (in kilograms) and its *change in temperature* $\Delta T$ (in degrees Celsius):
 
@@ -229,12 +229,12 @@ Q \propto m\Delta T,
 
 $$
 
-where the change in temperature (in ${}^\circ\textrm{C}$) is given by
+where the change in temperature (in ${}^\circ\text{C}$) is given by
 
 $$
 
 
-\Delta T = T_{\textrm{final}} - T_{\textrm{initial}}.
+\Delta T = T_{\text{final}} - T_{\text{initial}}.
 
 
 $$
@@ -266,7 +266,7 @@ Therefore, the units of the specific heat capacity $c$ are
 $$
 
 
-\dfrac{\textrm{J}}{\textrm{kg} \cdot {}^\circ \textrm{C}}.
+\dfrac{\text{J}}{\text{kg} \cdot {}^\circ \text{C}}.
 
 
 $$
@@ -276,29 +276,29 @@ Let's consider a concrete example. The specific heat capacity of liquid water is
 $$
 
 
-c = 4,180 \,\dfrac{\textrm{J}}{\textrm{kg} \cdot {}^\circ \textrm{C}}.
+c = 4,180 \,\dfrac{\text{J}}{\text{kg} \cdot {}^\circ \text{C}}.
 
 
 $$
 
-How much energy, in joules, is required to raise the temperature of $1$ kilogram of water from $35\,^\circ\textrm{C}$ to $40\,^\circ\textrm{C}?$
+How much energy, in joules, is required to raise the temperature of $1$ kilogram of water from $35\,^\circ\text{C}$ to $40\,^\circ\text{C}?$
 
 We are given the following information:
 
-- $m = 1\,\textrm{kg}$
+- $m = 1\,\text{kg}$
 
-- $T_{\textrm{initial}}= 35\,^\circ\textrm{C}$
+- $T_{\text{initial}}= 35\,^\circ\text{C}$
 
-- $T_{\textrm{final}}= 40\,^\circ\textrm{C}$
+- $T_{\text{final}}= 40\,^\circ\text{C}$
 
-- $c = 4,180 \,\dfrac{\textrm{J}}{\textrm{kg} \cdot {}^\circ \textrm{C}}$
+- $c = 4,180 \,\dfrac{\text{J}}{\text{kg} \cdot {}^\circ \text{C}}$
 
 So, the temperature change is
 
 $$
 
 
-\Delta T = 40{}^\circ\textrm{C} - 35{}^\circ\textrm{C} = 5{}^\circ\textrm{C}.
+\Delta T = 40{}^\circ\text{C} - 35{}^\circ\text{C} = 5{}^\circ\text{C}.
 
 
 $$
@@ -329,34 +329,34 @@ Therefore, the energy required is approximately $20{,}900$ joules.
 
 #### Question
 
-The specific heat capacity of a substance is defined as the amount of energy, in joules $(\textrm{J}),$ required to raise the temperature of $1$ gram $(\textrm{g})$ of the substance by $1$ degree Celsius $(^\circ\textrm{C}).$ The specific heat capacity of copper is approximately $0.39 \,\tfrac{\textrm{J}}{\textrm{g} \cdot {}^\circ \textrm{C}}.$ Approximately how much energy, in joules, is required to raise the temperature of $100$ grams of copper from $15\,^{\circ}\!\textrm{C}$ to $40\,^\circ\!\textrm{C}?$
+The specific heat capacity of a substance is defined as the amount of energy, in joules $(\text{J}),$ required to raise the temperature of $1$ gram $(\text{g})$ of the substance by $1$ degree Celsius $(^\circ\text{C}).$ The specific heat capacity of copper is approximately $0.39 \,\tfrac{\text{J}}{\text{g} \cdot {}^\circ \text{C}}.$ Approximately how much energy, in joules, is required to raise the temperature of $100$ grams of copper from $15\,^{\circ}\!\text{C}$ to $40\,^\circ\!\text{C}?$
 
 #### Explanation
 
 First, let's examine the definition that's given to us:
 
-The specific heat capacity of a substance is defined as the amount of energy, in joules $(\textrm{J}),$ required to raise the temperature of $1$ gram $(\textrm{g})$ of the substance by $1$ degree Celsius $(^\circ\textrm{C}).$
+The specific heat capacity of a substance is defined as the amount of energy, in joules $(\text{J}),$ required to raise the temperature of $1$ gram $(\text{g})$ of the substance by $1$ degree Celsius $(^\circ\text{C}).$
 
 We're also given the following information:
 
-The specific heat capacity of copper is approximately $0.39 \,\tfrac{\textrm{J}}{\textrm{g} \cdot {}^\circ \textrm{C}}.$
+The specific heat capacity of copper is approximately $0.39 \,\tfrac{\text{J}}{\text{g} \cdot {}^\circ \text{C}}.$
 
 So, let's define the following variables:
 
-- $Q$ is the energy required, in joules $(\textrm{J})$
+- $Q$ is the energy required, in joules $(\text{J})$
 
-- $m$ is the mass of the substance, in grams $(\textrm{g})$
+- $m$ is the mass of the substance, in grams $(\text{g})$
 
-- $\Delta T$ is the **** in temperature, in degrees Celsius $({}^\circ\textrm{C})$
+- $\Delta T$ is the **** in temperature, in degrees Celsius $({}^\circ\text{C})$
 
-- $c$ is the specific heat capacity, in joules per gram per degree Celsius $\left(\dfrac{\textrm{J}}{\textrm{g} \cdot {}^\circ \textrm{C}}\right)$
+- $c$ is the specific heat capacity, in joules per gram per degree Celsius $\left(\dfrac{\text{J}}{\text{g} \cdot {}^\circ \text{C}}\right)$
 
 Notice that the units of $c$ are
 
 $$
 
 
-\dfrac{\textrm{J}}{\textrm{g} \cdot {}^\circ \textrm{C}}
+\dfrac{\text{J}}{\text{g} \cdot {}^\circ \text{C}}
 
 
 $$
@@ -376,7 +376,7 @@ We can check that the formula looks correct by comparing the units on each side 
 $$
 
 
-\underbrace{\dfrac{\textrm{J}}{\textrm{g} \cdot {}^\circ \textrm{C}}}_{\textrm{units of } c} = \underbrace{\dfrac{\textrm{J}}{\textrm{g} \cdot {}^\circ \textrm{C}}}_{\textrm{units of } Q/m\Delta T}.
+\underbrace{\dfrac{\text{J}}{\text{g} \cdot {}^\circ \text{C}}}_{\text{units of } c} = \underbrace{\dfrac{\text{J}}{\text{g} \cdot {}^\circ \text{C}}}_{\text{units of } Q/m\Delta T}.
 
 
 $$
@@ -385,20 +385,20 @@ The units on both sides are the same, so our formula looks correct.
 
 Now, we are given the following information:
 
-- $m = 100\,\textrm{g}$
+- $m = 100\,\text{g}$
 
-- $c = 0.39 \,\dfrac{\textrm{J}}{\textrm{g} \cdot {}^\circ \textrm{C}}$
+- $c = 0.39 \,\dfrac{\text{J}}{\text{g} \cdot {}^\circ \text{C}}$
 
-- Initial temperature $= 15\,^\circ\!\textrm{C}$
+- Initial temperature $= 15\,^\circ\!\text{C}$
 
-- Final temperature $= 40\,^\circ\!\textrm{C}$
+- Final temperature $= 40\,^\circ\!\text{C}$
 
 So, the temperature change is
 
 $$
 
 
-\Delta T = 40 - 15 = 25\,^\circ\!\textrm{C}.
+\Delta T = 40 - 15 = 25\,^\circ\!\text{C}.
 
 
 $$

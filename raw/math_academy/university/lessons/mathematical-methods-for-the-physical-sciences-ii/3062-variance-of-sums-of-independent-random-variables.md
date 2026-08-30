@@ -17,7 +17,7 @@ If $X$ and $Y$ are *independent* random variables, then
 $$
 
 
-\textrm{Var}{[X+Y]} = \textrm{Var}[X]+ \textrm{Var}[Y] ,
+\text{Var}{[X+Y]} = \text{Var}[X]+ \text{Var}[Y] ,
 
 
 $$
@@ -27,7 +27,7 @@ and
 $$
 
 
-\textrm{Var}{[X-Y]} = \textrm{Var}[X] + \textrm{Var}[Y] .
+\text{Var}{[X-Y]} = \text{Var}[X] + \text{Var}[Y] .
 
 
 $$
@@ -38,7 +38,7 @@ $$
 
 #### Question
 
-For two independent random variables $X$ and $Y,$ we have $\textrm{Var}[X]=3$ and $\textrm{Var}[Y]=7.$ Find $\textrm{Var}[X-Y].$
+For two independent random variables $X$ and $Y,$ we have $\text{Var}[X]=3$ and $\text{Var}[Y]=7.$ Find $\text{Var}[X-Y].$
 
 #### Explanation
 
@@ -47,7 +47,7 @@ Recall that if $X$ and $Y$ are independent random variables, then
 $$
 
 
-\textrm{Var}[X\pm Y]=\textrm{Var}[X]+\textrm{Var}[Y].
+\text{Var}[X\pm Y]=\text{Var}[X]+\text{Var}[Y].
 
 
 $$
@@ -57,7 +57,7 @@ Substituting the given data into the formula above, we obtain
 $$
 
 
-\textrm{Var}[X-Y]= 3 + 7 = 10.
+\text{Var}[X-Y]= 3 + 7 = 10.
 
 
 $$
@@ -69,17 +69,17 @@ We have been using the fact that if $X$ and $Y$ are independent, then
 $$
 
 
-\textrm{Var}{[X+Y]} = \textrm{Var}[X]+ \textrm{Var}[Y] .
+\text{Var}{[X+Y]} = \text{Var}[X]+ \text{Var}[Y] .
 
 
 $$
 
-Using the property that $\textrm{Var}[aX] = a^2\textrm{Var}[X],$ we can show that if $X$ and $Y$ are independent, then
+Using the property that $\text{Var}[aX] = a^2\text{Var}[X],$ we can show that if $X$ and $Y$ are independent, then
 
 $$
 
 
-\textrm{Var}{[aX+bY]} = a^2\textrm{Var}[X]+ b^2\textrm{Var}[Y] ,
+\text{Var}{[aX+bY]} = a^2\text{Var}[X]+ b^2\text{Var}[Y] ,
 
 
 $$
@@ -111,7 +111,7 @@ More generally, if the random variables $X_1, X_2,\ldots, X_n,$ are *mutually in
 $$
 
 
-\textrm{Var}\left[\sum_{i=1}^n a_i X_i\right] = \sum_{i=1}^n a_i^2\textrm{Var}[X_i].
+\text{Var}\left[\sum_{i=1}^n a_i X_i\right] = \sum_{i=1}^n a_i^2\text{Var}[X_i].
 
 
 $$
@@ -120,7 +120,7 @@ $$
 
 #### Question
 
-For two independent random variables $X$ and $Y,$ we have $\textrm{Var}[X]=10$ and $\textrm{Var}[Y]=12.$ Find $\textrm{Var}\left[X-2Y\right].$
+For two independent random variables $X$ and $Y,$ we have $\text{Var}[X]=10$ and $\text{Var}[Y]=12.$ Find $\text{Var}\left[X-2Y\right].$
 
 #### Explanation
 
@@ -129,7 +129,7 @@ Recall that if $X$ and $Y$ are independent variables, and $a$ and $b$ are consta
 $$
 
 
-\textrm{Var}[aX+bY]=a^2\textrm{Var}[X]+b^2\textrm{Var}[Y].
+\text{Var}[aX+bY]=a^2\text{Var}[X]+b^2\text{Var}[Y].
 
 
 $$
@@ -139,7 +139,7 @@ Substituting the given data into the formula above, we obtain
 $$
 
 
-\textrm{Var}\left[X-2Y\right]=\left(1\right)^2\cdot 10+\left(-2\right)^2\cdot 12 =58.
+\text{Var}\left[X-2Y\right]=\left(1\right)^2\cdot 10+\left(-2\right)^2\cdot 12 =58.
 
 
 $$
@@ -157,7 +157,7 @@ Recall that if $X$ and $Y$ are independent random variables and $a$ and $b$ are 
 $$
 
 
-\textrm{Var}[aX+bY]=a^2\textrm{Var}[X]+b^2\textrm{Var}[Y].
+\text{Var}[aX+bY]=a^2\text{Var}[X]+b^2\text{Var}[Y].
 
 
 $$
@@ -172,7 +172,7 @@ $$
 
 $$
 
-First, let's find $\textrm{Var}[X]\mathbin{:}$
+First, let's find $\text{Var}[X]\mathbin{:}$
 
 $$
 

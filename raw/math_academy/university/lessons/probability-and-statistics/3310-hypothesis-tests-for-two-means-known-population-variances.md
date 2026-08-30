@@ -170,7 +170,7 @@ Assuming the null hypothesis, i.e., $\mu_x=\mu_y,$ we compute our test statistic
 $$
 
 
-\begin{aligned}𝑧 & =\frac{\overset{𝑥}{}−\overset{𝑦}{–}−(𝜇_{𝑥}−𝜇_{𝑦})}{\sqrt{√\frac{𝜎_{2𝑥}^{}}{𝑛_{𝑥}}+\frac{𝜎_{2𝑦}^{}}{𝑛_{𝑦}}}} \\ & =\frac{40.2−39.9−(0)}{\sqrt{√\frac{0.25^{2}}{14}+\frac{0.3^{2}}{16}}} \\ & ≈2.987\end{aligned}
+\begin{aligned}𝑧 & =\frac{\overset{𝑥}{}−\overset{𝑦}{–}−(𝜇_{𝑥}−𝜇_{𝑦})}{\sqrt{\frac{𝜎_{2𝑥}}{𝑛_{𝑥}}+\frac{𝜎_{2𝑦}}{𝑛_{𝑦}}}} \\ & =\frac{40.2−39.9−(0)}{\sqrt{\frac{0.25^{2}}{14}+\frac{0.3^{2}}{16}}} \\ & ≈2.987\end{aligned}
 
 
 $$
@@ -181,7 +181,7 @@ Notice that our test statistic ($2.987$) lies in the critical region, as shown b
 
 Therefore, we conclude the following:
 
-- If we assume $\mu_x=\mu_y$ (i.e., the null hypothesis is true), getting two samples where the means differ by $\overline{x}-\overline{y} = 0.3\,\textrm{mm}$ or more has a probability that is *smaller than* $0.05 = 5\%,$ our significance level.
+- If we assume $\mu_x=\mu_y$ (i.e., the null hypothesis is true), getting two samples where the means differ by $\overline{x}-\overline{y} = 0.3\,\text{mm}$ or more has a probability that is *smaller than* $0.05 = 5\%,$ our significance level.
 
 - Therefore, we have a statistically significant result and reject the null hypothesis.
 
@@ -248,7 +248,7 @@ Assuming the null hypothesis, i.e., $\mu_x-\mu_y=0,$ we compute the test statist
 $$
 
 
-\begin{aligned}𝑧 & =\frac{\overset{𝑥}{}−\overset{𝑦}{–}−(𝜇_{𝑥}−𝜇_{𝑦})}{\sqrt{√\frac{𝜎_{2𝑥}^{}}{𝑛_{𝑥}}+\frac{𝜎_{2𝑦}^{}}{𝑛_{𝑦}}}} \\ & =\frac{6−7−(0)}{\sqrt{√\frac{2^{2}}{35}+\frac{3^{2}}{15}}} \\ & ≈−1.183\end{aligned}
+\begin{aligned}𝑧 & =\frac{\overset{𝑥}{}−\overset{𝑦}{–}−(𝜇_{𝑥}−𝜇_{𝑦})}{\sqrt{\frac{𝜎_{2𝑥}}{𝑛_{𝑥}}+\frac{𝜎_{2𝑦}}{𝑛_{𝑦}}}} \\ & =\frac{6−7−(0)}{\sqrt{\frac{2^{2}}{35}+\frac{3^{2}}{15}}} \\ & ≈−1.183\end{aligned}
 
 
 $$
@@ -320,7 +320,7 @@ Assuming the null hypothesis, i.e., $\mu_x-\mu_y=0,$ we compute the test statist
 $$
 
 
-\begin{aligned}𝑧 & =\frac{\overset{𝑥}{}−\overset{𝑦}{–}−(𝜇_{𝑥}−𝜇_{𝑦})}{\sqrt{√\frac{𝜎_{2𝑥}^{}}{𝑛_{𝑥}}+\frac{𝜎_{2𝑦}^{}}{𝑛_{𝑦}}}} \\ & =\frac{25−24−(0)}{\sqrt{√\frac{2^{2}}{12}+\frac{4^{2}}{15}}} \\ & ≈0.845\end{aligned}
+\begin{aligned}𝑧 & =\frac{\overset{𝑥}{}−\overset{𝑦}{–}−(𝜇_{𝑥}−𝜇_{𝑦})}{\sqrt{\frac{𝜎_{2𝑥}}{𝑛_{𝑥}}+\frac{𝜎_{2𝑦}}{𝑛_{𝑦}}}} \\ & =\frac{25−24−(0)}{\sqrt{\frac{2^{2}}{12}+\frac{4^{2}}{15}}} \\ & ≈0.845\end{aligned}
 
 
 $$
@@ -416,7 +416,7 @@ Assuming the null hypothesis, i.e., $\mu_x-\mu_y = 0,$ we compute the test stati
 $$
 
 
-\begin{aligned}𝑧 & =\frac{\overset{𝑥}{}−\overset{𝑦}{–}−(𝜇_{𝑥}−𝜇_{𝑦})}{\sqrt{√\frac{𝜎_{2𝑥}^{}}{𝑛_{𝑥}}+\frac{𝜎_{2𝑦}^{}}{𝑛_{𝑦}}}} \\ & =\frac{12−17−(0)}{\sqrt{√\frac{12^{2}}{82}+\frac{9^{2}}{71}}} \\ & ≈−2.938\end{aligned}
+\begin{aligned}𝑧 & =\frac{\overset{𝑥}{}−\overset{𝑦}{–}−(𝜇_{𝑥}−𝜇_{𝑦})}{\sqrt{\frac{𝜎_{2𝑥}}{𝑛_{𝑥}}+\frac{𝜎_{2𝑦}}{𝑛_{𝑦}}}} \\ & =\frac{12−17−(0)}{\sqrt{\frac{12^{2}}{82}+\frac{9^{2}}{71}}} \\ & ≈−2.938\end{aligned}
 
 
 $$
@@ -498,7 +498,7 @@ Assuming the null hypothesis, i.e., $\mu_x-\mu_y=0,$ we compute the test statist
 $$
 
 
-\begin{aligned}𝑧 & =\frac{\overset{𝑥}{}−\overset{𝑦}{–}−(𝜇_{𝑥}−𝜇_{𝑦})}{\sqrt{√\frac{𝜎_{2𝑥}^{}}{𝑛_{𝑥}}+\frac{𝜎_{2𝑦}^{}}{𝑛_{𝑦}}}} \\ & =\frac{99.7−101.2−(0)}{\sqrt{√\frac{17^{2}}{150}+\frac{14^{2}}{125}}} \\ & ≈−0.802\end{aligned}
+\begin{aligned}𝑧 & =\frac{\overset{𝑥}{}−\overset{𝑦}{–}−(𝜇_{𝑥}−𝜇_{𝑦})}{\sqrt{\frac{𝜎_{2𝑥}}{𝑛_{𝑥}}+\frac{𝜎_{2𝑦}}{𝑛_{𝑦}}}} \\ & =\frac{99.7−101.2−(0)}{\sqrt{\frac{17^{2}}{150}+\frac{14^{2}}{125}}} \\ & ≈−0.802\end{aligned}
 
 
 $$

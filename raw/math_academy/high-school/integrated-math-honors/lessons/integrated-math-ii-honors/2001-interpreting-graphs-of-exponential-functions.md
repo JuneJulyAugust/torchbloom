@@ -98,7 +98,7 @@ Finally, to determine the atmospheric pressure at $4$ kilometers above sea level
 $$
 
 
-P(4) = 100 \cdot 0.9^4 \approx 66\,\textrm{kPa}
+P(4) = 100 \cdot 0.9^4 \approx 66\,\text{kPa}
 
 
 $$

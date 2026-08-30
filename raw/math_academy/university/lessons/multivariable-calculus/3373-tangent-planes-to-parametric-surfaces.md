@@ -48,7 +48,7 @@ The corresponding partial derivatives evaluated at $P$ are calculated as follows
 $$
 
 
-\begin{aligned} & 𝐫_{′𝑢}^{}=⟨−\sqrt{√2}sin⁡𝑢,\,0,\,\sqrt{√2}cos⁡𝑢⟩ & \,⟹\, & 𝐫_{′𝑢}^{}(\frac{𝜋}{4},−1)=⟨−1,0,1⟩ \\ & 𝐫_{′𝑣}^{}=⟨0,1,0⟩ & \,⟹\, & 𝐫_{′𝑣}^{}(\frac{𝜋}{4},−1)=⟨0,1,0⟩\end{aligned}
+\begin{aligned} & 𝐫_{′𝑢}=⟨−\sqrt{2}sin⁡𝑢,\,0,\,\sqrt{2}cos⁡𝑢⟩ & \,⟹\, & 𝐫_{′𝑢}(\frac{𝜋}{4},−1)=⟨−1,0,1⟩ \\ & 𝐫_{′𝑣}=⟨0,1,0⟩ & \,⟹\, & 𝐫_{′𝑣}(\frac{𝜋}{4},−1)=⟨0,1,0⟩\end{aligned}
 
 
 $$
@@ -62,7 +62,7 @@ Furthermore, we can find a normal vector to the plane by computing the cross pro
 $$
 
 
-\begin{aligned}𝐫_{′𝑢}^{}×𝐫_{′𝑣}^{} & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ −1 & 0 & 1 \\ 0 & 1 & 0\end{aligned}=⟨−1,\,0,\,−1⟩.\end{aligned}
+\begin{aligned}𝐫_{′𝑢}×𝐫_{′𝑣} & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ −1 & 0 & 1 \\ 0 & 1 & 0\end{matrix}=⟨−1,\,0,\,−1⟩.\end{aligned}
 
 
 $$
@@ -100,7 +100,7 @@ We first compute the tangent vectors to the grid curves:
 $$
 
 
-\begin{aligned}𝐫_{′𝑢}^{}(𝑢,𝑣) & =⟨\frac{𝜕𝑥}{𝜕𝑢},\,\frac{𝜕𝑦}{𝜕𝑢},\,\frac{𝜕𝑧}{𝜕𝑢}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑢}(𝑢),\,\frac{𝜕}{𝜕𝑢}(1+𝑢^{2}),\,\frac{𝜕}{𝜕𝑢}(𝑣^{2})⟩ \\ & =⟨1,\,2𝑢,\,0⟩ \\ 𝐫_{′𝑣}^{}(𝑢,𝑣) & =⟨\frac{𝜕𝑥}{𝜕𝑣},\,\frac{𝜕𝑦}{𝜕𝑣},\,\frac{𝜕𝑧}{𝜕𝑣}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑣}(𝑢),\,\frac{𝜕}{𝜕𝑣}(1+𝑢^{2}),\,\frac{𝜕}{𝜕𝑣}(𝑣^{2})⟩ \\ & =⟨0,\,0,\,2𝑣⟩\end{aligned}
+\begin{aligned}𝐫_{′𝑢}(𝑢,𝑣) & =⟨\frac{𝜕𝑥}{𝜕𝑢},\,\frac{𝜕𝑦}{𝜕𝑢},\,\frac{𝜕𝑧}{𝜕𝑢}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑢}(𝑢),\,\frac{𝜕}{𝜕𝑢}(1+𝑢^{2}),\,\frac{𝜕}{𝜕𝑢}(𝑣^{2})⟩ \\ & =⟨1,\,2𝑢,\,0⟩ \\ 𝐫_{′𝑣}(𝑢,𝑣) & =⟨\frac{𝜕𝑥}{𝜕𝑣},\,\frac{𝜕𝑦}{𝜕𝑣},\,\frac{𝜕𝑧}{𝜕𝑣}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑣}(𝑢),\,\frac{𝜕}{𝜕𝑣}(1+𝑢^{2}),\,\frac{𝜕}{𝜕𝑣}(𝑣^{2})⟩ \\ & =⟨0,\,0,\,2𝑣⟩\end{aligned}
 
 
 $$
@@ -110,7 +110,7 @@ Next, we evaluate these tangent vectors when $u=1$ and $v=2{:}$
 $$
 
 
-\begin{aligned}𝐫_{′𝑢}^{}(1,2) & =⟨1,\,2(1),\,0⟩ \\ & =⟨1,\,2,\,0⟩ \\ 𝐫_{′𝑣}^{}(1,2) & =⟨0,\,0,\,2(2)⟩ \\ & =⟨0,\,0,\,4⟩\end{aligned}
+\begin{aligned}𝐫_{′𝑢}(1,2) & =⟨1,\,2(1),\,0⟩ \\ & =⟨1,\,2,\,0⟩ \\ 𝐫_{′𝑣}(1,2) & =⟨0,\,0,\,2(2)⟩ \\ & =⟨0,\,0,\,4⟩\end{aligned}
 
 
 $$
@@ -120,7 +120,7 @@ Therefore, a normal vector to the surface at the point where $u=1$ and $v=2$ is
 $$
 
 
-\begin{aligned}𝐧 & =𝐫_{′𝑢}^{}(1,2)×𝐫_{′𝑣}^{}(1,2) \\ & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 1 & 2 & 0 \\ 0 & 0 & 4\end{aligned} \\ & =⟨\begin{aligned}2 & 0 \\ 0 & 4\end{aligned},\,−\begin{aligned}1 & 0 \\ 0 & 4\end{aligned},\,\begin{aligned}1 & 2 \\ 0 & 0\end{aligned}⟩ \\ & =⟨8,\,−4,\,0⟩.\end{aligned}
+\begin{aligned}𝐧 & =𝐫_{′𝑢}(1,2)×𝐫_{′𝑣}(1,2) \\ & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 1 & 2 & 0 \\ 0 & 0 & 4\end{matrix} \\ & =⟨\begin{matrix}2 & 0 \\ 0 & 4\end{matrix},\,−\begin{matrix}1 & 0 \\ 0 & 4\end{matrix},\,\begin{matrix}1 & 2 \\ 0 & 0\end{matrix}⟩ \\ & =⟨8,\,−4,\,0⟩.\end{aligned}
 
 
 $$
@@ -164,7 +164,7 @@ We first compute the tangent vectors to the grid curves:
 $$
 
 
-\begin{aligned}𝐫_{′𝑢}^{}(𝑢,𝑣) & =⟨\frac{𝜕𝑥}{𝜕𝑢},\,\frac{𝜕𝑦}{𝜕𝑢},\,\frac{𝜕𝑧}{𝜕𝑢}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑢}(𝑣^{2}),\,\frac{𝜕}{𝜕𝑢}(𝑢−𝑣),\,\frac{𝜕}{𝜕𝑢}(𝑢^{2})⟩ \\ & =⟨0,\,1,\,2𝑢⟩ \\ 𝐫_{′𝑣}^{}(𝑢,𝑣) & =⟨\frac{𝜕𝑥}{𝜕𝑣},\,\frac{𝜕𝑦}{𝜕𝑣},\,\frac{𝜕𝑧}{𝜕𝑣}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑣}(𝑣^{2}),\,\frac{𝜕}{𝜕𝑣}(𝑢−𝑣),\,\frac{𝜕}{𝜕𝑣}(𝑢^{2})⟩ \\ & =⟨2𝑣,\,−1,\,0⟩\end{aligned}
+\begin{aligned}𝐫_{′𝑢}(𝑢,𝑣) & =⟨\frac{𝜕𝑥}{𝜕𝑢},\,\frac{𝜕𝑦}{𝜕𝑢},\,\frac{𝜕𝑧}{𝜕𝑢}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑢}(𝑣^{2}),\,\frac{𝜕}{𝜕𝑢}(𝑢−𝑣),\,\frac{𝜕}{𝜕𝑢}(𝑢^{2})⟩ \\ & =⟨0,\,1,\,2𝑢⟩ \\ 𝐫_{′𝑣}(𝑢,𝑣) & =⟨\frac{𝜕𝑥}{𝜕𝑣},\,\frac{𝜕𝑦}{𝜕𝑣},\,\frac{𝜕𝑧}{𝜕𝑣}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑣}(𝑣^{2}),\,\frac{𝜕}{𝜕𝑣}(𝑢−𝑣),\,\frac{𝜕}{𝜕𝑣}(𝑢^{2})⟩ \\ & =⟨2𝑣,\,−1,\,0⟩\end{aligned}
 
 
 $$
@@ -174,7 +174,7 @@ Next, we evaluate these vectors when $u=2$ and $v=-1{:}$
 $$
 
 
-\begin{aligned}𝐫_{′𝑢}^{}(2,−1) & =⟨0,\,1,\,2(2)⟩ \\ & =⟨0,\,1,\,4⟩ \\ 𝐫_{′𝑣}^{}(2,−1) & =⟨2(−1),\,−1,\,0⟩ \\ & =⟨−2,\,−1,\,0⟩\end{aligned}
+\begin{aligned}𝐫_{′𝑢}(2,−1) & =⟨0,\,1,\,2(2)⟩ \\ & =⟨0,\,1,\,4⟩ \\ 𝐫_{′𝑣}(2,−1) & =⟨2(−1),\,−1,\,0⟩ \\ & =⟨−2,\,−1,\,0⟩\end{aligned}
 
 
 $$
@@ -184,7 +184,7 @@ Therefore, a normal vector to the surface is
 $$
 
 
-\begin{aligned}𝐧 & =𝐫_{′𝑢}^{}(2,−1)×𝐫_{′𝑣}^{}(2,−1) \\ & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 0 & 1 & 4 \\ −2 & −1 & 0\end{aligned} \\ & =⟨\begin{aligned}1 & 4 \\ −1 & 0\end{aligned},\,−\begin{aligned}0 & 4 \\ −2 & 0\end{aligned},\,\begin{aligned}0 & 1 \\ −2 & −1\end{aligned}⟩ \\ & =⟨4,\,−8,\,2⟩.\end{aligned}
+\begin{aligned}𝐧 & =𝐫_{′𝑢}(2,−1)×𝐫_{′𝑣}(2,−1) \\ & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 0 & 1 & 4 \\ −2 & −1 & 0\end{matrix} \\ & =⟨\begin{matrix}1 & 4 \\ −1 & 0\end{matrix},\,−\begin{matrix}0 & 4 \\ −2 & 0\end{matrix},\,\begin{matrix}0 & 1 \\ −2 & −1\end{matrix}⟩ \\ & =⟨4,\,−8,\,2⟩.\end{aligned}
 
 
 $$
@@ -252,7 +252,7 @@ We now compute the tangent vectors to the grid curves:
 $$
 
 
-\begin{aligned}𝐫_{′𝑢}^{}(𝑢,𝑣) & =⟨\frac{𝜕𝑥}{𝜕𝑢},\,\frac{𝜕𝑦}{𝜕𝑢},\,\frac{𝜕𝑧}{𝜕𝑢}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑢}(𝑢+𝑣),\,\frac{𝜕}{𝜕𝑢}(3𝑢^{2}),\,\frac{𝜕}{𝜕𝑢}(𝑢−𝑣)⟩ \\ & =⟨1,\,6𝑢,\,1⟩ \\ 𝐫_{′𝑣}^{}(𝑢,𝑣) & =⟨\frac{𝜕𝑥}{𝜕𝑣},\,\frac{𝜕𝑦}{𝜕𝑣},\,\frac{𝜕𝑧}{𝜕𝑣}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑣}(𝑢+𝑣),\,\frac{𝜕}{𝜕𝑣}(3𝑢^{2}),\,\frac{𝜕}{𝜕𝑣}(𝑢−𝑣)⟩ \\ & =⟨1,\,0,\,−1⟩\end{aligned}
+\begin{aligned}𝐫_{′𝑢}(𝑢,𝑣) & =⟨\frac{𝜕𝑥}{𝜕𝑢},\,\frac{𝜕𝑦}{𝜕𝑢},\,\frac{𝜕𝑧}{𝜕𝑢}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑢}(𝑢+𝑣),\,\frac{𝜕}{𝜕𝑢}(3𝑢^{2}),\,\frac{𝜕}{𝜕𝑢}(𝑢−𝑣)⟩ \\ & =⟨1,\,6𝑢,\,1⟩ \\ 𝐫_{′𝑣}(𝑢,𝑣) & =⟨\frac{𝜕𝑥}{𝜕𝑣},\,\frac{𝜕𝑦}{𝜕𝑣},\,\frac{𝜕𝑧}{𝜕𝑣}⟩ \\ & =⟨\frac{𝜕}{𝜕𝑣}(𝑢+𝑣),\,\frac{𝜕}{𝜕𝑣}(3𝑢^{2}),\,\frac{𝜕}{𝜕𝑣}(𝑢−𝑣)⟩ \\ & =⟨1,\,0,\,−1⟩\end{aligned}
 
 
 $$
@@ -262,7 +262,7 @@ Next, we evaluate these tangent vectors when $u=1$ and $v=1{:}$
 $$
 
 
-\begin{aligned}𝐫_{′𝑢}^{}(1,1) & =⟨1,\,6(1),\,1⟩ \\ & =⟨1,\,6,\,1⟩ \\ 𝐫_{′𝑣}^{}(1,1) & =⟨1,\,0,\,−1⟩\end{aligned}
+\begin{aligned}𝐫_{′𝑢}(1,1) & =⟨1,\,6(1),\,1⟩ \\ & =⟨1,\,6,\,1⟩ \\ 𝐫_{′𝑣}(1,1) & =⟨1,\,0,\,−1⟩\end{aligned}
 
 
 $$
@@ -272,7 +272,7 @@ Therefore, a normal vector to the surface is
 $$
 
 
-\begin{aligned}𝐧 & =𝐫_{′𝑢}^{}(1,1)×𝐫_{′𝑣}^{}(1,1) \\ & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 1 & 6 & 1 \\ 1 & 0 & −1\end{aligned} \\ & =⟨\begin{aligned}6 & 1 \\ 0 & −1\end{aligned},\,−\begin{aligned}1 & 1 \\ 1 & −1\end{aligned},\,\begin{aligned}1 & 6 \\ 1 & 0\end{aligned}⟩ \\ & =⟨−6,\,2,\,−6⟩.\end{aligned}
+\begin{aligned}𝐧 & =𝐫_{′𝑢}(1,1)×𝐫_{′𝑣}(1,1) \\ & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 1 & 6 & 1 \\ 1 & 0 & −1\end{matrix} \\ & =⟨\begin{matrix}6 & 1 \\ 0 & −1\end{matrix},\,−\begin{matrix}1 & 1 \\ 1 & −1\end{matrix},\,\begin{matrix}1 & 6 \\ 1 & 0\end{matrix}⟩ \\ & =⟨−6,\,2,\,−6⟩.\end{aligned}
 
 
 $$

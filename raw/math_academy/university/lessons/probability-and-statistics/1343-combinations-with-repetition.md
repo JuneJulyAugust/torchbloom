@@ -66,7 +66,7 @@ Here, we have $r=6$ balls that we want to distribute into $n=2$ boxes. So, the n
 $$
 
 
-\begin{aligned}{{6+2-1}\choose{6}} &={{7}\choose{6}}\\\[5pt] &= \dfrac{7!}{6!(7-6)!} \\\[5pt] &= \dfrac{7!}{6! \cdot 1!} \\\[5pt] &=7. \end{aligned}
+\begin{aligned}{{6+2-1}\choose{6}} &={{7}\choose{6}}\\[5pt] &= \dfrac{7!}{6!(7-6)!} \\[5pt] &= \dfrac{7!}{6! \cdot 1!} \\[5pt] &=7. \end{aligned}
 
 
 $$
@@ -96,7 +96,7 @@ So here, the number of ways to choose $r=5$ scoops from $n=3$ categories is
 $$
 
 
-\begin{aligned}{{5+3-1}\choose{5}} &={{7}\choose{5}}\\\[5pt] &= \dfrac{7!}{5!(7-5)!} \\\[5pt] &= \dfrac{7!}{5! \cdot 2!} \\\[5pt] &=21. \end{aligned}
+\begin{aligned}{{5+3-1}\choose{5}} &={{7}\choose{5}}\\[5pt] &= \dfrac{7!}{5!(7-5)!} \\[5pt] &= \dfrac{7!}{5! \cdot 2!} \\[5pt] &=21. \end{aligned}
 
 
 $$
@@ -128,7 +128,7 @@ So here, the number of ways to choose $r=4$ chocolates from $n=8$ categories is
 $$
 
 
-\begin{aligned}{{4+8-1}\choose{4}} &={{11}\choose{4}}\\\[5pt] &= \dfrac{11!}{4!(11-4)!} \\\[5pt] &= \dfrac{11!}{4! \cdot 7!} \\\[5pt] &=330. \end{aligned}
+\begin{aligned}{{4+8-1}\choose{4}} &={{11}\choose{4}}\\[5pt] &= \dfrac{11!}{4!(11-4)!} \\[5pt] &= \dfrac{11!}{4! \cdot 7!} \\[5pt] &=330. \end{aligned}
 
 
 $$

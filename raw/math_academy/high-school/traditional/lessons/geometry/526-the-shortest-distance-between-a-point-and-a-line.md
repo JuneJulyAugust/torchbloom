@@ -158,7 +158,7 @@ To calculate the shortest *distance* between $Q$ and the line, we compute the di
 $$
 
 
-\begin{aligned}𝑑 & =\sqrt{√(𝑥_{2}−𝑥_{1})^{2}+(𝑦_{2}−𝑦_{1})^{2}} \\ & =\sqrt{√(\frac{7}{2}−2)^{2}+(\frac{5}{2}−1)^{2}} \\ & =\sqrt{√(\frac{3}{2})^{2}+(\frac{3}{2})^{2}} \\ & =\sqrt{√\frac{9}{4}+\frac{9}{4}} \\ & =\sqrt{√\frac{9}{2}} \\ & =\frac{3}{\sqrt{√2}}\end{aligned}
+\begin{aligned}𝑑 & =\sqrt{(𝑥_{2}−𝑥_{1})^{2}+(𝑦_{2}−𝑦_{1})^{2}} \\ & =\sqrt{(\frac{7}{2}−2)^{2}+(\frac{5}{2}−1)^{2}} \\ & =\sqrt{(\frac{3}{2})^{2}+(\frac{3}{2})^{2}} \\ & =\sqrt{\frac{9}{4}+\frac{9}{4}} \\ & =\sqrt{\frac{9}{2}} \\ & =\frac{3}{\sqrt{2}}\end{aligned}
 
 
 $$
@@ -218,7 +218,7 @@ Finally, we find the distance $d$ between the points $(1,3)$ and $\left(4, -3 \r
 $$
 
 
-\begin{aligned}𝑑 & =\sqrt{√(𝑥_{2}−𝑥_{1})^{2}+(𝑦_{2}−𝑦_{1})^{2}} \\ & =\sqrt{√(4−1)^{2}+(−3−3)^{2}} \\ & =\sqrt{√9+36} \\ & =\sqrt{√45} \\ & =\sqrt{√9}\sqrt{√5} \\ & =3\sqrt{√5}\end{aligned}
+\begin{aligned}𝑑 & =\sqrt{(𝑥_{2}−𝑥_{1})^{2}+(𝑦_{2}−𝑦_{1})^{2}} \\ & =\sqrt{(4−1)^{2}+(−3−3)^{2}} \\ & =\sqrt{9+36} \\ & =\sqrt{45} \\ & =\sqrt{9}\sqrt{5} \\ & =3\sqrt{5}\end{aligned}
 
 
 $$

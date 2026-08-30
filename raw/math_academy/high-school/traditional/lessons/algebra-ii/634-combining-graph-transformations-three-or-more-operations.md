@@ -129,13 +129,13 @@ To plot $y=2f\left({3}(x+3)\right)+5,$ we apply the following steps:
 
 The graph of $y=f\left(\dfrac x2-3\right)+5$ can be obtained from the graph of $y=f(x)$ by applying **** of the following transformations:
 
-- $(\textrm{T}1)$ - Stretch by a scale factor of $2$ parallel to the $x$-axis
+- $(\text{T}1)$ - Stretch by a scale factor of $2$ parallel to the $x$-axis
 
-- $(\textrm{T}2)$ - Translate up by $5$ units
+- $(\text{T}2)$ - Translate up by $5$ units
 
-- $(\textrm{T}3)$ - Translate right by $6$ units
+- $(\text{T}3)$ - Translate right by $6$ units
 
-- $(\textrm{T}4)$ - Stretch by a scale factor of $\dfrac 12$ parallel to the $x$-axis
+- $(\text{T}4)$ - Stretch by a scale factor of $\dfrac 12$ parallel to the $x$-axis
 
 What is a possible ordering of the appropriate transformations?
 
@@ -163,11 +163,11 @@ To get $y=f\left(\dfrac 12(x-6)\right)+5,$ we could apply the following steps:
 
 - Take the curve $y=f(x).$
 
-- Apply transformation $(\textrm{T}1)\mathbin{:}$ Stretch $y=f(x)$ by a scale factor of $2$ parallel to the $x$-axis to get the graph of
+- Apply transformation $(\text{T}1)\mathbin{:}$ Stretch $y=f(x)$ by a scale factor of $2$ parallel to the $x$-axis to get the graph of
 
-- Apply transformation $(\textrm{T}3)\mathbin{:}$ Translate $y=f\left(\dfrac x2 \right)$ right by $6$ units to get the graph of
+- Apply transformation $(\text{T}3)\mathbin{:}$ Translate $y=f\left(\dfrac x2 \right)$ right by $6$ units to get the graph of
 
-- Apply transformation $(\textrm{T}2)\mathbin{:}$ Translate $y=f\left(\dfrac12{(x-6)}\right)$ up by $5$ units to get the graph of
+- Apply transformation $(\text{T}2)\mathbin{:}$ Translate $y=f\left(\dfrac12{(x-6)}\right)$ up by $5$ units to get the graph of
 
 Therefore, a possible order of transformations is
 
@@ -175,7 +175,7 @@ $$
 
 
 
-(\textrm{T}1) \to (\textrm{T}3) \to (\textrm{T}2).
+(\text{T}1) \to (\text{T}3) \to (\text{T}2).
 
 
 

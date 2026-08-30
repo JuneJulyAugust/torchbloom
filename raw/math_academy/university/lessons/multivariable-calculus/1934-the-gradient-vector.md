@@ -188,7 +188,7 @@ Find the gradient of the product $f(x,y) g(x,y)$ given that
 $$
 
 
-\begin{aligned}𝑓(𝑥,𝑦) & =𝑥𝑦,\, & & ∇𝑓(𝑥,𝑦)=𝑦 𝐢+𝑥 𝐣, & & \\ 𝑔(𝑥,𝑦) & =\sqrt{√𝑥𝑦},\, & & ∇𝑔(𝑥,𝑦)=\frac{\sqrt{√𝑥𝑦}}{2𝑥} 𝐢+\frac{\sqrt{√𝑥𝑦}}{2𝑦} 𝐣. & & \end{aligned}
+\begin{aligned}𝑓(𝑥,𝑦) & =𝑥𝑦,\, & & ∇𝑓(𝑥,𝑦)=𝑦 𝐢+𝑥 𝐣, & & \\ 𝑔(𝑥,𝑦) & =\sqrt{𝑥𝑦},\, & & ∇𝑔(𝑥,𝑦)=\frac{\sqrt{𝑥𝑦}}{2𝑥} 𝐢+\frac{\sqrt{𝑥𝑦}}{2𝑦} 𝐣. & & \end{aligned}
 
 
 $$
@@ -210,7 +210,7 @@ Using the product rule shown above, we obtain
 $$
 
 
-\begin{aligned}∇[𝑓(𝑥,𝑦)𝑔(𝑥,𝑦)] & =𝑔(𝑥,𝑦)∇𝑓(𝑥,𝑦)+𝑓(𝑥,𝑦)∇𝑔(𝑥,𝑦) \\ & =\sqrt{√𝑥𝑦}(𝑦 𝐢+𝑥 𝐣)+𝑥𝑦(\frac{\sqrt{√𝑥𝑦}}{2𝑥} 𝐢+\frac{\sqrt{√𝑥𝑦}}{2𝑦} 𝐣) \\ & =\sqrt{√𝑥𝑦}(𝑦 𝐢+𝑥 𝐣)+\frac{\sqrt{√𝑥𝑦}}{2}(𝑦 𝐢+𝑥 𝐣) \\ & =\frac{3\sqrt{√𝑥𝑦}}{2}(𝑦 𝐢+𝑥 𝐣).\end{aligned}
+\begin{aligned}∇[𝑓(𝑥,𝑦)𝑔(𝑥,𝑦)] & =𝑔(𝑥,𝑦)∇𝑓(𝑥,𝑦)+𝑓(𝑥,𝑦)∇𝑔(𝑥,𝑦) \\ & =\sqrt{𝑥𝑦}(𝑦 𝐢+𝑥 𝐣)+𝑥𝑦(\frac{\sqrt{𝑥𝑦}}{2𝑥} 𝐢+\frac{\sqrt{𝑥𝑦}}{2𝑦} 𝐣) \\ & =\sqrt{𝑥𝑦}(𝑦 𝐢+𝑥 𝐣)+\frac{\sqrt{𝑥𝑦}}{2}(𝑦 𝐢+𝑥 𝐣) \\ & =\frac{3\sqrt{𝑥𝑦}}{2}(𝑦 𝐢+𝑥 𝐣).\end{aligned}
 
 
 $$

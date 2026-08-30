@@ -143,7 +143,7 @@ Therefore, $\mathbf{w}$ is a solution to $\mathbf{x}'(t)=A\mathbf{x}(t).$ So, in
 $$
 
 
-\begin{aligned}𝐴𝐰 & =𝐰^{′}(𝑡) \\ & =[\begin{aligned}(4𝑒^{4𝑡})^{′} \\ (6𝑒^{5𝑡})^{′}\end{aligned}] \\ & =[\begin{aligned}16𝑒^{4𝑡} \\ 30𝑒^{5𝑡}\end{aligned}]\end{aligned}
+\begin{aligned}𝐴𝐰 & =𝐰^{′}(𝑡) \\ & =[\begin{matrix}(4𝑒^{4𝑡})^{′} \\ (6𝑒^{5𝑡})^{′}\end{matrix}] \\ & =[\begin{matrix}16𝑒^{4𝑡} \\ 30𝑒^{5𝑡}\end{matrix}]\end{aligned}
 
 
 $$

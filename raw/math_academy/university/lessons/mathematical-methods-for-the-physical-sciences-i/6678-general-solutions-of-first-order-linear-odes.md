@@ -29,7 +29,7 @@ For example, the equation
 $$
 
 
-\frac{\textrm{d} y}{\textrm{d} x} + 6xy = 0
+\frac{\text{d} y}{\text{d} x} + 6xy = 0
 
 
 $$
@@ -53,7 +53,7 @@ For example, the equation
 $$
 
 
-\frac{\textrm{d} y}{\textrm{d} x} + 6xy = 2x
+\frac{\text{d} y}{\text{d} x} + 6xy = 2x
 
 
 $$
@@ -115,7 +115,7 @@ Notice that this differential equation is separable since we can write it as
 $$
 
 
-\dfrac{\textrm{d}y_c}{\textrm{d}x} = -10y_c.
+\dfrac{\text{d}y_c}{\text{d}x} = -10y_c.
 
 
 $$
@@ -125,7 +125,7 @@ We separate the variables as follows:
 $$
 
 
-\dfrac{1}{y_c}\,\textrm{d}y_c = -10\,\textrm{d}x.
+\dfrac{1}{y_c}\,\text{d}y_c = -10\,\text{d}x.
 
 
 $$
@@ -197,7 +197,7 @@ Notice that this differential equation is separable since we can write it as
 $$
 
 
-\dfrac{\textrm{d}y_c}{\textrm{d}x} = -y_c.
+\dfrac{\text{d}y_c}{\text{d}x} = -y_c.
 
 
 $$
@@ -207,7 +207,7 @@ Therefore, we separate the variables as follows:
 $$
 
 
-\dfrac{1}{y_c} \cdot \dfrac {\textrm{d}y_c} {\textrm{d}x} = -1
+\dfrac{1}{y_c} \cdot \dfrac {\text{d}y_c} {\text{d}x} = -1
 
 
 $$
@@ -275,7 +275,7 @@ Consider the inhomogeneous differential equation
 $$
 
 
-\frac{\textrm{d} y}{\textrm{d} x} - 5 y = 5x-16.
+\frac{\text{d} y}{\text{d} x} - 5 y = 5x-16.
 
 
 $$
@@ -307,12 +307,12 @@ Calculating the derivative gives
 $$
 
 
-\frac{\textrm{d}y_p}{\textrm{d}x} = \alpha.
+\frac{\text{d}y_p}{\text{d}x} = \alpha.
 
 
 $$
 
-Now substitute $y_p$ and $\dfrac{\textrm{d}y_p}{\textrm{d}x}$ into the differential equation:
+Now substitute $y_p$ and $\dfrac{\text{d}y_p}{\text{d}x}$ into the differential equation:
 
 $$
 
@@ -337,7 +337,7 @@ Equating coefficients on both sides gives
 $$
 
 
-\begin{aligned}\begin{aligned}−5𝛼=5\, & (equating the coefficients of\,\,𝑥) \\ 𝛼−5𝛽=−16\, & (equating the constants)\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}−5𝛼=5\, & (equating the coefficients of\,\,𝑥) \\ 𝛼−5𝛽=−16\, & (equating the constants)\end{matrix}\end{aligned}
 
 
 $$
@@ -363,7 +363,7 @@ Consider the differential equation
 $$
 
 
-\frac{\textrm{d} y}{\textrm{d} x} + y = x ^ 2 + 2x - 3.
+\frac{\text{d} y}{\text{d} x} + y = x ^ 2 + 2x - 3.
 
 
 $$
@@ -389,7 +389,7 @@ Calculating the first derivative of $y_p$ gives
 $$
 
 
-\frac{\textrm{d}y_p}{\textrm{d}x} = 2\alpha x+\beta.
+\frac{\text{d}y_p}{\text{d}x} = 2\alpha x+\beta.
 
 
 $$
@@ -419,7 +419,7 @@ Equating the coefficients, we get the following system of equations:
 $$
 
 
-\begin{aligned}\begin{aligned}𝛼=1\, & (equating the coefficients of\,\,𝑥^{2}) \\ 2𝛼+𝛽=2\, & (equating the coefficients of\,\,𝑥) \\ 𝛽+𝛾=−3\, & (equating the constants)\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}𝛼=1\, & (equating the coefficients of\,\,𝑥^{2}) \\ 2𝛼+𝛽=2\, & (equating the coefficients of\,\,𝑥) \\ 𝛽+𝛾=−3\, & (equating the constants)\end{matrix}\end{aligned}
 
 
 $$
@@ -467,7 +467,7 @@ Consider the differential equation
 $$
 
 
-3\frac{\textrm{d} y}{\textrm{d} x} + 2y = 16.
+3\frac{\text{d} y}{\text{d} x} + 2y = 16.
 
 
 $$
@@ -479,7 +479,7 @@ First, we find the complementary solution by solving the associated homogeneous 
 $$
 
 
-3 \frac{\textrm{d} y_c}{\textrm{d} x} + 2y_c = 0.
+3 \frac{\text{d} y_c}{\text{d} x} + 2y_c = 0.
 
 
 $$
@@ -501,7 +501,7 @@ Next, we will find a particular solution. To find a particular solution of
 $$
 
 
-3\frac{\textrm{d} y}{\textrm{d} x} + 2y = 16,
+3\frac{\text{d} y}{\text{d} x} + 2y = 16,
 
 
 $$
@@ -523,7 +523,7 @@ Its derivative is
 $$
 
 
-\frac{\textrm{d}y_p}{\textrm{d}x} = 0.
+\frac{\text{d}y_p}{\text{d}x} = 0.
 
 
 $$
@@ -567,7 +567,7 @@ Consider the differential equation
 $$
 
 
-\frac{\textrm{d} y}{\textrm{d} x} + 2y = -2x + 5.
+\frac{\text{d} y}{\text{d} x} + 2y = -2x + 5.
 
 
 $$
@@ -583,7 +583,7 @@ To find the complementary solution $y_c,$ we solve the corresponding homogeneous
 $$
 
 
-\frac{\textrm{d} y_c}{\textrm{d} x} + 2y_c = 0.
+\frac{\text{d} y_c}{\text{d} x} + 2y_c = 0.
 
 
 $$
@@ -619,7 +619,7 @@ Calculating the first derivative of $y_p$ gives
 $$
 
 
-\frac{\textrm{d}y_p}{\textrm{d}x} = \alpha.
+\frac{\text{d}y_p}{\text{d}x} = \alpha.
 
 
 $$
@@ -649,7 +649,7 @@ Equating the coefficients, we get the following system of equations:
 $$
 
 
-\begin{aligned}\begin{aligned}2𝛼=−2\, & (equating the coefficients of\,\,𝑥) \\ 𝛼+2𝛽=5\, & (equating the constants)\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}2𝛼=−2\, & (equating the coefficients of\,\,𝑥) \\ 𝛼+2𝛽=5\, & (equating the constants)\end{matrix}\end{aligned}
 
 
 $$
@@ -757,7 +757,7 @@ Calculating the first derivative of $y_p$ gives
 $$
 
 
-\frac{\textrm{d}y_p}{\textrm{d}x} = \alpha.
+\frac{\text{d}y_p}{\text{d}x} = \alpha.
 
 
 $$
@@ -787,7 +787,7 @@ Equating the coefficients, we get the following system of equations:
 $$
 
 
-\begin{aligned}\begin{aligned}4𝛼=−8\, & (equating the coefficients of\,\,𝑥) \\ 𝛼+4𝛽=6\, & (equating the constants)\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}4𝛼=−8\, & (equating the coefficients of\,\,𝑥) \\ 𝛼+4𝛽=6\, & (equating the constants)\end{matrix}\end{aligned}
 
 
 $$
@@ -907,7 +907,7 @@ is the most general solution to the equation.
 $$
 
 
-\begin{aligned}𝑎(𝑥)𝑦^{′}+𝑏(𝑥)𝑦 & =𝑎(𝑥)(𝑦_{′𝑐}^{}+𝑦_{′𝑝}^{})+𝑏(𝑥)(𝑦_{𝑐}+𝑦_{𝑝}) \\ & =\underset{0}{\underset{}{[𝑎(𝑥)𝑦_{′𝑐}^{}+𝑏(𝑥)𝑦_{𝑐}]}}+[𝑎(𝑥)𝑦_{′𝑝}^{}+𝑏(𝑥)𝑦_{𝑝}] \\ & =𝑎(𝑥)𝑦_{′𝑝}^{}+𝑏(𝑥)𝑦_{𝑝} \\ & =𝑓(𝑥).\end{aligned}
+\begin{aligned}𝑎(𝑥)𝑦^{′}+𝑏(𝑥)𝑦 & =𝑎(𝑥)(𝑦_{′𝑐}+𝑦_{′𝑝})+𝑏(𝑥)(𝑦_{𝑐}+𝑦_{𝑝}) \\ & =\underset{0}{\underset{}{[𝑎(𝑥)𝑦_{′𝑐}+𝑏(𝑥)𝑦_{𝑐}]}}+[𝑎(𝑥)𝑦_{′𝑝}+𝑏(𝑥)𝑦_{𝑝}] \\ & =𝑎(𝑥)𝑦_{′𝑝}+𝑏(𝑥)𝑦_{𝑝} \\ & =𝑓(𝑥).\end{aligned}
 
 
 $$

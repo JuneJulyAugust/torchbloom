@@ -175,7 +175,7 @@ Now, we need to find the normal vector of the plane. To do that, we use the cros
 $$
 
 
-\begin{aligned}𝐧 & =𝐯_{𝟏}×𝐯_{𝟐} \\ & =\begin{aligned}−3 \\ 5 \\ 2\end{aligned}×\begin{aligned}1 \\ 3 \\ −2\end{aligned} \\ & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ −3 & 5 & 2 \\ 1 & 3 & −2\end{aligned} \\ & =−16𝐢−4𝐣−14𝐤 \\ & =⟨−16,−4,−14⟩\end{aligned}
+\begin{aligned}𝐧 & =𝐯_{𝟏}×𝐯_{𝟐} \\ & =\begin{matrix}−3 \\ 5 \\ 2\end{matrix}×\begin{matrix}1 \\ 3 \\ −2\end{matrix} \\ & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ −3 & 5 & 2 \\ 1 & 3 & −2\end{matrix} \\ & =−16𝐢−4𝐣−14𝐤 \\ & =⟨−16,−4,−14⟩\end{aligned}
 
 
 $$

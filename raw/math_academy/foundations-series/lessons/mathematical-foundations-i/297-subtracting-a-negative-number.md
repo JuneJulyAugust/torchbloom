@@ -26,7 +26,7 @@ A minus sign followed by a negative sign can be hard to make out, so it's consid
 $$
 
 
-\begin{aligned}9\,\overset{\overset{−\,(−}{}}{+}\,4) & = \\ 9\,+\,4 & = \\ 13 & .\end{aligned}
+\begin{aligned}9\,\overset{−\,(−}{+}\,4) & = \\ 9\,+\,4 & = \\ 13 & .\end{aligned}
 
 
 $$

@@ -33,7 +33,7 @@ The limit of the square root function at a point is equal to the value of the sq
 $$
 
 
-\begin{aligned}\underset{𝑥→\,𝑐}{lim}\sqrt{√𝑥}=\begin{aligned}\sqrt{√𝑐} & if 𝑐>0 \\ DNE & if 𝑐≤0\end{aligned}\end{aligned}
+\begin{aligned}\underset{𝑥→\,𝑐}{lim}\sqrt{𝑥}=\begin{matrix}\sqrt{𝑐} & if 𝑐>0 \\ DNE & if 𝑐≤0\end{matrix}\end{aligned}
 
 
 $$
@@ -48,7 +48,7 @@ Why doesn't the limit exist for $c \leq 0$?
 
 #### Question
 
-Calculate $\lim_\limits{x \to 2} \sqrt{x-2}.$
+Calculate $\lim\limits_{x \to 2} \sqrt{x-2}.$
 
 #### Explanation
 
@@ -57,7 +57,7 @@ Let $f(x)= \sqrt{x-2}$. Notice that
 $$
 
 
-\begin{aligned}𝑓(2) & =\sqrt{√2−2} \\ & =\sqrt{√0} \\ & =0.\end{aligned}
+\begin{aligned}𝑓(2) & =\sqrt{2−2} \\ & =\sqrt{0} \\ & =0.\end{aligned}
 
 
 $$
@@ -71,7 +71,7 @@ From the graph, we notice that the left-sided limit is
 $$
 
 
-\lim_\limits{x \to 2^-} f(x) = \textrm{DNE},
+\lim\limits_{x \to 2^-} f(x) = \text{DNE},
 
 
 $$
@@ -81,7 +81,7 @@ while the right-sided limit is
 $$
 
 
-\lim_\limits{x \to 2^+} f(x) = 0.
+\lim\limits_{x \to 2^+} f(x) = 0.
 
 
 $$
@@ -91,7 +91,7 @@ Since the two limits are not equal, we conclude that
 $$
 
 
-\lim_\limits{x \to 2} f(x)= \textrm{DNE}.
+\lim\limits_{x \to 2} f(x)= \text{DNE}.
 
 
 $$
@@ -117,7 +117,7 @@ On the other hand, when computing the limit as $x \to -\infty,$ remember that th
 $$
 
 
-\lim_{x\to -\infty}\sqrt{x} = \textrm{DNE}.
+\lim_{x\to -\infty}\sqrt{x} = \text{DNE}.
 
 
 $$
@@ -126,7 +126,7 @@ $$
 
 #### Question
 
-Evaluate $\lim_\limits{x \rightarrow -\infty} \sqrt{3-x}.$
+Evaluate $\lim\limits_{x \rightarrow -\infty} \sqrt{3-x}.$
 
 #### Explanation
 
@@ -139,7 +139,7 @@ From the graph, we see that the function increases without bound as $x$ decrease
 $$
 
 
-\lim_\limits{x \to -\infty} f(x)= \infty.
+\lim\limits_{x \to -\infty} f(x)= \infty.
 
 
 $$
@@ -165,7 +165,7 @@ Additionally, we can see from the graph that the limits at infinity are
 $$
 
 
-\lim_{x\to \infty} \sqrt[3]{x} = \infty \qquad \textrm{and}\qquad \lim_{x\to -\infty} \sqrt[3]{x} = -\infty.
+\lim_{x\to \infty} \sqrt[3]{x} = \infty \qquad \text{and}\qquad \lim_{x\to -\infty} \sqrt[3]{x} = -\infty.
 
 
 $$
@@ -174,7 +174,7 @@ $$
 
 #### Question
 
-Calculate $\lim_\limits{x \to -3} \sqrt[3]{3x-2x^2}.$
+Calculate $\lim\limits_{x \to -3} \sqrt[3]{3x-2x^2}.$
 
 #### Explanation
 
@@ -192,7 +192,7 @@ $$
 
 #### Question
 
-Compute $\lim_\limits{x \to \infty} \sqrt[3]{x-1}.$
+Compute $\lim\limits_{x \to \infty} \sqrt[3]{x-1}.$
 
 #### Explanation
 
@@ -205,7 +205,7 @@ From the graph, we see that the function increases without bound as $x$ increase
 $$
 
 
-\lim_\limits{x \to \infty} f(x)= \infty.
+\lim\limits_{x \to \infty} f(x)= \infty.
 
 
 $$

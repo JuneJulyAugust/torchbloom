@@ -36,7 +36,7 @@ Using the standard Gauss-Jordan method, we can reduce this matrix to reduced row
 $$
 
 
-\begin{aligned}𝑀 & =[\begin{aligned}1 & −1 & 1 & 1 \\ 0 & 1 & 3 & 0\end{aligned}]\, & 𝑅_{1} & :=𝑅_{1}+𝑅_{2} \\ & ∼[\begin{aligned}1 & 0 & 4 & 1 \\ 0 & 1 & 3 & 0\end{aligned}] & & \end{aligned}
+\begin{aligned}𝑀 & =[\begin{matrix}1 & −1 & 1 & 1 \\ 0 & 1 & 3 & 0\end{matrix}]\, & 𝑅_{1} & :=𝑅_{1}+𝑅_{2} \\ & ∼[\begin{matrix}1 & 0 & 4 & 1 \\ 0 & 1 & 3 & 0\end{matrix}] & & \end{aligned}
 
 
 $$
@@ -66,7 +66,7 @@ In vector form, the solution can be written as
 $$
 
 
-\begin{aligned}\begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned}=\begin{aligned}1−4𝑧 \\ −3𝑧 \\ 𝑧\end{aligned}=\begin{aligned}1 \\ 0 \\ 0\end{aligned}+𝑧\begin{aligned}−4 \\ −3 \\ 1\end{aligned},\,𝑧∈(−∞,∞).\end{aligned}
+\begin{aligned}\begin{matrix}𝑥 \\ 𝑦 \\ 𝑧\end{matrix}=\begin{matrix}1−4𝑧 \\ −3𝑧 \\ 𝑧\end{matrix}=\begin{matrix}1 \\ 0 \\ 0\end{matrix}+𝑧\begin{matrix}−4 \\ −3 \\ 1\end{matrix},\,𝑧∈(−∞,∞).\end{aligned}
 
 
 $$
@@ -104,7 +104,7 @@ Using the standard Gauss-Jordan method, we can reduce this matrix to reduced row
 $$
 
 
-\begin{aligned}𝑀 & ∼[\begin{aligned}1 & 5 & 1 & 2 \\ 1 & 5 & 2 & 5\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+(−1)𝑅_{1} \\ & ∼[\begin{aligned}1 & 5 & 1 & 2 \\ 0 & 0 & 1 & 3\end{aligned}] & 𝑅_{1} & :=𝑅_{1}+(−1)𝑅_{2} \\ & ∼[\begin{aligned}1 & 5 & 0 & −1 \\ 0 & 0 & 1 & 3\end{aligned}] & & \end{aligned}
+\begin{aligned}𝑀 & ∼[\begin{matrix}1 & 5 & 1 & 2 \\ 1 & 5 & 2 & 5\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+(−1)𝑅_{1} \\ & ∼[\begin{matrix}1 & 5 & 1 & 2 \\ 0 & 0 & 1 & 3\end{matrix}] & 𝑅_{1} & :=𝑅_{1}+(−1)𝑅_{2} \\ & ∼[\begin{matrix}1 & 5 & 0 & −1 \\ 0 & 0 & 1 & 3\end{matrix}] & & \end{aligned}
 
 
 $$
@@ -138,7 +138,7 @@ In vector form, the solution can be written as
 $$
 
 
-\begin{aligned}\begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned}=\begin{aligned}−1−5𝑦 \\ 𝑦 \\ 3\end{aligned},\,𝑦∈(−∞,∞).\end{aligned}
+\begin{aligned}\begin{matrix}𝑥 \\ 𝑦 \\ 𝑧\end{matrix}=\begin{matrix}−1−5𝑦 \\ 𝑦 \\ 3\end{matrix},\,𝑦∈(−∞,∞).\end{aligned}
 
 
 $$
@@ -194,7 +194,7 @@ Using Gaussian elimination, we can reduce this matrix to row echelon form as fol
 $$
 
 
-\begin{aligned}𝑀 & =[\begin{aligned}2 & −3 & 4 \\ −4 & 6 & −8\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+2𝑅_{1} \\ & ∼[\begin{aligned}2 & −3 & 4 \\ 0 & 0 & 0\end{aligned}] & & \end{aligned}
+\begin{aligned}𝑀 & =[\begin{matrix}2 & −3 & 4 \\ −4 & 6 & −8\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+2𝑅_{1} \\ & ∼[\begin{matrix}2 & −3 & 4 \\ 0 & 0 & 0\end{matrix}] & & \end{aligned}
 
 
 $$
@@ -256,7 +256,7 @@ Using the method of Gaussian elimination, we can reduce this matrix to row echel
 $$
 
 
-\begin{aligned}𝑀 & =[\begin{aligned}2 & −2 & 1 \\ 4 & 𝑘 & −3\end{aligned}] & 𝑅_{2} & :=𝑅_{2}−2𝑅_{1} \\ & ∼[\begin{aligned}2 & −2 & 1 \\ 0 & 𝑘+4 & −5\end{aligned}] & & \end{aligned}
+\begin{aligned}𝑀 & =[\begin{matrix}2 & −2 & 1 \\ 4 & 𝑘 & −3\end{matrix}] & 𝑅_{2} & :=𝑅_{2}−2𝑅_{1} \\ & ∼[\begin{matrix}2 & −2 & 1 \\ 0 & 𝑘+4 & −5\end{matrix}] & & \end{aligned}
 
 
 $$

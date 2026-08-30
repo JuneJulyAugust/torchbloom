@@ -125,7 +125,7 @@ First, we isolate the square root:
 $$
 
 
-\begin{aligned}3\sqrt{√𝑥−2}+7 & ≥4 \\ 3\sqrt{√𝑥−2} & ≥−3 \\ \sqrt{√𝑥−2} & ≥−1\end{aligned}
+\begin{aligned}3\sqrt{𝑥−2}+7 & ≥4 \\ 3\sqrt{𝑥−2} & ≥−3 \\ \sqrt{𝑥−2} & ≥−1\end{aligned}
 
 
 $$
@@ -165,7 +165,7 @@ In this inequality, the square root is being compared to a non-negative number $
 $$
 
 
-\begin{aligned}(\sqrt{√𝑥+1})^{2} & <3^{2} \\ 𝑥+1 & <9 \\ 𝑥 & <8\end{aligned}
+\begin{aligned}(\sqrt{𝑥+1})^{2} & <3^{2} \\ 𝑥+1 & <9 \\ 𝑥 & <8\end{aligned}
 
 
 $$
@@ -205,7 +205,7 @@ First, we isolate the square root:
 $$
 
 
-\begin{aligned}7−\sqrt{√𝑥+3} & <5 \\ −\sqrt{√𝑥+3} & <−2 \\ \sqrt{√𝑥+3} & >2\end{aligned}
+\begin{aligned}7−\sqrt{𝑥+3} & <5 \\ −\sqrt{𝑥+3} & <−2 \\ \sqrt{𝑥+3} & >2\end{aligned}
 
 
 $$
@@ -215,7 +215,7 @@ In this inequality, the square root is being compared to a non-negative number $
 $$
 
 
-\begin{aligned}(\sqrt{√𝑥+3})^{2} & >2^{2} \\ 𝑥+3 & >4 \\ 𝑥 & >1\end{aligned}
+\begin{aligned}(\sqrt{𝑥+3})^{2} & >2^{2} \\ 𝑥+3 & >4 \\ 𝑥 & >1\end{aligned}
 
 
 $$

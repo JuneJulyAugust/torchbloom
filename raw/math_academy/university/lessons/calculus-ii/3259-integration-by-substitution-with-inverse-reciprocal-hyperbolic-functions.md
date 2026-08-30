@@ -17,7 +17,7 @@ Consider the integral
 $$
 
 
-\displaystyle \int \dfrac{1}{6x\sqrt{1-36x^2}} \, \textrm{d}x
+\displaystyle \int \dfrac{1}{6x\sqrt{1-36x^2}} \, \text{d}x
 
 
 $$
@@ -27,17 +27,17 @@ As it is, this integral doesn't resemble any of the basic integrals we have enco
 $$
 
 
-\int \dfrac{1}{6x\sqrt{1-36x^2}}\,\textrm{d}x = \int \dfrac{1}{(6x)\sqrt{1-\left(6x\right)^2}}\textrm{d}x,
+\int \dfrac{1}{6x\sqrt{1-36x^2}}\,\text{d}x = \int \dfrac{1}{(6x)\sqrt{1-\left(6x\right)^2}}\text{d}x,
 
 
 $$
 
-which becomes very similar to the basic integral for the inverse hyperbolic secant, $\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+which becomes very similar to the basic integral for the inverse hyperbolic secant, $$
 
 $$
 
 
-\int \frac{1}{u\sqrt{1-u^2}}\,\textrm{d}u = -\arsech u+C.
+\int \frac{1}{u\sqrt{1-u^2}}\,\text{d}u = -\operatorname{arsech} u+C.
 
 
 $$
@@ -49,7 +49,7 @@ So, let's substitute $u =6x.$ Differentiating, we get
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x}=6 \quad\Longrightarrow\quad \textrm{d}x = \dfrac{1}{6} \,\textrm{d}u.
+\dfrac{\text{d}u}{\text{d}x}=6 \quad\Longrightarrow\quad \text{d}x = \dfrac{1}{6} \,\text{d}u.
 
 
 $$
@@ -59,7 +59,7 @@ Using the above, we can write the integral in terms of $u$ and compute it, as fo
 $$
 
 
-\begin{aligned}\begin{aligned}∫\frac{1}{6𝑥\sqrt{√1−36𝑥^{2}}}\,d𝑥 & =∫\frac{1}{6𝑥\sqrt{√1−(6𝑥)^{2}}}\,d𝑥 \\ & =∫\frac{1}{𝑢\sqrt{√1−𝑢^{2}}}\,⋅\frac{1}{6}d𝑢 \\ & =\frac{1}{6}∫\frac{1}{𝑢\sqrt{√1−𝑢^{2}}}\,d𝑢 \\ & =−\frac{1}{6}arsech⁡𝑢+𝐶 \\ & =−\frac{1}{6}arsech⁡(6𝑥)+𝐶\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}∫\frac{1}{6𝑥\sqrt{1−36𝑥^{2}}}\,d𝑥 & =∫\frac{1}{6𝑥\sqrt{1−(6𝑥)^{2}}}\,d𝑥 \\ & =∫\frac{1}{𝑢\sqrt{1−𝑢^{2}}}\,⋅\frac{1}{6}d𝑢 \\ & =\frac{1}{6}∫\frac{1}{𝑢\sqrt{1−𝑢^{2}}}\,d𝑢 \\ & =−\frac{1}{6}arsech⁡𝑢+𝐶 \\ & =−\frac{1}{6}arsech⁡(6𝑥)+𝐶\end{matrix}\end{aligned}
 
 
 $$
@@ -68,20 +68,20 @@ $$
 
 #### Question
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
-$\displaystyle \int \dfrac{1}{|3x|\sqrt{1+9x^2}} \, \textrm{d}x =$
+$\displaystyle \int \dfrac{1}{|3x|\sqrt{1+9x^2}} \, \text{d}x =$
 
 #### Explanation
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
 This integral resembles the basic integral for inverse hyperbolic cosecant,
 
 $$
 
 
-\int \frac{1}{|u|\sqrt{1+u^2}}\,\textrm{d}u = -\arcsch u+C.
+\int \frac{1}{|u|\sqrt{1+u^2}}\,\text{d}u = -\operatorname{arcsch} u+C.
 
 
 $$
@@ -93,7 +93,7 @@ So, let's substitute $u =3x.$ Differentiating, we get
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x}=3 \quad\Longrightarrow\quad \textrm{d}x = \dfrac{1}{3} \,\textrm{d}u.
+\dfrac{\text{d}u}{\text{d}x}=3 \quad\Longrightarrow\quad \text{d}x = \dfrac{1}{3} \,\text{d}u.
 
 
 $$
@@ -103,7 +103,7 @@ Using the above, we can write the integral in terms of $u$ and compute it, as fo
 $$
 
 
-\begin{aligned}\begin{aligned}∫\frac{1}{|3𝑥|\sqrt{√1+9𝑥^{2}}}\,d𝑥 & =∫\frac{1}{|3𝑥|\sqrt{√1+(3𝑥)^{2}}}\,d𝑥 \\ & =∫\frac{1}{|𝑢|\sqrt{√1+𝑢^{2}}}\,⋅\frac{1}{3}\,d𝑢 \\ & =\frac{1}{3}∫\frac{1}{|𝑢|\sqrt{√1+𝑢^{2}}}\,d𝑢 \\ & =−\frac{1}{3}arcsch⁡𝑢+𝐶 \\ & =−\frac{1}{3}arcsch⁡3𝑥+𝐶\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}∫\frac{1}{|3𝑥|\sqrt{1+9𝑥^{2}}}\,d𝑥 & =∫\frac{1}{|3𝑥|\sqrt{1+(3𝑥)^{2}}}\,d𝑥 \\ & =∫\frac{1}{|𝑢|\sqrt{1+𝑢^{2}}}\,⋅\frac{1}{3}\,d𝑢 \\ & =\frac{1}{3}∫\frac{1}{|𝑢|\sqrt{1+𝑢^{2}}}\,d𝑢 \\ & =−\frac{1}{3}arcsch⁡𝑢+𝐶 \\ & =−\frac{1}{3}arcsch⁡3𝑥+𝐶\end{matrix}\end{aligned}
 
 
 $$
@@ -112,20 +112,20 @@ $$
 
 #### Question
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
-$\displaystyle \int \dfrac{1}{x\sqrt{4-x^2}} \,\textrm{d}x =$
+$\displaystyle \int \dfrac{1}{x\sqrt{4-x^2}} \,\text{d}x =$
 
 #### Explanation
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
 Let's rewrite our integral as
 
 $$
 
 
-\int \dfrac{1}{x\sqrt{4-x^2}}\,\textrm{d}x = \dfrac{1}{2} \int \dfrac{1}{x\sqrt{1-\left(\frac{x}{2}\right)^2}} \, \textrm{d}x=\dfrac{1}{4} \int \dfrac{1}{\frac{x}{2}\sqrt{1-\left(\frac{x}{2}\right)^2}} \, \textrm{d}x.
+\int \dfrac{1}{x\sqrt{4-x^2}}\,\text{d}x = \dfrac{1}{2} \int \dfrac{1}{x\sqrt{1-\left(\frac{x}{2}\right)^2}} \, \text{d}x=\dfrac{1}{4} \int \dfrac{1}{\frac{x}{2}\sqrt{1-\left(\frac{x}{2}\right)^2}} \, \text{d}x.
 
 
 $$
@@ -135,7 +135,7 @@ This integral resembles the basic integral for the inverse hyperbolic secant,
 $$
 
 
-\int \frac{1}{u\sqrt{1-u^2}}\,\textrm{d}u = -\arsech u+C.
+\int \frac{1}{u\sqrt{1-u^2}}\,\text{d}u = -\operatorname{arsech} u+C.
 
 
 $$
@@ -147,7 +147,7 @@ So, let's substitute $u = \dfrac x 2.$ Differentiating, we get
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x}= \dfrac{1}{2} \quad\Longrightarrow\quad \textrm{d}x =2\,\textrm{d}u.
+\dfrac{\text{d}u}{\text{d}x}= \dfrac{1}{2} \quad\Longrightarrow\quad \text{d}x =2\,\text{d}u.
 
 
 $$
@@ -157,7 +157,7 @@ Using the above, we can write the integral in terms of $u$ and compute it, as fo
 $$
 
 
-\begin{aligned}\begin{aligned}∫\frac{1}{\sqrt{√4−𝑥^{2}}}\,d𝑥 & =\frac{1}{4}∫\frac{1}{\frac{𝑥}{2}\sqrt{√1−(\frac{𝑥}{2})^{2}}}\,d𝑥 \\ & =\frac{1}{4}∫\frac{1}{𝑢\sqrt{√1−𝑢^{2}}}⋅2\,d𝑢 \\ & =\frac{1}{2}∫\frac{d𝑢}{𝑢\sqrt{√1−𝑢^{2}}} \\ & =−\frac{1}{2}arsech⁡𝑢+𝐶 \\ & =−\frac{1}{2}arsech⁡(\frac{𝑥}{2})+𝐶\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}∫\frac{1}{\sqrt{4−𝑥^{2}}}\,d𝑥 & =\frac{1}{4}∫\frac{1}{\frac{𝑥}{2}\sqrt{1−(\frac{𝑥}{2})^{2}}}\,d𝑥 \\ & =\frac{1}{4}∫\frac{1}{𝑢\sqrt{1−𝑢^{2}}}⋅2\,d𝑢 \\ & =\frac{1}{2}∫\frac{d𝑢}{𝑢\sqrt{1−𝑢^{2}}} \\ & =−\frac{1}{2}arsech⁡𝑢+𝐶 \\ & =−\frac{1}{2}arsech⁡(\frac{𝑥}{2})+𝐶\end{matrix}\end{aligned}
 
 
 $$
@@ -166,20 +166,20 @@ $$
 
 #### Question
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
-$\displaystyle \int \dfrac{5}{1 - 4x^2} \, \textrm{d}x =$
+$\displaystyle \int \dfrac{5}{1 - 4x^2} \, \text{d}x =$
 
 #### Explanation
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
 This integral resembles the basic integral for the inverse hyperbolic cotangent,
 
 $$
 
 
-\int \frac{1}{1-u^2}\, \textrm{d}u =\arcoth u +C.
+\int \frac{1}{1-u^2}\, \text{d}u =\operatorname{arcoth} u +C.
 
 
 $$
@@ -191,7 +191,7 @@ So, let's substitute $u=2x.$ Differentiating, we get
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x}=2\quad\Longrightarrow\quad \dfrac 1 2\,\textrm d u = \textrm d x.
+\dfrac{\text{d}u}{\text{d}x}=2\quad\Longrightarrow\quad \dfrac 1 2\,\textrm d u = \textrm d x.
 
 
 $$
@@ -201,7 +201,7 @@ Using the above, we can write the integral in terms of $u$ and compute, as follo
 $$
 
 
-\begin{aligned}\begin{aligned}∫\frac{5}{1−4𝑥^{2}}\,d𝑥 & =5∫\frac{1}{1−(2𝑥)^{2}}\,d𝑥 \\ & =5∫\frac{1}{1−𝑢^{2}}\,⋅\frac{1}{2}\,d𝑢 \\ & =\frac{5}{2}∫\frac{1}{1−𝑢^{2}}\,d𝑢 \\ & =\frac{5}{2}arcoth⁡𝑢+𝐶 \\ & =\frac{5}{2}arcoth⁡2𝑥+𝐶\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}∫\frac{5}{1−4𝑥^{2}}\,d𝑥 & =5∫\frac{1}{1−(2𝑥)^{2}}\,d𝑥 \\ & =5∫\frac{1}{1−𝑢^{2}}\,⋅\frac{1}{2}\,d𝑢 \\ & =\frac{5}{2}∫\frac{1}{1−𝑢^{2}}\,d𝑢 \\ & =\frac{5}{2}arcoth⁡𝑢+𝐶 \\ & =\frac{5}{2}arcoth⁡2𝑥+𝐶\end{matrix}\end{aligned}
 
 
 $$
@@ -212,20 +212,20 @@ Note that this result is subject to the condition $\left|2x \right| > 1.$
 
 #### Question
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
-Evaluate the integral $\displaystyle{\int_{1/9}^{1/6} \dfrac{1}{x\sqrt{1-9x^2}}\, \textrm{d}x}.$
+Evaluate the integral $\displaystyle{\int_{1/9}^{1/6} \dfrac{1}{x\sqrt{1-9x^2}}\, \text{d}x}.$
 
 #### Explanation
 
-$\newcommand{\arsinh}{\mathop{\rm arsinh}\nolimits} \newcommand{\arcosh}{\mathop{\rm arcosh}\nolimits} \newcommand{\artanh}{\mathop{\rm artanh}\nolimits} \newcommand{\sech}{\mathop{\rm sech}\nolimits} \newcommand{\csch}{\mathop{\rm csch}\nolimits} \newcommand{\coth}{\mathop{\rm coth}\nolimits} \newcommand{\arsech}{\mathop{\rm arsech}\nolimits} \newcommand{\arcsch}{\mathop{\rm arcsch}\nolimits} \newcommand{\arcoth}{\mathop{\rm arcoth}\nolimits}$
+$$
 
 Note that we can rewrite this integral as
 
 $$
 
 
-\int_{1/9}^{1/6} \dfrac{1}{x\sqrt{1-9x^2}} \, \textrm{d}x = 3\int_{1/9}^{1/6} \dfrac{1}{3x\sqrt{1-9x^2}}\, \textrm{d}x.
+\int_{1/9}^{1/6} \dfrac{1}{x\sqrt{1-9x^2}} \, \text{d}x = 3\int_{1/9}^{1/6} \dfrac{1}{3x\sqrt{1-9x^2}}\, \text{d}x.
 
 
 $$
@@ -235,7 +235,7 @@ This integral resembles the basic integral for the inverse hyperbolic secant,
 $$
 
 
-\int \frac{1}{u\sqrt{1-u^2}} \, \textrm{d}u =-\arsech u +C.
+\int \frac{1}{u\sqrt{1-u^2}} \, \text{d}u =-\operatorname{arsech} u +C.
 
 
 $$
@@ -247,7 +247,7 @@ So, let's substitute $u=3x.$ Differentiating, we get
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x}= 3 \quad\Longrightarrow\quad \textrm{d}x =\dfrac{1}{3}\,\textrm{d}u.
+\dfrac{\text{d}u}{\text{d}x}= 3 \quad\Longrightarrow\quad \text{d}x =\dfrac{1}{3}\,\text{d}u.
 
 
 $$
@@ -259,7 +259,7 @@ Using the above, we can now write the integral in terms of $u$ and compute it, a
 $$
 
 
-\begin{aligned} \int_{1/9}^{1/6} \dfrac{1}{x\sqrt{1 - 9x^2}}\, \textrm{d}x &= 3 \int_{1/9}^{1/6 } \dfrac{1}{3x\sqrt{1 - \left(3x\right)^2}}\, \textrm{d}x \\\[5pt] &= 3 \int_{1/3}^{1/2} \dfrac{1}{u\sqrt{1 - u^2}}\, \cdot \dfrac{1}{3}\,\textrm{d}u \\\[5pt] &= \int_{1/3}^{1/2} \dfrac{\textrm{d}u}{u \sqrt{1-u^2}} \\\[5pt] & = - \arsech{u}\Big|_{1/3}^{1/2}\\\[5pt] &= -\left(\arsech\left(\dfrac{1}{2}\right) - \arsech\left(\dfrac{1}{3}\right) \right)\\\[5pt] &= \arsech\left(\dfrac{1}{3}\right) - \arsech\left(\dfrac{1}{2}\right) \end{aligned}
+\begin{aligned} \int_{1/9}^{1/6} \dfrac{1}{x\sqrt{1 - 9x^2}}\, \text{d}x &= 3 \int_{1/9}^{1/6 } \dfrac{1}{3x\sqrt{1 - \left(3x\right)^2}}\, \text{d}x \\[5pt] &= 3 \int_{1/3}^{1/2} \dfrac{1}{u\sqrt{1 - u^2}}\, \cdot \dfrac{1}{3}\,\text{d}u \\[5pt] &= \int_{1/3}^{1/2} \dfrac{\text{d}u}{u \sqrt{1-u^2}} \\[5pt] & = - \operatorname{arsech}{u}\Big|_{1/3}^{1/2}\\[5pt] &= -\left(\operatorname{arsech}\left(\dfrac{1}{2}\right) - \operatorname{arsech}\left(\dfrac{1}{3}\right) \right)\\[5pt] &= \operatorname{arsech}\left(\dfrac{1}{3}\right) - \operatorname{arsech}\left(\dfrac{1}{2}\right) \end{aligned}
 
 
 $$

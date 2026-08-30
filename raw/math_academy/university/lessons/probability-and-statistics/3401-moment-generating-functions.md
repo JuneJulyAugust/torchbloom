@@ -97,7 +97,7 @@ Then, the MGF of $X$ is given by
 $$
 
 
-\begin{aligned}𝑀(𝑡) & =∫_{10}^{}𝑓(𝑥)𝑒^{𝑡𝑥}\,d𝑥 \\ & =∫_{10}^{}𝑒^{𝑡𝑥}\,d𝑥.\end{aligned}
+\begin{aligned}𝑀(𝑡) & =∫_{10}𝑓(𝑥)𝑒^{𝑡𝑥}\,d𝑥 \\ & =∫_{10}𝑒^{𝑡𝑥}\,d𝑥.\end{aligned}
 
 
 $$
@@ -107,7 +107,7 @@ Calculating our integral, we get
 $$
 
 
-\begin{aligned}𝑀(𝑡) & =∫_{10}^{}𝑒^{𝑡𝑥}\,d𝑥 \\ & =\frac{𝑒^{𝑡𝑥}}{𝑡}_{10}^{} \\ & =\frac{𝑒^{𝑡}−1}{𝑡}.\end{aligned}
+\begin{aligned}𝑀(𝑡) & =∫_{10}𝑒^{𝑡𝑥}\,d𝑥 \\ & =\frac{𝑒^{𝑡𝑥}}{𝑡}_{10} \\ & =\frac{𝑒^{𝑡}−1}{𝑡}.\end{aligned}
 
 
 $$
@@ -117,7 +117,7 @@ Notice that this result is not valid for $t=0.$ For $t=0,$ we have
 $$
 
 
-\begin{aligned}𝑀(0) & =∫_{10}^{}𝑒^{0𝑥}\,d𝑥 \\ & =∫_{10}^{}\,d𝑥 \\ & =1.\end{aligned}
+\begin{aligned}𝑀(0) & =∫_{10}𝑒^{0𝑥}\,d𝑥 \\ & =∫_{10}\,d𝑥 \\ & =1.\end{aligned}
 
 
 $$
@@ -163,7 +163,7 @@ So, for the given random variable, the MGF is given by
 $$
 
 
-\begin{aligned}𝑀(𝑡) & =∫_{20}^{}𝑓(𝑥)𝑒^{𝑡𝑥}\,d𝑥 \\ & =∫_{10}^{}\frac{2}{3}𝑥𝑒^{𝑡𝑥}\,d𝑥+∫_{21}^{}\frac{2}{3}𝑒^{𝑡𝑥}\,d𝑥.\end{aligned}
+\begin{aligned}𝑀(𝑡) & =∫_{20}𝑓(𝑥)𝑒^{𝑡𝑥}\,d𝑥 \\ & =∫_{10}\frac{2}{3}𝑥𝑒^{𝑡𝑥}\,d𝑥+∫_{21}\frac{2}{3}𝑒^{𝑡𝑥}\,d𝑥.\end{aligned}
 
 
 $$
@@ -173,17 +173,17 @@ First, we calculate the integrals for $t \neq 0:$
 $$
 
 
-\begin{aligned}𝑀(𝑡) & =∫_{10}^{}\frac{2}{3}𝑥𝑒^{𝑡𝑥}\,d𝑥+∫_{21}^{}\frac{2}{3}𝑒^{𝑡𝑥}\,d𝑥 \\ & =\frac{2}{3}∫_{10}^{}𝑥𝑒^{𝑡𝑥}\,d𝑥+\frac{2𝑒^{𝑡𝑥}}{3𝑡}_{21}^{} \\ & =\frac{2}{3}∫_{10}^{}𝑥𝑒^{𝑡𝑥}\,d𝑥+\frac{2(𝑒^{2𝑡}−𝑒^{𝑡})}{3𝑡}\end{aligned}
+\begin{aligned}𝑀(𝑡) & =∫_{10}\frac{2}{3}𝑥𝑒^{𝑡𝑥}\,d𝑥+∫_{21}\frac{2}{3}𝑒^{𝑡𝑥}\,d𝑥 \\ & =\frac{2}{3}∫_{10}𝑥𝑒^{𝑡𝑥}\,d𝑥+\frac{2𝑒^{𝑡𝑥}}{3𝑡}_{21} \\ & =\frac{2}{3}∫_{10}𝑥𝑒^{𝑡𝑥}\,d𝑥+\frac{2(𝑒^{2𝑡}−𝑒^{𝑡})}{3𝑡}\end{aligned}
 
 
 $$
 
-To solve $\displaystyle \int_{0}^{1} x e^{tx},$ we first find $\displaystyle \int xe^{tx} \,\textrm{d}x$ using the by-parts formula, given by
+To solve $\displaystyle \int_{0}^{1} x e^{tx},$ we first find $\displaystyle \int xe^{tx} \,\text{d}x$ using the by-parts formula, given by
 
 $$
 
 
-\int uv'\,\textrm{d}x= uv- \int u'v\,\textrm{d}x.
+\int uv'\,\text{d}x= uv- \int u'v\,\text{d}x.
 
 
 $$
@@ -213,7 +213,7 @@ So, we have
 $$
 
 
-\begin{aligned}𝑀(𝑡) & =\frac{2}{3}∫_{10}^{}𝑥𝑒^{𝑡𝑥}\,d𝑥+\frac{2(𝑒^{2𝑡}−𝑒^{𝑡})}{3𝑡} \\ & =\frac{2(𝑥𝑡−1)𝑒^{𝑡𝑥}}{3𝑡^{2}}_{10}^{}+\frac{2(𝑒^{2𝑡}−𝑒^{𝑡})}{3𝑡} \\ & =\frac{2𝑒^{𝑡}(𝑡−1)+2}{3𝑡^{2}}+\frac{2(𝑒^{2𝑡}−𝑒^{𝑡})}{3𝑡} \\ & =\frac{2𝑒^{𝑡}(𝑡−1)+2}{3𝑡^{2}}+\frac{2𝑡(𝑒^{2𝑡}−𝑒^{𝑡})}{3𝑡^{2}} \\ & =\frac{2𝑡𝑒^{𝑡}−2𝑒^{𝑡}+2+2𝑡𝑒^{2𝑡}−2𝑡𝑒^{𝑡}}{3𝑡^{2}} \\ & =\frac{2𝑡𝑒^{2𝑡}−2𝑒^{𝑡}+2}{3𝑡^{2}} \\ & =\frac{2(𝑡𝑒^{2𝑡}−𝑒^{𝑡}+1)}{3𝑡^{2}}.\end{aligned}
+\begin{aligned}𝑀(𝑡) & =\frac{2}{3}∫_{10}𝑥𝑒^{𝑡𝑥}\,d𝑥+\frac{2(𝑒^{2𝑡}−𝑒^{𝑡})}{3𝑡} \\ & =\frac{2(𝑥𝑡−1)𝑒^{𝑡𝑥}}{3𝑡^{2}}_{10}+\frac{2(𝑒^{2𝑡}−𝑒^{𝑡})}{3𝑡} \\ & =\frac{2𝑒^{𝑡}(𝑡−1)+2}{3𝑡^{2}}+\frac{2(𝑒^{2𝑡}−𝑒^{𝑡})}{3𝑡} \\ & =\frac{2𝑒^{𝑡}(𝑡−1)+2}{3𝑡^{2}}+\frac{2𝑡(𝑒^{2𝑡}−𝑒^{𝑡})}{3𝑡^{2}} \\ & =\frac{2𝑡𝑒^{𝑡}−2𝑒^{𝑡}+2+2𝑡𝑒^{2𝑡}−2𝑡𝑒^{𝑡}}{3𝑡^{2}} \\ & =\frac{2𝑡𝑒^{2𝑡}−2𝑒^{𝑡}+2}{3𝑡^{2}} \\ & =\frac{2(𝑡𝑒^{2𝑡}−𝑒^{𝑡}+1)}{3𝑡^{2}}.\end{aligned}
 
 
 $$
@@ -223,7 +223,7 @@ If $t=0,$ we get
 $$
 
 
-\begin{aligned}𝑀(0) & =∫_{20}^{}𝑓(𝑥)\,d𝑥 \\ & =∫_{10}^{}\frac{2}{3}𝑥\,d𝑥+∫_{21}^{}\frac{2}{3}\,d𝑥 \\ & =1.\end{aligned}
+\begin{aligned}𝑀(0) & =∫_{20}𝑓(𝑥)\,d𝑥 \\ & =∫_{10}\frac{2}{3}𝑥\,d𝑥+∫_{21}\frac{2}{3}\,d𝑥 \\ & =1.\end{aligned}
 
 
 $$

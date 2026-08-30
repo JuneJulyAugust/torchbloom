@@ -36,7 +36,7 @@ Then, we raise both sides to the power of $2,$ and we solve the equation as usua
 $$
 
 
-\begin{aligned}(\sqrt{√2−𝑥})^{2} & =(\sqrt{√𝑥})^{2} \\ 2−𝑥 & =𝑥 \\ 2𝑥 & =2 \\ 𝑥 & =1\end{aligned}
+\begin{aligned}(\sqrt{2−𝑥})^{2} & =(\sqrt{𝑥})^{2} \\ 2−𝑥 & =𝑥 \\ 2𝑥 & =2 \\ 𝑥 & =1\end{aligned}
 
 
 $$
@@ -46,7 +46,7 @@ Finally, we check whether the obtained value $x=1$ is actually a solution of the
 $$
 
 
-\begin{aligned}\sqrt{√2−(1)} & \overset{=}{?}\sqrt{√(1)} \\ \sqrt{√1} & \overset{=}{?}\sqrt{√1} \\ 1 & =1\,✓\end{aligned}
+\begin{aligned}\sqrt{2−(1)} & \overset{=}{?}\sqrt{(1)} \\ \sqrt{1} & \overset{=}{?}\sqrt{1} \\ 1 & =1\,✓\end{aligned}
 
 
 $$
@@ -66,7 +66,7 @@ To solve the equation $\sqrt{2x-5} = \sqrt{4 - x},$ we raise both sides to the p
 $$
 
 
-\begin{aligned}\sqrt{√2𝑥−5} & =\sqrt{√4−𝑥} \\ (\sqrt{√2𝑥−5})^{2} & =(\sqrt{√4−𝑥})^{2} \\ 2𝑥−5 & =4−𝑥 \\ 3𝑥 & =9 \\ 𝑥 & =3\end{aligned}
+\begin{aligned}\sqrt{2𝑥−5} & =\sqrt{4−𝑥} \\ (\sqrt{2𝑥−5})^{2} & =(\sqrt{4−𝑥})^{2} \\ 2𝑥−5 & =4−𝑥 \\ 3𝑥 & =9 \\ 𝑥 & =3\end{aligned}
 
 
 $$
@@ -76,7 +76,7 @@ Then, we check that the obtained value $x=3$ is actually a solution of the origi
 $$
 
 
-\begin{aligned}\sqrt{√2(3)−5} & \overset{=}{?}\sqrt{√4−3} \\ \sqrt{√1} & \overset{=}{?}\sqrt{√1} \\ 1 & =1\,✓\end{aligned}
+\begin{aligned}\sqrt{2(3)−5} & \overset{=}{?}\sqrt{4−3} \\ \sqrt{1} & \overset{=}{?}\sqrt{1} \\ 1 & =1\,✓\end{aligned}
 
 
 $$
@@ -96,7 +96,7 @@ Even though we have an extra term on the right-hand side, we proceed in the same
 $$
 
 
-\begin{aligned}\sqrt{√𝑥−2} & =\sqrt{√3𝑥}−2 \\ (\sqrt{√𝑥−2})^{2} & =(\sqrt{√3𝑥}−2)^{2} \\ 𝑥−2 & =(\sqrt{√3𝑥})^{2}−2\sqrt{√3𝑥}⋅2+2^{2} \\ 𝑥−2 & =3𝑥−4\sqrt{√3𝑥}+4 \\ 4\sqrt{√3𝑥} & =3𝑥−𝑥+4+2 \\ 4\sqrt{√3𝑥} & =2𝑥+6 \\ 2\sqrt{√3𝑥} & =𝑥+3.\end{aligned}
+\begin{aligned}\sqrt{𝑥−2} & =\sqrt{3𝑥}−2 \\ (\sqrt{𝑥−2})^{2} & =(\sqrt{3𝑥}−2)^{2} \\ 𝑥−2 & =(\sqrt{3𝑥})^{2}−2\sqrt{3𝑥}⋅2+2^{2} \\ 𝑥−2 & =3𝑥−4\sqrt{3𝑥}+4 \\ 4\sqrt{3𝑥} & =3𝑥−𝑥+4+2 \\ 4\sqrt{3𝑥} & =2𝑥+6 \\ 2\sqrt{3𝑥} & =𝑥+3.\end{aligned}
 
 
 $$
@@ -106,7 +106,7 @@ Now we have an equation with one square root on one side and a linear expression
 $$
 
 
-\begin{aligned}(2\sqrt{√3𝑥})^{2} & =(𝑥+3)^{2} \\ 2^{2}⋅3𝑥 & =(𝑥)^{2}+2(𝑥)⋅3+3^{2} \\ 12𝑥 & =𝑥^{2}+6𝑥+9 \\ 0 & =𝑥^{2}+6𝑥+9−12𝑥 \\ 0 & =𝑥^{2}−6𝑥+9 \\ 0 & =(𝑥−3)^{2} \\ 𝑥 & =3\end{aligned}
+\begin{aligned}(2\sqrt{3𝑥})^{2} & =(𝑥+3)^{2} \\ 2^{2}⋅3𝑥 & =(𝑥)^{2}+2(𝑥)⋅3+3^{2} \\ 12𝑥 & =𝑥^{2}+6𝑥+9 \\ 0 & =𝑥^{2}+6𝑥+9−12𝑥 \\ 0 & =𝑥^{2}−6𝑥+9 \\ 0 & =(𝑥−3)^{2} \\ 𝑥 & =3\end{aligned}
 
 
 $$
@@ -116,7 +116,7 @@ Finally, we check that the obtained value $x=3$ is actually a solution to the or
 $$
 
 
-\begin{aligned}\sqrt{√3−2} & \overset{=}{?}\sqrt{√3(3)}−2 \\ \sqrt{√1} & \overset{=}{?}3−2 \\ 1 & =1\,✓\end{aligned}
+\begin{aligned}\sqrt{3−2} & \overset{=}{?}\sqrt{3(3)}−2 \\ \sqrt{1} & \overset{=}{?}3−2 \\ 1 & =1\,✓\end{aligned}
 
 
 $$
@@ -136,7 +136,7 @@ First, we move the radicals to separate sides of the equation:
 $$
 
 
-\begin{aligned}\sqrt{√2𝑥+5}−\sqrt{√𝑥+6} & =1 \\ \sqrt{√2𝑥+5} & =\sqrt{√𝑥+6}+1\end{aligned}
+\begin{aligned}\sqrt{2𝑥+5}−\sqrt{𝑥+6} & =1 \\ \sqrt{2𝑥+5} & =\sqrt{𝑥+6}+1\end{aligned}
 
 
 $$
@@ -146,7 +146,7 @@ Then, we raise both sides to the power of $2\mathbin{:}$
 $$
 
 
-\begin{aligned}\sqrt{√2𝑥+5} & =\sqrt{√𝑥+6}+1 \\ (\sqrt{√2𝑥+5})^{2} & =(\sqrt{√𝑥+6}+1)^{2} \\ 2𝑥+5 & =(\sqrt{√𝑥+6})^{2}+2\sqrt{√𝑥+6}+1^{2} \\ 2𝑥+5 & =𝑥+7+2\sqrt{√𝑥+6} \\ 2\sqrt{√𝑥+6} & =2𝑥+5−𝑥−7 \\ 2\sqrt{√𝑥+6} & =𝑥−2\end{aligned}
+\begin{aligned}\sqrt{2𝑥+5} & =\sqrt{𝑥+6}+1 \\ (\sqrt{2𝑥+5})^{2} & =(\sqrt{𝑥+6}+1)^{2} \\ 2𝑥+5 & =(\sqrt{𝑥+6})^{2}+2\sqrt{𝑥+6}+1^{2} \\ 2𝑥+5 & =𝑥+7+2\sqrt{𝑥+6} \\ 2\sqrt{𝑥+6} & =2𝑥+5−𝑥−7 \\ 2\sqrt{𝑥+6} & =𝑥−2\end{aligned}
 
 
 $$
@@ -156,7 +156,7 @@ Now we have an equation with one square root on one side and a linear expression
 $$
 
 
-\begin{aligned}(2\sqrt{√𝑥+6})^{2} & =(𝑥−2)^{2} \\ 4(𝑥+6) & =𝑥^{2}−4𝑥+4 \\ 4𝑥+24 & =𝑥^{2}−4𝑥+4 \\ 𝑥^{2}−8𝑥−20 & =0 \\ 𝑥^{2}−10𝑥+2𝑥−20 & =0 \\ (𝑥−10)(𝑥+2) & =0 \\ 𝑥=10,−2 & \end{aligned}
+\begin{aligned}(2\sqrt{𝑥+6})^{2} & =(𝑥−2)^{2} \\ 4(𝑥+6) & =𝑥^{2}−4𝑥+4 \\ 4𝑥+24 & =𝑥^{2}−4𝑥+4 \\ 𝑥^{2}−8𝑥−20 & =0 \\ 𝑥^{2}−10𝑥+2𝑥−20 & =0 \\ (𝑥−10)(𝑥+2) & =0 \\ 𝑥=10,−2 & \end{aligned}
 
 
 $$

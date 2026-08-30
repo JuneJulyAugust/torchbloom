@@ -49,7 +49,7 @@ The given lengths are the legs of the right triangle, so let $a=8$ and $b=6.$ Ac
 $$
 
 
-\begin{aligned}𝑐^{2} & =𝑎^{2}+𝑏^{2} \\ 𝑐 & =\sqrt{√𝑎^{2}+𝑏^{2}}.\end{aligned}
+\begin{aligned}𝑐^{2} & =𝑎^{2}+𝑏^{2} \\ 𝑐 & =\sqrt{𝑎^{2}+𝑏^{2}}.\end{aligned}
 
 
 $$
@@ -59,7 +59,7 @@ Substituting in the values for $a$ and $b$ gives us
 $$
 
 
-\begin{aligned}𝑐 & =\sqrt{√(8)^{2}+(6)^{2}} \\ & =\sqrt{√64+36} \\ & =\sqrt{√100} \\ & =10.\end{aligned}
+\begin{aligned}𝑐 & =\sqrt{(8)^{2}+(6)^{2}} \\ & =\sqrt{64+36} \\ & =\sqrt{100} \\ & =10.\end{aligned}
 
 
 $$
@@ -79,7 +79,7 @@ Let $a=5,$ $b=12,$ and $c$ be the length of the hypotenuse. According to the Pyt
 $$
 
 
-\begin{aligned}𝑐^{2} & =𝑎^{2}+𝑏^{2} \\ 𝑐 & =\sqrt{√𝑎^{2}+𝑏^{2}}.\end{aligned}
+\begin{aligned}𝑐^{2} & =𝑎^{2}+𝑏^{2} \\ 𝑐 & =\sqrt{𝑎^{2}+𝑏^{2}}.\end{aligned}
 
 
 $$
@@ -89,7 +89,7 @@ Substituting in the values for $a$ and $b$ gives us
 $$
 
 
-\begin{aligned}𝑐 & =\sqrt{√(5)^{2}+(12)^{2}} \\ & =\sqrt{√25+144} \\ & =\sqrt{√169} \\ & =13.\end{aligned}
+\begin{aligned}𝑐 & =\sqrt{(5)^{2}+(12)^{2}} \\ & =\sqrt{25+144} \\ & =\sqrt{169} \\ & =13.\end{aligned}
 
 
 $$
@@ -111,7 +111,7 @@ According to the Pythagorean theorem, we obtain
 $$
 
 
-\begin{aligned}𝑐^{2} & =𝑎^{2}+𝑏^{2} \\ 𝑎^{2} & =𝑐^{2}−𝑏^{2} \\ 𝑎 & =\sqrt{√𝑐^{2}−𝑏^{2}}.\end{aligned}
+\begin{aligned}𝑐^{2} & =𝑎^{2}+𝑏^{2} \\ 𝑎^{2} & =𝑐^{2}−𝑏^{2} \\ 𝑎 & =\sqrt{𝑐^{2}−𝑏^{2}}.\end{aligned}
 
 
 $$
@@ -121,7 +121,7 @@ Substituting in the values for $b$ and $c$ gives us
 $$
 
 
-\begin{aligned}𝑎 & =\sqrt{√(15)^{2}−(9)^{2}} \\ & =\sqrt{√225−81} \\ & =\sqrt{√144} \\ & =12.\end{aligned}
+\begin{aligned}𝑎 & =\sqrt{(15)^{2}−(9)^{2}} \\ & =\sqrt{225−81} \\ & =\sqrt{144} \\ & =12.\end{aligned}
 
 
 $$

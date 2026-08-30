@@ -105,7 +105,7 @@ To find the roots of the parabola, we set $y=0$ and solve for $x$ using the squa
 $$
 
 
-\begin{aligned}(𝑥−2)^{2}−9 & =0 \\ (𝑥−2)^{2} & =9 \\ 𝑥−2 & =±\sqrt{√9} \\ 𝑥−2 & =±3 \\ 𝑥 & =2±3.\end{aligned}
+\begin{aligned}(𝑥−2)^{2}−9 & =0 \\ (𝑥−2)^{2} & =9 \\ 𝑥−2 & =±\sqrt{9} \\ 𝑥−2 & =±3 \\ 𝑥 & =2±3.\end{aligned}
 
 
 $$
@@ -145,7 +145,7 @@ This equation is difficult to factor, but we can solve it using the quadratic fo
 $$
 
 
-\begin{aligned}𝑥 & =\frac{−𝑏±\sqrt{√𝑏^{2}−4𝑎𝑐}}{2𝑎} \\ & =\frac{−(−1)±\sqrt{√(−1)^{2}−4(2)(−4)}}{2(2)} \\ & =\frac{1±\sqrt{√1+32}}{4} \\ & =\frac{1±\sqrt{√33}}{4}\end{aligned}
+\begin{aligned}𝑥 & =\frac{−𝑏±\sqrt{𝑏^{2}−4𝑎𝑐}}{2𝑎} \\ & =\frac{−(−1)±\sqrt{(−1)^{2}−4(2)(−4)}}{2(2)} \\ & =\frac{1±\sqrt{1+32}}{4} \\ & =\frac{1±\sqrt{33}}{4}\end{aligned}
 
 
 $$

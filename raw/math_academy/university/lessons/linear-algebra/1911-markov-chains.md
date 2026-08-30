@@ -216,7 +216,7 @@ After the first step, we have
 $$
 
 
-\begin{aligned}𝐱_{1} & =𝑃𝐱_{0} \\ & =[\begin{aligned}0.5 & 0.1 \\ 0.5 & 0.9\end{aligned}][\begin{aligned}0.2 \\ 0.8\end{aligned}] \\ & =[\begin{aligned}0.18 \\ 0.82\end{aligned}].\end{aligned}
+\begin{aligned}𝐱_{1} & =𝑃𝐱_{0} \\ & =[\begin{matrix}0.5 & 0.1 \\ 0.5 & 0.9\end{matrix}][\begin{matrix}0.2 \\ 0.8\end{matrix}] \\ & =[\begin{matrix}0.18 \\ 0.82\end{matrix}].\end{aligned}
 
 
 $$
@@ -226,7 +226,7 @@ Finally, after the second step, we obtain
 $$
 
 
-\begin{aligned}𝐱_{2} & =𝑃𝐱_{1} \\ & =[\begin{aligned}0.5 & 0.1 \\ 0.5 & 0.9\end{aligned}][\begin{aligned}0.18 \\ 0.82\end{aligned}] \\ & =[\begin{aligned}0.172 \\ 0.828\end{aligned}].\end{aligned}
+\begin{aligned}𝐱_{2} & =𝑃𝐱_{1} \\ & =[\begin{matrix}0.5 & 0.1 \\ 0.5 & 0.9\end{matrix}][\begin{matrix}0.18 \\ 0.82\end{matrix}] \\ & =[\begin{matrix}0.172 \\ 0.828\end{matrix}].\end{aligned}
 
 
 $$
@@ -288,7 +288,7 @@ Therefore, we have
 $$
 
 
-\begin{aligned}𝐱_{1} & =𝑃𝐱_{0} \\ & =[\begin{aligned}0.3 & 0.45 \\ 0.7 & 0.55\end{aligned}][\begin{aligned}0.6 \\ 0.4\end{aligned}] \\ & =[\begin{aligned}0.36 \\ 0.64\end{aligned}].\end{aligned}
+\begin{aligned}𝐱_{1} & =𝑃𝐱_{0} \\ & =[\begin{matrix}0.3 & 0.45 \\ 0.7 & 0.55\end{matrix}][\begin{matrix}0.6 \\ 0.4\end{matrix}] \\ & =[\begin{matrix}0.36 \\ 0.64\end{matrix}].\end{aligned}
 
 
 $$

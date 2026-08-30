@@ -32,7 +32,7 @@ To demonstrate, consider the following first-order linear ODE.
 $$
 
 
-\frac{\textrm{d}y}{\textrm{d}x} + \frac{2}{x}\, y = 3
+\frac{\text{d}y}{\text{d}x} + \frac{2}{x}\, y = 3
 
 
 $$
@@ -42,7 +42,7 @@ As it stands, this differential equation cannot be integrated directly. However,
 $$
 
 
-x^2\cdot \frac{\textrm{d}y}{\textrm{d}x} + x^2\cdot \frac{2}{x}\, y = x^2\cdot 3
+x^2\cdot \frac{\text{d}y}{\text{d}x} + x^2\cdot \frac{2}{x}\, y = x^2\cdot 3
 
 
 $$
@@ -52,7 +52,7 @@ which simplifies as follows:
 $$
 
 
-x^2 \frac{\textrm{d}y}{\textrm{d}x} + 2 x y = 3x^2 \qquad (\ast)
+x^2 \frac{\text{d}y}{\text{d}x} + 2 x y = 3x^2 \qquad (\ast)
 
 
 $$
@@ -82,7 +82,7 @@ So, our differential equation is
 $$
 
 
-\frac{\textrm{d}}{\textrm{d}x}( y \cdot x^2) = 3x^2.
+\frac{\text{d}}{\text{d}x}( y \cdot x^2) = 3x^2.
 
 
 $$
@@ -102,7 +102,7 @@ We can check that
 $$
 
 
-\frac{\textrm{d}}{\textrm{d}x}( y \cdot x^2) = 3x^2
+\frac{\text{d}}{\text{d}x}( y \cdot x^2) = 3x^2
 
 
 $$
@@ -144,12 +144,12 @@ Consider the following first-order linear ODE for the function $y = y(x)\mathbin
 $$
 
 
-\dfrac {\textrm{d}y} {\textrm{d}x} + 2y = 2e^{-2x}
+\dfrac {\text{d}y} {\text{d}x} + 2y = 2e^{-2x}
 
 
 $$
 
-Write the equation in the form $\dfrac{\textrm{d}}{\textrm{d}x}\left(y I(x) \right) = I(x)Q(x),$ where $I(x)$ is an integrating factor.
+Write the equation in the form $\dfrac{\text{d}}{\text{d}x}\left(y I(x) \right) = I(x)Q(x),$ where $I(x)$ is an integrating factor.
 
 #### Explanation
 
@@ -158,7 +158,7 @@ This equation is in the standard form
 $$
 
 
-\frac{\textrm{d}y}{\textrm{d}x} + P(x)y = Q(x)
+\frac{\text{d}y}{\text{d}x} + P(x)y = Q(x)
 
 
 $$
@@ -183,7 +183,7 @@ $$
 
 $$
 
-Finally, we rewrite the left hand side as $\dfrac{\textrm{d}}{\textrm{d}x}\left(y I(x)\right){:}$
+Finally, we rewrite the left hand side as $\dfrac{\text{d}}{\text{d}x}\left(y I(x)\right){:}$
 
 $$
 
@@ -202,7 +202,7 @@ Find the general solution of the following differential equation using the metho
 $$
 
 
-\dfrac {\textrm{d}y} {\textrm{d}x} + \dfrac {3} {x} y = \dfrac{\cos x}{x^2}, \qquad x \gt 0.
+\dfrac {\text{d}y} {\text{d}x} + \dfrac {3} {x} y = \dfrac{\cos x}{x^2}, \qquad x \gt 0.
 
 
 $$
@@ -214,7 +214,7 @@ This equation is in the standard form
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x} + P(x)y = Q(x)
+\dfrac{\text{d}y}{\text{d}x} + P(x)y = Q(x)
 
 
 $$
@@ -239,7 +239,7 @@ $$
 
 $$
 
-Finally, we rewrite the left hand side as $\dfrac{\textrm{d}}{\textrm{d}x}\left(y\cdot I(x)\right)$ and carry out the integration:
+Finally, we rewrite the left hand side as $\dfrac{\text{d}}{\text{d}x}\left(y\cdot I(x)\right)$ and carry out the integration:
 
 $$
 
@@ -278,7 +278,7 @@ Solve the following initial value problem using the method of integrating factor
 $$
 
 
-\dfrac {\textrm{d}y} {\textrm{d}x} + 3x^2y = 9x^2, \qquad y(0) = 1
+\dfrac {\text{d}y} {\text{d}x} + 3x^2y = 9x^2, \qquad y(0) = 1
 
 
 $$
@@ -290,7 +290,7 @@ This equation is in the standard form
 $$
 
 
-\frac{\textrm{d}y}{\textrm{d}x} + P(x)y = Q(x),
+\frac{\text{d}y}{\text{d}x} + P(x)y = Q(x),
 
 
 $$
@@ -356,7 +356,7 @@ Consider the first-order linear equation in standard form
 $$
 
 
-\frac{\textrm{d}y}{\textrm{d}x} + P(x)y = Q(x).
+\frac{\text{d}y}{\text{d}x} + P(x)y = Q(x).
 
 
 $$
@@ -368,7 +368,7 @@ To do that, we multiply both sides of the equation by some function $I(x)$ that 
 $$
 
 
-{\color{blue}I(x)\frac{\textrm{d}y}{\textrm{d}x} + {\color{purple}I(x)P(x)}y} = I(x)Q(x)
+{\color{blue}I(x)\frac{\text{d}y}{\text{d}x} + {\color{purple}I(x)P(x)}y} = I(x)Q(x)
 
 
 $$
@@ -378,7 +378,7 @@ We want the left-hand side to match the derivative of $y\cdot I(x)$. But by the 
 $$
 
 
-\frac{\textrm{d}}{\textrm{d}x}\Bigl(y\cdot I(x)\Bigr) = {\color{blue}I(x)\frac{\textrm{d}y}{\textrm{d}x} + {\color{purple}I'(x)}y}.
+\frac{\text{d}}{\text{d}x}\Bigl(y\cdot I(x)\Bigr) = {\color{blue}I(x)\frac{\text{d}y}{\text{d}x} + {\color{purple}I'(x)}y}.
 
 
 $$
@@ -393,7 +393,7 @@ I'(x) = I(x)P(x),
 
 $$
 
-then the left-hand side becomes $\dfrac{\textrm{d}}{\textrm{d}x}\Bigl(y\cdot I(x)\Bigr).$
+then the left-hand side becomes $\dfrac{\text{d}}{\text{d}x}\Bigl(y\cdot I(x)\Bigr).$
 
 Dividing both sides of $I'(x) = I(x)P(x)$ by $I(x)$ gives
 
@@ -420,7 +420,7 @@ Finally, because multiplying $I(x)$ by a nonzero constant does not change the me
 $$
 
 
-I(x) = e^{\int P(x)\,\textrm{d}x}.
+I(x) = e^{\int P(x)\,\text{d}x}.
 
 
 $$

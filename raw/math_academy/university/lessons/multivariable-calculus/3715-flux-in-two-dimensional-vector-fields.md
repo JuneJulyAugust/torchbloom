@@ -32,7 +32,7 @@ If $\mathbf{F}(x,y)$ is a vector field on $\mathbb{R}^2$ and $C$ is a piecewise-
 $$
 
 
-\oint\limits_C \mathbf F \cdot \mathbf{n} \: \textrm{d}s,
+\oint\limits_C \mathbf F \cdot \mathbf{n} \: \text{d}s,
 
 
 $$
@@ -72,7 +72,7 @@ The expression above represents the flow of $\mathbf F$ through $C$ at a single 
 $$
 
 
-\oint\limits_C \mathbf F \cdot \mathbf{n} \: \textrm{d}s.
+\oint\limits_C \mathbf F \cdot \mathbf{n} \: \text{d}s.
 
 
 $$
@@ -92,7 +92,7 @@ Therefore, the flux of $\mathbf F$ across $C$ is positive, and we have
 $$
 
 
-\oint\limits_C \mathbf F \cdot \mathbf{n} \: \textrm{d}s > 0.
+\oint\limits_C \mathbf F \cdot \mathbf{n} \: \text{d}s > 0.
 
 
 $$
@@ -106,7 +106,7 @@ So, the flux of $\mathbf F$ across $-C$ is also positive, and we have
 $$
 
 
-\oint\limits_{-C} \mathbf F \cdot \mathbf{n} \: \textrm{d}s > 0.
+\oint\limits_{-C} \mathbf F \cdot \mathbf{n} \: \text{d}s > 0.
 
 
 $$
@@ -134,7 +134,7 @@ If $\mathbf{F}$ is a vector field and $C$ is a piecewise-smooth, simple, closed 
 $$
 
 
-\oint\limits_C \mathbf F \cdot \mathbf{n} \: \textrm{d}s,
+\oint\limits_C \mathbf F \cdot \mathbf{n} \: \text{d}s,
 
 
 $$
@@ -170,7 +170,7 @@ To calculate the flux of a vector field over a smooth, closed curve, we can use 
 $$
 
 
-\oint\limits_C \mathbf F \cdot \mathbf{n} \: \textrm{d}s.
+\oint\limits_C \mathbf F \cdot \mathbf{n} \: \text{d}s.
 
 
 $$
@@ -180,7 +180,7 @@ If $C=C_1\cup C_2 \cup \cdots \cup C_n$ is piecewise smooth, we have to calculat
 $$
 
 
-\oint\limits_C \mathbf F \cdot \mathbf{n} \: \textrm{d}s = \int\limits_{C_1} \mathbf F \cdot \mathbf{n} \: \textrm{d}s + \int\limits_{C_2} \mathbf F \cdot \mathbf{n} \: \textrm{d}s + \cdots + \int\limits_{C_n} \mathbf F \cdot \mathbf{n} \: \textrm{d}s,
+\oint\limits_C \mathbf F \cdot \mathbf{n} \: \text{d}s = \int\limits_{C_1} \mathbf F \cdot \mathbf{n} \: \text{d}s + \int\limits_{C_2} \mathbf F \cdot \mathbf{n} \: \text{d}s + \cdots + \int\limits_{C_n} \mathbf F \cdot \mathbf{n} \: \text{d}s,
 
 
 $$
@@ -196,7 +196,7 @@ To calculate the flux of $\mathbf F$ over $C,$ we sum the fluxes of $\mathbf F$ 
 $$
 
 
-\oint\limits_{C} \mathbf F \cdot \mathbf{n} \: \textrm{d}s = \int\limits_{C_1} \mathbf F \cdot \mathbf{n} \: \textrm{d}s + \int\limits_{C_2} \mathbf F \cdot \mathbf{n} \: \textrm{d}s + \int\limits_{C_3} \mathbf F \cdot \mathbf{n} \: \textrm{d}s + \int\limits_{C_4} \mathbf F \cdot \mathbf{n} \: \textrm{d}s
+\oint\limits_{C} \mathbf F \cdot \mathbf{n} \: \text{d}s = \int\limits_{C_1} \mathbf F \cdot \mathbf{n} \: \text{d}s + \int\limits_{C_2} \mathbf F \cdot \mathbf{n} \: \text{d}s + \int\limits_{C_3} \mathbf F \cdot \mathbf{n} \: \text{d}s + \int\limits_{C_4} \mathbf F \cdot \mathbf{n} \: \text{d}s
 
 
 $$
@@ -206,7 +206,7 @@ To demonstrate how to compute these integrals, let's construct the flux integral
 $$
 
 
-\int\limits_{C_4} \mathbf F \cdot \mathbf{n} \: \textrm{d}s.
+\int\limits_{C_4} \mathbf F \cdot \mathbf{n} \: \text{d}s.
 
 
 $$
@@ -262,7 +262,7 @@ If $\mathbf{F}$ is a vector field and $C$ is a piecewise-smooth, simple, closed 
 $$
 
 
-\oint\limits_C \mathbf F \cdot \mathbf{n} \: \textrm{d}s,
+\oint\limits_C \mathbf F \cdot \mathbf{n} \: \text{d}s,
 
 
 $$
@@ -296,7 +296,7 @@ If $\mathbf{F}$ is a vector field and $C$ is a piecewise-smooth, simple, closed 
 $$
 
 
-\oint\limits_C \mathbf F \cdot \mathbf{n} \: \textrm{d}s,
+\oint\limits_C \mathbf F \cdot \mathbf{n} \: \text{d}s,
 
 
 $$
@@ -306,7 +306,7 @@ where $\mathbf{n}$ denotes the outward-pointing unit normal vector to $C.$ In th
 $$
 
 
-\oint\limits_C \mathbf F \cdot \mathbf{n} \: \textrm{d}s = \int\limits_{C_1} \mathbf F \cdot \mathbf{n}_1 \: \textrm{d}s + \int\limits_{C_2} \mathbf F \cdot \mathbf{n}_2 \: \textrm{d}s + \int\limits_{C_3} \mathbf F \cdot \mathbf{n}_3 \: \textrm{d}s + \int\limits_{C_4} \mathbf F \cdot \mathbf{n}_4 \: \textrm{d}s,
+\oint\limits_C \mathbf F \cdot \mathbf{n} \: \text{d}s = \int\limits_{C_1} \mathbf F \cdot \mathbf{n}_1 \: \text{d}s + \int\limits_{C_2} \mathbf F \cdot \mathbf{n}_2 \: \text{d}s + \int\limits_{C_3} \mathbf F \cdot \mathbf{n}_3 \: \text{d}s + \int\limits_{C_4} \mathbf F \cdot \mathbf{n}_4 \: \text{d}s,
 
 
 $$
@@ -320,7 +320,7 @@ Since the vector field $\mathbf F = -5\,\mathbf i$ is parallel to $C_2$ and $C_4
 $$
 
 
-\int\limits_{C_2} \mathbf F \cdot \mathbf{n}_2 \: \textrm{d}s = \int\limits_{C_4} \mathbf F \cdot \mathbf{n}_4 \: \textrm{d}s = 0.
+\int\limits_{C_2} \mathbf F \cdot \mathbf{n}_2 \: \text{d}s = \int\limits_{C_4} \mathbf F \cdot \mathbf{n}_4 \: \text{d}s = 0.
 
 
 $$
@@ -342,7 +342,7 @@ So, our expression for the flux reduces to
 $$
 
 
-\oint\limits_C \mathbf F \cdot \mathbf{n} \: \textrm{d}s = \int\limits_{C_1} \mathbf F \cdot \mathbf{n}_1 \: \textrm{d}s + \int\limits_{C_3} \mathbf F \cdot \mathbf{n}_3 \: \textrm{d}s.
+\oint\limits_C \mathbf F \cdot \mathbf{n} \: \text{d}s = \int\limits_{C_1} \mathbf F \cdot \mathbf{n}_1 \: \text{d}s + \int\limits_{C_3} \mathbf F \cdot \mathbf{n}_3 \: \text{d}s.
 
 
 $$
@@ -352,7 +352,7 @@ Since the vector field is uniform, the net inflow through $C_1$ will cancel with
 $$
 
 
-\int\limits_{C_1} \mathbf F \cdot \mathbf{n}_1 \: \textrm{d}s = -\int\limits_{C_3} \mathbf F \cdot \mathbf{n}_3 \: \textrm{d}s \quad\Longrightarrow\quad \int\limits_{C_1} \mathbf F \cdot \mathbf{n}_1 \: \textrm{d}s +\int\limits_{C_3} \mathbf F \cdot \mathbf{n}_3 \: \textrm{d}s =0.
+\int\limits_{C_1} \mathbf F \cdot \mathbf{n}_1 \: \text{d}s = -\int\limits_{C_3} \mathbf F \cdot \mathbf{n}_3 \: \text{d}s \quad\Longrightarrow\quad \int\limits_{C_1} \mathbf F \cdot \mathbf{n}_1 \: \text{d}s +\int\limits_{C_3} \mathbf F \cdot \mathbf{n}_3 \: \text{d}s =0.
 
 
 $$
@@ -362,7 +362,7 @@ Therefore, we conclude that
 $$
 
 
-\oint\limits_C \mathbf F \cdot \mathbf{n} \: \textrm{d}s = 0.
+\oint\limits_C \mathbf F \cdot \mathbf{n} \: \text{d}s = 0.
 
 
 $$
@@ -384,7 +384,7 @@ If $\mathbf{F}$ is a vector field and $C$ is a piecewise-smooth, simple, closed 
 $$
 
 
-\oint\limits_C \mathbf F \cdot \mathbf{n} \: \textrm{d}s,
+\oint\limits_C \mathbf F \cdot \mathbf{n} \: \text{d}s,
 
 
 $$
@@ -394,7 +394,7 @@ where $\mathbf{n}$ denotes the outward-pointing unit normal vector to $C.$ In th
 $$
 
 
-\oint\limits_C \mathbf F \cdot \mathbf{n} \: \textrm{d}s = \int\limits_{C_1} \mathbf F \cdot \mathbf{n}_1 \: \textrm{d}s + \int\limits_{C_2} \mathbf F \cdot \mathbf{n}_2 \: \textrm{d}s + \int\limits_{C_3} \mathbf F \cdot \mathbf{n}_3 \: \textrm{d}s + \int\limits_{C_4} \mathbf F \cdot \mathbf{n}_4 \: \textrm{d}s,
+\oint\limits_C \mathbf F \cdot \mathbf{n} \: \text{d}s = \int\limits_{C_1} \mathbf F \cdot \mathbf{n}_1 \: \text{d}s + \int\limits_{C_2} \mathbf F \cdot \mathbf{n}_2 \: \text{d}s + \int\limits_{C_3} \mathbf F \cdot \mathbf{n}_3 \: \text{d}s + \int\limits_{C_4} \mathbf F \cdot \mathbf{n}_4 \: \text{d}s,
 
 
 $$
@@ -428,7 +428,7 @@ Therefore,
 $$
 
 
-\begin{aligned}2∫_{𝐶_{1}}𝑥\,d𝑠 & =2∫_{1−1}^{}1⋅||𝐫^{′}(𝑡)||\,d𝑡 \\ & =2∫_{1−1}^{}d𝑡 \\ & =2(1−(−1)) \\ & =2⋅2 \\ & =4.\end{aligned}
+\begin{aligned}2∫_{𝐶_{1}}𝑥\,d𝑠 & =2∫_{1−1}1⋅||𝐫^{′}(𝑡)||\,d𝑡 \\ & =2∫_{1−1}d𝑡 \\ & =2(1−(−1)) \\ & =2⋅2 \\ & =4.\end{aligned}
 
 
 $$
@@ -438,7 +438,7 @@ By symmetry, the flux integrals over the sides $C_2, C_3,$ and $C_4$ must be the
 $$
 
 
-\oint\limits_C \mathbf F \cdot \mathbf{n} \: \textrm{d}s = 4\cdot 4 = 16.
+\oint\limits_C \mathbf F \cdot \mathbf{n} \: \text{d}s = 4\cdot 4 = 16.
 
 
 $$
@@ -458,7 +458,7 @@ If $\mathbf{F}$ is a vector field and $C$ is a piecewise-smooth, simple, closed 
 $$
 
 
-\oint\limits_C \mathbf F \cdot \mathbf{n} \: \textrm{d}s,
+\oint\limits_C \mathbf F \cdot \mathbf{n} \: \text{d}s,
 
 
 $$
@@ -468,7 +468,7 @@ where $\mathbf{n}$ denotes the outward-pointing unit normal vector to $C.$ In th
 $$
 
 
-\oint\limits_C \mathbf F \cdot \mathbf{n} \: \textrm{d}s = \int\limits_{C_1} \mathbf F \cdot \mathbf{n}_1 \: \textrm{d}s + \int\limits_{C_2} \mathbf F \cdot \mathbf{n}_2 \: \textrm{d}s + \int\limits_{C_3} \mathbf F \cdot \mathbf{n}_3 \: \textrm{d}s + \int\limits_{C_4} \mathbf F \cdot \mathbf{n}_4 \: \textrm{d}s,
+\oint\limits_C \mathbf F \cdot \mathbf{n} \: \text{d}s = \int\limits_{C_1} \mathbf F \cdot \mathbf{n}_1 \: \text{d}s + \int\limits_{C_2} \mathbf F \cdot \mathbf{n}_2 \: \text{d}s + \int\limits_{C_3} \mathbf F \cdot \mathbf{n}_3 \: \text{d}s + \int\limits_{C_4} \mathbf F \cdot \mathbf{n}_4 \: \text{d}s,
 
 
 $$

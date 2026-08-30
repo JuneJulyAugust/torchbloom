@@ -23,11 +23,11 @@ To convert between customary units of mass, we use the following unit conversion
 
 We can think of unit conversions of mass concretely by picturing a set of weighing scales.
 
-For example, if we placed a $1\,\textrm{lb}$ mass on one scale and sixteen $1\,\textrm{oz}$ masses on the other, the scales would balance perfectly.
+For example, if we placed a $1\,\text{lb}$ mass on one scale and sixteen $1\,\text{oz}$ masses on the other, the scales would balance perfectly.
 
 ![Instructional graphic](../../../lesson-assets/grade-5/topic-3975/86e9b3e9783ae0ce.png)
 
-Similarly, we can picture a set of weighing scales showing the equivalence between $1$ ton and $2,000\,\textrm{lb}.$
+Similarly, we can picture a set of weighing scales showing the equivalence between $1$ ton and $2,000\,\text{lb}.$
 
 ![Instructional graphic](../../../lesson-assets/grade-5/topic-3975/98a84a3003bf13e6.png)
 
@@ -39,7 +39,7 @@ For example, suppose we want to convert $320$ ounces to pounds. We start with th
 
 $$
 
-1\, \textrm{pound} =16\, \textrm{ounces}
+1\, \text{pound} =16\, \text{ounces}
 
 $$
 
@@ -47,11 +47,11 @@ Since we are converting *from* ounces *to* pounds, we divide both sides of the a
 
 $$
 
-\dfrac{1}{16} \, \textrm{pounds} = 1 \, \textrm{ounce}
+\dfrac{1}{16} \, \text{pounds} = 1 \, \text{ounce}
 
 $$
 
-The right-hand side reads $1\,\textrm{ounce},$ and we want to know how many pounds are in $\color{blue}320$ ounces. So, we multiply *both* sides of this equation by ${\color{blue}{320}}.$
+The right-hand side reads $1\,\text{ounce},$ and we want to know how many pounds are in $\color{blue}320$ ounces. So, we multiply *both* sides of this equation by ${\color{blue}{320}}.$
 
 $$
 
@@ -65,7 +65,7 @@ Therefore, $320$ ounces equals $20$ pounds.
 
 #### Question
 
-What is $132\,\textrm{oz}$ in $\textrm{lb}?$
+What is $132\,\text{oz}$ in $\text{lb}?$
 
 #### Explanation
 
@@ -75,7 +75,7 @@ We start with the unit conversion between pounds and ounces:
 
 $$
 
-1\, \textrm{lb} =16\, \textrm{oz}
+1\, \text{lb} =16\, \text{oz}
 
 $$
 
@@ -83,7 +83,7 @@ Now, we divide both sides by $16$ and obtain the following:
 
 $$
 
-\dfrac{1}{16} \, \textrm{lb} = 1 \, \textrm{oz}
+\dfrac{1}{16} \, \text{lb} = 1 \, \text{oz}
 
 $$
 
@@ -95,13 +95,13 @@ $$
 
 $$
 
-Therefore, $132\,\textrm{oz}$ equals $8\,\dfrac{1}{4}\,\textrm{lb}.$
+Therefore, $132\,\text{oz}$ equals $8\,\dfrac{1}{4}\,\text{lb}.$
 
 ### Example: Converting From Pounds to Tons
 
 #### Question
 
-How many tons are in $1,600\,\textrm{lb}?$
+How many tons are in $1,600\,\text{lb}?$
 
 #### Explanation
 
@@ -111,7 +111,7 @@ We start with the unit conversion between tons and pounds:
 
 $$
 
-1\, \textrm{ton} =2,000\, \textrm{pounds}
+1\, \text{ton} =2,000\, \text{pounds}
 
 $$
 
@@ -119,7 +119,7 @@ Now, we divide both sides by $2,000$ and obtain the following:
 
 $$
 
-\dfrac{1}{2,000} \, \textrm{tons} =1\, \textrm{pound}
+\dfrac{1}{2,000} \, \text{tons} =1\, \text{pound}
 
 $$
 
@@ -147,7 +147,7 @@ Let's get some practice at converting between metric units of mass.
 
 #### Question
 
-What is $15,100\,\textrm{g}$ measured in $\textrm{kg}?$
+What is $15,100\,\text{g}$ measured in $\text{kg}?$
 
 #### Explanation
 
@@ -157,7 +157,7 @@ We start with the unit conversion between kilograms and grams:
 
 $$
 
-1 \,\textrm{kg} = 1,000 \,\textrm{g}
+1 \,\text{kg} = 1,000 \,\text{g}
 
 $$
 
@@ -165,7 +165,7 @@ Now, we divide both sides by $1,000$ and obtain the following:
 
 $$
 
-\dfrac{1}{1,000} \,\textrm{kg} = 1 \,\textrm{g}
+\dfrac{1}{1,000} \,\text{kg} = 1 \,\text{g}
 
 $$
 
@@ -177,13 +177,13 @@ $$
 
 $$
 
-Therefore, $15,100 \, \textrm{g}$ equals $15.1 \, \textrm{kg}.$
+Therefore, $15,100 \, \text{g}$ equals $15.1 \, \text{kg}.$
 
 ### Example: Converting From Milligrams to Grams
 
 #### Question
 
-Express $47\,\textrm{mg}$ in grams.
+Express $47\,\text{mg}$ in grams.
 
 #### Explanation
 
@@ -193,7 +193,7 @@ We start with the unit conversion between grams and milligrams:
 
 $$
 
-1 \,\textrm{g} = 1,000 \,\textrm{mg}
+1 \,\text{g} = 1,000 \,\text{mg}
 
 $$
 
@@ -201,7 +201,7 @@ Now, we divide both sides by $1,000$ and obtain the following:
 
 $$
 
-\dfrac{1}{1,000} \,\textrm{g} = 1 \,\textrm{mg}
+\dfrac{1}{1,000} \,\text{g} = 1 \,\text{mg}
 
 $$
 
@@ -213,4 +213,4 @@ $$
 
 $$
 
-Therefore, $47\, \textrm{mg}$ equals $0.047 \, \textrm{g}.$
+Therefore, $47\, \text{mg}$ equals $0.047 \, \text{g}.$

@@ -203,7 +203,7 @@ and our computation reduces to
 $$
 
 
-\begin{aligned}𝐚⋅𝐛 & =(3⋅4)\overset{\overset{𝐢⋅𝐢}{}}{=1}+(3⋅6)\overset{\overset{𝐢⋅𝐣}{}}{=0}+(−5⋅4)\overset{\overset{𝐣⋅𝐢}{}}{=0}+(−5⋅6)\overset{\overset{𝐣⋅𝐣}{}}{=1} \\ & =(3⋅4)⋅1+(3⋅6)⋅0+(−5⋅4)⋅0+(−5⋅6)⋅1 \\ & =(3⋅4)+(−5⋅6).\end{aligned}
+\begin{aligned}𝐚⋅𝐛 & =(3⋅4)\overset{𝐢⋅𝐢}{=1}+(3⋅6)\overset{𝐢⋅𝐣}{=0}+(−5⋅4)\overset{𝐣⋅𝐢}{=0}+(−5⋅6)\overset{𝐣⋅𝐣}{=1} \\ & =(3⋅4)⋅1+(3⋅6)⋅0+(−5⋅4)⋅0+(−5⋅6)⋅1 \\ & =(3⋅4)+(−5⋅6).\end{aligned}
 
 
 $$

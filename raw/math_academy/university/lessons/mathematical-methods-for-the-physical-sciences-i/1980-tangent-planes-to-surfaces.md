@@ -54,7 +54,7 @@ Next, we evaluate the partial derivatives at $(x,y) = (0,\sqrt{2})\mathbin{:}$
 $$
 
 
-\begin{aligned}\frac{𝜕𝑓}{𝜕𝑥}(0,\sqrt{√2}) & =−2(0)=0 \\ \frac{𝜕𝑓}{𝜕𝑦}(0,\sqrt{√2}) & =−2(\sqrt{√2})=−2\sqrt{√2}\end{aligned}
+\begin{aligned}\frac{𝜕𝑓}{𝜕𝑥}(0,\sqrt{2}) & =−2(0)=0 \\ \frac{𝜕𝑓}{𝜕𝑦}(0,\sqrt{2}) & =−2(\sqrt{2})=−2\sqrt{2}\end{aligned}
 
 
 $$
@@ -64,7 +64,7 @@ Finally, we write down the equation of the tangent plane:
 $$
 
 
-\begin{aligned}𝑧−2 & =(𝑥−0)\frac{𝜕𝑓}{𝜕𝑥}(0,\sqrt{√2})+(𝑦−\sqrt{√2})\frac{𝜕𝑓}{𝜕𝑦}(0,\sqrt{√2}) \\ 𝑧−2 & =0(𝑥−0)−2\sqrt{√2}(𝑦−\sqrt{√2}) \\ 𝑧−2 & =−2\sqrt{√2}𝑦+4 \\ 2\sqrt{√2}𝑦+𝑧−6 & =0\end{aligned}
+\begin{aligned}𝑧−2 & =(𝑥−0)\frac{𝜕𝑓}{𝜕𝑥}(0,\sqrt{2})+(𝑦−\sqrt{2})\frac{𝜕𝑓}{𝜕𝑦}(0,\sqrt{2}) \\ 𝑧−2 & =0(𝑥−0)−2\sqrt{2}(𝑦−\sqrt{2}) \\ 𝑧−2 & =−2\sqrt{2}𝑦+4 \\ 2\sqrt{2}𝑦+𝑧−6 & =0\end{aligned}
 
 
 $$

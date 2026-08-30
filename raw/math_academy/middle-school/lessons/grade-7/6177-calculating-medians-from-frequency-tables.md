@@ -48,7 +48,7 @@ $$
 
 
 
-\textrm{Median} = {\color{blue}\mathbf3}.
+\text{Median} = {\color{blue}\mathbf3}.
 
 
 
@@ -160,7 +160,7 @@ $$
 
 
 
-\dfrac{10}{2} = 5\textrm{th} \qquad\text{and}\qquad 5+1 = 6\textrm{th}.
+\dfrac{10}{2} = 5\text{th} \qquad\text{and}\qquad 5+1 = 6\text{th}.
 
 
 
@@ -210,7 +210,7 @@ $$
 
 
 
-\dfrac{20}{2} = 10\textrm{th} \qquad\text{and}\qquad 10+1 = 11\textrm{th}
+\dfrac{20}{2} = 10\text{th} \qquad\text{and}\qquad 10+1 = 11\text{th}
 
 
 
@@ -264,7 +264,7 @@ $$
 
 
 
-\dfrac{{\color{blue}17} + 1}{2} = \dfrac{18}{2} = {\color{red}9\textrm{th}}
+\dfrac{{\color{blue}17} + 1}{2} = \dfrac{18}{2} = {\color{red}9\text{th}}
 
 
 
@@ -316,7 +316,7 @@ $$
 
 
 
-\dfrac{26}{2} = 13\textrm{th} \qquad \text{and} \qquad 13 + 1 = 14\textrm{th}
+\dfrac{26}{2} = 13\text{th} \qquad \text{and} \qquad 13 + 1 = 14\text{th}
 
 
 

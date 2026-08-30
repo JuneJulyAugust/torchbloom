@@ -61,7 +61,7 @@ When we extend the natural numbers by joining them with zero and the negative wh
 $$
 
 
-\overbrace{ \ldots, {\color{red}-5},\: {\color{red}-4},\: {\color{red}-3},\: {\color{red}-2},\: {\color{red}-1},\: {\color{red}0}, \: \!\underbrace{ {\color{blue}1},\: {\color{blue}2}, \: {\color{blue}3},\: {\color{blue}4},\: {\color{blue}5},\ldots }_{\large\textrm{Natural numbers}} }^{\large\textrm{Integers}}
+\overbrace{ \ldots, {\color{red}-5},\: {\color{red}-4},\: {\color{red}-3},\: {\color{red}-2},\: {\color{red}-1},\: {\color{red}0}, \: \!\underbrace{ {\color{blue}1},\: {\color{blue}2}, \: {\color{blue}3},\: {\color{blue}4},\: {\color{blue}5},\ldots }_{\large\text{Natural numbers}} }^{\large\text{Integers}}
 
 
 $$

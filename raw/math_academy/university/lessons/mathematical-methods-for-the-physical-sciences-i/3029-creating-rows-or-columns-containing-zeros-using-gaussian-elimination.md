@@ -30,7 +30,7 @@ First, we subtract $3$ times the first row from the second row.
 $$
 
 
-\begin{aligned}𝐴= & \begin{aligned}1 & 1 & −4 \\ 3 & 2 & −2 \\ −5 & −3 & 6\end{aligned} & & \,\begin{aligned}𝑅_{2}:=𝑅_{2}−3𝑅_{1}\end{aligned} \\ ∼ & \begin{aligned}1 & 1 & −4 \\ 0 & −1 & 10 \\ −5 & −3 & 6\end{aligned} & & \end{aligned}
+\begin{aligned}𝐴= & \begin{matrix}1 & 1 & −4 \\ 3 & 2 & −2 \\ −5 & −3 & 6\end{matrix} & & \,\begin{matrix}𝑅_{2}:=𝑅_{2}−3𝑅_{1}\end{matrix} \\ ∼ & \begin{matrix}1 & 1 & −4 \\ 0 & −1 & 10 \\ −5 & −3 & 6\end{matrix} & & \end{aligned}
 
 
 $$
@@ -40,7 +40,7 @@ Then, we add $5$ times the first row to the third row.
 $$
 
 
-\begin{aligned} & \begin{aligned}1 & 1 & −4 \\ 0 & −1 & 10 \\ −5 & −3 & 6\end{aligned} & & \,\begin{aligned}𝑅_{3}:=𝑅_{3}+5𝑅_{1}\end{aligned} \\ ∼ & \begin{aligned}1 & 1 & −4 \\ 0 & −1 & 10 \\ 0 & 2 & −14\end{aligned} & & \end{aligned}
+\begin{aligned} & \begin{matrix}1 & 1 & −4 \\ 0 & −1 & 10 \\ −5 & −3 & 6\end{matrix} & & \,\begin{matrix}𝑅_{3}:=𝑅_{3}+5𝑅_{1}\end{matrix} \\ ∼ & \begin{matrix}1 & 1 & −4 \\ 0 & −1 & 10 \\ 0 & 2 & −14\end{matrix} & & \end{aligned}
 
 
 $$
@@ -70,7 +70,7 @@ To do this, we can apply the following elementary row operations:
 $$
 
 
-\begin{aligned}𝐴 & =\begin{aligned}1 & 4 & −7 \\ 2 & 2 & −8 \\ −3 & −2 & 1\end{aligned} & & \,\begin{aligned}𝑅_{2}:=𝑅_{2}−2𝑅_{1}\end{aligned} \\ & ∼\begin{aligned}1 & 4 & −7 \\ 0 & −6 & 6 \\ −3 & −2 & 1\end{aligned} & & \,\begin{aligned}𝑅_{3}:=𝑅_{3}+3𝑅_{1}\end{aligned} \\ & ∼\begin{aligned}1 & 4 & −7 \\ 0 & −6 & 6 \\ 0 & 10 & −20\end{aligned} & & \\ & =𝐵 & & \end{aligned}
+\begin{aligned}𝐴 & =\begin{matrix}1 & 4 & −7 \\ 2 & 2 & −8 \\ −3 & −2 & 1\end{matrix} & & \,\begin{matrix}𝑅_{2}:=𝑅_{2}−2𝑅_{1}\end{matrix} \\ & ∼\begin{matrix}1 & 4 & −7 \\ 0 & −6 & 6 \\ −3 & −2 & 1\end{matrix} & & \,\begin{matrix}𝑅_{3}:=𝑅_{3}+3𝑅_{1}\end{matrix} \\ & ∼\begin{matrix}1 & 4 & −7 \\ 0 & −6 & 6 \\ 0 & 10 & −20\end{matrix} & & \\ & =𝐵 & & \end{aligned}
 
 
 $$
@@ -110,7 +110,7 @@ To do this, we can apply the following elementary row operations:
 $$
 
 
-\begin{aligned}𝐴 & =\begin{aligned}−1 & 2 & 1 & 5 \\ 1 & 1 & 2 & −1 \\ −1 & 3 & 1 & 1 \\ 0 & −2 & 1 & 5\end{aligned} & & \,\begin{aligned}𝑅_{1}:=𝑅_{1}−2𝑅_{2}\end{aligned} \\ & ∼\begin{aligned}−3 & 0 & −3 & 7 \\ 1 & 1 & 2 & −1 \\ −1 & 3 & 1 & 1 \\ 0 & −2 & 1 & 5\end{aligned} & & \,\begin{aligned}𝑅_{3}:=𝑅_{3}−3𝑅_{2}\end{aligned} \\ & ∼\begin{aligned}−3 & 0 & −3 & 7 \\ 1 & 1 & 2 & −1 \\ −4 & 0 & −5 & 4 \\ 0 & −2 & 1 & 5\end{aligned} & & \,\begin{aligned}𝑅_{4}:=𝑅_{4}+2𝑅_{2}\end{aligned} \\ & ∼\begin{aligned}−3 & 0 & −3 & 7 \\ 1 & 1 & 2 & −1 \\ −4 & 0 & −5 & 4 \\ 2 & 0 & 5 & 3\end{aligned} & & \\ & =𝐵 & & \end{aligned}
+\begin{aligned}𝐴 & =\begin{matrix}−1 & 2 & 1 & 5 \\ 1 & 1 & 2 & −1 \\ −1 & 3 & 1 & 1 \\ 0 & −2 & 1 & 5\end{matrix} & & \,\begin{matrix}𝑅_{1}:=𝑅_{1}−2𝑅_{2}\end{matrix} \\ & ∼\begin{matrix}−3 & 0 & −3 & 7 \\ 1 & 1 & 2 & −1 \\ −1 & 3 & 1 & 1 \\ 0 & −2 & 1 & 5\end{matrix} & & \,\begin{matrix}𝑅_{3}:=𝑅_{3}−3𝑅_{2}\end{matrix} \\ & ∼\begin{matrix}−3 & 0 & −3 & 7 \\ 1 & 1 & 2 & −1 \\ −4 & 0 & −5 & 4 \\ 0 & −2 & 1 & 5\end{matrix} & & \,\begin{matrix}𝑅_{4}:=𝑅_{4}+2𝑅_{2}\end{matrix} \\ & ∼\begin{matrix}−3 & 0 & −3 & 7 \\ 1 & 1 & 2 & −1 \\ −4 & 0 & −5 & 4 \\ 2 & 0 & 5 & 3\end{matrix} & & \\ & =𝐵 & & \end{aligned}
 
 
 $$
@@ -160,7 +160,7 @@ To do this, we can apply the following elementary column operations:
 $$
 
 
-\begin{aligned}𝐴 & =\begin{aligned}−6 & −5 & 1 \\ 8 & 3 & −4 \\ 9 & 7 & −2\end{aligned} & & \,\begin{aligned}𝐶_{1}:=𝐶_{1}+6𝐶_{3}\end{aligned} \\ & ∼\begin{aligned}0 & −5 & 1 \\ −16 & 3 & −4 \\ −3 & 7 & −2\end{aligned} & & \,\begin{aligned}𝐶_{2}:=𝐶_{2}+5𝐶_{3}\end{aligned} \\ & ∼\begin{aligned}0 & 0 & 1 \\ −16 & −17 & −4 \\ −3 & −3 & −2\end{aligned} & & \\ & =𝐵 & & \end{aligned}
+\begin{aligned}𝐴 & =\begin{matrix}−6 & −5 & 1 \\ 8 & 3 & −4 \\ 9 & 7 & −2\end{matrix} & & \,\begin{matrix}𝐶_{1}:=𝐶_{1}+6𝐶_{3}\end{matrix} \\ & ∼\begin{matrix}0 & −5 & 1 \\ −16 & 3 & −4 \\ −3 & 7 & −2\end{matrix} & & \,\begin{matrix}𝐶_{2}:=𝐶_{2}+5𝐶_{3}\end{matrix} \\ & ∼\begin{matrix}0 & 0 & 1 \\ −16 & −17 & −4 \\ −3 & −3 & −2\end{matrix} & & \\ & =𝐵 & & \end{aligned}
 
 
 $$
@@ -200,7 +200,7 @@ To do this, we can apply the following elementary column operations:
 $$
 
 
-\begin{aligned}𝐴 & =\begin{aligned}7 & −3 & −1 & −6 \\ 7 & −2 & −2 & −4 \\ −5 & 1 & 4 & 2 \\ −8 & −3 & −6 & −4\end{aligned} & & \,\begin{aligned}𝐶_{1}:=𝐶_{1}+5𝐶_{2}\end{aligned} \\ & ∼\begin{aligned}−8 & −3 & −1 & −6 \\ −3 & −2 & −2 & −4 \\ 0 & 1 & 4 & 2 \\ −23 & −3 & −6 & −4\end{aligned} & & \,\begin{aligned}𝐶_{3}:=𝐶_{3}−4𝐶_{2}\end{aligned} \\ & ∼\begin{aligned}−8 & −3 & 11 & −6 \\ −3 & −2 & 6 & −4 \\ 0 & 1 & 0 & 2 \\ −23 & −3 & 6 & −4\end{aligned} & & \,\begin{aligned}𝐶_{4}:=𝐶_{4}−2𝐶_{2}\end{aligned} \\ & ∼\begin{aligned}−8 & −3 & 11 & 0 \\ −3 & −2 & 6 & 0 \\ 0 & 1 & 0 & 0 \\ −23 & −3 & 6 & 2\end{aligned} & & \\ & =𝐵 & & \end{aligned}
+\begin{aligned}𝐴 & =\begin{matrix}7 & −3 & −1 & −6 \\ 7 & −2 & −2 & −4 \\ −5 & 1 & 4 & 2 \\ −8 & −3 & −6 & −4\end{matrix} & & \,\begin{matrix}𝐶_{1}:=𝐶_{1}+5𝐶_{2}\end{matrix} \\ & ∼\begin{matrix}−8 & −3 & −1 & −6 \\ −3 & −2 & −2 & −4 \\ 0 & 1 & 4 & 2 \\ −23 & −3 & −6 & −4\end{matrix} & & \,\begin{matrix}𝐶_{3}:=𝐶_{3}−4𝐶_{2}\end{matrix} \\ & ∼\begin{matrix}−8 & −3 & 11 & −6 \\ −3 & −2 & 6 & −4 \\ 0 & 1 & 0 & 2 \\ −23 & −3 & 6 & −4\end{matrix} & & \,\begin{matrix}𝐶_{4}:=𝐶_{4}−2𝐶_{2}\end{matrix} \\ & ∼\begin{matrix}−8 & −3 & 11 & 0 \\ −3 & −2 & 6 & 0 \\ 0 & 1 & 0 & 0 \\ −23 & −3 & 6 & 2\end{matrix} & & \\ & =𝐵 & & \end{aligned}
 
 
 $$

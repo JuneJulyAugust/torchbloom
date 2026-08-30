@@ -24,13 +24,13 @@ $$
 
 $$
 
-Most calculators don't have a $\textrm{arcsec}{x}$ button, so we can't get a principal value immediately. However, by rewriting the equation in terms of $\cos{x}$, we can get a principal value:
+Most calculators don't have a $\text{arcsec}{x}$ button, so we can't get a principal value immediately. However, by rewriting the equation in terms of $\cos{x}$, we can get a principal value:
 
 $$
 
 
 
-\begin{aligned}sec⁡𝑥 & =\sqrt{√2} \\ \frac{1}{cos⁡𝑥} & =\sqrt{√2} \\ cos⁡𝑥 & =\frac{1}{\sqrt{√2}}\end{aligned}
+\begin{aligned}sec⁡𝑥 & =\sqrt{2} \\ \frac{1}{cos⁡𝑥} & =\sqrt{2} \\ cos⁡𝑥 & =\frac{1}{\sqrt{2}}\end{aligned}
 
 
 
@@ -308,7 +308,7 @@ $$
 
 
 
-\begin{aligned}𝑥=arccos⁡(\frac{1}{\sqrt{√2}})=45^{∘}\end{aligned}
+\begin{aligned}𝑥=arccos⁡(\frac{1}{\sqrt{2}})=45^{∘}\end{aligned}
 
 
 

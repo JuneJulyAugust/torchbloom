@@ -107,7 +107,7 @@ We differentiate $\mathbf T(s)$ with respect to $s$ and calculate its magnitude:
 $$
 
 
-\begin{aligned}𝐓^{′}(𝑠) & =\frac{d}{d𝑠}(−sin⁡(\frac{𝑠}{3}))𝐢+\frac{d}{d𝑠}(cos⁡(\frac{𝑠}{3}))\,𝐣 \\ & =−\frac{1}{3}cos⁡(\frac{𝑠}{3})\,𝐢−\frac{1}{3}sin⁡(\frac{𝑠}{3})\,𝐣 \\ 𝐓^{′}(𝑠) & =\sqrt{√(−\frac{1}{3}cos⁡(\frac{𝑠}{3}))^{2}+(−\frac{1}{3}sin⁡(\frac{𝑠}{3}))^{2}} \\ & =\sqrt{√\frac{1}{9}(cos^{2}⁡(\frac{𝑠}{3})+sin^{2}⁡(\frac{𝑠}{3}))} \\ & =\frac{1}{3}\end{aligned}
+\begin{aligned}𝐓^{′}(𝑠) & =\frac{d}{d𝑠}(−sin⁡(\frac{𝑠}{3}))𝐢+\frac{d}{d𝑠}(cos⁡(\frac{𝑠}{3}))\,𝐣 \\ & =−\frac{1}{3}cos⁡(\frac{𝑠}{3})\,𝐢−\frac{1}{3}sin⁡(\frac{𝑠}{3})\,𝐣 \\ 𝐓^{′}(𝑠) & =\sqrt{(−\frac{1}{3}cos⁡(\frac{𝑠}{3}))^{2}+(−\frac{1}{3}sin⁡(\frac{𝑠}{3}))^{2}} \\ & =\sqrt{\frac{1}{9}(cos^{2}⁡(\frac{𝑠}{3})+sin^{2}⁡(\frac{𝑠}{3}))} \\ & =\frac{1}{3}\end{aligned}
 
 
 $$
@@ -163,7 +163,7 @@ So, the center of the osculating circle is at the tip of the vector
 $$
 
 
-\begin{aligned}𝐫(0)+𝑅(0)𝐍(0) & =⟨0+1,\,2−\frac{0^{2}}{2}⟩+1⋅\frac{1}{\sqrt{√1+0^{2}}}⟨0,\,−1⟩ \\ & =⟨1,2⟩+⟨0,−1⟩ \\ & =⟨1,1⟩.\end{aligned}
+\begin{aligned}𝐫(0)+𝑅(0)𝐍(0) & =⟨0+1,\,2−\frac{0^{2}}{2}⟩+1⋅\frac{1}{\sqrt{1+0^{2}}}⟨0,\,−1⟩ \\ & =⟨1,2⟩+⟨0,−1⟩ \\ & =⟨1,1⟩.\end{aligned}
 
 
 $$
@@ -203,7 +203,7 @@ First, we find $\mathbf{r}'(t),$ $\mathbf r'(0),$ and $\|\mathbf r'(0)\|\mathbin
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑡) & =⟨1,𝑡⟩ \\ 𝐫^{′}(0) & =⟨1,0⟩ \\ ‖𝐫^{′}(0)‖ & =\sqrt{√1^{2}+0^{2}}=1\end{aligned}
+\begin{aligned}𝐫^{′}(𝑡) & =⟨1,𝑡⟩ \\ 𝐫^{′}(0) & =⟨1,0⟩ \\ ‖𝐫^{′}(0)‖ & =\sqrt{1^{2}+0^{2}}=1\end{aligned}
 
 
 $$
@@ -213,7 +213,7 @@ Next, we evaluate $\mathbf T'(0)$ and find its magnitude:
 $$
 
 
-\begin{aligned}𝐓^{′}(0) & =⟨−\frac{0}{\sqrt{√(1+0^{2})^{3}}},\,\frac{1}{\sqrt{√(1+0^{2})^{3}}}⟩=⟨0,1⟩ \\ ‖𝐓^{′}(0)‖ & =\sqrt{√0^{2}+1^{2}}=1\end{aligned}
+\begin{aligned}𝐓^{′}(0) & =⟨−\frac{0}{\sqrt{(1+0^{2})^{3}}},\,\frac{1}{\sqrt{(1+0^{2})^{3}}}⟩=⟨0,1⟩ \\ ‖𝐓^{′}(0)‖ & =\sqrt{0^{2}+1^{2}}=1\end{aligned}
 
 
 $$
@@ -273,7 +273,7 @@ First, we calculate $\mathbf r'(t),$ $\mathbf r'(0),$ and $\|\mathbf r'(0)\|\mat
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑡) & =⟨\frac{d}{d𝑡}(𝑒^{𝑡}),\,\frac{d}{d𝑡}(𝑒^{−𝑡})⟩ \\ & =⟨𝑒^{𝑡},\,−𝑒^{−𝑡}⟩ \\ 𝐫^{′}(0) & =⟨𝑒^{0},\,−𝑒^{−0}⟩ \\ & =⟨1,−1⟩ \\ ‖𝐫^{′}(0)‖ & =\sqrt{√(1)^{2}+(−1)^{2}} \\ & =\sqrt{√2}\end{aligned}
+\begin{aligned}𝐫^{′}(𝑡) & =⟨\frac{d}{d𝑡}(𝑒^{𝑡}),\,\frac{d}{d𝑡}(𝑒^{−𝑡})⟩ \\ & =⟨𝑒^{𝑡},\,−𝑒^{−𝑡}⟩ \\ 𝐫^{′}(0) & =⟨𝑒^{0},\,−𝑒^{−0}⟩ \\ & =⟨1,−1⟩ \\ ‖𝐫^{′}(0)‖ & =\sqrt{(1)^{2}+(−1)^{2}} \\ & =\sqrt{2}\end{aligned}
 
 
 $$
@@ -293,7 +293,7 @@ Now, we compute the cross product by considering $\mathbf r'(0)$ and $\mathbf r'
 $$
 
 
-\begin{aligned}𝐫^{′}(0)×𝐫^{″}(0) & =⟨1,\,−1,\,0⟩×⟨1,\,1,\,0⟩ \\ & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 1 & \,−1 & 0 \\ 1 & 1 & 0\end{aligned} \\ & =\begin{aligned}1 & \,−1 \\ 1 & 1\end{aligned}\,𝐤 \\ & =2\,𝐤 \\ ‖𝐫^{′}(0)×𝐫^{″}(0)‖ & =2\end{aligned}
+\begin{aligned}𝐫^{′}(0)×𝐫^{″}(0) & =⟨1,\,−1,\,0⟩×⟨1,\,1,\,0⟩ \\ & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 1 & \,−1 & 0 \\ 1 & 1 & 0\end{matrix} \\ & =\begin{matrix}1 & \,−1 \\ 1 & 1\end{matrix}\,𝐤 \\ & =2\,𝐤 \\ ‖𝐫^{′}(0)×𝐫^{″}(0)‖ & =2\end{aligned}
 
 
 $$
@@ -303,7 +303,7 @@ Therefore, the radius of curvature at $t=0$ is
 $$
 
 
-\begin{aligned}𝑅(0) & =\frac{‖𝐫^{′}(0)‖^{3}}{∥𝐫^{′}(0)×𝐫^{″}(0)∥}=\frac{(\sqrt{√2})^{3}}{\,2\,}=\sqrt{√2}\,.\end{aligned}
+\begin{aligned}𝑅(0) & =\frac{‖𝐫^{′}(0)‖^{3}}{∥𝐫^{′}(0)×𝐫^{″}(0)∥}=\frac{(\sqrt{2})^{3}}{\,2\,}=\sqrt{2}\,.\end{aligned}
 
 
 $$
@@ -331,7 +331,7 @@ First, we calculate $\mathbf r'(t)$ and its magnitude $\| \mathbf r'(t) \|\mathb
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑡) & =⟨\frac{d}{d𝑡}(𝑡^{2}),\,\frac{d}{d𝑡}(1−𝑡^{2}),\,\frac{d}{d𝑡}(1+𝑡^{2})⟩ \\ & =⟨2𝑡,\,−2𝑡,\,2𝑡⟩ \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{√(2𝑡)^{2}+(−2𝑡)^{2}+(2𝑡)^{2}} \\ & =\sqrt{√12𝑡^{2}} \\ & =2\sqrt{√3}𝑡\end{aligned}
+\begin{aligned}𝐫^{′}(𝑡) & =⟨\frac{d}{d𝑡}(𝑡^{2}),\,\frac{d}{d𝑡}(1−𝑡^{2}),\,\frac{d}{d𝑡}(1+𝑡^{2})⟩ \\ & =⟨2𝑡,\,−2𝑡,\,2𝑡⟩ \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{(2𝑡)^{2}+(−2𝑡)^{2}+(2𝑡)^{2}} \\ & =\sqrt{12𝑡^{2}} \\ & =2\sqrt{3}𝑡\end{aligned}
 
 
 $$
@@ -343,7 +343,7 @@ Next, we find the unit tangent and its derivative for $t>0\mathbin{:}$
 $$
 
 
-\begin{aligned}𝐓(𝑡) & =\frac{𝐫^{′}(𝑡)}{‖𝐫^{′}(𝑡)‖} \\ & =\frac{1}{2\sqrt{√3}𝑡}⋅⟨2𝑡,\,−2𝑡,\,2𝑡⟩ \\ & =\frac{\sqrt{√3}}{3}⟨1,−1,1⟩ \\ 𝐓^{′}(𝑡) & =⟨0,0,0⟩\end{aligned}
+\begin{aligned}𝐓(𝑡) & =\frac{𝐫^{′}(𝑡)}{‖𝐫^{′}(𝑡)‖} \\ & =\frac{1}{2\sqrt{3}𝑡}⋅⟨2𝑡,\,−2𝑡,\,2𝑡⟩ \\ & =\frac{\sqrt{3}}{3}⟨1,−1,1⟩ \\ 𝐓^{′}(𝑡) & =⟨0,0,0⟩\end{aligned}
 
 
 $$
@@ -353,7 +353,7 @@ Therefore, the radius of curvature is
 $$
 
 
-\begin{aligned}𝑅(𝑡) & =\frac{∥𝐫^{′}(𝑡)∥}{‖𝐓^{′}(𝑡)‖}=\frac{2\sqrt{√3}𝑡}{0}=∞.\end{aligned}
+\begin{aligned}𝑅(𝑡) & =\frac{∥𝐫^{′}(𝑡)∥}{‖𝐓^{′}(𝑡)‖}=\frac{2\sqrt{3}𝑡}{0}=∞.\end{aligned}
 
 
 $$

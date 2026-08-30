@@ -46,25 +46,25 @@ $$
 
 $$
 
-is a basis of $\textrm{Null}(A)$ and, therefore, $\textrm{dim(Null}(A))={\color{red}1}$.
+is a basis of $\text{Null}(A)$ and, therefore, $\text{dim(Null}(A))={\color{red}1}$.
 
 In other words,
 
-$\textrm{dim(Null}(A))$ is equal to the number of *non-pivot* columns in the corresponding row echelon form of $A$
+$\text{dim(Null}(A))$ is equal to the number of *non-pivot* columns in the corresponding row echelon form of $A$
 
 or, equivalently,
 
-$\textrm{dim(Null}(A))$ is the number of *free variables* in the corresponding homogeneous system with the coefficient matrix $A.$
+$\text{dim(Null}(A))$ is the number of *free variables* in the corresponding homogeneous system with the coefficient matrix $A.$
 
 ### Example: Determining the Dimension of the Null Space of a Matrix Given the Number of Non-Pivot Columns
 
 #### Question
 
-If $A$ is a $9 \times 11$ matrix that has $9$ pivot columns, then what is $\textrm{dim(Null}(A))?$
+If $A$ is a $9 \times 11$ matrix that has $9$ pivot columns, then what is $\text{dim(Null}(A))?$
 
 #### Explanation
 
-We know that $\textrm{dim(Null}(A))$ is the number of non-pivot columns in $A$.
+We know that $\text{dim(Null}(A))$ is the number of non-pivot columns in $A$.
 
 Since $A$ has $11$ columns and $9$ of them are pivots, then the number of non-pivot columns in $A$ is
 
@@ -76,7 +76,7 @@ $$
 
 $$
 
-Therefore, $\textrm{dim(Null}(A))=2$.
+Therefore, $\text{dim(Null}(A))=2$.
 
 ### Example: Identifying the Dimension of the Null Space of Matrices Using Inspection
 
@@ -84,11 +84,11 @@ Therefore, $\textrm{dim(Null}(A))=2$.
 
 Which of the following statements are true?
 
-1. If $\begin{aligned}1 & 3 & 4 \\ 0 & 0 & 1 \\ 0 & 0 & 0\end{aligned}$ then $\textrm{dim(Null}(A))=2$
+1. If $\begin{aligned}1 & 3 & 4 \\ 0 & 0 & 1 \\ 0 & 0 & 0\end{aligned}$ then $\text{dim(Null}(A))=2$
 
-2. If $\begin{aligned}2 & 0 & 4 \\ 0 & 0 & 0 \\ 0 & 0 & 0\end{aligned}$ then $\textrm{dim(Null}(B))=0$
+2. If $\begin{aligned}2 & 0 & 4 \\ 0 & 0 & 0 \\ 0 & 0 & 0\end{aligned}$ then $\text{dim(Null}(B))=0$
 
-3. If $\begin{aligned}2 & 6 & 7 \\ 0 & 4 & 2 \\ 0 & 0 & 0\end{aligned}$ then $\textrm{dim(Null}(C))=1$
+3. If $\begin{aligned}2 & 6 & 7 \\ 0 & 4 & 2 \\ 0 & 0 & 0\end{aligned}$ then $\text{dim(Null}(C))=1$
 
 #### Explanation
 
@@ -113,7 +113,7 @@ The dimension of the null space of a matrix $A$ is often called the **nullity** 
 $$
 
 
-\textrm{nullity}(A) = \textrm{dim}(\textrm{Null}(A)).
+\text{nullity}(A) = \text{dim}(\text{Null}(A)).
 
 
 $$
@@ -122,16 +122,16 @@ $$
 
 #### Question
 
-Given $\begin{aligned}2 & 1 & 3 & −2 \\ 0 & −3 & −2 & −1 \\ −6 & 0 & −7 & 4 \\ 0 & 9 & 6 & 3\end{aligned}$ what is $\textrm{nullity}(A)?$
+Given $\begin{aligned}2 & 1 & 3 & −2 \\ 0 & −3 & −2 & −1 \\ −6 & 0 & −7 & 4 \\ 0 & 9 & 6 & 3\end{aligned}$ what is $\text{nullity}(A)?$
 
 #### Explanation
 
-To find $\textrm{dim}(\textrm{Null}(A))$, we reduce $A$ to row echelon form, as follows:
+To find $\text{dim}(\text{Null}(A))$, we reduce $A$ to row echelon form, as follows:
 
 $$
 
 
-\begin{aligned}𝐴 & =\begin{aligned}2 & 1 & 3 & −2 \\ 0 & −3 & −2 & −1 \\ −6 & 0 & −7 & 4 \\ 0 & 9 & 6 & 3\end{aligned} & 𝑅_{3} & :=𝑅_{3}+3𝑅_{1} \\ & ∼\begin{aligned}2 & 1 & 3 & −2 \\ 0 & −3 & −2 & −1 \\ 0 & 3 & 2 & −2 \\ 0 & 9 & 6 & 3\end{aligned} & 𝑅_{3} & :=𝑅_{3}+𝑅_{2} \\ & ∼\begin{aligned}2 & 1 & 3 & −2 \\ 0 & −3 & −2 & −1 \\ 0 & 0 & 0 & −3 \\ 0 & 9 & 6 & 3\end{aligned} & 𝑅_{4} & :=𝑅_{4}+3𝑅_{2} \\ & ∼\begin{aligned}2 & 1 & 3 & −2 \\ 0 & −3 & −2 & −1 \\ 0 & 0 & 0 & −3 \\ 0 & 0 & 0 & 0\end{aligned} & & \end{aligned}
+\begin{aligned}𝐴 & =\begin{matrix}2 & 1 & 3 & −2 \\ 0 & −3 & −2 & −1 \\ −6 & 0 & −7 & 4 \\ 0 & 9 & 6 & 3\end{matrix} & 𝑅_{3} & :=𝑅_{3}+3𝑅_{1} \\ & ∼\begin{matrix}2 & 1 & 3 & −2 \\ 0 & −3 & −2 & −1 \\ 0 & 3 & 2 & −2 \\ 0 & 9 & 6 & 3\end{matrix} & 𝑅_{3} & :=𝑅_{3}+𝑅_{2} \\ & ∼\begin{matrix}2 & 1 & 3 & −2 \\ 0 & −3 & −2 & −1 \\ 0 & 0 & 0 & −3 \\ 0 & 9 & 6 & 3\end{matrix} & 𝑅_{4} & :=𝑅_{4}+3𝑅_{2} \\ & ∼\begin{matrix}2 & 1 & 3 & −2 \\ 0 & −3 & −2 & −1 \\ 0 & 0 & 0 & −3 \\ 0 & 0 & 0 & 0\end{matrix} & & \end{aligned}
 
 
 $$
@@ -143,7 +143,7 @@ Therefore,
 $$
 
 
-\textrm{nullity}(A) = \textrm{dim}(\textrm{Null}(A)) = 1.
+\text{nullity}(A) = \text{dim}(\text{Null}(A)) = 1.
 
 
 $$

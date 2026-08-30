@@ -62,7 +62,7 @@ Now, we can solve the inequality using familiar methods:
 $$
 
 
-\begin{aligned}\sqrt[√(𝑥^{2}−8)^{3}]{3} & ≥\sqrt[√0]{3} \\ 𝑥^{2}−8 & ≥0 \\ 𝑥^{2} & ≥8 \\ \sqrt{√𝑥^{2}} & ≥\sqrt{√8} \\ |𝑥| & ≥2\sqrt{√2}\end{aligned}
+\begin{aligned}\sqrt[√(𝑥^{2}−8)^{3}]{3} & ≥\sqrt[√0]{3} \\ 𝑥^{2}−8 & ≥0 \\ 𝑥^{2} & ≥8 \\ \sqrt{𝑥^{2}} & ≥\sqrt{8} \\ |𝑥| & ≥2\sqrt{2}\end{aligned}
 
 
 $$

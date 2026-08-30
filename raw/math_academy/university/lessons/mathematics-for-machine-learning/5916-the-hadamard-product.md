@@ -51,7 +51,7 @@ Their Hadamard product is the element-wise product of corresponding entries
 $$
 
 
-\begin{aligned}𝐴⊙𝐵 & =\begin{aligned}2 \\ −5 \\ 4\end{aligned}⊙\begin{aligned}−3 \\ 2 \\ 1\end{aligned} \\ & =\begin{aligned}2⋅(−3) \\ −5⋅2 \\ 4⋅1\end{aligned} \\ & =\begin{aligned}−6 \\ −10 \\ 4\end{aligned}.\end{aligned}
+\begin{aligned}𝐴⊙𝐵 & =\begin{matrix}2 \\ −5 \\ 4\end{matrix}⊙\begin{matrix}−3 \\ 2 \\ 1\end{matrix} \\ & =\begin{matrix}2⋅(−3) \\ −5⋅2 \\ 4⋅1\end{matrix} \\ & =\begin{matrix}−6 \\ −10 \\ 4\end{matrix}.\end{aligned}
 
 
 $$
@@ -81,7 +81,7 @@ Therefore, in this case, we have
 $$
 
 
-\begin{aligned}\begin{aligned}4 & 3 \\ 6 & 5 \\ 2 & 1\end{aligned}⊙\begin{aligned}2 & 3 \\ −1 & 2 \\ 5 & −8\end{aligned} & =\begin{aligned}4⋅2 & 3⋅3 \\ 6⋅(−1) & 5⋅2 \\ 2⋅5 & 1⋅(−8)\end{aligned} \\ & =\begin{aligned}8 & 9 \\ −6 & 10 \\ 10 & −8\end{aligned}.\end{aligned}
+\begin{aligned}\begin{matrix}4 & 3 \\ 6 & 5 \\ 2 & 1\end{matrix}⊙\begin{matrix}2 & 3 \\ −1 & 2 \\ 5 & −8\end{matrix} & =\begin{matrix}4⋅2 & 3⋅3 \\ 6⋅(−1) & 5⋅2 \\ 2⋅5 & 1⋅(−8)\end{matrix} \\ & =\begin{matrix}8 & 9 \\ −6 & 10 \\ 10 & −8\end{matrix}.\end{aligned}
 
 
 $$
@@ -213,7 +213,7 @@ Then, by the associativity of the Hadamard product, we get
 $$
 
 
-\begin{aligned}𝑋⊙𝑍^{𝑇}+𝑋⊙(𝑌⊙𝑍) & =𝑋⊙𝑍^{𝑇}+(𝑋⊙𝑌)⊙𝑍 \\ & =[\begin{aligned}1 & 3 \\ −1 & 0\end{aligned}]+[\begin{aligned}1 & −2 \\ 0 & 4\end{aligned}]⊙[\begin{aligned}1 & −1 \\ 3 & 0\end{aligned}] \\ & =[\begin{aligned}1 & 3 \\ −1 & 0\end{aligned}]+[\begin{aligned}1 & 2 \\ 0 & 0\end{aligned}] \\ & =[\begin{aligned}2 & 5 \\ −1 & 0\end{aligned}].\end{aligned}
+\begin{aligned}𝑋⊙𝑍^{𝑇}+𝑋⊙(𝑌⊙𝑍) & =𝑋⊙𝑍^{𝑇}+(𝑋⊙𝑌)⊙𝑍 \\ & =[\begin{matrix}1 & 3 \\ −1 & 0\end{matrix}]+[\begin{matrix}1 & −2 \\ 0 & 4\end{matrix}]⊙[\begin{matrix}1 & −1 \\ 3 & 0\end{matrix}] \\ & =[\begin{matrix}1 & 3 \\ −1 & 0\end{matrix}]+[\begin{matrix}1 & 2 \\ 0 & 0\end{matrix}] \\ & =[\begin{matrix}2 & 5 \\ −1 & 0\end{matrix}].\end{aligned}
 
 
 $$
@@ -261,7 +261,7 @@ Then, by the commutativity of the Hadamard product, we have
 $$
 
 
-\begin{aligned}𝑃⊙𝑄−𝛼(𝑃⊙𝑄)+𝑅 & =𝑄⊙𝑃−𝛼(𝑄⊙𝑃)+𝑅 \\ & =[\begin{aligned}4 & 0 \\ −1 & 6\end{aligned}]−2[\begin{aligned}4 & 0 \\ −1 & 6\end{aligned}]+[\begin{aligned}−2 & 3 \\ −1 & −4\end{aligned}] \\ & =[\begin{aligned}4 & 0 \\ −1 & 6\end{aligned}]−[\begin{aligned}8 & 0 \\ −2 & 12\end{aligned}]+[\begin{aligned}−2 & 3 \\ −1 & −4\end{aligned}] \\ & =[\begin{aligned}4−8−2 & 0−0+3 \\ −1−(−2)−1 & 6−12−4\end{aligned}] \\ & =[\begin{aligned}−6 & 3 \\ 0 & −10\end{aligned}].\end{aligned}
+\begin{aligned}𝑃⊙𝑄−𝛼(𝑃⊙𝑄)+𝑅 & =𝑄⊙𝑃−𝛼(𝑄⊙𝑃)+𝑅 \\ & =[\begin{matrix}4 & 0 \\ −1 & 6\end{matrix}]−2[\begin{matrix}4 & 0 \\ −1 & 6\end{matrix}]+[\begin{matrix}−2 & 3 \\ −1 & −4\end{matrix}] \\ & =[\begin{matrix}4 & 0 \\ −1 & 6\end{matrix}]−[\begin{matrix}8 & 0 \\ −2 & 12\end{matrix}]+[\begin{matrix}−2 & 3 \\ −1 & −4\end{matrix}] \\ & =[\begin{matrix}4−8−2 & 0−0+3 \\ −1−(−2)−1 & 6−12−4\end{matrix}] \\ & =[\begin{matrix}−6 & 3 \\ 0 & −10\end{matrix}].\end{aligned}
 
 
 $$
@@ -293,7 +293,7 @@ we notice that the left matrix is diagonal. So, we can write it as a Hadamard pr
 $$
 
 
-\begin{aligned}[\begin{aligned}1 & 0 \\ 0 & 2\end{aligned}][\begin{aligned}−1 \\ 3\end{aligned}] & =diag([\begin{aligned}1 \\ 2\end{aligned}])[\begin{aligned}−1 \\ 3\end{aligned}] \\ & =[\begin{aligned}1 \\ 2\end{aligned}]⊙[\begin{aligned}−1 \\ 3\end{aligned}]\end{aligned}
+\begin{aligned}[\begin{matrix}1 & 0 \\ 0 & 2\end{matrix}][\begin{matrix}−1 \\ 3\end{matrix}] & =diag([\begin{matrix}1 \\ 2\end{matrix}])[\begin{matrix}−1 \\ 3\end{matrix}] \\ & =[\begin{matrix}1 \\ 2\end{matrix}]⊙[\begin{matrix}−1 \\ 3\end{matrix}]\end{aligned}
 
 
 $$
@@ -351,7 +351,7 @@ Notice that they are of the same size; hence, their Hadamard product is well-def
 $$
 
 
-\begin{aligned}𝑀𝐮^{𝑇}⊙(𝐯−𝐮^{𝑇}) & =diag(𝑀𝐮^{𝑇})(𝐯−𝐮^{𝑇}) \\ & =[\begin{aligned}−9 & 0 \\ 0 & 14\end{aligned}][\begin{aligned}3 \\ −2\end{aligned}].\end{aligned}
+\begin{aligned}𝑀𝐮^{𝑇}⊙(𝐯−𝐮^{𝑇}) & =diag(𝑀𝐮^{𝑇})(𝐯−𝐮^{𝑇}) \\ & =[\begin{matrix}−9 & 0 \\ 0 & 14\end{matrix}][\begin{matrix}3 \\ −2\end{matrix}].\end{aligned}
 
 
 $$

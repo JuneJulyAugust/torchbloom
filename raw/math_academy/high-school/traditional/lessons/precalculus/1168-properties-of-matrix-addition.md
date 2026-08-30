@@ -30,7 +30,7 @@ $$
 
 
 
-\begin{aligned}𝐴+𝐵−𝐶 & =\begin{aligned}1 \\ 1 \\ −1\end{aligned}+\begin{aligned}−1 \\ 2 \\ 0\end{aligned}−\begin{aligned}0 \\ 5 \\ −2\end{aligned} \\ & =\begin{aligned}1+(−1)−0 \\ 1+2−5 \\ −1+0−(−2)\end{aligned} \\ & =\begin{aligned}0 \\ −2 \\ 1\end{aligned}\end{aligned}
+\begin{aligned}𝐴+𝐵−𝐶 & =\begin{matrix}1 \\ 1 \\ −1\end{matrix}+\begin{matrix}−1 \\ 2 \\ 0\end{matrix}−\begin{matrix}0 \\ 5 \\ −2\end{matrix} \\ & =\begin{matrix}1+(−1)−0 \\ 1+2−5 \\ −1+0−(−2)\end{matrix} \\ & =\begin{matrix}0 \\ −2 \\ 1\end{matrix}\end{aligned}
 
 
 
@@ -60,7 +60,7 @@ $$
 
 
 
-\begin{aligned}𝐴−(𝐵−𝐶) & =[\begin{aligned}−1 & 0 \\ 2 & −2\end{aligned}]−([\begin{aligned}−1 & −1 \\ 2 & 0\end{aligned}]−[\begin{aligned}0 & −5 \\ 1 & 1\end{aligned}]) \\ & =[\begin{aligned}−1 & 0 \\ 2 & −2\end{aligned}]−[\begin{aligned}−1−0 & −1−(−5) \\ 2−1 & 0−1\end{aligned}] \\ & =[\begin{aligned}−1 & 0 \\ 2 & −2\end{aligned}]−[\begin{aligned}−1 & 4 \\ 1 & −1\end{aligned}] \\ & =[\begin{aligned}−1−(−1) & 0−4 \\ 2−1 & −2−(−1)\end{aligned}] \\ & =[\begin{aligned}0 & −4 \\ 1 & −1\end{aligned}]\end{aligned}
+\begin{aligned}𝐴−(𝐵−𝐶) & =[\begin{matrix}−1 & 0 \\ 2 & −2\end{matrix}]−([\begin{matrix}−1 & −1 \\ 2 & 0\end{matrix}]−[\begin{matrix}0 & −5 \\ 1 & 1\end{matrix}]) \\ & =[\begin{matrix}−1 & 0 \\ 2 & −2\end{matrix}]−[\begin{matrix}−1−0 & −1−(−5) \\ 2−1 & 0−1\end{matrix}] \\ & =[\begin{matrix}−1 & 0 \\ 2 & −2\end{matrix}]−[\begin{matrix}−1 & 4 \\ 1 & −1\end{matrix}] \\ & =[\begin{matrix}−1−(−1) & 0−4 \\ 2−1 & −2−(−1)\end{matrix}] \\ & =[\begin{matrix}0 & −4 \\ 1 & −1\end{matrix}]\end{aligned}
 
 
 
@@ -104,7 +104,7 @@ $$
 
 
 
-\begin{aligned}1 & −2 \\ \sqrt{√2} & 0 \\ 0 & −2\end{aligned}
+\begin{aligned}1 & −2 \\ \sqrt{2} & 0 \\ 0 & −2\end{aligned}
 
 
 
@@ -130,7 +130,7 @@ $$
 
 
 
-\begin{aligned}𝐶−𝐵 & =\begin{aligned}3 & −1 \\ 1 & 2 \\ −6 & 1\end{aligned}−\begin{aligned}3 & −1 \\ 2 & 0 \\ −4 & 1\end{aligned} \\ & =\begin{aligned}3−3 & −1−(−1) \\ 1−2 & 2−0 \\ −6−(−4) & 1−1\end{aligned} \\ & =\begin{aligned}0 & 0 \\ −1 & 2 \\ −2 & 0\end{aligned}\end{aligned}
+\begin{aligned}𝐶−𝐵 & =\begin{matrix}3 & −1 \\ 1 & 2 \\ −6 & 1\end{matrix}−\begin{matrix}3 & −1 \\ 2 & 0 \\ −4 & 1\end{matrix} \\ & =\begin{matrix}3−3 & −1−(−1) \\ 1−2 & 2−0 \\ −6−(−4) & 1−1\end{matrix} \\ & =\begin{matrix}0 & 0 \\ −1 & 2 \\ −2 & 0\end{matrix}\end{aligned}
 
 
 

@@ -49,7 +49,7 @@ $$
 
 $$
 
-where the symbol $\,\raise{1pt}{\therefore}\,$ reads as "therefore". So, the entire thing reads as follows:
+where the symbol $\,\therefore\,$ reads as "therefore". So, the entire thing reads as follows:
 
 *We have $P \Rightarrow Q$ and $P.$ Therefore, $Q.$*
 

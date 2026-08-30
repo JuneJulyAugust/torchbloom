@@ -175,7 +175,7 @@ Therefore, the $99\%$ confidence interval for the population mean $\mu$ of the d
 $$
 
 
-\begin{aligned}5.6 & ±2.609⋅\frac{2}{\sqrt{√150}}\end{aligned}
+\begin{aligned}5.6 & ±2.609⋅\frac{2}{\sqrt{150}}\end{aligned}
 
 
 $$
@@ -287,7 +287,7 @@ Therefore, the $98\%$ confidence interval for the population mean $\mu$ of the d
 $$
 
 
-\begin{aligned}1.20 & ±2.445⋅\frac{4}{\sqrt{√34}}\end{aligned}
+\begin{aligned}1.20 & ±2.445⋅\frac{4}{\sqrt{34}}\end{aligned}
 
 
 $$

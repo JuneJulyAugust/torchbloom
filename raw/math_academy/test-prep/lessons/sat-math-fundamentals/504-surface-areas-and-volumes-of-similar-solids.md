@@ -23,12 +23,12 @@ Consider the following (similar) cubes.
 
 ![Instructional graphic](../../../lesson-assets/sat-math-fundamentals/topic-504/46f9f38e157b1572.png)
 
-For the smaller cube, the area of each face is $1\,\textrm{cm}\cdot 1\,\textrm{cm} = 1\,\textrm{cm}^2,$ so the total surface area $\mathcal A_S$ is
+For the smaller cube, the area of each face is $1\,\text{cm}\cdot 1\,\text{cm} = 1\,\text{cm}^2,$ so the total surface area $\mathcal A_S$ is
 
 $$
 
 
-\mathcal A_{S} = 6\cdot 1\,\textrm{cm}^2 = 6\,\textrm{cm}^2.
+\mathcal A_{S} = 6\cdot 1\,\text{cm}^2 = 6\,\text{cm}^2.
 
 
 $$
@@ -38,7 +38,7 @@ The scale factor is
 $$
 
 
-k = \dfrac{{\color{red}{2}}\,\textrm{cm}}{{\color{blue}{1}}\,\textrm{cm}} = 2.
+k = \dfrac{{\color{red}{2}}\,\text{cm}}{{\color{blue}{1}}\,\text{cm}} = 2.
 
 
 $$
@@ -53,12 +53,12 @@ $$
 
 $$
 
-We can verify that this is correct by computing the surface area of the larger cube directly. Since the area of each face is $2\,\textrm{cm}\cdot 2\,\textrm{cm} = 4\,\textrm{cm}^2,$ the total surface area $\mathcal A_L$ is
+We can verify that this is correct by computing the surface area of the larger cube directly. Since the area of each face is $2\,\text{cm}\cdot 2\,\text{cm} = 4\,\text{cm}^2,$ the total surface area $\mathcal A_L$ is
 
 $$
 
 
-\mathcal A_{L} = 6\cdot 4\,\textrm{cm}^2 = 24\,\textrm{cm}^2
+\mathcal A_{L} = 6\cdot 4\,\text{cm}^2 = 24\,\text{cm}^2
 
 
 $$
@@ -80,7 +80,7 @@ The total volume of the smaller cube $V_S$ is
 $$
 
 
-V_{S} = (1\,\textrm{cm})^3 = 1\,\textrm{cm}^3.
+V_{S} = (1\,\text{cm})^3 = 1\,\text{cm}^3.
 
 
 $$
@@ -90,7 +90,7 @@ The scale factor is
 $$
 
 
-k = \dfrac{{\color{red}{2}}\,\textrm{cm}}{{\color{blue}{1}}\,\textrm{cm}} = 2.
+k = \dfrac{{\color{red}{2}}\,\text{cm}}{{\color{blue}{1}}\,\text{cm}} = 2.
 
 
 $$
@@ -110,7 +110,7 @@ We can verify that this is correct by computing the volume of the larger cube di
 $$
 
 
-V_{L} = (2\,\textrm{cm})^3 = 8\,\textrm{cm}^3
+V_{L} = (2\,\text{cm})^3 = 8\,\text{cm}^3
 
 
 $$
@@ -146,7 +146,7 @@ Here, the larger solid is similar to the smaller one with a scale factor of
 $$
 
 
-k = \dfrac{6\,\textrm{cm}}{3\,\textrm{cm}} = 2.
+k = \dfrac{6\,\text{cm}}{3\,\text{cm}} = 2.
 
 
 $$
@@ -171,7 +171,7 @@ Therefore, the ratio of the larger volume to the smaller is $8:1.$
 
 ![Instructional graphic](../../../lesson-assets/sat-math-fundamentals/topic-504/7d01bc0ba1fb2037.png)
 
-The two right cylinders above are similar with a scale factor $k=2$ (not drawn to scale). What is the surface area of the larger cylinder if the surface area of the smaller one is $12\pi \: \textrm{in}^2?$
+The two right cylinders above are similar with a scale factor $k=2$ (not drawn to scale). What is the surface area of the larger cylinder if the surface area of the smaller one is $12\pi \: \text{in}^2?$
 
 **
 
@@ -184,12 +184,12 @@ Therefore, $k^2 = 2^2 = 4,$ and we have
 $$
 
 
-\dfrac{\mathcal{A}_{\textrm{larger}}}{\mathcal{A}_{\textrm{smaller}}} = 4.
+\dfrac{\mathcal{A}_{\text{larger}}}{\mathcal{A}_{\text{smaller}}} = 4.
 
 
 $$
 
-Solving for $\mathcal{A}_{\textrm{larger}}$ and substituting $\mathcal{A}_{\textrm{smaller}} = 12\pi\,\textrm{in}^2,$ we have
+Solving for $\mathcal{A}_{\text{larger}}$ and substituting $\mathcal{A}_{\text{smaller}} = 12\pi\,\text{in}^2,$ we have
 
 $$
 
@@ -225,7 +225,7 @@ Thus, the radius is times larger than the radius Therefore,
 
 ![Instructional graphic](../../../lesson-assets/sat-math-fundamentals/topic-504/6ec089e2e75597d0.png)
 
-The height of the larger pentagonal prism is $18\, \textrm{in}.$ The ratio of the surface area of the smaller prism to the surface area of the larger prism is $49:81$ (not drawn to scale). Given that the two prisms are similar, what is the height of the smaller prism?
+The height of the larger pentagonal prism is $18\, \text{in}.$ The ratio of the surface area of the smaller prism to the surface area of the larger prism is $49:81$ (not drawn to scale). Given that the two prisms are similar, what is the height of the smaller prism?
 
 #### Explanation
 
@@ -236,7 +236,7 @@ We are told that
 $$
 
 
-\dfrac{\mathcal{A}_{\textrm{smaller}}}{\mathcal{A}_{\textrm{larger}}} = \dfrac{49}{81}.
+\dfrac{\mathcal{A}_{\text{smaller}}}{\mathcal{A}_{\text{larger}}} = \dfrac{49}{81}.
 
 
 $$
@@ -256,7 +256,7 @@ Thus, the height of the smaller prism is $\dfrac{7}{9}$ times the height of the 
 $$
 
 
-h = 18 \cdot \dfrac{7}{9} = 14 \,\textrm{in}.
+h = 18 \cdot \dfrac{7}{9} = 14 \,\text{in}.
 
 
 $$

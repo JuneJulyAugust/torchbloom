@@ -258,7 +258,7 @@ Substituting $a_1 = 1$ and $r = 3$ into the formula for the $n$th term, we obtai
 $$
 
 
-\begin{aligned} a_n &= a_1 \cdot r^{n-1} \\\[5pt] &= 1 \cdot 3^{n-1} \\\[5pt] &= 3^{n-1}. \end{aligned}
+\begin{aligned} a_n &= a_1 \cdot r^{n-1} \\[5pt] &= 1 \cdot 3^{n-1} \\[5pt] &= 3^{n-1}. \end{aligned}
 
 
 $$
@@ -328,7 +328,7 @@ Substituting $f(1) = 9$ and $r = -\dfrac{1}{3}$ into the formula for the $n$th t
 $$
 
 
-\begin{aligned} f(n) &= f(1) \cdot r^{n-1} \\\[5pt] &= 9 \cdot \left( -\dfrac{1}{3}\right)^{n-1}. \end{aligned}
+\begin{aligned} f(n) &= f(1) \cdot r^{n-1} \\[5pt] &= 9 \cdot \left( -\dfrac{1}{3}\right)^{n-1}. \end{aligned}
 
 
 $$

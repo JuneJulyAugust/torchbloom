@@ -18,7 +18,7 @@ The multiplicative inverse of an integer $a$ modulo $n$ is the unique number $x$
 $$
 
 
-a \cdot x \equiv 1 \quad (\textrm{mod}\:n).
+a \cdot x \equiv 1 \quad (\text{mod}\:n).
 
 
 $$
@@ -41,17 +41,17 @@ Note the following:
 
 - Be careful not confuse the notation $a^{-1}$ with the reciprocal of $a.$ In this context, both $a$ and $a^{-1}$ are *integers.*
 
-- The uniqueness of $a^{-1}$ is up to congruence modulo $n.$ For example, since ${\color{red}{27}}\equiv {\color{red}{4}}\:(\textrm{mod}23),$ we have
+- The uniqueness of $a^{-1}$ is up to congruence modulo $n.$ For example, since ${\color{red}{27}}\equiv {\color{red}{4}}\:(\text{mod}23),$ we have
 
 There are circumstances when a multiplicative inverse does not exist. To this end, we have the following theorem:
 
-*An integer $a$ has a multiplicative inverse modulo $n$ if and only if $a$ and $n$ are coprime, i.e., $\textrm{gcd}(a,n)=1.$*
+*An integer $a$ has a multiplicative inverse modulo $n$ if and only if $a$ and $n$ are coprime, i.e., $\text{gcd}(a,n)=1.$*
 
 For example:
 
-- We saw earlier that $6^{-1} = 4$ modulo $23.$ Indeed, $\textrm{gcd}(6,23) = 1.$ Moreover, since $n=23$ is prime, *every* integer $1 \leq x \leq 22$ modulo $23$ has a multiplicative inverse. More on that in future lessons.
+- We saw earlier that $6^{-1} = 4$ modulo $23.$ Indeed, $\text{gcd}(6,23) = 1.$ Moreover, since $n=23$ is prime, *every* integer $1 \leq x \leq 22$ modulo $23$ has a multiplicative inverse. More on that in future lessons.
 
-- In contrast, the integer $a=2$ has no multiplicative inverse modulo $14$ since $\textrm{gcd}(2,14) = 2\neq 1.$ Intuitively, multiplying $a = 2$ by any integer $x$ modulo $14$ gives an even number, and taking the result modulo $14$ (also even) will never give us $1$ (an odd integer).
+- In contrast, the integer $a=2$ has no multiplicative inverse modulo $14$ since $\text{gcd}(2,14) = 2\neq 1.$ Intuitively, multiplying $a = 2$ by any integer $x$ modulo $14$ gives an even number, and taking the result modulo $14$ (also even) will never give us $1$ (an odd integer).
 
 ### Example: Determining the Existence of a Multiplicative Inverse
 
@@ -67,15 +67,15 @@ Which of the following integers has a multiplicative inverse modulo $25?$
 
 #### Explanation
 
-An integer $a$ has a multiplicative inverse modulo $n$ if and only if $a$ and $n$ are coprime, i.e., $\textrm{gcd}(a,n)=1.$
+An integer $a$ has a multiplicative inverse modulo $n$ if and only if $a$ and $n$ are coprime, i.e., $\text{gcd}(a,n)=1.$
 
 With this in mind, let's examine the given options.
 
-- $7$ has a multiplicative inverse modulo $25$ since $\textrm{gcd}(7,25)=1. \:\:{\color{darkgreen}\checkmark}$
+- $7$ has a multiplicative inverse modulo $25$ since $\text{gcd}(7,25)=1. \:\:{\color{darkgreen}\checkmark}$
 
-- $10$ does ** have a multiplicative inverse modulo $25$ since $\textrm{gcd}(10,25)=5\neq1. \:\:{\color{red}\times}$
+- $10$ does ** have a multiplicative inverse modulo $25$ since $\text{gcd}(10,25)=5\neq1. \:\:{\color{red}\times}$
 
-- $12$ has a multiplicative inverse modulo $25$ since $\textrm{gcd}(12,25)=1. \:\:{\color{darkgreen}\checkmark}$
+- $12$ has a multiplicative inverse modulo $25$ since $\text{gcd}(12,25)=1. \:\:{\color{darkgreen}\checkmark}$
 
 Therefore, the correct answer is "I and III only."
 
@@ -86,12 +86,12 @@ Suppose we wish to calculate the multiplicative inverse of $3$ modulo $14.$ In o
 $$
 
 
-3 \cdot x \equiv 1 \quad (\textrm{mod}\:14).
+3 \cdot x \equiv 1 \quad (\text{mod}\:14).
 
 
 $$
 
-Firstly, we note that since $\textrm{gcd}(3,14) = 1,$ a unique multiplicative inverse exists.
+Firstly, we note that since $\text{gcd}(3,14) = 1,$ a unique multiplicative inverse exists.
 
 Since the modulus $n=14$ is fairly small, one way to efficiently compute the inverse is to use trial and error. To do this, we compute powers of $3$ and take the residue modulo $14$ until we get a result of $1.$
 
@@ -108,7 +108,7 @@ According to the last line, we have
 $$
 
 
-3 \cdot {\color{magenta}{5}} \equiv 1\qquad (\textrm{mod}\:14).
+3 \cdot {\color{magenta}{5}} \equiv 1\qquad (\text{mod}\:14).
 
 
 $$
@@ -118,7 +118,7 @@ Therefore, the multiplicative inverse of $3$ modulo $14$ is ${\color{magenta}{5}
 $$
 
 
-3^{-1} = {\color{magenta}{5}}\qquad (\textrm{mod}\:14).
+3^{-1} = {\color{magenta}{5}}\qquad (\text{mod}\:14).
 
 
 $$
@@ -128,7 +128,7 @@ $$
 $$
 
 
-3 \cdot x \equiv 1 \quad (\textrm{mod}\:14)
+3 \cdot x \equiv 1 \quad (\text{mod}\:14)
 
 
 $$
@@ -148,7 +148,7 @@ The multiplicative inverse of $8$ modulo $15,$ denoted $8^{-1},$ is the number $
 $$
 
 
-8 \cdot x \equiv 1 \quad (\textrm{mod}\:15).
+8 \cdot x \equiv 1 \quad (\text{mod}\:15).
 
 
 $$
@@ -165,25 +165,25 @@ $$
 
 $$
 
-So, $8 \cdot 2 \equiv 1 \, (\textrm{mod} \:15).$ Therefore, the multiplicative inverse of $8$ modulo $15$ is $\boxed{\color{blue}2}.$
+So, $8 \cdot 2 \equiv 1 \, (\text{mod} \:15).$ Therefore, the multiplicative inverse of $8$ modulo $15$ is $\boxed{\color{blue}2}.$
 
 ### Using the Extended Euclidean Algorithm
 
 Now, suppose we want to compute the multiplicative inverse of $23$ modulo $79.$
 
-Since $\textrm{gcd}(23,79)=1,$ the inverse exists. However, the modulus $n=79$ is quite big, so finding the inverse by trial and error is inefficient. So, what do we do?
+Since $\text{gcd}(23,79)=1,$ the inverse exists. However, the modulus $n=79$ is quite big, so finding the inverse by trial and error is inefficient. So, what do we do?
 
 To answer this, recall that Bézout's identity states that there exist integers $u$ and $v$ such that
 
 $$
 
 
-23u + 79v = \textrm{gcd}(23,79).
+23u + 79v = \text{gcd}(23,79).
 
 
 $$
 
-Now, since $\textrm{gcd}(23,79)=1,$ we have
+Now, since $\text{gcd}(23,79)=1,$ we have
 
 $$
 
@@ -215,14 +215,14 @@ $$
 
 $$
 
-So, we have $23 \cdot 55 \equiv 1 \: (\textrm{mod}\:79).$ Therefore, $55$ is the multiplicative inverse of $23$ (modulo $79$).
+So, we have $23 \cdot 55 \equiv 1 \: (\text{mod}\:79).$ Therefore, $55$ is the multiplicative inverse of $23$ (modulo $79$).
 
 Finally, we can express this result using the residue function as follows:
 
 $$
 
 
-23^{-1} \: \textrm{mod} \: 79 = 55
+23^{-1} \: \text{mod} \: 79 = 55
 
 
 $$
@@ -235,14 +235,14 @@ Use the extended Euclidean algorithm to compute the multiplicative inverse of $1
 
 #### Explanation
 
-First of all, notice that $\textrm{gcd}(15,86)=1.$ So, the multiplicative inverse of $15$ modulo $86$ exists.
+First of all, notice that $\text{gcd}(15,86)=1.$ So, the multiplicative inverse of $15$ modulo $86$ exists.
 
 The multiplicative inverse of $15$ modulo $86$ is the number $x$ such that
 
 $$
 
 
-15\cdot x \equiv 1 \quad (\textrm{mod}\:86).
+15\cdot x \equiv 1 \quad (\text{mod}\:86).
 
 
 $$
@@ -252,7 +252,7 @@ To find the value of $x,$ we will use the extended Euclidean algorithm. First, w
 $$
 
 
-\begin{aligned}\begin{aligned}86 & = & 15⋅5 & + & 11 \\ & ↙ & & ↙ & \\ 15 & = & 11⋅1 & + & 4 \\ & ↙ & & ↙ & \\ 11 & = & 4⋅2 & + & 3 \\ & ↙ & & ↙ & \\ 4 & = & 3⋅1 & + & 1\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}86 & = & 15⋅5 & + & 11 \\ & ↙ & & ↙ & \\ 15 & = & 11⋅1 & + & 4 \\ & ↙ & & ↙ & \\ 11 & = & 4⋅2 & + & 3 \\ & ↙ & & ↙ & \\ 4 & = & 3⋅1 & + & 1\end{matrix}\end{aligned}
 
 
 $$
@@ -287,4 +287,4 @@ $$
 
 $$
 
-So, we have $15\cdot 23\equiv 1 \: (\textrm{mod}\:86),$ which means that $15^{-1} \: \textrm{mod} \: 86=\boxed{\color{blue}23}.$
+So, we have $15\cdot 23\equiv 1 \: (\text{mod}\:86),$ which means that $15^{-1} \: \text{mod} \: 86=\boxed{\color{blue}23}.$

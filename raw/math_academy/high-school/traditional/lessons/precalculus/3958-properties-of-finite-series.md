@@ -125,7 +125,7 @@ $$
 
 
 
-\sum_{i=1}^{15} 1 = \underbrace{1+1+\cdots + 1}_{15\,\textrm{times}}
+\sum_{i=1}^{15} 1 = \underbrace{1+1+\cdots + 1}_{15\,\text{times}}
 
 
 
@@ -181,7 +181,7 @@ $$
 
 
 
-\sum_{i=1}^{100} 1 = \underbrace{1+1+\cdots + 1}_{100\,\textrm{times}} = 100.
+\sum_{i=1}^{100} 1 = \underbrace{1+1+\cdots + 1}_{100\,\text{times}} = 100.
 
 
 

@@ -52,18 +52,18 @@ $$
 
 #### Question
 
-Let $\begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned}$ be a linear transformation. Determine the value of $k$ for which the vector $\begin{aligned}4 \\ 𝑘 \\ 8\end{aligned}$ belongs to $\textrm{Im}(\mathbf{T}).$
+Let $\begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned}$ be a linear transformation. Determine the value of $k$ for which the vector $\begin{aligned}4 \\ 𝑘 \\ 8\end{aligned}$ belongs to $\text{Im}(\mathbf{T}).$
 
 #### Explanation
 
-The vector $\mathbf{v}$ belongs to $\textrm{Im}(\mathbf{T})$ if there exists a vector $\begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned}$ such that $\mathbf{T}(\mathbf{u}) = \mathbf{v}.$
+The vector $\mathbf{v}$ belongs to $\text{Im}(\mathbf{T})$ if there exists a vector $\begin{aligned}𝑥 \\ 𝑦 \\ 𝑧\end{aligned}$ such that $\mathbf{T}(\mathbf{u}) = \mathbf{v}.$
 
 Therefore, we must have
 
 $$
 
 
-\begin{aligned}\begin{aligned}𝑥+𝑦 \\ −𝑥+𝑦 \\ 2𝑦\end{aligned} & =\begin{aligned}4 \\ 𝑘 \\ 8\end{aligned}.\end{aligned}
+\begin{aligned}\begin{matrix}𝑥+𝑦 \\ −𝑥+𝑦 \\ 2𝑦\end{matrix} & =\begin{matrix}4 \\ 𝑘 \\ 8\end{matrix}.\end{aligned}
 
 
 $$
@@ -98,7 +98,7 @@ $$
 
 $$
 
-Therefore, $\mathbf{v}\in\textrm{Im}(\mathbf{T})$ when $k=4.$
+Therefore, $\mathbf{v}\in\text{Im}(\mathbf{T})$ when $k=4.$
 
 ### Determining If a Vector Lies in the Image
 
@@ -130,14 +130,14 @@ $$
 
 #### Explanation
 
-Since $T$ is the standard matix of $\mathbf{T},$ we have $\textrm{Im}(\mathbf{T}) = \textrm{Col}(T).$ In order to determine whether $\mathbf{b}$ lies in $\textrm{Im}(\mathbf{T}),$ we need to check if the equation $T\mathbf{x}=\mathbf{b}$ is consistent.
+Since $T$ is the standard matix of $\mathbf{T},$ we have $\text{Im}(\mathbf{T}) = \text{Col}(T).$ In order to determine whether $\mathbf{b}$ lies in $\text{Im}(\mathbf{T}),$ we need to check if the equation $T\mathbf{x}=\mathbf{b}$ is consistent.
 
 So, we find the row echelon form of the augmented matrix $[T \,|\, \mathbf{b}],$ as follows:
 
 $$
 
 
-\begin{aligned}[𝑇\,|\,𝐛] & =\begin{aligned}2 & 4 & 2 & 6 \\ 6 & 4 & −10 & 26 \\ 0 & 4 & 8 & −4\end{aligned} & & \begin{aligned}𝑅_{2}:=𝑅_{2}+(−3)𝑅_{1}\end{aligned} \\ & ∼\begin{aligned}2 & 4 & 2 & 6 \\ 0 & −8 & −16 & 8 \\ 0 & 4 & 8 & −4\end{aligned} & & \begin{aligned}𝑅_{3}:=𝑅_{3}+\frac{1}{2}𝑅_{2}\end{aligned} \\ & ∼\begin{aligned}2 & 4 & 2 & 6 \\ 0 & −8 & −16 & 8 \\ 0 & 0 & 0 & 0\end{aligned} & & \end{aligned}
+\begin{aligned}[𝑇\,|\,𝐛] & =\begin{matrix}2 & 4 & 2 & 6 \\ 6 & 4 & −10 & 26 \\ 0 & 4 & 8 & −4\end{matrix} & & \begin{matrix}𝑅_{2}:=𝑅_{2}+(−3)𝑅_{1}\end{matrix} \\ & ∼\begin{matrix}2 & 4 & 2 & 6 \\ 0 & −8 & −16 & 8 \\ 0 & 4 & 8 & −4\end{matrix} & & \begin{matrix}𝑅_{3}:=𝑅_{3}+\frac{1}{2}𝑅_{2}\end{matrix} \\ & ∼\begin{matrix}2 & 4 & 2 & 6 \\ 0 & −8 & −16 & 8 \\ 0 & 0 & 0 & 0\end{matrix} & & \end{aligned}
 
 
 $$
@@ -229,7 +229,7 @@ So, we need to find the rank of the matrix $T.$ We reduce $T$ to row echelon for
 $$
 
 
-\begin{aligned}𝑇 & =\begin{aligned}2 & −3 & −1 & −2 \\ −6 & 5 & −1 & 2 \\ 4 & 1 & 5 & 3 \\ 0 & 0 & 0 & 0\end{aligned} & & \begin{aligned}𝑅_{2}:=𝑅_{2}+3𝑅_{1} \\ 𝑅_{3}:=𝑅_{3}+(−2)𝑅_{1}\end{aligned} \\ & ∼\begin{aligned}2 & −3 & −1 & −2 \\ 0 & −4 & −4 & −4 \\ 0 & 7 & 7 & 7 \\ 0 & 0 & 0 & 0\end{aligned} & & \begin{aligned}𝑅_{3}:=𝑅_{3}+\frac{7}{4}𝑅_{2}\end{aligned} \\ & ∼\begin{aligned}2 & −3 & −1 & −2 \\ 0 & −4 & −4 & −4 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0\end{aligned} & & \end{aligned}
+\begin{aligned}𝑇 & =\begin{matrix}2 & −3 & −1 & −2 \\ −6 & 5 & −1 & 2 \\ 4 & 1 & 5 & 3 \\ 0 & 0 & 0 & 0\end{matrix} & & \begin{matrix}𝑅_{2}:=𝑅_{2}+3𝑅_{1} \\ 𝑅_{3}:=𝑅_{3}+(−2)𝑅_{1}\end{matrix} \\ & ∼\begin{matrix}2 & −3 & −1 & −2 \\ 0 & −4 & −4 & −4 \\ 0 & 7 & 7 & 7 \\ 0 & 0 & 0 & 0\end{matrix} & & \begin{matrix}𝑅_{3}:=𝑅_{3}+\frac{7}{4}𝑅_{2}\end{matrix} \\ & ∼\begin{matrix}2 & −3 & −1 & −2 \\ 0 & −4 & −4 & −4 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0\end{matrix} & & \end{aligned}
 
 
 $$
@@ -239,7 +239,7 @@ Therefore, since $T$ has $2$ pivot columns, we have that
 $$
 
 
-\textrm{rank}(\mathbf{T})=\textrm{rank}(T)=2.
+\text{rank}(\mathbf{T})=\text{rank}(T)=2.
 
 
 $$

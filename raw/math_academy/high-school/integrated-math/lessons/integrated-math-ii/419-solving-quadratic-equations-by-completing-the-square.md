@@ -61,7 +61,7 @@ $$
 $$
 
 
-\begin{aligned}(𝑥+1)^{2} & =9 \\ \sqrt{√(𝑥+1)^{2}} & =\sqrt{√9} \\ |𝑥+1| & =3 \\ 𝑥+1 & =±3 \\ 𝑥 & =−1±3\end{aligned}
+\begin{aligned}(𝑥+1)^{2} & =9 \\ \sqrt{(𝑥+1)^{2}} & =\sqrt{9} \\ |𝑥+1| & =3 \\ 𝑥+1 & =±3 \\ 𝑥 & =−1±3\end{aligned}
 
 
 $$
@@ -123,7 +123,7 @@ We now solve the equation using the square root method:
 $$
 
 
-\begin{aligned}(𝑥−5)^{2} & =1 \\ \sqrt{√(𝑥−5)^{2}} & =\sqrt{√1} \\ |𝑥−5| & =1 \\ 𝑥−5 & =±1 \\ 𝑥 & =5±1\end{aligned}
+\begin{aligned}(𝑥−5)^{2} & =1 \\ \sqrt{(𝑥−5)^{2}} & =\sqrt{1} \\ |𝑥−5| & =1 \\ 𝑥−5 & =±1 \\ 𝑥 & =5±1\end{aligned}
 
 
 $$
@@ -171,7 +171,7 @@ So, $p=3$ and $q=4.$ Now, we solve the equation using the square-root method:
 $$
 
 
-\begin{aligned}(𝑥+3)^{2} & =4 \\ \sqrt{√(𝑥+3)^{2}} & =\sqrt{√4} \\ |𝑥+3| & =2 \\ 𝑥+3 & =±2 \\ 𝑥 & =−3±2\end{aligned}
+\begin{aligned}(𝑥+3)^{2} & =4 \\ \sqrt{(𝑥+3)^{2}} & =\sqrt{4} \\ |𝑥+3| & =2 \\ 𝑥+3 & =±2 \\ 𝑥 & =−3±2\end{aligned}
 
 
 $$
@@ -209,7 +209,7 @@ Then, we isolate the perfect square and solve the equation using the square-root
 $$
 
 
-\begin{aligned}(𝑥−1)^{2}−1 & =1 \\ (𝑥−1)^{2} & =2 \\ \sqrt{√(𝑥−1)^{2}} & =\sqrt{√2} \\ |𝑥−1| & =\sqrt{√2} \\ 𝑥−1 & =±\sqrt{√2} \\ 𝑥 & =1±\sqrt{√2}\end{aligned}
+\begin{aligned}(𝑥−1)^{2}−1 & =1 \\ (𝑥−1)^{2} & =2 \\ \sqrt{(𝑥−1)^{2}} & =\sqrt{2} \\ |𝑥−1| & =\sqrt{2} \\ 𝑥−1 & =±\sqrt{2} \\ 𝑥 & =1±\sqrt{2}\end{aligned}
 
 
 $$
@@ -219,7 +219,7 @@ Therefore, our solutions are
 $$
 
 
-\begin{aligned}𝑥_{1} & =1+\sqrt{√2}, \\ 𝑥_{2} & =1−\sqrt{√2}.\end{aligned}
+\begin{aligned}𝑥_{1} & =1+\sqrt{2}, \\ 𝑥_{2} & =1−\sqrt{2}.\end{aligned}
 
 
 $$

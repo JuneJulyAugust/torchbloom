@@ -117,7 +117,7 @@ $$
 
 
 
-\begin{aligned}𝑦 & =\sqrt{√(𝑡−2)(3𝑡−1)} \\ 0 & =\sqrt{√(𝑡−2)(3𝑡−1)} \\ 0 & =(𝑡−2)(3𝑡−1)\end{aligned}
+\begin{aligned}𝑦 & =\sqrt{(𝑡−2)(3𝑡−1)} \\ 0 & =\sqrt{(𝑡−2)(3𝑡−1)} \\ 0 & =(𝑡−2)(3𝑡−1)\end{aligned}
 
 
 

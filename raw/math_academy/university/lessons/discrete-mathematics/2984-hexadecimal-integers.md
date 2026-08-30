@@ -31,7 +31,7 @@ $$
 
 When counting numbers in a hexadecimal system, we use the same place value rules as in a decimal system. However, instead of having place values of $10^0$ (ones), $10^1$ (tens), $10^2$ (hundreds), etc, we have $16^0$ (ones), $16^1$ (sixteens), $16^2, \ldots.$
 
-For example, when we reach $\textrm{F}\ (=15),$ writing the next number in the sequence involves placing a $0$ in the ones place and $1$ in the sixteens place. Therefore,
+For example, when we reach $\text{F}\ (=15),$ writing the next number in the sequence involves placing a $0$ in the ones place and $1$ in the sixteens place. Therefore,
 
 $$
 
@@ -71,7 +71,7 @@ $$
 
 
 
-{\color{SandyBrown}1}\,{\color{Purple}\textrm{C}}\,{\color{SteelBlue}\textrm{A}}
+{\color{SandyBrown}1}\,{\color{Purple}\text{C}}\,{\color{SteelBlue}\text{A}}
 
 
 
@@ -85,7 +85,7 @@ $$
 
 
 
-\begin{aligned}(1CA)_{16} & =1⋅16^{2}+\overset{\overset{12}{}}{C}⋅16^{1}+\overset{\overset{10}{}}{A}⋅16^{0} \\ & =256+192+10 \\ & =(458)_{10}\end{aligned}
+\begin{aligned}(1CA)_{16} & =1⋅16^{2}+\overset{12}{C}⋅16^{1}+\overset{10}{A}⋅16^{0} \\ & =256+192+10 \\ & =(458)_{10}\end{aligned}
 
 
 
@@ -99,11 +99,11 @@ Converting decimal integers to hexadecimal integers will be discussed in the nex
 
 #### Question
 
-What is $(27\textrm{F})_{16}$ written in base $10?$
+What is $(27\text{F})_{16}$ written in base $10?$
 
 #### Explanation
 
-Recall that the hexadecimal integers $\textrm{A}-\textrm{F}$ correspond to decimal integers $10-15{:}$
+Recall that the hexadecimal integers $\text{A}-\text{F}$ correspond to decimal integers $10-15{:}$
 
 We can write down the given hexadecimal integer using a place value chart:
 
@@ -125,7 +125,7 @@ To convert a decimal integer $N$ to a hexadecimal integer, we follow two steps:
 
 - First, we expand $N$ using powers of $16{:}$
 
-- Then, we write all the coefficients $a_i$ using hexadecimal digits $0,1,...,9,\textrm{A},...,\textrm{F}.$
+- Then, we write all the coefficients $a_i$ using hexadecimal digits $0,1,...,9,\text{A},...,\text{F}.$
 
 Let's write the following decimal integer in base $16{:}$
 
@@ -197,7 +197,7 @@ $$
 
 
 
-(1000)_{10} = (3\textrm{E}8)_{16}.
+(1000)_{10} = (3\text{E}8)_{16}.
 
 
 
@@ -211,7 +211,7 @@ What is $(15 \cdot 16^{4} + 2 \cdot 16^{1} + 1)_{10}$ written in base $16?$
 
 #### Explanation
 
-Recall that the hexadecimal integers $\textrm{A}-\textrm{F}$ correspond to decimal integers $10-15{:}$
+Recall that the hexadecimal integers $\text{A}-\text{F}$ correspond to decimal integers $10-15{:}$
 
 First, we rewrite our decimal integer as follows:
 
@@ -227,7 +227,7 @@ $$
 
 The corresponding place value chart is given below:
 
-Therefore, $(15 \cdot 16^{4} + 2 \cdot 16^{1} + 1)_{10} = (\textrm{F}0021)_{16}.$
+Therefore, $(15 \cdot 16^{4} + 2 \cdot 16^{1} + 1)_{10} = (\text{F}0021)_{16}.$
 
 ### Example: Converting a Decimal Integer to a Hexadecimal Integer
 
@@ -237,7 +237,7 @@ What is $(1\,500)_{10}$ written in base $16?$
 
 #### Explanation
 
-Recall that the hexadecimal integers $\textrm{A}-\textrm{F}$ correspond to decimal integers $10-15{:}$
+Recall that the hexadecimal integers $\text{A}-\text{F}$ correspond to decimal integers $10-15{:}$
 
 We extract the powers of $16$ from the integer (starting from the largest possible one):
 
@@ -253,4 +253,4 @@ $$
 
 The corresponding place value chart is given below:
 
-Therefore, $(1\,500)_{10} = (5\textrm{DC})_{16}.$
+Therefore, $(1\,500)_{10} = (5\text{DC})_{16}.$

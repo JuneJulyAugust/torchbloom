@@ -18,7 +18,7 @@ Moreover, $a$ and $b$ are congruent modulo $n$ if and only if $n$ divides $a-b.$
 $$
 
 
-a \equiv b \quad (\textrm{mod}\,n) \qquad \Longleftrightarrow \qquad n \mid (a-b) \qquad \Longleftrightarrow \qquad a-b = kn,
+a \equiv b \quad (\text{mod}\,n) \qquad \Longleftrightarrow \qquad n \mid (a-b) \qquad \Longleftrightarrow \qquad a-b = kn,
 
 
 $$
@@ -32,7 +32,7 @@ Consider, for instance, the following true statement:
 $$
 
 
-22\equiv 10 \quad (\textrm{mod}\,12)
+22\equiv 10 \quad (\text{mod}\,12)
 
 
 $$
@@ -75,7 +75,7 @@ $$
 
 #### Question
 
-If $x + 8 \equiv 11\: (\textrm{mod}\,15),$ find an equivalent statement where $x$ is isolated.
+If $x + 8 \equiv 11\: (\text{mod}\,15),$ find an equivalent statement where $x$ is isolated.
 
 #### Explanation
 
@@ -84,7 +84,7 @@ The addition property of congruences states that
 $$
 
 
-a\equiv b \quad \Longleftrightarrow\quad a+c\equiv b+c \qquad (\textrm{mod}\,n).
+a\equiv b \quad \Longleftrightarrow\quad a+c\equiv b+c \qquad (\text{mod}\,n).
 
 
 $$
@@ -94,7 +94,7 @@ Similarly, the subtraction property states that
 $$
 
 
-a\equiv b \quad \Longleftrightarrow\quad a-c\equiv b-c \qquad (\textrm{mod}\,n).
+a\equiv b \quad \Longleftrightarrow\quad a-c\equiv b-c \qquad (\text{mod}\,n).
 
 
 $$
@@ -116,7 +116,7 @@ According to the definition of modular congruence, we have that
 $$
 
 
-a \equiv b \quad (\textrm{mod}\,n) \qquad \Longleftrightarrow \qquad n \mid (a-b) \qquad \Longleftrightarrow \qquad a = b+ kn,
+a \equiv b \quad (\text{mod}\,n) \qquad \Longleftrightarrow \qquad n \mid (a-b) \qquad \Longleftrightarrow \qquad a = b+ kn,
 
 
 $$
@@ -126,7 +126,7 @@ where $k \in \mathbb{Z}.$ Substituting $b=0,$ we obtain
 $$
 
 
-a \equiv 0 \quad (\textrm{mod}\,n) \qquad \Longleftrightarrow \qquad n \mid a \qquad \Longleftrightarrow \qquad a = kn
+a \equiv 0 \quad (\text{mod}\,n) \qquad \Longleftrightarrow \qquad n \mid a \qquad \Longleftrightarrow \qquad a = kn
 
 
 $$
@@ -164,7 +164,7 @@ First, recall that
 $$
 
 
-a \equiv 0 \quad (\textrm{mod}\,n) \qquad \Longleftrightarrow \qquad a = kn,
+a \equiv 0 \quad (\text{mod}\,n) \qquad \Longleftrightarrow \qquad a = kn,
 
 
 $$
@@ -192,7 +192,7 @@ Let's try to simplify the right-hand side of the following congruence:
 $$
 
 
-x \equiv 102 \quad (\textrm{mod}\,5)
+x \equiv 102 \quad (\text{mod}\,5)
 
 
 $$
@@ -202,12 +202,12 @@ By "simplify," we mean that we wish to transform the number on the right-hand si
 $$
 
 
-x \equiv r \quad (\textrm{mod}\,5)\qquad\textrm{for}\qquad 0 \leq r < 5.
+x \equiv r \quad (\text{mod}\,5)\qquad\text{for}\qquad 0 \leq r < 5.
 
 
 $$
 
-When we add $0$ to both sides of a congruence modulo $n$, we can form an equivalent congruence by writing $0$ as an integer multiple of $n.$ This works because every integer multiple of $n$ is congruent to $0\:(\textrm{mod}\:{\color{black}n}).$
+When we add $0$ to both sides of a congruence modulo $n$, we can form an equivalent congruence by writing $0$ as an integer multiple of $n.$ This works because every integer multiple of $n$ is congruent to $0\:(\text{mod}\:{\color{black}n}).$
 
 In our case, we add zero to both sides of the congruence and then use the fact that ${\color{blue}5} \cdot (-20) \equiv 0 \: (\text{mod}\:{\color{blue}5})$ to rewrite the right-hand side, as follows:
 
@@ -219,7 +219,7 @@ $$
 
 $$
 
-We conclude that $x \equiv 102\, (\textrm{mod}\,5)$ is equivalent to $x \equiv 2\, (\textrm{mod}\,5).$
+We conclude that $x \equiv 102\, (\text{mod}\,5)$ is equivalent to $x \equiv 2\, (\text{mod}\,5).$
 
 Our answer is correct because $102$ and $2$ both have a remainder of $2$ when divided by $5,$ and $0 \leq 2 < 5.$
 
@@ -228,7 +228,7 @@ Our answer is correct because $102$ and $2$ both have a remainder of $2$ when di
 $$
 
 
-x \equiv r \quad (\textrm{mod}\,n)\qquad\textrm{for}\qquad 0 \leq r < n.
+x \equiv r \quad (\text{mod}\,n)\qquad\text{for}\qquad 0 \leq r < n.
 
 
 $$
@@ -237,13 +237,13 @@ $$
 
 #### Question
 
-Which of the following is equivalent to $x \equiv 23\: (\textrm{mod}\,6)?$
+Which of the following is equivalent to $x \equiv 23\: (\text{mod}\,6)?$
 
-1. $x \equiv 2 \quad (\textrm{mod}\,6)$
+1. $x \equiv 2 \quad (\text{mod}\,6)$
 
-2. $x \equiv 3 \quad (\textrm{mod}\,6)$
+2. $x \equiv 3 \quad (\text{mod}\,6)$
 
-3. $x \equiv 5 \quad (\textrm{mod}\,6)$
+3. $x \equiv 5 \quad (\text{mod}\,6)$
 
 #### Explanation
 
@@ -286,7 +286,7 @@ Therefore, the number of days $d$ between January 1st and April 6th is given by
 $$
 
 
-d = \overbrace{31(2) + 30(0) + 29(1)}^{\textrm{days to April 1st}} + 5.
+d = \overbrace{31(2) + 30(0) + 29(1)}^{\text{days to April 1st}} + 5.
 
 
 $$
@@ -296,7 +296,7 @@ Now, note that
 $$
 
 
-31 \equiv 3, \qquad 30\equiv 2, \qquad 29\equiv 1 \qquad (\textrm{mod}\, 7).
+31 \equiv 3, \qquad 30\equiv 2, \qquad 29\equiv 1 \qquad (\text{mod}\, 7).
 
 
 $$
@@ -320,7 +320,7 @@ In this lesson, we've been working with the so-called addition property of modul
 $$
 
 
-a\equiv b \quad \Longleftrightarrow\quad a+c\equiv b+c \qquad (\textrm{mod}\,n)
+a\equiv b \quad \Longleftrightarrow\quad a+c\equiv b+c \qquad (\text{mod}\,n)
 
 
 $$

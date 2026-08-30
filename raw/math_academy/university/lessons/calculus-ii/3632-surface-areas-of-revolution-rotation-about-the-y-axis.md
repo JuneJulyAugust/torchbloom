@@ -60,7 +60,7 @@ Therefore, we can find the total surface area using the formula
 $$
 
 
-S = 2\pi \int_{y_1}^{y_2} x \sqrt{1+ \left( \dfrac{\text{d}x}{\text{d}y} \right)^2} \: \textrm{d}y.
+S = 2\pi \int_{y_1}^{y_2} x \sqrt{1+ \left( \dfrac{\text{d}x}{\text{d}y} \right)^2} \: \text{d}y.
 
 
 $$
@@ -100,7 +100,7 @@ Therefore, we will use
 $$
 
 
-S = 2\pi \int_{y_1}^{y_2} x \sqrt{1+ \left( \dfrac{\text{d}x}{\text{d}y} \right)^2} \: \textrm{d}y.
+S = 2\pi \int_{y_1}^{y_2} x \sqrt{1+ \left( \dfrac{\text{d}x}{\text{d}y} \right)^2} \: \text{d}y.
 
 
 $$
@@ -122,7 +122,7 @@ Finally, we obtain
 $$
 
 
-\begin{aligned}𝑆 & =2𝜋∫_{𝑦_{2}𝑦_{1}}^{}𝑥\sqrt{√1+(\frac{d𝑥}{d𝑦})^{2}}\,d𝑦 \\ & =2𝜋∫_{20}^{}(𝑦^{2})\sqrt{√1+(2𝑦)^{2}}\,d𝑦 \\ & =2𝜋∫_{20}^{}𝑦^{2}\sqrt{√1+4𝑦^{2}}\,d𝑦.\end{aligned}
+\begin{aligned}𝑆 & =2𝜋∫_{𝑦_{2}𝑦_{1}}^{}𝑥\sqrt{1+(\frac{d𝑥}{d𝑦})^{2}}\,d𝑦 \\ & =2𝜋∫_{20}(𝑦^{2})\sqrt{1+(2𝑦)^{2}}\,d𝑦 \\ & =2𝜋∫_{20}𝑦^{2}\sqrt{1+4𝑦^{2}}\,d𝑦.\end{aligned}
 
 
 $$
@@ -156,7 +156,7 @@ Therefore, the area of the surface that is obtained when the $y=f(x)$ curve is r
 $$
 
 
-S = 2\pi \int_{x_1}^{x_2} x \sqrt{1+ \left( \dfrac{\text{d}y}{\text{d}x} \right)^2} \: \textrm{d}x.
+S = 2\pi \int_{x_1}^{x_2} x \sqrt{1+ \left( \dfrac{\text{d}y}{\text{d}x} \right)^2} \: \text{d}x.
 
 
 $$
@@ -196,7 +196,7 @@ Therefore, we will use
 $$
 
 
-S = 2\pi \int_{x_1}^{x_2} x \sqrt{1+ \left( \dfrac{\text{d}y}{\text{d}x} \right)^2} \: \textrm{d}x.
+S = 2\pi \int_{x_1}^{x_2} x \sqrt{1+ \left( \dfrac{\text{d}y}{\text{d}x} \right)^2} \: \text{d}x.
 
 
 $$
@@ -206,7 +206,7 @@ First, we need to determine the limits of integration. To do this, we find where
 $$
 
 
-\begin{aligned}𝑥^{3}−3𝑥 & =0 \\ 𝑥(𝑥^{2}−3) & =0 \\ 𝑥 & =0,±\sqrt{√3}\end{aligned}
+\begin{aligned}𝑥^{3}−3𝑥 & =0 \\ 𝑥(𝑥^{2}−3) & =0 \\ 𝑥 & =0,±\sqrt{3}\end{aligned}
 
 
 $$
@@ -228,7 +228,7 @@ Finally, we obtain
 $$
 
 
-\begin{aligned}𝑆 & =2𝜋∫_{𝑥_{2}𝑥_{1}}^{}𝑥\sqrt{√1+(\frac{d𝑦}{d𝑥})^{2}}\,d𝑥 \\ & =2𝜋∫_{\sqrt{√3}0}^{}𝑥\sqrt{√1+(3𝑥^{2}−3)^{2}}\,d𝑥 \\ & =2𝜋∫_{\sqrt{√3}0}^{}𝑥\sqrt{√9𝑥^{4}−18𝑥^{2}+10}\,d𝑥.\end{aligned}
+\begin{aligned}𝑆 & =2𝜋∫_{𝑥_{2}𝑥_{1}}^{}𝑥\sqrt{1+(\frac{d𝑦}{d𝑥})^{2}}\,d𝑥 \\ & =2𝜋∫_{\sqrt{3}0}^{}𝑥\sqrt{1+(3𝑥^{2}−3)^{2}}\,d𝑥 \\ & =2𝜋∫_{\sqrt{3}0}^{}𝑥\sqrt{9𝑥^{4}−18𝑥^{2}+10}\,d𝑥.\end{aligned}
 
 
 $$
@@ -266,7 +266,7 @@ Therefore, we will use
 $$
 
 
-S = 2\pi \int_{x_1}^{x_2} x\sqrt{1 + \left( \dfrac{\text{d}y}{\text{d}x} \right)^2} \, \textrm{d}x.
+S = 2\pi \int_{x_1}^{x_2} x\sqrt{1 + \left( \dfrac{\text{d}y}{\text{d}x} \right)^2} \, \text{d}x.
 
 
 $$
@@ -296,7 +296,7 @@ Finally, we obtain
 $$
 
 
-\begin{aligned}𝑆 & =2𝜋∫_{𝑥_{2}𝑥_{1}}^{}𝑥\sqrt{√1+(\frac{d𝑦}{d𝑥})^{2}}\,d𝑥 \\ & =2𝜋∫_{20}^{}𝑥\sqrt{√1+4}\,d𝑥 \\ & =2𝜋\sqrt{√5}∫_{20}^{}𝑥\,d𝑥 \\ & =2𝜋\sqrt{√5}[\frac{𝑥^{2}}{2}]_{20}^{} \\ & =2𝜋\sqrt{√5}[\frac{2^{2}}{2}−\frac{0^{2}}{2}] \\ & =4𝜋\sqrt{√5}.\end{aligned}
+\begin{aligned}𝑆 & =2𝜋∫_{𝑥_{2}𝑥_{1}}^{}𝑥\sqrt{1+(\frac{d𝑦}{d𝑥})^{2}}\,d𝑥 \\ & =2𝜋∫_{20}𝑥\sqrt{1+4}\,d𝑥 \\ & =2𝜋\sqrt{5}∫_{20}𝑥\,d𝑥 \\ & =2𝜋\sqrt{5}[\frac{𝑥^{2}}{2}]_{20} \\ & =2𝜋\sqrt{5}[\frac{2^{2}}{2}−\frac{0^{2}}{2}] \\ & =4𝜋\sqrt{5}.\end{aligned}
 
 
 $$

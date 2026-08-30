@@ -42,7 +42,7 @@ In most practical situations, the population variances $\sigma_1^2$ and $\sigma_
 $$
 
 
-\begin{aligned}𝑇 & =\frac{(\overset{𝑋}{}_{1}−\overset{𝑋}{}_{2})−(𝜇_{1}−𝜇_{2})}{\sqrt{√\frac{𝑆_{21}^{}}{𝑛_{1}}+\frac{𝑆_{22}^{}}{𝑛_{2}}}}\end{aligned}
+\begin{aligned}𝑇 & =\frac{(\overset{𝑋}{}_{1}−\overset{𝑋}{}_{2})−(𝜇_{1}−𝜇_{2})}{\sqrt{\frac{𝑆_{21}}{𝑛_{1}}+\frac{𝑆_{22}}{𝑛_{2}}}}\end{aligned}
 
 
 $$

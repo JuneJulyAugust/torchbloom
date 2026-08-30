@@ -27,7 +27,7 @@ Since the acceleration of the particle $P$ is $2x\,\rm{m/s}^2,$ we have
 $$
 
 
-\dfrac{\textrm{d}v}{\textrm{d}t} =2x.
+\dfrac{\text{d}v}{\text{d}t} =2x.
 
 
 $$
@@ -37,7 +37,7 @@ Using the fact that
 $$
 
 
-\dfrac{\textrm{d}v}{\textrm{d}t}= \dfrac{\textrm{d}}{\textrm{d}x}\left(\dfrac{1}{2}v^2\right),
+\dfrac{\text{d}v}{\text{d}t}= \dfrac{\text{d}}{\text{d}x}\left(\dfrac{1}{2}v^2\right),
 
 
 $$
@@ -47,7 +47,7 @@ we can rewrite our equation as
 $$
 
 
-\dfrac{\textrm{d}}{\textrm{d}x}\left(\dfrac{1}{2}v^2\right) = 2x.
+\dfrac{\text{d}}{\text{d}x}\left(\dfrac{1}{2}v^2\right) = 2x.
 
 
 $$
@@ -57,7 +57,7 @@ Integrating both sides of the above equation with respect to $x,$ we have
 $$
 
 
-\int \dfrac{\textrm{d}}{\textrm{d}x} \left(\dfrac12v^2\right) \textrm{d}x = \int 2x \:\textrm{d}x
+\int \dfrac{\text{d}}{\text{d}x} \left(\dfrac12v^2\right) \text{d}x = \int 2x \:\text{d}x
 
 
 $$
@@ -77,7 +77,7 @@ Now, since $v=2\,\rm{m/s}$ when $x=\sqrt 3\,\rm{m},$ we can find the value of th
 $$
 
 
-\begin{aligned}\frac{1}{2}𝑣^{2} & =𝑥^{2}+𝐶 \\ \frac{1}{2}(2)^{2} & =(\sqrt{√3})^{2}+𝐶 \\ 2 & =3+𝐶 \\ 𝐶 & =−1\end{aligned}
+\begin{aligned}\frac{1}{2}𝑣^{2} & =𝑥^{2}+𝐶 \\ \frac{1}{2}(2)^{2} & =(\sqrt{3})^{2}+𝐶 \\ 2 & =3+𝐶 \\ 𝐶 & =−1\end{aligned}
 
 
 $$
@@ -117,7 +117,7 @@ Since the acceleration of the particle $P$ has magnitude $(2x-2)\,\rm{m/s}^2$ an
 $$
 
 
-\dfrac{\textrm{d}v}{\textrm{d}t} = -(2x-2).
+\dfrac{\text{d}v}{\text{d}t} = -(2x-2).
 
 
 $$
@@ -127,7 +127,7 @@ Using the fact that
 $$
 
 
-\dfrac{\textrm{d}v}{\textrm{d}t}= \dfrac{\textrm{d}}{\textrm{d}x}\left(\dfrac{1}{2}v^2\right),
+\dfrac{\text{d}v}{\text{d}t}= \dfrac{\text{d}}{\text{d}x}\left(\dfrac{1}{2}v^2\right),
 
 
 $$
@@ -137,7 +137,7 @@ we can rewrite our equation as
 $$
 
 
-\dfrac{\textrm{d}}{\textrm{d}x}\left(\dfrac{1}{2}v^2\right) = -(2x-2).
+\dfrac{\text{d}}{\text{d}x}\left(\dfrac{1}{2}v^2\right) = -(2x-2).
 
 
 $$
@@ -147,7 +147,7 @@ Integrating both sides of the above equation with respect to $x,$ we have
 $$
 
 
-\int \dfrac{\textrm{d}}{\textrm{d}x} \left(\dfrac12v^2\right) \textrm{d}x = \int (-2x+2) \:\textrm{d}x
+\int \dfrac{\text{d}}{\text{d}x} \left(\dfrac12v^2\right) \text{d}x = \int (-2x+2) \:\text{d}x
 
 
 $$
@@ -167,7 +167,7 @@ Now, since $v=\sqrt{2}\,\rm{m/s}$ when $x=1\,\rm{m},$ we can find the value of t
 $$
 
 
-\begin{aligned}\frac{1}{2}𝑣^{2} & =−𝑥^{2}+2𝑥+𝐶 \\ \frac{1}{2}(\sqrt{√2})^{2} & =−(1)^{2}+2(1)+𝐶 \\ 𝐶 & =1+1−2 \\ 𝐶 & =0\end{aligned}
+\begin{aligned}\frac{1}{2}𝑣^{2} & =−𝑥^{2}+2𝑥+𝐶 \\ \frac{1}{2}(\sqrt{2})^{2} & =−(1)^{2}+2(1)+𝐶 \\ 𝐶 & =1+1−2 \\ 𝐶 & =0\end{aligned}
 
 
 $$
@@ -209,7 +209,7 @@ Since the acceleration of the particle $P$ is $2kx\,\rm{m/s}^2,$ we have
 $$
 
 
-\dfrac{\textrm{d}v}{\textrm{d}t} =2 kx.
+\dfrac{\text{d}v}{\text{d}t} =2 kx.
 
 
 $$
@@ -219,7 +219,7 @@ Using the fact that
 $$
 
 
-\dfrac{\textrm{d}v}{\textrm{d}t}= \dfrac{\textrm{d}}{\textrm{d}x}\left(\dfrac{1}{2}v^2\right),
+\dfrac{\text{d}v}{\text{d}t}= \dfrac{\text{d}}{\text{d}x}\left(\dfrac{1}{2}v^2\right),
 
 
 $$
@@ -229,7 +229,7 @@ we can rewrite our equation as
 $$
 
 
-\dfrac{\textrm{d}}{\textrm{d}x}\left(\dfrac{1}{2}v^2\right) = 2kx.
+\dfrac{\text{d}}{\text{d}x}\left(\dfrac{1}{2}v^2\right) = 2kx.
 
 
 $$
@@ -239,7 +239,7 @@ Integrating both sides of the above equation with respect to $x,$ we have
 $$
 
 
-\int \dfrac{\textrm{d}}{\textrm{d}x}\left(\dfrac{1}{2}v^2\right) \textrm{d}x = \int 2kx \:\textrm{d}x
+\int \dfrac{\text{d}}{\text{d}x}\left(\dfrac{1}{2}v^2\right) \text{d}x = \int 2kx \:\text{d}x
 
 
 $$
@@ -299,14 +299,14 @@ The extrema of the velocity occur at the critical points of $v.$ Since the accel
 $$
 
 
-\dfrac{\textrm{d}v}{\textrm{d}t} = k(5 - x).
+\dfrac{\text{d}v}{\text{d}t} = k(5 - x).
 
 
 $$
 
-To find the moments where $v$ is a maximum, we need to solve $\dfrac{\textrm{d}v}{\textrm{d}t} = 0$ and test each solution using the first derivative test.
+To find the moments where $v$ is a maximum, we need to solve $\dfrac{\text{d}v}{\text{d}t} = 0$ and test each solution using the first derivative test.
 
-Solving $\dfrac{\textrm{d}v}{\textrm{d}t} = 0$ gives
+Solving $\dfrac{\text{d}v}{\text{d}t} = 0$ gives
 
 $$
 
@@ -327,7 +327,7 @@ Next, using the fact that
 $$
 
 
-\dfrac{\textrm{d}v}{\textrm{d}t}= \dfrac{\textrm{d}}{\textrm{d}x}\left(\dfrac{1}{2}v^2\right),
+\dfrac{\text{d}v}{\text{d}t}= \dfrac{\text{d}}{\text{d}x}\left(\dfrac{1}{2}v^2\right),
 
 
 $$
@@ -337,7 +337,7 @@ we can rewrite our initial equation as
 $$
 
 
-\dfrac{\textrm{d}}{\textrm{d}x}\left(\dfrac{1}{2}v^2\right) = k(5 - x).
+\dfrac{\text{d}}{\text{d}x}\left(\dfrac{1}{2}v^2\right) = k(5 - x).
 
 
 $$
@@ -347,7 +347,7 @@ Integrating both sides of the above equation with respect to $x,$ we have
 $$
 
 
-\int \dfrac{\textrm{d}}{\textrm{d}x}\left(\dfrac{1}{2}v^2\right) \textrm{d}x = \int k(5 - x) \:\textrm{d}x
+\int \dfrac{\text{d}}{\text{d}x}\left(\dfrac{1}{2}v^2\right) \text{d}x = \int k(5 - x) \:\text{d}x
 
 
 $$
@@ -367,7 +367,7 @@ Now, since $v = \sqrt{6} \, \rm{m/s}$ when $x = 0 \, \rm{m},$ we can find the va
 $$
 
 
-\begin{aligned}\frac{1}{2}𝑣^{2} & =𝑘(5𝑥−\frac{1}{2}𝑥^{2})+𝐶 \\ \frac{1}{2}(\sqrt{√6})^{2} & =𝑘(5(0)−\frac{1}{2}(0)^{2})+𝐶 \\ 𝐶 & =3\end{aligned}
+\begin{aligned}\frac{1}{2}𝑣^{2} & =𝑘(5𝑥−\frac{1}{2}𝑥^{2})+𝐶 \\ \frac{1}{2}(\sqrt{6})^{2} & =𝑘(5(0)−\frac{1}{2}(0)^{2})+𝐶 \\ 𝐶 & =3\end{aligned}
 
 
 $$
@@ -387,7 +387,7 @@ Also, since $v = 2\sqrt{6} \, \rm{m/s}$ when $x = 1 \, \rm{m},$ we can find the 
 $$
 
 
-\begin{aligned}\frac{1}{2}𝑣^{2} & =𝑘(5𝑥−\frac{1}{2}𝑥^{2})+3 \\ \frac{1}{2}(2\sqrt{√6})^{2} & =𝑘(5(1)−\frac{1}{2}(1)^{2})+3 \\ 12 & =\frac{9𝑘}{2}+3 \\ \frac{9𝑘}{2} & =9 \\ 𝑘 & =2\end{aligned}
+\begin{aligned}\frac{1}{2}𝑣^{2} & =𝑘(5𝑥−\frac{1}{2}𝑥^{2})+3 \\ \frac{1}{2}(2\sqrt{6})^{2} & =𝑘(5(1)−\frac{1}{2}(1)^{2})+3 \\ 12 & =\frac{9𝑘}{2}+3 \\ \frac{9𝑘}{2} & =9 \\ 𝑘 & =2\end{aligned}
 
 
 $$
@@ -397,7 +397,7 @@ Therefore,
 $$
 
 
-\begin{aligned}\frac{1}{2}𝑣^{2} & =2(5𝑥−\frac{1}{2}𝑥^{2})+3 \\ \frac{1}{2}𝑣^{2} & =10𝑥−𝑥^{2}+3 \\ 𝑣^{2} & =20𝑥−2𝑥^{2}+6 \\ 𝑣 & =±\sqrt{√−2𝑥^{2}+20𝑥+6}.\end{aligned}
+\begin{aligned}\frac{1}{2}𝑣^{2} & =2(5𝑥−\frac{1}{2}𝑥^{2})+3 \\ \frac{1}{2}𝑣^{2} & =10𝑥−𝑥^{2}+3 \\ 𝑣^{2} & =20𝑥−2𝑥^{2}+6 \\ 𝑣 & =±\sqrt{−2𝑥^{2}+20𝑥+6}.\end{aligned}
 
 
 $$

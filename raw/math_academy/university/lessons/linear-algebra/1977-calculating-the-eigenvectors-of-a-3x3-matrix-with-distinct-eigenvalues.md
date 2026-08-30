@@ -39,7 +39,7 @@ In our case, we have $\lambda =3.$ So, we get
 $$
 
 
-\begin{aligned}𝐴−𝜆𝐼 & =\begin{aligned}3 & 6 & −8 \\ 0 & 0 & 6 \\ 0 & 3 & −4\end{aligned}−3\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{aligned} \\ & =\begin{aligned}0 & 6 & −8 \\ 0 & −3 & 6 \\ 0 & 3 & −7\end{aligned}.\end{aligned}
+\begin{aligned}𝐴−𝜆𝐼 & =\begin{matrix}3 & 6 & −8 \\ 0 & 0 & 6 \\ 0 & 3 & −4\end{matrix}−3\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{matrix} \\ & =\begin{matrix}0 & 6 & −8 \\ 0 & −3 & 6 \\ 0 & 3 & −7\end{matrix}.\end{aligned}
 
 
 $$
@@ -59,7 +59,7 @@ So, we row-reduce the augmented matrix $M$ to row echelon form using Gaussian el
 $$
 
 
-\begin{aligned}𝑀 & =\begin{aligned}0 & 6 & −8 & 0 \\ 0 & −3 & 6 & 0 \\ 0 & 3 & −7 & 0\end{aligned} & & \begin{aligned}𝑅_{2}:=𝑅_{2}+\frac{1}{2}𝑅_{1} \\ 𝑅_{3}:=𝑅_{3}+(−\frac{1}{2})𝑅_{1}\end{aligned} \\ & ∼\begin{aligned}0 & 6 & −8 & 0 \\ 0 & 0 & 2 & 0 \\ 0 & 0 & −3 & 0\end{aligned} & & \begin{aligned}𝑅_{3}:=𝑅_{3}+\frac{3}{2}𝑅_{2}\end{aligned} \\ & ∼\begin{aligned}0 & 6 & −8 & 0 \\ 0 & 0 & 2 & 0 \\ 0 & 0 & 0 & 0\end{aligned} & & \end{aligned}
+\begin{aligned}𝑀 & =\begin{matrix}0 & 6 & −8 & 0 \\ 0 & −3 & 6 & 0 \\ 0 & 3 & −7 & 0\end{matrix} & & \begin{matrix}𝑅_{2}:=𝑅_{2}+\frac{1}{2}𝑅_{1} \\ 𝑅_{3}:=𝑅_{3}+(−\frac{1}{2})𝑅_{1}\end{matrix} \\ & ∼\begin{matrix}0 & 6 & −8 & 0 \\ 0 & 0 & 2 & 0 \\ 0 & 0 & −3 & 0\end{matrix} & & \begin{matrix}𝑅_{3}:=𝑅_{3}+\frac{3}{2}𝑅_{2}\end{matrix} \\ & ∼\begin{matrix}0 & 6 & −8 & 0 \\ 0 & 0 & 2 & 0 \\ 0 & 0 & 0 & 0\end{matrix} & & \end{aligned}
 
 
 $$
@@ -115,7 +115,7 @@ In our case, we have $\lambda =3.$ So, we get
 $$
 
 
-\begin{aligned}𝐴−𝜆𝐼 & =\begin{aligned}5 & 0 & −6 \\ 2 & 1 & −4 \\ 1 & 0 & 0\end{aligned}−3\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{aligned} \\ & =\begin{aligned}2 & 0 & −6 \\ 2 & −2 & −4 \\ 1 & 0 & −3\end{aligned}.\end{aligned}
+\begin{aligned}𝐴−𝜆𝐼 & =\begin{matrix}5 & 0 & −6 \\ 2 & 1 & −4 \\ 1 & 0 & 0\end{matrix}−3\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{matrix} \\ & =\begin{matrix}2 & 0 & −6 \\ 2 & −2 & −4 \\ 1 & 0 & −3\end{matrix}.\end{aligned}
 
 
 $$
@@ -135,7 +135,7 @@ So, we row-reduce the augmented matrix $M$ to row echelon form using Gaussian el
 $$
 
 
-\begin{aligned}𝑀 & =\begin{aligned}2 & 0 & −6 & 0 \\ 2 & −2 & −4 & 0 \\ 1 & 0 & −3 & 0\end{aligned} & & 𝑅_{1}:=\frac{1}{2}𝑅_{1} \\ & ∼\begin{aligned}1 & 0 & −3 & 0 \\ 2 & −2 & −4 & 0 \\ 1 & 0 & −3 & 0\end{aligned} & & \begin{aligned}𝑅_{2}:=𝑅_{2}+(−2)𝑅_{1} \\ 𝑅_{3}:=𝑅_{3}+(−1)𝑅_{1}\end{aligned} \\ & ∼\begin{aligned}1 & 0 & −3 & 0 \\ 0 & −2 & 2 & 0 \\ 0 & 0 & 0 & 0\end{aligned} & & \end{aligned}
+\begin{aligned}𝑀 & =\begin{matrix}2 & 0 & −6 & 0 \\ 2 & −2 & −4 & 0 \\ 1 & 0 & −3 & 0\end{matrix} & & 𝑅_{1}:=\frac{1}{2}𝑅_{1} \\ & ∼\begin{matrix}1 & 0 & −3 & 0 \\ 2 & −2 & −4 & 0 \\ 1 & 0 & −3 & 0\end{matrix} & & \begin{matrix}𝑅_{2}:=𝑅_{2}+(−2)𝑅_{1} \\ 𝑅_{3}:=𝑅_{3}+(−1)𝑅_{1}\end{matrix} \\ & ∼\begin{matrix}1 & 0 & −3 & 0 \\ 0 & −2 & 2 & 0 \\ 0 & 0 & 0 & 0\end{matrix} & & \end{aligned}
 
 
 $$
@@ -185,7 +185,7 @@ In our case, we have $\lambda =-2.$ So, we obtain
 $$
 
 
-\begin{aligned}𝐴−𝜆𝐼 & =\begin{aligned}1 & 3 & 4 \\ 0 & −2 & 0 \\ 0 & 0 & −1\end{aligned}−(−2)\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{aligned} \\ & =\begin{aligned}3 & 3 & 4 \\ 0 & 0 & 0 \\ 0 & 0 & 1\end{aligned}.\end{aligned}
+\begin{aligned}𝐴−𝜆𝐼 & =\begin{matrix}1 & 3 & 4 \\ 0 & −2 & 0 \\ 0 & 0 & −1\end{matrix}−(−2)\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{matrix} \\ & =\begin{matrix}3 & 3 & 4 \\ 0 & 0 & 0 \\ 0 & 0 & 1\end{matrix}.\end{aligned}
 
 
 $$
@@ -205,7 +205,7 @@ So, we row-reduce the augmented matrix $M$ to row echelon form using Gaussian el
 $$
 
 
-\begin{aligned}𝑀 & =\begin{aligned}3 & 3 & 4 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 1 & 0\end{aligned} & & \begin{aligned}𝑅_{2}↔𝑅_{3}\end{aligned} \\ & ∼\begin{aligned}3 & 3 & 4 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 0\end{aligned} & & \end{aligned}
+\begin{aligned}𝑀 & =\begin{matrix}3 & 3 & 4 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 1 & 0\end{matrix} & & \begin{matrix}𝑅_{2}↔𝑅_{3}\end{matrix} \\ & ∼\begin{matrix}3 & 3 & 4 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 0\end{matrix} & & \end{aligned}
 
 
 $$
@@ -267,7 +267,7 @@ In our case, we have $\lambda =4.$ So, we obtain
 $$
 
 
-\begin{aligned}𝐴−𝜆𝐼 & =\begin{aligned}1 & 0 & 0 \\ 0 & −1 & 0 \\ 0 & 0 & 4\end{aligned}−4\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{aligned} \\ & =\begin{aligned}−3 & 0 & 0 \\ 0 & −5 & 0 \\ 0 & 0 & 0\end{aligned}.\end{aligned}
+\begin{aligned}𝐴−𝜆𝐼 & =\begin{matrix}1 & 0 & 0 \\ 0 & −1 & 0 \\ 0 & 0 & 4\end{matrix}−4\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{matrix} \\ & =\begin{matrix}−3 & 0 & 0 \\ 0 & −5 & 0 \\ 0 & 0 & 0\end{matrix}.\end{aligned}
 
 
 $$
@@ -287,7 +287,7 @@ Notice that the augmented matrix $M$ is already in its row echelon form:
 $$
 
 
-\begin{aligned}𝑀 & =\begin{aligned}−3 & 0 & 0 & 0 \\ 0 & −5 & 0 & 0 \\ 0 & 0 & 0 & 0\end{aligned}\end{aligned}
+\begin{aligned}𝑀 & =\begin{matrix}−3 & 0 & 0 & 0 \\ 0 & −5 & 0 & 0 \\ 0 & 0 & 0 & 0\end{matrix}\end{aligned}
 
 
 $$

@@ -160,14 +160,14 @@ If $X$ represents the number of defective T-shirts in a random sample of $120$ T
 $$
 
 
-P\big(\boxed{\phantom{\textrm{X \leq 4}}} \big)= \boxed{\phantom{\textrm{0.0000}}}.
+P\big(\boxed{\phantom{\mathrm{X \leq 4}}} \big)= \boxed{\phantom{\mathrm{0.0000}}}.
 
 
 $$
 
-Since $P\big(\boxed{\phantom{\textrm{X \leq 4}}}\big)$ $\boxed{\phantom{\textrm{<}}}$ $5\%,$ there is $\boxed{\phantom{\textrm{sufficient}}}$ evidence to reject $H_0.$
+Since $P\big(\boxed{\phantom{\mathrm{X \leq 4}}}\big)$ $\boxed{\phantom{\mathrm{<}}}$ $5\%,$ there is $\boxed{\phantom{\mathrm{sufficient}}}$ evidence to reject $H_0.$
 
-Therefore, we $\boxed{\phantom{\textrm{can conclude}}}$ that the proportion of defective T-shirts has decreased since the machine was replaced.
+Therefore, we $\boxed{\phantom{\mathrm{can conclude}}}$ that the proportion of defective T-shirts has decreased since the machine was replaced.
 
 #### Explanation
 
@@ -205,9 +205,9 @@ Let's interpret this result:
 
 - Since $P(\boxed{\color{blue}X\leq 4}) \boxed{\color{blue}<} 5\%,$ the experimental results are unlikely under the null hypothesis.
 
-- In other words, there is $\boxed{\color{blue}\textrm{sufficient}}$ evidence to reject $H_0.$
+- In other words, there is $\boxed{\color{blue}\text{sufficient}}$ evidence to reject $H_0.$
 
-- Therefore, we $\boxed{\color{blue}\textrm{can conclude}}$ that the proportion of defective T-shirts has decreased since the machine was repaired.
+- Therefore, we $\boxed{\color{blue}\text{can conclude}}$ that the proportion of defective T-shirts has decreased since the machine was repaired.
 
 ****: In hypothesis testing, the so-called **** is the probability of observing a test statistic as extreme as, or more extreme than, the observed one, assuming that the null hypothesis is true. In this case, the p-value is $0.0056.$ We won't use the p-value terminology very often, but you should know it exists.
 
@@ -221,11 +221,11 @@ After randomly sampling $20$ customers, the director determined that $15$ of the
 
 Fill in the missing information from the following statements.
 
-If $X$ represents the number of randomly selected customers who waited at least $3$ minutes, then an appropriate test statistic is $P\big(\boxed{\phantom{\textrm{0.0000}}}\big) = \boxed{\phantom{\textrm{0.0000}}}.$
+If $X$ represents the number of randomly selected customers who waited at least $3$ minutes, then an appropriate test statistic is $P\big(\boxed{\phantom{\mathrm{0.0000}}}\big) = \boxed{\phantom{\mathrm{0.0000}}}.$
 
-Since $P\big(\boxed{\phantom{\textrm{0.0000}}}\big)\, \boxed{\phantom{\textrm{0}}}\, 1\%,$ there is $\boxed{\phantom{\textrm{0.000000}}}$ evidence to reject $H_0.$
+Since $P\big(\boxed{\phantom{\mathrm{0.0000}}}\big)\, \boxed{\phantom{\mathrm{0}}}\, 1\%,$ there is $\boxed{\phantom{\mathrm{0.000000}}}$ evidence to reject $H_0.$
 
-Therefore, we $\boxed{\phantom{\textrm{cannot conclude}}}$ that the percentage of customers who must wait at least $3$ minutes is higher than expected.
+Therefore, we $\boxed{\phantom{\mathrm{cannot conclude}}}$ that the percentage of customers who must wait at least $3$ minutes is higher than expected.
 
 #### Explanation
 
@@ -263,6 +263,6 @@ Let's interpret this result:
 
 - Since $P(\boxed{\color{blue}X \geq 15}) \boxed{\color{blue}\gt} 1\%,$ this experimental result is likely under the null hypothesis.
 
-- In other words, there is $\boxed{\color{blue}\textrm{insufficient}}$ evidence to reject $H_0.$
+- In other words, there is $\boxed{\color{blue}\text{insufficient}}$ evidence to reject $H_0.$
 
-- Therefore, we $\boxed{\color{blue}\textrm{cannot conclude}}$ that the percentage of customers who must wait at least $3$ minutes is higher than expected.
+- Therefore, we $\boxed{\color{blue}\text{cannot conclude}}$ that the percentage of customers who must wait at least $3$ minutes is higher than expected.

@@ -110,7 +110,7 @@ Fill in the blanks in the expression that gives the solution of the initial valu
 $$
 
 
-\begin{aligned}𝐱(𝑡) & =[\begin{aligned}\,\,𝑋𝑋𝑋𝑋\, \\ 3𝑒^{4(𝑡−1)}\end{aligned}]+∫_{𝑡1}^{}[\begin{aligned}𝑒^{4𝑡} \\ \,\,𝑋𝑋\,\end{aligned}]d𝑠.\end{aligned}
+\begin{aligned}𝐱(𝑡) & =[\begin{matrix}\,\,𝑋𝑋𝑋𝑋\, \\ 3𝑒^{4(𝑡−1)}\end{matrix}]+∫_{𝑡1}[\begin{matrix}𝑒^{4𝑡} \\ \,\,𝑋𝑋\,\end{matrix}]d𝑠.\end{aligned}
 
 
 $$
@@ -140,7 +140,7 @@ Therefore, we get
 $$
 
 
-\begin{aligned}𝐱(𝑡) & =\begin{aligned}3(𝑡−1)𝑒^{4(𝑡−1)} \\ 3𝑒^{4(𝑡−1)}\end{aligned}+∫_{𝑡1}^{}[\begin{aligned}𝑒^{4𝑡} \\ 0\end{aligned}]d𝑠.\end{aligned}
+\begin{aligned}𝐱(𝑡) & =\begin{matrix}3(𝑡−1)𝑒^{4(𝑡−1)} \\ 3𝑒^{4(𝑡−1)}\end{matrix}+∫_{𝑡1}[\begin{matrix}𝑒^{4𝑡} \\ 0\end{matrix}]d𝑠.\end{aligned}
 
 
 $$
@@ -198,7 +198,7 @@ Finally, we get
 $$
 
 
-\begin{aligned}𝐱(𝑡) & =[\begin{aligned}0 \\ 0\end{aligned}]+\begin{aligned}\frac{1}{3}𝑒^{3𝑡}−\frac{1}{3} \\ 0\end{aligned} \\ & =\begin{aligned}\frac{1}{3}𝑒^{3𝑡}−\frac{1}{3} \\ 0\end{aligned} \\ & =\frac{1}{3}[\begin{aligned}𝑒^{3𝑡}−1 \\ 0\end{aligned}].\end{aligned}
+\begin{aligned}𝐱(𝑡) & =[\begin{matrix}0 \\ 0\end{matrix}]+\begin{matrix}\frac{1}{3}𝑒^{3𝑡}−\frac{1}{3} \\ 0\end{matrix} \\ & =\begin{matrix}\frac{1}{3}𝑒^{3𝑡}−\frac{1}{3} \\ 0\end{matrix} \\ & =\frac{1}{3}[\begin{matrix}𝑒^{3𝑡}−1 \\ 0\end{matrix}].\end{aligned}
 
 
 $$
@@ -219,38 +219,38 @@ $$
 
 Consider the inhomogeneous system $\mathbf{x}'(t)=A\mathbf{x}(t)+\mathbf{g}(t),$ where $A$ is a constant square matrix. A derivation of the formula for the solution $\mathbf{x}(t)$ passing through $\mathbf{x}(t_0)$ is presented below.
 
-$\textrm{L1}{:}\;$ Let $\mathbf{y}(t)=e^{-A(t-t_0)}\mathbf{x}(t)$
+$\text{L1}{:}\;$ Let $\mathbf{y}(t)=e^{-A(t-t_0)}\mathbf{x}(t)$
 
-$\textrm{L2}{:}\;$ $\mathbf{y}'(t) = -Ae^{-A(t-t_0)}\mathbf{x}(t) + e^{-A(t-t_0)}\mathbf{x}'(t)$
+$\text{L2}{:}\;$ $\mathbf{y}'(t) = -Ae^{-A(t-t_0)}\mathbf{x}(t) + e^{-A(t-t_0)}\mathbf{x}'(t)$
 
-$\textrm{L3}{:}\;$ $\mathbf{y}'(t)=e^{-A(t-t_0)}\mathbf{g}(t)$
+$\text{L3}{:}\;$ $\mathbf{y}'(t)=e^{-A(t-t_0)}\mathbf{g}(t)$
 
-$\textrm{L4}{:}\;$ $\displaystyle\mathbf{y}(t)-\mathbf{y}(t_0) = \int_{t_0}^{t} e^{-A(s-t_0)}\mathbf{g}(s) \, \text{d}s$
+$\text{L4}{:}\;$ $\displaystyle\mathbf{y}(t)-\mathbf{y}(t_0) = \int_{t_0}^{t} e^{-A(s-t_0)}\mathbf{g}(s) \, \text{d}s$
 
-$\textrm{L5}{:}\;$ $\mathbf{y}(t_0)=\mathbf{x}(t_0)$
+$\text{L5}{:}\;$ $\mathbf{y}(t_0)=\mathbf{x}(t_0)$
 
-$\textrm{L6}{:}\;$ $\displaystyle\mathbf{y}(t)=\mathbf{x}(t_0)+\int_{t_0}^{t} e^{-A(s-t_0)}\mathbf{g}(s) \, \text{d}s$
+$\text{L6}{:}\;$ $\displaystyle\mathbf{y}(t)=\mathbf{x}(t_0)+\int_{t_0}^{t} e^{-A(s-t_0)}\mathbf{g}(s) \, \text{d}s$
 
-$\textrm{L7}{:}\;$ $\displaystyle e^{A(t-t_0)}\mathbf{y}(t)=e^{A(t-t_0)}\mathbf{x}(t_0)+\int_{t_0}^{t} e^{A(t-s)}\mathbf{g}(s) \, \text{d}s$
+$\text{L7}{:}\;$ $\displaystyle e^{A(t-t_0)}\mathbf{y}(t)=e^{A(t-t_0)}\mathbf{x}(t_0)+\int_{t_0}^{t} e^{A(t-s)}\mathbf{g}(s) \, \text{d}s$
 
-$\textrm{L8}{:}\;$ $e^{A(t-t_0)}\mathbf{y}(t)=\mathbf{x}(t)$
+$\text{L8}{:}\;$ $e^{A(t-t_0)}\mathbf{y}(t)=\mathbf{x}(t)$
 
-$\textrm{L9}{:}\;$ $\displaystyle\mathbf{x}(t)=e^{A(t-t_0)}\mathbf{x}(t_0)+\int_{t_0}^{t} e^{A(t-s)}\mathbf{g}(s) \, \text{d}s$
+$\text{L9}{:}\;$ $\displaystyle\mathbf{x}(t)=e^{A(t-t_0)}\mathbf{x}(t_0)+\int_{t_0}^{t} e^{A(t-s)}\mathbf{g}(s) \, \text{d}s$
 
 Fill in the blanks with the correct reasons to justify each step of the reasoning.
 
-$\quad$ Line $\textrm{L3}$ follows from $\textrm{L2}$ by $𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴$.
+$\quad$ Line $\text{L3}$ follows from $\text{L2}$ by $𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴$.
 
-$\quad$ Line $\textrm{L5}$ follows from line $\textrm{L1}$ by $𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴$.
+$\quad$ Line $\text{L5}$ follows from line $\text{L1}$ by $𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴$.
 
-$\quad$ Line $\textrm{L8}$ follows from line $\textrm{L1}$ by $𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴$.
+$\quad$ Line $\text{L8}$ follows from line $\text{L1}$ by $𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴$.
 
 #### Explanation
 
 Let's justify each of the selected steps.
 
-- We first consider lines $\textrm{L2}$ and $\textrm{L3}.$ Starting from in $\textrm{L2}$ and substituting $\mathbf{x}'(t)=A\mathbf{x}(t)+\mathbf{g}(t)$ from the original system gives Thus, $\textrm{L3}$ follows from $\textrm{L2}$ by $𝐱^{′}(𝑡)=𝐴𝐱(𝑡)+𝐠(𝑡)$
+- We first consider lines $\text{L2}$ and $\text{L3}.$ Starting from in $\text{L2}$ and substituting $\mathbf{x}'(t)=A\mathbf{x}(t)+\mathbf{g}(t)$ from the original system gives Thus, $\text{L3}$ follows from $\text{L2}$ by $𝐱^{′}(𝑡)=𝐴𝐱(𝑡)+𝐠(𝑡)$
 
-- Next, we consider lines $\textrm{L1}$ and $\textrm{L5}.$ Evaluating $\mathbf{y}(t)=e^{-A(t-t_0)}\mathbf{x}(t)$ at $t=t_0$ gives Therefore, $\textrm{L5}$ follows from line $\textrm{L1}$ by $𝑡=𝑡_{0}$
+- Next, we consider lines $\text{L1}$ and $\text{L5}.$ Evaluating $\mathbf{y}(t)=e^{-A(t-t_0)}\mathbf{x}(t)$ at $t=t_0$ gives Therefore, $\text{L5}$ follows from line $\text{L1}$ by $𝑡=𝑡_{0}$
 
-- Finally, we consider lines $\textrm{L1}$ and $\textrm{L8}.$ Multiplying both sides of from $\textrm{L1}$ by $e^{A(t-t_0)}$ gives Therefore, $\textrm{L8}$ follows from $\textrm{L1}$ by $𝑒^{𝐴(𝑡−𝑡_{0})}$
+- Finally, we consider lines $\text{L1}$ and $\text{L8}.$ Multiplying both sides of from $\text{L1}$ by $e^{A(t-t_0)}$ gives Therefore, $\text{L8}$ follows from $\text{L1}$ by $𝑒^{𝐴(𝑡−𝑡_{0})}$

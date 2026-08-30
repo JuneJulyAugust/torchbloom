@@ -127,4 +127,4 @@ We can summarize these properties in the table below.
 
 Recall that according to Post's functional completeness theorem, a set of Boolean functions (logical operators) is functionally complete if and only if this set contains at least one function that is ** truth-preserving, ** falsity-preserving, ** self-dual, ** monotonic, and ** affine.
 
-In our set, both $f_1$ and $f_2$ are truth-preserving. Therefore, $\{f_1, f_2 \}$ $\boxed{\color{blue}\textrm{isn't}}$ functionally complete.
+In our set, both $f_1$ and $f_2$ are truth-preserving. Therefore, $\{f_1, f_2 \}$ $\boxed{\color{blue}\text{isn't}}$ functionally complete.

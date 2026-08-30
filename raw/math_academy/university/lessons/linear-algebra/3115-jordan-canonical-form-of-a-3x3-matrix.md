@@ -127,7 +127,7 @@ Computing $A-8I,$ we get
 $$
 
 
-\begin{aligned}𝐴−8𝐼 & =\begin{aligned}4 & 3 & 1 \\ 1 & 6 & 1 \\ 6 & −7 & 9\end{aligned}−8\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{aligned}=\begin{aligned}−4 & 3 & 1 \\ 1 & −2 & 1 \\ 6 & −7 & 1\end{aligned}.\end{aligned}
+\begin{aligned}𝐴−8𝐼 & =\begin{matrix}4 & 3 & 1 \\ 1 & 6 & 1 \\ 6 & −7 & 9\end{matrix}−8\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{matrix}=\begin{matrix}−4 & 3 & 1 \\ 1 & −2 & 1 \\ 6 & −7 & 1\end{matrix}.\end{aligned}
 
 
 $$
@@ -137,7 +137,7 @@ Now, we reduce this matrix to row echelon form using Gaussian elimination, as fo
 $$
 
 
-\begin{aligned}𝐴−8𝐼 & =\begin{aligned}−4 & 3 & 1 \\ 1 & −2 & 1 \\ 6 & −7 & 1\end{aligned} & & \begin{aligned}𝑅_{1}↔𝑅_{2}\end{aligned} \\ & ∼\begin{aligned}1 & −2 & 1 \\ −4 & 3 & 1 \\ 6 & −7 & 1\end{aligned} & & \begin{aligned}𝑅_{2}:=𝑅_{2}+4𝑅_{1} \\ 𝑅_{3}:=𝑅_{3}+(−6)𝑅_{1}\end{aligned} \\ & ∼\begin{aligned}1 & −2 & 1 \\ 0 & −5 & 5 \\ 0 & 5 & −5\end{aligned} & & \begin{aligned}𝑅_{3}:=𝑅_{3}+𝑅_{2}\end{aligned} \\ & ∼\begin{aligned}1 & −2 & 1 \\ 0 & −5 & 5 \\ 0 & 0 & 0\end{aligned} & & \end{aligned}
+\begin{aligned}𝐴−8𝐼 & =\begin{matrix}−4 & 3 & 1 \\ 1 & −2 & 1 \\ 6 & −7 & 1\end{matrix} & & \begin{matrix}𝑅_{1}↔𝑅_{2}\end{matrix} \\ & ∼\begin{matrix}1 & −2 & 1 \\ −4 & 3 & 1 \\ 6 & −7 & 1\end{matrix} & & \begin{matrix}𝑅_{2}:=𝑅_{2}+4𝑅_{1} \\ 𝑅_{3}:=𝑅_{3}+(−6)𝑅_{1}\end{matrix} \\ & ∼\begin{matrix}1 & −2 & 1 \\ 0 & −5 & 5 \\ 0 & 5 & −5\end{matrix} & & \begin{matrix}𝑅_{3}:=𝑅_{3}+𝑅_{2}\end{matrix} \\ & ∼\begin{matrix}1 & −2 & 1 \\ 0 & −5 & 5 \\ 0 & 0 & 0\end{matrix} & & \end{aligned}
 
 
 $$
@@ -199,7 +199,7 @@ Computing $A+I,$ we get
 $$
 
 
-\begin{aligned}𝐴+𝐼 & =\begin{aligned}3 & 8 & 8 \\ 4 & 7 & 8 \\ −4 & −8 & −9\end{aligned}+\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{aligned}=\begin{aligned}4 & 8 & 8 \\ 4 & 8 & 8 \\ −4 & −8 & −8\end{aligned}.\end{aligned}
+\begin{aligned}𝐴+𝐼 & =\begin{matrix}3 & 8 & 8 \\ 4 & 7 & 8 \\ −4 & −8 & −9\end{matrix}+\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{matrix}=\begin{matrix}4 & 8 & 8 \\ 4 & 8 & 8 \\ −4 & −8 & −8\end{matrix}.\end{aligned}
 
 
 $$
@@ -209,7 +209,7 @@ Now, we reduce this matrix to row echelon form using Gaussian elimination, as fo
 $$
 
 
-\begin{aligned}𝐴+𝐼 & =\begin{aligned}4 & 8 & 8 \\ 4 & 8 & 8 \\ −4 & −8 & −8\end{aligned} & & \begin{aligned}𝑅_{2}:=𝑅_{2}+(−1)𝑅_{1}\end{aligned} \\ & ∼\begin{aligned}4 & 8 & 8 \\ 0 & 0 & 0 \\ −4 & −8 & −8\end{aligned} & & \begin{aligned}𝑅_{3}:=𝑅_{3}+𝑅_{1}\end{aligned} \\ & ∼\begin{aligned}4 & 8 & 8 \\ 0 & 0 & 0 \\ 0 & 0 & 0\end{aligned} & & \end{aligned}
+\begin{aligned}𝐴+𝐼 & =\begin{matrix}4 & 8 & 8 \\ 4 & 8 & 8 \\ −4 & −8 & −8\end{matrix} & & \begin{matrix}𝑅_{2}:=𝑅_{2}+(−1)𝑅_{1}\end{matrix} \\ & ∼\begin{matrix}4 & 8 & 8 \\ 0 & 0 & 0 \\ −4 & −8 & −8\end{matrix} & & \begin{matrix}𝑅_{3}:=𝑅_{3}+𝑅_{1}\end{matrix} \\ & ∼\begin{matrix}4 & 8 & 8 \\ 0 & 0 & 0 \\ 0 & 0 & 0\end{matrix} & & \end{aligned}
 
 
 $$
@@ -265,7 +265,7 @@ Computing $A-(-1)I=A+I,$ we get
 $$
 
 
-\begin{aligned}𝐴+𝐼 & =\begin{aligned}2 & −3 & 3 \\ 1 & −2 & 1 \\ −2 & 2 & −3\end{aligned}+\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{aligned}=\begin{aligned}3 & −3 & 3 \\ 1 & −1 & 1 \\ −2 & 2 & −2\end{aligned}.\end{aligned}
+\begin{aligned}𝐴+𝐼 & =\begin{matrix}2 & −3 & 3 \\ 1 & −2 & 1 \\ −2 & 2 & −3\end{matrix}+\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{matrix}=\begin{matrix}3 & −3 & 3 \\ 1 & −1 & 1 \\ −2 & 2 & −2\end{matrix}.\end{aligned}
 
 
 $$
@@ -275,7 +275,7 @@ Now, we reduce this matrix to row echelon form using Gaussian elimination, as fo
 $$
 
 
-\begin{aligned}𝐴+𝐼 & =\begin{aligned}3 & −3 & 3 \\ 1 & −1 & 1 \\ −2 & 2 & −2\end{aligned} & & \begin{aligned}𝑅_{1}↔𝑅_{2}\end{aligned} \\ & ∼\begin{aligned}1 & −1 & 1 \\ 3 & −3 & 3 \\ −2 & 2 & −2\end{aligned} & & \begin{aligned}𝑅_{2}:=𝑅_{2}+(−3)𝑅_{1} \\ 𝑅_{3}:=𝑅_{3}+2𝑅_{1}\end{aligned} \\ & ∼\begin{aligned}1 & −1 & 1 \\ 0 & 0 & 0 \\ 0 & 0 & 0\end{aligned} & & \end{aligned}
+\begin{aligned}𝐴+𝐼 & =\begin{matrix}3 & −3 & 3 \\ 1 & −1 & 1 \\ −2 & 2 & −2\end{matrix} & & \begin{matrix}𝑅_{1}↔𝑅_{2}\end{matrix} \\ & ∼\begin{matrix}1 & −1 & 1 \\ 3 & −3 & 3 \\ −2 & 2 & −2\end{matrix} & & \begin{matrix}𝑅_{2}:=𝑅_{2}+(−3)𝑅_{1} \\ 𝑅_{3}:=𝑅_{3}+2𝑅_{1}\end{matrix} \\ & ∼\begin{matrix}1 & −1 & 1 \\ 0 & 0 & 0 \\ 0 & 0 & 0\end{matrix} & & \end{aligned}
 
 
 $$
@@ -343,7 +343,7 @@ Computing $A-2I,$ we get
 $$
 
 
-\begin{aligned}𝐴−2𝐼 & =\begin{aligned}4 & −1 & 3 \\ 1 & 1 & 1 \\ −1 & 1 & 1\end{aligned}−2\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{aligned}=\begin{aligned}2 & −1 & 3 \\ 1 & −1 & 1 \\ −1 & 1 & −1\end{aligned}.\end{aligned}
+\begin{aligned}𝐴−2𝐼 & =\begin{matrix}4 & −1 & 3 \\ 1 & 1 & 1 \\ −1 & 1 & 1\end{matrix}−2\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{matrix}=\begin{matrix}2 & −1 & 3 \\ 1 & −1 & 1 \\ −1 & 1 & −1\end{matrix}.\end{aligned}
 
 
 $$
@@ -353,7 +353,7 @@ Now, we reduce this matrix to row echelon form using Gaussian elimination, as fo
 $$
 
 
-\begin{aligned}𝐴−2𝐼 & =\begin{aligned}2 & −1 & 3 \\ 1 & −1 & 1 \\ −1 & 1 & −1\end{aligned} & & \begin{aligned}𝑅_{1}↔𝑅_{2}\end{aligned} \\ & ∼\begin{aligned}1 & −1 & 1 \\ 2 & −1 & 3 \\ −1 & 1 & −1\end{aligned} & & \begin{aligned}𝑅_{2}:=𝑅_{2}+(−2)𝑅_{1} \\ 𝑅_{3}:=𝑅_{3}+𝑅_{1}\end{aligned} \\ & ∼\begin{aligned}1 & −1 & 1 \\ 0 & 1 & 1 \\ 0 & 0 & 0\end{aligned} & & \end{aligned}
+\begin{aligned}𝐴−2𝐼 & =\begin{matrix}2 & −1 & 3 \\ 1 & −1 & 1 \\ −1 & 1 & −1\end{matrix} & & \begin{matrix}𝑅_{1}↔𝑅_{2}\end{matrix} \\ & ∼\begin{matrix}1 & −1 & 1 \\ 2 & −1 & 3 \\ −1 & 1 & −1\end{matrix} & & \begin{matrix}𝑅_{2}:=𝑅_{2}+(−2)𝑅_{1} \\ 𝑅_{3}:=𝑅_{3}+𝑅_{1}\end{matrix} \\ & ∼\begin{matrix}1 & −1 & 1 \\ 0 & 1 & 1 \\ 0 & 0 & 0\end{matrix} & & \end{aligned}
 
 
 $$

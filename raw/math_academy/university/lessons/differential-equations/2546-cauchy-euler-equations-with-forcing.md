@@ -109,7 +109,7 @@ Equating the coefficients, we get the following system of equations:
 $$
 
 
-\begin{aligned}\begin{aligned}2𝛼=2\, & (equating the coefficients of\,\,𝑡) \\ 6𝛽=6\, & (equating the constants)\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}2𝛼=2\, & (equating the coefficients of\,\,𝑡) \\ 6𝛽=6\, & (equating the constants)\end{matrix}\end{aligned}
 
 
 $$
@@ -209,7 +209,7 @@ Calculating the first and second derivatives of $y_p$ gives
 $$
 
 
-\frac{\textrm{d}y_p}{\textrm{d}x} =2 \alpha x, \qquad \frac{\textrm{d}^2y_p}{\textrm{d}x^2} = 2 \alpha .
+\frac{\text{d}y_p}{\text{d}x} =2 \alpha x, \qquad \frac{\text{d}^2y_p}{\text{d}x^2} = 2 \alpha .
 
 
 $$
@@ -329,7 +329,7 @@ First, let's compute the Wronskian:
 $$
 
 
-\begin{aligned}𝑊(𝑦_{1},𝑦_{2}) & =\begin{aligned}𝑦_{1} & 𝑦_{2} \\ 𝑦_{′1}^{} & 𝑦_{′2}^{}\end{aligned} \\ & =𝑦_{1}𝑦_{′2}^{}−𝑦_{′1}^{}𝑦_{2} \\ & =(\frac{1}{𝑡})(1)^{′}−(\frac{1}{𝑡})^{′}(1) \\ & =0+\frac{1}{𝑡^{2}} \\ & =\frac{1}{𝑡^{2}}\end{aligned}
+\begin{aligned}𝑊(𝑦_{1},𝑦_{2}) & =\begin{matrix}𝑦_{1} & 𝑦_{2} \\ 𝑦_{′1} & 𝑦_{′2}\end{matrix} \\ & =𝑦_{1}𝑦_{′2}−𝑦_{′1}𝑦_{2} \\ & =(\frac{1}{𝑡})(1)^{′}−(\frac{1}{𝑡})^{′}(1) \\ & =0+\frac{1}{𝑡^{2}} \\ & =\frac{1}{𝑡^{2}}\end{aligned}
 
 
 $$
@@ -455,7 +455,7 @@ Calculating the first and second derivatives of $y_p$ gives:
 $$
 
 
-\frac{\textrm{d}y_p}{\textrm{d}t} = \alpha ,\qquad \frac{\textrm{d}^2y_p}{\textrm{d}t^2} = 0.
+\frac{\text{d}y_p}{\text{d}t} = \alpha ,\qquad \frac{\text{d}^2y_p}{\text{d}t^2} = 0.
 
 
 $$
@@ -475,7 +475,7 @@ Equating the coefficients, we get the following system of equations:
 $$
 
 
-\begin{aligned}\begin{aligned}𝛼=1\, & (equating the coefficients of t) \\ 𝛽=0\, & (equating the constants)\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}𝛼=1\, & (equating the coefficients of t) \\ 𝛽=0\, & (equating the constants)\end{matrix}\end{aligned}
 
 
 $$

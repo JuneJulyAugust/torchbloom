@@ -72,7 +72,7 @@ $$
 
 
 
-\begin{aligned}𝐴−𝐶 & =\begin{aligned}2 & 4 & −3 \\ −1 & −5 & 3 \\ −2 & 0 & 7\end{aligned}−\begin{aligned}3 & 4 & −3 \\ −1 & −4 & 3 \\ −2 & 0 & 8\end{aligned} \\ & =\begin{aligned}−1 & 0 & 0 \\ 0 & −1 & 0 \\ 0 & 0 & −1\end{aligned} \\ & =−𝐼_{3}\end{aligned}
+\begin{aligned}𝐴−𝐶 & =\begin{matrix}2 & 4 & −3 \\ −1 & −5 & 3 \\ −2 & 0 & 7\end{matrix}−\begin{matrix}3 & 4 & −3 \\ −1 & −4 & 3 \\ −2 & 0 & 8\end{matrix} \\ & =\begin{matrix}−1 & 0 & 0 \\ 0 & −1 & 0 \\ 0 & 0 & −1\end{matrix} \\ & =−𝐼_{3}\end{aligned}
 
 
 
@@ -84,7 +84,7 @@ $$
 
 
 
-\begin{aligned}𝐴𝐵−𝐶𝐵 & =(𝐴−𝐶)𝐵 \\ & =−𝐼_{3}𝐵 \\ & =−𝐵 \\ & =\begin{aligned}−\sqrt{√2} & −\sqrt{√3} & 45 \\ −81 & \sqrt{√5} & 2 \\ −2 & −1 & −\sqrt{√3}\end{aligned}.\end{aligned}
+\begin{aligned}𝐴𝐵−𝐶𝐵 & =(𝐴−𝐶)𝐵 \\ & =−𝐼_{3}𝐵 \\ & =−𝐵 \\ & =\begin{matrix}−\sqrt{2} & −\sqrt{3} & 45 \\ −81 & \sqrt{5} & 2 \\ −2 & −1 & −\sqrt{3}\end{matrix}.\end{aligned}
 
 
 
@@ -150,7 +150,7 @@ $$
 
 
 
-\begin{aligned}𝐵𝐶 & =\begin{aligned}−2 & 5 & −4 \\ 2 & 1 & 1 \\ −4 & 3 & −1\end{aligned}⋅\begin{aligned}−2 \\ 1 \\ 3\end{aligned} \\ & =\begin{aligned}−3 \\ 0 \\ 8\end{aligned}\end{aligned}
+\begin{aligned}𝐵𝐶 & =\begin{matrix}−2 & 5 & −4 \\ 2 & 1 & 1 \\ −4 & 3 & −1\end{matrix}⋅\begin{matrix}−2 \\ 1 \\ 3\end{matrix} \\ & =\begin{matrix}−3 \\ 0 \\ 8\end{matrix}\end{aligned}
 
 
 
@@ -162,7 +162,7 @@ $$
 
 
 
-\begin{aligned}𝐴𝐵𝐶 & =𝐴(𝐵𝐶) \\ & =\begin{aligned}1 & −1 & 0 \\ 4 & 3 & 1 \\ 1 & 2 & 1\end{aligned}⋅\begin{aligned}−3 \\ 0 \\ 8\end{aligned} \\ & =\begin{aligned}−3 \\ −4 \\ 5\end{aligned}\end{aligned}
+\begin{aligned}𝐴𝐵𝐶 & =𝐴(𝐵𝐶) \\ & =\begin{matrix}1 & −1 & 0 \\ 4 & 3 & 1 \\ 1 & 2 & 1\end{matrix}⋅\begin{matrix}−3 \\ 0 \\ 8\end{matrix} \\ & =\begin{matrix}−3 \\ −4 \\ 5\end{matrix}\end{aligned}
 
 
 

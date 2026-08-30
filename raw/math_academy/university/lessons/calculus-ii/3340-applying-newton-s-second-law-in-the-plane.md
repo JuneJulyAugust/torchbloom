@@ -22,7 +22,7 @@ $$
 
 $$
 
-where $\mathbf F$ is the resultant force, measured in **Newtons** $(\text N),$ $m$ is the mass, measured in $\textrm{kg},$ and $\mathbf a$ is the acceleration, measured in $\textrm{m/s}^2.$
+where $\mathbf F$ is the resultant force, measured in **Newtons** $(\text N),$ $m$ is the mass, measured in $\text{kg},$ and $\mathbf a$ is the acceleration, measured in $\text{m/s}^2.$
 
 Note the following:
 
@@ -30,13 +30,13 @@ Note the following:
 
 - The term "resultant force" means the (vector) sum of forces acting on the particle.
 
-- When considering forces acting in one dimension, we usually write From this equation, we see that a $1\,\textrm{N}$ is the total force required to accelerate a mass of $m = 1\,\textrm{kg}$ at a rate of $a = 1\,\textrm{m/s}^2.$
+- When considering forces acting in one dimension, we usually write From this equation, we see that a $1\,\text{N}$ is the total force required to accelerate a mass of $m = 1\,\text{kg}$ at a rate of $a = 1\,\text{m/s}^2.$
 
 Let's see a concrete example.
 
 ### A Worked Example
 
-Suppose that the velocity $\mathbf v,$ in meters per second, of a particle $P$ of mass $2\,\textrm{kg}$ is given by
+Suppose that the velocity $\mathbf v,$ in meters per second, of a particle $P$ of mass $2\,\text{kg}$ is given by
 
 $$
 
@@ -88,7 +88,7 @@ Therefore, the resultant force acting on $P$ when $t=3\,\textrm s$ equals $\left
 
 #### Question
 
-The velocity $\mathbf v,$ in meters per second, of a particle $P$ of mass $5\,\textrm{kg}$ is given by
+The velocity $\mathbf v,$ in meters per second, of a particle $P$ of mass $5\,\text{kg}$ is given by
 
 $$
 
@@ -149,7 +149,7 @@ Finally, the magnitude of $\mathbf F(2)$ is given by
 $$
 
 
-\begin{aligned}|𝐅(2)| & =\sqrt{√(15𝑒^{2})^{2}+(40)^{2}} \\ & =\sqrt{√225𝑒^{4}+1\,600} \\ & ≈118\,N\end{aligned}
+\begin{aligned}|𝐅(2)| & =\sqrt{(15𝑒^{2})^{2}+(40)^{2}} \\ & =\sqrt{225𝑒^{4}+1\,600} \\ & ≈118\,N\end{aligned}
 
 
 $$
@@ -160,7 +160,7 @@ rounded to the nearest Newton.
 
 #### Question
 
-The displacement $\mathbf r,$ in meters, of a particle $P$ of mass $3\,\textrm{kg}$ is given by
+The displacement $\mathbf r,$ in meters, of a particle $P$ of mass $3\,\text{kg}$ is given by
 
 $$
 
@@ -221,7 +221,7 @@ Finally, when $t = \dfrac{3\pi}{4}\,\textrm s,$ we have
 $$
 
 
-\begin{aligned}𝐅(\frac{3𝜋}{4}) & =⟨3sin⁡(\frac{3𝜋}{4})−9cos⁡(\frac{3𝜋}{4}),\,−6cos⁡(\frac{3𝜋}{4})⟩ \\ & =⟨\frac{3\sqrt{√2}}{2}+\frac{9\sqrt{√2}}{2},\,\frac{6\sqrt{√2}}{2}⟩ \\ & =⟨6\sqrt{√2},\,3\sqrt{√2}⟩.\end{aligned}
+\begin{aligned}𝐅(\frac{3𝜋}{4}) & =⟨3sin⁡(\frac{3𝜋}{4})−9cos⁡(\frac{3𝜋}{4}),\,−6cos⁡(\frac{3𝜋}{4})⟩ \\ & =⟨\frac{3\sqrt{2}}{2}+\frac{9\sqrt{2}}{2},\,\frac{6\sqrt{2}}{2}⟩ \\ & =⟨6\sqrt{2},\,3\sqrt{2}⟩.\end{aligned}
 
 
 $$
@@ -232,7 +232,7 @@ Therefore, we conclude that the resultant force acting on $P$ when $t=\dfrac{3\p
 
 #### Question
 
-A particle $P$ of mass $6\,\textrm{kg}$ is subject to the external forces $\mathbf F_1$ and $\mathbf F_2,$ given by
+A particle $P$ of mass $6\,\text{kg}$ is subject to the external forces $\mathbf F_1$ and $\mathbf F_2,$ given by
 
 $$
 
@@ -242,7 +242,7 @@ $$
 
 $$
 
-where $\mathbf F_1$ and $\mathbf F_2$ are measured in Newtons and $t > 0$ is the time, in seconds. Given that the velocity of $P$ equals $\langle -\ln 3,\:-2\rangle\,\textrm{m/s}$ when $t=0\,\textrm s,$ calculate the speed of $P$ when $t=2\,\textrm s.$
+where $\mathbf F_1$ and $\mathbf F_2$ are measured in Newtons and $t > 0$ is the time, in seconds. Given that the velocity of $P$ equals $\langle -\ln 3,\:-2\rangle\,\text{m/s}$ when $t=0\,\textrm s,$ calculate the speed of $P$ when $t=2\,\textrm s.$
 
 #### Explanation
 
@@ -263,7 +263,7 @@ The resultant force $\mathbf F$ acting on $P$ equals the sum of the forces actin
 $$
 
 
-\begin{aligned}𝐅 & =𝐅_{1}+𝐅_{2} \\ & =⟨\frac{2}{𝑡+1}+12𝑡,\,\frac{3}{\sqrt{√𝑡}}⟩+⟨\frac{4}{𝑡+1},\,6⟩ \\ & =⟨\frac{6}{𝑡+1}+12𝑡,\,\frac{3}{\sqrt{√𝑡}}+6⟩.\end{aligned}
+\begin{aligned}𝐅 & =𝐅_{1}+𝐅_{2} \\ & =⟨\frac{2}{𝑡+1}+12𝑡,\,\frac{3}{\sqrt{𝑡}}⟩+⟨\frac{4}{𝑡+1},\,6⟩ \\ & =⟨\frac{6}{𝑡+1}+12𝑡,\,\frac{3}{\sqrt{𝑡}}+6⟩.\end{aligned}
 
 
 $$
@@ -273,7 +273,7 @@ By Newton's second law, we have
 $$
 
 
-\begin{aligned}𝐚 & =\frac{𝐅}{𝑚} \\ & =\frac{1}{6}⋅⟨\frac{6}{𝑡+1}+12𝑡,\,\frac{3}{\sqrt{√𝑡}}+6⟩ \\ & =⟨\frac{1}{𝑡+1}+2𝑡,\,\frac{1}{2\sqrt{√𝑡}}+1⟩.\end{aligned}
+\begin{aligned}𝐚 & =\frac{𝐅}{𝑚} \\ & =\frac{1}{6}⋅⟨\frac{6}{𝑡+1}+12𝑡,\,\frac{3}{\sqrt{𝑡}}+6⟩ \\ & =⟨\frac{1}{𝑡+1}+2𝑡,\,\frac{1}{2\sqrt{𝑡}}+1⟩.\end{aligned}
 
 
 $$
@@ -283,19 +283,19 @@ To compute the velocity vector $\mathbf v,$ we need to integrate the acceleratio
 $$
 
 
-\begin{aligned}𝐯 & =∫𝐚\,d𝑡 \\ & =∫⟨\frac{1}{𝑡+1}+2𝑡,\,\frac{1}{2\sqrt{√𝑡}}+1⟩\,d𝑡 \\ & =⟨∫(\frac{1}{𝑡+1}+2𝑡)\,d𝑡,\,∫(\frac{1}{2\sqrt{√𝑡}}+1)\,d𝑡⟩ \\ & =⟨ln⁡(𝑡+1)+𝑡^{2},\,\sqrt{√𝑡}+𝑡⟩+𝐂\end{aligned}
+\begin{aligned}𝐯 & =∫𝐚\,d𝑡 \\ & =∫⟨\frac{1}{𝑡+1}+2𝑡,\,\frac{1}{2\sqrt{𝑡}}+1⟩\,d𝑡 \\ & =⟨∫(\frac{1}{𝑡+1}+2𝑡)\,d𝑡,\,∫(\frac{1}{2\sqrt{𝑡}}+1)\,d𝑡⟩ \\ & =⟨ln⁡(𝑡+1)+𝑡^{2},\,\sqrt{𝑡}+𝑡⟩+𝐂\end{aligned}
 
 
 $$
 
 where $\mathbf C$ is a (vector) constant of integration.
 
-We can solve for $\mathbf C$ by substituting $\mathbf v = \langle -\ln 3,\:-2\rangle\,\textrm{m/s}$ and $t=0\,\textrm s$ into the above, as follows:
+We can solve for $\mathbf C$ by substituting $\mathbf v = \langle -\ln 3,\:-2\rangle\,\text{m/s}$ and $t=0\,\textrm s$ into the above, as follows:
 
 $$
 
 
-\begin{aligned}⟨−ln⁡3,\,−2⟩ & =⟨ln⁡(0+1)+0^{2},\,\sqrt{√0}+0⟩+𝐂 \\ ⟨−ln⁡3,\,−2⟩ & =⟨0,\,0⟩+𝐂 \\ 𝐂 & =⟨−ln⁡3,\,−2⟩\end{aligned}
+\begin{aligned}⟨−ln⁡3,\,−2⟩ & =⟨ln⁡(0+1)+0^{2},\,\sqrt{0}+0⟩+𝐂 \\ ⟨−ln⁡3,\,−2⟩ & =⟨0,\,0⟩+𝐂 \\ 𝐂 & =⟨−ln⁡3,\,−2⟩\end{aligned}
 
 
 $$
@@ -305,7 +305,7 @@ Therefore, the velocity of $P$ at time $t$ is given by
 $$
 
 
-\begin{aligned}𝐯 & =⟨ln⁡(𝑡+1)+𝑡^{2},\,\sqrt{√𝑡}+𝑡⟩+⟨−ln⁡3,\,−2⟩ \\ & =⟨ln⁡(𝑡+1)+𝑡^{2}−ln⁡3,\,\sqrt{√𝑡}+𝑡−2⟩.\end{aligned}
+\begin{aligned}𝐯 & =⟨ln⁡(𝑡+1)+𝑡^{2},\,\sqrt{𝑡}+𝑡⟩+⟨−ln⁡3,\,−2⟩ \\ & =⟨ln⁡(𝑡+1)+𝑡^{2}−ln⁡3,\,\sqrt{𝑡}+𝑡−2⟩.\end{aligned}
 
 
 $$
@@ -315,7 +315,7 @@ When $t=2,$ the velocity equals
 $$
 
 
-\begin{aligned}𝐯(2) & =⟨ln⁡(2+1)+2^{2}−ln⁡3,\,\sqrt{√2}+2−2⟩ \\ & =⟨4,\,\sqrt{√2}⟩.\end{aligned}
+\begin{aligned}𝐯(2) & =⟨ln⁡(2+1)+2^{2}−ln⁡3,\,\sqrt{2}+2−2⟩ \\ & =⟨4,\,\sqrt{2}⟩.\end{aligned}
 
 
 $$
@@ -325,7 +325,7 @@ Finally, the speed of $P$ when $t=2$ equals the magnitude of $\mathbf v(2).$ The
 $$
 
 
-\begin{aligned}|𝐯(2)| & =\sqrt{√4^{2}+(\sqrt{√2})^{2}} \\ & =\sqrt{√16+2} \\ & =\sqrt{√18} \\ & =3\sqrt{√2}\,m/s.\end{aligned}
+\begin{aligned}|𝐯(2)| & =\sqrt{4^{2}+(\sqrt{2})^{2}} \\ & =\sqrt{16+2} \\ & =\sqrt{18} \\ & =3\sqrt{2}\,m/s.\end{aligned}
 
 
 $$

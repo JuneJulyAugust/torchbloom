@@ -60,7 +60,7 @@ So, the equation $x^2+y^2=9$ represents a circle that is centered at the origin,
 $$
 
 
-\begin{aligned}𝑟^{2} & =9 \\ 𝑟 & =\sqrt{√9} \\ 𝑟 & =3.\end{aligned}
+\begin{aligned}𝑟^{2} & =9 \\ 𝑟 & =\sqrt{9} \\ 𝑟 & =3.\end{aligned}
 
 
 $$
@@ -146,7 +146,7 @@ Now, we first calculate the diameter $AB\mathbin{:}$
 $$
 
 
-\begin{aligned}𝐴𝐵 & =\sqrt{√(−2−2)^{2}+(4−(−4))^{2}} \\ & =\sqrt{√4^{2}+8^{2}} \\ & =\sqrt{√16+64} \\ & =\sqrt{√80} \\ & =4\sqrt{√5}\end{aligned}
+\begin{aligned}𝐴𝐵 & =\sqrt{(−2−2)^{2}+(4−(−4))^{2}} \\ & =\sqrt{4^{2}+8^{2}} \\ & =\sqrt{16+64} \\ & =\sqrt{80} \\ & =4\sqrt{5}\end{aligned}
 
 
 $$
@@ -166,7 +166,7 @@ So, the equation of the circle is
 $$
 
 
-\begin{aligned}𝑥^{2}+𝑦^{2} & =𝑟^{2} \\ 𝑥^{2}+𝑦^{2} & =(2\sqrt{√5})^{2} \\ 𝑥^{2}+𝑦^{2} & =20.\end{aligned}
+\begin{aligned}𝑥^{2}+𝑦^{2} & =𝑟^{2} \\ 𝑥^{2}+𝑦^{2} & =(2\sqrt{5})^{2} \\ 𝑥^{2}+𝑦^{2} & =20.\end{aligned}
 
 
 $$

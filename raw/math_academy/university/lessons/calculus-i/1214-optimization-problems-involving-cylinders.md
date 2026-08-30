@@ -65,7 +65,7 @@ $$
 
 #### Question
 
-We wish to construct a cylindrical can with a base but no lid. Our cylinder must have an exact volume of $27\pi\, \textrm{in}^3.$ What is the radius of the cylinder that gives the smallest surface area?
+We wish to construct a cylindrical can with a base but no lid. Our cylinder must have an exact volume of $27\pi\, \text{in}^3.$ What is the radius of the cylinder that gives the smallest surface area?
 
 #### Explanation
 
@@ -83,7 +83,7 @@ S= 2\pi r h + \pi r^2.
 
 $$
 
-We know that the volume is fixed at $27\pi \, \textrm{in}^3,$ so we also have the constraint condition
+We know that the volume is fixed at $27\pi \, \text{in}^3,$ so we also have the constraint condition
 
 $$
 
@@ -135,7 +135,7 @@ $$
 
 Using a calculator, we can verify that if $r < 3$ then $S'(r) < 0,$ and if $r > 3$ then $S'(r) > 0,$ which means that the stationary point $r=3$ is indeed a minimum of $S(r).$
 
-Therefore, the cylinder with the smallest surface area has radius $r =3\,\textrm{in}.$
+Therefore, the cylinder with the smallest surface area has radius $r =3\,\text{in}.$
 
 ### Example: Maximizing the Volume of a Cylinder With a Fixed Surface Area
 
@@ -204,7 +204,7 @@ Setting the derivative equal to zero and solving for $r$ gives a stationary poin
 $$
 
 
-\begin{aligned}𝑉^{′}(𝑟) & =0 \\ \frac{(25−3𝑟^{2})𝜋}{2} & =0 \\ 25 & =3𝑟^{2} \\ 𝑟^{2} & =\frac{25}{3} \\ 𝑟 & =\frac{5\sqrt{√3}}{3}\,cm\end{aligned}
+\begin{aligned}𝑉^{′}(𝑟) & =0 \\ \frac{(25−3𝑟^{2})𝜋}{2} & =0 \\ 25 & =3𝑟^{2} \\ 𝑟^{2} & =\frac{25}{3} \\ 𝑟 & =\frac{5\sqrt{3}}{3}\,cm\end{aligned}
 
 
 $$
@@ -223,7 +223,7 @@ $$
 
 and we can see that $V''\left(\dfrac{5\sqrt{3}}{3} \right) < 0.$ So, the stationary point $r=\dfrac{5\sqrt{3}}{3}$ is indeed a maximum of $V(r).$
 
-Therefore, the cylinder with the largest volume has a radius of $r=\dfrac{5\sqrt{3}}{3} \, \textrm{cm}.$
+Therefore, the cylinder with the largest volume has a radius of $r=\dfrac{5\sqrt{3}}{3} \, \text{cm}.$
 
 ### Example: Optimizing the Cost of Building a Cylinder
 
@@ -253,7 +253,7 @@ $$
 
 $$
 
-We know that the volume is fixed at $18\pi\,\textrm{m}^3,$ so we also have the constraint condition
+We know that the volume is fixed at $18\pi\,\text{m}^3,$ so we also have the constraint condition
 
 $$
 
@@ -305,4 +305,4 @@ $$
 
 Using a calculator, we can verify that if $r < 3$ then $C'(r) < 0,$ and if $r > 3$ then $C'(r) > 0,$ which means that the stationary point $r = 3$ is indeed a minimum of $C(r).$
 
-Therefore, the tank with the smallest manufacturing cost has radius $r = 3\,\textrm{m}.$
+Therefore, the tank with the smallest manufacturing cost has radius $r = 3\,\text{m}.$

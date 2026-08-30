@@ -44,7 +44,7 @@ For instance, we can express $e^3 \approx 20.086$ in logarithmic form. If we com
 $$
 
 
-e^3\approx 20.086\quad \textrm{is equivalent to}\quad \ln(20.086) \approx 3.
+e^3\approx 20.086\quad \text{is equivalent to}\quad \ln(20.086) \approx 3.
 
 
 $$

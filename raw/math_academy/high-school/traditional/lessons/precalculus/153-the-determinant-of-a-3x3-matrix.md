@@ -30,7 +30,7 @@ $$
 
 
 
-\begin{aligned}\begin{aligned}7 & 1 & −3 \\ 3 & 2 & 4 \\ 5 & 0 & −1\end{aligned} & =\underset{𝑎_{11}}{\underset{}{(\,7\,)}}⋅\overset{\overset\begin{aligned}2 & 4 \\ 0 & −1\end{aligned}}{}}{𝑀_{11}}−\underset{𝑎_{12}}{\underset{}{(\,1\,)}}⋅\overset{\overset\begin{aligned}3 & 4 \\ 5 & −1\end{aligned}}{}}{𝑀_{12}}+\underset{𝑎_{13}}{\underset{}{(−3)}}⋅\overset{\overset\begin{aligned}3 & 2 \\ 5 & 0\end{aligned}}{}}{𝑀_{13}} \\ & =7(−2−0)−1(−3−20)−3(0−10) \\ & =−14+23+30 \\ & =39\end{aligned}
+\begin{aligned}\begin{matrix}7 & 1 & −3 \\ 3 & 2 & 4 \\ 5 & 0 & −1\end{matrix} & =\underset{𝑎_{11}}{\underset{}{(\,7\,)}}⋅\overset{\begin{matrix}2 & 4 \\ 0 & −1\end{matrix}}{𝑀_{11}}−\underset{𝑎_{12}}{\underset{}{(\,1\,)}}⋅\overset{\begin{matrix}3 & 4 \\ 5 & −1\end{matrix}}{𝑀_{12}}+\underset{𝑎_{13}}{\underset{}{(−3)}}⋅\overset{\begin{matrix}3 & 2 \\ 5 & 0\end{matrix}}{𝑀_{13}} \\ & =7(−2−0)−1(−3−20)−3(0−10) \\ & =−14+23+30 \\ & =39\end{aligned}
 
 
 
@@ -56,7 +56,7 @@ $$
 
 
 
-\begin{aligned}\begin{aligned}𝑎 & 𝑏 & 𝑐 \\ 𝑑 & 𝑒 & 𝑓 \\ 𝑔 & ℎ & 𝑖\end{aligned} & =𝑎\begin{aligned}𝑒 & 𝑓 \\ ℎ & 𝑖\end{aligned}−𝑏\begin{aligned}𝑑 & 𝑓 \\ 𝑔 & 𝑖\end{aligned}+𝑐\begin{aligned}𝑑 & 𝑒 \\ 𝑔 & ℎ\end{aligned} \\ & =𝑎(𝑒𝑖−𝑓ℎ)−𝑏(𝑑𝑖−𝑓𝑔)+𝑐(𝑑ℎ−𝑒𝑔).\end{aligned}
+\begin{aligned}\begin{matrix}𝑎 & 𝑏 & 𝑐 \\ 𝑑 & 𝑒 & 𝑓 \\ 𝑔 & ℎ & 𝑖\end{matrix} & =𝑎\begin{matrix}𝑒 & 𝑓 \\ ℎ & 𝑖\end{matrix}−𝑏\begin{matrix}𝑑 & 𝑓 \\ 𝑔 & 𝑖\end{matrix}+𝑐\begin{matrix}𝑑 & 𝑒 \\ 𝑔 & ℎ\end{matrix} \\ & =𝑎(𝑒𝑖−𝑓ℎ)−𝑏(𝑑𝑖−𝑓𝑔)+𝑐(𝑑ℎ−𝑒𝑔).\end{aligned}
 
 
 
@@ -78,7 +78,7 @@ $$
 
 
 
-\begin{aligned}\begin{aligned}0 & −3 & 6 \\ 8 & 8 & 8 \\ −6 & −12 & 1\end{aligned} & =0\begin{aligned}8 & 8 \\ −12 & 1\end{aligned}−(−3)\begin{aligned}8 & 8 \\ −6 & 1\end{aligned}+6\begin{aligned}8 & 8 \\ −6 & −12\end{aligned} \\ & =0(8+96)+3(8+48)+6(−96+48) \\ & =0+3⋅56+6⋅(−48) \\ & =168−288 \\ & =−120\end{aligned}
+\begin{aligned}\begin{matrix}0 & −3 & 6 \\ 8 & 8 & 8 \\ −6 & −12 & 1\end{matrix} & =0\begin{matrix}8 & 8 \\ −12 & 1\end{matrix}−(−3)\begin{matrix}8 & 8 \\ −6 & 1\end{matrix}+6\begin{matrix}8 & 8 \\ −6 & −12\end{matrix} \\ & =0(8+96)+3(8+48)+6(−96+48) \\ & =0+3⋅56+6⋅(−48) \\ & =168−288 \\ & =−120\end{aligned}
 
 
 
@@ -122,7 +122,7 @@ $$
 
 
 
-\begin{aligned}det(𝐴) & =\begin{aligned}1 & 2 & 3 \\ 1 & 0 & 1 \\ 3 & 4 & 7\end{aligned} \\ & =1\begin{aligned}0 & 1 \\ 4 & 7\end{aligned}−2\begin{aligned}1 & 1 \\ 3 & 7\end{aligned}+3\begin{aligned}1 & 0 \\ 3 & 4\end{aligned} \\ & =1(0−4)−2(7−3)+3(4−0) \\ & =−4−2⋅4+3⋅4 \\ & =−4−8+12 \\ & =0\end{aligned}
+\begin{aligned}det(𝐴) & =\begin{matrix}1 & 2 & 3 \\ 1 & 0 & 1 \\ 3 & 4 & 7\end{matrix} \\ & =1\begin{matrix}0 & 1 \\ 4 & 7\end{matrix}−2\begin{matrix}1 & 1 \\ 3 & 7\end{matrix}+3\begin{matrix}1 & 0 \\ 3 & 4\end{matrix} \\ & =1(0−4)−2(7−3)+3(4−0) \\ & =−4−2⋅4+3⋅4 \\ & =−4−8+12 \\ & =0\end{aligned}
 
 
 
@@ -156,7 +156,7 @@ $$
 
 
 
-\begin{aligned}\begin{aligned}1 & 2 & 3 \\ 𝑘 & −1 & 1 \\ 0 & 2 & 1\end{aligned} & =1\begin{aligned}−1 & 1 \\ 2 & 1\end{aligned}−2\begin{aligned}𝑘 & 1 \\ 0 & 1\end{aligned}+3\begin{aligned}𝑘 & −1 \\ 0 & 2\end{aligned} \\ & =(−1−2)−2(𝑘−0)+3(2𝑘−0) \\ & =−3−2𝑘+6𝑘 \\ & =4𝑘−3\end{aligned}
+\begin{aligned}\begin{matrix}1 & 2 & 3 \\ 𝑘 & −1 & 1 \\ 0 & 2 & 1\end{matrix} & =1\begin{matrix}−1 & 1 \\ 2 & 1\end{matrix}−2\begin{matrix}𝑘 & 1 \\ 0 & 1\end{matrix}+3\begin{matrix}𝑘 & −1 \\ 0 & 2\end{matrix} \\ & =(−1−2)−2(𝑘−0)+3(2𝑘−0) \\ & =−3−2𝑘+6𝑘 \\ & =4𝑘−3\end{aligned}
 
 
 
@@ -168,7 +168,7 @@ $$
 
 
 
-\begin{aligned}\begin{aligned}1 & 2 & 3 \\ 𝑘 & −1 & 1 \\ 0 & 2 & 1\end{aligned} & =0 \\ 4𝑘−3 & =0 \\ 4𝑘 & =3 \\ 𝑘 & =\frac{3}{4}\end{aligned}
+\begin{aligned}\begin{matrix}1 & 2 & 3 \\ 𝑘 & −1 & 1 \\ 0 & 2 & 1\end{matrix} & =0 \\ 4𝑘−3 & =0 \\ 4𝑘 & =3 \\ 𝑘 & =\frac{3}{4}\end{aligned}
 
 
 
@@ -190,7 +190,7 @@ $$
 
 
 
-\begin{aligned}\begin{aligned}3 & 1 & 2 \\ 𝑘 & 4 & 5 \\ 0 & 2 & 3\end{aligned} & =3\begin{aligned}4 & 5 \\ 2 & 3\end{aligned}−1\begin{aligned}𝑘 & 5 \\ 0 & 3\end{aligned}+2\begin{aligned}𝑘 & 4 \\ 0 & 2\end{aligned} \\ & =3(12−10)−1(3𝑘−0)+2(2𝑘−0) \\ & =3⋅2−1⋅3𝑘+2⋅2𝑘 \\ & =6−3𝑘+4𝑘 \\ & =𝑘+6\end{aligned}
+\begin{aligned}\begin{matrix}3 & 1 & 2 \\ 𝑘 & 4 & 5 \\ 0 & 2 & 3\end{matrix} & =3\begin{matrix}4 & 5 \\ 2 & 3\end{matrix}−1\begin{matrix}𝑘 & 5 \\ 0 & 3\end{matrix}+2\begin{matrix}𝑘 & 4 \\ 0 & 2\end{matrix} \\ & =3(12−10)−1(3𝑘−0)+2(2𝑘−0) \\ & =3⋅2−1⋅3𝑘+2⋅2𝑘 \\ & =6−3𝑘+4𝑘 \\ & =𝑘+6\end{aligned}
 
 
 

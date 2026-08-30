@@ -37,7 +37,7 @@ If we swap the two rows, we get a different determinant:
 $$
 
 
-\begin{aligned}\begin{aligned}3 & 4 \\ 1 & 2\end{aligned} & =3⋅2−1⋅4 \\ & =2 \\ & ≠−2\,×\end{aligned}
+\begin{aligned}\begin{matrix}3 & 4 \\ 1 & 2\end{matrix} & =3⋅2−1⋅4 \\ & =2 \\ & ≠−2\,×\end{aligned}
 
 
 $$
@@ -47,7 +47,7 @@ Likewise, if we multiply top row by ${\color{red}2},$ then we get a different de
 $$
 
 
-\begin{aligned}\begin{aligned}2⋅1 & 2⋅2 \\ 3 & 4\end{aligned} & =\begin{aligned}2 & 4 \\ 3 & 4\end{aligned} \\ & =2⋅4−3⋅4 \\ & =−4 \\ & ≠−2\,×\end{aligned}
+\begin{aligned}\begin{matrix}2⋅1 & 2⋅2 \\ 3 & 4\end{matrix} & =\begin{matrix}2 & 4 \\ 3 & 4\end{matrix} \\ & =2⋅4−3⋅4 \\ & =−4 \\ & ≠−2\,×\end{aligned}
 
 
 $$
@@ -57,7 +57,7 @@ However, if we add twice the top row to the bottom row, then we get the same det
 $$
 
 
-\begin{aligned}\begin{aligned}1 & 2 \\ 3+2⋅1 & 4+2⋅2\end{aligned} & =\begin{aligned}1 & 2 \\ 5 & 8\end{aligned} \\ & =1⋅8−2⋅5 \\ & =−2\,✓\end{aligned}
+\begin{aligned}\begin{matrix}1 & 2 \\ 3+2⋅1 & 4+2⋅2\end{matrix} & =\begin{matrix}1 & 2 \\ 5 & 8\end{matrix} \\ & =1⋅8−2⋅5 \\ & =−2\,✓\end{aligned}
 
 
 $$
@@ -69,7 +69,7 @@ As we saw, swapping two rows does not preserve the determinant. However, the onl
 $$
 
 
-\begin{aligned}\begin{aligned}1 & 2 \\ 3 & 4\end{aligned} & =1⋅4−2⋅3=−2 \\ \begin{aligned}3 & 4 \\ 1 & 2\end{aligned} & =3⋅2−1⋅4=2\end{aligned}
+\begin{aligned}\begin{matrix}1 & 2 \\ 3 & 4\end{matrix} & =1⋅4−2⋅3=−2 \\ \begin{matrix}3 & 4 \\ 1 & 2\end{matrix} & =3⋅2−1⋅4=2\end{aligned}
 
 
 $$
@@ -79,7 +79,7 @@ So, in the above example, we have
 $$
 
 
-\begin{aligned}\begin{aligned}1 & 2 \\ 3 & 4\end{aligned} & =−\begin{aligned}3 & 4 \\ 1 & 2\end{aligned}.\end{aligned}
+\begin{aligned}\begin{matrix}1 & 2 \\ 3 & 4\end{matrix} & =−\begin{matrix}3 & 4 \\ 1 & 2\end{matrix}.\end{aligned}
 
 
 $$
@@ -89,7 +89,7 @@ In general, swapping any two rows of a matrix changes the sign of the determinan
 $$
 
 
-\begin{aligned}det\begin{aligned}⋮ & ⋮ & … & ⋮ \\ ◻ & ◻ & … & ◻ \\ ⋮ & ⋮ & … & ⋮ \\ △ & △ & … & △ \\ ⋮ & ⋮ & … & ⋮\end{aligned}=−det\begin{aligned}⋮ & ⋮ & … & ⋮ \\ △ & △ & … & △ \\ ⋮ & ⋮ & … & ⋮ \\ ◻ & ◻ & … & ◻ \\ ⋮ & ⋮ & … & ⋮\end{aligned}.\end{aligned}
+\begin{aligned}det\begin{matrix}⋮ & ⋮ & … & ⋮ \\ ◻ & ◻ & … & ◻ \\ ⋮ & ⋮ & … & ⋮ \\ △ & △ & … & △ \\ ⋮ & ⋮ & … & ⋮\end{matrix}=−det\begin{matrix}⋮ & ⋮ & … & ⋮ \\ △ & △ & … & △ \\ ⋮ & ⋮ & … & ⋮ \\ ◻ & ◻ & … & ◻ \\ ⋮ & ⋮ & … & ⋮\end{matrix}.\end{aligned}
 
 
 $$
@@ -119,7 +119,7 @@ As we have seen, multiplying a row by a number does not preserve the determinant
 $$
 
 
-\begin{aligned}\begin{aligned}1 & 2 \\ 3 & 4\end{aligned} & =1⋅4−2⋅3=−2 \\ \begin{aligned}2⋅1 & 2⋅2 \\ 3 & 4\end{aligned}=\begin{aligned}2 & 4 \\ 3 & 4\end{aligned} & =2⋅4−3⋅4=−4\end{aligned}
+\begin{aligned}\begin{matrix}1 & 2 \\ 3 & 4\end{matrix} & =1⋅4−2⋅3=−2 \\ \begin{matrix}2⋅1 & 2⋅2 \\ 3 & 4\end{matrix}=\begin{matrix}2 & 4 \\ 3 & 4\end{matrix} & =2⋅4−3⋅4=−4\end{aligned}
 
 
 $$
@@ -139,7 +139,7 @@ In general, multiplying a row of a matrix by a number multiplies the determinant
 $$
 
 
-\begin{aligned}det\begin{aligned}⋮ & ⋮ & … & ⋮ \\ 𝑘△ & 𝑘△ & … & 𝑘△ \\ ⋮ & ⋮ & … & ⋮\end{aligned}=𝑘⋅det\begin{aligned}⋮ & ⋮ & … & ⋮ \\ △ & △ & … & △ \\ ⋮ & ⋮ & … & ⋮\end{aligned}\end{aligned}
+\begin{aligned}det\begin{matrix}⋮ & ⋮ & … & ⋮ \\ 𝑘△ & 𝑘△ & … & 𝑘△ \\ ⋮ & ⋮ & … & ⋮\end{matrix}=𝑘⋅det\begin{matrix}⋮ & ⋮ & … & ⋮ \\ △ & △ & … & △ \\ ⋮ & ⋮ & … & ⋮\end{matrix}\end{aligned}
 
 
 $$
@@ -171,7 +171,7 @@ Let's check what happens if we multiply the entire matrix (not only one row) by 
 $$
 
 
-\begin{aligned}\begin{aligned}1 & 2 \\ 3 & 4\end{aligned} & =1⋅4−2⋅3=−2 \\ \begin{aligned}3⋅1 & 3⋅2 \\ 3⋅3 & 3⋅4\end{aligned}=\begin{aligned}3 & 6 \\ 9 & 12\end{aligned} & =3⋅12−6⋅9=−18\end{aligned}
+\begin{aligned}\begin{matrix}1 & 2 \\ 3 & 4\end{matrix} & =1⋅4−2⋅3=−2 \\ \begin{matrix}3⋅1 & 3⋅2 \\ 3⋅3 & 3⋅4\end{matrix}=\begin{matrix}3 & 6 \\ 9 & 12\end{matrix} & =3⋅12−6⋅9=−18\end{aligned}
 
 
 $$
@@ -285,7 +285,7 @@ By considering the given row operations that are of the above form, we notice th
 $$
 
 
-\begin{aligned}det(𝑋) & =\begin{aligned}2 & −1 & 2 \\ 3 & 0 & −1 \\ −1 & 1 & 1\end{aligned} & 𝑅_{2} & :=𝑅_{2}+3𝑅_{3} \\ & =\begin{aligned}2 & −1 & 2 \\ 0 & 3 & 2 \\ −1 & 1 & 1\end{aligned} & & \\ & =det(𝑌). & & \end{aligned}
+\begin{aligned}det(𝑋) & =\begin{matrix}2 & −1 & 2 \\ 3 & 0 & −1 \\ −1 & 1 & 1\end{matrix} & 𝑅_{2} & :=𝑅_{2}+3𝑅_{3} \\ & =\begin{matrix}2 & −1 & 2 \\ 0 & 3 & 2 \\ −1 & 1 & 1\end{matrix} & & \\ & =det(𝑌). & & \end{aligned}
 
 
 $$

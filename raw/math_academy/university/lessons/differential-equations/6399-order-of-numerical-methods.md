@@ -19,7 +19,7 @@ The **order** of a numerical method describes how fast these errors shrink as $\
 $$
 
 
-e(\Delta x) = \mathcal O\!\left((\Delta x)^p\right)\quad\textrm{as}\quad \Delta x \to 0.
+e(\Delta x) = \mathcal O\!\left((\Delta x)^p\right)\quad\text{as}\quad \Delta x \to 0.
 
 
 $$
@@ -117,7 +117,7 @@ A numerical method has order $p$ if $p$ is the largest positive integer such tha
 $$
 
 
-e(\Delta x) = \mathcal O\!\left((\Delta x)^p\right)\quad\textrm{as}\quad \Delta x \to 0.
+e(\Delta x) = \mathcal O\!\left((\Delta x)^p\right)\quad\text{as}\quad \Delta x \to 0.
 
 
 $$
@@ -179,7 +179,7 @@ Indeed, this coincides with the definition of the order from the expression for 
 $$
 
 
-e(\Delta x) = 4(\Delta x)^3 + (\Delta x)^4 \quad\Rightarrow\quad e(\Delta x) = \mathcal O\!\left((\Delta x)^3\right)\quad\textrm{as}\quad \Delta x\to 0.
+e(\Delta x) = 4(\Delta x)^3 + (\Delta x)^4 \quad\Rightarrow\quad e(\Delta x) = \mathcal O\!\left((\Delta x)^3\right)\quad\text{as}\quad \Delta x\to 0.
 
 
 $$
@@ -195,7 +195,7 @@ A numerical method has **order** $p$ if $p$ is the largest positive integer such
 $$
 
 
-\tau(\Delta x) = \mathcal O\!\left((\Delta x)^{p+1}\right)\quad\textrm{as}\quad \Delta x \to 0.
+\tau(\Delta x) = \mathcal O\!\left((\Delta x)^{p+1}\right)\quad\text{as}\quad \Delta x \to 0.
 
 
 $$
@@ -259,7 +259,7 @@ A numerical method has order $p$ if $p$ is the largest positive integer such tha
 $$
 
 
-\tau(\Delta x) = \mathcal O\!\left((\Delta x)^{p+1}\right)\quad\textrm{as}\quad \Delta x \to 0.
+\tau(\Delta x) = \mathcal O\!\left((\Delta x)^{p+1}\right)\quad\text{as}\quad \Delta x \to 0.
 
 
 $$
@@ -363,7 +363,7 @@ A numerical method has order $p$ if $p$ is the largest positive integer such tha
 $$
 
 
-\tau(\Delta x) = \mathcal O\!\left((\Delta x)^{p+1}\right)\quad \textrm{as}\quad \Delta x \to 0.
+\tau(\Delta x) = \mathcal O\!\left((\Delta x)^{p+1}\right)\quad \text{as}\quad \Delta x \to 0.
 
 
 $$
@@ -411,7 +411,7 @@ Indeed, suppose a numerical method with increment formula $\Delta y = \Phi(x, y,
 $$
 
 
-\tau(\Delta x) = \mathcal O\!\left((\Delta x)^{p+1}\right)\quad\textrm{as}\quad \Delta x \to 0
+\tau(\Delta x) = \mathcal O\!\left((\Delta x)^{p+1}\right)\quad\text{as}\quad \Delta x \to 0
 
 
 $$

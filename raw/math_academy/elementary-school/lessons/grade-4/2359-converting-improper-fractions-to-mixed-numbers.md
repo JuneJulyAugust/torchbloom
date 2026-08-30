@@ -29,7 +29,7 @@ First, we divide $14$ by ${\color{blue}{3}}\mathbin{:}$
 
 $$
 
-14\div 3 = 4 \, \textrm{R}\,{\color{red}2}
+14\div 3 = 4 \, \text{R}\,{\color{red}2}
 
 $$
 
@@ -55,7 +55,7 @@ First, we divide $71$ by ${\color{blue}{8}}{:}$
 
 $$
 
-71 \div 8 = 8\, \textrm{R}\,{\color{red}{7}}
+71 \div 8 = 8\, \text{R}\,{\color{red}{7}}
 
 $$
 
@@ -83,7 +83,7 @@ First, we divide $18$ by ${\color{blue}{4}}\mathbin{:}$
 
 $$
 
-\dfrac{18}{4} = 4 \, \textrm{R}\, {\color{red}{2}}
+\dfrac{18}{4} = 4 \, \text{R}\, {\color{red}{2}}
 
 $$
 
@@ -117,7 +117,7 @@ First, we divide $51$ by ${\color{blue}{6}}{:}$
 
 $$
 
-51 \div 6 = 8 \, \textrm{R}\, {\color{red}{3}}
+51 \div 6 = 8 \, \text{R}\, {\color{red}{3}}
 
 $$
 

@@ -83,7 +83,7 @@ Substituting $\mathbf{x}$ and $\mathbf{x}'$ into the given system, we obtain
 $$
 
 
-\begin{aligned}𝐱^{′} & =[\begin{aligned}3 & 2 \\ −5 & 1\end{aligned}]𝐱+[\begin{aligned}−1 \\ 6\end{aligned}] \\ 𝐮^{′} & =[\begin{aligned}3 & 2 \\ −5 & 1\end{aligned}](𝐮+[\begin{aligned}1 \\ −1\end{aligned}])+[\begin{aligned}−1 \\ 6\end{aligned}] \\ & =[\begin{aligned}3 & 2 \\ −5 & 1\end{aligned}]𝐮+[\begin{aligned}3 & 2 \\ −5 & 1\end{aligned}][\begin{aligned}1 \\ −1\end{aligned}]+[\begin{aligned}−1 \\ 6\end{aligned}] \\ & =[\begin{aligned}3 & 2 \\ −5 & 1\end{aligned}]𝐮+[\begin{aligned}1 \\ −6\end{aligned}]+[\begin{aligned}−1 \\ 6\end{aligned}] \\ & =[\begin{aligned}3 & 2 \\ −5 & 1\end{aligned}]𝐮.\end{aligned}
+\begin{aligned}𝐱^{′} & =[\begin{matrix}3 & 2 \\ −5 & 1\end{matrix}]𝐱+[\begin{matrix}−1 \\ 6\end{matrix}] \\ 𝐮^{′} & =[\begin{matrix}3 & 2 \\ −5 & 1\end{matrix}](𝐮+[\begin{matrix}1 \\ −1\end{matrix}])+[\begin{matrix}−1 \\ 6\end{matrix}] \\ & =[\begin{matrix}3 & 2 \\ −5 & 1\end{matrix}]𝐮+[\begin{matrix}3 & 2 \\ −5 & 1\end{matrix}][\begin{matrix}1 \\ −1\end{matrix}]+[\begin{matrix}−1 \\ 6\end{matrix}] \\ & =[\begin{matrix}3 & 2 \\ −5 & 1\end{matrix}]𝐮+[\begin{matrix}1 \\ −6\end{matrix}]+[\begin{matrix}−1 \\ 6\end{matrix}] \\ & =[\begin{matrix}3 & 2 \\ −5 & 1\end{matrix}]𝐮.\end{aligned}
 
 
 $$
@@ -155,7 +155,7 @@ Substituting $\mathbf{x}$ and $\mathbf{x}'$ into the given system, we obtain
 $$
 
 
-\begin{aligned}𝐱^{′} & =[\begin{aligned}3 & −2 \\ 4 & 1\end{aligned}]𝐱+[\begin{aligned}1 \\ −6\end{aligned}] \\ 𝐮^{′} & =[\begin{aligned}3 & −2 \\ 4 & 1\end{aligned}](𝐮+[\begin{aligned}1 \\ 2\end{aligned}])+[\begin{aligned}1 \\ −6\end{aligned}] \\ & =[\begin{aligned}3 & −2 \\ 4 & 1\end{aligned}]𝐮+[\begin{aligned}3 & −2 \\ 4 & 1\end{aligned}][\begin{aligned}1 \\ 2\end{aligned}]+[\begin{aligned}1 \\ −6\end{aligned}] \\ & =[\begin{aligned}3 & −2 \\ 4 & 1\end{aligned}]𝐮+[\begin{aligned}−1 \\ 6\end{aligned}]+[\begin{aligned}1 \\ −6\end{aligned}] \\ & =[\begin{aligned}3 & −2 \\ 4 & 1\end{aligned}]𝐮.\end{aligned}
+\begin{aligned}𝐱^{′} & =[\begin{matrix}3 & −2 \\ 4 & 1\end{matrix}]𝐱+[\begin{matrix}1 \\ −6\end{matrix}] \\ 𝐮^{′} & =[\begin{matrix}3 & −2 \\ 4 & 1\end{matrix}](𝐮+[\begin{matrix}1 \\ 2\end{matrix}])+[\begin{matrix}1 \\ −6\end{matrix}] \\ & =[\begin{matrix}3 & −2 \\ 4 & 1\end{matrix}]𝐮+[\begin{matrix}3 & −2 \\ 4 & 1\end{matrix}][\begin{matrix}1 \\ 2\end{matrix}]+[\begin{matrix}1 \\ −6\end{matrix}] \\ & =[\begin{matrix}3 & −2 \\ 4 & 1\end{matrix}]𝐮+[\begin{matrix}−1 \\ 6\end{matrix}]+[\begin{matrix}1 \\ −6\end{matrix}] \\ & =[\begin{matrix}3 & −2 \\ 4 & 1\end{matrix}]𝐮.\end{aligned}
 
 
 $$

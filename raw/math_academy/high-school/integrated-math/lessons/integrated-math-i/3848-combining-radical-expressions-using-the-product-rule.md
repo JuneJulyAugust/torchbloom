@@ -45,7 +45,7 @@ $$
 
 
 
-\begin{aligned}\sqrt{√5𝑥}⋅\sqrt{√6𝑧} & = \\ \sqrt{√5𝑥⋅6𝑧} & = \\ \sqrt{√30𝑥𝑧} & \end{aligned}
+\begin{aligned}\sqrt{5𝑥}⋅\sqrt{6𝑧} & = \\ \sqrt{5𝑥⋅6𝑧} & = \\ \sqrt{30𝑥𝑧} & \end{aligned}
 
 
 
@@ -65,7 +65,7 @@ $$
 
 
 
-\begin{aligned}\sqrt{√5𝑤^{3}}⋅\sqrt{√𝑢𝑣} & = \\ \sqrt{√5𝑤^{3}⋅𝑢𝑣} & = \\ \sqrt{√5𝑢𝑣𝑤^{3}} & \end{aligned}
+\begin{aligned}\sqrt{5𝑤^{3}}⋅\sqrt{𝑢𝑣} & = \\ \sqrt{5𝑤^{3}⋅𝑢𝑣} & = \\ \sqrt{5𝑢𝑣𝑤^{3}} & \end{aligned}
 
 
 

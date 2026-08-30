@@ -22,7 +22,7 @@ By considering either of the $45^\circ$ angles in this triangle, we find that
 $$
 
 
-\begin{aligned} \sin 45^\circ &= \dfrac{\textrm{opp.}}{\textrm{hyp.}} = \dfrac{1}{\sqrt{2}} = \dfrac{\sqrt{2}}{2}, \\\[5pt] \cos 45^\circ &= \dfrac{\textrm{adj.}}{\textrm{hyp.}} = \dfrac{1}{\sqrt{2}} = \dfrac{\sqrt{2}}{2}, \\\[5pt] \tan 45^\circ &= \dfrac{\textrm{opp.}}{\textrm{adj.}} = \dfrac{1}{1} = 1. \end{aligned}
+\begin{aligned} \sin 45^\circ &= \dfrac{\text{opp.}}{\text{hyp.}} = \dfrac{1}{\sqrt{2}} = \dfrac{\sqrt{2}}{2}, \\[5pt] \cos 45^\circ &= \dfrac{\text{adj.}}{\text{hyp.}} = \dfrac{1}{\sqrt{2}} = \dfrac{\sqrt{2}}{2}, \\[5pt] \tan 45^\circ &= \dfrac{\text{opp.}}{\text{adj.}} = \dfrac{1}{1} = 1. \end{aligned}
 
 
 $$
@@ -52,7 +52,7 @@ Therefore,
 $$
 
 
-\begin{aligned}2tan⁡45^{∘}−4sin⁡45^{∘} & = \\ 2(1)−4(\frac{\sqrt{√2}}{2}) & = \\ 2−2\sqrt{√2} & = \\ 2(1−\sqrt{√2}) & .\end{aligned}
+\begin{aligned}2tan⁡45^{∘}−4sin⁡45^{∘} & = \\ 2(1)−4(\frac{\sqrt{2}}{2}) & = \\ 2−2\sqrt{2} & = \\ 2(1−\sqrt{2}) & .\end{aligned}
 
 
 $$
@@ -68,7 +68,7 @@ Now, we can calculate some trigonometric ratios without a calculator. Let's star
 $$
 
 
-\begin{aligned}sin⁡30^{∘} & =\frac{opp.}{hyp.}=\frac{1}{2}, \\ cos⁡30^{∘} & =\frac{adj.}{hyp.}=\frac{\sqrt{√3}}{2}, \\ tan⁡30^{∘} & =\frac{opp.}{adj.}=\frac{1}{\sqrt{√3}}=\frac{\sqrt{√3}}{3}.\end{aligned}
+\begin{aligned}sin⁡30^{∘} & =\frac{opp.}{hyp.}=\frac{1}{2}, \\ cos⁡30^{∘} & =\frac{adj.}{hyp.}=\frac{\sqrt{3}}{2}, \\ tan⁡30^{∘} & =\frac{opp.}{adj.}=\frac{1}{\sqrt{3}}=\frac{\sqrt{3}}{3}.\end{aligned}
 
 
 $$
@@ -78,7 +78,7 @@ Similarly, by considering the $60^\circ$-angle, we find that
 $$
 
 
-\begin{aligned}sin⁡60^{∘} & =\frac{opp.}{hyp.}=\frac{\sqrt{√3}}{2}, \\ cos⁡60^{∘} & =\frac{adj.}{hyp.}=\frac{1}{2}, \\ tan⁡60^{∘} & =\frac{opp.}{adj.}=\frac{\sqrt{√3}}{1}=\sqrt{√3}.\end{aligned}
+\begin{aligned}sin⁡60^{∘} & =\frac{opp.}{hyp.}=\frac{\sqrt{3}}{2}, \\ cos⁡60^{∘} & =\frac{adj.}{hyp.}=\frac{1}{2}, \\ tan⁡60^{∘} & =\frac{opp.}{adj.}=\frac{\sqrt{3}}{1}=\sqrt{3}.\end{aligned}
 
 
 $$
@@ -108,7 +108,7 @@ Therefore,
 $$
 
 
-\begin{aligned}sin⁡30^{∘}+cos⁡60^{∘}+tan^{2}⁡30^{∘} & = \\ sin⁡30^{∘}+cos⁡60^{∘}+(tan⁡30^{∘})^{2} & = \\ \frac{1}{2}+\frac{1}{2}+(\frac{\sqrt{√3}}{3})^{2} & = \\ 1+\frac{3}{9} & = \\ 1+\frac{1}{3} & = \\ \frac{4}{3} & .\end{aligned}
+\begin{aligned}sin⁡30^{∘}+cos⁡60^{∘}+tan^{2}⁡30^{∘} & = \\ sin⁡30^{∘}+cos⁡60^{∘}+(tan⁡30^{∘})^{2} & = \\ \frac{1}{2}+\frac{1}{2}+(\frac{\sqrt{3}}{3})^{2} & = \\ 1+\frac{3}{9} & = \\ 1+\frac{1}{3} & = \\ \frac{4}{3} & .\end{aligned}
 
 
 $$

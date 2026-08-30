@@ -112,7 +112,7 @@ First, let's compute the number of degrees of freedom and the pooled estimate of
 $$
 
 
-\begin{aligned}𝜈 & =16+18−2=32 \\ 𝑆_{2𝑝}^{} & =\frac{(16−1)(1.75)^{2}+(18−1)(2.25)^{2}}{16+18−2}=\frac{33}{8}\end{aligned}
+\begin{aligned}𝜈 & =16+18−2=32 \\ 𝑆_{2𝑝} & =\frac{(16−1)(1.75)^{2}+(18−1)(2.25)^{2}}{16+18−2}=\frac{33}{8}\end{aligned}
 
 
 $$
@@ -122,7 +122,7 @@ Assuming the null hypothesis, i.e., $\mu_x-\mu_y=0,$ we compute the test statist
 $$
 
 
-\begin{aligned}𝑡 & =\frac{\overset{𝑥}{}−\overset{𝑦}{–}−(𝜇_{𝑥}−𝜇_{𝑦})}{𝑆_{𝑝}\sqrt{√\frac{1}{𝑛_{𝑥}}+\frac{1}{𝑛_{𝑦}}}} \\ & =\frac{15.2−13.5−(0)}{\sqrt{√\frac{33}{8}}⋅\sqrt{√\frac{1}{16}+\frac{1}{18}}} \\ & ≈2.436\end{aligned}
+\begin{aligned}𝑡 & =\frac{\overset{𝑥}{}−\overset{𝑦}{–}−(𝜇_{𝑥}−𝜇_{𝑦})}{𝑆_{𝑝}\sqrt{\frac{1}{𝑛_{𝑥}}+\frac{1}{𝑛_{𝑦}}}} \\ & =\frac{15.2−13.5−(0)}{\sqrt{\frac{33}{8}}⋅\sqrt{\frac{1}{16}+\frac{1}{18}}} \\ & ≈2.436\end{aligned}
 
 
 $$
@@ -200,7 +200,7 @@ First, let's compute the number of degrees of freedom and the pooled estimate of
 $$
 
 
-\begin{aligned}𝜈 & =23+17−2=38 \\ 𝑆_{2𝑝}^{} & =\frac{(23−1)(2)^{2}+(17−1)(2.5)^{2}}{23+17−2}=\frac{188}{38}\end{aligned}
+\begin{aligned}𝜈 & =23+17−2=38 \\ 𝑆_{2𝑝} & =\frac{(23−1)(2)^{2}+(17−1)(2.5)^{2}}{23+17−2}=\frac{188}{38}\end{aligned}
 
 
 $$
@@ -210,7 +210,7 @@ Assuming the null hypothesis, i.e., $\mu_x-\mu_y=0,$ we compute the test statist
 $$
 
 
-\begin{aligned}𝑡 & =\frac{\overset{𝑥}{}−\overset{𝑦}{–}−(𝜇_{𝑥}−𝜇_{𝑦})}{𝑆_{𝑝}\sqrt{√\frac{1}{𝑛_{𝑥}}+\frac{1}{𝑛_{𝑦}}}} \\ & =\frac{4.4−5.6−(0)}{\sqrt{√\frac{188}{38}}⋅\sqrt{√\frac{1}{23}+\frac{1}{17}}} \\ & ≈−1.687\end{aligned}
+\begin{aligned}𝑡 & =\frac{\overset{𝑥}{}−\overset{𝑦}{–}−(𝜇_{𝑥}−𝜇_{𝑦})}{𝑆_{𝑝}\sqrt{\frac{1}{𝑛_{𝑥}}+\frac{1}{𝑛_{𝑦}}}} \\ & =\frac{4.4−5.6−(0)}{\sqrt{\frac{188}{38}}⋅\sqrt{\frac{1}{23}+\frac{1}{17}}} \\ & ≈−1.687\end{aligned}
 
 
 $$
@@ -278,7 +278,7 @@ First, let's compute the number of degrees of freedom and the pooled estimate of
 $$
 
 
-\begin{aligned}𝜈 & =12+15−2=25 \\ 𝑆_{2𝑝}^{} & =\frac{(12−1)(2)^{2}+(15−1)(3)^{2}}{12+15−2}=\frac{34}{5}\end{aligned}
+\begin{aligned}𝜈 & =12+15−2=25 \\ 𝑆_{2𝑝} & =\frac{(12−1)(2)^{2}+(15−1)(3)^{2}}{12+15−2}=\frac{34}{5}\end{aligned}
 
 
 $$
@@ -288,7 +288,7 @@ Assuming the null hypothesis, i.e., $\mu_x-\mu_y=0,$ we compute the test statist
 $$
 
 
-\begin{aligned}𝑡 & =\frac{\overset{𝑥}{}−\overset{𝑦}{–}−(𝜇_{𝑥}−𝜇_{𝑦})}{𝑆_{𝑝}\sqrt{√\frac{1}{𝑛_{𝑥}}+\frac{1}{𝑛_{𝑦}}}} \\ & =\frac{−1−1−(0)}{\sqrt{√\frac{34}{5}}⋅\sqrt{√\frac{1}{12}+\frac{1}{15}}} \\ & ≈−1.980\end{aligned}
+\begin{aligned}𝑡 & =\frac{\overset{𝑥}{}−\overset{𝑦}{–}−(𝜇_{𝑥}−𝜇_{𝑦})}{𝑆_{𝑝}\sqrt{\frac{1}{𝑛_{𝑥}}+\frac{1}{𝑛_{𝑦}}}} \\ & =\frac{−1−1−(0)}{\sqrt{\frac{34}{5}}⋅\sqrt{\frac{1}{12}+\frac{1}{15}}} \\ & ≈−1.980\end{aligned}
 
 
 $$
@@ -382,7 +382,7 @@ First, let's compute the number of degrees of freedom and the pooled estimate of
 $$
 
 
-\begin{aligned}𝜈 & =91+100−2=189 \\ 𝑆_{2𝑝}^{} & =\frac{(91−1)(2)^{2}+(100−1)(3)^{2}}{91+100−2}=\frac{139}{21}\end{aligned}
+\begin{aligned}𝜈 & =91+100−2=189 \\ 𝑆_{2𝑝} & =\frac{(91−1)(2)^{2}+(100−1)(3)^{2}}{91+100−2}=\frac{139}{21}\end{aligned}
 
 
 $$
@@ -392,7 +392,7 @@ Assuming the null hypothesis, i.e., $\mu_x-\mu_y=0,$ we compute the test statist
 $$
 
 
-\begin{aligned}𝑡 & =\frac{\overset{𝑥}{}−\overset{𝑦}{–}−(𝜇_{𝑥}−𝜇_{𝑦})}{𝑆_{𝑝}\sqrt{√\frac{1}{𝑛_{𝑥}}+\frac{1}{𝑛_{𝑦}}}} \\ & =\frac{0−1.2−(0)}{\sqrt{√\frac{139}{21}}⋅\sqrt{√\frac{1}{91}+\frac{1}{100}}} \\ & ≈−3.219\end{aligned}
+\begin{aligned}𝑡 & =\frac{\overset{𝑥}{}−\overset{𝑦}{–}−(𝜇_{𝑥}−𝜇_{𝑦})}{𝑆_{𝑝}\sqrt{\frac{1}{𝑛_{𝑥}}+\frac{1}{𝑛_{𝑦}}}} \\ & =\frac{0−1.2−(0)}{\sqrt{\frac{139}{21}}⋅\sqrt{\frac{1}{91}+\frac{1}{100}}} \\ & ≈−3.219\end{aligned}
 
 
 $$
@@ -472,7 +472,7 @@ First, let's compute the number of degrees of freedom and the pooled estimate of
 $$
 
 
-\begin{aligned}𝜈 & =22+26−2=46 \\ 𝑆_{2𝑝}^{} & =\frac{(22−1)(1)^{2}+(26−1)(2)^{2}}{22+26−2}=\frac{121}{46}\end{aligned}
+\begin{aligned}𝜈 & =22+26−2=46 \\ 𝑆_{2𝑝} & =\frac{(22−1)(1)^{2}+(26−1)(2)^{2}}{22+26−2}=\frac{121}{46}\end{aligned}
 
 
 $$
@@ -482,7 +482,7 @@ Assuming the null hypothesis, i.e., $\mu_x-\mu_y=0,$ we compute the test statist
 $$
 
 
-\begin{aligned}𝑡 & =\frac{\overset{𝑥}{}−\overset{𝑦}{–}−(𝜇_{𝑥}−𝜇_{𝑦})}{𝑆_{𝑝}\sqrt{√\frac{1}{𝑛_{𝑥}}+\frac{1}{𝑛_{𝑦}}}} \\ & =\frac{6−7.5−(0)}{\sqrt{√\frac{121}{46}}⋅\sqrt{√\frac{1}{22}+\frac{1}{26}}} \\ & ≈−3.193\end{aligned}
+\begin{aligned}𝑡 & =\frac{\overset{𝑥}{}−\overset{𝑦}{–}−(𝜇_{𝑥}−𝜇_{𝑦})}{𝑆_{𝑝}\sqrt{\frac{1}{𝑛_{𝑥}}+\frac{1}{𝑛_{𝑦}}}} \\ & =\frac{6−7.5−(0)}{\sqrt{\frac{121}{46}}⋅\sqrt{\frac{1}{22}+\frac{1}{26}}} \\ & ≈−3.193\end{aligned}
 
 
 $$

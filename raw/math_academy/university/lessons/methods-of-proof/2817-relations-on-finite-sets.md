@@ -101,15 +101,15 @@ R\subseteq A^2
 
 $$
 
-In this case, $R$ is the set of ordered pairs $(x,y) \in A^2$ such that $x \equiv y \: (\textrm{mod}\:4).$
+In this case, $R$ is the set of ordered pairs $(x,y) \in A^2$ such that $x \equiv y \: (\text{mod}\:4).$
 
 Let's check each element $x \in A$ to see which elements $y \in A$ it could be paired with to satisfy the relation.
 
-- If $x=-2,$ then the values $y=-2$ and $y=2$ satisfy $x \equiv y \: (\textrm{mod}\:4),$ since $4 \mid (-2+2)$ and $4 \mid (-2-2).$ So, $R$ contains the ordered pairs $(-2,-2)$ and $(-2,2).$
+- If $x=-2,$ then the values $y=-2$ and $y=2$ satisfy $x \equiv y \: (\text{mod}\:4),$ since $4 \mid (-2+2)$ and $4 \mid (-2-2).$ So, $R$ contains the ordered pairs $(-2,-2)$ and $(-2,2).$
 
-- If $x=0,$ then the value $y=0$ satisfies $x \equiv y \: (\textrm{mod}\:4),$ since $4 \mid (0-0).$ So, $R$ contains the ordered pair $(0,0).$
+- If $x=0,$ then the value $y=0$ satisfies $x \equiv y \: (\text{mod}\:4),$ since $4 \mid (0-0).$ So, $R$ contains the ordered pair $(0,0).$
 
-- If $x=2,$ then the values $y=-2$ and $y=2$ satisfy $x \equiv y \: (\textrm{mod}\:4),$ since $4 \mid (2+2)$ and $4 \mid (2-2).$ So, $R$ contains the ordered pairs $(2,-2)$ and $(2,2).$
+- If $x=2,$ then the values $y=-2$ and $y=2$ satisfy $x \equiv y \: (\text{mod}\:4),$ since $4 \mid (2+2)$ and $4 \mid (2-2).$ So, $R$ contains the ordered pairs $(2,-2)$ and $(2,2).$
 
 Therefore, we can describe our relation as the following set of ordered pairs:
 

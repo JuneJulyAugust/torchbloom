@@ -42,7 +42,7 @@ $$
 
 
 
-\begin{aligned} \left(5^2\right)^3 &= \\\[5pt] \underbrace{5^2\cdot 5^2\cdot 5^2}_{3\text{ times}} &= \\\[5pt] (5 \cdot 5) \cdot (5 \cdot 5) \cdot (5 \cdot 5) &= \\\[5pt] \underbrace{5\cdot5\cdot5\cdot5\cdot5\cdot5}_{6\text{ times}} &= \\\[5pt] 5^6 \end{aligned}
+\begin{aligned} \left(5^2\right)^3 &= \\[5pt] \underbrace{5^2\cdot 5^2\cdot 5^2}_{3\text{ times}} &= \\[5pt] (5 \cdot 5) \cdot (5 \cdot 5) \cdot (5 \cdot 5) &= \\[5pt] \underbrace{5\cdot5\cdot5\cdot5\cdot5\cdot5}_{6\text{ times}} &= \\[5pt] 5^6 \end{aligned}
 
 
 

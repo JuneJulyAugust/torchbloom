@@ -98,7 +98,7 @@ Substituting this into the boundary conditions yields a linear system for the co
 $$
 
 
-[\begin{aligned}\,𝛼_{1}𝑦_{1}(𝑎)+𝛽_{1}𝑦_{′1}^{}(𝑎) & 𝛼_{1}𝑦_{2}(𝑎)+𝛽_{1}𝑦_{′2}^{}(𝑎) \\ 𝛼_{2}𝑦_{1}(𝑏)+𝛽_{2}𝑦_{′1}^{}(𝑏) & 𝛼_{2}𝑦_{2}(𝑏)+𝛽_{2}𝑦_{′2}^{}(𝑏)\end{aligned}]
+[\begin{aligned}\,𝛼_{1}𝑦_{1}(𝑎)+𝛽_{1}𝑦_{′1}(𝑎) & 𝛼_{1}𝑦_{2}(𝑎)+𝛽_{1}𝑦_{′2}(𝑎) \\ 𝛼_{2}𝑦_{1}(𝑏)+𝛽_{2}𝑦_{′1}(𝑏) & 𝛼_{2}𝑦_{2}(𝑏)+𝛽_{2}𝑦_{′2}(𝑏)\end{aligned}]
 
 
 $$
@@ -154,7 +154,7 @@ Let $y_1(x)$ and $y_2(x)$ be the fundamental solutions, and suppose we define th
 $$
 
 
-[\begin{aligned}𝑦_{′1}^{}(0) & 𝑦_{′2}^{}(0) \\ 𝑦_{′1}^{}(𝜋) & 𝑦_{′2}^{}(𝜋)\end{aligned}]
+[\begin{aligned}𝑦_{′1}(0) & 𝑦_{′2}(0) \\ 𝑦_{′1}(𝜋) & 𝑦_{′2}(𝜋)\end{aligned}]
 
 
 $$
@@ -202,7 +202,7 @@ To classify the solutions of the corresponding homogeneous BVP, we define the ma
 $$
 
 
-[\begin{aligned}\,𝛼_{1}𝑦_{1}(𝑎)+𝛽_{1}𝑦_{′1}^{}(𝑎) & 𝛼_{1}𝑦_{2}(𝑎)+𝛽_{1}𝑦_{′2}^{}(𝑎) \\ 𝛼_{2}𝑦_{1}(𝑏)+𝛽_{2}𝑦_{′1}^{}(𝑏) & 𝛼_{2}𝑦_{2}(𝑏)+𝛽_{2}𝑦_{′2}^{}(𝑏)\end{aligned}]
+[\begin{aligned}\,𝛼_{1}𝑦_{1}(𝑎)+𝛽_{1}𝑦_{′1}(𝑎) & 𝛼_{1}𝑦_{2}(𝑎)+𝛽_{1}𝑦_{′2}(𝑎) \\ 𝛼_{2}𝑦_{1}(𝑏)+𝛽_{2}𝑦_{′1}(𝑏) & 𝛼_{2}𝑦_{2}(𝑏)+𝛽_{2}𝑦_{′2}(𝑏)\end{aligned}]
 
 
 $$
@@ -214,7 +214,7 @@ Notice that, in our case, we have Neumann boundary conditions. So, setting $\alp
 $$
 
 
-[\begin{aligned}𝑦_{′1}^{}(0) & 𝑦_{′2}^{}(0) \\ 𝑦_{′1}^{}(𝜋) & 𝑦_{′2}^{}(𝜋)\end{aligned}]
+[\begin{aligned}𝑦_{′1}(0) & 𝑦_{′2}(0) \\ 𝑦_{′1}(𝜋) & 𝑦_{′2}(𝜋)\end{aligned}]
 
 
 $$
@@ -254,7 +254,7 @@ Therefore, the matrix $A$ is
 $$
 
 
-\begin{aligned}𝐴 & =[\begin{aligned}−4sin⁡(4⋅0) & 4cos⁡(4⋅0) \\ −4sin⁡(4⋅𝜋) & 4cos⁡(4⋅𝜋)\end{aligned}] \\ & =[\begin{aligned}0 & 4 \\ 0 & 4\end{aligned}]\end{aligned}
+\begin{aligned}𝐴 & =[\begin{matrix}−4sin⁡(4⋅0) & 4cos⁡(4⋅0) \\ −4sin⁡(4⋅𝜋) & 4cos⁡(4⋅𝜋)\end{matrix}] \\ & =[\begin{matrix}0 & 4 \\ 0 & 4\end{matrix}]\end{aligned}
 
 
 $$
@@ -269,9 +269,9 @@ $$
 
 $$
 
-Since $\det(A) = 0,$ the corresponding homogeneous BVP $\textrm{has infinitely many solutions}.$
+Since $\det(A) = 0,$ the corresponding homogeneous BVP $\text{has infinitely many solutions}.$
 
-Therefore, since the corresponding homogeneous BVP has (infinitely many) nontrivial solutions, our inhomogeneous BVP $\textrm{has infinitely many solutions or no solution}.$
+Therefore, since the corresponding homogeneous BVP has (infinitely many) nontrivial solutions, our inhomogeneous BVP $\text{has infinitely many solutions or no solution}.$
 
 ### Example: Solving Solvable Inhomogeneous BVPs With Infinitely Many Solutions
 
@@ -378,7 +378,7 @@ Differentiating, we get
 $$
 
 
-\begin{aligned}𝑦_{′𝑝}^{}(𝑥) & =𝐶cos⁡4𝑥−4𝐶𝑥sin⁡4𝑥+𝐷sin⁡4𝑥+4𝐷𝑥cos⁡4𝑥 \\ 𝑦_{″𝑝}^{}(𝑥) & =−8𝐶sin⁡4𝑥−16𝐶𝑥cos⁡4𝑥+8𝐷cos⁡4𝑥−16𝐷𝑥sin⁡4𝑥\end{aligned}
+\begin{aligned}𝑦_{′𝑝}(𝑥) & =𝐶cos⁡4𝑥−4𝐶𝑥sin⁡4𝑥+𝐷sin⁡4𝑥+4𝐷𝑥cos⁡4𝑥 \\ 𝑦_{″𝑝}(𝑥) & =−8𝐶sin⁡4𝑥−16𝐶𝑥cos⁡4𝑥+8𝐷cos⁡4𝑥−16𝐷𝑥sin⁡4𝑥\end{aligned}
 
 
 $$

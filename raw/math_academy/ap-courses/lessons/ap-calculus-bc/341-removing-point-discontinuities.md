@@ -147,7 +147,7 @@ The function $g(x)$ is given by
 $$
 
 
-\begin{aligned}\sqrt{√𝑏𝑥+3}, & 𝑥≠2, \\ 5, & 𝑥=2.\end{aligned}
+\begin{aligned}\sqrt{𝑏𝑥+3}, & 𝑥≠2, \\ 5, & 𝑥=2.\end{aligned}
 
 
 $$
@@ -161,7 +161,7 @@ From the definition of $g(x)$,
 $$
 
 
-\begin{aligned}\underset{𝑥→2}{lim}𝑔(𝑥)=\underset{𝑥→2}{lim}(\sqrt{√𝑏𝑥+3})=\sqrt{√2𝑏+3}.\end{aligned}
+\begin{aligned}\underset{𝑥→2}{lim}𝑔(𝑥)=\underset{𝑥→2}{lim}(\sqrt{𝑏𝑥+3})=\sqrt{2𝑏+3}.\end{aligned}
 
 
 $$
@@ -171,7 +171,7 @@ In order for $g(x)$ to be continuous at $x=2,$ we must have
 $$
 
 
-\begin{aligned}\underset{𝑥→2}{lim}𝑔(𝑥) & =𝑔(2) \\ \sqrt{√2𝑏+3} & =5 \\ 2𝑏+3 & =25 \\ 2𝑏 & =22 \\ 𝑏 & =11.\end{aligned}
+\begin{aligned}\underset{𝑥→2}{lim}𝑔(𝑥) & =𝑔(2) \\ \sqrt{2𝑏+3} & =5 \\ 2𝑏+3 & =25 \\ 2𝑏 & =22 \\ 𝑏 & =11.\end{aligned}
 
 
 $$

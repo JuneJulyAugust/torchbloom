@@ -60,7 +60,7 @@ We can find the length of the diameter using the distance formula:
 $$
 
 
-\begin{aligned}𝑑 & =\sqrt{√(𝑥_{1}−𝑥_{2})^{2}+(𝑦_{1}−𝑦_{2})^{2}} \\ & =\sqrt{√(−2−4)^{2}+(1−1)^{2}} \\ & =\sqrt{√(−6)^{2}} \\ & =6\end{aligned}
+\begin{aligned}𝑑 & =\sqrt{(𝑥_{1}−𝑥_{2})^{2}+(𝑦_{1}−𝑦_{2})^{2}} \\ & =\sqrt{(−2−4)^{2}+(1−1)^{2}} \\ & =\sqrt{(−6)^{2}} \\ & =6\end{aligned}
 
 
 $$
@@ -88,7 +88,7 @@ The diameter can be calculated using the distance formula:
 $$
 
 
-\begin{aligned}𝑑 & =\sqrt{√(𝑥_{1}−𝑥_{2})^{2}+(𝑦_{1}−𝑦_{2})^{2}} \\ & =\sqrt{√(−5−(−3))^{2}+(3−7)^{2}} \\ & =\sqrt{√(−2)^{2}+(−4)^{2}} \\ & =\sqrt{√4+16} \\ & =\sqrt{√20} \\ & =2\sqrt{√5}\end{aligned}
+\begin{aligned}𝑑 & =\sqrt{(𝑥_{1}−𝑥_{2})^{2}+(𝑦_{1}−𝑦_{2})^{2}} \\ & =\sqrt{(−5−(−3))^{2}+(3−7)^{2}} \\ & =\sqrt{(−2)^{2}+(−4)^{2}} \\ & =\sqrt{4+16} \\ & =\sqrt{20} \\ & =2\sqrt{5}\end{aligned}
 
 
 $$
@@ -126,7 +126,7 @@ The radius can be found by calculating the distance between the center $(4a, 2a)
 $$
 
 
-\begin{aligned}𝑟 & =\sqrt{√(𝑥_{1}−𝑥_{2})^{2}+(𝑦_{1}−𝑦_{2})^{2}} \\ & =\sqrt{√(4𝑎−7𝑎)^{2}+(2𝑎−6𝑎)^{2}} \\ & =\sqrt{√(−3𝑎)^{2}+(−4𝑎)^{2}} \\ & =\sqrt{√9𝑎^{2}+16𝑎^{2}} \\ & =\sqrt{√25𝑎^{2}} \\ & =5|𝑎|.\end{aligned}
+\begin{aligned}𝑟 & =\sqrt{(𝑥_{1}−𝑥_{2})^{2}+(𝑦_{1}−𝑦_{2})^{2}} \\ & =\sqrt{(4𝑎−7𝑎)^{2}+(2𝑎−6𝑎)^{2}} \\ & =\sqrt{(−3𝑎)^{2}+(−4𝑎)^{2}} \\ & =\sqrt{9𝑎^{2}+16𝑎^{2}} \\ & =\sqrt{25𝑎^{2}} \\ & =5|𝑎|.\end{aligned}
 
 
 $$

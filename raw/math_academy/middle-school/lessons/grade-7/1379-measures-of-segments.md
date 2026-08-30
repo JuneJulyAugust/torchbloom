@@ -27,23 +27,23 @@ The **measure** of a line segment is its length. For a line segment $\overline{A
 
 #### Question
 
-Suppose that a line segment has a length of $2\,\textrm{m},$ and that $A$ and $B$ are its endpoints. Which of the following statements are true?
+Suppose that a line segment has a length of $2\,\text{m},$ and that $A$ and $B$ are its endpoints. Which of the following statements are true?
 
-1. $\overline{AB} = 2\,\textrm{m}$
+1. $\overline{AB} = 2\,\text{m}$
 
-2. $\overline{BA} = 2\,\textrm{m}$
+2. $\overline{BA} = 2\,\text{m}$
 
-3. $AB = 2\,\textrm{m}$
+3. $AB = 2\,\text{m}$
 
 #### Explanation
 
 Let's check each statement in turn.
 
-- Statement I is false. The notation $\overline{AB}$ represents the line segment itself, not the length of the line segment. Therefore, the expression ${\overline{AB}}=2\,\textrm{m}$ is not valid. Instead, it should say $AB = 2 \, \textrm{m}.$
+- Statement I is false. The notation $\overline{AB}$ represents the line segment itself, not the length of the line segment. Therefore, the expression ${\overline{AB}}=2\,\text{m}$ is not valid. Instead, it should say $AB = 2 \, \text{m}.$
 
-- Statement II is false. Since $\overline{BA}$ represents the line segment itself, not the length of the line segment. Therefore, the expression ${\overline{BA}}=2\,\textrm{m}$ is not valid.
+- Statement II is false. Since $\overline{BA}$ represents the line segment itself, not the length of the line segment. Therefore, the expression ${\overline{BA}}=2\,\text{m}$ is not valid.
 
-- Statement III is true. The notation $AB$ represents the length of the line segment $\overline{AB},$ and this line segments has a length of $2\,\textrm{m}.$ Therefore, is a correct statement.
+- Statement III is true. The notation $AB$ represents the length of the line segment $\overline{AB},$ and this line segments has a length of $2\,\text{m}.$ Therefore, is a correct statement.
 
 Therefore, the correct answer is "III only".
 
@@ -63,7 +63,7 @@ $$
 
 
 
-\dfrac{10\,\textrm{mm}}{2} = 5\,\textrm{mm}.
+\dfrac{10\,\text{mm}}{2} = 5\,\text{mm}.
 
 
 
@@ -75,7 +75,7 @@ $$
 
 
 
-ML = 7 \cdot 5\,\textrm{mm} = 35\,\textrm{mm}.
+ML = 7 \cdot 5\,\text{mm} = 35\,\text{mm}.
 
 
 
@@ -89,13 +89,13 @@ To measure a line segment, we use a ruler as follows:
 
 2. Read the measurements that correspond to the second endpoint of the segment.
 
-Given that this particular ruler measures length in centimeters ($\textrm{cm}$), we conclude that
+Given that this particular ruler measures length in centimeters ($\text{cm}$), we conclude that
 
 $$
 
 
 
-AB = 5\,\textrm{cm}.
+AB = 5\,\text{cm}.
 
 
 
@@ -105,7 +105,7 @@ $$
 
 #### Question
 
-The ruler shown below allows measuring length both in $\textrm{cm}$ (centimeters) and $\textrm{in}$ (inches). Determine the measure of the line segment $\overline{MN}.$
+The ruler shown below allows measuring length both in $\text{cm}$ (centimeters) and $\text{in}$ (inches). Determine the measure of the line segment $\overline{MN}.$
 
 ![Instructional graphic](../../../lesson-assets/grade-7/topic-1379/23c8c534ac1f1a8e.png)
 
@@ -115,7 +115,7 @@ Note that $M$ is not aligned with the zero-mark on the ruler.
 
 To find the length, we read the values that correspond to the points $M$ and $N,$ and take the difference.
 
-From the picture, we see that $M$ corresponds to $0.5\,\textrm{in}$ while $N$ corresponds to $2\,\textrm{in}.$
+From the picture, we see that $M$ corresponds to $0.5\,\text{in}$ while $N$ corresponds to $2\,\text{in}.$
 
 Therefore,
 
@@ -149,7 +149,7 @@ $$
 
 
 
-AB = 50 - 10 = 40\,\textrm{units}.
+AB = 50 - 10 = 40\,\text{units}.
 
 
 

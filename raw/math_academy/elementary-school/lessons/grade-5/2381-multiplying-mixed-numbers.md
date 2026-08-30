@@ -177,7 +177,7 @@ Finally, we write the resulting improper fraction as a mixed number:
 
 $$
 
-\dfrac{49}{10} =4\,\textrm{R} 9 = 4\,\dfrac 9 {10}.
+\dfrac{49}{10} =4\,\text{R} 9 = 4\,\dfrac 9 {10}.
 
 $$
 
@@ -225,6 +225,6 @@ Finally, we write the resulting improper fraction as a mixed number:
 
 $$
 
-\dfrac{21}{4} = 5\,\textrm{R} 1= 5\,\dfrac 1 {4}.
+\dfrac{21}{4} = 5\,\text{R} 1= 5\,\dfrac 1 {4}.
 
 $$

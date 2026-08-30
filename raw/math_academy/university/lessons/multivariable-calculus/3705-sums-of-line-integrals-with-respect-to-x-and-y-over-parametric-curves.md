@@ -66,7 +66,7 @@ Now, we evaluate the line integral by applying a change of variables, as follows
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}(𝑥+𝑦)\,d𝑥+(𝑥−𝑦)\,d𝑦 & =∫_{10}^{}(𝑥+𝑦)⋅\frac{d𝑥}{d𝑡}\,d𝑡+(𝑥−𝑦)⋅\frac{d𝑦}{d𝑡}\,d𝑡 \\ & =∫_{10}^{}((𝑥+𝑦)⋅\frac{d𝑥}{d𝑡}+(𝑥−𝑦)⋅\frac{d𝑦}{d𝑡})d𝑡 \\ & =∫_{10}^{}(6𝑡+1+2𝑡+1)⋅6+(6𝑡+1−(2𝑡+1))⋅2\,d𝑡 \\ & =∫_{10}^{}(8𝑡+2)⋅6+(4𝑡)⋅2\,d𝑡 \\ & =∫_{10}^{}48𝑡+12+8𝑡\,d𝑡 \\ & =∫_{10}^{}56𝑡+12\,d𝑡 \\ & =28𝑡^{2}+12𝑡_{10}^{} \\ & =28+12 \\ & =40.\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}(𝑥+𝑦)\,d𝑥+(𝑥−𝑦)\,d𝑦 & =∫_{10}(𝑥+𝑦)⋅\frac{d𝑥}{d𝑡}\,d𝑡+(𝑥−𝑦)⋅\frac{d𝑦}{d𝑡}\,d𝑡 \\ & =∫_{10}((𝑥+𝑦)⋅\frac{d𝑥}{d𝑡}+(𝑥−𝑦)⋅\frac{d𝑦}{d𝑡})d𝑡 \\ & =∫_{10}(6𝑡+1+2𝑡+1)⋅6+(6𝑡+1−(2𝑡+1))⋅2\,d𝑡 \\ & =∫_{10}(8𝑡+2)⋅6+(4𝑡)⋅2\,d𝑡 \\ & =∫_{10}48𝑡+12+8𝑡\,d𝑡 \\ & =∫_{10}56𝑡+12\,d𝑡 \\ & =28𝑡^{2}+12𝑡_{10} \\ & =28+12 \\ & =40.\end{aligned}
 
 
 $$
@@ -104,7 +104,7 @@ Therefore, we can write our line integral as follows:
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}(𝑥^{2}+𝑦)\,d𝑥+𝑥\,d𝑦 & =∫_{10}^{}(𝑥^{2}+𝑦)\frac{d𝑥}{d𝑡}\,d𝑡+𝑥\frac{d𝑦}{d𝑡}\,d𝑡 \\ & =∫_{10}^{}((𝑥^{2}+𝑦)\frac{d𝑥}{d𝑡}+𝑥\frac{d𝑦}{d𝑡})\,d𝑡 \\ & =∫_{10}^{}(𝑡^{2}+𝑡^{2})⋅1+𝑡⋅2𝑡\,d𝑡 \\ & =∫_{10}^{}2𝑡^{2}+2𝑡^{2}\,d𝑡 \\ & =∫_{10}^{}4𝑡^{2}\,d𝑡 \\ & =4∫_{10}^{}𝑡^{2}\,d𝑡\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}(𝑥^{2}+𝑦)\,d𝑥+𝑥\,d𝑦 & =∫_{10}(𝑥^{2}+𝑦)\frac{d𝑥}{d𝑡}\,d𝑡+𝑥\frac{d𝑦}{d𝑡}\,d𝑡 \\ & =∫_{10}((𝑥^{2}+𝑦)\frac{d𝑥}{d𝑡}+𝑥\frac{d𝑦}{d𝑡})\,d𝑡 \\ & =∫_{10}(𝑡^{2}+𝑡^{2})⋅1+𝑡⋅2𝑡\,d𝑡 \\ & =∫_{10}2𝑡^{2}+2𝑡^{2}\,d𝑡 \\ & =∫_{10}4𝑡^{2}\,d𝑡 \\ & =4∫_{10}𝑡^{2}\,d𝑡\end{aligned}
 
 
 $$
@@ -136,7 +136,7 @@ As before, we can evaluate this integral by parameterizing the curve $C$ using t
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}𝑓\,d𝑥+𝑓\,d𝑦+𝑓\,d𝑧 & =∫_{𝑏𝑎}^{}𝑓\frac{d𝑥}{d𝑡}\,d𝑡+𝑓\frac{d𝑦}{d𝑡}\,d𝑡+𝑓\frac{d𝑧}{d𝑡}\,d𝑡 \\ & =∫_{𝑏𝑎}^{}(𝑓\frac{d𝑥}{d𝑡}+𝑓\frac{d𝑦}{d𝑡}+𝑓\frac{d𝑧}{d𝑡})\,d𝑡\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}𝑓\,d𝑥+𝑓\,d𝑦+𝑓\,d𝑧 & =∫_{𝑏𝑎}𝑓\frac{d𝑥}{d𝑡}\,d𝑡+𝑓\frac{d𝑦}{d𝑡}\,d𝑡+𝑓\frac{d𝑧}{d𝑡}\,d𝑡 \\ & =∫_{𝑏𝑎}(𝑓\frac{d𝑥}{d𝑡}+𝑓\frac{d𝑦}{d𝑡}+𝑓\frac{d𝑧}{d𝑡})\,d𝑡\end{aligned}
 
 
 $$
@@ -196,7 +196,7 @@ Therefore, we can write our line integral as follows:
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}𝑥^{3}\,d𝑥+𝑧\,d𝑦+𝑦\,d𝑧 & =∫_{𝜋0}^{}𝑥^{3}\frac{d𝑥}{d𝑡}\,d𝑡+𝑧\frac{d𝑦}{d𝑡}\,d𝑡+𝑦\frac{d𝑧}{d𝑡}\,d𝑡 \\ & =∫_{𝜋0}^{}(𝑥^{3}\frac{d𝑥}{d𝑡}+𝑧\frac{d𝑦}{d𝑡}+𝑦\frac{d𝑧}{d𝑡})d𝑡 \\ & =∫_{𝜋0}^{}(2𝑡)^{3}⋅(2)+sin⁡𝑡⋅(−sin⁡𝑡)+cos⁡𝑡⋅(cos⁡𝑡)\,d𝑡 \\ & =∫_{𝜋0}^{}16𝑡^{3}−sin^{2}⁡𝑡+cos^{2}⁡𝑡\,d𝑡 \\ & =∫_{𝜋0}^{}16𝑡^{3}+(cos^{2}⁡𝑡−sin^{2}⁡𝑡)\,d𝑡 \\ & =∫_{𝜋0}^{}16𝑡^{3}+cos⁡2𝑡\,d𝑡\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}𝑥^{3}\,d𝑥+𝑧\,d𝑦+𝑦\,d𝑧 & =∫_{𝜋0}𝑥^{3}\frac{d𝑥}{d𝑡}\,d𝑡+𝑧\frac{d𝑦}{d𝑡}\,d𝑡+𝑦\frac{d𝑧}{d𝑡}\,d𝑡 \\ & =∫_{𝜋0}(𝑥^{3}\frac{d𝑥}{d𝑡}+𝑧\frac{d𝑦}{d𝑡}+𝑦\frac{d𝑧}{d𝑡})d𝑡 \\ & =∫_{𝜋0}(2𝑡)^{3}⋅(2)+sin⁡𝑡⋅(−sin⁡𝑡)+cos⁡𝑡⋅(cos⁡𝑡)\,d𝑡 \\ & =∫_{𝜋0}16𝑡^{3}−sin^{2}⁡𝑡+cos^{2}⁡𝑡\,d𝑡 \\ & =∫_{𝜋0}16𝑡^{3}+(cos^{2}⁡𝑡−sin^{2}⁡𝑡)\,d𝑡 \\ & =∫_{𝜋0}16𝑡^{3}+cos⁡2𝑡\,d𝑡\end{aligned}
 
 
 $$
@@ -234,7 +234,7 @@ We can now evaluate the line integral:
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}𝑦\,d𝑥−𝑥\,d𝑦 & =∫_{𝜋0}^{}𝑦⋅\frac{d𝑥}{d𝑡}\,d𝑡−𝑥⋅\frac{d𝑦}{d𝑡}\,d𝑡 \\ & =∫_{𝜋0}^{}(𝑦⋅\frac{d𝑥}{d𝑡}−𝑥⋅\frac{d𝑦}{d𝑡})\,d𝑡 \\ & =∫_{𝜋0}^{}3sin⁡𝑡⋅(−sin⁡𝑡)−(cos⁡𝑡)⋅3cos⁡𝑡\,d𝑡 \\ & =∫_{𝜋0}^{}−3sin^{2}⁡𝑡−3cos^{2}⁡𝑡\,d𝑡 \\ & =−3∫_{𝜋0}^{}sin^{2}⁡𝑡+cos^{2}⁡𝑡\,d𝑡 \\ & =−3∫_{𝜋0}^{}\,d𝑡 \\ & =−3𝑡|_{𝜋0}^{} \\ & =−3𝜋\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}𝑦\,d𝑥−𝑥\,d𝑦 & =∫_{𝜋0}𝑦⋅\frac{d𝑥}{d𝑡}\,d𝑡−𝑥⋅\frac{d𝑦}{d𝑡}\,d𝑡 \\ & =∫_{𝜋0}(𝑦⋅\frac{d𝑥}{d𝑡}−𝑥⋅\frac{d𝑦}{d𝑡})\,d𝑡 \\ & =∫_{𝜋0}3sin⁡𝑡⋅(−sin⁡𝑡)−(cos⁡𝑡)⋅3cos⁡𝑡\,d𝑡 \\ & =∫_{𝜋0}−3sin^{2}⁡𝑡−3cos^{2}⁡𝑡\,d𝑡 \\ & =−3∫_{𝜋0}sin^{2}⁡𝑡+cos^{2}⁡𝑡\,d𝑡 \\ & =−3∫_{𝜋0}\,d𝑡 \\ & =−3𝑡|_{𝜋0} \\ & =−3𝜋\end{aligned}
 
 
 $$

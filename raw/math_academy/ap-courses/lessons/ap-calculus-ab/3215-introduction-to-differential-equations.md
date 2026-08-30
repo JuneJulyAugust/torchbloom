@@ -18,7 +18,7 @@ For example,
 $$
 
 
-\dfrac{\textrm{d}^2y}{\textrm{d}x^2}-3xy^2 = y^2\dfrac{\textrm{d}y}{\textrm{d}x}
+\dfrac{\text{d}^2y}{\text{d}x^2}-3xy^2 = y^2\dfrac{\text{d}y}{\text{d}x}
 
 
 $$
@@ -34,7 +34,7 @@ In our example above, the highest derivative is
 $$
 
 
-\dfrac{\textrm{d}^2y}{\textrm{d}x^2},
+\dfrac{\text{d}^2y}{\text{d}x^2},
 
 
 $$
@@ -45,13 +45,13 @@ which has order $2.$ Therefore, the order of the ODE is $2.$
 
 #### Question
 
-What is the order of the ordinary differential equation $2x\dfrac{\textrm{d}^3y}{\textrm{d}x^3}+y^2\dfrac{\textrm{d}^2y}{\textrm{d}x^2}=3x^2?$
+What is the order of the ordinary differential equation $2x\dfrac{\text{d}^3y}{\text{d}x^3}+y^2\dfrac{\text{d}^2y}{\text{d}x^2}=3x^2?$
 
 #### Explanation
 
 The order of an ordinary differential equation (ODE) is the order of the highest derivative in the equation.
 
-The highest derivative in the given ODE is $\dfrac{\textrm{d}^3y}{\textrm{d}x^3},$ which has order $3.$
+The highest derivative in the given ODE is $\dfrac{\text{d}^3y}{\text{d}x^3},$ which has order $3.$
 
 Therefore, the order of the ODE is $3.$
 
@@ -62,7 +62,7 @@ An ordinary differential equation with dependent variable $y$ and independent va
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x}=f(y),
+\dfrac{\text{d}y}{\text{d}x}=f(y),
 
 
 $$
@@ -82,7 +82,7 @@ For example,
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x} = -5y^2
+\dfrac{\text{d}y}{\text{d}x} = -5y^2
 
 
 $$
@@ -105,23 +105,23 @@ is *not* autonomous since the expression for $y'$ on the right-hand side contain
 
 Which of the following are autonomous ordinary differential equations?
 
-1. $\dfrac{\textrm{d}y}{\textrm{d}x}=y^3$
+1. $\dfrac{\text{d}y}{\text{d}x}=y^3$
 
-2. $x\dfrac{\textrm{d}y}{\textrm{d}x}- y^3=2$
+2. $x\dfrac{\text{d}y}{\text{d}x}- y^3=2$
 
-3. $\dfrac{\textrm{d}y}{\textrm{d}x}-3\sqrt{y}=1$
+3. $\dfrac{\text{d}y}{\text{d}x}-3\sqrt{y}=1$
 
 #### Explanation
 
-An ordinary differential equation with dependent variable $y$ and independent variable $x$ is said to be autonomous if it can be written in the form $\dfrac{\textrm{d}y}{\textrm{d}x}=f(y),$ or equivalently, $y'=f(y).$
+An ordinary differential equation with dependent variable $y$ and independent variable $x$ is said to be autonomous if it can be written in the form $\dfrac{\text{d}y}{\text{d}x}=f(y),$ or equivalently, $y'=f(y).$
 
 With that in mind, let's check each of the differential equations:
 
-- Equation I is an autonomous differential equation. We see that it is of the form $\dfrac{\textrm{d}y}{\textrm{d}x}=f(y),$ where $f(y)= y^3.$
+- Equation I is an autonomous differential equation. We see that it is of the form $\dfrac{\text{d}y}{\text{d}x}=f(y),$ where $f(y)= y^3.$
 
-- Equation II is not an autonomous differential equation. If we isolate the derivative term, we get where $f(x,y)= \dfrac{y^3+2}{x}.$ So, it is not possible to write the equation in the form $\dfrac{\textrm{d}y}{\textrm{d}x}=f(y).$
+- Equation II is not an autonomous differential equation. If we isolate the derivative term, we get where $f(x,y)= \dfrac{y^3+2}{x}.$ So, it is not possible to write the equation in the form $\dfrac{\text{d}y}{\text{d}x}=f(y).$
 
-- Equation III is an autonomous differential equation. Writing the equation in the form $\dfrac{\textrm{d}y}{\textrm{d}x}=f(y),$ we get where $f(y)= 1+3\sqrt{y}.$
+- Equation III is an autonomous differential equation. Writing the equation in the form $\dfrac{\text{d}y}{\text{d}x}=f(y),$ we get where $f(y)= 1+3\sqrt{y}.$
 
 Therefore, the correct answer is "I and III only."
 

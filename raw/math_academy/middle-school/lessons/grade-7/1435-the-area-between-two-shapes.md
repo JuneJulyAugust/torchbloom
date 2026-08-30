@@ -18,25 +18,25 @@ In the picture below, we have a rectangle with a smaller rectangular hole. How c
 
 First, we must work out the areas of the outer and inner rectangles. Then, we subtract the area of the inner rectangle from the area of the outer rectangle.
 
-The outer rectangle has sides of length $7\,\textrm{cm}$ and $5\,\textrm{cm}.$ So, its area is
+The outer rectangle has sides of length $7\,\text{cm}$ and $5\,\text{cm}.$ So, its area is
 
 $$
 
 
 
-\mathcal{A}_{O} = 7 \cdot 5 =35\,\textrm{cm}^2.
+\mathcal{A}_{O} = 7 \cdot 5 =35\,\text{cm}^2.
 
 
 
 $$
 
-The inner rectangle has sides of length $4\,\textrm{in}$ and $3\,\textrm{in}.$ So, its area is
+The inner rectangle has sides of length $4\,\text{in}$ and $3\,\text{in}.$ So, its area is
 
 $$
 
 
 
-\mathcal{A}_{I} = 4 \cdot 3 =12\,\textrm{cm}^2.
+\mathcal{A}_{I} = 4 \cdot 3 =12\,\text{cm}^2.
 
 
 
@@ -66,25 +66,25 @@ Find the area of the shaded region shown above.
 
 To find the area of the shaded region, we calculate the areas of the outer and inner shapes and then subtract the results.
 
-The outer shape is a triangle with a base of $6\,\textrm{mm}$ and a height of $8\,\textrm{mm}.$ Therefore, its area is
+The outer shape is a triangle with a base of $6\,\text{mm}$ and a height of $8\,\text{mm}.$ Therefore, its area is
 
 $$
 
 
 
-\mathcal{A}_{O} = \dfrac{6 \cdot 8}{2} = 24\,\textrm{mm}^2.
+\mathcal{A}_{O} = \dfrac{6 \cdot 8}{2} = 24\,\text{mm}^2.
 
 
 
 $$
 
-The inner shape is a rectangle with sides of length $2\,\textrm{mm}$ and $3\,\textrm{mm}.$ Therefore, its area is
+The inner shape is a rectangle with sides of length $2\,\text{mm}$ and $3\,\text{mm}.$ Therefore, its area is
 
 $$
 
 
 
-\mathcal{A}_{I} = 2 \cdot 3 = 6\,\textrm{mm}^2.
+\mathcal{A}_{I} = 2 \cdot 3 = 6\,\text{mm}^2.
 
 
 
@@ -114,25 +114,25 @@ What is the area of the shaded region shown below?
 
 To find the area of the shaded region, we calculate the areas of the outer and inner shapes and then subtract the results.
 
-The outer shape is a trapezoid with bases of length $8\,\textrm{in}$ and $2+2=4\,\textrm{in}$, and a height of $4\,\textrm{in}.$ Therefore, its area is
+The outer shape is a trapezoid with bases of length $8\,\text{in}$ and $2+2=4\,\text{in}$, and a height of $4\,\text{in}.$ Therefore, its area is
 
 $$
 
 
 
-\mathcal{A}_{O} = \dfrac{(8+4) \cdot 4}{2} = 24\,\textrm{in}^2.
+\mathcal{A}_{O} = \dfrac{(8+4) \cdot 4}{2} = 24\,\text{in}^2.
 
 
 
 $$
 
-The inner shape is a triangle with a base of $8\,\textrm{in}$ and a height of $4\,\textrm{in}.$ Therefore, its area is
+The inner shape is a triangle with a base of $8\,\text{in}$ and a height of $4\,\text{in}.$ Therefore, its area is
 
 $$
 
 
 
-\mathcal{A}_{I} = \dfrac{8 \cdot 4}{2} = 16\,\textrm{in}^2.
+\mathcal{A}_{I} = \dfrac{8 \cdot 4}{2} = 16\,\text{in}^2.
 
 
 
@@ -164,25 +164,25 @@ The area of the field that the farmer will use for planting corresponds to the s
 
 To find the area of the shaded region, we calculate the areas of the outer and inner shapes and then subtract the results.
 
-The outer shape is a triangle with base $60\,\textrm{m}$ and height $40\,\textrm{m}.$ So, the area is
+The outer shape is a triangle with base $60\,\text{m}$ and height $40\,\text{m}.$ So, the area is
 
 $$
 
 
 
-\mathcal{A}_{O} = \dfrac{60 \cdot 40}{2} =1\, 200\,\textrm{m}^2.
+\mathcal{A}_{O} = \dfrac{60 \cdot 40}{2} =1\, 200\,\text{m}^2.
 
 
 
 $$
 
-The inner shape is the rectangle with sides $10\,\textrm{m}$ and $20\,\textrm{m}.$ So, the area is
+The inner shape is the rectangle with sides $10\,\text{m}$ and $20\,\text{m}.$ So, the area is
 
 $$
 
 
 
-\mathcal{A}_{I} = 10 \cdot 20= 200\,\textrm{m}^2.
+\mathcal{A}_{I} = 10 \cdot 20= 200\,\text{m}^2.
 
 
 
@@ -200,7 +200,7 @@ $$
 
 $$
 
-So, the total area available for growing corn is $1\,000\,\textrm{m}^2.$
+So, the total area available for growing corn is $1\,000\,\text{m}^2.$
 
 ### Example: Calculating the Area Between Outer and Inner Composite Shapes
 
@@ -214,13 +214,13 @@ What is the area of the shaded region shown below?
 
 To find the area of the shaded region, we calculate the areas of the outer and inner shapes and then subtract the results.
 
-The outer shape is a rectangle with sides of $8\,\textrm{cm}$ and $7\,\textrm{cm}.$ So, its area is
+The outer shape is a rectangle with sides of $8\,\text{cm}$ and $7\,\text{cm}.$ So, its area is
 
 $$
 
 
 
-\mathcal{A}_{O} = 8 \cdot 7 =56\, \textrm{cm}^2.
+\mathcal{A}_{O} = 8 \cdot 7 =56\, \text{cm}^2.
 
 
 
@@ -228,9 +228,9 @@ $$
 
 The inner shape consists of two parts.
 
-- The first part is the isosceles triangle (on the left) with a base of $2+2=4\,\textrm{cm}$ and a height of $2\,\textrm{cm}.$ So, its area is
+- The first part is the isosceles triangle (on the left) with a base of $2+2=4\,\text{cm}$ and a height of $2\,\text{cm}.$ So, its area is
 
-- The second part is a square (on the right) with a side of length $4\,\textrm{cm}.$ So, its the corresponding is
+- The second part is a square (on the right) with a side of length $4\,\text{cm}.$ So, its the corresponding is
 
 Therefore, we obtain the inner area
 

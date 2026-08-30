@@ -103,7 +103,7 @@ We'll prove the centroid ratio theorem in a future lesson.
 
 #### Question
 
-In the diagram below, $\overline{VL}$ and $\overline{WM}$ are medians of $\triangle UVW.$ Find $GM$ given that $WG=16\: \textrm{cm}.$
+In the diagram below, $\overline{VL}$ and $\overline{WM}$ are medians of $\triangle UVW.$ Find $GM$ given that $WG=16\: \text{cm}.$
 
 ![Instructional graphic](../../../../lesson-assets/geometry/topic-1524/64d01d33869e7826.png)
 

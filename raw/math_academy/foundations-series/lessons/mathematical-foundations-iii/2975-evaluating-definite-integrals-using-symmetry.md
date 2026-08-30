@@ -63,7 +63,7 @@ Therefore,
 $$
 
 
-\begin{aligned}∫_{𝑎−𝑎}^{}𝑓(𝑥)\,d𝑥 & =𝐴+𝐴 \\ & =2𝐴 \\ & =2∫_{𝑎0}^{}𝑓(𝑥)\,d𝑥.\end{aligned}
+\begin{aligned}∫_{𝑎−𝑎}𝑓(𝑥)\,d𝑥 & =𝐴+𝐴 \\ & =2𝐴 \\ & =2∫_{𝑎0}𝑓(𝑥)\,d𝑥.\end{aligned}
 
 
 $$
@@ -267,7 +267,7 @@ Finally, using the adjacent intervals rule for integration, we obtain
 $$
 
 
-\begin{aligned}∫_{1−1}^{}𝑥cos⁡𝑥\,d𝑥 & =0 \\ ∫_{0−1}^{}𝑥cos⁡𝑥\,d𝑥+∫_{10}^{}𝑥cos⁡𝑥\,d𝑥 & =0 \\ ∫_{0−1}^{}𝑥cos⁡𝑥\,d𝑥+𝐴 & =0 \\ ∫_{0−1}^{}𝑥cos⁡𝑥\,d𝑥 & =−𝐴.\end{aligned}
+\begin{aligned}∫_{1−1}𝑥cos⁡𝑥\,d𝑥 & =0 \\ ∫_{0−1}𝑥cos⁡𝑥\,d𝑥+∫_{10}𝑥cos⁡𝑥\,d𝑥 & =0 \\ ∫_{0−1}𝑥cos⁡𝑥\,d𝑥+𝐴 & =0 \\ ∫_{0−1}𝑥cos⁡𝑥\,d𝑥 & =−𝐴.\end{aligned}
 
 
 $$

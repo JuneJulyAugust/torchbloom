@@ -24,7 +24,7 @@ Recall that the slope of the tangent (in terms of $\theta$) is given by
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x} = \dfrac{y'(\theta)}{x'(\theta)}.
+\dfrac{\text{d}y}{\text{d}x} = \dfrac{y'(\theta)}{x'(\theta)}.
 
 
 $$
@@ -73,16 +73,16 @@ $$
 
 ![Instructional graphic](../../../lesson-assets/mathematical-foundations-iii/topic-3854/58f2c10ba7953618.png)
 
-Find $\dfrac{\textrm{d}y}{\textrm{d}x}$ for the polar curve $r =-2 \cos\theta,$ shown above.
+Find $\dfrac{\text{d}y}{\text{d}x}$ for the polar curve $r =-2 \cos\theta,$ shown above.
 
 #### Explanation
 
-To find $\dfrac{\textrm{d}y}{\textrm{d}x},$ we use the formula for differentiating parametric curves:
+To find $\dfrac{\text{d}y}{\text{d}x},$ we use the formula for differentiating parametric curves:
 
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x} = \dfrac{y'(\theta)}{x'(\theta)}
+\dfrac{\text{d}y}{\text{d}x} = \dfrac{y'(\theta)}{x'(\theta)}
 
 
 $$
@@ -191,12 +191,12 @@ x =5\cos\theta, \qquad y=5\sin\theta.
 
 $$
 
-Then, to find $\dfrac{\textrm{d}y}{\textrm{d}x}$ we use the rule
+Then, to find $\dfrac{\text{d}y}{\text{d}x}$ we use the rule
 
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x} = \dfrac{y'(\theta)}{x'(\theta)}.
+\dfrac{\text{d}y}{\text{d}x} = \dfrac{y'(\theta)}{x'(\theta)}.
 
 
 $$
@@ -216,7 +216,7 @@ Therefore,
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x} = \dfrac{ 5\cos\theta }{ -5\sin\theta} =-\cot\theta .
+\dfrac{\text{d}y}{\text{d}x} = \dfrac{ 5\cos\theta }{ -5\sin\theta} =-\cot\theta .
 
 
 $$

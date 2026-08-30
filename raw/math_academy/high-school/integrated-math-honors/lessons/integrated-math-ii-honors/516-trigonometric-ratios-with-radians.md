@@ -76,7 +76,7 @@ Note that we need the answer in radians. Using a calculator in "radians" mode, w
 $$
 
 
-\arcsin(0.75) = 0.848\,062\ldots \approx 0.848 \, \textrm{radians}
+\arcsin(0.75) = 0.848\,062\ldots \approx 0.848 \, \text{radians}
 
 
 $$
@@ -168,7 +168,7 @@ The statement is false. Converting $30^\circ$ from degrees to radians, we get
 $$
 
 
-30^\circ= 30\cdot \dfrac{\pi}{180} = \dfrac{\pi}{6} \, \textrm{radians}.
+30^\circ= 30\cdot \dfrac{\pi}{180} = \dfrac{\pi}{6} \, \text{radians}.
 
 
 $$

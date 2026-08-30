@@ -63,7 +63,7 @@ Note the following:
 
 ### Sum of Squares Within Groups
 
-The **sum of squares within groups,** denoted $\textrm{SSW},$ estimates how much the data points vary inside groups. To calculate it, we proceed as follows:
+The **sum of squares within groups,** denoted $\text{SSW},$ estimates how much the data points vary inside groups. To calculate it, we proceed as follows:
 
 - For each group, we sum the squared deviations of the data points from the sample mean of the group:
 
@@ -189,7 +189,7 @@ $$
 
 $$
 
-Finally, we can replace $(n_k-1)s_k^2$ in the $\textrm{SSW}$ summation:
+Finally, we can replace $(n_k-1)s_k^2$ in the $\text{SSW}$ summation:
 
 $$
 
@@ -269,7 +269,7 @@ As we will discuss in a future lesson, the relation between $\text{SSB}$ and $\t
 
 The sum of squares between groups estimates how much the groups' sample means differ from the sample mean of the entire sample (called the **grand sample mean**). We will denote the grand sample mean as $\overline{x}.$
 
-To calculate $\textrm{SSB},$ we proceed as follows:
+To calculate $\text{SSB},$ we proceed as follows:
 
 - For each group, we calculate the squared deviation of the group sample mean from the grand sample mean:
 

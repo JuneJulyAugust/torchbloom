@@ -122,4 +122,4 @@ If a graph is strongly connected, it's also unilaterally connected. But not the 
 
 First, let's write down the missing paths to the table.
 
-So, in our graph, there is a path between every pair of vertices $(v_i \to \ldots \to v_j)$ and its reverse $(v_j \to \ldots \to v_i).$ Therefore, the graph $G$ is $\boxed{\color{blue}\textrm{both strongly and unilaterally connected}}.$
+So, in our graph, there is a path between every pair of vertices $(v_i \to \ldots \to v_j)$ and its reverse $(v_j \to \ldots \to v_i).$ Therefore, the graph $G$ is $\boxed{\color{blue}\text{both strongly and unilaterally connected}}.$

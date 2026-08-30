@@ -82,7 +82,7 @@ Before we look at another example, you should note the following important point
 
 #### Question
 
-Approximate $\displaystyle \int_{1}^{\infty} \sqrt{2x}e^{-x^2} \, \textrm{d}x$ to three decimal places.
+Approximate $\displaystyle \int_{1}^{\infty} \sqrt{2x}e^{-x^2} \, \text{d}x$ to three decimal places.
 
 #### Explanation
 
@@ -103,7 +103,7 @@ We can stop now since the last two approximations were $0.225$ to $3$ decimal pl
 $$
 
 
-\int_{1}^{\infty} \sqrt{2x}e^{-x^2} \, \textrm{d}x \approx 0.225,
+\int_{1}^{\infty} \sqrt{2x}e^{-x^2} \, \text{d}x \approx 0.225,
 
 
 $$
@@ -154,7 +154,7 @@ rounded to $3$ decimal places.
 
 #### Question
 
-Approximate $\displaystyle \int_{-\infty}^{0} \dfrac{|x|^3}{2^{-x} + x} \, \textrm{d}x$ to $2$ decimal places.
+Approximate $\displaystyle \int_{-\infty}^{0} \dfrac{|x|^3}{2^{-x} + x} \, \text{d}x$ to $2$ decimal places.
 
 #### Explanation
 
@@ -179,7 +179,7 @@ We can stop now since the last two approximations were $33.18$ to $2$ decimal pl
 $$
 
 
-\int_{-\infty}^{0} \dfrac{|x|^3}{2^{-x} + x} \, \textrm{d}x \approx 33.18,
+\int_{-\infty}^{0} \dfrac{|x|^3}{2^{-x} + x} \, \text{d}x \approx 33.18,
 
 
 $$
@@ -193,7 +193,7 @@ Suppose we wish to evaluate the following improper integral to three decimal pla
 $$
 
 
-\displaystyle \int_{-\infty}^{\infty} e^{-x^2}\, \textrm{d}x\,.
+\displaystyle \int_{-\infty}^{\infty} e^{-x^2}\, \text{d}x\,.
 
 
 $$
@@ -211,7 +211,7 @@ We can stop now since the last two approximations were $1.772$ to $3$ decimal pl
 $$
 
 
-\int_{-\infty}^{\infty} e^{-x^2}\, \textrm{d}x \approx 1.772,
+\int_{-\infty}^{\infty} e^{-x^2}\, \text{d}x \approx 1.772,
 
 
 $$
@@ -222,7 +222,7 @@ rounded to $3$ decimal places.
 
 #### Question
 
-Use a calculator to approximate $\displaystyle \int_{-\infty}^{\infty} \dfrac{\ln(x^2+1)}{x^4 + 2} \, \textrm{d}x$ rounded to $2$ decimal places.
+Use a calculator to approximate $\displaystyle \int_{-\infty}^{\infty} \dfrac{\ln(x^2+1)}{x^4 + 2} \, \text{d}x$ rounded to $2$ decimal places.
 
 #### Explanation
 
@@ -245,7 +245,7 @@ Therefore,
 $$
 
 
-\int_{-\infty}^{\infty} \dfrac{\ln(x^2+1)}{x^4 + 2} \, \textrm{d}x \approx 0.73,
+\int_{-\infty}^{\infty} \dfrac{\ln(x^2+1)}{x^4 + 2} \, \text{d}x \approx 0.73,
 
 
 $$

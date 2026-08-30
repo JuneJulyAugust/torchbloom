@@ -38,7 +38,7 @@ To find the total moment of the plate about the axis, we add together the moment
 $$
 
 
-M_y = \iint\limits_D 6x^2y \: \textrm{d}A.
+M_y = \iint\limits_D 6x^2y \: \text{d}A.
 
 
 $$
@@ -48,7 +48,7 @@ Carrying out the integration, we find that the moment of the plate about the $y$
 $$
 
 
-\begin{aligned}𝑀_{𝑦} & =\underset{𝐷}{∬}6𝑥^{2}𝑦\,d𝐴 \\ & =∫_{21}^{}∫_{10}^{}6𝑥^{2}𝑦\,d𝑦\,d𝑥 \\ & =∫_{21}^{}3𝑥^{2}\,d𝑥⋅∫_{10}^{}2𝑦\,d𝑦 \\ & =[𝑥^{3}]_{𝑥=2𝑥=1}^{}⋅[𝑦^{2}]_{𝑦=1𝑦=0}^{} \\ & =(8−1)⋅(1−0) \\ & =7.\end{aligned}
+\begin{aligned}𝑀_{𝑦} & =\underset{𝐷}{∬}6𝑥^{2}𝑦\,d𝐴 \\ & =∫_{21}∫_{10}6𝑥^{2}𝑦\,d𝑦\,d𝑥 \\ & =∫_{21}3𝑥^{2}\,d𝑥⋅∫_{10}2𝑦\,d𝑦 \\ & =[𝑥^{3}]_{𝑥=2𝑥=1}⋅[𝑦^{2}]_{𝑦=1𝑦=0} \\ & =(8−1)⋅(1−0) \\ & =7.\end{aligned}
 
 
 $$
@@ -98,7 +98,7 @@ The moment of a lamina $D$ with the mass density function $\lambda(x,y)$ about t
 $$
 
 
-M_y = \iint\limits_D x \, \lambda(x,y) \: \textrm{d}A.
+M_y = \iint\limits_D x \, \lambda(x,y) \: \text{d}A.
 
 
 $$
@@ -110,7 +110,7 @@ Therefore, the moment is
 $$
 
 
-\begin{aligned}𝑀_{𝑦} & =\underset{𝐷}{∬}𝑥⋅𝑥^{2}𝑦\,d𝐴 \\ & =\underset{𝐷}{∬}𝑥^{3}𝑦\,d𝐴 \\ & =∫_{10}^{}∫_{𝑦0}^{}𝑥^{3}𝑦\,d𝑥\,d𝑦 \\ & =∫_{10}^{}𝑦[∫_{𝑦0}^{}𝑥^{3}\,d𝑥]\,d𝑦 \\ & =∫_{10}^{}𝑦⋅[\frac{𝑥^{4}}{4}]_{𝑥=𝑦𝑥=0}^{}\,d𝑦 \\ & =∫_{10}^{}𝑦⋅\frac{𝑦^{4}}{4}\,d𝑦 \\ & =∫_{10}^{}\frac{𝑦^{5}}{4}\,d𝑦 \\ & =[\frac{𝑦^{6}}{24}]_{𝑦=1𝑦=0}^{} \\ & =\frac{1}{24}.\end{aligned}
+\begin{aligned}𝑀_{𝑦} & =\underset{𝐷}{∬}𝑥⋅𝑥^{2}𝑦\,d𝐴 \\ & =\underset{𝐷}{∬}𝑥^{3}𝑦\,d𝐴 \\ & =∫_{10}∫_{𝑦0}𝑥^{3}𝑦\,d𝑥\,d𝑦 \\ & =∫_{10}𝑦[∫_{𝑦0}𝑥^{3}\,d𝑥]\,d𝑦 \\ & =∫_{10}𝑦⋅[\frac{𝑥^{4}}{4}]_{𝑥=𝑦𝑥=0}\,d𝑦 \\ & =∫_{10}𝑦⋅\frac{𝑦^{4}}{4}\,d𝑦 \\ & =∫_{10}\frac{𝑦^{5}}{4}\,d𝑦 \\ & =[\frac{𝑦^{6}}{24}]_{𝑦=1𝑦=0} \\ & =\frac{1}{24}.\end{aligned}
 
 
 $$
@@ -131,11 +131,11 @@ $$
 
 where
 
-- $\displaystyle m = \iint \limits_D \lambda (x,y) \: \textrm{d}A$ is the mass of the lamina,
+- $\displaystyle m = \iint \limits_D \lambda (x,y) \: \text{d}A$ is the mass of the lamina,
 
-- $\displaystyle M_x = \iint\limits_D y \, \lambda (x,y) \: \textrm{d}A\:$ is the moment of the lamina about the $x$-axis, and
+- $\displaystyle M_x = \iint\limits_D y \, \lambda (x,y) \: \text{d}A\:$ is the moment of the lamina about the $x$-axis, and
 
-- $\displaystyle M_y = \iint\limits_D x \, \lambda (x,y) \: \textrm{d}A$ is the moment of the lamina about the $y$-axis.
+- $\displaystyle M_y = \iint\limits_D x \, \lambda (x,y) \: \text{d}A$ is the moment of the lamina about the $y$-axis.
 
 Remember that if we could place a fulcrum under our lamina at its center of mass, it would balance perfectly.
 
@@ -159,11 +159,11 @@ $$
 
 where
 
-- $\displaystyle m = \iint \limits_D \lambda (x,y) \: \textrm{d}A$ is the mass of the lamina,
+- $\displaystyle m = \iint \limits_D \lambda (x,y) \: \text{d}A$ is the mass of the lamina,
 
-- $\displaystyle M_x = \iint\limits_D y \, \lambda (x,y) \: \textrm{d}A$ is the moment of the lamina about the $x$-axis, and
+- $\displaystyle M_x = \iint\limits_D y \, \lambda (x,y) \: \text{d}A$ is the moment of the lamina about the $x$-axis, and
 
-- $\displaystyle M_y = \iint\limits_D x \, \lambda (x,y) \: \textrm{d}A$ is the moment of the lamina about the $y$-axis.
+- $\displaystyle M_y = \iint\limits_D x \, \lambda (x,y) \: \text{d}A$ is the moment of the lamina about the $y$-axis.
 
 Notice that $D$ is a type I plane region:
 
@@ -186,7 +186,7 @@ Since we require the $y$-coordinate of the center of mass, we need to compute th
 $$
 
 
-\begin{aligned}𝑀_{𝑥} & =\underset{𝐷}{∬}𝑦\,𝜆(𝑥,𝑦)\,d𝐴 \\ & =\underset{𝐷}{∬}𝑦⋅(𝑥+𝑦)\,d𝐴 \\ & =\underset{𝐷}{∬}𝑥𝑦+𝑦^{2}\,d𝐴 \\ & =∫_{10}^{}∫_{𝑥0}^{}𝑥𝑦+𝑦^{2}\,d𝑦\,d𝑥 \\ & =∫_{10}^{}[\frac{𝑥𝑦^{2}}{2}+\frac{𝑦^{3}}{3}]_{𝑦=𝑥𝑦=0}^{}\,d𝑥 \\ & =∫_{10}^{}(\frac{𝑥^{3}}{2}+\frac{𝑥^{3}}{3})\,d𝑥 \\ & =\frac{5}{6}∫_{10}^{}𝑥^{3}\,d𝑥 \\ & =\frac{5}{6}[\frac{1}{4}𝑥^{4}]_{𝑥=1𝑥=0}^{} \\ & =\frac{5}{6}(\frac{1}{4}−0) \\ & =\frac{5}{24}\end{aligned}
+\begin{aligned}𝑀_{𝑥} & =\underset{𝐷}{∬}𝑦\,𝜆(𝑥,𝑦)\,d𝐴 \\ & =\underset{𝐷}{∬}𝑦⋅(𝑥+𝑦)\,d𝐴 \\ & =\underset{𝐷}{∬}𝑥𝑦+𝑦^{2}\,d𝐴 \\ & =∫_{10}∫_{𝑥0}𝑥𝑦+𝑦^{2}\,d𝑦\,d𝑥 \\ & =∫_{10}[\frac{𝑥𝑦^{2}}{2}+\frac{𝑦^{3}}{3}]_{𝑦=𝑥𝑦=0}\,d𝑥 \\ & =∫_{10}(\frac{𝑥^{3}}{2}+\frac{𝑥^{3}}{3})\,d𝑥 \\ & =\frac{5}{6}∫_{10}𝑥^{3}\,d𝑥 \\ & =\frac{5}{6}[\frac{1}{4}𝑥^{4}]_{𝑥=1𝑥=0} \\ & =\frac{5}{6}(\frac{1}{4}−0) \\ & =\frac{5}{24}\end{aligned}
 
 
 $$
@@ -242,7 +242,7 @@ In general, the centroid of a lamina $D$ with area $A_D$ is given by $(x_c, y_c)
 $$
 
 
-\displaystyle x_c = \dfrac{1}{A_D} \iint\limits_D x \, \: \textrm{d}A, \qquad \displaystyle y_c = \dfrac{1}{A_D} \iint\limits_D y \, \: \textrm{d}A.
+\displaystyle x_c = \dfrac{1}{A_D} \iint\limits_D x \, \: \text{d}A, \qquad \displaystyle y_c = \dfrac{1}{A_D} \iint\limits_D y \, \: \text{d}A.
 
 
 $$
@@ -260,7 +260,7 @@ The centroid of a lamina $D$ with area $A_D$ is given by $(x_c, y_c),$ where
 $$
 
 
-\displaystyle x_c = \dfrac{1}{A_D} \iint\limits_D x \, \: \textrm{d}A, \qquad \displaystyle y_c = \dfrac{1}{A_D} \iint\limits_D y \, \: \textrm{d}A.
+\displaystyle x_c = \dfrac{1}{A_D} \iint\limits_D x \, \: \text{d}A, \qquad \displaystyle y_c = \dfrac{1}{A_D} \iint\limits_D y \, \: \text{d}A.
 
 
 $$
@@ -294,7 +294,7 @@ Therefore, the $x$-coordinate of the centroid is
 $$
 
 
-\begin{aligned}𝑥_{𝑐} & =\frac{1}{𝐴_{𝐷}}\underset{𝐷}{∬}𝑥\,d𝐴 \\ & =\frac{2}{𝜋}∫_{1−1}^{}∫_{\sqrt{√1−𝑦^{2}}0}^{}𝑥\,d𝑥\,d𝑦 \\ & =\frac{2}{𝜋}∫_{1−1}^{}[\frac{𝑥^{2}}{2}]_{𝑥=\sqrt{√1−𝑦^{2}}𝑥=0}^{}\,d𝑦 \\ & =\frac{2}{𝜋}∫_{1−1}^{}\frac{1−𝑦^{2}}{2}\,d𝑦 \\ & =\frac{1}{𝜋}∫_{1−1}^{}1−𝑦^{2}\,d𝑦 \\ & =\frac{1}{𝜋}[𝑦−\frac{𝑦^{3}}{3}]_{1−1}^{} \\ & =\frac{1}{𝜋}[(1−\frac{1}{3})−(−1+\frac{1}{3})] \\ & =\frac{1}{𝜋}⋅\frac{4}{3} \\ & =\frac{4}{3𝜋}.\end{aligned}
+\begin{aligned}𝑥_{𝑐} & =\frac{1}{𝐴_{𝐷}}\underset{𝐷}{∬}𝑥\,d𝐴 \\ & =\frac{2}{𝜋}∫_{1−1}∫_{\sqrt{1−𝑦^{2}}0}^{}𝑥\,d𝑥\,d𝑦 \\ & =\frac{2}{𝜋}∫_{1−1}[\frac{𝑥^{2}}{2}]_{𝑥=\sqrt{1−𝑦^{2}}𝑥=0}^{}\,d𝑦 \\ & =\frac{2}{𝜋}∫_{1−1}\frac{1−𝑦^{2}}{2}\,d𝑦 \\ & =\frac{1}{𝜋}∫_{1−1}1−𝑦^{2}\,d𝑦 \\ & =\frac{1}{𝜋}[𝑦−\frac{𝑦^{3}}{3}]_{1−1} \\ & =\frac{1}{𝜋}[(1−\frac{1}{3})−(−1+\frac{1}{3})] \\ & =\frac{1}{𝜋}⋅\frac{4}{3} \\ & =\frac{4}{3𝜋}.\end{aligned}
 
 
 $$

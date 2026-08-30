@@ -160,7 +160,7 @@ $$
 
 
 
-\begin{aligned}𝑁 & =\frac{−4±\sqrt{√4^{2}−4⋅1⋅(−140)}}{2⋅1} \\ & =\frac{−4±\sqrt{√576}}{2} \\ & =\frac{−4±24}{2}.\end{aligned}
+\begin{aligned}𝑁 & =\frac{−4±\sqrt{4^{2}−4⋅1⋅(−140)}}{2⋅1} \\ & =\frac{−4±\sqrt{576}}{2} \\ & =\frac{−4±24}{2}.\end{aligned}
 
 
 
@@ -232,7 +232,7 @@ $$
 
 
 
-\begin{aligned}𝑁 & =\frac{−(11)±\sqrt{√(−11)^{2}−4⋅5⋅(−3400)}}{2⋅5} \\ & =\frac{−11±\sqrt{√68\,121}}{10} \\ & =\frac{−11±261}{10}.\end{aligned}
+\begin{aligned}𝑁 & =\frac{−(11)±\sqrt{(−11)^{2}−4⋅5⋅(−3400)}}{2⋅5} \\ & =\frac{−11±\sqrt{68\,121}}{10} \\ & =\frac{−11±261}{10}.\end{aligned}
 
 
 

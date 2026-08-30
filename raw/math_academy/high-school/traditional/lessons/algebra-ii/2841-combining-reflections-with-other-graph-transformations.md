@@ -39,13 +39,13 @@ We can also combine reflections with other graph transformations. Let's see how.
 
 The graph of $y=-f(x-2)+3,$ can be obtained from the graph of $y=f(x)$ by applying **** of the following transformations:
 
-- $(\textrm{T}1)$ - Translation by $3$ units up
+- $(\text{T}1)$ - Translation by $3$ units up
 
-- $(\textrm{T}2)$ - Reflection across the $x$-axis
+- $(\text{T}2)$ - Reflection across the $x$-axis
 
-- $(\textrm{T}3)$ - Translation by $2$ units to the right
+- $(\text{T}3)$ - Translation by $2$ units to the right
 
-- $(\textrm{T}4)$ - Translation by $2$ units to the left
+- $(\text{T}4)$ - Translation by $2$ units to the left
 
 What could be a possible ordering of the appropriate transformations?
 
@@ -61,15 +61,15 @@ To get $y=-f(x-2)+3,$ we could apply the following steps:
 
 - Take the curve $y=f(x).$
 
-- Apply transformation $(\textrm{T}3)\mathbin{:}$ Translate $y=f(x)$ by $2$ units to the right to get the graph of
+- Apply transformation $(\text{T}3)\mathbin{:}$ Translate $y=f(x)$ by $2$ units to the right to get the graph of
 
-- Apply transformation $(\textrm{T}2)\mathbin{:}$ Reflect $y=f(x-2)$ across the $x$-axis to get the graph of
+- Apply transformation $(\text{T}2)\mathbin{:}$ Reflect $y=f(x-2)$ across the $x$-axis to get the graph of
 
-- Apply transformation $(\textrm{T}1)\mathbin{:}$ Translate $y=-f(x-2)$ by $3$ units up to get the graph of
+- Apply transformation $(\text{T}1)\mathbin{:}$ Translate $y=-f(x-2)$ by $3$ units up to get the graph of
 
 Therefore, a possible order of transformations is
 
-$\qquad$ $(\textrm{T}3) \to (\textrm{T}2) \to (\textrm{T}1).$
+$\qquad$ $(\text{T}3) \to (\text{T}2) \to (\text{T}1).$
 
 ### Example: Identifying Graph Transformations Resulting From Reflections With Shifting
 

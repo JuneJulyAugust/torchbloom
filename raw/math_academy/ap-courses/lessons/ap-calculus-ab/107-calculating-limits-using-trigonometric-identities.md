@@ -21,7 +21,7 @@ Suppose that we want to calculate the following limit:
 $$
 
 
-\lim_\limits{x\to \pi/2}\dfrac{\sin{2x}}{2\cos{x}}
+\lim\limits_{x\to \pi/2}\dfrac{\sin{2x}}{2\cos{x}}
 
 
 $$
@@ -64,7 +64,7 @@ In other cases, we may need to use a different trigonometric identity.
 
 #### Question
 
-$\lim_\limits{x\to \pi/4}\dfrac{\sin^2{x}-\cos^2{x}}{2\sin{x}\cos{2x}}=$
+$\lim\limits_{x\to \pi/4}\dfrac{\sin^2{x}-\cos^2{x}}{2\sin{x}\cos{2x}}=$
 
 #### Explanation
 
@@ -73,7 +73,7 @@ If we attempt to evaluate this limit directly, we get an indeterminate form:
 $$
 
 
-\begin{aligned}\underset{𝑥→𝜋/4}{lim}\frac{sin^{2}⁡𝑥−cos^{2}⁡𝑥}{2sin⁡𝑥cos⁡2𝑥} & =\frac{sin^{2}⁡(\frac{𝜋}{4})−cos^{2}⁡(\frac{𝜋}{4})}{4} \\ & =\frac{1−1}{\sqrt{√2}cos⁡(\frac{𝜋}{2})} \\ & =\frac{0}{0}\end{aligned}
+\begin{aligned}\underset{𝑥→𝜋/4}{lim}\frac{sin^{2}⁡𝑥−cos^{2}⁡𝑥}{2sin⁡𝑥cos⁡2𝑥} & =\frac{sin^{2}⁡(\frac{𝜋}{4})−cos^{2}⁡(\frac{𝜋}{4})}{4} \\ & =\frac{1−1}{\sqrt{2}cos⁡(\frac{𝜋}{2})} \\ & =\frac{0}{0}\end{aligned}
 
 
 $$
@@ -93,7 +93,7 @@ Using the double angle formula above, we have
 $$
 
 
-\begin{aligned}\underset{𝑥→𝜋/4}{lim}\frac{sin^{2}⁡𝑥−cos^{2}⁡𝑥}{2sin⁡𝑥cos⁡2𝑥} & =\underset{𝑥→𝜋/4}{lim}\frac{sin^{2}⁡𝑥−cos^{2}⁡𝑥}{2sin⁡𝑥(cos^{2}⁡𝑥−sin^{2}⁡𝑥)} \\ & =\underset{𝑥→𝜋/4}{lim}\frac{−(cos^{2}⁡𝑥−sin^{2}⁡𝑥)}{2sin⁡𝑥(cos^{2}⁡𝑥−sin^{2}⁡𝑥)} \\ & =\underset{𝑥→𝜋/4}{lim}(−\frac{1}{2sin⁡𝑥}) \\ & =−\frac{1}{\sqrt{√2}} \\ & =−\frac{\sqrt{√2}}{2}.\end{aligned}
+\begin{aligned}\underset{𝑥→𝜋/4}{lim}\frac{sin^{2}⁡𝑥−cos^{2}⁡𝑥}{2sin⁡𝑥cos⁡2𝑥} & =\underset{𝑥→𝜋/4}{lim}\frac{sin^{2}⁡𝑥−cos^{2}⁡𝑥}{2sin⁡𝑥(cos^{2}⁡𝑥−sin^{2}⁡𝑥)} \\ & =\underset{𝑥→𝜋/4}{lim}\frac{−(cos^{2}⁡𝑥−sin^{2}⁡𝑥)}{2sin⁡𝑥(cos^{2}⁡𝑥−sin^{2}⁡𝑥)} \\ & =\underset{𝑥→𝜋/4}{lim}(−\frac{1}{2sin⁡𝑥}) \\ & =−\frac{1}{\sqrt{2}} \\ & =−\frac{\sqrt{2}}{2}.\end{aligned}
 
 
 $$
@@ -102,7 +102,7 @@ $$
 
 #### Question
 
-Evaluate $\lim_\limits{x\to 0}\dfrac{1-\cos x}{3\sin^2\left(\dfrac{x}{2}\right)}.$
+Evaluate $\lim\limits_{x\to 0}\dfrac{1-\cos x}{3\sin^2\left(\dfrac{x}{2}\right)}.$
 
 #### Explanation
 
@@ -140,7 +140,7 @@ $$
 
 #### Question
 
-$\lim_\limits{x\to (-\pi/2)}\dfrac{\cos^2x}{1+\sin x}=$
+$\lim\limits_{x\to (-\pi/2)}\dfrac{\cos^2x}{1+\sin x}=$
 
 #### Explanation
 
@@ -178,7 +178,7 @@ $$
 
 #### Question
 
-Evaluate $\lim_\limits{x\to 0}\dfrac{\sec x-1}{7\tan^2x}.$
+Evaluate $\lim\limits_{x\to 0}\dfrac{\sec x-1}{7\tan^2x}.$
 
 #### Explanation
 

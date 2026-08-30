@@ -22,20 +22,20 @@ x=\big\{ x_1,x_2, \ldots, x_n \big\}, \qquad y=\big\{ y_1,y_2, \ldots, y_n \big\
 
 $$
 
-the **covariance** between $x$ and $y,$ denoted by $\textrm{Cov}(x,y),$ is a measure that evaluates the extent to which $x$ and $y$ change together.
+the **covariance** between $x$ and $y,$ denoted by $\text{Cov}(x,y),$ is a measure that evaluates the extent to which $x$ and $y$ change together.
 
 - A positive covariance means that if $x$ increases, then $y$ is also likely to increase:
 
 - A negative covariance means that if $x$ increases, then $y$ is likely to decrease:
 
-- A covariance of zero (or close to zero) indicates that there is no *linear* relationship between $x$ and $y.$ **Watch Out!** A covariance of zero does *not* mean that $x$ and $y$ are not related. It simply means the relationship between them is not linear. To illustrate, consider the image below. The (nonlinear) relationship shown above is $y=x^2.$ However, it can be shown that $\textrm{Cov}(x,y) = 0$ for this data set.
+- A covariance of zero (or close to zero) indicates that there is no *linear* relationship between $x$ and $y.$ **Watch Out!** A covariance of zero does *not* mean that $x$ and $y$ are not related. It simply means the relationship between them is not linear. To illustrate, consider the image below. The (nonlinear) relationship shown above is $y=x^2.$ However, it can be shown that $\text{Cov}(x,y) = 0$ for this data set.
 
-To calculate $\textrm{Cov}(x,y),$ we use the following formula:
+To calculate $\text{Cov}(x,y),$ we use the following formula:
 
 $$
 
 
-\textrm{Cov}(x,y) = \dfrac{1}{n} \sum\limits_{i=1}^n (x_i - \overline{x})(y_i - \overline{y}),
+\text{Cov}(x,y) = \dfrac{1}{n} \sum\limits_{i=1}^n (x_i - \overline{x})(y_i - \overline{y}),
 
 
 $$
@@ -48,7 +48,7 @@ where $\overline{x}$ and $\overline{y}$ denote the means of $x$ and $y$ respecti
 
 #### Question
 
-Calculate $\textrm{Cov}(x,y)$ for the following data sets:
+Calculate $\text{Cov}(x,y)$ for the following data sets:
 
 $$
 
@@ -65,7 +65,7 @@ The (population) covariance of the data sets $x=\big\{x_1,x_2, \ldots, x_n \big\
 $$
 
 
-\textrm{Cov}(x,y) = \dfrac{1}{n} \sum\limits_{i=1}^n (x_i - \overline{x})(y_i - \overline{y}),
+\text{Cov}(x,y) = \dfrac{1}{n} \sum\limits_{i=1}^n (x_i - \overline{x})(y_i - \overline{y}),
 
 
 $$
@@ -105,7 +105,7 @@ The (population) covariance of the data sets $x=\big\{x_1,x_2, \ldots, x_n \big\
 $$
 
 
-\textrm{Cov}(x,y) = \dfrac{1}{n} \sum\limits_{i=1}^n (x_i - \overline{x})(y_i - \overline{y}),
+\text{Cov}(x,y) = \dfrac{1}{n} \sum\limits_{i=1}^n (x_i - \overline{x})(y_i - \overline{y}),
 
 
 $$
@@ -141,7 +141,7 @@ is given by
 $$
 
 
-\textrm{Cov}(x,y) = \dfrac{1}{n} \sum\limits_{i=1}^n (x_i - \overline{x})(y_i - \overline{y}).
+\text{Cov}(x,y) = \dfrac{1}{n} \sum\limits_{i=1}^n (x_i - \overline{x})(y_i - \overline{y}).
 
 
 $$

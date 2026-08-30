@@ -19,14 +19,14 @@ The **work done by the force** $F=F(x)$ in moving a particle from the position $
 $$
 
 
-W = \int_{x_1}^{x_2} F(x) \,\textrm{d}x.
+W = \int_{x_1}^{x_2} F(x) \,\text{d}x.
 
 
 $$
 
-When the force and distance are measured in Newtons ($\textrm{N}$) and meters ($\textrm{m}$), respectively, the work done by the force is measured in Joules ($\rm{J}$).
+When the force and distance are measured in Newtons ($\text{N}$) and meters ($\text{m}$), respectively, the work done by the force is measured in Joules ($\rm{J}$).
 
-For example, suppose a particle $P$ is moving along the $x$-axis under the action of a force of magnitude $4x^3\,\textrm{N},$ acting in the direction of increasing $x,$ as shown below. Distances along the $x$-axis are measured in meters.
+For example, suppose a particle $P$ is moving along the $x$-axis under the action of a force of magnitude $4x^3\,\text{N},$ acting in the direction of increasing $x,$ as shown below. Distances along the $x$-axis are measured in meters.
 
 ![Instructional graphic](../../../lesson-assets/mathematical-methods-for-the-physical-sciences-ii/topic-3687/b284bf730b9d8544.png)
 
@@ -37,7 +37,7 @@ Substituting the given values into our formula, we obtain
 $$
 
 
-\begin{aligned}𝑊 & =∫_{21}^{}4𝑥^{3}\,d𝑥 \\ & =𝑥^{4}\,_{21}^{} \\ & =16−1 \\ & =15\,J.\end{aligned}
+\begin{aligned}𝑊 & =∫_{21}4𝑥^{3}\,d𝑥 \\ & =𝑥^{4}\,_{21} \\ & =16−1 \\ & =15\,J.\end{aligned}
 
 
 $$
@@ -59,7 +59,7 @@ The work done by a force $F=F(x)$ in moving a particle from $x=x_1$ to $x=x_2$ i
 $$
 
 
-W = \int_{x_1}^{x_2} F(x) \,\textrm{d}x.
+W = \int_{x_1}^{x_2} F(x) \,\text{d}x.
 
 
 $$
@@ -81,7 +81,7 @@ Now, substituting the known values into our integral, we obtain
 $$
 
 
-\begin{aligned}𝑊 & =∫_{20}^{}(3+6𝑥^{2})\,d𝑥 \\ & =[3𝑥+2𝑥^{3}]_{20}^{} \\ & =3(2)+2(2^{3})−(3(0)+2(0^{3})) \\ & =6+16−0 \\ & =22\,J.\end{aligned}
+\begin{aligned}𝑊 & =∫_{20}(3+6𝑥^{2})\,d𝑥 \\ & =[3𝑥+2𝑥^{3}]_{20} \\ & =3(2)+2(2^{3})−(3(0)+2(0^{3})) \\ & =6+16−0 \\ & =22\,J.\end{aligned}
 
 
 $$
@@ -205,7 +205,7 @@ Therefore, the change in kinetic energy of the particle between these times is
 $$
 
 
-\begin{aligned}Δ\,KE & =\frac{1}{2}𝑚𝑣_{21}^{}−\frac{1}{2}𝑚𝑣_{20}^{} \\ & =\frac{1}{2}⋅2⋅10^{2}−\frac{1}{2}⋅2⋅3^{2} \\ & =100−9 \\ & =91\,J.\end{aligned}
+\begin{aligned}Δ\,KE & =\frac{1}{2}𝑚𝑣_{21}−\frac{1}{2}𝑚𝑣_{20} \\ & =\frac{1}{2}⋅2⋅10^{2}−\frac{1}{2}⋅2⋅3^{2} \\ & =100−9 \\ & =91\,J.\end{aligned}
 
 
 $$
@@ -339,7 +339,7 @@ First, we calculate the work done by the force in moving the particle from $x=2$
 $$
 
 
-\begin{aligned}𝑊 & =∫_{𝑥_{2}𝑥_{1}}^{}𝐹(𝑥)\,d𝑥 \\ & =∫_{42}^{}(𝑥+3)\,d𝑥 \\ & =[\frac{𝑥^{2}}{2}+3𝑥]_{42}^{} \\ & =(8+12)−(2+6) \\ & =12\,J\end{aligned}
+\begin{aligned}𝑊 & =∫_{𝑥_{2}𝑥_{1}}^{}𝐹(𝑥)\,d𝑥 \\ & =∫_{42}(𝑥+3)\,d𝑥 \\ & =[\frac{𝑥^{2}}{2}+3𝑥]_{42} \\ & =(8+12)−(2+6) \\ & =12\,J\end{aligned}
 
 
 $$
@@ -349,7 +349,7 @@ The particle has velocity $v=2\,\rm{m/s}$ at $x=2.$ So, we can find the velocity
 $$
 
 
-\begin{aligned}𝑊 & =\frac{1}{2}𝑚𝑣_{21}^{}−\frac{1}{2}𝑚𝑣_{20}^{} \\ 12 & =\frac{1}{2}⋅2⋅𝑣_{21}^{}−\frac{1}{2}⋅2⋅2^{2} \\ 12 & =𝑣_{21}^{}−4 \\ 𝑣_{21}^{} & =16 \\ 𝑣_{1} & =±4.\end{aligned}
+\begin{aligned}𝑊 & =\frac{1}{2}𝑚𝑣_{21}−\frac{1}{2}𝑚𝑣_{20} \\ 12 & =\frac{1}{2}⋅2⋅𝑣_{21}−\frac{1}{2}⋅2⋅2^{2} \\ 12 & =𝑣_{21}−4 \\ 𝑣_{21} & =16 \\ 𝑣_{1} & =±4.\end{aligned}
 
 
 $$

@@ -38,7 +38,7 @@ To find the net change in volume, we integrate $r(t)$ between the two limits. Th
 $$
 
 
-\begin{aligned}∫_{21}^{}600𝑒^{−3𝑡}\,d𝑡 & =−\frac{600}{3}𝑒^{−3𝑡}_{21}^{} \\ & =−200𝑒^{−3𝑡}_{21}^{} \\ & =−200(𝑒^{−6}−𝑒^{−3}) \\ & =200(𝑒^{−3}−𝑒^{−6}) \\ & =200𝑒^{−6}(𝑒^{3}−1)\end{aligned}
+\begin{aligned}∫_{21}600𝑒^{−3𝑡}\,d𝑡 & =−\frac{600}{3}𝑒^{−3𝑡}_{21} \\ & =−200𝑒^{−3𝑡}_{21} \\ & =−200(𝑒^{−6}−𝑒^{−3}) \\ & =200(𝑒^{−3}−𝑒^{−6}) \\ & =200𝑒^{−6}(𝑒^{3}−1)\end{aligned}
 
 
 $$
@@ -72,7 +72,7 @@ People are entering the mall at a rate of $r(t) = 300t^2+50.$ To find out how ma
 $$
 
 
-\begin{aligned}∫_{20}^{}𝑟(𝑡)\,d𝑡 & =∫_{20}^{}300𝑡^{2}+50\,d𝑡 \\ & =100𝑡^{3}+50𝑡_{20}^{} \\ & =(100⋅2^{3}+50(2))−(0) \\ & =(800+100) \\ & =900\end{aligned}
+\begin{aligned}∫_{20}𝑟(𝑡)\,d𝑡 & =∫_{20}300𝑡^{2}+50\,d𝑡 \\ & =100𝑡^{3}+50𝑡_{20} \\ & =(100⋅2^{3}+50(2))−(0) \\ & =(800+100) \\ & =900\end{aligned}
 
 
 $$
@@ -94,7 +94,7 @@ To find the **** in the number of people, we integrate $R(t)$ between $t=0$ and 
 $$
 
 
-\begin{aligned}∫_{20}^{}𝑅(𝑡)\,d𝑡 & =∫_{20}^{}𝑟(𝑡)−25\,d𝑡 \\ & =\underset{900}{\underset{}{∫_{20}^{}𝑟(𝑡)\,d𝑡}}−∫_{20}^{}25\,d𝑡 \\ & =900−[25𝑡]_{20}^{} \\ & =900−50 \\ & =850\end{aligned}
+\begin{aligned}∫_{20}𝑅(𝑡)\,d𝑡 & =∫_{20}𝑟(𝑡)−25\,d𝑡 \\ & =\underset{900}{\underset{}{∫_{20}𝑟(𝑡)\,d𝑡}}−∫_{20}25\,d𝑡 \\ & =900−[25𝑡]_{20} \\ & =900−50 \\ & =850\end{aligned}
 
 
 $$
@@ -112,7 +112,7 @@ We already know that the **rate of change** in the number of people is $R(t).$ T
 $$
 
 
-\begin{aligned}𝑇(𝑡) & =𝑇(0)+∫_{𝑡0}^{}𝑅(𝑥)\,d𝑥 \\ & =𝑇(0)+∫_{𝑡0}^{}𝑟(𝑥)−25\,d𝑥\end{aligned}
+\begin{aligned}𝑇(𝑡) & =𝑇(0)+∫_{𝑡0}𝑅(𝑥)\,d𝑥 \\ & =𝑇(0)+∫_{𝑡0}𝑟(𝑥)−25\,d𝑥\end{aligned}
 
 
 $$
@@ -124,7 +124,7 @@ To work out how many people are inside the mall at $t=2,$ we substitute $t=2$ in
 $$
 
 
-\begin{aligned}𝑇(2) & =𝑇(0)+∫_{20}^{}𝑟(𝑥)−25\,d𝑥 \\ & =2\,000+\underset{850}{\underset{}{∫_{20}^{}𝑟(𝑥)−25\,d𝑥}} \\ & =2\,000+850 \\ & =2\,850\end{aligned}
+\begin{aligned}𝑇(2) & =𝑇(0)+∫_{20}𝑟(𝑥)−25\,d𝑥 \\ & =2\,000+\underset{850}{\underset{}{∫_{20}𝑟(𝑥)−25\,d𝑥}} \\ & =2\,000+850 \\ & =2\,850\end{aligned}
 
 
 $$
@@ -162,7 +162,7 @@ To find the **** after $t$ hours (call it $T(t)$), we apply the second fundament
 $$
 
 
-\begin{aligned}𝑇(𝑡) & =𝑇(0)+∫_{𝑡0}^{}𝑅(𝑥)\,d𝑥 \\ & =50+∫_{𝑡0}^{}(6𝑥^{2}−4)\,d𝑥\end{aligned}
+\begin{aligned}𝑇(𝑡) & =𝑇(0)+∫_{𝑡0}𝑅(𝑥)\,d𝑥 \\ & =50+∫_{𝑡0}(6𝑥^{2}−4)\,d𝑥\end{aligned}
 
 
 $$
@@ -174,7 +174,7 @@ To find out the number of guests after $1$ hour, we substitute $t=1$ into the ab
 $$
 
 
-\begin{aligned}𝑇(1) & =50+∫_{10}^{}(6𝑥^{2}−4)\,d𝑥 \\ & =50+[2𝑥^{3}−4𝑥]_{10}^{} \\ & =50+[(2(1)^{3}−4(1))−(0)] \\ & =50−2 \\ & =48\end{aligned}
+\begin{aligned}𝑇(1) & =50+∫_{10}(6𝑥^{2}−4)\,d𝑥 \\ & =50+[2𝑥^{3}−4𝑥]_{10} \\ & =50+[(2(1)^{3}−4(1))−(0)] \\ & =50−2 \\ & =48\end{aligned}
 
 
 $$
@@ -204,7 +204,7 @@ Differentiating $T(t)$ with respect to $t$ gives:
 $$
 
 
-\begin{aligned}\frac{d𝑇}{d𝑡} & =\frac{d}{d𝑡}(50+∫_{𝑡0}^{}(6𝑥^{2}−4)\,d𝑥) \\ & =\frac{d}{d𝑡}(50)+\frac{d}{d𝑡}∫_{𝑡0}^{}(6𝑥^{2}−4)\,d𝑥 \\ & =\frac{d}{d𝑡}∫_{𝑡0}^{}(6𝑥^{2}−4)\,d𝑥 \\ & =6𝑡^{2}−4\end{aligned}
+\begin{aligned}\frac{d𝑇}{d𝑡} & =\frac{d}{d𝑡}(50+∫_{𝑡0}(6𝑥^{2}−4)\,d𝑥) \\ & =\frac{d}{d𝑡}(50)+\frac{d}{d𝑡}∫_{𝑡0}(6𝑥^{2}−4)\,d𝑥 \\ & =\frac{d}{d𝑡}∫_{𝑡0}(6𝑥^{2}−4)\,d𝑥 \\ & =6𝑡^{2}−4\end{aligned}
 
 
 $$

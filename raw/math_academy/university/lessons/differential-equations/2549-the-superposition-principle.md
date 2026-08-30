@@ -69,7 +69,7 @@ We can easily check that these are solutions by substituting them into the equat
 $$
 
 
-\begin{aligned}𝑦_{″1}^{}+16𝑦_{1} & =0 \\ (cos⁡4𝑥)^{″}+16cos⁡4𝑥 & =0 \\ (−4sin⁡4𝑥)^{′}+16cos⁡4𝑥 & =0 \\ −16cos⁡4𝑥+16cos⁡4𝑥 & =0 \\ 0 & =0\,✓ \\ 𝑦_{″2}^{}+16𝑦_{2} & =0 \\ (sin⁡4𝑥)^{″}+16sin⁡4𝑥 & =0 \\ (4cos⁡4𝑥)^{′}+16sin⁡4𝑥 & =0 \\ −16sin⁡4𝑥+16sin⁡4𝑥 & =0 \\ 0 & =0\,✓\end{aligned}
+\begin{aligned}𝑦_{″1}+16𝑦_{1} & =0 \\ (cos⁡4𝑥)^{″}+16cos⁡4𝑥 & =0 \\ (−4sin⁡4𝑥)^{′}+16cos⁡4𝑥 & =0 \\ −16cos⁡4𝑥+16cos⁡4𝑥 & =0 \\ 0 & =0\,✓ \\ 𝑦_{″2}+16𝑦_{2} & =0 \\ (sin⁡4𝑥)^{″}+16sin⁡4𝑥 & =0 \\ (4cos⁡4𝑥)^{′}+16sin⁡4𝑥 & =0 \\ −16sin⁡4𝑥+16sin⁡4𝑥 & =0 \\ 0 & =0\,✓\end{aligned}
 
 
 $$
@@ -269,7 +269,7 @@ has two solutions
 $$
 
 
-y_1(x) = e^x \quad \textrm{and} \quad y_2(x) = e^{-x}.
+y_1(x) = e^x \quad \text{and} \quad y_2(x) = e^{-x}.
 
 
 $$

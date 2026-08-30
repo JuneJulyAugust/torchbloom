@@ -32,7 +32,7 @@ $$
 
 $$
 
-The result for $\textrm{E}[X]$ is intuitive as it's simply the midpoint of the interval $[a,b].$
+The result for $\text{E}[X]$ is intuitive as it's simply the midpoint of the interval $[a,b].$
 
 We will derive both of these results at the end of the lesson.
 
@@ -40,7 +40,7 @@ We will derive both of these results at the end of the lesson.
 
 #### Question
 
-Given that $X$ is a random variable such that $X\sim U[2,8],$ find $\textrm{E}[X].$
+Given that $X$ is a random variable such that $X\sim U[2,8],$ find $\text{E}[X].$
 
 #### Explanation
 
@@ -49,7 +49,7 @@ If the random variable $X$ is distributed uniformly over the interval $[a,b],$ t
 $$
 
 
-\textrm{E}[X] = \dfrac{a+b}{2}.
+\text{E}[X] = \dfrac{a+b}{2}.
 
 
 $$
@@ -59,7 +59,7 @@ In our case, we have $a=2$ and $b=8.$ Therefore,
 $$
 
 
-\textrm{E}[X] = \dfrac{2+8}{2} =5.
+\text{E}[X] = \dfrac{2+8}{2} =5.
 
 
 $$
@@ -68,7 +68,7 @@ $$
 
 #### Question
 
-Given that $X$ is a random variable such that $X\sim U[2,10],$ find $\textrm{Var}[X].$
+Given that $X$ is a random variable such that $X\sim U[2,10],$ find $\text{Var}[X].$
 
 #### Explanation
 
@@ -77,7 +77,7 @@ If the random variable $X$ is distributed uniformly over the interval $[a,b],$ t
 $$
 
 
-\textrm{Var}[X] = \dfrac{(b-a)^2}{12}.
+\text{Var}[X] = \dfrac{(b-a)^2}{12}.
 
 
 $$
@@ -87,7 +87,7 @@ In our case, we have $a=2$ and $b=10.$ Therefore,
 $$
 
 
-\textrm{Var}[X] = \dfrac{(10-2)^2}{12} = \dfrac{64}{12} = \dfrac{16}{3}.
+\text{Var}[X] = \dfrac{(10-2)^2}{12} = \dfrac{64}{12} = \dfrac{16}{3}.
 
 
 $$
@@ -96,7 +96,7 @@ $$
 
 #### Question
 
-Given that $X$ is a random variable such that $X\sim U[-9,-3],$ find $\textrm{SD}[X].$ Round your answer to three decimal places.
+Given that $X$ is a random variable such that $X\sim U[-9,-3],$ find $\text{SD}[X].$ Round your answer to three decimal places.
 
 #### Explanation
 
@@ -105,7 +105,7 @@ If the random variable $X$ is distributed uniformly over the interval $[a,b],$ t
 $$
 
 
-\textrm{Var}[X] = \dfrac{(b-a)^2}{12}.
+\text{Var}[X] = \dfrac{(b-a)^2}{12}.
 
 
 $$
@@ -115,7 +115,7 @@ In our case, we have $a=-9$ and $b=-3.$ Therefore,
 $$
 
 
-\textrm{Var}[X] = \dfrac{(-3-(-9))^2}{12} = \dfrac{36}{12} = 3.
+\text{Var}[X] = \dfrac{(-3-(-9))^2}{12} = \dfrac{36}{12} = 3.
 
 
 $$
@@ -125,7 +125,7 @@ Finally,
 $$
 
 
-\textrm{SD}[X] = \sqrt{3} \approx 1.732.
+\text{SD}[X] = \sqrt{3} \approx 1.732.
 
 
 $$
@@ -147,7 +147,7 @@ We can compute the formula for $\textrm E[X]$ using the usual definition:
 $$
 
 
-\begin{aligned}E[𝑋] & =∫_{𝑏𝑎}^{}𝑥𝑓(𝑥)\,d𝑥 \\ & =∫_{𝑏𝑎}^{}\frac{𝑥}{𝑏−𝑎}\,d𝑥 \\ & =\frac{1}{𝑏−𝑎}∫_{𝑏𝑎}^{}𝑥\,d𝑥 \\ & =\frac{1}{𝑏−𝑎}⋅\frac{1}{2}𝑥^{2}_{𝑏𝑎}^{} \\ & =\frac{1}{2(𝑏−𝑎)}⋅(𝑏^{2}−𝑎^{2}) \\ & =\frac{1}{2(𝑏−𝑎)}⋅(𝑏−𝑎)(𝑏+𝑎) \\ & =\frac{1}{2(𝑏−𝑎)}⋅(𝑏−𝑎)(𝑏+𝑎) \\ & =\frac{𝑎+𝑏}{2}\end{aligned}
+\begin{aligned}E[𝑋] & =∫_{𝑏𝑎}𝑥𝑓(𝑥)\,d𝑥 \\ & =∫_{𝑏𝑎}\frac{𝑥}{𝑏−𝑎}\,d𝑥 \\ & =\frac{1}{𝑏−𝑎}∫_{𝑏𝑎}𝑥\,d𝑥 \\ & =\frac{1}{𝑏−𝑎}⋅\frac{1}{2}𝑥^{2}_{𝑏𝑎} \\ & =\frac{1}{2(𝑏−𝑎)}⋅(𝑏^{2}−𝑎^{2}) \\ & =\frac{1}{2(𝑏−𝑎)}⋅(𝑏−𝑎)(𝑏+𝑎) \\ & =\frac{1}{2(𝑏−𝑎)}⋅(𝑏−𝑎)(𝑏+𝑎) \\ & =\frac{𝑎+𝑏}{2}\end{aligned}
 
 
 $$
@@ -164,12 +164,12 @@ $$
 
 $$
 
-To compute $\textrm{Var}[X],$ we use the relation
+To compute $\text{Var}[X],$ we use the relation
 
 $$
 
 
-\textrm{Var}[X] = \textrm{E}[X^2] - (\textrm{E}[X])^2.
+\text{Var}[X] = \text{E}[X^2] - (\text{E}[X])^2.
 
 
 $$
@@ -179,7 +179,7 @@ First, we compute $\textrm E[X^2]$ as follows:
 $$
 
 
-\begin{aligned}E[𝑋^{2}] & =∫_{𝑏𝑎}^{}𝑥^{2}𝑓(𝑥)\,d𝑥 \\ & =∫_{𝑏𝑎}^{}\frac{𝑥^{2}}{𝑏−𝑎}\,d𝑥 \\ & =\frac{1}{𝑏−𝑎}∫_{𝑏𝑎}^{}𝑥^{2}\,d𝑥 \\ & =\frac{1}{𝑏−𝑎}⋅\frac{1}{3}𝑥^{3}_{𝑏𝑎}^{} \\ & =\frac{1}{3(𝑏−𝑎)}⋅(𝑏^{3}−𝑎^{3}) \\ & =\frac{1}{3(𝑏−𝑎)}⋅(𝑏−𝑎)(𝑏^{2}+𝑎𝑏+𝑎^{2}) \\ & =\frac{1}{3(𝑏−𝑎)}⋅(𝑏−𝑎)(𝑏^{2}+𝑎𝑏+𝑎^{2}) \\ & =\frac{1}{3}(𝑏^{2}+𝑎𝑏+𝑎^{2})\end{aligned}
+\begin{aligned}E[𝑋^{2}] & =∫_{𝑏𝑎}𝑥^{2}𝑓(𝑥)\,d𝑥 \\ & =∫_{𝑏𝑎}\frac{𝑥^{2}}{𝑏−𝑎}\,d𝑥 \\ & =\frac{1}{𝑏−𝑎}∫_{𝑏𝑎}𝑥^{2}\,d𝑥 \\ & =\frac{1}{𝑏−𝑎}⋅\frac{1}{3}𝑥^{3}_{𝑏𝑎} \\ & =\frac{1}{3(𝑏−𝑎)}⋅(𝑏^{3}−𝑎^{3}) \\ & =\frac{1}{3(𝑏−𝑎)}⋅(𝑏−𝑎)(𝑏^{2}+𝑎𝑏+𝑎^{2}) \\ & =\frac{1}{3(𝑏−𝑎)}⋅(𝑏−𝑎)(𝑏^{2}+𝑎𝑏+𝑎^{2}) \\ & =\frac{1}{3}(𝑏^{2}+𝑎𝑏+𝑎^{2})\end{aligned}
 
 
 $$

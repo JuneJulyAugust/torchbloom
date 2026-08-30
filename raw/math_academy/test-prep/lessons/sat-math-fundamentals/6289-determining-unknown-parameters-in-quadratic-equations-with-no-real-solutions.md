@@ -72,7 +72,7 @@ This is a quadratic inequality in the variable $k.$ Solving this equation for $k
 $$
 
 
-\begin{aligned}25𝑘^{2}−80 & <0 \\ 25𝑘^{2} & <80 \\ 𝑘^{2} & <\frac{16}{5} \\ \sqrt{√𝑘^{2}} & <\sqrt{√\frac{16}{5}} \\ |𝑘| & <\frac{4}{\sqrt{√5}} \\ |𝑘| & <\frac{4\sqrt{√5}}{5}.\end{aligned}
+\begin{aligned}25𝑘^{2}−80 & <0 \\ 25𝑘^{2} & <80 \\ 𝑘^{2} & <\frac{16}{5} \\ \sqrt{𝑘^{2}} & <\sqrt{\frac{16}{5}} \\ |𝑘| & <\frac{4}{\sqrt{5}} \\ |𝑘| & <\frac{4\sqrt{5}}{5}.\end{aligned}
 
 
 $$
@@ -116,7 +116,7 @@ So, we require
 $$
 
 
-\begin{aligned}D & <0 \\ 𝑏^{2}−4𝑎𝑐 & <0 \\ (6)^{2}−4(𝑘)(𝑘) & <0 \\ 36−4𝑘^{2} & <0 \\ 36 & <4𝑘^{2} \\ 𝑘^{2} & >9 \\ \sqrt{√𝑘^{2}} & >\sqrt{√9} \\ |𝑘| & >3.\end{aligned}
+\begin{aligned}D & <0 \\ 𝑏^{2}−4𝑎𝑐 & <0 \\ (6)^{2}−4(𝑘)(𝑘) & <0 \\ 36−4𝑘^{2} & <0 \\ 36 & <4𝑘^{2} \\ 𝑘^{2} & >9 \\ \sqrt{𝑘^{2}} & >\sqrt{9} \\ |𝑘| & >3.\end{aligned}
 
 
 $$

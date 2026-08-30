@@ -101,7 +101,7 @@ $$
 
 $$
 
-So, $4 \cdot {\color{blue}{16}} \equiv 1 \:(\textrm{mod}\:21),$ which means that $16$ is the multiplicative inverse of $4$ (modulo $21$).
+So, $4 \cdot {\color{blue}{16}} \equiv 1 \:(\text{mod}\:21),$ which means that $16$ is the multiplicative inverse of $4$ (modulo $21$).
 
 Now, multiplying both sides of our congruence by $16,$ we get the following:
 
@@ -163,7 +163,7 @@ $$
 
 This means our congruence does indeed have a unique solution.
 
-To find the solution, we need to multiply both sides of the equation by the multiplicative inverse of $7\,(\textrm{mod}\:15).$ To find the inverse of $7\,(\textrm{mod}\:15)$, we compute the exponents of $7\,(\textrm{mod}\:15)$ until we get a result of $1 \,(\textrm{mod}\:15)\mathbin{:}$
+To find the solution, we need to multiply both sides of the equation by the multiplicative inverse of $7\,(\text{mod}\:15).$ To find the inverse of $7\,(\text{mod}\:15)$, we compute the exponents of $7\,(\text{mod}\:15)$ until we get a result of $1 \,(\text{mod}\:15)\mathbin{:}$
 
 $$
 
@@ -173,7 +173,7 @@ $$
 
 $$
 
-So, $13 \cdot 7 \equiv 1 \:(\textrm{mod}\:15),$ which means that $13$ is the multiplicative inverse of $7$ (modulo $15$).
+So, $13 \cdot 7 \equiv 1 \:(\text{mod}\:15),$ which means that $13$ is the multiplicative inverse of $7$ (modulo $15$).
 
 Now, multiplying both sides of our congruence by $13,$ we get the following:
 
@@ -229,7 +229,7 @@ $$
 
 So, our congruence does indeed have a unique solution.
 
-To find the solution, we need to multiply both sides of the equation by the multiplicative inverse of $7\,(\textrm{mod}\:19).$ To find the inverse of $7\,(\textrm{mod}\:19)$, we compute the exponents of $7\,(\textrm{mod}\:19)$ until we get a result of $1 \,(\textrm{mod}\:19)\mathbin{:}$
+To find the solution, we need to multiply both sides of the equation by the multiplicative inverse of $7\,(\text{mod}\:19).$ To find the inverse of $7\,(\text{mod}\:19)$, we compute the exponents of $7\,(\text{mod}\:19)$ until we get a result of $1 \,(\text{mod}\:19)\mathbin{:}$
 
 $$
 
@@ -239,7 +239,7 @@ $$
 
 $$
 
-So, $11 \cdot 7 \equiv 1 \:(\textrm{mod}\:19),$ which means that $11$ is the multiplicative inverse of $7$ (modulo $19$).
+So, $11 \cdot 7 \equiv 1 \:(\text{mod}\:19),$ which means that $11$ is the multiplicative inverse of $7$ (modulo $19$).
 
 Now, multiplying both sides of our congruence by $11,$ we get the following:
 
@@ -275,14 +275,14 @@ $$
 
 So, our congruence does indeed have a unique solution.
 
-To find the solution, we need to multiply both sides of the equation by the multiplicative inverse of $15\,(\textrm{mod}\:44).$ To find the inverse of $15\,(\textrm{mod}\:44),$ we use the extended Euclidean algorithm.
+To find the solution, we need to multiply both sides of the equation by the multiplicative inverse of $15\,(\text{mod}\:44).$ To find the inverse of $15\,(\text{mod}\:44),$ we use the extended Euclidean algorithm.
 
 First, we apply the forward reduction:
 
 $$
 
 
-\begin{aligned}\begin{aligned}44 & = & 15⋅2 & + & 14 \\ & ↙ & & ↙ & \\ 15 & = & 14⋅1 & + & 1\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}44 & = & 15⋅2 & + & 14 \\ & ↙ & & ↙ & \\ 15 & = & 14⋅1 & + & 1\end{matrix}\end{aligned}
 
 
 $$
@@ -317,7 +317,7 @@ $$
 
 $$
 
-So, $15 \cdot 3 \equiv 1 \:(\textrm{mod}\:44),$ which means that $3$ is the multiplicative inverse of $15$ (modulo $44$).
+So, $15 \cdot 3 \equiv 1 \:(\text{mod}\:44),$ which means that $3$ is the multiplicative inverse of $15$ (modulo $44$).
 
 Now, multiplying both sides of our original congruence by $3,$ we get the following:
 
@@ -347,6 +347,6 @@ First, we prove that a solution exists:
 
 Next, we prove the solution is unique:
 
-- To prove uniqueness, we show that two solutions $x_1$ and $x_2$ to our congruence must be congruent. Suppose $x_1$ and $x_2$ are two solutions to the congruence, i.e., $ax_1 \equiv b\: (\textrm{mod}\,{n})$ and $ax_2 \equiv b\: (\textrm{mod}\,{n})$. We want to show that $x_1 \equiv x_2$. Since $ax_1 \equiv b\: (\textrm{mod}\,{n})$ and $ax_2 \equiv b\: (\textrm{mod}\,{n})$, we have Now, since $\text{gcd}(a,n) = 1$, we can multiply both sides by the modular inverse of $a$ modulo $n,$ which we previously denoted $u.$ Since $a$ and $n$ are relatively prime, $u$ exists. Therefore, $u \cdot a \equiv 1\:(\textrm{mod}\,{n})$, and we have as required.
+- To prove uniqueness, we show that two solutions $x_1$ and $x_2$ to our congruence must be congruent. Suppose $x_1$ and $x_2$ are two solutions to the congruence, i.e., $ax_1 \equiv b\: (\text{mod}\,{n})$ and $ax_2 \equiv b\: (\text{mod}\,{n})$. We want to show that $x_1 \equiv x_2$. Since $ax_1 \equiv b\: (\text{mod}\,{n})$ and $ax_2 \equiv b\: (\text{mod}\,{n})$, we have Now, since $\text{gcd}(a,n) = 1$, we can multiply both sides by the modular inverse of $a$ modulo $n,$ which we previously denoted $u.$ Since $a$ and $n$ are relatively prime, $u$ exists. Therefore, $u \cdot a \equiv 1\:(\text{mod}\,{n})$, and we have as required.
 
 Thus, we have shown both the existence and uniqueness of the solution to the congruence $ax \equiv b \pmod{n}$ when $\text{gcd}(a,n) = 1$.

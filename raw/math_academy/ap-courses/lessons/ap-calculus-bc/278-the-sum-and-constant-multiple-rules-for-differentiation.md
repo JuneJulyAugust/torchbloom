@@ -72,7 +72,7 @@ Then, we apply the constant multiple and power rules:
 $$
 
 
-\begin{aligned}\frac{d𝑦}{d𝑥} & =\frac{d}{d𝑥}(−3𝑥^{−1/2}) \\ & =−3⋅\frac{d}{d𝑥}(𝑥^{−1/2}) \\ & =−3⋅(−\frac{1}{2})𝑥^{−3/2} \\ & =\frac{3}{2}𝑥^{−3/2} \\ & =\frac{3}{2\sqrt{√𝑥^{3}}}\end{aligned}
+\begin{aligned}\frac{d𝑦}{d𝑥} & =\frac{d}{d𝑥}(−3𝑥^{−1/2}) \\ & =−3⋅\frac{d}{d𝑥}(𝑥^{−1/2}) \\ & =−3⋅(−\frac{1}{2})𝑥^{−3/2} \\ & =\frac{3}{2}𝑥^{−3/2} \\ & =\frac{3}{2\sqrt{𝑥^{3}}}\end{aligned}
 
 
 $$
@@ -131,7 +131,7 @@ $$
 
 #### Question
 
-Calculate $\dfrac {\textrm{d}y} {\textrm{d}x}$ for $y= 2x^3 + 6\sqrt x.$
+Calculate $\dfrac {\text{d}y} {\text{d}x}$ for $y= 2x^3 + 6\sqrt x.$
 
 #### Explanation
 
@@ -140,7 +140,7 @@ Here, we convert the radical into a rational exponent, and we apply the addition
 $$
 
 
-\begin{aligned}\frac{d𝑦}{d𝑥} & =\frac{d}{d𝑥}(2𝑥^{3}+6𝑥^{1/2}) \\ & =\frac{d}{d𝑥}(2𝑥^{3})+\frac{d}{d𝑥}(6𝑥^{1/2}) \\ & =2⋅\frac{d}{d𝑥}(𝑥^{3})+6⋅\frac{d}{d𝑥}(𝑥^{1/2}) \\ & =2⋅3𝑥^{(3−1)}+6⋅\frac{1}{2}⋅𝑥^{(1/2−1)} \\ & =6𝑥^{2}+3⋅𝑥^{−1/2} \\ & =6𝑥^{2}+\frac{3}{\sqrt{√𝑥}}\end{aligned}
+\begin{aligned}\frac{d𝑦}{d𝑥} & =\frac{d}{d𝑥}(2𝑥^{3}+6𝑥^{1/2}) \\ & =\frac{d}{d𝑥}(2𝑥^{3})+\frac{d}{d𝑥}(6𝑥^{1/2}) \\ & =2⋅\frac{d}{d𝑥}(𝑥^{3})+6⋅\frac{d}{d𝑥}(𝑥^{1/2}) \\ & =2⋅3𝑥^{(3−1)}+6⋅\frac{1}{2}⋅𝑥^{(1/2−1)} \\ & =6𝑥^{2}+3⋅𝑥^{−1/2} \\ & =6𝑥^{2}+\frac{3}{\sqrt{𝑥}}\end{aligned}
 
 
 $$

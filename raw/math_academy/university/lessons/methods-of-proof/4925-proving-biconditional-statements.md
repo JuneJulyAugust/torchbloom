@@ -59,7 +59,7 @@ $$
 
 $$
 
-Note that substituting ${\color{blue}{x}}={\color{blue}{4}}$ into $P,Q,$ and $R$ gives a truth value of "true" $(\textrm{T})$ in each case:
+Note that substituting ${\color{blue}{x}}={\color{blue}{4}}$ into $P,Q,$ and $R$ gives a truth value of "true" $(\text{T})$ in each case:
 
 $$
 
@@ -69,7 +69,7 @@ $$
 
 $$
 
-However, substituting ${\color{red}{x}}={\color{red}{3}}$ into $P,Q,$ and $R$ gives a truth value of "false" $(\textrm{F})$ in each case:
+However, substituting ${\color{red}{x}}={\color{red}{3}}$ into $P,Q,$ and $R$ gives a truth value of "false" $(\text{F})$ in each case:
 
 $$
 
@@ -205,7 +205,7 @@ $$
 
 Notice that the divisibility of $n$ by $3$ and $5$ are independent. So, in general, we should use different letters ($s$ and $t$) in the reasoning above.
 
-Next, we'll use the fact that our divisors are coprime, meaning $\textrm{gcd}(3,5) = 1.$ Then, by applying the extended Euclidian algorithm, we can write
+Next, we'll use the fact that our divisors are coprime, meaning $\text{gcd}(3,5) = 1.$ Then, by applying the extended Euclidian algorithm, we can write
 
 $$
 
@@ -337,14 +337,14 @@ $$
 
 #### Question
 
-Let $n$ be an integer. Prove that $a \equiv b \: (\textrm{mod} \: 24)$ if and only if $a \equiv b \: (\textrm{mod} \: 3)$ and $a \equiv b \: (\textrm{mod} \: 8).$
+Let $n$ be an integer. Prove that $a \equiv b \: (\text{mod} \: 24)$ if and only if $a \equiv b \: (\text{mod} \: 3)$ and $a \equiv b \: (\text{mod} \: 8).$
 
 **
 
 $$
 
 
-3 \cdot 3 + 8 \cdot (-1) = \textrm{gcd}(3,8)=1
+3 \cdot 3 + 8 \cdot (-1) = \text{gcd}(3,8)=1
 
 
 $$
@@ -515,7 +515,7 @@ which means that $24 \mid n.$ So, the second implication is proved.
 
 Finally, we write down the conclusion:
 
-Therefore, $a \equiv b \: (\textrm{mod} \: 24)$ if and only if $a \equiv b \: (\textrm{mod} \: 3)$ and $a \equiv b \: (\textrm{mod} \: 8).$
+Therefore, $a \equiv b \: (\text{mod} \: 24)$ if and only if $a \equiv b \: (\text{mod} \: 3)$ and $a \equiv b \: (\text{mod} \: 8).$
 
 ### Example: Proving Parity Using Congruences and the Contrapositive
 
@@ -571,7 +571,7 @@ $$
 
 $$
 
-If $n$ is even, then $n \equiv 0 \: (\textrm{mod}\:2).$ Therefore,
+If $n$ is even, then $n \equiv 0 \: (\text{mod}\:2).$ Therefore,
 
 $$
 
@@ -600,7 +600,7 @@ Or, in terms of congruences,
 $$
 
 
-n^2 \equiv 0 \:\: (\textrm{mod}\:2) \quad\Rightarrow\quad n \equiv 0 \:\: (\textrm{mod}\:2).
+n^2 \equiv 0 \:\: (\text{mod}\:2) \quad\Rightarrow\quad n \equiv 0 \:\: (\text{mod}\:2).
 
 
 $$
@@ -612,7 +612,7 @@ Since we're working modulo $2$ (where the only remainders are $0$ and $1$), this
 $$
 
 
-n^2 \not\equiv 1 \:\: (\textrm{mod}\:2) \quad\Rightarrow\quad n \not\equiv 1 \:\: (\textrm{mod}\:2).
+n^2 \not\equiv 1 \:\: (\text{mod}\:2) \quad\Rightarrow\quad n \not\equiv 1 \:\: (\text{mod}\:2).
 
 
 $$
@@ -624,14 +624,14 @@ The contrapositive of the last statement is
 $$
 
 
-n \equiv 1 \:\: (\textrm{mod}\:2) \quad\Rightarrow\quad n^2 \equiv 1 \:\: (\textrm{mod}\:2).
+n \equiv 1 \:\: (\text{mod}\:2) \quad\Rightarrow\quad n^2 \equiv 1 \:\: (\text{mod}\:2).
 
 
 $$
 
 Next, we'll prove the contrapositive, as shown below.
 
-Now, if $n \equiv 1 \: (\textrm{mod}\:2),$ then
+Now, if $n \equiv 1 \: (\text{mod}\:2),$ then
 
 $$
 

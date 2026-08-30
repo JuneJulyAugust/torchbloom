@@ -48,7 +48,7 @@ Let's take a look at a concrete example.
 
 Suppose the waiting time for emergency room visits at a particular hospital is normally distributed. The management's target is that the mean waiting time should be no longer than $10$ minutes. However, after some changes to their processes, the managers now believe that the mean waiting time is longer than $10$ minutes and decide to conduct a hypothesis test at the $1\%$ significance level.
 
-The management samples $18$ patients and found that their mean waiting time is $\overline{x} = 11 \, \textrm{min}$ and the sample standard deviation is $s = 1.5 \, \textrm{min}.$ Is there sufficient evidence to conclude that the mean waiting time is greater than $10\,\textrm{min}?$
+The management samples $18$ patients and found that their mean waiting time is $\overline{x} = 11 \, \text{min}$ and the sample standard deviation is $s = 1.5 \, \text{min}.$ Is there sufficient evidence to conclude that the mean waiting time is greater than $10\,\text{min}?$
 
 We are told that the population is normally distributed. However, we do not know the population variance $\sigma^2.$ Therefore, we will use the fact that the random variable
 
@@ -72,9 +72,9 @@ follows a student's $t$-distribution with $n-1$ degrees of freedom, where
 
 Let's write down our null and alternative hypotheses:
 
-- $H_0: \mu = 10\, \textrm{min}$ is the null hypothesis
+- $H_0: \mu = 10\, \text{min}$ is the null hypothesis
 
-- $H_1: \mu \gt 10\, \textrm{min}$ is the alternative (one-tailed) hypothesis
+- $H_1: \mu \gt 10\, \text{min}$ is the alternative (one-tailed) hypothesis
 
 Next, we'll compute the critical region. Remember that the critical region contains all $t$-values that are *collectively* unlikely under the null hypothesis and therefore cause the null hypothesis to be rejected.
 
@@ -121,17 +121,17 @@ We're told that out of a sample of $18$ patients, the mean of the sample was $11
 $$
 
 
-\overline{x} = 11 \, \textrm{min}, \qquad s = 1.5 \, \textrm{min}, \qquad n = 18
+\overline{x} = 11 \, \text{min}, \qquad s = 1.5 \, \text{min}, \qquad n = 18
 
 
 $$
 
-Assuming the null hypothesis, i.e., $\mu=10\,\textrm{min},$ we can compute the test statistic as follows:
+Assuming the null hypothesis, i.e., $\mu=10\,\text{min},$ we can compute the test statistic as follows:
 
 $$
 
 
-\begin{aligned}𝑡 & =\frac{\overset{𝑥}{}−𝜇}{𝑠/\sqrt{√𝑛}} \\ & =\frac{11−10}{1.5/\sqrt{√18}} \\ & ≈2.828\end{aligned}
+\begin{aligned}𝑡 & =\frac{\overset{𝑥}{}−𝜇}{𝑠/\sqrt{𝑛}} \\ & =\frac{11−10}{1.5/\sqrt{18}} \\ & ≈2.828\end{aligned}
 
 
 $$
@@ -142,11 +142,11 @@ Notice that our test statistic ($2.828$) lies in the critical region, as shown b
 
 Therefore, we conclude the following:
 
-- If we assume that the population mean is $\mu=10\,\textrm{min}$ (i.e., the null hypothesis is true), getting a sample with a mean of $\overline{x}=11\,\textrm{min}$ or more has a probability that is *smaller than* $0.01 = 1\%,$ our significance level.
+- If we assume that the population mean is $\mu=10\,\text{min}$ (i.e., the null hypothesis is true), getting a sample with a mean of $\overline{x}=11\,\text{min}$ or more has a probability that is *smaller than* $0.01 = 1\%,$ our significance level.
 
 - Therefore, we have a statistically significant result and reject the null hypothesis.
 
-- In conclusion, there is *sufficient* evidence that, at the $1\%$ level of significance, we have $\mu \gt 10\,\textrm{min}.$
+- In conclusion, there is *sufficient* evidence that, at the $1\%$ level of significance, we have $\mu \gt 10\,\text{min}.$
 
 Let's now look at an example where the critical region lies on the left tail of the distribution.
 
@@ -201,7 +201,7 @@ Assuming the null hypothesis, i.e., $\mu=2,$ we compute the test statistic:
 $$
 
 
-\begin{aligned}𝑡 & =\frac{\overset{𝑥}{}−𝜇}{𝑠/\sqrt{√𝑛}} \\ & =\frac{0−2}{4/\sqrt{√6}} \\ & ≈−1.225\end{aligned}
+\begin{aligned}𝑡 & =\frac{\overset{𝑥}{}−𝜇}{𝑠/\sqrt{𝑛}} \\ & =\frac{0−2}{4/\sqrt{6}} \\ & ≈−1.225\end{aligned}
 
 
 $$
@@ -277,7 +277,7 @@ Assuming the null hypothesis, i.e., $\mu=5,$ we compute the test statistic:
 $$
 
 
-\begin{aligned}𝑡 & =\frac{\overset{𝑥}{}−𝜇}{𝑠/\sqrt{√𝑛}} \\ & =\frac{7−5}{5/\sqrt{√17}} \\ & ≈1.649\end{aligned}
+\begin{aligned}𝑡 & =\frac{\overset{𝑥}{}−𝜇}{𝑠/\sqrt{𝑛}} \\ & =\frac{7−5}{5/\sqrt{17}} \\ & ≈1.649\end{aligned}
 
 
 $$
@@ -375,7 +375,7 @@ Assuming the null hypothesis, i.e., $\mu=24,$ we compute the test statistic:
 $$
 
 
-\begin{aligned}𝑡 & =\frac{\overset{𝑥}{}−𝜇}{𝑠/\sqrt{√𝑛}} \\ & =\frac{23−24}{5/\sqrt{√70}} \\ & ≈−1.673\end{aligned}
+\begin{aligned}𝑡 & =\frac{\overset{𝑥}{}−𝜇}{𝑠/\sqrt{𝑛}} \\ & =\frac{23−24}{5/\sqrt{70}} \\ & ≈−1.673\end{aligned}
 
 
 $$
@@ -392,17 +392,17 @@ Therefore, the correct answer is "I and III only."
 
 #### Question
 
-A pharmaceutical company used a large group of people to test a new drug designed to reduce cholesterol levels. The mean cholesterol level for the group before the treatment was $\mu = 189$ milligrams per deciliter $(\textrm{mg/dL}).$
+A pharmaceutical company used a large group of people to test a new drug designed to reduce cholesterol levels. The mean cholesterol level for the group before the treatment was $\mu = 189$ milligrams per deciliter $(\text{mg/dL}).$
 
-After treatment, a scientist sampled $40$ people from the group and found that the cholesterol levels of those sampled had a mean of $187\,\textrm{mg/dL}$ and a standard deviation of $s = 12\,\textrm{mg/dL}.$ The scientist wishes to conduct a hypothesis test to determine whether sufficient evidence exists to claim that the drug works.
+After treatment, a scientist sampled $40$ people from the group and found that the cholesterol levels of those sampled had a mean of $187\,\text{mg/dL}$ and a standard deviation of $s = 12\,\text{mg/dL}.$ The scientist wishes to conduct a hypothesis test to determine whether sufficient evidence exists to claim that the drug works.
 
-By carrying out a hypothesis test at a $10\%$ significance level to determine whether there is sufficient evidence that the population mean $\mu$ is smaller than $189\,\textrm{mg/dL},$ determine which of the following statements are true:
+By carrying out a hypothesis test at a $10\%$ significance level to determine whether there is sufficient evidence that the population mean $\mu$ is smaller than $189\,\text{mg/dL},$ determine which of the following statements are true:
 
 1. The critical region for the test statistic is approximately $T \leq -1.304$
 
-2. At the $10\%$ level of significance, there is **** evidence that $\mu \lt 189 \, \textrm{mg/dL}$
+2. At the $10\%$ level of significance, there is **** evidence that $\mu \lt 189 \, \text{mg/dL}$
 
-3. At the $10\%$ level of significance, there is **** evidence that $\mu \lt 189 \, \textrm{mg/dL}$
+3. At the $10\%$ level of significance, there is **** evidence that $\mu \lt 189 \, \text{mg/dL}$
 
 **
 
@@ -441,7 +441,7 @@ Also, we have
 $$
 
 
-\overline{x} = 187 \, \textrm{mg/dL}, \qquad n = 40, \qquad s = 12 \, \textrm{mg/dL}.
+\overline{x} = 187 \, \text{mg/dL}, \qquad n = 40, \qquad s = 12 \, \text{mg/dL}.
 
 
 $$
@@ -451,7 +451,7 @@ Assuming the null hypothesis, i.e., $\mu=189,$ we compute the test statistic:
 $$
 
 
-\begin{aligned}𝑡 & =\frac{\overset{𝑥}{}−𝜇}{𝑠/\sqrt{√𝑛}} \\ & =\frac{187−189}{12/\sqrt{√40}} \\ & ≈−1.054\end{aligned}
+\begin{aligned}𝑡 & =\frac{\overset{𝑥}{}−𝜇}{𝑠/\sqrt{𝑛}} \\ & =\frac{187−189}{12/\sqrt{40}} \\ & ≈−1.054\end{aligned}
 
 
 $$

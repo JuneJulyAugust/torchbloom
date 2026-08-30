@@ -26,7 +26,7 @@ Now, let $\mathcal{B}= \left\{\mathbf{b}_1, \mathbf{b}_2 \right\}$ be another ba
 $$
 
 
-\mathbf{b}_1 = \mathbf{c}_2 \quad \textrm{and} \quad \mathbf{b}_2 = -2\mathbf{c}_1.
+\mathbf{b}_1 = \mathbf{c}_2 \quad \text{and} \quad \mathbf{b}_2 = -2\mathbf{c}_1.
 
 
 $$

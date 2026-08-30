@@ -58,7 +58,7 @@ $$
 $$
 
 
-\dfrac{33}{4} =8\,\textrm{R} 1 = 8\,\dfrac 1 {4}
+\dfrac{33}{4} =8\,\text{R} 1 = 8\,\dfrac 1 {4}
 
 
 $$
@@ -116,7 +116,7 @@ Finally, we write the resulting improper fraction as a mixed number:
 $$
 
 
-\dfrac{36}{7} = 5\,\textrm{R}\,1 = 5\,\dfrac{1}{7}
+\dfrac{36}{7} = 5\,\text{R}\,1 = 5\,\dfrac{1}{7}
 
 
 $$
@@ -224,7 +224,7 @@ Finally, we write the resulting improper fraction as a mixed number:
 $$
 
 
-\dfrac{20}{3} =6\,\textrm{R} 2 = 6\,\dfrac 2 {3}
+\dfrac{20}{3} =6\,\text{R} 2 = 6\,\dfrac 2 {3}
 
 
 $$

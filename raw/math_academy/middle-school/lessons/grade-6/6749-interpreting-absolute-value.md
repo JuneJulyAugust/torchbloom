@@ -14,13 +14,13 @@ Topic ID: 6749
 
 A negative number often means a measure in the *opposite direction*. The magnitude of the measure is given by the *absolute value* of the number.
 
-For instance, suppose a fish is at a position of $-10\,\textrm{m}$ relative to sea level.
+For instance, suppose a fish is at a position of $-10\,\text{m}$ relative to sea level.
 
 - The negative sign tells us the direction is *below sea level*, which is the opposite of *above sea level*.
 
 - To find the actual distance the fish is below sea level (its *depth*), we take the absolute value of its position:
 
-Therefore, the fish is $10\,\textrm{m}$ below sea level.
+Therefore, the fish is $10\,\text{m}$ below sea level.
 
 ### Example: Interpreting the Absolute Value of a Negative Number
 
@@ -62,7 +62,7 @@ Therefore, the correct answer is "I and II only".
 
 Let's consider another example of interpreting the absolute value in context.
 
-Suppose an outdoor swimming pool opens only if the average temperature over the day is above $25^{\circ}\textrm{C}.$ The table below shows the daily average temperatures above $25^{\circ}\textrm{C}$ during a week.
+Suppose an outdoor swimming pool opens only if the average temperature over the day is above $25^{\circ}\text{C}.$ The table below shows the daily average temperatures above $25^{\circ}\text{C}$ during a week.
 
 Which of the following statements are true?
 
@@ -88,7 +88,7 @@ A tour guide has created a list of various ancient artifacts located inside and 
 
 Which of the following statements are true?
 
-1. Point A is $10\,\textrm{m}$ inside the cave.
+1. Point A is $10\,\text{m}$ inside the cave.
 
 2. Point A is further inside the cave than point D.
 
@@ -106,11 +106,11 @@ The absolute value gives the size of the distance from the cave entrance.
 
 Let's examine each statement in turn:
 
-- Statement I is true. Since point A has a location of $-10,$ and negative values represent positions inside the cave, point A is $10\,\textrm{m}$ inside the cave.
+- Statement I is true. Since point A has a location of $-10,$ and negative values represent positions inside the cave, point A is $10\,\text{m}$ inside the cave.
 
 - Statement II is true. Point D has a location of $60,$ which means it is outside the cave. Since point A is inside the cave and point D is outside, point A is further inside the cave than point D.
 
-- Statement III is false. Point A is $|-10| = 10\,\textrm{m}$ inside the cave, while point B is $|-50| = 50\,\textrm{m}$ inside the cave. Since $50 > 10,$ point B is further inside the cave than point A.
+- Statement III is false. Point A is $|-10| = 10\,\text{m}$ inside the cave, while point B is $|-50| = 50\,\text{m}$ inside the cave. Since $50 > 10,$ point B is further inside the cave than point A.
 
 Therefore, the correct answer is "I and II only".
 

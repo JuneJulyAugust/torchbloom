@@ -13,14 +13,14 @@ Topic ID: 1249
 
 Let's suppose we only know the values of the functions $f(x)$ and $g(x)$ at $x=0$ along with their derivatives, as given in the table below.
 
-Can we calculate $\dfrac{\textrm{d}}{\textrm{d}x}\Big(f(x)g(x)\Big)$ at $x=0?$
+Can we calculate $\dfrac{\text{d}}{\text{d}x}\Big(f(x)g(x)\Big)$ at $x=0?$
 
 Using the product rule, we have
 
 $$
 
 
-\dfrac{\textrm{d}}{\textrm{d}x}\Big( f(x)g(x)\Big) = f'(x)g(x)+f(x)g'(x).
+\dfrac{\text{d}}{\text{d}x}\Big( f(x)g(x)\Big) = f'(x)g(x)+f(x)g'(x).
 
 
 $$
@@ -30,7 +30,7 @@ At the point where $x=0,$ this gives
 $$
 
 
-\left.\dfrac{\textrm{d}}{\textrm{d}x}\Big( f(x)g(x)\Big) \right|_{x=0} = f'(0)g(0)+f(0)g'(0).
+\left.\dfrac{\text{d}}{\text{d}x}\Big( f(x)g(x)\Big) \right|_{x=0} = f'(0)g(0)+f(0)g'(0).
 
 
 $$
@@ -51,7 +51,7 @@ $$
 
 The values of functions $f(x)$ and $g(x)$ and their derivatives at $x=0$ are given in the table below.
 
-Compute $\dfrac{\textrm{d}}{\textrm{d}x}\big(f(x)g(x)\big)$ at $x=0.$
+Compute $\dfrac{\text{d}}{\text{d}x}\big(f(x)g(x)\big)$ at $x=0.$
 
 #### Explanation
 
@@ -60,7 +60,7 @@ Using the product rule, we get
 $$
 
 
-\dfrac{\textrm{d}}{\textrm{d}x}\big(f(x)g(x)\big) = f(x)g'(x)+f'(x)g(x).
+\dfrac{\text{d}}{\text{d}x}\big(f(x)g(x)\big) = f(x)g'(x)+f'(x)g(x).
 
 
 $$
@@ -81,7 +81,7 @@ $$
 
 The values of functions $h(x)$ and $z(x)$ and their derivatives at $x=-1$ are given in the table below.
 
-Compute $\dfrac{\textrm{d}}{\textrm{d}x}\left(\dfrac{h(x)}{z(x)}\right)$ at $x=-1.$
+Compute $\dfrac{\text{d}}{\text{d}x}\left(\dfrac{h(x)}{z(x)}\right)$ at $x=-1.$
 
 #### Explanation
 
@@ -90,7 +90,7 @@ Using the quotient rule, we get
 $$
 
 
-\dfrac{\textrm{d}}{\textrm{d}x}\left(\dfrac{h(x)}{z(x)}\right) = \dfrac{h'(x)z(x)-h(x)z'(x)}{(z(x))^2}.
+\dfrac{\text{d}}{\text{d}x}\left(\dfrac{h(x)}{z(x)}\right) = \dfrac{h'(x)z(x)-h(x)z'(x)}{(z(x))^2}.
 
 
 $$
@@ -111,7 +111,7 @@ $$
 
 The values of functions $p(x)$ and $q(x)$ and their derivatives at $x=-3$ are given in the table below.
 
-Compute $\dfrac{\textrm{d}}{\textrm{d}x}\big(p(x) + 5q(x) \big)$ at $x=-3.$
+Compute $\dfrac{\text{d}}{\text{d}x}\big(p(x) + 5q(x) \big)$ at $x=-3.$
 
 #### Explanation
 
@@ -120,7 +120,7 @@ Using the sum and constant multiple rules, we get
 $$
 
 
-\dfrac{\textrm{d}}{\textrm{d}x}\left( p(x) + 5q(x) \right) = p'(x) + 5q'(x).
+\dfrac{\text{d}}{\text{d}x}\left( p(x) + 5q(x) \right) = p'(x) + 5q'(x).
 
 
 $$
@@ -158,7 +158,7 @@ The product rule states that
 $$
 
 
-\dfrac{\textrm{d}}{\textrm{d}x}\Big(uv\Big) = u \dfrac{\textrm d v}{\textrm d x} +v \dfrac{\textrm du}{\textrm d x}.
+\dfrac{\text{d}}{\text{d}x}\Big(uv\Big) = u \dfrac{\textrm d v}{\textrm d x} +v \dfrac{\textrm du}{\textrm d x}.
 
 
 $$

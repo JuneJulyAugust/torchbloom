@@ -27,7 +27,7 @@ To solve the system, we can reduce $M$ to row echelon form using Gaussian elimin
 $$
 
 
-\begin{aligned}𝑀 & ∼[\begin{aligned}1 & −2 & −5 \\ −3 & 6 & 15\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+3𝑅_{1} \\ & ∼[\begin{aligned}1 & −2 & −5 \\ 0 & 0 & 0\end{aligned}]. & & \end{aligned}
+\begin{aligned}𝑀 & ∼[\begin{matrix}1 & −2 & −5 \\ −3 & 6 & 15\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+3𝑅_{1} \\ & ∼[\begin{matrix}1 & −2 & −5 \\ 0 & 0 & 0\end{matrix}]. & & \end{aligned}
 
 
 $$
@@ -75,7 +75,7 @@ In vector form, this solution is written as
 $$
 
 
-\begin{aligned}[\begin{aligned}𝑥 \\ 𝑦\end{aligned}]=[\begin{aligned}−5+2𝑦 \\ 𝑦\end{aligned}]=[\begin{aligned}−5 \\ 0\end{aligned}]+𝑦[\begin{aligned}2 \\ 1\end{aligned}],\,𝑦∈(−∞,∞).\end{aligned}
+\begin{aligned}[\begin{matrix}𝑥 \\ 𝑦\end{matrix}]=[\begin{matrix}−5+2𝑦 \\ 𝑦\end{matrix}]=[\begin{matrix}−5 \\ 0\end{matrix}]+𝑦[\begin{matrix}2 \\ 1\end{matrix}],\,𝑦∈(−∞,∞).\end{aligned}
 
 
 $$
@@ -107,7 +107,7 @@ Reducing $M$ to echelon form, we have
 $$
 
 
-\begin{aligned}𝑀 & ∼[\begin{aligned}1 & −3 & 1 \\ 4 & −12 & 4\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+(−4)𝑅_{1} \\ & ∼[\begin{aligned}1 & −3 & 1 \\ 0 & 0 & 0\end{aligned}]. & & \end{aligned}
+\begin{aligned}𝑀 & ∼[\begin{matrix}1 & −3 & 1 \\ 4 & −12 & 4\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+(−4)𝑅_{1} \\ & ∼[\begin{matrix}1 & −3 & 1 \\ 0 & 0 & 0\end{matrix}]. & & \end{aligned}
 
 
 $$
@@ -149,7 +149,7 @@ In vector form, the general solution can be written as
 $$
 
 
-\begin{aligned}[\begin{aligned}𝑥 \\ 𝑦\end{aligned}]=[\begin{aligned}1+3𝑦 \\ 𝑦\end{aligned}]=⟨1+3𝑦,\,𝑦⟩,\,𝑦∈(−∞,∞).\end{aligned}
+\begin{aligned}[\begin{matrix}𝑥 \\ 𝑦\end{matrix}]=[\begin{matrix}1+3𝑦 \\ 𝑦\end{matrix}]=⟨1+3𝑦,\,𝑦⟩,\,𝑦∈(−∞,∞).\end{aligned}
 
 
 $$
@@ -161,7 +161,7 @@ Sometimes, a system of equations might not have any solutions. For example, cons
 $$
 
 
-\begin{aligned}𝑀=[\begin{aligned}1 & −2 & 3 \\ 0 & 0 & 10\end{aligned}]\end{aligned}
+\begin{aligned}𝑀=[\begin{matrix}1 & −2 & 3 \\ 0 & 0 & 10\end{matrix}]\end{aligned}
 
 
 $$
@@ -213,7 +213,7 @@ Reducing $M$ to row echelon form, we have
 $$
 
 
-\begin{aligned}𝑀 & ∼[\begin{aligned}2 & 5 & 4 \\ 4 & 10 & 0\end{aligned}] & 𝑅_{1} & :=\frac{1}{2}𝑅_{1} \\ & ∼\begin{aligned}1 & \frac{5}{2} & 2 \\ 4 & 10 & 0\end{aligned} & 𝑅_{2} & :=𝑅_{2}+(−4)𝑅_{1} \\ & ∼\begin{aligned}1 & \frac{5}{2} & 2 \\ 0 & 0 & −8\end{aligned}. & & \end{aligned}
+\begin{aligned}𝑀 & ∼[\begin{matrix}2 & 5 & 4 \\ 4 & 10 & 0\end{matrix}] & 𝑅_{1} & :=\frac{1}{2}𝑅_{1} \\ & ∼\begin{matrix}1 & \frac{5}{2} & 2 \\ 4 & 10 & 0\end{matrix} & 𝑅_{2} & :=𝑅_{2}+(−4)𝑅_{1} \\ & ∼\begin{matrix}1 & \frac{5}{2} & 2 \\ 0 & 0 & −8\end{matrix}. & & \end{aligned}
 
 
 $$

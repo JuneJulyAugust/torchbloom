@@ -34,7 +34,7 @@ Substituting
 $$
 
 
-l = 20\,\textrm{cm}, \qquad w=10\,\textrm{cm}, \qquad h=5\,\textrm{cm}
+l = 20\,\text{cm}, \qquad w=10\,\text{cm}, \qquad h=5\,\text{cm}
 
 
 $$
@@ -53,7 +53,7 @@ $$
 
 #### Question
 
-What is the volume of a rectangular solid that has length, width, and height of $5 \: \textrm{m},$ $\sqrt3 \: \textrm{m},$ and $\sqrt6 \: \textrm{m},$ respectively?
+What is the volume of a rectangular solid that has length, width, and height of $5 \: \text{m},$ $\sqrt3 \: \text{m},$ and $\sqrt6 \: \text{m},$ respectively?
 
 #### Explanation
 
@@ -74,7 +74,7 @@ Substituting
 $$
 
 
-l=5 \, \textrm{m}, \qquad w=\sqrt3 \, \textrm{m}, \qquad h=\sqrt6 \, \textrm{m}
+l=5 \, \text{m}, \qquad w=\sqrt3 \, \text{m}, \qquad h=\sqrt6 \, \text{m}
 
 
 $$
@@ -84,7 +84,7 @@ into the formula, we obtain
 $$
 
 
-V = 5 \cdot \sqrt3 \cdot \sqrt6 = 5\sqrt{18} = 15\sqrt2 \: \textrm{m}^3.
+V = 5 \cdot \sqrt3 \cdot \sqrt6 = 5\sqrt{18} = 15\sqrt2 \: \text{m}^3.
 
 
 $$
@@ -93,7 +93,7 @@ $$
 
 #### Question
 
-Determine the height of the rectangular solid below given that its volume is $700\:\textrm{cm}^3.$
+Determine the height of the rectangular solid below given that its volume is $700\:\text{cm}^3.$
 
 ![Instructional graphic](../../../../lesson-assets/geometry/topic-1753/827fe2af001e0693.png)
 
@@ -131,7 +131,7 @@ $$
 
 $$
 
-Therefore, the height is $5\:\textrm{cm}.$
+Therefore, the height is $5\:\text{cm}.$
 
 ### Example: Finding the Volume of a Rectangular Solid: Word Problems
 
@@ -143,19 +143,19 @@ The diagram below shows a carton of orange juice. One-third of the carton is fil
 
 #### Explanation
 
-The orange juice in the carton creates a cube. Since the height of the juice is $9\,\textrm{cm},$ the side length of the cube is also $9\,\textrm{cm}.$
+The orange juice in the carton creates a cube. Since the height of the juice is $9\,\text{cm},$ the side length of the cube is also $9\,\text{cm}.$
 
-The height of $9 \: \textrm{cm}$ shown in the diagram represents a third of the carton's height. Therefore, the height of the carton is
-
-$$
-
-
-3 \cdot 9 = 27 \: \textrm{cm}.
-
+The height of $9 \: \text{cm}$ shown in the diagram represents a third of the carton's height. Therefore, the height of the carton is
 
 $$
 
-The empty space in the carton is a rectangular prism that is $9\:\textrm{cm}$ long, $9\:\textrm{cm}$ wide, and $27 - 9 = 18\:\textrm{cm}$ high.
+
+3 \cdot 9 = 27 \: \text{cm}.
+
+
+$$
+
+The empty space in the carton is a rectangular prism that is $9\:\text{cm}$ long, $9\:\text{cm}$ wide, and $27 - 9 = 18\:\text{cm}$ high.
 
 We can find the volume $V$ of the rectangular prism using the formula
 
@@ -174,7 +174,7 @@ Substituting
 $$
 
 
-l=9\,\textrm{cm}, \qquad w=9\,\textrm{cm}, \qquad h=18\,\textrm{cm}
+l=9\,\text{cm}, \qquad w=9\,\text{cm}, \qquad h=18\,\text{cm}
 
 
 $$
@@ -184,9 +184,9 @@ into the formula, we obtain
 $$
 
 
-V = 9 \cdot 9 \cdot 18 = 1\,458\:\textrm{cm}^3.
+V = 9 \cdot 9 \cdot 18 = 1\,458\:\text{cm}^3.
 
 
 $$
 
-Therefore, we conclude that there is $1\,458 \: \textrm{cm}^3$ of empty space in the carton.
+Therefore, we conclude that there is $1\,458 \: \text{cm}^3$ of empty space in the carton.

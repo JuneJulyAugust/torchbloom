@@ -50,7 +50,7 @@ Suppose that we want to differentiate this function to find $F'(x).$ Let's start
 $$
 
 
-F'(x) = \dfrac{\textrm{d}}{\textrm{d}x}\int^{x}_{2} \sin(t^2)\,\textrm d t.
+F'(x) = \dfrac{\text{d}}{\text{d}x}\int^{x}_{2} \sin(t^2)\,\textrm d t.
 
 
 $$
@@ -82,7 +82,7 @@ Computing the integral, we have
 $$
 
 
-\begin{aligned}𝐹(𝑥) & =\frac{𝑡^{3}}{3}_{𝑥2}^{}=\frac{𝑥^{3}}{3}−\frac{8}{3},\end{aligned}
+\begin{aligned}𝐹(𝑥) & =\frac{𝑡^{3}}{3}_{𝑥2}=\frac{𝑥^{3}}{3}−\frac{8}{3},\end{aligned}
 
 
 $$
@@ -112,7 +112,7 @@ The function $\dfrac {t^3} {t-1}$ is continuous on $[2,x],$ where $x>2.$ So FTC 
 $$
 
 
-\begin{aligned}\frac{d}{d𝑥}∫_{𝑥2}^{}\frac{𝑡^{3}}{𝑡−1}\,d𝑡=\frac{𝑥^{3}}{𝑥−1}.\end{aligned}
+\begin{aligned}\frac{d}{d𝑥}∫_{𝑥2}\frac{𝑡^{3}}{𝑡−1}\,d𝑡=\frac{𝑥^{3}}{𝑥−1}.\end{aligned}
 
 
 $$
@@ -158,7 +158,7 @@ To compute $f'(x),$ we first make the substitution $u=x^2$ and then we apply the
 $$
 
 
-\begin{aligned}𝑓^{′}(𝑥) & =\frac{d}{d𝑥}∫_{𝑥^{2}2}^{}arctan⁡𝑡\,d𝑡 \\ & =\frac{du}{d𝑥}⋅\frac{d}{d𝑢}∫_{𝑢2}^{}arctan⁡𝑡\,d𝑡.\end{aligned}
+\begin{aligned}𝑓^{′}(𝑥) & =\frac{d}{d𝑥}∫_{𝑥^{2}2}^{}arctan⁡𝑡\,d𝑡 \\ & =\frac{du}{d𝑥}⋅\frac{d}{d𝑢}∫_{𝑢2}arctan⁡𝑡\,d𝑡.\end{aligned}
 
 
 $$
@@ -186,7 +186,7 @@ Here, both the lower and upper limits contain a variable. However, to apply FTC 
 $$
 
 
-\begin{aligned}\begin{aligned}∫_{𝑥^{2}𝑥}^{}(𝑡^{2}+2𝑡)\,d𝑡 & =∫_{𝑎𝑥}^{}(𝑡^{2}+2𝑡)\,d𝑡+∫_{𝑥^{2}𝑎}^{}(𝑡^{2}+2𝑡)\,d𝑡 \\ & =−∫_{𝑥𝑎}^{}(𝑡^{2}+2𝑡)\,d𝑡+∫_{𝑥^{2}𝑎}^{}(𝑡^{2}+2𝑡)\,d𝑡,\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}∫_{𝑥^{2}𝑥}^{}(𝑡^{2}+2𝑡)\,d𝑡 & =∫_{𝑎𝑥}(𝑡^{2}+2𝑡)\,d𝑡+∫_{𝑥^{2}𝑎}^{}(𝑡^{2}+2𝑡)\,d𝑡 \\ & =−∫_{𝑥𝑎}(𝑡^{2}+2𝑡)\,d𝑡+∫_{𝑥^{2}𝑎}^{}(𝑡^{2}+2𝑡)\,d𝑡,\end{matrix}\end{aligned}
 
 
 $$
@@ -198,7 +198,7 @@ The integrand $t^2 + 2t$ is continuous for all $t,$ so applying FTC II gives
 $$
 
 
-\begin{aligned}𝑓^{′}(𝑥) & =\frac{d}{d𝑥}(−∫_{𝑥𝑎}^{}(𝑡^{2}+2𝑡)\,d𝑡+∫_{𝑥^{2}𝑎}^{}(𝑡^{2}+2𝑡)\,d𝑡) \\ & =−\frac{d}{d𝑥}(∫_{𝑥𝑎}^{}(𝑡^{2}+2𝑡)\,d𝑡)+\frac{d}{d𝑥}(∫_{𝑥^{2}𝑎}^{}(𝑡^{2}+2𝑡)\,d𝑡) \\ & =−(𝑥^{2}+2𝑥)+\frac{d𝑢}{d𝑥}\frac{d}{d𝑢}(∫_{𝑢𝑎}^{}(𝑡^{2}+2𝑡)\,d𝑡) \\ & =−𝑥^{2}−2𝑥+2𝑥(𝑢^{2}+2𝑢) \\ & =−𝑥^{2}−2𝑥+2𝑥((𝑥^{2})^{2}+2𝑥^{2}) \\ & =−𝑥^{2}−2𝑥+2𝑥(𝑥^{4}+2𝑥^{2}) \\ & =−𝑥^{2}−2𝑥+2𝑥^{5}+4𝑥^{3} \\ & =2𝑥^{5}+4𝑥^{3}−𝑥^{2}−2𝑥.\end{aligned}
+\begin{aligned}𝑓^{′}(𝑥) & =\frac{d}{d𝑥}(−∫_{𝑥𝑎}(𝑡^{2}+2𝑡)\,d𝑡+∫_{𝑥^{2}𝑎}^{}(𝑡^{2}+2𝑡)\,d𝑡) \\ & =−\frac{d}{d𝑥}(∫_{𝑥𝑎}(𝑡^{2}+2𝑡)\,d𝑡)+\frac{d}{d𝑥}(∫_{𝑥^{2}𝑎}^{}(𝑡^{2}+2𝑡)\,d𝑡) \\ & =−(𝑥^{2}+2𝑥)+\frac{d𝑢}{d𝑥}\frac{d}{d𝑢}(∫_{𝑢𝑎}(𝑡^{2}+2𝑡)\,d𝑡) \\ & =−𝑥^{2}−2𝑥+2𝑥(𝑢^{2}+2𝑢) \\ & =−𝑥^{2}−2𝑥+2𝑥((𝑥^{2})^{2}+2𝑥^{2}) \\ & =−𝑥^{2}−2𝑥+2𝑥(𝑥^{4}+2𝑥^{2}) \\ & =−𝑥^{2}−2𝑥+2𝑥^{5}+4𝑥^{3} \\ & =2𝑥^{5}+4𝑥^{3}−𝑥^{2}−2𝑥.\end{aligned}
 
 
 $$

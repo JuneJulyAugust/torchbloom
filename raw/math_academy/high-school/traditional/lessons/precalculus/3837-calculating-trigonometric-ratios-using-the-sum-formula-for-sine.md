@@ -71,7 +71,7 @@ $$
 
 
 
-\begin{aligned}cos⁡𝑢 & =±\sqrt{√\frac{25}{169}} \\ & =±\frac{5}{13}.\end{aligned}
+\begin{aligned}cos⁡𝑢 & =±\sqrt{\frac{25}{169}} \\ & =±\frac{5}{13}.\end{aligned}
 
 
 
@@ -175,7 +175,7 @@ $$
 
 
 
-\begin{aligned}sin⁡𝑣 & =±\sqrt{√\frac{9}{25}} \\ & =±\frac{3}{5}.\end{aligned}
+\begin{aligned}sin⁡𝑣 & =±\sqrt{\frac{9}{25}} \\ & =±\frac{3}{5}.\end{aligned}
 
 
 
@@ -199,7 +199,7 @@ $$
 
 
 
-\begin{aligned}sin⁡(𝑢+𝑣) & =sin⁡𝑢cos⁡𝑣+cos⁡𝑢sin⁡𝑣 \\ & =(\frac{3}{4})(\frac{4}{5})+(−\frac{\sqrt{√7}}{4})(\frac{3}{5}) \\ & =\frac{12}{20}−\frac{3\sqrt{√7}}{20} \\ & =\frac{12−3\sqrt{√7}}{20}\end{aligned}
+\begin{aligned}sin⁡(𝑢+𝑣) & =sin⁡𝑢cos⁡𝑣+cos⁡𝑢sin⁡𝑣 \\ & =(\frac{3}{4})(\frac{4}{5})+(−\frac{\sqrt{7}}{4})(\frac{3}{5}) \\ & =\frac{12}{20}−\frac{3\sqrt{7}}{20} \\ & =\frac{12−3\sqrt{7}}{20}\end{aligned}
 
 
 
@@ -269,7 +269,7 @@ $$
 
 
 
-\begin{aligned}sin⁡𝑢 & =±\sqrt{√\frac{576}{625}} \\ & =±\frac{24}{25}.\end{aligned}
+\begin{aligned}sin⁡𝑢 & =±\sqrt{\frac{576}{625}} \\ & =±\frac{24}{25}.\end{aligned}
 
 
 
@@ -293,7 +293,7 @@ $$
 
 
 
-\begin{aligned} \sin(u - v) &= \sin u \cos v - \cos u \sin v \\\[5pt] &= \left( -\dfrac {24}{25} \right)\left(\dfrac {3} {5}\right) - \left(\dfrac {7}{25}\right) \left( \dfrac {4} {5}\right) \\\[5pt] &= -\dfrac {72} {125} - \dfrac {28} {125} \\\[5pt] &= -\dfrac {100} {125}\\\[5pt] &= -\dfrac {4} {5}. \end{aligned}
+\begin{aligned} \sin(u - v) &= \sin u \cos v - \cos u \sin v \\[5pt] &= \left( -\dfrac {24}{25} \right)\left(\dfrac {3} {5}\right) - \left(\dfrac {7}{25}\right) \left( \dfrac {4} {5}\right) \\[5pt] &= -\dfrac {72} {125} - \dfrac {28} {125} \\[5pt] &= -\dfrac {100} {125}\\[5pt] &= -\dfrac {4} {5}. \end{aligned}
 
 
 

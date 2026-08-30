@@ -119,7 +119,7 @@ Therefore, the ratio of the larger area to the smaller is $9\mathbin{:}1.$
 
 ![Instructional graphic](../../../../lesson-assets/geometry/topic-1197/9046a28642933b59.png)
 
-The trapezoids shown above are similar. If the area of the smaller trapezoid is $2.1\,\textrm{m}^2$, then what is the area of the larger trapezoid?
+The trapezoids shown above are similar. If the area of the smaller trapezoid is $2.1\,\text{m}^2$, then what is the area of the larger trapezoid?
 
 **
 
@@ -163,7 +163,7 @@ $$
 
 ![Instructional graphic](../../../../lesson-assets/geometry/topic-1197/b9cf7d06c74a8a56.png)
 
-Consider the two similar parallelograms above (picture not to scale). If the area of the smaller parallelogram is equal to $5\,\textrm{cm}^2$ and the area of the larger parallelogram is $125\,\textrm{cm}^2$, then what is the value of $\dfrac{x}{y}?$
+Consider the two similar parallelograms above (picture not to scale). If the area of the smaller parallelogram is equal to $5\,\text{cm}^2$ and the area of the larger parallelogram is $125\,\text{cm}^2$, then what is the value of $\dfrac{x}{y}?$
 
 #### Explanation
 

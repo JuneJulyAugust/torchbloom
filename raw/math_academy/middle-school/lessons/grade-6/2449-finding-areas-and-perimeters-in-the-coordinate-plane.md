@@ -187,13 +187,13 @@ $$
 
 #### Question
 
-Sophia's garden is shaped like the figure shown above. To water her garden, she uses $5\,\textrm{l}$ of water for every square meter. How much water does Sophia use to water her entire garden?
+Sophia's garden is shaped like the figure shown above. To water her garden, she uses $5\,\text{l}$ of water for every square meter. How much water does Sophia use to water her entire garden?
 
 ![Instructional graphic](../../../lesson-assets/grade-6/topic-2449/c60a20a27bf7f75b.png)
 
 #### Explanation
 
-We can see that the garden is shaped like a right triangle with a base of $6\,\textrm{m}$ and a height of $4\,\textrm{m}.$
+We can see that the garden is shaped like a right triangle with a base of $6\,\text{m}$ and a height of $4\,\text{m}.$
 
 ![Instructional graphic](../../../lesson-assets/grade-6/topic-2449/2d4e0a0e89c0b672.png)
 
@@ -215,7 +215,7 @@ $$
 
 
 
-\textrm{Area} = 12 \, \textrm{m}^2.
+\text{Area} = 12 \, \text{m}^2.
 
 
 
@@ -227,7 +227,7 @@ $$
 
 
 
-5 \times 12 = 60 \, \textrm{l}.
+5 \times 12 = 60 \, \text{l}.
 
 
 

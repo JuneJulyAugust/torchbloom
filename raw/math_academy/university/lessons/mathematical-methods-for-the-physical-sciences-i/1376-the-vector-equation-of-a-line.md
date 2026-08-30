@@ -44,7 +44,7 @@ the vector equation of the line that is parallel to $\mathbf{v}$ and passes thro
 $$
 
 
-\begin{aligned}𝐫 & =\begin{aligned}−1 \\ 0 \\ −3\end{aligned}+𝑡\begin{aligned}1 \\ 2 \\ −1\end{aligned},\,𝑡∈(−∞,∞).\end{aligned}
+\begin{aligned}𝐫 & =\begin{matrix}−1 \\ 0 \\ −3\end{matrix}+𝑡\begin{matrix}1 \\ 2 \\ −1\end{matrix},\,𝑡∈(−∞,∞).\end{aligned}
 
 
 $$
@@ -76,7 +76,7 @@ Using the formula for the vector equation of a line, we have
 $$
 
 
-\begin{aligned}𝐫 & =\begin{aligned}3 \\ −1 \\ 7\end{aligned}+𝑡\begin{aligned}0 \\ 5 \\ −3\end{aligned},\,𝑡∈(−∞,∞).\end{aligned}
+\begin{aligned}𝐫 & =\begin{matrix}3 \\ −1 \\ 7\end{matrix}+𝑡\begin{matrix}0 \\ 5 \\ −3\end{matrix},\,𝑡∈(−∞,∞).\end{aligned}
 
 
 $$
@@ -116,7 +116,7 @@ Therefore, the vector equation of the line is given by
 $$
 
 
-\begin{aligned}𝐫 & =\begin{aligned}1 \\ −1 \\ 2\end{aligned}+𝑡\begin{aligned}2 \\ 3 \\ 5\end{aligned},\,𝑡∈(−∞,∞).\end{aligned}
+\begin{aligned}𝐫 & =\begin{matrix}1 \\ −1 \\ 2\end{matrix}+𝑡\begin{matrix}2 \\ 3 \\ 5\end{matrix},\,𝑡∈(−∞,∞).\end{aligned}
 
 
 $$
@@ -178,7 +178,7 @@ Using the fact that $PA=6\sqrt{2},$ we get:
 $$
 
 
-\begin{aligned}𝑃𝐴 & =6\sqrt{√2} \\ |\overset{𝑃𝐴}{}| & =6\sqrt{√2} \\ |⟨−4𝑡,\,𝑡,\,𝑡⟩| & =6\sqrt{√2} \\ \sqrt{√(−4𝑡)^{2}+𝑡^{2}+𝑡^{2}} & =6\sqrt{√2} \\ \sqrt{√18𝑡^{2}} & =6\sqrt{√2} \\ ±3𝑡\sqrt{√2} & =6\sqrt{√2} \\ 𝑡 & =±2\end{aligned}
+\begin{aligned}𝑃𝐴 & =6\sqrt{2} \\ |\overset{𝑃𝐴}{}| & =6\sqrt{2} \\ |⟨−4𝑡,\,𝑡,\,𝑡⟩| & =6\sqrt{2} \\ \sqrt{(−4𝑡)^{2}+𝑡^{2}+𝑡^{2}} & =6\sqrt{2} \\ \sqrt{18𝑡^{2}} & =6\sqrt{2} \\ ±3𝑡\sqrt{2} & =6\sqrt{2} \\ 𝑡 & =±2\end{aligned}
 
 
 $$
@@ -208,7 +208,7 @@ First, we need to find a direction vector parallel to the given line. We can use
 $$
 
 
-\begin{aligned}𝐯 & =\overset{𝑃𝑄}{} \\ & =\overset{𝑂𝑄}{}−\overset{𝑂𝑃}{} \\ & =\begin{aligned}3 \\ 4 \\ 4\end{aligned}−\begin{aligned}3 \\ −1 \\ 7\end{aligned} \\ & =\begin{aligned}0 \\ 5 \\ −3\end{aligned}\end{aligned}
+\begin{aligned}𝐯 & =\overset{𝑃𝑄}{} \\ & =\overset{𝑂𝑄}{}−\overset{𝑂𝑃}{} \\ & =\begin{matrix}3 \\ 4 \\ 4\end{matrix}−\begin{matrix}3 \\ −1 \\ 7\end{matrix} \\ & =\begin{matrix}0 \\ 5 \\ −3\end{matrix}\end{aligned}
 
 
 $$

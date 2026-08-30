@@ -26,7 +26,7 @@ Let's write down expressions for $\csc(B),$ $\sec(B),$ and $\cot(B)$ for the tri
 $$
 
 
-\begin{aligned} \csc(B) &= \dfrac {\text{hypotenuse}} {\text{opposite}} = \dfrac c b \\\[5pt] \sec(B) &= \dfrac {\text{hypotenuse}} {\text{adjacent}} = \dfrac c a \\\[5pt] \cot(B) &= \dfrac {\text{adjacent}} {\text{opposite}} = \dfrac a b \\\end{aligned}
+\begin{aligned} \csc(B) &= \dfrac {\text{hypotenuse}} {\text{opposite}} = \dfrac c b \\[5pt] \sec(B) &= \dfrac {\text{hypotenuse}} {\text{adjacent}} = \dfrac c a \\[5pt] \cot(B) &= \dfrac {\text{adjacent}} {\text{opposite}} = \dfrac a b \\\end{aligned}
 
 
 $$
@@ -46,7 +46,7 @@ We compute the three reciprocal trigonometric ratios as follows:
 $$
 
 
-\begin{aligned} \csc\theta &= \dfrac{1}{\sin\theta} = \dfrac {\text{hypotenuse}} {\text{opposite}} = \dfrac 5 3, \\\[5pt] \sec\theta &= \dfrac{1}{\cos\theta} = \dfrac {\text{hypotenuse}} {\text{adjacent}} = \dfrac 5 4, \\\[5pt] \cot\theta &= \dfrac{1}{\tan\theta} = \dfrac {\text{adjacent}} {\text{opposite}} = \dfrac 4 3. \end{aligned}
+\begin{aligned} \csc\theta &= \dfrac{1}{\sin\theta} = \dfrac {\text{hypotenuse}} {\text{opposite}} = \dfrac 5 3, \\[5pt] \sec\theta &= \dfrac{1}{\cos\theta} = \dfrac {\text{hypotenuse}} {\text{adjacent}} = \dfrac 5 4, \\[5pt] \cot\theta &= \dfrac{1}{\tan\theta} = \dfrac {\text{adjacent}} {\text{opposite}} = \dfrac 4 3. \end{aligned}
 
 
 $$
@@ -76,7 +76,7 @@ To find the length $JK,$ we can use the Pythagorean Theorem:
 $$
 
 
-\begin{aligned}𝐽𝐾 & =\sqrt{√𝐾𝐿^{2}−𝐽𝐿^{2}} \\ & =\sqrt{√4^{2}−3^{2}} \\ & =\sqrt{√16−9} \\ & =\sqrt{√7}\end{aligned}
+\begin{aligned}𝐽𝐾 & =\sqrt{𝐾𝐿^{2}−𝐽𝐿^{2}} \\ & =\sqrt{4^{2}−3^{2}} \\ & =\sqrt{16−9} \\ & =\sqrt{7}\end{aligned}
 
 
 $$
@@ -96,7 +96,7 @@ and therefore
 $$
 
 
-\begin{aligned}csc⁡𝐿 & =(\frac{\sqrt{√7}}{4})^{−1} \\ & =\frac{4}{\sqrt{√7}} \\ & =\frac{4⋅\sqrt{√7}}{\sqrt{√7}⋅\sqrt{√7}} \\ & =\frac{4\sqrt{√7}}{7}.\end{aligned}
+\begin{aligned}csc⁡𝐿 & =(\frac{\sqrt{7}}{4})^{−1} \\ & =\frac{4}{\sqrt{7}} \\ & =\frac{4⋅\sqrt{7}}{\sqrt{7}⋅\sqrt{7}} \\ & =\frac{4\sqrt{7}}{7}.\end{aligned}
 
 
 $$
@@ -126,7 +126,7 @@ To find the length $JL,$ we can use the Pythagorean Theorem:
 $$
 
 
-\begin{aligned}𝐽𝐿 & =\sqrt{√𝐾𝐿^{2}−𝐽𝐾^{2}} \\ & =\sqrt{√5^{2}−3^{2}} \\ & =\sqrt{√25−9} \\ & =\sqrt{√16} \\ & =4\end{aligned}
+\begin{aligned}𝐽𝐿 & =\sqrt{𝐾𝐿^{2}−𝐽𝐾^{2}} \\ & =\sqrt{5^{2}−3^{2}} \\ & =\sqrt{25−9} \\ & =\sqrt{16} \\ & =4\end{aligned}
 
 
 $$

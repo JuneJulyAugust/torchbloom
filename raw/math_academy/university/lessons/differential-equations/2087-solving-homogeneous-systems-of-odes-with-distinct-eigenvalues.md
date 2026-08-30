@@ -19,7 +19,7 @@ Let's consider a general linear system of two differential equations:
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=𝑎\,𝑥_{1}(𝑡)+𝑏\,𝑥_{2}(𝑡) \\ 𝑥_{′2}^{}(𝑡)=𝑐\,𝑥_{1}(𝑡)+𝑑\,𝑥_{2}(𝑡)\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=𝑎\,𝑥_{1}(𝑡)+𝑏\,𝑥_{2}(𝑡) \\ 𝑥_{′2}(𝑡)=𝑐\,𝑥_{1}(𝑡)+𝑑\,𝑥_{2}(𝑡)\end{aligned}
 
 
 $$
@@ -73,7 +73,7 @@ Therefore, the general solution of our matrix differential equation is
 $$
 
 
-\begin{aligned}𝐱(𝑡) & =𝑐_{1}[\begin{aligned}1 \\ −2\end{aligned}]𝑒^{−𝑡}+𝑐_{2}[\begin{aligned}2 \\ 5\end{aligned}]𝑒^{2𝑡},\,𝑐_{1},𝑐_{2}∈ℝ.\end{aligned}
+\begin{aligned}𝐱(𝑡) & =𝑐_{1}[\begin{matrix}1 \\ −2\end{matrix}]𝑒^{−𝑡}+𝑐_{2}[\begin{matrix}2 \\ 5\end{matrix}]𝑒^{2𝑡},\,𝑐_{1},𝑐_{2}∈ℝ.\end{aligned}
 
 
 $$
@@ -87,7 +87,7 @@ Find the general solution to the system of differential equations
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=6𝑥_{1}(𝑡)+7𝑥_{2}(𝑡) \\ 𝑥_{′2}^{}(𝑡)=−3𝑥_{1}(𝑡)−4𝑥_{2}(𝑡).\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=6𝑥_{1}(𝑡)+7𝑥_{2}(𝑡) \\ 𝑥_{′2}(𝑡)=−3𝑥_{1}(𝑡)−4𝑥_{2}(𝑡).\end{aligned}
 
 
 $$
@@ -101,7 +101,7 @@ First, we write down the matrix differential equation $\mathbf{x}'(t)=A\mathbf{x
 $$
 
 
-[\begin{aligned}𝑥_{′1}^{}(𝑡) \\ 𝑥_{′2}^{}(𝑡)\end{aligned}]
+[\begin{aligned}𝑥_{′1}(𝑡) \\ 𝑥_{′2}(𝑡)\end{aligned}]
 
 
 $$
@@ -117,7 +117,7 @@ Thus, the general solution to the given system is
 $$
 
 
-\begin{aligned}𝐱(𝑡) & =𝑐_{1}𝐯_{1}𝑒^{𝜆_{1}𝑡}+𝑐_{2}𝐯_{2}𝑒^{𝜆_{2}𝑡} \\ & =𝑐_{1}[\begin{aligned}−1 \\ 1\end{aligned}]𝑒^{−𝑡}+𝑐_{2}[\begin{aligned}7 \\ −3\end{aligned}]𝑒^{3𝑡},\,𝑐_{1},𝑐_{2}∈ℝ.\end{aligned}
+\begin{aligned}𝐱(𝑡) & =𝑐_{1}𝐯_{1}𝑒^{𝜆_{1}𝑡}+𝑐_{2}𝐯_{2}𝑒^{𝜆_{2}𝑡} \\ & =𝑐_{1}[\begin{matrix}−1 \\ 1\end{matrix}]𝑒^{−𝑡}+𝑐_{2}[\begin{matrix}7 \\ −3\end{matrix}]𝑒^{3𝑡},\,𝑐_{1},𝑐_{2}∈ℝ.\end{aligned}
 
 
 $$
@@ -187,7 +187,7 @@ Find the substitution that will decouple the following system of differential eq
 $$
 
 
-\begin{aligned}𝑥_{′1}^{}(𝑡)=−3𝑥_{1}(𝑡) \\ 𝑥_{′2}^{}(𝑡)=−3𝑥_{1}(𝑡)+𝑥_{2}(𝑡)\end{aligned}
+\begin{aligned}𝑥_{′1}(𝑡)=−3𝑥_{1}(𝑡) \\ 𝑥_{′2}(𝑡)=−3𝑥_{1}(𝑡)+𝑥_{2}(𝑡)\end{aligned}
 
 
 $$
@@ -199,7 +199,7 @@ Let's construct the matrix differential equation $\mathbf{x}'(t)=A\mathbf{x}(t)$
 $$
 
 
-[\begin{aligned}𝑥_{′1}^{}(𝑡) \\ 𝑥_{′2}^{}(𝑡)\end{aligned}]
+[\begin{aligned}𝑥_{′1}(𝑡) \\ 𝑥_{′2}(𝑡)\end{aligned}]
 
 
 $$
@@ -271,7 +271,7 @@ We can solve this new decoupled system using the formula
 $$
 
 
-\begin{aligned}𝐮(𝑡) & =𝑐_{1}[\begin{aligned}1 \\ 0\end{aligned}]𝑒^{𝜆_{1}𝑡}+𝑐_{2}[\begin{aligned}0 \\ 1\end{aligned}]𝑒^{𝜆_{2}𝑡},\,𝑐_{1},𝑐_{2}∈ℝ.\end{aligned}
+\begin{aligned}𝐮(𝑡) & =𝑐_{1}[\begin{matrix}1 \\ 0\end{matrix}]𝑒^{𝜆_{1}𝑡}+𝑐_{2}[\begin{matrix}0 \\ 1\end{matrix}]𝑒^{𝜆_{2}𝑡},\,𝑐_{1},𝑐_{2}∈ℝ.\end{aligned}
 
 
 $$
@@ -281,7 +281,7 @@ Using the substitution $\mathbf{x}(t)=E\mathbf{u}(t)$, we can transform the syst
 $$
 
 
-\begin{aligned}𝐱(𝑡) & =𝐸𝐮(𝑡) \\ & =𝐸(𝑐_{1}[\begin{aligned}1 \\ 0\end{aligned}]𝑒^{𝜆_{1}𝑡}+𝑐_{2}[\begin{aligned}0 \\ 1\end{aligned}]𝑒^{𝜆_{2}𝑡}) \\ & =𝑐_{1}𝐸[\begin{aligned}1 \\ 0\end{aligned}]𝑒^{𝜆_{1}𝑡}+𝑐_{2}𝐸[\begin{aligned}0 \\ 1\end{aligned}]𝑒^{𝜆_{2}𝑡} \\ & =𝑐_{1}𝐯_{1}𝑒^{𝜆_{1}𝑡}+𝑐_{2}𝐯_{2}𝑒^{𝜆_{2}𝑡}\end{aligned}
+\begin{aligned}𝐱(𝑡) & =𝐸𝐮(𝑡) \\ & =𝐸(𝑐_{1}[\begin{matrix}1 \\ 0\end{matrix}]𝑒^{𝜆_{1}𝑡}+𝑐_{2}[\begin{matrix}0 \\ 1\end{matrix}]𝑒^{𝜆_{2}𝑡}) \\ & =𝑐_{1}𝐸[\begin{matrix}1 \\ 0\end{matrix}]𝑒^{𝜆_{1}𝑡}+𝑐_{2}𝐸[\begin{matrix}0 \\ 1\end{matrix}]𝑒^{𝜆_{2}𝑡} \\ & =𝑐_{1}𝐯_{1}𝑒^{𝜆_{1}𝑡}+𝑐_{2}𝐯_{2}𝑒^{𝜆_{2}𝑡}\end{aligned}
 
 
 $$

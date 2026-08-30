@@ -17,7 +17,7 @@ The line integral with respect to $x$ of the function $f(x,y)$ along the path $C
 $$
 
 
-\int_C f(x,y)\,\textrm d x = \int\limits_a^b f(\mathbf r(t)) \, \dfrac{\text{d}x}{\text{d}t} \, \textrm{d}t,
+\int_C f(x,y)\,\textrm d x = \int\limits_a^b f(\mathbf r(t)) \, \dfrac{\text{d}x}{\text{d}t} \, \text{d}t,
 
 
 $$

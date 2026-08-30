@@ -183,25 +183,25 @@ When a frequency table contains grouped data, we cannot get an exact value for t
 
 To demonstrate, let's estimate the mean of the data set represented by the frequency table below.
 
-Since the data is grouped, we start by introducing $x_{\textrm{mid}},$ the middle value of $x$ for each group.
+Since the data is grouped, we start by introducing $x_{\text{mid}},$ the middle value of $x$ for each group.
 
-To calculate $x_{\textrm{mid}}$ for each group, we simply calculate the mean of the values on the boundary of each group.
+To calculate $x_{\text{mid}}$ for each group, we simply calculate the mean of the values on the boundary of each group.
 
 For example, the first group is $60-62.$ The boundary values are $60$ and $62,$ and so finding the mean of these values, we get
 
 $$
 
 
-x_{\textrm{mid}} = \dfrac{60+62}{2} = 61
+x_{\text{mid}} = \dfrac{60+62}{2} = 61
 
 
 $$
 
 and we add this to our table.
 
-If we calculate $x_{\textrm{mid}}$ for all groups, we get the following:
+If we calculate $x_{\text{mid}}$ for all groups, we get the following:
 
-Then, we introduce a new column $f\cdot x_{\textrm{mid}},$ and calculate this quantity for each row.
+Then, we introduce a new column $f\cdot x_{\text{mid}},$ and calculate this quantity for each row.
 
 Therefore, our estimate of the mean is
 
@@ -223,7 +223,7 @@ The table below shows the distribution of **** recorded at a track meet. Estimat
 
 To estimate the mean from grouped data, we first use the frequency table.
 
-Since the data is grouped, we record $x_{\textrm{mid}},$ the middle value of $x$ for each group. Then, we calculate $f\cdot x_{\textrm{mid}}$ for each row.
+Since the data is grouped, we record $x_{\text{mid}},$ the middle value of $x$ for each group. Then, we calculate $f\cdot x_{\text{mid}}$ for each row.
 
 Therefore, our estimate of the mean is
 

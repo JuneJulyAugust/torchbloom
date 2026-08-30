@@ -31,7 +31,7 @@ So let's calculate these dot products:
 $$
 
 
-\begin{aligned}𝐮⋅𝐰_{1} & =\begin{aligned}𝑥_{1} \\ 𝑥_{2} \\ 𝑥_{3}\end{aligned}⋅\begin{aligned}1 \\ 1 \\ 0\end{aligned}=𝑥_{1}+𝑥_{2} \\ 𝐮⋅𝐰_{2} & =\begin{aligned}𝑥_{1} \\ 𝑥_{2} \\ 𝑥_{3}\end{aligned}⋅\begin{aligned}0 \\ 2 \\ 0\end{aligned}=2𝑥_{2}\end{aligned}
+\begin{aligned}𝐮⋅𝐰_{1} & =\begin{matrix}𝑥_{1} \\ 𝑥_{2} \\ 𝑥_{3}\end{matrix}⋅\begin{matrix}1 \\ 1 \\ 0\end{matrix}=𝑥_{1}+𝑥_{2} \\ 𝐮⋅𝐰_{2} & =\begin{matrix}𝑥_{1} \\ 𝑥_{2} \\ 𝑥_{3}\end{matrix}⋅\begin{matrix}0 \\ 2 \\ 0\end{matrix}=2𝑥_{2}\end{aligned}
 
 
 $$
@@ -105,7 +105,7 @@ We write the corresponding augmented matrix $M$ and reduce it to row echelon for
 $$
 
 
-\begin{aligned}𝑀 & =[\begin{aligned}1 & −2 & 1 & 0 \\ 1 & −1 & 2 & 0\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+(−1)𝑅_{1} \\ & ∼[\begin{aligned}1 & −2 & 1 & 0 \\ 0 & 1 & 1 & 0\end{aligned}] & & \end{aligned}
+\begin{aligned}𝑀 & =[\begin{matrix}1 & −2 & 1 & 0 \\ 1 & −1 & 2 & 0\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+(−1)𝑅_{1} \\ & ∼[\begin{matrix}1 & −2 & 1 & 0 \\ 0 & 1 & 1 & 0\end{matrix}] & & \end{aligned}
 
 
 $$
@@ -142,7 +142,7 @@ To check whether a vector belongs to $H^{\perp},$ we use the following theorem:
 
 In other words:
 
-*If $H=\textrm{Span}\{\mathbf{h}_1,\mathbf{h}_2, \ldots, \mathbf{h}_n\},$ then $\mathbf{v} \in H^{\perp}$ if and only if $\mathbf{v}$ is orthogonal to $\{\mathbf{h}_1,\mathbf{h}_2, \ldots, \mathbf{h}_n\}.$*
+*If $H=\text{Span}\{\mathbf{h}_1,\mathbf{h}_2, \ldots, \mathbf{h}_n\},$ then $\mathbf{v} \in H^{\perp}$ if and only if $\mathbf{v}$ is orthogonal to $\{\mathbf{h}_1,\mathbf{h}_2, \ldots, \mathbf{h}_n\}.$*
 
 For example, if the 2D-plane $H$ passing through the origin in the three-dimensional space $\mathbb{R}^3$ (shown below) is spanned by the vectors $\mathbf{h}_1$ and $\mathbf{h}_2,$ then the orthogonal complement $H^\perp$ of $H$ consists of all vectors that are perpendicular to both $\mathbf{h}_1$ and $\mathbf{h}_2.$
 
@@ -209,7 +209,7 @@ We write the corresponding augmented matrix $M$ and reduce it to row echelon for
 $$
 
 
-\begin{aligned}𝑀 & =[\begin{aligned}2 & 1 & 1 & 0 \\ 1 & 2 & 1 & 0\end{aligned}] & 𝑅_{2} & :=𝑅_{2}−\frac{1}{2}𝑅_{1} \\ & ∼\begin{aligned}2 & 1 & 1 & 0 \\ 0 & \frac{3}{2} & \frac{1}{2} & 0\end{aligned} & & \end{aligned}
+\begin{aligned}𝑀 & =[\begin{matrix}2 & 1 & 1 & 0 \\ 1 & 2 & 1 & 0\end{matrix}] & 𝑅_{2} & :=𝑅_{2}−\frac{1}{2}𝑅_{1} \\ & ∼\begin{matrix}2 & 1 & 1 & 0 \\ 0 & \frac{3}{2} & \frac{1}{2} & 0\end{matrix} & & \end{aligned}
 
 
 $$

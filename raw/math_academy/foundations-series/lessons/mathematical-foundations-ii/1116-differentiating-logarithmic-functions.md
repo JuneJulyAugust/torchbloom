@@ -16,7 +16,7 @@ The derivative of the natural logarithm is the reciprocal function:
 $$
 
 
-\dfrac{\textrm{d}}{ \textrm{d} x}\left( \ln x \right)= \dfrac{1}{x}
+\dfrac{\text{d}}{ \text{d} x}\left( \ln x \right)= \dfrac{1}{x}
 
 
 $$
@@ -27,7 +27,7 @@ We'll prove this result in a future lesson.
 
 #### Question
 
-Given that $y=5\ln x$, find $\dfrac{\textrm{d}y}{\textrm{d}x}.$
+Given that $y=5\ln x$, find $\dfrac{\text{d}y}{\text{d}x}.$
 
 #### Explanation
 
@@ -36,7 +36,7 @@ The derivative of the natural logarithm is the reciprocal function:
 $$
 
 
-\dfrac{\textrm{d}}{ \textrm{d} x}\left( \ln x \right)= \dfrac{1}{x}
+\dfrac{\text{d}}{ \text{d} x}\left( \ln x \right)= \dfrac{1}{x}
 
 
 $$
@@ -46,7 +46,7 @@ We apply our formula and get
 $$
 
 
-\begin{aligned} \dfrac{\textrm{d}y}{\textrm{d}x} & = \left(5\ln x\right)'\\& = 5 (\ln x)'\\&=5\cdot \dfrac{1}{x}\\&= \dfrac{5}{x}. \end{aligned}
+\begin{aligned} \dfrac{\text{d}y}{\text{d}x} & = \left(5\ln x\right)'\\& = 5 (\ln x)'\\&=5\cdot \dfrac{1}{x}\\&= \dfrac{5}{x}. \end{aligned}
 
 
 $$
@@ -76,7 +76,7 @@ For a general logarithm of base $a,$ the derivative is given by
 $$
 
 
-\dfrac{\textrm{d}}{ \textrm{d} x}\left( \log_a x \right)= \dfrac{1}{x\ln a}.
+\dfrac{\text{d}}{ \text{d} x}\left( \log_a x \right)= \dfrac{1}{x\ln a}.
 
 
 $$
@@ -125,7 +125,7 @@ $$
 
 #### Question
 
-Given that $y=4\log_3 x,$ find $\dfrac{\textrm{d}y}{\textrm{d}x}.$
+Given that $y=4\log_3 x,$ find $\dfrac{\text{d}y}{\text{d}x}.$
 
 #### Explanation
 
@@ -134,7 +134,7 @@ Here, we apply our formula for the derivative when the base of the logarithm is 
 $$
 
 
-\begin{aligned} \dfrac{\textrm{d}y}{\textrm{d}x}&=\dfrac{\textrm{d}}{\textrm{d}x}\left(4\log_3 x\right)\\&=4\dfrac{\textrm{d}}{\textrm{d}x}\left(\log_3 x\right)\\&=4\cdot\dfrac{1}{x \ln 3}\\&=\dfrac{4}{x \ln 3}. \end{aligned}
+\begin{aligned} \dfrac{\text{d}y}{\text{d}x}&=\dfrac{\text{d}}{\text{d}x}\left(4\log_3 x\right)\\&=4\dfrac{\text{d}}{\text{d}x}\left(\log_3 x\right)\\&=4\cdot\dfrac{1}{x \ln 3}\\&=\dfrac{4}{x \ln 3}. \end{aligned}
 
 
 $$
@@ -147,14 +147,14 @@ Given that $y= \log_4 x + \ln x$, find the slope of the tangent at $x=1.$
 
 #### Explanation
 
-To find the slope of the tangent at a given point, we have to find $\dfrac {\textrm{d}y} {\textrm{d}x}$ at that point.
+To find the slope of the tangent at a given point, we have to find $\dfrac {\text{d}y} {\text{d}x}$ at that point.
 
 Taking the derivative, we have
 
 $$
 
 
-\begin{aligned} \dfrac{\textrm{d}y}{\textrm{d}x} &= \dfrac{\textrm{d}}{\textrm{d}x}\left( \log_4 x + \ln x \right)\\&= \dfrac{\textrm{d}}{\textrm{d}x}(\log_4 x) + \dfrac{\textrm{d}}{\textrm{d}x}(\ln x )\\&= \dfrac{1}{x\ln 4} + \dfrac{1}{x}. \end{aligned}
+\begin{aligned} \dfrac{\text{d}y}{\text{d}x} &= \dfrac{\text{d}}{\text{d}x}\left( \log_4 x + \ln x \right)\\&= \dfrac{\text{d}}{\text{d}x}(\log_4 x) + \dfrac{\text{d}}{\text{d}x}(\ln x )\\&= \dfrac{1}{x\ln 4} + \dfrac{1}{x}. \end{aligned}
 
 
 $$

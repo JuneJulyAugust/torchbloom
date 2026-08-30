@@ -136,7 +136,7 @@ First, we need to convert $A$ to row echelon form:
 $$
 
 
-\begin{aligned}𝐴 & =\begin{aligned}1 & 0 & 0 & 0 \\ 0 & 3 & 0 & −2 \\ 0 & −6 & 1 & 4\end{aligned} & 𝑅_{3}:=𝑅_{3}+2𝑅_{2} \\ & ∼\begin{aligned}1 & 0 & 0 & 0 \\ 0 & 3 & 0 & −2 \\ 0 & 0 & 1 & 0\end{aligned} & \end{aligned}
+\begin{aligned}𝐴 & =\begin{matrix}1 & 0 & 0 & 0 \\ 0 & 3 & 0 & −2 \\ 0 & −6 & 1 & 4\end{matrix} & 𝑅_{3}:=𝑅_{3}+2𝑅_{2} \\ & ∼\begin{matrix}1 & 0 & 0 & 0 \\ 0 & 3 & 0 & −2 \\ 0 & 0 & 1 & 0\end{matrix} & \end{aligned}
 
 
 $$
@@ -164,7 +164,7 @@ First, we need to convert $B$ to row echelon form:
 $$
 
 
-\begin{aligned}𝐵 & =\begin{aligned}1 & −5 & 0 & 0 \\ 0 & 0 & 2 & 0 \\ 0 & 0 & −4 & 7 \\ 0 & 0 & 0 & 2\end{aligned} & 𝑅_{3} & :=𝑅_{3}+2𝑅_{2} \\ & ∼\begin{aligned}1 & −5 & 0 & 0 \\ 0 & 0 & 2 & 0 \\ 0 & 0 & 0 & 7 \\ 0 & 0 & 0 & 2\end{aligned} & 𝑅_{4} & :=𝑅_{4}+(−\frac{2}{7})𝑅_{3} \\ & ∼\begin{aligned}1 & −5 & 0 & 0 \\ 0 & 0 & 2 & 0 \\ 0 & 0 & 0 & 7 \\ 0 & 0 & 0 & 0\end{aligned} & & \end{aligned}
+\begin{aligned}𝐵 & =\begin{matrix}1 & −5 & 0 & 0 \\ 0 & 0 & 2 & 0 \\ 0 & 0 & −4 & 7 \\ 0 & 0 & 0 & 2\end{matrix} & 𝑅_{3} & :=𝑅_{3}+2𝑅_{2} \\ & ∼\begin{matrix}1 & −5 & 0 & 0 \\ 0 & 0 & 2 & 0 \\ 0 & 0 & 0 & 7 \\ 0 & 0 & 0 & 2\end{matrix} & 𝑅_{4} & :=𝑅_{4}+(−\frac{2}{7})𝑅_{3} \\ & ∼\begin{matrix}1 & −5 & 0 & 0 \\ 0 & 0 & 2 & 0 \\ 0 & 0 & 0 & 7 \\ 0 & 0 & 0 & 0\end{matrix} & & \end{aligned}
 
 
 $$

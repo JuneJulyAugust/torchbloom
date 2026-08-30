@@ -32,7 +32,7 @@ $$
 
 
 
-0 \quad\textrm{and}\quad 1.
+0 \quad\text{and}\quad 1.
 
 
 

@@ -89,7 +89,7 @@ These sets do not include $0.$ If we want to include $0$ too, then we can use a 
 $$
 
 
-\begin{aligned}ℤ_{+0}^{} & ={0,1,2,3,…} \\ ℤ_{−0}^{} & ={0,−1,−2,−3,…}\end{aligned}
+\begin{aligned}ℤ_{+0} & ={0,1,2,3,…} \\ ℤ_{−0} & ={0,−1,−2,−3,…}\end{aligned}
 
 
 $$

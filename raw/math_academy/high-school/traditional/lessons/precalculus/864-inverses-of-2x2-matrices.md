@@ -32,7 +32,7 @@ $$
 
 
 
-\begin{aligned}𝐴^{−1} & =\frac{1}{det(𝐴)}[\begin{aligned}𝑑 & −𝑏 \\ −𝑐 & 𝑎\end{aligned}].\end{aligned}
+\begin{aligned}𝐴^{−1} & =\frac{1}{det(𝐴)}[\begin{matrix}𝑑 & −𝑏 \\ −𝑐 & 𝑎\end{matrix}].\end{aligned}
 
 
 
@@ -74,7 +74,7 @@ $$
 
 
 
-\begin{aligned}𝐴^{−1} & =\frac{1}{det(𝐴)}[\begin{aligned}𝑑 & −𝑏 \\ −𝑐 & 𝑎\end{aligned}].\end{aligned}
+\begin{aligned}𝐴^{−1} & =\frac{1}{det(𝐴)}[\begin{matrix}𝑑 & −𝑏 \\ −𝑐 & 𝑎\end{matrix}].\end{aligned}
 
 
 
@@ -98,7 +98,7 @@ $$
 
 
 
-\begin{aligned}𝐴^{−1} & =\frac{1}{det(𝐴)}[\begin{aligned}𝑑 & −𝑏 \\ −𝑐 & 𝑎\end{aligned}]. \\ & =\frac{1}{1}[\begin{aligned}1 & −0 \\ −(−2) & 1\end{aligned}] \\ & =[\begin{aligned}1 & 0 \\ 2 & 1\end{aligned}].\end{aligned}
+\begin{aligned}𝐴^{−1} & =\frac{1}{det(𝐴)}[\begin{matrix}𝑑 & −𝑏 \\ −𝑐 & 𝑎\end{matrix}]. \\ & =\frac{1}{1}[\begin{matrix}1 & −0 \\ −(−2) & 1\end{matrix}] \\ & =[\begin{matrix}1 & 0 \\ 2 & 1\end{matrix}].\end{aligned}
 
 
 
@@ -110,7 +110,7 @@ $$
 
 
 
-\begin{aligned}𝐴𝐴^{−1} & =[\begin{aligned}1 & 0 \\ −2 & 1\end{aligned}][\begin{aligned}1 & 0 \\ 2 & 1\end{aligned}] \\ & =[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ & =𝐼_{2}\,✓ \\ 𝐴^{−1}𝐴 & =[\begin{aligned}1 & 0 \\ 2 & 1\end{aligned}][\begin{aligned}1 & 0 \\ −2 & 1\end{aligned}] \\ & =[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ & =𝐼_{2}\,✓\end{aligned}
+\begin{aligned}𝐴𝐴^{−1} & =[\begin{matrix}1 & 0 \\ −2 & 1\end{matrix}][\begin{matrix}1 & 0 \\ 2 & 1\end{matrix}] \\ & =[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}] \\ & =𝐼_{2}\,✓ \\ 𝐴^{−1}𝐴 & =[\begin{matrix}1 & 0 \\ 2 & 1\end{matrix}][\begin{matrix}1 & 0 \\ −2 & 1\end{matrix}] \\ & =[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}] \\ & =𝐼_{2}\,✓\end{aligned}
 
 
 
@@ -228,7 +228,7 @@ $$
 
 
 
-\begin{aligned}𝐴^{−1}⋅𝐴 & =\frac{1}{𝑎𝑑−𝑏𝑐}[\begin{aligned}𝑑 & −𝑏 \\ −𝑐 & 𝑎\end{aligned}]⋅[\begin{aligned}𝑎 & 𝑏 \\ 𝑐 & 𝑑\end{aligned}] \\ & =\frac{1}{𝑎𝑑−𝑏𝑐}[\begin{aligned}𝑎𝑑−𝑏𝑐 & 0 \\ 0 & −𝑏𝑐+𝑎𝑑\end{aligned}] \\ & =[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ & =𝐼_{2}\,✓\end{aligned}
+\begin{aligned}𝐴^{−1}⋅𝐴 & =\frac{1}{𝑎𝑑−𝑏𝑐}[\begin{matrix}𝑑 & −𝑏 \\ −𝑐 & 𝑎\end{matrix}]⋅[\begin{matrix}𝑎 & 𝑏 \\ 𝑐 & 𝑑\end{matrix}] \\ & =\frac{1}{𝑎𝑑−𝑏𝑐}[\begin{matrix}𝑎𝑑−𝑏𝑐 & 0 \\ 0 & −𝑏𝑐+𝑎𝑑\end{matrix}] \\ & =[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}] \\ & =𝐼_{2}\,✓\end{aligned}
 
 
 
@@ -240,7 +240,7 @@ $$
 
 
 
-\begin{aligned}𝐴⋅𝐴^{−1} & =[\begin{aligned}𝑎 & 𝑏 \\ 𝑐 & 𝑑\end{aligned}]⋅\frac{1}{𝑎𝑑−𝑏𝑐}[\begin{aligned}𝑑 & −𝑏 \\ −𝑐 & 𝑎\end{aligned}] \\ & =\frac{1}{𝑎𝑑−𝑏𝑐}[\begin{aligned}𝑎 & 𝑏 \\ 𝑐 & 𝑑\end{aligned}]⋅[\begin{aligned}𝑑 & −𝑏 \\ −𝑐 & 𝑎\end{aligned}] \\ & =\frac{1}{𝑎𝑑−𝑏𝑐}[\begin{aligned}𝑎𝑑−𝑏𝑐 & 0 \\ 0 & −𝑏𝑐+𝑎𝑑\end{aligned}] \\ & =[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}] \\ & =𝐼_{2}\,✓\end{aligned}
+\begin{aligned}𝐴⋅𝐴^{−1} & =[\begin{matrix}𝑎 & 𝑏 \\ 𝑐 & 𝑑\end{matrix}]⋅\frac{1}{𝑎𝑑−𝑏𝑐}[\begin{matrix}𝑑 & −𝑏 \\ −𝑐 & 𝑎\end{matrix}] \\ & =\frac{1}{𝑎𝑑−𝑏𝑐}[\begin{matrix}𝑎 & 𝑏 \\ 𝑐 & 𝑑\end{matrix}]⋅[\begin{matrix}𝑑 & −𝑏 \\ −𝑐 & 𝑎\end{matrix}] \\ & =\frac{1}{𝑎𝑑−𝑏𝑐}[\begin{matrix}𝑎𝑑−𝑏𝑐 & 0 \\ 0 & −𝑏𝑐+𝑎𝑑\end{matrix}] \\ & =[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}] \\ & =𝐼_{2}\,✓\end{aligned}
 
 
 

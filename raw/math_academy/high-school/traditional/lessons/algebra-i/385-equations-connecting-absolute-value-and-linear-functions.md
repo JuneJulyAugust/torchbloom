@@ -49,7 +49,7 @@ Therefore, we have the following two cases:
 $$
 
 
-|5x+7| = 5x+7 \qquad \textrm{and}\qquad |5x+7| = -(5x+7)
+|5x+7| = 5x+7 \qquad \text{and}\qquad |5x+7| = -(5x+7)
 
 
 $$

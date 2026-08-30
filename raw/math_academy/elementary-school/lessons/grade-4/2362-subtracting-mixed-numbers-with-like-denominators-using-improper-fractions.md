@@ -230,7 +230,7 @@ Finally, we convert back to a mixed number:
 
 $$
 
-9\div 2 = 4\,\textrm{R}1
+9\div 2 = 4\,\text{R}1
 
 $$
 

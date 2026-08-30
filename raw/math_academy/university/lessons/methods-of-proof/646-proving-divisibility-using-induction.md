@@ -51,7 +51,7 @@ We start by proving the base case, $P(1).$ To do this, we substitute $n=1$ into 
 $$
 
 
-P(1): \quad 1^2+5(1) = 6,\quad\textrm{and}\quad 2\,\mid\,6.
+P(1): \quad 1^2+5(1) = 6,\quad\text{and}\quad 2\,\mid\,6.
 
 
 $$

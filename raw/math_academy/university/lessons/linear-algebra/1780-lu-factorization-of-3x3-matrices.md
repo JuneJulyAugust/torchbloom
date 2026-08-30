@@ -33,7 +33,7 @@ As usual, to find the matrices $L$ and $U,$ we can reduce the matrix $A$ to *ech
 $$
 
 
-\begin{aligned}𝐴 & =\begin{aligned}1 & −1 & −2 \\ 0 & 2 & −3 \\ −2 & 2 & 7\end{aligned} & 𝑅_{3} & :=𝑅_{3}+2𝑅_{1} & ⇔ & \,\overset{\overset\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 2 & 0 & 1\end{aligned}}{}}{𝐸_{1}}⋅𝐴 \\ & ∼\begin{aligned}1 & −1 & −2 \\ 0 & 2 & −3 \\ 0 & 0 & 3\end{aligned}=𝑈 & & & & \end{aligned}
+\begin{aligned}𝐴 & =\begin{matrix}1 & −1 & −2 \\ 0 & 2 & −3 \\ −2 & 2 & 7\end{matrix} & 𝑅_{3} & :=𝑅_{3}+2𝑅_{1} & ⇔ & \,\overset{\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 2 & 0 & 1\end{matrix}}{𝐸_{1}}⋅𝐴 \\ & ∼\begin{matrix}1 & −1 & −2 \\ 0 & 2 & −3 \\ 0 & 0 & 3\end{matrix}=𝑈 & & & & \end{aligned}
 
 
 $$
@@ -43,7 +43,7 @@ The reduced matrix is upper triangular, so it is our matrix $U.$ Now, since $E_1
 $$
 
 
-\begin{aligned}𝐸_{1}𝐴 & =𝑈 \\ 𝐴 & =𝐸_{−11}^{}𝑈 \\ 𝐴 & =\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 2 & 0 & 1\end{aligned}^{−1}𝑈 \\ 𝐴 & =\underset{𝐿}{\underset{}\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ −2 & 0 & 1\end{aligned}}}\underset{𝑈}{\underset{}\begin{aligned}1 & −1 & −2 \\ 0 & 2 & −3 \\ 0 & 0 & 3\end{aligned}}}\end{aligned}
+\begin{aligned}𝐸_{1}𝐴 & =𝑈 \\ 𝐴 & =𝐸_{−11}𝑈 \\ 𝐴 & =\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 2 & 0 & 1\end{matrix}^{−1}𝑈 \\ 𝐴 & =\underset{𝐿}{\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ −2 & 0 & 1\end{matrix}}\underset{𝑈}{\begin{matrix}1 & −1 & −2 \\ 0 & 2 & −3 \\ 0 & 0 & 3\end{matrix}}\end{aligned}
 
 
 $$
@@ -67,7 +67,7 @@ To find the matrices $L$ and $U,$ we reduce the matrix $A$ to row echelon form. 
 $$
 
 
-\begin{aligned}𝐴 & =\begin{aligned}4 & 1 & −6 \\ 0 & 3 & 1 \\ 0 & 6 & −2\end{aligned} & 𝑅_{3} & :=𝑅_{3}+(−2)𝑅_{2} & ⟺ & \,\overset{\overset\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & −2 & 1\end{aligned}}{}}{𝐸_{1}}⋅𝐴 \\ & ∼\begin{aligned}4 & 1 & −6 \\ 0 & 3 & 1 \\ 0 & 0 & −4\end{aligned} & & & & \\ & =𝑈 & & & & \end{aligned}
+\begin{aligned}𝐴 & =\begin{matrix}4 & 1 & −6 \\ 0 & 3 & 1 \\ 0 & 6 & −2\end{matrix} & 𝑅_{3} & :=𝑅_{3}+(−2)𝑅_{2} & ⟺ & \,\overset{\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & −2 & 1\end{matrix}}{𝐸_{1}}⋅𝐴 \\ & ∼\begin{matrix}4 & 1 & −6 \\ 0 & 3 & 1 \\ 0 & 0 & −4\end{matrix} & & & & \\ & =𝑈 & & & & \end{aligned}
 
 
 $$
@@ -77,7 +77,7 @@ The reduced matrix is upper triangular, so it is our matrix $U.$ Now, since $E_1
 $$
 
 
-\begin{aligned}𝐸_{1}𝐴 & =𝑈 \\ 𝐴 & =𝐸_{−11}^{}𝑈 \\ 𝐴 & =\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & −2 & 1\end{aligned}^{−1}𝑈 \\ 𝐴 & =\underset{𝐿}{\underset{}\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 2 & 1\end{aligned}}}\underset{𝑈}{\underset{}\begin{aligned}4 & 1 & −6 \\ 0 & 3 & 1 \\ 0 & 0 & −4\end{aligned}}}\end{aligned}
+\begin{aligned}𝐸_{1}𝐴 & =𝑈 \\ 𝐴 & =𝐸_{−11}𝑈 \\ 𝐴 & =\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & −2 & 1\end{matrix}^{−1}𝑈 \\ 𝐴 & =\underset{𝐿}{\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 2 & 1\end{matrix}}\underset{𝑈}{\begin{matrix}4 & 1 & −6 \\ 0 & 3 & 1 \\ 0 & 0 & −4\end{matrix}}\end{aligned}
 
 
 $$
@@ -115,7 +115,7 @@ Now, since $E_2E_1F=U,$ we can invert $E_2$ and $E_1$ to arrive at the desired L
 $$
 
 
-\begin{aligned}𝐸_{2}𝐸_{1}𝐹 & =𝑈 \\ 𝐸_{1}𝐹 & =𝐸_{−12}^{}𝑈 \\ 𝐹 & =𝐸_{−11}^{}𝐸_{−12}^{}𝑈 \\ 𝐹 & =\begin{aligned}1 & 0 & 0 \\ 1 & 1 & 0 \\ 0 & 0 & 1\end{aligned}^{−1}\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 2 & 0 & 1\end{aligned}^{−1}𝑈 \\ 𝐹 & =\begin{aligned}1 & 0 & 0 \\ −1 & 1 & 0 \\ 0 & 0 & 1\end{aligned}\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ −2 & 0 & 1\end{aligned}𝑈 \\ 𝐹 & =\underset{𝐿}{\underset{}\begin{aligned}1 & 0 & 0 \\ −1 & 1 & 0 \\ −2 & 0 & 1\end{aligned}}}⋅𝑈\end{aligned}
+\begin{aligned}𝐸_{2}𝐸_{1}𝐹 & =𝑈 \\ 𝐸_{1}𝐹 & =𝐸_{−12}𝑈 \\ 𝐹 & =𝐸_{−11}𝐸_{−12}𝑈 \\ 𝐹 & =\begin{matrix}1 & 0 & 0 \\ 1 & 1 & 0 \\ 0 & 0 & 1\end{matrix}^{−1}\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 2 & 0 & 1\end{matrix}^{−1}𝑈 \\ 𝐹 & =\begin{matrix}1 & 0 & 0 \\ −1 & 1 & 0 \\ 0 & 0 & 1\end{matrix}\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ −2 & 0 & 1\end{matrix}𝑈 \\ 𝐹 & =\underset{𝐿}{\begin{matrix}1 & 0 & 0 \\ −1 & 1 & 0 \\ −2 & 0 & 1\end{matrix}}⋅𝑈\end{aligned}
 
 
 $$
@@ -133,7 +133,7 @@ To find the matrices $L$ and $U,$ we reduce the matrix $A$ to row echelon form. 
 $$
 
 
-\begin{aligned}𝐴 & =\begin{aligned}4 & 8 & 0 \\ 5 & 11 & −6 \\ 0 & −4 & 16\end{aligned} & 𝑅_{2} & :=𝑅_{2}+(−\frac{5}{4})𝑅_{1} & ⟺ & \,\overset{\overset\begin{aligned}1 & 0 & 0 \\ −\frac{5}{4} & 1 & 0 \\ 0 & 0 & 1\end{aligned}}{}}{𝐸_{1}}⋅𝐴 \\ & ∼\begin{aligned}4 & 8 & 0 \\ 0 & 1 & −6 \\ 0 & −4 & 16\end{aligned} & 𝑅_{3} & :=𝑅_{3}+4𝑅_{2} & ⟺ & \,\overset{\overset\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 4 & 1\end{aligned}}{}}{𝐸_{2}}⋅𝐸_{1}⋅𝐴 \\ & ∼\begin{aligned}4 & 8 & 0 \\ 0 & 1 & −6 \\ 0 & 0 & −8\end{aligned} & & & & \\ & =𝑈 & & & & \end{aligned}
+\begin{aligned}𝐴 & =\begin{matrix}4 & 8 & 0 \\ 5 & 11 & −6 \\ 0 & −4 & 16\end{matrix} & 𝑅_{2} & :=𝑅_{2}+(−\frac{5}{4})𝑅_{1} & ⟺ & \,\overset{\begin{matrix}1 & 0 & 0 \\ −\frac{5}{4} & 1 & 0 \\ 0 & 0 & 1\end{matrix}}{𝐸_{1}}⋅𝐴 \\ & ∼\begin{matrix}4 & 8 & 0 \\ 0 & 1 & −6 \\ 0 & −4 & 16\end{matrix} & 𝑅_{3} & :=𝑅_{3}+4𝑅_{2} & ⟺ & \,\overset{\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 4 & 1\end{matrix}}{𝐸_{2}}⋅𝐸_{1}⋅𝐴 \\ & ∼\begin{matrix}4 & 8 & 0 \\ 0 & 1 & −6 \\ 0 & 0 & −8\end{matrix} & & & & \\ & =𝑈 & & & & \end{aligned}
 
 
 $$
@@ -143,7 +143,7 @@ The reduced matrix is upper triangular, so it is our matrix $U.$ Now, since $E_2
 $$
 
 
-\begin{aligned}𝐸_{2}𝐸_{1}𝐴 & =𝑈 \\ 𝐸_{1}𝐴 & =𝐸_{−12}^{}𝑈 \\ 𝐴 & =𝐸_{−11}^{}𝐸_{−12}^{}𝑈 \\ 𝐴 & =\begin{aligned}1 & 0 & 0 \\ −\frac{5}{4} & 1 & 0 \\ 0 & 0 & 1\end{aligned}^{−1}\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 4 & 1\end{aligned}^{−1}𝑈 \\ 𝐴 & =\begin{aligned}1 & 0 & 0 \\ \frac{5}{4} & 1 & 0 \\ 0 & 0 & 1\end{aligned}\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & −4 & 1\end{aligned}𝑈 \\ 𝐴 & =\underset{𝐿}{\underset{}\begin{aligned}1 & 0 & 0 \\ \frac{5}{4} & 1 & 0 \\ 0 & −4 & 1\end{aligned}}}\underset{𝑈}{\underset{}\begin{aligned}4 & 8 & 0 \\ 0 & 1 & −6 \\ 0 & 0 & −8\end{aligned}}}\end{aligned}
+\begin{aligned}𝐸_{2}𝐸_{1}𝐴 & =𝑈 \\ 𝐸_{1}𝐴 & =𝐸_{−12}𝑈 \\ 𝐴 & =𝐸_{−11}𝐸_{−12}𝑈 \\ 𝐴 & =\begin{matrix}1 & 0 & 0 \\ −\frac{5}{4} & 1 & 0 \\ 0 & 0 & 1\end{matrix}^{−1}\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 4 & 1\end{matrix}^{−1}𝑈 \\ 𝐴 & =\begin{matrix}1 & 0 & 0 \\ \frac{5}{4} & 1 & 0 \\ 0 & 0 & 1\end{matrix}\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & −4 & 1\end{matrix}𝑈 \\ 𝐴 & =\underset{𝐿}{\begin{matrix}1 & 0 & 0 \\ \frac{5}{4} & 1 & 0 \\ 0 & −4 & 1\end{matrix}}\underset{𝑈}{\begin{matrix}4 & 8 & 0 \\ 0 & 1 & −6 \\ 0 & 0 & −8\end{matrix}}\end{aligned}
 
 
 $$

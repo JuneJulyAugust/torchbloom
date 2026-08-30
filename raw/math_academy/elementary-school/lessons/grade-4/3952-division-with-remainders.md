@@ -33,7 +33,7 @@ Finally, we have
 
 $$
 
-30 \div 7 = {\color{red}4} \, \textrm{R} \, {\color{blue}2}.
+30 \div 7 = {\color{red}4} \, \text{R} \, {\color{blue}2}.
 
 $$
 
@@ -45,7 +45,7 @@ Find the quotient in the division problem below.
 
 $$
 
-25 \div 6 =\,\, \boxed{\color{red}?} \,\, \textrm{R} \: 1
+25 \div 6 =\,\, \boxed{\color{red}?} \,\, \text{R} \: 1
 
 $$
 
@@ -67,7 +67,7 @@ Finally, we can write
 
 $$
 
-25 \div 6 =\,\, \boxed{\color{red}4} \,\, \textrm{R} \: 1.
+25 \div 6 =\,\, \boxed{\color{red}4} \,\, \text{R} \: 1.
 
 $$
 
@@ -91,7 +91,7 @@ Therefore, the remainder must be ${\color{blue}{6}}.$ Finally, we have
 
 $$
 
-62 \div 8 = {\color{red}7} \, \textrm{R} \, {\color{blue}6}.
+62 \div 8 = {\color{red}7} \, \text{R} \, {\color{blue}6}.
 
 $$
 
@@ -113,6 +113,6 @@ Therefore, the remainder must be ${\color{blue}{3}}.$ Finally, we have
 
 $$
 
-51 \div 6 = {\color{red}8} \, \textrm{R} \, {\color{blue}3}.
+51 \div 6 = {\color{red}8} \, \text{R} \, {\color{blue}3}.
 
 $$

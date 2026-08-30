@@ -29,7 +29,7 @@ Let's see an example.
 
 #### Question
 
-Martha and Lucy jog on an Olympic track, which is $0.4 \, \textrm{km}$ long. If Martha and Lucy started running simultaneously from the same point at speeds of $7 \, \textrm{km/h}$ and $5 \, \textrm{km/h},$ respectively, how long did it take Martha to lap Lucy for the first time?
+Martha and Lucy jog on an Olympic track, which is $0.4 \, \text{km}$ long. If Martha and Lucy started running simultaneously from the same point at speeds of $7 \, \text{km/h}$ and $5 \, \text{km/h},$ respectively, how long did it take Martha to lap Lucy for the first time?
 
 #### Explanation
 
@@ -37,7 +37,7 @@ Let $T$ be the time it takes Martha to lap Lucy for the first time.
 
 We start by filling in a speed-time-distance table:
 
-When Martha first laps Lucy, Martha will have run exactly one more lap around the track than Lucy has. Since the track is $0.4 \, \textrm{km}$ around, we must have
+When Martha first laps Lucy, Martha will have run exactly one more lap around the track than Lucy has. Since the track is $0.4 \, \text{km}$ around, we must have
 
 $$
 
@@ -63,7 +63,7 @@ Therefore, it takes Martha $12$ minutes to lap Lucy.
 
 #### Question
 
-On a highway, a taxi passes a gas station at a speed of $50 \, \textrm{km/h}.$ After $2.4$ hours, another taxi passes the same gas station at $80 \, \textrm{km/h},$ moving in the same direction. How long will it take for the second taxi to catch up with the first?
+On a highway, a taxi passes a gas station at a speed of $50 \, \text{km/h}.$ After $2.4$ hours, another taxi passes the same gas station at $80 \, \text{km/h},$ moving in the same direction. How long will it take for the second taxi to catch up with the first?
 
 #### Explanation
 
@@ -87,7 +87,7 @@ Therefore, it takes the second taxi $4$ hours to catch up with the first.
 
 #### Question
 
-Bus $A$ leaves a station at $9{:}00$ am traveling $40\,\textrm{mi/h}.$ $30$ minutes later, bus $B$ leaves the same station, traveling in the same direction at $70\,\textrm{mi/h}.$ At what time does bus $B$ catch up with bus $A?$
+Bus $A$ leaves a station at $9{:}00$ am traveling $40\,\text{mi/h}.$ $30$ minutes later, bus $B$ leaves the same station, traveling in the same direction at $70\,\text{mi/h}.$ At what time does bus $B$ catch up with bus $A?$
 
 #### Explanation
 

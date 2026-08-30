@@ -15,17 +15,17 @@ Topic ID: 1788
 
 One application of differential equations is to model the current in electrical circuits.
 
-An **electrical circuit** is a closed, continuous path through which an electric charge can flow. The **current**, measured in amperes ($\textrm{A}$), is the rate at which electric charge flows through the circuit as a function of time.
+An **electrical circuit** is a closed, continuous path through which an electric charge can flow. The **current**, measured in amperes ($\text{A}$), is the rate at which electric charge flows through the circuit as a function of time.
 
 Electrical circuits can contain many different components.
 
-- A **power source**, such as a **cell** (or **battery**), that supplies energy to the circuit by maintaining a potential difference (electromotive force, EMF), measured in volts ($\textrm{V}$).
+- A **power source**, such as a **cell** (or **battery**), that supplies energy to the circuit by maintaining a potential difference (electromotive force, EMF), measured in volts ($\text{V}$).
 
 - **Conducting paths**, such as wires, through which current carriers (electrons) flow.
 
 - A **resistor** opposes the current and dissipates energy as heat. Resistance is measured in ohms ($\Omega$).
 
-- An **inductor** opposes *changes* in the current over time by storing energy in a magnetic field. Inductance is measured in henries ($\textrm{H}$).
+- An **inductor** opposes *changes* in the current over time by storing energy in a magnetic field. Inductance is measured in henries ($\text{H}$).
 
 In the next slide, we will connect these components in series to form an RL circuit.
 
@@ -71,7 +71,7 @@ Consider the RL circuit shown below.
 
 Let's find the differential equation that describes the current $I$ (in amperes) as a function of time $t$ (in seconds).
 
-The diagram shows a series RL circuit with a source electromotive force (EMF) of $5\,\textrm{V},$ a resistor with resistance $15\,\Omega,$ and an inductor with an inductance of $3\,\textrm{H}.$
+The diagram shows a series RL circuit with a source electromotive force (EMF) of $5\,\text{V},$ a resistor with resistance $15\,\Omega,$ and an inductor with an inductance of $3\,\text{H}.$
 
 Kirchhoff's voltage law states that in a series circuit, the source voltage (EMF) equals the sum of the voltage drops.
 
@@ -79,7 +79,7 @@ In an RL circuit, there are two voltage drops:
 
 - The voltage drop across the resistor is proportional to the current, with a constant of proportionality $R = 15\,\Omega{:}$
 
-- The voltage drop across the inductor is proportional to the rate of change of current, with a constant of proportionality $L = 3\,\textrm{H}{:}$
+- The voltage drop across the inductor is proportional to the rate of change of current, with a constant of proportionality $L = 3\,\text{H}{:}$
 
 Therefore, by Kirchhoff's voltage law, the differential equation governing the amount of current $I$ in the circuit is
 
@@ -111,7 +111,7 @@ Find the differential equation governing the amount of current $I$ (in amperes) 
 
 #### Explanation
 
-The diagram shows a series RL circuit with a source electromotive force (EMF) of $E(t) = 7\sin(3t)\,\textrm{V},$ a resistor with resistance $14\,\Omega,$ and an inductor with an inductance of $7\,\textrm{H}.$
+The diagram shows a series RL circuit with a source electromotive force (EMF) of $E(t) = 7\sin(3t)\,\text{V},$ a resistor with resistance $14\,\Omega,$ and an inductor with an inductance of $7\,\text{H}.$
 
 Kirchhoff's voltage law states that in a series circuit, the source voltage (EMF) equals the sum of the voltage drops.
 
@@ -119,7 +119,7 @@ In an RL circuit, there are two voltage drops:
 
 - The voltage drop across the resistor is proportional to the current, with a constant of proportionality $R = 14\,\Omega.$
 
-- The voltage drop across the inductor is proportional to the rate of change of current, with a constant of proportionality $L = 7\,\textrm{H}.$
+- The voltage drop across the inductor is proportional to the rate of change of current, with a constant of proportionality $L = 7\,\text{H}.$
 
 The source voltage (EMF) is given by
 
@@ -217,11 +217,11 @@ Therefore, the steady-state current is $2$ amperes.
 
 ![Instructional graphic](../../../lesson-assets/differential-equations/topic-1788/0175d835a214d22f.png)
 
-Find an equation for the current $I(t)$ (in amperes) in the circuit given in the diagram above, expressing your answer in terms of time $t$ (in seconds) ****, given that the current when $t = 0\,\textrm s$ is $1\,\textrm{A}.$
+Find an equation for the current $I(t)$ (in amperes) in the circuit given in the diagram above, expressing your answer in terms of time $t$ (in seconds) ****, given that the current when $t = 0\,\textrm s$ is $1\,\text{A}.$
 
 #### Explanation
 
-The diagram shows a series RL circuit with a source electromotive force (EMF) of $4\,\textrm{V},$ a resistor of resistance of $12\,\Omega,$ and an inductor of inductance $2\,\textrm{H}.$
+The diagram shows a series RL circuit with a source electromotive force (EMF) of $4\,\text{V},$ a resistor of resistance of $12\,\Omega,$ and an inductor of inductance $2\,\text{H}.$
 
 Kirchhoff's voltage law states that in a series circuit, the source voltage (EMF) equals the sum of the voltage drops.
 
@@ -229,7 +229,7 @@ In an RL circuit, there are two voltage drops:
 
 - The voltage drop across the resistor is proportional to the current, with a constant of proportionality $R = 12\,\Omega.$
 
-- The voltage drop across the inductor is proportional to the rate of change of current, with a constant of proportionality $L = 2\,\textrm{H}.$
+- The voltage drop across the inductor is proportional to the rate of change of current, with a constant of proportionality $L = 2\,\text{H}.$
 
 Therefore, by Kirchhoff's voltage law, the differential equation governing the amount of current $I$ in the circuit is
 
@@ -267,7 +267,7 @@ I(t) = I_c(t) + I_p(t) = Ae^{-6t} + \dfrac13.
 
 $$
 
-We're told that the circuit starts with an initial current of $1\,\textrm{A}.$ So, we can apply the initial condition $I(0) = 1,$ and solve for $A{:}$
+We're told that the circuit starts with an initial current of $1\,\text{A}.$ So, we can apply the initial condition $I(0) = 1,$ and solve for $A{:}$
 
 $$
 
@@ -305,7 +305,7 @@ For example, let's find the amplitude of the steady-state current in the RL circ
 
 ![Instructional graphic](../../../lesson-assets/differential-equations/topic-1788/91df1f4d0c5be4d1.png)
 
-The diagram shows a series RL circuit with a source electromotive force (EMF) of $3\sin(4t)\,\textrm{V},$ a resistor of resistance $7\,\Omega,$ and an inductor of inductance $1\,\textrm{H}.$
+The diagram shows a series RL circuit with a source electromotive force (EMF) of $3\sin(4t)\,\text{V},$ a resistor of resistance $7\,\Omega,$ and an inductor of inductance $1\,\text{H}.$
 
 Kirchhoff's voltage law states that in a series circuit, the source voltage (EMF) equals the sum of the voltage drops.
 
@@ -313,7 +313,7 @@ In an RL circuit, there are two voltage drops:
 
 - The voltage drop across the resistor is proportional to the current, with a constant of proportionality $R = 7\,\Omega.$
 
-- The voltage drop across the inductor is proportional to the rate of change of current, with a constant of proportionality $L = 1\,\textrm{H}.$
+- The voltage drop across the inductor is proportional to the rate of change of current, with a constant of proportionality $L = 1\,\text{H}.$
 
 Therefore, by Kirchhoff's voltage law, the differential equation governing the amount of current $I$ in the circuit is
 
@@ -372,7 +372,7 @@ Finally, the amplitude of the steady-state current is given by
 $$
 
 
-\sqrt{\left(-\dfrac{12}{65}\right)^2 + \left(\dfrac{21}{65}\right)^2} \approx 0.37\,\textrm{A},
+\sqrt{\left(-\dfrac{12}{65}\right)^2 + \left(\dfrac{21}{65}\right)^2} \approx 0.37\,\text{A},
 
 
 $$
@@ -389,7 +389,7 @@ Find the amplitude of the steady-state current for the RL circuit shown above, *
 
 #### Explanation
 
-The diagram shows a series RL circuit with a source electromotive force (EMF) of $5\sin(3t)\,\textrm{V},$ a resistor of resistance $5\,\Omega,$ and an inductor of inductance $1\,\textrm{H}.$
+The diagram shows a series RL circuit with a source electromotive force (EMF) of $5\sin(3t)\,\text{V},$ a resistor of resistance $5\,\Omega,$ and an inductor of inductance $1\,\text{H}.$
 
 Kirchhoff's voltage law states that in a series circuit, the source voltage (EMF) equals the sum of the voltage drops.
 
@@ -397,7 +397,7 @@ In an RL circuit, there are two voltage drops:
 
 - The voltage drop across the resistor is proportional to the current, with a constant of proportionality $R = 5\,\Omega.$
 
-- The voltage drop across the inductor is proportional to the rate of change of current, with a constant of proportionality $L = 1\,\textrm{H}.$
+- The voltage drop across the inductor is proportional to the rate of change of current, with a constant of proportionality $L = 1\,\text{H}.$
 
 Therefore, by Kirchhoff's voltage law, the differential equation governing the amount of current $I$ in the circuit is
 
@@ -456,7 +456,7 @@ Finally, the amplitude of the steady-state current is given by
 $$
 
 
-\sqrt{\left(-\dfrac{15}{34}\right)^2 + \left(\dfrac{25}{34}\right)^2} \approx 0.86\,\textrm{A},
+\sqrt{\left(-\dfrac{15}{34}\right)^2 + \left(\dfrac{25}{34}\right)^2} \approx 0.86\,\text{A},
 
 
 $$

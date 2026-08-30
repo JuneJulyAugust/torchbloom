@@ -114,7 +114,7 @@ Now, to write down the fraction that goes in the box, recall that
 $$
 
 
-5 \div 3 = 1 \,\textrm{R}\, 2 = 1 \, \dfrac{2}{3}.
+5 \div 3 = 1 \,\text{R}\, 2 = 1 \, \dfrac{2}{3}.
 
 
 $$

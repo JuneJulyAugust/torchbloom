@@ -49,7 +49,7 @@ $$
 
 
 
-\textrm{Median}(B) = 6
+\text{Median}(B) = 6
 
 
 

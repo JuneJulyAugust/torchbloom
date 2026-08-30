@@ -75,7 +75,7 @@ The graph of $y=f(x)$ is shown above. Which of the following statements are true
 
 1. $f(x)$ is defined at $x=2$
 
-2. $\lim_\limits{x\rightarrow \, 2}f(x)$ exists
+2. $\lim\limits_{x\rightarrow \, 2}f(x)$ exists
 
 3. $f(x)$ is continuous at $x=2$
 
@@ -85,7 +85,7 @@ By inspecting the graph, we can conclude the following:
 
 - Statement I is true. Indeed, $f(2)=2.$
 
-- Statement II is false. From the graph, we can see that the left and right-sided limits are different: Therefore, $\lim_\limits{x\rightarrow \, 2}f(x)$ does not exist.
+- Statement II is false. From the graph, we can see that the left and right-sided limits are different: Therefore, $\lim\limits_{x\rightarrow \, 2}f(x)$ does not exist.
 
 - Statement III is false. The graph of the function breaks at $x=2.$ It's impossible to draw the graph of $f(x)$ without taking our pencil off of the paper. Therefore, $f(x)$ is not continuous at $x=2.$
 

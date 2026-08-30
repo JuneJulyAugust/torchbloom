@@ -126,7 +126,7 @@ $$
 
 
 
-2 \,\textrm{dollars per meter} \quad\rightarrow\quad \dfrac{1}{2} \,\textrm{meters per dollar} .
+2 \,\text{dollars per meter} \quad\rightarrow\quad \dfrac{1}{2} \,\text{meters per dollar} .
 
 
 
@@ -162,7 +162,7 @@ $$
 
 
 
-2.40\,\textrm{dollars per cup}\quad\rightarrow\quad 1 \div 2.40 \,\textrm{cups per dollar}
+2.40\,\text{dollars per cup}\quad\rightarrow\quad 1 \div 2.40 \,\text{cups per dollar}
 
 
 

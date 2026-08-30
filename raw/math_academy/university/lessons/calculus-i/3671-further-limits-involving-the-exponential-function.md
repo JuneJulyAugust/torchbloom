@@ -135,7 +135,7 @@ Rewriting the given limit using the algebra of limits and applying our special l
 $$
 
 
-\begin{aligned}\underset{𝑛→0}{lim}(1+𝑛)^{5/2𝑛} & =\underset{𝑛→0}{lim}[(1+𝑛)^{1/𝑛}]^{5/2} \\ & =[\underset{𝑛→0}{lim}(1+𝑛)^{1/𝑛}]^{5/2} \\ & =𝑒^{5/2} \\ & =\sqrt{√𝑒^{5}}\end{aligned}
+\begin{aligned}\underset{𝑛→0}{lim}(1+𝑛)^{5/2𝑛} & =\underset{𝑛→0}{lim}[(1+𝑛)^{1/𝑛}]^{5/2} \\ & =[\underset{𝑛→0}{lim}(1+𝑛)^{1/𝑛}]^{5/2} \\ & =𝑒^{5/2} \\ & =\sqrt{𝑒^{5}}\end{aligned}
 
 
 $$

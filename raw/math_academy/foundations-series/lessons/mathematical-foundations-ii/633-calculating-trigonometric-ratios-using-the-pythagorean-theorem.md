@@ -21,7 +21,7 @@ Recall the definition of sine:
 $$
 
 
-\sin \theta = \dfrac {\textrm{opposite}}{\textrm{hypotenuse}} = \dfrac {AC}{AB} = \dfrac 1 c
+\sin \theta = \dfrac {\text{opposite}}{\text{hypotenuse}} = \dfrac {AC}{AB} = \dfrac 1 c
 
 
 $$
@@ -31,7 +31,7 @@ Here, we need to determine the missing side $c.$ The trick is to use the Pythago
 $$
 
 
-\begin{aligned}𝑐 & =\sqrt{√𝐴𝐶^{2}+𝐵𝐶^{2}} \\ & =\sqrt{√1^{2}+1^{2}} \\ & =\sqrt{√2}\end{aligned}
+\begin{aligned}𝑐 & =\sqrt{𝐴𝐶^{2}+𝐵𝐶^{2}} \\ & =\sqrt{1^{2}+1^{2}} \\ & =\sqrt{2}\end{aligned}
 
 
 $$
@@ -41,7 +41,7 @@ Finally, we can finish computing the value of $\sin\theta\mathbin{:}$
 $$
 
 
-\begin{aligned}sin⁡𝜃 & =\frac{1}{𝑐}=\frac{1}{\sqrt{√2}}=\frac{1⋅\sqrt{√2}}{\sqrt{√2}⋅\sqrt{√2}}=\frac{\sqrt{√2}}{2}\end{aligned}
+\begin{aligned}sin⁡𝜃 & =\frac{1}{𝑐}=\frac{1}{\sqrt{2}}=\frac{1⋅\sqrt{2}}{\sqrt{2}⋅\sqrt{2}}=\frac{\sqrt{2}}{2}\end{aligned}
 
 
 $$
@@ -63,7 +63,7 @@ Recall the definition of cosine:
 $$
 
 
-\cos L = \dfrac {\textrm{adjacent}}{\textrm{hypotenuse}} = \dfrac {JL}{KL} = \dfrac{3\sqrt{3}}{KL}
+\cos L = \dfrac {\text{adjacent}}{\text{hypotenuse}} = \dfrac {JL}{KL} = \dfrac{3\sqrt{3}}{KL}
 
 
 $$
@@ -83,7 +83,7 @@ Therefore,
 $$
 
 
-\begin{aligned} \cos L &= \dfrac{3\sqrt{3}}{KL} \\\[5pt] &= \dfrac{3\sqrt 3}{6} \\\[5pt] &=\dfrac {\sqrt 3} 2. \end{aligned}
+\begin{aligned} \cos L &= \dfrac{3\sqrt{3}}{KL} \\[5pt] &= \dfrac{3\sqrt 3}{6} \\[5pt] &=\dfrac {\sqrt 3} 2. \end{aligned}
 
 
 $$
@@ -103,7 +103,7 @@ Recall the definition of sine:
 $$
 
 
-\sin Y = \dfrac {\textrm{opposite}}{\textrm{hypotenuse}} = \dfrac {XZ}{YZ} = \dfrac{XZ}{61}
+\sin Y = \dfrac {\text{opposite}}{\text{hypotenuse}} = \dfrac {XZ}{YZ} = \dfrac{XZ}{61}
 
 
 $$
@@ -143,7 +143,7 @@ Recall the definition of tangent:
 $$
 
 
-\tan K = \dfrac {\textrm{opposite}}{\textrm{adjacent}} = \dfrac {JL}{JK} = \dfrac{JL}{7.5}
+\tan K = \dfrac {\text{opposite}}{\text{adjacent}} = \dfrac {JL}{JK} = \dfrac{JL}{7.5}
 
 
 $$
@@ -163,7 +163,7 @@ Therefore,
 $$
 
 
-\begin{aligned} \tan K&= \dfrac{JL}{7.5}\\\[5pt] &= \dfrac{10}{7.5} \\\[5pt] &=\dfrac 4 3. \end{aligned}
+\begin{aligned} \tan K&= \dfrac{JL}{7.5}\\[5pt] &= \dfrac{10}{7.5} \\[5pt] &=\dfrac 4 3. \end{aligned}
 
 
 $$

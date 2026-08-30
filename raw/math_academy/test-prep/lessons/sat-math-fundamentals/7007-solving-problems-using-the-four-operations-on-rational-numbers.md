@@ -63,13 +63,13 @@ Therefore, the temperature of the liquid after $4$ minutes is $-2.8\,^\circ\text
 
 #### Question
 
-A weather balloon begins at an elevation of $-85\,\textrm{m}$ relative to sea level. It rises $2\dfrac{3}{4}\,\textrm{m}$ every minute for $6$ minutes. What is an expression for the balloon's elevation after $6$ minutes?
+A weather balloon begins at an elevation of $-85\,\text{m}$ relative to sea level. It rises $2\dfrac{3}{4}\,\text{m}$ every minute for $6$ minutes. What is an expression for the balloon's elevation after $6$ minutes?
 
 #### Explanation
 
 To determine the balloon's elevation after $6$ minutes, we first find the total rise in elevation.
 
-The initial elevation is $-85\,\textrm{m},$ and the balloon rises $2\dfrac{3}{4}\,\textrm{m}$ every minute.
+The initial elevation is $-85\,\text{m},$ and the balloon rises $2\dfrac{3}{4}\,\text{m}$ every minute.
 
 Since this increase happens for $6$ minutes, we can represent the total rise as a repeated addition of $2\dfrac{3}{4}{:}$
 
@@ -207,13 +207,13 @@ $$
 
 #### Question
 
-A diving robot begins at an elevation of $-48\,\textrm{m}$ relative to sea level. It descends $2\dfrac{3}{4}\,\textrm{m}$ every minute for $5$ minutes. What is an expression for the robot's elevation after $5$ minutes?
+A diving robot begins at an elevation of $-48\,\text{m}$ relative to sea level. It descends $2\dfrac{3}{4}\,\text{m}$ every minute for $5$ minutes. What is an expression for the robot's elevation after $5$ minutes?
 
 #### Explanation
 
 To determine the robot's elevation after $5$ minutes, we first find the total decrease in elevation.
 
-The initial elevation is $-48\,\textrm{m},$ and the robot descends $2\dfrac{3}{4}\,\textrm{m}$ every minute.
+The initial elevation is $-48\,\text{m},$ and the robot descends $2\dfrac{3}{4}\,\text{m}$ every minute.
 
 Since this decrease happens for $5$ minutes, we can represent the total decrease as a repeated subtraction of $2\dfrac{3}{4}{:}$
 

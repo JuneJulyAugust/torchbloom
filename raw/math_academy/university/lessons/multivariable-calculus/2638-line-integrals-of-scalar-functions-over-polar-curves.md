@@ -16,7 +16,7 @@ Suppose that we want to evaluate the line integral with respect to arc length
 $$
 
 
-\int\limits_Cf(x,y)\:\textrm{d}s
+\int\limits_Cf(x,y)\:\text{d}s
 
 
 $$
@@ -42,7 +42,7 @@ Substituting the above formulas into our line integral, we get the following res
 $$
 
 
-\int\limits_C f(x,y) \, \textrm{d}s = \int_{\theta_1}^{\theta_2} f(r\cos\theta,r\sin\theta) \,\sqrt{r^2 + \left(\dfrac{\textrm d r}{\textrm d \theta}\right)^2}\,\textrm d \theta\,.
+\int\limits_C f(x,y) \, \text{d}s = \int_{\theta_1}^{\theta_2} f(r\cos\theta,r\sin\theta) \,\sqrt{r^2 + \left(\dfrac{\textrm d r}{\textrm d \theta}\right)^2}\,\textrm d \theta\,.
 
 
 $$
@@ -62,7 +62,7 @@ In polar coordinates, the formula for the line integral is given by
 $$
 
 
-\int\limits_C f(x,y) \, \textrm{d}s = \int_{\theta_1}^{\theta_2} f(r\cos\theta,r\sin\theta) \,\sqrt{r^2 + \left(\dfrac{\textrm d r}{\textrm d \theta}\right)^2}\,\textrm d \theta\,.
+\int\limits_C f(x,y) \, \text{d}s = \int_{\theta_1}^{\theta_2} f(r\cos\theta,r\sin\theta) \,\sqrt{r^2 + \left(\dfrac{\textrm d r}{\textrm d \theta}\right)^2}\,\textrm d \theta\,.
 
 
 $$
@@ -104,7 +104,7 @@ and therefore
 $$
 
 
-\begin{aligned}\sqrt{√𝑟^{2}+(\frac{d𝑟}{d𝜃})^{2}}\,d𝜃 & =\sqrt{√(cos⁡𝜃)^{2}+(−sin⁡𝜃)^{2}} \\ & =\sqrt{√cos^{2}⁡𝜃+sin^{2}⁡𝜃} \\ & =\sqrt{√1} \\ & =1.\end{aligned}
+\begin{aligned}\sqrt{𝑟^{2}+(\frac{d𝑟}{d𝜃})^{2}}\,d𝜃 & =\sqrt{(cos⁡𝜃)^{2}+(−sin⁡𝜃)^{2}} \\ & =\sqrt{cos^{2}⁡𝜃+sin^{2}⁡𝜃} \\ & =\sqrt{1} \\ & =1.\end{aligned}
 
 
 $$
@@ -114,7 +114,7 @@ Finally, we can write the integral as
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}(𝑦^{2}−𝑥)\,d𝑠 & =∫_{𝜋/40}^{}𝑓(𝑟cos⁡𝜃,𝑟sin⁡𝜃)\,\sqrt{√𝑟^{2}+(\frac{d𝑟}{d𝜃})^{2}}\,d𝜃 \\ & =∫_{𝜋/40}^{}−cos^{4}⁡𝜃⋅1⋅d𝜃 \\ & =−∫_{𝜋/40}^{}cos^{4}⁡𝜃\,d𝜃.\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}(𝑦^{2}−𝑥)\,d𝑠 & =∫_{𝜋/40}𝑓(𝑟cos⁡𝜃,𝑟sin⁡𝜃)\,\sqrt{𝑟^{2}+(\frac{d𝑟}{d𝜃})^{2}}\,d𝜃 \\ & =∫_{𝜋/40}−cos^{4}⁡𝜃⋅1⋅d𝜃 \\ & =−∫_{𝜋/40}cos^{4}⁡𝜃\,d𝜃.\end{aligned}
 
 
 $$
@@ -132,7 +132,7 @@ In polar coordinates, the formula for the line integral is given by
 $$
 
 
-\int\limits_C f(x,y) \, \textrm{d}s = \int_{\theta_1}^{\theta_2} f(r\cos\theta,r\sin\theta) \,\sqrt{r^2 + \left(\dfrac{\textrm d r}{\textrm d \theta}\right)^2}\,\textrm d \theta\,.
+\int\limits_C f(x,y) \, \text{d}s = \int_{\theta_1}^{\theta_2} f(r\cos\theta,r\sin\theta) \,\sqrt{r^2 + \left(\dfrac{\textrm d r}{\textrm d \theta}\right)^2}\,\textrm d \theta\,.
 
 
 $$
@@ -174,7 +174,7 @@ and therefore
 $$
 
 
-\begin{aligned}\sqrt{√𝑟^{2}+(\frac{d𝑟}{d𝜃})^{2}}\,d𝜃=\sqrt{√1^{2}+0^{2}}=1.\end{aligned}
+\begin{aligned}\sqrt{𝑟^{2}+(\frac{d𝑟}{d𝜃})^{2}}\,d𝜃=\sqrt{1^{2}+0^{2}}=1.\end{aligned}
 
 
 $$
@@ -184,7 +184,7 @@ Finally, we now evaluate the integral, as follows:
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}\frac{𝑥^{2}+𝑦^{2}}{𝑦^{2}}\,d𝑠 & =∫_{𝜋/2𝜋/6}^{}𝑓(𝑟cos⁡𝜃,𝑟sin⁡𝜃)\,\sqrt{√𝑟^{2}+(\frac{d𝑟}{d𝜃})^{2}}\,d𝜃 \\ & =∫_{𝜋/2𝜋/6}^{}csc^{2}⁡𝜃⋅1⋅d𝜃 \\ & =∫_{𝜋/2𝜋/6}^{}csc^{2}⁡𝜃\,d𝜃 \\ & =−cot⁡𝜃\,_{𝜋/2𝜋/6}^{} \\ & =−(0−\sqrt{√3}) \\ & =\sqrt{√3}\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}\frac{𝑥^{2}+𝑦^{2}}{𝑦^{2}}\,d𝑠 & =∫_{𝜋/2𝜋/6}𝑓(𝑟cos⁡𝜃,𝑟sin⁡𝜃)\,\sqrt{𝑟^{2}+(\frac{d𝑟}{d𝜃})^{2}}\,d𝜃 \\ & =∫_{𝜋/2𝜋/6}csc^{2}⁡𝜃⋅1⋅d𝜃 \\ & =∫_{𝜋/2𝜋/6}csc^{2}⁡𝜃\,d𝜃 \\ & =−cot⁡𝜃\,_{𝜋/2𝜋/6} \\ & =−(0−\sqrt{3}) \\ & =\sqrt{3}\end{aligned}
 
 
 $$
@@ -193,7 +193,7 @@ $$
 
 #### Question
 
-Evaluate the integral $\displaystyle\int_\limits{C} xy(1-x^2) \,\textrm{d}s$, where $C$ is the polar curve $r=\cos{\theta}\:$ for $0 \leq \theta \leq \dfrac{\pi}{2}.$
+Evaluate the integral $\displaystyle\int\limits_{C} xy(1-x^2) \,\text{d}s$, where $C$ is the polar curve $r=\cos{\theta}\:$ for $0 \leq \theta \leq \dfrac{\pi}{2}.$
 
 #### Explanation
 
@@ -202,7 +202,7 @@ In polar coordinates, the formula for the line integral is given by
 $$
 
 
-\int\limits_C f(x,y) \, \textrm{d}s = \int_{\theta_1}^{\theta_2} f(r\cos\theta,r\sin\theta) \,\sqrt{r^2 + \left(\dfrac{\textrm d r}{\textrm d \theta}\right)^2}\,\textrm d \theta\,.
+\int\limits_C f(x,y) \, \text{d}s = \int_{\theta_1}^{\theta_2} f(r\cos\theta,r\sin\theta) \,\sqrt{r^2 + \left(\dfrac{\textrm d r}{\textrm d \theta}\right)^2}\,\textrm d \theta\,.
 
 
 $$
@@ -244,7 +244,7 @@ and therefore
 $$
 
 
-\begin{aligned}\sqrt{√𝑟^{2}+(\frac{d𝑟}{d𝜃})^{2}}\,d𝜃 & =\sqrt{√(cos⁡𝜃)^{2}+(−sin⁡𝜃)^{2}} \\ & =\sqrt{√cos^{2}⁡𝜃+sin^{2}⁡𝜃} \\ & =1.\end{aligned}
+\begin{aligned}\sqrt{𝑟^{2}+(\frac{d𝑟}{d𝜃})^{2}}\,d𝜃 & =\sqrt{(cos⁡𝜃)^{2}+(−sin⁡𝜃)^{2}} \\ & =\sqrt{cos^{2}⁡𝜃+sin^{2}⁡𝜃} \\ & =1.\end{aligned}
 
 
 $$
@@ -254,7 +254,7 @@ We can now write the integral as
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}𝑥𝑦(1−𝑥^{2})\,d𝑠 & =∫_{𝜋/20}^{}𝑓(𝑟cos⁡𝜃,𝑟sin⁡𝜃)\,\sqrt{√𝑟^{2}+(\frac{d𝑟}{d𝜃})^{2}}\,d𝜃 \\ & =∫_{𝜋/20}^{}cos^{3}⁡𝜃sin⁡𝜃(1−cos^{4}⁡𝜃)⋅1⋅d𝜃 \\ & =∫_{𝜋/20}^{}cos^{3}⁡𝜃sin⁡𝜃(1−cos^{4}⁡𝜃)\,d𝜃.\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}𝑥𝑦(1−𝑥^{2})\,d𝑠 & =∫_{𝜋/20}𝑓(𝑟cos⁡𝜃,𝑟sin⁡𝜃)\,\sqrt{𝑟^{2}+(\frac{d𝑟}{d𝜃})^{2}}\,d𝜃 \\ & =∫_{𝜋/20}cos^{3}⁡𝜃sin⁡𝜃(1−cos^{4}⁡𝜃)⋅1⋅d𝜃 \\ & =∫_{𝜋/20}cos^{3}⁡𝜃sin⁡𝜃(1−cos^{4}⁡𝜃)\,d𝜃.\end{aligned}
 
 
 $$
@@ -264,7 +264,7 @@ We can solve this using the substitution $u=\cos\theta,$ $\textrm d u=-\sin\thet
 $$
 
 
-\begin{aligned}∫_{𝜋/20}^{}cos^{3}⁡𝜃sin⁡𝜃(1−cos^{4}⁡𝜃)\,d𝜃 & =∫_{01}^{}−𝑢^{3}(1−𝑢^{4})\,d𝑢 \\ & =∫_{10}^{}(𝑢^{3}−𝑢^{7})\,d𝑢 \\ & =[\frac{𝑢^{4}}{4}−\frac{𝑢^{8}}{8}]_{10}^{} \\ & =(\frac{1}{4}−\frac{1}{8})−0 \\ & =\frac{1}{8}\end{aligned}
+\begin{aligned}∫_{𝜋/20}cos^{3}⁡𝜃sin⁡𝜃(1−cos^{4}⁡𝜃)\,d𝜃 & =∫_{01}−𝑢^{3}(1−𝑢^{4})\,d𝑢 \\ & =∫_{10}(𝑢^{3}−𝑢^{7})\,d𝑢 \\ & =[\frac{𝑢^{4}}{4}−\frac{𝑢^{8}}{8}]_{10} \\ & =(\frac{1}{4}−\frac{1}{8})−0 \\ & =\frac{1}{8}\end{aligned}
 
 
 $$

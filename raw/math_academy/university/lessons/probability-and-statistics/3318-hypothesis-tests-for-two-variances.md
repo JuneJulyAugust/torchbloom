@@ -313,7 +313,7 @@ Furthermore, if $\sigma_x^2 = \sigma_y^2,$ we have
 $$
 
 
-\dfrac{S_x^2}{S_y^2} \sim F(\nu_x, \nu_y), \quad\textrm{and}\quad \dfrac{S_y^2}{S_x^2} \sim F(\nu_y, \nu_x) .
+\dfrac{S_x^2}{S_y^2} \sim F(\nu_x, \nu_y), \quad\text{and}\quad \dfrac{S_y^2}{S_x^2} \sim F(\nu_y, \nu_x) .
 
 
 $$

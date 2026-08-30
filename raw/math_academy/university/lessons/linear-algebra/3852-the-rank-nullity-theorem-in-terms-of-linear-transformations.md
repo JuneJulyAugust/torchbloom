@@ -19,7 +19,7 @@ The **rank-nullity theorem in terms of linear transformations** states the follo
 $$
 
 
-\textrm{dim(Im}(\mathbf{T})) + \textrm{dim(Ker}(\mathbf{T})) = \textrm{dim}(\mathbb{R}^n),
+\text{dim(Im}(\mathbf{T})) + \text{dim(Ker}(\mathbf{T})) = \text{dim}(\mathbb{R}^n),
 
 
 $$
@@ -29,7 +29,7 @@ $$
 $$
 
 
-\textrm{rank}(\mathbf{T}) + \textrm{nullity}(\mathbf{T}) = n.
+\text{rank}(\mathbf{T}) + \text{nullity}(\mathbf{T}) = n.
 
 
 $$
@@ -39,24 +39,24 @@ For example, suppose that $\mathbf{T}:\mathbb{R}^3\to\mathbb{R}^3$ is a linear t
 $$
 
 
-\textrm{Im}(\mathbf{T})=\{ [ x, y, z ]^T \, : \, y+2z=0\}.
+\text{Im}(\mathbf{T})=\{ [ x, y, z ]^T \, : \, y+2z=0\}.
 
 
 $$
 
-Let's use the rank-nullity theorem to compute $\textrm{rank}(\mathbf{T})$ and $\text{nullity}(\mathbf{T}).$
+Let's use the rank-nullity theorem to compute $\text{rank}(\mathbf{T})$ and $\text{nullity}(\mathbf{T}).$
 
-First, solving $y+2z=0$ for $y,$ we get $y = -2z.$ Therefore, any vector from $\textrm{Im}(\mathbf{T})$ can be written as
-
-$$
-
-
-\begin{aligned}\begin{aligned}𝑥 \\ −2𝑧 \\ 𝑧\end{aligned}=𝑥\underset{𝐯_{1}}{\underset{}\begin{aligned}1 \\ 0 \\ 0\end{aligned}}}+𝑧\underset{𝐯_{2}}{\underset{}\begin{aligned}0 \\ −2 \\ 1\end{aligned}}}.\end{aligned}
-
+First, solving $y+2z=0$ for $y,$ we get $y = -2z.$ Therefore, any vector from $\text{Im}(\mathbf{T})$ can be written as
 
 $$
 
-This means that $\textrm{Im}(\mathbf{T})=\textrm{Span}\{\mathbf{v}_1,\mathbf{v}_2\}.$ And since $\mathbf v_1$ and $\mathbf v_2$ are linearly independent, we have $\textrm{rank}(\mathbf{T})=2.$
+
+\begin{aligned}\begin{matrix}𝑥 \\ −2𝑧 \\ 𝑧\end{matrix}=𝑥\underset{𝐯_{1}}{\begin{matrix}1 \\ 0 \\ 0\end{matrix}}+𝑧\underset{𝐯_{2}}{\begin{matrix}0 \\ −2 \\ 1\end{matrix}}.\end{aligned}
+
+
+$$
+
+This means that $\text{Im}(\mathbf{T})=\text{Span}\{\mathbf{v}_1,\mathbf{v}_2\}.$ And since $\mathbf v_1$ and $\mathbf v_2$ are linearly independent, we have $\text{rank}(\mathbf{T})=2.$
 
 Finally, using the rank-nullity theorem, we obtain
 
@@ -72,7 +72,7 @@ $$
 
 #### Question
 
-Consider a linear transformation $\mathbf{T}:\mathbb{R}^3 \to \mathbb{R}^3.$ If $\textrm{nullity}(\mathbf{T})=1,$ then what is $\textrm{rank}(\mathbf{T})?$
+Consider a linear transformation $\mathbf{T}:\mathbb{R}^3 \to \mathbb{R}^3.$ If $\text{nullity}(\mathbf{T})=1,$ then what is $\text{rank}(\mathbf{T})?$
 
 #### Explanation
 
@@ -81,7 +81,7 @@ According to the rank-nullity theorem, if $\mathbf{T}:\mathbb{R}^n \to \mathbb{R
 $$
 
 
-\textrm{rank}(\mathbf{T}) + \textrm{nullity}(\mathbf{T}) = n.
+\text{rank}(\mathbf{T}) + \text{nullity}(\mathbf{T}) = n.
 
 
 $$
@@ -100,21 +100,21 @@ $$
 
 #### Question
 
-Find $\text{nullity}(\mathbf{T})$ given that $\mathbf{T}:\mathbb{R}^3\to\mathbb{R}^3$ and $\textrm{Im}(\mathbf{T})=\{[x, y, z]^T \,: \, x=y=z\}.$
+Find $\text{nullity}(\mathbf{T})$ given that $\mathbf{T}:\mathbb{R}^3\to\mathbb{R}^3$ and $\text{Im}(\mathbf{T})=\{[x, y, z]^T \,: \, x=y=z\}.$
 
 #### Explanation
 
-Any vector from $\textrm{Im}(\mathbf{T})$ can be written as
+Any vector from $\text{Im}(\mathbf{T})$ can be written as
 
 $$
 
 
-\begin{aligned}\begin{aligned}𝑥 \\ 𝑥 \\ 𝑥\end{aligned}=𝑥\underset{𝐯_{1}}{\underset{}\begin{aligned}1 \\ 1 \\ 1\end{aligned}}}.\end{aligned}
+\begin{aligned}\begin{matrix}𝑥 \\ 𝑥 \\ 𝑥\end{matrix}=𝑥\underset{𝐯_{1}}{\begin{matrix}1 \\ 1 \\ 1\end{matrix}}.\end{aligned}
 
 
 $$
 
-This means that $\textrm{Im}(\mathbf{T})=\textrm{Span}\{\mathbf{v}_1\}.$ Therefore, $\textrm{rank}(\mathbf{T})=1.$
+This means that $\text{Im}(\mathbf{T})=\text{Span}\{\mathbf{v}_1\}.$ Therefore, $\text{rank}(\mathbf{T})=1.$
 
 Finally, according the rank-nullity theorem, we obtain
 
@@ -136,9 +136,9 @@ Let $\mathbf{T}: \mathbb{R}^4 \rightarrow \mathbb{R}^4$ be a linear transformati
 
 Which of the following can be placed into the blank space to make a true statement?
 
-1. $\textrm{rank}(T)=3$
+1. $\text{rank}(T)=3$
 
-2. $\textrm{nullity}(\mathbf{T})=3$
+2. $\text{nullity}(\mathbf{T})=3$
 
 3. $\mathbf{T}$ is a bijection
 
@@ -153,17 +153,17 @@ Also, according to the rank-nullity theorem,
 $$
 
 
-\textrm{rank}(\mathbf{T}) + \textrm{nullity}(\mathbf{T}) = 4.
+\text{rank}(\mathbf{T}) + \text{nullity}(\mathbf{T}) = 4.
 
 
 $$
 
 With that in mind, let's examine each statement in turn.
 
-- Statement I is true. Since $\textrm{Im}(\mathbf{T})=\textrm{Span}\{\mathbf{v}_1, \mathbf{v}_2, \mathbf{v}_3\}$ and the set $\{\mathbf{v}_1, \mathbf{v}_2, \mathbf{v}_3 \}$ is linearly independent, we get that $\textrm{rank}(T)=\textrm{rank}(\mathbf{T})=3.$
+- Statement I is true. Since $\text{Im}(\mathbf{T})=\text{Span}\{\mathbf{v}_1, \mathbf{v}_2, \mathbf{v}_3\}$ and the set $\{\mathbf{v}_1, \mathbf{v}_2, \mathbf{v}_3 \}$ is linearly independent, we get that $\text{rank}(T)=\text{rank}(\mathbf{T})=3.$
 
 - Statement II is false. According to the rank-nullity theorem, we obtain
 
-- Statement III is false. Since $\textrm{rank}(\mathbf{T}) \neq 4$ (or since $\textrm{nullity}(\mathbf{T}) \neq 0$), the linear transformation $\mathbf{T}$ cannot be a bijection according to the invertible matrix theorem.
+- Statement III is false. Since $\text{rank}(\mathbf{T}) \neq 4$ (or since $\text{nullity}(\mathbf{T}) \neq 0$), the linear transformation $\mathbf{T}$ cannot be a bijection according to the invertible matrix theorem.
 
 Therefore, the correct option is "I only."

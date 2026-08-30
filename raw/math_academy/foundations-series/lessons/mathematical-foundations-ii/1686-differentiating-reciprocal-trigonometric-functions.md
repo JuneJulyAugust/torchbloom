@@ -154,7 +154,7 @@ Then, we substitute $x=\dfrac{\pi}{4}$ in the derivative and get
 $$
 
 
-\begin{aligned}𝑓^{′}(\frac{𝜋}{4}) & =\frac{2csc⁡(\frac{𝜋}{4})+2cot⁡(\frac{𝜋}{4})cos⁡(\frac{𝜋}{4})}{4} \\ & =\frac{2⋅(\sqrt{√2})+2⋅(1)⋅(\frac{\sqrt{√2}}{2})}{2} \\ & =\frac{3\sqrt{√2}}{(\frac{1}{2})} \\ & =6\sqrt{√2}.\end{aligned}
+\begin{aligned}𝑓^{′}(\frac{𝜋}{4}) & =\frac{2csc⁡(\frac{𝜋}{4})+2cot⁡(\frac{𝜋}{4})cos⁡(\frac{𝜋}{4})}{4} \\ & =\frac{2⋅(\sqrt{2})+2⋅(1)⋅(\frac{\sqrt{2}}{2})}{2} \\ & =\frac{3\sqrt{2}}{(\frac{1}{2})} \\ & =6\sqrt{2}.\end{aligned}
 
 
 $$

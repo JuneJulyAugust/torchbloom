@@ -93,7 +93,7 @@ Note that this is a valid pdf because it's always nonnegative, and
 $$
 
 
-\begin{aligned}∫_{𝑆}𝑓(𝑥)\,d𝑥 & =∫_{60}^{}\frac{1}{6}\,d𝑥 \\ & =[\frac{1}{6}𝑥]_{60}^{} \\ & =[\frac{1}{6}⋅6]−[\frac{1}{6}⋅0] \\ & =1.\end{aligned}
+\begin{aligned}∫_{𝑆}𝑓(𝑥)\,d𝑥 & =∫_{60}\frac{1}{6}\,d𝑥 \\ & =[\frac{1}{6}𝑥]_{60} \\ & =[\frac{1}{6}⋅6]−[\frac{1}{6}⋅0] \\ & =1.\end{aligned}
 
 
 $$
@@ -103,7 +103,7 @@ To compute the probability that our randomly selected number is no greater than 
 $$
 
 
-\begin{aligned}𝑃(0≤𝑋≤3) & =∫_{30}^{}\frac{1}{6}\,d𝑥 \\ & =[\frac{1}{6}𝑥]_{30}^{} \\ & =[\frac{1}{6}⋅3]−[\frac{1}{6}⋅0] \\ & =\frac{1}{2}\end{aligned}
+\begin{aligned}𝑃(0≤𝑋≤3) & =∫_{30}\frac{1}{6}\,d𝑥 \\ & =[\frac{1}{6}𝑥]_{30} \\ & =[\frac{1}{6}⋅3]−[\frac{1}{6}⋅0] \\ & =\frac{1}{2}\end{aligned}
 
 
 $$
@@ -152,7 +152,7 @@ Which of the following statements are true?
 
 1. $f(x) \geq 0$ for all $x$
 
-2. $\displaystyle \int_{-1}^1 f(x) \,\textrm{d}x = 1$
+2. $\displaystyle \int_{-1}^1 f(x) \,\text{d}x = 1$
 
 3. $f(x)$ is a valid probability density function
 
@@ -211,7 +211,7 @@ Computing the integral on the left-hand side, we get
 $$
 
 
-\begin{aligned}∫_{10}^{}(2𝑥^{3}+𝑘𝑥^{2})\,d𝑥 & =[\frac{𝑥^{4}}{2}+\frac{𝑘𝑥^{3}}{3}]_{10}^{} \\ & =[\frac{1}{2}+\frac{𝑘}{3}]−0 \\ & =\frac{𝑘}{3}+\frac{1}{2}.\end{aligned}
+\begin{aligned}∫_{10}(2𝑥^{3}+𝑘𝑥^{2})\,d𝑥 & =[\frac{𝑥^{4}}{2}+\frac{𝑘𝑥^{3}}{3}]_{10} \\ & =[\frac{1}{2}+\frac{𝑘}{3}]−0 \\ & =\frac{𝑘}{3}+\frac{1}{2}.\end{aligned}
 
 
 $$

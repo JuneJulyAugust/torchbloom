@@ -35,14 +35,14 @@ This equation looks tricky, so let's go through each variable:
 
 - $t$ is time, measured in seconds.
 
-- $g=9.8\,\textrm{m/s}^2$ is a constant known as the **acceleration due to gravity.** It tells us the acceleration of a falling object close to the earth's surface.
+- $g=9.8\,\text{m/s}^2$ is a constant known as the **acceleration due to gravity.** It tells us the acceleration of a falling object close to the earth's surface.
 
 In our example, we want to find the time it takes for a ball to fall a distance of
 
 $$
 
 
-s =78.4\,\textrm{m}.
+s =78.4\,\text{m}.
 
 
 $$
@@ -52,7 +52,7 @@ Since the ball was *dropped*, its initial velocity was zero. Therefore, we have
 $$
 
 
-u = 0 \,\textrm{m/s}.
+u = 0 \,\text{m/s}.
 
 
 $$
@@ -75,7 +75,7 @@ Therefore, the ball will hit the ground after $t=4$ seconds.
 
 #### Question
 
-A penny is projected vertically downward with an initial velocity of $300 \, \textrm{m/min}$ and hits the ground after $2$ seconds. Find the distance the penny covered during its fall.
+A penny is projected vertically downward with an initial velocity of $300 \, \text{m/min}$ and hits the ground after $2$ seconds. Find the distance the penny covered during its fall.
 
 #### Explanation
 
@@ -95,9 +95,9 @@ Let's summarize the information we have:
 
 - We can find the initial velocity of the object in meters per second as follows:
 
-- The penny falls for $t=2\,\textrm{s}.$
+- The penny falls for $t=2\,\text{s}.$
 
-- The acceleration due to gravity is $g=9.8\,\textrm{m/s}^2.$
+- The acceleration due to gravity is $g=9.8\,\text{m/s}^2.$
 
 Substituting these values into the formula, we obtain the following:
 
@@ -109,13 +109,13 @@ $$
 
 $$
 
-Therefore, the distance is $29.6\,\textrm{m}.$
+Therefore, the distance is $29.6\,\text{m}.$
 
 ### Example: Solving for Initial Velocity
 
 #### Question
 
-A ball is projected vertically down from a building with a height of $110.4 \, \textrm{m}.$ It takes $4\,\textrm{s}$ to hit the ground. What was the initial velocity of the ball?
+A ball is projected vertically down from a building with a height of $110.4 \, \text{m}.$ It takes $4\,\text{s}$ to hit the ground. What was the initial velocity of the ball?
 
 #### Explanation
 
@@ -133,11 +133,11 @@ where $s$ is the displacement, measured from the starting position in the direct
 
 Let's summarize the information we have:
 
-- The ball falls for $t=4\,\textrm{s}.$
+- The ball falls for $t=4\,\text{s}.$
 
-- The ball covers the distance of $s=110.4\, \textrm{m}.$
+- The ball covers the distance of $s=110.4\, \text{m}.$
 
-- The acceleration due to gravity is $g=9.8\,\textrm{m/s}^2.$
+- The acceleration due to gravity is $g=9.8\,\text{m/s}^2.$
 
 Substituting these values into the formula and solving for $u,$ we obtain the following:
 
@@ -149,13 +149,13 @@ $$
 
 $$
 
-Therefore, the initial velocity of the ball was $u= 8 \, \textrm{m/s}.$
+Therefore, the initial velocity of the ball was $u= 8 \, \text{m/s}.$
 
 ### Example: Solving for Time
 
 #### Question
 
-A stone is projected vertically downward from a height of $19.6\,\textrm{m}$ with a velocity of $14.7\,\textrm{m/s}.$ How long will it take for the stone to hit the ground?
+A stone is projected vertically downward from a height of $19.6\,\text{m}$ with a velocity of $14.7\,\text{m/s}.$ How long will it take for the stone to hit the ground?
 
 #### Explanation
 
@@ -173,11 +173,11 @@ where $s$ is the displacement, measured from the starting position in the direct
 
 Let's summarize the information we have:
 
-- The initial velocity of the stone is $u=14.7\,\textrm{m/s}.$
+- The initial velocity of the stone is $u=14.7\,\text{m/s}.$
 
-- The stone covers the distance of $s=19.6\,\textrm{m}.$
+- The stone covers the distance of $s=19.6\,\text{m}.$
 
-- The acceleration due to gravity is $g=9.8\,\textrm{m/s}^2.$
+- The acceleration due to gravity is $g=9.8\,\text{m/s}^2.$
 
 Substituting these values into the formula and solving for $t,$ we obtain the following:
 
@@ -247,7 +247,7 @@ $$
 
 $$
 
-When dealing with a motion under gravity it's common to let $a=g=9.8\,\textrm{m/s}^2,$ the acceleration due to gravity.
+When dealing with a motion under gravity it's common to let $a=g=9.8\,\text{m/s}^2,$ the acceleration due to gravity.
 
 ### Modeling Assumptions
 

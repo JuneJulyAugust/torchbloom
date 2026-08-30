@@ -117,7 +117,7 @@ $$
 
 $$
 
-So at the time $t=1.6,$ the velocity is approximately $1\, \textrm{m}/\textrm{s}.$
+So at the time $t=1.6,$ the velocity is approximately $1\, \text{m}/\text{s}.$
 
 ### Example: Estimating a Derivative Given a Graph Using a Backward Difference Approximation: Word Problem
 

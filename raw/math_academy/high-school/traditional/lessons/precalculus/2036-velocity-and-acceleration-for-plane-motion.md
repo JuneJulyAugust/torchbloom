@@ -25,7 +25,7 @@ $$
 
 
 
-\mathbf{u} = (3\,\mathbf{i} + 2\,\mathbf{j}) \: \textrm{m/s}.
+\mathbf{u} = (3\,\mathbf{i} + 2\,\mathbf{j}) \: \text{m/s}.
 
 
 
@@ -33,9 +33,9 @@ $$
 
 We should think of the particle's velocity as being made up of two components:
 
-- a *horizontal* component of $3 \: \textrm{m/s}$ (moving to the right), and
+- a *horizontal* component of $3 \: \text{m/s}$ (moving to the right), and
 
-- a *vertical* component of $2 \: \textrm{m/s}$ (moving upward).
+- a *vertical* component of $2 \: \text{m/s}$ (moving upward).
 
 In other words, the particle moves $3$ meters to the right and $2$ units up every second. Also, since the horizontal and vertical components are constants, we say that the particle moves with **constant velocity.**
 
@@ -45,7 +45,7 @@ $$
 
 
 
-\begin{aligned}|𝐮| & =|3𝐢+2𝐣| \\ & =\sqrt{√3^{2}+2^{2}} \\ & =\sqrt{√9+4} \\ & =\sqrt{√13}\,m/s.\end{aligned}
+\begin{aligned}|𝐮| & =|3𝐢+2𝐣| \\ & =\sqrt{3^{2}+2^{2}} \\ & =\sqrt{9+4} \\ & =\sqrt{13}\,m/s.\end{aligned}
 
 
 
@@ -55,7 +55,7 @@ $$
 
 #### Question
 
-A particle moves with a constant velocity of $\mathbf{u}=(5\mathbf{i} +2\mathbf{j}) \,\textrm{km/h}.$ Find the speed of the particle.
+A particle moves with a constant velocity of $\mathbf{u}=(5\mathbf{i} +2\mathbf{j}) \,\text{km/h}.$ Find the speed of the particle.
 
 #### Explanation
 
@@ -67,7 +67,7 @@ $$
 
 
 
-\begin{aligned}|𝐮| & =|5𝐢+2𝐣| \\ & =\sqrt{√5^{2}+2^{2}} \\ & =\sqrt{√25+4} \\ & =\sqrt{√29}\end{aligned}
+\begin{aligned}|𝐮| & =|5𝐢+2𝐣| \\ & =\sqrt{5^{2}+2^{2}} \\ & =\sqrt{25+4} \\ & =\sqrt{29}\end{aligned}
 
 
 
@@ -85,7 +85,7 @@ $$
 
 
 
-\mathbf a = (3\mathbf{i}+4\mathbf{j})\,\textrm{m/s}^2.
+\mathbf a = (3\mathbf{i}+4\mathbf{j})\,\text{m/s}^2.
 
 
 
@@ -93,15 +93,15 @@ $$
 
 We should think of this particle's acceleration as being made up of two components:
 
-- a *horizontal* component of $3 \: \textrm{m/s}^2$ (to the right), and
+- a *horizontal* component of $3 \: \text{m/s}^2$ (to the right), and
 
-- a *vertical* component of $4 \: \textrm{m/s}^2$ (upward).
+- a *vertical* component of $4 \: \text{m/s}^2$ (upward).
 
 In other words,
 
-- the horizontal component of the velocity increases by $3\,\textrm{m/s}$ every second, and
+- the horizontal component of the velocity increases by $3\,\text{m/s}$ every second, and
 
-- the vertical component of the velocity increases by $4\,\textrm{m/s}$ every second.
+- the vertical component of the velocity increases by $4\,\text{m/s}$ every second.
 
 Also, since both components are constants, we say that this particle moves with **constant acceleration**.
 
@@ -119,7 +119,7 @@ $$
 
 where $\mathbf{u}$ is the velocity of the particle when $t=0$ (i.e., the **initial velocity**).
 
-For example, suppose that the initial velocity of our particle is given by $\mathbf{u} = (2\mathbf{i} + 3\mathbf{j}) \, \textrm{m/s}.$ What is the particle's velocity when $t=2 \, \textrm{s}?$
+For example, suppose that the initial velocity of our particle is given by $\mathbf{u} = (2\mathbf{i} + 3\mathbf{j}) \, \text{m/s}.$ What is the particle's velocity when $t=2 \, \text{s}?$
 
 Substituting our data into the formula above, we obtain that the velocity of the particle will be
 
@@ -137,7 +137,7 @@ $$
 
 #### Question
 
-The velocity of a particle is $(\mathbf{i} -4\mathbf{j}) \, \textrm{m/s}$ when $t=0\,\textrm{s}.$ If the particle moves with a constant acceleration of $(2\mathbf{i}+\mathbf{j}) \, \textrm{m/s}^2,$ find the velocity of the particle when $t=5 \, \textrm{s}.$
+The velocity of a particle is $(\mathbf{i} -4\mathbf{j}) \, \text{m/s}$ when $t=0\,\text{s}.$ If the particle moves with a constant acceleration of $(2\mathbf{i}+\mathbf{j}) \, \text{m/s}^2,$ find the velocity of the particle when $t=5 \, \text{s}.$
 
 #### Explanation
 
@@ -167,7 +167,7 @@ $$
 
 $$
 
-Therefore, after $t = 5 \, \textrm{s},$ the velocity of the particle will be
+Therefore, after $t = 5 \, \text{s},$ the velocity of the particle will be
 
 $$
 
@@ -183,7 +183,7 @@ $$
 
 #### Question
 
-A particle moves with constant acceleration. When $t=0 \, \textrm{h},$ the velocity of the particle is $4\mathbf{i} \, \textrm{km/h},$ and when $t=3\, \textrm{h},$ the velocity of the particle is $(7\mathbf{i}+15\mathbf{j}) \, \textrm{km/h}.$ Calculate the acceleration of the particle.
+A particle moves with constant acceleration. When $t=0 \, \text{h},$ the velocity of the particle is $4\mathbf{i} \, \text{km/h},$ and when $t=3\, \text{h},$ the velocity of the particle is $(7\mathbf{i}+15\mathbf{j}) \, \text{km/h}.$ Calculate the acceleration of the particle.
 
 #### Explanation
 
@@ -229,7 +229,7 @@ $$
 
 #### Question
 
-A particle moves with a constant acceleration of $(\mathbf{i} + 2\mathbf{j}) \, \textrm{km/h}^2.$ The velocity of the particle is $(-\mathbf{i} - \mathbf{j}) \, \textrm{km/h}$ when $t=0\,\textrm{h}.$ Find the time when the velocity of the particle equals $(3\mathbf{i}+7\mathbf{j}) \, \textrm{km/h}.$
+A particle moves with a constant acceleration of $(\mathbf{i} + 2\mathbf{j}) \, \text{km/h}^2.$ The velocity of the particle is $(-\mathbf{i} - \mathbf{j}) \, \text{km/h}$ when $t=0\,\text{h}.$ Find the time when the velocity of the particle equals $(3\mathbf{i}+7\mathbf{j}) \, \text{km/h}.$
 
 #### Explanation
 

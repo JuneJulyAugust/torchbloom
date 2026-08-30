@@ -39,7 +39,7 @@ Replacing $x$ with $\sqrt{x}$ in the above equation, we find the series expansio
 $$
 
 
-\begin{aligned}cos⁡\sqrt{√𝑥} & =1−\frac{1}{2!}(\sqrt{√𝑥})^{2}+\frac{1}{4!}(\sqrt{√𝑥})^{4}+⋯ \\ & =1−\frac{𝑥}{2}+\frac{𝑥^{2}}{24}+⋯\end{aligned}
+\begin{aligned}cos⁡\sqrt{𝑥} & =1−\frac{1}{2!}(\sqrt{𝑥})^{2}+\frac{1}{4!}(\sqrt{𝑥})^{4}+⋯ \\ & =1−\frac{𝑥}{2}+\frac{𝑥^{2}}{24}+⋯\end{aligned}
 
 
 $$
@@ -49,7 +49,7 @@ Integrating both sides of this equality, we get
 $$
 
 
-\begin{aligned}∫cos⁡\sqrt{√𝑥}\,d𝑥 & =∫(1−\frac{𝑥}{2}+\frac{𝑥^{2}}{24}+⋯)\,d𝑥 \\ & =∫1\,d𝑥−\frac{1}{2}∫𝑥\,d𝑥+\frac{1}{24}∫𝑥^{2}\,d𝑥+⋯ \\ & =𝐶+𝑥−\frac{1}{2}⋅\frac{𝑥^{2}}{2}+\frac{1}{24}⋅\frac{𝑥^{3}}{3}+⋯ \\ & =𝐶+𝑥−\frac{𝑥^{2}}{4}+\frac{𝑥^{3}}{72}+⋯\,.\end{aligned}
+\begin{aligned}∫cos⁡\sqrt{𝑥}\,d𝑥 & =∫(1−\frac{𝑥}{2}+\frac{𝑥^{2}}{24}+⋯)\,d𝑥 \\ & =∫1\,d𝑥−\frac{1}{2}∫𝑥\,d𝑥+\frac{1}{24}∫𝑥^{2}\,d𝑥+⋯ \\ & =𝐶+𝑥−\frac{1}{2}⋅\frac{𝑥^{2}}{2}+\frac{1}{24}⋅\frac{𝑥^{3}}{3}+⋯ \\ & =𝐶+𝑥−\frac{𝑥^{2}}{4}+\frac{𝑥^{3}}{72}+⋯\,.\end{aligned}
 
 
 $$
@@ -82,7 +82,7 @@ This is valid for the same radius of convergence as the series expansion of $f(x
 
 #### Question
 
-Starting with the standard Maclaurin result for $e^x,$ find the first three terms of the series expansion for $\displaystyle{\int e^{-x^2}\textrm{d}x}.$
+Starting with the standard Maclaurin result for $e^x,$ find the first three terms of the series expansion for $\displaystyle{\int e^{-x^2}\text{d}x}.$
 
 #### Explanation
 
@@ -157,7 +157,7 @@ Finally, we calculate the definite integral, as follows:
 $$
 
 
-\begin{aligned}∫_{1/20}^{}ln⁡(1−𝑥^{2})d𝑥 & =∫(−𝑥^{2}−\frac{1}{2}𝑥^{4}−\frac{1}{3}𝑥^{6}+⋯)d𝑥 \\ & =(−\frac{𝑥^{3}}{3}−\frac{1}{2}⋅\frac{𝑥^{5}}{5}−\frac{1}{3}⋅\frac{𝑥^{7}}{7}+⋯)_{1/20}^{} \\ & =−\frac{1}{3⋅2^{3}}−\frac{1}{2⋅5⋅2^{5}}−\frac{1}{3⋅7⋅2^{7}} \\ & =−\frac{1}{24}−\frac{1}{320}−\frac{1}{2688}+⋯\,\end{aligned}
+\begin{aligned}∫_{1/20}ln⁡(1−𝑥^{2})d𝑥 & =∫(−𝑥^{2}−\frac{1}{2}𝑥^{4}−\frac{1}{3}𝑥^{6}+⋯)d𝑥 \\ & =(−\frac{𝑥^{3}}{3}−\frac{1}{2}⋅\frac{𝑥^{5}}{5}−\frac{1}{3}⋅\frac{𝑥^{7}}{7}+⋯)_{1/20} \\ & =−\frac{1}{3⋅2^{3}}−\frac{1}{2⋅5⋅2^{5}}−\frac{1}{3⋅7⋅2^{7}} \\ & =−\frac{1}{24}−\frac{1}{320}−\frac{1}{2688}+⋯\,\end{aligned}
 
 
 $$
@@ -167,7 +167,7 @@ $$
 $$
 
 
-\begin{aligned}∫_{1/20}^{}ln⁡(1−𝑥^{2})d𝑥 & ≈−\frac{1}{24}−\frac{1}{320}−\frac{1}{2688}=−0.04516\end{aligned}
+\begin{aligned}∫_{1/20}ln⁡(1−𝑥^{2})d𝑥 & ≈−\frac{1}{24}−\frac{1}{320}−\frac{1}{2688}=−0.04516\end{aligned}
 
 
 $$
@@ -179,7 +179,7 @@ The exact value of the integral, rounded to five decimal places, is
 $$
 
 
-\begin{aligned}∫_{1/20}^{}ln⁡(1−𝑥^{2})d𝑥 & =−0.04523\,.\end{aligned}
+\begin{aligned}∫_{1/20}ln⁡(1−𝑥^{2})d𝑥 & =−0.04523\,.\end{aligned}
 
 
 $$

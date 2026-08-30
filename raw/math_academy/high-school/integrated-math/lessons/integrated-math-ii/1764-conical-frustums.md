@@ -34,7 +34,7 @@ For example, if
 $$
 
 
-r = 2 \: \textrm{cm}, \qquad R = 5\: \textrm{cm}, \qquad h = 4\: \textrm{cm}
+r = 2 \: \text{cm}, \qquad R = 5\: \text{cm}, \qquad h = 4\: \text{cm}
 
 
 $$
@@ -76,7 +76,7 @@ Substituting
 $$
 
 
-r = 2 \: \textrm{in}, \qquad R = 3 \: \textrm{in}, \qquad h = 4 \: \textrm{in}
+r = 2 \: \text{in}, \qquad R = 3 \: \text{in}, \qquad h = 4 \: \text{in}
 
 
 $$
@@ -148,7 +148,7 @@ First, we will find the slant height of the frustum using the Pythagorean theore
 $$
 
 
-\begin{aligned}𝑙 & =\sqrt{√(𝑅−𝑟)^{2}+ℎ^{2}} \\ & =\sqrt{√(15−7)^{2}+15^{2}} \\ & =\sqrt{√289} \\ & =17\,\,in.\end{aligned}
+\begin{aligned}𝑙 & =\sqrt{(𝑅−𝑟)^{2}+ℎ^{2}} \\ & =\sqrt{(15−7)^{2}+15^{2}} \\ & =\sqrt{289} \\ & =17\,\,in.\end{aligned}
 
 
 $$
@@ -158,7 +158,7 @@ Now, substituting
 $$
 
 
-r = 7\: \textrm{in}, \qquad R = 15\: \textrm{in}, \qquad l = 17 \: \textrm{in}
+r = 7\: \text{in}, \qquad R = 15\: \text{in}, \qquad l = 17 \: \text{in}
 
 
 $$
@@ -220,7 +220,7 @@ First, we will find the slant height of the frustum using the Pythagorean theore
 $$
 
 
-\begin{aligned}𝑙 & =\sqrt{√(𝑅−𝑟)^{2}+ℎ^{2}} \\ & =\sqrt{√(10−4)^{2}+(8)^{2}} \\ & =\sqrt{√36+64} \\ & =\sqrt{√100} \\ & =10\,cm.\end{aligned}
+\begin{aligned}𝑙 & =\sqrt{(𝑅−𝑟)^{2}+ℎ^{2}} \\ & =\sqrt{(10−4)^{2}+(8)^{2}} \\ & =\sqrt{36+64} \\ & =\sqrt{100} \\ & =10\,cm.\end{aligned}
 
 
 $$
@@ -230,7 +230,7 @@ Now, substituting
 $$
 
 
-r = 4 \: \textrm{cm}, \qquad R = 10 \: \textrm{cm}, \qquad l = 10 \: \textrm{cm}
+r = 4 \: \text{cm}, \qquad R = 10 \: \text{cm}, \qquad l = 10 \: \text{cm}
 
 
 $$

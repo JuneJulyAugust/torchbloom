@@ -90,7 +90,7 @@ Calculating $x$, we get
 $$
 
 
-\begin{aligned}𝑥 & =𝑟cos⁡𝜃 \\ & =4cos⁡(\frac{𝜋}{6}) \\ & =4⋅\frac{\sqrt{√3}}{2} \\ & =2\sqrt{√3}.\end{aligned}
+\begin{aligned}𝑥 & =𝑟cos⁡𝜃 \\ & =4cos⁡(\frac{𝜋}{6}) \\ & =4⋅\frac{\sqrt{3}}{2} \\ & =2\sqrt{3}.\end{aligned}
 
 
 $$
@@ -128,7 +128,7 @@ First, we find $r,$ as follows:
 $$
 
 
-\begin{aligned}𝑟 & =\sqrt{√𝑥^{2}+𝑦^{2}} \\ & =\sqrt{√(\sqrt{√3})^{2}+(−3)^{2}} \\ & =\sqrt{√3+9} \\ & =\sqrt{√12} \\ & =2\sqrt{√3}\end{aligned}
+\begin{aligned}𝑟 & =\sqrt{𝑥^{2}+𝑦^{2}} \\ & =\sqrt{(\sqrt{3})^{2}+(−3)^{2}} \\ & =\sqrt{3+9} \\ & =\sqrt{12} \\ & =2\sqrt{3}\end{aligned}
 
 
 $$
@@ -138,7 +138,7 @@ Now, since $(\sqrt3,-3)$ lies in the fourth quadrant, we first need to find the 
 $$
 
 
-\begin{aligned}𝜃_{𝑅} & =arctan⁡\frac{𝑦}{𝑥} \\ & =arctan⁡\frac{−3}{\sqrt{√3}} \\ & =arctan⁡(\sqrt{√3}) \\ & =\frac{𝜋}{3}\end{aligned}
+\begin{aligned}𝜃_{𝑅} & =arctan⁡\frac{𝑦}{𝑥} \\ & =arctan⁡\frac{−3}{\sqrt{3}} \\ & =arctan⁡(\sqrt{3}) \\ & =\frac{𝜋}{3}\end{aligned}
 
 
 $$

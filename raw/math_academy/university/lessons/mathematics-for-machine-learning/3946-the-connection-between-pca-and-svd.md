@@ -53,7 +53,7 @@ To summarize, if we write down the singular value decomposition of the standardi
 $$
 
 
-\begin{aligned}\frac{2}{\sqrt{√5}} & −\frac{1}{\sqrt{√5}} \\ \frac{1}{\sqrt{√5}} & \frac{2}{\sqrt{√5}}\end{aligned}
+\begin{aligned}\frac{2}{\sqrt{5}} & −\frac{1}{\sqrt{5}} \\ \frac{1}{\sqrt{5}} & \frac{2}{\sqrt{5}}\end{aligned}
 
 
 $$
@@ -133,7 +133,7 @@ The **total variance** of the observed data equals the sum of the entries on the
 $$
 
 
-\textrm{Total Variance} = \textrm{Var}[\mathbf{x}_1] + \textrm{Var}[\mathbf{x}_2] + \cdots + \textrm{Var}[\mathbf{x}_m].
+\text{Total Variance} = \text{Var}[\mathbf{x}_1] + \text{Var}[\mathbf{x}_2] + \cdots + \text{Var}[\mathbf{x}_m].
 
 
 $$
@@ -179,7 +179,7 @@ The total variance is defined as the trace (sum of diagonal elements) of the cov
 $$
 
 
-\textrm{Total Variance} = \text{Tr}(C_X) = \text{Tr}(C_Y) = \sum_{i=1}^m \lambda_i.
+\text{Total Variance} = \text{Tr}(C_X) = \text{Tr}(C_Y) = \sum_{i=1}^m \lambda_i.
 
 
 $$
@@ -189,7 +189,7 @@ Substituting $\lambda_i = \frac{\sigma_i^2}{n-1},$ we conclude that the total va
 $$
 
 
-\boxed{\textrm{Total Variance} \:\propto\: \sum_{i=1}^m \sigma^2_i.}
+\boxed{\text{Total Variance} \:\propto\: \sum_{i=1}^m \sigma^2_i.}
 
 
 $$
@@ -235,7 +235,7 @@ The total variance over all features is proportional to the sum of the squared s
 $$
 
 
-\begin{aligned}Total & ∝\underset{\underset{𝑖=1}{∑}}{\overset{}{3}}𝜎_{2𝑖}^{} \\ & =(12)^{2}+(5)^{2}+(4)^{2} \\ & =185.\end{aligned}
+\begin{aligned}Total & ∝\underset{\underset{𝑖=1}{∑}}{\overset{}{3}}𝜎_{2𝑖} \\ & =(12)^{2}+(5)^{2}+(4)^{2} \\ & =185.\end{aligned}
 
 
 $$
@@ -245,7 +245,7 @@ Since the nutritionist used only the first principal component, the preserved va
 $$
 
 
-\begin{aligned}Preserved & ∝\underset{\underset{𝑖=1}{∑}}{\overset{}{1}}𝜎_{2𝑖}^{} \\ & =(12)^{2} \\ & =144.\end{aligned}
+\begin{aligned}Preserved & ∝\underset{\underset{𝑖=1}{∑}}{\overset{}{1}}𝜎_{2𝑖} \\ & =(12)^{2} \\ & =144.\end{aligned}
 
 
 $$
@@ -309,7 +309,7 @@ Now, the total variance over all features is proportional to the sum of the squa
 $$
 
 
-\begin{aligned}Total & ∝\underset{\underset{𝑖=1}{∑}}{\overset{}{5}}𝜎_{2𝑖}^{} \\ & =(7)^{2}+(5)^{2}+(3)^{2}+(2)^{2}+(1)^{2} \\ & =88\end{aligned}
+\begin{aligned}Total & ∝\underset{\underset{𝑖=1}{∑}}{\overset{}{5}}𝜎_{2𝑖} \\ & =(7)^{2}+(5)^{2}+(3)^{2}+(2)^{2}+(1)^{2} \\ & =88\end{aligned}
 
 
 $$
@@ -319,7 +319,7 @@ Since the analyst used only the first two principal components, the remaining va
 $$
 
 
-\begin{aligned}Remaining & ∝\underset{\underset{𝑖=1}{∑}}{\overset{}{2}}𝜎_{2𝑖}^{} \\ & =(7)^{2}+(5)^{2} \\ & =74.\end{aligned}
+\begin{aligned}Remaining & ∝\underset{\underset{𝑖=1}{∑}}{\overset{}{2}}𝜎_{2𝑖} \\ & =(7)^{2}+(5)^{2} \\ & =74.\end{aligned}
 
 
 $$

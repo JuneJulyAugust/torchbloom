@@ -49,7 +49,7 @@ From the candy store to the school, we move $2$ units to the right.
 
 The scale, circled in the top right corner, tells us that each unit is $1$ kilometer in distance.
 
-We moved $2$ units to the right, and each unit is $1$ kilometer in distance, so the distance from the candy store to the school is $2\:\textrm{km}.$
+We moved $2$ units to the right, and each unit is $1$ kilometer in distance, so the distance from the candy store to the school is $2\:\text{km}.$
 
 ### Example: Finding Distances on a Graph
 
@@ -63,15 +63,15 @@ The diagram shows the location of $4$ students around their school. How far away
 
 From the map, we see that:
 
-- The distance from Francis to the school (parallel to the $x$-axis) is $5\:\textrm{km}.$
+- The distance from Francis to the school (parallel to the $x$-axis) is $5\:\text{km}.$
 
-- The distance from Helen to the school (parallel to the $y$-axis) is $3\:\textrm{km}.$
+- The distance from Helen to the school (parallel to the $y$-axis) is $3\:\text{km}.$
 
-- The distance from Jose to the school (parallel to the $y$-axis) is $4\:\textrm{km}.$
+- The distance from Jose to the school (parallel to the $y$-axis) is $4\:\text{km}.$
 
-- The distance from Ruth to the school (parallel to the $x$-axis) is $4\:\textrm{km}.$
+- The distance from Ruth to the school (parallel to the $x$-axis) is $4\:\text{km}.$
 
-So we conclude that Francis lives furthest away from the school, at a distance of $5\:\textrm{km}$ from the school.
+So we conclude that Francis lives furthest away from the school, at a distance of $5\:\text{km}$ from the school.
 
 ### Example: Identifying True Statements About Distances in Coordinate Planes
 
@@ -85,27 +85,27 @@ Ken maps his friends' houses on the coordinate plane. Which of the following are
 
 2. Ken lives at an equal distance from Judy and Joyce
 
-3. Ken lives $1\:\textrm{mile}$ from Ann
+3. Ken lives $1\:\text{mile}$ from Ann
 
 #### Explanation
 
 From the map, we see that:
 
-- The distance from Ken's house to Julia's house is $3\:\textrm{miles}.$
+- The distance from Ken's house to Julia's house is $3\:\text{miles}.$
 
-- The distance from Ken's house to Joyce's house is $4\:\textrm{miles}.$
+- The distance from Ken's house to Joyce's house is $4\:\text{miles}.$
 
-- The distance from Ken's house to Judy's house is $4\:\textrm{miles}.$
+- The distance from Ken's house to Judy's house is $4\:\text{miles}.$
 
-- The distance from Ken's house to Ann's house is $2\:\textrm{miles}.$
+- The distance from Ken's house to Ann's house is $2\:\text{miles}.$
 
 Now, we can analyze each statement in turn:
 
 - We conclude that Ken lives furthest from Joyce and Judy, not Julia. So statement I is false.
 
-- Ken lives at an equal distance of $4\:\textrm{miles}$ from both Judy and Joyce, so statement II is true.
+- Ken lives at an equal distance of $4\:\text{miles}$ from both Judy and Joyce, so statement II is true.
 
-- Ken lives $2\:\textrm{miles}$ from Ann, not $1\:\textrm{mile},$ so statement III is false.
+- Ken lives $2\:\text{miles}$ from Ann, not $1\:\text{mile},$ so statement III is false.
 
 In conclusion, only statement II is true.
 
@@ -119,9 +119,9 @@ Peter is going for a walk. Starting from his house, Peter travels $3$ kilometers
 
 #### Explanation
 
-Moving $3\:\textrm{km}$ east means a shift of $3$ unit right, parallel to the $x$-axis.
+Moving $3\:\text{km}$ east means a shift of $3$ unit right, parallel to the $x$-axis.
 
-Moving $3\:\textrm{km}$ north means a shift of $3$ units up, parallel to the $y$-axis.
+Moving $3\:\text{km}$ north means a shift of $3$ units up, parallel to the $y$-axis.
 
 ![Instructional graphic](../../../lesson-assets/grade-5/topic-2414/9b62b45cd4f1ed82.png)
 

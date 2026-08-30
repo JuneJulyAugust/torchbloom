@@ -60,9 +60,9 @@ Finally, some quadratic equations might define an *empty set* (or so-called *ima
 
 Let's see why these equations define the described curves:
 
-- Although there are no real solutions, the equation $\dfrac{x_1^2}{a^2} + \dfrac{x_2^2}{b^2} = -1,$ which is equivalent to $\dfrac{x_1^2}{(a\textrm{i})^2} + \dfrac{x_2^2}{(b\textrm{i})^2} = 1,$ has imaginary solutions, so we could interpret this as an imaginary ellipse.
+- Although there are no real solutions, the equation $\dfrac{x_1^2}{a^2} + \dfrac{x_2^2}{b^2} = -1,$ which is equivalent to $\dfrac{x_1^2}{(a\text{i})^2} + \dfrac{x_2^2}{(b\text{i})^2} = 1,$ has imaginary solutions, so we could interpret this as an imaginary ellipse.
 
-- Although there are no real solutions, the equation ${x_i^2}=-a^2$ is equivalent to $(x_i - a\textrm{i})(x_i + a\textrm{i})=0$ which in turn gives equations of two imaginary parallel lines $x_i =a\textrm{i}$ and $x_i=-a\textrm{i}.$
+- Although there are no real solutions, the equation ${x_i^2}=-a^2$ is equivalent to $(x_i - a\text{i})(x_i + a\text{i})=0$ which in turn gives equations of two imaginary parallel lines $x_i =a\text{i}$ and $x_i=-a\text{i}.$
 
 ### Example: Identifying a Quadratic Curve Type From Its Reduced Equation: No Cross-Product Term
 
@@ -103,7 +103,7 @@ First, we complete the squares for the variables $x_1$ and $x_2\mathbin{:}$
 $$
 
 
-\begin{aligned}2𝑥_{21}^{}+𝑥_{22}^{}−4𝑥_{1}+4𝑥_{2} & =2 \\ 2(𝑥_{21}^{}−2𝑥_{1})+(𝑥_{22}^{}+4𝑥_{2}) & =2 \\ 2(𝑥_{21}^{}−2𝑥_{1}+1−1)+(𝑥_{22}^{}+4𝑥_{2}+4−4) & =2 \\ 2(𝑥_{1}−1)^{2}−2+(𝑥_{2}+2)^{2}−4 & =2 \\ 2(𝑥_{1}−1)^{2}+(𝑥_{2}+2)^{2} & =8\end{aligned}
+\begin{aligned}2𝑥_{21}+𝑥_{22}−4𝑥_{1}+4𝑥_{2} & =2 \\ 2(𝑥_{21}−2𝑥_{1})+(𝑥_{22}+4𝑥_{2}) & =2 \\ 2(𝑥_{21}−2𝑥_{1}+1−1)+(𝑥_{22}+4𝑥_{2}+4−4) & =2 \\ 2(𝑥_{1}−1)^{2}−2+(𝑥_{2}+2)^{2}−4 & =2 \\ 2(𝑥_{1}−1)^{2}+(𝑥_{2}+2)^{2} & =8\end{aligned}
 
 
 $$
@@ -123,7 +123,7 @@ we get the following equation in standard form:
 $$
 
 
-\begin{aligned}2𝑦_{21}^{}+𝑦_{22}^{} & =8 \\ \frac{𝑦_{21}^{}}{4}+\frac{𝑦_{22}^{}}{8} & =1 \\ \frac{𝑦_{21}^{}}{2^{2}}+\frac{𝑦_{22}^{}}{(\sqrt{√8})^{2}} & =1\end{aligned}
+\begin{aligned}2𝑦_{21}+𝑦_{22} & =8 \\ \frac{𝑦_{21}}{4}+\frac{𝑦_{22}}{8} & =1 \\ \frac{𝑦_{21}}{2^{2}}+\frac{𝑦_{22}}{(\sqrt{8})^{2}} & =1\end{aligned}
 
 
 $$
@@ -151,7 +151,7 @@ First, we complete the square for the variable $x_1\mathbin{:}$
 $$
 
 
-\begin{aligned}3𝑥_{21}^{}+2𝑥_{1}−𝑥_{2} & =\frac{5}{3} \\ 3(𝑥_{21}^{}+\frac{2}{3}𝑥_{1})−𝑥_{2} & =\frac{5}{3} \\ 3(𝑥_{21}^{}+\frac{2}{3}𝑥_{1}+(\frac{1}{3})^{2}−(\frac{1}{3})^{2})−𝑥_{2} & =\frac{5}{3} \\ 3(𝑥_{1}+\frac{1}{3})^{2}−3(\frac{1}{3})^{2}−𝑥_{2} & =\frac{5}{3} \\ 3(𝑥_{1}+\frac{1}{3})^{2}−\frac{1}{3}−𝑥_{2} & =\frac{5}{3} \\ 3(𝑥_{1}+\frac{1}{3})^{2} & =𝑥_{2}+2\end{aligned}
+\begin{aligned}3𝑥_{21}+2𝑥_{1}−𝑥_{2} & =\frac{5}{3} \\ 3(𝑥_{21}+\frac{2}{3}𝑥_{1})−𝑥_{2} & =\frac{5}{3} \\ 3(𝑥_{21}+\frac{2}{3}𝑥_{1}+(\frac{1}{3})^{2}−(\frac{1}{3})^{2})−𝑥_{2} & =\frac{5}{3} \\ 3(𝑥_{1}+\frac{1}{3})^{2}−3(\frac{1}{3})^{2}−𝑥_{2} & =\frac{5}{3} \\ 3(𝑥_{1}+\frac{1}{3})^{2}−\frac{1}{3}−𝑥_{2} & =\frac{5}{3} \\ 3(𝑥_{1}+\frac{1}{3})^{2} & =𝑥_{2}+2\end{aligned}
 
 
 $$
@@ -171,7 +171,7 @@ we get the following:
 $$
 
 
-\begin{aligned}3𝑦_{21}^{} & =𝑦_{2} \\ 𝑦_{21}^{} & =\frac{1}{3}𝑦_{2}\end{aligned}
+\begin{aligned}3𝑦_{21} & =𝑦_{2} \\ 𝑦_{21} & =\frac{1}{3}𝑦_{2}\end{aligned}
 
 
 $$
@@ -229,7 +229,7 @@ We know that this change of variables reduces the corresponding quadratic form $
 $$
 
 
-\begin{aligned}2𝑥_{1}𝑥_{2}−2\sqrt{√2}𝑥_{1}+2\sqrt{√2}𝑥_{2}=8\,⟹\,𝑦_{21}^{}−𝑦_{22}^{}+4𝑦_{2}=8,\end{aligned}
+\begin{aligned}2𝑥_{1}𝑥_{2}−2\sqrt{2}𝑥_{1}+2\sqrt{2}𝑥_{2}=8\,⟹\,𝑦_{21}−𝑦_{22}+4𝑦_{2}=8,\end{aligned}
 
 
 $$
@@ -239,7 +239,7 @@ and, by completing the square for the variable $y_2$, we get the equation
 $$
 
 
-\begin{aligned}𝑦_{21}^{}−(𝑦_{2}−2)^{2} & =4.\end{aligned}
+\begin{aligned}𝑦_{21}−(𝑦_{2}−2)^{2} & =4.\end{aligned}
 
 
 $$
@@ -253,7 +253,7 @@ Notice that we can write down the change-of-variables matrix as
 $$
 
 
-\begin{aligned}\frac{1}{\sqrt{√2}} & −\frac{1}{\sqrt{√2}} \\ \frac{1}{\sqrt{√2}} & \frac{1}{\sqrt{√2}}\end{aligned}
+\begin{aligned}\frac{1}{\sqrt{2}} & −\frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}}\end{aligned}
 
 
 $$
@@ -277,7 +277,7 @@ we get the following:
 $$
 
 
-\begin{aligned}𝑦_{21}^{}−(𝑦_{2}−2)^{2} & =4 \\ \frac{𝑧_{21}^{}}{4}−\frac{𝑧_{22}^{}}{4} & =1 \\ \frac{𝑧_{21}^{}}{2^{2}}−\frac{𝑧_{22}^{}}{2^{2}} & =1\end{aligned}
+\begin{aligned}𝑦_{21}−(𝑦_{2}−2)^{2} & =4 \\ \frac{𝑧_{21}}{4}−\frac{𝑧_{22}}{4} & =1 \\ \frac{𝑧_{21}}{2^{2}}−\frac{𝑧_{22}}{2^{2}} & =1\end{aligned}
 
 
 $$
@@ -349,7 +349,7 @@ We know that the given change of variables reduces $Q(\mathbf x)$ to its canonic
 $$
 
 
-\begin{aligned}2𝑥_{21}^{}+6𝑥_{1}𝑥_{2}+2𝑥_{22}^{}−2𝑥_{1}+2𝑥_{2} & =7 \\ 5𝑦_{21}^{}−𝑦_{22}^{}−2(\frac{1}{\sqrt{√2}}𝑦_{1}−\frac{1}{\sqrt{√2}}𝑦_{2})+2(\frac{1}{\sqrt{√2}}𝑦_{1}+\frac{1}{\sqrt{√2}}𝑦_{2}) & =7 \\ 5𝑦_{21}^{}−𝑦_{22}^{}+\frac{4}{\sqrt{√2}}𝑦_{2} & =7 \\ 5𝑦_{21}^{}−𝑦_{22}^{}+2\sqrt{√2}𝑦_{2} & =7\end{aligned}
+\begin{aligned}2𝑥_{21}+6𝑥_{1}𝑥_{2}+2𝑥_{22}−2𝑥_{1}+2𝑥_{2} & =7 \\ 5𝑦_{21}−𝑦_{22}−2(\frac{1}{\sqrt{2}}𝑦_{1}−\frac{1}{\sqrt{2}}𝑦_{2})+2(\frac{1}{\sqrt{2}}𝑦_{1}+\frac{1}{\sqrt{2}}𝑦_{2}) & =7 \\ 5𝑦_{21}−𝑦_{22}+\frac{4}{\sqrt{2}}𝑦_{2} & =7 \\ 5𝑦_{21}−𝑦_{22}+2\sqrt{2}𝑦_{2} & =7\end{aligned}
 
 
 $$
@@ -359,7 +359,7 @@ Now, we complete the square for the variable $y_2\mathbin{:}$
 $$
 
 
-\begin{aligned}5𝑦_{21}^{}−𝑦_{22}^{}+2\sqrt{√2}𝑦_{2} & =7 \\ 5𝑦_{21}^{}−(𝑦_{22}^{}−2\sqrt{√2}𝑦_{2}) & =7 \\ 5𝑦_{21}^{}−(𝑦_{22}^{}−2\sqrt{√2}𝑦_{2}+(\sqrt{√2})^{2})+2 & =7 \\ 5𝑦_{21}^{}−(𝑦_{22}^{}−2\sqrt{√2}𝑦_{2}+(\sqrt{√2})^{2})+(\sqrt{√2})^{2} & =7 \\ 5𝑦_{21}^{}−(𝑦_{2}−\sqrt{√2})^{2}+2 & =7 \\ 5𝑦_{21}^{}−(𝑦_{2}−\sqrt{√2})^{2} & =5\end{aligned}
+\begin{aligned}5𝑦_{21}−𝑦_{22}+2\sqrt{2}𝑦_{2} & =7 \\ 5𝑦_{21}−(𝑦_{22}−2\sqrt{2}𝑦_{2}) & =7 \\ 5𝑦_{21}−(𝑦_{22}−2\sqrt{2}𝑦_{2}+(\sqrt{2})^{2})+2 & =7 \\ 5𝑦_{21}−(𝑦_{22}−2\sqrt{2}𝑦_{2}+(\sqrt{2})^{2})+(\sqrt{2})^{2} & =7 \\ 5𝑦_{21}−(𝑦_{2}−\sqrt{2})^{2}+2 & =7 \\ 5𝑦_{21}−(𝑦_{2}−\sqrt{2})^{2} & =5\end{aligned}
 
 
 $$
@@ -369,7 +369,7 @@ Finally, performing the change of variables
 $$
 
 
-\begin{aligned}𝑧_{1}=𝑦_{1}, \\ 𝑧_{2}=𝑦_{2}−\sqrt{√2},\end{aligned}
+\begin{aligned}𝑧_{1}=𝑦_{1}, \\ 𝑧_{2}=𝑦_{2}−\sqrt{2},\end{aligned}
 
 
 $$
@@ -379,7 +379,7 @@ we get the following:
 $$
 
 
-\begin{aligned}5𝑦_{21}^{}−(𝑦_{2}−\sqrt{√2})^{2} & =5 \\ 5𝑧_{21}^{}−𝑧_{22}^{} & =5 \\ \frac{𝑧_{21}^{}}{1^{2}}−\frac{𝑧_{22}^{}}{(\sqrt{√5})^{2}} & =1\end{aligned}
+\begin{aligned}5𝑦_{21}−(𝑦_{2}−\sqrt{2})^{2} & =5 \\ 5𝑧_{21}−𝑧_{22} & =5 \\ \frac{𝑧_{21}}{1^{2}}−\frac{𝑧_{22}}{(\sqrt{5})^{2}} & =1\end{aligned}
 
 
 $$

@@ -103,7 +103,7 @@ the slope field does not vary with $x$ (for a fixed value of $y$).
 
 #### Question
 
-Consider the differential equation $\dfrac{\textrm{d}y}{\textrm{d}x} = 3y-1$ and its slope field. Which of the following statements are true?
+Consider the differential equation $\dfrac{\text{d}y}{\text{d}x} = 3y-1$ and its slope field. Which of the following statements are true?
 
 1. At every point along the line $y = -1,$ the slope of the slope field does not vary
 

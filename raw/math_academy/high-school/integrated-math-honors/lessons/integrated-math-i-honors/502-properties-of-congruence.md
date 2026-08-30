@@ -98,7 +98,7 @@ We can rewrite the given sentence as follows:
 
 If $2 \cdot 5 = 10$ and $10 = 4+6,$ then $2 \cdot 5 = 4+6.$
 
-Therefore, this statement is true by the $\boxed{\color{blue}\textrm{transitive}}$ property of equality.
+Therefore, this statement is true by the $\boxed{\color{blue}\text{transitive}}$ property of equality.
 
 ### Congruence of Segments
 
@@ -154,7 +154,7 @@ We can rewrite the given sentence as follows:
 
 If $\overline{AB} \cong \overline{AC},$ then $\overline{AC} \cong \overline{AB}.$
 
-Therefore, this statement is true by the $\boxed{\color{blue}\textrm{symmetric}}$ property of congruence.
+Therefore, this statement is true by the $\boxed{\color{blue}\text{symmetric}}$ property of congruence.
 
 ### Congruence of Angles
 
@@ -194,7 +194,7 @@ We can rewrite the given sentence as follows:
 
 If $\angle ADC \cong\angle BDC,$ then $\angle BDC \cong \angle ADC.$
 
-Therefore, this statement is true by the $\boxed{\color{blue}\textrm{symmetric}}$ property of congruence.
+Therefore, this statement is true by the $\boxed{\color{blue}\text{symmetric}}$ property of congruence.
 
 ### Omitting the Symmetric Property
 

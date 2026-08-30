@@ -171,7 +171,7 @@ Then, we use the quadratic formula:
 $$
 
 
-\begin{aligned}𝑥 & =\frac{4±\sqrt{√(−4)^{2}−4(1)(5)}}{2(1)} \\ & =\frac{4±\sqrt{√16−20}}{2} \\ & =\frac{4±\sqrt{√−4}}{2}\end{aligned}
+\begin{aligned}𝑥 & =\frac{4±\sqrt{(−4)^{2}−4(1)(5)}}{2(1)} \\ & =\frac{4±\sqrt{16−20}}{2} \\ & =\frac{4±\sqrt{−4}}{2}\end{aligned}
 
 
 $$
@@ -215,7 +215,7 @@ Then, we use the quadratic formula:
 $$
 
 
-\begin{aligned}𝑥 & =\frac{−9±\sqrt{√9^{2}−4(2)(9−𝑘)}}{2(2)} \\ & =\frac{−9±\sqrt{√81−72+8𝑘}}{4} \\ & =\frac{−9±\sqrt{√9+8𝑘}}{4}\end{aligned}
+\begin{aligned}𝑥 & =\frac{−9±\sqrt{9^{2}−4(2)(9−𝑘)}}{2(2)} \\ & =\frac{−9±\sqrt{81−72+8𝑘}}{4} \\ & =\frac{−9±\sqrt{9+8𝑘}}{4}\end{aligned}
 
 
 $$

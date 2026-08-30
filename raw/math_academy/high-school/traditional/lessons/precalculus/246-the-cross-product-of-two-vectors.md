@@ -84,7 +84,7 @@ $$
 
 
 
-\begin{aligned}𝐚×𝐛 & =|\,𝐚\,|⋅|\,𝐛\,|⋅sin⁡𝜃⋅𝐧 \\ & =7⋅3⋅sin⁡120^{∘}⋅𝐧 \\ & =7⋅3⋅\frac{\sqrt{√3}}{2}⋅𝐧 \\ & =\frac{21\sqrt{√3}}{2}𝐧.\end{aligned}
+\begin{aligned}𝐚×𝐛 & =|\,𝐚\,|⋅|\,𝐛\,|⋅sin⁡𝜃⋅𝐧 \\ & =7⋅3⋅sin⁡120^{∘}⋅𝐧 \\ & =7⋅3⋅\frac{\sqrt{3}}{2}⋅𝐧 \\ & =\frac{21\sqrt{3}}{2}𝐧.\end{aligned}
 
 
 

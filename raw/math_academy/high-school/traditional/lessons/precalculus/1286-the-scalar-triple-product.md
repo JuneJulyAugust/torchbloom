@@ -21,7 +21,7 @@ $$
 
 
 
-\begin{aligned}𝐛×𝐜 & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 𝑏_{1} & 𝑏_{2} & 𝑏_{3} \\ 𝑐_{1} & 𝑐_{2} & 𝑐_{3}\end{aligned} \\ & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 1 & 1 & −2 \\ 0 & 3 & 1\end{aligned} \\ & =\begin{aligned}1 & −2 \\ 3 & 1\end{aligned}𝐢−\begin{aligned}1 & −2 \\ 0 & 1\end{aligned}𝐣+\begin{aligned}1 & 1 \\ 0 & 3\end{aligned}𝐤 \\ & =(1⋅1−(−2)⋅3)𝐢−(1⋅1−(−2)⋅0)𝐣+(1⋅3−1⋅0)𝐤 \\ & =7𝐢−𝐣+3𝐤 \\ & =⟨7,−1,3⟩\end{aligned}
+\begin{aligned}𝐛×𝐜 & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 𝑏_{1} & 𝑏_{2} & 𝑏_{3} \\ 𝑐_{1} & 𝑐_{2} & 𝑐_{3}\end{matrix} \\ & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 1 & 1 & −2 \\ 0 & 3 & 1\end{matrix} \\ & =\begin{matrix}1 & −2 \\ 3 & 1\end{matrix}𝐢−\begin{matrix}1 & −2 \\ 0 & 1\end{matrix}𝐣+\begin{matrix}1 & 1 \\ 0 & 3\end{matrix}𝐤 \\ & =(1⋅1−(−2)⋅3)𝐢−(1⋅1−(−2)⋅0)𝐣+(1⋅3−1⋅0)𝐤 \\ & =7𝐢−𝐣+3𝐤 \\ & =⟨7,−1,3⟩\end{aligned}
 
 
 
@@ -57,7 +57,7 @@ $$
 
 
 
-\begin{aligned}𝐛×𝐜 & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ −1 & 0 & 5 \\ 1 & 2 & 3\end{aligned} \\ & =\begin{aligned}0 & 5 \\ 2 & 3\end{aligned}𝐢−\begin{aligned}−1 & 5 \\ 1 & 3\end{aligned}𝐣+\begin{aligned}−1 & 0 \\ 1 & 2\end{aligned}𝐤 \\ & =(0⋅3−5⋅2)𝐢−(−1⋅3−5⋅1)𝐣+(−1⋅2−0⋅2)𝐤 \\ & =−10𝐢+8𝐣−2𝐤 \\ & =⟨−10,8,−2⟩\end{aligned}
+\begin{aligned}𝐛×𝐜 & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ −1 & 0 & 5 \\ 1 & 2 & 3\end{matrix} \\ & =\begin{matrix}0 & 5 \\ 2 & 3\end{matrix}𝐢−\begin{matrix}−1 & 5 \\ 1 & 3\end{matrix}𝐣+\begin{matrix}−1 & 0 \\ 1 & 2\end{matrix}𝐤 \\ & =(0⋅3−5⋅2)𝐢−(−1⋅3−5⋅1)𝐣+(−1⋅2−0⋅2)𝐤 \\ & =−10𝐢+8𝐣−2𝐤 \\ & =⟨−10,8,−2⟩\end{aligned}
 
 
 
@@ -85,7 +85,7 @@ $$
 
 
 
-\begin{aligned}𝐚⋅(𝐛×𝐜)=\begin{aligned}𝑎_{1} & 𝑎_{2} & 𝑎_{3} \\ 𝑏_{1} & 𝑏_{2} & 𝑏_{3} \\ 𝑐_{1} & 𝑐_{2} & 𝑐_{3}\end{aligned}.\end{aligned}
+\begin{aligned}𝐚⋅(𝐛×𝐜)=\begin{matrix}𝑎_{1} & 𝑎_{2} & 𝑎_{3} \\ 𝑏_{1} & 𝑏_{2} & 𝑏_{3} \\ 𝑐_{1} & 𝑐_{2} & 𝑐_{3}\end{matrix}.\end{aligned}
 
 
 
@@ -109,7 +109,7 @@ $$
 
 
 
-\begin{aligned}𝐚⋅(𝐛×𝐜) & =\begin{aligned}4 & 2 & −1 \\ 0 & 2 & 1 \\ −1 & −1 & 2\end{aligned} \\ & =4⋅\begin{aligned}2 & 1 \\ −1 & 2\end{aligned}−2⋅\begin{aligned}0 & 1 \\ −1 & 2\end{aligned}+(−1)⋅\begin{aligned}0 & 2 \\ −1 & −1\end{aligned} \\ & =4⋅(2⋅2−1⋅(−1))−2⋅(0⋅2−1⋅(−1))+(−1)⋅(0⋅(−1)−2⋅(−1)) \\ & =20−2−2 \\ & =16.\end{aligned}
+\begin{aligned}𝐚⋅(𝐛×𝐜) & =\begin{matrix}4 & 2 & −1 \\ 0 & 2 & 1 \\ −1 & −1 & 2\end{matrix} \\ & =4⋅\begin{matrix}2 & 1 \\ −1 & 2\end{matrix}−2⋅\begin{matrix}0 & 1 \\ −1 & 2\end{matrix}+(−1)⋅\begin{matrix}0 & 2 \\ −1 & −1\end{matrix} \\ & =4⋅(2⋅2−1⋅(−1))−2⋅(0⋅2−1⋅(−1))+(−1)⋅(0⋅(−1)−2⋅(−1)) \\ & =20−2−2 \\ & =16.\end{aligned}
 
 
 
@@ -213,7 +213,7 @@ $$
 
 
 
-\begin{aligned}𝐚⋅(𝐛×𝐜)=\begin{aligned}𝑎_{1} & 𝑎_{2} & 𝑎_{3} \\ 𝑏_{1} & 𝑏_{2} & 𝑏_{3} \\ 𝑐_{1} & 𝑐_{2} & 𝑐_{3}\end{aligned}.\end{aligned}
+\begin{aligned}𝐚⋅(𝐛×𝐜)=\begin{matrix}𝑎_{1} & 𝑎_{2} & 𝑎_{3} \\ 𝑏_{1} & 𝑏_{2} & 𝑏_{3} \\ 𝑐_{1} & 𝑐_{2} & 𝑐_{3}\end{matrix}.\end{aligned}
 
 
 
@@ -225,7 +225,7 @@ $$
 
 
 
-\begin{aligned}𝐛×𝐜 & =\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 𝑏_{1} & 𝑏_{2} & 𝑏_{3} \\ 𝑐_{1} & 𝑐_{2} & 𝑐_{3}\end{aligned} \\ & =\begin{aligned}𝑏_{2} & 𝑏_{3} \\ 𝑐_{2} & 𝑐_{3}\end{aligned}𝐢−\begin{aligned}𝑏_{1} & 𝑏_{3} \\ 𝑐_{1} & 𝑐_{3}\end{aligned}𝐣+\begin{aligned}𝑏_{1} & 𝑏_{2} \\ 𝑐_{1} & 𝑐_{2}\end{aligned}𝐤\end{aligned}
+\begin{aligned}𝐛×𝐜 & =\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 𝑏_{1} & 𝑏_{2} & 𝑏_{3} \\ 𝑐_{1} & 𝑐_{2} & 𝑐_{3}\end{matrix} \\ & =\begin{matrix}𝑏_{2} & 𝑏_{3} \\ 𝑐_{2} & 𝑐_{3}\end{matrix}𝐢−\begin{matrix}𝑏_{1} & 𝑏_{3} \\ 𝑐_{1} & 𝑐_{3}\end{matrix}𝐣+\begin{matrix}𝑏_{1} & 𝑏_{2} \\ 𝑐_{1} & 𝑐_{2}\end{matrix}𝐤\end{aligned}
 
 
 
@@ -237,7 +237,7 @@ $$
 
 
 
-\begin{aligned}𝐚⋅(𝐛×𝐜) & =(𝑎_{1}𝐢+𝑎_{2}𝐣+𝑎_{3}𝐤)⋅(\begin{aligned}𝑏_{2} & 𝑏_{3} \\ 𝑐_{2} & 𝑐_{3}\end{aligned}𝐢−\begin{aligned}𝑏_{1} & 𝑏_{3} \\ 𝑐_{1} & 𝑐_{3}\end{aligned}𝐣+\begin{aligned}𝑏_{1} & 𝑏_{2} \\ 𝑐_{1} & 𝑐_{2}\end{aligned}𝐤) \\ & =𝑎_{1}\begin{aligned}𝑏_{2} & 𝑏_{3} \\ 𝑐_{2} & 𝑐_{3}\end{aligned}−𝑎_{2}\begin{aligned}𝑏_{1} & 𝑏_{3} \\ 𝑐_{1} & 𝑐_{3}\end{aligned}+𝑎_{3}\begin{aligned}𝑏_{1} & 𝑏_{2} \\ 𝑐_{1} & 𝑐_{2}\end{aligned} \\ & =\begin{aligned}𝑎_{1} & 𝑎_{2} & 𝑎_{3} \\ 𝑏_{1} & 𝑏_{2} & 𝑏_{3} \\ 𝑐_{1} & 𝑐_{2} & 𝑐_{3}\end{aligned}\end{aligned}
+\begin{aligned}𝐚⋅(𝐛×𝐜) & =(𝑎_{1}𝐢+𝑎_{2}𝐣+𝑎_{3}𝐤)⋅(\begin{matrix}𝑏_{2} & 𝑏_{3} \\ 𝑐_{2} & 𝑐_{3}\end{matrix}𝐢−\begin{matrix}𝑏_{1} & 𝑏_{3} \\ 𝑐_{1} & 𝑐_{3}\end{matrix}𝐣+\begin{matrix}𝑏_{1} & 𝑏_{2} \\ 𝑐_{1} & 𝑐_{2}\end{matrix}𝐤) \\ & =𝑎_{1}\begin{matrix}𝑏_{2} & 𝑏_{3} \\ 𝑐_{2} & 𝑐_{3}\end{matrix}−𝑎_{2}\begin{matrix}𝑏_{1} & 𝑏_{3} \\ 𝑐_{1} & 𝑐_{3}\end{matrix}+𝑎_{3}\begin{matrix}𝑏_{1} & 𝑏_{2} \\ 𝑐_{1} & 𝑐_{2}\end{matrix} \\ & =\begin{matrix}𝑎_{1} & 𝑎_{2} & 𝑎_{3} \\ 𝑏_{1} & 𝑏_{2} & 𝑏_{3} \\ 𝑐_{1} & 𝑐_{2} & 𝑐_{3}\end{matrix}\end{aligned}
 
 
 

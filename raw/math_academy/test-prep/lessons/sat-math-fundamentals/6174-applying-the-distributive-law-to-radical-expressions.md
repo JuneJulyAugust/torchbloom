@@ -90,7 +90,7 @@ First, we write radicals as fractional exponents:
 $$
 
 
-\begin{aligned}(\sqrt{√𝑥^{5}𝑦^{6}}−\sqrt{√𝑦^{7}})\sqrt{√𝑥^{3}} & =((𝑥^{5}𝑦^{6})^{1/2}−(𝑦^{7})^{1/2})(𝑥^{3})^{1/2} \\ & =(𝑥^{5/2}𝑦^{3}−𝑦^{7/2})𝑥^{3/2}\end{aligned}
+\begin{aligned}(\sqrt{𝑥^{5}𝑦^{6}}−\sqrt{𝑦^{7}})\sqrt{𝑥^{3}} & =((𝑥^{5}𝑦^{6})^{1/2}−(𝑦^{7})^{1/2})(𝑥^{3})^{1/2} \\ & =(𝑥^{5/2}𝑦^{3}−𝑦^{7/2})𝑥^{3/2}\end{aligned}
 
 
 $$
@@ -138,7 +138,7 @@ First, we write radicals as fractional exponents:
 $$
 
 
-\begin{aligned}\frac{\sqrt{√𝑥^{6}}+\sqrt{√𝑥^{3}𝑦^{2}}}{\sqrt{√𝑥^{6}}} & =\frac{𝑥^{6/2}+(𝑥^{3}𝑦^{2})^{1/2}}{𝑥^{6/2}} \\ & =\frac{𝑥^{3}+𝑥^{3⋅1/2}𝑦^{2⋅1/2}}{𝑥^{3}} \\ & =\frac{𝑥^{3}+𝑥^{3/2}𝑦^{1}}{𝑥^{3}}\end{aligned}
+\begin{aligned}\frac{\sqrt{𝑥^{6}}+\sqrt{𝑥^{3}𝑦^{2}}}{\sqrt{𝑥^{6}}} & =\frac{𝑥^{6/2}+(𝑥^{3}𝑦^{2})^{1/2}}{𝑥^{6/2}} \\ & =\frac{𝑥^{3}+𝑥^{3⋅1/2}𝑦^{2⋅1/2}}{𝑥^{3}} \\ & =\frac{𝑥^{3}+𝑥^{3/2}𝑦^{1}}{𝑥^{3}}\end{aligned}
 
 
 $$
@@ -178,7 +178,7 @@ Finally, we write fractional exponents as radicals:
 $$
 
 
-\begin{aligned}1+\frac{𝑦}{𝑥^{3/2}} & =1+\frac{𝑦}{𝑥^{3/2}} \\ & =1+\frac{𝑦}{\sqrt{√𝑥^{3}}}\end{aligned}
+\begin{aligned}1+\frac{𝑦}{𝑥^{3/2}} & =1+\frac{𝑦}{𝑥^{3/2}} \\ & =1+\frac{𝑦}{\sqrt{𝑥^{3}}}\end{aligned}
 
 
 $$

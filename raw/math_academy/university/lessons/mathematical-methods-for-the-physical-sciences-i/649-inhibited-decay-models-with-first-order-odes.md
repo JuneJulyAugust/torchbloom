@@ -52,7 +52,7 @@ Inhibited decay models can be written in expanded form. To identify an expanded 
 $$
 
 
-\dfrac{\textrm{d}P}{\textrm{d}t} = 20-5P,
+\dfrac{\text{d}P}{\text{d}t} = 20-5P,
 
 
 $$
@@ -62,7 +62,7 @@ $$
 $$
 
 
-\dfrac{\textrm{d}P}{\textrm{d}t} = -5(P-4).
+\dfrac{\text{d}P}{\text{d}t} = -5(P-4).
 
 
 $$
@@ -128,23 +128,23 @@ This leads to the differential equation
 $$
 
 
-\dfrac{\textrm{d}T}{\textrm{d}t} = -k(T-T_S),
+\dfrac{\text{d}T}{\text{d}t} = -k(T-T_S),
 
 
 $$
 
 where $T_S$ is the temperature of the surroundings, and $k > 0$ is a constant of proportionality.
 
-Let’s put this into action. Suppose a thermometer is placed in a pot of boiling water and reads $100^\circ\textrm{C}.$ The pot is then placed in a $20^\circ\textrm{C}$ room, and the thermometer's reading begins to decrease.
+Let’s put this into action. Suppose a thermometer is placed in a pot of boiling water and reads $100^\circ\text{C}.$ The pot is then placed in a $20^\circ\text{C}$ room, and the thermometer's reading begins to decrease.
 
-Given that after $7$ minutes its reading is $60^\circ\textrm{C},$ let's model the thermometer's temperature after $t$ minutes.
+Given that after $7$ minutes its reading is $60^\circ\text{C},$ let's model the thermometer's temperature after $t$ minutes.
 
-In this case, the temperature of the surroundings is $T_S = 20^\circ\textrm{C}.$ So, by Newton's law of cooling, we have
+In this case, the temperature of the surroundings is $T_S = 20^\circ\text{C}.$ So, by Newton's law of cooling, we have
 
 $$
 
 
-\dfrac{\textrm{d}T}{\textrm{d}t} = -k(T-20),
+\dfrac{\text{d}T}{\text{d}t} = -k(T-20),
 
 
 $$
@@ -189,7 +189,7 @@ $$
 
 where $K$ and $k$ are constants to be determined.
 
-We're told that the initial temperature of the water was $100^\circ\textrm{C}.$ So, we apply the initial condition $T(0) = 100{:}$
+We're told that the initial temperature of the water was $100^\circ\text{C}.$ So, we apply the initial condition $T(0) = 100{:}$
 
 $$
 
@@ -219,7 +219,7 @@ $$
 
 $$
 
-Therefore, the temperature, in $^\circ\textrm{C},$ of the thermometer after $t$ minutes is
+Therefore, the temperature, in $^\circ\text{C},$ of the thermometer after $t$ minutes is
 
 $$
 
@@ -233,7 +233,7 @@ $$
 
 #### Question
 
-A loaf of bread just taken out of the oven has a temperature of $180^{\circ}\textrm{C}.$ After placing it on the table, the temperature $T(t)$ of the bread decreases at a rate that obeys Newton's law of cooling. Here, $T$ is measured in degrees Celsius, and $t > 0$ is the time in minutes. If the room temperature is $25^{\circ}\textrm{C},$ which differential equation could be used to model the bread's temperature? Assume that $k > 0$ is a constant of proportionality.
+A loaf of bread just taken out of the oven has a temperature of $180^{\circ}\text{C}.$ After placing it on the table, the temperature $T(t)$ of the bread decreases at a rate that obeys Newton's law of cooling. Here, $T$ is measured in degrees Celsius, and $t > 0$ is the time in minutes. If the room temperature is $25^{\circ}\text{C},$ which differential equation could be used to model the bread's temperature? Assume that $k > 0$ is a constant of proportionality.
 
 #### Explanation
 
@@ -249,7 +249,7 @@ $$
 
 where $T_S$ is the temperature of the surroundings, and $k > 0$ is a constant of proportionality.
 
-In our case, $T_S = 25^{\circ}\textrm{C},$ and we have
+In our case, $T_S = 25^{\circ}\text{C},$ and we have
 
 $$
 
@@ -334,7 +334,7 @@ Finally, the temperature of the bulb after $t=4$ minutes is
 $$
 
 
-T(4) = 23+57e^{-0.25\cdot 4}\approx 44^\circ\textrm{C},
+T(4) = 23+57e^{-0.25\cdot 4}\approx 44^\circ\text{C},
 
 
 $$

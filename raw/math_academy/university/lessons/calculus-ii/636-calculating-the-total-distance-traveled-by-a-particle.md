@@ -32,7 +32,7 @@ For example, if you take a step forward and then a step backward, your total dis
 
 #### Question
 
-A particle $P$ moves along a straight line relative to a fixed origin $O.$ Its velocity $v\,\textrm{m/s}$ is given by $v(t) =3t^2-2t,$ where $t$ is the time in seconds. Calculate the total distance traveled by $P$ in the interval $\dfrac{2}{3}\leq t\leq 1.$
+A particle $P$ moves along a straight line relative to a fixed origin $O.$ Its velocity $v\,\text{m/s}$ is given by $v(t) =3t^2-2t,$ where $t$ is the time in seconds. Calculate the total distance traveled by $P$ in the interval $\dfrac{2}{3}\leq t\leq 1.$
 
 #### Explanation
 
@@ -67,7 +67,7 @@ We can now calculate the total distance traveled, as follows:
 $$
 
 
-\begin{aligned} d&=\int_{2/3}^1 |v(t)| \, dt\\\[5pt] &=\int_{2/3}^{1} \left(3t^2-2t \right)\,\textrm{d}t\\\[5pt] &=\Big.\left(t^3-t^2 \right)\Big|_{2/3}^{1}\\\[5pt] &=\left(1^3-1^2 \right)-\left( \left(\dfrac{2}{3}\right)^3-\left(\dfrac{2}{3}\right)^2\right)\\\[5pt] &=\dfrac{4}{9}-\dfrac{8}{27}\\\[5pt] &=\dfrac{4}{27} \end{aligned}
+\begin{aligned} d&=\int_{2/3}^1 |v(t)| \, dt\\[5pt] &=\int_{2/3}^{1} \left(3t^2-2t \right)\,\text{d}t\\[5pt] &=\Big.\left(t^3-t^2 \right)\Big|_{2/3}^{1}\\[5pt] &=\left(1^3-1^2 \right)-\left( \left(\dfrac{2}{3}\right)^3-\left(\dfrac{2}{3}\right)^2\right)\\[5pt] &=\dfrac{4}{9}-\dfrac{8}{27}\\[5pt] &=\dfrac{4}{27} \end{aligned}
 
 
 $$
@@ -78,7 +78,7 @@ Therefore, the particle travels a total distance of $\dfrac{4}{27}\,\textrm m$ i
 
 #### Question
 
-A particle $P$ moves along a straight line relative to a fixed origin $O.$ Its displacement $s\,\textrm{cm}$ is given by
+A particle $P$ moves along a straight line relative to a fixed origin $O.$ Its displacement $s\,\text{cm}$ is given by
 
 $$
 
@@ -107,7 +107,7 @@ The velocity $v(t)$ is obtained by differentiating $s(t).$ This gives
 $$
 
 
-\begin{aligned} v(t)&=\dfrac{\textrm{d}s}{\textrm{d}t}=6t^2-12t. \end{aligned}
+\begin{aligned} v(t)&=\dfrac{\text{d}s}{\text{d}t}=6t^2-12t. \end{aligned}
 
 
 $$
@@ -146,7 +146,7 @@ $$
 
 $$
 
-Therefore, the total distance traveled by $P$ in the interval $0 \leq t\leq 4$ is $48\,\textrm{m}.$
+Therefore, the total distance traveled by $P$ in the interval $0 \leq t\leq 4$ is $48\,\text{m}.$
 
 ### Example: Finding an Expression For the Total Distance Traveled By a Particle
 
@@ -197,7 +197,7 @@ Finally, splitting the integral over the two intervals, we can find an expressio
 $$
 
 
-\begin{aligned}𝑑 & =∫_{𝑇0}^{}|𝑣(𝑡)|\,d𝑡 \\ & =∫_{20}^{}|𝑣(𝑡)|d𝑡+∫_{𝑇2}^{}|𝑣(𝑡)|d𝑡 \\ & =∫_{20}^{}(1−\frac{1}{2}𝑡)d𝑡+∫_{𝑇2}^{}(\frac{1}{2}𝑡−1)d𝑡 \\ & =(𝑡−\frac{1}{4}𝑡^{2})_{20}^{}+(\frac{1}{4}𝑡^{2}−𝑡)_{𝑇2}^{} \\ & =[(2−\frac{1}{4}(2)^{2})−0]+[(\frac{1}{4}𝑇^{2}−𝑇)−(\frac{1}{4}(2)^{2}−2)] \\ & =1+\frac{1}{4}𝑇^{2}−𝑇−(−1) \\ & =\frac{1}{4}𝑇^{2}−𝑇+2\end{aligned}
+\begin{aligned}𝑑 & =∫_{𝑇0}|𝑣(𝑡)|\,d𝑡 \\ & =∫_{20}|𝑣(𝑡)|d𝑡+∫_{𝑇2}|𝑣(𝑡)|d𝑡 \\ & =∫_{20}(1−\frac{1}{2}𝑡)d𝑡+∫_{𝑇2}(\frac{1}{2}𝑡−1)d𝑡 \\ & =(𝑡−\frac{1}{4}𝑡^{2})_{20}+(\frac{1}{4}𝑡^{2}−𝑡)_{𝑇2} \\ & =[(2−\frac{1}{4}(2)^{2})−0]+[(\frac{1}{4}𝑇^{2}−𝑇)−(\frac{1}{4}(2)^{2}−2)] \\ & =1+\frac{1}{4}𝑇^{2}−𝑇−(−1) \\ & =\frac{1}{4}𝑇^{2}−𝑇+2\end{aligned}
 
 
 $$
@@ -241,12 +241,12 @@ We can work out the total distance traveled in the interval $0 < t < 2$ as follo
 $$
 
 
-\begin{aligned}𝑑 & =∫_{20}^{}|𝑣(𝑡)|\,d𝑡 \\ & =∫_{20}^{}(12−3𝑡^{2})\,d𝑡 \\ & =(12𝑡−𝑡^{3})_{20}^{} \\ & =12(2)−2^{3} \\ & =16\end{aligned}
+\begin{aligned}𝑑 & =∫_{20}|𝑣(𝑡)|\,d𝑡 \\ & =∫_{20}(12−3𝑡^{2})\,d𝑡 \\ & =(12𝑡−𝑡^{3})_{20} \\ & =12(2)−2^{3} \\ & =16\end{aligned}
 
 
 $$
 
-Since $16 < 32,$ the time taken for the particle to travel $32\,\textrm{m}$ is greater than $2$ seconds.
+Since $16 < 32,$ the time taken for the particle to travel $32\,\text{m}$ is greater than $2$ seconds.
 
 Now, in the interval $2\leq t\leq T$ for $T>2,$ we have $v(t)<0.$ Therefore,
 
@@ -263,12 +263,12 @@ Therefore, an expression for the total distance $d$ traveled between $t=0$ and $
 $$
 
 
-\begin{aligned}𝑑(𝑇) & =∫_{𝑇0}^{}|𝑣(𝑡)|\,d𝑡 \\ & =\underset{16}{\underset{}{∫_{20}^{}|𝑣(𝑡)|\,d𝑡}}+∫_{𝑇2}^{}|𝑣(𝑡)|\,d𝑡 \\ & =16+∫_{𝑇2}^{}(3𝑡^{2}−12)\,d𝑡 \\ & =16+(𝑡^{3}−12𝑡)_{𝑇2}^{} \\ & =16+[(𝑇^{3}−12𝑇)−((2)^{3}−12(2)] \\ & =16+𝑇^{3}−12𝑇−(−16) \\ & =𝑇^{3}−12𝑇+32.\end{aligned}
+\begin{aligned}𝑑(𝑇) & =∫_{𝑇0}|𝑣(𝑡)|\,d𝑡 \\ & =\underset{16}{\underset{}{∫_{20}|𝑣(𝑡)|\,d𝑡}}+∫_{𝑇2}|𝑣(𝑡)|\,d𝑡 \\ & =16+∫_{𝑇2}(3𝑡^{2}−12)\,d𝑡 \\ & =16+(𝑡^{3}−12𝑡)_{𝑇2} \\ & =16+[(𝑇^{3}−12𝑇)−((2)^{3}−12(2)] \\ & =16+𝑇^{3}−12𝑇−(−16) \\ & =𝑇^{3}−12𝑇+32.\end{aligned}
 
 
 $$
 
-Finally, the particle travels $32\,\textrm{m}$ when $d = 32.$ So, we can solve for $T$ as follows:
+Finally, the particle travels $32\,\text{m}$ when $d = 32.$ So, we can solve for $T$ as follows:
 
 $$
 
@@ -280,4 +280,4 @@ $$
 
 The solutions are $T=0$ and $T=\pm 2\sqrt 3.$ Since we require $T> 2,$ the only valid solution is $T=2\sqrt 3.$
 
-Therefore, we conclude that it takes $2\sqrt 3$ seconds for the particle to travel a total of $32\,\textrm{m}.$
+Therefore, we conclude that it takes $2\sqrt 3$ seconds for the particle to travel a total of $32\,\text{m}.$

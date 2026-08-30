@@ -20,7 +20,7 @@ In other words, given a polynomial with integer coefficients, any rational roots
 $$
 
 
-\pm \dfrac{\textrm{factor of the constant term}}{\textrm{factor of the leading coefficient}}.
+\pm \dfrac{\text{factor of the constant term}}{\text{factor of the leading coefficient}}.
 
 
 $$
@@ -88,7 +88,7 @@ Given a polynomial with integer coefficients, the rational roots theorem states 
 $$
 
 
-\pm \dfrac{\textrm{factor of the constant term}}{\textrm{factor of the leading coefficient}}.
+\pm \dfrac{\text{factor of the constant term}}{\text{factor of the leading coefficient}}.
 
 
 $$
@@ -98,7 +98,7 @@ For the given polynomial $f(x),$ the constant term is $-6,$ and the leading coef
 $$
 
 
-\pm \dfrac{\textrm{factor of }{-6}}{\textrm{factor of }9}.
+\pm \dfrac{\text{factor of }{-6}}{\text{factor of }9}.
 
 
 $$
@@ -124,7 +124,7 @@ Given a polynomial with integer coefficients, the rational roots theorem states 
 $$
 
 
-\pm \dfrac{\textrm{factor of the constant term}}{\textrm{factor of the leading coefficient}}.
+\pm \dfrac{\text{factor of the constant term}}{\text{factor of the leading coefficient}}.
 
 
 $$
@@ -134,7 +134,7 @@ For the given polynomial $f(x),$ the constant term is $15$ and the leading coeff
 $$
 
 
-\pm \dfrac{\textrm{factor of }{15}}{\textrm{factor of }12}.
+\pm \dfrac{\text{factor of }{15}}{\text{factor of }12}.
 
 
 $$
@@ -154,7 +154,7 @@ Given a polynomial with integer coefficients, the rational roots theorem states 
 $$
 
 
-\pm \dfrac{\textrm{factor of the constant term}}{\textrm{factor of the leading coefficient}}.
+\pm \dfrac{\text{factor of the constant term}}{\text{factor of the leading coefficient}}.
 
 
 $$
@@ -210,7 +210,7 @@ Given a polynomial with integer coefficients, the rational roots theorem states 
 $$
 
 
-\pm \dfrac{\textrm{factor of the constant term}}{\textrm{factor of the leading coefficient}}.
+\pm \dfrac{\text{factor of the constant term}}{\text{factor of the leading coefficient}}.
 
 
 $$
@@ -220,7 +220,7 @@ For the given polynomial $f(x),$ the constant term is $4$ and the leading coeffi
 $$
 
 
-\pm \dfrac{\textrm{factor of }{4}}{\textrm{factor of }1}.
+\pm \dfrac{\text{factor of }{4}}{\text{factor of }1}.
 
 
 $$

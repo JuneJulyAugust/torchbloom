@@ -30,7 +30,7 @@ $$
 
 
 
-\begin{aligned}E[𝑋] & =𝑛𝑝 \\ Var[𝑋] & =𝑛𝑝(1−𝑝) \\ SD[𝑋] & =\sqrt{√𝑛𝑝(1−𝑝)}\end{aligned}
+\begin{aligned}E[𝑋] & =𝑛𝑝 \\ Var[𝑋] & =𝑛𝑝(1−𝑝) \\ SD[𝑋] & =\sqrt{𝑛𝑝(1−𝑝)}\end{aligned}
 
 
 
@@ -104,7 +104,7 @@ $$
 
 
 
-\textrm{Var}[X] = np(1-p),
+\text{Var}[X] = np(1-p),
 
 
 
@@ -148,7 +148,7 @@ $$
 
 
 
-\textrm{SD}[X] = \sqrt{\textrm{Var}[X]}=\sqrt{np(1-p)},
+\text{SD}[X] = \sqrt{\text{Var}[X]}=\sqrt{np(1-p)},
 
 
 
@@ -162,7 +162,7 @@ $$
 
 
 
-\begin{aligned}SD[𝑋] & =\sqrt{√𝑛𝑝(1−𝑝)} \\ & =\sqrt{√8⋅\frac{2}{5}⋅(1−\frac{2}{5})} \\ & =\sqrt{√1.92} \\ & =1.386\end{aligned}
+\begin{aligned}SD[𝑋] & =\sqrt{𝑛𝑝(1−𝑝)} \\ & =\sqrt{8⋅\frac{2}{5}⋅(1−\frac{2}{5})} \\ & =\sqrt{1.92} \\ & =1.386\end{aligned}
 
 
 

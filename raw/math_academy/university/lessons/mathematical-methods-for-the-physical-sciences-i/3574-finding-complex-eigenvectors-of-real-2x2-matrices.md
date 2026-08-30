@@ -11,7 +11,7 @@ Topic ID: 3574
 
 ### Introduction
 
-Let's find the eigenvector corresponding to the eigenvalue $\lambda=-\textrm{i}$ of the matrix $[\begin{aligned}1 & −1 \\ 2 & −1\end{aligned}]$
+Let's find the eigenvector corresponding to the eigenvalue $\lambda=-\text{i}$ of the matrix $[\begin{aligned}1 & −1 \\ 2 & −1\end{aligned}]$
 
 To compute the eigenvectors of a matrix, we need to find non-zero solutions of the matrix equation
 
@@ -23,12 +23,12 @@ $$
 
 $$
 
-In our case, we have $\,\lambda =-\textrm{i},$ and
+In our case, we have $\,\lambda =-\text{i},$ and
 
 $$
 
 
-\begin{aligned}𝐴−𝜆𝐼 & =[\begin{aligned}1 & −1 \\ 2 & −1\end{aligned}]−[\begin{aligned}−i & 0 \\ 0 & −i\end{aligned}] \\ & =[\begin{aligned}1+i & −1 \\ 2 & −1+i\end{aligned}].\end{aligned}
+\begin{aligned}𝐴−𝜆𝐼 & =[\begin{matrix}1 & −1 \\ 2 & −1\end{matrix}]−[\begin{matrix}−i & 0 \\ 0 & −i\end{matrix}] \\ & =[\begin{matrix}1+i & −1 \\ 2 & −1+i\end{matrix}].\end{aligned}
 
 
 $$
@@ -43,14 +43,14 @@ $$
 
 $$
 
-Now, since the matrix $A-(-\textrm{i})I$ is singular, the system above must have a non-zero solution. This means that one equation of the system is a multiple of another.
+Now, since the matrix $A-(-\text{i})I$ is singular, the system above must have a non-zero solution. This means that one equation of the system is a multiple of another.
 
 As a result, we can drop one of the rows and take one of the variables as the free variable. For example, from the first equation, we get
 
 $$
 
 
-x_2 = (1+\textrm{i})x_1.
+x_2 = (1+\text{i})x_1.
 
 
 $$
@@ -82,7 +82,7 @@ Notice that our eigenvector has complex-valued entries.
 $$
 
 
-\begin{aligned}𝐴𝐯 & =[\begin{aligned}1 & −1 \\ 2 & −1\end{aligned}][\begin{aligned}1 \\ 1+i\end{aligned}]=[\begin{aligned}−i \\ 1−i\end{aligned}],\end{aligned}
+\begin{aligned}𝐴𝐯 & =[\begin{matrix}1 & −1 \\ 2 & −1\end{matrix}][\begin{matrix}1 \\ 1+i\end{matrix}]=[\begin{matrix}−i \\ 1−i\end{matrix}],\end{aligned}
 
 
 $$
@@ -112,18 +112,18 @@ The eigenvectors of $A$ are the non-zero vectors $\mathbf{v}$ such that $A\mathb
 $$
 
 
-\begin{aligned}𝐴𝐯 & =[\begin{aligned}2 & −5 \\ 8 & −2\end{aligned}][\begin{aligned}1+3i \\ 4\end{aligned}] \\ & =[\begin{aligned}−18+6i \\ 24i\end{aligned}] \\ & =[\begin{aligned}18i^{2}+6i \\ 24i\end{aligned}] \\ & =6i[\begin{aligned}1+3i \\ 4\end{aligned}] \\ & =6i𝐯.\end{aligned}
+\begin{aligned}𝐴𝐯 & =[\begin{matrix}2 & −5 \\ 8 & −2\end{matrix}][\begin{matrix}1+3i \\ 4\end{matrix}] \\ & =[\begin{matrix}−18+6i \\ 24i\end{matrix}] \\ & =[\begin{matrix}18i^{2}+6i \\ 24i\end{matrix}] \\ & =6i[\begin{matrix}1+3i \\ 4\end{matrix}] \\ & =6i𝐯.\end{aligned}
 
 
 $$
 
-Since $A\mathbf{v} = 6\textrm{i} \mathbf{v},$ we conclude that $\mathbf{v}$ is an eigenvector of $A$ and the corresponding eigenvalue is $\lambda=6\textrm{i}.$
+Since $A\mathbf{v} = 6\text{i} \mathbf{v},$ we conclude that $\mathbf{v}$ is an eigenvector of $A$ and the corresponding eigenvalue is $\lambda=6\text{i}.$
 
 ### Example: Finding a Complex Eigenvector of a Matrix Given a Complex Eigenvalue
 
 #### Question
 
-Find an eigenvector of $[\begin{aligned}−3 & 4 \\ −4 & −3\end{aligned}]$ that corresponds to the eigenvalue $\lambda=-3+4\textrm{i}.$
+Find an eigenvector of $[\begin{aligned}−3 & 4 \\ −4 & −3\end{aligned}]$ that corresponds to the eigenvalue $\lambda=-3+4\text{i}.$
 
 #### Explanation
 
@@ -137,12 +137,12 @@ $$
 
 $$
 
-In our case, we have $\,\lambda =-3+4\textrm{i},$ and
+In our case, we have $\,\lambda =-3+4\text{i},$ and
 
 $$
 
 
-\begin{aligned}𝐴−𝜆𝐼 & =[\begin{aligned}−3 & 4 \\ −4 & −3\end{aligned}]−[\begin{aligned}−3+4i & 0 \\ 0 & −3+4i\end{aligned}] \\ & =[\begin{aligned}−4i & 4 \\ −4 & −4i\end{aligned}].\end{aligned}
+\begin{aligned}𝐴−𝜆𝐼 & =[\begin{matrix}−3 & 4 \\ −4 & −3\end{matrix}]−[\begin{matrix}−3+4i & 0 \\ 0 & −3+4i\end{matrix}] \\ & =[\begin{matrix}−4i & 4 \\ −4 & −4i\end{matrix}].\end{aligned}
 
 
 $$
@@ -157,14 +157,14 @@ $$
 
 $$
 
-Now, since the matrix $A-(-3+4\textrm{i})I$ is singular, the system above must have a non-zero solution. This means that one equation of the system is a multiple of another.
+Now, since the matrix $A-(-3+4\text{i})I$ is singular, the system above must have a non-zero solution. This means that one equation of the system is a multiple of another.
 
 As a result, we can drop one of the rows and take one of the variables to be the free variable. For example, from the second equation, we get
 
 $$
 
 
-x_1 = -\textrm{i}x_2.
+x_1 = -\text{i}x_2.
 
 
 $$
@@ -185,7 +185,7 @@ Setting $x_2=1,$ we get the eigenvector $[\begin{aligned}−i \\ 1\end{aligned}]
 
 #### Question
 
-Let $[\begin{aligned}𝑎_{1} \\ 𝑏_{1}\end{aligned}]$ and $[\begin{aligned}𝑎_{2} \\ 𝑏_{2}\end{aligned}]$ be linearly independent eigenvectors of the matrix $[\begin{aligned}4 & 5 \\ −5 & 4\end{aligned}]$ Given that $\lambda_1=4+5\textrm{i}$ is an eigenvalue of $A,$ find the value of ${\dfrac{a_1a_2}{b_1b_2}}.$
+Let $[\begin{aligned}𝑎_{1} \\ 𝑏_{1}\end{aligned}]$ and $[\begin{aligned}𝑎_{2} \\ 𝑏_{2}\end{aligned}]$ be linearly independent eigenvectors of the matrix $[\begin{aligned}4 & 5 \\ −5 & 4\end{aligned}]$ Given that $\lambda_1=4+5\text{i}$ is an eigenvalue of $A,$ find the value of ${\dfrac{a_1a_2}{b_1b_2}}.$
 
 #### Explanation
 
@@ -199,12 +199,12 @@ $$
 
 $$
 
-In our case, we have $\,\lambda_1 =4+5\textrm{i}$ and
+In our case, we have $\,\lambda_1 =4+5\text{i}$ and
 
 $$
 
 
-\begin{aligned}𝐴−𝜆_{1}𝐼 & =[\begin{aligned}4 & 5 \\ −5 & 4\end{aligned}]−[\begin{aligned}4+5i & 0 \\ 0 & 4+5i\end{aligned}] \\ & =[\begin{aligned}−5i & 5 \\ −5 & −5i\end{aligned}].\end{aligned}
+\begin{aligned}𝐴−𝜆_{1}𝐼 & =[\begin{matrix}4 & 5 \\ −5 & 4\end{matrix}]−[\begin{matrix}4+5i & 0 \\ 0 & 4+5i\end{matrix}] \\ & =[\begin{matrix}−5i & 5 \\ −5 & −5i\end{matrix}].\end{aligned}
 
 
 $$
@@ -219,14 +219,14 @@ $$
 
 $$
 
-Now, since the matrix $A-(4+5\textrm{i})I$ is singular, the system above must have a non-zero solution. This means that one equation of the system is a multiple of another.
+Now, since the matrix $A-(4+5\text{i})I$ is singular, the system above must have a non-zero solution. This means that one equation of the system is a multiple of another.
 
 As a result, we can drop one of the rows and take one of the variables as the free variable. For example, from the first equation, we get
 
 $$
 
 
-x_2 = \textrm{i}x_1.
+x_2 = \text{i}x_1.
 
 
 $$
@@ -251,12 +251,12 @@ $$
 
 $$
 
-Now, since $\lambda_1=4+5\textrm{i}$ is a complex eigenvalue of $A,$ the second eigenvalue of $A$ must be the complex conjugate of $\lambda_1.$ Therefore, we have
+Now, since $\lambda_1=4+5\text{i}$ is a complex eigenvalue of $A,$ the second eigenvalue of $A$ must be the complex conjugate of $\lambda_1.$ Therefore, we have
 
 $$
 
 
-\lambda_2=\overline{\lambda_1}=4-5\textrm{i}.
+\lambda_2=\overline{\lambda_1}=4-5\text{i}.
 
 
 $$
@@ -276,7 +276,7 @@ Finally, we obtain
 $$
 
 
-{\dfrac{a_1a_2}{b_1b_2}} = {\dfrac{(1)(1)}{(\textrm{i})(-\textrm{i})}} = 1.
+{\dfrac{a_1a_2}{b_1b_2}} = {\dfrac{(1)(1)}{(\text{i})(-\text{i})}} = 1.
 
 
 $$

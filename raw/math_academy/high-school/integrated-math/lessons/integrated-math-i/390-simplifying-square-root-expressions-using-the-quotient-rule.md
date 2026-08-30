@@ -45,7 +45,7 @@ $$
 
 
 
-\begin{aligned}\frac{\sqrt{√16𝑤^{2}}}{5} & = \\ \frac{\sqrt{√(4𝑤)^{2}}}{5} & = \\ \frac{|4𝑤|}{5} & = \\ \frac{|4|⋅|𝑤|}{5} & = \\ \frac{4⋅|𝑤|}{5} & = \\ \frac{4|𝑤|}{5} & \end{aligned}
+\begin{aligned}\frac{\sqrt{16𝑤^{2}}}{5} & = \\ \frac{\sqrt{(4𝑤)^{2}}}{5} & = \\ \frac{|4𝑤|}{5} & = \\ \frac{|4|⋅|𝑤|}{5} & = \\ \frac{4⋅|𝑤|}{5} & = \\ \frac{4|𝑤|}{5} & \end{aligned}
 
 
 
@@ -77,7 +77,7 @@ $$
 
 
 
-\begin{aligned}\frac{\sqrt{√4𝑧^{2}}}{3} & = \\ \frac{\sqrt{√(2𝑧)^{2}}}{3} & = \\ \frac{|2𝑧|}{3} & = \\ \frac{|2|⋅|𝑧|}{3} & = \\ \frac{2⋅|𝑧|}{3} & = \\ \frac{2|𝑧|}{3} & \end{aligned}
+\begin{aligned}\frac{\sqrt{4𝑧^{2}}}{3} & = \\ \frac{\sqrt{(2𝑧)^{2}}}{3} & = \\ \frac{|2𝑧|}{3} & = \\ \frac{|2|⋅|𝑧|}{3} & = \\ \frac{2⋅|𝑧|}{3} & = \\ \frac{2|𝑧|}{3} & \end{aligned}
 
 
 
@@ -109,7 +109,7 @@ $$
 
 
 
-\begin{aligned}\sqrt{√9𝑎^{4}} & = \\ \sqrt{√(3𝑎^{2})^{2}} & = \\ |3𝑎^{2}| & = \\ |3|⋅|𝑎^{2}| & = \\ 3⋅|𝑎^{2}| & \end{aligned}
+\begin{aligned}\sqrt{9𝑎^{4}} & = \\ \sqrt{(3𝑎^{2})^{2}} & = \\ |3𝑎^{2}| & = \\ |3|⋅|𝑎^{2}| & = \\ 3⋅|𝑎^{2}| & \end{aligned}
 
 
 
@@ -153,7 +153,7 @@ $$
 
 
 
-\begin{aligned} \sqrt {16x^2}&= \\\[5pt] \sqrt {4^2x^2}&= \\\[5pt] \sqrt {(4x)^2}&= \\\[5pt] |4x| &=\\\[5pt] |4| \cdot |x| &=\\\[5pt] 4 \cdot |x| \end{aligned}
+\begin{aligned} \sqrt {16x^2}&= \\[5pt] \sqrt {4^2x^2}&= \\[5pt] \sqrt {(4x)^2}&= \\[5pt] |4x| &=\\[5pt] |4| \cdot |x| &=\\[5pt] 4 \cdot |x| \end{aligned}
 
 
 
@@ -165,7 +165,7 @@ $$
 
 
 
-\begin{aligned} 4 \cdot |x| &=\\\[5pt] 4 \cdot x &=\\\[5pt] 4x. \end{aligned}
+\begin{aligned} 4 \cdot |x| &=\\[5pt] 4 \cdot x &=\\[5pt] 4x. \end{aligned}
 
 
 

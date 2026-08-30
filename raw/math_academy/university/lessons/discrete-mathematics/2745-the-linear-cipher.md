@@ -12,19 +12,19 @@ Topic ID: 2745
 
 ### Introduction
 
-The **linear cipher** is similar to the Caesar cipher. However, instead of adding the key, we multiply by the key. If the alphabet consists of $n$ letters, and the key is $a,$ then the plain text index $i_\textrm{plain}$ is translated into the ciphertext index $i_\textrm{cipher}$ as follows:
+The **linear cipher** is similar to the Caesar cipher. However, instead of adding the key, we multiply by the key. If the alphabet consists of $n$ letters, and the key is $a,$ then the plain text index $i_\text{plain}$ is translated into the ciphertext index $i_\text{cipher}$ as follows:
 
 $$
 
 
 
-a \cdot i_\textrm{plain} \equiv i_\textrm{cipher} \: (\text{mod}\,n)
+a \cdot i_\text{plain} \equiv i_\text{cipher} \: (\text{mod}\,n)
 
 
 
 $$
 
-For example, let's encrypt the message $\textrm{HEY}$ using the linear cipher with key $a=3$ over the English alphabet with $n=26$ letters. First, we recall the indices of letters in the English alphabet:
+For example, let's encrypt the message $\text{HEY}$ using the linear cipher with key $a=3$ over the English alphabet with $n=26$ letters. First, we recall the indices of letters in the English alphabet:
 
 Next, we do the following:
 
@@ -56,7 +56,7 @@ Therefore, the answer is $\text{DAZS}.$
 
 ### Decrypting a Message Using the Linear Cipher
 
-Earlier, we encrypted a message using the linear cipher with key $a=3$ over the English alphabet with $n=26$ letters. The resulting encrypted message was $\textrm{VMU}.$
+Earlier, we encrypted a message using the linear cipher with key $a=3$ over the English alphabet with $n=26$ letters. The resulting encrypted message was $\text{VMU}.$
 
 To decrypt this message, all we have to do is multiply by the inverse of the key:
 
@@ -64,7 +64,7 @@ $$
 
 
 
-a^{-1} \cdot i_\textrm{cipher} \equiv i_\textrm{plain} \: (\text{mod}\,n)
+a^{-1} \cdot i_\text{cipher} \equiv i_\text{plain} \: (\text{mod}\,n)
 
 
 
@@ -76,7 +76,7 @@ To decipher a message encrypted using the linear cipher with key $a=3$ over the 
 
 - Find the index of each letter of the ciphertext in the alphabet: V M U $\color{red}21$ $\color{red}12$ $\color{red}20$
 
-- Find the inverse of $a=3$ modulo $26.$ To do that, we will use the extended Euclidean algorithm. First, we apply the forward reduction: Solving for the rightmost terms in the equations above, we get Then, we back-substitute: We can write this result in modulo $26,$ as follows: So we have $3 \cdot 9 \equiv 1 \: (\textrm{mod}\:26),$ which means that the inverse of $a=3$ modulo $26$ is $a^{-1}=9.$
+- Find the inverse of $a=3$ modulo $26.$ To do that, we will use the extended Euclidean algorithm. First, we apply the forward reduction: Solving for the rightmost terms in the equations above, we get Then, we back-substitute: We can write this result in modulo $26,$ as follows: So we have $3 \cdot 9 \equiv 1 \: (\text{mod}\:26),$ which means that the inverse of $a=3$ modulo $26$ is $a^{-1}=9.$
 
 - Multiply each index by $a^{-1}=9$ modulo $n=26\mathbin{:}$
 
@@ -96,7 +96,7 @@ To decipher a message encrypted using the linear cipher with key $a=15$ over the
 
 - Find the index of each letter of the ciphertext in the alphabet: Z A J U $\color{red}25$ $\color{red}0$ $\color{red}9$ $\color{red}20$
 
-- Find the inverse to $a=15$ modulo $26.$ To do that, we will use the extended Euclidean algorithm. First, we apply the forward reduction: Solving for the rightmost terms in the equations above, we get Then, we back-substitute: We can write this result in modulo $26,$ as follows: So we have $15 \cdot 7 \equiv 1 \: (\textrm{mod}\:26),$ which means that the inverse of $a=15$ modulo $26$ is $a^{-1}=7.$
+- Find the inverse to $a=15$ modulo $26.$ To do that, we will use the extended Euclidean algorithm. First, we apply the forward reduction: Solving for the rightmost terms in the equations above, we get Then, we back-substitute: We can write this result in modulo $26,$ as follows: So we have $15 \cdot 7 \equiv 1 \: (\text{mod}\:26),$ which means that the inverse of $a=15$ modulo $26$ is $a^{-1}=7.$
 
 - Multiply each index by $a^{-1}=7$ modulo $n=26\mathbin{:}$
 

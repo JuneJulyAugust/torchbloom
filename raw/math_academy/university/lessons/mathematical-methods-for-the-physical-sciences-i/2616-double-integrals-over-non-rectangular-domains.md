@@ -22,7 +22,7 @@ We will define the following double integral over this non-rectangular region:
 $$
 
 
-\iint\limits_{D} (3-x^2-2y^2) \, \textrm{d}A
+\iint\limits_{D} (3-x^2-2y^2) \, \text{d}A
 
 
 $$
@@ -50,7 +50,7 @@ Therefore, we define our double integral of $3-x^2-2y^2$ over $D$ as
 $$
 
 
-\iint\limits_D (3-x^2-2y^2) \, \textrm{d}A = \iint\limits_R f(x,y) \, \textrm{d}A.
+\iint\limits_D (3-x^2-2y^2) \, \text{d}A = \iint\limits_R f(x,y) \, \text{d}A.
 
 
 $$

@@ -105,7 +105,7 @@ Let's use this data to evaluate the following derivative:
 $$
 
 
-\dfrac{\textrm{d}}{\textrm{d}x}\left.\left(\dfrac{1}{f(x)}\right)\right|_{x=-1}
+\dfrac{\text{d}}{\text{d}x}\left.\left(\dfrac{1}{f(x)}\right)\right|_{x=-1}
 
 
 $$
@@ -164,7 +164,7 @@ $$
 
 #### Question
 
-Given that $f(1)=\dfrac{\pi}{2}$ and $f'(1)=-\dfrac{3\pi}{4},$ compute $\dfrac{\textrm{d}}{\textrm{d}x}\big(\cos{\left(f(x)\right)}\big)$ at $x=1.$
+Given that $f(1)=\dfrac{\pi}{2}$ and $f'(1)=-\dfrac{3\pi}{4},$ compute $\dfrac{\text{d}}{\text{d}x}\big(\cos{\left(f(x)\right)}\big)$ at $x=1.$
 
 #### Explanation
 

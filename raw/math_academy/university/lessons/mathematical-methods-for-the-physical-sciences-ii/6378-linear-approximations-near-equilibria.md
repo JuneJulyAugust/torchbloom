@@ -71,7 +71,7 @@ Next, we evaluate the Jacobian at the equilibrium $[\begin{aligned}0 \\ 0\end{al
 $$
 
 
-\begin{aligned}𝐽(0,0) & =\begin{aligned}1 & 1+2(0) \\ 1 & 1\end{aligned} \\ & =\begin{aligned}1 & 1 \\ 1 & 1\end{aligned} \\ & =0.\end{aligned}
+\begin{aligned}𝐽(0,0) & =\begin{matrix}1 & 1+2(0) \\ 1 & 1\end{matrix} \\ & =\begin{matrix}1 & 1 \\ 1 & 1\end{matrix} \\ & =0.\end{aligned}
 
 
 $$
@@ -143,7 +143,7 @@ Next, we evaluate the Jacobian at the equilibrium $[\begin{aligned}0 \\ 0\end{al
 $$
 
 
-\begin{aligned}𝐽(0,0) & =\begin{aligned}−𝑒^{0} & −2(0) \\ −2(0) & −𝑒^{0}\end{aligned} \\ & =\begin{aligned}−1 & 0 \\ 0 & −1\end{aligned} \\ & =(−1)(−1)−(0)(0) \\ & =1 \\ & ≠0.\end{aligned}
+\begin{aligned}𝐽(0,0) & =\begin{matrix}−𝑒^{0} & −2(0) \\ −2(0) & −𝑒^{0}\end{matrix} \\ & =\begin{matrix}−1 & 0 \\ 0 & −1\end{matrix} \\ & =(−1)(−1)−(0)(0) \\ & =1 \\ & ≠0.\end{aligned}
 
 
 $$

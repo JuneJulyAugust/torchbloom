@@ -90,7 +90,7 @@ Find the left-sided and right-sided limits at $x=0$ for the function
 $$
 
 
-\begin{aligned}𝑓(𝑥)=\begin{aligned}−𝑥^{2}+3\, & for \,𝑥<0 \\ \sqrt{√𝑥}\, & for \,𝑥≥0.\end{aligned}\end{aligned}
+\begin{aligned}𝑓(𝑥)=\begin{matrix}−𝑥^{2}+3\, & for \,𝑥<0 \\ \sqrt{𝑥}\, & for \,𝑥≥0.\end{matrix}\end{aligned}
 
 
 $$
@@ -112,19 +112,19 @@ Approaching from the right, we have $x>0,$ so we use the expression $f(x)=\sqrt{
 $$
 
 
-\begin{aligned}\underset{𝑥→0^{+}}{lim}𝑓(𝑥) & =\underset{𝑥→0^{+}}{lim}\sqrt{√𝑥} \\ & =\sqrt{√0} \\ & =0.\end{aligned}
+\begin{aligned}\underset{𝑥→0^{+}}{lim}𝑓(𝑥) & =\underset{𝑥→0^{+}}{lim}\sqrt{𝑥} \\ & =\sqrt{0} \\ & =0.\end{aligned}
 
 
 $$
 
 ### Limits of Piecewise Functions
 
-Suppose we want to find $\lim_\limits{x\rightarrow 0}f(x)$ for the piecewise function given by
+Suppose we want to find $\lim\limits_{x\rightarrow 0}f(x)$ for the piecewise function given by
 
 $$
 
 
-\begin{aligned}𝑓(𝑥)=\begin{aligned}3^{𝑥+1}\, & for \,𝑥<0 \\ \sqrt{√𝑥^{2}+9}\, & for \,𝑥≥0.\end{aligned}\end{aligned}
+\begin{aligned}𝑓(𝑥)=\begin{matrix}3^{𝑥+1}\, & for \,𝑥<0 \\ \sqrt{𝑥^{2}+9}\, & for \,𝑥≥0.\end{matrix}\end{aligned}
 
 
 $$
@@ -153,12 +153,12 @@ $$
 
 #### Question
 
-Find $\lim_\limits{x\rightarrow 1}g(x)$ for the function given by
+Find $\lim\limits_{x\rightarrow 1}g(x)$ for the function given by
 
 $$
 
 
-\begin{aligned}\frac{\sqrt{√4𝑥^{2}+5}}{3𝑥−7}\, & for \,𝑥≤1 \\ (𝑥−2)^{2}−1\, & for \,𝑥≥2.\end{aligned}
+\begin{aligned}\frac{\sqrt{4𝑥^{2}+5}}{3𝑥−7}\, & for \,𝑥≤1 \\ (𝑥−2)^{2}−1\, & for \,𝑥≥2.\end{aligned}
 
 
 $$
@@ -167,14 +167,14 @@ $$
 
 To compute $\lim\limits_{x \to \, 1} g(x),$ we must compute the left and right-sided limits separately.
 
-However, the right-sided limit $\lim_\limits{x\rightarrow 1^+}g(x)$ does not exist since $g(x)$ is not defined in the interval $x\in(1,2).$
+However, the right-sided limit $\lim\limits_{x\rightarrow 1^+}g(x)$ does not exist since $g(x)$ is not defined in the interval $x\in(1,2).$
 
 Consequently, the overall limit does not exist either:
 
 $$
 
 
-\lim_\limits{x\rightarrow 1}g(x) = \text{DNE}.
+\lim\limits_{x\rightarrow 1}g(x) = \text{DNE}.
 
 
 $$
@@ -188,16 +188,16 @@ For the piecewise function
 $$
 
 
-\begin{aligned}𝑓(𝑥)=\begin{aligned}4𝑥^{3}−2\, & for \,𝑥<1 \\ 3𝑥+𝑏\, & for \,𝑥>1\end{aligned},\,\end{aligned}
+\begin{aligned}𝑓(𝑥)=\begin{matrix}4𝑥^{3}−2\, & for \,𝑥<1 \\ 3𝑥+𝑏\, & for \,𝑥>1\end{matrix},\,\end{aligned}
 
 
 $$
 
-it is known that $\lim_\limits{x\rightarrow 1}f(x)$ exists. What is the value of the constant $b?$
+it is known that $\lim\limits_{x\rightarrow 1}f(x)$ exists. What is the value of the constant $b?$
 
 #### Explanation
 
-In order for $\lim_\limits{x\rightarrow 1}f(x)$ to exist, the left and right-sided limits must both exist and be equal.
+In order for $\lim\limits_{x\rightarrow 1}f(x)$ to exist, the left and right-sided limits must both exist and be equal.
 
 - Approaching from the left, we have $x < 1,$ so we use the expression $f(x)=4x^3-2.$ We get
 

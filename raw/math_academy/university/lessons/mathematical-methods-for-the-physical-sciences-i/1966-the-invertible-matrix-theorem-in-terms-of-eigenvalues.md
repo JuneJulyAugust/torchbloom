@@ -63,9 +63,9 @@ If $A$ is a $3 \times 3$ matrix and $\lambda=7$ is an eigenvalue of $A,$ which o
 
 1. $(A-7I)\mathbf{x} = \mathbf{0}$ has a nonzero solution
 
-2. $\textrm{rank}(A-7I) = 3$
+2. $\text{rank}(A-7I) = 3$
 
-3. $\textrm{Null}(A-7I) \ne\{\mathbf{0}\}$
+3. $\text{Null}(A-7I) \ne\{\mathbf{0}\}$
 
 #### Explanation
 
@@ -87,9 +87,9 @@ Therefore, the correct answer is "I and III only."
 
 #### Question
 
-If $B$ is a $4 \times 4$ matrix and $\textrm{rank}(B+4I) = 3,$ which of the following statements are true?
+If $B$ is a $4 \times 4$ matrix and $\text{rank}(B+4I) = 3,$ which of the following statements are true?
 
-1. $\textrm{Null}(B+4I) = \{\mathbf{0} \}$
+1. $\text{Null}(B+4I) = \{\mathbf{0} \}$
 
 2. $B +4I$ is singular
 
@@ -106,16 +106,16 @@ Also, according to the rank-nullity theorem, if $M$ has $4$ columns, then
 $$
 
 
-\textrm{rank}(M) + \textrm{nullity}(M) = 4.
+\text{rank}(M) + \text{nullity}(M) = 4.
 
 
 $$
 
 With that in mind, let's examine our statements in turn.
 
-- Statement I is false. According to the rank-nullity theorem, As a result, $\textrm{Null}(B+4I) \ne \{\mathbf{0} \}.$
+- Statement I is false. According to the rank-nullity theorem, As a result, $\text{Null}(B+4I) \ne \{\mathbf{0} \}.$
 
-- Statements II is true. By the invertible matrix theorem, since $\textrm{nullity}(B+4I) \neq 0,$ we obtain that $B +4I$ must be singular.
+- Statements II is true. By the invertible matrix theorem, since $\text{nullity}(B+4I) \neq 0,$ we obtain that $B +4I$ must be singular.
 
 - Statement III is true. Notice that if $M=B +4 I$ is singular, then $(B +4 I)\mathbf{x} = \mathbf{0}$ has nonzero solutions which will be eigenvectors of $B.$ As a result, $\lambda=-4$ is an eigenvalue of $B.$
 

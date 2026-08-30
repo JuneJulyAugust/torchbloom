@@ -96,7 +96,7 @@ Consider the differential equation
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x} = y.
+\dfrac{\text{d}y}{\text{d}x} = y.
 
 
 $$
@@ -115,11 +115,11 @@ For a function $f(x)$ to be a solution to a differential equation, it must satis
 
 We check each proposed solution by differentiating and substituting it into the original equation.
 
-- Differentiating $y = e^x + 1,$ we get $\dfrac{\textrm{d}y}{\textrm{d}x} = e^x.$ Substituting into the original equation, we get This statement is **. Therefore, the function $y = e^x+1$ is ** a solution to our differential equation.
+- Differentiating $y = e^x + 1,$ we get $\dfrac{\text{d}y}{\text{d}x} = e^x.$ Substituting into the original equation, we get This statement is **. Therefore, the function $y = e^x+1$ is ** a solution to our differential equation.
 
-- Differentiating $y = -e^x,$ we get $\dfrac{\textrm{d}y}{\textrm{d}x} = -e^x.$ Substituting into the original equation, we get This statement is **. Therefore, the function $y = -e^x$ ** a solution to our differential equation.
+- Differentiating $y = -e^x,$ we get $\dfrac{\text{d}y}{\text{d}x} = -e^x.$ Substituting into the original equation, we get This statement is **. Therefore, the function $y = -e^x$ ** a solution to our differential equation.
 
-- Differentiating $y = 2e^x,$ we get $\dfrac{\textrm{d}y}{\textrm{d}x} = 2e^x.$ Substituting into the original equation, we get This statement is **. Therefore, the function $y = 2e^x$ ** a solution to our differential equation.
+- Differentiating $y = 2e^x,$ we get $\dfrac{\text{d}y}{\text{d}x} = 2e^x.$ Substituting into the original equation, we get This statement is **. Therefore, the function $y = 2e^x$ ** a solution to our differential equation.
 
 Therefore, the correct answer is "II and III only."
 
@@ -132,7 +132,7 @@ Consider the following initial value problem
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x} = \dfrac{3y}{x}, \qquad y(-1) = -2.
+\dfrac{\text{d}y}{\text{d}x} = \dfrac{3y}{x}, \qquad y(-1) = -2.
 
 
 $$

@@ -60,7 +60,7 @@ $$
 $$
 
 
-\rho(x,y) = \dfrac{\textrm{Cov}(x,y)}{\sigma_x \cdot \sigma_y},
+\rho(x,y) = \dfrac{\text{Cov}(x,y)}{\sigma_x \cdot \sigma_y},
 
 
 $$

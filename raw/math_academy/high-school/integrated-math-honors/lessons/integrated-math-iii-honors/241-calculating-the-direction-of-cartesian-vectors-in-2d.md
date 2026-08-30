@@ -171,7 +171,7 @@ Applying the formula for the angle that a vector makes with the positive $x$-axi
 $$
 
 
-\begin{aligned}tan⁡𝜃 & =\frac{𝑎_{𝑦}}{𝑎_{𝑥}} \\ & =\frac{−\sqrt{√3}}{1} \\ & =−\sqrt{√3}.\end{aligned}
+\begin{aligned}tan⁡𝜃 & =\frac{𝑎_{𝑦}}{𝑎_{𝑥}} \\ & =\frac{−\sqrt{3}}{1} \\ & =−\sqrt{3}.\end{aligned}
 
 
 $$
@@ -181,7 +181,7 @@ The solutions of this equation are
 $$
 
 
-\begin{aligned}𝜃 & =arctan⁡(−\sqrt{√3})+𝑛⋅180^{∘} \\ & ≈−60^{∘}+𝑛⋅180^{∘},\end{aligned}
+\begin{aligned}𝜃 & =arctan⁡(−\sqrt{3})+𝑛⋅180^{∘} \\ & ≈−60^{∘}+𝑛⋅180^{∘},\end{aligned}
 
 
 $$

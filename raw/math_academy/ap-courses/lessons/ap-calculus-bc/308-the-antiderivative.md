@@ -50,7 +50,7 @@ To compute the integral of any power function $x^n,$ where $n \neq -1,$ we can u
 $$
 
 
-\int x^n\, \textrm{d}x = \dfrac {x^{n + 1}}{n + 1} + C,
+\int x^n\, \text{d}x = \dfrac {x^{n + 1}}{n + 1} + C,
 
 
 $$
@@ -84,7 +84,7 @@ Notice that the constant $C$ disappeared when we differentiated because the deri
 $$
 
 
-\dfrac{\textrm{d}}{\textrm{d}x} \left( x^{n+1} \right) = (n+1)x^n \quad \Leftrightarrow \quad \displaystyle \int x^n \, \textrm dx = \dfrac{x^{n+1}}{n+1}
+\dfrac{\text{d}}{\text{d}x} \left( x^{n+1} \right) = (n+1)x^n \quad \Leftrightarrow \quad \displaystyle \int x^n \, \textrm dx = \dfrac{x^{n+1}}{n+1}
 
 
 $$
@@ -130,7 +130,7 @@ We start by writing the square root as a rational power, $\sqrt x= x^{1/2}.$ So,
 $$
 
 
-\begin{aligned}∫\sqrt{√𝑥}\,d𝑥 & =∫𝑥^{1/2}\,d𝑥 \\ & =\frac{𝑥^{1/2+1}}{(\frac{1}{2}+1)}+𝐶 \\ & =\frac{𝑥^{3/2}}{(\frac{3}{2})}+𝐶 \\ & =\frac{2𝑥^{3/2}}{3}+𝐶.\end{aligned}
+\begin{aligned}∫\sqrt{𝑥}\,d𝑥 & =∫𝑥^{1/2}\,d𝑥 \\ & =\frac{𝑥^{1/2+1}}{(\frac{1}{2}+1)}+𝐶 \\ & =\frac{𝑥^{3/2}}{(\frac{3}{2})}+𝐶 \\ & =\frac{2𝑥^{3/2}}{3}+𝐶.\end{aligned}
 
 
 $$

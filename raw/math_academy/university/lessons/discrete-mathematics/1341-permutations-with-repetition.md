@@ -73,7 +73,7 @@ $$
 
 
 
-\begin{aligned}(\begin{aligned}𝑁 \\ 𝑚_{1},𝑚_{2},…,𝑚_{𝑘}\end{aligned})=\frac{𝑁!}{𝑚_{1}! 𝑚_{2}! … 𝑚_{𝑘}!},\end{aligned}
+\begin{aligned}(\begin{matrix}𝑁 \\ 𝑚_{1},𝑚_{2},…,𝑚_{𝑘}\end{matrix})=\frac{𝑁!}{𝑚_{1}! 𝑚_{2}! … 𝑚_{𝑘}!},\end{aligned}
 
 
 
@@ -97,7 +97,7 @@ $$
 
 
 
-\begin{aligned}(\begin{aligned}𝑁 \\ 𝑚_{1},𝑚_{2},…,𝑚_{𝑘}\end{aligned})=\frac{𝑁!}{𝑚_{1}! 𝑚_{2}! … 𝑚_{𝑘}!},\end{aligned}
+\begin{aligned}(\begin{matrix}𝑁 \\ 𝑚_{1},𝑚_{2},…,𝑚_{𝑘}\end{matrix})=\frac{𝑁!}{𝑚_{1}! 𝑚_{2}! … 𝑚_{𝑘}!},\end{aligned}
 
 
 
@@ -119,7 +119,7 @@ $$
 
 
 
-\begin{aligned}(\begin{aligned}4 \\ 1,1,2\end{aligned}) & =\frac{4!}{1! 1! 2!} \\ & =\frac{4×3×2×1}{2} \\ & =12.\end{aligned}
+\begin{aligned}(\begin{matrix}4 \\ 1,1,2\end{matrix}) & =\frac{4!}{1! 1! 2!} \\ & =\frac{4×3×2×1}{2} \\ & =12.\end{aligned}
 
 
 
@@ -141,7 +141,7 @@ $$
 
 
 
-\begin{aligned}(\begin{aligned}𝑁 \\ 𝑚_{1},𝑚_{2},…,𝑚_{𝑘}\end{aligned})=\frac{𝑁!}{𝑚_{1}! 𝑚_{2}! … 𝑚_{𝑘}!},\end{aligned}
+\begin{aligned}(\begin{matrix}𝑁 \\ 𝑚_{1},𝑚_{2},…,𝑚_{𝑘}\end{matrix})=\frac{𝑁!}{𝑚_{1}! 𝑚_{2}! … 𝑚_{𝑘}!},\end{aligned}
 
 
 
@@ -165,7 +165,7 @@ $$
 
 
 
-\begin{aligned}(\begin{aligned}7 \\ 3,1,1,2\end{aligned}) & =\frac{7!}{3! 1! 1! 2!} \\ & =\frac{7×6×5×4×3!}{3!×2} \\ & =420.\end{aligned}
+\begin{aligned}(\begin{matrix}7 \\ 3,1,1,2\end{matrix}) & =\frac{7!}{3! 1! 1! 2!} \\ & =\frac{7×6×5×4×3!}{3!×2} \\ & =420.\end{aligned}
 
 
 
@@ -187,7 +187,7 @@ $$
 
 
 
-\begin{aligned}(\begin{aligned}𝑁 \\ 𝑚_{1},𝑚_{2},…,𝑚_{𝑘}\end{aligned})=\frac{𝑁!}{𝑚_{1}! 𝑚_{2}! … 𝑚_{𝑘}!},\end{aligned}
+\begin{aligned}(\begin{matrix}𝑁 \\ 𝑚_{1},𝑚_{2},…,𝑚_{𝑘}\end{matrix})=\frac{𝑁!}{𝑚_{1}! 𝑚_{2}! … 𝑚_{𝑘}!},\end{aligned}
 
 
 
@@ -209,7 +209,7 @@ $$
 
 
 
-\begin{aligned}(\begin{aligned}12 \\ 4,2,6\end{aligned}) & =\frac{12!}{4! 2! 6!} \\ & =\frac{12×11×10×9×8×7×6!}{4!×2!×6!} \\ & =\frac{12×11×10×9×8×7×6!}{4×3×2×2×6!} \\ & =\frac{6×2×11×10×9×8×7}{4×3×2×2} \\ & =13\,860.\end{aligned}
+\begin{aligned}(\begin{matrix}12 \\ 4,2,6\end{matrix}) & =\frac{12!}{4! 2! 6!} \\ & =\frac{12×11×10×9×8×7×6!}{4!×2!×6!} \\ & =\frac{12×11×10×9×8×7×6!}{4×3×2×2×6!} \\ & =\frac{6×2×11×10×9×8×7}{4×3×2×2} \\ & =13\,860.\end{aligned}
 
 
 

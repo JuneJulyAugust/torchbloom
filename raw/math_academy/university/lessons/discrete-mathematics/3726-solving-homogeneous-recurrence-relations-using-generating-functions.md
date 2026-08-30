@@ -172,13 +172,13 @@ $$
 
 
 
-A = \boxed{\phantom{\textrm{3-9x+21x^2-45x^3+...}}}
+A = \boxed{\phantom{\mathrm{3-9x+21x^2-45x^3+...}}}
 
 
 
 $$
 
-**** Find a closed expression for $A$ by adding $\boxed{\phantom{\textrm{odd}}}$, $\boxed{\phantom{\textrm{odd}}}$, and $\boxed{\phantom{\textrm{odd}}}$:
+**** Find a closed expression for $A$ by adding $\boxed{\phantom{\mathrm{odd}}}$, $\boxed{\phantom{\mathrm{odd}}}$, and $\boxed{\phantom{\mathrm{odd}}}$:
 
 $$
 
@@ -190,7 +190,7 @@ A = \dfrac{3}{(1+3x+2x^2)}
 
 $$
 
-**** We express $A$ as a $\boxed{\phantom{\textrm{sum of partial fractions}}}$:
+**** We express $A$ as a $\boxed{\phantom{\mathrm{sum of partial fractions}}}$:
 
 $$
 
@@ -202,13 +202,13 @@ A = \dfrac{6}{1+2x} - \dfrac{3}{1+x}
 
 $$
 
-**** We determine the general terms for the coefficients $b_n$ and $c_n$ in the $\boxed{\phantom{\textrm{geometric}}}$ series corresponding to the first and the second partial fractions:
+**** We determine the general terms for the coefficients $b_n$ and $c_n$ in the $\boxed{\phantom{\mathrm{geometric}}}$ series corresponding to the first and the second partial fractions:
 
 $$
 
 
 
-b_n = 6 \cdot \big( \boxed{\phantom{\textrm{odd}}}] \big)^n \qquad\text{and}\qquad c_n = 3 \cdot \big( \boxed{\phantom{\textrm{odd}}}\big)^n
+b_n = 6 \cdot \big( \boxed{\phantom{\mathrm{odd}}}] \big)^n \qquad\text{and}\qquad c_n = 3 \cdot \big( \boxed{\phantom{\mathrm{odd}}}\big)^n
 
 
 
@@ -220,7 +220,7 @@ $$
 
 
 
-a_n = \boxed{\phantom{\textrm{b_n-c_n}}} =6 \cdot (-2)^n - 3\cdot (-1)^{n}
+a_n = \boxed{\phantom{\mathrm{b_n-c_n}}} =6 \cdot (-2)^n - 3\cdot (-1)^{n}
 
 
 
@@ -254,7 +254,7 @@ A = \dfrac{3}{(1+3x+2x^2)}
 
 $$
 
-**** We express $A$ as a $\boxed{\color{blue}\textrm{sum of partial fractions}}{:}$
+**** We express $A$ as a $\boxed{\color{blue}\text{sum of partial fractions}}{:}$
 
 $$
 
@@ -266,7 +266,7 @@ A = \dfrac{6}{1+2x} - \dfrac{3}{1+x}
 
 $$
 
-**** We determine the general terms for the coefficients $b_n$ and $c_n$ in the $\boxed{\color{blue}\textrm{geometric}}$ series corresponding to the first and the second partial fractions:
+**** We determine the general terms for the coefficients $b_n$ and $c_n$ in the $\boxed{\color{blue}\text{geometric}}$ series corresponding to the first and the second partial fractions:
 
 $$
 
@@ -338,13 +338,13 @@ $$
 
 
 
-A =\boxed{\phantom{\textrm{1-4x +10x^2-22x^3}}}
+A =\boxed{\phantom{\mathrm{1-4x +10x^2-22x^3}}}
 
 
 
 $$
 
-First, we find a closed expression for $A$ by adding $\boxed{\phantom{\textrm{A}}}$, $\boxed{\phantom{\textrm{3xA}}}$, and $\boxed{\phantom{\textrm{2x^2A}}}$.
+First, we find a closed expression for $A$ by adding $\boxed{\phantom{\mathrm{A}}}$, $\boxed{\phantom{\mathrm{3xA}}}$, and $\boxed{\phantom{\mathrm{2x^2A}}}$.
 
 By doing so, we obtain
 
@@ -356,7 +356,7 @@ $$
 
 
 
-b_n = \boxed{\phantom{\textrm{3*(-2)^n}}} \qquad\text{and}\qquad c_n = \boxed{\phantom{\textrm{(-1)^n}}}.
+b_n = \boxed{\phantom{\mathrm{3*(-2)^n}}} \qquad\text{and}\qquad c_n = \boxed{\phantom{\mathrm{(-1)^n}}}.
 
 
 
@@ -368,7 +368,7 @@ $$
 
 
 
-a_n = \boxed{\phantom{\textrm{b_n-c_n}}} = 3\cdot (-2)^{n} - 2\cdot (-1)^n.
+a_n = \boxed{\phantom{\mathrm{b_n-c_n}}} = 3\cdot (-2)^{n} - 2\cdot (-1)^n.
 
 
 

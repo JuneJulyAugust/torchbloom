@@ -26,14 +26,14 @@ $$
 
 In other words, if a pair $(x,y)$ belongs to a symmetric relation, then the pair $(y,x)$ should also be in the relation.
 
-For example, since $x \equiv y \: (\textrm{mod} \: n)$ implies $y \equiv x \: (\textrm{mod} \: n),$ congruence modulo $n$ over the integers is a symmetric relation.
+For example, since $x \equiv y \: (\text{mod} \: n)$ implies $y \equiv x \: (\text{mod} \: n),$ congruence modulo $n$ over the integers is a symmetric relation.
 
 A binary relation $R,$ defined on a set $A,$ is **antisymmetric** if for all $x,y \in A,$ we have
 
 $$
 
 
-(x,y) \in R \quad\textrm{and}\quad (y,x) \in R \qquad\Longrightarrow\qquad x=y.
+(x,y) \in R \quad\text{and}\quad (y,x) \in R \qquad\Longrightarrow\qquad x=y.
 
 
 $$
@@ -59,7 +59,7 @@ For example, consider the relation of equality ($=$) defined over $\mathbb{R}.$ 
 $$
 
 
-\begin{aligned}\overset{\overset{(𝑥,𝑦)∈𝑅}{}}{false} & \,⟹\,(𝑦,𝑥)∈𝑅 \\ \underset{false}{\underset{}{(𝑥,𝑦)∈𝑅\,and\,(𝑦,𝑥)∈𝑅}} & \,⟹\,𝑥=𝑦\end{aligned}
+\begin{aligned}\overset{(𝑥,𝑦)∈𝑅}{false} & \,⟹\,(𝑦,𝑥)∈𝑅 \\ \underset{false}{\underset{}{(𝑥,𝑦)∈𝑅\,and\,(𝑦,𝑥)∈𝑅}} & \,⟹\,𝑥=𝑦\end{aligned}
 
 
 $$
@@ -107,7 +107,7 @@ There are no other pairs of the form $(x,y)$ with $x \neq y$ in the relation. So
 $$
 
 
-(x,y) \in R \quad\textrm{and}\quad (y,x) \in R \qquad \Longrightarrow\qquad x=y.
+(x,y) \in R \quad\text{and}\quad (y,x) \in R \qquad \Longrightarrow\qquad x=y.
 
 
 $$
@@ -242,7 +242,7 @@ Which of the following relations are symmetric?
 
 - $x \: R \: y$ if and only if $x \leq y,$ defined on $\mathbb{R}$
 
-- $x \: S \: y$ if and only if $x \equiv y \: (\textrm{mod}\:6),$ defined on $\mathbb{Z}$
+- $x \: S \: y$ if and only if $x \equiv y \: (\text{mod}\:6),$ defined on $\mathbb{Z}$
 
 - $X \: T \: Y$ if and only if $X \cap Y = \mathbb{N},$ defined on $\mathcal{P}(\mathbb{N})$
 

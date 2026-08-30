@@ -23,7 +23,7 @@ f(x) = \dfrac{\lambda^x e^{-\lambda}}{x!}, \qquad x=0,1,2,3, \ldots
 
 $$
 
-If a random variable $X$ follows a Poisson distribution with rate $\lambda,$ then we write $X \sim \textrm{Po}(\lambda).$
+If a random variable $X$ follows a Poisson distribution with rate $\lambda,$ then we write $X \sim \text{Po}(\lambda).$
 
 For example, suppose that calls come in at an average rate of $3$ calls per minute at a call center. Then the number of calls $X$ that are received during the next minute has the following probability mass function:
 
@@ -97,7 +97,7 @@ f(x) = \dfrac{\lambda^x e^{-\lambda}}{x!}
 
 $$
 
-Let $X$ be the number of prank calls received by the telephone exchange. Since the average rate is $3$ prank calls per day, and events occur independently and at a constant average rate, the number of prank calls can be modeled as a Poisson random variable with rate $\lambda = 3,$ and we can write $X\sim \textrm{Po}(3).$
+Let $X$ be the number of prank calls received by the telephone exchange. Since the average rate is $3$ prank calls per day, and events occur independently and at a constant average rate, the number of prank calls can be modeled as a Poisson random variable with rate $\lambda = 3,$ and we can write $X\sim \text{Po}(3).$
 
 So, $X$ has the following probability mass function:
 
@@ -139,7 +139,7 @@ f(x) = \dfrac{\lambda^x e^{-\lambda}}{x!}
 
 $$
 
-Let $X$ be the number of traffic accidents. Since the average rate is $4$ traffic accidents per week, and events occur independently and at a constant average rate, the number of traffic accidents can be modeled as a Poisson random variable with rate $\lambda = 4,$ and we can write $X\sim \textrm{Po}(4).$
+Let $X$ be the number of traffic accidents. Since the average rate is $4$ traffic accidents per week, and events occur independently and at a constant average rate, the number of traffic accidents can be modeled as a Poisson random variable with rate $\lambda = 4,$ and we can write $X\sim \text{Po}(4).$
 
 So, $X$ has the following probability mass function:
 
@@ -181,7 +181,7 @@ f(x) = \dfrac{\lambda^x e^{-\lambda}}{x!}
 
 $$
 
-Let $X$ be the number of machines with a fault in the factory. Since the average rate is $3$ faulty machines per week, and events occur independently and at a constant average rate, the number of machines with faults can be modeled as a Poisson random variable with rate $\lambda = 3,$ and we can write $X\sim \textrm{Po}(3).$
+Let $X$ be the number of machines with a fault in the factory. Since the average rate is $3$ faulty machines per week, and events occur independently and at a constant average rate, the number of machines with faults can be modeled as a Poisson random variable with rate $\lambda = 3,$ and we can write $X\sim \text{Po}(3).$
 
 So, $X$ has the following probability mass function:
 

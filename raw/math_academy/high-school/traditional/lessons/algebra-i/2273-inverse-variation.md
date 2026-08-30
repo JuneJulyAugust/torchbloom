@@ -38,7 +38,7 @@ Notice that:
 
 To find the constant of variation $k$, we need to plug in some data.
 
-For example, suppose we know that the concentration is $y = 200\, \textrm{g/L}$ when $x = 4\,\textrm L$ of water has been added. Plugging this into our relationship and solving for $k,$ we have
+For example, suppose we know that the concentration is $y = 200\, \text{g/L}$ when $x = 4\,\textrm L$ of water has been added. Plugging this into our relationship and solving for $k,$ we have
 
 $$
 

@@ -142,7 +142,7 @@ We want to find $P(102 \lt \overline{X} \lt 105).$ So, we convert $\overline{X}$
 $$
 
 
-\begin{aligned}𝑃(102<\overset{𝑋}{}<105) & =𝑃(\frac{102−100}{\sqrt{√30}}<𝑍<\frac{105−100}{\sqrt{√30}}) \\ & =𝑃(\frac{2}{\sqrt{√30}}<𝑍<\frac{5}{\sqrt{√30}}) \\ & ≈𝑃(0.37<𝑍<0.91) \\ & =𝑃(𝑍<0.91)−𝑃(𝑍<0.37) \\ & =Φ(0.91)−Φ(0.37)\end{aligned}
+\begin{aligned}𝑃(102<\overset{𝑋}{}<105) & =𝑃(\frac{102−100}{\sqrt{30}}<𝑍<\frac{105−100}{\sqrt{30}}) \\ & =𝑃(\frac{2}{\sqrt{30}}<𝑍<\frac{5}{\sqrt{30}}) \\ & ≈𝑃(0.37<𝑍<0.91) \\ & =𝑃(𝑍<0.91)−𝑃(𝑍<0.37) \\ & =Φ(0.91)−Φ(0.37)\end{aligned}
 
 
 $$
@@ -210,7 +210,7 @@ We want to find $P(|\overline{X}| \gt 0.1).$ So, we convert $\overline{X}$ to a 
 $$
 
 
-\begin{aligned}𝑃(|\overset{𝑋}{}|>0.1) & =𝑃(\overset{𝑋}{}<−0.1)+𝑃(\overset{𝑋}{}>0.1) \\ & ≈𝑃(𝑍<\frac{−0.1−0}{\sqrt{√0.04}})+𝑃(𝑍>\frac{0.1−0}{\sqrt{√0.04}}) \\ & =𝑃(𝑍<−0.5)+𝑃(𝑍>0.5) \\ & =𝑃(𝑍<−0.5)+1−𝑃(𝑍<0.5) \\ & =1+Φ(−0.5)−Φ(0.5).\end{aligned}
+\begin{aligned}𝑃(|\overset{𝑋}{}|>0.1) & =𝑃(\overset{𝑋}{}<−0.1)+𝑃(\overset{𝑋}{}>0.1) \\ & ≈𝑃(𝑍<\frac{−0.1−0}{\sqrt{0.04}})+𝑃(𝑍>\frac{0.1−0}{\sqrt{0.04}}) \\ & =𝑃(𝑍<−0.5)+𝑃(𝑍>0.5) \\ & =𝑃(𝑍<−0.5)+1−𝑃(𝑍<0.5) \\ & =1+Φ(−0.5)−Φ(0.5).\end{aligned}
 
 
 $$
@@ -288,7 +288,7 @@ We want to find $P(\overline{X}>1.9).$ So, we convert $\overline{X}$ to a standa
 $$
 
 
-\begin{aligned}𝑃(\overset{𝑋}{}>1.9) & =𝑃(𝑍>\frac{1.9−2}{\sqrt{√0.005}}) \\ & ≈𝑃(𝑍>−1.41).\end{aligned}
+\begin{aligned}𝑃(\overset{𝑋}{}>1.9) & =𝑃(𝑍>\frac{1.9−2}{\sqrt{0.005}}) \\ & ≈𝑃(𝑍>−1.41).\end{aligned}
 
 
 $$
@@ -362,7 +362,7 @@ then the random variable
 $$
 
 
-X = n\overline{X} = \underbrace{\overline{X} + \overline{X} + \cdots + \overline{X}}_{n\,\textrm{times}}
+X = n\overline{X} = \underbrace{\overline{X} + \overline{X} + \cdots + \overline{X}}_{n\,\text{times}}
 
 
 $$
@@ -372,7 +372,7 @@ is a sum of $n$ (approximately) normally distributed random variables and is the
 $$
 
 
-\textrm E[X] = n\cdot \mu, \qquad \textrm{Var}[X] = n^2\cdot \dfrac{\sigma^2}{n} = n\sigma^2.
+\textrm E[X] = n\cdot \mu, \qquad \text{Var}[X] = n^2\cdot \dfrac{\sigma^2}{n} = n\sigma^2.
 
 
 $$

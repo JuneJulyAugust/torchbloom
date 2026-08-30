@@ -16,23 +16,23 @@ Topic ID: 2229
 
 We need to be extra careful when converting from one unit of area to another.
 
-To demonstrate, suppose that a square has an area of $2\,\textrm{cm}^2.$ Let's use unit arguments to express this area in square millimeters.
+To demonstrate, suppose that a square has an area of $2\,\text{cm}^2.$ Let's use unit arguments to express this area in square millimeters.
 
 We start by recalling the conversion table for units of length.
 
-Since we're converting from $\textrm{cm}^2$ to $\textrm{mm}^2$, we start with the conversion between $\textrm{cm}$ and $\textrm{mm}$. According to our table, there are $10\,\textrm{mm}$ per $\textrm{cm}.$ We can write this ratio as a fraction, as follows:
+Since we're converting from $\text{cm}^2$ to $\text{mm}^2$, we start with the conversion between $\text{cm}$ and $\text{mm}$. According to our table, there are $10\,\text{mm}$ per $\text{cm}.$ We can write this ratio as a fraction, as follows:
 
 $$
 
 
 
-\dfrac{10\,\textrm{mm}}{\textrm{cm}}
+\dfrac{10\,\text{mm}}{\text{cm}}
 
 
 
 $$
 
-**Watch Out!** This is *not* the conversion factor we need. If we multiply $2\,\textrm{cm}^2$ by this conversion factor, we will *not* get an equivalent area!
+**Watch Out!** This is *not* the conversion factor we need. If we multiply $2\,\text{cm}^2$ by this conversion factor, we will *not* get an equivalent area!
 
 The problem with using this conversion factor is that it does not contain area units. However, we can convert this into area units by squaring it and applying the rules of exponents as follows:
 
@@ -48,7 +48,7 @@ $$
 
 This is now the correct conversion factor. It tells us that there are $100$ square millimeters per square centimeter.
 
-Now, multiplying $2\,\textrm{cm}^2$ by our conversion factor, we get
+Now, multiplying $2\,\text{cm}^2$ by our conversion factor, we get
 
 $$
 
@@ -60,37 +60,37 @@ $$
 
 $$
 
-Therefore, we conclude that $2\,\textrm{cm}^2$ is equivalent to $200\,\textrm{mm}^2.$
+Therefore, we conclude that $2\,\text{cm}^2$ is equivalent to $200\,\text{mm}^2.$
 
 ### Intuition Behind Area Scale Factors
 
-Earlier, we calculated that $1\,\textrm{cm}^2$ is equivalent to $100\,\textrm{mm}^2.$ Let's try to understand this computation intuitively.
+Earlier, we calculated that $1\,\text{cm}^2$ is equivalent to $100\,\text{mm}^2.$ Let's try to understand this computation intuitively.
 
-Consider the $1\,\textrm{cm}\times 1\,\textrm{cm}$ square shown below (magnified for purposes of illustration).
+Consider the $1\,\text{cm}\times 1\,\text{cm}$ square shown below (magnified for purposes of illustration).
 
 ![Instructional graphic](../../../../lesson-assets/integrated-math-i/topic-2229/b952524ea9be890e.png)
 
-When we convert the units of length from $\textrm{cm}$ to $\textrm{mm},$ we essentially partition the length and width of this square into $10$ equal parts. Doing this, we partition the square into $10^2 = 100$ equally-sized smaller squares.
+When we convert the units of length from $\text{cm}$ to $\text{mm},$ we essentially partition the length and width of this square into $10$ equal parts. Doing this, we partition the square into $10^2 = 100$ equally-sized smaller squares.
 
 ![Instructional graphic](../../../../lesson-assets/integrated-math-i/topic-2229/ff635303de87e43d.png)
 
-From the diagram, we see that $1\,\textrm{cm}^2$ is equivalent to $100\,\textrm{mm}^2.$
+From the diagram, we see that $1\,\text{cm}^2$ is equivalent to $100\,\text{mm}^2.$
 
 ### Example: Converting Square Centimeters to Square Millimeters
 
 #### Question
 
-What is $3.4 \,\textrm{cm}^2$ measured in $\textrm{mm}^2?$
+What is $3.4 \,\text{cm}^2$ measured in $\text{mm}^2?$
 
 #### Explanation
 
-There are $10\,\textrm{mm}$ per $\textrm{cm},$ which we can write as follows:
+There are $10\,\text{mm}$ per $\text{cm},$ which we can write as follows:
 
 $$
 
 
 
-\dfrac{10\,\textrm{mm}}{\textrm{cm}}
+\dfrac{10\,\text{mm}}{\text{cm}}
 
 
 
@@ -110,7 +110,7 @@ $$
 
 This is our conversion factor.
 
-Now, multiplying $3.4 \, \textrm{cm}^2$ by our conversion factor, we get
+Now, multiplying $3.4 \, \text{cm}^2$ by our conversion factor, we get
 
 $$
 
@@ -122,23 +122,23 @@ $$
 
 $$
 
-Therefore, $3.4\,\textrm{cm}^2$ is equivalent to $340\,\textrm{mm}^2.$
+Therefore, $3.4\,\text{cm}^2$ is equivalent to $340\,\text{mm}^2.$
 
 ### Example: Converting Square Meters to Square Centimeters
 
 #### Question
 
-What is $0.29\,\textrm{m}^2$ measured in $\textrm{cm}^2?$
+What is $0.29\,\text{m}^2$ measured in $\text{cm}^2?$
 
 #### Explanation
 
-There are $100\,\textrm{cm}$ per $\textrm{m},$ which we can write as follows:
+There are $100\,\text{cm}$ per $\text{m},$ which we can write as follows:
 
 $$
 
 
 
-\dfrac{100\,\textrm{cm}}{\textrm{m}}
+\dfrac{100\,\text{cm}}{\text{m}}
 
 
 
@@ -158,7 +158,7 @@ $$
 
 This is our conversion factor.
 
-Now, multiplying $0.29\,\textrm{m}^2$ by our conversion factor, we get
+Now, multiplying $0.29\,\text{m}^2$ by our conversion factor, we get
 
 $$
 
@@ -174,17 +174,17 @@ $$
 
 #### Question
 
-What is $0.053\,\textrm{km}^2$ measured in $\textrm{m}^2?$
+What is $0.053\,\text{km}^2$ measured in $\text{m}^2?$
 
 #### Explanation
 
-There are $1\,000\,\textrm{m}$ per $\textrm{km},$ which we can write as follows:
+There are $1\,000\,\text{m}$ per $\text{km},$ which we can write as follows:
 
 $$
 
 
 
-\dfrac{1\,000\,\textrm m}{\textrm{km}}
+\dfrac{1\,000\,\textrm m}{\text{km}}
 
 
 
@@ -204,7 +204,7 @@ $$
 
 This is our conversion factor.
 
-Now, multiplying $0.053\,\textrm{km}^2$ by our conversion factor, we get
+Now, multiplying $0.053\,\text{km}^2$ by our conversion factor, we get
 
 $$
 
@@ -216,4 +216,4 @@ $$
 
 $$
 
-Therefore, $0.053\,\textrm{km}^2$ is equivalent to $53\,000 \,\textrm{m}^2.$
+Therefore, $0.053\,\text{km}^2$ is equivalent to $53\,000 \,\text{m}^2.$

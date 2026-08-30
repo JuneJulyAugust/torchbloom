@@ -26,7 +26,7 @@ So, we find the area of each rectangle and then add them all together.
 $$
 
 
-\begin{aligned}A & ≈\overset{\overset{\,\overset{\overset{𝑓(1)}{}}{height}\,⋅\,\underset{width}{\underset{}{1}}\,}{}}{1st rectangle}+\overset{\overset{\,\overset{\overset{𝑓(2)}{}}{height}\,⋅\,\underset{width}{\underset{}{1}}\,}{}}{2nd rectangle}+\overset{\overset{\,\overset{\overset{𝑓(3)}{}}{height}\,⋅\,\underset{width}{\underset{}{1}}\,}{}}{3rd rectangle} \\ & =[1^{2}⋅1]+[2^{2}⋅1]+[3^{2}⋅1] \\ & =1+4+9 \\ & =14\end{aligned}
+\begin{aligned}A & ≈\overset{\,\overset{𝑓(1)}{height}\,⋅\,\underset{width}{\underset{}{1}}\,}{}}{1st rectangle}+\overset{\,\overset{𝑓(2)}{height}\,⋅\,\underset{width}{\underset{}{1}}\,}{}}{2nd rectangle}+\overset{\,\overset{𝑓(3)}{height}\,⋅\,\underset{width}{\underset{}{1}}\,}{}}{3rd rectangle} \\ & =[1^{2}⋅1]+[2^{2}⋅1]+[3^{2}⋅1] \\ & =1+4+9 \\ & =14\end{aligned}
 
 
 $$
@@ -194,7 +194,7 @@ Plugging our numbers into the above, we find
 $$
 
 
-\begin{aligned} \mathcal{A} &\approx {\color{red}1} \cdot ({\color{blue}2-1}) + {\color{red}4} \cdot ({\color{blue}3.5-2}) + {\color{red}6} \cdot ({\color{blue}4-3.5}) \\\[5pt] &= {\color{red}1} \cdot {\color{blue}1} +{\color{red}4} \cdot {\color{blue}1.5}+ {\color{red}6} \cdot {\color{blue}0.5} \\\[5pt] &=1+6+3\\\[5pt] &= 10. \end{aligned}
+\begin{aligned} \mathcal{A} &\approx {\color{red}1} \cdot ({\color{blue}2-1}) + {\color{red}4} \cdot ({\color{blue}3.5-2}) + {\color{red}6} \cdot ({\color{blue}4-3.5}) \\[5pt] &= {\color{red}1} \cdot {\color{blue}1} +{\color{red}4} \cdot {\color{blue}1.5}+ {\color{red}6} \cdot {\color{blue}0.5} \\[5pt] &=1+6+3\\[5pt] &= 10. \end{aligned}
 
 
 $$

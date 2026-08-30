@@ -41,7 +41,7 @@ To find the area, we use the formula
 $$
 
 
-A = \dfrac{1}{2} \int_{\theta_1}^{\theta_2} \Big( \big[ {\color{brown}\text{outer curve}} \big]^2 - \big[ {\color{blue}\text{inner curve}} \big]^2 \Big) \:\textrm{d}\theta,
+A = \dfrac{1}{2} \int_{\theta_1}^{\theta_2} \Big( \big[ {\color{brown}\text{outer curve}} \big]^2 - \big[ {\color{blue}\text{inner curve}} \big]^2 \Big) \:\text{d}\theta,
 
 
 $$
@@ -65,7 +65,7 @@ Therefore, we obtain
 $$
 
 
-\begin{aligned}𝐴 & =\frac{1}{2}∫_{𝜋/2−𝜋/2}^{}((2(1+cos⁡𝜃))^{2}−2^{2})\,d𝜃 \\ & =\frac{1}{2}∫_{𝜋/2−𝜋/2}^{}(4(1+2cos⁡𝜃+cos^{2}⁡𝜃)−4)d𝜃 \\ & =2∫_{𝜋/2−𝜋/2}^{}(2cos⁡𝜃+cos^{2}⁡𝜃)d𝜃.\end{aligned}
+\begin{aligned}𝐴 & =\frac{1}{2}∫_{𝜋/2−𝜋/2}((2(1+cos⁡𝜃))^{2}−2^{2})\,d𝜃 \\ & =\frac{1}{2}∫_{𝜋/2−𝜋/2}(4(1+2cos⁡𝜃+cos^{2}⁡𝜃)−4)d𝜃 \\ & =2∫_{𝜋/2−𝜋/2}(2cos⁡𝜃+cos^{2}⁡𝜃)d𝜃.\end{aligned}
 
 
 $$
@@ -99,7 +99,7 @@ To find the area, we use the formula
 $$
 
 
-A = \dfrac{1}{2} \int_{\theta_1}^{\theta_2} \Big( \big[ {\color{brown}\text{outer}} \big]^2 - \big[ {\color{blue}\text{inner}} \big]^2 \Big) \:\textrm{d}\theta,
+A = \dfrac{1}{2} \int_{\theta_1}^{\theta_2} \Big( \big[ {\color{brown}\text{outer}} \big]^2 - \big[ {\color{blue}\text{inner}} \big]^2 \Big) \:\text{d}\theta,
 
 
 $$
@@ -113,7 +113,7 @@ Therefore, we obtain
 $$
 
 
-\begin{aligned}𝐴 & =\frac{1}{2}∫_{𝜋/2𝜋/4}^{}(sin⁡𝜃)^{2}−(cos⁡𝜃)^{2}\,d𝜃 \\ & =\frac{1}{2}∫_{𝜋/2𝜋/4}^{}(sin^{2}⁡𝜃−cos^{2}⁡𝜃)\,d𝜃 \\ & =\frac{1}{2}∫_{𝜋/2𝜋/4}^{}−cos⁡2𝜃\,d𝜃 \\ & =−\frac{1}{2}∫_{𝜋/2𝜋/4}^{}cos⁡2𝜃\,d𝜃.\end{aligned}
+\begin{aligned}𝐴 & =\frac{1}{2}∫_{𝜋/2𝜋/4}(sin⁡𝜃)^{2}−(cos⁡𝜃)^{2}\,d𝜃 \\ & =\frac{1}{2}∫_{𝜋/2𝜋/4}(sin^{2}⁡𝜃−cos^{2}⁡𝜃)\,d𝜃 \\ & =\frac{1}{2}∫_{𝜋/2𝜋/4}−cos⁡2𝜃\,d𝜃 \\ & =−\frac{1}{2}∫_{𝜋/2𝜋/4}cos⁡2𝜃\,d𝜃.\end{aligned}
 
 
 $$
@@ -163,7 +163,7 @@ To find the area, we use the formula
 $$
 
 
-A = \dfrac{1}{2} \int_{\theta_1}^{\theta_2} \Big( \big[ {\color{brown}\text{outer}} \big]^2 - \big[ {\color{blue}\text{inner}} \big]^2 \Big) \:\textrm{d}\theta,
+A = \dfrac{1}{2} \int_{\theta_1}^{\theta_2} \Big( \big[ {\color{brown}\text{outer}} \big]^2 - \big[ {\color{blue}\text{inner}} \big]^2 \Big) \:\text{d}\theta,
 
 
 $$
@@ -177,7 +177,7 @@ Therefore, we obtain
 $$
 
 
-\begin{aligned}𝐴 & =\frac{1}{2}∫_{𝜋/9−𝜋/9}^{}[(2cos⁡(3𝜃))^{2}−1^{2}]d𝜃 \\ & =\frac{1}{2}∫_{𝜋/9−𝜋/9}^{}(4cos^{2}⁡(3𝜃)−1)d𝜃\,.\end{aligned}
+\begin{aligned}𝐴 & =\frac{1}{2}∫_{𝜋/9−𝜋/9}[(2cos⁡(3𝜃))^{2}−1^{2}]d𝜃 \\ & =\frac{1}{2}∫_{𝜋/9−𝜋/9}(4cos^{2}⁡(3𝜃)−1)d𝜃\,.\end{aligned}
 
 
 $$
@@ -227,7 +227,7 @@ To find the area, we use the formula
 $$
 
 
-A = \dfrac{1}{2} \int_{\theta_1}^{\theta_2} \Big( \big[ {\color{brown}\text{outer}} \big]^2 - \big[ {\color{blue}\text{inner}} \big]^2 \Big) \:\textrm{d}\theta,
+A = \dfrac{1}{2} \int_{\theta_1}^{\theta_2} \Big( \big[ {\color{brown}\text{outer}} \big]^2 - \big[ {\color{blue}\text{inner}} \big]^2 \Big) \:\text{d}\theta,
 
 
 $$
@@ -241,7 +241,7 @@ Therefore, we obtain
 $$
 
 
-\begin{aligned}𝐴 & =\frac{1}{2}∫_{𝜋0}^{}((2sin⁡𝜃)^{2}−(sin⁡𝜃)^{2})\,d𝜃 \\ & =\frac{1}{2}∫_{𝜋0}^{}3sin^{2}⁡𝜃\,d𝜃 \\ & =\frac{3}{4}∫_{𝜋0}^{}(1−cos⁡2𝜃)\,d𝜃 \\ & =\frac{3}{4}(𝜃−\frac{sin⁡2𝜃}{2})_{𝜋0}^{} \\ & =\frac{3}{4}[(𝜋−\frac{sin⁡(2𝜋)}{2})−(0−\frac{sin⁡0}{2})] \\ & =\frac{3𝜋}{4}\,.\end{aligned}
+\begin{aligned}𝐴 & =\frac{1}{2}∫_{𝜋0}((2sin⁡𝜃)^{2}−(sin⁡𝜃)^{2})\,d𝜃 \\ & =\frac{1}{2}∫_{𝜋0}3sin^{2}⁡𝜃\,d𝜃 \\ & =\frac{3}{4}∫_{𝜋0}(1−cos⁡2𝜃)\,d𝜃 \\ & =\frac{3}{4}(𝜃−\frac{sin⁡2𝜃}{2})_{𝜋0} \\ & =\frac{3}{4}[(𝜋−\frac{sin⁡(2𝜋)}{2})−(0−\frac{sin⁡0}{2})] \\ & =\frac{3𝜋}{4}\,.\end{aligned}
 
 
 $$
@@ -291,7 +291,7 @@ To find the area, we use the formula
 $$
 
 
-A = \dfrac{1}{2} \int_{\theta_1}^{\theta_2} \Big( \big[ {\color{brown}\text{outer}} \big]^2 - \big[ {\color{blue}\text{inner}} \big]^2 \Big) \:\textrm{d}\theta,
+A = \dfrac{1}{2} \int_{\theta_1}^{\theta_2} \Big( \big[ {\color{brown}\text{outer}} \big]^2 - \big[ {\color{blue}\text{inner}} \big]^2 \Big) \:\text{d}\theta,
 
 
 $$
@@ -305,7 +305,7 @@ Therefore, we obtain
 $$
 
 
-\begin{aligned}𝐴_{1} & =\frac{1}{2}∫_{𝜋/6−𝜋/6}^{}((2cos⁡(2𝜃))^{2}−1^{2})\,d𝜃 \\ & =\frac{1}{2}∫_{𝜋/6−𝜋/6}^{}(4cos^{2}⁡(2𝜃)−1)\,d𝜃 \\ & =\frac{1}{2}∫_{𝜋/6−𝜋/6}^{}(2(1+cos⁡(4𝜃))−1)\,d𝜃 \\ & =\frac{1}{2}∫_{𝜋/6−𝜋/6}^{}(1+2cos⁡(4𝜃))\,d𝜃 \\ & =\frac{1}{2}𝜃_{𝜋/6−𝜋/6}^{}+\frac{1}{4}sin⁡(4𝜃)_{𝜋/6−𝜋/6}^{} \\ & =\frac{1}{2}(\frac{𝜋}{6}−(−\frac{𝜋}{6}))+\frac{1}{4}(sin⁡\frac{2𝜋}{3}−sin⁡(−\frac{2𝜋}{3})) \\ & =\frac{𝜋}{6}+\frac{1}{4}(\frac{\sqrt{√3}}{2}−(−\frac{\sqrt{√3}}{2})) \\ & =\frac{𝜋}{6}+\frac{\sqrt{√3}}{4}.\end{aligned}
+\begin{aligned}𝐴_{1} & =\frac{1}{2}∫_{𝜋/6−𝜋/6}((2cos⁡(2𝜃))^{2}−1^{2})\,d𝜃 \\ & =\frac{1}{2}∫_{𝜋/6−𝜋/6}(4cos^{2}⁡(2𝜃)−1)\,d𝜃 \\ & =\frac{1}{2}∫_{𝜋/6−𝜋/6}(2(1+cos⁡(4𝜃))−1)\,d𝜃 \\ & =\frac{1}{2}∫_{𝜋/6−𝜋/6}(1+2cos⁡(4𝜃))\,d𝜃 \\ & =\frac{1}{2}𝜃_{𝜋/6−𝜋/6}+\frac{1}{4}sin⁡(4𝜃)_{𝜋/6−𝜋/6} \\ & =\frac{1}{2}(\frac{𝜋}{6}−(−\frac{𝜋}{6}))+\frac{1}{4}(sin⁡\frac{2𝜋}{3}−sin⁡(−\frac{2𝜋}{3})) \\ & =\frac{𝜋}{6}+\frac{1}{4}(\frac{\sqrt{3}}{2}−(−\frac{\sqrt{3}}{2})) \\ & =\frac{𝜋}{6}+\frac{\sqrt{3}}{4}.\end{aligned}
 
 
 $$
@@ -315,7 +315,7 @@ Therefore, the total area is
 $$
 
 
-\begin{aligned}𝐴 & =4𝐴_{1}=4(\frac{𝜋}{6}+\frac{\sqrt{√3}}{4})=\frac{2𝜋}{3}+\sqrt{√3}.\end{aligned}
+\begin{aligned}𝐴 & =4𝐴_{1}=4(\frac{𝜋}{6}+\frac{\sqrt{3}}{4})=\frac{2𝜋}{3}+\sqrt{3}.\end{aligned}
 
 
 $$

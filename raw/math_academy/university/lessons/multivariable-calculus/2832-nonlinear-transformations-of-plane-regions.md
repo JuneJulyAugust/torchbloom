@@ -332,7 +332,7 @@ To check for critical points, we start by computing the Jacobian:
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)} & =\begin{aligned}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣}\end{aligned}\end{aligned}
+\begin{aligned}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)} & =\begin{matrix}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣}\end{matrix}\end{aligned}
 
 
 $$
@@ -362,7 +362,7 @@ Substituting our partial derivatives into our expression for the Jacobian, we ge
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)} & =\begin{aligned}2𝑢𝑣 & 𝑢^{2}+1 \\ 1 & 0\end{aligned} \\ & =−(1+𝑢^{2}).\end{aligned}
+\begin{aligned}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)} & =\begin{matrix}2𝑢𝑣 & 𝑢^{2}+1 \\ 1 & 0\end{matrix} \\ & =−(1+𝑢^{2}).\end{aligned}
 
 
 $$
@@ -404,7 +404,7 @@ The Jacobian matrix determinant of $\mathbf{T}$ is
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)} & =\begin{aligned}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣}\end{aligned} \\ & =\begin{aligned}𝑣 & 𝑢 \\ 2𝑢+𝑣 & 𝑢\end{aligned} \\ & =−2𝑢^{2}\end{aligned}
+\begin{aligned}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)} & =\begin{matrix}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣}\end{matrix} \\ & =\begin{matrix}𝑣 & 𝑢 \\ 2𝑢+𝑣 & 𝑢\end{matrix} \\ & =−2𝑢^{2}\end{aligned}
 
 
 $$
@@ -512,7 +512,7 @@ Let's start by finding the critical points. First, we compute the Jacobian:
 $$
 
 
-\begin{aligned}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)} & =\begin{aligned}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣}\end{aligned} \\ & =\begin{aligned}𝑣 & 𝑢 \\ 2𝑢 & 2𝑣\end{aligned} \\ & =2𝑣^{2}−2𝑢^{2} \\ & =2(𝑣+𝑢)(𝑣−𝑢).\end{aligned}
+\begin{aligned}\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)} & =\begin{matrix}\frac{𝜕𝑥}{𝜕𝑢} & \frac{𝜕𝑥}{𝜕𝑣} \\ \frac{𝜕𝑦}{𝜕𝑢} & \frac{𝜕𝑦}{𝜕𝑣}\end{matrix} \\ & =\begin{matrix}𝑣 & 𝑢 \\ 2𝑢 & 2𝑣\end{matrix} \\ & =2𝑣^{2}−2𝑢^{2} \\ & =2(𝑣+𝑢)(𝑣−𝑢).\end{aligned}
 
 
 $$
@@ -604,7 +604,7 @@ We can find the vector $\mathbf s_1$ by subtracting the position vectors of its 
 $$
 
 
-\begin{aligned}𝐬_{1}=𝐚−[\begin{aligned}𝑥_{0} \\ 𝑦_{0}\end{aligned}] & =[\begin{aligned}𝑥\,(𝑢_{0}+𝛿𝑢,𝑣_{0}) \\ 𝑦\,(𝑢_{0}+𝛿𝑢,𝑣_{0})\end{aligned}]−[\begin{aligned}𝑥\,(𝑢_{0},𝑣_{0}) \\ 𝑦\,(𝑢_{0},𝑣_{0})\end{aligned}] \\ & =[\begin{aligned}𝑥\,(𝑢_{0}+𝛿𝑢,𝑣_{0})−𝑥\,(𝑢_{0},𝑣_{0}) \\ 𝑦\,(𝑢_{0}+𝛿𝑢,𝑣_{0})−𝑦\,(𝑢_{0},𝑣_{0})\end{aligned}].\end{aligned}
+\begin{aligned}𝐬_{1}=𝐚−[\begin{matrix}𝑥_{0} \\ 𝑦_{0}\end{matrix}] & =[\begin{matrix}𝑥\,(𝑢_{0}+𝛿𝑢,𝑣_{0}) \\ 𝑦\,(𝑢_{0}+𝛿𝑢,𝑣_{0})\end{matrix}]−[\begin{matrix}𝑥\,(𝑢_{0},𝑣_{0}) \\ 𝑦\,(𝑢_{0},𝑣_{0})\end{matrix}] \\ & =[\begin{matrix}𝑥\,(𝑢_{0}+𝛿𝑢,𝑣_{0})−𝑥\,(𝑢_{0},𝑣_{0}) \\ 𝑦\,(𝑢_{0}+𝛿𝑢,𝑣_{0})−𝑦\,(𝑢_{0},𝑣_{0})\end{matrix}].\end{aligned}
 
 
 $$
@@ -654,7 +654,7 @@ Substituting our approximations for $\mathbf s_1$ and $\mathbf s_2,$ we arrive a
 $$
 
 
-\begin{aligned}Area(𝐷) & ≈det\begin{aligned}\,\,𝛿𝑢⋅\frac{𝜕𝑥}{𝜕𝑢} & \,\,𝛿𝑣⋅\frac{𝜕𝑥}{𝜕𝑣}\,\, \\ \,\,𝛿𝑢⋅\frac{𝜕𝑦}{𝜕𝑢} & 𝛿𝑣⋅\frac{𝜕𝑦}{𝜕𝑣}\,\,\end{aligned}_{(𝑢_{0},𝑣_{0})} \\ & =𝛿𝑢𝛿𝑣⋅(\frac{𝜕𝑥}{𝜕𝑢}\frac{𝜕𝑦}{𝜕𝑣}−\frac{𝜕𝑥}{𝜕𝑣}\frac{𝜕𝑦}{𝜕𝑢})_{(𝑢_{0},𝑣_{0})} \\ & =𝛿𝑢𝛿𝑣⋅\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)}_{(𝑢_{0},𝑣_{0})}\end{aligned}
+\begin{aligned}Area(𝐷) & ≈det\begin{matrix}\,\,𝛿𝑢⋅\frac{𝜕𝑥}{𝜕𝑢} & \,\,𝛿𝑣⋅\frac{𝜕𝑥}{𝜕𝑣}\,\, \\ \,\,𝛿𝑢⋅\frac{𝜕𝑦}{𝜕𝑢} & 𝛿𝑣⋅\frac{𝜕𝑦}{𝜕𝑣}\,\,\end{matrix}_{(𝑢_{0},𝑣_{0})} \\ & =𝛿𝑢𝛿𝑣⋅(\frac{𝜕𝑥}{𝜕𝑢}\frac{𝜕𝑦}{𝜕𝑣}−\frac{𝜕𝑥}{𝜕𝑣}\frac{𝜕𝑦}{𝜕𝑢})_{(𝑢_{0},𝑣_{0})} \\ & =𝛿𝑢𝛿𝑣⋅\frac{𝜕(𝑥,𝑦)}{𝜕(𝑢,𝑣)}_{(𝑢_{0},𝑣_{0})}\end{aligned}
 
 
 $$

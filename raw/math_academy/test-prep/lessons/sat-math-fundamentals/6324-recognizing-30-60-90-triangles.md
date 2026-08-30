@@ -66,7 +66,7 @@ With that in mind, let's examine our right triangles in turn.
 
 - Triangle III is a $30^\circ$-$60^\circ$-$90^\circ$ triangle. Indeed, the ratio of the hypotenuse to the longest leg is the following:
 
-Therefore, the triangle $\textrm{III}$ is a $30^\circ$-$60^\circ$-$90^\circ$ triangle.
+Therefore, the triangle $\text{III}$ is a $30^\circ$-$60^\circ$-$90^\circ$ triangle.
 
 ### Recognizing 30-60-90 Triangles in Rectangles
 
@@ -125,7 +125,7 @@ Thus, we have the following equation that can be solved for $s{:}$
 $$
 
 
-\begin{aligned}\frac{\sqrt{√3}}{2}𝑠^{2} & =5\sqrt{√3} \\ \sqrt{√3} 𝑠^{2} & =10\sqrt{√3} \\ 𝑠^{2} & =10 \\ 𝑠 & =\sqrt{√10}\end{aligned}
+\begin{aligned}\frac{\sqrt{3}}{2}𝑠^{2} & =5\sqrt{3} \\ \sqrt{3} 𝑠^{2} & =10\sqrt{3} \\ 𝑠^{2} & =10 \\ 𝑠 & =\sqrt{10}\end{aligned}
 
 
 $$
@@ -209,7 +209,7 @@ Thus, we have the following equation that can be solved for $s{:}$
 $$
 
 
-\begin{aligned}\frac{\sqrt{√3}}{2}𝑠^{2} & =54\sqrt{√3} \\ \sqrt{√3} 𝑠^{2} & =108\sqrt{√3} \\ 𝑠^{2} & =108 \\ 𝑠 & =\sqrt{√108} \\ & =\sqrt{√36⋅3} \\ & =6\sqrt{√3}\end{aligned}
+\begin{aligned}\frac{\sqrt{3}}{2}𝑠^{2} & =54\sqrt{3} \\ \sqrt{3} 𝑠^{2} & =108\sqrt{3} \\ 𝑠^{2} & =108 \\ 𝑠 & =\sqrt{108} \\ & =\sqrt{36⋅3} \\ & =6\sqrt{3}\end{aligned}
 
 
 $$
@@ -291,7 +291,7 @@ Thus, we have the following equation that can be solved for $s{:}$
 $$
 
 
-\begin{aligned}\frac{\sqrt{√3}}{2}𝑠^{2} & =100\sqrt{√3} \\ \sqrt{√3} 𝑠^{2} & =200\sqrt{√3} \\ 𝑠^{2} & =200 \\ 𝑠 & =\sqrt{√200} \\ & =\sqrt{√100⋅2} \\ & =10\sqrt{√2}\end{aligned}
+\begin{aligned}\frac{\sqrt{3}}{2}𝑠^{2} & =100\sqrt{3} \\ \sqrt{3} 𝑠^{2} & =200\sqrt{3} \\ 𝑠^{2} & =200 \\ 𝑠 & =\sqrt{200} \\ & =\sqrt{100⋅2} \\ & =10\sqrt{2}\end{aligned}
 
 
 $$
@@ -301,7 +301,7 @@ So, the diagonal of the rectangle is
 $$
 
 
-\begin{aligned}𝐴𝐶 & =2𝑠 \\ & =2⋅10\sqrt{√2} \\ & =20\sqrt{√2}.\end{aligned}
+\begin{aligned}𝐴𝐶 & =2𝑠 \\ & =2⋅10\sqrt{2} \\ & =20\sqrt{2}.\end{aligned}
 
 
 $$

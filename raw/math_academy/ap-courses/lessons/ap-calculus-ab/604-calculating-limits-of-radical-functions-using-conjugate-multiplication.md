@@ -29,7 +29,7 @@ If we try to evaluate the limit by directly substituting $x=1,$ we get an indete
 $$
 
 
-\begin{aligned}\underset{𝑥→1}{lim}\frac{\sqrt{√𝑥}−1}{𝑥−1} & =\frac{\sqrt{√1}−1}{1−1}=\frac{0}{0}\end{aligned}
+\begin{aligned}\underset{𝑥→1}{lim}\frac{\sqrt{𝑥}−1}{𝑥−1} & =\frac{\sqrt{1}−1}{1−1}=\frac{0}{0}\end{aligned}
 
 
 $$
@@ -59,7 +59,7 @@ If we attempt to evaluate the limit, we get an indeterminate form:
 $$
 
 
-\begin{aligned}\underset{𝑥→4^{+}}{lim}\frac{𝑥−2\sqrt{√𝑥}}{𝑥−4} & =\frac{4−2\sqrt{√4}}{4−4}=\frac{0}{0},\end{aligned}
+\begin{aligned}\underset{𝑥→4^{+}}{lim}\frac{𝑥−2\sqrt{𝑥}}{𝑥−4} & =\frac{4−2\sqrt{4}}{4−4}=\frac{0}{0},\end{aligned}
 
 
 $$
@@ -87,7 +87,7 @@ If we attempt to evaluate the limit by simply evaluating the function at $x=0$, 
 $$
 
 
-\begin{aligned}\underset{𝑥→0}{lim}\frac{3𝑥}{\sqrt{√𝑥+1}−1} & =\frac{3⋅0}{\sqrt{√0+1}−1}=\frac{0}{0}\end{aligned}
+\begin{aligned}\underset{𝑥→0}{lim}\frac{3𝑥}{\sqrt{𝑥+1}−1} & =\frac{3⋅0}{\sqrt{0+1}−1}=\frac{0}{0}\end{aligned}
 
 
 $$

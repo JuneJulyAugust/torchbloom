@@ -60,7 +60,7 @@ If $f(x)$ satisfies the conditions for the integral test (i.e., it is positive, 
 $$
 
 
-\underbrace{\int_{N+1}^\infty f(x)\,\textrm d x}_{\textrm{lower bound}} \leq R_N \leq \underbrace{\int_{N}^\infty f(x)\,\textrm d x}_{\textrm{upper bound}}
+\underbrace{\int_{N+1}^\infty f(x)\,\textrm d x}_{\text{lower bound}} \leq R_N \leq \underbrace{\int_{N}^\infty f(x)\,\textrm d x}_{\text{upper bound}}
 
 
 $$
@@ -134,7 +134,7 @@ If $f(x)$ satisfies the conditions for the integral test, then the remainder is 
 $$
 
 
-\underbrace{\int_{N+1}^\infty f(x)\,\textrm d x}_{\textrm{lower bound}} \leq R_N \leq \underbrace{\int_{N}^\infty f(x)\,\textrm d x}_{\textrm{upper bound}}
+\underbrace{\int_{N+1}^\infty f(x)\,\textrm d x}_{\text{lower bound}} \leq R_N \leq \underbrace{\int_{N}^\infty f(x)\,\textrm d x}_{\text{upper bound}}
 
 
 $$
@@ -158,7 +158,7 @@ Let's now calculate the upper bound:
 $$
 
 
-\begin{aligned}𝑅_{4} & ≤∫_{∞4}^{}\frac{1}{5^{𝑥}}\,d𝑥 \\ & =∫_{∞4}^{}5^{−𝑥}\,d𝑥 \\ & =−\frac{1}{5^{𝑥}ln⁡5}\,_{∞4}^{} \\ & =−\frac{1}{ln⁡5}\underset{𝑏→∞}{lim}⁡[\frac{1}{5^{𝑥}}]_{𝑏4}^{} \\ & =−\frac{1}{ln⁡5}\underset{𝑏→∞}{lim}⁡(\frac{1}{5^{𝑏}}−\frac{1}{5^{4}}) \\ & =−\frac{1}{ln⁡5}(0−\frac{1}{625}) \\ & =−\frac{1}{ln⁡5}(−\frac{1}{625}) \\ & =\frac{1}{625ln⁡5} \\ & ≈0.000\,994\end{aligned}
+\begin{aligned}𝑅_{4} & ≤∫_{∞4}\frac{1}{5^{𝑥}}\,d𝑥 \\ & =∫_{∞4}5^{−𝑥}\,d𝑥 \\ & =−\frac{1}{5^{𝑥}ln⁡5}\,_{∞4} \\ & =−\frac{1}{ln⁡5}\underset{𝑏→∞}{lim}⁡[\frac{1}{5^{𝑥}}]_{𝑏4} \\ & =−\frac{1}{ln⁡5}\underset{𝑏→∞}{lim}⁡(\frac{1}{5^{𝑏}}−\frac{1}{5^{4}}) \\ & =−\frac{1}{ln⁡5}(0−\frac{1}{625}) \\ & =−\frac{1}{ln⁡5}(−\frac{1}{625}) \\ & =\frac{1}{625ln⁡5} \\ & ≈0.000\,994\end{aligned}
 
 
 $$
@@ -208,7 +208,7 @@ If $f(x)$ satisfies the conditions for the integral test, then the remainder is 
 $$
 
 
-\underbrace{\int_{N+1}^\infty f(x)\,\textrm d x}_{\textrm{lower bound}} \leq R_N \leq \underbrace{\int_{N}^\infty f(x)\,\textrm d x}_{\textrm{upper bound}}
+\underbrace{\int_{N+1}^\infty f(x)\,\textrm d x}_{\text{lower bound}} \leq R_N \leq \underbrace{\int_{N}^\infty f(x)\,\textrm d x}_{\text{upper bound}}
 
 
 $$
@@ -232,7 +232,7 @@ Let's now calculate the lower bound:
 $$
 
 
-\begin{aligned}𝑅_{8} & ≥∫_{∞9}^{}\frac{1}{(2𝑥+1)^{3}}\,d𝑥 \\ & =∫_{∞9}^{}(2𝑥+1)^{−3}\,d𝑥 \\ & =−\frac{1}{4(2𝑥+1)^{2}}\,_{∞9}^{} \\ & =−\frac{1}{4}\underset{𝑏→∞}{lim}⁡[\frac{1}{(2𝑥+1)^{2}}]_{𝑏9}^{} \\ & =−\frac{1}{4}\underset{𝑏→∞}{lim}⁡(\frac{1}{(2𝑏+1)^{2}}−\frac{1}{(2⋅9+1)^{2}}) \\ & =−\frac{1}{4}(0−\frac{1}{361}) \\ & =−\frac{1}{4}(−\frac{1}{361}) \\ & =\frac{1}{1\,444}\end{aligned}
+\begin{aligned}𝑅_{8} & ≥∫_{∞9}\frac{1}{(2𝑥+1)^{3}}\,d𝑥 \\ & =∫_{∞9}(2𝑥+1)^{−3}\,d𝑥 \\ & =−\frac{1}{4(2𝑥+1)^{2}}\,_{∞9} \\ & =−\frac{1}{4}\underset{𝑏→∞}{lim}⁡[\frac{1}{(2𝑥+1)^{2}}]_{𝑏9} \\ & =−\frac{1}{4}\underset{𝑏→∞}{lim}⁡(\frac{1}{(2𝑏+1)^{2}}−\frac{1}{(2⋅9+1)^{2}}) \\ & =−\frac{1}{4}(0−\frac{1}{361}) \\ & =−\frac{1}{4}(−\frac{1}{361}) \\ & =\frac{1}{1\,444}\end{aligned}
 
 
 $$
@@ -352,7 +352,7 @@ If $f(x)$ satisfies the conditions for the integral test, then the remainder is 
 $$
 
 
-\underbrace{\int_{N+1}^\infty f(x)\,\textrm d x}_{\textrm{lower bound}} \leq R_N \leq \underbrace{\int_{N}^\infty f(x)\,\textrm d x}_{\textrm{upper bound}}
+\underbrace{\int_{N+1}^\infty f(x)\,\textrm d x}_{\text{lower bound}} \leq R_N \leq \underbrace{\int_{N}^\infty f(x)\,\textrm d x}_{\text{upper bound}}
 
 
 $$
@@ -376,7 +376,7 @@ Let's now calculate the upper bound:
 $$
 
 
-\begin{aligned}𝑅_{11} & ≤∫_{∞11}^{}\frac{1}{𝑒^{𝑥}}\,d𝑥 \\ & =∫_{∞11}^{}𝑒^{−𝑥}\,d𝑥 \\ & =−\frac{1}{𝑒^{𝑥}}_{∞11}^{} \\ & =−\underset{𝑏→∞}{lim}⁡[\frac{1}{𝑒^{𝑥}}]_{𝑏11}^{} \\ & =−\underset{𝑏→∞}{lim}⁡(\frac{1}{𝑒^{𝑏}}−\frac{1}{𝑒^{11}}) \\ & =−(0−\frac{1}{𝑒^{11}}) \\ & =−(−\frac{1}{𝑒^{11}}) \\ & =\frac{1}{𝑒^{11}}\end{aligned}
+\begin{aligned}𝑅_{11} & ≤∫_{∞11}\frac{1}{𝑒^{𝑥}}\,d𝑥 \\ & =∫_{∞11}𝑒^{−𝑥}\,d𝑥 \\ & =−\frac{1}{𝑒^{𝑥}}_{∞11} \\ & =−\underset{𝑏→∞}{lim}⁡[\frac{1}{𝑒^{𝑥}}]_{𝑏11} \\ & =−\underset{𝑏→∞}{lim}⁡(\frac{1}{𝑒^{𝑏}}−\frac{1}{𝑒^{11}}) \\ & =−(0−\frac{1}{𝑒^{11}}) \\ & =−(−\frac{1}{𝑒^{11}}) \\ & =\frac{1}{𝑒^{11}}\end{aligned}
 
 
 $$
@@ -408,7 +408,7 @@ should satisfy the following inequality:
 $$
 
 
-\underbrace{\int_{6}^\infty \dfrac{1}{x^2} \,\textrm d x}_{\textrm{lower bound}} \leq R_5 \leq \underbrace{\int_{5}^\infty \dfrac{1}{x^2} \,\textrm d x}_{\textrm{upper bound}}
+\underbrace{\int_{6}^\infty \dfrac{1}{x^2} \,\textrm d x}_{\text{lower bound}} \leq R_5 \leq \underbrace{\int_{5}^\infty \dfrac{1}{x^2} \,\textrm d x}_{\text{upper bound}}
 
 
 $$

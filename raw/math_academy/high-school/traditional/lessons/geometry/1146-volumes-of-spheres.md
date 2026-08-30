@@ -14,7 +14,7 @@ Topic ID: 1146
 
 ### Introduction
 
-Given a sphere with radius $r= 3\:\textrm{cm},$ how do we calculate its volume?
+Given a sphere with radius $r= 3\:\text{cm},$ how do we calculate its volume?
 
 ![Instructional graphic](../../../../lesson-assets/geometry/topic-1146/d3082308092b761d.png)
 
@@ -30,12 +30,12 @@ $$
 
 where $r$ is the radius of the sphere.
 
-Substituting $r=3\:\textrm{cm}$ into the formula, we obtain
+Substituting $r=3\:\text{cm}$ into the formula, we obtain
 
 $$
 
 
-V = \dfrac 4 3 \pi \cdot (3)^3 =36 \pi \:\textrm{cm}^3.
+V = \dfrac 4 3 \pi \cdot (3)^3 =36 \pi \:\text{cm}^3.
 
 
 $$
@@ -45,7 +45,7 @@ We often express the volume of a sphere as a multiple of $\pi.$ However, we can 
 $$
 
 
-V \approx 113.10 \:\textrm{cm}^3
+V \approx 113.10 \:\text{cm}^3
 
 
 $$
@@ -56,7 +56,7 @@ rounded to two decimal places.
 
 #### Question
 
-What is the volume of a sphere whose diameter is $18 \:\textrm{cm}?$
+What is the volume of a sphere whose diameter is $18 \:\text{cm}?$
 
 #### Explanation
 
@@ -72,12 +72,12 @@ $$
 
 where $r$ is the radius of the sphere.
 
-Substituting $r=\dfrac{18}{2}=9\:\textrm{cm}$ into the formula, we obtain
+Substituting $r=\dfrac{18}{2}=9\:\text{cm}$ into the formula, we obtain
 
 $$
 
 
-V = \dfrac 4 3 \pi \left(9\right)^3 = 972\pi \:\textrm{cm}^3.
+V = \dfrac 4 3 \pi \left(9\right)^3 = 972\pi \:\text{cm}^3.
 
 
 $$
@@ -86,7 +86,7 @@ $$
 
 #### Question
 
-What is the radius of a sphere whose volume is $36\pi\:\textrm{in}^3.$
+What is the radius of a sphere whose volume is $36\pi\:\text{in}^3.$
 
 ![Instructional graphic](../../../../lesson-assets/geometry/topic-1146/b48aeea2cc324c16.png)
 
@@ -104,7 +104,7 @@ $$
 
 where $r$ is the radius of the sphere.
 
-Substituting $V=36\pi\:\textrm{in}^3$ into the formula, we get
+Substituting $V=36\pi\:\text{in}^3$ into the formula, we get
 
 $$
 
@@ -119,7 +119,7 @@ Therefore,
 $$
 
 
-r = \sqrt[3]{27} = 3\:\textrm{in}.
+r = \sqrt[3]{27} = 3\:\text{in}.
 
 
 $$

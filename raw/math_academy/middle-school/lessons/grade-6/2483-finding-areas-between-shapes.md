@@ -160,7 +160,7 @@ $$
 
 
 
-\textrm{Total Area} = 24 \, \textrm{cm}^2.
+\text{Total Area} = 24 \, \text{cm}^2.
 
 
 
@@ -222,7 +222,7 @@ $$
 
 
 
-\textrm{Total Area} = 94 \, \textrm{m}^2.
+\text{Total Area} = 94 \, \text{m}^2.
 
 
 
@@ -312,7 +312,7 @@ $$
 
 
 
-\textrm{Total Area} = 72 \, \textrm{mm}^2.
+\text{Total Area} = 72 \, \text{mm}^2.
 
 
 

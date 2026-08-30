@@ -173,7 +173,7 @@ Finally, we convert $\dfrac{17}{6}$ to a mixed number.
 
 $$
 
-17 \div 6 = 2 \,\textrm{R} \,5 = 2 \, \dfrac{5}{6}
+17 \div 6 = 2 \,\text{R} \,5 = 2 \, \dfrac{5}{6}
 
 $$
 
@@ -215,7 +215,7 @@ To redistribute this total weight equally among each bag of fries, we divide the
 
 $$
 
-11 \div 5 = 2 \,\textrm{R} \, 1 = 2 \, \dfrac{1}{5}
+11 \div 5 = 2 \,\text{R} \, 1 = 2 \, \dfrac{1}{5}
 
 $$
 

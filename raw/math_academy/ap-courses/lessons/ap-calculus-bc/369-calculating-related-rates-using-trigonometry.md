@@ -48,7 +48,7 @@ $$
 
 $$
 
-We know that $\dfrac{\textrm d z}{\textrm d t} = 462\,\textrm{km/h},$ so plugging this into the above gives
+We know that $\dfrac{\textrm d z}{\textrm d t} = 462\,\text{km/h},$ so plugging this into the above gives
 
 $$
 
@@ -58,7 +58,7 @@ $$
 
 $$
 
-Therefore, the altitude is increasing at a rate of $231\,\textrm{km/h}.$
+Therefore, the altitude is increasing at a rate of $231\,\text{km/h}.$
 
 ### Example: Calculating the Rate of Change of a Leg or the Hypotenuse at a Fixed Angle
 
@@ -96,7 +96,7 @@ $$
 
 $$
 
-We know that $\dfrac{\textrm d z}{\textrm dt} = -5\,\textrm{ft/s}$ (negative because the distance between Maria and the kite is decreasing). Substituting this into the above gives
+We know that $\dfrac{\textrm d z}{\textrm dt} = -5\,\text{ft/s}$ (negative because the distance between Maria and the kite is decreasing). Substituting this into the above gives
 
 $$
 
@@ -106,7 +106,7 @@ $$
 
 $$
 
-Therefore, the speed of the shadow is $2.5\,\textrm{ft/s}.$
+Therefore, the speed of the shadow is $2.5\,\text{ft/s}.$
 
 ### Calculating Rates of Varying Angles Using Trigonometry
 
@@ -162,7 +162,7 @@ $$
 
 #### Question
 
-Yurii is flying a kite $K$ with a string of length $45\,\textrm{m}.$ The angle of elevation of the kite $\theta$ decreases at a rate of $\dfrac{\pi}{15}$ radians per second. At what rate is the altitude of the kite is decreasing at the moment when $\theta=\dfrac{\pi}{6}?$
+Yurii is flying a kite $K$ with a string of length $45\,\text{m}.$ The angle of elevation of the kite $\theta$ decreases at a rate of $\dfrac{\pi}{15}$ radians per second. At what rate is the altitude of the kite is decreasing at the moment when $\theta=\dfrac{\pi}{6}?$
 
 ![Instructional graphic](../../../lesson-assets/ap-calculus-bc/topic-369/c7a8fa1399535234.png)
 
@@ -197,7 +197,7 @@ From the given information, we have $\dfrac{\textrm d \theta}{\textrm d t} = -\d
 $$
 
 
-\begin{aligned}\frac{d𝑦}{d𝑡} & =(45cos⁡(\frac{𝜋}{6}))(−\frac{𝜋}{15}) \\ \frac{d𝑦}{d𝑡} & =45(\frac{\sqrt{√3}}{2})(−\frac{𝜋}{15}) \\ \frac{d𝑦}{d𝑡} & =−\frac{3𝜋\sqrt{√3}}{2}.\end{aligned}
+\begin{aligned}\frac{d𝑦}{d𝑡} & =(45cos⁡(\frac{𝜋}{6}))(−\frac{𝜋}{15}) \\ \frac{d𝑦}{d𝑡} & =45(\frac{\sqrt{3}}{2})(−\frac{𝜋}{15}) \\ \frac{d𝑦}{d𝑡} & =−\frac{3𝜋\sqrt{3}}{2}.\end{aligned}
 
 
 $$
@@ -208,7 +208,7 @@ Therefore, the rate that the kite is losing altitude is $\dfrac{3\pi\sqrt3}{2} \
 
 #### Question
 
-Peter is standing on the bank of a river. He observes a speed boat $B$ going downstream at a constant distance of $10\,\textrm{m}$ from the bank. If the boat moves at a constant speed of $8 \, \textrm{m/s}$ parallel to the bank, at what rate is the angle $\theta,$ between the observer's line of sight to the boat and the bank, decreasing when $\theta = \dfrac{\pi}6?$ Assume the angle of elevation is decreasing at a **** rate, and do not round the answer.
+Peter is standing on the bank of a river. He observes a speed boat $B$ going downstream at a constant distance of $10\,\text{m}$ from the bank. If the boat moves at a constant speed of $8 \, \text{m/s}$ parallel to the bank, at what rate is the angle $\theta,$ between the observer's line of sight to the boat and the bank, decreasing when $\theta = \dfrac{\pi}6?$ Assume the angle of elevation is decreasing at a **** rate, and do not round the answer.
 
 ![Instructional graphic](../../../lesson-assets/ap-calculus-bc/topic-369/121f789c49fabd6f.png)
 
@@ -218,7 +218,7 @@ Peter is standing on the bank of a river. He observes a speed boat $B$ going dow
 
 In the figure, $y$ is the distance between the boat and the bank and $x$ is the horizontal distance traveled by that boat after passing Peter. The quantity $y=10$ meters does not change with time because the boat is at a constant distance from the bank.
 
-We wish to calculate $\dfrac{\textrm{d}\theta}{\textrm{d}t}.$ To do this, let's start by setting up a relation between $x$ and $y.$ Relative to the angle $\theta,$ the sides $x$ and $y$ are the adjacent and opposite, respectively. So, we have
+We wish to calculate $\dfrac{\text{d}\theta}{\text{d}t}.$ To do this, let's start by setting up a relation between $x$ and $y.$ Relative to the angle $\theta,$ the sides $x$ and $y$ are the adjacent and opposite, respectively. So, we have
 
 $$
 

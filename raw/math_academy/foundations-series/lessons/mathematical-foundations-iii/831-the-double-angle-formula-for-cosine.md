@@ -167,7 +167,7 @@ Substituting $x={22.5^\circ}$ into the above, we get
 $$
 
 
-\begin{aligned}cos^{2}⁡(22.5^{∘})−sin^{2}⁡(22.5^{∘}) & =cos⁡(2⋅22.5^{∘}) \\ & =cos⁡45^{∘} \\ & =\frac{\sqrt{√2}}{2}.\end{aligned}
+\begin{aligned}cos^{2}⁡(22.5^{∘})−sin^{2}⁡(22.5^{∘}) & =cos⁡(2⋅22.5^{∘}) \\ & =cos⁡45^{∘} \\ & =\frac{\sqrt{2}}{2}.\end{aligned}
 
 
 $$

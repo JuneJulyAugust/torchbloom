@@ -29,7 +29,7 @@ Complex matrices work mostly the same as real matrices (we can add them, multipl
 
 - We take the complex conjugate of a matrix by taking the complex conjugate of each component:
 
-- Complex matrices also have a real part and an imaginary part. That means we can write any matrix in the form $A={\color{blue}B}+\textrm{i}\,{\color{red}C},$ where ${\color{blue}B} = {\color{blue}\textrm{Re}(A)}$ and ${\color{red}C} = {\color{red}\textrm{Im}(A)}.$ The real part of the matrix contains the real part of each entry, and the imaginary part of the matrix contains the imaginary part of each entry:
+- Complex matrices also have a real part and an imaginary part. That means we can write any matrix in the form $A={\color{blue}B}+\text{i}\,{\color{red}C},$ where ${\color{blue}B} = {\color{blue}\text{Re}(A)}$ and ${\color{red}C} = {\color{red}\text{Im}(A)}.$ The real part of the matrix contains the real part of each entry, and the imaginary part of the matrix contains the imaginary part of each entry:
 
 ### Example: Calculating the Complex Conjugate of a Complex Matrix
 
@@ -44,12 +44,12 @@ Taking the complex conjugate of each entry, we get
 $$
 
 
-\begin{aligned}\overset{𝐴}{} & =\overset\begin{aligned}4i & 3−i & 1+i \\ 2−2i & 2−i & 1+2i \\ i & 3i & 2i\end{aligned}}{} \\ & =\begin{aligned}\overset{4i}{} & \overset{3−i}{} & \overset{1+i}{} \\ \overset{2−2i}{} & \overset{2−i}{} & \overset{1+2i}{} \\ \overset{i}{–} & \overset{3i}{} & \overset{2i}{}\end{aligned} \\ & =\begin{aligned}−4i & 3+i & 1−i \\ 2+2i & 2+i & 1−2i \\ −i & −3i & −2i\end{aligned}.\end{aligned}
+\begin{aligned}\overset{𝐴}{} & =\overset{\begin{matrix}4i & 3−i & 1+i \\ 2−2i & 2−i & 1+2i \\ i & 3i & 2i\end{matrix}}{} \\ & =\begin{matrix}\overset{4i}{} & \overset{3−i}{} & \overset{1+i}{} \\ \overset{2−2i}{} & \overset{2−i}{} & \overset{1+2i}{} \\ \overset{i}{–} & \overset{3i}{} & \overset{2i}{}\end{matrix} \\ & =\begin{matrix}−4i & 3+i & 1−i \\ 2+2i & 2+i & 1−2i \\ −i & −3i & −2i\end{matrix}.\end{aligned}
 
 
 $$
 
-Therefore, $b_{11} + b_{23} = (-4\textrm{i}) + (1-2\textrm{i}) = 1-6\textrm{i}.$
+Therefore, $b_{11} + b_{23} = (-4\text{i}) + (1-2\text{i}) = 1-6\text{i}.$
 
 ### Example: Computing Components of the Real and Imaginary Parts of a Complex Matrix
 
@@ -64,7 +64,7 @@ For the given matrix $A,$ we have that
 $$
 
 
-\begin{aligned}𝐴 & =[\begin{aligned}2−3i & −5−7i \\ 1−6i & 5−9i\end{aligned}] \\ & =\underset{Re(𝐴)}{\underset{}{[\begin{aligned}2 & −5 \\ 1 & 5\end{aligned}]}}+i\underset{Im(𝐴)}{\underset{}{[\begin{aligned}−3 & −7 \\ −6 & −9\end{aligned}]}}.\end{aligned}
+\begin{aligned}𝐴 & =[\begin{matrix}2−3i & −5−7i \\ 1−6i & 5−9i\end{matrix}] \\ & =\underset{Re(𝐴)}{\underset{}{[\begin{matrix}2 & −5 \\ 1 & 5\end{matrix}]}}+i\underset{Im(𝐴)}{\underset{}{[\begin{matrix}−3 & −7 \\ −6 & −9\end{matrix}]}}.\end{aligned}
 
 
 $$
@@ -92,7 +92,7 @@ Multiplying the matrices using the usual method, we get
 $$
 
 
-\begin{aligned}𝐴𝐵 & =[\begin{aligned}−i & i \\ 1 & 2i\end{aligned}]⋅[\begin{aligned}1+2i & 1−i \\ i & 2\end{aligned}] \\ & =[\begin{aligned}(−i)⋅(1+2i)+i⋅i & (−i)⋅(1−i)+i⋅2 \\ 1⋅(1+2i)+2i⋅i & 1⋅(1−i)+2i⋅2\end{aligned}] \\ & =[\begin{aligned}(2−i)+(−1) & (−1−i)+2i \\ (1+2i)+(−2) & (1−i)+4i\end{aligned}] \\ & =[\begin{aligned}1−i & −1+i \\ −1+2i & 1+3i\end{aligned}].\end{aligned}
+\begin{aligned}𝐴𝐵 & =[\begin{matrix}−i & i \\ 1 & 2i\end{matrix}]⋅[\begin{matrix}1+2i & 1−i \\ i & 2\end{matrix}] \\ & =[\begin{matrix}(−i)⋅(1+2i)+i⋅i & (−i)⋅(1−i)+i⋅2 \\ 1⋅(1+2i)+2i⋅i & 1⋅(1−i)+2i⋅2\end{matrix}] \\ & =[\begin{matrix}(2−i)+(−1) & (−1−i)+2i \\ (1+2i)+(−2) & (1−i)+4i\end{matrix}] \\ & =[\begin{matrix}1−i & −1+i \\ −1+2i & 1+3i\end{matrix}].\end{aligned}
 
 
 $$
@@ -106,7 +106,7 @@ Given the matrix $[\begin{aligned}i & −i \\ 2+2i & 1\end{aligned}]$ find the r
 $$
 
 
-R_1 := \dfrac{1}{\textrm{i}}R_1, \qquad R_2 := R_2 - 2\textrm{i}R_1
+R_1 := \dfrac{1}{\text{i}}R_1, \qquad R_2 := R_2 - 2\text{i}R_1
 
 
 $$
@@ -118,7 +118,7 @@ Let's apply the row operations to $A\mathbin{:}$
 $$
 
 
-\begin{aligned}𝐴 & =[\begin{aligned}i & −i \\ 2+2i & 1\end{aligned}]\, & & 𝑅_{1}:=\frac{1}{i}𝑅_{1} \\ & ∼[\begin{aligned}1 & −1 \\ 2+2i & 1\end{aligned}]\, & & 𝑅_{2}:=𝑅_{2}−2i𝑅_{1} \\ & ∼[\begin{aligned}1 & −1 \\ 2 & 1+2i\end{aligned}] & & \end{aligned}
+\begin{aligned}𝐴 & =[\begin{matrix}i & −i \\ 2+2i & 1\end{matrix}]\, & & 𝑅_{1}:=\frac{1}{i}𝑅_{1} \\ & ∼[\begin{matrix}1 & −1 \\ 2+2i & 1\end{matrix}]\, & & 𝑅_{2}:=𝑅_{2}−2i𝑅_{1} \\ & ∼[\begin{matrix}1 & −1 \\ 2 & 1+2i\end{matrix}] & & \end{aligned}
 
 
 $$

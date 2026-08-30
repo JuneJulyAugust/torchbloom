@@ -94,7 +94,7 @@ Computing the characteristic equation of $A,$ we obtain
 $$
 
 
-\begin{aligned}|𝐴−𝜆𝐼| & =0 \\ \begin{aligned}−5−𝜆 & −1 \\ −1 & −5−𝜆\end{aligned} & =0 \\ (−5−𝜆)(−5−𝜆)−1 & =0 \\ 𝜆^{2}+10𝜆+24 & =0 \\ (𝜆+4)(𝜆+6) & =0 \\ 𝜆 & =−4,\,−6.\end{aligned}
+\begin{aligned}|𝐴−𝜆𝐼| & =0 \\ \begin{matrix}−5−𝜆 & −1 \\ −1 & −5−𝜆\end{matrix} & =0 \\ (−5−𝜆)(−5−𝜆)−1 & =0 \\ 𝜆^{2}+10𝜆+24 & =0 \\ (𝜆+4)(𝜆+6) & =0 \\ 𝜆 & =−4,\,−6.\end{aligned}
 
 
 $$

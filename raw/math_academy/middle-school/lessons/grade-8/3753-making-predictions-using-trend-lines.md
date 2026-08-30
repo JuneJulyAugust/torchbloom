@@ -83,7 +83,7 @@ $$
 
 $$
 
-Therefore, our model predicts that a typical $3$-year-old patient weighs approximately $14\,\textrm{kg}.$
+Therefore, our model predicts that a typical $3$-year-old patient weighs approximately $14\,\text{kg}.$
 
 Note the following:
 
@@ -105,7 +105,7 @@ $$
 
 $$
 
-Therefore, our model predicts that a typical $7$-year-old child weighs approximately $22 \, \textrm{kg}.$
+Therefore, our model predicts that a typical $7$-year-old child weighs approximately $22 \, \text{kg}.$
 
 **Warning:** The point where $x=7$ is not shown on our trend line. Therefore, the result $y=22$ *may be unreliable* since we don't know whether values of $x$ close to $7$ follow the same linear trend. The diagram below shows some trends the data *might* follow beyond our initial data range.
 

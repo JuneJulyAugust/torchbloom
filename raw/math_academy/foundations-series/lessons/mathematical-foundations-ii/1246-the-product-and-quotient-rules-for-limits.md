@@ -13,7 +13,7 @@ Topic ID: 1246
 
 The **product rule** states that the limit of the product of two functions equals the product of the limits.
 
-More precisely, if $\lim_\limits{x\rightarrow \, a}f(x)=L$ and $\lim_\limits{x\rightarrow \, a}g(x)=K,$ then
+More precisely, if $\lim\limits_{x\rightarrow \, a}f(x)=L$ and $\lim\limits_{x\rightarrow \, a}g(x)=K,$ then
 
 $$
 
@@ -28,7 +28,7 @@ For example, we can evaluate
 $$
 
 
-\lim_\limits{x \rightarrow \,2} \left[ (x^2 +2x +3)(x^3-2x-1) \right]
+\lim\limits_{x \rightarrow \,2} \left[ (x^2 +2x +3)(x^3-2x-1) \right]
 
 
 $$
@@ -47,7 +47,7 @@ $$
 
 #### Question
 
-Find $\lim_\limits{x\rightarrow -2}(x^2-3x)(x+1)^{3}.$
+Find $\lim\limits_{x\rightarrow -2}(x^2-3x)(x+1)^{3}.$
 
 #### Explanation
 
@@ -65,13 +65,13 @@ $$
 
 #### Question
 
-Find $\lim_\limits{x\rightarrow 2}\left(\dfrac{x^3 f(x)}{4}\right)$ for the function $f(x)$ plotted below.
+Find $\lim\limits_{x\rightarrow 2}\left(\dfrac{x^3 f(x)}{4}\right)$ for the function $f(x)$ plotted below.
 
 ![Instructional graphic](../../../lesson-assets/mathematical-foundations-ii/topic-1246/1fe56f8c58a5ca67.png)
 
 #### Explanation
 
-From the graph, we get that $\lim_\limits{x\rightarrow 2} f(x)=4.$ So, applying the product rule, we have
+From the graph, we get that $\lim\limits_{x\rightarrow 2} f(x)=4.$ So, applying the product rule, we have
 
 $$
 
@@ -85,12 +85,12 @@ $$
 
 The **quotient rule** states that the limit of the quotient of two functions equals the quotient of the limits (provided that the limit of the denominator is not zero).
 
-More precisely, if $\lim_\limits{x\rightarrow a}f(x)=L$ and $\lim_\limits{x\rightarrow a}g(x)= K \neq 0$, then
+More precisely, if $\lim\limits_{x\rightarrow a}f(x)=L$ and $\lim\limits_{x\rightarrow a}g(x)= K \neq 0$, then
 
 $$
 
 
-\lim_\limits{x\rightarrow a} \dfrac{f(x)}{g(x)} = \dfrac{\lim_\limits{x\rightarrow a}f(x)}{\lim_\limits{x\rightarrow a}g(x)}=\dfrac{L}{K}.
+\lim\limits_{x\rightarrow a} \dfrac{f(x)}{g(x)} = \dfrac{\lim\limits_{x\rightarrow a}f(x)}{\lim\limits_{x\rightarrow a}g(x)}=\dfrac{L}{K}.
 
 
 $$
@@ -100,7 +100,7 @@ For example, we can evaluate
 $$
 
 
-\lim_\limits{x \rightarrow \,2} \dfrac{x^2+4x}{x+1}
+\lim\limits_{x \rightarrow \,2} \dfrac{x^2+4x}{x+1}
 
 
 $$
@@ -119,7 +119,7 @@ $$
 
 #### Question
 
-Calculate $\lim_\limits{x\rightarrow 2} x^{-5}.$
+Calculate $\lim\limits_{x\rightarrow 2} x^{-5}.$
 
 #### Explanation
 
@@ -128,7 +128,7 @@ First, we will express the negative exponent as a quotient:
 $$
 
 
-\lim_\limits{x\rightarrow 2} x^{-5}= \lim_\limits{x\rightarrow 2} \dfrac{1}{x^5}
+\lim\limits_{x\rightarrow 2} x^{-5}= \lim\limits_{x\rightarrow 2} \dfrac{1}{x^5}
 
 
 $$
@@ -147,7 +147,7 @@ $$
 
 #### Question
 
-Find $\lim_\limits{x\rightarrow 2} \dfrac{xf(x)+x^2}{2+f(x)}$ for the function $f(x)$ plotted below.
+Find $\lim\limits_{x\rightarrow 2} \dfrac{xf(x)+x^2}{2+f(x)}$ for the function $f(x)$ plotted below.
 
 ![Instructional graphic](../../../lesson-assets/mathematical-foundations-ii/topic-1246/dbc8a3733f19e73e.png)
 
@@ -163,7 +163,7 @@ $$
 
 $$
 
-We find from the graph that $\lim_\limits{x\rightarrow 2} f(x)=3.$ Calculating the limits of the numerator and denominator separately, we have
+We find from the graph that $\lim\limits_{x\rightarrow 2} f(x)=3.$ Calculating the limits of the numerator and denominator separately, we have
 
 $$
 

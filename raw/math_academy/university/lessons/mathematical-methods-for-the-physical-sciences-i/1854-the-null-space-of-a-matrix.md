@@ -13,7 +13,7 @@ Topic ID: 1854
 
 ### Introduction
 
-The **null space** of a matrix $A$ is the set of all the solutions of the equation $A\mathbf{x}= \mathbf{0},$ and is denoted by $\textrm{Null}(A).$
+The **null space** of a matrix $A$ is the set of all the solutions of the equation $A\mathbf{x}= \mathbf{0},$ and is denoted by $\text{Null}(A).$
 
 To illustrate, let's consider the following matrix:
 
@@ -39,7 +39,7 @@ $$
 
 #### Question
 
-The matrix $A$ and vectors $\mathbf{b}_1$, $\mathbf{b}_2$, $\mathbf{b}_3$ are given below. Which of the vectors lie in $\textrm{Null}(A)?$
+The matrix $A$ and vectors $\mathbf{b}_1$, $\mathbf{b}_2$, $\mathbf{b}_3$ are given below. Which of the vectors lie in $\text{Null}(A)?$
 
 $$
 
@@ -51,32 +51,32 @@ $$
 
 #### Explanation
 
-A vector $\mathbf{b}$ lies in $\textrm{Null}(A)$ if $A\mathbf{b}=\mathbf{0}.$ So, we need to compute the product of $A$ and each of the given vectors and check whether it is equal to $\mathbf{0}\mathbin{:}$
+A vector $\mathbf{b}$ lies in $\text{Null}(A)$ if $A\mathbf{b}=\mathbf{0}.$ So, we need to compute the product of $A$ and each of the given vectors and check whether it is equal to $\mathbf{0}\mathbin{:}$
 
 $$
 
 
-\begin{aligned}𝐴𝐛_{1} & =\begin{aligned}3 & −6 \\ −5 & 10 \\ −8 & 16\end{aligned}[\begin{aligned}3 \\ 6\end{aligned}]=\begin{aligned}−27 \\ 45 \\ 72\end{aligned}≠𝟎\,× \\ 𝐴𝐛_{2} & =\begin{aligned}3 & −6 \\ −5 & 10 \\ −8 & 16\end{aligned}[\begin{aligned}6 \\ 3\end{aligned}]=\begin{aligned}0 \\ 0 \\ 0\end{aligned}=𝟎\,✓ \\ 𝐴𝐛_{3} & =\begin{aligned}3 & −6 \\ −5 & 10 \\ −8 & 16\end{aligned}[\begin{aligned}1 \\ 3\end{aligned}]=\begin{aligned}−15 \\ 25 \\ 40\end{aligned}≠𝟎\,×\end{aligned}
+\begin{aligned}𝐴𝐛_{1} & =\begin{matrix}3 & −6 \\ −5 & 10 \\ −8 & 16\end{matrix}[\begin{matrix}3 \\ 6\end{matrix}]=\begin{matrix}−27 \\ 45 \\ 72\end{matrix}≠𝟎\,× \\ 𝐴𝐛_{2} & =\begin{matrix}3 & −6 \\ −5 & 10 \\ −8 & 16\end{matrix}[\begin{matrix}6 \\ 3\end{matrix}]=\begin{matrix}0 \\ 0 \\ 0\end{matrix}=𝟎\,✓ \\ 𝐴𝐛_{3} & =\begin{matrix}3 & −6 \\ −5 & 10 \\ −8 & 16\end{matrix}[\begin{matrix}1 \\ 3\end{matrix}]=\begin{matrix}−15 \\ 25 \\ 40\end{matrix}≠𝟎\,×\end{aligned}
 
 
 $$
 
-Therefore, only $\mathbf{b}_2$ lies in $\textrm{Null}(A).$
+Therefore, only $\mathbf{b}_2$ lies in $\text{Null}(A).$
 
 ### Example: Solve a Variable in a Vector Lying in the Null Space of a Given Matrix
 
 #### Question
 
-Consider the matrix $\begin{aligned}3 & 2 & −4 \\ −3 & 3 & −1 \\ 6 & −6 & 2\end{aligned}$ and the vector $\begin{aligned}2 \\ 𝑘 \\ 3\end{aligned}$ Find the value of $k$ such that $\mathbf{b}\in\textrm{Null}(A).$
+Consider the matrix $\begin{aligned}3 & 2 & −4 \\ −3 & 3 & −1 \\ 6 & −6 & 2\end{aligned}$ and the vector $\begin{aligned}2 \\ 𝑘 \\ 3\end{aligned}$ Find the value of $k$ such that $\mathbf{b}\in\text{Null}(A).$
 
 #### Explanation
 
-If $\mathbf{b} \in \textrm{Null}(A),$ then we must have $A\mathbf{b} = \mathbf{0}.$ Substituting the given information, we get
+If $\mathbf{b} \in \text{Null}(A),$ then we must have $A\mathbf{b} = \mathbf{0}.$ Substituting the given information, we get
 
 $$
 
 
-\begin{aligned}𝐴𝐛 & =𝟎 \\ \begin{aligned}3 & 2 & −4 \\ −3 & 3 & −1 \\ 6 & −6 & 2\end{aligned}\begin{aligned}2 \\ 𝑘 \\ 3\end{aligned} & =\begin{aligned}0 \\ 0 \\ 0\end{aligned} \\ \begin{aligned}6+2𝑘−12 \\ −6+3𝑘−3 \\ 12−6𝑘+6\end{aligned} & =\begin{aligned}0 \\ 0 \\ 0\end{aligned}.\end{aligned}
+\begin{aligned}𝐴𝐛 & =𝟎 \\ \begin{matrix}3 & 2 & −4 \\ −3 & 3 & −1 \\ 6 & −6 & 2\end{matrix}\begin{matrix}2 \\ 𝑘 \\ 3\end{matrix} & =\begin{matrix}0 \\ 0 \\ 0\end{matrix} \\ \begin{matrix}6+2𝑘−12 \\ −6+3𝑘−3 \\ 12−6𝑘+6\end{matrix} & =\begin{matrix}0 \\ 0 \\ 0\end{matrix}.\end{aligned}
 
 
 $$
@@ -110,7 +110,7 @@ To find an expression for the null space using set-builder notation, we need to 
 $$
 
 
-\begin{aligned}[𝐴\,|\,𝟎] & =[\begin{aligned}2 & 6 & 0 \\ 1 & 3 & 0\end{aligned}] & 𝑅_{1} & :=\frac{1}{2}𝑅_{1} \\ & ∼[\begin{aligned}1 & 3 & 0 \\ 1 & 3 & 0\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+(−1)𝑅_{1} \\ & ∼[\begin{aligned}1 & 3 & 0 \\ 0 & 0 & 0\end{aligned}] & & \end{aligned}
+\begin{aligned}[𝐴\,|\,𝟎] & =[\begin{matrix}2 & 6 & 0 \\ 1 & 3 & 0\end{matrix}] & 𝑅_{1} & :=\frac{1}{2}𝑅_{1} \\ & ∼[\begin{matrix}1 & 3 & 0 \\ 1 & 3 & 0\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+(−1)𝑅_{1} \\ & ∼[\begin{matrix}1 & 3 & 0 \\ 0 & 0 & 0\end{matrix}] & & \end{aligned}
 
 
 $$
@@ -145,7 +145,7 @@ $$
 
 #### Question
 
-Consider the matrix $[\begin{aligned}4 & −12 \\ 3 & −8\end{aligned}]$ Find $\textrm{Null}(A).$
+Consider the matrix $[\begin{aligned}4 & −12 \\ 3 & −8\end{aligned}]$ Find $\text{Null}(A).$
 
 #### Explanation
 
@@ -154,7 +154,7 @@ We need to solve the equation $A\mathbf{x}=\mathbf{0}.$ First, we find the row e
 $$
 
 
-\begin{aligned}𝐴 & =[\begin{aligned}4 & −12 \\ 3 & −8\end{aligned}] & 𝑅_{1} & :=\frac{1}{4}𝑅_{1} \\ & ∼[\begin{aligned}1 & −3 \\ 3 & −8\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+(−3)𝑅_{1} \\ & ∼[\begin{aligned}1 & −3 \\ 0 & 1\end{aligned}] & & \end{aligned}
+\begin{aligned}𝐴 & =[\begin{matrix}4 & −12 \\ 3 & −8\end{matrix}] & 𝑅_{1} & :=\frac{1}{4}𝑅_{1} \\ & ∼[\begin{matrix}1 & −3 \\ 3 & −8\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+(−3)𝑅_{1} \\ & ∼[\begin{matrix}1 & −3 \\ 0 & 1\end{matrix}] & & \end{aligned}
 
 
 $$
@@ -181,4 +181,4 @@ $$
 
 So, we conclude that $[\begin{aligned}0 \\ 0\end{aligned}]$ is the only solution to this system.
 
-Therefore, $\textrm{Null}(A) = \left\{\mathbf{0} \right\}.$
+Therefore, $\text{Null}(A) = \left\{\mathbf{0} \right\}.$

@@ -32,7 +32,7 @@ $$
 
 
 
-\begin{aligned}𝐢^{′} & =𝐑(𝐢)=[\begin{aligned}−1 & 0 \\ 0 & −1\end{aligned}][\begin{aligned}1 \\ 0\end{aligned}]=[\begin{aligned}−1 \\ 0\end{aligned}]=−𝐢 \\ 𝐣^{′} & =𝐑(𝐣)=[\begin{aligned}−1 & 0 \\ 0 & −1\end{aligned}][\begin{aligned}0 \\ 1\end{aligned}]=[\begin{aligned}0 \\ −1\end{aligned}]=−𝐣\end{aligned}
+\begin{aligned}𝐢^{′} & =𝐑(𝐢)=[\begin{matrix}−1 & 0 \\ 0 & −1\end{matrix}][\begin{matrix}1 \\ 0\end{matrix}]=[\begin{matrix}−1 \\ 0\end{matrix}]=−𝐢 \\ 𝐣^{′} & =𝐑(𝐣)=[\begin{matrix}−1 & 0 \\ 0 & −1\end{matrix}][\begin{matrix}0 \\ 1\end{matrix}]=[\begin{matrix}0 \\ −1\end{matrix}]=−𝐣\end{aligned}
 
 
 
@@ -78,7 +78,7 @@ $$
 
 
 
-\begin{aligned}𝑋 & =[\begin{aligned}2 & −3 & 4 \\ −1 & 5 & −3\end{aligned}]\end{aligned}
+\begin{aligned}𝑋 & =[\begin{matrix}2 & −3 & 4 \\ −1 & 5 & −3\end{matrix}]\end{aligned}
 
 
 
@@ -90,7 +90,7 @@ $$
 
 
 
-\begin{aligned}𝑅𝑋 & =[\begin{aligned}−1 & 0 \\ 0 & −1\end{aligned}][\begin{aligned}2 & −3 & 4 \\ −1 & 5 & −3\end{aligned}] \\ & =[\begin{aligned}−2 & 3 & −4 \\ 1 & −5 & 3\end{aligned}]\end{aligned}
+\begin{aligned}𝑅𝑋 & =[\begin{matrix}−1 & 0 \\ 0 & −1\end{matrix}][\begin{matrix}2 & −3 & 4 \\ −1 & 5 & −3\end{matrix}] \\ & =[\begin{matrix}−2 & 3 & −4 \\ 1 & −5 & 3\end{matrix}]\end{aligned}
 
 
 
@@ -122,7 +122,7 @@ $$
 
 
 
-\begin{aligned}𝐢^{′} & =𝐑(𝐢)=[\begin{aligned}0 & −1 \\ 1 & 0\end{aligned}][\begin{aligned}1 \\ 0\end{aligned}]=[\begin{aligned}0 \\ 1\end{aligned}]=𝐣 \\ 𝐣^{′} & =𝐑(𝐣)=[\begin{aligned}0 & −1 \\ 1 & 0\end{aligned}][\begin{aligned}0 \\ 1\end{aligned}]=[\begin{aligned}−1 \\ 0\end{aligned}]=−𝐢\end{aligned}
+\begin{aligned}𝐢^{′} & =𝐑(𝐢)=[\begin{matrix}0 & −1 \\ 1 & 0\end{matrix}][\begin{matrix}1 \\ 0\end{matrix}]=[\begin{matrix}0 \\ 1\end{matrix}]=𝐣 \\ 𝐣^{′} & =𝐑(𝐣)=[\begin{matrix}0 & −1 \\ 1 & 0\end{matrix}][\begin{matrix}0 \\ 1\end{matrix}]=[\begin{matrix}−1 \\ 0\end{matrix}]=−𝐢\end{aligned}
 
 
 
@@ -156,7 +156,7 @@ $$
 
 
 
-\begin{aligned}𝐢^{′} & =𝐑(𝐢)=[\begin{aligned}0 & 1 \\ −1 & 0\end{aligned}][\begin{aligned}1 \\ 0\end{aligned}]=[\begin{aligned}0 \\ −1\end{aligned}]=−𝐣 \\ 𝐣^{′} & =𝐑(𝐣)=[\begin{aligned}0 & 1 \\ −1 & 0\end{aligned}][\begin{aligned}0 \\ 1\end{aligned}]=[\begin{aligned}1 \\ 0\end{aligned}]=𝐢\end{aligned}
+\begin{aligned}𝐢^{′} & =𝐑(𝐢)=[\begin{matrix}0 & 1 \\ −1 & 0\end{matrix}][\begin{matrix}1 \\ 0\end{matrix}]=[\begin{matrix}0 \\ −1\end{matrix}]=−𝐣 \\ 𝐣^{′} & =𝐑(𝐣)=[\begin{matrix}0 & 1 \\ −1 & 0\end{matrix}][\begin{matrix}0 \\ 1\end{matrix}]=[\begin{matrix}1 \\ 0\end{matrix}]=𝐢\end{aligned}
 
 
 
@@ -196,7 +196,7 @@ $$
 
 
 
-\begin{aligned}𝐢^{′} & =𝐴𝐢=[\begin{aligned}0 & −1 \\ 1 & 0\end{aligned}][\begin{aligned}1 \\ 0\end{aligned}]=[\begin{aligned}0 \\ 1\end{aligned}]=𝐣 \\ 𝐣^{′} & =𝐴𝐣=[\begin{aligned}0 & −1 \\ 1 & 0\end{aligned}][\begin{aligned}0 \\ 1\end{aligned}]=[\begin{aligned}−1 \\ 0\end{aligned}]=−𝐢\end{aligned}
+\begin{aligned}𝐢^{′} & =𝐴𝐢=[\begin{matrix}0 & −1 \\ 1 & 0\end{matrix}][\begin{matrix}1 \\ 0\end{matrix}]=[\begin{matrix}0 \\ 1\end{matrix}]=𝐣 \\ 𝐣^{′} & =𝐴𝐣=[\begin{matrix}0 & −1 \\ 1 & 0\end{matrix}][\begin{matrix}0 \\ 1\end{matrix}]=[\begin{matrix}−1 \\ 0\end{matrix}]=−𝐢\end{aligned}
 
 
 
@@ -244,7 +244,7 @@ $$
 
 
 
-\begin{aligned}𝑋 & =[\begin{aligned}−5 & 1 & 3 \\ −1 & 4 & −5\end{aligned}]\end{aligned}
+\begin{aligned}𝑋 & =[\begin{matrix}−5 & 1 & 3 \\ −1 & 4 & −5\end{matrix}]\end{aligned}
 
 
 
@@ -256,7 +256,7 @@ $$
 
 
 
-\begin{aligned}𝑅𝑋 & =[\begin{aligned}0 & 1 \\ −1 & 0\end{aligned}][\begin{aligned}−5 & 1 & 3 \\ −1 & 4 & −5\end{aligned}] \\ & =[\begin{aligned}−1 & 4 & −5 \\ 5 & −1 & −3\end{aligned}]\end{aligned}
+\begin{aligned}𝑅𝑋 & =[\begin{matrix}0 & 1 \\ −1 & 0\end{matrix}][\begin{matrix}−5 & 1 & 3 \\ −1 & 4 & −5\end{matrix}] \\ & =[\begin{matrix}−1 & 4 & −5 \\ 5 & −1 & −3\end{matrix}]\end{aligned}
 
 
 

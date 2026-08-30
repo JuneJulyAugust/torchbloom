@@ -33,7 +33,7 @@ $$
 
 
 
-\begin{aligned}𝑎_{𝑥} & =𝑂𝑋 \\ & =𝑂𝐴cos⁡𝜃 \\ & =|𝐚|cos⁡𝜃 \\ & =4⋅cos⁡30^{∘} \\ & =4⋅\frac{\sqrt{√3}}{2} \\ & =2\sqrt{√3}\end{aligned}
+\begin{aligned}𝑎_{𝑥} & =𝑂𝑋 \\ & =𝑂𝐴cos⁡𝜃 \\ & =|𝐚|cos⁡𝜃 \\ & =4⋅cos⁡30^{∘} \\ & =4⋅\frac{\sqrt{3}}{2} \\ & =2\sqrt{3}\end{aligned}
 
 
 
@@ -57,7 +57,7 @@ $$
 
 
 
-\begin{aligned}𝐚 & =𝑎_{𝑥}𝐢+𝑎_{𝑦}𝐣 \\ & =2\sqrt{√3}𝐢+2𝐣.\end{aligned}
+\begin{aligned}𝐚 & =𝑎_{𝑥}𝐢+𝑎_{𝑦}𝐣 \\ & =2\sqrt{3}𝐢+2𝐣.\end{aligned}
 
 
 
@@ -183,7 +183,7 @@ $$
 
 
 
-\begin{aligned}𝑎_{𝑥} & =|𝐚|cos⁡𝜃 \\ & =60cos⁡(\frac{5𝜋}{6}) \\ & =60⋅(−\frac{\sqrt{√3}}{2}) \\ & =−30\sqrt{√3} \\ 𝑎_{𝑦} & =|𝐚|sin⁡𝜃 \\ & =60sin⁡(\frac{5𝜋}{6}) \\ & =60⋅\frac{1}{2} \\ & =30\end{aligned}
+\begin{aligned}𝑎_{𝑥} & =|𝐚|cos⁡𝜃 \\ & =60cos⁡(\frac{5𝜋}{6}) \\ & =60⋅(−\frac{\sqrt{3}}{2}) \\ & =−30\sqrt{3} \\ 𝑎_{𝑦} & =|𝐚|sin⁡𝜃 \\ & =60sin⁡(\frac{5𝜋}{6}) \\ & =60⋅\frac{1}{2} \\ & =30\end{aligned}
 
 
 
@@ -195,7 +195,7 @@ $$
 
 
 
-[\begin{aligned}−30\sqrt{√3} \\ 30\end{aligned}]
+[\begin{aligned}−30\sqrt{3} \\ 30\end{aligned}]
 
 
 

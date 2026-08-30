@@ -23,16 +23,16 @@ Y = (X+1)^3.
 
 $$
 
-Computing $\textrm{E}[Y]$ is quite a lot of work if we use only the methods we've seen up to now. Typically, we would need to find the probability mass function $f_Y$ of $Y,$ and then compute $\textrm{E}[Y].$
+Computing $\text{E}[Y]$ is quite a lot of work if we use only the methods we've seen up to now. Typically, we would need to find the probability mass function $f_Y$ of $Y,$ and then compute $\text{E}[Y].$
 
-Thankfully, there is a handy rule, called **the rule of the lazy statistician,** that allows us to compute $\textrm{E}[Y]$ *without* having to find $f_Y$ first! This is useful because $\textrm{E}[Y]$ might be the only quantity we're interested in.
+Thankfully, there is a handy rule, called **the rule of the lazy statistician,** that allows us to compute $\text{E}[Y]$ *without* having to find $f_Y$ first! This is useful because $\text{E}[Y]$ might be the only quantity we're interested in.
 
 The rule of the lazy statistician states that if $Y = r(X),$ then
 
 $$
 
 
-\textrm{E}[Y] = \sum_{x \in S_X}r(x) \, f_X(x).
+\text{E}[Y] = \sum_{x \in S_X}r(x) \, f_X(x).
 
 
 $$
@@ -47,7 +47,7 @@ $$
 
 $$
 
-Therefore, we conclude that $\textrm{E}[Y] = 2.5.$
+Therefore, we conclude that $\text{E}[Y] = 2.5.$
 
 ### Some Comments
 
@@ -56,7 +56,7 @@ The rule of the lazy statistician states that if $Y = r(X),$ then
 $$
 
 
-\textrm{E}[Y] = \sum_{x \in S_X}r(x) \, f_X(x).
+\text{E}[Y] = \sum_{x \in S_X}r(x) \, f_X(x).
 
 
 $$
@@ -79,7 +79,7 @@ Let's take a look at another example.
 
 #### Question
 
-A discrete random variable $X$ has the probability mass function $f(x)$ shown in the table below. Find $\textrm{E}\big[5e^{1-X}\big].$
+A discrete random variable $X$ has the probability mass function $f(x)$ shown in the table below. Find $\text{E}\big[5e^{1-X}\big].$
 
 #### Explanation
 
@@ -88,7 +88,7 @@ For a discrete random variable $X$ and a function $r(x),$ the rule of the lazy s
 $$
 
 
-\textrm{E}[r(X)] = \sum_{x \in S} r(x) f(x).
+\text{E}[r(X)] = \sum_{x \in S} r(x) f(x).
 
 
 $$
@@ -120,7 +120,7 @@ Let $X$ be a continuous random variable with the probability density function $f
 $$
 
 
-\textrm E[Y]=\textrm E[r(X)]=\int^{\infty}_{-\infty} r(x)f(x) \: \textrm{d}x.
+\textrm E[Y]=\textrm E[r(X)]=\int^{\infty}_{-\infty} r(x)f(x) \: \text{d}x.
 
 
 $$
@@ -131,7 +131,7 @@ Notice the analogy with the discrete case.
 
 #### Question
 
-Find $\textrm{E}\big[X^2-3X+3\big],$ given that the continuous random variable $X$ has the probability density function
+Find $\text{E}\big[X^2-3X+3\big],$ given that the continuous random variable $X$ has the probability density function
 
 $$
 
@@ -148,7 +148,7 @@ For a continuous random variable $X$ and a function $r(x),$ the rule of the lazy
 $$
 
 
-\textrm{E}[r(X)] = \int^{\infty}_{-\infty} r(x)f(x) \: \textrm{d}x.
+\text{E}[r(X)] = \int^{\infty}_{-\infty} r(x)f(x) \: \text{d}x.
 
 
 $$
@@ -168,7 +168,7 @@ Therefore, we obtain
 $$
 
 
-\begin{aligned}E[𝑋^{2}−3𝑋+3] & =∫_{∞−∞}^{}𝑟(𝑥)𝑓(𝑥)\,d𝑥 \\ & =∫_{10}^{}(𝑥^{2}−3𝑥+3)⋅2𝑥\,d𝑥 \\ & =∫_{10}^{}(2𝑥^{3}−6𝑥^{2}+6𝑥)\,d𝑥 \\ & =[\frac{𝑥^{4}}{2}−2𝑥^{3}+3𝑥^{2}]_{10}^{} \\ & =[\frac{1}{2}−2+3]−0 \\ & =\frac{3}{2}.\end{aligned}
+\begin{aligned}E[𝑋^{2}−3𝑋+3] & =∫_{∞−∞}𝑟(𝑥)𝑓(𝑥)\,d𝑥 \\ & =∫_{10}(𝑥^{2}−3𝑥+3)⋅2𝑥\,d𝑥 \\ & =∫_{10}(2𝑥^{3}−6𝑥^{2}+6𝑥)\,d𝑥 \\ & =[\frac{𝑥^{4}}{2}−2𝑥^{3}+3𝑥^{2}]_{10} \\ & =[\frac{1}{2}−2+3]−0 \\ & =\frac{3}{2}.\end{aligned}
 
 
 $$
@@ -186,7 +186,7 @@ For a continuous random variable $X$ and a function $r(x)$, the rule of the lazy
 $$
 
 
-\textrm{E}[r(x)] = \int_{-\infty}^{\infty} r(x)f(x) ~ \textrm{d}x,
+\text{E}[r(x)] = \int_{-\infty}^{\infty} r(x)f(x) ~ \text{d}x,
 
 
 $$
@@ -208,7 +208,7 @@ When the stick is broken at point $X$, it is divided into two pieces: one of len
 $$
 
 
-Y = \textrm{min}(X, 1-X).
+Y = \text{min}(X, 1-X).
 
 
 $$
@@ -218,7 +218,7 @@ Therefore, we define
 $$
 
 
-r(x) = \textrm{min}(x,1-x).
+r(x) = \text{min}(x,1-x).
 
 
 $$
@@ -244,7 +244,7 @@ We now apply the rule of the lazy statistician:
 $$
 
 
-\begin{aligned}E[𝑌] & =E[min(𝑋,1−𝑋)] \\ & =∫_{∞−∞}^{}𝑟(𝑥)𝑓(𝑥)\,d𝑥 \\ & =∫_{\frac{1}{2}0}^{}𝑥⋅1\,d𝑥+∫_{1\frac{1}{2}}^{}(1−𝑥)⋅1\,d𝑥 \\ & =∫_{\frac{1}{2}0}^{}𝑥\,d𝑥+∫_{1\frac{1}{2}}^{}(1−𝑥)\,d𝑥 \\ & =[\frac{𝑥^{2}}{2}]_{\frac{1}{2}0}^{}+[𝑥−\frac{𝑥^{2}}{2}]_{1\frac{1}{2}}^{} \\ & =\frac{1}{2}(\frac{1}{2})^{2}+[(1−\frac{1}{2})−(\frac{1}{2}−\frac{1}{2}(\frac{1}{2})^{2})] \\ & =\frac{1}{8}+[\frac{1}{2}−(\frac{1}{2}−\frac{1}{8})] \\ & =\frac{1}{8}+\frac{1}{8} \\ & =\frac{1}{4}.\end{aligned}
+\begin{aligned}E[𝑌] & =E[min(𝑋,1−𝑋)] \\ & =∫_{∞−∞}𝑟(𝑥)𝑓(𝑥)\,d𝑥 \\ & =∫_{\frac{1}{2}0}^{}𝑥⋅1\,d𝑥+∫_{1\frac{1}{2}}^{}(1−𝑥)⋅1\,d𝑥 \\ & =∫_{\frac{1}{2}0}^{}𝑥\,d𝑥+∫_{1\frac{1}{2}}^{}(1−𝑥)\,d𝑥 \\ & =[\frac{𝑥^{2}}{2}]_{\frac{1}{2}0}^{}+[𝑥−\frac{𝑥^{2}}{2}]_{1\frac{1}{2}}^{} \\ & =\frac{1}{2}(\frac{1}{2})^{2}+[(1−\frac{1}{2})−(\frac{1}{2}−\frac{1}{2}(\frac{1}{2})^{2})] \\ & =\frac{1}{8}+[\frac{1}{2}−(\frac{1}{2}−\frac{1}{8})] \\ & =\frac{1}{8}+\frac{1}{8} \\ & =\frac{1}{4}.\end{aligned}
 
 
 $$
@@ -253,14 +253,14 @@ Therefore, the expected length of the shorter piece is $\boxed{\color{blue}\dfra
 
 ### Proof of the Linearity of Expectation
 
-Although $\textrm{E}[r(X)] \ne r(\textrm{E}[X])$ in general, equality is possible for some functions.
+Although $\text{E}[r(X)] \ne r(\text{E}[X])$ in general, equality is possible for some functions.
 
 For example, we've already seen that if $a$ and $b$ are real constants, then
 
 $$
 
 
-\textrm{E}[aX+b]=a \, \textrm{E}[X]+b.
+\text{E}[aX+b]=a \, \text{E}[X]+b.
 
 
 $$
@@ -282,7 +282,7 @@ Similarly, for functions $r(x)$ and $s(x)$ and real coefficients $a$ and $b,$ we
 $$
 
 
-\textrm{E}[a \cdot r(X) + b \cdot s(X)] = a \, \textrm{E}[r(X)] + b \, \textrm{E}[s(X)].
+\text{E}[a \cdot r(X) + b \cdot s(X)] = a \, \text{E}[r(X)] + b \, \text{E}[s(X)].
 
 
 $$

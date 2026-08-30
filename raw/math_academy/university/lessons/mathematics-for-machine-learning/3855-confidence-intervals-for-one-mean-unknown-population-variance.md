@@ -147,7 +147,7 @@ Similar to the case where $\sigma^2$ was known, we find the appropriate confiden
 $$
 
 
-\begin{aligned}−2.306 & <𝑇<2.306 \\ −2.306 & <\frac{\overset{𝑥}{}−𝜇}{𝑠/\sqrt{√𝑛}}<2.306 \\ −2.306⋅\frac{𝑠}{\sqrt{√𝑛}} & <\overset{𝑥}{}−𝜇<2.306⋅\frac{𝑠}{\sqrt{√𝑛}} \\ −\overset{𝑥}{}−2.306⋅\frac{𝑠}{\sqrt{√𝑛}} & <−𝜇<−\overset{𝑥}{}+2.306⋅\frac{𝑠}{\sqrt{√𝑛}} \\ \overset{𝑥}{}+2.306⋅\frac{𝑠}{\sqrt{√𝑛}} & >𝜇>\overset{𝑥}{}−2.306⋅\frac{𝑠}{\sqrt{√𝑛}} \\ \overset{𝑥}{}−2.306⋅\frac{𝑠}{\sqrt{√𝑛}} & <𝜇<\overset{𝑥}{}+2.306⋅\frac{𝑠}{\sqrt{√𝑛}}\end{aligned}
+\begin{aligned}−2.306 & <𝑇<2.306 \\ −2.306 & <\frac{\overset{𝑥}{}−𝜇}{𝑠/\sqrt{𝑛}}<2.306 \\ −2.306⋅\frac{𝑠}{\sqrt{𝑛}} & <\overset{𝑥}{}−𝜇<2.306⋅\frac{𝑠}{\sqrt{𝑛}} \\ −\overset{𝑥}{}−2.306⋅\frac{𝑠}{\sqrt{𝑛}} & <−𝜇<−\overset{𝑥}{}+2.306⋅\frac{𝑠}{\sqrt{𝑛}} \\ \overset{𝑥}{}+2.306⋅\frac{𝑠}{\sqrt{𝑛}} & >𝜇>\overset{𝑥}{}−2.306⋅\frac{𝑠}{\sqrt{𝑛}} \\ \overset{𝑥}{}−2.306⋅\frac{𝑠}{\sqrt{𝑛}} & <𝜇<\overset{𝑥}{}+2.306⋅\frac{𝑠}{\sqrt{𝑛}}\end{aligned}
 
 
 $$
@@ -241,7 +241,7 @@ So, our confidence interval can be written as follows:
 $$
 
 
-\begin{aligned}(\overset{𝑥}{}−[margin of error], & \,\overset{𝑥}{}+[margin of error]) \\ (\overset{𝑥}{}−[t-score]⋅[standard error], & \,\overset{𝑥}{}+[t-score]⋅[standard error]) \\ (\overset{𝑥}{}−𝑡_{𝑛−1,𝛼/2}⋅\frac{𝑠}{\sqrt{√𝑛}}, & \,\overset{𝑥}{}+𝑡_{𝑛−1,𝛼/2}⋅\frac{𝑠}{\sqrt{√𝑛}})\end{aligned}
+\begin{aligned}(\overset{𝑥}{}−[margin of error], & \,\overset{𝑥}{}+[margin of error]) \\ (\overset{𝑥}{}−[t-score]⋅[standard error], & \,\overset{𝑥}{}+[t-score]⋅[standard error]) \\ (\overset{𝑥}{}−𝑡_{𝑛−1,𝛼/2}⋅\frac{𝑠}{\sqrt{𝑛}}, & \,\overset{𝑥}{}+𝑡_{𝑛−1,𝛼/2}⋅\frac{𝑠}{\sqrt{𝑛}})\end{aligned}
 
 
 $$
@@ -331,7 +331,7 @@ Therefore, a $99\%$ confidence interval for the population mean $\mu$ is the fol
 $$
 
 
-\begin{aligned}50 & ±3.355⋅\frac{1.5}{\sqrt{√9}} \\ 50 & ±1.678\end{aligned}
+\begin{aligned}50 & ±3.355⋅\frac{1.5}{\sqrt{9}} \\ 50 & ±1.678\end{aligned}
 
 
 $$
@@ -451,7 +451,7 @@ Therefore, the $90\%$ confidence interval for the population mean $\mu$ is the f
 $$
 
 
-\begin{aligned}30 & ±1.66⋅\frac{8}{\sqrt{√100}} \\ 30 & ±1.328\end{aligned}
+\begin{aligned}30 & ±1.66⋅\frac{8}{\sqrt{100}} \\ 30 & ±1.328\end{aligned}
 
 
 $$
@@ -460,7 +460,7 @@ $$
 
 #### Question
 
-A tire manufacturer measures the stopping distance of a new tire model from $60 \, \textrm{mph}$ on a standard test car. A sample of $81$ stopping distances yielded a sample mean of $132\, \textrm{ft}$ with a sample standard deviation of $5.4 \, \textrm{ft}.$ Find a $95\%$ confidence interval for the mean stopping distance $\mu$ of these tires.
+A tire manufacturer measures the stopping distance of a new tire model from $60 \, \text{mph}$ on a standard test car. A sample of $81$ stopping distances yielded a sample mean of $132\, \text{ft}$ with a sample standard deviation of $5.4 \, \text{ft}.$ Find a $95\%$ confidence interval for the mean stopping distance $\mu$ of these tires.
 
 **
 
@@ -505,7 +505,7 @@ In our case,
 $$
 
 
-\overline{x}=132 \, \textrm{ft}, \qquad n = 81, \qquad s = 5.4 \, \textrm{ft}.
+\overline{x}=132 \, \text{ft}, \qquad n = 81, \qquad s = 5.4 \, \text{ft}.
 
 
 $$
@@ -531,7 +531,7 @@ Therefore, the $95\%$ confidence interval for the population mean $\mu$ is the f
 $$
 
 
-\begin{aligned}132 & ±1.99⋅\frac{5.4}{\sqrt{√81}}\,ft \\ 132 & ±1.194\,ft\end{aligned}
+\begin{aligned}132 & ±1.99⋅\frac{5.4}{\sqrt{81}}\,ft \\ 132 & ±1.194\,ft\end{aligned}
 
 
 $$

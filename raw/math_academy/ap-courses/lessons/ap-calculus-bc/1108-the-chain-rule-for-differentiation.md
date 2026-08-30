@@ -16,12 +16,12 @@ The **chain rule** for differentiation states that the derivative of a composite
 $$
 
 
-\dfrac {\textrm{d}f} {\textrm{d}x} = \dfrac {\textrm{d}f} {\textrm{d}g} \cdot \dfrac {\textrm{d}g} {\textrm{d}x}.
+\dfrac {\text{d}f} {\text{d}x} = \dfrac {\text{d}f} {\text{d}g} \cdot \dfrac {\text{d}g} {\text{d}x}.
 
 
 $$
 
-There is some intuition behind this rule: if we think of the derivatives as fractions, the ${\textrm{d}g}$'s would appear to cancel out.
+There is some intuition behind this rule: if we think of the derivatives as fractions, the ${\text{d}g}$'s would appear to cancel out.
 
 $$
 
@@ -77,7 +77,7 @@ $$
 
 #### Question
 
-Given that $f(x) = (3x^4+x^3)^5,$ calculate $\dfrac {\textrm{d}f} {\textrm{d}x}.$
+Given that $f(x) = (3x^4+x^3)^5,$ calculate $\dfrac {\text{d}f} {\text{d}x}.$
 
 #### Explanation
 
@@ -96,7 +96,7 @@ The chain rule states that
 $$
 
 
-\dfrac {\textrm{d}f} {\textrm{d}x} = \dfrac {\textrm{d}f} {\textrm{d}g} \cdot \dfrac {\textrm{d}g} {\textrm{d}x}.
+\dfrac {\text{d}f} {\text{d}x} = \dfrac {\text{d}f} {\text{d}g} \cdot \dfrac {\text{d}g} {\text{d}x}.
 
 
 $$
@@ -106,7 +106,7 @@ Differentiating, we have
 $$
 
 
-\dfrac {\textrm{d}f} {\textrm{d}g} = 5g^4,
+\dfrac {\text{d}f} {\text{d}g} = 5g^4,
 
 
 $$
@@ -116,7 +116,7 @@ and
 $$
 
 
-\dfrac {\textrm{d}g} {\textrm{d}x} = 12x^3 + 3x^2.
+\dfrac {\text{d}g} {\text{d}x} = 12x^3 + 3x^2.
 
 
 $$
@@ -176,7 +176,7 @@ Multiplying the two together gives
 $$
 
 
-\begin{aligned}\frac{d𝑦}{d𝑥} & =\frac{1}{2\sqrt{√𝑢}}⋅(−2𝑥) \\ & =−\frac{2𝑥}{2\sqrt{√𝑢}} \\ & =−\frac{𝑥}{\sqrt{√1−𝑥^{2}}}.\end{aligned}
+\begin{aligned}\frac{d𝑦}{d𝑥} & =\frac{1}{2\sqrt{𝑢}}⋅(−2𝑥) \\ & =−\frac{2𝑥}{2\sqrt{𝑢}} \\ & =−\frac{𝑥}{\sqrt{1−𝑥^{2}}}.\end{aligned}
 
 
 $$

@@ -197,7 +197,7 @@ Let's suppose that we want to calculate the double integral
 $$
 
 
-\iint_\limits{D} f(x,y) \: \textrm{d}A
+\iint\limits_{D} f(x,y) \: \text{d}A
 
 
 $$
@@ -277,7 +277,7 @@ Therefore, our double integral becomes
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}8𝑥^{3}𝑦\,d𝐴 & =\underset{Δ_{1}}{∬}8𝑥^{3}𝑦\,d𝐴−\underset{Δ_{2}}{∬}8𝑥^{3}𝑦\,d𝐴 \\ & =∫_{2−1}^{}∫_{1−2}^{}8𝑥^{3}𝑦\,d𝑥\,d𝑦−∫_{10}^{}∫_{0−1}^{}8𝑥^{3}𝑦\,d𝑥\,d𝑦 \\ & =∫_{1−2}^{}4𝑥^{3}\,d𝑥∫_{2−1}^{}2𝑦\,d𝑦−∫_{0−1}^{}4𝑥^{3}\,d𝑥∫_{10}^{}2𝑦\,d𝑦 \\ & =𝑥^{4}\,_{1−2}^{}⋅𝑦^{2}\,_{2−1}^{}−𝑥^{4}\,_{0−1}^{}⋅𝑦^{2}\,_{10}^{} \\ & =(1−16)⋅(4−1)−(0−1)⋅(1−0) \\ & =(−15)⋅3−(−1)⋅1 \\ & =−44.\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}8𝑥^{3}𝑦\,d𝐴 & =\underset{Δ_{1}}{∬}8𝑥^{3}𝑦\,d𝐴−\underset{Δ_{2}}{∬}8𝑥^{3}𝑦\,d𝐴 \\ & =∫_{2−1}∫_{1−2}8𝑥^{3}𝑦\,d𝑥\,d𝑦−∫_{10}∫_{0−1}8𝑥^{3}𝑦\,d𝑥\,d𝑦 \\ & =∫_{1−2}4𝑥^{3}\,d𝑥∫_{2−1}2𝑦\,d𝑦−∫_{0−1}4𝑥^{3}\,d𝑥∫_{10}2𝑦\,d𝑦 \\ & =𝑥^{4}\,_{1−2}⋅𝑦^{2}\,_{2−1}−𝑥^{4}\,_{0−1}⋅𝑦^{2}\,_{10} \\ & =(1−16)⋅(4−1)−(0−1)⋅(1−0) \\ & =(−15)⋅3−(−1)⋅1 \\ & =−44.\end{aligned}
 
 
 $$
@@ -333,7 +333,7 @@ To summarize,
 $$
 
 
-\oint \limits_{\partial D}\mathbf F\cdot \textrm d \mathbf r = \iint_\limits{D}\left(\dfrac{\partial Q}{\partial x}-\dfrac{\partial P}{\partial y}\right)\,\textrm{d}A,
+\oint \limits_{\partial D}\mathbf F\cdot \textrm d \mathbf r = \iint\limits_{D}\left(\dfrac{\partial Q}{\partial x}-\dfrac{\partial P}{\partial y}\right)\,\text{d}A,
 
 
 $$

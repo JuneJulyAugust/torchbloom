@@ -27,7 +27,7 @@ At the point $P$ where $t=\dfrac{5\pi}{6},$ the function, unit tangent, and the 
 $$
 
 
-\begin{aligned}𝐟(\frac{5𝜋}{6}) & =\frac{1}{6}⟨6,\,−6\sqrt{√3},\,5𝜋⟩ \\ 𝐓(\frac{5𝜋}{6}) & =\frac{1}{5}⟨−\sqrt{√15},\,−\sqrt{√5},\,\sqrt{√5}⟩ \\ 𝐍(\frac{5𝜋}{6}) & =\frac{1}{2}⟨−1,\,\sqrt{√3},\,0⟩.\end{aligned}
+\begin{aligned}𝐟(\frac{5𝜋}{6}) & =\frac{1}{6}⟨6,\,−6\sqrt{3},\,5𝜋⟩ \\ 𝐓(\frac{5𝜋}{6}) & =\frac{1}{5}⟨−\sqrt{15},\,−\sqrt{5},\,\sqrt{5}⟩ \\ 𝐍(\frac{5𝜋}{6}) & =\frac{1}{2}⟨−1,\,\sqrt{3},\,0⟩.\end{aligned}
 
 
 $$
@@ -41,7 +41,7 @@ Since the osculating plane contains the unit tangent vector and the principal no
 $$
 
 
-\begin{aligned}𝐑(𝑠,𝑢) & =𝐟(\frac{5𝜋}{6})+𝑠\,𝐓(\frac{5𝜋}{6})+𝑢\,𝐍(\frac{5𝜋}{6}) \\ & =\frac{1}{6}⟨6,\,−6\sqrt{√3},\,5𝜋⟩+\frac{𝑠}{5}⟨−\sqrt{√15},\,−\sqrt{√5},\,\sqrt{√5}⟩+\frac{𝑢}{2}⟨−1,\,\sqrt{√3},\,0⟩\end{aligned}
+\begin{aligned}𝐑(𝑠,𝑢) & =𝐟(\frac{5𝜋}{6})+𝑠\,𝐓(\frac{5𝜋}{6})+𝑢\,𝐍(\frac{5𝜋}{6}) \\ & =\frac{1}{6}⟨6,\,−6\sqrt{3},\,5𝜋⟩+\frac{𝑠}{5}⟨−\sqrt{15},\,−\sqrt{5},\,\sqrt{5}⟩+\frac{𝑢}{2}⟨−1,\,\sqrt{3},\,0⟩\end{aligned}
 
 
 $$
@@ -131,7 +131,7 @@ Find a Cartesian equation of the osculating plane for the curve $\mathbf r(t)$ a
 $$
 
 
-\begin{aligned}𝐫(𝑡) & =cos⁡𝑡\,𝐢+cos⁡𝑡\,𝐣+\sqrt{√2}sin⁡𝑡\,𝐤 \\ 𝐓(𝑡) & =\frac{\sqrt{√2}}{2}(−sin⁡𝑡\,𝐢−sin⁡𝑡\,𝐣+\sqrt{√2}cos⁡𝑡\,𝐤) \\ 𝐍(𝑡) & =−\frac{\sqrt{√2}}{2}(cos⁡𝑡\,𝐢+cos⁡𝑡\,𝐣+\sqrt{√2}sin⁡𝑡𝐤).\end{aligned}
+\begin{aligned}𝐫(𝑡) & =cos⁡𝑡\,𝐢+cos⁡𝑡\,𝐣+\sqrt{2}sin⁡𝑡\,𝐤 \\ 𝐓(𝑡) & =\frac{\sqrt{2}}{2}(−sin⁡𝑡\,𝐢−sin⁡𝑡\,𝐣+\sqrt{2}cos⁡𝑡\,𝐤) \\ 𝐍(𝑡) & =−\frac{\sqrt{2}}{2}(cos⁡𝑡\,𝐢+cos⁡𝑡\,𝐣+\sqrt{2}sin⁡𝑡𝐤).\end{aligned}
 
 
 $$
@@ -157,7 +157,7 @@ To compute the perpendicular vector, we first need to compute the unit tangent $
 $$
 
 
-\begin{aligned}𝐓(0) & =\frac{\sqrt{√2}}{2}(−sin⁡0\,𝐢−sin⁡0\,𝐣+\sqrt{√2}cos⁡0\,𝐤)=𝐤 \\ 𝐍(0) & =−\frac{\sqrt{√2}}{2}(cos⁡0\,𝐢+cos⁡0\,𝐣+\sqrt{√2}sin⁡0𝐤)=−\frac{\sqrt{√2}}{2}(𝐢+𝐣)\end{aligned}
+\begin{aligned}𝐓(0) & =\frac{\sqrt{2}}{2}(−sin⁡0\,𝐢−sin⁡0\,𝐣+\sqrt{2}cos⁡0\,𝐤)=𝐤 \\ 𝐍(0) & =−\frac{\sqrt{2}}{2}(cos⁡0\,𝐢+cos⁡0\,𝐣+\sqrt{2}sin⁡0𝐤)=−\frac{\sqrt{2}}{2}(𝐢+𝐣)\end{aligned}
 
 
 $$
@@ -167,7 +167,7 @@ Now, we take the cross product of these two vectors:
 $$
 
 
-\begin{aligned}𝐧 & =𝐤×(−\frac{\sqrt{√2}}{2}(𝐢+𝐣)) \\ & =−\frac{\sqrt{√2}}{2}⋅\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 0 & 0 & 1 \\ 1 & 1 & 0\end{aligned} \\ & =−\frac{\sqrt{√2}}{2}[ \begin{aligned}0 & 1 \\ 1 & 0\end{aligned}\,𝐢−\begin{aligned}0 & 1 \\ 1 & 0\end{aligned}\,𝐣+\begin{aligned}0 & 0 \\ 1 & 1\end{aligned}\,𝐤 ] \\ & =−\frac{\sqrt{√2}}{2}(−𝐢+𝐣) \\ & =\frac{\sqrt{√2}}{2}(𝐢−𝐣)\end{aligned}
+\begin{aligned}𝐧 & =𝐤×(−\frac{\sqrt{2}}{2}(𝐢+𝐣)) \\ & =−\frac{\sqrt{2}}{2}⋅\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 0 & 0 & 1 \\ 1 & 1 & 0\end{matrix} \\ & =−\frac{\sqrt{2}}{2}[ \begin{matrix}0 & 1 \\ 1 & 0\end{matrix}\,𝐢−\begin{matrix}0 & 1 \\ 1 & 0\end{matrix}\,𝐣+\begin{matrix}0 & 0 \\ 1 & 1\end{matrix}\,𝐤 ] \\ & =−\frac{\sqrt{2}}{2}(−𝐢+𝐣) \\ & =\frac{\sqrt{2}}{2}(𝐢−𝐣)\end{aligned}
 
 
 $$
@@ -245,7 +245,7 @@ Now, we take the cross product of these two vectors:
 $$
 
 
-\begin{aligned}𝐧 & =𝐓(\frac{𝜋}{4})×𝐍(\frac{𝜋}{4}) \\ & =\frac{1}{5}⟨0,−3,4⟩×⟨1,0,0⟩ \\ & =\frac{1}{5}⋅\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 0 & −3 & 4 \\ 1 & 0 & 0\end{aligned} \\ & =\frac{1}{5}[ \begin{aligned}−3 & 4 \\ 0 & 0\end{aligned}\,𝐢−\begin{aligned}0 & 4 \\ 1 & 0\end{aligned}\,𝐣+\begin{aligned}0 & −3 \\ 1 & 0\end{aligned}\,𝐤 ] \\ & =\frac{1}{5}(4\,𝐣+3\,𝐤) \\ & =⟨0,\frac{4}{5},\frac{3}{5}⟩\end{aligned}
+\begin{aligned}𝐧 & =𝐓(\frac{𝜋}{4})×𝐍(\frac{𝜋}{4}) \\ & =\frac{1}{5}⟨0,−3,4⟩×⟨1,0,0⟩ \\ & =\frac{1}{5}⋅\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 0 & −3 & 4 \\ 1 & 0 & 0\end{matrix} \\ & =\frac{1}{5}[ \begin{matrix}−3 & 4 \\ 0 & 0\end{matrix}\,𝐢−\begin{matrix}0 & 4 \\ 1 & 0\end{matrix}\,𝐣+\begin{matrix}0 & −3 \\ 1 & 0\end{matrix}\,𝐤 ] \\ & =\frac{1}{5}(4\,𝐣+3\,𝐤) \\ & =⟨0,\frac{4}{5},\frac{3}{5}⟩\end{aligned}
 
 
 $$
@@ -265,7 +265,7 @@ Finally, the shortest distance between our plane and the origin is given by
 $$
 
 
-\begin{aligned}𝑑 & =\frac{|(𝐩−𝟎)⋅𝐧|}{‖𝐧‖} \\ & =\frac{|𝐩⋅𝐧|}{‖𝐧‖} \\ & =\frac{|⟨−1,0,2𝜋⟩⋅⟨0,4,3⟩|}{‖⟨0,4,3⟩‖} \\ & =\frac{6𝜋}{\sqrt{√0^{2}+4^{2}+3^{2}}} \\ & =\frac{6𝜋}{5}.\end{aligned}
+\begin{aligned}𝑑 & =\frac{|(𝐩−𝟎)⋅𝐧|}{‖𝐧‖} \\ & =\frac{|𝐩⋅𝐧|}{‖𝐧‖} \\ & =\frac{|⟨−1,0,2𝜋⟩⋅⟨0,4,3⟩|}{‖⟨0,4,3⟩‖} \\ & =\frac{6𝜋}{\sqrt{0^{2}+4^{2}+3^{2}}} \\ & =\frac{6𝜋}{5}.\end{aligned}
 
 
 $$

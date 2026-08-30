@@ -326,7 +326,7 @@ The **Cartesian power** $A^n$ of a set $A$ for natural $n$ is defined as
 $$
 
 
-A^n = \underbrace{A\times A\times\cdots\times A}_{n \textrm{ times}} = \Big\{(a_1, a_2, \ldots, a_n) \: : \: a_i \in A, 1\leq i\leq n \Big\}.
+A^n = \underbrace{A\times A\times\cdots\times A}_{n \text{ times}} = \Big\{(a_1, a_2, \ldots, a_n) \: : \: a_i \in A, 1\leq i\leq n \Big\}.
 
 
 $$

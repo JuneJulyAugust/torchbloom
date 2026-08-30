@@ -104,7 +104,7 @@ Let's call $l$ the length of one of the legs. Since the hypotenuse of the triang
 $$
 
 
-\begin{aligned}𝑏^{2} & =(2)^{2}−𝑙^{2}\,⟹\,𝑏=\sqrt{√4−𝑙^{2}}.\end{aligned}
+\begin{aligned}𝑏^{2} & =(2)^{2}−𝑙^{2}\,⟹\,𝑏=\sqrt{4−𝑙^{2}}.\end{aligned}
 
 
 $$
@@ -126,7 +126,7 @@ We want to maximize $P(l),$ so we need to compute the critical points. Taking th
 $$
 
 
-\begin{aligned}𝑃^{′}(𝑙) & =1+\frac{1}{2}⋅\frac{−2𝑙}{\sqrt{√4−𝑙^{2}}} \\ & =1−\frac{𝑙}{\sqrt{√4−𝑙^{2}}},\end{aligned}
+\begin{aligned}𝑃^{′}(𝑙) & =1+\frac{1}{2}⋅\frac{−2𝑙}{\sqrt{4−𝑙^{2}}} \\ & =1−\frac{𝑙}{\sqrt{4−𝑙^{2}}},\end{aligned}
 
 
 $$
@@ -136,7 +136,7 @@ and solving $P'(l)=0$ gives the following critical point:
 $$
 
 
-\begin{aligned}𝑃^{′}(𝑙) & =0 \\ 1−\frac{𝑙}{\sqrt{√4−𝑙^{2}}} & =0 \\ \frac{𝑙}{\sqrt{√4−𝑙^{2}}} & =1 \\ 𝑙 & =\sqrt{√4−𝑙^{2}} \\ 𝑙^{2} & =4−𝑙^{2} \\ 𝑙^{2} & =2 \\ 𝑙 & =\sqrt{√2}\end{aligned}
+\begin{aligned}𝑃^{′}(𝑙) & =0 \\ 1−\frac{𝑙}{\sqrt{4−𝑙^{2}}} & =0 \\ \frac{𝑙}{\sqrt{4−𝑙^{2}}} & =1 \\ 𝑙 & =\sqrt{4−𝑙^{2}} \\ 𝑙^{2} & =4−𝑙^{2} \\ 𝑙^{2} & =2 \\ 𝑙 & =\sqrt{2}\end{aligned}
 
 
 $$
@@ -150,7 +150,7 @@ Therefore, the greatest perimeter that a triangle can have is
 $$
 
 
-\begin{aligned}𝑃(\sqrt{√2}) & =2+\sqrt{√2}+\sqrt{√4−(\sqrt{√2})^{2}} \\ & =2+\sqrt{√2}+\sqrt{√4−2} \\ & =2+\sqrt{√2}+\sqrt{√2} \\ & =2+2\sqrt{√2}\,.\end{aligned}
+\begin{aligned}𝑃(\sqrt{2}) & =2+\sqrt{2}+\sqrt{4−(\sqrt{2})^{2}} \\ & =2+\sqrt{2}+\sqrt{4−2} \\ & =2+\sqrt{2}+\sqrt{2} \\ & =2+2\sqrt{2}\,.\end{aligned}
 
 
 $$
@@ -186,7 +186,7 @@ We want to maximize $A(l),$ so we need to compute the critical points. Taking th
 $$
 
 
-\begin{aligned}𝐴^{′}(𝑙) & =\frac{1}{2}\sqrt{√72−𝑙^{2}}−\frac{𝑙^{2}}{2\sqrt{√72−𝑙^{2}}},\end{aligned}
+\begin{aligned}𝐴^{′}(𝑙) & =\frac{1}{2}\sqrt{72−𝑙^{2}}−\frac{𝑙^{2}}{2\sqrt{72−𝑙^{2}}},\end{aligned}
 
 
 $$
@@ -196,7 +196,7 @@ and solving $A'(l)=0$ gives the following critical point:
 $$
 
 
-\begin{aligned}𝐴^{′}(𝑙) & =0 \\ \frac{1}{2}\sqrt{√72−𝑙^{2}}−\frac{𝑙^{2}}{2\sqrt{√72−𝑙^{2}}} & =0 \\ 2\sqrt{√72−𝑙^{2}}⋅(\frac{1}{2}\sqrt{√72−𝑙^{2}}−\frac{𝑙^{2}}{2\sqrt{√72−𝑙^{2}}}) & =2\sqrt{√72−𝑙^{2}}⋅0 \\ 72−𝑙^{2}−𝑙^{2} & =0 \\ 𝑙^{2} & =\frac{72}{2} \\ 𝑙^{2} & =36 \\ 𝑙 & =6\end{aligned}
+\begin{aligned}𝐴^{′}(𝑙) & =0 \\ \frac{1}{2}\sqrt{72−𝑙^{2}}−\frac{𝑙^{2}}{2\sqrt{72−𝑙^{2}}} & =0 \\ 2\sqrt{72−𝑙^{2}}⋅(\frac{1}{2}\sqrt{72−𝑙^{2}}−\frac{𝑙^{2}}{2\sqrt{72−𝑙^{2}}}) & =2\sqrt{72−𝑙^{2}}⋅0 \\ 72−𝑙^{2}−𝑙^{2} & =0 \\ 𝑙^{2} & =\frac{72}{2} \\ 𝑙^{2} & =36 \\ 𝑙 & =6\end{aligned}
 
 
 $$
@@ -210,7 +210,7 @@ Finally, the maximum possible area is
 $$
 
 
-\begin{aligned}𝐴(6) & =\frac{1}{2}⋅6⋅\sqrt{√72−(6)^{2}} \\ & =3⋅\sqrt{√72−36} \\ & =3⋅\sqrt{√36} \\ & =3⋅6 \\ & =18.\end{aligned}
+\begin{aligned}𝐴(6) & =\frac{1}{2}⋅6⋅\sqrt{72−(6)^{2}} \\ & =3⋅\sqrt{72−36} \\ & =3⋅\sqrt{36} \\ & =3⋅6 \\ & =18.\end{aligned}
 
 
 $$

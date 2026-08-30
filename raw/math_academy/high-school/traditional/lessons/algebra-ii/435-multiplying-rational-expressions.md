@@ -102,7 +102,7 @@ $$
 
 
 
-\begin{aligned} \dfrac {3p - 12}{p^2 - 9} \cdot \dfrac {p + 3} {p - 4} &=\dfrac {3(p - 4)} {(p + 3)(p - 3)} \cdot \dfrac {p + 3} {p - 4} \\\[5pt] &=\dfrac {3(p - 4)} {(p + 3)(p - 3)} \cdot \dfrac {p + 3} {p - 4} \\\[5pt] &=\dfrac {3}{p - 3} \end{aligned}
+\begin{aligned} \dfrac {3p - 12}{p^2 - 9} \cdot \dfrac {p + 3} {p - 4} &=\dfrac {3(p - 4)} {(p + 3)(p - 3)} \cdot \dfrac {p + 3} {p - 4} \\[5pt] &=\dfrac {3(p - 4)} {(p + 3)(p - 3)} \cdot \dfrac {p + 3} {p - 4} \\[5pt] &=\dfrac {3}{p - 3} \end{aligned}
 
 
 

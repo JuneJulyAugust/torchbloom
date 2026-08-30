@@ -161,7 +161,7 @@ so the period (in seconds) is
 $$
 
 
-T = \dfrac{2\pi}{10} = \dfrac{\pi}{5}\,\textrm{s}.
+T = \dfrac{2\pi}{10} = \dfrac{\pi}{5}\,\text{s}.
 
 
 $$
@@ -244,7 +244,7 @@ y'' + 36y = 0,
 
 $$
 
-where $t > 0$ is the time, in seconds. Given that the particle is initially at the origin with a velocity of $3\,\textrm{m/s},$ find the amplitude of the oscillation.
+where $t > 0$ is the time, in seconds. Given that the particle is initially at the origin with a velocity of $3\,\text{m/s},$ find the amplitude of the oscillation.
 
 #### Explanation
 
@@ -310,7 +310,7 @@ y = R\sin{6 t}.
 
 $$
 
-We're told that the velocity is $3\,\textrm{m/s}$ when $t=0,$ which means that $y'(0) = 3.$ Differentiating the general solution with respect to $t$ gives
+We're told that the velocity is $3\,\text{m/s}$ when $t=0,$ which means that $y'(0) = 3.$ Differentiating the general solution with respect to $t$ gives
 
 $$
 
@@ -330,7 +330,7 @@ $$
 
 $$
 
-Therefore, the amplitude is $\dfrac{1}{2}\,\textrm{m}.$
+Therefore, the amplitude is $\dfrac{1}{2}\,\text{m}.$
 
 ### The Equation of Motion for a Mass-Spring System
 
@@ -380,13 +380,13 @@ $$
 
 #### Question
 
-A particle of mass $36\,\textrm{kg}$ is attached to a massless spring. The spring constant associated with the spring is $k = 9\, \textrm{kg/s}^2.$ The position of the particle is $y(t)$ (measured in meters), and $t>0$ is the time in seconds.
+A particle of mass $36\,\text{kg}$ is attached to a massless spring. The spring constant associated with the spring is $k = 9\, \text{kg/s}^2.$ The position of the particle is $y(t)$ (measured in meters), and $t>0$ is the time in seconds.
 
 If the particle moves with simple harmonic motion, then which of the following statements are true?
 
 1. The governing differential equation is $y'' + \dfrac{1}{2}y = 0$
 
-2. The frequency $f$ of the oscillation is $f = \dfrac{1}{4\pi}\,\textrm{s}^{-1}$
+2. The frequency $f$ of the oscillation is $f = \dfrac{1}{4\pi}\,\text{s}^{-1}$
 
 3. The general solution can be expressed as $y = R\sin{\left(\dfrac{1}{2}t+\phi\right)},$ where $R$ is the amplitude and $\phi$ is the phase.
 

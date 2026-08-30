@@ -92,7 +92,7 @@ the normal equation can be written as follows:
 $$
 
 
-\begin{aligned}[\begin{aligned}1 & 1 & 2 \\ −1 & 0 & −1\end{aligned}]\begin{aligned}4 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{aligned}\begin{aligned}1 & −1 \\ 1 & 0 \\ 2 & −1\end{aligned}[\begin{aligned}𝑥_{1} \\ 𝑥_{2}\end{aligned}] & =[\begin{aligned}1 & 1 & 2 \\ −1 & 0 & −1\end{aligned}]\begin{aligned}4 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{aligned}\begin{aligned}9 \\ 0 \\ 18\end{aligned} \\ [\begin{aligned}1 & 1 & 2 \\ −1 & 0 & −1\end{aligned}]\begin{aligned}4 & −4 \\ 1 & 0 \\ 2 & −1\end{aligned}[\begin{aligned}𝑥_{1} \\ 𝑥_{2}\end{aligned}] & =[\begin{aligned}1 & 1 & 2 \\ −1 & 0 & −1\end{aligned}]\begin{aligned}36 \\ 0 \\ 18\end{aligned} \\ [\begin{aligned}9 & −6 \\ −6 & 5\end{aligned}][\begin{aligned}𝑥_{1} \\ 𝑥_{2}\end{aligned}] & =[\begin{aligned}72 \\ −54\end{aligned}]\end{aligned}
+\begin{aligned}[\begin{matrix}1 & 1 & 2 \\ −1 & 0 & −1\end{matrix}]\begin{matrix}4 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{matrix}\begin{matrix}1 & −1 \\ 1 & 0 \\ 2 & −1\end{matrix}[\begin{matrix}𝑥_{1} \\ 𝑥_{2}\end{matrix}] & =[\begin{matrix}1 & 1 & 2 \\ −1 & 0 & −1\end{matrix}]\begin{matrix}4 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{matrix}\begin{matrix}9 \\ 0 \\ 18\end{matrix} \\ [\begin{matrix}1 & 1 & 2 \\ −1 & 0 & −1\end{matrix}]\begin{matrix}4 & −4 \\ 1 & 0 \\ 2 & −1\end{matrix}[\begin{matrix}𝑥_{1} \\ 𝑥_{2}\end{matrix}] & =[\begin{matrix}1 & 1 & 2 \\ −1 & 0 & −1\end{matrix}]\begin{matrix}36 \\ 0 \\ 18\end{matrix} \\ [\begin{matrix}9 & −6 \\ −6 & 5\end{matrix}][\begin{matrix}𝑥_{1} \\ 𝑥_{2}\end{matrix}] & =[\begin{matrix}72 \\ −54\end{matrix}]\end{aligned}
 
 
 $$
@@ -150,7 +150,7 @@ our normal equation can be written as follows:
 $$
 
 
-\begin{aligned}[\begin{aligned}1 & 0 & 1 \\ 0 & 1 & 2\end{aligned}]\begin{aligned}1 & 0 & 0 \\ 0 & 4 & 0 \\ 0 & 0 & 9\end{aligned}\begin{aligned}1 & 0 \\ 0 & 1 \\ 1 & 2\end{aligned}[\begin{aligned}𝑥_{1} \\ 𝑥_{2}\end{aligned}] & =[\begin{aligned}1 & 0 & 1 \\ 0 & 1 & 2\end{aligned}]\begin{aligned}1 & 0 & 0 \\ 0 & 4 & 0 \\ 0 & 0 & 9\end{aligned}\begin{aligned}2 \\ 0 \\ 3\end{aligned} \\ [\begin{aligned}1 & 0 & 1 \\ 0 & 1 & 2\end{aligned}]\begin{aligned}1 & 0 \\ 0 & 4 \\ 9 & 18\end{aligned}[\begin{aligned}𝑥_{1} \\ 𝑥_{2}\end{aligned}] & =[\begin{aligned}1 & 0 & 1 \\ 0 & 1 & 2\end{aligned}]\begin{aligned}2 \\ 0 \\ 27\end{aligned} \\ [\begin{aligned}10 & 18 \\ 18 & 40\end{aligned}][\begin{aligned}𝑥_{1} \\ 𝑥_{2}\end{aligned}] & =[\begin{aligned}29 \\ 54\end{aligned}]\end{aligned}
+\begin{aligned}[\begin{matrix}1 & 0 & 1 \\ 0 & 1 & 2\end{matrix}]\begin{matrix}1 & 0 & 0 \\ 0 & 4 & 0 \\ 0 & 0 & 9\end{matrix}\begin{matrix}1 & 0 \\ 0 & 1 \\ 1 & 2\end{matrix}[\begin{matrix}𝑥_{1} \\ 𝑥_{2}\end{matrix}] & =[\begin{matrix}1 & 0 & 1 \\ 0 & 1 & 2\end{matrix}]\begin{matrix}1 & 0 & 0 \\ 0 & 4 & 0 \\ 0 & 0 & 9\end{matrix}\begin{matrix}2 \\ 0 \\ 3\end{matrix} \\ [\begin{matrix}1 & 0 & 1 \\ 0 & 1 & 2\end{matrix}]\begin{matrix}1 & 0 \\ 0 & 4 \\ 9 & 18\end{matrix}[\begin{matrix}𝑥_{1} \\ 𝑥_{2}\end{matrix}] & =[\begin{matrix}1 & 0 & 1 \\ 0 & 1 & 2\end{matrix}]\begin{matrix}2 \\ 0 \\ 27\end{matrix} \\ [\begin{matrix}10 & 18 \\ 18 & 40\end{matrix}][\begin{matrix}𝑥_{1} \\ 𝑥_{2}\end{matrix}] & =[\begin{matrix}29 \\ 54\end{matrix}]\end{aligned}
 
 
 $$
@@ -206,7 +206,7 @@ our normal equation can be written as follows:
 $$
 
 
-\begin{aligned}[\begin{aligned}1 & −2 & −1 \\ −1 & 2 & 1\end{aligned}]\begin{aligned}1 & 0 & 0 \\ 0 & 4 & 0 \\ 0 & 0 & 4\end{aligned}\begin{aligned}1 & −1 \\ −2 & 2 \\ −1 & 1\end{aligned}[\begin{aligned}𝑥_{1} \\ 𝑥_{2}\end{aligned}] & =[\begin{aligned}1 & −2 & −1 \\ −1 & 2 & 1\end{aligned}]\begin{aligned}1 & 0 & 0 \\ 0 & 4 & 0 \\ 0 & 0 & 4\end{aligned}\begin{aligned}−3 \\ 0 \\ 9\end{aligned} \\ [\begin{aligned}1 & −2 & −1 \\ −1 & 2 & 1\end{aligned}]\begin{aligned}1 & −1 \\ −8 & 8 \\ −4 & 4\end{aligned}[\begin{aligned}𝑥_{1} \\ 𝑥_{2}\end{aligned}] & =[\begin{aligned}1 & −2 & −1 \\ −1 & 2 & 1\end{aligned}]\begin{aligned}−3 \\ 0 \\ 36\end{aligned} \\ [\begin{aligned}21 & −21 \\ −21 & 21\end{aligned}][\begin{aligned}𝑥_{1} \\ 𝑥_{2}\end{aligned}] & =[\begin{aligned}−39 \\ 39\end{aligned}]\end{aligned}
+\begin{aligned}[\begin{matrix}1 & −2 & −1 \\ −1 & 2 & 1\end{matrix}]\begin{matrix}1 & 0 & 0 \\ 0 & 4 & 0 \\ 0 & 0 & 4\end{matrix}\begin{matrix}1 & −1 \\ −2 & 2 \\ −1 & 1\end{matrix}[\begin{matrix}𝑥_{1} \\ 𝑥_{2}\end{matrix}] & =[\begin{matrix}1 & −2 & −1 \\ −1 & 2 & 1\end{matrix}]\begin{matrix}1 & 0 & 0 \\ 0 & 4 & 0 \\ 0 & 0 & 4\end{matrix}\begin{matrix}−3 \\ 0 \\ 9\end{matrix} \\ [\begin{matrix}1 & −2 & −1 \\ −1 & 2 & 1\end{matrix}]\begin{matrix}1 & −1 \\ −8 & 8 \\ −4 & 4\end{matrix}[\begin{matrix}𝑥_{1} \\ 𝑥_{2}\end{matrix}] & =[\begin{matrix}1 & −2 & −1 \\ −1 & 2 & 1\end{matrix}]\begin{matrix}−3 \\ 0 \\ 36\end{matrix} \\ [\begin{matrix}21 & −21 \\ −21 & 21\end{matrix}][\begin{matrix}𝑥_{1} \\ 𝑥_{2}\end{matrix}] & =[\begin{matrix}−39 \\ 39\end{matrix}]\end{aligned}
 
 
 $$
@@ -216,7 +216,7 @@ Now, we solve the system corresponding to the above matrix equation using Gaussi
 $$
 
 
-\begin{aligned}𝑀 & =[\begin{aligned}21 & −21 & −39 \\ −21 & 21 & 39\end{aligned}] & 𝑅_{2}:=𝑅_{2}+𝑅_{1} \\ & ∼[\begin{aligned}21 & −21 & −39 \\ 0 & 0 & 0\end{aligned}] & \end{aligned}
+\begin{aligned}𝑀 & =[\begin{matrix}21 & −21 & −39 \\ −21 & 21 & 39\end{matrix}] & 𝑅_{2}:=𝑅_{2}+𝑅_{1} \\ & ∼[\begin{matrix}21 & −21 & −39 \\ 0 & 0 & 0\end{matrix}] & \end{aligned}
 
 
 $$
@@ -243,15 +243,15 @@ $$
 
 ### A Geometric Interpretation of the Weighted Least-Squares Solution
 
-Recall that if the solution ${\hat{\mathbf{x}}}$ of the least-squares problem $A\mathbf x=\mathbf{b}$ is unique, then $A{\hat{\mathbf{x}}}$ lies in $\textrm{Col}(A).$ Furthermore, $A{\hat{\mathbf{x}}}$ is the vector in $\textrm{Col}(A)$ that's closest to $\mathbf b.$
+Recall that if the solution ${\hat{\mathbf{x}}}$ of the least-squares problem $A\mathbf x=\mathbf{b}$ is unique, then $A{\hat{\mathbf{x}}}$ lies in $\text{Col}(A).$ Furthermore, $A{\hat{\mathbf{x}}}$ is the vector in $\text{Col}(A)$ that's closest to $\mathbf b.$
 
-In terms of vector spaces, the vector $A{\hat{\mathbf{x}}}$ is the orthogonal projection of $\mathbf{b}$ onto the subspace spanned by the columns of $A.$ Therefore, the error vector $A{\hat{\mathbf{x}}} - \mathbf{b}$ is orthogonal to $\textrm{Col}(A).$
+In terms of vector spaces, the vector $A{\hat{\mathbf{x}}}$ is the orthogonal projection of $\mathbf{b}$ onto the subspace spanned by the columns of $A.$ Therefore, the error vector $A{\hat{\mathbf{x}}} - \mathbf{b}$ is orthogonal to $\text{Col}(A).$
 
 ![Instructional graphic](../../../lesson-assets/linear-algebra/topic-3135/75a21e631ad67f07.png)
 
 A similar property holds for weighted least-squares solutions:
 
-*If the solution ${\hat{\mathbf{x}}}$ of the least-squares problem $W\!A\mathbf x=W\mathbf{b}$ is unique, then $A{\hat{\mathbf{x}}} - \mathbf{b}$ is orthogonal to $\textrm{Col}(A)$ with respect to the weighted dot product defined as where the $w_i$'s are the weights from the main diagonal of the weight matrix $W.$*
+*If the solution ${\hat{\mathbf{x}}}$ of the least-squares problem $W\!A\mathbf x=W\mathbf{b}$ is unique, then $A{\hat{\mathbf{x}}} - \mathbf{b}$ is orthogonal to $\text{Col}(A)$ with respect to the weighted dot product defined as where the $w_i$'s are the weights from the main diagonal of the weight matrix $W.$*
 
 We previously considered the weighted least-squares problem $W\!Ax=W\mathbf{b},$ where
 
@@ -278,7 +278,7 @@ Computing our error vector $\boldsymbol{\varepsilon} = A{\hat{\mathbf{x}}} - \ma
 $$
 
 
-\begin{aligned}𝜺 & =𝐴\overset{𝐱}{^}−𝐛 \\ & =\begin{aligned}1 & −1 \\ 1 & 0 \\ 2 & −1\end{aligned}⋅[\begin{aligned}4 \\ −6\end{aligned}]−\begin{aligned}9 \\ 0 \\ 18\end{aligned} \\ & =\begin{aligned}10 \\ 4 \\ 14\end{aligned}−\begin{aligned}9 \\ 0 \\ 18\end{aligned} \\ & =\begin{aligned}1 \\ 4 \\ −4\end{aligned}.\end{aligned}
+\begin{aligned}𝜺 & =𝐴\hat{𝐱}−𝐛 \\ & =\begin{matrix}1 & −1 \\ 1 & 0 \\ 2 & −1\end{matrix}⋅[\begin{matrix}4 \\ −6\end{matrix}]−\begin{matrix}9 \\ 0 \\ 18\end{matrix} \\ & =\begin{matrix}10 \\ 4 \\ 14\end{matrix}−\begin{matrix}9 \\ 0 \\ 18\end{matrix} \\ & =\begin{matrix}1 \\ 4 \\ −4\end{matrix}.\end{aligned}
 
 
 $$
@@ -314,17 +314,17 @@ we obtain the following:
 $$
 
 
-\begin{aligned}⟨𝜺,𝐚_{1}⟩_{𝑊} & =⟨\begin{aligned}1 \\ 4 \\ −4\end{aligned},\begin{aligned}1 \\ 1 \\ 2\end{aligned}⟩_{𝑊} \\ & =4(1)(1)+(4)(1)+(−4)(2) \\ & =0\,✓ \\ ⟨𝜺,𝐚_{2}⟩_{𝑊} & =⟨\begin{aligned}1 \\ 4 \\ −4\end{aligned},\begin{aligned}−1 \\ 0 \\ −1\end{aligned}⟩_{𝑊} \\ & =4(1)(−1)+(4)(0)+(−4)(−1) \\ & =0\,✓\end{aligned}
+\begin{aligned}⟨𝜺,𝐚_{1}⟩_{𝑊} & =⟨\begin{matrix}1 \\ 4 \\ −4\end{matrix},\begin{matrix}1 \\ 1 \\ 2\end{matrix}⟩_{𝑊} \\ & =4(1)(1)+(4)(1)+(−4)(2) \\ & =0\,✓ \\ ⟨𝜺,𝐚_{2}⟩_{𝑊} & =⟨\begin{matrix}1 \\ 4 \\ −4\end{matrix},\begin{matrix}−1 \\ 0 \\ −1\end{matrix}⟩_{𝑊} \\ & =4(1)(−1)+(4)(0)+(−4)(−1) \\ & =0\,✓\end{aligned}
 
 
 $$
 
-This means that $A{\hat{\mathbf{x}}} - \mathbf{b}$ is orthogonal to $\textrm{Col}(A)$ with respect to the weighted dot product. We can write this as
+This means that $A{\hat{\mathbf{x}}} - \mathbf{b}$ is orthogonal to $\text{Col}(A)$ with respect to the weighted dot product. We can write this as
 
 $$
 
 
-A{\hat{\mathbf{x}}} - \mathbf{b} \perp_W \textrm{Col}(A).
+A{\hat{\mathbf{x}}} - \mathbf{b} \perp_W \text{Col}(A).
 
 
 $$

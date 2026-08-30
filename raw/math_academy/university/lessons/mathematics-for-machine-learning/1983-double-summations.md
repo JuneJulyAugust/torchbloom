@@ -134,7 +134,7 @@ Recall that for single summations, we have
 $$
 
 
-\sum_{j=1}^{n} 1 = \underbrace{1+1+\cdots+1}_{n\textrm{ times}} = n.
+\sum_{j=1}^{n} 1 = \underbrace{1+1+\cdots+1}_{n\text{ times}} = n.
 
 
 $$

@@ -14,7 +14,7 @@ Topic ID: 1107
 
 A **vector** is a mathematical object that is used to represent quantities that have both **direction** and **magnitude.** We can think of a vector as a "directed line segment".
 
-For example, consider a ship that travels $15\:\textrm{km}$ due east. In the diagram below, the ship starts at the point $A$ and ends at the point $B.$ This information can be represented as a **vector**, a directed line segment that starts at $A$ and points to $B,$ as follows:
+For example, consider a ship that travels $15\:\text{km}$ due east. In the diagram below, the ship starts at the point $A$ and ends at the point $B.$ This information can be represented as a **vector**, a directed line segment that starts at $A$ and points to $B,$ as follows:
 
 ![Instructional graphic](../../../../lesson-assets/integrated-math-iii-honors/topic-1107/6e9d07818debbfaf.png)
 
@@ -28,7 +28,7 @@ The vector can be written using its endpoints as $\overrightarrow{AB}.$ We can a
 
 #### Question
 
-Show on a picture the displacement vector of a ship that travels $5\:\textrm{km}$ on a bearing of ${30}^{\circ}$.
+Show on a picture the displacement vector of a ship that travels $5\:\text{km}$ on a bearing of ${30}^{\circ}$.
 
 #### Explanation
 

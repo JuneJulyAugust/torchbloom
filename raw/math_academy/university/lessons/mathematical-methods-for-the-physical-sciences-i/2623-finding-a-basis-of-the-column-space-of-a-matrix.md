@@ -32,22 +32,22 @@ $$
 
 $$
 
-So, to find a basis of $\textrm{Col}(A),$ we can apply the usual procedure of converting the matrix $A$ to row echelon form and then picking the pivot columns from the original matrix $A.$
+So, to find a basis of $\text{Col}(A),$ we can apply the usual procedure of converting the matrix $A$ to row echelon form and then picking the pivot columns from the original matrix $A.$
 
 ### Example: Finding a Basis of the Column Space of a Matrix
 
 #### Question
 
-Consider the matrix $[\begin{aligned}1 & 2 & −1 \\ 3 & 2 & 5\end{aligned}]$ Find a basis $\mathcal B$ of $\textrm{Col}(A).$
+Consider the matrix $[\begin{aligned}1 & 2 & −1 \\ 3 & 2 & 5\end{aligned}]$ Find a basis $\mathcal B$ of $\text{Col}(A).$
 
 #### Explanation
 
-In order to find a basis of $\textrm{Col}(A),$ we need reduce the matrix $A$ to row echelon form:
+In order to find a basis of $\text{Col}(A),$ we need reduce the matrix $A$ to row echelon form:
 
 $$
 
 
-\begin{aligned}𝐴 & =[\begin{aligned}1 & 2 & −1 \\ 3 & 2 & 5\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+(−3)𝑅_{1} \\ & ∼[\begin{aligned}1 & 2 & −1 \\ 0 & −4 & 8\end{aligned}] & & \end{aligned}
+\begin{aligned}𝐴 & =[\begin{matrix}1 & 2 & −1 \\ 3 & 2 & 5\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+(−3)𝑅_{1} \\ & ∼[\begin{matrix}1 & 2 & −1 \\ 0 & −4 & 8\end{matrix}] & & \end{aligned}
 
 
 $$
@@ -56,7 +56,7 @@ The pivot columns correspond to linearly independent vectors, while the non-pivo
 
 Remember that we need to pick the pivot columns from the **, not from the reduced one.
 
-The $1$st and $2$nd columns from the original matrix are $\mathbf{a}_1$ and $\mathbf{a}_2.$ So, a basis of $\textrm{Col}(A)$ is $\{\mathbf{a}_1, \mathbf{a}_2 \},$ that is to say,
+The $1$st and $2$nd columns from the original matrix are $\mathbf{a}_1$ and $\mathbf{a}_2.$ So, a basis of $\text{Col}(A)$ is $\{\mathbf{a}_1, \mathbf{a}_2 \},$ that is to say,
 
 $$
 
@@ -68,7 +68,7 @@ $$
 
 ### Finding a Particular Linear Combination of Vectors
 
-In the previous example, we computed a basis of $\textrm{Col}(A),$ where
+In the previous example, we computed a basis of $\text{Col}(A),$ where
 
 $$
 
@@ -148,7 +148,7 @@ In general, if the $n$th column of the reduced matrix is a non-pivot column, the
 
 #### Question
 
-The matrix $A$ is given below. Let $\mathbf{a}_1$, $\mathbf{a}_2$, and $\mathbf{a}_3$ be the respective columns of $A.$ Determine if $𝐚_{1},𝐚_{2}$ is a basis of $\textrm{Col}(A).$ If that is the case, find $x_1 \cdot x_2$, where $\mathbf{a}_3=x_1\mathbf{a}_1+x_2\mathbf{a}_2.$
+The matrix $A$ is given below. Let $\mathbf{a}_1$, $\mathbf{a}_2$, and $\mathbf{a}_3$ be the respective columns of $A.$ Determine if $𝐚_{1},𝐚_{2}$ is a basis of $\text{Col}(A).$ If that is the case, find $x_1 \cdot x_2$, where $\mathbf{a}_3=x_1\mathbf{a}_1+x_2\mathbf{a}_2.$
 
 $$
 
@@ -165,12 +165,12 @@ First, we reduce the matrix $A$ to reduced row echelon form (RREF):
 $$
 
 
-\begin{aligned}𝐴 & =[\begin{aligned}1 & 2 & 9 \\ 3 & 1 & 17\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+(−3)𝑅_{1} \\ & ∼[\begin{aligned}1 & 2 & 9 \\ 0 & −5 & −10\end{aligned}] & 𝑅_{2} & :=(−\frac{1}{5})𝑅_{2} \\ & ∼[\begin{aligned}1 & 2 & 9 \\ 0 & 1 & 2\end{aligned}] & 𝑅_{1} & :=𝑅_{1}+(−2)𝑅_{2} \\ & ∼[\begin{aligned}1 & 0 & 5 \\ 0 & 1 & 2\end{aligned}] & & \end{aligned}
+\begin{aligned}𝐴 & =[\begin{matrix}1 & 2 & 9 \\ 3 & 1 & 17\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+(−3)𝑅_{1} \\ & ∼[\begin{matrix}1 & 2 & 9 \\ 0 & −5 & −10\end{matrix}] & 𝑅_{2} & :=(−\frac{1}{5})𝑅_{2} \\ & ∼[\begin{matrix}1 & 2 & 9 \\ 0 & 1 & 2\end{matrix}] & 𝑅_{1} & :=𝑅_{1}+(−2)𝑅_{2} \\ & ∼[\begin{matrix}1 & 0 & 5 \\ 0 & 1 & 2\end{matrix}] & & \end{aligned}
 
 
 $$
 
-From the matrix above, we see that the pivot columns are the $1$st and $2$nd columns. So, a basis of $\textrm{Col}(A)$ is $\{\mathbf{a}_1,\mathbf{a}_2 \},$ that is to say,
+From the matrix above, we see that the pivot columns are the $1$st and $2$nd columns. So, a basis of $\text{Col}(A)$ is $\{\mathbf{a}_1,\mathbf{a}_2 \},$ that is to say,
 
 $$
 
@@ -196,7 +196,7 @@ This gives us $x_1 \cdot x_2 = 5 \cdot 2=10.$
 
 #### Question
 
-The matrix $A$ is given below. Let $\mathbf{a}_1$, $\mathbf{a}_2$, $\mathbf{a}_3$, and $\mathbf{a}_4$ be the respective columns of $A.$ Determine if $𝐚_{1},𝐚_{2}$ is a basis of $\textrm{Col}(A).$ If that is the case, find $x_1 \cdot x_2$, where $\mathbf{a}_4=x_1\mathbf{a}_1+x_2\mathbf{a}_2.$
+The matrix $A$ is given below. Let $\mathbf{a}_1$, $\mathbf{a}_2$, $\mathbf{a}_3$, and $\mathbf{a}_4$ be the respective columns of $A.$ Determine if $𝐚_{1},𝐚_{2}$ is a basis of $\text{Col}(A).$ If that is the case, find $x_1 \cdot x_2$, where $\mathbf{a}_4=x_1\mathbf{a}_1+x_2\mathbf{a}_2.$
 
 $$
 
@@ -213,12 +213,12 @@ First, we reduce the matrix $A$ to reduced row echelon form (RREF):
 $$
 
 
-\begin{aligned}𝐴 & =\begin{aligned}2 & 0 & −4 & 4 \\ 0 & 1 & −6 & −3 \\ 1 & 2 & −14 & −4\end{aligned} & 𝑅_{1} & :=\frac{1}{2}𝑅_{1} \\ & ∼\begin{aligned}1 & 0 & −2 & 2 \\ 0 & 1 & −6 & −3 \\ 1 & 2 & −14 & −4\end{aligned} & 𝑅_{3} & :=𝑅_{3}+(−1)𝑅_{1} \\ & ∼\begin{aligned}1 & 0 & −2 & 2 \\ 0 & 1 & −6 & −3 \\ 0 & 2 & −12 & −6\end{aligned} & 𝑅_{3} & :=𝑅_{3}+(−2)𝑅_{2} \\ & ∼\begin{aligned}1 & 0 & −2 & 2 \\ 0 & 1 & −6 & −3 \\ 0 & 0 & 0 & 0\end{aligned} & & \end{aligned}
+\begin{aligned}𝐴 & =\begin{matrix}2 & 0 & −4 & 4 \\ 0 & 1 & −6 & −3 \\ 1 & 2 & −14 & −4\end{matrix} & 𝑅_{1} & :=\frac{1}{2}𝑅_{1} \\ & ∼\begin{matrix}1 & 0 & −2 & 2 \\ 0 & 1 & −6 & −3 \\ 1 & 2 & −14 & −4\end{matrix} & 𝑅_{3} & :=𝑅_{3}+(−1)𝑅_{1} \\ & ∼\begin{matrix}1 & 0 & −2 & 2 \\ 0 & 1 & −6 & −3 \\ 0 & 2 & −12 & −6\end{matrix} & 𝑅_{3} & :=𝑅_{3}+(−2)𝑅_{2} \\ & ∼\begin{matrix}1 & 0 & −2 & 2 \\ 0 & 1 & −6 & −3 \\ 0 & 0 & 0 & 0\end{matrix} & & \end{aligned}
 
 
 $$
 
-From the matrix above, we see that the pivot columns are the $1$st and $2$nd columns. So, a basis of $\textrm{Col}(A)$ is $\{\mathbf{a}_1,\mathbf{a}_2 \},$ that is to say,
+From the matrix above, we see that the pivot columns are the $1$st and $2$nd columns. So, a basis of $\text{Col}(A)$ is $\{\mathbf{a}_1,\mathbf{a}_2 \},$ that is to say,
 
 $$
 

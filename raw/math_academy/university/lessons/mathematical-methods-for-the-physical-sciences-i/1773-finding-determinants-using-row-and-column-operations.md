@@ -30,7 +30,7 @@ Since adding a multiple of one column to another column in a matrix does not cha
 $$
 
 
-\begin{aligned} & \,\,=\begin{aligned}2 & 1 & 1 \\ 1 & 2 & 3 \\ 8 & 14 & 17\end{aligned} & & \,\begin{aligned}𝐶_{2}:=𝐶_{2}+(−2)𝐶_{1} \\ 𝐶_{3}:=𝐶_{3}+(−3)𝐶_{1}\end{aligned} \\ & =\begin{aligned}2 & −3 & −5 \\ 1 & 0 & 0 \\ 8 & −2 & −7\end{aligned}. & & \end{aligned}
+\begin{aligned} & \,\,=\begin{matrix}2 & 1 & 1 \\ 1 & 2 & 3 \\ 8 & 14 & 17\end{matrix} & & \,\begin{matrix}𝐶_{2}:=𝐶_{2}+(−2)𝐶_{1} \\ 𝐶_{3}:=𝐶_{3}+(−3)𝐶_{1}\end{matrix} \\ & =\begin{matrix}2 & −3 & −5 \\ 1 & 0 & 0 \\ 8 & −2 & −7\end{matrix}. & & \end{aligned}
 
 
 $$
@@ -40,7 +40,7 @@ Expanding the result along the $2$nd row, we get
 $$
 
 
-\begin{aligned} & \,\,=\begin{aligned}2 & −3 & −5 \\ 1 & 0 & 0 \\ 8 & −2 & −7\end{aligned} \\ & =1⋅(−1)^{2+1}\begin{aligned}−3 & −5 \\ −2 & −7\end{aligned} \\ & =−(21−10) \\ & =−11.\end{aligned}
+\begin{aligned} & \,\,=\begin{matrix}2 & −3 & −5 \\ 1 & 0 & 0 \\ 8 & −2 & −7\end{matrix} \\ & =1⋅(−1)^{2+1}\begin{matrix}−3 & −5 \\ −2 & −7\end{matrix} \\ & =−(21−10) \\ & =−11.\end{aligned}
 
 
 $$
@@ -70,7 +70,7 @@ Since adding a multiple of one row (or column) to another row (or column) in a m
 $$
 
 
-\begin{aligned} & \,\,=\begin{aligned}1 & 2 & 3 & 1 \\ 2 & −1 & 5 & −7 \\ 4 & −2 & 4 & −5 \\ −3 & 3 & −3 & −4\end{aligned} & & \,\begin{aligned}𝑅_{2}:=𝑅_{2}+(−2)𝑅_{1} \\ 𝑅_{3}:=𝑅_{3}+(−4)𝑅_{1} \\ 𝑅_{4}:=𝑅_{4}+3𝑅_{1}\end{aligned} \\ & =\begin{aligned}1 & 2 & 3 & 1 \\ 0 & −5 & −1 & −9 \\ 0 & −10 & −8 & −9 \\ 0 & 9 & 6 & −1\end{aligned}. & & \end{aligned}
+\begin{aligned} & \,\,=\begin{matrix}1 & 2 & 3 & 1 \\ 2 & −1 & 5 & −7 \\ 4 & −2 & 4 & −5 \\ −3 & 3 & −3 & −4\end{matrix} & & \,\begin{matrix}𝑅_{2}:=𝑅_{2}+(−2)𝑅_{1} \\ 𝑅_{3}:=𝑅_{3}+(−4)𝑅_{1} \\ 𝑅_{4}:=𝑅_{4}+3𝑅_{1}\end{matrix} \\ & =\begin{matrix}1 & 2 & 3 & 1 \\ 0 & −5 & −1 & −9 \\ 0 & −10 & −8 & −9 \\ 0 & 9 & 6 & −1\end{matrix}. & & \end{aligned}
 
 
 $$
@@ -80,7 +80,7 @@ Expanding the result along the $1$st column, we get
 $$
 
 
-\begin{aligned} & \,\,=\begin{aligned}1 & 2 & 3 & 1 \\ 0 & −5 & −1 & −9 \\ 0 & −10 & −8 & −9 \\ 0 & 9 & 6 & −1\end{aligned} \\ & =1⋅(−1)^{1+1}\begin{aligned}−5 & −1 & −9 \\ −10 & −8 & −9 \\ 9 & 6 & −1\end{aligned} \\ & =\begin{aligned}−5 & −1 & −9 \\ −10 & −8 & −9 \\ 9 & 6 & −1\end{aligned}.\end{aligned}
+\begin{aligned} & \,\,=\begin{matrix}1 & 2 & 3 & 1 \\ 0 & −5 & −1 & −9 \\ 0 & −10 & −8 & −9 \\ 0 & 9 & 6 & −1\end{matrix} \\ & =1⋅(−1)^{1+1}\begin{matrix}−5 & −1 & −9 \\ −10 & −8 & −9 \\ 9 & 6 & −1\end{matrix} \\ & =\begin{matrix}−5 & −1 & −9 \\ −10 & −8 & −9 \\ 9 & 6 & −1\end{matrix}.\end{aligned}
 
 
 $$
@@ -110,7 +110,7 @@ Since adding a multiple of one row (or column) to another row (or column) in a m
 $$
 
 
-\begin{aligned} & \,\,=\begin{aligned}2 & 3 & 2 & 2 \\ −1 & 2 & 1 & −3 \\ 2 & −2 & −2 & 4 \\ −4 & −4 & 3 & 2\end{aligned} & & \,\begin{aligned}𝐶_{1}:=𝐶_{1}+𝐶_{3} \\ 𝐶_{2}:=𝐶_{2}+(−2)𝐶_{3} \\ 𝐶_{4}:=𝐶_{4}+3𝐶_{3}\end{aligned} \\ & =\begin{aligned}4 & −1 & 2 & 8 \\ 0 & 0 & 1 & 0 \\ 0 & 2 & −2 & −2 \\ −1 & −10 & 3 & 11\end{aligned}. & & \end{aligned}
+\begin{aligned} & \,\,=\begin{matrix}2 & 3 & 2 & 2 \\ −1 & 2 & 1 & −3 \\ 2 & −2 & −2 & 4 \\ −4 & −4 & 3 & 2\end{matrix} & & \,\begin{matrix}𝐶_{1}:=𝐶_{1}+𝐶_{3} \\ 𝐶_{2}:=𝐶_{2}+(−2)𝐶_{3} \\ 𝐶_{4}:=𝐶_{4}+3𝐶_{3}\end{matrix} \\ & =\begin{matrix}4 & −1 & 2 & 8 \\ 0 & 0 & 1 & 0 \\ 0 & 2 & −2 & −2 \\ −1 & −10 & 3 & 11\end{matrix}. & & \end{aligned}
 
 
 $$
@@ -120,7 +120,7 @@ Expanding the result along the $2$nd row, we get
 $$
 
 
-\begin{aligned} & \,\,=\begin{aligned}4 & −1 & 2 & 8 \\ 0 & 0 & 1 & 0 \\ 0 & 2 & −2 & −2 \\ −1 & −10 & 3 & 11\end{aligned} \\ & =1⋅(−1)^{2+3}\begin{aligned}4 & −1 & 8 \\ 0 & 2 & −2 \\ −1 & −10 & 11\end{aligned} \\ & =−\begin{aligned}4 & −1 & 8 \\ 0 & 2 & −2 \\ −1 & −10 & 11\end{aligned}.\end{aligned}
+\begin{aligned} & \,\,=\begin{matrix}4 & −1 & 2 & 8 \\ 0 & 0 & 1 & 0 \\ 0 & 2 & −2 & −2 \\ −1 & −10 & 3 & 11\end{matrix} \\ & =1⋅(−1)^{2+3}\begin{matrix}4 & −1 & 8 \\ 0 & 2 & −2 \\ −1 & −10 & 11\end{matrix} \\ & =−\begin{matrix}4 & −1 & 8 \\ 0 & 2 & −2 \\ −1 & −10 & 11\end{matrix}.\end{aligned}
 
 
 $$
@@ -142,7 +142,7 @@ Since adding a multiple of one row (or column) to another row (or column) in a m
 $$
 
 
-\begin{aligned} & \,\,=\begin{aligned}1 & −1 & 3 & 2 \\ 2 & −4 & −2 & 6 \\ 1 & −2 & −3 & 3 \\ −3 & 3 & 4 & 2\end{aligned} & & \,\begin{aligned}𝐶_{2}:=𝐶_{2}+2𝐶_{1} \\ 𝐶_{3}:=𝐶_{3}+3𝐶_{1} \\ 𝐶_{4}:=𝐶_{4}+(−3)𝐶_{1}\end{aligned} \\ & =\begin{aligned}1 & 1 & 6 & −1 \\ 2 & 0 & 4 & 0 \\ 1 & 0 & 0 & 0 \\ −3 & −3 & −5 & 11\end{aligned}. & & \end{aligned}
+\begin{aligned} & \,\,=\begin{matrix}1 & −1 & 3 & 2 \\ 2 & −4 & −2 & 6 \\ 1 & −2 & −3 & 3 \\ −3 & 3 & 4 & 2\end{matrix} & & \,\begin{matrix}𝐶_{2}:=𝐶_{2}+2𝐶_{1} \\ 𝐶_{3}:=𝐶_{3}+3𝐶_{1} \\ 𝐶_{4}:=𝐶_{4}+(−3)𝐶_{1}\end{matrix} \\ & =\begin{matrix}1 & 1 & 6 & −1 \\ 2 & 0 & 4 & 0 \\ 1 & 0 & 0 & 0 \\ −3 & −3 & −5 & 11\end{matrix}. & & \end{aligned}
 
 
 $$
@@ -152,7 +152,7 @@ Expanding the result along the $3$rd row, we get
 $$
 
 
-\begin{aligned} & \,\,=\begin{aligned}1 & 1 & 6 & −1 \\ 2 & 0 & 4 & 0 \\ 1 & 0 & 0 & 0 \\ −3 & −3 & −5 & 11\end{aligned} \\ & =1⋅(−1)^{3+1}\begin{aligned}1 & 6 & −1 \\ 0 & 4 & 0 \\ −3 & −5 & 11\end{aligned} \\ & =\begin{aligned}1 & 6 & −1 \\ 0 & 4 & 0 \\ −3 & −5 & 11\end{aligned} \\ & =4⋅(−1)^{2+2}\begin{aligned}1 & −1 \\ −3 & 11\end{aligned} \\ & =4(11−3) \\ & =32.\end{aligned}
+\begin{aligned} & \,\,=\begin{matrix}1 & 1 & 6 & −1 \\ 2 & 0 & 4 & 0 \\ 1 & 0 & 0 & 0 \\ −3 & −3 & −5 & 11\end{matrix} \\ & =1⋅(−1)^{3+1}\begin{matrix}1 & 6 & −1 \\ 0 & 4 & 0 \\ −3 & −5 & 11\end{matrix} \\ & =\begin{matrix}1 & 6 & −1 \\ 0 & 4 & 0 \\ −3 & −5 & 11\end{matrix} \\ & =4⋅(−1)^{2+2}\begin{matrix}1 & −1 \\ −3 & 11\end{matrix} \\ & =4(11−3) \\ & =32.\end{aligned}
 
 
 $$

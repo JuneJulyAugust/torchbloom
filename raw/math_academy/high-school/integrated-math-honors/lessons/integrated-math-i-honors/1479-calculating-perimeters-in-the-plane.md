@@ -45,7 +45,7 @@ To compute the length of $\overline{AC},$ we use the distance formula, as follow
 $$
 
 
-\begin{aligned}𝐴𝐶 & =\sqrt{√(𝑥_{𝐶}−𝑥_{𝐴})^{2}+(𝑦_{𝐶}−𝑦_{𝐴})^{2}} \\ & =\sqrt{√(3−6)^{2}+(8−4)^{2}} \\ & =\sqrt{√9+16} \\ & =5\end{aligned}
+\begin{aligned}𝐴𝐶 & =\sqrt{(𝑥_{𝐶}−𝑥_{𝐴})^{2}+(𝑦_{𝐶}−𝑦_{𝐴})^{2}} \\ & =\sqrt{(3−6)^{2}+(8−4)^{2}} \\ & =\sqrt{9+16} \\ & =5\end{aligned}
 
 
 $$
@@ -121,7 +121,7 @@ To compute the length of $\overline{BC},$ we use the distance formula, as follow
 $$
 
 
-\begin{aligned}𝐵𝐶 & =\sqrt{√(𝑥_{𝐶}−𝑥_{𝐵})^{2}+(𝑦_{𝐶}−𝑦_{𝐵})^{2}} \\ & =\sqrt{√(6−4)^{2}+(3−1)^{2}} \\ & =\sqrt{√4+4} \\ & =2\sqrt{√2}\end{aligned}
+\begin{aligned}𝐵𝐶 & =\sqrt{(𝑥_{𝐶}−𝑥_{𝐵})^{2}+(𝑦_{𝐶}−𝑦_{𝐵})^{2}} \\ & =\sqrt{(6−4)^{2}+(3−1)^{2}} \\ & =\sqrt{4+4} \\ & =2\sqrt{2}\end{aligned}
 
 
 $$
@@ -131,7 +131,7 @@ Therefore, the perimeter of the parallelogram is
 $$
 
 
-\begin{aligned}𝑝 & =𝐴𝐵+𝐴𝐶+𝐵𝐶+𝐶𝐷 \\ & =2𝐴𝐵+2𝐵𝐶 \\ & =2⋅5+2⋅2\sqrt{√2} \\ & =10+4\sqrt{√2}.\end{aligned}
+\begin{aligned}𝑝 & =𝐴𝐵+𝐴𝐶+𝐵𝐶+𝐶𝐷 \\ & =2𝐴𝐵+2𝐵𝐶 \\ & =2⋅5+2⋅2\sqrt{2} \\ & =10+4\sqrt{2}.\end{aligned}
 
 
 $$
@@ -149,7 +149,7 @@ We need to calculate the measure of the sides of the square. To do that, we firs
 $$
 
 
-\begin{aligned}𝐴𝐶 & =\sqrt{√(𝑥_{𝐶}−𝑥_{𝐴})^{2}+(𝑦_{𝐶}−𝑦_{𝐴})^{2}} \\ & =\sqrt{√(5−2)^{2}+(5−2)^{2}} \\ & =\sqrt{√3^{2}+3^{2}} \\ & =\sqrt{√9+9} \\ & =\sqrt{√18} \\ & =3\sqrt{√2}\end{aligned}
+\begin{aligned}𝐴𝐶 & =\sqrt{(𝑥_{𝐶}−𝑥_{𝐴})^{2}+(𝑦_{𝐶}−𝑦_{𝐴})^{2}} \\ & =\sqrt{(5−2)^{2}+(5−2)^{2}} \\ & =\sqrt{3^{2}+3^{2}} \\ & =\sqrt{9+9} \\ & =\sqrt{18} \\ & =3\sqrt{2}\end{aligned}
 
 
 $$
@@ -159,7 +159,7 @@ Now, if $a$ is the measure of a side of the square, we obtain
 $$
 
 
-\begin{aligned}𝑎 & =\frac{𝐴𝐶}{\sqrt{√2}} \\ & =\frac{3\sqrt{√2}}{\sqrt{√2}} \\ & =3.\end{aligned}
+\begin{aligned}𝑎 & =\frac{𝐴𝐶}{\sqrt{2}} \\ & =\frac{3\sqrt{2}}{\sqrt{2}} \\ & =3.\end{aligned}
 
 
 $$
@@ -203,7 +203,7 @@ On the other hand, the length of $\overline{AC}$ can be found as follows:
 $$
 
 
-\begin{aligned}𝐴𝐶 & =\sqrt{√(𝑥_{𝐶}−𝑥_{𝐴})^{2}+(𝑦_{𝐶}−𝑦_{𝐴})^{2}} \\ & =\sqrt{√(−3−(−6))^{2}+(𝑞−4)^{2}} \\ & =\sqrt{√9+(𝑞−4)^{2}}\end{aligned}
+\begin{aligned}𝐴𝐶 & =\sqrt{(𝑥_{𝐶}−𝑥_{𝐴})^{2}+(𝑦_{𝐶}−𝑦_{𝐴})^{2}} \\ & =\sqrt{(−3−(−6))^{2}+(𝑞−4)^{2}} \\ & =\sqrt{9+(𝑞−4)^{2}}\end{aligned}
 
 
 $$

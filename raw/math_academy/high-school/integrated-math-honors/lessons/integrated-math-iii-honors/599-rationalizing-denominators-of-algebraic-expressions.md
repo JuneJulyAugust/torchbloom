@@ -32,7 +32,7 @@ all we need to do is multiply both the numerator and denominator by $\sqrt{x}$ a
 $$
 
 
-\begin{aligned}\frac{1}{\sqrt{√𝑥}} & = \\ \frac{1}{\sqrt{√𝑥}}\,⋅\,\frac{\sqrt{√𝑥}}{\sqrt{√𝑥}} & = \\ \frac{\sqrt{√𝑥}}{(\sqrt{√𝑥})^{2}} & = \\ \frac{\sqrt{√𝑥}}{𝑥} & \end{aligned}
+\begin{aligned}\frac{1}{\sqrt{𝑥}} & = \\ \frac{1}{\sqrt{𝑥}}\,⋅\,\frac{\sqrt{𝑥}}{\sqrt{𝑥}} & = \\ \frac{\sqrt{𝑥}}{(\sqrt{𝑥})^{2}} & = \\ \frac{\sqrt{𝑥}}{𝑥} & \end{aligned}
 
 
 $$
@@ -54,7 +54,7 @@ We need to remove the radical $\sqrt{y}$ from the denominator. To do this, we mu
 $$
 
 
-\begin{aligned}\frac{𝑥}{2\sqrt{√𝑦}} & = \\ \frac{𝑥}{2\sqrt{√𝑦}}⋅\frac{\sqrt{√𝑦}}{\sqrt{√𝑦}} & = \\ \frac{𝑥⋅\sqrt{√𝑦}}{2\sqrt{√𝑦}⋅\sqrt{√𝑦}} & = \\ \frac{𝑥\sqrt{√𝑦}}{2(\sqrt{√𝑦})^{2}} & = \\ \frac{𝑥\sqrt{√𝑦}}{2𝑦} & \end{aligned}
+\begin{aligned}\frac{𝑥}{2\sqrt{𝑦}} & = \\ \frac{𝑥}{2\sqrt{𝑦}}⋅\frac{\sqrt{𝑦}}{\sqrt{𝑦}} & = \\ \frac{𝑥⋅\sqrt{𝑦}}{2\sqrt{𝑦}⋅\sqrt{𝑦}} & = \\ \frac{𝑥\sqrt{𝑦}}{2(\sqrt{𝑦})^{2}} & = \\ \frac{𝑥\sqrt{𝑦}}{2𝑦} & \end{aligned}
 
 
 $$
@@ -72,7 +72,7 @@ First, we apply the quotient rule and put the numerator and denominator under se
 $$
 
 
-\begin{aligned}\sqrt{√\frac{3}{8𝑎}} & =\frac{\sqrt{√3}}{\sqrt{√8𝑎}}\end{aligned}
+\begin{aligned}\sqrt{\frac{3}{8𝑎}} & =\frac{\sqrt{3}}{\sqrt{8𝑎}}\end{aligned}
 
 
 $$
@@ -82,7 +82,7 @@ Now, we need to remove the radical $\sqrt{8a}$ from the denominator. To do this,
 $$
 
 
-\begin{aligned}\frac{\sqrt{√3}}{\sqrt{√8𝑎}}⋅\frac{\sqrt{√8𝑎}}{\sqrt{√8𝑎}} & = \\ \frac{\sqrt{√24𝑎}}{(\sqrt{√8𝑎})^{2}} & = \\ \frac{\sqrt{√4⋅6𝑎}}{8𝑎} & = \\ \frac{2\sqrt{√6𝑎}}{8𝑎} & = \\ \frac{\sqrt{√6𝑎}}{4𝑎} & \end{aligned}
+\begin{aligned}\frac{\sqrt{3}}{\sqrt{8𝑎}}⋅\frac{\sqrt{8𝑎}}{\sqrt{8𝑎}} & = \\ \frac{\sqrt{24𝑎}}{(\sqrt{8𝑎})^{2}} & = \\ \frac{\sqrt{4⋅6𝑎}}{8𝑎} & = \\ \frac{2\sqrt{6𝑎}}{8𝑎} & = \\ \frac{\sqrt{6𝑎}}{4𝑎} & \end{aligned}
 
 
 $$
@@ -100,7 +100,7 @@ We need to remove the radical $\sqrt{z+1}$ from the denominator. To do this, we 
 $$
 
 
-\begin{aligned}\frac{\sqrt{√𝑦}+2}{\sqrt{√𝑧+1}} & = \\ \frac{\sqrt{√𝑦}+2}{\sqrt{√𝑧+1}}⋅\frac{\sqrt{√𝑧+1}}{\sqrt{√𝑧+1}} & = \\ \frac{(\sqrt{√𝑦}+2)\sqrt{√𝑧+1}}{(\sqrt{√𝑧+1})^{2}} & = \\ \frac{\sqrt{√𝑦}⋅\sqrt{√𝑧+1}+2⋅\sqrt{√𝑧+1}}{𝑧+1} & = \\ \frac{\sqrt{√𝑦⋅(𝑧+1)}+2\sqrt{√𝑧+1}}{𝑧+1} & = \\ \frac{\sqrt{√𝑦𝑧+𝑦}+2\sqrt{√𝑧+1}}{𝑧+1} & \end{aligned}
+\begin{aligned}\frac{\sqrt{𝑦}+2}{\sqrt{𝑧+1}} & = \\ \frac{\sqrt{𝑦}+2}{\sqrt{𝑧+1}}⋅\frac{\sqrt{𝑧+1}}{\sqrt{𝑧+1}} & = \\ \frac{(\sqrt{𝑦}+2)\sqrt{𝑧+1}}{(\sqrt{𝑧+1})^{2}} & = \\ \frac{\sqrt{𝑦}⋅\sqrt{𝑧+1}+2⋅\sqrt{𝑧+1}}{𝑧+1} & = \\ \frac{\sqrt{𝑦⋅(𝑧+1)}+2\sqrt{𝑧+1}}{𝑧+1} & = \\ \frac{\sqrt{𝑦𝑧+𝑦}+2\sqrt{𝑧+1}}{𝑧+1} & \end{aligned}
 
 
 $$

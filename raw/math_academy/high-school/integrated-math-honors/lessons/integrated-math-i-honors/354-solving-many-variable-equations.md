@@ -30,7 +30,7 @@ First, we add $k$ to both sides:
 $$
 
 
-\begin{aligned} 2n - k &= q + 5k \\\[5pt] 2n - k + k &= q + 5k +k \\\[5pt] 2n &= q + 6k \\\end{aligned}
+\begin{aligned} 2n - k &= q + 5k \\[5pt] 2n - k + k &= q + 5k +k \\[5pt] 2n &= q + 6k \\\end{aligned}
 
 
 $$
@@ -40,7 +40,7 @@ Then, we divide both sides of the equation by $2\mathbin{:}$
 $$
 
 
-\begin{aligned} 2n &= q + 6k \\\[5pt] \dfrac {2n} {2} &= \dfrac {q+6k} {2} \\n &= \dfrac {q+6k} {2} \end{aligned}
+\begin{aligned} 2n &= q + 6k \\[5pt] \dfrac {2n} {2} &= \dfrac {q+6k} {2} \\n &= \dfrac {q+6k} {2} \end{aligned}
 
 
 $$
@@ -62,7 +62,7 @@ First, we add $y$ to both sides:
 $$
 
 
-\begin{aligned} 2x - y &= 5y - z \\\[5pt] 2x - y + y &= 5y - z + y \\\[5pt] 2x &= 6y - z \end{aligned}
+\begin{aligned} 2x - y &= 5y - z \\[5pt] 2x - y + y &= 5y - z + y \\[5pt] 2x &= 6y - z \end{aligned}
 
 
 $$
@@ -72,7 +72,7 @@ Then, we divide both sides by $2\mathbin{:}$
 $$
 
 
-\begin{aligned} 2x &= 6y - z \\\[5pt] \dfrac {2x} 2 &= \dfrac{6y - z} {2} \\\[5pt] x &= \dfrac{6y - z} {2} \end{aligned}
+\begin{aligned} 2x &= 6y - z \\[5pt] \dfrac {2x} 2 &= \dfrac{6y - z} {2} \\[5pt] x &= \dfrac{6y - z} {2} \end{aligned}
 
 
 $$

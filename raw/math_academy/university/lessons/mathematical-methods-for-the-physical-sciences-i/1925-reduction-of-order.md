@@ -33,7 +33,7 @@ According to the reduction of order method, we let $y_{2} = u(t)\sin{4t}$ for so
 $$
 
 
-\begin{aligned}𝑦_{2} & =𝑢sin⁡4𝑡 \\ 𝑦_{′2}^{} & =𝑢^{′}sin⁡4𝑡+4𝑢cos⁡4𝑡 \\ 𝑦_{″2}^{} & =𝑢^{″}sin⁡4𝑡+8𝑢^{′}cos⁡4𝑡−16𝑢sin⁡4𝑡\end{aligned}
+\begin{aligned}𝑦_{2} & =𝑢sin⁡4𝑡 \\ 𝑦_{′2} & =𝑢^{′}sin⁡4𝑡+4𝑢cos⁡4𝑡 \\ 𝑦_{″2} & =𝑢^{″}sin⁡4𝑡+8𝑢^{′}cos⁡4𝑡−16𝑢sin⁡4𝑡\end{aligned}
 
 
 $$
@@ -133,7 +133,7 @@ Differentiating the above with respect to $x$ gives
 $$
 
 
-\begin{aligned}𝑦_{2} & =𝑢𝑒^{3𝑥} \\ 𝑦_{′2}^{} & =𝑢^{′}𝑒^{3𝑥}+3𝑢𝑒^{3𝑥} \\ 𝑦_{″2}^{} & =𝑢^{″}𝑒^{3𝑥}+6𝑢^{′}𝑒^{3𝑥}+9𝑢𝑒^{3𝑥}.\end{aligned}
+\begin{aligned}𝑦_{2} & =𝑢𝑒^{3𝑥} \\ 𝑦_{′2} & =𝑢^{′}𝑒^{3𝑥}+3𝑢𝑒^{3𝑥} \\ 𝑦_{″2} & =𝑢^{″}𝑒^{3𝑥}+6𝑢^{′}𝑒^{3𝑥}+9𝑢𝑒^{3𝑥}.\end{aligned}
 
 
 $$
@@ -175,7 +175,7 @@ Differentiating the above with respect to $t$ gives
 $$
 
 
-\begin{aligned}𝑦_{2} & =𝑢𝑒^{−𝑡} \\ 𝑦_{′2}^{} & =𝑢^{′}𝑒^{−𝑡}−𝑢𝑒^{−𝑡} \\ 𝑦_{″2}^{} & =𝑢^{″}𝑒^{−𝑡}−2𝑢^{′}𝑒^{−𝑡}+𝑢𝑒^{−𝑡}.\end{aligned}
+\begin{aligned}𝑦_{2} & =𝑢𝑒^{−𝑡} \\ 𝑦_{′2} & =𝑢^{′}𝑒^{−𝑡}−𝑢𝑒^{−𝑡} \\ 𝑦_{″2} & =𝑢^{″}𝑒^{−𝑡}−2𝑢^{′}𝑒^{−𝑡}+𝑢𝑒^{−𝑡}.\end{aligned}
 
 
 $$

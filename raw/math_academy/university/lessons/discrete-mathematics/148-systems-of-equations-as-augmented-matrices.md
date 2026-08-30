@@ -104,7 +104,7 @@ $$
 
 
 
-\left\lbrack \matrix { 1 & -2 \ 0 & 2 } \right\rbrack
+\left\lbrack \begin{matrix} 1 & -2 \ 0 & 2 \end{matrix} \right\rbrack
 
 
 
@@ -146,7 +146,7 @@ $$
 
 
 
-\left\lbrack \matrix { 1 & 1 & -3 \ -7 & -1 & 1 \ 2 & 1 & -2 } \right\rbrack
+\left\lbrack \begin{matrix} 1 & 1 & -3 \ -7 & -1 & 1 \ 2 & 1 & -2 \end{matrix} \right\rbrack
 
 
 

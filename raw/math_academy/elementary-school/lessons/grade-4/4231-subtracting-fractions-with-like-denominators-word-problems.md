@@ -38,7 +38,7 @@ Therefore, $\dfrac{1}{5}$ liters of paint remains.
 
 #### Question
 
-A $\dfrac{9}{6}\,\textrm{yd}$ rope is cut into two pieces. If one piece is of length $\dfrac{4}{6}\,\textrm{yd},$ how long is the other piece?
+A $\dfrac{9}{6}\,\text{yd}$ rope is cut into two pieces. If one piece is of length $\dfrac{4}{6}\,\text{yd},$ how long is the other piece?
 
 #### Explanation
 
@@ -52,7 +52,7 @@ $$
 
 $$
 
-Therefore, the second piece is $\dfrac{5}{6} \,\textrm{yd}$ long.
+Therefore, the second piece is $\dfrac{5}{6} \,\text{yd}$ long.
 
 ### Example: Subtracting Fractions and Simplifying the Result
 
@@ -112,7 +112,7 @@ We then convert $\dfrac{9}{5}$ to a mixed number:
 
 $$
 
-9 \div 5 = 1\,\textrm{R}4 = 1\,\dfrac{4}{5}
+9 \div 5 = 1\,\text{R}4 = 1\,\dfrac{4}{5}
 
 $$
 

@@ -149,7 +149,7 @@ $$
 
 
 
-\begin{aligned} 3x &= \dfrac{x}{3} + 40 \\\[5pt] 3 \cdot 3x &= 3 \cdot \left( \dfrac{x}{3} + 40 \right) \\\[5pt] 9x &= 3 \cdot \dfrac{x}{3} + 3 \cdot 40 \\\[5pt] 9x &= x + 120 \\\[5pt] 9x - x &= x + 120 - x \\\[5pt] 8x &= 120 \\\[5pt] \dfrac{8x}{8} &= \dfrac{120}{8} \\\[5pt] x &= 15 \end{aligned}
+\begin{aligned} 3x &= \dfrac{x}{3} + 40 \\[5pt] 3 \cdot 3x &= 3 \cdot \left( \dfrac{x}{3} + 40 \right) \\[5pt] 9x &= 3 \cdot \dfrac{x}{3} + 3 \cdot 40 \\[5pt] 9x &= x + 120 \\[5pt] 9x - x &= x + 120 - x \\[5pt] 8x &= 120 \\[5pt] \dfrac{8x}{8} &= \dfrac{120}{8} \\[5pt] x &= 15 \end{aligned}
 
 
 

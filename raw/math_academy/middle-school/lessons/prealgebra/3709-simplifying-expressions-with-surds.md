@@ -79,6 +79,6 @@ Grouping up the square roots and the cube roots, we find
 
 $$
 
-\begin{aligned}\sqrt[√12]{3}⋅\sqrt{√3}⋅\sqrt[√12]{3}⋅\sqrt{√3}⋅\sqrt[√12]{3} & = \\ (\sqrt[√12]{3}⋅\sqrt[√12]{3}⋅\sqrt[√12]{3})(\sqrt{√3}⋅\sqrt{√3}) & = \\ (\sqrt[√12]{3})^{3}(\sqrt{√3})^{2} & = \\ 12⋅3 & = \\ 36 & .\end{aligned}
+\begin{aligned}\sqrt[√12]{3}⋅\sqrt{3}⋅\sqrt[√12]{3}⋅\sqrt{3}⋅\sqrt[√12]{3} & = \\ (\sqrt[√12]{3}⋅\sqrt[√12]{3}⋅\sqrt[√12]{3})(\sqrt{3}⋅\sqrt{3}) & = \\ (\sqrt[√12]{3})^{3}(\sqrt{3})^{2} & = \\ 12⋅3 & = \\ 36 & .\end{aligned}
 
 $$

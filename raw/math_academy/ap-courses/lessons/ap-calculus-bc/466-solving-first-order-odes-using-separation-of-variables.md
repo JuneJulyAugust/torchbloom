@@ -16,7 +16,7 @@ Consider the differential equation
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x} = e^{x - y}\,.
+\dfrac{\text{d}y}{\text{d}x} = e^{x - y}\,.
 
 
 $$
@@ -82,7 +82,7 @@ The differential equation that we just solved was **separable**. A first-order d
 $$
 
 
-\dfrac {\textrm{d}y} {\textrm{d}x} = h(x)g(y).
+\dfrac {\text{d}y} {\text{d}x} = h(x)g(y).
 
 
 $$
@@ -92,7 +92,7 @@ If an equation is separable, we say that the variables are *separated* when it i
 $$
 
 
-\dfrac{1}{g(y)} \cdot \dfrac{\textrm{d}y}{\textrm{d}x} = h(x).
+\dfrac{1}{g(y)} \cdot \dfrac{\text{d}y}{\text{d}x} = h(x).
 
 
 $$
@@ -118,7 +118,7 @@ Given that $x,y \geq 0,$ separate the variables in the following differential eq
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x} = \sqrt{2xy}
+\dfrac{\text{d}y}{\text{d}x} = \sqrt{2xy}
 
 
 $$
@@ -130,7 +130,7 @@ A differentiable equation is ** if it can be written in the form
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x} = h(x)g(y).
+\dfrac{\text{d}y}{\text{d}x} = h(x)g(y).
 
 
 $$
@@ -140,7 +140,7 @@ If an equation is separable, we say that the variables are ** when it is written
 $$
 
 
-\dfrac{1}{g(y)} \cdot \dfrac{\textrm{d}y}{\textrm{d}x} = h(x).
+\dfrac{1}{g(y)} \cdot \dfrac{\text{d}y}{\text{d}x} = h(x).
 
 
 $$
@@ -150,7 +150,7 @@ Notice that our differentiable equation is separable since it can be written as
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x} = \sqrt{2x} \cdot \sqrt{y}.
+\dfrac{\text{d}y}{\text{d}x} = \sqrt{2x} \cdot \sqrt{y}.
 
 
 $$
@@ -160,7 +160,7 @@ Therefore, we separate the variables as follows:
 $$
 
 
-\dfrac{1}{\sqrt{y}} \cdot \dfrac {\textrm{d}y} {\textrm{d}x} = \sqrt{2x}
+\dfrac{1}{\sqrt{y}} \cdot \dfrac {\text{d}y} {\text{d}x} = \sqrt{2x}
 
 
 $$
@@ -169,7 +169,7 @@ $$
 
 #### Question
 
-Find the general solution to the differential equation $\dfrac{\textrm{d}y}{\textrm{d}x} = \dfrac{x}{y}.$
+Find the general solution to the differential equation $\dfrac{\text{d}y}{\text{d}x} = \dfrac{x}{y}.$
 
 #### Explanation
 
@@ -248,7 +248,7 @@ We can express the solution in the form $y = y(x)$ as follows:
 $$
 
 
-\begin{aligned}\frac{1}{2}𝑦^{2} & =\frac{1}{3}𝑥^{3}+𝐶 \\ 𝑦^{2} & =\frac{2}{3}𝑥^{3}+2𝐶 \\ 𝑦 & =±\sqrt{√\frac{2}{3}𝑥^{3}+2𝐶} \\ 𝑦 & =±\sqrt{√\frac{2}{3}𝑥^{3}+𝐾}\end{aligned}
+\begin{aligned}\frac{1}{2}𝑦^{2} & =\frac{1}{3}𝑥^{3}+𝐶 \\ 𝑦^{2} & =\frac{2}{3}𝑥^{3}+2𝐶 \\ 𝑦 & =±\sqrt{\frac{2}{3}𝑥^{3}+2𝐶} \\ 𝑦 & =±\sqrt{\frac{2}{3}𝑥^{3}+𝐾}\end{aligned}
 
 
 $$

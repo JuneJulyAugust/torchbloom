@@ -125,15 +125,15 @@ Therefore, the two numbers are $x=6$ and $y=15.$
 
 #### Question
 
-A rectangular field has an area of $230\,\textrm{m}^2.$ Twelve times its length is $36\,\textrm{m}$ more than twenty-four times its width. What is the width of the field?
+A rectangular field has an area of $230\,\text{m}^2.$ Twelve times its length is $36\,\text{m}$ more than twenty-four times its width. What is the width of the field?
 
 #### Explanation
 
 Let $w$ be the width and let $l$ be the length of the field.
 
-- Twelve times its length is $36\,\textrm{m}$ more than twenty-four times its width, so $12l=24w+36.$
+- Twelve times its length is $36\,\text{m}$ more than twenty-four times its width, so $12l=24w+36.$
 
-- The area is $230\,\textrm{m}^2,$ so $lw=230.$
+- The area is $230\,\text{m}^2,$ so $lw=230.$
 
 Putting these equations together, we have the following system of equations:
 
@@ -170,7 +170,7 @@ Applying the quadratic formula, we get
 $$
 
 
-\begin{aligned}𝑤 & =\frac{−3±\sqrt{√3^{2}−4(2)(−230)}}{2⋅2} \\ & =\frac{−3±\sqrt{√9+1,840}}{4} \\ & =\frac{−3±\sqrt{√1,849}}{4} \\ & =\frac{−3±43}{4}.\end{aligned}
+\begin{aligned}𝑤 & =\frac{−3±\sqrt{3^{2}−4(2)(−230)}}{2⋅2} \\ & =\frac{−3±\sqrt{9+1,840}}{4} \\ & =\frac{−3±\sqrt{1,849}}{4} \\ & =\frac{−3±43}{4}.\end{aligned}
 
 
 $$
@@ -185,4 +185,4 @@ w=\dfrac{-3+43}{4}=\dfrac{40}{4}=10
 
 $$
 
-Therefore, the width of the field is $10\,\textrm{m}.$
+Therefore, the width of the field is $10\,\text{m}.$

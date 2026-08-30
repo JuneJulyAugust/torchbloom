@@ -107,7 +107,7 @@ $$
 
 
 
-d = e^{-1} \quad (\textrm{mod} \: 48)
+d = e^{-1} \quad (\text{mod} \: 48)
 
 
 
@@ -119,7 +119,7 @@ $$
 
 
 
-\begin{aligned}\begin{aligned}48 & = & 19⋅2 & + & 10 \\ & ↙ & & ↙ & \\ 19 & = & 10⋅1 & + & 9 \\ & ↙ & & ↙ & \\ 10 & = & 9⋅1 & + & 1\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}48 & = & 19⋅2 & + & 10 \\ & ↙ & & ↙ & \\ 19 & = & 10⋅1 & + & 9 \\ & ↙ & & ↙ & \\ 10 & = & 9⋅1 & + & 1\end{matrix}\end{aligned}
 
 
 
@@ -161,7 +161,7 @@ $$
 
 $$
 
-So we have $19 \cdot 43 \equiv 1 \: (\textrm{mod}\:48),$ which means that the inverse of $e=19$ modulo $48$ is $e^{-1}=43.$
+So we have $19 \cdot 43 \equiv 1 \: (\text{mod}\:48),$ which means that the inverse of $e=19$ modulo $48$ is $e^{-1}=43.$
 
 Thus, our private key is $(d,n) = (43,65).$
 
@@ -241,7 +241,7 @@ $$
 
 
 
-d = e^{-1} \quad (\textrm{mod} \: 20)
+d = e^{-1} \quad (\text{mod} \: 20)
 
 
 
@@ -253,7 +253,7 @@ $$
 
 
 
-\begin{aligned}\begin{aligned}20 & = & 7⋅2 & + & 6 \\ & ↙ & & ↙ & \\ 7 & = & 6⋅1 & + & 1\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}20 & = & 7⋅2 & + & 6 \\ & ↙ & & ↙ & \\ 7 & = & 6⋅1 & + & 1\end{matrix}\end{aligned}
 
 
 
@@ -295,7 +295,7 @@ $$
 
 $$
 
-So we have $7 \cdot 3 \equiv 1 \: (\textrm{mod}\:20),$ which means that the inverse of $e=7$ modulo $20$ is $e^{-1}=3.$
+So we have $7 \cdot 3 \equiv 1 \: (\text{mod}\:20),$ which means that the inverse of $e=7$ modulo $20$ is $e^{-1}=3.$
 
 Thus, our private key is $(d,n) = (3,33).$
 
@@ -327,7 +327,7 @@ Recall that in the RSA cryptosystem, we have the public key $(e,n)$ and the priv
 
 - $\phi(n)=(p-1)(q-1),$ and
 
-- $e \cdot d \equiv 1 \: (\textrm{mod} \: \phi(n)).$
+- $e \cdot d \equiv 1 \: (\text{mod} \: \phi(n)).$
 
 The message $M$ (with $M < n$) is encrypted by computing
 
@@ -335,7 +335,7 @@ $$
 
 
 
-C \equiv M^e \quad (\textrm{mod} \: n),
+C \equiv M^e \quad (\text{mod} \: n),
 
 
 
@@ -347,7 +347,7 @@ $$
 
 
 
-M \equiv C^d \quad (\textrm{mod} \: n).
+M \equiv C^d \quad (\text{mod} \: n).
 
 
 
@@ -367,7 +367,7 @@ $$
 
 $$
 
-Now, notice that since $e \cdot d \equiv 1 \: (\textrm{mod} \: \phi(n)),$ we have
+Now, notice that since $e \cdot d \equiv 1 \: (\text{mod} \: \phi(n)),$ we have
 
 $$
 
@@ -391,7 +391,7 @@ $$
 
 $$
 
-Next, we can assume that $\gcd(M,n)=1.$ Indeed, the probability that $M$ and $n$ will have a common divisor greater than $1$ is extremely small when the primes $p$ and $q$ are large. Moreover, if this happens, the private key will be compromised anyway. Therefore, according to Euler's theorem, $M^{\phi(n)} \equiv 1 \: (\textrm{mod} \: n).$
+Next, we can assume that $\gcd(M,n)=1.$ Indeed, the probability that $M$ and $n$ will have a common divisor greater than $1$ is extremely small when the primes $p$ and $q$ are large. Moreover, if this happens, the private key will be compromised anyway. Therefore, according to Euler's theorem, $M^{\phi(n)} \equiv 1 \: (\text{mod} \: n).$
 
 Finally, we have
 

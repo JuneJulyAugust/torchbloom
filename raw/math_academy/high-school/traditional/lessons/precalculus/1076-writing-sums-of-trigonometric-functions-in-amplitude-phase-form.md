@@ -86,7 +86,7 @@ $$
 
 
 
-\begin{aligned}3sin⁡𝑥+\sqrt{√3}cos⁡𝑥 & =𝑅sin⁡(𝑥+𝜙) \\ 3sin⁡𝑥+\sqrt{√3}cos⁡𝑥 & =(𝑅cos⁡𝜙)sin⁡𝑥+(𝑅sin⁡𝜙)cos⁡𝑥\end{aligned}
+\begin{aligned}3sin⁡𝑥+\sqrt{3}cos⁡𝑥 & =𝑅sin⁡(𝑥+𝜙) \\ 3sin⁡𝑥+\sqrt{3}cos⁡𝑥 & =(𝑅cos⁡𝜙)sin⁡𝑥+(𝑅sin⁡𝜙)cos⁡𝑥\end{aligned}
 
 
 
@@ -98,7 +98,7 @@ $$
 
 
 
-\begin{aligned}𝑅cos⁡𝜙=3 \\ 𝑅sin⁡𝜙=\sqrt{√3}\end{aligned}
+\begin{aligned}𝑅cos⁡𝜙=3 \\ 𝑅sin⁡𝜙=\sqrt{3}\end{aligned}
 
 
 
@@ -110,7 +110,7 @@ $$
 
 
 
-\begin{aligned}\frac{𝑅sin⁡𝜙}{𝑅cos⁡𝜙} & =\frac{\sqrt{√3}}{3} \\ tan⁡𝜙 & =\frac{\sqrt{√3}}{3} \\ 𝜙 & =arctan⁡(\frac{\sqrt{√3}}{3}) \\ & =\frac{𝜋}{6}.\end{aligned}
+\begin{aligned}\frac{𝑅sin⁡𝜙}{𝑅cos⁡𝜙} & =\frac{\sqrt{3}}{3} \\ tan⁡𝜙 & =\frac{\sqrt{3}}{3} \\ 𝜙 & =arctan⁡(\frac{\sqrt{3}}{3}) \\ & =\frac{𝜋}{6}.\end{aligned}
 
 
 
@@ -122,7 +122,7 @@ $$
 
 
 
-\begin{aligned}(𝑅cos⁡𝜙)^{2}+(𝑅sin⁡𝜙)^{2} & =(3)^{2}+(\sqrt{√3})^{2} \\ 𝑅^{2}(cos^{2}⁡𝜙+sin^{2}⁡𝜙) & =9+3 \\ 𝑅^{2} & =12 \\ 𝑅 & =\sqrt{√12} \\ 𝑅 & =2\sqrt{√3}.\end{aligned}
+\begin{aligned}(𝑅cos⁡𝜙)^{2}+(𝑅sin⁡𝜙)^{2} & =(3)^{2}+(\sqrt{3})^{2} \\ 𝑅^{2}(cos^{2}⁡𝜙+sin^{2}⁡𝜙) & =9+3 \\ 𝑅^{2} & =12 \\ 𝑅 & =\sqrt{12} \\ 𝑅 & =2\sqrt{3}.\end{aligned}
 
 
 
@@ -192,7 +192,7 @@ $$
 
 
 
-\begin{aligned}𝑅cos⁡𝜙=\sqrt{√2} \\ 𝑅sin⁡𝜙=\sqrt{√7}\end{aligned}
+\begin{aligned}𝑅cos⁡𝜙=\sqrt{2} \\ 𝑅sin⁡𝜙=\sqrt{7}\end{aligned}
 
 
 
@@ -204,7 +204,7 @@ $$
 
 
 
-\begin{aligned}(𝑅cos⁡𝜙)^{2}+(𝑅sin⁡𝜙)^{2} & =\sqrt{√2}^{2}+\sqrt{√7}^{2} \\ 𝑅^{2}(cos^{2}⁡𝜙+sin^{2}⁡𝜙) & =2+7 \\ 𝑅^{2} & =9 \\ 𝑅 & =3.\end{aligned}
+\begin{aligned}(𝑅cos⁡𝜙)^{2}+(𝑅sin⁡𝜙)^{2} & =\sqrt{2}^{2}+\sqrt{7}^{2} \\ 𝑅^{2}(cos^{2}⁡𝜙+sin^{2}⁡𝜙) & =2+7 \\ 𝑅^{2} & =9 \\ 𝑅 & =3.\end{aligned}
 
 
 
@@ -356,7 +356,7 @@ $$
 
 
 
-\begin{aligned}(𝑅cos⁡𝜙)^{2}+(𝑅sin⁡𝜙)^{2} & =(3)^{2}+(2)^{2} \\ 𝑅^{2}(cos^{2}⁡𝜙+sin^{2}⁡𝜙) & =9+4 \\ 𝑅^{2} & =13 \\ 𝑅 & =\sqrt{√13}.\end{aligned}
+\begin{aligned}(𝑅cos⁡𝜙)^{2}+(𝑅sin⁡𝜙)^{2} & =(3)^{2}+(2)^{2} \\ 𝑅^{2}(cos^{2}⁡𝜙+sin^{2}⁡𝜙) & =9+4 \\ 𝑅^{2} & =13 \\ 𝑅 & =\sqrt{13}.\end{aligned}
 
 
 
@@ -486,7 +486,7 @@ $$
 
 
 
-\begin{aligned}(𝑅sin⁡𝜙)^{2}+(𝑅cos⁡𝜙)^{2} & =4^{2}+1^{2} \\ 𝑅^{2}(sin^{2}⁡𝜙+cos^{2}⁡𝜙) & =16+1 \\ 𝑅^{2} & =17 \\ 𝑅 & =\sqrt{√17}\end{aligned}
+\begin{aligned}(𝑅sin⁡𝜙)^{2}+(𝑅cos⁡𝜙)^{2} & =4^{2}+1^{2} \\ 𝑅^{2}(sin^{2}⁡𝜙+cos^{2}⁡𝜙) & =16+1 \\ 𝑅^{2} & =17 \\ 𝑅 & =\sqrt{17}\end{aligned}
 
 
 
@@ -500,7 +500,7 @@ $$
 
 
 
-\begin{aligned}4sin⁡𝑥+cos⁡𝑥 & =\sqrt{√17}cos⁡(𝑥−arctan⁡(4)) \\ & ≈\sqrt{√17}cos⁡(𝑥−1.326)\end{aligned}
+\begin{aligned}4sin⁡𝑥+cos⁡𝑥 & =\sqrt{17}cos⁡(𝑥−arctan⁡(4)) \\ & ≈\sqrt{17}cos⁡(𝑥−1.326)\end{aligned}
 
 
 
@@ -556,7 +556,7 @@ $$
 
 
 
-\begin{aligned}𝑅cos⁡𝜙=3 \\ 𝑅sin⁡𝜙=\sqrt{√3}\end{aligned}
+\begin{aligned}𝑅cos⁡𝜙=3 \\ 𝑅sin⁡𝜙=\sqrt{3}\end{aligned}
 
 
 
@@ -568,7 +568,7 @@ $$
 
 
 
-\begin{aligned}\frac{𝑅sin⁡𝜙}{𝑅cos⁡𝜙} & =\frac{\sqrt{√3}}{3} \\ tan⁡𝜙 & =\frac{\sqrt{√3}}{3} \\ 𝜙 & =arctan⁡(\frac{\sqrt{√3}}{3}) \\ & =\frac{𝜋}{6}.\end{aligned}
+\begin{aligned}\frac{𝑅sin⁡𝜙}{𝑅cos⁡𝜙} & =\frac{\sqrt{3}}{3} \\ tan⁡𝜙 & =\frac{\sqrt{3}}{3} \\ 𝜙 & =arctan⁡(\frac{\sqrt{3}}{3}) \\ & =\frac{𝜋}{6}.\end{aligned}
 
 
 
@@ -580,7 +580,7 @@ $$
 
 
 
-\begin{aligned}(𝑅sin⁡𝜙)^{2}+(𝑅cos⁡𝜙)^{2} & =3^{2}+(\sqrt{√3})^{2} \\ 𝑅^{2}(sin^{2}⁡𝜙+cos^{2}⁡𝜙) & =9+3 \\ 𝑅^{2} & =12 \\ 𝑅 & =\sqrt{√12} \\ & =2\sqrt{√3}.\end{aligned}
+\begin{aligned}(𝑅sin⁡𝜙)^{2}+(𝑅cos⁡𝜙)^{2} & =3^{2}+(\sqrt{3})^{2} \\ 𝑅^{2}(sin^{2}⁡𝜙+cos^{2}⁡𝜙) & =9+3 \\ 𝑅^{2} & =12 \\ 𝑅 & =\sqrt{12} \\ & =2\sqrt{3}.\end{aligned}
 
 
 

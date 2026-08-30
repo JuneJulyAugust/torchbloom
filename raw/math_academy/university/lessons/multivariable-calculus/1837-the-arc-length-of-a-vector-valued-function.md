@@ -27,7 +27,7 @@ the arc length of the curve between $t=a$ and $t=b$ is given by
 $$
 
 
-L = \int_{a}^{b} \sqrt{\left(\dfrac{\textrm{d}x}{\textrm{d}t}\right)^2+\left(\dfrac{\textrm{d}y}{\textrm{d}t}\right)^2}\,\textrm{d}t.
+L = \int_{a}^{b} \sqrt{\left(\dfrac{\text{d}x}{\text{d}t}\right)^2+\left(\dfrac{\text{d}y}{\text{d}t}\right)^2}\,\text{d}t.
 
 
 $$
@@ -57,7 +57,7 @@ It's easy to see that this is equivalent to the original arc length formula. Fir
 $$
 
 
-\mathbf r'(t) = \left\langle \dfrac{\textrm{d}x}{\textrm{d}t}, \dfrac{\textrm{d}y}{\textrm{d}t}\right\rangle.
+\mathbf r'(t) = \left\langle \dfrac{\text{d}x}{\text{d}t}, \dfrac{\text{d}y}{\text{d}t}\right\rangle.
 
 
 $$
@@ -67,7 +67,7 @@ Calculating the magnitude of this vector, we get
 $$
 
 
-\|\mathbf r'(t)\| = \sqrt{\left(\dfrac{\textrm{d}x}{\textrm{d}t}\right)^2+\left(\dfrac{\textrm{d}y}{\textrm{d}t}\right)^2},
+\|\mathbf r'(t)\| = \sqrt{\left(\dfrac{\text{d}x}{\text{d}t}\right)^2+\left(\dfrac{\text{d}y}{\text{d}t}\right)^2},
 
 
 $$
@@ -103,7 +103,7 @@ To compute $\| \mathbf r'(t) \|,$ we take the derivative of $\mathbf r(t)$ and c
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑡) & =⟨\frac{d}{d𝑡}(\frac{𝑡^{3}}{3}),\,\frac{d}{d𝑡}(\frac{𝑡^{2}}{2})⟩ \\ & =⟨𝑡^{2},\,𝑡⟩, \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{√(𝑡^{2})^{2}+𝑡^{2}} \\ & =\sqrt{√𝑡^{4}+𝑡^{2}}.\end{aligned}
+\begin{aligned}𝐫^{′}(𝑡) & =⟨\frac{d}{d𝑡}(\frac{𝑡^{3}}{3}),\,\frac{d}{d𝑡}(\frac{𝑡^{2}}{2})⟩ \\ & =⟨𝑡^{2},\,𝑡⟩, \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{(𝑡^{2})^{2}+𝑡^{2}} \\ & =\sqrt{𝑡^{4}+𝑡^{2}}.\end{aligned}
 
 
 $$
@@ -113,7 +113,7 @@ Therefore, the length of the curve $C$ is given by the integral
 $$
 
 
-\begin{aligned}𝐿 & =∫_{10}^{}\sqrt{√𝑡^{4}+𝑡^{2}}\,d𝑡 \\ & =∫_{10}^{}\sqrt{√𝑡^{2}⋅(𝑡^{2}+1)}\,d𝑡 \\ & =∫_{10}^{}\sqrt{√𝑡^{2}}⋅\sqrt{√𝑡^{2}+1}\,d𝑡 \\ & =∫_{10}^{}|𝑡|⋅\sqrt{√𝑡^{2}+1}\,d𝑡 \\ & =∫_{10}^{}𝑡⋅\sqrt{√𝑡^{2}+1}\,d𝑡.\end{aligned}
+\begin{aligned}𝐿 & =∫_{10}\sqrt{𝑡^{4}+𝑡^{2}}\,d𝑡 \\ & =∫_{10}\sqrt{𝑡^{2}⋅(𝑡^{2}+1)}\,d𝑡 \\ & =∫_{10}\sqrt{𝑡^{2}}⋅\sqrt{𝑡^{2}+1}\,d𝑡 \\ & =∫_{10}|𝑡|⋅\sqrt{𝑡^{2}+1}\,d𝑡 \\ & =∫_{10}𝑡⋅\sqrt{𝑡^{2}+1}\,d𝑡.\end{aligned}
 
 
 $$
@@ -123,7 +123,7 @@ We can solve this integral using substitution. Let $u = t^2+1,$ then $\textrm d 
 $$
 
 
-\begin{aligned}𝐿 & =∫_{10}^{}𝑡⋅\sqrt{√𝑡^{2}+1}\,d𝑡 \\ & =\frac{1}{2}∫_{21}^{}\sqrt{√𝑢}\,d𝑢 \\ & =\frac{1}{2}∫_{21}^{}𝑢^{1/2}\,d𝑢 \\ & =\frac{1}{2}⋅\frac{2}{3}[𝑢^{3/2}]_{21}^{} \\ & =\frac{1}{3}(2\sqrt{√2}−1).\end{aligned}
+\begin{aligned}𝐿 & =∫_{10}𝑡⋅\sqrt{𝑡^{2}+1}\,d𝑡 \\ & =\frac{1}{2}∫_{21}\sqrt{𝑢}\,d𝑢 \\ & =\frac{1}{2}∫_{21}𝑢^{1/2}\,d𝑢 \\ & =\frac{1}{2}⋅\frac{2}{3}[𝑢^{3/2}]_{21} \\ & =\frac{1}{3}(2\sqrt{2}−1).\end{aligned}
 
 
 $$
@@ -143,7 +143,7 @@ First, we find $\mathbf f'(t)$ and $\|\mathbf f'(t)\|\mathbin{:}$
 $$
 
 
-\begin{aligned}𝐟^{′}(𝑡) & =⟨\frac{d}{d𝑡}(3sin⁡𝑡),\,\frac{d}{d𝑡}(2sin⁡2𝑡)⟩ \\ & =⟨3cos⁡𝑡,\,4cos⁡2𝑡⟩ \\ ‖𝐟^{′}(𝑡)‖ & =\sqrt{√(3cos⁡𝑡)^{2}+(4cos⁡2𝑡)^{2}} \\ & =\sqrt{√9cos^{2}⁡𝑡+16cos^{2}⁡2𝑡}\end{aligned}
+\begin{aligned}𝐟^{′}(𝑡) & =⟨\frac{d}{d𝑡}(3sin⁡𝑡),\,\frac{d}{d𝑡}(2sin⁡2𝑡)⟩ \\ & =⟨3cos⁡𝑡,\,4cos⁡2𝑡⟩ \\ ‖𝐟^{′}(𝑡)‖ & =\sqrt{(3cos⁡𝑡)^{2}+(4cos⁡2𝑡)^{2}} \\ & =\sqrt{9cos^{2}⁡𝑡+16cos^{2}⁡2𝑡}\end{aligned}
 
 
 $$
@@ -153,7 +153,7 @@ Therefore, the arc length of the curve is
 $$
 
 
-\begin{aligned}𝐿 & =∫_{𝑏𝑎}^{}‖𝐟^{′}(𝑡)‖\,d𝑡 \\ & =∫_{2𝜋3𝜋/2}^{}\sqrt{√9cos^{2}⁡𝑡+16cos^{2}⁡2𝑡}\,d𝑡.\end{aligned}
+\begin{aligned}𝐿 & =∫_{𝑏𝑎}‖𝐟^{′}(𝑡)‖\,d𝑡 \\ & =∫_{2𝜋3𝜋/2}\sqrt{9cos^{2}⁡𝑡+16cos^{2}⁡2𝑡}\,d𝑡.\end{aligned}
 
 
 $$
@@ -173,7 +173,7 @@ First, we find $\mathbf g'(t)$ and $\|\mathbf g'(t)\|\mathbin{:}$
 $$
 
 
-\begin{aligned}𝐠^{′}(𝑡) & =⟨\frac{d}{d𝑡}(3−2sin⁡2𝑡),\,\frac{d}{d𝑡}(1−2cos⁡2𝑡)⟩ \\ & =⟨−4cos⁡2𝑡,\,4sin⁡2𝑡⟩ \\ ‖𝐠^{′}(𝑡)‖ & =\sqrt{√(−4cos⁡2𝑡)^{2}+(4sin⁡2𝑡)^{2}} \\ & =\sqrt{√16cos^{2}⁡2𝑡+16sin^{2}⁡2𝑡} \\ & =\sqrt{√16} \\ & =4\end{aligned}
+\begin{aligned}𝐠^{′}(𝑡) & =⟨\frac{d}{d𝑡}(3−2sin⁡2𝑡),\,\frac{d}{d𝑡}(1−2cos⁡2𝑡)⟩ \\ & =⟨−4cos⁡2𝑡,\,4sin⁡2𝑡⟩ \\ ‖𝐠^{′}(𝑡)‖ & =\sqrt{(−4cos⁡2𝑡)^{2}+(4sin⁡2𝑡)^{2}} \\ & =\sqrt{16cos^{2}⁡2𝑡+16sin^{2}⁡2𝑡} \\ & =\sqrt{16} \\ & =4\end{aligned}
 
 
 $$
@@ -183,7 +183,7 @@ Therefore, the arc length of the curve is
 $$
 
 
-\begin{aligned}𝐿 & =∫_{𝑏𝑎}^{}‖𝐠^{′}(𝑡)‖\,d𝑡 \\ & =∫_{𝜋𝜋/3}^{}4\,d𝑡 \\ & =4𝑡\,_{𝜋𝜋/3}^{} \\ & =4(𝜋−\frac{𝜋}{3}) \\ & =\frac{8𝜋}{3}.\end{aligned}
+\begin{aligned}𝐿 & =∫_{𝑏𝑎}‖𝐠^{′}(𝑡)‖\,d𝑡 \\ & =∫_{𝜋𝜋/3}4\,d𝑡 \\ & =4𝑡\,_{𝜋𝜋/3} \\ & =4(𝜋−\frac{𝜋}{3}) \\ & =\frac{8𝜋}{3}.\end{aligned}
 
 
 $$
@@ -203,7 +203,7 @@ First, we find $\mathbf r'(t)$ and $\|\mathbf r'(t)\|\mathbin{:}$
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑡) & =⟨\frac{d}{d𝑡}(sin⁡𝑡),\,\frac{d}{d𝑡}(cos⁡𝑡),\,\frac{d}{d𝑡}(𝑡)⟩ \\ & =⟨cos⁡𝑡,\,−sin⁡𝑡,\,1⟩ \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{√(cos⁡𝑡)^{2}+(−sin⁡𝑡)^{2}+1^{2}} \\ & =\sqrt{√cos^{2}⁡𝑡+sin^{2}⁡𝑡+1} \\ & =\sqrt{√1+1} \\ & =\sqrt{√2}\end{aligned}
+\begin{aligned}𝐫^{′}(𝑡) & =⟨\frac{d}{d𝑡}(sin⁡𝑡),\,\frac{d}{d𝑡}(cos⁡𝑡),\,\frac{d}{d𝑡}(𝑡)⟩ \\ & =⟨cos⁡𝑡,\,−sin⁡𝑡,\,1⟩ \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{(cos⁡𝑡)^{2}+(−sin⁡𝑡)^{2}+1^{2}} \\ & =\sqrt{cos^{2}⁡𝑡+sin^{2}⁡𝑡+1} \\ & =\sqrt{1+1} \\ & =\sqrt{2}\end{aligned}
 
 
 $$
@@ -213,7 +213,7 @@ Therefore, the arc length of the curve is
 $$
 
 
-\begin{aligned}𝐿 & =∫_{2𝜋0}^{}‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{2𝜋0}^{}\sqrt{√2}\,d𝑡 \\ & = \sqrt{√2}\,𝑡_{2𝜋0}^{} \\ & =\sqrt{√2}(2𝜋−0) \\ & =2\sqrt{√2}𝜋.\end{aligned}
+\begin{aligned}𝐿 & =∫_{2𝜋0}‖𝐫^{′}(𝑡)‖\,d𝑡 \\ & =∫_{2𝜋0}\sqrt{2}\,d𝑡 \\ & = \sqrt{2}\,𝑡_{2𝜋0} \\ & =\sqrt{2}(2𝜋−0) \\ & =2\sqrt{2}𝜋.\end{aligned}
 
 
 $$

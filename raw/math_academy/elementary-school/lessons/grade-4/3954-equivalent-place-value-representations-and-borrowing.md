@@ -15,11 +15,11 @@ In this lesson, we'll describe a procedure known as **borrowing.** Borrowing is 
 
 Let's consider the place value chart of the number $30\mathbin{:}$
 
-Since $3 \, \textrm{tens} = {\color{red}{2}} \, \textrm{tens} + {\color{blue}{1}} \, \textrm{tens},$ we can write our place value chart as follows:
+Since $3 \, \text{tens} = {\color{red}{2}} \, \text{tens} + {\color{blue}{1}} \, \text{tens},$ we can write our place value chart as follows:
 
 Now, since $1$ ten is the same as $10$ ones, we can **borrow** ${\color{blue}1}$ from tens place and convert it into ones:
 
-Therefore, we have now have $\color{red}2$ tens and ${\color{blue}{10}}\,\textrm{ones} + 0\,\textrm{ones} = {\color{blue}{10}}\,\textrm{ones}.$
+Therefore, we have now have $\color{red}2$ tens and ${\color{blue}{10}}\,\text{ones} + 0\,\text{ones} = {\color{blue}{10}}\,\text{ones}.$
 
 Therefore, "$3$ tens" is equivalent to "$2$ tens and $10$ ones."
 
@@ -35,7 +35,7 @@ $\qquad$ "$15$ tens" is equivalent to "$14$ tens and $\boxed{\phantom{AA}}$ ones
 
 Let's write "$15$ tens" in a place value chart:
 
-Now, since $15 \, \textrm{tens} = {\color{red}{14}} \, \textrm{tens} + {\color{blue}{1}} \, \textrm{ten},$ we can borrow $\color{blue}1$ from tens place and convert it into ones:
+Now, since $15 \, \text{tens} = {\color{red}{14}} \, \text{tens} + {\color{blue}{1}} \, \text{ten},$ we can borrow $\color{blue}1$ from tens place and convert it into ones:
 
 This gives the following place value chart:
 
@@ -53,7 +53,7 @@ $\qquad$ "$5$ tens and $5$ ones" is equivalent to "$4$ tens and $\boxed{\phantom
 
 Let's write "$5$ tens and $5$ ones" in a place value chart:
 
-Now, since $5 \, \textrm{tens} = {\color{red}{4}} \, \textrm{tens} + {\color{blue}{1}} \, \textrm{ten},$ we can borrow $\color{blue}1$ from tens place and convert it into ones:
+Now, since $5 \, \text{tens} = {\color{red}{4}} \, \text{tens} + {\color{blue}{1}} \, \text{ten},$ we can borrow $\color{blue}1$ from tens place and convert it into ones:
 
 This gives the following place value chart:
 

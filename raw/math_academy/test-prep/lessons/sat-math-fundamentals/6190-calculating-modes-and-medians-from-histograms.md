@@ -138,7 +138,7 @@ Since $17$ is an odd number, the median is in the following position:
 $$
 
 
-\dfrac{17+1}{2}=\dfrac{18}{2}=9\textrm{th}
+\dfrac{17+1}{2}=\dfrac{18}{2}=9\text{th}
 
 
 $$

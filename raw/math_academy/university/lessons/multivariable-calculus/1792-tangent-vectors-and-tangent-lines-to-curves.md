@@ -98,7 +98,7 @@ and equating the coefficients of $\mathbf i, \mathbf j,$ and $\mathbf k$ yields 
 $$
 
 
-\begin{aligned}\begin{aligned}𝑡=1 \\ 𝑡^{2}=1 \\ 𝑡^{3}=1\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}𝑡=1 \\ 𝑡^{2}=1 \\ 𝑡^{3}=1\end{matrix}\end{aligned}
 
 
 $$

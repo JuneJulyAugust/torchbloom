@@ -23,7 +23,7 @@ $$
 
 
 
-P(\textrm{Rain}) = 0.1, \qquad P(\textrm{Late|Rain}) = 0.2, \qquad P(\textrm{Late|No Rain}) = 0.05.
+P(\text{Rain}) = 0.1, \qquad P(\text{Late|Rain}) = 0.2, \qquad P(\text{Late|No Rain}) = 0.05.
 
 
 
@@ -73,7 +73,7 @@ Let's represent all of the possible outcomes and their associated probabilities 
 
 ![Instructional graphic](../../../../lesson-assets/precalculus/topic-3658/682b22e56c585333.png)
 
-To compute $P(\textrm{Odd} \cap \textrm{Odd}),$ we multiply the probabilities across the appropriate branches, shown below:
+To compute $P(\text{Odd} \cap \text{Odd}),$ we multiply the probabilities across the appropriate branches, shown below:
 
 ![Instructional graphic](../../../../lesson-assets/precalculus/topic-3658/fc15ae28f7e6d3c3.png)
 
@@ -83,7 +83,7 @@ $$
 
 
 
-P(\textrm{Odd} \cap \textrm{Odd}) = \dfrac{16}{52} \cdot \dfrac{15}{51} = \dfrac{20}{221}.
+P(\text{Odd} \cap \text{Odd}) = \dfrac{16}{52} \cdot \dfrac{15}{51} = \dfrac{20}{221}.
 
 
 
@@ -137,7 +137,7 @@ $$
 
 
 
-\begin{aligned}𝑃(𝑊_{1}∩𝑊_{′2}^{})+𝑃(𝑊_{′1}^{}∩𝑊_{2}) & =\frac{4}{15}+\frac{4}{15} \\ & =\frac{8}{15}.\end{aligned}
+\begin{aligned}𝑃(𝑊_{1}∩𝑊_{′2})+𝑃(𝑊_{′1}∩𝑊_{2}) & =\frac{4}{15}+\frac{4}{15} \\ & =\frac{8}{15}.\end{aligned}
 
 
 

@@ -332,7 +332,7 @@ $$
 
 
 
-\text{radius} \leq \textrm{diameter} \leq 2 \cdot \textrm{radius}
+\text{radius} \leq \text{diameter} \leq 2 \cdot \text{radius}
 
 
 
@@ -434,7 +434,7 @@ $$
 
 
 
-\text{radius} \leq \textrm{diameter} \leq 2 \cdot \textrm{radius}
+\text{radius} \leq \text{diameter} \leq 2 \cdot \text{radius}
 
 
 

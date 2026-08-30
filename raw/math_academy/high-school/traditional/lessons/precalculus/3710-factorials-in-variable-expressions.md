@@ -21,7 +21,7 @@ $$
 
 
 
-\begin{aligned}5! & =5⋅\overset{\overset{4⋅3⋅2⋅1}{}}{4!} \\ & =5⋅4!\end{aligned}
+\begin{aligned}5! & =5⋅\overset{4⋅3⋅2⋅1}{4!} \\ & =5⋅4!\end{aligned}
 
 
 
@@ -33,7 +33,7 @@ $$
 
 
 
-\begin{aligned}𝑛! & =𝑛⋅\overset{\overset{(𝑛−1)⋅(𝑛−2)⋅\,⋯\,⋅2⋅1}{}}{(𝑛−1)!} \\ & =𝑛⋅(𝑛−1)!\end{aligned}
+\begin{aligned}𝑛! & =𝑛⋅\overset{(𝑛−1)⋅(𝑛−2)⋅\,⋯\,⋅2⋅1}{(𝑛−1)!} \\ & =𝑛⋅(𝑛−1)!\end{aligned}
 
 
 
@@ -97,7 +97,7 @@ $$
 
 
 
-\begin{aligned}(𝑘+1)! & =(𝑘+1)⋅𝑘⋅\overset{\overset{(𝑘−1)⋅(𝑘−2)⋅\,⋯\,⋅2⋅1}{}}{(𝑘−1)!} \\ & =(𝑘+1)⋅𝑘⋅(𝑘−1)!\end{aligned}
+\begin{aligned}(𝑘+1)! & =(𝑘+1)⋅𝑘⋅\overset{(𝑘−1)⋅(𝑘−2)⋅\,⋯\,⋅2⋅1}{(𝑘−1)!} \\ & =(𝑘+1)⋅𝑘⋅(𝑘−1)!\end{aligned}
 
 
 
@@ -131,7 +131,7 @@ $$
 
 
 
-\begin{aligned} \dfrac {n!} {(n - 2)!} &= \dfrac {n \cdot (n - 1) \cdot (n - 2)!} {(n - 2)!}\\\[5pt] &= \dfrac {n \cdot (n - 1) \cdot (n - 2)!} {(n - 2)!}\\\[5pt] &= n(n -1) \\\[5pt] &= n^2 - n \end{aligned}
+\begin{aligned} \dfrac {n!} {(n - 2)!} &= \dfrac {n \cdot (n - 1) \cdot (n - 2)!} {(n - 2)!}\\[5pt] &= \dfrac {n \cdot (n - 1) \cdot (n - 2)!} {(n - 2)!}\\[5pt] &= n(n -1) \\[5pt] &= n^2 - n \end{aligned}
 
 
 
@@ -175,7 +175,7 @@ $$
 
 
 
-\begin{aligned} \dfrac {k^2(k - 1)!} {k!} &= \dfrac {k \cdot k!} {k!}\\\[5pt] &= \dfrac {k \cdot k!} {k!} \\\[5pt] &= \dfrac {k} {1} \\\[5pt] &= k \end{aligned}
+\begin{aligned} \dfrac {k^2(k - 1)!} {k!} &= \dfrac {k \cdot k!} {k!}\\[5pt] &= \dfrac {k \cdot k!} {k!} \\[5pt] &= \dfrac {k} {1} \\[5pt] &= k \end{aligned}
 
 
 

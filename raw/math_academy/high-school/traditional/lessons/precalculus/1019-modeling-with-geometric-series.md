@@ -185,7 +185,7 @@ $$
 
 
 
-\begin{aligned} S_N & \geq 300 \\20\left(\dfrac{1-1.1^N}{1-1.1}\right) & \geq 300 \\\[5pt] \dfrac{1-1.1^N}{1-1.1} & \geq 15 \\\[5pt] \dfrac{1-1.1^N}{-0.1} & \geq 15 \\\[5pt] \dfrac{1.1^N-1}{0.1} & \geq 15\\\[5pt] 1.1^N -1 & \geq 1.5 \\\[5pt] 1.1^N & \geq 2.5 \\\[5pt] \log\left(1.1^N\right) &\geq \log(2.5) \\\[5pt] N \log(1.1) & \geq \log(2.5) \\\[5pt] N & \geq \dfrac{\log(2.5)}{\log(1.1)} \\\[5pt] N & \geq 9.614 \end{aligned}
+\begin{aligned} S_N & \geq 300 \\20\left(\dfrac{1-1.1^N}{1-1.1}\right) & \geq 300 \\[5pt] \dfrac{1-1.1^N}{1-1.1} & \geq 15 \\[5pt] \dfrac{1-1.1^N}{-0.1} & \geq 15 \\[5pt] \dfrac{1.1^N-1}{0.1} & \geq 15\\[5pt] 1.1^N -1 & \geq 1.5 \\[5pt] 1.1^N & \geq 2.5 \\[5pt] \log\left(1.1^N\right) &\geq \log(2.5) \\[5pt] N \log(1.1) & \geq \log(2.5) \\[5pt] N & \geq \dfrac{\log(2.5)}{\log(1.1)} \\[5pt] N & \geq 9.614 \end{aligned}
 
 
 

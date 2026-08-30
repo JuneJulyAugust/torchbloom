@@ -20,7 +20,7 @@ For example, to multiply $({\color{blue}{x}} + {\color{red}{3}})$ and $(x + 2),$
 $$
 
 
-\begin{aligned} ({\color{blue}{x}} + {\color{red}{3}})(x + 2) &= \\\[5pt] {\color{blue}{x}}(x + 2) + {\color{red}{3}}(x + 2) &= \\\[5pt] x^2 + 2x + 3x + 6 &= \\\[5pt] x^2 + 5x + 6 \end{aligned}
+\begin{aligned} ({\color{blue}{x}} + {\color{red}{3}})(x + 2) &= \\[5pt] {\color{blue}{x}}(x + 2) + {\color{red}{3}}(x + 2) &= \\[5pt] x^2 + 2x + 3x + 6 &= \\[5pt] x^2 + 5x + 6 \end{aligned}
 
 
 $$

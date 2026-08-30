@@ -158,7 +158,7 @@ More precisely, if $a, b, c,$ and $d$ are positive numbers such that
 $$
 
 
-a\leq p\leq b\quad\textrm{and}\quad c\leq q\leq d
+a\leq p\leq b\quad\text{and}\quad c\leq q\leq d
 
 
 $$
@@ -304,7 +304,7 @@ More precisely, if $a, b, c,$ and $d$ are positive numbers such that
 $$
 
 
-a\leq u\leq b\quad\textrm{and}\quad c\leq v\leq d
+a\leq u\leq b\quad\text{and}\quad c\leq v\leq d
 
 
 $$
@@ -344,7 +344,7 @@ More precisely, if
 $$
 
 
-m\leq a\leq n\quad\textrm{and}\quad p\leq b\leq q
+m\leq a\leq n\quad\text{and}\quad p\leq b\leq q
 
 
 $$

@@ -40,7 +40,7 @@ For example, suppose that
 $$
 
 
-[\begin{aligned}\sqrt{√3} & 1 \\ 3 & \sqrt{√3}\end{aligned}]
+[\begin{aligned}\sqrt{3} & 1 \\ 3 & \sqrt{3}\end{aligned}]
 
 
 $$
@@ -62,7 +62,7 @@ From $\Sigma,$ we deduce that the singular values of $A$ are $\sigma_1=4$ and $\
 $$
 
 
-\begin{aligned}𝐮_{1} & =\frac{1}{𝜎_{1}}𝐴𝐯_{1} \\ & =\frac{1}{4}[\begin{aligned}\sqrt{√3} & 1 \\ 3 & \sqrt{√3}\end{aligned}]\begin{aligned}\frac{\sqrt{√3}}{2} \\ \frac{1}{2}\end{aligned} \\ & =\begin{aligned}\frac{1}{2} \\ \frac{\sqrt{√3}}{2}\end{aligned}\end{aligned}
+\begin{aligned}𝐮_{1} & =\frac{1}{𝜎_{1}}𝐴𝐯_{1} \\ & =\frac{1}{4}[\begin{matrix}\sqrt{3} & 1 \\ 3 & \sqrt{3}\end{matrix}]\begin{matrix}\frac{\sqrt{3}}{2} \\ \frac{1}{2}\end{matrix} \\ & =\begin{matrix}\frac{1}{2} \\ \frac{\sqrt{3}}{2}\end{matrix}\end{aligned}
 
 
 $$
@@ -82,7 +82,7 @@ such that
 $$
 
 
-\mathbf{u}_1 \cdot \mathbf{u}_2 = 0 \qquad \textrm{and} \qquad \|\mathbf{u}_2\|=1.
+\mathbf{u}_1 \cdot \mathbf{u}_2 = 0 \qquad \text{and} \qquad \|\mathbf{u}_2\|=1.
 
 
 $$
@@ -98,7 +98,7 @@ Therefore, our orthogonal matrix $U$ is given by
 $$
 
 
-\begin{aligned}\frac{1}{2} & −\frac{\sqrt{√3}}{2} \\ \frac{\sqrt{√3}}{2} & \frac{1}{2}\end{aligned}
+\begin{aligned}\frac{1}{2} & −\frac{\sqrt{3}}{2} \\ \frac{\sqrt{3}}{2} & \frac{1}{2}\end{aligned}
 
 
 $$
@@ -110,7 +110,7 @@ $$
 $$
 
 
-[\begin{aligned}\sqrt{√3} & −1 \\ −\sqrt{√3} & 1\end{aligned}]
+[\begin{aligned}\sqrt{3} & −1 \\ −\sqrt{3} & 1\end{aligned}]
 
 
 $$
@@ -136,7 +136,7 @@ From the matrix $\Sigma,$ we deduce that the singular values are $\sigma_1=2\sqr
 $$
 
 
-\begin{aligned}𝐮_{1} & =\frac{1}{𝜎_{1}}𝐴𝐯_{1} \\ & =\frac{1}{2\sqrt{√2}}[\begin{aligned}\sqrt{√3} & −1 \\ −\sqrt{√3} & 1\end{aligned}]\begin{aligned}−\frac{\sqrt{√3}}{2} \\ \frac{1}{2}\end{aligned} \\ & =\frac{1}{2\sqrt{√2}}[\begin{aligned}−2 \\ 2\end{aligned}] \\ & =\begin{aligned}−\frac{1}{\sqrt{√2}} \\ \frac{1}{\sqrt{√2}}\end{aligned}.\end{aligned}
+\begin{aligned}𝐮_{1} & =\frac{1}{𝜎_{1}}𝐴𝐯_{1} \\ & =\frac{1}{2\sqrt{2}}[\begin{matrix}\sqrt{3} & −1 \\ −\sqrt{3} & 1\end{matrix}]\begin{matrix}−\frac{\sqrt{3}}{2} \\ \frac{1}{2}\end{matrix} \\ & =\frac{1}{2\sqrt{2}}[\begin{matrix}−2 \\ 2\end{matrix}] \\ & =\begin{matrix}−\frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}}\end{matrix}.\end{aligned}
 
 
 $$
@@ -156,7 +156,7 @@ such that
 $$
 
 
-\mathbf{u}_1 \cdot \mathbf{u}_2 = 0 \qquad \textrm{and} \qquad \|\mathbf{u}_2\|=1.
+\mathbf{u}_1 \cdot \mathbf{u}_2 = 0 \qquad \text{and} \qquad \|\mathbf{u}_2\|=1.
 
 
 $$
@@ -212,7 +212,7 @@ Finally, we construct the matrices $U$ and $V\mathbin{:}$
 $$
 
 
-\begin{aligned}−\frac{1}{\sqrt{√2}} & \frac{1}{\sqrt{√2}} \\ \frac{1}{\sqrt{√2}} & \frac{1}{\sqrt{√2}}\end{aligned}
+\begin{aligned}−\frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}}\end{aligned}
 
 
 $$
@@ -256,7 +256,7 @@ Finally, we construct the matrices $U,$ $\Sigma,$ and $V\mathbin{:}$
 $$
 
 
-\begin{aligned}\frac{2}{\sqrt{√13}} & \frac{3}{\sqrt{√13}} \\ −\frac{3}{\sqrt{√13}} & \frac{2}{\sqrt{√13}}\end{aligned}
+\begin{aligned}\frac{2}{\sqrt{13}} & \frac{3}{\sqrt{13}} \\ −\frac{3}{\sqrt{13}} & \frac{2}{\sqrt{13}}\end{aligned}
 
 
 $$
@@ -294,7 +294,7 @@ Finally, we construct the matrices $U,$ $\Sigma,$ and $V\mathbin{:}$
 $$
 
 
-\begin{aligned}\frac{1}{\sqrt{√2}} & \frac{1}{\sqrt{√2}} \\ −\frac{1}{\sqrt{√2}} & \frac{1}{\sqrt{√2}}\end{aligned}
+\begin{aligned}\frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}} \\ −\frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}}\end{aligned}
 
 
 $$

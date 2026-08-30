@@ -87,7 +87,7 @@ $$
 
 $$
 
-Therefore, the sides of the cube are shrinking at a rate of $\dfrac{1}{9}\,\text{mm}/\text{s}$ at the moment when $x=3\,\textrm{mm}.$
+Therefore, the sides of the cube are shrinking at a rate of $\dfrac{1}{9}\,\text{mm}/\text{s}$ at the moment when $x=3\,\text{mm}.$
 
 ### Example: Calculating the Rate of Change of the Surface Area Given the Rate of Change of a Side (and Vice Versa)
 
@@ -159,7 +159,7 @@ Therefore, the cube's surface area is changing at a rate of $480 \,\text{mm}^2/\
 
 #### Question
 
-Water is being poured into a rectangular prism-shaped tank. The length and width of this tank are $20 \textrm{ft}$ and $15 \textrm{ft},$ respectively. If the height of the water increases at a rate of $\dfrac{1}{6}\,\textrm{ft/min}$, determine the rate at which the volume of stored water increases.
+Water is being poured into a rectangular prism-shaped tank. The length and width of this tank are $20 \text{ft}$ and $15 \text{ft},$ respectively. If the height of the water increases at a rate of $\dfrac{1}{6}\,\text{ft/min}$, determine the rate at which the volume of stored water increases.
 
 ![Instructional graphic](../../../lesson-assets/ap-calculus-ab/topic-365/769cfd180c333e38.png)
 
@@ -215,4 +215,4 @@ $$
 
 $$
 
-Therefore, the water level is rising at a rate of $50\,\text{ft}^3\textrm{/min}.$
+Therefore, the water level is rising at a rate of $50\,\text{ft}^3\text{/min}.$

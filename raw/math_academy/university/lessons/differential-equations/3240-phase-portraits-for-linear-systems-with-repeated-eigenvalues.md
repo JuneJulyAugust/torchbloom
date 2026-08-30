@@ -231,7 +231,7 @@ Thus, the general solution of the system is
 $$
 
 
-\begin{aligned}[\begin{aligned}𝑥(𝑡) \\ 𝑦(𝑡)\end{aligned}] & =𝑐_{1}[\begin{aligned}1 \\ 0\end{aligned}]𝑒^{𝑡}+𝑐_{2}([\begin{aligned}1 \\ 0\end{aligned}]𝑡𝑒^{𝑡}+[\begin{aligned}0 \\ 1\end{aligned}]𝑒^{𝑡}) \\ & =𝑐_{1}𝑒^{𝑡}[\begin{aligned}1 \\ 0\end{aligned}]+𝑐_{2}𝑒^{𝑡}[\begin{aligned}𝑡 \\ 1\end{aligned}],\,𝑐_{1},𝑐_{2}∈ℝ.\end{aligned}
+\begin{aligned}[\begin{matrix}𝑥(𝑡) \\ 𝑦(𝑡)\end{matrix}] & =𝑐_{1}[\begin{matrix}1 \\ 0\end{matrix}]𝑒^{𝑡}+𝑐_{2}([\begin{matrix}1 \\ 0\end{matrix}]𝑡𝑒^{𝑡}+[\begin{matrix}0 \\ 1\end{matrix}]𝑒^{𝑡}) \\ & =𝑐_{1}𝑒^{𝑡}[\begin{matrix}1 \\ 0\end{matrix}]+𝑐_{2}𝑒^{𝑡}[\begin{matrix}𝑡 \\ 1\end{matrix}],\,𝑐_{1},𝑐_{2}∈ℝ.\end{aligned}
 
 
 $$
@@ -305,7 +305,7 @@ Thus, the general solution of the system is
 $$
 
 
-\begin{aligned}[\begin{aligned}𝑥(𝑡) \\ 𝑦(𝑡)\end{aligned}] & =𝑐_{1}[\begin{aligned}1 \\ −1\end{aligned}]𝑒^{−2𝑡}+𝑐_{2}([\begin{aligned}1 \\ −1\end{aligned}]𝑡𝑒^{−2𝑡}+[\begin{aligned}0 \\ 1\end{aligned}]𝑒^{−2𝑡}) \\ & =𝑐_{1}𝑒^{−2𝑡}[\begin{aligned}1 \\ −1\end{aligned}]+𝑐_{2}𝑒^{−2𝑡}[\begin{aligned}𝑡 \\ −𝑡+1\end{aligned}],\,𝑐_{1},𝑐_{2}∈ℝ.\end{aligned}
+\begin{aligned}[\begin{matrix}𝑥(𝑡) \\ 𝑦(𝑡)\end{matrix}] & =𝑐_{1}[\begin{matrix}1 \\ −1\end{matrix}]𝑒^{−2𝑡}+𝑐_{2}([\begin{matrix}1 \\ −1\end{matrix}]𝑡𝑒^{−2𝑡}+[\begin{matrix}0 \\ 1\end{matrix}]𝑒^{−2𝑡}) \\ & =𝑐_{1}𝑒^{−2𝑡}[\begin{matrix}1 \\ −1\end{matrix}]+𝑐_{2}𝑒^{−2𝑡}[\begin{matrix}𝑡 \\ −𝑡+1\end{matrix}],\,𝑐_{1},𝑐_{2}∈ℝ.\end{aligned}
 
 
 $$

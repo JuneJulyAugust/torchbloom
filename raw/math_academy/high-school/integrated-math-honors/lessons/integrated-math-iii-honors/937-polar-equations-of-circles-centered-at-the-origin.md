@@ -87,7 +87,7 @@ We can compute the radius $k$ of our circle using the Pythagorean theorem, as fo
 $$
 
 
-\begin{aligned}𝑘 & =\sqrt{√𝑥^{2}+𝑦^{2}} \\ & =\sqrt{√2^{2}+5^{2}} \\ & =\sqrt{√29}\end{aligned}
+\begin{aligned}𝑘 & =\sqrt{𝑥^{2}+𝑦^{2}} \\ & =\sqrt{2^{2}+5^{2}} \\ & =\sqrt{29}\end{aligned}
 
 
 $$

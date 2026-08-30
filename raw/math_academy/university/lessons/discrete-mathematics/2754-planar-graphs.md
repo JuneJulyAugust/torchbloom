@@ -33,11 +33,11 @@ This graph is planar, and its image represents an embedding. The $3$ faces of th
 
 Each face is a region in the plane bounded by a cycle. For example:
 
-- Face $\textrm{I}$ is bounded by the cycle $v_1-v_2-v_3-v_4 - v_1.$
+- Face $\text{I}$ is bounded by the cycle $v_1-v_2-v_3-v_4 - v_1.$
 
-- Face $\textrm{II}$ is bounded by the cycle $v_1-v_2-v_4-v_1.$
+- Face $\text{II}$ is bounded by the cycle $v_1-v_2-v_4-v_1.$
 
-- Face $\textrm{III}$ is bounded by the cycle $v_2-v_3-v_4-v_2.$
+- Face $\text{III}$ is bounded by the cycle $v_2-v_3-v_4-v_2.$
 
 For *simple* graphs, each of these bounding cycles must contain *at least three edges*. This fact becomes important in a proof that we'll study later.
 

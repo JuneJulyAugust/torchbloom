@@ -29,7 +29,7 @@ A similar result, known as **the fundamental theorem for line integrals,** exist
 $$
 
 
-\int_{C} \nabla f \cdot \textrm{d}\mathbf r = f(\mathbf r(b)) - f(\mathbf r(a)).
+\int_{C} \nabla f \cdot \text{d}\mathbf r = f(\mathbf r(b)) - f(\mathbf r(a)).
 
 
 $$
@@ -43,7 +43,7 @@ Let's apply the fundamental theorem for line integrals to evaluate
 $$
 
 
-\int_C \nabla f \cdot \textrm{d}\mathbf{r},
+\int_C \nabla f \cdot \text{d}\mathbf{r},
 
 
 $$
@@ -88,7 +88,7 @@ Notice how much faster it is to evaluate a line integral when we can use the fun
 
 #### Question
 
-Let $f(x,y,z)=xy^2+ 2xz.$ Given that $C$ is the path along the curve $\mathbf r(t)= \langle e^{t}, t, e^{-t}\rangle$ for $t\in \left[0,1\right],$ evaluate $\displaystyle\int_{C} \nabla f\cdot \textrm{d}\mathbf r.$
+Let $f(x,y,z)=xy^2+ 2xz.$ Given that $C$ is the path along the curve $\mathbf r(t)= \langle e^{t}, t, e^{-t}\rangle$ for $t\in \left[0,1\right],$ evaluate $\displaystyle\int_{C} \nabla f\cdot \text{d}\mathbf r.$
 
 #### Explanation
 
@@ -97,7 +97,7 @@ Let $C$ be a piecewise-smooth curve given by the vector function $\mathbf r(t)$ 
 $$
 
 
-\int_{C} \nabla f \cdot \textrm{d}\mathbf r = f(\mathbf r(b)) - f(\mathbf r(a)).
+\int_{C} \nabla f \cdot \text{d}\mathbf r = f(\mathbf r(b)) - f(\mathbf r(a)).
 
 
 $$
@@ -128,7 +128,7 @@ $$
 
 #### Question
 
-Let $f(x,y)= xe^{y}.$ Given that $C$ is the path along the curve $x + 2y=3$ for $x\in [-1,1],$ evaluate $\displaystyle\int_{C} \nabla f\cdot \textrm{d}\mathbf r.$
+Let $f(x,y)= xe^{y}.$ Given that $C$ is the path along the curve $x + 2y=3$ for $x\in [-1,1],$ evaluate $\displaystyle\int_{C} \nabla f\cdot \text{d}\mathbf r.$
 
 #### Explanation
 
@@ -137,7 +137,7 @@ Let $C$ be a piecewise-smooth curve given by the vector function $\mathbf r(t)$ 
 $$
 
 
-\int_{C} \nabla f \cdot \textrm{d}\mathbf r = f(\mathbf r(b)) - f(\mathbf r(a)).
+\int_{C} \nabla f \cdot \text{d}\mathbf r = f(\mathbf r(b)) - f(\mathbf r(a)).
 
 
 $$
@@ -199,7 +199,7 @@ Let $C$ be a piecewise-smooth curve given by the vector function $\mathbf r(t)$ 
 $$
 
 
-\int_{C} \nabla f \cdot \textrm{d}\mathbf r = f(\mathbf r(b)) - f(\mathbf r(a)).
+\int_{C} \nabla f \cdot \text{d}\mathbf r = f(\mathbf r(b)) - f(\mathbf r(a)).
 
 
 $$
@@ -267,7 +267,7 @@ Using our usual formula for calculating line integrals, we can write the left-ha
 $$
 
 
-\begin{aligned}∫_{𝐶}∇𝑓⋅d𝐫 & =∫_{𝑏𝑎}^{}∇𝑓⋅𝐫^{′}(𝑡)\,d𝑡 \\ & =∫_{𝑏𝑎}^{}(\frac{𝜕𝑓}{𝜕𝑥}\,𝐢+\frac{𝜕𝑓}{𝜕𝑦}\,𝐣)⋅(\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣)\,d𝑡 \\ & =∫_{𝑏𝑎}^{}\frac{𝜕𝑓}{𝜕𝑥}\frac{d𝑥}{d𝑡}+\frac{𝜕𝑓}{𝜕𝑦}\frac{d𝑦}{d𝑡}\,d𝑡.\end{aligned}
+\begin{aligned}∫_{𝐶}∇𝑓⋅d𝐫 & =∫_{𝑏𝑎}∇𝑓⋅𝐫^{′}(𝑡)\,d𝑡 \\ & =∫_{𝑏𝑎}(\frac{𝜕𝑓}{𝜕𝑥}\,𝐢+\frac{𝜕𝑓}{𝜕𝑦}\,𝐣)⋅(\frac{d𝑥}{d𝑡}\,𝐢+\frac{d𝑦}{d𝑡}\,𝐣)\,d𝑡 \\ & =∫_{𝑏𝑎}\frac{𝜕𝑓}{𝜕𝑥}\frac{d𝑥}{d𝑡}+\frac{𝜕𝑓}{𝜕𝑦}\frac{d𝑦}{d𝑡}\,d𝑡.\end{aligned}
 
 
 $$

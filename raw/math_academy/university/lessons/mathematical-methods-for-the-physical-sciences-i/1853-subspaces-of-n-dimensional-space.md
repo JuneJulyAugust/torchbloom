@@ -130,7 +130,7 @@ This means that the vector equation of the line is
 $$
 
 
-\begin{aligned}𝐫 & =\begin{aligned}0 \\ 0 \\ 0\end{aligned}+𝑡\begin{aligned}4 \\ 1 \\ −2\end{aligned}=\begin{aligned}4𝑡 \\ 𝑡 \\ −2𝑡\end{aligned}\end{aligned}
+\begin{aligned}𝐫 & =\begin{matrix}0 \\ 0 \\ 0\end{matrix}+𝑡\begin{matrix}4 \\ 1 \\ −2\end{matrix}=\begin{matrix}4𝑡 \\ 𝑡 \\ −2𝑡\end{matrix}\end{aligned}
 
 
 $$

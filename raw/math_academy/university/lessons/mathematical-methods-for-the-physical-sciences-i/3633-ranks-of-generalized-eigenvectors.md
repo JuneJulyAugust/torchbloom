@@ -105,7 +105,7 @@ and our generalized eigenvectors form the following chains:
 $$
 
 
-\begin{aligned}\underset{𝐰}{\underset{}\begin{aligned}0 \\ 0 \\ 1\end{aligned}}}\overset{}{𝐴−4𝐼\,}\underset{𝐯}{\underset{}\begin{aligned}0 \\ 1 \\ 0\end{aligned}}}\overset{}{𝐴−4𝐼\,}𝟎 & \\ \underset{𝐮}{\underset{}\begin{aligned}1 \\ 0 \\ 0\end{aligned}}}\overset{}{𝐴−4𝐼\,}𝟎 & \end{aligned}
+\begin{aligned}\underset{𝐰}{\begin{matrix}0 \\ 0 \\ 1\end{matrix}}\overset{}{𝐴−4𝐼\,}\underset{𝐯}{\begin{matrix}0 \\ 1 \\ 0\end{matrix}}\overset{}{𝐴−4𝐼\,}𝟎 & \\ \underset{𝐮}{\begin{matrix}1 \\ 0 \\ 0\end{matrix}}\overset{}{𝐴−4𝐼\,}𝟎 & \end{aligned}
 
 
 $$
@@ -205,7 +205,7 @@ where $\mathbf{v}_{n-1}, \mathbf{v}_{n-2},\ldots, \mathbf{v}_{1} \neq \mathbf{0}
 $$
 
 
-(A - \lambda I)^n \mathbf{v} = \mathbf{0} \qquad \textrm{and} \qquad (A - \lambda I)^{n-1} \mathbf{v} \neq \mathbf{0}.
+(A - \lambda I)^n \mathbf{v} = \mathbf{0} \qquad \text{and} \qquad (A - \lambda I)^{n-1} \mathbf{v} \neq \mathbf{0}.
 
 
 $$
@@ -237,7 +237,7 @@ For the given matrix $A$ with eigenvalue $\lambda = -4,$ a generalized eigenvect
 $$
 
 
-(A + 4I)^4 \mathbf{v} = \mathbf{0} \qquad \textrm{and} \qquad (A + 4I)^3 \mathbf{v} \neq \mathbf{0}.
+(A + 4I)^4 \mathbf{v} = \mathbf{0} \qquad \text{and} \qquad (A + 4I)^3 \mathbf{v} \neq \mathbf{0}.
 
 
 $$
@@ -279,7 +279,7 @@ For the given matrix $A$ with eigenvalue $\lambda = \pi,$ a generalized eigenvec
 $$
 
 
-(A - \pi I)^4 \mathbf{v} = \mathbf{0} \quad \textrm{and} \quad (A - \pi I)^3 \mathbf{v} \neq \mathbf{0}.
+(A - \pi I)^4 \mathbf{v} = \mathbf{0} \quad \text{and} \quad (A - \pi I)^3 \mathbf{v} \neq \mathbf{0}.
 
 
 $$
@@ -317,7 +317,7 @@ For the given matrix $A$ with eigenvalue $\lambda = 9,$ a generalized eigenvecto
 $$
 
 
-(A - 9I)^4 \mathbf{v} = \mathbf{0} \quad \textrm{and} \quad (A - 9I)^3 \mathbf{v} \neq \mathbf{0}.
+(A - 9I)^4 \mathbf{v} = \mathbf{0} \quad \text{and} \quad (A - 9I)^3 \mathbf{v} \neq \mathbf{0}.
 
 
 $$

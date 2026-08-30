@@ -14,7 +14,7 @@ Topic ID: 2242
 
 In this lesson, we will discuss how addition, subtraction, multiplication, and conjugation of complex numbers correspond to transformations of vectors in the complex plane.
 
-Consider a vector representing some complex number $z=x+\textrm{i}y$ in the complex plane, as shown below.
+Consider a vector representing some complex number $z=x+\text{i}y$ in the complex plane, as shown below.
 
 ![Instructional graphic](../../../../lesson-assets/precalculus/topic-2242/0b0992527e86413d.png)
 
@@ -24,7 +24,7 @@ $$
 
 
 
-\bar{z} = x-\textrm{i}y
+\bar{z} = x-\text{i}y
 
 
 
@@ -44,13 +44,13 @@ The complex number $z$ is shown on the argand diagram below. Sketch a diagram th
 
 #### Explanation
 
-The conjugate of $z=x + \textrm{i} y,$ denoted $\bar{z},$ is given by
+The conjugate of $z=x + \text{i} y,$ denoted $\bar{z},$ is given by
 
 $$
 
 
 
-\bar{z} = x - \textrm{i} y.
+\bar{z} = x - \text{i} y.
 
 
 
@@ -158,7 +158,7 @@ $$
 
 
 
-z_3 = z_1\cdot z_2 = r_1 \cdot r_2\left( \cos(\theta_1+\theta_2) + \textrm{i} \sin(\theta_1+\theta_2)\right)
+z_3 = z_1\cdot z_2 = r_1 \cdot r_2\left( \cos(\theta_1+\theta_2) + \text{i} \sin(\theta_1+\theta_2)\right)
 
 
 

@@ -95,7 +95,7 @@ Recall that, in terms of necessary and sufficient conditions, we have
 $$
 
 
-\underbrace{\textrm{Sufficient}\phantom{|}}_{P} \Rightarrow \underbrace{\textrm{Necessary}}_{Q}.
+\underbrace{\text{Sufficient}\phantom{|}}_{P} \Rightarrow \underbrace{\text{Necessary}}_{Q}.
 
 
 $$
@@ -115,7 +115,7 @@ Let's go back to the following true implication that we encountered in a previou
 $$
 
 
-\underbrace{\big( \, a > 0 \, \big)}_{\large\textrm{sufficient}} \: \Rightarrow \: \underbrace{\big( \, a^2 > 0 \, \big)}_{\large\textrm{necessary}}
+\underbrace{\big( \, a > 0 \, \big)}_{\large\text{sufficient}} \: \Rightarrow \: \underbrace{\big( \, a^2 > 0 \, \big)}_{\large\text{necessary}}
 
 
 $$
@@ -159,7 +159,7 @@ These ideas can be summarized as follows:
 $$
 
 
-\textbf{S}\textrm{ufficient} \: \Rightarrow \: \textbf{N}\textrm{ecessary}.
+\textbf{S}\text{ufficient} \: \Rightarrow \: \textbf{N}\text{ecessary}.
 
 
 $$

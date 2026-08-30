@@ -71,7 +71,7 @@ the corresponding quadratic form is then $Q(\mathbf{x})=B(\mathbf{x}, \mathbf{x}
 $$
 
 
-\begin{aligned}𝑄(𝑥_{1},𝑥_{2}) & =[\begin{aligned}𝑥_{1} & 𝑥_{2}\end{aligned}][\begin{aligned}1 & 2 \\ 2 & 1\end{aligned}][\begin{aligned}𝑥_{1} \\ 𝑥_{2}\end{aligned}] \\ & =[\begin{aligned}𝑥_{1} & 𝑥_{2}\end{aligned}][\begin{aligned}𝑥_{1}+2𝑥_{2} \\ 2𝑥_{1}+𝑥_{2}\end{aligned}] \\ & =𝑥_{21}^{}+4𝑥_{1}𝑥_{2}+𝑥_{22}^{}.\end{aligned}
+\begin{aligned}𝑄(𝑥_{1},𝑥_{2}) & =[\begin{matrix}𝑥_{1} & 𝑥_{2}\end{matrix}][\begin{matrix}1 & 2 \\ 2 & 1\end{matrix}][\begin{matrix}𝑥_{1} \\ 𝑥_{2}\end{matrix}] \\ & =[\begin{matrix}𝑥_{1} & 𝑥_{2}\end{matrix}][\begin{matrix}𝑥_{1}+2𝑥_{2} \\ 2𝑥_{1}+𝑥_{2}\end{matrix}] \\ & =𝑥_{21}+4𝑥_{1}𝑥_{2}+𝑥_{22}.\end{aligned}
 
 
 $$
@@ -127,7 +127,7 @@ Substituting $[\begin{aligned}3 \\ 4\end{aligned}]$ into the expression for $Q(\
 $$
 
 
-\begin{aligned}𝑄(𝐱) & =𝐱^{𝑇}\,𝐴𝐱 \\ & =[\begin{aligned}3 & 4\end{aligned}][\begin{aligned}−2 & 1 \\ 1 & 5\end{aligned}][\begin{aligned}3 \\ 4\end{aligned}] \\ & =[\begin{aligned}−2 & 23\end{aligned}][\begin{aligned}3 \\ 4\end{aligned}] \\ & =86.\end{aligned}
+\begin{aligned}𝑄(𝐱) & =𝐱^{𝑇}\,𝐴𝐱 \\ & =[\begin{matrix}3 & 4\end{matrix}][\begin{matrix}−2 & 1 \\ 1 & 5\end{matrix}][\begin{matrix}3 \\ 4\end{matrix}] \\ & =[\begin{matrix}−2 & 23\end{matrix}][\begin{matrix}3 \\ 4\end{matrix}] \\ & =86.\end{aligned}
 
 
 $$
@@ -155,7 +155,7 @@ Each entry $a_{ij}$ of $A$ corresponds to the term $a_{ij}x_i x_j$ in the expres
 $$
 
 
-\begin{aligned}𝐱^{𝑇}\,𝐴𝐱 & =−1𝑥_{1}𝑥_{1}+(1)𝑥_{1}𝑥_{2}+(1)𝑥_{2}𝑥_{1}+−1𝑥_{2}𝑥_{2} \\ & =−𝑥_{21}^{}+𝑥_{1}𝑥_{2}+𝑥_{2}𝑥_{1}−𝑥_{22}^{} \\ & =−𝑥_{21}^{}+2𝑥_{1}𝑥_{2}−𝑥_{22}^{}\end{aligned}
+\begin{aligned}𝐱^{𝑇}\,𝐴𝐱 & =−1𝑥_{1}𝑥_{1}+(1)𝑥_{1}𝑥_{2}+(1)𝑥_{2}𝑥_{1}+−1𝑥_{2}𝑥_{2} \\ & =−𝑥_{21}+𝑥_{1}𝑥_{2}+𝑥_{2}𝑥_{1}−𝑥_{22} \\ & =−𝑥_{21}+2𝑥_{1}𝑥_{2}−𝑥_{22}\end{aligned}
 
 
 $$
@@ -167,7 +167,7 @@ To write down a quadratic form in terms of vector components, we compute the fol
 $$
 
 
-\begin{aligned}𝐱^{𝑇}\,𝐴𝐱 & =[\begin{aligned}𝑥_{1} & 𝑥_{2}\end{aligned}][\begin{aligned}−1 & 1 \\ 1 & −1\end{aligned}][\begin{aligned}𝑥_{1} \\ 𝑥_{2}\end{aligned}] \\ & =[\begin{aligned}𝑥_{1} & 𝑥_{2}\end{aligned}][\begin{aligned}−𝑥_{1}+𝑥_{2} \\ 𝑥_{1}−𝑥_{2}\end{aligned}] \\ & =𝑥_{1}(−𝑥_{1}+𝑥_{2})+𝑥_{2}(𝑥_{1}−𝑥_{2}) \\ & =−𝑥_{21}^{}+𝑥_{1}𝑥_{2}+𝑥_{2}𝑥_{1}−𝑥_{22}^{} \\ & =−𝑥_{21}^{}+2𝑥_{1}𝑥_{2}−𝑥_{22}^{}\end{aligned}
+\begin{aligned}𝐱^{𝑇}\,𝐴𝐱 & =[\begin{matrix}𝑥_{1} & 𝑥_{2}\end{matrix}][\begin{matrix}−1 & 1 \\ 1 & −1\end{matrix}][\begin{matrix}𝑥_{1} \\ 𝑥_{2}\end{matrix}] \\ & =[\begin{matrix}𝑥_{1} & 𝑥_{2}\end{matrix}][\begin{matrix}−𝑥_{1}+𝑥_{2} \\ 𝑥_{1}−𝑥_{2}\end{matrix}] \\ & =𝑥_{1}(−𝑥_{1}+𝑥_{2})+𝑥_{2}(𝑥_{1}−𝑥_{2}) \\ & =−𝑥_{21}+𝑥_{1}𝑥_{2}+𝑥_{2}𝑥_{1}−𝑥_{22} \\ & =−𝑥_{21}+2𝑥_{1}𝑥_{2}−𝑥_{22}\end{aligned}
 
 
 $$

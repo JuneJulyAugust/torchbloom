@@ -59,7 +59,7 @@ Applying our usual algorithm for finding eigenvectors, we have
 $$
 
 
-\begin{aligned}𝐶−10𝐼 & =[\begin{aligned}9 & 1 \\ 1 & 9\end{aligned}]−10[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}]=[\begin{aligned}−1 & 1 \\ 1 & −1\end{aligned}].\end{aligned}
+\begin{aligned}𝐶−10𝐼 & =[\begin{matrix}9 & 1 \\ 1 & 9\end{matrix}]−10[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}]=[\begin{matrix}−1 & 1 \\ 1 & −1\end{matrix}].\end{aligned}
 
 
 $$
@@ -133,7 +133,7 @@ Applying our usual algorithm for finding eigenvectors, we have
 $$
 
 
-\begin{aligned}𝐶−6𝐼 & =[\begin{aligned}7 & 3 \\ 3 & 15\end{aligned}]−6[\begin{aligned}1 & 0 \\ 0 & 1\end{aligned}]=[\begin{aligned}1 & 3 \\ 3 & 9\end{aligned}].\end{aligned}
+\begin{aligned}𝐶−6𝐼 & =[\begin{matrix}7 & 3 \\ 3 & 15\end{matrix}]−6[\begin{matrix}1 & 0 \\ 0 & 1\end{matrix}]=[\begin{matrix}1 & 3 \\ 3 & 9\end{matrix}].\end{aligned}
 
 
 $$
@@ -207,7 +207,7 @@ Applying our usual algorithm for finding eigenvectors, we have
 $$
 
 
-\begin{aligned}𝐶−8𝐼 & =\begin{aligned}5 & 2 & 2 \\ 2 & 6 & 0 \\ 2 & 0 & 4\end{aligned}−8\begin{aligned}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{aligned}=\begin{aligned}−3 & 2 & 2 \\ 2 & −2 & 0 \\ 2 & 0 & −4\end{aligned}.\end{aligned}
+\begin{aligned}𝐶−8𝐼 & =\begin{matrix}5 & 2 & 2 \\ 2 & 6 & 0 \\ 2 & 0 & 4\end{matrix}−8\begin{matrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{matrix}=\begin{matrix}−3 & 2 & 2 \\ 2 & −2 & 0 \\ 2 & 0 & −4\end{matrix}.\end{aligned}
 
 
 $$

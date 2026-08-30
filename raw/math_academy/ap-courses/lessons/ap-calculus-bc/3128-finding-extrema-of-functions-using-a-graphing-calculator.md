@@ -116,7 +116,7 @@ The graph shows that the function has a local maximum point inside the interval 
 
 To access the $\boxed{\color{gray}\,\text{maximum}\,}$ command, we first make sure that our function $f(x)$ is plotted, and the point we want to find is clearly in view. Then, we press the $\boxed{\color{gray}\,\text{2nd}\,}$ button followed by $\boxed{\color{gray}\,\text{calc}\,}.$ We then select $\boxed{\color{gray}\,\text{maximum}\,}$ from the menu, followed by $\boxed{\color{gray}\,\text{enter}\,}.$
 
-The calculator will now ask us to specify an interval containing the maximum and an initial guess. First, we select a "left bound," followed by a "right bound," followed by our "guess." To specify these values, we use the $\boxed{\color{gray}\,\blacktriangleleft\,}$ and $\boxed{\color{gray}\,\blacktriangleright\,}$ buttons to move the cursor along the curve, and press $\boxed{\color{gray}\,\textrm{enter}\,}$ to select.
+The calculator will now ask us to specify an interval containing the maximum and an initial guess. First, we select a "left bound," followed by a "right bound," followed by our "guess." To specify these values, we use the $\boxed{\color{gray}\,\blacktriangleleft\,}$ and $\boxed{\color{gray}\,\blacktriangleright\,}$ buttons to move the cursor along the curve, and press $\boxed{\color{gray}\,\text{enter}\,}$ to select.
 
 In this particular case, we enter the following when prompted:
 
@@ -236,7 +236,7 @@ The graph shows that the function has a local minimum point inside the interval 
 
 To access the $\boxed{\color{gray}\,\text{minimum}\,}$ command, we first make sure that our function $f(x)$ is plotted, and the point we want to find is clearly in view. Then, we press the $\boxed{\color{gray}\,\text{2nd}\,}$ button followed by $\boxed{\color{gray}\,\text{calc}\,}.$ We then select $\boxed{\color{gray}\,\text{minimum}\,}$ from the menu, followed by $\boxed{\color{gray}\,\text{enter}\,}.$
 
-The calculator will now ask us to specify an interval containing the minimum and an initial guess. First, we select a "left bound," followed by a "right bound," followed by our "guess." To specify these values, we use the $\boxed{\color{gray}\,\blacktriangleleft\,}$ and $\boxed{\color{gray}\,\blacktriangleright\,}$ buttons to move the cursor along the curve, and press $\boxed{\color{gray}\,\textrm{enter}\,}$ to select.
+The calculator will now ask us to specify an interval containing the minimum and an initial guess. First, we select a "left bound," followed by a "right bound," followed by our "guess." To specify these values, we use the $\boxed{\color{gray}\,\blacktriangleleft\,}$ and $\boxed{\color{gray}\,\blacktriangleright\,}$ buttons to move the cursor along the curve, and press $\boxed{\color{gray}\,\text{enter}\,}$ to select.
 
 In this particular case, we enter the following when prompted:
 
@@ -346,13 +346,13 @@ Plotting $y=f(x)$ using the default view gives the following:
 
 Notice that the minimum point is not visible in the standard view.
 
-To get a better view, we might start by zooming out. For this, we press $\boxed{\color{gray}\textrm{zoom}}$ and select "zoom out." Then, we press $\boxed{\color{gray}\textrm{enter}}$ followed by $\boxed{\color{gray}\textrm{enter}}$ once more.
+To get a better view, we might start by zooming out. For this, we press $\boxed{\color{gray}\text{zoom}}$ and select "zoom out." Then, we press $\boxed{\color{gray}\text{enter}}$ followed by $\boxed{\color{gray}\text{enter}}$ once more.
 
 This gives the following plot.
 
 ![Instructional graphic](../../../lesson-assets/ap-calculus-bc/topic-3128/ae6f279676fd8b4b.png)
 
-By pressing the $\boxed{\color{gray}\textrm{window}}$ button, we see that this view is $x\in [-40,40], y\in [-40,40].$
+By pressing the $\boxed{\color{gray}\text{window}}$ button, we see that this view is $x\in [-40,40], y\in [-40,40].$
 
 The minimum is now clearly visible, and we can apply our usual procedure to approximate the minimum point.
 

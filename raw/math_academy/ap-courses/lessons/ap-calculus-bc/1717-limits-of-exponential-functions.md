@@ -51,7 +51,7 @@ $$
 
 #### Question
 
-Find $\lim_\limits{x \to 1} (3^{2x} + 2^{3x} + 1).$
+Find $\lim\limits_{x \to 1} (3^{2x} + 2^{3x} + 1).$
 
 #### Explanation
 
@@ -76,7 +76,7 @@ Considering $y = 2^x$ first, we note that as $x \to \infty,$ the function increa
 $$
 
 
-\lim_{x\to \infty} 2^x = \infty\qquad \textrm{and}\qquad \lim_{x\to -\infty} 2^x =0.
+\lim_{x\to \infty} 2^x = \infty\qquad \text{and}\qquad \lim_{x\to -\infty} 2^x =0.
 
 
 $$
@@ -88,7 +88,7 @@ Now consider the curve $y=2^{-x}.$ We have
 $$
 
 
-\lim_{x\to \infty} 2^{-x} = 0\qquad \textrm{and}\qquad \lim_{x\to -\infty} 2^{-x} =\infty.
+\lim_{x\to \infty} 2^{-x} = 0\qquad \text{and}\qquad \lim_{x\to -\infty} 2^{-x} =\infty.
 
 
 $$
@@ -141,7 +141,7 @@ $$
 
 #### Question
 
-Compute $\lim_\limits{x \to \infty} -5 \left(\dfrac{1}{3}\right)^{1+x}.$
+Compute $\lim\limits_{x \to \infty} -5 \left(\dfrac{1}{3}\right)^{1+x}.$
 
 #### Explanation
 
@@ -164,7 +164,7 @@ From the graph, we see that the function decreases to zero as $x$ increases. So
 $$
 
 
-\lim_\limits{x \to \infty} \left(\dfrac{1}{3}\right)^{x} = 0,
+\lim\limits_{x \to \infty} \left(\dfrac{1}{3}\right)^{x} = 0,
 
 
 $$
@@ -174,7 +174,7 @@ and finally, we have
 $$
 
 
--\dfrac{5}{3}\cdot \lim_\limits{x \to \infty} \left(\dfrac{1}{3}\right)^{x} = -\dfrac 5 3\cdot 0 = 0.
+-\dfrac{5}{3}\cdot \lim\limits_{x \to \infty} \left(\dfrac{1}{3}\right)^{x} = -\dfrac 5 3\cdot 0 = 0.
 
 
 $$

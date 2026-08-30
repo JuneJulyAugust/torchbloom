@@ -16,14 +16,14 @@ Suppose we want to evaluate the repeated integral
 $$
 
 
-\int_{\color{black}0}^{\color{black}2} \int_{\color{black}x/2}^{\color{black}1} \, e^{y^2}\,\textrm{d}{\color{black}y} \, \textrm{d}{\color{black}x}.
+\int_{\color{black}0}^{\color{black}2} \int_{\color{black}x/2}^{\color{black}1} \, e^{y^2}\,\text{d}{\color{black}y} \, \text{d}{\color{black}x}.
 
 
 $$
 
-The expression "$\,\textrm{d}y\,\textrm{d}x\,$" tells us that we should integrate first with respect to $y.$ This is problematic, though, as the integrand $e^{y^2}$ does not have an elementary antiderivative. So, what can we do?
+The expression "$\,\text{d}y\,\text{d}x\,$" tells us that we should integrate first with respect to $y.$ This is problematic, though, as the integrand $e^{y^2}$ does not have an elementary antiderivative. So, what can we do?
 
-In cases like this, **reversing the order of integration** from $\, \textrm{d}y\,\textrm{d}x\,$ to $\, \textrm{d}x\,\textrm{d}y$ might help. But beware! Because the domain of integration is non-rectangular, we can't just swap the order of the integrals. This is because, to integrate with respect to $x,$ we can't have $x$'s in the limits. So we need to work out new limits.
+In cases like this, **reversing the order of integration** from $\, \text{d}y\,\text{d}x\,$ to $\, \text{d}x\,\text{d}y$ might help. But beware! Because the domain of integration is non-rectangular, we can't just swap the order of the integrals. This is because, to integrate with respect to $x,$ we can't have $x$'s in the limits. So we need to work out new limits.
 
 When swapping the order of integration, it is helpful to sketch the region $D$ over which we're integrating.
 
@@ -68,7 +68,7 @@ Now that we have expressed the region $D$ as a type II region, we're ready to sw
 $$
 
 
-\begin{aligned}∫_{20}^{}∫_{1𝑥/2}^{}\,𝑒^{𝑦^{2}}\,d𝑦\,d𝑥 & =∫_{10}^{}∫_{2𝑦0}^{}𝑒^{𝑦^{2}}\,d𝑥\,d𝑦 \\ & =∫_{10}^{}𝑒^{𝑦^{2}}[∫_{2𝑦0}^{}d𝑥]\,d𝑦 \\ & =∫_{10}^{}𝑒^{𝑦^{2}}[𝑥]_{2𝑦0}^{}\,d𝑦 \\ & =∫_{10}^{}2𝑦𝑒^{𝑦^{2}}d𝑦 \\ & =[𝑒^{𝑦^{2}}]_{10}^{} \\ & =𝑒−1.\end{aligned}
+\begin{aligned}∫_{20}∫_{1𝑥/2}\,𝑒^{𝑦^{2}}\,d𝑦\,d𝑥 & =∫_{10}∫_{2𝑦0}𝑒^{𝑦^{2}}\,d𝑥\,d𝑦 \\ & =∫_{10}𝑒^{𝑦^{2}}[∫_{2𝑦0}d𝑥]\,d𝑦 \\ & =∫_{10}𝑒^{𝑦^{2}}[𝑥]_{2𝑦0}\,d𝑦 \\ & =∫_{10}2𝑦𝑒^{𝑦^{2}}d𝑦 \\ & =[𝑒^{𝑦^{2}}]_{10} \\ & =𝑒−1.\end{aligned}
 
 
 $$
@@ -77,7 +77,7 @@ $$
 
 #### Question
 
-Change the order of integration in the double integral $\displaystyle \int_0^1 \int_{y^3}^{1} f(x,y) \: \textrm{d}x \: \textrm{d}y.$
+Change the order of integration in the double integral $\displaystyle \int_0^1 \int_{y^3}^{1} f(x,y) \: \text{d}x \: \text{d}y.$
 
 #### Explanation
 
@@ -132,7 +132,7 @@ Therefore, swapping the order of integration, we obtain
 $$
 
 
-\begin{aligned}∫_{10}^{}∫_{1𝑦^{3}}^{}𝑓(𝑥,𝑦)\,d𝑥\,d𝑦 & =∫_{10}^{}∫_{\sqrt[√𝑥]{3}0}^{}𝑓(𝑥,𝑦)\,d𝑦\,d𝑥.\end{aligned}
+\begin{aligned}∫_{10}∫_{1𝑦^{3}}^{}𝑓(𝑥,𝑦)\,d𝑥\,d𝑦 & =∫_{10}∫_{\sqrt[√𝑥]{3}0}^{}𝑓(𝑥,𝑦)\,d𝑦\,d𝑥.\end{aligned}
 
 
 $$
@@ -141,7 +141,7 @@ $$
 
 #### Question
 
-Change the order of integration in the double integral $\displaystyle \int_0^1\int_{2x}^{3-x} f(x,y)\,\textrm{d}y\,\textrm{d}x.$
+Change the order of integration in the double integral $\displaystyle \int_0^1\int_{2x}^{3-x} f(x,y)\,\text{d}y\,\text{d}x.$
 
 #### Explanation
 
@@ -206,7 +206,7 @@ Therefore, swapping the order of integration, we obtain
 $$
 
 
-\begin{aligned}∫_{10}^{}∫_{3−𝑥2𝑥}^{}𝑓(𝑥,𝑦)\,d𝑦\,d𝑥 & =∫_{20}^{}∫_{𝑦/20}^{}𝑓(𝑥,𝑦)\,d𝑥\,d𝑦+∫_{32}^{}∫_{3−𝑦0}^{}𝑓(𝑥,𝑦)\,d𝑥\,d𝑦.\end{aligned}
+\begin{aligned}∫_{10}∫_{3−𝑥2𝑥}𝑓(𝑥,𝑦)\,d𝑦\,d𝑥 & =∫_{20}∫_{𝑦/20}𝑓(𝑥,𝑦)\,d𝑥\,d𝑦+∫_{32}∫_{3−𝑦0}𝑓(𝑥,𝑦)\,d𝑥\,d𝑦.\end{aligned}
 
 
 $$
@@ -215,7 +215,7 @@ $$
 
 #### Question
 
-Change the order of integration and evaluate the double integral $\displaystyle{\int_0^{1} \int_{\sqrt{x}}^{1} 9\sqrt{y^3+1}\,\textrm{d}y\,\textrm{d}x}.$
+Change the order of integration and evaluate the double integral $\displaystyle{\int_0^{1} \int_{\sqrt{x}}^{1} 9\sqrt{y^3+1}\,\text{d}y\,\text{d}x}.$
 
 #### Explanation
 
@@ -270,7 +270,7 @@ Therefore, swapping the order of integration, we obtain
 $$
 
 
-\begin{aligned}∫_{10}^{}∫_{1\sqrt{√𝑥}}^{}9\sqrt{√𝑦^{3}+1}\,d𝑦\,d𝑥 & =∫_{10}^{}∫_{𝑦^{2}0}^{}9\sqrt{√𝑦^{3}+1}\,d𝑥\,d𝑦 \\ & =9∫_{10}^{}\sqrt{√𝑦^{3}+1}[∫_{𝑦^{2}0}^{}\,d𝑥]\,d𝑦 \\ & =9∫_{10}^{}\sqrt{√𝑦^{3}+1}[𝑥\,]_{𝑦^{2}0}^{}\,d𝑦 \\ & =3∫_{10}^{}3𝑦^{2}(𝑦^{3}+1)^{1/2}\,d𝑦 \\ & =3[\frac{2}{3}(𝑦^{3}+1)^{3/2}]_{10}^{} \\ & =[2(𝑦^{3}+1)^{3/2}]_{10}^{} \\ & =2(2)^{3/2}−2 \\ & =4\sqrt{√2}−2.\end{aligned}
+\begin{aligned}∫_{10}∫_{1\sqrt{𝑥}}^{}9\sqrt{𝑦^{3}+1}\,d𝑦\,d𝑥 & =∫_{10}∫_{𝑦^{2}0}^{}9\sqrt{𝑦^{3}+1}\,d𝑥\,d𝑦 \\ & =9∫_{10}\sqrt{𝑦^{3}+1}[∫_{𝑦^{2}0}^{}\,d𝑥]\,d𝑦 \\ & =9∫_{10}\sqrt{𝑦^{3}+1}[𝑥\,]_{𝑦^{2}0}^{}\,d𝑦 \\ & =3∫_{10}3𝑦^{2}(𝑦^{3}+1)^{1/2}\,d𝑦 \\ & =3[\frac{2}{3}(𝑦^{3}+1)^{3/2}]_{10} \\ & =[2(𝑦^{3}+1)^{3/2}]_{10} \\ & =2(2)^{3/2}−2 \\ & =4\sqrt{2}−2.\end{aligned}
 
 
 $$

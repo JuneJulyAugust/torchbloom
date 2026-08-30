@@ -13,7 +13,7 @@ Topic ID: 3216
 
 ### Introduction
 
-Consider the circle below. How do we calculate $\dfrac{\textrm{d}y}{\textrm{d}x},$ the slope of the tangent to this circle at any point on the circle?
+Consider the circle below. How do we calculate $\dfrac{\text{d}y}{\text{d}x},$ the slope of the tangent to this circle at any point on the circle?
 
 ![Instructional graphic](../../../lesson-assets/mathematical-foundations-iii/topic-3216/0dddf8a2b40fc7c6.png)
 
@@ -46,7 +46,7 @@ For example, since the point $P\big(\sqrt{2}, \sqrt{3} \big)$ satisfies the equa
 $$
 
 
-\dfrac{\textrm{d}y}{\textrm{d}x} \Bigg|_{( \sqrt{2}, \sqrt{3})} = -\dfrac{\sqrt{2}}{\sqrt{3}} = -\dfrac{\sqrt{6}}{3}.
+\dfrac{\text{d}y}{\text{d}x} \Bigg|_{( \sqrt{2}, \sqrt{3})} = -\dfrac{\sqrt{2}}{\sqrt{3}} = -\dfrac{\sqrt{6}}{3}.
 
 
 $$
@@ -57,7 +57,7 @@ $$
 
 ![Instructional graphic](../../../lesson-assets/mathematical-foundations-iii/topic-3216/4f97310afb3ad3b0.png)
 
-Find $\dfrac{\textrm{d}y}{\textrm{d}x}$ for the circle shown above.
+Find $\dfrac{\text{d}y}{\text{d}x}$ for the circle shown above.
 
 #### Explanation
 
@@ -87,7 +87,7 @@ $$
 
 ![Instructional graphic](../../../lesson-assets/mathematical-foundations-iii/topic-3216/bf883e6520844915.png)
 
-Find $\dfrac{\textrm{d}y}{\textrm{d}x}$ for the ellipse shown above.
+Find $\dfrac{\text{d}y}{\text{d}x}$ for the ellipse shown above.
 
 #### Explanation
 
@@ -117,7 +117,7 @@ $$
 
 ![Instructional graphic](../../../lesson-assets/mathematical-foundations-iii/topic-3216/d8c775ff35a4942b.png)
 
-Find $\dfrac{\textrm{d}y}{\textrm{d}x}$ for the right-opening parabola shown above.
+Find $\dfrac{\text{d}y}{\text{d}x}$ for the right-opening parabola shown above.
 
 #### Explanation
 

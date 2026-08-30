@@ -36,7 +36,7 @@ Therefore, the area of our triangle is
 $$
 
 
-\begin{aligned}A & =\frac{1}{2}⋅10⋅12⋅sin⁡45^{∘} \\ & =60⋅\frac{\sqrt{√2}}{2} \\ & =30\sqrt{√2}.\end{aligned}
+\begin{aligned}A & =\frac{1}{2}⋅10⋅12⋅sin⁡45^{∘} \\ & =60⋅\frac{\sqrt{2}}{2} \\ & =30\sqrt{2}.\end{aligned}
 
 
 $$
@@ -142,12 +142,12 @@ we can calculate $c=AB,$ as follows:
 $$
 
 
-\begin{aligned}A & =\frac{1}{2}⋅𝑏⋅𝑐⋅sin⁡𝐴 \\ 24\sqrt{√2} & =\frac{1}{2}⋅12⋅𝑐⋅sin⁡45^{∘} \\ 24\sqrt{√2} & =\frac{1}{2}⋅12⋅𝑐⋅(\frac{\sqrt{√2}}{2}) \\ 24\sqrt{√2} & =3\sqrt{√2}𝑐 \\ 24 & =3𝑐 \\ 𝑐 & =8 cm.\end{aligned}
+\begin{aligned}A & =\frac{1}{2}⋅𝑏⋅𝑐⋅sin⁡𝐴 \\ 24\sqrt{2} & =\frac{1}{2}⋅12⋅𝑐⋅sin⁡45^{∘} \\ 24\sqrt{2} & =\frac{1}{2}⋅12⋅𝑐⋅(\frac{\sqrt{2}}{2}) \\ 24\sqrt{2} & =3\sqrt{2}𝑐 \\ 24 & =3𝑐 \\ 𝑐 & =8 cm.\end{aligned}
 
 
 $$
 
-We conclude that $AB = 8\,\textrm{cm}.$
+We conclude that $AB = 8\,\text{cm}.$
 
 ### Example: Calculating the Area of a Quadrilateral
 

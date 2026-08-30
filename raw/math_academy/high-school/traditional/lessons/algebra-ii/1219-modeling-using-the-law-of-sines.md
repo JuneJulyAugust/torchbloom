@@ -58,7 +58,7 @@ $$
 
 rounded to $2$ decimal places.
 
-So, the distance between Bill and the helicopter is about $2.2\,\textrm{km}.$
+So, the distance between Bill and the helicopter is about $2.2\,\text{km}.$
 
 ### Example: Finding the Length of a Side of a Triangle Using the Law of Sines: Word Problem
 
@@ -102,7 +102,7 @@ to one decimal place. So, the fire is $2.7$ kilometers from tower $B.$
 
 #### Question
 
-Two friends, Mary and Luis, are located $20$ meters apart. Mary is flying a quadcopter drone. The angle of elevation between Mary and the quadcopter is $50^\circ,$ and the distance from the drone to Luis is $100\,\textrm{m},$ as shown below.
+Two friends, Mary and Luis, are located $20$ meters apart. Mary is flying a quadcopter drone. The angle of elevation between Mary and the quadcopter is $50^\circ,$ and the distance from the drone to Luis is $100\,\text{m},$ as shown below.
 
 ![Instructional graphic](../../../../lesson-assets/algebra-ii/topic-1219/7e5cab633cc8bf3b.png)
 

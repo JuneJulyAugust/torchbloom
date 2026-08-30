@@ -104,7 +104,7 @@ First, we find the reference angle associated with the point:
 $$
 
 
-\begin{aligned}𝜃_{𝑅} & =arctan⁡\frac{𝑦}{𝑥} \\ & =arctan⁡\frac{−2\sqrt{√3}}{6} \\ & =arctan⁡(\frac{\sqrt{√3}}{3}) \\ & =\frac{𝜋}{6}\end{aligned}
+\begin{aligned}𝜃_{𝑅} & =arctan⁡\frac{𝑦}{𝑥} \\ & =arctan⁡\frac{−2\sqrt{3}}{6} \\ & =arctan⁡(\frac{\sqrt{3}}{3}) \\ & =\frac{𝜋}{6}\end{aligned}
 
 
 $$
@@ -144,7 +144,7 @@ The polar coordinates of $P$ are $(r, \theta) = \left(7, \dfrac{4\pi}{3}\right).
 $$
 
 
-\begin{aligned}𝑥 & =𝑟cos⁡𝜃 \\ & =7cos⁡(\frac{4𝜋}{3}) \\ & =7⋅(−\frac{1}{2}) \\ & =−\frac{7}{2} \\ 𝑦 & =𝑟sin⁡𝜃 \\ & =7sin⁡(\frac{4𝜋}{3}) \\ & =7⋅(−\frac{\sqrt{√3}}{2}) \\ & =−\frac{7\sqrt{√3}}{2}\end{aligned}
+\begin{aligned}𝑥 & =𝑟cos⁡𝜃 \\ & =7cos⁡(\frac{4𝜋}{3}) \\ & =7⋅(−\frac{1}{2}) \\ & =−\frac{7}{2} \\ 𝑦 & =𝑟sin⁡𝜃 \\ & =7sin⁡(\frac{4𝜋}{3}) \\ & =7⋅(−\frac{\sqrt{3}}{2}) \\ & =−\frac{7\sqrt{3}}{2}\end{aligned}
 
 
 $$

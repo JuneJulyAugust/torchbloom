@@ -41,7 +41,7 @@ Find the binormal vector to the curve $\mathbf r(t)$ at an arbitrary point, give
 $$
 
 
-\begin{aligned}𝐓(𝑡) & =\frac{1}{\sqrt{√𝑡^{2}+16}}⟨0,𝑡,4⟩, \\ 𝐍(𝑡) & =\frac{1}{\sqrt{√𝑡^{2}+16}}⟨0,4,−𝑡⟩.\end{aligned}
+\begin{aligned}𝐓(𝑡) & =\frac{1}{\sqrt{𝑡^{2}+16}}⟨0,𝑡,4⟩, \\ 𝐍(𝑡) & =\frac{1}{\sqrt{𝑡^{2}+16}}⟨0,4,−𝑡⟩.\end{aligned}
 
 
 $$
@@ -65,7 +65,7 @@ Therefore, we have
 $$
 
 
-\begin{aligned}𝐁(𝑡) & =𝐓(𝑡)×𝐍(𝑡) \\ & =\frac{1}{\sqrt{√𝑡^{2}+16}}⟨0,𝑡,4⟩×\frac{1}{\sqrt{√𝑡^{2}+16}}⟨0,4,−𝑡⟩ \\ & =\frac{1}{𝑡^{2}+16}\,\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 0 & 𝑡 & 4 \\ 0 & 4 & −𝑡\end{aligned} \\ & =\frac{1}{𝑡^{2}+16}[ \begin{aligned}𝑡 & 4 \\ 4 & −𝑡\end{aligned}\,𝐢−\begin{aligned}0 & 4 \\ 0 & −𝑡\end{aligned}\,𝐣+\begin{aligned}0 & 𝑡 \\ 0 & 4\end{aligned}\,𝐤 ] \\ & =\frac{1}{𝑡^{2}+16}⟨(−𝑡^{2}−16),−(0−0),(0−0)⟩ \\ & =\frac{1}{𝑡^{2}+16}⟨−(𝑡^{2}+16),0,0⟩ \\ & =⟨−1,0,0⟩.\end{aligned}
+\begin{aligned}𝐁(𝑡) & =𝐓(𝑡)×𝐍(𝑡) \\ & =\frac{1}{\sqrt{𝑡^{2}+16}}⟨0,𝑡,4⟩×\frac{1}{\sqrt{𝑡^{2}+16}}⟨0,4,−𝑡⟩ \\ & =\frac{1}{𝑡^{2}+16}\,\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 0 & 𝑡 & 4 \\ 0 & 4 & −𝑡\end{matrix} \\ & =\frac{1}{𝑡^{2}+16}[ \begin{matrix}𝑡 & 4 \\ 4 & −𝑡\end{matrix}\,𝐢−\begin{matrix}0 & 4 \\ 0 & −𝑡\end{matrix}\,𝐣+\begin{matrix}0 & 𝑡 \\ 0 & 4\end{matrix}\,𝐤 ] \\ & =\frac{1}{𝑡^{2}+16}⟨(−𝑡^{2}−16),−(0−0),(0−0)⟩ \\ & =\frac{1}{𝑡^{2}+16}⟨−(𝑡^{2}+16),0,0⟩ \\ & =⟨−1,0,0⟩.\end{aligned}
 
 
 $$
@@ -103,7 +103,7 @@ Therefore, we have
 $$
 
 
-\begin{aligned}𝐁(𝜋) & =𝐓(𝜋)×𝐍(𝜋) \\ & =\frac{1}{5}⟨0,−3,4⟩×⟨1,0,0⟩ \\ & =\frac{1}{5}\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ 0 & −3 & 4 \\ 1 & 0 & 0\end{aligned} \\ & =\frac{1}{5}[ \begin{aligned}−3 & 4 \\ 0 & 0\end{aligned}\,𝐢−\begin{aligned}0 & 4 \\ 1 & 0\end{aligned}\,𝐣+\begin{aligned}0 & −3 \\ 1 & 0\end{aligned}\,𝐤 ] \\ & =\frac{1}{5}⟨(0−0),−(0−4),(0−(−3))⟩ \\ & =\frac{1}{5}⟨0,4,3⟩.\end{aligned}
+\begin{aligned}𝐁(𝜋) & =𝐓(𝜋)×𝐍(𝜋) \\ & =\frac{1}{5}⟨0,−3,4⟩×⟨1,0,0⟩ \\ & =\frac{1}{5}\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ 0 & −3 & 4 \\ 1 & 0 & 0\end{matrix} \\ & =\frac{1}{5}[ \begin{matrix}−3 & 4 \\ 0 & 0\end{matrix}\,𝐢−\begin{matrix}0 & 4 \\ 1 & 0\end{matrix}\,𝐣+\begin{matrix}0 & −3 \\ 1 & 0\end{matrix}\,𝐤 ] \\ & =\frac{1}{5}⟨(0−0),−(0−4),(0−(−3))⟩ \\ & =\frac{1}{5}⟨0,4,3⟩.\end{aligned}
 
 
 $$
@@ -117,7 +117,7 @@ Find the binormal vector to the curve $\mathbf r(t)$ at an arbitrary point, give
 $$
 
 
-\begin{aligned}𝐓(𝑡) & =\frac{1}{\sqrt{√5}}⟨sin⁡4𝑡,2,cos⁡4𝑡⟩.\end{aligned}
+\begin{aligned}𝐓(𝑡) & =\frac{1}{\sqrt{5}}⟨sin⁡4𝑡,2,cos⁡4𝑡⟩.\end{aligned}
 
 
 $$
@@ -151,7 +151,7 @@ First, we find the principal normal $\mathbf{N}(t).$ To do this, we calculate $\
 $$
 
 
-\begin{aligned}𝐓^{′}(𝑡) & =\frac{1}{\sqrt{√5}}⟨\frac{d}{d𝑡}(sin⁡4𝑡),\,\frac{d}{d𝑡}(2),\,\frac{d}{d𝑡}(cos⁡4𝑡)⟩ \\ & =\frac{1}{\sqrt{√5}}⟨4cos⁡4𝑡,\,0,\,−4sin⁡4𝑡⟩ \\ & =\frac{4}{\sqrt{√5}}⟨cos⁡4𝑡,\,0,\,−sin⁡4𝑡⟩ \\ 𝐓^{′}(𝑡) & =\frac{1}{\sqrt{√5}}\sqrt{√(4cos⁡4𝑡)^{2}+0^{2}+(−4sin⁡4𝑡)^{2}} \\ & =\frac{1}{\sqrt{√5}}\sqrt{√16cos^{2}⁡4𝑡+16sin^{2}⁡4𝑡} \\ & =\frac{1}{\sqrt{√5}}\sqrt{√16(cos^{2}⁡4𝑡+sin^{2}⁡4𝑡)} \\ & =\frac{1}{\sqrt{√5}}\sqrt{√16} \\ & =\frac{4}{\sqrt{√5}}\end{aligned}
+\begin{aligned}𝐓^{′}(𝑡) & =\frac{1}{\sqrt{5}}⟨\frac{d}{d𝑡}(sin⁡4𝑡),\,\frac{d}{d𝑡}(2),\,\frac{d}{d𝑡}(cos⁡4𝑡)⟩ \\ & =\frac{1}{\sqrt{5}}⟨4cos⁡4𝑡,\,0,\,−4sin⁡4𝑡⟩ \\ & =\frac{4}{\sqrt{5}}⟨cos⁡4𝑡,\,0,\,−sin⁡4𝑡⟩ \\ 𝐓^{′}(𝑡) & =\frac{1}{\sqrt{5}}\sqrt{(4cos⁡4𝑡)^{2}+0^{2}+(−4sin⁡4𝑡)^{2}} \\ & =\frac{1}{\sqrt{5}}\sqrt{16cos^{2}⁡4𝑡+16sin^{2}⁡4𝑡} \\ & =\frac{1}{\sqrt{5}}\sqrt{16(cos^{2}⁡4𝑡+sin^{2}⁡4𝑡)} \\ & =\frac{1}{\sqrt{5}}\sqrt{16} \\ & =\frac{4}{\sqrt{5}}\end{aligned}
 
 
 $$
@@ -161,7 +161,7 @@ Now, we normalize $\mathbf T'(t)$ and obtain the principal normal to the curve:
 $$
 
 
-\begin{aligned}𝐍(𝑡) & =\frac{𝐓^{′}(𝑡)}{∥𝐓^{′}(𝑡)∥} \\ & =\frac{\frac{4}{\sqrt{√5}}⟨cos⁡4𝑡,\,0,\,−sin⁡4𝑡⟩}{\sqrt{√5}} \\ & =⟨cos⁡4𝑡,\,0,\,−sin⁡4𝑡⟩\end{aligned}
+\begin{aligned}𝐍(𝑡) & =\frac{𝐓^{′}(𝑡)}{∥𝐓^{′}(𝑡)∥} \\ & =\frac{\frac{4}{\sqrt{5}}⟨cos⁡4𝑡,\,0,\,−sin⁡4𝑡⟩}{\sqrt{5}} \\ & =⟨cos⁡4𝑡,\,0,\,−sin⁡4𝑡⟩\end{aligned}
 
 
 $$
@@ -171,7 +171,7 @@ Finally, we calculate the binormal vector, as follows:
 $$
 
 
-\begin{aligned}𝐁(𝑡) & =𝐓(𝑡)×𝐍(𝑡) \\ & =\frac{1}{\sqrt{√5}}⟨sin⁡4𝑡,2,cos⁡4𝑡⟩×⟨cos⁡4𝑡,\,0,\,−sin⁡4𝑡⟩ \\ & =\frac{1}{\sqrt{√5}}\,\begin{aligned}𝐢 & 𝐣 & 𝐤 \\ sin⁡4𝑡 & 2 & cos⁡4𝑡 \\ cos⁡4𝑡 & 0 & −sin⁡4𝑡\end{aligned} \\ & =\frac{1}{\sqrt{√5}}[ \begin{aligned}2 & cos⁡4𝑡 \\ 0 & −sin⁡4𝑡\end{aligned}\,𝐢−\begin{aligned}sin⁡4𝑡 & cos⁡4𝑡 \\ cos⁡4𝑡 & −sin⁡4𝑡\end{aligned}\,𝐣+\begin{aligned}sin⁡4𝑡 & 2 \\ cos⁡4𝑡 & 0\end{aligned}\,𝐤 ] \\ & =\frac{1}{\sqrt{√5}}⟨−2sin⁡4𝑡−0,−(−sin^{2}⁡4𝑡−cos^{2}⁡4𝑡),0−2cos⁡4𝑡⟩ \\ & =\frac{1}{\sqrt{√5}}⟨−2sin⁡4𝑡,\,1,\,−2cos⁡4𝑡⟩\end{aligned}
+\begin{aligned}𝐁(𝑡) & =𝐓(𝑡)×𝐍(𝑡) \\ & =\frac{1}{\sqrt{5}}⟨sin⁡4𝑡,2,cos⁡4𝑡⟩×⟨cos⁡4𝑡,\,0,\,−sin⁡4𝑡⟩ \\ & =\frac{1}{\sqrt{5}}\,\begin{matrix}𝐢 & 𝐣 & 𝐤 \\ sin⁡4𝑡 & 2 & cos⁡4𝑡 \\ cos⁡4𝑡 & 0 & −sin⁡4𝑡\end{matrix} \\ & =\frac{1}{\sqrt{5}}[ \begin{matrix}2 & cos⁡4𝑡 \\ 0 & −sin⁡4𝑡\end{matrix}\,𝐢−\begin{matrix}sin⁡4𝑡 & cos⁡4𝑡 \\ cos⁡4𝑡 & −sin⁡4𝑡\end{matrix}\,𝐣+\begin{matrix}sin⁡4𝑡 & 2 \\ cos⁡4𝑡 & 0\end{matrix}\,𝐤 ] \\ & =\frac{1}{\sqrt{5}}⟨−2sin⁡4𝑡−0,−(−sin^{2}⁡4𝑡−cos^{2}⁡4𝑡),0−2cos⁡4𝑡⟩ \\ & =\frac{1}{\sqrt{5}}⟨−2sin⁡4𝑡,\,1,\,−2cos⁡4𝑡⟩\end{aligned}
 
 
 $$

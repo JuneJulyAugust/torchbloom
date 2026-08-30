@@ -152,7 +152,7 @@ $$
 
 $$
 
-For example, if we know that $\textrm{E}[X] = 4,$ then
+For example, if we know that $\text{E}[X] = 4,$ then
 
 $$
 

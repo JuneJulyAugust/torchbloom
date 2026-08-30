@@ -60,7 +60,7 @@ Then, the covariance is given by
 $$
 
 
-\textrm{Cov}(x,y) = \dfrac1n\sum_{i=1}^n (x_i - \overline x)(y_i - \overline y)
+\text{Cov}(x,y) = \dfrac1n\sum_{i=1}^n (x_i - \overline x)(y_i - \overline y)
 
 
 $$
@@ -80,7 +80,7 @@ Finally, we can define the variance and covariance in terms of $S_{xx}, S_{yy},$
 $$
 
 
-\begin{aligned}𝜎_{2𝑥}^{} & =\frac{𝑆_{𝑥𝑥}}{𝑛},\,𝜎_{2𝑦}^{}=\frac{𝑆_{𝑦𝑦}}{𝑛},\,Cov(𝑥,𝑦)=\frac{𝑆_{𝑥𝑦}}{𝑛}\end{aligned}
+\begin{aligned}𝜎_{2𝑥} & =\frac{𝑆_{𝑥𝑥}}{𝑛},\,𝜎_{2𝑦}=\frac{𝑆_{𝑦𝑦}}{𝑛},\,Cov(𝑥,𝑦)=\frac{𝑆_{𝑥𝑦}}{𝑛}\end{aligned}
 
 
 $$
@@ -182,7 +182,7 @@ Calculating $S_{xx}, S_{yy},$ and $S_{xy}$ using their definitions can be cumber
 $$
 
 
-\begin{aligned}𝑆_{𝑥𝑥} & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{2𝑖}^{}−\frac{1}{𝑛}(\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{𝑖})^{2} \\ 𝑆_{𝑦𝑦} & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑦_{2𝑖}^{}−\frac{1}{𝑛}(\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑦_{𝑖})^{2} \\ 𝑆_{𝑥𝑦} & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{𝑖}𝑦_{𝑖}−\frac{1}{𝑛}(\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{𝑖})(\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑦_{𝑖})\end{aligned}
+\begin{aligned}𝑆_{𝑥𝑥} & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{2𝑖}−\frac{1}{𝑛}(\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{𝑖})^{2} \\ 𝑆_{𝑦𝑦} & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑦_{2𝑖}−\frac{1}{𝑛}(\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑦_{𝑖})^{2} \\ 𝑆_{𝑥𝑦} & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{𝑖}𝑦_{𝑖}−\frac{1}{𝑛}(\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{𝑖})(\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑦_{𝑖})\end{aligned}
 
 
 $$
@@ -204,7 +204,7 @@ Given a set of $n$ paired observations $x_{1}, x_2, \ldots, x_{n}$ and $y_{1}, y
 $$
 
 
-\begin{aligned}𝑆_{𝑥𝑥} & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}(𝑥_{𝑖}−\overset{𝑥}{})^{2} \\ & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{2𝑖}^{}−\frac{1}{𝑛}(\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{𝑖})^{2}.\end{aligned}
+\begin{aligned}𝑆_{𝑥𝑥} & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}(𝑥_{𝑖}−\overset{𝑥}{})^{2} \\ & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{2𝑖}−\frac{1}{𝑛}(\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑛}}𝑥_{𝑖})^{2}.\end{aligned}
 
 
 $$

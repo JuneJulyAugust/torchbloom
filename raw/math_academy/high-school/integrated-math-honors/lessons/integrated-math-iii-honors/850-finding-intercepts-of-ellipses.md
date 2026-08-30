@@ -107,7 +107,7 @@ To calculate the $x$-intercepts, we need to substitute $y = 0$ into the equation
 $$
 
 
-\begin{aligned}𝑥^{2}+3𝑦^{2}−4𝑥−6𝑦 & =2 \\ 𝑥^{2}+3⋅0^{2}−4𝑥−6⋅0 & =2 \\ 𝑥^{2}−4𝑥 & =2 \\ (𝑥^{2}−4𝑥+4)−4 & =2 \\ (𝑥−2)^{2}−4 & =2 \\ (𝑥−2)^{2} & =6 \\ 𝑥−2 & =±\sqrt{√6} \\ 𝑥 & =2±\sqrt{√6}\end{aligned}
+\begin{aligned}𝑥^{2}+3𝑦^{2}−4𝑥−6𝑦 & =2 \\ 𝑥^{2}+3⋅0^{2}−4𝑥−6⋅0 & =2 \\ 𝑥^{2}−4𝑥 & =2 \\ (𝑥^{2}−4𝑥+4)−4 & =2 \\ (𝑥−2)^{2}−4 & =2 \\ (𝑥−2)^{2} & =6 \\ 𝑥−2 & =±\sqrt{6} \\ 𝑥 & =2±\sqrt{6}\end{aligned}
 
 
 $$
@@ -169,7 +169,7 @@ To calculate the $y$-intercept, we need to substitute $x = 0$ in the equation of
 $$
 
 
-\begin{aligned}\frac{(𝑥−1)^{2}}{4}+\frac{(𝑦−3)^{2}}{16} & =1 \\ \frac{(0−1)^{2}}{4}+\frac{(𝑦−3)^{2}}{16} & =1 \\ \frac{1}{4}+\frac{(𝑦−3)^{2}}{16} & =1 \\ \frac{(𝑦−3)^{2}}{16} & =\frac{3}{4} \\ (𝑦−3)^{2} & =12 \\ 𝑦−3 & =±\sqrt{√12} \\ 𝑦−3 & =2\sqrt{√3} \\ 𝑦 & =3±2\sqrt{√3}.\end{aligned}
+\begin{aligned}\frac{(𝑥−1)^{2}}{4}+\frac{(𝑦−3)^{2}}{16} & =1 \\ \frac{(0−1)^{2}}{4}+\frac{(𝑦−3)^{2}}{16} & =1 \\ \frac{1}{4}+\frac{(𝑦−3)^{2}}{16} & =1 \\ \frac{(𝑦−3)^{2}}{16} & =\frac{3}{4} \\ (𝑦−3)^{2} & =12 \\ 𝑦−3 & =±\sqrt{12} \\ 𝑦−3 & =2\sqrt{3} \\ 𝑦 & =3±2\sqrt{3}.\end{aligned}
 
 
 $$

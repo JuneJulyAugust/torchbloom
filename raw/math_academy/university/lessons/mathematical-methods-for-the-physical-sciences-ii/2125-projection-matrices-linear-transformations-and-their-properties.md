@@ -14,12 +14,12 @@ Topic ID: 2125
 
 ### Introduction
 
-As we know, if $A$ is the matrix whose columns are the linearly independent vectors $\mathbf{a}_1, \mathbf{a}_2, \ldots, \mathbf{a}_n$ then the projection of a vector $\mathbf{x}$ onto $S=\textrm{Span}\{\mathbf{a}_1, \mathbf{a}_2, \ldots, \mathbf{a}_n \}$ is given by
+As we know, if $A$ is the matrix whose columns are the linearly independent vectors $\mathbf{a}_1, \mathbf{a}_2, \ldots, \mathbf{a}_n$ then the projection of a vector $\mathbf{x}$ onto $S=\text{Span}\{\mathbf{a}_1, \mathbf{a}_2, \ldots, \mathbf{a}_n \}$ is given by
 
 $$
 
 
-\textrm{proj}_{S} \: \mathbf{x} = {\color{blue}A(A^T\!A)^{-1}\!A^T}\,\mathbf{x}.
+\text{proj}_{S} \: \mathbf{x} = {\color{blue}A(A^T\!A)^{-1}\!A^T}\,\mathbf{x}.
 
 
 $$
@@ -29,7 +29,7 @@ Now, if we denote $P_S = A(A^T\!A)^{-1}\!A^T$, then
 $$
 
 
-\textrm{proj}_{S} \: \mathbf{x} = {\color{blue}P_S}\,\mathbf{x}.
+\text{proj}_{S} \: \mathbf{x} = {\color{blue}P_S}\,\mathbf{x}.
 
 
 $$
@@ -61,7 +61,7 @@ such that
 $$
 
 
-\mathbf{x} \,\,\, \mapsto \textrm{proj}_S\,\mathbf{x}.
+\mathbf{x} \,\,\, \mapsto \text{proj}_S\,\mathbf{x}.
 
 
 $$
@@ -85,7 +85,7 @@ In our case, $\begin{aligned}1 \\ 2 \\ −3\end{aligned}$ Therefore,
 $$
 
 
-\begin{aligned}𝑃_{𝑆} & =𝐴(𝐴^{𝑇}\,𝐴)^{−1}\,𝐴^{𝑇} \\ & =\begin{aligned}1 \\ 2 \\ −3\end{aligned}[\begin{aligned}1 & 2 & −3\end{aligned}]\begin{aligned}1 \\ 2 \\ −3\end{aligned}^{−1}[\begin{aligned}1 & 2 & −3\end{aligned}] \\ & =\begin{aligned}1 \\ 2 \\ −3\end{aligned}⋅(14)^{−1}[\begin{aligned}1 & 2 & −3\end{aligned}] \\ & =\frac{1}{14}\begin{aligned}1 \\ 2 \\ −3\end{aligned}[\begin{aligned}1 & 2 & −3\end{aligned}] \\ & =\frac{1}{14}\begin{aligned}1 & 2 & −3 \\ 2 & 4 & −6 \\ −3 & −6 & 9\end{aligned}.\end{aligned}
+\begin{aligned}𝑃_{𝑆} & =𝐴(𝐴^{𝑇}\,𝐴)^{−1}\,𝐴^{𝑇} \\ & =\begin{matrix}1 \\ 2 \\ −3\end{matrix}[\begin{matrix}1 & 2 & −3\end{matrix}]\begin{matrix}1 \\ 2 \\ −3\end{matrix}^{−1}[\begin{matrix}1 & 2 & −3\end{matrix}] \\ & =\begin{matrix}1 \\ 2 \\ −3\end{matrix}⋅(14)^{−1}[\begin{matrix}1 & 2 & −3\end{matrix}] \\ & =\frac{1}{14}\begin{matrix}1 \\ 2 \\ −3\end{matrix}[\begin{matrix}1 & 2 & −3\end{matrix}] \\ & =\frac{1}{14}\begin{matrix}1 & 2 & −3 \\ 2 & 4 & −6 \\ −3 & −6 & 9\end{matrix}.\end{aligned}
 
 
 $$
@@ -123,7 +123,7 @@ Therefore,
 $$
 
 
-\begin{aligned}𝑃_{𝑆} & =𝐴(𝐴^{𝑇}\,𝐴)^{−1}\,𝐴^{𝑇} \\ & =\begin{aligned}1 & 1 \\ 2 & −1 \\ 1 & 1\end{aligned}[\begin{aligned}1 & 2 & 1 \\ 1 & −1 & 1\end{aligned}]\begin{aligned}1 & 1 \\ 2 & −1 \\ 1 & 1\end{aligned}^{−1}[\begin{aligned}1 & 2 & 1 \\ 1 & −1 & 1\end{aligned}] \\ & =\begin{aligned}1 & 1 \\ 2 & −1 \\ 1 & 1\end{aligned}[\begin{aligned}6 & 0 \\ 0 & 3\end{aligned}]^{−1}[\begin{aligned}1 & 2 & 1 \\ 1 & −1 & 1\end{aligned}] \\ & =\begin{aligned}1 & 1 \\ 2 & −1 \\ 1 & 1\end{aligned}⋅\frac{1}{6}[\begin{aligned}1 & 0 \\ 0 & 2\end{aligned}]⋅[\begin{aligned}1 & 2 & 1 \\ 1 & −1 & 1\end{aligned}] \\ & =\frac{1}{6}\begin{aligned}1 & 1 \\ 2 & −1 \\ 1 & 1\end{aligned}[\begin{aligned}1 & 2 & 1 \\ 2 & −2 & 2\end{aligned}] \\ & =\frac{1}{2}\begin{aligned}1 & 0 & 1 \\ 0 & 2 & 0 \\ 1 & 0 & 1\end{aligned}.\end{aligned}
+\begin{aligned}𝑃_{𝑆} & =𝐴(𝐴^{𝑇}\,𝐴)^{−1}\,𝐴^{𝑇} \\ & =\begin{matrix}1 & 1 \\ 2 & −1 \\ 1 & 1\end{matrix}[\begin{matrix}1 & 2 & 1 \\ 1 & −1 & 1\end{matrix}]\begin{matrix}1 & 1 \\ 2 & −1 \\ 1 & 1\end{matrix}^{−1}[\begin{matrix}1 & 2 & 1 \\ 1 & −1 & 1\end{matrix}] \\ & =\begin{matrix}1 & 1 \\ 2 & −1 \\ 1 & 1\end{matrix}[\begin{matrix}6 & 0 \\ 0 & 3\end{matrix}]^{−1}[\begin{matrix}1 & 2 & 1 \\ 1 & −1 & 1\end{matrix}] \\ & =\begin{matrix}1 & 1 \\ 2 & −1 \\ 1 & 1\end{matrix}⋅\frac{1}{6}[\begin{matrix}1 & 0 \\ 0 & 2\end{matrix}]⋅[\begin{matrix}1 & 2 & 1 \\ 1 & −1 & 1\end{matrix}] \\ & =\frac{1}{6}\begin{matrix}1 & 1 \\ 2 & −1 \\ 1 & 1\end{matrix}[\begin{matrix}1 & 2 & 1 \\ 2 & −2 & 2\end{matrix}] \\ & =\frac{1}{2}\begin{matrix}1 & 0 & 1 \\ 0 & 2 & 0 \\ 1 & 0 & 1\end{matrix}.\end{aligned}
 
 
 $$
@@ -141,7 +141,7 @@ Let's check whether $\begin{aligned}\frac{1}{2} & \frac{1}{2} \\ \frac{1}{2} & \
 $$
 
 
-\begin{aligned}𝐴^{𝑇} & =\begin{aligned}\frac{1}{2} & \frac{1}{2} \\ \frac{1}{2} & \frac{1}{2}\end{aligned} \\ & =𝐴.\,✓ \\ 𝐴^{2} & =𝐴⋅𝐴 \\ & =\begin{aligned}\frac{1}{2} & \frac{1}{2} \\ \frac{1}{2} & \frac{1}{2}\end{aligned}\begin{aligned}\frac{1}{2} & \frac{1}{2} \\ \frac{1}{2} & \frac{1}{2}\end{aligned} \\ & =\begin{aligned}\frac{1}{2} & \frac{1}{2} \\ \frac{1}{2} & \frac{1}{2}\end{aligned} \\ & =𝐴.\,✓\end{aligned}
+\begin{aligned}𝐴^{𝑇} & =\begin{matrix}\frac{1}{2} & \frac{1}{2} \\ \frac{1}{2} & \frac{1}{2}\end{matrix} \\ & =𝐴.\,✓ \\ 𝐴^{2} & =𝐴⋅𝐴 \\ & =\begin{matrix}\frac{1}{2} & \frac{1}{2} \\ \frac{1}{2} & \frac{1}{2}\end{matrix}\begin{matrix}\frac{1}{2} & \frac{1}{2} \\ \frac{1}{2} & \frac{1}{2}\end{matrix} \\ & =\begin{matrix}\frac{1}{2} & \frac{1}{2} \\ \frac{1}{2} & \frac{1}{2}\end{matrix} \\ & =𝐴.\,✓\end{aligned}
 
 
 $$
@@ -220,7 +220,7 @@ Given that the vector $\mathbf{a}$ above spans $S^\perp,$ and that $P$ is the or
 
 #### Explanation
 
-First, we find the orthogonal projection matrix onto $S^\perp = \textrm{Span}\{\mathbf{a}\}.$
+First, we find the orthogonal projection matrix onto $S^\perp = \text{Span}\{\mathbf{a}\}.$
 
 Using the formula for the orthogonal projection matrix
 
@@ -237,7 +237,7 @@ we obtain the following:
 $$
 
 
-\begin{aligned}𝑃_{𝑆^{⊥}} & =\begin{aligned}1 \\ 1 \\ 2\end{aligned}[\begin{aligned}1 & 1 & 2\end{aligned}]\begin{aligned}1 \\ 1 \\ 2\end{aligned}^{−1}[\begin{aligned}1 & 1 & 2\end{aligned}] \\ & =6^{−1}\begin{aligned}1 \\ 1 \\ 2\end{aligned}[\begin{aligned}1 & 1 & 2\end{aligned}] \\ & =\frac{1}{6}\begin{aligned}1 & 1 & 2 \\ 1 & 1 & 2 \\ 2 & 2 & 4\end{aligned}\end{aligned}
+\begin{aligned}𝑃_{𝑆^{⊥}} & =\begin{matrix}1 \\ 1 \\ 2\end{matrix}[\begin{matrix}1 & 1 & 2\end{matrix}]\begin{matrix}1 \\ 1 \\ 2\end{matrix}^{−1}[\begin{matrix}1 & 1 & 2\end{matrix}] \\ & =6^{−1}\begin{matrix}1 \\ 1 \\ 2\end{matrix}[\begin{matrix}1 & 1 & 2\end{matrix}] \\ & =\frac{1}{6}\begin{matrix}1 & 1 & 2 \\ 1 & 1 & 2 \\ 2 & 2 & 4\end{matrix}\end{aligned}
 
 
 $$
@@ -247,7 +247,7 @@ Recall that $P_S + P_{S^\perp} = I.$ Therefore,
 $$
 
 
-\begin{aligned}𝑃_{𝑆} & =𝐼−𝑃_{𝑆^{⊥}} \\ & =𝐼−\frac{1}{6}\begin{aligned}1 & 1 & 2 \\ 1 & 1 & 2 \\ 2 & 2 & 4\end{aligned} \\ & =\frac{1}{6}\begin{aligned}5 & −1 & −2 \\ −1 & 5 & −2 \\ −2 & −2 & 2\end{aligned}.\end{aligned}
+\begin{aligned}𝑃_{𝑆} & =𝐼−𝑃_{𝑆^{⊥}} \\ & =𝐼−\frac{1}{6}\begin{matrix}1 & 1 & 2 \\ 1 & 1 & 2 \\ 2 & 2 & 4\end{matrix} \\ & =\frac{1}{6}\begin{matrix}5 & −1 & −2 \\ −1 & 5 & −2 \\ −2 & −2 & 2\end{matrix}.\end{aligned}
 
 
 $$

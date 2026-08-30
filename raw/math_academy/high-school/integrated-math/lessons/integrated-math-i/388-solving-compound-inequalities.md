@@ -31,7 +31,7 @@ $$
 
 
 
-\begin{aligned} 4 & \le x + 2 \le 8 \\\[5pt] 4 \,{\color{red}-}\, {\color{red}{2}} &\le x + 2 \,{\color{red}-}\, {\color{red}{2}} \le 8 \,{\color{red}-}\, {\color{red}{2}} \\\[5pt] 2 &\le x \le 6 \end{aligned}
+\begin{aligned} 4 & \le x + 2 \le 8 \\[5pt] 4 \,{\color{red}-}\, {\color{red}{2}} &\le x + 2 \,{\color{red}-}\, {\color{red}{2}} \le 8 \,{\color{red}-}\, {\color{red}{2}} \\[5pt] 2 &\le x \le 6 \end{aligned}
 
 
 
@@ -53,7 +53,7 @@ $$
 
 
 
-\begin{aligned} 0 &\leq 3x+6 < 15 \\\[5pt] 0 - 6 &\leq 3x + 6 -6 < 15-6 \\\[5pt] -6 &\leq 3x < 9 \\\[5pt] \dfrac{-6}{3} &\leq \dfrac{3x}{3} < \dfrac{9}{3} \\\[5pt] -2 &\leq x < 3 \end{aligned}
+\begin{aligned} 0 &\leq 3x+6 < 15 \\[5pt] 0 - 6 &\leq 3x + 6 -6 < 15-6 \\[5pt] -6 &\leq 3x < 9 \\[5pt] \dfrac{-6}{3} &\leq \dfrac{3x}{3} < \dfrac{9}{3} \\[5pt] -2 &\leq x < 3 \end{aligned}
 
 
 

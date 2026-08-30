@@ -45,7 +45,7 @@ If $X$ and $Y$ are continuous random variables with joint probability density fu
 $$
 
 
-F(x,y)=\int^y_{-\infty}\int^x_{-\infty} f(u,v)\; \textrm{d}u\textrm{d}v.
+F(x,y)=\int^y_{-\infty}\int^x_{-\infty} f(u,v)\; \text{d}u\text{d}v.
 
 
 $$
@@ -55,7 +55,7 @@ Consequently, if $X$ and $Y$ are continuous random variables that are nonzero on
 $$
 
 
-F(x,y)=\int^d_{c}\int^b_{a} f(u,v)\; \textrm{d}u\textrm{d}v.
+F(x,y)=\int^d_{c}\int^b_{a} f(u,v)\; \text{d}u\text{d}v.
 
 
 $$
@@ -71,7 +71,7 @@ Let $X$ and $Y$ be continuous random variables with the joint probability densit
 $$
 
 
-\begin{aligned}\frac{3}{5}\sqrt{√𝑥}𝑦, & (𝑥,𝑦)∈𝐷, \\ 0, & otherwise.\end{aligned}
+\begin{aligned}\frac{3}{5}\sqrt{𝑥}𝑦, & (𝑥,𝑦)∈𝐷, \\ 0, & otherwise.\end{aligned}
 
 
 $$
@@ -85,7 +85,7 @@ If $X$ and $Y$ are continuous random variables with the joint probability densit
 $$
 
 
-F(x,y) = P(X \leq x, Y \leq y) = \int_{-\infty}^y \int_{-\infty}^x f(u,v)\; \textrm{d}u \, \textrm{d}v.
+F(x,y) = P(X \leq x, Y \leq y) = \int_{-\infty}^y \int_{-\infty}^x f(u,v)\; \text{d}u \, \text{d}v.
 
 
 $$
@@ -99,7 +99,7 @@ Using the definition of the joint CDF, we have
 $$
 
 
-F\left(2, \dfrac{5}{2}\right) = P\left(X< 2, Y< \dfrac{5}{2}\right) = \int_{-\infty}^{5/2} \int_{-\infty}^{2} f(u,v)\; \textrm{d}u \, \textrm{d}v.
+F\left(2, \dfrac{5}{2}\right) = P\left(X< 2, Y< \dfrac{5}{2}\right) = \int_{-\infty}^{5/2} \int_{-\infty}^{2} f(u,v)\; \text{d}u \, \text{d}v.
 
 
 $$
@@ -119,7 +119,7 @@ Therefore, we obtain
 $$
 
 
-\begin{aligned}∫_{5/2−∞}^{}∫_{2−∞}^{}𝑓(𝑢,𝑣)\,d𝑢\,d𝑣 & =∫_{5/22}^{}∫_{10}^{}\frac{3}{5}\sqrt{√𝑢}𝑣\,d𝑢\,d𝑣 \\ & =∫_{5/22}^{}∫_{10}^{}\frac{3}{5}𝑢^{1/2}𝑣\,d𝑢\,d𝑣 \\ & =∫_{5/22}^{}[\frac{3}{5}⋅\frac{2}{3}𝑢^{3/2}𝑣]_{𝑢=1𝑢=0}^{}\,d𝑣 \\ & =∫_{5/22}^{}[\frac{2}{5}𝑢^{3/2}𝑣]_{𝑢=1𝑢=0}^{}\,d𝑣 \\ & =∫_{5/22}^{}\frac{2}{5}𝑣\,d𝑣 \\ & =[\frac{𝑣^{2}}{5}]_{5/22}^{} \\ & =\frac{5}{4}−\frac{4}{5} \\ & =\frac{9}{20}.\end{aligned}
+\begin{aligned}∫_{5/2−∞}∫_{2−∞}𝑓(𝑢,𝑣)\,d𝑢\,d𝑣 & =∫_{5/22}∫_{10}\frac{3}{5}\sqrt{𝑢}𝑣\,d𝑢\,d𝑣 \\ & =∫_{5/22}∫_{10}\frac{3}{5}𝑢^{1/2}𝑣\,d𝑢\,d𝑣 \\ & =∫_{5/22}[\frac{3}{5}⋅\frac{2}{3}𝑢^{3/2}𝑣]_{𝑢=1𝑢=0}\,d𝑣 \\ & =∫_{5/22}[\frac{2}{5}𝑢^{3/2}𝑣]_{𝑢=1𝑢=0}\,d𝑣 \\ & =∫_{5/22}\frac{2}{5}𝑣\,d𝑣 \\ & =[\frac{𝑣^{2}}{5}]_{5/22} \\ & =\frac{5}{4}−\frac{4}{5} \\ & =\frac{9}{20}.\end{aligned}
 
 
 $$
@@ -161,7 +161,7 @@ Therefore, we have
 $$
 
 
-\begin{aligned}𝑃(0≤𝑋≤5,2≤𝑌≤5) & =\overset{\overset{𝑃(𝑋≤5,𝑌≤5)}{}}{top-right corner at (5,5)} \\ & =\,−\overset{\overset{𝑃(𝑋≤5,𝑌≤2)}{}}{top-right corner at (5,2)}−\overset{\overset{𝑃(𝑋≤0,𝑌≤5)}{}}{top-right corner at (0,5)} \\ & =\,+\overset{\overset{𝑃(𝑋≤0,𝑌≤2)}{}}{top-right corner at (0,2)} \\ & =𝐹(5,5)−𝐹(5,2)−𝐹(0,5)+𝐹(0,2) \\ & =0.9−0.3−0.45+0.15 \\ & =0.3.\end{aligned}
+\begin{aligned}𝑃(0≤𝑋≤5,2≤𝑌≤5) & =\overset{𝑃(𝑋≤5,𝑌≤5)}{top-right corner at (5,5)} \\ & =\,−\overset{𝑃(𝑋≤5,𝑌≤2)}{top-right corner at (5,2)}−\overset{𝑃(𝑋≤0,𝑌≤5)}{top-right corner at (0,5)} \\ & =\,+\overset{𝑃(𝑋≤0,𝑌≤2)}{top-right corner at (0,2)} \\ & =𝐹(5,5)−𝐹(5,2)−𝐹(0,5)+𝐹(0,2) \\ & =0.9−0.3−0.45+0.15 \\ & =0.3.\end{aligned}
 
 
 $$
@@ -189,7 +189,7 @@ If $X$ and $Y$ are continuous random variables with the joint probability densit
 $$
 
 
-F(x,y) = P(X \leq x, Y \leq y) = \int_{-\infty}^y \int_{-\infty}^x f(u,v)\; \textrm{d}u \, \textrm{d}v.
+F(x,y) = P(X \leq x, Y \leq y) = \int_{-\infty}^y \int_{-\infty}^x f(u,v)\; \text{d}u \, \text{d}v.
 
 
 $$
@@ -213,7 +213,7 @@ So our region $\Delta$ covers the entire region where $f(x,y)$ is nonzero. There
 $$
 
 
-\begin{aligned}∫_{𝑦−∞}^{}∫_{𝑥−∞}^{}𝑓(𝑢,𝑣)\,d𝑢\,d𝑣 & =∬_{𝐷}𝑓(𝑢,𝑣)\,d𝑢\,d𝑣=1.\end{aligned}
+\begin{aligned}∫_{𝑦−∞}∫_{𝑥−∞}𝑓(𝑢,𝑣)\,d𝑢\,d𝑣 & =∬_{𝐷}𝑓(𝑢,𝑣)\,d𝑢\,d𝑣=1.\end{aligned}
 
 
 $$
@@ -241,7 +241,7 @@ If $X$ and $Y$ are continuous random variables with the joint probability densit
 $$
 
 
-F(x,y) = P(X \leq x, Y \leq y) = \int_{-\infty}^y \int_{-\infty}^x f(u,v)\; \textrm{d}u \, \textrm{d}v.
+F(x,y) = P(X \leq x, Y \leq y) = \int_{-\infty}^y \int_{-\infty}^x f(u,v)\; \text{d}u \, \text{d}v.
 
 
 $$
@@ -265,7 +265,7 @@ Therefore, we obtain
 $$
 
 
-\begin{aligned}∫_{𝑦−∞}^{}∫_{𝑥−∞}^{}𝑓(𝑢,𝑣)\,d𝑢\,d𝑣 & =∫_{10}^{}∫_{𝑥0}^{}\frac{1}{3}(𝑢+𝑣)\,d𝑢\,d𝑣 \\ & =\frac{1}{3}∫_{10}^{}[\frac{𝑢^{2}}{2}+𝑢𝑣]_{𝑢=𝑥𝑢=0}^{}\,d𝑣 \\ & =\frac{1}{3}∫_{10}^{}[\frac{𝑥^{2}}{2}+𝑥𝑣]d𝑣 \\ & =\frac{1}{3}[\frac{𝑥^{2}𝑣}{2}+\frac{𝑥𝑣^{2}}{2}]_{𝑣=1𝑣=0}^{} \\ & =\frac{1}{3}[\frac{𝑥^{2}}{2}+\frac{𝑥}{2}−0] \\ & =\frac{1}{6}(𝑥^{2}+𝑥).\end{aligned}
+\begin{aligned}∫_{𝑦−∞}∫_{𝑥−∞}𝑓(𝑢,𝑣)\,d𝑢\,d𝑣 & =∫_{10}∫_{𝑥0}\frac{1}{3}(𝑢+𝑣)\,d𝑢\,d𝑣 \\ & =\frac{1}{3}∫_{10}[\frac{𝑢^{2}}{2}+𝑢𝑣]_{𝑢=𝑥𝑢=0}\,d𝑣 \\ & =\frac{1}{3}∫_{10}[\frac{𝑥^{2}}{2}+𝑥𝑣]d𝑣 \\ & =\frac{1}{3}[\frac{𝑥^{2}𝑣}{2}+\frac{𝑥𝑣^{2}}{2}]_{𝑣=1𝑣=0} \\ & =\frac{1}{3}[\frac{𝑥^{2}}{2}+\frac{𝑥}{2}−0] \\ & =\frac{1}{6}(𝑥^{2}+𝑥).\end{aligned}
 
 
 $$

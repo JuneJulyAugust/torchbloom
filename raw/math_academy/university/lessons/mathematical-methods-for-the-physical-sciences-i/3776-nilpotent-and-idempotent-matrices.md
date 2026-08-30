@@ -26,7 +26,7 @@ is nilpotent because its second power is the zero matrix:
 $$
 
 
-\begin{aligned}𝐵^{2} & =[\begin{aligned}0 & 1 \\ 0 & 0\end{aligned}][\begin{aligned}0 & 1 \\ 0 & 0\end{aligned}] \\ & =[\begin{aligned}0 & 0 \\ 0 & 0\end{aligned}] \\ & =𝑂\end{aligned}
+\begin{aligned}𝐵^{2} & =[\begin{matrix}0 & 1 \\ 0 & 0\end{matrix}][\begin{matrix}0 & 1 \\ 0 & 0\end{matrix}] \\ & =[\begin{matrix}0 & 0 \\ 0 & 0\end{matrix}] \\ & =𝑂\end{aligned}
 
 
 $$
@@ -48,7 +48,7 @@ Computing $B^2,$ we have
 $$
 
 
-\begin{aligned}𝐵^{2} & =𝐵⋅𝐵 \\ & =[\begin{aligned}3 & 9 \\ −1 & −3\end{aligned}]⋅[\begin{aligned}3 & 9 \\ −1 & −3\end{aligned}] \\ & =[\begin{aligned}0 & 0 \\ 0 & 0\end{aligned}] \\ & =𝑂.\end{aligned}
+\begin{aligned}𝐵^{2} & =𝐵⋅𝐵 \\ & =[\begin{matrix}3 & 9 \\ −1 & −3\end{matrix}]⋅[\begin{matrix}3 & 9 \\ −1 & −3\end{matrix}] \\ & =[\begin{matrix}0 & 0 \\ 0 & 0\end{matrix}] \\ & =𝑂.\end{aligned}
 
 
 $$
@@ -74,7 +74,7 @@ is idempotent because $B^2 = B$:
 $$
 
 
-\begin{aligned}𝐵^{2} & =[\begin{aligned}3 & −6 \\ 1 & −2\end{aligned}][\begin{aligned}3 & −6 \\ 1 & −2\end{aligned}] \\ & =[\begin{aligned}3⋅3+(−6)⋅1 & 3⋅(−6)+(−6)⋅(−2) \\ 1⋅3+(−2)⋅1 & 1⋅(−6)+(−2)⋅(−2)\end{aligned}] \\ & =[\begin{aligned}3 & −6 \\ 1 & −2\end{aligned}] \\ & =𝐵\end{aligned}
+\begin{aligned}𝐵^{2} & =[\begin{matrix}3 & −6 \\ 1 & −2\end{matrix}][\begin{matrix}3 & −6 \\ 1 & −2\end{matrix}] \\ & =[\begin{matrix}3⋅3+(−6)⋅1 & 3⋅(−6)+(−6)⋅(−2) \\ 1⋅3+(−2)⋅1 & 1⋅(−6)+(−2)⋅(−2)\end{matrix}] \\ & =[\begin{matrix}3 & −6 \\ 1 & −2\end{matrix}] \\ & =𝐵\end{aligned}
 
 
 $$
@@ -92,7 +92,7 @@ First, we compute $C^2$ as follows:
 $$
 
 
-\begin{aligned}𝐶^{2} & =𝐶⋅𝐶 \\ & =\begin{aligned}\frac{1}{2} & 0 & \frac{1}{2} \\ 0 & 1 & 0 \\ \frac{1}{2} & 0 & \frac{1}{2}\end{aligned}⋅\begin{aligned}\frac{1}{2} & 0 & \frac{1}{2} \\ 0 & 1 & 0 \\ \frac{1}{2} & 0 & \frac{1}{2}\end{aligned} \\ & =\begin{aligned}\frac{1}{2} & 0 & \frac{1}{2} \\ 0 & 1 & 0 \\ \frac{1}{2} & 0 & \frac{1}{2}\end{aligned} \\ & =𝐶\end{aligned}
+\begin{aligned}𝐶^{2} & =𝐶⋅𝐶 \\ & =\begin{matrix}\frac{1}{2} & 0 & \frac{1}{2} \\ 0 & 1 & 0 \\ \frac{1}{2} & 0 & \frac{1}{2}\end{matrix}⋅\begin{matrix}\frac{1}{2} & 0 & \frac{1}{2} \\ 0 & 1 & 0 \\ \frac{1}{2} & 0 & \frac{1}{2}\end{matrix} \\ & =\begin{matrix}\frac{1}{2} & 0 & \frac{1}{2} \\ 0 & 1 & 0 \\ \frac{1}{2} & 0 & \frac{1}{2}\end{matrix} \\ & =𝐶\end{aligned}
 
 
 $$

@@ -56,7 +56,7 @@ Find the missing limits in the repeated integral below
 $$
 
 
-\displaystyle \iiint \limits_{R} f(x,y,z) \: \textrm{d}V = \int_{\ast}^{\ast} \int_{\ast}^{\ast} \int_{\ast}^{\ast} f(x,y,z) \: \mathrm{d}x \: \mathrm{d}z \: \mathrm{d}y
+\displaystyle \iiint \limits_{R} f(x,y,z) \: \text{d}V = \int_{\ast}^{\ast} \int_{\ast}^{\ast} \int_{\ast}^{\ast} f(x,y,z) \: \mathrm{d}x \: \mathrm{d}z \: \mathrm{d}y
 
 
 $$
@@ -92,7 +92,7 @@ If $R$ is a type II region, we can express the triple integral of $f(x,y,z)$ ove
 $$
 
 
-\iiint\limits_{R} f(x,y,z)\,\textrm d V = \iint\limits_{D} \left[\int_{u_1(y,z)}^{u_2(y,z)} f(x,y,z)\,\textrm{d}x \right]\,\textrm d A
+\iiint\limits_{R} f(x,y,z)\,\textrm d V = \iint\limits_{D} \left[\int_{u_1(y,z)}^{u_2(y,z)} f(x,y,z)\,\text{d}x \right]\,\textrm d A
 
 
 $$
@@ -112,7 +112,7 @@ Therefore, our triple integral can be written as
 $$
 
 
-\displaystyle \iiint \limits_{R} f(x,y,z) \: \textrm{d}V = \iint\limits_{D} \left[ \int_{-2}^{ye^{z+2}} f(x,y,z) \: \mathrm{d}x \right] \mathrm{d}A.
+\displaystyle \iiint \limits_{R} f(x,y,z) \: \text{d}V = \iint\limits_{D} \left[ \int_{-2}^{ye^{z+2}} f(x,y,z) \: \mathrm{d}x \right] \mathrm{d}A.
 
 
 $$
@@ -132,7 +132,7 @@ Therefore, by expressing the double integral over $D$ as a repeated integral, we
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}[∫_{𝑦𝑒^{𝑧+2}−2}^{}𝑓(𝑥,𝑦,𝑧)\,d𝑥]d𝐴 & =∫_{41}^{}∫_{\sqrt{√𝑦}−𝑦^{2}}^{}[∫_{𝑦𝑒^{𝑧+2}−2}^{}𝑓(𝑥,𝑦,𝑧)\,d𝑥]d𝑧\,d𝑦 \\ & =∫_{41}^{}∫_{\sqrt{√𝑦}−𝑦^{2}}^{}∫_{𝑦𝑒^{𝑧+2}−2}^{}𝑓(𝑥,𝑦,𝑧)\,d𝑥\,d𝑧\,d𝑦.\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}[∫_{𝑦𝑒^{𝑧+2}−2}^{}𝑓(𝑥,𝑦,𝑧)\,d𝑥]d𝐴 & =∫_{41}∫_{\sqrt{𝑦}−𝑦^{2}}^{}[∫_{𝑦𝑒^{𝑧+2}−2}^{}𝑓(𝑥,𝑦,𝑧)\,d𝑥]d𝑧\,d𝑦 \\ & =∫_{41}∫_{\sqrt{𝑦}−𝑦^{2}}^{}∫_{𝑦𝑒^{𝑧+2}−2}^{}𝑓(𝑥,𝑦,𝑧)\,d𝑥\,d𝑧\,d𝑦.\end{aligned}
 
 
 $$
@@ -146,7 +146,7 @@ Evaluate the mixed integral
 $$
 
 
-\displaystyle \iint\limits_D \left[ \int_{0}^{z} \dfrac{\cos (2y)}{1-y} \,\textrm{d}x \right] \textrm{d}A
+\displaystyle \iint\limits_D \left[ \int_{0}^{z} \dfrac{\cos (2y)}{1-y} \,\text{d}x \right] \text{d}A
 
 
 $$
@@ -168,7 +168,7 @@ First, we evaluate the inner integral with respect to $x,$ treating $y$ and $z$ 
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}[∫_{𝑧0}^{}\frac{cos⁡(2𝑦)}{1−𝑦}\,d𝑥]\,d𝐴 & =\underset{𝐷}{∬}\frac{cos⁡(2𝑦)}{1−𝑦}[𝑥]_{𝑥=𝑧𝑥=0}^{}\,d𝐴 \\ & =\underset{𝐷}{∬}\frac{cos⁡(2𝑦)}{1−𝑦}(𝑧−0)\,d𝐴 \\ & =\underset{𝐷}{∬}\frac{𝑧cos⁡(2𝑦)}{1−𝑦}\,d𝐴\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}[∫_{𝑧0}\frac{cos⁡(2𝑦)}{1−𝑦}\,d𝑥]\,d𝐴 & =\underset{𝐷}{∬}\frac{cos⁡(2𝑦)}{1−𝑦}[𝑥]_{𝑥=𝑧𝑥=0}\,d𝐴 \\ & =\underset{𝐷}{∬}\frac{cos⁡(2𝑦)}{1−𝑦}(𝑧−0)\,d𝐴 \\ & =\underset{𝐷}{∬}\frac{𝑧cos⁡(2𝑦)}{1−𝑦}\,d𝐴\end{aligned}
 
 
 $$
@@ -178,7 +178,7 @@ Next, we evaluate the double integral:
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}\frac{𝑧cos⁡(2𝑦)}{1−𝑦}\,d𝐴 & =∫_{𝜋/60}^{}∫_{2\sqrt{√1−𝑦}0}^{}\frac{𝑧cos⁡(2𝑦)}{1−𝑦}\,d𝑧\,d𝑦 \\ & =∫_{𝜋/60}^{}\frac{cos⁡(2𝑦)}{1−𝑦}[\frac{𝑧^{2}}{2}]_{𝑧=2\sqrt{√1−𝑦}𝑧=0}^{}\,d𝑦 \\ & =∫_{𝜋/60}^{}\frac{cos⁡(2𝑦)}{1−𝑦}(\frac{4(1−𝑦)}{2}−0)\,d𝑦 \\ & =∫_{𝜋/60}^{}2cos⁡(2𝑦)\,d𝑦 \\ & =[sin⁡(2𝑦)]_{𝑦=𝜋/6𝑦=0}^{} \\ & =sin⁡(\frac{𝜋}{3})−sin⁡(0) \\ & =\frac{\sqrt{√3}}{2}\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}\frac{𝑧cos⁡(2𝑦)}{1−𝑦}\,d𝐴 & =∫_{𝜋/60}∫_{2\sqrt{1−𝑦}0}^{}\frac{𝑧cos⁡(2𝑦)}{1−𝑦}\,d𝑧\,d𝑦 \\ & =∫_{𝜋/60}\frac{cos⁡(2𝑦)}{1−𝑦}[\frac{𝑧^{2}}{2}]_{𝑧=2\sqrt{1−𝑦}𝑧=0}^{}\,d𝑦 \\ & =∫_{𝜋/60}\frac{cos⁡(2𝑦)}{1−𝑦}(\frac{4(1−𝑦)}{2}−0)\,d𝑦 \\ & =∫_{𝜋/60}2cos⁡(2𝑦)\,d𝑦 \\ & =[sin⁡(2𝑦)]_{𝑦=𝜋/6𝑦=0} \\ & =sin⁡(\frac{𝜋}{3})−sin⁡(0) \\ & =\frac{\sqrt{3}}{2}\end{aligned}
 
 
 $$
@@ -216,7 +216,7 @@ Writing down our triple integral as a mixed integral, we obtain
 $$
 
 
-\displaystyle \iiint \limits_{R} 4x^3 \, \textrm{d}V = \iint\limits_{D} \left[ \int_{0}^{\sqrt{y}} 4x^3 \, \mathrm{d}x \right] \mathrm{d}A.
+\displaystyle \iiint \limits_{R} 4x^3 \, \text{d}V = \iint\limits_{D} \left[ \int_{0}^{\sqrt{y}} 4x^3 \, \mathrm{d}x \right] \mathrm{d}A.
 
 
 $$
@@ -226,7 +226,7 @@ First, we evaluate the inner integral with respect to $x,$ treating $y$ and $z$ 
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}[∫_{\sqrt{√𝑦}0}^{}4𝑥^{3}\,d𝑥]d𝐴 & =\underset{𝐷}{∬}[𝑥^{4}]_{𝑥=\sqrt{√𝑦}𝑥=0}^{}\,d𝐴 \\ & =\underset{𝐷}{∬}(\sqrt{√𝑦})^{4}\,d𝐴 \\ & =\underset{𝐷}{∬}𝑦^{2}\,d𝐴\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}[∫_{\sqrt{𝑦}0}^{}4𝑥^{3}\,d𝑥]d𝐴 & =\underset{𝐷}{∬}[𝑥^{4}]_{𝑥=\sqrt{𝑦}𝑥=0}^{}\,d𝐴 \\ & =\underset{𝐷}{∬}(\sqrt{𝑦})^{4}\,d𝐴 \\ & =\underset{𝐷}{∬}𝑦^{2}\,d𝐴\end{aligned}
 
 
 $$
@@ -240,7 +240,7 @@ We can evaluate our double integral as follows:
 $$
 
 
-\begin{aligned}\underset{𝐷}{∬}𝑦^{2}\,d𝐴 & =∫_{40}^{}∫_{4−𝑦0}^{}𝑦^{2}\,d𝑧\,d𝑦 \\ & =∫_{40}^{}[∫_{4−𝑦0}^{}𝑦^{2}\,d𝑧]d𝑦 \\ & =∫_{40}^{}[𝑦^{2}𝑧]_{𝑧=4−𝑦𝑧=0}^{}d𝑦 \\ & =∫_{40}^{}𝑦^{2}(4−𝑦)\,d𝑦 \\ & =∫_{40}^{}4𝑦^{2}−𝑦^{3}\,d𝑦 \\ & =[\frac{4}{3}𝑦^{3}−\frac{1}{4}𝑦^{4}]_{𝑦=4𝑦=0}^{} \\ & =\frac{4}{3}(64−0)−\frac{1}{4}(256−0) \\ & =\frac{64}{3}\end{aligned}
+\begin{aligned}\underset{𝐷}{∬}𝑦^{2}\,d𝐴 & =∫_{40}∫_{4−𝑦0}𝑦^{2}\,d𝑧\,d𝑦 \\ & =∫_{40}[∫_{4−𝑦0}𝑦^{2}\,d𝑧]d𝑦 \\ & =∫_{40}[𝑦^{2}𝑧]_{𝑧=4−𝑦𝑧=0}d𝑦 \\ & =∫_{40}𝑦^{2}(4−𝑦)\,d𝑦 \\ & =∫_{40}4𝑦^{2}−𝑦^{3}\,d𝑦 \\ & =[\frac{4}{3}𝑦^{3}−\frac{1}{4}𝑦^{4}]_{𝑦=4𝑦=0} \\ & =\frac{4}{3}(64−0)−\frac{1}{4}(256−0) \\ & =\frac{64}{3}\end{aligned}
 
 
 $$
@@ -274,7 +274,7 @@ Notice that the projection of $R$ onto the $yz$-plane is a type I plane region. 
 $$
 
 
-\displaystyle \iiint \limits_{R} f(x,y,z)\: \textrm{d}V = \int_{\color{red}a}^{\color{red}b} \int_{\color{blue}v_1(y)}^{\color{blue}v_2(y)} \int_{\color{purple}u_1(y,z)}^{\color{purple}u_2(y,z)} f(x,y,z)\: \mathrm{d}x \: \mathrm{d}z \: \mathrm{d}y.
+\displaystyle \iiint \limits_{R} f(x,y,z)\: \text{d}V = \int_{\color{red}a}^{\color{red}b} \int_{\color{blue}v_1(y)}^{\color{blue}v_2(y)} \int_{\color{purple}u_1(y,z)}^{\color{purple}u_2(y,z)} f(x,y,z)\: \mathrm{d}x \: \mathrm{d}z \: \mathrm{d}y.
 
 
 $$
@@ -332,7 +332,7 @@ As a result, by writing down our triple integral as a repeated integral, we obta
 $$
 
 
-\iiint \limits_{R} 12z^2 \: \textrm{d}V = \int_{0}^{1} \int_{0}^{1} \int_{0}^{3-y-z} 12z^2 \: \mathrm{d}x \: \mathrm{d}z \: \mathrm{d}y.
+\iiint \limits_{R} 12z^2 \: \text{d}V = \int_{0}^{1} \int_{0}^{1} \int_{0}^{3-y-z} 12z^2 \: \mathrm{d}x \: \mathrm{d}z \: \mathrm{d}y.
 
 
 $$
@@ -342,7 +342,7 @@ First, we evaluate the inner integral with respect to $x$, treating $y$ and $z$ 
 $$
 
 
-\begin{aligned}∫_{10}^{}∫_{10}^{}∫_{3−𝑦−𝑧0}^{}12𝑧^{2}\,d𝑥\,d𝑧\,d𝑦 & =∫_{10}^{}∫_{10}^{}[∫_{3−𝑦−𝑧0}^{}12𝑧^{2}\,d𝑥]d𝑧\,d𝑦 \\ & =∫_{10}^{}∫_{10}^{}12𝑧^{2}[𝑥]_{𝑥=3−𝑦−𝑧𝑥=0}^{}\,d𝑧\,d𝑦 \\ & =∫_{10}^{}∫_{10}^{}12𝑧^{2}(3−𝑦−𝑧)\,d𝑧\,d𝑦 \\ & =∫_{10}^{}∫_{10}^{}(36𝑧^{2}−12𝑦𝑧^{2}−12𝑧^{3})\,d𝑧\,d𝑦\end{aligned}
+\begin{aligned}∫_{10}∫_{10}∫_{3−𝑦−𝑧0}12𝑧^{2}\,d𝑥\,d𝑧\,d𝑦 & =∫_{10}∫_{10}[∫_{3−𝑦−𝑧0}12𝑧^{2}\,d𝑥]d𝑧\,d𝑦 \\ & =∫_{10}∫_{10}12𝑧^{2}[𝑥]_{𝑥=3−𝑦−𝑧𝑥=0}\,d𝑧\,d𝑦 \\ & =∫_{10}∫_{10}12𝑧^{2}(3−𝑦−𝑧)\,d𝑧\,d𝑦 \\ & =∫_{10}∫_{10}(36𝑧^{2}−12𝑦𝑧^{2}−12𝑧^{3})\,d𝑧\,d𝑦\end{aligned}
 
 
 $$
@@ -352,7 +352,7 @@ Next, we evaluate the inner integral with respect to $z$, treating $y$ as a cons
 $$
 
 
-\begin{aligned}∫_{10}^{}∫_{10}^{}(36𝑧^{2}−12𝑦𝑧^{2}−12𝑧^{3})\,d𝑧\,d𝑦 & =∫_{10}^{}[∫_{10}^{}(36𝑧^{2}−12𝑦𝑧^{2}−12𝑧^{3})\,d𝑧]d𝑦 \\ & =∫_{10}^{}[12𝑧^{3}−4𝑦𝑧^{3}−3𝑧^{4}]_{𝑧=1𝑧=0}^{}\,d𝑦 \\ & =∫_{10}^{}(12−4𝑦−3)\,d𝑦 \\ & =∫_{10}^{}(9−4𝑦)\,d𝑦\end{aligned}
+\begin{aligned}∫_{10}∫_{10}(36𝑧^{2}−12𝑦𝑧^{2}−12𝑧^{3})\,d𝑧\,d𝑦 & =∫_{10}[∫_{10}(36𝑧^{2}−12𝑦𝑧^{2}−12𝑧^{3})\,d𝑧]d𝑦 \\ & =∫_{10}[12𝑧^{3}−4𝑦𝑧^{3}−3𝑧^{4}]_{𝑧=1𝑧=0}\,d𝑦 \\ & =∫_{10}(12−4𝑦−3)\,d𝑦 \\ & =∫_{10}(9−4𝑦)\,d𝑦\end{aligned}
 
 
 $$
@@ -362,7 +362,7 @@ Finally, we integrate with respect to $y{:}$
 $$
 
 
-\begin{aligned}∫_{10}^{}(9−4𝑦)\,d𝑦 & =[9𝑦−2𝑦^{2}]_{𝑦=1𝑦=0}^{} \\ & =(9−2)−0 \\ & =7\end{aligned}
+\begin{aligned}∫_{10}(9−4𝑦)\,d𝑦 & =[9𝑦−2𝑦^{2}]_{𝑦=1𝑦=0} \\ & =(9−2)−0 \\ & =7\end{aligned}
 
 
 $$

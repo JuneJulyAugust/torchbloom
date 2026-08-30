@@ -68,7 +68,7 @@ $$
 
 
 
-\begin{aligned}𝐓[\begin{aligned}−1 \\ 3\end{aligned}]=[\begin{aligned}−1+3 \\ 2⋅3\end{aligned}]=[\begin{aligned}2 \\ 6\end{aligned}].\end{aligned}
+\begin{aligned}𝐓[\begin{matrix}−1 \\ 3\end{matrix}]=[\begin{matrix}−1+3 \\ 2⋅3\end{matrix}]=[\begin{matrix}2 \\ 6\end{matrix}].\end{aligned}
 
 
 
@@ -112,7 +112,7 @@ $$
 
 
 
-\begin{aligned}𝐓([\begin{aligned}12 \\ 24\end{aligned}]) & =𝐓(6[\begin{aligned}2 \\ 4\end{aligned}])=6𝐓([\begin{aligned}2 \\ 4\end{aligned}]).\end{aligned}
+\begin{aligned}𝐓([\begin{matrix}12 \\ 24\end{matrix}]) & =𝐓(6[\begin{matrix}2 \\ 4\end{matrix}])=6𝐓([\begin{matrix}2 \\ 4\end{matrix}]).\end{aligned}
 
 
 
@@ -136,7 +136,7 @@ $$
 
 
 
-\begin{aligned}6𝐓([\begin{aligned}2 \\ 4\end{aligned}]) & =[\begin{aligned}18 \\ −30\end{aligned}] \\ 𝐓([\begin{aligned}2 \\ 4\end{aligned}]) & =\frac{1}{6}[\begin{aligned}18 \\ −30\end{aligned}] \\ 𝐓([\begin{aligned}2 \\ 4\end{aligned}]) & =[\begin{aligned}3 \\ −5\end{aligned}].\end{aligned}
+\begin{aligned}6𝐓([\begin{matrix}2 \\ 4\end{matrix}]) & =[\begin{matrix}18 \\ −30\end{matrix}] \\ 𝐓([\begin{matrix}2 \\ 4\end{matrix}]) & =\frac{1}{6}[\begin{matrix}18 \\ −30\end{matrix}] \\ 𝐓([\begin{matrix}2 \\ 4\end{matrix}]) & =[\begin{matrix}3 \\ −5\end{matrix}].\end{aligned}
 
 
 
@@ -168,7 +168,7 @@ $$
 
 
 
-\begin{aligned}𝐓(4𝐯_{1}+𝐯_{2}) & =4𝐓(𝐯_{1})+𝐓(𝐯_{2}) \\ [\begin{aligned}−18 \\ 24\end{aligned}] & =4𝐓(𝐯_{1})+[\begin{aligned}14 \\ −12\end{aligned}] \\ 4𝐓(𝐯_{1}) & =[\begin{aligned}−18 \\ 24\end{aligned}]−[\begin{aligned}14 \\ −12\end{aligned}] \\ 4𝐓(𝐯_{1}) & =[\begin{aligned}−32 \\ 36\end{aligned}] \\ 𝐓(𝐯_{1}) & =\frac{1}{4}[\begin{aligned}−32 \\ 36\end{aligned}] \\ 𝐓(𝐯_{1}) & =[\begin{aligned}−8 \\ 9\end{aligned}].\end{aligned}
+\begin{aligned}𝐓(4𝐯_{1}+𝐯_{2}) & =4𝐓(𝐯_{1})+𝐓(𝐯_{2}) \\ [\begin{matrix}−18 \\ 24\end{matrix}] & =4𝐓(𝐯_{1})+[\begin{matrix}14 \\ −12\end{matrix}] \\ 4𝐓(𝐯_{1}) & =[\begin{matrix}−18 \\ 24\end{matrix}]−[\begin{matrix}14 \\ −12\end{matrix}] \\ 4𝐓(𝐯_{1}) & =[\begin{matrix}−32 \\ 36\end{matrix}] \\ 𝐓(𝐯_{1}) & =\frac{1}{4}[\begin{matrix}−32 \\ 36\end{matrix}] \\ 𝐓(𝐯_{1}) & =[\begin{matrix}−8 \\ 9\end{matrix}].\end{aligned}
 
 
 
@@ -212,7 +212,7 @@ $$
 
 
 
-\begin{aligned}𝐓(5𝐯_{1}) & =5𝐓(𝐯_{1}) \\ & =5\begin{aligned}9 \\ −12 \\ 8\end{aligned} \\ & =\begin{aligned}45 \\ −60 \\ 40\end{aligned}.\end{aligned}
+\begin{aligned}𝐓(5𝐯_{1}) & =5𝐓(𝐯_{1}) \\ & =5\begin{matrix}9 \\ −12 \\ 8\end{matrix} \\ & =\begin{matrix}45 \\ −60 \\ 40\end{matrix}.\end{aligned}
 
 
 
@@ -244,7 +244,7 @@ $$
 
 
 
-\begin{aligned} & 𝐓[\begin{aligned}𝑘𝑥 \\ 𝑘𝑦\end{aligned}]=𝑘𝐓[\begin{aligned}𝑥 \\ 𝑦\end{aligned}], \\ & 𝐓[\begin{aligned}𝑥_{1}+𝑥_{2} \\ 𝑦_{1}+𝑦_{2}\end{aligned}]=𝐓[\begin{aligned}𝑥_{1} \\ 𝑦_{1}\end{aligned}]+𝐓[\begin{aligned}𝑥_{2} \\ 𝑦_{2}\end{aligned}].\end{aligned}
+\begin{aligned} & 𝐓[\begin{matrix}𝑘𝑥 \\ 𝑘𝑦\end{matrix}]=𝑘𝐓[\begin{matrix}𝑥 \\ 𝑦\end{matrix}], \\ & 𝐓[\begin{matrix}𝑥_{1}+𝑥_{2} \\ 𝑦_{1}+𝑦_{2}\end{matrix}]=𝐓[\begin{matrix}𝑥_{1} \\ 𝑦_{1}\end{matrix}]+𝐓[\begin{matrix}𝑥_{2} \\ 𝑦_{2}\end{matrix}].\end{aligned}
 
 
 
@@ -256,7 +256,7 @@ $$
 
 
 
-\begin{aligned}𝐓_{1}[\begin{aligned}𝑘𝑥 \\ 𝑘𝑦\end{aligned}] & =[\begin{aligned}(𝑘𝑥)^{2} \\ (𝑘𝑥)(𝑘𝑦)\end{aligned}] \\ & =[\begin{aligned}𝑘^{2}𝑥^{2} \\ 𝑘^{2}𝑥𝑦\end{aligned}] \\ & =𝑘[\begin{aligned}𝑘𝑥^{2} \\ 𝑘𝑥𝑦\end{aligned}] \\ & ≠𝑘𝐓_{1}[\begin{aligned}𝑥 \\ 𝑦\end{aligned}].\,×\end{aligned}
+\begin{aligned}𝐓_{1}[\begin{matrix}𝑘𝑥 \\ 𝑘𝑦\end{matrix}] & =[\begin{matrix}(𝑘𝑥)^{2} \\ (𝑘𝑥)(𝑘𝑦)\end{matrix}] \\ & =[\begin{matrix}𝑘^{2}𝑥^{2} \\ 𝑘^{2}𝑥𝑦\end{matrix}] \\ & =𝑘[\begin{matrix}𝑘𝑥^{2} \\ 𝑘𝑥𝑦\end{matrix}] \\ & ≠𝑘𝐓_{1}[\begin{matrix}𝑥 \\ 𝑦\end{matrix}].\,×\end{aligned}
 
 
 

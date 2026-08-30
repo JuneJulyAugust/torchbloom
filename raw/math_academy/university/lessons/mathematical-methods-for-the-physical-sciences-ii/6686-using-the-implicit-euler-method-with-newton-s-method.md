@@ -41,7 +41,7 @@ To see how, let's start by applying the implicit Euler method as we normally wou
 $$
 
 
-\begin{aligned}Δ𝑦 & =𝑦_{′new}^{}⋅Δ𝑥 \\ & =((𝑥_{new})^{2}−𝑥_{new}(𝑦_{new})^{4})⋅0.5 \\ & =0.5(𝑥_{new})^{2}−0.5𝑥_{new}(𝑦_{new})^{4}.\end{aligned}
+\begin{aligned}Δ𝑦 & =𝑦_{′new}⋅Δ𝑥 \\ & =((𝑥_{new})^{2}−𝑥_{new}(𝑦_{new})^{4})⋅0.5 \\ & =0.5(𝑥_{new})^{2}−0.5𝑥_{new}(𝑦_{new})^{4}.\end{aligned}
 
 
 $$
@@ -137,7 +137,7 @@ In general, $\Delta y$ is given by
 $$
 
 
-\begin{aligned}Δ𝑦 & =𝑦_{′new}^{}⋅Δ𝑥 \\ & =(𝑦_{new})^{3}−𝑥_{new}𝑦_{new} \\ & =(𝑦_{new})^{3}−𝑥_{new}𝑦_{new}.\end{aligned}
+\begin{aligned}Δ𝑦 & =𝑦_{′new}⋅Δ𝑥 \\ & =(𝑦_{new})^{3}−𝑥_{new}𝑦_{new} \\ & =(𝑦_{new})^{3}−𝑥_{new}𝑦_{new}.\end{aligned}
 
 
 $$
@@ -227,7 +227,7 @@ Now, let's proceed with the implicit Euler method. In general, $\Delta y$ is giv
 $$
 
 
-\begin{aligned}Δ𝑦 & =𝑦_{′new}^{}⋅Δ𝑥 \\ & =(2𝑥_{new}𝑦_{new}+(𝑦_{new})^{3})⋅0.5 \\ & =𝑥_{new}𝑦_{new}+0.5(𝑦_{new})^{3}.\end{aligned}
+\begin{aligned}Δ𝑦 & =𝑦_{′new}⋅Δ𝑥 \\ & =(2𝑥_{new}𝑦_{new}+(𝑦_{new})^{3})⋅0.5 \\ & =𝑥_{new}𝑦_{new}+0.5(𝑦_{new})^{3}.\end{aligned}
 
 
 $$

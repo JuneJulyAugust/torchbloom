@@ -27,7 +27,7 @@ can be evaluated by parameterizing $C$ using the parameter $t\in [a,b]$ and then
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}𝑓(𝑥,𝑦)\,d𝑥+𝑓(𝑥,𝑦)\,d𝑦 & =∫_{𝑏𝑎}^{}𝑓(𝑥,𝑦)\frac{d𝑥}{d𝑡}\,d𝑡+𝑓(𝑥,𝑦)\frac{d𝑦}{d𝑡}\,d𝑡 \\ & =∫_{𝑏𝑎}^{}(𝑓(𝑥,𝑦)\frac{d𝑥}{d𝑡}+𝑓(𝑥,𝑦)\frac{d𝑦}{d𝑡})\,d𝑡\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}𝑓(𝑥,𝑦)\,d𝑥+𝑓(𝑥,𝑦)\,d𝑦 & =∫_{𝑏𝑎}𝑓(𝑥,𝑦)\frac{d𝑥}{d𝑡}\,d𝑡+𝑓(𝑥,𝑦)\frac{d𝑦}{d𝑡}\,d𝑡 \\ & =∫_{𝑏𝑎}(𝑓(𝑥,𝑦)\frac{d𝑥}{d𝑡}+𝑓(𝑥,𝑦)\frac{d𝑦}{d𝑡})\,d𝑡\end{aligned}
 
 
 $$
@@ -77,7 +77,7 @@ We can now evaluate the line integral:
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}𝑥^{2}𝑦\,d𝑥+𝑥𝑦\,d𝑦 & =∫_{10}^{}𝑥^{2}𝑦\,\frac{d𝑥}{d𝑡}\,d𝑡+𝑥𝑦\,\frac{d𝑦}{d𝑡}\,d𝑡 \\ & =∫_{10}^{}(𝑥^{2}𝑦\,\frac{d𝑥}{d𝑡}+𝑥𝑦\,\frac{d𝑦}{d𝑡})d𝑡 \\ & =∫_{10}^{}𝑡^{2}⋅𝑡⋅1+𝑡⋅𝑡⋅1\,d𝑡 \\ & =∫_{10}^{}𝑡^{3}+𝑡^{2}\,d𝑡 \\ & =[\frac{𝑡^{4}}{4}+\frac{𝑡^{3}}{3}]_{10}^{} \\ & =\frac{1}{4}+\frac{1}{3} \\ & =\frac{7}{12}\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}𝑥^{2}𝑦\,d𝑥+𝑥𝑦\,d𝑦 & =∫_{10}𝑥^{2}𝑦\,\frac{d𝑥}{d𝑡}\,d𝑡+𝑥𝑦\,\frac{d𝑦}{d𝑡}\,d𝑡 \\ & =∫_{10}(𝑥^{2}𝑦\,\frac{d𝑥}{d𝑡}+𝑥𝑦\,\frac{d𝑦}{d𝑡})d𝑡 \\ & =∫_{10}𝑡^{2}⋅𝑡⋅1+𝑡⋅𝑡⋅1\,d𝑡 \\ & =∫_{10}𝑡^{3}+𝑡^{2}\,d𝑡 \\ & =[\frac{𝑡^{4}}{4}+\frac{𝑡^{3}}{3}]_{10} \\ & =\frac{1}{4}+\frac{1}{3} \\ & =\frac{7}{12}\end{aligned}
 
 
 $$
@@ -123,7 +123,7 @@ We can now evaluate the line integral:
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}(𝑥+𝑦)\,d𝑥+(𝑥−𝑦)\,d𝑦 & =∫_{10}^{}(𝑥+𝑦)\,\frac{d𝑥}{d𝑡}\,d𝑡+(𝑥−𝑦)\,\frac{d𝑦}{d𝑡}\,d𝑡 \\ & =∫_{10}^{}((𝑥+𝑦)\,\frac{d𝑥}{d𝑡}+(𝑥−𝑦)\,\frac{d𝑦}{d𝑡})d𝑡 \\ & =∫_{10}^{}(𝑡+𝑡^{2})⋅1+(𝑡−𝑡^{2})⋅2𝑡\,d𝑡 \\ & =∫_{10}^{}𝑡+3𝑡^{2}−2𝑡^{3}\,d𝑡 \\ & =[\frac{𝑡^{2}}{2}+𝑡^{3}−\frac{𝑡^{4}}{2}]_{10}^{} \\ & =[\frac{1}{2}+1−\frac{1}{2}]−[0] \\ & =1\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}(𝑥+𝑦)\,d𝑥+(𝑥−𝑦)\,d𝑦 & =∫_{10}(𝑥+𝑦)\,\frac{d𝑥}{d𝑡}\,d𝑡+(𝑥−𝑦)\,\frac{d𝑦}{d𝑡}\,d𝑡 \\ & =∫_{10}((𝑥+𝑦)\,\frac{d𝑥}{d𝑡}+(𝑥−𝑦)\,\frac{d𝑦}{d𝑡})d𝑡 \\ & =∫_{10}(𝑡+𝑡^{2})⋅1+(𝑡−𝑡^{2})⋅2𝑡\,d𝑡 \\ & =∫_{10}𝑡+3𝑡^{2}−2𝑡^{3}\,d𝑡 \\ & =[\frac{𝑡^{2}}{2}+𝑡^{3}−\frac{𝑡^{4}}{2}]_{10} \\ & =[\frac{1}{2}+1−\frac{1}{2}]−[0] \\ & =1\end{aligned}
 
 
 $$
@@ -163,7 +163,7 @@ Therefore, we can calculate the line integral as follows:
 $$
 
 
-\begin{aligned}\underset{𝐶}{∫}\frac{𝑦\,d𝑥−𝑥\,d𝑦}{𝑥^{2}+𝑦^{2}} & =∫_{𝜋/20}^{}\frac{𝑦⋅𝑥^{′}−𝑥⋅𝑦^{′}}{𝑥^{2}+𝑦^{2}}\,d𝑡 \\ & =∫_{𝜋/20}^{}\frac{(2sin⁡𝑡)(−2sin⁡𝑡)−(2cos⁡𝑡)(2cos⁡𝑡)}{(2cos⁡𝑡)^{2}+(2sin⁡𝑡)^{2}},d𝑡 \\ & =∫_{𝜋/20}^{}\frac{−4sin^{2}⁡𝑡−4cos^{2}⁡𝑡}{4(cos^{2}⁡𝑡+sin^{2}⁡𝑡)}\,d𝑡 \\ & =∫_{𝜋/20}^{}\frac{−4(sin^{2}⁡𝑡+cos^{2}⁡𝑡)}{4(cos^{2}⁡𝑡+sin^{2}⁡𝑡)}\,d𝑡 \\ & =−∫_{𝜋/20}^{}\,d𝑡 \\ & =−\frac{𝜋}{2}\end{aligned}
+\begin{aligned}\underset{𝐶}{∫}\frac{𝑦\,d𝑥−𝑥\,d𝑦}{𝑥^{2}+𝑦^{2}} & =∫_{𝜋/20}\frac{𝑦⋅𝑥^{′}−𝑥⋅𝑦^{′}}{𝑥^{2}+𝑦^{2}}\,d𝑡 \\ & =∫_{𝜋/20}\frac{(2sin⁡𝑡)(−2sin⁡𝑡)−(2cos⁡𝑡)(2cos⁡𝑡)}{(2cos⁡𝑡)^{2}+(2sin⁡𝑡)^{2}},d𝑡 \\ & =∫_{𝜋/20}\frac{−4sin^{2}⁡𝑡−4cos^{2}⁡𝑡}{4(cos^{2}⁡𝑡+sin^{2}⁡𝑡)}\,d𝑡 \\ & =∫_{𝜋/20}\frac{−4(sin^{2}⁡𝑡+cos^{2}⁡𝑡)}{4(cos^{2}⁡𝑡+sin^{2}⁡𝑡)}\,d𝑡 \\ & =−∫_{𝜋/20}\,d𝑡 \\ & =−\frac{𝜋}{2}\end{aligned}
 
 
 $$

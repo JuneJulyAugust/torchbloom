@@ -13,12 +13,12 @@ Topic ID: 3818
 
 One use for finding the orthogonal projection of a vector onto a subspace is to find the shortest distance between the vector and the subspace.
 
-Given a vector $\mathbf{x}$ and a subspace $S = \textrm{Span}\{\mathbf{a}_1, \mathbf{a}_2 \},$ the **distance between $\mathbf{x}$ and $S$** is given by
+Given a vector $\mathbf{x}$ and a subspace $S = \text{Span}\{\mathbf{a}_1, \mathbf{a}_2 \},$ the **distance between $\mathbf{x}$ and $S$** is given by
 
 $$
 
 
-\Vert \mathbf{x} - \textrm{proj}_{S}\mathbf{x} \Vert
+\Vert \mathbf{x} - \text{proj}_{S}\mathbf{x} \Vert
 
 
 $$
@@ -42,7 +42,7 @@ The orthogonal projection of $\mathbf{x}$ onto the subspace spanned by the colum
 $$
 
 
-\textrm{proj}_{S} \: \mathbf{x} = A(A^T\!A)^{-1}\!A^T\,\mathbf{x}.
+\text{proj}_{S} \: \mathbf{x} = A(A^T\!A)^{-1}\!A^T\,\mathbf{x}.
 
 
 $$
@@ -62,7 +62,7 @@ Therefore, we get the following projection:
 $$
 
 
-\begin{aligned}proj_{𝑆}\,𝐱 & =\begin{aligned}1 & 2 \\ 0 & −1 \\ −1 & −2\end{aligned}⋅[\begin{aligned}1 & 0 & −1 \\ 2 & −1 & −2\end{aligned}]⋅\begin{aligned}1 & 2 \\ 0 & −1 \\ −1 & −2\end{aligned}^{−1}⋅[\begin{aligned}1 & 0 & −1 \\ 2 & −1 & −2\end{aligned}]⋅\begin{aligned}0 \\ 2 \\ 4\end{aligned} \\ & =\begin{aligned}1 & 2 \\ 0 & −1 \\ −1 & −2\end{aligned}⋅[\begin{aligned}2 & 4 \\ 4 & 9\end{aligned}]^{−1}⋅[\begin{aligned}−4 \\ −10\end{aligned}] \\ & =\begin{aligned}1 & 2 \\ 0 & −1 \\ −1 & −2\end{aligned}⋅\frac{1}{2}[\begin{aligned}9 & −4 \\ −4 & 2\end{aligned}]⋅[\begin{aligned}−4 \\ −10\end{aligned}] \\ & =\begin{aligned}1 & 2 \\ 0 & −1 \\ −1 & −2\end{aligned}⋅[\begin{aligned}2 \\ −2\end{aligned}] \\ & =\begin{aligned}−2 \\ 2 \\ 2\end{aligned}=\overset{𝐱}{^}\end{aligned}
+\begin{aligned}proj_{𝑆}\,𝐱 & =\begin{matrix}1 & 2 \\ 0 & −1 \\ −1 & −2\end{matrix}⋅[\begin{matrix}1 & 0 & −1 \\ 2 & −1 & −2\end{matrix}]⋅\begin{matrix}1 & 2 \\ 0 & −1 \\ −1 & −2\end{matrix}^{−1}⋅[\begin{matrix}1 & 0 & −1 \\ 2 & −1 & −2\end{matrix}]⋅\begin{matrix}0 \\ 2 \\ 4\end{matrix} \\ & =\begin{matrix}1 & 2 \\ 0 & −1 \\ −1 & −2\end{matrix}⋅[\begin{matrix}2 & 4 \\ 4 & 9\end{matrix}]^{−1}⋅[\begin{matrix}−4 \\ −10\end{matrix}] \\ & =\begin{matrix}1 & 2 \\ 0 & −1 \\ −1 & −2\end{matrix}⋅\frac{1}{2}[\begin{matrix}9 & −4 \\ −4 & 2\end{matrix}]⋅[\begin{matrix}−4 \\ −10\end{matrix}] \\ & =\begin{matrix}1 & 2 \\ 0 & −1 \\ −1 & −2\end{matrix}⋅[\begin{matrix}2 \\ −2\end{matrix}] \\ & =\begin{matrix}−2 \\ 2 \\ 2\end{matrix}=\hat{𝐱}\end{aligned}
 
 
 $$
@@ -72,12 +72,12 @@ Finally, using the distance formula, the distance between $\mathbf{x}$ and the s
 $$
 
 
-\begin{aligned}𝑑(𝐱,\overset{𝐱}{^}) & =‖𝐱−\overset{𝐱}{^}‖ \\ & =\sqrt{√(𝑥_{1}−\overset{𝑥}{^}_{1})^{2}+(𝑥_{2}−\overset{𝑥}{^}_{2})^{2}+(𝑥_{3}−\overset{𝑥}{^}_{3})^{2}} \\ & =\sqrt{√(0−(−2))^{2}+(2−2)^{2}+(4−2)^{2}} \\ & =\sqrt{√4+0+4} \\ & =\sqrt{√8} \\ & =2\sqrt{√2}.\end{aligned}
+\begin{aligned}𝑑(𝐱,\hat{𝐱}) & =‖𝐱−\hat{𝐱}‖ \\ & =\sqrt{(𝑥_{1}−\hat{𝑥}_{1})^{2}+(𝑥_{2}−\hat{𝑥}_{2})^{2}+(𝑥_{3}−\hat{𝑥}_{3})^{2}} \\ & =\sqrt{(0−(−2))^{2}+(2−2)^{2}+(4−2)^{2}} \\ & =\sqrt{4+0+4} \\ & =\sqrt{8} \\ & =2\sqrt{2}.\end{aligned}
 
 
 $$
 
-**Note:** Recall that the vector $\textbf{x}-\textrm{proj}_{S}\,\mathbf{x},$ whose norm $\| \textbf{x}-\textrm{proj}_{S}\,\mathbf{x} \|$ represents the distance from $\mathbf{x}$ to $S,$ is sometimes called the **vector rejection of $\mathbf{x}$ from $S.$**
+**Note:** Recall that the vector $\textbf{x}-\text{proj}_{S}\,\mathbf{x},$ whose norm $\| \textbf{x}-\text{proj}_{S}\,\mathbf{x} \|$ represents the distance from $\mathbf{x}$ to $S,$ is sometimes called the **vector rejection of $\mathbf{x}$ from $S.$**
 
 ### Example: Calculating the Distance Between a Vector and a Subspace
 
@@ -100,7 +100,7 @@ The orthogonal projection of $\mathbf{x}$ onto the subspace spanned by the colum
 $$
 
 
-\textrm{proj}_{S} \: \mathbf{x} = A(A^T\!A)^{-1}\!A^T\,\mathbf{x}.
+\text{proj}_{S} \: \mathbf{x} = A(A^T\!A)^{-1}\!A^T\,\mathbf{x}.
 
 
 $$
@@ -120,7 +120,7 @@ Therefore, we get the following projection:
 $$
 
 
-\begin{aligned}proj_{𝑆}\,𝐱 & =\begin{aligned}1 & 1 \\ 1 & 3 \\ 1 & 2 \\ 1 & 2\end{aligned}⋅[\begin{aligned}1 & 1 & 1 & 1 \\ 1 & 3 & 2 & 2\end{aligned}]\,⋅\,\begin{aligned}1 & 1 \\ 1 & 3 \\ 1 & 2 \\ 1 & 2\end{aligned}^{−1}\,\,\,\,⋅\,[\begin{aligned}1 & 1 & 1 & 1 \\ 1 & 3 & 2 & 2\end{aligned}]⋅\begin{aligned}−3 \\ 5 \\ −1 \\ 3\end{aligned} \\ & =\begin{aligned}1 & 1 \\ 1 & 3 \\ 1 & 2 \\ 1 & 2\end{aligned}⋅[\begin{aligned}4 & 8 \\ 8 & 18\end{aligned}]^{−1}⋅[\begin{aligned}4 \\ 16\end{aligned}] \\ & =\begin{aligned}1 & 1 \\ 1 & 3 \\ 1 & 2 \\ 1 & 2\end{aligned}⋅\frac{1}{4}[\begin{aligned}9 & −4 \\ −4 & 2\end{aligned}]⋅[\begin{aligned}4 \\ 16\end{aligned}] \\ & =\begin{aligned}1 & 1 \\ 1 & 3 \\ 1 & 2 \\ 1 & 2\end{aligned}⋅[\begin{aligned}−7 \\ 4\end{aligned}] \\ & =\begin{aligned}−3 \\ 5 \\ 1 \\ 1\end{aligned}=\overset{𝐱}{^}\end{aligned}
+\begin{aligned}proj_{𝑆}\,𝐱 & =\begin{matrix}1 & 1 \\ 1 & 3 \\ 1 & 2 \\ 1 & 2\end{matrix}⋅[\begin{matrix}1 & 1 & 1 & 1 \\ 1 & 3 & 2 & 2\end{matrix}]\,⋅\,\begin{matrix}1 & 1 \\ 1 & 3 \\ 1 & 2 \\ 1 & 2\end{matrix}^{−1}\,\,\,\,⋅\,[\begin{matrix}1 & 1 & 1 & 1 \\ 1 & 3 & 2 & 2\end{matrix}]⋅\begin{matrix}−3 \\ 5 \\ −1 \\ 3\end{matrix} \\ & =\begin{matrix}1 & 1 \\ 1 & 3 \\ 1 & 2 \\ 1 & 2\end{matrix}⋅[\begin{matrix}4 & 8 \\ 8 & 18\end{matrix}]^{−1}⋅[\begin{matrix}4 \\ 16\end{matrix}] \\ & =\begin{matrix}1 & 1 \\ 1 & 3 \\ 1 & 2 \\ 1 & 2\end{matrix}⋅\frac{1}{4}[\begin{matrix}9 & −4 \\ −4 & 2\end{matrix}]⋅[\begin{matrix}4 \\ 16\end{matrix}] \\ & =\begin{matrix}1 & 1 \\ 1 & 3 \\ 1 & 2 \\ 1 & 2\end{matrix}⋅[\begin{matrix}−7 \\ 4\end{matrix}] \\ & =\begin{matrix}−3 \\ 5 \\ 1 \\ 1\end{matrix}=\hat{𝐱}\end{aligned}
 
 
 $$
@@ -130,7 +130,7 @@ Finally, the distance between $\mathbf{x}$ and the subspace $S$ is given by
 $$
 
 
-\begin{aligned}𝑑(𝐱,\overset{𝐱}{^}) & =‖𝐱−\overset{𝐱}{^}‖ \\ & =\sqrt{√(𝑥_{1}−\overset{𝑥}{^}_{1})^{2}+(𝑥_{2}−\overset{𝑥}{^}_{2})^{2}+(𝑥_{3}−\overset{𝑥}{^}_{3})^{2}+(𝑥_{4}−\overset{𝑥}{^}_{4})^{2}} \\ & =\sqrt{√(−3−(−3))^{2}+(5−5)^{2}+(−1−1)^{2}+(3−1)^{2}} \\ & =\sqrt{√0+0+4+4} \\ & =\sqrt{√8} \\ & =2\sqrt{√2}.\end{aligned}
+\begin{aligned}𝑑(𝐱,\hat{𝐱}) & =‖𝐱−\hat{𝐱}‖ \\ & =\sqrt{(𝑥_{1}−\hat{𝑥}_{1})^{2}+(𝑥_{2}−\hat{𝑥}_{2})^{2}+(𝑥_{3}−\hat{𝑥}_{3})^{2}+(𝑥_{4}−\hat{𝑥}_{4})^{2}} \\ & =\sqrt{(−3−(−3))^{2}+(5−5)^{2}+(−1−1)^{2}+(3−1)^{2}} \\ & =\sqrt{0+0+4+4} \\ & =\sqrt{8} \\ & =2\sqrt{2}.\end{aligned}
 
 
 $$
@@ -139,7 +139,7 @@ $$
 
 As well as finding the distance between a vector and a subspace, we can also use the vector's orthogonal projection onto the subspace to find the angle between the vector and the subspace.
 
-Given a vector $\mathbf{x}$ and a subspace $S = \textrm{Span}\{\mathbf{a}_1, \mathbf{a}_2 \},$ the **acute angle between $\mathbf{x}$ and $S$** is the acute angle formed by $\mathbf{x}$ and its orthogonal projection $\textrm{proj}_S \mathbf{x},$ as shown below:
+Given a vector $\mathbf{x}$ and a subspace $S = \text{Span}\{\mathbf{a}_1, \mathbf{a}_2 \},$ the **acute angle between $\mathbf{x}$ and $S$** is the acute angle formed by $\mathbf{x}$ and its orthogonal projection $\text{proj}_S \mathbf{x},$ as shown below:
 
 ![Instructional graphic](../../../lesson-assets/mathematical-methods-for-the-physical-sciences-ii/topic-3818/0fb1102d73d60b12.png)
 
@@ -163,12 +163,12 @@ $$
 
 $$
 
-We can compute the cosine of the angle between $\mathbf x$ and $\textrm{proj}_S \mathbf x$ using the dot product:
+We can compute the cosine of the angle between $\mathbf x$ and $\text{proj}_S \mathbf x$ using the dot product:
 
 $$
 
 
-\begin{aligned}cos⁡𝜃 & =\frac{𝐱⋅proj_{𝑆}𝐱}{||𝐱||⋅||proj_{𝑆}𝐱||} \\ & =\frac{0⋅(−2)+2⋅2+4⋅2}{\sqrt{√0^{2}+2^{2}+4^{2}}\sqrt{√(−2)^{2}+2^{2}+2^{2}}} \\ & =\frac{12}{\sqrt{√20}\sqrt{√12}} \\ & =\frac{2⋅2⋅3}{2\sqrt{√5}⋅2\sqrt{√3}} \\ & =\frac{\sqrt{√3}}{\sqrt{√5}}\end{aligned}
+\begin{aligned}cos⁡𝜃 & =\frac{𝐱⋅proj_{𝑆}𝐱}{||𝐱||⋅||proj_{𝑆}𝐱||} \\ & =\frac{0⋅(−2)+2⋅2+4⋅2}{\sqrt{0^{2}+2^{2}+4^{2}}\sqrt{(−2)^{2}+2^{2}+2^{2}}} \\ & =\frac{12}{\sqrt{20}\sqrt{12}} \\ & =\frac{2⋅2⋅3}{2\sqrt{5}⋅2\sqrt{3}} \\ & =\frac{\sqrt{3}}{\sqrt{5}}\end{aligned}
 
 
 $$
@@ -206,7 +206,7 @@ The orthogonal projection of $\mathbf{x}$ onto the subspace spanned by the colum
 $$
 
 
-\textrm{proj}_{S} \: \mathbf{x} = A(A^T\!A)^{-1}\!A^T\,\mathbf{x}.
+\text{proj}_{S} \: \mathbf{x} = A(A^T\!A)^{-1}\!A^T\,\mathbf{x}.
 
 
 $$
@@ -226,12 +226,12 @@ Therefore, we get the following projection:
 $$
 
 
-\begin{aligned}proj_{𝑆}\,𝐱 & =\begin{aligned}3 & 3 \\ −3 & −3 \\ −3 & 3\end{aligned}⋅[\begin{aligned}3 & −3 & −3 \\ 3 & −3 & 3\end{aligned}]⋅\begin{aligned}3 & 3 \\ −3 & −3 \\ −3 & 3\end{aligned}^{−1}⋅[\begin{aligned}3 & −3 & −3 \\ 3 & −3 & 3\end{aligned}]⋅\begin{aligned}0 \\ 1 \\ 0\end{aligned} \\ & =\begin{aligned}3 & 3 \\ −3 & −3 \\ −3 & 3\end{aligned}⋅[\begin{aligned}27 & 9 \\ 9 & 27\end{aligned}]^{−1}⋅[\begin{aligned}−3 \\ −3\end{aligned}] \\ & =\begin{aligned}3 & 3 \\ −3 & −3 \\ −3 & 3\end{aligned}⋅\frac{1}{72}[\begin{aligned}3 & −1 \\ −1 & 3\end{aligned}]⋅[\begin{aligned}−3 \\ −3\end{aligned}] \\ & =\frac{1}{12}\begin{aligned}3 & 3 \\ −3 & −3 \\ −3 & 3\end{aligned}⋅[\begin{aligned}−1 \\ −1\end{aligned}] \\ & =\frac{1}{2}\begin{aligned}−1 \\ 1 \\ 0\end{aligned}\end{aligned}
+\begin{aligned}proj_{𝑆}\,𝐱 & =\begin{matrix}3 & 3 \\ −3 & −3 \\ −3 & 3\end{matrix}⋅[\begin{matrix}3 & −3 & −3 \\ 3 & −3 & 3\end{matrix}]⋅\begin{matrix}3 & 3 \\ −3 & −3 \\ −3 & 3\end{matrix}^{−1}⋅[\begin{matrix}3 & −3 & −3 \\ 3 & −3 & 3\end{matrix}]⋅\begin{matrix}0 \\ 1 \\ 0\end{matrix} \\ & =\begin{matrix}3 & 3 \\ −3 & −3 \\ −3 & 3\end{matrix}⋅[\begin{matrix}27 & 9 \\ 9 & 27\end{matrix}]^{−1}⋅[\begin{matrix}−3 \\ −3\end{matrix}] \\ & =\begin{matrix}3 & 3 \\ −3 & −3 \\ −3 & 3\end{matrix}⋅\frac{1}{72}[\begin{matrix}3 & −1 \\ −1 & 3\end{matrix}]⋅[\begin{matrix}−3 \\ −3\end{matrix}] \\ & =\frac{1}{12}\begin{matrix}3 & 3 \\ −3 & −3 \\ −3 & 3\end{matrix}⋅[\begin{matrix}−1 \\ −1\end{matrix}] \\ & =\frac{1}{2}\begin{matrix}−1 \\ 1 \\ 0\end{matrix}\end{aligned}
 
 
 $$
 
-The acute angle between $\mathbf{x}$ and $S$ is the acute angle between $\mathbf{x}$ and $\textrm{proj}_S \mathbf{x}.$ Equivalently, it is the acute angle between $\mathbf{x}$ and any non-zero vector that is parallel to $\textrm{proj}_S \mathbf{x}.$ So, to make calculations easier, we can find the angle between the vectors
+The acute angle between $\mathbf{x}$ and $S$ is the acute angle between $\mathbf{x}$ and $\text{proj}_S \mathbf{x}.$ Equivalently, it is the acute angle between $\mathbf{x}$ and any non-zero vector that is parallel to $\text{proj}_S \mathbf{x}.$ So, to make calculations easier, we can find the angle between the vectors
 
 $$
 
@@ -246,7 +246,7 @@ Computing the cosine using the dot product, we obtain
 $$
 
 
-\begin{aligned}cos⁡𝜃 & =\frac{0⋅(−1)+1⋅1+0⋅0}{\sqrt{√0^{2}+1^{2}+0^{2}}\sqrt{√(−1)^{2}+1^{2}+0^{2}}} \\ & =\frac{1}{\sqrt{√1}⋅\sqrt{√2}} \\ & =\frac{\sqrt{√2}}{2}.\end{aligned}
+\begin{aligned}cos⁡𝜃 & =\frac{0⋅(−1)+1⋅1+0⋅0}{\sqrt{0^{2}+1^{2}+0^{2}}\sqrt{(−1)^{2}+1^{2}+0^{2}}} \\ & =\frac{1}{\sqrt{1}⋅\sqrt{2}} \\ & =\frac{\sqrt{2}}{2}.\end{aligned}
 
 
 $$
@@ -286,7 +286,7 @@ Consider the augmented matrix $M$ of the system, which we reduce to row echelon 
 $$
 
 
-\begin{aligned}𝑀 & =[\begin{aligned}1 & −2 & 3 & 0 \\ 2 & −4 & 6 & 0\end{aligned}] & 𝑅_{2} & :=𝑅_{2}−2𝑅_{1} \\ & ∼[\begin{aligned}1 & −2 & 3 & 0 \\ 0 & 0 & 0 & 0\end{aligned}] & & \end{aligned}
+\begin{aligned}𝑀 & =[\begin{matrix}1 & −2 & 3 & 0 \\ 2 & −4 & 6 & 0\end{matrix}] & 𝑅_{2} & :=𝑅_{2}−2𝑅_{1} \\ & ∼[\begin{matrix}1 & −2 & 3 & 0 \\ 0 & 0 & 0 & 0\end{matrix}] & & \end{aligned}
 
 
 $$
@@ -318,7 +318,7 @@ Now, we let $A$ be a matrix whose columns equal the elements of $\mathcal B,$ an
 $$
 
 
-\begin{aligned}proj_{𝑆}\,𝐱 & =𝐴(𝐴^{𝑇}\,𝐴)^{−1}\,𝐴^{𝑇}\,𝐱 \\ & =\begin{aligned}2 & −3 \\ 1 & 0 \\ 0 & 1\end{aligned}⋅[\begin{aligned}2 & 1 & 0 \\ −3 & 0 & 1\end{aligned}]⋅\begin{aligned}2 & −3 \\ 1 & 0 \\ 0 & 1\end{aligned}^{−1}⋅[\begin{aligned}2 & 1 & 0 \\ −3 & 0 & 1\end{aligned}]⋅\begin{aligned}4 \\ 2 \\ 14\end{aligned} \\ & =\begin{aligned}2 & −3 \\ 1 & 0 \\ 0 & 1\end{aligned}⋅[\begin{aligned}5 & −6 \\ −6 & 10\end{aligned}]^{−1}⋅[\begin{aligned}10 \\ 2\end{aligned}] \\ & =\begin{aligned}2 & −3 \\ 1 & 0 \\ 0 & 1\end{aligned}⋅\frac{1}{14}[\begin{aligned}10 & 6 \\ 6 & 5\end{aligned}]⋅[\begin{aligned}10 \\ 2\end{aligned}] \\ & =\begin{aligned}2 & −3 \\ 1 & 0 \\ 0 & 1\end{aligned}⋅[\begin{aligned}8 \\ 5\end{aligned}] \\ & =\begin{aligned}1 \\ 8 \\ 5\end{aligned}\end{aligned}
+\begin{aligned}proj_{𝑆}\,𝐱 & =𝐴(𝐴^{𝑇}\,𝐴)^{−1}\,𝐴^{𝑇}\,𝐱 \\ & =\begin{matrix}2 & −3 \\ 1 & 0 \\ 0 & 1\end{matrix}⋅[\begin{matrix}2 & 1 & 0 \\ −3 & 0 & 1\end{matrix}]⋅\begin{matrix}2 & −3 \\ 1 & 0 \\ 0 & 1\end{matrix}^{−1}⋅[\begin{matrix}2 & 1 & 0 \\ −3 & 0 & 1\end{matrix}]⋅\begin{matrix}4 \\ 2 \\ 14\end{matrix} \\ & =\begin{matrix}2 & −3 \\ 1 & 0 \\ 0 & 1\end{matrix}⋅[\begin{matrix}5 & −6 \\ −6 & 10\end{matrix}]^{−1}⋅[\begin{matrix}10 \\ 2\end{matrix}] \\ & =\begin{matrix}2 & −3 \\ 1 & 0 \\ 0 & 1\end{matrix}⋅\frac{1}{14}[\begin{matrix}10 & 6 \\ 6 & 5\end{matrix}]⋅[\begin{matrix}10 \\ 2\end{matrix}] \\ & =\begin{matrix}2 & −3 \\ 1 & 0 \\ 0 & 1\end{matrix}⋅[\begin{matrix}8 \\ 5\end{matrix}] \\ & =\begin{matrix}1 \\ 8 \\ 5\end{matrix}\end{aligned}
 
 
 $$

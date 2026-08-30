@@ -11,13 +11,13 @@ Topic ID: 811
 
 ### Introduction
 
-The **greatest common factor** (or $\textrm{GCF}$) of two integers is the largest positive integer that divides both of them.
+The **greatest common factor** (or $\text{GCF}$) of two integers is the largest positive integer that divides both of them.
 
 For example, the greatest common factor of $12$ and $30$ is $6.$ This is because $6$ is the greatest integer that divides *both* $12$ *and* $30.$ We can write this as
 
 $$
 
-\textrm{GCF}(12,30) = 6.
+\text{GCF}(12,30) = 6.
 
 $$
 
@@ -35,11 +35,11 @@ Notice that $12$ and $30$ both have the factors of ${\color{blue}2}$ and ${\colo
 
 $$
 
-\textrm{GCF}(12,30) = {\color{blue}2}\cdot {\color{red}3} = 6.
+\text{GCF}(12,30) = {\color{blue}2}\cdot {\color{red}3} = 6.
 
 $$
 
-Sometimes, we write "$\textrm{gcd}$" instead of $\textrm{GCF}.$ They mean the same thing, but $\textrm{gcd}$ stands for **greatest common divisor.**
+Sometimes, we write "$\text{gcd}$" instead of $\text{GCF}.$ They mean the same thing, but $\text{gcd}$ stands for **greatest common divisor.**
 
 ### Example: Finding the Greatest Common Factor of Two Integers
 
@@ -67,7 +67,7 @@ What is the greatest common factor of $36$, $90$, and $396.$
 
 #### Explanation
 
-To find the greatest common factor $(\textrm{GCF})$ of the three numbers, we first find their prime factorizations:
+To find the greatest common factor $(\text{GCF})$ of the three numbers, we first find their prime factorizations:
 
 - First, let's find the prime decomposition of $36{:}$ So, $36 = 2 \cdot 2\cdot 3 \cdot 3.$
 
@@ -87,7 +87,7 @@ The common factors are $2,$ $3,$ and $3.$ Therefore,
 
 $$
 
-\textrm{GCF}(36,90,396) = 2\cdot 3 \cdot 3 = 18.
+\text{GCF}(36,90,396) = 2\cdot 3 \cdot 3 = 18.
 
 $$
 
@@ -95,7 +95,7 @@ $$
 
 #### Question
 
-What is $\textrm{GCF}(3^3,21^2)?$
+What is $\text{GCF}(3^3,21^2)?$
 
 #### Explanation
 
@@ -123,6 +123,6 @@ We conclude that
 
 $$
 
-\textrm{GCF}(3^{3}, 21^{2}) = 3^{2}.
+\text{GCF}(3^{3}, 21^{2}) = 3^{2}.
 
 $$

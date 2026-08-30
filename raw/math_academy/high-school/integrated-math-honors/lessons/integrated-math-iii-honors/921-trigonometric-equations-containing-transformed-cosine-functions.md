@@ -140,7 +140,7 @@ First, we rearrange the equation, as follows:
 $$
 
 
-\begin{aligned}−2\sqrt{√3}cos⁡(2𝑥+60^{∘})−3 & =0 \\ −2\sqrt{√3}cos⁡(2𝑥+60^{∘}) & =3 \\ cos⁡(2𝑥+60^{∘}) & =−\frac{3}{2\sqrt{√3}} \\ cos⁡(2𝑥+60^{∘}) & =−\frac{\sqrt{√3}}{2}\end{aligned}
+\begin{aligned}−2\sqrt{3}cos⁡(2𝑥+60^{∘})−3 & =0 \\ −2\sqrt{3}cos⁡(2𝑥+60^{∘}) & =3 \\ cos⁡(2𝑥+60^{∘}) & =−\frac{3}{2\sqrt{3}} \\ cos⁡(2𝑥+60^{∘}) & =−\frac{\sqrt{3}}{2}\end{aligned}
 
 
 $$

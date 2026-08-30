@@ -17,7 +17,7 @@ To calculate the arc length of a polar curve $r=r(\theta)$ between the rays $\th
 $$
 
 
-L = \int_{\theta_1}^{\theta_2} \sqrt{r^2 +\left(\frac{\textrm{d}r}{\textrm{d}\theta}\right)^2 }\textrm{d}\theta.
+L = \int_{\theta_1}^{\theta_2} \sqrt{r^2 +\left(\frac{\text{d}r}{\text{d}\theta}\right)^2 }\text{d}\theta.
 
 
 $$
@@ -31,7 +31,7 @@ We will use the formula to compute the arc length. Since $r=2,$ we have
 $$
 
 
-\dfrac{\textrm{d}r}{\textrm{d}\theta} = 0,
+\dfrac{\text{d}r}{\text{d}\theta} = 0,
 
 
 $$
@@ -41,7 +41,7 @@ and therefore, the arc length can be calculated as follows:
 $$
 
 
-\begin{aligned}𝐿 & =∫_{𝜃_{2}𝜃_{1}}^{}\sqrt{√𝑟^{2}+(\frac{d𝑟}{d𝜃})^{2}}d𝜃 \\ & =∫_{2𝜋/3𝜋/6}^{}\sqrt{√2^{2}+(0)^{2}}d𝜃 \\ & =∫_{2𝜋/3𝜋/6}^{}2\,d𝜃 \\ & =2∫_{2𝜋/3𝜋/6}^{}d𝜃 \\ & =2𝜃\,_{2𝜋/3𝜋/6}^{} \\ & =2(\frac{2𝜋}{3}−\frac{𝜋}{6}) \\ & =𝜋\end{aligned}
+\begin{aligned}𝐿 & =∫_{𝜃_{2}𝜃_{1}}^{}\sqrt{𝑟^{2}+(\frac{d𝑟}{d𝜃})^{2}}d𝜃 \\ & =∫_{2𝜋/3𝜋/6}\sqrt{2^{2}+(0)^{2}}d𝜃 \\ & =∫_{2𝜋/3𝜋/6}2\,d𝜃 \\ & =2∫_{2𝜋/3𝜋/6}d𝜃 \\ & =2𝜃\,_{2𝜋/3𝜋/6} \\ & =2(\frac{2𝜋}{3}−\frac{𝜋}{6}) \\ & =𝜋\end{aligned}
 
 
 $$
@@ -61,7 +61,7 @@ The arc length $L$ of a polar curve $r=r(\theta)$ is given by
 $$
 
 
-L = \int_{\theta_1}^{\theta_2} \sqrt{r^2 +\left(\frac{\textrm{d}r}{\textrm{d}\theta}\right)^2 }\,\textrm{d}\theta.
+L = \int_{\theta_1}^{\theta_2} \sqrt{r^2 +\left(\frac{\text{d}r}{\text{d}\theta}\right)^2 }\,\text{d}\theta.
 
 
 $$
@@ -71,7 +71,7 @@ Since $r=3-\sin(7\theta),$ we have
 $$
 
 
-\dfrac{\textrm{d}r}{\textrm{d}\theta} =-7\cos(7\theta)
+\dfrac{\text{d}r}{\text{d}\theta} =-7\cos(7\theta)
 
 
 $$
@@ -81,7 +81,7 @@ Therefore, the arc length is
 $$
 
 
-\begin{aligned}𝐿 & =∫_{𝜃_{2}𝜃_{1}}^{}\sqrt{√𝑟^{2}+(\frac{d𝑟}{d𝜃})^{2}}\,d𝜃 \\ & =∫_{𝜋0}^{}\sqrt{√(3−sin⁡(7𝜃))^{2}+(−7cos⁡(7𝜃))^{2}}\,d𝜃 \\ & =∫_{𝜋0}^{}\sqrt{√9−6sin⁡(7𝜃)+sin^{2}⁡(7𝜃)+49cos^{2}⁡(7𝜃)}\,d𝜃 \\ & =∫_{𝜋0}^{}\sqrt{√9−6sin⁡(7𝜃)+sin^{2}⁡(7𝜃)+cos^{2}⁡(7𝜃)+48cos^{2}⁡(7𝜃)}\,d𝜃 \\ & =∫_{𝜋0}^{}\sqrt{√9−6sin⁡(7𝜃)+1+48cos^{2}⁡(7𝜃)}\,d𝜃 \\ & =∫_{𝜋0}^{}\sqrt{√10−6sin⁡(7𝜃)+48cos^{2}⁡(7𝜃)}\,d𝜃\,.\end{aligned}
+\begin{aligned}𝐿 & =∫_{𝜃_{2}𝜃_{1}}^{}\sqrt{𝑟^{2}+(\frac{d𝑟}{d𝜃})^{2}}\,d𝜃 \\ & =∫_{𝜋0}\sqrt{(3−sin⁡(7𝜃))^{2}+(−7cos⁡(7𝜃))^{2}}\,d𝜃 \\ & =∫_{𝜋0}\sqrt{9−6sin⁡(7𝜃)+sin^{2}⁡(7𝜃)+49cos^{2}⁡(7𝜃)}\,d𝜃 \\ & =∫_{𝜋0}\sqrt{9−6sin⁡(7𝜃)+sin^{2}⁡(7𝜃)+cos^{2}⁡(7𝜃)+48cos^{2}⁡(7𝜃)}\,d𝜃 \\ & =∫_{𝜋0}\sqrt{9−6sin⁡(7𝜃)+1+48cos^{2}⁡(7𝜃)}\,d𝜃 \\ & =∫_{𝜋0}\sqrt{10−6sin⁡(7𝜃)+48cos^{2}⁡(7𝜃)}\,d𝜃\,.\end{aligned}
 
 
 $$
@@ -101,7 +101,7 @@ The arc length $L$ of a polar curve $r=r(\theta)$ is given by
 $$
 
 
-L = \int_{\theta_1}^{\theta_2} \sqrt{r^2 +\left(\frac{\textrm{d}r}{\textrm{d}\theta}\right)^2 }\,\textrm{d}\theta.
+L = \int_{\theta_1}^{\theta_2} \sqrt{r^2 +\left(\frac{\text{d}r}{\text{d}\theta}\right)^2 }\,\text{d}\theta.
 
 
 $$
@@ -111,7 +111,7 @@ Since $r=2(1-\cos\theta),$ we have
 $$
 
 
-\dfrac{\textrm{d}r}{\textrm{d}\theta} = 2\sin\theta.
+\dfrac{\text{d}r}{\text{d}\theta} = 2\sin\theta.
 
 
 $$
@@ -121,7 +121,7 @@ Therefore, the arc length is
 $$
 
 
-\begin{aligned}𝐿 & =∫_{𝜃_{2}𝜃_{1}}^{}\sqrt{√𝑟^{2}+(\frac{d𝑟}{d𝜃})^{2}}\,d𝜃 \\ & =∫_{𝜋0}^{}\sqrt{√(2−2cos⁡𝜃)^{2}+(2sin⁡𝜃)^{2}}\,d𝜃 \\ & =∫_{𝜋0}^{}\sqrt{√4−8cos⁡𝜃+4cos^{2}⁡𝜃+4sin^{2}⁡𝜃}\,d𝜃 \\ & =∫_{𝜋0}^{}\sqrt{√4−8cos⁡𝜃+4}\,d𝜃 \\ & =∫_{𝜋0}^{}\sqrt{√8−8cos⁡𝜃}\,d𝜃 \\ & =2\sqrt{√2}∫_{𝜋0}^{}\sqrt{√1−cos⁡𝜃}\,d𝜃.\end{aligned}
+\begin{aligned}𝐿 & =∫_{𝜃_{2}𝜃_{1}}^{}\sqrt{𝑟^{2}+(\frac{d𝑟}{d𝜃})^{2}}\,d𝜃 \\ & =∫_{𝜋0}\sqrt{(2−2cos⁡𝜃)^{2}+(2sin⁡𝜃)^{2}}\,d𝜃 \\ & =∫_{𝜋0}\sqrt{4−8cos⁡𝜃+4cos^{2}⁡𝜃+4sin^{2}⁡𝜃}\,d𝜃 \\ & =∫_{𝜋0}\sqrt{4−8cos⁡𝜃+4}\,d𝜃 \\ & =∫_{𝜋0}\sqrt{8−8cos⁡𝜃}\,d𝜃 \\ & =2\sqrt{2}∫_{𝜋0}\sqrt{1−cos⁡𝜃}\,d𝜃.\end{aligned}
 
 
 $$
@@ -131,7 +131,7 @@ We now use the half-angle formula $1-\cos\theta =2\sin^2\left(\dfrac{\theta}{2}\
 $$
 
 
-\begin{aligned}𝐿 & =2\sqrt{√2}∫_{𝜋0}^{}\sqrt{√2sin^{2}⁡(\frac{𝜃}{2})}\,d𝜃 \\ & =2\sqrt{√2}⋅\sqrt{√2}⋅∫_{𝜋0}^{}sin⁡(\frac{𝜃}{2})\,d𝜃 \\ & =−4⋅2(cos⁡(\frac{𝜃}{2}))_{𝜋0}^{} \\ & =−8(cos⁡(\frac{𝜋}{2})−cos⁡0) \\ & =−8(0−1) \\ & =8.\end{aligned}
+\begin{aligned}𝐿 & =2\sqrt{2}∫_{𝜋0}\sqrt{2sin^{2}⁡(\frac{𝜃}{2})}\,d𝜃 \\ & =2\sqrt{2}⋅\sqrt{2}⋅∫_{𝜋0}sin⁡(\frac{𝜃}{2})\,d𝜃 \\ & =−4⋅2(cos⁡(\frac{𝜃}{2}))_{𝜋0} \\ & =−8(cos⁡(\frac{𝜋}{2})−cos⁡0) \\ & =−8(0−1) \\ & =8.\end{aligned}
 
 
 $$
@@ -143,7 +143,7 @@ We've been using the following formula to compute the arc length bounded by a po
 $$
 
 
-L = \int_{\theta_1}^{\theta_2} \sqrt{ r^2 + \left( \frac{\textrm{d}r}{\textrm{d}\theta} \right)^2} \:\textrm{d}\theta
+L = \int_{\theta_1}^{\theta_2} \sqrt{ r^2 + \left( \frac{\text{d}r}{\text{d}\theta} \right)^2} \:\text{d}\theta
 
 
 $$
@@ -153,7 +153,7 @@ But where does this formula come from? Let's start with the familiar formula for
 $$
 
 
-L = \int_{t_1}^{t_2} \sqrt{ \left(\frac{\textrm{d}x}{\textrm{d}t}\right)^2 +\left(\frac{\textrm{d}y}{\textrm{d}t}\right)^2 }\textrm{d}t
+L = \int_{t_1}^{t_2} \sqrt{ \left(\frac{\text{d}x}{\text{d}t}\right)^2 +\left(\frac{\text{d}y}{\text{d}t}\right)^2 }\text{d}t
 
 
 $$
@@ -173,7 +173,7 @@ Writing the arc length formula for a parametric function with parameter $\theta,
 $$
 
 
-L = \int_{\theta_1}^{\theta_2} \sqrt{ \left(\frac{\textrm{d}x}{\textrm{d}\theta}\right)^2 +\left(\frac{\textrm{d}y}{\textrm{d}\theta}\right)^2 }\textrm{d}\theta .
+L = \int_{\theta_1}^{\theta_2} \sqrt{ \left(\frac{\text{d}x}{\text{d}\theta}\right)^2 +\left(\frac{\text{d}y}{\text{d}\theta}\right)^2 }\text{d}\theta .
 
 
 $$
@@ -203,7 +203,7 @@ Substituting the above into our expression for $L,$ we reach the desired formula
 $$
 
 
-\begin{aligned}𝐿 & =∫_{𝜃_{2}𝜃_{1}}^{}\sqrt{√(\frac{d𝑥}{d𝜃})^{2}+(\frac{d𝑦}{d𝜃})^{2}}\,d𝜃 \\ & =∫_{𝜃_{2}𝜃_{1}}^{}\sqrt{√(\frac{d𝑟}{d𝜃}cos⁡𝜃−𝑟sin⁡𝜃)^{2}+(\frac{d𝑟}{d𝜃}sin⁡𝜃+𝑟cos⁡𝜃)^{2}}\,d𝜃 \\ & =∫_{𝜃_{2}𝜃_{1}}^{}\sqrt{√(\frac{d𝑟}{d𝜃})^{2}cos^{2}⁡𝜃+𝑟^{2}sin^{2}⁡𝜃+(\frac{d𝑟}{d𝜃})^{2}sin^{2}⁡𝜃+𝑟^{2}cos^{2}⁡𝜃}\,d𝜃 \\ & =∫_{𝜃_{2}𝜃_{1}}^{}\sqrt{√𝑟^{2}(cos^{2}⁡𝜃+sin^{2}⁡𝜃)+(\frac{d𝑟}{d𝜃})^{2}(cos^{2}⁡𝜃+sin^{2}⁡𝜃)}\,d𝜃 \\ & =∫_{𝜃_{2}𝜃_{1}}^{}\sqrt{√𝑟^{2}+(\frac{d𝑟}{d𝜃})^{2}}\,d𝜃.\end{aligned}
+\begin{aligned}𝐿 & =∫_{𝜃_{2}𝜃_{1}}^{}\sqrt{(\frac{d𝑥}{d𝜃})^{2}+(\frac{d𝑦}{d𝜃})^{2}}\,d𝜃 \\ & =∫_{𝜃_{2}𝜃_{1}}^{}\sqrt{(\frac{d𝑟}{d𝜃}cos⁡𝜃−𝑟sin⁡𝜃)^{2}+(\frac{d𝑟}{d𝜃}sin⁡𝜃+𝑟cos⁡𝜃)^{2}}\,d𝜃 \\ & =∫_{𝜃_{2}𝜃_{1}}^{}\sqrt{(\frac{d𝑟}{d𝜃})^{2}cos^{2}⁡𝜃+𝑟^{2}sin^{2}⁡𝜃+(\frac{d𝑟}{d𝜃})^{2}sin^{2}⁡𝜃+𝑟^{2}cos^{2}⁡𝜃}\,d𝜃 \\ & =∫_{𝜃_{2}𝜃_{1}}^{}\sqrt{𝑟^{2}(cos^{2}⁡𝜃+sin^{2}⁡𝜃)+(\frac{d𝑟}{d𝜃})^{2}(cos^{2}⁡𝜃+sin^{2}⁡𝜃)}\,d𝜃 \\ & =∫_{𝜃_{2}𝜃_{1}}^{}\sqrt{𝑟^{2}+(\frac{d𝑟}{d𝜃})^{2}}\,d𝜃.\end{aligned}
 
 
 $$

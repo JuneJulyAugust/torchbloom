@@ -23,7 +23,7 @@ $$
 
 
 
-\begin{aligned}𝐚 & =\sqrt{√(2)^{2}+(−1)^{2}+(3)^{2}} \\ & =\sqrt{√4+1+9} \\ & =\sqrt{√14}\end{aligned}
+\begin{aligned}𝐚 & =\sqrt{(2)^{2}+(−1)^{2}+(3)^{2}} \\ & =\sqrt{4+1+9} \\ & =\sqrt{14}\end{aligned}
 
 
 
@@ -71,7 +71,7 @@ $$
 
 
 
-\begin{aligned}|\,𝐚\,| & =\sqrt{√𝑎_{2𝑥}^{}+𝑎_{2𝑦}^{}+𝑎_{2𝑧}^{}} \\ & =\sqrt{√2^{2}+(−3)^{2}+(−7)^{2}} \\ & =\sqrt{√4+9+49} \\ & =\sqrt{√62}.\end{aligned}
+\begin{aligned}|\,𝐚\,| & =\sqrt{𝑎_{2𝑥}+𝑎_{2𝑦}+𝑎_{2𝑧}} \\ & =\sqrt{2^{2}+(−3)^{2}+(−7)^{2}} \\ & =\sqrt{4+9+49} \\ & =\sqrt{62}.\end{aligned}
 
 
 
@@ -103,7 +103,7 @@ $$
 
 
 
-\begin{aligned}|\,𝐚\,| & =\sqrt{√𝑎_{2𝑥}^{}+𝑎_{2𝑦}^{}+𝑎_{2𝑧}^{}} \\ & =\sqrt{√4^{2}+(−5)^{2}+1^{2}} \\ & =\sqrt{√16+25+1} \\ & =\sqrt{√42}.\end{aligned}
+\begin{aligned}|\,𝐚\,| & =\sqrt{𝑎_{2𝑥}+𝑎_{2𝑦}+𝑎_{2𝑧}} \\ & =\sqrt{4^{2}+(−5)^{2}+1^{2}} \\ & =\sqrt{16+25+1} \\ & =\sqrt{42}.\end{aligned}
 
 
 
@@ -115,7 +115,7 @@ $$
 
 
 
-\begin{aligned}𝐮 & =\frac{𝐚}{|\,𝐚\,|} \\ & =\frac{1}{\sqrt{√42}}𝐚 \\ & =\frac{1}{\sqrt{√42}}⋅\begin{aligned}4 \\ −5 \\ 1\end{aligned} \\ & =\begin{aligned}4/\sqrt{√42} \\ −5/\sqrt{√42} \\ 1/\sqrt{√42}\end{aligned}\end{aligned}
+\begin{aligned}𝐮 & =\frac{𝐚}{|\,𝐚\,|} \\ & =\frac{1}{\sqrt{42}}𝐚 \\ & =\frac{1}{\sqrt{42}}⋅\begin{matrix}4 \\ −5 \\ 1\end{matrix} \\ & =\begin{matrix}4/\sqrt{42} \\ −5/\sqrt{42} \\ 1/\sqrt{42}\end{matrix}\end{aligned}
 
 
 
@@ -159,7 +159,7 @@ $$
 
 
 
-\begin{aligned}|\overset{𝐴𝐵}{}| & =\sqrt{√1^{2}+(−3)^{2}+1^{2}} \\ & =\sqrt{√1+9+1} \\ & =\sqrt{√11}.\end{aligned}
+\begin{aligned}|\overset{𝐴𝐵}{}| & =\sqrt{1^{2}+(−3)^{2}+1^{2}} \\ & =\sqrt{1+9+1} \\ & =\sqrt{11}.\end{aligned}
 
 
 

@@ -65,7 +65,7 @@ For this equation to be satisfied for some value of $\theta,$ we require that th
 $$
 
 
-y'(\theta) = 0\qquad \textrm{and} \qquad x'(\theta) \neq 0.
+y'(\theta) = 0\qquad \text{and} \qquad x'(\theta) \neq 0.
 
 
 $$
@@ -191,7 +191,7 @@ which is equivalent to
 $$
 
 
-y'(\theta) = 0 \qquad \textrm{and}\qquad x'(\theta) \neq 0.
+y'(\theta) = 0 \qquad \text{and}\qquad x'(\theta) \neq 0.
 
 
 $$
@@ -275,7 +275,7 @@ Therefore, to find the values of $\theta$ at these points, we must find the poin
 $$
 
 
-x'(\theta) = 0\qquad \textrm{and} \qquad y'(\theta) \neq 0.
+x'(\theta) = 0\qquad \text{and} \qquad y'(\theta) \neq 0.
 
 
 $$
@@ -399,7 +399,7 @@ is infinite. This means that
 $$
 
 
-x'(\theta) = 0 \qquad \textrm{and}\qquad y'(\theta) \neq 0.
+x'(\theta) = 0 \qquad \text{and}\qquad y'(\theta) \neq 0.
 
 
 $$

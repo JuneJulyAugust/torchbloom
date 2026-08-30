@@ -38,13 +38,13 @@ $$
 
 $$
 
-Remember that logarithms are only defined for positive inputs $x\gt 0,$ so we must have $c>0.$ Otherwise, the limit does not exist $\textrm{(DNE}).$
+Remember that logarithms are only defined for positive inputs $x\gt 0,$ so we must have $c>0.$ Otherwise, the limit does not exist $\text{(DNE}).$
 
 ### Example: Evaluating Using Direct Substitution
 
 #### Question
 
-Find $\lim_\limits{x \to 4}\log_2 (x+4).$
+Find $\lim\limits_{x \to 4}\log_2 (x+4).$
 
 #### Explanation
 
@@ -91,7 +91,7 @@ Also, note that
 $$
 
 
-\lim_{x\to0^-}\log_2{x} = \textrm{DNE},\qquad\qquad \lim_{x\to0}\log_2{x} = \textrm{DNE}.
+\lim_{x\to0^-}\log_2{x} = \text{DNE},\qquad\qquad \lim_{x\to0}\log_2{x} = \text{DNE}.
 
 
 $$
@@ -124,7 +124,7 @@ $$
 
 #### Question
 
-Calculate $\lim_\limits{x \to (-2)^{-}} \ln (x+2)$ and $\lim_\limits{x \to (-2)^{+}} \ln (x+2).$
+Calculate $\lim\limits_{x \to (-2)^{-}} \ln (x+2)$ and $\lim\limits_{x \to (-2)^{+}} \ln (x+2).$
 
 #### Explanation
 
@@ -137,7 +137,7 @@ The function is not defined for $x\leq -2.$ Therefore,
 $$
 
 
-\lim_\limits{x \to (-2)^{-}} \ln (x+2) = \textrm{DNE}.
+\lim\limits_{x \to (-2)^{-}} \ln (x+2) = \text{DNE}.
 
 
 $$
@@ -147,7 +147,7 @@ However, the function is defined for $x\gt -2.$ Therefore,
 $$
 
 
-\lim_\limits{x \to (-2)^{+}} \ln (x+2) = -\infty.
+\lim\limits_{x \to (-2)^{+}} \ln (x+2) = -\infty.
 
 
 $$
@@ -156,7 +156,7 @@ $$
 
 #### Question
 
-Calculate $\lim_\limits{x \to 2} \ln (x-2).$
+Calculate $\lim\limits_{x \to 2} \ln (x-2).$
 
 #### Explanation
 
@@ -169,7 +169,7 @@ The function is not defined for $x\leq 2.$ Therefore,
 $$
 
 
-\lim_\limits{x \to 2^{-}} \ln (x-2) = \textrm{DNE}.
+\lim\limits_{x \to 2^{-}} \ln (x-2) = \text{DNE}.
 
 
 $$
@@ -179,7 +179,7 @@ However, the function is defined for $x\gt 2.$ Therefore,
 $$
 
 
-\lim_\limits{x \to 2^{+}} \ln (x-2) = -\infty.
+\lim\limits_{x \to 2^{+}} \ln (x-2) = -\infty.
 
 
 $$
@@ -189,7 +189,7 @@ Since the left and right-sided limits are not equal, we have
 $$
 
 
-\lim_\limits{x \to 2} \ln (x-2) = \textrm{DNE}.
+\lim\limits_{x \to 2} \ln (x-2) = \text{DNE}.
 
 
 $$

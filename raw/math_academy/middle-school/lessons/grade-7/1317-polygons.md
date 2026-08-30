@@ -87,9 +87,9 @@ A polygon is **** if its boundary does not intersect itself. Otherwise, the poly
 
 In our case, the polygon is
 
-- $\boxed{\color{blue}\textrm{simple}}$ since the boundary doesn't intersect itself, and
+- $\boxed{\color{blue}\text{simple}}$ since the boundary doesn't intersect itself, and
 
-- $\boxed{\color{blue}\textrm{concave}}$ since it has an angle pointing inwards.
+- $\boxed{\color{blue}\text{concave}}$ since it has an angle pointing inwards.
 
 ### The Parts of a Polygon
 

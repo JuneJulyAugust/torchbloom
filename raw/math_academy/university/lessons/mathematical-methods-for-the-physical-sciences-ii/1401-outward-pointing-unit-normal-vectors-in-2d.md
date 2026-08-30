@@ -59,7 +59,7 @@ Differentiating the expression for $\mathbf r(t),$ we get
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑡) & =[\begin{aligned}𝑥^{′}(𝑡) \\ 𝑦^{′}(𝑡)\end{aligned}]=[\begin{aligned}−3sin⁡𝑡 \\ 2cos⁡𝑡\end{aligned}].\end{aligned}
+\begin{aligned}𝐫^{′}(𝑡) & =[\begin{matrix}𝑥^{′}(𝑡) \\ 𝑦^{′}(𝑡)\end{matrix}]=[\begin{matrix}−3sin⁡𝑡 \\ 2cos⁡𝑡\end{matrix}].\end{aligned}
 
 
 $$
@@ -113,7 +113,7 @@ Furthermore, the magnitude of the vector found in step 2 equals the magnitude of
 $$
 
 
-\begin{aligned}𝐧 & =\frac{\overset{𝐧}{~}(𝑡)}{||𝐫^{′}(𝑡)||} \\ & =\frac{1}{||𝐫^{′}(𝑡)||}[\begin{aligned}2cos⁡𝑡 \\ 3sin⁡𝑡\end{aligned}] \\ & =\frac{2cos⁡𝑡\,𝐢+3sin⁡𝑡\,𝐣}{||𝐫^{′}(𝑡)||} \\ & =\frac{2cos⁡𝑡\,𝐢+3sin⁡𝑡\,𝐣}{\sqrt{√9sin^{2}⁡𝑡+4cos^{2}⁡𝑡}}\end{aligned}
+\begin{aligned}𝐧 & =\frac{\overset{𝐧}{~}(𝑡)}{||𝐫^{′}(𝑡)||} \\ & =\frac{1}{||𝐫^{′}(𝑡)||}[\begin{matrix}2cos⁡𝑡 \\ 3sin⁡𝑡\end{matrix}] \\ & =\frac{2cos⁡𝑡\,𝐢+3sin⁡𝑡\,𝐣}{||𝐫^{′}(𝑡)||} \\ & =\frac{2cos⁡𝑡\,𝐢+3sin⁡𝑡\,𝐣}{\sqrt{9sin^{2}⁡𝑡+4cos^{2}⁡𝑡}}\end{aligned}
 
 
 $$
@@ -157,7 +157,7 @@ Differentiating the expression for $\mathbf r(t),$ we get
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑡) & =[\begin{aligned}𝑥^{′}(𝑡) \\ 𝑦^{′}(𝑡)\end{aligned}]=[\begin{aligned}−\sqrt{√2}sin⁡𝑡 \\ \sqrt{√2}cos⁡𝑡\end{aligned}].\end{aligned}
+\begin{aligned}𝐫^{′}(𝑡) & =[\begin{matrix}𝑥^{′}(𝑡) \\ 𝑦^{′}(𝑡)\end{matrix}]=[\begin{matrix}−\sqrt{2}sin⁡𝑡 \\ \sqrt{2}cos⁡𝑡\end{matrix}].\end{aligned}
 
 
 $$
@@ -203,7 +203,7 @@ and since for our curve $x(t) = \sqrt{2}\cos{t}$ and $y(t) = \sqrt{2}\sin{t},$ i
 $$
 
 
-\begin{aligned}𝐧 & =\frac{1}{||𝐫^{′}(𝑡)||}[\begin{aligned}\sqrt{√2}cos⁡𝑡 \\ \sqrt{√2}sin⁡𝑡\end{aligned}] \\ & =\frac{1}{\sqrt{√2}}[\begin{aligned}\sqrt{√2}cos⁡𝑡 \\ \sqrt{√2}sin⁡𝑡\end{aligned}] \\ & =\frac{1}{\sqrt{√2}}[\begin{aligned}𝑥 \\ 𝑦\end{aligned}].\end{aligned}
+\begin{aligned}𝐧 & =\frac{1}{||𝐫^{′}(𝑡)||}[\begin{matrix}\sqrt{2}cos⁡𝑡 \\ \sqrt{2}sin⁡𝑡\end{matrix}] \\ & =\frac{1}{\sqrt{2}}[\begin{matrix}\sqrt{2}cos⁡𝑡 \\ \sqrt{2}sin⁡𝑡\end{matrix}] \\ & =\frac{1}{\sqrt{2}}[\begin{matrix}𝑥 \\ 𝑦\end{matrix}].\end{aligned}
 
 
 $$
@@ -247,7 +247,7 @@ Differentiating the expression for $\mathbf r(t),$ we get
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑡) & =[\begin{aligned}𝑥^{′}(𝑡) \\ 𝑦^{′}(𝑡)\end{aligned}]=[\begin{aligned}12cos⁡𝑡 \\ −9sin⁡𝑡\end{aligned}].\end{aligned}
+\begin{aligned}𝐫^{′}(𝑡) & =[\begin{matrix}𝑥^{′}(𝑡) \\ 𝑦^{′}(𝑡)\end{matrix}]=[\begin{matrix}12cos⁡𝑡 \\ −9sin⁡𝑡\end{matrix}].\end{aligned}
 
 
 $$
@@ -281,7 +281,7 @@ Note that the magnitude of the vector found in step 2 equals the magnitude of $\
 $$
 
 
-\begin{aligned}𝐧 & =\frac{1}{||𝐫^{′}(𝑡)||}[\begin{aligned}9sin⁡𝑡 \\ 12cos⁡𝑡\end{aligned}]=\frac{9sin⁡𝑡\,𝐢+12cos⁡𝑡\,𝐣}{\sqrt{√144cos^{2}⁡𝑡+81sin^{2}⁡𝑡}}.\end{aligned}
+\begin{aligned}𝐧 & =\frac{1}{||𝐫^{′}(𝑡)||}[\begin{matrix}9sin⁡𝑡 \\ 12cos⁡𝑡\end{matrix}]=\frac{9sin⁡𝑡\,𝐢+12cos⁡𝑡\,𝐣}{\sqrt{144cos^{2}⁡𝑡+81sin^{2}⁡𝑡}}.\end{aligned}
 
 
 $$
@@ -319,7 +319,7 @@ Differentiating the expression for $\mathbf r(t),$ we get
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑡) & =[\begin{aligned}𝑥^{′}(𝑡) \\ 𝑦^{′}(𝑡)\end{aligned}].\end{aligned}
+\begin{aligned}𝐫^{′}(𝑡) & =[\begin{matrix}𝑥^{′}(𝑡) \\ 𝑦^{′}(𝑡)\end{matrix}].\end{aligned}
 
 
 $$
@@ -363,7 +363,7 @@ Furthermore, the magnitude of the vector found in step 2 equals the magnitude of
 $$
 
 
-\begin{aligned}𝐧 & =\frac{1}{||𝐫^{′}(𝑡)||}[\begin{aligned}𝑦^{′}(𝑡) \\ −𝑥^{′}(𝑡)\end{aligned}] \\ & =\frac{𝑦^{′}(𝑡)}{||𝐫^{′}(𝑡)||}\,𝐢−\frac{𝑥^{′}(𝑡)}{||𝐫^{′}(𝑡)||}\,𝐣 \\ & =\frac{𝑦^{′}(𝑡)\,𝐢−𝑥^{′}(𝑡)\,𝐣}{\sqrt{√(𝑥^{′}(𝑡))^{2}+(𝑦^{′}(𝑡))^{2}}}\end{aligned}
+\begin{aligned}𝐧 & =\frac{1}{||𝐫^{′}(𝑡)||}[\begin{matrix}𝑦^{′}(𝑡) \\ −𝑥^{′}(𝑡)\end{matrix}] \\ & =\frac{𝑦^{′}(𝑡)}{||𝐫^{′}(𝑡)||}\,𝐢−\frac{𝑥^{′}(𝑡)}{||𝐫^{′}(𝑡)||}\,𝐣 \\ & =\frac{𝑦^{′}(𝑡)\,𝐢−𝑥^{′}(𝑡)\,𝐣}{\sqrt{(𝑥^{′}(𝑡))^{2}+(𝑦^{′}(𝑡))^{2}}}\end{aligned}
 
 
 $$

@@ -153,7 +153,7 @@ Applying this function to the point $P$ and equating the result to $P',$ we get
 $$
 
 
-\begin{aligned}(𝑘⋅1,𝑘⋅2)=(−2,−4)\,⟹\,\begin{aligned}𝑘=−2 \\ 2𝑘=−4.\end{aligned}\end{aligned}
+\begin{aligned}(𝑘⋅1,𝑘⋅2)=(−2,−4)\,⟹\,\begin{matrix}𝑘=−2 \\ 2𝑘=−4.\end{matrix}\end{aligned}
 
 
 $$

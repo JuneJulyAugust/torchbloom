@@ -35,11 +35,11 @@ So, the acceleration of the dog is
 
 #### Question
 
-If the speed of an object is measured in $\textrm{mm/min},$ what are the units of its acceleration?
+If the speed of an object is measured in $\text{mm/min},$ what are the units of its acceleration?
 
 #### Explanation
 
-We can find the acceleration of an object by computing the slope of its speed-time graph. So, let's draw an example of a speed-time graph where the speed is measured in $\textrm{mm/min}$ and the time is measured in $\textrm{min}.$
+We can find the acceleration of an object by computing the slope of its speed-time graph. So, let's draw an example of a speed-time graph where the speed is measured in $\text{mm/min}$ and the time is measured in $\text{min}.$
 
 ![Instructional graphic](../../../lesson-assets/mathematical-foundations-i/topic-2327/144671b4993f2ecb.png)
 
@@ -48,7 +48,7 @@ In this case, the slope is computed as
 $$
 
 
-m=\dfrac{\textrm{change in speed}}{\textrm{change in time}},
+m=\dfrac{\text{change in speed}}{\text{change in time}},
 
 
 $$
@@ -58,26 +58,26 @@ and so the units of the slope are as follows:
 $$
 
 
-\dfrac{\textrm{units of speed}}{\textrm{units of time}} = \dfrac{\textrm{mm/min}}{\textrm{min}} = \dfrac{\textrm{mm}}{\textrm{min}} \cdot \dfrac{1}{\textrm{min}} = \dfrac{\textrm{mm}}{\textrm{min}^2}
+\dfrac{\text{units of speed}}{\text{units of time}} = \dfrac{\text{mm/min}}{\text{min}} = \dfrac{\text{mm}}{\text{min}} \cdot \dfrac{1}{\text{min}} = \dfrac{\text{mm}}{\text{min}^2}
 
 
 $$
 
-Therefore, the units of acceleration are $\dfrac{\textrm{mm}}{\textrm{min}^2}.$
+Therefore, the units of acceleration are $\dfrac{\text{mm}}{\text{min}^2}.$
 
 ### Example: Computing Acceleration
 
 #### Question
 
-A fly accelerates with constant acceleration from $20\, \textrm{m/min}$ to $100\, \textrm{m/min}$ in $2$ minutes. Find its acceleration.
+A fly accelerates with constant acceleration from $20\, \text{m/min}$ to $100\, \text{m/min}$ in $2$ minutes. Find its acceleration.
 
 #### Explanation
 
 We can find the acceleration of an object by computing the slope of its speed-time graph. To plot a speed-time graph, we need two points.
 
-- The fly starts at a speed of $20 \, \textrm{m/min}.$ This corresponds to the point $(0,20).$
+- The fly starts at a speed of $20 \, \text{m/min}.$ This corresponds to the point $(0,20).$
 
-- In $2$ minutes, the fly has reached a speed of $100 \, \textrm{m/min}.$ This corresponds to the point $(2,100).$
+- In $2$ minutes, the fly has reached a speed of $100 \, \text{m/min}.$ This corresponds to the point $(2,100).$
 
 We plot the two points and draw a line through them as follows:
 
@@ -93,7 +93,7 @@ $$
 
 $$
 
-Therefore, the acceleration of the fly is $40 \, \textrm{m/min}^2.$
+Therefore, the acceleration of the fly is $40 \, \text{m/min}^2.$
 
 ### Deceleration and Constant Speed
 
@@ -121,23 +121,23 @@ The speed-time graph shown below represents the motion of a train. At what times
 
 The train is decelerating when its acceleration is negative. In a speed-time graph, the acceleration is given by the slope of the line. So, we need to find the times for which the slope is negative.
 
-We see from the graph that the slope is negative from $t = 15\,\textrm{s}$ to $t = 40\,\textrm{s}.$ Therefore, the train is decelerating in this time interval.
+We see from the graph that the slope is negative from $t = 15\,\text{s}$ to $t = 40\,\text{s}.$ Therefore, the train is decelerating in this time interval.
 
 ### Example: Constructing the Speed-Time Graph for a Real-Life Scenario
 
 #### Question
 
-A car accelerates from rest with a constant acceleration of $8 \, \textrm{m/s}^2$ for the first $10$ seconds of its motion. Then the car decelerates with a constant deceleration of $16 \, \textrm{m/s}^2$ until it stops. What graph represents the described motion?
+A car accelerates from rest with a constant acceleration of $8 \, \text{m/s}^2$ for the first $10$ seconds of its motion. Then the car decelerates with a constant deceleration of $16 \, \text{m/s}^2$ until it stops. What graph represents the described motion?
 
 #### Explanation
 
-We start the first line from the point $(0,0),$ since the car is starting from rest. Then, because the acceleration is $8 \, \textrm{m/s}^2,$ we draw a line with slope $8.$
+We start the first line from the point $(0,0),$ since the car is starting from rest. Then, because the acceleration is $8 \, \text{m/s}^2,$ we draw a line with slope $8.$
 
-However, because the car is only accelerating for the first $10$ seconds, we stop the line at $t=10.$ At this time, the car's speed has increased by $8 \cdot 10 = 80 \textrm{m/s}.$ So, the first line segment goes from $(0,0)$ to $(10,80).$
+However, because the car is only accelerating for the first $10$ seconds, we stop the line at $t=10.$ At this time, the car's speed has increased by $8 \cdot 10 = 80 \text{m/s}.$ So, the first line segment goes from $(0,0)$ to $(10,80).$
 
 ![Instructional graphic](../../../lesson-assets/mathematical-foundations-i/topic-2327/8ee1c0d06ba340cb.png)
 
-After $t=10$, the car has a deceleration of $16 \, \textrm{m/s}^2,$ so the slope of the second line segment is $-16.$ The second line segment stops when the car's speed returns to $0.$ In order to figure out when this is, we need to find the equation for the second line segment.
+After $t=10$, the car has a deceleration of $16 \, \text{m/s}^2,$ so the slope of the second line segment is $-16.$ The second line segment stops when the car's speed returns to $0.$ In order to figure out when this is, we need to find the equation for the second line segment.
 
 Since the second line segment passes through the point $(10, 80)$ and has a slope of $-16,$ we can use point-slope form to write the equation of the line:
 

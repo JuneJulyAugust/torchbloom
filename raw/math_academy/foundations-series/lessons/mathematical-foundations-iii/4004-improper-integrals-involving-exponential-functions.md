@@ -19,7 +19,7 @@ For example, let's consider the following integral:
 $$
 
 
-\int_{-\infty}^{1} e^{x} \,\textrm{d}x
+\int_{-\infty}^{1} e^{x} \,\text{d}x
 
 
 $$
@@ -33,7 +33,7 @@ We proceed as we would with any other improper integral. We set the lower bound 
 $$
 
 
-\begin{aligned}∫_{1−∞}^{}𝑒^{𝑥}\,d𝑥 & =\underset{𝑎→−∞}{lim}∫_{1𝑎}^{}𝑒^{𝑥}\,d𝑥 \\ & =\underset{𝑎→−∞}{lim}[𝑒^{𝑥}]_{1𝑎}^{} \\ & =\underset{𝑎→−∞}{lim}(𝑒^{1}−𝑒^{𝑎}) \\ & =\underset{𝑎→−∞}{lim}(𝑒−𝑒^{𝑎})\end{aligned}
+\begin{aligned}∫_{1−∞}𝑒^{𝑥}\,d𝑥 & =\underset{𝑎→−∞}{lim}∫_{1𝑎}𝑒^{𝑥}\,d𝑥 \\ & =\underset{𝑎→−∞}{lim}[𝑒^{𝑥}]_{1𝑎} \\ & =\underset{𝑎→−∞}{lim}(𝑒^{1}−𝑒^{𝑎}) \\ & =\underset{𝑎→−∞}{lim}(𝑒−𝑒^{𝑎})\end{aligned}
 
 
 $$
@@ -49,7 +49,7 @@ Knowing this, we can solve our integral by evaluating the limit:
 $$
 
 
-\begin{aligned}∫_{1−∞}^{}𝑒^{𝑥}\,d𝑥 & =\underset{𝑎→−∞}{lim}(𝑒−𝑒^{𝑎}) \\ & =𝑒−0 \\ & =𝑒\end{aligned}
+\begin{aligned}∫_{1−∞}𝑒^{𝑥}\,d𝑥 & =\underset{𝑎→−∞}{lim}(𝑒−𝑒^{𝑎}) \\ & =𝑒−0 \\ & =𝑒\end{aligned}
 
 
 $$
@@ -72,7 +72,7 @@ Let's see another example.
 
 #### Question
 
-Evaluate $\displaystyle \int_{-1}^\infty e^{-3x} \,\textrm{d}x.$
+Evaluate $\displaystyle \int_{-1}^\infty e^{-3x} \,\text{d}x.$
 
 #### Explanation
 
@@ -91,7 +91,7 @@ We proceed by setting the upper bound equal to some parameter $a,$ integrating a
 $$
 
 
-\begin{aligned}∫_{∞−1}^{}𝑒^{−3𝑥}\,d𝑥 & =\underset{𝑎→∞}{lim}∫_{𝑎−1}^{}𝑒^{−3𝑥}\,d𝑥 \\ & =\underset{𝑎→∞}{lim}[−\frac{𝑒^{−3𝑥}}{3}\,]_{𝑎−1}^{} \\ & =−\frac{1}{3}⋅\underset{𝑎→∞}{lim}[𝑒^{−3𝑥}]_{𝑎−1}^{} \\ & =−\frac{1}{3}⋅(\underset{𝑎→∞}{lim}𝑒^{−3𝑎}−𝑒^{3})\end{aligned}
+\begin{aligned}∫_{∞−1}𝑒^{−3𝑥}\,d𝑥 & =\underset{𝑎→∞}{lim}∫_{𝑎−1}𝑒^{−3𝑥}\,d𝑥 \\ & =\underset{𝑎→∞}{lim}[−\frac{𝑒^{−3𝑥}}{3}\,]_{𝑎−1} \\ & =−\frac{1}{3}⋅\underset{𝑎→∞}{lim}[𝑒^{−3𝑥}]_{𝑎−1} \\ & =−\frac{1}{3}⋅(\underset{𝑎→∞}{lim}𝑒^{−3𝑎}−𝑒^{3})\end{aligned}
 
 
 $$
@@ -109,7 +109,7 @@ Using this to evaluate our integral, we conclude that
 $$
 
 
-\begin{aligned}∫_{∞−1}^{}𝑒^{−3𝑥} & =−\frac{1}{3}⋅(\underset{𝑎→∞}{lim}𝑒^{−3𝑎}−𝑒^{3}) \\ & =−\frac{1}{3}⋅(0−𝑒^{3}) \\ & =\frac{𝑒^{3}}{3}.\end{aligned}
+\begin{aligned}∫_{∞−1}𝑒^{−3𝑥} & =−\frac{1}{3}⋅(\underset{𝑎→∞}{lim}𝑒^{−3𝑎}−𝑒^{3}) \\ & =−\frac{1}{3}⋅(0−𝑒^{3}) \\ & =\frac{𝑒^{3}}{3}.\end{aligned}
 
 
 $$
@@ -118,7 +118,7 @@ $$
 
 #### Question
 
-Evaluate $\displaystyle \int_{-\infty}^{0} 3\cdot 2^{2x+1} \,\textrm{d}x.$
+Evaluate $\displaystyle \int_{-\infty}^{0} 3\cdot 2^{2x+1} \,\text{d}x.$
 
 #### Explanation
 
@@ -137,7 +137,7 @@ We proceed by setting the lower bound equal to some parameter $a,$ integrating a
 $$
 
 
-\begin{aligned}∫_{0−∞}^{}3⋅2^{2𝑥+1}\,d𝑥 & =3⋅\underset{𝑎→−∞}{lim}∫_{0𝑎}^{}2^{2𝑥+1}\,d𝑥 \\ & =3⋅\underset{𝑎→−∞}{lim}[\frac{2^{2𝑥+1}}{2ln⁡(2)}]_{0𝑎}^{} \\ & =\frac{3⋅2^{1}}{2ln⁡(2)}⋅\underset{𝑎→−∞}{lim}[2^{2𝑥}]_{0𝑎}^{} \\ & =\frac{3}{ln⁡(2)}⋅\underset{𝑎→−∞}{lim}(2^{0}−2^{2𝑎}) \\ & =\frac{3}{ln⁡(2)}⋅(1−\underset{𝑎→−∞}{lim}2^{2𝑎})\end{aligned}
+\begin{aligned}∫_{0−∞}3⋅2^{2𝑥+1}\,d𝑥 & =3⋅\underset{𝑎→−∞}{lim}∫_{0𝑎}2^{2𝑥+1}\,d𝑥 \\ & =3⋅\underset{𝑎→−∞}{lim}[\frac{2^{2𝑥+1}}{2ln⁡(2)}]_{0𝑎} \\ & =\frac{3⋅2^{1}}{2ln⁡(2)}⋅\underset{𝑎→−∞}{lim}[2^{2𝑥}]_{0𝑎} \\ & =\frac{3}{ln⁡(2)}⋅\underset{𝑎→−∞}{lim}(2^{0}−2^{2𝑎}) \\ & =\frac{3}{ln⁡(2)}⋅(1−\underset{𝑎→−∞}{lim}2^{2𝑎})\end{aligned}
 
 
 $$
@@ -155,7 +155,7 @@ Using this to evaluate our integral, we conclude that
 $$
 
 
-\begin{aligned}∫_{0−∞}^{}3⋅2^{2𝑥+1}\,d𝑥 & =\frac{3}{ln⁡(2)}⋅(1−\underset{𝑎→−∞}{lim}2^{2𝑎}) \\ & =\frac{3}{ln⁡(2)}⋅(1−0) \\ & =\frac{3}{ln⁡(2)}.\end{aligned}
+\begin{aligned}∫_{0−∞}3⋅2^{2𝑥+1}\,d𝑥 & =\frac{3}{ln⁡(2)}⋅(1−\underset{𝑎→−∞}{lim}2^{2𝑎}) \\ & =\frac{3}{ln⁡(2)}⋅(1−0) \\ & =\frac{3}{ln⁡(2)}.\end{aligned}
 
 
 $$
@@ -164,7 +164,7 @@ $$
 
 #### Question
 
-Evaluate the integral $\displaystyle \int_1^\infty x^3\cdot 2^{-x^4} \,\textrm{d}x.$
+Evaluate the integral $\displaystyle \int_1^\infty x^3\cdot 2^{-x^4} \,\text{d}x.$
 
 #### Explanation
 
@@ -173,7 +173,7 @@ First, we substitute $u=x^4.$ Differentiating, we get
 $$
 
 
-\dfrac{\textrm{d}u}{\textrm{d}x}= 4x^3 \quad\Longrightarrow\quad \dfrac 14 \textrm{d}u =x^3\textrm{d}x.
+\dfrac{\text{d}u}{\text{d}x}= 4x^3 \quad\Longrightarrow\quad \dfrac 14 \text{d}u =x^3\text{d}x.
 
 
 $$
@@ -185,7 +185,7 @@ So, the integral in terms of the new variable $u$ is
 $$
 
 
-\begin{aligned}∫_{∞1}^{}𝑥^{3}⋅2^{−𝑥^{4}}\,d𝑥 & =\frac{1}{4}∫_{∞1}^{}2^{−𝑢}\,d𝑢.\end{aligned}
+\begin{aligned}∫_{∞1}𝑥^{3}⋅2^{−𝑥^{4}}\,d𝑥 & =\frac{1}{4}∫_{∞1}2^{−𝑢}\,d𝑢.\end{aligned}
 
 
 $$
@@ -195,7 +195,7 @@ Now, we proceed by setting the upper bound equal to some parameter $a,$ integrat
 $$
 
 
-\begin{aligned}∫_{∞1}^{}𝑥^{3}⋅2^{−𝑥^{4}}\,d𝑥 & =\frac{1}{4}∫_{∞1}^{}2^{−𝑢}\,d𝑢 \\ & =\frac{1}{4}⋅\underset{𝑎→∞}{lim}∫_{𝑎1}^{}2^{−𝑢}\,d𝑢 \\ & =\frac{1}{4}⋅\underset{𝑎→∞}{lim}[−\frac{2^{−𝑢}}{ln⁡2}]_{𝑎1}^{} \\ & =−\frac{1}{4ln⁡2}⋅\underset{𝑎→∞}{lim}[2^{−𝑢}]_{𝑎1}^{} \\ & =−\frac{1}{4ln⁡2}⋅(\underset{𝑎→∞}{lim}\frac{1}{2^{𝑎}}−\frac{1}{2})\end{aligned}
+\begin{aligned}∫_{∞1}𝑥^{3}⋅2^{−𝑥^{4}}\,d𝑥 & =\frac{1}{4}∫_{∞1}2^{−𝑢}\,d𝑢 \\ & =\frac{1}{4}⋅\underset{𝑎→∞}{lim}∫_{𝑎1}2^{−𝑢}\,d𝑢 \\ & =\frac{1}{4}⋅\underset{𝑎→∞}{lim}[−\frac{2^{−𝑢}}{ln⁡2}]_{𝑎1} \\ & =−\frac{1}{4ln⁡2}⋅\underset{𝑎→∞}{lim}[2^{−𝑢}]_{𝑎1} \\ & =−\frac{1}{4ln⁡2}⋅(\underset{𝑎→∞}{lim}\frac{1}{2^{𝑎}}−\frac{1}{2})\end{aligned}
 
 
 $$
@@ -213,7 +213,7 @@ Using this to evaluate our integral, we conclude that
 $$
 
 
-\begin{aligned}∫_{∞1}^{}𝑥^{3}⋅2^{−𝑥^{4}}\,d𝑥 & =−\frac{1}{4ln⁡2}⋅(\underset{𝑎→∞}{lim}\frac{1}{2^{𝑎}}−\frac{1}{2}) \\ & =−\frac{1}{4ln⁡2}⋅(0−\frac{1}{2}) \\ & =\frac{1}{8ln⁡2}.\end{aligned}
+\begin{aligned}∫_{∞1}𝑥^{3}⋅2^{−𝑥^{4}}\,d𝑥 & =−\frac{1}{4ln⁡2}⋅(\underset{𝑎→∞}{lim}\frac{1}{2^{𝑎}}−\frac{1}{2}) \\ & =−\frac{1}{4ln⁡2}⋅(0−\frac{1}{2}) \\ & =\frac{1}{8ln⁡2}.\end{aligned}
 
 
 $$

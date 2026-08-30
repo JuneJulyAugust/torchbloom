@@ -17,7 +17,7 @@ In this lesson, we introduce a method of integration that can be used in cases w
 $$
 
 
-\int u\dfrac{\textrm{d}v}{\textrm{d}x}\,\textrm{d}x= uv- \int v\dfrac{\textrm{d}u}{\textrm{d}x}\,\textrm{d}x
+\int u\dfrac{\text{d}v}{\text{d}x}\,\text{d}x= uv- \int v\dfrac{\text{d}u}{\text{d}x}\,\text{d}x
 
 
 $$
@@ -27,7 +27,7 @@ or simply
 $$
 
 
-\int uv'\,\textrm{d}x= uv- \int vu'\,\textrm{d}x.
+\int uv'\,\text{d}x= uv- \int vu'\,\text{d}x.
 
 
 $$
@@ -39,7 +39,7 @@ Let's see how to apply it to evaluate the integral
 $$
 
 
-\int xe^{2x} \textrm{d}x\,.
+\int xe^{2x} \text{d}x\,.
 
 
 $$
@@ -49,7 +49,7 @@ The idea is to call one of the factors $u,$ the other factor $v',$ and then appl
 $$
 
 
-\int \underbrace{\color{blue}x}_{\large\color{blue}u}\cdot \underbrace{\color{red}e^{2x}}_{\large\color{red}v'} \textrm{d}x
+\int \underbrace{\color{blue}x}_{\large\color{blue}u}\cdot \underbrace{\color{red}e^{2x}}_{\large\color{red}v'} \text{d}x
 
 
 $$
@@ -76,13 +76,13 @@ $$
 
 $$
 
-And we're done! Notice that integration by parts allows us to take a complicated integral $\displaystyle \int xe^{2x}\,\textrm{d}x$ and replace it with the simpler $\displaystyle \int e^{2x}\,\textrm{d}x$ plus some additional terms.
+And we're done! Notice that integration by parts allows us to take a complicated integral $\displaystyle \int xe^{2x}\,\text{d}x$ and replace it with the simpler $\displaystyle \int e^{2x}\,\text{d}x$ plus some additional terms.
 
 ### Example: Using Integration by Parts to Compute an Indefinite Integral Containing an Exponential Expression
 
 #### Question
 
-Calculate $\displaystyle \int xe^{7x} \textrm{d}x.$
+Calculate $\displaystyle \int xe^{7x} \text{d}x.$
 
 #### Explanation
 
@@ -91,12 +91,12 @@ To solve this integral, we use the by-parts formula, given by
 $$
 
 
-\int uv' \, \textrm{d}x= uv - \int vu' \, \textrm{d}x.
+\int uv' \, \text{d}x= uv - \int vu' \, \text{d}x.
 
 
 $$
 
-We need to express $\displaystyle \int xe^{7x} \textrm{d}x$ as $\displaystyle \int uv'\,\textrm{d}x.$ Therefore, we set
+We need to express $\displaystyle \int xe^{7x} \text{d}x$ as $\displaystyle \int uv'\,\text{d}x.$ Therefore, we set
 
 $$
 
@@ -139,12 +139,12 @@ To solve this integral, we use the by-parts formula, given by
 $$
 
 
-\int uv'\,\textrm{d}x= uv- \int vu'\,\textrm{d}x.
+\int uv'\,\text{d}x= uv- \int vu'\,\text{d}x.
 
 
 $$
 
-We need to express $\displaystyle \int x \cos{2x} \textrm{d}x$ as $\displaystyle \int uv'\,\textrm{d}x.$ Therefore, we set
+We need to express $\displaystyle \int x \cos{2x} \text{d}x$ as $\displaystyle \int uv'\,\text{d}x.$ Therefore, we set
 
 $$
 
@@ -178,7 +178,7 @@ $$
 
 #### Question
 
-Evaluate $\displaystyle \int_0^{\pi/5} x\sin(5x) \, \textrm{d}x.$
+Evaluate $\displaystyle \int_0^{\pi/5} x\sin(5x) \, \text{d}x.$
 
 #### Explanation
 
@@ -207,7 +207,7 @@ Finally, we evaluate the integral and get
 $$
 
 
-\begin{aligned}∫_{𝜋/50}^{}𝑥sin⁡(5𝑥)\,d𝑥 & =−\frac{1}{5}𝑥cos⁡(5𝑥)_{𝜋/50}^{}+\frac{1}{5}∫_{𝜋/50}^{}cos⁡(5𝑥)\,d𝑥 \\ & =−\frac{1}{5}𝑥cos⁡(5𝑥)_{𝜋/50}^{}+\frac{1}{5}(\frac{sin⁡(5𝑥)}{5})_{𝜋/50}^{} \\ & =[−\frac{1}{5}⋅\frac{𝜋}{5}cos⁡(𝜋)+\frac{1}{5}⋅0⋅cos⁡(0)]+[\frac{1}{25}sin⁡(𝜋)−\frac{1}{25}sin⁡(0)] \\ & =[−\frac{𝜋}{25}⋅(−1)+0]+[0−0] \\ & =\frac{𝜋}{25}.\end{aligned}
+\begin{aligned}∫_{𝜋/50}𝑥sin⁡(5𝑥)\,d𝑥 & =−\frac{1}{5}𝑥cos⁡(5𝑥)_{𝜋/50}+\frac{1}{5}∫_{𝜋/50}cos⁡(5𝑥)\,d𝑥 \\ & =−\frac{1}{5}𝑥cos⁡(5𝑥)_{𝜋/50}+\frac{1}{5}(\frac{sin⁡(5𝑥)}{5})_{𝜋/50} \\ & =[−\frac{1}{5}⋅\frac{𝜋}{5}cos⁡(𝜋)+\frac{1}{5}⋅0⋅cos⁡(0)]+[\frac{1}{25}sin⁡(𝜋)−\frac{1}{25}sin⁡(0)] \\ & =[−\frac{𝜋}{25}⋅(−1)+0]+[0−0] \\ & =\frac{𝜋}{25}.\end{aligned}
 
 
 $$
@@ -221,7 +221,7 @@ To work out the formula, we recall the product rule for differentiation,
 $$
 
 
-\dfrac{\textrm{d}}{\textrm{d}x}(uv)=u\dfrac{\textrm{d}v}{\textrm{d}x}+ v\dfrac{\textrm{d}u}{\textrm{d}x},
+\dfrac{\text{d}}{\text{d}x}(uv)=u\dfrac{\text{d}v}{\text{d}x}+ v\dfrac{\text{d}u}{\text{d}x},
 
 
 $$
@@ -233,7 +233,7 @@ If we rearrange this formula a bit, we get
 $$
 
 
-u\dfrac{\textrm{d}v}{\textrm{d}x}=\dfrac{\textrm{d}}{\textrm{d}x}(uv)- v\dfrac{\textrm{d}u}{\textrm{d}x}.
+u\dfrac{\text{d}v}{\text{d}x}=\dfrac{\text{d}}{\text{d}x}(uv)- v\dfrac{\text{d}u}{\text{d}x}.
 
 
 $$
@@ -243,17 +243,17 @@ Let's now integrate both sides of the equation:
 $$
 
 
-\int u\dfrac{\textrm{d}v}{\textrm{d}x}\,\textrm{d}x=\int\dfrac{\textrm{d}}{\textrm{d}x}(uv)\,\textrm{d}x- \int v\dfrac{\textrm{d}u}{\textrm{d}x}\,\textrm{d}x
+\int u\dfrac{\text{d}v}{\text{d}x}\,\text{d}x=\int\dfrac{\text{d}}{\text{d}x}(uv)\,\text{d}x- \int v\dfrac{\text{d}u}{\text{d}x}\,\text{d}x
 
 
 $$
 
-Using the fundamental theorem of calculus, we can use the fact that $\displaystyle\int\dfrac{\textrm{d}}{\textrm{d}x}(uv)\,\textrm{d}x=uv,$ and we arrive at the by-parts formula:
+Using the fundamental theorem of calculus, we can use the fact that $\displaystyle\int\dfrac{\text{d}}{\text{d}x}(uv)\,\text{d}x=uv,$ and we arrive at the by-parts formula:
 
 $$
 
 
-\int u\dfrac{\textrm{d}v}{\textrm{d}x}\,\textrm{d}x= uv- \int v\dfrac{\textrm{d}u}{\textrm{d}x}\,\textrm{d}x
+\int u\dfrac{\text{d}v}{\text{d}x}\,\text{d}x= uv- \int v\dfrac{\text{d}u}{\text{d}x}\,\text{d}x
 
 
 $$
@@ -265,7 +265,7 @@ Let's go back to our first example,
 $$
 
 
-\int xe^{2x} \textrm{d}x\,.
+\int xe^{2x} \text{d}x\,.
 
 
 $$

@@ -89,7 +89,7 @@ $$
 
 
 
-\begin{aligned}𝑧 & =\frac{𝑥−\overset{𝑥}{}}{𝜎} \\ & ≈\frac{17.3−15}{\sqrt{√3.25}} \\ & ≈1.28\end{aligned}
+\begin{aligned}𝑧 & =\frac{𝑥−\overset{𝑥}{𝜎} \\ & ≈\frac{17.3−15}{\sqrt{3.25}} \\ & ≈1.28\end{aligned}
 
 
 
@@ -107,7 +107,7 @@ $$
 
 
 
-\begin{aligned}𝑧 & =\frac{𝑥−\overset{𝑥}{}}{𝜎} \\ 𝑧⋅𝜎 & =𝑥−\overset{𝑥}{} \\ 𝑥 & =\overset{𝑥}{}+𝑧⋅𝜎\end{aligned}
+\begin{aligned}𝑧 & =\frac{𝑥−\overset{𝑥}{𝜎} \\ 𝑧⋅𝜎 & =𝑥−\overset{𝑥}{} \\ 𝑥 & =\overset{𝑥}{}+𝑧⋅𝜎\end{aligned}
 
 
 
@@ -229,7 +229,7 @@ $$
 
 #### Question
 
-The mean height of a group of basketball players is $178\textrm{cm}$. A player in this group is $184\textrm{cm}$ tall and his $z$-score is $z = 1.5$. Find the standard deviation of the basketball players' heights.
+The mean height of a group of basketball players is $178\text{cm}$. A player in this group is $184\text{cm}$ tall and his $z$-score is $z = 1.5$. Find the standard deviation of the basketball players' heights.
 
 #### Explanation
 
@@ -257,4 +257,4 @@ $$
 
 $$
 
-Therefore, the standard deviation of the players heights is $4\,\textrm{cm}.$
+Therefore, the standard deviation of the players heights is $4\,\text{cm}.$

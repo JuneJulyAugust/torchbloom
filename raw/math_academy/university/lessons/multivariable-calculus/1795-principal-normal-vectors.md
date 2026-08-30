@@ -70,7 +70,7 @@ Therefore, the general principal normal vector is
 $$
 
 
-\begin{aligned}𝐍(𝑡) & =\frac{𝐓^{′}(𝑡)}{||𝐓^{′}(𝑡)||} \\ & =\frac{⟨−cos⁡𝑡,\,−sin⁡𝑡⟩}{\sqrt{√(−cos⁡𝑡)^{2}+(sin⁡𝑡)^{2}}} \\ & =\frac{⟨−cos⁡𝑡,\,−sin⁡𝑡⟩}{\sqrt{√cos^{2}⁡𝑡+sin^{2}⁡𝑡}} \\ & =\frac{⟨−cos⁡𝑡,\,−sin⁡𝑡⟩}{\sqrt{√1}} \\ & =⟨−cos⁡𝑡,\,−sin⁡𝑡⟩.\end{aligned}
+\begin{aligned}𝐍(𝑡) & =\frac{𝐓^{′}(𝑡)}{||𝐓^{′}(𝑡)||} \\ & =\frac{⟨−cos⁡𝑡,\,−sin⁡𝑡⟩}{\sqrt{(−cos⁡𝑡)^{2}+(sin⁡𝑡)^{2}}} \\ & =\frac{⟨−cos⁡𝑡,\,−sin⁡𝑡⟩}{\sqrt{cos^{2}⁡𝑡+sin^{2}⁡𝑡}} \\ & =\frac{⟨−cos⁡𝑡,\,−sin⁡𝑡⟩}{\sqrt{1}} \\ & =⟨−cos⁡𝑡,\,−sin⁡𝑡⟩.\end{aligned}
 
 
 $$
@@ -80,7 +80,7 @@ We can now find $\mathbf N\left(\dfrac\pi 4\right),$ as follows:
 $$
 
 
-\begin{aligned}𝐍(\frac{𝜋}{4}) & =⟨−cos⁡(\frac{𝜋}{4}),\,−sin⁡(\frac{𝜋}{4})⟩ \\ & =⟨−\frac{\sqrt{√2}}{2},−\frac{\sqrt{√2}}{2}⟩\end{aligned}
+\begin{aligned}𝐍(\frac{𝜋}{4}) & =⟨−cos⁡(\frac{𝜋}{4}),\,−sin⁡(\frac{𝜋}{4})⟩ \\ & =⟨−\frac{\sqrt{2}}{2},−\frac{\sqrt{2}}{2}⟩\end{aligned}
 
 
 $$
@@ -128,7 +128,7 @@ First, we calculate $\mathbf T'(t)$ and evaluate it at $t=\dfrac{\pi}{4}\mathbin
 $$
 
 
-\begin{aligned}𝐓^{′}(𝑡) & =\frac{d}{d𝑡}(sin⁡𝑡\,𝐢−cos⁡𝑡\,𝐣) \\ & =\frac{d}{d𝑡}(sin⁡𝑡)\,𝐢−\frac{d}{d𝑡}(cos⁡𝑡)\,𝐣 \\ & =cos⁡𝑡\,𝐢−(−sin⁡𝑡)\,𝐣 \\ & =cos⁡𝑡\,𝐢+sin⁡𝑡\,𝐣 \\ 𝐓^{′}(\frac{𝜋}{4}) & =cos⁡(\frac{𝜋}{4})\,𝐢+sin⁡(\frac{𝜋}{4})\,𝐣 \\ & =\frac{\sqrt{√2}}{2}\,𝐢+\frac{\sqrt{√2}}{2}\,𝐣 \\ & =\frac{\sqrt{√2}}{2}(𝐢+𝐣)\end{aligned}
+\begin{aligned}𝐓^{′}(𝑡) & =\frac{d}{d𝑡}(sin⁡𝑡\,𝐢−cos⁡𝑡\,𝐣) \\ & =\frac{d}{d𝑡}(sin⁡𝑡)\,𝐢−\frac{d}{d𝑡}(cos⁡𝑡)\,𝐣 \\ & =cos⁡𝑡\,𝐢−(−sin⁡𝑡)\,𝐣 \\ & =cos⁡𝑡\,𝐢+sin⁡𝑡\,𝐣 \\ 𝐓^{′}(\frac{𝜋}{4}) & =cos⁡(\frac{𝜋}{4})\,𝐢+sin⁡(\frac{𝜋}{4})\,𝐣 \\ & =\frac{\sqrt{2}}{2}\,𝐢+\frac{\sqrt{2}}{2}\,𝐣 \\ & =\frac{\sqrt{2}}{2}(𝐢+𝐣)\end{aligned}
 
 
 $$
@@ -138,7 +138,7 @@ Next, we find the magnitude of $\mathbf T'\left(\dfrac{\pi}{4}\right)\mathbin{:}
 $$
 
 
-\begin{aligned}𝐓^{′}(\frac{𝜋}{4}) & =\frac{\sqrt{√2}}{2}∥𝐢+𝐣∥ \\ & =\frac{\sqrt{√2}}{2}\sqrt{√(1)^{2}+(1)^{2}} \\ & =\frac{\sqrt{√2}}{2}\sqrt{√2} \\ & =1\end{aligned}
+\begin{aligned}𝐓^{′}(\frac{𝜋}{4}) & =\frac{\sqrt{2}}{2}∥𝐢+𝐣∥ \\ & =\frac{\sqrt{2}}{2}\sqrt{(1)^{2}+(1)^{2}} \\ & =\frac{\sqrt{2}}{2}\sqrt{2} \\ & =1\end{aligned}
 
 
 $$
@@ -148,7 +148,7 @@ Finally, we normalize $\mathbf T'\left(\dfrac{\pi}{4}\right)$ and obtain the pri
 $$
 
 
-\begin{aligned}𝐍(\frac{𝜋}{4}) & =\frac{𝐓^{′}(\frac{𝜋}{4})}{4}=\frac{\frac{\sqrt{√2}}{2}(𝐢+𝐣)}{2}=\frac{\sqrt{√2}}{2}\,𝐢+\frac{\sqrt{√2}}{2}\,𝐣\end{aligned}
+\begin{aligned}𝐍(\frac{𝜋}{4}) & =\frac{𝐓^{′}(\frac{𝜋}{4})}{4}=\frac{\frac{\sqrt{2}}{2}(𝐢+𝐣)}{2}=\frac{\sqrt{2}}{2}\,𝐢+\frac{\sqrt{2}}{2}\,𝐣\end{aligned}
 
 
 $$
@@ -158,7 +158,7 @@ To check our result, we can verify that $\mathbf T$ and $\mathbf N$ are perpendi
 $$
 
 
-\begin{aligned}𝐓(\frac{𝜋}{4})⋅𝐍(\frac{𝜋}{4}) & =(\frac{\sqrt{√2}}{2}\,𝐢−\frac{\sqrt{√2}}{2}\,𝐣)⋅(\frac{\sqrt{√2}}{2}\,𝐢+\frac{\sqrt{√2}}{2}\,𝐣) \\ & =\frac{1}{2}−\frac{1}{2} \\ & =0\,✓\end{aligned}
+\begin{aligned}𝐓(\frac{𝜋}{4})⋅𝐍(\frac{𝜋}{4}) & =(\frac{\sqrt{2}}{2}\,𝐢−\frac{\sqrt{2}}{2}\,𝐣)⋅(\frac{\sqrt{2}}{2}\,𝐢+\frac{\sqrt{2}}{2}\,𝐣) \\ & =\frac{1}{2}−\frac{1}{2} \\ & =0\,✓\end{aligned}
 
 
 $$
@@ -186,7 +186,7 @@ First, we find the unit tangent vector $\mathbf T(t).$ To do this, we calculate 
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑡) & =⟨\frac{d}{d𝑡}(\sqrt{√3}𝑡),\,\frac{d}{d𝑡}(cos⁡𝑡),\,\frac{d}{d𝑡}(sin⁡𝑡)⟩ \\ & =⟨\sqrt{√3},\,−sin⁡𝑡,\,cos⁡𝑡⟩ \\ 𝐫^{′}(𝑡) & =\sqrt{√(\sqrt{√3})^{2}+(−sin⁡𝑡)^{2}+(cos⁡𝑡)^{2}} \\ & =\sqrt{√3+sin^{2}⁡𝑡+cos^{2}⁡𝑡} \\ & =\sqrt{√4} \\ & =2\end{aligned}
+\begin{aligned}𝐫^{′}(𝑡) & =⟨\frac{d}{d𝑡}(\sqrt{3}𝑡),\,\frac{d}{d𝑡}(cos⁡𝑡),\,\frac{d}{d𝑡}(sin⁡𝑡)⟩ \\ & =⟨\sqrt{3},\,−sin⁡𝑡,\,cos⁡𝑡⟩ \\ 𝐫^{′}(𝑡) & =\sqrt{(\sqrt{3})^{2}+(−sin⁡𝑡)^{2}+(cos⁡𝑡)^{2}} \\ & =\sqrt{3+sin^{2}⁡𝑡+cos^{2}⁡𝑡} \\ & =\sqrt{4} \\ & =2\end{aligned}
 
 
 $$
@@ -196,7 +196,7 @@ Therefore, the unit tangent vector is
 $$
 
 
-\begin{aligned}𝐓(𝑡) & =\frac{𝐫^{′}(𝑡)}{∥𝐫^{′}(𝑡)∥} \\ & =\frac{1}{2}⟨\sqrt{√3},\,−sin⁡𝑡,\,cos⁡𝑡⟩ \\ & =⟨\frac{\sqrt{√3}}{2},\,−\frac{sin⁡𝑡}{2},\,\frac{cos⁡𝑡}{2}⟩.\end{aligned}
+\begin{aligned}𝐓(𝑡) & =\frac{𝐫^{′}(𝑡)}{∥𝐫^{′}(𝑡)∥} \\ & =\frac{1}{2}⟨\sqrt{3},\,−sin⁡𝑡,\,cos⁡𝑡⟩ \\ & =⟨\frac{\sqrt{3}}{2},\,−\frac{sin⁡𝑡}{2},\,\frac{cos⁡𝑡}{2}⟩.\end{aligned}
 
 
 $$
@@ -206,7 +206,7 @@ Next, we find the principal normal $\mathbf{N}(t).$ To do this, we calculate $\m
 $$
 
 
-\begin{aligned}𝐓^{′}(𝑡) & =⟨\frac{d}{d𝑡}(\frac{\sqrt{√3}}{2}),\,\frac{d}{d𝑡}(−\frac{sin⁡𝑡}{2}),\,\frac{d}{d𝑡}(\frac{cos⁡𝑡}{2})⟩ \\ & =⟨0,\,−\frac{1}{2}cos⁡𝑡,\,−\frac{1}{2}sin⁡𝑡⟩ \\ & =\frac{1}{2}⟨0,\,−cos⁡𝑡,\,−sin⁡𝑡⟩ \\ 𝐓^{′}(𝑡) & =\frac{1}{2}\sqrt{√0^{2}+(−cos⁡𝑡)^{2}+(−sin⁡𝑡)^{2}} \\ & =\frac{1}{2}\sqrt{√cos^{2}⁡𝑡+sin^{2}⁡𝑡} \\ & =\frac{1}{2}\end{aligned}
+\begin{aligned}𝐓^{′}(𝑡) & =⟨\frac{d}{d𝑡}(\frac{\sqrt{3}}{2}),\,\frac{d}{d𝑡}(−\frac{sin⁡𝑡}{2}),\,\frac{d}{d𝑡}(\frac{cos⁡𝑡}{2})⟩ \\ & =⟨0,\,−\frac{1}{2}cos⁡𝑡,\,−\frac{1}{2}sin⁡𝑡⟩ \\ & =\frac{1}{2}⟨0,\,−cos⁡𝑡,\,−sin⁡𝑡⟩ \\ 𝐓^{′}(𝑡) & =\frac{1}{2}\sqrt{0^{2}+(−cos⁡𝑡)^{2}+(−sin⁡𝑡)^{2}} \\ & =\frac{1}{2}\sqrt{cos^{2}⁡𝑡+sin^{2}⁡𝑡} \\ & =\frac{1}{2}\end{aligned}
 
 
 $$
@@ -226,7 +226,7 @@ To check our result, we can verify that $\mathbf T$ and $\mathbf N$ are perpendi
 $$
 
 
-\begin{aligned}𝐓(𝑡)⋅𝐍(𝑡) & =⟨\frac{\sqrt{√3}}{2},\,−\frac{sin⁡𝑡}{2},\,\frac{cos⁡𝑡}{2}⟩⋅⟨0,\,−cos⁡𝑡,\,−sin⁡𝑡⟩ \\ & =\frac{\sqrt{√3}}{2}⋅0+\frac{sin⁡𝑡cos⁡𝑡}{2}−\frac{cos⁡𝑡sin⁡𝑡}{2} \\ & =0\,✓\end{aligned}
+\begin{aligned}𝐓(𝑡)⋅𝐍(𝑡) & =⟨\frac{\sqrt{3}}{2},\,−\frac{sin⁡𝑡}{2},\,\frac{cos⁡𝑡}{2}⟩⋅⟨0,\,−cos⁡𝑡,\,−sin⁡𝑡⟩ \\ & =\frac{\sqrt{3}}{2}⋅0+\frac{sin⁡𝑡cos⁡𝑡}{2}−\frac{cos⁡𝑡sin⁡𝑡}{2} \\ & =0\,✓\end{aligned}
 
 
 $$
@@ -296,7 +296,7 @@ Find the principal normal vector at the point where $t = \dfrac{\pi}{4},$ if
 $$
 
 
-\begin{aligned}𝐪(\frac{𝜋}{4})=−\frac{\sqrt{√2}}{2}\,𝐢−\frac{\sqrt{√2}}{2}\,𝐣+𝐤,\,𝐪^{′}(\frac{𝜋}{4})=−2\,𝐤.\end{aligned}
+\begin{aligned}𝐪(\frac{𝜋}{4})=−\frac{\sqrt{2}}{2}\,𝐢−\frac{\sqrt{2}}{2}\,𝐣+𝐤,\,𝐪^{′}(\frac{𝜋}{4})=−2\,𝐤.\end{aligned}
 
 
 $$
@@ -318,7 +318,7 @@ First, we calculate $\mathbf T'(t)$ and evaluate it at $t=\dfrac{\pi}{4}\mathbin
 $$
 
 
-\begin{aligned}𝐓^{′}(𝑡) & =\frac{d}{d𝑡}(sin⁡𝑡⋅𝐪(𝑡)) \\ & =\frac{d}{d𝑡}(sin⁡𝑡)⋅𝐪(𝑡)+sin⁡𝑡⋅\frac{d}{d𝑡}(𝐪(𝑡)) \\ & =cos⁡𝑡⋅𝐪(𝑡)+sin⁡𝑡⋅𝐪^{′}(𝑡) \\ & \\ 𝐓^{′}(\frac{𝜋}{4}) & =cos⁡(\frac{𝜋}{4})⋅𝐪(\frac{𝜋}{4})+sin⁡(\frac{𝜋}{4})⋅𝐪^{′}(\frac{𝜋}{4}) \\ & =\frac{\sqrt{√2}}{2}(−\frac{\sqrt{√2}}{2}\,𝐢−\frac{\sqrt{√2}}{2}\,𝐣+𝐤)+\frac{\sqrt{√2}}{2}(−2\,𝐤) \\ & =−\frac{1}{2}\,𝐢−\frac{1}{2}\,𝐣−\frac{\sqrt{√2}}{2}\,𝐤\end{aligned}
+\begin{aligned}𝐓^{′}(𝑡) & =\frac{d}{d𝑡}(sin⁡𝑡⋅𝐪(𝑡)) \\ & =\frac{d}{d𝑡}(sin⁡𝑡)⋅𝐪(𝑡)+sin⁡𝑡⋅\frac{d}{d𝑡}(𝐪(𝑡)) \\ & =cos⁡𝑡⋅𝐪(𝑡)+sin⁡𝑡⋅𝐪^{′}(𝑡) \\ & \\ 𝐓^{′}(\frac{𝜋}{4}) & =cos⁡(\frac{𝜋}{4})⋅𝐪(\frac{𝜋}{4})+sin⁡(\frac{𝜋}{4})⋅𝐪^{′}(\frac{𝜋}{4}) \\ & =\frac{\sqrt{2}}{2}(−\frac{\sqrt{2}}{2}\,𝐢−\frac{\sqrt{2}}{2}\,𝐣+𝐤)+\frac{\sqrt{2}}{2}(−2\,𝐤) \\ & =−\frac{1}{2}\,𝐢−\frac{1}{2}\,𝐣−\frac{\sqrt{2}}{2}\,𝐤\end{aligned}
 
 
 $$
@@ -328,7 +328,7 @@ Next, we find the magnitude of $\mathbf T'\left(\dfrac{\pi}{4}\right)\mathbin{:}
 $$
 
 
-\begin{aligned}𝐓^{′}(\frac{𝜋}{4}) & =\sqrt{(−\frac{1}{2})^{2}+(−\frac{1}{2})^{2}+(−\frac{\sqrt{√2}}{2})^{2}} \\ & =\sqrt{√\frac{1}{4}+\frac{1}{4}+\frac{1}{2}} \\ & =1\end{aligned}
+\begin{aligned}𝐓^{′}(\frac{𝜋}{4}) & =\sqrt{(−\frac{1}{2})^{2}+(−\frac{1}{2})^{2}+(−\frac{\sqrt{2}}{2})^{2}} \\ & =\sqrt{\frac{1}{4}+\frac{1}{4}+\frac{1}{2}} \\ & =1\end{aligned}
 
 
 $$
@@ -338,7 +338,7 @@ Finally, we normalize $\mathbf T'\left(\dfrac{\pi}{4}\right)$ and obtain the pri
 $$
 
 
-\begin{aligned}𝐍(\frac{𝜋}{4}) & =\frac{𝐓^{′}(\frac{𝜋}{4})}{4} \\ & =\frac{−\frac{1}{2}\,𝐢−\frac{1}{2}\,𝐣−\frac{\sqrt{√2}}{2}\,𝐤}{2} \\ & =−\frac{1}{2}\,𝐢−\frac{1}{2}\,𝐣−\frac{\sqrt{√2}}{2}\,𝐤\end{aligned}
+\begin{aligned}𝐍(\frac{𝜋}{4}) & =\frac{𝐓^{′}(\frac{𝜋}{4})}{4} \\ & =\frac{−\frac{1}{2}\,𝐢−\frac{1}{2}\,𝐣−\frac{\sqrt{2}}{2}\,𝐤}{2} \\ & =−\frac{1}{2}\,𝐢−\frac{1}{2}\,𝐣−\frac{\sqrt{2}}{2}\,𝐤\end{aligned}
 
 
 $$
@@ -350,7 +350,7 @@ Consider the straight line given by
 $$
 
 
-\begin{aligned}𝐫(𝑡) & =\begin{aligned}−2 \\ 1 \\ 0\end{aligned}+𝑡\,\begin{aligned}5 \\ 0 \\ \sqrt{√2}\end{aligned},\,𝑡∈(−∞,∞).\end{aligned}
+\begin{aligned}𝐫(𝑡) & =\begin{matrix}−2 \\ 1 \\ 0\end{matrix}+𝑡\,\begin{matrix}5 \\ 0 \\ \sqrt{2}\end{matrix},\,𝑡∈(−∞,∞).\end{aligned}
 
 
 $$
@@ -360,7 +360,7 @@ If we attempt to calculate its principal normal vector, we will get an interesti
 $$
 
 
-\begin{aligned}𝐫^{′}(𝑡) & =\frac{d}{d𝑡}\begin{aligned}−2+5𝑡 \\ 1 \\ \sqrt{√2}𝑡\end{aligned}=\begin{aligned}5 \\ 0 \\ \sqrt{√2}\end{aligned} \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{√5^{2}+(\sqrt{√2})^{2}}=\sqrt{√27}=3\sqrt{√3}\end{aligned}
+\begin{aligned}𝐫^{′}(𝑡) & =\frac{d}{d𝑡}\begin{matrix}−2+5𝑡 \\ 1 \\ \sqrt{2}𝑡\end{matrix}=\begin{matrix}5 \\ 0 \\ \sqrt{2}\end{matrix} \\ ‖𝐫^{′}(𝑡)‖ & =\sqrt{5^{2}+(\sqrt{2})^{2}}=\sqrt{27}=3\sqrt{3}\end{aligned}
 
 
 $$
@@ -370,7 +370,7 @@ Therefore, the unit tangent vector is
 $$
 
 
-\begin{aligned}𝐓(𝑡) & =\frac{𝐫^{′}(𝑡)}{‖𝐫^{′}(𝑡)‖}=\frac{1}{3\sqrt{√3}}\,\begin{aligned}5 \\ 0 \\ \sqrt{√2}\end{aligned}.\end{aligned}
+\begin{aligned}𝐓(𝑡) & =\frac{𝐫^{′}(𝑡)}{‖𝐫^{′}(𝑡)‖}=\frac{1}{3\sqrt{3}}\,\begin{matrix}5 \\ 0 \\ \sqrt{2}\end{matrix}.\end{aligned}
 
 
 $$
@@ -382,7 +382,7 @@ Next, we calculate $\mathbf T'(t)\mathbin{:}$
 $$
 
 
-\begin{aligned}𝐓^{′}(𝑡) & =\frac{1}{3\sqrt{√3}}\,\begin{aligned}\frac{d}{d𝑡}(5) \\ \frac{d}{d𝑡}(0) \\ \frac{d}{d𝑡}(\sqrt{√2})\end{aligned}=𝟎\end{aligned}
+\begin{aligned}𝐓^{′}(𝑡) & =\frac{1}{3\sqrt{3}}\,\begin{matrix}\frac{d}{d𝑡}(5) \\ \frac{d}{d𝑡}(0) \\ \frac{d}{d𝑡}(\sqrt{2})\end{matrix}=𝟎\end{aligned}
 
 
 $$

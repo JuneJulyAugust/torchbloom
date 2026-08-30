@@ -100,7 +100,7 @@ $$
 
 
 
-\begin{aligned} 6a+1-2a &= \\\[5pt] \underbrace{6a-2a}_{a \textrm{ terms}}+ 1 & \end{aligned}
+\begin{aligned} 6a+1-2a &= \\[5pt] \underbrace{6a-2a}_{a \text{ terms}}+ 1 & \end{aligned}
 
 
 
@@ -112,7 +112,7 @@ $$
 
 
 
-\begin{aligned} \underbrace{6a-2a}+ 1 &= \\\[5pt] (6-2)a + 1 &=\\\[5pt] 4a + 1& \end{aligned}
+\begin{aligned} \underbrace{6a-2a}+ 1 &= \\[5pt] (6-2)a + 1 &=\\[5pt] 4a + 1& \end{aligned}
 
 
 
@@ -132,7 +132,7 @@ $$
 
 
 
-\begin{aligned} 2.5x+2y-x+1.5y &= \\\[5pt] \underbrace{2.5x-x}_{x \textrm{ terms}}+\underbrace{2y+1.5y}_{y \textrm{ terms}} & \end{aligned}
+\begin{aligned} 2.5x+2y-x+1.5y &= \\[5pt] \underbrace{2.5x-x}_{x \text{ terms}}+\underbrace{2y+1.5y}_{y \text{ terms}} & \end{aligned}
 
 
 
@@ -144,7 +144,7 @@ $$
 
 
 
-\begin{aligned} \underbrace{2.5x-x}+\underbrace{2y+1.5y} &= \\\[5pt] (2.5-1)x + (2+1.5)y &=\\\[5pt] 1.5x + 3.5y \end{aligned}
+\begin{aligned} \underbrace{2.5x-x}+\underbrace{2y+1.5y} &= \\[5pt] (2.5-1)x + (2+1.5)y &=\\[5pt] 1.5x + 3.5y \end{aligned}
 
 
 

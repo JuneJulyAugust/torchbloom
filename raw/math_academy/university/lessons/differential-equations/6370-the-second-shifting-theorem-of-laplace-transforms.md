@@ -54,7 +54,7 @@ From the definition of the Laplace transform, we have
 $$
 
 
-\mathcal{L}\{u(t-a)\,g(t)\} =\int_0^\infty e^{-st}u(t-a)g(t)\,\textrm{d}t.
+\mathcal{L}\{u(t-a)\,g(t)\} =\int_0^\infty e^{-st}u(t-a)g(t)\,\text{d}t.
 
 
 $$
@@ -64,21 +64,21 @@ Because $u(t-a)=0$ for $t < a$ and $u(t-a)=1$ for $t\ge a$, the integrand is zer
 $$
 
 
-\mathcal{L}\{u(t-a)\,g(t)\} =\int_a^\infty e^{-st}g(t)\,\textrm{d}t.
+\mathcal{L}\{u(t-a)\,g(t)\} =\int_a^\infty e^{-st}g(t)\,\text{d}t.
 
 
 $$
 
 To compare this with a standard Laplace transform, we shift the variable of integration so that the lower limit is $0$.
 
-Let $\tau=t-a$. Then $t=\tau+a$ and $\textrm{d}t=\textrm{d}\tau$. Also, when $t=a$, we have $\tau=0$.
+Let $\tau=t-a$. Then $t=\tau+a$ and $\text{d}t=\text{d}\tau$. Also, when $t=a$, we have $\tau=0$.
 
 Substituting gives
 
 $$
 
 
-\int_a^\infty e^{-st}g(t)\,\textrm{d}t =\int_0^\infty e^{-s(\tau+a)}g(\tau+a)\,\textrm{d}\tau.
+\int_a^\infty e^{-st}g(t)\,\text{d}t =\int_0^\infty e^{-s(\tau+a)}g(\tau+a)\,\text{d}\tau.
 
 
 $$
@@ -98,7 +98,7 @@ This allows us to factor out the constant $e^{-as}$:
 $$
 
 
-\int_0^\infty e^{-s(\tau+a)}g(\tau+a)\,\textrm{d}\tau =e^{-as}\int_0^\infty e^{-s\tau}g(\tau+a)\,\textrm{d}\tau.
+\int_0^\infty e^{-s(\tau+a)}g(\tau+a)\,\text{d}\tau =e^{-as}\int_0^\infty e^{-s\tau}g(\tau+a)\,\text{d}\tau.
 
 
 $$
@@ -108,7 +108,7 @@ The remaining integral has exactly the form of a Laplace transform, so recognize
 $$
 
 
-\int_0^\infty e^{-s\tau}g(\tau+a)\,\textrm{d}\tau =\mathcal{L}\{g(t+a)\}.
+\int_0^\infty e^{-s\tau}g(\tau+a)\,\text{d}\tau =\mathcal{L}\{g(t+a)\}.
 
 
 $$

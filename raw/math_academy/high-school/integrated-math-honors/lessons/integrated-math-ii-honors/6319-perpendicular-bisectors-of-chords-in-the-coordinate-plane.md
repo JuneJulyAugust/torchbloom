@@ -76,7 +76,7 @@ Since the perpendicular bisector passes through the midpoint $M(1, 4)$ and has s
 $$
 
 
-\begin{aligned} y-4 &= -\dfrac12(x-1)\\\[5pt] y-4 &= -\dfrac12x+\dfrac12\\\[5pt] y &= -\dfrac12x+\dfrac92\\\[5pt] \end{aligned}
+\begin{aligned} y-4 &= -\dfrac12(x-1)\\[5pt] y-4 &= -\dfrac12x+\dfrac12\\[5pt] y &= -\dfrac12x+\dfrac92\\[5pt] \end{aligned}
 
 
 $$

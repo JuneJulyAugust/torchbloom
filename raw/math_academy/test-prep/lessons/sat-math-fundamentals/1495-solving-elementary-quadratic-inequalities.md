@@ -101,7 +101,7 @@ For example, to solve the inequality $x^2 > 1,$ we can start by taking the squar
 $$
 
 
-\begin{aligned}𝑥^{2} & >1 \\ \sqrt{√𝑥^{2}} & >\sqrt{√1} \\ |𝑥| & >1\end{aligned}
+\begin{aligned}𝑥^{2} & >1 \\ \sqrt{𝑥^{2}} & >\sqrt{1} \\ |𝑥| & >1\end{aligned}
 
 
 $$
@@ -133,7 +133,7 @@ Taking the square root of both sides of the inequality, we get
 $$
 
 
-\begin{aligned}𝑥^{2} & ≤2 \\ \sqrt{√𝑥^{2}} & ≤\sqrt{√2} \\ |𝑥| & ≤\sqrt{√2}.\end{aligned}
+\begin{aligned}𝑥^{2} & ≤2 \\ \sqrt{𝑥^{2}} & ≤\sqrt{2} \\ |𝑥| & ≤\sqrt{2}.\end{aligned}
 
 
 $$
@@ -177,7 +177,7 @@ Taking the square root of both sides of the inequality, we get
 $$
 
 
-\begin{aligned}\sqrt{√𝑥^{2}} & >\sqrt{√9} \\ |𝑥| & >3.\end{aligned}
+\begin{aligned}\sqrt{𝑥^{2}} & >\sqrt{9} \\ |𝑥| & >3.\end{aligned}
 
 
 $$

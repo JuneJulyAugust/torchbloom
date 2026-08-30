@@ -22,12 +22,12 @@ $$
 
 $$
 
-If the first partial derivatives of $P$ and $Q$ exist, then the **divergence** of $\mathbf F,$ denoted $\textrm{div}\,\mathbf F,$ is the scalar given by
+If the first partial derivatives of $P$ and $Q$ exist, then the **divergence** of $\mathbf F,$ denoted $\text{div}\,\mathbf F,$ is the scalar given by
 
 $$
 
 
-\textrm{div}\,\mathbf F = \dfrac{\partial P}{\partial x} + \dfrac{\partial Q}{\partial y}.
+\text{div}\,\mathbf F = \dfrac{\partial P}{\partial x} + \dfrac{\partial Q}{\partial y}.
 
 
 $$
@@ -47,7 +47,7 @@ then the divergence of $\mathbf F$ is given by the dot product
 $$
 
 
-\textrm{div}\,\mathbf F = \nabla \cdot \mathbf F.
+\text{div}\,\mathbf F = \nabla \cdot \mathbf F.
 
 
 $$
@@ -62,7 +62,7 @@ $$
 
 $$
 
-Then, we can calculate $\textrm{div}\,\mathbf{F}$ using the dot product formula, as follows:
+Then, we can calculate $\text{div}\,\mathbf{F}$ using the dot product formula, as follows:
 
 $$
 
@@ -76,9 +76,9 @@ $$
 
 There are a few things we should note about the divergence:
 
-- We can only compute the divergence of a *vector* field, and a vector field's divergence is a *scalar* field. So if $G(x,y) = \textrm{div}\,\mathbf F,$ then we have the following map: In contrast, if $f(x,y)$ is a scalar field, then the statement $\textrm{div}\, f$ has no meaning.
+- We can only compute the divergence of a *vector* field, and a vector field's divergence is a *scalar* field. So if $G(x,y) = \text{div}\,\mathbf F,$ then we have the following map: In contrast, if $f(x,y)$ is a scalar field, then the statement $\text{div}\, f$ has no meaning.
 
-- We can easily extend the notion of divergence to three dimensions. So, if $\mathbf F(x,y,z) = P\,\mathbf i + Q\,\mathbf j + R\,\mathbf k,$ then $\textrm{div}\,\mathbf F$ is given by where the three-dimensional differential operator $\nabla$ is given by
+- We can easily extend the notion of divergence to three dimensions. So, if $\mathbf F(x,y,z) = P\,\mathbf i + Q\,\mathbf j + R\,\mathbf k,$ then $\text{div}\,\mathbf F$ is given by where the three-dimensional differential operator $\nabla$ is given by
 
 - The divergence of a vector field at a point $P$ gives us helpful information about the tendency of the vector field to behave like a source or a sink at $P.$ We'll describe this in more detail shortly.
 
@@ -95,7 +95,7 @@ If $\mathbf{F}=P\,\mathbf{i}+Q\,\mathbf{j}$ is a vector field on $\mathbb{R}^2$ 
 $$
 
 
-\nabla\cdot\mathbf{F}=\textrm{div}\,\mathbf F=\dfrac{\partial P}{\partial x}+\dfrac{\partial Q}{\partial y}.
+\nabla\cdot\mathbf{F}=\text{div}\,\mathbf F=\dfrac{\partial P}{\partial x}+\dfrac{\partial Q}{\partial y}.
 
 
 $$
@@ -110,7 +110,7 @@ $$
 
 $$
 
-Finally, we evaluate $\textrm{div}\,\mathbf {F}$ at the point $(1,0),$ and obtain
+Finally, we evaluate $\text{div}\,\mathbf {F}$ at the point $(1,0),$ and obtain
 
 $$
 
@@ -124,7 +124,7 @@ $$
 
 #### Question
 
-Consider the vector field $\mathbf{F}=(2x-y)^2\,\mathbf{i}+(3y-2z)^2\,\mathbf{j}+(x-2z)^2\,\mathbf{k}.$ Evaluate $\textrm{div}\,\mathbf{F}$ at the point $(1,2,1).$
+Consider the vector field $\mathbf{F}=(2x-y)^2\,\mathbf{i}+(3y-2z)^2\,\mathbf{j}+(x-2z)^2\,\mathbf{k}.$ Evaluate $\text{div}\,\mathbf{F}$ at the point $(1,2,1).$
 
 #### Explanation
 
@@ -133,7 +133,7 @@ If $\mathbf{F}=P\,\mathbf{i}+Q\,\mathbf{j} + R\,\mathbf k$ is a vector field on 
 $$
 
 
-\textrm{div}\,\mathbf F = \nabla\cdot\mathbf{F}=\dfrac{\partial P}{\partial x}+\dfrac{\partial Q}{\partial y}+\dfrac{\partial R}{\partial z}.
+\text{div}\,\mathbf F = \nabla\cdot\mathbf{F}=\dfrac{\partial P}{\partial x}+\dfrac{\partial Q}{\partial y}+\dfrac{\partial R}{\partial z}.
 
 
 $$
@@ -148,7 +148,7 @@ $$
 
 $$
 
-Finally, we evaluate $\textrm{div}\,\mathbf {F}$ at the point $(1,2,1),$ and obtain
+Finally, we evaluate $\text{div}\,\mathbf {F}$ at the point $(1,2,1),$ and obtain
 
 $$
 
@@ -168,17 +168,17 @@ Consider the vector field $\mathbf F(x,y)$ and the point $S,$ shown below. Imagi
 
 We can see from our diagram that $S$ acts like a **source**. You can think of this as an open faucet, pushing water onto the plane and away from itself.
 
-Since $S$ acts like a source, $\textrm{div}\,\mathbf F$ is nonzero. By convention, if a point $S$ acts like a source, the divergence is positive:
+Since $S$ acts like a source, $\text{div}\,\mathbf F$ is nonzero. By convention, if a point $S$ acts like a source, the divergence is positive:
 
 $$
 
 
-\textrm{div}\,\mathbf F > 0
+\text{div}\,\mathbf F > 0
 
 
 $$
 
-In this particular case, *every* point in our vector field acts as a source. So $\textrm{div}\,\mathbf F > 0$ everywhere.
+In this particular case, *every* point in our vector field acts as a source. So $\text{div}\,\mathbf F > 0$ everywhere.
 
 If we reverse the situation, we get the following:
 
@@ -186,19 +186,19 @@ If we reverse the situation, we get the following:
 
 We can see from our diagram that $T$ acts like a **sink**. You can think of this as an open plughole that sucks in the surrounding water.
 
-Since $T$ acts like a sink, $\textrm{div}\,\mathbf F$ is also nonzero. By convention, if a point $T$ acts like a sink, the divergence is negative:
+Since $T$ acts like a sink, $\text{div}\,\mathbf F$ is also nonzero. By convention, if a point $T$ acts like a sink, the divergence is negative:
 
 $$
 
 
-\textrm{div}\,\mathbf F < 0
+\text{div}\,\mathbf F < 0
 
 
 $$
 
-Every point in our vector field acts like a sink in this case. So $\textrm{div}\,\mathbf F < 0$ everywhere.
+Every point in our vector field acts like a sink in this case. So $\text{div}\,\mathbf F < 0$ everywhere.
 
-Finally, note that if $\textrm{div}\,\mathbf F = 0$ everywhere in the domain of some vector field $\mathbf F,$ we say that $\mathbf F$ is **solenoidal.**
+Finally, note that if $\text{div}\,\mathbf F = 0$ everywhere in the domain of some vector field $\mathbf F,$ we say that $\mathbf F$ is **solenoidal.**
 
 ### Examples of Vector Field With Divergence and Solenoidal Vector Fields
 
@@ -218,17 +218,17 @@ The following vector fields are solenoidal (i.e., they each have zero divergence
 
 Consider the vector field $\mathbf F$ shown above. Which of the following statements are true everywhere in the domain of $\mathbf F?$
 
-1. $\textrm{div}\,\mathbf F = 0$
+1. $\text{div}\,\mathbf F = 0$
 
-2. $\textrm{div}\,\mathbf F > 0$
+2. $\text{div}\,\mathbf F > 0$
 
-3. $\textrm{div}\,\mathbf F < 0$
+3. $\text{div}\,\mathbf F < 0$
 
 4. $\mathbf F$ is solenoidal
 
 #### Explanation
 
-Recall that $\textrm{div}\, \mathbf F = \nabla\cdot\mathbf F$ denotes the divergence of the vector field $\mathbf F.$
+Recall that $\text{div}\, \mathbf F = \nabla\cdot\mathbf F$ denotes the divergence of the vector field $\mathbf F.$
 
 Intuitively, the divergence of $\mathbf F$ at a point $P$ measures how much $\mathbf F$ acts like a source or a sink at $P\mathbin{:}$
 

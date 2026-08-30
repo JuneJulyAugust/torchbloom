@@ -31,7 +31,7 @@ $$
 
 
 
-z_1z_2 = r_1 r_2\left( \cos(\theta_1+\theta_2) + \textrm{i} \sin(\theta_1+\theta_2)\right)
+z_1z_2 = r_1 r_2\left( \cos(\theta_1+\theta_2) + \text{i} \sin(\theta_1+\theta_2)\right)
 
 
 
@@ -83,7 +83,7 @@ At the end of this lesson, we will show where the formula comes from. But for no
 
 #### Question
 
-If $z_1=2\left[\cos \left(\dfrac{\pi}{2} \right) +\textrm{i}\sin \left(\dfrac{\pi}{2}\right) \right]$ and $z_2=4\left[\cos \left(\dfrac{5\pi}{6} \right) +\textrm{i}\sin \left(\dfrac{5\pi}{6}\right) \right],$ calculate the product $z_1z_2.$
+If $z_1=2\left[\cos \left(\dfrac{\pi}{2} \right) +\text{i}\sin \left(\dfrac{\pi}{2}\right) \right]$ and $z_2=4\left[\cos \left(\dfrac{5\pi}{6} \right) +\text{i}\sin \left(\dfrac{5\pi}{6}\right) \right],$ calculate the product $z_1z_2.$
 
 #### Explanation
 
@@ -93,7 +93,7 @@ $$
 
 
 
-\begin{aligned} z_1z_2=r_1r_2[\cos(\theta_1+\theta_2)+\textrm{i}\sin(\theta_1+\theta_2)]. \end{aligned}
+\begin{aligned} z_1z_2=r_1r_2[\cos(\theta_1+\theta_2)+\text{i}\sin(\theta_1+\theta_2)]. \end{aligned}
 
 
 
@@ -105,7 +105,7 @@ $$
 
 
 
-\begin{aligned} z_1z_2&=2\cdot 4\left[\cos\left(\dfrac{\pi}{2}+\dfrac{5\pi}{6}\right)+\textrm{i}\sin\left(\dfrac{\pi}{2}+\dfrac{5\pi}{6}\right)\right]\\\[5pt] &=8\left[ \cos \left( \dfrac{4\pi}{3} \right) + \textrm{i} \sin \left( \dfrac{4\pi}{3} \right) \right] . \end{aligned}
+\begin{aligned} z_1z_2&=2\cdot 4\left[\cos\left(\dfrac{\pi}{2}+\dfrac{5\pi}{6}\right)+\text{i}\sin\left(\dfrac{\pi}{2}+\dfrac{5\pi}{6}\right)\right]\\[5pt] &=8\left[ \cos \left( \dfrac{4\pi}{3} \right) + \text{i} \sin \left( \dfrac{4\pi}{3} \right) \right] . \end{aligned}
 
 
 
@@ -117,7 +117,7 @@ $$
 
 
 
-\begin{aligned}𝑧_{1}𝑧_{2} & =8[(−\frac{1}{2})+i(−\frac{\sqrt{√3}}{2})] \\ & =−4−4\sqrt{√3}\,i\end{aligned}
+\begin{aligned}𝑧_{1}𝑧_{2} & =8[(−\frac{1}{2})+i(−\frac{\sqrt{3}}{2})] \\ & =−4−4\sqrt{3}\,i\end{aligned}
 
 
 
@@ -127,7 +127,7 @@ $$
 
 #### Question
 
-If $z_1=2\left[\cos\left(-\dfrac{\pi}{6}\right)+\textrm{i}\sin\left(-\dfrac{\pi}{6}\right)\right]$ and $z_2=6\left[\cos \left(\dfrac{2\pi}{3} \right) +\textrm{i}\sin \left(\dfrac{2\pi}{3}\right) \right],$ find the the product $z_1z_2.$
+If $z_1=2\left[\cos\left(-\dfrac{\pi}{6}\right)+\text{i}\sin\left(-\dfrac{\pi}{6}\right)\right]$ and $z_2=6\left[\cos \left(\dfrac{2\pi}{3} \right) +\text{i}\sin \left(\dfrac{2\pi}{3}\right) \right],$ find the the product $z_1z_2.$
 
 #### Explanation
 
@@ -137,7 +137,7 @@ $$
 
 
 
-\begin{aligned} z_1z_2=r_1r_2[\cos(\theta_1+\theta_2)+\textrm{i}\sin(\theta_1+\theta_2)]. \end{aligned}
+\begin{aligned} z_1z_2=r_1r_2[\cos(\theta_1+\theta_2)+\text{i}\sin(\theta_1+\theta_2)]. \end{aligned}
 
 
 
@@ -149,7 +149,7 @@ $$
 
 
 
-\begin{aligned} z_1z_2&=12\left[\cos\left(-\dfrac{\pi}{6}+\dfrac{2\pi}{3}\right)+\textrm{i}\sin\left(-\dfrac{\pi}{6}+\dfrac{2\pi}{3}\right)\right]\\\[5pt] &=12\left[\cos\left(\dfrac{\pi}{2}\right)+\textrm{i}\sin\left(\dfrac{\pi}{2}\right)\right]. \end{aligned}
+\begin{aligned} z_1z_2&=12\left[\cos\left(-\dfrac{\pi}{6}+\dfrac{2\pi}{3}\right)+\text{i}\sin\left(-\dfrac{\pi}{6}+\dfrac{2\pi}{3}\right)\right]\\[5pt] &=12\left[\cos\left(\dfrac{\pi}{2}\right)+\text{i}\sin\left(\dfrac{\pi}{2}\right)\right]. \end{aligned}
 
 
 
@@ -187,7 +187,7 @@ $$
 
 
 
-z_1z_2 = r_1 r_2\left( \cos(\theta_1+\theta_2) + \textrm{i} \sin(\theta_1+\theta_2)\right).
+z_1z_2 = r_1 r_2\left( \cos(\theta_1+\theta_2) + \text{i} \sin(\theta_1+\theta_2)\right).
 
 
 
@@ -223,7 +223,7 @@ $$
 
 
 
-z_1z_2 = r_1 r_2\left( \cos(\theta_1+\theta_2) + \textrm{i} \sin(\theta_1+\theta_2)\right).
+z_1z_2 = r_1 r_2\left( \cos(\theta_1+\theta_2) + \text{i} \sin(\theta_1+\theta_2)\right).
 
 
 

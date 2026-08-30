@@ -35,7 +35,7 @@ So, to express our equation in terms of $x,$ we first isolate the square root by
 $$
 
 
-\begin{aligned}12\sqrt{√15−𝑥} & =\frac{𝑏}{10𝑎} \\ \frac{12\sqrt{√15−𝑥}}{12} & =\frac{𝑏}{10𝑎⋅12} \\ \frac{12\sqrt{√15−𝑥}}{12} & =\frac{𝑏}{10𝑎⋅12} \\ \sqrt{√15−𝑥} & =\frac{𝑏}{120𝑎}\end{aligned}
+\begin{aligned}12\sqrt{15−𝑥} & =\frac{𝑏}{10𝑎} \\ \frac{12\sqrt{15−𝑥}}{12} & =\frac{𝑏}{10𝑎⋅12} \\ \frac{12\sqrt{15−𝑥}}{12} & =\frac{𝑏}{10𝑎⋅12} \\ \sqrt{15−𝑥} & =\frac{𝑏}{120𝑎}\end{aligned}
 
 
 $$
@@ -45,7 +45,7 @@ Next, we square both sides:
 $$
 
 
-\begin{aligned}(\sqrt{√15−𝑥})^{2} & =(\frac{𝑏}{120𝑎})^{2} \\ 15−𝑥 & =(\frac{𝑏}{120𝑎})^{2}\end{aligned}
+\begin{aligned}(\sqrt{15−𝑥})^{2} & =(\frac{𝑏}{120𝑎})^{2} \\ 15−𝑥 & =(\frac{𝑏}{120𝑎})^{2}\end{aligned}
 
 
 $$
@@ -93,7 +93,7 @@ To get rid of the square root, we first square both sides:
 $$
 
 
-\begin{aligned}𝑘^{2} & =(\sqrt{√\frac{𝑞ℓ}{𝑟}})^{2} \\ 𝑘^{2} & =\frac{𝑞ℓ}{𝑟}\end{aligned}
+\begin{aligned}𝑘^{2} & =(\sqrt{\frac{𝑞ℓ}{𝑟}})^{2} \\ 𝑘^{2} & =\frac{𝑞ℓ}{𝑟}\end{aligned}
 
 
 $$
@@ -161,7 +161,7 @@ Next, we solve for $(b-5)$ by finding the square root of both sides. Notice that
 $$
 
 
-\begin{aligned}𝑏−5 & =\sqrt{√\frac{𝑛}{2}}\end{aligned}
+\begin{aligned}𝑏−5 & =\sqrt{\frac{𝑛}{2}}\end{aligned}
 
 
 $$
@@ -171,7 +171,7 @@ Finally, we solve for $b$:
 $$
 
 
-\begin{aligned}𝑏 & =\sqrt{√\frac{𝑛}{2}}+5\end{aligned}
+\begin{aligned}𝑏 & =\sqrt{\frac{𝑛}{2}}+5\end{aligned}
 
 
 $$

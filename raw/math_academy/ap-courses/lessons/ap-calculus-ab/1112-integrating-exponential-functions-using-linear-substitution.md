@@ -47,7 +47,7 @@ $$
 
 #### Question
 
-Calculate $\displaystyle{\int e^{1-3x}\, \textrm{d}x}.$
+Calculate $\displaystyle{\int e^{1-3x}\, \text{d}x}.$
 
 #### Explanation
 
@@ -75,7 +75,7 @@ $$
 
 #### Question
 
-Calculate $\displaystyle{\int 3^{5+4x}\, \textrm{d}x}.$
+Calculate $\displaystyle{\int 3^{5+4x}\, \text{d}x}.$
 
 #### Explanation
 

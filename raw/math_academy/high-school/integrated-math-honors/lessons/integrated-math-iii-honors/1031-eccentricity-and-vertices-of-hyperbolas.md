@@ -82,7 +82,7 @@ Therefore, the eccentricity is
 $$
 
 
-\begin{aligned}𝑒 & =\frac{\sqrt{√𝑎^{2}+𝑏^{2}}}{𝑎} \\ & =\frac{\sqrt{√20+16}}{2\sqrt{√5}} \\ & =\frac{\sqrt{√36}}{2\sqrt{√5}} \\ & =\frac{6}{2\sqrt{√5}} \\ & =\frac{3\sqrt{√5}}{5}.\end{aligned}
+\begin{aligned}𝑒 & =\frac{\sqrt{𝑎^{2}+𝑏^{2}}}{𝑎} \\ & =\frac{\sqrt{20+16}}{2\sqrt{5}} \\ & =\frac{\sqrt{36}}{2\sqrt{5}} \\ & =\frac{6}{2\sqrt{5}} \\ & =\frac{3\sqrt{5}}{5}.\end{aligned}
 
 
 $$
@@ -124,7 +124,7 @@ Therefore, the eccentricity is
 $$
 
 
-\begin{aligned}𝑒 & =\frac{\sqrt{√𝑎^{2}+𝑏^{2}}}{𝑎} \\ & =\frac{\sqrt{√16+2}}{4} \\ & =\frac{\sqrt{√18}}{4} \\ & =\frac{3\sqrt{√2}}{4}.\end{aligned}
+\begin{aligned}𝑒 & =\frac{\sqrt{𝑎^{2}+𝑏^{2}}}{𝑎} \\ & =\frac{\sqrt{16+2}}{4} \\ & =\frac{\sqrt{18}}{4} \\ & =\frac{3\sqrt{2}}{4}.\end{aligned}
 
 
 $$

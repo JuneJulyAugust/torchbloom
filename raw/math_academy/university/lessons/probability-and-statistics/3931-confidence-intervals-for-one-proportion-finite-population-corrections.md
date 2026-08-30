@@ -183,7 +183,7 @@ Therefore, a $90\%$ confidence interval for the population proportion $p$ is
 $$
 
 
-\begin{aligned}0.8±1.645⋅\sqrt{√\frac{0.8(1−0.8)}{65}⋅\frac{310−65}{310−1}},\end{aligned}
+\begin{aligned}0.8±1.645⋅\sqrt{\frac{0.8(1−0.8)}{65}⋅\frac{310−65}{310−1}},\end{aligned}
 
 
 $$
@@ -301,7 +301,7 @@ Therefore, a $90\%$ confidence interval for the population proportion $p$ is
 $$
 
 
-\begin{aligned}0.6±1.645⋅\sqrt{√\frac{0.6(1−0.6)}{130}⋅\frac{400−130}{400−1}},\end{aligned}
+\begin{aligned}0.6±1.645⋅\sqrt{\frac{0.6(1−0.6)}{130}⋅\frac{400−130}{400−1}},\end{aligned}
 
 
 $$

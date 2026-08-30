@@ -31,7 +31,7 @@ We can find the images of $\{\mathbf{i},\mathbf{j} \}$ under $\mathbf{R}$ by com
 $$
 
 
-\begin{aligned}𝐢^{′} & =𝐑(𝐢)=[\begin{aligned}cos⁡30^{∘} & −sin⁡30^{∘} \\ sin⁡30^{∘} & cos⁡30^{∘}\end{aligned}][\begin{aligned}1 \\ 0\end{aligned}]=[\begin{aligned}cos⁡30^{∘} \\ sin⁡30^{∘}\end{aligned}] \\ 𝐣^{′} & =𝐑(𝐣)=[\begin{aligned}cos⁡30^{∘} & −sin⁡30^{∘} \\ sin⁡30^{∘} & cos⁡30^{∘}\end{aligned}][\begin{aligned}0 \\ 1\end{aligned}]=[\begin{aligned}−sin⁡30^{∘} \\ cos⁡30^{∘}\end{aligned}]\end{aligned}
+\begin{aligned}𝐢^{′} & =𝐑(𝐢)=[\begin{matrix}cos⁡30^{∘} & −sin⁡30^{∘} \\ sin⁡30^{∘} & cos⁡30^{∘}\end{matrix}][\begin{matrix}1 \\ 0\end{matrix}]=[\begin{matrix}cos⁡30^{∘} \\ sin⁡30^{∘}\end{matrix}] \\ 𝐣^{′} & =𝐑(𝐣)=[\begin{matrix}cos⁡30^{∘} & −sin⁡30^{∘} \\ sin⁡30^{∘} & cos⁡30^{∘}\end{matrix}][\begin{matrix}0 \\ 1\end{matrix}]=[\begin{matrix}−sin⁡30^{∘} \\ cos⁡30^{∘}\end{matrix}]\end{aligned}
 
 
 $$
@@ -91,7 +91,7 @@ To find the image $\mathbf{v}'$ under the action of the matrix $R_{135^{\circ}}$
 $$
 
 
-\begin{aligned}𝐯^{′} & =𝑅_{135^{∘}}⋅𝐯 \\ & =\begin{aligned}−\frac{1}{\sqrt{√2}} & −\frac{1}{\sqrt{√2}} \\ \frac{1}{\sqrt{√2}} & −\frac{1}{\sqrt{√2}}\end{aligned}[\begin{aligned}−5 \\ 4\end{aligned}] \\ & =\begin{aligned}\frac{1}{\sqrt{√2}} \\ −\frac{9}{\sqrt{√2}}\end{aligned}\end{aligned}
+\begin{aligned}𝐯^{′} & =𝑅_{135^{∘}}⋅𝐯 \\ & =\begin{matrix}−\frac{1}{\sqrt{2}} & −\frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}} & −\frac{1}{\sqrt{2}}\end{matrix}[\begin{matrix}−5 \\ 4\end{matrix}] \\ & =\begin{matrix}\frac{1}{\sqrt{2}} \\ −\frac{9}{\sqrt{2}}\end{matrix}\end{aligned}
 
 
 $$
@@ -107,7 +107,7 @@ What is the geometrical interpretation of the transformation represented by the 
 $$
 
 
-\begin{aligned}−\frac{1}{\sqrt{√2}} & −\frac{1}{\sqrt{√2}} \\ \frac{1}{\sqrt{√2}} & −\frac{1}{\sqrt{√2}}\end{aligned}
+\begin{aligned}−\frac{1}{\sqrt{2}} & −\frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}} & −\frac{1}{\sqrt{2}}\end{aligned}
 
 
 $$
@@ -129,7 +129,7 @@ Comparing $A$ with the rotation matrix, we have
 $$
 
 
-\begin{aligned}sin⁡𝜃=\frac{1}{\sqrt{√2}} \\ cos⁡𝜃=−\frac{1}{\sqrt{√2}}.\end{aligned}
+\begin{aligned}sin⁡𝜃=\frac{1}{\sqrt{2}} \\ cos⁡𝜃=−\frac{1}{\sqrt{2}}.\end{aligned}
 
 
 $$
@@ -207,7 +207,7 @@ Substituting $\theta = \dfrac{\pi}{3}$ into the above, we have
 $$
 
 
-\begin{aligned}𝑅 & =\begin{aligned}cos⁡(\frac{𝜋}{3}) & −sin⁡(\frac{𝜋}{3}) \\ sin⁡(\frac{𝜋}{3}) & cos⁡(\frac{𝜋}{3})\end{aligned} \\ & =\begin{aligned}\frac{1}{2} & −\frac{\sqrt{√3}}{2} \\ \frac{\sqrt{√3}}{2} & \frac{1}{2}\end{aligned} \\ & =\frac{1}{2}[\begin{aligned}1 & −\sqrt{√3} \\ \sqrt{√3} & 1\end{aligned}].\end{aligned}
+\begin{aligned}𝑅 & =\begin{matrix}cos⁡(\frac{𝜋}{3}) & −sin⁡(\frac{𝜋}{3}) \\ sin⁡(\frac{𝜋}{3}) & cos⁡(\frac{𝜋}{3})\end{matrix} \\ & =\begin{matrix}\frac{1}{2} & −\frac{\sqrt{3}}{2} \\ \frac{\sqrt{3}}{2} & \frac{1}{2}\end{matrix} \\ & =\frac{1}{2}[\begin{matrix}1 & −\sqrt{3} \\ \sqrt{3} & 1\end{matrix}].\end{aligned}
 
 
 $$
@@ -227,7 +227,7 @@ Now, we compute the image of $X$ under the rotation $\mathbf{R}$ by calculating 
 $$
 
 
-\begin{aligned}𝑅𝑋 & =\frac{1}{2}[\begin{aligned}1 & −\sqrt{√3} \\ \sqrt{√3} & 1\end{aligned}][\begin{aligned}1 & 3 & 5 \\ 1 & 4 & 8\end{aligned}] \\ & =\frac{1}{2}[\begin{aligned}1−\sqrt{√3} & 3−4\sqrt{√3} & 5−8\sqrt{√3} \\ 1+\sqrt{√3} & 4+3\sqrt{√3} & 8+5\sqrt{√3}\end{aligned}] \\ & =\begin{aligned}\frac{1−\sqrt{√3}}{2} & \frac{3−4\sqrt{√3}}{2} & \frac{5−8\sqrt{√3}}{2} \\ \frac{1+\sqrt{√3}}{2} & \frac{4+3\sqrt{√3}}{2} & \frac{8+5\sqrt{√3}}{2}\end{aligned}\end{aligned}
+\begin{aligned}𝑅𝑋 & =\frac{1}{2}[\begin{matrix}1 & −\sqrt{3} \\ \sqrt{3} & 1\end{matrix}][\begin{matrix}1 & 3 & 5 \\ 1 & 4 & 8\end{matrix}] \\ & =\frac{1}{2}[\begin{matrix}1−\sqrt{3} & 3−4\sqrt{3} & 5−8\sqrt{3} \\ 1+\sqrt{3} & 4+3\sqrt{3} & 8+5\sqrt{3}\end{matrix}] \\ & =\begin{matrix}\frac{1−\sqrt{3}}{2} & \frac{3−4\sqrt{3}}{2} & \frac{5−8\sqrt{3}}{2} \\ \frac{1+\sqrt{3}}{2} & \frac{4+3\sqrt{3}}{2} & \frac{8+5\sqrt{3}}{2}\end{matrix}\end{aligned}
 
 
 $$

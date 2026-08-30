@@ -115,7 +115,7 @@ We apply the definition of the Laplace transform:
 $$
 
 
-\begin{aligned}L{𝑓(𝑡)} & =𝐹(𝑠)=∫_{∞0}^{}𝑓(𝑡)𝑒^{−𝑠𝑡}\,d𝑡\end{aligned}
+\begin{aligned}L{𝑓(𝑡)} & =𝐹(𝑠)=∫_{∞0}𝑓(𝑡)𝑒^{−𝑠𝑡}\,d𝑡\end{aligned}
 
 
 $$
@@ -125,7 +125,7 @@ Recall that the unit step function is defined as
 $$
 
 
-\begin{aligned}𝑢(𝑡)=\begin{aligned}0,\, & 𝑡<0 \\ 1,\, & 𝑡≥0.\end{aligned}\end{aligned}
+\begin{aligned}𝑢(𝑡)=\begin{matrix}0,\, & 𝑡<0 \\ 1,\, & 𝑡≥0.\end{matrix}\end{aligned}
 
 
 $$
@@ -135,7 +135,7 @@ So, for the piecewise functions $u(t-2)$ and $u(t-6),$ we have
 $$
 
 
-\begin{aligned}𝑢(𝑡−2) & =\begin{aligned}0,\, & 𝑡<2 \\ 1,\, & 𝑡≥2\end{aligned} \\ 𝑢(𝑡−6) & =\begin{aligned}0,\, & 𝑡<6 \\ 1,\, & 𝑡≥6.\end{aligned}\end{aligned}
+\begin{aligned}𝑢(𝑡−2) & =\begin{matrix}0,\, & 𝑡<2 \\ 1,\, & 𝑡≥2\end{matrix} \\ 𝑢(𝑡−6) & =\begin{matrix}0,\, & 𝑡<6 \\ 1,\, & 𝑡≥6.\end{matrix}\end{aligned}
 
 
 $$
@@ -155,7 +155,7 @@ So, for our Laplace transform, we have
 $$
 
 
-\begin{aligned}𝐹(𝑠) & =∫_{∞0}^{}𝑓(𝑡)𝑒^{−𝑠𝑡}\,d𝑡 \\ & =∫_{20}^{}0⋅𝑒^{−𝑠𝑡}\,d𝑡+∫_{62}^{}1⋅𝑒^{−𝑠𝑡}\,d𝑡+∫_{∞6}^{}2⋅𝑒^{−𝑠𝑡}\,d𝑡 \\ & =∫_{62}^{}𝑒^{−𝑠𝑡}\,d𝑡+∫_{∞6}^{}2𝑒^{−𝑠𝑡}\,d𝑡.\end{aligned}
+\begin{aligned}𝐹(𝑠) & =∫_{∞0}𝑓(𝑡)𝑒^{−𝑠𝑡}\,d𝑡 \\ & =∫_{20}0⋅𝑒^{−𝑠𝑡}\,d𝑡+∫_{62}1⋅𝑒^{−𝑠𝑡}\,d𝑡+∫_{∞6}2⋅𝑒^{−𝑠𝑡}\,d𝑡 \\ & =∫_{62}𝑒^{−𝑠𝑡}\,d𝑡+∫_{∞6}2𝑒^{−𝑠𝑡}\,d𝑡.\end{aligned}
 
 
 $$
@@ -167,7 +167,7 @@ For $s > 0,$ we calculate our Laplace transform as follows:
 $$
 
 
-\begin{aligned}𝐹(𝑠) & =∫_{62}^{}𝑒^{−𝑠𝑡}\,d𝑡+∫_{∞6}^{}2𝑒^{−𝑠𝑡}\,d𝑡 \\ & =∫_{62}^{}𝑒^{−𝑠𝑡}\,d𝑡+2\underset{𝑎→∞}{lim}∫_{𝑎6}^{}𝑒^{−𝑠𝑡}\,d𝑡 \\ & =[−\frac{𝑒^{−𝑠𝑡}}{𝑠}]_{62}^{}+2\underset{𝑎→∞}{lim}(−\frac{𝑒^{−𝑠𝑡}}{𝑠})_{𝑎6}^{} \\ & =−\frac{𝑒^{−6𝑠}}{𝑠}+\frac{𝑒^{−2𝑠}}{𝑠}−\frac{2}{𝑠}⋅\underset{𝑎→∞}{lim}(𝑒^{−𝑠𝑎}−𝑒^{−6𝑠}) \\ & =\frac{𝑒^{−2𝑠}}{𝑠}−\frac{𝑒^{−6𝑠}}{𝑠}−\frac{2}{𝑠}(0−𝑒^{−6𝑠}) \\ & =\frac{𝑒^{−2𝑠}}{𝑠}−\frac{𝑒^{−6𝑠}}{𝑠}+\frac{2𝑒^{−6𝑠}}{𝑠} \\ & =\frac{𝑒^{−2𝑠}}{𝑠}+\frac{𝑒^{−6𝑠}}{𝑠}\end{aligned}
+\begin{aligned}𝐹(𝑠) & =∫_{62}𝑒^{−𝑠𝑡}\,d𝑡+∫_{∞6}2𝑒^{−𝑠𝑡}\,d𝑡 \\ & =∫_{62}𝑒^{−𝑠𝑡}\,d𝑡+2\underset{𝑎→∞}{lim}∫_{𝑎6}𝑒^{−𝑠𝑡}\,d𝑡 \\ & =[−\frac{𝑒^{−𝑠𝑡}}{𝑠}]_{62}+2\underset{𝑎→∞}{lim}(−\frac{𝑒^{−𝑠𝑡}}{𝑠})_{𝑎6} \\ & =−\frac{𝑒^{−6𝑠}}{𝑠}+\frac{𝑒^{−2𝑠}}{𝑠}−\frac{2}{𝑠}⋅\underset{𝑎→∞}{lim}(𝑒^{−𝑠𝑎}−𝑒^{−6𝑠}) \\ & =\frac{𝑒^{−2𝑠}}{𝑠}−\frac{𝑒^{−6𝑠}}{𝑠}−\frac{2}{𝑠}(0−𝑒^{−6𝑠}) \\ & =\frac{𝑒^{−2𝑠}}{𝑠}−\frac{𝑒^{−6𝑠}}{𝑠}+\frac{2𝑒^{−6𝑠}}{𝑠} \\ & =\frac{𝑒^{−2𝑠}}{𝑠}+\frac{𝑒^{−6𝑠}}{𝑠}\end{aligned}
 
 
 $$
@@ -247,7 +247,7 @@ We apply the definition of the Laplace transform:
 $$
 
 
-\begin{aligned}L{𝑓(𝑡)} & =𝐹(𝑠)=∫_{∞0}^{}𝑓(𝑡)𝑒^{−𝑠𝑡}\,d𝑡\end{aligned}
+\begin{aligned}L{𝑓(𝑡)} & =𝐹(𝑠)=∫_{∞0}𝑓(𝑡)𝑒^{−𝑠𝑡}\,d𝑡\end{aligned}
 
 
 $$
@@ -267,7 +267,7 @@ we have
 $$
 
 
-\begin{aligned}𝐹(𝑠) & =∫_{∞0}^{}𝑓(𝑡)𝑒^{−𝑠𝑡}\,d𝑡 \\ & =∫_{30}^{}𝑒^{2𝑡}⋅𝑒^{−𝑠𝑡}\,d𝑡+∫_{∞3}^{}1⋅𝑒^{−𝑠𝑡}\,d𝑡 \\ & =∫_{30}^{}𝑒^{2𝑡−𝑠𝑡}\,d𝑡+∫_{∞3}^{}𝑒^{−𝑠𝑡}\,d𝑡 \\ & =∫_{30}^{}𝑒^{(2−𝑠)𝑡}\,d𝑡+∫_{∞3}^{}𝑒^{−𝑠𝑡}\,d𝑡.\end{aligned}
+\begin{aligned}𝐹(𝑠) & =∫_{∞0}𝑓(𝑡)𝑒^{−𝑠𝑡}\,d𝑡 \\ & =∫_{30}𝑒^{2𝑡}⋅𝑒^{−𝑠𝑡}\,d𝑡+∫_{∞3}1⋅𝑒^{−𝑠𝑡}\,d𝑡 \\ & =∫_{30}𝑒^{2𝑡−𝑠𝑡}\,d𝑡+∫_{∞3}𝑒^{−𝑠𝑡}\,d𝑡 \\ & =∫_{30}𝑒^{(2−𝑠)𝑡}\,d𝑡+∫_{∞3}𝑒^{−𝑠𝑡}\,d𝑡.\end{aligned}
 
 
 $$
@@ -279,7 +279,7 @@ For $s > 0,$ we calculate our Laplace transform as follows:
 $$
 
 
-\begin{aligned}𝐹(𝑠) & =∫_{30}^{}𝑒^{(2−𝑠)𝑡}\,d𝑡+∫_{∞3}^{}𝑒^{−𝑠𝑡}\,d𝑡 \\ & =\frac{1}{2−𝑠}[𝑒^{(2−𝑠)𝑡}]_{30}^{}+∫_{∞3}^{}𝑒^{−𝑠𝑡}\,d𝑡 \\ & =\frac{𝑒^{3(2−𝑠)}−1}{2−𝑠}+\underset{𝑎→∞}{lim}∫_{𝑎3}^{}𝑒^{−𝑠𝑡}\,d𝑡 \\ & =\frac{𝑒^{3(2−𝑠)}−1}{2−𝑠}+\underset{𝑎→∞}{lim}(\frac{−𝑒^{−𝑠𝑡}}{𝑠})_{𝑎3}^{} \\ & =\frac{𝑒^{3(2−𝑠)}−1}{2−𝑠}−\frac{1}{𝑠}⋅\underset{𝑎→∞}{lim}(𝑒^{−𝑎𝑠}−𝑒^{−3𝑠}) \\ & =\frac{𝑒^{3(2−𝑠)}−1}{2−𝑠}−\frac{1}{𝑠}⋅(0−𝑒^{−3𝑠}) \\ & =\frac{𝑒^{3(2−𝑠)}−1}{2−𝑠}+\frac{𝑒^{−3𝑠}}{𝑠}\end{aligned}
+\begin{aligned}𝐹(𝑠) & =∫_{30}𝑒^{(2−𝑠)𝑡}\,d𝑡+∫_{∞3}𝑒^{−𝑠𝑡}\,d𝑡 \\ & =\frac{1}{2−𝑠}[𝑒^{(2−𝑠)𝑡}]_{30}+∫_{∞3}𝑒^{−𝑠𝑡}\,d𝑡 \\ & =\frac{𝑒^{3(2−𝑠)}−1}{2−𝑠}+\underset{𝑎→∞}{lim}∫_{𝑎3}𝑒^{−𝑠𝑡}\,d𝑡 \\ & =\frac{𝑒^{3(2−𝑠)}−1}{2−𝑠}+\underset{𝑎→∞}{lim}(\frac{−𝑒^{−𝑠𝑡}}{𝑠})_{𝑎3} \\ & =\frac{𝑒^{3(2−𝑠)}−1}{2−𝑠}−\frac{1}{𝑠}⋅\underset{𝑎→∞}{lim}(𝑒^{−𝑎𝑠}−𝑒^{−3𝑠}) \\ & =\frac{𝑒^{3(2−𝑠)}−1}{2−𝑠}−\frac{1}{𝑠}⋅(0−𝑒^{−3𝑠}) \\ & =\frac{𝑒^{3(2−𝑠)}−1}{2−𝑠}+\frac{𝑒^{−3𝑠}}{𝑠}\end{aligned}
 
 
 $$

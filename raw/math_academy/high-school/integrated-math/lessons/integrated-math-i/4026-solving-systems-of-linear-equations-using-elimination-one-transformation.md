@@ -43,7 +43,7 @@ $$
 
 
 
-\begin{aligned}\begin{aligned}𝑥+2𝑦 & =1 \\ −𝑥+𝑦 & =2 \\ (2𝑦+𝑦) & =(1+2) \\ 3𝑦 & =3 \\ 𝑦 & =1\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}𝑥+2𝑦 & =1 \\ −𝑥+𝑦 & =2 \\ (2𝑦+𝑦) & =(1+2) \\ 3𝑦 & =3 \\ 𝑦 & =1\end{matrix}\end{aligned}
 
 
 
@@ -55,7 +55,7 @@ $$
 
 
 
-\begin{aligned}\begin{aligned}𝑥−𝑦 & =−2 \\ 𝑥−(1) & =−2 \\ 𝑥 & =−1\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}𝑥−𝑦 & =−2 \\ 𝑥−(1) & =−2 \\ 𝑥 & =−1\end{matrix}\end{aligned}
 
 
 
@@ -105,7 +105,7 @@ $$
 
 
 
-\begin{aligned}\begin{aligned}−2𝑎−8𝑏 & =−2 \\ 2𝑎+𝑏 & =−5 \\ (−8𝑏+𝑏) & =(−2−5) \\ −7𝑏 & =−7\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}−2𝑎−8𝑏 & =−2 \\ 2𝑎+𝑏 & =−5 \\ (−8𝑏+𝑏) & =(−2−5) \\ −7𝑏 & =−7\end{matrix}\end{aligned}
 
 
 
@@ -205,7 +205,7 @@ $$
 
 
 
-\begin{aligned}\begin{aligned}2𝑥+3𝑦 & =8 \\ −2𝑥+4𝑦 & =6 \\ (3𝑦+4𝑦) & =(8+6) \\ 7𝑦 & =14 \\ 𝑦 & =2\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}2𝑥+3𝑦 & =8 \\ −2𝑥+4𝑦 & =6 \\ (3𝑦+4𝑦) & =(8+6) \\ 7𝑦 & =14 \\ 𝑦 & =2\end{matrix}\end{aligned}
 
 
 
@@ -217,7 +217,7 @@ $$
 
 
 
-\begin{aligned}\begin{aligned}𝑥−2𝑦 & =−3 \\ 𝑥−2(2) & =−3 \\ 𝑥−4 & =−3 \\ 𝑥 & =1\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}𝑥−2𝑦 & =−3 \\ 𝑥−2(2) & =−3 \\ 𝑥−4 & =−3 \\ 𝑥 & =1\end{matrix}\end{aligned}
 
 
 
@@ -263,7 +263,7 @@ $$
 
 
 
-\begin{aligned}\begin{aligned}5𝑢−6𝑣 & =3 \\ −9𝑢+6𝑣 & =−15 \\ (5𝑢−9𝑢) & =(3−15) \\ −4𝑢 & =−12 \\ 𝑢 & =3\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}5𝑢−6𝑣 & =3 \\ −9𝑢+6𝑣 & =−15 \\ (5𝑢−9𝑢) & =(3−15) \\ −4𝑢 & =−12 \\ 𝑢 & =3\end{matrix}\end{aligned}
 
 
 

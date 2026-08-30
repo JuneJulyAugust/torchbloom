@@ -311,7 +311,7 @@ Finally, we can solve for the original variables $x$ and $y{:}$
 $$
 
 
-\begin{aligned}\begin{aligned}𝑤=2 \\ 𝑧=7\end{aligned}\,⟹\,\begin{aligned}5𝑥=2 \\ 6𝑦=7\end{aligned}\,⟹\,\begin{aligned}𝑥=\frac{2}{5} \\ 𝑦=\frac{7}{6}\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}𝑤=2 \\ 𝑧=7\end{matrix}\,⟹\,\begin{matrix}5𝑥=2 \\ 6𝑦=7\end{matrix}\,⟹\,\begin{matrix}𝑥=\frac{2}{5} \\ 𝑦=\frac{7}{6}\end{matrix}\end{aligned}
 
 
 $$

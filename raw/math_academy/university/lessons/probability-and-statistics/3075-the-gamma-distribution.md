@@ -65,7 +65,7 @@ This is the probability density function of an exponential distribution with rat
 $$
 
 
-\Gamma(1, \lambda)=\textrm{Exp}(\lambda).
+\Gamma(1, \lambda)=\text{Exp}(\lambda).
 
 
 $$
@@ -74,9 +74,9 @@ In this sense, the gamma distribution extends the exponential distribution. Let'
 
 Recall that if a call center receives $6$ calls every minute on average, and we're interested to know how many minutes $X$ will pass until the call center receives the $\alpha$th call, then $X\sim \Gamma(\alpha, 6).$
 
-Now, by setting $\alpha = 1,$ we specify that we're interested in the total number of minutes that pass until the *first* call is received. But this can simply be modeled using the random variable $X\sim \textrm{Exp}(6).$
+Now, by setting $\alpha = 1,$ we specify that we're interested in the total number of minutes that pass until the *first* call is received. But this can simply be modeled using the random variable $X\sim \text{Exp}(6).$
 
-In general, if $X_1, X_2, \ldots X_{\alpha} \sim \textrm{Exp}(\lambda)$ are independent and identically distributed, then
+In general, if $X_1, X_2, \ldots X_{\alpha} \sim \text{Exp}(\lambda)$ are independent and identically distributed, then
 
 $$
 
@@ -151,7 +151,7 @@ Finally, we can express $P\left(X < 1\right)$ as follows:
 $$
 
 
-\begin{aligned}𝑃(𝑋<1) & =∫_{10}^{}𝑓(𝑥)\,d𝑥 \\ & =∫_{10}^{}\frac{1}{3\,750}𝑥^{3}𝑒^{−𝑥/5}\,d𝑥 \\ & =\frac{1}{3\,750}∫_{10}^{}𝑥^{3}𝑒^{−𝑥/5}\,d𝑥\end{aligned}
+\begin{aligned}𝑃(𝑋<1) & =∫_{10}𝑓(𝑥)\,d𝑥 \\ & =∫_{10}\frac{1}{3\,750}𝑥^{3}𝑒^{−𝑥/5}\,d𝑥 \\ & =\frac{1}{3\,750}∫_{10}𝑥^{3}𝑒^{−𝑥/5}\,d𝑥\end{aligned}
 
 
 $$
@@ -163,7 +163,7 @@ If $X \sim \Gamma(\alpha, \lambda)$, then we can show that the following formula
 $$
 
 
-\textrm E[X]=\dfrac{\alpha}{\lambda},\qquad \textrm{Var}[X]=\dfrac{\alpha}{\lambda^2}
+\textrm E[X]=\dfrac{\alpha}{\lambda},\qquad \text{Var}[X]=\dfrac{\alpha}{\lambda^2}
 
 
 $$
@@ -190,7 +190,7 @@ This result makes intuitive sense. If the call center receives an average of $6$
 
 #### Question
 
-Let $\Gamma(\alpha, \lambda)$ denote the gamma distribution with shape parameter $\alpha$ and rate parameter $\lambda.$ Given that $X \sim \Gamma(3,4),$ compute $\textrm E[X]$ and $\textrm{Var}[X].$
+Let $\Gamma(\alpha, \lambda)$ denote the gamma distribution with shape parameter $\alpha$ and rate parameter $\lambda.$ Given that $X \sim \Gamma(3,4),$ compute $\textrm E[X]$ and $\text{Var}[X].$
 
 #### Explanation
 
@@ -303,7 +303,7 @@ Finally, we compute $P\left(X < 0.5 \right)$ as follows:
 $$
 
 
-\begin{aligned}𝑃(𝑋<0.5) & =∫_{0.50}^{}𝑓(𝑥)\,d𝑥 \\ & =∫_{0.50}^{}\frac{5\,000}{3}𝑥^{3}𝑒^{−10𝑥}\,d𝑥 \\ & =\frac{5\,000}{3}∫_{0.50}^{}𝑥^{3}𝑒^{−10𝑥}\,d𝑥 \\ & ≈\frac{5\,000}{3}⋅(0.000\,441) \\ & ≈0.735\end{aligned}
+\begin{aligned}𝑃(𝑋<0.5) & =∫_{0.50}𝑓(𝑥)\,d𝑥 \\ & =∫_{0.50}\frac{5\,000}{3}𝑥^{3}𝑒^{−10𝑥}\,d𝑥 \\ & =\frac{5\,000}{3}∫_{0.50}𝑥^{3}𝑒^{−10𝑥}\,d𝑥 \\ & ≈\frac{5\,000}{3}⋅(0.000\,441) \\ & ≈0.735\end{aligned}
 
 
 $$

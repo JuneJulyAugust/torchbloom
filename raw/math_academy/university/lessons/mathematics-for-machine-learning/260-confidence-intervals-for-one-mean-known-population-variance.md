@@ -118,7 +118,7 @@ Now, here's the trick. We solve the inequality inside the parentheses of the las
 $$
 
 
-\begin{aligned}−1.96< & \,𝑍<1.96 \\ −1.96< & \,\frac{\overset{𝑥}{}−𝜇}{𝜎/\sqrt{√𝑛}}<1.96 \\ −1.96⋅\frac{𝜎}{\sqrt{√𝑛}}< & \,\overset{𝑥}{}−𝜇<1.96⋅\frac{𝜎}{\sqrt{√𝑛}} \\ −\overset{𝑥}{}−1.96⋅\frac{𝜎}{\sqrt{√𝑛}}< & \,−𝜇\,<−\overset{𝑥}{}+1.96⋅\frac{𝜎}{\sqrt{√𝑛}} \\ \overset{𝑥}{}+1.96⋅\frac{𝜎}{\sqrt{√𝑛}}> & \,𝜇>\overset{𝑥}{}−1.96⋅\frac{𝜎}{\sqrt{√𝑛}} \\ \overset{𝑥}{}−1.96⋅\frac{𝜎}{\sqrt{√𝑛}}< & \,𝜇<\overset{𝑥}{}+1.96⋅\frac{𝜎}{\sqrt{√𝑛}}\end{aligned}
+\begin{aligned}−1.96< & \,𝑍<1.96 \\ −1.96< & \,\frac{\overset{𝑥}{}−𝜇}{𝜎/\sqrt{𝑛}}<1.96 \\ −1.96⋅\frac{𝜎}{\sqrt{𝑛}}< & \,\overset{𝑥}{}−𝜇<1.96⋅\frac{𝜎}{\sqrt{𝑛}} \\ −\overset{𝑥}{}−1.96⋅\frac{𝜎}{\sqrt{𝑛}}< & \,−𝜇\,<−\overset{𝑥}{}+1.96⋅\frac{𝜎}{\sqrt{𝑛}} \\ \overset{𝑥}{}+1.96⋅\frac{𝜎}{\sqrt{𝑛}}> & \,𝜇>\overset{𝑥}{}−1.96⋅\frac{𝜎}{\sqrt{𝑛}} \\ \overset{𝑥}{}−1.96⋅\frac{𝜎}{\sqrt{𝑛}}< & \,𝜇<\overset{𝑥}{}+1.96⋅\frac{𝜎}{\sqrt{𝑛}}\end{aligned}
 
 
 $$
@@ -202,7 +202,7 @@ So, our confidence interval can be written as follows:
 $$
 
 
-\begin{aligned}(\overset{𝑥}{}−[margin of error], & \,\overset{𝑥}{}+[margin of error]) \\ (\overset{𝑥}{}−[z-score]⋅[standard error], & \,\overset{𝑥}{}+[z-score]⋅[standard error]) \\ (\overset{𝑥}{}−𝑧_{𝛼/2}⋅\frac{𝜎}{\sqrt{√𝑛}}, & \,\overset{𝑥}{}+𝑧_{𝛼/2}⋅\frac{𝜎}{\sqrt{√𝑛}})\end{aligned}
+\begin{aligned}(\overset{𝑥}{}−[margin of error], & \,\overset{𝑥}{}+[margin of error]) \\ (\overset{𝑥}{}−[z-score]⋅[standard error], & \,\overset{𝑥}{}+[z-score]⋅[standard error]) \\ (\overset{𝑥}{}−𝑧_{𝛼/2}⋅\frac{𝜎}{\sqrt{𝑛}}, & \,\overset{𝑥}{}+𝑧_{𝛼/2}⋅\frac{𝜎}{\sqrt{𝑛}})\end{aligned}
 
 
 $$
@@ -278,7 +278,7 @@ Therefore, a $90\%$ confidence interval for the population mean $\mu$ is the fol
 $$
 
 
-\begin{aligned}−5±1.645⋅\frac{2}{\sqrt{√9}} \\ −5±1.097\end{aligned}
+\begin{aligned}−5±1.645⋅\frac{2}{\sqrt{9}} \\ −5±1.097\end{aligned}
 
 
 $$
@@ -388,7 +388,7 @@ Therefore, the $95\%$ confidence interval for the population mean $\mu$ is the f
 $$
 
 
-\begin{aligned}24±1.96⋅\frac{7}{\sqrt{√196}} \\ 24±0.98\end{aligned}
+\begin{aligned}24±1.96⋅\frac{7}{\sqrt{196}} \\ 24±0.98\end{aligned}
 
 
 $$
@@ -466,7 +466,7 @@ Therefore, the $90\%$ confidence interval for the population mean $\mu$ is the f
 $$
 
 
-\begin{aligned}7.5±1.645⋅\frac{5}{\sqrt{√90}} \\ 7.5±0.867\end{aligned}
+\begin{aligned}7.5±1.645⋅\frac{5}{\sqrt{90}} \\ 7.5±0.867\end{aligned}
 
 
 $$

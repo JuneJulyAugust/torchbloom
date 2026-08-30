@@ -41,7 +41,7 @@ and we have
 $$
 
 
-\begin{aligned}𝑀 & ∼[\begin{aligned}2 & 6 & −2 \\ 3 & −1 & 2\end{aligned}] & 𝑅_{1}:=\frac{1}{2}𝑅_{1} \\ & ∼[\begin{aligned}1 & 3 & −1 \\ 3 & −1 & 2\end{aligned}]. & \end{aligned}
+\begin{aligned}𝑀 & ∼[\begin{matrix}2 & 6 & −2 \\ 3 & −1 & 2\end{matrix}] & 𝑅_{1}:=\frac{1}{2}𝑅_{1} \\ & ∼[\begin{matrix}1 & 3 & −1 \\ 3 & −1 & 2\end{matrix}]. & \end{aligned}
 
 
 $$
@@ -61,7 +61,7 @@ and we have
 $$
 
 
-\begin{aligned}𝑀 & ∼[\begin{aligned}1 & 3 & −1 \\ 3 & −1 & 2\end{aligned}] & 𝑅_{2}:=𝑅_{2}+(−3)𝑅_{1} \\ & ∼[\begin{aligned}1 & 3 & −1 \\ 0 & −10 & 5\end{aligned}]. & \end{aligned}
+\begin{aligned}𝑀 & ∼[\begin{matrix}1 & 3 & −1 \\ 3 & −1 & 2\end{matrix}] & 𝑅_{2}:=𝑅_{2}+(−3)𝑅_{1} \\ & ∼[\begin{matrix}1 & 3 & −1 \\ 0 & −10 & 5\end{matrix}]. & \end{aligned}
 
 
 $$
@@ -81,7 +81,7 @@ and we get $M$ in row echelon form:
 $$
 
 
-\begin{aligned}𝑀 & ∼[\begin{aligned}1 & 3 & −1 \\ 0 & −10 & 5\end{aligned}] & 𝑅_{2}:=\frac{1}{−10}𝑅_{2} \\ & ∼\begin{aligned}1 & 3 & −1 \\ 0 & 1 & −\frac{1}{2}\end{aligned}. & \end{aligned}
+\begin{aligned}𝑀 & ∼[\begin{matrix}1 & 3 & −1 \\ 0 & −10 & 5\end{matrix}] & 𝑅_{2}:=\frac{1}{−10}𝑅_{2} \\ & ∼\begin{matrix}1 & 3 & −1 \\ 0 & 1 & −\frac{1}{2}\end{matrix}. & \end{aligned}
 
 
 $$
@@ -155,7 +155,7 @@ Reducing $M$ to row echelon form, we have
 $$
 
 
-\begin{aligned}𝑀 & ∼[\begin{aligned}1 & 2 & 0 \\ 3 & −2 & −8\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+(−3)𝑅_{1} \\ & ∼[\begin{aligned}1 & 2 & 0 \\ 0 & −8 & −8\end{aligned}] & 𝑅_{2} & :=−\frac{1}{8}𝑅_{2} \\ & ∼[\begin{aligned}1 & 2 & 0 \\ 0 & 1 & 1\end{aligned}]. & & \end{aligned}
+\begin{aligned}𝑀 & ∼[\begin{matrix}1 & 2 & 0 \\ 3 & −2 & −8\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+(−3)𝑅_{1} \\ & ∼[\begin{matrix}1 & 2 & 0 \\ 0 & −8 & −8\end{matrix}] & 𝑅_{2} & :=−\frac{1}{8}𝑅_{2} \\ & ∼[\begin{matrix}1 & 2 & 0 \\ 0 & 1 & 1\end{matrix}]. & & \end{aligned}
 
 
 $$
@@ -215,7 +215,7 @@ Reducing $M$ to row echelon form, we have
 $$
 
 
-\begin{aligned}𝑀 & ∼[\begin{aligned}−1 & 5 & 5 \\ 1 & −6 & 5\end{aligned}] & 𝑅_{1} & :=−𝑅_{1} \\ & ∼[\begin{aligned}1 & −5 & −5 \\ 1 & −6 & 5\end{aligned}] & 𝑅_{2} & :=𝑅_{2}+(−1)𝑅_{1} \\ & ∼[\begin{aligned}1 & −5 & −5 \\ 0 & −1 & 10\end{aligned}] & 𝑅_{2} & :=−𝑅_{2} \\ & ∼[\begin{aligned}1 & −5 & −5 \\ 0 & 1 & −10\end{aligned}]. & & \end{aligned}
+\begin{aligned}𝑀 & ∼[\begin{matrix}−1 & 5 & 5 \\ 1 & −6 & 5\end{matrix}] & 𝑅_{1} & :=−𝑅_{1} \\ & ∼[\begin{matrix}1 & −5 & −5 \\ 1 & −6 & 5\end{matrix}] & 𝑅_{2} & :=𝑅_{2}+(−1)𝑅_{1} \\ & ∼[\begin{matrix}1 & −5 & −5 \\ 0 & −1 & 10\end{matrix}] & 𝑅_{2} & :=−𝑅_{2} \\ & ∼[\begin{matrix}1 & −5 & −5 \\ 0 & 1 & −10\end{matrix}]. & & \end{aligned}
 
 
 $$

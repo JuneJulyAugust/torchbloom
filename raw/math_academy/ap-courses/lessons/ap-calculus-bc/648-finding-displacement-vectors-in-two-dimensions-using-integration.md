@@ -19,7 +19,7 @@ We need to do the reverse of differentiation, so we integrate $\mathbf{v}(t)$ wi
 $$
 
 
-\mathbf{v}(t) = \frac{\textrm{d}\mathbf{r}}{\textrm{d}t} \quad\Longrightarrow\quad \mathbf{r}(t) = \int \mathbf{v}(t)\,\textrm{d}t.
+\mathbf{v}(t) = \frac{\text{d}\mathbf{r}}{\text{d}t} \quad\Longrightarrow\quad \mathbf{r}(t) = \int \mathbf{v}(t)\,\text{d}t.
 
 
 $$

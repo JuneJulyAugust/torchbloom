@@ -50,7 +50,7 @@ Notice that the given graph is connected but contains the cycle $v_1-v_2-v_3-v_4
 
 Therefore:
 
-The above graph is $\boxed{\color{blue}\textrm{not a tree}}$ because it has $𝑣_{1}−𝑣_{2}−𝑣_{3}−𝑣_{4}−𝑣_{5}−𝑣_{1}$
+The above graph is $\boxed{\color{blue}\text{not a tree}}$ because it has $𝑣_{1}−𝑣_{2}−𝑣_{3}−𝑣_{4}−𝑣_{5}−𝑣_{1}$
 
 ### Spanning Trees
 

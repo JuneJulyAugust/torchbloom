@@ -30,7 +30,7 @@ $$
 
 
 
-\begin{aligned}sin⁡𝑥−\sqrt{√3}cos⁡𝑥 & =0 \\ \frac{sin⁡𝑥}{cos⁡𝑥}−\frac{\sqrt{√3}cos⁡𝑥}{cos⁡𝑥} & =0 \\ \frac{sin⁡𝑥}{cos⁡𝑥}−\frac{\sqrt{√3}cos⁡𝑥}{cos⁡𝑥} & =0 \\ \frac{sin⁡𝑥}{cos⁡𝑥}−\sqrt{√3} & =0 \\ tan⁡𝑥−\sqrt{√3} & =0.\end{aligned}
+\begin{aligned}sin⁡𝑥−\sqrt{3}cos⁡𝑥 & =0 \\ \frac{sin⁡𝑥}{cos⁡𝑥}−\frac{\sqrt{3}cos⁡𝑥}{cos⁡𝑥} & =0 \\ \frac{sin⁡𝑥}{cos⁡𝑥}−\frac{\sqrt{3}cos⁡𝑥}{cos⁡𝑥} & =0 \\ \frac{sin⁡𝑥}{cos⁡𝑥}−\sqrt{3} & =0 \\ tan⁡𝑥−\sqrt{3} & =0.\end{aligned}
 
 
 

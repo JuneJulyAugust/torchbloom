@@ -162,29 +162,29 @@ Given that $A$ and $B$ are sets, $\overline{A \cap B} = \overline{A} \cup \overl
 
 A part of the proof showing that $\overline{A \cap B} \subseteq \overline{A} \cup \overline{B}$ is given below.
 
-$\textrm{L1}{:}\:$ $x \in \overline{A \cap B}$
+$\text{L1}{:}\:$ $x \in \overline{A \cap B}$
 
-$\textrm{L2}{:}\:$ $\Rightarrow x \notin A \cap B$
+$\text{L2}{:}\:$ $\Rightarrow x \notin A \cap B$
 
-$\textrm{L3}{:}\:$ $\Rightarrow \lnot (x \in A \cap B)$
+$\text{L3}{:}\:$ $\Rightarrow \lnot (x \in A \cap B)$
 
-$\textrm{L4}{:}\:$ $\Rightarrow \lnot ((x \in A) \land (x \in B))$
+$\text{L4}{:}\:$ $\Rightarrow \lnot ((x \in A) \land (x \in B))$
 
-$\textrm{L5}{:}\:$ $\Rightarrow \lnot (x \in A) \lor \lnot (x \in B)$
+$\text{L5}{:}\:$ $\Rightarrow \lnot (x \in A) \lor \lnot (x \in B)$
 
-$\textrm{L6}{:}\:$ $\Rightarrow (x \notin A) \lor (x \notin B)$
+$\text{L6}{:}\:$ $\Rightarrow (x \notin A) \lor (x \notin B)$
 
-$\textrm{L7}{:}\:$ $\Rightarrow (x \in \overline{A}) \lor (x \in \overline{B})$
+$\text{L7}{:}\:$ $\Rightarrow (x \in \overline{A}) \lor (x \in \overline{B})$
 
-$\textrm{L8}{:}\:$ $\Rightarrow x \in \overline{A} \cup \overline{B}$
+$\text{L8}{:}\:$ $\Rightarrow x \in \overline{A} \cup \overline{B}$
 
 Complete the blanks in the following reasoning.
 
-- Line $\textrm{L5}$ follows from line $\textrm{L4}$ by $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.$
+- Line $\text{L5}$ follows from line $\text{L4}$ by $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.$
 
-- Line $\textrm{L7}$ follows from line $\textrm{L6}$ by the definition of $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.$
+- Line $\text{L7}$ follows from line $\text{L6}$ by the definition of $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.$
 
-- Line $\textrm{L8}$ follows from line $\textrm{L7}$ by the definition of $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.$
+- Line $\text{L8}$ follows from line $\text{L7}$ by the definition of $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.$
 
 - To complete the given proof, we must also show that if $x \in$ $\_\_\_\_\_\_\_\_,$ then $x\in\, \_\_\_\_\_\_\_\_.$
 
@@ -192,11 +192,11 @@ Complete the blanks in the following reasoning.
 
 Let's examine each statement in turn. Assume $X$ and $Y$ are sets, and $P$ and $Q$ are statements.
 
-- First, we consider lines $\textrm{L4}$ and $\textrm{L5}.$ De Morgan's law for conjunctions states the following: Therefore, line $\textrm{L5}$ follows from line $\textrm{L4}$ by $\boxed{\color{blue}\text{De Morgan's law}}$ $\boxed{\color{blue}\text{for conjunctions}}.$
+- First, we consider lines $\text{L4}$ and $\text{L5}.$ De Morgan's law for conjunctions states the following: Therefore, line $\text{L5}$ follows from line $\text{L4}$ by $\boxed{\color{blue}\text{De Morgan's law}}$ $\boxed{\color{blue}\text{for conjunctions}}.$
 
-- Next, we consider lines $\textrm{L6}$ and $\textrm{L7}.$ According to the definition of the set complement, we have the following equivalence: Therefore, line $\textrm{L7}$ follows from line $\textrm{L6}$ by $\boxed{\color{blue}\text{the definition of}}$ $\boxed{\color{blue}\text{the set complement}}.$
+- Next, we consider lines $\text{L6}$ and $\text{L7}.$ According to the definition of the set complement, we have the following equivalence: Therefore, line $\text{L7}$ follows from line $\text{L6}$ by $\boxed{\color{blue}\text{the definition of}}$ $\boxed{\color{blue}\text{the set complement}}.$
 
-- Then, we consider lines $\textrm{L7}$ and $\textrm{L8}.$ According to the definition of the union of sets, we have the following equivalence: Therefore, line $\textrm{L8}$ follows from line $\textrm{L7}$ by the definition of $\boxed{\color{blue}\text{the union of sets}}.$
+- Then, we consider lines $\text{L7}$ and $\text{L8}.$ According to the definition of the union of sets, we have the following equivalence: Therefore, line $\text{L8}$ follows from line $\text{L7}$ by the definition of $\boxed{\color{blue}\text{the union of sets}}.$
 
 - Finally, to prove that two sets are equal, we must show that a fixed but arbitrary element of one set is an element of another, and vice versa. Therefore, to complete the given proof, we must also demonstrate that if $x \in \boxed{\color{blue}\overline{A} \cup \overline{B}}$ then $x \in \boxed{\color{blue}\overline{A \cap B}}.$
 
@@ -244,39 +244,39 @@ Given that $A$ and $B$ are sets, $\overline{A \cup B} = \overline{A} \cap \overl
 
 A part of the proof showing that $\overline{A \cup B} \subseteq \overline{A} \cap \overline{B}$ is given below.
 
-$\textrm{L1}{:}\:$ $x \in \overline{A \cup B}$
+$\text{L1}{:}\:$ $x \in \overline{A \cup B}$
 
-$\textrm{L2}{:}\:$ $\Rightarrow x \notin A \cup B$
+$\text{L2}{:}\:$ $\Rightarrow x \notin A \cup B$
 
-$\textrm{L3}{:}\:$ $\Rightarrow \lnot (x \in A \cup B)$
+$\text{L3}{:}\:$ $\Rightarrow \lnot (x \in A \cup B)$
 
-$\textrm{L4}{:}\:$ $\Rightarrow \lnot ((x \in A) \lor (x \in B))$
+$\text{L4}{:}\:$ $\Rightarrow \lnot ((x \in A) \lor (x \in B))$
 
-$\textrm{L5}{:}\:$ $\Rightarrow (\lnot (x \in A))\land (\lnot (x \in B))$
+$\text{L5}{:}\:$ $\Rightarrow (\lnot (x \in A))\land (\lnot (x \in B))$
 
-$\textrm{L6}{:}\:$ $\Rightarrow (x \notin A) \land (x \notin B)$
+$\text{L6}{:}\:$ $\Rightarrow (x \notin A) \land (x \notin B)$
 
-$\textrm{L7}{:}\:$ $\Rightarrow (x \in \overline{A}) \land (x \in \overline{B})$
+$\text{L7}{:}\:$ $\Rightarrow (x \in \overline{A}) \land (x \in \overline{B})$
 
-$\textrm{L8}{:}\:$ $\Rightarrow x \in \overline{A} \cap \overline{B}$
+$\text{L8}{:}\:$ $\Rightarrow x \in \overline{A} \cap \overline{B}$
 
 Complete the blanks in the following reasoning.
 
-- Line $\textrm{L3}$ follows from line $\textrm{L2}$ by the definition of $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\,$.
+- Line $\text{L3}$ follows from line $\text{L2}$ by the definition of $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\,$.
 
-- Line $\textrm{L5}$ follows from line $\textrm{L4}$ by applying $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\,$.
+- Line $\text{L5}$ follows from line $\text{L4}$ by applying $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\,$.
 
-- Line $\textrm{L7}$ follows from line $\textrm{L6}$ by the definition of $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\,$.
+- Line $\text{L7}$ follows from line $\text{L6}$ by the definition of $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\,$.
 
 #### Explanation
 
 Let's examine each statement in turn. Assume $X$ and $Y$ are sets, and $P$ and $Q$ are statements.
 
-- First, we consider lines $\textrm{L2}$ and $\textrm{L3}.$ According to the definition of negation, we have the following equivalence: Therefore, line $\textrm{L3}$ follows from line $\textrm{L2}$ by the definition of $\boxed{\color{blue}\text{negation}}.$
+- First, we consider lines $\text{L2}$ and $\text{L3}.$ According to the definition of negation, we have the following equivalence: Therefore, line $\text{L3}$ follows from line $\text{L2}$ by the definition of $\boxed{\color{blue}\text{negation}}.$
 
-- Next, we consider lines $\textrm{L4}$ and $\textrm{L5}.$ According to De Morgan's law for disjunctions, we have the following equivalence: Therefore, $\textrm{L5}$ follows from $\textrm{L4}$ by applying $\boxed{\color{blue}\textrm{De Morgan's law for disjunctions}}.$
+- Next, we consider lines $\text{L4}$ and $\text{L5}.$ According to De Morgan's law for disjunctions, we have the following equivalence: Therefore, $\text{L5}$ follows from $\text{L4}$ by applying $\boxed{\color{blue}\text{De Morgan's law for disjunctions}}.$
 
-- Finally, we consider lines $\textrm{L6}$ and $\textrm{L7}.$ According to the definition of the set complement, we have the following equivalence: Therefore, line $\textrm{L7}$ follows from line $\textrm{L6}$ by the definition of $\boxed{\color{blue}\text{the set complement}}.$
+- Finally, we consider lines $\text{L6}$ and $\text{L7}.$ According to the definition of the set complement, we have the following equivalence: Therefore, line $\text{L7}$ follows from line $\text{L6}$ by the definition of $\boxed{\color{blue}\text{the set complement}}.$
 
 ### Using Biconditionals
 
@@ -308,36 +308,36 @@ Given that $A$ and $B$ are sets, $\overline{A \cap B} = \overline{A} \cup \overl
 
 A proof of this statement is given below.
 
-$\textrm{L1}{:}\:$ $x \in \overline{A \cap B}$
+$\text{L1}{:}\:$ $x \in \overline{A \cap B}$
 
-$\textrm{L2}{:}\:$ $\Leftrightarrow x \notin A \cap B$
+$\text{L2}{:}\:$ $\Leftrightarrow x \notin A \cap B$
 
-$\textrm{L3}{:}\:$ $\Leftrightarrow \lnot (x \in A \cap B)$
+$\text{L3}{:}\:$ $\Leftrightarrow \lnot (x \in A \cap B)$
 
-$\textrm{L4}{:}\:$ $\Leftrightarrow \lnot ((x \in A) \land (x \in B))$
+$\text{L4}{:}\:$ $\Leftrightarrow \lnot ((x \in A) \land (x \in B))$
 
-$\textrm{L5}{:}\:$ $\Leftrightarrow (\lnot (x \in A)) \lor (\lnot (x \in B))$
+$\text{L5}{:}\:$ $\Leftrightarrow (\lnot (x \in A)) \lor (\lnot (x \in B))$
 
-$\textrm{L6}{:}\:$ $\Leftrightarrow (x \notin A) \lor (x \notin B)$
+$\text{L6}{:}\:$ $\Leftrightarrow (x \notin A) \lor (x \notin B)$
 
-$\textrm{L7}{:}\:$ $\Leftrightarrow (x \in \overline{A}) \lor (x \in \overline{B})$
+$\text{L7}{:}\:$ $\Leftrightarrow (x \in \overline{A}) \lor (x \in \overline{B})$
 
-$\textrm{L8}{:}\:$ $\Leftrightarrow x \in \overline{A} \cup \overline{B}$
+$\text{L8}{:}\:$ $\Leftrightarrow x \in \overline{A} \cup \overline{B}$
 
 Complete the blanks in the following reasoning.
 
-- Line $\textrm{L2}$ follows from line $\textrm{L1}$ by the definition of $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.$
+- Line $\text{L2}$ follows from line $\text{L1}$ by the definition of $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.$
 
-- Line $\textrm{L5}$ follows from line $\textrm{L4}$ by $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.$
+- Line $\text{L5}$ follows from line $\text{L4}$ by $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.$
 
-- Line $\textrm{L8}$ follows from line $\textrm{L7}$ by the definition of $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.$
+- Line $\text{L8}$ follows from line $\text{L7}$ by the definition of $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.$
 
 #### Explanation
 
 Let's examine each statement in turn. Assume $X$ and $Y$ are sets.
 
-- First, we consider lines $\textrm{L1}$ and $\textrm{L2}.$ We have the following equivalence: Therefore, line $\textrm{L2}$ follows from line $\textrm{L1}$ by the definition of $\boxed{\color{blue}\text{the set complement}}.$
+- First, we consider lines $\text{L1}$ and $\text{L2}.$ We have the following equivalence: Therefore, line $\text{L2}$ follows from line $\text{L1}$ by the definition of $\boxed{\color{blue}\text{the set complement}}.$
 
-- Next, we consider lines $\textrm{L4}$ and $\textrm{L5}.$ De Morgan's law for conjunctions states the following: Therefore, line $\textrm{L5}$ follows from line $\textrm{L4}$ by $\boxed{\color{blue}\text{De Morgan's law for conjunctions}}.$
+- Next, we consider lines $\text{L4}$ and $\text{L5}.$ De Morgan's law for conjunctions states the following: Therefore, line $\text{L5}$ follows from line $\text{L4}$ by $\boxed{\color{blue}\text{De Morgan's law for conjunctions}}.$
 
-- Finally, we consider lines $\textrm{L7}$ and $\textrm{L8}.$ We have the following equivalence: Therefore, line $\textrm{L8}$ follows from line $\textrm{L7}$ by the definition of $\boxed{\color{blue}\text{the union of sets}}.$
+- Finally, we consider lines $\text{L7}$ and $\text{L8}.$ We have the following equivalence: Therefore, line $\text{L8}$ follows from line $\text{L7}$ by the definition of $\boxed{\color{blue}\text{the union of sets}}.$

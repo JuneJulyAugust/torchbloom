@@ -71,7 +71,7 @@ We substitute $x=2$ into the function definition and then simplify:
 $$
 
 
-\begin{aligned} g(x) &= (x-4)^2+3(5-x) \\\[5pt] g(2) &= (2-4)^2+3(5-2) \\\[5pt] &= (-2)^2+3(3) \\\[5pt] &= 4 + 9 \\\[5pt] &= 13 \end{aligned}
+\begin{aligned} g(x) &= (x-4)^2+3(5-x) \\[5pt] g(2) &= (2-4)^2+3(5-2) \\[5pt] &= (-2)^2+3(3) \\[5pt] &= 4 + 9 \\[5pt] &= 13 \end{aligned}
 
 
 $$

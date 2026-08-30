@@ -30,7 +30,7 @@ We can simplify our expression by combining the two radicals, as follows:
 $$
 
 
-\begin{aligned}5\sqrt{√𝑥}−3\sqrt{√𝑥} & = \\ (5−3)\sqrt{√𝑥} & = \\ 2\sqrt{√𝑥} & \end{aligned}
+\begin{aligned}5\sqrt{𝑥}−3\sqrt{𝑥} & = \\ (5−3)\sqrt{𝑥} & = \\ 2\sqrt{𝑥} & \end{aligned}
 
 
 $$
@@ -60,7 +60,7 @@ We can combine the two $\sqrt{p - 4}$ terms together, as follows:
 $$
 
 
-\begin{aligned}9\sqrt{√𝑝−4}−7\sqrt{√𝑝−4} & = \\ (9−7)\sqrt{√𝑝−4} & = \\ 2\sqrt{√𝑝−4} & \end{aligned}
+\begin{aligned}9\sqrt{𝑝−4}−7\sqrt{𝑝−4} & = \\ (9−7)\sqrt{𝑝−4} & = \\ 2\sqrt{𝑝−4} & \end{aligned}
 
 
 $$
@@ -94,7 +94,7 @@ We simplify each of the radical terms using the product rule:
 $$
 
 
-\begin{aligned}\sqrt{√12𝑥}−\sqrt{√27𝑥} & = \\ \sqrt{√4⋅3𝑥}−\sqrt{√9⋅3𝑥} & = \\ \sqrt{√4}⋅\sqrt{√3𝑥}−\sqrt{√9}⋅\sqrt{√3𝑥} & = \\ 2⋅\sqrt{√3𝑥}−3⋅\sqrt{√3𝑥} & = \\ 2\sqrt{√3𝑥}−3\sqrt{√3𝑥} & \end{aligned}
+\begin{aligned}\sqrt{12𝑥}−\sqrt{27𝑥} & = \\ \sqrt{4⋅3𝑥}−\sqrt{9⋅3𝑥} & = \\ \sqrt{4}⋅\sqrt{3𝑥}−\sqrt{9}⋅\sqrt{3𝑥} & = \\ 2⋅\sqrt{3𝑥}−3⋅\sqrt{3𝑥} & = \\ 2\sqrt{3𝑥}−3\sqrt{3𝑥} & \end{aligned}
 
 
 $$
@@ -104,7 +104,7 @@ Finally, we combine like terms:
 $$
 
 
-\begin{aligned}2\sqrt{√3𝑥}−3\sqrt{√3𝑥} & = \\ (2−3)⋅\sqrt{√3𝑥} & = \\ (−1)⋅\sqrt{√3𝑥} & = \\ −\sqrt{√3𝑥} & \end{aligned}
+\begin{aligned}2\sqrt{3𝑥}−3\sqrt{3𝑥} & = \\ (2−3)⋅\sqrt{3𝑥} & = \\ (−1)⋅\sqrt{3𝑥} & = \\ −\sqrt{3𝑥} & \end{aligned}
 
 
 $$
@@ -170,7 +170,7 @@ We can combine the two $\sqrt[3]{y}$ terms together, but we cannot combine the $
 $$
 
 
-\begin{aligned} 10\sqrt[3]{y} + 2\sqrt[3]{y} - 7\sqrt{y} &= \\\[5pt] (10 + 2)\sqrt[3]{y} - 7\sqrt{y} &= \\\[5pt] 12\sqrt[3]{y}-7\sqrt{y} & \end{aligned}
+\begin{aligned} 10\sqrt[3]{y} + 2\sqrt[3]{y} - 7\sqrt{y} &= \\[5pt] (10 + 2)\sqrt[3]{y} - 7\sqrt{y} &= \\[5pt] 12\sqrt[3]{y}-7\sqrt{y} & \end{aligned}
 
 
 $$

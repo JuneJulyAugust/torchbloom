@@ -44,7 +44,7 @@ and computing the derivative, we get
 $$
 
 
-\begin{aligned}𝑓^{′}(𝑥) & =\frac{d}{d𝑥}(\sqrt{√𝑥}) \\ & =\frac{d}{d𝑥}(𝑥^{1/2}) \\ & =\frac{1}{2\sqrt{√𝑥}},\end{aligned}
+\begin{aligned}𝑓^{′}(𝑥) & =\frac{d}{d𝑥}(\sqrt{𝑥}) \\ & =\frac{d}{d𝑥}(𝑥^{1/2}) \\ & =\frac{1}{2\sqrt{𝑥}},\end{aligned}
 
 
 $$
@@ -126,7 +126,7 @@ and computing the derivative, we get
 $$
 
 
-\begin{aligned}𝑓^{′}(𝑥) & =\frac{d}{d𝑥}(\sqrt{√𝑥})=\frac{1}{2\sqrt{√𝑥}},\end{aligned}
+\begin{aligned}𝑓^{′}(𝑥) & =\frac{d}{d𝑥}(\sqrt{𝑥})=\frac{1}{2\sqrt{𝑥}},\end{aligned}
 
 
 $$
@@ -156,7 +156,7 @@ We can approximate $\sqrt{49.1}$ by evaluating the tangent line approximation at
 $$
 
 
-\begin{aligned}\sqrt{√49.1} & ≈𝐿(49.1) \\ & =7+\frac{1}{14}(49.1−49) \\ & =7+\frac{1}{14}(0.1) \\ & =7+\frac{1}{14}(\frac{1}{10}) \\ & =7+\frac{1}{140} \\ & =\frac{981}{140} \\ & ≈7.007\,143.\end{aligned}
+\begin{aligned}\sqrt{49.1} & ≈𝐿(49.1) \\ & =7+\frac{1}{14}(49.1−49) \\ & =7+\frac{1}{14}(0.1) \\ & =7+\frac{1}{14}(\frac{1}{10}) \\ & =7+\frac{1}{140} \\ & =\frac{981}{140} \\ & ≈7.007\,143.\end{aligned}
 
 
 $$

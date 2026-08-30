@@ -107,9 +107,9 @@ Now consider the point where $x=2.$ Our goal is to determine which type of extre
 
 Now, notice the following:
 
-- The point where $x=2$ is a local maximum because $f(x) \le f(2) \:$ for all $\: x \in (1.5,2.5)\quad {\color{\green}\checkmark}$
+- The point where $x=2$ is a local maximum because $f(x) \le f(2) \:$ for all $\: x \in (1.5,2.5)\quad {\color{green}\checkmark}$
 
-- The point where $x=2$ is a local minimum because $f(x) \ge f(2) \:$ for all $\: x \in (1.5,2.5)\quad {\color{\green}\checkmark}$
+- The point where $x=2$ is a local minimum because $f(x) \ge f(2) \:$ for all $\: x \in (1.5,2.5)\quad {\color{green}\checkmark}$
 
 Therefore, $x=2$ is both a local maximum *and* a local minimum of $f(x)!$
 

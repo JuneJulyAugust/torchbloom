@@ -38,7 +38,7 @@ the upper and lower limits of integration are the same. If we evaluate the integ
 $$
 
 
-\begin{aligned}∫_{33}^{}𝑥\,d𝑥 & =\frac{𝑥^{2}}{2}_{33}^{} \\ & =\frac{(3)^{2}}{2}−\frac{(3)^{2}}{2} \\ & =0.\end{aligned}
+\begin{aligned}∫_{33}𝑥\,d𝑥 & =\frac{𝑥^{2}}{2}_{33} \\ & =\frac{(3)^{2}}{2}−\frac{(3)^{2}}{2} \\ & =0.\end{aligned}
 
 
 $$
@@ -108,7 +108,7 @@ Let's reverse the limits of integration on the known result:
 $$
 
 
-\begin{aligned}∫_{06}^{}\,𝑓(𝑥)\,d𝑥=−∫_{60}^{}\,𝑓(𝑥)\,d𝑥=54\end{aligned}
+\begin{aligned}∫_{06}\,𝑓(𝑥)\,d𝑥=−∫_{60}\,𝑓(𝑥)\,d𝑥=54\end{aligned}
 
 
 $$
@@ -118,7 +118,7 @@ Now, we can split up the given integral using the sum rule and factor out the co
 $$
 
 
-\begin{aligned}∫_{06}^{}(\frac{1}{3}𝑓(𝑥)+1)\,d𝑥 & =\frac{1}{3}∫_{06}^{}𝑓(𝑥)\,d𝑥+∫_{06}^{}1\,d𝑥 \\ & =\frac{1}{3}⋅54+𝑥\,_{06}^{} \\ & =18+(0−6) \\ & =12.\end{aligned}
+\begin{aligned}∫_{06}(\frac{1}{3}𝑓(𝑥)+1)\,d𝑥 & =\frac{1}{3}∫_{06}𝑓(𝑥)\,d𝑥+∫_{06}1\,d𝑥 \\ & =\frac{1}{3}⋅54+𝑥\,_{06} \\ & =18+(0−6) \\ & =12.\end{aligned}
 
 
 $$
@@ -180,7 +180,7 @@ Plugging in the known information into the above gives the following:
 $$
 
 
-\begin{aligned}−6+18=∫_{100}^{}𝑓(𝑥)\,d𝑥 \\ 12=∫_{100}^{}𝑓(𝑥)\,d𝑥\end{aligned}
+\begin{aligned}−6+18=∫_{100}𝑓(𝑥)\,d𝑥 \\ 12=∫_{100}𝑓(𝑥)\,d𝑥\end{aligned}
 
 
 $$
@@ -190,7 +190,7 @@ Finally, we compute the desired integral and get
 $$
 
 
-\begin{aligned}∫_{100}^{}(2𝑓(𝑥)+1)\,d𝑥 & =2∫_{100}^{}𝑓(𝑥)\,d𝑥+∫_{100}^{}d𝑥 \\ & =2(12)+𝑥\,_{100}^{} \\ & =24+(10−0) \\ & =34.\end{aligned}
+\begin{aligned}∫_{100}(2𝑓(𝑥)+1)\,d𝑥 & =2∫_{100}𝑓(𝑥)\,d𝑥+∫_{100}d𝑥 \\ & =2(12)+𝑥\,_{100} \\ & =24+(10−0) \\ & =34.\end{aligned}
 
 
 $$
@@ -208,7 +208,7 @@ Let's simplify the first given integral:
 $$
 
 
-\begin{aligned}∫_{14}^{}2\,𝑓(𝑥)\,d𝑥 & =−1 \\ 2∫_{14}^{}\,𝑓(𝑥)\,d𝑥 & =−1 \\ −2∫_{41}^{}\,𝑓(𝑥)\,d𝑥 & =−1 \\ ∫_{41}^{}\,𝑓(𝑥)\,d𝑥 & =\frac{1}{2}.\end{aligned}
+\begin{aligned}∫_{14}2\,𝑓(𝑥)\,d𝑥 & =−1 \\ 2∫_{14}\,𝑓(𝑥)\,d𝑥 & =−1 \\ −2∫_{41}\,𝑓(𝑥)\,d𝑥 & =−1 \\ ∫_{41}\,𝑓(𝑥)\,d𝑥 & =\frac{1}{2}.\end{aligned}
 
 
 $$
@@ -218,7 +218,7 @@ The second integral can be rewritten as follows:
 $$
 
 
-\begin{aligned}∫_{−11}^{}𝑓(𝑥)\,d𝑥 & =2 \\ −∫_{1−1}^{}𝑓(𝑥)\,d𝑥 & =2 \\ ∫_{1−1}^{}𝑓(𝑥)\,d𝑥 & =−2.\end{aligned}
+\begin{aligned}∫_{−11}𝑓(𝑥)\,d𝑥 & =2 \\ −∫_{1−1}𝑓(𝑥)\,d𝑥 & =2 \\ ∫_{1−1}𝑓(𝑥)\,d𝑥 & =−2.\end{aligned}
 
 
 $$
@@ -228,7 +228,7 @@ Then, from the adjacent intervals rule, we get
 $$
 
 
-\begin{aligned}∫_{4−1}^{}𝑓(𝑥)\,d𝑥 & =∫_{1−1}^{}𝑓(𝑥)\,d𝑥+∫_{41}^{}𝑓(𝑥)\,d𝑥 \\ & =−2+\frac{1}{2} \\ & =−\frac{3}{2}.\end{aligned}
+\begin{aligned}∫_{4−1}𝑓(𝑥)\,d𝑥 & =∫_{1−1}𝑓(𝑥)\,d𝑥+∫_{41}𝑓(𝑥)\,d𝑥 \\ & =−2+\frac{1}{2} \\ & =−\frac{3}{2}.\end{aligned}
 
 
 $$

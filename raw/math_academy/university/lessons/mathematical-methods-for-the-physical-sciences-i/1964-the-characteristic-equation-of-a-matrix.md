@@ -25,12 +25,12 @@ $$
 
 $$
 
-has a non-trivial solution, which means that the matrix $A-\lambda I$ is singular, and consequently $\textrm{det}(A-\lambda I)=0.$ Therefore, if we want to find the eigenvalues of a $n\!\times\! n$ matrix $A,$ we have to find the solutions of the characteristic equation
+has a non-trivial solution, which means that the matrix $A-\lambda I$ is singular, and consequently $\text{det}(A-\lambda I)=0.$ Therefore, if we want to find the eigenvalues of a $n\!\times\! n$ matrix $A,$ we have to find the solutions of the characteristic equation
 
 $$
 
 
-\textrm{det}(A-\lambda I)=0.
+\text{det}(A-\lambda I)=0.
 
 
 $$
@@ -50,17 +50,17 @@ First, we write down the matrix $A-\lambda I{:}$
 $$
 
 
-\begin{aligned}𝐴−𝜆𝐼 & =\begin{aligned}−2 & 0 & 0 \\ 0 & −8 & 0 \\ 0 & 0 & 5\end{aligned}−\begin{aligned}𝜆 & 0 & 0 \\ 0 & 𝜆 & 0 \\ 0 & 0 & 𝜆\end{aligned} \\ & =\begin{aligned}−2−𝜆 & 0 & 0 \\ 0 & −8−𝜆 & 0 \\ 0 & 0 & 5−𝜆\end{aligned}\end{aligned}
+\begin{aligned}𝐴−𝜆𝐼 & =\begin{matrix}−2 & 0 & 0 \\ 0 & −8 & 0 \\ 0 & 0 & 5\end{matrix}−\begin{matrix}𝜆 & 0 & 0 \\ 0 & 𝜆 & 0 \\ 0 & 0 & 𝜆\end{matrix} \\ & =\begin{matrix}−2−𝜆 & 0 & 0 \\ 0 & −8−𝜆 & 0 \\ 0 & 0 & 5−𝜆\end{matrix}\end{aligned}
 
 
 $$
 
-Now, we set and solve the characteristic equation $\,\textrm{det}(A-\lambda I)=0.$ Using the fact that the determinant of a triangular (or diagonal) matrix is given by the product of the elements on the main diagonal, we get the following:
+Now, we set and solve the characteristic equation $\,\text{det}(A-\lambda I)=0.$ Using the fact that the determinant of a triangular (or diagonal) matrix is given by the product of the elements on the main diagonal, we get the following:
 
 $$
 
 
-\begin{aligned}det(𝐴−𝜆𝐼) & =0 \\ \begin{aligned}−2−𝜆 & 0 & 0 \\ 0 & −8−𝜆 & 0 \\ 0 & 0 & 5−𝜆\end{aligned} & =0 \\ (−2−𝜆)(−8−𝜆)(5−𝜆) & =0 \\ (𝜆+2)(𝜆+8)(𝜆−5) & =0\end{aligned}
+\begin{aligned}det(𝐴−𝜆𝐼) & =0 \\ \begin{matrix}−2−𝜆 & 0 & 0 \\ 0 & −8−𝜆 & 0 \\ 0 & 0 & 5−𝜆\end{matrix} & =0 \\ (−2−𝜆)(−8−𝜆)(5−𝜆) & =0 \\ (𝜆+2)(𝜆+8)(𝜆−5) & =0\end{aligned}
 
 
 $$
@@ -92,7 +92,7 @@ Since the determinant of a triangular (or diagonal) matrix is given by the produ
 $$
 
 
-\begin{aligned}det(𝐴−𝜆𝐼) & =0 \\ \begin{aligned}−9−𝜆 & 4 & 8 \\ 0 & 9−𝜆 & −7 \\ 0 & 0 & 6−𝜆\end{aligned} & =0 \\ (−9−𝜆)(9−𝜆)(6−𝜆) & =0 \\ (𝜆+9)(𝜆−9)(𝜆−6) & =0\end{aligned}
+\begin{aligned}det(𝐴−𝜆𝐼) & =0 \\ \begin{matrix}−9−𝜆 & 4 & 8 \\ 0 & 9−𝜆 & −7 \\ 0 & 0 & 6−𝜆\end{matrix} & =0 \\ (−9−𝜆)(9−𝜆)(6−𝜆) & =0 \\ (𝜆+9)(𝜆−9)(𝜆−6) & =0\end{aligned}
 
 
 $$
@@ -162,7 +162,7 @@ Notice that we can expand the $4 \times 4$ determinant across the $1$st column, 
 $$
 
 
-\begin{aligned}det(𝑃−𝜆𝐼) & =0 \\ \begin{aligned}3−𝜆 & 0 & −8 & −2 \\ 0 & −1−𝜆 & 3 & 5 \\ 0 & 0 & 4−𝜆 & 0 \\ 0 & 7 & −3 & 1−𝜆\end{aligned} & =0 \\ (3−𝜆)\begin{aligned}−1−𝜆 & 3 & 5 \\ 0 & 4−𝜆 & 0 \\ 7 & −3 & 1−𝜆\end{aligned} & =0\end{aligned}
+\begin{aligned}det(𝑃−𝜆𝐼) & =0 \\ \begin{matrix}3−𝜆 & 0 & −8 & −2 \\ 0 & −1−𝜆 & 3 & 5 \\ 0 & 0 & 4−𝜆 & 0 \\ 0 & 7 & −3 & 1−𝜆\end{matrix} & =0 \\ (3−𝜆)\begin{matrix}−1−𝜆 & 3 & 5 \\ 0 & 4−𝜆 & 0 \\ 7 & −3 & 1−𝜆\end{matrix} & =0\end{aligned}
 
 
 $$
@@ -172,7 +172,7 @@ Now, expanding the $3 \times 3$ determinant across the $2$nd row, we obtain the 
 $$
 
 
-\begin{aligned}(3−𝜆)⋅(4−𝜆)\begin{aligned}−1−𝜆 & 5 \\ 7 & 1−𝜆\end{aligned} & =0 \\ (3−𝜆)(4−𝜆)((−1−𝜆)(1−𝜆)−35) & =0 \\ (3−𝜆)(4−𝜆)(𝜆^{2}−36) & =0 \\ (𝜆−3)(𝜆−4)(𝜆−6)(𝜆+6) & =0\end{aligned}
+\begin{aligned}(3−𝜆)⋅(4−𝜆)\begin{matrix}−1−𝜆 & 5 \\ 7 & 1−𝜆\end{matrix} & =0 \\ (3−𝜆)(4−𝜆)((−1−𝜆)(1−𝜆)−35) & =0 \\ (3−𝜆)(4−𝜆)(𝜆^{2}−36) & =0 \\ (𝜆−3)(𝜆−4)(𝜆−6)(𝜆+6) & =0\end{aligned}
 
 
 $$

@@ -19,7 +19,7 @@ For example, let's show that $\sqrt{2}$ is an irrational number. We begin by sta
 $$
 
 
-\sqrt{√2}
+\sqrt{2}
 
 
 $$
@@ -29,7 +29,7 @@ To prove that $P$ is true, we assume that $\lnot P$ is true and show this leads 
 $$
 
 
-\sqrt{√2}
+\sqrt{2}
 
 
 $$
@@ -61,7 +61,7 @@ We start by squaring both sides of the equation:
 $$
 
 
-\begin{aligned}\sqrt{√2} & =\frac{𝑎}{𝑏} \\ (\sqrt{√2})^{2} & =(\frac{𝑎}{𝑏})^{2} \\ 2 & =\frac{𝑎^{2}}{𝑏^{2}} \\ 2𝑏^{2} & =𝑎^{2},\end{aligned}
+\begin{aligned}\sqrt{2} & =\frac{𝑎}{𝑏} \\ (\sqrt{2})^{2} & =(\frac{𝑎}{𝑏})^{2} \\ 2 & =\frac{𝑎^{2}}{𝑏^{2}} \\ 2𝑏^{2} & =𝑎^{2},\end{aligned}
 
 
 $$
@@ -141,7 +141,7 @@ $$
 $$
 
 
-\begin{aligned}\sqrt{√2} & =\frac{𝑎}{𝑏} \\ (\sqrt{√2})^{2} & =(\frac{𝑎}{𝑏})^{2} \\ 2 & =\frac{𝑎^{2}}{𝑏^{2}} \\ 2𝑏^{2} & =𝑎^{2},\end{aligned}
+\begin{aligned}\sqrt{2} & =\frac{𝑎}{𝑏} \\ (\sqrt{2})^{2} & =(\frac{𝑎}{𝑏})^{2} \\ 2 & =\frac{𝑎^{2}}{𝑏^{2}} \\ 2𝑏^{2} & =𝑎^{2},\end{aligned}
 
 
 $$
@@ -190,7 +190,7 @@ $$
 
 for some non-zero integers $a$ and $b,$ where $\gcd(a,b) = \boxed{\phantom{X}}.$
 
-By squaring the above equation and applying some divisibility properties, we can show that $\textrm{gcd}(a,b) > 1.$
+By squaring the above equation and applying some divisibility properties, we can show that $\text{gcd}(a,b) > 1.$
 
 But this is a $\:\boxed{\phantom{contradiction}}\:$ since $\:\boxed{\phantom{contradiction}}\:$ by assumption.
 
@@ -208,7 +208,7 @@ $\lnot P: \quad \sqrt{11}$ is rational
 
 Since we're assuming $\sqrt{11}$ is rational, we can express it as the ratio of two integers.
 
-Assume for a contradiction that $\sqrt{11}$ $\boxed{\color{blue}\textrm{is}}$ rational.
+Assume for a contradiction that $\sqrt{11}$ $\boxed{\color{blue}\text{is}}$ rational.
 
 Then, we have that
 
@@ -222,7 +222,7 @@ $$
 
 for some non-zero integers $a$ and $b,$ where $\gcd(a,b) = \boxed{\color{blue}1}.$
 
-The idea is to remove the radical by squaring the equation. Then, we apply some divisibility arguments to show that $\textrm{gcd}(a,b) > 1.$
+The idea is to remove the radical by squaring the equation. Then, we apply some divisibility arguments to show that $\text{gcd}(a,b) > 1.$
 
 By squaring the above equation and applying some divisibility properties, we can show that $\text{gcd}(a,b) > 1.$
 
@@ -232,7 +232,7 @@ But this is a $\boxed{\color{blue}\text{contradiction}}$ since $\boxed{\color{bl
 
 Therefore, the assumption that $\lnot P$ is true was incorrect, which means that $P$ is true.
 
-Therefore, we conclude that $\sqrt{11}$ $\boxed{\color{blue}\textrm{is not}}$ rational.
+Therefore, we conclude that $\sqrt{11}$ $\boxed{\color{blue}\text{is not}}$ rational.
 
 ### Example: Proving Irrationality of Roots of Primes
 
@@ -426,7 +426,7 @@ We also have $5 \mid a$ by a similar argument.
 
 Since $3$ and $5$ are coprime, we can show that $15\mid a$ by the third property.
 
-Since $3\mid a$ and $5\mid a,$ and $\textrm{gcd(3,5)} =1,$ we have that $15\mid a$ which means that $a=15c$ for some integer $c.$
+Since $3\mid a$ and $5\mid a,$ and $\text{gcd(3,5)} =1,$ we have that $15\mid a$ which means that $a=15c$ for some integer $c.$
 
 Now, we substitute $a=15c$ into the equation $15b^3 = a^3$ and show that $15$ is also a factor of $b.$
 

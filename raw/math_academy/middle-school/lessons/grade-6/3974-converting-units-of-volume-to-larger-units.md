@@ -41,7 +41,7 @@ $$
 
 
 
-1\, \textrm{cup} =8\, \textrm{fluid ounces}
+1\, \text{cup} =8\, \text{fluid ounces}
 
 
 
@@ -53,7 +53,7 @@ $$
 
 
 
-\dfrac{1}{8} \, \textrm{cups} = 1 \, \textrm{fluid ounce}
+\dfrac{1}{8} \, \text{cups} = 1 \, \text{fluid ounce}
 
 
 
@@ -87,7 +87,7 @@ $$
 
 
 
-1 \, \textrm{cup} = 8 \, \textrm{fluid ounces}
+1 \, \text{cup} = 8 \, \text{fluid ounces}
 
 
 
@@ -99,7 +99,7 @@ $$
 
 
 
-\dfrac{1}{8} \, \textrm{cups} = 1 \, \textrm{fluid ounce}
+\dfrac{1}{8} \, \text{cups} = 1 \, \text{fluid ounce}
 
 
 
@@ -133,7 +133,7 @@ $$
 
 
 
-1 \, \textrm{pint} = 2 \, \textrm{cups}
+1 \, \text{pint} = 2 \, \text{cups}
 
 
 
@@ -145,7 +145,7 @@ $$
 
 
 
-\dfrac{1}{2} \, \textrm{pints} = 1 \, \textrm{cup}
+\dfrac{1}{2} \, \text{pints} = 1 \, \text{cup}
 
 
 
@@ -179,7 +179,7 @@ $$
 
 
 
-1\, \textrm{gallon} = 8\, \textrm{pints}
+1\, \text{gallon} = 8\, \text{pints}
 
 
 
@@ -191,7 +191,7 @@ $$
 
 
 
-\dfrac{1}{8}\, \textrm{gallons} = 1\, \textrm{pint}
+\dfrac{1}{8}\, \text{gallons} = 1\, \text{pint}
 
 
 
@@ -219,7 +219,7 @@ $$
 
 
 
-1 \,\textrm{L} = 1,000 \,\textrm{mL}.
+1 \,\text{L} = 1,000 \,\text{mL}.
 
 
 
@@ -233,13 +233,13 @@ $$
 
 
 
-\dfrac{1}{1,000} \,\textrm{L} = 1 \,\textrm{mL}
+\dfrac{1}{1,000} \,\text{L} = 1 \,\text{mL}
 
 
 
 $$
 
-The right-hand side reads $1\,\textrm{mL},$ and we want to know how many liters are in $\color{blue}3\,000$ milliliters. So, we multiply *both* sides of this equation by ${\color{blue}{3000}}.$
+The right-hand side reads $1\,\text{mL},$ and we want to know how many liters are in $\color{blue}3\,000$ milliliters. So, we multiply *both* sides of this equation by ${\color{blue}{3000}}.$
 
 $$
 
@@ -251,7 +251,7 @@ $$
 
 $$
 
-Therefore, $3,000\,\textrm{mL}$ equals $3\,\textrm{L}.$
+Therefore, $3,000\,\text{mL}$ equals $3\,\text{L}.$
 
 ### Example: Converting From Milliliters to Liters
 
@@ -267,7 +267,7 @@ $$
 
 
 
-1 \,\textrm{L} = 1,000 \,\textrm{mL}
+1 \,\text{L} = 1,000 \,\text{mL}
 
 
 
@@ -279,7 +279,7 @@ $$
 
 
 
-\dfrac{1}{1,000} \,\textrm{L} = 1 \,\textrm{mL}
+\dfrac{1}{1,000} \,\text{L} = 1 \,\text{mL}
 
 
 
@@ -297,4 +297,4 @@ $$
 
 $$
 
-Therefore, $750\,\textrm{mL}$ equals $0.75\,\textrm{L}.$
+Therefore, $750\,\text{mL}$ equals $0.75\,\text{L}.$

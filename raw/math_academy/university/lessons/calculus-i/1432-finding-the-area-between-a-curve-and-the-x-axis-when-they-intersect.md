@@ -34,7 +34,7 @@ The total area $A$ of the region between the curve $y=x^3-1$ and the $x$-axis fr
 $$
 
 
-A = \displaystyle -\int_{-2}^{a} (x^3-1) \:\textrm{d}x + \int_{a}^{2} (x^3-1) \:\textrm{d}x
+A = \displaystyle -\int_{-2}^{a} (x^3-1) \:\text{d}x + \int_{a}^{2} (x^3-1) \:\text{d}x
 
 
 $$
@@ -64,7 +64,7 @@ So, $a={\color{blue}1}$ and the final expression will be
 $$
 
 
-A = \displaystyle -\int_{-2}^{\color{blue}1} (x^3-1) \:\textrm{d}x + \int_{\color{blue}1}^{2} (x^3-1) \:\textrm{d}x.
+A = \displaystyle -\int_{-2}^{\color{blue}1} (x^3-1) \:\text{d}x + \int_{\color{blue}1}^{2} (x^3-1) \:\text{d}x.
 
 
 $$
@@ -100,7 +100,7 @@ Notice that for $x \in [-1,0]$ the region lies completely below the $x$-axis. He
 $$
 
 
-\int_{a}^{b} y(x) \:\textrm{d}x = \int_{-1}^{0} \dfrac{x^3}{2} \:\textrm{d}x
+\int_{a}^{b} y(x) \:\text{d}x = \int_{-1}^{0} \dfrac{x^3}{2} \:\text{d}x
 
 
 $$
@@ -110,7 +110,7 @@ will be negative. Therefore, the area that we want is given by
 $$
 
 
-A_1 = -\int_{-1}^{0} \dfrac{x^3}{2} \:\textrm{d}x .
+A_1 = -\int_{-1}^{0} \dfrac{x^3}{2} \:\text{d}x .
 
 
 $$
@@ -120,7 +120,7 @@ For $x \in\left[0,\dfrac{3}{2}\right]$, we have
 $$
 
 
-A_2 = \int_{0}^{3/2}\dfrac{x^3}{2} \:\textrm{d}x.
+A_2 = \int_{0}^{3/2}\dfrac{x^3}{2} \:\text{d}x.
 
 
 $$
@@ -130,7 +130,7 @@ The total area is
 $$
 
 
-A = A_1+A_2 = - \int_{-1}^{0} \dfrac{x^3}{2} \:\textrm{d}x + \int_{0}^{3/2} \dfrac{x^3}{2} \:\textrm{d}x .
+A = A_1+A_2 = - \int_{-1}^{0} \dfrac{x^3}{2} \:\text{d}x + \int_{0}^{3/2} \dfrac{x^3}{2} \:\text{d}x .
 
 
 $$
@@ -140,7 +140,7 @@ Finally, we carry out the integration:
 $$
 
 
-\begin{aligned}𝐴 & =−∫_{0−1}^{}\frac{𝑥^{3}}{2}\,d𝑥+∫_{3/20}^{}\frac{𝑥^{3}}{2}\,d𝑥 \\ & =−[\frac{𝑥^{4}}{8}]_{0−1}^{}+[\frac{𝑥^{4}}{8}]_{3/20}^{} \\ & =−[0−\frac{1}{8}]+[\frac{81}{128}−0] \\ & =\frac{1}{8}+\frac{81}{128} \\ & =\frac{97}{128}\end{aligned}
+\begin{aligned}𝐴 & =−∫_{0−1}\frac{𝑥^{3}}{2}\,d𝑥+∫_{3/20}\frac{𝑥^{3}}{2}\,d𝑥 \\ & =−[\frac{𝑥^{4}}{8}]_{0−1}+[\frac{𝑥^{4}}{8}]_{3/20} \\ & =−[0−\frac{1}{8}]+[\frac{81}{128}−0] \\ & =\frac{1}{8}+\frac{81}{128} \\ & =\frac{97}{128}\end{aligned}
 
 
 $$
@@ -176,7 +176,7 @@ For $x \in [-3,0]$, we obtain
 $$
 
 
-\begin{aligned}𝐴_{1} & =∫_{𝑏𝑎}^{}𝑦(𝑥)\,d𝑥 \\ & =∫_{0−3}^{}(𝑥^{3}−9𝑥)\,d𝑥 \\ & =∫_{0−3}^{}𝑥^{3}\,d𝑥−9∫_{0−3}^{}𝑥\,d𝑥 \\ & =\frac{𝑥^{4}}{4}_{0−3}^{}−\frac{9𝑥^{2}}{2}_{0−3}^{} \\ & =[0−\frac{(−3)^{4}}{4}]−9[0−\frac{(−3)^{2}}{2}] \\ & =−\frac{81}{4}+\frac{81}{2} \\ & =\frac{81}{4}.\end{aligned}
+\begin{aligned}𝐴_{1} & =∫_{𝑏𝑎}𝑦(𝑥)\,d𝑥 \\ & =∫_{0−3}(𝑥^{3}−9𝑥)\,d𝑥 \\ & =∫_{0−3}𝑥^{3}\,d𝑥−9∫_{0−3}𝑥\,d𝑥 \\ & =\frac{𝑥^{4}}{4}_{0−3}−\frac{9𝑥^{2}}{2}_{0−3} \\ & =[0−\frac{(−3)^{4}}{4}]−9[0−\frac{(−3)^{2}}{2}] \\ & =−\frac{81}{4}+\frac{81}{2} \\ & =\frac{81}{4}.\end{aligned}
 
 
 $$
@@ -186,7 +186,7 @@ Notice that for $x \in [0,3]$ the region lies completely below the $x$-axis. Hen
 $$
 
 
-\int_{a}^{b} y(x) \:\textrm{d}x = \int_{0}^{3} \left(x^3-9x\right) \:\textrm{d}x
+\int_{a}^{b} y(x) \:\text{d}x = \int_{0}^{3} \left(x^3-9x\right) \:\text{d}x
 
 
 $$
@@ -196,7 +196,7 @@ will be negative. Therefore, the area that we want is given by
 $$
 
 
-\begin{aligned}𝐴_{2} & =−∫_{30}^{}(𝑥^{3}−9𝑥)\,d𝑥 \\ & =−∫_{30}^{}𝑥^{3}\,d𝑥+9∫_{30}^{}𝑥\,d𝑥 \\ & =−\frac{𝑥^{4}}{4}_{30}^{}+\frac{9𝑥^{2}}{2}_{30}^{} \\ & =−[\frac{(3)^{4}}{4}−0]+9[\frac{(3)^{2}}{2}−0] \\ & =−\frac{81}{4}+\frac{81}{2} \\ & =\frac{81}{4}.\end{aligned}
+\begin{aligned}𝐴_{2} & =−∫_{30}(𝑥^{3}−9𝑥)\,d𝑥 \\ & =−∫_{30}𝑥^{3}\,d𝑥+9∫_{30}𝑥\,d𝑥 \\ & =−\frac{𝑥^{4}}{4}_{30}+\frac{9𝑥^{2}}{2}_{30} \\ & =−[\frac{(3)^{4}}{4}−0]+9[\frac{(3)^{2}}{2}−0] \\ & =−\frac{81}{4}+\frac{81}{2} \\ & =\frac{81}{4}.\end{aligned}
 
 
 $$

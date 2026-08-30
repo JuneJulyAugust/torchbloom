@@ -16,7 +16,7 @@ Let's consider the first-order differential equation
 $$
 
 
-2y\dfrac {\textrm{d}y} {\textrm{d}x}+y^2=x.
+2y\dfrac {\text{d}y} {\text{d}x}+y^2=x.
 
 
 $$
@@ -40,7 +40,7 @@ Differentiating $z(x)$ using the chain rule, we get
 $$
 
 
-\dfrac {\textrm{d}z} {\textrm{d}x}=2y\dfrac {\textrm{d}y} {\textrm{d}x}.
+\dfrac {\text{d}z} {\text{d}x}=2y\dfrac {\text{d}y} {\text{d}x}.
 
 
 $$
@@ -50,7 +50,7 @@ Consequently, the original differential equation can be written in terms of $z$ 
 $$
 
 
-\dfrac {\textrm{d}z} {\textrm{d}x}+z=x
+\dfrac {\text{d}z} {\text{d}x}+z=x
 
 
 $$
@@ -60,7 +60,7 @@ This differential equation is linear! So, we can use the method of integrating f
 $$
 
 
-\frac{\textrm{d}z}{\textrm{d}x} + P(x)z = Q(x)
+\frac{\text{d}z}{\text{d}x} + P(x)z = Q(x)
 
 
 $$
@@ -100,7 +100,7 @@ Finally, we determine $y(x)$ by substituting the solution into $z=y^2.$ This res
 $$
 
 
-\begin{aligned}𝑦^{2} & =𝑧 \\ 𝑦^{2} & =𝑥−1+𝐶𝑒^{−𝑥} \\ 𝑦 & =±\sqrt{√𝑥−1+𝐶𝑒^{−𝑥}}.\end{aligned}
+\begin{aligned}𝑦^{2} & =𝑧 \\ 𝑦^{2} & =𝑥−1+𝐶𝑒^{−𝑥} \\ 𝑦 & =±\sqrt{𝑥−1+𝐶𝑒^{−𝑥}}.\end{aligned}
 
 
 $$
@@ -138,7 +138,7 @@ Differentiating $z(x)$ using the chain rule, we get
 $$
 
 
-\dfrac{\textrm{d}z}{\textrm{d}x} = 2y \,\dfrac{\textrm{d}y}{\textrm{d}x} \quad\Longrightarrow\quad \dfrac{\textrm{d}y}{\textrm{d}x} = \dfrac{1}{2z^{1/2}}\,\dfrac{\textrm{d}z}{\textrm{d}x}.
+\dfrac{\text{d}z}{\text{d}x} = 2y \,\dfrac{\text{d}y}{\text{d}x} \quad\Longrightarrow\quad \dfrac{\text{d}y}{\text{d}x} = \dfrac{1}{2z^{1/2}}\,\dfrac{\text{d}z}{\text{d}x}.
 
 
 $$
@@ -158,7 +158,7 @@ We now write the above equation in standard form
 $$
 
 
-\frac{\textrm{d}z}{\textrm{d}x} + P(x)z = Q(x).
+\frac{\text{d}z}{\text{d}x} + P(x)z = Q(x).
 
 
 $$
@@ -184,7 +184,7 @@ Find the general solution to the following first-order ODE using the substitutio
 $$
 
 
-xy^2\dfrac {\textrm{d}y} {\textrm{d}x} = x^2+y^3
+xy^2\dfrac {\text{d}y} {\text{d}x} = x^2+y^3
 
 
 $$
@@ -206,7 +206,7 @@ Differentiating $z(x)$ using the chain rule, we get
 $$
 
 
-\dfrac{\textrm{d}z}{\textrm{d}x}=3y^2\,\dfrac{\textrm{d}y}{\textrm{d}x} \quad\Longrightarrow\quad y^2\dfrac{\textrm{d}y}{\textrm{d}x}=\dfrac{1}{3}\,\dfrac{\textrm{d}z}{\textrm{d}x}.
+\dfrac{\text{d}z}{\text{d}x}=3y^2\,\dfrac{\text{d}y}{\text{d}x} \quad\Longrightarrow\quad y^2\dfrac{\text{d}y}{\text{d}x}=\dfrac{1}{3}\,\dfrac{\text{d}z}{\text{d}x}.
 
 
 $$
@@ -216,7 +216,7 @@ Consequently, the original differential equation can be written in terms of $z$ 
 $$
 
 
-\frac{x}{3}\left(\dfrac{\textrm{d}z}{\textrm{d}x}\right)=x^2+z
+\frac{x}{3}\left(\dfrac{\text{d}z}{\text{d}x}\right)=x^2+z
 
 
 $$
@@ -236,7 +236,7 @@ The above equation is in the standard form
 $$
 
 
-\frac{\textrm{d}z}{\textrm{d}x} + P(x)y = Q(x)
+\frac{\text{d}z}{\text{d}x} + P(x)y = Q(x)
 
 
 $$
@@ -300,7 +300,7 @@ Find the specific solution of the first-order ODE
 $$
 
 
-xe^y\dfrac {\textrm{d}y} {\textrm{d}x}+e^y = e^{x} \, ,
+xe^y\dfrac {\text{d}y} {\text{d}x}+e^y = e^{x} \, ,
 
 
 $$
@@ -319,12 +319,12 @@ z=e^y\,.
 
 $$
 
-Differentiating $z(x)$ with the chain rule, we get $\dfrac{\textrm{d}z}{\textrm{d}x}=e^y\,\dfrac{\textrm{d}y}{\textrm{d}x}.$ Consequently, the original differential equation can be written in terms of $z$ as follows:
+Differentiating $z(x)$ with the chain rule, we get $\dfrac{\text{d}z}{\text{d}x}=e^y\,\dfrac{\text{d}y}{\text{d}x}.$ Consequently, the original differential equation can be written in terms of $z$ as follows:
 
 $$
 
 
-x\dfrac{\textrm{d}z}{\textrm{d}x}+z=e^x\,,
+x\dfrac{\text{d}z}{\text{d}x}+z=e^x\,,
 
 
 $$

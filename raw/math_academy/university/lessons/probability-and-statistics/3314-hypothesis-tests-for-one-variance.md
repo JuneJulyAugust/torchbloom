@@ -127,7 +127,7 @@ Our test statistic ($47.917$) lies in the critical region, as shown below.
 
 ![Instructional graphic](../../../lesson-assets/probability-and-statistics/topic-3314/577fe58d007f7da3.png)
 
-*There is $\boxed{\color{blue}\textrm{sufficient}}$ evidence that, at the $5\%$ level of significance, we have $\sigma^2 > 3.$*
+*There is $\boxed{\color{blue}\text{sufficient}}$ evidence that, at the $5\%$ level of significance, we have $\sigma^2 > 3.$*
 
 Let's now see an example of a left-tailed test.
 
@@ -262,7 +262,7 @@ Next, we find the critical region. The $5\%$ two-tailed critical region is the s
 $$
 
 
-K\leq a\qquad \textrm{or}\qquad K\geq b,
+K\leq a\qquad \text{or}\qquad K\geq b,
 
 
 $$
@@ -301,7 +301,7 @@ Our test statistic ($19.84$) does not lie in the critical region, as shown below
 
 #### Question
 
-A hospital wants to assess if a recent staffing change has impacted the consistency of patient waiting times in the emergency department. The waiting times are known to be normally distributed, and the variance before the staffing changes was $\sigma^2 = 12 \, \textrm{min}^2$. The head of the department suspects that the variance has decreased since the staffing change. They collected data from $20$ patients and calculated an unbiased estimate for the population variance $s^2 = 9 \, \textrm{min}^2$.
+A hospital wants to assess if a recent staffing change has impacted the consistency of patient waiting times in the emergency department. The waiting times are known to be normally distributed, and the variance before the staffing changes was $\sigma^2 = 12 \, \text{min}^2$. The head of the department suspects that the variance has decreased since the staffing change. They collected data from $20$ patients and calculated an unbiased estimate for the population variance $s^2 = 9 \, \text{min}^2$.
 
 The table below shows the values $\chi_{\nu,p}$ such that $P(X > \chi_{\nu,p}) = p$ for some particular values of $\nu$ and $p,$ where $X$ follows a chi-square distribution $\chi^2(\nu)$ with $\nu$ degrees of freedom.
 

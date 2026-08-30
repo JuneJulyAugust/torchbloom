@@ -46,7 +46,7 @@ So, by applying L'Hopital's rule to our limit, we get
 $$
 
 
-\begin{aligned} \lim_{x\to 0} \dfrac {\sin x}{x} &= \lim_{x\to0} \dfrac {[\sin x]'}{[x]'}\\\[5pt] &= \lim_{x\to 0} \dfrac {\cos x}{1}\\\[5pt] &= \cos 0\\\[5pt] &= 1. \end{aligned}
+\begin{aligned} \lim_{x\to 0} \dfrac {\sin x}{x} &= \lim_{x\to0} \dfrac {[\sin x]'}{[x]'}\\[5pt] &= \lim_{x\to 0} \dfrac {\cos x}{1}\\[5pt] &= \cos 0\\[5pt] &= 1. \end{aligned}
 
 
 $$
@@ -64,7 +64,7 @@ Note that plugging in $x=3$ gives the indeterminate form $\dfrac{0}{0}.$ However
 $$
 
 
-\begin{aligned} \lim_{x\to 3} \dfrac {x^3-27}{x-3} &= \lim_{x\to3} \dfrac {[x^3-27]'}{[x-3]'}\\\[5pt] &= \lim_{x\to 3} \dfrac {3x^2}{1}\\\[5pt] &= 3(3)^2\\\[5pt] &= 27 \end{aligned}
+\begin{aligned} \lim_{x\to 3} \dfrac {x^3-27}{x-3} &= \lim_{x\to3} \dfrac {[x^3-27]'}{[x-3]'}\\[5pt] &= \lim_{x\to 3} \dfrac {3x^2}{1}\\[5pt] &= 3(3)^2\\[5pt] &= 27 \end{aligned}
 
 
 $$
@@ -82,7 +82,7 @@ If we plug in $x=0$ we get the indeterminate form $\dfrac{0}{0},$ so we apply L'
 $$
 
 
-\begin{aligned} \lim_{x\to0} \dfrac{\sin^2 (2x)}{x^2} &= \lim_{x\to 0} \dfrac {\left[\sin^2 (2x)\right]'}{[x^2]'}\\\[5pt] &= \lim_{x\to 0} \dfrac{2\cdot \sin (2x) \cdot\cos (2x)\cdot 2}{2x}\\\[5pt] &= \lim_{x\to 0}{2\cos (2x)} \cdot \lim_{x\to 0} \dfrac{\sin (2x)}{x}\\\[5pt] &= 2\cos(2\cdot 0)\lim_{x\to 0}\dfrac{\sin (2x)}{x}\\\[5pt] &= 2\lim_{x\to 0}\dfrac{\sin (2x)}{x} \end{aligned}
+\begin{aligned} \lim_{x\to0} \dfrac{\sin^2 (2x)}{x^2} &= \lim_{x\to 0} \dfrac {\left[\sin^2 (2x)\right]'}{[x^2]'}\\[5pt] &= \lim_{x\to 0} \dfrac{2\cdot \sin (2x) \cdot\cos (2x)\cdot 2}{2x}\\[5pt] &= \lim_{x\to 0}{2\cos (2x)} \cdot \lim_{x\to 0} \dfrac{\sin (2x)}{x}\\[5pt] &= 2\cos(2\cdot 0)\lim_{x\to 0}\dfrac{\sin (2x)}{x}\\[5pt] &= 2\lim_{x\to 0}\dfrac{\sin (2x)}{x} \end{aligned}
 
 
 $$
@@ -92,7 +92,7 @@ This time, the resulting limit still gives the indeterminate form $\dfrac{0}{0}.
 $$
 
 
-\begin{aligned} \lim_{x\to0} \dfrac{\sin^2 (2x)}{x^2} &= 2\lim_{x\to 0}\dfrac{\sin (2x)}{x}\\\[5pt] &= 2\lim_{x\to0} \dfrac {[\sin (2x)]'}{[x]'}\\\[5pt] &= 2\lim_{x\to0} \dfrac {2\cos (2x)}{1}\\\[5pt] &= 4\cos(2\cdot 0)\\&=4. \end{aligned}
+\begin{aligned} \lim_{x\to0} \dfrac{\sin^2 (2x)}{x^2} &= 2\lim_{x\to 0}\dfrac{\sin (2x)}{x}\\[5pt] &= 2\lim_{x\to0} \dfrac {[\sin (2x)]'}{[x]'}\\[5pt] &= 2\lim_{x\to0} \dfrac {2\cos (2x)}{1}\\[5pt] &= 4\cos(2\cdot 0)\\&=4. \end{aligned}
 
 
 $$
@@ -126,7 +126,7 @@ Applying L'Hopital's rule, we obtain
 $$
 
 
-\begin{aligned} \lim_{x\to 0} \dfrac{\ln\left(x^2\right)}{\left(\dfrac{2}{x^2}\right)} &= \lim_{x\to 0} \dfrac{[\ln\left(x^2\right)]'}{\left(\dfrac{2}{x^2}\right)'}\\\[5pt] &= \lim_{x\to 0} \dfrac{\left(1/x^2\right)\cdot 2x}{-\left({4}/{x^3}\right)}\\\[5pt] &= \lim_{x\to 0} \dfrac{x^{-2} \cdot 2x}{-4x^{-3} }\\\[5pt] &= \lim_{x\to 0} \dfrac{2x^{-1}}{-4x^{-3} }\\\[5pt] &= -\dfrac{1}{2} \lim_{x\to 0} {x^2}\\\[5pt] &= -\dfrac{1}{2}\cdot 0\\\[5pt] &= 0. \end{aligned}
+\begin{aligned} \lim_{x\to 0} \dfrac{\ln\left(x^2\right)}{\left(\dfrac{2}{x^2}\right)} &= \lim_{x\to 0} \dfrac{[\ln\left(x^2\right)]'}{\left(\dfrac{2}{x^2}\right)'}\\[5pt] &= \lim_{x\to 0} \dfrac{\left(1/x^2\right)\cdot 2x}{-\left({4}/{x^3}\right)}\\[5pt] &= \lim_{x\to 0} \dfrac{x^{-2} \cdot 2x}{-4x^{-3} }\\[5pt] &= \lim_{x\to 0} \dfrac{2x^{-1}}{-4x^{-3} }\\[5pt] &= -\dfrac{1}{2} \lim_{x\to 0} {x^2}\\[5pt] &= -\dfrac{1}{2}\cdot 0\\[5pt] &= 0. \end{aligned}
 
 
 $$
@@ -178,7 +178,7 @@ Suppose that
 $$
 
 
-\lim\limits_{x \to a} \dfrac{f(x)}{g(x)} = \dfrac{0}{0} \quad \textrm{or} \quad \lim\limits_{x \to a} \dfrac{f(x)}{g(x)} = \dfrac{\pm \infty}{\pm \infty},
+\lim\limits_{x \to a} \dfrac{f(x)}{g(x)} = \dfrac{0}{0} \quad \text{or} \quad \lim\limits_{x \to a} \dfrac{f(x)}{g(x)} = \dfrac{\pm \infty}{\pm \infty},
 
 
 $$

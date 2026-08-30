@@ -95,7 +95,7 @@ Indeed, if $\displaystyle f(x) = \sum_{k=0}^\infty c_k x^k$ is the Maclaurin ser
 $$
 
 
-\begin{aligned}𝑓(𝐷) & =\underset{\underset{𝑘=0}{∑}}{\overset{}{∞}}𝑐_{𝑘}𝐷^{𝑘} \\ & =\underset{\underset{𝑘=0}{∑}}{\overset{}{∞}}𝑐_{𝑘}\begin{aligned}𝜆_{1} & 0 & ⋯ & 0 \\ 0 & 𝜆_{2} & ⋯ & 0 \\ ⋮ & ⋮ & ⋱ & ⋮ \\ 0 & 0 & ⋯ & 𝜆_{𝑛}\end{aligned}^{𝑘} \\ & =\underset{\underset{𝑘=0}{∑}}{\overset{}{∞}}𝑐_{𝑘}\begin{aligned}𝜆_{𝑘1}^{} & 0 & ⋯ & 0 \\ 0 & 𝜆_{𝑘2}^{} & ⋯ & 0 \\ ⋮ & ⋮ & ⋱ & ⋮ \\ 0 & 0 & ⋯ & 𝜆_{𝑘𝑛}^{}\end{aligned} \\ & =\begin{aligned}\underset{\underset{𝑘=0}{∑}}{\overset{}{∞}}𝑐_{𝑘}𝜆_{𝑘1}^{} & 0 & ⋯ & 0 \\ 0 & \underset{\underset{𝑘=0}{∑}}{\overset{}{∞}}𝑐_{𝑘}𝜆_{𝑘2}^{} & ⋯ & 0 \\ ⋮ & ⋮ & ⋱ & ⋮ \\ 0 & 0 & ⋯ & \underset{\underset{𝑘=0}{∑}}{\overset{}{∞}}𝑐_{𝑘}𝜆_{𝑘𝑛}^{}\end{aligned} \\ & =\begin{aligned}𝑓(𝜆_{1}) & 0 & ⋯ & 0 \\ 0 & 𝑓(𝜆_{2}) & ⋯ & 0 \\ ⋮ & ⋮ & ⋱ & ⋮ \\ 0 & 0 & ⋯ & 𝑓(𝜆_{𝑛})\end{aligned}.\end{aligned}
+\begin{aligned}𝑓(𝐷) & =\underset{\underset{𝑘=0}{∑}}{\overset{}{∞}}𝑐_{𝑘}𝐷^{𝑘} \\ & =\underset{\underset{𝑘=0}{∑}}{\overset{}{∞}}𝑐_{𝑘}\begin{matrix}𝜆_{1} & 0 & ⋯ & 0 \\ 0 & 𝜆_{2} & ⋯ & 0 \\ ⋮ & ⋮ & ⋱ & ⋮ \\ 0 & 0 & ⋯ & 𝜆_{𝑛}\end{matrix}^{𝑘} \\ & =\underset{\underset{𝑘=0}{∑}}{\overset{}{∞}}𝑐_{𝑘}\begin{matrix}𝜆_{𝑘1} & 0 & ⋯ & 0 \\ 0 & 𝜆_{𝑘2} & ⋯ & 0 \\ ⋮ & ⋮ & ⋱ & ⋮ \\ 0 & 0 & ⋯ & 𝜆_{𝑘𝑛}\end{matrix} \\ & =\begin{matrix}\underset{\underset{𝑘=0}{∑}}{\overset{}{∞}}𝑐_{𝑘}𝜆_{𝑘1} & 0 & ⋯ & 0 \\ 0 & \underset{\underset{𝑘=0}{∑}}{\overset{}{∞}}𝑐_{𝑘}𝜆_{𝑘2} & ⋯ & 0 \\ ⋮ & ⋮ & ⋱ & ⋮ \\ 0 & 0 & ⋯ & \underset{\underset{𝑘=0}{∑}}{\overset{}{∞}}𝑐_{𝑘}𝜆_{𝑘𝑛}\end{matrix} \\ & =\begin{matrix}𝑓(𝜆_{1}) & 0 & ⋯ & 0 \\ 0 & 𝑓(𝜆_{2}) & ⋯ & 0 \\ ⋮ & ⋮ & ⋱ & ⋮ \\ 0 & 0 & ⋯ & 𝑓(𝜆_{𝑛})\end{matrix}.\end{aligned}
 
 
 $$
@@ -123,7 +123,7 @@ Therefore, we have
 $$
 
 
-\begin{aligned}log⁡𝐷 & =\begin{aligned}log⁡(100) & 0 & 0 \\ 0 & log⁡(1) & 0 \\ 0 & 0 & log⁡(10)\end{aligned}=\begin{aligned}2 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 1\end{aligned}.\end{aligned}
+\begin{aligned}log⁡𝐷 & =\begin{matrix}log⁡(100) & 0 & 0 \\ 0 & log⁡(1) & 0 \\ 0 & 0 & log⁡(10)\end{matrix}=\begin{matrix}2 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 1\end{matrix}.\end{aligned}
 
 
 $$
@@ -173,7 +173,7 @@ Consider a Jordan matrix formed by the direct sum of blocks $J_{n_1}(\lambda_1) 
 $$
 
 
-\begin{aligned}𝑓(𝐽_{𝑛_{1}}(𝜆_{1})\,⊕\,⋯\,⊕\,𝐽_{𝑛_{𝑘}}(𝜆_{𝑘})) & =𝑓\begin{aligned}𝐽_{𝑛_{1}}(𝜆_{1}) & ⋯ & 0 \\ ⋮ & ⋱ & ⋮ \\ 0 & ⋯ & 𝐽_{𝑛_{𝑘}}(𝜆_{𝑘})\end{aligned} \\ & =\begin{aligned}𝑓(𝐽_{𝑛_{1}}(𝜆_{1})) & ⋯ & 0 \\ ⋮ & ⋱ & ⋮ \\ 0 & ⋯ & 𝑓(𝐽_{𝑛_{𝑘}}(𝜆_{𝑘}))\end{aligned} \\ & =𝑓(𝐽_{𝑛_{1}}(𝜆_{1}))\,⊕\,⋯\,⊕\,𝑓(𝐽_{𝑛_{𝑘}}(𝜆_{𝑘})).\end{aligned}
+\begin{aligned}𝑓(𝐽_{𝑛_{1}}(𝜆_{1})\,⊕\,⋯\,⊕\,𝐽_{𝑛_{𝑘}}(𝜆_{𝑘})) & =𝑓\begin{matrix}𝐽_{𝑛_{1}}(𝜆_{1}) & ⋯ & 0 \\ ⋮ & ⋱ & ⋮ \\ 0 & ⋯ & 𝐽_{𝑛_{𝑘}}(𝜆_{𝑘})\end{matrix} \\ & =\begin{matrix}𝑓(𝐽_{𝑛_{1}}(𝜆_{1})) & ⋯ & 0 \\ ⋮ & ⋱ & ⋮ \\ 0 & ⋯ & 𝑓(𝐽_{𝑛_{𝑘}}(𝜆_{𝑘}))\end{matrix} \\ & =𝑓(𝐽_{𝑛_{1}}(𝜆_{1}))\,⊕\,⋯\,⊕\,𝑓(𝐽_{𝑛_{𝑘}}(𝜆_{𝑘})).\end{aligned}
 
 
 $$
@@ -225,7 +225,7 @@ Therefore, we have
 $$
 
 
-\begin{aligned}𝑓(𝐽_{4}(1)) & =\begin{aligned}𝑓(1) & 𝑓^{′}(1) & \frac{1}{2!}𝑓^{″}(1) & \frac{1}{3!}𝑓^{‴}(1) \\ 0 & 𝑓(1) & 𝑓^{′}(1) & \frac{1}{2!}𝑓^{″}(1) \\ 0 & 0 & 𝑓(1) & 𝑓^{′}(1) \\ 0 & 0 & 0 & 𝑓(1)\end{aligned} \\ & =\begin{aligned}2^{1} & 2^{1}(ln⁡2) & \frac{1}{2}⋅2^{1}(ln⁡2)^{2} & \frac{1}{6}⋅2^{1}(ln⁡2)^{3} \\ 0 & 2^{1} & 2^{1}(ln⁡2) & \frac{1}{2}⋅2^{1}(ln⁡2)^{2} \\ 0 & 0 & 2^{1} & 2^{1}(ln⁡2) \\ 0 & 0 & 0 & 2^{1}\end{aligned} \\ & =\begin{aligned}2 & 2ln⁡2 & (ln⁡2)^{2} & \frac{1}{3}(ln⁡2)^{3} \\ 0 & 2 & 2ln⁡2 & (ln⁡2)^{2} \\ 0 & 0 & 2 & 2ln⁡2 \\ 0 & 0 & 0 & 2\end{aligned}\end{aligned}
+\begin{aligned}𝑓(𝐽_{4}(1)) & =\begin{matrix}𝑓(1) & 𝑓^{′}(1) & \frac{1}{2!}𝑓^{″}(1) & \frac{1}{3!}𝑓^{‴}(1) \\ 0 & 𝑓(1) & 𝑓^{′}(1) & \frac{1}{2!}𝑓^{″}(1) \\ 0 & 0 & 𝑓(1) & 𝑓^{′}(1) \\ 0 & 0 & 0 & 𝑓(1)\end{matrix} \\ & =\begin{matrix}2^{1} & 2^{1}(ln⁡2) & \frac{1}{2}⋅2^{1}(ln⁡2)^{2} & \frac{1}{6}⋅2^{1}(ln⁡2)^{3} \\ 0 & 2^{1} & 2^{1}(ln⁡2) & \frac{1}{2}⋅2^{1}(ln⁡2)^{2} \\ 0 & 0 & 2^{1} & 2^{1}(ln⁡2) \\ 0 & 0 & 0 & 2^{1}\end{matrix} \\ & =\begin{matrix}2 & 2ln⁡2 & (ln⁡2)^{2} & \frac{1}{3}(ln⁡2)^{3} \\ 0 & 2 & 2ln⁡2 & (ln⁡2)^{2} \\ 0 & 0 & 2 & 2ln⁡2 \\ 0 & 0 & 0 & 2\end{matrix}\end{aligned}
 
 
 $$
@@ -253,7 +253,7 @@ First, note that
 $$
 
 
-\begin{aligned}𝑒^{2(𝐽_{2}(1)\,⊕\,𝐽_{2}(3))} & =𝑒^{2([\begin{aligned}𝐽_{2}(1) & 0 \\ 0 & 𝐽_{2}(3)\end{aligned}])} \\ & =[\begin{aligned}𝑒^{2(𝐽_{2}(1))} & 0 \\ 0 & 𝑒^{2(𝐽_{2}(3))}\end{aligned}] \\ & =𝑒^{2(𝐽_{2}(1))}\,⊕\,𝑒^{2(𝐽_{2}(3))}.\end{aligned}
+\begin{aligned}𝑒^{2(𝐽_{2}(1)\,⊕\,𝐽_{2}(3))} & =𝑒^{2([\begin{matrix}𝐽_{2}(1) & 0 \\ 0 & 𝐽_{2}(3)\end{matrix}])} \\ & =[\begin{matrix}𝑒^{2(𝐽_{2}(1))} & 0 \\ 0 & 𝑒^{2(𝐽_{2}(3))}\end{matrix}] \\ & =𝑒^{2(𝐽_{2}(1))}\,⊕\,𝑒^{2(𝐽_{2}(3))}.\end{aligned}
 
 
 $$
@@ -377,7 +377,7 @@ Therefore, we conclude that
 $$
 
 
-\begin{aligned}sin⁡(𝜋𝑉) & =𝑃⋅(sin⁡(𝜋𝐽))⋅𝑃^{−1} \\ & =[\begin{aligned}1 & 0 \\ 1 & 1\end{aligned}][\begin{aligned}0 & −𝜋 \\ 0 & 0\end{aligned}][\begin{aligned}1 & 0 \\ −1 & 1\end{aligned}] \\ & =[\begin{aligned}1 & 0 \\ 1 & 1\end{aligned}][\begin{aligned}𝜋 & −𝜋 \\ 0 & 0\end{aligned}] \\ & =[\begin{aligned}𝜋 & −𝜋 \\ 𝜋 & −𝜋\end{aligned}].\end{aligned}
+\begin{aligned}sin⁡(𝜋𝑉) & =𝑃⋅(sin⁡(𝜋𝐽))⋅𝑃^{−1} \\ & =[\begin{matrix}1 & 0 \\ 1 & 1\end{matrix}][\begin{matrix}0 & −𝜋 \\ 0 & 0\end{matrix}][\begin{matrix}1 & 0 \\ −1 & 1\end{matrix}] \\ & =[\begin{matrix}1 & 0 \\ 1 & 1\end{matrix}][\begin{matrix}𝜋 & −𝜋 \\ 0 & 0\end{matrix}] \\ & =[\begin{matrix}𝜋 & −𝜋 \\ 𝜋 & −𝜋\end{matrix}].\end{aligned}
 
 
 $$

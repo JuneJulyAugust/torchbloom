@@ -38,7 +38,7 @@ in $\mathbb{R^2}$ are orthogonal, since
 $$
 
 
-\begin{aligned}𝐞_{1}⋅𝐞_{2} & =[\begin{aligned}1 \\ 0\end{aligned}]⋅[\begin{aligned}0 \\ 1\end{aligned}] \\ & =1⋅0+0⋅1 \\ & =0+0 \\ & =0.\end{aligned}
+\begin{aligned}𝐞_{1}⋅𝐞_{2} & =[\begin{matrix}1 \\ 0\end{matrix}]⋅[\begin{matrix}0 \\ 1\end{matrix}] \\ & =1⋅0+0⋅1 \\ & =0+0 \\ & =0.\end{aligned}
 
 
 $$
@@ -178,7 +178,7 @@ So, to find the values of $a$ and $b$, we need to solve the system
 $$
 
 
-\begin{aligned}\begin{aligned}−5𝑎+3𝑏=−24 \\ 2𝑎−5𝑏=2.\end{aligned}\end{aligned}
+\begin{aligned}\begin{matrix}−5𝑎+3𝑏=−24 \\ 2𝑎−5𝑏=2.\end{matrix}\end{aligned}
 
 
 $$

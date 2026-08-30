@@ -93,7 +93,7 @@ Therefore, we have that
 $$
 
 
-\begin{aligned}cot⁡𝐹 & =\frac{adjacent to F}{opposite to F} \\ & =\frac{opposite to D}{adjacent to D} \\ & =tan⁡𝐷 \\ & =\frac{\sqrt{√11}}{2}.\end{aligned}
+\begin{aligned}cot⁡𝐹 & =\frac{adjacent to F}{opposite to F} \\ & =\frac{opposite to D}{adjacent to D} \\ & =tan⁡𝐷 \\ & =\frac{\sqrt{11}}{2}.\end{aligned}
 
 
 $$
@@ -135,7 +135,7 @@ Therefore, we have
 $$
 
 
-\begin{aligned}tan⁡𝐶 & =\frac{opposite to C}{adjacent to C} \\ & =\frac{𝑥}{\sqrt{√7}𝑥} \\ & =\frac{1}{\sqrt{√7}}.\end{aligned}
+\begin{aligned}tan⁡𝐶 & =\frac{opposite to C}{adjacent to C} \\ & =\frac{𝑥}{\sqrt{7}𝑥} \\ & =\frac{1}{\sqrt{7}}.\end{aligned}
 
 
 $$
@@ -187,7 +187,7 @@ Solving this for $RQ,$ we obtain the following:
 $$
 
 
-\begin{aligned}𝑅𝑄 & =\sqrt{√𝑃𝑄^{2}−𝑃𝑅^{2}} \\ & =\sqrt{√(17𝑥)^{2}−(8𝑥)^{2}} \\ & =\sqrt{√289𝑥^{2}−64𝑥^{2}} \\ & =\sqrt{√225𝑥^{2}} \\ & =15𝑥\end{aligned}
+\begin{aligned}𝑅𝑄 & =\sqrt{𝑃𝑄^{2}−𝑃𝑅^{2}} \\ & =\sqrt{(17𝑥)^{2}−(8𝑥)^{2}} \\ & =\sqrt{289𝑥^{2}−64𝑥^{2}} \\ & =\sqrt{225𝑥^{2}} \\ & =15𝑥\end{aligned}
 
 
 $$

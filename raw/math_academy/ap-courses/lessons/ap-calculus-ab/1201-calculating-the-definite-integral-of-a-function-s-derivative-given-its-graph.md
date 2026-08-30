@@ -20,7 +20,7 @@ The fundamental theorem of calculus states that
 $$
 
 
-\int_{0}^{4} f'(x) \: \textrm{d}x = f(4) - f(0),
+\int_{0}^{4} f'(x) \: \text{d}x = f(4) - f(0),
 
 
 $$
@@ -32,7 +32,7 @@ Remember that the integral represents the signed area between the curve and the 
 $$
 
 
-\int_{0}^{4} f'(x)\: \textrm{d}x = \underbrace{\int_{0}^{2} f'(x)\: \textrm{d}x}_{A_1} + \underbrace{\int_{2}^{4} f'(x)\: \textrm{d}x}_{A_2}.
+\int_{0}^{4} f'(x)\: \text{d}x = \underbrace{\int_{0}^{2} f'(x)\: \text{d}x}_{A_1} + \underbrace{\int_{2}^{4} f'(x)\: \text{d}x}_{A_2}.
 
 
 $$
@@ -66,7 +66,7 @@ So, the value of the original integral is
 $$
 
 
-\begin{aligned}∫_{40}^{}𝑓^{′}(𝑥)\,d𝑥 & =𝐴_{1}+𝐴_{2} \\ & =3+4 \\ & =7.\end{aligned}
+\begin{aligned}∫_{40}𝑓^{′}(𝑥)\,d𝑥 & =𝐴_{1}+𝐴_{2} \\ & =3+4 \\ & =7.\end{aligned}
 
 
 $$
@@ -76,7 +76,7 @@ Finally, using the value above and the fact that $f(0)=2,$ we get
 $$
 
 
-\begin{aligned}∫_{40}^{}𝑓^{′}(𝑥)\,d𝑥 & =𝑓(4)−𝑓(0) \\ 7 & =𝑓(4)−2 \\ 𝑓(4) & =9.\end{aligned}
+\begin{aligned}∫_{40}𝑓^{′}(𝑥)\,d𝑥 & =𝑓(4)−𝑓(0) \\ 7 & =𝑓(4)−2 \\ 𝑓(4) & =9.\end{aligned}
 
 
 $$
@@ -96,7 +96,7 @@ From the fundamental theorem of calculus, we find that
 $$
 
 
-\begin{aligned}∫_{5−1}^{}𝑓^{′}(𝑥)\,d𝑥 & =𝑓(5)−𝑓(−1) \\ ∫_{5−1}^{}𝑓^{′}(𝑥)\,d𝑥 & =−2−𝑓(−1) \\ 𝑓(−1) & =−2−∫_{5−1}^{}𝑓^{′}(𝑥)\,d𝑥.\end{aligned}
+\begin{aligned}∫_{5−1}𝑓^{′}(𝑥)\,d𝑥 & =𝑓(5)−𝑓(−1) \\ ∫_{5−1}𝑓^{′}(𝑥)\,d𝑥 & =−2−𝑓(−1) \\ 𝑓(−1) & =−2−∫_{5−1}𝑓^{′}(𝑥)\,d𝑥.\end{aligned}
 
 
 $$
@@ -106,7 +106,7 @@ Now, remember that the integral represents the signed area between the curve and
 $$
 
 
-\int_{-1}^{5} f'(x)\: \textrm{d}x = 1 +(- 2.5) + 3.5 = 2.
+\int_{-1}^{5} f'(x)\: \text{d}x = 1 +(- 2.5) + 3.5 = 2.
 
 
 $$
@@ -116,7 +116,7 @@ Finally, using the value of the integral, we can find $f(-1)\mathbin{:}$
 $$
 
 
-\begin{aligned}𝑓(−1) & =−2−∫_{5−1}^{}𝑓^{′}(𝑥)\,d𝑥 \\ & =−2−2 \\ & =−4.\end{aligned}
+\begin{aligned}𝑓(−1) & =−2−∫_{5−1}𝑓^{′}(𝑥)\,d𝑥 \\ & =−2−2 \\ & =−4.\end{aligned}
 
 
 $$
@@ -136,7 +136,7 @@ The fundamental theorem of calculus states that
 $$
 
 
-\int_{0}^{2} f'(x) \: \textrm{d}x = f(2) - f(0),
+\int_{0}^{2} f'(x) \: \text{d}x = f(2) - f(0),
 
 
 $$
@@ -148,7 +148,7 @@ Remember that the integral represents the signed area between the curve and the 
 $$
 
 
-\int_{0}^{2} f'(x)\: \textrm{d}x = \underbrace{\int_{0}^{1} f'(x)\: \textrm{d}x}_{A_1} + \underbrace{\int_{1}^{2} f'(x)\: \textrm{d}x}_{A_2}.
+\int_{0}^{2} f'(x)\: \text{d}x = \underbrace{\int_{0}^{1} f'(x)\: \text{d}x}_{A_1} + \underbrace{\int_{1}^{2} f'(x)\: \text{d}x}_{A_2}.
 
 
 $$
@@ -178,7 +178,7 @@ So, the value of the original integral is
 $$
 
 
-\begin{aligned}∫_{20}^{}𝑓^{′}(𝑥)\,d𝑥 & =𝐴_{1}+𝐴_{2} \\ & =\frac{3}{2}+\frac{3}{2} \\ & =3.\end{aligned}
+\begin{aligned}∫_{20}𝑓^{′}(𝑥)\,d𝑥 & =𝐴_{1}+𝐴_{2} \\ & =\frac{3}{2}+\frac{3}{2} \\ & =3.\end{aligned}
 
 
 $$

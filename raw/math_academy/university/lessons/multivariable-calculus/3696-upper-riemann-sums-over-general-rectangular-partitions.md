@@ -205,7 +205,7 @@ Therefore,
 $$
 
 
-\begin{aligned}𝑀_{𝑖𝑗} & =𝑓(𝑥_{𝑖−1},𝑦_{𝑗−1})=90−𝑥_{2𝑖−1}^{}−𝑦_{2𝑗−1}^{}\end{aligned}
+\begin{aligned}𝑀_{𝑖𝑗} & =𝑓(𝑥_{𝑖−1},𝑦_{𝑗−1})=90−𝑥_{2𝑖−1}−𝑦_{2𝑗−1}\end{aligned}
 
 
 $$
@@ -217,7 +217,7 @@ Finally, the upper Riemann sum is
 $$
 
 
-\begin{aligned}𝑈(𝑓,𝑃) & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑚}}\underset{\underset{𝑗=1}{∑}}{\overset{}{𝑛}}(90−𝑥_{2𝑖−1}^{}−𝑦_{2𝑗−1}^{})Δ𝑥_{𝑖}Δ𝑦_{𝑗}.\end{aligned}
+\begin{aligned}𝑈(𝑓,𝑃) & =\underset{\underset{𝑖=1}{∑}}{\overset{}{𝑚}}\underset{\underset{𝑗=1}{∑}}{\overset{}{𝑛}}(90−𝑥_{2𝑖−1}−𝑦_{2𝑗−1})Δ𝑥_{𝑖}Δ𝑦_{𝑗}.\end{aligned}
 
 
 $$
