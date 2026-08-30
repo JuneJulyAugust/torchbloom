@@ -34,6 +34,7 @@ This is a raw source archive of lesson pages reached through the student's visib
 - [Probability & Statistics lessons](./probability-and-statistics/index.md) — 181 lesson pages from the active Probability & Statistics course, with prerequisites, text, mathematical expressions, and instructional graphics.
 - [Mathematics for Machine Learning lessons](./mathematics-for-machine-learning/index.md) — 301 lesson pages from the active Mathematics for Machine Learning course, with prerequisites, text, mathematical expressions, and instructional graphics.
 - [Mathematical Methods for the Physical Sciences I lessons](./mathematical-methods-for-the-physical-sciences-i/index.md) — 294 lesson pages from the active Mathematical Methods for the Physical Sciences I course, with prerequisites, text, mathematical expressions, and instructional graphics.
+- [Mathematical Methods for the Physical Sciences II lessons](./mathematical-methods-for-the-physical-sciences-ii/index.md) — 232 lesson pages from the active Mathematical Methods for the Physical Sciences II course, with prerequisites, text, mathematical expressions, and instructional graphics.
 - [Completed Grade 4 task samples](../lesson-samples/grade-4/index.md) — 34 completed activity task pages and their visible question data.
 
 Local images are kept separately in `raw/math_academy/lesson-assets/`, while each Markdown page references the correct asset paths.
